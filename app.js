@@ -2409,6 +2409,7 @@ function saveEdit(row, langCode) {
         const stored = JSON.parse(localStorage.getItem('langmap_corrections') || '[]');
         stored.push(correction);
         localStorage.setItem('langmap_corrections', JSON.stringify(stored));
+        updatePendingBadge();
 
         // Show toast
         const toast = document.getElementById('copyToast');

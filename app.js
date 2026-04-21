@@ -2553,8 +2553,24 @@ function createEditCard(item, realIdx, isSubmitted) {
 
     // Build full before/after text
     const joinSegs = (data) => data ? data.map(([,txt]) => txt).join(' ') : '';
-    const beforeText = joinSegs(item.oldLangData);
+    let beforeText = joinSegs(item.oldLangData);
     const afterText = joinSegs(item.newLangData);
+    // Fallback: reconstruct before from newLangData + corrections diff
+    if (!beforeText && item.newLangData && item.corrections) {
+        const beforeData = JSON.parse(JSON.stringify(item.newLangData));
+        item.corrections.forEach(c => {
+            if (c.action === 'add') {
+                const idx = beforeData.findIndex(([id]) => id === c.seg);
+                if (idx !== -1) beforeData.splice(idx, 1);
+            } else if (c.action === 'remove') {
+                beforeData.push([c.seg, c.old]);
+            } else if (c.old !== undefined && c.old !== null) {
+                const entry = beforeData.find(([id]) => id === c.seg);
+                if (entry) entry[1] = c.old;
+            }
+        });
+        beforeText = joinSegs(beforeData);
+    }
 
     // Also show per-segment diffs for detail
     let segDiffsHtml = '';

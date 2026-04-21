@@ -2602,7 +2602,7 @@ function createEditCard(item, realIdx, isSubmitted) {
     else if (item.adopted === 'rejected') statusBadge = '<span class="edit-status rejected">' + t('rejected') + '</span>';
 
     // Build full before/after text
-    const joinSegs = (data) => data ? data.map(([,txt]) => txt).join(' ') : '';
+    const joinSegs = (data) => data ? data.map(([,txt]) => txt || '').filter(Boolean).join(' ') : '';
     let beforeText = joinSegs(item.oldLangData);
     const afterText = joinSegs(item.newLangData);
     // Fallback: reconstruct before from newLangData + corrections diff
@@ -2627,8 +2627,12 @@ function createEditCard(item, realIdx, isSubmitted) {
     item.corrections.forEach(c => {
         if (c.action === 'reorder') {
             segDiffsHtml += `<span class="edit-seg-diff">[${c.oldOrder}→${c.newOrder}]</span> `;
-        } else if (c.old !== c.new) {
+        } else if (c.old !== c.new && c.old != null && c.new != null) {
             segDiffsHtml += `<span class="edit-seg-diff"><span class="edit-seg">${c.seg}</span>:<del>${c.old}</del>→<ins>${c.new}</ins></span> `;
+        } else if (c.old == null && c.new != null) {
+            segDiffsHtml += `<span class="edit-seg-diff"><span class="edit-seg">${c.seg}</span>:<ins>+${c.new}</ins></span> `;
+        } else if (c.old != null && c.new == null) {
+            segDiffsHtml += `<span class="edit-seg-diff"><span class="edit-seg">${c.seg}</span>:<del>-${c.old}</del></span> `;
         }
     });
 

@@ -6575,7 +6575,7 @@ const SENTENCES = [
         ],
         [
           "K",
-          "려관"
+          "旅館"
         ],
         [
           "J",
@@ -6595,7 +6595,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "의복을"
+          "衣服을"
         ],
         [
           "C",
@@ -11815,7 +11815,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "다나카"
+          "田中"
         ],
         [
           "C",
@@ -16376,7 +16376,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "辰시에"
+          "辰時에"
         ],
         [
           "B",
@@ -16398,7 +16398,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "진시에"
+          "辰時에"
         ],
         [
           "B",
@@ -20535,7 +20535,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "역이"
+          "驛이"
         ],
         [
           "C",
@@ -24718,11 +24718,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "차 달인 물은"
+          "茶 달인 물은"
         ],
         [
           "C",
-          "심히"
+          "甚히"
         ],
         [
           "D",
@@ -28816,11 +28816,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "성균관에서"
+          "大學에서"
         ],
         [
           "C",
-          "일본말을"
+          "日本말을"
         ],
         [
           "D",
@@ -44452,7 +44452,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "識唔識"
+          "識"
+        ],
+        [
+          "E",
+          "唔識"
         ],
         [
           "C",
@@ -44926,7 +44930,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "るん"
+          "る"
+        ],
+        [
+          "E",
+          "ん"
         ]
       ],
       "ja_aom": [
@@ -44944,7 +44952,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "るんだがや"
+          "る"
+        ],
+        [
+          "E",
+          "んだがや"
         ]
       ],
       "ja_oki": [
@@ -44980,7 +44992,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "ると"
+          "る"
+        ],
+        [
+          "E",
+          "と"
         ]
       ],
       "ko_kp": [
@@ -45020,7 +45036,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "있나"
+          "있"
+        ],
+        [
+          "E",
+          "나"
         ]
       ],
       "nan": [
@@ -45038,7 +45058,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "英語無"
+          "英語"
+        ],
+        [
+          "E",
+          "無"
         ]
       ],
       "wuu": [
@@ -45048,7 +45072,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "会勿会"
+          "会"
+        ],
+        [
+          "E",
+          "勿会"
         ],
         [
           "C",
@@ -45182,7 +45210,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "給ふや"
+          "給ふ"
+        ],
+        [
+          "E",
+          "や"
         ]
       ],
       "ar_eg": [
@@ -45628,7 +45660,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "이시쿠과"
+          "이시"
+        ],
+        [
+          "E",
+          "쿠과"
         ]
       ],
       "lo": [
@@ -45934,7 +45970,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "るんかいの"
+          "る"
+        ],
+        [
+          "E",
+          "んかいの"
         ]
       ],
       "ja_mvi": [
@@ -46034,7 +46074,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "英语不嘛"
+          "英语"
+        ],
+        [
+          "E",
+          "不嘛"
         ]
       ],
       "zh_db": [
@@ -46052,7 +46096,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "英语不"
+          "英语"
+        ],
+        [
+          "E",
+          "不"
         ]
       ],
       "nap": [
@@ -47136,7 +47184,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "英文無"
+          "英文"
+        ],
+        [
+          "E",
+          "無"
         ]
       ],
       "sux": [
@@ -47262,7 +47314,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "잇ᄂᆞ뇨"
+          "잇"
+        ],
+        [
+          "E",
+          "ᄂᆞ뇨"
         ]
       ],
       "ko_em": [
@@ -47280,7 +47336,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "있나이까"
+          "있"
+        ],
+        [
+          "E",
+          "나이까"
         ]
       ],
       "zh_han": [
@@ -47298,7 +47358,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "英語乎"
+          "英語"
+        ],
+        [
+          "E",
+          "乎"
         ]
       ],
       "zh_tang": [
@@ -47316,7 +47380,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "英語否"
+          "英語"
+        ],
+        [
+          "E",
+          "否"
         ]
       ],
       "ceb": [
@@ -47498,7 +47566,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "있슴까"
+          "있"
+        ],
+        [
+          "E",
+          "슴까"
         ]
       ],
       "mn_cn": [
@@ -48218,7 +48290,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "英語無"
+          "英語"
+        ],
+        [
+          "E",
+          "無"
         ]
       ],
       "enm": [
@@ -220027,7 +220103,7 @@ const SENTENCES = [
         [
           "C",
           "去散步"
-        ],
+        ]
       ],
       "yue": [
         [
@@ -220041,7 +220117,7 @@ const SENTENCES = [
         [
           "C",
           "去散步"
-        ],
+        ]
       ],
       "zh_song": [
         [
@@ -220055,7 +220131,7 @@ const SENTENCES = [
         [
           "C",
           "出去 散步"
-        ],
+        ]
       ],
       "vi": [
         [
@@ -220127,7 +220203,7 @@ const SENTENCES = [
         [
           "C",
           "ออกไปเดิน เดินเล่น"
-        ],
+        ]
       ],
       "id": [
         [
@@ -220223,7 +220299,7 @@ const SENTENCES = [
         [
           "C",
           "to go for walks"
-        ],
+        ]
       ],
       "en_aave": [
         [
@@ -220241,7 +220317,7 @@ const SENTENCES = [
         [
           "C",
           "goin' on walks"
-        ],
+        ]
       ],
       "en_south": [
         [
@@ -220259,7 +220335,7 @@ const SENTENCES = [
         [
           "C",
           "goin' for walks"
-        ],
+        ]
       ],
       "en_ie": [
         [
@@ -220277,7 +220353,7 @@ const SENTENCES = [
         [
           "C",
           "to go for walks"
-        ],
+        ]
       ],
       "en_sco": [
         [
@@ -220291,7 +220367,7 @@ const SENTENCES = [
         [
           "C",
           "tae go for walks"
-        ],
+        ]
       ],
       "en_app": [
         [
@@ -220309,7 +220385,7 @@ const SENTENCES = [
         [
           "C",
           "goin' for walks"
-        ],
+        ]
       ],
       "de": [
         [
@@ -220363,7 +220439,7 @@ const SENTENCES = [
         [
           "C",
           "andare a fare passeggiate"
-        ],
+        ]
       ],
       "ru": [
         [
@@ -220409,7 +220485,7 @@ const SENTENCES = [
         [
           "C",
           "الذهاب في نزهة"
-        ],
+        ]
       ],
       "he": [
         [
@@ -220427,7 +220503,7 @@ const SENTENCES = [
         [
           "C",
           "לצאת לטיולים"
-        ],
+        ]
       ],
       "vi_nom": [
         [
@@ -220571,7 +220647,7 @@ const SENTENCES = [
         [
           "C",
           "去 行路"
-        ],
+        ]
       ],
       "wuu": [
         [
@@ -220585,7 +220661,7 @@ const SENTENCES = [
         [
           "C",
           "出去 散步"
-        ],
+        ]
       ],
       "es_eu": [
         [
@@ -220599,7 +220675,7 @@ const SENTENCES = [
         [
           "C",
           "salir a caminar"
-        ],
+        ]
       ],
       "es_mx": [
         [
@@ -220613,7 +220689,7 @@ const SENTENCES = [
         [
           "C",
           "salir a pasear"
-        ],
+        ]
       ],
       "pt_eu": [
         [
@@ -220667,7 +220743,7 @@ const SENTENCES = [
         [
           "C",
           "kwenda matembezi"
-        ],
+        ]
       ],
       "ja_edo": [
         [
@@ -220995,7 +221071,7 @@ const SENTENCES = [
         [
           "C",
           "lenkillä käymisestä"
-        ],
+        ]
       ],
       "cy": [
         [
@@ -221009,7 +221085,7 @@ const SENTENCES = [
         [
           "C",
           "yn hoffi mynd am dro"
-        ],
+        ]
       ],
       "en_yk": [
         [
@@ -221023,7 +221099,7 @@ const SENTENCES = [
         [
           "C",
           "goin' for walks"
-        ],
+        ]
       ],
       "en_ck": [
         [
@@ -221041,7 +221117,7 @@ const SENTENCES = [
         [
           "C",
           "goin' for walks"
-        ],
+        ]
       ],
       "sa": [
         [
@@ -221115,7 +221191,7 @@ const SENTENCES = [
         [
           "C",
           "ອອກໄປເດິນ ຍ່າງຫຼິ້ນ"
-        ],
+        ]
       ],
       "jv": [
         [
@@ -221175,7 +221251,7 @@ const SENTENCES = [
         [
           "C",
           "τις βόλτες"
-        ],
+        ]
       ],
       "ka": [
         [
@@ -221259,7 +221335,7 @@ const SENTENCES = [
         [
           "C",
           "e hele holoholo"
-        ],
+        ]
       ],
       "bo": [
         [
@@ -221447,7 +221523,7 @@ const SENTENCES = [
         [
           "C",
           "出切 散步"
-        ],
+        ]
       ],
       "zh_db": [
         [
@@ -221461,7 +221537,7 @@ const SENTENCES = [
         [
           "C",
           "出去 遛弯儿"
-        ],
+        ]
       ],
       "nap": [
         [
@@ -221475,7 +221551,7 @@ const SENTENCES = [
         [
           "C",
           "jì a fa' 'na cammenata"
-        ],
+        ]
       ],
       "scn": [
         [
@@ -221489,7 +221565,7 @@ const SENTENCES = [
         [
           "C",
           "iri a fari passiati"
-        ],
+        ]
       ],
       "de_gsw": [
         [
@@ -221539,7 +221615,7 @@ const SENTENCES = [
         [
           "C",
           "tae gang for walks"
-        ],
+        ]
       ],
       "en_sg": [
         [
@@ -221557,7 +221633,7 @@ const SENTENCES = [
         [
           "C",
           "go walk walk one"
-        ],
+        ]
       ],
       "hwc": [
         [
@@ -221575,7 +221651,7 @@ const SENTENCES = [
         [
           "C",
           "go for walks"
-        ],
+        ]
       ],
       "pcm": [
         [
@@ -221593,7 +221669,7 @@ const SENTENCES = [
         [
           "C",
           "to dey waka waka"
-        ],
+        ]
       ],
       "tpi": [
         [
@@ -221607,7 +221683,7 @@ const SENTENCES = [
         [
           "C",
           "go wokabaut"
-        ],
+        ]
       ],
       "el_grc": [
         [
@@ -221671,7 +221747,7 @@ const SENTENCES = [
         [
           "C",
           "tō gānne on sīþfæte"
-        ],
+        ]
       ],
       "si": [
         [
@@ -221703,7 +221779,7 @@ const SENTENCES = [
         [
           "C",
           "să meargă la plimbări"
-        ],
+        ]
       ],
       "cs": [
         [
@@ -221721,7 +221797,7 @@ const SENTENCES = [
         [
           "C",
           "chodí na procházky"
-        ],
+        ]
       ],
       "ca": [
         [
@@ -221735,7 +221811,7 @@ const SENTENCES = [
         [
           "C",
           "anar a passejar"
-        ],
+        ]
       ],
       "da": [
         [
@@ -221753,7 +221829,7 @@ const SENTENCES = [
         [
           "C",
           "at gå ture"
-        ],
+        ]
       ],
       "is": [
         [
@@ -221767,7 +221843,7 @@ const SENTENCES = [
         [
           "C",
           "að fara í göngutúra"
-        ],
+        ]
       ],
       "lt": [
         [
@@ -221781,7 +221857,7 @@ const SENTENCES = [
         [
           "C",
           "eiti pasivaikščioti"
-        ],
+        ]
       ],
       "sq": [
         [
@@ -221795,7 +221871,7 @@ const SENTENCES = [
         [
           "C",
           "të shkojë në shëtitje"
-        ],
+        ]
       ],
       "mt": [
         [
@@ -221809,7 +221885,7 @@ const SENTENCES = [
         [
           "C",
           "joħroġ jimxi"
-        ],
+        ]
       ],
       "so": [
         [
@@ -221823,7 +221899,7 @@ const SENTENCES = [
         [
           "C",
           "inuu socdo"
-        ],
+        ]
       ],
       "ha": [
         [
@@ -221837,7 +221913,7 @@ const SENTENCES = [
         [
           "C",
           "yin tafiya"
-        ],
+        ]
       ],
       "ig": [
         [
@@ -221851,7 +221927,7 @@ const SENTENCES = [
         [
           "C",
           "ịga ije ije"
-        ],
+        ]
       ],
       "eo": [
         [
@@ -221865,7 +221941,7 @@ const SENTENCES = [
         [
           "C",
           "iri promenojn"
-        ],
+        ]
       ],
       "tok": [
         [
@@ -221879,7 +221955,7 @@ const SENTENCES = [
         [
           "C",
           "tawa lon nasin"
-        ],
+        ]
       ],
       "ht": [
         [
@@ -221893,7 +221969,7 @@ const SENTENCES = [
         [
           "C",
           "al fè pwomnad"
-        ],
+        ]
       ],
       "ml": [
         [
@@ -221985,7 +222061,7 @@ const SENTENCES = [
         [
           "C",
           "да иде у шетњу"
-        ],
+        ]
       ],
       "bg": [
         [
@@ -221999,7 +222075,7 @@ const SENTENCES = [
         [
           "C",
           "да ходи на разходки"
-        ],
+        ]
       ],
       "sk": [
         [
@@ -222013,7 +222089,7 @@ const SENTENCES = [
         [
           "C",
           "chodí na prechádzky"
-        ],
+        ]
       ],
       "lv": [
         [
@@ -222027,7 +222103,7 @@ const SENTENCES = [
         [
           "C",
           "doties pastaigās"
-        ],
+        ]
       ],
       "et": [
         [
@@ -222045,7 +222121,7 @@ const SENTENCES = [
         [
           "C",
           "minna jalutama"
-        ],
+        ]
       ],
       "be": [
         [
@@ -222059,7 +222135,7 @@ const SENTENCES = [
         [
           "C",
           "хадзіць на прагулкі"
-        ],
+        ]
       ],
       "om": [
         [
@@ -222101,7 +222177,7 @@ const SENTENCES = [
         [
           "C",
           "dem doxantu"
-        ],
+        ]
       ],
       "ln": [
         [
@@ -222115,7 +222191,7 @@ const SENTENCES = [
         [
           "C",
           "kokende kotambola"
-        ],
+        ]
       ],
       "sn": [
         [
@@ -222129,7 +222205,7 @@ const SENTENCES = [
         [
           "C",
           "kuenda kufamba-famba"
-        ],
+        ]
       ],
       "xh": [
         [
@@ -222143,7 +222219,7 @@ const SENTENCES = [
         [
           "C",
           "ukuhamba iindlela"
-        ],
+        ]
       ],
       "lad": [
         [
@@ -222161,7 +222237,7 @@ const SENTENCES = [
         [
           "C",
           "ir a paseos"
-        ],
+        ]
       ],
       "tlh": [
         [
@@ -222189,7 +222265,7 @@ const SENTENCES = [
         [
           "C",
           "lo nu cadzu klama"
-        ],
+        ]
       ],
       "fj": [
         [
@@ -222217,7 +222293,7 @@ const SENTENCES = [
         [
           "C",
           "e savali atu"
-        ],
+        ]
       ],
       "cop": [
         [
@@ -222231,7 +222307,7 @@ const SENTENCES = [
         [
           "C",
           "ⲉⲙⲟϣⲓ ⲛϩⲁⲛⲙⲟϣⲓ"
-        ],
+        ]
       ],
       "rom": [
         [
@@ -222259,7 +222335,7 @@ const SENTENCES = [
         [
           "C",
           "mont da bale"
-        ],
+        ]
       ],
       "ps": [
         [
@@ -222319,7 +222395,7 @@ const SENTENCES = [
         [
           "C",
           "צו גיין אויף שפּאַצירן"
-        ],
+        ]
       ],
       "non": [
         [
@@ -222333,7 +222409,7 @@ const SENTENCES = [
         [
           "C",
           "at ganga á gǫngu"
-        ],
+        ]
       ],
       "arc": [
         [
@@ -222347,7 +222423,7 @@ const SENTENCES = [
         [
           "C",
           "לְמֵיזַל בְּ טִיּוּלָא"
-        ],
+        ]
       ],
       "en_au": [
         [
@@ -222361,7 +222437,7 @@ const SENTENCES = [
         [
           "C",
           "going for walks"
-        ],
+        ]
       ],
       "en_in": [
         [
@@ -222379,7 +222455,7 @@ const SENTENCES = [
         [
           "C",
           "to go for walks"
-        ],
+        ]
       ],
       "es_ar": [
         [
@@ -222393,7 +222469,7 @@ const SENTENCES = [
         [
           "C",
           "salir a pasear"
-        ],
+        ]
       ],
       "ar_iq": [
         [
@@ -222407,7 +222483,7 @@ const SENTENCES = [
         [
           "C",
           "يطلع يتمشه"
-        ],
+        ]
       ],
       "hak_cn": [
         [
@@ -222421,7 +222497,7 @@ const SENTENCES = [
         [
           "C",
           "去散步"
-        ],
+        ]
       ],
       "sux": [
         [
@@ -222477,7 +222553,7 @@ const SENTENCES = [
         [
           "C",
           "nemi nehnēmiliztli"
-        ],
+        ]
       ],
       "myn": [
         [
@@ -222491,7 +222567,7 @@ const SENTENCES = [
         [
           "C",
           "u bin xìimbal"
-        ],
+        ]
       ],
       "ine": [
         [
@@ -222505,7 +222581,7 @@ const SENTENCES = [
         [
           "C",
           "*gʷem- *h₁i-trom"
-        ],
+        ]
       ],
       "ko_mid": [
         [
@@ -222555,7 +222631,7 @@ const SENTENCES = [
         [
           "C",
           "出 行"
-        ],
+        ]
       ],
       "zh_tang": [
         [
@@ -222569,7 +222645,7 @@ const SENTENCES = [
         [
           "C",
           "出而 散步"
-        ],
+        ]
       ],
       "ceb": [
         [
@@ -222611,7 +222687,7 @@ const SENTENCES = [
         [
           "C",
           "ไปเดิน เล่น"
-        ],
+        ]
       ],
       "es_co": [
         [
@@ -222625,7 +222701,7 @@ const SENTENCES = [
         [
           "C",
           "salir a caminar"
-        ],
+        ]
       ],
       "es_cl": [
         [
@@ -222639,7 +222715,7 @@ const SENTENCES = [
         [
           "C",
           "salir a pasear"
-        ],
+        ]
       ],
       "gl": [
         [
@@ -222653,7 +222729,7 @@ const SENTENCES = [
         [
           "C",
           "saír a pasear"
-        ],
+        ]
       ],
       "oc": [
         [
@@ -222667,7 +222743,7 @@ const SENTENCES = [
         [
           "C",
           "anar passejar"
-        ],
+        ]
       ],
       "fo": [
         [
@@ -222681,7 +222757,7 @@ const SENTENCES = [
         [
           "C",
           "at fara á gongutúr"
-        ],
+        ]
       ],
       "jam": [
         [
@@ -222699,7 +222775,7 @@ const SENTENCES = [
         [
           "C",
           "go fi waak"
-        ],
+        ]
       ],
       "pap": [
         [
@@ -222713,7 +222789,7 @@ const SENTENCES = [
         [
           "C",
           "bai landa"
-        ],
+        ]
       ],
       "ko_yb": [
         [
@@ -222815,7 +222891,7 @@ const SENTENCES = [
         [
           "C",
           "om te gaan stap"
-        ],
+        ]
       ],
       "az": [
         [
@@ -222913,7 +222989,7 @@ const SENTENCES = [
         [
           "C",
           "å gå turar"
-        ],
+        ]
       ],
       "got": [
         [
@@ -222927,7 +223003,7 @@ const SENTENCES = [
         [
           "C",
           "𐌳𐌿 𐌲𐌰𐌲𐌲𐌰𐌽 𐌲𐌰𐌲𐌲𐌰𐌼"
-        ],
+        ]
       ],
       "cu": [
         [
@@ -222941,7 +223017,7 @@ const SENTENCES = [
         [
           "C",
           "ходити на гоулꙗниꙗ"
-        ],
+        ]
       ],
       "pi": [
         [
@@ -222955,7 +223031,7 @@ const SENTENCES = [
         [
           "C",
           "gamitum cankamam"
-        ],
+        ]
       ],
       "rm": [
         [
@@ -222969,7 +223045,7 @@ const SENTENCES = [
         [
           "C",
           "dad ir a spassegiar"
-        ],
+        ]
       ],
       "fy": [
         [
@@ -223021,7 +223097,7 @@ const SENTENCES = [
         [
           "C",
           "التمشية برشا"
-        ],
+        ]
       ],
       "ar_sd": [
         [
@@ -223035,7 +223111,7 @@ const SENTENCES = [
         [
           "C",
           "المشي خلاص"
-        ],
+        ]
       ],
       "es_cu": [
         [
@@ -223053,7 +223129,7 @@ const SENTENCES = [
         [
           "C",
           "paseá un montón"
-        ],
+        ]
       ],
       "es_pe": [
         [
@@ -223071,7 +223147,7 @@ const SENTENCES = [
         [
           "C",
           "pasear bastante"
-        ],
+        ]
       ],
       "es_an": [
         [
@@ -223089,7 +223165,7 @@ const SENTENCES = [
         [
           "C",
           "paseá un montón"
-        ],
+        ]
       ],
       "fr_af": [
         [
@@ -223107,7 +223183,7 @@ const SENTENCES = [
         [
           "C",
           "se promener beaucoup"
-        ],
+        ]
       ],
       "fr_be": [
         [
@@ -223305,7 +223381,7 @@ const SENTENCES = [
         [
           "C",
           "kugenda gutembera"
-        ],
+        ]
       ],
       "ny": [
         [
@@ -223319,7 +223395,7 @@ const SENTENCES = [
         [
           "C",
           "kupita kuyenda"
-        ],
+        ]
       ],
       "tk": [
         [
@@ -223347,7 +223423,7 @@ const SENTENCES = [
         [
           "C",
           "去 行路"
-        ],
+        ]
       ],
       "enm": [
         [
@@ -223361,7 +223437,7 @@ const SENTENCES = [
         [
           "C",
           "to gon for a walkynge"
-        ],
+        ]
       ],
       "fr_ch": [
         [
@@ -223393,7 +223469,7 @@ const SENTENCES = [
         [
           "C",
           "iti na sprehod"
-        ],
+        ]
       ],
       "pau": [
         [
@@ -423213,11 +423289,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "음식을"
+          "飲食을"
         ],
         [
           "C",
-          "주문ᄒᆞ고"
+          "注文ᄒᆞ고"
         ],
         [
           "B",
@@ -423235,11 +423311,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "요리를"
+          "料理를"
         ],
         [
           "C",
-          "주문하고"
+          "注文하고"
         ],
         [
           "B",
@@ -423517,7 +423593,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "요리를"
+          "료리를"
         ],
         [
           "C",
@@ -427292,7 +427368,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "선물은"
+          "膳物은"
         ],
         [
           "C",
@@ -430328,7 +430404,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "감사하나이다"
+          "感謝하나이다"
         ]
       ],
       "zh_han": [

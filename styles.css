@@ -980,6 +980,13 @@ select:focus { border-color: #4a90d9; outline: none; }
     }
 }
 
+/* Group pill for "all selected" summary */
+.lang-pill-group {
+    background: #4a90d9;
+    color: #fff;
+    font-weight: 600;
+}
+
 /* ── Segment Reference Translations ─────────────── */
 .segment-refs {
     display: flex;

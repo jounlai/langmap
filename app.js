@@ -413,6 +413,17 @@ function updateURL() {
     }
 }
 
+function applyStoredCorrections() {
+    const stored = JSON.parse(localStorage.getItem('langmap_corrections') || '[]');
+    for (const item of stored) {
+        if (!item.newLangData) continue;
+        const s = SENTENCES.find(s => s.id === item.sentenceId);
+        if (s && s.langs[item.lang]) {
+            s.langs[item.lang] = item.newLangData;
+        }
+    }
+}
+
 function loadFromHash() {
     const hash = location.hash.slice(1);
     if (!hash) return;
@@ -522,6 +533,9 @@ function scheduleRedrawLines() {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+    // Apply saved corrections from localStorage to in-memory SENTENCES
+    applyStoredCorrections();
+
     // Restore state from URL hash before building UI
     loadFromHash();
 
@@ -2385,6 +2399,8 @@ function saveEdit(row, langCode) {
             sentenceId: sentence.id,
             lang: langCode,
             corrections,
+            // Store full new data for replay on reload
+            newLangData: JSON.parse(JSON.stringify(newLangData)),
             timestamp: new Date().toISOString(),
             submitted: false,
             adopted: false,

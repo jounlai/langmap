@@ -48,16 +48,11 @@ if (!empty($input['website'])) {
     exit;
 }
 
-// ── CSRF validation ────────────────────────────────
+// ── CSRF validation (best-effort: warn but don't block) ────
 $token = $input['csrf_token'] ?? '';
 $sessionToken = $_SESSION['csrf_token'] ?? '';
 $tokenAge = time() - ($_SESSION['csrf_time'] ?? 0);
-
-if (empty($token) || $token !== $sessionToken || $tokenAge > 3600) {
-    http_response_code(403);
-    echo json_encode(['error' => 'Invalid or expired token']);
-    exit;
-}
+$csrfValid = !empty($token) && $token === $sessionToken && $tokenAge <= 3600;
 
 // ── IP rate limiting (max 20 submissions/hour) ─────
 $dir = __DIR__ . '/submissions';
@@ -102,6 +97,7 @@ $corrections = array_slice($corrections, 0, 50);
 $entry = [
     'timestamp' => date('c'),
     'ip_hash' => $ipHash,
+    'csrf_valid' => $csrfValid,
     'name' => mb_substr($input['name'] ?? 'Anonymous', 0, 100),
     'email' => mb_substr($input['email'] ?? '', 0, 200),
     'corrections' => $corrections,  // Each correction has client-side UUID

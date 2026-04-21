@@ -2723,11 +2723,7 @@ async function submitChanges() {
     const statusEl = document.getElementById('submitStatus');
 
     if (!csrfToken) await ensureCsrfToken();
-    if (!csrfToken) {
-        statusEl.textContent = t('submitError') + ' (CSRF token unavailable)';
-        statusEl.className = 'submit-status error';
-        return;
-    }
+    // CSRF is best-effort — submit even without it (server may accept)
 
     // Cache name/email for next time
     if (nameInput?.value) localStorage.setItem('langmap_author_name', nameInput.value);

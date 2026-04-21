@@ -979,3 +979,147 @@ select:focus { border-color: #4a90d9; outline: none; }
         opacity: 1 !important;
     }
 }
+
+/* ── Segment Reference Translations ─────────────── */
+.segment-refs {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 4px;
+    padding: 3px 6px;
+    background: rgba(0,0,0,0.03);
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 1.4;
+    color: #888;
+    max-width: 200px;
+}
+.ref-line { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ref-label { font-weight: 700; font-size: 9px; color: #aaa; margin-right: 3px; }
+
+/* ── CTA Banner ─────────────────────────────────── */
+.cta-banner {
+    background: linear-gradient(135deg, #e3f0ff, #f0e6ff);
+    border: 1px solid rgba(74,144,217,0.2);
+    border-radius: 8px;
+    padding: 10px 16px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 13px;
+    color: #555;
+}
+.cta-dismiss {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #999;
+    cursor: pointer;
+    padding: 0 4px;
+}
+.cta-dismiss:hover { color: #333; }
+
+/* ── Pending Edits Badge (floating) ─────────────── */
+.pending-edits-badge {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: #4a90d9;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 100;
+    transition: transform 0.2s, background 0.2s;
+    user-select: none;
+}
+.pending-edits-badge:hover { transform: scale(1.05); background: #357abd; }
+
+/* ── Edit History Modal ─────────────────────────── */
+.edit-history-overlay, .submit-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 200;
+    justify-content: center;
+    align-items: center;
+}
+.edit-history-overlay.open, .submit-overlay.open { display: flex; }
+
+.edit-history-modal {
+    background: #fff;
+    border-radius: 12px;
+    width: min(560px, 90vw);
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+.edit-history-header, .submit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    border-bottom: 1px solid #eee;
+    font-weight: 600;
+    font-size: 16px;
+}
+.edit-history-body {
+    overflow-y: auto;
+    padding: 12px 20px;
+    flex: 1;
+}
+.edit-history-footer, .submit-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 12px 20px;
+    border-top: 1px solid #eee;
+}
+
+/* Edit cards */
+.edit-card {
+    border-left: 3px solid #4a90d9;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    border-radius: 0 6px 6px 0;
+    background: #f8f9fa;
+    font-size: 13px;
+}
+.edit-card.submitted { border-left-color: #95a5a6; opacity: 0.7; }
+.edit-card-header { display: flex; justify-content: space-between; align-items: center; }
+.edit-card-time { font-size: 11px; color: #999; }
+.edit-card-title { font-size: 11px; color: #888; margin: 2px 0 6px; }
+.edit-diff { margin: 2px 0; }
+.edit-diff del { color: #e74c3c; text-decoration: line-through; }
+.edit-diff ins { color: #27ae60; text-decoration: none; font-weight: 600; }
+.edit-seg { font-weight: 700; color: #555; font-size: 11px; }
+.edit-delete-btn {
+    background: none; border: none; color: #ccc; font-size: 18px;
+    cursor: pointer; padding: 0 4px; line-height: 1;
+}
+.edit-delete-btn:hover { color: #e74c3c; }
+.edit-status {
+    font-size: 10px; font-weight: 700; padding: 2px 6px;
+    border-radius: 3px; margin-left: 6px;
+}
+.edit-status.submitted { background: #95a5a6; color: #fff; }
+.edit-status.adopted { background: #27ae60; color: #fff; }
+
+/* ── Submit Modal ───────────────────────────────── */
+.submit-modal {
+    background: #fff;
+    border-radius: 12px;
+    width: min(420px, 90vw);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+.submit-body { padding: 16px 20px; }
+.submit-status { font-size: 13px; margin-top: 8px; min-height: 20px; }
+.submit-status.success { color: #27ae60; }
+.submit-status.error { color: #e74c3c; }

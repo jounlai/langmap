@@ -1894,6 +1894,31 @@ function createSegmentWrapper(seg, langCode) {
     }
     wrapper.appendChild(deleteBtn);
 
+    // Reference translations (ja, zh, en, es_mx, ar — minus current lang)
+    const refLangs = ['ja','zh','en','es_mx','ar'].filter(l => l !== langCode);
+    const refDiv = document.createElement('div');
+    refDiv.className = 'segment-refs';
+    const segId = seg.dataset.seg;
+    refLangs.forEach(rl => {
+        const rlData = sentence.langs[rl];
+        if (!rlData) return;
+        const subIds = segId.split('|');
+        const matchedTexts = rlData.filter(([id]) => {
+            const ids = id.split('|');
+            return subIds.some(s => ids.includes(s));
+        }).map(([,txt]) => txt);
+        if (matchedTexts.length === 0) return;
+        const line = document.createElement('span');
+        line.className = 'ref-line';
+        const label = document.createElement('span');
+        label.className = 'ref-label';
+        label.textContent = rl.toUpperCase().replace('_MX','');
+        line.appendChild(label);
+        line.appendChild(document.createTextNode(' ' + matchedTexts.join(' ')));
+        refDiv.appendChild(line);
+    });
+    if (refDiv.children.length > 0) wrapper.appendChild(refDiv);
+
     // Touch reorder support
     setupTouchReorder(handle, wrapper);
 
@@ -2390,9 +2415,207 @@ function exitEditMode() {
 // Keyboard shortcuts
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && editingRow) { exitEditMode(); return; }
-    if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+    if (e.key === 'Escape') { closeEditHistory(); closeSubmitModal(); return; }
+    if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
     if (document.getElementById('langModalOverlay')?.classList.contains('open')) return;
     if (e.key === 'ArrowLeft') prevSentence();
     if (e.key === 'ArrowRight') nextSentence();
     if (e.key === 'r' && !e.ctrlKey && !e.metaKey) randomSentence();
 });
+
+// ── Pending Edits Badge & Edit History Modal ─────────────────
+function getPendingCorrections() {
+    return JSON.parse(localStorage.getItem('langmap_corrections') || '[]')
+        .filter(c => !c.submitted);
+}
+
+function getAllCorrections() {
+    return JSON.parse(localStorage.getItem('langmap_corrections') || '[]');
+}
+
+function updatePendingBadge() {
+    let badge = document.getElementById('pendingBadge');
+    const pending = getPendingCorrections();
+    if (pending.length === 0) {
+        if (badge) badge.style.display = 'none';
+        return;
+    }
+    if (!badge) {
+        badge = document.createElement('div');
+        badge.id = 'pendingBadge';
+        badge.className = 'pending-edits-badge';
+        badge.addEventListener('click', openEditHistory);
+        document.body.appendChild(badge);
+    }
+    badge.textContent = `✏️ ${pending.length} edit${pending.length > 1 ? 's' : ''}`;
+    badge.style.display = '';
+}
+
+function openEditHistory() {
+    const overlay = document.getElementById('editHistoryOverlay');
+    if (!overlay) return;
+    overlay.classList.add('open');
+    renderEditHistory();
+}
+
+function closeEditHistory() {
+    const overlay = document.getElementById('editHistoryOverlay');
+    if (overlay) overlay.classList.remove('open');
+}
+
+function renderEditHistory() {
+    const body = document.getElementById('editHistoryBody');
+    if (!body) return;
+    body.innerHTML = '';
+    const all = getAllCorrections();
+    if (all.length === 0) {
+        body.innerHTML = '<p style="text-align:center;color:#999;padding:20px;">No edits yet. Click ✏️ on any language row to start.</p>';
+        return;
+    }
+    all.forEach((item, idx) => {
+        const card = document.createElement('div');
+        card.className = 'edit-card' + (item.submitted ? ' submitted' : '');
+        const s = SENTENCES.find(s => s.id === item.sentenceId);
+        const title = s ? s.title : `Sentence ${item.sentenceId}`;
+        const lang = langName(item.lang);
+        const time = new Date(item.timestamp).toLocaleString();
+        let statusBadge = '';
+        if (item.submitted) statusBadge = '<span class="edit-status submitted">Submitted</span>';
+        if (item.adopted) statusBadge = '<span class="edit-status adopted">Adopted ✓</span>';
+
+        let correctionsHtml = '';
+        item.corrections.forEach(c => {
+            if (c.action === 'reorder') {
+                correctionsHtml += `<div class="edit-diff">Reorder: ${c.oldOrder} → ${c.newOrder}</div>`;
+            } else {
+                correctionsHtml += `<div class="edit-diff"><span class="edit-seg">${c.seg}</span> <del>${c.old}</del> → <ins>${c.new}</ins></div>`;
+            }
+        });
+
+        card.innerHTML = `
+            <div class="edit-card-header">
+                <div><strong>[#${item.sentenceId}]</strong> ${lang} ${statusBadge}</div>
+                <div class="edit-card-time">${time}</div>
+            </div>
+            <div class="edit-card-title">${title}</div>
+            ${correctionsHtml}
+        `;
+        if (!item.submitted) {
+            const delBtn = document.createElement('button');
+            delBtn.className = 'edit-delete-btn';
+            delBtn.textContent = '×';
+            delBtn.title = 'Delete this edit';
+            delBtn.addEventListener('click', () => deleteCorrection(idx));
+            card.querySelector('.edit-card-header').appendChild(delBtn);
+        }
+        body.appendChild(card);
+    });
+    // Update submit button state
+    const submitBtn = document.getElementById('btnSubmitChanges');
+    if (submitBtn) {
+        const pending = getPendingCorrections();
+        submitBtn.disabled = pending.length === 0;
+        submitBtn.textContent = pending.length > 0
+            ? `Submit ${pending.length} change${pending.length > 1 ? 's' : ''}`
+            : 'No pending changes';
+    }
+}
+
+function deleteCorrection(idx) {
+    const all = getAllCorrections();
+    all.splice(idx, 1);
+    localStorage.setItem('langmap_corrections', JSON.stringify(all));
+    renderEditHistory();
+    updatePendingBadge();
+}
+
+// ── Submit Modal ─────────────────────────────────────────────
+let csrfToken = null;
+
+async function fetchCsrfToken() {
+    try {
+        const res = await fetch('/submit.php?csrf=1');
+        const data = await res.json();
+        csrfToken = data.token;
+        sessionStorage.setItem('langmap_csrf', csrfToken);
+    } catch (e) {
+        csrfToken = sessionStorage.getItem('langmap_csrf');
+    }
+}
+
+function openSubmitModal() {
+    closeEditHistory();
+    const overlay = document.getElementById('submitOverlay');
+    if (!overlay) return;
+    overlay.classList.add('open');
+    if (!csrfToken) fetchCsrfToken();
+}
+
+function closeSubmitModal() {
+    const overlay = document.getElementById('submitOverlay');
+    if (overlay) overlay.classList.remove('open');
+}
+
+async function submitChanges() {
+    const pending = getPendingCorrections();
+    if (pending.length === 0) return;
+
+    const nameInput = document.getElementById('submitName');
+    const emailInput = document.getElementById('submitEmail');
+    const honeypot = document.getElementById('submitWebsite');
+    const statusEl = document.getElementById('submitStatus');
+
+    if (!csrfToken) await fetchCsrfToken();
+
+    const payload = {
+        csrf_token: csrfToken,
+        name: nameInput?.value || 'Anonymous',
+        email: emailInput?.value || '',
+        website: honeypot?.value || '',
+        corrections: pending,
+    };
+
+    statusEl.textContent = 'Submitting...';
+    statusEl.className = 'submit-status';
+
+    try {
+        const res = await fetch('/submit.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+        });
+        const data = await res.json();
+        if (data.ok) {
+            // Mark all pending as submitted
+            const all = getAllCorrections();
+            all.forEach(c => { if (!c.submitted) c.submitted = true; });
+            localStorage.setItem('langmap_corrections', JSON.stringify(all));
+            statusEl.textContent = `✓ ${data.count} correction${data.count > 1 ? 's' : ''} submitted. Thank you!`;
+            statusEl.className = 'submit-status success';
+            updatePendingBadge();
+            // Refresh CSRF token
+            fetchCsrfToken();
+        } else {
+            statusEl.textContent = `Error: ${data.error || 'Unknown error'}`;
+            statusEl.className = 'submit-status error';
+        }
+    } catch (e) {
+        statusEl.textContent = 'Network error. Please try again.';
+        statusEl.className = 'submit-status error';
+    }
+}
+
+// ── CTA Banner ───────────────────────────────────────────────
+function initCtaBanner() {
+    if (localStorage.getItem('langmap_cta_dismissed')) return;
+    const banner = document.getElementById('ctaBanner');
+    if (banner) banner.style.display = '';
+}
+function dismissCta() {
+    localStorage.setItem('langmap_cta_dismissed', '1');
+    const banner = document.getElementById('ctaBanner');
+    if (banner) banner.style.display = 'none';
+}
+
+// Init badge on load
+updatePendingBadge();

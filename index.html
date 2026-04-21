@@ -53,6 +53,11 @@
 
         </div>
 
+        <div class="cta-banner" id="ctaBanner" style="display:none">
+            <span id="ctaText">🌍 Native speakers wanted! Click ✏️ on any row to improve translations and help make LangMap more accurate.</span>
+            <button class="cta-dismiss" onclick="dismissCta()">×</button>
+        </div>
+
         <div class="map-toolbar">
             <button class="btn btn-sm" id="btnResetOrder" onclick="resetOrder()">↻ <span id="lblResetOrder">順序をリセット</span></button>
         </div>
@@ -125,7 +130,44 @@
         </div>
     </div>
 
-    <script src="data.js?v=53"></script>
-    <script src="app.js?v=53"></script>
+    <!-- Edit History Modal -->
+    <div class="edit-history-overlay" id="editHistoryOverlay">
+        <div class="edit-history-modal">
+            <div class="edit-history-header">
+                <span class="edit-history-title">Edit History</span>
+                <button class="btn btn-sm" onclick="closeEditHistory()">×</button>
+            </div>
+            <div class="edit-history-body" id="editHistoryBody"></div>
+            <div class="edit-history-footer">
+                <button class="btn" onclick="closeEditHistory()">Close</button>
+                <button class="btn btn-accent" id="btnSubmitChanges" onclick="openSubmitModal()">Submit Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submit Modal -->
+    <div class="submit-overlay" id="submitOverlay">
+        <div class="submit-modal">
+            <div class="submit-header">
+                <span>Submit Your Corrections</span>
+                <button class="btn btn-sm" onclick="closeSubmitModal()">×</button>
+            </div>
+            <div class="submit-body">
+                <p style="color:#666;font-size:13px;margin-bottom:12px;">Your corrections help make LangMap better for everyone. Name and email are optional.</p>
+                <label>Name / Nickname (optional)<br><input type="text" id="submitName" placeholder="Anonymous" style="width:100%;padding:6px 8px;margin:4px 0 12px;border:1px solid #ddd;border-radius:4px;"></label>
+                <label>Email (optional)<br><input type="email" id="submitEmail" placeholder="you@example.com" style="width:100%;padding:6px 8px;margin:4px 0 12px;border:1px solid #ddd;border-radius:4px;"></label>
+                <input type="text" id="submitWebsite" name="website" style="display:none;" tabindex="-1" autocomplete="off">
+                <div id="submitStatus" class="submit-status"></div>
+            </div>
+            <div class="submit-footer">
+                <button class="btn" onclick="closeSubmitModal()">Cancel</button>
+                <button class="btn btn-accent" onclick="submitChanges()">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js?v=54"></script>
+    <script src="app.js?v=54"></script>
+    <script>initCtaBanner();</script>
 </body>
 </html>

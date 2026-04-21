@@ -1123,3 +1123,28 @@ select:focus { border-color: #4a90d9; outline: none; }
 .submit-status { font-size: 13px; margin-top: 8px; min-height: 20px; }
 .submit-status.success { color: #27ae60; }
 .submit-status.error { color: #e74c3c; }
+
+/* Edit section headers */
+.edit-section-header {
+    font-size: 11px;
+    font-weight: 700;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 12px 0 6px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #eee;
+}
+.edit-section-header:first-child { margin-top: 0; }
+
+/* UUID short display */
+.edit-uuid {
+    font-family: monospace;
+    font-size: 10px;
+    color: #bbb;
+    margin-left: 4px;
+}
+
+/* Adopted card */
+.edit-card.adopted { border-left-color: #27ae60; opacity: 1; }
+.edit-status.rejected { background: #e74c3c; color: #fff; }

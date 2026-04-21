@@ -100,18 +100,11 @@ if (empty($corrections) || !is_array($corrections)) {
 $corrections = array_slice($corrections, 0, 50);
 
 $entry = [
-    'uuid' => sprintf('%s-%s-%s-%s-%s',
-        bin2hex(random_bytes(4)),
-        bin2hex(random_bytes(2)),
-        bin2hex(random_bytes(2)),
-        bin2hex(random_bytes(2)),
-        bin2hex(random_bytes(6))
-    ),
     'timestamp' => date('c'),
     'ip_hash' => $ipHash,
     'name' => mb_substr($input['name'] ?? 'Anonymous', 0, 100),
     'email' => mb_substr($input['email'] ?? '', 0, 200),
-    'corrections' => $corrections,
+    'corrections' => $corrections,  // Each correction has client-side UUID
 ];
 
 // ── Save to date-based file ────────────────────────
@@ -132,8 +125,10 @@ file_put_contents(
 // ── Invalidate CSRF token (single use) ─────────────
 unset($_SESSION['csrf_token']);
 
+// Return UUIDs of received corrections for client-side tracking
+$uuids = array_map(fn($c) => $c['uuid'] ?? null, $corrections);
 echo json_encode([
     'ok' => true,
-    'uuid' => $entry['uuid'],
     'count' => count($corrections),
+    'uuids' => array_filter($uuids),
 ]);

@@ -2697,6 +2697,11 @@ async function openSubmitModal() {
     if (!overlay) return;
     overlay.classList.add('open');
     if (!csrfToken) await ensureCsrfToken();
+    // Restore cached name/email
+    const nameInput = document.getElementById('submitName');
+    const emailInput = document.getElementById('submitEmail');
+    if (nameInput) nameInput.value = localStorage.getItem('langmap_author_name') || '';
+    if (emailInput) emailInput.value = localStorage.getItem('langmap_author_email') || '';
 }
 
 function closeSubmitModal() {
@@ -2719,6 +2724,10 @@ async function submitChanges() {
         statusEl.className = 'submit-status error';
         return;
     }
+
+    // Cache name/email for next time
+    if (nameInput?.value) localStorage.setItem('langmap_author_name', nameInput.value);
+    if (emailInput?.value) localStorage.setItem('langmap_author_email', emailInput.value);
 
     const payload = {
         csrf_token: csrfToken,

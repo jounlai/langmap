@@ -26,6 +26,8 @@ class LangMapHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path.startswith('/submit.php?csrf=1'):
             self._handle_csrf()
+        elif self.path.startswith('/submit.php?results=1'):
+            self._handle_results()
         else:
             super().do_GET()
 
@@ -34,6 +36,19 @@ class LangMapHandler(http.server.SimpleHTTPRequestHandler):
             self._handle_submit()
         else:
             self.send_error(404)
+
+    def _handle_results(self):
+        """Return all *-result.json merged into { uuid: approved }"""
+        results = {}
+        for f in SUBMISSIONS_DIR.glob('*-result.json'):
+            try:
+                data = json.loads(f.read_text())
+                for entry in data:
+                    if 'uuid' in entry:
+                        results[entry['uuid']] = entry.get('approved', False)
+            except Exception:
+                pass
+        self._json_response(results)
 
     def _handle_csrf(self):
         token = secrets.token_hex(32)

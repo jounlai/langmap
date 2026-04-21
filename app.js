@@ -2529,10 +2529,11 @@ function updatePendingBadge() {
     badge.style.display = '';
 }
 
-function openEditHistory() {
+async function openEditHistory() {
     const overlay = document.getElementById('editHistoryOverlay');
     if (!overlay) return;
     overlay.classList.add('open');
+    await fetchAdoptionResults();
     renderEditHistory();
 }
 
@@ -2780,5 +2781,31 @@ function dismissCta() {
     if (banner) banner.style.display = 'none';
 }
 
-// Init badge on load
+// ── Fetch adoption results from server ────────────────────────
+async function fetchAdoptionResults() {
+    try {
+        const res = await fetch('/submit.php?results=1');
+        if (!res.ok) return;
+        const results = await res.json(); // { uuid: true/false }
+        if (!results || typeof results !== 'object') return;
+        const all = getAllCorrections();
+        let changed = false;
+        for (const item of all) {
+            if (item.submitted && item.uuid && item.uuid in results) {
+                const newStatus = results[item.uuid];
+                if (item.adopted !== newStatus) {
+                    item.adopted = newStatus;
+                    changed = true;
+                }
+            }
+        }
+        if (changed) {
+            localStorage.setItem('langmap_corrections', JSON.stringify(all));
+            updatePendingBadge();
+        }
+    } catch (e) { /* ignore */ }
+}
+
+// Init badge on load + fetch results
 updatePendingBadge();
+setTimeout(fetchAdoptionResults, 2000);

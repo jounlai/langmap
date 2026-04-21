@@ -2399,7 +2399,8 @@ function saveEdit(row, langCode) {
             sentenceId: sentence.id,
             lang: langCode,
             corrections,
-            // Store full new data for replay on reload
+            // Store full before/after data for display and replay on reload
+            oldLangData: JSON.parse(JSON.stringify(oldLangData)),
             newLangData: JSON.parse(JSON.stringify(newLangData)),
             timestamp: new Date().toISOString(),
             submitted: false,
@@ -2550,12 +2551,18 @@ function createEditCard(item, realIdx, isSubmitted) {
     else if (item.adopted === false && isSubmitted) statusBadge = '<span class="edit-status submitted">' + t('submitted') + '</span>';
     else if (item.adopted === 'rejected') statusBadge = '<span class="edit-status rejected">' + t('rejected') + '</span>';
 
-    let correctionsHtml = '';
+    // Build full before/after text
+    const joinSegs = (data) => data ? data.map(([,txt]) => txt).join(' ') : '';
+    const beforeText = joinSegs(item.oldLangData);
+    const afterText = joinSegs(item.newLangData);
+
+    // Also show per-segment diffs for detail
+    let segDiffsHtml = '';
     item.corrections.forEach(c => {
         if (c.action === 'reorder') {
-            correctionsHtml += `<div class="edit-diff">Reorder: ${c.oldOrder} → ${c.newOrder}</div>`;
-        } else {
-            correctionsHtml += `<div class="edit-diff"><span class="edit-seg">${c.seg}</span> <del>${c.old}</del> → <ins>${c.new}</ins></div>`;
+            segDiffsHtml += `<span class="edit-seg-diff">[${c.oldOrder}→${c.newOrder}]</span> `;
+        } else if (c.old !== c.new) {
+            segDiffsHtml += `<span class="edit-seg-diff"><span class="edit-seg">${c.seg}</span>:<del>${c.old}</del>→<ins>${c.new}</ins></span> `;
         }
     });
 
@@ -2566,7 +2573,11 @@ function createEditCard(item, realIdx, isSubmitted) {
             <div class="edit-card-time">${time} ${uuidShort ? '<span class="edit-uuid">' + uuidShort + '</span>' : ''}</div>
         </div>
         <div class="edit-card-title">${title}</div>
-        ${correctionsHtml}
+        <div class="edit-full-diff">
+            <div class="edit-before"><span class="edit-label">Before</span>${beforeText || '—'}</div>
+            <div class="edit-after"><span class="edit-label">After</span>${afterText || '—'}</div>
+        </div>
+        ${segDiffsHtml ? '<div class="edit-seg-details">' + segDiffsHtml + '</div>' : ''}
     `;
     if (!isSubmitted) {
         const delBtn = document.createElement('button');

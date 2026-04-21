@@ -1148,3 +1148,27 @@ select:focus { border-color: #4a90d9; outline: none; }
 /* Adopted card */
 .edit-card.adopted { border-left-color: #27ae60; opacity: 1; }
 .edit-status.rejected { background: #e74c3c; color: #fff; }
+
+/* Full before/after display */
+.edit-full-diff { margin: 6px 0; font-size: 13px; line-height: 1.6; }
+.edit-before, .edit-after { padding: 4px 8px; border-radius: 4px; margin: 2px 0; }
+.edit-before { background: #fff5f5; color: #c0392b; }
+.edit-after { background: #f0fff4; color: #27ae60; }
+.edit-label {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999;
+    width: 48px;
+    flex-shrink: 0;
+}
+.edit-seg-details {
+    margin-top: 4px;
+    font-size: 11px;
+    color: #888;
+    line-height: 1.6;
+}
+.edit-seg-diff { display: inline-block; margin-right: 8px; }
+.edit-seg-diff del { color: #e74c3c; text-decoration: line-through; font-size: 10px; }
+.edit-seg-diff ins { color: #27ae60; text-decoration: none; font-size: 10px; }

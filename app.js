@@ -2666,24 +2666,37 @@ function deleteCorrection(idx) {
 
 // ── Submit Modal ─────────────────────────────────────────────
 let csrfToken = null;
+let csrfFetchPromise = null;
 
 async function fetchCsrfToken() {
     try {
         const res = await fetch('/submit.php?csrf=1');
+        if (!res.ok) throw new Error('HTTP ' + res.status);
         const data = await res.json();
         csrfToken = data.token;
         sessionStorage.setItem('langmap_csrf', csrfToken);
     } catch (e) {
         csrfToken = sessionStorage.getItem('langmap_csrf');
     }
+    return csrfToken;
 }
 
-function openSubmitModal() {
+function ensureCsrfToken() {
+    if (!csrfFetchPromise) {
+        csrfFetchPromise = fetchCsrfToken().finally(() => { csrfFetchPromise = null; });
+    }
+    return csrfFetchPromise;
+}
+
+// Pre-fetch CSRF token on page load
+setTimeout(ensureCsrfToken, 1000);
+
+async function openSubmitModal() {
     closeEditHistory();
     const overlay = document.getElementById('submitOverlay');
     if (!overlay) return;
     overlay.classList.add('open');
-    if (!csrfToken) fetchCsrfToken();
+    if (!csrfToken) await ensureCsrfToken();
 }
 
 function closeSubmitModal() {
@@ -2700,7 +2713,12 @@ async function submitChanges() {
     const honeypot = document.getElementById('submitWebsite');
     const statusEl = document.getElementById('submitStatus');
 
-    if (!csrfToken) await fetchCsrfToken();
+    if (!csrfToken) await ensureCsrfToken();
+    if (!csrfToken) {
+        statusEl.textContent = t('submitError') + ' (CSRF token unavailable)';
+        statusEl.className = 'submit-status error';
+        return;
+    }
 
     const payload = {
         csrf_token: csrfToken,
@@ -2728,8 +2746,9 @@ async function submitChanges() {
             statusEl.textContent = `✓ ${data.count} correction${data.count > 1 ? 's' : ''} submitted. Thank you!`;
             statusEl.className = 'submit-status success';
             updatePendingBadge();
-            // Refresh CSRF token
-            fetchCsrfToken();
+            // Refresh CSRF token for next submission
+            csrfToken = null;
+            ensureCsrfToken();
         } else {
             statusEl.textContent = `Error: ${data.error || 'Unknown error'}`;
             statusEl.className = 'submit-status error';

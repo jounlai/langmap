@@ -985,7 +985,6 @@ select:focus { border-color: #4a90d9; outline: none; }
     background: #fff;
     color: #333;
     font-weight: 600;
-    border: 1.5px solid #4a90d9;
 }
 
 /* ── Segment Reference Translations ─────────────── */

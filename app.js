@@ -2513,8 +2513,9 @@ function getAllCorrections() {
 
 function updatePendingBadge() {
     let badge = document.getElementById('pendingBadge');
-    const pending = getPendingCorrections();
-    if (pending.length === 0) {
+    const all = getAllCorrections();
+    const pending = all.filter(c => !c.submitted);
+    if (all.length === 0) {
         if (badge) badge.style.display = 'none';
         return;
     }
@@ -2525,7 +2526,11 @@ function updatePendingBadge() {
         badge.addEventListener('click', openEditHistory);
         document.body.appendChild(badge);
     }
-    badge.textContent = `✏️ ${pending.length}`;
+    if (pending.length > 0) {
+        badge.textContent = `✏️ ${pending.length}`;
+    } else {
+        badge.textContent = `✏️ ${t('editHistory')}`;
+    }
     badge.style.display = '';
 }
 

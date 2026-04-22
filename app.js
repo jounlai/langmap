@@ -628,6 +628,8 @@ function applyUILang() {
     if (submitChangesBtn) submitChangesBtn.textContent = t('submitChanges');
     const ctaText = document.getElementById('ctaText');
     if (ctaText) ctaText.textContent = t('nativeSpeakersWanted');
+    // Update floating badge text
+    updatePendingBadge();
     // Submit modal
     const submitTitle = document.getElementById('lblSubmitTitle');
     if (submitTitle) submitTitle.textContent = t('submitCorrections');

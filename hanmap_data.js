@@ -3907,7 +3907,7 @@ const HAN_DATA = {
       "ja_thk": "ten"
     },
     "ipa": {
-      "zh": "tʰjan˥˥",
+      "zh": "tʰjɛn˥˥",
       "zh_tw": "tʰjan˥˥",
       "zh_db": "tʰiɛn⁵⁵",
       "zh_sc": "tʰiɛn⁵⁵",
@@ -4974,7 +4974,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "nan_id": "kʰian˥˧",
-      "zh": "t͡ɕʰyan˨˩˦",
+      "zh": "t͡ɕʰɥɛn˨˩˦",
       "zh_tw": "t͡ɕʰyan˨˩˦",
       "zh_db": "tɕʰyɛn˨¹˧",
       "zh_sc": "tɕʰyan⁵³",
@@ -11687,7 +11687,7 @@ const HAN_DATA = {
       "nan_hai": "kien3"
     },
     "ipa": {
-      "zh": "t͡ɕjan˥˩",
+      "zh": "t͡ɕjɛn˥˩",
       "zh_tw": "t͡ɕjan˥˩",
       "zh_db": "tɕiɛn˥˧",
       "zh_sc": "tɕiɛn˨˩˧",

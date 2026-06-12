@@ -375,3 +375,21 @@ flagged appear here too and are correctable from the IPA — `ll-`→`l-` (立 w
 **Recommendation:** open dedicated sub-reviews #66 (Wenzhou) and #67 (Jinhua)
 sourced from wugniu.com / a specialist; the onset corrections above can be
 applied immediately if desired, but the rime+tone must come from the source.
+
+---
+
+## ✅ APPLIED — Northern Wu (231 cells)
+
+All four Taihu varieties (`wuu`, `wuu_nb`, `wuu_hz`, `wuu_jx`) converted to Wugniu
+(onset+rime+tone class) from the validated engine — **231 surface cells** updated.
+Notes on the previously-flagged cells:
+- 杭州 三: applied **`se1`** (corrected — the romanizer's `sau1` from /sæ̃/ was the
+  nasal-æ bug; `se` matches the other Taihu lects and the prior surface).
+- 八 上海/寧波/杭州: applied **`paq7`** (from /pɐʔ/) — kori228 to confirm vs `poq`.
+- 魚: applied **`yu2`** (romanizes the current literary IPA /ɦy/). The colloquial
+  syllabic ŋ̍ kori228 expects is an **IPA-layer** change, tracked separately.
+- Genuine different readings kept: 杭州 人 `zen2` / 肉 `zoq8`, 寧波 牛 `ngieu2` /
+  肉 `gniuoq8`.
+
+**Still open:** Wenzhou (`wuu_wz`) & Jinhua (`wuu_jh`) — cannot be auto-generated
+(non-Taihu; different rimes/tones), reserved for sourced sub-reviews #66/#67.

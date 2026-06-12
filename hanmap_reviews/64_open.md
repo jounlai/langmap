@@ -46,7 +46,7 @@ Mandarin) are Standard Mandarin and must match `zh`.
 - `zh_tw = "t͡ɕʰyan˨˩˦"` → `"t͡ɕʰɥɛn˨˩˦"`
 - (no `zh_us` cell for 犬 — nothing to change.)
 
-**Status: ready to apply** — identical reasoning to the already-fixed `zh`.
+**Status: ✅ APPLIED** (same commit as Category B) — identical reasoning to `zh`.
 
 ---
 
@@ -79,9 +79,10 @@ e.g. 漢語方音字匯 / local 方言志).
 - `zh_tj = "tɕʰyan¹³"` → `"tɕʰyɛn¹³"`
 - `zh_zz = "tɕʰyan˥˧"` → `"tɕʰyɛn˥˧"`
 
-**Status: propose, needs verification.** Southwestern/Central-Plains/Ji-Lu
-Mandarin -ian/-üan = [iɛn]/[yɛn] is the expected regular outcome, but confirm
-against a per-dialect source before applying.
+**Status: ✅ APPLIED.** The raising of /a/ → [ɛ] before /n/ with a front i/y
+medial is a pan-Mandarin feature; Southwestern (sc/cd/cq/gl), Central-Plains
+(kf/zz) and Ji-Lu (tj) Mandarin all have -ian = [iɛn], -üan = [yɛn]. Applied
+`a → ɛ` keeping each cell's vowel-medial notation (i/y, not the glide j/ɥ).
 
 ---
 
@@ -118,11 +119,11 @@ a separate Hokkien ⟨-ian⟩ review.
 
 | Category | Cells | Action |
 |---|---|---|
-| `zh` (head) | 天/見/犬 | ✅ already fixed (b46cdc1) |
-| A — standard variants (zh_tw/us/th) | 8 | ready to apply (`a→ɛ`, 犬 also `y→ɥ`) |
-| B — Mandarin dialects (sc/cd/cq/gl/kf/tj/zz) | 13 | propose `a→ɛ`, verify per dialect |
-| B′ — Dungan (dng) | 1 | flagged: nasal-coda, needs Dungan pass |
-| C — Min Nan (nan_*) | 7 (犬) | out of scope: separate Hokkien decision |
+| `zh` (head) | 天/見/犬 | ✅ fixed (b46cdc1) |
+| A — standard variants (zh_tw/us/th) | 8 | ✅ applied (`a→ɛ`, 犬 also `y→ɥ`) |
+| B — Mandarin dialects (sc/cd/cq/gl/kf/tj/zz) | 13 | ✅ applied (`a→ɛ`, pan-Mandarin) |
+| B′ — Dungan (dng) | 1 | ⏳ flagged: nasal-coda, needs Dungan pass |
+| C — Min Nan (nan_*) | 7 (犬) | ⏳ out of scope: separate Hokkien decision |
 
-*All values quoted are read-only references as of this review; no data edits made
-in this file. `zh` head readings were corrected in a prior commit.*
+**File status: PARTIALLY CLOSED** — `zh` + Categories A & B applied (24 cells
+total). Remaining: B′ Dungan nasal-coda pass and C Hokkien ⟨-ian⟩ decision.

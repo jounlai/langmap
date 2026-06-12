@@ -277,3 +277,101 @@ ready-to-apply Northern Wu table (pending kori228 sign-off on the flagged items)
   Wugniu does not transfer.
 - **Jinhua (`wuu_jh`)** — Wuzhou Wu; likewise separate. Also carries 日/月/食 cells
   (absent from the Taihu set).
+
+
+---
+
+## Wenzhou (`wuu_wz`) & Jinhua (`wuu_jh`) — separate treatment required
+
+These are **not Taihu Wu**, so the validated Northern-Wu engine does **not**
+transfer for rimes or tones (confirmed by running it: many unmapped/garbled
+rimes and tone-class clashes). They need Ou-Wu / Wuzhou-Wu Wugniu values from a
+source (wugniu.com covers Wenzhou) or a specialist. **Do not auto-generate.**
+
+Why the Taihu engine fails here:
+- **Rimes differ structurally.** Wenzhou lost the checked glottal coda: 十 `/zai/`,
+  立 `/lai/`, 食 `/zai/`, 日 `/ȵai/` — no `-ʔ`, so the Taihu `-q` rimes (`zeq`,
+  `liq`) are simply wrong. Wenzhou vowels (ai, ei, ø, ɥɵ, au, ɤu, …) and Jinhua
+  vowels (sã, pɒʔ, ŋyəʔ, …) are a different inventory.
+- **Tones differ.** Wenzhou keeps a full 8-tone system and **preserves 陽上**
+  (no 濁上歸去), so the Suzhou-calibrated class derivation gives wrong numbers
+  (五 should be 陽上 4, not 6; etc.). Jinhua likewise needs its own tone map.
+- Both also carry 日 / 月 / 食 cells absent from the Taihu set.
+
+What IS still valid (the onset diagnosis): the same non-existent onsets kori228
+flagged appear here too and are correctable from the IPA — `ll-`→`l-` (立 wz
+`llai`, jh `lliq`), `dd-`→`d-` (頭 `ddou`), `nn-`→`gn-` (肉 wz `nnau`, jh `nnyoq`;
+牛 jh `nnieu`), `hh-`→`gh/w/y` (魚 `hhu`, 羊 `hhi`/`hhiang`, 下 `hho`, 右 wz
+`hhau`, 行 `hha`/`hhang`), `zz-`→`z-` (坐 `zzo`), `x-`→`sh-` (心 jh `xing`, 水 jh
+`xy`, 血 `xyo`/`xyuoq`, 西 jh `xi`, 火 jh `xuo`), `tsh`(for /tɕʰ/)→`ch` (犬 wz
+`tshy`, jh `tshyoe`; 去 `tshei`/`tshy`), `ngu`→`ng` (syllabic 五 ŋ̍).
+
+### Wenzhou / Jinhua data (for the sourced pass)
+
+| 字 | wz IPA | wz surface (current) | jh IPA | jh surface (current) |
+|---|---|---|---|---|
+| 一 | ji²¹³ | `yi²¹³` | iəʔ⁵⁵ | `iq⁵⁵` |
+| 二 | ɲi²² | `nyi²²` | n̩²²⁴ | `nyi²¹³` |
+| 三 | sa³³ | `sa³³` | sã³³ | `sa³³` |
+| 四 | sɿ⁴² | `sy⁴²` | sz̩⁵³ | `sy⁵³` |
+| 五 | ŋ̍²² | `ngu²²` | ŋ²²⁴ | `ngu²¹³` |
+| 六 | lɤu²¹³ | `lieu²¹³` | liu²⁴ | `lieu²⁴` |
+| 七 | tsʰei²¹³ | `tshei²¹³` | t͡sʰiəʔ⁵⁵ | `tshiq⁵⁵` |
+| 八 | po²¹³ | `po²¹³` | pɒʔ⁵⁵ | `paq⁵⁵` |
+| 九 | tɕiau⁴⁵ | `jiau⁴⁵` | tɕiɤɯ⁵³⁵ | `jieu⁵³⁵` |
+| 十 | zai²¹³ | `zai²¹³` | zəʔ²¹² | `zeq²¹²` |
+| 日 | ȵai²¹³ | `nyai²¹³` | niʔ²¹² | `niq²¹²` |
+| 月 | ɦy²¹³ | `hhy²¹³` | ŋyəʔ²¹² | `nguoq²¹²` |
+| 山 | sa³³ | `sa³³` | sa³³⁴ | `sa³³⁴` |
+| 水 | sz̩³⁵ | `sy³⁵` | ɕy³⁵ | `xy³⁵` |
+| 火 | fu³⁵ | `fu³⁵` | xuo³⁵ | `xuo³⁵` |
+| 木 | mø²¹³ | `moe²¹³` | mu²¹² | `mu²¹²` |
+| 土 | tʰəu³⁵ | `thou³⁵` | tʰu³⁵ | `thu³⁵` |
+| 天 | tʰi³³ | `thi³³` | tʰiɛ³³ | `thie³³` |
+| 地 | di²² | `di²²` | di²¹³ | `di²¹³` |
+| 海 | ha³⁵ | `ha³⁵` | he³⁵ | `he³⁵` |
+| 龍 | leŋ³¹ | `leng³¹` | loŋ³¹³ | `long³¹³` |
+| 虎 | hu³⁵ | `hu³⁵` | hu³³⁴ | `hu³³⁴` |
+| 犬 | tɕʰy³⁵ | `tshy³⁵` | tɕʰyø³³⁴ | `tshyoe³³⁴` |
+| 馬 | mo³⁵ | `mo³⁵` | mo²¹ | `mo²¹` |
+| 鳥 | tiɛ³⁵ | `tie³⁵` | tiɔ²¹ | `tio²¹` |
+| 魚 | ɦy³¹ | `hhu³¹` | ɦy²¹ | `hhu²¹` |
+| 牛 | ŋau³¹ | `ngau³¹` | ŋiu²² | `nnieu²²` |
+| 羊 | ji³¹ | `hhi³¹` | iaŋ²² | `hhiang²²` |
+| 貓 | mɔ³³ | `mau³³` | mau³³ | `mau³³` |
+| 人 | zaŋ³¹ | `zang³¹` | ɲiŋ²¹³ | `nying²¹³` |
+| 手 | ɕiau³⁵ | `siau³⁵` | ɕiu³⁵ | `xiu³⁵` |
+| 足 | tɕy²¹³ | `jy²¹³` | tɕyʔ⁵⁵ | `jyq⁵⁵` |
+| 目 | mø²¹³ | `moe²¹³` | mu²¹³ | `mu²¹³` |
+| 耳 | ŋai³¹ | `ngai³¹` | ɦɚ⁵³ | `hher⁵³` |
+| 口 | kʰau³⁵ | `khau³⁵` | kʰəu⁵³ | `kheu⁵³` |
+| 頭 | dɤu³¹ | `ddou³¹` | dɤu³¹³ | `ddou³¹³` |
+| 心 | saŋ³³ | `sang³³` | ɕiŋ³¹³ | `xing³¹³` |
+| 血 | ɕɥɵ²¹³ | `xyo²¹³` | ɕyəʔ⁵⁵ | `xyuoq⁵⁵` |
+| 肉 | ȵau²¹³ | `nnau²¹³` | ɲyoʔ²³ | `nnyoq²³` |
+| 上 | jɔ²² | `jio²²` | zɑŋ²¹² | `zang²¹²` |
+| 下 | ɦo²² | `hho²²` | ɦo²¹² | `hho²¹²` |
+| 中:1 | tɕyoŋ³³ | `jiong³³` | tsoŋ³³⁴ | `tsong³³⁴` |
+| 中:2 | tɕyoŋ⁴² | `jiong⁴²` | tsoŋ³³⁴ | `tsong³³⁴` |
+| 央 | ji³³ | `i³³` | iɑŋ³³ | `iang³³` |
+| 左 | tsau³⁵ | `tsau³⁵` | tsuə⁵³ | `tsuo⁵³` |
+| 右 | jau²² | `hhau²²` | iu²⁴ | `iu²⁴` |
+| 東 | toŋ³³ | `tong³³` | tuŋ⁵³⁵ | `tung⁵³⁵` |
+| 西 | sei³³ | `sei³³` | ɕi⁵³⁵ | `xi⁵³⁵` |
+| 南 | na³¹ | `na³¹` | nuŋ²¹³ | `nung²¹³` |
+| 北 | pɤ²¹³ | `peu²¹³` | pəʔ⁵⁵ | `peuq⁵⁵` |
+| 行:1 | ɦa³¹ | `hha³¹` | ɦã²⁴ | `hhang²⁴` |
+| 行:2 | ɦo³¹ | `hho³¹` | ɦã²⁴ | `hhang²⁴` |
+| 来 | le³¹ | `le³¹` | lɛ²⁴ | `le²⁴` |
+| 去 | tɕʰei⁴² | `tshei⁴²` | tɕʰy⁵³ | `tshy⁵³` |
+| 見 | tɕi⁴² | `ji⁴²` | tɕiɛ⁵³ | `jie⁵³` |
+| 聞 | vaŋ³¹ | `vang³¹` | vəŋ²¹³ | `veng²¹³` |
+| 食 | zai²¹³ | `zai²¹³` | zəʔ²¹² | `zeq²¹²` |
+| 飲 | ʔai³⁵ | `ai³⁵` | iŋ⁵³ | `ing⁵³` |
+| 走 | tsau³⁵ | `tsau³⁵` | tsei³⁵ | `tsei³⁵` |
+| 坐 | zo²¹³ | `zzo²¹³` | zo²¹³ | `zzo²¹³` |
+| 立 | lai²¹³ | `llai²¹³` | liɪʔ²³ | `lliq²³` |
+
+**Recommendation:** open dedicated sub-reviews #66 (Wenzhou) and #67 (Jinhua)
+sourced from wugniu.com / a specialist; the onset corrections above can be
+applied immediately if desired, but the rime+tone must come from the source.

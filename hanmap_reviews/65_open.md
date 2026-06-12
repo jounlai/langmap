@@ -188,3 +188,92 @@ from the Suzhou anchor; below they are pre-classified.
 - Resolve the (b) verification items (八 rime; 杭州 三 nasal-æ).
 - **Wenzhou (`wuu_wz`)** and **Jinhua (`wuu_jh`)**: separate tables (different Wu
   groups; Taihu rime values above do not transfer).
+
+
+---
+
+## ✅ COMPLETE Northern Wu proposal — onset + rime + tone class (Wugniu)
+
+Tone class 1–8 derived from etymological category + initial voicing + 濁上歸去,
+**validated 58/58 against kori228's `wuu_sz`** (only fix needed: 行:2 is 去聲, not
+平). Applying the same derivation per variety gives **0 tone-class divergences**
+from Suzhou (shared etymology + the pan-Taihu 濁上歸去 merger). This is the
+ready-to-apply Northern Wu table (pending kori228 sign-off on the flagged items):
+
+| 字 | wuu_sz | 上海 | 寧波 | 杭州 | 嘉興 |
+|---|---|---|---|---|---|
+| 一 | iq7 | iq7 | iq7 | iq7 | iq7 |
+| 二 | gni6 | gni6 | gni6 | gni6 | gni6 |
+| 三 | se1 | se1 | se1 | sau1 | se1 |
+| 四 | sy5 | sy5 | sy5 | sy5 | sy5 |
+| 五 | ng6 | ng6 | ng6 | ng6 | ng6 |
+| 六 | loq8 | loq8 | loq8 | loq8 | loq8 |
+| 七 | tshiq7 | chiq7 | tshiq7 | tshiq7 | tshiq7 |
+| 八 | poq7 | paq7 | paq7 | paq7 | poq7 |
+| 九 | cieu3 | cieu3 | cieu3 | cieu3 | cieu3 |
+| 十 | zeq8 | zeq8 | zeq8 | zeq8 | zeq8 |
+| 山 | se1 | se1 | se1 | se1 | se1 |
+| 水 | syu3 | sy3 | sy3 | sy3 | sy3 |
+| 火 | hou3 | hu3 | hu3 | hu3 | hu3 |
+| 木 | moq8 | moq8 | moq8 | moq8 | moq8 |
+| 土 | thou3 | thu3 | thu3 | thu3 | thu3 |
+| 天 | thie1 | thi1 | thi1 | thie1 | thie1 |
+| 地 | di6 | di6 | di6 | di6 | di6 |
+| 海 | he3 | he3 | he3 | he3 | he3 |
+| 龍 | lon2 | lon2 | lon2 | lon2 | lon2 |
+| 虎 | hou3 | hu3 | hu3 | hu3 | hu3 |
+| 犬 | chioe3 | chioe3 | chioe3 | chioe3 | chioe3 |
+| 馬 | mo6 | mo6 | mo6 | mo6 | mo6 |
+| 鳥 | tiau3 | tiau3 | tiau3 | tiau3 | tiau3 |
+| 魚 | ng2 | yu2 | yu2 | yu2 | yu2 |
+| 牛 | gnieu2 | gnieu2 | ngieu2 | gnieu2 | gnieu2 |
+| 羊 | yan2 | yan2 | yan2 | yan2 | yan2 |
+| 貓 | mau1 | mau1 | mau1 | mau1 | mau1 |
+| 人 | gnin2 | gnin2 | gnin2 | zen2 | gnin2 |
+| 手 | seu3 | seu3 | seu3 | seu3 | seu3 |
+| 足 | tsoq7 | tsoq7 | tsoq7 | tsoq7 | tsoq7 |
+| 目 | moq8 | moq8 | moq8 | moq8 | moq8 |
+| 耳 | er6 | er6 | er6 | er6 | er6 |
+| 口 | kheu3 | kheu3 | kheu3 | kheu3 | kheu3 |
+| 頭 | deu2 | deu2 | deu2 | deu2 | deu2 |
+| 心 | sin1 | shin1 | shin1 | shin1 | shin1 |
+| 血 | shiuq7 | shiuq7 | shiuq7 | shiuq7 | shiuq7 |
+| 肉 | gnioq8 | gnioq8 | gniuoq8 | zoq8 | gnioq8 |
+| 上 | zaon6 | zaon6 | zaon6 | zaon6 | zaon6 |
+| 下 | gho6 | gho6 | gho6 | gho6 | gho6 |
+| 中:1 | tson1 | tson1 | tson1 | tson1 | tson1 |
+| 中:2 | tson5 | tson5 | tson5 | tson5 | tson5 |
+| 央 | ian1 | iaon1 | iaon1 | iaon1 | iaon1 |
+| 左 | tsou3 | tsu3 | tsu3 | tsu3 | tsu3 |
+| 右 | yeu6 | yeu6 | yeu6 | yeu6 | yeu6 |
+| 東 | ton1 | ton1 | ton1 | ton1 | ton1 |
+| 西 | shi1 | shi1 | shi1 | shi1 | shi1 |
+| 南 | noe2 | noe2 | noe2 | noe2 | noe2 |
+| 北 | poq7 | poq7 | poq7 | poq7 | poq7 |
+| 行:1 | ghan2 | ghaon2 | ghaon2 | ghaon2 | ghaon2 |
+| 行:2 | ghaon6 | ghaon6 | ghaon6 | ghaon6 | ghaon6 |
+| 来 | le2 | le2 | le2 | le2 | le2 |
+| 去 | chi5 | chi5 | chi5 | chi5 | chi5 |
+| 見 | cie5 | — | ci5 | cie5 | ci5 |
+| 聞 | ven2 | ven2 | ven2 | ven2 | ven2 |
+| 飲 | in3 | in3 | in3 | in3 | in3 |
+| 走 | tseu3 | tseu3 | tseu3 | tseu3 | tseu3 |
+| 坐 | zou6 | zu6 | zu6 | zo6 | zo6 |
+| 立 | liq8 | liq8 | liq8 | liq8 | liq8 |
+
+### Items still needing a decision before applying
+- **八** `paq7` (上海/寧波/杭州, /pɐʔ/) vs `poq7` (蘇州/嘉興, /poʔ/): confirm the
+  Wugniu rime (`aq` vs `oq`) for the /pɐʔ/ lects.
+- **杭州 三** `sau1` ⚠ — Hangzhou /sæ̃/ (nasalised æ); `sau` is almost certainly
+  wrong (=包 rime). Needs the correct nasal value (likely `sae1`/`se1`).
+- **Genuine different readings (confirm, not errors):** 杭州 人 `zen2`, 杭州 肉
+  `zoq8`, 寧波 肉 `gniuoq8`, 寧波 牛 `ngieu2`.
+- **魚** `yu2` (上海/寧波/杭州/嘉興): these cells carry the **literary** /ɦy/;
+  kori228 expects colloquial syllabic **ŋ̍** (`ng2`) as in Suzhou — likely an
+  **IPA-layer** fix, not just romanization.
+
+### Remaining scope (separate sub-reviews)
+- **Wenzhou (`wuu_wz`)** — Ou Wu; different tone system and rime values, Taihu
+  Wugniu does not transfer.
+- **Jinhua (`wuu_jh`)** — Wuzhou Wu; likewise separate. Also carries 日/月/食 cells
+  (absent from the Taihu set).

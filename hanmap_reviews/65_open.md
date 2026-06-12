@@ -393,3 +393,31 @@ Notes on the previously-flagged cells:
 
 **Still open:** Wenzhou (`wuu_wz`) & Jinhua (`wuu_jh`) — cannot be auto-generated
 (non-Taihu; different rimes/tones), reserved for sourced sub-reviews #66/#67.
+
+---
+
+## Sourcing attempt for Wenzhou & Jinhua (2026-06-13)
+
+Tried to source Wugniu values from authoritative references:
+
+- **wugniu.com** (kori228's source): the result table (`繁 簡 IPA 吳拼 備註 發音`)
+  is **populated by JavaScript** — a static fetch returns empty cells (verified
+  even on the known-good `suzhou_zi` table → "ZERO PHONETIC STRINGS"). Not
+  scrapeable without a real browser.
+- **en.wiktionary.org** (static): carries Northern Wu **and Jinhua**, but **no
+  Wenzhou**. Re-validates Northern Wu (三 Shanghai `1se` = our `se1`; 五 `6ng` =
+  our `ng6` ✓).
+
+### Key finding — Jinhua tone classes differ from Suzhou
+Wiktionary gives **五 Jinhua = `3ng`** (tone class 3), not `6` — Jinhua groups
+次濁上 with 陰上 (3), whereas Suzhou has 濁上歸去 (→6). So the Suzhou-calibrated
+tone derivation is **wrong for Jinhua**; tone classes must be sourced
+per-character. (Jinhua rimes from the romanizer look roughly right: 三 `san` ≈
+Wiktionary `1san`.)
+
+### Conclusion
+- **Wenzhou (`wuu_wz`):** no accessible source (wugniu.com JS-only; absent from
+  Wiktionary). Needs a Wenzhou specialist or interactive wugniu.com lookup. Not
+  auto-generated — would inject errors.
+- **Jinhua (`wuu_jh`):** sourceable from Wiktionary, but requires a per-character
+  pull (~57 entries) for the tone classes; the auto-engine's tones are wrong.

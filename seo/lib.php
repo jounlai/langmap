@@ -1202,7 +1202,12 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-hero h1 { font-size: clamp(2.4rem, 7vw, 4.5rem); line-height: 1.05;
   margin: .2rem 0 .3rem; letter-spacing: -.01em; }
 .seo-hero .native { font-size: clamp(1.6rem, 5vw, 3rem); color: var(--accent);
-  margin: 0 0 .4rem; font-weight: 600; }
+  margin: 0 0 .4rem; font-weight: 600;
+  /* Lead with the loaded CJK serifs so a native name renders in ONE font even
+     when the OS font lacks a glyph (e.g. simplified-only 话 in 普通话, which a
+     Japanese system font drops, leaving it in a mismatched fallback face). */
+  font-family: "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR",
+    "Gentium Plus", system-ui, sans-serif; }
 .seo-hero .sub { font-size: 1.1rem; color: var(--muted); margin: 0 0 1rem; }
 .seo-meta { display: flex; flex-wrap: wrap; gap: .5rem .75rem; margin: 1rem 0 1.5rem; }
 .seo-meta .chip { background: var(--card); border: 1px solid var(--line);

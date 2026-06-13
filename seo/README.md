@@ -106,3 +106,52 @@ these pages from their per-language popups / selector.
   Fonts so romanized diacritics and Han glyphs render consistently.
 - Translations of the UI chrome (`SEO_T` in `seo/lib.php`) are first-pass for
   several of the 19 languages — refine as needed.
+
+### Nginx configuration
+
+For Nginx (instead of Apache `.htaccess`), add to the server block:
+
+```nginx
+# SEO pages: /{ui}/, /{ui}/wordmap/*, /{ui}/hanmap/*, /sitemap-seo.xml
+location ~ ^/(en|ja|ko|zh|yue|vi|th|id|hi|de|fr|it|es|pt|ru|uk|ar|he|sw)(/|$) {
+    try_files $uri /index.php?__seo_route=$uri&$args;
+}
+location = /sitemap-seo.xml {
+    try_files $uri /index.php?__seo_route=$uri;
+}
+
+# PHP processing
+location ~ \.php$ {
+    include snippets/fastcgi-php.conf;
+    fastcgi_pass unix:/run/php/php-fpm.sock;
+
+    # Increase buffer size for large responses
+    fastcgi_buffer_size 128k;
+    fastcgi_buffers 256 128k;
+    fastcgi_busy_buffers_size 256k;
+    fastcgi_temp_file_write_size 256k;
+}
+
+# Static files / SPA fallback (for other routes)
+location / {
+    try_files $uri $uri/ /index.html;
+}
+```
+
+### PHP-FPM memory limit
+
+The SEO JSON files (`wordmap_seo.json` ~12MB, `hanmap_seo.json` ~6MB) require
+more than the default 128MB memory limit when decoded. Set at least **256MB**:
+
+```bash
+# Option 1: Edit php.ini
+sudo nano /etc/php/8.3/fpm/php.ini
+# Change: memory_limit = 256M
+
+# Option 2: Override in pool config
+sudo nano /etc/php/8.3/fpm/pool.d/www.conf
+# Add: php_admin_value[memory_limit] = 256M
+
+# Then restart PHP-FPM
+sudo systemctl restart php8.3-fpm
+```

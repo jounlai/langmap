@@ -34,6 +34,7 @@ codes are listed in [`docs/words/LANG_CODES.md`](docs/words/LANG_CODES.md).
 - **[Word Map](wordmap.html)** — interactive world map showing 20 key words in **1,000 languages** (incl. ~80 historical) (incl. Russian Far East / Siberian indigenous, Sinitic varieties & East/SE Asian dialects, Indo-Aryan & Tibeto-Burman, Bantu & West African, Nilotic & Cushitic, Berber, Mesoamerican & Andean indigenous, Caucasian, Pacific & Australian Aboriginal, Indonesian & Philippine regional, ancient Asian: Old Chinese, Old Japanese, Vedic Sanskrit, Tangut, Sogdian, Old Turkic, Khitan, Jurchen, Old Mon, Pyu, Old Burmese, Old Cham, Old East Slavic, Scythian, Old Thai (Sukhothai), Meroitic, Old Nubian, Classical Quechua, Mochica, Chibcha, Old Malay, Old Sundanese, Old Tagalog) with pronunciation guides (IPA / broad transcription / romanization, Chao tone letters where applicable), 2D/3D globe toggle, language info panel, full i18n (panel labels, language descriptions, speaker annotations, typology row, badges, ARIA labels, ON/OFF toggles, Compare panel — all 18+ UI languages), drag-to-reorder language comparison view, font-size slider, mobile gear panel with semi-transparent settings drawer, and a **fully multilingual linguistic filter panel** for family / script / word order / tonal / morphology / speaker tier — era-aware chip counts, 0-count chips disabled, selections persist in the URL
 - **Trivia mode** — multilingual interactive trivia about word origins, cognates, sound shifts, and language history (per-UI-lang trivia datasets for 18 languages)
 - **[Family Tree](tree.html)** — D3-based horizontal dendrogram of all Word Map languages organized by genealogical family, with curved Bezier branches and family-name i18n; click a leaf to jump to the language on the Word Map
+- **SEO pages** — server-side-rendered, crawlable per-language pages for the Word Map / Han Map at `/{ui}/wordmap/{lang}` and `/{ui}/hanmap/{lang}` (19 UI languages, hreflang, localized metadata, multi-reading 漢字 tables, IPA-similarity "compare with related languages" sections with LangMap-style connector lines, language-switch popup). PHP + a Node export step — see [`seo/README.md`](seo/README.md).
 
 ## Languages (242 total, ordered by similarity)
 
@@ -115,6 +116,9 @@ langmap/
   lang-filter.js          — Word Map typology filter (word order / tone / morphology / family / script / speaker tier)
   validate_data.py        — Sentence/Word-Order Map validator (data.js)
   validate_wordmap_data.js — Word Map validator (wordmap_data.js + wordmap_meta.js + lang_names.js + cache-buster drift gate)
+  seo/                    — SSR SEO "big-text" pages (PHP) — see seo/README.md
+  tools/export_seo_data.js — Node exporter: JS data → data/{wordmap,hanmap}_seo.json
+  index.php, router.php, .htaccess — SEO front controller / dev-server shim / Apache rewrite
   CONTRIBUTING.md         — Data contribution guidelines
   .github/workflows/wordmap-validate.yml — CI: validate-wordmap, cache-buster-drift-gate, validate-sentences, syntax-check, cache-buster-check
 ```
@@ -205,6 +209,7 @@ MIT
 - **[単語マップ](wordmap.html)** — **1,000言語**（うち約80が歴史言語）で20の基本語を世界地図上に表示。発音ガイド (IPA / 広めの音写 / ローマ字、声調文字)、2D/3Dグローブ切替、言語情報パネル、全UI18言語対応の i18n (パネルラベル、言語説明、話者数注記、類型情報行、各種バッジ、ARIA ラベル、ON/OFFトグル、比較パネル等)、ドラッグ並べ替え可能な言語比較ビュー、フォントサイズスライダー、モバイル歯車パネル（半透明設定ドロワー）、語族／文字／語順／声調／形態論／話者規模で絞り込める **多言語類型論フィルタパネル** (時代対応のチップ数表示、0件チップは無効化、選択はURLに保存)
 - **トリビアモード** — 単語の語源・同源語・音韻変化・言語史についての多言語インタラクティブクイズ（18 UI言語別のトリビアデータセット）
 - **[系統樹](tree.html)** — Word Map 全言語を D3 横向き dendrogram で表示。曲線ベジェ分岐＋語族名i18n、葉をクリックで Word Map の該当言語へジャンプ
+- **SEOページ** — Word Map / Han Map の言語別コンテンツを SSR したクロール可能ページ。`/{ui}/wordmap/{lang}`・`/{ui}/hanmap/{lang}`（19 UI言語、hreflang、ローカライズ済みメタ情報、文白異讀の複数読み漢字表、IPA類似度順の「関連言語と比較」セクション＋LangMap風接続線、言語切替ポップアップ）。PHP＋Nodeエクスポート工程。詳細は [`seo/README.md`](seo/README.md) を参照
 
 ## 言語一覧（242言語、類似言語順）
 
@@ -286,6 +291,9 @@ langmap/
   lang-filter.js          — 単語マップ類型論フィルタ（語順／声調／形態論／語族／文字／話者規模）
   validate_data.py        — 文／語順マップ用バリデータ（data.js）
   validate_wordmap_data.js — 単語マップ用バリデータ（wordmap_data.js + wordmap_meta.js + lang_names.js + キャッシュバスター ドリフトゲート）
+  seo/                    — SSR SEOページ（PHP）— seo/README.md 参照
+  tools/export_seo_data.js — Nodeエクスポータ: JSデータ → data/{wordmap,hanmap}_seo.json
+  index.php, router.php, .htaccess — SEOフロントコントローラ／開発サーバshim／Apacheリライト
   CONTRIBUTING.md         — データ追加ガイドライン
   .github/workflows/wordmap-validate.yml — CI: validate-wordmap, cache-buster-drift-gate, validate-sentences, syntax-check, cache-buster-check
 ```

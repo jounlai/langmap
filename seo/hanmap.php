@@ -126,12 +126,13 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
       if (!$readings) continue;
       // Each reading is { surface, ipa, label } (文白異讀 / 呉音漢音 etc.).
       $readings = array_values(array_filter($readings, fn($r) =>
-          ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== ''));
+          ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== '' || ($r['native'] ?? '') !== ''));
       if (!$readings) continue;
       $n = count($readings);
       $multi = $n > 1;
       foreach ($readings as $i => $r):
-          $surface = $r['surface'] ?? ''; $ipa = $r['ipa'] ?? ''; $label = $r['label'] ?? '';
+          $native = $r['native'] ?? ''; $surface = $r['surface'] ?? ''; $ipa = $r['ipa'] ?? ''; $label = $r['label'] ?? '';
+          if ($native === $surface) $native = ''; // avoid duplicating when they coincide
           $first = $i === 0; ?>
       <tr<?= $first ? ' class="char-start"' : '' ?>>
         <?php if ($first): ?>
@@ -139,7 +140,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
         <td class="c-gloss" rowspan="<?= $n ?>"><?= e($c['gloss'] ?? '') ?></td>
         <?php endif; ?>
         <td class="c-read"><?php if ($multi && $label !== ''): ?><span class="rlabel"><?= e($label) ?></span><?php endif; ?></td>
-        <td class="c-form" lang="<?= e($code) ?>"><?= e($surface) ?></td>
+        <td class="c-form" lang="<?= e($code) ?>"><?php if ($native !== ''): ?><span class="c-native"><?= e($native) ?></span><?php endif; ?><?php if ($surface !== ''): ?><span class="c-rom"<?= $native !== '' ? ' lang="vi"' : '' ?>><?= e($surface) ?></span><?php endif; ?></td>
         <td class="c-ipa"><?= $ipa !== '' ? '/' . e($ipa) . '/' : '' ?></td>
       </tr>
       <?php endforeach; ?>

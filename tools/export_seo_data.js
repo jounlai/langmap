@@ -287,20 +287,25 @@ function buildHanMapJSON(nameIndex) {
       // readings when present; otherwise fall back to the single main reading.
       const vs = (HAN_VARIANTS[ch] && HAN_VARIANTS[ch][code]) || null;
       let readings = [];
+      // native = the native-script glyph (kana / hangul / Chữ Nôm / Tangut /
+      // Phags-pa / Manchu …); surface = romanization. Keep both.
+      const mainNative = (cd.native && cd.native[code]) || '';
       if (Array.isArray(vs) && vs.length) {
         readings = vs
           .map((v) => ({
+            native: HAN_EMPTY(v.native) ? (HAN_EMPTY(mainNative) ? '' : mainNative) : v.native,
             surface: HAN_EMPTY(v.surface) ? '' : v.surface,
             ipa: HAN_EMPTY(v.ipa) ? '' : v.ipa,
             label: v.label || '',
           }))
-          .filter((r) => r.surface || r.ipa);
+          .filter((r) => r.surface || r.ipa || r.native);
       } else {
         let surf = (cd.surface && cd.surface[code]) || '';
         let ipa = (cd.ipa && cd.ipa[code]) || '';
         if (HAN_EMPTY(surf)) surf = '';
         if (HAN_EMPTY(ipa)) ipa = '';
-        if (surf || ipa) readings = [{ surface: surf, ipa, label: '' }];
+        const nat = HAN_EMPTY(mainNative) ? '' : mainNative;
+        if (surf || ipa || nat) readings = [{ native: nat, surface: surf, ipa, label: '' }];
       }
       if (readings.length) entries[ch] = readings;
     }

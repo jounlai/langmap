@@ -1288,7 +1288,7 @@ function seo_head(array $opts): void
          diacritics (POJ tone marks, ǔ) and Han glyphs render cleanly everywhere. */ ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Mongolian&display=swap">
 <title><?= e($title) ?></title>
 <meta name="description" content="<?= e(seo_clip($desc)) ?>">
 <meta name="robots" content="<?= e($robots) ?>">
@@ -1357,6 +1357,13 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-chartable td.c-read .rlabel { display: inline-block; font-size: .68rem; color: var(--muted);
   border: 1px solid var(--line); border-radius: .5rem; padding: 0 .4rem; line-height: 1.5; }
 .seo-chartable td.c-form { font-size: 1.05rem; word-break: break-word; }
+/* Native-script glyph (Chữ Nôm / kana / hangul / Tangut / Phags-pa / Manchu …)
+   shown above the romanization. */
+.seo-chartable td.c-form .c-native { display: block; font-size: 1.5rem; line-height: 1.2;
+  font-family: "Noto Serif JP", "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+    "Noto Serif Tangut", "Noto Sans Phags Pa", "Noto Sans Mongolian", "HanaMinA",
+    "HanaMinB", "Nom Na Tong", serif; }
+.seo-chartable td.c-form .c-rom { display: block; font-size: .92rem; color: var(--muted); }
 .seo-chartable td.c-ipa { color: var(--accent); font-size: .9rem; white-space: nowrap; }
 /* Serif for Han glyphs & surface forms (Mincho/Song for CJK); IPA stays sans.
    Body cells only (td) so the thead row keeps the uniform sans UI font.

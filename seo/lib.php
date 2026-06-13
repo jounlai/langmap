@@ -2095,7 +2095,6 @@ function seo_comparisons(string $map, string $code, string $ui,
     <h3><?= e(seo_t($ui, $blk['head'])) ?></h3>
     <?php foreach ($sentList as $si => $s): if ($si >= $WO_SSR) continue; ?>
     <div class="ex-wo-sent" data-sent="<?= $si ?>"<?= $si > 0 ? ' hidden' : '' ?>>
-      <p class="wo-title"><?= e($s['title'] ?? '') ?></p>
       <?php $renderWoRows($s, $blk['cols']); ?>
     </div>
     <?php endforeach; ?>
@@ -2270,7 +2269,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     function drawAll() { requestAnimationFrame(function () { blocks.forEach(drawWoLines); }); }
     function buildLazy(blk, i) {
       var d = data[i]; if (!d || !blk.lazy) return false;
-      var h = '<p class="wo-title">' + esc(d.t) + '</p>';
+      var h = '';
       blk.cols.forEach(function (code) {
         var row = (d.r || {})[code]; if (!row) return;
         h += '<div class="cmp-wo-row' + (row.l ? '' : ' cmp-anchor') + '"><div class="cmp-wo-name">'

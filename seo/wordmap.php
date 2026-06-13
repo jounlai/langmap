@@ -82,6 +82,10 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     if (!empty($meta['script']))   $chips[seo_t($ui, 'script')]    = $meta['script'];
     if (!empty($meta['countries']))$chips[seo_t($ui, 'countries')] = $meta['countries'];
     if (!empty($meta['official'])) $chips[seo_t($ui, 'official')]  = $meta['official'];
+    if (!empty($meta['region']))   $chips[seo_t($ui, 'region')]    = $meta['region'];
+    if (!empty($meta['vitality'])) $chips[seo_t($ui, 'vitality')]  = $meta['vitality'];
+    if (!empty($meta['iso6393']))  $chips[seo_t($ui, 'iso')]       = $meta['iso6393'];
+    if (!empty($meta['glottocode']))$chips[seo_t($ui, 'glotto')]   = $meta['glottocode'];
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
@@ -89,6 +93,14 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
   <?php endforeach; ?>
 </div>
 <?php endif; ?>
+
+<?php
+    $aliases = $meta['aliases'] ?? [];
+    if (is_array($aliases) && $aliases):
+        $aliasStr = implode(', ', array_filter($aliases, fn($a) => $a !== ''));
+        if ($aliasStr !== ''): ?>
+<p class="seo-aliases" style="color:var(--muted)"><?= e(seo_t($ui, 'aliases')) ?>: <?= e($aliasStr) ?></p>
+<?php endif; endif; ?>
 
 <?php if ($desc !== ''): ?>
 <p class="seo-desc"><?= e($desc) ?></p>

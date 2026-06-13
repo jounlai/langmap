@@ -197,6 +197,12 @@ function buildWordMapJSON(nameIndex) {
         official: meta.official || '',
         script: meta.script || '',
         region: meta.region || '',
+        iso6393: meta.iso6393 || '',
+        glottocode: meta.glottocode || '',
+        vitality: meta.vitality || '',
+        aliases: Array.isArray(meta.aliases)
+          ? meta.aliases.filter((a) => a != null && a !== '').map(String)
+          : (meta.aliases ? [String(meta.aliases)] : []),
         description: pickLangs(meta.description),
         sources: Array.isArray(meta.sources)
           ? meta.sources.map((s) => ({

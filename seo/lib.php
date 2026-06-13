@@ -98,6 +98,8 @@ const SEO_T = [
         'family' => 'Family', 'speakers' => 'Speakers', 'script' => 'Script',
         'region' => 'Region', 'countries' => 'Countries', 'official' => 'Official in',
         'reading' => 'Reading',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitality',
+        'aliases' => 'Also known as', 'romanization' => 'Romanization',
         'ex_words' => 'Words compared', 'ex_wordorder' => 'Word order compared', 'ex_han' => 'Han readings compared',
         'wo_major' => 'Compare with major world languages', 'wo_close' => 'Compare with closely-related languages',
         'cmp_caption' => 'Compared with related {family} languages',
@@ -149,6 +151,8 @@ const SEO_T = [
         'family' => '語族', 'speakers' => '話者数', 'script' => '文字',
         'region' => '地域', 'countries' => '国', 'official' => '公用語',
         'reading' => '読み',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => '活力度/危機度',
+        'aliases' => '別名', 'romanization' => 'ローマ字方式',
         'ex_words' => '単語の比較', 'ex_wordorder' => '語順の比較', 'ex_han' => '漢字音の比較',
         'wo_major' => '世界の主要言語と比較', 'wo_close' => '系統的に近い言語と比較',
         'cmp_caption' => '{family}の関連言語と比較',
@@ -200,6 +204,8 @@ const SEO_T = [
         'family' => '어족', 'speakers' => '사용자', 'script' => '문자',
         'region' => '지역', 'countries' => '국가', 'official' => '공용어',
         'reading' => '독음',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => '활력도',
+        'aliases' => '다른 이름', 'romanization' => '로마자 표기',
         'ex_words' => '단어 비교', 'ex_wordorder' => '어순 비교', 'ex_han' => '한자음 비교',
         'wo_major' => '세계 주요 언어와 비교', 'wo_close' => '계통적으로 가까운 언어와 비교',
         'cmp_caption' => '{family} 계열 관련 언어와 비교',
@@ -251,6 +257,8 @@ const SEO_T = [
         'family' => '语系', 'speakers' => '使用者', 'script' => '文字',
         'region' => '地区', 'countries' => '国家', 'official' => '官方语言',
         'reading' => '读音',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => '活力',
+        'aliases' => '别名', 'romanization' => '罗马字',
         'ex_words' => '单词比较', 'ex_wordorder' => '语序比较', 'ex_han' => '汉字读音比较',
         'wo_major' => '与世界主要语言比较', 'wo_close' => '与谱系相近的语言比较',
         'cmp_caption' => '与{family}相关语言比较',
@@ -302,6 +310,8 @@ const SEO_T = [
         'family' => '語系', 'speakers' => '使用者', 'script' => '文字',
         'region' => '地區', 'countries' => '國家', 'official' => '官方語言',
         'reading' => '讀音',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => '活力',
+        'aliases' => '別名', 'romanization' => '羅馬字',
         'ex_words' => '單詞比較', 'ex_wordorder' => '語序比較', 'ex_han' => '漢字讀音比較',
         'wo_major' => '與世界主要語言比較', 'wo_close' => '與譜系相近的語言比較',
         'cmp_caption' => '同{family}相關語言比較',
@@ -353,6 +363,8 @@ const SEO_T = [
         'family' => 'Ngữ hệ', 'speakers' => 'Người nói', 'script' => 'Chữ viết',
         'region' => 'Khu vực', 'countries' => 'Quốc gia', 'official' => 'Ngôn ngữ chính thức',
         'reading' => 'Cách đọc',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Mức độ sống còn',
+        'aliases' => 'Còn gọi là', 'romanization' => 'La-tinh hóa',
         'ex_words' => 'So sánh từ vựng', 'ex_wordorder' => 'So sánh trật tự từ', 'ex_han' => 'So sánh âm Hán tự',
         'wo_major' => 'So sánh với các ngôn ngữ lớn trên thế giới', 'wo_close' => 'So sánh với các ngôn ngữ có quan hệ gần gũi',
         'cmp_caption' => 'So sánh với các ngôn ngữ {family} liên quan',
@@ -404,6 +416,8 @@ const SEO_T = [
         'family' => 'ตระกูลภาษา', 'speakers' => 'ผู้พูด', 'script' => 'อักษร',
         'region' => 'ภูมิภาค', 'countries' => 'ประเทศ', 'official' => 'ภาษาราชการ',
         'reading' => 'การอ่าน',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'สถานะความมีชีวิต',
+        'aliases' => 'หรือเรียกว่า', 'romanization' => 'การถอดอักษรโรมัน',
         'ex_words' => 'เปรียบเทียบคำศัพท์', 'ex_wordorder' => 'เปรียบเทียบลำดับคำ', 'ex_han' => 'เปรียบเทียบการอ่านอักษรจีน',
         'wo_major' => 'เปรียบเทียบกับภาษาหลักของโลก', 'wo_close' => 'เปรียบเทียบกับภาษาที่มีความสัมพันธ์ใกล้ชิด',
         'cmp_caption' => 'เปรียบเทียบกับภาษาตระกูล {family} ที่เกี่ยวข้อง',
@@ -455,6 +469,8 @@ const SEO_T = [
         'family' => 'Rumpun bahasa', 'speakers' => 'Penutur', 'script' => 'Aksara',
         'region' => 'Wilayah', 'countries' => 'Negara', 'official' => 'Bahasa resmi',
         'reading' => 'Bacaan',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitalitas',
+        'aliases' => 'Juga dikenal sebagai', 'romanization' => 'Romanisasi',
         'ex_words' => 'Perbandingan kata', 'ex_wordorder' => 'Perbandingan urutan kata', 'ex_han' => 'Perbandingan bacaan Han',
         'wo_major' => 'Bandingkan dengan bahasa utama dunia', 'wo_close' => 'Bandingkan dengan bahasa yang berkerabat dekat',
         'cmp_caption' => 'Dibandingkan dengan bahasa {family} terkait',
@@ -506,6 +522,8 @@ const SEO_T = [
         'family' => 'भाषा परिवार', 'speakers' => 'वक्ता', 'script' => 'लिपि',
         'region' => 'क्षेत्र', 'countries' => 'देश', 'official' => 'आधिकारिक भाषा',
         'reading' => 'पठन',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'जीवंतता',
+        'aliases' => 'अन्य नाम', 'romanization' => 'रोमनकरण',
         'ex_words' => 'शब्दों की तुलना', 'ex_wordorder' => 'शब्द-क्रम की तुलना', 'ex_han' => 'हान पठन की तुलना',
         'wo_major' => 'विश्व की प्रमुख भाषाओं से तुलना करें', 'wo_close' => 'निकट संबंधी भाषाओं से तुलना करें',
         'cmp_caption' => '{family} संबंधित भाषाओं से तुलना',
@@ -557,6 +575,8 @@ const SEO_T = [
         'family' => 'Sprachfamilie', 'speakers' => 'Sprecher', 'script' => 'Schrift',
         'region' => 'Region', 'countries' => 'Länder', 'official' => 'Amtssprache in',
         'reading' => 'Lesung',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitalität',
+        'aliases' => 'Auch bekannt als', 'romanization' => 'Umschrift',
         'ex_words' => 'Wörter im Vergleich', 'ex_wordorder' => 'Wortstellung im Vergleich', 'ex_han' => 'Han-Lesungen im Vergleich',
         'wo_major' => 'Mit den wichtigsten Weltsprachen vergleichen', 'wo_close' => 'Mit nah verwandten Sprachen vergleichen',
         'cmp_caption' => 'Verglichen mit verwandten {family}-Sprachen',
@@ -608,6 +628,8 @@ const SEO_T = [
         'family' => 'Famille', 'speakers' => 'Locuteurs', 'script' => 'Écriture',
         'region' => 'Région', 'countries' => 'Pays', 'official' => 'Langue officielle',
         'reading' => 'Lecture',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitalité',
+        'aliases' => 'Aussi appelé', 'romanization' => 'Romanisation',
         'ex_words' => 'Mots comparés', 'ex_wordorder' => 'Ordre des mots comparé', 'ex_han' => 'Lectures han comparées',
         'wo_major' => 'Comparer avec les grandes langues du monde', 'wo_close' => 'Comparer avec des langues proches',
         'cmp_caption' => 'Comparé aux langues {family} apparentées',
@@ -659,6 +681,8 @@ const SEO_T = [
         'family' => 'Famiglia', 'speakers' => 'Parlanti', 'script' => 'Scrittura',
         'region' => 'Regione', 'countries' => 'Paesi', 'official' => 'Lingua ufficiale',
         'reading' => 'Lettura',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitalità',
+        'aliases' => 'Noto anche come', 'romanization' => 'Romanizzazione',
         'ex_words' => 'Parole a confronto', 'ex_wordorder' => 'Ordine delle parole a confronto', 'ex_han' => 'Letture han a confronto',
         'wo_major' => 'Confronta con le principali lingue del mondo', 'wo_close' => 'Confronta con lingue strettamente imparentate',
         'cmp_caption' => 'Confrontato con le lingue {family} correlate',
@@ -710,6 +734,8 @@ const SEO_T = [
         'family' => 'Familia', 'speakers' => 'Hablantes', 'script' => 'Escritura',
         'region' => 'Región', 'countries' => 'Países', 'official' => 'Lengua oficial',
         'reading' => 'Lectura',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitalidad',
+        'aliases' => 'También conocido como', 'romanization' => 'Romanización',
         'ex_words' => 'Palabras comparadas', 'ex_wordorder' => 'Orden de palabras comparado', 'ex_han' => 'Lecturas han comparadas',
         'wo_major' => 'Comparar con las principales lenguas del mundo', 'wo_close' => 'Comparar con lenguas estrechamente emparentadas',
         'cmp_caption' => 'Comparado con lenguas {family} relacionadas',
@@ -761,6 +787,8 @@ const SEO_T = [
         'family' => 'Família', 'speakers' => 'Falantes', 'script' => 'Escrita',
         'region' => 'Região', 'countries' => 'Países', 'official' => 'Língua oficial',
         'reading' => 'Leitura',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Vitalidade',
+        'aliases' => 'Também conhecido como', 'romanization' => 'Romanização',
         'ex_words' => 'Palavras comparadas', 'ex_wordorder' => 'Ordem das palavras comparada', 'ex_han' => 'Leituras han comparadas',
         'wo_major' => 'Comparar com as principais línguas do mundo', 'wo_close' => 'Comparar com línguas proximamente aparentadas',
         'cmp_caption' => 'Comparado com línguas {family} relacionadas',
@@ -812,6 +840,8 @@ const SEO_T = [
         'family' => 'Семья', 'speakers' => 'Носители', 'script' => 'Письмо',
         'region' => 'Регион', 'countries' => 'Страны', 'official' => 'Официальный язык',
         'reading' => 'Чтение',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Жизнеспособность',
+        'aliases' => 'Также известен как', 'romanization' => 'Латинизация',
         'ex_words' => 'Сравнение слов', 'ex_wordorder' => 'Сравнение порядка слов', 'ex_han' => 'Сравнение чтений ханьцзы',
         'wo_major' => 'Сравнить с основными языками мира', 'wo_close' => 'Сравнить с близкородственными языками',
         'cmp_caption' => 'Сравнение с родственными языками {family}',
@@ -863,6 +893,8 @@ const SEO_T = [
         'family' => 'Сім’я', 'speakers' => 'Носії', 'script' => 'Письмо',
         'region' => 'Регіон', 'countries' => 'Країни', 'official' => 'Офіційна мова',
         'reading' => 'Читання',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Життєздатність',
+        'aliases' => 'Також відомий як', 'romanization' => 'Латинізація',
         'ex_words' => 'Порівняння слів', 'ex_wordorder' => 'Порівняння порядку слів', 'ex_han' => 'Порівняння читань ханьцзи',
         'wo_major' => 'Порівняти з основними мовами світу', 'wo_close' => 'Порівняти з близькоспорідненими мовами',
         'cmp_caption' => 'Порівняння зі спорідненими мовами {family}',
@@ -914,6 +946,8 @@ const SEO_T = [
         'family' => 'العائلة', 'speakers' => 'المتحدثون', 'script' => 'الكتابة',
         'region' => 'المنطقة', 'countries' => 'البلدان', 'official' => 'لغة رسمية في',
         'reading' => 'القراءة',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'الحيوية',
+        'aliases' => 'يُعرف أيضًا بـ', 'romanization' => 'الكتابة اللاتينية',
         'ex_words' => 'مقارنة الكلمات', 'ex_wordorder' => 'مقارنة ترتيب الكلمات', 'ex_han' => 'مقارنة قراءات الهان',
         'wo_major' => 'قارن مع كبرى لغات العالم', 'wo_close' => 'قارن مع لغات وثيقة القرابة',
         'cmp_caption' => 'بالمقارنة مع لغات {family} ذات الصلة',
@@ -965,6 +999,8 @@ const SEO_T = [
         'family' => 'משפחה', 'speakers' => 'דוברים', 'script' => 'כתב',
         'region' => 'אזור', 'countries' => 'מדינות', 'official' => 'שפה רשמית',
         'reading' => 'קריאה',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'חיוניות',
+        'aliases' => 'ידוע גם כ', 'romanization' => 'תעתיק לטיני',
         'ex_words' => 'השוואת מילים', 'ex_wordorder' => 'השוואת סדר מילים', 'ex_han' => 'השוואת קריאות האן',
         'wo_major' => 'השוואה לשפות העולם המרכזיות', 'wo_close' => 'השוואה לשפות קרובות גנטית',
         'cmp_caption' => 'בהשוואה לשפות {family} קשורות',
@@ -1016,6 +1052,8 @@ const SEO_T = [
         'family' => 'Familia', 'speakers' => 'Wasemaji', 'script' => 'Hati',
         'region' => 'Eneo', 'countries' => 'Nchi', 'official' => 'Lugha rasmi',
         'reading' => 'Usomaji',
+        'iso' => 'ISO 639-3', 'glotto' => 'Glottocode', 'vitality' => 'Uhai wa lugha',
+        'aliases' => 'Pia hujulikana kama', 'romanization' => 'Uandishi wa Kilatini',
         'ex_words' => 'Ulinganishaji wa maneno', 'ex_wordorder' => 'Ulinganishaji wa mpangilio wa maneno', 'ex_han' => 'Ulinganishaji wa usomaji wa Han',
         'wo_major' => 'Linganisha na lugha kuu za dunia', 'wo_close' => 'Linganisha na lugha zenye uhusiano wa karibu',
         'cmp_caption' => 'Imelinganishwa na lugha za {family} zinazohusiana',
@@ -1817,6 +1855,63 @@ function seo_close_siblings(array $langs, string $self, string $ui, string $kind
     return array_map(fn($e) => $e['c'], array_slice($scored, 0, $max));
 }
 
+/** IPA string similarity in [0,1] (1 − normalized Levenshtein distance). */
+function seo_ipa_sim(string $a, string $b): float
+{
+    if ($a === '' || $b === '') return 0.0;
+    if ($a === $b) return 1.0;
+    $m = max(strlen($a), strlen($b));
+    if ($m === 0) return 0.0;
+    // levenshtein() is byte-wise (args must be < 256 bytes — IPA forms are short);
+    // a fine, fast proxy for ranking phonetic closeness.
+    return 1.0 - levenshtein($a, $b) / $m;
+}
+
+/** Per-item IPA map for a lang record: word-id/char-key => IPA string. */
+function seo_ipa_map(array $l, string $kind): array
+{
+    $out = [];
+    if ($kind === 'readings') {
+        foreach (($l['readings'] ?? []) as $key => $arr) {
+            $ipa = (is_array($arr) && isset($arr[0]['ipa'])) ? (string) $arr[0]['ipa'] : '';
+            if ($ipa !== '') $out[$key] = $ipa;
+        }
+    } else {
+        foreach (($l['words'] ?? []) as $id => $pair) {
+            $ipa = is_array($pair) ? (string) ($pair[1] ?? '') : '';
+            if ($ipa !== '') $out[$id] = $ipa;
+        }
+    }
+    return $out;
+}
+
+/**
+ * Rank candidate languages by IPA SIMILARITY to $self (descending) over their
+ * shared items — used to order the Words / Han-readings comparison columns by
+ * how phonetically close each language is to the page's language.
+ */
+function seo_ipa_rank(array $langs, string $self, string $kind, int $max = 6): array
+{
+    $selfIpa = seo_ipa_map($langs[$self] ?? [], $kind);
+    if (count($selfIpa) < 3) return [];
+    $minShared = $kind === 'readings' ? 8 : 5;
+    $scored = [];
+    foreach ($langs as $code => $l) {
+        if ((string) $code === $self) continue;
+        if (empty($l[$kind]) || !is_array($l[$kind])) continue;
+        $cand = seo_ipa_map($l, $kind);
+        $sum = 0.0; $n = 0;
+        foreach ($selfIpa as $item => $ia) {
+            if (!isset($cand[$item])) continue;
+            $sum += seo_ipa_sim($ia, $cand[$item]); $n++;
+        }
+        if ($n < $minShared) continue;
+        $scored[] = ['c' => (string) $code, 's' => $sum / $n, 'k' => $n];
+    }
+    usort($scored, fn($a, $b) => ($b['s'] <=> $a['s']) ?: ($b['k'] <=> $a['k']));
+    return array_map(fn($e) => $e['c'], array_slice($scored, 0, $max));
+}
+
 /**
  * Render the three "compare with related (sibling) languages" sections.
  *
@@ -1848,14 +1943,14 @@ function seo_comparisons(string $map, string $code, string $ui,
 
     // --- Section 1: Words comparison ----------------------------------------
     $wMine = $wmLangs[$code]['words'] ?? [];
-    $wSibs = $wMine ? seo_close_siblings($wmLangs, $code, $ui, 'words') : [];
+    $wSibs = $wMine ? seo_ipa_rank($wmLangs, $code, 'words') : [];
     $wFamily = $wMine ? seo_lang_family($wmLangs[$code] ?? []) : '';
     // Columns: anchor first, then siblings.
     $wCols = $wMine ? array_merge([$code], $wSibs) : [];
 
     // --- Section 3: Han readings comparison ---------------------------------
     $hMine = $hmLangs[$code]['readings'] ?? [];
-    $hSibs = $hMine ? seo_close_siblings($hmLangs, $code, $ui, 'readings') : [];
+    $hSibs = $hMine ? seo_ipa_rank($hmLangs, $code, 'readings') : [];
     $hFamily = $hMine ? seo_lang_family($hmLangs[$code] ?? []) : '';
     $hCols = $hMine ? array_merge([$code], $hSibs) : [];
 

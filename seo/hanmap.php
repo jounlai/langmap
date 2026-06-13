@@ -75,6 +75,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     if (!empty($lang['family']))      $chips[seo_t($ui, 'family')]   = $lang['family'];
     if (!empty($lang['speakers']))    $chips[seo_t($ui, 'speakers')] = $lang['speakers'];
     if (!empty($lang['region']))      $chips[seo_t($ui, 'region')]   = $lang['region'];
+    if (!empty($lang['romanization']))$chips[seo_t($ui, 'romanization')] = $lang['romanization'];
     if ($readingType !== '')          $chips[seo_t($ui, 'reading')]  = $readingType;
     if ($chips): ?>
 <div class="seo-meta">

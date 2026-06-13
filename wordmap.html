@@ -6171,6 +6171,17 @@
             }
             // Audit Task 216: bottom Compare button removed; the inline button
             // under native-name (rendered earlier) is the single canonical control.
+            // SEO big-text page link → /{ui}/wordmap/{code}. uiLang base must be
+            // one of the 19 supported UI langs; otherwise fall back to 'en'.
+            (() => {
+                const SEO_UI = ['en','ja','ko','zh','yue','vi','th','id','hi','de','fr','it','es','pt','ru','uk','ar','he','sw'];
+                const uiBaseLink = (typeof uiLang === 'string' ? uiLang : 'en').split('_')[0];
+                const ui = SEO_UI.indexOf(uiBaseLink) !== -1 ? uiBaseLink : 'en';
+                const href = '/' + ui + '/wordmap/' + escapeHtml(code);
+                html += `<div style="margin-top:12px;padding-top:8px;border-top:1px dotted #ddd">` +
+                    `<a href="${href}" style="display:inline-block;font-size:12px;color:#4a6cf7;text-decoration:none;font-weight:600">` +
+                    `📄 デカ文字版ページ / Big-text page →</a></div>`;
+            })();
             infoContent.innerHTML = html;
         }
 
@@ -7882,5 +7893,8 @@
 
     })();
     </script>
+    <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#888;border-top:1px solid #e6e6ef;margin-top:24px">
+        全言語インデックス (SEO): <a href="/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/hanmap/" style="color:#4178bc">Han Map</a>
+    </footer>
 </body>
 </html>

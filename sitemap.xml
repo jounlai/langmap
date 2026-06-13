@@ -25,4 +25,16 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://langmap.heuron.com/wordmap/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://langmap.heuron.com/hanmap/</loc>
+        <lastmod>2026-06-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

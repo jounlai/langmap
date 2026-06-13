@@ -1,0 +1,25 @@
+# LangMap SEO pages — Apache rewrite rules.
+# Canonical URLs are UI-prefixed:
+#   /{ui}/ , /{ui}/wordmap/ , /{ui}/wordmap/{id} , /{ui}/hanmap/ , /{ui}/hanmap/{id}
+# Legacy/non-prefixed paths (/, /wordmap/*, /hanmap/*) are 301'd to /en/... by
+# the PHP front controller. /sitemap-seo.xml is UI-agnostic.
+#
+# Existing static files (.html, .js, .css, images) are served directly;
+# every other (virtual) route is sent to the PHP front controller.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Serve real files / directories untouched.
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Everything else (incl. /, legacy, and /{ui}/... routes) -> front controller.
+    RewriteRule ^ index.php [L,QSA]
+</IfModule>
+
+# UTF-8 default for the PHP-rendered HTML.
+<IfModule mod_mime.c>
+    AddDefaultCharset UTF-8
+</IfModule>

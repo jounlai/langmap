@@ -9,3 +9,4 @@ Disallow: /__pycache__/
 Disallow: /changelog.html
 
 Sitemap: https://langmap.heuron.com/sitemap.xml
+Sitemap: https://langmap.heuron.com/sitemap-seo.xml

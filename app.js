@@ -805,11 +805,24 @@ function createModalToggle(lang) {
     if (lang.experimental) label.classList.add('experimental');
     const badge = lang.historical ? '<span class="hist-badge">Hist</span>'
         : lang.experimental ? '<span class="exp-badge">Exp</span>' : '';
+    // SEO big-text page link → /{ui}/wordmap/{code}. LangMap has no SEO page
+    // of its own, so we link to the Word Map page (closest rich content).
+    // currentUILang base must be one of the 19 supported UI langs; else 'en'.
+    const _SEO_UI = ['en','ja','ko','zh','yue','vi','th','id','hi','de','fr','it','es','pt','ru','uk','ar','he','sw'];
+    const _uiBase = (typeof currentUILang === 'string' ? currentUILang : 'en').split('_')[0];
+    const _seoUi = _SEO_UI.indexOf(_uiBase) !== -1 ? _uiBase : 'en';
+    const _seoCode = String(lang.code).replace(/[^a-z0-9_]/gi, '');
+    const _seoHref = '/' + _seoUi + '/wordmap/' + _seoCode;
     label.innerHTML = `
         <span class="dot"></span>
         <input type="checkbox" ${isOn ? 'checked' : ''} data-lang="${lang.code}">
         <span>${langName(lang.code)}</span>${badge}
+        <a class="lang-seo-link" href="${_seoHref}" title="Big-text page" style="margin-left:6px;font-size:11px;text-decoration:none;color:#4a6cf7">📄</a>
     `;
+    // The SEO link must navigate, not toggle the checkbox: stop the click
+    // from reaching the label's preventDefault/toggle handler below.
+    const _seoLink = label.querySelector('.lang-seo-link');
+    if (_seoLink) _seoLink.addEventListener('click', (e) => { e.stopPropagation(); });
     label.addEventListener('click', (e) => {
         e.preventDefault();
         const cb = label.querySelector('input');

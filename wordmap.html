@@ -530,6 +530,39 @@
         .lang-label.selected .word:not([style]), .globe-label.selected .word:not([style]) { color: #1a1a2e; }
         .lang-label.selected .ipa:not([style]),  .globe-label.selected .ipa:not([style])  { color: #555; }
         .lang-label.selected .name:not([style]), .globe-label.selected .name:not([style]) { color: #888; }
+        /* Compare-set marker — every language currently in the comparison
+           panel (window.__compareList) gets a consistent amber ring + soft
+           halo so the whole comparison set is identifiable at a glance on
+           the map. Distinct from the blue "selected" ring so the two states
+           read independently. Works in 2D and on the 3D globe. The amber
+           glow stays legible against both the light 2D map and the dark
+           globe background. */
+        .lang-label.in-compare, .globe-label.in-compare {
+            background: rgba(245, 166, 35, 0.14);
+            border-radius: 7px;
+            padding: 3px 7px;
+            box-shadow: 0 0 0 2px rgba(245, 166, 35, 0.95),
+                        0 0 8px 1px rgba(245, 166, 35, 0.55);
+        }
+        /* On the dark 3D globe, drop the translucent fill (it muddies against
+           the night sky) and keep a crisp amber ring + glow. */
+        body.is-3d .globe-label.in-compare {
+            background: rgba(245, 166, 35, 0.10);
+            box-shadow: 0 0 0 2px rgba(245, 166, 35, 1),
+                        0 0 10px 2px rgba(245, 166, 35, 0.6);
+        }
+        /* When a language is BOTH selected and in the compare set, the blue
+           selected card wins for the fill but we keep the amber ring as a
+           second outline so its compare membership stays visible. */
+        .lang-label.selected.in-compare, .globe-label.selected.in-compare {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.22),
+                        0 0 0 1px rgba(74,108,247,0.6),
+                        0 0 0 3px rgba(245, 166, 35, 0.95);
+        }
+        body.is-3d .globe-label.selected.in-compare {
+            box-shadow: 0 0 0 1px rgba(74,108,247,0.85),
+                        0 0 0 3px rgba(245, 166, 35, 0.95);
+        }
         /* Connector — drawn ABOVE the info modal (z-index 1011 vs panel
            1010) so the line visibly terminates on the panel surface
            rather than sliding behind it. A small filled circle at the
@@ -3990,7 +4023,8 @@
             if (showWord && word) ariaParts.push(word);
             if (showIpa && ipa) ariaParts.push('/' + ipa + '/');
             const ariaLabel = escapeHtml(ariaParts.filter(Boolean).join(' — '));
-            let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
+            const inCompareCls = (window.__compareList || []).indexOf(code) !== -1 ? ' in-compare' : '';
+            let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
             // Audit Task 129: dir="auto" on word + name so RTL labels render
             // in correct order; IPA stays LTR.
             if (showWord) html += `<div class="word" dir="auto" ${c ? `style="color:${c}"` : ''}>${w}</div>`;
@@ -6612,6 +6646,18 @@
             try { updateHash(); } catch (e) {}
         }
         function isInCompare(code) { return _compareList.indexOf(code) !== -1; }
+        // Toggle the `in-compare` marker class on every label already in the
+        // DOM (both 2D Leaflet divIcon labels and 3D globe labels) to match
+        // the current compare set. Cheap O(visible labels) DOM pass; called
+        // after any mutation of _compareList. New labels created later pick
+        // up the class directly from buildLabelHtml.
+        function refreshCompareMarkers() {
+            const set = window.__compareList || [];
+            document.querySelectorAll('.lang-label[data-code], .globe-label[data-code]').forEach(el => {
+                const inCmp = set.indexOf(el.getAttribute('data-code')) !== -1;
+                el.classList.toggle('in-compare', inCmp);
+            });
+        }
         function addToCompare(code) {
             if (!LANG_DATA[code] || isInCompare(code)) return;
             if (_compareList.length >= COMPARE_MAX) { alert(compareT('max')); return; }
@@ -6620,6 +6666,7 @@
             updateCompareFab();
             renderCompareIfOpen();
             updateModalCompareBtn(code);
+            refreshCompareMarkers();
         }
         function removeFromCompare(code) {
             const i = _compareList.indexOf(code);
@@ -6629,6 +6676,7 @@
             updateCompareFab();
             renderCompareIfOpen();
             updateModalCompareBtn(code);
+            refreshCompareMarkers();
             if (_compareList.length === 0) closeComparePanel();
         }
         function clearCompare() {
@@ -6637,6 +6685,7 @@
             saveCompareList();
             updateCompareFab();
             closeComparePanel();
+            refreshCompareMarkers();
             // Refresh modal compare button if a previously-compared lang is open
             const open = infoPanel && infoPanel.classList.contains('visible') ? infoPanel.dataset.code : '';
             if (open && wasOpen.indexOf(open) !== -1) updateModalCompareBtn(open);
@@ -6656,6 +6705,7 @@
         }
         function openComparePanel() {
             if (_compareList.length === 0) return;
+            refreshCompareMarkers();
             renderCompare();
             const panel = document.getElementById('compare-panel');
             panel.classList.add('visible');
@@ -6935,6 +6985,7 @@
         // Initialize compare list from hash/localStorage now that everything is wired
         loadCompareList();
         updateCompareFab();
+        refreshCompareMarkers();
         // Arriving via a compare deep-link (#cmp=...) opens the panel directly.
         if (new URLSearchParams(location.hash.slice(1)).get('cmp')) openComparePanel();
 

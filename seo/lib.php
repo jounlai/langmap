@@ -2017,6 +2017,17 @@ function seo_comparisons(string $map, string $code, string $ui,
     // Columns used by the section = anchor + union of both blocks (for SSR/blob).
     $woColsMajor = $haveWoMajor ? array_merge([$code], $woMajor) : [];
     $woColsClose = $haveWoClose ? array_merge([$code], $woClose) : [];
+    // Order each block's rows by closeness to the page language (closest first).
+    // The anchor is not pinned — it sorts in by closeness like any other row
+    // (being closest to itself, it naturally lands at/near the top).
+    $woSelfLv = $famLevelsOf($code);
+    $woRank = fn($c) => $woSelfLv ? seo_family_closeness($woSelfLv, $famLevelsOf((string) $c)) : 0;
+    $sortWo = function (array $cols) use ($woRank, $woName) {
+        usort($cols, fn($a, $b) => ($woRank($b) <=> $woRank($a)) ?: strcasecmp($woName($a), $woName($b)));
+        return $cols;
+    };
+    $woColsMajor = $sortWo($woColsMajor);
+    $woColsClose = $sortWo($woColsClose);
     $woCols = array_values(array_unique(array_merge(
         ($haveWoMajor || $haveWoClose) ? [$code] : [],
         $woMajor, $woClose

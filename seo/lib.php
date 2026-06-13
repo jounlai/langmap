@@ -99,6 +99,7 @@ const SEO_T = [
         'region' => 'Region', 'countries' => 'Countries', 'official' => 'Official in',
         'reading' => 'Reading',
         'ex_words' => 'Words compared', 'ex_wordorder' => 'Word order compared', 'ex_han' => 'Han readings compared',
+        'wo_major' => 'Compare with major world languages', 'wo_close' => 'Compare with closely-related languages',
         'cmp_caption' => 'Compared with related {family} languages',
         'ex_prev' => 'Prev', 'ex_next' => 'Next', 'ex_page' => 'Page', 'ex_pick' => 'Sentence',
         'th_char' => 'Character', 'th_gloss' => 'Meaning', 'th_read' => 'Reading', 'th_form' => 'Form',
@@ -149,6 +150,7 @@ const SEO_T = [
         'region' => '地域', 'countries' => '国', 'official' => '公用語',
         'reading' => '読み',
         'ex_words' => '単語の比較', 'ex_wordorder' => '語順の比較', 'ex_han' => '漢字音の比較',
+        'wo_major' => '世界の主要言語と比較', 'wo_close' => '系統的に近い言語と比較',
         'cmp_caption' => '{family}の関連言語と比較',
         'ex_prev' => '前へ', 'ex_next' => '次へ', 'ex_page' => 'ページ', 'ex_pick' => '文',
         'th_char' => '漢字', 'th_gloss' => '意味', 'th_read' => '発音区分', 'th_form' => '表記',
@@ -199,6 +201,7 @@ const SEO_T = [
         'region' => '지역', 'countries' => '국가', 'official' => '공용어',
         'reading' => '독음',
         'ex_words' => '단어 비교', 'ex_wordorder' => '어순 비교', 'ex_han' => '한자음 비교',
+        'wo_major' => '세계 주요 언어와 비교', 'wo_close' => '계통적으로 가까운 언어와 비교',
         'cmp_caption' => '{family} 계열 관련 언어와 비교',
         'ex_prev' => '이전', 'ex_next' => '다음', 'ex_page' => '페이지', 'ex_pick' => '문장',
         'th_char' => '한자', 'th_gloss' => '뜻', 'th_read' => '독음', 'th_form' => '표기',
@@ -249,6 +252,7 @@ const SEO_T = [
         'region' => '地区', 'countries' => '国家', 'official' => '官方语言',
         'reading' => '读音',
         'ex_words' => '单词比较', 'ex_wordorder' => '语序比较', 'ex_han' => '汉字读音比较',
+        'wo_major' => '与世界主要语言比较', 'wo_close' => '与谱系相近的语言比较',
         'cmp_caption' => '与{family}相关语言比较',
         'ex_prev' => '上一页', 'ex_next' => '下一页', 'ex_page' => '页', 'ex_pick' => '句子',
         'th_char' => '汉字', 'th_gloss' => '含义', 'th_read' => '读音', 'th_form' => '写法',
@@ -299,6 +303,7 @@ const SEO_T = [
         'region' => '地區', 'countries' => '國家', 'official' => '官方語言',
         'reading' => '讀音',
         'ex_words' => '單詞比較', 'ex_wordorder' => '語序比較', 'ex_han' => '漢字讀音比較',
+        'wo_major' => '與世界主要語言比較', 'wo_close' => '與譜系相近的語言比較',
         'cmp_caption' => '同{family}相關語言比較',
         'ex_prev' => '上一頁', 'ex_next' => '下一頁', 'ex_page' => '頁', 'ex_pick' => '句子',
         'th_char' => '漢字', 'th_gloss' => '意思', 'th_read' => '讀音', 'th_form' => '寫法',
@@ -349,6 +354,7 @@ const SEO_T = [
         'region' => 'Khu vực', 'countries' => 'Quốc gia', 'official' => 'Ngôn ngữ chính thức',
         'reading' => 'Cách đọc',
         'ex_words' => 'So sánh từ vựng', 'ex_wordorder' => 'So sánh trật tự từ', 'ex_han' => 'So sánh âm Hán tự',
+        'wo_major' => 'So sánh với các ngôn ngữ lớn trên thế giới', 'wo_close' => 'So sánh với các ngôn ngữ có quan hệ gần gũi',
         'cmp_caption' => 'So sánh với các ngôn ngữ {family} liên quan',
         'ex_prev' => 'Trước', 'ex_next' => 'Sau', 'ex_page' => 'Trang', 'ex_pick' => 'Câu',
         'th_char' => 'Chữ Hán', 'th_gloss' => 'Nghĩa', 'th_read' => 'Âm đọc', 'th_form' => 'Dạng viết',
@@ -399,6 +405,7 @@ const SEO_T = [
         'region' => 'ภูมิภาค', 'countries' => 'ประเทศ', 'official' => 'ภาษาราชการ',
         'reading' => 'การอ่าน',
         'ex_words' => 'เปรียบเทียบคำศัพท์', 'ex_wordorder' => 'เปรียบเทียบลำดับคำ', 'ex_han' => 'เปรียบเทียบการอ่านอักษรจีน',
+        'wo_major' => 'เปรียบเทียบกับภาษาหลักของโลก', 'wo_close' => 'เปรียบเทียบกับภาษาที่มีความสัมพันธ์ใกล้ชิด',
         'cmp_caption' => 'เปรียบเทียบกับภาษาตระกูล {family} ที่เกี่ยวข้อง',
         'ex_prev' => 'ก่อนหน้า', 'ex_next' => 'ถัดไป', 'ex_page' => 'หน้า', 'ex_pick' => 'ประโยค',
         'th_char' => 'อักษร', 'th_gloss' => 'ความหมาย', 'th_read' => 'การอ่าน', 'th_form' => 'รูปเขียน',
@@ -449,6 +456,7 @@ const SEO_T = [
         'region' => 'Wilayah', 'countries' => 'Negara', 'official' => 'Bahasa resmi',
         'reading' => 'Bacaan',
         'ex_words' => 'Perbandingan kata', 'ex_wordorder' => 'Perbandingan urutan kata', 'ex_han' => 'Perbandingan bacaan Han',
+        'wo_major' => 'Bandingkan dengan bahasa utama dunia', 'wo_close' => 'Bandingkan dengan bahasa yang berkerabat dekat',
         'cmp_caption' => 'Dibandingkan dengan bahasa {family} terkait',
         'ex_prev' => 'Sebelumnya', 'ex_next' => 'Berikutnya', 'ex_page' => 'Halaman', 'ex_pick' => 'Kalimat',
         'th_char' => 'Aksara', 'th_gloss' => 'Arti', 'th_read' => 'Bacaan', 'th_form' => 'Bentuk',
@@ -499,6 +507,7 @@ const SEO_T = [
         'region' => 'क्षेत्र', 'countries' => 'देश', 'official' => 'आधिकारिक भाषा',
         'reading' => 'पठन',
         'ex_words' => 'शब्दों की तुलना', 'ex_wordorder' => 'शब्द-क्रम की तुलना', 'ex_han' => 'हान पठन की तुलना',
+        'wo_major' => 'विश्व की प्रमुख भाषाओं से तुलना करें', 'wo_close' => 'निकट संबंधी भाषाओं से तुलना करें',
         'cmp_caption' => '{family} संबंधित भाषाओं से तुलना',
         'ex_prev' => 'पिछला', 'ex_next' => 'अगला', 'ex_page' => 'पृष्ठ', 'ex_pick' => 'वाक्य',
         'th_char' => 'अक्षर', 'th_gloss' => 'अर्थ', 'th_read' => 'उच्चारण', 'th_form' => 'रूप',
@@ -549,6 +558,7 @@ const SEO_T = [
         'region' => 'Region', 'countries' => 'Länder', 'official' => 'Amtssprache in',
         'reading' => 'Lesung',
         'ex_words' => 'Wörter im Vergleich', 'ex_wordorder' => 'Wortstellung im Vergleich', 'ex_han' => 'Han-Lesungen im Vergleich',
+        'wo_major' => 'Mit den wichtigsten Weltsprachen vergleichen', 'wo_close' => 'Mit nah verwandten Sprachen vergleichen',
         'cmp_caption' => 'Verglichen mit verwandten {family}-Sprachen',
         'ex_prev' => 'Zurück', 'ex_next' => 'Weiter', 'ex_page' => 'Seite', 'ex_pick' => 'Satz',
         'th_char' => 'Schriftzeichen', 'th_gloss' => 'Bedeutung', 'th_read' => 'Lesung', 'th_form' => 'Form',
@@ -599,6 +609,7 @@ const SEO_T = [
         'region' => 'Région', 'countries' => 'Pays', 'official' => 'Langue officielle',
         'reading' => 'Lecture',
         'ex_words' => 'Mots comparés', 'ex_wordorder' => 'Ordre des mots comparé', 'ex_han' => 'Lectures han comparées',
+        'wo_major' => 'Comparer avec les grandes langues du monde', 'wo_close' => 'Comparer avec des langues proches',
         'cmp_caption' => 'Comparé aux langues {family} apparentées',
         'ex_prev' => 'Préc.', 'ex_next' => 'Suiv.', 'ex_page' => 'Page', 'ex_pick' => 'Phrase',
         'th_char' => 'Caractère', 'th_gloss' => 'Sens', 'th_read' => 'Lecture', 'th_form' => 'Forme',
@@ -649,6 +660,7 @@ const SEO_T = [
         'region' => 'Regione', 'countries' => 'Paesi', 'official' => 'Lingua ufficiale',
         'reading' => 'Lettura',
         'ex_words' => 'Parole a confronto', 'ex_wordorder' => 'Ordine delle parole a confronto', 'ex_han' => 'Letture han a confronto',
+        'wo_major' => 'Confronta con le principali lingue del mondo', 'wo_close' => 'Confronta con lingue strettamente imparentate',
         'cmp_caption' => 'Confrontato con le lingue {family} correlate',
         'ex_prev' => 'Prec.', 'ex_next' => 'Succ.', 'ex_page' => 'Pagina', 'ex_pick' => 'Frase',
         'th_char' => 'Carattere', 'th_gloss' => 'Significato', 'th_read' => 'Lettura', 'th_form' => 'Forma',
@@ -699,6 +711,7 @@ const SEO_T = [
         'region' => 'Región', 'countries' => 'Países', 'official' => 'Lengua oficial',
         'reading' => 'Lectura',
         'ex_words' => 'Palabras comparadas', 'ex_wordorder' => 'Orden de palabras comparado', 'ex_han' => 'Lecturas han comparadas',
+        'wo_major' => 'Comparar con las principales lenguas del mundo', 'wo_close' => 'Comparar con lenguas estrechamente emparentadas',
         'cmp_caption' => 'Comparado con lenguas {family} relacionadas',
         'ex_prev' => 'Ant.', 'ex_next' => 'Sig.', 'ex_page' => 'Página', 'ex_pick' => 'Frase',
         'th_char' => 'Carácter', 'th_gloss' => 'Significado', 'th_read' => 'Lectura', 'th_form' => 'Forma',
@@ -749,6 +762,7 @@ const SEO_T = [
         'region' => 'Região', 'countries' => 'Países', 'official' => 'Língua oficial',
         'reading' => 'Leitura',
         'ex_words' => 'Palavras comparadas', 'ex_wordorder' => 'Ordem das palavras comparada', 'ex_han' => 'Leituras han comparadas',
+        'wo_major' => 'Comparar com as principais línguas do mundo', 'wo_close' => 'Comparar com línguas proximamente aparentadas',
         'cmp_caption' => 'Comparado com línguas {family} relacionadas',
         'ex_prev' => 'Ant.', 'ex_next' => 'Próx.', 'ex_page' => 'Página', 'ex_pick' => 'Frase',
         'th_char' => 'Caractere', 'th_gloss' => 'Significado', 'th_read' => 'Leitura', 'th_form' => 'Forma',
@@ -799,6 +813,7 @@ const SEO_T = [
         'region' => 'Регион', 'countries' => 'Страны', 'official' => 'Официальный язык',
         'reading' => 'Чтение',
         'ex_words' => 'Сравнение слов', 'ex_wordorder' => 'Сравнение порядка слов', 'ex_han' => 'Сравнение чтений ханьцзы',
+        'wo_major' => 'Сравнить с основными языками мира', 'wo_close' => 'Сравнить с близкородственными языками',
         'cmp_caption' => 'Сравнение с родственными языками {family}',
         'ex_prev' => 'Назад', 'ex_next' => 'Вперёд', 'ex_page' => 'Страница', 'ex_pick' => 'Предложение',
         'th_char' => 'Иероглиф', 'th_gloss' => 'Значение', 'th_read' => 'Чтение', 'th_form' => 'Форма',
@@ -849,6 +864,7 @@ const SEO_T = [
         'region' => 'Регіон', 'countries' => 'Країни', 'official' => 'Офіційна мова',
         'reading' => 'Читання',
         'ex_words' => 'Порівняння слів', 'ex_wordorder' => 'Порівняння порядку слів', 'ex_han' => 'Порівняння читань ханьцзи',
+        'wo_major' => 'Порівняти з основними мовами світу', 'wo_close' => 'Порівняти з близькоспорідненими мовами',
         'cmp_caption' => 'Порівняння зі спорідненими мовами {family}',
         'ex_prev' => 'Назад', 'ex_next' => 'Далі', 'ex_page' => 'Сторінка', 'ex_pick' => 'Речення',
         'th_char' => 'Ієрогліф', 'th_gloss' => 'Значення', 'th_read' => 'Читання', 'th_form' => 'Форма',
@@ -899,6 +915,7 @@ const SEO_T = [
         'region' => 'المنطقة', 'countries' => 'البلدان', 'official' => 'لغة رسمية في',
         'reading' => 'القراءة',
         'ex_words' => 'مقارنة الكلمات', 'ex_wordorder' => 'مقارنة ترتيب الكلمات', 'ex_han' => 'مقارنة قراءات الهان',
+        'wo_major' => 'قارن مع كبرى لغات العالم', 'wo_close' => 'قارن مع لغات وثيقة القرابة',
         'cmp_caption' => 'بالمقارنة مع لغات {family} ذات الصلة',
         'ex_prev' => 'السابق', 'ex_next' => 'التالي', 'ex_page' => 'صفحة', 'ex_pick' => 'جملة',
         'th_char' => 'الحرف', 'th_gloss' => 'المعنى', 'th_read' => 'القراءة', 'th_form' => 'الشكل',
@@ -949,6 +966,7 @@ const SEO_T = [
         'region' => 'אזור', 'countries' => 'מדינות', 'official' => 'שפה רשמית',
         'reading' => 'קריאה',
         'ex_words' => 'השוואת מילים', 'ex_wordorder' => 'השוואת סדר מילים', 'ex_han' => 'השוואת קריאות האן',
+        'wo_major' => 'השוואה לשפות העולם המרכזיות', 'wo_close' => 'השוואה לשפות קרובות גנטית',
         'cmp_caption' => 'בהשוואה לשפות {family} קשורות',
         'ex_prev' => 'הקודם', 'ex_next' => 'הבא', 'ex_page' => 'עמוד', 'ex_pick' => 'משפט',
         'th_char' => 'תו', 'th_gloss' => 'משמעות', 'th_read' => 'קריאה', 'th_form' => 'צורה',
@@ -999,6 +1017,7 @@ const SEO_T = [
         'region' => 'Eneo', 'countries' => 'Nchi', 'official' => 'Lugha rasmi',
         'reading' => 'Usomaji',
         'ex_words' => 'Ulinganishaji wa maneno', 'ex_wordorder' => 'Ulinganishaji wa mpangilio wa maneno', 'ex_han' => 'Ulinganishaji wa usomaji wa Han',
+        'wo_major' => 'Linganisha na lugha kuu za dunia', 'wo_close' => 'Linganisha na lugha zenye uhusiano wa karibu',
         'cmp_caption' => 'Imelinganishwa na lugha za {family} zinazohusiana',
         'ex_prev' => 'Iliyotangulia', 'ex_next' => 'Inayofuata', 'ex_page' => 'Ukurasa', 'ex_pick' => 'Sentensi',
         'th_char' => 'Herufi', 'th_gloss' => 'Maana', 'th_read' => 'Usomaji', 'th_form' => 'Umbo',
@@ -1431,8 +1450,13 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   border-radius: .4rem; padding: 0 .3rem; margin-right: .25rem; }
 .seo-cmp-tbl td .cmp-rd { margin: 0 0 .25rem; }
 .seo-cmp-tbl td .cmp-rd:last-child { margin-bottom: 0; }
-/* Word-order comparison: one row per language. */
-.seo-cmp-wo .cmp-wo-row { display: grid; grid-template-columns: minmax(7rem, 14rem) 1fr;
+/* Word-order comparison: one row per language, with LangMap-style SVG
+   connector lines between same-role segments of consecutive rows. */
+.seo-cmp-wo .ex-wo-block { position: relative; }
+.seo-cmp-wo .wo-lines { position: absolute; inset: 0; width: 100%; height: 100%;
+  pointer-events: none; overflow: visible; z-index: 0; }
+.seo-cmp-wo .cmp-wo-row { position: relative; z-index: 1; display: grid;
+  grid-template-columns: minmax(7rem, 14rem) 1fr;
   gap: .5rem 1rem; align-items: baseline; padding: .55rem 0; border-bottom: 1px solid var(--line); }
 .seo-cmp-wo .cmp-wo-row.cmp-anchor { background: color-mix(in srgb, var(--accent) 9%, var(--card));
   border-radius: .5rem; padding-left: .6rem; padding-right: .6rem; }
@@ -1730,6 +1754,70 @@ function seo_cmp_siblings(array $langs, string $self, string $ui, string $kind, 
 }
 
 /**
+ * Normalise a family string into an ordered array of hierarchy levels.
+ * Common branch separators ((, ), >, （, ）, ｜, |, ·, ›, ») are unified, then
+ * the string is split, trimmed, lowercased and emptied entries dropped.
+ *   "Sinitic (Mandarin)"                      -> ["sinitic","mandarin"]
+ *   "Sinitic > Mandarin > Northwest > Dungan" -> ["sinitic","mandarin","northwest","dungan"]
+ */
+function seo_family_levels(string $famStr): array
+{
+    if ($famStr === '') {
+        return [];
+    }
+    // Unify every supported separator to '>'.
+    $norm = preg_replace('/[()（）｜|·›»>]/u', '>', $famStr);
+    $parts = explode('>', $norm);
+    $out = [];
+    foreach ($parts as $p) {
+        $p = trim($p);
+        if ($p === '') continue;
+        $out[] = function_exists('mb_strtolower') ? mb_strtolower($p, 'UTF-8') : strtolower($p);
+    }
+    return $out;
+}
+
+/** Closeness = length of the common LEADING prefix of two level arrays. */
+function seo_family_closeness(array $a, array $b): int
+{
+    $n = min(count($a), count($b));
+    $i = 0;
+    while ($i < $n && $a[$i] === $b[$i]) {
+        $i++;
+    }
+    return $i;
+}
+
+/**
+ * Closest sibling codes within $langs that carry the requested data kind,
+ * ranked by family closeness (length of common leading family prefix).
+ * Keeps closeness >= 1, sorts by closeness DESC then localized name ASC,
+ * returns the top $max. Empty self family => [].
+ *
+ * @param string $kind 'words' | 'readings'
+ */
+function seo_close_siblings(array $langs, string $self, string $ui, string $kind, int $max = 6): array
+{
+    $selfLevels = seo_family_levels(seo_lang_family($langs[$self] ?? []));
+    if (!$selfLevels) {
+        return [];
+    }
+    $scored = [];
+    foreach ($langs as $code => $l) {
+        if ($code === $self) continue;
+        if (empty($l[$kind]) || !is_array($l[$kind])) continue;
+        $score = seo_family_closeness($selfLevels, seo_family_levels(seo_lang_family($l)));
+        if ($score < 1) continue;
+        $scored[] = ['c' => (string) $code, 's' => $score, 'n' => seo_lang_name($langs, $code, $ui)];
+    }
+    usort($scored, function ($a, $b) {
+        if ($a['s'] !== $b['s']) return $b['s'] <=> $a['s'];
+        return strcasecmp($a['n'], $b['n']);
+    });
+    return array_map(fn($e) => $e['c'], array_slice($scored, 0, $max));
+}
+
+/**
  * Render the three "compare with related (sibling) languages" sections.
  *
  * For each dataset (Words / Word order / Han readings) the current language is
@@ -1760,66 +1848,89 @@ function seo_comparisons(string $map, string $code, string $ui,
 
     // --- Section 1: Words comparison ----------------------------------------
     $wMine = $wmLangs[$code]['words'] ?? [];
-    $wSibs = $wMine ? seo_cmp_siblings($wmLangs, $code, $ui, 'words') : [];
+    $wSibs = $wMine ? seo_close_siblings($wmLangs, $code, $ui, 'words') : [];
     $wFamily = $wMine ? seo_lang_family($wmLangs[$code] ?? []) : '';
     // Columns: anchor first, then siblings.
     $wCols = $wMine ? array_merge([$code], $wSibs) : [];
 
     // --- Section 3: Han readings comparison ---------------------------------
     $hMine = $hmLangs[$code]['readings'] ?? [];
-    $hSibs = $hMine ? seo_cmp_siblings($hmLangs, $code, $ui, 'readings') : [];
+    $hSibs = $hMine ? seo_close_siblings($hmLangs, $code, $ui, 'readings') : [];
     $hFamily = $hMine ? seo_lang_family($hmLangs[$code] ?? []) : '';
     $hCols = $hMine ? array_merge([$code], $hSibs) : [];
 
     // --- Section 2: Word order comparison -----------------------------------
-    // wordorder is keyed by code only; resolve a family for grouping from the
-    // current map's langs first, else the other map's. Siblings = codes that
-    // (a) have wordorder AND (b) share the family root.
-    $woSelfFam = '';
-    foreach ([$wmLangs, $hmLangs] as $set) {
-        if (isset($set[$code])) {
-            $f = seo_family_root(seo_lang_family($set[$code]));
-            if ($f !== '') { $woSelfFam = $f; break; }
-        }
-    }
-    $woFamilyLabel = '';
-    foreach ([$wmLangs, $hmLangs] as $set) {
-        if (isset($set[$code]) && seo_lang_family($set[$code]) !== '') {
-            $woFamilyLabel = seo_lang_family($set[$code]); break;
-        }
-    }
-    $woSibs = [];
-    if ($wordorder && $woSelfFam !== '') {
-        $allWo = $wmData['wordorder'] ?? ($hmData['wordorder'] ?? []);
-        $famOf = function (string $c) use ($wmLangs, $hmLangs): string {
-            foreach ([$wmLangs, $hmLangs] as $set) {
-                if (isset($set[$c])) {
-                    $f = seo_family_root(seo_lang_family($set[$c]));
-                    if ($f !== '') return $f;
-                }
-            }
-            return '';
-        };
-        $nameOf = function (string $c) use ($wmLangs, $hmLangs, $ui): string {
-            if (isset($wmLangs[$c])) return seo_lang_name($wmLangs, $c, $ui);
-            if (isset($hmLangs[$c])) return seo_lang_name($hmLangs, $c, $ui);
-            return $c;
-        };
-        foreach ($allWo as $c => $sents) {
-            if ($c === $code || !$sents) continue;
-            if ($famOf($c) !== $woSelfFam) continue;
-            $woSibs[] = (string) $c;
-        }
-        usort($woSibs, fn($a, $b) => strcasecmp($nameOf($a), $nameOf($b)));
-        $woSibs = array_slice($woSibs, 0, 6);
-    }
-    // Map sentence id -> per-lang segs, across the anchor + word-order siblings.
-    $woCols = ($wordorder && $woSibs) ? array_merge([$code], $woSibs) : [];
+    // wordorder is keyed by code only. Two comparison blocks share one sentence
+    // <select>:
+    //   (a) MAJOR  — anchor + a fixed set of major world languages present in
+    //                wordorder (closeness-agnostic).
+    //   (b) CLOSE  — anchor + the top 4 closest relatives by family closeness
+    //                that also carry a wordorder entry.
+    $allWo = $wordorder ? ($wmData['wordorder'] ?? ($hmData['wordorder'] ?? [])) : [];
+    $woHas = fn(string $c): bool => !empty($allWo[$c]);
 
-    // Need ≥2 columns for any comparison; bail if all three are empty.
+    // Resolve a candidate's family / name / SEO-link from whichever map has it.
+    $famLevelsOf = function (string $c) use ($wmLangs, $hmLangs): array {
+        foreach ([$wmLangs, $hmLangs] as $set) {
+            if (isset($set[$c])) {
+                $lv = seo_family_levels(seo_lang_family($set[$c]));
+                if ($lv) return $lv;
+            }
+        }
+        return [];
+    };
+    $woName = function (string $c) use ($wmLangs, $hmLangs, $ui): string {
+        if (isset($wmLangs[$c])) return seo_lang_name($wmLangs, $c, $ui);
+        if (isset($hmLangs[$c])) return seo_lang_name($hmLangs, $c, $ui);
+        return $c;
+    };
+
+    // (a) MAJOR world languages with a wordorder entry (≠ anchor), cap ~7.
+    $woMajor = [];
+    if ($wordorder) {
+        $majorPool = ['en', 'zh', 'es', 'hi', 'ar', 'pt', 'ru', 'ja', 'de', 'fr', 'ko', 'id'];
+        foreach ($majorPool as $mc) {
+            if ($mc === $code || !$woHas($mc)) continue;
+            $woMajor[] = $mc;
+            if (count($woMajor) >= 7) break;
+        }
+    }
+
+    // (b) CLOSE — top 4 relatives by family closeness with a wordorder entry.
+    $woClose = [];
+    if ($wordorder) {
+        $selfLevels = $famLevelsOf($code);
+        if ($selfLevels) {
+            $scored = [];
+            foreach ($allWo as $c => $sents) {
+                if ($c === $code || !$sents) continue;
+                $score = seo_family_closeness($selfLevels, $famLevelsOf((string) $c));
+                if ($score < 1) continue;
+                $scored[] = ['c' => (string) $c, 's' => $score, 'n' => $woName((string) $c)];
+            }
+            usort($scored, function ($a, $b) {
+                if ($a['s'] !== $b['s']) return $b['s'] <=> $a['s'];
+                return strcasecmp($a['n'], $b['n']);
+            });
+            $woClose = array_map(fn($e) => $e['c'], array_slice($scored, 0, 4));
+        }
+    }
+
+    // Each block needs ≥1 sibling beyond the anchor to render.
+    $haveWoMajor = $wordorder && count($woMajor) >= 1;
+    $haveWoClose = $wordorder && count($woClose) >= 1;
+    // Columns used by the section = anchor + union of both blocks (for SSR/blob).
+    $woColsMajor = $haveWoMajor ? array_merge([$code], $woMajor) : [];
+    $woColsClose = $haveWoClose ? array_merge([$code], $woClose) : [];
+    $woCols = array_values(array_unique(array_merge(
+        ($haveWoMajor || $haveWoClose) ? [$code] : [],
+        $woMajor, $woClose
+    )));
+
+    // Need ≥2 columns for any comparison; bail if all sections are empty.
     $haveWords = count($wCols) >= 2;
     $haveHan = count($hCols) >= 2;
-    $haveWo = count($woCols) >= 2;
+    $haveWo = $haveWoMajor || $haveWoClose;
     if (!$haveWords && !$haveHan && !$haveWo) return;
 
     // Helper to render a localized, linked column header for a sibling code in a
@@ -1890,30 +2001,26 @@ function seo_comparisons(string $map, string $code, string $ui,
 
 <?php // ----- 2) Word order comparison -----------------------------------------
     if ($haveWo):
-        // Build a sentence-id index across all word-order columns: id -> { title, byLang:{code:segs} }.
-        $allWo = $wmData['wordorder'] ?? ($hmData['wordorder'] ?? []);
-        $sentIndex = []; // id => ['title'=>..., 'order'=>int, 'segs'=>[code=>segs]]
-        $order = 0;
+        // Build a sentence-id index across the anchor + every column used by
+        // either block (union): id -> { title, order, segs:{code:segs} }.
+        $sentIndex = [];
+        $orderN = 0;
         foreach ($wordorder as $s) {                 // anchor first sets the order/titles
             $id = $s['id'] ?? null; if ($id === null) continue;
-            $sentIndex[$id] = ['title' => $s['title'] ?? '', 'order' => $order++, 'segs' => [$code => $s['segs'] ?? []]];
+            $sentIndex[$id] = ['title' => $s['title'] ?? '', 'order' => $orderN++, 'segs' => [$code => $s['segs'] ?? []]];
         }
-        foreach ($woSibs as $sc) {
+        foreach ($woCols as $sc) {
+            if ($sc === $code) continue;
             foreach (($allWo[$sc] ?? []) as $s) {
                 $id = $s['id'] ?? null; if ($id === null) continue;
                 if (!isset($sentIndex[$id])) {
-                    $sentIndex[$id] = ['title' => $s['title'] ?? '', 'order' => $order++, 'segs' => []];
+                    $sentIndex[$id] = ['title' => $s['title'] ?? '', 'order' => $orderN++, 'segs' => []];
                 }
                 $sentIndex[$id]['segs'][$sc] = $s['segs'] ?? [];
             }
         }
         uasort($sentIndex, fn($a, $b) => $a['order'] <=> $b['order']);
-        $woName = function (string $c) use ($wmLangs, $hmLangs, $ui): string {
-            if (isset($wmLangs[$c])) return seo_lang_name($wmLangs, $c, $ui);
-            if (isset($hmLangs[$c])) return seo_lang_name($hmLangs, $c, $ui);
-            return $c;
-        };
-        // Sibling SEO link target map: prefer the page's own map if the sibling exists there.
+        // SEO link target for a sibling: prefer the page's own map if present.
         $woLink = function (string $c) use ($wmLangs, $hmLangs, $map, $ui): string {
             $own = $map === 'wordmap' ? $wmLangs : $hmLangs;
             $oth = $map === 'wordmap' ? $hmLangs : $wmLangs;
@@ -1922,31 +2029,14 @@ function seo_comparisons(string $map, string $code, string $ui,
             return seo_path($ui, $map, $c);
         };
         $sentList = array_values($sentIndex);
-    ?>
-<section class="seo-ex seo-cmp-wo" data-ex="wordorder" data-uid="<?= e($uid) ?>">
-  <h2><?= e(seo_t($ui, 'ex_wordorder')) ?></h2>
-  <?php if ($woFamilyLabel !== ''): ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption', ['family' => $woFamilyLabel])) ?></p><?php endif; ?>
-  <div class="ex-wo-pick">
-    <label for="ex-wo-<?= e($uid) ?>" class="ex-ind"><?= e(seo_t($ui, 'ex_pick')) ?>: </label>
-    <select id="ex-wo-<?= e($uid) ?>" class="ex-wo-select">
-      <?php foreach ($sentList as $si => $s): ?>
-      <option value="<?= $si ?>"><?= e($s['title'] !== '' ? $s['title'] : ('#' . $si)) ?></option>
-      <?php endforeach; ?>
-    </select>
-  </div>
-  <?php // SSR the first WO_SSR sentences fully (crawlable); the rest go in a
-        // compact JSON blob and are rendered by JS only when selected — keeps
-        // the page light without sacrificing the comparison's crawlable richness.
-        $WO_SSR = 10; $woLazy = []; ?>
-  <?php foreach ($sentList as $si => $s): ?>
-  <?php if ($si < $WO_SSR): ?>
-  <div class="ex-wo-sent" data-sent="<?= $si ?>"<?= $si > 0 ? ' hidden' : '' ?>>
-    <p class="wo-title"><?= e($s['title'] ?? '') ?></p>
-    <?php foreach ($woCols as $ci => $c):
-        $segs = $s['segs'][$c] ?? null;
-        $anchor = $ci === 0;
-        if ($segs === null && !$anchor) continue; // sibling lacks this sentence
-        ?>
+
+        // Render one block's rows for a given sentence ($s) over $cols.
+        $renderWoRows = function (array $s, array $cols) use ($code, $woName, $woLink) {
+            foreach ($cols as $c):
+                $segs = $s['segs'][$c] ?? null;
+                $anchor = $c === $code;
+                if ($segs === null && !$anchor) continue; // column lacks this sentence
+                ?>
     <div class="cmp-wo-row<?= $anchor ? ' cmp-anchor' : '' ?>">
       <div class="cmp-wo-name">
         <?php if ($anchor): ?><span lang="<?= e($c) ?>"><?= e($woName($c)) ?></span>
@@ -1956,25 +2046,63 @@ function seo_comparisons(string $map, string $code, string $ui,
         <?php foreach (($segs ?? []) as $seg):
             $text = $seg[1] ?? ''; $color = $seg[2] ?? '';
             if ($text === '') continue; ?>
-        <span class="wo-seg" lang="<?= e($c) ?>"<?= $color !== '' ? ' style="color:' . e($color) . '"' : '' ?>><?= e($text) ?></span>
+        <span class="wo-seg" lang="<?= e($c) ?>" data-seg="<?= e($seg[0] ?? '') ?>"<?= $color !== '' ? ' style="color:' . e($color) . '"' : '' ?>><?= e($text) ?></span>
         <?php endforeach; ?>
       </div>
     </div>
-    <?php endforeach; ?>
+            <?php endforeach;
+        };
+
+        // Compact lazy blob: per non-SSR'd sentence, a title + rows keyed by code
+        // (each block picks its own columns client-side).
+        $WO_SSR = 10; $woLazy = [];
+        foreach ($sentList as $si => $s) {
+            if ($si < $WO_SSR) continue;
+            $byCode = [];
+            foreach ($woCols as $c) {
+                $segs = $s['segs'][$c] ?? null;
+                if ($segs === null) continue;
+                $rs = [];
+                foreach ($segs as $seg) { $t = $seg[1] ?? ''; if ($t === '') continue; $rs[] = [$t, $seg[2] ?? '', $seg[0] ?? '']; }
+                $byCode[$c] = ['n' => $woName($c), 'l' => $c === $code ? '' : $woLink($c), 's' => $rs];
+            }
+            $woLazy[$si] = ['t' => $s['title'] ?? '', 'r' => $byCode];
+        }
+    ?>
+<section class="seo-ex seo-cmp-wo" data-ex="wordorder" data-uid="<?= e($uid) ?>"
+         data-anchor="<?= e($code) ?>"
+         data-major="<?= e(implode(',', $woColsMajor)) ?>"
+         data-close="<?= e(implode(',', $woColsClose)) ?>">
+  <h2><?= e(seo_t($ui, 'ex_wordorder')) ?></h2>
+  <div class="ex-wo-pick">
+    <label for="ex-wo-<?= e($uid) ?>" class="ex-ind"><?= e(seo_t($ui, 'ex_pick')) ?>: </label>
+    <select id="ex-wo-<?= e($uid) ?>" class="ex-wo-select">
+      <?php foreach ($sentList as $si => $s): ?>
+      <option value="<?= $si ?>"><?= e($s['title'] !== '' ? $s['title'] : ('#' . $si)) ?></option>
+      <?php endforeach; ?>
+    </select>
   </div>
-  <?php else:
-      $lazyRows = [];
-      foreach ($woCols as $ci => $c) {
-          $segs = $s['segs'][$c] ?? null; $anchor = $ci === 0;
-          if ($segs === null && !$anchor) continue;
-          $rs = [];
-          foreach (($segs ?? []) as $seg) { $t = $seg[1] ?? ''; if ($t === '') continue; $rs[] = [$t, $seg[2] ?? '']; }
-          $lazyRows[] = ['n' => $woName($c), 'l' => $anchor ? '' : $woLink($c), 'c' => $c, 's' => $rs];
-      }
-      $woLazy[$si] = ['t' => $s['title'] ?? '', 'r' => $lazyRows];
-  endif; ?>
+
+  <?php // Two blocks, both driven by the one select above. The first WO_SSR
+        // sentences are SSR'd fully (crawlable); the rest live in the JSON blob
+        // and are rendered client-side on selection.
+        $blocks = [];
+        if ($haveWoMajor) $blocks[] = ['key' => 'major', 'cols' => $woColsMajor, 'head' => 'wo_major'];
+        if ($haveWoClose) $blocks[] = ['key' => 'close', 'cols' => $woColsClose, 'head' => 'wo_close'];
+  ?>
+  <?php foreach ($blocks as $blk): ?>
+  <div class="ex-wo-block" data-block="<?= e($blk['key']) ?>">
+    <h3><?= e(seo_t($ui, $blk['head'])) ?></h3>
+    <?php foreach ($sentList as $si => $s): if ($si >= $WO_SSR) continue; ?>
+    <div class="ex-wo-sent" data-sent="<?= $si ?>"<?= $si > 0 ? ' hidden' : '' ?>>
+      <p class="wo-title"><?= e($s['title'] ?? '') ?></p>
+      <?php $renderWoRows($s, $blk['cols']); ?>
+    </div>
+    <?php endforeach; ?>
+    <div class="ex-wo-lazy" hidden></div>
+    <svg class="wo-lines" aria-hidden="true"></svg>
+  </div>
   <?php endforeach; ?>
-  <div class="ex-wo-lazy" hidden></div>
   <script type="application/json" class="ex-wo-data"><?= json_encode($woLazy, JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?></script>
 </section>
 <?php endif; ?>
@@ -2073,41 +2201,105 @@ function seo_comparisons(string $map, string $code, string $ui,
     if (next) next.addEventListener('click', function () { if (cur < np - 1) { cur++; render(); } });
     render();
   });
-  // Word order: random initial pick + <select> to switch the visible sentence.
-  // The first 10 sentences are SSR'd; the rest are rendered from a JSON blob.
+  // Word order: random initial pick + one <select> driving BOTH blocks (major
+  // world langs / closely-related). The first 10 sentences are SSR'd per block;
+  // the rest are rendered from a shared JSON blob (rows keyed by lang code, each
+  // block picking its own column list from data-major / data-close).
   document.querySelectorAll('.seo-ex[data-ex="wordorder"]').forEach(function (sec) {
     var sel = sec.querySelector('.ex-wo-select');
-    var ssr = sec.querySelectorAll('.ex-wo-sent');
-    var lazyBox = sec.querySelector('.ex-wo-lazy');
     var blobEl = sec.querySelector('.ex-wo-data');
     if (!sel) return;
     var data = {}; try { data = JSON.parse((blobEl && blobEl.textContent) || '{}'); } catch (e) {}
     function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-    function buildLazy(i) {
-      var d = data[i]; if (!d || !lazyBox) return false;
+    function cols(attr) { var v = sec.getAttribute(attr) || ''; return v ? v.split(',') : []; }
+    var blockCols = { major: cols('data-major'), close: cols('data-close') };
+    var blocks = [];
+    sec.querySelectorAll('.ex-wo-block').forEach(function (b) {
+      blocks.push({
+        el: b,
+        cols: blockCols[b.getAttribute('data-block')] || [],
+        ssr: b.querySelectorAll('.ex-wo-sent'),
+        lazy: b.querySelector('.ex-wo-lazy'),
+        svg: b.querySelector('svg.wo-lines')
+      });
+    });
+    var SVGNS = 'http://www.w3.org/2000/svg';
+    // LangMap-style connectors: curved colored lines between same-role segments
+    // of consecutive language rows (ported from app.js drawLines/createCurvedLine).
+    function drawWoLines(blk) {
+      var svg = blk.svg, el = blk.el; if (!svg || !el) return;
+      svg.textContent = '';
+      var vis = null;
+      el.querySelectorAll('.ex-wo-sent, .ex-wo-lazy').forEach(function (n) { if (!n.hidden) vis = n; });
+      var W = el.clientWidth, H = el.clientHeight;
+      svg.setAttribute('width', W); svg.setAttribute('height', H);
+      svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+      if (!vis) return;
+      var base = el.getBoundingClientRect();
+      var rows = [];
+      vis.querySelectorAll('.cmp-wo-row').forEach(function (row) {
+        var m = {};
+        row.querySelectorAll('.wo-seg[data-seg]').forEach(function (s) {
+          var role = s.getAttribute('data-seg'); if (!role) return;
+          var r = s.getBoundingClientRect();
+          (m[role] = m[role] || []).push({
+            x: r.left + r.width / 2 - base.left,
+            bottom: r.bottom - base.top, top: r.top - base.top,
+            color: getComputedStyle(s).color || '#999'
+          });
+        });
+        rows.push(m);
+      });
+      for (var i = 0; i < rows.length - 1; i++) {
+        var A = rows[i], B = rows[i + 1];
+        for (var role in A) {
+          if (!B[role]) continue;
+          A[role].forEach(function (a) {
+            B[role].forEach(function (b2) {
+              var mid = (a.bottom + b2.top) / 2;
+              var p = document.createElementNS(SVGNS, 'path');
+              p.setAttribute('d', 'M ' + a.x + ' ' + a.bottom + ' C ' + a.x + ' ' + mid + ', ' + b2.x + ' ' + mid + ', ' + b2.x + ' ' + b2.top);
+              p.setAttribute('stroke', a.color); p.setAttribute('stroke-width', '2');
+              p.setAttribute('fill', 'none'); p.setAttribute('opacity', '0.55');
+              svg.appendChild(p);
+            });
+          });
+        }
+      }
+    }
+    function drawAll() { requestAnimationFrame(function () { blocks.forEach(drawWoLines); }); }
+    function buildLazy(blk, i) {
+      var d = data[i]; if (!d || !blk.lazy) return false;
       var h = '<p class="wo-title">' + esc(d.t) + '</p>';
-      (d.r || []).forEach(function (row) {
+      blk.cols.forEach(function (code) {
+        var row = (d.r || {})[code]; if (!row) return;
         h += '<div class="cmp-wo-row' + (row.l ? '' : ' cmp-anchor') + '"><div class="cmp-wo-name">'
-          + (row.l ? '<a href="' + esc(row.l) + '" lang="' + esc(row.c) + '">' + esc(row.n) + '</a>'
-                   : '<span lang="' + esc(row.c) + '">' + esc(row.n) + '</span>')
+          + (row.l ? '<a href="' + esc(row.l) + '" lang="' + esc(code) + '">' + esc(row.n) + '</a>'
+                   : '<span lang="' + esc(code) + '">' + esc(row.n) + '</span>')
           + '</div><div class="cmp-wo-segs">';
         (row.s || []).forEach(function (sg) {
-          h += '<span class="wo-seg" lang="' + esc(row.c) + '"' + (sg[1] ? ' style="color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
+          h += '<span class="wo-seg" lang="' + esc(code) + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' style="color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
         });
         h += '</div></div>';
       });
-      lazyBox.innerHTML = h;
+      blk.lazy.innerHTML = h;
       return true;
     }
     function show(i) {
-      var found = false;
-      ssr.forEach(function (s) { var on = parseInt(s.getAttribute('data-sent'), 10) === i; s.hidden = !on; if (on) found = true; });
-      if (lazyBox) lazyBox.hidden = found ? true : !buildLazy(i);
+      blocks.forEach(function (blk) {
+        var found = false;
+        blk.ssr.forEach(function (s) { var on = parseInt(s.getAttribute('data-sent'), 10) === i; s.hidden = !on; if (on) found = true; });
+        if (blk.lazy) blk.lazy.hidden = found ? true : !buildLazy(blk, i);
+      });
       sel.value = String(i);
+      drawAll();
     }
-    var total = sel.options.length || ssr.length;
+    var total = sel.options.length;
     show(Math.floor(Math.random() * total));
     sel.addEventListener('change', function () { show(parseInt(sel.value, 10) || 0); });
+    var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(drawAll, 150); });
+    // Redraw once webfonts settle (segment widths shift the connector anchors).
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(drawAll);
   });
 })();
 </script>

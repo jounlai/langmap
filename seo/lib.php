@@ -1464,7 +1464,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-cmp-wo .cmp-wo-row.cmp-anchor .cmp-wo-name { color: var(--accent); font-weight: 700; }
 .seo-cmp-wo .cmp-wo-name a { color: inherit; text-decoration: none; }
 .seo-cmp-wo .cmp-wo-name a:hover { text-decoration: underline; }
-.seo-cmp-wo .cmp-wo-segs .wo-seg { display: inline-block; margin: 0 .3rem .35rem 0; padding: .1rem 0;
+.seo-cmp-wo .cmp-wo-segs .wo-seg { display: inline-block; margin: 0 .8rem .4rem 0; padding: .1rem 0;
   font-size: 1.15rem;
   font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }

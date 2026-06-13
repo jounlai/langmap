@@ -19370,13 +19370,7 @@ const HAN_VARIANTS = {
         "native": "リツ",
         "surface": "ritsu",
         "ipa": "ɾit͡sɯ",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "リツ",
-        "surface": "ritsu",
-        "ipa": "ɾit͡sɯ",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_my": [
@@ -20005,13 +19999,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "saⁿ",
-        "ipa": "",
+        "ipa": "sã˥˥",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "sam",
-        "ipa": "",
+        "ipa": "sam˥˥",
         "label": "文讀"
       }
     ],
@@ -20034,13 +20028,7 @@ const HAN_VARIANTS = {
         "native": "サン",
         "surface": "san",
         "ipa": "saɴ",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "サン",
-        "surface": "san",
-        "ipa": "saɴ",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_sg": [
@@ -20190,13 +20178,7 @@ const HAN_VARIANTS = {
         "native": "ゴ",
         "surface": "go",
         "ipa": "go",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ゴ",
-        "surface": "go",
-        "ipa": "go",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "ptb": [
@@ -21646,13 +21628,7 @@ const HAN_VARIANTS = {
         "native": "スイ",
         "surface": "sui",
         "ipa": "sɯi",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "スイ",
-        "surface": "sui",
-        "ipa": "sɯi",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_xm": [
@@ -22044,13 +22020,7 @@ const HAN_VARIANTS = {
         "native": "テン",
         "surface": "ten",
         "ipa": "teɴ",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "テン",
-        "surface": "ten",
-        "ipa": "teɴ",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_xm": [
@@ -22356,13 +22326,7 @@ const HAN_VARIANTS = {
         "native": "ケン",
         "surface": "ken",
         "ipa": "keɴ",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ケン",
-        "surface": "ken",
-        "ipa": "keɴ",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   },
@@ -22570,13 +22534,7 @@ const HAN_VARIANTS = {
         "native": "チョウ",
         "surface": "chō",
         "ipa": "t͡ɕoː",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "チョウ",
-        "surface": "chō",
-        "ipa": "t͡ɕoː",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_pn": [
@@ -22968,13 +22926,7 @@ const HAN_VARIANTS = {
         "native": "ヨウ",
         "surface": "yō",
         "ipa": "joː",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ヨウ",
-        "surface": "yō",
-        "ipa": "joː",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_my": [
@@ -23620,13 +23572,7 @@ const HAN_VARIANTS = {
         "native": "ソク",
         "surface": "soku",
         "ipa": "sokɯ",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ソク",
-        "surface": "soku",
-        "ipa": "sokɯ",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_my": [
@@ -25022,13 +24968,7 @@ const HAN_VARIANTS = {
         "native": "オウ",
         "surface": "ō",
         "ipa": "oː",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "オウ",
-        "surface": "ō",
-        "ipa": "oː",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_my": [
@@ -25150,13 +25090,7 @@ const HAN_VARIANTS = {
         "native": "サ",
         "surface": "sa",
         "ipa": "sa",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "サ",
-        "surface": "sa",
-        "ipa": "sa",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   },
@@ -25210,13 +25144,7 @@ const HAN_VARIANTS = {
         "native": "トウ",
         "surface": "tō",
         "ipa": "toː",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "トウ",
-        "surface": "tō",
-        "ipa": "toː",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_my": [
@@ -26089,56 +26017,32 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "lâi",
-        "ipa": "",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "",
-        "label": "文讀"
+        "ipa": "lai˨˦",
+        "label": ""
       }
     ],
     "nan_qz": [
       {
         "native": "",
         "surface": "lâi",
-        "ipa": "",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "",
-        "label": "文讀"
+        "ipa": "lai˨˦",
+        "label": ""
       }
     ],
     "nan_te": [
       {
         "native": "",
         "surface": "lai5",
-        "ipa": "",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "lai5",
-        "ipa": "",
-        "label": "文讀"
+        "ipa": "lai˥˥",
+        "label": ""
       }
     ],
     "nan_pn": [
       {
         "native": "",
         "surface": "lâi",
-        "ipa": "",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "",
-        "label": "文讀"
+        "ipa": "lai˨˦",
+        "label": ""
       }
     ],
     "nan_hai": [
@@ -26146,41 +26050,23 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lai4",
         "ipa": "lai˨˦˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "lai4",
-        "ipa": "lai˨˦˥",
-        "label": "文讀"
+        "label": ""
       }
     ],
     "nan_xm": [
       {
         "native": "",
         "surface": "lâi",
-        "ipa": "",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "",
-        "label": "文讀"
+        "ipa": "lai˨˦",
+        "label": ""
       }
     ],
     "nan_zz": [
       {
         "native": "",
         "surface": "lâi",
-        "ipa": "",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "",
-        "label": "文讀"
+        "ipa": "lai˩˧",
+        "label": ""
       }
     ],
     "cdo": [
@@ -26216,13 +26102,7 @@ const HAN_VARIANTS = {
         "native": "ライ",
         "surface": "rai",
         "ipa": "ɾai",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ライ",
-        "surface": "rai",
-        "ipa": "ɾai",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   },
@@ -26528,13 +26408,7 @@ const HAN_VARIANTS = {
         "native": "ケン",
         "surface": "ken",
         "ipa": "keɴ",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ケン",
-        "surface": "ken",
-        "ipa": "keɴ",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_my": [
@@ -27010,13 +26884,7 @@ const HAN_VARIANTS = {
         "native": "ソウ",
         "surface": "sō",
         "ipa": "soː",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ソウ",
-        "surface": "sō",
-        "ipa": "soː",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "nan_xm": [
@@ -27322,13 +27190,7 @@ const HAN_VARIANTS = {
         "native": "ホク",
         "surface": "hoku",
         "ipa": "hokɯ",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ホク",
-        "surface": "hoku",
-        "ipa": "hokɯ",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   },
@@ -27338,13 +27200,7 @@ const HAN_VARIANTS = {
         "native": "チュウ",
         "surface": "chū",
         "ipa": "t͡ɕɯː",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "チュウ",
-        "surface": "chū",
-        "ipa": "t͡ɕɯː",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ],
     "vi": [
@@ -27370,13 +27226,7 @@ const HAN_VARIANTS = {
         "native": "チュウ",
         "surface": "chū",
         "ipa": "t͡ɕɯː",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "チュウ",
-        "surface": "chū",
-        "ipa": "t͡ɕɯː",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   },
@@ -27386,13 +27236,7 @@ const HAN_VARIANTS = {
         "native": "シ",
         "surface": "shi",
         "ipa": "ɕi",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "シ",
-        "surface": "shi",
-        "ipa": "ɕi",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   },
@@ -27590,13 +27434,7 @@ const HAN_VARIANTS = {
         "native": "カイ",
         "surface": "kai",
         "ipa": "kai",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "カイ",
-        "surface": "kai",
-        "ipa": "kai",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   },
@@ -27606,13 +27444,7 @@ const HAN_VARIANTS = {
         "native": "コ",
         "surface": "ko",
         "ipa": "ko",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "コ",
-        "surface": "ko",
-        "ipa": "ko",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   },
@@ -27622,13 +27454,7 @@ const HAN_VARIANTS = {
         "native": "シン",
         "surface": "shin",
         "ipa": "ɕiɴ",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "シン",
-        "surface": "shin",
-        "ipa": "ɕiɴ",
-        "label": "呉音 / Go-on"
+        "label": ""
       }
     ]
   }

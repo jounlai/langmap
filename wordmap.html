@@ -6935,6 +6935,8 @@
         // Initialize compare list from hash/localStorage now that everything is wired
         loadCompareList();
         updateCompareFab();
+        // Arriving via a compare deep-link (#cmp=...) opens the panel directly.
+        if (new URLSearchParams(location.hash.slice(1)).get('cmp')) openComparePanel();
 
         // --- Linguistic trivia modal ---------------------------------
         // Articles live in window.TRIVIA_ARTICLES (wordmap_trivia.js).

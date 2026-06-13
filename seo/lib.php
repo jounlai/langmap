@@ -1454,7 +1454,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    connector lines between same-role segments of consecutive rows. */
 .seo-cmp-wo .ex-wo-block { position: relative; }
 .seo-cmp-wo .wo-lines { position: absolute; inset: 0; width: 100%; height: 100%;
-  pointer-events: none; overflow: visible; z-index: 0; }
+  pointer-events: none; overflow: visible; z-index: 3; }
 .seo-cmp-wo .cmp-wo-row { position: relative; z-index: 1; display: grid;
   grid-template-columns: minmax(7rem, 14rem) 1fr;
   gap: .5rem 1rem; align-items: baseline; padding: .55rem 0; border-bottom: 1px solid var(--line); }
@@ -1465,7 +1465,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-cmp-wo .cmp-wo-name a { color: inherit; text-decoration: none; }
 .seo-cmp-wo .cmp-wo-name a:hover { text-decoration: underline; }
 .seo-cmp-wo .cmp-wo-segs .wo-seg { display: inline-block; margin: 0 .3rem .35rem 0; padding: .1rem 0;
-  border-bottom: 2px solid currentColor; font-size: 1.15rem;
+  font-size: 1.15rem;
   font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }
 </style>

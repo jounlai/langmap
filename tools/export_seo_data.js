@@ -81,6 +81,50 @@ function buildNameIndex(LN) {
 }
 
 // ---------------------------------------------------------------------------
+// Word order (sentences) — data.js declares `const SENTENCES = [...]`.
+// For each lang code we emit its available sentences as
+//   { id, title, segs: [[role, text, color], ...] }
+// resolving each segment's color from the sentence's `segments[role].color`.
+// Keyed by lang code in a top-level `wordorder` map (added to BOTH JSONs).
+// ---------------------------------------------------------------------------
+function loadSentences() {
+  const ctx = {};
+  vm.createContext(ctx);
+  vm.runInContext('var window=this;\n' + read('data.js') +
+    '\nthis.__S = (typeof SENTENCES!=="undefined") ? SENTENCES : (window.SENTENCES||[]);', ctx);
+  return ctx.__S || [];
+}
+
+function buildWordOrder() {
+  const SENTENCES = loadSentences();
+  const out = {}; // code -> [ { id, title, segs:[[role,text,color],…] } ]
+  for (const s of SENTENCES) {
+    const segMap = s.segments || {};
+    const langs = s.langs || {};
+    for (const code of Object.keys(langs)) {
+      const pairs = langs[code];
+      if (!Array.isArray(pairs) || !pairs.length) continue;
+      const segs = [];
+      for (const p of pairs) {
+        if (!Array.isArray(p)) continue;
+        const role = p[0] != null ? String(p[0]) : '';
+        const text = p[1] != null ? String(p[1]) : '';
+        if (text === '') continue;
+        const color = (segMap[role] && segMap[role].color) || '';
+        segs.push([role, text, color]);
+      }
+      if (!segs.length) continue;
+      (out[code] || (out[code] = [])).push({
+        id: s.id,
+        title: s.title || '',
+        segs,
+      });
+    }
+  }
+  return out;
+}
+
+// ---------------------------------------------------------------------------
 // Word Map
 // ---------------------------------------------------------------------------
 function loadWordMap() {
@@ -261,6 +305,9 @@ function buildHanMapJSON(nameIndex) {
       name: m.name || ld.name || code,
       native: m.native || ld.native || '',
       family: m.family || ld.family || '',
+      speakers: m.speakers || (ld.meta && ld.meta.speakers) || '',
+      region: m.region || '',
+      romanization: (m.romanization && m.romanization.name) ? m.romanization.name : '',
       lat, lng,
       names: nameIndex[code] || {},
       readingType: pickLangs(m.reading_type),
@@ -296,6 +343,13 @@ function main() {
   const hm = buildHanMapJSON(nameIndex);
   wm.uiLangNames = uiLangNames;
   hm.uiLangNames = uiLangNames;
+
+  // Word-order (sentence) data, keyed by lang code — shared by both pages.
+  const wordorder = buildWordOrder();
+  wm.wordorder = wordorder;
+  hm.wordorder = wordorder;
+  console.log('Word-order languages: ' + Object.keys(wordorder).length +
+    ' (sentences source: ' + (wordorder.ja ? wordorder.ja.length : 0) + ' for ja)');
 
   fs.writeFileSync(path.join(OUT_DIR, 'wordmap_seo.json'), JSON.stringify(wm));
   fs.writeFileSync(path.join(OUT_DIR, 'hanmap_seo.json'), JSON.stringify(hm));

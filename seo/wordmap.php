@@ -149,6 +149,11 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 </div>
 <?php
     $hm = seo_data('hanmap');
+    seo_comparisons(
+        'wordmap', $code, $ui,
+        $data, $hm,
+        $data['wordorder'][$code] ?? []
+    );
     seo_related_links('wordmap', $code, $name, $data['langs'], $hm['langs'] ?? [], $ui);
     seo_foot($ui);
 }

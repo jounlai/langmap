@@ -72,8 +72,10 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 
 <?php
     $chips = [];
-    if (!empty($lang['family'])) $chips[seo_t($ui, 'family')]  = $lang['family'];
-    if ($readingType !== '')     $chips[seo_t($ui, 'reading')] = $readingType;
+    if (!empty($lang['family']))      $chips[seo_t($ui, 'family')]   = $lang['family'];
+    if (!empty($lang['speakers']))    $chips[seo_t($ui, 'speakers')] = $lang['speakers'];
+    if (!empty($lang['region']))      $chips[seo_t($ui, 'region')]   = $lang['region'];
+    if ($readingType !== '')          $chips[seo_t($ui, 'reading')]  = $readingType;
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
@@ -164,6 +166,11 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 </div>
 <?php
     $wm = seo_data('wordmap');
+    seo_comparisons(
+        'hanmap', $code, $ui,
+        $wm, $data,
+        $data['wordorder'][$code] ?? []
+    );
     seo_related_links('hanmap', $code, $name, $data['langs'], $wm['langs'] ?? [], $ui);
     seo_foot($ui);
 }

@@ -511,7 +511,7 @@ WORDS.fire = {
     rm: ["fieu", "fjew"],
     sc: ["fogu", "foɣu"],
     iu: ["ᐃᑯᒪ", "ikuma"],
-    la: ["ignis", "iɡnis"],
+    la: ["ignis", "iŋnis"],
     el_grc: ["πῦρ", "pŷːr"],
     el_kath: ["πῦρ", "pir"],
     egy: ["𓊮", "sed͡ʒet"],

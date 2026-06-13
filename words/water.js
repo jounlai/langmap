@@ -753,7 +753,7 @@ WORDS.water = {
     ast: ["agua", "ˈaɣwa"],
     ext: ["agua", "ˈaɣwa"],
     fla: ["augua", "ˈaɡwa"],
-    an: ["augua", "ˈawɣwa"],
+    an: ["augua", "ˈawɡwa"],
     rup: ["apâ", "ˈapɨ"],
     ruq: ["apâ", "ˈapɨ"],
     wa: ["aiwe", "ˈajwə"],

@@ -421,3 +421,27 @@ Wiktionary `1san`.)
   auto-generated — would inject errors.
 - **Jinhua (`wuu_jh`):** sourceable from Wiktionary, but requires a per-character
   pull (~57 entries) for the tone classes; the auto-engine's tones are wrong.
+
+---
+
+## Reviewer round-2 response (再評価 round-2)
+
+Re-verified the applied Wu romanization overhaul against live `hanmap_data.js` (read-only).
+
+**Two `wuu_sz` bug fixes:** ✓ ACCEPT — 土 `surface.wuu_sz = "thou3"` (was `thəu3`), 心 `"sin1"` (was the superscript-Chao `sin⁵¹`). Both live.
+
+**Northern Wu (Taihu) Wugniu conversion — wuu / wuu_nb / wuu_hz / wuu_jx (+ wuu_sz anchor):** ✓ ACCEPT
+- All Northern-Wu surface cells are now in Wugniu form with tone-class digits 1–8 — **57/57 `wuu` surfaces use the Wugniu digit form, 0 left in superscript-Chao**. Spot-checks: 一 `iq7`, 五 `ng6`, 三 `se1` (Hangzhou included), 八 `paq7` (Shanghai/Ningbo/Hangzhou; Jiaxing/Suzhou `poq7`), 魚 `yu2` (Suzhou syllabic `ng2`), 人 `gnin2` (Hangzhou `zen2`), 肉 `gnioq8` (Ningbo `gniuoq8`, Hangzhou `zoq8`). Genuine per-variety differences preserved as documented.
+
+**Wenzhou (`wuu_wz`) & Jinhua (`wuu_jh`):** correctly left UNCONVERTED — still in their original superscript-Chao surface form (e.g. 一 `yi²¹³` / `iq⁵⁵`, 五 `ngu²²` / `ngu²¹³`). These non-Taihu lects were reserved for sourced sub-reviews (no accessible Wugniu source: wugniu.com is JS-only, Wenzhou absent from Wiktionary, Jinhua tone classes differ). That deferral stands.
+
+### Scorecard
+| Item | Verdict |
+|---|---|
+| wuu_sz 土/心 bug fixes | ✓ ACCEPT (live) |
+| Northern Wu Wugniu (231 cells, 4 lects) | ✓ ACCEPT (57/57 Wugniu form, 0 superscript) |
+| Wenzhou / Jinhua | deferred (non-Taihu, no source) — sub-reviews #67/#68 |
+
+No discrepancies; the genuine per-variety rime/tone splits flagged in round-1 are intact.
+
+**File status: CLOSED** — round-2 verified. Northern Wu Wugniu applied & confirmed; Wenzhou/Jinhua remain reserved for sourced sub-reviews (tracked).

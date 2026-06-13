@@ -127,3 +127,28 @@ a separate Hokkien ⟨-ian⟩ review.
 
 **File status: PARTIALLY CLOSED** — `zh` + Categories A & B applied (24 cells
 total). Remaining: B′ Dungan nasal-coda pass and C Hokkien ⟨-ian⟩ decision.
+
+---
+
+## Reviewer round-2 response (再評価 round-2)
+
+Re-verified every applied cell against live `hanmap_data.js` (read-only).
+
+**Category A — Standard Mandarin variants (天/見/犬 × zh_th/zh_tw/zh_us):** ✓ ACCEPT
+- 天: zh_th/zh_tw/zh_us all `tʰjɛn˥˥`; 見: all `t͡ɕjɛn˥˩`; 犬: zh_th/zh_tw `t͡ɕʰɥɛn˨˩˦` (medial y→ɥ, a→ɛ). Match `zh`. 11/11 cells carry [ɛ].
+
+**Category B — Mandarin dialects (sc/cd/cq/gl/kf/tj/zz):** ✓ ACCEPT
+- All 13 dialect cells (天 zh_gl; 見 ×5; 犬 ×7) carry the raised [ɛ]; vowel medials (i/y) preserved. (Tone marks on a few of these were later normalized superscript→Chao letters by the IPA-tone sweep — the rime fix is intact.)
+
+**Category B′ (Dungan) / Category C (Min Nan):** correctly left UNCHANGED — `天/dng = tʰjan˦` still carries the -an coda (the Dungan nasal-coda question is deferred), and the Hokkien `kʰian` cells are untouched. Both remain flagged for separate reviews, as designed; they are out of THIS review's scope.
+
+### Scorecard
+| Category | Cells | Verdict |
+|---|---|---|
+| A — standard variants | 11 | ✓ ACCEPT (live = ɛ) |
+| B — Mandarin dialects | 13 | ✓ ACCEPT (live = ɛ) |
+| B′ Dungan / C Min Nan | — | deferred to separate reviews (out of scope) |
+
+No discrepancies; no new in-scope issues.
+
+**File status: CLOSED** — round-2 verified (24 applied cells confirmed; B′/C tracked as separate reviews).

@@ -367,18 +367,6 @@ const HAN_DATA = {
       "ja_thk": "イツ",
       "ko_bus": "일"
     },
-    "variants.白讀.surface": {
-      "nan_my": "chi̍t"
-    },
-    "variants.白讀.ipa": {
-      "nan_my": "tsit̚˥"
-    },
-    "variants.文讀.surface": {
-      "nan_my": "it"
-    },
-    "variants.文讀.ipa": {
-      "nan_my": "it̚˧˨"
-    }
   },
   "二": {
     "surface": {
@@ -593,18 +581,6 @@ const HAN_DATA = {
       "ja_thk": "ジ",
       "ko_bus": "이"
     },
-    "variants.白讀.surface": {
-      "nan_my": "nn̄g"
-    },
-    "variants.白讀.ipa": {
-      "nan_my": "nŋ˨˩"
-    },
-    "variants.文讀.surface": {
-      "nan_my": "jī"
-    },
-    "variants.文讀.ipa": {
-      "nan_my": "dzi˨˩"
-    }
   },
   "三": {
     "surface": {
@@ -2107,15 +2083,6 @@ const HAN_DATA = {
       "ja_thk": "キュウ",
       "ko_bus": "구"
     },
-    "surface.ja_ojp": {
-      "九": "kiu"
-    },
-    "ipa.ja_ojp": {
-      "九": "kiu"
-    },
-    "native.ja_ojp": {
-      "九": "キウ"
-    }
   },
   "十": {
     "surface": {
@@ -2723,12 +2690,6 @@ const HAN_DATA = {
       "ja_thk": "ゲツ",
       "ko_bus": "월"
     },
-    "variants.文讀.surface": {
-      "nan_my": "goa̍t"
-    },
-    "variants.文讀.ipa": {
-      "nan_my": "ɡuat̚˥"
-    }
   },
   "山": {
     "surface": {
@@ -2934,15 +2895,6 @@ const HAN_DATA = {
       "ja_thk": "サン",
       "ko_bus": "산"
     },
-    "surface.ja_ojp": {
-      "山": "san"
-    },
-    "ipa.ja_ojp": {
-      "山": "san"
-    },
-    "native.ja_ojp": {
-      "山": "サン"
-    }
   },
   "水": {
     "surface": {
@@ -4869,9 +4821,6 @@ const HAN_DATA = {
       "ko_bus": "호",
       "vi_nom": "𧲫"
     },
-    "native.ja_ojp": {
-      "虎": "コ"
-    }
   },
   "犬": {
     "surface": {
@@ -5942,15 +5891,6 @@ const HAN_DATA = {
       "ja_thk": "ギュウ",
       "ko_bus": "우"
     },
-    "surface.ja_ojp": {
-      "牛": "giu"
-    },
-    "ipa.ja_ojp": {
-      "牛": "ŋiu"
-    },
-    "native.ja_ojp": {
-      "牛": "ギウ"
-    }
   },
   "羊": {
     "surface": {
@@ -7599,15 +7539,6 @@ const HAN_DATA = {
       "ja_thk": "コウ",
       "ko_bus": "구"
     },
-    "surface.ja_ojp": {
-      "口": "kou"
-    },
-    "ipa.ja_ojp": {
-      "口": "kou"
-    },
-    "native.ja_ojp": {
-      "口": "コウ"
-    }
   },
   "頭": {
     "surface": {
@@ -7818,9 +7749,6 @@ const HAN_DATA = {
       "ja_thk": "トウ",
       "ko_bus": "두"
     },
-    "native.ja_ojp": {
-      "頭": "トウ"
-    }
   },
   "心": {
     "surface": {
@@ -8651,8 +8579,6 @@ const HAN_DATA = {
       "ja_thk": "ショウ",
       "ko_bus": "상"
     },
-    "variants[0].surface": {},
-    "variants[1].surface": {}
   },
   "下": {
     "surface": {
@@ -9918,15 +9844,6 @@ const HAN_DATA = {
       "ja_thk": "ユウ",
       "ko_bus": "우"
     },
-    "surface.ja_ojp": {
-      "右": "iu"
-    },
-    "ipa.ja_ojp": {
-      "右": "iu"
-    },
-    "native.ja_ojp": {
-      "右": "イウ"
-    }
   },
   "東": {
     "surface": {
@@ -10119,9 +10036,6 @@ const HAN_DATA = {
       "vi_nom": "東",
       "ko_bus": "동"
     },
-    "native.ja_ojp": {
-      "東": "トウ"
-    }
   },
   "西": {
     "surface": {
@@ -10975,7 +10889,6 @@ const HAN_DATA = {
       "ja_thk": "ギョウ",
       "ko_bus": "행"
     },
-    "variants[0].surface": {}
   },
   "行:2": {
     "surface": {
@@ -11195,7 +11108,6 @@ const HAN_DATA = {
       "ko_hun": "행할",
       "dng": "хаңъ"
     },
-    "variants[0].surface": {}
   },
   "来": {
     "surface": {
@@ -11607,9 +11519,6 @@ const HAN_DATA = {
       "ja_thk": "キョ",
       "ko_bus": "거"
     },
-    "surface.ja_ojp": {
-      "去": "ko"
-    }
   },
   "見": {
     "surface": {
@@ -12012,15 +11921,6 @@ const HAN_DATA = {
       "ja_thk": "ブン",
       "ko_bus": "문"
     },
-    "surface.ja_ojp": {
-      "聞": "mon"
-    },
-    "ipa.ja_ojp": {
-      "聞": "mon"
-    },
-    "native.ja_ojp": {
-      "聞": "モン"
-    }
   },
   "食": {
     "surface": {

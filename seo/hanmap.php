@@ -105,22 +105,44 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 
 <section class="seo-section">
   <h2><?= e(seo_t($ui, 'chars_heading', ['name' => $name])) ?></h2>
-  <div class="seo-chars">
+  <div class="seo-chartable-wrap">
+  <table class="seo-chartable">
+    <thead>
+      <tr>
+        <th class="c-char" scope="col"><?= e(seo_t($ui, 'th_char')) ?></th>
+        <th class="c-gloss" scope="col"><?= e(seo_t($ui, 'th_gloss')) ?></th>
+        <th class="c-read" scope="col"><?= e(seo_t($ui, 'th_read')) ?></th>
+        <th class="c-form" scope="col"><?= e(seo_t($ui, 'th_form')) ?></th>
+        <th class="c-ipa" scope="col">IPA</th>
+      </tr>
+    </thead>
+    <tbody>
   <?php foreach ($chars as $c):
       $key = $c['key'];
-      $entry = $lang['readings'][$key] ?? null;
-      if (!$entry) continue;
-      $surface = $entry[0] ?? '';
-      $ipa = $entry[1] ?? '';
-      if ($surface === '' && $ipa === '') continue;
-  ?>
-    <div class="seo-char">
-      <p class="han" lang="zh"><?= e($c['char']) ?></p>
-      <?php if (!empty($c['gloss'])): ?><p class="gloss"><?= e($c['gloss']) ?></p><?php endif; ?>
-      <?php if ($surface !== ''): ?><p class="surface" lang="<?= e($code) ?>"><?= e($surface) ?></p><?php endif; ?>
-      <?php if ($ipa !== ''): ?><p class="ipa">/<?= e($ipa) ?>/</p><?php endif; ?>
-    </div>
+      $readings = $lang['readings'][$key] ?? null;
+      if (!$readings) continue;
+      // Each reading is { surface, ipa, label } (文白異讀 / 呉音漢音 etc.).
+      $readings = array_values(array_filter($readings, fn($r) =>
+          ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== ''));
+      if (!$readings) continue;
+      $n = count($readings);
+      $multi = $n > 1;
+      foreach ($readings as $i => $r):
+          $surface = $r['surface'] ?? ''; $ipa = $r['ipa'] ?? ''; $label = $r['label'] ?? '';
+          $first = $i === 0; ?>
+      <tr<?= $first ? ' class="char-start"' : '' ?>>
+        <?php if ($first): ?>
+        <td class="c-char" lang="zh" rowspan="<?= $n ?>"><?= e($c['char']) ?></td>
+        <td class="c-gloss" rowspan="<?= $n ?>"><?= e($c['gloss'] ?? '') ?></td>
+        <?php endif; ?>
+        <td class="c-read"><?php if ($multi && $label !== ''): ?><span class="rlabel"><?= e($label) ?></span><?php endif; ?></td>
+        <td class="c-form" lang="<?= e($code) ?>"><?= e($surface) ?></td>
+        <td class="c-ipa"><?= $ipa !== '' ? '/' . e($ipa) . '/' : '' ?></td>
+      </tr>
+      <?php endforeach; ?>
   <?php endforeach; ?>
+    </tbody>
+  </table>
   </div>
 </section>
 

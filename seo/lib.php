@@ -98,6 +98,7 @@ const SEO_T = [
         'family' => 'Family', 'speakers' => 'Speakers', 'script' => 'Script',
         'region' => 'Region', 'countries' => 'Countries', 'official' => 'Official in',
         'reading' => 'Reading',
+        'th_char' => 'Character', 'th_gloss' => 'Meaning', 'th_read' => 'Reading', 'th_form' => 'Form',
         'where' => 'Where it is spoken',
         'open_app' => 'Open {name} in the interactive map →',
         'open_app_wm' => 'Open the interactive Word Map →',
@@ -144,6 +145,7 @@ const SEO_T = [
         'family' => '語族', 'speakers' => '話者数', 'script' => '文字',
         'region' => '地域', 'countries' => '国', 'official' => '公用語',
         'reading' => '読み',
+        'th_char' => '漢字', 'th_gloss' => '意味', 'th_read' => '発音区分', 'th_form' => '表記',
         'where' => '話される地域',
         'open_app' => '{name}をインタラクティブマップで開く →',
         'open_app_wm' => 'インタラクティブな Word Map を開く →',
@@ -190,6 +192,7 @@ const SEO_T = [
         'family' => '어족', 'speakers' => '사용자', 'script' => '문자',
         'region' => '지역', 'countries' => '국가', 'official' => '공용어',
         'reading' => '독음',
+        'th_char' => '한자', 'th_gloss' => '뜻', 'th_read' => '독음', 'th_form' => '표기',
         'where' => '사용 지역',
         'open_app' => '{name}을(를) 인터랙티브 지도에서 열기 →',
         'open_app_wm' => '인터랙티브 Word Map 열기 →',
@@ -236,6 +239,7 @@ const SEO_T = [
         'family' => '语系', 'speakers' => '使用者', 'script' => '文字',
         'region' => '地区', 'countries' => '国家', 'official' => '官方语言',
         'reading' => '读音',
+        'th_char' => '汉字', 'th_gloss' => '含义', 'th_read' => '读音', 'th_form' => '写法',
         'where' => '使用地区',
         'open_app' => '在交互式地图中打开{name} →',
         'open_app_wm' => '打开交互式 Word Map →',
@@ -282,6 +286,7 @@ const SEO_T = [
         'family' => '語系', 'speakers' => '使用者', 'script' => '文字',
         'region' => '地區', 'countries' => '國家', 'official' => '官方語言',
         'reading' => '讀音',
+        'th_char' => '漢字', 'th_gloss' => '意思', 'th_read' => '讀音', 'th_form' => '寫法',
         'where' => '使用地區',
         'open_app' => '喺互動地圖打開{name} →',
         'open_app_wm' => '打開互動 Word Map →',
@@ -328,6 +333,7 @@ const SEO_T = [
         'family' => 'Ngữ hệ', 'speakers' => 'Người nói', 'script' => 'Chữ viết',
         'region' => 'Khu vực', 'countries' => 'Quốc gia', 'official' => 'Ngôn ngữ chính thức',
         'reading' => 'Cách đọc',
+        'th_char' => 'Chữ Hán', 'th_gloss' => 'Nghĩa', 'th_read' => 'Âm đọc', 'th_form' => 'Dạng viết',
         'where' => 'Nơi được sử dụng',
         'open_app' => 'Mở {name} trong bản đồ tương tác →',
         'open_app_wm' => 'Mở Word Map tương tác →',
@@ -374,6 +380,7 @@ const SEO_T = [
         'family' => 'ตระกูลภาษา', 'speakers' => 'ผู้พูด', 'script' => 'อักษร',
         'region' => 'ภูมิภาค', 'countries' => 'ประเทศ', 'official' => 'ภาษาราชการ',
         'reading' => 'การอ่าน',
+        'th_char' => 'อักษร', 'th_gloss' => 'ความหมาย', 'th_read' => 'การอ่าน', 'th_form' => 'รูปเขียน',
         'where' => 'พื้นที่ที่ใช้',
         'open_app' => 'เปิด {name} ในแผนที่แบบโต้ตอบ →',
         'open_app_wm' => 'เปิด Word Map แบบโต้ตอบ →',
@@ -420,6 +427,7 @@ const SEO_T = [
         'family' => 'Rumpun bahasa', 'speakers' => 'Penutur', 'script' => 'Aksara',
         'region' => 'Wilayah', 'countries' => 'Negara', 'official' => 'Bahasa resmi',
         'reading' => 'Bacaan',
+        'th_char' => 'Aksara', 'th_gloss' => 'Arti', 'th_read' => 'Bacaan', 'th_form' => 'Bentuk',
         'where' => 'Tempat dituturkan',
         'open_app' => 'Buka {name} di peta interaktif →',
         'open_app_wm' => 'Buka Word Map interaktif →',
@@ -466,6 +474,7 @@ const SEO_T = [
         'family' => 'भाषा परिवार', 'speakers' => 'वक्ता', 'script' => 'लिपि',
         'region' => 'क्षेत्र', 'countries' => 'देश', 'official' => 'आधिकारिक भाषा',
         'reading' => 'पठन',
+        'th_char' => 'अक्षर', 'th_gloss' => 'अर्थ', 'th_read' => 'उच्चारण', 'th_form' => 'रूप',
         'where' => 'कहाँ बोली जाती है',
         'open_app' => '{name} को इंटरैक्टिव मानचित्र में खोलें →',
         'open_app_wm' => 'इंटरैक्टिव Word Map खोलें →',
@@ -512,6 +521,7 @@ const SEO_T = [
         'family' => 'Sprachfamilie', 'speakers' => 'Sprecher', 'script' => 'Schrift',
         'region' => 'Region', 'countries' => 'Länder', 'official' => 'Amtssprache in',
         'reading' => 'Lesung',
+        'th_char' => 'Schriftzeichen', 'th_gloss' => 'Bedeutung', 'th_read' => 'Lesung', 'th_form' => 'Form',
         'where' => 'Wo es gesprochen wird',
         'open_app' => '{name} in der interaktiven Karte öffnen →',
         'open_app_wm' => 'Interaktive Word Map öffnen →',
@@ -558,6 +568,7 @@ const SEO_T = [
         'family' => 'Famille', 'speakers' => 'Locuteurs', 'script' => 'Écriture',
         'region' => 'Région', 'countries' => 'Pays', 'official' => 'Langue officielle',
         'reading' => 'Lecture',
+        'th_char' => 'Caractère', 'th_gloss' => 'Sens', 'th_read' => 'Lecture', 'th_form' => 'Forme',
         'where' => 'Où elle est parlée',
         'open_app' => 'Ouvrir {name} dans la carte interactive →',
         'open_app_wm' => 'Ouvrir la Word Map interactive →',
@@ -604,6 +615,7 @@ const SEO_T = [
         'family' => 'Famiglia', 'speakers' => 'Parlanti', 'script' => 'Scrittura',
         'region' => 'Regione', 'countries' => 'Paesi', 'official' => 'Lingua ufficiale',
         'reading' => 'Lettura',
+        'th_char' => 'Carattere', 'th_gloss' => 'Significato', 'th_read' => 'Lettura', 'th_form' => 'Forma',
         'where' => 'Dove si parla',
         'open_app' => 'Apri {name} nella mappa interattiva →',
         'open_app_wm' => 'Apri la Word Map interattiva →',
@@ -650,6 +662,7 @@ const SEO_T = [
         'family' => 'Familia', 'speakers' => 'Hablantes', 'script' => 'Escritura',
         'region' => 'Región', 'countries' => 'Países', 'official' => 'Lengua oficial',
         'reading' => 'Lectura',
+        'th_char' => 'Carácter', 'th_gloss' => 'Significado', 'th_read' => 'Lectura', 'th_form' => 'Forma',
         'where' => 'Dónde se habla',
         'open_app' => 'Abrir {name} en el mapa interactivo →',
         'open_app_wm' => 'Abrir el Word Map interactivo →',
@@ -696,6 +709,7 @@ const SEO_T = [
         'family' => 'Família', 'speakers' => 'Falantes', 'script' => 'Escrita',
         'region' => 'Região', 'countries' => 'Países', 'official' => 'Língua oficial',
         'reading' => 'Leitura',
+        'th_char' => 'Caractere', 'th_gloss' => 'Significado', 'th_read' => 'Leitura', 'th_form' => 'Forma',
         'where' => 'Onde é falada',
         'open_app' => 'Abrir {name} no mapa interativo →',
         'open_app_wm' => 'Abrir o Word Map interativo →',
@@ -742,6 +756,7 @@ const SEO_T = [
         'family' => 'Семья', 'speakers' => 'Носители', 'script' => 'Письмо',
         'region' => 'Регион', 'countries' => 'Страны', 'official' => 'Официальный язык',
         'reading' => 'Чтение',
+        'th_char' => 'Иероглиф', 'th_gloss' => 'Значение', 'th_read' => 'Чтение', 'th_form' => 'Форма',
         'where' => 'Где на нём говорят',
         'open_app' => 'Открыть {name} на интерактивной карте →',
         'open_app_wm' => 'Открыть интерактивную Word Map →',
@@ -788,6 +803,7 @@ const SEO_T = [
         'family' => 'Сім’я', 'speakers' => 'Носії', 'script' => 'Письмо',
         'region' => 'Регіон', 'countries' => 'Країни', 'official' => 'Офіційна мова',
         'reading' => 'Читання',
+        'th_char' => 'Ієрогліф', 'th_gloss' => 'Значення', 'th_read' => 'Читання', 'th_form' => 'Форма',
         'where' => 'Де нею розмовляють',
         'open_app' => 'Відкрити {name} на інтерактивній карті →',
         'open_app_wm' => 'Відкрити інтерактивну Word Map →',
@@ -834,6 +850,7 @@ const SEO_T = [
         'family' => 'العائلة', 'speakers' => 'المتحدثون', 'script' => 'الكتابة',
         'region' => 'المنطقة', 'countries' => 'البلدان', 'official' => 'لغة رسمية في',
         'reading' => 'القراءة',
+        'th_char' => 'الحرف', 'th_gloss' => 'المعنى', 'th_read' => 'القراءة', 'th_form' => 'الشكل',
         'where' => 'أين تُستخدم',
         'open_app' => 'فتح {name} في الخريطة التفاعلية →',
         'open_app_wm' => 'فتح Word Map التفاعلية →',
@@ -880,6 +897,7 @@ const SEO_T = [
         'family' => 'משפחה', 'speakers' => 'דוברים', 'script' => 'כתב',
         'region' => 'אזור', 'countries' => 'מדינות', 'official' => 'שפה רשמית',
         'reading' => 'קריאה',
+        'th_char' => 'תו', 'th_gloss' => 'משמעות', 'th_read' => 'קריאה', 'th_form' => 'צורה',
         'where' => 'היכן מדוברת',
         'open_app' => 'פתח את {name} במפה האינטראקטיבית →',
         'open_app_wm' => 'פתח את Word Map האינטראקטיבית →',
@@ -926,6 +944,7 @@ const SEO_T = [
         'family' => 'Familia', 'speakers' => 'Wasemaji', 'script' => 'Hati',
         'region' => 'Eneo', 'countries' => 'Nchi', 'official' => 'Lugha rasmi',
         'reading' => 'Usomaji',
+        'th_char' => 'Herufi', 'th_gloss' => 'Maana', 'th_read' => 'Usomaji', 'th_form' => 'Umbo',
         'where' => 'Inakozungumzwa',
         'open_app' => 'Fungua {name} kwenye ramani shirikishi →',
         'open_app_wm' => 'Fungua Word Map shirikishi →',
@@ -1195,16 +1214,30 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color: var(--muted); margin: 0 0 .25rem; }
 .seo-word .surface { font-size: 2rem; line-height: 1.15; margin: 0; word-break: break-word; }
 .seo-word .ipa { font-size: 1.1rem; color: var(--accent); margin: .2rem 0 0; }
-.seo-chars { display: grid; grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
-  gap: .7rem; }
-.seo-char { background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
-  padding: .7rem; text-align: center; }
-.seo-char .han { font-size: 2.6rem; line-height: 1; margin: 0; }
-.seo-char .gloss { font-size: .75rem; color: var(--muted); margin: .15rem 0 .4rem; }
-.seo-char .surface { font-size: 1.35rem; margin: 0; word-break: break-word; }
-.seo-char .ipa { font-size: .95rem; color: var(--accent); margin: .15rem 0 0; }
-/* Word / Han-character tables in serif (Mincho/Song for CJK glyphs). */
-.seo-words, .seo-chars {
+/* Han-character readings as an aligned dictionary table (文白異讀 / 呉音漢音 etc.). */
+.seo-chartable-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0; }
+.seo-chartable { width: 100%; border-collapse: collapse; font-size: 1rem; }
+.seo-chartable thead th { text-align: left; font-size: .8rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .04em; color: var(--muted);
+  padding: .5rem .85rem; border-bottom: 2px solid var(--line); white-space: nowrap; }
+.seo-chartable thead th.c-char { text-align: center; }
+/* Horizontal rule between characters, but not between a char's own reading rows. */
+.seo-chartable tbody tr.char-start td { border-top: 1px solid var(--line); }
+.seo-chartable tbody tr:first-child td { border-top: none; }
+.seo-chartable td { padding: .45rem .85rem; vertical-align: middle; }
+.seo-chartable .c-char { text-align: center; vertical-align: middle;
+  font-size: 2rem; line-height: 1; white-space: nowrap; }
+.seo-chartable .c-gloss { color: var(--muted); font-size: .85rem; vertical-align: middle;
+  max-width: 14rem; }
+.seo-chartable .c-read { white-space: nowrap; }
+.seo-chartable .c-read .rlabel { display: inline-block; font-size: .72rem; color: var(--muted);
+  border: 1px solid var(--line); border-radius: .5rem; padding: 0 .4rem; line-height: 1.5; }
+.seo-chartable .c-form { font-size: 1.2rem; word-break: break-word; }
+.seo-chartable .c-ipa { color: var(--accent); white-space: nowrap; }
+/* Serif for Han glyphs & surface forms (Mincho/Song for CJK); IPA stays sans. */
+.seo-words,
+.seo-chartable .c-char,
+.seo-chartable .c-form {
   font-family: Georgia, "Times New Roman", "Noto Serif", "Noto Serif CJK JP",
     "Noto Serif CJK SC", "Noto Serif CJK KR", "Songti SC", "Hiragino Mincho ProN",
     "Yu Mincho", "SimSun", serif;

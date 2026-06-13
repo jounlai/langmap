@@ -185,6 +185,7 @@ function loadHanMap() {
   src += 'this.__HAN_CATEGORIES = (typeof HAN_CATEGORIES!=="undefined") ? HAN_CATEGORIES : window.HAN_CATEGORIES;\n';
   src += 'this.__HAN_LANG_META = (typeof HAN_LANG_META!=="undefined") ? HAN_LANG_META : window.HAN_LANG_META;\n';
   src += 'this.__HAN_LANGS = (typeof HAN_LANGS!=="undefined") ? HAN_LANGS : window.HAN_LANGS;\n';
+  src += 'this.__HAN_VARIANTS = (typeof HAN_VARIANTS!=="undefined") ? HAN_VARIANTS : (window.HAN_VARIANTS||{});\n';
   const ctx = {};
   vm.createContext(ctx);
   vm.runInContext(src, ctx);
@@ -195,13 +196,14 @@ function loadHanMap() {
     HAN_CATEGORIES: ctx.__HAN_CATEGORIES,
     HAN_LANG_META: ctx.__HAN_LANG_META,
     HAN_LANGS: ctx.__HAN_LANGS,
+    HAN_VARIANTS: ctx.__HAN_VARIANTS || {},
   };
 }
 
 const HAN_EMPTY = (v) => !v || v === '—' || v === '-' || v === '';
 
 function buildHanMapJSON(nameIndex) {
-  const { LANG_DATA, HAN_DATA, HAN_LIST, HAN_CATEGORIES, HAN_LANG_META, HAN_LANGS } = loadHanMap();
+  const { LANG_DATA, HAN_DATA, HAN_LIST, HAN_CATEGORIES, HAN_LANG_META, HAN_LANGS, HAN_VARIANTS } = loadHanMap();
 
   // Character list metadata. HAN_LIST may carry disambiguators ("中:1").
   const chars = HAN_LIST.map((ch) => {
@@ -231,11 +233,26 @@ function buildHanMapJSON(nameIndex) {
     for (const ch of HAN_LIST) {
       const cd = HAN_DATA[ch];
       if (!cd) continue;
-      let surf = (cd.surface && cd.surface[code]) || '';
-      let ipa = (cd.ipa && cd.ipa[code]) || '';
-      if (HAN_EMPTY(surf)) surf = '';
-      if (HAN_EMPTY(ipa)) ipa = '';
-      if (surf || ipa) entries[ch] = [surf, ipa];
+      // Per the app invariant, HAN_VARIANTS (文白異讀 / 呉音漢音 etc.) OWNS the
+      // readings when present; otherwise fall back to the single main reading.
+      const vs = (HAN_VARIANTS[ch] && HAN_VARIANTS[ch][code]) || null;
+      let readings = [];
+      if (Array.isArray(vs) && vs.length) {
+        readings = vs
+          .map((v) => ({
+            surface: HAN_EMPTY(v.surface) ? '' : v.surface,
+            ipa: HAN_EMPTY(v.ipa) ? '' : v.ipa,
+            label: v.label || '',
+          }))
+          .filter((r) => r.surface || r.ipa);
+      } else {
+        let surf = (cd.surface && cd.surface[code]) || '';
+        let ipa = (cd.ipa && cd.ipa[code]) || '';
+        if (HAN_EMPTY(surf)) surf = '';
+        if (HAN_EMPTY(ipa)) ipa = '';
+        if (surf || ipa) readings = [{ surface: surf, ipa, label: '' }];
+      }
+      if (readings.length) entries[ch] = readings;
     }
     if (!Object.keys(entries).length) continue; // skip codes with no readings
 

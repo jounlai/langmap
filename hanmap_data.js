@@ -19624,13 +19624,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "it",
         "ipa": "it̚˧˨",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "chi̍t",
         "ipa": "tsit̚˥",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "nan_sg": [
@@ -19822,13 +19822,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "jī",
         "ipa": "dzi˨˩",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "nn̄g",
         "ipa": "nŋ˨˩",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "nan_sg": [
@@ -21310,8 +21310,8 @@ const HAN_VARIANTS = {
       },
       {
         "native": "",
-        "surface": "ge̍h",
-        "ipa": "ɡeʔ˥",
+        "surface": "goa̍t",
+        "ipa": "ɡuat̚˥",
         "label": "文讀"
       }
     ],

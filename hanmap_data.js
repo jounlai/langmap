@@ -2465,7 +2465,7 @@ const HAN_DATA = {
       "ja_thk": "d͡ʑit͡sɯ"
     },
     "en": {
-      "gloss": "sun, day",
+      "gloss": "sun",
       "pinyin_simple": "rì"
     },
     "native": {
@@ -2663,7 +2663,7 @@ const HAN_DATA = {
       "ja_thk": "ŋet͡sɯ"
     },
     "en": {
-      "gloss": "moon, month",
+      "gloss": "moon",
       "pinyin_simple": "yuè"
     },
     "native": {
@@ -3518,7 +3518,7 @@ const HAN_DATA = {
       "ja_thk": "boɡɯ"
     },
     "en": {
-      "gloss": "tree / wood",
+      "gloss": "tree",
       "pinyin_simple": "mù"
     },
     "native": {
@@ -3744,7 +3744,7 @@ const HAN_DATA = {
       "ja_thk": "to"
     },
     "en": {
-      "gloss": "earth, soil",
+      "gloss": "soil",
       "pinyin_simple": "tǔ"
     },
     "native": {
@@ -3944,7 +3944,7 @@ const HAN_DATA = {
       "ja_thk": "teɴ"
     },
     "en": {
-      "gloss": "sky, heaven",
+      "gloss": "sky",
       "pinyin_simple": "tiān"
     },
     "native": {
@@ -4148,7 +4148,7 @@ const HAN_DATA = {
       "ja_thk": "t͡sɯ̈"
     },
     "en": {
-      "gloss": "earth, ground, land",
+      "gloss": "ground",
       "pinyin_simple": "dì"
     },
     "native": {
@@ -4369,7 +4369,7 @@ const HAN_DATA = {
       "ja_thk": "kai"
     },
     "en": {
-      "gloss": "sea, ocean",
+      "gloss": "sea",
       "pinyin_simple": "hǎi"
     },
     "native": {
@@ -5864,7 +5864,7 @@ const HAN_DATA = {
       "ptung": "*xukær"
     },
     "en": {
-      "gloss": "cow, ox, cattle",
+      "gloss": "ox",
       "pinyin_simple": "niú"
     },
     "native": {
@@ -6062,7 +6062,7 @@ const HAN_DATA = {
       "vi_nom": "kɨw˨˩"
     },
     "en": {
-      "gloss": "sheep, goat",
+      "gloss": "sheep",
       "pinyin_simple": "yáng"
     },
     "native": {
@@ -6475,7 +6475,7 @@ const HAN_DATA = {
       "ja_thk": "d͡ʑiɴ"
     },
     "en": {
-      "gloss": "person, human",
+      "gloss": "person",
       "pinyin_simple": "rén"
     },
     "native": {
@@ -6892,7 +6892,7 @@ const HAN_DATA = {
       "ja_thk": "soɡɯ"
     },
     "en": {
-      "gloss": "foot, leg; sufficient",
+      "gloss": "foot",
       "pinyin_simple": "zú"
     },
     "native": {
@@ -7944,7 +7944,7 @@ const HAN_DATA = {
       "ja_thk": "sɯ̈ɴ"
     },
     "en": {
-      "gloss": "heart / mind",
+      "gloss": "heart",
       "pinyin_simple": "xīn"
     },
     "native": {
@@ -8360,7 +8360,7 @@ const HAN_DATA = {
       "ja_thk": "d͡ʑiɡɯ"
     },
     "en": {
-      "gloss": "meat / flesh",
+      "gloss": "meat",
       "pinyin_simple": "ròu"
     },
     "native": {
@@ -8551,7 +8551,7 @@ const HAN_DATA = {
       "ja_thk": "ɕoː"
     },
     "en": {
-      "gloss": "up, above, on top",
+      "gloss": "up",
       "pinyin_simple": "shàng"
     },
     "native": {
@@ -8746,7 +8746,7 @@ const HAN_DATA = {
       "ja_thk": "ka"
     },
     "en": {
-      "gloss": "down, below, under",
+      "gloss": "down",
       "pinyin_simple": "xià"
     },
     "native": {
@@ -8970,7 +8970,7 @@ const HAN_DATA = {
       "ja_thk": "t͡ɕɯː"
     },
     "en": {
-      "gloss": "middle / center"
+      "gloss": "middle"
     },
     "native": {
       "vi": "trung",
@@ -9191,7 +9191,7 @@ const HAN_DATA = {
       "ko_hun": "madʑɯl"
     },
     "en": {
-      "gloss": "to hit (the mark)"
+      "gloss": "hit"
     },
     "native": {
       "ko": "중",
@@ -9379,7 +9379,7 @@ const HAN_DATA = {
       "ja_thk": "oː"
     },
     "en": {
-      "gloss": "center, middle",
+      "gloss": "center",
       "pinyin_simple": "yāng"
     },
     "native": {
@@ -9597,7 +9597,7 @@ const HAN_DATA = {
       "ja_thk": "sa"
     },
     "en": {
-      "gloss": "left (direction)",
+      "gloss": "left",
       "pinyin_simple": "zuǒ"
     },
     "native": {
@@ -9817,7 +9817,7 @@ const HAN_DATA = {
       "ja_thk": "jɯː"
     },
     "en": {
-      "gloss": "right (direction)",
+      "gloss": "right",
       "pinyin_simple": "yòu"
     },
     "native": {
@@ -10863,7 +10863,7 @@ const HAN_DATA = {
       "nan_my": "kiã˨˦"
     },
     "en": {
-      "gloss": "to go / walk"
+      "gloss": "go"
     },
     "native": {
       "vi": "hành",
@@ -11083,7 +11083,7 @@ const HAN_DATA = {
       "ko_hun": "hɛŋhal"
     },
     "en": {
-      "gloss": "row / line"
+      "gloss": "row"
     },
     "native": {
       "ko": "항",
@@ -11492,7 +11492,7 @@ const HAN_DATA = {
       "nan_hai": "hi˧˥"
     },
     "en": {
-      "gloss": "go (away), leave",
+      "gloss": "leave",
       "pinyin_simple": "qù"
     },
     "native": {
@@ -11694,7 +11694,7 @@ const HAN_DATA = {
       "nan_hai": "kien˧˥"
     },
     "en": {
-      "gloss": "see / meet",
+      "gloss": "see",
       "pinyin_simple": "jiàn"
     },
     "native": {
@@ -11894,7 +11894,7 @@ const HAN_DATA = {
       "ja_thk": "bɯɴ"
     },
     "en": {
-      "gloss": "hear / smell",
+      "gloss": "hear",
       "pinyin_simple": "wén"
     },
     "native": {
@@ -12088,7 +12088,7 @@ const HAN_DATA = {
       "nan_te": "tsiaʔ˥"
     },
     "en": {
-      "gloss": "eat / food",
+      "gloss": "eat",
       "pinyin_simple": "shí"
     },
     "native": {
@@ -12500,7 +12500,7 @@ const HAN_DATA = {
       "ja_thk": "soː"
     },
     "en": {
-      "gloss": "walk (Classical) / run (Modern Mandarin)",
+      "gloss": "run",
       "pinyin_simple": "zǒu"
     },
     "native": {

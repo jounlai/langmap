@@ -1170,6 +1170,11 @@ function seo_head(array $opts): void
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php /* Linguistic + CJK serif webfonts (same as the interactive map) so romanized
+         diacritics (POJ tone marks, ǔ) and Han glyphs render cleanly everywhere. */ ?>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap">
 <title><?= e($title) ?></title>
 <meta name="description" content="<?= e(seo_clip($desc)) ?>">
 <meta name="robots" content="<?= e($robots) ?>">
@@ -1224,23 +1229,30 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 /* Horizontal rule between characters, but not between a char's own reading rows. */
 .seo-chartable tbody tr.char-start td { border-top: 1px solid var(--line); }
 .seo-chartable tbody tr:first-child td { border-top: none; }
-.seo-chartable td { padding: .45rem .85rem; vertical-align: middle; }
-.seo-chartable .c-char { text-align: center; vertical-align: middle;
-  font-size: 2rem; line-height: 1; white-space: nowrap; }
-.seo-chartable .c-gloss { color: var(--muted); font-size: .85rem; vertical-align: middle;
+.seo-chartable td { padding: .55rem .85rem; vertical-align: middle; }
+.seo-chartable td.c-char { text-align: center; vertical-align: middle;
+  font-size: 1.6rem; line-height: 1; white-space: nowrap; }
+.seo-chartable td.c-gloss { color: var(--muted); font-size: .8rem; vertical-align: middle;
   max-width: 14rem; }
-.seo-chartable .c-read { white-space: nowrap; }
-.seo-chartable .c-read .rlabel { display: inline-block; font-size: .72rem; color: var(--muted);
+.seo-chartable td.c-read { white-space: nowrap; }
+.seo-chartable td.c-read .rlabel { display: inline-block; font-size: .68rem; color: var(--muted);
   border: 1px solid var(--line); border-radius: .5rem; padding: 0 .4rem; line-height: 1.5; }
-.seo-chartable .c-form { font-size: 1.2rem; word-break: break-word; }
-.seo-chartable .c-ipa { color: var(--accent); white-space: nowrap; }
-/* Serif for Han glyphs & surface forms (Mincho/Song for CJK); IPA stays sans. */
+.seo-chartable td.c-form { font-size: 1.05rem; word-break: break-word; }
+.seo-chartable td.c-ipa { color: var(--accent); font-size: .9rem; white-space: nowrap; }
+/* Serif for Han glyphs & surface forms (Mincho/Song for CJK); IPA stays sans.
+   Body cells only (td) so the thead row keeps the uniform sans UI font.
+   Broad CJK serif stack + generic `serif` so individual Han glyphs reliably
+   fall back to a Mincho/Song face instead of a per-glyph sans gap. */
 .seo-words,
-.seo-chartable .c-char,
-.seo-chartable .c-form {
-  font-family: Georgia, "Times New Roman", "Noto Serif", "Noto Serif CJK JP",
-    "Noto Serif CJK SC", "Noto Serif CJK KR", "Songti SC", "Hiragino Mincho ProN",
-    "Yu Mincho", "SimSun", serif;
+.seo-chartable td.c-char,
+.seo-chartable td.c-form {
+  /* Same chain as the interactive map: Gentium Plus / Charis SIL render the
+     romanized diacritics (POJ tone marks, ǔ) cleanly; Noto Serif CJK + platform
+     Mincho/Song fonts cover the Han glyphs. */
+  font-family: "Gentium Plus", "Charis SIL", "Noto Serif", "Noto Serif JP",
+    "Noto Serif SC", "Noto Serif TC", "Noto Serif KR", "Source Han Serif",
+    "Songti SC", "STSong", "SimSun", "Hiragino Mincho ProN", "Yu Mincho",
+    "MS Mincho", Georgia, "Times New Roman", serif;
 }
 .seo-map-wrap { margin: 1rem 0 2rem; }
 .seo-map { height: 360px; border-radius: .7rem; border: 1px solid var(--line); }

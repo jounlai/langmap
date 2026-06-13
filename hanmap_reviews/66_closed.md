@@ -1,0 +1,169 @@
+# Hanmap data review #66 — Gan / Xiang / Jin (gan / hsn / cjy) round-2 audit
+
+> **Numbering note:** #65 のレコメンドでは #66/#67 を呉語(温州/金華)サブレビューに
+> 予約していたが、本ラウンドはオーナー指示により別スライス(贛湘晋 round-2)に充当。
+> 温州/金華サブレビューは #67/#68 に繰り下げる。
+
+## レビュアー自己紹介 (ペルソナ)
+
+「韓 明遠」。漢語方言の声調体系(声調カテゴリ↔調値の対応)と中古音声調 4 類 ×
+陰陽分裂の各方言反映を専門とする音韻記述研究者。round-1 (#12) が確立した
+register 同定 — **cjy=太原晋語 / hsn=長沙(新)湘語 / gan=南昌贛語** — を踏襲し、
+今回は声調カテゴリの**内的整合性**(同一中古声調カテゴリの字は同一方言内で同一調値を
+取るはず)と、各方言の citation tone 体系との照合を主眼に round-2 を行う。
+
+照合の一次・二次資料: 太原は侯精一・温端政の調値(平 11 / 上 53 / 去 45 / 陰入 ʔ2 /
+陽入 ʔ54)、長沙は鮑厚星『長沙方言研究』(陰平 33 / 陽平 13 / 上 41 / 陰去 45 /
+陽去 21 / 入 24・無韻尾)、南昌は『漢語方音字汇』南昌欄(陰平 42 / 陽平 24 / 上 213 /
+陰去 45 / 陽去 21 / 陰入 ʔ5 / 陽入 ʔ21)。zh.Wikipedia「太原话/長沙話/南昌話」、
+Wiktionary の字別 IPA(太原 天 /tʰie¹¹/、長沙 入 /y²⁴/、南昌 八 /pat̚⁵/ など)で
+逐一照合した。HAN_DATA(surface=ローマ字+上付き Chao 数字 / ipa=IPA+Chao 調字)の
+gan/hsn/cjy 全 59 字 ×(surface+ipa)を `node -e` で verbatim に読み出して確認。
+
+**Reviewer perspective:** 声調カテゴリの内的整合性検証。「同一字の異読 (行:1/行:2,
+中:1/中:2) や同一中古カテゴリの字が、方言内で調値を割っていないか」を機械抽出し、
+citation tone と突き合わせる。surface↔ipa の声調・韻尾整合は別途全数チェック済みで
+**破れ無し**(#19/#52 の整理が効いている)。
+
+**Coverage:** gan / hsn / cjy の 3 register、全 59 字。声調カテゴリ別に集計して
+外れ値を抽出。#12 の指摘(中:2/行:2 の生 IPA 混入、gan 日/人 欠落、cjy 入声陰陽)は
+**適用済みを確認**(現 cjy 十 `seh⁵`/`səʔ˥`、六 `lueh⁵`、gan 日 `nyiq⁵`/人 `nyin⁴⁵`)。
+
+---
+
+## ✅ APPLIED — high-confidence (確実)
+
+### 1. cjy 平声の調値割れ — 太原は平声合流(11)なのに 9 字が ³¹/³⁵ 【確実】
+
+太原晋語の citation tone は **平声が陰陽合流して単一の 11**(上 53 / 去 45 / 入 ʔ2・ʔ54)。
+ところが cjy の平声字は 3 つの調値に割れていた:
+
+- **¹¹(正)** — 陰平: 三 `san¹¹` 山 央 心 西 東 貓 / 陽平: 牛 `nieu¹¹` 羊 `iang¹¹` 行:2 `xang¹¹`
+- **³¹(誤)** — 天 `thien³¹`(透母 陰平)、中:1 `zueng³¹`(知母 陰平)
+- **³⁵(誤)** — 龍 `lueng³⁵` 来 `lai³⁵` 人 `zeng³⁵` 魚 `y³⁵` 頭 `teu³⁵` 行:1 `xing³⁵` 聞 `veng³⁵`(全て陽平)
+
+**決定的証拠 (smoking gun):** **行:1 `xing³⁵` と 行:2 `xang¹¹`** は同一字「行」の
+意味読み(xíng「ゆく」/ háng「みせ・くだり」)の違いに過ぎず、**両方とも匣母・平声・
+陽平**で、太原では同調でなければならない。それが 35 と 11 に割れている。同様に陽平の
+牛/羊/行:2 は 11 なのに 龍/来/人/魚/頭/行:1/聞 が 35 で、**陽平が方言内で 11 と 35 に
+矛盾**している(どちらか一方の解釈でも自己矛盾)。
+
+**direction の確定:** ³⁵ は太原の調値目録 {11,53,45,2,54} に存在しない値であり、
+Wiktionary は太原 天 = /tʰie¹¹/(=11、本データ ³¹ と不一致)を与える。よって正は **11**。
+9 字すべてを ¹¹ / ˩˩ に統一(陰平 baseline の 三 `san¹¹` と一致)。頭は surface の
+帯気脱落も併せて修正(ipa `tʰəu`→ surface `teu` を `theu` に。gan 頭 `theu` と整合)。
+
+```json
+{ "char": "天", "lang": "cjy", "op": "settone", "surface": "thien¹¹", "ipa": "tʰiə̃˩˩", "finding": "#66-1 cjy 陰平→11 (was ³¹)" }
+{ "char": "中:1", "lang": "cjy", "op": "settone", "surface": "zueng¹¹", "ipa": "tsuəŋ˩˩", "finding": "#66-1 cjy 陰平→11 (was ³¹)" }
+{ "char": "龍", "lang": "cjy", "op": "settone", "surface": "lueng¹¹", "ipa": "luəŋ˩˩", "finding": "#66-1 cjy 陽平→11 (was ³⁵)" }
+{ "char": "来", "lang": "cjy", "op": "settone", "surface": "lai¹¹", "ipa": "lai˩˩", "finding": "#66-1 cjy 陽平→11 (was ³⁵)" }
+{ "char": "人", "lang": "cjy", "op": "settone", "surface": "zeng¹¹", "ipa": "zəŋ˩˩", "finding": "#66-1 cjy 陽平→11 (was ³⁵)" }
+{ "char": "魚", "lang": "cjy", "op": "settone", "surface": "y¹¹", "ipa": "y˩˩", "finding": "#66-1 cjy 陽平→11 (was ³⁵)" }
+{ "char": "頭", "lang": "cjy", "op": "settext", "surface": "theu¹¹", "ipa": "tʰəu˩˩", "finding": "#66-1 cjy 陽平→11 + 帯気 teu→theu (was teu³⁵)" }
+{ "char": "行:1", "lang": "cjy", "op": "settone", "surface": "xing¹¹", "ipa": "ɕiŋ˩˩", "finding": "#66-1 cjy 陽平→11 (was ³⁵); 行:2 xang¹¹ と一致" }
+{ "char": "聞", "lang": "cjy", "op": "settone", "surface": "veng¹¹", "ipa": "vəŋ˩˩", "finding": "#66-1 cjy 陽平→11 (was ³⁵)" }
+```
+
+### 2. gan 中:2 が上声調(213)— 去声字なので陰去 45 が正 【確実】
+
+gan 中:2 = `tung²¹³`(調値 213 = 南昌**上声**)。だが「中:2」は去声読み(中 zhòng「あてる」、
+知母・去声)で、**上声ではなく陰去**。クロス方言の傍証も明白で、同字 中:2 は cjy `zueng⁴⁵`・
+hsn `ten⁴⁵` がともに去声(45)を与えている。gan の陰去 baseline は 四 `si⁴⁵`・見 `jien⁴⁵`(45)。
+よって gan 中:2 = **`tung⁴⁵` / `tuŋ˦˥`**。213 は隣の上声字からの取り違え/混入とみられる
+(中:1 `tung⁴²` は陰平で別)。
+
+```json
+{ "char": "中:2", "lang": "gan", "op": "settone", "surface": "tung⁴⁵", "ipa": "tuŋ˦˥", "finding": "#66-2 gan 去声→45 (was 上声 213)" }
+```
+
+---
+
+## ⚠ FLAGGED — 系統的だが要ソース確認(未適用)
+
+以下は**全字に一貫して**現れるため単純な転記ミスではなく、データ構築時の参照ソースに
+依存する。オーナー判断でソースを確定してから一括適用すべきと考え、本ラウンドでは未適用。
+
+### 3. gan 陽平 = 45 が陰去 45 と衝突(citation は 24)【蓋然】
+
+gan 陽平字 11 個(龍 来 人 魚 牛 羊 頭 南 聞 行:1 行:2)が一律 `⁴⁵`/`˦˥`。だが
+南昌の陰去も 45(四 `si⁴⁵`・見 `jien⁴⁵`)で、**陽平と陰去が完全同値**になっている。
+これは類型的に不自然(声調の対立を失う)。『漢語方音字汇』・zh.wp 南昌話は**陽平 = 24**
+(低昇)を与える。ソースが 24 で確定すれば 11 字を `⁴⁵→²⁴` / `˦˥→˨˦` に。
+→ **要確認**(11 字一括のため verbatim ソース照合をオーナーに委ねる)。
+
+### 4. gan 陽入 = 5 が陰入 5 と同値(citation は陽入 21)【要検討】
+
+gan 入声は陰入(一 七 八 足 血 北)・陽入(六 十 日 月 木 目 肉 食 立)とも一律 `⁵`。
+『漢語方音字汇』南昌は陰入 ʔ5 / **陽入 ʔ21** と二分するが、Wiktionary の字別データは
+逆に 六(陽入)= /liuʔ⁵/ と ⁵ を与えるなど**ソース間で齟齬**がある。陰陽の対立有無自体が
+要判断のため未適用。→ 陽入を分けるか統合するかをオーナーが方針決定。
+
+### 5. gan 去 `qhie²¹` — 陰去字だが陽去調(21)【要検討】
+
+去(溪母・次清・去声)は陰去で、gan 陰去 baseline は 45(四/見)。だが現値は `qhie²¹`
+(=陽去 21)。文白/口語で陽去化する南方方言の例もあり断定不可。#3 の陽平再調値と
+合わせて確認推奨。
+
+### 6. hsn 陽去の調値ゆれ — 二/上/下 = 45 が陽去 21 baseline と不一致【要検討】
+
+hsn 陽去 baseline は 地 `ti²¹`・右 `ieu²¹`(21)。一方 二 `er⁴⁵`・上 `san⁴⁵`・下 `xia⁴⁵`
+が 45(=陰去)。二は多方言で不規則調、上/下 は上声/去声の両読を持つ多音字のため、
+口語調や 文白異読の可能性があり要個別検討。hsn の入声は 一/六/…/立 すべて `²⁴`・無韻尾で
+**長沙の入声 24(無 -ʔ)に完全合致**(#12 の register 同定を再確認)。
+
+---
+
+## まとめ
+
+- **適用 (確実):** cjy 平声合流の破れ 9 字 → 11(行:1/行:2 の同字異調が決定打)、
+  gan 中:2 去声 → 45。計 **10 セル**(surface+ipa = 20 文字列)を本コミットで修正。
+- **要ソース確認 (未適用):** gan 陽平 45↔24、gan 陽入 5↔21、gan 去 21↔45、
+  hsn 陽去 二/上/下。系統的・多セルにつきオーナーのソース確定待ち。
+- surface↔ipa の声調・韻尾整合は gan/hsn/cjy 全数で破れ無し。register 同定
+  (cjy=太原 / hsn=長沙 / gan=南昌)は入声韻尾の振る舞い(cjy -ʔ / hsn 無韻尾 /
+  gan -t̚+-ʔ)からも追認。
+
+---
+
+## Reviewer round-2 response (再評価 round-2)
+
+ライブ `hanmap_data.js` を `node -e` で逐一読み出して照合。APPLIED 全セルが提案値で
+live に反映済み、FLAGGED 全セルが未改変であることを確認。
+
+### Item 1 — cjy 平声合流 9 字 → 11 (APPLIED)
+- ✓ ACCEPT — verified live: 天 cjy = `thien¹¹` / `tʰiə̃˩˩`
+- ✓ ACCEPT — verified live: 中:1 cjy = `zueng¹¹` / `tsuəŋ˩˩`
+- ✓ ACCEPT — verified live: 龍 cjy = `lueng¹¹` / `luəŋ˩˩`
+- ✓ ACCEPT — verified live: 来 cjy = `lai¹¹` / `lai˩˩`
+- ✓ ACCEPT — verified live: 人 cjy = `zeng¹¹` / `zəŋ˩˩`
+- ✓ ACCEPT — verified live: 魚 cjy = `y¹¹` / `y˩˩`
+- ✓ ACCEPT — verified live: 頭 cjy = `theu¹¹` / `tʰəu˩˩`(帯気 teu→theu 反映確認)
+- ✓ ACCEPT — verified live: 行:1 cjy = `xing¹¹` / `ɕiŋ˩˩`(行:2 `xang¹¹` / `xɒ̃˩˩` と同調を確認)
+- ✓ ACCEPT — verified live: 聞 cjy = `veng¹¹` / `vəŋ˩˩`
+
+### Item 2 — gan 中:2 去声 → 45 (APPLIED)
+- ✓ ACCEPT — verified live: 中:2 gan = `tung⁴⁵` / `tuŋ˦˥`
+
+### Items 3–6 — FLAGGED / 未適用 (要ソース確認)
+- ✓ ACCEPT (unchanged): gan 陽平 — 例 行:2 gan = `hong⁴⁵` / `hɔŋ˦˥`(`⁴⁵` のまま、未適用)
+- ✓ ACCEPT (unchanged): gan 陽入 — 例 六 gan = `liuq⁵` / `liuʔ˥`(`⁵` のまま、未適用)
+- ✓ ACCEPT (unchanged): gan 去 = `qhie²¹` / `tɕʰie˨˩`(`²¹` のまま、未適用)
+- ✓ ACCEPT (unchanged): hsn 陽去 — 二 `er⁴⁵` / 上 `san⁴⁵` / 下 `xia⁴⁵`(全て `⁴⁵` のまま、未適用; hsn 陽去 baseline 地 = `ti²¹` も確認)
+
+### New issues
+None — 提案 10 セルは live に正確に反映、FLAGGED 4 系統は未改変。スライス内に
+新規の明白な誤りは検出されず。
+
+### Scorecard
+
+| Item | Verdict |
+| --- | --- |
+| 1. cjy 平声合流 9 字 → 11 (APPLIED) | ✓ ACCEPT |
+| 2. gan 中:2 去声 → 45 (APPLIED) | ✓ ACCEPT |
+| 3. gan 陽平 45↔24 (FLAGGED) | ✓ ACCEPT (unchanged) |
+| 4. gan 陽入 5↔21 (FLAGGED) | ✓ ACCEPT (unchanged) |
+| 5. gan 去 21↔45 (FLAGGED) | ✓ ACCEPT (unchanged) |
+| 6. hsn 陽去 二/上/下 (FLAGGED) | ✓ ACCEPT (unchanged) |
+
+**File status: CLOSED** — round-2 verified.

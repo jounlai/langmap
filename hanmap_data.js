@@ -15058,12 +15058,14 @@ const HAN_LANG_META = {
     },
     "sources": [
       "Wiktionary (Ningbo Wu)",
-      "寧波方言詞典"
+      "寧波方言詞典",
+      "Ningbo University dialect group (1988)",
+      "Wugniu.com"
     ],
     "romanization": {
-      "name": "Ningbo Pinyin / IPA",
-      "authority": "Ningbo University dialect group",
-      "year": 1988
+      "name": "Wugniu",
+      "authority": "Wugniu.com",
+      "year": "~2016"
     },
     "speakers": "約400万人 (寧波市域・甬江片)",
     "speakersSource": "Wikipedia (英語版「Ningbo dialect」, 2026-05-30閲覧)"
@@ -15225,12 +15227,14 @@ const HAN_LANG_META = {
     },
     "sources": [
       "Wiktionary (Hangzhou Wu)",
-      "杭州方言研究"
+      "杭州方言研究",
+      "Zhejiang University dialect group (1989)",
+      "Wugniu.com"
     ],
     "romanization": {
-      "name": "Hangzhou Pinyin / IPA",
-      "authority": "Zhejiang University dialect group",
-      "year": 1989
+      "name": "Wugniu",
+      "authority": "Wugniu.com",
+      "year": "~2016"
     },
     "speakers": "約100万人 (杭州市旧城区・太湖片)",
     "speakersSource": "Wikipedia (英語版「Hangzhou dialect」, 2026-05-30閲覧)"
@@ -15280,12 +15284,14 @@ const HAN_LANG_META = {
     },
     "sources": [
       "Wiktionary (Jiaxing Wu)",
-      "嘉興方言研究"
+      "嘉興方言研究",
+      "Zhejiang dialect survey (1995)",
+      "Wugniu.com"
     ],
     "romanization": {
-      "name": "Jiaxing IPA",
-      "authority": "Zhejiang dialect survey",
-      "year": 1995
+      "name": "Wugniu",
+      "authority": "Wugniu.com",
+      "year": "~2016"
     },
     "speakers": "約180万人 (嘉興市域・太湖片)",
     "speakersSource": "Wikipedia (中文版「嘉興話」, 2026-05-30閲覧)"
@@ -20986,13 +20992,13 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "niq¹²",
+        "surface": "niq8",
         "ipa": "ȵiɪʔ˩˨",
         "label": "白讀 (sun/day)"
       },
       {
         "native": "",
-        "surface": "zeq¹²",
+        "surface": "zeq8",
         "ipa": "zəʔ˩˨",
         "label": "文讀"
       }
@@ -21014,13 +21020,13 @@ const HAN_VARIANTS = {
     "wuu_nb": [
       {
         "native": "",
-        "surface": "nyiq²¹³",
+        "surface": "nyiq8",
         "ipa": "ȵiɪʔ˨˩˧",
         "label": "白讀 (sun/day)"
       },
       {
         "native": "",
-        "surface": "zeq²¹³",
+        "surface": "zeq8",
         "ipa": "zəʔ˨˩˧",
         "label": "文讀"
       }
@@ -21028,13 +21034,13 @@ const HAN_VARIANTS = {
     "wuu_hz": [
       {
         "native": "",
-        "surface": "nyiq²¹³",
+        "surface": "nyiq8",
         "ipa": "ȵiɪʔ˨˩˧",
         "label": "白讀 (sun/day)"
       },
       {
         "native": "",
-        "surface": "zeq²¹³",
+        "surface": "zeq8",
         "ipa": "zəʔ˨˩˧",
         "label": "文讀"
       }
@@ -21042,13 +21048,13 @@ const HAN_VARIANTS = {
     "wuu_jx": [
       {
         "native": "",
-        "surface": "nyiq²¹³",
+        "surface": "nyiq8",
         "ipa": "ȵiɪʔ˨˩˧",
         "label": "白讀 (sun/day)"
       },
       {
         "native": "",
-        "surface": "zeq²¹³",
+        "surface": "zeq8",
         "ipa": "zəʔ˨˩˧",
         "label": "文讀"
       }
@@ -21198,13 +21204,13 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "hhyuoq¹²",
+        "surface": "hhyuoq8",
         "ipa": "ɦyɪʔ˩˨",
         "label": "白讀 (moon/month)"
       },
       {
         "native": "",
-        "surface": "hhyeq¹²",
+        "surface": "hhyeq8",
         "ipa": "ɦiɪʔ˩˨",
         "label": "文讀"
       }
@@ -21226,13 +21232,13 @@ const HAN_VARIANTS = {
     "wuu_nb": [
       {
         "native": "",
-        "surface": "hhyuoq²¹³",
+        "surface": "hhyuoq8",
         "ipa": "ɦyɪʔ˨˩˧",
         "label": "白讀 (moon/month)"
       },
       {
         "native": "",
-        "surface": "hhyeq²¹³",
+        "surface": "hhyeq8",
         "ipa": "ɦiɪʔ˨˩˧",
         "label": "文讀"
       }
@@ -21240,13 +21246,13 @@ const HAN_VARIANTS = {
     "wuu_hz": [
       {
         "native": "",
-        "surface": "hhyuoq²¹³",
+        "surface": "hhyuoq8",
         "ipa": "ɦyɪʔ˨˩˧",
         "label": "白讀 (moon/month)"
       },
       {
         "native": "",
-        "surface": "hhyeq²¹³",
+        "surface": "hhyeq8",
         "ipa": "ɦiɪʔ˨˩˧",
         "label": "文讀"
       }
@@ -21254,13 +21260,13 @@ const HAN_VARIANTS = {
     "wuu_jx": [
       {
         "native": "",
-        "surface": "hhyuoq²¹³",
+        "surface": "hhyuoq8",
         "ipa": "ɦyɪʔ˨˩˧",
         "label": "白讀 (moon/month)"
       },
       {
         "native": "",
-        "surface": "hhyeq²¹³",
+        "surface": "hhyeq8",
         "ipa": "ɦiɪʔ˨˩˧",
         "label": "文讀"
       }
@@ -23212,13 +23218,13 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "nyin²³",
+        "surface": "nyin2",
         "ipa": "ɲin˨˧",
         "label": "白讀"
       },
       {
         "native": "",
-        "surface": "zen²³",
+        "surface": "zen2",
         "ipa": "zən˨˧",
         "label": "文讀"
       }
@@ -23632,14 +23638,14 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "moq¹²",
+        "surface": "moq8",
         "ipa": "moʔ˩˨",
         "label": "白讀 (eye)"
       },
       {
         "native": "",
-        "surface": "moq⁵⁵",
-        "ipa": "moʔ˥˥",
+        "surface": "moq8",
+        "ipa": "moʔ˩˨",
         "label": "文讀 (item/entry)"
       }
     ],
@@ -24220,13 +24226,13 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "xyuoq⁵⁵",
+        "surface": "xyuoq7",
         "ipa": "ɕyɪʔ˥˥",
         "label": "白讀"
       },
       {
         "native": "",
-        "surface": "xyeq⁵⁵",
+        "surface": "xyeq7",
         "ipa": "ɕiɪʔ˥˥",
         "label": "文讀"
       }
@@ -24602,14 +24608,14 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "zang²³",
+        "surface": "zang6",
         "ipa": "zaŋ˨˧",
         "label": "白讀 (上去)"
       },
       {
         "native": "",
-        "surface": "zang⁵³",
-        "ipa": "zaŋ˥˧",
+        "surface": "zang6",
+        "ipa": "zaŋ˨˧",
         "label": "文讀 (上聲)"
       }
     ],
@@ -25756,7 +25762,7 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "hhang²³",
+        "surface": "hhang2",
         "ipa": "ɦɑ̃˨˧",
         "label": "行走 (walk)"
       }
@@ -25976,7 +25982,7 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "hhang²³",
+        "surface": "hhang2",
         "ipa": "ɦɑ̃˨˧",
         "label": "行業 (trade/business)"
       }
@@ -26416,14 +26422,14 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "ji²³",
-        "ipa": "tɕi˨˧",
+        "surface": "ji5",
+        "ipa": "tɕi˧˥",
         "label": "白讀 (see)"
       },
       {
         "native": "",
-        "surface": "ji⁵³",
-        "ipa": "tɕi˥˧",
+        "surface": "ji5",
+        "ipa": "tɕi˧˥",
         "label": "文讀 (meet/visit)"
       }
     ],
@@ -26594,13 +26600,13 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "zeq¹²",
+        "surface": "zeq8",
         "ipa": "zəʔ˩˨",
         "label": "白讀 (eat)"
       },
       {
         "native": "",
-        "surface": "seq⁵⁵",
+        "surface": "seq7",
         "ipa": "səʔ˥˥",
         "label": "文讀 (food)"
       }
@@ -26616,13 +26622,13 @@ const HAN_VARIANTS = {
     "wuu_nb": [
       {
         "native": "",
-        "surface": "zeq²¹³",
+        "surface": "zeq8",
         "ipa": "zəʔ˨˩˧",
         "label": "白讀 (eat)"
       },
       {
         "native": "",
-        "surface": "seq⁵⁵",
+        "surface": "seq7",
         "ipa": "səʔ˥˥",
         "label": "文讀 (food)"
       }
@@ -26630,13 +26636,13 @@ const HAN_VARIANTS = {
     "wuu_hz": [
       {
         "native": "",
-        "surface": "zeq²¹³",
+        "surface": "zeq8",
         "ipa": "zəʔ˨˩˧",
         "label": "白讀 (eat)"
       },
       {
         "native": "",
-        "surface": "seq⁵⁵",
+        "surface": "seq7",
         "ipa": "səʔ˥˥",
         "label": "文讀 (food)"
       }
@@ -26644,13 +26650,13 @@ const HAN_VARIANTS = {
     "wuu_jx": [
       {
         "native": "",
-        "surface": "zeq²¹³",
+        "surface": "zeq8",
         "ipa": "zəʔ˨˩˧",
         "label": "白讀 (eat)"
       },
       {
         "native": "",
-        "surface": "seq⁵⁵",
+        "surface": "seq7",
         "ipa": "səʔ˥˥",
         "label": "文讀 (food)"
       }

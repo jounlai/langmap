@@ -11560,6 +11560,7 @@ const HAN_DATA = {
   },
   "見": {
     "surface": {
+      "wuu": "ci5",
       "nan": "kìⁿ",
       "zh": "jiàn",
       "zh_tw": "jiàn",
@@ -11647,6 +11648,7 @@ const HAN_DATA = {
       "nan_hai": "kien3"
     },
     "ipa": {
+      "wuu": "tɕi˧˥",
       "zh": "t͡ɕjɛn˥˩",
       "zh_tw": "t͡ɕjɛn˥˩",
       "zh_db": "tɕiɛn˥˧",
@@ -20403,20 +20405,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_te": [
-      {
-        "native": "",
-        "surface": "poih4",
-        "ipa": "poiʔ˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "pôih4",
-        "ipa": "poiʔ˨˩",
-        "label": "文讀"
-      }
-    ],
     "nan_hai": [
       {
         "native": "",
@@ -23685,20 +23673,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "wuu": [
-      {
-        "native": "",
-        "surface": "moq8",
-        "ipa": "moʔ˩˨",
-        "label": "白讀 (eye)"
-      },
-      {
-        "native": "",
-        "surface": "moq8",
-        "ipa": "moʔ˩˨",
-        "label": "文讀 (item/entry)"
-      }
-    ],
     "ja": [
       {
         "native": "ボク",
@@ -24276,14 +24250,14 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "xyuoq7",
-        "ipa": "ɕyɪʔ˥˥",
+        "surface": "shioq7",
+        "ipa": "ɕioʔ˥˥",
         "label": "白讀"
       },
       {
         "native": "",
-        "surface": "xyeq7",
-        "ipa": "ɕiɪʔ˥˥",
+        "surface": "shiuq7",
+        "ipa": "ɕyəʔ˥˥",
         "label": "文讀"
       }
     ],
@@ -24653,20 +24627,6 @@ const HAN_VARIANTS = {
         "surface": "siōng",
         "ipa": "siɔŋ˨˩",
         "label": "文讀"
-      }
-    ],
-    "wuu": [
-      {
-        "native": "",
-        "surface": "zang6",
-        "ipa": "zaŋ˨˧",
-        "label": "白讀 (上去)"
-      },
-      {
-        "native": "",
-        "surface": "zang6",
-        "ipa": "zaŋ˨˧",
-        "label": "文讀 (上聲)"
       }
     ],
     "yue": [
@@ -26467,20 +26427,6 @@ const HAN_VARIANTS = {
         "surface": "kiàn",
         "ipa": "kian˨˩",
         "label": "文讀"
-      }
-    ],
-    "wuu": [
-      {
-        "native": "",
-        "surface": "ci5",
-        "ipa": "tɕi˧˥",
-        "label": "白讀 (see)"
-      },
-      {
-        "native": "",
-        "surface": "ci5",
-        "ipa": "tɕi˧˥",
-        "label": "文讀 (meet/visit)"
       }
     ],
     "ja": [

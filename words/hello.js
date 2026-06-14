@@ -1040,7 +1040,7 @@ WORDS.hello = {
     szy: ["marayas", "maɾajas"],
     ssf: ["ya", "ja"],
     hak_tw: ["你好", "ŋi˩˩ ho˧˩"],
-    wuu_sz: ["你好", "nᴇ˨˧ hæ˥˩"],
+    wuu_sz: ["倷好", "nᴇ˨˧ hæ˥˩"],
     wuu_wz: ["你好", "ŋ˧˩hau˧˥"],
     nan_qz: ["汝好", "li˧˥ho˧˥"],
     nan_hai: ["汝好", "li˨˩˧ho˨˩˧"],

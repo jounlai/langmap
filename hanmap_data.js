@@ -279,7 +279,7 @@ const HAN_DATA = {
       "yue_zs": "jɐt̚˥˥",
       "wuu": "ɪʔ˥˥",
       "wuu_nb": "iəʔ˦˧",
-      "wuu_sz": "iɪʔ˥˥",
+      "wuu_sz": "iəʔ˦˧",
       "wuu_wz": "ji˨˩˧",
       "wuu_hz": "iɪʔ˥˥",
       "wuu_jx": "iɪʔ˥˥",
@@ -1575,7 +1575,7 @@ const HAN_DATA = {
       "mnp": "tsʰiʔ˦˥",
       "wuu": "tɕʰɪʔ˥˥",
       "wuu_nb": "tsʰiʔ˥˥",
-      "wuu_sz": "tsʰiɪʔ˦˧",
+      "wuu_sz": "tsʰiəʔ˦˧",
       "wuu_wz": "tsʰei˨˩˧",
       "wuu_hz": "tsʰiʔ˥˥",
       "wuu_jx": "tsʰiɪʔ˥˥",
@@ -7135,7 +7135,6 @@ const HAN_DATA = {
       "mnp": "nǐ",
       "wuu": "er6",
       "wuu_nb": "er6",
-      "wuu_sz": "er6",
       "wuu_wz": "ngai³¹",
       "wuu_hz": "er6",
       "wuu_jx": "er6",
@@ -7243,7 +7242,6 @@ const HAN_DATA = {
       "mnp": "ni˧˩",
       "wuu": "ɦɚ˨˧",
       "wuu_nb": "ɦɚ˨˩˧",
-      "wuu_sz": "ɦəl˨˧˩",
       "wuu_wz": "ŋai˧˩",
       "wuu_hz": "ɦɚ˨˩˧",
       "wuu_jx": "ɦɚ˨˧",
@@ -10685,7 +10683,6 @@ const HAN_DATA = {
       "mnp": "hâing",
       "wuu": "ghaon2",
       "wuu_nb": "ghaon2",
-      "wuu_sz": "ghan2",
       "wuu_wz": "hha³¹",
       "wuu_hz": "ghaon2",
       "wuu_jx": "ghaon2",
@@ -10801,7 +10798,6 @@ const HAN_DATA = {
       "mnp": "haiŋ˧˧",
       "wuu": "ɦɑ̃˨˧",
       "wuu_nb": "ɦɑ̃˨˩˧",
-      "wuu_sz": "ɦã˨˨˧",
       "wuu_wz": "ɦa˧˩",
       "wuu_hz": "ɦɑ̃˨˩˧",
       "wuu_jx": "ɦɑ̃˨˧",
@@ -11734,7 +11730,6 @@ const HAN_DATA = {
       "mnp": "āng",
       "wuu": "ven2",
       "wuu_nb": "ven2",
-      "wuu_sz": "ven2",
       "wuu_wz": "vang³¹",
       "wuu_hz": "ven2",
       "wuu_jx": "ven2",
@@ -11838,7 +11833,6 @@ const HAN_DATA = {
       "mnp": "aŋ˧˧",
       "wuu": "vən˨˧",
       "wuu_nb": "vəŋ˨˩˧",
-      "wuu_sz": "vən˨˨˧",
       "wuu_wz": "vaŋ˧˩",
       "wuu_hz": "vən˨˩",
       "wuu_jx": "vən˨˨",
@@ -15118,13 +15112,15 @@ const HAN_LANG_META = {
       "sw": "Wu ya Suzhou ni kiwango cha fasihi na opera cha Wu ya kaskazini, maarufu kupitia opera ya Kunqu (muziki wa kifahari wa enzi ya Ming). Inachukuliwa kuwa lahja ya Wu 'laini' zaidi, yenye mstari wa melodia laini na wa kupendeza. Inahifadhi kikamilifu sauti za kwanza za sauti za Kichina cha Kati, ina mfumo wa toni 7, na mstari wa melodia wa ustadi mkubwa."
     },
     "sources": [
+      "汪平 (1996 蘇州方言語音研究, 2011 蘇州方言研究)",
+      "葉祥苓 (1993 蘇州方言詞典, 1988 蘇州方言志)",
+      "Wugniu.com",
       "Wiktionary (Suzhou Wu)",
-      "蘇州方言詞典"
     ],
     "romanization": {
-      "name": "Suzhou Romanisation",
-      "authority": "Wang Ping & Suzhou linguistic society",
-      "year": 1991
+      "name": "Wugniu",
+      "authority": "Wugniu.com",
+      "year": "~2016"
     },
     "speakers": "約700万人 (蘇州市域・太湖片)",
     "speakersSource": "Wikipedia (英語版「Suzhou dialect」, 2026-05-30閲覧)"
@@ -21004,14 +21000,14 @@ const HAN_VARIANTS = {
     "wuu_sz": [
       {
         "native": "",
-        "surface": "zeq8",
-        "ipa": "zəʔ˨˧",
+        "surface": "gniq8",
+        "ipa": "ȵiəʔ˨˧",
         "label": "白讀 (sun/day)"
       },
       {
         "native": "",
-        "surface": "gniq8",
-        "ipa": "ȵiəʔ˨˧",
+        "surface": "zeq8",
+        "ipa": "zəʔ˨˧",
         "label": "文讀"
       }
     ],
@@ -21218,7 +21214,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "ngeq8",
         "ipa": "ŋəʔ˨˧",
-        "label": "白讀 (moon/month)"
+        "label": "白讀"
       },
       {
         "native": "",
@@ -23942,6 +23938,20 @@ const HAN_VARIANTS = {
         "ipa": "ni˨˩",
         "label": "文讀"
       }
+    ],
+    "wuu_sz": [
+      {
+        "native":"",
+        "surface": "gni6",
+        "ipa": "ɲi˨˧˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "er6",
+        "ipa": "əl˨˧˩",
+        "label": "文讀"
+      }
     ]
   },
   "口": {
@@ -25751,6 +25761,20 @@ const HAN_VARIANTS = {
         "label": "行走 (walk)"
       }
     ],
+    "wuu_sz": [
+      {
+        "native": "",
+        "surface": "ghan2",
+        "ipa": "ɦã˨˨˧",
+        "label": "白讀",
+      },
+      {
+        "native": "",
+        "surface": "yin2",
+        "ipa": "ɦin˨˨˧",
+        "label": "文讀：行動"
+      }
+    ],
     "cdo": [
       {
         "native": "",
@@ -26584,15 +26608,9 @@ const HAN_VARIANTS = {
     "wuu_sz": [
       {
         "native": "",
-        "surface": "zeq²³",
+        "surface": "zeq8",
         "ipa": "zəʔ˨˧",
-        "label": "白讀 (eat)"
-      },
-      {
-        "native": "",
-        "surface": "seq⁴",
-        "ipa": "səʔ˦˧",
-        "label": "文讀 (food)"
+        "label": ""
       }
     ],
     "wuu_nb": [
@@ -27408,6 +27426,20 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bun⁵",
         "ipa": "bun˨˦",
+        "label": "文讀"
+      }
+    ],
+    "wuu_sz": [
+      {
+        "native": "",
+        "surface": "men2",
+        "ipa": "mən˨˨˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ven2",
+        "ipa": "vən˨˨˧",
         "label": "文讀"
       }
     ]

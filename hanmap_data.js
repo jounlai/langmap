@@ -15175,8 +15175,8 @@ const HAN_LANG_META = {
       "溫州方言詞典"
     ],
     "romanization": {
-      "name": "Wenzhou Pinyin (温州话拼音)",
-      "authority": "Wenzhou University & 鄭張尚芳",
+      "name": "Wenzhou romanization (調值 tone-value)",
+      "authority": "鄭張尚芳 / Wenzhou University (温州话拼音 base)",
       "year": 1990
     },
     "speakers": "約500万人 (温州語・甌江片)",
@@ -15344,7 +15344,7 @@ const HAN_LANG_META = {
       "金華方言研究"
     ],
     "romanization": {
-      "name": "Jinhua IPA",
+      "name": "Jinhua romanization (調值 tone-value)",
       "authority": "Zhejiang Normal University",
       "year": 1992
     },

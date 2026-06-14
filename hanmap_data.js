@@ -20992,7 +20992,7 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "niq8",
+        "surface": "gniq8",
         "ipa": "ȵiɪʔ˩˨",
         "label": "白讀 (sun/day)"
       },
@@ -21020,7 +21020,7 @@ const HAN_VARIANTS = {
     "wuu_nb": [
       {
         "native": "",
-        "surface": "nyiq8",
+        "surface": "gniq8",
         "ipa": "ȵiɪʔ˨˩˧",
         "label": "白讀 (sun/day)"
       },
@@ -21034,7 +21034,7 @@ const HAN_VARIANTS = {
     "wuu_hz": [
       {
         "native": "",
-        "surface": "nyiq8",
+        "surface": "gniq8",
         "ipa": "ȵiɪʔ˨˩˧",
         "label": "白讀 (sun/day)"
       },
@@ -21048,7 +21048,7 @@ const HAN_VARIANTS = {
     "wuu_jx": [
       {
         "native": "",
-        "surface": "nyiq8",
+        "surface": "gniq8",
         "ipa": "ȵiɪʔ˨˩˧",
         "label": "白讀 (sun/day)"
       },
@@ -21204,13 +21204,13 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "hhyuoq8",
+        "surface": "yuoq8",
         "ipa": "ɦyɪʔ˩˨",
         "label": "白讀 (moon/month)"
       },
       {
         "native": "",
-        "surface": "hhyeq8",
+        "surface": "yeq8",
         "ipa": "ɦiɪʔ˩˨",
         "label": "文讀"
       }
@@ -21232,13 +21232,13 @@ const HAN_VARIANTS = {
     "wuu_nb": [
       {
         "native": "",
-        "surface": "hhyuoq8",
+        "surface": "yuoq8",
         "ipa": "ɦyɪʔ˨˩˧",
         "label": "白讀 (moon/month)"
       },
       {
         "native": "",
-        "surface": "hhyeq8",
+        "surface": "yeq8",
         "ipa": "ɦiɪʔ˨˩˧",
         "label": "文讀"
       }
@@ -21246,13 +21246,13 @@ const HAN_VARIANTS = {
     "wuu_hz": [
       {
         "native": "",
-        "surface": "hhyuoq8",
+        "surface": "yuoq8",
         "ipa": "ɦyɪʔ˨˩˧",
         "label": "白讀 (moon/month)"
       },
       {
         "native": "",
-        "surface": "hhyeq8",
+        "surface": "yeq8",
         "ipa": "ɦiɪʔ˨˩˧",
         "label": "文讀"
       }
@@ -21260,13 +21260,13 @@ const HAN_VARIANTS = {
     "wuu_jx": [
       {
         "native": "",
-        "surface": "hhyuoq8",
+        "surface": "yuoq8",
         "ipa": "ɦyɪʔ˨˩˧",
         "label": "白讀 (moon/month)"
       },
       {
         "native": "",
-        "surface": "hhyeq8",
+        "surface": "yeq8",
         "ipa": "ɦiɪʔ˨˩˧",
         "label": "文讀"
       }
@@ -23218,7 +23218,7 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "nyin2",
+        "surface": "gnin2",
         "ipa": "ɲin˨˧",
         "label": "白讀"
       },
@@ -25762,7 +25762,7 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "hhang2",
+        "surface": "ghang2",
         "ipa": "ɦɑ̃˨˧",
         "label": "行走 (walk)"
       }
@@ -25982,7 +25982,7 @@ const HAN_VARIANTS = {
     "wuu": [
       {
         "native": "",
-        "surface": "hhang2",
+        "surface": "ghang2",
         "ipa": "ɦɑ̃˨˧",
         "label": "行業 (trade/business)"
       }

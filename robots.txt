@@ -8,5 +8,8 @@ Disallow: /__pycache__/
 # Internal documentation — also noindex'd via meta tag.
 Disallow: /changelog.html
 
+# SEO big-text pages (sitemap-seo.xml) are intentionally NOT declared here —
+# discovery is left to organic internal-link crawling (footer → /en/wordmap/
+# index → hreflang) rather than bulk-submitting 18k URLs. The file still exists
+# at /sitemap-seo.xml if ever needed.
 Sitemap: https://langmap.heuron.com/sitemap.xml
-Sitemap: https://langmap.heuron.com/sitemap-seo.xml

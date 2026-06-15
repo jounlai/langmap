@@ -1514,6 +1514,20 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }
 </style>
+<?php /* Production-only GA4 firing: hostname-gated so dev/local/staging traffic
+         doesn't pollute the analytics property (same config as the interactive maps). */ ?>
+<script>
+  if (location.hostname === 'langmap.heuron.com') {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JZ7JJBCCHG');
+  }
+</script>
 </head>
 <body>
 <?php seo_lang_ui($ui, $altPath); ?>

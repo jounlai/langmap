@@ -160,10 +160,10 @@
             font-display: swap;
             src: url('fonts/NotoSerifKR-OldHangul-hanmap.woff2') format('woff2');
             unicode-range:
-                U+1105, U+1109, U+1112, U+1140, U+114C, U+1159,
-                U+1163, U+1165, U+1169, U+116E, U+116F, U+1173,
-                U+1175, U+118E, U+1191, U+1194, U+119E, U+11A1,
-                U+11A8, U+11AB, U+11B7, U+11BC, U+11D9;
+                U+1105, U+1109, U+1112, U+1140, U+114C, U+1158,
+                U+1159, U+1161, U+1163, U+1167, U+1169, U+116E,
+                U+116F, U+1173, U+1175, U+1191, U+1194, U+119E,
+                U+11A1, U+11A8, U+11AB, U+11B7, U+11BC, U+11D9;
         }
         /* Hanmap-only Chữ Nôm (字喃) extension. The existing 'Nom Serif
            Subset' family (top of file) was sized for wordmap's 24 Nôm
@@ -188,12 +188,12 @@
             src: url('fonts/NomNaTong-hanmap.woff2') format('woff2');
             unicode-range:
                 U+3D1C, U+5766, U+771C, U+8012, U+8710, U+8E4E, U+982D,
-                U+20027, U+20051, U+200E9, U+20129, U+2013C, U+2029B,
-                U+2029D, U+2052D, U+20AFE, U+20C18, U+213A2, U+21D80,
-                U+22102, U+226B8, U+22B23, U+22D67, U+2321C, U+2421C,
-                U+247BB, U+25A9D, U+26271, U+2629A, U+264B9, U+26591,
-                U+26744, U+2693E, U+27370, U+275B1, U+2784A, U+27F0B,
-                U+28492, U+2856D, U+296D6, U+29D5C;
+                U+20027, U+20051, U+200E9, U+20129, U+2013C, U+2029B, U+204E8,
+                U+2052D, U+20AFE, U+20B20, U+20C18, U+2139C, U+213A2, U+21419,
+                U+215F6, U+21D80, U+22102, U+22D67, U+2321C, U+23603, U+2466D,
+                U+26271, U+2629A, U+26352, U+264B9, U+26591, U+265BB, U+266CC,
+                U+26744, U+2693E, U+27370, U+275B1, U+2784A, U+27CAB, U+27F0B,
+                U+281DC, U+28492, U+2856D, U+296D6, U+29D5C, U+2AB8F, U+2C0FB;
         }
         @font-face {
             font-family: 'Nom Serif Hanmap Subset';
@@ -676,7 +676,7 @@
                    matching short-circuits to them before the wordmap-shared
                    subsets (which lack hanmap's extra Dongguk-Jeongun jamo
                    and Chữ Nôm Ext-B/C codepoints):
-                   - Noto Serif KR Hanmap Old Jamo: 23 hanmap ko_mid
+                   - Noto Serif KR Hanmap Old Jamo: 24 hanmap ko_mid
                      conjoining jamo (ᄅ ᄉ ᅙ ᆨ ᆫ ᆼ ᇙ …) missing from
                      the wordmap subset.
                    - Nom Serif Hanmap Subset: 44 Chữ Nôm chars missing
@@ -1035,7 +1035,7 @@
                    Hanmap-specific subsets listed FIRST so the per-codepoint
                    cascade resolves them before the smaller wordmap-shared
                    subsets:
-                   - Noto Serif KR Hanmap Old Jamo: 23 ko_mid jamo for
+                   - Noto Serif KR Hanmap Old Jamo: 24 ko_mid jamo for
                      Dongguk-Jeongun (the wordmap subset only has 11).
                    - Nom Serif Hanmap Subset: 44 Chữ Nôm chars across
                      CJK Ext A/B/C (NomNaTong + HanaMinB + HanaMinExC).

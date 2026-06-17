@@ -848,7 +848,7 @@ WORDS.one = {
     dsb: ["jaden", "ˈjadɛn"],
     gv: ["nane", "næn"],
     kw: ["onen", "ˈɔnən"],
-    zza: ["jew", "d͡ʒɛw"],
+    zza: ["yew", "jɛw"],
     brh: ["اسٹ", "asiʈ"],
     mrq: ["tahi", "tahi"],
     tiw: ["kanyili", "kaɲili"],

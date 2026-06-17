@@ -591,7 +591,7 @@ WORDS.good = {
     tn: ["siame", "siaːme"],
     st: ["monate", "monate"],
     ts: ["kahle", "kaɬe"],
-    ve: ["zwavhuḓi", "zwaʋʱuɖi"],
+    ve: ["zwavhuḓi", "zwavʱuɖi"],
     bem: ["chisuma", "tʃisuma"],
     kqn: ["kyawama", "kjawama"],
     lua: ["bimpe", "bimpe"],

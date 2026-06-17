@@ -10973,7 +10973,7 @@ const HAN_DATA = {
       "mnp": "ǒng",
       "wuu": "ghaon6",
       "wuu_nb": "ghaon6",
-      "wuu_sz": "ghaon6",
+      "wuu_sz": "ghaon2",
       "wuu_wz": "hho³¹",
       "wuu_hz": "ghaon6",
       "wuu_jx": "ghaon6",

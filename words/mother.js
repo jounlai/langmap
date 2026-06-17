@@ -818,7 +818,7 @@ WORDS.mother = {
     rhg: ["maa", "maː"],
     ctg: ["মা", "ma"],
     mag: ["माय", "maːj"],
-    doi: ["मां", "maː"],
+    doi: ["मां", "mãː"],
     xkk: ["mɔɔʔ", "mɔːʔ"],
     moh: ["iste", "iste"],
     cho: ["ishki", "iʃki"],

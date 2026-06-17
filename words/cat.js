@@ -196,7 +196,7 @@ WORDS.cat = {
     hmn: ["miv", "mi˨˦"],
     jv: ["kucing", "kutʃiŋ"],
     jvn: ["kucing", "kutʃiŋ"],
-    su: ["ucing", "utɕiŋ"],
+    su: ["ucing", "utʃiŋ"],
     ceb: ["iring", "iɾiŋ"],
     ilo: ["pusa", "pusa"],
     fj: ["pusi", "pusi"],

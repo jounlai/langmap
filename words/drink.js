@@ -1019,7 +1019,7 @@ WORDS.drink = {
     onw: ["ϫⲓ", "dʒi"],
     cqu: ["upyay", "upjaj"],
     omc: ["—", "—"],
-    chb: ["biohotysuca", "bjohoty"],
+    chb: ["biohotysuca", "bjohotɨsuka"],
     oma: ["minum", "minum"],
     osu: ["nginum", "ŋinum"],
     otl: ["ᜁᜈᜓᜋ᜔", "inom"],

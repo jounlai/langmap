@@ -837,7 +837,7 @@ WORDS.good = {
     meu: ["namo", "namo"],
     pon: ["mwahu", "mʷahu"],
     kos: ["wo", "wo"],
-    myz: ["ࡈࡀࡁࡀ", "ʈaba"],
+    myz: ["ࡈࡀࡁࡀ", "tˤaba"],
     vmw: ["ratteene", "ɾatːeːne"],
     dsb: ["dobry", "ˈdɔbrɨ"],
     gv: ["mie", "maɪ"],

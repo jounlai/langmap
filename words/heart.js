@@ -1019,7 +1019,7 @@ WORDS.heart = {
     onw: ["ⲉⲓⲡ", "eip"],
     cqu: ["sunqu", "suŋqu"],
     omc: ["polæng", "polæŋ"],
-    chb: ["puyquy", "pujkʷy"],
+    chb: ["puyquy", "pujkʷɨ"],
     oma: ["hati", "hati"],
     osu: ["hate", "hate"],
     otl: ["ᜉᜓᜐᜓ", "puso"],

@@ -683,7 +683,7 @@ WORDS.moon = {
     tvl: ["masina", "masina"],
     rap: ["mahina", "mahina"],
     rar: ["marama", "marama"],
-    mh: ["aḷḷōñ", "alˠːənˤ"],
+    mh: ["aḷḷōñ", "alˠːəŋ"],
     gil: ["namwakaina", "namʷakaina"],
     ch: ["pulan", "pulan"],
     tet: ["fulan", "fulan"],

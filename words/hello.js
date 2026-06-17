@@ -583,7 +583,7 @@ WORDS.hello = {
     ebu: ["mwega", "mweɡa"],
     tn: ["dumela", "dumeːla"],
     st: ["dumela", "dumɛla"],
-    ts: ["avuxeni", "aβuʃeni"],
+    ts: ["avuxeni", "avuʃeni"],
     ve: ["ndaa", "ndaː"],
     bem: ["muli shani", "muli ʃani"],
     kqn: ["mwapoñai", "mwapoɲai"],

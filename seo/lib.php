@@ -1513,6 +1513,19 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 1.15rem;
   font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP", "Noto Serif SC",
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }
+/* Narrow screens: keep each language's segments on a single line and let the
+   whole block scroll horizontally instead of wrapping. Wrapping is what tangled
+   the SVG connectors; on one line they stay clean diagonals. The block becomes
+   the scroll container and the SVG is sized to its scrollWidth in JS so the
+   connectors scroll in lockstep with the rows. */
+@media (max-width: 560px) {
+  .seo-cmp-wo .ex-wo-block { overflow-x: auto; overflow-y: hidden; }
+  .seo-cmp-wo .cmp-wo-row { grid-template-columns: minmax(5rem, max-content) max-content;
+    gap: .5rem .8rem; }
+  .seo-cmp-wo .cmp-wo-name { font-size: .82rem; }
+  .seo-cmp-wo .cmp-wo-segs { white-space: nowrap; }
+  .seo-cmp-wo .cmp-wo-segs .wo-seg { margin-right: .7rem; margin-bottom: 0; font-size: 1.05rem; }
+}
 </style>
 <?php /* Production-only GA4 firing: hostname-gated so dev/local/staging traffic
          doesn't pollute the analytics property (same config as the interactive maps). */ ?>
@@ -2357,11 +2370,18 @@ function seo_comparisons(string $map, string $code, string $ui,
       svg.textContent = '';
       var vis = null;
       el.querySelectorAll('.ex-wo-sent, .ex-wo-lazy').forEach(function (n) { if (!n.hidden) vis = n; });
-      var W = el.clientWidth, H = el.clientHeight;
+      // Size to the SCROLL extent, not the visible box: on narrow screens the
+      // block scrolls horizontally, so the SVG must span the full content width
+      // (and scroll with it) or the connectors get clipped at the viewport edge.
+      var W = el.scrollWidth, H = el.scrollHeight;
       svg.setAttribute('width', W); svg.setAttribute('height', H);
       svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+      svg.style.width = W + 'px'; svg.style.height = H + 'px';
       if (!vis) return;
       var base = el.getBoundingClientRect();
+      // Coordinates relative to the scroll content origin (add current scroll
+      // offset) so connectors stay correct regardless of scroll position.
+      var sx = el.scrollLeft, sy = el.scrollTop;
       var rows = [];
       vis.querySelectorAll('.cmp-wo-row').forEach(function (row) {
         var m = {};
@@ -2369,8 +2389,8 @@ function seo_comparisons(string $map, string $code, string $ui,
           var role = s.getAttribute('data-seg'); if (!role) return;
           var r = s.getBoundingClientRect();
           (m[role] = m[role] || []).push({
-            x: r.left + r.width / 2 - base.left,
-            bottom: r.bottom - base.top, top: r.top - base.top,
+            x: r.left + r.width / 2 - base.left + sx,
+            bottom: r.bottom - base.top + sy, top: r.top - base.top + sy,
             color: getComputedStyle(s).color || '#999'
           });
         });

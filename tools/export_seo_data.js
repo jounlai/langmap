@@ -110,7 +110,15 @@ function buildWordOrder() {
         const role = p[0] != null ? String(p[0]) : '';
         const text = p[1] != null ? String(p[1]) : '';
         if (text === '') continue;
-        const color = (segMap[role] && segMap[role].color) || '';
+        // A segment may carry a compound role like "A|E" (it fills two slots).
+        // segMap is keyed by single role letters, so resolve the colour from the
+        // first sub-role that has one — matching the main app's split('|') logic.
+        let color = (segMap[role] && segMap[role].color) || '';
+        if (color === '' && role.indexOf('|') !== -1) {
+          for (const r of role.split('|')) {
+            if (segMap[r] && segMap[r].color) { color = segMap[r].color; break; }
+          }
+        }
         segs.push([role, text, color]);
       }
       if (!segs.length) continue;

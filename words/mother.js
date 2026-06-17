@@ -188,7 +188,7 @@ WORDS.mother = {
     cnd: ["ami", "ami"],
     ii: ["ꀊꂿ", "a˧˧mo˧˧"],
     azo: ["amo", "amo˧˧"],
-    hni: ["amal", "amal"],
+    hni: ["amal", "ama˥˥"],
     th_isan: ["แม่", "mɛː˥˩"],
     th_n: ["แม่", "mɛː˥˩"],
     th_s: ["แม่", "mɛː˥˩"],

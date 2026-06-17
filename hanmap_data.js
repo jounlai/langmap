@@ -23118,7 +23118,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lâng",
         "ipa": "laŋ˨˦",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23132,7 +23132,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lâng",
         "ipa": "laŋ˨˦",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23146,7 +23146,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "nang5",
         "ipa": "naŋ˥˥",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23160,7 +23160,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lâng",
         "ipa": "laŋ˨˦",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23174,7 +23174,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lâng",
         "ipa": "laŋ˨˦",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23188,7 +23188,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lâng",
         "ipa": "laŋ˩˧",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23286,7 +23286,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lâng",
         "ipa": "laŋ˨˧",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23300,7 +23300,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lâng",
         "ipa": "laŋ˨˦",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23314,7 +23314,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lâng",
         "ipa": "laŋ˨˦",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23328,7 +23328,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lang⁵",
         "ipa": "laŋ˨˦",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23342,7 +23342,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "nang5",
         "ipa": "naŋ˥˥",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -23356,7 +23356,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "nang4",
         "ipa": "naŋ˥",
-        "label": "白讀"
+        "label": "訓讀（儂）"
       },
       {
         "native": "",
@@ -24408,7 +24408,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah",
         "ipa": "baʔ˦",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -24436,7 +24436,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah",
         "ipa": "baʔ˧˨",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -24450,7 +24450,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah",
         "ipa": "baʔ˦",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -24464,7 +24464,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah",
         "ipa": "baʔ˦˩",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -24478,7 +24478,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah",
         "ipa": "baʔ˩˨˩",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -24492,7 +24492,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah",
         "ipa": "baʔ˦",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -24506,7 +24506,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah",
         "ipa": "baʔ˦",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -24520,7 +24520,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah",
         "ipa": "baʔ˦",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -24534,7 +24534,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bah⁵",
         "ipa": "baʔ˥",
-        "label": "白讀"
+        "label": "訓讀（本字未詳）"
       },
       {
         "native": "",
@@ -26634,7 +26634,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lim",
         "ipa": "lim˥˧",
-        "label": "白讀"
+        "label": "訓讀（啉）"
       },
       {
         "native": "",
@@ -26662,7 +26662,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lim",
         "ipa": "lim˧",
-        "label": "白讀"
+        "label": "訓讀（啉）"
       },
       {
         "native": "",
@@ -26676,7 +26676,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lim",
         "ipa": "lim˦",
-        "label": "白讀"
+        "label": "訓讀（啉）"
       },
       {
         "native": "",
@@ -26690,7 +26690,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lim",
         "ipa": "lim˦",
-        "label": "白讀"
+        "label": "訓讀（啉）"
       },
       {
         "native": "",
@@ -26704,7 +26704,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lim",
         "ipa": "lim˦",
-        "label": "白讀"
+        "label": "訓讀（啉）"
       },
       {
         "native": "",
@@ -26718,7 +26718,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lim",
         "ipa": "lim˦",
-        "label": "白讀"
+        "label": "訓讀（啉）"
       },
       {
         "native": "",
@@ -26732,7 +26732,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lim",
         "ipa": "lim˦",
-        "label": "白讀"
+        "label": "訓讀（啉）"
       },
       {
         "native": "",
@@ -26746,7 +26746,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lim³",
         "ipa": "lim˦",
-        "label": "白讀"
+        "label": "訓讀（啉）"
       },
       {
         "native": "",
@@ -27168,7 +27168,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phīⁿ",
         "ipa": "pʰĩ˨˩",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27182,7 +27182,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phīⁿ",
         "ipa": "pʰĩ˨˩",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27196,7 +27196,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phīⁿ",
         "ipa": "pʰĩ˨˩",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27210,7 +27210,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phīⁿ",
         "ipa": "pʰĩ˨˩",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27224,7 +27224,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phīⁿ",
         "ipa": "pʰĩ˨˨",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27238,7 +27238,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phīⁿ",
         "ipa": "pʰĩ˨˩",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27252,7 +27252,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phĩ6",
         "ipa": "pʰĩ˧˥",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27266,7 +27266,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phĩ6",
         "ipa": "pʰĩ˧˥",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27280,7 +27280,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phīⁿ",
         "ipa": "pʰĩ˨˩",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",
@@ -27294,7 +27294,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "phi³",
         "ipa": "pʰĩ˦",
-        "label": "白讀"
+        "label": "訓讀（鼻）"
       },
       {
         "native": "",

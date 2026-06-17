@@ -11622,7 +11622,7 @@ const SENTENCES = [
           "הוּא"
         ],
         [
-          "B",
+          "A|B",
           "שְׁמִי"
         ],
         [
@@ -60625,16 +60625,16 @@ const SENTENCES = [
           "Ju lutem"
         ],
         [
+          "B",
+          "më"
+        ],
+        [
           "D",
           "jepni"
         ],
         [
-          "B",
-          "një"
-        ],
-        [
           "F",
-          "gotë"
+          "një gotë"
         ],
         [
           "C",
@@ -60714,7 +60714,7 @@ const SENTENCES = [
         ],
         [
           "F",
-          "iko mmiri"
+          "iko"
         ],
         [
           "C",
@@ -143651,8 +143651,12 @@ const SENTENCES = [
           "ahau"
         ],
         [
-          "E",
-          "ki te kai tūhī"
+          "C",
+          "ki te kai"
+        ],
+        [
+          "B",
+          "tūhī"
         ],
         [
           "D",
@@ -143669,8 +143673,12 @@ const SENTENCES = [
           "au"
         ],
         [
-          "E",
-          "e ʻai i ka sushi"
+          "C",
+          "e ʻai"
+        ],
+        [
+          "B",
+          "i ka sushi"
         ],
         [
           "D",
@@ -152611,8 +152619,12 @@ const SENTENCES = [
           "talk"
         ],
         [
+          "D",
+          "slower"
+        ],
+        [
           "B",
-          "slower a bit can"
+          "a bit can"
         ]
       ],
       "hwc": [
@@ -154190,6 +154202,10 @@ const SENTENCES = [
         ],
         [
           "B",
+          "plus"
+        ],
+        [
+          "D",
           "doucement"
         ]
       ],
@@ -154293,8 +154309,12 @@ const SENTENCES = [
           "อู้"
         ],
         [
+          "D",
+          "จ๊ะๆ"
+        ],
+        [
           "B",
-          "จ๊ะๆ หน่อย"
+          "หน่อย"
         ]
       ],
       "th_s": [
@@ -157878,7 +157898,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "디난 ᄃᆞᆯ에"
+          "디난"
+        ],
+        [
+          "D",
+          "ᄃᆞᆯ에"
         ],
         [
           "B",
@@ -177939,12 +177963,8 @@ const SENTENCES = [
       ],
       "pl": [
         [
-          "D",
-          "Czy"
-        ],
-        [
-          "F",
-          "wie"
+          "E",
+          "Czy wie"
         ],
         [
           "A",
@@ -177955,7 +177975,7 @@ const SENTENCES = [
           "gdzie"
         ],
         [
-          "E",
+          "D",
           "jest"
         ],
         [
@@ -275827,8 +275847,12 @@ const SENTENCES = [
           "terlambat"
         ],
         [
+          "E",
+          "teka"
+        ],
+        [
           "D",
-          "teka menyang rapat"
+          "menyang rapat"
         ]
       ],
       "bn": [
@@ -290989,7 +291013,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "zarýad bermeli"
+          "zarýad ber"
+        ],
+        [
+          "D",
+          "‌meli"
         ]
       ],
       "cdo": [
@@ -303167,8 +303195,12 @@ const SENTENCES = [
           "дар толори варзиш"
         ],
         [
+          "E",
+          "ҳафтае"
+        ],
+        [
           "C",
-          "ҳафтае се маротиба"
+          "се маротиба"
         ],
         [
           "D",
@@ -304126,7 +304158,7 @@ const SENTENCES = [
           "這裏"
         ],
         [
-          "E",
+          "G",
           "麼"
         ]
       ],
@@ -306930,7 +306962,7 @@ const SENTENCES = [
           "此"
         ],
         [
-          "E",
+          "G",
           "乎"
         ]
       ],
@@ -307999,12 +308031,8 @@ const SENTENCES = [
           "편지를"
         ],
         [
-          "D",
-          "썼"
-        ],
-        [
-          "E",
-          "‌다"
+          "D|E",
+          "썼다"
         ]
       ],
       "zh": [
@@ -340904,7 +340932,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "আমি"
+          "আমার"
         ],
         [
           "D",
@@ -378360,8 +378388,12 @@ const SENTENCES = [
           "礼拜"
         ],
         [
+          "B",
+          "感冒"
+        ],
+        [
           "C",
-          "感冒了"
+          "了"
         ],
         [
           "F",
@@ -382809,8 +382841,12 @@ const SENTENCES = [
       ],
       "mi": [
         [
+          "D",
+          "Me"
+        ],
+        [
           "C",
-          "Me inu"
+          "inu"
         ],
         [
           "A",
@@ -383301,10 +383337,6 @@ const SENTENCES = [
         [
           "B",
           "wara"
-        ],
-        [
-          "E",
-          "moa"
         ]
       ],
       "el_grc": [
@@ -400020,7 +400052,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "намеря"
+          "да намеря"
         ],
         [
           "G",
@@ -420007,7 +420039,7 @@ const SENTENCES = [
       ],
       "chr": [
         [
-          "A",
+          "B",
           "ᎯᎠ"
         ],
         [
@@ -433663,7 +433695,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "обратитесѧ на десно"
+          "обратите сѧ на десно"
         ],
         [
           "C",
@@ -445252,12 +445284,8 @@ const SENTENCES = [
           "ayay"
         ],
         [
-          "A",
-          "xusuustani"
-        ],
-        [
-          "D",
-          "tahay"
+          "A|B",
+          "xusuustani tahay"
         ]
       ],
       "ha": [
@@ -446559,7 +446587,7 @@ const SENTENCES = [
       "rm": [
         [
           "C",
-          "Quantas"
+          "Quant"
         ],
         [
           "D",

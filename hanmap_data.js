@@ -19432,7 +19432,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "khiā",
         "ipa": "kʰia˨˩",
-        "label": "白讀"
+        "label": "訓讀（徛）"
       },
       {
         "native": "",
@@ -19446,7 +19446,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "khiā",
         "ipa": "kʰia˨˩",
-        "label": "白讀"
+        "label": "訓讀（徛）"
       },
       {
         "native": "",
@@ -19460,7 +19460,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "khiā",
         "ipa": "kʰia˨˩",
-        "label": "白讀"
+        "label": "訓讀（徛）"
       },
       {
         "native": "",
@@ -19474,7 +19474,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "khiā",
         "ipa": "kʰia˨˨",
-        "label": "白讀"
+        "label": "訓讀（徛）"
       },
       {
         "native": "",
@@ -19488,7 +19488,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "khiā",
         "ipa": "kʰia˨˩",
-        "label": "白讀"
+        "label": "訓讀（徛）"
       },
       {
         "native": "",
@@ -19502,7 +19502,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "khiā",
         "ipa": "kʰia˨˩",
-        "label": "白讀"
+        "label": "訓讀（徛）"
       },
       {
         "native": "",
@@ -19516,7 +19516,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "khia³",
         "ipa": "kʰia˦",
-        "label": "白讀"
+        "label": "訓讀（徛）"
       },
       {
         "native": "",

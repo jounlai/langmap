@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangMap - Changelog 2026-04</title>
+    <meta name="description" content="Running log of fixes, additions, and improvements to LangMap.">
+    <!-- Internal documentation page — kept out of search-engine indexes
+         (canonical content lives on index.html / wordmap.html / tree.html). -->
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://langmap.heuron.com/changelog.html">
+    <link rel="icon" type="image/png" href="/langmap.png">
+    <link rel="apple-touch-icon" href="/langmap.png">
+    <meta name="google-site-verification" content="bv4ffQGbDc_Grf1Ioc8NCotrXWc2mY34wEmL-5yHJyM" />
+    <script>
+        // Production-only GA firing: hostname-gated so dev/local/staging
+        // traffic doesn't pollute the analytics property.
+        if (location.hostname === 'langmap.heuron.com') {
+            const s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JZ7JJBCCHG');
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=107">
+    <link rel="stylesheet" href="styles.css?v=107">
+    <style>
+        .changelog {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 24px 20px 60px;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .changelog h1 {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+        .changelog .lead {
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .changelog .entry {
+            border-left: 3px solid #e0e0e0;
+            padding: 4px 0 4px 16px;
+            margin-bottom: 20px;
+        }
+        .changelog .entry .date {
+            font-weight: 600;
+            color: #333;
+        }
+        .changelog .entry ul {
+            margin: 6px 0 0;
+            padding-left: 20px;
+        }
+        .changelog .entry li {
+            margin-bottom: 4px;
+        }
+        .changelog .contributor {
+            color: #666;
+            font-size: 12px;
+        }
+        .changelog .back {
+            display: inline-block;
+            margin-bottom: 16px;
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .changelog .back:hover { text-decoration: underline; }
+        .changelog .milestones {
+            background: #f6f8fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 12px 16px;
+            margin: 0 0 28px;
+            font-size: 13px;
+        }
+        .changelog .milestones h2 {
+            font-size: 14px;
+            margin: 0 0 8px;
+            color: #333;
+        }
+        .changelog .milestones ul {
+            margin: 0;
+            padding-left: 18px;
+            list-style: none;
+        }
+        .changelog .milestones li {
+            margin-bottom: 2px;
+            color: #555;
+        }
+        .changelog .milestones .count {
+            display: inline-block;
+            min-width: 56px;
+            font-weight: 600;
+            color: #0366d6;
+        }
+        .changelog .milestones .when {
+            color: #999;
+            font-size: 12px;
+            margin-left: 4px;
+        }
+        .changelog .month-nav {
+            margin: 0 0 24px;
+            font-size: 13px;
+            color: #555;
+        }
+        .changelog .month-nav a { color: #0366d6; text-decoration: none; }
+        .changelog .month-nav a:hover { text-decoration: underline; }
+        .changelog .month-nav strong { color: #333; }
+    </style>
+</head>
+<body>
+    <div class="changelog">
+        <a href="index.html" class="back">&larr; Back to LangMap</a>
+        <h1>Changelog</h1>
+        <p class="lead">A running log of fixes, additions, and improvements to LangMap.</p>
+
+        <nav class="month-nav">Months: <a href="changelog.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <strong>2026-04</strong></nav>
+
+        <div class="entry">
+            <div class="date">2026-04-21 – 2026-04-24</div>
+            <ul>
+                <li>New: <strong>Word Map</strong> (<a href="wordmap.html">wordmap.html</a>) — an interactive world map showing 20 key words (water, fire, sun, mother, hello, etc.) in 226 languages with IPA pronunciations.</li>
+                <li>Zoomable/pannable 2D map using Leaflet with CartoDB Positron tiles and colored country fills.</li>
+                <li><strong>3D Globe mode</strong> — toggle between 2D map and an interactive 3D globe (globe.gl) with satellite imagery, atmosphere effects, and drag rotation.</li>
+                <li>Language info panel: click any label to see language family, speakers, countries, official status, script, description, and all 20 words.</li>
+                <li><strong>Full i18n</strong>: language descriptions translated into all 21 UI languages for all 226 languages. Meta attributes (family, countries, official, script) also translated for all UI languages. Word labels (20 words) translated for all UI languages.</li>
+                <li>Unified header across both pages with navigation (Word Order / Word Map) with icons, current page shown as bold text.</li>
+                <li>Unified zoom controls for 2D/3D, pill-style toggle buttons with animation, Modern/Historical radio switch.</li>
+                <li>Right-side control panel: Word/IPA/Name/Native toggles, vertical font size slider.</li>
+                <li>Mobile responsive: header, controls, info panel adapt to small screens.</li>
+                <li>SEO: OGP/Twitter Card meta tags, descriptive title, canonical URL.</li>
+                <li>Co-located languages (same coordinates) automatically stack vertically without overlap.</li>
+                <li>Vertical writing mode for Manchu (mnc) and Inner Mongolian (mn_cn) traditional scripts.</li>
+                <li>Constructed languages (Esperanto, Toki Pona, Klingon, Lojban) placed in the mid-Atlantic Ocean.</li>
+                <li>URL hash persistence for all settings (word, zoom, position, UI language, native/historical toggles, font size, 2D/3D mode).</li>
+                <li>Browser language auto-detection for UI language on first visit.</li>
+                <li>Converted Sumerian, Akkadian, Ancient Egyptian, and Gothic words from romanization to native scripts (cuneiform, hieroglyphs, Gothic alphabet).</li>
+                <li>Fixed Vietnamese word truncation in Word Map: heart→trái tim, sun→mặt trời, moon→mặt trăng. Vietnamese dialect pronunciations now reflect Northern/Central/Southern differences (final consonants, retroflex initials, vowel length).</li>
+                <li>Added Medieval and Early Modern Korean greetings (hello/thanks).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-04-19 – 2026-04-21</div>
+            <ul>
+                <li>Added <strong>Vietnamese Central (vi_c / Huế)</strong> and <strong>Vietnamese Southern (vi_s / Sài Gòn)</strong> dialects with all 100 sentences. Central features: tui, mô (where), ni (this), o nớ/eng nớ (she/he), phiền (please), bọ/mạ (parents), chừ (now), bựa qua (yesterday), lắm (very, postposed). Southern features: tui, thiệt (very), hông (not), nầy (this), cổ/ảnh (she/he), ba/má (parents), tiệm (shop), xe lửa (train), bóp (wallet), xài (use), coi (watch). Southern Vietnamese also shifts time expressions to the front of the sentence in 12 sentences.</li>
+                <li>Vocabulary differences between Northern standard and Central/Southern dialects are now visually distinct — e.g. cốc (N) vs. ly (C/S) for "glass", tách (N) vs. ly (C/S) for "cup".</li>
+                <li>Re-segmented sentences 22, 25, 28, 31, 33–35, 38, 41, 43, 45–46, 48–55 with finer grammatical splits across all 220+ languages:
+                    <ul>
+                        <li>Article/adjective: "a new" → a + new, "a good" → a + good, "a big" → a + big (separate colors)</li>
+                        <li>Possessive/noun: "my dog", "my brother", "my grandmother" → my + noun</li>
+                        <li>Preposition/noun: "at the market", "in the garden", "from here" → preposition + noun</li>
+                        <li>Verb/tense: "talked" → talk + -ed, "đã nói" → đã + nói, "咲いている" → 咲いて + いる</li>
+                        <li>Verb/auxiliary: Korean "알려주세요" → 알려 + 주세요, Japanese "教えてください" → 教えて + ください</li>
+                        <li>Number/classifier/noun: "two cups of coffee" → two + cups of + coffee</li>
+                        <li>Demonstrative/noun: "that movie" → that + movie, "this restaurant" → this + restaurant</li>
+                        <li>Temporal splits: "next Monday" → next + Monday, "last month" → last + month</li>
+                        <li>Location splits: "the hotel room" → hotel + room, "the way to the airport" → way + to + airport</li>
+                    </ul>
+                </li>
+                <li>Separated question particles into dedicated segments across 7 question sentences (S4, S10, S16, S28, S40, S68, S99): Japanese か, Chinese 吗, Vietnamese không/khôông/hông, Thai ไหม, Korean 요/까.</li>
+                <li>Agglutinative languages (Turkish, Azerbaijani, Uzbek, Kazakh, Turkmen, Kyrgyz, Uyghur, Hungarian, Finnish, Estonian, Mongolian) now split morphemes within words — e.g. Turkish "pazarda" → pazar + da, "arkadaşımla" → arkadaş + ım + la.</li>
+                <li>Added ZWNJ glue markers to agglutinative suffix segments so that text copy and CSV export correctly reconstruct the original word without inserting spaces between morphemes.</li>
+                <li>Japanese and Korean dialects now consistently match their standard language's segment structure — all compound segments containing spaces have been split.</li>
+                <li>Ainu (ain) segment IDs and word order verified and corrected across all modified sentences.</li>
+                <li>Chữ Nôm (vi_nom) segment structure synchronized with Vietnamese standard across all 100 sentences.</li>
+                <li>Compound segments (B|D, A|E, C|H, etc.) used for genuinely fused single-word forms that cannot be split at word boundaries.</li>
+                <li>Fixed ~140 Chữ Nôm characters using chunom.org Standard 750 reference — corrected systematic mismatches (muốn: 悶→㦖, xin: 信→吀, đến: 典→𦤾, ngon: 𦖑→𤯆, này: 尼→呢, ngày: 𣈗→𣈜, and many more), replaced non-standard characters (㘃→𧘇 for ấy, 扌右→𧕬沛 for rẽ phải), and fixed segment-level errors (quà: 過→𧵟, nghỉ ngơi: 𥄈𥄈→𠿢𢥷).</li>
+                <li>Re-segmented sentences 69–85 with finer grammatical splits: verb/past tense, article/adjective/noun, preposition separations, believe/that complementizer, studying/abroad, last/week, more/water.</li>
+                <li>Korean S81 segment mapping fix: "머리가 아프다" (head hurts) now uses B/D segments instead of E/F, correctly distinguishing from "두통이 있다" (headache exists).</li>
+                <li>Added <code>buildFullText()</code> function in app.js with ZWNJ glue-aware text joining for correct text copy/CSV export of agglutinative languages.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-04-16</div>
+            <ul>
+                <li>Fixed Malagasy (mg) for sentence 3 ("I eat breakfast every morning at 7 o'clock"): switched to the more natural phrasing "Misakafo maraina amin'ny 7 ora aho isan'andro", avoiding the redundancy with "maraina" by using "isan'andro" (every day) instead of "isan'andro maraina" (every morning). <span class="contributor">— reported by Vony Rand</span></li>
+                <li>Fixed Mexican and European Spanish (es_mx, es_eu) for sentence 3: replaced "tomo el desayuno" with the more natural single-verb form "desayuno". <span class="contributor">— reported by Victor Amir Ez and Manuel Cisneros Castro</span></li>
+                <li>Fixed Standard German (de) for sentence 3: replaced "Ich esse ... Frühstück" with the more natural single-verb form "Ich frühstücke jeden Morgen um 7 Uhr". German has a dedicated verb ("frühstücken") for having breakfast. <span class="contributor">— reported by Sonja Bausch, Manuel Cisneros Castro, and Armas Ukko Markkula Hanke</span></li>
+                <li>Fixed French (fr, fr_ch) for sentence 3: fronted the time expression ("Chaque matin, je prends..."), which is more natural in French. <span class="contributor">— reported by Misa Tsuruta</span></li>
+                <li>Fixed Japanese (ja) for sentence 3: dropped the explicit subject "私は", since Japanese typically omits the subject when context makes it clear. <span class="contributor">— reported by Misa Tsuruta</span></li>
+                <li>Fixed Irish (ga) and Welsh (cy) segmentation for sentences 1, 3, and 5. Irish s1: "Ba mhaith liom" (lit. "it would be good with me") is now mapped to F (want) rather than A (I), since there is no standalone "I" pronoun in this Irish construction. Welsh s1: dropped the standalone "fi" pronoun since the subject is already contained inside the F segment ("Rydw i eisiau..."). Irish s3: replaced "Itheann mé" with the correct synthetic form "Ithim" ("I eat" is a single word). Irish s5: corrected "an" (mistakenly mapped to "this"; it's the definite article) and split the compound intensifier "an-bhlasta" so that C ("very") and D ("delicious") are both represented. Welsh s5: similarly split "yn flasus iawn" so that D and C are both represented. <span class="contributor">— reported by Seán Ó Séaghdha</span></li>
+                <li>Sentence 3 now uses the compound <code>B|C</code> segment label for languages whose "have breakfast" verb fuses B (breakfast) and C (eat) into a single word — e.g. German <em>frühstücke</em>, Spanish <em>desayuno</em>, Russian <em>завтракаю</em>. Applied to 18 languages/dialects.</li>
+                <li>Languages without sentence data (Scottish Gaelic, Tongan, Northern Sami) are now shown as "Pending" in the language selector: they can't be toggled on, and they're excluded from the total count. The button also shows how many are pending.</li>
+                <li>Default UI language is now English (previously auto-detected from the browser, which made the initial impression inconsistent for the site's primary audience).</li>
+                <li>Full UI translations for the new strings (Pending badge, CSV buttons, footer credit, disclaimer) and the six newly added language names across all 21 UI languages. Missing-string fallback order is now current UI → English → Japanese → key.</li>
+                <li>Translated every editor-related UI string (Edit, Save, Cancel, Corrector, Text Copied, etc.) into all 21 UI languages — these had silently fallen back to English for 19 languages since the inline-editing feature shipped.</li>
+                <li>Translated all 223 language names into every UI language. Before this, 17 UI languages were missing ~55 of the more recently added languages (historical, dialectal, minor-language entries) and fell back to English or Japanese for those names; now every UI language has native-language names for every entry.</li>
+                <li>Fixed URL hash updates that had silently broken when English became the default UI language — a leftover reference to the removed <code>detectBrowserLang()</code> helper was throwing a <code>ReferenceError</code> every time state was serialized, so UI-language switches, sentence changes, and language toggles weren't making it into the URL.</li>
+                <li>CSV-export language dropdown now rebuilds when the UI language changes, so its option labels and optgroup headers localize immediately instead of staying stuck on the UI language that was active at first load.</li>
+                <li>Chinese (zh) and Cantonese (yue) save buttons now use natural verb-first word order (保存PNG / 保存SVG / 保存CSV, 儲存PNG / 儲存SVG / 儲存CSV) instead of a calque of Japanese noun-first order.</li>
+                <li>Sentence 13 ("Please give me a glass of water"): marked single-word "give me" forms across 26 languages/dialects as <code>B|D</code> compound segments — Japanese <em>ください</em>, Korean <em>주세요</em>, Arabic <em>أعطني</em> (and all dialectal variants), Spanish <em>deme/dame/regáleme</em> (all variants), Portuguese <em>dê-me / me dê</em>, Galician <em>déame</em>, Ladino, Venetian, Maltese, Neapolitan, Sicilian. Also fixed Japanese/Korean mis-segmentation where "一杯" / "한 잔" were wrongly mapped to A (Please) instead of C (a glass of water).</li>
+                <li>PNG/SVG export: compound segments (e.g. <code>B|D</code>) now render with a linearGradient fill instead of invisible transparent text. Fixed a <code>ReferenceError</code> that made the Save PNG / Save SVG buttons completely unresponsive.</li>
+                <li>PNG/SVG export: Hist/Exp badges now render as bordered rounded rects with gray text, matching the on-screen style inside <code>.lang-label</code> (previously they used the modal-style filled purple/orange backgrounds).</li>
+                <li>PNG/SVG export: site URL watermark (<code>https://langmap.heuron.com</code>) added to the bottom-right corner of exported images.</li>
+                <li>Site header: added a small <code>langmap.heuron.com</code> link in the top-right corner.</li>
+                <li>Added OGP and Twitter Card meta tags with localized title and description for all 21 UI languages. <code>document.title</code> and all meta tags update dynamically when the UI language changes.</li>
+                <li>Language selector: clicking a group header (e.g. "Japanese", "Romance") now toggles all selectable languages in that group — all ON if any are OFF, all OFF if all are already ON.</li>
+                <li>Renamed チューノム to 字喃 (Chữ Nôm) — using the standard Kanji form.</li>
+                <li>Renamed ko_kp from '韓国語(北朝鮮)' to the DPRK self-designation: 朝鮮語(文化語) / 조선말(문화어) for CJK UIs; Korean (DPRK) for others.</li>
+                <li>Sentence 13 re-segmented from 4 to 6 segments across all 221 languages: added E (You) and F (a glass of), splitting the quantifier from the substance. All compound B|D segments preserved. Clitic pronouns (French -moi, Italian mi, Catalan -me, Romanian -mi, etc.) split into separate B/D segments; truly fused single-word forms (Spanish deme, Arabic أعطني, Japanese ください, Korean 주세요) remain as B|D.</li>
+                <li>Added Palauan (pau) — an Austronesian language (VOS word order) with many Japanese loanwords (kohi, sushi, sakura, sensei). Experimental, 100 sentences.</li>
+                <li>Standardized Edo/Heian period naming to 'Language (Period)' format across all 20 non-ja UI languages.</li>
+                <li>Standardized all dialect/variant names across vi, th, id, yue, ko, ar — enforced consistent 'Language (Qualifier)' parenthetical format (128 fixes).</li>
+                <li>Translated all language group names (23 groups) into all 21 UI languages.</li>
+                <li>Fixed 16 untranslated English language names leaking into non-English UIs (e.g. 'Vietnamese (Chữ Nôm)' appearing in the Vietnamese UI itself).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-04-15</div>
+            <ul>
+                <li>Fixed classification of Manchu (mnc): moved from Turkic to the newly added Tungusic group. <span class="contributor">— reported by Girik Sehgal and Benjamin Hassan</span></li>
+                <li>Registered six new languages (data coming soon): Scottish Gaelic (gd), Slovenian (sl), Middle English (enm), Swiss French (fr_ch), Tongan (to), Northern Sami (se). <span class="contributor">— suggested by Girik Sehgal</span></li>
+                <li>Added full sentence data (all 100 sentences) for Middle English (enm), Swiss French (fr_ch), and Slovenian (sl). Middle English uses period-flavoured coinages for modern concepts (e.g. "machyn-witte" for AI, "eyre-wyre" for Wi-Fi, "speke-engyn" for phone), in the same spirit as other historical languages in the dataset. Scottish Gaelic, Tongan, and Northern Sami data still pending. <span class="contributor">— suggested by Girik Sehgal</span></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

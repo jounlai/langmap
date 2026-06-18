@@ -76,6 +76,25 @@ for (const [lang, arr] of Object.entries(byLang)) {
   }
 }
 
+// --- CHECK C: phonotactic legality (Sinitic) — a syllabic-consonant or apical
+// nucleus must not carry an entering stop coda (e.g. ʂʐ̩ʔ is an impossible Wu
+// syllable; caught at #73). Reconstructions / Sino-Xenic excluded.
+const SINITIC = l => ['zh', 'yue', 'nan', 'cdo', 'mnp', 'cpx', 'hak', 'czh', 'cnp', 'hsn', 'gan', 'cjy', 'wuu'].includes(l.split('_')[0]);
+function illegalSyllable(ip) {
+  if (ip == null) return null;
+  const b = String(ip).replace(/[˥˦˧˨˩]/g, '');
+  if (/[mnŋlrszʐʂʑɕʮʯ]̩[ʔ]/.test(b)) return 'syllabic-consonant + glottal stop';
+  if (/[ɿʅʮʯ][ʔ]/.test(b)) return 'apical vowel + glottal stop';
+  if (/[mnŋ]̩[p̚t̚k̚]/.test(b)) return 'syllabic nasal + oral stop';
+  return null;
+}
+const cHits = [];
+for (const x of cells) {
+  if (!SINITIC(x.lang)) continue;
+  const r = illegalSyllable(x.ipa);
+  if (r) cHits.push({ ...x, kind: r });
+}
+
 // --- report
 console.log(`Scanned ${cells.length} cells.\n`);
 console.log(`CHECK A — field integrity: ${aHits.length} issue(s)`);
@@ -84,6 +103,9 @@ console.log('');
 console.log(`CHECK B — surface↔IPA tone agreement (${chaoValueLangs.length} Chao-value varieties): ${bHits.length} mismatch(es)`);
 for (const h of bHits) console.log(`   ${h.lang} ${h.char}  surface ${JSON.stringify(h.surface)} (tone ${h.surfaceTone}→${h.expectedIpaTone}) ≠ ipa tone ${h.ipaTone}  [ipa ${JSON.stringify(h.ipa)}]`);
 console.log('');
-fs.writeFileSync('/tmp/surface_ipa_issues.json', JSON.stringify({ A: aHits, B: bHits }, null, 1));
+console.log(`CHECK C — phonotactic legality (Sinitic): ${cHits.length} illegal syllable(s)`);
+for (const h of cHits) console.log(`   ${h.lang} ${h.char}${h.scope === 'variant' ? '[' + h.label + ']' : ''}  ipa ${JSON.stringify(h.ipa)} — ${h.kind}`);
+console.log('');
+fs.writeFileSync('/tmp/surface_ipa_issues.json', JSON.stringify({ A: aHits, B: bHits, C: cHits }, null, 1));
 console.log(`Chao-value varieties: ${chaoValueLangs.join(', ')}`);
 console.log('issues -> /tmp/surface_ipa_issues.json');

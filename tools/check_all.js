@@ -19,6 +19,7 @@ line('tone-category consistency', num(s, /candidates: (\d+)/));
 s = run('surface_ipa_check.js');
 line('field integrity (no leaks)', num(s, /CHECK A[^\n]*?: (\d+)/));
 line('surface↔IPA tone agreement', num(s, /CHECK B[^\n]*?: (\d+)/));
+line('phonotactic legality', num(s, /CHECK C[^\n]*?: (\d+)/));
 
 s = run('variant_integrity_check.js');
 // actionable = COLLISION + DUP_LABEL + EMPTY_PROMOTE + EMPTY_MERGE (LONE_REDUNDANT/EMPTY_LABEL are informational)

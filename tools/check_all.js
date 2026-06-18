@@ -11,7 +11,7 @@ const num = (s, re) => { const m = s.match(re); return m ? parseInt(m[1], 10) : 
 let fail = 0;
 const line = (name, n, note) => { const ok = n === 0; if (!ok) fail++; console.log(`  ${ok ? 'PASS' : 'FAIL'}  ${name.padEnd(34)} ${n}${note ? '  (' + note + ')' : ''}`); };
 
-console.log('HanMap deterministic data guards\n');
+console.log('LangMap project — deterministic data guards (HanMap + LangMap + WordMap)\n');
 
 let s = run('tone_category_check.js');
 line('tone-category consistency', num(s, /candidates: (\d+)/));
@@ -29,6 +29,12 @@ line('variant structural integrity', act, `${info} informational`);
 s = run('native_script_check.js');
 line('native script block', num(s, /CHECK A[^\n]*?: (\d+)/));
 line('kana↔romaji skeleton', num(s, /CHECK B[^\n]*?: (\d+)/));
+
+s = run('langmap_role_check.js');
+line('LangMap role integrity', num(s, /actionable: (\d+)/), `${num(s, /UNUSED_ROLE[^\n]*?: (\d+)/)} informational`);
+
+s = run('wordmap_check.js');
+line('WordMap integrity', num(s, /actionable: (\d+)/));
 
 console.log(`\n${fail === 0 ? '✓ all guards clean' : '✗ ' + fail + ' guard(s) failing'}`);
 process.exit(fail === 0 ? 0 : 1);

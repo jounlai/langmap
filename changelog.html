@@ -123,8 +123,12 @@
                 <li><span class="count">400</span> languages <span class="when">— 2026-05-02 (<code>76e3c86</code>, 394 → 406)</span></li>
                 <li><span class="count">500</span> languages <span class="when">— 2026-05-02 (<code>5494daa</code>, 490 → 502)</span></li>
                 <li><span class="count">600</span> languages <span class="when">— 2026-05-06 (<code>8c98ed3</code>, 595 → 603)</span></li>
-                <li><span class="count">700</span> languages <span class="when">— 2026-05-07 (<code>c44ec37</code>) — current</span></li>
+                <li><span class="count">700</span> languages <span class="when">— 2026-05-07 (<code>c44ec37</code>)</span></li>
+                <li><span class="count">800</span> languages <span class="when">— 2026-05-07 (<code>80f2640</code>, batches 50–60, 787 → 818)</span></li>
+                <li><span class="count">900</span> languages <span class="when">— 2026-05-08 (<code>08340ae</code>, batches 76–82, 880 → 901)</span></li>
+                <li><span class="count">1,000</span> languages <span class="when">— 2026-05-28 (<code>33e63ca</code> 🎉; official count settled 2026-06-09, <code>ac794b0</code>) — current</span></li>
             </ul>
+            <p class="lead" style="margin-top:8px">The Word Map carries 1,000 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 102 varieties across 61 characters.</p>
         </div>
 
         <div class="entry">
@@ -181,6 +185,43 @@
             <div class="date">2026-06-13 — SEO pages: server-rendered Word/Han Map &amp; word-order pages</div>
             <ul>
                 <li><strong>New crawlable pages for each word, character, and language</strong> (commits <code>7dada6a</code>, <code>fe09615</code>, <code>3a3e9fa</code>, <code>ef04554</code>): server-side pages that render the popup content plus related-language comparison sections — native-script glyphs in the Han character table, Word/Han comparisons ranked by IPA similarity, and a two-block word-order comparison with Lang Map-style connector lines ordered by closeness to the page language. GA4 analytics added (production-only).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-02 → 06-09 — Lang Map: large word-order data-quality rally</div>
+            <ul>
+                <li><strong>Several hundred word-order corrections across the sentence map</strong> (commits <code>999b7d0</code>, <code>d99a780</code>, <code>1f69467</code>, <code>95564f4</code>, <code>d51706b</code>): a 30-expert audit + 10-developer catch-ball over <code>data.js</code>, followed by guideline-driven review rallies — #44–#48 cross-cutters (63 edits), #73–#77 (156 edits), Steps 1–4 (+189 cells, 17 palette letters, #81 honorifics) and Step 5 methodology/niche reviews #82–#86 (134 edits). The word-order map now stands at 242 languages.</li>
+                <li><strong>iOS serif-rendering fix</strong> (commit <code>d99a780</code> series): Lang Map segment text unified to sans-serif on iOS, where Latin had been rendering as serif.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-05-31 — Spanish / Portuguese UI variant consolidation</div>
+            <ul>
+                <li><strong>Merged regional UI-language variants</strong> (commit <code>475496f</code>): <code>es_eu</code> / <code>es_mx</code> → <code>es</code> and <code>pt_eu</code> / <code>pt_br</code> → <code>pt</code>, so the interface offers one Spanish and one Portuguese instead of splitting users across near-identical variants.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-05-30 — Han Map: trivia articles in 19 UI languages</div>
+            <ul>
+                <li><strong>40 Han Map trivia articles × 19 UI languages</strong> (commit <code>b7491c5</code>): bite-sized background notes (script history, sound changes, reading strata) shown alongside the character map, fully localized.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-05-28 → 05-29 — Han Map: redesigned display + proto-languages</div>
+            <ul>
+                <li><strong>Four-column display (native / script / IPA) with multi-reading variants</strong> (commits <code>8763480</code>, <code>c6999ed</code>): per-language surface/IPA display rules and automatic tone conversion, so each variety shows its reading the way that tradition writes it — and a single character can now carry multiple labelled readings (白讀/文讀, 訓讀, 原音/慣用音).</li>
+                <li><strong>+9 proto-language reconstructions and new varieties</strong> (commits <code>272029a</code>, <code>8763480</code>): Proto-Tai, Proto-Hmong-Mien, Proto-Tibeto-Burman, Proto-Mongolic, Proto-Koreanic, Proto-Japonic, Proto-Tungusic, Proto-Austroasiatic, plus <code>ko_zai</code> (Japanese-substrate Korean) refinement and 6 further langs. Vietnamese split renamed to 北部/中部/南部 form across 21 UI languages (commit <code>64eb9b1</code>).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-05-28 — 🎉 1,000 languages</div>
+            <ul>
+                <li><strong>The Word Map reached 1,000 languages</strong> (commits <code>18314f4</code> 936→978, <code>50bb2b3</code> 978→991, <code>a1a4c5b</code> / <code>33e63ca</code> → 1,000): the final stretch added rare and historical varieties plus a restored batch of Chinese varieties, then 9 duplicate entries were consolidated to canonical ISO 639-3 codes (commit <code>8311e11</code>). The official displayed count was finalized at 1,000 on 2026-06-09 (commit <code>ac794b0</code>).</li>
             </ul>
         </div>
 

@@ -551,7 +551,7 @@ WORDS.good = {
     kg: ["mbote", "mbote"],
     lol: ["mpɔlɔ", "mpɔlɔ"],
     tll: ["lɔlɔ", "lɔlɔ"],
-    ff: ["jam", "dʒam"],
+    ff: ["moƴƴo", "dʒam"],
     bm: ["ka ɲi", "ka ɲi"],
     ddn: ["suuli", "suːli"],
     emk: ["ka ɲi", "ka ɲi"],

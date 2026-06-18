@@ -872,7 +872,7 @@ WORDS.thanks = {
     de_lut: ["Danck", "daŋk"],
     gmh: ["danc", "daŋk"],
     es_sgl: ["gracias", "ˈɡɾat͡sjas"],
-    osp: ["mercedes", "meɾˈʦeðes"],
+    osp: ["mercedes", "meɾˈt͡seðes"],
     okz: ["អនុមោទនា", "ʔanumoːtəna"],
     osx: ["thank", "θaŋk"],
     mos: ["barka", "barka"],

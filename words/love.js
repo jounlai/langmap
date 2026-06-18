@@ -449,7 +449,7 @@ WORDS.love = {
     fy: ["leafde", "lɪəfdə"],
     frr: ["liiwd", "liːwd"],
     li: ["leefde", "leːfdə"],
-    nn: ["kjærleik", "çæːɹlɛɪk"],
+    nn: ["kjærleik", "çæːrlɛik"],
     fo: ["kærleiki", "kɛaːɹlaiːtʃɪ"],
     fr_qc: ["amour", "amuːʁ"],
     fr_af: ["amour", "amuʁ"],

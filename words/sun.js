@@ -799,7 +799,7 @@ WORDS.sun = {
     myz: ["ࡔࡀࡌࡔࡀ", "ʃamʃa"],
     vmw: ["ettsuwa", "etsuwa"],
     dsb: ["słyńco", "ˈswɨnt͡sɔ"],
-    gv: ["grian", "ɡrʲan"],
+    gv: ["grian", "ɡriən"],
     kw: ["howl", "haʊl"],
     zza: ["tîj", "tiːʒ"],
     brh: ["دے", "deː"],

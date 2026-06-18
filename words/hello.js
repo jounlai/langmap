@@ -712,7 +712,7 @@ WORDS.hello = {
     wa: ["bondjoû", "bõˈd͡ʒu"],
     kpv: ["видза олан", "vidza olan"],
     koi: ["бур лун", "bur lun"],
-    udm: ["ӟечбур", "dʑetɕbur"],
+    udm: ["ӟечбур", "d͡ʑɛd͡ʑˈbur"],
     mhr: ["салам лийже", "salam lijʒe"],
     mrj: ["пӓрӓнӓ", "pærænæ"],
     myv: ["шумбрат", "ʃumbrat"],

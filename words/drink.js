@@ -192,7 +192,7 @@ WORDS.drink = {
     th_isan: ["ดื่ม", "dɯːm˥˩"],
     th_n: ["ดื่ม", "dɯːm˥˩"],
     th_s: ["ดื่ม", "dɯːm˥˩"],
-    za: ["gwnraemx", "kɯn˨˦ɣam˦"],
+    za: ["gwn", "kɯn˨˦ɣam˦"],
     hmn: ["haus", "hɑu˨˩"],
     jv: ["ngombe", "ŋombe"],
     jvn: ["ngombé", "ŋombe"],

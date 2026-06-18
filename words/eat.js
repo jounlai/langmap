@@ -297,7 +297,7 @@ WORDS.eat = {
     nap: ["mangià", "mandʒa"],
     scn: ["manciari", "mantʃari"],
     vec: ["magnàr", "maˈɲar"],
-    co: ["manghjà", "mandʒa"],
+    co: ["manghjà", "manɟa"],
     lij: ["mangiâ", "mandʒaː"],
     rgn: ["mâgna", "ˈmaɲa"],
     egl: ["magnèr", "maˈɲɛɾ"],

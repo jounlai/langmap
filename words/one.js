@@ -783,7 +783,7 @@ WORDS.one = {
     apw: ["dááłeʼ", "daːɬeʔ"],
     dak: ["waŋžidaŋ", "waŋʒidaŋ"],
     chy: ["no'ka", "noʔka"],
-    arp: ["ceeséeʼ", "tséeséːʔ"],
+    arp: ["ceeséeʼ", "tʃeːséːʔ"],
     kio: ["páun", "páun"],
     lmo: ["vün", "vyŋ"],
     pms: ["un", "yŋ"],

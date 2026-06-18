@@ -796,7 +796,7 @@ WORDS.hand = {
     gv: ["laue", "lɛːu"],
     kw: ["leuv", "lœv"],
     zza: ["dest", "dɛst"],
-    brh: ["ہت", "hatʰ"],
+    brh: ["دو", "hatʰ"],
     mrq: ["ʻima", "ʔima"],
     tiw: ["punga", "puŋa"],
     lbz: ["marra", "maɾa"],

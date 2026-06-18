@@ -7103,10 +7103,15 @@
         //   labelW, labelH: estimated label box size (px).
         //   word, zoom: cache key inputs.
         // Returns: ms spent in SA (or 0 on cache hit).
-        function _hmRefineOffsetsSA(codes, ppx, offsets, labelW, labelH, word, zoom) {
+        function _hmRefineOffsetsSA(codes, ppx, offsets, labelW, labelH, word, zoom, heights, hKey) {
             if (codes.length < 2) return 0;
             const sortedCodes = codes.slice().sort();
-            const cacheKey = _hmOffsetCacheKey(word, zoom, sortedCodes, labelW, labelH);
+            // hKey folds in per-label-height inputs that labelH alone misses
+            // (notably the 独自文字 toggle, which doesn't change labelH but
+            // does change individual label heights) so toggling it busts the
+            // offset cache instead of reusing stale, mis-sized offsets.
+            const cacheKey = _hmOffsetCacheKey(word, zoom, sortedCodes, labelW, labelH)
+                + (hKey ? '|' + hKey : '');
             const cached = _hmLabelOffsetCache.get(cacheKey);
             if (cached) {
                 // LRU bump: re-insert so it's most-recently-used.
@@ -7131,7 +7136,11 @@
                     ax: pt.x, ay: pt.y,             // anchor (marker)
                     cx: pt.x + off.x,                // current center
                     cy: pt.y + off.y,
-                    w: labelW, h: labelH,
+                    // Per-label height (native / multi-reading aware); falls
+                    // back to the uniform labelH. _hmOverlapArea already uses
+                    // (a.h+b.h)/2, so a taller label repels its neighbours by
+                    // exactly its real extent during annealing.
+                    w: labelW, h: (heights && heights[code]) || labelH,
                 });
             }
             // Sweeps: 30 normally, scaled down for very dense maps so the
@@ -7207,6 +7216,40 @@
             const _fullH_z = (zoom <= 3 ? 32 : zoom <= 5 ? 36 : 40);
             const labelHFull = (_fullH_z * labelScale) + 4;
             const collisionBudgetH = Math.max(labelHFull, labelW * 0.55);
+
+            // PER-LABEL height (px). The uniform labelH above counts ONE
+            // word/ipa/name set, so it underestimates the two label kinds the
+            // user saw still overlapping: 独自文字 (native-script) labels carry
+            // an extra line, and multi-reading labels (白讀/文讀, 文白異讀…)
+            // stack one word/ipa[/native] block PER variant. Feeding a true
+            // per-label height into the collision + SA passes lets tall labels
+            // reserve the space they actually occupy. A plain single-reading,
+            // no-native label evaluates to the same value as labelH, so
+            // ordinary labels keep their existing packing. Errs slightly high
+            // (more spacing) which is the safe direction for overlap.
+            const _wordLH = (zoom <= 3 ? 13 : zoom <= 5 ? 15 : 17);
+            const _ipaLH  = (zoom <= 3 ? 10 : zoom <= 5 ? 11 : 12);
+            const _nameLH = (zoom <= 3 ? 9  : zoom <= 5 ? 10 : 11);
+            const _natLH  = (zoom <= 3 ? 11 : zoom <= 5 ? 13 : 14);
+            const _labelHeightPx = (code) => {
+                const v = (typeof HAN_VARIANTS !== 'undefined' && HAN_VARIANTS[wordId])
+                    ? HAN_VARIANTS[wordId][code] : null;
+                const vRows = (Array.isArray(v) && v.length > 1) ? v.length : 1;
+                const hasNat = showScript && typeof HAN_DATA !== 'undefined' && HAN_DATA[wordId]
+                    && HAN_DATA[wordId].native && HAN_DATA[wordId].native[code];
+                const natH = hasNat
+                    ? ((typeof VERTICAL_LANGS !== 'undefined' && VERTICAL_LANGS.has(code)) ? _natLH * 1.6 : _natLH)
+                    : 0;
+                const perRow = (showWord ? _wordLH : 0) + (showIpa ? _ipaLH : 0) + natH;
+                const h = vRows * perRow + (showName ? _nameLH : 0);
+                return (h * labelScale) + 4;
+            };
+            const _heightByCode = {};
+            const _hhOf = (code) => {
+                let h = _heightByCode[code];
+                if (h === undefined) { h = _labelHeightPx(code); _heightByCode[code] = h; }
+                return h * 0.4 + 1;   // half-extent, same 0.4 packing factor as _bbHalfH
+            };
 
             // When a filter is active, only ACTIVE labels compete for cell
             // slots. Dimmed (filtered-out) labels stay at their natural
@@ -7517,24 +7560,28 @@
             const MAX_PUSH = collisionBudgetH * 1.5 * _pushZoomFactor;
             const _placedBoxes = [];
             const hiddenCodes = new Set();
-            const _findFreeY = (cx, startY, _placed, dir) => {
+            const _findFreeY = (cx, startY, _placed, dir, curHH) => {
                 // Walk dir=+1 (down) or dir=-1 (up) until we find a y with
                 // no collision against the placed boxes. Return the y, or
                 // Infinity if we exceeded MAX_PUSH from startY.
+                // Vertical clearance is the SUM of the two labels' half-
+                // heights (curHH + the placed box's hh) so a tall native /
+                // multi-reading label reserves its real height; for uniform
+                // labels this equals the old _bbHalfH*2.
                 let y = startY;
                 for (let attempt = 0; attempt < 40; attempt++) {
                     let collided = null;
                     for (const p of _placed) {
                         if (Math.abs(p.cx - cx) < _bbHalfW * 2 &&
-                            Math.abs(p.cy - y) < _bbHalfH * 2) {
+                            Math.abs(p.cy - y) < (p.hh + curHH)) {
                             collided = p; break;
                         }
                     }
                     if (!collided) return y;
                     if (dir > 0) {
-                        y = collided.cy + _bbHalfH * 2 + 4;
+                        y = collided.cy + (collided.hh + curHH) + 4;
                     } else {
-                        y = collided.cy - _bbHalfH * 2 - 4;
+                        y = collided.cy - (collided.hh + curHH) - 4;
                     }
                     if (Math.abs(y - startY) > MAX_PUSH) return Infinity;
                 }
@@ -7555,18 +7602,19 @@
                 const cellKey = codeToCell[code];
                 const group = cellKey != null ? cellGroups[cellKey] : null;
                 const isSolo = !group || group.length <= 1;
+                const curHH = _hhOf(code);   // this label's half-height (px)
                 if (_preserveSolo && isSolo) {
                     // Pin to true position; still register as an obstacle
                     // so subsequent placements don't sit on top.
-                    _placedBoxes.push({ cx: pt.x, cy: pt.y });
+                    _placedBoxes.push({ cx: pt.x, cy: pt.y, hh: curHH });
                     offsets[code] = { x: 0, y: 0 };
                     continue;
                 }
                 const cx = pt.x + off.x;
                 const cyTarget = pt.y + off.y;
                 // Try both directions and take the smaller displacement.
-                const cyDown = _findFreeY(cx, cyTarget, _placedBoxes, +1);
-                const cyUp   = _findFreeY(cx, cyTarget, _placedBoxes, -1);
+                const cyDown = _findFreeY(cx, cyTarget, _placedBoxes, +1, curHH);
+                const cyUp   = _findFreeY(cx, cyTarget, _placedBoxes, -1, curHH);
                 const dDown = isFinite(cyDown) ? Math.abs(cyDown - cyTarget) : Infinity;
                 const dUp   = isFinite(cyUp)   ? Math.abs(cyUp   - cyTarget) : Infinity;
                 const cy = dDown <= dUp ? cyDown : cyUp;
@@ -7575,7 +7623,7 @@
                     hiddenCodes.add(code);
                     continue;
                 }
-                _placedBoxes.push({ cx, cy });
+                _placedBoxes.push({ cx, cy, hh: curHH });
                 offsets[code] = { x: cx - pt.x, y: cy - pt.y };
             }
 
@@ -7600,10 +7648,13 @@
                 if (!ppx[code]) continue;
                 _saCodes.push(code);
             }
+            // Ensure every SA code has a cached per-label height (the greedy
+            // pass only filled the codes it placed; _saCodes is a superset).
+            for (const code of _saCodes) _hhOf(code);
             const _saMs = (window.__hanmapNoSA === true) ? 0 :
                 _hmRefineOffsetsSA(
                     _saCodes, ppx, offsets, labelW, labelH,
-                    wordId, zoom
+                    wordId, zoom, _heightByCode, (showScript ? 'S1' : 'S0')
                 );
             if (_saMs > 0 && typeof window !== 'undefined' && window._hmSaLogTiming) {
                 console.log('[hanmap SA]', _saCodes.length, 'labels in', _saMs.toFixed(1), 'ms');
@@ -7650,19 +7701,28 @@
                     if (sb !== sa) return sb - sa;
                     return a < b ? -1 : a > b ? 1 : 0;
                 });
-                const _cw = _bbHalfW * 2, _ch = _bbHalfH * 2;
+                // Per-label vertical clearance: two labels clear when their
+                // y-gap exceeds the SUM of their half-heights (p.hh + hh), so a
+                // tall native / multi-reading label claims its real height here
+                // too — this pass writes the FINAL rendered offsets, so without
+                // it the per-label work in the greedy + SA passes would be
+                // re-packed away at uniform height. For a plain label hh equals
+                // the old _bbHalfH, so p.hh+hh == the old _ch (unchanged).
+                const _cw = _bbHalfW * 2;
                 const _placed = [];
-                const _free = (x, y) => {
+                const _free = (x, y, hh) => {
                     for (const p of _placed) {
-                        if (Math.abs(p.x - x) < _cw && Math.abs(p.y - y) < _ch) return false;
+                        if (Math.abs(p.x - x) < _cw && Math.abs(p.y - y) < (p.hh + hh)) return false;
                     }
                     return true;
                 };
-                const _ringStep = Math.max(4, _ch * 0.13), _maxR = MAX_PUSH * 2.2;
+                const _maxR = MAX_PUSH * 2.2;
                 for (const c of _rendered) {
                     const ax = ppx[c].x, ay = ppx[c].y;
+                    const hh = _hhOf(c);
+                    const _ringStep = Math.max(4, hh * 0.26);   // ~0.13 * full height
                     let chosen = null;
-                    if (_free(ax, ay)) {
+                    if (_free(ax, ay, hh)) {
                         chosen = { x: ax, y: ay };
                     } else {
                         outer:
@@ -7671,12 +7731,12 @@
                             for (let k = 0; k < n; k++) {
                                 const rad = (2 * Math.PI * k) / n;
                                 const x = ax + Math.cos(rad) * r, y = ay + Math.sin(rad) * r;
-                                if (_free(x, y)) { chosen = { x, y }; break outer; }
+                                if (_free(x, y, hh)) { chosen = { x, y }; break outer; }
                             }
                         }
                     }
                     if (!chosen) { hiddenCodes.add(c); continue; }
-                    _placed.push(chosen);
+                    _placed.push({ x: chosen.x, y: chosen.y, hh });
                     offsets[c] = { x: chosen.x - ax, y: chosen.y - ay };
                 }
             }

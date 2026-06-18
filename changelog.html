@@ -128,6 +128,63 @@
         </div>
 
         <div class="entry">
+            <div class="date">2026-06-18 — Han Map: label rendering fixes (overlap + Khitan blank)</div>
+            <ul>
+                <li><strong>Map labels no longer overlap when a reading is tall</strong> (commits <code>753c163</code>, <code>184223e</code>, <code>3428e56</code>): native-script (独自文字) lines and multi-reading labels (白讀/文讀, 文白異讀) stack extra rows, so those labels were taller than their neighbours and bled over them. Capped the native-script line height, compacted the stacked variant rows, and — the real fix — made the label de-overlap engine (grid → greedy → simulated annealing → pull-home) reserve each label's <em>real</em> height instead of one uniform value. A plain single-reading label is unchanged; only tall labels now claim the space they occupy.</li>
+                <li><strong>Khitan (<code>zkt</code>) glyphs had a long blank above and below the character</strong> (commits <code>4a7b9e5</code>, <code>a2989e7</code>): the Noto Serif Khitan Small Script font ships with hugely inflated vertical metrics (a 4.0em line box vs the normal 1.0em). Added an <code>ascent/descent-override</code> on the <code>@font-face</code> to restore sane line metrics, and switched Khitan to horizontal rendering (like Tangut) so the vertical glyph-advance blank is gone too.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-18 — Han Map: filter now localized in all 19 UI languages</div>
+            <ul>
+                <li><strong>The family × era filter fell back to Japanese for 15 UI languages</strong> (commit <code>cb12aa0</code>): the Han Map's own filter dictionary only had en/ja/ko/zh and defaulted the rest to Japanese, so selecting e.g. Vietnamese left the whole filter panel in Japanese. Added full translations (family names + panel strings) for the remaining 15 — vi, th, id, hi, de, fr, it, es, pt, ru, uk, ar, he, sw — reusing the codebase's existing family-name translations for consistency. All 19 supported UI languages now render the filter natively.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-18 — Han Map: review rallies #69–#75 + deterministic data guards</div>
+            <ul>
+                <li><strong>Seven multi-reviewer rallies across all 102 varieties</strong> (commits <code>defe477</code>, <code>93d442a</code>, <code>3341b5a</code>, <code>9f134b0</code>, <code>6af52b4</code>, <code>32a9119</code>, <code>b2fe8c8</code>): #69/#70 all-directions passes, then targeted angles — #71 novel sense/reconstruction, #72 Han Map ↔ Word Map cross-map drift, #73 segmental (rime/medial/phonotactic), #74 reconstruction layers, #75 fresh-eyes single-cell outliers. Hundreds of cell corrections; e.g. tone-category single-character swaps (zh_kf 頭 24→42), <code>zh_phagspa</code> 九 g→k against its own glyph, <code>zh_db</code> 鳥 niɔ→niau.</li>
+                <li><strong>New deterministic guard suite</strong> (commits <code>fde883c</code>, <code>ab1f83a</code>, <code>560f2f5</code>, <code>c018be8</code>, <code>76f9ab5</code>, <code>9b81ffd</code>, <code>d7ff09a</code>, <code>0b1e066</code>): rather than re-running LLM rallies forever, systematic error classes are now exhausted by code — Middle-Chinese tone-category consistency, surface↔IPA field integrity + tone agreement + phonotactic legality, variant structural integrity, native-script block + kana↔romaji skeleton, Word Map duplicate keys, Lang Map role integrity. A one-command runner (<code>tools/check_all.js</code>) plus a GitHub-Actions workflow and a pre-commit hook now block any commit that reintroduces these defects.</li>
+                <li><strong>Hokkien standardized to Tâi-lô</strong> (commit <code>e0a65a8</code>) across 8 varieties (223 surface cells, POJ → Tâi-lô); <em>魚</em> colloquial <code>ŋ̍</code> regularization and <code>cnp</code> 三/南/心/飲 <code>-m</code> finals (commits <code>a4e9df3</code>, <code>dcf98df</code>); <code>zh_jh</code> relabelled to Nanjing.</li>
+                <li class="contributor">With corrections from <strong>kori228</strong> (<a href="https://github.com/kori228" target="_blank" rel="noopener">@kori228</a>, PR #8: <code>wuu_sz</code> 行 <code>ghaon6→ghaon2</code>). ありがとうございます！</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-18 — Word Map rally: 37 corrections (18-reviewer audit)</div>
+            <ul>
+                <li><strong>IPA and wrong-word fixes across ~56 languages</strong> (commit <code>e94fc59</code>): orthography→IPA corrections — Arapaho ⟨c⟩=/tʃ/, Corsican <code>ghj</code>=/ɟ/, Manx <code>th</code>=/t/ with no spurious palatalization, Old Spanish ʤ→ʒ / ʦ→t͡s, Old Norse/Nynorsk rhotic ɹ→r, Dungan/Kalmyk syllabic-nasal fixes — plus six wrong-word surfaces (Brahui native Dravidian <em>hand</em>/<em>eye</em>, Fulfulde <em>good</em> moƴƴo, Kashmiri <em>cat</em> براري, Zhuang <em>drink</em> gwn).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-17 — Big rallies: Han Map #67/#68 + Word Map #191 + Lang Map #111</div>
+            <ul>
+                <li><strong>Han Map all-language rallies</strong>: #67 (commit <code>e5aa365</code>, 199 findings, 30 reviewers + 10 developers) and #68 (commit <code>0afc57d</code>, 291 cells, 30 family + 6 dimension reviewers + 12 developers) — the largest sweeps to date across every variety and dimension.</li>
+                <li><strong>Word Map rally #191</strong> (commits <code>60dedb2</code>, <code>7bf9ddf</code>, <code>0b5e491</code>): 141 verified [surface, IPA] corrections applied; separately, <strong>919 duplicate language-code keys</strong> were removed from the <code>words/*.js</code> data blocks (commit <code>60ff622</code>).</li>
+                <li><strong>Lang Map word-order rally #111</strong> (commits <code>7fbf4eb</code>, <code>d19e122</code>): 103 verified word-order corrections.</li>
+                <li><strong>Min Nan 訓讀 relabelling</strong> (commits <code>05aae20</code>, <code>f6bff59</code>): readings that are native words by meaning (e.g. 立 khiā) re-tagged 白讀 → 訓讀（本字）where appropriate.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-14 — Han Map: Wu &amp; Min romanization overhaul</div>
+            <ul>
+                <li><strong>Taihu Wu normalized to Wugniu tone-class notation</strong> and Wenzhou/Jinhua kept on pitch-contour notation (commits <code>df98f94</code>, <code>5dfa56d</code>, <code>9847991</code>, <code>c76b3f4</code>, <code>a7f08e5</code>): fixed invalid doubled onsets, corrected the 日 白讀/文讀 swap, restored Cantonese 耳=ji5, and added accurate per-variety romanization labels. Suzhou Wu PR #7 merged and reconciled against the Wugniu pass.</li>
+                <li class="contributor">Contributor: <strong>kori228</strong> (<a href="https://github.com/kori228" target="_blank" rel="noopener">@kori228</a>, PR #7 + extensive Wu review). ありがとうございます！</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-13 — SEO pages: server-rendered Word/Han Map &amp; word-order pages</div>
+            <ul>
+                <li><strong>New crawlable pages for each word, character, and language</strong> (commits <code>7dada6a</code>, <code>fe09615</code>, <code>3a3e9fa</code>, <code>ef04554</code>): server-side pages that render the popup content plus related-language comparison sections — native-script glyphs in the Han character table, Word/Han comparisons ranked by IPA similarity, and a two-block word-order comparison with Lang Map-style connector lines ordered by closeness to the page language. GA4 analytics added (production-only).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-05-28 — Community correction: Lhasa Tibetan tone + "house" definition refinement</div>
             <ul>
                 <li><strong>Lhasa Tibetan (<code>bo</code>) — <em>cat</em> tone correction</strong> (commit <code>6dd5f0b</code>): ཞི་མི <code>/ɕimi˥/</code> → <code>/ɕimi˩˧/</code>. The written initial ཞ /ʑ/ is a historically voiced fricative; in the Lhasa tonogenesis the voiced series devoices in onset (/ʑ/ → /ɕ/) but the resulting syllable retains the <strong>low-register tone</strong>, parallel to ཟ za /sa˩˧/ "eat" already in the same row. The earlier `˥` was self-inconsistent with the project's own stated rule (voiced initials → low tone).</li>

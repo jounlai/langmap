@@ -3118,6 +3118,7 @@ const HAN_DATA = {
   },
   "火": {
     "surface": {
+      "ja": "ka",
       "nan_pera": "hóe",
       "nan_id": "húe",
       "nan_sg": "hué",
@@ -3216,6 +3217,7 @@ const HAN_DATA = {
       "ja_thk": "ka"
     },
     "ipa": {
+      "ja": "ka",
       "nan_pera": "hue˨˩",
       "nan_id": "hue˥˧",
       "nan_sg": "hue˥˧",
@@ -3318,6 +3320,7 @@ const HAN_DATA = {
       "pinyin_simple": "huǒ"
     },
     "native": {
+      "ja": "カ",
       "vi": "hoả",
       "vi_c": "hoả",
       "vi_s": "hoả",
@@ -11974,6 +11977,10 @@ const HAN_DATA = {
   },
   "食": {
     "surface": {
+      "wuu": "zeq8",
+      "wuu_hz": "zeq8",
+      "wuu_jx": "zeq8",
+      "wuu_nb": "zeq8",
       "wuu_sz": "zeq8",
       "nan": "si̍t",
       "cdo": "sĭk",
@@ -12059,6 +12066,10 @@ const HAN_DATA = {
       "nan_te": "ziah8"
     },
     "ipa": {
+      "wuu": "zəʔ˩˨",
+      "wuu_hz": "zəʔ˨˩˧",
+      "wuu_jx": "zəʔ˨˩˧",
+      "wuu_nb": "zəʔ˨˩˧",
       "wuu_sz": "zəʔ˨˧",
       "zh": "ʂʐ̩˧˥",
       "zh_tw": "sz̩˧˥",
@@ -21797,20 +21808,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "ja": [
-      {
-        "native": "カ",
-        "surface": "ka",
-        "ipa": "ka",
-        "label": "漢音 / Kan-on"
-      },
-      {
-        "native": "ケ",
-        "surface": "ke",
-        "ipa": "ke",
-        "label": "呉音 / Go-on"
-      }
-    ],
     "nan_my": [
       {
         "native": "",
@@ -26427,62 +26424,6 @@ const HAN_VARIANTS = {
         "surface": "siĕk",
         "ipa": "siɛʔ˥",
         "label": "文讀"
-      }
-    ],
-    "wuu": [
-      {
-        "native": "",
-        "surface": "zeq8",
-        "ipa": "zəʔ˩˨",
-        "label": "白讀 (eat)"
-      },
-      {
-        "native": "",
-        "surface": "seq7",
-        "ipa": "səʔ˥˥",
-        "label": "文讀 (food)"
-      }
-    ],
-    "wuu_nb": [
-      {
-        "native": "",
-        "surface": "zeq8",
-        "ipa": "zəʔ˨˩˧",
-        "label": "白讀 (eat)"
-      },
-      {
-        "native": "",
-        "surface": "seq7",
-        "ipa": "səʔ˥˥",
-        "label": "文讀 (food)"
-      }
-    ],
-    "wuu_hz": [
-      {
-        "native": "",
-        "surface": "zeq8",
-        "ipa": "zəʔ˨˩˧",
-        "label": "白讀 (eat)"
-      },
-      {
-        "native": "",
-        "surface": "seq7",
-        "ipa": "səʔ˥˥",
-        "label": "文讀 (food)"
-      }
-    ],
-    "wuu_jx": [
-      {
-        "native": "",
-        "surface": "zeq8",
-        "ipa": "zəʔ˨˩˧",
-        "label": "白讀 (eat)"
-      },
-      {
-        "native": "",
-        "surface": "seq7",
-        "ipa": "səʔ˥˥",
-        "label": "文讀 (food)"
       }
     ],
     "ja": [

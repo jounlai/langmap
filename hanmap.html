@@ -944,6 +944,19 @@
         .zoom-far .lang-label:not(.vertical) .hanmap-native-line { font-size: calc(9px * var(--label-scale)); }
         .zoom-mid .lang-label:not(.vertical) .hanmap-native-line { font-size: calc(11px * var(--label-scale)); }
 
+        /* Multi-reading labels (白讀/文讀, 文白異讀, 原音/慣用音, …) stack one
+           word/ipa[/native] block PER variant, so a 2-reading label is roughly
+           twice as tall and overlaps its neighbours. Tighten the stacked lines
+           so the multi-reading label stays compact (2D + 3D). The inline
+           白讀/文讀 tag still distinguishes the rows, so the tighter leading
+           doesn't hurt legibility. */
+        .lang-label.multi-variant .word,
+        .globe-label.multi-variant .word { line-height: 1.05; }
+        .lang-label.multi-variant .ipa,
+        .globe-label.multi-variant .ipa { line-height: 1.05; }
+        .lang-label.multi-variant .name,
+        .globe-label.multi-variant .name { line-height: 1.1; }
+
         /* Unattested cell: visually identical to attested .lang-label —
            the dashed outline used to mark "no data for this concept" was
            more visually prominent than the regular labels, so it's been
@@ -6670,7 +6683,11 @@
             }
             const ariaLabel = escapeHtml(ariaParts.filter(Boolean).join(' — '));
             const inCompareCls = (window.__compareList || []).indexOf(code) !== -1 ? ' in-compare' : '';
-            let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
+            // Multi-reading labels (白讀/文讀, 文白異讀, 原音/慣用音, …) stack one
+            // word/native/ipa block per variant, so they grow tall enough to
+            // overlap neighbours — tag them so the CSS can compact the stack.
+            const multiCls = rows.length > 1 ? ' multi-variant' : '';
+            let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${multiCls}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
             for (const r of rows) {
                 // Build the word line: romanisation only (optionally with
                 // a per-variant label tag). 独自文字 (native script) gets

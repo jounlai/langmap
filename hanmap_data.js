@@ -11147,6 +11147,10 @@ const HAN_DATA = {
   },
   "来": {
     "surface": {
+      "nan_zz": "lâi",
+      "nan_xm": "lâi",
+      "nan_pn": "lâi",
+      "nan_qz": "lâi",
       "nan": "lâi",
       "cdo": "lì",
       "zh": "lái",
@@ -11238,6 +11242,11 @@ const HAN_DATA = {
       "nan_hai": "lai5"
     },
     "ipa": {
+      "nan": "lai˨˦",
+      "nan_zz": "lai˩˧",
+      "nan_xm": "lai˨˦",
+      "nan_pn": "lai˨˦",
+      "nan_qz": "lai˨˦",
       "zh": "laɪ˧˥",
       "zh_tw": "laɪ˧˥",
       "zh_db": "lai˧˥",
@@ -11966,6 +11975,7 @@ const HAN_DATA = {
   },
   "食": {
     "surface": {
+      "wuu_sz": "zeq8",
       "nan": "si̍t",
       "cdo": "sĭk",
       "zh": "shí",
@@ -12050,6 +12060,7 @@ const HAN_DATA = {
       "nan_te": "ziah8"
     },
     "ipa": {
+      "wuu_sz": "zəʔ˨˧",
       "zh": "ʂʐ̩˧˥",
       "zh_tw": "sz̩˧˥",
       "zh_db": "ʂʐ̩˧˥",
@@ -25927,59 +25938,11 @@ const HAN_VARIANTS = {
     ],
   },
   "来": {
-    "nan": [
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "lai˨˦",
-        "label": ""
-      }
-    ],
-    "nan_qz": [
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "lai˨˦",
-        "label": ""
-      }
-    ],
-    "nan_te": [
-      {
-        "native": "",
-        "surface": "lai5",
-        "ipa": "lai˥˥",
-        "label": ""
-      }
-    ],
-    "nan_pn": [
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "lai˨˦",
-        "label": ""
-      }
-    ],
     "nan_hai": [
       {
         "native": "",
         "surface": "lai4",
         "ipa": "lai˨˦˥",
-        "label": ""
-      }
-    ],
-    "nan_xm": [
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "lai˨˦",
-        "label": ""
-      }
-    ],
-    "nan_zz": [
-      {
-        "native": "",
-        "surface": "lâi",
-        "ipa": "lai˩˧",
         "label": ""
       }
     ],
@@ -26479,14 +26442,6 @@ const HAN_VARIANTS = {
         "surface": "seq7",
         "ipa": "səʔ˥˥",
         "label": "文讀 (food)"
-      }
-    ],
-    "wuu_sz": [
-      {
-        "native": "",
-        "surface": "zeq8",
-        "ipa": "zəʔ˨˧",
-        "label": ""
       }
     ],
     "wuu_nb": [

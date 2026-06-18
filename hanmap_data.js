@@ -162,7 +162,7 @@ const HAN_DATA = {
       "zh": "yī",
       "zh_tw": "yī",
       "yue": "jat1",
-      "yue_ts": "yat2",
+      "yue_ts": "yit2",
       "wuu": "iq7",
       "wuu_nb": "iq7",
       "wuu_sz": "iq7",
@@ -1992,7 +1992,7 @@ const HAN_DATA = {
       "mnp": "kiu˧˩",
       "wuu": "tɕiɤɯ˧˥",
       "wuu_nb": "tɕiɤɯ˧˥˧",
-      "wuu_sz": "tɕʏ˥˩",
+      "wuu_sz": "tɕiʏ˥˩",
       "wuu_wz": "tɕiau˦˥",
       "wuu_hz": "tɕiɤɯ˥˨˧",
       "wuu_jx": "tɕiɤɯ˥˨˧",
@@ -2396,7 +2396,7 @@ const HAN_DATA = {
       "zh_hf": "zəʔ˦",
       "zh_jh": "niʔ˥",
       "zh_nj": "ʐəʔ˥",
-      "zh_tj": "ʐɿ˥˧",
+      "zh_tj": "ʐ̩˥˧",
       "zh_lz": "ʐɿ˩˧",
       "zh_wh": "ȵi˨˩˧",
       "zh_zz": "ʐ̩˨˦",
@@ -2530,7 +2530,7 @@ const HAN_DATA = {
       "zh_cd": "yue²¹",
       "zh_cq": "yue²¹",
       "zh_xa": "yueq²¹",
-      "zh_km": "yue²¹³",
+      "zh_km": "yue³¹",
       "zh_wh": "yue²¹³",
       "zh_jn": "yue²¹",
       "zh_kf": "yue²⁴",
@@ -2591,7 +2591,7 @@ const HAN_DATA = {
       "zh_cd": "ye˨˩",
       "zh_cq": "ye˨˩",
       "zh_xa": "ye˨˩",
-      "zh_km": "yɛ˨˩˧",
+      "zh_km": "yɛ˧˩",
       "zh_jn": "yɛ˨˩",
       "zh_kf": "yɛ˨˦",
       "zh_hf": "yɪʔ˦",
@@ -3241,7 +3241,7 @@ const HAN_DATA = {
       "zh_lz": "xuə˦˦˨",
       "zh_wh": "xo˦˨",
       "zh_zz": "xuo˥˧",
-      "yue": "fɔ˧˥",
+      "yue": "fɔː˧˥",
       "yue_gz": "fɔː˧˥",
       "yue_ts": "fᵘɔ˥˥",
       "yue_dg": "fɔː˧˥",
@@ -3279,7 +3279,7 @@ const HAN_DATA = {
       "mnc": "tuwa",
       "txg": "mji˩",
       "za": "fo˨˩",
-      "zkt": "gal",
+      "zkt": "ɡal",
       "zh_yuan": "xuɔ˨˩˦",
       "zh_phagspa": "xɔ",
       "yue_hk": "fɔː˧˥",
@@ -3379,7 +3379,7 @@ const HAN_DATA = {
       "zh_cd": "mu²¹",
       "zh_cq": "mu²¹",
       "zh_xa": "muq²¹",
-      "zh_km": "mu²¹³",
+      "zh_km": "mu³¹",
       "zh_wh": "mu²¹³",
       "zh_jn": "mu²¹",
       "zh_kf": "mu²⁴",
@@ -3442,7 +3442,7 @@ const HAN_DATA = {
       "zh_cd": "mu˨˩",
       "zh_cq": "mu˨˩",
       "zh_xa": "mu˨˩",
-      "zh_km": "mu˨˩˧",
+      "zh_km": "mu˧˩",
       "zh_jn": "mu˨˩",
       "zh_kf": "mu˨˦",
       "zh_hf": "muʔ˦",
@@ -3600,7 +3600,7 @@ const HAN_DATA = {
       "zh_km": "tu⁵³",
       "zh_wh": "tou⁴²",
       "zh_jn": "tu⁵⁵",
-      "zh_kf": "tu⁵⁵",
+      "zh_kf": "tu⁵³",
       "zh_hf": "tu²⁴",
       "zh_nj": "tu²¹²",
       "zh_jh": "tu⁵³",
@@ -3663,7 +3663,7 @@ const HAN_DATA = {
       "zh_xa": "tʰu˥˧",
       "zh_km": "tʰu˥˧",
       "zh_jn": "tʰu˥˥",
-      "zh_kf": "tʰu˥˥",
+      "zh_kf": "tʰu˥˧",
       "zh_hf": "tʰu˨˦",
       "zh_jh": "tʰu˥˧",
       "zh_nj": "tʰu˨˩˨",
@@ -4231,7 +4231,7 @@ const HAN_DATA = {
       "zh_km": "hai⁵³",
       "zh_wh": "hai⁴²",
       "zh_jn": "hai⁵⁵",
-      "zh_kf": "hai⁵⁵",
+      "zh_kf": "hai⁵³",
       "zh_hf": "hai²⁴",
       "zh_nj": "hai²¹²",
       "zh_jh": "hai⁵³",
@@ -4292,7 +4292,7 @@ const HAN_DATA = {
       "zh_xa": "xɛ˥˧",
       "zh_km": "xai˥˧",
       "zh_jn": "xɛ˥˥",
-      "zh_kf": "xai˥˥",
+      "zh_kf": "xai˥˧",
       "zh_hf": "xɛ˨˦",
       "zh_jh": "xai˥˧",
       "zh_nj": "xæ˨˩˨",
@@ -4447,7 +4447,7 @@ const HAN_DATA = {
       "zh_cd": "nong²¹",
       "zh_cq": "nong²¹",
       "zh_xa": "long²⁴",
-      "zh_km": "long²⁴",
+      "zh_km": "long³¹",
       "zh_wh": "nong²¹³",
       "zh_jn": "long⁴²",
       "zh_kf": "long⁴²",
@@ -4504,7 +4504,7 @@ const HAN_DATA = {
       "zh_cd": "noŋ˨˩",
       "zh_cq": "noŋ˨˩",
       "zh_xa": "luŋ˨˦",
-      "zh_km": "luŋ˨˦",
+      "zh_km": "luŋ˧˩",
       "zh_jn": "luŋ˦˨",
       "zh_kf": "luŋ˦˨",
       "zh_hf": "ləŋ˥˥",
@@ -4657,7 +4657,7 @@ const HAN_DATA = {
       "zh_km": "hu⁵³",
       "zh_wh": "hu⁴²",
       "zh_jn": "hu⁵⁵",
-      "zh_kf": "hu⁵⁵",
+      "zh_kf": "hu⁵³",
       "zh_hf": "hu²⁴",
       "zh_nj": "hu²¹²",
       "zh_jh": "hu²¹²",
@@ -4718,7 +4718,7 @@ const HAN_DATA = {
       "zh_xa": "xu˥˧",
       "zh_km": "xu˥˧",
       "zh_jn": "xu˥˥",
-      "zh_kf": "xu˥˥",
+      "zh_kf": "xu˥˧",
       "zh_hf": "xu˨˦",
       "zh_jh": "xu˨˩˨",
       "zh_nj": "xu˨˩˨",
@@ -4879,7 +4879,7 @@ const HAN_DATA = {
       "zh_km": "quan⁵³",
       "zh_wh": "quan⁴²",
       "zh_jn": "quan⁵⁵",
-      "zh_kf": "quan⁵⁵",
+      "zh_kf": "quan⁵³",
       "zh_hf": "quan²⁴",
       "zh_nj": "quan²¹²",
       "zh_jh": "quan²¹²",
@@ -4943,7 +4943,7 @@ const HAN_DATA = {
       "zh_xa": "tɕʰyæ̃˥˧",
       "zh_km": "tɕʰyæ̃˥˧",
       "zh_jn": "tɕʰyã˥˥",
-      "zh_kf": "tɕʰyɛn˥˥",
+      "zh_kf": "tɕʰyɛn˥˧",
       "zh_hf": "tɕʰyẽ˨˦",
       "zh_jh": "tɕʰyẽ˨˩˨",
       "zh_nj": "tɕʰyẽ˨˩˨",
@@ -4989,7 +4989,7 @@ const HAN_DATA = {
       "vi_c": "xwiən˧˩˨",
       "vi_s": "xwiən˨˩˦",
       "bca": "kʰwɛ˨˩",
-      "juc": "indaxuːn",
+      "juc": "indaxɯn",
       "mnc": "indaxuːn",
       "txg": "kʰɨː˨",
       "za": "kin˨˩˧",
@@ -5106,7 +5106,7 @@ const HAN_DATA = {
       "zh_nj": "ma²¹²",
       "zh_jh": "ma⁵³",
       "zh_tj": "ma¹³",
-      "zh_lz": "ma⁴³²",
+      "zh_lz": "ma⁴⁴²",
       "zh_db": "ma²¹³",
       "zh_zz": "ma⁵³",
       "yue_gz": "maa5",
@@ -5163,7 +5163,7 @@ const HAN_DATA = {
       "zh_jh": "ma˥˧",
       "zh_nj": "mɑ˨˩˨",
       "zh_tj": "ma˩˧",
-      "zh_lz": "ma˦˧˨",
+      "zh_lz": "ma˦˦˨",
       "zh_wh": "ma˦˨",
       "zh_zz": "ma˥˧",
       "yue": "maː˩˧",
@@ -5311,7 +5311,7 @@ const HAN_DATA = {
       "zh_nj": "niao²¹²",
       "zh_jh": "niao⁵³",
       "zh_tj": "niao¹³",
-      "zh_lz": "niao⁴³²",
+      "zh_lz": "niao⁴⁴²",
       "zh_db": "niao²¹³",
       "zh_zz": "niao⁵³",
       "yue_gz": "niu5",
@@ -5370,7 +5370,7 @@ const HAN_DATA = {
       "zh_jh": "niau˥˧",
       "zh_nj": "niɔ˨˩˨",
       "zh_tj": "niau˩˧",
-      "zh_lz": "niɔ˦˧˨",
+      "zh_lz": "niɔ˦˦˨",
       "zh_wh": "niau˦˨",
       "zh_zz": "niau˥˧",
       "yue": "niːu˩˧",
@@ -6011,7 +6011,7 @@ const HAN_DATA = {
       "zh_wh": "iaŋ˨˩˧",
       "zh_zz": "iaŋ˦˨",
       "yue": "jœːŋ˨˩",
-      "yue_gz": "jœŋ˨˩",
+      "yue_gz": "jœːŋ˨˩",
       "yue_ts": "jiaŋ˨˨",
       "yue_dg": "jœŋ˨˩",
       "yue_nn": "jœŋ˨˩",
@@ -6562,7 +6562,7 @@ const HAN_DATA = {
       "zh_km": "sou⁵³",
       "zh_wh": "sou⁴²",
       "zh_jn": "shou⁵⁵",
-      "zh_kf": "shou⁵⁵",
+      "zh_kf": "shou⁵³",
       "zh_hf": "sou²⁴",
       "zh_nj": "shou²¹²",
       "zh_jh": "shou²¹³",
@@ -6615,12 +6615,12 @@ const HAN_DATA = {
       "zh_tw": "sou˨˩˦",
       "zh_db": "ʂou˨˩˧",
       "zh_sc": "sou˥˧",
-      "zh_cd": "sou˥˧",
-      "zh_cq": "sou˦˨",
+      "zh_cd": "səu˥˧",
+      "zh_cq": "səu˦˨",
       "zh_xa": "sou˥˧",
       "zh_km": "sou˥˧",
       "zh_jn": "ʂou˥˥",
-      "zh_kf": "ʂou˥˥",
+      "zh_kf": "ʂou˥˧",
       "zh_hf": "sɤu˨˦",
       "zh_jh": "ʂou˨˩˧",
       "zh_nj": "ʂəɯ˨˩˨",
@@ -6766,7 +6766,7 @@ const HAN_DATA = {
       "zh_cd": "zu²¹",
       "zh_cq": "zu²¹",
       "zh_xa": "zuq²¹",
-      "zh_km": "zu²⁴",
+      "zh_km": "zu³¹",
       "zh_wh": "zou²¹³",
       "zh_jn": "zu²¹³",
       "zh_kf": "zu²⁴",
@@ -6828,7 +6828,7 @@ const HAN_DATA = {
       "zh_cd": "tsu˨˩",
       "zh_cq": "tsu˨˩",
       "zh_xa": "tsu˨˩",
-      "zh_km": "tsu˨˦",
+      "zh_km": "tsu˧˩",
       "zh_jn": "tsu˨˩˧",
       "zh_kf": "tsu˨˦",
       "zh_hf": "tsuʔ˦",
@@ -6979,7 +6979,7 @@ const HAN_DATA = {
       "zh_cd": "mu²¹",
       "zh_cq": "mu²¹",
       "zh_xa": "muq²¹",
-      "zh_km": "mu²¹³",
+      "zh_km": "mu³¹",
       "zh_wh": "mu²¹³",
       "zh_jn": "mu²¹",
       "zh_kf": "mu²⁴",
@@ -7038,7 +7038,7 @@ const HAN_DATA = {
       "zh_cd": "mu˨˩",
       "zh_cq": "mu˨˩",
       "zh_xa": "mu˨˩",
-      "zh_km": "mu˨˩˧",
+      "zh_km": "mu˧˩",
       "zh_jn": "mu˨˩",
       "zh_kf": "mu˨˦",
       "zh_hf": "muʔ˦",
@@ -7152,7 +7152,7 @@ const HAN_DATA = {
       "zh_tw": "ěr",
       "yue": "ji5",
       "yue_ts": "ngei2",
-      "nan_te": "hĩ5",
+      "nan_te": "hĩ6",
       "nan_hai": "hĩ3",
       "cdo": "ngê",
       "cpx": "ngî",
@@ -7259,7 +7259,7 @@ const HAN_DATA = {
       "yue_dg": "jiː˩˧",
       "yue_nn": "ji˨˦",
       "yue_zs": "ji˩˧",
-      "nan_te": "hĩ˥˥",
+      "nan_te": "hĩ˧˥",
       "nan_hai": "hĩ˧˧",
       "cdo": "ŋe˩˧",
       "cpx": "ŋi˧˩",
@@ -7602,7 +7602,7 @@ const HAN_DATA = {
       "zh_cd": "tou²¹",
       "zh_cq": "tou²¹",
       "zh_xa": "tou²⁴",
-      "zh_km": "tou²⁴",
+      "zh_km": "tou³¹",
       "zh_wh": "tou²¹³",
       "zh_jn": "tou⁴²",
       "zh_kf": "tou²⁴",
@@ -7623,7 +7623,7 @@ const HAN_DATA = {
       "gan": "theu⁴⁵",
       "cnp": "thou³¹",
       "zh_yuan": "theu2",
-      "zh_phagspa": "tʰiw",
+      "zh_phagspa": "thiw",
       "yue_hk": "tau4",
       "yue_mo": "tau4",
       "sjo": "uju",
@@ -7634,7 +7634,7 @@ const HAN_DATA = {
       "pko": "*məri",
       "ptung": "*dil",
       "paa": "*kduəl",
-      "ptai": "*krawˀ.C",
+      "ptai": "*kraw.C",
       "pmgl": "*terixün",
       "phm": "*S-phreiX",
       "ja_kun": "atama",
@@ -7663,7 +7663,7 @@ const HAN_DATA = {
       "zh_cd": "tʰəu˨˩",
       "zh_cq": "tʰəu˨˩",
       "zh_xa": "tʰou˨˦",
-      "zh_km": "tʰəu˨˦",
+      "zh_km": "tʰəu˧˩",
       "zh_jn": "tʰou˦˨",
       "zh_kf": "tʰəu˨˦",
       "zh_hf": "tʰɯ˥˥",
@@ -7883,7 +7883,7 @@ const HAN_DATA = {
       "zh_jn": "ɕiẽ˨˩˧",
       "zh_kf": "ɕin˨˦",
       "zh_hf": "ɕin˨˩",
-      "zh_jh": "siŋ˧˧˦",
+      "zh_jh": "ɕin˧˧˦",
       "zh_nj": "ɕin˧˩",
       "zh_tj": "ɕin˨˩",
       "zh_lz": "ɕiŋ˧˩",
@@ -8080,7 +8080,7 @@ const HAN_DATA = {
       "zh_us": "xue⁴",
       "nan_th": "huêh4",
       "zh_th": "xuè",
-      "zh_jiao": "xue²¹³",
+      "zh_jiao": "xue⁵⁵",
       "hak_mz": "hiet",
       "zh_gl": "xue³¹",
       "ko_bus": "hyeolH",
@@ -8170,7 +8170,7 @@ const HAN_DATA = {
       "zh_us": "ɕjwe˥˩",
       "nan_th": "hueʔ˨",
       "zh_th": "ɕye˥˩",
-      "zh_jiao": "ɕyə˨˩˧",
+      "zh_jiao": "ɕyə˥˥",
       "hak_mz": "hiet̚˩",
       "zh_gl": "ɕyɛ˧˩",
       "ko_bus": "hjʌl˥",
@@ -9204,7 +9204,7 @@ const HAN_DATA = {
       "vi_c": "tʂuŋ͡m˨˩˧",
       "vi_s": "ʈuŋ͡m˧˥",
       "vi_nom": "tʂuŋ͡m˧˥",
-      "bca": "ʐoŋ˧˩",
+      "bca": "ʐoŋ˨˩",
       "mnc": "ɡoibumbi",
       "txg": "tɕjɨ˨",
       "za": "tsuk̚˥",
@@ -9348,7 +9348,7 @@ const HAN_DATA = {
       "zh_wh": "iaŋ˥˥",
       "zh_zz": "iaŋ˨˦",
       "yue": "jœːŋ˥",
-      "yue_gz": "jœŋ˥˥",
+      "yue_gz": "jœːŋ˥˥",
       "yue_ts": "jaŋ˧˧",
       "yue_dg": "jœŋ˥˥",
       "yue_nn": "jœŋ˥˥",
@@ -9483,7 +9483,7 @@ const HAN_DATA = {
       "zh_km": "zuo⁵³",
       "zh_wh": "zuo⁴²",
       "zh_jn": "zuo⁵⁵",
-      "zh_kf": "zuo⁵⁵",
+      "zh_kf": "zuo⁵³",
       "zh_hf": "zuo²⁴",
       "zh_nj": "zuo²¹²",
       "zh_jh": "zuo⁵³",
@@ -9544,7 +9544,7 @@ const HAN_DATA = {
       "zh_xa": "tsuo˥˧",
       "zh_km": "tsuo˥˧",
       "zh_jn": "tsuo˥˥",
-      "zh_kf": "tsuo˥˥",
+      "zh_kf": "tsuo˥˧",
       "zh_hf": "tso˨˦",
       "zh_jh": "tsuo˥˧",
       "zh_nj": "tsuo˨˩˨",
@@ -9820,7 +9820,7 @@ const HAN_DATA = {
       "zh_phagspa": "jiw",
       "yue_hk": "jɐu˨",
       "yue_mo": "jɐu˨",
-      "nan_sg": "iu˧",
+      "nan_sg": "iu˨˩",
       "nan_my": "iu˨˩",
       "sjo": "it͡ɕi",
       "ko_mid": "wu˩˥",
@@ -9993,7 +9993,7 @@ const HAN_DATA = {
       "wuu_nb": "toŋ˥˧",
       "wuu_sz": "toŋ˦˦",
       "wuu_wz": "toŋ˧˧",
-      "wuu_hz": "toŋ˧˧˦",
+      "wuu_hz": "toŋ˧˧",
       "wuu_jx": "toŋ˥˧",
       "wuu_jh": "tuŋ˥˧˥",
       "hak_cn": "tuŋ˦˦",
@@ -10137,7 +10137,7 @@ const HAN_DATA = {
       "sjo": "wargi",
       "ko_mid": "sye",
       "ja_ojp": "sai",
-      "bo_sino": "zhi",
+      "bo_sino": "shi",
       "ko_kp": "sŏ",
       "ko_zai": "seo",
       "pja": "*nisi",
@@ -10154,7 +10154,7 @@ const HAN_DATA = {
       "zh_gl": "xi⁴⁴",
       "ko_bus": "seoL",
       "ja_kgs": "sei",
-      "ja_okn": "sii",
+      "ja_okn": "sī",
       "ja_thk": "sei"
     },
     "ipa": {
@@ -10189,7 +10189,7 @@ const HAN_DATA = {
       "wuu_nb": "ɕi˥˧",
       "wuu_sz": "ɕi˦˦",
       "wuu_wz": "sei˧˧",
-      "wuu_hz": "ɕi˧˧˦",
+      "wuu_hz": "ɕi˧˧",
       "wuu_jx": "ɕi˥˧",
       "wuu_jh": "ɕi˥˧˥",
       "hak_cn": "si˦˦",
@@ -10237,7 +10237,7 @@ const HAN_DATA = {
       "zh_gl": "ɕi˦˦",
       "ko_bus": "sʌ˩",
       "ja_kgs": "sei",
-      "ja_okn": "sii",
+      "ja_okn": "siː",
       "ja_thk": "sei"
     },
     "en": {
@@ -10264,7 +10264,7 @@ const HAN_DATA = {
       "ko_hun": "하늬",
       "dng": "щи",
       "ja_kgs": "セイ",
-      "ja_okn": "シイ",
+      "ja_okn": "シー",
       "ja_thk": "セイ",
       "vi_nom": "西",
       "ko_bus": "서"
@@ -10313,7 +10313,7 @@ const HAN_DATA = {
       "zh_cd": "nan²¹",
       "zh_cq": "nan²¹",
       "zh_xa": "nan²⁴",
-      "zh_km": "nan²⁴",
+      "zh_km": "nan³¹",
       "zh_wh": "nan²¹³",
       "zh_jn": "nan⁴²",
       "zh_kf": "nan⁴²",
@@ -10372,7 +10372,7 @@ const HAN_DATA = {
       "zh_cd": "nan˨˩",
       "zh_cq": "nan˨˩",
       "zh_xa": "nã˨˦",
-      "zh_km": "nã˨˦",
+      "zh_km": "nã˧˩",
       "zh_jn": "nã˦˨",
       "zh_kf": "nan˦˨",
       "zh_hf": "næ̃˥˥",
@@ -11505,7 +11505,7 @@ const HAN_DATA = {
       "zh_phagspa": "kʰy",
       "yue_hk": "hɵy˧",
       "yue_mo": "hɵy˧",
-      "sjo": "ɣənəm",
+      "sjo": "ɡənəm",
       "ko_mid": "kʰə˥",
       "ja_ojp": "ko",
       "ko_kp": "kʌ",
@@ -11802,7 +11802,7 @@ const HAN_DATA = {
       "zh_cd": "wen²¹",
       "zh_cq": "wen²¹",
       "zh_xa": "ven²⁴",
-      "zh_km": "wen²⁴",
+      "zh_km": "wen³¹",
       "zh_wh": "wen²¹³",
       "zh_jn": "wen⁴²",
       "zh_kf": "wen⁴²",
@@ -11859,7 +11859,7 @@ const HAN_DATA = {
       "zh_cd": "uən˨˩",
       "zh_cq": "uən˨˩",
       "zh_xa": "vẽ˨˦",
-      "zh_km": "vẽ˨˦",
+      "zh_km": "vẽ˧˩",
       "zh_jn": "uẽ˦˨",
       "zh_kf": "uən˦˨",
       "zh_hf": "uən˥˥",
@@ -12411,7 +12411,7 @@ const HAN_DATA = {
       "zh_km": "zou⁵³",
       "zh_wh": "zou⁴²",
       "zh_jn": "zou⁵⁵",
-      "zh_kf": "zou⁵⁵",
+      "zh_kf": "zou⁵³",
       "zh_hf": "zou²⁴",
       "zh_nj": "zou²¹²",
       "zh_jh": "zou²¹³",
@@ -12468,7 +12468,7 @@ const HAN_DATA = {
       "zh_xa": "tsou˥˧",
       "zh_km": "tsəu˥˧",
       "zh_jn": "tsou˥˥",
-      "zh_kf": "tsou˥˥",
+      "zh_kf": "tsou˥˧",
       "zh_hf": "tsɯ˨˦",
       "zh_jh": "tsou˨˩˧",
       "zh_nj": "tsɤu˨˩˨",
@@ -12499,7 +12499,7 @@ const HAN_DATA = {
       "hak_hl": "tseu˨˦",
       "cjy": "tsəu˥˧",
       "czh": "tseu˨˩˧",
-      "hsn": "tsəɯ˦˩",
+      "hsn": "tsəu˦˩",
       "gan": "tsɛu˨˩˧",
       "cnp": "tsɛu˨˩˧",
       "zh_han": "*[ts]ˤoʔ",
@@ -12682,7 +12682,7 @@ const HAN_DATA = {
       "zh_lz": "tsuə˩˧",
       "zh_wh": "tso˧˥",
       "zh_zz": "tsuo˧˩˨",
-      "yue": "t͡sʰɔ˩˧",
+      "yue": "t͡sʰɔː˩˧",
       "yue_gz": "tsʰɔː˩˧",
       "yue_ts": "tʰᵘɔ˧˧",
       "yue_dg": "tsʰɔː˩˧",
@@ -12983,7 +12983,7 @@ const HAN_DATA = {
       "ja_kun": "たつ",
       "ko_hun": "설",
       "vi_nom": "𨇜",
-      "dng": "җаңь",
+      "dng": "җань",
       "ja_kgs": "リッ",
       "ja_okn": "リツ",
       "ja_thk": "リツ",
@@ -14180,7 +14180,7 @@ const HAN_LANG_META = {
       "江淮官話研究"
     ],
     "romanization": {
-      "name": "Hanyu Pinyin with tone-contour superscripts (金衢音)",
+      "name": "Hanyu Pinyin with tone-contour superscripts (南京音)",
       "authority": "Nanjing Normal University",
       "year": 1991
     },
@@ -19298,13 +19298,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "liông",
         "ipa": "lioŋ˨˧",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "lêng",
         "ipa": "liŋ˨˧",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "nan_xm": [
@@ -19312,13 +19312,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "liông",
         "ipa": "liɔŋ˨˦",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "lêng",
         "ipa": "liŋ˨˦",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "nan_qz": [
@@ -19326,13 +19326,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "liông",
         "ipa": "liɔŋ˨˦",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "lêng",
         "ipa": "liŋ˨˦",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "nan_zz": [
@@ -19340,13 +19340,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "liông",
         "ipa": "liɔŋ˩˧",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "lêng",
         "ipa": "liŋ˩˧",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "nan_pn": [
@@ -19354,13 +19354,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "liông",
         "ipa": "liɔŋ˨˦",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "lêng",
         "ipa": "liŋ˨˦",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "nan_sg": [
@@ -19368,13 +19368,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "liông",
         "ipa": "liɔŋ˨˦",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "lêng",
         "ipa": "liŋ˨˦",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "nan_id": [
@@ -19396,13 +19396,13 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "liong⁵",
         "ipa": "liɔŋ˨˦",
-        "label": "白讀"
+        "label": "文讀"
       },
       {
         "native": "",
         "surface": "leng⁵",
         "ipa": "liŋ˨˦",
-        "label": "文讀"
+        "label": "白讀"
       }
     ]
   },
@@ -24024,8 +24024,8 @@ const HAN_VARIANTS = {
       },
       {
         "native": "",
-        "surface": "chhùi",
-        "ipa": "tsʰui˨˩",
+        "surface": "khió͘",
+        "ipa": "kʰiɔ˥˨",
         "label": "文讀"
       }
     ],
@@ -24662,13 +24662,13 @@ const HAN_VARIANTS = {
     "yue_ts": [
       {
         "native": "",
-        "surface": "seung⁶",
+        "surface": "seung6",
         "ipa": "sœŋ˨˨",
         "label": "上面（locative）"
       },
       {
         "native": "",
-        "surface": "seung⁵",
+        "surface": "seung5",
         "ipa": "sœŋ˨˧",
         "label": "上去（directional verb）"
       }
@@ -25031,13 +25031,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "iong",
-        "ipa": "ŋ̍˥˥",
+        "ipa": "iɔŋ˥˥",
         "label": "文讀"
       },
       {
         "native": "",
         "surface": "ng",
-        "ipa": "iɔŋ˥˥",
+        "ipa": "ŋ̍˥˥",
         "label": "白讀"
       }
     ],
@@ -25710,7 +25710,7 @@ const HAN_VARIANTS = {
     "hsn": [
       {
         "native": "",
-        "surface": "ɕin¹³",
+        "surface": "xin¹³",
         "ipa": "ɕin˩˧",
         "label": "文讀"
       }
@@ -25718,8 +25718,8 @@ const HAN_VARIANTS = {
     "gan": [
       {
         "native": "",
-        "surface": "hen⁴⁵",
-        "ipa": "hɛn˦˥",
+        "surface": "xin⁴⁵",
+        "ipa": "ɕin˦˥",
         "label": "文讀"
       }
     ],
@@ -26193,13 +26193,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "khì",
-        "ipa": "kʰi˥˧",
+        "ipa": "kʰi˥˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "khù",
-        "ipa": "kʰu˥˧",
+        "ipa": "kʰu˥˩",
         "label": "文讀"
       }
     ],

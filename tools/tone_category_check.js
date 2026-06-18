@@ -65,6 +65,20 @@ function toneSig(ipa) {
   return s || null;
 }
 
+// --- 4b. Verified exceptions: cells whose tone legitimately deviates from the
+//         category majority (confirmed against sources / variety phonology in the
+//         2026-06 tone-category audit). Listed here so the checker reports only
+//         UNexplained outliers — a regression guard. `lang|char`.
+const EXCEPTIONS = new Set([
+  'cpx|血',      // Puxian 血 is irregular 陽入 (Putian he6 / Xianyou hyoeh6), not 陰入
+  'czh|六',      // Hui 六 lexicalised low numeral reading; no source to "correct" it
+  'mnp|日', 'mnp|立', // Jian'ou 次濁入 → 陽入 ˦˨ (Wiktionary /ni⁴²/, /li⁴²/), vs 陰入 peers
+  'nan_hai|九', 'nan_hai|火', // Hainanese 陰上 is a genuine LOW contour (~213), not the ˨˦˥ majority
+  'nan_id|口', 'nan_sg|口',   // 訓讀: cell holds colloquial 喙/嘴 chhùi (陰去), not 口's own reading
+  'yue_nn|肉', 'yue_zs|肉',   // 入聲 notation: ˨ ≡ ˨˨ (short checked tone), not a tone error
+  'zh_jiao|六', 'zh_jiao|肉', // Jiao-Liao 次濁入 → 去聲 ˥˧ (regular here), peers' ˦˨ is the split
+]);
+
 // --- 5. For each variety, group chars by MC cell, find majority tone, flag outliers.
 const candidates = [];
 for (const lang of langs) {
@@ -87,6 +101,7 @@ for (const lang of langs) {
     if (majN < Math.ceil(arr.length * 0.7)) continue; // need ≥70% agreement to call a majority
     for (const x of arr) {
       if (x.sig !== majSig) {
+        if (EXCEPTIONS.has(lang + '|' + x.char)) continue; // verified legitimate deviation
         candidates.push({
           lang, char: x.char, cell: toneName[x.mc[0]] + clsName[x.mc[1]],
           got: x.sig, expected: majSig, ipa: x.ipa,

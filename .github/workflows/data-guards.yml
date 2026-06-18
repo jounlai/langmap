@@ -1,0 +1,41 @@
+name: Data guards
+
+# Deterministic data-integrity guards for all three maps (HanMap / LangMap /
+# WordMap). Runs tools/check_all.js, which enumerates each systematic error
+# class completely (not by sampling) and exits non-zero on any actionable
+# regression: MC tone-category consistency, surface↔IPA field-integrity & tone
+# agreement, 文白 variant structure, native-glyph script, LangMap segment-role
+# integrity, and WordMap duplicate-key / shape checks. Offline & deterministic.
+
+on:
+  pull_request:
+    paths:
+      - 'hanmap_data.js'
+      - 'data.js'
+      - 'words/**'
+      - 'tools/**'
+      - '.github/workflows/data-guards.yml'
+  push:
+    branches: [main, develop]
+    paths:
+      - 'hanmap_data.js'
+      - 'data.js'
+      - 'words/**'
+      - 'tools/**'
+      - '.github/workflows/data-guards.yml'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  data-guards:
+    name: Deterministic data guards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Run all deterministic data guards
+        run: node tools/check_all.js

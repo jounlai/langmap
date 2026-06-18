@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# LangMap deterministic data guards — pre-commit hook.
+# Runs tools/check_all.js when any map data or tool is staged, and blocks the
+# commit if a guard fails. Install with:
+#   ln -sf ../../tools/git-hooks/pre-commit .git/hooks/pre-commit
+# (or: node tools/check_all.js  to run the guards manually any time.)
+set -euo pipefail
+
+# Only run when relevant files are staged — keep unrelated commits fast.
+if git diff --cached --name-only | grep -qE '^(hanmap_data\.js|data\.js|words/|tools/)'; then
+  echo "Running data guards (tools/check_all.js)…"
+  if ! node tools/check_all.js; then
+    echo
+    echo "✗ Data guards failed — commit blocked. Fix the issues above, or run"
+    echo "  'git commit --no-verify' to bypass (not recommended)."
+    exit 1
+  fi
+fi
+exit 0

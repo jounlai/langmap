@@ -915,7 +915,7 @@ WORDS.thanks = {
     shp: ["gracias", "ɡrasjas"],
     cab: ["seremein", "seremein"],
     crx: ["snachailya", "snatʃailja"],
-    tsi: ["t'oyaxsut nüsm", "tʼojaχsut nyzm"],
+    tsi: ["t'oyaxsut nüsm", "tʼojaχsut nysm"],
     thp: ["kukstéyp", "kuksteːjp"],
     wbl: ["ишкур", "iʃkur"],
     psi: ["شکریه", "ʃukrija"],

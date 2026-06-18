@@ -688,7 +688,7 @@ WORDS.cat = {
     shy: ["mucc", "mutʃː"],
     mwr: ["मीनी", "miːniː"],
     bgc: ["बिल्ली", "bɪlːiː"],
-    ks: ["براري", "buːz"],
+    ks: ["براري", "braːriː"],
     kok: ["माजर", "maːdʒəɾ"],
     mnp: ["猫", "miau˥˦"],
     nan_te: ["猫", "niau˧˧"],

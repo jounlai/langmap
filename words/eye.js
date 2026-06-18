@@ -297,7 +297,7 @@ WORDS.eye = {
     nap: ["uocchio", "wɔkkjə"],
     scn: ["occhiu", "ɔkkju"],
     vec: ["ocio", "ɔtʃo"],
-    co: ["ochju", "ɔtʃu"],
+    co: ["ochju", "ɔcu"],
     lij: ["euggio", "ødʒu"],
     rgn: ["ucc", "ˈutʃ"],
     egl: ["ucc", "ˈutʃ"],

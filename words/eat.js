@@ -1024,7 +1024,7 @@ WORDS.eat = {
     lwl: ["ngui", "ŋui"],
     grt: ["cha·a", "tʃaa"],
     nut: ["kin", "kin˧˧"],
-    quc: ["tijow", "tihow"],
+    quc: ["tijow", "tixow"],
     cak: ["waʼin", "waʔin"],
     kek: ["taawaʼ", "tawaʔ"],
     poh: ["wai", "wai"],

@@ -786,7 +786,7 @@ WORDS.tree = {
     pnt: ["δέντρον", "ˈðendron"],
     hno: ["درخت", "daɾaxt"],
     bhb: ["झाड़", "dʒʱaːɽ"],
-    cja: ["kayuw", "kaiuv"],
+    cja: ["kayuw", "kajuv"],
     meu: ["au", "au"],
     pon: ["tuhke", "tuhke"],
     kos: ["sak", "sak"],

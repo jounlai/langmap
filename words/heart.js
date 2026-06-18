@@ -167,7 +167,7 @@ WORDS.heart = {
     ro: ["inimă", "inimə"],
     ga: ["croí", "kɾiː"],
     eu: ["bihotz", "biot͡s"],
-    cy: ["calon", "kalon"],
+    cy: ["calon", "kalɔn"],
     ka: ["გული", "ɡuli"],
     lzz: ["გური", "ɡuri"],
     sva: ["ლიე", "lie"],

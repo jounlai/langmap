@@ -130,7 +130,7 @@ WORDS.father = {
     eve: ["ама", "ama"],
     gld: ["ама", "ama"],
     ude: ["амэ", "amə"],
-    yrk: ["нися", "nisja"],
+    yrk: ["нися", "nʲisʲa"],
     enf: ["niʃe", "niʃe"],
     nio: ["десы", "desɨ"],
     sel: ["ача", "at͡ʃa"],

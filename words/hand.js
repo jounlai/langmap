@@ -73,7 +73,7 @@ WORDS.hand = {
     nan: ["手", "t͡sʰiu˥˧"],
     wuu: ["手", "sɤ˧˥"],
     hak_cn: ["手", "su˧˩"],
-    vi: ["tay", "taj˥"],
+    vi: ["tay", "taj˧"],
     vi_c: ["tay", "taːj˥"],
     vi_s: ["tay", "taj˥"],
     th: ["มือ", "mɯː˧"],

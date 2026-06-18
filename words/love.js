@@ -683,7 +683,7 @@ WORDS.love = {
     seh: ["kufuna", "kufuna"],
     ngl: ["osivela", "osivela"],
     din: ["nhiär", "n̪iar"],
-    nus: ["nhok", "ɲok"],
+    nus: ["nhok", "nok"],
     anu: ["mar", "mar"],
     luo: ["hera", "hera"],
     mas: ["eitalu", "eitalu"],

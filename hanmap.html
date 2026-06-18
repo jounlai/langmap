@@ -913,8 +913,14 @@
             writing-mode: vertical-lr;
             text-orientation: mixed;
             display: inline-block;
-            line-height: 1.4;
-            min-height: 2em;
+            /* 独自文字 (Mongolian/Manchu/Phags-pa/Khitan) is written as a
+               vertical column, so a multi-glyph reading makes this line very
+               tall. Keep its footprint tight — a slightly smaller glyph, a
+               tight inter-glyph advance, and no 2em floor for short readings —
+               so the label doesn't tower over and overlap its neighbours. */
+            font-size: 0.9em;
+            line-height: 1.12;
+            min-height: 1.3em;
         }
 
         .zoom-far .lang-label .word { font-size: calc(11px * var(--label-scale)); }
@@ -923,6 +929,20 @@
         .zoom-mid .lang-label .word { font-size: calc(13px * var(--label-scale)); }
         .zoom-mid .lang-label .ipa { font-size: calc(9px * var(--label-scale)); }
         .zoom-mid .lang-label .name { font-size: calc(8px * var(--label-scale)); }
+
+        /* 独自文字 (horizontal native scripts — Tangut, Chữ Nôm, archaic
+           Hangul jamo, etc.) share the .word box, so a script whose font has
+           tall vertical metrics inflates the label height and overlaps the
+           IPA line below / adjacent map labels. Pin the native line to a
+           slightly smaller glyph and a tight, predictable line box so its
+           vertical footprint stays close to a normal romanisation line.
+           (.vertical labels are handled by the vertical-lr rule above.) */
+        .lang-label:not(.vertical) .hanmap-native-line {
+            font-size: calc(13px * var(--label-scale));
+            line-height: 1.15;
+        }
+        .zoom-far .lang-label:not(.vertical) .hanmap-native-line { font-size: calc(9px * var(--label-scale)); }
+        .zoom-mid .lang-label:not(.vertical) .hanmap-native-line { font-size: calc(11px * var(--label-scale)); }
 
         /* Unattested cell: visually identical to attested .lang-label —
            the dashed outline used to mark "no data for this concept" was
@@ -1452,6 +1472,17 @@
         .globe-label.vertical .word {
             writing-mode: vertical-lr; text-orientation: mixed;
             display: inline-block; line-height: 1.4; min-height: 2em;
+        }
+        /* 独自文字 footprint fix — mirror of the 2D .lang-label rules:
+           keep a tall archaic script from inflating the globe label height
+           and overlapping neighbours. Vertical native columns get a smaller
+           glyph + tight advance + no 2em floor; horizontal native scripts
+           get a tight, predictable line box. */
+        .globe-label.vertical .hanmap-native-line {
+            font-size: 0.9em; line-height: 1.12; min-height: 1.3em;
+        }
+        .globe-label:not(.vertical) .hanmap-native-line {
+            font-size: calc(11px * var(--label-scale)); line-height: 1.15;
         }
         /* Globe (3D) unattested cell: matches attested .globe-label styling
            (no dashed border / persistent background). See the 2D twin above. */

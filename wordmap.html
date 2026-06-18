@@ -771,7 +771,19 @@
             padding: 4px 8px;
             border-left: 2px solid #ccc;
             margin: 2px 0 2px 16px;
+            /* The detail text can carry long unbreakable tokens (citation
+               strings, source URLs). Without these the colspan cell forces
+               the word table wider than the panel and the whole modal gains
+               a horizontal scrollbar. `overflow-wrap: anywhere` both wraps
+               the text AND shrinks the cell's min-content width so the table
+               stays within the panel. */
+            white-space: normal;
+            overflow-wrap: anywhere;
+            word-break: break-word;
         }
+        /* Belt-and-braces: keep the colspan detail cell from expanding the
+           table even under table-layout:auto. */
+        .lang-info-panel .ev-detail-row td { max-width: 0; word-break: break-word; }
 
         /* --- Compare panel (Pass 32) --- */
         .compare-fab {

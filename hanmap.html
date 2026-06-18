@@ -224,6 +224,17 @@
             font-display: swap;
             src: url('https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io@main/fonts/NotoSerifKhitanSmallScript/hinted/ttf/NotoSerifKhitanSmallScript-Regular.ttf') format('truetype');
             unicode-range: U+16FE4, U+18B00-18CFF;
+            /* This font ships with hugely inflated vertical metrics
+               (hhea/win ascent+descent = 4.0em vs the typo metrics' normal
+               1.0em), so line-height:normal gives every Khitan glyph a 4em
+               line box — i.e. a long blank gap above and below the character
+               wherever it renders (map labels, info panel, compare table).
+               Override the line metrics to the font's own typo values
+               (asc 880 / desc -120 / gap 0 over 1000 upem) so a Khitan glyph
+               occupies one normal line like every other script. */
+            ascent-override: 88%;
+            descent-override: 12%;
+            line-gap-override: 0%;
         }
     </style>
     <style>

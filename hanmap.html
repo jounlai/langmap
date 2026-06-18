@@ -5995,14 +5995,18 @@
             'xng',      // Middle Mongolian
             // Other Yuan/Liao-era ancient scripts written vertically
             'zh_phagspa', // Phags-pa (designed for vertical layout 1269)
-            'zkt',        // Khitan Small Script (vertical traditional layout)
-            // NOTE: Tangut (txg) is intentionally NOT vertical. Its glyphs are
-            // square, upright CJK-like characters (Unicode Vertical_Orientation
-            // = Upright). vertical-lr + text-orientation:mixed renders fine on
-            // desktop, but iOS Safari lacks the Tangut block's vertical-orient
-            // data and rotates each glyph 90°. A single-character map marker
-            // gains nothing from vertical mode anyway, so render it horizontal
-            // (matches wordmap.html's VERTICAL_LANGS, which omits txg).
+            // NOTE: Tangut (txg) and Khitan (zkt) are intentionally NOT
+            // vertical. Both are square, upright CJK-like scripts (Unicode
+            // Vertical_Orientation = Upright), and a single-character map
+            // marker gains nothing from vertical mode. Tangut: iOS Safari
+            // lacks its vertical-orient data and rotates each glyph 90°.
+            // Khitan: the Noto Serif Khitan font has hugely inflated vertical
+            // metrics (4em line box), so in vertical-lr each glyph gets a 4em
+            // vertical ADVANCE — a long blank above/below the character that
+            // the @font-face ascent/descent override can't reach (it governs
+            // horizontal line layout, not the synthesized vertical advance).
+            // Rendered horizontally, line-height + that override contain it.
+            // (matches wordmap.html's VERTICAL_LANGS, which omits txg.)
         ]);
 
         // DATA_STATUS_OVERRIDES is now defined in wordmap_data.js (data

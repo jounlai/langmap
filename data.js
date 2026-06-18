@@ -24090,7 +24090,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "е много вкусно"
+          "е"
+        ],
+        [
+          "C",
+          "много"
+        ],
+        [
+          "D",
+          "вкусно"
         ]
       ],
       "sk": [
@@ -25615,7 +25623,7 @@ const SENTENCES = [
           "is"
         ],
         [
-          "C",
+          "C|D",
           "sauguat"
         ]
       ],
@@ -58529,8 +58537,12 @@ const SENTENCES = [
           "ให้"
         ],
         [
+          "C",
+          "น้ำ"
+        ],
+        [
           "F",
-          "น้ำ หนึ่งแก้ว"
+          "หนึ่งแก้ว"
         ],
         [
           "B",
@@ -81426,7 +81438,7 @@ const SENTENCES = [
         ],
         [
           "G",
-          "ٻيهر"
+          "منجهند"
         ],
         [
           "E",
@@ -93510,11 +93522,11 @@ const SENTENCES = [
         ],
         [
           "E",
-          "要同"
+          "要"
         ],
         [
           "C",
-          "朋友"
+          "同朋友"
         ],
         [
           "E",
@@ -113018,16 +113030,12 @@ const SENTENCES = [
           "մեծ"
         ],
         [
-          "D",
+          "B|D",
           "ընկերությունում"
         ],
         [
-          "B",
-          "աշխատում"
-        ],
-        [
           "E",
-          "է"
+          "աշխատում է"
         ]
       ],
       "nv": [
@@ -150635,15 +150643,15 @@ const SENTENCES = [
       ],
       "de_by": [
         [
-          "A",
+          "E",
           "S'Zimma"
         ],
         [
-          "B",
+          "A",
           "im Hotel"
         ],
         [
-          "C",
+          "B",
           "wor"
         ],
         [
@@ -150671,20 +150679,24 @@ const SENTENCES = [
       ],
       "vec": [
         [
-          "A",
+          "E",
           "La camera"
         ],
         [
-          "B",
+          "A",
           "de l'hotel"
         ],
         [
-          "C",
+          "B",
           "gera"
         ],
         [
+          "C",
+          "ben"
+        ],
+        [
           "D",
-          "ben polida"
+          "polida"
         ]
       ],
       "th_n": [
@@ -167115,11 +167127,11 @@ const SENTENCES = [
           "Ман"
         ],
         [
-          "D",
+          "C",
           "зодрӯзонаи"
         ],
         [
-          "C",
+          "D",
           "тӯҳфа"
         ],
         [
@@ -167597,7 +167609,7 @@ const SENTENCES = [
           "Mi"
         ],
         [
-          "D",
+          "B",
           "go da"
         ],
         [
@@ -182592,12 +182604,12 @@ const SENTENCES = [
           "الآن"
         ],
         [
-          "C",
-          "جالب"
-        ],
-        [
           "F",
           "یک کتاب"
+        ],
+        [
+          "C",
+          "جالب"
         ],
         [
           "E",
@@ -201490,6 +201502,10 @@ const SENTENCES = [
         [
           "C",
           "koud"
+        ],
+        [
+          "D",
+          "worden"
         ]
       ],
       "pl": [
@@ -259613,7 +259629,7 @@ const SENTENCES = [
       "jv": [
         [
           "A",
-          "Dia"
+          "Dheweke"
         ],
         [
           "D",
@@ -259621,11 +259637,11 @@ const SENTENCES = [
         ],
         [
           "B",
-          "tiga bahasa"
+          "telung basa"
         ],
         [
           "C",
-          "karo lancar"
+          "kanthi lancar"
         ]
       ],
       "bn": [
@@ -293134,7 +293150,7 @@ const SENTENCES = [
         ],
         [
           "E",
-          "m'ha dato"
+          "ha dato"
         ],
         [
           "C",
@@ -326905,11 +326921,11 @@ const SENTENCES = [
       "yue": [
         [
           "E",
-          "我"
+          "我嘅"
         ],
         [
           "A",
-          "嘅貓"
+          "貓"
         ],
         [
           "G",
@@ -344158,11 +344174,11 @@ const SENTENCES = [
           "Anh ấy"
         ],
         [
-          "E",
+          "B",
           "kết quả"
         ],
         [
-          "B",
+          "E",
           "của bài kiểm tra"
         ],
         [
@@ -347152,20 +347168,20 @@ const SENTENCES = [
           "He"
         ],
         [
-          "E",
-          "the test"
-        ],
-        [
-          "B",
-          "results"
+          "C",
+          "got a shock"
         ],
         [
           "D",
           "by"
         ],
         [
-          "C",
-          "got a shock"
+          "E",
+          "the test"
+        ],
+        [
+          "B",
+          "results"
         ]
       ],
       "es_ar": [
@@ -366872,12 +366888,12 @@ const SENTENCES = [
           "Mul"
         ],
         [
-          "C",
-          "täna"
-        ],
-        [
           "F",
           "on"
+        ],
+        [
+          "C",
+          "täna"
         ],
         [
           "E",
@@ -382191,6 +382207,10 @@ const SENTENCES = [
           "شما"
         ],
         [
+          "D",
+          "باید"
+        ],
+        [
           "B",
           "آب"
         ],
@@ -382201,10 +382221,6 @@ const SENTENCES = [
         [
           "C",
           "بنوشید"
-        ],
-        [
-          "D",
-          "باید"
         ]
       ],
       "am": [
@@ -436542,10 +436558,6 @@ const SENTENCES = [
         [
           "A",
           "Sipèmache a"
-        ],
-        [
-          "D",
-          "ye"
         ],
         [
           "B",

@@ -225,10 +225,40 @@
         </div>
 
         <div class="entry">
-            <div class="date">2026-06-02 → 06-09 — Lang Map: large word-order data-quality rally</div>
+            <div class="date">2026-06-09 — 1,000-language count finalized + extinct-language hygiene + filter/nav polish</div>
             <ul>
-                <li><strong>Several hundred word-order corrections across the sentence map</strong> (commits <code>999b7d0</code>, <code>d99a780</code>, <code>1f69467</code>, <code>95564f4</code>, <code>d51706b</code>): a 30-expert audit + 10-developer catch-ball over <code>data.js</code>, followed by guideline-driven review rallies — #44–#48 cross-cutters (63 edits), #73–#77 (156 edits), Steps 1–4 (+189 cells, 17 palette letters, #81 honorifics) and Step 5 methodology/niche reviews #82–#86 (134 edits). The word-order map now stands at 242 languages.</li>
-                <li><strong>iOS serif-rendering fix</strong> (commit <code>d99a780</code> series): Lang Map segment text unified to sans-serif on iOS, where Latin had been rendering as serif.</li>
+                <li><strong>Headline counts settled</strong> (commit <code>ac794b0</code>): Word Map 935 → 1,000, sentence / word-order map → 242.</li>
+                <li><strong>Extinct languages hidden from the modern view</strong> (commits <code>557c41e</code>, <code>0f417f4</code>, <code>e0a2eff</code>): 24 extinct languages (8 + 4 + 12) added to <code>EXCLUDED_CODES</code> / registered in <code>HIST_DESCENDANT</code> — Iberian, Liburnian, Caucasian Albanian, Babuza, etc. — so they only appear under the Historical toggle; Meru meta fixed.</li>
+                <li><strong>Word Map filter accuracy</strong>: the filter counter now counts the whole era cohort, not just viewport-rendered labels (commit <code>e35f777</code>), and filter-excluded languages skip the plot entirely instead of dimming (commit <code>1607d11</code>).</li>
+                <li><strong>Header navigation scoping</strong> (commits <code>6aef1ff</code>, <code>c273206</code>): the Word Map and Tree header logos now keep the user within that page instead of bouncing to <code>index.html</code>.</li>
+                <li><strong>Min Nan surface cleanup</strong> (commit <code>8789477</code>): stripped the POJ romanization annotation from <code>nan_xm</code> / <code>nan_zz</code> surface forms.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-04 — Parallel review waves: Lang Map Steps 4–7 + Han Map / Word Map</div>
+            <ul>
+                <li><strong>Lang Map Steps 4–7</strong> (commits <code>0ba4e92</code>, <code>1f69467</code>, <code>f5400e4</code>, <code>2a48c03</code>): Step 4 honorifics deep-dive #81 (33 edits), Step 5 methodology + niche reviews #82–#86 (134 edits), Step 6 reviewers #87–#98 (241 cells, +18 palette letters), Step 7 reviewers #99–#110 (220 cells, +18 palette letters). New roles auto-extended the segment palette where a phenomenon needed its own colour (e.g. apodosis correlatives 所以/就/तो as a new F-role).</li>
+                <li><strong>Han Map review waves #34–#63 + Word Map #81–#100</strong> (commits <code>ebc0772</code>, <code>59f4d2f</code>, <code>95157d4</code>): three back-to-back waves of 10–20 parallel reviewers — #34–#43 (220 cell edits, 257 findings), #44–#53 + Word Map #81–#90 (459 cell edits, 492 findings), #54–#63 + Word Map #91–#100 (348 cell edits, 518 findings).</li>
+                <li><strong>Lang Map UI</strong>: segment text unified to sans-serif on iOS where Latin had been rendering serif (commit <code>db9d827</code>); the mobile sentence action bar swapped emoji for SVG icons (commit <code>568bf1c</code>).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-03 — Lang Map systematic rallies #31–#80 + Han Map #24–#33 + dual-script</div>
+            <ul>
+                <li><strong>Methodology cross-cutter rallies</strong> (commits <code>0dfd5da</code>, <code>95564f4</code>, <code>43f366a</code>): each reviewer audited all 100 sentences for one phenomenon — #39–#43 (108 edits), #44–#48 negation/chunking cross-cutters (63 edits), #49–#55 (183 edits) — catching defects the family-specific reviewers missed.</li>
+                <li><strong>Targeted audits</strong> (commits <code>aefa6fc</code>, <code>c97e167</code>, <code>f44c6ed</code>, <code>6ea167b</code>, <code>8b53b28</code>, <code>d99a780</code>, <code>dba4f80</code>, <code>ff5e2fa</code>, <code>242e9ae</code>): Chinese-dialect Mandarinism #56–#59, dialect-vs-standard #60–#61, cross-sibling chunking #62–#66, Mainland SE Asia chunking #67 (Khmer palette gap 43%→28%), under-covered families #68–#72, palette-gap systematic + content-word consistency #73–#77 (156 edits), Old Japanese + Ryukyuan #78, Q-particle systematic + Korean varieties #79–#80 (17 cells retagged D→E).</li>
+                <li><strong>Han Map specialist reviews #24–#33</strong> (commits <code>6047c05</code>, <code>2e6727e</code>): 10 new reviews opened/addressed/closed, plus 160 round-2 deferral cleanups across 6 reviews.</li>
+                <li><strong>Dual-script rendering</strong>: Sumerian (<code>sux</code>) all 100 sentences converted to cuneiform | Latin dual-script (commit <code>3799f49</code>); Egyptian display fixes + Mongolian/Manchu native scripts + French chunking unification (commit <code>664d555</code>).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-02 — Lang Map: 30-expert audit + 10-developer catch-ball</div>
+            <ul>
+                <li><strong>Full data.js audit</strong> (commit <code>999b7d0</code>): a 30-reviewer specialist audit of the 100 sentences × 223 languages, grouped by language family, then a 10-developer catch-ball that applied well-supported fixes and rebutted overreaching claims, with reviewers re-verifying against live data until all 30 reviews closed. ~480 cell edits — naturalness fixes (idiom / register / orthography / agreement), word-order and role-letter corrections, suffix/clitic/complementizer splits. Edits favour finer segmentation per owner directive (prefer splitting over merging).</li>
+                <li><strong>Consistency rounds</strong> (commits <code>aefe7d5</code>, <code>e9a7d9f</code>, <code>a613fe9</code>, <code>2062261</code>, <code>3ea0c66</code>): split-granularity + dialect-naturalness audit (rounds 4–8), a comprehensive compound sweep (round 9), 19 cross-sibling role-letter fixes + 2 adjacency repairs, and undefined-segment regression fixes — all 30 reviews closed with applier hardening. Findings + reviewer dialogue recorded in <code>langmap_reviews/NN_closed.md</code>.</li>
             </ul>
         </div>
 

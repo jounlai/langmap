@@ -136,10 +136,39 @@
                 <li><span class="count">900</span> languages <span class="when">— 2026-05-08 (<code>08340ae</code>, batches 76–82, 880 → 901)</span></li>
                 <li><span class="count">1,000</span> languages <span class="when">— 2026-05-28 (<code>33e63ca</code> 🎉; official count settled 2026-06-09, <code>ac794b0</code>) — current</span></li>
             </ul>
-            <p class="lead" style="margin-top:8px">The Word Map carries 1,000 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 102 varieties across 61 characters.</p>
+            <p class="lead" style="margin-top:8px">The Word Map carries 1,000 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 109 varieties across 61 characters.</p>
         </div>
 
         <nav class="month-nav">Months: <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-06-19 — Han Map: +8 varieties (diaspora + Sinitic-gap topolects), now 109</div>
+            <ul>
+                <li><strong>Two diaspora topolects</strong> (commits <code>d73525b</code>): <code>wuu_qt</code> 青田話 (Qingtian Wu) — the Oujiang-Wu ancestral home of most Chinese in Italy/Spain/Netherlands/Portugal — and <code>hak_hy</code> 惠陽客家話 (Huiyang Hakka) — the 粵台片 Xin-Hui topolect of Shenzhen / HK New Territories / the Suriname-Guyana Hakka.</li>
+                <li><strong>Six varieties filling within-group Sinitic gaps</strong> (commit <code>2274645</code>): <code>hsn_sf</code> 雙峰話 Old Xiang (retains the Middle-Chinese voiced obstruents), <code>nan_lei</code> 雷州話 Leizhou Min (Qiong-Lei, implosives), <code>mnz</code> 永安話 the previously-missing Central Min, <code>czh_jx</code> 績溪話 Jixi Hui (type-site), <code>cjy_dt</code> 大同話 Datong Jin, <code>msj</code> 邵將話 Shao-Jiang Min.</li>
+                <li>Each new variety has full parity with the gold-standard entry — all 12 metadata fields, name + description localized in all 19 UI languages, 61/61 surface+IPA readings, sources/speakers/romanization — and is registered in the family filter. Readings derived from the closest baseline + each variety's documented profile, flagged as pending native-speaker verification in their sources.</li>
+                <li><strong>Removed the empty <code>zh_kanbun</code> stub</strong> (commit <code>7bc6f5f</code>): it had a filter slot but zero readings (kanbun is a reading method, not per-character pronunciations) so it never rendered. <strong>Map-label names now localized for Han Map-only varieties</strong> (commit <code>eb6088c</code>) via their <code>reading_type</code>, instead of falling back to the English meta name.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-19 — Han Map review rallies #76–#78</div>
+            <ul>
+                <li><strong>#76 — 文白 stratum / diachronic regularity / romanization conformance</strong> (commits <code>1e6c628</code>, <code>1576e00</code>): 13 cells — e.g. nan_my/nan_xm/nan_qz 魚 文讀 hû→gû (疑母 literary g-), gan 血 -ʔ→-t coda, ko_hun 北 aligned to native 된. Plus resolved held collision cases by merge (食 Wu, 火 ja — characters with no real 文白/漢呉 distinction).</li>
+                <li><strong>#77 — verify the 8 newly-added (provisional) varieties</strong> (commit <code>fad4312</code>): 8 cells of generation-error fixes caught by sibling comparison — tone-register slips (msj 見 陰去, nan_lei 六 陽入, mnz 立 陽入), surface↔IPA coda consistency (mnz 目), etc.</li>
+                <li><strong>#78 — comprehensive all-11-families sweep</strong> (commit <code>7d8318e</code>): 26 cells of segmental / cross-variety outliers the prior rallies + deterministic guards missed — zh_xa 食 sʐ̩→sɿ, zh_km 去 撮口 tɕʰy, zh_hf/zh_jh 七 q→c (Jianghuai 尖音), hak_cn/hak_mz 中 retroflex→plain tʃ→ts, cjy 日 ʐ→z, nan_sg 口 喙→kháu, hsn 手 fill the lone missing tone digit.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-19 — Word Map + Lang Map rallies, held-item scrutiny, modal fix</div>
+            <ul>
+                <li><strong>Word Map rally</strong> (commit <code>8638eb2</code>): 24-group family audit (1000 langs) → 24 cells of IPA-accuracy and wrong-word fixes (vi <em>hand</em> ngang tone ˥→˧, ks <em>cat</em> /buːz/→/braːriː/, ff <em>good</em> stale-paste IPA, kek/nch/nhw <em>drink</em>, …).</li>
+                <li><strong>Lang Map word-order rally</strong> (commit <code>42e6549</code>): 11-group review over sampled sentences → 20 segmentation fixes (role-letter swaps like tg/rm/ro S37 birthday/present C↔D, missing C:very segments, B|D fusions).</li>
+                <li><strong>Held-item scrutiny</strong> (commit <code>ad81db5</code>): re-verified the probable findings held from the rallies and promoted 15 across all three maps (the rest kept as genuine convention judgments).</li>
+                <li><strong>Word Map modal</strong> (commit <code>4e43066</code>): clicking a ✓ / ? evidence marker no longer horizontal-scrolls the language modal — the detail row's long citation/URL tokens now wrap (<code>overflow-wrap:anywhere</code>).</li>
+            </ul>
+        </div>
 
         <div class="entry">
             <div class="date">2026-06-18 — Han Map: label rendering fixes (overlap + Khitan blank)</div>

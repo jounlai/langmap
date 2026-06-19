@@ -57,7 +57,7 @@ WORDS.fire = {
     ja: ["火", "hi"],
     ja_osa: ["火", "hi"],
     ja_aom: ["火", "hi"],
-    ja_oki: ["火", "hi"],
+    ja_oki: ["ふぃー", "ɸiː"],
     ja_hak: ["火", "hi"],
     ja_kyo: ["火", "hi"],
     ja_hir: ["火", "hi"],

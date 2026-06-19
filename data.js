@@ -22746,7 +22746,15 @@ const SENTENCES = [
         ],
         [
           "D",
-          "jest bardzo smaczna"
+          "jest"
+        ],
+        [
+          "C",
+          "bardzo"
+        ],
+        [
+          "D",
+          "smaczna"
         ]
       ],
       "mg": [
@@ -59497,6 +59505,10 @@ const SENTENCES = [
           "Proszę"
         ],
         [
+          "D",
+          "dać"
+        ],
+        [
           "B",
           "mi"
         ],
@@ -59507,10 +59519,6 @@ const SENTENCES = [
         [
           "C",
           "wody"
-        ],
-        [
-          "D",
-          "dać"
         ]
       ],
       "mg": [
@@ -112836,7 +112844,7 @@ const SENTENCES = [
           "మా నాన్న"
         ],
         [
-          "B",
+          "C",
           "ఒక"
         ],
         [
@@ -112844,7 +112852,7 @@ const SENTENCES = [
           "పెద్ద"
         ],
         [
-          "D",
+          "B|D",
           "కంపెనీలో"
         ],
         [
@@ -130942,7 +130950,7 @@ const SENTENCES = [
       "ur": [
         [
           "A",
-          "میں نے"
+          "میں"
         ],
         [
           "D",
@@ -130950,7 +130958,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "چھتری"
+          "اپنی چھتری"
         ],
         [
           "C",
@@ -150487,8 +150495,12 @@ const SENTENCES = [
       ],
       "ar_tn": [
         [
+          "E",
+          "البيت"
+        ],
+        [
           "A",
-          "البيت متاع الأوتيل"
+          "متاع الأوتيل"
         ],
         [
           "D",
@@ -165444,11 +165456,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "un"
+          "un cadou"
         ],
         [
           "C",
-          "cadou de ziua de naștere"
+          "de ziua de naștere"
         ]
       ],
       "cs": [
@@ -167338,11 +167350,11 @@ const SENTENCES = [
         ],
         [
           "D",
-          "‌in"
+          "in regal"
         ],
         [
           "C",
-          "regal da di da naschientscha"
+          "da di da naschientscha"
         ]
       ],
       "fy": [

@@ -911,7 +911,7 @@ WORDS.heart = {
     ygr: ["nemo", "nemo"],
     roo: ["—", "—"],
     quz: ["sunqu", "suŋqu"],
-    quy: ["sunqu", "sunqu"],
+    quy: ["sunqu", "suŋqu"],
     shp: ["joi", "xoi"],
     cab: ["anigi", "aniɡi"],
     crx: ["ʼunjid", "ʔundʒid"],

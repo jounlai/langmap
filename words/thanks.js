@@ -111,7 +111,7 @@ WORDS.thanks = {
     suk: ["nakulumba", "nakulumba"],
     nym: ["twabakaba", "twaβakaβa"],
     rim: ["ahsante", "ahsante"],
-    ksb: ["ahsante", "ahsante"],
+    ksb: ["asante", "asante"],
     jmc: ["ahsànte", "ahsante"],
     sbp: ["nashukulu", "naʃukulu"],
     rwk: ["asante", "asante"],

@@ -22793,8 +22793,8 @@ const HAN_VARIANTS = {
       },
       {
         "native": "",
-        "surface": "hu⁵",
-        "ipa": "hu˨˦",
+        "surface": "gu⁵",
+        "ipa": "ɡu˨˦",
         "label": "文讀"
       }
     ]
@@ -25773,7 +25773,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "hang",
         "ipa": "haŋ˨˦",
-        "label": "文讀"
+        "label": "白讀"
       }
     ],
     "ja": [

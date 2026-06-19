@@ -575,7 +575,7 @@ WORDS.one = {
     ncs: ["—", "—"],
     itz: ["jun", "hun"],
     usp: ["jun", "hun"],
-    tzo: ["jun", "xun"],
+    tzo: ["jun", "hun"],
     tzh: ["jun", "xun"],
     mix: ["in", "iʔn"],
     zap: ["tobi", "tobi"],

@@ -394,7 +394,7 @@ WORDS.house = {
     oar: ['בית', 'beːt'],
     pao: ['nobi', 'nopi'],
     rut: ['хал', 'χal'],
-    tof: ['ог', 'oɣ'],
+    tof: ['өг', 'øɣ'],
     tup: ['oka', 'ˈoka'],
     uln: ['haus', 'haus'],
     wmt: ['ngurra', 'ˈŋura'],

@@ -6665,7 +6665,7 @@ const HAN_DATA = {
       "czh_jx": "mau˥˥",
       "cjy_dt": "mau˧˩",
       "msj": "mau˦",
-      "wuu_qt": "mɔ˦˦",
+      "wuu_qt": "mau˦˦",
       "hak_hy": "meu˧˧",
       "zh": "mau˥˥",
       "zh_tw": "mau˥˥",
@@ -7461,7 +7461,7 @@ const HAN_DATA = {
     "surface": {
       "hsn_sf": "mu",
       "nan_lei": "mak8",
-      "mnz": "mu",
+      "mnz": "muʔ",
       "czh_jx": "mu⁵",
       "cjy_dt": "meh⁵⁴",
       "msj": "muk",
@@ -12538,7 +12538,7 @@ const HAN_DATA = {
       "mnz": "kiŋ˧˥",
       "czh_jx": "tɕiɛn˧˥",
       "cjy_dt": "tɕie˦˥",
-      "msj": "kien˧˩",
+      "msj": "kien˥",
       "wuu_qt": "tɕi˦˨",
       "hak_hy": "kien˥˧",
       "wuu": "tɕi˧˥",
@@ -13548,7 +13548,7 @@ const HAN_DATA = {
       "cjy_dt": "zuo⁵³",
       "msj": "tsho",
       "wuu_qt": "zo³⁵",
-      "hak_hy": "chhó",
+      "hak_hy": "chhô",
       "nan": "tsē",
       "zh": "zuò",
       "zh_tw": "zuò",
@@ -13645,7 +13645,7 @@ const HAN_DATA = {
       "cjy_dt": "tsuo˥˧",
       "msj": "tsʰo˧˥",
       "wuu_qt": "zo˧˥",
-      "hak_hy": "tsʰo˧˩",
+      "hak_hy": "tsʰo˧˧",
       "zh": "tsuo˥˩",
       "zh_tw": "tsuo˥˩",
       "zh_db": "tsuo˥˧",
@@ -13864,7 +13864,7 @@ const HAN_DATA = {
     "ipa": {
       "hsn_sf": "li˨˦",
       "nan_lei": "lip̚˨˨",
-      "mnz": "liʔ˥",
+      "mnz": "liʔ˦˨",
       "czh_jx": "liʔ˥",
       "cjy_dt": "liəʔ˥˦",
       "msj": "lip˥",
@@ -20482,7 +20482,7 @@ const HAN_VARIANTS = {
   "六": {
     "nan_lei": [
       { "label": "白讀", "surface": "lak8", "ipa": "lak̚˨˨" },
-      { "label": "文讀", "surface": "liok8", "ipa": "liɔk̚˥" }
+      { "label": "文讀", "surface": "liok8", "ipa": "liɔk̚˨˨" }
     ],
     "nan": [
       {
@@ -21444,7 +21444,7 @@ const HAN_VARIANTS = {
   "三": {
     "nan_lei": [
       { "label": "白讀", "surface": "ta1", "ipa": "ɗa˨˦" },
-      { "label": "文讀", "surface": "tam1", "ipa": "tʰam˨˦" }
+      { "label": "文讀", "surface": "tam1", "ipa": "tam˨˦" }
     ],
     "nan": [
       {
@@ -25124,7 +25124,7 @@ const HAN_VARIANTS = {
   "目": {
     "mnz": [
       { "label": "白讀", "surface": "moʔ", "ipa": "mɔʔ˦˨" },
-      { "label": "文讀", "surface": "mu", "ipa": "muʔ˦˨" }
+      { "label": "文讀", "surface": "muʔ", "ipa": "muʔ˦˨" }
     ],
     "nan": [
       {

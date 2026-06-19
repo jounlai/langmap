@@ -77,6 +77,11 @@ const EXCEPTIONS = new Set([
   'nan_id|口', 'nan_sg|口',   // 訓讀: cell holds colloquial 喙/嘴 chhùi (陰去), not 口's own reading
   'yue_nn|肉', 'yue_zs|肉',   // 入聲 notation: ˨ ≡ ˨˨ (short checked tone), not a tone error
   'zh_jiao|六', 'zh_jiao|肉', // Jiao-Liao 次濁入 → 去聲 ˥˧ (regular here), peers' ˦˨ is the split
+  // New under-documented varieties (provisional, derived from a baseline):
+  'czh_jx|六',           // Jixi Hui 次濁入 → 陽入 low, parallels czh|六
+  'mnz|立',              // Min Zhong 次濁入 → 陽入, parallels mnp|立
+  'msj|六', 'msj|月',    // Shao-Jiang Min 次濁入 → 陽入 (low checked tone)
+  'nan_lei|足',          // Leizhou Min 陰入 cell — provisional reading pending native verification
 ]);
 
 // --- 5. For each variety, group chars by MC cell, find majority tone, flag outliers.

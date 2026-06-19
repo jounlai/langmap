@@ -16806,62 +16806,6 @@ const HAN_LANG_META = {
     "speakers": "歴史言語 / 現代話者なし",
     "speakersSource": "後期中古漢語 (Late Middle Chinese, Pulleyblank 1991再構)"
   },
-  "zh_kanbun": {
-    "reading_type": {
-      "ja": "日本の漢文訓読（漢文訓読）",
-      "ko": "일본의 한문 훈독 (漢文訓読 칸분쿤도쿠)",
-      "zh": "日本汉文训读（漢文訓読 训读法）",
-      "en": "Japanese kanbun reading (漢文訓読)",
-      "yue": "日本漢文訓讀傳統（漢文訓読）",
-      "vi": "Truyền thống đọc Hán văn theo kiểu Nhật (訓読 kundoku)",
-      "th": "ประเพณีอ่านอักษรฮั่นแบบญี่ปุ่น (漢文訓読 คันบุน-คุนโดกุ)",
-      "id": "Tradisi baca kanbun Jepang (漢文訓読)",
-      "hi": "जापानी कानबुन पठन परंपरा (漢文訓読)",
-      "de": "Japanische Kanbun-Lesetradition (漢文訓読)",
-      "fr": "Tradition de lecture japonaise du kanbun (漢文訓読)",
-      "it": "Tradizione di lettura giapponese del kanbun (漢文訓読)",
-      "es": "Tradición de lectura japonesa del kanbun (漢文訓読)",
-      "pt": "Tradição de leitura japonesa do kanbun (漢文訓読)",
-      "ru": "Японская традиция чтения кanbun (漢文訓読)",
-      "uk": "Японська традиція читання кanbun (漢文訓読)",
-      "ar": "تقليد القراءة الياباني للنصوص الصينية الكلاسيكية (漢文訓読 كانبون)",
-      "he": "מסורת הקריאה היפנית לטקסטים סיניים קלאסיים (漢文訓読 קאנבון)",
-      "sw": "Mila ya usomaji wa Kijapani wa maandishi ya Kichina (漢文訓読 kanbun)"
-    },
-    "description": {
-      "ja": "漢文訓読は、古典中国語（漢文）の本文を日本語として音読する日本独自の読法であり、中国語の方言ではない。返り点（レ点・一二点など）で漢文のSVO語順を日本語のSOV語順に組み替え、送り仮名で活用語尾や助詞を補い、内容語は漢音または訓読みで読む。書記テキスト解読の技法であって話し言葉ではなく、奈良時代以降、公文書・儒仏典の標準的読法として用いられてきた。",
-      "ko": "한문 훈독(漢文訓読)은 고전 한문 텍스트를 일본어로 소리 내어 읽는 일본의 독법으로, 중국어의 방언이 아니다. 가에리텐(返り点)으로 한문의 SVO 어순을 일본어 SOV 어순으로 재배열하고, 오쿠리가나(送り仮名)로 활용 어미와 조사를 보충하며, 내용어는 한음(漢音)이나 훈독(訓読み)으로 읽는다. 구어가 아니라 문자 텍스트 해독의 기법이며, 나라 시대 이후 일본에서 공문서·유불 경전의 표준 독서법으로 사용되어 왔다.",
-      "zh": "汉文训读（漢文訓読）是日本将古典汉语（漢文）按日语朗读的传统读法，并非汉语的某种方言。读者借助返点（返り点）将汉文的 SVO 语序重排为日语的 SOV 语序，以送假名（送り仮名）补足活用词尾与助词，实词则按汉音或训读读出。这是一种书面文本的解读技艺而非口语形式，自奈良时代起即为日本官方文书与儒释典籍的标准读法。",
-      "en": "Kanbun (漢文訓読) — the Japanese tradition of reading Classical Chinese texts aloud as Japanese, using reading marks (返り点 kaeriten, 送り仮名) to reorder Chinese SVO into Japanese SOV, with content words read by 漢音 or 訓読み. Not a spoken language but a written-reading praxis.",
-      "yue": "漢文訓讀（かんぶんくんどく）係日本閱讀漢文（古典中文）嘅一種傳統做法，並唔係一種獨立嘅中文方言。讀者會用返り点（返點）同送り仮名等標記，將漢文嘅漢語語序（SVO）重新排列成日語語序（SOV），內容詞則按漢音抑或訓讀讀出。呢種做法係一種書面解讀技藝，唔係口語，自奈良時代起成為日本官方文書同儒佛典籍嘅標準閱讀方式。",
-      "vi": "Kanbun kundoku (漢文訓読) là truyền thống của Nhật Bản đọc văn bản Hán văn (Cổ văn Trung Quốc) thành tiếng Nhật, chứ không phải một giống tiếng Trung riêng biệt. Người đọc dùng các ký hiệu phụ trợ như 返り点 (kaeriten — dấu đảo trật tự) và 送り仮名 (okurigana — kana bổ sung) để sắp xếp lại trật tự SVO của chữ Hán thành trật tự SOV của tiếng Nhật; các thực từ được đọc theo âm Hán âm (漢音) hoặc âm Nhật thuần (訓読み). Đây là một kỹ thuật giải mã văn bản viết, không phải ngôn ngữ nói, và là chuẩn mực đọc văn thư chính thức cùng kinh điển Nho-Phật tại Nhật từ thời Nara.",
-      "th": "คันบุน-คุนโดกุ (漢文訓読) คือประเพณีของญี่ปุ่นในการอ่านออกเสียงคัมภีร์ภาษาจีนคลาสสิก (漢文) ให้เป็นภาษาญี่ปุ่น ไม่ใช่สำเนียงภาษาจีนประเภทหนึ่ง ผู้อ่านใช้เครื่องหมายช่วยอ่าน เช่น 返り点 (ไกเรเตน — เครื่องหมายกลับลำดับ) และ 送り仮名 (โอะกุริงะนะ) เพื่อจัดเรียงลำดับ SVO ของข้อความจีนใหม่ให้เป็น SOV ตามไวยากรณ์ญี่ปุ่น โดยอ่านคำเนื้อหาด้วยเสียงอ่านแบบคังโอน (漢音) หรือการอ่านแบบญี่ปุ่นดั้งเดิม (訓読み) วิธีนี้เป็นกระบวนการอ่านเชิงเขียน ไม่ใช่ภาษาพูด และกลายเป็นมาตรฐานการอ่านเอกสารราชการและคัมภีร์ขงจื๊อ-พุทธในญี่ปุ่นตั้งแต่สมัยนาระ",
-      "id": "Kanbun kundoku (漢文訓読) adalah tradisi Jepang dalam membaca teks Bahasa Tionghoa Klasik (漢文) secara lisan sebagai bahasa Jepang, bukan suatu varietas bahasa Tionghoa tersendiri. Pembaca menggunakan tanda bantu seperti 返り点 (kaeriten — tanda pembalik urutan) dan 送り仮名 (okurigana) untuk mengubah susunan SVO teks Tionghoa menjadi SOV sesuai tata bahasa Jepang; kata-kata isi dibaca dengan bunyi Kan-on (漢音) atau bacaan asli Jepang (訓読み). Ini adalah teknik dekoding teks tertulis, bukan bahasa lisan, dan telah menjadi standar pembacaan dokumen resmi serta kitab suci Konfusian-Buddha di Jepang sejak periode Nara.",
-      "hi": "कानबुन कुन्दोकु (漢文訓読) जापान की वह परंपरा है जिसमें शास्त्रीय चीनी (漢文) ग्रंथों को जापानी भाषा में पढ़ा जाता है — यह कोई चीनी भाषा की उपभाषा नहीं है। पाठक 返り点 (काएरितेन — क्रम-पलट चिह्न) और 送り仮名 (ओकुरिगाना) जैसे सहायक चिह्नों का उपयोग करके चीनी SVO क्रम को जापानी SOV क्रम में पुनर्व्यवस्थित करते हैं; सामग्री शब्दों को कान-ओन (漢音) या मूल जापानी पठन (訓読み) में पढ़ा जाता है। यह एक लिखित-पठन की कला है, कोई बोली जाने वाली भाषा नहीं, और नारा काल से ही जापान में सरकारी दस्तावेजों तथा कन्फ्यूशियस-बौद्ध ग्रंथों के पठन का मानक रही है।",
-      "de": "Kanbun-kundoku (漢文訓読) ist die japanische Tradition, klassisch-chinesische Texte (漢文) als Japanisch laut zu lesen — keine eigenständige chinesische Sprachform. Der Lesende verwendet Hilfszeichen wie 返り点 (kaeriten — Umkehrmarkierung) und 送り仮名 (okurigana), um die chinesische SVO-Wortstellung in die japanische SOV-Struktur umzuordnen; Inhaltswörter werden in Kan-on-Lesung (漢音) oder japanischer Originallesung (訓読み) ausgesprochen. Diese Praxis ist eine schriftliche Lese-Technik, keine Umgangssprache, und gilt seit der Nara-Zeit als Standardlesemethode für offizielle Dokumente und konfuzianisch-buddhistische Schriften in Japan.",
-      "fr": "Le kanbun kundoku (漢文訓読) est la tradition japonaise consistant à lire à voix haute des textes en chinois classique (漢文) comme du japonais — il ne s'agit pas d'une variété de chinois à part entière. Le lecteur utilise des marques auxiliaires telles que 返り点 (kaeriten — marques de réordonnancement) et 送り仮名 (okurigana) pour transformer l'ordre SVO du texte chinois en SOV japonais ; les mots pleins sont prononcés selon la lecture kan-on (漢音) ou en lecture japonaise native (訓読み). Cette pratique est une technique de décodage de l'écrit, non une langue parlée, et constitue depuis l'époque Nara le mode de lecture standard des documents officiels et des canons confucéens et bouddhiques au Japon.",
-      "it": "Il kanbun kundoku (漢文訓読) è la tradizione giapponese di leggere ad alta voce testi in cinese classico (漢文) come giapponese — non è una varietà di cinese distinta. Il lettore si avvale di segni ausiliari come 返り点 (kaeriten — segni di riordino) e 送り仮名 (okurigana) per riorganizzare l'ordine SVO del testo cinese nell'ordine SOV del giapponese; le parole di contenuto vengono pronunciate con la lettura kan-on (漢音) oppure con la lettura giapponese nativa (訓読み). Si tratta di una tecnica di decodifica del testo scritto, non di una lingua parlata, ed è il metodo di lettura standard dei documenti ufficiali e dei testi confuciani e buddhisti in Giappone fin dall'epoca Nara.",
-      "es": "El kanbun kundoku (漢文訓読) es la tradición japonesa de leer en voz alta textos en chino clásico (漢文) como japonés, no una variedad del chino. El lector emplea marcas auxiliares como 返り点 (kaeriten — marcas de reordenamiento) y 送り仮名 (okurigana) para transformar el orden SVO del texto chino en el SOV japonés; las palabras de contenido se pronuncian con la lectura kan-on (漢音) o con la lectura japonesa nativa (訓読み). Se trata de una técnica de decodificación textual escrita, no de una lengua hablada, y desde la época Nara constituye el método estándar de lectura de documentos oficiales y textos canónicos confucianos y budistas en Japón.",
-      "pt": "O kanbun kundoku (漢文訓読) é a tradição japonesa de ler em voz alta textos em chinês clássico (漢文) como japonês — não se trata de uma variedade do chinês. O leitor utiliza marcas auxiliares como 返り点 (kaeriten — marcas de reordenação) e 送り仮名 (okurigana) para converter a ordem SVO do texto chinês na ordem SOV do japonês; as palavras de conteúdo são pronunciadas com a leitura kan-on (漢音) ou com a leitura japonesa nativa (訓読み). É uma técnica de descodificação textual escrita, não uma língua falada, e desde o período Nara constitui o método padrão de leitura de documentos oficiais e de textos canónicos confucianos e budistas no Japão.",
-      "ru": "Камбун кундоку (漢文訓読) — японская традиция чтения текстов на классическом китайском языке (漢文) вслух как японских; это не отдельная разновидность китайского языка. Читающий использует вспомогательные знаки: 返り点 (каэритэн — знаки перестановки порядка слов) и 送り仮名 (окуригана), чтобы преобразовать китайский порядок SVO в японский SOV; знаменательные слова читаются по кан-онскому чтению (漢音) или по исконно японскому чтению (訓読み). Это техника письменного декодирования текстов, а не разговорный язык; с эпохи Нара она является стандартным способом чтения официальных документов и конфуцианско-буддийских канонов в Японии.",
-      "uk": "Камбун кундоку (漢文訓読) — японська традиція читати тексти класичною китайською мовою (漢文) вголос по-японськи; це не окрема різновидність китайської мови. Читач застосовує допоміжні знаки: 返り点 (каерітен — знаки перестановки порядку слів) і 送り仮名 (окурігана), щоб перетворити китайський порядок SVO на японський SOV; знаменні слова читаються за кан-онською вимовою (漢音) або за споконвічно японською (訓読み). Це техніка письмового декодування текстів, а не розмовна мова; з епохи Нара вона є стандартним способом читання офіційних документів і конфуціансько-буддійських канонів у Японії.",
-      "ar": "كانبون كوندوكو (漢文訓読) هو التقليد الياباني في قراءة النصوص الصينية الكلاسيكية (漢文) بصوت عالٍ كأنها يابانية، وليس نوعًا مستقلًا من اللغة الصينية. يستعين القارئ بعلامات مساعدة مثل 返り点 (كاييريتين — علامات إعادة الترتيب) و送り仮名 (أوكوريغانا) لتحويل ترتيب الجملة الصينية من الفاعل-الفعل-المفعول (SVO) إلى ترتيب الفاعل-المفعول-الفعل (SOV) الياباني، وتُقرأ الكلمات المعجمية بالنطق الكان-أوني (漢音) أو بالنطق الياباني الأصيل (訓読み). هذه ممارسة لفك شفرة النصوص المكتوبة لا لغةٌ منطوقة، وهي منذ حقبة نارا الأسلوبُ المعياري لقراءة الوثائق الرسمية والمتون الكونفوشية والبوذية في اليابان.",
-      "he": "קאנבון קונדוקו (漢文訓読) היא המסורת היפנית לקרוא בקול טקסטים בסינית קלאסית (漢文) כיפנית — לא מגוון עצמאי של השפה הסינית. הקורא משתמש בסימני עזר כגון 返り点 (קאֶריטֶן — סימני שינוי סדר) ו-送り仮名 (אוקוריגאנא) כדי לסדר מחדש את סדר SVO של הטקסט הסיני לסדר SOV של היפנית; מילות התוכן נקראות בהגייה קאן-און (漢音) או בהגייה יפנית מקורית (訓読み). זוהי טכניקת פענוח של כתב לא שפה מדוברת, והיא משמשת מאז תקופת נארא כשיטת הקריאה התקנית של מסמכים רשמיים וקנונים קונפוציאניים ובודהיסטים ביפן.",
-      "sw": "Kanbun kundoku (漢文訓読) ni mila ya Kijapani ya kusoma kwa sauti maandishi ya Kichina Kale (漢文) kama Kijapani — si aina ya Kichina yenyewe. Msomaji hutumia alama za msaada kama vile 返り点 (kaeriten — alama za kubadilisha mpangilio) na 送り仮名 (okurigana) ili kupanga upya mpangilio wa SVO wa maandishi ya Kichina kuwa mpangilio wa SOV wa Kijapani; maneno ya maudhui husomwa kwa matamshi ya kan-on (漢音) au matamshi asili ya Kijapani (訓読み). Hii ni mbinu ya kufafanua maandishi, si lugha inayozungumzwa, na imekuwa njia ya kawaida ya kusoma nyaraka rasmi na maandiko ya Confucius na Ubuddha nchini Japani tangu kipindi cha Nara."
-    },
-    "sources": [
-      "漢文訓読 traditional readings",
-      "Wiktionary (kanbun)",
-      "日本漢文学辞典"
-    ],
-    "romanization": {
-      "name": "Hepburn (kanbun training transcription)",
-      "authority": "日本伝統訓読の慣用",
-      "year": 1885
-    },
-    "speakers": "話者なし (日本における漢文訓読体系)",
-    "speakersSource": "文字体系 / 話者数該当なし"
-  },
   "ko": {
     "name": "Korean Hanja reading",
     "native": "한국 한자음",
@@ -20532,7 +20476,7 @@ const HAN_LANG_META = {
   }
 };
 
-const HAN_LANGS = ["bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_id","nan_my","nan_pera","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kanbun","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt", "wuu_qt", "hak_hy", "hsn_sf", "nan_lei", "mnz", "czh_jx", "cjy_dt", "msj"];
+const HAN_LANGS = ["bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_id","nan_my","nan_pera","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt", "wuu_qt", "hak_hy", "hsn_sf", "nan_lei", "mnz", "czh_jx", "cjy_dt", "msj"];
 
 const HAN_VARIANTS = {
   "六": {

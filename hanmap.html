@@ -3409,7 +3409,7 @@
         // Sinitic family ancestors (Old/Middle/Late Chinese reconstructions
         // plus Proto-Sino-Tibetan, Proto-Tibeto-Burman).
         const ANCIENT_SINO_CODES = [
-            'zh_han', 'zh_tang', 'zh_song', 'zh_yuan', 'zh_phagspa', 'zh_kanbun',
+            'zh_han', 'zh_tang', 'zh_song', 'zh_yuan', 'zh_phagspa',
             'pst', 'ptb',
             'ko_mid', 'ja_ojp', 'vi_han', 'vi_ohan',
         ];
@@ -3430,7 +3430,7 @@
         // Group taxonomy. Each leaf is a code that *may* exist in
         // HAN_LANGS; we filter at render time so proto-langs still
         // being generated (pmgl, phm, paa, pko, pja, ptb, ptung,
-        // ptai, vi_han, pst, zh_kanbun) silently drop until they
+        // ptai, vi_han, pst) silently drop until they
         // land in HAN_LANGS.
         const HAN_GROUPS = [
             { id: 'mandarin', family: 'sinitic',
@@ -3450,7 +3450,7 @@
               historical: [] },
             { id: 'sinitic_other', family: 'sinitic',
               modern: ['cjy','cjy_dt','czh','czh_jx','hsn','hsn_sf','gan','cnp'],
-              historical: ['zh_han','zh_tang','zh_song','zh_kanbun','pst'] },
+              historical: ['zh_han','zh_tang','zh_song','pst'] },
             { id: 'koreanic',
               modern: ['ko','ko_kp','ko_zai','ko_hun','ko_bus'],
               historical: ['ko_mid','pko'] },
@@ -6537,8 +6537,7 @@
                 || code.startsWith('wuu') || code === 'cdo' || code === 'cpx'
                 || code === 'mnp' || code === 'cjy' || code === 'czh'
                 || code === 'hsn' || code === 'gan' || code === 'cnp'
-                || code === 'zh_han' || code === 'zh_tang' || code === 'zh_song'
-                || code === 'zh_kanbun';
+                || code === 'zh_han' || code === 'zh_tang' || code === 'zh_song';
 
             if (isSinitic) {
                 // Sinitic: surface = romanisation, ipa = IPA. HAN_VARIANTS
@@ -6736,7 +6735,7 @@
         // non-Sinitic Sinosphere (light red-brown). See hanmapLabelColor().
         const HAN_ANCIENT_CODES = new Set([
             // Sinitic historical / reconstructed
-            'zh_han', 'zh_tang', 'zh_song', 'zh_yuan', 'zh_phagspa', 'zh_kanbun',
+            'zh_han', 'zh_tang', 'zh_song', 'zh_yuan', 'zh_phagspa',
             // Sino-xenic historical
             'ko_mid', 'ja_ojp', 'vi_ohan',
             // Extinct non-Sinitic in the Sinosphere
@@ -6845,10 +6844,6 @@
                           en:'Yuan Mand.', fr:'Mand. Yuan', de:'Yuan-Mand.', es:'Mandarín Yuan', pt:'Mandarim Yuan', it:'Mandarino Yuan',
                           ru:'Юаньский кит.', uk:'Юанський кит.', ar:'ماندرين يوان', he:'מנדרינית יואן', sw:'Mandarin ya Yuan',
                           vi:'Quan thoại Nguyên', th:'แมนดารินหยวน', id:'Mandarin Yuan', hi:'युआन मंदारिन' },
-            zh_kanbun:  { ja:'漢文訓読', ko:'한문 훈독', zh:'漢文訓讀', yue:'漢文訓讀',
-                          en:'Kanbun', fr:'Kanbun', de:'Kanbun', es:'Kanbun', pt:'Kanbun', it:'Kanbun',
-                          ru:'Камбун', uk:'Камбун', ar:'كانبون', he:'קאנבון', sw:'Kanbun',
-                          vi:'Kanbun', th:'คันบุน', id:'Kanbun', hi:'कानबुन' },
             zh_th:      { ja:'タイ華僑音', ko:'태국 화교음', zh:'泰國華僑音', yue:'泰國華僑音',
                           en:'TH Mandarin', fr:'Mand. TH', de:'TH-Mandarin', es:'Mandarín TH', pt:'Mandarim TH', it:'Mandarino TH',
                           ru:'Тайск. кит.', uk:'Тайськ. кит.', ar:'ماندرين تايلاند', he:'מנדרינית תאי', sw:'Mandarin ya TH',

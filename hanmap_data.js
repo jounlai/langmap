@@ -158,6 +158,8 @@ const HAN_CATEGORIES = [
 const HAN_DATA = {
   "一": {
     "surface": {
+      "wuu_qt": "yi²³",
+      "hak_hy": "yit",
       "cdo": "ék",
       "zh": "yī",
       "zh_tw": "yī",
@@ -255,6 +257,8 @@ const HAN_DATA = {
       "nan_pn": "it⁴"
     },
     "ipa": {
+      "wuu_qt": "ji˨˧",
+      "hak_hy": "jit̚˩",
       "zh": "i˥˥",
       "zh_tw": "i˥˥",
       "zh_db": "i˥˥",
@@ -371,6 +375,8 @@ const HAN_DATA = {
   },
   "二": {
     "surface": {
+      "wuu_qt": "nyi²²",
+      "hak_hy": "ngì",
       "cdo": "nê",
       "zh": "èr",
       "zh_tw": "èr",
@@ -469,6 +475,8 @@ const HAN_DATA = {
       "ptb": "*g-nis"
     },
     "ipa": {
+      "wuu_qt": "ɲi˨˨",
+      "hak_hy": "ŋi˥˧",
       "zh": "ɑɻ˥˩",
       "zh_tw": "ɑɻ˥˩",
       "zh_db": "ɚ˥˧",
@@ -586,6 +594,8 @@ const HAN_DATA = {
   },
   "三": {
     "surface": {
+      "wuu_qt": "sa⁴⁴",
+      "hak_hy": "sâm",
       "zh": "sān",
       "zh_tw": "sān",
       "yue": "saam1",
@@ -677,6 +687,8 @@ const HAN_DATA = {
       "cpx": "sa²³³"
     },
     "ipa": {
+      "wuu_qt": "sa˦˦",
+      "hak_hy": "sam˧˧",
       "zh": "san˥˥",
       "zh_tw": "san˥˥",
       "zh_db": "san˥˥",
@@ -796,6 +808,8 @@ const HAN_DATA = {
   },
   "四": {
     "surface": {
+      "wuu_qt": "sy⁴²",
+      "hak_hy": "sì",
       "zh": "sì",
       "zh_tw": "sì",
       "yue": "sei3",
@@ -896,6 +910,8 @@ const HAN_DATA = {
       "ja_thk": "si"
     },
     "ipa": {
+      "wuu_qt": "sɿ˦˨",
+      "hak_hy": "si˥˧",
       "zh": "sɿ˥˩",
       "zh_tw": "sɿ˥˩",
       "zh_db": "sɿ˥˧",
@@ -1026,6 +1042,8 @@ const HAN_DATA = {
   },
   "五": {
     "surface": {
+      "wuu_qt": "ng²²",
+      "hak_hy": "ńg",
       "zh": "wǔ",
       "zh_tw": "wǔ",
       "yue": "ng5",
@@ -1115,6 +1133,8 @@ const HAN_DATA = {
       "nan": "gōo"
     },
     "ipa": {
+      "wuu_qt": "ŋ̍˨˨",
+      "hak_hy": "ŋ̍˧˩",
       "zh": "u˨˩˦",
       "zh_tw": "u˨˩˦",
       "zh_db": "u˨˩˧",
@@ -1235,6 +1255,8 @@ const HAN_DATA = {
   },
   "六": {
     "surface": {
+      "wuu_qt": "lieu²¹³",
+      "hak_hy": "liu̍k",
       "zh": "liù",
       "zh_tw": "liù",
       "yue": "luk6",
@@ -1324,6 +1346,8 @@ const HAN_DATA = {
       "cdo": "lĕ̤k"
     },
     "ipa": {
+      "wuu_qt": "lɤu˨˩˧",
+      "hak_hy": "liuk̚˥",
       "zh": "ljou˥˩",
       "zh_tw": "ljou˥˩",
       "zh_db": "liou˥˧",
@@ -1444,6 +1468,8 @@ const HAN_DATA = {
   },
   "七": {
     "surface": {
+      "wuu_qt": "tshei²³",
+      "hak_hy": "chhit",
       "zh": "qī",
       "zh_tw": "qī",
       "yue": "cat1",
@@ -1542,6 +1568,8 @@ const HAN_DATA = {
       "ja_thk": "shitsu"
     },
     "ipa": {
+      "wuu_qt": "tsʰei˨˧",
+      "hak_hy": "tsʰit̚˩",
       "zh": "t͡ɕʰi˥˥",
       "zh_tw": "t͡ɕʰi˥˥",
       "zh_db": "tɕʰi˥˥",
@@ -1670,6 +1698,8 @@ const HAN_DATA = {
   },
   "八": {
     "surface": {
+      "wuu_qt": "po²³",
+      "hak_hy": "pat",
       "zh": "bā",
       "zh_tw": "bā",
       "yue": "baat3",
@@ -1757,6 +1787,8 @@ const HAN_DATA = {
       "nan_hai": "buet7"
     },
     "ipa": {
+      "wuu_qt": "po˨˧",
+      "hak_hy": "pat̚˩",
       "zh": "pa˥˥",
       "zh_tw": "pa˥˥",
       "zh_db": "pa˥˥",
@@ -1875,6 +1907,8 @@ const HAN_DATA = {
   },
   "九": {
     "surface": {
+      "wuu_qt": "jiau³⁵",
+      "hak_hy": "kiú",
       "zh": "jiǔ",
       "zh_tw": "jiǔ",
       "yue": "gau2",
@@ -1966,6 +2000,8 @@ const HAN_DATA = {
       "phm": "*N-ɟuə̯X"
     },
     "ipa": {
+      "wuu_qt": "tɕiau˧˥",
+      "hak_hy": "kiu˧˩",
       "zh": "t͡ɕjou˨˩˦",
       "zh_tw": "t͡ɕjou˨˩˦",
       "zh_db": "tɕiou˨˩˧",
@@ -2088,6 +2124,8 @@ const HAN_DATA = {
   },
   "十": {
     "surface": {
+      "wuu_qt": "zai²¹³",
+      "hak_hy": "si̍p",
       "zh": "shí",
       "zh_tw": "shí",
       "yue": "sap6",
@@ -2176,6 +2214,8 @@ const HAN_DATA = {
       "phm": "*gju̯əpD"
     },
     "ipa": {
+      "wuu_qt": "zai˨˩˧",
+      "hak_hy": "sip̚˥",
       "zh": "ʂʐ̩˧˥",
       "zh_tw": "sz̩˧˥",
       "zh_db": "ʂʐ̩˧˥",
@@ -2295,6 +2335,8 @@ const HAN_DATA = {
   },
   "日": {
     "surface": {
+      "wuu_qt": "nyai²¹³",
+      "hak_hy": "ngi̍t",
       "nan": "li̍t",
       "cdo": "nĭk",
       "zh": "rì",
@@ -2383,6 +2425,8 @@ const HAN_DATA = {
       "ja_thk": "jitsu"
     },
     "ipa": {
+      "wuu_qt": "ȵai˨˩˧",
+      "hak_hy": "ŋit̚˥",
       "zh": "ʐ̩˥˩",
       "zh_tw": "z̩˥˩",
       "zh_db": "ʐ̩˥˧",
@@ -2499,6 +2543,8 @@ const HAN_DATA = {
   },
   "月": {
     "surface": {
+      "wuu_qt": "hhy²¹³",
+      "hak_hy": "ngie̍t",
       "nan": "ge̍h",
       "zh": "yuè",
       "zh_tw": "yuè",
@@ -2584,6 +2630,8 @@ const HAN_DATA = {
       "ja_thk": "getsu"
     },
     "ipa": {
+      "wuu_qt": "ɦy˨˩˧",
+      "hak_hy": "ŋiet̚˥",
       "zh": "ɥe˥˩",
       "zh_tw": "ɥe˥˩",
       "zh_db": "ye˥˧",
@@ -2698,6 +2746,8 @@ const HAN_DATA = {
   },
   "山": {
     "surface": {
+      "wuu_qt": "sa⁴⁴",
+      "hak_hy": "sân",
       "nan": "suann",
       "zh": "shān",
       "zh_tw": "shān",
@@ -2786,6 +2836,8 @@ const HAN_DATA = {
       "ptb": "*r-i"
     },
     "ipa": {
+      "wuu_qt": "sa˦˦",
+      "hak_hy": "san˧˧",
       "zh": "ʂan˥˥",
       "zh_tw": "san˥˥",
       "zh_db": "ʂan˥˥",
@@ -2904,6 +2956,8 @@ const HAN_DATA = {
   },
   "水": {
     "surface": {
+      "wuu_qt": "sy³⁵",
+      "hak_hy": "súi",
       "nan": "tsúi",
       "zh": "shuǐ",
       "zh_tw": "shuǐ",
@@ -2996,6 +3050,8 @@ const HAN_DATA = {
       "ja_thk": "sui"
     },
     "ipa": {
+      "wuu_qt": "sz̩˧˥",
+      "hak_hy": "sui˧˩",
       "nan": "t͡sui˥˧",
       "zh": "ʂueɪ˨˩˦",
       "zh_tw": "sueɪ˨˩˦",
@@ -3118,6 +3174,8 @@ const HAN_DATA = {
   },
   "火": {
     "surface": {
+      "wuu_qt": "fu³⁵",
+      "hak_hy": "fó",
       "ja": "ka",
       "nan_pera": "hóe",
       "nan_id": "húe",
@@ -3217,6 +3275,8 @@ const HAN_DATA = {
       "ja_thk": "ka"
     },
     "ipa": {
+      "wuu_qt": "fu˧˥",
+      "hak_hy": "fo˧˩",
       "ja": "ka",
       "nan_pera": "hue˨˩",
       "nan_id": "hue˥˧",
@@ -3347,6 +3407,8 @@ const HAN_DATA = {
   },
   "木": {
     "surface": {
+      "wuu_qt": "moe²¹³",
+      "hak_hy": "mu̍k",
       "nan": "ba̍k",
       "zh": "mù",
       "zh_tw": "mù",
@@ -3439,6 +3501,8 @@ const HAN_DATA = {
       "ja_thk": "bogu"
     },
     "ipa": {
+      "wuu_qt": "mø˨˩˧",
+      "hak_hy": "muk̚˥",
       "zh": "mu˥˩",
       "zh_tw": "mu˥˩",
       "zh_db": "mu˥˧",
@@ -3560,6 +3624,8 @@ const HAN_DATA = {
   },
   "土": {
     "surface": {
+      "wuu_qt": "thou³⁵",
+      "hak_hy": "thú",
       "zh": "tǔ",
       "zh_tw": "tǔ",
       "yue": "tou2",
@@ -3658,6 +3724,8 @@ const HAN_DATA = {
       "ja_thk": "to"
     },
     "ipa": {
+      "wuu_qt": "tʰəu˧˥",
+      "hak_hy": "tʰu˧˩",
       "zh": "tʰu˨˩˦",
       "zh_tw": "tʰu˨˩˦",
       "zh_db": "tʰu˨˩˧",
@@ -3786,6 +3854,8 @@ const HAN_DATA = {
   },
   "天": {
     "surface": {
+      "wuu_qt": "thi⁴⁴",
+      "hak_hy": "thiên",
       "nan": "thinn",
       "zh": "tiān",
       "zh_tw": "tiān",
@@ -3872,6 +3942,8 @@ const HAN_DATA = {
       "ja_thk": "ten"
     },
     "ipa": {
+      "wuu_qt": "tʰi˦˦",
+      "hak_hy": "tʰien˧˧",
       "zh": "tʰjɛn˥˥",
       "zh_tw": "tʰjɛn˥˥",
       "zh_db": "tʰiɛn˥˥",
@@ -3987,6 +4059,8 @@ const HAN_DATA = {
   },
   "地": {
     "surface": {
+      "wuu_qt": "di²²",
+      "hak_hy": "thì",
       "nan": "tūe",
       "zh": "dì",
       "zh_tw": "dì",
@@ -4075,6 +4149,8 @@ const HAN_DATA = {
       "ja_thk": "chi"
     },
     "ipa": {
+      "wuu_qt": "di˨˨",
+      "hak_hy": "tʰi˥˧",
       "zh": "ti˥˩",
       "zh_tw": "ti˥˩",
       "zh_db": "ti˥˧",
@@ -4191,6 +4267,8 @@ const HAN_DATA = {
   },
   "海": {
     "surface": {
+      "wuu_qt": "ha³⁵",
+      "hak_hy": "hói",
       "zh": "hǎi",
       "zh_tw": "hǎi",
       "yue": "hoi2",
@@ -4287,6 +4365,8 @@ const HAN_DATA = {
       "ja_thk": "kai"
     },
     "ipa": {
+      "wuu_qt": "ha˧˥",
+      "hak_hy": "hoi˧˩",
       "zh": "xaɪ˨˩˦",
       "zh_tw": "xaɪ˨˩˦",
       "zh_db": "xai˨˩˧",
@@ -4414,6 +4494,8 @@ const HAN_DATA = {
   },
   "龍": {
     "surface": {
+      "wuu_qt": "leng³¹",
+      "hak_hy": "liung",
       "nan": "lêng",
       "zh": "lóng",
       "zh_tw": "lóng",
@@ -4501,6 +4583,8 @@ const HAN_DATA = {
       "ja_thk": "ryō"
     },
     "ipa": {
+      "wuu_qt": "leŋ˧˩",
+      "hak_hy": "liuŋ˩˩",
       "zh": "luŋ˧˥",
       "zh_tw": "luŋ˧˥",
       "zh_db": "luŋ˧˥",
@@ -4617,6 +4701,8 @@ const HAN_DATA = {
   },
   "虎": {
     "surface": {
+      "wuu_qt": "hu³⁵",
+      "hak_hy": "fú",
       "zh": "hǔ",
       "zh_tw": "hǔ",
       "yue": "fu2",
@@ -4713,6 +4799,8 @@ const HAN_DATA = {
       "ja_thk": "ko"
     },
     "ipa": {
+      "wuu_qt": "hu˧˥",
+      "hak_hy": "fu˧˩",
       "zh": "xu˨˩˦",
       "zh_tw": "xu˨˩˦",
       "zh_db": "xu˨˩˧",
@@ -4839,6 +4927,8 @@ const HAN_DATA = {
   },
   "犬": {
     "surface": {
+      "wuu_qt": "qy³⁵",
+      "hak_hy": "khién",
       "nan_id": "khián",
       "zh": "quǎn",
       "zh_tw": "quǎn",
@@ -4937,6 +5027,8 @@ const HAN_DATA = {
       "ja_thk": "ken"
     },
     "ipa": {
+      "wuu_qt": "tɕʰy˧˥",
+      "hak_hy": "kʰien˧˩",
       "nan_id": "kʰian˥˧",
       "zh": "t͡ɕʰɥɛn˨˩˦",
       "zh_tw": "t͡ɕʰɥɛn˨˩˦",
@@ -5065,6 +5157,8 @@ const HAN_DATA = {
   },
   "馬": {
     "surface": {
+      "wuu_qt": "mo³⁵",
+      "hak_hy": "má",
       "nan": "bé",
       "zh": "mǎ",
       "zh_tw": "mǎ",
@@ -5153,6 +5247,8 @@ const HAN_DATA = {
       "ja_thk": "ba"
     },
     "ipa": {
+      "wuu_qt": "mo˧˥",
+      "hak_hy": "ma˧˩",
       "zh": "ma˨˩˦",
       "zh_tw": "ma˨˩˦",
       "zh_db": "ma˨˩˧",
@@ -5270,6 +5366,8 @@ const HAN_DATA = {
   },
   "鳥": {
     "surface": {
+      "wuu_qt": "tie³⁵",
+      "hak_hy": "tiáu",
       "nan": "tsiáu",
       "zh": "niǎo",
       "zh_tw": "niǎo",
@@ -5360,6 +5458,8 @@ const HAN_DATA = {
       "ja_thk": "chō"
     },
     "ipa": {
+      "wuu_qt": "tiɛ˧˥",
+      "hak_hy": "tiau˧˩",
       "zh": "njau˨˩˦",
       "zh_tw": "njau˨˩˦",
       "zh_db": "niɔ˨˩˧",
@@ -5479,6 +5579,8 @@ const HAN_DATA = {
   },
   "魚": {
     "surface": {
+      "wuu_qt": "hhy³¹",
+      "hak_hy": "ng",
       "nan_pera": "hû",
       "nan_id": "hû",
       "nan_sg": "hî",
@@ -5578,6 +5680,8 @@ const HAN_DATA = {
       "ja_thk": "gyo"
     },
     "ipa": {
+      "wuu_qt": "ɦy˧˩",
+      "hak_hy": "ŋ˩˩",
       "nan_pera": "hu˨˦",
       "nan_id": "hu˨˦",
       "nan_sg": "hi˨˦",
@@ -5707,6 +5811,8 @@ const HAN_DATA = {
   },
   "牛": {
     "surface": {
+      "wuu_qt": "ngau³¹",
+      "hak_hy": "ngiu",
       "nan": "gû",
       "cdo": "ngù",
       "zh": "niú",
@@ -5796,6 +5902,8 @@ const HAN_DATA = {
       "ptung": "*xuker"
     },
     "ipa": {
+      "wuu_qt": "ŋau˧˩",
+      "hak_hy": "ŋiu˩˩",
       "zh": "njou˧˥",
       "zh_tw": "njou˧˥",
       "zh_db": "niou˧˥",
@@ -5913,6 +6021,8 @@ const HAN_DATA = {
   },
   "羊": {
     "surface": {
+      "wuu_qt": "hhi³¹",
+      "hak_hy": "yong",
       "zh": "yáng",
       "zh_tw": "yáng",
       "yue": "joeng4",
@@ -5997,6 +6107,8 @@ const HAN_DATA = {
       "vi_nom": "cừu"
     },
     "ipa": {
+      "wuu_qt": "ji˧˩",
+      "hak_hy": "joŋ˩˩",
       "zh": "jaŋ˧˥",
       "zh_tw": "jaŋ˧˥",
       "zh_db": "iaŋ˧˥",
@@ -6111,6 +6223,8 @@ const HAN_DATA = {
   },
   "貓": {
     "surface": {
+      "wuu_qt": "mau⁴⁴",
+      "hak_hy": "mêu",
       "nan": "niau",
       "zh": "māo",
       "zh_tw": "māo",
@@ -6203,6 +6317,8 @@ const HAN_DATA = {
       "zh_phagspa": "mew"
     },
     "ipa": {
+      "wuu_qt": "mɔ˦˦",
+      "hak_hy": "meu˧˧",
       "zh": "mau˥˥",
       "zh_tw": "mau˥˥",
       "zh_db": "mau˥˥",
@@ -6323,6 +6439,8 @@ const HAN_DATA = {
   },
   "人": {
     "surface": {
+      "wuu_qt": "zang³¹",
+      "hak_hy": "ngin",
       "nan": "jîn",
       "cdo": "ìng",
       "zh": "rén",
@@ -6411,6 +6529,8 @@ const HAN_DATA = {
       "ja_thk": "jin"
     },
     "ipa": {
+      "wuu_qt": "zaŋ˧˩",
+      "hak_hy": "ŋin˩˩",
       "zh": "ʐən˧˥",
       "zh_tw": "zən˧˥",
       "zh_db": "ʐən˧˥",
@@ -6528,6 +6648,8 @@ const HAN_DATA = {
   },
   "手": {
     "surface": {
+      "wuu_qt": "siau³⁵",
+      "hak_hy": "sú",
       "nan": "tshiú",
       "cdo": "chiū",
       "zh": "shǒu",
@@ -6615,6 +6737,8 @@ const HAN_DATA = {
       "ja_thk": "shū"
     },
     "ipa": {
+      "wuu_qt": "ɕiau˧˥",
+      "hak_hy": "su˧˩",
       "zh": "ʂou˨˩˦",
       "zh_tw": "sou˨˩˦",
       "zh_db": "ʂou˨˩˧",
@@ -6730,6 +6854,8 @@ const HAN_DATA = {
   },
   "足": {
     "surface": {
+      "wuu_qt": "jy²³",
+      "hak_hy": "chiuk",
       "nan": "tsiok",
       "nan_id": "tsiok",
       "zh": "zú",
@@ -6824,6 +6950,8 @@ const HAN_DATA = {
       "ja_thk": "sogu"
     },
     "ipa": {
+      "wuu_qt": "tɕy˨˧",
+      "hak_hy": "tɕiuk̚˩",
       "nan_id": "t͡siɔk̚˧˨",
       "zh": "tsu˧˥",
       "zh_tw": "tsu˧˥",
@@ -6947,6 +7075,8 @@ const HAN_DATA = {
   },
   "目": {
     "surface": {
+      "wuu_qt": "moe²¹³",
+      "hak_hy": "mu̍k",
       "nan": "ba̍k",
       "cdo": "mĕk",
       "zh": "mù",
@@ -7035,6 +7165,8 @@ const HAN_DATA = {
       "ja_thk": "bogu"
     },
     "ipa": {
+      "wuu_qt": "mø˨˩˧",
+      "hak_hy": "muk̚˥",
       "zh": "mu˥˩",
       "zh_tw": "mu˥˩",
       "zh_db": "mu˥˧",
@@ -7151,6 +7283,8 @@ const HAN_DATA = {
   },
   "耳": {
     "surface": {
+      "wuu_qt": "ngai³¹",
+      "hak_hy": "ngí",
       "nan": "hī",
       "zh": "ěr",
       "zh_tw": "ěr",
@@ -7240,6 +7374,8 @@ const HAN_DATA = {
       "ja_thk": "ji"
     },
     "ipa": {
+      "wuu_qt": "ŋai˧˩",
+      "hak_hy": "ŋi˧˩",
       "zh": "ɑɻ˨˩˦",
       "zh_tw": "ɑɻ˨˩˦",
       "zh_db": "ɚ˨˩˧",
@@ -7358,6 +7494,8 @@ const HAN_DATA = {
   },
   "口": {
     "surface": {
+      "wuu_qt": "khau³⁵",
+      "hak_hy": "khiéu",
       "nan": "kháu",
       "zh": "kǒu",
       "zh_tw": "kǒu",
@@ -7449,6 +7587,8 @@ const HAN_DATA = {
       "ja_thk": "kō"
     },
     "ipa": {
+      "wuu_qt": "kʰau˧˥",
+      "hak_hy": "kʰieu˧˩",
       "zh": "kʰou˨˩˦",
       "zh_tw": "kʰou˨˩˦",
       "zh_db": "kʰou˨˩˧",
@@ -7569,6 +7709,8 @@ const HAN_DATA = {
   },
   "頭": {
     "surface": {
+      "wuu_qt": "dou³¹",
+      "hak_hy": "theu",
       "nan": "thâu",
       "zh": "tóu",
       "zh_tw": "tóu",
@@ -7660,6 +7802,8 @@ const HAN_DATA = {
       "pja": "*kasira"
     },
     "ipa": {
+      "wuu_qt": "dɤu˧˩",
+      "hak_hy": "tʰeu˩˩",
       "zh": "tʰou˧˥",
       "zh_tw": "tʰou˧˥",
       "zh_db": "tʰou˧˥",
@@ -7780,6 +7924,8 @@ const HAN_DATA = {
   },
   "心": {
     "surface": {
+      "wuu_qt": "sang⁴⁴",
+      "hak_hy": "sîm",
       "zh": "xīn",
       "zh_tw": "xīn",
       "yue": "sam1",
@@ -7876,6 +8022,8 @@ const HAN_DATA = {
       "ja_thk": "shin"
     },
     "ipa": {
+      "wuu_qt": "saŋ˦˦",
+      "hak_hy": "sim˧˧",
       "zh": "ɕin˥˥",
       "zh_tw": "ɕin˥˥",
       "zh_db": "ɕin˥˥",
@@ -8002,6 +8150,8 @@ const HAN_DATA = {
   },
   "血": {
     "surface": {
+      "wuu_qt": "xyo²³",
+      "hak_hy": "hiet",
       "nan": "huih",
       "zh": "xuè",
       "zh_tw": "xuè",
@@ -8093,6 +8243,8 @@ const HAN_DATA = {
       "ja_thk": "ketsu"
     },
     "ipa": {
+      "wuu_qt": "ɕɥɵ˨˧",
+      "hak_hy": "hiet̚˩",
       "zh": "ɕye˥˩",
       "zh_tw": "ɕye˥˩",
       "zh_db": "ɕye˥˧",
@@ -8213,6 +8365,8 @@ const HAN_DATA = {
   },
   "肉": {
     "surface": {
+      "wuu_qt": "nyau²¹³",
+      "hak_hy": "ngiu̍k",
       "nan": "bah",
       "zh": "ròu",
       "zh_tw": "ròu",
@@ -8302,6 +8456,8 @@ const HAN_DATA = {
       "ja_thk": "jigu"
     },
     "ipa": {
+      "wuu_qt": "ȵau˨˩˧",
+      "hak_hy": "ŋiuk̚˥",
       "zh": "ʐou˥˩",
       "zh_tw": "zou˥˩",
       "zh_db": "ʐou˥˧",
@@ -8419,6 +8575,8 @@ const HAN_DATA = {
   },
   "上": {
     "surface": {
+      "wuu_qt": "jio²²",
+      "hak_hy": "sòng",
       "nan": "siōng",
       "zh": "shàng",
       "zh_tw": "shàng",
@@ -8501,6 +8659,8 @@ const HAN_DATA = {
       "ja_thk": "shō"
     },
     "ipa": {
+      "wuu_qt": "jɔ˨˨",
+      "hak_hy": "soŋ˥˧",
       "zh": "ʂaŋ˥˩",
       "zh_tw": "saŋ˥˩",
       "zh_db": "ʂaŋ˥˧",
@@ -8613,6 +8773,8 @@ const HAN_DATA = {
   },
   "下": {
     "surface": {
+      "wuu_qt": "hho²²",
+      "hak_hy": "hà",
       "nan": "hā",
       "cdo": "hâ",
       "zh": "xià",
@@ -8697,6 +8859,8 @@ const HAN_DATA = {
       "ja_thk": "ka"
     },
     "ipa": {
+      "wuu_qt": "ɦo˨˨",
+      "hak_hy": "ha˥˧",
       "zh": "ɕja˥˩",
       "zh_tw": "ɕja˥˩",
       "zh_db": "ɕja˥˧",
@@ -8809,6 +8973,8 @@ const HAN_DATA = {
   },
   "中:1": {
     "surface": {
+      "wuu_qt": "jiong⁴⁴",
+      "hak_hy": "chûng",
       "zh": "zhōng",
       "zh_tw": "zhōng",
       "yue": "zung1",
@@ -8906,6 +9072,8 @@ const HAN_DATA = {
       "ja_thk": "chū"
     },
     "ipa": {
+      "wuu_qt": "tɕyoŋ˦˦",
+      "hak_hy": "tsuŋ˧˧",
       "zh": "t͡ʂuŋ˥˥",
       "zh_tw": "t͡suŋ˥˥",
       "zh_db": "tʂuŋ˥˥",
@@ -9033,6 +9201,8 @@ const HAN_DATA = {
   },
   "中:2": {
     "surface": {
+      "wuu_qt": "jiong⁴²",
+      "hak_hy": "chùng",
       "zh": "zhòng",
       "zh_db": "zhong⁵³",
       "zh_sc": "zong²¹³",
@@ -9129,6 +9299,8 @@ const HAN_DATA = {
       "ko_hun": "majeul"
     },
     "ipa": {
+      "wuu_qt": "tɕyoŋ˦˨",
+      "hak_hy": "tsuŋ˥˧",
       "ja_kun": "ataɾɯ",
       "zh": "t͡ʂuŋ˥˩",
       "zh_db": "tʂuŋ˥˧",
@@ -9253,6 +9425,8 @@ const HAN_DATA = {
   },
   "央": {
     "surface": {
+      "wuu_qt": "i⁴⁴",
+      "hak_hy": "yông",
       "nan": "iong",
       "zh": "yāng",
       "zh_tw": "yāng",
@@ -9334,6 +9508,8 @@ const HAN_DATA = {
       "ja_thk": "ō"
     },
     "ipa": {
+      "wuu_qt": "ji˦˦",
+      "hak_hy": "joŋ˧˧",
       "zh": "jaŋ˥˥",
       "zh_tw": "jaŋ˥˥",
       "zh_db": "iaŋ˥˥",
@@ -9442,6 +9618,8 @@ const HAN_DATA = {
   },
   "左": {
     "surface": {
+      "wuu_qt": "tsau³⁵",
+      "hak_hy": "chó",
       "nan": "tsó",
       "nan_id": "tsó",
       "zh": "zuǒ",
@@ -9538,6 +9716,8 @@ const HAN_DATA = {
       "ja_thk": "sa"
     },
     "ipa": {
+      "wuu_qt": "tsau˧˥",
+      "hak_hy": "tso˧˩",
       "nan_id": "tsɔ˥˧",
       "zh": "tsuo˨˩˦",
       "zh_tw": "tsuo˨˩˦",
@@ -9663,6 +9843,8 @@ const HAN_DATA = {
   },
   "右": {
     "surface": {
+      "wuu_qt": "hhau²²",
+      "hak_hy": "yù",
       "nan": "iū",
       "nan_id": "iū",
       "zh": "yòu",
@@ -9759,6 +9941,8 @@ const HAN_DATA = {
       "ja_thk": "yū"
     },
     "ipa": {
+      "wuu_qt": "jau˨˨",
+      "hak_hy": "ju˥˧",
       "nan_id": "iu˨˩",
       "zh": "jou˥˩",
       "zh_tw": "jou˥˩",
@@ -9884,6 +10068,8 @@ const HAN_DATA = {
   },
   "東": {
     "surface": {
+      "wuu_qt": "tong⁴⁴",
+      "hak_hy": "tûng",
       "nan": "tang",
       "cdo": "dĕ̤ng",
       "zh": "dōng",
@@ -9967,6 +10153,8 @@ const HAN_DATA = {
       "ja_thk": "tō"
     },
     "ipa": {
+      "wuu_qt": "toŋ˦˦",
+      "hak_hy": "tuŋ˧˧",
       "zh": "tuŋ˥˥",
       "zh_tw": "tuŋ˥˥",
       "zh_db": "tuŋ˥˥",
@@ -10078,6 +10266,8 @@ const HAN_DATA = {
   },
   "西": {
     "surface": {
+      "wuu_qt": "sei⁴⁴",
+      "hak_hy": "sî",
       "nan": "sai",
       "zh": "xī",
       "zh_tw": "xī",
@@ -10162,6 +10352,8 @@ const HAN_DATA = {
       "ja_thk": "sei"
     },
     "ipa": {
+      "wuu_qt": "sei˦˦",
+      "hak_hy": "si˧˧",
       "zh": "ɕi˥˥",
       "zh_tw": "ɕi˥˥",
       "zh_db": "ɕi˥˥",
@@ -10276,6 +10468,8 @@ const HAN_DATA = {
   },
   "南": {
     "surface": {
+      "wuu_qt": "na³¹",
+      "hak_hy": "nam",
       "nan": "lâm",
       "zh": "nán",
       "zh_tw": "nán",
@@ -10369,6 +10563,8 @@ const HAN_DATA = {
       "ja_thk": "dan"
     },
     "ipa": {
+      "wuu_qt": "na˧˩",
+      "hak_hy": "nam˩˩",
       "zh": "nan˧˥",
       "zh_tw": "nan˧˥",
       "zh_db": "nan˧˥",
@@ -10491,6 +10687,8 @@ const HAN_DATA = {
   },
   "北": {
     "surface": {
+      "wuu_qt": "peu²³",
+      "hak_hy": "pet",
       "zh": "běi",
       "zh_tw": "běi",
       "yue": "bak1",
@@ -10585,6 +10783,8 @@ const HAN_DATA = {
       "ja_thk": "hogu"
     },
     "ipa": {
+      "wuu_qt": "pɤ˨˧",
+      "hak_hy": "pet̚˩",
       "zh": "peɪ˨˩˦",
       "zh_tw": "peɪ˨˩˦",
       "zh_db": "pei˨˩˧",
@@ -10710,6 +10910,8 @@ const HAN_DATA = {
   },
   "行:1": {
     "surface": {
+      "wuu_qt": "hha³¹",
+      "hak_hy": "hang",
       "zh": "xíng",
       "yue": "haang4",
       "zh_tw": "xíng",
@@ -10806,6 +11008,8 @@ const HAN_DATA = {
       "nan_my": "kiânn"
     },
     "ipa": {
+      "wuu_qt": "ɦa˧˩",
+      "hak_hy": "haŋ˩˩",
       "zh": "ɕiŋ˧˥",
       "zh_db": "ɕiŋ˧˥",
       "zh_sc": "ɕin˨˩",
@@ -10931,6 +11135,8 @@ const HAN_DATA = {
   },
   "行:2": {
     "surface": {
+      "wuu_qt": "hho³¹",
+      "hak_hy": "hòng",
       "zh": "háng",
       "zh_db": "hang³⁵",
       "zh_sc": "han²¹",
@@ -11026,6 +11232,8 @@ const HAN_DATA = {
       "ko_hun": "haenghal"
     },
     "ipa": {
+      "wuu_qt": "ɦo˧˩",
+      "hak_hy": "hoŋ˥˧",
       "zh": "xɑŋ˧˥",
       "zh_db": "xaŋ˧˥",
       "zh_sc": "xan˨˩",
@@ -11149,6 +11357,8 @@ const HAN_DATA = {
   },
   "来": {
     "surface": {
+      "wuu_qt": "le³¹",
+      "hak_hy": "loi",
       "nan_zz": "lâi",
       "nan_xm": "lâi",
       "nan_pn": "lâi",
@@ -11244,6 +11454,8 @@ const HAN_DATA = {
       "nan_hai": "lai5"
     },
     "ipa": {
+      "wuu_qt": "le˧˩",
+      "hak_hy": "loi˩˩",
       "nan": "lai˨˦",
       "nan_zz": "lai˩˧",
       "nan_xm": "lai˨˦",
@@ -11373,6 +11585,8 @@ const HAN_DATA = {
   },
   "去": {
     "surface": {
+      "wuu_qt": "qei⁴²",
+      "hak_hy": "hì",
       "nan": "khì",
       "cdo": "kó̤",
       "zh": "qù",
@@ -11459,6 +11673,8 @@ const HAN_DATA = {
       "nan_hai": "hi3"
     },
     "ipa": {
+      "wuu_qt": "tɕʰei˦˨",
+      "hak_hy": "hi˥˧",
       "zh": "t͡ɕʰy˥˩",
       "zh_tw": "t͡ɕʰy˥˩",
       "zh_db": "tɕʰy˥˧",
@@ -11573,6 +11789,8 @@ const HAN_DATA = {
   },
   "見": {
     "surface": {
+      "wuu_qt": "ji⁴²",
+      "hak_hy": "kièn",
       "wuu": "ci5",
       "nan": "kìnn",
       "zh": "jiàn",
@@ -11661,6 +11879,8 @@ const HAN_DATA = {
       "nan_hai": "kien3"
     },
     "ipa": {
+      "wuu_qt": "tɕi˦˨",
+      "hak_hy": "kien˥˧",
       "wuu": "tɕi˧˥",
       "zh": "t͡ɕjɛn˥˩",
       "zh_tw": "t͡ɕjɛn˥˩",
@@ -11778,6 +11998,8 @@ const HAN_DATA = {
   },
   "聞": {
     "surface": {
+      "wuu_qt": "vang³¹",
+      "hak_hy": "vun",
       "nan": "bûn",
       "zh": "wén",
       "zh_tw": "wén",
@@ -11863,6 +12085,8 @@ const HAN_DATA = {
       "ja_thk": "bun"
     },
     "ipa": {
+      "wuu_qt": "vaŋ˧˩",
+      "hak_hy": "vun˩˩",
       "zh": "uən˧˥",
       "zh_tw": "uən˧˥",
       "zh_db": "uən˧˥",
@@ -11977,6 +12201,8 @@ const HAN_DATA = {
   },
   "食": {
     "surface": {
+      "wuu_qt": "zai²¹³",
+      "hak_hy": "si̍t",
       "wuu": "zeq8",
       "wuu_hz": "zeq8",
       "wuu_jx": "zeq8",
@@ -12066,6 +12292,8 @@ const HAN_DATA = {
       "nan_te": "ziah8"
     },
     "ipa": {
+      "wuu_qt": "zai˨˩˧",
+      "hak_hy": "sit̚˥",
       "wuu": "zəʔ˩˨",
       "wuu_hz": "zəʔ˨˩˧",
       "wuu_jx": "zəʔ˨˩˧",
@@ -12183,6 +12411,8 @@ const HAN_DATA = {
   },
   "飲": {
     "surface": {
+      "wuu_qt": "ai³⁵",
+      "hak_hy": "yím",
       "nan": "ím",
       "zh": "yǐn",
       "zh_tw": "yǐn",
@@ -12273,6 +12503,8 @@ const HAN_DATA = {
       "ja_thk": "in"
     },
     "ipa": {
+      "wuu_qt": "ʔai˧˥",
+      "hak_hy": "jim˧˩",
       "zh": "in˨˩˦",
       "zh_tw": "in˨˩˦",
       "zh_db": "in˨˩˧",
@@ -12392,6 +12624,8 @@ const HAN_DATA = {
   },
   "走": {
     "surface": {
+      "wuu_qt": "tsau³⁵",
+      "hak_hy": "chéu",
       "nan": "tsáu",
       "zh": "zǒu",
       "zh_tw": "zǒu",
@@ -12480,6 +12714,8 @@ const HAN_DATA = {
       "ja_thk": "sō"
     },
     "ipa": {
+      "wuu_qt": "tsau˧˥",
+      "hak_hy": "tseu˧˩",
       "zh": "tsou˨˩˦",
       "zh_tw": "tsou˨˩˦",
       "zh_db": "tsou˨˩˧",
@@ -12597,6 +12833,8 @@ const HAN_DATA = {
   },
   "坐": {
     "surface": {
+      "wuu_qt": "zo³⁵",
+      "hak_hy": "chhó",
       "nan": "tsē",
       "zh": "zuò",
       "zh_tw": "zuò",
@@ -12686,6 +12924,8 @@ const HAN_DATA = {
       "ja_thk": "sa"
     },
     "ipa": {
+      "wuu_qt": "zo˧˥",
+      "hak_hy": "tsʰo˧˩",
       "zh": "tsuo˥˩",
       "zh_tw": "tsuo˥˩",
       "zh_db": "tsuo˥˧",
@@ -12804,6 +13044,8 @@ const HAN_DATA = {
   },
   "立": {
     "surface": {
+      "wuu_qt": "lai²¹³",
+      "hak_hy": "li̍p",
       "nan": "li̍p",
       "zh": "lì",
       "zh_tw": "lì",
@@ -12894,6 +13136,8 @@ const HAN_DATA = {
       "ja_thk": "ritsu"
     },
     "ipa": {
+      "wuu_qt": "lai˨˩˧",
+      "hak_hy": "lip̚˥",
       "zh": "li˥˩",
       "zh_tw": "li˥˩",
       "zh_db": "li˥˧",
@@ -19054,9 +19298,136 @@ const HAN_LANG_META = {
       "year": 2012
     }
   }
+,
+  "wuu_qt": {
+    "name": "Qingtian Wu",
+    "native": "青田話",
+    "lat": 28.14,
+    "lng": 120.29,
+    "family": "Sinitic (Wu)",
+    "region": "浙江省麗水市青田県 — 甌江片呉語、温州の上流。イタリア（プラート）・スペイン・オランダ・ポルトガル華人ディアスポラの母方言",
+    "reading_type": {
+      "ja": "青田語（甌江呉語）",
+      "ko": "칭톈어 (甌江 오어)",
+      "zh": "青田话（瓯江片）",
+      "en": "Qingtian Wu (Oujiang)",
+      "yue": "青田話（甌江片）",
+      "vi": "Tiếng Thanh Điền (Ngô ngữ Âu Giang)",
+      "th": "ภาษาชิงเถียน (อู๋สาขาโอวเจียง)",
+      "id": "Wu Qingtian (Oujiang)",
+      "hi": "छिंगथ्येन वू (ओउच्यांग)",
+      "de": "Qingtian-Wu (Oujiang)",
+      "fr": "wu de Qingtian (Oujiang)",
+      "it": "wu di Qingtian (Oujiang)",
+      "es": "wu de Qingtian (Oujiang)",
+      "pt": "wu de Qingtian (Oujiang)",
+      "ru": "Цинтяньский диалект (группа Оуцзян, у)",
+      "uk": "Цінтяньський діалект (група Оуцзян, у)",
+      "ar": "وو تشينغتيان (أوجيانغ)",
+      "he": "וו צ'ינגטיין (אוּג'יאנג)",
+      "sw": "Kiwu cha Qingtian (Oujiang)"
+    },
+    "description": {
+      "ja": "浙江省麗水市青田県の甌江片呉語で、甌江を遡った温州の上流に位置し、温州語と非常に近く、約8声調の声調体系と複雑な連続変調を共有する。イタリア（プラート）、スペイン、オランダ、ポルトガルの華人社会の大多数の祖籍方言であり、ヨーロッパ華僑ディアスポラの人口的中核をなす。",
+      "ko": "저장성 리수이시 칭톈현의 甌江片 오어(吳語) 방언으로, 오강(甌江) 상류에서 원저우의 위쪽에 위치하며 원저우어와 매우 가까워 약 8개의 성조 체계와 복잡한 연속변조를 공유한다. 이탈리아(프라토), 스페인, 네덜란드, 포르투갈 화인 사회 대다수의 본적 방언으로, 유럽 화교 디아스포라의 인구적 중심을 이룬다.",
+      "zh": "浙江丽水青田县的瓯江片吴语，位于瓯江上游、温州的上方，与温州话极为接近，共享约八个声调的声调系统和复杂的连续变调。它是意大利（普拉托）、西班牙、荷兰和葡萄牙绝大多数华人社区的祖籍方言，构成欧洲华人侨民的人口主体。",
+      "en": "An Oujiang Wu (甌江片) variety of Qingtian County, Lishui, Zhejiang — upstream from Wenzhou on the Ou River and very close to Wenzhou Wu, sharing its roughly eight-tone system and complex tone sandhi. It is the ancestral home topolect of the great majority of Chinese communities in Italy (Prato), Spain, the Netherlands and Portugal, making it the demographic backbone of the European Chinese diaspora.",
+      "yue": "浙江麗水青田縣嘅甌江片吳語，喺甌江上游、溫州上面，同溫州話極為接近，共享約八個聲調嘅聲調系統同複雜嘅連續變調。佢係意大利（普拉托）、西班牙、荷蘭同葡萄牙絕大多數華人社區嘅祖籍方言，構成歐洲華人僑民嘅人口主體。",
+      "vi": "Một biến thể Ngô ngữ Âu Giang (甌江片) của huyện Thanh Điền, Lệ Thủy, Chiết Giang — nằm ở thượng nguồn sông Âu so với Ôn Châu và rất gần tiếng Ôn Châu, cùng chung hệ thống khoảng tám thanh điệu và biến điệu liên hoàn phức tạp. Đây là thổ ngữ quê gốc của đại đa số cộng đồng người Hoa ở Ý (Prato), Tây Ban Nha, Hà Lan và Bồ Đào Nha, tạo nên xương sống nhân khẩu của cộng đồng người Hoa hải ngoại tại châu Âu.",
+      "th": "ภาษาถิ่นอู๋สาขาโอวเจียง (甌江片) ของอำเภอชิงเถียน เมืองหลี่สุ่ย มณฑลเจ้อเจียง ตั้งอยู่เหนือเมืองเวินโจวขึ้นไปตามแม่น้ำโอว และใกล้เคียงกับภาษาเวินโจวมาก โดยมีระบบวรรณยุกต์ราวแปดเสียงและการกลมกลืนวรรณยุกต์ที่ซับซ้อนร่วมกัน เป็นภาษาถิ่นบ้านเกิดของชุมชนชาวจีนส่วนใหญ่ในอิตาลี (ปราโต) สเปน เนเธอร์แลนด์ และโปรตุเกส จึงเป็นแกนหลักทางประชากรของชาวจีนพลัดถิ่นในยุโรป",
+      "id": "Ragam Wu Oujiang (甌江片) dari Kabupaten Qingtian, Lishui, Zhejiang — terletak di hulu Sungai Ou dari Wenzhou dan sangat dekat dengan Wu Wenzhou, berbagi sistem sekitar delapan nada dan sandhi nada yang rumit. Ini adalah topolek kampung halaman bagi mayoritas besar komunitas Tionghoa di Italia (Prato), Spanyol, Belanda, dan Portugal, sehingga menjadi tulang punggung demografis diaspora Tionghoa Eropa.",
+      "hi": "चीन के चच्यांग प्रांत के लिशुई स्थित छिंगथ्येन काउंटी की एक ओउच्यांग वू (甌江片) बोली — ओउ नदी पर वनचो से ऊपर की ओर स्थित और वनचो वू से बहुत निकट, जो लगभग आठ स्वराघातों की प्रणाली और जटिल स्वर-संधि साझा करती है। यह इटली (प्राटो), स्पेन, नीदरलैंड और पुर्तगाल के अधिकांश चीनी समुदायों की पैतृक बोली है, जो यूरोपीय चीनी प्रवासी समुदाय की जनसांख्यिकीय रीढ़ है।",
+      "de": "Eine Oujiang-Wu-Varietät (甌江片) des Kreises Qingtian in Lishui, Zhejiang — flussaufwärts von Wenzhou am Ou-Fluss gelegen und dem Wenzhou-Wu sehr nahe, mit dem sie das System von etwa acht Tönen und den komplexen Tonsandhi teilt. Sie ist der angestammte Heimatdialekt der überwiegenden Mehrheit der chinesischen Gemeinschaften in Italien (Prato), Spanien, den Niederlanden und Portugal und bildet damit das demografische Rückgrat der europäischen chinesischen Diaspora.",
+      "fr": "Une variété de wu de l'Oujiang (甌江片) du district de Qingtian, à Lishui, dans le Zhejiang — située en amont de Wenzhou sur la rivière Ou et très proche du wu de Wenzhou, dont elle partage le système d'environ huit tons et le sandhi tonal complexe. C'est le parler ancestral de la grande majorité des communautés chinoises d'Italie (Prato), d'Espagne, des Pays-Bas et du Portugal, ce qui en fait l'ossature démographique de la diaspora chinoise d'Europe.",
+      "it": "Una varietà di wu dell'Oujiang (甌江片) della contea di Qingtian, a Lishui, nello Zhejiang — situata a monte di Wenzhou sul fiume Ou e molto vicina al wu di Wenzhou, di cui condivide il sistema di circa otto toni e il complesso sandhi tonale. È il vernacolo ancestrale della grande maggioranza delle comunità cinesi in Italia (Prato), Spagna, Paesi Bassi e Portogallo, costituendo così l'ossatura demografica della diaspora cinese europea.",
+      "es": "Una variedad de wu del Oujiang (甌江片) del condado de Qingtian, en Lishui, Zhejiang — situada río arriba de Wenzhou en el río Ou y muy próxima al wu de Wenzhou, con el que comparte su sistema de unos ocho tonos y un complejo sandhi tonal. Es el habla ancestral de la gran mayoría de las comunidades chinas en Italia (Prato), España, los Países Bajos y Portugal, lo que la convierte en el eje demográfico de la diáspora china europea.",
+      "pt": "Uma variedade de wu do Oujiang (甌江片) do condado de Qingtian, em Lishui, Zhejiang — situada a montante de Wenzhou no rio Ou e muito próxima do wu de Wenzhou, com o qual partilha o sistema de cerca de oito tons e o complexo sândi tonal. É o falar ancestral da grande maioria das comunidades chinesas em Itália (Prato), Espanha, Países Baixos e Portugal, constituindo a espinha dorsal demográfica da diáspora chinesa europeia.",
+      "ru": "Разновидность уского языка группы Оуцзян (甌江片) уезда Цинтянь городского округа Лишуй провинции Чжэцзян — расположенная выше Вэньчжоу по течению реки Оу и очень близкая к вэньчжоускому диалекту у, с которым она разделяет систему примерно из восьми тонов и сложное тоновое сандхи. Это исконный родной говор подавляющего большинства китайских общин в Италии (Прато), Испании, Нидерландах и Португалии, что делает его демографической основой европейской китайской диаспоры.",
+      "uk": "Різновид уської мови групи Оуцзян (甌江片) повіту Цінтянь міського округу Лішуй провінції Чжецзян — розташований вище Веньчжоу за течією річки Оу і дуже близький до веньчжоуського діалекту у, з яким він поділяє систему приблизно з восьми тонів і складне тонове сандхі. Це питомий рідний говір переважної більшості китайських громад в Італії (Прато), Іспанії, Нідерландах і Португалії, що робить його демографічною основою європейської китайської діаспори.",
+      "ar": "لهجة من الوو الأوجيانغية (甌江片) في مقاطعة تشينغتيان بمدينة ليشوي، تشجيانغ — تقع أعلى نهر أو من وِنتشو وقريبة جدًّا من وو وِنتشو، تشاركها نظامها المؤلَّف من نحو ثماني نغمات وتبدُّلها النغمي المعقَّد. وهي اللهجة الأصلية لموطن الأغلبية العظمى من الجاليات الصينية في إيطاليا (براتو) وإسبانيا وهولندا والبرتغال، مما يجعلها العمود الفقري الديموغرافي للشتات الصيني الأوروبي.",
+      "he": "להג וו אוּג'יאנגי (甌江片) של מחוז צ'ינגטיין שבלישוֹאי, ג'ג'יאנג — הממוקם במעלה נהר אוֹ מוֶנְג'ואו וקרוב מאוד לווֹ של ונג'ואו, וחולק עמו מערכת של כשמונה טונים וסַנְדְהִי טוני מורכב. זהו ניב מולדת המוצא של הרוב המכריע של הקהילות הסיניות באיטליה (פּרָאטוֹ), ספרד, הולנד ופורטוגל, ובכך הוא עמוד השדרה הדמוגרפי של התפוצה הסינית באירופה.",
+      "sw": "Lahaja ya Kiwu cha Oujiang (甌江片) ya Wilaya ya Qingtian, Lishui, Zhejiang — iliyoko juu ya mto Ou kutoka Wenzhou na karibu sana na Kiwu cha Wenzhou, ikishiriki mfumo wake wa takriban toni nane na sandhi tata za toni. Ni lahaja ya asili ya makao ya wengi wa jamii za Wachina nchini Italia (Prato), Hispania, Uholanzi na Ureno, hivyo kuwa nguzo ya kidemografia ya wahamiaji Wachina barani Ulaya."
+    },
+    "romanization": {
+      "name": "Qingtian romanization (調值 tone-value)",
+      "authority": "甌江片 (温州话拼音方案 base)",
+      "year": "—"
+    },
+    "speakers": "約25万人 (青田県) ＋ 欧州ディアスポラ多数",
+    "speakersSource": "Wikipedia 青田話 / 青田県 (2026-06-19閲覧)",
+    "sources": [
+      "Wikipedia: 青田話 (2026-06-19閲覧)",
+      "鄭張尚芳ら 甌江片呉語の記述",
+      "Wenzhou Wu (wuu_wz) baseline を基に青田の調値で調整 — 話者検証は今後",
+      "Glottolog: ouji1238 (Oujiang Wu)"
+    ]
+  },
+  "hak_hy": {
+    "name": "Huiyang Hakka",
+    "native": "惠陽客家話",
+    "lat": 23.08,
+    "lng": 114.41,
+    "family": "Sinitic (Hakka)",
+    "region": "廣東省惠州市惠陽区 — 粵台片新惠小片。深圳・香港新界・スリナム／ガイアナ客家ディアスポラの母方言",
+    "reading_type": {
+      "ja": "恵陽客家語",
+      "ko": "후이양 객가어 (惠陽客家話)",
+      "zh": "惠阳客家话",
+      "en": "Huiyang Hakka",
+      "yue": "惠陽客家話",
+      "vi": "Tiếng Khách Gia Huệ Dương",
+      "th": "ภาษาแคะฮุ่ยหยาง",
+      "id": "Hakka Huiyang",
+      "hi": "हुइयांग हक्का",
+      "de": "Huiyang-Hakka",
+      "fr": "hakka de Huiyang",
+      "it": "hakka di Huiyang",
+      "es": "hakka de Huiyang",
+      "pt": "hakka de Huiyang",
+      "ru": "Хойянский хакка",
+      "uk": "Хойянський хакка",
+      "ar": "هاكا هوييانغ",
+      "he": "האקה חוּאיאנג",
+      "sw": "Kihakka cha Huiyang"
+    },
+    "description": {
+      "ja": "広東省東部の恵州市恵陽の客家語で、粵台片の新惠小片に属する。海陸腔と異なり梅県客家語と同様に捲舌音をもたず、当小片独自の声調の調値をもつ。深圳および香港新界の客家、ならびにスリナムとガイアナの客家ディアスポラの祖籍方言である。",
+      "ko": "광둥성 동부 후이저우시 후이양에서 쓰이는 客家話로, 粵台片의 新惠小片에 속한다. 海陸腔과 달리 메이현 객가어처럼 권설음이 없으며, 이 소집단 고유의 성조 조치(調値)를 지닌다. 선전과 홍콩 신계(新界) 객가인, 그리고 수리남과 가이아나 객가 디아스포라의 본적 방언이다.",
+      "zh": "广东东部惠州市惠阳的客家话，属粤台片新惠小片。与海陆腔不同，它像梅县客家话一样不带卷舌音，并具有该小片自身的声调调值。它是深圳及香港新界客家人，以及苏里南和圭亚那客家侨民的祖籍方言。",
+      "en": "A 粵台片 Hakka variety of the Xin-Hui subgroup (新惠小片) spoken in Huiyang, Huizhou, eastern Guangdong. Non-retroflex like Meixian Hakka (unlike Hailu), with the subgroup's own tone contours. It is the ancestral topolect of the Hakka of Shenzhen and Hong Kong's New Territories, and of the Hakka diaspora in Suriname and Guyana.",
+      "yue": "廣東東部惠州市惠陽嘅客家話，屬粵台片新惠小片。同海陸腔唔同，佢好似梅縣客家話咁冇捲舌音，並且有該小片自身嘅聲調調值。佢係深圳同香港新界客家人，以及蘇里南同圭亞那客家僑民嘅祖籍方言。",
+      "vi": "Một biến thể tiếng Khách Gia thuộc tiểu nhóm Tân Huệ (新惠小片) của phiến Việt-Đài (粵台片), được nói ở Huệ Dương, Huệ Châu, miền đông Quảng Đông. Không có âm uốn lưỡi giống tiếng Khách Gia Mai Huyện (khác với Hải Lục), với các đường nét thanh điệu riêng của tiểu nhóm. Đây là thổ ngữ quê gốc của người Khách Gia ở Thâm Quyến và vùng Tân Giới của Hồng Kông, cũng như của cộng đồng Khách Gia hải ngoại ở Suriname và Guyana.",
+      "th": "ภาษาถิ่นแคะในกลุ่มย่อยซินฮุ่ย (新惠小片) ของสาขาเยฺว่ไถ (粵台片) ที่พูดกันในฮุ่ยหยาง เมืองฮุ่ยโจว มณฑลกวางตุ้งตะวันออก ไม่มีเสียงม้วนลิ้นเช่นเดียวกับภาษาแคะเหมยเซี่ยน (ต่างจากไห่ลู่) และมีรูปวรรณยุกต์เฉพาะของกลุ่มย่อยนี้ เป็นภาษาถิ่นบ้านเกิดของชาวแคะในเซินเจิ้นและเขตนิวเทร์ริทอรีส์ของฮ่องกง รวมทั้งชาวแคะพลัดถิ่นในซูรินามและกายอานา",
+      "id": "Ragam Hakka subkelompok Xin-Hui (新惠小片) dari cabang Yue-Tai (粵台片) yang dituturkan di Huiyang, Huizhou, Guangdong timur. Tidak beralun-lidah seperti Hakka Meixian (berbeda dari Hailu), dengan kontur nada khas subkelompoknya. Ini adalah topolek asal Hakka Shenzhen dan New Territories Hong Kong, serta diaspora Hakka di Suriname dan Guyana.",
+      "hi": "पूर्वी क्वांगतुंग के हुइचो स्थित हुइयांग में बोली जाने वाली, येऔ-थाई शाखा (粵台片) के शिन-हुइ उपसमूह (新惠小片) की एक हक्का बोली। मेईश्येन हक्का की तरह (हाईलू के विपरीत) इसमें मूर्धन्य ध्वनियाँ नहीं हैं, और इसके अपने उपसमूह के विशिष्ट स्वराघात-रूप हैं। यह शेनचेन तथा हांगकांग के नए प्रदेशों (न्यू टेरिटरीज़) के हक्का, और सूरीनाम एवं गयाना के हक्का प्रवासियों की पैतृक बोली है।",
+      "de": "Eine Hakka-Varietät der Xin-Hui-Untergruppe (新惠小片) des Yue-Tai-Zweigs (粵台片), gesprochen in Huiyang, Huizhou, im östlichen Guangdong. Wie das Meixian-Hakka (anders als Hailu) ohne retroflexe Laute und mit den eigenen Tonkonturen der Untergruppe. Sie ist der angestammte Heimatdialekt der Hakka von Shenzhen und den New Territories Hongkongs sowie der Hakka-Diaspora in Suriname und Guyana.",
+      "fr": "Une variété hakka du sous-groupe Xin-Hui (新惠小片) de la branche Yue-Tai (粵台片), parlée à Huiyang, à Huizhou, dans l'est du Guangdong. Dépourvue de rétroflexes comme le hakka de Meixian (contrairement au hailu), elle possède les contours tonals propres au sous-groupe. C'est le parler ancestral des Hakka de Shenzhen et des Nouveaux Territoires de Hong Kong, ainsi que de la diaspora hakka du Suriname et du Guyana.",
+      "it": "Una varietà hakka del sottogruppo Xin-Hui (新惠小片) del ramo Yue-Tai (粵台片), parlata a Huiyang, a Huizhou, nel Guangdong orientale. Priva di retroflesse come l'hakka di Meixian (a differenza dell'hailu), con i contorni tonali propri del sottogruppo. È il vernacolo ancestrale degli hakka di Shenzhen e dei Nuovi Territori di Hong Kong, nonché della diaspora hakka in Suriname e Guyana.",
+      "es": "Una variedad hakka del subgrupo Xin-Hui (新惠小片) de la rama Yue-Tai (粵台片), hablada en Huiyang, en Huizhou, al este de Guangdong. Carente de retroflejas como el hakka de Meixian (a diferencia del hailu), con los contornos tonales propios del subgrupo. Es el habla ancestral de los hakka de Shenzhen y de los Nuevos Territorios de Hong Kong, así como de la diáspora hakka en Surinam y Guyana.",
+      "pt": "Uma variedade hakka do subgrupo Xin-Hui (新惠小片) do ramo Yue-Tai (粵台片), falada em Huiyang, em Huizhou, no leste de Guangdong. Sem retroflexas como o hakka de Meixian (ao contrário do hailu), com os contornos tonais próprios do subgrupo. É o falar ancestral dos hakka de Shenzhen e dos Novos Territórios de Hong Kong, bem como da diáspora hakka no Suriname e na Guiana.",
+      "ru": "Разновидность хакка подгруппы Синь-Хой (新惠小片) ветви Юэ-Тай (粵台片), на которой говорят в Хойяне, городской округ Хойчжоу, на востоке провинции Гуандун. Не имеет ретрофлексных согласных, как мэйсяньский хакка (в отличие от хайлу), и обладает собственными тоновыми контурами подгруппы. Это исконный родной говор хакка Шэньчжэня и Новых Территорий Гонконга, а также хакка диаспоры в Суринаме и Гайане.",
+      "uk": "Різновид хакка підгрупи Сінь-Хой (新惠小片) гілки Юе-Тай (粵台片), якою розмовляють у Хойяні, міський округ Хойчжоу, на сході провінції Гуандун. Не має ретрофлексних приголосних, як мейсяньський хакка (на відміну від хайлу), і має власні тонові контури підгрупи. Це питомий рідний говір хакка Шеньчженя та Нових Територій Гонконгу, а також хакка діаспори в Суринамі та Гаяні.",
+      "ar": "لهجة هاكا من المجموعة الفرعية شين-هوي (新惠小片) ضمن فرع يوي-تاي (粵台片)، يُتحدَّث بها في هوييانغ بمدينة هويتشو، شرقي قوانغدونغ. خالية من الأصوات الالتفافية مثل هاكا ميشيان (بخلاف هايلو)، ولها معالمها النغمية الخاصة بالمجموعة الفرعية. وهي اللهجة الأصلية لهاكا شنتشن والأقاليم الجديدة بهونغ كونغ، ولشتات الهاكا في سورينام وغيانا.",
+      "he": "להג האקה מתת-הקבוצה שׂין-חוּאי (新惠小片) של ענף יוּאֶה-טַאי (粵台片), המדובר בחוּאיאנג, חוּאיג'ואו, שבמזרח גואנגדונג. נטול עיצורים רטרופלקסיים כמו האקה של מֵיישיין (בשונה מהאיְלוּ), ובעל מתאֵרי הטון המייחדים את תת-הקבוצה. זהו ניב המולדת של האקה של שֶנְג'ֶן והטריטוריות החדשות של הונג קונג, וכן של תפוצת ההאקה בסורינאם ובגיאנה.",
+      "sw": "Lahaja ya Kihakka ya kikundi-dogo cha Xin-Hui (新惠小片) cha tawi la Yue-Tai (粵台片), inayozungumzwa Huiyang, Huizhou, mashariki mwa Guangdong. Haina sauti za kukunja ulimi kama Kihakka cha Meixian (tofauti na Hailu), na ina mikondo yake ya toni ya kikundi-dogo. Ni lahaja ya asili ya Wahakka wa Shenzhen na Maeneo Mapya ya Hong Kong, pamoja na wahamiaji Wahakka nchini Suriname na Guyana."
+    },
+    "romanization": {
+      "name": "Pha̍k-fa-sṳ (PFS / 客語白話字)",
+      "authority": "客家話拼音方案 (新惠小片 adapted)",
+      "year": 1981
+    },
+    "speakers": "約150万人 (惠州市惠陽) ＋ 香港新界・スリナム客家",
+    "speakersSource": "Wikipedia 惠陽話 / 客家語 (2026-06-19閲覧)",
+    "sources": [
+      "Wikipedia: 惠陽話 / 新惠小片 (2026-06-19閲覧)",
+      "李如龍ら 客家方言の記述",
+      "Meixian (hak_mz) baseline を基に新惠小片の調値で調整",
+      "Glottolog: Hakka 粵台片"
+    ]
+  }
 };
 
-const HAN_LANGS = ["bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_id","nan_my","nan_pera","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kanbun","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt"];
+const HAN_LANGS = ["bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_id","nan_my","nan_pera","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kanbun","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt", "wuu_qt", "hak_hy"];
 
 const HAN_VARIANTS = {
   "六": {
@@ -26932,6 +27303,10 @@ const HAN_VARIANTS = {
     ]
   },
   "北": {
+    "hak_hy": [
+      { "label": "白讀", "surface": "pet", "ipa": "pet̚˩" },
+      { "label": "文讀", "surface": "pak", "ipa": "pak̚˩" }
+    ],
     "hak_cn": [
       {
         "native": "",

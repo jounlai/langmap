@@ -6956,6 +6956,21 @@
                 return HAN_SHORT_NAMES[code][uiBase];
             }
             const names = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
+            if (!names[code]) {
+                // Hanmap-only variety (not in the Word Map's LANG_NAMES): return
+                // its localized reading_type (the variety name in all 19 UI
+                // languages) directly — without it these labels showed the
+                // English meta name for every UI language. Return EARLY so it
+                // skips the "Chinese (…)" wrapper strip below, which would keep
+                // the wrong half of a name like 青田語（甌江呉語）. Word Map
+                // languages keep their LANG_NAMES name (their reading_type is a
+                // reading-kind description, not a name).
+                const _hm = (typeof HAN_LANG_META !== 'undefined') ? HAN_LANG_META[code] : null;
+                if (_hm && _hm.reading_type && typeof _hm.reading_type === 'object'
+                        && _hm.reading_type[uiBase]) {
+                    return _hm.reading_type[uiBase];
+                }
+            }
             let n = names[code] || lang.name;
             // Sinitic varieties — drop the "Chinese (…)" wrapper.
             if (hanmapIsSinitic(code)) {

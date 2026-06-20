@@ -142,6 +142,14 @@
         <nav class="month-nav">Months: <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-06-20 — Han Map: Cantonese checked-tone notation + 來/嚟 literary-colloquial split</div>
+            <ul>
+                <li><strong>Checked-tone notation</strong> (commit <code>01c665b</code>): a user spotted 立 lap6 written /lɐp̚˨˨/ — an entering (short, stopped) tone with two tone letters. A scan found the same single/double inconsistency in yue_nn and yue_zs (一六日月木目立 doubled vs the rest single) and nan_hai; collapsed the redundant level-doubles to a single Chao letter (16 cells), leaving genuine contour tones and 2-digit-tone varieties (cnp) alone.</li>
+                <li><strong>來 / 嚟 "come"</strong> (commit <code>bbebd58</code>): the colloquial 嚟 (lai) vs literary 來 (loi) reading is a Guangfu/Yuehai feature — web-research showed it is not universal across Yue. Gave the six Guangfu varieties (HK, Guangzhou, Macau, overseas, Nanning, Zhongshan) both readings (literary 來 loi as main + a 嚟 lai colloquial variant); corrected Dongguan, which does not use 嚟, to its actual reading of 來 (ngui4 /ŋui˨˩/); left Taishanese (loi3, no 嚟) as-is.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-06-20 — Han Map: 雷州話 (Leizhou Min) reading corrections — 15 cells</div>
             <ul>
                 <li>Web-sourced corrections to the provisional Leizhou Min (nan_lei) character readings (commit <code>a30ad94</code>), verified against Wiktionary dialectal data and 小學堂 — e.g. 三 ta→sa, 木 bak→mog, 二 zi→lu, 日 rit→yieg. Tone digits normalized to Chao letters; three cells that would break the variety's tone-category register were held back. (Part of a broader new-variety research pass; only Leizhou Min reached full source-gated verification.)</li>

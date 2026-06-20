@@ -576,7 +576,7 @@ WORDS.heart = {
     zts: ["ladxdoo", "ladʒdoː"],
     maz: ["mŭiñ", "mwiɲ"],
     xtm: ["ini", "ini"],
-    mxv: ["ini", "iniʔ"],
+    mxv: ["ini", "ini"],
     toc: ["naku", "naku"],
     huv: ["naxey", "naʃej"],
     ay: ["chuyma", "tʃujma"],

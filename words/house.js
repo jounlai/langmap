@@ -131,7 +131,7 @@ WORDS.house = {
     gld: ["дё", "dʒo"],
     ude: ["дзугди", "d͡zuɡdi"],
     yrk: ["мяˮ", "mjaʔ"],
-    enf: ["mê", "mê"],
+    enf: ["mɛ", "mɛ"],
     nio: ["мāʼ", "maːʔ"],
     sel: ["мат", "mat"],
     kca: ["хӑт", "xɐt"],

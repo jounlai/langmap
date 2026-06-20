@@ -490,7 +490,7 @@ WORDS.fire = {
     nhx: ["tit", "tit"],
     nch: ["tlitl", "tɬitɬ"],
     nhw: ["tlitl", "tɬitɬ"],
-    nhe: ["titl", "titɬ"],
+    nhe: ["tlitl", "tɬitɬ"],
     hch: ["tai", "tai"],
     ngu: ["tletl", "tɬetɬ"],
     ppl: ["tit", "tit"],

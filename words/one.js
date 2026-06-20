@@ -297,7 +297,7 @@ WORDS.one = {
     pdc: ["eens", "eːns"],
     pdt: ["eent", "eːnt"],
     yi: ["איינס", "eɪns"],
-    is: ["einn", "ɛitn"],
+    is: ["einn", "eitn"],
     gd: ["aon", "ɯːn"],
     br: ["unan", "yːnɑ̃n"],
     nap: ["uno", "unə"],

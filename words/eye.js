@@ -785,7 +785,7 @@ WORDS.eye = {
     mwl: ["uolho", "ˈuoʎu"],
     pnt: ["ομμάτιν", "omˈmatin"],
     hno: ["اکھ", "akːʰ"],
-    bhb: ["आंख", "aːŋkʰ"],
+    bhb: ["आंख", "ãːkʰ"],
     cja: ["matá", "mata"],
     meu: ["matana", "matana"],
     pon: ["mese", "mese"],

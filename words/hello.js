@@ -73,7 +73,7 @@ WORDS.hello = {
     nan: ["你好", "li˧˥ho˧˥"],
     wuu: ["侬好", "noŋ˩hɔ˧˩"],
     hak_cn: ["你好", "nɡi˧˥ho˧˩"],
-    vi: ["xin chào", "sin˥ t͡ɕaːw˨˩"],
+    vi: ["xin chào", "sin˧˧ t͡ɕaːw˨˩"],
     vi_c: ["xin chào", "siːn˥ t͡ɕaːw˧˨"],
     vi_s: ["xin chào", "siŋ˥ ɕaːw˨˩"],
     th: ["สวัสดี", "sa˨˩wat˨˩diː˧"],

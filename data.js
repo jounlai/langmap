@@ -129954,15 +129954,15 @@ const SENTENCES = [
       "hi": [
         [
           "A",
-          "मैंने"
-        ],
-        [
-          "D",
-          "ट्रेन में"
+          "मैं"
         ],
         [
           "B",
           "अपना छाता"
+        ],
+        [
+          "D",
+          "ट्रेन में"
         ],
         [
           "C",
@@ -148160,11 +148160,11 @@ const SENTENCES = [
         ],
         [
           "C",
-          "banget"
+          "resik"
         ],
         [
           "D",
-          "bersih"
+          "banget"
         ]
       ],
       "bn": [
@@ -150513,8 +150513,12 @@ const SENTENCES = [
       ],
       "ar_sd": [
         [
+          "E",
+          "الأوضة"
+        ],
+        [
           "A",
-          "الأوضة في الفندق"
+          "في الفندق"
         ],
         [
           "D",
@@ -150673,20 +150677,24 @@ const SENTENCES = [
       ],
       "nds": [
         [
-          "A",
+          "E",
           "Dat Zimmer"
         ],
         [
-          "B",
+          "A",
           "in dat Hotel"
         ],
         [
-          "C",
+          "B",
           "weer"
         ],
         [
+          "C",
+          "bannig"
+        ],
+        [
           "D",
-          "bannig rein"
+          "rein"
         ]
       ],
       "vec": [
@@ -164023,7 +164031,7 @@ const SENTENCES = [
       ],
       "sw": [
         [
-          "A",
+          "A|B",
           "Ninahitaji"
         ],
         [
@@ -225564,7 +225572,7 @@ const SENTENCES = [
           "фурудгоҳ"
         ],
         [
-          "C",
+          "E",
           "ро"
         ],
         [
@@ -261455,7 +261463,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "como hueso"
+          "con fluidez"
         ]
       ],
       "gl": [
@@ -274533,12 +274541,16 @@ const SENTENCES = [
           "มักจะ"
         ],
         [
+          "E",
+          "มา"
+        ],
+        [
           "C",
-          "มาสาย"
+          "สาย"
         ],
         [
           "D",
-          "ประชุม"
+          "การประชุม"
         ],
         [
           "B",
@@ -345384,7 +345396,7 @@ const SENTENCES = [
           "Ille"
         ],
         [
-          "B",
+          "B|D",
           "eventis"
         ],
         [
@@ -367862,7 +367874,7 @@ const SENTENCES = [
           "имрӯз"
         ],
         [
-          "B",
+          "A|B",
           "сарам"
         ],
         [

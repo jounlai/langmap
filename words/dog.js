@@ -155,7 +155,7 @@ WORDS.dog = {
     ain: ["セタ", "seta"],
     fi: ["koira", "koirɑ"],
     hu: ["kutya", "kucɒ"],
-    ohu: ["kuvasz", "kuvas"],
+    ohu: ["eb", "ɛb"],
     el: ["σκύλος", "ˈskilos"],
     nl: ["hond", "ɦɔnt"],
     pl: ["pies", "pjɛs"],

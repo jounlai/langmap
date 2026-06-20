@@ -485,7 +485,7 @@ WORDS.one = {
     tsm: ["ܚܕ", "ħað"],
     sux: ["𒀸", "diʃ"],
     akk: ["𒁹", "iʃteːn"],
-    hit: ["𒁹", "as"],
+    hit: ["𒀸", "as"],
     nci: ["cē", "seː"],
     nhx: ["ce", "se"],
     nch: ["ce", "se"],

@@ -722,7 +722,7 @@ WORDS.eat = {
     vep: ["söda", "ˈsødæ"],
     vot: ["süüvvä", "ˈsyːvːæ"],
     liv: ["sīedõ", "siːədə"],
-    mzn: ["خرمسه", "xoɾmesæ"],
+    mzn: ["خوردن", "xoɾdæn"],
     glk: ["خوردن", "xoɾdæn"],
     lrc: ["خواردن", "xwɒːɾdæn"],
     crh: ["aşamaq", "aʃamaq"],

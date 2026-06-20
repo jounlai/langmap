@@ -739,7 +739,7 @@ WORDS.sun = {
     pwo: ["မုၢ်", "mə"],
     lhu: ["mvuhˇ-nyiˉ", "muʔ ɲí"],
     lis: ["mei-lo", "mejlo"],
-    nxq: ["ny-mei", "nĩ˧mi˧"],
+    nxq: ["ny-mei", "ɲi˧mi˧"],
     shn: ["ဝၼ်း", "wan"],
     jia: ["mau", "mau"],
     kbp: ["wɩsɩ", "wɩsɩ"],

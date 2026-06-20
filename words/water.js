@@ -730,7 +730,7 @@ WORDS.water = {
     vot: ["vesi", "ˈvesi"],
     liv: ["vež", "vɛʒ"],
     mzn: ["آو", "ɒːv"],
-    glk: ["او", "ɒːb"],
+    glk: ["او", "ɒw"],
     lrc: ["او", "ɒw"],
     crh: ["suv", "suv"],
     tt: ["су", "su"],

@@ -3896,9 +3896,20 @@
         // East Asia / South Asia from looking like a pin explosion while
         // sub-Saharan / Siberia / Oceania look empty.
         function selectByPriority(codes, positions, minPxDist, maxCount) {
+            // Under the pin cap → skip distance thinning entirely and let the
+            // FINAL COLLISION AVOIDANCE PASS (which vertically stacks, pushes
+            // to a free slot, and hides only labels it genuinely cannot place)
+            // be the sole declutter authority. The MIN_PX thinning here HARD-
+            // DROPS a lang before it ever reaches that pass — e.g. at z7 fs140
+            // Slovak (5.2M) sat ~67px from Austrian German (8.5M), under
+            // MIN_PX≈77px, and vanished even though the collision pass could
+            // have stacked it right next to its neighbour (user report
+            // 2026-06-20: "このズームレートでSlovakが隠れてしまう…隣に何もない
+            // ので表示してもいいはず"). Thinning still runs when the viewport
+            // pool exceeds the cap (dense low/mid-zoom continental views),
+            // where it remains needed to prevent a pin-explosion.
             if (codes.length <= maxCount) {
-                // Cap not yet exceeded; still apply overlap thinning so
-                // dense regions don't dominate. Skip if even thinner.
+                return codes.slice();
             }
             const sorted = codes.slice().sort((a, b) => {
                 const sa = langSpeakerCount(a) || 0;

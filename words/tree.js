@@ -955,7 +955,7 @@ WORDS.tree = {
     bej: ["hindeb", "hindeb"],
     tig: ["ዕጨይ", "ʕətʃʼaj"],
     byn: ["ሐጨር", "ħətʃər"],
-    ssy: ["caar", "ħaːr"],
+    ssy: ["caar", "ʕaːr"],
     ewo: ["elé", "ele"],
     bum: ["élé", "ele"],
     agq: ["kpa'", "kpaʔ"],

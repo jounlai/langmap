@@ -332,7 +332,7 @@ WORDS.hand = {
     ho: ["imana", "imana"],
     kmh: ["tn", "tən"],
     nej: ["—", "—"],
-    alq: ['ninj', 'nɪntʃ'],
+    alq: ['ninj', 'nɪndʒ'],
     ckv: ['rima', 'riˈma'],
     haj: ['hat', 'hat'],
     kzj: ['longon', 'ˈloŋon'],

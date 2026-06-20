@@ -103,7 +103,7 @@ WORDS.hello = {
     ar: ["مرحبا", "marħaba"],
     he: ["שלום", "ʃalom"],
     tr: ["merhaba", "meɾhaba"],
-    fa: ["درود", "doruːd"],
+    fa: ["سلام", "sælɒːm"],
     jpr: ["שלום", "ʃɒːlom"],
     prs: ["سلام", "salɑːm"],
     trm: ["salaam", "salaːm"],

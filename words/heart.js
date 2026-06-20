@@ -73,7 +73,7 @@ WORDS.heart = {
     nan: ["心", "sim˥"],
     wuu: ["心", "ɕin˥"],
     hak_cn: ["心", "sim˥"],
-    vi: ["trái tim", "t͡ɕaːj˧˥ tim˥"],
+    vi: ["trái tim", "t͡ɕaːj˧˥ tim˧"],
     vi_c: ["trái tim", "ʈaːj˩˧ tiːm˥"],
     vi_s: ["trái tim", "ʈaːj˧˥ tim˥"],
     th: ["ใจ", "t͡ɕaj˧"],

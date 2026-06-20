@@ -286,7 +286,7 @@ WORDS.house = {
     en_nz: ["house", "hæɔs"],
     en_au: ["house", "hæːʉs"],
     sco: ["hoose", "huːs"],
-    af: ["huis", "hœɪs"],
+    af: ["huis", "ɦœɪs"],
     de_at: ["Haus", "haʊs"],
     gsw: ["Huus", "huːs"],
     swg: ["Hous", "haus"],

@@ -406,7 +406,7 @@ WORDS.sun = {
     xum: ['—', '—'],
     xve: ['—', '—'],
     yle: ['kââdî', 'kaːdɨ'],
-    yue_dg: ['日头', 'jɐt˨˨tʰɐu˨˩'],
+    yue_dg: ['日头', 'jɐt˨tʰɐu˨˩'],
     yue_nn: ['日头', 'jɐt˨tʰɐu˨˩'],
     zh_cq: ['太阳', 'tʰai˨˩˧.iaŋ˨˩'],
     zh_jn: ['太阳', 'tʰai˨˩.iaŋ˦˨'],

@@ -73,7 +73,7 @@ WORDS.moon = {
     nan: ["月娘", "ɡueʔ˦niũ˧˥"],
     wuu: ["月亮", "ɲyəʔ˩˨liã˩"],
     hak_cn: ["月光", "ŋiet˧koŋ˥"],
-    vi: ["mặt trăng", "mət˨˩ t͡ɕaŋ˥"],
+    vi: ["mặt trăng", "mət˨˩ t͡ɕaŋ˧"],
     vi_c: ["mặt trăng", "maːk˨˨ ʈaːŋ˥"],
     vi_s: ["mặt trăng", "mak˨˩˨ ʈaŋ˥"],
     th: ["ดวงจันทร์", "duaŋ˧t͡ɕan˧"],

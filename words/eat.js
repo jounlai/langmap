@@ -73,7 +73,7 @@ WORDS.eat = {
     nan: ["食", "t͡siaʔ̚˦"],
     wuu: ["吃", "t͡ɕʰiʔ˥"],
     hak_cn: ["食", "sɨt˧"],
-    vi: ["ăn", "an˥"],
+    vi: ["ăn", "an˧"],
     vi_c: ["ăn", "aːn˥"],
     vi_s: ["ăn", "aŋ˥"],
     th: ["กิน", "kin˧"],

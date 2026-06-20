@@ -159,7 +159,7 @@ const HAN_DATA = {
   "一": {
     "surface": {
       "hsn_sf": "i",
-      "nan_lei": "it7",
+      "nan_lei": "ieg4",
       "mnz": "i",
       "czh_jx": "ie⁵",
       "cjy_dt": "ieh⁴³",
@@ -264,7 +264,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "i˨˦",
-      "nan_lei": "it̚˥",
+      "nan_lei": "iek̚˥",
       "mnz": "i˦˨",
       "czh_jx": "iɛʔ˥",
       "cjy_dt": "iəʔ˦˧",
@@ -388,7 +388,7 @@ const HAN_DATA = {
   "二": {
     "surface": {
       "hsn_sf": "er",
-      "nan_lei": "zi6",
+      "nan_lei": "lu7",
       "mnz": "ni",
       "czh_jx": "n²²",
       "cjy_dt": "er⁴⁵",
@@ -494,7 +494,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "ɚ˨˩",
-      "nan_lei": "zi˨˨",
+      "nan_lei": "lu˥˥",
       "mnz": "ni˨˨",
       "czh_jx": "n̩˨˨",
       "cjy_dt": "ɚ˦˥",
@@ -619,7 +619,7 @@ const HAN_DATA = {
   "三": {
     "surface": {
       "hsn_sf": "san",
-      "nan_lei": "ta1",
+      "nan_lei": "sa1",
       "mnz": "saŋ",
       "czh_jx": "se³³",
       "cjy_dt": "san³¹",
@@ -718,7 +718,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "san˧˧",
-      "nan_lei": "ɗa˨˦",
+      "nan_lei": "sa˨˦",
       "mnz": "saŋ˥˦",
       "czh_jx": "sɛ˧˧",
       "cjy_dt": "sæ̃˧˩",
@@ -1091,7 +1091,7 @@ const HAN_DATA = {
   "五": {
     "surface": {
       "hsn_sf": "u",
-      "nan_lei": "ngo4",
+      "nan_lei": "ngeu6",
       "mnz": "ŋu",
       "czh_jx": "ng²¹",
       "cjy_dt": "u⁵³",
@@ -1188,7 +1188,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "u˦˩",
-      "nan_lei": "ŋo˨˩",
+      "nan_lei": "ŋɛu˧˧",
       "mnz": "ŋu˨˨",
       "czh_jx": "ŋ̩˨˩",
       "cjy_dt": "u˥˧",
@@ -1541,7 +1541,7 @@ const HAN_DATA = {
   "七": {
     "surface": {
       "hsn_sf": "qi",
-      "nan_lei": "sit7",
+      "nan_lei": "qieg4",
       "mnz": "tsʰi",
       "czh_jx": "chii⁵",
       "cjy_dt": "qhieh⁴³",
@@ -1647,7 +1647,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "tɕʰi˨˦",
-      "nan_lei": "sit̚˥",
+      "nan_lei": "t͡sʰiek̚˥",
       "mnz": "tsʰi˦˨",
       "czh_jx": "tsʰiɪʔ˥",
       "cjy_dt": "tɕʰiəʔ˦˧",
@@ -1783,7 +1783,7 @@ const HAN_DATA = {
   "八": {
     "surface": {
       "hsn_sf": "pa",
-      "nan_lei": "buet7",
+      "nan_lei": "boi7",
       "mnz": "pai",
       "czh_jx": "pa⁵",
       "cjy_dt": "pah⁴³",
@@ -1878,7 +1878,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "pa˨˦",
-      "nan_lei": "ɓuet̚˥",
+      "nan_lei": "pɔi˥˥",
       "mnz": "pai˦˨",
       "czh_jx": "paʔ˥",
       "cjy_dt": "paʔ˦˧",
@@ -2004,7 +2004,7 @@ const HAN_DATA = {
   "九": {
     "surface": {
       "hsn_sf": "jieu",
-      "nan_lei": "kau2",
+      "nan_lei": "gao2",
       "mnz": "kiu",
       "czh_jx": "jiu³⁵",
       "cjy_dt": "jieu⁵³",
@@ -2103,7 +2103,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "tɕiəu˦˩",
-      "nan_lei": "kau˨˩˧",
+      "nan_lei": "kau˧˩",
       "mnz": "kiu˧˩",
       "czh_jx": "tɕiu˧˥",
       "cjy_dt": "tɕiəu˥˧",
@@ -2233,7 +2233,7 @@ const HAN_DATA = {
   "十": {
     "surface": {
       "hsn_sf": "zhi",
-      "nan_lei": "zap8",
+      "nan_lei": "zab8",
       "mnz": "si",
       "czh_jx": "sii²¹",
       "cjy_dt": "seh⁵⁴",
@@ -2329,7 +2329,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "ʑɿ˨˦",
-      "nan_lei": "zap̚˨˨",
+      "nan_lei": "zap̚˨",
       "mnz": "si˦˨",
       "czh_jx": "siɪʔ˨˩",
       "cjy_dt": "səʔ˥˦",
@@ -2456,7 +2456,7 @@ const HAN_DATA = {
   "日": {
     "surface": {
       "hsn_sf": "nyi",
-      "nan_lei": "rit8",
+      "nan_lei": "yieg8",
       "mnz": "ni",
       "czh_jx": "ngi⁵",
       "cjy_dt": "zeh⁵⁴",
@@ -2552,7 +2552,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "ɲi˨˦",
-      "nan_lei": "rit̚˨˨",
+      "nan_lei": "ziek̚˨",
       "mnz": "ni˦˨",
       "czh_jx": "ŋiʔ˥",
       "cjy_dt": "zəʔ˥˦",
@@ -2676,7 +2676,7 @@ const HAN_DATA = {
   "月": {
     "surface": {
       "hsn_sf": "ye",
-      "nan_lei": "gueh8",
+      "nan_lei": "bhue6",
       "mnz": "ŋuoʔ",
       "czh_jx": "ngye⁵",
       "cjy_dt": "yueh⁵⁴",
@@ -2769,7 +2769,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "ye˨˦",
-      "nan_lei": "ɡueʔ˨˨",
+      "nan_lei": "buɛ˧˧",
       "mnz": "ŋuɔʔ˦˨",
       "czh_jx": "ŋyɛʔ˥",
       "cjy_dt": "yəʔ˥˦",
@@ -3113,7 +3113,7 @@ const HAN_DATA = {
   "水": {
     "surface": {
       "hsn_sf": "xyei",
-      "nan_lei": "tsui4",
+      "nan_lei": "zui2",
       "mnz": "sui",
       "czh_jx": "shyi⁴²",
       "cjy_dt": "suei⁵³",
@@ -3213,7 +3213,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "ɕyei˦˩",
-      "nan_lei": "t͡sui˨˩˧",
+      "nan_lei": "t͡sui˧˩",
       "mnz": "sui˧˩",
       "czh_jx": "ɕyi˦˨",
       "cjy_dt": "suei˥˧",
@@ -3588,7 +3588,7 @@ const HAN_DATA = {
   "木": {
     "surface": {
       "hsn_sf": "mu",
-      "nan_lei": "bak8",
+      "nan_lei": "mog4",
       "mnz": "mu",
       "czh_jx": "mu⁵",
       "cjy_dt": "mueh⁵⁴",
@@ -3688,7 +3688,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "mu˨˦",
-      "nan_lei": "ɓak̚˨˨",
+      "nan_lei": "mɔk̚˥",
       "mnz": "mu˦˨",
       "czh_jx": "muʔ˥",
       "cjy_dt": "muəʔ˥˦",
@@ -3817,7 +3817,7 @@ const HAN_DATA = {
   "土": {
     "surface": {
       "hsn_sf": "thu",
-      "nan_lei": "tho4",
+      "nan_lei": "tu2",
       "mnz": "tʰu",
       "czh_jx": "thu³⁵",
       "cjy_dt": "thu⁵³",
@@ -3923,7 +3923,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "tʰu˦˩",
-      "nan_lei": "tʰo˨˩˧",
+      "nan_lei": "tʰu˧˩",
       "mnz": "tʰu˧˩",
       "czh_jx": "tʰu˧˥",
       "cjy_dt": "tʰu˥˧",
@@ -4496,7 +4496,7 @@ const HAN_DATA = {
   "海": {
     "surface": {
       "hsn_sf": "xai",
-      "nan_lei": "hai4",
+      "nan_lei": "hai2",
       "mnz": "hai",
       "czh_jx": "xai³⁵",
       "cjy_dt": "xai⁵³",
@@ -4600,7 +4600,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "xai˦˩",
-      "nan_lei": "hai˨˩˧",
+      "nan_lei": "hai˧˩",
       "mnz": "xai˧˩",
       "czh_jx": "xai˧˥",
       "cjy_dt": "xai˥˧",
@@ -8135,7 +8135,7 @@ const HAN_DATA = {
       "czh_jx": "deu²¹³",
       "cjy_dt": "theu²⁴",
       "msj": "theu",
-      "wuu_qt": "dou³¹",
+      "wuu_qt": "deu³¹",
       "hak_hy": "theu",
       "nan": "thâu",
       "zh": "tóu",

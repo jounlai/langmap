@@ -992,7 +992,7 @@ WORDS.moon = {
     juc: ["biya", "bija"],
     omx: ["ဂျိုၚ်", "klɔŋ"],
     pyx: ["hla", "hla"],
-    obr: ["လ", "lat"],
+    obr: ["လ", "la"],
     occ: ["bulan", "bulan"],
     och: ["月", "*ŋʷat"],
     ojp: ["月", "tukï"],

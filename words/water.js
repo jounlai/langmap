@@ -695,7 +695,7 @@ WORDS.water = {
     shy: ["aman", "aman"],
     mwr: ["पाणी", "paːɳiː"],
     bgc: ["पाणी", "paːɳiː"],
-    ks: ["آب", "ab"],
+    ks: ["آب", "aːb"],
     kok: ["उदक", "udək"],
     mnp: ["水", "sui˧˧"],
     nan_te: ["水", "t͡sui˥˧"],

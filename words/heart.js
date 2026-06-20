@@ -1030,7 +1030,7 @@ WORDS.heart = {
     poh: ["kʼuxl", "kʼuʃl"],
     kjb: ["kʼulul", "kʼulul"],
     ctu: ["pusʼikʼal", "pusʼikʼal"],
-    toj: ["alma", "alma"],
+    toj: ["altzil", "altsil"],
     bzd: ["sû'", "suʔ"],
     cuk: ["kurgin", "kuɾɡin"],
     chf: ["pixan", "piʃan"],

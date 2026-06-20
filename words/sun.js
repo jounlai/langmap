@@ -54,6 +54,7 @@ WORDS.sun = {
     sw: "Jua kama linavyoonekana kutoka Dunia; \"jua angani\".",
   },
   data: {
+    asu: ["idhuva", "iðuʋa"],
     ja: ["日", "hi"],
     ja_osa: ["日", "hi"],
     ja_aom: ["日", "hi"],

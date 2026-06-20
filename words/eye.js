@@ -124,7 +124,7 @@ WORDS.eye = {
     kjh: ["харах", "xarax"],
     alt: ["кӧс", "køs"],
     cv: ["куҫ", "kuɕ"],
-    bxr: ["нюдэн", "ɲuden"],
+    bxr: ["нюдэн", "nʲuden"],
     mvf: ["nidu", "nidu"],
     evn: ["эса", "esa"],
     eve: ["яса", "jasa"],

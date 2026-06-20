@@ -160,7 +160,7 @@ WORDS.dog = {
     nl: ["hond", "ɦɔnt"],
     pl: ["pies", "pjɛs"],
     szl: ["pies", "pjɛs"],
-    uk: ["собака", "sɔbɑkɑ"],
+    uk: ["собака", "sɔˈbɑkɑ"],
     sv: ["hund", "hɵnd"],
     no: ["hund", "hʉnː"],
     da: ["hund", "hunˀ"],

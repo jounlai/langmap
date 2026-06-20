@@ -577,7 +577,7 @@ WORDS.thanks = {
     maz: ["ndios", "ndios"],
     xtm: ["tachu'un", "tatʃuʔun"],
     mxv: ["tatu'un", "tatuʔun"],
-    toc: ["pa'xkatkatsiniyán", "paʔʃkatkatsinijan"],
+    toc: ["pa'xkatkatsiniyán", "paʔʃkatkatsiniján"],
     huv: ["mongoy", "moŋoj"],
     ay: ["yuspagara", "juspaɣaɾa"],
     jaq: ["yuspaa", "juspaː"],

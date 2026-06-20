@@ -351,7 +351,7 @@ WORDS.heart = {
     zh_hf: ['心', 'ɕin˨˩˨'],
     zh_kf: ['心', 'ɕin˨˦'],
     zh_nj: ['心', 'ɕin˧˩'],
-    bbl: ['კარტʼ', 'kʼartʼ'],
+    bbl: ['კʼარტʼ', 'kʼartʼ'],
     bzg: ['—', '—'],
     dru: ['atay', 'aˈtai'],
     hup: ['-piŋ', '-piŋ'],

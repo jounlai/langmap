@@ -479,7 +479,7 @@ WORDS.eat = {
     tsm: ["ܐܟܠ", "oxulo"],
     sux: ["𒅥", "ɡu"],
     akk: ["𒀀𒅗𒇻", "akaːlu"],
-    hit: ["𒅕𒀀𒀜", "ed"],
+    hit: ["𒅕𒀀𒀜", "eːd"],
     nci: ["tlacua", "tɬakʷa"],
     nhx: ["tacua", "takʷa"],
     nch: ["tlacua", "tɬakʷa"],

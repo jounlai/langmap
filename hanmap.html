@@ -6122,6 +6122,11 @@
             if (codes.length <= maxCount) {
                 // Cap not yet exceeded; still apply overlap thinning so
                 // dense regions don't dominate. Skip if even thinner.
+                // (Note: on Han Map this function is never actually called —
+                // the render path bypasses it via the `_isHanmap` guard, so
+                // all ~109 varieties always reach the stacking collision pass.
+                // The wordmap.html copy of this function carries the
+                // under-cap early-return fix; Han Map needs no change here.)
             }
             const sorted = codes.slice().sort((a, b) => {
                 const sa = langSpeakerCount(a) || 0;

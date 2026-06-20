@@ -142,6 +142,13 @@
         <nav class="month-nav">Months: <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-06-20 — Word Map: rally round 3 (strict, web-verified) — 13 corrections</div>
+            <ul>
+                <li>A third 20-thread pass with a deliberately strict, web-confirming verifier (commit <code>a51f85b</code>). With the data already cleaned by two rounds, the tightened bar surfaced only 25 candidates (vs 116/152 before) → 13 dictionary-confirmed fixes, 9 rejected as already-correct — the expected diminishing-returns signal. Fixes: Old Burmese <em>moon</em> /lat/→/la/ (no final stop), Kashmiri <em>water</em> long /aːb/, White Hmong <em>good</em> nasal vowel, Quanzhou Hokkien <em>sun</em> /l/-initial + checked coda, Tojolabal <em>heart</em> alma (a Spanish loan, "soul")→altzil, and several IPA/orthography corrections.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-06-20 — Word Map: labels no longer hidden under the pin cap</div>
             <ul>
                 <li>Fixed a declutter bug where a language could vanish even with empty space around it (commit <code>4ad88c6</code>): the priority thinning was hard-dropping labels within a minimum pixel distance of a higher-population neighbour <em>before</em> the smart collision pass (which stacks and pushes labels) could run. At zoom 7 / large font, Slovak disappeared next to Austrian German despite only a few labels nearby. Now, whenever the on-screen language count is under the pin cap, every label is handed to the collision pass — which stacks them and hides one only if it truly cannot be placed. Dense low-zoom continental views still thin to prevent a pin-explosion.</li>

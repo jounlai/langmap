@@ -3,50 +3,60 @@
  * affricate_tie_check.js — deterministic guard for affricate IPA notation.
  *
  * Project convention (decided 2026-06-21): affricates are written as BARE
- * digraphs (ts, tsʰ, tɕ, tʃ, tʂ, tɬ, dz, dʒ, dʑ, dʐ) WITHOUT the IPA tie bar
- * (U+0361 ◌͡◌). Both forms are valid IPA, but bare is the Sinological standard,
- * is already the dataset majority, and the combining tie bar renders unreliably
- * across the many fonts the map uses. The tie bar IS still allowed on genuine
- * co-articulations that are not affricates (e.g. the labial-velar nasal ŋ͡m).
+ * digraphs (ts, tsʰ, tɕ, tʃ, tʂ, tɬ, dz, dʒ, dʑ, dʐ, qχ, pf, …) WITHOUT the IPA
+ * tie bar (U+0361 ◌͡◌), across BOTH HanMap and WordMap. Both forms are valid IPA,
+ * but bare is the Sinological standard, is the dataset majority, and the combining
+ * tie bar renders unreliably across the many fonts the maps use.
  *
- * This checker flags any affricate written WITH a tie bar so the bare
- * convention can't silently regress. It is a DIAGNOSTIC: it reports, it does
- * not edit. Run: node tools/affricate_tie_check.js
+ * The tie bar IS still allowed (and required) on genuine co-articulations that are
+ * NOT affricates — a stop+fricative is an affricate (gets bared), but a labial-velar
+ * nasal ŋ͡m or a doubly-articulated stop k͡p is a co-articulation (keeps its tie).
+ *
+ * DIAGNOSTIC only: reports, does not edit. Run: node tools/affricate_tie_check.js
  */
 const fs = require('fs'), vm = require('vm'), path = require('path');
 
-const ctx = { window: {} };
-vm.createContext(ctx);
-vm.runInContext(
-  fs.readFileSync(path.join(__dirname, '..', 'hanmap_data.js'), 'utf8') +
-  '\nthis.D=HAN_DATA;this.V=HAN_VARIANTS;this.L=HAN_LIST;this.LA=HAN_LANGS;', ctx);
-const { D, V, L, LA } = ctx;
+// Affricate = a STOP tied to a homorganic FRICATIVE (the tie binds two
+// obstruents of differing manner). Nasals (ŋ͡m) and stop+stop (k͡p) are excluded.
+const STOP = 'pbtdcɟkgqɢ';
+const FRIC = 'ɸβfvszʃʒɕʑʂʐɬɮçʝxɣχʁθð';
+const AFFRICATE_TIE = new RegExp(`([${STOP}])͡([${FRIC}])`);
+const AFFRICATE_TIE_G = new RegExp(`([${STOP}])͡([${FRIC}])`, 'g');
 
-// Affricate = a coronal stop (t/d) tied to a sibilant or lateral fricative.
-const AFFRICATE_TIE = /([td])͡([szʃʒɕʑʂʐɬ])/;
-const AFFRICATE_TIE_G = /([td])͡([szʃʒɕʑʂʐɬ])/g;
-
+const root = path.join(__dirname, '..');
 const hits = [];
-for (const ch of L) {
-  for (const lg of LA) {
+
+// ---- HanMap ----
+{
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(fs.readFileSync(path.join(root, 'hanmap_data.js'), 'utf8') +
+    '\nthis.D=HAN_DATA;this.V=HAN_VARIANTS;this.L=HAN_LIST;this.LA=HAN_LANGS;', ctx);
+  const { D, V, L, LA } = ctx;
+  for (const ch of L) for (const lg of LA) {
     const cells = [];
     const mi = (D[ch].ipa || {})[lg];
     if (mi) cells.push({ ipa: mi, scope: 'main' });
-    for (const v of ((V[ch] || {})[lg] || [])) {
-      if (v.ipa) cells.push({ ipa: v.ipa, scope: 'variant[' + (v.label || '') + ']' });
-    }
-    for (const c of cells) {
-      if (AFFRICATE_TIE.test(c.ipa)) {
-        const tied = (c.ipa.match(AFFRICATE_TIE_G) || []).join(', ');
-        hits.push({ ch, lg, scope: c.scope, ipa: c.ipa, tied });
-      }
-    }
+    for (const v of ((V[ch] || {})[lg] || [])) if (v.ipa) cells.push({ ipa: v.ipa, scope: 'variant[' + (v.label || '') + ']' });
+    for (const c of cells) if (AFFRICATE_TIE.test(c.ipa))
+      hits.push({ map: 'HanMap', id: `${ch}/${lg}${c.scope === 'main' ? '' : ' ' + c.scope}`, ipa: c.ipa,
+        tied: (c.ipa.match(AFFRICATE_TIE_G) || []).join(', ') });
   }
 }
 
-console.log(`Scanned ${L.length} chars × ${LA.length} varieties (HanMap).`);
-console.log(`affricate tie-bars: ${hits.length}\n`);
-for (const h of hits) {
-  console.log(`   ${h.ch}/${h.lg}${h.scope === 'main' ? '' : ' ' + h.scope}  ${JSON.stringify(h.ipa)}  (${h.tied} → should be bare)`);
+// ---- WordMap ----
+{
+  const ctx = { window: {} };
+  vm.createContext(ctx); ctx.WORDS = {};
+  for (const f of fs.readdirSync(path.join(root, 'words')).filter(x => x.endsWith('.js')))
+    vm.runInContext(fs.readFileSync(path.join(root, 'words', f), 'utf8'), ctx);
+  for (const w of Object.keys(ctx.WORDS)) for (const code of Object.keys(ctx.WORDS[w].data)) {
+    const ipa = ctx.WORDS[w].data[code][1] || '';
+    if (AFFRICATE_TIE.test(ipa))
+      hits.push({ map: 'WordMap', id: `${w}/${code}`, ipa, tied: (ipa.match(AFFRICATE_TIE_G) || []).join(', ') });
+  }
 }
-if (hits.length === 0) console.log('   (all affricates are bare — clean)');
+
+console.log('affricate tie-bars: ' + hits.length + '\n');
+for (const h of hits) console.log(`   [${h.map}] ${h.id}  ${JSON.stringify(h.ipa)}  (${h.tied} → should be bare)`);
+if (hits.length === 0) console.log('   (all affricates are bare across HanMap + WordMap — clean)');

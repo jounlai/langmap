@@ -12038,10 +12038,10 @@ const HAN_DATA = {
       "zh_lz": "lai⁵³",
       "zh_db": "lai³⁵",
       "zh_zz": "lai⁴²",
-      "yue_gz": "lai4",
-      "yue_dg": "lai4",
-      "yue_nn": "lai4",
-      "yue_zs": "lai4",
+      "yue_gz": "loi4",
+      "yue_dg": "ngui4",
+      "yue_nn": "loi4",
+      "yue_zs": "loi4",
       "cjy": "lai¹¹",
       "czh": "le²¹³",
       "hsn": "lai¹³",
@@ -12114,11 +12114,11 @@ const HAN_DATA = {
       "zh_lz": "lɛ˥˧",
       "zh_wh": "nai˨˩˧",
       "zh_zz": "lai˦˨",
-      "yue_gz": "lɐi˨˩",
+      "yue_gz": "lɔːi˨˩",
       "yue_ts": "lᵘɔi˨˨",
-      "yue_dg": "lɐi˨˩",
-      "yue_nn": "lai˨˩",
-      "yue_zs": "lɐi˨˩",
+      "yue_dg": "ŋui˨˩",
+      "yue_nn": "lɔːi˨˩",
+      "yue_zs": "lɔːi˨˩",
       "cpx": "lai˩˧",
       "mnp": "lai˧˧",
       "wuu": "lɛ˨˧",
@@ -27430,6 +27430,24 @@ const HAN_VARIANTS = {
     ],
   },
   "来": {
+    "yue_hk": [
+      { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
+    ],
+    "yue_gz": [
+      { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
+    ],
+    "yue_mo": [
+      { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
+    ],
+    "yue_us": [
+      { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨", "label": "白讀" }
+    ],
+    "yue_nn": [
+      { "native": "嚟", "surface": "lai4", "ipa": "lai˨˩", "label": "白讀" }
+    ],
+    "yue_zs": [
+      { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
+    ],
     "mnz": [
       { "label": "白讀", "surface": "li", "ipa": "li˨˨" },
       { "label": "文讀", "surface": "lai", "ipa": "lai˨˨" }

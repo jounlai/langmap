@@ -27431,21 +27431,27 @@ const HAN_VARIANTS = {
   },
   "来": {
     "yue_hk": [
+      { "native": "", "surface": "loi4", "ipa": "lɔːi˨˩", "label": "文讀" },
       { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
     ],
     "yue_gz": [
+      { "native": "", "surface": "loi4", "ipa": "lɔːi˨˩", "label": "文讀" },
       { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
     ],
     "yue_mo": [
+      { "native": "", "surface": "loi4", "ipa": "lɔːi˨˩", "label": "文讀" },
       { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
     ],
     "yue_us": [
+      { "native": "", "surface": "loi4", "ipa": "lɑːi˨", "label": "文讀" },
       { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨", "label": "白讀" }
     ],
     "yue_nn": [
+      { "native": "", "surface": "loi4", "ipa": "lɔːi˨˩", "label": "文讀" },
       { "native": "嚟", "surface": "lai4", "ipa": "lai˨˩", "label": "白讀" }
     ],
     "yue_zs": [
+      { "native": "", "surface": "loi4", "ipa": "lɔːi˨˩", "label": "文讀" },
       { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
     ],
     "mnz": [

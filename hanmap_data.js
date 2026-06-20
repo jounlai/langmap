@@ -12198,11 +12198,11 @@ const HAN_DATA = {
       "juc": "—",
       "zkt": "—",
       "ko": "내",
-      "yue_gz": "嚟",
-      "yue_ts": "來",
-      "yue_dg": "嚟",
-      "yue_nn": "嚟",
-      "yue_zs": "嚟",
+      "yue_gz": "",
+      "yue_ts": "",
+      "yue_dg": "",
+      "yue_nn": "",
+      "yue_zs": "",
       "zh_phagspa": "ꡙꡗ",
       "sjo": "ᠵᡳᠮᠪᡳ",
       "ko_mid": "·ᄅᆡ",
@@ -27481,18 +27481,8 @@ const HAN_VARIANTS = {
       }
     ],
     "yue": [
-      {
-        "native": "嚟",
-        "surface": "lai⁴",
-        "ipa": "lɐi˨˩",
-        "label": "嚟（colloquial Cantonese: come）"
-      },
-      {
-        "native": "",
-        "surface": "loi⁴",
-        "ipa": "lɔːi˨˩",
-        "label": "來（literary/formal reading）"
-      }
+      { "native": "", "surface": "loi4", "ipa": "lɔːi˨˩", "label": "文讀" },
+      { "native": "嚟", "surface": "lai4", "ipa": "lɐi˨˩", "label": "白讀" }
     ],
     "ja": [
       {

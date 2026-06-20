@@ -142,9 +142,9 @@
         <nav class="month-nav">Months: <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
-            <div class="date">2026-06-21 — Han Map: unify affricate tie-bar notation in mixed varieties</div>
+            <div class="date">2026-06-21 — Both maps: unify affricate IPA to bare digraphs (drop tie bar)</div>
             <ul>
-                <li>A user asked whether some affricates that should read t͡s (with the IPA tie bar) were written bare ts. A scan confirmed it: 12 varieties were consistently tie-barred, 67 consistently bare, and 22 mixed both internally (e.g. Min Nan used t͡s 18 times but bare ts 3 times). Normalized each mixed variety to its own majority convention (62 cells), so every variety is now internally consistent. Also folded 左 nan's two identical-once-normalized 白讀/文讀 variants into a single reading.</li>
+                <li>A user noticed affricates were inconsistently written with vs without the IPA tie bar (t͡s vs ts). After confirming the scope — varieties split between the two conventions — we standardised the whole project on the <strong>bare digraph</strong> (ts, tsʰ, tɕ, dz, dʒ, qχ, …): it is the Sinological norm, was already the majority, and the combining tie bar renders unreliably across the maps' many fonts (both forms are valid IPA, so no accuracy is lost). Removed the tie bar from ~850 affricates across Han Map and all 20 Word Map word files, while keeping it on genuine non-affricate co-articulations (e.g. the labial-velar nasal ŋ͡m). Added a deterministic guard (<code>affricate_tie_check.js</code>, now the 10th data check) so the convention can't silently regress.</li>
             </ul>
         </div>
 

@@ -351,8 +351,8 @@ const HAN_DATA = {
       "zh_gl": "i˧˩",
       "ko_bus": "il˥",
       "ja_kgs": "it̚",
-      "ja_okn": "it͡sɯ",
-      "ja_thk": "id͡zɯ̈",
+      "ja_okn": "itsɯ",
+      "ja_thk": "idzɯ̈",
       "nan_te": "ik̚˨",
       "nan_hai": "it̚˥"
     },
@@ -548,7 +548,7 @@ const HAN_DATA = {
       "vi_s": "ɲi˨˩˨",
       "bca": "no˨˩˦",
       "juc": "dʑuwe",
-      "mnc": "d͡ʒuwə",
+      "mnc": "dʒuwə",
       "txg": "ɲɨː˨",
       "za": "ŋei˨˦",
       "zkt": "dʒur",
@@ -556,7 +556,7 @@ const HAN_DATA = {
       "zh_phagspa": "ʐɨ",
       "yue_hk": "jiː˨",
       "yue_mo": "jiː˨",
-      "sjo": "d͡ʑuwə",
+      "sjo": "dʑuwə",
       "ko_mid": "zi˥",
       "ja_ojp": "ɲi",
       "ko_kp": "i",
@@ -564,7 +564,7 @@ const HAN_DATA = {
       "pst": "*nĭy",
       "pko": "*tupɨɾ",
       "pja": "*puta",
-      "ptung": "*d͡ʒuər",
+      "ptung": "*dʒuər",
       "paa": "*ɓaːr",
       "ptai": "*soːŋ˧",
       "pmgl": "*qojar",
@@ -580,8 +580,8 @@ const HAN_DATA = {
       "hak_mz": "ŋi˥˧",
       "zh_gl": "ɚ˨˦",
       "ko_bus": "i˥",
-      "ja_kgs": "d͡ʑi",
-      "ja_okn": "d͡ʑi",
+      "ja_kgs": "dʑi",
+      "ja_okn": "dʑi",
       "ja_thk": "zɯ̈",
       "nan_te": "zi˧˥",
       "nan_hai": "zi˧˧",
@@ -1244,7 +1244,7 @@ const HAN_DATA = {
       "vi_s": "ŋu˨˩˦",
       "bca": "ŋu˨˩˦",
       "juc": "sundʑa",
-      "mnc": "sund͡ʒa",
+      "mnc": "sundʒa",
       "txg": "ŋwu˩",
       "za": "haː˨˩",
       "zkt": "tau",
@@ -1252,7 +1252,7 @@ const HAN_DATA = {
       "zh_phagspa": "ʔu",
       "yue_hk": "ŋ̍˩˧",
       "yue_mo": "ŋ̍˩˧",
-      "sjo": "sund͡ʑa",
+      "sjo": "sundʑa",
       "ko_mid": "ŋo˩˥",
       "ja_ojp": "ŋo",
       "ko_kp": "o",
@@ -1264,7 +1264,7 @@ const HAN_DATA = {
       "ptai": "*haː˥˩",
       "pmgl": "*tabun",
       "phm": "*prja",
-      "ja_kun": "it͡sɯ",
+      "ja_kun": "itsɯ",
       "ko_hun": "tasʌt̚",
       "vi_nom": "nam˧˧",
       "dng": "u˨˦",
@@ -1647,15 +1647,15 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "tɕʰi˨˦",
-      "nan_lei": "t͡sʰiek̚˥",
+      "nan_lei": "tsʰiek̚˥",
       "mnz": "tsʰi˦˨",
       "czh_jx": "tsʰiɪʔ˥",
       "cjy_dt": "tɕʰiəʔ˦˧",
       "msj": "tsʰit˨",
       "wuu_qt": "tsʰei˨˧",
       "hak_hy": "tsʰit̚˩",
-      "zh": "t͡ɕʰi˥˥",
-      "zh_tw": "t͡ɕʰi˥˥",
+      "zh": "tɕʰi˥˥",
+      "zh_tw": "tɕʰi˥˥",
       "zh_db": "tɕʰi˥˥",
       "zh_sc": "tɕʰi˨˩",
       "zh_cd": "tɕʰi˨˩",
@@ -1671,19 +1671,19 @@ const HAN_DATA = {
       "zh_lz": "tɕʰi˩˧",
       "zh_wh": "tɕʰi˨˩˧",
       "zh_zz": "tɕʰi˨˦",
-      "yue": "t͡sʰɐt̚˥",
+      "yue": "tsʰɐt̚˥",
       "yue_gz": "tsʰɐt̚˥",
       "yue_ts": "tʰit̚˥˥",
       "yue_dg": "tsʰɐt̚˥",
       "yue_nn": "tsʰɐt̚˥",
       "yue_zs": "tsʰɐt̚˥",
-      "nan": "t͡sʰit̚˦",
-      "nan_qz": "t͡sʰit̚˥",
-      "nan_te": "t͡sʰik̚˨",
-      "nan_pn": "t͡sʰit̚˧˨",
+      "nan": "tsʰit̚˦",
+      "nan_qz": "tsʰit̚˥",
+      "nan_te": "tsʰik̚˨",
+      "nan_pn": "tsʰit̚˧˨",
       "nan_hai": "sit̚˥",
-      "nan_xm": "t͡sʰit̚˧˨",
-      "nan_zz": "t͡sʰit̚˧˨",
+      "nan_xm": "tsʰit̚˧˨",
+      "nan_zz": "tsʰit̚˧˨",
       "cdo": "tsʰeiʔ˨˦",
       "cpx": "tsʰiʔ˥",
       "mnp": "tsʰi˨˦",
@@ -1705,7 +1705,7 @@ const HAN_DATA = {
       "zh_han": "*[tsʰ]i[t]",
       "zh_tang": "tsʰiɪt̚",
       "zh_song": "tsʰit̚",
-      "ko": "t͡ɕʰil",
+      "ko": "tɕʰil",
       "vi": "tʰət˧˥",
       "vi_c": "tʰət˦˥",
       "vi_s": "tʰət˦˥",
@@ -1719,14 +1719,14 @@ const HAN_DATA = {
       "zh_phagspa": "tsʰi",
       "yue_hk": "tsʰɐt̚˥",
       "yue_mo": "tsʰɐt̚˥",
-      "nan_sg": "t͡sʰit̚˨",
+      "nan_sg": "tsʰit̚˨",
       "nan_my": "tsʰit̚˧˨",
-      "nan_id": "t͡sʰit̚˧˨",
+      "nan_id": "tsʰit̚˧˨",
       "sjo": "nadan",
       "ko_mid": "tsʰilʔ˥",
       "ja_ojp": "ɕiti",
       "ko_kp": "tsʰil",
-      "ko_zai": "t͡ɕiɾɯ",
+      "ko_zai": "tɕiɾɯ",
       "pst": "*(s-)nĭt",
       "pko": "*niɾkup",
       "pja": "*nana",
@@ -1741,15 +1741,15 @@ const HAN_DATA = {
       "yue_us": "tsʰɑʔ˦",
       "zh_us": "tɕʰi˥˥",
       "nan_th": "tsʰiʔ˨",
-      "zh_th": "t͡ɕʰi˥˥",
-      "nan_pera": "t͡ɕʰiʔ˥",
+      "zh_th": "tɕʰi˥˥",
+      "nan_pera": "tɕʰiʔ˥",
       "zh_jiao": "tɕʰi˥˥",
       "hak_mz": "tsʰit̚˩",
       "zh_gl": "tsʰi˧˩",
       "ko_bus": "tɕʰil˥",
       "ja_kgs": "ɕit̚",
-      "ja_okn": "ɕit͡sɯ",
-      "ja_thk": "sɯ̈t͡sɯ̈"
+      "ja_okn": "ɕitsɯ",
+      "ja_thk": "sɯ̈tsɯ̈"
     },
     "en": {
       "gloss": "seven",
@@ -1934,7 +1934,7 @@ const HAN_DATA = {
       "vi_s": "ɓaːt˦˥",
       "bca": "pe˧˥",
       "juc": "dʑakɯn",
-      "mnc": "d͡ʒakʰuːn",
+      "mnc": "dʒakʰuːn",
       "txg": "ɣjar˨",
       "za": "pɛt̚˥",
       "zkt": "naim",
@@ -1942,7 +1942,7 @@ const HAN_DATA = {
       "zh_phagspa": "pa",
       "yue_hk": "paːt̚˧",
       "yue_mo": "paːt̚˧",
-      "sjo": "d͡ʑaqun",
+      "sjo": "dʑaqun",
       "ko_mid": "palʔ˥",
       "ja_ojp": "pati",
       "ko_kp": "pʰal",
@@ -1950,7 +1950,7 @@ const HAN_DATA = {
       "pst": "*ryēt",
       "pko": "*jətəɾp",
       "pja": "*ja",
-      "ptung": "*d͡ʒapkun",
+      "ptung": "*dʒapkun",
       "paa": "*tɲcaːm",
       "ptai": "*peːt̚",
       "pmgl": "*najiman",
@@ -1966,8 +1966,8 @@ const HAN_DATA = {
       "zh_gl": "pa˧˩",
       "ko_bus": "pʰal˥",
       "ja_kgs": "hat̚",
-      "ja_okn": "hat͡sɯ",
-      "ja_thk": "hat͡sɯ",
+      "ja_okn": "hatsɯ",
+      "ja_thk": "hatsɯ",
       "nan_te": "poiʔ˨",
       "nan_hai": "ɓuet̚˥",
       "cpx": "pœyʔ˥"
@@ -2110,8 +2110,8 @@ const HAN_DATA = {
       "msj": "kiu˧˩",
       "wuu_qt": "tɕiau˧˥",
       "hak_hy": "kiu˧˩",
-      "zh": "t͡ɕjou˨˩˦",
-      "zh_tw": "t͡ɕjou˨˩˦",
+      "zh": "tɕjou˨˩˦",
+      "zh_tw": "tɕjou˨˩˦",
       "zh_db": "tɕiou˨˩˧",
       "zh_sc": "tɕiəu˥˧",
       "zh_cd": "tɕiəu˥˧",
@@ -2183,7 +2183,7 @@ const HAN_DATA = {
       "dng": "tɕju˨˦",
       "yue_us": "gaʊ˦",
       "zh_us": "tɕjou˨",
-      "zh_th": "t͡ɕjou˨˩˦",
+      "zh_th": "tɕjou˨˩˦",
       "zh_jiao": "tɕiou˥˥",
       "hak_mz": "kiu˧˩",
       "zh_gl": "tɕiou˥˧",
@@ -2384,7 +2384,7 @@ const HAN_DATA = {
       "vi_s": "tʰəp˨˩ʔ",
       "bca": "tsʰɿ˨˨˨",
       "juc": "dʑuwan",
-      "mnc": "d͡ʒuwan",
+      "mnc": "dʒuwan",
       "txg": "ɣa˨",
       "za": "tsip̚˧˥",
       "zkt": "par",
@@ -2392,7 +2392,7 @@ const HAN_DATA = {
       "zh_phagspa": "ʂɨ",
       "yue_hk": "sɐp̚˨",
       "yue_mo": "sɐp̚˨",
-      "sjo": "d͡ʑuwan",
+      "sjo": "dʑuwan",
       "ko_mid": "s͈ip̚˥",
       "ja_ojp": "ʑipu",
       "ko_kp": "ɕip̚",
@@ -2400,7 +2400,7 @@ const HAN_DATA = {
       "pst": "*k(ʰ)ĭp",
       "pko": "*jeɾ",
       "pja": "*təwə",
-      "ptung": "*d͡ʒuwan",
+      "ptung": "*dʒuwan",
       "ptai": "*sip̚",
       "pmgl": "*harban",
       "ja_kun": "toː",
@@ -2417,7 +2417,7 @@ const HAN_DATA = {
       "ja_kgs": "ɕɯː",
       "ja_okn": "ɕɯː",
       "ja_thk": "ɕɯː",
-      "nan_te": "t͡sap̚˥",
+      "nan_te": "tsap̚˥",
       "nan_hai": "zap̚˧",
       "cdo": "seiʔ˨˦",
       "cpx": "tsɛʔ˥",
@@ -2612,7 +2612,7 @@ const HAN_DATA = {
       "zh_phagspa": "ʐɨ",
       "yue_hk": "jɐt̚˨",
       "yue_mo": "jɐt̚˨",
-      "nan_id": "d͡zit̚˦",
+      "nan_id": "dzit̚˦",
       "sjo": "ɕun",
       "ko_mid": "zilʔ˥",
       "ja_ojp": "ɲiti",
@@ -2640,9 +2640,9 @@ const HAN_DATA = {
       "hak_mz": "ŋit̚˥",
       "zh_gl": "zɿ˧˩",
       "ko_bus": "il˥",
-      "ja_kgs": "d͡ʑit̚",
-      "ja_okn": "d͡ʑit͡sɯ",
-      "ja_thk": "d͡ʑit͡sɯ"
+      "ja_kgs": "dʑit̚",
+      "ja_okn": "dʑitsɯ",
+      "ja_thk": "dʑitsɯ"
     },
     "en": {
       "gloss": "sun",
@@ -2843,7 +2843,7 @@ const HAN_DATA = {
       "ptai": "*ɓlɯan˧",
       "pmgl": "*saran",
       "phm": "*hlaH",
-      "ja_kun": "t͡sɯki",
+      "ja_kun": "tsɯki",
       "ko_hun": "tal",
       "vi_ohan": "ʈaŋ˧˧ / jaŋ˧˧",
       "vi_nom": "tʂaŋ˧˧",
@@ -2856,8 +2856,8 @@ const HAN_DATA = {
       "zh_gl": "yɛ˧˩",
       "ko_bus": "wɔl˩",
       "ja_kgs": "get̚",
-      "ja_okn": "git͡sɯ",
-      "ja_thk": "ŋet͡sɯ"
+      "ja_okn": "gitsɯ",
+      "ja_thk": "ŋetsɯ"
     },
     "en": {
       "gloss": "moon",
@@ -3213,14 +3213,14 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "ɕyei˦˩",
-      "nan_lei": "t͡sui˧˩",
+      "nan_lei": "tsui˧˩",
       "mnz": "sui˧˩",
       "czh_jx": "ɕyi˦˨",
       "cjy_dt": "suei˥˧",
       "msj": "sui˧˩",
       "wuu_qt": "sz̩˧˥",
       "hak_hy": "sui˧˩",
-      "nan": "t͡sui˥˧",
+      "nan": "tsui˥˧",
       "zh": "ʂueɪ˨˩˦",
       "zh_tw": "sueɪ˨˩˦",
       "zh_db": "ʂueɪ˨˩˧",
@@ -3244,8 +3244,8 @@ const HAN_DATA = {
       "yue_dg": "sɵy˧˥",
       "yue_nn": "ɬɵy˧˥",
       "yue_zs": "sɵy˧˥",
-      "nan_te": "t͡sui˥˧",
-      "nan_hai": "t͡sui˨˦˥",
+      "nan_te": "tsui˥˧",
+      "nan_hai": "tsui˨˦˥",
       "cdo": "tsuoi˧˩˧",
       "cpx": "tsui˧˩",
       "mnp": "sy˧˩",
@@ -3282,7 +3282,7 @@ const HAN_DATA = {
       "yue_hk": "sɵy˧˥",
       "yue_mo": "sɵy˧˥",
       "nan_my": "tsui˥˨",
-      "sjo": "mut͡ɕə",
+      "sjo": "mutɕə",
       "ko_mid": "sju˩˥",
       "ja_ojp": "swi",
       "ko_kp": "su",
@@ -3295,7 +3295,7 @@ const HAN_DATA = {
       "ptai": "*nam˥˩",
       "pmgl": "*usun",
       "phm": "*ʔu̯əm",
-      "ja_kun": "mid͡zɯ",
+      "ja_kun": "midzɯ",
       "ko_hun": "mul",
       "vi_nom": "nɨək̚˧˥",
       "dng": "ʂuei˨˦",
@@ -4010,7 +4010,7 @@ const HAN_DATA = {
       "paa": "*teːʔ",
       "ptai": "*ɗin˧",
       "pmgl": "*siruj",
-      "ja_kun": "t͡sɯt͡ɕi",
+      "ja_kun": "tsɯtɕi",
       "ko_hun": "hɯk̚",
       "vi_nom": "ɗət̚˧˥",
       "dng": "tʰu˨˦",
@@ -4205,7 +4205,7 @@ const HAN_DATA = {
       "zh_han": "*l̥ˤi[n]",
       "zh_tang": "tʰen˩˨˧",
       "zh_song": "tʰien˩˧",
-      "ko": "t͡ɕʰʌn",
+      "ko": "tɕʰʌn",
       "vi": "tʰiən˧˧",
       "vi_c": "tʰiən˧˨",
       "vi_s": "tʰiən˧˧",
@@ -4223,7 +4223,7 @@ const HAN_DATA = {
       "ko_mid": "tʰjən˩",
       "ja_ojp": "ten",
       "ko_kp": "tsʰʌn",
-      "ko_zai": "t͡ɕʌn",
+      "ko_zai": "tɕʌn",
       "pko": "*hanʌɾ",
       "pja": "*ama",
       "ptung": "*abka",
@@ -4425,7 +4425,7 @@ const HAN_DATA = {
       "zh_han": "*lˤej-s",
       "zh_tang": "diɪ˥˩",
       "zh_song": "di˥˩",
-      "ko": "t͡ɕi",
+      "ko": "tɕi",
       "vi": "ɗie˧ˀ˨ʔ",
       "vi_c": "ɗie˨˩ˀ",
       "vi_s": "ɗie˨˩˨",
@@ -4443,7 +4443,7 @@ const HAN_DATA = {
       "ko_mid": "ti˥",
       "ja_ojp": "di",
       "ko_kp": "tsi",
-      "ko_zai": "t͡ɕi",
+      "ko_zai": "tɕi",
       "pst": "*ƛăy",
       "pko": "*tʌh",
       "ptung": "*na",
@@ -4461,9 +4461,9 @@ const HAN_DATA = {
       "hak_mz": "tʰi˥˧",
       "zh_gl": "ti˨˦",
       "ko_bus": "tɕi˥",
-      "ja_kgs": "t͡ɕi",
-      "ja_okn": "t͡ɕi",
-      "ja_thk": "t͡sɯ̈"
+      "ja_kgs": "tɕi",
+      "ja_okn": "tɕi",
+      "ja_thk": "tsɯ̈"
     },
     "en": {
       "gloss": "ground",
@@ -4906,7 +4906,7 @@ const HAN_DATA = {
       "pko": "*miɾ",
       "ptai": "*ŋɯak̚",
       "pmgl": "—",
-      "ja_kun": "tat͡sɯ",
+      "ja_kun": "tatsɯ",
       "ko_hun": "miɾɯ",
       "vi_nom": "zawŋ͡m˨˩",
       "dng": "luŋ˨˦",
@@ -5306,8 +5306,8 @@ const HAN_DATA = {
       "wuu_qt": "tɕʰy˧˥",
       "hak_hy": "kʰien˧˩",
       "nan_id": "kʰian˥˧",
-      "zh": "t͡ɕʰɥɛn˨˩˦",
-      "zh_tw": "t͡ɕʰɥɛn˨˩˦",
+      "zh": "tɕʰɥɛn˨˩˦",
+      "zh_tw": "tɕʰɥɛn˨˩˦",
       "zh_db": "tɕʰyɛn˨˩˧",
       "zh_sc": "tɕʰyɛn˥˧",
       "zh_cd": "tɕʰyɛn˥˧",
@@ -5392,7 +5392,7 @@ const HAN_DATA = {
       "yue_us": "hjuːn˦",
       "zh_us": "tɕʰjwɛn˨",
       "nan_th": "kʰeŋ˧˩",
-      "zh_th": "t͡ɕʰɥɛn˨˩˦",
+      "zh_th": "tɕʰɥɛn˨˩˦",
       "nan_pera": "kʰian˨˩",
       "zh_jiao": "tɕʰyã˥˥",
       "hak_mz": "kʰien˧˩",
@@ -5753,7 +5753,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "tiau˦˩",
-      "nan_lei": "t͡siau˨˩˧",
+      "nan_lei": "tsiau˨˩˧",
       "mnz": "niau˧˩",
       "czh_jx": "niau˦˨",
       "cjy_dt": "niau˥˧",
@@ -5783,8 +5783,8 @@ const HAN_DATA = {
       "yue_dg": "niːu˩˧",
       "yue_nn": "niu˨˦",
       "yue_zs": "niu˩˧",
-      "nan_te": "t͡siau˥˧",
-      "nan_hai": "t͡siau˨˦˥",
+      "nan_te": "tsiau˥˧",
+      "nan_hai": "tsiau˨˦˥",
       "cdo": "tsieu˥˧",
       "cpx": "tsiau˧˩",
       "mnp": "niau˧˩",
@@ -5806,7 +5806,7 @@ const HAN_DATA = {
       "zh_han": "*tˤiwʔ",
       "zh_tang": "tew˨˩˦",
       "zh_song": "tew˨˦",
-      "ko": "t͡ɕo",
+      "ko": "tɕo",
       "vi": "ɗiəw˧˩˧",
       "vi_c": "ɗiəw˧˩˨",
       "vi_s": "ɗiəw˨˩˦",
@@ -5824,7 +5824,7 @@ const HAN_DATA = {
       "ko_mid": "tjo˩˥",
       "ja_ojp": "teu",
       "ko_kp": "tso",
-      "ko_zai": "t͡ɕo",
+      "ko_zai": "tɕo",
       "pko": "*saj",
       "pja": "*təri",
       "ptung": "*ɡasa",
@@ -5844,9 +5844,9 @@ const HAN_DATA = {
       "hak_mz": "tiau˧˩",
       "zh_gl": "niau˥˧",
       "ko_bus": "tɕoː˩˧",
-      "ja_kgs": "t͡ɕoː",
-      "ja_okn": "t͡ɕuː",
-      "ja_thk": "t͡ɕoː"
+      "ja_kgs": "tɕoː",
+      "ja_okn": "tɕuː",
+      "ja_thk": "tɕoː"
     },
     "en": {
       "gloss": "bird",
@@ -6512,7 +6512,7 @@ const HAN_DATA = {
       "ko_zai": "jaŋ",
       "ptai": "*pɛː˥˩",
       "pmgl": "*honin",
-      "ja_kun": "çit͡sɯd͡ʑi",
+      "ja_kun": "çitsɯdʑi",
       "ko_hun": "jaŋ",
       "dng": "jaŋ˨˦",
       "yue_us": "jɝŋ˨",
@@ -6733,7 +6733,7 @@ const HAN_DATA = {
       "nan_sg": "niau˦",
       "nan_my": "niau˧",
       "nan_id": "niau˦",
-      "sjo": "kəsit͡ɕə",
+      "sjo": "kəsitɕə",
       "ko_mid": "mjo˩",
       "vi_ohan": "mɛw˨˩",
       "ko_kp": "mjo",
@@ -6972,9 +6972,9 @@ const HAN_DATA = {
       "hak_mz": "ŋin˩˩",
       "zh_gl": "zən˧˩",
       "ko_bus": "in˩",
-      "ja_kgs": "d͡ʑiɴ",
-      "ja_okn": "d͡ʑiɴ",
-      "ja_thk": "d͡ʑiɴ"
+      "ja_kgs": "dʑiɴ",
+      "ja_okn": "dʑiɴ",
+      "ja_thk": "dʑiɴ"
     },
     "en": {
       "gloss": "person",
@@ -7104,7 +7104,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "ɕiəu˦˩",
-      "nan_lei": "t͡sʰiu˨˩˧",
+      "nan_lei": "tsʰiu˨˩˧",
       "mnz": "tɕʰiu˧˩",
       "czh_jx": "ɕiu˧˥",
       "cjy_dt": "səu˥˧",
@@ -7134,7 +7134,7 @@ const HAN_DATA = {
       "yue_dg": "sɐu˧˥",
       "yue_nn": "ɬɐu˧˥",
       "yue_zs": "sɐu˧˥",
-      "nan_hai": "t͡sʰiu˨˦˥",
+      "nan_hai": "tsʰiu˨˦˥",
       "mnp": "tɕʰiu˧˩",
       "wuu": "sɤ˧˥",
       "wuu_nb": "sɤɯ˧˥",
@@ -7329,16 +7329,16 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "tɕy˨˦",
-      "nan_lei": "t͡siɔk̚˨˨",
+      "nan_lei": "tsiɔk̚˨˨",
       "mnz": "tsy˦˨",
       "czh_jx": "tsuʔ˥",
       "cjy_dt": "tsuəʔ˦˧",
       "msj": "tɕiuk˨",
       "wuu_qt": "tɕy˨˧",
       "hak_hy": "tɕiuk̚˩",
-      "nan_id": "t͡siɔk̚˧˨",
-      "zh": "t͡su˧˥",
-      "zh_tw": "t͡su˧˥",
+      "nan_id": "tsiɔk̚˧˨",
+      "zh": "tsu˧˥",
+      "zh_tw": "tsu˧˥",
       "zh_db": "tsu˧˥",
       "zh_sc": "tsu˨˩",
       "zh_cd": "tsu˨˩",
@@ -7354,16 +7354,16 @@ const HAN_DATA = {
       "zh_lz": "tsu˩˧",
       "zh_wh": "tsəu˨˩˧",
       "zh_zz": "tsu˨˦",
-      "yue": "t͡sʊk̚˥",
+      "yue": "tsʊk̚˥",
       "yue_gz": "tsʊk̚˥",
       "yue_ts": "tɵk̚˥˥",
       "yue_dg": "tsʊk̚˥",
       "yue_nn": "tsʊk̚˥",
       "yue_zs": "tsʊk̚˥",
-      "nan_te": "t͡siɔk̚˨˩",
-      "nan_hai": "t͡siɔk̚˨˩",
-      "nan_xm": "t͡siɔk̚˧˨",
-      "nan_zz": "t͡siɔk̚˧˨",
+      "nan_te": "tsiɔk̚˨˩",
+      "nan_hai": "tsiɔk̚˨˩",
+      "nan_xm": "tsiɔk̚˧˨",
+      "nan_zz": "tsiɔk̚˧˨",
       "cdo": "tɕyʔ˥",
       "cpx": "tsyɔʔ˥",
       "mnp": "tsy˨˦",
@@ -7385,7 +7385,7 @@ const HAN_DATA = {
       "zh_han": "*[ts]ok",
       "zh_tang": "tsiuɪk̚",
       "zh_song": "tsiok̚",
-      "ko": "t͡ɕok̚",
+      "ko": "tɕok̚",
       "vi": "tuk˧˥",
       "vi_c": "tuk˦˥",
       "vi_s": "tuk˦˥",
@@ -7399,12 +7399,12 @@ const HAN_DATA = {
       "zh_phagspa": "tsuʔ",
       "yue_hk": "tsʊk̚˥",
       "yue_mo": "tsʊk̚˥",
-      "nan_sg": "t͡siɔk̚˧˨",
+      "nan_sg": "tsiɔk̚˧˨",
       "sjo": "bətxə",
       "ko_mid": "tsjok̚˥",
       "ja_ojp": "soku",
       "ko_kp": "tsok̚",
-      "ko_zai": "t͡ɕokɯ",
+      "ko_zai": "tɕokɯ",
       "pko": "*paɾ",
       "pja": "*asi",
       "ptung": "*bəɡdi",
@@ -7418,8 +7418,8 @@ const HAN_DATA = {
       "yue_us": "dzʊʔ˦",
       "zh_us": "tsu˧˥",
       "nan_th": "tsioʔ˨",
-      "zh_th": "t͡su˧˥",
-      "nan_pera": "t͡ɕiɔʔ˥",
+      "zh_th": "tsu˧˥",
+      "nan_pera": "tɕiɔʔ˥",
       "zh_jiao": "tsu˥˥",
       "hak_mz": "tɕiuk̚˩",
       "zh_gl": "tsu˧˩",
@@ -7867,8 +7867,8 @@ const HAN_DATA = {
       "hak_mz": "ŋi˧˩",
       "zh_gl": "ɚ˥˧",
       "ko_bus": "iː˩˧",
-      "ja_kgs": "d͡ʑi",
-      "ja_okn": "d͡ʑi",
+      "ja_kgs": "dʑi",
+      "ja_okn": "dʑi",
       "ja_thk": "zɯ̈"
     },
     "en": {
@@ -8071,7 +8071,7 @@ const HAN_DATA = {
       "yue_hk": "hɐu˧˥",
       "yue_mo": "hɐu˧˥",
       "nan_sg": "kʰau˥˧",
-      "nan_id": "t͡sʰui˥˩",
+      "nan_id": "tsʰui˥˩",
       "sjo": "aŋɢa",
       "ko_mid": "kʰu˩˥",
       "ja_ojp": "kou",
@@ -8082,7 +8082,7 @@ const HAN_DATA = {
       "ptung": "*amŋa",
       "ptai": "*paːk̚",
       "pmgl": "*aman",
-      "ja_kun": "kɯt͡ɕi",
+      "ja_kun": "kɯtɕi",
       "ko_hun": "ip̚",
       "vi_nom": "miəŋ˧ˀ˨ʔ",
       "dng": "tsuei˨˦",
@@ -8288,7 +8288,7 @@ const HAN_DATA = {
       "vi_s": "ɗəw˨˩",
       "bca": "tʰo˧˥",
       "juc": "udʑu",
-      "mnc": "ud͡ʒu",
+      "mnc": "udʒu",
       "txg": "ŋiej˩",
       "za": "taːu˨˩˧",
       "zkt": "—",
@@ -8296,7 +8296,7 @@ const HAN_DATA = {
       "zh_phagspa": "tʰiw",
       "yue_hk": "tʰɐu˨˩",
       "yue_mo": "tʰɐu˨˩",
-      "sjo": "ud͡ʑu",
+      "sjo": "udʑu",
       "ko_mid": "tu˩",
       "ja_ojp": "tou",
       "ko_kp": "tu",
@@ -8774,7 +8774,7 @@ const HAN_DATA = {
       "ptai": "*lɯat̚",
       "pmgl": "*tʃisun",
       "phm": "*ntshjamX",
-      "ja_kun": "t͡ɕi",
+      "ja_kun": "tɕi",
       "ko_hun": "pʰi",
       "vi_nom": "maːw˧˥",
       "dng": "ɕyɤ˨˦",
@@ -8787,8 +8787,8 @@ const HAN_DATA = {
       "zh_gl": "ɕyɛ˧˩",
       "ko_bus": "hjʌl˥",
       "ja_kgs": "ket̚",
-      "ja_okn": "kit͡sɯ",
-      "ja_thk": "ket͡sɯ"
+      "ja_okn": "kitsɯ",
+      "ja_thk": "ketsɯ"
     },
     "en": {
       "gloss": "blood",
@@ -8994,7 +8994,7 @@ const HAN_DATA = {
       "ptb": "*sya",
       "pko": "*salh",
       "pja": "*sisi",
-      "ptung": "*uld͡ʒə",
+      "ptung": "*uldʒə",
       "paa": "*sɔc",
       "ptai": "*nɯː˥˩",
       "pmgl": "*mikan",
@@ -9009,9 +9009,9 @@ const HAN_DATA = {
       "hak_mz": "ŋiuk̚˥",
       "zh_gl": "zou˧˩",
       "ko_bus": "juk˩",
-      "ja_kgs": "d͡ʑik̚",
-      "ja_okn": "d͡ʑikɯ",
-      "ja_thk": "d͡ʑiɡɯ"
+      "ja_kgs": "dʑik̚",
+      "ja_okn": "dʑikɯ",
+      "ja_thk": "dʑiɡɯ"
     },
     "en": {
       "gloss": "meat",
@@ -9069,8 +9069,8 @@ const HAN_DATA = {
       "hak_tw": "song4",
       "hak_hl": "sòng",
       "zh_han": "*daŋʔ-s",
-      "zh_tang": "d͡ʑiɐŋ²¹⁴",
-      "zh_song": "d͡ʑiaŋ²⁴",
+      "zh_tang": "dʑiɐŋ²¹⁴",
+      "zh_song": "dʑiaŋ²⁴",
       "ko": "sang",
       "vi": "Thượng",
       "vi_c": "Thượng",
@@ -9400,7 +9400,7 @@ const HAN_DATA = {
       "vi_c": "ha˨˩ˀ",
       "vi_s": "ha˨˩˨",
       "bca": "xa˨˩",
-      "mnc": "fəd͡ʒilə",
+      "mnc": "fədʒilə",
       "txg": "ʔjɨ˨",
       "za": "haː˧˩",
       "juc": "fəjilə",
@@ -9409,7 +9409,7 @@ const HAN_DATA = {
       "zh_phagspa": "xja",
       "yue_hk": "haː˨",
       "yue_mo": "haː˨",
-      "sjo": "fəd͡ʑilə",
+      "sjo": "fədʑilə",
       "ko_mid": "ɣa˩˥",
       "ja_ojp": "ŋe",
       "ko_kp": "ha",
@@ -9578,8 +9578,8 @@ const HAN_DATA = {
       "msj": "tuŋ˦",
       "wuu_qt": "tɕyoŋ˦˦",
       "hak_hy": "tsuŋ˧˧",
-      "zh": "t͡ʂuŋ˥˥",
-      "zh_tw": "t͡suŋ˥˥",
+      "zh": "tʂuŋ˥˥",
+      "zh_tw": "tsuŋ˥˥",
       "zh_db": "tʂuŋ˥˥",
       "zh_sc": "tsoŋ˥˥",
       "zh_cd": "tsoŋ˥˥",
@@ -9595,9 +9595,9 @@ const HAN_DATA = {
       "zh_lz": "tʂuŋ˧˩",
       "zh_wh": "tsoŋ˥˥",
       "zh_zz": "tʂuŋ˨˦",
-      "yue": "t͡sʊŋ˥",
+      "yue": "tsʊŋ˥",
       "yue_gz": "tsʊŋ˥˥",
-      "yue_ts": "t͡sɵŋ˧˧",
+      "yue_ts": "tsɵŋ˧˧",
       "yue_dg": "tsʊŋ˥˥",
       "yue_nn": "tsʊŋ˥˥",
       "yue_zs": "tsʊŋ˥˥",
@@ -9629,7 +9629,7 @@ const HAN_DATA = {
       "zh_han": "*truŋ",
       "zh_tang": "ʈuoŋ˩˨˧",
       "zh_song": "ʈuŋ˩˧",
-      "ko": "t͡ɕuŋ",
+      "ko": "tɕuŋ",
       "vi": "tʂuŋ͡m˧˧",
       "vi_c": "tʂuŋ͡m˧˨",
       "vi_s": "ʈuŋ͡m˧˧",
@@ -9651,7 +9651,7 @@ const HAN_DATA = {
       "ja_ojp": "tʲuu",
       "bo_sino": "ʈʂuŋ˥˥",
       "ko_kp": "tsuŋ",
-      "ko_zai": "t͡ɕuŋ",
+      "ko_zai": "tɕuŋ",
       "pko": "*kawɨn",
       "pja": "*naka",
       "ptung": "*dulin",
@@ -9664,15 +9664,15 @@ const HAN_DATA = {
       "yue_us": "dzʊŋ˦",
       "zh_us": "tsuŋ˥˥",
       "nan_th": "toŋ˧",
-      "zh_th": "t͡suŋ˥˥",
+      "zh_th": "tsuŋ˥˥",
       "nan_pera": "tiɔŋ˦",
       "zh_jiao": "tʂuŋ˨˩˧",
       "hak_mz": "tsuŋ˦˦",
       "zh_gl": "tsoŋ˦˦",
       "ko_bus": "tɕuŋ˩",
-      "ja_kgs": "t͡ɕɯː",
-      "ja_okn": "t͡ɕɯː",
-      "ja_thk": "t͡ɕɯː"
+      "ja_kgs": "tɕɯː",
+      "ja_okn": "tɕɯː",
+      "ja_thk": "tɕɯː"
     },
     "en": {
       "gloss": "middle"
@@ -9818,7 +9818,7 @@ const HAN_DATA = {
       "wuu_qt": "tɕyoŋ˦˨",
       "hak_hy": "tsuŋ˥˧",
       "ja_kun": "ataɾɯ",
-      "zh": "t͡ʂuŋ˥˩",
+      "zh": "tʂuŋ˥˩",
       "zh_db": "tʂuŋ˥˧",
       "zh_sc": "tsoŋ˨˩˧",
       "zh_cd": "tsoŋ˨˩˧",
@@ -9837,18 +9837,18 @@ const HAN_DATA = {
       "zh_jiao": "tʂuŋ˥˧",
       "zh_gl": "tsoŋ˧˩",
       "zh_us": "tsuŋ˥˩",
-      "zh_th": "t͡suŋ˥˩",
+      "zh_th": "tsuŋ˥˩",
       "zh_yuan": "tʂuŋ˥˩",
       "zh_phagspa": "tʂuŋ",
       "zh_han": "*truŋ-s",
       "zh_tang": "ʈuoŋ˥˩",
       "zh_song": "ʈuŋ˥˩",
-      "yue": "t͡sʊŋ˧",
+      "yue": "tsʊŋ˧",
       "yue_hk": "tsʊŋ˧",
       "yue_mo": "tsʊŋ˧",
       "yue_gz": "tsʊŋ˧˧",
       "yue_dg": "tsʊŋ˧˧",
-      "yue_ts": "t͡sʊŋ˧˧",
+      "yue_ts": "tsʊŋ˧˧",
       "yue_zs": "tsʊŋ˧˧",
       "yue_nn": "tsʊŋ˧˧",
       "yue_us": "dzʊŋ˧",
@@ -9883,14 +9883,14 @@ const HAN_DATA = {
       "hsn": "tən˦˥",
       "gan": "tuŋ˦˥",
       "cnp": "tsuŋ˨˨",
-      "ko": "t͡ɕuŋ",
+      "ko": "tɕuŋ",
       "ko_kp": "tsuŋ",
-      "ko_zai": "t͡ɕuŋ",
+      "ko_zai": "tɕuŋ",
       "ko_bus": "tɕuŋ˥",
       "ko_mid": "tjuŋ˥",
-      "ja_kgs": "t͡ɕɯː",
-      "ja_okn": "t͡ɕɯː",
-      "ja_thk": "t͡ɕɯː",
+      "ja_kgs": "tɕɯː",
+      "ja_okn": "tɕɯː",
+      "ja_thk": "tɕɯː",
       "ja_ojp": "tʲuu",
       "vi": "tʂuŋ͡m˧˥",
       "vi_c": "tʂuŋ͡m˨˩˧",
@@ -9903,13 +9903,13 @@ const HAN_DATA = {
       "juc": "—",
       "zkt": "—",
       "sjo": "ɢɔibum",
-      "pko": "*mat͡s-",
+      "pko": "*mats-",
       "pja": "*atar-",
       "ptung": "*dulin",
       "ptai": "*klaːŋ˧",
       "pmgl": "*dumda",
       "dng": "tɕuŋ˥˩",
-      "zh_tw": "t͡suŋ˥˩",
+      "zh_tw": "tsuŋ˥˩",
       "ko_hun": "madʑɯl"
     },
     "en": {
@@ -10250,18 +10250,18 @@ const HAN_DATA = {
       "ja_thk": "sa"
     },
     "ipa": {
-      "nan": "t͡sɔ˥˧",
+      "nan": "tsɔ˥˧",
       "hsn_sf": "tso˦˩",
-      "nan_lei": "t͡so˨˩˧",
+      "nan_lei": "tso˨˩˧",
       "mnz": "tso˧˩",
       "czh_jx": "tso˦˨",
       "cjy_dt": "tsuə˥˧",
       "msj": "tso˧˩",
       "wuu_qt": "tsau˧˥",
       "hak_hy": "tso˧˩",
-      "nan_id": "t͡sɔ˥˧",
-      "zh": "t͡suo˨˩˦",
-      "zh_tw": "t͡suo˨˩˦",
+      "nan_id": "tsɔ˥˧",
+      "zh": "tsuo˨˩˦",
+      "zh_tw": "tsuo˨˩˦",
       "zh_db": "tsuo˨˩˧",
       "zh_sc": "tso˥˧",
       "zh_cd": "tso˥˧",
@@ -10277,18 +10277,18 @@ const HAN_DATA = {
       "zh_lz": "tsuo˦˦˨",
       "zh_wh": "tso˦˨",
       "zh_zz": "tsuo˥˧",
-      "yue": "t͡sɔː˧˥",
+      "yue": "tsɔː˧˥",
       "yue_gz": "tsɔː˧˥",
       "yue_ts": "tᵘɔ˥˥",
       "yue_dg": "tsɔː˧˥",
       "yue_nn": "tsɔː˧˥",
       "yue_zs": "tsɔː˧˥",
-      "nan_qz": "t͡sɔ˥˥",
-      "nan_te": "t͡so˥˧",
-      "nan_pn": "t͡sɔ˦˨",
-      "nan_hai": "t͡so˨˦˥",
-      "nan_xm": "t͡sɔ˥˧",
-      "nan_zz": "t͡sɔ˥˧",
+      "nan_qz": "tsɔ˥˥",
+      "nan_te": "tso˥˧",
+      "nan_pn": "tsɔ˦˨",
+      "nan_hai": "tso˨˦˥",
+      "nan_xm": "tsɔ˥˧",
+      "nan_zz": "tsɔ˥˧",
       "cdo": "tsɔ˧˩",
       "cpx": "tsɔ˧˩",
       "mnp": "tso˧˩",
@@ -10310,7 +10310,7 @@ const HAN_DATA = {
       "zh_han": "*[ts]ˤajʔ",
       "zh_tang": "tsɑ˨˩˦",
       "zh_song": "tsɑ˨˦",
-      "ko": "t͡ɕwa",
+      "ko": "tɕwa",
       "vi": "taː˧˩˧",
       "vi_c": "taː˧˩˨",
       "vi_s": "taː˨˩˦",
@@ -10324,16 +10324,16 @@ const HAN_DATA = {
       "zh_phagspa": "tswɔ",
       "yue_hk": "tsɔː˧˥",
       "yue_mo": "tsɔː˧˥",
-      "nan_sg": "t͡sɔ˥˧",
+      "nan_sg": "tsɔ˥˧",
       "nan_my": "tso˥˨",
       "sjo": "χaɕu",
       "ko_mid": "tswa˩˥",
       "ja_ojp": "sa",
       "ko_kp": "tswa",
-      "ko_zai": "t͡ɕwa",
+      "ko_zai": "tɕwa",
       "pko": "*ojn",
       "pja": "*pintari",
-      "ptung": "*d͡ʒəɡyn",
+      "ptung": "*dʒəɡyn",
       "ptai": "*saːj˥˩",
       "pmgl": "*dʒeɡyn",
       "ja_kun": "çidaɾi",
@@ -10343,8 +10343,8 @@ const HAN_DATA = {
       "yue_us": "dzɑː˦",
       "zh_us": "tswo˨",
       "nan_th": "tso˧˩",
-      "zh_th": "t͡suo˨˩˦",
-      "nan_pera": "t͡sɔ˨˩",
+      "zh_th": "tsuo˨˩˦",
+      "nan_pera": "tsɔ˨˩",
       "zh_jiao": "tsuo˥˥",
       "hak_mz": "tso˧˩",
       "zh_gl": "tso˥˧",
@@ -10552,7 +10552,7 @@ const HAN_DATA = {
       "vi_c": "hɨw˨˩ˀ",
       "vi_s": "hɨw˨˩˦",
       "bca": "ju˨˩",
-      "mnc": "it͡ʃi",
+      "mnc": "itʃi",
       "txg": "ɣjar˩",
       "za": "joi˧˩",
       "juc": "itɕi",
@@ -10563,7 +10563,7 @@ const HAN_DATA = {
       "yue_mo": "jɐu˨",
       "nan_sg": "iu˨˩",
       "nan_my": "iu˨˩",
-      "sjo": "it͡ɕi",
+      "sjo": "itɕi",
       "ko_mid": "wu˩˥",
       "ja_ojp": "u",
       "ko_kp": "u",
@@ -11209,7 +11209,7 @@ const HAN_DATA = {
       "vi_c": "naːm˧˨",
       "vi_s": "naːm˧˧",
       "bca": "næ˧˥",
-      "mnc": "d͡ʒulərɡi",
+      "mnc": "dʒulərɡi",
       "txg": "l̥jwɨj˩",
       "za": "naːm˨˩˧",
       "juc": "dʑulərɡi",
@@ -11221,7 +11221,7 @@ const HAN_DATA = {
       "nan_sg": "lam˨˦",
       "nan_my": "lam˨˧",
       "nan_id": "lam˨˦",
-      "sjo": "d͡ʑulərɡi",
+      "sjo": "dʑulərɡi",
       "ko_mid": "nam˩",
       "ja_ojp": "nam",
       "ko_kp": "nam",
@@ -12146,7 +12146,7 @@ const HAN_DATA = {
       "vi_s": "laːi˧˧",
       "bca": "læ˧˥",
       "juc": "dʑi-",
-      "mnc": "d͡ʒimbi",
+      "mnc": "dʒimbi",
       "txg": "ljɨ˨",
       "za": "laːi˨˩˧",
       "zkt": "—",
@@ -12157,7 +12157,7 @@ const HAN_DATA = {
       "nan_sg": "lai˨˦",
       "nan_my": "lai˨˧",
       "nan_id": "lai˨˦",
-      "sjo": "d͡ʑim",
+      "sjo": "dʑim",
       "ko_mid": "lʌj˥",
       "ja_ojp": "rai",
       "ko_kp": "ɾɛ",
@@ -12324,8 +12324,8 @@ const HAN_DATA = {
       "msj": "hi˥",
       "wuu_qt": "tɕʰei˦˨",
       "hak_hy": "hi˥˧",
-      "zh": "t͡ɕʰy˥˩",
-      "zh_tw": "t͡ɕʰy˥˩",
+      "zh": "tɕʰy˥˩",
+      "zh_tw": "tɕʰy˥˩",
       "zh_db": "tɕʰy˥˧",
       "zh_sc": "tɕʰy˨˩˧",
       "zh_cd": "tɕʰy˨˩˧",
@@ -12396,7 +12396,7 @@ const HAN_DATA = {
       "dng": "tɕʰi˥˩",
       "yue_us": "hɝj˧",
       "zh_us": "tɕʰju˥˩",
-      "zh_th": "t͡ɕʰy˥˩",
+      "zh_th": "tɕʰy˥˩",
       "zh_jiao": "tɕʰy˥˧",
       "hak_mz": "hi˥˧",
       "zh_gl": "tɕʰy˨˦",
@@ -12543,8 +12543,8 @@ const HAN_DATA = {
       "wuu_qt": "tɕi˦˨",
       "hak_hy": "kien˥˧",
       "wuu": "tɕi˧˥",
-      "zh": "t͡ɕjɛn˥˩",
-      "zh_tw": "t͡ɕjɛn˥˩",
+      "zh": "tɕjɛn˥˩",
+      "zh_tw": "tɕjɛn˥˩",
       "zh_db": "tɕiɛn˥˧",
       "zh_sc": "tɕiɛn˨˩˧",
       "zh_cd": "tɕiɛn˨˩˧",
@@ -12607,7 +12607,7 @@ const HAN_DATA = {
       "ko_zai": "kjʌn",
       "pko": "*po-",
       "pja": "*mi-",
-      "ptung": "*it͡ʃə-",
+      "ptung": "*itʃə-",
       "ptai": "*hen˧",
       "pmgl": "*ydʒe-",
       "ja_kun": "miɾɯ",
@@ -12616,7 +12616,7 @@ const HAN_DATA = {
       "dng": "tɕjɛn˥˩",
       "yue_us": "giːn˧",
       "zh_us": "tɕjɛn˥˩",
-      "zh_th": "t͡ɕjɛn˥˩",
+      "zh_th": "tɕjɛn˥˩",
       "nan_pera": "kĩ˥˧",
       "zh_jiao": "tɕiã˥˧",
       "hak_mz": "kien˥˧",
@@ -12810,7 +12810,7 @@ const HAN_DATA = {
       "vi_s": "jan˧˧",
       "bca": "wɛn˧˥",
       "juc": "dondʑi-",
-      "mnc": "dond͡ʒimbi",
+      "mnc": "dondʒimbi",
       "txg": "njɨ˩",
       "za": "wɯn˨˩˧",
       "zkt": "—",
@@ -12818,7 +12818,7 @@ const HAN_DATA = {
       "zh_phagspa": "wun",
       "yue_hk": "mɐn˨˩",
       "yue_mo": "mɐn˨˩",
-      "sjo": "dɔnd͡ʑim",
+      "sjo": "dɔndʑim",
       "ko_mid": "mun˩",
       "ja_ojp": "mon",
       "ko_kp": "mun",
@@ -12972,7 +12972,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "ʑɿ˨˦",
-      "nan_lei": "t͡sia˨˨",
+      "nan_lei": "tsia˨˨",
       "mnz": "siʔ˦˨",
       "czh_jx": "siɪʔ˥",
       "cjy_dt": "səʔ˥˦",
@@ -13007,7 +13007,7 @@ const HAN_DATA = {
       "yue_dg": "sɪk̚˨",
       "yue_nn": "sɪk̚˨",
       "yue_zs": "sɪk̚˨",
-      "nan_hai": "t͡sia˧",
+      "nan_hai": "tsia˧",
       "mnp": "siʔ˨˦",
       "wuu_wz": "zai˨˩˧",
       "wuu_jh": "zəʔ˨˩˨",
@@ -13028,7 +13028,7 @@ const HAN_DATA = {
       "vi_s": "tʰɨk˨˩ʔ",
       "bca": "ʐɿ˨˨˨",
       "juc": "dʑe-",
-      "mnc": "d͡ʒəmbi",
+      "mnc": "dʒəmbi",
       "txg": "ɕjew˨",
       "za": "kɯn˧˧",
       "zkt": "—",
@@ -13036,7 +13036,7 @@ const HAN_DATA = {
       "zh_phagspa": "ʂɨ",
       "yue_hk": "sɪk̚˨",
       "yue_mo": "sɪk̚˨",
-      "sjo": "d͡ʑəm",
+      "sjo": "dʑəm",
       "ko_mid": "zik̚˥",
       "ja_ojp": "ʑiki",
       "ko_kp": "ɕik̚",
@@ -13045,7 +13045,7 @@ const HAN_DATA = {
       "ptb": "*dzya",
       "pko": "*mək-",
       "pja": "*kup-",
-      "ptung": "*d͡ʒəp-",
+      "ptung": "*dʒəp-",
       "paa": "*caːʔ",
       "ptai": "*kɯn˧",
       "pmgl": "*ide-",
@@ -13063,7 +13063,7 @@ const HAN_DATA = {
       "ja_kgs": "ɕok̚",
       "ja_okn": "ɕukɯ",
       "ja_thk": "ɕoɡɯ",
-      "nan_te": "t͡siaʔ˥"
+      "nan_te": "tsiaʔ˥"
     },
     "en": {
       "gloss": "eat",
@@ -13418,15 +13418,15 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_sf": "tsəu˦˩",
-      "nan_lei": "t͡sau˨˩˧",
+      "nan_lei": "tsau˨˩˧",
       "mnz": "tsau˧˩",
       "czh_jx": "tseu˨˩˧",
       "cjy_dt": "tsəu˥˧",
       "msj": "tseu˧˩",
       "wuu_qt": "tsau˧˥",
       "hak_hy": "tseu˧˩",
-      "zh": "t͡sou˨˩˦",
-      "zh_tw": "t͡sou˨˩˦",
+      "zh": "tsou˨˩˦",
+      "zh_tw": "tsou˨˩˦",
       "zh_db": "tsou˨˩˧",
       "zh_sc": "tsəu˥˧",
       "zh_cd": "tsəu˥˧",
@@ -13442,14 +13442,14 @@ const HAN_DATA = {
       "zh_lz": "tsɤu˦˦˨",
       "zh_wh": "tsəu˦˨",
       "zh_zz": "tsou˥˧",
-      "yue": "t͡sɐu˧˥",
+      "yue": "tsɐu˧˥",
       "yue_gz": "tsɐu˧˥",
       "yue_ts": "teu˥˥",
       "yue_dg": "tsɐu˧˥",
       "yue_nn": "tsɐu˧˥",
       "yue_zs": "tsɐu˧˥",
-      "nan_te": "t͡sau˥˧",
-      "nan_hai": "t͡sau˨˦˥",
+      "nan_te": "tsau˥˧",
+      "nan_hai": "tsau˨˦˥",
       "cdo": "tsau˧˩",
       "cpx": "tsau˧˩",
       "mnp": "tsɛ˧˩",
@@ -13471,12 +13471,12 @@ const HAN_DATA = {
       "zh_han": "*[ts]ˤoʔ",
       "zh_tang": "tsəu˨˩˦",
       "zh_song": "tsəw˨˦",
-      "ko": "t͡ɕu",
+      "ko": "tɕu",
       "vi": "təw˧˩˧",
       "vi_c": "təw˧˩˨",
       "vi_s": "təw˨˩˦",
       "bca": "ʦɯ˨˩˦",
-      "mnc": "sud͡ʒumbi",
+      "mnc": "sudʒumbi",
       "txg": "l̥jɨ˩",
       "za": "pjaːi˨˩",
       "juc": "sudʑu-",
@@ -13485,11 +13485,11 @@ const HAN_DATA = {
       "zh_phagspa": "tsiw",
       "yue_hk": "tsɐu˧˥",
       "yue_mo": "tsɐu˧˥",
-      "sjo": "sud͡ʑum",
+      "sjo": "sudʑum",
       "ko_mid": "tsu˩˥",
       "ja_ojp": "sou",
       "ko_kp": "tsu",
-      "ko_zai": "t͡ɕu",
+      "ko_zai": "tɕu",
       "pko": "*tʌt-",
       "pja": "*pasir-",
       "ptung": "*tuksa-",
@@ -13502,7 +13502,7 @@ const HAN_DATA = {
       "yue_us": "dzaʊ˦",
       "zh_us": "tsou˨",
       "nan_th": "tsau˧˩",
-      "zh_th": "t͡sou˨˩˦",
+      "zh_th": "tsou˨˩˦",
       "zh_jiao": "tsou˥˥",
       "hak_mz": "tseu˧˩",
       "zh_gl": "tsou˥˧",
@@ -13647,8 +13647,8 @@ const HAN_DATA = {
       "msj": "tsʰo˧˥",
       "wuu_qt": "zo˧˥",
       "hak_hy": "tsʰo˧˧",
-      "zh": "t͡suo˥˩",
-      "zh_tw": "t͡suo˥˩",
+      "zh": "tsuo˥˩",
+      "zh_tw": "tsuo˥˩",
       "zh_db": "tsuo˥˧",
       "zh_sc": "tso˨˩˧",
       "zh_cd": "tso˨˩˧",
@@ -13664,13 +13664,13 @@ const HAN_DATA = {
       "zh_lz": "tsuə˩˧",
       "zh_wh": "tso˧˥",
       "zh_zz": "tsuo˧˩˨",
-      "yue": "t͡sʰɔː˩˧",
+      "yue": "tsʰɔː˩˧",
       "yue_gz": "tsʰɔː˩˧",
       "yue_ts": "tʰᵘɔ˧˧",
       "yue_dg": "tsʰɔː˩˧",
       "yue_nn": "tsʰɔ˩˧",
       "yue_zs": "tsʰɔ˩˧",
-      "nan_te": "t͡so˧˥",
+      "nan_te": "tso˧˥",
       "nan_hai": "ɗo˧˧",
       "cdo": "sø˩˧",
       "cpx": "tsɔ˩˧",
@@ -13693,7 +13693,7 @@ const HAN_DATA = {
       "zh_han": "*[dz]ˤo[j]ʔ",
       "zh_tang": "dzuɑ˨˩˦",
       "zh_song": "dzwa˨˦",
-      "ko": "t͡ɕwa",
+      "ko": "tɕwa",
       "vi": "twa˧ˀ˨ʔ",
       "vi_c": "twa˨˩ˀ",
       "vi_s": "twa˨˩˨",
@@ -13711,9 +13711,9 @@ const HAN_DATA = {
       "ko_mid": "t͈swa˩˥",
       "ja_ojp": "za",
       "ko_kp": "tswa",
-      "ko_zai": "t͡ɕwa",
+      "ko_zai": "tɕwa",
       "pst": "*tūŋ",
-      "pko": "*ant͡s-",
+      "pko": "*ants-",
       "ptung": "*təɡə-",
       "paa": "*ŋkuːʔ",
       "ptai": "*naŋ˨",
@@ -13725,7 +13725,7 @@ const HAN_DATA = {
       "yue_us": "tsʰɑː˨",
       "zh_us": "tsuo˥˩",
       "nan_th": "tso˨˩",
-      "zh_th": "t͡suo˥˩",
+      "zh_th": "tsuo˥˩",
       "zh_jiao": "tsuo˥˧",
       "hak_mz": "tsʰo˧˩",
       "zh_gl": "tso˨˦",
@@ -13943,7 +13943,7 @@ const HAN_DATA = {
       "paa": "*cɔŋ",
       "ptai": "*ɟɯn˧",
       "pmgl": "*bos-",
-      "ja_kun": "tat͡sɯ",
+      "ja_kun": "tatsɯ",
       "ko_hun": "sʌl",
       "vi_nom": "ɗɨŋ˧˥",
       "dng": "tʂan˥˩",
@@ -13956,8 +13956,8 @@ const HAN_DATA = {
       "zh_gl": "li˧˩",
       "ko_bus": "ip˩",
       "ja_kgs": "ɾit̚",
-      "ja_okn": "ɾit͡sɯ",
-      "ja_thk": "ɾit͡sɯ"
+      "ja_okn": "ɾitsɯ",
+      "ja_thk": "ɾitsɯ"
     },
     "en": {
       "gloss": "stand",
@@ -16890,25 +16890,25 @@ const HAN_LANG_META = {
     },
     "family": "Austroasiatic (Vietic)",
     "description": {
-      "en": "Hán-Việt (Sino-Vietnamese) readings as pronounced in Northern (Hanoi) Vietnamese. The 6-tone system is most clearly preserved here; /tʰ/ is fully aspirated; the digraph <tr> merges with <ch> as [t͡ɕ].",
-      "ja": "ハノイ（北部）方言での漢越音。6声体系が最も明瞭に保たれ、<tr>と<ch>が[t͡ɕ]に合流する。",
-      "ko": "하노이(북부) 방언의 한월음. 6성 체계가 가장 명확하게 보존되며 <tr>와 <ch>가 [t͡ɕ]로 합류한다.",
-      "zh": "河內（北部）方言下的漢越讀音。六聲體系最為明晰，<tr>與<ch>合流為[t͡ɕ]。",
-      "yue": "漢越音（Hán-Việt）係越南語中保留嘅漢字讀音系統，呢個詞目係北部（河內）方言嘅讀法。越南文有六個聲調，喺北部呢六個聲調最清晰可辨。輔音/tʰ/係完全送氣音；字母組合<tr>同<ch>喺北部合流為[t͡ɕ]。漢越音係越南傳統漢學嘅基礎，用於正式文言詞彙同古典典籍。",
-      "vi": "Âm Hán-Việt là hệ thống đọc chữ Hán được bảo lưu trong tiếng Việt, phản ánh một tầng vay mượn từ tiếng Trung Hoa trung đại (Trung cổ Hán ngữ). Trong phương ngữ miền Bắc (Hà Nội), hệ thống sáu thanh điệu được phân biệt rõ ràng nhất; phụ âm /tʰ/ được phát âm đầy đủ; tổ hợp chữ <tr> nhập vào <ch> thành [t͡ɕ]. Âm Hán-Việt là nền tảng của từ vựng Hán học trong văn chương và học thuật Việt Nam.",
-      "th": "เสียงอ่านฮัน-เวียต (Hán-Việt) คือระบบการออกเสียงอักษรจีนที่สืบทอดอยู่ในภาษาเวียดนาม สะท้อนชั้นการยืมคำจากภาษาจีนกลางในยุคกลาง ในสำเนียงภาคเหนือ (ฮานอย) ระบบหกวรรณยุกต์มีความชัดเจนที่สุด พยัญชนะ /tʰ/ ออกเสียงพ่นลมเต็มที่ และ <tr> รวมกับ <ch> เป็น [t͡ɕ] ฮัน-เวียตเป็นรากฐานของคำศัพท์ทางวรรณคดีและวิชาการในภาษาเวียดนาม",
-      "id": "Hán-Việt adalah sistem pembacaan aksara Han yang dipertahankan dalam bahasa Vietnam, mencerminkan satu lapisan pinjaman dari bahasa Tionghoa Pertengahan. Dalam dialek utara (Hanoi), sistem enam nada paling jelas terdengar; /tʰ/ diucapkan dengan aspirasi penuh; gugus <tr> berpadu dengan <ch> menjadi [t͡ɕ]. Hán-Việt menjadi fondasi kosakata sastra dan akademis Vietnam.",
-      "hi": "हान-वियेत (Hán-Việt) वियतनामी भाषा में संरक्षित हान अक्षर पठन प्रणाली है, जो मध्य चीनी (Middle Chinese) से एक उधार-स्तर को दर्शाती है। उत्तरी (हनोई) बोली में छह-स्वर प्रणाली सर्वाधिक स्पष्ट रूप से परिरक्षित है; /tʰ/ पूर्ण श्वासपूर्वक उच्चारित होता है; <tr> और <ch> उत्तरी बोली में [t͡ɕ] के रूप में विलीन हो जाते हैं। हान-वियेत वियतनामी साहित्यिक एवं शैक्षणिक शब्दावली का आधार है।",
-      "de": "Hán-Việt ist das im Vietnamesischen bewahrte System der Aussprache chinesischer Schriftzeichen und spiegelt eine Entlehnungsschicht aus dem Mittelchinesischen wider. Im nördlichen Dialekt (Hanoi) ist das Sechs-Ton-System am klarsten ausgeprägt; /tʰ/ wird voll aspiriert ausgesprochen; das Digraph <tr> fällt mit <ch> zu [t͡ɕ] zusammen. Hán-Việt bildet die Grundlage des gelehrten und literarischen Wortschatzes im Vietnamesischen.",
-      "fr": "Le Hán-Việt est le système de prononciation des caractères chinois conservé en vietnamien, reflétant une couche d'emprunt au chinois médiéval. Dans le dialecte du Nord (Hanoï), le système à six tons est le mieux préservé ; /tʰ/ est pleinement aspiré ; le digramme <tr> fusionne avec <ch> en [t͡ɕ]. Le Hán-Việt constitue le fondement du vocabulaire lettré et académique vietnamien.",
-      "it": "Il Hán-Việt è il sistema di pronuncia dei caratteri cinesi conservato in vietnamita, che riflette uno strato di prestito dal cinese medievale. Nel dialetto settentrionale (Hanoi) il sistema a sei toni è meglio preservato; /tʰ/ è pienamente aspirato; il digramma <tr> si fonde con <ch> in [t͡ɕ]. Il Hán-Việt costituisce la base del vocabolario letterario e accademico vietnamita.",
-      "es": "El Hán-Việt es el sistema de pronunciación de los caracteres chinos conservado en vietnamita, que refleja un estrato de préstamo del chino medieval. En el dialecto del Norte (Hanói), el sistema de seis tonos está mejor conservado; /tʰ/ se pronuncia con plena aspiración; el dígrafo <tr> se fusiona con <ch> en [t͡ɕ]. El Hán-Việt constituye la base del vocabulario literario y académico vietnamita.",
-      "pt": "O Hán-Việt é o sistema de pronúncia de caracteres chineses preservado no vietnamita, refletindo uma camada de empréstimo do chinês medieval. No dialeto do Norte (Hanói), o sistema de seis tons é mais claramente preservado; /tʰ/ é plenamente aspirado; o dígrafo <tr> funde-se com <ch> em [t͡ɕ]. O Hán-Việt constitui a base do vocabulário literário e académico vietnamita.",
-      "ru": "Хан-Вьет (Hán-Việt) — система чтения китайских иероглифов, сохранившаяся во вьетнамском языке и отражающая слой заимствований из средневекового китайского. В северном диалекте (Ханой) шеститоновая система представлена наиболее отчётливо; /tʰ/ произносится с полной аспирацией; диграф <tr> сливается с <ch> в [t͡ɕ]. Хан-Вьет составляет основу книжной и научной лексики вьетнамского языка.",
-      "uk": "Хан-Вієт (Hán-Việt) — система читання китайських ієрогліфів, збережена у в'єтнамській мові та відображає шар запозичень зі середньовічної китайської. У північному діалекті (Ханой) шеститонова система збережена найчіткіше; /tʰ/ вимовляється з повною аспірацією; діграф <tr> зливається з <ch> у [t͡ɕ]. Хан-Вієт становить основу книжної та наукової лексики в'єтнамської мови.",
-      "ar": "هان-فييت (Hán-Việt) هو نظام نطق الأحرف الصينية المحفوظ في اللغة الفيتنامية، ويعكس طبقةً من الاقتراض من الصينية الوسيطة. في اللهجة الشمالية (هانوي)، يتجلّى نظام الأصوات الستة بأوضح صورة، وتُنطق /tʰ/ بنفَس كامل، ويندمج الزوج الإملائي <tr> مع <ch> ليُصبح [t͡ɕ]. ويُشكّل هان-فييت أساس المفردات الأدبية والأكاديمية في اللغة الفيتنامية.",
-      "he": "האן-וייט (Hán-Việt) הוא מערכת ההגייה של תווים סיניים השמורה בוייטנאמית, ומשקפת שכבת השאלה מהסינית התיכונה. בניב הצפוני (האנוי) מערכת ששת הטונים שמורה בצורה המובהקת ביותר; /tʰ/ מבוטא בשאיפה מלאה; הצמד <tr> מתמזג עם <ch> ל-[t͡ɕ]. האן-וייט הוא הבסיס של אוצר המילים הספרותי והאקדמי בוייטנאמית.",
-      "sw": "Hán-Việt ni mfumo wa kusoma herufi za Kichina uliohifadhiwa katika Kivietinamu, unaosawiri tabaka la kukopa kutoka Kichina cha Kati. Katika lahja ya kaskazini (Hanoi), mfumo wa toni sita umehifadhiwa kwa uwazi zaidi; /tʰ/ hutamkwa kwa pumzi kamili; digirafu <tr> huungana na <ch> kuwa [t͡ɕ]. Hán-Việt ni msingi wa msamiati wa fasihi na kitaaluma wa Kivietinamu."
+      "en": "Hán-Việt (Sino-Vietnamese) readings as pronounced in Northern (Hanoi) Vietnamese. The 6-tone system is most clearly preserved here; /tʰ/ is fully aspirated; the digraph <tr> merges with <ch> as [tɕ].",
+      "ja": "ハノイ（北部）方言での漢越音。6声体系が最も明瞭に保たれ、<tr>と<ch>が[tɕ]に合流する。",
+      "ko": "하노이(북부) 방언의 한월음. 6성 체계가 가장 명확하게 보존되며 <tr>와 <ch>가 [tɕ]로 합류한다.",
+      "zh": "河內（北部）方言下的漢越讀音。六聲體系最為明晰，<tr>與<ch>合流為[tɕ]。",
+      "yue": "漢越音（Hán-Việt）係越南語中保留嘅漢字讀音系統，呢個詞目係北部（河內）方言嘅讀法。越南文有六個聲調，喺北部呢六個聲調最清晰可辨。輔音/tʰ/係完全送氣音；字母組合<tr>同<ch>喺北部合流為[tɕ]。漢越音係越南傳統漢學嘅基礎，用於正式文言詞彙同古典典籍。",
+      "vi": "Âm Hán-Việt là hệ thống đọc chữ Hán được bảo lưu trong tiếng Việt, phản ánh một tầng vay mượn từ tiếng Trung Hoa trung đại (Trung cổ Hán ngữ). Trong phương ngữ miền Bắc (Hà Nội), hệ thống sáu thanh điệu được phân biệt rõ ràng nhất; phụ âm /tʰ/ được phát âm đầy đủ; tổ hợp chữ <tr> nhập vào <ch> thành [tɕ]. Âm Hán-Việt là nền tảng của từ vựng Hán học trong văn chương và học thuật Việt Nam.",
+      "th": "เสียงอ่านฮัน-เวียต (Hán-Việt) คือระบบการออกเสียงอักษรจีนที่สืบทอดอยู่ในภาษาเวียดนาม สะท้อนชั้นการยืมคำจากภาษาจีนกลางในยุคกลาง ในสำเนียงภาคเหนือ (ฮานอย) ระบบหกวรรณยุกต์มีความชัดเจนที่สุด พยัญชนะ /tʰ/ ออกเสียงพ่นลมเต็มที่ และ <tr> รวมกับ <ch> เป็น [tɕ] ฮัน-เวียตเป็นรากฐานของคำศัพท์ทางวรรณคดีและวิชาการในภาษาเวียดนาม",
+      "id": "Hán-Việt adalah sistem pembacaan aksara Han yang dipertahankan dalam bahasa Vietnam, mencerminkan satu lapisan pinjaman dari bahasa Tionghoa Pertengahan. Dalam dialek utara (Hanoi), sistem enam nada paling jelas terdengar; /tʰ/ diucapkan dengan aspirasi penuh; gugus <tr> berpadu dengan <ch> menjadi [tɕ]. Hán-Việt menjadi fondasi kosakata sastra dan akademis Vietnam.",
+      "hi": "हान-वियेत (Hán-Việt) वियतनामी भाषा में संरक्षित हान अक्षर पठन प्रणाली है, जो मध्य चीनी (Middle Chinese) से एक उधार-स्तर को दर्शाती है। उत्तरी (हनोई) बोली में छह-स्वर प्रणाली सर्वाधिक स्पष्ट रूप से परिरक्षित है; /tʰ/ पूर्ण श्वासपूर्वक उच्चारित होता है; <tr> और <ch> उत्तरी बोली में [tɕ] के रूप में विलीन हो जाते हैं। हान-वियेत वियतनामी साहित्यिक एवं शैक्षणिक शब्दावली का आधार है।",
+      "de": "Hán-Việt ist das im Vietnamesischen bewahrte System der Aussprache chinesischer Schriftzeichen und spiegelt eine Entlehnungsschicht aus dem Mittelchinesischen wider. Im nördlichen Dialekt (Hanoi) ist das Sechs-Ton-System am klarsten ausgeprägt; /tʰ/ wird voll aspiriert ausgesprochen; das Digraph <tr> fällt mit <ch> zu [tɕ] zusammen. Hán-Việt bildet die Grundlage des gelehrten und literarischen Wortschatzes im Vietnamesischen.",
+      "fr": "Le Hán-Việt est le système de prononciation des caractères chinois conservé en vietnamien, reflétant une couche d'emprunt au chinois médiéval. Dans le dialecte du Nord (Hanoï), le système à six tons est le mieux préservé ; /tʰ/ est pleinement aspiré ; le digramme <tr> fusionne avec <ch> en [tɕ]. Le Hán-Việt constitue le fondement du vocabulaire lettré et académique vietnamien.",
+      "it": "Il Hán-Việt è il sistema di pronuncia dei caratteri cinesi conservato in vietnamita, che riflette uno strato di prestito dal cinese medievale. Nel dialetto settentrionale (Hanoi) il sistema a sei toni è meglio preservato; /tʰ/ è pienamente aspirato; il digramma <tr> si fonde con <ch> in [tɕ]. Il Hán-Việt costituisce la base del vocabolario letterario e accademico vietnamita.",
+      "es": "El Hán-Việt es el sistema de pronunciación de los caracteres chinos conservado en vietnamita, que refleja un estrato de préstamo del chino medieval. En el dialecto del Norte (Hanói), el sistema de seis tonos está mejor conservado; /tʰ/ se pronuncia con plena aspiración; el dígrafo <tr> se fusiona con <ch> en [tɕ]. El Hán-Việt constituye la base del vocabulario literario y académico vietnamita.",
+      "pt": "O Hán-Việt é o sistema de pronúncia de caracteres chineses preservado no vietnamita, refletindo uma camada de empréstimo do chinês medieval. No dialeto do Norte (Hanói), o sistema de seis tons é mais claramente preservado; /tʰ/ é plenamente aspirado; o dígrafo <tr> funde-se com <ch> em [tɕ]. O Hán-Việt constitui a base do vocabulário literário e académico vietnamita.",
+      "ru": "Хан-Вьет (Hán-Việt) — система чтения китайских иероглифов, сохранившаяся во вьетнамском языке и отражающая слой заимствований из средневекового китайского. В северном диалекте (Ханой) шеститоновая система представлена наиболее отчётливо; /tʰ/ произносится с полной аспирацией; диграф <tr> сливается с <ch> в [tɕ]. Хан-Вьет составляет основу книжной и научной лексики вьетнамского языка.",
+      "uk": "Хан-Вієт (Hán-Việt) — система читання китайських ієрогліфів, збережена у в'єтнамській мові та відображає шар запозичень зі середньовічної китайської. У північному діалекті (Ханой) шеститонова система збережена найчіткіше; /tʰ/ вимовляється з повною аспірацією; діграф <tr> зливається з <ch> у [tɕ]. Хан-Вієт становить основу книжної та наукової лексики в'єтнамської мови.",
+      "ar": "هان-فييت (Hán-Việt) هو نظام نطق الأحرف الصينية المحفوظ في اللغة الفيتنامية، ويعكس طبقةً من الاقتراض من الصينية الوسيطة. في اللهجة الشمالية (هانوي)، يتجلّى نظام الأصوات الستة بأوضح صورة، وتُنطق /tʰ/ بنفَس كامل، ويندمج الزوج الإملائي <tr> مع <ch> ليُصبح [tɕ]. ويُشكّل هان-فييت أساس المفردات الأدبية والأكاديمية في اللغة الفيتنامية.",
+      "he": "האן-וייט (Hán-Việt) הוא מערכת ההגייה של תווים סיניים השמורה בוייטנאמית, ומשקפת שכבת השאלה מהסינית התיכונה. בניב הצפוני (האנוי) מערכת ששת הטונים שמורה בצורה המובהקת ביותר; /tʰ/ מבוטא בשאיפה מלאה; הצמד <tr> מתמזג עם <ch> ל-[tɕ]. האן-וייט הוא הבסיס של אוצר המילים הספרותי והאקדמי בוייטנאמית.",
+      "sw": "Hán-Việt ni mfumo wa kusoma herufi za Kichina uliohifadhiwa katika Kivietinamu, unaosawiri tabaka la kukopa kutoka Kichina cha Kati. Katika lahja ya kaskazini (Hanoi), mfumo wa toni sita umehifadhiwa kwa uwazi zaidi; /tʰ/ hutamkwa kwa pumzi kamili; digirafu <tr> huungana na <ch> kuwa [tɕ]. Hán-Việt ni msingi wa msamiati wa fasihi na kitaaluma wa Kivietinamu."
     },
     "sources": [
       "Hán-Việt từ điển trích dẫn (hanviet.org)",
@@ -17996,25 +17996,25 @@ const HAN_LANG_META = {
       "sw": "Kisibe — uzao hai wa Kimanchu"
     },
     "description": {
-      "en": "Sibe (Xibe) is a Tungusic language spoken by roughly 25,000–30,000 people in Qapqal Xibe Autonomous County, Xinjiang, descended from the population of bannermen relocated from Manchuria in 1764. It is the direct living descendant of literary Manchu — the lexicon is largely inherited intact — but has diverged phonologically: Manchu *ki, *ke, *gi, *ge palatalize to /tɕ, d͡ʑ/ after vowels (so muke 'water' → /mutɕə/, wargi 'west' → /wartɕi/), the vowel inventory expanded from six to eight (adding /y, œ/), and intervocalic fricatives voice ([s]→[z], [x]→[ɣ]/[ʁ]). The imperfective verbal suffix -mbi often reduces to -m in colloquial speech. Sibe is still written in the Manchu script with two added letters, and Qapqal supports a Sibe-medium primary education and a Sibe-language newspaper (Cabcal Serkin) — making it one of the very few Tungusic languages with active intergenerational transmission.",
-      "ja": "シベ語（錫伯語）は新疆ウイグル自治区チャプチャル・シベ自治県を中心に約2万5000～3万人が話すツングース語族の言語で、1764年に満洲から西遷したシベ族八旗の末裔の言葉である。文語満洲語の直接の生きた末裔として語彙はほぼそのまま継承されているが、音韻的には大きく変化している――満洲語の *ki, *ke, *gi, *ge は母音後で /tɕ, d͡ʑ/ に口蓋化し（muke「水」→ /mutɕə/、wargi「西」→ /wartɕi/）、母音体系は6から8に拡張され（/y/ /œ/ が加わる）、母音間の摩擦音は有声化する（[s]→[z]、[x]→[ɣ]/[ʁ]）。動詞未完了接辞 -mbi は口語でしばしば -m に短縮される。表記は満洲文字を2字追加して継承し、チャプチャルではシベ語による小学校教育とシベ語新聞『チャプチャル・セルキン』が今も発行されている。世代間継承が現役で行われている数少ないツングース語の一つである。",
-      "ko": "시버어(錫伯語)는 신장 위구르 자치구 차프찰 시버 자치현을 중심으로 약 2.5–3만 명이 사용하는 퉁구스 어족 언어로, 1764년 만주에서 서천한 시버족 팔기의 후예의 말이다. 문어 만주어의 직접 후계로 어휘는 거의 그대로 계승되지만 음운은 크게 변화: 만주어 *ki, *ke, *gi, *ge는 모음 뒤에서 /tɕ, d͡ʑ/로 구개음화하고(muke '물' → /mutɕə/, wargi '서' → /wartɕi/), 모음 체계는 6에서 8로 확장(/y/ /œ/ 추가), 모음 사이 마찰음은 유성화([s]→[z], [x]→[ɣ]/[ʁ])한다. 동사 미완료 접사 -mbi는 구어에서 종종 -m으로 단축. 표기는 만주 문자에 2자를 추가해 사용하며 차프찰에서는 시버어 초등교육과 시버어 신문 『차프찰 세르킨』이 발행되어 세대 간 계승이 살아 있는 드문 퉁구스어이다.",
-      "zh": "锡伯语是以新疆维吾尔自治区察布查尔锡伯自治县为中心约2.5–3万人使用的通古斯语，是1764年从满洲西迁而来的锡伯八旗后裔的语言。作为文言满语的直接活生生后裔，词汇基本完整继承，但音韵已显著变化：满语 *ki, *ke, *gi, *ge 在元音后腭化为 /tɕ, d͡ʑ/（muke「水」→/mutɕə/，wargi「西」→/wartɕi/），元音由6个扩展到8个（增 /y/ /œ/），元音间擦音浊化（[s]→[z]，[x]→[ɣ]/[ʁ]）。动词未完成式 -mbi 在口语中常缩为 -m。书写仍使用满文加两字母，察布查尔有锡伯语小学教育和锡伯语报纸《察布查尔色尔金》——是仍有活跃代际传承的极少数通古斯语之一。",
-      "yue": "錫伯語係以新疆維吾爾自治區察布查爾錫伯自治縣為中心、約 2.5–3 萬人使用嘅通古斯語，係 1764 年由滿洲西遷嘅錫伯八旗後人嘅語言。作為文言滿語嘅直接活生生後裔，詞彙基本完整傳承，但音韻已經有明顯變化：滿語 *ki, *ke, *gi, *ge 喺元音後顎化為 /tɕ, d͡ʑ/（muke「水」→/mutɕə/，wargi「西」→/wartɕi/），元音由 6 個擴展到 8 個（加 /y/ /œ/），元音間嘅擦音變濁（[s]→[z]，[x]→[ɣ]/[ʁ]）。動詞未完成式 -mbi 口語常縮做 -m。書寫仍用滿文加兩個字母，察布查爾仲有錫伯語小學教育同錫伯語報紙《察布查爾色爾金》——係仍有活躍代際傳承嘅極少數通古斯語之一。",
-      "vi": "Tiếng Sibe (錫伯語) là một ngôn ngữ Tungus có khoảng 25.000–30.000 người nói, tập trung tại huyện tự trị Sibe Qapqal ở Tân Cương, hậu duệ của bát kỳ Sibe được tái định cư từ Mãn Châu năm 1764. Là hậu duệ sống trực tiếp của tiếng Mãn văn ngữ, từ vựng được kế thừa gần như nguyên vẹn, nhưng âm vị đã thay đổi nhiều: *ki, *ke, *gi, *ge trong tiếng Mãn được vòm hóa thành /tɕ, d͡ʑ/ sau nguyên âm (muke 'nước' → /mutɕə/, wargi 'tây' → /wartɕi/), hệ nguyên âm mở rộng từ 6 lên 8 (thêm /y, œ/), phụ âm xát giữa nguyên âm hữu thanh hóa ([s]→[z], [x]→[ɣ]/[ʁ]). Hậu tố -mbi của thể chưa hoàn thành thường rút thành -m trong khẩu ngữ. Vẫn dùng chữ Mãn với hai chữ cái bổ sung; Qapqal vẫn có giáo dục tiểu học bằng tiếng Sibe và báo Sibe (Cabcal Serkin) — là một trong số rất ít tiếng Tungus còn truyền thừa thế hệ.",
-      "th": "ภาษาซีเป (錫伯語) เป็นภาษาตุงกัสที่มีผู้พูดประมาณ 25,000–30,000 คน ส่วนใหญ่ในเขตปกครองตนเองชนเผ่าซีเปแห่งจ้าปูฉาในซินเจียง ซึ่งเป็นลูกหลานของแปดแบนเนอร์ซีเปที่ถูกอพยพจากแมนจูเรียมาเมื่อปี 1764 เป็นลูกหลานสายตรงที่ยังคงอยู่ของแมนจูวรรณคดี คำศัพท์เกือบทั้งหมดสืบทอดมาเหมือนเดิมแต่เสียงเปลี่ยนไปมาก: แมนจู *ki, *ke, *gi, *ge เพดานเป็น /tɕ, d͡ʑ/ หลังสระ (muke 'น้ำ' → /mutɕə/, wargi 'ตะวันตก' → /wartɕi/), ระบบสระขยายจาก 6 เป็น 8 (เพิ่ม /y, œ/), เสียงเสียดแทรกระหว่างสระกลายเป็นเสียงก้อง ([s]→[z], [x]→[ɣ]/[ʁ]) ปัจจัยกริยายังไม่เสร็จ -mbi มักย่อเป็น -m ในภาษาพูด ยังคงใช้อักษรแมนจูเพิ่มสองตัว ที่จ้าปูฉายังมีการศึกษาประถมด้วยภาษาซีเปและหนังสือพิมพ์ซีเป Cabcal Serkin — นับเป็นภาษาตุงกัสไม่กี่ภาษาที่ยังมีการสืบทอดข้ามรุ่นที่กระตือรือร้น",
-      "id": "Bahasa Sibe (錫伯語) adalah bahasa Tungus yang dituturkan sekitar 25.000–30.000 orang, terutama di Kabupaten Otonomi Sibe Qapqal, Xinjiang, keturunan delapan panji Sibe yang dipindahkan dari Manchuria pada 1764. Sebagai keturunan langsung yang hidup dari Manchu sastra, kosakata diwariskan hampir utuh, namun fonologi telah berubah signifikan: *ki, *ke, *gi, *ge Manchu mengalami palatalization menjadi /tɕ, d͡ʑ/ setelah vokal (muke 'air' → /mutɕə/, wargi 'barat' → /wartɕi/), inventaris vokal meluas dari 6 menjadi 8 (menambah /y, œ/), frikatif intervokal bersuara ([s]→[z], [x]→[ɣ]/[ʁ]). Sufiks imperfek -mbi sering disingkat menjadi -m dalam tuturan sehari-hari. Penulisan masih memakai aksara Manchu dengan dua huruf tambahan; Qapqal memelihara pendidikan dasar bermedia Sibe dan surat kabar Sibe (Cabcal Serkin) — menjadikan ia salah satu dari sangat sedikit bahasa Tungus dengan transmisi antargenerasi aktif.",
-      "hi": "सिबे (錫�ष语 / 錫伯語) टंगुसी भाषा है जिसे लगभग 25,000–30,000 लोग बोलते हैं, मुख्यतः झिनजियांग के क़ापचाल सिबे स्वायत्त काउंटी में, जो 1764 में मंचूरिया से स्थानांतरित सिबे आठ बैनरों के वंशज हैं। साहित्यिक मंचू की प्रत्यक्ष जीवित वंशज है — शब्दावली लगभग पूरी तरह विरासत में मिली है — परंतु ध्वनिविज्ञानी बदलाव बड़े हैं: मंचू *ki, *ke, *gi, *ge स्वर के बाद /tɕ, d͡ʑ/ में पटलीकृत हो जाते हैं (muke 'पानी' → /mutɕə/, wargi 'पश्चिम' → /wartɕi/), स्वर सूची 6 से 8 हो गई (/y, œ/ जुड़े), अंतरस्वरीय उष्म व्यंजन सघोष हो जाते हैं ([s]→[z], [x]→[ɣ]/[ʁ])। अपूर्ण क्रिया प्रत्यय -mbi बोलचाल में अक्सर -m तक संक्षिप्त। लेखन में मंचू लिपि में दो अक्षर जोड़े जाते हैं; क़ापचाल में सिबे माध्यम प्राथमिक शिक्षा और सिबे समाचार पत्र Cabcal Serkin जारी है — यह सक्रिय अंतर-पीढ़ी संचरण वाली अत्यंत कम टंगुसी भाषाओं में से एक है।",
-      "de": "Sibe (錫伯語) ist eine tungusische Sprache, die von etwa 25 000–30 000 Menschen vor allem im Autonomen Kreis Qapqal Xibe in Xinjiang gesprochen wird, den Nachfahren der 1764 aus der Mandschurei umgesiedelten Sibe-Banner. Als unmittelbare lebende Tochter des Schriftmandschu ist der Wortschatz weitgehend unverändert ererbt, doch die Lautung hat sich stark geändert: Mandschu *ki, *ke, *gi, *ge werden nach Vokal zu /tɕ, d͡ʑ/ palatalisiert (muke 'Wasser' → /mutɕə/, wargi 'Westen' → /wartɕi/), das Vokalinventar erweitert sich von sechs auf acht (/y, œ/ hinzu), und intervokalische Frikative werden stimmhaft ([s]→[z], [x]→[ɣ]/[ʁ]). Das imperfektive Verbalsuffix -mbi wird umgangssprachlich oft auf -m verkürzt. Geschrieben wird weiter mit mandschurischer Schrift plus zwei zusätzlichen Buchstaben; in Qapqal gibt es eine Grundschulausbildung in Sibe und eine Sibe-Zeitung (Cabcal Serkin) — eine der wenigen tungusischen Sprachen mit aktiver Weitergabe zwischen den Generationen.",
-      "fr": "Le sibe (錫伯語) est une langue toungouse parlée par environ 25 000 à 30 000 personnes, principalement dans le xian autonome sibe de Qapqal, au Xinjiang, descendants des bannerets sibe relocalisés depuis la Mandchourie en 1764. Descendant direct vivant du mandchou littéraire, le lexique est conservé presque intact, mais la phonologie a évolué : les mandchous *ki, *ke, *gi, *ge se palatalisent en /tɕ, d͡ʑ/ après voyelle (muke 'eau' → /mutɕə/, wargi 'ouest' → /wartɕi/), l'inventaire vocalique passe de six à huit (ajout de /y, œ/) et les fricatives intervocaliques deviennent sonores ([s]→[z], [x]→[ɣ]/[ʁ]). Le suffixe verbal imperfectif -mbi est souvent réduit à -m à l'oral. L'écriture reste la mandchoue, augmentée de deux lettres ; à Qapqal subsistent une scolarité primaire en sibe et le quotidien Cabcal Serkin — l'une des très rares langues toungouses encore activement transmises de génération en génération.",
-      "it": "Il sibe (錫伯語) è una lingua tungusa parlata da circa 25 000–30 000 persone, principalmente nella contea autonoma sibe di Qapqal nello Xinjiang, discendenti dei vessilli sibe trasferiti dalla Manciuria nel 1764. È il discendente vivente diretto del mancese letterario, con un lessico ereditato pressoché intatto, ma con notevole divergenza fonologica: i mancesi *ki, *ke, *gi, *ge si palatalizzano in /tɕ, d͡ʑ/ dopo vocale (muke 'acqua' → /mutɕə/, wargi 'ovest' → /wartɕi/), l'inventario vocalico passa da sei a otto (con l'aggiunta di /y, œ/), e le fricative intervocaliche si sonorizzano ([s]→[z], [x]→[ɣ]/[ʁ]). Il suffisso verbale imperfettivo -mbi si riduce spesso a -m nel parlato. Si scrive ancora con la grafia mancese più due lettere; a Qapqal esistono istruzione primaria in sibe e il quotidiano Cabcal Serkin — una delle pochissime lingue tunguse con trasmissione intergenerazionale attiva.",
-      "es": "El sibe (錫伯語) es una lengua tungusa hablada por unas 25 000–30 000 personas, principalmente en el condado autónomo sibe de Qapqal, en Xinjiang, descendientes de los abanderados sibe trasladados desde Manchuria en 1764. Es el descendiente vivo directo del manchú literario, con un léxico heredado prácticamente intacto, pero con una notable divergencia fonológica: los manchúes *ki, *ke, *gi, *ge se palatalizan en /tɕ, d͡ʑ/ tras vocal (muke 'agua' → /mutɕə/, wargi 'oeste' → /wartɕi/), el inventario vocálico pasa de seis a ocho (con la adición de /y, œ/), y las fricativas intervocálicas se sonorizan ([s]→[z], [x]→[ɣ]/[ʁ]). El sufijo verbal imperfectivo -mbi se reduce a menudo a -m en la lengua oral. Se escribe aún con escritura manchú más dos letras añadidas; en Qapqal hay escolarización primaria en sibe y el diario Cabcal Serkin — una de las muy pocas lenguas tungusas con transmisión intergeneracional activa.",
-      "pt": "O sibe (錫伯語) é uma língua tungusa falada por cerca de 25 000–30 000 pessoas, principalmente no condado autónomo sibe de Qapqal, em Xinjiang, descendentes dos bandeireiros sibe transferidos da Manchúria em 1764. É o descendente vivo direto do manchu literário, com um léxico herdado praticamente intacto, mas com notável divergência fonológica: o manchu *ki, *ke, *gi, *ge palatalizam-se em /tɕ, d͡ʑ/ após vogal (muke 'água' → /mutɕə/, wargi 'oeste' → /wartɕi/), o inventário vocálico passa de seis a oito (com a adição de /y, œ/), e as fricativas intervocálicas sonorizam-se ([s]→[z], [x]→[ɣ]/[ʁ]). O sufixo verbal imperfetivo -mbi reduz-se frequentemente a -m no oral. A grafia ainda é o manchu acrescido de duas letras; em Qapqal mantêm-se a escolaridade primária em sibe e o jornal Cabcal Serkin — uma das pouquíssimas línguas tungusas com transmissão intergeracional ativa.",
-      "ru": "Сибэский (錫伯語) — тунгусский язык, на котором говорят около 25 000–30 000 человек, главным образом в Чапчальско-Сибэском автономном уезде Синьцзяна, потомки сибэских знамёнцев, переселённых из Маньчжурии в 1764 г. Будучи непосредственным живым потомком письменного маньчжурского, он почти полностью сохраняет лексику, но фонологически сильно изменился: маньчжурские *ki, *ke, *gi, *ge палатализуются в /tɕ, d͡ʑ/ после гласного (muke «вода» → /mutɕə/, wargi «запад» → /wartɕi/), система гласных расширяется с шести до восьми (добавляются /y, œ/), межвокальные щелевые звонкие ([s]→[z], [x]→[ɣ]/[ʁ]). Видовой глагольный суффикс -mbi в разговорной речи часто сокращается до -m. Письмо — маньчжурское с добавлением двух букв; в Чапчале сохраняется начальная школа на сибэском и газета Cabcal Serkin — один из немногих тунгусских языков с активной межпоколенческой передачей.",
-      "uk": "Сибеська (錫伯語) — тунгуська мова, якою говорять близько 25 000–30 000 осіб, переважно в Чапчальсько-Сибеському автономному повіті Сіньцзяну, нащадки сибеських прапорників, переселених із Маньчжурії 1764 р. Як прямий живий нащадок писемної маньчжурської, мова майже повністю зберігає лексику, але фонологічно сильно змінилася: маньчжурські *ki, *ke, *gi, *ge палаталізуються в /tɕ, d͡ʑ/ після голосного (muke «вода» → /mutɕə/, wargi «захід» → /wartɕi/), система голосних розширюється з шести до восьми (додаються /y, œ/), міжголосні шумні стають дзвінкими ([s]→[z], [x]→[ɣ]/[ʁ]). Видовий дієслівний суфікс -mbi у розмові часто скорочується до -m. Письмо — маньчжурське з додаванням двох літер; у Чапчалі зберігаються початкова школа сибеською та газета Cabcal Serkin — одна з небагатьох тунгуських мов з активною міжпоколінною передачею.",
-      "ar": "السيبية (錫伯語) لغة تنغوسية يتحدث بها نحو 25 000–30 000 شخص، خاصة في مقاطعة قابتشال السيبية ذاتية الحكم في شينجيانغ، أحفاد ألوية السيبيين الذين هُجِّروا من منشوريا عام 1764. وبصفتها سليلة حية مباشرة للمنشورية الأدبية، فإن مفرداتها مُتوارَثة بشكل كامل تقريباً، غير أنها تطورت صوتياً: تتعرض الصوامت المنشورية *ki, *ke, *gi, *ge للتلطيف إلى /tɕ, d͡ʑ/ بعد حركة (muke 'ماء' → /mutɕə/، wargi 'غرب' → /wartɕi/)، ويتسع المخزون الحركي من ست إلى ثماني حركات (تُضاف /y, œ/)، وتُجهَر الاحتكاكيات بين الحركتين ([s]→[z], [x]→[ɣ]/[ʁ]). تُختزل اللاحقة الفعلية الناقصة -mbi غالباً إلى -m في العامية. تُكتب لا تزال بخط المنشورية مع إضافة حرفين؛ تواصل قابتشال تقديم تعليم ابتدائي بالسيبية وصحيفة سيبية (Cabcal Serkin) — وهي إحدى اللغات التنغوسية القليلة التي ما زالت تنتقل عبر الأجيال.",
-      "he": "סיבה (錫伯語) היא שפה טונגוסית הנדברת על ידי כ-25,000–30,000 איש, בעיקר במחוז האוטונומיה הסיבי קאפצ'אל בשינג'יאנג, צאצאי דגלי הסיבה שהועברו ממנצ'וריה ב-1764. כצאצא חי ישיר של המנצ'ו הספרותי, אוצר המילים נשמר כמעט ללא שינוי, אך הפונולוגיה השתנתה רבות: המנצ'וריות *ki, *ke, *gi, *ge עוברות פלאטליזציה ל-/tɕ, d͡ʑ/ אחרי תנועה (muke 'מים' → /mutɕə/, wargi 'מערב' → /wartɕi/), מערכת התנועות מתרחבת משש לשמונה (תוספת /y, œ/), והעיצורים החוככים בין תנועות מתרככים ([s]→[z], [x]→[ɣ]/[ʁ]). הסיומת הפועלית הבלתי-מושלמת -mbi מתקצרת לעיתים קרובות ל-m בדיבור היומיומי. הכתב עדיין מנצ'ורי עם שתי אותיות נוספות; בקאפצ'אל קיים חינוך יסודי בסיבה ועיתון סיבי (Cabcal Serkin) — אחת מהמעטות מאוד מבין השפות הטונגוסיות שעוברת בין דורות באופן פעיל.",
-      "sw": "Kisibe (錫伯語) ni lugha ya Kitungus inayozungumzwa na karibu watu 25,000–30,000, hasa katika Kaunti ya Uhuru ya Sibe ya Qapqal huko Xinjiang, uzao wa bendera nane za Sibe waliohamishwa kutoka Manchuria mwaka 1764. Kama uzao hai wa moja kwa moja wa Kimanchu cha kifasihi, msamiati umerithiwa karibu kabisa, lakini fonolojia imebadilika sana: Kimanchu *ki, *ke, *gi, *ge zinapalatishwa kuwa /tɕ, d͡ʑ/ baada ya irabu (muke 'maji' → /mutɕə/, wargi 'magharibi' → /wartɕi/), idadi ya irabu inapanuka kutoka sita hadi nane (kuongezwa /y, œ/), na konsonanti za chakavu kati ya irabu zinawekwa sauti ([s]→[z], [x]→[ɣ]/[ʁ]). Kiambishi cha kitenzi kisichokamilika -mbi mara nyingi hupunguzwa kuwa -m katika usemi wa kawaida. Bado huandikwa kwa hati ya Kimanchu pamoja na herufi mbili za ziada; Qapqal bado inaendesha elimu ya msingi kwa Kisibe na gazeti la Kisibe (Cabcal Serkin) — moja ya lugha chache sana za Kitungus zinazoendelea kupitishwa kati ya vizazi."
+      "en": "Sibe (Xibe) is a Tungusic language spoken by roughly 25,000–30,000 people in Qapqal Xibe Autonomous County, Xinjiang, descended from the population of bannermen relocated from Manchuria in 1764. It is the direct living descendant of literary Manchu — the lexicon is largely inherited intact — but has diverged phonologically: Manchu *ki, *ke, *gi, *ge palatalize to /tɕ, dʑ/ after vowels (so muke 'water' → /mutɕə/, wargi 'west' → /wartɕi/), the vowel inventory expanded from six to eight (adding /y, œ/), and intervocalic fricatives voice ([s]→[z], [x]→[ɣ]/[ʁ]). The imperfective verbal suffix -mbi often reduces to -m in colloquial speech. Sibe is still written in the Manchu script with two added letters, and Qapqal supports a Sibe-medium primary education and a Sibe-language newspaper (Cabcal Serkin) — making it one of the very few Tungusic languages with active intergenerational transmission.",
+      "ja": "シベ語（錫伯語）は新疆ウイグル自治区チャプチャル・シベ自治県を中心に約2万5000～3万人が話すツングース語族の言語で、1764年に満洲から西遷したシベ族八旗の末裔の言葉である。文語満洲語の直接の生きた末裔として語彙はほぼそのまま継承されているが、音韻的には大きく変化している――満洲語の *ki, *ke, *gi, *ge は母音後で /tɕ, dʑ/ に口蓋化し（muke「水」→ /mutɕə/、wargi「西」→ /wartɕi/）、母音体系は6から8に拡張され（/y/ /œ/ が加わる）、母音間の摩擦音は有声化する（[s]→[z]、[x]→[ɣ]/[ʁ]）。動詞未完了接辞 -mbi は口語でしばしば -m に短縮される。表記は満洲文字を2字追加して継承し、チャプチャルではシベ語による小学校教育とシベ語新聞『チャプチャル・セルキン』が今も発行されている。世代間継承が現役で行われている数少ないツングース語の一つである。",
+      "ko": "시버어(錫伯語)는 신장 위구르 자치구 차프찰 시버 자치현을 중심으로 약 2.5–3만 명이 사용하는 퉁구스 어족 언어로, 1764년 만주에서 서천한 시버족 팔기의 후예의 말이다. 문어 만주어의 직접 후계로 어휘는 거의 그대로 계승되지만 음운은 크게 변화: 만주어 *ki, *ke, *gi, *ge는 모음 뒤에서 /tɕ, dʑ/로 구개음화하고(muke '물' → /mutɕə/, wargi '서' → /wartɕi/), 모음 체계는 6에서 8로 확장(/y/ /œ/ 추가), 모음 사이 마찰음은 유성화([s]→[z], [x]→[ɣ]/[ʁ])한다. 동사 미완료 접사 -mbi는 구어에서 종종 -m으로 단축. 표기는 만주 문자에 2자를 추가해 사용하며 차프찰에서는 시버어 초등교육과 시버어 신문 『차프찰 세르킨』이 발행되어 세대 간 계승이 살아 있는 드문 퉁구스어이다.",
+      "zh": "锡伯语是以新疆维吾尔自治区察布查尔锡伯自治县为中心约2.5–3万人使用的通古斯语，是1764年从满洲西迁而来的锡伯八旗后裔的语言。作为文言满语的直接活生生后裔，词汇基本完整继承，但音韵已显著变化：满语 *ki, *ke, *gi, *ge 在元音后腭化为 /tɕ, dʑ/（muke「水」→/mutɕə/，wargi「西」→/wartɕi/），元音由6个扩展到8个（增 /y/ /œ/），元音间擦音浊化（[s]→[z]，[x]→[ɣ]/[ʁ]）。动词未完成式 -mbi 在口语中常缩为 -m。书写仍使用满文加两字母，察布查尔有锡伯语小学教育和锡伯语报纸《察布查尔色尔金》——是仍有活跃代际传承的极少数通古斯语之一。",
+      "yue": "錫伯語係以新疆維吾爾自治區察布查爾錫伯自治縣為中心、約 2.5–3 萬人使用嘅通古斯語，係 1764 年由滿洲西遷嘅錫伯八旗後人嘅語言。作為文言滿語嘅直接活生生後裔，詞彙基本完整傳承，但音韻已經有明顯變化：滿語 *ki, *ke, *gi, *ge 喺元音後顎化為 /tɕ, dʑ/（muke「水」→/mutɕə/，wargi「西」→/wartɕi/），元音由 6 個擴展到 8 個（加 /y/ /œ/），元音間嘅擦音變濁（[s]→[z]，[x]→[ɣ]/[ʁ]）。動詞未完成式 -mbi 口語常縮做 -m。書寫仍用滿文加兩個字母，察布查爾仲有錫伯語小學教育同錫伯語報紙《察布查爾色爾金》——係仍有活躍代際傳承嘅極少數通古斯語之一。",
+      "vi": "Tiếng Sibe (錫伯語) là một ngôn ngữ Tungus có khoảng 25.000–30.000 người nói, tập trung tại huyện tự trị Sibe Qapqal ở Tân Cương, hậu duệ của bát kỳ Sibe được tái định cư từ Mãn Châu năm 1764. Là hậu duệ sống trực tiếp của tiếng Mãn văn ngữ, từ vựng được kế thừa gần như nguyên vẹn, nhưng âm vị đã thay đổi nhiều: *ki, *ke, *gi, *ge trong tiếng Mãn được vòm hóa thành /tɕ, dʑ/ sau nguyên âm (muke 'nước' → /mutɕə/, wargi 'tây' → /wartɕi/), hệ nguyên âm mở rộng từ 6 lên 8 (thêm /y, œ/), phụ âm xát giữa nguyên âm hữu thanh hóa ([s]→[z], [x]→[ɣ]/[ʁ]). Hậu tố -mbi của thể chưa hoàn thành thường rút thành -m trong khẩu ngữ. Vẫn dùng chữ Mãn với hai chữ cái bổ sung; Qapqal vẫn có giáo dục tiểu học bằng tiếng Sibe và báo Sibe (Cabcal Serkin) — là một trong số rất ít tiếng Tungus còn truyền thừa thế hệ.",
+      "th": "ภาษาซีเป (錫伯語) เป็นภาษาตุงกัสที่มีผู้พูดประมาณ 25,000–30,000 คน ส่วนใหญ่ในเขตปกครองตนเองชนเผ่าซีเปแห่งจ้าปูฉาในซินเจียง ซึ่งเป็นลูกหลานของแปดแบนเนอร์ซีเปที่ถูกอพยพจากแมนจูเรียมาเมื่อปี 1764 เป็นลูกหลานสายตรงที่ยังคงอยู่ของแมนจูวรรณคดี คำศัพท์เกือบทั้งหมดสืบทอดมาเหมือนเดิมแต่เสียงเปลี่ยนไปมาก: แมนจู *ki, *ke, *gi, *ge เพดานเป็น /tɕ, dʑ/ หลังสระ (muke 'น้ำ' → /mutɕə/, wargi 'ตะวันตก' → /wartɕi/), ระบบสระขยายจาก 6 เป็น 8 (เพิ่ม /y, œ/), เสียงเสียดแทรกระหว่างสระกลายเป็นเสียงก้อง ([s]→[z], [x]→[ɣ]/[ʁ]) ปัจจัยกริยายังไม่เสร็จ -mbi มักย่อเป็น -m ในภาษาพูด ยังคงใช้อักษรแมนจูเพิ่มสองตัว ที่จ้าปูฉายังมีการศึกษาประถมด้วยภาษาซีเปและหนังสือพิมพ์ซีเป Cabcal Serkin — นับเป็นภาษาตุงกัสไม่กี่ภาษาที่ยังมีการสืบทอดข้ามรุ่นที่กระตือรือร้น",
+      "id": "Bahasa Sibe (錫伯語) adalah bahasa Tungus yang dituturkan sekitar 25.000–30.000 orang, terutama di Kabupaten Otonomi Sibe Qapqal, Xinjiang, keturunan delapan panji Sibe yang dipindahkan dari Manchuria pada 1764. Sebagai keturunan langsung yang hidup dari Manchu sastra, kosakata diwariskan hampir utuh, namun fonologi telah berubah signifikan: *ki, *ke, *gi, *ge Manchu mengalami palatalization menjadi /tɕ, dʑ/ setelah vokal (muke 'air' → /mutɕə/, wargi 'barat' → /wartɕi/), inventaris vokal meluas dari 6 menjadi 8 (menambah /y, œ/), frikatif intervokal bersuara ([s]→[z], [x]→[ɣ]/[ʁ]). Sufiks imperfek -mbi sering disingkat menjadi -m dalam tuturan sehari-hari. Penulisan masih memakai aksara Manchu dengan dua huruf tambahan; Qapqal memelihara pendidikan dasar bermedia Sibe dan surat kabar Sibe (Cabcal Serkin) — menjadikan ia salah satu dari sangat sedikit bahasa Tungus dengan transmisi antargenerasi aktif.",
+      "hi": "सिबे (錫�ष语 / 錫伯語) टंगुसी भाषा है जिसे लगभग 25,000–30,000 लोग बोलते हैं, मुख्यतः झिनजियांग के क़ापचाल सिबे स्वायत्त काउंटी में, जो 1764 में मंचूरिया से स्थानांतरित सिबे आठ बैनरों के वंशज हैं। साहित्यिक मंचू की प्रत्यक्ष जीवित वंशज है — शब्दावली लगभग पूरी तरह विरासत में मिली है — परंतु ध्वनिविज्ञानी बदलाव बड़े हैं: मंचू *ki, *ke, *gi, *ge स्वर के बाद /tɕ, dʑ/ में पटलीकृत हो जाते हैं (muke 'पानी' → /mutɕə/, wargi 'पश्चिम' → /wartɕi/), स्वर सूची 6 से 8 हो गई (/y, œ/ जुड़े), अंतरस्वरीय उष्म व्यंजन सघोष हो जाते हैं ([s]→[z], [x]→[ɣ]/[ʁ])। अपूर्ण क्रिया प्रत्यय -mbi बोलचाल में अक्सर -m तक संक्षिप्त। लेखन में मंचू लिपि में दो अक्षर जोड़े जाते हैं; क़ापचाल में सिबे माध्यम प्राथमिक शिक्षा और सिबे समाचार पत्र Cabcal Serkin जारी है — यह सक्रिय अंतर-पीढ़ी संचरण वाली अत्यंत कम टंगुसी भाषाओं में से एक है।",
+      "de": "Sibe (錫伯語) ist eine tungusische Sprache, die von etwa 25 000–30 000 Menschen vor allem im Autonomen Kreis Qapqal Xibe in Xinjiang gesprochen wird, den Nachfahren der 1764 aus der Mandschurei umgesiedelten Sibe-Banner. Als unmittelbare lebende Tochter des Schriftmandschu ist der Wortschatz weitgehend unverändert ererbt, doch die Lautung hat sich stark geändert: Mandschu *ki, *ke, *gi, *ge werden nach Vokal zu /tɕ, dʑ/ palatalisiert (muke 'Wasser' → /mutɕə/, wargi 'Westen' → /wartɕi/), das Vokalinventar erweitert sich von sechs auf acht (/y, œ/ hinzu), und intervokalische Frikative werden stimmhaft ([s]→[z], [x]→[ɣ]/[ʁ]). Das imperfektive Verbalsuffix -mbi wird umgangssprachlich oft auf -m verkürzt. Geschrieben wird weiter mit mandschurischer Schrift plus zwei zusätzlichen Buchstaben; in Qapqal gibt es eine Grundschulausbildung in Sibe und eine Sibe-Zeitung (Cabcal Serkin) — eine der wenigen tungusischen Sprachen mit aktiver Weitergabe zwischen den Generationen.",
+      "fr": "Le sibe (錫伯語) est une langue toungouse parlée par environ 25 000 à 30 000 personnes, principalement dans le xian autonome sibe de Qapqal, au Xinjiang, descendants des bannerets sibe relocalisés depuis la Mandchourie en 1764. Descendant direct vivant du mandchou littéraire, le lexique est conservé presque intact, mais la phonologie a évolué : les mandchous *ki, *ke, *gi, *ge se palatalisent en /tɕ, dʑ/ après voyelle (muke 'eau' → /mutɕə/, wargi 'ouest' → /wartɕi/), l'inventaire vocalique passe de six à huit (ajout de /y, œ/) et les fricatives intervocaliques deviennent sonores ([s]→[z], [x]→[ɣ]/[ʁ]). Le suffixe verbal imperfectif -mbi est souvent réduit à -m à l'oral. L'écriture reste la mandchoue, augmentée de deux lettres ; à Qapqal subsistent une scolarité primaire en sibe et le quotidien Cabcal Serkin — l'une des très rares langues toungouses encore activement transmises de génération en génération.",
+      "it": "Il sibe (錫伯語) è una lingua tungusa parlata da circa 25 000–30 000 persone, principalmente nella contea autonoma sibe di Qapqal nello Xinjiang, discendenti dei vessilli sibe trasferiti dalla Manciuria nel 1764. È il discendente vivente diretto del mancese letterario, con un lessico ereditato pressoché intatto, ma con notevole divergenza fonologica: i mancesi *ki, *ke, *gi, *ge si palatalizzano in /tɕ, dʑ/ dopo vocale (muke 'acqua' → /mutɕə/, wargi 'ovest' → /wartɕi/), l'inventario vocalico passa da sei a otto (con l'aggiunta di /y, œ/), e le fricative intervocaliche si sonorizzano ([s]→[z], [x]→[ɣ]/[ʁ]). Il suffisso verbale imperfettivo -mbi si riduce spesso a -m nel parlato. Si scrive ancora con la grafia mancese più due lettere; a Qapqal esistono istruzione primaria in sibe e il quotidiano Cabcal Serkin — una delle pochissime lingue tunguse con trasmissione intergenerazionale attiva.",
+      "es": "El sibe (錫伯語) es una lengua tungusa hablada por unas 25 000–30 000 personas, principalmente en el condado autónomo sibe de Qapqal, en Xinjiang, descendientes de los abanderados sibe trasladados desde Manchuria en 1764. Es el descendiente vivo directo del manchú literario, con un léxico heredado prácticamente intacto, pero con una notable divergencia fonológica: los manchúes *ki, *ke, *gi, *ge se palatalizan en /tɕ, dʑ/ tras vocal (muke 'agua' → /mutɕə/, wargi 'oeste' → /wartɕi/), el inventario vocálico pasa de seis a ocho (con la adición de /y, œ/), y las fricativas intervocálicas se sonorizan ([s]→[z], [x]→[ɣ]/[ʁ]). El sufijo verbal imperfectivo -mbi se reduce a menudo a -m en la lengua oral. Se escribe aún con escritura manchú más dos letras añadidas; en Qapqal hay escolarización primaria en sibe y el diario Cabcal Serkin — una de las muy pocas lenguas tungusas con transmisión intergeneracional activa.",
+      "pt": "O sibe (錫伯語) é uma língua tungusa falada por cerca de 25 000–30 000 pessoas, principalmente no condado autónomo sibe de Qapqal, em Xinjiang, descendentes dos bandeireiros sibe transferidos da Manchúria em 1764. É o descendente vivo direto do manchu literário, com um léxico herdado praticamente intacto, mas com notável divergência fonológica: o manchu *ki, *ke, *gi, *ge palatalizam-se em /tɕ, dʑ/ após vogal (muke 'água' → /mutɕə/, wargi 'oeste' → /wartɕi/), o inventário vocálico passa de seis a oito (com a adição de /y, œ/), e as fricativas intervocálicas sonorizam-se ([s]→[z], [x]→[ɣ]/[ʁ]). O sufixo verbal imperfetivo -mbi reduz-se frequentemente a -m no oral. A grafia ainda é o manchu acrescido de duas letras; em Qapqal mantêm-se a escolaridade primária em sibe e o jornal Cabcal Serkin — uma das pouquíssimas línguas tungusas com transmissão intergeracional ativa.",
+      "ru": "Сибэский (錫伯語) — тунгусский язык, на котором говорят около 25 000–30 000 человек, главным образом в Чапчальско-Сибэском автономном уезде Синьцзяна, потомки сибэских знамёнцев, переселённых из Маньчжурии в 1764 г. Будучи непосредственным живым потомком письменного маньчжурского, он почти полностью сохраняет лексику, но фонологически сильно изменился: маньчжурские *ki, *ke, *gi, *ge палатализуются в /tɕ, dʑ/ после гласного (muke «вода» → /mutɕə/, wargi «запад» → /wartɕi/), система гласных расширяется с шести до восьми (добавляются /y, œ/), межвокальные щелевые звонкие ([s]→[z], [x]→[ɣ]/[ʁ]). Видовой глагольный суффикс -mbi в разговорной речи часто сокращается до -m. Письмо — маньчжурское с добавлением двух букв; в Чапчале сохраняется начальная школа на сибэском и газета Cabcal Serkin — один из немногих тунгусских языков с активной межпоколенческой передачей.",
+      "uk": "Сибеська (錫伯語) — тунгуська мова, якою говорять близько 25 000–30 000 осіб, переважно в Чапчальсько-Сибеському автономному повіті Сіньцзяну, нащадки сибеських прапорників, переселених із Маньчжурії 1764 р. Як прямий живий нащадок писемної маньчжурської, мова майже повністю зберігає лексику, але фонологічно сильно змінилася: маньчжурські *ki, *ke, *gi, *ge палаталізуються в /tɕ, dʑ/ після голосного (muke «вода» → /mutɕə/, wargi «захід» → /wartɕi/), система голосних розширюється з шести до восьми (додаються /y, œ/), міжголосні шумні стають дзвінкими ([s]→[z], [x]→[ɣ]/[ʁ]). Видовий дієслівний суфікс -mbi у розмові часто скорочується до -m. Письмо — маньчжурське з додаванням двох літер; у Чапчалі зберігаються початкова школа сибеською та газета Cabcal Serkin — одна з небагатьох тунгуських мов з активною міжпоколінною передачею.",
+      "ar": "السيبية (錫伯語) لغة تنغوسية يتحدث بها نحو 25 000–30 000 شخص، خاصة في مقاطعة قابتشال السيبية ذاتية الحكم في شينجيانغ، أحفاد ألوية السيبيين الذين هُجِّروا من منشوريا عام 1764. وبصفتها سليلة حية مباشرة للمنشورية الأدبية، فإن مفرداتها مُتوارَثة بشكل كامل تقريباً، غير أنها تطورت صوتياً: تتعرض الصوامت المنشورية *ki, *ke, *gi, *ge للتلطيف إلى /tɕ, dʑ/ بعد حركة (muke 'ماء' → /mutɕə/، wargi 'غرب' → /wartɕi/)، ويتسع المخزون الحركي من ست إلى ثماني حركات (تُضاف /y, œ/)، وتُجهَر الاحتكاكيات بين الحركتين ([s]→[z], [x]→[ɣ]/[ʁ]). تُختزل اللاحقة الفعلية الناقصة -mbi غالباً إلى -m في العامية. تُكتب لا تزال بخط المنشورية مع إضافة حرفين؛ تواصل قابتشال تقديم تعليم ابتدائي بالسيبية وصحيفة سيبية (Cabcal Serkin) — وهي إحدى اللغات التنغوسية القليلة التي ما زالت تنتقل عبر الأجيال.",
+      "he": "סיבה (錫伯語) היא שפה טונגוסית הנדברת על ידי כ-25,000–30,000 איש, בעיקר במחוז האוטונומיה הסיבי קאפצ'אל בשינג'יאנג, צאצאי דגלי הסיבה שהועברו ממנצ'וריה ב-1764. כצאצא חי ישיר של המנצ'ו הספרותי, אוצר המילים נשמר כמעט ללא שינוי, אך הפונולוגיה השתנתה רבות: המנצ'וריות *ki, *ke, *gi, *ge עוברות פלאטליזציה ל-/tɕ, dʑ/ אחרי תנועה (muke 'מים' → /mutɕə/, wargi 'מערב' → /wartɕi/), מערכת התנועות מתרחבת משש לשמונה (תוספת /y, œ/), והעיצורים החוככים בין תנועות מתרככים ([s]→[z], [x]→[ɣ]/[ʁ]). הסיומת הפועלית הבלתי-מושלמת -mbi מתקצרת לעיתים קרובות ל-m בדיבור היומיומי. הכתב עדיין מנצ'ורי עם שתי אותיות נוספות; בקאפצ'אל קיים חינוך יסודי בסיבה ועיתון סיבי (Cabcal Serkin) — אחת מהמעטות מאוד מבין השפות הטונגוסיות שעוברת בין דורות באופן פעיל.",
+      "sw": "Kisibe (錫伯語) ni lugha ya Kitungus inayozungumzwa na karibu watu 25,000–30,000, hasa katika Kaunti ya Uhuru ya Sibe ya Qapqal huko Xinjiang, uzao wa bendera nane za Sibe waliohamishwa kutoka Manchuria mwaka 1764. Kama uzao hai wa moja kwa moja wa Kimanchu cha kifasihi, msamiati umerithiwa karibu kabisa, lakini fonolojia imebadilika sana: Kimanchu *ki, *ke, *gi, *ge zinapalatishwa kuwa /tɕ, dʑ/ baada ya irabu (muke 'maji' → /mutɕə/, wargi 'magharibi' → /wartɕi/), idadi ya irabu inapanuka kutoka sita hadi nane (kuongezwa /y, œ/), na konsonanti za chakavu kati ya irabu zinawekwa sauti ([s]→[z], [x]→[ɣ]/[ʁ]). Kiambishi cha kitenzi kisichokamilika -mbi mara nyingi hupunguzwa kuwa -m katika usemi wa kawaida. Bado huandikwa kwa hati ya Kimanchu pamoja na herufi mbili za ziada; Qapqal bado inaendesha elimu ya msingi kwa Kisibe na gazeti la Kisibe (Cabcal Serkin) — moja ya lugha chache sana za Kitungus zinazoendelea kupitishwa kati ya vizazi."
     },
     "sources": [
       {
@@ -18414,25 +18414,25 @@ const HAN_LANG_META = {
       "sw": "Usomaji wa Sino-Korea wa Wakorea wa Zainichi (kwa athari ya fonolojia ya Kijapani)"
     },
     "description": {
-      "en": "Sino-Korean readings as pronounced by Zainichi Koreans — descendants of pre-1945 Korean migrants to Japan. Phonologically the substrate is South Korean (Revised Romanization surface), but heavy Japanese L1 interference is typical among 2nd- and 3rd-generation speakers: the tense/aspirated/plain three-way stop contrast collapses to a Japanese-style voiceless/voiced two-way contrast (so 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil); the high back unrounded /ɨ/ of 飲 eum is fully merged with Japanese /ɯ/; word-final unreleased stops /p̚ t̚ k̚/ and final liquid /l/ trigger Japanese-style epenthesis with /ɯ/ (一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ); and /h/ before the rounded glide /w/ surfaces as /ɸ/ (火 hwa → ɸwa), parallel to Japanese フ. Korean lexical pitch / Seoul-style accentless prosody is replaced by Japanese-style downstep pitch accent. There is no codified standard for Zainichi Sino-Korean — this is a descriptive snapshot of typical 2nd-/3rd-generation speech as documented in sociolinguistic studies of the Osaka and Tokyo Korean communities.",
-      "ja": "在日韓国・朝鮮人（1945年以前に日本へ渡った朝鮮半島出身者の子孫）が用いる漢字音。基層は韓国語（標準ソウル語、漢字音表記は文化観光部式ローマ字）だが、特に2世・3世以降では日本語をL1として習得しているため、日本語音韻の強い干渉が観察される。具体的には、(1) 平音／激音／濃音の三項対立が日本語式の有声／無声の二項対立に収束し、八 pʰal が pal、七 t͡ɕʰil が t͡ɕil となる；(2) 飲 eum の /ɨ/ は日本語の /ɯ/ に完全合流；(3) 語末の入声子音 /p̚ t̚ k̚/ および終声 ㄹ /l/ には日本語式に /ɯ/ が母音添加され、一 il → iɾɯ、十 sip → ɕipɯ、六 yuk → jukɯ となる；(4) 円唇接近音 /w/ の前の /h/ は /ɸ/ となり、火 hwa → ɸwa（日本語の「フ」と平行）。声調・抑揚も韓国語のソウル式アクセントレスから日本語式の下降ピッチアクセントへ置き換わる。在日韓国・朝鮮人漢字音には公式の規範体系は存在せず、本表は大阪・東京の在日コミュニティの2世・3世話者言語に関する社会言語学研究で観察される典型的特徴の記述的スナップショットである。",
-      "ko": "재일 한국·조선인(1945년 이전 일본으로 건너온 한반도 출신자의 후예)이 사용하는 한자음. 기층은 한국어(서울 표준, 한자음 표기는 문화관광부식 로마자)이지만, 특히 2세·3세 이후로 일본어를 L1으로 습득하면서 일본어 음운의 강한 간섭이 관찰된다. (1) 평음/격음/경음의 삼항 대립이 일본어식 유성/무성의 이항 대립으로 수렴해 八 pʰal이 pal, 七 t͡ɕʰil이 t͡ɕil이 된다; (2) 飲 eum의 /ɨ/는 일본어 /ɯ/에 완전 합류; (3) 어말 입성 /p̚ t̚ k̚/과 종성 ㄹ /l/ 뒤에 일본어식 /ɯ/가 모음 첨가되어 一 il→iɾɯ, 十 sip→ɕipɯ, 六 yuk→jukɯ가 된다; (4) 원순 접근음 /w/ 앞의 /h/는 /ɸ/로 실현되어 火 hwa→ɸwa(일본어 「フ」와 평행). 성조·억양은 한국어 서울식 무악센트에서 일본어식 하강 피치 악센트로 대체된다. 재일 한국·조선인 한자음에 공식 규범은 없으며, 본 표는 오사카·도쿄 재일 커뮤니티 2·3세 화자에 관한 사회언어학 연구에서 관찰되는 전형적 특징의 기술적 스냅숏이다.",
-      "zh": "在日韩国·朝鲜人（1945年前赴日的朝鲜半岛出身者后裔）所使用的汉字音。底层为韩国语（首尔标准音，汉字音表记采用文化观光部式罗马字），但自第二、三代起以日语为母语习得，故可观察到强烈的日语音韵干扰：(1) 平音／激音／浓音的三项对立坍缩为日语式的有声／无声二项对立，八 pʰal → pal、七 t͡ɕʰil → t͡ɕil；(2) 飲 eum 的/ɨ/与日语/ɯ/完全合并；(3) 词末入声 /p̚ t̚ k̚/ 与终声 ㄹ /l/ 后添加日语式 /ɯ/，一 il → iɾɯ、十 sip → ɕipɯ、六 yuk → jukɯ；(4) 圆唇接近音 /w/ 前的 /h/ 实现为 /ɸ/，火 hwa → ɸwa（与日语「フ」平行）。声调与抑扬由韩语首尔式无重音被日语式下降式音高重音替代。在日韩国·朝鲜人汉字音无官方规范，本表为大阪、东京在日社区2、3代说话者社会语言学研究中典型特征的描述性快照。",
-      "yue": "在日韓國・朝鮮人（1945 年前赴日嘅朝鮮半島出身者後裔）所用嘅漢字音。底層係韓語（首爾標準音，漢字音表記用文化觀光部式羅馬字），不過從第二代、第三代開始以日語為母語習得，所以可以觀察到日語音韻嘅強烈干擾：(1) 平音／激音／濃音嘅三項對立塌縮為日語式嘅有聲／無聲二項對立，八 pʰal → pal、七 t͡ɕʰil → t͡ɕil；(2) 飲 eum 嘅 /ɨ/ 同日語 /ɯ/ 完全合併；(3) 詞末入聲 /p̚ t̚ k̚/ 同終聲 ㄹ /l/ 後加日語式 /ɯ/，一 il → iɾɯ、十 sip → ɕipɯ、六 yuk → jukɯ；(4) 圓唇接近音 /w/ 前嘅 /h/ 變成 /ɸ/，火 hwa → ɸwa（同日語「フ」平行）。聲調同抑揚由韓語首爾式無重音被日語式下降音高重音取代。在日韓國・朝鮮人漢字音冇官方規範，本表係大阪、東京在日社區 2、3 代說話者社會語言學研究入面觀察到嘅典型特徵嘅描寫式快照。",
-      "vi": "Hán-Hàn theo cách phát âm của người Zainichi (con cháu người Triều Tiên di cư sang Nhật trước 1945). Lớp nền là tiếng Hàn (chuẩn Seoul, ghi La-tinh theo Bộ Văn hóa-Du lịch Hàn Quốc), nhưng từ thế hệ 2-3 trở đi, tiếng Nhật trở thành L1 nên có sự can thiệp mạnh của âm vị Nhật: (1) ba thế đối lập 平/激/濃 hợp lại thành thế đối lập hữu thanh/vô thanh kiểu Nhật, 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) /ɨ/ trong 飲 eum hợp nhất hoàn toàn với /ɯ/ Nhật; (3) phụ âm cuối nhập /p̚ t̚ k̚/ và ㄹ cuối /l/ thêm /ɯ/ kiểu Nhật: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ trước bán nguyên âm tròn môi /w/ thành /ɸ/, 火 hwa → ɸwa (song hành 'フ' Nhật). Thanh điệu/ngữ điệu chuyển từ kiểu Seoul không trọng âm sang trọng âm cao độ giảm kiểu Nhật. Hán-Hàn của Zainichi không có chuẩn chính thức; bảng này là ảnh chụp mô tả các đặc điểm điển hình trong nghiên cứu xã hội-ngôn ngữ học về thế hệ 2-3 ở Osaka và Tokyo.",
-      "th": "เสียงอ่านฮันจาที่ใช้โดยชาวเกาหลีในญี่ปุ่น (ลูกหลานของชาวคาบสมุทรเกาหลีที่ย้ายมาญี่ปุ่นก่อนปี 1945) พื้นฐานเป็นภาษาเกาหลี (มาตรฐานโซล โรมันแบบกระทรวงวัฒนธรรมและการท่องเที่ยว) แต่จากรุ่นที่ 2-3 ขึ้นไป ภาษาญี่ปุ่นเป็น L1 ทำให้เกิดการแทรกแซงทางเสียงของญี่ปุ่นอย่างชัดเจน: (1) การต้านสามทาง 平/激/濃 ยุบเป็นการต้านสองทาง ก้อง/ไร้ก้องแบบญี่ปุ่น 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) /ɨ/ ใน 飲 eum รวมกับ /ɯ/ ญี่ปุ่นโดยสมบูรณ์; (3) ตัวสะกดเสียงเข้า /p̚ t̚ k̚/ และตัวสะกด ㄹ /l/ เติม /ɯ/ แบบญี่ปุ่น: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ ก่อนเสียงเลื่อนปาก /w/ กลายเป็น /ɸ/, 火 hwa → ɸwa (ขนานกับ 'フ' ญี่ปุ่น) วรรณยุกต์/ทำนองเสียงเปลี่ยนจากแบบโซลที่ไม่มีเสียงเน้นเป็นเสียงเน้นระดับลงแบบญี่ปุ่น เสียงฮันจาของชาวเกาหลีในญี่ปุ่นไม่มีมาตรฐานทางการ ตารางนี้เป็นภาพรวมเชิงพรรณนาของลักษณะทั่วไปจากการศึกษาสังคมภาษาศาสตร์ของผู้พูดรุ่น 2-3 ในชุมชนชาวเกาหลีในโอซากะและโตเกียว",
-      "id": "Bacaan Hanja oleh Zainichi Korea (keturunan migran semenanjung Korea ke Jepang sebelum 1945). Substrat adalah bahasa Korea (standar Seoul, romanisasi Kementerian Kebudayaan & Pariwisata), namun sejak generasi 2-3, bahasa Jepang adalah L1 sehingga interferensi fonologi Jepang sangat menonjol: (1) kontras tiga arah 平/激/濃 menyusut menjadi kontras dua arah bersuara/tak bersuara ala Jepang: 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) /ɨ/ pada 飲 eum sepenuhnya bergabung dengan /ɯ/ Jepang; (3) konsonan akhir nada masuk /p̚ t̚ k̚/ dan ㄹ akhir /l/ menambahkan /ɯ/ Jepang: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ sebelum semivokal bundar /w/ menjadi /ɸ/: 火 hwa → ɸwa (paralel dengan 'フ' Jepang). Nada/intonasi berganti dari aksen rata Seoul ke aksen tinggi-turun ala Jepang. Tidak ada standar resmi untuk Hanja Zainichi; tabel ini adalah snapshot deskriptif ciri-ciri umum yang dilaporkan studi sosiolinguistik komunitas Zainichi Osaka dan Tokyo.",
-      "hi": "ज़ाइनिची कोरियाई (1945 से पहले जापान में आए कोरियाई प्रायद्वीप के लोगों के वंशज) द्वारा प्रयुक्त सिनो-कोरियाई उच्चारण। आधार कोरियाई (सियोल मानक, संस्कृति-पर्यटन मंत्रालय शैली रोमनकरण) है, परंतु दूसरी-तीसरी पीढ़ी से जापानी L1 के कारण जापानी ध्वनिविज्ञानी का प्रबल हस्तक्षेप देखा जाता है: (1) ㄱ/ㅋ/ㄲ (平/激/濃) तीन-तरफ़ी विरोध जापानी शैली के सघोष/अघोष द्वि-तरफ़ी विरोध में सिमट जाता है, 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) 飲 eum का /ɨ/ जापानी /ɯ/ में पूर्णतः विलीन; (3) अंत्य प्रवेश-स्वर /p̚ t̚ k̚/ तथा अंत्य ㄹ /l/ के बाद जापानी शैली /ɯ/ का स्वर-वर्धन: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) रूपीकृत संक्रामक /w/ के पहले /h/ /ɸ/ बन जाता है: 火 hwa → ɸwa (जापानी 'फ़ु' के समानांतर)। स्वराघात/अनुप्रबंधन सियोल कोरियाई के अनधिकृत से जापानी शैली के अवरोही पिच एक्सेंट में बदल जाता है। ज़ाइनिची सिनो-कोरियाई का कोई आधिकारिक मानक नहीं; यह तालिका ओसाका-टोक्यो ज़ाइनिची समुदायों के 2-3वीं पीढ़ी वक्ताओं पर समाजभाषा-वैज्ञानिक अध्ययनों में देखे गए विशिष्ट लक्षणों का वर्णनात्मक स्नैपशॉट है।",
-      "de": "Sino-koreanische Lesungen, wie sie Zainichi-Koreaner (Nachfahren der vor 1945 nach Japan eingewanderten Koreaner) verwenden. Das Substrat ist Koreanisch (Seoul-Standard, Romanisierung nach dem koreanischen Kultur- und Tourismusministerium), doch ab der 2./3. Generation ist Japanisch L1, was zu starker japanischer Lautinterferenz führt: (1) der dreigliedrige Plain/Aspiriert/Tense-Kontrast 平/激/濃 fällt mit dem japanischen Stimmhaft/Stimmlos-Kontrast zusammen, 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) /ɨ/ in 飲 eum verschmilzt vollständig mit japanischem /ɯ/; (3) auslautende Eingangslaute /p̚ t̚ k̚/ und auslautendes ㄹ /l/ erhalten ein japanisches Epenthese-/ɯ/: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ vor labialem Approximanten /w/ wird zu /ɸ/, 火 hwa → ɸwa (parallel zum japanischen フ). Tonhöhe/Prosodie weichen vom akzentlosen Seouler Koreanisch zugunsten einer japanischen Tonhöhenfallakzent-Prosodie. Es gibt keinen offiziellen Standard für Zainichi-Sino-Koreanisch; die Tabelle ist ein deskriptiver Querschnitt typischer Merkmale aus soziolinguistischen Studien der Zainichi-Gemeinden in Osaka und Tokio.",
-      "fr": "Lectures sino-coréennes telles que les emploient les Zainichi (descendants des Coréens venus au Japon avant 1945). Le substrat est le coréen (norme de Séoul, romanisation du ministère sud-coréen de la Culture et du Tourisme), mais dès la 2ᵉ–3ᵉ génération, le japonais est la L1, ce qui produit une forte interférence du système phonologique japonais : (1) le contraste à trois termes 平/激/濃 se réduit à un contraste japonais voisé/non voisé, 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil ; (2) /ɨ/ de 飲 eum fusionne totalement avec /ɯ/ japonais ; (3) les occlusives entrantes finales /p̚ t̚ k̚/ et le ㄹ /l/ final reçoivent un /ɯ/ épenthétique à la japonaise : 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ ; (4) /h/ devant l'approximant arrondi /w/ devient /ɸ/, 火 hwa → ɸwa (parallèle au フ japonais). La prosodie passe de l'absence d'accent du coréen séoulien à un accent de hauteur descendant à la japonaise. Il n'existe pas de norme officielle pour le sino-coréen zainichi ; ce tableau est un instantané descriptif des traits typiques observés par la sociolinguistique des communautés zainichi d'Osaka et de Tokyo.",
-      "it": "Lezioni sino-coreane usate dagli Zainichi (discendenti dei coreani migrati in Giappone prima del 1945). Il substrato è il coreano (standard di Seoul, romanizzazione del Ministero della Cultura e del Turismo), ma dalla 2ª–3ª generazione il giapponese è la L1, con forte interferenza fonologica giapponese: (1) il contrasto a tre termini 平/激/濃 si riduce al contrasto sonoro/sordo giapponese, 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) /ɨ/ di 飲 eum si fonde con /ɯ/ giapponese; (3) le occlusive d'entrata finali /p̚ t̚ k̚/ e il ㄹ /l/ finale ricevono un /ɯ/ epentetico alla giapponese: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ davanti all'approssimante arrotondata /w/ diventa /ɸ/, 火 hwa → ɸwa (parallelo al フ giapponese). La prosodia passa dall'assenza di accento del coreano di Seoul a un accento di altezza discendente alla giapponese. Non c'è uno standard ufficiale per il sino-coreano zainichi; la tabella è un'istantanea descrittiva dei tratti tipici osservati nella sociolinguistica delle comunità zainichi di Osaka e Tokyo.",
-      "es": "Lecturas sino-coreanas tal como las emplean los Zainichi (descendientes de coreanos migrados a Japón antes de 1945). El sustrato es el coreano (norma de Seúl, romanización del Ministerio surcoreano de Cultura y Turismo), pero desde la 2.ª–3.ª generación el japonés es la L1, con fuerte interferencia fonológica japonesa: (1) el contraste a tres bandas 平/激/濃 se reduce al contraste japonés sonoro/sordo, 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) la /ɨ/ de 飲 eum se fusiona totalmente con la /ɯ/ japonesa; (3) las oclusivas de entrada finales /p̚ t̚ k̚/ y el ㄹ /l/ final reciben una /ɯ/ epentética a la japonesa: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ ante la aproximante redondeada /w/ se realiza como /ɸ/, 火 hwa → ɸwa (paralelo al フ japonés). La prosodia pasa de la ausencia de acento del coreano de Seúl a un acento de tonema descendente a la japonesa. No existe norma oficial para el sino-coreano zainichi; este cuadro es una instantánea descriptiva de los rasgos típicos documentados por la sociolingüística de las comunidades zainichi de Osaka y Tokio.",
-      "pt": "Leituras sino-coreanas tal como as empregam os Zainichi (descendentes de coreanos migrados para o Japão antes de 1945). O substrato é o coreano (norma de Seul, romanização do Ministério sul-coreano da Cultura e do Turismo), mas a partir da 2ª–3ª geração o japonês é a L1, com forte interferência fonológica japonesa: (1) o contraste em três termos 平/激/濃 reduz-se ao contraste sonoro/surdo do japonês, 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) o /ɨ/ de 飲 eum funde-se totalmente com o /ɯ/ japonês; (3) as oclusivas de entrada finais /p̚ t̚ k̚/ e o ㄹ /l/ final recebem um /ɯ/ epentético à japonesa: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ antes da aproximante arredondada /w/ realiza-se como /ɸ/, 火 hwa → ɸwa (paralelo ao フ japonês). A prosódia passa da ausência de acento do coreano de Seul para um acento de tonema descendente à japonesa. Não há norma oficial para o sino-coreano zainichi; este quadro é uma fotografia descritiva dos traços típicos observados pela sociolinguística das comunidades zainichi de Osaka e Tóquio.",
-      "ru": "Сино-корейские чтения в произношении зайнити-корейцев — потомков выходцев с Корейского полуострова, переселившихся в Японию до 1945 г. Субстрат — корейский (сеульский стандарт, латинизация по системе Министерства культуры и туризма РК), однако начиная со 2–3-го поколения японский становится L1, что даёт сильную интерференцию: (1) трёхчленное противопоставление 平/激/濃 сводится к японскому двучленному звонкому/глухому: 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) /ɨ/ в 飲 eum полностью сливается с японским /ɯ/; (3) конечные «входные» /p̚ t̚ k̚/ и конечное ㄹ /l/ получают японское вставное /ɯ/: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ перед губным аппроксимантом /w/ реализуется как /ɸ/: 火 hwa → ɸwa (параллельно японскому フ). Безударная сеульская мелодика заменяется японским нисходящим тоном-акцентом. Официальной нормы у зайнити-сино-корейского нет; таблица — описательный снимок типичных черт, отмеченных в социолингвистических исследованиях зайнити-сообществ Осаки и Токио.",
-      "uk": "Сино-корейські читання у вимові зайніті-корейців — нащадків переселенців із Корейського півострова до Японії до 1945 р. Субстрат — корейська (сеульський стандарт, латинізація за системою Міністерства культури й туризму РК), однак уже від 2–3-го покоління японська стає L1, що дає сильну інтерференцію: (1) тричленне протиставлення 平/激/濃 зводиться до японського двочленного дзвінкого/глухого: 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) /ɨ/ в 飲 eum повністю зливається з японським /ɯ/; (3) кінцеві «вхідні» /p̚ t̚ k̚/ і кінцеве ㄹ /l/ отримують японське вставне /ɯ/: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ перед губним апроксимантом /w/ реалізується як /ɸ/: 火 hwa → ɸwa (паралельно японському フ). Безакцентна сеульська мелодика змінюється японським спадним тонічним наголосом. Офіційної норми у зайніті-сино-корейської немає; таблиця — описовий зріз типових рис із соціолінгвістичних досліджень громад Осаки й Токіо.",
-      "ar": "القراءات الصينية-الكورية بنطق كوريي 'زاينيتشي' — أحفاد المهاجرين من شبه الجزيرة الكورية إلى اليابان قبل 1945. الطبقة التحتية هي الكورية (معيار سيول، الكتابة اللاتينية وفق وزارة الثقافة والسياحة الكورية)، لكن منذ الجيلين الثاني والثالث تصبح اليابانية L1، ما يؤدي إلى تداخل صوتي قوي: (1) ينهار التقابل الثلاثي 平/激/濃 إلى تقابل ياباني ثنائي مجهور/مهموس: 八 pʰal → pal، 七 t͡ɕʰil → t͡ɕil؛ (2) تندمج /ɨ/ في 飲 eum تماماً مع /ɯ/ اليابانية؛ (3) تستقبل صوامت التون الداخل الختامية /p̚ t̚ k̚/ وㄹ /l/ الختامية حركة /ɯ/ زائدة على الطريقة اليابانية: 一 il → iɾɯ، 十 sip → ɕipɯ، 六 yuk → jukɯ؛ (4) تتحول /h/ قبل شبه الحركة المدوّرة /w/ إلى /ɸ/: 火 hwa → ɸwa (موازياً لـ'フ' اليابانية). يحلّ النبر الياباني الهابط محل الإيقاع السيؤولي عديم النبر. لا يوجد معيار رسمي لسينو-الكورية الزاينيتشي؛ والجدول وصفي لخصائص نمطية رصدتها دراسات اجتماع-اللغة لمجتمعات الزاينيتشي في أوساكا وطوكيو.",
-      "he": "קריאות סינו-קוריאניות בהגייתם של זיינייצ'י-קוריאנים — צאצאי המהגרים מחצי האי הקוריאני ליפן לפני 1945. השכבה התחתית היא קוריאנית (סטנדרט סיאול, רומאניזציה לפי משרד התרבות והתיירות של דרום קוריאה), אך מהדור 2-3 ואילך היפנית היא ה-L1, מה שמוביל להתערבות פונולוגית חזקה: (1) הניגוד התלת-איברי 平/激/濃 מתכווץ לניגוד יפני דו-איברי קולי/אטום: 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) ה-/ɨ/ של 飲 eum מתמזג לחלוטין עם /ɯ/ היפני; (3) עיצורי הטון הנכנס הסופיים /p̚ t̚ k̚/ ו-ㄹ /l/ הסופי מקבלים /ɯ/ אפנתטי בסגנון יפני: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ לפני המתקרב המעוגל /w/ מתממש כ-/ɸ/: 火 hwa → ɸwa (מקבילית ל-'フ' היפנית). הפרוזודיה עוברת מסיאולית חסרת הטעמה לטעם פיץ' יורד בסגנון יפני. אין סטנדרט רשמי לסינו-קוריאנית של זיינייצ'י; הטבלה היא תמונת מצב תיאורית של תכונות אופייניות שנצפו במחקרים סוציולינגוויסטיים של קהילות הזיינייצ'י באוסקה ובטוקיו.",
-      "sw": "Usomaji wa Sino-Korea kama unavyotumika na Wakorea wa Zainichi — wazao wa wakorea waliohamia Japan kabla ya 1945. Msingi ni Kikorea (kiwango cha Seoul, uandishi wa Kilatini wa Wizara ya Utamaduni na Utalii ya Korea Kusini), lakini kuanzia kizazi cha 2-3 Kijapani ni L1, hivyo athari ya fonolojia ya Kijapani ni kubwa: (1) utofautisho wa pande tatu 平/激/濃 huporomoka kuwa utofautisho wa pande mbili wa sauti/bila sauti wa Kijapani: 八 pʰal → pal, 七 t͡ɕʰil → t͡ɕil; (2) /ɨ/ katika 飲 eum huungana kabisa na /ɯ/ ya Kijapani; (3) konsonanti za mwisho za kuingia /p̚ t̚ k̚/ na ㄹ /l/ ya mwisho huongezewa /ɯ/ ya Kijapani: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ kabla ya konsonanti ya midomo /w/ huwa /ɸ/: 火 hwa → ɸwa (sawa na 'フ' ya Kijapani). Prosodia ya Kikorea cha Seoul isiyo na lafudhi inabadilishwa na lafudhi ya pitch inayoshuka ya Kijapani. Hakuna kiwango rasmi cha Sino-Korea cha Zainichi; jedwali hili ni picha ya kuelezea sifa kuu zilizozingatiwa katika utafiti wa sosiolinguistiki wa jamii za Zainichi za Osaka na Tokyo."
+      "en": "Sino-Korean readings as pronounced by Zainichi Koreans — descendants of pre-1945 Korean migrants to Japan. Phonologically the substrate is South Korean (Revised Romanization surface), but heavy Japanese L1 interference is typical among 2nd- and 3rd-generation speakers: the tense/aspirated/plain three-way stop contrast collapses to a Japanese-style voiceless/voiced two-way contrast (so 八 pʰal → pal, 七 tɕʰil → tɕil); the high back unrounded /ɨ/ of 飲 eum is fully merged with Japanese /ɯ/; word-final unreleased stops /p̚ t̚ k̚/ and final liquid /l/ trigger Japanese-style epenthesis with /ɯ/ (一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ); and /h/ before the rounded glide /w/ surfaces as /ɸ/ (火 hwa → ɸwa), parallel to Japanese フ. Korean lexical pitch / Seoul-style accentless prosody is replaced by Japanese-style downstep pitch accent. There is no codified standard for Zainichi Sino-Korean — this is a descriptive snapshot of typical 2nd-/3rd-generation speech as documented in sociolinguistic studies of the Osaka and Tokyo Korean communities.",
+      "ja": "在日韓国・朝鮮人（1945年以前に日本へ渡った朝鮮半島出身者の子孫）が用いる漢字音。基層は韓国語（標準ソウル語、漢字音表記は文化観光部式ローマ字）だが、特に2世・3世以降では日本語をL1として習得しているため、日本語音韻の強い干渉が観察される。具体的には、(1) 平音／激音／濃音の三項対立が日本語式の有声／無声の二項対立に収束し、八 pʰal が pal、七 tɕʰil が tɕil となる；(2) 飲 eum の /ɨ/ は日本語の /ɯ/ に完全合流；(3) 語末の入声子音 /p̚ t̚ k̚/ および終声 ㄹ /l/ には日本語式に /ɯ/ が母音添加され、一 il → iɾɯ、十 sip → ɕipɯ、六 yuk → jukɯ となる；(4) 円唇接近音 /w/ の前の /h/ は /ɸ/ となり、火 hwa → ɸwa（日本語の「フ」と平行）。声調・抑揚も韓国語のソウル式アクセントレスから日本語式の下降ピッチアクセントへ置き換わる。在日韓国・朝鮮人漢字音には公式の規範体系は存在せず、本表は大阪・東京の在日コミュニティの2世・3世話者言語に関する社会言語学研究で観察される典型的特徴の記述的スナップショットである。",
+      "ko": "재일 한국·조선인(1945년 이전 일본으로 건너온 한반도 출신자의 후예)이 사용하는 한자음. 기층은 한국어(서울 표준, 한자음 표기는 문화관광부식 로마자)이지만, 특히 2세·3세 이후로 일본어를 L1으로 습득하면서 일본어 음운의 강한 간섭이 관찰된다. (1) 평음/격음/경음의 삼항 대립이 일본어식 유성/무성의 이항 대립으로 수렴해 八 pʰal이 pal, 七 tɕʰil이 tɕil이 된다; (2) 飲 eum의 /ɨ/는 일본어 /ɯ/에 완전 합류; (3) 어말 입성 /p̚ t̚ k̚/과 종성 ㄹ /l/ 뒤에 일본어식 /ɯ/가 모음 첨가되어 一 il→iɾɯ, 十 sip→ɕipɯ, 六 yuk→jukɯ가 된다; (4) 원순 접근음 /w/ 앞의 /h/는 /ɸ/로 실현되어 火 hwa→ɸwa(일본어 「フ」와 평행). 성조·억양은 한국어 서울식 무악센트에서 일본어식 하강 피치 악센트로 대체된다. 재일 한국·조선인 한자음에 공식 규범은 없으며, 본 표는 오사카·도쿄 재일 커뮤니티 2·3세 화자에 관한 사회언어학 연구에서 관찰되는 전형적 특징의 기술적 스냅숏이다.",
+      "zh": "在日韩国·朝鲜人（1945年前赴日的朝鲜半岛出身者后裔）所使用的汉字音。底层为韩国语（首尔标准音，汉字音表记采用文化观光部式罗马字），但自第二、三代起以日语为母语习得，故可观察到强烈的日语音韵干扰：(1) 平音／激音／浓音的三项对立坍缩为日语式的有声／无声二项对立，八 pʰal → pal、七 tɕʰil → tɕil；(2) 飲 eum 的/ɨ/与日语/ɯ/完全合并；(3) 词末入声 /p̚ t̚ k̚/ 与终声 ㄹ /l/ 后添加日语式 /ɯ/，一 il → iɾɯ、十 sip → ɕipɯ、六 yuk → jukɯ；(4) 圆唇接近音 /w/ 前的 /h/ 实现为 /ɸ/，火 hwa → ɸwa（与日语「フ」平行）。声调与抑扬由韩语首尔式无重音被日语式下降式音高重音替代。在日韩国·朝鲜人汉字音无官方规范，本表为大阪、东京在日社区2、3代说话者社会语言学研究中典型特征的描述性快照。",
+      "yue": "在日韓國・朝鮮人（1945 年前赴日嘅朝鮮半島出身者後裔）所用嘅漢字音。底層係韓語（首爾標準音，漢字音表記用文化觀光部式羅馬字），不過從第二代、第三代開始以日語為母語習得，所以可以觀察到日語音韻嘅強烈干擾：(1) 平音／激音／濃音嘅三項對立塌縮為日語式嘅有聲／無聲二項對立，八 pʰal → pal、七 tɕʰil → tɕil；(2) 飲 eum 嘅 /ɨ/ 同日語 /ɯ/ 完全合併；(3) 詞末入聲 /p̚ t̚ k̚/ 同終聲 ㄹ /l/ 後加日語式 /ɯ/，一 il → iɾɯ、十 sip → ɕipɯ、六 yuk → jukɯ；(4) 圓唇接近音 /w/ 前嘅 /h/ 變成 /ɸ/，火 hwa → ɸwa（同日語「フ」平行）。聲調同抑揚由韓語首爾式無重音被日語式下降音高重音取代。在日韓國・朝鮮人漢字音冇官方規範，本表係大阪、東京在日社區 2、3 代說話者社會語言學研究入面觀察到嘅典型特徵嘅描寫式快照。",
+      "vi": "Hán-Hàn theo cách phát âm của người Zainichi (con cháu người Triều Tiên di cư sang Nhật trước 1945). Lớp nền là tiếng Hàn (chuẩn Seoul, ghi La-tinh theo Bộ Văn hóa-Du lịch Hàn Quốc), nhưng từ thế hệ 2-3 trở đi, tiếng Nhật trở thành L1 nên có sự can thiệp mạnh của âm vị Nhật: (1) ba thế đối lập 平/激/濃 hợp lại thành thế đối lập hữu thanh/vô thanh kiểu Nhật, 八 pʰal → pal, 七 tɕʰil → tɕil; (2) /ɨ/ trong 飲 eum hợp nhất hoàn toàn với /ɯ/ Nhật; (3) phụ âm cuối nhập /p̚ t̚ k̚/ và ㄹ cuối /l/ thêm /ɯ/ kiểu Nhật: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ trước bán nguyên âm tròn môi /w/ thành /ɸ/, 火 hwa → ɸwa (song hành 'フ' Nhật). Thanh điệu/ngữ điệu chuyển từ kiểu Seoul không trọng âm sang trọng âm cao độ giảm kiểu Nhật. Hán-Hàn của Zainichi không có chuẩn chính thức; bảng này là ảnh chụp mô tả các đặc điểm điển hình trong nghiên cứu xã hội-ngôn ngữ học về thế hệ 2-3 ở Osaka và Tokyo.",
+      "th": "เสียงอ่านฮันจาที่ใช้โดยชาวเกาหลีในญี่ปุ่น (ลูกหลานของชาวคาบสมุทรเกาหลีที่ย้ายมาญี่ปุ่นก่อนปี 1945) พื้นฐานเป็นภาษาเกาหลี (มาตรฐานโซล โรมันแบบกระทรวงวัฒนธรรมและการท่องเที่ยว) แต่จากรุ่นที่ 2-3 ขึ้นไป ภาษาญี่ปุ่นเป็น L1 ทำให้เกิดการแทรกแซงทางเสียงของญี่ปุ่นอย่างชัดเจน: (1) การต้านสามทาง 平/激/濃 ยุบเป็นการต้านสองทาง ก้อง/ไร้ก้องแบบญี่ปุ่น 八 pʰal → pal, 七 tɕʰil → tɕil; (2) /ɨ/ ใน 飲 eum รวมกับ /ɯ/ ญี่ปุ่นโดยสมบูรณ์; (3) ตัวสะกดเสียงเข้า /p̚ t̚ k̚/ และตัวสะกด ㄹ /l/ เติม /ɯ/ แบบญี่ปุ่น: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ ก่อนเสียงเลื่อนปาก /w/ กลายเป็น /ɸ/, 火 hwa → ɸwa (ขนานกับ 'フ' ญี่ปุ่น) วรรณยุกต์/ทำนองเสียงเปลี่ยนจากแบบโซลที่ไม่มีเสียงเน้นเป็นเสียงเน้นระดับลงแบบญี่ปุ่น เสียงฮันจาของชาวเกาหลีในญี่ปุ่นไม่มีมาตรฐานทางการ ตารางนี้เป็นภาพรวมเชิงพรรณนาของลักษณะทั่วไปจากการศึกษาสังคมภาษาศาสตร์ของผู้พูดรุ่น 2-3 ในชุมชนชาวเกาหลีในโอซากะและโตเกียว",
+      "id": "Bacaan Hanja oleh Zainichi Korea (keturunan migran semenanjung Korea ke Jepang sebelum 1945). Substrat adalah bahasa Korea (standar Seoul, romanisasi Kementerian Kebudayaan & Pariwisata), namun sejak generasi 2-3, bahasa Jepang adalah L1 sehingga interferensi fonologi Jepang sangat menonjol: (1) kontras tiga arah 平/激/濃 menyusut menjadi kontras dua arah bersuara/tak bersuara ala Jepang: 八 pʰal → pal, 七 tɕʰil → tɕil; (2) /ɨ/ pada 飲 eum sepenuhnya bergabung dengan /ɯ/ Jepang; (3) konsonan akhir nada masuk /p̚ t̚ k̚/ dan ㄹ akhir /l/ menambahkan /ɯ/ Jepang: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ sebelum semivokal bundar /w/ menjadi /ɸ/: 火 hwa → ɸwa (paralel dengan 'フ' Jepang). Nada/intonasi berganti dari aksen rata Seoul ke aksen tinggi-turun ala Jepang. Tidak ada standar resmi untuk Hanja Zainichi; tabel ini adalah snapshot deskriptif ciri-ciri umum yang dilaporkan studi sosiolinguistik komunitas Zainichi Osaka dan Tokyo.",
+      "hi": "ज़ाइनिची कोरियाई (1945 से पहले जापान में आए कोरियाई प्रायद्वीप के लोगों के वंशज) द्वारा प्रयुक्त सिनो-कोरियाई उच्चारण। आधार कोरियाई (सियोल मानक, संस्कृति-पर्यटन मंत्रालय शैली रोमनकरण) है, परंतु दूसरी-तीसरी पीढ़ी से जापानी L1 के कारण जापानी ध्वनिविज्ञानी का प्रबल हस्तक्षेप देखा जाता है: (1) ㄱ/ㅋ/ㄲ (平/激/濃) तीन-तरफ़ी विरोध जापानी शैली के सघोष/अघोष द्वि-तरफ़ी विरोध में सिमट जाता है, 八 pʰal → pal, 七 tɕʰil → tɕil; (2) 飲 eum का /ɨ/ जापानी /ɯ/ में पूर्णतः विलीन; (3) अंत्य प्रवेश-स्वर /p̚ t̚ k̚/ तथा अंत्य ㄹ /l/ के बाद जापानी शैली /ɯ/ का स्वर-वर्धन: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) रूपीकृत संक्रामक /w/ के पहले /h/ /ɸ/ बन जाता है: 火 hwa → ɸwa (जापानी 'फ़ु' के समानांतर)। स्वराघात/अनुप्रबंधन सियोल कोरियाई के अनधिकृत से जापानी शैली के अवरोही पिच एक्सेंट में बदल जाता है। ज़ाइनिची सिनो-कोरियाई का कोई आधिकारिक मानक नहीं; यह तालिका ओसाका-टोक्यो ज़ाइनिची समुदायों के 2-3वीं पीढ़ी वक्ताओं पर समाजभाषा-वैज्ञानिक अध्ययनों में देखे गए विशिष्ट लक्षणों का वर्णनात्मक स्नैपशॉट है।",
+      "de": "Sino-koreanische Lesungen, wie sie Zainichi-Koreaner (Nachfahren der vor 1945 nach Japan eingewanderten Koreaner) verwenden. Das Substrat ist Koreanisch (Seoul-Standard, Romanisierung nach dem koreanischen Kultur- und Tourismusministerium), doch ab der 2./3. Generation ist Japanisch L1, was zu starker japanischer Lautinterferenz führt: (1) der dreigliedrige Plain/Aspiriert/Tense-Kontrast 平/激/濃 fällt mit dem japanischen Stimmhaft/Stimmlos-Kontrast zusammen, 八 pʰal → pal, 七 tɕʰil → tɕil; (2) /ɨ/ in 飲 eum verschmilzt vollständig mit japanischem /ɯ/; (3) auslautende Eingangslaute /p̚ t̚ k̚/ und auslautendes ㄹ /l/ erhalten ein japanisches Epenthese-/ɯ/: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ vor labialem Approximanten /w/ wird zu /ɸ/, 火 hwa → ɸwa (parallel zum japanischen フ). Tonhöhe/Prosodie weichen vom akzentlosen Seouler Koreanisch zugunsten einer japanischen Tonhöhenfallakzent-Prosodie. Es gibt keinen offiziellen Standard für Zainichi-Sino-Koreanisch; die Tabelle ist ein deskriptiver Querschnitt typischer Merkmale aus soziolinguistischen Studien der Zainichi-Gemeinden in Osaka und Tokio.",
+      "fr": "Lectures sino-coréennes telles que les emploient les Zainichi (descendants des Coréens venus au Japon avant 1945). Le substrat est le coréen (norme de Séoul, romanisation du ministère sud-coréen de la Culture et du Tourisme), mais dès la 2ᵉ–3ᵉ génération, le japonais est la L1, ce qui produit une forte interférence du système phonologique japonais : (1) le contraste à trois termes 平/激/濃 se réduit à un contraste japonais voisé/non voisé, 八 pʰal → pal, 七 tɕʰil → tɕil ; (2) /ɨ/ de 飲 eum fusionne totalement avec /ɯ/ japonais ; (3) les occlusives entrantes finales /p̚ t̚ k̚/ et le ㄹ /l/ final reçoivent un /ɯ/ épenthétique à la japonaise : 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ ; (4) /h/ devant l'approximant arrondi /w/ devient /ɸ/, 火 hwa → ɸwa (parallèle au フ japonais). La prosodie passe de l'absence d'accent du coréen séoulien à un accent de hauteur descendant à la japonaise. Il n'existe pas de norme officielle pour le sino-coréen zainichi ; ce tableau est un instantané descriptif des traits typiques observés par la sociolinguistique des communautés zainichi d'Osaka et de Tokyo.",
+      "it": "Lezioni sino-coreane usate dagli Zainichi (discendenti dei coreani migrati in Giappone prima del 1945). Il substrato è il coreano (standard di Seoul, romanizzazione del Ministero della Cultura e del Turismo), ma dalla 2ª–3ª generazione il giapponese è la L1, con forte interferenza fonologica giapponese: (1) il contrasto a tre termini 平/激/濃 si riduce al contrasto sonoro/sordo giapponese, 八 pʰal → pal, 七 tɕʰil → tɕil; (2) /ɨ/ di 飲 eum si fonde con /ɯ/ giapponese; (3) le occlusive d'entrata finali /p̚ t̚ k̚/ e il ㄹ /l/ finale ricevono un /ɯ/ epentetico alla giapponese: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ davanti all'approssimante arrotondata /w/ diventa /ɸ/, 火 hwa → ɸwa (parallelo al フ giapponese). La prosodia passa dall'assenza di accento del coreano di Seoul a un accento di altezza discendente alla giapponese. Non c'è uno standard ufficiale per il sino-coreano zainichi; la tabella è un'istantanea descrittiva dei tratti tipici osservati nella sociolinguistica delle comunità zainichi di Osaka e Tokyo.",
+      "es": "Lecturas sino-coreanas tal como las emplean los Zainichi (descendientes de coreanos migrados a Japón antes de 1945). El sustrato es el coreano (norma de Seúl, romanización del Ministerio surcoreano de Cultura y Turismo), pero desde la 2.ª–3.ª generación el japonés es la L1, con fuerte interferencia fonológica japonesa: (1) el contraste a tres bandas 平/激/濃 se reduce al contraste japonés sonoro/sordo, 八 pʰal → pal, 七 tɕʰil → tɕil; (2) la /ɨ/ de 飲 eum se fusiona totalmente con la /ɯ/ japonesa; (3) las oclusivas de entrada finales /p̚ t̚ k̚/ y el ㄹ /l/ final reciben una /ɯ/ epentética a la japonesa: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ ante la aproximante redondeada /w/ se realiza como /ɸ/, 火 hwa → ɸwa (paralelo al フ japonés). La prosodia pasa de la ausencia de acento del coreano de Seúl a un acento de tonema descendente a la japonesa. No existe norma oficial para el sino-coreano zainichi; este cuadro es una instantánea descriptiva de los rasgos típicos documentados por la sociolingüística de las comunidades zainichi de Osaka y Tokio.",
+      "pt": "Leituras sino-coreanas tal como as empregam os Zainichi (descendentes de coreanos migrados para o Japão antes de 1945). O substrato é o coreano (norma de Seul, romanização do Ministério sul-coreano da Cultura e do Turismo), mas a partir da 2ª–3ª geração o japonês é a L1, com forte interferência fonológica japonesa: (1) o contraste em três termos 平/激/濃 reduz-se ao contraste sonoro/surdo do japonês, 八 pʰal → pal, 七 tɕʰil → tɕil; (2) o /ɨ/ de 飲 eum funde-se totalmente com o /ɯ/ japonês; (3) as oclusivas de entrada finais /p̚ t̚ k̚/ e o ㄹ /l/ final recebem um /ɯ/ epentético à japonesa: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ antes da aproximante arredondada /w/ realiza-se como /ɸ/, 火 hwa → ɸwa (paralelo ao フ japonês). A prosódia passa da ausência de acento do coreano de Seul para um acento de tonema descendente à japonesa. Não há norma oficial para o sino-coreano zainichi; este quadro é uma fotografia descritiva dos traços típicos observados pela sociolinguística das comunidades zainichi de Osaka e Tóquio.",
+      "ru": "Сино-корейские чтения в произношении зайнити-корейцев — потомков выходцев с Корейского полуострова, переселившихся в Японию до 1945 г. Субстрат — корейский (сеульский стандарт, латинизация по системе Министерства культуры и туризма РК), однако начиная со 2–3-го поколения японский становится L1, что даёт сильную интерференцию: (1) трёхчленное противопоставление 平/激/濃 сводится к японскому двучленному звонкому/глухому: 八 pʰal → pal, 七 tɕʰil → tɕil; (2) /ɨ/ в 飲 eum полностью сливается с японским /ɯ/; (3) конечные «входные» /p̚ t̚ k̚/ и конечное ㄹ /l/ получают японское вставное /ɯ/: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ перед губным аппроксимантом /w/ реализуется как /ɸ/: 火 hwa → ɸwa (параллельно японскому フ). Безударная сеульская мелодика заменяется японским нисходящим тоном-акцентом. Официальной нормы у зайнити-сино-корейского нет; таблица — описательный снимок типичных черт, отмеченных в социолингвистических исследованиях зайнити-сообществ Осаки и Токио.",
+      "uk": "Сино-корейські читання у вимові зайніті-корейців — нащадків переселенців із Корейського півострова до Японії до 1945 р. Субстрат — корейська (сеульський стандарт, латинізація за системою Міністерства культури й туризму РК), однак уже від 2–3-го покоління японська стає L1, що дає сильну інтерференцію: (1) тричленне протиставлення 平/激/濃 зводиться до японського двочленного дзвінкого/глухого: 八 pʰal → pal, 七 tɕʰil → tɕil; (2) /ɨ/ в 飲 eum повністю зливається з японським /ɯ/; (3) кінцеві «вхідні» /p̚ t̚ k̚/ і кінцеве ㄹ /l/ отримують японське вставне /ɯ/: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ перед губним апроксимантом /w/ реалізується як /ɸ/: 火 hwa → ɸwa (паралельно японському フ). Безакцентна сеульська мелодика змінюється японським спадним тонічним наголосом. Офіційної норми у зайніті-сино-корейської немає; таблиця — описовий зріз типових рис із соціолінгвістичних досліджень громад Осаки й Токіо.",
+      "ar": "القراءات الصينية-الكورية بنطق كوريي 'زاينيتشي' — أحفاد المهاجرين من شبه الجزيرة الكورية إلى اليابان قبل 1945. الطبقة التحتية هي الكورية (معيار سيول، الكتابة اللاتينية وفق وزارة الثقافة والسياحة الكورية)، لكن منذ الجيلين الثاني والثالث تصبح اليابانية L1، ما يؤدي إلى تداخل صوتي قوي: (1) ينهار التقابل الثلاثي 平/激/濃 إلى تقابل ياباني ثنائي مجهور/مهموس: 八 pʰal → pal، 七 tɕʰil → tɕil؛ (2) تندمج /ɨ/ في 飲 eum تماماً مع /ɯ/ اليابانية؛ (3) تستقبل صوامت التون الداخل الختامية /p̚ t̚ k̚/ وㄹ /l/ الختامية حركة /ɯ/ زائدة على الطريقة اليابانية: 一 il → iɾɯ، 十 sip → ɕipɯ، 六 yuk → jukɯ؛ (4) تتحول /h/ قبل شبه الحركة المدوّرة /w/ إلى /ɸ/: 火 hwa → ɸwa (موازياً لـ'フ' اليابانية). يحلّ النبر الياباني الهابط محل الإيقاع السيؤولي عديم النبر. لا يوجد معيار رسمي لسينو-الكورية الزاينيتشي؛ والجدول وصفي لخصائص نمطية رصدتها دراسات اجتماع-اللغة لمجتمعات الزاينيتشي في أوساكا وطوكيو.",
+      "he": "קריאות סינו-קוריאניות בהגייתם של זיינייצ'י-קוריאנים — צאצאי המהגרים מחצי האי הקוריאני ליפן לפני 1945. השכבה התחתית היא קוריאנית (סטנדרט סיאול, רומאניזציה לפי משרד התרבות והתיירות של דרום קוריאה), אך מהדור 2-3 ואילך היפנית היא ה-L1, מה שמוביל להתערבות פונולוגית חזקה: (1) הניגוד התלת-איברי 平/激/濃 מתכווץ לניגוד יפני דו-איברי קולי/אטום: 八 pʰal → pal, 七 tɕʰil → tɕil; (2) ה-/ɨ/ של 飲 eum מתמזג לחלוטין עם /ɯ/ היפני; (3) עיצורי הטון הנכנס הסופיים /p̚ t̚ k̚/ ו-ㄹ /l/ הסופי מקבלים /ɯ/ אפנתטי בסגנון יפני: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ לפני המתקרב המעוגל /w/ מתממש כ-/ɸ/: 火 hwa → ɸwa (מקבילית ל-'フ' היפנית). הפרוזודיה עוברת מסיאולית חסרת הטעמה לטעם פיץ' יורד בסגנון יפני. אין סטנדרט רשמי לסינו-קוריאנית של זיינייצ'י; הטבלה היא תמונת מצב תיאורית של תכונות אופייניות שנצפו במחקרים סוציולינגוויסטיים של קהילות הזיינייצ'י באוסקה ובטוקיו.",
+      "sw": "Usomaji wa Sino-Korea kama unavyotumika na Wakorea wa Zainichi — wazao wa wakorea waliohamia Japan kabla ya 1945. Msingi ni Kikorea (kiwango cha Seoul, uandishi wa Kilatini wa Wizara ya Utamaduni na Utalii ya Korea Kusini), lakini kuanzia kizazi cha 2-3 Kijapani ni L1, hivyo athari ya fonolojia ya Kijapani ni kubwa: (1) utofautisho wa pande tatu 平/激/濃 huporomoka kuwa utofautisho wa pande mbili wa sauti/bila sauti wa Kijapani: 八 pʰal → pal, 七 tɕʰil → tɕil; (2) /ɨ/ katika 飲 eum huungana kabisa na /ɯ/ ya Kijapani; (3) konsonanti za mwisho za kuingia /p̚ t̚ k̚/ na ㄹ /l/ ya mwisho huongezewa /ɯ/ ya Kijapani: 一 il → iɾɯ, 十 sip → ɕipɯ, 六 yuk → jukɯ; (4) /h/ kabla ya konsonanti ya midomo /w/ huwa /ɸ/: 火 hwa → ɸwa (sawa na 'フ' ya Kijapani). Prosodia ya Kikorea cha Seoul isiyo na lafudhi inabadilishwa na lafudhi ya pitch inayoshuka ya Kijapani. Hakuna kiwango rasmi cha Sino-Korea cha Zainichi; jedwali hili ni picha ya kuelezea sifa kuu zilizozingatiwa katika utafiti wa sosiolinguistiki wa jamii za Zainichi za Osaka na Tokyo."
     },
     "sources": [
       {
@@ -19761,8 +19761,8 @@ const HAN_LANG_META = {
       "ja": "東北方言（ズーズー弁）における日本語漢字音"
     },
     "description": {
-      "en": "Tōhoku Japanese ('zūzū-ben' 東北弁) is famous for three sound changes that strongly reshape Sino-Japanese citation forms: (1) the /shi/ ~ /su/ and /chi/ ~ /tsu/ distinctions collapse into a single centralised vowel [ɯ̈] — both 四 shi and 巣 su are pronounced [sɯ̈], both 地 chi and 都 tsu are [t͡sɯ̈]; we write this as 'sï' / 'tsï' in surface; (2) intervocalic /k/ and /t/ undergo systematic voicing — 北 hoku → hogu, 一 itsu → idzu (though we leave word-final /tsu/ unaltered as it forms a single affricate); (3) word-initial /g/ surfaces as the velar nasal [ŋ] (ガ行鼻音 / 鼻濁音) — 五 go → [ŋo], 月 getsu → [ŋet͡sɯ], 魚 gyo → [ŋjo]. These rules together produce the distinctive 'soft' and 'mumbled' character of Tōhoku speech. We follow the rule-set documented in NINJAL's Tōhoku dialect surveys and Kindaichi (1942) on 鼻濁音.",
-      "ja": "東北方言（ズーズー弁）は共通語と比較して三つの体系的な音韻規則をもち、これが日本語漢字音の引用形を大きく改変する：(1) /shi/と/su/、/chi/と/tsu/ の対立が中舌母音 [ɯ̈] 一つに合流し、四 shi も 巣 su も [sɯ̈]、地 chi も 都 tsu も [t͡sɯ̈] となる（本データでは表層表記を「sï」「tsï」とする）；(2) 母音間の /k/ と /t/ が体系的に有声化し、北 hoku → hogu のように現れる（語末 -tsu は単一の破擦音として無変化）；(3) 語頭の /g/ は鼻音化し、ガ行鼻音 [ŋ] として実現される — 五 go → [ŋo]、月 getsu → [ŋet͡sɯ]、魚 gyo → [ŋjo]（金田一春彦 1942 による「鼻濁音」概念）。これらが合わさって東北方言独特の柔らかく籠もった音色を生む。本データは国立国語研究所『東北方言文法資料』および金田一春彦 (1942)『国語音韻論』に基づく。"
+      "en": "Tōhoku Japanese ('zūzū-ben' 東北弁) is famous for three sound changes that strongly reshape Sino-Japanese citation forms: (1) the /shi/ ~ /su/ and /chi/ ~ /tsu/ distinctions collapse into a single centralised vowel [ɯ̈] — both 四 shi and 巣 su are pronounced [sɯ̈], both 地 chi and 都 tsu are [tsɯ̈]; we write this as 'sï' / 'tsï' in surface; (2) intervocalic /k/ and /t/ undergo systematic voicing — 北 hoku → hogu, 一 itsu → idzu (though we leave word-final /tsu/ unaltered as it forms a single affricate); (3) word-initial /g/ surfaces as the velar nasal [ŋ] (ガ行鼻音 / 鼻濁音) — 五 go → [ŋo], 月 getsu → [ŋetsɯ], 魚 gyo → [ŋjo]. These rules together produce the distinctive 'soft' and 'mumbled' character of Tōhoku speech. We follow the rule-set documented in NINJAL's Tōhoku dialect surveys and Kindaichi (1942) on 鼻濁音.",
+      "ja": "東北方言（ズーズー弁）は共通語と比較して三つの体系的な音韻規則をもち、これが日本語漢字音の引用形を大きく改変する：(1) /shi/と/su/、/chi/と/tsu/ の対立が中舌母音 [ɯ̈] 一つに合流し、四 shi も 巣 su も [sɯ̈]、地 chi も 都 tsu も [tsɯ̈] となる（本データでは表層表記を「sï」「tsï」とする）；(2) 母音間の /k/ と /t/ が体系的に有声化し、北 hoku → hogu のように現れる（語末 -tsu は単一の破擦音として無変化）；(3) 語頭の /g/ は鼻音化し、ガ行鼻音 [ŋ] として実現される — 五 go → [ŋo]、月 getsu → [ŋetsɯ]、魚 gyo → [ŋjo]（金田一春彦 1942 による「鼻濁音」概念）。これらが合わさって東北方言独特の柔らかく籠もった音色を生む。本データは国立国語研究所『東北方言文法資料』および金田一春彦 (1942)『国語音韻論』に基づく。"
     },
     "sources": [
       "金田一春彦 (Kindaichi Haruhiko) (1942) 『国語音韻論』東京：刀江書院 — 「鼻濁音」概念の古典",
@@ -20871,7 +20871,7 @@ const HAN_VARIANTS = {
       {
         "native": "リツ",
         "surface": "ritsu",
-        "ipa": "ɾit͡sɯ",
+        "ipa": "ɾitsɯ",
         "label": ""
       }
     ],
@@ -20976,7 +20976,7 @@ const HAN_VARIANTS = {
   },
   "一": {
     "nan_lei": [
-      { "label": "白讀", "surface": "zit8", "ipa": "t͡sit̚˥" },
+      { "label": "白讀", "surface": "zit8", "ipa": "tsit̚˥" },
       { "label": "文讀", "surface": "it7", "ipa": "it̚˥" }
     ],
     "mnz": [
@@ -20987,7 +20987,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsi̍t",
-        "ipa": "t͡sit̚˦",
+        "ipa": "tsit̚˦",
         "label": "白讀"
       },
       {
@@ -21001,7 +21001,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsi̍t",
-        "ipa": "t͡sit̚˦˩",
+        "ipa": "tsit̚˦˩",
         "label": "白讀"
       },
       {
@@ -21015,7 +21015,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsek4",
-        "ipa": "t͡sek̚˨˩",
+        "ipa": "tsek̚˨˩",
         "label": "白讀"
       },
       {
@@ -21029,7 +21029,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsi̍t",
-        "ipa": "t͡sit̚˧˨",
+        "ipa": "tsit̚˧˨",
         "label": "白讀"
       },
       {
@@ -21057,7 +21057,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsi̍t",
-        "ipa": "t͡sit̚˦",
+        "ipa": "tsit̚˦",
         "label": "白讀"
       },
       {
@@ -21071,7 +21071,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsi̍t",
-        "ipa": "t͡sit̚˩˨˩",
+        "ipa": "tsit̚˩˨˩",
         "label": "白讀"
       },
       {
@@ -21113,13 +21113,13 @@ const HAN_VARIANTS = {
       {
         "native": "イツ",
         "surface": "itsu",
-        "ipa": "it͡sɯ",
+        "ipa": "itsɯ",
         "label": "漢音 / Kan-on"
       },
       {
         "native": "イチ",
         "surface": "ichi",
-        "ipa": "it͡ɕi",
+        "ipa": "itɕi",
         "label": "呉音 / Go-on"
       }
     ],
@@ -21141,7 +21141,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsi̍t",
-        "ipa": "t͡sit̚˦",
+        "ipa": "tsit̚˦",
         "label": "白讀"
       },
       {
@@ -21155,7 +21155,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsi̍t",
-        "ipa": "t͡siʔ˦",
+        "ipa": "tsiʔ˦",
         "label": "白讀"
       },
       {
@@ -21169,7 +21169,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "chit⁵",
-        "ipa": "t͡siʔ˥",
+        "ipa": "tsiʔ˥",
         "label": "白讀"
       },
       {
@@ -21211,7 +21211,7 @@ const HAN_VARIANTS = {
   "二": {
     "nan_lei": [
       { "label": "白讀", "surface": "no6", "ipa": "no˨˨" },
-      { "label": "文讀", "surface": "zi6", "ipa": "t͡si˨˨" }
+      { "label": "文讀", "surface": "zi6", "ipa": "tsi˨˨" }
     ],
     "mnz": [
       { "label": "文讀", "surface": "ni", "ipa": "ni˨˨" },
@@ -21227,7 +21227,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jī",
-        "ipa": "d͡ʑi˨˩",
+        "ipa": "dʑi˨˩",
         "label": "文讀"
       }
     ],
@@ -21269,7 +21269,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jī",
-        "ipa": "d͡ʑi˨˩",
+        "ipa": "dʑi˨˩",
         "label": "文讀"
       }
     ],
@@ -21283,7 +21283,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "zi3",
-        "ipa": "t͡si˧˧",
+        "ipa": "tsi˧˧",
         "label": "文讀"
       }
     ],
@@ -21297,7 +21297,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jī",
-        "ipa": "d͡ʑi˨˨",
+        "ipa": "dʑi˨˨",
         "label": "文讀"
       }
     ],
@@ -21311,7 +21311,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jī",
-        "ipa": "d͡ʑi˩˧",
+        "ipa": "dʑi˩˧",
         "label": "文讀"
       }
     ],
@@ -21319,7 +21319,7 @@ const HAN_VARIANTS = {
       {
         "native": "ジ",
         "surface": "ji",
-        "ipa": "d͡ʑi",
+        "ipa": "dʑi",
         "label": "漢音 / Kan-on"
       },
       {
@@ -21353,7 +21353,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jī",
-        "ipa": "d͡ʑi˧˧",
+        "ipa": "dʑi˧˧",
         "label": "文讀"
       }
     ],
@@ -21367,7 +21367,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jī",
-        "ipa": "d͡ʑi˨",
+        "ipa": "dʑi˨",
         "label": "文讀"
       }
     ],
@@ -21381,7 +21381,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "ji³",
-        "ipa": "d͡ʑi˨˩",
+        "ipa": "dʑi˨˩",
         "label": "文讀"
       }
     ],
@@ -21923,13 +21923,13 @@ const HAN_VARIANTS = {
       {
         "native": "ハツ",
         "surface": "hatsu",
-        "ipa": "hat͡sɯ",
+        "ipa": "hatsɯ",
         "label": "漢音 / Kan-on"
       },
       {
         "native": "ハチ",
         "surface": "hachi",
-        "ipa": "hat͡ɕi",
+        "ipa": "hatɕi",
         "label": "呉音 / Go-on"
       }
     ],
@@ -22271,7 +22271,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsa̍p",
-        "ipa": "t͡sap̚˦",
+        "ipa": "tsap̚˦",
         "label": "白讀"
       },
       {
@@ -22285,7 +22285,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsa̍p",
-        "ipa": "t͡sap̚˨˦",
+        "ipa": "tsap̚˨˦",
         "label": "白讀"
       },
       {
@@ -22299,7 +22299,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsap8",
-        "ipa": "t͡sap̚˥",
+        "ipa": "tsap̚˥",
         "label": "白讀"
       },
       {
@@ -22327,7 +22327,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsa̍p",
-        "ipa": "t͡sap̚˦",
+        "ipa": "tsap̚˦",
         "label": "白讀"
       },
       {
@@ -22341,7 +22341,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsa̍p",
-        "ipa": "t͡sap̚˩˨˩",
+        "ipa": "tsap̚˩˨˩",
         "label": "白讀"
       },
       {
@@ -22375,7 +22375,7 @@ const HAN_VARIANTS = {
       {
         "native": "ジュウ",
         "surface": "jū",
-        "ipa": "d͡ʑɯː",
+        "ipa": "dʑɯː",
         "label": "呉音 / Go-on"
       }
     ],
@@ -22383,7 +22383,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsa̍p",
-        "ipa": "t͡sap̚˦",
+        "ipa": "tsap̚˦",
         "label": "白讀"
       },
       {
@@ -22425,7 +22425,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsa̍p",
-        "ipa": "t͡sap̚˦",
+        "ipa": "tsap̚˦",
         "label": "白讀"
       },
       {
@@ -22439,7 +22439,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsa̍p",
-        "ipa": "t͡sap̚˦",
+        "ipa": "tsap̚˦",
         "label": "白讀"
       },
       {
@@ -22453,7 +22453,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "chap⁵",
-        "ipa": "t͡sap̚˥",
+        "ipa": "tsap̚˥",
         "label": "白讀"
       },
       {
@@ -22483,7 +22483,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "ji̍t",
-        "ipa": "d͡ʑit̚˦",
+        "ipa": "dʑit̚˦",
         "label": "白讀"
       },
       {
@@ -22581,13 +22581,13 @@ const HAN_VARIANTS = {
       {
         "native": "ジツ",
         "surface": "jitsu",
-        "ipa": "d͡ʑit͡sɯ",
+        "ipa": "dʑitsɯ",
         "label": "漢音 / Kan-on"
       },
       {
         "native": "ニチ",
         "surface": "nichi",
-        "ipa": "nit͡ɕi",
+        "ipa": "nitɕi",
         "label": "呉音 / Go-on"
       }
     ],
@@ -22595,7 +22595,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "ji̍t",
-        "ipa": "d͡ʑit̚˦",
+        "ipa": "dʑit̚˦",
         "label": "白讀"
       },
       {
@@ -22615,7 +22615,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "ji̍t",
-        "ipa": "d͡ʑit̚˦˩",
+        "ipa": "dʑit̚˦˩",
         "label": "文讀"
       }
     ],
@@ -22629,7 +22629,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "ji̍t",
-        "ipa": "d͡ʑit̚˩˨˩",
+        "ipa": "dʑit̚˩˨˩",
         "label": "文讀"
       }
     ],
@@ -22637,7 +22637,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "ji̍t",
-        "ipa": "d͡ʑit̚˦",
+        "ipa": "dʑit̚˦",
         "label": "白讀"
       },
       {
@@ -22665,7 +22665,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "ji̍t",
-        "ipa": "d͡ʑit̚˦",
+        "ipa": "dʑit̚˦",
         "label": "白讀"
       },
       {
@@ -22793,13 +22793,13 @@ const HAN_VARIANTS = {
       {
         "native": "ゲツ",
         "surface": "getsu",
-        "ipa": "get͡sɯ",
+        "ipa": "getsɯ",
         "label": "漢音 / Kan-on"
       },
       {
         "native": "ガツ",
         "surface": "gatsu",
-        "ipa": "gat͡sɯ",
+        "ipa": "gatsɯ",
         "label": "呉音 / Go-on"
       }
     ],
@@ -23133,7 +23133,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsúi",
-        "ipa": "t͡sui˥˧",
+        "ipa": "tsui˥˧",
         "label": "白讀"
       },
       {
@@ -23155,7 +23155,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsuí",
-        "ipa": "t͡sui˥˧",
+        "ipa": "tsui˥˧",
         "label": "白讀"
       },
       {
@@ -23169,7 +23169,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsuí",
-        "ipa": "t͡sui˥˧",
+        "ipa": "tsui˥˧",
         "label": "白讀"
       },
       {
@@ -23183,7 +23183,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsuí",
-        "ipa": "t͡sui˥˧",
+        "ipa": "tsui˥˧",
         "label": "白讀"
       },
       {
@@ -23197,7 +23197,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsuí",
-        "ipa": "t͡sui˥˧",
+        "ipa": "tsui˥˧",
         "label": "白讀"
       },
       {
@@ -23211,7 +23211,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsuí",
-        "ipa": "t͡sui˥˧",
+        "ipa": "tsui˥˧",
         "label": "白讀"
       },
       {
@@ -23225,7 +23225,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsúi",
-        "ipa": "t͡sui˥˧",
+        "ipa": "tsui˥˧",
         "label": "白讀"
       },
       {
@@ -23239,7 +23239,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "chui²¹",
-        "ipa": "t͡sui˨˩",
+        "ipa": "tsui˨˩",
         "label": "白讀"
       },
       {
@@ -23689,13 +23689,13 @@ const HAN_VARIANTS = {
       {
         "native": "チ",
         "surface": "chi",
-        "ipa": "t͡ɕi",
+        "ipa": "tɕi",
         "label": "漢音 / Kan-on"
       },
       {
         "native": "ジ",
         "surface": "ji",
-        "ipa": "d͡ʑi",
+        "ipa": "dʑi",
         "label": "呉音 / Go-on"
       }
     ],
@@ -23983,7 +23983,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiáu",
-        "ipa": "t͡siau˥˧",
+        "ipa": "tsiau˥˧",
         "label": "白讀"
       },
       {
@@ -23997,7 +23997,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiáu",
-        "ipa": "t͡siau˥˧",
+        "ipa": "tsiau˥˧",
         "label": "白讀"
       },
       {
@@ -24011,7 +24011,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiáu",
-        "ipa": "t͡siau˥˧",
+        "ipa": "tsiau˥˧",
         "label": "白讀"
       },
       {
@@ -24025,7 +24025,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiáu",
-        "ipa": "t͡siau˥˧",
+        "ipa": "tsiau˥˧",
         "label": "白讀"
       },
       {
@@ -24039,7 +24039,7 @@ const HAN_VARIANTS = {
       {
         "native": "チョウ",
         "surface": "chō",
-        "ipa": "t͡ɕoː",
+        "ipa": "tɕoː",
         "label": ""
       }
     ],
@@ -24047,7 +24047,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiáu",
-        "ipa": "t͡siau˥˧",
+        "ipa": "tsiau˥˧",
         "label": "白讀"
       },
       {
@@ -24075,7 +24075,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiáu",
-        "ipa": "t͡siau˥˧",
+        "ipa": "tsiau˥˧",
         "label": "白讀"
       },
       {
@@ -24089,7 +24089,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiáu",
-        "ipa": "t͡siau˥˧",
+        "ipa": "tsiau˥˧",
         "label": "白讀"
       },
       {
@@ -24103,7 +24103,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "chiau²¹",
-        "ipa": "t͡siau˨˩",
+        "ipa": "tsiau˨˩",
         "label": "白讀"
       },
       {
@@ -24585,7 +24585,7 @@ const HAN_VARIANTS = {
   "人": {
     "nan_lei": [
       { "label": "訓讀（儂）", "surface": "nang4", "ipa": "naŋ˨˩" },
-      { "label": "文讀", "surface": "zin4", "ipa": "d͡ʑin˨˩" }
+      { "label": "文讀", "surface": "zin4", "ipa": "dʑin˨˩" }
     ],
     "mnz": [
       { "label": "訓讀（儂）", "surface": "nøŋ", "ipa": "nøyŋ˨˨" },
@@ -24601,7 +24601,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jîn",
-        "ipa": "d͡ʑin˨˦",
+        "ipa": "dʑin˨˦",
         "label": "文讀"
       }
     ],
@@ -24615,7 +24615,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "dzîn",
-        "ipa": "d͡zin˨˦",
+        "ipa": "dzin˨˦",
         "label": "文讀"
       }
     ],
@@ -24629,7 +24629,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "zing5",
-        "ipa": "d͡ʑiŋ˥˥",
+        "ipa": "dʑiŋ˥˥",
         "label": "文讀"
       }
     ],
@@ -24643,7 +24643,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jîn",
-        "ipa": "d͡ʑin˨˦",
+        "ipa": "dʑin˨˦",
         "label": "文讀"
       }
     ],
@@ -24749,7 +24749,7 @@ const HAN_VARIANTS = {
       {
         "native": "ジン",
         "surface": "jin",
-        "ipa": "d͡ʑiɴ",
+        "ipa": "dʑiɴ",
         "label": "漢音 / Kan-on"
       },
       {
@@ -24783,7 +24783,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jîn",
-        "ipa": "d͡ʑin˨˦",
+        "ipa": "dʑin˨˦",
         "label": "文讀"
       }
     ],
@@ -24797,7 +24797,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jîn",
-        "ipa": "d͡ʑin˨˦",
+        "ipa": "dʑin˨˦",
         "label": "文讀"
       }
     ],
@@ -24811,7 +24811,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jin⁵",
-        "ipa": "d͡ʑin˨˦",
+        "ipa": "dʑin˨˦",
         "label": "文讀"
       }
     ],
@@ -24839,7 +24839,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "zin4",
-        "ipa": "d͡ʑin˥",
+        "ipa": "dʑin˥",
         "label": "文讀"
       }
     ],
@@ -24863,7 +24863,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tshiú",
-        "ipa": "t͡sʰiu˥˧",
+        "ipa": "tsʰiu˥˧",
         "label": "白讀"
       },
       {
@@ -24877,7 +24877,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tshiú",
-        "ipa": "t͡ɕʰiu˥˥",
+        "ipa": "tɕʰiu˥˥",
         "label": "白讀"
       },
       {
@@ -24891,7 +24891,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tshiu2",
-        "ipa": "t͡sʰiu˥˧",
+        "ipa": "tsʰiu˥˧",
         "label": "白讀"
       },
       {
@@ -24905,7 +24905,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tshiú",
-        "ipa": "t͡sʰiu˥˧",
+        "ipa": "tsʰiu˥˧",
         "label": "白讀"
       },
       {
@@ -24919,7 +24919,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tshiú",
-        "ipa": "t͡sʰiu˥˧",
+        "ipa": "tsʰiu˥˧",
         "label": "白讀"
       },
       {
@@ -24989,7 +24989,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tshiú",
-        "ipa": "t͡sʰiu˥˧",
+        "ipa": "tsʰiu˥˧",
         "label": "白讀"
       },
       {
@@ -25017,7 +25017,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tshiú",
-        "ipa": "t͡sʰiu˥˧",
+        "ipa": "tsʰiu˥˧",
         "label": "白讀"
       },
       {
@@ -25031,7 +25031,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tshiú",
-        "ipa": "t͡sʰiu˥˧",
+        "ipa": "tsʰiu˥˧",
         "label": "白讀"
       },
       {
@@ -25045,7 +25045,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "chhiu²¹",
-        "ipa": "t͡sʰiu˨˩",
+        "ipa": "tsʰiu˨˩",
         "label": "白讀"
       },
       {
@@ -25061,13 +25061,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiok",
-        "ipa": "t͡siɔk̚˦",
+        "ipa": "tsiɔk̚˦",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsok",
-        "ipa": "t͡sɔk̚˦",
+        "ipa": "tsɔk̚˦",
         "label": "文讀"
       }
     ],
@@ -25075,13 +25075,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiok",
-        "ipa": "t͡ɕiɔk̚˨˩",
+        "ipa": "tɕiɔk̚˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsok",
-        "ipa": "t͡sɔk̚˨˩",
+        "ipa": "tsɔk̚˨˩",
         "label": "文讀"
       }
     ],
@@ -25111,13 +25111,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiok",
-        "ipa": "t͡siɔk̚˦",
+        "ipa": "tsiɔk̚˦",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsok",
-        "ipa": "t͡sɔk̚˦",
+        "ipa": "tsɔk̚˦",
         "label": "文讀"
       }
     ]
@@ -25329,7 +25329,7 @@ const HAN_VARIANTS = {
       {
         "native": "ジ",
         "surface": "ji",
-        "ipa": "d͡ʑi",
+        "ipa": "dʑi",
         "label": "漢音 / Kan-on"
       },
       {
@@ -25591,13 +25591,13 @@ const HAN_VARIANTS = {
       {
         "native": "ズ",
         "surface": "zu",
-        "ipa": "d͡zɯ",
+        "ipa": "dzɯ",
         "label": "呉音 / Go-on"
       },
       {
         "native": "ジュウ",
         "surface": "jū",
-        "ipa": "d͡ʑɯː",
+        "ipa": "dʑɯː",
         "label": "唐音 / Tō-on"
       }
     ],
@@ -25761,13 +25761,13 @@ const HAN_VARIANTS = {
       {
         "native": "ケツ",
         "surface": "ketsu",
-        "ipa": "ket͡sɯ",
+        "ipa": "ketsɯ",
         "label": "漢音 / Kan-on"
       },
       {
         "native": "ケチ",
         "surface": "kechi",
-        "ipa": "ket͡ɕi",
+        "ipa": "ketɕi",
         "label": "呉音 / Go-on"
       }
     ],
@@ -25895,7 +25895,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jio̍k",
-        "ipa": "d͡ʑiɔk̚˦",
+        "ipa": "dʑiɔk̚˦",
         "label": "文讀"
       }
     ],
@@ -25903,7 +25903,7 @@ const HAN_VARIANTS = {
       {
         "native": "ジク",
         "surface": "jiku",
-        "ipa": "d͡ʑikɯ",
+        "ipa": "dʑikɯ",
         "label": "漢音 / Kan-on"
       },
       {
@@ -25937,7 +25937,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jio̍k",
-        "ipa": "d͡ʑiɔk̚˦",
+        "ipa": "dʑiɔk̚˦",
         "label": "文讀"
       }
     ],
@@ -25951,7 +25951,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jio̍k",
-        "ipa": "d͡ʑiɔk̚˦˩",
+        "ipa": "dʑiɔk̚˦˩",
         "label": "文讀"
       }
     ],
@@ -25965,7 +25965,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jio̍k",
-        "ipa": "d͡ʑiɔk̚˩˨˩",
+        "ipa": "dʑiɔk̚˩˨˩",
         "label": "文讀"
       }
     ],
@@ -25979,7 +25979,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jio̍k",
-        "ipa": "d͡ʑiɔk̚˦",
+        "ipa": "dʑiɔk̚˦",
         "label": "文讀"
       }
     ],
@@ -25993,7 +25993,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jio̍k",
-        "ipa": "d͡ʑiɔk̚˦",
+        "ipa": "dʑiɔk̚˦",
         "label": "文讀"
       }
     ],
@@ -26007,7 +26007,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jio̍k",
-        "ipa": "d͡ʑiɔk̚˦",
+        "ipa": "dʑiɔk̚˦",
         "label": "文讀"
       }
     ],
@@ -26021,7 +26021,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "jiok⁵",
-        "ipa": "d͡ʑiɔk̚˥",
+        "ipa": "dʑiɔk̚˥",
         "label": "文讀"
       }
     ]
@@ -26031,7 +26031,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiūnn",
-        "ipa": "t͡siũ˨˩",
+        "ipa": "tsiũ˨˩",
         "label": "白讀"
       },
       {
@@ -26045,7 +26045,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiūnn",
-        "ipa": "t͡siũ˨˩",
+        "ipa": "tsiũ˨˩",
         "label": "白讀"
       },
       {
@@ -26059,7 +26059,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiẽ6",
-        "ipa": "t͡siẽ˧˥",
+        "ipa": "tsiẽ˧˥",
         "label": "白讀"
       },
       {
@@ -26073,7 +26073,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiūnn",
-        "ipa": "t͡siũ˨˩",
+        "ipa": "tsiũ˨˩",
         "label": "白讀"
       },
       {
@@ -26087,7 +26087,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiūnn",
-        "ipa": "t͡siũ˨˩",
+        "ipa": "tsiũ˨˩",
         "label": "白讀"
       },
       {
@@ -26101,7 +26101,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiūnn",
-        "ipa": "t͡siũ˨˩",
+        "ipa": "tsiũ˨˩",
         "label": "白讀"
       },
       {
@@ -26205,7 +26205,7 @@ const HAN_VARIANTS = {
       {
         "native": "ジョウ",
         "surface": "jō",
-        "ipa": "d͡ʑoː",
+        "ipa": "dʑoː",
         "label": "呉音 / Go-on"
       },
       {
@@ -26247,7 +26247,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsiūnn",
-        "ipa": "t͡siũ˨˩",
+        "ipa": "tsiũ˨˩",
         "label": "白讀"
       },
       {
@@ -27849,7 +27849,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsia̍h",
-        "ipa": "t͡ɕiaʔ˦",
+        "ipa": "tɕiaʔ˦",
         "label": "白讀"
       },
       {
@@ -27863,7 +27863,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsia̍h",
-        "ipa": "t͡ɕiaʔ˨˦",
+        "ipa": "tɕiaʔ˨˦",
         "label": "白讀"
       },
       {
@@ -27877,7 +27877,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "ziah8",
-        "ipa": "t͡siaʔ˥",
+        "ipa": "tsiaʔ˥",
         "label": "白讀"
       },
       {
@@ -27891,7 +27891,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsia̍h",
-        "ipa": "t͡ɕiaʔ˧˨",
+        "ipa": "tɕiaʔ˧˨",
         "label": "白讀"
       },
       {
@@ -27905,7 +27905,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsia̍h",
-        "ipa": "t͡ɕiaʔ˦",
+        "ipa": "tɕiaʔ˦",
         "label": "白讀"
       },
       {
@@ -27919,7 +27919,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsia̍h",
-        "ipa": "t͡siaʔ˩˨˩",
+        "ipa": "tsiaʔ˩˨˩",
         "label": "白讀"
       },
       {
@@ -27953,7 +27953,7 @@ const HAN_VARIANTS = {
       {
         "native": "ジキ",
         "surface": "jiki",
-        "ipa": "d͡ʑiki",
+        "ipa": "dʑiki",
         "label": "呉音 / Go-on"
       }
     ],
@@ -27989,7 +27989,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsia̍h",
-        "ipa": "t͡siaʔ˦",
+        "ipa": "tsiaʔ˦",
         "label": "白讀"
       },
       {
@@ -28003,7 +28003,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsia̍h",
-        "ipa": "t͡siaʔ˦",
+        "ipa": "tsiaʔ˦",
         "label": "白讀"
       },
       {
@@ -28017,7 +28017,7 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "chiah⁵",
-        "ipa": "t͡siaʔ˥",
+        "ipa": "tsiaʔ˥",
         "label": "白讀"
       },
       {
@@ -28175,13 +28175,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsáu",
-        "ipa": "t͡sau˥˧",
+        "ipa": "tsau˥˧",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsóo",
-        "ipa": "t͡sɔ˥˧",
+        "ipa": "tsɔ˥˧",
         "label": "文讀"
       }
     ],
@@ -28197,13 +28197,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsáu",
-        "ipa": "t͡sau˥˧",
+        "ipa": "tsau˥˧",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsóo",
-        "ipa": "t͡sɔ˥˧",
+        "ipa": "tsɔ˥˧",
         "label": "文讀"
       }
     ],
@@ -28211,13 +28211,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsáu",
-        "ipa": "t͡sau˥˧",
+        "ipa": "tsau˥˧",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsóo",
-        "ipa": "t͡sɔ˥˧",
+        "ipa": "tsɔ˥˧",
         "label": "文讀"
       }
     ],
@@ -28225,13 +28225,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsáu",
-        "ipa": "t͡sau˥˧",
+        "ipa": "tsau˥˧",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsóo",
-        "ipa": "t͡sɔ˥˧",
+        "ipa": "tsɔ˥˧",
         "label": "文讀"
       }
     ],
@@ -28239,13 +28239,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsáu",
-        "ipa": "t͡sau˥˧",
+        "ipa": "tsau˥˧",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsóo",
-        "ipa": "t͡sɔ˥˧",
+        "ipa": "tsɔ˥˧",
         "label": "文讀"
       }
     ],
@@ -28267,13 +28267,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsáu",
-        "ipa": "t͡sau˥˧",
+        "ipa": "tsau˥˧",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsóo",
-        "ipa": "t͡sɔ˥˧",
+        "ipa": "tsɔ˥˧",
         "label": "文讀"
       }
     ],
@@ -28281,13 +28281,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsáu",
-        "ipa": "t͡sau˥˧",
+        "ipa": "tsau˥˧",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsóo",
-        "ipa": "t͡sɔ˥˧",
+        "ipa": "tsɔ˥˧",
         "label": "文讀"
       }
     ],
@@ -28295,13 +28295,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "chau²¹",
-        "ipa": "t͡sau˨˩",
+        "ipa": "tsau˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "cho²¹",
-        "ipa": "t͡sɔ˨˩",
+        "ipa": "tsɔ˨˩",
         "label": "文讀"
       }
     ]
@@ -28311,13 +28311,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsē",
-        "ipa": "t͡se˨˩",
+        "ipa": "tse˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsō",
-        "ipa": "t͡sɔ˨˩",
+        "ipa": "tsɔ˨˩",
         "label": "文讀"
       }
     ],
@@ -28331,7 +28331,7 @@ const HAN_VARIANTS = {
       {
         "native": "ザ",
         "surface": "za",
-        "ipa": "d͡za",
+        "ipa": "dza",
         "label": "呉音 / Go-on"
       }
     ],
@@ -28353,13 +28353,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsē",
-        "ipa": "t͡se˨˩",
+        "ipa": "tse˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsō",
-        "ipa": "t͡so˨˩",
+        "ipa": "tso˨˩",
         "label": "文讀"
       }
     ],
@@ -28367,13 +28367,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsē",
-        "ipa": "t͡se˨˩",
+        "ipa": "tse˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsō",
-        "ipa": "t͡so˨˩",
+        "ipa": "tso˨˩",
         "label": "文讀"
       }
     ],
@@ -28381,13 +28381,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsē",
-        "ipa": "t͡se˨˨",
+        "ipa": "tse˨˨",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsō",
-        "ipa": "t͡so˨˨",
+        "ipa": "tso˨˨",
         "label": "文讀"
       }
     ],
@@ -28395,13 +28395,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsē",
-        "ipa": "t͡se˨˩",
+        "ipa": "tse˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsō",
-        "ipa": "t͡so˨˩",
+        "ipa": "tso˨˩",
         "label": "文讀"
       }
     ],
@@ -28409,13 +28409,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsē",
-        "ipa": "t͡se˨˩",
+        "ipa": "tse˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsō",
-        "ipa": "t͡so˨˩",
+        "ipa": "tso˨˩",
         "label": "文讀"
       }
     ],
@@ -28423,13 +28423,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "tsē",
-        "ipa": "t͡se˨˩",
+        "ipa": "tse˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "tsō",
-        "ipa": "t͡so˨˩",
+        "ipa": "tso˨˩",
         "label": "文讀"
       }
     ],
@@ -28437,13 +28437,13 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "che³",
-        "ipa": "t͡se˨˩",
+        "ipa": "tse˨˩",
         "label": "白讀"
       },
       {
         "native": "",
         "surface": "cho³",
-        "ipa": "t͡so˨˩",
+        "ipa": "tso˨˩",
         "label": "文讀"
       }
     ]
@@ -28509,7 +28509,7 @@ const HAN_VARIANTS = {
       {
         "native": "チュウ",
         "surface": "chū",
-        "ipa": "t͡ɕɯː",
+        "ipa": "tɕɯː",
         "label": ""
       }
     ],
@@ -28535,7 +28535,7 @@ const HAN_VARIANTS = {
       {
         "native": "チュウ",
         "surface": "chū",
-        "ipa": "t͡ɕɯː",
+        "ipa": "tɕɯː",
         "label": ""
       }
     ]
@@ -28555,13 +28555,13 @@ const HAN_VARIANTS = {
       {
         "native": "シツ",
         "surface": "shitsu",
-        "ipa": "ɕit͡sɯ",
+        "ipa": "ɕitsɯ",
         "label": "漢音 / Kan-on"
       },
       {
         "native": "シチ",
         "surface": "shichi",
-        "ipa": "ɕit͡ɕi",
+        "ipa": "ɕitɕi",
         "label": "呉音 / Go-on"
       }
     ]

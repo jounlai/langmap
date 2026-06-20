@@ -21,6 +21,9 @@ line('field integrity (no leaks)', num(s, /CHECK A[^\n]*?: (\d+)/));
 line('surface↔IPA tone agreement', num(s, /CHECK B[^\n]*?: (\d+)/));
 line('phonotactic legality', num(s, /CHECK C[^\n]*?: (\d+)/));
 
+s = run('affricate_tie_check.js');
+line('affricate tie-bar (bare convention)', num(s, /affricate tie-bars: (\d+)/));
+
 s = run('variant_integrity_check.js');
 // actionable = COLLISION + DUP_LABEL + EMPTY_PROMOTE + EMPTY_MERGE (LONE_REDUNDANT/EMPTY_LABEL are informational)
 const act = ['COLLISION', 'DUP_LABEL', 'EMPTY_PROMOTE', 'EMPTY_MERGE'].reduce((a, k) => a + (num(s, new RegExp(k + ': (\\d+)')) || 0), 0);

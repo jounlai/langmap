@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1008 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1028 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -88,6 +88,26 @@ const EXCLUDED_CODES = new Set([
 ]);
 
 const LANG_DATA = {
+  "es_pr": { "name": "Puerto Rican Spanish", "native": "Español puertorriqueño", "lat": 18.47, "lng": -66.11 },
+  "es_do": { "name": "Dominican Spanish", "native": "Español dominicano", "lat": 18.49, "lng": -69.93 },
+  "es_gt": { "name": "Guatemalan Spanish", "native": "Español guatemalteco", "lat": 14.63, "lng": -90.51 },
+  "es_ec": { "name": "Ecuadorian Spanish", "native": "Español ecuatoriano", "lat": -0.18, "lng": -78.47 },
+  "es_uy": { "name": "Uruguayan Spanish", "native": "Español uruguayo", "lat": -34.9, "lng": -56.16 },
+  "ar_sy": { "name": "Syrian Arabic", "native": "اللهجة السورية", "lat": 33.51, "lng": 36.29 },
+  "ar_ye": { "name": "Yemeni Arabic", "native": "اللهجة اليمنية", "lat": 15.35, "lng": 44.21 },
+  "ar_dz": { "name": "Algerian Arabic", "native": "الدارجة الجزائرية", "lat": 36.75, "lng": 3.06 },
+  "ar_sa": { "name": "Najdi Arabic", "native": "اللهجة النجدية", "lat": 24.71, "lng": 46.68 },
+  "ar_lb": { "name": "Lebanese Arabic", "native": "اللهجة اللبنانية", "lat": 33.89, "lng": 35.5 },
+  "en_wls": { "name": "Welsh English", "native": "English (Welsh)", "lat": 51.48, "lng": -3.18 },
+  "en_jam": { "name": "Jamaican English", "native": "English (Jamaican)", "lat": 18.01, "lng": -76.79 },
+  "en_ng": { "name": "Nigerian English", "native": "English (Nigerian)", "lat": 6.52, "lng": 3.38 },
+  "en_ph": { "name": "Philippine English", "native": "English (Philippine)", "lat": 14.6, "lng": 120.98 },
+  "en_ke": { "name": "Kenyan English", "native": "English (Kenyan)", "lat": -1.29, "lng": 36.82 },
+  "fr_sn": { "name": "Senegalese French", "native": "Français sénégalais", "lat": 14.69, "lng": -17.44 },
+  "fr_ci": { "name": "Ivorian French", "native": "Français ivoirien", "lat": 5.36, "lng": -4.01 },
+  "fr_ht": { "name": "Haitian French", "native": "Français haïtien", "lat": 18.59, "lng": -72.31 },
+  "pt_mz": { "name": "Mozambican Portuguese", "native": "Português moçambicano", "lat": -25.97, "lng": 32.58 },
+  "pt_cv": { "name": "Cape Verdean Portuguese", "native": "Português cabo-verdiano", "lat": 14.93, "lng": -23.51 },
   "nl_be": { "name": "Belgian Dutch (Flemish)", "native": "Vlaams", "lat": 51.22, "lng": 4.4 },
   "en_us": { "name": "General American English", "native": "English (American)", "lat": 39.1, "lng": -94.6 },
   "en_ca": { "name": "Canadian English", "native": "English (Canadian)", "lat": 43.65, "lng": -79.38 },

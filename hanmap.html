@@ -3164,7 +3164,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=221"></script>
-    <script src="hanmap_data.js?v=103"></script>
+    <script src="hanmap_data.js?v=104"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -4073,11 +4073,27 @@
         // attach to window). Guard with typeof to avoid ReferenceError
         // if the script hasn't loaded yet.
         function chipNameFor(code) {
+            const u = uiL();
             try {
                 if (typeof LANG_NAMES === 'object' && LANG_NAMES) {
-                    const u = uiL();
                     const byLang = LANG_NAMES[u] || LANG_NAMES.ja || LANG_NAMES.en;
                     if (byLang && byLang[code]) return byLang[code];
+                }
+            } catch (_) {}
+            // HanMap fallback: a HanMap-only variety may not be in LANG_NAMES
+            // (that dict is shared with WordMap). Every HAN_LANG_META entry
+            // carries a 19-language reading_type label + name, so use that
+            // before giving up to the raw code. This keeps the filter chips
+            // localized for any current or future HanMap-only variety without
+            // having to remember to also add it to lang_names.js.
+            try {
+                const m = (typeof HAN_LANG_META === 'object' && HAN_LANG_META) ? HAN_LANG_META[code] : null;
+                if (m) {
+                    if (m.reading_type) {
+                        const rt = m.reading_type[u] || m.reading_type.ja || m.reading_type.en;
+                        if (rt) return rt;
+                    }
+                    if (m.name) return m.name;
                 }
             } catch (_) {}
             return code;

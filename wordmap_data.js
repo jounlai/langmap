@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1028 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1061 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -88,6 +88,39 @@ const EXCLUDED_CODES = new Set([
 ]);
 
 const LANG_DATA = {
+  "zdj": { "name": "Comorian (Shikomori)", "native": "Comorian (Shikomori)", "lat": -11.7, "lng": 43.26 },
+  "ayl": { "name": "Libyan Arabic", "native": "اللهجة الليبية", "lat": 32.89, "lng": 13.19 },
+  "abv": { "name": "Bahrani Arabic", "native": "العربية البحرانية / Baħrāni", "lat": 26.22, "lng": 50.58 },
+  "afb": { "name": "Gulf Arabic (Qatari)", "native": "خليجي", "lat": 25.29, "lng": 51.53 },
+  "acw": { "name": "Omani Arabic (Hijazi-Omani)", "native": "العربية العمانية (الحجازية)", "lat": 23.59, "lng": 58.41 },
+  "swb": { "name": "Maore Comorian (Mahorais)", "native": "Shimaore", "lat": -12.78, "lng": 45.23 },
+  "adx": { "name": "Amdo Tibetan", "native": "ཨ་མདོའི་སྐད་", "lat": 36.62, "lng": 101.76 },
+  "qxs": { "name": "Southern Qiang", "native": "Southern Qiang", "lat": 32.8, "lng": 103.6 },
+  "duu": { "name": "Drung (Dulong)", "native": "Tvrung kvt", "lat": 27.741, "lng": 98.666 },
+  "jya": { "name": "Situ rGyalrong", "native": "སི་གཞོ། or written in Tibetan script: སི་ཏུ་", "lat": 32, "lng": 102 },
+  "ers": { "name": "Ersu", "native": "ěrsū / 尔苏", "lat": 28.976, "lng": 102.7745 },
+  "bca": { "name": "Central Bai", "native": "白语", "lat": 25.92, "lng": 100.31 },
+  "atb": { "name": "Zaiwa (Atsi)", "native": "tsau³¹va⁵¹", "lat": 24.43, "lng": 98.58 },
+  "prk": { "name": "Parauk Wa", "native": "pa̠rauk", "lat": 23.5, "lng": 99.5 },
+  "slr": { "name": "Salar", "native": "salırça", "lat": 35.8512, "lng": 102.4891 },
+  "ybe": { "name": "Western Yugur", "native": "Western Yugur", "lat": 37.9, "lng": 100.5 },
+  "yuy": { "name": "Eastern Yugur", "native": "ئۇيغۇر", "lat": 39.3, "lng": 99.7 },
+  "mjg": { "name": "Monguor (Tu)", "native": "Monguor (Tu)", "lat": 36.32, "lng": 102.83 },
+  "sce": { "name": "Dongxiang (Santa)", "native": "Santa", "lat": 35.6, "lng": 103.2 },
+  "peh": { "name": "Bonan (Baoan)", "native": "बोनान | 保安 | Bonan", "lat": 36.02, "lng": 102.89 },
+  "bua": { "name": "Buryat", "native": "Буряад хэлэн", "lat": 51.840836, "lng": 107.608093 },
+  "cjs": { "name": "Shor", "native": "Шор тили", "lat": 53.26, "lng": 88.54 },
+  "dlg": { "name": "Dolgan", "native": "Долган тили", "lat": 71, "lng": 102.3 },
+  "kdt": { "name": "Kuy", "native": "Kuy", "lat": 13.75, "lng": 105 },
+  "blk": { "name": "Pa’O", "native": "ပအိုဝ်ႏဘာႏသာႏ", "lat": 19, "lng": 97.15 },
+  "njo": { "name": "Ao Naga", "native": "Ao (Chungli Ao: Ao, Mongsen Ao: Aa)", "lat": 26.17, "lng": 94.51 },
+  "srb": { "name": "Sora", "native": "Sora", "lat": 19, "lng": 84 },
+  "kjg": { "name": "Khmu", "native": "Kmhmu'", "lat": 19.89, "lng": 102.13 },
+  "mro": { "name": "Mru", "native": "Mru (ꯃꯔꯨ in Mru script)", "lat": 21.775, "lng": 92.2 },
+  "gon": { "name": "Gondi", "native": "गोंडी / కోయం (Gōṇḍī / Koitur)", "lat": 20.5, "lng": 79 },
+  "bfq": { "name": "Badaga", "native": "Badaga", "lat": 11.417, "lng": 76.683 },
+  "som": { "name": "Somali", "native": "Soomaali", "lat": 2.05, "lng": 45.32 },
+  "har": { "name": "Harari", "native": "Gēy Sinan", "lat": 9.3126, "lng": 42.1227 },
   "es_pr": { "name": "Puerto Rican Spanish", "native": "Español puertorriqueño", "lat": 18.47, "lng": -66.11 },
   "es_do": { "name": "Dominican Spanish", "native": "Español dominicano", "lat": 18.49, "lng": -69.93 },
   "es_gt": { "name": "Guatemalan Spanish", "native": "Español guatemalteco", "lat": 14.63, "lng": -90.51 },

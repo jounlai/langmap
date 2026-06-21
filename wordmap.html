@@ -2756,7 +2756,15 @@
             .then(geojson => {
                 L.geoJSON(geojson, {
                     style: (feature) => {
-                        const name = feature.properties.ADMIN || feature.properties.name || '';
+                        let name = feature.properties.ADMIN || feature.properties.name || '';
+                        // The source country data renders Crimea inside Russia's
+                        // geometry, so the peninsula was taking Russia's fill colour
+                        // (a recurring complaint). Give Russia and Ukraine a single
+                        // shared colour so Crimea matches both sides and the map
+                        // stays politically neutral. (User request 2026-06-21.)
+                        if (name === 'Russia' || name === 'Russian Federation' || name === 'Ukraine') {
+                            name = 'Russia/Ukraine';
+                        }
                         let hash = 0;
                         for (let i = 0; i < name.length; i++) {
                             hash = ((hash << 5) - hash + name.charCodeAt(i)) | 0;

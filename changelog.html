@@ -142,6 +142,13 @@
         <nav class="month-nav">Months: <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-06-21 — Word Map: +8 pluricentric varieties (1,000 → 1,008)</div>
+            <ul>
+                <li>A contributor pointed out that Flemish (Belgian Dutch) — same spelling as Netherlands Dutch but a quite different pronunciation — was missing. Added it plus seven more national/regional standard varieties of pluricentric languages, following the existing <code>fr_be</code> / <code>de_at</code> precedent: <strong>nl_be</strong> Belgian Dutch (Flemish), <strong>en_us</strong> General American, <strong>en_ca</strong> Canadian English, <strong>en_za</strong> South African English, <strong>de_ch</strong> Swiss Standard German, <strong>pt_ao</strong> Angolan Portuguese, <strong>es_ve</strong> Venezuelan Spanish, and <strong>ca_va</strong> Valencian. Each carries all 20 word readings with variety-specific IPA, full metadata, a map location, and a localized name in all 19 UI languages. (en_us notably fills a real gap — the base "English" entry is British RP, so General American was previously unrepresented.) Heading toward 1,111.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-06-21 — Both maps: unify affricate IPA to bare digraphs (drop tie bar)</div>
             <ul>
                 <li>A user noticed affricates were inconsistently written with vs without the IPA tie bar (t͡s vs ts). After confirming the scope — varieties split between the two conventions — we standardised the whole project on the <strong>bare digraph</strong> (ts, tsʰ, tɕ, dz, dʒ, qχ, …): it is the Sinological norm, was already the majority, and the combining tie bar renders unreliably across the maps' many fonts (both forms are valid IPA, so no accuracy is lost). Removed the tie bar from ~850 affricates across Han Map and all 20 Word Map word files, while keeping it on genuine non-affricate co-articulations (e.g. the labial-velar nasal ŋ͡m). Added a deterministic guard (<code>affricate_tie_check.js</code>, now the 10th data check) so the convention can't silently regress.</li>

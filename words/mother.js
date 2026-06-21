@@ -54,6 +54,13 @@ WORDS.mother = {
     sw: "Mama — umbo la kawaida/la kamusi; usawa wa lugha hutofautiana.",
   },
   data: {
+      xav: ["atéze", "aˈteze"],
+      ter: ["õ", "õ"],
+      bor: ["e", "e"],
+      trn: ["meme", "meme"],
+      ake: ["saŋ", "sɑŋ"],
+      aoc: ["mamã", "mama"],
+      gun: ["sy", "ˈsɨ"],
       zdj: ["mama", "mama"],
       ayl: ["أم", "ʔɛmm"],
       abv: ["أم / أمي", "ʔəm / ʔæmːi"],

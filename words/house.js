@@ -54,6 +54,13 @@ WORDS.house = {
     sw: "Nyumba / makazi — neno la kila siku la makazi; katika baadhi ya lahaja laweza kuwa kifungu cha mahali (mfano \"ndani ya nyumba\") kilichotwaliwa kuwa neno la \"nyumba\".",
   },
   data: {
+      xav: ["hoze", "ˈhoze"],
+      ter: ["ovongu", "ovoŋɡu"],
+      bor: ["jara", "jaɾa"],
+      trn: ["tano", "tano"],
+      ake: ["enna", "en.na"],
+      aoc: ["karata", "kaɾata"],
+      gun: ["óga", "ˈo.ɡa"],
       zdj: ["nyumba", "ɲũba"],
       ayl: ["دار", "daːr"],
       abv: ["بيت / بيتة", "bæjt / bæjtə"],

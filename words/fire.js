@@ -54,6 +54,13 @@ WORDS.fire = {
     sw: "Moto / mwali kama jambo la kuwaka; si \"kibiriti\" au \"moto wa kambi\".",
   },
   data: {
+      xav: ["tsadã", "tsaˈdɐ̃"],
+      ter: ["yukú", "juku"],
+      bor: ["owe", "ɔwe"],
+      trn: ["yuku", "juku"],
+      ake: ["abɔk", "ə.bɔk"],
+      aoc: ["ü", "y"],
+      gun: ["tata", "ta.ˈta"],
       zdj: ["moto", "moto"],
       ayl: ["نار", "naːr"],
       abv: ["نار", "nɑːr"],

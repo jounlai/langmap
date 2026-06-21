@@ -54,6 +54,13 @@ WORDS.love = {
     sw: "Neno/shina la msingi la upendo au kupendana; nomino au kitenzi kulingana na lugha; si salamu.",
   },
   data: {
+      xav: ["tsiboze", "tsiˈboze"],
+      ter: ["ono", "ono"],
+      bor: ["cya", "tʃja"],
+      trn: ["timosi", "timosi"],
+      ake: ["waiko", "wai.ko"],
+      aoc: ["kemenü", "kemenü"],
+      gun: ["rohayhu", "ro.ha.ˈɨ.u"],
       ybe: ["—", "—"],
       zdj: ["upendo", "uːpendo"],
       ayl: ["حب", "ħɛb"],

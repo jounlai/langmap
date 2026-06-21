@@ -54,6 +54,13 @@ WORDS.thanks = {
     sw: "Msemo wa shukrani unaonenwa katika lugha za kisasa. Kwa lugha za kihistoria tumia \"—\" au nomino ya shukrani/kiimani iliyotajwa; usitunge.",
   },
   data: {
+      xav: ["adzé roma", "aˈdze ˈɾoma"],
+      ter: ["obrigado", "obriɡado"],
+      bor: ["iya", "ija"],
+      trn: ["meri", "meri"],
+      ake: ["tabe", "ta.be"],
+      aoc: ["mïrako", "miɾakɯ"],
+      gun: ["aguyje", "a.ɡu.ˈɨ.ʒe"],
       qxs: ["—", "—"],
       zdj: ["Marahaba", "marahaːba"],
       ayl: ["شكرا", "ʃʊkrɑ"],

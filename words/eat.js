@@ -54,6 +54,13 @@ WORDS.eat = {
     sw: "Kitenzi \"kula\" — tumia umbo la kawaida la kamusi; toa noti kupitia wordEvidence.note.",
   },
   data: {
+      xav: ["adzé", "aˈdze"],
+      ter: ["yoho", "joho"],
+      bor: ["paje", "paje"],
+      trn: ["chika", "tʃika"],
+      ake: ["enu", "e.nu"],
+      aoc: ["manepotaro", "manepoɾaɾɯ"],
+      gun: ["jepota", "ʒe.ˈpo.ta"],
       zdj: ["kula", "kula"],
       ayl: ["أكل", "ʔakɛl"],
       abv: ["أكل / يأكل", "ʔəkɑl / jəʔkəl"],

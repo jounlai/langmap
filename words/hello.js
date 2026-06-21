@@ -54,6 +54,13 @@ WORDS.hello = {
     sw: "Salamu ya kawaida isiyo na ushawishi wa wakati. Salamu za saa (asubuhi/jioni) ikiwa hakuna umbo la jumla; baraka kama \"amani\" zinapokubaliwa kama salamu ya kawaida.",
   },
   data: {
+      xav: ["wazéimhõ", "wazeˈimɦɔ̃"],
+      ter: ["kumé", "kume"],
+      bor: ["are", "aɾe"],
+      trn: ["pejamikpo", "pehamiho"],
+      ake: ["kapon", "ka.pon"],
+      aoc: ["apî", "api"],
+      gun: ["mba'éichapa", "m.ba.ˈe.i.ʃa.pa"],
       zdj: ["Jeje / Bariza", "dʒedʒe / baːriza"],
       ayl: ["أهلا", "ʔəhlæ"],
       abv: ["مرحبا / السلام عليكم", "mɑrħɑbæ / əs.sæːlɑːm ʕæ.læj.kəm"],

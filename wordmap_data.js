@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1061 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1068 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -88,6 +88,13 @@ const EXCLUDED_CODES = new Set([
 ]);
 
 const LANG_DATA = {
+  "xav": { "name": "Xavante", "native": "A'ũwe", "lat": -14.5, "lng": -52.5 },
+  "ter": { "name": "Terena", "native": "Terêna", "lat": -20.32, "lng": -55.5 },
+  "bor": { "name": "Bororo", "native": "Bɔrɔ", "lat": -15.8, "lng": -56.5 },
+  "trn": { "name": "Trinitario Mojeño", "native": "Mojeño Trinitario", "lat": -15.33, "lng": -65.41 },
+  "ake": { "name": "Akawaio", "native": "Akawaio", "lat": 6.16, "lng": -60.86 },
+  "aoc": { "name": "Pemón", "native": "Pemon", "lat": 4.5, "lng": -62 },
+  "gun": { "name": "Mbyá Guaraní", "native": "Mbyá Guaraní", "lat": -25.5, "lng": -54.5 },
   "zdj": { "name": "Comorian (Shikomori)", "native": "Comorian (Shikomori)", "lat": -11.7, "lng": 43.26 },
   "ayl": { "name": "Libyan Arabic", "native": "اللهجة الليبية", "lat": 32.89, "lng": 13.19 },
   "abv": { "name": "Bahrani Arabic", "native": "العربية البحرانية / Baħrāni", "lat": 26.22, "lng": 50.58 },

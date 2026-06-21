@@ -54,6 +54,13 @@ WORDS.cat = {
     sw: "Paka wa nyumbani (Felis catus); umbo la kamusi/la kawaida; jinsia katika wordEvidence.note inapohitajika.",
   },
   data: {
+      xav: ["tsabizá", "tsabiˈza"],
+      ter: ["ãno", "ãno"],
+      bor: ["kuie", "kwie"],
+      trn: ["ojchi", "otʃi"],
+      ake: ["mïta", "mɨ.ta"],
+      aoc: ["kïrïmï", "kirimi"],
+      gun: ["jaguá", "ʒa.ɡu.ˈa"],
       zdj: ["paka", "paka"],
       ayl: ["قطوس", "ɡatˤːuːs"],
       abv: ["قطة / قِط", "qɪtːə / qɪt"],

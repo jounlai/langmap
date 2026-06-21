@@ -54,6 +54,13 @@ WORDS.tree = {
     sw: "Mti (mmea wa miti); si aina maalum wala si \"mbao\".",
   },
   data: {
+      xav: ["wazá", "waˈza"],
+      ter: ["yõ", "jõ"],
+      bor: ["mae", "mae"],
+      trn: ["iti", "iti"],
+      ake: ["pupö", "pu.pɔ"],
+      aoc: ["tïmö", "timɯ"],
+      gun: ["yvyra", "ɨ.vɨ.ˈra"],
       zdj: ["mti", "ᵐti"],
       ayl: ["شجرة", "ʃæɡːərɑ"],
       abv: ["شجرة", "ʃɑʒərə"],

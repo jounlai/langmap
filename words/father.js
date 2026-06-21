@@ -54,6 +54,13 @@ WORDS.father = {
     sw: "Baba — umbo la kamusi/la kawaida; sera ile ile kama \"mama\".",
   },
   data: {
+      xav: ["adzé", "aˈdze"],
+      ter: ["ãno", "ãno"],
+      bor: ["apyge", "apɨɡe"],
+      trn: ["tata", "tata"],
+      ake: ["papai", "pa.pai"],
+      aoc: ["papai", "papɑ̃i"],
+      gun: ["tupa", "ˈtu.pa"],
       zdj: ["baba", "ɓaba"],
       ayl: ["أب", "ʔab"],
       abv: ["أب / أبو", "ʔəb / ʔæbu"],

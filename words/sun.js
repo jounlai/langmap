@@ -54,6 +54,13 @@ WORDS.sun = {
     sw: "Jua kama linavyoonekana kutoka Dunia; \"jua angani\".",
   },
   data: {
+      xav: ["marã", "maˈɾɐ̃"],
+      ter: ["kaché", "kaʃe"],
+      bor: ["parado", "paɾadu"],
+      trn: ["choo", "tʃo"],
+      ake: ["weyu", "we.ju"],
+      aoc: ["wato", "watɯ"],
+      gun: ["nhamandu", "ɲã.mɑ̃.ˈdu"],
       zdj: ["jua", "dʒua"],
       ayl: ["شمس", "ʃəmːɛs"],
       abv: ["شمس", "ʃæms"],

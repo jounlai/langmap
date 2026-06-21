@@ -2855,6 +2855,16 @@
         // Also rebuilds WORD_LIST for any reader that still uses it.
         function _mergeWordsIntoLangData() {
             if (typeof WORD_ORDER === 'undefined' || !window.WORDS) return;
+            // Defensive: guarantee EVERY LANG_DATA entry has a `.words` object,
+            // even one whose per-word file hasn't loaded (e.g. a browser still
+            // serving a stale cached words/*.js while a freshly-bumped
+            // wordmap_data.js has already added the new language code). Without
+            // this, getVisibleLangs() etc. would hit `lang.words[wordId]` on an
+            // undefined `.words` and throw, blanking the whole map during a
+            // cache-version transition.
+            for (const code in LANG_DATA) {
+                if (LANG_DATA[code] && !LANG_DATA[code].words) LANG_DATA[code].words = {};
+            }
             for (const id of WORD_ORDER) {
                 const w = window.WORDS[id];
                 if (!w || !w.data) continue;
@@ -4000,12 +4010,12 @@
                    : 0);
             if (showHistorical) {
                 for (const [hist, modern] of Object.entries(HIST_DESCENDANT)) {
-                    if (!LANG_DATA[hist] || !LANG_DATA[hist].words[wordId]) continue;
+                    if (!LANG_DATA[hist] || !LANG_DATA[hist].words || !LANG_DATA[hist].words[wordId]) continue;
                     if (isUnattestedEntry(LANG_DATA[hist].words[wordId])) {
                         unattestedLangs.push(hist);
                     } else {
                         visibleLangs.push(hist);
-                        if (modern && LANG_DATA[modern] && LANG_DATA[modern].words[wordId] && !isUnattestedEntry(LANG_DATA[modern].words[wordId])) {
+                        if (modern && LANG_DATA[modern] && LANG_DATA[modern].words && LANG_DATA[modern].words[wordId] && !isUnattestedEntry(LANG_DATA[modern].words[wordId])) {
                             descendantCodes.add(modern);
                         }
                     }
@@ -4014,7 +4024,7 @@
             } else {
                 for (const [code, lang] of Object.entries(LANG_DATA)) {
                     if (EXCLUDED_CODES.has(code)) continue;
-                    if (!lang.words[wordId]) continue;
+                    if (!lang.words || !lang.words[wordId]) continue;
                     if (tierMin > 0 && langSpeakerCount(code) < tierMin) continue;
                     if (isUnattestedEntry(lang.words[wordId])) {
                         unattestedLangs.push(code);

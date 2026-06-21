@@ -72,7 +72,7 @@ WORDS.mother = {
       gan_ja: ["妈妈", "ma˦˨ma"],
       gan_fz: ["母", "mu˧"],
       cjy_lv: ["妈妈", "ma˩ma"],
-      cjy_xz: ["波", "pua¹¹"],
+      cjy_xz: ["妈", "ma¹¹"],
       hsn_hy: ["媽媽", "ma˥˩ ma˥˩"],
       hsn_yz: ["媽", "ma˧˥"],
       czh_wy: ["妈", "ma˧˧"],

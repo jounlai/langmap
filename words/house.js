@@ -166,7 +166,7 @@ WORDS.house = {
       en_za: ["house", "haʊs"],
       de_ch: ["Haus", "haʊs"],
       pt_ao: ["casa", "kaza"],
-      es_ve: ["casa", "kah"],
+      es_ve: ["casa", "kasa"],
       ca_va: ["casa", "kaza"],
     ja: ["家", "ie"],
     ja_osa: ["家", "ie"],

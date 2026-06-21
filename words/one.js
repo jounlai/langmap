@@ -118,7 +118,7 @@ WORDS.one = {
       jya: ["tʃʰiʂ", "tʃʰiʂ"],
       ers: ["tə", "tə"],
       bca: ["tshit", "tʃʰɪt"],
-      atb: ["ra", "ʒa21"],
+      atb: ["ra21", "ʒa21"],
       prk: ["tʃit", "tʃit"],
       slr: ["bir", "bir"],
       ybe: ["بىر", "bir"],

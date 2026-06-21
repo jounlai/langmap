@@ -112,7 +112,7 @@ WORDS.dog = {
       afb: ["كلب", "kalb"],
       acw: ["كلب", "kalb"],
       swb: ["mbwa", "ɱbwa"],
-      adx: ["ཁྱི་ མོ་", "tʂʰə"],
+      adx: ["ཁྱི་ མོ་", "tʂʰə mɔ"],
       qxs: ["kʰwe", "kʰwe"],
       duu: ["kʰja", "kʰja"],
       jya: ["kʰə", "kʰə"],

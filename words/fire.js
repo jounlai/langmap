@@ -104,7 +104,7 @@ WORDS.fire = {
       bor: ["owe", "ɔwe"],
       trn: ["yuku", "juku"],
       ake: ["abɔk", "ə.bɔk"],
-      aoc: ["ü", "y"],
+      aoc: ["apok", "apɔk"],
       gun: ["tata", "ta.ˈta"],
       zdj: ["moto", "moto"],
       ayl: ["نار", "naːr"],

@@ -69,7 +69,7 @@ WORDS.mother = {
       gcr: ["manman", "mɑ̃mɑ̃"],
       acf: ["manman", "mɑ̃mɑ̃"],
       gan_yc: ["媽", "ma˧˩"],
-      gan_ja: ["妈妈", "ma˦˨ma"],
+      gan_ja: ["妈妈", "ma˦˨ma˦˨"],
       gan_fz: ["母", "mu˧"],
       cjy_lv: ["妈妈", "ma˩ma"],
       cjy_xz: ["妈", "ma¹¹"],

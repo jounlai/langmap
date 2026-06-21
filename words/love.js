@@ -96,7 +96,7 @@ WORDS.love = {
       tsz: ["uémbekua", "weˈmbekwa"],
       nez: ["—", "—"],
       woe: ["—", "—"],
-      pmt: ["aloha", "aloha"],
+      pmt: ["aroha", "ʔaroha"],
       bin: ["arhuẹmwonmwan", "arhuemwonmwan"],
       khw: ["پیار", "piaːr"],
       xav: ["tsiboze", "tsiˈboze"],

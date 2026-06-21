@@ -607,7 +607,7 @@ Total: 1112 codes.
 | `mer` | Meru | メル語 | Niger-Congo (Atlantic-Congo, Bantu, E.50/E.60 — Mount Kenya cluster) | ~2M |
 | `meu` | Motu | モツ語 | Austronesian (Malayo-Polynesian, Oceanic, Western, Papuan Tip) | ~14K |
 | `mev` | Mano | マノ語 | Niger-Congo | ~400K |
-| `mey` | Hassaniya Arabic | ハサニーヤ・アラビア語 | Afro-Asiatic (Semitic) | ~5 million (L1 speakers; Ethnologue 27 2024). Primary speakers: Bidhan (Mauritanian Moors) |
+| `mey` | Hassaniya Arabic | ハサニーヤ・アラビア語 | Semitic (Maghrebi Arabic, Saharan) | ~5M |
 | `mez` | Menominee | メノミニー語 | Algonquian (Central) | ~35 L1 + revitalization L2 |
 | `mfa` | Patani Malay | パタニ・マレー語 | Austronesian (Malayo-Polynesian, Malayic) | ~3M |
 | `mfe` | Mauritian Creole | モーリシャス・クレオール | French-based creole | ~1.3M |
@@ -922,7 +922,7 @@ Total: 1112 codes.
 | `tcy` | Tulu | トゥル語 | Dravidian (Southern) | ~1.85M |
 | `tdh` | Thulung | トゥルン語 | Sino-Tibetan (Tibeto-Burman, Kiranti, Western) | ~33K |
 | `te` | Telugu | テルグ語 | Dravidian | ~83M |
-| `tem` | Themne | テムネ語 | Niger-Congo (Mel) | approximately 3.5 million L1 speakers in Sierra Leone (Northern Province, Western Area); 4 |
+| `tem` | Themne | テムネ語 | Atlantic-Congo (Mel) | ~1.5M |
 | `teo` | Ateso | アテソ語 | Nilo-Saharan (Eastern Nilotic, Teso-Turkana) | ~2M |
 | `ter` | Terena | テレナ語 | Arawakan | 9,000-15,000 (estimated, 2006 census) |
 | `tet` | Tetum | テトゥン語 | Austronesian (Central Malayo-Polynesian) | ~500K |

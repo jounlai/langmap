@@ -155,7 +155,7 @@ WORDS.hello = {
       en_ke: ["hello", "həˈlo"],
       fr_sn: ["bonjour", "bɔ̃ʒuʁ"],
       fr_ci: ["bonjour", "bɔ̃ʒuʁ"],
-      fr_ht: ["bonjour", "bɔ̃ʒuɣ"],
+      fr_ht: ["bonjour", "bɔ̃ʒuʁ"],
       pt_mz: ["olá", "ɔˈla"],
       pt_cv: ["olá", "ɔˈla"],
       nl_be: ["hallo", "ɦɑloː"],

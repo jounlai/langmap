@@ -138,7 +138,7 @@ WORDS.eye = {
       bfq: ["kannu", "kɑnːu"],
       som: ["il", "ɪl"],
       har: ["ʿäyin", "ʕæjin"],
-      es_pr: ["ojo", "oxo"],
+      es_pr: ["ojo", "oho"],
       es_do: ["ojo", "oxo"],
       es_gt: ["ojo", "oxo"],
       es_ec: ["ojo", "oxo"],

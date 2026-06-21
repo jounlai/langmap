@@ -155,7 +155,7 @@ WORDS.thanks = {
       en_ke: ["thank you", "tæŋk juː"],
       fr_sn: ["merci", "mɛʁsi"],
       fr_ci: ["merci", "mɛʁsi"],
-      fr_ht: ["merci", "mɛɣsi"],
+      fr_ht: ["merci", "mɛʁsi"],
       pt_mz: ["obrigado", "obɾiˈɡadu"],
       pt_cv: ["obrigado", "ɔ.βɾiˈɣa.ðu"],
       nl_be: ["dank je", "dɑŋk jə"],

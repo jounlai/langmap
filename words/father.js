@@ -155,7 +155,7 @@ WORDS.father = {
       en_ke: ["father", "ˈfɑːðə"],
       fr_sn: ["père", "pɛʁ"],
       fr_ci: ["père", "pɛʁ"],
-      fr_ht: ["père", "pɛɣ"],
+      fr_ht: ["père", "pɛʁ"],
       pt_mz: ["pai", "paj"],
       pt_cv: ["pai", "ˈpaj"],
       nl_be: ["vader", "vaːdər"],

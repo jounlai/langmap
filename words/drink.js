@@ -155,7 +155,7 @@ WORDS.drink = {
       en_ke: ["drink", "dɹɪŋk"],
       fr_sn: ["boire", "bwaʁ"],
       fr_ci: ["boire", "bwaʁ"],
-      fr_ht: ["boire", "bwaɣ"],
+      fr_ht: ["boire", "bwaʁ"],
       pt_mz: ["beber", "bɨˈbeɾ"],
       pt_cv: ["beber", "bɨˈβeɾ"],
       nl_be: ["drinken", "drɪŋkən"],

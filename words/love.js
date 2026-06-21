@@ -155,7 +155,7 @@ WORDS.love = {
       en_ke: ["love", "lʌv"],
       fr_sn: ["amour", "amuʁ"],
       fr_ci: ["amour", "amuʁ"],
-      fr_ht: ["amour", "amuɣ"],
+      fr_ht: ["amour", "amuʁ"],
       pt_mz: ["amor", "ɐˈmoɾ"],
       pt_cv: ["amor", "ɐˈmoɾ"],
       nl_be: ["liefde", "lifdə"],

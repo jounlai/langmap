@@ -155,7 +155,7 @@ WORDS.heart = {
       en_ke: ["heart", "hɑːt"],
       fr_sn: ["cœur", "kœʁ"],
       fr_ci: ["cœur", "kœʁ"],
-      fr_ht: ["cœur", "kœɣ"],
+      fr_ht: ["cœur", "kœʁ"],
       pt_mz: ["coração", "kuɾɐˈsɐ̃w"],
       pt_cv: ["coração", "ku.ɾɐˈsɐ̃w̃"],
       nl_be: ["hart", "ɦɑrt"],

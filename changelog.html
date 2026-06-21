@@ -134,12 +134,22 @@
                 <li><span class="count">700</span> languages <span class="when">— 2026-05-07 (<code>c44ec37</code>)</span></li>
                 <li><span class="count">800</span> languages <span class="when">— 2026-05-07 (<code>80f2640</code>, batches 50–60, 787 → 818)</span></li>
                 <li><span class="count">900</span> languages <span class="when">— 2026-05-08 (<code>08340ae</code>, batches 76–82, 880 → 901)</span></li>
-                <li><span class="count">1,000</span> languages <span class="when">— 2026-05-28 (<code>33e63ca</code> 🎉; official count settled 2026-06-09, <code>ac794b0</code>) — current</span></li>
+                <li><span class="count">1,000</span> languages <span class="when">— 2026-05-28 (<code>33e63ca</code> 🎉; official count settled 2026-06-09, <code>ac794b0</code>)</span></li>
+                <li><span class="count">1,111</span> languages <span class="when">— 2026-06-21 (multithreaded fill of thin regions — west China, zero-dot Africa/ME, South America — plus pluricentric and 中国语言地图集 dialect points; settled at 1,112 after a five-round QA pass) — current</span></li>
             </ul>
-            <p class="lead" style="margin-top:8px">The Word Map carries 1,000 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 109 varieties across 61 characters.</p>
+            <p class="lead" style="margin-top:8px">The Word Map carries 1,112 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 119 Sinitic varieties across 61 characters.</p>
         </div>
 
         <nav class="month-nav">Months: <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Word Map: five-round QA pass on the newly-added languages</div>
+            <ul>
+                <li>After growing the Word Map past 1,100, ran <strong>five rounds</strong> of an 8-thread, web-verifying review focused only on the ~112 languages added this round. Each finding had to be confirmed against Wiktionary / dictionaries / grammars by a separate strict verifier before applying. Net result across the five rounds: about <strong>60 source-confirmed corrections</strong> applied and <strong>~150 candidates rejected</strong>. Representative fixes: a language whose every word was the pronoun instead of the headword (Northern Luri <em>water</em> او→av, <em>mother</em> مار "snake"→مادر), several concepts that had collapsed to one form (Comanche <em>fire</em>=<em>sun</em>, Oneida <em>mother</em>=<em>tree</em>), Comorian <em>j</em> = /dʒ/, Amdo Tibetan IPA repaired while keeping the Tibetan-script surfaces, and a Puerto-Rican / Venezuelan / Panama weak-jota correction (<em>ojo</em> /oxo/→/oho/).</li>
+                <li><strong>Discipline: preserve real dialect features, fix only genuine errors.</strong> The bulk of the ~150 rejections were the verifier trying to "standardise" deliberate, internally-consistent dialect phonology — Puerto-Rican /r/→[l] and final-/d/ drop, Dominican final-consonant deletion, Malaysian-English final devoicing, Caribbean /x/→[h], Sanaani Yemeni ق→[g], the Shanxi 水→/fei/ shift, frozen Maghrebi articles — all left intact. A round-2 over-correction (stripping the tone off one Zaiwa word, which broke that language's own tone-in-spelling convention) was caught and reverted in round 4.</li>
+                <li><strong>Two entries removed (1,114 → 1,112).</strong> The review caught <em>Bonan</em> (<code>peh</code>) — its every "Bonan" word was actually Nepali written in Devanagari, though Bonan is a Mongolic language of Qinghai with no relation to Nepali — and <em>Western Apache</em> (<code>nv2</code>), a byte-for-byte duplicate of the existing <code>apw</code> entry. Better unrecorded than fabricated, so both were dropped rather than patched.</li>
+            </ul>
+        </div>
 
         <div class="entry">
             <div class="date">2026-06-21 — Word Map: +8 pluricentric varieties (1,000 → 1,008)</div>

@@ -113,7 +113,7 @@ WORDS.tree = {
       afb: ["شجرة", "ʃɑʒɑra"],
       acw: ["شجرة", "ʃajaɾa"],
       swb: ["mti", "mti"],
-      adx: ["ཤིང་", "dɔj wɔ"],
+      adx: ["ཤིང་", "ʂɪŋ"],
       qxs: ["tʃʰoː", "tʃʰoː"],
       duu: ["sim", "sim"],
       jya: ["sin", "sin"],

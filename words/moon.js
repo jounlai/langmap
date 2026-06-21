@@ -84,7 +84,7 @@ WORDS.moon = {
       win: ["huhawira", "huhaˈwiɾa"],
       cro: ["šuúa", "ʃua"],
       hai: ["x̱aad", "χɑːt̚"],
-      cic: ["hashi'", "haʃiʔ"],
+      cic: ["hashi' ninak aya", "haʃiʔ ninaʔ aja"],
       ik: ["tatqiq", "tatqiq"],
       na: ["maraman", "maraman"],
       luz: ["ماه", "mɑh"],

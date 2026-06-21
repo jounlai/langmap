@@ -113,7 +113,7 @@ WORDS.drink = {
       afb: ["شرب", "ʃɑrɑb"],
       acw: ["يشرب", "jiʃɾab"],
       swb: ["kunywa", "kunwa"],
-      adx: ["ཐུང་", "tʰɔj"],
+      adx: ["ཐུང་", "tʰuŋ"],
       qxs: ["ʂu", "ʂu"],
       duu: ["pə", "pə"],
       jya: ["nə-tɕʰə-n", "nə.tɕʰə.n"],

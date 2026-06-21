@@ -112,7 +112,7 @@ WORDS.sun = {
       abv: ["شمس", "ʃæms"],
       afb: ["شمس", "ʃɑms"],
       acw: ["شمس", "ʃams"],
-      swb: ["jua", "dua"],
+      swb: ["jua", "dʒua"],
       adx: ["ཉི་མ་", "ɲəmɑ"],
       qxs: ["ɲit", "ɲit"],
       duu: ["nɯ", "nɯ"],

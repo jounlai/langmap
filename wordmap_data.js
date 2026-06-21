@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1068 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1100 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -88,6 +88,38 @@ const EXCLUDED_CODES = new Set([
 ]);
 
 const LANG_DATA = {
+  "gan_yc": { "name": "Gan Chinese (Yichun)", "native": "宜春話", "lat": 27.81, "lng": 114.42 },
+  "gan_ja": { "name": "Gan Chinese (Jiʼan)", "native": "吉安贛語", "lat": 27.11, "lng": 114.99 },
+  "gan_fz": { "name": "Gan Chinese (Fuzhou)", "native": "Gan Chinese (Fuzhou)", "lat": 27.95, "lng": 116.36 },
+  "cjy_lv": { "name": "Jin Chinese (Lishi/Lüliang)", "native": "吕梁晋语", "lat": 37.52, "lng": 111.13 },
+  "cjy_xz": { "name": "Jin Chinese (Xinzhou)", "native": "Jin Chinese (Xinzhou)", "lat": 38.42, "lng": 112.73 },
+  "hsn_hy": { "name": "Xiang Chinese (Hengyang)", "native": "衡州話 / 衡陽湘語", "lat": 26.89, "lng": 112.57 },
+  "hsn_yz": { "name": "Xiang Chinese (Yongzhou)", "native": "Xiang Chinese (Yongzhou)", "lat": 26.42, "lng": 111.61 },
+  "czh_wy": { "name": "Hui Chinese (Wuyuan)", "native": "徽州话（婺源）", "lat": 29.25, "lng": 117.86 },
+  "bla": { "name": "Blackfoot", "native": "Siksiká Iʼksistamiʼkssin", "lat": 49, "lng": -112 },
+  "hop": { "name": "Hopi", "native": "Hopílavayi", "lat": 35.907, "lng": -110.6093 },
+  "com": { "name": "Comanche", "native": "nʉmʉnʉʉ", "lat": 34.75, "lng": -98.5 },
+  "one": { "name": "Oneida", "native": "Onʌyota'káhkahʌ", "lat": 43, "lng": -75.5 },
+  "ono": { "name": "Onondaga", "native": "Onoñdaʼgegáʼ nigaweñoʼdeñʼ", "lat": 42.95, "lng": -76.2 },
+  "win": { "name": "Ho-Chunk (Winnebago)", "native": "Ho-Chunk (Winnebago)", "lat": 44.31, "lng": -90.8 },
+  "cro": { "name": "Crow", "native": "Apsáalooke", "lat": 47.5, "lng": -107.5 },
+  "hai": { "name": "Haida", "native": "Haidax", "lat": 54, "lng": -132.5 },
+  "cic": { "name": "Chickasaw", "native": "Chikashshanompa'", "lat": 34.774, "lng": -96.678 },
+  "ik": { "name": "Iñupiaq", "native": "Iñupiatun", "lat": 71.29, "lng": -156.79 },
+  "na": { "name": "Nauruan", "native": "dorerin Naoero", "lat": -0.53, "lng": 166.93 },
+  "luz": { "name": "Northern Luri", "native": "لری شمالی", "lat": 33.34, "lng": 47.98 },
+  "es_bo": { "name": "Bolivian Spanish", "native": "Español boliviano", "lat": -17, "lng": -65.3 },
+  "es_py": { "name": "Paraguayan Spanish", "native": "español paraguayo", "lat": -25.27, "lng": -57.65 },
+  "es_pa": { "name": "Panamanian Spanish", "native": "español panameño", "lat": 8.5, "lng": -80 },
+  "en_my": { "name": "Malaysian English", "native": "Malaysian English", "lat": 4.21, "lng": 101.69 },
+  "pt_gw": { "name": "Guinea-Bissau Portuguese/Kriol", "native": "Kriol", "lat": 11.9, "lng": -15.05 },
+  "tsz": { "name": "Purépecha", "native": "P'urhépecha", "lat": 19.52, "lng": -101.6 },
+  "nez": { "name": "Nez Perce", "native": "Nimipuutímt", "lat": 46.4, "lng": -116.8 },
+  "nv2": { "name": "Western Apache", "native": "Ndee bizaa", "lat": 33.84, "lng": -109.96 },
+  "woe": { "name": "Woleaian", "native": "Woleaian", "lat": 7.3667, "lng": 143.9 },
+  "pmt": { "name": "Tuamotuan", "native": "Reʻo Paʻumotu", "lat": -18.7963, "lng": -141.584 },
+  "bin": { "name": "Edo (Bini)", "native": "Ẹ̀dó", "lat": 6.34, "lng": 5.62 },
+  "khw": { "name": "Khowar", "native": "کھوار", "lat": 35.85, "lng": 71.8 },
   "xav": { "name": "Xavante", "native": "A'ũwe", "lat": -14.5, "lng": -52.5 },
   "ter": { "name": "Terena", "native": "Terêna", "lat": -20.32, "lng": -55.5 },
   "bor": { "name": "Bororo", "native": "Bɔrɔ", "lat": -15.8, "lng": -56.5 },

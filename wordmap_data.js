@@ -150,7 +150,7 @@ const LANG_DATA = {
   "adx": { "name": "Amdo Tibetan", "native": "ཨ་མདོའི་སྐད་", "lat": 36.62, "lng": 101.76 },
   "qxs": { "name": "Southern Qiang", "native": "Southern Qiang", "lat": 32.8, "lng": 103.6 },
   "duu": { "name": "Drung (Dulong)", "native": "Tvrung kvt", "lat": 27.741, "lng": 98.666 },
-  "jya": { "name": "Situ rGyalrong", "native": "སི་གཞོ། or written in Tibetan script: སི་ཏུ་", "lat": 32, "lng": 102 },
+  "jya": { "name": "Situ rGyalrong", "native": "Situ", "lat": 32, "lng": 102 },
   "ers": { "name": "Ersu", "native": "ěrsū / 尔苏", "lat": 28.976, "lng": 102.7745 },
   "bca": { "name": "Central Bai", "native": "白语", "lat": 25.92, "lng": 100.31 },
   "atb": { "name": "Zaiwa (Atsi)", "native": "tsau³¹va⁵¹", "lat": 24.43, "lng": 98.58 },
@@ -158,7 +158,7 @@ const LANG_DATA = {
   "slr": { "name": "Salar", "native": "salırça", "lat": 35.8512, "lng": 102.4891 },
   "ybe": { "name": "Western Yugur", "native": "Western Yugur", "lat": 37.9, "lng": 100.5 },
   "yuy": { "name": "Eastern Yugur", "native": "ئۇيغۇر", "lat": 39.3, "lng": 99.7 },
-  "mjg": { "name": "Monguor (Tu)", "native": "Monguor (Tu)", "lat": 36.32, "lng": 102.83 },
+  "mjg": { "name": "Monguor (Tu)", "native": "Mongghul", "lat": 36.32, "lng": 102.83 },
   "sce": { "name": "Dongxiang (Santa)", "native": "Santa", "lat": 35.6, "lng": 103.2 },
   "peh": { "name": "Bonan (Baoan)", "native": "बोनान | 保安 | Bonan", "lat": 36.02, "lng": 102.89 },
   "bua": { "name": "Buryat", "native": "Буряад хэлэн", "lat": 51.840836, "lng": 107.608093 },
@@ -2470,7 +2470,7 @@ const LANG_DATA = {
 },
   // Kurtöp — Sino-Tibetan East Bodish (sister to Bumthang, Khengkha, Chocha-ngachakha within East Bodish — distinct from Tibetic dz Dzongkha despite Bhutan location), ~10K, Bhutan (Lhuntse Dzongkhag — Kurtoe gewog, eastern Bhutan highlands).
   // Sources: Ethnologue 27 'xkz'; Glottolog kurt1248; Hyslop (2017) A Grammar of Kurtöp.
-  xkz: { name: 'Kurtöp', native: 'ཀུར་ཏོབ་ཁ', lat: 27.66, lng: 91.18, // Lhuntse, Bhutan
+  xkz: { name: 'Kurtöp', native: 'Kurtöp', lat: 27.66, lng: 91.18, // Lhuntse, Bhutan
 },
   // Sikkimese (Drenjongke) — Tibetic, ~70K speakers, Sikkim India. Closely related to Dzongkha (dz) and Standard Tibetan (bo).
   // Sources: Ethnologue 27 'sip'; Glottolog sikk1242; van Driem (1992) Bumthang grammar (regional reference).

@@ -70,6 +70,11 @@ function toneSig(ipa) {
 //         2026-06 tone-category audit). Listed here so the checker reports only
 //         UNexplained outliers — a regression guard. `lang|char`.
 const EXCEPTIONS = new Set([
+  'cjy_xz|虎',
+  'cjy_xz|火',
+  // 中国语言地图集 dialect points (provisional, fragmentary):
+  'gan_yc|七',
+  'czh_wy|六',
   'cpx|血',      // Puxian 血 is irregular 陽入 (Putian he6 / Xianyou hyoeh6), not 陰入
   'czh|六',      // Hui 六 lexicalised low numeral reading; no source to "correct" it
   'mnp|日', 'mnp|立', // Jian'ou 次濁入 → 陽入 ˦˨ (Wiktionary /ni⁴²/, /li⁴²/), vs 陰入 peers

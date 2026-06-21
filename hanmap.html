@@ -6976,6 +6976,19 @@
                     ru:'Прамяо-яо', uk:'Прамяо-яо', ar:'همونغ-مين أصلية', he:'פרוטו-המונג-מיין', sw:'Proto-HM',
                     vi:'Miêu-Dao nguyên', th:'โปรโต-ม้ง-เมี่ยน', id:'Proto-Hmong-Mien', hi:'प्रोटो-म्यांग-मियेन' },
         };
+        // Localized NAME for a HanMap-only variety (one not present in the Word
+        // Map's LANG_NAMES). Such varieties store their name-in-19-languages in
+        // HAN_LANG_META[code].reading_type, so this is the correct fallback to use
+        // — in the many inline label sites — BEFORE dropping to the English
+        // `lang.name`. Returns '' for codes that are in LANG_NAMES (their
+        // reading_type is a reading-KIND description, not a name) or have none.
+        function hanReadingName(code) {
+            const uiBase = (typeof uiLang === 'string' ? uiLang : 'en').split('_')[0];
+            const namesD = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
+            if (namesD[code]) return '';
+            const m = (typeof HAN_LANG_META !== 'undefined') ? HAN_LANG_META[code] : null;
+            return (m && m.reading_type && typeof m.reading_type === 'object' && m.reading_type[uiBase]) || '';
+        }
         function getDisplayName(code, lang) {
             if (showNative) return lang.native;
             const uiBase = (typeof uiLang === 'string' ? uiLang : 'en').split('_')[0];
@@ -7000,7 +7013,7 @@
                     return _hm.reading_type[uiBase];
                 }
             }
-            let n = names[code] || lang.name;
+            let n = names[code] || hanReadingName(code) || lang.name;
             // Sinitic varieties — drop the "Chinese (…)" wrapper.
             if (hanmapIsSinitic(code)) {
                 n = hanmapStripChineseWrapper(n);
@@ -8866,7 +8879,7 @@
             const lang = LANG_DATA[code];
             if (!lang) return;
             const names = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
-            const displayName = names[code] || lang.name;
+            const displayName = names[code] || hanReadingName(code) || lang.name;
             const uiBase = (typeof uiLang === 'string' ? uiLang : 'en').split('_')[0];
             const hanMeta = (typeof HAN_LANG_META !== 'undefined' && HAN_LANG_META[code]) || null;
 
@@ -9193,7 +9206,7 @@
             if (!lang) return;
             const m = lang.meta || {};
             const names = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
-            const displayName = names[code] || lang.name;
+            const displayName = names[code] || hanReadingName(code) || lang.name;
             // All data values escaped (per wordmap-check-4.md §5).
             let html = `<h2 id="lang-info-heading">${escapeHtml(displayName)}</h2>`;
             html += `<div class="native-name"><span class="wm-form" dir="auto">${escapeHtml(lang.native)}</span> [${escapeHtml(code)}]</div>`;
@@ -9454,7 +9467,7 @@
                 let cvLabel = cvObj[uiLang] || cvObj[uiLang.split('_')[0]] || cvObj.en;
                 if (m.baseLang) {
                     const baseLang = LANG_DATA[m.baseLang];
-                    const baseName = baseLang ? ((LANG_NAMES[uiLang] || LANG_NAMES.en || {})[m.baseLang] || baseLang.name) : m.baseLang;
+                    const baseName = baseLang ? ((LANG_NAMES[uiLang] || LANG_NAMES.en || {})[m.baseLang] || hanReadingName(m.baseLang) || baseLang.name) : m.baseLang;
                     cvLabel = cvLabel.replace('{base}', baseName);
                 }
                 const cvHeader = COVERAGE_HEADER[uiLang] || COVERAGE_HEADER[uiLang.split('_')[0]] || COVERAGE_HEADER.en;
@@ -9549,7 +9562,7 @@
                     const desc = HIST_DESCENDANT[code];
                     const descLang = LANG_DATA[desc];
                     if (descLang) {
-                        const descName = (LANG_NAMES[uiLang] || LANG_NAMES.en || {})[desc] || descLang.name;
+                        const descName = (LANG_NAMES[uiLang] || LANG_NAMES.en || {})[desc] || hanReadingName(desc) || descLang.name;
                         const lbl = i18n('modernDescendant');
                         chain += `<span style="color:#666"><b>${escapeHtml(lbl)}:</b> → <a href="#" data-langcode="${escapeHtml(desc)}" style="color:#1a73e8;text-decoration:none">${escapeHtml(descName)}</a> (${escapeHtml(desc)})</span>`;
                     }
@@ -9559,7 +9572,7 @@
                     const items = ancestors
                         .filter(a => LANG_DATA[a])
                         .map(a => {
-                            const aName = (LANG_NAMES[uiLang] || LANG_NAMES.en || {})[a] || LANG_DATA[a].name;
+                            const aName = (LANG_NAMES[uiLang] || LANG_NAMES.en || {})[a] || hanReadingName(a) || LANG_DATA[a].name;
                             return `<a href="#" data-langcode="${escapeHtml(a)}" style="color:#1a73e8;text-decoration:none">${escapeHtml(aName)}</a> (${escapeHtml(a)})`;
                         })
                         .join(' · ');
@@ -9573,7 +9586,7 @@
             (() => {
                 if (m.parentCode && LANG_DATA[m.parentCode]) {
                     const parent = LANG_DATA[m.parentCode];
-                    const parentName = (LANG_NAMES[uiLang] || LANG_NAMES.en || {})[m.parentCode] || parent.name;
+                    const parentName = (LANG_NAMES[uiLang] || LANG_NAMES.en || {})[m.parentCode] || hanReadingName(m.parentCode) || parent.name;
                     const roleLabels = {
                         'regional-variety':   { en:'Regional variety of', ja:'地方変種', ko:'지역 변종', zh:'地方变体', yue:'地方變體', vi:'biến thể vùng của', th:'รูปท้องถิ่นของ', id:'ragam daerah dari', hi:'क्षेत्रीय भेद', de:'Regionalvarietät von', fr:'variété régionale de', it:'varietà regionale di', es:'variedad regional de', pt:'variedade regional de', ru:'региональный вариант', uk:'регіональний варіант', ar:'تنويع إقليمي لـ', he:'גרסה אזורית של', sw:'ainalugha ya eneo' },
                         'dialect':            { en:'Dialect of', ja:'方言', ko:'방언', zh:'方言', yue:'方言', vi:'phương ngữ của', th:'ภาษาถิ่นของ', id:'dialek dari', hi:'बोली', de:'Dialekt von', fr:'dialecte de', it:'dialetto di', es:'dialecto de', pt:'dialeto de', ru:'диалект', uk:'діалект', ar:'لهجة', he:'ניב של', sw:'lahaja ya' },
@@ -9790,7 +9803,7 @@
                 const matches = [];
                 for (const code of Object.keys(LANG_DATA)) {
                     const lang = LANG_DATA[code];
-                    const display = names[code] || lang.name;
+                    const display = names[code] || hanReadingName(code) || lang.name;
                     const en = enNames[code] || lang.name;
                     const native = lang.native || '';
                     const m = lang.meta || {};
@@ -10361,7 +10374,7 @@
             for (let idx = 0; idx < len; idx++) {
                 const code = _compareList[idx];
                 const lang = LANG_DATA[code]; if (!lang) continue;
-                const display = names[code] || lang.name || code;
+                const display = names[code] || hanReadingName(code) || lang.name || code;
                 html += '<th draggable="true" data-code="' + escapeHtml(code) + '" data-idx="' + idx + '" title="Drag to reorder">'
                      + '<span class="lang-name" data-code="' + escapeHtml(code) + '">' + escapeHtml(display) + '</span>'
                      + (lang.native ? '<span class="native-name" dir="auto">' + escapeHtml(lang.native) + '</span>' : '')
@@ -10456,7 +10469,7 @@
             html += '<tr class="compare-remove-row"><th scope="row"></th>';
             for (const code of _compareList) {
                 const lang = LANG_DATA[code];
-                const display = (lang && (names[code] || lang.name)) || code;
+                const display = (lang && (names[code] || hanReadingName(code) || lang.name)) || code;
                 html += '<td><button class="remove-col" data-code="' + escapeHtml(code) + '" type="button" aria-label="' + escapeHtml(delLabel + ' ' + display) + '"><span class="rc-label">' + escapeHtml(delLabel) + '</span><span class="rc-icon" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg></span></button></td>';
             }
             html += '</tr>';

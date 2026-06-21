@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1000 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1008 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -88,6 +88,14 @@ const EXCLUDED_CODES = new Set([
 ]);
 
 const LANG_DATA = {
+  "nl_be": { "name": "Belgian Dutch (Flemish)", "native": "Vlaams", "lat": 51.22, "lng": 4.4 },
+  "en_us": { "name": "General American English", "native": "English (American)", "lat": 39.1, "lng": -94.6 },
+  "en_ca": { "name": "Canadian English", "native": "English (Canadian)", "lat": 43.65, "lng": -79.38 },
+  "en_za": { "name": "South African English", "native": "English (South African)", "lat": -26.2, "lng": 28.05 },
+  "de_ch": { "name": "Swiss Standard German", "native": "Schweizer Hochdeutsch", "lat": 47.37, "lng": 8.54 },
+  "pt_ao": { "name": "Angolan Portuguese", "native": "Português angolano", "lat": -8.84, "lng": 13.23 },
+  "es_ve": { "name": "Venezuelan Spanish", "native": "Español venezolano", "lat": 10.49, "lng": -66.88 },
+  "ca_va": { "name": "Valencian", "native": "Valencià", "lat": 39.47, "lng": -0.38 },
   // === East Asian ===
   ja: { name: 'Japanese', native: '日本語', lat: 35.68, lng: 139.69, // Tokyo
 

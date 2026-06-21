@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1114 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1112 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -129,7 +129,6 @@ const LANG_DATA = {
   "pt_gw": { "name": "Guinea-Bissau Portuguese/Kriol", "native": "Kriol", "lat": 11.9, "lng": -15.05 },
   "tsz": { "name": "Purépecha", "native": "P'urhépecha", "lat": 19.52, "lng": -101.6 },
   "nez": { "name": "Nez Perce", "native": "Nimipuutímt", "lat": 46.4, "lng": -116.8 },
-  "nv2": { "name": "Western Apache", "native": "Ndee bizaa", "lat": 33.84, "lng": -109.96 },
   "woe": { "name": "Woleaian", "native": "Woleaian", "lat": 7.3667, "lng": 143.9 },
   "pmt": { "name": "Tuamotuan", "native": "Reʻo Paʻumotu", "lat": -18.7963, "lng": -141.584 },
   "bin": { "name": "Edo (Bini)", "native": "Ẹ̀dó", "lat": 6.34, "lng": 5.62 },
@@ -160,7 +159,6 @@ const LANG_DATA = {
   "yuy": { "name": "Eastern Yugur", "native": "ئۇيغۇر", "lat": 39.3, "lng": 99.7 },
   "mjg": { "name": "Monguor (Tu)", "native": "Mongghul", "lat": 36.32, "lng": 102.83 },
   "sce": { "name": "Dongxiang (Santa)", "native": "Santa", "lat": 35.6, "lng": 103.2 },
-  "peh": { "name": "Bonan (Baoan)", "native": "बोनान | 保安 | Bonan", "lat": 36.02, "lng": 102.89 },
   "bua": { "name": "Buryat", "native": "Буряад хэлэн", "lat": 51.840836, "lng": 107.608093 },
   "cjs": { "name": "Shor", "native": "Шор тили", "lat": 53.26, "lng": 88.54 },
   "dlg": { "name": "Dolgan", "native": "Долган тили", "lat": 71, "lng": 102.3 },

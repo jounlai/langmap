@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1100 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1114 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -88,6 +88,20 @@ const EXCLUDED_CODES = new Set([
 ]);
 
 const LANG_DATA = {
+  "es_cr": { "name": "Costa Rican Spanish", "native": "Español costarricense", "lat": 9.93, "lng": -84.08 },
+  "es_hn": { "name": "Honduran Spanish", "native": "español", "lat": 14.07, "lng": -87.19 },
+  "es_ni": { "name": "Nicaraguan Spanish", "native": "Español nicaragüense", "lat": 12.11, "lng": -86.24 },
+  "es_sv": { "name": "Salvadoran Spanish", "native": "Español salvadoreño", "lat": 13.69, "lng": -89.19 },
+  "ar_jo": { "name": "Jordanian Arabic", "native": "اللهجة الأردنية", "lat": 31.95, "lng": 35.93 },
+  "ar_ps": { "name": "Palestinian Arabic", "native": "Palestinian Arabic", "lat": 31.9, "lng": 35.2 },
+  "fr_lu": { "name": "Luxembourg French", "native": "Français", "lat": 49.61, "lng": 6.13 },
+  "fr_cm": { "name": "Cameroonian French", "native": "Français camerounais", "lat": 3.85, "lng": 11.5 },
+  "de_lu": { "name": "Luxembourg Standard German", "native": "Luxembourg Standard German", "lat": 49.61, "lng": 6.13 },
+  "en_ng2": { "name": "Ghanaian English", "native": "Ghanaian English", "lat": 5.6, "lng": -0.19 },
+  "pt_mo": { "name": "Macanese Portuguese", "native": "Português Macaense", "lat": 22.2, "lng": 113.54 },
+  "lb": { "name": "Luxembourgish", "native": "Lëtzebuergesch", "lat": 49.61, "lng": 6.13 },
+  "gcr": { "name": "Guianese Creole", "native": "Kriyòl", "lat": 4.92, "lng": -52.33 },
+  "acf": { "name": "Saint Lucian Creole", "native": "Kwéyòl", "lat": 14.01, "lng": -60.99 },
   "gan_yc": { "name": "Gan Chinese (Yichun)", "native": "宜春話", "lat": 27.81, "lng": 114.42 },
   "gan_ja": { "name": "Gan Chinese (Jiʼan)", "native": "吉安贛語", "lat": 27.11, "lng": 114.99 },
   "gan_fz": { "name": "Gan Chinese (Fuzhou)", "native": "Gan Chinese (Fuzhou)", "lat": 27.95, "lng": 116.36 },

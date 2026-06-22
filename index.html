@@ -43,14 +43,15 @@
                 "name": "LangMap",
                 "description": "Interactive comparison of word order, vocabulary, and family classification across 1,112 languages.",
                 "inLanguage": ["en", "ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"],
-                "publisher": {"@id": "https://heuron.com/#org"}
+                "publisher": {"@id": "https://langmap.heuron.com/#org"}
             },
             {
                 "@type": "Organization",
-                "@id": "https://heuron.com/#org",
-                "name": "Heuron Inc.",
-                "url": "https://heuron.com",
+                "@id": "https://langmap.heuron.com/#org",
+                "name": "LangMap",
+                "url": "https://langmap.heuron.com/",
                 "logo": "https://langmap.heuron.com/langmap.png",
+                "parentOrganization": {"@type": "Organization", "name": "Heuron Inc.", "url": "https://heuron.com"},
                 "founder": {"@type": "Person", "name": "Jounlai Cho", "sameAs": ["https://x.com/jounlai", "https://github.com/jounlai"]}
             }
         ]
@@ -79,6 +80,7 @@
     </script>
 </head>
 <body>
+    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap</h1>
     <div class="site-header-bar">
         <a href="#" onclick="resetToDefaults(); return false;" class="logo"><span id="uiTitle">LangMap</span><span class="logo-badge logo-badge-order" aria-label="Word Order" title="Word Order"><svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg></span></a>
         <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle">

@@ -1003,7 +1003,7 @@ WORDS.hello = {
     xqa: ["salām", "salaːm"],
     sga: ["fochen", "foxʲen"],
     bsk: ["šuá", "ʂuaː"],
-    yag: ["салом", "salom"],
+    yag: ["salom", "salom"],
     srn: ["odi", "odi"],
     djk: ["fa yu de", "fa ju de"],
     srm: ["kɔlɔkɔlɔ", "kɔlɔkɔlɔ"],

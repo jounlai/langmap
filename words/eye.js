@@ -446,7 +446,7 @@ WORDS.eye = {
     nej: ["ta", "ta"],
     alq: ['oshkìnzhig', 'ɔʃkiːnʒɪɡ'],
     ckv: ['mata', 'maˈta'],
-    haj: ['চকু', 'sɔku'],
+    haj: ['soku', 'sɔku'],
     kzj: ['mato', 'ˈmato'],
     mez: ['oskēsek', 'oskeːsek'],
     nan_xm: ['目睭', 'bak̚˦ tsiu˦'],

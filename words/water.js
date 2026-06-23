@@ -87,7 +87,7 @@ WORDS.water = {
       cic: ["oka'", "okaʔ"],
       ik: ["imiq", "imiq"],
       na: ["ebok", "ebɔk"],
-      luz: ["av", "ɑw"],
+      luz: ["آو", "ɑw"],
       es_bo: ["agua", "aɣwa"],
       es_py: ["agua", "ˈaɣwa"],
       es_pa: ["agua", "aɣwa"],

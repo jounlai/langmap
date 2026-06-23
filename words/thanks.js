@@ -1003,7 +1003,7 @@ WORDS.thanks = {
     xqa: ["tabug", "tabuɡ"],
     sga: ["atlochur", "atloxur"],
     bsk: ["shukria", "ʃukrija"],
-    yag: ["рахмат", "rahmat"],
+    yag: ["rahmat", "rahmat"],
     srn: ["grantangi", "ɡrantaŋi"],
     djk: ["gaantangi", "ɡaːntaŋi"],
     srm: ["tángi", "táŋɡi"],

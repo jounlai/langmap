@@ -143,11 +143,61 @@
         <nav class="month-nav">Months: <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-06-23 — All maps: consistent capitalisation of localized language names + "undefined" fix</div>
+            <ul>
+                <li>A contributor noticed Vietnamese names mixed "tiếng" and "Tiếng". Swept every localized name and normalised them to the dataset's established uppercase-first label convention in all cased UI languages — Vietnamese <em>Tiếng …</em>, Indonesian <em>Bahasa …</em>, and ~2,300 lowercase-first names across French, Spanish, Italian, Portuguese, German, Russian, Ukrainian, Swahili and English (haïda→Haïda, chickasaw→Chickasaw, осский→Осский, …).</li>
+                <li>Fixed 38 broken names: Angolan Portuguese (<code>pt_ao</code>) and Venezuelan Spanish (<code>es_ve</code>) read literally "undefined (Angolan)" / "undefined (Venezuelan)" in all 19 UI languages (a base-name lookup had returned undefined) — now "Portuguese (Angolan)" / "Spanish (Venezuelan)" and their translations. Added a deterministic guard so bulk language additions can't silently reintroduce lowercase or "undefined" names.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-23 — Word Map: stray-script word fixes (a word written in the wrong alphabet)</div>
+            <ul>
+                <li>Reported via Northern Luri, whose <em>water</em> was the Latin romanization "av" while all 19 other words are in Perso-Arabic. Built a deterministic script-consistency checker and swept the whole Word Map; fixed every genuine standout — luz <em>water</em> av→آو, Yaghnobi (<code>yag</code>) <em>hello</em>/<em>thanks</em> Cyrillic салом/рахمат→Latin salom/rahmat, Hajong (<code>haj</code>) <em>eye</em> Bengali চকু→soku. Left alone the legitimately mixed scripts: Japanese kana-among-kanji, and Hunzib's palochka convention used consistently across its whole entry.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-22 — All maps: every language description now reads in all 19 UI languages</div>
+            <ul>
+                <li>Languages added in the big multithreaded batches had their description (and a few labels) only in English/Japanese/Korean/Chinese, so under e.g. a French or Arabic UI they fell back to English. Filled the gap end-to-end: ~580 Word Map descriptions plus the remaining Han Map dialect descriptions and reading-type labels were translated into the other UI languages — about <strong>8,500 translation cells</strong> — so the detail panels now read in the selected UI language everywhere. Also caught and fixed two duplicate metadata definitions (mey, tem) whose English-only copy had been shadowing the full multilingual one.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-22 — SEO: the site now identifies itself as "LangMap" in Google, not the parent company</div>
+            <ul>
+                <li>Google was showing the parent domain's company name as the site name for <code>langmap.heuron.com</code> results — by default a subdomain inherits the root domain's site name. Gave the subdomain its own strong, consistent signals: the publisher in the structured data is now a "LangMap" organisation (with the company kept as its parent organisation), and every page carries an <code>&lt;h1&gt;</code> with the brand. Once re-crawled, results show "LangMap".</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-06-21 — Word Map: five-round QA pass on the newly-added languages</div>
             <ul>
                 <li>After growing the Word Map past 1,100, ran <strong>five rounds</strong> of an 8-thread, web-verifying review focused only on the ~112 languages added this round. Each finding had to be confirmed against Wiktionary / dictionaries / grammars by a separate strict verifier before applying. Net result across the five rounds: about <strong>60 source-confirmed corrections</strong> applied and <strong>~150 candidates rejected</strong>. Representative fixes: a language whose every word was the pronoun instead of the headword (Northern Luri <em>water</em> او→av, <em>mother</em> مار "snake"→مادر), several concepts that had collapsed to one form (Comanche <em>fire</em>=<em>sun</em>, Oneida <em>mother</em>=<em>tree</em>), Comorian <em>j</em> = /dʒ/, Amdo Tibetan IPA repaired while keeping the Tibetan-script surfaces, and a Puerto-Rican / Venezuelan / Panama weak-jota correction (<em>ojo</em> /oxo/→/oho/).</li>
                 <li><strong>Discipline: preserve real dialect features, fix only genuine errors.</strong> The bulk of the ~150 rejections were the verifier trying to "standardise" deliberate, internally-consistent dialect phonology — Puerto-Rican /r/→[l] and final-/d/ drop, Dominican final-consonant deletion, Malaysian-English final devoicing, Caribbean /x/→[h], Sanaani Yemeni ق→[g], the Shanxi 水→/fei/ shift, frozen Maghrebi articles — all left intact. A round-2 over-correction (stripping the tone off one Zaiwa word, which broke that language's own tone-in-spelling convention) was caught and reverted in round 4.</li>
                 <li><strong>Two entries removed (1,114 → 1,112).</strong> The review caught <em>Bonan</em> (<code>peh</code>) — its every "Bonan" word was actually Nepali written in Devanagari, though Bonan is a Mongolic language of Qinghai with no relation to Nepali — and <em>Western Apache</em> (<code>nv2</code>), a byte-for-byte duplicate of the existing <code>apw</code> entry. Better unrecorded than fabricated, so both were dropped rather than patched.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Han Map: every label localized for HanMap-only varieties</div>
+            <ul>
+                <li>"Guibei Pinghua (Guilin)" and the other Han-Map-only Sinitic varieties were showing their English name in several places under a non-English UI (filter chips, comparison panel, search rows, ancestor/descendant labels). The site-name lookup only consulted the shared Word-Map name dictionary; threaded a fallback to each variety's 19-language reading-type label through every label site, so they all read in the selected UI language (e.g. 桂北平話 under the Japanese UI).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Word Map: stop over-claiming Tibetan script for oral languages</div>
+            <ul>
+                <li>Kurtöp (Bhutan) was tagged as written in Tibetan script with a Tibetan-script native name, yet its words are shown in Roman transcription. Research confirmed Kurtöp is essentially oral — only the Roman orthography is in practical use and no Tibetan-script word-list is published — so the metadata now reflects that, and two leaked "native" fields (Situ rGyalrong, Monguor) were cleaned up alongside it.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Word Map: never blank the map during a cache transition</div>
+            <ul>
+                <li>Fixed a production crash ("Cannot read properties of undefined") that could blank the whole map: the Word Map lazy-loads one word file at a time, so a browser serving a stale cached word file alongside a freshly-bumped data file could hit a language that has no loaded words yet. The renderer now guarantees a <code>.words</code> object for every language and guards the lookup, so a not-yet-loaded language simply doesn't show that word instead of throwing.</li>
             </ul>
         </div>
 

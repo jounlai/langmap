@@ -302,7 +302,7 @@ Total: 1112 codes.
 | `es_sgl` | Golden Age Spanish (Siglo de Oro) | 黄金世紀スペイン語 | Indo-European (Italic, Romance, Ibero-Romance, Castilian; Siglo de Oro) | Historical literary form (~1500-1681 CE); active pedagogical use in Spanish literary education |
 | `es_sv` | Spanish (Salvadoran) | スペイン語（エルサルバドル） | Romance | ~6.5M native speakers |
 | `es_uy` | Spanish (Uruguayan) | スペイン語(ウルグアイ) | Romance | ~3.4M |
-| `es_ve` | undefined (Venezuelan) | undefined(ベネズエラ) | Romance | ~28M |
+| `es_ve` | Spanish (Venezuelan) | スペイン語(ベネズエラ) | Romance | ~28M |
 | `ess` | Central Siberian Yupik | 中央シベリア・ユピック語 | Eskimo-Aleut (Yupik branch — sister to Central Alaskan Yupʼik (esu) and Aleut) | ~1K (~400 fluent + ~500 partial speakers) |
 | `esu` | Central Alaskan Yupik | 中央アラスカ・ユピック語 | Eskimo-Aleut (Yupik) | ~10K |
 | `et` | Estonian | エストニア語 | Uralic (Finnic) | ~1.1M |
@@ -797,7 +797,7 @@ Total: 1112 codes.
 | `pry` | Proto-Ryukyuan | 琉球祖語 | Japonic (Ryukyuan) | Reconstructed proto-language (no speakers; estimated separation from mainland Japonic ~7-8c. CE) |
 | `ps` | Pashto | パシュトー語 | Iranian | ~50M |
 | `psi` | Pashai | パシャイ語 | Indo-Aryan (Dardic) | ~600K |
-| `pt_ao` | undefined (Angolan) | undefined(アンゴラ) | Romance | ~17M |
+| `pt_ao` | Portuguese (Angolan) | ポルトガル語(アンゴラ) | Romance | ~17M |
 | `pt_br` | Portuguese (Brazil) | ポルトガル語(ブラジル) | Romance | ~215M |
 | `pt_cv` | Portuguese (Cape Verdean) | ポルトガル語（カボベルデ） | Romance | ~500k |
 | `pt_eu` | Portuguese (Europe) | ポルトガル語(欧州) | Romance | ~10M |

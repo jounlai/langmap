@@ -2067,6 +2067,11 @@
                 <span aria-hidden="true">📚</span>
                 <span class="trivia-btn-label" id="trivia-btn-label">Linguistic Trivia</span>
             </button>
+            <button type="button" class="trivia-btn" id="share-open"
+                    aria-haspopup="dialog" title="Share this view">
+                <span aria-hidden="true">🔗</span>
+                <span class="trivia-btn-label" id="share-btn-label">Share</span>
+            </button>
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
         </div>
@@ -7991,5 +7996,208 @@
     <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#888;border-top:1px solid #e6e6ef;margin-top:24px">
         全言語インデックス (SEO): <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a>
     </footer>
+
+    <!-- ============================================================
+         Re-engagement Phase 1: Share (current view) + Word of the Day.
+         Self-contained classic script — reads the page's global
+         currentWord / uiLang / WORD_LIST / WORD_ORDER lexicals at call
+         time. Psychology: share = social currency / self-expression;
+         WOTD = a daily external trigger + curiosity gap for returning
+         visitors (fresh-start effect), shown unobtrusively.
+         ============================================================ -->
+    <script>
+    (function () {
+        'use strict';
+        const FALLBACK = 'en';
+        const ui = () => (typeof uiLang !== 'undefined' && uiLang) ? uiLang : FALLBACK;
+        const pick = (m) => m[ui()] || m[ui().split('_')[0]] || m[FALLBACK];
+        // ---- localized strings ----
+        const S = {
+            share:   {en:'Share', ja:'共有', ko:'공유', zh:'分享', yue:'分享', vi:'Chia sẻ', th:'แชร์', id:'Bagikan', hi:'साझा करें', de:'Teilen', fr:'Partager', it:'Condividi', es:'Compartir', pt:'Partilhar', ru:'Поделиться', uk:'Поділитися', ar:'مشاركة', he:'שיתוף', sw:'Shiriki'},
+            copyLink:{en:'Copy link', ja:'リンクをコピー', ko:'링크 복사', zh:'复制链接', yue:'複製連結', vi:'Sao chép liên kết', th:'คัดลอกลิงก์', id:'Salin tautan', hi:'लिंक कॉपी करें', de:'Link kopieren', fr:'Copier le lien', it:'Copia link', es:'Copiar enlace', pt:'Copiar ligação', ru:'Скопировать ссылку', uk:'Скопіювати посилання', ar:'نسخ الرابط', he:'העתקת קישור', sw:'Nakili kiungo'},
+            copied:  {en:'Link copied!', ja:'リンクをコピーしました', ko:'링크를 복사했습니다', zh:'已复制链接', yue:'已複製連結', vi:'Đã sao chép liên kết', th:'คัดลอกลิงก์แล้ว', id:'Tautan disalin', hi:'लिंक कॉपी हो गया', de:'Link kopiert', fr:'Lien copié', it:'Link copiato', es:'Enlace copiado', pt:'Ligação copiada', ru:'Ссылка скопирована', uk:'Посилання скопійовано', ar:'تم نسخ الرابط', he:'הקישור הועתק', sw:'Kiungo kimenakiliwa'},
+            wotd:    {en:'Word of the day', ja:'今日の単語', ko:'오늘의 단어', zh:'今日单词', yue:'今日詞語', vi:'Từ trong ngày', th:'คำประจำวัน', id:'Kata hari ini', hi:'आज का शब्द', de:'Wort des Tages', fr:'Mot du jour', it:'Parola del giorno', es:'Palabra del día', pt:'Palavra do dia', ru:'Слово дня', uk:'Слово дня', ar:'كلمة اليوم', he:'מילת היום', sw:'Neno la leo'},
+            view:    {en:'View', ja:'見る', ko:'보기', zh:'查看', yue:'睇', vi:'Xem', th:'ดู', id:'Lihat', hi:'देखें', de:'Ansehen', fr:'Voir', it:'Vedi', es:'Ver', pt:'Ver', ru:'Открыть', uk:'Відкрити', ar:'عرض', he:'הצגה', sw:'Tazama'},
+            close:   {en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', yue:'閂', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', de:'Schließen', fr:'Fermer', it:'Chiudi', es:'Cerrar', pt:'Fechar', ru:'Закрыть', uk:'Закрити', ar:'إغلاق', he:'סגירה', sw:'Funga'}
+        };
+        // Share text template: "<word>" in 1,112 languages — LangMap
+        const SHARE_TPL = {
+            en:(w)=>`How do people say “${w}” around the world? — ${ct()} languages on LangMap`,
+            ja:(w)=>`「${w}」は世界の言語でどう言う？ — LangMap（${ct()}言語の発音マップ）`,
+            ko:(w)=>`세계의 언어로 “${w}”은(는) 어떻게 말할까? — LangMap (${ct()}개 언어)`,
+            zh:(w)=>`“${w}”在世界各语言里怎么说？ — LangMap（${ct()} 种语言发音地图）`,
+            es:(w)=>`¿Cómo se dice “${w}” en los idiomas del mundo? — LangMap (${ct()} idiomas)`,
+            fr:(w)=>`Comment dit-on « ${w} » dans les langues du monde ? — LangMap (${ct()} langues)`,
+            de:(w)=>`Wie sagt man „${w}“ in den Sprachen der Welt? — LangMap (${ct()} Sprachen)`,
+            pt:(w)=>`Como se diz “${w}” nas línguas do mundo? — LangMap (${ct()} línguas)`,
+            ru:(w)=>`Как сказать «${w}» на языках мира? — LangMap (${ct()} языков)`
+        };
+        const ct = () => { try { return (window.LANG_DATA ? Object.keys(LANG_DATA).length : 1112).toLocaleString('en-US'); } catch (_) { return '1,112'; } };
+        const tpl = () => SHARE_TPL[ui()] || SHARE_TPL[ui().split('_')[0]] || SHARE_TPL.en;
+
+        function curWordLabel() {
+            try {
+                const cw = (typeof currentWord !== 'undefined') ? currentWord : null;
+                const list = window.WORD_LIST || [];
+                const it = list.find(w => w.id === cw);
+                if (it && it.label) return it.label[ui()] || it.label[ui().split('_')[0]] || it.label.en || it.id;
+                return cw || '';
+            } catch (_) { return ''; }
+        }
+
+        function toast(msg) {
+            let el = document.getElementById('lm-toast');
+            if (!el) {
+                el = document.createElement('div');
+                el.id = 'lm-toast';
+                el.style.cssText = 'position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:#1f2330;color:#fff;padding:9px 16px;border-radius:8px;font-size:13px;z-index:100000;box-shadow:0 4px 16px rgba(0,0,0,.3);opacity:0;transition:opacity .2s;pointer-events:none';
+                document.body.appendChild(el);
+            }
+            el.textContent = msg;
+            el.style.opacity = '1';
+            clearTimeout(el._t);
+            el._t = setTimeout(() => { el.style.opacity = '0'; }, 1800);
+        }
+
+        function openSharePopup(url, text) {
+            const enc = encodeURIComponent;
+            const targets = [
+                {label:'X', color:'#000', href:`https://twitter.com/intent/tweet?text=${enc(text)}&url=${enc(url)}`},
+                {label:'Facebook', color:'#1877f2', href:`https://www.facebook.com/sharer/sharer.php?u=${enc(url)}`},
+                {label:'LINE', color:'#06c755', href:`https://social-plugins.line.me/lineit/share?url=${enc(url)}&text=${enc(text)}`},
+                {label:'WhatsApp', color:'#25d366', href:`https://api.whatsapp.com/send?text=${enc(text + ' ' + url)}`},
+                {label:'Reddit', color:'#ff4500', href:`https://www.reddit.com/submit?url=${enc(url)}&title=${enc(text)}`}
+            ];
+            const back = document.createElement('div');
+            back.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100001;display:flex;align-items:center;justify-content:center;padding:20px';
+            const box = document.createElement('div');
+            box.style.cssText = 'background:#fff;border-radius:14px;padding:20px;max-width:340px;width:100%;box-shadow:0 12px 40px rgba(0,0,0,.3);font-family:inherit';
+            box.innerHTML = `<div style="font-weight:700;font-size:15px;margin-bottom:14px">${pick(S.share)}</div>`;
+            const grid = document.createElement('div');
+            grid.style.cssText = 'display:grid;grid-template-columns:1fr 1fr;gap:8px';
+            targets.forEach(t => {
+                const a = document.createElement('a');
+                a.href = t.href; a.target = '_blank'; a.rel = 'noopener';
+                a.textContent = t.label;
+                a.style.cssText = `display:block;text-align:center;padding:11px;border-radius:9px;background:${t.color};color:#fff;text-decoration:none;font-size:14px;font-weight:600`;
+                a.addEventListener('click', () => setTimeout(() => back.remove(), 50));
+                grid.appendChild(a);
+            });
+            box.appendChild(grid);
+            const copy = document.createElement('button');
+            copy.type = 'button';
+            copy.textContent = '🔗 ' + pick(S.copyLink);
+            copy.style.cssText = 'margin-top:8px;width:100%;padding:11px;border:1px solid #d0d3dc;border-radius:9px;background:#f6f7f9;cursor:pointer;font-size:14px;font-weight:600;color:#333';
+            copy.addEventListener('click', () => {
+                (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject())
+                    .then(() => { toast(pick(S.copied)); back.remove(); })
+                    .catch(() => { window.prompt(pick(S.copyLink), url); });
+            });
+            box.appendChild(copy);
+            const closeBtn = document.createElement('button');
+            closeBtn.type = 'button';
+            closeBtn.textContent = pick(S.close);
+            closeBtn.style.cssText = 'margin-top:10px;width:100%;padding:8px;border:0;background:none;cursor:pointer;font-size:13px;color:#888';
+            closeBtn.addEventListener('click', () => back.remove());
+            box.appendChild(closeBtn);
+            back.appendChild(box);
+            back.addEventListener('click', (e) => { if (e.target === back) back.remove(); });
+            document.body.appendChild(back);
+        }
+
+        function doShare() {
+            const url = location.href;
+            const text = tpl()(curWordLabel());
+            if (navigator.share) {
+                navigator.share({ title: 'LangMap', text, url }).catch(() => {});
+            } else {
+                openSharePopup(url, text);
+            }
+        }
+
+        // ---- wire the header Share button + localize its label ----
+        function localizeShareBtn() {
+            const lbl = document.getElementById('share-btn-label');
+            if (lbl) lbl.textContent = pick(S.share);
+        }
+        function initShare() {
+            const btn = document.getElementById('share-open');
+            if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', doShare); }
+            localizeShareBtn();
+            const sel = document.getElementById('header-ui-lang');
+            if (sel && !sel._lmShareHook) { sel._lmShareHook = true; sel.addEventListener('change', () => setTimeout(localizeShareBtn, 0)); }
+        }
+
+        // ---- Word of the Day (returning-visitor trigger) ----
+        function dayNumber() { return Math.floor(Date.now() / 86400000); }
+        function wotdId() {
+            try {
+                const order = window.WORD_ORDER || (typeof WORD_ORDER !== 'undefined' ? WORD_ORDER : null);
+                if (!order || !order.length) return null;
+                return order[dayNumber() % order.length];
+            } catch (_) { return null; }
+        }
+        function wotdLabel(id) {
+            const it = (window.WORD_LIST || []).find(w => w.id === id);
+            if (it && it.label) return it.label[ui()] || it.label[ui().split('_')[0]] || it.label.en || id;
+            return id;
+        }
+        function gotoWord(id) {
+            const sel = document.getElementById('word-select');
+            if (sel) { sel.value = id; sel.dispatchEvent(new Event('change', { bubbles: true })); }
+        }
+        function showWotd() {
+            const id = wotdId();
+            if (!id) return;
+            // returning visitor only, once per day
+            let visits = 0;
+            try { visits = parseInt(localStorage.getItem('lm_visits') || '0', 10) || 0; } catch (_) {}
+            if (visits < 2) return;
+            try { if (localStorage.getItem('lm_wotd_day') === String(dayNumber())) return; } catch (_) {}
+            const bar = document.createElement('div');
+            bar.style.cssText = 'position:fixed;left:50%;top:64px;transform:translateX(-50%);z-index:99998;background:#fff;border:1px solid #e2e4ea;border-radius:999px;box-shadow:0 6px 22px rgba(0,0,0,.16);display:flex;align-items:center;gap:10px;padding:7px 8px 7px 16px;font-size:13px;max-width:92vw;animation:lmwotd .35s ease';
+            bar.innerHTML = `<span>✨ <b style="color:#4178bc">${pick(S.wotd)}</b>: ${wotdLabel(id)}</span>`;
+            const go = document.createElement('button');
+            go.type = 'button'; go.textContent = pick(S.view);
+            go.style.cssText = 'border:0;background:#4178bc;color:#fff;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;cursor:pointer';
+            go.addEventListener('click', () => { gotoWord(id); close(); });
+            const x = document.createElement('button');
+            x.type = 'button'; x.setAttribute('aria-label', pick(S.close)); x.textContent = '✕';
+            x.style.cssText = 'border:0;background:none;color:#999;font-size:15px;cursor:pointer;padding:2px 6px';
+            function close() { try { localStorage.setItem('lm_wotd_day', String(dayNumber())); } catch (_) {} bar.remove(); }
+            x.addEventListener('click', close);
+            bar.appendChild(go); bar.appendChild(x);
+            const st = document.createElement('style');
+            st.textContent = '@keyframes lmwotd{from{opacity:0;transform:translate(-50%,-8px)}to{opacity:1;transform:translate(-50%,0)}}';
+            document.head.appendChild(st);
+            document.body.appendChild(bar);
+            setTimeout(() => { if (bar.isConnected) close(); }, 12000); // auto-dismiss
+        }
+
+        function bumpVisits() {
+            try {
+                const today = String(dayNumber());
+                if (localStorage.getItem('lm_last_day') !== today) {
+                    localStorage.setItem('lm_visits', String((parseInt(localStorage.getItem('lm_visits') || '0', 10) || 0) + 1));
+                    localStorage.setItem('lm_last_day', today);
+                }
+            } catch (_) {}
+        }
+
+        function start() {
+            bumpVisits();
+            initShare();
+            // wait until words are loaded before offering WOTD
+            let tries = 0;
+            (function wait() {
+                if ((window.WORD_ORDER && window.WORD_ORDER.length) || (typeof WORD_ORDER !== 'undefined' && WORD_ORDER.length)) {
+                    initShare(); showWotd();
+                } else if (tries++ < 40) { setTimeout(wait, 250); }
+            })();
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+        else start();
+    })();
+    </script>
 </body>
 </html>

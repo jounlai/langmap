@@ -165,7 +165,7 @@ WORDS.eat = {
       de_ch: ["essen", "ˈɛsn̩"],
       pt_ao: ["comer", "kumeɾ"],
       es_ve: ["comer", "komeɾ"],
-      ca_va: ["menjar", "menʒaɾ"],
+      ca_va: ["menjar", "meɲˈdʒaɾ"],
     ja: ["食べる", "tabeɾɯ"],
     ja_osa: ["食べて", "tabete"],
     ja_aom: ["食って", "kɯtte"],

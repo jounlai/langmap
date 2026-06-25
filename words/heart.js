@@ -90,7 +90,7 @@ WORDS.heart = {
       luz: ["دل", "dɑl"],
       es_bo: ["corazón", "koɾason"],
       es_py: ["corazón", "koɾaˈson"],
-      es_pa: ["corazón", "koɾason"],
+      es_pa: ["corazón", "koɾaˈsoŋ"],
       en_my: ["heart", "hat"],
       pt_gw: ["korasãu", "korɑsɑ̃u"],
       tsz: ["mintsita", "minˈtsita"],

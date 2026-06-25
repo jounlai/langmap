@@ -116,7 +116,7 @@ WORDS.moon = {
       qxs: ["ʐwaː", "ʐwaː"],
       duu: ["məŋ", "məŋ"],
       jya: ["zla", "zlɑ"],
-      ers: ["ȵo˥ma˥", "ɲɔ˥ma˥"],
+      ers: ["ɬa˥pʰɛ˥", "ɬa˥pʰɛ˥"],
       bca: ["thsi", "tʰsɪ"],
       atb: ["la51", "la⁵¹"],
       prk: ["lɔː", "lɔː"],

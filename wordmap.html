@@ -29,6 +29,8 @@
     <link rel="canonical" href="https://langmap.heuron.com/wordmap.html">
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4178bc">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -8397,6 +8399,7 @@
                     const winNow = code === t;
                     if (winNow || guesses.length >= MAX) onFinish(winNow); else persist();
                     render();
+                    updateBadge();
                 }
                 gb.addEventListener('click', doGuess);
                 inp.addEventListener('keydown', e => { if (e.key === 'Enter') doGuess(); });
@@ -8423,10 +8426,30 @@
             cl.addEventListener('click', hide);
             box.appendChild(cl);
         }
-        function localizeBtn() { const l = document.getElementById('langle-btn-label'); if (l) l.textContent = (T.title[ui()] && ui() !== 'ja') ? 'Langle' : (ui() === 'ja' ? 'Langle' : 'Langle'); }
+        function playedToday() { const s = load(); return s.day === day() && s.finished; }
+        function updateBadge() {
+            const btn = document.getElementById('langle-open');
+            if (!btn) return;
+            let dot = btn.querySelector('.lm-langle-dot');
+            if (playedToday()) {
+                if (dot) dot.remove();
+                try { if (navigator.clearAppBadge) navigator.clearAppBadge(); } catch (_) {}
+            } else {
+                if (!dot) {
+                    btn.style.position = 'relative';
+                    dot = document.createElement('span');
+                    dot.className = 'lm-langle-dot';
+                    dot.setAttribute('aria-hidden', 'true');
+                    dot.style.cssText = 'position:absolute;top:-3px;right:-3px;width:9px;height:9px;background:#e0314e;border:1.5px solid #fff;border-radius:50%';
+                    btn.appendChild(dot);
+                }
+                try { if (navigator.setAppBadge) navigator.setAppBadge(1); } catch (_) {}
+            }
+        }
         function init() {
             const btn = document.getElementById('langle-open');
             if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', () => { restore(); show(); }); }
+            updateBadge();
         }
         function start() {
             let tries = 0;
@@ -8438,5 +8461,6 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
     })();
     </script>
+    <script src="/pwa.js?v=1"></script>
 </body>
 </html>

@@ -1,0 +1,23 @@
+{
+  "name": "LangMap — Language Maps & Pronunciation",
+  "short_name": "LangMap",
+  "description": "Interactive maps of how 1,000+ languages say everyday words and Han characters — with IPA, a daily language-guessing game, and word-order comparison.",
+  "start_url": "/?src=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#4178bc",
+  "lang": "en",
+  "categories": ["education", "reference", "games"],
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" },
+    { "src": "/langmap.png", "sizes": "2656x3988", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Word Map", "url": "/wordmap.html" },
+    { "name": "Han Map", "url": "/hanmap.html" },
+    { "name": "Daily Langle", "url": "/wordmap.html#langle" }
+  ]
+}

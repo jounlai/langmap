@@ -526,6 +526,7 @@ const HAN_DATA = {
       "ptb": "*g-nis"
     },
     "ipa": {
+      nan_pn: "dzi˨˦",
       nan_id: "dzi˨˦",
       nan_zz: "dʑi˨",
       "gan_yc": "ŋ̩˦",
@@ -2107,7 +2108,7 @@ const HAN_DATA = {
       "zh_phagspa": "pa",
       "yue_hk": "paːt̚˧",
       "yue_mo": "paːt̚˧",
-      "sjo": "dʑaqun",
+      sjo: "dʑakɯn",
       "ko_mid": "palʔ˥",
       "ja_ojp": "pati",
       "ko_kp": "pʰal",
@@ -4584,7 +4585,7 @@ const HAN_DATA = {
       "zh_phagspa": "tʰjɛn",
       "yue_hk": "tʰiːn˥",
       "yue_mo": "tʰiːn˥",
-      "sjo": "apqa",
+      sjo: "apka",
       "ko_mid": "tʰjən˩",
       "ja_ojp": "ten",
       "ko_kp": "tsʰʌn",

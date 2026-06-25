@@ -2070,7 +2070,7 @@
             <button type="button" class="trivia-btn" id="langle-open"
                     aria-haspopup="dialog" title="Daily language guessing game">
                 <span aria-hidden="true">🎮</span>
-                <span class="trivia-btn-label" id="langle-btn-label">Daily</span>
+                <span class="trivia-btn-label" id="langle-btn-label">Langle</span>
             </button>
             <button type="button" class="trivia-btn" id="share-open"
                     aria-haspopup="dialog" title="Share this view">
@@ -8384,7 +8384,8 @@
                 inp.type = 'text'; inp.placeholder = pk(T.ph); inp.setAttribute('list', 'lm-langle-dl');
                 inp.autocomplete = 'off';
                 let dl = document.getElementById('lm-langle-dl');
-                if (!dl) { dl = el('datalist'); dl.id = 'lm-langle-dl'; const seen = {}; pool().forEach(c => { const nm = nameOf(c); if (!seen[nm]) { seen[nm] = 1; const o = el('option'); o.value = nm; dl.appendChild(o); } }); document.body.appendChild(dl); }
+                if (dl) dl.remove(); // rebuild so option names follow the current UI language
+                dl = el('datalist'); dl.id = 'lm-langle-dl'; const seen = {}; pool().forEach(c => { const nm = nameOf(c); if (!seen[nm]) { seen[nm] = 1; const o = el('option'); o.value = nm; dl.appendChild(o); } }); document.body.appendChild(dl);
                 const gb = el('button', 'padding:10px 16px;border:0;border-radius:9px;background:#4178bc;color:#fff;font-weight:700;cursor:pointer', pk(T.guess));
                 const err = el('div', 'color:#d4506a;font-size:12px;margin-bottom:8px;display:none');
                 function doGuess() {

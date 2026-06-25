@@ -107,7 +107,7 @@ WORDS.water = {
       aoc: ["kü", "ky"],
       gun: ["y", "ɨ"],
       zdj: ["maji", "madʒi"],
-      ayl: ["ماء", "mɑː"],
+      ayl: ["مية", "majja"],
       abv: ["ماء / مي", "mɑːʔ / miː"],
       afb: ["ماء", "maːʔ"],
       acw: ["ماي", "maːj"],

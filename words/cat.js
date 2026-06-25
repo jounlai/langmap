@@ -144,7 +144,7 @@ WORDS.cat = {
       es_ec: ["gato", "ɡato"],
       es_uy: ["gato", "ɡato"],
       ar_sy: ["بسّة", "bɪsːa"],
-      ar_ye: ["قطة", "ɡɪtˤtˤa"],
+      ar_ye: ["ديمة", "dɪmːa"],
       ar_dz: ["قط", "qətˤtˤ"],
       ar_sa: ["بزّونة", "bazːuːna"],
       ar_lb: ["بسّة", "bisse"],

@@ -163,7 +163,7 @@ WORDS.dog = {
       en_ca: ["dog", "dɔɡ"],
       en_za: ["dog", "dɒɡ"],
       de_ch: ["Hund", "hʊnt"],
-      pt_ao: ["cão", "kɐ̃w"],
+      pt_ao: ["cão", "kɐ̃w̃"],
       es_ve: ["perro", "peˈɾːo"],
       ca_va: ["gos", "ɣɔs"],
     ja: ["犬", "inɯ"],

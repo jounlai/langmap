@@ -104,7 +104,7 @@ WORDS.mother = {
       bor: ["e", "e"],
       trn: ["meme", "meme"],
       ake: ["saŋ", "sɑŋ"],
-      aoc: ["mamã", "mama"],
+      aoc: ["mamã", "mamɑ̃"],
       gun: ["sy", "ˈsɨ"],
       zdj: ["mama", "mama"],
       ayl: ["أم", "ʔɛmm"],

@@ -143,7 +143,7 @@ WORDS.love = {
       es_gt: ["amor", "amoɾ"],
       es_ec: ["amor", "amoɾ"],
       es_uy: ["amor", "amoɾ"],
-      ar_sy: ["حب", "ħopp"],
+      ar_sy: ["حب", "ħobb"],
       ar_ye: ["حب", "ħɪbb"],
       ar_dz: ["حب", "ħəbb"],
       ar_sa: ["حب", "ħubb"],

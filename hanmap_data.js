@@ -273,6 +273,7 @@ const HAN_DATA = {
       "nan_pn": "it⁴"
     },
     "ipa": {
+      nan_id: "it̚˧˨",
       nan_pera: "it̚˥",
       nan_zz: "it̚˧˨",
       "gan_yc": "it̚˨˦",
@@ -525,6 +526,7 @@ const HAN_DATA = {
       "ptb": "*g-nis"
     },
     "ipa": {
+      nan_id: "dzi˨˦",
       nan_zz: "dʑi˨",
       "gan_yc": "ŋ̩˦",
       "gan_ja": "ɵ˨˩",
@@ -1982,7 +1984,7 @@ const HAN_DATA = {
       "zh_kf": "ba²⁴",
       "zh_hf": "baq⁴",
       "zh_nj": "baq⁵",
-      "zh_jh": "baq⁵",
+      zh_jh: "paq⁵",
       "zh_tj": "ba²¹",
       "zh_lz": "ba¹³",
       "zh_db": "ba⁵⁵",
@@ -7476,6 +7478,7 @@ const HAN_DATA = {
       "ja_thk": "jin"
     },
     "ipa": {
+      cdo: "iŋ˩˧",
       "gan_yc": "ɲin˥",
       "gan_ja": "ɲin˦˥",
       "gan_fz": "ɲin˦˥",
@@ -7540,7 +7543,7 @@ const HAN_DATA = {
       "vi_c": "ɲən˧˨",
       "vi_s": "ɲən˧˧",
       "bca": "niɛ˧˥",
-      "juc": "nialma",
+      juc: "njalma",
       "mnc": "njalma",
       "txg": "zjɨːj˩",
       "za": "jin˨˩˧",

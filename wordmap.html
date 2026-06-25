@@ -8035,7 +8035,17 @@
             fr:(w)=>`Comment dit-on « ${w} » dans les langues du monde ? — LangMap (${ct()} langues)`,
             de:(w)=>`Wie sagt man „${w}“ in den Sprachen der Welt? — LangMap (${ct()} Sprachen)`,
             pt:(w)=>`Como se diz “${w}” nas línguas do mundo? — LangMap (${ct()} línguas)`,
-            ru:(w)=>`Как сказать «${w}» на языках мира? — LangMap (${ct()} языков)`
+            ru:(w)=>`Как сказать «${w}» на языках мира? — LangMap (${ct()} языков)`,
+            it:(w)=>`Come si dice “${w}” nelle lingue del mondo? — LangMap (${ct()} lingue)`,
+            yue:(w)=>`“${w}”喺世界唔同語言裡面點講？ — LangMap（${ct()}種語言發音地圖）`,
+            vi:(w)=>`“${w}” được nói thế nào trong các ngôn ngữ trên thế giới? — LangMap (${ct()} ngôn ngữ)`,
+            th:(w)=>`ทั่วโลกพูดคำว่า “${w}” อย่างไร? — LangMap (${ct()} ภาษา)`,
+            id:(w)=>`Bagaimana orang mengucapkan “${w}” di seluruh dunia? — LangMap (${ct()} bahasa)`,
+            hi:(w)=>`दुनिया भर की भाषाओं में “${w}” कैसे कहते हैं? — LangMap (${ct()} भाषाएँ)`,
+            uk:(w)=>`Як сказати «${w}» мовами світу? — LangMap (${ct()} мов)`,
+            ar:(w)=>`كيف تُقال “${w}” بلغات العالم؟ — LangMap (${ct()} لغة)`,
+            he:(w)=>`איך אומרים “${w}” בשפות העולם? — LangMap (${ct()} שפות)`,
+            sw:(w)=>`Watu husemaje “${w}” kote ulimwenguni? — LangMap (lugha ${ct()})`
         };
         const ct = () => { try { return (window.LANG_DATA ? Object.keys(LANG_DATA).length : 1112).toLocaleString('en-US'); } catch (_) { return '1,112'; } };
         const tpl = () => SHARE_TPL[ui()] || SHARE_TPL[ui().split('_')[0]] || SHARE_TPL.en;
@@ -8219,21 +8229,21 @@
         const ui = () => (typeof uiLang !== 'undefined' && uiLang) ? uiLang : FB;
         const pk = (m) => m[ui()] || m[ui().split('_')[0]] || m[FB];
         const T = {
-            title:   {en:'Langle', ja:'Langle（言語あてゲーム）', ko:'Langle', zh:'Langle 猜语言', es:'Langle', fr:'Langle', de:'Langle', pt:'Langle', ru:'Langle'},
-            sub:     {en:'Guess today’s mystery language from how it says these words.', ja:'下の単語の言い方から、今日のミステリー言語を当てよう。', ko:'아래 단어의 발음으로 오늘의 미스터리 언어를 맞혀보세요.', zh:'根据下列单词的说法，猜出今天的神秘语言。', es:'Adivina el idioma misterioso de hoy por cómo dice estas palabras.', fr:'Devinez la langue mystère du jour d’après ces mots.', de:'Errate die heutige Mystery-Sprache anhand dieser Wörter.', pt:'Adivinhe a língua misteriosa de hoje por estas palavras.', ru:'Угадайте сегодняшний таинственный язык по этим словам.'},
-            ph:      {en:'Type a language…', ja:'言語名を入力…', ko:'언어 입력…', zh:'输入语言…', es:'Escribe un idioma…', fr:'Tapez une langue…', de:'Sprache eingeben…', pt:'Digite uma língua…', ru:'Введите язык…'},
-            guess:   {en:'Guess', ja:'回答', ko:'추측', zh:'猜', es:'Adivinar', fr:'Deviner', de:'Raten', pt:'Adivinhar', ru:'Угадать'},
-            fam:     {en:'Family', ja:'語族', ko:'어족', zh:'语系', es:'Familia', fr:'Famille', de:'Familie', pt:'Família', ru:'Семья'},
-            win:     {en:'Solved!', ja:'正解！', ko:'정답!', zh:'答对了！', es:'¡Resuelto!', fr:'Trouvé !', de:'Gelöst!', pt:'Acertou!', ru:'Угадали!'},
-            lose:    {en:'Out of guesses', ja:'残念！', ko:'기회 소진', zh:'机会用完', es:'Sin intentos', fr:'Perdu', de:'Keine Versuche mehr', pt:'Sem tentativas', ru:'Попытки кончились'},
-            answer:  {en:'Answer', ja:'答え', ko:'정답', zh:'答案', es:'Respuesta', fr:'Réponse', de:'Antwort', pt:'Resposta', ru:'Ответ'},
-            streak:  {en:'Streak', ja:'連続記録', ko:'연속', zh:'连续', es:'Racha', fr:'Série', de:'Serie', pt:'Sequência', ru:'Серия'},
-            share:   {en:'Share result', ja:'結果を共有', ko:'결과 공유', zh:'分享结果', es:'Compartir', fr:'Partager', de:'Teilen', pt:'Partilhar', ru:'Поделиться'},
-            copied:  {en:'Copied to clipboard!', ja:'コピーしました', ko:'복사했습니다', zh:'已复制', es:'Copiado', fr:'Copié', de:'Kopiert', pt:'Copiado', ru:'Скопировано'},
-            close:   {en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', es:'Cerrar', fr:'Fermer', de:'Schließen', pt:'Fechar', ru:'Закрыть'},
-            already: {en:'You’ve played today — come back tomorrow!', ja:'本日はプレイ済み。また明日！', ko:'오늘은 이미 플레이했어요. 내일 다시!', zh:'今天已玩过，明天再来！', es:'Ya jugaste hoy, ¡vuelve mañana!', fr:'Déjà joué aujourd’hui — à demain !', de:'Heute schon gespielt — bis morgen!', pt:'Já jogou hoje — volte amanhã!', ru:'Сегодня уже сыграли — до завтра!'},
-            mystery: {en:'Mystery language', ja:'ミステリー言語', ko:'미스터리 언어', zh:'神秘语言', es:'Idioma misterioso', fr:'Langue mystère', de:'Mystery-Sprache', pt:'Língua misteriosa', ru:'Таинственный язык'},
-            notfound:{en:'Pick a language from the list', ja:'リストから言語を選んでください', ko:'목록에서 언어를 선택하세요', zh:'请从列表中选择语言', es:'Elige un idioma de la lista', fr:'Choisissez une langue dans la liste', de:'Sprache aus der Liste wählen', pt:'Escolha uma língua da lista', ru:'Выберите язык из списка'}
+            title:   {en:'Langle', ja:'Langle（言語あてゲーム）', ko:'Langle', zh:'Langle 猜语言', es:'Langle', fr:'Langle', de:'Langle', pt:'Langle', ru:'Langle', it:'Langle', yue:'Langle', vi:'Langle', th:'Langle', id:'Langle', hi:'Langle', uk:'Langle', ar:'Langle', he:'Langle', sw:'Langle'},
+            sub:     {en:'Guess today’s mystery language from how it says these words.', ja:'下の単語の言い方から、今日のミステリー言語を当てよう。', ko:'아래 단어의 발음으로 오늘의 미스터리 언어를 맞혀보세요.', zh:'根据下列单词的说法，猜出今天的神秘语言。', es:'Adivina el idioma misterioso de hoy por cómo dice estas palabras.', fr:'Devinez la langue mystère du jour d’après ces mots.', de:'Errate die heutige Mystery-Sprache anhand dieser Wörter.', pt:'Adivinhe a língua misteriosa de hoje por estas palavras.', ru:'Угадайте сегодняшний таинственный язык по этим словам.', it:'Indovina la lingua misteriosa di oggi da come dice queste parole.', yue:'由下面啲詞點講，估出今日嘅神秘語言。', vi:'Đoán ngôn ngữ bí ẩn hôm nay qua cách nói các từ này.', th:'เดาภาษาปริศนาของวันนี้จากวิธีพูดคำเหล่านี้', id:'Tebak bahasa misterius hari ini dari cara mengucapkan kata-kata ini.', hi:'इन शब्दों के उच्चारण से आज की रहस्यमयी भाषा का अनुमान लगाएँ।', uk:'Вгадайте сьогоднішню таємничу мову за тим, як вона вимовляє ці слова.', ar:'خمِّن لغة اليوم الغامضة من طريقة نطق هذه الكلمات.', he:'נחשו את שפת היום המסתורית לפי האופן שבו היא אומרת מילים אלה.', sw:'Kisia lugha ya leo ya fumbo kutokana na jinsi inavyosema maneno haya.'},
+            ph:      {en:'Type a language…', ja:'言語名を入力…', ko:'언어 입력…', zh:'输入语言…', es:'Escribe un idioma…', fr:'Tapez une langue…', de:'Sprache eingeben…', pt:'Digite uma língua…', ru:'Введите язык…', it:'Scrivi una lingua…', yue:'輸入語言…', vi:'Nhập một ngôn ngữ…', th:'พิมพ์ภาษา…', id:'Ketik bahasa…', hi:'भाषा लिखें…', uk:'Введіть мову…', ar:'اكتب لغة…', he:'הקלידו שפה…', sw:'Andika lugha…'},
+            guess:   {en:'Guess', ja:'回答', ko:'추측', zh:'猜', es:'Adivinar', fr:'Deviner', de:'Raten', pt:'Adivinhar', ru:'Угадать', it:'Indovina', yue:'估', vi:'Đoán', th:'เดา', id:'Tebak', hi:'अनुमान', uk:'Вгадати', ar:'خمِّن', he:'ניחוש', sw:'Kisia'},
+            fam:     {en:'Family', ja:'語族', ko:'어족', zh:'语系', es:'Familia', fr:'Famille', de:'Familie', pt:'Família', ru:'Семья', it:'Famiglia', yue:'語系', vi:'Ngữ hệ', th:'ตระกูลภาษา', id:'Rumpun', hi:'भाषा-परिवार', uk:'Сім’я', ar:'الفصيلة', he:'משפחה', sw:'Familia'},
+            win:     {en:'Solved!', ja:'正解！', ko:'정답!', zh:'答对了！', es:'¡Resuelto!', fr:'Trouvé !', de:'Gelöst!', pt:'Acertou!', ru:'Угадали!', it:'Risolto!', yue:'答啱喇！', vi:'Đúng rồi!', th:'ถูกต้อง!', id:'Tepat!', hi:'सही!', uk:'Відгадано!', ar:'أحسنت!', he:'פתרת!', sw:'Umeshinda!'},
+            lose:    {en:'Out of guesses', ja:'残念！', ko:'기회 소진', zh:'机会用完', es:'Sin intentos', fr:'Perdu', de:'Keine Versuche mehr', pt:'Sem tentativas', ru:'Попытки кончились', it:'Tentativi finiti', yue:'冇機會喇', vi:'Hết lượt', th:'หมดโอกาส', id:'Kesempatan habis', hi:'मौके खत्म', uk:'Спроби вичерпано', ar:'انتهت المحاولات', he:'נגמרו הניחושים', sw:'Majaribio yamekwisha'},
+            answer:  {en:'Answer', ja:'答え', ko:'정답', zh:'答案', es:'Respuesta', fr:'Réponse', de:'Antwort', pt:'Resposta', ru:'Ответ', it:'Risposta', yue:'答案', vi:'Đáp án', th:'คำตอบ', id:'Jawaban', hi:'उत्तर', uk:'Відповідь', ar:'الإجابة', he:'תשובה', sw:'Jibu'},
+            streak:  {en:'Streak', ja:'連続記録', ko:'연속', zh:'连续', es:'Racha', fr:'Série', de:'Serie', pt:'Sequência', ru:'Серия', it:'Serie', yue:'連勝', vi:'Chuỗi', th:'สถิติต่อเนื่อง', id:'Rentetan', hi:'लगातार', uk:'Серія', ar:'سلسلة', he:'רצף', sw:'Mfululizo'},
+            share:   {en:'Share result', ja:'結果を共有', ko:'결과 공유', zh:'分享结果', es:'Compartir', fr:'Partager', de:'Teilen', pt:'Partilhar', ru:'Поделиться', it:'Condividi', yue:'分享結果', vi:'Chia sẻ', th:'แชร์ผล', id:'Bagikan', hi:'साझा करें', uk:'Поділитися', ar:'مشاركة', he:'שיתוף', sw:'Shiriki'},
+            copied:  {en:'Copied to clipboard!', ja:'コピーしました', ko:'복사했습니다', zh:'已复制', es:'Copiado', fr:'Copié', de:'Kopiert', pt:'Copiado', ru:'Скопировано', it:'Copiato', yue:'已複製', vi:'Đã sao chép', th:'คัดลอกแล้ว', id:'Disalin', hi:'कॉपी हो गया', uk:'Скопійовано', ar:'تم النسخ', he:'הועתק', sw:'Imenakiliwa'},
+            close:   {en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', es:'Cerrar', fr:'Fermer', de:'Schließen', pt:'Fechar', ru:'Закрыть', it:'Chiudi', yue:'閂', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', uk:'Закрити', ar:'إغلاق', he:'סגירה', sw:'Funga'},
+            already: {en:'You’ve played today — come back tomorrow!', ja:'本日はプレイ済み。また明日！', ko:'오늘은 이미 플레이했어요. 내일 다시!', zh:'今天已玩过，明天再来！', es:'Ya jugaste hoy, ¡vuelve mañana!', fr:'Déjà joué aujourd’hui — à demain !', de:'Heute schon gespielt — bis morgen!', pt:'Já jogou hoje — volte amanhã!', ru:'Сегодня уже сыграли — до завтра!', it:'Hai già giocato oggi — torna domani!', yue:'今日已經玩咗喇 — 聽日再嚟！', vi:'Bạn đã chơi hôm nay — quay lại ngày mai!', th:'วันนี้เล่นแล้ว — พรุ่งนี้มาใหม่!', id:'Sudah main hari ini — kembali besok!', hi:'आज खेल चुके हैं — कल फिर आएँ!', uk:'Сьогодні вже зіграли — поверніться завтра!', ar:'لقد لعبت اليوم — عُد غدًا!', he:'כבר שיחקת היום — חזרו מחר!', sw:'Umeshacheza leo — rudi kesho!'},
+            mystery: {en:'Mystery language', ja:'ミステリー言語', ko:'미스터리 언어', zh:'神秘语言', es:'Idioma misterioso', fr:'Langue mystère', de:'Mystery-Sprache', pt:'Língua misteriosa', ru:'Таинственный язык', it:'Lingua misteriosa', yue:'神秘語言', vi:'Ngôn ngữ bí ẩn', th:'ภาษาปริศนา', id:'Bahasa misterius', hi:'रहस्यमयी भाषा', uk:'Таємнича мова', ar:'لغة غامضة', he:'שפה מסתורית', sw:'Lugha ya fumbo'},
+            notfound:{en:'Pick a language from the list', ja:'リストから言語を選んでください', ko:'목록에서 언어를 선택하세요', zh:'请从列表中选择语言', es:'Elige un idioma de la lista', fr:'Choisissez une langue dans la liste', de:'Sprache aus der Liste wählen', pt:'Escolha uma língua da lista', ru:'Выберите язык из списка', it:'Scegli una lingua dall’elenco', yue:'喺清單揀一種語言', vi:'Chọn một ngôn ngữ từ danh sách', th:'เลือกภาษาจากรายการ', id:'Pilih bahasa dari daftar', hi:'सूची से भाषा चुनें', uk:'Виберіть мову зі списку', ar:'اختر لغة من القائمة', he:'בחרו שפה מהרשימה', sw:'Chagua lugha kutoka kwenye orodha'}
         };
         // ---- data access ----
         const LD = () => (typeof LANG_DATA !== 'undefined') ? LANG_DATA : (window.LANG_DATA || {});

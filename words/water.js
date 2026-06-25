@@ -134,7 +134,7 @@ WORDS.water = {
       srb: ["daŋa", "daŋa"],
       kjg: ["ɔm", "ʔɔm"],
       mro: ["o", "ɔ"],
-      gon: ["पानी / నీ", "kuːdam"],
+      gon: ["पानी / నీ", "paːni"],
       bfq: ["neeru", "neːru"],
       som: ["biyo", "bɪ.jɔ"],
       har: ["miy", "miːj"],

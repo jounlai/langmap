@@ -145,7 +145,7 @@ WORDS.eat = {
       es_uy: ["comer", "komeɾ"],
       ar_sy: ["ياكل", "jaːkol"],
       ar_ye: ["أكل", "ʔɪkɪl"],
-      ar_dz: ["كلى", "kla"],
+      ar_dz: ["ياكل", "jaːkəl"],
       ar_sa: ["ياكل", "jaːkil"],
       ar_lb: ["ياكل", "jaːkol"],
       en_wls: ["eat", "iːt"],

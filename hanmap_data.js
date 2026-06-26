@@ -158,6 +158,7 @@ const HAN_CATEGORIES = [
 const HAN_DATA = {
   "一": {
     "surface": {
+      "hsn_ld": "i¹³",
       "gan_yc": "it¹",
       "gan_ja": "it⁵",
       "gan_fz": "it⁵",
@@ -273,6 +274,7 @@ const HAN_DATA = {
       "nan_pn": "it⁴"
     },
     "ipa": {
+      "hsn_ld": "i˩˧",
       nan_id: "it̚˧˨",
       nan_pera: "it̚˥",
       nan_zz: "it̚˧˨",
@@ -410,6 +412,7 @@ const HAN_DATA = {
   },
   "二": {
     "surface": {
+      "hsn_ld": "eu¹¹",
       "gan_yc": "ŋ²",
       "gan_ja": "oe²¹",
       "gan_fz": "oe²¹",
@@ -526,6 +529,7 @@ const HAN_DATA = {
       "ptb": "*g-nis"
     },
     "ipa": {
+      "hsn_ld": "ɤ˩˩",
       nan_pn: "dzi˨˦",
       nan_id: "dzi˨˦",
       nan_zz: "dʑi˨",
@@ -664,6 +668,7 @@ const HAN_DATA = {
   },
   "三": {
     "surface": {
+      "hsn_ld": "sann⁴⁴",
       "gan_yc": "san³",
       "gan_ja": "san⁴²",
       "gan_fz": "san⁴²",
@@ -773,6 +778,7 @@ const HAN_DATA = {
       "cpx": "sa²³³"
     },
     "ipa": {
+      "hsn_ld": "sã̠˦˦",
       "gan_yc": "san˧˩",
       "gan_ja": "san˦˨",
       "gan_fz": "san˦˨",
@@ -910,6 +916,7 @@ const HAN_DATA = {
   },
   "四": {
     "surface": {
+      "hsn_ld": "sr³⁵",
       "gan_yc": "si⁵",
       "gan_ja": "si⁴⁵",
       "gan_fz": "si⁴⁵",
@@ -1028,6 +1035,7 @@ const HAN_DATA = {
       "ja_thk": "si"
     },
     "ipa": {
+      "hsn_ld": "sz̩˧˥",
       "gan_yc": "sɿ˥",
       "gan_ja": "sɿ˦˥",
       "gan_fz": "sɿ˦˥",
@@ -1176,6 +1184,7 @@ const HAN_DATA = {
   },
   "五": {
     "surface": {
+      "hsn_ld": "u⁴²",
       "gan_yc": "ŋ⁴",
       "gan_ja": "ng²¹³",
       "gan_fz": "ng²¹³",
@@ -1283,6 +1292,7 @@ const HAN_DATA = {
       "nan": "gōo"
     },
     "ipa": {
+      "hsn_ld": "u˦˨",
       "gan_yc": "ŋ̩˨˩˧",
       "gan_ja": "ŋ̩˨˩˧",
       "gan_fz": "ŋ̩˨˩˧",
@@ -1421,6 +1431,7 @@ const HAN_DATA = {
   },
   "六": {
     "surface": {
+      "hsn_ld": "lu³⁵",
       "gan_yc": "liuq⁵",
       "gan_ja": "liuq⁵",
       "gan_fz": "liuq⁵",
@@ -1528,6 +1539,7 @@ const HAN_DATA = {
       "cdo": "lĕ̤k"
     },
     "ipa": {
+      "hsn_ld": "lɤu̯˧˥",
       "gan_yc": "liuʔ˥",
       "gan_ja": "liuʔ˥",
       "gan_fz": "liuʔ˥",
@@ -1666,6 +1678,7 @@ const HAN_DATA = {
   },
   "七": {
     "surface": {
+      "hsn_ld": "ci¹³",
       "gan_yc": "tɕʰit⁵",
       "gan_ja": "qhit⁵",
       "gan_fz": "qhit⁵",
@@ -1782,6 +1795,7 @@ const HAN_DATA = {
       "ja_thk": "shitsu"
     },
     "ipa": {
+      "hsn_ld": "tsʰi˩˧",
       "gan_yc": "tɕʰit̚˥",
       "gan_ja": "tɕʰit̚˥",
       "gan_fz": "tɕʰit̚˥",
@@ -1928,6 +1942,7 @@ const HAN_DATA = {
   },
   "八": {
     "surface": {
+      "hsn_ld": "ba¹³",
       "gan_yc": "pat¹",
       "gan_ja": "pat⁵",
       "gan_fz": "pat⁵",
@@ -2033,6 +2048,7 @@ const HAN_DATA = {
       "nan_hai": "buet7"
     },
     "ipa": {
+      "hsn_ld": "pa̠˩˧",
       "gan_yc": "pat̚˨˦",
       "gan_ja": "pat̚˥",
       "gan_fz": "pat̚˥",
@@ -2169,6 +2185,7 @@ const HAN_DATA = {
   },
   "九": {
     "surface": {
+      "hsn_ld": "jiou⁴²",
       "gan_yc": "tɕiu⁴",
       "gan_ja": "jiu²¹³",
       "gan_fz": "jiu²¹³",
@@ -2278,6 +2295,7 @@ const HAN_DATA = {
       "phm": "*N-ɟuə̯X"
     },
     "ipa": {
+      "hsn_ld": "tɕi̯ʊ˦˨",
       "gan_yc": "tɕiu˨˩˧",
       "gan_ja": "tɕiu˨˩˧",
       "gan_fz": "tɕiu˨˩˧",
@@ -2418,6 +2436,7 @@ const HAN_DATA = {
   },
   "十": {
     "surface": {
+      "hsn_ld": "xi³⁵",
       "gan_yc": "sit¹",
       "gan_ja": "sit⁵",
       "gan_fz": "sit⁵",
@@ -2524,6 +2543,7 @@ const HAN_DATA = {
       "phm": "*gju̯əpD"
     },
     "ipa": {
+      "hsn_ld": "ɕi˧˥",
       "gan_yc": "sɨt̚˨˦",
       "gan_ja": "sɨt̚˥",
       "gan_fz": "sɨt̚˥",
@@ -2661,6 +2681,7 @@ const HAN_DATA = {
   },
   "日": {
     "surface": {
+      "hsn_ld": "ni³⁵ / i³⁵",
       "gan_yc": "nyit¹",
       "gan_ja": "nyit⁵",
       "gan_fz": "nyit⁵",
@@ -2767,6 +2788,7 @@ const HAN_DATA = {
       "ja_thk": "jitsu"
     },
     "ipa": {
+      "hsn_ld": "ni˧˥ / i˧˥",
       "gan_yc": "ɲit̚˨˦",
       "gan_ja": "ɲit̚˥",
       "gan_fz": "ɲit̚˥",
@@ -2901,6 +2923,7 @@ const HAN_DATA = {
   },
   "月": {
     "surface": {
+      "hsn_ld": "ue³⁵",
       "gan_yc": "ŋyɛt¹",
       "gan_ja": "ngyet⁵",
       "gan_fz": "ngyet⁵",
@@ -3004,6 +3027,7 @@ const HAN_DATA = {
       "ja_thk": "getsu"
     },
     "ipa": {
+      "hsn_ld": "u̯e̞˧˥",
       "gan_yc": "ŋyɛt̚˨˦",
       "gan_ja": "ŋyɛt̚˥",
       "gan_fz": "ŋyɛt̚˥",
@@ -3136,6 +3160,7 @@ const HAN_DATA = {
   },
   "山": {
     "surface": {
+      "hsn_ld": "sann⁴⁴",
       "gan_yc": "san³",
       "gan_ja": "san⁴²",
       "gan_fz": "san⁴²",
@@ -3242,6 +3267,7 @@ const HAN_DATA = {
       "ptb": "*r-i"
     },
     "ipa": {
+      "hsn_ld": "sã̠˦˦",
       "gan_yc": "san˧˩",
       "gan_ja": "san˦˨",
       "gan_fz": "san˦˨",
@@ -3378,6 +3404,7 @@ const HAN_DATA = {
   },
   "水": {
     "surface": {
+      "hsn_ld": "xy⁴²",
       "gan_yc": "sui⁴",
       "gan_ja": "sui²¹³",
       "gan_fz": "sui²¹³",
@@ -3488,6 +3515,7 @@ const HAN_DATA = {
       "ja_thk": "sui"
     },
     "ipa": {
+      "hsn_ld": "ɕy˦˨",
       "gan_yc": "sui˨˩˧",
       "gan_ja": "sui˨˩˧",
       "gan_fz": "sui˨˩˧",
@@ -3628,6 +3656,7 @@ const HAN_DATA = {
   },
   "火": {
     "surface": {
+      "hsn_ld": "hou⁴²",
       "gan_yc": "fo⁴",
       "gan_ja": "fo²¹³",
       "gan_fz": "fo²¹³",
@@ -3745,6 +3774,7 @@ const HAN_DATA = {
       "ja_thk": "ka"
     },
     "ipa": {
+      "hsn_ld": "xʊ˦˨",
       "gan_yc": "fo˨˩˧",
       "gan_ja": "fo˨˩˧",
       "gan_fz": "fo˨˩˧",
@@ -3893,6 +3923,7 @@ const HAN_DATA = {
   },
   "木": {
     "surface": {
+      "hsn_ld": "mou³⁵",
       "gan_yc": "muq⁵",
       "gan_ja": "muq⁵",
       "gan_fz": "muq⁵",
@@ -4003,6 +4034,7 @@ const HAN_DATA = {
       "ja_thk": "bogu"
     },
     "ipa": {
+      "hsn_ld": "mʊ˧˥",
       "gan_yc": "muʔ˥",
       "gan_ja": "muʔ˥",
       "gan_fz": "muʔ˥",
@@ -4142,6 +4174,7 @@ const HAN_DATA = {
   },
   "土": {
     "surface": {
+      "hsn_ld": "tu⁴²",
       "gan_yc": "thu⁴",
       "gan_ja": "thu²¹³",
       "gan_fz": "thu²¹³",
@@ -4258,6 +4291,7 @@ const HAN_DATA = {
       "ja_thk": "to"
     },
     "ipa": {
+      "hsn_ld": "tʰɤu̯˦˨",
       "gan_yc": "tʰu˨˩˧",
       "gan_ja": "tʰu˨˩˧",
       "gan_fz": "tʰu˨˩˧",
@@ -4404,6 +4438,7 @@ const HAN_DATA = {
   },
   "天": {
     "surface": {
+      "hsn_ld": "tinn⁴⁴",
       "gan_yc": "thien³",
       "gan_ja": "thien⁴²",
       "gan_fz": "thien⁴²",
@@ -4508,6 +4543,7 @@ const HAN_DATA = {
       "ja_thk": "ten"
     },
     "ipa": {
+      "hsn_ld": "tʰĩ˦˦",
       "gan_yc": "tʰiɛn˧˩",
       "gan_ja": "tʰiɛn˦˨",
       "gan_fz": "tʰiɛn˦˨",
@@ -4641,6 +4677,7 @@ const HAN_DATA = {
   },
   "地": {
     "surface": {
+      "hsn_ld": "ddi¹¹",
       "gan_yc": "thi²",
       "gan_ja": "thi²¹",
       "gan_fz": "thi²¹",
@@ -4747,6 +4784,7 @@ const HAN_DATA = {
       "ja_thk": "chi"
     },
     "ipa": {
+      "hsn_ld": "di˩˩",
       "gan_yc": "tʰi˦",
       "gan_ja": "tʰi˨˩",
       "gan_fz": "tʰi˨˩",
@@ -5140,6 +5178,7 @@ const HAN_DATA = {
   },
   "龍": {
     "surface": {
+      "hsn_ld": "neng¹³",
       "gan_yc": "luŋ⁵",
       "gan_ja": "lung⁴⁵",
       "gan_fz": "lung⁴⁵",
@@ -5245,6 +5284,7 @@ const HAN_DATA = {
       "ja_thk": "ryō"
     },
     "ipa": {
+      "hsn_ld": "nɤŋ˩˧",
       "gan_yc": "luŋ˥",
       "gan_ja": "luŋ˦˥",
       "gan_fz": "luŋ˦˥",
@@ -5899,6 +5939,7 @@ const HAN_DATA = {
   },
   "馬": {
     "surface": {
+      "hsn_ld": "mo⁴²",
       "gan_yc": "ma⁴",
       "gan_ja": "ma²¹³",
       "gan_fz": "ma²¹³",
@@ -6005,6 +6046,7 @@ const HAN_DATA = {
       "ja_thk": "ba"
     },
     "ipa": {
+      "hsn_ld": "mɔ˦˨",
       "gan_yc": "ma˨˩˧",
       "gan_ja": "ma˨˩˧",
       "gan_fz": "ma˨˩˧",
@@ -6385,6 +6427,7 @@ const HAN_DATA = {
   },
   "魚": {
     "surface": {
+      "hsn_ld": "y¹³",
       "gan_yc": "y⁵",
       "gan_ja": "y⁴⁵",
       "gan_fz": "y⁴⁵",
@@ -6502,6 +6545,7 @@ const HAN_DATA = {
       "ja_thk": "gyo"
     },
     "ipa": {
+      "hsn_ld": "y˩˧",
       "gan_yc": "y˥",
       "gan_ja": "y˦˥",
       "gan_fz": "y˦˥",
@@ -6649,6 +6693,7 @@ const HAN_DATA = {
   },
   "牛": {
     "surface": {
+      "hsn_ld": "niou¹³",
       "gan_yc": "ɲiu⁵",
       "gan_ja": "nyiu⁴⁵",
       "gan_fz": "nyiu⁴⁵",
@@ -6756,6 +6801,7 @@ const HAN_DATA = {
       "ptung": "*xuker"
     },
     "ipa": {
+      "hsn_ld": "ni̯ʊ˩˧",
       "gan_yc": "ɲiu˥",
       "gan_ja": "ɲiu˦˥",
       "gan_fz": "ɲiu˦˥",
@@ -6891,6 +6937,7 @@ const HAN_DATA = {
   },
   "羊": {
     "surface": {
+      "hsn_ld": "iong¹³",
       "gan_yc": "iɔŋ⁵",
       "gan_ja": "iong⁴⁵",
       "gan_fz": "iong⁴⁵",
@@ -6993,6 +7040,7 @@ const HAN_DATA = {
       "vi_nom": "cừu"
     },
     "ipa": {
+      "hsn_ld": "i̯ɔŋ˩˧",
       "gan_yc": "iɔŋ˥",
       "gan_ja": "iɔŋ˦˥",
       "gan_fz": "iɔŋ˦˥",
@@ -7125,6 +7173,7 @@ const HAN_DATA = {
   },
   "貓": {
     "surface": {
+      "hsn_ld": "meu⁴⁴",
       "gan_yc": "mau³",
       "gan_ja": "mau⁴²",
       "gan_fz": "mau⁴²",
@@ -7235,6 +7284,7 @@ const HAN_DATA = {
       "zh_phagspa": "mew"
     },
     "ipa": {
+      "hsn_ld": "mɤ˦˦",
       "gan_yc": "mau˧˩",
       "gan_ja": "mau˦˨",
       "gan_fz": "mau˦˨",
@@ -7373,6 +7423,7 @@ const HAN_DATA = {
   },
   "人": {
     "surface": {
+      "hsn_ld": "nin¹³",
       "gan_yc": "ɲin⁵",
       "gan_ja": "nyin⁴⁵",
       "gan_fz": "nyin⁴⁵",
@@ -7479,6 +7530,7 @@ const HAN_DATA = {
       "ja_thk": "jin"
     },
     "ipa": {
+      "hsn_ld": "nin˩˧",
       cdo: "iŋ˩˧",
       "gan_yc": "ɲin˥",
       "gan_ja": "ɲin˦˥",
@@ -7615,6 +7667,7 @@ const HAN_DATA = {
   },
   "手": {
     "surface": {
+      "hsn_ld": "xiou⁴²",
       "gan_yc": "sɛu⁴",
       "gan_ja": "seu²¹³",
       "gan_fz": "seu²¹³",
@@ -7720,6 +7773,7 @@ const HAN_DATA = {
       "ja_thk": "shū"
     },
     "ipa": {
+      "hsn_ld": "ɕi̯ʊ˦˨",
       "gan_yc": "sɛu˨˩˧",
       "gan_ja": "sɛu˨˩˧",
       "gan_fz": "sɛu˨˩˧",
@@ -8346,6 +8400,7 @@ const HAN_DATA = {
   },
   "耳": {
     "surface": {
+      "hsn_ld": "eu⁴²",
       "gan_yc": "ɚ⁴",
       "gan_ja": "er²¹³",
       "gan_fz": "er²¹³",
@@ -8453,6 +8508,7 @@ const HAN_DATA = {
       "ja_thk": "ji"
     },
     "ipa": {
+      "hsn_ld": "ɤ˦˨",
       "gan_yc": "ɚ˨˩˧",
       "gan_ja": "ɚ˨˩˧",
       "gan_fz": "ɚ˨˩˧",
@@ -8589,6 +8645,7 @@ const HAN_DATA = {
   },
   "口": {
     "surface": {
+      "hsn_ld": "keu⁴²",
       "gan_yc": "kʰɛu⁴",
       "gan_ja": "kheu²¹³",
       "gan_fz": "kheu²¹³",
@@ -8698,6 +8755,7 @@ const HAN_DATA = {
       "ja_thk": "kō"
     },
     "ipa": {
+      "hsn_ld": "kʰɤ˦˨",
       "gan_yc": "kʰɛu˨˩˧",
       "gan_ja": "kʰɛu˨˩˧",
       "gan_fz": "kʰɛu˨˩˧",
@@ -8836,6 +8894,7 @@ const HAN_DATA = {
   },
   "頭": {
     "surface": {
+      "hsn_ld": "ddieu¹³",
       "gan_yc": "tʰɛu⁵",
       "gan_ja": "theu⁴⁵",
       "gan_fz": "theu⁴⁵",
@@ -8945,6 +9004,7 @@ const HAN_DATA = {
       "pja": "*kasira"
     },
     "ipa": {
+      "hsn_ld": "di̯ɤ˩˧",
       "gan_yc": "tʰɛu˥",
       "gan_ja": "tʰɛu˦˥",
       "gan_fz": "tʰɛu˦˥",
@@ -9083,6 +9143,7 @@ const HAN_DATA = {
   },
   "心": {
     "surface": {
+      "hsn_ld": "sin⁴⁴",
       "gan_yc": "ɕin³",
       "gan_ja": "xin⁴²",
       "gan_fz": "xin⁴²",
@@ -9197,6 +9258,7 @@ const HAN_DATA = {
       "ja_thk": "shin"
     },
     "ipa": {
+      "hsn_ld": "sin˦˦",
       "gan_yc": "ɕin˧˩",
       "gan_ja": "ɕin˦˨",
       "gan_fz": "ɕin˦˨",
@@ -9341,6 +9403,7 @@ const HAN_DATA = {
   },
   "血": {
     "surface": {
+      "hsn_ld": "xye¹³",
       "gan_yc": "ɕyɛt¹",
       "gan_ja": "xyet⁵",
       "gan_fz": "xyet⁵",
@@ -9450,6 +9513,7 @@ const HAN_DATA = {
       "ja_thk": "ketsu"
     },
     "ipa": {
+      "hsn_ld": "ɕy̯e̞˩˧",
       "gan_yc": "ɕyɛt̚˨˦",
       "gan_ja": "ɕyɛt̚˥",
       "gan_fz": "ɕyɛt̚˥",
@@ -11029,6 +11093,7 @@ const HAN_DATA = {
   },
   "左": {
     "surface": {
+      "hsn_ld": "zou⁴²",
       "gan_yc": "tso⁴",
       "gan_ja": "zo²¹³",
       "gan_fz": "zo²¹³",
@@ -11143,6 +11208,7 @@ const HAN_DATA = {
       "ja_thk": "sa"
     },
     "ipa": {
+      "hsn_ld": "tsʊ˦˨",
       "gan_yc": "tso˨˩˧",
       "gan_ja": "tso˨˩˧",
       "gan_fz": "tso˨˩˧",
@@ -11287,6 +11353,7 @@ const HAN_DATA = {
   },
   "右": {
     "surface": {
+      "hsn_ld": "iou¹¹",
       "gan_yc": "iu²",
       "gan_ja": "iu²¹",
       "gan_fz": "iu²¹",
@@ -11401,6 +11468,7 @@ const HAN_DATA = {
       "ja_thk": "yū"
     },
     "ipa": {
+      "hsn_ld": "i̯ʊ˩˩",
       "gan_yc": "iu˦",
       "gan_ja": "iu˨˩",
       "gan_fz": "iu˨˩",
@@ -11774,6 +11842,7 @@ const HAN_DATA = {
   },
   "西": {
     "surface": {
+      "hsn_ld": "si⁴⁴",
       "gan_yc": "ɕi³",
       "gan_ja": "xi⁴²",
       "gan_fz": "xi⁴²",
@@ -11876,6 +11945,7 @@ const HAN_DATA = {
       "ja_thk": "sei"
     },
     "ipa": {
+      "hsn_ld": "si˦˦",
       "gan_yc": "ɕi˧˩",
       "gan_ja": "ɕi˦˨",
       "gan_fz": "ɕi˦˨",
@@ -12008,6 +12078,7 @@ const HAN_DATA = {
   },
   "南": {
     "surface": {
+      "hsn_ld": "nann¹³",
       "gan_yc": "lan⁵",
       "gan_ja": "lan⁴⁵",
       "gan_fz": "lan⁴⁵",
@@ -12119,6 +12190,7 @@ const HAN_DATA = {
       "ja_thk": "dan"
     },
     "ipa": {
+      "hsn_ld": "nã̠˩˧",
       "gan_yc": "lan˥",
       "gan_ja": "lan˦˥",
       "gan_fz": "lan˦˥",
@@ -12259,6 +12331,7 @@ const HAN_DATA = {
   },
   "北": {
     "surface": {
+      "hsn_ld": "be¹³",
       "gan_yc": "pɛt¹",
       "gan_ja": "pet⁵",
       "gan_fz": "pet⁵",
@@ -12371,6 +12444,7 @@ const HAN_DATA = {
       "ja_thk": "hogu"
     },
     "ipa": {
+      "hsn_ld": "pe̞˩˧",
       "gan_yc": "pɛt̚˨˦",
       "gan_ja": "pɛt̚˥",
       "gan_fz": "pɛt̚˥",
@@ -13021,6 +13095,7 @@ const HAN_DATA = {
   },
   "来": {
     "surface": {
+      "hsn_ld": "le¹³",
       "gan_yc": "lai⁵",
       "gan_ja": "lai⁴⁵",
       "gan_fz": "lai⁴⁵",
@@ -13134,6 +13209,7 @@ const HAN_DATA = {
       "nan_hai": "lai5"
     },
     "ipa": {
+      "hsn_ld": "le̞˩˧",
       "gan_yc": "lai˥",
       "gan_ja": "lai˦˥",
       "gan_fz": "lai˦˥",
@@ -13281,6 +13357,7 @@ const HAN_DATA = {
   },
   "去": {
     "surface": {
+      "hsn_ld": "qi³⁵ / qy³⁵",
       "gan_yc": "tɕʰie²",
       "gan_ja": "qhie²¹",
       "gan_fz": "qhie²¹",
@@ -13385,6 +13462,7 @@ const HAN_DATA = {
       "nan_hai": "hi3"
     },
     "ipa": {
+      "hsn_ld": "tɕʰi˧˥ / tɕʰy˧˥",
       "gan_yc": "tɕʰie˦",
       "gan_ja": "tɕʰie˨˩",
       "gan_fz": "tɕʰie˨˩",
@@ -13758,6 +13836,7 @@ const HAN_DATA = {
   },
   "聞": {
     "surface": {
+      "hsn_ld": "un¹³",
       "gan_yc": "un⁵",
       "gan_ja": "un⁴⁵",
       "gan_fz": "un⁴⁵",
@@ -13861,6 +13940,7 @@ const HAN_DATA = {
       "ja_thk": "bun"
     },
     "ipa": {
+      "hsn_ld": "un˩˧",
       "gan_yc": "un˥",
       "gan_ja": "un˦˥",
       "gan_fz": "un˦˥",
@@ -15217,7 +15297,8 @@ const HAN_LANG_META = {
   "cjy_cz": {"name":"Jin Chinese (Changzhi)","native":"长治晋语","family":"Sino-Tibetan (Sinitic, Jin — 上党片)","lat":36.2,"lng":113.12,"region":"China (Shanxi — Changzhi 长治)","reading_type":{"ja":"上党話","en":"Jin (Changzhi)","ko":"진어(장치방언)","zh":"长治晋语","fr":"Jin de Changzhi","de":"Jin (Changzhi)","es":"Jin (Changzhi)","ru":"Цзиньский (Чанчжи)","ar":"الجين (تشانجتشي)","he":"ג'ין (צ'נגז'י)","sw":"Kijin (Changzhi)","yue":"長治晉語","vi":"Tiếng Tấn (Changzhi)","th":"ภาษาจิ้น (แชงจือ)","id":"Bahasa Jin (Changzhi)","hi":"जिन (चांगझी)","it":"Jin (Changzhi)","pt":"Jin (Changzhi)","uk":"Цзиньський (Чанчжи)"},"description":{"en":"Jin Chinese (Changzhi / Shangdang dialect) is a Sino-Tibetan Sinitic language spoken in Shanxi Province, specifically in the Changzhi region. This dialect list represents the baseline cjy readings as adapted to Changzhi phonology. The Changzhi dialect shares core phonological features with standard  [Provisional — 中国语言地图集 subgroup point; readings derived from sibling + dialect profile, pending verification.]",ja:"晋語（長治／上党方言）は、山西省、特に長治地域で話されるシナ・チベット語族のシナ語派の言語です。この方言リストは、長治音韻論に適応させた基準となる cjy の読みを表しています。長治方言は標準的な [暫定 — 中国语言地图集のサブグループ地点。読みは姉妹方言＋方言プロファイルから導出されたもので、検証待ち。] と中核的な音韻的特徴を共有しています。",ko:"진어(창즈/상당 방언)는 산시성, 특히 창즈 지역에서 사용되는 중국티베트어족 중국어파 언어입니다. 이 방언 목록은 창즈 음운론에 맞게 조정된 기준 cjy 독음을 나타냅니다. 창즈 방언은 표준 [잠정 — 中国语言地图集 하위 그룹 지점. 독음은 자매 방언 + 방언 프로파일에서 도출되었으며 검증 대기 중.] 와 핵심 음운적 특징을 공유합니다.",zh:"晋语（长治／上党方言）是一种汉藏语系汉语族语言，使用于山西省，具体在长治地区。本方言列表代表了根据长治音系改编的基准 cjy 读音。长治方言与标准 [暂定 — 中国语言地图集 子组点位；读音由姊妹方言 + 方言概况推导而来，待核实。] 共享核心音系特征。",fr:"Le jin (dialecte de Changzhi / Shangdang) est une langue sinitique de la famille sino-tibétaine parlée dans la province du Shanxi, plus précisément dans la région de Changzhi. Cette liste dialectale représente les lectures cjy de référence adaptées à la phonologie de Changzhi. Le dialecte de Changzhi partage des traits phonologiques fondamentaux avec le standard [Provisoire — point de sous-groupe du 中国语言地图集 ; lectures dérivées du dialecte apparenté + profil dialectal, en attente de vérification.]",de:"Jin-Chinesisch (Changzhi-/Shangdang-Dialekt) ist eine sinitische Sprache der sino-tibetischen Sprachfamilie, die in der Provinz Shanxi, genauer in der Region Changzhi, gesprochen wird. Diese Dialektliste stellt die Basis-cjy-Lesungen dar, die an die Phonologie von Changzhi angepasst wurden. Der Changzhi-Dialekt teilt grundlegende phonologische Merkmale mit dem Standard- [Vorläufig — Untergruppenpunkt des 中国语言地图集; Lesungen abgeleitet aus Schwesterdialekt + Dialektprofil, Überprüfung ausstehend.]",es:"El chino jin (dialecto de Changzhi / Shangdang) es una lengua sinítica de la familia sino-tibetana hablada en la provincia de Shanxi, concretamente en la región de Changzhi. Esta lista dialectal representa las lecturas cjy de referencia adaptadas a la fonología de Changzhi. El dialecto de Changzhi comparte rasgos fonológicos fundamentales con el estándar [Provisional — punto de subgrupo del 中国语言地图集; lecturas derivadas del dialecto hermano + perfil dialectal, pendientes de verificación.]",ru:"Цзиньский китайский (диалект Чанчжи / Шандан) — синитский язык сино-тибетской семьи, на котором говорят в провинции Шаньси, а именно в районе Чанчжи. Этот диалектный список представляет базовые чтения cjy, адаптированные к фонологии Чанчжи. Диалект Чанчжи разделяет основные фонологические особенности со стандартным [Предварительно — точка подгруппы 中国语言地图集; чтения выведены из родственного диалекта + диалектного профиля, ожидают проверки.]",ar:"الصينية الجينية (لهجة تشانغتشي / شانغدانغ) هي لغة سينيتية من عائلة اللغات الصينية-التبتية، يُتحدث بها في مقاطعة شانشي، وتحديدًا في منطقة تشانغتشي. تمثل قائمة اللهجة هذه قراءات cjy الأساسية المُكيَّفة مع علم أصوات تشانغتشي. تشترك لهجة تشانغتشي في السمات الصوتية الأساسية مع المعيار [مؤقت — نقطة مجموعة فرعية من 中国语言地图集؛ القراءات مشتقة من اللهجة الشقيقة + الملف اللهجي، في انتظار التحقق.]",he:"סינית ג'ין (ניב צ'אנגז'י / שאנגדאנג) היא שפה סינית ממשפחת השפות הסינו-טיבטיות המדוברת במחוז שאנשי, ובפרט באזור צ'אנגז'י. רשימת ניב זו מייצגת את קריאות cjy הבסיסיות המותאמות לפונולוגיה של צ'אנגז'י. ניב צ'אנגז'י חולק מאפיינים פונולוגיים ליבתיים עם התקן [זמני — נקודת תת-קבוצה של 中国语言地图集; הקריאות נגזרו מניב אחות + פרופיל ניב, בהמתנה לאימות.]",sw:"Kichina cha Jin (lahaja ya Changzhi / Shangdang) ni lugha ya Kisiniti ya familia ya Kisino-Kitibeti inayozungumzwa katika Mkoa wa Shanxi, hasa katika eneo la Changzhi. Orodha hii ya lahaja inawakilisha usomaji wa msingi wa cjy kama ulivyobadilishwa kulingana na fonolojia ya Changzhi. Lahaja ya Changzhi inashiriki sifa kuu za kifonolojia na ile sanifu [Ya muda — kituo cha kikundi kidogo cha 中国语言地图集; usomaji umetokana na lahaja dada + wasifu wa lahaja, ukisubiri uthibitisho.]",yue:"晉語（長治／上黨方言）係一種漢藏語系漢語族語言，喺山西省，具體嚟講喺長治地區使用。呢個方言清單代表咗根據長治音系改編嘅基準 cjy 讀音。長治方言同標準 [暫定 — 中国语言地图集 子組點位；讀音由姊妹方言 + 方言概況推導而嚟，有待核實。] 共享核心音系特徵。",vi:"Tiếng Tấn (phương ngữ Trường Trị / Thượng Đảng) là một ngôn ngữ Hán thuộc ngữ hệ Hán-Tạng, được nói ở tỉnh Sơn Tây, cụ thể là vùng Trường Trị. Danh sách phương ngữ này đại diện cho các âm đọc cjy cơ sở được điều chỉnh theo âm vận học Trường Trị. Phương ngữ Trường Trị chia sẻ các đặc điểm âm vận học cốt lõi với chuẩn [Tạm thời — điểm phân nhóm của 中国语言地图集; âm đọc được suy ra từ phương ngữ chị em + hồ sơ phương ngữ, đang chờ xác minh.]",th:"ภาษาจิ้น (สำเนียงฉางจื้อ / ซ่างต่าง) เป็นภาษาตระกูลย่อยจีนในตระกูลภาษาจีน-ทิเบต พูดในมณฑลซานซี โดยเฉพาะในเขตฉางจื้อ รายการสำเนียงนี้แสดงการอ่านพื้นฐานของ cjy ที่ปรับให้เข้ากับระบบเสียงของฉางจื้อ สำเนียงฉางจื้อมีลักษณะทางระบบเสียงหลักร่วมกับมาตรฐาน [ชั่วคราว — จุดกลุ่มย่อยของ 中国语言地图集; การอ่านได้มาจากสำเนียงพี่น้อง + โปรไฟล์สำเนียง รอการตรวจสอบ.]",id:"Bahasa Jin (dialek Changzhi / Shangdang) adalah bahasa Sinitik dari rumpun bahasa Sino-Tibet yang dituturkan di Provinsi Shanxi, khususnya di wilayah Changzhi. Daftar dialek ini mewakili pembacaan dasar cjy yang disesuaikan dengan fonologi Changzhi. Dialek Changzhi berbagi ciri fonologis inti dengan standar [Sementara — titik subkelompok 中国语言地图集; pembacaan diturunkan dari dialek serumpun + profil dialek, menunggu verifikasi.]",hi:"जिन चीनी (चांगज़ी / शांगडांग बोली) चीन-तिब्बती परिवार की एक सिनिटिक भाषा है, जो शानशी प्रांत में, विशेष रूप से चांगज़ी क्षेत्र में बोली जाती है। यह बोली सूची चांगज़ी ध्वनिविज्ञान के अनुरूप ढाली गई आधारभूत cjy वाचनों का प्रतिनिधित्व करती है। चांगज़ी बोली मानक [अनंतिम — 中国语言地图集 उपसमूह बिंदु; वाचन सहोदर बोली + बोली प्रोफ़ाइल से व्युत्पन्न, सत्यापन लंबित।] के साथ मूल ध्वनिवैज्ञानिक विशेषताएं साझा करती है।",it:"Il cinese jin (dialetto di Changzhi / Shangdang) è una lingua sinitica della famiglia sino-tibetana parlata nella provincia dello Shanxi, in particolare nella regione di Changzhi. Questo elenco dialettale rappresenta le letture cjy di base adattate alla fonologia di Changzhi. Il dialetto di Changzhi condivide tratti fonologici fondamentali con lo standard [Provvisorio — punto di sottogruppo del 中国语言地图集; letture derivate dal dialetto affine + profilo dialettale, in attesa di verifica.]",pt:"O chinês jin (dialeto de Changzhi / Shangdang) é uma língua sinítica da família sino-tibetana falada na província de Shanxi, especificamente na região de Changzhi. Esta lista dialetal representa as leituras cjy de base adaptadas à fonologia de Changzhi. O dialeto de Changzhi compartilha traços fonológicos centrais com o padrão [Provisório — ponto de subgrupo do 中国语言地图集; leituras derivadas do dialeto irmão + perfil dialetal, aguardando verificação.]",uk:"Цзіньська китайська (діалект Чанчжі / Шандан) — синітська мова сино-тибетської родини, якою розмовляють у провінції Шаньсі, а саме в районі Чанчжі. Цей діалектний список представляє базові читання cjy, адаптовані до фонології Чанчжі. Діалект Чанчжі поділяє основні фонологічні риси зі стандартним [Попередньо — точка підгрупи 中国语言地图集; читання виведені зі спорідненого діалекту + діалектного профілю, очікують перевірки.]"},"romanization":{"name":"Jin (Changzhi) Shanxi — Sino-Tibetan, Jin, Shangdang section (上党片); Taiyuan-styl"},"sources":[{"type":"reference","title":"中国语言地图集 (Language Atlas of China) subgroup classification; readings from sibling baseline + dialect surveys"}],"speakers":"(provisional)","dataStatus":"fragmentary"},
   "cjy_lv": {"name":"Jin Chinese (Lishi/Lüliang)","native":"吕梁晋语","family":"Sino-Tibetan (Sinitic, Jin — 吕梁片)","lat":37.52,"lng":111.13,"region":"China (Shanxi — Lüliang 吕梁)","reading_type":{"ja":"吕梁晋語","en":"Lüliang Jin","ko":"여량 진어","zh":"吕梁晋语","fr":"Jin de Lüliang","de":"Lüliang-Jin","es":"Jin de Lüliang","ru":"Люйляньский цзиньский","ar":"الجين من لولِيانغ","he":"ג'ין של לוליאנג","sw":"Kijin cha Lüliang","yue":"呂梁晉語","vi":"Tiếng Tấn Lữ Lương","th":"ภาษาจิ้นของลู่หลวง","id":"Bahasa Jin Lüliang","hi":"लुलियांग जिन","it":"Jin di Lüliang","pt":"Jin de Lüliang","uk":"Люйляньська цзіньська"},"description":{"en":"The Lüliang Jin readings provided are based on the Taiyuan Jin (cjy) baseline documented in this project's hanmap_data.js, adjusted minimally for Lüliang-specific characteristics where verifiable. Justification: (1) Lüliang is confirmed in project reviews (hanmap_reviews/25_closed.md) as 典型晋語 (typic [Provisional — 中国语言地图集 subgroup point; readings derived from sibling + dialect profile, pending verification.]",ja:"提供されている呂梁晋語の読みは、本プロジェクトの hanmap_data.js に記録された太原晋語（cjy）のベースラインに基づいており、検証可能な範囲で呂梁固有の特徴に合わせて最小限の調整を加えたものです。根拠：(1) 呂梁はプロジェクトのレビュー（hanmap_reviews/25_closed.md）において 典型晋語（typic [暫定 — 中国语言地图集 のサブグループ地点。読みは類縁方言＋方言プロファイルから導出。検証待ち。]",ko:"제공된 여량 진어 독음은 본 프로젝트의 hanmap_data.js에 기록된 태원 진어(cjy) 기준선에 기반하며, 검증 가능한 범위에서 여량 고유의 특성에 맞추어 최소한으로 조정되었습니다. 근거: (1) 여량은 프로젝트 검토(hanmap_reviews/25_closed.md)에서 典型晋語(typic [잠정 — 中国语言地图集 하위 그룹 지점; 독음은 자매 방언 + 방언 프로파일에서 도출됨, 검증 대기 중.]",zh:"所提供的吕梁晋语读音基于本项目 hanmap_data.js 中所记录的太原晋语（cjy）基准，并在可核实的范围内针对吕梁特有的特征做了最小限度的调整。理由：(1) 吕梁在项目评审（hanmap_reviews/25_closed.md）中被确认为典型晋语（typic [暂定 — 中国语言地图集 子分区点；读音由姊妹方言 + 方言概况推导而来，待核实。]",fr:"Les lectures du jin de Lüliang fournies se fondent sur la base de référence du jin de Taiyuan (cjy) documentée dans le hanmap_data.js de ce projet, ajustée de manière minimale pour les particularités propres à Lüliang lorsque celles-ci sont vérifiables. Justification : (1) Lüliang est confirmé dans les revues du projet (hanmap_reviews/25_closed.md) comme 典型晋語 (typic [Provisoire — point de sous-groupe du 中国语言地图集 ; lectures dérivées d'un dialecte apparenté + profil dialectal, en attente de vérification.]",de:"Die angegebenen Lesungen des Lüliang-Jin basieren auf der im hanmap_data.js dieses Projekts dokumentierten Taiyuan-Jin-Grundlage (cjy) und wurden dort, wo überprüfbar, minimal an Lüliang-spezifische Merkmale angepasst. Begründung: (1) Lüliang wird in den Projektprüfungen (hanmap_reviews/25_closed.md) als 典型晋語 (typic [Vorläufig — Untergruppenpunkt des 中国语言地图集; Lesungen abgeleitet aus Schwesterdialekt + Dialektprofil, Überprüfung ausstehend.]",es:"Las lecturas del jin de Lüliang proporcionadas se basan en la línea de referencia del jin de Taiyuan (cjy) documentada en el hanmap_data.js de este proyecto, ajustada mínimamente a las características propias de Lüliang cuando es verificable. Justificación: (1) Lüliang está confirmado en las revisiones del proyecto (hanmap_reviews/25_closed.md) como 典型晋語 (typic [Provisional — punto de subgrupo del 中国语言地图集; lecturas derivadas de un dialecto hermano + perfil dialectal, pendiente de verificación.]",ru:"Приведённые чтения люйляньского цзиньского основаны на эталоне тайюаньского цзиньского (cjy), задокументированном в файле hanmap_data.js данного проекта, и минимально скорректированы под специфические особенности Люйляна там, где это поддаётся проверке. Обоснование: (1) Люйлян подтверждён в обзорах проекта (hanmap_reviews/25_closed.md) как 典型晋語 (typic [Предварительно — точка подгруппы 中国语言地图集; чтения выведены из родственного диалекта + диалектного профиля, ожидают проверки.]",ar:"تستند قراءات جين لولِيانغ المقدَّمة إلى الأساس المرجعي لجين تايوان (cjy) الموثَّق في ملف hanmap_data.js الخاص بهذا المشروع، وقد عُدِّلت تعديلاً طفيفاً لتلائم الخصائص الخاصة بلولِيانغ حيثما أمكن التحقق منها. التبرير: (1) تأكَّد في مراجعات المشروع (hanmap_reviews/25_closed.md) أن لولِيانغ هي 典型晋語 (typic [مؤقت — نقطة مجموعة فرعية من 中国语言地图集؛ القراءات مستمدة من لهجة شقيقة + ملف اللهجة، في انتظار التحقق.]",he:"קריאות הג'ין של לוליאנג המסופקות מבוססות על קו הבסיס של ג'ין טאיואן (cjy) המתועד בקובץ hanmap_data.js של פרויקט זה, ומותאמות במידה מזערית למאפיינים הייחודיים של לוליאנג היכן שניתן לאמת זאת. הצדקה: (1) לוליאנג מאומתת בסקירות הפרויקט (hanmap_reviews/25_closed.md) כ-典型晋語 (typic [זמני — נקודת תת-קבוצה של 中国语言地图集; הקריאות נגזרו מניב אחות + פרופיל ניב, בהמתנה לאימות.]",sw:"Usomaji wa Kijin cha Lüliang uliotolewa unategemea msingi wa Kijin cha Taiyuan (cjy) uliorekodiwa katika hanmap_data.js ya mradi huu, ukirekebishwa kwa kiwango cha chini sana kulingana na sifa mahususi za Lüliang pale zinapoweza kuthibitishwa. Sababu: (1) Lüliang imethibitishwa katika mapitio ya mradi (hanmap_reviews/25_closed.md) kuwa 典型晋語 (typic [Ya muda — kituo cha kikundi kidogo cha 中国语言地图集; usomaji umetokana na lahaja dada + wasifu wa lahaja, ukisubiri uthibitisho.]",yue:"所提供嘅呂梁晉語讀音係根據本項目 hanmap_data.js 入面所記錄嘅太原晉語（cjy）基準，喺可核實嘅範圍內針對呂梁特有嘅特徵作出最低限度嘅調整。理由：(1) 呂梁喺項目評審（hanmap_reviews/25_closed.md）中獲確認為典型晉語（typic [暫定 — 中国语言地图集 子分區點；讀音由姊妹方言 + 方言概況推導而來，待核實。]",vi:"Các âm đọc tiếng Tấn Lữ Lương được cung cấp dựa trên chuẩn cơ sở tiếng Tấn Thái Nguyên (cjy) được ghi nhận trong hanmap_data.js của dự án này, được điều chỉnh tối thiểu theo các đặc điểm riêng của Lữ Lương ở những chỗ có thể kiểm chứng. Lý do: (1) Lữ Lương được xác nhận trong các bản rà soát của dự án (hanmap_reviews/25_closed.md) là 典型晋語 (typic [Tạm thời — điểm phân nhóm của 中国语言地图集; các âm đọc được suy ra từ phương ngữ chị em + hồ sơ phương ngữ, đang chờ kiểm chứng.]",th:"คำอ่านภาษาจิ้นของลู่หลวงที่ให้ไว้นี้อ้างอิงจากเส้นฐานภาษาจิ้นไท่หยวน (cjy) ที่บันทึกไว้ในไฟล์ hanmap_data.js ของโครงการนี้ โดยปรับให้เข้ากับลักษณะเฉพาะของลู่หลวงเพียงเล็กน้อยเท่าที่ตรวจสอบได้ เหตุผล: (1) ลู่หลวงได้รับการยืนยันในบททบทวนของโครงการ (hanmap_reviews/25_closed.md) ว่าเป็น 典型晋語 (typic [ชั่วคราว — จุดกลุ่มย่อยของ 中国语言地图集; คำอ่านได้มาจากสำเนียงพี่น้อง + โปรไฟล์สำเนียง อยู่ระหว่างรอการตรวจสอบ]",id:"Bacaan Jin Lüliang yang disediakan didasarkan pada baseline Jin Taiyuan (cjy) yang didokumentasikan dalam hanmap_data.js proyek ini, disesuaikan secara minimal untuk karakteristik khas Lüliang jika dapat diverifikasi. Justifikasi: (1) Lüliang dikonfirmasi dalam tinjauan proyek (hanmap_reviews/25_closed.md) sebagai 典型晋語 (typic [Sementara — titik subkelompok 中国语言地图集; bacaan diturunkan dari dialek sekerabat + profil dialek, menunggu verifikasi.]",hi:"प्रदान की गई लुलियांग जिन ध्वनियाँ इस परियोजना के hanmap_data.js में प्रलेखित ताइयुआन जिन (cjy) आधाररेखा पर आधारित हैं, और जहाँ सत्यापित किया जा सके वहाँ लुलियांग-विशिष्ट विशेषताओं के अनुसार न्यूनतम रूप से समायोजित की गई हैं। औचित्य: (1) परियोजना समीक्षाओं (hanmap_reviews/25_closed.md) में लुलियांग की पुष्टि 典型晋語 (typic के रूप में की गई है [अनंतिम — 中国语言地图集 उपसमूह बिंदु; ध्वनियाँ सहोदर बोली + बोली प्रोफ़ाइल से व्युत्पन्न, सत्यापन लंबित।]",it:"Le letture del jin di Lüliang fornite si basano sulla linea di riferimento del jin di Taiyuan (cjy) documentata nel hanmap_data.js di questo progetto, adattate in modo minimo alle caratteristiche specifiche di Lüliang ove verificabili. Giustificazione: (1) Lüliang è confermata nelle revisioni del progetto (hanmap_reviews/25_closed.md) come 典型晋語 (typic [Provvisorio — punto di sottogruppo del 中国语言地图集; letture derivate da dialetto affine + profilo dialettale, in attesa di verifica.]",pt:"As leituras do jin de Lüliang fornecidas baseiam-se na linha de referência do jin de Taiyuan (cjy) documentada no hanmap_data.js deste projeto, ajustadas minimamente às características específicas de Lüliang sempre que verificáveis. Justificação: (1) Lüliang está confirmada nas revisões do projeto (hanmap_reviews/25_closed.md) como 典型晋語 (typic [Provisório — ponto de subgrupo do 中国语言地图集; leituras derivadas de dialeto irmão + perfil dialetal, pendente de verificação.]",uk:"Наведені читання люйляньської цзіньської ґрунтуються на еталоні тайюаньської цзіньської (cjy), задокументованому у файлі hanmap_data.js цього проєкту, і мінімально скориговані під специфічні особливості Люйляна там, де це можна перевірити. Обґрунтування: (1) Люйлян підтверджено в оглядах проєкту (hanmap_reviews/25_closed.md) як 典型晋語 (typic [Попередньо — точка підгрупи 中国语言地图集; читання виведені зі спорідненого діалекту + діалектного профілю, очікують перевірки.]"},"romanization":{"name":"Lüliang Jin (吕梁晋语) — tone notation with superscript numerals; romanization appro"},"sources":[{"type":"reference","title":"中国语言地图集 (Language Atlas of China) subgroup classification; readings from sibling baseline + dialect surveys"}],"speakers":"(provisional)","dataStatus":"fragmentary"},
   "cjy_xz": {"name":"Jin Chinese (Xinzhou)","native":"晋语（忻州方言）","family":"Sino-Tibetan (Sinitic, Jin — 五台片)","lat":38.42,"lng":112.73,"region":"China (Shanxi — Xinzhou 忻州)","reading_type":{"ja":"晋語忻州方言","en":"Jin Chinese (Xinzhou)","ko":"진어 (신주 방언)","zh":"晋语（忻州方言）","fr":"Chinois Jin (dialecte de Xinzhou)","de":"Jin-Chinesisch (Xinzhou-Dialekt)","es":"Chino Jin (dialecto de Xinzhou)","ru":"Цзиньский китайский (синьчжоуский диалект)","ar":"جيني الصينية (لهجة شينتشو)","he":"סיני ג'ין (ניב שינג'ו)","sw":"Kichina cha Jin (lahaja ya Xinzhou)","yue":"晉語（忻州方言）","vi":"Tiếng Trung Quốc Jin (phương ngữ Tân Châu)","th":"ภาษาจินจีน (สำเนียงซินโจว)","id":"Bahasa Mandarin Jin (dialek Xinzhou)","hi":"जिन चीनी (शिनज़ु बोली)","it":"Cinese Jin (dialetto di Xinzhou)","pt":"Chinês Jin (dialeto de Xinzhou)","uk":"Цзіньська китайська (синьчжоуський діалект)"},"description":{"en":"Jin Chinese, Xinzhou (五台片忻州), Sino-Tibetan (Sinitic). Baseline dialect is cjy (Jin general); phonological adjustments for Xinzhou reflect: (1) 4-tone system (tone 1 = high level ˩˩, tone 2 = low rising ˨˩, tone 3 = high rising ˥˧, tone 4 = high falling ˦˥) plus single entering tone glottal stop ʔ di [Provisional — 中国语言地图集 subgroup point; readings derived from sibling + dialect profile, pending verification.]",ja:"晋語、忻州方言（五台片忻州）、シナ・チベット語族（シナ語派）。基準方言はcjy（晋語一般）。忻州方言に向けた音韻調整は以下を反映する：(1) 4声調体系（第1声＝高平調 ˩˩、第2声＝低昇調 ˨˩、第3声＝高昇調 ˥˧、第4声＝高降調 ˦˥）に加え、単一の入声声門閉鎖音 ʔ di [暫定 — 中国語言地図集のサブグループ地点。読みは姉妹方言＋方言プロファイルから導出、検証待ち。]",ko:"진어, 신저우 방언(五台片忻州), 중국티베트어족(중국어파). 기준 방언은 cjy(진어 일반). 신저우 방언을 위한 음운 조정은 다음을 반영한다: (1) 4성조 체계(1성 = 고평조 ˩˩, 2성 = 저승조 ˨˩, 3성 = 고승조 ˥˧, 4성 = 고강조 ˦˥)와 단일 입성 성문 폐쇄음 ʔ di [잠정 — 中国语言地图集 하위그룹 지점. 발음은 자매 방언 + 방언 프로파일에서 도출, 검증 대기 중.]",zh:"晋语，忻州话（五台片忻州），汉藏语系（汉语族）。基准方言为 cjy（晋语通用）；针对忻州的音系调整反映：(1) 四声调系统（声调1 = 高平 ˩˩，声调2 = 低升 ˨˩，声调3 = 高升 ˥˧，声调4 = 高降 ˦˥）以及单一入声喉塞音 ʔ di [暂定 — 《中国语言地图集》分区点；读音由姊妹方言＋方言概况推导，待核实。]",fr:"Jin, dialecte de Xinzhou (五台片忻州), sino-tibétain (sinitique). Le dialecte de référence est cjy (jin général) ; les ajustements phonologiques pour Xinzhou reflètent : (1) un système à 4 tons (ton 1 = haut plat ˩˩, ton 2 = bas montant ˨˩, ton 3 = haut montant ˥˧, ton 4 = haut descendant ˦˥) plus un unique ton entrant avec coup de glotte ʔ di [Provisoire — point de sous-groupe du 中国语言地图集 ; lectures dérivées d'un dialecte apparenté + profil dialectal, en attente de vérification.]",de:"Jin-Chinesisch, Dialekt von Xinzhou (五台片忻州), sino-tibetisch (sinitisch). Der Basisdialekt ist cjy (Jin allgemein); die phonologischen Anpassungen für Xinzhou spiegeln wider: (1) ein 4-Ton-System (Ton 1 = hoch eben ˩˩, Ton 2 = tief steigend ˨˩, Ton 3 = hoch steigend ˥˧, Ton 4 = hoch fallend ˦˥) sowie einen einzelnen Eingangston mit Glottisverschluss ʔ di [Vorläufig — Untergruppenpunkt des 中国语言地图集; Lesungen abgeleitet aus Schwesterdialekt + Dialektprofil, Überprüfung ausstehend.]",es:"Chino jin, dialecto de Xinzhou (五台片忻州), sino-tibetano (sinítico). El dialecto de base es cjy (jin general); los ajustes fonológicos para Xinzhou reflejan: (1) un sistema de 4 tonos (tono 1 = alto plano ˩˩, tono 2 = bajo ascendente ˨˩, tono 3 = alto ascendente ˥˧, tono 4 = alto descendente ˦˥) más una única entrada con oclusión glotal ʔ di [Provisional — punto de subgrupo del 中国语言地图集; lecturas derivadas de un dialecto hermano + perfil dialectal, pendiente de verificación.]",ru:"Цзинь, диалект Синьчжоу (五台片忻州), сино-тибетская семья (китайская ветвь). Базовый диалект — cjy (цзинь общий); фонологические корректировки для Синьчжоу отражают: (1) систему из 4 тонов (тон 1 = высокий ровный ˩˩, тон 2 = низкий восходящий ˨˩, тон 3 = высокий восходящий ˥˧, тон 4 = высокий нисходящий ˦˥) плюс единственный входящий тон с гортанной смычкой ʔ di [Предварительно — точка подгруппы из 中国语言地图集; чтения выведены из родственного диалекта + диалектного профиля, ожидают проверки.]",ar:"الصينية الجينية، لهجة شينتشو (五台片忻州)، الصينية-التبتية (السينيتية). اللهجة الأساس هي cjy (الجينية العامة)؛ التعديلات الصوتية الخاصة بشينتشو تعكس: (1) نظام من 4 نغمات (النغمة 1 = مستوية عالية ˩˩، النغمة 2 = صاعدة منخفضة ˨˩، النغمة 3 = صاعدة عالية ˥˧، النغمة 4 = هابطة عالية ˦˥) إضافة إلى نغمة داخلة واحدة بوقفة حنجرية ʔ di [مؤقت — نقطة مجموعة فرعية من 中国语言地图集؛ القراءات مستمدة من لهجة شقيقة + ملف اللهجة، بانتظار التحقق.]",he:"סינית ג'ין, ניב שינג'ואו (五台片忻州), סינו-טיבטית (סיניטית). ניב הבסיס הוא cjy (ג'ין כללי); ההתאמות הפונולוגיות לשינג'ואו משקפות: (1) מערכת של 4 טונים (טון 1 = גבוה ישר ˩˩, טון 2 = נמוך עולה ˨˩, טון 3 = גבוה עולה ˥˧, טון 4 = גבוה יורד ˦˥) בתוספת טון נכנס יחיד עם עיצור סדק ʔ di [זמני — נקודת תת-קבוצה מתוך 中国语言地图集; הקריאות נגזרו מניב אחאי + פרופיל הניב, בהמתנה לאימות.]",sw:"Kichina cha Jin, lahaja ya Xinzhou (五台片忻州), Sino-Tibetan (Sinitic). Lahaja ya msingi ni cjy (Jin ya jumla); marekebisho ya kifonolojia kwa Xinzhou yanaonyesha: (1) mfumo wa toni 4 (toni 1 = juu tambarare ˩˩, toni 2 = chini ipandayo ˨˩, toni 3 = juu ipandayo ˥˧, toni 4 = juu ishukayo ˦˥) pamoja na toni moja ya kuingia yenye kizuizi cha koromeo ʔ di [Ya muda — kituo cha kikundi-ndogo cha 中国语言地图集; usomaji umetokana na lahaja dada + wasifu wa lahaja, ukisubiri uhakiki.]",yue:"晉語，忻州話（五台片忻州），漢藏語系（漢語族）。基準方言為 cjy（晉語通用）；針對忻州嘅音系調整反映：(1) 四聲調系統（聲調1 = 高平 ˩˩，聲調2 = 低升 ˨˩，聲調3 = 高升 ˥˧，聲調4 = 高降 ˦˥），再加單一入聲喉塞音 ʔ di [暫定 — 《中国语言地图集》分區點；讀音由姊妹方言＋方言概況推導，待核實。]",vi:"Tiếng Tấn, phương ngữ Hân Châu (五台片忻州), ngữ hệ Hán-Tạng (nhánh Hán). Phương ngữ cơ sở là cjy (tiếng Tấn chung); các điều chỉnh âm vị học cho Hân Châu phản ánh: (1) hệ thống 4 thanh điệu (thanh 1 = cao bằng ˩˩, thanh 2 = thấp lên ˨˩, thanh 3 = cao lên ˥˧, thanh 4 = cao xuống ˦˥) cùng một thanh nhập duy nhất với âm tắc thanh hầu ʔ di [Tạm thời — điểm phân nhóm của 中国语言地图集; cách đọc suy ra từ phương ngữ chị em + hồ sơ phương ngữ, đang chờ xác minh.]",th:"ภาษาจิ้น สำเนียงซินโจว (五台片忻州) ตระกูลจีน-ทิเบต (สาขาจีน) สำเนียงพื้นฐานคือ cjy (จิ้นทั่วไป) การปรับด้านสัทวิทยาสำหรับซินโจวสะท้อนถึง: (1) ระบบ 4 วรรณยุกต์ (วรรณยุกต์ที่ 1 = สูงระดับ ˩˩, วรรณยุกต์ที่ 2 = ต่ำขึ้น ˨˩, วรรณยุกต์ที่ 3 = สูงขึ้น ˥˧, วรรณยุกต์ที่ 4 = สูงตก ˦˥) บวกกับวรรณยุกต์เข้า (entering tone) เดี่ยวที่มีเสียงกักเส้นเสียง ʔ di [ชั่วคราว — จุดกลุ่มย่อยจาก 中国语言地图集 การออกเสียงได้มาจากสำเนียงพี่น้อง + โปรไฟล์สำเนียง รอการตรวจสอบ]",id:"Bahasa Jin, dialek Xinzhou (五台片忻州), rumpun Sino-Tibet (Sinitik). Dialek dasar adalah cjy (Jin umum); penyesuaian fonologis untuk Xinzhou mencerminkan: (1) sistem 4 nada (nada 1 = datar tinggi ˩˩, nada 2 = naik rendah ˨˩, nada 3 = naik tinggi ˥˧, nada 4 = turun tinggi ˦˥) ditambah satu nada masuk (entering tone) tunggal dengan hentian glotal ʔ di [Sementara — titik subkelompok dari 中国语言地图集; pelafalan diturunkan dari dialek saudara + profil dialek, menunggu verifikasi.]",hi:"जिन चीनी, शिनझोउ बोली (五台片忻州), चीनी-तिब्बती (सिनिटिक)। आधार बोली cjy (जिन सामान्य) है; शिनझोउ के लिए ध्वनिशास्त्रीय समायोजन निम्न को दर्शाते हैं: (1) 4-स्वर प्रणाली (स्वर 1 = उच्च समतल ˩˩, स्वर 2 = निम्न आरोही ˨˩, स्वर 3 = उच्च आरोही ˥˧, स्वर 4 = उच्च अवरोही ˦˥) तथा एकल प्रवेशी स्वर ग्लॉटल स्टॉप ʔ di [अनंतिम — 中国语言地图集 उपसमूह बिंदु; उच्चारण सहोदर बोली + बोली प्रोफ़ाइल से व्युत्पन्न, सत्यापन लंबित।]",it:"Cinese jin, dialetto di Xinzhou (五台片忻州), sino-tibetano (sinitico). Il dialetto di base è cjy (jin generale); gli aggiustamenti fonologici per Xinzhou riflettono: (1) un sistema a 4 toni (tono 1 = alto piano ˩˩, tono 2 = basso ascendente ˨˩, tono 3 = alto ascendente ˥˧, tono 4 = alto discendente ˦˥) più un unico tono entrante con occlusiva glottidale ʔ di [Provvisorio — punto di sottogruppo del 中国语言地图集; letture derivate da un dialetto affine + profilo dialettale, in attesa di verifica.]",pt:"Chinês jin, dialeto de Xinzhou (五台片忻州), sino-tibetano (sinítico). O dialeto de base é cjy (jin geral); os ajustes fonológicos para Xinzhou refletem: (1) um sistema de 4 tons (tom 1 = alto plano ˩˩, tom 2 = baixo ascendente ˨˩, tom 3 = alto ascendente ˥˧, tom 4 = alto descendente ˦˥) mais um único tom de entrada com oclusão glotal ʔ di [Provisório — ponto de subgrupo do 中国语言地图集; leituras derivadas de dialeto irmão + perfil dialetal, aguardando verificação.]",uk:"Цзінь, діалект Сіньчжоу (五台片忻州), сино-тибетська сім'я (китайська гілка). Базовий діалект — cjy (цзінь загальний); фонологічні коригування для Сіньчжоу відображають: (1) систему з 4 тонів (тон 1 = високий рівний ˩˩, тон 2 = низький висхідний ˨˩, тон 3 = високий висхідний ˥˧, тон 4 = високий спадний ˦˥) плюс єдиний вхідний тон з гортанним змиканням ʔ di [Попередньо — точка підгрупи з 中国语言地图集; читання виведені з спорідненого діалекту + діалектного профілю, очікують перевірки.]"},"romanization":{"name":"Modified Pinyinistic System (Xinzhou Jin variant) / IPA with Chao tone numbers"},"sources":[{"type":"reference","title":"中国语言地图集 (Language Atlas of China) subgroup classification; readings from sibling baseline + dialect surveys"}],"speakers":"(provisional)","dataStatus":"fragmentary"},
-  "hsn_hy": {"name":"Xiang Chinese (Hengyang)","native":"衡陽湘語","family":"Sino-Tibetan (Sinitic, Xiang — 衡州片)","lat":26.89,"lng":112.57,"region":"China (Hunan — Hengyang 衡阳)","reading_type":{"ja":"衡陽湘語","en":"Xiang (Hengyang)","ko":"형양상어","zh":"衡陽湘語","fr":"Xiang (Hengyang)","de":"Xiang (Hengyang)","es":"Xiang (Hengyang)","ru":"Сянский (Хэнъян)","ar":"الشيانغ (هنغيانغ)","he":"שיאנג (הנגיאנג)","sw":"Kixiang (Hengyang)","yue":"衡陽湘語","vi":"Tiếng Tương (Hằng Dương)","th":"ภาษาเซียง (เฮงหยาง)","id":"Bahasa Xiang (Hengyang)","hi":"शियांग (हेंग्यांग)","it":"Xiang (Hengyang)","pt":"Xiang (Hengyang)","uk":"Сянська (Хенян)"},"description":{"en":"Source: Baseline HSN (Xiang/Hunan, Changsha area) from langmap/hanmap_data.js. Hengyang Xiang (hsn_hy) — a sub-dialect within the Changsha-based 衡州片 (Hengyang sub-branch) — shares the same core phonological system (tone inventory, initials, finals) as the documented HSN baseline. Specialized hsn_hy- [Provisional — 中国语言地图集 subgroup point; readings derived from sibling + dialect profile, pending verification.]",ja:"出典: langmap/hanmap_data.js のベースライン HSN(湘語/湖南、長沙地域)。衡陽湘語(hsn_hy)— 長沙を基盤とする衡州片(衡陽支系)内の下位方言 — は、文献に記録された HSN ベースラインと同じ中核的音韻体系(声調体系、声母、韻母)を共有する。専門的な hsn_hy- [暫定 — 中国語言地図集の下位グループ地点。読みは姉妹方言+方言プロファイルから導出、検証待ち。]",ko:"출처: langmap/hanmap_data.js의 기준 HSN(샹어/후난, 창사 지역). 헝양 샹어(hsn_hy) — 창사를 기반으로 하는 衡州片(헝양 하위 분파) 내의 하위 방언 — 는 문서화된 HSN 기준선과 동일한 핵심 음운 체계(성조 목록, 성모, 운모)를 공유한다. 전문화된 hsn_hy- [잠정 — 中国语言地图集 하위 그룹 지점. 발음은 자매 방언 + 방언 프로필에서 도출, 검증 대기 중.]",zh:"来源：取自 langmap/hanmap_data.js 的基准 HSN（湘语/湖南，长沙地区）。衡阳湘语（hsn_hy）—— 以长沙为基础的衡州片（衡阳支系）内的一个次方言 —— 与已记录的 HSN 基准共享相同的核心音系系统（声调系统、声母、韵母）。专门的 hsn_hy- ［暂定 —— 《中国语言地图集》子组地点；读音由姊妹方言＋方言概况推导而来，有待核实。］",fr:"Source : HSN de référence (Xiang/Hunan, région de Changsha) tiré de langmap/hanmap_data.js. Le xiang de Hengyang (hsn_hy) — un sous-dialecte au sein du 衡州片 (sous-branche de Hengyang) basé sur Changsha — partage le même système phonologique central (inventaire tonal, initiales, finales) que la référence HSN documentée. hsn_hy- spécialisé [Provisoire — point de sous-groupe du 中国语言地图集 ; lectures dérivées du dialecte frère + profil dialectal, en attente de vérification.]",de:"Quelle: Basislinie HSN (Xiang/Hunan, Raum Changsha) aus langmap/hanmap_data.js. Das Hengyang-Xiang (hsn_hy) — ein Unterdialekt innerhalb des auf Changsha basierenden 衡州片 (Hengyang-Unterzweig) — teilt dasselbe phonologische Kernsystem (Toninventar, Anlaute, Auslaute) wie die dokumentierte HSN-Basislinie. Spezialisiertes hsn_hy- [Vorläufig — Untergruppen-Punkt des 中国语言地图集; Lesungen abgeleitet aus Schwesterdialekt + Dialektprofil, Überprüfung ausstehend.]",es:"Fuente: HSN de referencia (Xiang/Hunan, área de Changsha) de langmap/hanmap_data.js. El xiang de Hengyang (hsn_hy) — un subdialecto dentro del 衡州片 (subrama de Hengyang) basado en Changsha — comparte el mismo sistema fonológico central (inventario tonal, iniciales, finales) que la referencia documentada de HSN. hsn_hy- especializado [Provisional — punto de subgrupo del 中国语言地图集; lecturas derivadas del dialecto hermano + perfil dialectal, pendiente de verificación.]",ru:"Источник: базовый HSN (сян/Хунань, район Чанша) из langmap/hanmap_data.js. Хэнъянский сян (hsn_hy) — поддиалект в составе основанного на Чанша 衡州片 (хэнъянская подветвь) — имеет ту же основную фонологическую систему (тоновый инвентарь, инициали, финали), что и задокументированный базовый HSN. Специализированный hsn_hy- [Предварительно — точка подгруппы по «中国语言地图集»; чтения выведены из родственного диалекта + диалектного профиля, ожидают проверки.]",ar:"المصدر: الأساس المرجعي HSN (شيانغ/هونان، منطقة تشانغشا) من langmap/hanmap_data.js. شيانغ هنغيانغ (hsn_hy) — لهجة فرعية ضمن 衡州片 (الفرع الفرعي لهنغيانغ) القائم على تشانغشا — يشترك في النظام الصوتي الأساسي نفسه (مخزون النغمات، الحروف الأولية، الحروف النهائية) مع الأساس المرجعي الموثّق لـ HSN. hsn_hy- المتخصص [مؤقت — نقطة مجموعة فرعية من 中国语言地图集؛ القراءات مشتقة من اللهجة الشقيقة + الملف اللهجي، بانتظار التحقق.]",he:"מקור: בסיס HSN (שיאנג/חונאן, אזור צ'אנגשא) מתוך langmap/hanmap_data.js. שיאנג של הנגיאנג (hsn_hy) — תת-ניב בתוך 衡州片 (תת-ענף הנגיאנג) המבוסס על צ'אנגשא — חולק את אותה מערכת פונולוגית מרכזית (מצאי טונים, עיצורים פותחים, סופיות) כמו בסיס ה-HSN המתועד. hsn_hy- ייעודי [זמני — נקודת תת-קבוצה מתוך 中国语言地图集; ההגיות נגזרו מניב אחאי + פרופיל ניבי, ממתינות לאימות.]",sw:"Chanzo: Msingi wa HSN (Xiang/Hunan, eneo la Changsha) kutoka langmap/hanmap_data.js. Xiang ya Hengyang (hsn_hy) — lahaja ndogo ndani ya 衡州片 (tawi ndogo la Hengyang) lenye msingi wa Changsha — inashiriki mfumo uleule wa kifonolojia wa msingi (orodha ya toni, sauti za mwanzo, sauti za mwisho) kama msingi wa HSN ulioandikwa. hsn_hy- maalum [Ya muda — eneo la kikundi kidogo cha 中国语言地图集; matamshi yametokana na lahaja dada + wasifu wa lahaja, yakisubiri uthibitisho.]",yue:"來源：取自 langmap/hanmap_data.js 嘅基準 HSN（湘語/湖南，長沙地區）。衡陽湘語（hsn_hy）—— 以長沙為基礎嘅衡州片（衡陽支系）入面嘅一個次方言 —— 同已記錄嘅 HSN 基準共享相同嘅核心音系系統（聲調系統、聲母、韻母）。專門嘅 hsn_hy- ［暫定 —— 《中国语言地图集》子組地點；讀音由姊妹方言＋方言概況推導而嚟，有待核實。］",vi:"Nguồn: HSN cơ sở (Tương/Hồ Nam, khu vực Trường Sa) từ langmap/hanmap_data.js. Tiếng Tương Hành Dương (hsn_hy) — một phương ngữ phụ trong 衡州片 (phân nhánh Hành Dương) dựa trên Trường Sa — có chung hệ thống âm vị học cốt lõi (kho thanh điệu, phụ âm đầu, vần) với cơ sở HSN đã được ghi chép. hsn_hy- chuyên biệt [Tạm thời — điểm tiểu nhóm của 中国语言地图集; cách đọc suy ra từ phương ngữ chị em + hồ sơ phương ngữ, chờ xác minh.]",th:"แหล่งที่มา: HSN พื้นฐาน (เซียง/หูหนาน เขตฉางซา) จาก langmap/hanmap_data.js เซียงเหิงหยาง (hsn_hy) — สำเนียงย่อยภายใน 衡州片 (สาขาย่อยเหิงหยาง) ที่อิงฉางซา — ใช้ระบบสัทวิทยาหลักชุดเดียวกัน (คลังวรรณยุกต์ พยัญชนะต้น สระท้าย) กับ HSN พื้นฐานที่มีการบันทึกไว้ hsn_hy- เฉพาะทาง [ชั่วคราว — จุดกลุ่มย่อยจาก 中国语言地图集; การออกเสียงได้มาจากสำเนียงพี่น้อง + โปรไฟล์สำเนียง รอการตรวจสอบ]",id:"Sumber: HSN dasar (Xiang/Hunan, wilayah Changsha) dari langmap/hanmap_data.js. Xiang Hengyang (hsn_hy) — subdialek dalam 衡州片 (subcabang Hengyang) yang berbasis di Changsha — berbagi sistem fonologis inti yang sama (inventaris nada, inisial, final) dengan HSN dasar yang terdokumentasi. hsn_hy- khusus [Sementara — titik subkelompok dari 中国语言地图集; pelafalan diturunkan dari dialek saudara + profil dialek, menunggu verifikasi.]",hi:"स्रोत: langmap/hanmap_data.js से आधारभूत HSN (शियांग/हुनान, चांगशा क्षेत्र)। हेंगयांग शियांग (hsn_hy) — चांगशा-आधारित 衡州片 (हेंगयांग उप-शाखा) के भीतर एक उप-बोली — प्रलेखित HSN आधार के समान ही मूल ध्वनिविज्ञानी प्रणाली (स्वर सूची, आद्य व्यंजन, अंत्य ध्वनियाँ) साझा करती है। विशेषीकृत hsn_hy- [अस्थायी — 中国语言地图集 उपसमूह बिंदु; उच्चारण सहोदर बोली + बोली रूपरेखा से व्युत्पन्न, सत्यापन लंबित।]",it:"Fonte: HSN di riferimento (Xiang/Hunan, area di Changsha) da langmap/hanmap_data.js. Lo xiang di Hengyang (hsn_hy) — un sotto-dialetto all'interno del 衡州片 (sotto-ramo di Hengyang) basato su Changsha — condivide lo stesso sistema fonologico centrale (inventario tonale, iniziali, finali) del riferimento HSN documentato. hsn_hy- specializzato [Provvisorio — punto di sottogruppo del 中国语言地图集; letture derivate dal dialetto affine + profilo dialettale, in attesa di verifica.]",pt:"Fonte: HSN de referência (Xiang/Hunan, área de Changsha) de langmap/hanmap_data.js. O xiang de Hengyang (hsn_hy) — um subdialeto dentro do 衡州片 (subramo de Hengyang) baseado em Changsha — compartilha o mesmo sistema fonológico central (inventário tonal, iniciais, finais) que a referência HSN documentada. hsn_hy- especializado [Provisório — ponto de subgrupo do 中国语言地图集; leituras derivadas do dialeto irmão + perfil dialetal, aguardando verificação.]",uk:"Джерело: базовий HSN (сян/Хунань, район Чанша) з langmap/hanmap_data.js. Хеньянський сян (hsn_hy) — піддіалект у складі заснованого на Чанша 衡州片 (хеньянська підгілка) — має ту саму основну фонологічну систему (тоновий інвентар, ініціалі, фіналі), що й задокументований базовий HSN. Спеціалізований hsn_hy- [Попередньо — точка підгрупи за «中国语言地图集»; читання виведені зі спорідненого діалекту + діалектного профілю, очікують перевірки.]"},"romanization":{"name":"Xiang (Hunan) Pinyin / Romanization with tone numerals (after-syllable, 1-5 scal"},"sources":[{"type":"reference","title":"中国语言地图集 (Language Atlas of China) subgroup classification; readings from sibling baseline + dialect surveys"}],"speakers":"(provisional)","dataStatus":"fragmentary"},
+  "hsn_hy": {"name":"Xiang Chinese (Hengyang)","native":"衡陽湘語","family":"Sino-Tibetan (Sinitic, Xiang — 衡州片)","lat":26.89,"lng":112.57,"region":"China (Hunan — Hengyang 衡阳)","reading_type":{"ja":"衡陽湘語","en":"Xiang (Hengyang)","ko":"형양상어","zh":"衡陽湘語","fr":"Xiang (Hengyang)","de":"Xiang (Hengyang)","es":"Xiang (Hengyang)","ru":"Сянский (Хэнъян)","ar":"الشيانغ (هنغيانغ)","he":"שיאנג (הנגיאנג)","sw":"Kixiang (Hengyang)","yue":"衡陽湘語","vi":"Tiếng Tương (Hằng Dương)","th":"ภาษาเซียง (เฮงหยาง)","id":"Bahasa Xiang (Hengyang)","hi":"शियांग (हेंग्यांग)","it":"Xiang (Hengyang)","pt":"Xiang (Hengyang)","uk":"Сянська (Хенян)"},"description":{"en":"Source: Baseline HSN (Xiang/Hunan, Changsha area) from langmap/hanmap_data.js. Hengyang Xiang (hsn_hy) — a sub-dialect within the Changsha-based 衡州片 (Hengyang sub-branch) — shares the same core phonological system (tone inventory, initials, finals) as the documented HSN baseline. Specialized hsn_hy- [Provisional — 中国语言地图集 subgroup point; readings derived from sibling + dialect profile, pending verification.]",ja:"出典: langmap/hanmap_data.js のベースライン HSN(湘語/湖南、長沙地域)。衡陽湘語(hsn_hy)— 長沙を基盤とする衡州片(衡陽支系)内の下位方言 — は、文献に記録された HSN ベースラインと同じ中核的音韻体系(声調体系、声母、韻母)を共有する。専門的な hsn_hy- [暫定 — 中国語言地図集の下位グループ地点。読みは姉妹方言+方言プロファイルから導出、検証待ち。]",ko:"출처: langmap/hanmap_data.js의 기준 HSN(샹어/후난, 창사 지역). 헝양 샹어(hsn_hy) — 창사를 기반으로 하는 衡州片(헝양 하위 분파) 내의 하위 방언 — 는 문서화된 HSN 기준선과 동일한 핵심 음운 체계(성조 목록, 성모, 운모)를 공유한다. 전문화된 hsn_hy- [잠정 — 中国语言地图集 하위 그룹 지점. 발음은 자매 방언 + 방언 프로필에서 도출, 검증 대기 중.]",zh:"来源：取自 langmap/hanmap_data.js 的基准 HSN（湘语/湖南，长沙地区）。衡阳湘语（hsn_hy）—— 以长沙为基础的衡州片（衡阳支系）内的一个次方言 —— 与已记录的 HSN 基准共享相同的核心音系系统（声调系统、声母、韵母）。专门的 hsn_hy- ［暂定 —— 《中国语言地图集》子组地点；读音由姊妹方言＋方言概况推导而来，有待核实。］",fr:"Source : HSN de référence (Xiang/Hunan, région de Changsha) tiré de langmap/hanmap_data.js. Le xiang de Hengyang (hsn_hy) — un sous-dialecte au sein du 衡州片 (sous-branche de Hengyang) basé sur Changsha — partage le même système phonologique central (inventaire tonal, initiales, finales) que la référence HSN documentée. hsn_hy- spécialisé [Provisoire — point de sous-groupe du 中国语言地图集 ; lectures dérivées du dialecte frère + profil dialectal, en attente de vérification.]",de:"Quelle: Basislinie HSN (Xiang/Hunan, Raum Changsha) aus langmap/hanmap_data.js. Das Hengyang-Xiang (hsn_hy) — ein Unterdialekt innerhalb des auf Changsha basierenden 衡州片 (Hengyang-Unterzweig) — teilt dasselbe phonologische Kernsystem (Toninventar, Anlaute, Auslaute) wie die dokumentierte HSN-Basislinie. Spezialisiertes hsn_hy- [Vorläufig — Untergruppen-Punkt des 中国语言地图集; Lesungen abgeleitet aus Schwesterdialekt + Dialektprofil, Überprüfung ausstehend.]",es:"Fuente: HSN de referencia (Xiang/Hunan, área de Changsha) de langmap/hanmap_data.js. El xiang de Hengyang (hsn_hy) — un subdialecto dentro del 衡州片 (subrama de Hengyang) basado en Changsha — comparte el mismo sistema fonológico central (inventario tonal, iniciales, finales) que la referencia documentada de HSN. hsn_hy- especializado [Provisional — punto de subgrupo del 中国语言地图集; lecturas derivadas del dialecto hermano + perfil dialectal, pendiente de verificación.]",ru:"Источник: базовый HSN (сян/Хунань, район Чанша) из langmap/hanmap_data.js. Хэнъянский сян (hsn_hy) — поддиалект в составе основанного на Чанша 衡州片 (хэнъянская подветвь) — имеет ту же основную фонологическую систему (тоновый инвентарь, инициали, финали), что и задокументированный базовый HSN. Специализированный hsn_hy- [Предварительно — точка подгруппы по «中国语言地图集»; чтения выведены из родственного диалекта + диалектного профиля, ожидают проверки.]",ar:"المصدر: الأساس المرجعي HSN (شيانغ/هونان، منطقة تشانغشا) من langmap/hanmap_data.js. شيانغ هنغيانغ (hsn_hy) — لهجة فرعية ضمن 衡州片 (الفرع الفرعي لهنغيانغ) القائم على تشانغشا — يشترك في النظام الصوتي الأساسي نفسه (مخزون النغمات، الحروف الأولية، الحروف النهائية) مع الأساس المرجعي الموثّق لـ HSN. hsn_hy- المتخصص [مؤقت — نقطة مجموعة فرعية من 中国语言地图集؛ القراءات مشتقة من اللهجة الشقيقة + الملف اللهجي، بانتظار التحقق.]",he:"מקור: בסיס HSN (שיאנג/חונאן, אזור צ'אנגשא) מתוך langmap/hanmap_data.js. שיאנג של הנגיאנג (hsn_hy) — תת-ניב בתוך 衡州片 (תת-ענף הנגיאנג) המבוסס על צ'אנגשא — חולק את אותה מערכת פונולוגית מרכזית (מצאי טונים, עיצורים פותחים, סופיות) כמו בסיס ה-HSN המתועד. hsn_hy- ייעודי [זמני — נקודת תת-קבוצה מתוך 中国语言地图集; ההגיות נגזרו מניב אחאי + פרופיל ניבי, ממתינות לאימות.]",sw:"Chanzo: Msingi wa HSN (Xiang/Hunan, eneo la Changsha) kutoka langmap/hanmap_data.js. Xiang ya Hengyang (hsn_hy) — lahaja ndogo ndani ya 衡州片 (tawi ndogo la Hengyang) lenye msingi wa Changsha — inashiriki mfumo uleule wa kifonolojia wa msingi (orodha ya toni, sauti za mwanzo, sauti za mwisho) kama msingi wa HSN ulioandikwa. hsn_hy- maalum [Ya muda — eneo la kikundi kidogo cha 中国语言地图集; matamshi yametokana na lahaja dada + wasifu wa lahaja, yakisubiri uthibitisho.]",yue:"來源：取自 langmap/hanmap_data.js 嘅基準 HSN（湘語/湖南，長沙地區）。衡陽湘語（hsn_hy）—— 以長沙為基礎嘅衡州片（衡陽支系）入面嘅一個次方言 —— 同已記錄嘅 HSN 基準共享相同嘅核心音系系統（聲調系統、聲母、韻母）。專門嘅 hsn_hy- ［暫定 —— 《中国语言地图集》子組地點；讀音由姊妹方言＋方言概況推導而嚟，有待核實。］",vi:"Nguồn: HSN cơ sở (Tương/Hồ Nam, khu vực Trường Sa) từ langmap/hanmap_data.js. Tiếng Tương Hành Dương (hsn_hy) — một phương ngữ phụ trong 衡州片 (phân nhánh Hành Dương) dựa trên Trường Sa — có chung hệ thống âm vị học cốt lõi (kho thanh điệu, phụ âm đầu, vần) với cơ sở HSN đã được ghi chép. hsn_hy- chuyên biệt [Tạm thời — điểm tiểu nhóm của 中国语言地图集; cách đọc suy ra từ phương ngữ chị em + hồ sơ phương ngữ, chờ xác minh.]",th:"แหล่งที่มา: HSN พื้นฐาน (เซียง/หูหนาน เขตฉางซา) จาก langmap/hanmap_data.js เซียงเหิงหยาง (hsn_hy) — สำเนียงย่อยภายใน 衡州片 (สาขาย่อยเหิงหยาง) ที่อิงฉางซา — ใช้ระบบสัทวิทยาหลักชุดเดียวกัน (คลังวรรณยุกต์ พยัญชนะต้น สระท้าย) กับ HSN พื้นฐานที่มีการบันทึกไว้ hsn_hy- เฉพาะทาง [ชั่วคราว — จุดกลุ่มย่อยจาก 中国语言地图集; การออกเสียงได้มาจากสำเนียงพี่น้อง + โปรไฟล์สำเนียง รอการตรวจสอบ]",id:"Sumber: HSN dasar (Xiang/Hunan, wilayah Changsha) dari langmap/hanmap_data.js. Xiang Hengyang (hsn_hy) — subdialek dalam 衡州片 (subcabang Hengyang) yang berbasis di Changsha — berbagi sistem fonologis inti yang sama (inventaris nada, inisial, final) dengan HSN dasar yang terdokumentasi. hsn_hy- khusus [Sementara — titik subkelompok dari 中国语言地图集; pelafalan diturunkan dari dialek saudara + profil dialek, menunggu verifikasi.]",hi:"स्रोत: langmap/hanmap_data.js से आधारभूत HSN (शियांग/हुनान, चांगशा क्षेत्र)। हेंगयांग शियांग (hsn_hy) — चांगशा-आधारित 衡州片 (हेंगयांग उप-शाखा) के भीतर एक उप-बोली — प्रलेखित HSN आधार के समान ही मूल ध्वनिविज्ञानी प्रणाली (स्वर सूची, आद्य व्यंजन, अंत्य ध्वनियाँ) साझा करती है। विशेषीकृत hsn_hy- [अस्थायी — 中国语言地图集 उपसमूह बिंदु; उच्चारण सहोदर बोली + बोली रूपरेखा से व्युत्पन्न, सत्यापन लंबित।]",it:"Fonte: HSN di riferimento (Xiang/Hunan, area di Changsha) da langmap/hanmap_data.js. Lo xiang di Hengyang (hsn_hy) — un sotto-dialetto all'interno del 衡州片 (sotto-ramo di Hengyang) basato su Changsha — condivide lo stesso sistema fonologico centrale (inventario tonale, iniziali, finali) del riferimento HSN documentato. hsn_hy- specializzato [Provvisorio — punto di sottogruppo del 中国语言地图集; letture derivate dal dialetto affine + profilo dialettale, in attesa di verifica.]",pt:"Fonte: HSN de referência (Xiang/Hunan, área de Changsha) de langmap/hanmap_data.js. O xiang de Hengyang (hsn_hy) — um subdialeto dentro do 衡州片 (subramo de Hengyang) baseado em Changsha — compartilha o mesmo sistema fonológico central (inventário tonal, iniciais, finais) que a referência HSN documentada. hsn_hy- especializado [Provisório — ponto de subgrupo do 中国语言地图集; leituras derivadas do dialeto irmão + perfil dialetal, aguardando verificação.]",uk:"Джерело: базовий HSN (сян/Хунань, район Чанша) з langmap/hanmap_data.js. Хеньянський сян (hsn_hy) — піддіалект у складі заснованого на Чанша 衡州片 (хеньянська підгілка) — має ту саму основну фонологічну систему (тоновий інвентар, ініціалі, фіналі), що й задокументований базовий HSN. Спеціалізований hsn_hy- [Попередньо — точка підгрупи за «中国语言地图集»; читання виведені зі спорідненого діалекту + діалектного профілю, очікують перевірки.]"},"romanization":{"name":"Xiang (Hunan) Pinyin / Romanization with tone numerals (after-syllable, 1-5 scal"},"sources":[{"type":"reference","title":"中国语言地图集 (Language Atlas of China) subgroup classification; readings from sibling baseline + dialect surveys"}],"speakers":"(provisional)","dataStatus":"fragmentary"},"hsn_ld": {"name":"Xiang (Loudi)","native":"婁底湘語","family":"Sino-Tibetan (Sinitic, Xiang — 娄邵片)","lat":27.73,"lng":112.00,"region":"China (Hunan — Loudi 娄底)","reading_type":{"ja":"婁底湘語","en":"Xiang (Loudi)","ko":"러우디 샹어","zh":"婁底湘語","fr":"Xiang (Loudi)","de":"Xiang (Loudi)","es":"Xiang (Loudi)","ru":"Сянский (Лоуди)","ar":"الشيانغ (لوديي)","he":"שיאנג (לואודי)","sw":"Kixiang (Loudi)","yue":"婁底湘語","vi":"Tiếng Tương (Lâu Để)","th":"ภาษาเซียง (โหลวตี่)","id":"Bahasa Xiang (Loudi)","hi":"शियांग (लोउदी)","it":"Xiang (Loudi)","pt":"Xiang (Loudi)","uk":"Сянська (Лоуді)"},"description":{"en":"Loudi Xiang is an Old Xiang (老湘语) variety of the Lou–Shao cluster (娄邵片), spoken in Loudi, central Hunan. As a conservative Old Xiang dialect it preserves the Middle Chinese voiced obstruent initials (e.g. 地 /di¹¹/, 頭 /di̯ɤ¹³/) that most Sinitic varieties have lost, and the historical entering tone (入声) has merged away, leaving five tones (yin-ping 44, yang-ping 13, shang 42, yin-qu 35, yang-qu 11). A notable trait is that certain Middle Chinese lai-initial (來母) words surface with a nasal n- initial — e.g. 龍 'dragon' is /nɤŋ¹³/. Readings here follow the Wiktionary Loudi data (Module:hsn-pron-Loudi), itself based on the field study 颜清徽·刘丽华《娄底方言研究》; 40 of the 59 core HanMap characters are attested in that source.","ja":"婁底湘語（ロウテイしょうご）は、湖南省中部の婁底で話される老湘語（老湘语）系の娄邵片に属する方言である。保守的な老湘語として、多くの漢語諸方言が失った中古漢語の有声阻害音の頭子音（例：地 /di¹¹/、頭 /di̯ɤ¹³/）を保持し、歴史的な入声（入声）は合流して消失し、五つの声調（陰平44、陽平13、上声42、陰去35、陽去11）が残っている。特徴的なのは、中古漢語の來母の一部の語が鼻音 n- の頭子音で現れる点で、例えば「龍（竜）」は /nɤŋ¹³/ となる。ここでの読みはWiktionaryの婁底データ（Module:hsn-pron-Loudi）に従い、それは実地調査である颜清徽·刘丽华《娄底方言研究》に基づく。HanMapの中核59字のうち40字がその資料で確認できる。","ko":"러우디 샹어는 후난성 중부 러우디에서 사용되는 라오샹어(老湘语) 계통의 娄邵片 방언이다. 보수적인 라오샹어 방언으로서, 대부분의 한어 방언이 잃어버린 중고한어의 유성 장애음 성모(예: 地 /di¹¹/, 頭 /di̯ɤ¹³/)를 보존하고 있으며, 역사적 입성(入声)은 합류하여 사라지고 다섯 성조(음평 44, 양평 13, 상성 42, 음거 35, 양거 11)가 남아 있다. 주목할 만한 특징은 중고한어 來母의 일부 단어가 비음 n- 성모로 나타난다는 점으로, 예를 들어 龍 '용'은 /nɤŋ¹³/이다. 여기의 독음은 위키낱말사전의 러우디 자료(Module:hsn-pron-Loudi)를 따르며, 이는 현지 조사인 颜清徽·刘丽华《娄底方言研究》에 기반한다. HanMap 핵심 59자 중 40자가 해당 자료에 수록되어 있다.","zh":"婁底湘語是老湘語（老湘语）娄邵片的一種，通行於湖南中部的婁底。作為保守的老湘語方言，它保留了多數漢語方言已失去的中古漢語濁阻音聲母（如 地 /di¹¹/、頭 /di̯ɤ¹³/），歷史上的入聲（入声）已經合流消失，剩下五個聲調（陰平44、陽平13、上聲42、陰去35、陽去11）。一個顯著特徵是某些中古漢語來母（來母）的字以鼻音 n- 聲母出現——例如「龍」讀作 /nɤŋ¹³/。此處讀音依據維基詞典的婁底資料（Module:hsn-pron-Loudi），其本身基於田野調查 颜清徽·刘丽华《娄底方言研究》；HanMap 核心59字中有40字見於該資料。","fr":"Le xiang de Loudi est une variété de vieux xiang (老湘语) du groupe Lou–Shao (娄邵片), parlée à Loudi, dans le centre du Hunan. En tant que dialecte conservateur du vieux xiang, il conserve les initiales obstruantes voisées du chinois médiéval (p. ex. 地 /di¹¹/, 頭 /di̯ɤ¹³/) que la plupart des variétés sinitiques ont perdues, et le ton entrant historique (入声) a fusionné et disparu, laissant cinq tons (yin-ping 44, yang-ping 13, shang 42, yin-qu 35, yang-qu 11). Un trait notable est que certains mots à initiale lai du chinois médiéval (來母) apparaissent avec une initiale nasale n- — par exemple 龍 « dragon » se dit /nɤŋ¹³/. Les lectures suivent ici les données Loudi du Wiktionnaire (Module:hsn-pron-Loudi), elles-mêmes fondées sur l'étude de terrain 颜清徽·刘丽华《娄底方言研究》 ; 40 des 59 caractères centraux de HanMap sont attestés dans cette source.","de":"Das Loudi-Xiang ist eine altxiangische (老湘语) Varietät der Lou-Shao-Gruppe (娄邵片), die in Loudi im zentralen Hunan gesprochen wird. Als konservativer altxiangischer Dialekt bewahrt es die stimmhaften Obstruenten-Anlaute des Mittelchinesischen (z. B. 地 /di¹¹/, 頭 /di̯ɤ¹³/), die die meisten sinitischen Varietäten verloren haben, und der historische Eingangston (入声) ist verschmolzen und verschwunden, sodass fünf Töne verbleiben (Yin-Ping 44, Yang-Ping 13, Shang 42, Yin-Qu 35, Yang-Qu 11). Ein bemerkenswertes Merkmal ist, dass bestimmte Wörter mit mittelchinesischem Lai-Anlaut (來母) mit einem nasalen n--Anlaut erscheinen — z. B. lautet 龍 ‚Drache' /nɤŋ¹³/. Die Lesungen folgen hier den Loudi-Daten des Wiktionary (Module:hsn-pron-Loudi), die ihrerseits auf der Feldstudie 颜清徽·刘丽华《娄底方言研究》 beruhen; 40 der 59 Kern-Schriftzeichen von HanMap sind in dieser Quelle belegt.","es":"El xiang de Loudi es una variedad del xiang antiguo (老湘语) del grupo Lou–Shao (娄邵片), hablada en Loudi, en el centro de Hunan. Como dialecto conservador del xiang antiguo, conserva las iniciales obstruyentes sonoras del chino medio (p. ej. 地 /di¹¹/, 頭 /di̯ɤ¹³/) que la mayoría de las variedades siníticas han perdido, y el tono entrante histórico (入声) se ha fusionado y desaparecido, dejando cinco tonos (yin-ping 44, yang-ping 13, shang 42, yin-qu 35, yang-qu 11). Un rasgo notable es que ciertas palabras con inicial lai del chino medio (來母) aparecen con una inicial nasal n- — por ejemplo 龍 'dragón' es /nɤŋ¹³/. Las lecturas aquí siguen los datos de Loudi del Wiktionary (Module:hsn-pron-Loudi), basados a su vez en el estudio de campo 颜清徽·刘丽华《娄底方言研究》; 40 de los 59 caracteres centrales de HanMap están atestiguados en esa fuente.","pt":"O xiang de Loudi é uma variedade do xiang antigo (老湘语) do grupo Lou–Shao (娄邵片), falada em Loudi, no centro de Hunan. Como dialeto conservador do xiang antigo, preserva as iniciais obstruentes sonoras do chinês médio (p. ex. 地 /di¹¹/, 頭 /di̯ɤ¹³/) que a maioria das variedades siníticas perdeu, e o tom de entrada histórico (入声) fundiu-se e desapareceu, deixando cinco tons (yin-ping 44, yang-ping 13, shang 42, yin-qu 35, yang-qu 11). Um traço notável é que certas palavras com inicial lai do chinês médio (來母) surgem com uma inicial nasal n- — por exemplo 龍 'dragão' é /nɤŋ¹³/. As leituras aqui seguem os dados de Loudi do Wiktionary (Module:hsn-pron-Loudi), por sua vez baseados no estudo de campo 颜清徽·刘丽华《娄底方言研究》; 40 dos 59 caracteres centrais do HanMap estão atestados nessa fonte.","ru":"Лоудиский сян — это разновидность старого сяна (老湘语) группы Лоу–Шао (娄邵片), на которой говорят в Лоуди, в центральной части Хунани. Как консервативный старосянский диалект, он сохраняет звонкие шумные инициали среднекитайского языка (напр. 地 /di¹¹/, 頭 /di̯ɤ¹³/), утраченные большинством синитских разновидностей, а исторический входящий тон (入声) слился и исчез, оставив пять тонов (инь-пин 44, ян-пин 13, шан 42, инь-цюй 35, ян-цюй 11). Примечательная черта — некоторые слова со среднекитайской инициалью лай (來母) выступают с носовой инициалью n-, например 龍 «дракон» произносится /nɤŋ¹³/. Чтения здесь следуют данным Лоуди из Викисловаря (Module:hsn-pron-Loudi), которые сами основаны на полевом исследовании 颜清徽·刘丽华《娄底方言研究》; 40 из 59 основных иероглифов HanMap засвидетельствованы в этом источнике.","uk":"Лоудійський сян — це різновид старого сяну (老湘语) групи Лоу–Шао (娄邵片), яким розмовляють у Лоуді, в центральній частині Хунані. Як консервативний старосянський діалект, він зберігає дзвінкі шумні ініціалі середньокитайської мови (напр. 地 /di¹¹/, 頭 /di̯ɤ¹³/), утрачені більшістю синітських різновидів, а історичний вхідний тон (入声) злився та зник, залишивши п'ять тонів (інь-пін 44, ян-пін 13, шан 42, інь-цюй 35, ян-цюй 11). Помітна риса — деякі слова із середньокитайською ініціаллю лай (來母) постають із носовою ініціаллю n-, наприклад 龍 «дракон» вимовляється /nɤŋ¹³/. Читання тут відповідають даним Лоуді з Вікісловника (Module:hsn-pron-Loudi), які самі ґрунтуються на польовому дослідженні 颜清徽·刘丽华《娄底方言研究》; 40 із 59 основних ієрогліфів HanMap засвідчені в цьому джерелі.","ar":"الشيانغ في لوديي هو نوع من الشيانغ القديم (老湘语) ضمن مجموعة لو–شاو (娄邵片)، يُتحدَّث به في لوديي وسط مقاطعة هونان. وبوصفه لهجة محافِظة من الشيانغ القديم، فإنه يحافظ على الأصوات الانسدادية المجهورة الأولية في الصينية الوسطى (مثل 地 /di¹¹/، 頭 /di̯ɤ¹³/) التي فقدتها معظم اللهجات الصينية، كما أن النغمة الداخلة التاريخية (入声) قد اندمجت واختفت، فبقيت خمس نغمات (yin-ping 44، yang-ping 13، shang 42، yin-qu 35، yang-qu 11). ومن السمات اللافتة أن بعض الكلمات ذات الصوت الأولي «لاي» في الصينية الوسطى (來母) تظهر بصوت أنفي أولي n-؛ فمثلاً 龍 «التنين» تُنطق /nɤŋ¹³/. تتبع القراءات هنا بيانات لوديي في ويكاموس (Module:hsn-pron-Loudi)، المستندة بدورها إلى الدراسة الميدانية 颜清徽·刘丽华《娄底方言研究》؛ وقد ثبتت 40 من أصل 59 حرفًا أساسيًا في HanMap في ذلك المصدر.","he":"שיאנג של לואודי הוא זן של שיאנג עתיק (老湘语) מקבוצת לוֹאוּ–שָׁאוֹ (娄邵片), המדובר בלואודי שבמרכז חוּנָאן. כניב שמרני של שיאנג עתיק הוא משמר את העיצורים החוסמים הקוליים בראש הברה של הסינית התיכונה (למשל 地 /di¹¹/, 頭 /di̯ɤ¹³/) שרוב הזנים הסיניטיים איבדו, וטון הכניסה ההיסטורי (入声) התמזג ונעלם, ונותרו חמישה טונים (yin-ping 44, yang-ping 13, shang 42, yin-qu 35, yang-qu 11). תכונה בולטת היא שמילים מסוימות בעלות עיצור לאי בראש הברה בסינית התיכונה (來母) מופיעות עם עיצור אפי n- בראש הברה — למשל 龍 'דרקון' הוא /nɤŋ¹³/. הקריאות כאן הולכות אחר נתוני לואודי של ויקימילון (Module:hsn-pron-Loudi), המבוססים בעצמם על המחקר השטחי 颜清徽·刘丽华《娄底方言研究》; 40 מתוך 59 התווים המרכזיים של HanMap מתועדים במקור זה.","sw":"Kixiang cha Loudi ni aina ya Kixiang cha Kale (老湘语) cha kundi la Lou–Shao (娄邵片), kinachozungumzwa Loudi, katikati ya Hunan. Kama lahaja ya kihafidhina ya Kixiang cha Kale, kinahifadhi konsonanti za mwanzo za kizuizi zenye sauti za Kichina cha Kati (mf. 地 /di¹¹/, 頭 /di̯ɤ¹³/) ambazo lahaja nyingi za Kisiniti zimepoteza, na toni ya kuingia ya kihistoria (入声) imeungana na kutoweka, ikiacha toni tano (yin-ping 44, yang-ping 13, shang 42, yin-qu 35, yang-qu 11). Sifa ya kuvutia ni kwamba maneno fulani yenye konsonanti ya mwanzo ya lai ya Kichina cha Kati (來母) huonekana na konsonanti ya mwanzo ya nazali n- — mf. 龍 'joka' ni /nɤŋ¹³/. Usomaji hapa unafuata data za Loudi za Wiktionary (Module:hsn-pron-Loudi), zenyewe zikitegemea utafiti wa nyanjani 颜清徽·刘丽华《娄底方言研究》; herufi 40 kati ya 59 za msingi za HanMap zimethibitishwa katika chanzo hicho.","yue":"婁底湘語係老湘語（老湘语）娄邵片嘅一種，通行於湖南中部嘅婁底。作為保守嘅老湘語方言，佢保留咗大多數漢語方言已經失去嘅中古漢語濁阻音聲母（例如 地 /di¹¹/、頭 /di̯ɤ¹³/），歷史上嘅入聲（入声）已經合併消失，淨返五個聲調（陰平44、陽平13、上聲42、陰去35、陽去11）。一個顯著特徵係某啲中古漢語來母（來母）嘅字以鼻音 n- 聲母出現——例如「龍」讀做 /nɤŋ¹³/。呢度嘅讀音依據維基詞典嘅婁底資料（Module:hsn-pron-Loudi），佢本身基於田野調查 颜清徽·刘丽华《娄底方言研究》；HanMap 核心59字當中有40字見於該資料。","vi":"Tiếng Tương Lâu Để là một biến thể của tiếng Tương Cổ (老湘语) thuộc nhóm Lâu–Thiệu (娄邵片), được nói ở Lâu Để, miền trung Hồ Nam. Là một phương ngữ tiếng Tương Cổ bảo thủ, nó bảo lưu các phụ âm đầu cản hữu thanh của tiếng Hán Trung cổ (ví dụ 地 /di¹¹/, 頭 /di̯ɤ¹³/) mà phần lớn các biến thể Hán đã mất, và thanh nhập lịch sử (入声) đã hợp nhất và biến mất, để lại năm thanh điệu (âm bình 44, dương bình 13, thượng 42, âm khứ 35, dương khứ 11). Một đặc điểm đáng chú ý là một số từ có phụ âm đầu lai của tiếng Hán Trung cổ (來母) xuất hiện với phụ âm đầu mũi n- — ví dụ 龍 'rồng' là /nɤŋ¹³/. Các âm đọc ở đây theo dữ liệu Lâu Để của Wiktionary (Module:hsn-pron-Loudi), vốn dựa trên nghiên cứu điền dã 颜清徽·刘丽华《娄底方言研究》; 40 trong số 59 ký tự cốt lõi của HanMap được chứng thực trong nguồn đó.","th":"ภาษาเซียงโหลวตี่เป็นภาษาเซียงเก่า (老湘语) สำเนียงหนึ่งในกลุ่มโหลว–เซา (娄邵片) ใช้พูดกันในเมืองโหลวตี่ ทางตอนกลางของมณฑลหูหนาน ในฐานะภาษาถิ่นเซียงเก่าที่อนุรักษ์นิยม ภาษานี้ยังคงรักษาพยัญชนะต้นกักก้องของภาษาจีนยุคกลาง (เช่น 地 /di¹¹/, 頭 /di̯ɤ¹³/) ที่สำเนียงจีนส่วนใหญ่สูญหายไปแล้ว และเสียงวรรณยุกต์เข้า (入声) ในประวัติศาสตร์ได้รวมหายไป เหลือไว้ห้าเสียงวรรณยุกต์ (อินผิง 44, หยางผิง 13, ส่าง 42, อินชวี่ 35, หยางชวี่ 11) ลักษณะเด่นคือคำบางคำที่มีพยัญชนะต้นไหล (來母) ของภาษาจีนยุคกลางปรากฏด้วยพยัญชนะต้นนาสิก n- เช่น 龍 'มังกร' คือ /nɤŋ¹³/ การอ่านในที่นี้อิงตามข้อมูลโหลวตี่ของวิกิพจนานุกรม (Module:hsn-pron-Loudi) ซึ่งอิงจากงานวิจัยภาคสนาม 颜清徽·刘丽华《娄底方言研究》 อีกทอดหนึ่ง อักษรหลัก 59 ตัวของ HanMap มี 40 ตัวที่ปรากฏในแหล่งข้อมูลนั้น","id":"Bahasa Xiang Loudi adalah ragam Xiang Lama (老湘语) dari kelompok Lou–Shao (娄邵片), yang dituturkan di Loudi, Hunan tengah. Sebagai dialek Xiang Lama yang konservatif, bahasa ini mempertahankan konsonan obstruen bersuara di awal suku kata dari bahasa Tionghoa Pertengahan (mis. 地 /di¹¹/, 頭 /di̯ɤ¹³/) yang telah hilang pada sebagian besar ragam Sinitik, dan nada masuk historis (入声) telah melebur dan menghilang, menyisakan lima nada (yin-ping 44, yang-ping 13, shang 42, yin-qu 35, yang-qu 11). Ciri yang menonjol adalah bahwa kata-kata tertentu dengan konsonan awal lai dari bahasa Tionghoa Pertengahan (來母) muncul dengan konsonan awal nasal n- — mis. 龍 'naga' adalah /nɤŋ¹³/. Pelafalan di sini mengikuti data Loudi dari Wiktionary (Module:hsn-pron-Loudi), yang sendiri berdasarkan kajian lapangan 颜清徽·刘丽华《娄底方言研究》; 40 dari 59 aksara inti HanMap terkonfirmasi dalam sumber tersebut.","hi":"लोउदी शियांग, मध्य हुनान के लोउदी में बोली जाने वाली लोउ–शाओ समूह (娄邵片) की पुरानी शियांग (老湘语) किस्म है। एक रूढ़िवादी पुरानी शियांग बोली के रूप में यह मध्य चीनी के सघोष अवरोधी आद्य व्यंजनों (जैसे 地 /di¹¹/, 頭 /di̯ɤ¹³/) को सुरक्षित रखती है, जिन्हें अधिकांश सिनिटिक किस्में खो चुकी हैं, और ऐतिहासिक प्रवेशी स्वराघात (入声) विलीन होकर लुप्त हो गया है, जिससे पाँच स्वराघात शेष हैं (यिन-पिंग 44, यांग-पिंग 13, शांग 42, यिन-छू 35, यांग-छू 11)। एक उल्लेखनीय विशेषता यह है कि मध्य चीनी के लाइ-आद्य (來母) कुछ शब्द नासिक्य n- आद्य व्यंजन के साथ प्रकट होते हैं — जैसे 龍 'ड्रैगन' /nɤŋ¹³/ है। यहाँ के उच्चारण विक्षनरी के लोउदी आँकड़ों (Module:hsn-pron-Loudi) का अनुसरण करते हैं, जो स्वयं क्षेत्र अध्ययन 颜清徽·刘丽华《娄底方言研究》 पर आधारित हैं; HanMap के 59 मूल वर्णों में से 40 उस स्रोत में प्रमाणित हैं।","it":"Il xiang di Loudi è una varietà di xiang antico (老湘语) del gruppo Lou–Shao (娄邵片), parlata a Loudi, nello Hunan centrale. In quanto dialetto conservativo di xiang antico, conserva le iniziali ostruenti sonore del cinese medio (ad es. 地 /di¹¹/, 頭 /di̯ɤ¹³/) che la maggior parte delle varietà sinitiche ha perduto, e il tono entrante storico (入声) si è fuso ed è scomparso, lasciando cinque toni (yin-ping 44, yang-ping 13, shang 42, yin-qu 35, yang-qu 11). Un tratto notevole è che certe parole con iniziale lai del cinese medio (來母) compaiono con un'iniziale nasale n- — ad es. 龍 'drago' è /nɤŋ¹³/. Le letture qui seguono i dati di Loudi del Wikizionario (Module:hsn-pron-Loudi), a loro volta basati sullo studio sul campo 颜清徽·刘丽华《娄底方言研究》; 40 dei 59 caratteri centrali di HanMap sono attestati in quella fonte."},"romanization":{"name":"Loudi romanization (Wiktionary Module:hsn-pron-Loudi, after 颜清徽·刘丽华《娄底方言研究》), tone values as Chao numerals"},"sources":[{"type":"reference","title":"娄底方言读音 from English Wiktionary Module:hsn-pron-Loudi, based on 颜清徽、刘丽华《娄底方言研究》(1994); 40 of 59 core HanMap characters attested"}],"speakers":"(provisional)","dataStatus":"fragmentary"},
+    
   "czh_wy": {"name":"Hui Chinese (Wuyuan)","native":"徽语（婺源）","family":"Sino-Tibetan (Sinitic, Hui — 祁婺片)","lat":29.25,"lng":117.86,"region":"China (Jiangxi — Wuyuan 婺源)","reading_type":{"ja":"徽語（婺源）","en":"Hui Chinese (Wuyuan)","ko":"후이어(우위안)","zh":"徽语（婺源）","fr":"Chinois Hui (Wuyuan)","de":"Hui-Chinesisch (Wuyuan)","es":"Chino Hui (Wuyuan)","ru":"Хуийский китайский (Вуюань)","ar":"الصينية الهوية (وويوان)","he":"סינית הוויי (וויוואן)","sw":"Kichina Hui (Wuyuan)","yue":"徽語（婺源）","vi":"Tiếng Huy (Wuyuan)","th":"ภาษาฮุ่ย (อุหวี่ยวน)","id":"Bahasa Hui (Wuyuan)","hi":"हुई चीनी (वुयुआन)","it":"Cinese Hui (Wuyuan)","pt":"Chinês Hui (Wuyuan)","uk":"Гуійська китайська (Вуюань)"},"description":{"en":"Wuyuan (婺源) Hui Chinese represents the Xi-wu (西婺) dialect subgroup of Huizhou Chinese, spoken in Jiangxi Province. The dialect preserves a 6-tone system (compared to 4 in Mandarin): Yin Ping, Yang Ping, Shang, Qu, Yin Ru, Yang Ru. Key adjustments from the baseline csz include: (1) Yin-Yang split aff [Provisional — 中国语言地图集 subgroup point; readings derived from sibling + dialect profile, pending verification.]",ja:"婺源（Wuyuan）の徽語は、江西省で話される徽州語の西婺（Xi-wu）方言サブグループに属する。この方言は6声調体系（北京官話の4声調に対して）を保持している：陰平、陽平、上、去、陰入、陽入。基準となるcszからの主な調整点は以下を含む：(1) 陰陽の分化 aff [暫定 — 中国语言地图集のサブグループ地点；読みは姉妹方言＋方言プロファイルから導出、検証待ち。]",ko:"우위안(婺源) 후이어는 장시성에서 사용되는 후이저우 중국어의 시우(西婺) 방언 하위 그룹을 대표한다. 이 방언은 6성조 체계(만다린의 4성조와 비교하여)를 보존하고 있다: 음평(陰平), 양평(陽平), 상(上), 거(去), 음입(陰入), 양입(陽入). 기준이 되는 csz로부터의 주요 조정 사항은 다음을 포함한다: (1) 음양 분화 aff [잠정 — 中国语言地图集 하위 그룹 지점; 발음은 자매 방언 + 방언 프로파일에서 도출, 검증 대기 중.]",zh:"婺源徽语属于江西省境内徽州话的西婺方言次方言群。该方言保留了6个声调的系统（相比之下普通话为4个）：阴平、阳平、上、去、阴入、阳入。相对于基准csz的主要调整包括：(1) 阴阳分化 aff [暂定——《中国语言地图集》次方言群点位；读音由姊妹方言＋方言概况推导而来，有待核实。]",fr:"Le chinois hui de Wuyuan (婺源) représente le sous-groupe dialectal Xi-wu (西婺) du chinois huizhou, parlé dans la province du Jiangxi. Le dialecte conserve un système à 6 tons (contre 4 en mandarin) : Yin Ping, Yang Ping, Shang, Qu, Yin Ru, Yang Ru. Les principaux ajustements par rapport au csz de référence comprennent : (1) la scission Yin-Yang aff [Provisoire — point de sous-groupe du 中国语言地图集 ; lectures dérivées du dialecte frère + profil dialectal, en attente de vérification.]",de:"Das Hui-Chinesische von Wuyuan (婺源) repräsentiert die Dialektuntergruppe Xi-wu (西婺) des Huizhou-Chinesischen, gesprochen in der Provinz Jiangxi. Der Dialekt bewahrt ein System mit 6 Tönen (im Vergleich zu 4 im Mandarin): Yin Ping, Yang Ping, Shang, Qu, Yin Ru, Yang Ru. Wichtige Anpassungen gegenüber dem Ausgangs-csz umfassen: (1) Yin-Yang-Spaltung aff [Vorläufig — Untergruppenpunkt des 中国语言地图集; Lesungen abgeleitet aus dem Schwesterdialekt + Dialektprofil, Überprüfung ausstehend.]",es:"El chino hui de Wuyuan (婺源) representa el subgrupo dialectal Xi-wu (西婺) del chino huizhou, hablado en la provincia de Jiangxi. El dialecto conserva un sistema de 6 tonos (frente a 4 en mandarín): Yin Ping, Yang Ping, Shang, Qu, Yin Ru, Yang Ru. Los principales ajustes respecto al csz de referencia incluyen: (1) la división Yin-Yang aff [Provisional — punto de subgrupo del 中国语言地图集; lecturas derivadas del dialecto hermano + perfil dialectal, pendiente de verificación.]",ru:"Хойский китайский язык Уюаня (婺源) представляет диалектную подгруппу си-у (西婺) хуэйчжоуского китайского, на котором говорят в провинции Цзянси. Диалект сохраняет систему из 6 тонов (по сравнению с 4 в путунхуа): инь-пин, ян-пин, шан, цюй, инь-жу, ян-жу. Основные изменения относительно базового csz включают: (1) расщепление инь-ян aff [Предварительно — точка подгруппы из 中国语言地图集; чтения выведены из родственного диалекта + диалектного профиля, ожидают проверки.]",ar:"تمثّل الصينية الهوية في ووي‌يوان (婺源) المجموعة اللهجية الفرعية شي-وو (西婺) من الصينية الهويتشوية، التي يُتحدّث بها في مقاطعة جيانغشي. تحافظ اللهجة على نظام من 6 نغمات (مقابل 4 في الماندرين): ين بينغ، يانغ بينغ، شانغ، تشو، ين رو، يانغ رو. تشمل التعديلات الرئيسية عن الأساس csz: (1) انقسام ين-يانغ aff [مؤقت — نقطة المجموعة الفرعية من 中国语言地图集؛ القراءات مستمدّة من اللهجة الشقيقة + الملف اللهجي، بانتظار التحقّق.]",he:"הסינית ההוּאית של ווּיוּאן (婺源) מייצגת את תת-קבוצת הניב שי-וו (西婺) של הסינית ההוּאיג'ואית, המדוברת במחוז ג'יאנגשי. הניב משמר מערכת של 6 טונים (לעומת 4 במנדרינית): יין פינג, יאנג פינג, שאנג, צ'ו, יין רו, יאנג רו. ההתאמות העיקריות ביחס ל-csz הבסיסי כוללות: (1) פיצול יין-יאנג aff [זמני — נקודת תת-קבוצה מתוך 中国语言地图集; קריאות שנגזרו מהניב האחאי + פרופיל הניב, בהמתנה לאימות.]",sw:"Kichina cha Hui cha Wuyuan (婺源) kinawakilisha kikundi-ndogo cha lahaja cha Xi-wu (西婺) cha Kichina cha Huizhou, kinachozungumzwa katika Mkoa wa Jiangxi. Lahaja hii inahifadhi mfumo wa toni 6 (ikilinganishwa na 4 katika Kimandarini): Yin Ping, Yang Ping, Shang, Qu, Yin Ru, Yang Ru. Marekebisho makuu kutoka kwa csz ya msingi ni pamoja na: (1) mgawanyiko wa Yin-Yang aff [Ya muda — kituo cha kikundi-ndogo cha 中国语言地图集; matamshi yametokana na lahaja dada + wasifu wa lahaja, yakisubiri uthibitisho.]",yue:"婺源（Wuyuan）徽語屬於江西省境內徽州話嘅西婺（Xi-wu）方言次方言群。呢種方言保留咗6個聲調嘅系統（相比之下，官話得4個）：陰平、陽平、上、去、陰入、陽入。相對於基準csz嘅主要調整包括：(1) 陰陽分化 aff [暫定——《中国语言地图集》次方言群點位；讀音由姊妹方言＋方言概況推導而嚟，有待核實。]",vi:"Tiếng Huy của Vụ Nguyên (婺源) đại diện cho phân nhóm phương ngữ Tây Vụ (西婺, Xi-wu) của tiếng Huy Châu, được nói ở tỉnh Giang Tây. Phương ngữ này bảo tồn hệ thống 6 thanh điệu (so với 4 thanh trong tiếng Quan Thoại): Âm Bình, Dương Bình, Thượng, Khứ, Âm Nhập, Dương Nhập. Những điều chỉnh chính so với csz cơ sở bao gồm: (1) sự phân tách Âm-Dương aff [Tạm thời — điểm phân nhóm của 中国语言地图集; cách đọc được suy ra từ phương ngữ chị em + hồ sơ phương ngữ, đang chờ xác minh.]",th:"ภาษาจีนฮุยสำเนียงอู้หยวน (婺源) เป็นตัวแทนของกลุ่มย่อยสำเนียงซีอู้ (西婺) ของภาษาจีนฮุยโจว ซึ่งพูดกันในมณฑลเจียงซี สำเนียงนี้คงระบบวรรณยุกต์ 6 เสียงไว้ (เทียบกับ 4 เสียงในภาษาจีนกลาง) ได้แก่ อินผิง, หยางผิง, ส่าง, ชวี่, อินรู่, หยางรู่ การปรับเปลี่ยนสำคัญจาก csz ฐาน ได้แก่: (1) การแยกอิน-หยาง aff [ชั่วคราว — จุดกลุ่มย่อยจาก 中国语言地图集; การออกเสียงได้มาจากสำเนียงพี่น้อง + โปรไฟล์สำเนียง อยู่ระหว่างรอการตรวจสอบ.]",id:"Bahasa Tionghoa Hui Wuyuan (婺源) mewakili subkelompok dialek Xi-wu (西婺) dari bahasa Tionghoa Huizhou, yang dituturkan di Provinsi Jiangxi. Dialek ini mempertahankan sistem 6 nada (dibandingkan dengan 4 dalam bahasa Mandarin): Yin Ping, Yang Ping, Shang, Qu, Yin Ru, Yang Ru. Penyesuaian utama dari csz dasar meliputi: (1) pemisahan Yin-Yang aff [Sementara — titik subkelompok dari 中国语言地图集; pelafalan diturunkan dari dialek saudara + profil dialek, menunggu verifikasi.]",hi:"वुयुआन (婺源) हुई चीनी, चीनी की हुइझोउ शाखा के शी-वू (西婺) उपबोली-समूह का प्रतिनिधित्व करती है, जो जिआंगशी प्रांत में बोली जाती है। यह बोली 6-स्वर प्रणाली को संरक्षित रखती है (मंदारिन में 4 की तुलना में): यिन पिंग, यांग पिंग, शांग, छू, यिन रू, यांग रू। आधार csz से मुख्य समायोजनों में शामिल हैं: (1) यिन-यांग विभाजन aff [अनंतिम — 中国语言地图集 उपसमूह बिंदु; उच्चारण सहोदर बोली + बोली प्रोफ़ाइल से व्युत्पन्न, सत्यापन लंबित।]",it:"Il cinese hui di Wuyuan (婺源) rappresenta il sottogruppo dialettale Xi-wu (西婺) del cinese huizhou, parlato nella provincia del Jiangxi. Il dialetto conserva un sistema a 6 toni (rispetto ai 4 del mandarino): Yin Ping, Yang Ping, Shang, Qu, Yin Ru, Yang Ru. I principali adattamenti rispetto al csz di base comprendono: (1) la scissione Yin-Yang aff [Provvisorio — punto del sottogruppo del 中国语言地图集; letture derivate dal dialetto affine + profilo dialettale, in attesa di verifica.]",pt:"O chinês hui de Wuyuan (婺源) representa o subgrupo dialetal Xi-wu (西婺) do chinês huizhou, falado na província de Jiangxi. O dialeto preserva um sistema de 6 tons (em comparação com 4 no mandarim): Yin Ping, Yang Ping, Shang, Qu, Yin Ru, Yang Ru. Os principais ajustes em relação ao csz de base incluem: (1) a divisão Yin-Yang aff [Provisório — ponto de subgrupo do 中国语言地图集; leituras derivadas do dialeto irmão + perfil dialetal, pendente de verificação.]",uk:"Хойська китайська мова Уюаня (婺源) представляє діалектну підгрупу сі-у (西婺) хуейчжоуської китайської, якою розмовляють у провінції Цзянсі. Діалект зберігає систему з 6 тонів (порівняно з 4 у путунхуа): інь-пін, ян-пін, шан, цюй, інь-жу, ян-жу. Основні зміни щодо базового csz включають: (1) розщеплення інь-ян aff [Попередньо — точка підгрупи з 中国语言地图集; читання виведені зі спорідненого діалекту + діалектного профілю, очікують перевірки.]"},"romanization":{"name":"Modified Hui Chinese Romanization with Tone Numbers (1-6 system): Yin Ping (55/1"},"sources":[{"type":"reference","title":"中国语言地图集 (Language Atlas of China) subgroup classification; readings from sibling baseline + dialect surveys"}],"speakers":"(provisional)","dataStatus":"fragmentary"},
   "cnp_gl": {"name":"Guibei Pinghua (Guilin)","native":"桂北平话","family":"Sino-Tibetan (Sinitic, Pinghua — 桂北)","lat":25.27,"lng":110.29,"region":"China (Guangxi — Guilin 桂林)","reading_type":{"ja":"桂北平話","en":"Guibei Pinghua","ko":"귀북평화","zh":"桂北平话","fr":"Pinghua de Guilin nord","de":"Guibei Pinghua","es":"Pinghua de Guilin Norte","ru":"Губэй пиньхуа","ar":"لغة جويبي بينجهوا","he":"גווייביי פינג'והא","sw":"Pinghua ya Guibei","yue":"桂北平話","vi":"Pinghua Quguilbei","th":"ภาษาปิงฮวาเกวยเบย","id":"Pinghua Guibei","hi":"गुइबेई पिंगहुआ","it":"Pinghua di Guibei","pt":"Pinghua de Guibei","uk":"Гуйбей піньхуа"},"description":{"en":"Guibei Pinghua (桂北平话, cnp_gl) spoken in Guilin (桂林), Northern Guangxi Zhuang Autonomous Region, China. This represents the Northern Pinghua variety documented in the 中国语言地图集 (Chinese Language Atlas) and 广西方言志 (Guangxi Dialect Records). TONE SYSTEM: Five-register system using Chao tone letters (˥˦˧˨˩ [Provisional — 中国语言地图集 subgroup point; readings derived from sibling + dialect profile, pending verification.]",ja:"桂北平话（桂北平話、cnp_gl）は、中国・広西チワン族自治区北部の桂林（桂林）で話されている。これは、中国語言地図集（Chinese Language Atlas）および広西方言志（Guangxi Dialect Records）に記録された北部平話の変種を表す。声調体系：趙氏の声調符号（˥˦˧˨˩）を用いた五段階の声調体系。[暫定 — 中国語言地図集の下位区分の地点。読みは姉妹方言＋方言プロファイルから導出されたもので、検証待ち。]",ko:"구이베이 핑화(桂北平话, cnp_gl)는 중국 광시 좡족 자치구 북부의 구이린(桂林)에서 사용된다. 이는 中国语言地图集(Chinese Language Atlas)과 广西方言志(Guangxi Dialect Records)에 기록된 북부 핑화 변종을 나타낸다. 성조 체계: 자오(Chao) 성조 부호(˥˦˧˨˩)를 사용하는 5단계 성조 체계. [잠정 — 中国语言地图集 하위 분류 지점. 발음은 자매 방언 + 방언 프로필에서 도출된 것으로, 검증 대기 중.]",zh:"桂北平话（桂北平话，cnp_gl）通行于中国广西壮族自治区北部的桂林（桂林）。它代表《中国语言地图集》（Chinese Language Atlas）和《广西方言志》（Guangxi Dialect Records）所记录的北部平话变体。声调系统：采用赵元任五度调值符号（˥˦˧˨˩）的五调类系统。[暂定——《中国语言地图集》分区点；调值由姊妹方言＋方言概况推导而来，有待核实。]",fr:"Le pinghua du Nord de Gui (桂北平话, cnp_gl) est parlé à Guilin (桂林), dans le nord de la région autonome zhuang du Guangxi, en Chine. Il représente la variété du pinghua septentrional documentée dans l'Atlas des langues de Chine (中国语言地图集) et les Annales dialectales du Guangxi (广西方言志). SYSTÈME TONAL : système à cinq registres utilisant les lettres tonales de Chao (˥˦˧˨˩). [Provisoire — point de sous-groupe du 中国语言地图集 ; lectures dérivées du profil dialectal et d'une variété sœur, en attente de vérification.]",de:"Das nördliche Gui-Pinghua (桂北平话, cnp_gl) wird in Guilin (桂林) im Norden des Autonomen Gebiets Guangxi der Zhuang in China gesprochen. Es repräsentiert die im Sprachatlas Chinas (中国语言地图集) und in den Dialektaufzeichnungen von Guangxi (广西方言志) dokumentierte nördliche Pinghua-Varietät. TONSYSTEM: Fünfregister-System mit Chao-Tonbuchstaben (˥˦˧˨˩). [Vorläufig — Untergruppenpunkt des 中国语言地图集; Lesungen aus Schwestervarietät + Dialektprofil abgeleitet, Überprüfung ausstehend.]",es:"El pinghua del norte de Gui (桂北平话, cnp_gl) se habla en Guilin (桂林), en el norte de la Región Autónoma Zhuang de Guangxi, China. Representa la variedad de pinghua septentrional documentada en el Atlas Lingüístico de China (中国语言地图集) y en los Registros Dialectales de Guangxi (广西方言志). SISTEMA TONAL: sistema de cinco registros que emplea las letras tonales de Chao (˥˦˧˨˩). [Provisional — punto de subgrupo del 中国语言地图集; lecturas derivadas de una variedad hermana + perfil dialectal, pendiente de verificación.]",ru:"Гуйбэйское пинхуа (桂北平话, cnp_gl) распространено в Гуйлине (桂林), на севере Гуанси-Чжуанского автономного района, Китай. Оно представляет северную разновидность пинхуа, задокументированную в «Атласе языков Китая» (中国语言地图集) и «Описании диалектов Гуанси» (广西方言志). ТОНАЛЬНАЯ СИСТЕМА: пятирегистровая система с использованием тоновых букв Чжао (˥˦˧˨˩). [Предварительно — точка подгруппы из 中国语言地图集; чтения выведены из родственной разновидности и диалектного профиля, ожидают проверки.]",ar:"تُتكلَّم بِنْغُوَا غُوِيبِي الشمالية (桂北平话، cnp_gl) في غُوِيلِين (桂林) شمالي منطقة غوانغشي تشوانغ ذاتية الحكم في الصين. وهي تمثّل نوع البنغوا الشمالية الموثّق في «أطلس لغات الصين» (中国语言地图集) و«سجلات لهجات غوانغشي» (广西方言志). نظام النبرة: نظام من خمسة مستويات يستخدم حروف نبرة تشاو (˥˦˧˨˩). [مؤقّت — نقطة مجموعة فرعية من 中国语言地图集؛ القراءات مستمدّة من نوع شقيق + ملف لهجي، بانتظار التحقّق.]",he:"פּינְגְהוּאָה הצפונית של גוּי (桂北平话, cnp_gl) מדוברת בגוּילין (桂林) שבצפון האזור האוטונומי גואנגשי-ג'ואנג, סין. היא מייצגת את הזן הצפוני של פּינְגְהוּאָה המתועד ב«אטלס שפות סין» (中国语言地图集) וב«תיעוד הדיאלקטים של גואנגשי» (广西方言志). מערכת הטונים: מערכת בת חמישה מִשלבים המשתמשת באותיות הטון של צ'או (˥˦˧˨˩). [זמני — נקודת תת-קבוצה מתוך 中国语言地图集; הקריאות נגזרו מזן אחאי + פרופיל דיאלקטלי, ממתינות לאימות.]",sw:"Pinghua ya Kaskazini ya Gui (桂北平话, cnp_gl) huzungumzwa Guilin (桂林), kaskazini mwa Eneo Linalojiendesha la Wazhuang la Guangxi, Uchina. Inawakilisha aina ya Pinghua ya Kaskazini iliyorekodiwa katika Atlasi ya Lugha za Uchina (中国语言地图集) na Kumbukumbu za Lahaja za Guangxi (广西方言志). MFUMO WA TONI: mfumo wa rejista tano unaotumia herufi za toni za Chao (˥˦˧˨˩). [Ya muda — kituo cha kikundi kidogo cha 中国语言地图集; matamshi yametokana na aina ndugu + wasifu wa lahaja, yanasubiri uthibitisho.]",yue:"桂北平話（桂北平话，cnp_gl）通行於中國廣西壯族自治區北部嘅桂林（桂林）。佢代表《中國語言地圖集》（中国语言地图集）同《廣西方言志》（广西方言志）所記錄嘅北部平話變體。聲調系統：採用趙元任五度調值符號（˥˦˧˨˩）嘅五調類系統。［暫定——《中國語言地圖集》分區點；調值由姊妹方言＋方言概況推導而嚟，有待核實。］",vi:"Bình thoại Quế Bắc (桂北平话, cnp_gl) được nói ở Quế Lâm (桂林), phía bắc Khu tự trị dân tộc Choang Quảng Tây, Trung Quốc. Nó đại diện cho biến thể Bình thoại Bắc bộ được ghi nhận trong Tập bản đồ Ngôn ngữ Trung Quốc (中国语言地图集) và Phương ngôn chí Quảng Tây (广西方言志). HỆ THỐNG THANH ĐIỆU: hệ thống năm bậc sử dụng các chữ cái thanh điệu Chao (˥˦˧˨˩). [Tạm thời — điểm phân nhóm trong 中国语言地图集; cách đọc được suy ra từ biến thể chị em + hồ sơ phương ngữ, đang chờ xác minh.]",th:"ภาษาผิงฮว่าเหนือของกุ้ย (桂北平话, cnp_gl) พูดกันในเมืองกุ้ยหลิน (桂林) ทางตอนเหนือของเขตปกครองตนเองกว่างซีจ้วง ประเทศจีน เป็นตัวแทนของผิงฮว่าสำเนียงเหนือที่บันทึกไว้ใน แผนที่ภาษาแห่งจีน (中国语言地图集) และ บันทึกภาษาถิ่นกว่างซี (广西方言志) ระบบวรรณยุกต์: ระบบห้าระดับเสียงที่ใช้อักษรวรรณยุกต์ของเจ้า (˥˦˧˨˩) [ชั่วคราว — จุดกลุ่มย่อยจาก 中国语言地图集; การอ่านออกเสียงอนุมานจากสำเนียงพี่น้อง + โปรไฟล์ภาษาถิ่น รอการตรวจสอบยืนยัน]",id:"Pinghua Gui Utara (桂北平话, cnp_gl) dituturkan di Guilin (桂林), bagian utara Daerah Otonomi Zhuang Guangxi, Tiongkok. Ini mewakili ragam Pinghua Utara yang didokumentasikan dalam Atlas Bahasa Tiongkok (中国语言地图集) dan Catatan Dialek Guangxi (广西方言志). SISTEM NADA: sistem lima register yang menggunakan huruf nada Chao (˥˦˧˨˩). [Sementara — titik subkelompok 中国语言地图集; pelafalan diturunkan dari ragam sekerabat + profil dialek, menunggu verifikasi.]",hi:"गुइबेई पिंगहुआ (桂北平话, cnp_gl) चीन के उत्तरी ग्वांगशी ज़ुआंग स्वायत्त क्षेत्र के गुइलिन (桂林) में बोली जाती है। यह चीनी भाषा एटलस (中国语言地图集) और ग्वांगशी बोली अभिलेख (广西方言志) में प्रलेखित उत्तरी पिंगहुआ किस्म का प्रतिनिधित्व करती है। स्वर-प्रणाली: चाओ स्वर-अक्षरों (˥˦˧˨˩) का उपयोग करने वाली पाँच-रजिस्टर प्रणाली। [अनंतिम — 中国语言地图集 उपसमूह बिंदु; उच्चारण सहोदर किस्म + बोली प्रोफ़ाइल से व्युत्पन्न, सत्यापन लंबित।]",it:"Il pinghua settentrionale del Gui (桂北平话, cnp_gl) è parlato a Guilin (桂林), nel nord della Regione Autonoma Zhuang del Guangxi, Cina. Rappresenta la varietà di pinghua settentrionale documentata nell'Atlante delle lingue della Cina (中国语言地图集) e nei Registri dialettali del Guangxi (广西方言志). SISTEMA TONALE: sistema a cinque registri che utilizza le lettere tonali di Chao (˥˦˧˨˩). [Provvisorio — punto di sottogruppo del 中国语言地图集; letture derivate da una varietà sorella + profilo dialettale, in attesa di verifica.]",pt:"O pinghua do Norte de Gui (桂北平话, cnp_gl) é falado em Guilin (桂林), no norte da Região Autônoma Zhuang de Guangxi, China. Representa a variedade de pinghua setentrional documentada no Atlas Linguístico da China (中国语言地图集) e nos Registros Dialetais de Guangxi (广西方言志). SISTEMA TONAL: sistema de cinco registros que utiliza as letras tonais de Chao (˥˦˧˨˩). [Provisório — ponto de subgrupo do 中国语言地图集; leituras derivadas de uma variedade irmã + perfil dialetal, pendente de verificação.]",uk:"Гуйбейське пінхуа (桂北平话, cnp_gl) поширене в Гуйліні (桂林), на півночі Гуансі-Чжуанського автономного району, Китай. Воно представляє північний різновид пінхуа, задокументований в «Атласі мов Китаю» (中国语言地图集) та «Описі діалектів Гуансі» (广西方言志). ТОНАЛЬНА СИСТЕМА: п'ятирегістрова система з використанням тонових літер Чжао (˥˦˧˨˩). [Попередньо — точка підгрупи з 中国语言地图集; читання виведені з спорідненого різновиду + діалектного профілю, очікують перевірки.]"},"romanization":{"name":"Guibei Pinghua (Guilin) - Standard Pinghua tone-number system (中国语言地图集)"},"sources":[{"type":"reference","title":"中国语言地图集 (Language Atlas of China) subgroup classification; readings from sibling baseline + dialect surveys"}],"speakers":"(provisional)","dataStatus":"fragmentary"},
   "zh": {
@@ -21706,7 +21787,7 @@ const HAN_LANG_META = {
   }
 };
 
-const HAN_LANGS = ["gan_yc","gan_ja","gan_fz","gan_yt","cjy_cz","cjy_lv","cjy_xz","hsn_hy","czh_wy","cnp_gl","bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_id","nan_my","nan_pera","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt", "wuu_qt", "hak_hy", "hsn_sf", "nan_lei", "mnz", "czh_jx", "cjy_dt", "msj"];
+const HAN_LANGS = ["gan_yc","gan_ja","gan_fz","gan_yt","cjy_cz","cjy_lv","cjy_xz","hsn_hy","czh_wy","cnp_gl","bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_id","nan_my","nan_pera","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt", "wuu_qt", "hak_hy", "hsn_sf", "hsn_ld", "nan_lei", "mnz", "czh_jx", "cjy_dt", "msj"];
 
 const HAN_VARIANTS = {
   "六": {

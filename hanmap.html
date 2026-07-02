@@ -11766,7 +11766,7 @@
         function el(tag, css, html) { const e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
         function build() {
             modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px;font-family:inherit');
-            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;max-height:90vh;overflow:auto;padding:22px;box-shadow:0 10px 32px rgba(0,0,0,.2)');
+            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;height:min(88vh,580px);overflow:auto;padding:22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column');
             box.id = 'lm-hquiz-box';
             modal.appendChild(box);
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
@@ -11785,12 +11785,14 @@
             else if (idx >= qs.length) { renderResult(box); return; }
             else {
                 const q = qs[idx];
-                // big character
-                box.appendChild(el('div', 'text-align:center;font-size:64px;line-height:1.1;margin:2px 0 10px;font-family:\'Noto Serif JP\',\'Noto Serif SC\',\'Noto Serif TC\',serif', q.ch));
+                // Character + prompt + options in a flex:1 middle band that centers
+                // them, so the reserved feedback/Next area doesn't look top-heavy.
+                const mid = el('div', 'flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:center');
+                mid.appendChild(el('div', 'text-align:center;font-size:64px;line-height:1.1;margin:2px 0 10px;font-family:\'Noto Serif JP\',\'Noto Serif SC\',\'Noto Serif TC\',serif', q.ch));
                 const prompt = q.fmt === 1
                     ? pk(Q.q1).replace('{lang}', `<b style="color:#222">${nameOf(q.target)}</b>`)
                     : pk(Q.q2).replace('{reading}', `<b style="color:#222">${q.reading}</b>`);
-                box.appendChild(el('div', 'text-align:center;color:#556;font-size:15px;margin-bottom:14px;line-height:1.5', prompt));
+                mid.appendChild(el('div', 'text-align:center;color:#556;font-size:15px;margin-bottom:14px;line-height:1.5', prompt));
                 q.options.forEach((o, i) => {
                     const txt = q.fmt === 1 ? o.label : nameOf(o.code);
                     let css = 'width:100%;text-align:center;padding:13px 12px;margin-bottom:8px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:17px;cursor:pointer;color:#222';
@@ -11802,17 +11804,17 @@
                     }
                     const b = el('button', css);
                     // The sub-label (fmt1: which dialect; fmt2: its reading) is
-                    // ALWAYS rendered (reserving height) but hidden until answered,
-                    // so revealing it doesn't change the modal's height.
+                    // ALWAYS rendered (reserving height) but hidden until answered.
                     b.innerHTML = `${txt}<div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
-                    box.appendChild(b);
+                    mid.appendChild(b);
                 });
-                // Feedback line + Next button always present (reserving height);
-                // shown only once answered so the modal height stays stable.
+                box.appendChild(mid);
+                // Feedback line + Next button pinned below, always present (reserving
+                // height), shown only once answered so the modal height stays stable.
                 const okNow = answered && qs[idx].options[chosen] && qs[idx].options[chosen].correct;
                 box.appendChild(el('div', `text-align:center;font-weight:800;font-size:15px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct)));
-                const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:15px;cursor:pointer;visibility:${answered ? 'visible' : 'hidden'}`);
+                const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:15px;cursor:pointer;flex:none;visibility:${answered ? 'visible' : 'hidden'}`);
                 nb.textContent = !answered ? pk(Q.next) : ((idx + 1 >= TOTAL) ? pk(Q.result).replace('{score}', score).replace('{total}', TOTAL) : pk(Q.next));
                 if (answered) nb.addEventListener('click', () => { idx++; answered = false; chosen = -1; render(); });
                 box.appendChild(nb);

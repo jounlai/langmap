@@ -1478,3 +1478,25 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
         border-color: rgba(255,255,255,0.6) !important;
     }
 }
+
+/* Play ▾ menu — consolidates the game launchers (Trivia / Langle / quizzes)
+   into one header entry to declutter the bar. The original game buttons stay
+   in the DOM (hidden) so their existing wiring/labels are reused. */
+.game-btn { display: none !important; }
+.play-menu-wrap { position: relative; display: inline-flex; }
+.play-menu-wrap .play-caret { font-size: 10px; margin-left: 1px; opacity: .7; }
+#play-menu {
+    display: none;
+    position: absolute; top: 100%; left: 0; margin-top: 4px;
+    background: #fff; border: 1px solid #e0e0e0; border-radius: 10px;
+    box-shadow: 0 6px 22px rgba(0,0,0,.15); padding: 5px; min-width: 180px;
+    z-index: 100003;
+}
+#play-menu.open { display: block; }
+.play-menu-item {
+    display: flex; align-items: center; gap: 9px; width: 100%;
+    padding: 9px 11px; border: 0; background: none; border-radius: 7px;
+    font-size: 13px; color: #222; cursor: pointer; text-align: left; white-space: nowrap;
+    font-family: inherit;
+}
+.play-menu-item:hover, .play-menu-item:focus-visible { background: #f3f4f6; outline: none; }

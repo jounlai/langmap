@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=109">
+    <link rel="stylesheet" href="styles.css?v=111">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2062,18 +2062,27 @@
                 <span class="nav-sep">/</span>
                 <a href="tree.html" class="header-nav-link" id="nav-tree-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg>Tree</a>
             </nav>
-            <button type="button" class="trivia-btn" id="trivia-open"
+            <div class="play-menu-wrap">
+                <button type="button" class="trivia-btn" id="play-menu-btn"
+                        aria-haspopup="menu" aria-expanded="false" title="Play">
+                    <span aria-hidden="true">🎮</span>
+                    <span class="trivia-btn-label" id="play-menu-label">Play</span>
+                    <span aria-hidden="true" class="play-caret">▾</span>
+                </button>
+                <div id="play-menu" role="menu"></div>
+            </div>
+            <button type="button" class="trivia-btn game-btn" id="trivia-open"
                     aria-haspopup="dialog" aria-controls="trivia-modal"
                     title="Linguistic trivia">
                 <span aria-hidden="true">📚</span>
                 <span class="trivia-btn-label" id="trivia-btn-label">Linguistic Trivia</span>
             </button>
-            <button type="button" class="trivia-btn" id="langle-open"
+            <button type="button" class="trivia-btn game-btn" id="langle-open"
                     aria-haspopup="dialog" title="Daily language guessing game">
                 <span aria-hidden="true">🎮</span>
                 <span class="trivia-btn-label" id="langle-btn-label">Langle</span>
             </button>
-            <button type="button" class="trivia-btn" id="quiz-open"
+            <button type="button" class="trivia-btn game-btn" id="quiz-open"
                     aria-haspopup="dialog" title="Which word? quiz">
                 <span aria-hidden="true">🧩</span>
                 <span class="trivia-btn-label" id="quiz-btn-label">Which word?</span>
@@ -8824,6 +8833,46 @@
             })();
         }
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
+    })();
+    </script>
+
+    <!-- Play ▾ menu: consolidates the hidden .game-btn launchers into one
+         header dropdown (declutter). Generic — works on any page. -->
+    <script>
+    (function () {
+        'use strict';
+        const FB = 'en';
+        const ui = () => { const g = (window.__langmap && window.__langmap.uiLang); return g || (typeof uiLang !== 'undefined' && uiLang) || FB; };
+        const PLAY = {en:'Play', ja:'あそぶ', ko:'플레이', zh:'游戏', yue:'遊戲', vi:'Chơi', th:'เล่น', id:'Main', hi:'खेलें', de:'Spielen', fr:'Jouer', it:'Gioca', es:'Jugar', pt:'Jogar', ru:'Играть', uk:'Грати', ar:'العب', he:'שחקו', sw:'Cheza'};
+        const playLabel = () => PLAY[ui()] || PLAY[ui().split('_')[0]] || PLAY.en;
+        const btn = () => document.getElementById('play-menu-btn');
+        const menu = () => document.getElementById('play-menu');
+        const games = () => Array.prototype.slice.call(document.querySelectorAll('.game-btn'));
+        function buildItems() {
+            const m = menu(); if (!m) return; m.innerHTML = '';
+            games().forEach(g => {
+                const icon = g.querySelector('span[aria-hidden="true"]');
+                const lbl = g.querySelector('.trivia-btn-label');
+                const it = document.createElement('button');
+                it.type = 'button'; it.className = 'play-menu-item'; it.setAttribute('role', 'menuitem');
+                it.innerHTML = '<span aria-hidden="true">' + (icon ? icon.textContent : '🎲') + '</span><span>' + (lbl ? lbl.textContent : (g.title || '')) + '</span>';
+                it.addEventListener('click', () => { close(); g.click(); });
+                m.appendChild(it);
+            });
+        }
+        function open() { buildItems(); const m = menu(); if (m) m.classList.add('open'); const b = btn(); if (b) b.setAttribute('aria-expanded', 'true'); }
+        function close() { const m = menu(); if (m) m.classList.remove('open'); const b = btn(); if (b) b.setAttribute('aria-expanded', 'false'); }
+        function toggle() { const m = menu(); if (m && m.classList.contains('open')) close(); else open(); }
+        function localize() { const l = document.getElementById('play-menu-label'); if (l) l.textContent = playLabel(); const b = btn(); if (b) b.title = playLabel(); }
+        function init() {
+            const b = btn(); if (!b || b._wired) return; b._wired = true;
+            b.addEventListener('click', e => { e.stopPropagation(); toggle(); });
+            document.addEventListener('click', e => { const m = menu(); if (m && m.classList.contains('open') && !m.contains(e.target) && !b.contains(e.target)) close(); });
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+            localize();
+            window.addEventListener('langmap:uichange', localize);
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
     })();
     </script>
 

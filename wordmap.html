@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=112">
+    <link rel="stylesheet" href="styles.css?v=113">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -8795,21 +8795,21 @@
                         else css += ';opacity:.5';
                     }
                     const b = el('button', css);
-                    // On answer, reveal each option's language underneath (educational).
-                    b.innerHTML = answered
-                        ? `${o.surf}<div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px">${nameOf(o.code)}</div>`
-                        : o.surf;
+                    // The language sub-label is ALWAYS rendered (reserving its
+                    // height) but hidden until answered, so revealing it on answer
+                    // doesn't change the modal's height.
+                    b.innerHTML = `${o.surf}<div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${nameOf(o.code)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     box.appendChild(b);
                 });
-                if (answered) {
-                    const okNow = qs[idx].options[chosen] && qs[idx].options[chosen].correct;
-                    box.appendChild(el('div', `text-align:center;font-weight:800;font-size:15px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'}`, okNow ? pk(Q.correct) : pk(Q.wrong)));
-                    const nb = el('button', 'width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;font-size:15px;cursor:pointer');
-                    nb.textContent = (idx + 1 >= TOTAL) ? (pk(Q.result).replace('{score}', score).replace('{total}', TOTAL)) : pk(Q.next);
-                    nb.addEventListener('click', () => { idx++; answered = false; chosen = -1; render(); });
-                    box.appendChild(nb);
-                }
+                // Feedback line + Next button are always present (reserving height);
+                // only made visible once answered, so the modal doesn't grow.
+                const okNow = answered && qs[idx].options[chosen] && qs[idx].options[chosen].correct;
+                box.appendChild(el('div', `text-align:center;font-weight:800;font-size:15px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct)));
+                const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;font-size:15px;cursor:pointer;visibility:${answered ? 'visible' : 'hidden'}`);
+                nb.textContent = !answered ? pk(Q.next) : ((idx + 1 >= TOTAL) ? pk(Q.result).replace('{score}', score).replace('{total}', TOTAL) : pk(Q.next));
+                if (answered) nb.addEventListener('click', () => { idx++; answered = false; chosen = -1; render(); });
+                box.appendChild(nb);
             }
             const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:13px;cursor:pointer', pk(Q.close));
             cl.addEventListener('click', hide);
@@ -8863,13 +8863,24 @@
         const menu = () => document.getElementById('play-menu');
         const games = () => Array.prototype.slice.call(document.querySelectorAll('.game-btn'));
         function buildItems() {
-            const m = menu(); if (!m) return; m.innerHTML = '';
+            const m = menu(); if (!m) return;
+            // Force all header labels/tooltips into the current UI language before
+            // reading them — the game labels come from several different localizers,
+            // so a stale one (e.g. Trivia) could otherwise show its English default.
+            try { if (window.applyUILang) window.applyUILang(); } catch (_) {}
+            m.innerHTML = '';
             games().forEach(g => {
                 const icon = g.querySelector('span[aria-hidden="true"]');
                 const lbl = g.querySelector('.trivia-btn-label');
+                const name = lbl ? lbl.textContent : (g.title || '');
+                // A localized descriptor (the button's title, e.g. Langle →
+                // "Daily language-guessing game") shown only when it adds info.
+                const desc = (g.title && g.title !== name) ? g.title : '';
                 const it = document.createElement('button');
                 it.type = 'button'; it.className = 'play-menu-item'; it.setAttribute('role', 'menuitem');
-                it.innerHTML = '<span aria-hidden="true">' + (icon ? icon.textContent : '🎲') + '</span><span>' + (lbl ? lbl.textContent : (g.title || '')) + '</span>';
+                it.innerHTML = '<span aria-hidden="true">' + (icon ? icon.textContent : '🎲') + '</span>'
+                    + '<span class="play-menu-item-txt"><span>' + name + '</span>'
+                    + (desc ? '<span class="play-menu-item-sub">' + desc + '</span>' : '') + '</span>';
                 it.addEventListener('click', () => { close(); g.click(); });
                 m.appendChild(it);
             });

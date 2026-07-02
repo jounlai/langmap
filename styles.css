@@ -1536,3 +1536,8 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     .ui-lang-footer { bottom: 8px; padding: 2px 8px 2px 10px; }
     .ui-lang-footer .header-ui-lang { min-width: 104px; font-size: 11px; }
 }
+
+/* Play ▾ menu item with an optional localized descriptor line (e.g. Langle → a
+   short "what is this" so an opaque proper-noun launcher is understandable). */
+.play-menu-item-txt { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.25; }
+.play-menu-item-sub { font-size: 11px; color: #9aa1ad; font-weight: 400; margin-top: 1px; }

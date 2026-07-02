@@ -454,6 +454,19 @@
         document.getElementById('legend').textContent = t('legend');
         const treeRoot = document.getElementById('tree-root');
         if (treeRoot) treeRoot.setAttribute('aria-label', t('title'));
+        // Header chrome aria/title localization (self-contained maps).
+        const menuLbl = {ja:'メニュー',ko:'메뉴',zh:'菜单',yue:'選單',vi:'Menu',th:'เมนู',id:'Menu',hi:'मेन्यू',en:'Menu',de:'Menü',fr:'Menu',it:'Menu',es:'Menú',pt:'Menu',ru:'Меню',uk:'Меню',ar:'القائمة',he:'תפריט',sw:'Menyu'};
+        const topLbl = {ja:'先頭へ戻る',ko:'맨 위로',zh:'回到顶部',yue:'返回頂部',vi:'Lên đầu trang',th:'ขึ้นบนสุด',id:'Ke atas',hi:'ऊपर जाएँ',en:'Scroll to top',de:'Nach oben',fr:'Haut de page',it:'Torna su',es:'Ir arriba',pt:'Ir ao topo',ru:'Наверх',uk:'Догори',ar:'إلى الأعلى',he:'לראש הדף',sw:'Nenda juu'};
+        const uilLbl = {ja:'UI 言語',ko:'UI 언어',zh:'界面语言',yue:'介面語言',vi:'Ngôn ngữ giao diện',th:'ภาษาส่วนติดต่อ',id:'Bahasa antarmuka',hi:'UI भाषा',en:'UI language',de:'UI-Sprache',fr:'Langue de l\'interface',it:'Lingua dell\'interfaccia',es:'Idioma de interfaz',pt:'Idioma da interface',ru:'Язык интерфейса',uk:'Мова інтерфейсу',ar:'لغة الواجهة',he:'שפת ממשק',sw:'Lugha ya kiolesura'};
+        const famLbl = {ja:'系統樹',ko:'계통수',zh:'谱系树',yue:'譜系樹',vi:'Cây phả hệ',th:'แผนภูมิลำดับวงศ์',id:'Pohon keluarga',hi:'वंश वृक्ष',en:'Family tree',de:'Stammbaum',fr:'Arbre généalogique',it:'Albero genealogico',es:'Árbol genealógico',pt:'Árvore genealógica',ru:'Родословное древо',uk:'Родовідне дерево',ar:'شجرة العائلة',he:'עץ משפחה',sw:'Mti wa lugha'};
+        const L = m => m[uiLang] || m.en;
+        const setA = (sel, attr, val) => { const el = document.querySelector(sel); if (el && val) el.setAttribute(attr, val); };
+        setA('.hdr-menu-toggle', 'aria-label', L(menuLbl));
+        setA('.hamburger-btn', 'aria-label', L(menuLbl));
+        setA('#back-to-top', 'aria-label', L(topLbl));
+        setA('#header-ui-lang', 'aria-label', L(uilLbl));
+        setA('.logo-badge-tree', 'aria-label', L(famLbl));
+        setA('.logo-badge-tree', 'title', L(famLbl));
         function setNavText(el, text) {
             if (!el) return;
             const last = el.lastChild;

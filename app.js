@@ -666,6 +666,30 @@ function applyUILang() {
     setNavText(document.getElementById('navToWordMap'), wmLabels[currentUILang] || wmLabels.en);
     setNavText(document.getElementById('navToTree'), trLabels[currentUILang] || trLabels.en);
     setNavText(document.getElementById('navToHanMap'), hanLabels[currentUILang] || hanLabels.en);
+    // --- Header chrome + tooltip aria/title localization (self-contained maps) ---
+    const menuLbl = {ja:'メニュー',ko:'메뉴',zh:'菜单',yue:'選單',vi:'Menu',th:'เมนู',id:'Menu',hi:'मेन्यू',en:'Menu',de:'Menü',fr:'Menu',it:'Menu',es:'Menú',pt:'Menu',ru:'Меню',uk:'Меню',ar:'القائمة',he:'תפריט',sw:'Menyu'};
+    const prevLbl = {ja:'前へ',ko:'이전',zh:'上一个',yue:'上一個',vi:'Trước',th:'ก่อนหน้า',id:'Sebelumnya',hi:'पिछला',en:'Previous',de:'Zurück',fr:'Précédent',it:'Precedente',es:'Anterior',pt:'Anterior',ru:'Назад',uk:'Назад',ar:'السابق',he:'הקודם',sw:'Iliyotangulia'};
+    const nextLbl = {ja:'次へ',ko:'다음',zh:'下一个',yue:'下一個',vi:'Sau',th:'ถัดไป',id:'Berikutnya',hi:'अगला',en:'Next',de:'Weiter',fr:'Suivant',it:'Successivo',es:'Siguiente',pt:'Próximo',ru:'Далее',uk:'Далі',ar:'التالي',he:'הבא',sw:'Inayofuata'};
+    const topLbl = {ja:'先頭へ戻る',ko:'맨 위로',zh:'回到顶部',yue:'返回頂部',vi:'Lên đầu trang',th:'ขึ้นบนสุด',id:'Ke atas',hi:'ऊपर जाएँ',en:'Scroll to top',de:'Nach oben',fr:'Haut de page',it:'Torna su',es:'Ir arriba',pt:'Ir ao topo',ru:'Наверх',uk:'Догори',ar:'إلى الأعلى',he:'לראש הדף',sw:'Nenda juu'};
+    const clogLbl = {ja:'変更履歴',ko:'변경 이력',zh:'更新日志',yue:'更新日誌',vi:'Nhật ký thay đổi',th:'บันทึกการเปลี่ยนแปลง',id:'Log perubahan',hi:'बदलाव सूची',en:'Changelog',de:'Änderungen',fr:'Journal',it:'Novità',es:'Cambios',pt:'Alterações',ru:'История изменений',uk:'Історія змін',ar:'سجل التغييرات',he:'יומן שינויים',sw:'Kumbukumbu'};
+    const uilLbl = {ja:'UI 言語',ko:'UI 언어',zh:'界面语言',yue:'介面語言',vi:'Ngôn ngữ giao diện',th:'ภาษาส่วนติดต่อ',id:'Bahasa antarmuka',hi:'UI भाषा',en:'UI language',de:'UI-Sprache',fr:'Langue de l\'interface',it:'Lingua dell\'interfaccia',es:'Idioma de interfaz',pt:'Idioma da interface',ru:'Язык интерфейса',uk:'Мова інтерфейсу',ar:'لغة الواجهة',he:'שפת ממשק',sw:'Lugha ya kiolesura'};
+    const L = m => m[currentUILang] || m.en;
+    const setA = (sel, attr, val) => { const el = document.querySelector(sel); if (el && val) el.setAttribute(attr, val); };
+    const woText = woLabels[currentUILang] || woLabels.en;
+    setA('.logo-badge-order', 'aria-label', woText);
+    setA('.logo-badge-order', 'title', woText);
+    setA('.hdr-menu-toggle', 'aria-label', L(menuLbl));
+    setA('.hamburger-btn', 'aria-label', L(menuLbl));
+    setA('#back-to-top', 'aria-label', L(topLbl));
+    setA('#header-ui-lang', 'aria-label', L(uilLbl));
+    setA('.sentence-nav .nav-icon[onclick*="prevSentence"]', 'title', L(prevLbl));
+    setA('.sentence-nav .nav-icon[onclick*="nextSentence"]', 'title', L(nextLbl));
+    setA('#btnRandom', 'title', t('random'));
+    // Footer link labels
+    const wmLink = document.querySelector('.header-collapse a[href="wordmap.html"]');
+    if (wmLink) wmLink.textContent = wmLabels[currentUILang] || wmLabels.en;
+    const clogLink = document.querySelector('.header-collapse a[href="changelog.html"]');
+    if (clogLink) clogLink.textContent = L(clogLbl);
     const creditEl = document.getElementById('siteCredit');
     if (creditEl) creditEl.innerHTML = t('creditText');
     const disclaimerEl = document.getElementById('disclaimer');

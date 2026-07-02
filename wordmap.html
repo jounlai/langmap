@@ -1533,12 +1533,12 @@
         /* Article index — grid of cards, shown when the user first
            opens the 📚 button (or after clicking "← Articles"). */
         .trivia-index {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
             padding-top: 4px;
         }
-        /* Explicit [hidden] override: the class-level `display: grid`
+        /* Explicit [hidden] override: the class-level `display: flex`
            above outranks the UA-stylesheet `[hidden]` rule, so without
            this the index would leak underneath every article body. */
         .trivia-index[hidden] { display: none; }
@@ -1626,20 +1626,17 @@
         }
         .trivia-card {
             display: block; width: 100%; text-align: left;
-            background: rgba(255,243,205,0.55);
-            border: 1px solid rgba(180,130,30,0.28);
-            border-radius: 10px;
-            padding: 12px 14px;
+            background: transparent;
+            border: none;
+            border-radius: 0;
+            padding: 8px 4px;
             cursor: pointer;
-            transition: all 0.18s ease;
+            transition: background 0.12s ease;
             font-family: inherit;
             color: #3a2e1a;
         }
         .trivia-card:hover {
-            background: rgba(255,235,180,0.85);
-            border-color: #b8860b;
-            transform: translateY(-1px);
-            box-shadow: 0 3px 10px rgba(180,130,30,0.25);
+            background: rgba(255,235,180,0.55);
         }
         .trivia-card:focus-visible {
             outline: 2px solid #8a5a0e;
@@ -7336,14 +7333,12 @@
             tags.innerHTML = '';
             const list = window.TRIVIA_ARTICLES || [];
             index.innerHTML = list.map((a, i) => {
-                const iconAttr = a.icon || '📖';
+                // Index shows title only (no icon, no summary) to match HanMap's
+                // compact list; the detail view still has the full text.
                 const title = pickLocalized(a.title);
-                const sum = pickLocalized(a.summary);
                 const num = String(i + 1).padStart(2, '0');
                 return `<button type="button" class="trivia-card" data-article-id="${a.id}">`
-                    + `<div class="trivia-card-icon" aria-hidden="true">${iconAttr}</div>`
                     + `<div class="trivia-card-title"><span class="trivia-card-num">${num}.</span> ${title}</div>`
-                    + `<div class="trivia-card-summary">${sum}</div>`
                     + `</button>`;
             }).join('');
             index.hidden = false;

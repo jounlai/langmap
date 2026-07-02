@@ -8465,7 +8465,7 @@
         }
         function curStreak() { const s = load(); return (s.streakDay === day() || s.streakDay === day() - 1) ? (s.streak || 0) : 0; }
         // ---- share text ----
-        const SHARE_URL = 'https://langmap.heuron.com/wordmap.html';
+        const SHARE_URL = 'https://langmap.heuron.com/wordmap.html?play=langle';
         // A fun linguistic tidbit — "In <language>, <word> is <form>" — drawn from a
         // random NON-target language so it teases the quiz without spoiling today's
         // answer. This is what makes an onlooker curious, far more than an abstract
@@ -8680,6 +8680,17 @@
             const btn = document.getElementById('langle-open');
             if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', () => { restore(); show(); }); }
             updateBadge();
+            // Shared links (?play=langle) open the game straight away, then strip the
+            // param so closing/refreshing doesn't reopen it.
+            try {
+                const sp = new URLSearchParams(location.search);
+                if (sp.get('play') === 'langle') {
+                    restore(); show();
+                    sp.delete('play');
+                    const q = sp.toString();
+                    history.replaceState(null, '', location.pathname + (q ? '?' + q : '') + location.hash);
+                }
+            } catch (_) {}
             // Re-render in the new language (and rebuild the localized picker)
             // when the user switches the UI language while the modal is open.
             if (!window._langleUiWired) {

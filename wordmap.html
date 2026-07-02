@@ -8701,7 +8701,10 @@
         function start() {
             let tries = 0;
             (function wait() {
-                if (LD() && Object.keys(LD()).length && ORD().length) { init(); }
+                // Also wait for WORDS to be populated — a ?play=langle deep-link
+                // opens the modal immediately in init(), and the clue words come
+                // from window.WORDS, which loads slightly after LANG_DATA/WORD_ORDER.
+                if (LD() && Object.keys(LD()).length && ORD().length && Object.keys(WD()).length) { init(); }
                 else if (tries++ < 60) setTimeout(wait, 250);
             })();
         }

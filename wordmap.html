@@ -30,7 +30,7 @@
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
     <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#4178bc">
+    <meta name="theme-color" content="#2e6fb8">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -58,8 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=107">
-    <link rel="stylesheet" href="styles.css?v=107">
+    <link rel="stylesheet" href="styles.css?v=109">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -8001,7 +8000,7 @@
     })();
     </script>
     <footer style="text-align:center;padding:16px 12px;font-size:12px;color:#888;border-top:1px solid #e6e6ef;margin-top:24px">
-        全言語インデックス (SEO): <a href="/en/wordmap/" style="color:#4178bc">Word Map</a> · <a href="/en/hanmap/" style="color:#4178bc">Han Map</a>
+        全言語インデックス (SEO): <a href="/en/wordmap/" style="color:var(--accent)">Word Map</a> · <a href="/en/hanmap/" style="color:var(--accent)">Han Map</a>
     </footer>
 
     <!-- ============================================================
@@ -8173,10 +8172,10 @@
             try { if (localStorage.getItem('lm_wotd_day') === String(dayNumber())) return; } catch (_) {}
             const bar = document.createElement('div');
             bar.style.cssText = 'position:fixed;left:50%;top:64px;transform:translateX(-50%);z-index:99998;background:#fff;border:1px solid #e2e4ea;border-radius:999px;box-shadow:0 6px 22px rgba(0,0,0,.16);display:flex;align-items:center;gap:10px;padding:7px 8px 7px 16px;font-size:13px;max-width:92vw;animation:lmwotd .35s ease';
-            bar.innerHTML = `<span style="display:flex;align-items:center;gap:7px"><span style="display:inline-flex;color:#4178bc"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span><span><b style="color:#4178bc">${pick(S.wotd)}</b>: ${wotdLabel(id)}</span></span>`;
+            bar.innerHTML = `<span style="display:flex;align-items:center;gap:7px"><span style="display:inline-flex;color:var(--accent)"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span><span><b style="color:var(--accent)">${pick(S.wotd)}</b>: ${wotdLabel(id)}</span></span>`;
             const go = document.createElement('button');
             go.type = 'button'; go.textContent = pick(S.view);
-            go.style.cssText = 'border:0;background:#4178bc;color:#fff;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;cursor:pointer';
+            go.style.cssText = 'border:0;background:var(--accent);color:#fff;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;cursor:pointer';
             go.addEventListener('click', () => { gotoWord(id); close(); });
             const x = document.createElement('button');
             x.type = 'button'; x.setAttribute('aria-label', pick(S.close)); x.textContent = '✕';
@@ -8228,12 +8227,17 @@
     (function () {
         'use strict';
         const FB = 'en';
-        const ui = () => (typeof uiLang !== 'undefined' && uiLang) ? uiLang : FB;
+        // uiLang lives inside another <script>'s IIFE and is NOT visible here,
+        // so read the UI language from the global the page maintains instead;
+        // fall back to a bare uiLang (if ever global) and finally English.
+        const ui = () => {
+            const g = (window.__langmap && window.__langmap.uiLang);
+            return g || (typeof uiLang !== 'undefined' && uiLang) || FB;
+        };
         const pk = (m) => m[ui()] || m[ui().split('_')[0]] || m[FB];
         const T = {
             title:   {en:'Langle', ja:'Langle（言語あてゲーム）', ko:'Langle', zh:'Langle 猜语言', es:'Langle', fr:'Langle', de:'Langle', pt:'Langle', ru:'Langle', it:'Langle', yue:'Langle', vi:'Langle', th:'Langle', id:'Langle', hi:'Langle', uk:'Langle', ar:'Langle', he:'Langle', sw:'Langle'},
             sub:     {en:'Guess today’s mystery language from how it says these words.', ja:'下の単語の言い方から、今日のミステリー言語を当てよう。', ko:'아래 단어의 발음으로 오늘의 미스터리 언어를 맞혀보세요.', zh:'根据下列单词的说法，猜出今天的神秘语言。', es:'Adivina el idioma misterioso de hoy por cómo dice estas palabras.', fr:'Devinez la langue mystère du jour d’après ces mots.', de:'Errate die heutige Mystery-Sprache anhand dieser Wörter.', pt:'Adivinhe a língua misteriosa de hoje por estas palavras.', ru:'Угадайте сегодняшний таинственный язык по этим словам.', it:'Indovina la lingua misteriosa di oggi da come dice queste parole.', yue:'由下面啲詞點講，估出今日嘅神秘語言。', vi:'Đoán ngôn ngữ bí ẩn hôm nay qua cách nói các từ này.', th:'เดาภาษาปริศนาของวันนี้จากวิธีพูดคำเหล่านี้', id:'Tebak bahasa misterius hari ini dari cara mengucapkan kata-kata ini.', hi:'इन शब्दों के उच्चारण से आज की रहस्यमयी भाषा का अनुमान लगाएँ।', uk:'Вгадайте сьогоднішню таємничу мову за тим, як вона вимовляє ці слова.', ar:'خمِّن لغة اليوم الغامضة من طريقة نطق هذه الكلمات.', he:'נחשו את שפת היום המסתורית לפי האופן שבו היא אומרת מילים אלה.', sw:'Kisia lugha ya leo ya fumbo kutokana na jinsi inavyosema maneno haya.'},
-            ph:      {en:'Type a language…', ja:'言語名を入力…', ko:'언어 입력…', zh:'输入语言…', es:'Escribe un idioma…', fr:'Tapez une langue…', de:'Sprache eingeben…', pt:'Digite uma língua…', ru:'Введите язык…', it:'Scrivi una lingua…', yue:'輸入語言…', vi:'Nhập một ngôn ngữ…', th:'พิมพ์ภาษา…', id:'Ketik bahasa…', hi:'भाषा लिखें…', uk:'Введіть мову…', ar:'اكتب لغة…', he:'הקלידו שפה…', sw:'Andika lugha…'},
             guess:   {en:'Guess', ja:'回答', ko:'추측', zh:'猜', es:'Adivinar', fr:'Deviner', de:'Raten', pt:'Adivinhar', ru:'Угадать', it:'Indovina', yue:'估', vi:'Đoán', th:'เดา', id:'Tebak', hi:'अनुमान', uk:'Вгадати', ar:'خمِّن', he:'ניחוש', sw:'Kisia'},
             fam:     {en:'Family', ja:'語族', ko:'어족', zh:'语系', es:'Familia', fr:'Famille', de:'Familie', pt:'Família', ru:'Семья', it:'Famiglia', yue:'語系', vi:'Ngữ hệ', th:'ตระกูลภาษา', id:'Rumpun', hi:'भाषा-परिवार', uk:'Сім’я', ar:'الفصيلة', he:'משפחה', sw:'Familia'},
             win:     {en:'Solved!', ja:'正解！', ko:'정답!', zh:'答对了！', es:'¡Resuelto!', fr:'Trouvé !', de:'Gelöst!', pt:'Acertou!', ru:'Угадали!', it:'Risolto!', yue:'答啱喇！', vi:'Đúng rồi!', th:'ถูกต้อง!', id:'Tepat!', hi:'सही!', uk:'Відгадано!', ar:'أحسنت!', he:'פתרת!', sw:'Umeshinda!'},
@@ -8245,7 +8249,9 @@
             close:   {en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', es:'Cerrar', fr:'Fermer', de:'Schließen', pt:'Fechar', ru:'Закрыть', it:'Chiudi', yue:'閂', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', uk:'Закрити', ar:'إغلاق', he:'סגירה', sw:'Funga'},
             already: {en:'You’ve played today — come back tomorrow!', ja:'本日はプレイ済み。また明日！', ko:'오늘은 이미 플레이했어요. 내일 다시!', zh:'今天已玩过，明天再来！', es:'Ya jugaste hoy, ¡vuelve mañana!', fr:'Déjà joué aujourd’hui — à demain !', de:'Heute schon gespielt — bis morgen!', pt:'Já jogou hoje — volte amanhã!', ru:'Сегодня уже сыграли — до завтра!', it:'Hai già giocato oggi — torna domani!', yue:'今日已經玩咗喇 — 聽日再嚟！', vi:'Bạn đã chơi hôm nay — quay lại ngày mai!', th:'วันนี้เล่นแล้ว — พรุ่งนี้มาใหม่!', id:'Sudah main hari ini — kembali besok!', hi:'आज खेल चुके हैं — कल फिर आएँ!', uk:'Сьогодні вже зіграли — поверніться завтра!', ar:'لقد لعبت اليوم — عُد غدًا!', he:'כבר שיחקת היום — חזרו מחר!', sw:'Umeshacheza leo — rudi kesho!'},
             mystery: {en:'Mystery language', ja:'ミステリー言語', ko:'미스터리 언어', zh:'神秘语言', es:'Idioma misterioso', fr:'Langue mystère', de:'Mystery-Sprache', pt:'Língua misteriosa', ru:'Таинственный язык', it:'Lingua misteriosa', yue:'神秘語言', vi:'Ngôn ngữ bí ẩn', th:'ภาษาปริศนา', id:'Bahasa misterius', hi:'रहस्यमयी भाषा', uk:'Таємнича мова', ar:'لغة غامضة', he:'שפה מסתורית', sw:'Lugha ya fumbo'},
-            notfound:{en:'Pick a language from the list', ja:'リストから言語を選んでください', ko:'목록에서 언어를 선택하세요', zh:'请从列表中选择语言', es:'Elige un idioma de la lista', fr:'Choisissez une langue dans la liste', de:'Sprache aus der Liste wählen', pt:'Escolha uma língua da lista', ru:'Выберите язык из списка', it:'Scegli una lingua dall’elenco', yue:'喺清單揀一種語言', vi:'Chọn một ngôn ngữ từ danh sách', th:'เลือกภาษาจากรายการ', id:'Pilih bahasa dari daftar', hi:'सूची से भाषा चुनें', uk:'Виберіть мову зі списку', ar:'اختر لغة من القائمة', he:'בחרו שפה מהרשימה', sw:'Chagua lugha kutoka kwenye orodha'}
+            selCont:  {en:'Continent', ja:'大陸', ko:'대륙', zh:'大洲', es:'Continente', fr:'Continent', de:'Kontinent', pt:'Continente', ru:'Континент', it:'Continente', yue:'大洲', vi:'Châu lục', th:'ทวีป', id:'Benua', hi:'महाद्वीप', uk:'Континент', ar:'القارة', he:'יבשת', sw:'Bara'},
+            selCountry:{en:'Country', ja:'国', ko:'국가', zh:'国家', es:'País', fr:'Pays', de:'Land', pt:'País', ru:'Страна', it:'Paese', yue:'國家', vi:'Quốc gia', th:'ประเทศ', id:'Negara', hi:'देश', uk:'Країна', ar:'الدولة', he:'מדינה', sw:'Nchi'},
+            selLang:  {en:'Language', ja:'言語', ko:'언어', zh:'语言', es:'Idioma', fr:'Langue', de:'Sprache', pt:'Língua', ru:'Язык', it:'Lingua', yue:'語言', vi:'Ngôn ngữ', th:'ภาษา', id:'Bahasa', hi:'भाषा', uk:'Мова', ar:'اللغة', he:'שפה', sw:'Lugha'}
         };
         // ---- data access ----
         const LD = () => (typeof LANG_DATA !== 'undefined') ? LANG_DATA : (window.LANG_DATA || {});
@@ -8269,9 +8275,84 @@
             }).sort();
             return POOL;
         }
+        // ---- geo grouping for the Continent ▸ Country ▸ Language picker ----
+        // Each pool language's primary country (parsed from meta.countries) maps
+        // to an ISO-3166 alpha-2 country code + a UN M49 continent code. Both
+        // labels are localized for free via Intl.DisplayNames (active UI lang).
+        // The few pan-regional languages (Arabic, Fula, Somali) use the country
+        // that matches their map pin. 142 Asia · 150 Europe · 002 Africa ·
+        // 003 North America · 005 South America.
+        const GEO = {
+            "Afghanistan":"AF,142","Albania":"AL,150","Armenia":"AM,142","Azerbaijan":"AZ,142",
+            "Bangladesh":"BD,142","Belarus":"BY,150","Bolivia":"BO,005","Bosnia and Herzegovina":"BA,150",
+            "Botswana":"BW,002","Bulgaria":"BG,150","Burundi":"BI,002","Cambodia":"KH,142",
+            "Central African Republic":"CF,002","China":"CN,142","Croatia":"HR,150","Czech Republic":"CZ,150",
+            "DR Congo":"CD,002","DRC":"CD,002","Denmark":"DK,150","Eritrea":"ER,002","Ethiopia":"ET,002",
+            "Finland":"FI,150","France":"FR,150","Georgia":"GE,142","Germany":"DE,150","Ghana":"GH,002",
+            "Greece":"GR,150","Haiti":"HT,003","Hungary":"HU,150","India":"IN,142","Indonesia":"ID,142",
+            "Iran":"IR,142","Ireland":"IE,150","Israel":"IL,142","Italy":"IT,150","Jamaica":"JM,003",
+            "Japan":"JP,142","Kazakhstan":"KZ,142","Kenya":"KE,002","Kyrgyzstan":"KG,142","Laos":"LA,142",
+            "Latvia":"LV,150","Lesotho":"LS,002","Lithuania":"LT,150","Madagascar":"MG,002","Malawi":"MW,002",
+            "Malaysia":"MY,142","Mali":"ML,002","Mongolia":"MN,142","Myanmar":"MM,142","Nepal":"NP,142",
+            "Netherlands":"NL,150","Nigeria":"NG,002","North Macedonia":"MK,150","Norway":"NO,150",
+            "Pakistan":"PK,142","Paraguay":"PY,005","Peru":"PE,005","Philippines":"PH,142","Poland":"PL,150",
+            "Romania":"RO,150","Russia":"RU,150","Rwanda":"RW,002","Senegal":"SN,002","Serbia":"RS,150",
+            "Slovakia":"SK,150","Slovenia":"SI,150","Somalia":"SO,002","South Africa":"ZA,002",
+            "South Korea":"KR,142","Spain":"ES,150","Sri Lanka":"LK,142","Sweden":"SE,150","Taiwan":"TW,142",
+            "Tajikistan":"TJ,142","Tanzania":"TZ,002","Thailand":"TH,142","Turkey":"TR,142","Türkiye":"TR,142",
+            "Turkmenistan":"TM,142","UK":"GB,150","Uganda":"UG,002","Ukraine":"UA,150","Uzbekistan":"UZ,142",
+            "Vietnam":"VN,142","Zimbabwe":"ZW,002",
+            "22 Arab League states":"SA,142","Across the Sahel":"ML,002"
+        };
+        // Feature-detect once: some old browsers lack Intl.DisplayNames entirely,
+        // in which case constructing it (even for the 'en' fallback) throws.
+        const HASIDN = (typeof Intl !== 'undefined' && typeof Intl.DisplayNames === 'function');
+        const RGNCACHE = {};
+        function rgn() {
+            if (!HASIDN) return null;
+            const l = ui();
+            if (!(l in RGNCACHE)) {
+                try { RGNCACHE[l] = new Intl.DisplayNames([l], { type: 'region' }); }
+                catch (_) { try { RGNCACHE[l] = new Intl.DisplayNames(['en'], { type: 'region' }); } catch (_2) { RGNCACHE[l] = null; } }
+            }
+            return RGNCACHE[l];
+        }
+        function rname(code) { try { const r = rgn(); return (r && r.of(code)) || code; } catch (_) { return code; } }
+        // Continent labels: Intl.DisplayNames doesn't resolve UN M49 region codes
+        // (e.g. '142') in every browser — it returns the bare number there — so
+        // localize continents from an explicit table instead of relying on Intl.
+        const CONT = {
+            '142': { en:'Asia', ja:'アジア', ko:'아시아', zh:'亚洲', es:'Asia', fr:'Asie', de:'Asien', pt:'Ásia', ru:'Азия', it:'Asia', yue:'亞洲', vi:'Châu Á', th:'เอเชีย', id:'Asia', hi:'एशिया', uk:'Азія', ar:'آسيا', he:'אסיה', sw:'Asia' },
+            '150': { en:'Europe', ja:'ヨーロッパ', ko:'유럽', zh:'欧洲', es:'Europa', fr:'Europe', de:'Europa', pt:'Europa', ru:'Европа', it:'Europa', yue:'歐洲', vi:'Châu Âu', th:'ยุโรป', id:'Eropa', hi:'यूरोप', uk:'Європа', ar:'أوروبا', he:'אירופה', sw:'Ulaya' },
+            '002': { en:'Africa', ja:'アフリカ', ko:'아프리카', zh:'非洲', es:'África', fr:'Afrique', de:'Afrika', pt:'África', ru:'Африка', it:'Africa', yue:'非洲', vi:'Châu Phi', th:'แอฟริกา', id:'Afrika', hi:'अफ़्रीका', uk:'Африка', ar:'أفريقيا', he:'אפריקה', sw:'Afrika' },
+            '003': { en:'North America', ja:'北アメリカ', ko:'북아메리카', zh:'北美洲', es:'América del Norte', fr:'Amérique du Nord', de:'Nordamerika', pt:'América do Norte', ru:'Северная Америка', it:'America del Nord', yue:'北美洲', vi:'Bắc Mỹ', th:'อเมริกาเหนือ', id:'Amerika Utara', hi:'उत्तर अमेरिका', uk:'Північна Америка', ar:'أمريكا الشمالية', he:'צפון אמריקה', sw:'Amerika Kaskazini' },
+            '005': { en:'South America', ja:'南アメリカ', ko:'남아메리카', zh:'南美洲', es:'América del Sur', fr:'Amérique du Sud', de:'Südamerika', pt:'América do Sul', ru:'Южная Америка', it:'America del Sud', yue:'南美洲', vi:'Nam Mỹ', th:'อเมริกาใต้', id:'Amerika Selatan', hi:'दक्षिण अमेरिका', uk:'Південна Америка', ar:'أمريكا الجنوبية', he:'דרום אמריקה', sw:'Amerika Kusini' }
+        };
+        function contName(cc) { const m = CONT[cc]; return m ? (m[ui()] || m[ui().split('_')[0]] || m.en) : rname(cc); }
+        function primCountry(m) { return (m.countries || '').replace(/\([^)]*\)?/g, '').split(/[,;]/)[0].trim(); }
+        function geoOf(code) { const m = (LD()[code] || {}).meta || {}; const g = GEO[primCountry(m)]; if (!g) return null; const p = g.split(','); return { iso: p[0], cont: p[1] }; }
+        function geoPool() { return pool().filter(c => geoOf(c)); }
+        // One code per distinct language, deduped by the language's canonical
+        // (English) name so the set is UI-language independent — the daily answer
+        // is the same for everyone AND is always a code the picker can reach.
+        function pickCodes() {
+            const seen = {}, out = [];
+            geoPool().forEach(c => { const k = (LD()[c] || {}).name || c; if (!seen[k]) { seen[k] = 1; out.push(c); } });
+            return out;
+        }
+        // continent → country(iso) → [codes] (labels localized at render via nameOf)
+        function tree() {
+            const tr = {};
+            pickCodes().forEach(code => {
+                const g = geoOf(code);
+                (tr[g.cont] = tr[g.cont] || {});
+                (tr[g.cont][g.iso] = tr[g.cont][g.iso] || []).push(code);
+            });
+            return tr;
+        }
         const day = () => Math.floor(Date.now() / 86400000);
         const EPOCH = 20628; // launch day → puzzle #1
-        function target() { const p = pool(); if (!p.length) return null; return p[((day() * 2654435761) >>> 0) % p.length]; }
+        function target() { const p = pickCodes(); if (!p.length) return null; return p[((day() * 2654435761) >>> 0) % p.length]; }
         // ---- geo ----
         function hav(a, b, c, d) { const R = 6371, r = x => x * Math.PI / 180; const dLat = r(c - a), dLng = r(d - b); const u = Math.sin(dLat / 2) ** 2 + Math.cos(r(a)) * Math.cos(r(c)) * Math.sin(dLng / 2) ** 2; return Math.round(2 * R * Math.asin(Math.sqrt(u))); }
         function bearing(a, b, c, d) { const r = x => x * Math.PI / 180, g = x => x * 180 / Math.PI; const y = Math.sin(r(d - b)) * Math.cos(r(c)); const x = Math.cos(r(a)) * Math.sin(r(c)) - Math.sin(r(a)) * Math.cos(r(c)) * Math.cos(r(d - b)); return (g(Math.atan2(y, x)) + 360) % 360; }
@@ -8288,7 +8369,9 @@
             check: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`,
             cross: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`,
             share: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>`,
-            help: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`
+            help: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
+            x: `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
+            fb: `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>`
         };
         const MAX = 6;
         // ---- state ----
@@ -8329,7 +8412,7 @@
         function el(tag, css, html) { const e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
         function build() {
             modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px;font-family:inherit');
-            const box = el('div', 'background:#fff;border-radius:16px;max-width:420px;width:100%;max-height:90vh;overflow:auto;padding:22px;box-shadow:0 16px 50px rgba(0,0,0,.35)');
+            const box = el('div', 'background:#fff;border-radius:14px;max-width:420px;width:100%;max-height:90vh;overflow:auto;padding:22px;box-shadow:0 10px 32px rgba(0,0,0,.2)');
             box.id = 'lm-langle-box';
             modal.appendChild(box);
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
@@ -8363,7 +8446,7 @@
             return `<div style="display:flex;align-items:center;gap:9px;padding:9px 11px;border:1px solid #e6e7ec;border-radius:9px;margin-bottom:6px">
                 <span style="flex:1;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${nameOf(g)}</span>
                 ${famIco}
-                <span style="width:56px;height:7px;background:#eceef3;border-radius:4px;overflow:hidden;display:inline-block;flex:none"><span style="display:block;height:100%;width:${pct}%;background:#4178bc"></span></span>
+                <span style="width:56px;height:7px;background:#eceef3;border-radius:4px;overflow:hidden;display:inline-block;flex:none"><span style="display:block;height:100%;width:${pct}%;background:var(--accent)"></span></span>
                 <span style="color:#9aa1ad;font-size:11px;min-width:52px;text-align:right">${f.dist.toLocaleString()} km</span>
                 <span style="display:inline-flex;color:#6b7280">${ICON.arrow(f.bearing)}</span></div>`;
         }
@@ -8381,20 +8464,42 @@
             guesses.forEach(g => { const d = el('div'); d.innerHTML = rowHtml(g); list.appendChild(d.firstElementChild); });
             box.appendChild(list);
             if (!finished && guesses.length < MAX) {
-                const wrap = el('div', 'display:flex;gap:6px;margin-bottom:10px');
-                const inp = el('input', 'flex:1;padding:10px;border:1px solid #d0d3dc;border-radius:9px;font-size:14px;min-width:0');
-                inp.type = 'text'; inp.placeholder = pk(T.ph); inp.setAttribute('list', 'lm-langle-dl');
-                inp.autocomplete = 'off';
-                let dl = document.getElementById('lm-langle-dl');
-                if (dl) dl.remove(); // rebuild so option names follow the current UI language
-                dl = el('datalist'); dl.id = 'lm-langle-dl'; const seen = {}; pool().forEach(c => { const nm = nameOf(c); if (!seen[nm]) { seen[nm] = 1; const o = el('option'); o.value = nm; dl.appendChild(o); } }); document.body.appendChild(dl);
-                const gb = el('button', 'padding:10px 16px;border:0;border-radius:9px;background:#4178bc;color:#fff;font-weight:700;cursor:pointer', pk(T.guess));
-                const err = el('div', 'color:#d4506a;font-size:12px;margin-bottom:8px;display:none');
+                // Continent ▸ Country ▸ Language cascading picker (localized).
+                const tr = tree();
+                const guessed = new Set(guesses);
+                const selCss = 'flex:1;min-width:0;padding:9px;border:1px solid #d0d3dc;border-radius:9px;font-size:13px;background:#fff;color:#222';
+                const row1 = el('div', 'display:flex;gap:6px;margin-bottom:6px');
+                const cSel = el('select', selCss);   // continent
+                const tSel = el('select', selCss);   // country
+                row1.appendChild(cSel); row1.appendChild(tSel);
+                const row2 = el('div', 'display:flex;gap:6px;margin-bottom:10px');
+                const lSel = el('select', selCss);   // language
+                const gb = el('button', 'padding:10px 16px;border:0;border-radius:9px;background:var(--accent);color:#fff;font-weight:700;cursor:pointer;flex:none', pk(T.guess));
+                row2.appendChild(lSel); row2.appendChild(gb);
+                const ph = (s, label) => { const o = el('option'); o.value = ''; o.textContent = '— ' + label + ' —'; o.disabled = true; o.selected = true; s.appendChild(o); };
+                const byName = (arr, fn) => arr.slice().sort((a, b) => fn(a).localeCompare(fn(b), ui()));
+                function fillSel(s, label, items, valFn, txtFn, disabled) {
+                    s.innerHTML = ''; ph(s, label); s.disabled = !!disabled;
+                    items.forEach(it => { const o = el('option'); o.value = valFn(it); o.textContent = txtFn(it); s.appendChild(o); });
+                }
+                const anyLeft = codes => codes.some(c => !guessed.has(c));
+                function setContinents() {
+                    const conts = Object.keys(tr).filter(cc => Object.values(tr[cc]).some(anyLeft));
+                    fillSel(cSel, pk(T.selCont), byName(conts, contName), c => c, contName, false);
+                }
+                function setCountries(cc) {
+                    const isos = (cc && tr[cc]) ? Object.keys(tr[cc]).filter(iso => anyLeft(tr[cc][iso])) : [];
+                    fillSel(tSel, pk(T.selCountry), byName(isos, rname), i => i, rname, !isos.length);
+                }
+                function setLangs(cc, iso) {
+                    const codes = (cc && iso && tr[cc] && tr[cc][iso]) ? byName(tr[cc][iso].filter(c => !guessed.has(c)), nameOf) : [];
+                    fillSel(lSel, pk(T.selLang), codes, c => c, nameOf, !codes.length);
+                }
+                setContinents(); setCountries(null); setLangs(null, null);
+                cSel.addEventListener('change', () => { setCountries(cSel.value); setLangs(null, null); });
+                tSel.addEventListener('change', () => { setLangs(cSel.value, tSel.value); });
                 function doGuess() {
-                    const v = inp.value.trim().toLowerCase(); if (!v) return;
-                    const code = pool().find(c => nameOf(c).toLowerCase() === v) || pool().find(c => nameOf(c).toLowerCase().startsWith(v));
-                    if (!code) { err.textContent = pk(T.notfound); err.style.display = 'block'; return; }
-                    if (guesses.includes(code)) { inp.value = ''; return; }
+                    const code = lSel.value; if (!code || guesses.includes(code)) return;
                     guesses.push(code);
                     const winNow = code === t;
                     if (winNow || guesses.length >= MAX) onFinish(winNow); else persist();
@@ -8402,10 +8507,7 @@
                     updateBadge();
                 }
                 gb.addEventListener('click', doGuess);
-                inp.addEventListener('keydown', e => { if (e.key === 'Enter') doGuess(); });
-                wrap.appendChild(inp); wrap.appendChild(gb);
-                box.appendChild(err); box.appendChild(wrap);
-                setTimeout(() => inp.focus(), 30);
+                box.appendChild(row1); box.appendChild(row2);
             }
             if (finished) {
                 const res = el('div', 'text-align:center;margin:8px 0 4px');
@@ -8413,14 +8515,30 @@
                     <div style="margin-top:4px">${pk(T.answer)}: <b>${nameOf(t)}</b> <span style="color:#9aa">(${(LD()[t].meta || {}).family || ''})</span></div>
                     <div style="margin-top:6px;font-size:13px;color:#555">${pk(T.streak)}: <b style="color:#222">${curStreak()}</b></div>`;
                 box.appendChild(res);
-                const sb = el('button', 'width:100%;margin-top:12px;padding:12px;border:0;border-radius:10px;background:#1f2330;color:#fff;font-weight:700;font-size:15px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:7px');
+                const SITE = 'https://langmap.heuron.com';
+                const popup = (url) => { const w = window.open(url, '_blank', 'noopener,width=620,height=520'); if (!w) location.href = url; };
+                const copyResult = () => { try { if (navigator.clipboard) navigator.clipboard.writeText(shareText()); } catch (_) {} };
+                const shareRow = el('div', 'display:flex;gap:7px;margin-top:12px;align-items:stretch');
+                const iconBtnCss = 'flex:none;width:44px;border:0;border-radius:10px;color:#fff;cursor:pointer;display:inline-flex;align-items:center;justify-content:center';
+                // primary: native share (mobile) / copy (desktop)
+                const sb = el('button', 'flex:1;min-width:0;padding:12px;border:0;border-radius:10px;background:#1f2330;color:#fff;font-weight:700;font-size:15px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:7px');
                 sb.innerHTML = `<span style="display:inline-flex">${ICON.share}</span>${pk(T.share)}`;
                 sb.addEventListener('click', () => {
                     const txt = shareText();
                     if (navigator.share) navigator.share({ text: txt }).catch(() => {});
                     else (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => { sb.innerHTML = pk(T.copied); }).catch(() => window.prompt('', txt));
                 });
-                box.appendChild(sb);
+                // X (Twitter): the intent URL prefills the full emoji-grid result
+                const xb = el('button', iconBtnCss + ';background:#000', ICON.x);
+                xb.title = 'X'; xb.setAttribute('aria-label', pk(T.share) + ' – X');
+                xb.addEventListener('click', () => popup('https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText())));
+                // Facebook can't prefill post text, so copy the result for pasting,
+                // then open the link sharer.
+                const fbb = el('button', iconBtnCss + ';background:#1877f2', ICON.fb);
+                fbb.title = 'Facebook'; fbb.setAttribute('aria-label', pk(T.share) + ' – Facebook');
+                fbb.addEventListener('click', () => { copyResult(); popup('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(SITE)); });
+                shareRow.appendChild(sb); shareRow.appendChild(xb); shareRow.appendChild(fbb);
+                box.appendChild(shareRow);
             }
             const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:13px;cursor:pointer', pk(T.close));
             cl.addEventListener('click', hide);
@@ -8450,6 +8568,12 @@
             const btn = document.getElementById('langle-open');
             if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', () => { restore(); show(); }); }
             updateBadge();
+            // Re-render in the new language (and rebuild the localized picker)
+            // when the user switches the UI language while the modal is open.
+            if (!window._langleUiWired) {
+                window._langleUiWired = true;
+                window.addEventListener('langmap:uichange', () => { if (modal && modal.style.display !== 'none') render(); });
+            }
         }
         function start() {
             let tries = 0;

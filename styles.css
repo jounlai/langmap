@@ -1,5 +1,15 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* Single accent colour for all interactive UI (links, buttons, focus,
+   selected states). Consolidated from several near-duplicate blues so the
+   interface reads as deliberately designed rather than assembled. */
+:root {
+    --accent: #2e6fb8;
+    --accent-dark: #245a96;
+    --accent-tint: #e9f1fa;
+    --accent-rgb: 46, 111, 184;   /* #2e6fb8, for rgba() tints */
+}
+
 
 body {
     /* IMPORTANT: do NOT add Tibetan fonts (Kailasa / Microsoft Himalaya /
@@ -94,7 +104,7 @@ body {
     transition: color 0.2s ease;
 }
 .header-nav-link:hover {
-    color: #4a6cf7; text-decoration: underline;
+    color: var(--accent); text-decoration: underline;
 }
 .header-nav .nav-sep {
     color: #ccc; margin: 0 2px;
@@ -108,7 +118,7 @@ body {
     background: rgba(255,255,255,0.62);
     -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
 }
-.site-header-bar .header-url:hover { color: #0366d6; text-decoration: underline; background: rgba(255,255,255,0.8); }
+.site-header-bar .header-url:hover { color: var(--accent-dark); text-decoration: underline; background: rgba(255,255,255,0.8); }
 /* Header UI-lang select (Pass 34/36: unified position + fixed-width
    right-aligned style across index/wordmap/tree pages).
    max-width caps the select so long native names like "Bahasa Indonesia"
@@ -147,7 +157,7 @@ body {
 }
 .hamburger-btn { display: none; }
 .hdr-menu-toggle:focus-visible + .hamburger-btn {
-    outline: 2px solid #4a6cf7; outline-offset: 2px;
+    outline: 2px solid var(--accent); outline-offset: 2px;
 }
 .header-collapse { display: contents; }
 @media (max-width: 720px) {
@@ -175,7 +185,7 @@ body {
     .hamburger-btn:active { background: #e5e7eb; }
     /* Active-state visual when checkbox is checked: invert colors so users
        see the menu is open even when the dropdown isn't visually obvious. */
-    .hdr-menu-toggle:checked + .hamburger-btn { background: #1a73e8; color: #fff; border-color: #1a73e8; }
+    .hdr-menu-toggle:checked + .hamburger-btn { background: var(--accent); color: #fff; border-color: var(--accent); }
     .header-collapse {
         /* Use opacity + visibility instead of display so we can transition. */
         display: flex;
@@ -320,7 +330,7 @@ body {
 .btn-lang-select {
     padding: 6px 14px;
     border-radius: 6px;
-    background: #4a90d9;
+    background: var(--accent);
     border: none;
     font-size: 12px;
     font-weight: 600;
@@ -328,7 +338,7 @@ body {
     cursor: pointer;
     white-space: nowrap;
 }
-.btn-lang-select:hover { background: #3a7bc8; }
+.btn-lang-select:hover { background: var(--accent-dark); }
 
 .hint {
     font-weight: 400;
@@ -345,7 +355,7 @@ select {
     background: #fff;
     cursor: pointer;
 }
-select:focus { border-color: #4a90d9; outline: none; }
+select:focus { border-color: var(--accent); outline: none; }
 
 .btn {
     padding: 8px 16px;
@@ -360,8 +370,8 @@ select:focus { border-color: #4a90d9; outline: none; }
     white-space: nowrap;
 }
 .btn:hover { background: #d0d5dd; }
-.btn-accent { background: #4a90d9; color: #fff; }
-.btn-accent:hover { background: #3a7bc8; }
+.btn-accent { background: var(--accent); color: #fff; }
+.btn-accent:hover { background: var(--accent-dark); }
 .btn-sm { padding: 6px 12px; font-size: 12px; }
 .btn-group { display: flex; gap: 6px; }
 
@@ -534,8 +544,8 @@ select:focus { border-color: #4a90d9; outline: none; }
     border: 2px solid transparent;
 }
 .lang-toggle.active {
-    background: #e3f0ff;
-    border-color: #4a90d9;
+    background: var(--accent-tint);
+    border-color: var(--accent);
 }
 .lang-toggle input { display: none; }
 .lang-toggle .dot {
@@ -544,7 +554,7 @@ select:focus { border-color: #4a90d9; outline: none; }
     background: #ccc;
     transition: background 0.15s;
 }
-.lang-toggle.active .dot { background: #4a90d9; }
+.lang-toggle.active .dot { background: var(--accent); }
 .lang-toggle.experimental { }
 .lang-toggle.experimental.active { }
 
@@ -594,7 +604,7 @@ select:focus { border-color: #4a90d9; outline: none; }
     transition: transform 0.2s;
 }
 .rtl-switch input:checked + .rtl-switch-slider {
-    background: #4a90d9;
+    background: var(--accent);
 }
 .rtl-switch input:checked + .rtl-switch-slider::after {
     transform: translateX(16px);
@@ -807,9 +817,9 @@ select:focus { border-color: #4a90d9; outline: none; }
     opacity: 1;
 }
 .edit-btn:hover, .copy-btn:hover {
-    background: #e3f0ff;
-    border-color: #4a90d9;
-    color: #4a90d9;
+    background: var(--accent-tint);
+    border-color: var(--accent);
+    color: var(--accent-dark);
 }
 
 /* Editing overlay — covers entire page */
@@ -842,7 +852,7 @@ select:focus { border-color: #4a90d9; outline: none; }
     overflow-y: auto;
     max-height: 80vh;
     border-radius: 14px;
-    box-shadow: 0 8px 40px rgba(74, 144, 217, 0.22), 0 0 0 1px rgba(74, 144, 217, 0.12);
+    box-shadow: 0 8px 40px rgba(var(--accent-rgb), 0.22), 0 0 0 1px rgba(var(--accent-rgb), 0.12);
     width: 85vw;
     max-width: 1200px;
     box-sizing: border-box;
@@ -881,15 +891,15 @@ select:focus { border-color: #4a90d9; outline: none; }
     border: 1px solid transparent;
 }
 .segment-input-wrapper:hover {
-    background: rgba(74, 144, 217, 0.06);
-    border-color: rgba(74, 144, 217, 0.15);
+    background: rgba(var(--accent-rgb), 0.06);
+    border-color: rgba(var(--accent-rgb), 0.15);
 }
 .segment-input-wrapper.dragging { opacity: 0.4; }
 .segment-input-wrapper.drag-over-left {
-    box-shadow: -3px 0 0 0 #4a90d9;
+    box-shadow: -3px 0 0 0 var(--accent);
 }
 .segment-input-wrapper.drag-over-right {
-    box-shadow: 3px 0 0 0 #4a90d9;
+    box-shadow: 3px 0 0 0 var(--accent);
 }
 
 /* Segment ID badge */
@@ -914,7 +924,7 @@ select:focus { border-color: #4a90d9; outline: none; }
     transition: color 0.15s;
 }
 .segment-input-wrapper:hover .drag-handle {
-    color: #4a90d9;
+    color: var(--accent);
 }
 .drag-handle:active { cursor: grabbing; }
 
@@ -950,9 +960,9 @@ select:focus { border-color: #4a90d9; outline: none; }
     align-self: center;
 }
 .add-segment-btn:hover {
-    border-color: #4a90d9;
-    color: #4a90d9;
-    background: rgba(74, 144, 217, 0.05);
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(var(--accent-rgb), 0.05);
 }
 
 .add-segment-menu {
@@ -998,7 +1008,7 @@ select:focus { border-color: #4a90d9; outline: none; }
     text-align: center;
 }
 .segment-input:focus {
-    box-shadow: 0 0 0 3px rgba(74, 144, 217, 0.25);
+    box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.25);
     border-style: solid;
 }
 
@@ -1010,7 +1020,7 @@ select:focus { border-color: #4a90d9; outline: none; }
     width: 100%;
     margin-top: 16px;
     padding-top: 14px;
-    border-top: 1px solid rgba(74, 144, 217, 0.15);
+    border-top: 1px solid rgba(var(--accent-rgb), 0.15);
 }
 .save-bar .btn {
     padding: 10px 24px;
@@ -1034,7 +1044,7 @@ select:focus { border-color: #4a90d9; outline: none; }
 
 /* Active item in segment type menu */
 .add-segment-menu-item.active {
-    background: #e8f0fe;
+    background: var(--accent-tint);
     font-weight: 600;
 }
 
@@ -1046,9 +1056,9 @@ select:focus { border-color: #4a90d9; outline: none; }
     background: #fff;
 }
 .touch-placeholder {
-    border: 2px dashed #4a90d9;
+    border: 2px dashed var(--accent);
     border-radius: 8px;
-    background: rgba(74, 144, 217, 0.05);
+    background: rgba(var(--accent-rgb), 0.05);
     min-height: 40px;
 }
 
@@ -1142,7 +1152,7 @@ select:focus { border-color: #4a90d9; outline: none; }
 }
 .back-to-top:hover { background: #f3f4f6; }
 .back-to-top:active { transform: scale(0.94); }
-.back-to-top:focus-visible { outline: 2px solid #4a6cf7; outline-offset: 2px; }
+.back-to-top:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .back-to-top[hidden] { display: none; }
 
 /* Responsive */
@@ -1338,7 +1348,7 @@ select:focus { border-color: #4a90d9; outline: none; }
     margin-left: 8px;
 }
 .chrome-toggle-btn:hover { background: #f3f4f6; }
-.chrome-toggle-btn:focus-visible { outline: 2px solid #4a6cf7; outline-offset: 2px; }
+.chrome-toggle-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .chrome-toggle-btn:active { background: #e5e7eb; }
 body.chrome-hidden .chrome-toggle-btn {
     background: rgba(0,0,0,0.4);

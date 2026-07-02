@@ -4901,6 +4901,7 @@
             ariaClose:         { en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', yue:'關閉', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', de:'Schließen', fr:'Fermer', it:'Chiudi', es:'Cerrar', pt:'Fechar', ru:'Закрыть', uk:'Закрити', ar:'إغلاق', he:'סגור', sw:'Funga' },
             ariaToggleScript:  { en:'Toggle native script display', ja:'現地表記の表示切替', ko:'고유 문자 표시 전환', zh:'切换本地文字显示', yue:'切換本地文字顯示', vi:'Bật/tắt chữ viết bản địa', th:'สลับการแสดงอักษรพื้นเมือง', id:'Alih tampilan aksara asli', hi:'मूल लिपि प्रदर्शन बदलें', de:'Native Schrift umschalten', fr:'Basculer l\'écriture native', it:'Alterna scrittura nativa', es:'Alternar escritura nativa', pt:'Alternar escrita nativa', ru:'Переключить родное письмо', uk:'Перемкнути рідне письмо', ar:'تبديل عرض النص الأصلي', he:'החלף תצוגת כתב מקורי', sw:'Badilisha hati asilia' },
             ariaSettings:      { en:'Display settings', ja:'表示設定', ko:'표시 설정', zh:'显示设置', yue:'顯示設定', vi:'Cài đặt hiển thị', th:'การตั้งค่าการแสดงผล', id:'Pengaturan tampilan', hi:'प्रदर्शन सेटिंग्स', de:'Anzeigeeinstellungen', fr:'Paramètres d\'affichage', it:'Impostazioni di visualizzazione', es:'Ajustes de visualización', pt:'Configurações de exibição', ru:'Настройки отображения', uk:'Налаштування відображення', ar:'إعدادات العرض', he:'הגדרות תצוגה', sw:'Mipangilio ya onyesho' },
+            ariaArticleNav:    { en:'Article navigation', ja:'記事ナビゲーション', ko:'글 탐색', zh:'文章导航', yue:'文章導覽', vi:'Điều hướng bài viết', th:'การนำทางบทความ', id:'Navigasi artikel', hi:'लेख नेविगेशन', de:'Artikelnavigation', fr:'Navigation des articles', it:'Navigazione articoli', es:'Navegación de artículos', pt:'Navegação de artigos', ru:'Навигация по статьям', uk:'Навігація статтями', ar:'التنقل بين المقالات', he:'ניווט מאמרים', sw:'Usogezaji wa makala' },
             ariaFontInc:       { en:'Increase label font size', ja:'ラベル文字を大きく', ko:'라벨 글꼴 크게', zh:'增大标签字体', yue:'放大標籤字體', vi:'Tăng cỡ chữ nhãn', th:'เพิ่มขนาดอักษรป้าย', id:'Perbesar huruf label', hi:'लेबल फ़ॉन्ट बड़ा करें', de:'Schriftgröße vergrößern', fr:'Agrandir la police', it:'Aumenta carattere etichetta', es:'Aumentar fuente', pt:'Aumentar fonte', ru:'Увеличить шрифт', uk:'Збільшити шрифт', ar:'تكبير خط التسمية', he:'הגדל גופן תווית', sw:'Ongeza saizi ya fonti' },
             ariaFontDec:       { en:'Decrease label font size', ja:'ラベル文字を小さく', ko:'라벨 글꼴 작게', zh:'减小标签字体', yue:'縮小標籤字體', vi:'Giảm cỡ chữ nhãn', th:'ลดขนาดอักษรป้าย', id:'Perkecil huruf label', hi:'लेबल फ़ॉन्ट छोटा करें', de:'Schriftgröße verkleinern', fr:'Réduire la police', it:'Riduci carattere etichetta', es:'Reducir fuente', pt:'Diminuir fonte', ru:'Уменьшить шрифт', uk:'Зменшити шрифт', ar:'تصغير خط التسمية', he:'הקטן גופן תווית', sw:'Punguza saizi ya fonti' },
             ariaMenu:          { en:'Menu', ja:'メニュー', ko:'메뉴', zh:'菜单', yue:'選單', vi:'Menu', th:'เมนู', id:'Menu', hi:'मेन्यू', de:'Menü', fr:'Menu', it:'Menu', es:'Menú', pt:'Menu', ru:'Меню', uk:'Меню', ar:'القائمة', he:'תפריט', sw:'Menyu' },
@@ -5204,11 +5205,21 @@
                 ['size-up',         'ariaFontInc',     'aria-label'],
                 ['size-down',       'ariaFontDec',     'aria-label'],
                 ['hdr-menu-toggle', 'ariaMenu',        'aria-label'],
+                ['tiles-revert',    'tilesRevert',     'title'],
+                ['tiles-revert',    'tilesRevert',     'aria-label'],
+                ['trivia-back',     'triviaBack',      'aria-label'],
+                ['trivia-article-nav', 'ariaArticleNav', 'aria-label'],
+                ['trivia-compare-close', 'ariaClose',  'aria-label'],
             ];
             for (const [id, key, attr] of ariaTargets) {
                 const el = document.getElementById(id);
                 if (el) el.setAttribute(attr, i18n(key));
             }
+            // Class-only header controls the id loop can't reach (the visible
+            // hamburger/settings labels; the hidden checkboxes are handled above).
+            const setAttrSel = (sel, attr, key) => { const e = document.querySelector(sel); if (e) e.setAttribute(attr, i18n(key)); };
+            setAttrSel('.hamburger-btn', 'aria-label', 'ariaMenu');
+            setAttrSel('.settings-fab', 'aria-label', 'ariaSettings');
             // Append per-era language counts in parens: "現代言語 (478)" / "歴史言語 (79)"
             let modernCount = 0, historicalCount = 0;
             if (typeof HIST_CODE_SET !== 'undefined' && typeof LANG_DATA !== 'undefined') {

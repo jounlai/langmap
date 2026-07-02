@@ -8547,12 +8547,15 @@
                 }
                 const anyLeft = codes => codes.some(c => !guessed.has(c));
                 const leftCount = codes => codes.filter(c => !guessed.has(c)).length;
-                function setContinents() {
-                    const conts = Object.keys(tr).filter(cc => Object.values(tr[cc]).some(anyLeft));
+                // `keep` = the remembered selection, always kept in the list even if
+                // its languages are now all guessed, so the dropdown holds its place
+                // after a guess (per user request) rather than snapping to placeholder.
+                function setContinents(keep) {
+                    const conts = Object.keys(tr).filter(cc => cc === keep || Object.values(tr[cc]).some(anyLeft));
                     fillSel(cSel, pk(T.selCont), byName(conts, contName), c => c, contName, false);
                 }
-                function setCountries(cc) {
-                    const isos = (cc && tr[cc]) ? Object.keys(tr[cc]).filter(iso => anyLeft(tr[cc][iso])) : [];
+                function setCountries(cc, keep) {
+                    const isos = (cc && tr[cc]) ? Object.keys(tr[cc]).filter(iso => iso === keep || anyLeft(tr[cc][iso])) : [];
                     // show a count when a country still offers more than one language
                     fillSel(tSel, pk(T.selCountry), byName(isos, rname), i => i,
                         iso => { const n = leftCount(tr[cc][iso]); return rname(iso) + (n > 1 ? ` (${n})` : ''); }, !isos.length);
@@ -8562,14 +8565,15 @@
                     fillSel(lSel, pk(T.selLang), codes, c => c, nameOf, !codes.length);
                     if (codes.length === 1) lSel.value = codes[0];   // single language → pre-select it
                 }
-                setContinents();
-                // Restore the remembered drill-down so the picker keeps its place
-                // after a guess; skip any part that's no longer available.
-                if (pickCont && tr[pickCont] && Object.values(tr[pickCont]).some(anyLeft)) {
-                    cSel.value = pickCont; setCountries(pickCont);
-                    if (pickIso && tr[pickCont][pickIso] && anyLeft(tr[pickCont][pickIso])) { tSel.value = pickIso; setLangs(pickCont, pickIso); }
+                // Restore the remembered drill-down so continent AND country keep
+                // their place after a guess (even a country whose languages are now
+                // all used up stays selected until the player moves on).
+                if (pickCont && tr[pickCont]) {
+                    setContinents(pickCont);
+                    cSel.value = pickCont; setCountries(pickCont, pickIso);
+                    if (pickIso && tr[pickCont][pickIso]) { tSel.value = pickIso; setLangs(pickCont, pickIso); }
                     else { pickIso = ''; setLangs(pickCont, null); }
-                } else { pickCont = ''; pickIso = ''; setCountries(null); setLangs(null, null); }
+                } else { pickCont = ''; pickIso = ''; setContinents(); setCountries(null); setLangs(null, null); }
                 cSel.addEventListener('change', () => { pickCont = cSel.value; pickIso = ''; setCountries(pickCont); setLangs(pickCont, null); });
                 tSel.addEventListener('change', () => { pickIso = tSel.value; setLangs(pickCont, pickIso); });
                 function doGuess() {
@@ -8693,10 +8697,14 @@
             none: {en:'Not enough word data to build a quiz right now.', ja:'クイズを作るための単語データが足りません。', ko:'퀴즈를 만들 단어 데이터가 부족합니다.', zh:'目前的单词数据不足以生成测验。', yue:'而家嘅詞語數據唔夠出題。', vi:'Chưa đủ dữ liệu từ để tạo câu đố.', th:'ข้อมูลคำยังไม่พอสร้างแบบทดสอบ', id:'Data kata belum cukup untuk membuat kuis.', hi:'अभी क्विज़ बनाने के लिए पर्याप्त शब्द-डेटा नहीं है।', de:'Nicht genug Wortdaten für ein Quiz.', fr:'Pas assez de données de mots pour un quiz.', it:'Dati di parole insufficienti per un quiz.', es:'No hay datos de palabras suficientes para un cuestionario.', pt:'Dados de palavras insuficientes para um quiz.', ru:'Недостаточно данных для викторины.', uk:'Недостатньо даних для вікторини.', ar:'لا توجد بيانات كلمات كافية لإنشاء اختبار.', he:'אין מספיק נתוני מילים לחידון.', sw:'Data ya maneno haitoshi kutengeneza jaribio.'}
         };
         // ---- data access ----
-        const LD = () => window.LANG_DATA || {};
-        const NM = () => window.LANG_NAMES || {};
-        const WD = () => window.WORDS || {};
-        const ORD = () => window.WORD_ORDER || (typeof WORD_ORDER !== 'undefined' ? WORD_ORDER : []);
+        // LANG_DATA / LANG_NAMES / WORD_ORDER are top-level `const`s (bare globals,
+        // NOT on window), so read them bare-first like the Langle IIFE does —
+        // otherwise the init gate (which needs LANG_DATA) never passes and the
+        // game never wires up. WORDS is exposed on window.
+        const LD = () => (typeof LANG_DATA !== 'undefined' && LANG_DATA) ? LANG_DATA : (window.LANG_DATA || {});
+        const NM = () => (typeof LANG_NAMES !== 'undefined' && LANG_NAMES) ? LANG_NAMES : (window.LANG_NAMES || {});
+        const WD = () => window.WORDS || (typeof WORDS !== 'undefined' ? WORDS : {});
+        const ORD = () => (typeof WORD_ORDER !== 'undefined' && WORD_ORDER) ? WORD_ORDER : (window.WORD_ORDER || []);
         function nameOf(code) { const n = NM(); const d = n[ui()] || n[ui().split('_')[0]] || n[FB] || {}; return d[code] || (LD()[code] && LD()[code].name) || code; }
         function spk(m) { const sc = m.speakerCount; if (sc && typeof sc.l1 === 'number') return sc.l1; if (sc && typeof sc.total === 'number') return sc.total; const s = m.speakers; if (typeof s !== 'string') return 0; const x = s.match(/(\d+(?:[.,]\d+)?)\s*([KMB])/i); if (!x) return 0; const n = parseFloat(x[1].replace(',', '.')), u = x[2].toUpperCase(); return u === 'K' ? n * 1e3 : u === 'M' ? n * 1e6 : n * 1e9; }
         const ALLOW = new Set(['yue','nan','hak','wuu','hsn','gan','ceb','fil','hmn','yor','ibo','zul','xho','amh','som','tgl','jam','sun','jav','min','bug','ace','bho','mai','glg','ltz']);

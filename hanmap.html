@@ -11780,7 +11780,7 @@
         function el(tag, css, html) { const e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
         function build() {
             modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px;font-family:inherit');
-            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;height:min(88vh,580px);overflow:auto;padding:22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column');
+            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;max-height:92vh;overflow:auto;padding:20px 22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column');
             box.id = 'lm-hquiz-box';
             modal.appendChild(box);
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
@@ -11809,7 +11809,7 @@
                 mid.appendChild(el('div', 'text-align:center;color:#556;font-size:15px;margin-bottom:14px;line-height:1.5', prompt));
                 q.options.forEach((o, i) => {
                     const txt = q.fmt === 1 ? o.label : nameOf(o.code);
-                    let css = 'width:100%;text-align:center;padding:11px 12px;margin-bottom:8px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:17px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
+                    let css = 'width:100%;text-align:center;padding:9px 12px;margin-bottom:6px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:17px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
                     if (answered) {
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
@@ -11820,7 +11820,7 @@
                     // A top spacer matching the (always-reserved) sub-label balances
                     // it so the main text sits vertically centred; the sub-label is
                     // hidden until answered without shifting anything.
-                    b.innerHTML = `<div style="height:16px" aria-hidden="true"></div><div>${txt}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
+                    b.innerHTML = `<div>${txt}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:2px;line-height:1.2;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     mid.appendChild(b);
                 });

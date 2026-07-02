@@ -1487,7 +1487,9 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
    in the DOM (hidden) so their existing wiring/labels are reused. */
 .game-btn { display: none !important; }
 .play-menu-wrap { position: relative; display: inline-flex; }
-.play-menu-wrap .play-caret { font-size: 10px; margin-left: 1px; opacity: .7; }
+.play-menu-wrap .play-caret { display: inline-flex; align-items: center; margin-left: 3px; opacity: .6; }
+.play-menu-wrap .play-caret svg { width: 12px; height: 12px; transition: transform .15s ease; }
+#play-menu-btn[aria-expanded="true"] .play-caret svg { transform: rotate(180deg); }
 #play-menu {
     display: none;
     position: absolute; top: 100%; left: 0; margin-top: 4px;

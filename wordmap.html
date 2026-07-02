@@ -2073,6 +2073,11 @@
                 <span aria-hidden="true">🎮</span>
                 <span class="trivia-btn-label" id="langle-btn-label">Langle</span>
             </button>
+            <button type="button" class="trivia-btn" id="quiz-open"
+                    aria-haspopup="dialog" title="Which word? quiz">
+                <span aria-hidden="true">🧩</span>
+                <span class="trivia-btn-label" id="quiz-btn-label">Which word?</span>
+            </button>
             <button type="button" class="trivia-btn" id="share-open"
                     aria-haspopup="dialog" title="Share this view">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>
@@ -3119,6 +3124,12 @@
                 ar: 'طرائف لغوية', he: 'טריוויה לשונית',
                 sw: 'Mambo ya Kiisimu',
             },
+            ariaLangle: { en:'Daily language-guessing game', ja:'毎日の言語あてゲーム', ko:'매일의 언어 맞히기 게임', zh:'每日猜语言游戏', yue:'每日猜語言遊戲', vi:'Trò đoán ngôn ngữ mỗi ngày', th:'เกมทายภาษาประจำวัน', id:'Permainan tebak bahasa harian', hi:'रोज़ का भाषा-अनुमान खेल', de:'Tägliches Sprachratespiel', fr:'Jeu quotidien de devinette de langues', it:'Gioco quotidiano indovina-lingua', es:'Juego diario de adivinar idiomas', pt:'Jogo diário de adivinhar idiomas', ru:'Ежедневная игра «угадай язык»', uk:'Щоденна гра «вгадай мову»', ar:'لعبة يومية لتخمين اللغة', he:'משחק יומי לניחוש שפות', sw:'Mchezo wa kila siku wa kukisia lugha' },
+            ariaShareView: { en:'Share this view', ja:'この表示を共有', ko:'이 화면 공유', zh:'分享此视图', yue:'分享呢個檢視', vi:'Chia sẻ chế độ xem này', th:'แชร์มุมมองนี้', id:'Bagikan tampilan ini', hi:'यह दृश्य साझा करें', de:'Diese Ansicht teilen', fr:'Partager cette vue', it:'Condividi questa vista', es:'Compartir esta vista', pt:'Partilhar esta vista', ru:'Поделиться этим видом', uk:'Поділитися цим виглядом', ar:'مشاركة هذا العرض', he:'שיתוף תצוגה זו', sw:'Shiriki mwonekano huu' },
+            ariaMenu: { en:'Menu', ja:'メニュー', ko:'메뉴', zh:'菜单', yue:'選單', vi:'Menu', th:'เมนู', id:'Menu', hi:'मेन्यू', de:'Menü', fr:'Menu', it:'Menu', es:'Menú', pt:'Menu', ru:'Меню', uk:'Меню', ar:'القائمة', he:'תפריט', sw:'Menyu' },
+            ariaSettings: { en:'Display settings', ja:'表示設定', ko:'표시 설정', zh:'显示设置', yue:'顯示設定', vi:'Cài đặt hiển thị', th:'การตั้งค่าการแสดงผล', id:'Pengaturan tampilan', hi:'प्रदर्शन सेटिंग', de:'Anzeigeeinstellungen', fr:"Paramètres d'affichage", it:'Impostazioni di visualizzazione', es:'Ajustes de visualización', pt:'Configurações de exibição', ru:'Настройки отображения', uk:'Налаштування відображення', ar:'إعدادات العرض', he:'הגדרות תצוגה', sw:'Mipangilio ya onyesho' },
+            ariaCompareOpen: { en:'Open language comparison', ja:'言語比較を開く', ko:'언어 비교 열기', zh:'打开语言对比', yue:'開啟語言比較', vi:'Mở so sánh ngôn ngữ', th:'เปิดการเปรียบเทียบภาษา', id:'Buka perbandingan bahasa', hi:'भाषा तुलना खोलें', de:'Sprachvergleich öffnen', fr:'Ouvrir la comparaison des langues', it:'Apri confronto lingue', es:'Abrir comparación de idiomas', pt:'Abrir comparação de idiomas', ru:'Открыть сравнение языков', uk:'Відкрити порівняння мов', ar:'فتح مقارنة اللغات', he:'פתיחת השוואת שפות', sw:'Fungua ulinganishaji wa lugha' },
+            ariaCompareClose: { en:'Close comparison', ja:'比較を閉じる', ko:'비교 닫기', zh:'关闭对比', yue:'關閉比較', vi:'Đóng so sánh', th:'ปิดการเปรียบเทียบ', id:'Tutup perbandingan', hi:'तुलना बंद करें', de:'Vergleich schließen', fr:'Fermer la comparaison', it:'Chiudi confronto', es:'Cerrar comparación', pt:'Fechar comparação', ru:'Закрыть сравнение', uk:'Закрити порівняння', ar:'إغلاق المقارنة', he:'סגירת השוואה', sw:'Funga ulinganishaji' },
             triviaButtonShort: {
                 // Compact label for the mobile header bar where horizontal
                 // room is tight — drops the qualifier ("Linguistic" / "언어학"
@@ -3332,6 +3343,18 @@
                 const el = document.getElementById(id);
                 if (el) el.setAttribute(attr, i18n(key));
             }
+            // Header title/aria-label attributes that are otherwise only set in the
+            // static HTML (never re-localized). Some targets are class-only, so use
+            // selectors as well as ids.
+            const setAttr = (sel, attr, key) => { const e = document.querySelector(sel); if (e) e.setAttribute(attr, i18n(key)); };
+            setAttr('#langle-open', 'title', 'ariaLangle');
+            setAttr('#share-open', 'title', 'ariaShareView');
+            setAttr('#trivia-compare-close', 'aria-label', 'ariaCompareClose');
+            setAttr('.hdr-menu-toggle', 'aria-label', 'ariaMenu');
+            setAttr('.hamburger-btn', 'aria-label', 'ariaMenu');
+            setAttr('.settings-toggle', 'aria-label', 'ariaSettings');
+            setAttr('.settings-fab', 'aria-label', 'ariaSettings');
+            setAttr('.compare-fab', 'aria-label', 'ariaCompareOpen');
             // Append per-era language counts in parens: "現代言語 (478)" / "歴史言語 (79)"
             let modernCount = 0, historicalCount = 0;
             if (typeof HIST_CODE_SET !== 'undefined' && typeof LANG_DATA !== 'undefined') {
@@ -8251,7 +8274,12 @@
             mystery: {en:'Mystery language', ja:'ミステリー言語', ko:'미스터리 언어', zh:'神秘语言', es:'Idioma misterioso', fr:'Langue mystère', de:'Mystery-Sprache', pt:'Língua misteriosa', ru:'Таинственный язык', it:'Lingua misteriosa', yue:'神秘語言', vi:'Ngôn ngữ bí ẩn', th:'ภาษาปริศนา', id:'Bahasa misterius', hi:'रहस्यमयी भाषा', uk:'Таємнича мова', ar:'لغة غامضة', he:'שפה מסתורית', sw:'Lugha ya fumbo'},
             selCont:  {en:'Continent', ja:'大陸', ko:'대륙', zh:'大洲', es:'Continente', fr:'Continent', de:'Kontinent', pt:'Continente', ru:'Континент', it:'Continente', yue:'大洲', vi:'Châu lục', th:'ทวีป', id:'Benua', hi:'महाद्वीप', uk:'Континент', ar:'القارة', he:'יבשת', sw:'Bara'},
             selCountry:{en:'Country', ja:'国', ko:'국가', zh:'国家', es:'País', fr:'Pays', de:'Land', pt:'País', ru:'Страна', it:'Paese', yue:'國家', vi:'Quốc gia', th:'ประเทศ', id:'Negara', hi:'देश', uk:'Країна', ar:'الدولة', he:'מדינה', sw:'Nchi'},
-            selLang:  {en:'Language', ja:'言語', ko:'언어', zh:'语言', es:'Idioma', fr:'Langue', de:'Sprache', pt:'Língua', ru:'Язык', it:'Lingua', yue:'語言', vi:'Ngôn ngữ', th:'ภาษา', id:'Bahasa', hi:'भाषा', uk:'Мова', ar:'اللغة', he:'שפה', sw:'Lugha'}
+            selLang:  {en:'Language', ja:'言語', ko:'언어', zh:'语言', es:'Idioma', fr:'Langue', de:'Sprache', pt:'Língua', ru:'Язык', it:'Lingua', yue:'語言', vi:'Ngôn ngữ', th:'ภาษา', id:'Bahasa', hi:'भाषा', uk:'Мова', ar:'اللغة', he:'שפה', sw:'Lugha'},
+            reset:   {en:'Play again', ja:'もう一度', ko:'다시 하기', zh:'再玩一次', es:'Jugar otra vez', fr:'Rejouer', de:'Nochmal spielen', pt:'Jogar de novo', ru:'Ещё раз', it:'Rigioca', yue:'再玩一次', vi:'Chơi lại', th:'เล่นอีกครั้ง', id:'Main lagi', hi:'फिर से खेलें', uk:'Ще раз', ar:'العب مجددًا', he:'שחקו שוב', sw:'Cheza tena'},
+            shWon:   {en:"I spotted today's mystery language just from how it says a few everyday words.", ja:'今日のミステリー言語を、日常語の言い方だけで見抜きました。', ko:'오늘의 미스터리 언어를 일상 단어의 발음만으로 알아냈어요.', zh:'仅凭几个日常词的说法，就认出了今天的神秘语言。', es:'Adiviné el idioma misterioso de hoy solo por cómo dice unas palabras cotidianas.', fr:"J'ai reconnu la langue mystère du jour rien qu'à sa façon de dire quelques mots courants.", de:'Ich habe die heutige Mystery-Sprache allein daran erkannt, wie sie ein paar Alltagswörter ausspricht.', pt:'Descobri a língua misteriosa de hoje só pela forma como diz algumas palavras do dia a dia.', ru:'Угадал сегодняшний таинственный язык лишь по тому, как он произносит несколько обычных слов.', it:'Ho riconosciuto la lingua misteriosa di oggi solo da come pronuncia qualche parola di uso quotidiano.', yue:'淨係聽幾個日常詞點講，就認出咗今日嘅神秘語言。', vi:'Mình đoán ra ngôn ngữ bí ẩn hôm nay chỉ từ cách nó nói vài từ thường ngày.', th:'ทายภาษาปริศนาของวันนี้ได้แค่จากวิธีพูดคำในชีวิตประจำวันไม่กี่คำ', id:'Aku menebak bahasa misterius hari ini hanya dari cara mengucapkan beberapa kata sehari-hari.', hi:'आज की रहस्यमयी भाषा को बस कुछ रोज़मर्रा के शब्दों के उच्चारण से पहचान लिया।', uk:'Вгадав сьогоднішню таємничу мову лише з того, як вона вимовляє кілька повсякденних слів.', ar:'عرفت لغة اليوم الغامضة فقط من طريقة نطقها لبضع كلمات يومية.', he:'זיהיתי את שפת היום המסתורית רק לפי האופן שבו היא אומרת כמה מילים יומיומיות.', sw:'Nilitambua lugha ya leo ya fumbo kwa jinsi inavyotamka maneno machache ya kila siku.'},
+            shLost:  {en:"Today's mystery language got the better of me — can you crack it?", ja:'今日のミステリー言語には敵わず…あなたは解ける？', ko:'오늘의 미스터리 언어는 못 맞혔어요… 당신은 풀 수 있나요?', zh:'今天的神秘语言难倒了我——你能猜出来吗？', es:'El idioma misterioso de hoy me venció… ¿tú puedes descifrarlo?', fr:"La langue mystère du jour m'a eu… sauras-tu la trouver ?", de:'Die heutige Mystery-Sprache hat mich geschlagen – knackst du sie?', pt:'A língua misteriosa de hoje me venceu… você consegue descobrir?', ru:'Сегодняшний таинственный язык оказался мне не по зубам — а ты угадаешь?', it:'La lingua misteriosa di oggi mi ha battuto… tu riesci a indovinarla?', yue:'今日嘅神秘語言我估唔到…你估唔估到？', vi:'Ngôn ngữ bí ẩn hôm nay làm khó mình — bạn giải được không?', th:'ภาษาปริศนาของวันนี้เอาชนะฉันได้ — คุณจะไขได้ไหม?', id:'Bahasa misterius hari ini mengalahkanku — bisakah kamu memecahkannya?', hi:'आज की रहस्यमयी भाषा मुझ पर भारी पड़ी — क्या आप इसे पहचान सकते हैं?', uk:'Сьогоднішня таємнича мова виявилася мені не до снаги — а ти вгадаєш?', ar:'لغة اليوم الغامضة تغلبت عليّ… هل يمكنك حلّها؟', he:'שפת היום המסתורית ניצחה אותי… תצליחו לפצח אותה?', sw:'Lugha ya leo ya fumbo ilinishinda — je, unaweza kuitatua?'},
+            shHook:  {en:'Can you name a language just from its words?', ja:'あなたも、言葉だけで言語を当てられる？', ko:'당신도 단어만으로 언어를 맞힐 수 있나요?', zh:'你能只凭词语就说出是哪种语言吗？', es:'¿Puedes adivinar un idioma solo por sus palabras?', fr:"Sauras-tu reconnaître une langue rien qu'à ses mots ?", de:'Erkennst du eine Sprache allein an ihren Wörtern?', pt:'Você consegue adivinhar uma língua só pelas palavras?', ru:'А ты угадаешь язык только по его словам?', it:'Riesci a indovinare una lingua solo dalle sue parole?', yue:'你淨係睇啲字，估唔估到係邊種語言？', vi:'Bạn có thể đoán một ngôn ngữ chỉ từ các từ của nó không?', th:'คุณเดาภาษาได้ไหมแค่จากคำของมัน?', id:'Bisakah kamu menebak bahasa hanya dari kata-katanya?', hi:'क्या आप सिर्फ़ शब्दों से भाषा पहचान सकते हैं?', uk:'А ти вгадаєш мову лише за її словами?', ar:'هل تستطيع تخمين لغة من كلماتها فقط؟', he:'תוכלו לנחש שפה רק לפי המילים שלה?', sw:'Je, unaweza kutambua lugha kwa maneno yake tu?'},
+            legend:  {en:'Each guess shows how far its homeland is from the mystery language and the direction toward it; ✓ means they share a language family.', ja:'各予想＝その言語の故地から正解までの「距離」と「方向（矢印）」。✓は語族が同じ。', ko:'각 추측 = 그 언어의 본거지에서 정답까지의 「거리」와 「방향(화살표)」. ✓는 어족이 같음.', zh:'每次猜测显示该语言的发源地到神秘语言的「距离」和「方向（箭头）」；✓表示同属一个语系。', es:'Cada intento muestra la distancia desde su tierra natal hasta la lengua misteriosa y la dirección hacia ella; ✓ significa que comparten familia lingüística.', fr:'Chaque essai indique la distance entre son foyer et la langue mystère et la direction vers elle ; ✓ = même famille linguistique.', de:'Jeder Tipp zeigt, wie weit seine Heimat von der Mystery-Sprache entfernt ist, und die Richtung dorthin; ✓ = gleiche Sprachfamilie.', pt:'Cada palpite mostra a distância da sua terra natal até a língua misteriosa e a direção até ela; ✓ = mesma família linguística.', ru:'Каждая догадка показывает расстояние от родины языка до загаданного и направление к нему; ✓ — одна языковая семья.', it:'Ogni tentativo mostra la distanza dalla sua terra d’origine alla lingua misteriosa e la direzione verso di essa; ✓ = stessa famiglia linguistica.', yue:'每次估都顯示嗰種語言嘅發源地去神秘語言嘅「距離」同「方向（箭嘴）」；✓即係同一語系。', vi:'Mỗi lượt đoán cho biết khoảng cách từ quê hương ngôn ngữ đó đến ngôn ngữ bí ẩn và hướng tới nó; ✓ nghĩa là cùng ngữ hệ.', th:'การเดาแต่ละครั้งแสดงระยะทางจากถิ่นกำเนิดของภาษานั้นถึงภาษาปริศนาและทิศทางไปหามัน; ✓ หมายถึงอยู่ตระกูลภาษาเดียวกัน', id:'Setiap tebakan menunjukkan jarak dari tanah asalnya ke bahasa misterius dan arah menujunya; ✓ berarti serumpun.', hi:'हर अनुमान दिखाता है कि उस भाषा का मूल स्थान रहस्यमयी भाषा से कितनी दूर है और उसकी दिशा; ✓ का अर्थ है एक ही भाषा-परिवार।', uk:'Кожна спроба показує відстань від батьківщини мови до загаданої та напрямок до неї; ✓ — одна мовна сім’я.', ar:'كل تخمين يُظهر بُعد موطن تلك اللغة عن اللغة الغامضة والاتجاه نحوها؛ ✓ تعني الانتماء إلى الفصيلة اللغوية نفسها.', he:'כל ניחוש מראה את המרחק ממולדת השפה אל שפת התעלומה ואת הכיוון אליה; ✓ פירושו אותה משפחת שפות.', sw:'Kila kisio huonyesha umbali kutoka nchi ya asili hadi lugha ya fumbo na mwelekeo kuelekea kwake; ✓ inamaanisha familia moja ya lugha.'}
         };
         // ---- data access ----
         const LD = () => (typeof LANG_DATA !== 'undefined') ? LANG_DATA : (window.LANG_DATA || {});
@@ -8371,7 +8399,8 @@
             share: `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>`,
             help: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>`,
             x: `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
-            fb: `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>`
+            fb: `<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>`,
+            replay: `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>`
         };
         const MAX = 6;
         // ---- state ----
@@ -8379,8 +8408,12 @@
         const load = () => { try { return JSON.parse(localStorage.getItem(SK) || '{}'); } catch (_) { return {}; } };
         const save = s => { try { localStorage.setItem(SK, JSON.stringify(s)); } catch (_) {} };
         let guesses = [], finished = false, won = false;
+        let pickCont = '', pickIso = '';   // remembered picker drill-down (survives re-render after a guess)
         function restore() { const s = load(); if (s.day === day()) { guesses = s.guesses || []; finished = !!s.finished; won = !!s.won; } else { guesses = []; finished = false; won = false; } }
         function persist() { const s = load(); s.day = day(); s.guesses = guesses; s.finished = finished; s.won = won; save(s); }
+        // Play today's puzzle again from scratch: clear this day's guesses/result
+        // (streak is left untouched — onFinish won't double-count the same day).
+        function resetGame() { guesses = []; finished = false; won = false; persist(); updateBadge(); render(); }
         function onFinish(didWin) {
             finished = true; won = didWin;
             const s = load();
@@ -8396,17 +8429,24 @@
         function curStreak() { const s = load(); return (s.streakDay === day() || s.streakDay === day() - 1) ? (s.streak || 0) : 0; }
         // ---- share text ----
         const PLAIN_ARROWS = ['↑', '↗', '→', '↘', '↓', '↙', '←', '↖'];
-        function barText(dist) { const n = Math.min(5, Math.round(proxPct(dist) / 20)); return '■'.repeat(n) + '□'.repeat(5 - n); }
+        const SHARE_URL = 'https://langmap.heuron.com/wordmap.html';
+        // Emoji proximity bar: closer guess → more filled blue squares.
+        function barText(dist) { const n = Math.min(5, Math.round(proxPct(dist) / 20)); return '🟦'.repeat(n) + '⬜'.repeat(5 - n); }
+        // The result body (no URL) — a self-explaining, inviting share rather than
+        // a cryptic emoji grid. URL is passed separately by each share channel.
         function shareText() {
             const t = target();
             const rows = guesses.map(g => {
-                if (g === t) return '■■■■■ ★';
+                if (g === t) return '🟩🟩🟩🟩🟩 🎯';
                 const f = feedback(g, t);
                 return barText(f.dist) + ' ' + PLAIN_ARROWS[Math.round(f.bearing / 45) % 8];
             });
-            const score = won ? guesses.length : 'X';
-            return `LangMap Langle #${day() - EPOCH}  ${score}/${MAX}\n` + rows.join('\n') + `\nlangmap.heuron.com`;
+            const score = won ? (guesses.length + '/' + MAX) : ('X/' + MAX);
+            const head = `🌍 LangMap Langle #${day() - EPOCH} — ${score}` + (won ? ' 🎯' : '');
+            const line = won ? pk(T.shWon) : pk(T.shLost);
+            return `${head}\n${line}\n\n${rows.join('\n')}\n\n${pk(T.shHook)}`;
         }
+        function shareFull() { return shareText() + '\n' + SHARE_URL; }
         // ---- UI ----
         let modal = null;
         function el(tag, css, html) { const e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
@@ -8463,6 +8503,7 @@
             const list = el('div', 'margin-bottom:10px');
             guesses.forEach(g => { const d = el('div'); d.innerHTML = rowHtml(g); list.appendChild(d.firstElementChild); });
             box.appendChild(list);
+            if (guesses.length) box.appendChild(el('div', 'font-size:11px;color:#9aa1ad;margin:-4px 0 12px;line-height:1.45', pk(T.legend)));
             if (!finished && guesses.length < MAX) {
                 // Continent ▸ Country ▸ Language cascading picker (localized).
                 const tr = tree();
@@ -8483,21 +8524,32 @@
                     items.forEach(it => { const o = el('option'); o.value = valFn(it); o.textContent = txtFn(it); s.appendChild(o); });
                 }
                 const anyLeft = codes => codes.some(c => !guessed.has(c));
+                const leftCount = codes => codes.filter(c => !guessed.has(c)).length;
                 function setContinents() {
                     const conts = Object.keys(tr).filter(cc => Object.values(tr[cc]).some(anyLeft));
                     fillSel(cSel, pk(T.selCont), byName(conts, contName), c => c, contName, false);
                 }
                 function setCountries(cc) {
                     const isos = (cc && tr[cc]) ? Object.keys(tr[cc]).filter(iso => anyLeft(tr[cc][iso])) : [];
-                    fillSel(tSel, pk(T.selCountry), byName(isos, rname), i => i, rname, !isos.length);
+                    // show a count when a country still offers more than one language
+                    fillSel(tSel, pk(T.selCountry), byName(isos, rname), i => i,
+                        iso => { const n = leftCount(tr[cc][iso]); return rname(iso) + (n > 1 ? ` (${n})` : ''); }, !isos.length);
                 }
                 function setLangs(cc, iso) {
                     const codes = (cc && iso && tr[cc] && tr[cc][iso]) ? byName(tr[cc][iso].filter(c => !guessed.has(c)), nameOf) : [];
                     fillSel(lSel, pk(T.selLang), codes, c => c, nameOf, !codes.length);
+                    if (codes.length === 1) lSel.value = codes[0];   // single language → pre-select it
                 }
-                setContinents(); setCountries(null); setLangs(null, null);
-                cSel.addEventListener('change', () => { setCountries(cSel.value); setLangs(null, null); });
-                tSel.addEventListener('change', () => { setLangs(cSel.value, tSel.value); });
+                setContinents();
+                // Restore the remembered drill-down so the picker keeps its place
+                // after a guess; skip any part that's no longer available.
+                if (pickCont && tr[pickCont] && Object.values(tr[pickCont]).some(anyLeft)) {
+                    cSel.value = pickCont; setCountries(pickCont);
+                    if (pickIso && tr[pickCont][pickIso] && anyLeft(tr[pickCont][pickIso])) { tSel.value = pickIso; setLangs(pickCont, pickIso); }
+                    else { pickIso = ''; setLangs(pickCont, null); }
+                } else { pickCont = ''; pickIso = ''; setCountries(null); setLangs(null, null); }
+                cSel.addEventListener('change', () => { pickCont = cSel.value; pickIso = ''; setCountries(pickCont); setLangs(pickCont, null); });
+                tSel.addEventListener('change', () => { pickIso = tSel.value; setLangs(pickCont, pickIso); });
                 function doGuess() {
                     const code = lSel.value; if (!code || guesses.includes(code)) return;
                     guesses.push(code);
@@ -8515,34 +8567,41 @@
                     <div style="margin-top:4px">${pk(T.answer)}: <b>${nameOf(t)}</b> <span style="color:#9aa">(${(LD()[t].meta || {}).family || ''})</span></div>
                     <div style="margin-top:6px;font-size:13px;color:#555">${pk(T.streak)}: <b style="color:#222">${curStreak()}</b></div>`;
                 box.appendChild(res);
-                const SITE = 'https://langmap.heuron.com';
-                const popup = (url) => { const w = window.open(url, '_blank', 'noopener,width=620,height=520'); if (!w) location.href = url; };
-                const copyResult = () => { try { if (navigator.clipboard) navigator.clipboard.writeText(shareText()); } catch (_) {} };
+                const popup = (url) => { window.open(url, '_blank', 'noopener,width=620,height=520'); };
+                const copyFull = () => { try { if (navigator.clipboard) navigator.clipboard.writeText(shareFull()); } catch (_) {} };
                 const shareRow = el('div', 'display:flex;gap:7px;margin-top:12px;align-items:stretch');
                 const iconBtnCss = 'flex:none;width:44px;border:0;border-radius:10px;color:#fff;cursor:pointer;display:inline-flex;align-items:center;justify-content:center';
-                // primary: native share (mobile) / copy (desktop)
+                // primary: native share sheet (mobile / supporting desktop) with a
+                // real URL so link previews show; otherwise copy the full text+link
+                // with clear feedback (the old silent copy looked like "nothing").
                 const sb = el('button', 'flex:1;min-width:0;padding:12px;border:0;border-radius:10px;background:#1f2330;color:#fff;font-weight:700;font-size:15px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:7px');
                 sb.innerHTML = `<span style="display:inline-flex">${ICON.share}</span>${pk(T.share)}`;
                 sb.addEventListener('click', () => {
-                    const txt = shareText();
-                    if (navigator.share) navigator.share({ text: txt }).catch(() => {});
-                    else (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => { sb.innerHTML = pk(T.copied); }).catch(() => window.prompt('', txt));
+                    if (navigator.share) { navigator.share({ title: 'LangMap Langle', text: shareText(), url: SHARE_URL }).catch(() => {}); return; }
+                    (navigator.clipboard ? navigator.clipboard.writeText(shareFull()) : Promise.reject())
+                        .then(() => { sb.innerHTML = `<span style="display:inline-flex">${ICON.check}</span>${pk(T.copied)}`; })
+                        .catch(() => window.prompt('', shareFull()));
                 });
-                // X (Twitter): the intent URL prefills the full emoji-grid result
+                // X: the intent prefills the full result + link
                 const xb = el('button', iconBtnCss + ';background:#000', ICON.x);
                 xb.title = 'X'; xb.setAttribute('aria-label', pk(T.share) + ' – X');
-                xb.addEventListener('click', () => popup('https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText())));
-                // Facebook can't prefill post text, so copy the result for pasting,
-                // then open the link sharer.
+                xb.addEventListener('click', () => popup('https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareFull())));
+                // Facebook can't prefill post text, so copy the full result for
+                // pasting, then open the link sharer.
                 const fbb = el('button', iconBtnCss + ';background:#1877f2', ICON.fb);
                 fbb.title = 'Facebook'; fbb.setAttribute('aria-label', pk(T.share) + ' – Facebook');
-                fbb.addEventListener('click', () => { copyResult(); popup('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(SITE)); });
+                fbb.addEventListener('click', () => { copyFull(); popup('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(SHARE_URL)); });
                 shareRow.appendChild(sb); shareRow.appendChild(xb); shareRow.appendChild(fbb);
                 box.appendChild(shareRow);
             }
-            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:13px;cursor:pointer', pk(T.close));
+            const foot = el('div', 'display:flex;align-items:center;justify-content:space-between;margin-top:10px');
+            const rst = el('button', 'border:0;background:none;color:#8a90a0;font-size:12px;cursor:pointer;padding:8px 4px;display:inline-flex;align-items:center;gap:5px');
+            rst.innerHTML = `<span style="display:inline-flex">${ICON.replay}</span>${pk(T.reset)}`;
+            rst.addEventListener('click', resetGame);
+            const cl = el('button', 'border:0;background:none;color:#999;font-size:13px;cursor:pointer;padding:8px 4px', pk(T.close));
             cl.addEventListener('click', hide);
-            box.appendChild(cl);
+            foot.appendChild(rst); foot.appendChild(cl);
+            box.appendChild(foot);
         }
         function playedToday() { const s = load(); return s.day === day() && s.finished; }
         function updateBadge() {
@@ -8585,6 +8644,182 @@
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
     })();
     </script>
+    <!-- ============================================================
+         "Which word?" — a second quiz. Identify a named language's word
+         for a concept among 5 candidates: 3 phonetically/genetically NEAR
+         languages, 1 FAR language in a different writing system, 1 correct.
+         10 questions per set. Reuses LANG_DATA / LANG_NAMES / WORDS /
+         WORD_ORDER; self-contained.
+         ============================================================ -->
+    <script>
+    (function () {
+        'use strict';
+        const FB = 'en';
+        const ui = () => { const g = (window.__langmap && window.__langmap.uiLang); return g || (typeof uiLang !== 'undefined' && uiLang) || FB; };
+        const pk = m => m[ui()] || m[ui().split('_')[0]] || m[FB];
+        const TOTAL = 10;
+        const Q = {
+            title: {en:'Which word?', ja:'どの単語？', ko:'어느 단어?', zh:'哪个词？', yue:'邊個詞？', vi:'Từ nào?', th:'คำไหน?', id:'Kata yang mana?', hi:'कौन-सा शब्द?', de:'Welches Wort?', fr:'Quel mot ?', it:'Quale parola?', es:'¿Qué palabra?', pt:'Que palavra?', ru:'Какое слово?', uk:'Яке слово?', ar:'أي كلمة؟', he:'איזו מילה?', sw:'Neno gani?'},
+            sub: {en:'Spot the word that belongs to the named language.', ja:'指定した言語の単語を見分けよう。', ko:'제시된 언어의 단어를 골라보세요.', zh:'找出属于指定语言的词。', yue:'搵出屬於指定語言嘅詞。', vi:'Chọn từ thuộc về ngôn ngữ được nêu.', th:'เลือกคำที่เป็นของภาษาที่ระบุ', id:'Temukan kata milik bahasa yang disebutkan.', hi:'बताई गई भाषा का शब्द पहचानें।', de:'Finde das Wort, das zur genannten Sprache gehört.', fr:'Trouve le mot qui appartient à la langue indiquée.', it:'Individua la parola della lingua indicata.', es:'Detecta la palabra que pertenece al idioma indicado.', pt:'Encontre a palavra que pertence à língua indicada.', ru:'Найдите слово, принадлежащее указанному языку.', uk:'Знайдіть слово, що належить указаній мові.', ar:'اعثر على الكلمة التي تخص اللغة المذكورة.', he:'זהו את המילה השייכת לשפה שצוינה.', sw:'Tambua neno la lugha iliyotajwa.'},
+            qtext: {en:'In {lang}, which of these is {word}?', ja:'{lang}で {word} はどれ？', ko:'{lang}에서 {word}은(는) 어느 것?', zh:'在{lang}中，{word} 是哪个？', yue:'喺{lang}，{word} 係邊個？', vi:'Trong tiếng {lang}, đâu là {word}?', th:'ในภาษา{lang} {word} คือคำไหน?', id:'Dalam bahasa {lang}, yang mana {word}?', hi:'{lang} में {word} कौन-सा है?', de:'Welches ist {word} auf {lang}?', fr:'En {lang}, lequel est {word} ?', it:'In {lang}, qual è {word}?', es:'En {lang}, ¿cuál es {word}?', pt:'Em {lang}, qual é {word}?', ru:'Как на языке {lang} будет {word}?', uk:'Як мовою {lang} буде {word}?', ar:'بِـ{lang}، أيٌّ منها {word}؟', he:'ב{lang}, איזו מהן {word}?', sw:'Katika {lang}, lipi ni {word}?'},
+            correct: {en:'Correct!', ja:'正解！', ko:'정답!', zh:'答对了！', yue:'啱！', vi:'Chính xác!', th:'ถูกต้อง!', id:'Benar!', hi:'सही!', de:'Richtig!', fr:'Correct !', it:'Esatto!', es:'¡Correcto!', pt:'Certo!', ru:'Верно!', uk:'Правильно!', ar:'صحيح!', he:'נכון!', sw:'Sahihi!'},
+            wrong: {en:'Not quite', ja:'惜しい！', ko:'아쉽네요', zh:'不对', yue:'唔啱', vi:'Chưa đúng', th:'ยังไม่ใช่', id:'Belum tepat', hi:'सही नहीं', de:'Leider nein', fr:'Raté', it:'Sbagliato', es:'Incorrecto', pt:'Errado', ru:'Мимо', uk:'Не те', ar:'خطأ', he:'לא בדיוק', sw:'Sio sahihi'},
+            next: {en:'Next', ja:'次へ', ko:'다음', zh:'下一题', yue:'下一題', vi:'Tiếp', th:'ถัดไป', id:'Berikutnya', hi:'अगला', de:'Weiter', fr:'Suivant', it:'Avanti', es:'Siguiente', pt:'Próxima', ru:'Далее', uk:'Далі', ar:'التالي', he:'הבא', sw:'Endelea'},
+            result: {en:'You scored {score}/{total}!', ja:'{score}/{total} 正解！', ko:'{score}/{total} 정답!', zh:'答对 {score}/{total}！', yue:'答啱 {score}/{total}！', vi:'Đúng {score}/{total}!', th:'ตอบถูก {score}/{total}!', id:'Benar {score}/{total}!', hi:'{score}/{total} सही!', de:'{score}/{total} richtig!', fr:'{score}/{total} bonnes réponses !', it:'{score}/{total} corrette!', es:'{score}/{total} correctas!', pt:'{score}/{total} certas!', ru:'{score} из {total}!', uk:'{score} із {total}!', ar:'{score}/{total} صحيحة!', he:'{score}/{total} נכונות!', sw:'{score}/{total} sahihi!'},
+            again: {en:'Play again', ja:'もう一度', ko:'다시 하기', zh:'再玩一次', es:'Jugar otra vez', fr:'Rejouer', de:'Nochmal spielen', pt:'Jogar de novo', ru:'Ещё раз', it:'Rigioca', yue:'再玩一次', vi:'Chơi lại', th:'เล่นอีกครั้ง', id:'Main lagi', hi:'फिर से खेलें', uk:'Ще раз', ar:'العب مجددًا', he:'שחקו שוב', sw:'Cheza tena'},
+            close: {en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', yue:'閂', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', de:'Schließen', fr:'Fermer', it:'Chiudi', es:'Cerrar', pt:'Fechar', ru:'Закрыть', uk:'Закрити', ar:'إغلاق', he:'סגירה', sw:'Funga'},
+            none: {en:'Not enough word data to build a quiz right now.', ja:'クイズを作るための単語データが足りません。', ko:'퀴즈를 만들 단어 데이터가 부족합니다.', zh:'目前的单词数据不足以生成测验。', yue:'而家嘅詞語數據唔夠出題。', vi:'Chưa đủ dữ liệu từ để tạo câu đố.', th:'ข้อมูลคำยังไม่พอสร้างแบบทดสอบ', id:'Data kata belum cukup untuk membuat kuis.', hi:'अभी क्विज़ बनाने के लिए पर्याप्त शब्द-डेटा नहीं है।', de:'Nicht genug Wortdaten für ein Quiz.', fr:'Pas assez de données de mots pour un quiz.', it:'Dati di parole insufficienti per un quiz.', es:'No hay datos de palabras suficientes para un cuestionario.', pt:'Dados de palavras insuficientes para um quiz.', ru:'Недостаточно данных для викторины.', uk:'Недостатньо даних для вікторини.', ar:'لا توجد بيانات كلمات كافية لإنشاء اختبار.', he:'אין מספיק נתוני מילים לחידון.', sw:'Data ya maneno haitoshi kutengeneza jaribio.'}
+        };
+        // ---- data access ----
+        const LD = () => window.LANG_DATA || {};
+        const NM = () => window.LANG_NAMES || {};
+        const WD = () => window.WORDS || {};
+        const ORD = () => window.WORD_ORDER || (typeof WORD_ORDER !== 'undefined' ? WORD_ORDER : []);
+        function nameOf(code) { const n = NM(); const d = n[ui()] || n[ui().split('_')[0]] || n[FB] || {}; return d[code] || (LD()[code] && LD()[code].name) || code; }
+        function spk(m) { const sc = m.speakerCount; if (sc && typeof sc.l1 === 'number') return sc.l1; if (sc && typeof sc.total === 'number') return sc.total; const s = m.speakers; if (typeof s !== 'string') return 0; const x = s.match(/(\d+(?:[.,]\d+)?)\s*([KMB])/i); if (!x) return 0; const n = parseFloat(x[1].replace(',', '.')), u = x[2].toUpperCase(); return u === 'K' ? n * 1e3 : u === 'M' ? n * 1e6 : n * 1e9; }
+        const ALLOW = new Set(['yue','nan','hak','wuu','hsn','gan','ceb','fil','hmn','yor','ibo','zul','xho','amh','som','tgl','jam','sun','jav','min','bug','ace','bho','mai','glg','ltz']);
+        let POOL = null;
+        function pool() {
+            if (POOL) return POOL;
+            const d = LD();
+            POOL = Object.keys(d).filter(k => {
+                const v = d[k], m = v.meta || {};
+                if (typeof v.lat !== 'number' || !m.family) return false;
+                if (m.codeType === 'regional-variant') return false;
+                if (/histor|ancient|extinct|†/i.test((m.dataStatus || '') + m.family)) return false;
+                if (!(k.length === 2 || ALLOW.has(k))) return false;
+                return spk(m) >= 1.5e6;
+            });
+            return POOL;
+        }
+        const famTop = code => { const m = (LD()[code] || {}).meta || {}; return (m.family || '').split(/[ (,/—-]/)[0].trim(); };
+        function hav(a, b, c, d) { const R = 6371, r = x => x * Math.PI / 180; const dLa = r(c - a), dLo = r(d - b); const u = Math.sin(dLa / 2) ** 2 + Math.cos(r(a)) * Math.cos(r(c)) * Math.sin(dLo / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(u)); }
+        function word(code, con) { const w = WD()[con]; if (!w || !w.data) return null; const cell = w.data[code]; if (!cell || !cell[0] || cell[0] === '—') return null; return cell[0]; }
+        const conLabel = con => { const w = WD()[con]; return (w && w.label && (w.label[ui()] || w.label[ui().split('_')[0]] || w.label.en)) || con; };
+        function scriptOf(s) { if (/[㐀-鿿]/.test(s)) return 'han'; if (/[぀-ヿ]/.test(s)) return 'kana'; if (/[가-힯]/.test(s)) return 'hang'; if (/[؀-ۿ]/.test(s)) return 'arab'; if (/[Ѐ-ӿ]/.test(s)) return 'cyrl'; if (/[ऀ-ॿ]/.test(s)) return 'deva'; if (/[฀-๿]/.test(s)) return 'thai'; if (/[֐-׿]/.test(s)) return 'hebr'; if (/[Ⴀ-ჿ]/.test(s)) return 'geor'; if (/[Ͱ-Ͽ]/.test(s)) return 'grek'; return 'latn'; }
+        function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[a[i], a[j]] = [a[j], a[i]]; } return a; }
+        // ---- question generation ----
+        function makeQ() {
+            const ord = ORD(); if (!ord.length) return null;
+            for (let tries = 0; tries < 300; tries++) {
+                const con = ord[Math.floor(Math.random() * ord.length)];
+                const cands = pool().filter(c => word(c, con));
+                if (cands.length < 8) continue;
+                const T = cands[Math.floor(Math.random() * cands.length)];
+                const cor = word(T, con), tFam = famTop(T), tScript = scriptOf(cor), la = LD()[T].lat, ln = LD()[T].lng;
+                const used = new Set([cor]);
+                const near = [];
+                const inFam = cands.filter(c => c !== T && famTop(c) === tFam && !used.has(word(c, con)))
+                    .sort((a, b) => hav(la, ln, LD()[a].lat, LD()[a].lng) - hav(la, ln, LD()[b].lat, LD()[b].lng));
+                for (const c of inFam) { const s = word(c, con); if (used.has(s)) continue; near.push({ code: c, surf: s }); used.add(s); if (near.length >= 3) break; }
+                if (near.length < 3) {
+                    const oth = cands.filter(c => c !== T && famTop(c) !== tFam && !used.has(word(c, con)))
+                        .sort((a, b) => hav(la, ln, LD()[a].lat, LD()[a].lng) - hav(la, ln, LD()[b].lat, LD()[b].lng));
+                    for (const c of oth) { const s = word(c, con); if (used.has(s)) continue; near.push({ code: c, surf: s }); used.add(s); if (near.length >= 3) break; }
+                }
+                let far = null;
+                const fc = cands.filter(c => c !== T && famTop(c) !== tFam && scriptOf(word(c, con)) !== tScript && !used.has(word(c, con)));
+                if (fc.length) { const c = fc[Math.floor(Math.random() * fc.length)]; far = { code: c, surf: word(c, con) }; }
+                else { const alt = cands.filter(c => c !== T && famTop(c) !== tFam && !used.has(word(c, con))); if (alt.length) { const c = alt[Math.floor(Math.random() * alt.length)]; far = { code: c, surf: word(c, con) }; } }
+                if (near.length < 3 || !far) continue;
+                const options = shuffle([{ code: T, surf: cor, correct: true }].concat(near.map(x => ({ code: x.code, surf: x.surf, correct: false })), [{ code: far.code, surf: far.surf, correct: false }]));
+                return { con, target: T, options };
+            }
+            return null;
+        }
+        // ---- state / flow ----
+        let modal = null, qs = [], idx = 0, score = 0, answered = false, chosen = -1;
+        function el(tag, css, html) { const e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
+        function build() {
+            modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px;font-family:inherit');
+            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;max-height:90vh;overflow:auto;padding:22px;box-shadow:0 10px 32px rgba(0,0,0,.2)');
+            box.id = 'lm-quiz-box';
+            modal.appendChild(box);
+            modal.addEventListener('click', e => { if (e.target === modal) hide(); });
+            document.body.appendChild(modal);
+        }
+        function hide() { if (modal) modal.style.display = 'none'; }
+        function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
+        function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); }
+        function render() {
+            const box = document.getElementById('lm-quiz-box'); if (!box) return;
+            box.innerHTML = '';
+            box.appendChild(el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:10px',
+                `<div style="font-weight:800;font-size:18px">${pk(Q.title)}</div><div style="color:#9aa;font-weight:600;font-size:13px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`));
+            if (!qs.length) {
+                box.appendChild(el('div', 'color:#667;font-size:14px;margin:10px 0', pk(Q.none)));
+            } else if (idx >= qs.length) {
+                renderResult(box); return;
+            } else {
+                const q = qs[idx];
+                const qhtml = pk(Q.qtext)
+                    .replace('{lang}', `<b style="color:#222">${nameOf(q.target)}</b>`)
+                    .replace('{word}', `<b style="color:#222">「${conLabel(q.con)}」</b>`);
+                box.appendChild(el('div', 'color:#556;font-size:15px;margin-bottom:14px;line-height:1.5', qhtml));
+                q.options.forEach((o, i) => {
+                    let css = 'width:100%;text-align:center;padding:13px 12px;margin-bottom:8px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:18px;cursor:pointer;color:#222';
+                    if (answered) {
+                        css = css.replace('cursor:pointer', 'cursor:default');
+                        if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
+                        else if (i === chosen) css += ';border-color:#e2a3af;background:#fdf1f3;color:#c0405a';
+                        else css += ';opacity:.5';
+                    }
+                    const b = el('button', css);
+                    // On answer, reveal each option's language underneath (educational).
+                    b.innerHTML = answered
+                        ? `${o.surf}<div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px">${nameOf(o.code)}</div>`
+                        : o.surf;
+                    if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
+                    box.appendChild(b);
+                });
+                if (answered) {
+                    const okNow = qs[idx].options[chosen] && qs[idx].options[chosen].correct;
+                    box.appendChild(el('div', `text-align:center;font-weight:800;font-size:15px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'}`, okNow ? pk(Q.correct) : pk(Q.wrong)));
+                    const nb = el('button', 'width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;font-size:15px;cursor:pointer');
+                    nb.textContent = (idx + 1 >= TOTAL) ? (pk(Q.result).replace('{score}', score).replace('{total}', TOTAL)) : pk(Q.next);
+                    nb.addEventListener('click', () => { idx++; answered = false; chosen = -1; render(); });
+                    box.appendChild(nb);
+                }
+            }
+            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:13px;cursor:pointer', pk(Q.close));
+            cl.addEventListener('click', hide);
+            box.appendChild(cl);
+        }
+        function renderResult(box) {
+            box.appendChild(el('div', 'text-align:center;font-size:40px;margin:6px 0', score >= TOTAL * 0.8 ? '🏆' : score >= TOTAL * 0.5 ? '🎉' : '🌍'));
+            box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:20px;margin-bottom:4px', pk(Q.result).replace('{score}', score).replace('{total}', TOTAL)));
+            const ab = el('button', 'width:100%;margin-top:14px;padding:12px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;font-size:15px;cursor:pointer', pk(Q.again));
+            ab.addEventListener('click', startSet);
+            box.appendChild(ab);
+            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:13px;cursor:pointer', pk(Q.close));
+            cl.addEventListener('click', hide);
+            box.appendChild(cl);
+        }
+        // ---- init ----
+        function localizeBtn() {
+            const lbl = document.getElementById('quiz-btn-label'); if (lbl) lbl.textContent = pk(Q.title);
+            const btn = document.getElementById('quiz-open'); if (btn) btn.title = pk(Q.title);
+        }
+        function init() {
+            const btn = document.getElementById('quiz-open');
+            if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', () => { show(); }); }
+            localizeBtn();
+            if (!window._quizUiWired) {
+                window._quizUiWired = true;
+                window.addEventListener('langmap:uichange', () => { localizeBtn(); if (modal && modal.style.display !== 'none') render(); });
+            }
+        }
+        function start() {
+            let tries = 0;
+            (function wait() {
+                if (LD() && Object.keys(LD()).length && ORD().length) { init(); }
+                else if (tries++ < 60) setTimeout(wait, 250);
+            })();
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
+    })();
+    </script>
+
     <script src="/pwa.js?v=1"></script>
 </body>
 </html>

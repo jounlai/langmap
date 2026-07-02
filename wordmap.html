@@ -5451,6 +5451,10 @@
             });
             return _metaLoadPromise;
         }
+        // Expose so self-contained modules (e.g. Langle) can ensure the
+        // family/speaker meta is present before filtering the language pool.
+        window.__langmap = window.__langmap || {};
+        window.__langmap.loadMeta = loadMeta;
 
         // Per Session 31 (Schema Revolution Phase 1): each status carries a
         // short pedagogical description shown inline next to the badge.
@@ -8328,7 +8332,10 @@
         const ALLOW = new Set(['yue','nan','hak','wuu','hsn','gan','ceb','fil','hmn','yor','ibo','zul','xho','amh','som','tgl','jam','sun','jav','min','bug','ace','bho','mai','glg','ltz']);
         let POOL = null;
         function pool() {
-            if (POOL) return POOL;
+            // Only cache a NON-empty pool: before the lazy meta file loads the
+            // filter yields [], and [] is truthy — caching it would strand the
+            // game with an empty pool forever.
+            if (POOL && POOL.length) return POOL;
             const d = LD();
             POOL = Object.keys(d).filter(k => {
                 const v = d[k], m = v.meta || {};
@@ -8676,16 +8683,26 @@
                 try { if (navigator.setAppBadge) navigator.setAppBadge(1); } catch (_) {}
             }
         }
+        // The language pool is filtered on family + speaker count, which live in
+        // the lazily-loaded wordmap_meta.js. Ensure it's present (loading it on
+        // demand — NOT eagerly on every page) before opening the game, else the
+        // pool is empty and the clue words don't render.
+        function openGame() {
+            const done = () => { POOL = null; restore(); show(); };
+            const lm = window.__langmap && window.__langmap.loadMeta;
+            if (window._wmMetaLoaded || !lm) { done(); return; }
+            lm().then(done).catch(done);
+        }
         function init() {
             const btn = document.getElementById('langle-open');
-            if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', () => { restore(); show(); }); }
+            if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', openGame); }
             updateBadge();
             // Shared links (?play=langle) open the game straight away, then strip the
             // param so closing/refreshing doesn't reopen it.
             try {
                 const sp = new URLSearchParams(location.search);
                 if (sp.get('play') === 'langle') {
-                    restore(); show();
+                    openGame();
                     sp.delete('play');
                     const q = sp.toString();
                     history.replaceState(null, '', location.pathname + (q ? '?' + q : '') + location.hash);
@@ -8701,9 +8718,6 @@
         function start() {
             let tries = 0;
             (function wait() {
-                // Also wait for WORDS to be populated — a ?play=langle deep-link
-                // opens the modal immediately in init(), and the clue words come
-                // from window.WORDS, which loads slightly after LANG_DATA/WORD_ORDER.
                 if (LD() && Object.keys(LD()).length && ORD().length && Object.keys(WD()).length) { init(); }
                 else if (tries++ < 60) setTimeout(wait, 250);
             })();
@@ -8751,7 +8765,10 @@
         const ALLOW = new Set(['yue','nan','hak','wuu','hsn','gan','ceb','fil','hmn','yor','ibo','zul','xho','amh','som','tgl','jam','sun','jav','min','bug','ace','bho','mai','glg','ltz']);
         let POOL = null;
         function pool() {
-            if (POOL) return POOL;
+            // Only cache a NON-empty pool: before the lazy meta file loads the
+            // filter yields [], and [] is truthy — caching it would strand the
+            // game with an empty pool forever.
+            if (POOL && POOL.length) return POOL;
             const d = LD();
             POOL = Object.keys(d).filter(k => {
                 const v = d[k], m = v.meta || {};
@@ -8876,9 +8893,17 @@
             const lbl = document.getElementById('quiz-btn-label'); if (lbl) lbl.textContent = pk(Q.title);
             const btn = document.getElementById('quiz-open'); if (btn) btn.title = pk(Q.title);
         }
+        // pool() filters on family/speaker meta from the lazily-loaded meta file;
+        // ensure it's present before opening so questions can be built.
+        function openQuiz() {
+            const done = () => { POOL = null; show(); };
+            const lm = window.__langmap && window.__langmap.loadMeta;
+            if (window._wmMetaLoaded || !lm) { done(); return; }
+            lm().then(done).catch(done);
+        }
         function init() {
             const btn = document.getElementById('quiz-open');
-            if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', () => { show(); }); }
+            if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', openQuiz); }
             localizeBtn();
             if (!window._quizUiWired) {
                 window._quizUiWired = true;

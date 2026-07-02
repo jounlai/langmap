@@ -11729,7 +11729,8 @@
             if (m && m.reading_type) return m.reading_type[ui()] || m.reading_type[ui().split('_')[0]] || m.reading_type.en || m.native || code;
             return (m && (m.native || m.name)) || code;
         }
-        function reading(code, ch) { const e = HD()[ch]; if (!e || !e.surface) return null; const s = e.surface[code]; if (!s || s === '—' || /^—/.test(s)) return null; return s; }
+        // ipa=true → phonetic (IPA) form; otherwise the romanization (surface).
+        function reading(code, ch, ipa) { const e = HD()[ch]; const src = e && (ipa ? e.ipa : e.surface); if (!src) return null; const s = src[code]; if (!s || s === '—' || /^—/.test(s)) return null; return s; }
         const chars = () => [...new Set(HLIST().map(x => String(x).split(':')[0]))].filter(ch => HD()[ch] && HD()[ch].surface);
         function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[a[i], a[j]] = [a[j], a[i]]; } return a; }
         const majorAvail = () => MAJOR.filter(c => HM()[c] || NM().en && NM().en[c]);
@@ -11738,25 +11739,27 @@
             if (CH.length < 3 || M.length < 5) return null;
             for (let tries = 0; tries < 300; tries++) {
                 const ch = CH[Math.floor(Math.random() * CH.length)];
-                const avail = M.filter(m => reading(m, ch));
+                // Mix notation per question: some ask in romanization, some in IPA.
+                const useIpa = Math.random() < 0.5;
+                const avail = M.filter(m => reading(m, ch, useIpa));
                 if (avail.length < 5) continue;
                 const T = avail[Math.floor(Math.random() * avail.length)];
-                const cor = reading(T, ch);
+                const cor = reading(T, ch, useIpa);
                 const fmt = Math.random() < 0.5 ? 1 : 2;
                 if (fmt === 1) {
                     // how is CH read in T? — options are 5 distinct readings
                     const used = new Set([cor]); const dis = [];
-                    for (const m of shuffle(avail)) { if (m === T) continue; const r = reading(m, ch); if (used.has(r)) continue; dis.push({ code: m, label: r }); used.add(r); if (dis.length >= 4) break; }
+                    for (const m of shuffle(avail)) { if (m === T) continue; const r = reading(m, ch, useIpa); if (used.has(r)) continue; dis.push({ code: m, label: r }); used.add(r); if (dis.length >= 4) break; }
                     if (dis.length < 4) continue;
                     const options = shuffle([{ code: T, label: cor, correct: true }].concat(dis.map(d => ({ code: d.code, label: d.label, correct: false }))));
-                    return { fmt: 1, ch, target: T, reading: cor, options };
+                    return { fmt: 1, ch, target: T, reading: cor, ipa: useIpa, options };
                 } else {
                     // which reads CH as cor? — options are 5 dialects; the other 4 must read it differently
-                    const others = avail.filter(m => m !== T && reading(m, ch) !== cor);
+                    const others = avail.filter(m => m !== T && reading(m, ch, useIpa) !== cor);
                     if (others.length < 4) continue;
                     const dis = shuffle(others).slice(0, 4);
                     const options = shuffle([{ code: T, correct: true }].concat(dis.map(m => ({ code: m, correct: false }))));
-                    return { fmt: 2, ch, target: T, reading: cor, options };
+                    return { fmt: 2, ch, target: T, reading: cor, ipa: useIpa, options };
                 }
             }
             return null;
@@ -11805,7 +11808,7 @@
                     const b = el('button', css);
                     // The sub-label (fmt1: which dialect; fmt2: its reading) is
                     // ALWAYS rendered (reserving height) but hidden until answered.
-                    b.innerHTML = `${txt}<div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch)}</div>`;
+                    b.innerHTML = `${txt}<div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     mid.appendChild(b);
                 });

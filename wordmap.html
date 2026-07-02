@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=114">
+    <link rel="stylesheet" href="styles.css?v=115">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -3147,6 +3147,9 @@
             ariaSettings: { en:'Display settings', ja:'表示設定', ko:'표시 설정', zh:'显示设置', yue:'顯示設定', vi:'Cài đặt hiển thị', th:'การตั้งค่าการแสดงผล', id:'Pengaturan tampilan', hi:'प्रदर्शन सेटिंग', de:'Anzeigeeinstellungen', fr:"Paramètres d'affichage", it:'Impostazioni di visualizzazione', es:'Ajustes de visualización', pt:'Configurações de exibição', ru:'Настройки отображения', uk:'Налаштування відображення', ar:'إعدادات العرض', he:'הגדרות תצוגה', sw:'Mipangilio ya onyesho' },
             ariaCompareOpen: { en:'Open language comparison', ja:'言語比較を開く', ko:'언어 비교 열기', zh:'打开语言对比', yue:'開啟語言比較', vi:'Mở so sánh ngôn ngữ', th:'เปิดการเปรียบเทียบภาษา', id:'Buka perbandingan bahasa', hi:'भाषा तुलना खोलें', de:'Sprachvergleich öffnen', fr:'Ouvrir la comparaison des langues', it:'Apri confronto lingue', es:'Abrir comparación de idiomas', pt:'Abrir comparação de idiomas', ru:'Открыть сравнение языков', uk:'Відкрити порівняння мов', ar:'فتح مقارنة اللغات', he:'פתיחת השוואת שפות', sw:'Fungua ulinganishaji wa lugha' },
             ariaCompareClose: { en:'Close comparison', ja:'比較を閉じる', ko:'비교 닫기', zh:'关闭对比', yue:'關閉比較', vi:'Đóng so sánh', th:'ปิดการเปรียบเทียบ', id:'Tutup perbandingan', hi:'तुलना बंद करें', de:'Vergleich schließen', fr:'Fermer la comparaison', it:'Chiudi confronto', es:'Cerrar comparación', pt:'Fechar comparação', ru:'Закрыть сравнение', uk:'Закрити порівняння', ar:'إغلاق المقارنة', he:'סגירת השוואה', sw:'Funga ulinganishaji' },
+            ariaFontUp: { en:'Increase label font size', ja:'ラベルの文字を大きく', ko:'라벨 글자 크게', zh:'增大标签字号', yue:'放大標籤字體', vi:'Tăng cỡ chữ nhãn', th:'เพิ่มขนาดตัวอักษรป้าย', id:'Perbesar ukuran teks label', hi:'लेबल फ़ॉन्ट बड़ा करें', de:'Schriftgröße vergrößern', fr:'Agrandir la police des étiquettes', it:'Aumenta dimensione etichette', es:'Aumentar tamaño de fuente', pt:'Aumentar tamanho da fonte', ru:'Увеличить шрифт подписей', uk:'Збільшити шрифт підписів', ar:'تكبير حجم خط التسميات', he:'הגדלת גופן התוויות', sw:'Kuza saizi ya maandishi' },
+            ariaFontDown: { en:'Decrease label font size', ja:'ラベルの文字を小さく', ko:'라벨 글자 작게', zh:'减小标签字号', yue:'縮小標籤字體', vi:'Giảm cỡ chữ nhãn', th:'ลดขนาดตัวอักษรป้าย', id:'Perkecil ukuran teks label', hi:'लेबल फ़ॉन्ट छोटा करें', de:'Schriftgröße verkleinern', fr:'Réduire la police des étiquettes', it:'Riduci dimensione etichette', es:'Reducir tamaño de fuente', pt:'Diminuir tamanho da fonte', ru:'Уменьшить шрифт подписей', uk:'Зменшити шрифт підписів', ar:'تصغير حجم خط التسميات', he:'הקטנת גופן התוויות', sw:'Punguza saizi ya maandishi' },
+            ariaArticleNav: { en:'Article navigation', ja:'記事ナビゲーション', ko:'글 탐색', zh:'文章导航', yue:'文章導覽', vi:'Điều hướng bài viết', th:'การนำทางบทความ', id:'Navigasi artikel', hi:'लेख नेविगेशन', de:'Artikelnavigation', fr:'Navigation des articles', it:'Navigazione articoli', es:'Navegación de artículos', pt:'Navegação de artigos', ru:'Навигация по статьям', uk:'Навігація статтями', ar:'التنقل بين المقالات', he:'ניווט מאמרים', sw:'Usogezaji wa makala' },
             triviaButtonShort: {
                 // Compact label for the mobile header bar where horizontal
                 // room is tight — drops the qualifier ("Linguistic" / "언어학"
@@ -3372,6 +3375,12 @@
             setAttr('.settings-toggle', 'aria-label', 'ariaSettings');
             setAttr('.settings-fab', 'aria-label', 'ariaSettings');
             setAttr('.compare-fab', 'aria-label', 'ariaCompareOpen');
+            setAttr('#size-up', 'aria-label', 'ariaFontUp');
+            setAttr('#size-down', 'aria-label', 'ariaFontDown');
+            setAttr('#trivia-article-nav', 'aria-label', 'ariaArticleNav');
+            setAttr('#trivia-back', 'aria-label', 'triviaBack');
+            setAttr('#tiles-revert', 'title', 'tilesRevert');
+            setAttr('#tiles-revert', 'aria-label', 'tilesRevert');
             // Append per-era language counts in parens: "現代言語 (478)" / "歴史言語 (79)"
             let modernCount = 0, historicalCount = 0;
             if (typeof HIST_CODE_SET !== 'undefined' && typeof LANG_DATA !== 'undefined') {
@@ -8796,7 +8805,7 @@
                     .replace('{word}', `<b style="color:#222">「${conLabel(q.con)}」</b>`);
                 mid.appendChild(el('div', 'color:#556;font-size:15px;margin-bottom:14px;line-height:1.5;text-align:center', qhtml));
                 q.options.forEach((o, i) => {
-                    let css = 'width:100%;text-align:center;padding:13px 12px;margin-bottom:8px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:18px;cursor:pointer;color:#222';
+                    let css = 'width:100%;text-align:center;padding:11px 12px;margin-bottom:8px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:18px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
                     if (answered) {
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
@@ -8804,9 +8813,10 @@
                         else css += ';opacity:.5';
                     }
                     const b = el('button', css);
-                    // The language sub-label is ALWAYS rendered (reserving its height)
-                    // but hidden until answered, so revealing it doesn't change height.
-                    b.innerHTML = `${o.surf}<div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${nameOf(o.code)}</div>`;
+                    // A top spacer matching the (always-reserved) language sub-label
+                    // balances it so the main reading sits vertically centred; the
+                    // sub-label is hidden until answered without shifting anything.
+                    b.innerHTML = `<div style="height:16px" aria-hidden="true"></div><div>${o.surf}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${nameOf(o.code)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     mid.appendChild(b);
                 });

@@ -1557,3 +1557,9 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
    short "what is this" so an opaque proper-noun launcher is understandable). */
 .play-menu-item-txt { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.25; }
 .play-menu-item-sub { font-size: 11px; color: #9aa1ad; font-weight: 400; margin-top: 1px; }
+
+/* Quiz modals: keep scrolling but hide the scrollbar (it showed on mobile where
+   the fixed-height box/middle band can overflow). */
+#lm-quiz-box, #lm-hquiz-box, #lm-quiz-box *, #lm-hquiz-box * { scrollbar-width: none; -ms-overflow-style: none; }
+#lm-quiz-box::-webkit-scrollbar, #lm-hquiz-box::-webkit-scrollbar,
+#lm-quiz-box *::-webkit-scrollbar, #lm-hquiz-box *::-webkit-scrollbar { width: 0; height: 0; display: none; }

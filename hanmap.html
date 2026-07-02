@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=114">
+    <link rel="stylesheet" href="styles.css?v=115">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -11798,7 +11798,7 @@
                 mid.appendChild(el('div', 'text-align:center;color:#556;font-size:15px;margin-bottom:14px;line-height:1.5', prompt));
                 q.options.forEach((o, i) => {
                     const txt = q.fmt === 1 ? o.label : nameOf(o.code);
-                    let css = 'width:100%;text-align:center;padding:13px 12px;margin-bottom:8px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:17px;cursor:pointer;color:#222';
+                    let css = 'width:100%;text-align:center;padding:11px 12px;margin-bottom:8px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:17px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
                     if (answered) {
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
@@ -11806,9 +11806,10 @@
                         else css += ';opacity:.5';
                     }
                     const b = el('button', css);
-                    // The sub-label (fmt1: which dialect; fmt2: its reading) is
-                    // ALWAYS rendered (reserving height) but hidden until answered.
-                    b.innerHTML = `${txt}<div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
+                    // A top spacer matching the (always-reserved) sub-label balances
+                    // it so the main text sits vertically centred; the sub-label is
+                    // hidden until answered without shifting anything.
+                    b.innerHTML = `<div style="height:16px" aria-hidden="true"></div><div>${txt}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:3px;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     mid.appendChild(b);
                 });

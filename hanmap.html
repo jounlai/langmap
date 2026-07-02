@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=113">
+    <link rel="stylesheet" href="styles.css?v=114">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2635,14 +2635,14 @@
                 <span class="trivia-btn-label" id="hquiz-btn-label">Reading quiz</span>
             </button>
             <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
+            <!-- UI-language selector: floating bottom pill on desktop, drawer row
+                 on mobile. Inside .header-collapse so it joins the mobile drawer;
+                 desktop position:fixed lifts it to the bottom. Keeps id. -->
+            <div class="ui-lang-footer">
+                <span class="ui-lang-footer-icon" aria-hidden="true">🌐</span>
+                <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
+            </div>
         </div>
-    </div>
-    <!-- UI-language selector, moved out of the header to declutter it; sits as a
-         small pill at the bottom of the map. Keeps id="header-ui-lang" so all
-         existing wiring keeps working. -->
-    <div class="ui-lang-footer">
-        <span class="ui-lang-footer-icon" aria-hidden="true">🌐</span>
-        <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
     </div>
 
     <!-- Floating "back to plain map" pill, visible when basemap != flat -->
@@ -5176,7 +5176,7 @@
             // see the user's chosen language immediately.
             const ariaTargets = [
                 ['word-select',     'ariaSelectWord',  'aria-label'],
-                ['ui-lang',         'ariaUiLanguage',  'aria-label'],
+                ['header-ui-lang',  'ariaUiLanguage',  'aria-label'],
                 ['map-zoom',        'ariaMapZoom',     'aria-label'],
                 ['map-zoom-in',     'ariaZoomIn',      'aria-label'],
                 ['map-zoom-out',    'ariaZoomOut',     'aria-label'],

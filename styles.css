@@ -1533,8 +1533,24 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     cursor: pointer;
 }
 @media (max-width: 640px) {
-    .ui-lang-footer { bottom: 8px; padding: 2px 8px 2px 10px; }
-    .ui-lang-footer .header-ui-lang { min-width: 104px; font-size: 11px; }
+    /* In the hamburger drawer the language selector is a normal full-width row,
+       not the floating desktop pill. */
+    .ui-lang-footer {
+        position: static; transform: none; max-width: none;
+        display: flex; width: 100%; margin-top: 6px;
+        border: 0; border-top: 1px solid #eee; border-radius: 0;
+        box-shadow: none; background: none;
+        -webkit-backdrop-filter: none; backdrop-filter: none;
+        padding: 10px 2px 2px;
+    }
+    .ui-lang-footer .header-ui-lang {
+        flex: 1; min-width: 0; max-width: none; font-size: 14px;
+        padding: 8px; border: 1px solid #d0d0d0; border-radius: 6px;
+    }
+    /* On mobile the games show directly in the drawer, so drop the Play ▾
+       wrapper and reveal the individual game launchers. */
+    .header-collapse .play-menu-wrap { display: none; }
+    .header-collapse .game-btn { display: flex !important; }
 }
 
 /* Play ▾ menu item with an optional localized descriptor line (e.g. Langle → a

@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=111">
+    <link rel="stylesheet" href="styles.css?v=112">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2092,9 +2092,15 @@
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>
                 <span class="trivia-btn-label" id="share-btn-label">Share</span>
             </button>
-            <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
         </div>
+    </div>
+    <!-- UI-language selector, moved out of the header to declutter it; sits as a
+         small pill at the bottom of the map. Keeps id="header-ui-lang" so all
+         existing wiring (populate/change/applyUILang) keeps working. -->
+    <div class="ui-lang-footer">
+        <span class="ui-lang-footer-icon" aria-hidden="true">🌐</span>
+        <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
     </div>
 
     <!-- Floating "back to plain map" pill, visible when basemap != flat -->

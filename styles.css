@@ -1500,3 +1500,39 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     font-family: inherit;
 }
 .play-menu-item:hover, .play-menu-item:focus-visible { background: #f3f4f6; outline: none; }
+
+/* UI-language selector relocated from the header to a small pill at the bottom
+   of the map (header declutter). Floats above the map, below modals. */
+.ui-lang-footer {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    z-index: 1200;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.94);
+    border: 1px solid #e0e0e0;
+    border-radius: 999px;
+    padding: 3px 10px 3px 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.14);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    max-width: calc(100vw - 24px);
+}
+.ui-lang-footer .ui-lang-footer-icon { font-size: 14px; line-height: 1; }
+.ui-lang-footer .header-ui-lang {
+    margin: 0;
+    border: 0;
+    background: transparent;
+    min-width: 120px;
+    max-width: 200px;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+@media (max-width: 640px) {
+    .ui-lang-footer { bottom: 8px; padding: 2px 8px 2px 10px; }
+    .ui-lang-footer .header-ui-lang { min-width: 104px; font-size: 11px; }
+}

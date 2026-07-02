@@ -5104,6 +5104,10 @@
             if (langCode && LANG_DATA[langCode]) {
                 // Defer until after initial markers are rendered.
                 setTimeout(() => { showLangInfo(langCode); }, 100);
+            } else if (typeof infoPanel !== 'undefined' && infoPanel && infoPanel.classList.contains('visible')) {
+                // Back/forward landed on a state with no open language → close the
+                // panel so the browser history reflects what's actually shown.
+                if (typeof closeInfoPanel === 'function') closeInfoPanel();
             }
             // Restore open trivia article from URL (?trivia=<id>). Deferred
             // so the trivia setup block at the end of the IIFE has run.
@@ -6360,7 +6364,7 @@
             }
         }
 
-        function showLangInfo(code) {
+        function showLangInfo(code, opts) {
             const lang = LANG_DATA[code];
             if (!lang) return;
             // Audit Task 137: capture the opener BEFORE state changes so we
@@ -6388,7 +6392,10 @@
             _selRetries = 0;
             updateSelectedLabel();
             updateConnectorLine();
-            updateHash();  // persist `lang` to URL so reload restores
+            // {push:true} (from the Random dice) adds a history entry so the
+            // browser Back button returns to the previously-shown language;
+            // other callers replace (default) to avoid history bloat.
+            updateHash(opts && opts.push ? { push: true } : undefined);  // persist `lang` to URL so reload restores
             if (!lang.meta) {
                 loadMeta().then(() => {
                     if (infoPanel.classList.contains('visible') && infoPanel.dataset.code === code) {
@@ -7004,7 +7011,7 @@
                     // 何らかの変更を加えたらすぐに解除"
                     _wireDiceAutoClear(code);
                 } else {
-                    showLangInfo(code);
+                    showLangInfo(code, { push: true });   // Back button returns to the previous random pick
                 }
             });
         }

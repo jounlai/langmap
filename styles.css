@@ -1,5 +1,12 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* Leaflet 2D map: hide the 1–2px white hairline seams that subpixel rounding
+   leaves between 256px raster tiles by overlapping each tile a touch. */
+.leaflet-container .leaflet-tile {
+    width: 256.5px !important;
+    height: 256.5px !important;
+}
+
 /* Single accent colour for all interactive UI (links, buttons, focus,
    selected states). Consolidated from several near-duplicate blues so the
    interface reads as deliberately designed rather than assembled. */

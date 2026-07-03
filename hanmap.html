@@ -11801,8 +11801,8 @@
                 const q = qs[idx];
                 // Character + prompt + options in a flex:1 middle band that centers
                 // them, so the reserved feedback/Next area doesn't look top-heavy.
-                const mid = el('div', 'flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:center');
-                mid.appendChild(el('div', 'text-align:center;font-size:64px;line-height:1.1;margin:2px 0 10px;font-family:\'Noto Serif JP\',\'Noto Serif SC\',\'Noto Serif TC\',serif', q.ch));
+                const mid = el('div', 'flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:safe center');
+                mid.appendChild(el('div', 'text-align:center;font-size:64px;line-height:1.15;margin:2px 0 10px;font-family:\'Noto Serif JP\',\'Noto Serif SC\',\'Noto Serif TC\',serif', q.ch));
                 const prompt = q.fmt === 1
                     ? pk(Q.q1).replace('{lang}', `<b style="color:#222">${nameOf(q.target)}</b>`)
                     : pk(Q.q2).replace('{reading}', `<b style="color:#222">${q.reading}</b>`);
@@ -11820,7 +11820,9 @@
                     // A top spacer matching the (always-reserved) sub-label balances
                     // it so the main text sits vertically centred; the sub-label is
                     // hidden until answered without shifting anything.
-                    b.innerHTML = `<div>${txt}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:2px;line-height:1.2;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
+                    // Top spacer mirrors the always-reserved sub-label below, so the
+                    // main reading sits vertically centred even before it's revealed.
+                    b.innerHTML = `<div style="height:15px" aria-hidden="true"></div><div>${txt}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:2px;line-height:1.2;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     mid.appendChild(b);
                 });

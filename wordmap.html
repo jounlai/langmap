@@ -8838,7 +8838,7 @@
                 // Question + options live in a flex:1 middle band that vertically
                 // centers them, so the (reserved) feedback/Next area at the bottom
                 // doesn't make the question state look top-heavy.
-                const mid = el('div', 'flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:center');
+                const mid = el('div', 'flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:safe center');
                 const qhtml = pk(Q.qtext)
                     .replace('{lang}', `<b style="color:#222">${nameOf(q.target)}</b>`)
                     .replace('{word}', `<b style="color:#222">「${conLabel(q.con)}」</b>`);
@@ -8855,7 +8855,9 @@
                     // A top spacer matching the (always-reserved) language sub-label
                     // balances it so the main reading sits vertically centred; the
                     // sub-label is hidden until answered without shifting anything.
-                    b.innerHTML = `<div>${o.surf}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:2px;line-height:1.2;visibility:${answered ? 'visible' : 'hidden'}">${nameOf(o.code)}</div>`;
+                    // Top spacer mirrors the always-reserved sub-label below, so the
+                    // main reading sits vertically centred even before it's revealed.
+                    b.innerHTML = `<div style="height:15px" aria-hidden="true"></div><div>${o.surf}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;margin-top:2px;line-height:1.2;visibility:${answered ? 'visible' : 'hidden'}">${nameOf(o.code)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     mid.appendChild(b);
                 });

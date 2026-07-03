@@ -2308,6 +2308,32 @@
             .tiles-revert { bottom: 12px; right: 12px; }
         }
 
+        /* Dialect-lineage colour legend (collapsible, bottom-left). */
+        .dialect-legend {
+            position: fixed; z-index: 1502; bottom: 12px; left: 12px;
+            display: flex; flex-direction: column; align-items: flex-start;
+            font-family: inherit;
+        }
+        .dialect-legend-toggle {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 6px 12px; border: 1px solid #d0d0d0; border-radius: 16px;
+            background: rgba(255,255,255,0.95); color: #444;
+            font-size: 12px; font-weight: 600; cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+        }
+        .dialect-legend-toggle:hover { background: #fff; border-color: #1a73e8; color: #1a73e8; }
+        .dialect-legend-toggle svg { width: 14px; height: 14px; }
+        .dialect-legend-panel {
+            margin-bottom: 6px; width: 176px; max-height: 52vh; overflow-y: auto;
+            background: #fff; border: 1px solid #e0e0e0; border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.16); padding: 8px 10px;
+        }
+        .dialect-legend-row { display: flex; align-items: center; gap: 8px; padding: 3px 2px; font-size: 12px; color: #333; }
+        .dialect-legend-sw { width: 12px; height: 12px; border-radius: 3px; flex: none; border: 1px solid rgba(0,0,0,0.18); }
+        @media (max-width: 720px) {
+            .dialect-legend { bottom: 60px; left: 12px; }
+        }
+
         /* Temporary place-label shown for ~5s when a panto action
            ("Fly to X") lands. Hand-drawn-style SVG ellipse circles
            the target REGION (rivers, ranges, basins are not points
@@ -3121,6 +3147,15 @@
     </div>
 
     <div id="map"></div>
+    <!-- Small dialect-lineage colour legend (collapsible), built by the script
+         at the bottom of the body from the same HAN_BRANCH_COLOR palette. -->
+    <div id="dialect-legend" class="dialect-legend" hidden>
+        <div class="dialect-legend-panel" id="dialect-legend-panel" hidden></div>
+        <button type="button" class="dialect-legend-toggle" id="dialect-legend-toggle" aria-expanded="false">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.012 17.5 2 12 2z"/></svg>
+            <span class="dialect-legend-title">Dialect colours</span>
+        </button>
+    </div>
     <div id="globe"></div>
     <!-- Connector from selected map label to the open info panel -->
     <svg id="connector-line" aria-hidden="true">
@@ -11981,6 +12016,82 @@
     </script>
 
     <script src="/pwa.js?v=1"></script>
+    <!-- Dialect-lineage colour legend (mirrors HAN_BRANCH_COLOR). -->
+    <script>
+    (function () {
+        'use strict';
+        var FB = 'en';
+        function ui() {
+            var g = (window.__langmap && window.__langmap.uiLang);
+            if (g) return g;
+            var s = document.getElementById('header-ui-lang');
+            return (s && s.value) || FB;
+        }
+        function L(m) { var u = ui(); return m[u] || m[String(u).split('_')[0]] || m[FB]; }
+        // [swatch colour, key]; Mandarin renders as the default near-black, shown
+        // here with a representative dark swatch. Ancient row = the sepia tone.
+        var ROWS = [
+            ['#333333','mandarin'], ['#4a5563','jin'], ['#1f5e57','yue'], ['#8a3a24','min'],
+            ['#4b3a72','wu'], ['#3d5a2c','hakka'], ['#7c2f54','xiang'], ['#875028','gan'],
+            ['#5a4a5e','pinghua'], ['#6a5a24','hui'], ['#39447a','koreanic'], ['#2f6b46','japonic'],
+            ['#8a5a1f','vietic'], ['#5e1f1f','other'], ['#998270','ancient']
+        ];
+        var LBL = {
+            mandarin: { en:'Mandarin', ja:'官話', ko:'관화(만다린)', zh:'官话', yue:'官話' },
+            jin:      { en:'Jin',      ja:'晋語', ko:'진어', zh:'晋语', yue:'晉語' },
+            yue:      { en:'Yue (Cantonese)', ja:'粤語', ko:'월어(광둥어)', zh:'粤语', yue:'粵語' },
+            min:      { en:'Min',      ja:'閩語', ko:'민어', zh:'闽语', yue:'閩語' },
+            wu:       { en:'Wu',       ja:'呉語', ko:'오어', zh:'吴语', yue:'吳語' },
+            hakka:    { en:'Hakka',    ja:'客家語', ko:'객가어', zh:'客家话', yue:'客家話' },
+            xiang:    { en:'Xiang',    ja:'湘語', ko:'상어', zh:'湘语', yue:'湘語' },
+            gan:      { en:'Gan',      ja:'贛語', ko:'감어', zh:'赣语', yue:'贛語' },
+            pinghua:  { en:'Pinghua',  ja:'平話', ko:'평화', zh:'平话', yue:'平話' },
+            hui:      { en:'Hui',      ja:'徽語', ko:'휘어', zh:'徽语', yue:'徽語' },
+            koreanic: { en:'Korean',   ja:'朝鮮語', ko:'한국어', zh:'朝鲜语', yue:'韓語' },
+            japonic:  { en:'Japanese', ja:'日本語', ko:'일본어', zh:'日语', yue:'日語' },
+            vietic:   { en:'Vietnamese', ja:'ベトナム語', ko:'베트남어', zh:'越南语', yue:'越南語' },
+            other:    { en:'Other',    ja:'その他', ko:'기타', zh:'其他', yue:'其他' },
+            ancient:  { en:'Historical', ja:'古語（歴史）', ko:'역사(고어)', zh:'历史(古语)', yue:'歷史(古語)' }
+        };
+        var TITLE = { en:'Dialect colours', ja:'方言の色', ko:'방언 색상', zh:'方言颜色', yue:'方言顏色' };
+        function render() {
+            var panel = document.getElementById('dialect-legend-panel');
+            var title = document.querySelector('.dialect-legend-title');
+            if (title) title.textContent = L(TITLE);
+            if (!panel) return;
+            panel.innerHTML = '';
+            ROWS.forEach(function (r) {
+                var row = document.createElement('div');
+                row.className = 'dialect-legend-row';
+                var sw = document.createElement('span');
+                sw.className = 'dialect-legend-sw';
+                sw.style.background = r[0];
+                var nm = document.createElement('span');
+                nm.textContent = L(LBL[r[1]]);
+                row.appendChild(sw); row.appendChild(nm);
+                panel.appendChild(row);
+            });
+        }
+        function start() {
+            var wrap = document.getElementById('dialect-legend');
+            var toggle = document.getElementById('dialect-legend-toggle');
+            var panel = document.getElementById('dialect-legend-panel');
+            if (!wrap || !toggle || !panel) return;
+            render();
+            wrap.hidden = false;
+            toggle.addEventListener('click', function () {
+                var open = panel.hidden;
+                panel.hidden = !open;
+                toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            });
+            window.addEventListener('langmap:uichange', render);
+            var s = document.getElementById('header-ui-lang');
+            if (s) s.addEventListener('change', function () { setTimeout(render, 0); });
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+        else start();
+    })();
+    </script>
     <script src="share-button.js?v=1"></script>
     <script src="lang-picker.js?v=2"></script>
 </body>

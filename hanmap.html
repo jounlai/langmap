@@ -11809,11 +11809,12 @@
                 mid.appendChild(el('div', 'text-align:center;color:#556;font-size:15px;margin-bottom:14px;line-height:1.5', prompt));
                 q.options.forEach((o, i) => {
                     const txt = q.fmt === 1 ? o.label : nameOf(o.code);
-                    // Grid rows `1fr auto`: the reading sits in a flexible top row
-                    // (vertically centred) and the sub-label in a reserved bottom row
-                    // that's always present (visibility toggled) — so the reading is
-                    // centred before the answer and nothing shifts on reveal.
-                    let css = 'width:100%;box-sizing:border-box;min-height:48px;text-align:center;padding:6px 12px;margin-bottom:6px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:17px;cursor:pointer;color:#222;display:grid;grid-template-rows:1fr auto;align-items:center;justify-items:center';
+                    // The reading is flanked by a top spacer and a bottom sub-label of
+                    // EQUAL fixed height, so it is genuinely vertically centred whether
+                    // or not the button has slack (symmetry, not justify-content, is
+                    // what centres it). The sub-label's visibility toggles on reveal
+                    // without any reflow.
+                    let css = 'width:100%;box-sizing:border-box;text-align:center;padding:5px 12px;margin-bottom:6px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:17px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
                     if (answered) {
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
@@ -11821,7 +11822,7 @@
                         else css += ';opacity:.5';
                     }
                     const b = el('button', css);
-                    b.innerHTML = `<div>${txt}</div><div style="font-size:11px;font-weight:400;color:#9aa1ad;line-height:1.2;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
+                    b.innerHTML = `<div style="height:13px" aria-hidden="true"></div><div>${txt}</div><div style="height:13px;font-size:10.5px;font-weight:400;color:#9aa1ad;line-height:1.2;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     mid.appendChild(b);
                 });

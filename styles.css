@@ -1558,6 +1558,53 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     .header-collapse .game-btn { display: flex !important; }
 }
 
+/* ---------------------------------------------------------------------------
+ * Unified UI-language picker (lang-picker.js) — a globe + current CODE button
+ * to the left of the langmap.heuron.com link, opening a "CODE  NativeName"
+ * dropdown. Replaces the old .ui-lang-footer pill and the bare header select.
+ * ------------------------------------------------------------------------- */
+.header-ui-lang.lang-picker-native { display: none !important; }
+.ui-lang-footer { display: none !important; }   /* superseded by the picker */
+
+.lang-picker { position: relative; display: inline-flex; }
+.lang-picker-btn {
+    display: inline-flex; align-items: center; gap: 5px;
+    background: transparent;
+    border: 1px solid #d0d3dc; border-radius: 6px;
+    padding: 4px 8px;
+    font-family: inherit; font-size: 12px; font-weight: 600; line-height: 1;
+    color: #444; cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+.lang-picker-btn:hover { background: #f3f4f6; border-color: #b8bcc8; }
+.lang-picker-btn > svg { width: 15px; height: 15px; opacity: 0.75; }
+.lang-picker-btn .lang-picker-caret { width: 10px; height: 10px; opacity: 0.55; transition: transform 0.15s ease; }
+.lang-picker-btn[aria-expanded="true"] .lang-picker-caret { transform: rotate(180deg); }
+.lang-picker-code { letter-spacing: 0.5px; }
+
+.lang-picker-menu {
+    position: absolute; top: calc(100% + 5px); left: 0;
+    z-index: 1300;
+    min-width: 190px; max-height: 340px; overflow-y: auto;
+    background: #fff; border: 1px solid #e0e0e0; border-radius: 8px;
+    box-shadow: 0 6px 22px rgba(0,0,0,0.16);
+    padding: 4px; display: none;
+}
+.lang-picker-menu.open { display: block; }
+.lang-picker-item {
+    display: flex; align-items: center; gap: 9px; width: 100%;
+    padding: 7px 10px; border: 0; border-radius: 6px;
+    background: none; cursor: pointer; text-align: left;
+    font-family: inherit; font-size: 13px; color: #333;
+}
+.lang-picker-item:hover, .lang-picker-item:focus-visible { background: #f3f4f6; outline: none; }
+.lang-picker-item[aria-selected="true"] { background: var(--accent-tint, #eef2ff); font-weight: 600; }
+.lang-picker-item-code {
+    flex: none; min-width: 30px;
+    font-size: 10px; font-weight: 700; letter-spacing: 0.5px; color: #8a8f9a;
+}
+[dir="rtl"] .lang-picker-menu { left: auto; right: 0; }
+
 /* Play ▾ menu item with an optional localized descriptor line (e.g. Langle → a
    short "what is this" so an opaque proper-noun launcher is understandable). */
 .play-menu-item-txt { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.25; }

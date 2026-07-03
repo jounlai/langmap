@@ -1494,8 +1494,13 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
    in the DOM (hidden) so their existing wiring/labels are reused. */
 .game-btn { display: none !important; }
 .play-menu-wrap { position: relative; display: inline-flex; }
-.play-menu-wrap .play-caret { display: inline-flex; align-items: center; margin-left: 3px; opacity: .6; }
-.play-menu-wrap .play-caret svg { width: 12px; height: 12px; transition: transform .15s ease; }
+/* The Play launcher: gamepad icon + label + caret, all the same height and
+   vertically centred (was an emoji + text + glyph of mismatched sizes). */
+#play-menu-btn { height: 30px; padding: 0 12px; gap: 6px; line-height: 1; }
+#play-menu-btn .play-btn-icon { width: 15px; height: 15px; flex: none; }
+#play-menu-btn .trivia-btn-label { line-height: 1; }
+.play-menu-wrap .play-caret { display: inline-flex; align-items: center; margin-left: 1px; opacity: .6; }
+.play-menu-wrap .play-caret svg { width: 11px; height: 11px; transition: transform .15s ease; }
 #play-menu-btn[aria-expanded="true"] .play-caret svg { transform: rotate(180deg); }
 #play-menu {
     display: none;
@@ -1605,16 +1610,16 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     transition: background-color 0.15s, border-color 0.15s;
 }
 .share-icon-btn:hover { background: #f3f4f6; border-color: #b8bcc8; }
-.share-icon-btn > svg { width: 16px; height: 16px; }
+.share-icon-btn > svg { width: 15px; height: 15px; }
 @media (max-width: 640px) {
     /* In the drawer keep it icon-sized (don't stretch to a full-width row). */
     .header-collapse .share-icon-btn { align-self: flex-start; }
 }
 .lang-picker-btn {
     display: inline-flex; align-items: center; gap: 5px;
+    height: 30px; padding: 0 10px;   /* same height as the Share icon button */
     background: transparent;
     border: 1px solid #d0d3dc; border-radius: 6px;
-    padding: 4px 8px;
     font-family: inherit; font-size: 12px; font-weight: 600; line-height: 1;
     color: #444; cursor: pointer;
     transition: background-color 0.15s, border-color 0.15s;

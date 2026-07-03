@@ -6325,12 +6325,25 @@
             return String(s).replace(/[&<>"']/g, c => ESCAPE_HTML_MAP[c]);
         }
         const ALLOWED_DESC_COLORS = new Set([
-            '',          // default — Sinitic modern (inherit black)
+            '',          // default — Mandarin / baseline (inherit black)
             '#998270',   // Sinitic ancient (light sepia)
-            '#5e1f1f',   // Non-Sinitic modern (dark red-tinted)
+            '#5e1f1f',   // Non-Sinitic modern "other" (dark red-tinted)
             '#a48070',   // Non-Sinitic ancient (light red-brown)
             '#c0392b',   // legacy: wordmap descendant red
             '#ff6b6b',   // legacy: wordmap descendant globe-mode pink
+            // Per-branch dialect-lineage colours (HAN_BRANCH_COLOR).
+            '#4a5563',   // Jin
+            '#1f5e57',   // Yue
+            '#8a3a24',   // Min
+            '#4b3a72',   // Wu
+            '#3d5a2c',   // Hakka
+            '#7c2f54',   // Xiang
+            '#875028',   // Gan
+            '#5a4a5e',   // Pinghua
+            '#6a5a24',   // Hui
+            '#39447a',   // Koreanic
+            '#2f6b46',   // Japonic
+            '#8a5a1f',   // Vietic
         ]);
         function safeColor(c) { return ALLOWED_DESC_COLORS.has(c) ? c : ''; }
 
@@ -6815,11 +6828,53 @@
         //   languages a visual contrast vs the dense Sinitic cluster.
         // - Non-Sinitic ancient: lighter version of the modern non-Sinitic
         //   color, same hue so the family relationship reads visually.
+        // Dark, muted per-branch colours (no vivid primaries) so each Sinitic
+        // dialect group — and the Sino-xenic families — is distinguishable on the
+        // map, instead of all Chinese readings sharing one colour and blurring
+        // together (e.g. Yong'an Min looked identical to Mandarin). User request
+        // 2026-07: colour by dialect lineage. Mandarin stays the default black
+        // baseline (the majority); the other branches get their own dark hue.
+        const HAN_BRANCH_COLOR = {
+            mandarin: '',         // inherit the default near-black (baseline)
+            jin:      '#4a5563',  // slate (Jin — Mandarin-adjacent)
+            yue:      '#1f5e57',  // dark teal
+            min:      '#8a3a24',  // dark terracotta
+            wu:       '#4b3a72',  // dark indigo-violet
+            hakka:    '#3d5a2c',  // dark green
+            xiang:    '#7c2f54',  // dark wine
+            gan:      '#875028',  // dark ochre-brown
+            pinghua:  '#5a4a5e',  // muted plum-grey
+            hui:      '#6a5a24',  // dark gold-olive
+            koreanic: '#39447a',  // muted indigo
+            japonic:  '#2f6b46',  // dark green (Japan is far from Hakka, so ok)
+            vietic:   '#8a5a1f',  // dark amber
+            other:    '#5e1f1f',  // dark red (Manchu/Bai/Zhuang/…)
+        };
+        function hanmapBranch(code) {
+            if (code === 'zh' || code.startsWith('zh_') || code === 'dng') return 'mandarin';
+            if (code === 'yue' || code.startsWith('yue_')) return 'yue';
+            if (code.startsWith('nan') || code === 'cdo' || code === 'mnp' || code === 'cpx'
+                || code === 'mnz' || code === 'msj' || code === 'czo') return 'min';
+            if (code.startsWith('wuu')) return 'wu';
+            if (code.startsWith('hak')) return 'hakka';
+            if (code.startsWith('hsn')) return 'xiang';
+            if (code.startsWith('gan')) return 'gan';
+            if (code.startsWith('cjy')) return 'jin';
+            if (code.startsWith('cnp')) return 'pinghua';
+            if (code.startsWith('czh')) return 'hui';
+            if (code === 'ko' || code.startsWith('ko_') || code === 'pko') return 'koreanic';
+            if (code === 'ja' || code.startsWith('ja_') || code === 'pja') return 'japonic';
+            if (code === 'vi' || code.startsWith('vi_') || code === 'paa') return 'vietic';
+            return 'other';
+        }
+        // Ancient/reconstructed codes keep the lighter sepia / red-brown tones so
+        // historical languages still stand out; modern codes get their branch hue.
         function hanmapLabelColor(code) {
-            const isSinitic = hanmapIsSinitic(code);
-            const isAncient = HAN_ANCIENT_CODES.has(code);
-            if (isSinitic) return isAncient ? '#998270' : '';
-            return isAncient ? '#a48070' : '#5e1f1f';
+            if (HAN_ANCIENT_CODES.has(code)) {
+                return hanmapIsSinitic(code) ? '#998270' : '#a48070';
+            }
+            const b = hanmapBranch(code);
+            return (b in HAN_BRANCH_COLOR) ? HAN_BRANCH_COLOR[b] : '#5e1f1f';
         }
 
         // The four Japanese reading layers (呉音/漢音/唐音/訓読み) used to be

@@ -15,6 +15,9 @@
 
     var GLOBE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
     var CARET = '<svg class="lang-picker-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>';
+    // "Language:" label shown only in the mobile drawer, left of the picker.
+    var LABELS = { en:'Language:', ja:'言語選択:', ko:'언어 선택:', zh:'语言选择:', yue:'語言選擇:', vi:'Ngôn ngữ:', th:'เลือกภาษา:', id:'Pilih bahasa:', hi:'भाषा चुनें:', de:'Sprache:', fr:'Langue :', it:'Lingua:', es:'Idioma:', pt:'Idioma:', ru:'Язык:', uk:'Мова:', ar:'اللغة:', he:'שפה:', sw:'Lugha:' };
+    function labelFor(v) { v = v || 'en'; return LABELS[v] || LABELS[v.split('_')[0]] || LABELS.en; }
 
     function build() {
         var sel = document.getElementById('header-ui-lang');
@@ -26,6 +29,10 @@
 
         var wrap = document.createElement('div');
         wrap.className = 'lang-picker';
+
+        var label = document.createElement('span');
+        label.className = 'lang-picker-label';
+        wrap.appendChild(label);
 
         var btn = document.createElement('button');
         btn.type = 'button';
@@ -82,6 +89,7 @@
 
         function sync() {
             code.textContent = (sel.value || 'en').toUpperCase();
+            label.textContent = labelFor(sel.value);
             Array.prototype.forEach.call(menu.children, function (it) {
                 it.setAttribute('aria-selected', it.dataset.value === sel.value ? 'true' : 'false');
             });

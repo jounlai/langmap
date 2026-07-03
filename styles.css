@@ -1555,7 +1555,27 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
     /* On mobile the games show directly in the drawer, so drop the Play ▾
        wrapper and reveal the individual game launchers. */
     .header-collapse .play-menu-wrap { display: none; }
-    .header-collapse .game-btn { display: flex !important; }
+    .header-collapse .game-btn {
+        display: flex !important;
+        /* Full-width drawer rows, not gold pills: match the nav items. */
+        width: 100%;
+        justify-content: flex-start;
+        margin-left: 0;
+        padding: 10px 12px;
+        border-radius: 8px;
+        border: 1px solid #e5e7eb;
+        background: #f9fafb;
+        color: #374151;
+        box-shadow: none;
+        font-size: 15px;
+    }
+    .header-collapse .game-btn:hover { background: #f3f4f6; box-shadow: none; }
+    /* Language picker as a full-width labelled row in the drawer. */
+    .header-collapse .lang-picker { width: 100%; gap: 8px; }
+    .header-collapse .lang-picker-label {
+        display: inline; font-size: 15px; font-weight: 600; color: #374151;
+    }
+    .header-collapse .lang-picker-btn { margin-left: auto; }
 }
 
 /* ---------------------------------------------------------------------------
@@ -1566,7 +1586,8 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 .header-ui-lang.lang-picker-native { display: none !important; }
 .ui-lang-footer { display: none !important; }   /* superseded by the picker */
 
-.lang-picker { position: relative; display: inline-flex; }
+.lang-picker { position: relative; display: inline-flex; align-items: center; }
+.lang-picker-label { display: none; }   /* shown only in the mobile drawer */
 .lang-picker-btn {
     display: inline-flex; align-items: center; gap: 5px;
     background: transparent;

@@ -1588,6 +1588,21 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 
 .lang-picker { position: relative; display: inline-flex; align-items: center; }
 .lang-picker-label { display: none; }   /* shown only in the mobile drawer */
+
+/* Unified Share — an icon only, no button chrome (share-button.js). */
+.share-icon-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; padding: 0;
+    background: transparent; border: 1px solid #d0d3dc; border-radius: 6px;
+    color: #444; cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s;
+}
+.share-icon-btn:hover { background: #f3f4f6; border-color: #b8bcc8; }
+.share-icon-btn > svg { width: 16px; height: 16px; }
+@media (max-width: 640px) {
+    /* In the drawer keep it icon-sized (don't stretch to a full-width row). */
+    .header-collapse .share-icon-btn { align-self: flex-start; }
+}
 .lang-picker-btn {
     display: inline-flex; align-items: center; gap: 5px;
     background: transparent;

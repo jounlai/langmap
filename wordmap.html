@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=119">
+    <link rel="stylesheet" href="styles.css?v=120">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2084,11 +2084,8 @@
                 <span aria-hidden="true">🧩</span>
                 <span class="trivia-btn-label" id="quiz-btn-label">Which word?</span>
             </button>
-            <button type="button" class="trivia-btn" id="share-open"
-                    aria-haspopup="dialog" title="Share this view">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>
-                <span class="trivia-btn-label" id="share-btn-label">Share</span>
-            </button>
+            <!-- Share is now the unified icon injected by share-button.js, which
+                 calls window.__langmap.share (the rich, word-specific share below). -->
             <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
             <!-- UI-language selector: a floating pill at the bottom of the map on
                  desktop, and a normal row inside the hamburger drawer on mobile.
@@ -8198,6 +8195,10 @@
             if (lbl) lbl.textContent = pick(S.share);
         }
         function initShare() {
+            // The header Share control is the unified icon (share-button.js); expose
+            // this page's rich, word-specific share for it to call.
+            window.__langmap = window.__langmap || {};
+            window.__langmap.share = doShare;
             const btn = document.getElementById('share-open');
             if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', doShare); }
             localizeShareBtn();
@@ -8980,6 +8981,7 @@
     </script>
 
     <script src="/pwa.js?v=1"></script>
+    <script src="share-button.js?v=1"></script>
     <script src="lang-picker.js?v=2"></script>
 </body>
 </html>

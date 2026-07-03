@@ -5452,6 +5452,8 @@
         // family/speaker meta is present before filtering the language pool.
         window.__langmap = window.__langmap || {};
         window.__langmap.loadMeta = loadMeta;
+        // Expose the language-detail opener for the "Language of the day" toast.
+        window.__langmap.showLangInfo = function (code, opts) { return showLangInfo(code, opts); };
 
         // Per Session 31 (Schema Revolution Phase 1): each status carries a
         // short pedagogical description shown inline next to the badge.
@@ -8062,12 +8064,13 @@
     </footer>
 
     <!-- ============================================================
-         Re-engagement Phase 1: Share (current view) + Word of the Day.
+         Re-engagement Phase 1: Share (current view) + Language of the Day.
          Self-contained classic script — reads the page's global
-         currentWord / uiLang / WORD_LIST / WORD_ORDER lexicals at call
+         currentWord / uiLang / LANG_DATA / LANG_NAMES lexicals at call
          time. Psychology: share = social currency / self-expression;
-         WOTD = a daily external trigger + curiosity gap for returning
-         visitors (fresh-start effect), shown unobtrusively.
+         Language-of-the-day = a daily external trigger + curiosity gap for
+         returning visitors (fresh-start effect), shown unobtrusively.
+         (Switched from Word-of-the-day: the word set was too small.)
          ============================================================ -->
     <script>
     (function () {
@@ -8080,7 +8083,7 @@
             share:   {en:'Share', ja:'共有', ko:'공유', zh:'分享', yue:'分享', vi:'Chia sẻ', th:'แชร์', id:'Bagikan', hi:'साझा करें', de:'Teilen', fr:'Partager', it:'Condividi', es:'Compartir', pt:'Partilhar', ru:'Поделиться', uk:'Поділитися', ar:'مشاركة', he:'שיתוף', sw:'Shiriki'},
             copyLink:{en:'Copy link', ja:'リンクをコピー', ko:'링크 복사', zh:'复制链接', yue:'複製連結', vi:'Sao chép liên kết', th:'คัดลอกลิงก์', id:'Salin tautan', hi:'लिंक कॉपी करें', de:'Link kopieren', fr:'Copier le lien', it:'Copia link', es:'Copiar enlace', pt:'Copiar ligação', ru:'Скопировать ссылку', uk:'Скопіювати посилання', ar:'نسخ الرابط', he:'העתקת קישור', sw:'Nakili kiungo'},
             copied:  {en:'Link copied!', ja:'リンクをコピーしました', ko:'링크를 복사했습니다', zh:'已复制链接', yue:'已複製連結', vi:'Đã sao chép liên kết', th:'คัดลอกลิงก์แล้ว', id:'Tautan disalin', hi:'लिंक कॉपी हो गया', de:'Link kopiert', fr:'Lien copié', it:'Link copiato', es:'Enlace copiado', pt:'Ligação copiada', ru:'Ссылка скопирована', uk:'Посилання скопійовано', ar:'تم نسخ الرابط', he:'הקישור הועתק', sw:'Kiungo kimenakiliwa'},
-            wotd:    {en:'Word of the day', ja:'今日の単語', ko:'오늘의 단어', zh:'今日单词', yue:'今日詞語', vi:'Từ trong ngày', th:'คำประจำวัน', id:'Kata hari ini', hi:'आज का शब्द', de:'Wort des Tages', fr:'Mot du jour', it:'Parola del giorno', es:'Palabra del día', pt:'Palavra do dia', ru:'Слово дня', uk:'Слово дня', ar:'كلمة اليوم', he:'מילת היום', sw:'Neno la leo'},
+            wotd:    {en:'Language of the day', ja:'今日の言語', ko:'오늘의 언어', zh:'今日语言', yue:'今日語言', vi:'Ngôn ngữ trong ngày', th:'ภาษาประจำวัน', id:'Bahasa hari ini', hi:'आज की भाषा', de:'Sprache des Tages', fr:'Langue du jour', it:'Lingua del giorno', es:'Idioma del día', pt:'Língua do dia', ru:'Язык дня', uk:'Мова дня', ar:'لغة اليوم', he:'שפת היום', sw:'Lugha ya leo'},
             view:    {en:'View', ja:'見る', ko:'보기', zh:'查看', yue:'睇', vi:'Xem', th:'ดู', id:'Lihat', hi:'देखें', de:'Ansehen', fr:'Voir', it:'Vedi', es:'Ver', pt:'Ver', ru:'Открыть', uk:'Відкрити', ar:'عرض', he:'הצגה', sw:'Tazama'},
             close:   {en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', yue:'閂', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', de:'Schließen', fr:'Fermer', it:'Chiudi', es:'Cerrar', pt:'Fechar', ru:'Закрыть', uk:'Закрити', ar:'إغلاق', he:'סגירה', sw:'Funga'}
         };
@@ -8202,43 +8205,50 @@
             if (sel && !sel._lmShareHook) { sel._lmShareHook = true; sel.addEventListener('change', () => setTimeout(localizeShareBtn, 0)); }
         }
 
-        // ---- Word of the Day (returning-visitor trigger) ----
+        // ---- Language of the Day (returning-visitor trigger) ----
         function dayNumber() { return Math.floor(Date.now() / 86400000); }
-        function wotdId() {
+        // A curated set of well-known languages; filtered at runtime to those
+        // actually present in the dataset so a missing code is simply skipped.
+        const LOTD_POOL = ['en','es','fr','de','it','pt','nl','sv','da','no','fi','is','ga','cy','eu','ca','gl','ro','pl','cs','sk','hu','el','ru','uk','bg','sr','hr','sq','lt','lv','et','tr','az','hy','ka','fa','ar','he','am','ha','sw','yo','zu','af','hi','bn','ur','pa','gu','ta','te','kn','ml','si','ne','th','lo','my','km','vi','id','ms','tl','ceb','jv','ja','ko','zh','yue','nan','hak','mn','bo','kk','uz'];
+        function lotdCode() {
             try {
-                const order = window.WORD_ORDER || (typeof WORD_ORDER !== 'undefined' ? WORD_ORDER : null);
-                if (!order || !order.length) return null;
-                return order[dayNumber() % order.length];
+                const d = window.LANG_DATA || {};
+                const p = LOTD_POOL.filter(c => d[c]);
+                if (!p.length) return null;
+                return p[dayNumber() % p.length];
             } catch (_) { return null; }
         }
-        function wotdLabel(id) {
-            const it = (window.WORD_LIST || []).find(w => w.id === id);
-            if (it && it.label) return it.label[ui()] || it.label[ui().split('_')[0]] || it.label.en || id;
-            return id;
+        function lotdLabel(code) {
+            try {
+                const nm = window.LANG_NAMES || {};
+                const d = nm[ui()] || nm[ui().split('_')[0]] || nm.en || {};
+                if (d[code]) return d[code];
+                const meta = (window.LANG_DATA && window.LANG_DATA[code]) || {};
+                return meta.name || code;
+            } catch (_) { return code; }
         }
-        function gotoWord(id) {
-            const sel = document.getElementById('word-select');
-            if (sel) { sel.value = id; sel.dispatchEvent(new Event('change', { bubbles: true })); }
+        function gotoLang(code) {
+            try { if (window.__langmap && window.__langmap.showLangInfo) window.__langmap.showLangInfo(code); } catch (_) {}
         }
         function showWotd() {
-            const id = wotdId();
-            if (!id) return;
+            const code = lotdCode();
+            if (!code) return;
             // returning visitor only, once per day
             let visits = 0;
             try { visits = parseInt(localStorage.getItem('lm_visits') || '0', 10) || 0; } catch (_) {}
             if (visits < 2) return;
-            try { if (localStorage.getItem('lm_wotd_day') === String(dayNumber())) return; } catch (_) {}
+            try { if (localStorage.getItem('lm_lotd_day') === String(dayNumber())) return; } catch (_) {}
             const bar = document.createElement('div');
             bar.style.cssText = 'position:fixed;left:50%;top:64px;transform:translateX(-50%);z-index:99998;background:#fff;border:1px solid #e2e4ea;border-radius:999px;box-shadow:0 6px 22px rgba(0,0,0,.16);display:flex;align-items:center;gap:10px;padding:7px 8px 7px 16px;font-size:13px;max-width:92vw;animation:lmwotd .35s ease';
-            bar.innerHTML = `<span style="display:flex;align-items:center;gap:7px"><span style="display:inline-flex;color:var(--accent)"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span><span><b style="color:var(--accent)">${pick(S.wotd)}</b>: ${wotdLabel(id)}</span></span>`;
+            bar.innerHTML = `<span style="display:flex;align-items:center;gap:7px"><span style="display:inline-flex;color:var(--accent)"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span><b style="color:var(--accent)">${pick(S.wotd)}</b>: ${lotdLabel(code)}</span></span>`;
             const go = document.createElement('button');
             go.type = 'button'; go.textContent = pick(S.view);
             go.style.cssText = 'border:0;background:var(--accent);color:#fff;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;cursor:pointer';
-            go.addEventListener('click', () => { gotoWord(id); close(); });
+            go.addEventListener('click', () => { gotoLang(code); close(); });
             const x = document.createElement('button');
             x.type = 'button'; x.setAttribute('aria-label', pick(S.close)); x.textContent = '✕';
             x.style.cssText = 'border:0;background:none;color:#999;font-size:15px;cursor:pointer;padding:2px 6px';
-            function close() { try { localStorage.setItem('lm_wotd_day', String(dayNumber())); } catch (_) {} bar.remove(); }
+            function close() { try { localStorage.setItem('lm_lotd_day', String(dayNumber())); } catch (_) {} bar.remove(); }
             x.addEventListener('click', close);
             bar.appendChild(go); bar.appendChild(x);
             const st = document.createElement('style');
@@ -8261,10 +8271,10 @@
         function start() {
             bumpVisits();
             initShare();
-            // wait until words are loaded before offering WOTD
+            // wait until language data is loaded before offering the daily language
             let tries = 0;
             (function wait() {
-                if ((window.WORD_ORDER && window.WORD_ORDER.length) || (typeof WORD_ORDER !== 'undefined' && WORD_ORDER.length)) {
+                if (window.LANG_DATA && Object.keys(window.LANG_DATA).length) {
                     initShare(); showWotd();
                 } else if (tries++ < 40) { setTimeout(wait, 250); }
             })();

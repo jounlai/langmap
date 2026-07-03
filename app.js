@@ -330,6 +330,11 @@ const DEFAULT_ORDER = LANGUAGES.map(l => l.code);
 const EXPERIMENTAL_LANGS = new Set(LANGUAGES.filter(l => l.experimental).map(l => l.code));
 const HISTORICAL_LANGS = new Set(LANGUAGES.filter(l => l.historical).map(l => l.code));
 const MAJOR_LANGS = new Set(['ja', 'ko', 'zh', 'en', 'es_mx', 'ar']);
+// Localized "Historical" / "Experimental" badge labels (short, badge-sized).
+const HIST_BADGE = { en:'Hist', ja:'歴史', ko:'역사', zh:'历史', yue:'歷史', vi:'Lịch sử', th:'ประวัติ', id:'Sejarah', hi:'ऐतिहासिक', de:'Hist.', fr:'Hist.', it:'Stor.', es:'Hist.', pt:'Hist.', ru:'Ист.', uk:'Іст.', ar:'تاريخي', he:'היסטורי', sw:'Kihist.' };
+const EXP_BADGE  = { en:'Exp', ja:'実験', ko:'실험', zh:'实验', yue:'實驗', vi:'Thử', th:'ทดลอง', id:'Uji', hi:'प्रयोग', de:'Exp.', fr:'Exp.', it:'Sper.', es:'Exp.', pt:'Exp.', ru:'Эксп.', uk:'Експ.', ar:'تجريبي', he:'ניסיוני', sw:'Jaribio' };
+function histBadge() { return HIST_BADGE[currentUILang] || HIST_BADGE[String(currentUILang || '').split('_')[0]] || HIST_BADGE.en; }
+function expBadge()  { return EXP_BADGE[currentUILang]  || EXP_BADGE[String(currentUILang || '').split('_')[0]]  || EXP_BADGE.en; }
 const NO_SPACE_LANGS = new Set(['ja', 'ja_kyo', 'ja_osa', 'ja_hir', 'ja_hak', 'ja_aom', 'ja_oki', 'ja_mvi', 'ja_rys', 'ja_edo', 'ja_heian', 'zh', 'zh_db', 'zh_sc', 'yue', 'nan', 'wuu', 'hak_cn', 'cdo', 'zh_song', 'zh_tang', 'zh_han', 'th', 'th_isan', 'th_n', 'th_s', 'lo', 'my', 'km', 'vi_nom', 'ii', 'egy']);
 const GLUE = '\u200C'; // ZWNJ prefix = join to previous segment without space
 function buildFullText(langData, langCode) {
@@ -739,6 +744,9 @@ function applyUILang() {
     if (modalAllOn) modalAllOn.textContent = t('allOn');
     const modalAllOff = document.getElementById('btnModalAllOff');
     if (modalAllOff) modalAllOff.textContent = t('allOff');
+    // Re-localize any already-rendered Historical/Experimental badges.
+    document.querySelectorAll('.hist-badge').forEach(e => { e.textContent = histBadge(); });
+    document.querySelectorAll('.exp-badge').forEach(e => { e.textContent = expBadge(); });
     // Re-render map to update row labels
     render();
 }
@@ -827,8 +835,8 @@ function createModalToggle(lang) {
     const label = document.createElement('label');
     label.className = 'lang-toggle' + (isOn ? ' active' : '');
     if (lang.experimental) label.classList.add('experimental');
-    const badge = lang.historical ? '<span class="hist-badge">Hist</span>'
-        : lang.experimental ? '<span class="exp-badge">Exp</span>' : '';
+    const badge = lang.historical ? '<span class="hist-badge">' + histBadge() + '</span>'
+        : lang.experimental ? '<span class="exp-badge">' + expBadge() + '</span>' : '';
     // SEO big-text page link → /{ui}/wordmap/{code}. LangMap has no SEO page
     // of its own, so we link to the Word Map page (closest rich content).
     // currentUILang base must be one of the 19 supported UI langs; else 'en'.
@@ -841,7 +849,7 @@ function createModalToggle(lang) {
         <span class="dot"></span>
         <input type="checkbox" ${isOn ? 'checked' : ''} data-lang="${lang.code}">
         <span>${langName(lang.code)}</span>${badge}
-        <a class="lang-seo-link" href="${_seoHref}" title="Big-text page" style="margin-left:6px;font-size:11px;text-decoration:none;color:#4a6cf7">📄</a>
+        <a class="lang-seo-link" href="${_seoHref}" title="Big-text page" style="margin-left:6px;display:inline-flex;vertical-align:-2px;text-decoration:none;color:#4a6cf7"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg></a>
     `;
     // The SEO link must navigate, not toggle the checkbox: stop the click
     // from reaching the label's preventDefault/toggle handler below.
@@ -1242,7 +1250,7 @@ function render() {
         const label = document.createElement('div');
         label.className = 'lang-label';
         if (HISTORICAL_LANGS.has(code)) {
-            label.innerHTML = langName(code) + '<span class="hist-badge">Hist</span>';
+            label.innerHTML = langName(code) + '<span class="hist-badge">' + histBadge() + '</span>';
         } else {
             label.textContent = langName(code);
         }

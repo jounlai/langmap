@@ -2660,14 +2660,14 @@
                 <span aria-hidden="true">🧩</span>
                 <span class="trivia-btn-label" id="hquiz-btn-label">Reading quiz</span>
             </button>
+            <!-- Header right cluster (unified with index/tree, 2026-07-05):
+                 [Share icon (share-button.js)] [lang-picker (lang-picker.js)]
+                 [URL], flushed right by CSS. The hidden native <select> feeds
+                 the lang-picker (found by id) and is placed bare before the URL
+                 — same markup as index/tree. The old .ui-lang-footer bottom pill
+                 is retired (was already display:none; superseded by picker). -->
+            <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
-            <!-- UI-language selector: floating bottom pill on desktop, drawer row
-                 on mobile. Inside .header-collapse so it joins the mobile drawer;
-                 desktop position:fixed lifts it to the bottom. Keeps id. -->
-            <div class="ui-lang-footer">
-                <span class="ui-lang-footer-icon" aria-hidden="true">🌐</span>
-                <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
-            </div>
         </div>
     </div>
 

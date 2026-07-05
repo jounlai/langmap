@@ -31,6 +31,8 @@
       }).catch(err => {
         document.getElementById('poster-root').textContent = 'Could not load country data: ' + err;
       });
+      document.getElementById('dl-svg').addEventListener('click', () => window.PosterRender.downloadSVG());
+      document.getElementById('dl-png').addEventListener('click', () => window.PosterRender.downloadPNG(2));
     })();
   </script>
 </body>

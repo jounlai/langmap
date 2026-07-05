@@ -1,0 +1,14 @@
+# Wordmap review #250 — Isolates & fragmentary (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Miren Aldekoa-Salzmann, a descriptive and paleo-linguist working on genetic isolates and epigraphically-attested fragmentary languages. For this batch I checked each cell against the primary reference literature: Basque against Hualde & Ortiz de Urbina's *A Grammar of Basque* and the Euskaltzaindia standard; Ainu against Tamura's *The Ainu Language* and Refsing; Sumerian against Jagersma's and Thomsen's grammars (pronoun ĝe₂₆-e / za-e, mu "name", mul "star"); Elamite against Stolper and Khačikjan (1sg *u*, 2sg *nu*); Etruscan against Rix's *Etruskische Texte* and Wallace (cardinals thu/zal/ci, deictic *mi* "I"); Burushaski against Berger's Hunza-Nager grammar (je, un, altó, -ík "name", asé "star"); Mapudungun against Smeets and Zúñiga (iñche/eymi/epu/üy/wangülen); Haida against Enrico and the Xaad Kíl / Alaskan orthography (hláa, dáng, sdáng); Purépecha against Chamoreau; Nivkh against Gruzdeva/Panfilov; Warao against Barral and Romero-Figueroa (isaka/manamo, wai "name"); Pirahã against Everett (2005) and the Frank et al. quantity-word analysis (hoí); plus wordlist sources for Kusunda (Watters 2006), Hadza (Kirk Miller/Sands), Sandawe (Eaton/Steeman), Rotokas (Firchow), Mochica (Hovdhaugen), Yuchi (Linn), Huave, Páez/Nasa Yuwe, and the Iberian numeral hypothesis (Ferrer i Jané / Orduña). My priority was to catch wrong-sense pronouns (honorific/plural/3rd-person intrusions), Sumerographic vs. native confusion in cuneiform langs, wrong scripts, and tone/segment errors — while leaving genuine "—" markers on the fragmentary corpora (Iberian, Etruscan) intact.
+
+## Issues found
+No errors found — all cells verified correct.
+
+Notes for the record (verified, not flagged): Basque *hi* is correctly the intimate/familiar 2sg (not the polite *zu*), matching the "2sg informal" sense. Haida *hláa* is the genuine Alaskan (Xaad Kíl) independent 1sg, parallel to *dáng* 2sg — not the 3sg *'láa*. Sumerian *ĝe₂₆* / *za-e* and Elamite 𒌋 *u* / 𒉡 *nu* are the correct native 1sg/2sg pronouns, and the cuneiform signs (𒈫 MIN, 𒄭𒅖 hiš, 𒀯 MUL) carry their attested readings. Etruscan *mi* "I" and *zal* /tsal/ "two" are correct, and the "—" markers for you/name/star are legitimate (poorly/​un-attested). Iberian *bi* "two" is supported by the Ferrer i Jané numeral decipherment (cf. Basque *bi*), with the other four cells correctly left "—". Warao *manamo* "two" and *wai* "name", Pirahã *ti* / *gíxai* / *hoí* with their tone contours, Burushaski inalienable *-ík* "name", and Mapudungun *üy* "name" all match the reference grammars.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No changes needed; existing `words/*.js` cells for this domain verified against reference grammars, `node validate_wordmap_data.js` passing.
+
+**File status: CLOSED**

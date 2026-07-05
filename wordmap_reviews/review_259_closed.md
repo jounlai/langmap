@@ -1,0 +1,14 @@
+# Wordmap review #259 — Other Indo-European (part 1) (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Aldric Venn, a comparative Indo-Europeanist working across the "long tail" of the family — the fragmentary Italic/Sabellic and Paleo-Balkan corpora, Anatolian, Tocharian, the Celtic and Hellenic branches, Armenian, Albanian, the Upper-German and Frisian dialect continua, and the minor Indo-Aryan/Nuristani and Romance micro-languages. For this review I leaned on Fortson's *Indo-European Language and Culture*; Thurneysen's *A Grammar of Old Irish* and the modern Celtic grammars (King for Welsh, Ternes/Press for Breton, Broderick for Manx, George for Cornish); Smyth's *Greek Grammar* and the LSJ for Ancient/Katharevousa Greek plus Drettas for Pontic; Godel's *Introduction to the Study of Classical Armenian* (with Dum-Tragut for Eastern and the Western-Armenian devoicing/voicing shift); Newmark et al. for Albanian and the Arbëresh literature; Hoffner & Melchert's *A Grammar of the Hittite Language*; Adams' *A Dictionary of Tocharian B* and Malzahn/Pinault for both Tocharian branches; Buck's *A Grammar of Oscan and Umbrian* and Untermann for the Sabellic material; Mažiulis for Old Prussian; and Lejeune's *Manuel de la langue vénète*. I checked every cell for sense (2sg **informal**, cardinal not ordinal, common noun not proper name, celestial star), native orthography, and phonological plausibility of the broad IPA.
+
+## Issues found
+No errors found — all cells verified correct.
+
+The core, well-documented languages (Latin *ego/tū/duo/nōmen/stella*, Modern Greek, Albanian *unë/ti/dy/emër/yll*, Eastern Armenian *ես/դու/երկու/անուն/աստղ*) are flawless. The Western-Armenian cells correctly reflect the consonant shift (դուն→[tun], երկու→[jɛrˈɡu], աստղ→[asdʁ]). All Celtic cells correctly cite the independent pronouns and the singulative nouns (*steredenn, sterenn, seren, rollage, réalta, reul*) with appropriate broad/slender and mutation phonology. The Tocharian pairs are correct and correctly distinguished (A *näṣ/ñom/śre*, B *ñäś/tuwe/wi/ñem/ścirye*). Every "you" is genuinely 2sg-informal; every "two" is a cardinal; no proper names or asterisked/celebrity senses intruded. The Punjabi (tonal) cells carry no tone because none of these five etyma bear a Punjabi tone. The deliberate "—" markers on the fragmentary Paleo-Balkan/Italic material (Liburnian, Phrygian beyond *az*, Umbrian *I*/*star*, Venetic, Faliscan *star*) are appropriate, and the reconstructed-but-defensible extinct forms (Oscan *egom/dús/númen/stéla*, Venetic *eχo*, Old Prussian *lauxnos/emnes*, Hittite *ūk/zik/dā-/lāman/ḫašter*) are consistent with the corpus's editorial convention and the standard handbooks.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes required; `node validate_wordmap_data.js` passing.
+
+**File status: CLOSED**

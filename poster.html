@@ -10,20 +10,21 @@
   <style>
     html, body { margin: 0; background: #f4f4f2; font-family: system-ui, sans-serif; }
     #bar { padding: 10px 14px; display: flex; gap: 10px; align-items: center; }
-    #bar button { border: 1px solid #ccc; background: #fff; border-radius: 6px; padding: 7px 14px; cursor: pointer; font-size: 14px; }
+    #bar button, #bar select { border: 1px solid #ccc; background: #fff; border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 14px; }
     #poster-wrap { width: 100%; overflow-x: auto; }
     #poster-root svg { display: block; width: 100%; height: auto; max-width: 2000px; margin: 0 auto; }
   </style>
 </head>
 <body>
   <div id="bar">
-    <strong>WordMap Poster — “water”</strong>
+    <strong>WordMap Poster</strong>
+    <label>Word: <select id="word-select"></select></label>
   </div>
   <div id="poster-wrap"><div id="poster-root"></div></div>
 
-  <script src="poster_geo.js?v=11"></script>
-  <script src="poster_langs.js?v=11"></script>
-  <script src="poster_render.js?v=11"></script>
+  <script src="poster_geo.js?v=12"></script>
+  <script src="poster_langs.js?v=12"></script>
+  <script src="poster_render.js?v=12"></script>
   <script>
     (function () {
       const SRC = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
@@ -45,13 +46,25 @@
       function preloadFonts() {
         if (!document.fonts || !document.fonts.load) return Promise.resolve();
         let sample = 'Water';
-        const w = (window.POSTER_WORDS && window.POSTER_WORDS.water) || {};
-        for (const k in w) { sample += w[k].native + (w[k].roman || ''); }
+        const words = (window.POSTER_WORDS || {});
+        for (const word in words) {
+          const w = words[word];
+          for (const k in w) { sample += w[k].native + (w[k].roman || ''); }
+        }
         return Promise.all(FAMILIES.map(fam =>
           document.fonts.load("1px '" + fam + "'", sample).catch(function () { return null; })
         )).then(function () { return document.fonts.ready; }).catch(function () { return null; });
       }
-      function draw(geojson) { window.PosterRender.render(geojson, { word: 'water', width: 2000 }); }
+      const sel = document.getElementById('word-select');
+      let currentWord = 'water';
+      function draw(geojson) { window.PosterRender.render(geojson, { word: currentWord, width: 2000 }); }
+      // Populate the word picker from the available word tables.
+      Object.keys(window.POSTER_WORDS || { water: 1 }).forEach(function (word) {
+        const o = document.createElement('option');
+        o.value = word; o.textContent = word;
+        sel.appendChild(o);
+      });
+      sel.value = currentWord;
       Promise.all([fetch(SRC).then(r => r.json()), preloadFonts()]).then(([geojson]) => {
         draw(geojson);
         // Safety net: if any subset was still settling at measure time, redraw
@@ -59,6 +72,7 @@
         if (document.fonts && document.fonts.ready) {
           document.fonts.ready.then(function () { setTimeout(function () { draw(geojson); }, 300); });
         }
+        sel.addEventListener('change', function () { currentWord = sel.value; draw(geojson); });
       }).catch(err => {
         document.getElementById('poster-root').textContent = 'Could not load country data: ' + err;
       });

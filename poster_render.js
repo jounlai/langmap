@@ -126,8 +126,10 @@
     const words = (window.POSTER_WORDS || {})[(opts && opts.word) || 'water'] || {};
     const langs = window.POSTER_LANGS || {};
     for (const f of feats) {
-      const entry = words[f.iso];
-      if (!entry || !langs[f.iso]) continue;
+      const lang = langs[f.iso];
+      if (!lang) continue;
+      const entry = words[lang.code]; // word data is keyed by language code
+      if (!entry) continue;
       const pts = largestProjectedRing(f.geom, width, G);
       if (!pts || pts.length < 3) continue;
       const pl = G.polylabel([pts], 1.0);
@@ -207,5 +209,5 @@
     window.PosterRender._lastSvg = svg;
   }
 
-  window.PosterRender = { render: render, _lastSvg: null, version: 11 };
+  window.PosterRender = { render: render, _lastSvg: null, version: 12 };
 })();

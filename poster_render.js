@@ -4,7 +4,11 @@
   const SVGNS = 'http://www.w3.org/2000/svg';
   const PALETTE = ['#c7dcc1', '#e6d3a3', '#cdd7e8', '#e8c9c2', '#d8cfe0', '#cfe3e0'];
   // Single font stack for the whole poster (labels + measurement must match).
-  const FONT = 'sans-serif';
+  // Noto Sans across every script the labels use; falls back to sans-serif.
+  const FONT = "'Noto Sans','Noto Sans JP','Noto Sans KR','Noto Sans SC'," +
+    "'Noto Sans Arabic','Noto Sans Hebrew','Noto Sans Devanagari','Noto Sans Bengali'," +
+    "'Noto Sans Thai','Noto Sans Lao','Noto Sans Khmer','Noto Sans Myanmar'," +
+    "'Noto Sans Georgian','Noto Sans Armenian','Noto Sans Ethiopic','Noto Sans Sinhala',sans-serif";
 
   // Measure text width at font-size 1px using a shared offscreen canvas.
   const _ctx = document.createElement('canvas').getContext('2d');
@@ -153,7 +157,7 @@
       native.setAttribute('font-family', FONT);
       native.setAttribute('font-size', size.toFixed(1));
       native.setAttribute('fill', '#20242a');
-      native.setAttribute('dy', hasRoman ? (-size * 0.08).toFixed(1) : (size * 0.35).toFixed(1));
+      native.setAttribute('dy', hasRoman ? (-size * 0.10).toFixed(1) : (size * 0.35).toFixed(1));
       native.textContent = entry.native;
       g.appendChild(native);
 
@@ -163,7 +167,7 @@
         roman.setAttribute('font-family', FONT);
         roman.setAttribute('font-size', (size * 0.55).toFixed(1));
         roman.setAttribute('fill', '#555b63');
-        roman.setAttribute('dy', (size * 0.46).toFixed(1));
+        roman.setAttribute('dy', (size * 0.56).toFixed(1));
         roman.textContent = entry.roman;
         g.appendChild(roman);
       }

@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WordMap Poster — water</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Noto+Sans+Arabic&family=Noto+Sans+Armenian&family=Noto+Sans+Bengali&family=Noto+Sans+Devanagari&family=Noto+Sans+Ethiopic&family=Noto+Sans+Georgian&family=Noto+Sans+Hebrew&family=Noto+Sans+JP&family=Noto+Sans+KR&family=Noto+Sans+Khmer&family=Noto+Sans+Lao&family=Noto+Sans+Myanmar&family=Noto+Sans+SC&family=Noto+Sans+Sinhala&family=Noto+Sans+Thai&display=swap">
   <style>
     html, body { margin: 0; background: #f4f4f2; font-family: system-ui, sans-serif; }
     #bar { padding: 10px 14px; display: flex; gap: 10px; align-items: center; }
@@ -26,7 +29,12 @@
   <script>
     (function () {
       const SRC = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
-      fetch(SRC).then(r => r.json()).then(geojson => {
+      // Wait for both the country data AND the Noto fonts so the fit
+      // measurement (canvas) sees the real glyph metrics, not a fallback.
+      Promise.all([
+        fetch(SRC).then(r => r.json()),
+        (document.fonts && document.fonts.ready) || Promise.resolve()
+      ]).then(([geojson]) => {
         window.PosterRender.render(geojson, { word: 'water', width: 1600 });
       }).catch(err => {
         document.getElementById('poster-root').textContent = 'Could not load country data: ' + err;

@@ -1018,7 +1018,7 @@ WORDS.i = {
       mga: ["mé", "mʲeː"],
       hbo: ["אֲנִי", "ʔaˈniː"],
       he_mis: ["אֲנִי", "ʔaˈni"],
-      hy_grab: ["ես", "jes"],
+      hy_grab: ["ես", "es"],
       mpt: ["naka", "naka"],
       ygr: ["dgai", "dɡai"],
       roo: ["ragai", "raɡai"],

@@ -115,7 +115,12 @@
       const hasRoman = typeof entry.roman === 'string' && entry.roman.length > 0;
       const lineCount = hasRoman ? 1.55 : 1; // roman line is 0.55× tall
 
-      const size = G.fitFontSize(measureAt1px, entry.native, boxLong, boxShort, lineCount, MAX_FONT);
+      let size = G.fitFontSize(measureAt1px, entry.native, boxLong, boxShort, lineCount, MAX_FONT);
+      if (hasRoman) {
+        // The roman line renders at 0.55× size; make sure it also fits the box width.
+        const romanMax = boxLong / (0.55 * (measureAt1px(entry.roman) || 1e-6));
+        size = Math.min(size, romanMax);
+      }
       if (size < 4) continue; // too small to be legible in MVP → omit (v2 handles tiny)
 
       // Rotate to the major axis, but keep near-horizontal upright.

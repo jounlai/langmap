@@ -38,3 +38,18 @@ assert.ok(!(pll.x > 4 && pll.y > 4), 'L-shape label avoids the notch');
 assert.ok(pll.distance > 0, 'L-shape has positive inscribed radius');
 
 console.log('poster_geo Task 2: OK');
+
+// A horizontal 20x4 rectangle → major axis ≈ 0 rad, width≈20, height≈4.
+const wide = [[0, 0], [20, 0], [20, 4], [0, 4]];
+const ob = G.orientedBox(wide);
+near(Math.abs(ob.angleRad), 0, 0.02, 'wide box axis ~horizontal');
+near(ob.width, 20, 0.001, 'wide box long extent');
+near(ob.height, 4, 0.001, 'wide box short extent');
+
+// A vertical 4x20 rectangle → axis ≈ ±π/2, width≈20 (long), height≈4.
+const tall = [[0, 0], [4, 0], [4, 20], [0, 20]];
+const ot = G.orientedBox(tall);
+near(Math.abs(ot.angleRad), Math.PI / 2, 0.02, 'tall box axis ~vertical');
+near(ot.width, 20, 0.001, 'tall box long extent');
+
+console.log('poster_geo Task 3: OK');

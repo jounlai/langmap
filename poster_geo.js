@@ -93,8 +93,39 @@
     return { x: best.x, y: best.y, distance: best.d };
   }
 
+  // Principal-axis oriented box via covariance (PCA).
+  function orientedBox(points) {
+    const n = points.length;
+    let mx = 0, my = 0;
+    for (const p of points) { mx += p[0]; my += p[1]; }
+    mx /= n; my /= n;
+    let cxx = 0, cxy = 0, cyy = 0;
+    for (const p of points) {
+      const dx = p[0] - mx, dy = p[1] - my;
+      cxx += dx * dx; cxy += dx * dy; cyy += dy * dy;
+    }
+    cxx /= n; cxy /= n; cyy /= n;
+    let angle = 0.5 * Math.atan2(2 * cxy, cxx - cyy);
+    const ca = Math.cos(angle), sa = Math.sin(angle);
+    let minU = Infinity, maxU = -Infinity, minV = Infinity, maxV = -Infinity;
+    for (const p of points) {
+      const dx = p[0] - mx, dy = p[1] - my;
+      const u = dx * ca + dy * sa, v = -dx * sa + dy * ca;
+      if (u < minU) minU = u; if (u > maxU) maxU = u;
+      if (v < minV) minV = v; if (v > maxV) maxV = v;
+    }
+    let width = maxU - minU, height = maxV - minV;
+    // Ensure width is the LONG extent; if not, rotate axis 90°.
+    if (height > width) {
+      angle += (angle > 0 ? -Math.PI / 2 : Math.PI / 2);
+      const t = width; width = height; height = t;
+    }
+    return { angleRad: angle, width: width, height: height, cx: mx, cy: my };
+  }
+
   return {
     projectNaturalEarth: projectNaturalEarth,
     polylabel: polylabel,
+    orientedBox: orientedBox,
   };
 });

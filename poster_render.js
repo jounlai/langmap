@@ -205,5 +205,5 @@
     window.PosterRender._lastSvg = svg;
   }
 
-  window.PosterRender = { render: render, _lastSvg: null };
+  window.PosterRender = { render: render, _lastSvg: null, version: 9 };
 })();

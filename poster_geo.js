@@ -24,17 +24,13 @@
 
   // --- polylabel (pole of inaccessibility), after Mapbox's algorithm ---
   function pointToPolygonDist(x, y, rings) {
-    let inside = false, minDistSq = Infinity;
-    for (let r = 0; r < rings.length; r++) {
-      const ring = rings[r];
-      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
-        const a = ring[i], b = ring[j];
-        if ((a[1] > y) !== (b[1] > y) &&
-            x < (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0]) inside = !inside;
-        minDistSq = Math.min(minDistSq, segDistSq(x, y, a, b));
-      }
-    }
-    return (inside ? 1 : -1) * Math.sqrt(minDistSq);
+    let minDistSq = Infinity;
+    for (const ring of rings)
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++)
+        minDistSq = Math.min(minDistSq, segDistSq(x, y, ring[i], ring[j]));
+    // `_pointInRings` is a hoisted declaration further down — single source of
+    // truth for the even-odd inside test (shared with rectInPolygon).
+    return (_pointInRings(x, y, rings) ? 1 : -1) * Math.sqrt(minDistSq);
   }
   function segDistSq(px, py, a, b) {
     let x = a[0], y = a[1], dx = b[0] - x, dy = b[1] - y;
@@ -166,14 +162,6 @@
     return color;
   }
 
-  // Font-fit calculation: largest font size that fits text in a box.
-  function fitFontSize(measureAt1px, text, boxW, boxH, lineCount, maxFont) {
-    const w1 = measureAt1px(text) || 1e-6;
-    const byWidth = boxW / w1;
-    const byHeight = boxH / (lineCount * 1.2);
-    return Math.min(byWidth, byHeight, maxFont);
-  }
-
   // Signed clearance of a point to the polygon border (positive = inside).
   function interiorDistance(rings, x, y) { return pointToPolygonDist(x, y, rings); }
 
@@ -204,6 +192,17 @@
         for (let i = 0, j = ring.length - 1; i < ring.length; j = i++)
           if (_segHit(r1, r2, ring[i], ring[j])) return false;
     }
+    // A hole swallowed WHOLE by the rectangle wouldn't cross any rect edge, so
+    // also reject when a hole vertex lies inside the rect (non-polygon area).
+    // Convention: rings[0] is the outer boundary; rings[1..] are holes.
+    for (let r = 1; r < rings.length; r++) {
+      const ring = rings[r];
+      for (let i = 0; i < ring.length; i++) {
+        const dx = ring[i][0] - cx, dy = ring[i][1] - cy;
+        const u = dx * ca + dy * sa, v = -dx * sa + dy * ca;
+        if (Math.abs(u) < halfW && Math.abs(v) < halfH) return false;
+      }
+    }
     return true;
   }
 
@@ -213,7 +212,6 @@
     orientedBox: orientedBox,
     buildAdjacency: buildAdjacency,
     greedyColor: greedyColor,
-    fitFontSize: fitFontSize,
     interiorDistance: interiorDistance,
     rectInPolygon: rectInPolygon,
   };

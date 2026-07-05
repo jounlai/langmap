@@ -22,9 +22,9 @@
   </div>
   <div id="poster-wrap"><div id="poster-root"></div></div>
 
-  <script src="poster_geo.js?v=12"></script>
-  <script src="poster_langs.js?v=12"></script>
-  <script src="poster_render.js?v=12"></script>
+  <script src="poster_geo.js?v=13"></script>
+  <script src="poster_langs.js?v=13"></script>
+  <script src="poster_render.js?v=13"></script>
   <script>
     (function () {
       const SRC = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
@@ -34,11 +34,8 @@
       // which inflates the fitted width and wrongly drops small non-Latin
       // countries. So explicitly load the exact glyph subsets every label needs
       // BEFORE measuring/rendering.
-      const FAMILIES = ['Noto Sans', 'Noto Sans Arabic', 'Noto Sans Armenian',
-        'Noto Sans Bengali', 'Noto Sans Devanagari', 'Noto Sans Ethiopic',
-        'Noto Sans Georgian', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR',
-        'Noto Sans Khmer', 'Noto Sans Lao', 'Noto Sans Myanmar', 'Noto Sans SC',
-        'Noto Sans Sinhala', 'Noto Sans Thai', 'Noto Serif Tibetan'];
+      // Font families come from the renderer (single source of truth).
+      const FAMILIES = (window.PosterRender && window.PosterRender.FAMILIES) || ['Noto Sans'];
       // Concatenate every glyph the labels use, then load EACH family's needed
       // subset for that sample. Loading per-family (not a multi-family shorthand)
       // is what reliably pulls the Arabic/Bengali/… subsets that lazy Google
@@ -67,10 +64,13 @@
       sel.value = currentWord;
       Promise.all([fetch(SRC).then(r => r.json()), preloadFonts()]).then(([geojson]) => {
         draw(geojson);
-        // Safety net: if any subset was still settling at measure time, redraw
-        // once every font is truly ready so no country is wrongly dropped.
+        // Deterministic safety net: once EVERY family reports loaded, redraw so no
+        // label was mis-measured against a fallback (cached geometry → cheap).
         if (document.fonts && document.fonts.ready) {
-          document.fonts.ready.then(function () { setTimeout(function () { draw(geojson); }, 300); });
+          document.fonts.ready.then(function () {
+            if (!FAMILIES.every(function (f) { return document.fonts.check("1px '" + f + "'"); })) return;
+            draw(geojson);
+          });
         }
         sel.addEventListener('change', function () { currentWord = sel.value; draw(geojson); });
       }).catch(err => {

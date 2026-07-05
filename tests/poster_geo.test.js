@@ -69,13 +69,24 @@ assert.notStrictEqual(colors.get('B'), colors.get('C'), 'B,C differ');
 
 console.log('poster_geo Task 4: OK');
 
-// Fake monospace measurer: width at 1px = 0.6 * charCount.
-const measure = (t) => 0.6 * t.length;
-// "abcd" (w1=2.4). Box 24 wide, 100 tall, 1 line, cap 40 → width-bound: 24/2.4 = 10.
-near(G.fitFontSize(measure, 'abcd', 24, 100, 1, 40), 10, 1e-9, 'width-bound fit');
-// Tall-limited: box 1000 wide, 24 tall, 2 lines → 24/(2*1.2)=10.
-near(G.fitFontSize(measure, 'abcd', 1000, 24, 2, 40), 10, 1e-9, 'height-bound fit');
-// Cap applies: huge box → clamps to maxFont.
-near(G.fitFontSize(measure, 'abcd', 1e6, 1e6, 1, 28), 28, 1e-9, 'font cap applied');
+// interiorDistance: signed clearance to the border (positive inside).
+const sq10 = [[[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]]];
+near(G.interiorDistance(sq10, 5, 5), 5, 0.3, 'center clearance ≈ half-side');
+assert.ok(G.interiorDistance(sq10, -1, 5) < 0, 'outside point is negative');
 
-console.log('poster_geo Task 5: OK');
+// rectInPolygon: exact rotated-rectangle containment (the real fit predicate).
+assert.ok(G.rectInPolygon(sq10, 5, 5, 2, 2, 0), '4×4 box fits inside 10×10');
+assert.ok(!G.rectInPolygon(sq10, 5, 5, 6, 6, 0), '12×12 box does not fit');
+
+// HOLE handling (enclave): a point inside a hole is OUTSIDE the polygon, and a
+// rectangle overlapping the hole is rejected — this is what keeps a country's
+// label from spilling into an enclave carved out of it.
+const holed = [
+  [[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]],   // outer
+  [[4, 4], [6, 4], [6, 6], [4, 6], [4, 4]],        // hole
+];
+assert.ok(G.interiorDistance(holed, 5, 5) < 0, 'point in the hole is outside');
+assert.ok(!G.rectInPolygon(holed, 5, 5, 2, 2, 0), 'box over the hole is rejected');
+assert.ok(G.rectInPolygon(holed, 2, 2, 1, 1, 0), 'box clear of the hole fits');
+
+console.log('poster_geo Task 5: OK (interiorDistance + rectInPolygon + holes)');

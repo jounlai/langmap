@@ -76,10 +76,12 @@
     const root = document.getElementById('poster-root');
     root.innerHTML = '';
 
-    // Keep only features we can key and that have geometry.
+    // Keep only features we can key and that have geometry. Antarctica is
+    // dropped entirely (uninhabited landmass, no language to show).
+    const EXCLUDE = { ATA: 1 };
     const feats = geojson.features
       .map(f => ({ iso: isoOf(f), geom: f.geometry }))
-      .filter(f => f.iso && f.geom);
+      .filter(f => f.iso && f.geom && !EXCLUDE[f.iso]);
 
     // Adjacency uses raw lng/lat outer rings.
     const adjInput = feats.map(f => ({
@@ -205,5 +207,5 @@
     window.PosterRender._lastSvg = svg;
   }
 
-  window.PosterRender = { render: render, _lastSvg: null, version: 9 };
+  window.PosterRender = { render: render, _lastSvg: null, version: 11 };
 })();

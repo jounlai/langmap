@@ -27,12 +27,27 @@
   <script>
     (function () {
       const SRC = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
-      // Wait for both the country data AND the Noto fonts so the fit
-      // measurement (canvas) sees the real glyph metrics, not a fallback.
-      Promise.all([
-        fetch(SRC).then(r => r.json()),
-        (document.fonts && document.fonts.ready) || Promise.resolve()
-      ]).then(([geojson]) => {
+      // Google Fonts subsets are lazy-loaded per script and NOT covered by
+      // document.fonts.ready until something uses them. Canvas measureText on an
+      // unloaded script (Arabic, Bengali, …) returns fallback/.notdef metrics,
+      // which inflates the fitted width and wrongly drops small non-Latin
+      // countries. So explicitly load the exact glyph subsets every label needs
+      // BEFORE measuring/rendering.
+      const STACK = "1px 'Noto Sans','Noto Sans Arabic','Noto Sans Armenian'," +
+        "'Noto Sans Bengali','Noto Sans Devanagari','Noto Sans Ethiopic'," +
+        "'Noto Sans Georgian','Noto Sans Hebrew','Noto Sans JP','Noto Sans KR'," +
+        "'Noto Sans Khmer','Noto Sans Lao','Noto Sans Myanmar','Noto Sans SC'," +
+        "'Noto Sans Sinhala','Noto Sans Thai','Noto Serif Tibetan'";
+      function preloadFonts() {
+        if (!document.fonts || !document.fonts.load) return Promise.resolve();
+        const strings = new Set(['Water']);
+        const w = (window.POSTER_WORDS && window.POSTER_WORDS.water) || {};
+        for (const k in w) { strings.add(w[k].native); if (w[k].roman) strings.add(w[k].roman); }
+        return Promise.all(Array.from(strings).map(s =>
+          document.fonts.load(STACK, s).catch(function () { return null; })
+        )).then(function () { return document.fonts.ready; }).catch(function () { return null; });
+      }
+      Promise.all([fetch(SRC).then(r => r.json()), preloadFonts()]).then(([geojson]) => {
         window.PosterRender.render(geojson, { word: 'water', width: 2000 });
       }).catch(err => {
         document.getElementById('poster-root').textContent = 'Could not load country data: ' + err;

@@ -4,6 +4,29 @@
   const SVGNS = 'http://www.w3.org/2000/svg';
   const PALETTE = ['#c7dcc1', '#e6d3a3', '#cdd7e8', '#e8c9c2', '#d8cfe0', '#cfe3e0'];
 
+  // Measure text width at font-size 1px using a shared offscreen canvas.
+  const _ctx = document.createElement('canvas').getContext('2d');
+  function measureAt1px(text, fontFamily) {
+    _ctx.font = '1px ' + (fontFamily || 'system-ui, sans-serif');
+    return _ctx.measureText(text).width;
+  }
+  const MAX_FONT = 28;
+
+  // Largest-area projected outer ring for a feature → points + rings for polylabel.
+  function largestProjectedRing(geom, width, G) {
+    let best = null, bestArea = -1;
+    for (const poly of polygonsOf(geom)) {
+      const a = ringArea(poly[0]);
+      if (a > bestArea) { bestArea = a; best = poly[0]; }
+    }
+    if (!best) return null;
+    const pts = best.map(c => {
+      const p = G.projectNaturalEarth(c[0], c[1], { width });
+      return [p.x, p.y];
+    });
+    return pts;
+  }
+
   function isoOf(feature) {
     const p = feature.properties || {};
     const iso = p['ISO3166-1-Alpha-3'];
@@ -73,6 +96,55 @@
       path.setAttribute('stroke', '#8a8f96');
       path.setAttribute('stroke-width', '0.6');
       svg.appendChild(path);
+    }
+
+    const words = (window.POSTER_WORDS || {})[(opts && opts.word) || 'water'] || {};
+    const langs = window.POSTER_LANGS || {};
+    for (const f of feats) {
+      const entry = words[f.iso];
+      if (!entry || !langs[f.iso]) continue;
+      const pts = largestProjectedRing(f.geom, width, G);
+      if (!pts || pts.length < 3) continue;
+      const pl = G.polylabel([pts], 1.0);
+      const ob = G.orientedBox(pts);
+      if (pl.distance <= 0) continue;
+
+      // Inscribed box from the largest inscribed circle, biased to the major axis.
+      const boxLong = Math.min(ob.width, pl.distance * 2 * 1.6);
+      const boxShort = Math.min(ob.height, pl.distance * 2);
+      const hasRoman = typeof entry.roman === 'string' && entry.roman.length > 0;
+      const lineCount = hasRoman ? 1.55 : 1; // roman line is 0.55× tall
+
+      const size = G.fitFontSize(measureAt1px, entry.native, boxLong, boxShort, lineCount, MAX_FONT);
+      if (size < 4) continue; // too small to be legible in MVP → omit (v2 handles tiny)
+
+      // Rotate to the major axis, but keep near-horizontal upright.
+      let deg = ob.angleRad * 180 / Math.PI;
+      if (Math.abs(deg) < 12) deg = 0;
+
+      const g = document.createElementNS(SVGNS, 'g');
+      g.setAttribute('transform', `translate(${pl.x.toFixed(1)} ${pl.y.toFixed(1)}) rotate(${deg.toFixed(1)})`);
+
+      const native = document.createElementNS(SVGNS, 'text');
+      native.setAttribute('text-anchor', 'middle');
+      native.setAttribute('font-family', 'system-ui, sans-serif');
+      native.setAttribute('font-size', size.toFixed(1));
+      native.setAttribute('fill', '#20242a');
+      native.setAttribute('dy', hasRoman ? (-size * 0.15).toFixed(1) : (size * 0.35).toFixed(1));
+      native.textContent = entry.native;
+      g.appendChild(native);
+
+      if (hasRoman) {
+        const roman = document.createElementNS(SVGNS, 'text');
+        roman.setAttribute('text-anchor', 'middle');
+        roman.setAttribute('font-family', 'system-ui, sans-serif');
+        roman.setAttribute('font-size', (size * 0.55).toFixed(1));
+        roman.setAttribute('fill', '#555b63');
+        roman.setAttribute('dy', (size * 0.7).toFixed(1));
+        roman.textContent = entry.roman;
+        g.appendChild(roman);
+      }
+      svg.appendChild(g);
     }
 
     root.appendChild(svg);

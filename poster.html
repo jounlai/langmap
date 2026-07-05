@@ -6,7 +6,7 @@
   <title>WordMap Poster — water</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Noto+Sans+Arabic&family=Noto+Sans+Armenian&family=Noto+Sans+Bengali&family=Noto+Sans+Devanagari&family=Noto+Sans+Ethiopic&family=Noto+Sans+Georgian&family=Noto+Sans+Hebrew&family=Noto+Sans+JP&family=Noto+Sans+KR&family=Noto+Sans+Khmer&family=Noto+Sans+Lao&family=Noto+Sans+Myanmar&family=Noto+Sans+SC&family=Noto+Sans+Sinhala&family=Noto+Sans+Thai&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Noto+Sans+Arabic&family=Noto+Sans+Armenian&family=Noto+Sans+Bengali&family=Noto+Sans+Devanagari&family=Noto+Sans+Ethiopic&family=Noto+Sans+Georgian&family=Noto+Sans+Hebrew&family=Noto+Sans+JP&family=Noto+Sans+KR&family=Noto+Sans+Khmer&family=Noto+Sans+Lao&family=Noto+Sans+Myanmar&family=Noto+Sans+SC&family=Noto+Sans+Sinhala&family=Noto+Sans+Thai&family=Noto+Serif+Tibetan&display=swap">
   <style>
     html, body { margin: 0; background: #f4f4f2; font-family: system-ui, sans-serif; }
     #bar { padding: 10px 14px; display: flex; gap: 10px; align-items: center; }
@@ -18,8 +18,6 @@
 <body>
   <div id="bar">
     <strong>WordMap Poster — “water”</strong>
-    <button id="dl-svg" type="button">Download SVG</button>
-    <button id="dl-png" type="button">Download PNG</button>
   </div>
   <div id="poster-wrap"><div id="poster-root"></div></div>
 
@@ -39,8 +37,6 @@
       }).catch(err => {
         document.getElementById('poster-root').textContent = 'Could not load country data: ' + err;
       });
-      document.getElementById('dl-svg').addEventListener('click', () => window.PosterRender.downloadSVG());
-      document.getElementById('dl-png').addEventListener('click', () => window.PosterRender.downloadPNG(2));
     })();
   </script>
 </body>

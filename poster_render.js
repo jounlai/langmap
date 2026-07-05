@@ -8,7 +8,8 @@
   const FONT = "'Noto Sans','Noto Sans JP','Noto Sans KR','Noto Sans SC'," +
     "'Noto Sans Arabic','Noto Sans Hebrew','Noto Sans Devanagari','Noto Sans Bengali'," +
     "'Noto Sans Thai','Noto Sans Lao','Noto Sans Khmer','Noto Sans Myanmar'," +
-    "'Noto Sans Georgian','Noto Sans Armenian','Noto Sans Ethiopic','Noto Sans Sinhala',sans-serif";
+    "'Noto Sans Georgian','Noto Sans Armenian','Noto Sans Ethiopic','Noto Sans Sinhala'," +
+    "'Noto Serif Tibetan',sans-serif";
 
   // Measure text width at font-size 1px using a shared offscreen canvas.
   const _ctx = document.createElement('canvas').getContext('2d');
@@ -178,43 +179,5 @@
     window.PosterRender._lastSvg = svg;
   }
 
-  function _serialize() {
-    const svg = window.PosterRender._lastSvg;
-    if (!svg) return null;
-    const clone = svg.cloneNode(true);
-    clone.setAttribute('xmlns', SVGNS);
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + new XMLSerializer().serializeToString(clone);
-  }
-  function _download(blob, name) {
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url; a.download = name; a.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
-  }
-  function downloadSVG() {
-    const s = _serialize();
-    if (s) _download(new Blob([s], { type: 'image/svg+xml' }), 'wordmap-poster-water.svg');
-  }
-  function downloadPNG(scale) {
-    const s = _serialize();
-    const svg = window.PosterRender._lastSvg;
-    if (!s || !svg) return;
-    scale = scale || 2;
-    const vb = svg.getAttribute('viewBox').split(/\s+/).map(Number);
-    const w = vb[2] * scale, h = vb[3] * scale;
-    const img = new Image();
-    img.onload = function () {
-      const cv = document.createElement('canvas');
-      cv.width = w; cv.height = h;
-      const cx = cv.getContext('2d');
-      cx.drawImage(img, 0, 0, w, h);
-      cv.toBlob(b => { if (b) _download(b, 'wordmap-poster-water.png'); }, 'image/png');
-    };
-    img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(s)));
-  }
-
-  window.PosterRender = {
-    render: render, _lastSvg: null,
-    downloadSVG: downloadSVG, downloadPNG: downloadPNG,
-  };
+  window.PosterRender = { render: render, _lastSvg: null };
 })();

@@ -1,0 +1,14 @@
+# Wordmap review #366 — Caucasian (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Tamar Khelaia-Voss, a descriptive/historical linguist working across all three Caucasian families (Kartvelian, Nakh-Daghestanian, Abkhaz-Adyghe). For this round I cross-checked every cell against my standard shelf: for Kartvelian, Klimov's *Etymological Dictionary of the Kartvelian Languages* (1998) and Fähnrich's *Kartwelisches etymologisches Wörterbuch* (2007), plus Hewitt's Georgian grammar and Tuite's Svan materials; for Nakh, Nichols' *Chechen* and *Ingush* grammars and Desheriev; for the Lezgic branch, Haspelmath's *A Grammar of Lezgian* (1993), Talibov & Gadzhiev's Lezgian dictionary, Alekseev's comparative Lezgic work, Kibrik & Kodzasov on Archi and Khinalug, and Schulze on Udi/Caucasian Albanian (Gippert–Schulze palimpsest edition); for Avar-Andic, Charachidzé and Salimov (Andi); for Tsezic, van den Berg's *A Grammar of Hunzib* (1995), Comrie & Polinsky and Khalilova (Khwarshi) plus Bokarev's comparative Tsezic; and for Abkhaz-Adyghe, Hewitt's *Abkhaz*, Chirikba's *Abaza*, Vogt's *Dictionnaire de la langue oubykh* (1963), and Kuipers/Smeets on Circassian. I paid particular attention to the recurrent Caucasian traps: the *fire* (Avar цӀа) vs *star* (Avar цӀва) vs *name* (Avar цӀар) near-homophony across Avar-Andic and Nakh; labialization/pharyngealization diacritics in Nakh and NW Caucasian; and ejective marking in Abaza/Ubykh Latin-and-Cyrillic transcription.
+
+## Issues found
+No errors found — all cells verified correct.
+
+The pronoun cells are correctly the singular *informal* series throughout (Georgian შენ not the honorific თქვენ; Lak ина; Tsakhur ғу /ʁu/ correctly, not the 1sg зы). The numerals are all cardinal "2", not ordinals. The *name* column correctly reflects the *tsʼe(r)* etymon in Avar-Andic/Nakh/Tsezic (цӀар/цӀер/цӀе/цӀи) and the *tʼʷar ~ dur ~ do* etymon across Lezgic, and is never confused with the homophonous *fire*/*proper name* senses. The *star* column keeps the celestial sense throughout, including the tricky Avar-Andic reflexes of *tsʼʷa*- (Avar цӀва : Andi цӀай, a regular *-ʷa > -aj correspondence, distinct from though homophonous-looking with 'fire'), the Nakh split (Chechen седа vs Ingush седкъа), the Tsezic цӀирис/цӀуни forms, and the NW Caucasian *t͡sʷʼa* reflexes (Abkhaz аеҵәа, Abaza аяҵва). Nakh labialization/epiglottal diacritics (Chechen со [sʷo], хьо [ʜʷo]) and Circassian э=/a/ vocalism (сэ [sa], о [wə]) are transcribed consistently with Nichols and Kuipers. Ubykh forms match Vogt. No script, sense, or IPA error rises to the level of a confident correction.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes required for this domain; `node validate_wordmap_data.js` passing.
+
+**File status: CLOSED**

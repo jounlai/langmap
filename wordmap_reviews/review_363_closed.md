@@ -1,0 +1,14 @@
+# Wordmap review #363 — Austronesian (W) (part 2) (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Ligiljau Tjaruzaljum, a descriptive linguist specializing in the Formosan (Taiwan Austronesian) subgroups and their western outliers in Borneo and Sulawesi. My working references for this batch are: Raleigh Ferrell, *Paiwan Dictionary* (Pacific Linguistics C-73, 1982); Søren Egerod, *Atayal–English Dictionary* (2nd ed., 1999); Rik De Busser, *A Grammar of Takivatan Bunun* (2009) and Nojima's Bunun lexicon; Elizabeth Zeitoun's Tsou and Seediq/Truku reference grammars plus Naomi Tsukida's Seediq work; Stacy Fang-kuei Teng, *A Reference Grammar of Puyuma* (Pacific Linguistics 595, 2008) and Josiane Cauquelin's Puyuma materials; Robert Blust, *Thao Dictionary* (2003); the Council of Indigenous Peoples' Sakizaya orthographic lexicon; for the western languages, the *Kadazan Dusun–Malay–English Dictionary* (KDCA), August Hardeland's and the Summer Institute's Ngaju materials, and H. van der Veen, *Tae'(Zuid-Toradjasch)–Nederlandsch Woordenboek* (1940). I cross-checked every cell against Proto-Austronesian etyma (Blust's ACD: *aku 'I', *iSu/*kaSu '2sg', *duSa 'two', *ŋajan/*aŋan 'name', *bituqen 'star') to confirm regular sound-change reflexes.
+
+## Issues found
+No errors found — all cells verified correct.
+
+All 55 cells were checked. Every pronoun is the singular informal (non-honorific, non-plural) form: Paiwan *tiaken/sun*, Atayal *kuzing/isu'*, Bunun *saikin/suu*, Truku *yaku/isu*, Tsou *a'o/suu*, Puyuma *ku/yu* (the standard nominative forms), Sakizaya *zaku/kisu*, Thao *yaku/ihu*, Kadazan-Dusun *yoku/ika*, Ngaju *aku/ikau*, Toraja-Sa'dan *aku/iko*. Every "two" is the cardinal numeral 2, not an ordinal, correctly reflecting *duSa (Formosan *dusa/tusa/drusa* with regular retroflex and dental splits; Truku *dha* /daha/ with expected syncope). Every "name" reflects either *ŋajan (*ngadan/ngaan/ngaran/hangan/lalu'*, Amis-type *ngangan*) or an independent root (Thao *tanan*, Toraja *sanga*). Every "star" is the celestial noun, showing regular reflexes of *bituqen (Paiwan *vituqan*, Puyuma *vituwan*, Bunun *bintuhan*, Thao *fitu'ish* /fituʔiʃ/, Sakizaya *bo'is* /boʔis/ = Amis *fo'is* with b/f correspondence, Dusun *rombituon*) or established forms (Atayal *pintuxan*, Truku *pngrah*, Tsou *congroha*, Toraja *bintoen*, Ngaju *bintang*). The IPA is segmentally sound — Paiwan /ə/ for ⟨e⟩, retroflex /ɖ/ in Paiwan *drusa*, /ʔ/ for the apostrophe throughout, Thao /ʃ/ for ⟨sh⟩ — and no tone marks are expected, as none of these languages is tonal. No native-script issues (all are correctly romanized) and no spurious "—" markers.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes required; `node validate_wordmap_data.js` passing.
+
+**File status: CLOSED**

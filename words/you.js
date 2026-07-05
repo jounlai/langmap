@@ -1114,7 +1114,7 @@ WORDS.you = {
       hak_tw: ["你", "ŋi˩˩"],
       wuu_sz: ["倷", "nɛ˩˧"],
       wuu_wz: ["你", "ni˧˩"],
-      nan_qz: ["汝", "lɯ˥˧"],
+      nan_qz: ["汝", "lɯ˥˥"],
       nan_hai: ["汝", "du˨˩"],
       zh_wh: ["你", "ni˦˨"],
       zh_zz: ["你", "ni˥˧"],

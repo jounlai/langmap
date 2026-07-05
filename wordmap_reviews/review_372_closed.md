@@ -1,0 +1,14 @@
+# Wordmap review #372 — Indo-Iranian (part 2) (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Farrokh Behzadi, a descriptive/historical Iranist and Indo-Aryanist working across the Caspian, Zagros, Pamir, Dardic and Bihari-Pahari peripheries as well as the Old and Middle Iranian corpus languages. My primary references for this batch are: for Old Iranian, Kent's *Old Persian: Grammar, Texts, Lexicon* and Bartholomae's *Altiranisches Wörterbuch* (Avestan); for Middle Iranian, MacKenzie's *A Concise Pahlavi Dictionary*, Gharib's *Sogdian Dictionary*, Durkin-Meisterernst's *Dictionary of Manichaean Middle Persian and Parthian*, and Bailey's *Dictionary of Khotan Saka*; for living NW/Caspian Iranian, Borjian's Mazandarani and Gilaki studies, Paul's *A Grammar of Talysh* (Northern Talyshi), Todd's *A Grammar of Dimili (Zazaki)* and Malmîsanij's Zazaki dictionary; for the Pamir/Eastern group, Grjunberg & Steblin-Kamenskij on Wakhi and Xromov on Yaghnobi; and for Indo-Aryan, Masica's *The Indo-Aryan Languages*, plus grammars/wordlists of Sylheti, Chittagonian, Rohingya, Magahi, Dogri, Hindko, Kangri, Garhwali, Kumaoni, Bhili, Bagri and Chhattisgarhi. I checked each cell for sense (cardinal vs ordinal, informal 2sg vs honorific/plural, common noun vs proper name), native-orthography correctness, and broad-IPA plausibility (vowel length, gemination, nasalization, retroflex/dental contrasts).
+
+## Issues found
+No errors found — all cells verified correct.
+
+All 30 languages were audited concept-by-concept. The 1sg pronouns are correct informal-nominative forms throughout (Caspian mzn *men* / glk *mu* / lrc *me*; Bihari mag *ham*; the Pahari औं/हाऊं Dogri/Kangri series; Old/Middle Iranian *adam / azəm / an / az / azu*; Khotanese *aä*). The 2sg cells are uniformly the informal (T-form) pronoun, never an honorific or plural (syl তুই, rhg *tuñí*, mag तूँ, hne तँय, etc.). The numeral "two" cells are all cardinals, including the Gujarati-type बे/be reflexes in Bhili and Bagri, Wakhi *buy*, Sogdian *aδwa*, and the Old Iranian *duva/dva*. The "name" and "star" nouns are correct common nouns with no proper-name or asterisk contamination; the *stāra/stārag/astārag/setāre/estāre* reflex family and the Indo-Aryan तारा/tara series are all sound, and the Old/Middle Iranian scripts (Old Persian cuneiform, Avestan, Inscriptional Pahlavi) are correctly rendered. IPA transcriptions (vowel length, nasalization on the Pahari/Lahnda forms, dental vs retroflex in Hindko) are within acceptable broad-transcription tolerance.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes required; existing cells confirmed against reference grammars/dictionaries, `node validate_wordmap_data.js` passing.
+
+**File status: CLOSED**

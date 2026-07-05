@@ -123,9 +123,54 @@
     return { angleRad: angle, width: width, height: height, cx: mx, cy: my };
   }
 
+  // Adjacency graph: detects bordering countries via shared border vertices using grid-snap hash.
+  function buildAdjacency(features, eps) {
+    eps = eps || 0.1;
+    const key = (x, y) => Math.round(x / eps) + ',' + Math.round(y / eps);
+    const vertexMap = new Map();
+    for (const f of features) {
+      const seen = new Set();
+      for (const ring of f.rings) for (const pt of ring) {
+        const hk = key(pt[0], pt[1]);
+        if (seen.has(hk)) continue;
+        seen.add(hk);
+        if (!vertexMap.has(hk)) vertexMap.set(hk, new Set());
+        vertexMap.get(hk).add(f.key);
+      }
+    }
+    const adj = new Map();
+    for (const f of features) adj.set(f.key, new Set());
+    for (const keys of vertexMap.values()) {
+      if (keys.size < 2) continue;
+      const arr = Array.from(keys);
+      for (let i = 0; i < arr.length; i++)
+        for (let j = i + 1; j < arr.length; j++) {
+          adj.get(arr[i]).add(arr[j]);
+          adj.get(arr[j]).add(arr[i]);
+        }
+    }
+    return adj;
+  }
+
+  // Welsh–Powell greedy graph coloring.
+  function greedyColor(adj) {
+    const nodes = Array.from(adj.keys()).sort((a, b) => adj.get(b).size - adj.get(a).size);
+    const color = new Map();
+    for (const n of nodes) {
+      const used = new Set();
+      for (const nb of adj.get(n)) if (color.has(nb)) used.add(color.get(nb));
+      let c = 0;
+      while (used.has(c)) c++;
+      color.set(n, c);
+    }
+    return color;
+  }
+
   return {
     projectNaturalEarth: projectNaturalEarth,
     polylabel: polylabel,
     orientedBox: orientedBox,
+    buildAdjacency: buildAdjacency,
+    greedyColor: greedyColor,
   };
 });

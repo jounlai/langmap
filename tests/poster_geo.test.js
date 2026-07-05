@@ -53,3 +53,18 @@ near(Math.abs(ot.angleRad), Math.PI / 2, 0.02, 'tall box axis ~vertical');
 near(ot.width, 20, 0.001, 'tall box long extent');
 
 console.log('poster_geo Task 3: OK');
+
+// Three unit squares in a row: A|B|C. A–B adjacent, B–C adjacent, A–C NOT.
+const A = { key: 'A', rings: [[[0, 0], [1, 0], [1, 1], [0, 1], [0, 0]]] };
+const B = { key: 'B', rings: [[[1, 0], [2, 0], [2, 1], [1, 1], [1, 0]]] };
+const Cc = { key: 'C', rings: [[[2, 0], [3, 0], [3, 1], [2, 1], [2, 0]]] };
+const adj = G.buildAdjacency([A, B, Cc], 0.1);
+assert.ok(adj.get('A').has('B'), 'A adjacent B');
+assert.ok(adj.get('B').has('C'), 'B adjacent C');
+assert.ok(!adj.get('A').has('C'), 'A not adjacent C');
+
+const colors = G.greedyColor(adj);
+assert.notStrictEqual(colors.get('A'), colors.get('B'), 'A,B differ');
+assert.notStrictEqual(colors.get('B'), colors.get('C'), 'B,C differ');
+
+console.log('poster_geo Task 4: OK');

@@ -68,3 +68,14 @@ assert.notStrictEqual(colors.get('A'), colors.get('B'), 'A,B differ');
 assert.notStrictEqual(colors.get('B'), colors.get('C'), 'B,C differ');
 
 console.log('poster_geo Task 4: OK');
+
+// Fake monospace measurer: width at 1px = 0.6 * charCount.
+const measure = (t) => 0.6 * t.length;
+// "abcd" (w1=2.4). Box 24 wide, 100 tall, 1 line, cap 40 → width-bound: 24/2.4 = 10.
+near(G.fitFontSize(measure, 'abcd', 24, 100, 1, 40), 10, 1e-9, 'width-bound fit');
+// Tall-limited: box 1000 wide, 24 tall, 2 lines → 24/(2*1.2)=10.
+near(G.fitFontSize(measure, 'abcd', 1000, 24, 2, 40), 10, 1e-9, 'height-bound fit');
+// Cap applies: huge box → clamps to maxFont.
+near(G.fitFontSize(measure, 'abcd', 1e6, 1e6, 1, 28), 28, 1e-9, 'font cap applied');
+
+console.log('poster_geo Task 5: OK');

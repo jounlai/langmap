@@ -166,11 +166,20 @@
     return color;
   }
 
+  // Font-fit calculation: largest font size that fits text in a box.
+  function fitFontSize(measureAt1px, text, boxW, boxH, lineCount, maxFont) {
+    const w1 = measureAt1px(text) || 1e-6;
+    const byWidth = boxW / w1;
+    const byHeight = boxH / (lineCount * 1.2);
+    return Math.min(byWidth, byHeight, maxFont);
+  }
+
   return {
     projectNaturalEarth: projectNaturalEarth,
     polylabel: polylabel,
     orientedBox: orientedBox,
     buildAdjacency: buildAdjacency,
     greedyColor: greedyColor,
+    fitFontSize: fitFontSize,
   };
 });

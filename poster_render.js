@@ -3,11 +3,13 @@
   'use strict';
   const SVGNS = 'http://www.w3.org/2000/svg';
   const PALETTE = ['#c7dcc1', '#e6d3a3', '#cdd7e8', '#e8c9c2', '#d8cfe0', '#cfe3e0'];
+  // Single font stack for the whole poster (labels + measurement must match).
+  const FONT = 'sans-serif';
 
   // Measure text width at font-size 1px using a shared offscreen canvas.
   const _ctx = document.createElement('canvas').getContext('2d');
   function measureAt1px(text, fontFamily) {
-    _ctx.font = '1px ' + (fontFamily || 'system-ui, sans-serif');
+    _ctx.font = '1px ' + (fontFamily || FONT);
     return _ctx.measureText(text).width;
   }
   const MAX_FONT = 28;
@@ -109,43 +111,59 @@
       const ob = G.orientedBox(pts);
       if (pl.distance <= 0) continue;
 
-      // Inscribed box from the largest inscribed circle, biased to the major axis.
-      const boxLong = Math.min(ob.width, pl.distance * 2 * 1.6);
-      const boxShort = Math.min(ob.height, pl.distance * 2);
+      const FIT_MARGIN = 0.9;
       const hasRoman = typeof entry.roman === 'string' && entry.roman.length > 0;
       const lineCount = hasRoman ? 1.55 : 1; // roman line is 0.55× tall
 
-      let size = G.fitFontSize(measureAt1px, entry.native, boxLong, boxShort, lineCount, MAX_FONT);
-      if (hasRoman) {
-        // The roman line renders at 0.55× size; make sure it also fits the box width.
-        const romanMax = boxLong / (0.55 * (measureAt1px(entry.roman) || 1e-6));
-        size = Math.min(size, romanMax);
+      // Largest font that fits a given box, honoring the romanization line width.
+      const fitFor = (boxW, boxH) => {
+        let s = G.fitFontSize(measureAt1px, entry.native, boxW, boxH, lineCount, MAX_FONT);
+        if (hasRoman) s = Math.min(s, boxW / (0.55 * (measureAt1px(entry.roman) || 1e-6)));
+        return s;
+      };
+
+      // Default: upright text bounded by the inscribed circle (centered on the
+      // pole-of-inaccessibility, so the safe half-extent in any direction is the
+      // inscribed radius → never overflows the border).
+      const insc = pl.distance * 2 * FIT_MARGIN;
+      let size = fitFor(insc, insc);
+      let deg = 0;
+
+      // Rotate ONLY for a decidedly tall/narrow country whose upright text came
+      // out too small — then run the text along the long axis to use the extra
+      // length. Compact countries are never tilted.
+      const aspect = ob.width / Math.max(ob.height, 1e-6);
+      const MIN_UPRIGHT = 10; // px; below this, upright text is cramped
+      if (size < MIN_UPRIGHT && aspect >= 2.2) {
+        const longBox = Math.min(ob.width, pl.distance * 6) * FIT_MARGIN; // exploit length
+        const shortBox = pl.distance * 2 * FIT_MARGIN;                    // still bounded across
+        const rotSize = fitFor(longBox, shortBox);
+        if (rotSize > size) {
+          size = rotSize;
+          deg = ob.angleRad * 180 / Math.PI; // major axis, ∈ [-90, 90]
+        }
       }
       if (size < 4) continue; // too small to be legible in MVP → omit (v2 handles tiny)
-
-      // Rotate to the major axis, but keep near-horizontal upright.
-      let deg = ob.angleRad * 180 / Math.PI;
-      if (Math.abs(deg) < 12) deg = 0;
 
       const g = document.createElementNS(SVGNS, 'g');
       g.setAttribute('transform', `translate(${pl.x.toFixed(1)} ${pl.y.toFixed(1)}) rotate(${deg.toFixed(1)})`);
 
       const native = document.createElementNS(SVGNS, 'text');
       native.setAttribute('text-anchor', 'middle');
-      native.setAttribute('font-family', 'system-ui, sans-serif');
+      native.setAttribute('font-family', FONT);
       native.setAttribute('font-size', size.toFixed(1));
       native.setAttribute('fill', '#20242a');
-      native.setAttribute('dy', hasRoman ? (-size * 0.15).toFixed(1) : (size * 0.35).toFixed(1));
+      native.setAttribute('dy', hasRoman ? (-size * 0.08).toFixed(1) : (size * 0.35).toFixed(1));
       native.textContent = entry.native;
       g.appendChild(native);
 
       if (hasRoman) {
         const roman = document.createElementNS(SVGNS, 'text');
         roman.setAttribute('text-anchor', 'middle');
-        roman.setAttribute('font-family', 'system-ui, sans-serif');
+        roman.setAttribute('font-family', FONT);
         roman.setAttribute('font-size', (size * 0.55).toFixed(1));
         roman.setAttribute('fill', '#555b63');
-        roman.setAttribute('dy', (size * 0.7).toFixed(1));
+        roman.setAttribute('dy', (size * 0.46).toFixed(1));
         roman.textContent = entry.roman;
         g.appendChild(roman);
       }

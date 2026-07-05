@@ -52,7 +52,8 @@
     COG: { code: 'fr' }, GAB: { code: 'fr' }, MLI: { code: 'fr' }, NER: { code: 'fr' },
     TCD: { code: 'fr' }, BFA: { code: 'fr' }, GIN: { code: 'fr' }, BEN: { code: 'fr' },
     TGO: { code: 'fr' }, CAF: { code: 'fr' }, GNB: { code: 'pt' }, LBR: { code: 'en' },
-    SLE: { code: 'en' }, GMB: { code: 'en' },
+    SLE: { code: 'en' }, GMB: { code: 'en' }, SSD: { code: 'en' }, ERI: { code: 'ti' },
+    DJI: { code: 'fr' }, GNQ: { code: 'es' }, ESH: { code: 'ar' }, GRL: { code: 'kl' },
     // Asia
     CHN: { code: 'zh' }, TWN: { code: 'zh' }, HKG: { code: 'yue' }, JPN: { code: 'ja' },
     KOR: { code: 'ko' }, PRK: { code: 'ko' }, MNG: { code: 'mn' }, VNM: { code: 'vi' }, THA: { code: 'th' },
@@ -123,7 +124,9 @@
       NER: { native: 'eau' }, TCD: { native: 'eau' }, BFA: { native: 'eau' },
       GIN: { native: 'eau' }, BEN: { native: 'eau' }, TGO: { native: 'eau' },
       CAF: { native: 'eau' }, GNB: { native: 'água' }, LBR: { native: 'water' },
-      SLE: { native: 'water' }, GMB: { native: 'water' },
+      SLE: { native: 'water' }, GMB: { native: 'water' }, SSD: { native: 'water' },
+      ERI: { native: 'ማይ', roman: 'may' }, DJI: { native: 'eau' }, GNQ: { native: 'agua' },
+      ESH: { native: 'ماء', roman: 'māʼ' }, GRL: { native: 'imeq' },
       // Asia
       CHN: { native: '水', roman: 'shuǐ' }, TWN: { native: '水', roman: 'shuǐ' },
       HKG: { native: '水', roman: 'séui' }, JPN: { native: '水', roman: 'mizu' },

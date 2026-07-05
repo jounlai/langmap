@@ -177,6 +177,36 @@
   // Signed clearance of a point to the polygon border (positive = inside).
   function interiorDistance(rings, x, y) { return pointToPolygonDist(x, y, rings); }
 
+  function _segHit(p1, p2, p3, p4) {
+    const ccw = (a, b, c) => (c[1] - a[1]) * (b[0] - a[0]) > (b[1] - a[1]) * (c[0] - a[0]);
+    return ccw(p1, p3, p4) !== ccw(p2, p3, p4) && ccw(p1, p2, p3) !== ccw(p1, p2, p4);
+  }
+  function _pointInRings(x, y, rings) {
+    let inside = false;
+    for (const ring of rings)
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        const a = ring[i], b = ring[j];
+        if ((a[1] > y) !== (b[1] > y) && x < (b[0] - a[0]) * (y - a[1]) / (b[1] - a[1]) + a[0]) inside = !inside;
+      }
+    return inside;
+  }
+  // True iff the rotated rectangle (centre cx,cy; half extents halfW,halfH;
+  // angle ang) lies FULLY inside the polygon: every corner is interior AND no
+  // rectangle edge crosses any polygon edge (so concave spikes can't poke in).
+  function rectInPolygon(rings, cx, cy, halfW, halfH, ang) {
+    const ca = Math.cos(ang), sa = Math.sin(ang);
+    const cor = [[-halfW, -halfH], [halfW, -halfH], [halfW, halfH], [-halfW, halfH]]
+      .map(p => [cx + p[0] * ca - p[1] * sa, cy + p[0] * sa + p[1] * ca]);
+    for (const c of cor) if (!_pointInRings(c[0], c[1], rings)) return false;
+    for (let k = 0; k < 4; k++) {
+      const r1 = cor[k], r2 = cor[(k + 1) & 3];
+      for (const ring of rings)
+        for (let i = 0, j = ring.length - 1; i < ring.length; j = i++)
+          if (_segHit(r1, r2, ring[i], ring[j])) return false;
+    }
+    return true;
+  }
+
   return {
     projectNaturalEarth: projectNaturalEarth,
     polylabel: polylabel,
@@ -185,5 +215,6 @@
     greedyColor: greedyColor,
     fitFontSize: fitFontSize,
     interiorDistance: interiorDistance,
+    rectInPolygon: rectInPolygon,
   };
 });

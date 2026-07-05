@@ -132,49 +132,51 @@
       const ob = G.orientedBox(pts);
       if (pl.distance <= 0) continue;
 
-      const FIT_MARGIN = 0.85;
       const hasRoman = typeof entry.roman === 'string' && entry.roman.length > 0;
       const lineCount = hasRoman ? 1.55 : 1; // roman line is 0.55× tall
+      const wNative = measureAt1px(entry.native);
+      const wRoman = hasRoman ? 0.55 * measureAt1px(entry.roman) : 0;
+      const w1 = Math.max(wNative, wRoman) || 1e-6; // widest line at font-size 1
+      const hFactor = lineCount * 1.2;              // text-block height at font-size 1
+      const PAD = 1.06;                             // safety gap kept clear of the border
 
-      // Largest font that fits a given box, honoring the romanization line width.
-      const fitFor = (boxW, boxH) => {
-        let s = G.fitFontSize(measureAt1px, entry.native, boxW, boxH, lineCount, MAX_FONT);
-        if (hasRoman) s = Math.min(s, boxW / (0.55 * (measureAt1px(entry.roman) || 1e-6)));
-        return s;
+      // Largest font whose (rotated) text rectangle is PROVABLY inside the
+      // polygon — binary-searched against an exact containment test, so the
+      // label is as large as possible yet can never overflow the border.
+      const maxSizeAt = (cx, cy, ang) => {
+        let lo = 0, hi = MAX_FONT;
+        for (let it = 0; it < 13; it++) {
+          const mid = (lo + hi) / 2;
+          const hw = mid * w1 * PAD / 2, hh = mid * hFactor * PAD / 2;
+          if (G.rectInPolygon([pts], cx, cy, hw, hh, ang)) lo = mid; else hi = mid;
+        }
+        return lo;
       };
 
-      // Anchor: prefer the AREA CENTROID (the visual middle of the country) when
-      // it sits well inside the border; otherwise fall back to the pole of
-      // inaccessibility. Either way the font is bounded by the clearance AT the
-      // chosen anchor, so text stays central AND never overruns the border.
+      // Anchors: area centroid (central) + pole of inaccessibility (roomiest).
+      // Find the best UPRIGHT fit and, for elongated countries, the best fit
+      // along the major axis. Stay upright unless rotating is clearly bigger,
+      // so compact countries are never needlessly tilted.
       const c = ringCentroid(pts);
-      const cDist = G.interiorDistance([pts], c[0], c[1]);
-      let ax, ay, clear;
-      if (cDist >= pl.distance * 0.5) { ax = c[0]; ay = c[1]; clear = cDist; }
-      else { ax = pl.x; ay = pl.y; clear = pl.distance; }
-
-      const insc = clear * 2 * FIT_MARGIN;
-      let size = fitFor(insc, insc);
-      let deg = 0;
-
-      // Rotate ONLY for a decidedly tall/narrow country whose upright text came
-      // out too small — then run the text along the long axis to use the extra
-      // length. Compact countries are never tilted.
       const aspect = ob.width / Math.max(ob.height, 1e-6);
-      const MIN_UPRIGHT = 10; // px; below this, upright text is cramped
-      if (size < MIN_UPRIGHT && aspect >= 2.0) {
-        const longBox = Math.min(ob.width, clear * 6) * FIT_MARGIN; // exploit length
-        const shortBox = clear * 2 * FIT_MARGIN;                    // still bounded across
-        const rotSize = fitFor(longBox, shortBox);
-        if (rotSize > size) {
-          size = rotSize;
-          deg = ob.angleRad * 180 / Math.PI; // major axis, ∈ [-90, 90]
+      const anchors = [[c[0], c[1]], [pl.x, pl.y]];
+      let bestH = null, bestR = null;
+      for (const a of anchors) {
+        if (G.interiorDistance([pts], a[0], a[1]) <= 0) continue;
+        const sh = maxSizeAt(a[0], a[1], 0);
+        if (!bestH || sh > bestH.size) bestH = { size: sh, ax: a[0], ay: a[1], deg: 0 };
+        if (aspect >= 1.8) {
+          const sr = maxSizeAt(a[0], a[1], ob.angleRad);
+          if (!bestR || sr > bestR.size) bestR = { size: sr, ax: a[0], ay: a[1], deg: ob.angleRad * 180 / Math.PI };
         }
       }
-      if (size < 3) continue; // too small to be legible → omit (v2: external placement)
+      let best = bestH;
+      if (bestR && bestR.size > (bestH ? bestH.size * 1.12 : 0)) best = bestR;
+      if (!best || best.size < 3) continue; // nothing legible fits → omit (v2: external placement)
+      const size = best.size, deg = best.deg;
 
       const g = document.createElementNS(SVGNS, 'g');
-      g.setAttribute('transform', `translate(${ax.toFixed(1)} ${ay.toFixed(1)}) rotate(${deg.toFixed(1)})`);
+      g.setAttribute('transform', `translate(${best.ax.toFixed(1)} ${best.ay.toFixed(1)}) rotate(${deg.toFixed(1)})`);
 
       const native = document.createElementNS(SVGNS, 'text');
       native.setAttribute('text-anchor', 'middle');

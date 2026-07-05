@@ -22,4 +22,9 @@ const WORD_ORDER = [
     "thanks",
     "one",
     "good",
+    "i",
+    "you",
+    "two",
+    "name",
+    "star",
 ];

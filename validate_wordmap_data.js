@@ -221,8 +221,8 @@ const W = m => {
 const I = m => infos.push(m);
 
 // ---- 1. WORD_LIST has 20 entries ----------------------------------------
-if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 20) {
-    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 20)`);
+if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 25) {
+    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 25)`);
 }
 const WORD_IDS = (ctx.WORD_LIST || []).map(w => w.id);
 

@@ -34,10 +34,14 @@
     return pts;
   }
 
+  // Natural Earth stamps ISO_A3 as "-99" for a few sovereign states (a known
+  // quirk); recover their alpha-3 from the country name so their labels resolve.
+  const NAME_TO_ISO = { France: 'FRA', Norway: 'NOR', Kosovo: 'XKX' };
   function isoOf(feature) {
     const p = feature.properties || {};
     const iso = p['ISO3166-1-Alpha-3'];
     if (iso && iso !== '-99') return iso;
+    if (p.name && NAME_TO_ISO[p.name]) return NAME_TO_ISO[p.name];
     return p.name || null;
   }
   // Normalize Polygon/MultiPolygon → array of rings-groups: [ [outer, ...holes], ... ]
@@ -139,7 +143,7 @@
       // length. Compact countries are never tilted.
       const aspect = ob.width / Math.max(ob.height, 1e-6);
       const MIN_UPRIGHT = 10; // px; below this, upright text is cramped
-      if (size < MIN_UPRIGHT && aspect >= 2.2) {
+      if (size < MIN_UPRIGHT && aspect >= 2.0) {
         const longBox = Math.min(ob.width, pl.distance * 6) * FIT_MARGIN; // exploit length
         const shortBox = pl.distance * 2 * FIT_MARGIN;                    // still bounded across
         const rotSize = fitFor(longBox, shortBox);
@@ -148,7 +152,7 @@
           deg = ob.angleRad * 180 / Math.PI; // major axis, ∈ [-90, 90]
         }
       }
-      if (size < 4) continue; // too small to be legible in MVP → omit (v2 handles tiny)
+      if (size < 3) continue; // too small to be legible → omit (v2: external placement)
 
       const g = document.createElementNS(SVGNS, 'g');
       g.setAttribute('transform', `translate(${pl.x.toFixed(1)} ${pl.y.toFixed(1)}) rotate(${deg.toFixed(1)})`);

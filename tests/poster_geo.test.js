@@ -23,3 +23,18 @@ near(north.y, 0, 0.5, 'north pole at top');
 near(south.y, north.height, 0.5, 'south pole at bottom');
 
 console.log('poster_geo Task 1: OK');
+
+// polylabel of a unit-ish square centered at (5,5), side 10 → center ≈ (5,5), distance ≈ 5.
+const sq = [[[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]]];
+const pl = G.polylabel(sq, 0.1);
+near(pl.x, 5, 0.3, 'square label x centered');
+near(pl.y, 5, 0.3, 'square label y centered');
+near(pl.distance, 5, 0.3, 'square inscribed radius ≈ half-side');
+
+// An L-shaped polygon must not place the point in the missing quadrant.
+const L = [[[0, 0], [10, 0], [10, 4], [4, 4], [4, 10], [0, 10], [0, 0]]];
+const pll = G.polylabel(L, 0.1);
+assert.ok(!(pll.x > 4 && pll.y > 4), 'L-shape label avoids the notch');
+assert.ok(pll.distance > 0, 'L-shape has positive inscribed radius');
+
+console.log('poster_geo Task 2: OK');

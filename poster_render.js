@@ -34,6 +34,18 @@
     return pts;
   }
 
+  // Area centroid of a projected ring (the visual "middle" of the landmass).
+  function ringCentroid(pts) {
+    let a = 0, cx = 0, cy = 0;
+    for (let i = 0, j = pts.length - 1; i < pts.length; j = i++) {
+      const x0 = pts[j][0], y0 = pts[j][1], x1 = pts[i][0], y1 = pts[i][1];
+      const f = x0 * y1 - x1 * y0;
+      a += f; cx += (x0 + x1) * f; cy += (y0 + y1) * f;
+    }
+    if (Math.abs(a) < 1e-9) return [pts[0][0], pts[0][1]];
+    return [cx / (3 * a), cy / (3 * a)];
+  }
+
   // Natural Earth stamps ISO_A3 as "-99" for a few sovereign states (a known
   // quirk); recover their alpha-3 from the country name so their labels resolve.
   const NAME_TO_ISO = { France: 'FRA', Norway: 'NOR', Kosovo: 'XKX' };
@@ -120,7 +132,7 @@
       const ob = G.orientedBox(pts);
       if (pl.distance <= 0) continue;
 
-      const FIT_MARGIN = 0.9;
+      const FIT_MARGIN = 0.85;
       const hasRoman = typeof entry.roman === 'string' && entry.roman.length > 0;
       const lineCount = hasRoman ? 1.55 : 1; // roman line is 0.55× tall
 
@@ -131,10 +143,17 @@
         return s;
       };
 
-      // Default: upright text bounded by the inscribed circle (centered on the
-      // pole-of-inaccessibility, so the safe half-extent in any direction is the
-      // inscribed radius → never overflows the border).
-      const insc = pl.distance * 2 * FIT_MARGIN;
+      // Anchor: prefer the AREA CENTROID (the visual middle of the country) when
+      // it sits well inside the border; otherwise fall back to the pole of
+      // inaccessibility. Either way the font is bounded by the clearance AT the
+      // chosen anchor, so text stays central AND never overruns the border.
+      const c = ringCentroid(pts);
+      const cDist = G.interiorDistance([pts], c[0], c[1]);
+      let ax, ay, clear;
+      if (cDist >= pl.distance * 0.5) { ax = c[0]; ay = c[1]; clear = cDist; }
+      else { ax = pl.x; ay = pl.y; clear = pl.distance; }
+
+      const insc = clear * 2 * FIT_MARGIN;
       let size = fitFor(insc, insc);
       let deg = 0;
 
@@ -144,8 +163,8 @@
       const aspect = ob.width / Math.max(ob.height, 1e-6);
       const MIN_UPRIGHT = 10; // px; below this, upright text is cramped
       if (size < MIN_UPRIGHT && aspect >= 2.0) {
-        const longBox = Math.min(ob.width, pl.distance * 6) * FIT_MARGIN; // exploit length
-        const shortBox = pl.distance * 2 * FIT_MARGIN;                    // still bounded across
+        const longBox = Math.min(ob.width, clear * 6) * FIT_MARGIN; // exploit length
+        const shortBox = clear * 2 * FIT_MARGIN;                    // still bounded across
         const rotSize = fitFor(longBox, shortBox);
         if (rotSize > size) {
           size = rotSize;
@@ -155,7 +174,7 @@
       if (size < 3) continue; // too small to be legible → omit (v2: external placement)
 
       const g = document.createElementNS(SVGNS, 'g');
-      g.setAttribute('transform', `translate(${pl.x.toFixed(1)} ${pl.y.toFixed(1)}) rotate(${deg.toFixed(1)})`);
+      g.setAttribute('transform', `translate(${ax.toFixed(1)} ${ay.toFixed(1)}) rotate(${deg.toFixed(1)})`);
 
       const native = document.createElementNS(SVGNS, 'text');
       native.setAttribute('text-anchor', 'middle');

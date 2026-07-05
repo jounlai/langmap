@@ -174,6 +174,9 @@
     return Math.min(byWidth, byHeight, maxFont);
   }
 
+  // Signed clearance of a point to the polygon border (positive = inside).
+  function interiorDistance(rings, x, y) { return pointToPolygonDist(x, y, rings); }
+
   return {
     projectNaturalEarth: projectNaturalEarth,
     polylabel: polylabel,
@@ -181,5 +184,6 @@
     buildAdjacency: buildAdjacency,
     greedyColor: greedyColor,
     fitFontSize: fitFontSize,
+    interiorDistance: interiorDistance,
   };
 });

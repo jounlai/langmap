@@ -55,7 +55,7 @@
     SLE: { code: 'en' }, GMB: { code: 'en' },
     // Asia
     CHN: { code: 'zh' }, TWN: { code: 'zh' }, HKG: { code: 'yue' }, JPN: { code: 'ja' },
-    KOR: { code: 'ko' }, MNG: { code: 'mn' }, VNM: { code: 'vi' }, THA: { code: 'th' },
+    KOR: { code: 'ko' }, PRK: { code: 'ko' }, MNG: { code: 'mn' }, VNM: { code: 'vi' }, THA: { code: 'th' },
     LAO: { code: 'lo' }, KHM: { code: 'km' }, MMR: { code: 'my' }, MYS: { code: 'ms' },
     IDN: { code: 'id' }, PHL: { code: 'tl' }, SGP: { code: 'en' }, BRN: { code: 'ms' },
     TLS: { code: 'pt' }, IND: { code: 'hi' }, PAK: { code: 'ur' }, BGD: { code: 'bn' },
@@ -127,7 +127,8 @@
       // Asia
       CHN: { native: '水', roman: 'shuǐ' }, TWN: { native: '水', roman: 'shuǐ' },
       HKG: { native: '水', roman: 'séui' }, JPN: { native: '水', roman: 'mizu' },
-      KOR: { native: '물', roman: 'mul' }, MNG: { native: 'ус', roman: 'us' },
+      KOR: { native: '물', roman: 'mul' }, PRK: { native: '물', roman: 'mul' },
+      MNG: { native: 'ус', roman: 'us' },
       VNM: { native: 'nước' }, THA: { native: 'น้ำ', roman: 'nám' },
       LAO: { native: 'ນ້ຳ', roman: 'nam' }, KHM: { native: 'ទឹក', roman: 'tuk' },
       MMR: { native: 'ရေ', roman: 'ye' }, MYS: { native: 'air' }, IDN: { native: 'air' },

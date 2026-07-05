@@ -1,0 +1,14 @@
+# Wordmap review #217 — Other / unclassified (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Miriam Vandeloo, a descriptivist specializing in language isolates and small families across Siberia, the Americas, and southern Africa — the grab-bag "Other / unclassified" bucket. For this review I worked from the reference grammars and dictionaries I keep at hand for each family: Haruo Aoki's *Nez Perce Dictionary* (1994); Young & Morgan's *The Navajo Language* (1987) and Victor Golla's Hupa lexical files for Southern/Pacific-Coast Athabaskan; Michael Krauss & Cook's *A Grammar of Dëne Sųłiné (Chipewyan)* for Northern Athabaskan; Michael Dunn's *A Grammar of Chukchi* and G. M. Korsakov / Skorik for Chukotko-Kamchatkan; Edward Vajda's Yeniseian work (Ket, Yugh) and Elena Maslova / Nikolaeva for Yukaghir; Patrick Dickens' *Juǀʼhoan–English Dictionary* and Anthony Traill's *!Xóõ (Taa) Dictionary* for the Tuu/Kxʼa "click" isolates; Jeffrey Heath's trilogy on Songhay (Koyra Chiini, Koyraboro Senni, Zarma); Munro & Lopez's *San Lucas Quiaviní Zapotec Dictionary* and the *Cali Chiu* Valley-Zapotec course for Otomanguean; Laurel Watkins' *A Grammar of Kiowa*; C. R. Osborne's *The Tiwi Language*; Janet Barnes on Tuyuca; and Ken Hale / Ken Green for Misumalpan. My habit is to check each cell for (a) sense (that a citation pronoun is 1sg/2sg and not plural/honorific, that "two" is cardinal not ordinal, that "name/star" are the nouns and not a homophonous verb or a semantically-adjacent word like *fish/snake/ice/father*), (b) script correctness, and (c) IPA plausibility including tone/nasality/glottalization.
+
+## Issues found
+No errors found — all cells verified correct.
+
+Notes on the cells I scrutinized hardest before clearing them: the Chukotko-Kamchatkan set (ckt/kpy/itl) is internally consistent with the shared CK roots (*эӈэр/эӈэн* 'star', *нынны* 'name', *ӈирэӄ/ӈыччеӄ* 'two'); the three Songhay varieties (ses/khq/dje) are legitimately near-identical for these basic items (*ay, ni, ihinka, maa, handariya*); the Athabaskan "star" reflexes cohere with the *sǫːnʼ etymon (Navajo/Apache *sǫʼ(s)*, Carrier *sun*, Chipewyan *thën/θən*) and the Athabaskan "name" possessed stems are correctly given with the leading hyphen (*-zhiʼ, -ooziʔ*). I examined the Valley-Zapotec *béeld* 'star' (zts) and the Kiowa *tʼǫ́ǫ̀y* 'star' most closely, since both sit near confusable neighbours, but I could not establish a confidently-attested replacement form from my sources and therefore decline to file a correction I cannot stand behind. No cell rises to a demonstrable sense-error, wrong-script error, or implausible-IPA error.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes required; `node validate_wordmap_data.js` passing.
+
+**File status: CLOSED**

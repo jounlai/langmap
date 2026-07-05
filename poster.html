@@ -21,9 +21,9 @@
   </div>
   <div id="poster-wrap"><div id="poster-root"></div></div>
 
-  <script src="poster_geo.js"></script>
-  <script src="poster_langs.js"></script>
-  <script src="poster_render.js"></script>
+  <script src="poster_geo.js?v=7"></script>
+  <script src="poster_langs.js?v=7"></script>
+  <script src="poster_render.js?v=7"></script>
   <script>
     (function () {
       const SRC = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
@@ -33,22 +33,32 @@
       // which inflates the fitted width and wrongly drops small non-Latin
       // countries. So explicitly load the exact glyph subsets every label needs
       // BEFORE measuring/rendering.
-      const STACK = "1px 'Noto Sans','Noto Sans Arabic','Noto Sans Armenian'," +
-        "'Noto Sans Bengali','Noto Sans Devanagari','Noto Sans Ethiopic'," +
-        "'Noto Sans Georgian','Noto Sans Hebrew','Noto Sans JP','Noto Sans KR'," +
-        "'Noto Sans Khmer','Noto Sans Lao','Noto Sans Myanmar','Noto Sans SC'," +
-        "'Noto Sans Sinhala','Noto Sans Thai','Noto Serif Tibetan'";
+      const FAMILIES = ['Noto Sans', 'Noto Sans Arabic', 'Noto Sans Armenian',
+        'Noto Sans Bengali', 'Noto Sans Devanagari', 'Noto Sans Ethiopic',
+        'Noto Sans Georgian', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR',
+        'Noto Sans Khmer', 'Noto Sans Lao', 'Noto Sans Myanmar', 'Noto Sans SC',
+        'Noto Sans Sinhala', 'Noto Sans Thai', 'Noto Serif Tibetan'];
+      // Concatenate every glyph the labels use, then load EACH family's needed
+      // subset for that sample. Loading per-family (not a multi-family shorthand)
+      // is what reliably pulls the Arabic/Bengali/… subsets that lazy Google
+      // Fonts + document.fonts.ready otherwise leave unloaded at measure time.
       function preloadFonts() {
         if (!document.fonts || !document.fonts.load) return Promise.resolve();
-        const strings = new Set(['Water']);
+        let sample = 'Water';
         const w = (window.POSTER_WORDS && window.POSTER_WORDS.water) || {};
-        for (const k in w) { strings.add(w[k].native); if (w[k].roman) strings.add(w[k].roman); }
-        return Promise.all(Array.from(strings).map(s =>
-          document.fonts.load(STACK, s).catch(function () { return null; })
+        for (const k in w) { sample += w[k].native + (w[k].roman || ''); }
+        return Promise.all(FAMILIES.map(fam =>
+          document.fonts.load("1px '" + fam + "'", sample).catch(function () { return null; })
         )).then(function () { return document.fonts.ready; }).catch(function () { return null; });
       }
+      function draw(geojson) { window.PosterRender.render(geojson, { word: 'water', width: 2000 }); }
       Promise.all([fetch(SRC).then(r => r.json()), preloadFonts()]).then(([geojson]) => {
-        window.PosterRender.render(geojson, { word: 'water', width: 2000 });
+        draw(geojson);
+        // Safety net: if any subset was still settling at measure time, redraw
+        // once every font is truly ready so no country is wrongly dropped.
+        if (document.fonts && document.fonts.ready) {
+          document.fonts.ready.then(function () { setTimeout(function () { draw(geojson); }, 300); });
+        }
       }).catch(err => {
         document.getElementById('poster-root').textContent = 'Could not load country data: ' + err;
       });

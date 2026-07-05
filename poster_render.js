@@ -176,6 +176,7 @@
       const size = best.size, deg = best.deg;
 
       const g = document.createElementNS(SVGNS, 'g');
+      g.setAttribute('data-iso', f.iso);
       g.setAttribute('transform', `translate(${best.ax.toFixed(1)} ${best.ay.toFixed(1)}) rotate(${deg.toFixed(1)})`);
 
       const native = document.createElementNS(SVGNS, 'text');

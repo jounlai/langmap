@@ -1065,7 +1065,7 @@
         .lang-info-panel table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
         .lang-info-panel td { padding: 3px 0; vertical-align: top; }
         .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; white-space: nowrap; }
-        .lang-info-panel .desc { color: #444; font-size: 13.5px; line-height: 1.55; }
+        .lang-info-panel .desc { color: #444; font-size: 14px; line-height: 1.6; }
         /* Audit Task 129: RTL/bidi isolation for Arabic/Hebrew/Perso-Arabic
            word cells. unicode-bidi:isolate prevents RTL text from reordering
            neighboring LTR punctuation (slashes, brackets, evidence markers).
@@ -1113,6 +1113,10 @@
                 serif;
         }
         .wm-ipa  { unicode-bidi: isolate; direction: ltr; }
+        /* Info-panel word table: prominent word forms, readable IPA (balanced
+           hierarchy). Scoped to table cells so the native-name span is safe. */
+        .lang-info-panel td .wm-form { font-size: 16px; }
+        .lang-info-panel td .wm-ipa  { font-size: 12.5px; }
         /* Audit Task 101: keyboard focus for inline evidence markers */
         .lang-info-panel .ev-marker:focus-visible {
             outline: 2px solid #1a73e8;

@@ -17,7 +17,7 @@
 const EXCLUDED_CODES = new Set([
   'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','myn','ine',
   'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_kath','zh_song','zh_han','zh_tang','zh_wenyan_edu',
-  'vi_nom','vi_han','sa','sa_edu','mnc','ar_qur',
+  'vi_nom','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
   // Phase 4: historical / ancient
   'peo','ave','xto','txb','phn','uga','xlu','pal','fa_clas','syc','fro','it_dan','goh','gez',
@@ -35,7 +35,7 @@ const EXCLUDED_CODES = new Set([
   // Phase 13b: NE Asian + SE Asian ancient
   'zkt','juc','omx','pyx','obr','occ',
   // Phase 13c: Russia / Thailand / Africa / Americas / Indonesia / Philippines ancient
-  'orv','xsc','sukh','xmr','onw','cqu','omc','chb','oma','osu','otl',
+  'orv','xsc','sukh','xmr','onw','cqu','chb','oma','osu','otl',
   // Reconstructed proto / hypothetical
   'pjk',
   // Korean Peninsula historical
@@ -51,7 +51,6 @@ const EXCLUDED_CODES = new Set([
   // Ubykh — Northwest Caucasian, extinct since 7 October 1992 (last fully fluent
   // speaker Tevfik Esenç died in Hacıosman, Turkey). dataStatus:'attested' via
   // Dumézil/Vogt corpus; classified historical so excluded from the modern map.
-  'uby',
   // Damin — secret ceremonial men's register of Lardil; effectively dormant since
   // ~1980 when the last Warama initiations stopped. Classed as historical via
   // HIST_DESCENDANT['lbz_damin']='lbz' so excluded from the modern map.
@@ -71,8 +70,7 @@ const EXCLUDED_CODES = new Set([
   //   oar — Old Aramaic (ancestor of Imperial Aramaic)
   //   tup — Tupinambá (extinct as L1 ~1700s; basis of Língua Geral/Nheengatu)
   //   yug — Yug (Yeniseian, last L1 speaker died early 2000s)
-  'xum', 'osc', 'xfa', 'xve', 'xpg', 'oar', 'tup', 'yug',
-  // 2026-06-09 follow-up: 4 more extinct langs missed by the first sweep
+  'xum', 'osc', 'xfa', 'xve', 'xpg', 'oar', 'tup', // 2026-06-09 follow-up: 4 more extinct langs missed by the first sweep
   // (they use the '†extinct' dagger-prefixed speakers value or 'Extinct'
   // without the leading '0', which the initial filter missed).
   //   xib — Iberian (Paleo-Hispanic isolate, †extinct ~1c CE)
@@ -84,8 +82,7 @@ const EXCLUDED_CODES = new Set([
   // historical via dataStatus:'fragmentary', the other exclusion path.
   // mer (Meru) is a living Bantu language; its meta is wrongly stamped
   // with Meroitic info — separate data bug, fixed in wordmap_meta.js.
-  'xib', 'xli', 'xag', 'bzg',
-]);
+  'xib', 'xli', 'xag', ]);
 
 const LANG_DATA = {
   "es_cr": { "name": "Costa Rican Spanish", "native": "Español costarricense", "lat": 9.93, "lng": -84.08 },
@@ -4993,7 +4990,7 @@ const DATA_STATUS_OVERRIDES = {
     blc:       'fragmentary',    // Nuxalk (Bella Coola) — Salishan, all-consonant words (Nater 1984)
     tue:       'fragmentary',    // Tuyuca — Tukanoan, obligatory evidentiality (Barnes 1984)
     ncs:       'fragmentary',    // Nicaraguan Sign Language — spontaneous emergence (Kegl 1999)
-    uby:       'attested',       // Ubykh — extinct 1992 (Esenç d. 7 Oct 1992); Dumézil 1931 + Vogt 1963 + Hewitt 2004
+    uby:       'fragmentary',       // Ubykh — extinct 1992 (Esenç d. 7 Oct 1992); Dumézil 1931 + Vogt 1963 + Hewitt 2004  [reclassified modern 2026-07: fragmentary 25-word coverage]
     // Attested in primary text records (despite scholarly phonological reconstruction):
     vsa:       'attested',       // Vedic Sanskrit — Rigveda et al. directly transmitted
     xto:       'attested',       // Tocharian A — 5-8c. CE manuscripts
@@ -5156,8 +5153,7 @@ const DATA_STATUS_OVERRIDES = {
 const HIST_DESCENDANT = {
     la:'it', el_grc:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
     got:'de', cu:'bg', pi:'si', cop:null, arc:'he',
-    sa:'hi', mnc:'zh',
-    sux:null, akk:null, hit:'tr', nci:'es_mx', myn:'es_mx',
+    sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', myn:'es_mx',
     ine:null, pjk:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
@@ -5196,6 +5192,7 @@ const HIST_DESCENDANT = {
     // continue to show on the modern overlay; the HIST_DESCENDANT entry
     // only signals the validator, not the UI era classification.
     yuc:null, kgg:null,
+    uby:null,    // Ubykh — modern era (last speaker d.1992); fragmentary coverage, shown on modern via carve-out
     // Audit Task 203 (2026-05-07): itl Itelmen + ykg Tundra Yukaghir
     // are the remaining `dataStatus: 'fragmentary'` rows still flagged
     // by [#17]. itl (~80 fluent, Kamchatka — Chukotko-Kamchatkan) and
@@ -5223,7 +5220,6 @@ const HIST_DESCENDANT = {
     blc:null,    // Nuxalk (Bella Coola) — all-consonant words
     tue:null,    // Tuyuca — obligatory evidentiality
     ncs:null,    // Nicaraguan Sign Language — spontaneous emergence
-    uby:null,    // Ubykh — extinct sister branch of NW Caucasian (no direct descendant)
     // 2026-06-09: 12 extinct languages added to EXCLUDED_CODES also need
     // HIST_DESCENDANT entries so the era-counter classifies them as
     // Historical (HIST_CODE_SET is derived from this map) and they

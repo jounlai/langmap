@@ -3891,6 +3891,15 @@
             'roo', 'nmn', 'itl', 'ykg', 'yuc', 'kgg',
             // 2026-05-17: trivia-featured Australian + Americas langs.
             'lbz', 'nny', 'kky', 'blc', 'tue', 'ncs',
+            // 2026-07 (multi-agent era audit): spoken into the modern era
+            // (recently extinct or still moribund) → shown as modern, per user
+            // policy. NOTE: uby & mnc reverse a prior deliberate 'historical'
+            // classification (see EXCLUDED_CODES notes) at the owner's request.
+            'uby',   // Ubykh — last speaker Tevfik Esenç died 1992
+            'yug',   // Yugh (Yeniseian) — last speakers late 20th century
+            'omc',   // Mochica (Muchik, Peru) — last speakers early-mid 20th century
+            'mnc',   // Manchu — a few elderly L1 speakers remain (Sanjiazi)
+            'bzg',   // Babuza / Favorlang (Formosan) — survived into the 20th century
         ]);
         const HIST_CODE_SET = new Set(
             Object.keys(HIST_DESCENDANT).filter(c => !LIVING_FRAGMENTARY_CODES.has(c))

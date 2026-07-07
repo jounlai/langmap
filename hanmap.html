@@ -715,7 +715,7 @@
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
-                "Noto Sans Mongolian", "Noto Sans Sogdian", "Noto Sans Phags Pa",
+                "Noto Serif Mongolian", "Mongolian Baiti", "Noto Sans Mongolian", "Noto Sans Sogdian", "Noto Sans Phags Pa",
                 "Noto Serif Khitan Small Script", "Noto Sans Manichaean",
                 "Noto Sans Egyptian Hieroglyphs", "Noto Sans Meroitic",
                 "Noto Sans Sundanese", "Noto Sans Tagalog", "Noto Sans Coptic",
@@ -751,7 +751,7 @@
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Noto Serif Tangut",
                 "Noto Sans Phags Pa", "Microsoft PhagsPa",
-                "Noto Sans Mongolian", "Mongolian Baiti",
+                "Noto Serif Mongolian", "Mongolian Baiti", "Noto Sans Mongolian",
                 "Noto Sans Old Turkic",
                 "Noto Sans Sogdian",
                 "Noto Serif Khitan Small Script",
@@ -1055,7 +1055,7 @@
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
-                "Noto Sans Mongolian", "Noto Sans Sogdian", "Noto Sans Phags Pa",
+                "Noto Serif Mongolian", "Mongolian Baiti", "Noto Sans Mongolian", "Noto Sans Sogdian", "Noto Sans Phags Pa",
                 "Noto Serif Khitan Small Script", "BabelStone Khitan Small Glyphs",
                 "Noto Sans Manichaean", "Noto Sans Egyptian Hieroglyphs",
                 "Noto Sans Meroitic", "Noto Sans Sundanese", "Noto Sans Tagalog",
@@ -1105,7 +1105,7 @@
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
-                "Noto Sans Mongolian", "Noto Sans Sogdian", "Noto Sans Phags Pa",
+                "Noto Serif Mongolian", "Mongolian Baiti", "Noto Sans Mongolian", "Noto Sans Sogdian", "Noto Sans Phags Pa",
                 "Noto Serif Khitan Small Script", "Noto Sans Manichaean",
                 "Noto Sans Egyptian Hieroglyphs", "Noto Sans Meroitic",
                 "Noto Sans Sundanese", "Noto Sans Tagalog", "Noto Sans Coptic",
@@ -1294,7 +1294,7 @@
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
-                "Noto Sans Mongolian", "Noto Sans Sogdian", "Noto Sans Phags Pa",
+                "Noto Serif Mongolian", "Mongolian Baiti", "Noto Sans Mongolian", "Noto Sans Sogdian", "Noto Sans Phags Pa",
                 "Noto Serif Khitan Small Script", "BabelStone Khitan Small Glyphs",
                 "Noto Sans Manichaean", "Noto Sans Egyptian Hieroglyphs",
                 "Noto Sans Meroitic", "Noto Sans Sundanese", "Noto Sans Tagalog",
@@ -11876,7 +11876,7 @@
         function el(tag, css, html) { const e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
         function build() {
             modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px;font-family:inherit');
-            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;height:min(92vh,620px);overflow:hidden;padding:20px 22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column');
+            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;height:min(94vh,650px);overflow:hidden;padding:20px 22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column');
             box.id = 'lm-hquiz-box';
             modal.appendChild(box);
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
@@ -11898,7 +11898,7 @@
                 // Character + prompt + options in a flex:1 middle band that centers
                 // them, so the reserved feedback/Next area doesn't look top-heavy.
                 const mid = el('div', 'flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:safe center');
-                mid.appendChild(el('div', 'text-align:center;font-size:60px;line-height:1.15;margin:0 0 8px;font-family:\'Noto Serif JP\',\'Noto Serif SC\',\'Noto Serif TC\',serif', q.ch));
+                mid.appendChild(el('div', 'text-align:center;font-size:52px;line-height:1.15;margin:0 0 6px;font-family:\'Noto Serif JP\',\'Noto Serif SC\',\'Noto Serif TC\',serif', q.ch));
                 const prompt = q.fmt === 1
                     ? pk(Q.q1).replace('{lang}', `<b style="color:#222">${nameOf(q.target)}</b>`)
                     : pk(Q.q2).replace('{reading}', `<b style="color:#222">${q.reading}</b>`);
@@ -11911,7 +11911,7 @@
                     // display:none until then so it doesn't pull the word off-centre.
                     // Fixed min-height = the answered layout (word + sub-label), so the
                     // button is the SAME height whether or not the sub-label is shown.
-                    let css = 'width:100%;box-sizing:border-box;min-height:62px;text-align:center;padding:8px 12px;margin-bottom:7px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:19px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
+                    let css = 'width:100%;box-sizing:border-box;min-height:56px;text-align:center;padding:7px 12px;margin-bottom:6px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:19px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
                     if (answered) {
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';

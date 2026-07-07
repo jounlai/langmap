@@ -4078,6 +4078,11 @@
                    : 0);
             if (showHistorical) {
                 for (const [hist, modern] of Object.entries(HIST_DESCENDANT)) {
+                    // Living-but-fragmentary codes (Kusunda, Yuchi, Itelmen, …)
+                    // are in HIST_DESCENDANT only to satisfy the validator; they
+                    // are MODERN languages (HIST_CODE_SET excludes them) and must
+                    // NOT be plotted in the historical era view.
+                    if (LIVING_FRAGMENTARY_CODES.has(hist)) continue;
                     if (!LANG_DATA[hist] || !LANG_DATA[hist].words || !LANG_DATA[hist].words[wordId]) continue;
                     if (isUnattestedEntry(LANG_DATA[hist].words[wordId])) {
                         unattestedLangs.push(hist);

@@ -3915,6 +3915,9 @@
         const ANCESTORS_OF = {};
         for (const [hist, modern] of Object.entries(HIST_DESCENDANT)) {
             if (!modern) continue;
+            // Living-but-fragmentary codes are modern languages, not historical
+            // ancestors — don't list them under a modern lang's "ancestors".
+            if (LIVING_FRAGMENTARY_CODES.has(hist)) continue;
             (ANCESTORS_OF[modern] = ANCESTORS_OF[modern] || []).push(hist);
         }
         window.__langmap.historical = showHistorical;

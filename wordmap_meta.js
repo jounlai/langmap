@@ -2710,11 +2710,14 @@ const LANGUAGE_KIND = {
     xht: 'historical-attested',  // Hattic (pre-Hittite Anatolia)
     xng: 'historical-attested',  // Mongolian (Middle/Old, pre-modern)
     cmg: 'historical-attested',  // Old Mongolian (Middle Mongolian variant)
-    mnc: 'historical-attested',  // Manchu (severely endangered modern Manchu — but project classifies as historical via HIST_DESCENDANT)
-    itl: 'historical-attested',  // Itelmen (Kamchatkan, no living descendant — HIST_DESCENDANT null)
-    ykg: 'historical-attested',  // Tundra Yukaghir (HIST_DESCENDANT null — vestigial)
-    yuc: 'historical-attested',  // Yuchi (HIST_DESCENDANT null — heritage)
-    kgg: 'historical-attested',  // Kusunda (HIST_DESCENDANT null — language-isolate vestige)
+    // Living languages (LIVING_FRAGMENTARY_CODES) — natural, not historical.
+    // They are shown on the modern map; the "historical-attested" label was a
+    // leftover that (harmlessly) contradicted their modern classification.
+    mnc: 'natural',  // Manchu — critically endangered but still a few L1 speakers
+    itl: 'natural',  // Itelmen (Kamchatkan) — living, ~80 speakers
+    ykg: 'natural',  // Tundra Yukaghir — living
+    yuc: 'natural',  // Yuchi — living, elderly speakers
+    kgg: 'natural',  // Kusunda — living isolate (~3 partial speakers)
 };
 for (const code of Object.keys(LANGUAGE_KIND)) {
     if (LANG_DATA[code] && LANG_DATA[code].meta) {

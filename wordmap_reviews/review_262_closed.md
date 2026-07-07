@@ -1,0 +1,14 @@
+# Wordmap review #262 — Pidgins & creoles (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Marijke Vroomans, a creolist working on Atlantic and Pacific contact languages, with fieldwork on the Suriname creoles and Melanesian Pijin. For this review I worked against my standard desk references: the *Atlas of Pidgin and Creole Language Structures* (Michaelis, Maurer, Haspelmath & Huber, 2013) and its online APiCS for cross-linguistic control; Valdman et al., *Haitian Creole–English Bilingual Dictionary* (2007); Cassidy & Le Page, *Dictionary of Jamaican English*, plus the Jamaican Language Unit (Cassidy–JLU) orthography; Mihalic, *The Jacaranda Dictionary and Grammar of Melanesian Pidgin* and Verhaar's Tok Pisin work; the SIL Sranan/Ndyuka dictionaries and Rountree & Glock's *Saramaccan–English Dictionary* (with McWhorter & Good, *A Grammar of Saramaccan Creole*); Kramer's Papiamentu lexicography and Maurer; Lang's *Dicionário do Crioulo da Ilha de Santiago* and Kihm's *Kriyol Syntax* for the Upper-Guinea Portuguese creoles; Sakoda & Siegel, *Pidgin Grammar* for Hawaiʻi Creole; and Volker / Maitz & Lindenfelser for Unserdeutsch. I paid particular attention to (a) that each pronoun cell is a singular *informal* subject/free form rather than a plural or honorific, (b) that Caribbean/Indian-Ocean French-creole "name" correctly splits nasal-final `non` [nɔ̃] (Haiti, Lesser Antilles, Guiana, Seychelles) from oral-final `nom` [nom] (Mauritius, Réunion), and (c) non-rhotic vs. rhotic renderings of "star".
+
+## Issues found
+No errors found — all cells verified correct.
+
+The following points were checked and confirmed rather than flagged: the free/emphatic 1sg forms `ami` (Guinea-Bissau Kriol) and `mi` (Cape Verdean, Papiamentu, Saramaccan) are the appropriate citation forms parallel to the other creoles' free pronouns, not miscopied clitics; Nagamese `tumi` is the ordinary familiar 2sg of the Assamese-lexified pidgin (not the honorific `apuni`), and Chavacano `tu`, Papuan Malay `ko`, and Saramaccan `i` are all correct informal singulars; the French-creole nasal/oral `non`~`nom` split is rendered correctly across all seven varieties, and Réunion's `zétoil` [zetwal] is a legitimate Réunionnais graphie matching Mauritian/Seychellois [zetwal]; the Suriname "star" set `stari` / `sitari` (Ndyuka epenthesis) / `teteei` is correct per the SIL and Rountree & Glock lexica; and non-rhotic `staar` [staː] for Jamaican vs. rhotic renderings elsewhere is consistent with each variety's phonology. No `—` cells, ordinals, verbs, proper names, or asterisk/celebrity intrusions were present.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes required; `node validate_wordmap_data.js` passing, live `words/*.js` unchanged.
+
+**File status: CLOSED**

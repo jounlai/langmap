@@ -140,7 +140,24 @@
             <p class="lead" style="margin-top:8px">The Word Map carries 1,112 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 119 languages and variants across 61 characters.</p>
         </div>
 
-        <nav class="month-nav">Months: <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+        <nav class="month-nav">Months: <strong>2026-07</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-07-05 — Word Map: 20 → 25 words (added <strong>I, you, two, name, star</strong>) with a five-round review rally</div>
+            <ul>
+                <li>Added five high-frequency concepts to the Word Map — the singular pronouns <em>I</em> and <em>you</em>, the numeral <em>two</em>, and the nouns <em>name</em> and <em>star</em> — each filled across all <strong>1,112 languages</strong> to match the existing twenty. Labels and terse sense-disambiguation definitions were written in all 19 UI languages (singular pronoun, not plural/honorific; cardinal, not ordinal; the noun "name", not a proper name; celestial "star", not a celebrity or asterisk).</li>
+                <li><strong>Five-round family-domain review rally.</strong> After a multithreaded first fill, 41 expert-persona reviewers per round — organized by language family (Germanic, Romance, Sinitic, Tibeto-Burman, Bantu, Austronesian, Papuan, Americas, Caucasian, Dravidian, …) — audited every new cell across five rounds, writing 205 review documents (<code>wordmap_reviews/review_192</code>–<code>396</code>) and applying ~181 fixes. The passes converged (55 → 42 → 33 → 28 → 23). Representative catches: Hopi ⟨u⟩ = /ɨ/; Basque informal 2sg <em>hi</em> (not polite <em>zu</em>); Sandawe/Hadza click de-fabrication; Udege/Dakota/Yukaghir copy-errors; wrong-sense fixes (Khmu "name" held "nose", Warao "star" held "sun").</li>
+                <li><strong>Script / notation-policy sweep.</strong> A scan comparing each language's existing-word scripts against the new cells flagged 45 codes filled in the wrong script. Fixed so the five new words follow each language's established writing system — cuneiform (Akkadian 𒀀𒈾𒆪, Sumerian, Hittite), Tangut (西夏 𗧓), Gothic (𐌹𐌺), Old Turkic runiform, Canadian syllabics (Cree ᓂᔭ), Ethiopic, Georgian, Myanmar, Mongolian, Coptic, Katakana (Ainu カニ), Han glosses — with Goguryeo and Proto-Japonic-Koreanic set to "—" where the senses are genuinely unattested.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-05 — All pages: unified header, right-aligned share / language controls</div>
+            <ul>
+                <li>Unified the header markup across all four pages (Word Order / Word Map / Han Map / Tree) and right-aligned the share icon together with the language picker into one cluster at the far right — previously only the <code>langmap.heuron.com</code> link floated right while share and language stuck to the navigation on the left. Retired the dead <code>.ui-lang-footer</code> bottom-pill markup on the map pages.</li>
+                <li>Fixed the Word Order page dropping the "Word Map" navigation globe icon (a mis-scoped <code>.textContent</code> write had wiped the inline SVG), and stopped the empty language <code>&lt;select&gt;</code> from briefly flashing in the header during load.</li>
+            </ul>
+        </div>
 
         <div class="entry">
             <div class="date">2026-06-26 — Han Map: added Loudi Xiang (娄底, <code>hsn_ld</code>), a conservative Old Xiang point</div>

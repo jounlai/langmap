@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WordMap Poster — water</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&family=Noto+Sans+Arabic&family=Noto+Sans+Armenian&family=Noto+Sans+Bengali&family=Noto+Sans+Devanagari&family=Noto+Sans+Ethiopic&family=Noto+Sans+Georgian&family=Noto+Sans+Hebrew&family=Noto+Sans+JP&family=Noto+Sans+KR&family=Noto+Sans+Khmer&family=Noto+Sans+Lao&family=Noto+Sans+Myanmar&family=Noto+Sans+SC&family=Noto+Sans+Sinhala&family=Noto+Sans+Thai&family=Noto+Serif+Tibetan&display=swap">
+  <style>
+    html, body { margin: 0; background: #f4f4f2; font-family: system-ui, sans-serif; }
+    #bar { padding: 10px 14px; display: flex; gap: 10px; align-items: center; }
+    #bar button, #bar select { border: 1px solid #ccc; background: #fff; border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 14px; }
+    #poster-wrap { width: 100%; overflow-x: auto; }
+    #poster-root svg { display: block; width: 100%; height: auto; max-width: 2000px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <div id="bar">
+    <strong>WordMap Poster</strong>
+    <label>Word: <select id="word-select"></select></label>
+  </div>
+  <div id="poster-wrap"><div id="poster-root"></div></div>
+
+  <script src="poster_geo.js?v=12"></script>
+  <script src="poster_langs.js?v=12"></script>
+  <script src="poster_render.js?v=12"></script>
+  <script>
+    (function () {
+      const SRC = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
+      // Google Fonts subsets are lazy-loaded per script and NOT covered by
+      // document.fonts.ready until something uses them. Canvas measureText on an
+      // unloaded script (Arabic, Bengali, …) returns fallback/.notdef metrics,
+      // which inflates the fitted width and wrongly drops small non-Latin
+      // countries. So explicitly load the exact glyph subsets every label needs
+      // BEFORE measuring/rendering.
+      const FAMILIES = ['Noto Sans', 'Noto Sans Arabic', 'Noto Sans Armenian',
+        'Noto Sans Bengali', 'Noto Sans Devanagari', 'Noto Sans Ethiopic',
+        'Noto Sans Georgian', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR',
+        'Noto Sans Khmer', 'Noto Sans Lao', 'Noto Sans Myanmar', 'Noto Sans SC',
+        'Noto Sans Sinhala', 'Noto Sans Thai', 'Noto Serif Tibetan'];
+      // Concatenate every glyph the labels use, then load EACH family's needed
+      // subset for that sample. Loading per-family (not a multi-family shorthand)
+      // is what reliably pulls the Arabic/Bengali/… subsets that lazy Google
+      // Fonts + document.fonts.ready otherwise leave unloaded at measure time.
+      function preloadFonts() {
+        if (!document.fonts || !document.fonts.load) return Promise.resolve();
+        let sample = 'Water';
+        const words = (window.POSTER_WORDS || {});
+        for (const word in words) {
+          const w = words[word];
+          for (const k in w) { sample += w[k].native + (w[k].roman || ''); }
+        }
+        return Promise.all(FAMILIES.map(fam =>
+          document.fonts.load("1px '" + fam + "'", sample).catch(function () { return null; })
+        )).then(function () { return document.fonts.ready; }).catch(function () { return null; });
+      }
+      const sel = document.getElementById('word-select');
+      let currentWord = 'water';
+      function draw(geojson) { window.PosterRender.render(geojson, { word: currentWord, width: 2000 }); }
+      // Populate the word picker from the available word tables.
+      Object.keys(window.POSTER_WORDS || { water: 1 }).forEach(function (word) {
+        const o = document.createElement('option');
+        o.value = word; o.textContent = word;
+        sel.appendChild(o);
+      });
+      sel.value = currentWord;
+      Promise.all([fetch(SRC).then(r => r.json()), preloadFonts()]).then(([geojson]) => {
+        draw(geojson);
+        // Safety net: if any subset was still settling at measure time, redraw
+        // once every font is truly ready so no country is wrongly dropped.
+        if (document.fonts && document.fonts.ready) {
+          document.fonts.ready.then(function () { setTimeout(function () { draw(geojson); }, 300); });
+        }
+        sel.addEventListener('change', function () { currentWord = sel.value; draw(geojson); });
+      }).catch(err => {
+        document.getElementById('poster-root').textContent = 'Could not load country data: ' + err;
+      });
+    })();
+  </script>
+</body>
+</html>

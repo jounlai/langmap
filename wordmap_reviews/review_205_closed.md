@@ -1,0 +1,14 @@
+# Wordmap review #205 — Germanic (part 1) (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Ellen Wachtmeister, a descriptive/historical Germanist working across the West and North Germanic dialect continua. For this review I leaned on Duden Aussprachewörterbuch (7th ed.) and the Grammatik der deutschen Gegenwartssprache for Standard German and its Austrian/Swiss standard varieties; on the Sass Plattdeutsches Wörterbuch for Low German (nds); on the Luxembourgish Lëtzebuerger Online Dictionnaire (LOD) for lb; on the Woordenboek der Nederlandsche Taal (WNT) and the ANS for Dutch/Flemish; on the Wurdboek fan de Fryske taal and F. van der Kuip for West Frisian (fy); on the Dictionary of the Scots Language (DSL) for Scots (sco); on Íslensk orðabók and Kristján Árnason's Phonology of Icelandic and Faroese for is; on U. Weinreich's Modern English–Yiddish/Yiddish–English Dictionary and the YIVO transcription standard for yi; on SAOB/SAOL for Swedish, Bokmålsordboka for Norwegian and Den Danske Ordbog for Danish, with stød notation per Basbøll's Phonology of Danish; and on Buffington & Barba's Pennsylvania German Grammar plus Christ Zeller-style Alemannic descriptions (Höchstalemannisch/Walliser -u) for pdc, gsw, wae and gsw_w. I checked each cell for sense (1sg vs plural/polite pronoun, cardinal vs ordinal, appellation-noun vs celebrity/asterisk sense), native orthography, and broad-IPA plausibility including dialect-specific features (Northern Low German initial [st] not [ʃt], Flemish voiced [ɣ], the sje-/kje- and retroflex sonorants of Scandinavian, Danish stød, Icelandic preaspiration/[dn]).
+
+## Issues found
+No errors found — all cells verified correct.
+
+All 44 entries carry the correct 1sg / informal-2sg / cardinal-2 / appellation-noun / celestial-noun senses, with no honorific/plural pronouns, ordinals, verbs, proper names, or asterisk/celebrity readings. Notable dialect-sensitive cells are right rather than slips: nl_be `gij` [ɣɛi] (Flemish voiced velar fricative, distinct from Northern Dutch `jij`); nds `Steern` [steːrn] and `Naam` (Northern Low German initial [st], not [ʃt]); ksh `do`/`Stään` and li `doe`/`sjter` (r-loss / Limburgish sj-spelling); sco `A`, `ye`, `twa`, `starn` (all DSL-attested Scots forms); fy `do`/`twa`/`stjer`; is `ég` [jɛːɣ], `nafn` [napn̥], `stjarna` [ˈstjadna] (fn→[pn̥], rn→[dn]); yi Hebrew-script `איך/דו/צוויי/נאָמען/שטערן` all correct YIVO forms; the Scandinavian sibilants sv `stjärna` [ˈɧæːɳa], no `stjerne` [ˈʂæːɳə], da `stjerne` [ˈsdjɛɐ̯nə] with correct sje-/retroflex/stød behaviour; and the Highest-Alemannic Walliser -u in gsw_w `Namu`/`Stäru`. The identical dialectal Swiss forms in de_ch (`zwöi`, `Stärn`) mirroring gsw are a deliberate corpus feature, not an error, and were left untouched.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes needed; `node validate_wordmap_data.js` passing.
+
+**File status: CLOSED**

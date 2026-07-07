@@ -1595,7 +1595,13 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
  * to the left of the langmap.heuron.com link, opening a "CODE  NativeName"
  * dropdown. Replaces the old .ui-lang-footer pill and the bare header select.
  * ------------------------------------------------------------------------- */
-.header-ui-lang.lang-picker-native { display: none !important; }
+/* The native <select id="header-ui-lang"> is ONLY a data source for the
+   lang-picker, which fronts it on every page — it must never be visible. Hide
+   it at ALL times (not just after lang-picker.js adds .lang-picker-native),
+   otherwise the empty, not-yet-populated select flashes in the header during
+   load before the picker upgrades it. The site is fully JS-driven, so there's
+   no no-JS state that needs the bare select as a fallback. (2026-07-05) */
+.site-header-bar .header-ui-lang { display: none !important; }
 .ui-lang-footer { display: none !important; }   /* superseded by the picker */
 
 .lang-picker { position: relative; display: inline-flex; align-items: center; }
@@ -1614,6 +1620,20 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 @media (max-width: 640px) {
     /* In the drawer keep it icon-sized (don't stretch to a full-width row). */
     .header-collapse .share-icon-btn { align-self: flex-start; }
+}
+/* Right-align the Share + language-picker + URL as ONE cluster (2026-07-05).
+   Previously only .header-url carried `margin-left: auto`, so it flew to the
+   right edge alone while the Share icon and lang-picker stayed pinned to the
+   left next to the nav (and the map-page game buttons). Move the auto-margin
+   onto the Share icon — the first member of the right cluster — so nav/games
+   stay left and [share][lang][url] flush right together. Desktop only; the
+   ≤640px hamburger drawer lays these out as full-width column rows itself. */
+@media (min-width: 641px) {
+    .site-header-bar .share-icon-btn { margin-left: auto; }
+    /* Neutralize .header-url's own auto-margin once Share precedes it, else the
+       two auto-margins split the free space and re-open a gap before the URL.
+       (chrome-hidden mode re-asserts url's auto with !important — unaffected.) */
+    .site-header-bar .share-icon-btn ~ .header-url { margin-left: 0; }
 }
 .lang-picker-btn {
     display: inline-flex; align-items: center; gap: 5px;

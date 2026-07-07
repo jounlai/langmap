@@ -75,11 +75,12 @@
          include CJK Extension B at all) and aren't in iOS Hiragino Mincho
          either — they tofu / fall back to Hiragino Kaku Gothic on iPhone.
          Solution: self-host a precisely subset Han-Nom serif font.
-         - NomNaTong-subset.woff2: 22 of the 24 Nôm chars we use, drawn
-           from the Vietnamese Nôm Preservation Foundation's NomNaTong.
+         - NomNaTong-subset.woff2: 26 of the 28 Nôm/Ext-B chars we use
+           (incl. 𠄩 two, 𠸜 name, 𣋀 star for vi_nom and 𠊎 ngai for
+           hak_cn), drawn from the Nôm Preservation Foundation's NomNaTong.
          - HanaMinB-NomFill-subset.woff2: 𢣐 (U+228D0) and 𤙗 (U+24657),
            the two NomNaTong is missing — filled from Hanazono Mincho B.
-         Combined transfer: ~8 KB, only when one of the 24 codepoints
+         Combined transfer: ~9 KB, only when one of the 28 codepoints
          appears on the page (unicode-range scoping). -->
     <style>
         @font-face {
@@ -92,7 +93,8 @@
                 U+3575, U+5352, U+5400, U+5632, U+6069, U+611F,
                 U+6E03, U+732B, U+8339, U+20B20, U+215F6, U+21795,
                 U+21B36, U+22051, U+22782, U+22785, U+23603, U+243EC,
-                U+2475E, U+2512B, U+29218, U+2B5D2;
+                U+2475E, U+2512B, U+29218, U+2B5D2,
+                U+2028E, U+20129, U+20E1C, U+232C0;
         }
         @font-face {
             font-family: 'Nom Serif Subset';
@@ -2084,18 +2086,15 @@
                 <span aria-hidden="true">🧩</span>
                 <span class="trivia-btn-label" id="quiz-btn-label">Which word?</span>
             </button>
-            <!-- Share is now the unified icon injected by share-button.js, which
-                 calls window.__langmap.share (the rich, word-specific share below). -->
+            <!-- Header right cluster (unified with index/tree, 2026-07-05):
+                 [Share icon (share-button.js)] [lang-picker (lang-picker.js)]
+                 [URL], flushed right by CSS. The hidden native <select> feeds
+                 the lang-picker (found by id, populated with the 19 UI langs)
+                 and is placed bare before the URL — same markup as index/tree.
+                 The old .ui-lang-footer bottom pill is retired (was already
+                 display:none; superseded by the header lang-picker). -->
+            <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
             <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
-            <!-- UI-language selector: a floating pill at the bottom of the map on
-                 desktop, and a normal row inside the hamburger drawer on mobile.
-                 Lives inside .header-collapse so it joins the mobile drawer; on
-                 desktop position:fixed lifts it out to the bottom pill. Keeps
-                 id="header-ui-lang" so existing wiring works. -->
-            <div class="ui-lang-footer">
-                <span class="ui-lang-footer-icon" aria-hidden="true">🌐</span>
-                <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
-            </div>
         </div>
     </div>
 
@@ -5451,6 +5450,9 @@
         window.__langmap.loadMeta = loadMeta;
         // Expose the language-detail opener for the "Language of the day" toast.
         window.__langmap.showLangInfo = function (code, opts) { return showLangInfo(code, opts); };
+        // ...and the map pan, so the toast can fly to the language too (the
+        // opener alone doesn't move the map — see centerLangOnMap callers).
+        window.__langmap.centerLangOnMap = function (code, minZoom) { try { return centerLangOnMap(code, minZoom); } catch (_) {} };
 
         // Per Session 31 (Schema Revolution Phase 1): each status carries a
         // short pedagogical description shown inline next to the badge.
@@ -6335,7 +6337,7 @@
         //     right:12 → ~352px reserved). Use fitBounds with
         //     paddingBottomRight so the marker centers in the LEFT
         //     visible portion of the map, not the geometric center.
-        function centerLangOnMap(code) {
+        function centerLangOnMap(code, minZoom) {
             const lang = LANG_DATA[code];
             if (!lang || !Number.isFinite(lang.lat) || !Number.isFinite(lang.lng)) return;
             if (is3D && globe) {
@@ -6353,7 +6355,11 @@
                 try { updateMarkers(currentWord); } catch (_) {}
             };
             map.on('moveend', _flyDone);
-            const targetZoom = Math.max(map.getZoom(), 5);
+            // Floor of 5 satisfies the tier gate (all langs eligible); callers
+            // that fly from the cold world-view (e.g. the daily-language toast)
+            // pass a higher minZoom so the focused marker isn't lost to the
+            // density-based thinning that a wide, crowded viewport triggers.
+            const targetZoom = Math.max(map.getZoom(), minZoom || 5);
             const isMobile = window.matchMedia('(max-width: 768px)').matches;
             if (isMobile) {
                 // Shift the centered marker slightly below screen center so
@@ -8073,7 +8079,10 @@
     (function () {
         'use strict';
         const FALLBACK = 'en';
-        const ui = () => (typeof uiLang !== 'undefined' && uiLang) ? uiLang : FALLBACK;
+        // uiLang lives in another <script>'s IIFE and is NOT visible here, so
+        // read the UI language from the global the page maintains (as the
+        // Langle IIFE does); fall back to a bare uiLang, then English.
+        const ui = () => { const g = (window.__langmap && window.__langmap.uiLang); return g || (typeof uiLang !== 'undefined' && uiLang) || FALLBACK; };
         const pick = (m) => m[ui()] || m[ui().split('_')[0]] || m[FALLBACK];
         // ---- localized strings ----
         const S = {
@@ -8106,7 +8115,7 @@
             he:(w)=>`איך אומרים “${w}” בשפות העולם? — LangMap (${ct()} שפות)`,
             sw:(w)=>`Watu husemaje “${w}” kote ulimwenguni? — LangMap (lugha ${ct()})`
         };
-        const ct = () => { try { return (window.LANG_DATA ? Object.keys(LANG_DATA).length : 1112).toLocaleString('en-US'); } catch (_) { return '1,112'; } };
+        const ct = () => { try { const d = (typeof LANG_DATA !== 'undefined' && LANG_DATA) ? LANG_DATA : (window.LANG_DATA || null); return (d ? Object.keys(d).length : 1112).toLocaleString('en-US'); } catch (_) { return '1,112'; } };
         const tpl = () => SHARE_TPL[ui()] || SHARE_TPL[ui().split('_')[0]] || SHARE_TPL.en;
 
         function curWordLabel() {
@@ -8211,9 +8220,13 @@
         // A curated set of well-known languages; filtered at runtime to those
         // actually present in the dataset so a missing code is simply skipped.
         const LOTD_POOL = ['en','es','fr','de','it','pt','nl','sv','da','no','fi','is','ga','cy','eu','ca','gl','ro','pl','cs','sk','hu','el','ru','uk','bg','sr','hr','sq','lt','lv','et','tr','az','hy','ka','fa','ar','he','am','ha','sw','yo','zu','af','hi','bn','ur','pa','gu','ta','te','kn','ml','si','ne','th','lo','my','km','vi','id','ms','tl','ceb','jv','ja','ko','zh','yue','nan','hak','mn','bo','kk','uz'];
+        // LANG_DATA/LANG_NAMES are top-level `const`s (not window props), so
+        // reference the bare name first and fall back to window.* for safety.
+        const lotdData  = () => (typeof LANG_DATA  !== 'undefined' && LANG_DATA)  ? LANG_DATA  : (window.LANG_DATA  || {});
+        const lotdNames = () => (typeof LANG_NAMES !== 'undefined' && LANG_NAMES) ? LANG_NAMES : (window.LANG_NAMES || {});
         function lotdCode() {
             try {
-                const d = window.LANG_DATA || {};
+                const d = lotdData();
                 const p = LOTD_POOL.filter(c => d[c]);
                 if (!p.length) return null;
                 return p[dayNumber() % p.length];
@@ -8221,15 +8234,18 @@
         }
         function lotdLabel(code) {
             try {
-                const nm = window.LANG_NAMES || {};
+                const nm = lotdNames();
                 const d = nm[ui()] || nm[ui().split('_')[0]] || nm.en || {};
                 if (d[code]) return d[code];
-                const meta = (window.LANG_DATA && window.LANG_DATA[code]) || {};
+                const meta = lotdData()[code] || {};
                 return meta.name || code;
             } catch (_) { return code; }
         }
         function gotoLang(code) {
-            try { if (window.__langmap && window.__langmap.showLangInfo) window.__langmap.showLangInfo(code); } catch (_) {}
+            try {
+                if (window.__langmap && window.__langmap.showLangInfo) window.__langmap.showLangInfo(code);
+                if (window.__langmap && window.__langmap.centerLangOnMap) window.__langmap.centerLangOnMap(code, 6);
+            } catch (_) {}
         }
         function showWotd() {
             const code = lotdCode();
@@ -8275,7 +8291,7 @@
             // wait until language data is loaded before offering the daily language
             let tries = 0;
             (function wait() {
-                if (window.LANG_DATA && Object.keys(window.LANG_DATA).length) {
+                if (Object.keys(lotdData()).length) {
                     initShare(); showWotd();
                 } else if (tries++ < 40) { setTimeout(wait, 250); }
             })();

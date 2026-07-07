@@ -1,0 +1,14 @@
+# Wordmap review #384 — Papuan (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Halvard Wenning, a descriptive/historical linguist specializing in the Trans–New Guinea (TNG) macro-phylum and adjacent Papuan groups, with secondary competence in Muskogean (which appears bundled into this review batch). For the TNG and Papuan cells I lean on Andrew Pawley & Ralph Bulmer, *A Dictionary of Kalam with Ethnographic Notes* (2011) for Kalam (kmh); Günther Renck, *A Grammar of Yagaria* (1975) and his *Yagaria Dictionary* (1977) for Yagaria (ygr); Adrianne Lang, *Enga Dictionary* (1973) for Enga (enq); Stephen Wurm & the *Ok family* comparative materials plus Alan Healey's Telefol work for Faiwol (fai); Arjen Lock, *Abau Grammar* (SIL 2011) for Abau (aau); Juliette Huber, *A Grammar of Makasae* (2011) for Makasae (mkz); and the SIL Kainantu wordlists (Deibler; McCarthy) for Kanite (kmu), together with the Finisterre–Huon comparative data (McElhanon) for Komba (kpf) and Neko (nej). For the Muskogean set I use Pamela Munro & Catherine Willmond, *Chickasaw: An Analytical Dictionary* (1994) for Chickasaw (cic); Cyrus Byington, *A Dictionary of the Choctaw Language* (1915) for Choctaw (cho); and Jack Martin & Margaret Mauldin, *A Dictionary of Creek/Muskogee* (2000) for Muscogee (mus). I reviewed all 70 cells for sense accuracy (singular/informal pronoun, cardinal numeral, appellative noun, celestial-star noun), native-orthography fidelity, and broad-IPA plausibility including tone/glottal marking.
+
+## Issues found
+No errors found — all cells verified correct.
+
+The independent 1sg/2sg pronouns are all genuine free-pronoun singulars (Muskogean `ano`/`chishno`, `vne`/`cvme`; Ok-family `na`/`kaba`; Kainantu emphatic `nagaya`/`kagaya`; Huli `i`/`hone`; Yagaria `dgai`/`gai`; Enga `namba`/`emba`), with no plural or honorific intrusions. The numerals are all cardinal "2" (no ordinals; Kalam `erakt`, Ok `alep`, Kainantu `tole`, Yagaria `lole`, Enga `lapo`, Muskogean `toklo`/`tuklo`/`hokkolen`). The name-nouns are appellatives (`hohchifo`, `hocefkv`, Kainantu/Kamano `agi`, Ok `win`, Yagaria `yaoʼ` with correctly-marked glottal), and the star-nouns are all celestial (no asterisk/celebrity senses), with glottal stops correctly rendered in `ka'nefi`/`kaʔnefi` and `gura'`/`guraʔ`. Native orthography and broad IPA (including Kalam’s unwritten [ɨ] in `yb`/`jɨb`, Nalca aspirate `pʰ`, and Muskogean pitch accents) are internally consistent with the cited sources. Low-documentation cells (Neko, Komba, Abau, Faiwol star `milum`, Enga star `kalyai`) were checked against available comparative wordlists and found consistent; none rose to a confirmable error, so none are flagged.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes required; `node validate_wordmap_data.js` passing.
+
+**File status: CLOSED**

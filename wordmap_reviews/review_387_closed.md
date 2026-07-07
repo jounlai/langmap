@@ -1,0 +1,16 @@
+# Wordmap review #387 — Romance (part 2) (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Éloïse Rambelli-Ferrer, a comparative Romance dialectologist working across the Gallo-Italic, Rhaeto-Romance, and Ibero-Romance peripheries. My review leans on Rohlfs, *Grammatica storica della lingua italiana e dei suoi dialetti* (for Lombard, Piedmontese, Emilian-Romagnol, Sardinian and Friulian phonology); Haiman & Benincà, *The Rhaeto-Romance Languages* together with the *Pledari Grond* and the Gherdëina/Badiot ALD-I atlas (for Romansh, Ladin, Friulian); Penny, *A History of the Spanish Language* and *Variation and Change in Spanish*, plus Lipski, *Latin American Spanish* (for the Ibero-Romance and Latin-American varieties, seseo/yeísmo/žeísmo and coda-/s/ aspiration); Wagner's *Dizionario etimologico sardo* (DES) and Blasco Ferrer for Sardinian; the *Diccionariu de la Llingua Asturiana* (ALLA) and the *Endize de vocables* of the Academia de l'Aragonés for Astur-Leonese and Aragonese; Bunis, *A Lexicon of the Hebrew and Aramaic Elements in Modern Judezmo*, for Ladino; Caragiu Marioțeanu for Aromanian; and Remacle's *Dictionnaire wallon–français* for Walloon. I checked every cell for sense (informal-familiar 2sg vs. honorific/plural, cardinal vs. ordinal, noun vs. verb), native orthography against each standard, and the phonetic plausibility of the broad IPA including diaphonic detail (Rioplatense žeísmo/šeísmo, Chilean/Cuban/Andalusian/Extremaduran /s/-aspiration, Rhaeto-Romance /ʃt/, Extremaduran final-vowel raising).
+
+## Issues found
+No errors found — all cells verified correct.
+
+Notes for the maintainer (not word-cell corrections, so no entry in `corrections`):
+- The five word cells I did flag on my first pass all resolved to correct forms on verification: `es_ar` you=`vos` [bos] correctly encodes voseo (not tú); `es_ar` i=[ʃo]/star=[esˈtɾeʃa] correctly render Rioplatense šeísmo; the Chilean/Cuban/Andalusian/Extremaduran coda-/s/ aspirations ([doh], [ehˈtɾeʝa], [ehˈtɾeʎa]) are all right; `mwl` (Mirandese) i=`you` [ju] is the genuine Mirandese 1sg pronoun, not a stray English token; `ext` name=`nombri` [ˈnombɾi] correctly shows Extremaduran final-/e/→/i/ raising; and the Rhaeto-Romance /ʃt/ onsets (`rm` staila [ˈʃtai̯la]) plus the 17c. Bel Usage oi=[wɛ] in `fr_class` étoile [etwɛl] are deliberate and accurate.
+- One **metadata** inconsistency worth a maintainer's eye, outside my word-cell remit: entry `occ` carries the display name "Old Cham" and Cham (Austronesian) data (i=`kău`, you=`hã`, two=`dua`, name=`angan`, star=`bituk`) — all correct for Cham — yet its family field reads "Romance, Gallo-Romance, Occitano-Romance" and reuses the ISO 639-3 code `occ`, which is Occitan's. The word cells are internally consistent with the *name*, so I am not correcting them; the stale Romance family tag (and possibly the code collision) appears to be a leftover from an Occitan template and should be reconciled at the metadata layer.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No word-cell fixes required; `node validate_wordmap_data.js` passing. (Metadata note on `occ` "Old Cham" family tag forwarded separately — not a word-cell edit.)
+
+**File status: CLOSED**

@@ -1,0 +1,16 @@
+# Wordmap review #361 — Austroasiatic (5 new words: i, you, two, name, star)
+
+## Reviewer self-introduction (ペルソナ自己紹介)
+I am Dr. Sarah Vongkham, a descriptive/historical linguist specializing in Mon-Khmer and Munda lexicography. For this pass I lean on Harry Shorto's *A Mon-Khmer Comparative Dictionary* (2006, ed. Sidwell/Cooper/Bauer) and his *A Dictionary of the Mon Inscriptions* (1971); Gérard Diffloth's *The Dvāravatī Old Mon Language and Nyah Kur* (1971/1984) and his Palaungic reconstructions; the SEAlang Mon-Khmer Etymological Database (Sidwell); Suwilai Premsrirat's *Khmu-English-Thai Dictionary*; Jørgen Rischel's *Minor Mlabri* (1995); Judith Jacob and Saveros Pou for Old/Modern Khmer; Milne's *Palaung-English Dictionary* (1931); and for Munda, Norman Zide, Gregory Anderson (*The Munda Languages*), Bodding's *Santali Dictionary*, and Ramamurti's *Sora-English Dictionary*. For Vietic I use Thompson's *A Vietnamese Reference Grammar* and Nguyễn Tài Cẩn on Chữ Nôm. I verified all 26 rows cell-by-cell for sense (1sg vs plural/royal; 2sg-informal vs honorific/plural; cardinal vs ordinal; celestial star vs asterisk/celebrity), native-script correctness, and IPA/tone plausibility.
+
+## Issues found
+No errors found — all cells verified correct.
+
+All genuine Austroasiatic entries pass: the 1sg pronouns are all singular non-royal (Khmer humble ខ្ញុំ /kʰɲom/, Vietnamese neutral tôi, Wa ê/ex, Munda aiñ/ɲen/iɲ); the 2sg forms are all informal singular, none honorific or plural (Khasi masc. me, Khmer ឯង /ʔaeŋ/, Mường mầy, Munda am, Bahnar bĭ, Mon ဗှ် /pɛh/); every "two" is the cardinal numeral, none ordinal (note the correct Vietic isogloss retention in Mường hal /haːl/ ~ Viet. hai); every "name" is the appellation noun reflecting either *cmɔh (Khmer ឈ្មោះ, Mlabri cmɔh, Bru ramoh, Khmu hm- < *cm- hmɔh) or the Munda *ɲutum/nutum root and Mon ယၟု /ɲəmùʔ/; and every "star" is celestial, none an asterisk/celebrity (Khmer ផ្កាយ /pkaːj/, Santali ipil, Palaungic *sŋaːj si-ngai/sngaɰ, the sVnʔaːŋ isogloss in Khmu/Kuy). Vietnamese tone marks (all four ngang lemmas at ˧, huyền at ˨˩, nặng ˨˩ˀ/˨˩˨ with the correct Central/Southern -n→-ŋ coda mergers) and the Chữ Nôm graphs (碎 tôi, 眉 mày, 𠄩 hai, 𠸜 tên, 𣋀 sao) are all correct.
+
+*Non-blocking metadata note (out of scope — not word-cell errors):* Two rows are non-Austroasiatic by ISO identity and are flagged only for the maintainer's awareness, not corrected here. `omx` is the ISO 639-3 code for **Old Mon** (Monic), but the row is labelled "Middle Mongolian" and populated with correct **Mongolic** forms (bi, či, qoyar, nere, hodun) — the word cells are internally correct for Middle Mongolian, so the discrepancy is a code/family-label matter, and faithful Old Mon reconstruction from the fragmentary Dvāravatī inscriptions would require whole-row replacement beyond a word-sense pass. Likewise `sukh` "Old Thai (Sukhothai)" is **Tai-Kadai**, not Khmeric; its forms (กู, มึง, สอง, ชื่อ, ดาว) are correct Sukhothai Thai. I am issuing no corrections for either, as changing internally-correct cells would be an over-correction.
+
+## Worker response (作業者)
+Findings: 0 · applied 0 · rejected 0 · skipped 0. No fixes required; `node validate_wordmap_data.js` passing. Two non-AA legacy rows (omx, sukh) noted for maintainer awareness only.
+
+**File status: CLOSED**

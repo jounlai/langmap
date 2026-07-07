@@ -11884,7 +11884,7 @@
             const box = document.getElementById('lm-hquiz-box'); if (!box) return;
             box.innerHTML = '';
             box.appendChild(el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:10px',
-                `<div style="font-weight:800;font-size:18px">${pk(Q.title)}</div><div style="color:#9aa;font-weight:600;font-size:13px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`));
+                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div style="color:#9aa;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`));
             if (!qs.length) { box.appendChild(el('div', 'color:#667;font-size:14px;margin:10px 0', pk(Q.none))); }
             else if (idx >= qs.length) { renderResult(box); return; }
             else {
@@ -11896,15 +11896,14 @@
                 const prompt = q.fmt === 1
                     ? pk(Q.q1).replace('{lang}', `<b style="color:#222">${nameOf(q.target)}</b>`)
                     : pk(Q.q2).replace('{reading}', `<b style="color:#222">${q.reading}</b>`);
-                mid.appendChild(el('div', 'text-align:center;color:#556;font-size:15px;margin-bottom:14px;line-height:1.5', prompt));
+                mid.appendChild(el('div', 'text-align:center;color:#556;font-size:17px;margin-bottom:14px;line-height:1.5', prompt));
                 q.options.forEach((o, i) => {
                     const txt = q.fmt === 1 ? o.label : nameOf(o.code);
-                    // The reading is flanked by a top spacer and a bottom sub-label of
-                    // EQUAL fixed height, so it is genuinely vertically centred whether
-                    // or not the button has slack (symmetry, not justify-content, is
-                    // what centres it). The sub-label's visibility toggles on reveal
-                    // without any reflow.
-                    let css = 'width:100%;box-sizing:border-box;text-align:center;padding:5px 12px;margin-bottom:6px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:17px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
+                    // The reading and (once answered) the sub-label sit in a flex
+                    // column that centres its content — word centred when unanswered,
+                    // word+sub-label PAIR centred once revealed. The sub-label is
+                    // display:none until then so it doesn't pull the word off-centre.
+                    let css = 'width:100%;box-sizing:border-box;min-height:54px;text-align:center;padding:8px 12px;margin-bottom:7px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:19px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
                     if (answered) {
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
@@ -11912,7 +11911,7 @@
                         else css += ';opacity:.5';
                     }
                     const b = el('button', css);
-                    b.innerHTML = `<div style="height:13px" aria-hidden="true"></div><div>${txt}</div><div style="height:13px;font-size:10.5px;font-weight:400;color:#9aa1ad;line-height:1.2;visibility:${answered ? 'visible' : 'hidden'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
+                    b.innerHTML = `<div>${txt}</div><div style="font-size:12px;font-weight:400;color:#9aa1ad;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
                     if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
                     mid.appendChild(b);
                 });
@@ -11920,23 +11919,27 @@
                 // Feedback line + Next button pinned below, always present (reserving
                 // height), shown only once answered so the modal height stays stable.
                 const okNow = answered && qs[idx].options[chosen] && qs[idx].options[chosen].correct;
-                box.appendChild(el('div', `text-align:center;font-weight:800;font-size:15px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct)));
-                const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:15px;cursor:pointer;flex:none;visibility:${answered ? 'visible' : 'hidden'}`);
+                box.appendChild(el('div', `text-align:center;font-weight:800;font-size:16px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct)));
+                const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none;visibility:${answered ? 'visible' : 'hidden'}`);
                 nb.textContent = !answered ? pk(Q.next) : ((idx + 1 >= TOTAL) ? pk(Q.result).replace('{score}', score).replace('{total}', TOTAL) : pk(Q.next));
                 if (answered) nb.addEventListener('click', () => { idx++; answered = false; chosen = -1; render(); });
                 box.appendChild(nb);
             }
-            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:13px;cursor:pointer', pk(Q.close));
+            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:14px;cursor:pointer', pk(Q.close));
             cl.addEventListener('click', hide);
             box.appendChild(cl);
         }
         function renderResult(box) {
-            box.appendChild(el('div', 'text-align:center;font-size:40px;margin:6px 0', score >= TOTAL * 0.8 ? '🏆' : score >= TOTAL * 0.5 ? '🎉' : '🀄'));
-            box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:20px;margin-bottom:4px', pk(Q.result).replace('{score}', score).replace('{total}', TOTAL)));
-            const ab = el('button', `width:100%;margin-top:14px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:15px;cursor:pointer`, pk(Q.again));
+            // Trophy + score fill a centered flex:1 band; Again/Close sit at the
+            // bottom (they used to cluster in the top third of the modal).
+            const top = el('div', 'flex:1;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:center');
+            top.appendChild(el('div', 'text-align:center;font-size:52px;margin:6px 0', score >= TOTAL * 0.8 ? '🏆' : score >= TOTAL * 0.5 ? '🎉' : '🀄'));
+            top.appendChild(el('div', 'text-align:center;font-weight:800;font-size:24px', pk(Q.result).replace('{score}', score).replace('{total}', TOTAL)));
+            box.appendChild(top);
+            const ab = el('button', `width:100%;margin-top:10px;padding:13px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none`, pk(Q.again));
             ab.addEventListener('click', startSet);
             box.appendChild(ab);
-            const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:13px;cursor:pointer', pk(Q.close));
+            const cl = el('button', 'width:100%;margin-top:10px;padding:9px;border:0;background:none;color:#999;font-size:14px;cursor:pointer;flex:none', pk(Q.close));
             cl.addEventListener('click', hide);
             box.appendChild(cl);
         }

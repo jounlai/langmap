@@ -2574,7 +2574,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=231"></script>
+    <script src="wordmap_data.js?v=232"></script>
     <script src="word_manifest.js?v=58"></script>
     <script>
         // Reserve the WORDS global BEFORE the per-word <script> tags load,
@@ -2866,7 +2866,7 @@
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:   122,
-            data:      231,
+            data:      232,
             metaI18n:  15,
             filter:    32,
             names:   121,
@@ -5906,7 +5906,11 @@
             // Session 31 (Schema Revolution Phase 1): also show pedagogical description
             // inline so users understand the data's evidentiary level.
             const status = getDataStatus(code);
-            const badge = DATA_STATUS_BADGE[status];
+            // Living-but-fragmentary languages (Kusunda, Yuchi, Itelmen, …) are
+            // MODERN; don't show them the "fragmentary" chip, which otherwise
+            // reads as a historical/ancient marker on an actively-spoken language.
+            const badge = (typeof LIVING_FRAGMENTARY_CODES !== 'undefined' && LIVING_FRAGMENTARY_CODES.has(code))
+                ? null : DATA_STATUS_BADGE[status];
             const kindBadge = m.languageKind && LANGUAGE_KIND_BADGE[m.languageKind];
             if (badge || kindBadge) {
                 html += `<div style="margin:4px 0 8px;line-height:1.4">`;

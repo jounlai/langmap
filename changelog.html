@@ -143,6 +143,33 @@
         <nav class="month-nav">Months: <strong>2026-07</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-07-08 — Word Map: fixed 21 languages whose description belonged to a different language</div>
+            <ul>
+                <li>A name-vs-description scan found <strong>21 records whose family, script and encyclopedic description had been swapped in from an unrelated language</strong> — e.g. <em>Old Cham</em> showed Occitan's entry, <em>Vedic Sanskrit</em> showed Waray's, <em>Hattic</em> showed Hadza's, and Assamese←Odia, Dungan←Upper Sorbian, Sakha←Tuvan, Aromanian←Walloon, Acholi←Rakhine, Nepali←Dotyali, Venda←Bemba, Chukchi←Itelmen and others. Each was regenerated with the correct family, writing system, speaker count and a fresh description in all 19 UI languages, then re-scanned to confirm none remain.</li>
+                <li><strong>Era reclassification.</strong> Languages that survived into the modern era — even if now extinct — are shown as modern, not historical: <em>Ubykh</em> (last speaker d. 1992), <em>Yugh</em>, <em>Mochica</em>, <em>Babuza</em> and the still-spoken <em>Manchu</em> moved onto the modern map.</li>
+                <li><strong>Script-field fixes.</strong> Five Arabic dialects were mislabelled "Latin" though their data is in Arabic script; Kusunda claimed Devanagari though it is written here in romanization. Both corrected.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-08 — Han Map: colour readings by dialect lineage, with a legend</div>
+            <ul>
+                <li>Character readings on the Han Map are now coloured by <strong>dialect branch</strong> rather than simply Chinese-vs-other, so distinct Sinitic groups no longer blur together (Yong'an Min used to look identical to Mandarin). Mandarin, Jin, Yue, Min, Wu, Hakka, Xiang, Gan, Pinghua and Hui each get a dark, muted hue, alongside Korean, Japanese and Vietnamese — with a small collapsible legend in the corner. Historical/reconstructed readings keep their lighter sepia tone.</li>
+                <li>The Han-character reading quiz now mixes romanization and IPA per question, and its option layout was rebuilt so all five choices fit and centre cleanly.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-07 — Games, sharing and modal polish</div>
+            <ul>
+                <li><strong>Unified language picker &amp; Share.</strong> A single globe + language-code control (opening a "CODE  Native-name" dropdown) and one icon-only Share button now sit in the header of every page.</li>
+                <li><strong>Language of the Day</strong> replaces Word of the Day on the Word Map (the word set was too small to rotate), featuring a different language each day. <strong>Langle</strong> gained a shareable link that opens the game directly and a friendlier share card that teases a real word rather than an abstract grid.</li>
+                <li>Quiz modals ("Which word?", Han reading quiz) were made more readable — larger type, option text vertically centred, consistent button heights, and the results screen laid out with its buttons pinned to the bottom.</li>
+                <li>Removed the faint white seams between tiles on the 2D map, enlarged the language info-panel word table (prominent word forms, readable IPA), and localized the remaining header controls.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-07-05 — Word Map: 20 → 25 words (added <strong>I, you, two, name, star</strong>) with a five-round review rally</div>
             <ul>
                 <li>Added five high-frequency concepts to the Word Map — the singular pronouns <em>I</em> and <em>you</em>, the numeral <em>two</em>, and the nouns <em>name</em> and <em>star</em> — each filled across all <strong>1,112 languages</strong> to match the existing twenty. Labels and terse sense-disambiguation definitions were written in all 19 UI languages (singular pronoun, not plural/honorific; cardinal, not ordinal; the noun "name", not a proper name; celestial "star", not a celebrity or asterisk).</li>

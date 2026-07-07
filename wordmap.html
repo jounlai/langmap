@@ -670,7 +670,7 @@
             width: 340px; max-height: calc(100vh - 70px);
             background: rgba(255,255,255,0.97); border-radius: 10px;
             box-shadow: 0 4px 16px rgba(0,0,0,0.25);
-            font-size: 13px; line-height: 1.6; display: none;
+            font-size: 14px; line-height: 1.6; display: none;
             overflow: hidden;   /* radius clipping; scroll is on #info-content */
         }
         .lang-info-panel.visible { display: flex; flex-direction: column; }
@@ -726,7 +726,7 @@
         .lang-info-panel table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
         .lang-info-panel td { padding: 3px 0; vertical-align: top; }
         .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; white-space: nowrap; }
-        .lang-info-panel .desc { color: #444; font-size: 12px; line-height: 1.5; }
+        .lang-info-panel .desc { color: #444; font-size: 13.5px; line-height: 1.55; }
         /* Audit Task 129: RTL/bidi isolation for Arabic/Hebrew/Perso-Arabic
            word cells. unicode-bidi:isolate prevents RTL text from reordering
            neighboring LTR punctuation (slashes, brackets, evidence markers).
@@ -883,7 +883,7 @@
         /* Default (mobile): table fills the panel. PC override at the
            min-width:601px block below uses width:auto so columns size to
            content. */
-        .compare-table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.4; }
+        .compare-table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.4; }
         .compare-table th, .compare-table td {
             border-bottom: 1px solid #eee;
             /* Top-heavy padding so iOS Safari + Hiragino doesn't render
@@ -998,7 +998,7 @@
         }
         .compare-table .compare-remove-row .remove-col:active { transform: scale(0.96); }
         .compare-table tbody th { background: #fafafa; font-weight: 600; min-width: 80px; }
-        .compare-table .surface { font-size: 14px; }
+        .compare-table .surface { font-size: 15px; }
         .compare-table .ipa { color: #666; font-size: 12px; font-family: 'Charis SIL', 'DejaVu Serif', serif; display: block; }
         .compare-table .unattested { color: #aaa; font-style: italic; }
         .compare-add-btn {
@@ -1484,7 +1484,7 @@
             vertical-align: -1px;
         }
         .trivia-modal .trivia-summary {
-            font-size: 13px; font-style: italic; color: #6a4c1c;
+            font-size: 14px; font-style: italic; color: #6a4c1c;
             border-left: 2px solid #d9a441;
             padding: 6px 0 6px 12px;
             margin: 10px 0 18px;
@@ -1707,7 +1707,7 @@
         @media (max-width: 600px) {
             .trivia-modal {
                 width: calc(100vw - 16px);
-                font-size: 13.5px;
+                font-size: 14.5px;
             }
             .trivia-modal h2 { font-size: 18px; }
             /* Tight mobile padding matching the language-info modal

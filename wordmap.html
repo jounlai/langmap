@@ -2575,7 +2575,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=232"></script>
-    <script src="word_manifest.js?v=59"></script>
+    <script src="word_manifest.js?v=60"></script>
     <script>
         // Reserve the WORDS global BEFORE the per-word <script> tags load,
         // since each `words/<id>.js` does `WORDS.<id> = {...}` and would
@@ -2866,14 +2866,14 @@
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:   122,
-            data:      232,
+            data:      233,
             metaI18n:  15,
             filter:    32,
             names:   121,
-            meta:     208,
+            meta:     209,
             trivia:   27,
             triviaI18n: 4,
-            words:      59,
+            words:      60,
         };
         function assetUrl(path, key) {
             return `${path}?v=${WM_ASSET_VERSION[key]}`;
@@ -3905,6 +3905,12 @@
             'omc',   // Mochica (Muchik, Peru) — last speakers early-mid 20th century
             'mnc',   // Manchu — a few elderly L1 speakers remain (Sanjiazi)
             'bzg',   // Babuza / Favorlang (Formosan) — survived into the 20th century
+            // 2026-07-09: fully-spoken languages whose dataStatus is 'fragmentary'
+            // only because a handful of cells are genuinely unattested. Without
+            // this, the info panel would show them a "fragmentary" chip that
+            // reads as "historical".
+            'trm',   // Tregami — ~3.5K speakers, Nuristan
+            'yag',   // Yaghnobi — ~13K speakers, Yaghnob valley
         ]);
         const HIST_CODE_SET = new Set(
             Object.keys(HIST_DESCENDANT).filter(c => !LIVING_FRAGMENTARY_CODES.has(c))

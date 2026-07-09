@@ -143,6 +143,26 @@
         <nav class="month-nav">Months: <strong>2026-07</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-07-09 — Speaker counts now follow one house style across all 1,112 languages</div>
+            <ul>
+                <li>The speaker-count line had drifted into 131 different shapes — <code>~12,000-15,000 (estimated; declining trend)</code>, <code>approximately 800-1500 speakers</code>, <code>1000-1500 (UNCONFIRMED - see notes)</code>, and long census citations that ran off the end of the info panel. Every entry now reads the same way: <strong>a figure, not a citation</strong>. Magnitudes use <code>~</code> with K/M/B (<code>~12K</code>, <code>~2.7M</code>), ranges share a suffix and an en dash (<code>~12–15K</code>), and meaning-bearing qualifiers survive (<code>~30 fluent</code>, <code>~380M L1 + ~1.5B total (with L2)</code>).</li>
+                <li>Reformatting exposed real bugs in the fallback that reads a number out of this field: Gulf Arabic's "36 million" was being read as <strong>36 speakers</strong>, Malaysian English picked up the country's <em>population</em> (33M) instead of its speaker estimate, and Xinzhou Jin borrowed the 48M figure belonging to Jin as a whole. All are now correct.</li>
+                <li>A new deterministic guard, <code>tools/speakers_format_check.js</code>, runs with the other data guards and fails the build if the style drifts again.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-09 — Three languages whose word rows were fabricated: Tregami, Khowar, Yaghnobi</div>
+            <ul>
+                <li>The ten-thread rally flagged three rows as untrustworthy but <strong>refused to correct them</strong>, because inventing replacements for poorly-documented languages is worse than leaving a known-bad cell. Each was re-opened with two independent researchers — one hunting dictionaries, one reasoning from expected sound changes — plus an adjudicator who could only accept a correction that was <em>cited and uncontradicted</em>, and otherwise had to leave the cell blank (reviews <code>407</code>–<code>409</code>).</li>
+                <li><strong>Tregami</strong> (Nuristani, ~3,500 speakers) held Sanskrit dictionary headwords: <em>hasta</em> "hand", <em>hridaya</em> "heart", <em>agni</em> "fire", <em>vrkṣa</em> "tree". Twelve cells corrected, <strong>six blanked</strong> because no source attests them.</li>
+                <li><strong>Khowar</strong> (Dardic, Chitral) had Urdu and Persian words standing in for its own — <em>ghar</em> "house", <em>dil</em> "heart", <em>ek</em> "one" — plus four forms belonging to no language at all. Seventeen cells corrected to the forms in Bashir's <em>Khowar–English Lexicon</em>; both researchers independently agreed on 24 of 25.</li>
+                <li><strong>Yaghnobi</strong> (the only living descendant of Sogdian) was 18 cells wrong. The giveaway: its "cat" held <em>kyat</em>, a mangling of <em>kat</em> — which is Yaghnobi for <strong>house</strong>, while "house" held an invented word. One cell, "love", is now blank: the complete Yaghnobi–Tajik–English lexicon has no headword for it, and a plausible Tajik loan would have been a guess.</li>
+                <li>Both Tregami and Yaghnobi are <strong>living languages</strong> and continue to appear on the modern map; the blanked cells simply show "—".</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-07-09 — Word Map review rally: ten family-domain reviewers audit all 1,112 languages</div>
             <ul>
                 <li><strong>A ten-thread review rally</strong> put one expert-persona reviewer on each of ten language-family domains — Romance/Germanic, other Indo-European, Indo-Iranian + Caucasus, Sino-Tibetan, Austronesian, Afro-Asiatic, Niger-Congo/Nilo-Saharan, Japonic–Koreanic–Turkic–Mongolic–Tungusic–Uralic, SE Asia/Oceania/Australia + isolates, and the Americas — auditing every one of the 25 word cells for all <strong>1,112 languages</strong> (reviews <code>397</code>–<code>406</code>).</li>

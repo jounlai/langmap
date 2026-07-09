@@ -4990,6 +4990,14 @@ const DATA_STATUS_OVERRIDES = {
     blc:       'fragmentary',    // Nuxalk (Bella Coola) — Salishan, all-consonant words (Nater 1984)
     tue:       'fragmentary',    // Tuyuca — Tukanoan, obligatory evidentiality (Barnes 1984)
     ncs:       'fragmentary',    // Nicaraguan Sign Language — spontaneous emergence (Kegl 1999)
+    // 2026-07-09 (reviews #407, #409): both languages had a bulk import of
+    // prestige-language citation forms (Sanskrit tatsamas for Tregami, Tajik
+    // dictionary forms mis-slotted for Yaghnobi). The fabricated cells were
+    // replaced with sourced forms where a source exists and blanked where none
+    // does. Both are LIVING languages — see LIVING_FRAGMENTARY_CODES in
+    // wordmap.html, which suppresses the misleading "fragmentary" badge.
+    trm:       'fragmentary',    // Tregami — Morgenstierne (1973) is the only substantial wordlist; 6 cells unattested
+    yag:       'fragmentary',    // Yaghnobi — Andreyev–Peshchereva / Novák lexicons have no headword for 'love'
     uby:       'fragmentary',       // Ubykh — extinct 1992 (Esenç d. 7 Oct 1992); Dumézil 1931 + Vogt 1963 + Hewitt 2004  [reclassified modern 2026-07: fragmentary 25-word coverage]
     // Attested in primary text records (despite scholarly phonological reconstruction):
     vsa:       'attested',       // Vedic Sanskrit — Rigveda et al. directly transmitted

@@ -40,5 +40,8 @@ line('LangMap role integrity', num(s, /actionable: (\d+)/), `${num(s, /UNUSED_RO
 s = run('wordmap_check.js');
 line('WordMap integrity', num(s, /actionable: (\d+)/));
 
+s = run('speakers_format_check.js');
+line('speaker-count house style', num(s, /non-conforming: (\d+)/));
+
 console.log(`\n${fail === 0 ? '✓ all guards clean' : '✗ ' + fail + ' guard(s) failing'}`);
 process.exit(fail === 0 ? 0 : 1);

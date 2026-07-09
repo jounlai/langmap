@@ -218,7 +218,7 @@ WORDS.you = {
       fa: ["تو", "to"],
       jpr: ["תו", "to"],
       prs: ["تو", "to"],
-      trm: ["tü", "ty"],
+      trm: ["tu", "tu"],
       sw: ["wewe", "weˈwe"],
       suk: ["gwegwe", "ˈɡweɡwe"],
       nym: ["gwegwe", "ˈɡweɡwe"],

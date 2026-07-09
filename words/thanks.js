@@ -98,7 +98,7 @@ WORDS.thanks = {
       woe: ["—", "—"],
       pmt: ["—", "—"],
       bin: ["ù rú èsé", "u ru ese"],
-      khw: ["شکریہ", "sukria"],
+      khw: ["شکریہ", "ʃukria"],
       xav: ["adzé roma", "aˈdze ˈɾoma"],
       ter: ["obrigado", "obriɡado"],
       bor: ["iya", "ija"],

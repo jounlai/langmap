@@ -1003,7 +1003,7 @@ WORDS.star = {
       xqa: ["yultuz", "jultuz"],
       sga: ["rétla", "ˈreːdla"],
       bsk: ["asé", "aˈse"],
-      yag: ["istora", "isˈtora"],
+      yag: ["sitora", "siˈtora"],
       srn: ["stari", "ˈstari"],
       djk: ["sitari", "siˈtari"],
       srm: ["teteei", "teteːi"],

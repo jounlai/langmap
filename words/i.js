@@ -218,7 +218,7 @@ WORDS.i = {
       fa: ["من", "man"],
       jpr: ["מן", "man"],
       prs: ["من", "man"],
-      trm: ["unz", "unz"],
+      trm: ["e", "e"],
       sw: ["mimi", "miˈmi"],
       suk: ["nene", "ˈnene"],
       nym: ["nene", "ˈnene"],

@@ -134,7 +134,7 @@ WORDS.moon = {
       srb: ["dian", "dian"],
       kjg: ["kee", "keː"],
       mro: ["la", "lə"],
-      gon: ["चाँद / చంద్ర", "tʃaːnd"],
+      gon: ["नेलेंज / నెలెంజ్", "nelːeːndʒ"],
       bfq: ["thinguva", "θiŋɡuvɑ"],
       som: ["dayax", "dajaħ"],
       har: ["wahri", "wɑhri"],

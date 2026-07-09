@@ -134,7 +134,7 @@ WORDS.drink = {
       srb: ["pim", "pim"],
       kjg: ["ɲɔɔp", "ɲɔːp"],
       mro: ["kham", "kʰɑm"],
-      gon: ["पिना / పిన", "piːnaː"],
+      gon: ["उंडाना / ఉండానా", "unɖaːnaː"],
       bfq: ["kudhi", "kuði"],
       som: ["cab", "ʕab"],
       har: ["šatäya", "ʃɑtəjɑ"],

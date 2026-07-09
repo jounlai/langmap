@@ -134,7 +134,7 @@ WORDS.eat = {
       srb: ["kay", "kaj"],
       kjg: ["caa", "tʃaː"],
       mro: ["tsa", "tsɑ"],
-      gon: ["खाना / ఖాన", "kʰaːnaː"],
+      gon: ["तिंदाना / తిందానా", "tindaːnaː"],
       bfq: ["thindhi", "θiːnði"],
       som: ["cun", "ʕun"],
       har: ["mäbla", "məblɑ"],

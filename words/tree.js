@@ -134,7 +134,7 @@ WORDS.tree = {
       srb: ["dar", "dar"],
       kjg: ["cmuul", "tʃmuːl"],
       mro: ["tshing", "tsʰɪŋ"],
-      gon: ["पेड़ / చెట్టు", "peːɽ"],
+      gon: ["मर / మర", "mara"],
       bfq: ["mara", "mɑrɑ"],
       som: ["geed", "ɡiːd"],
       har: ["šäjar", "ʃəʒɑr"],

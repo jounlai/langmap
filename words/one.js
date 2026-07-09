@@ -134,7 +134,7 @@ WORDS.one = {
       srb: ["aboy", "aboj"],
       kjg: ["muei", "muei"],
       mro: ["lok", "ləkː"],
-      gon: ["एक / ఒకటి", "ɛk"],
+      gon: ["उंडि / ఉండి", "undi"],
       bfq: ["ondu", "ɔndu"],
       som: ["mid", "mɪd"],
       har: ["aḥad", "ɑħɑd"],

@@ -134,7 +134,7 @@ WORDS.hand = {
       srb: ["si", "si"],
       kjg: ["tii", "tiː"],
       mro: ["bong", "boŋ"],
-      gon: ["हाथ / చేయి", "haːtʰ"],
+      gon: ["कयि / కయి", "kaj"],
       bfq: ["kai", "kɑɪ"],
       som: ["gacan", "ɡaʕan"],
       har: ["händ", "hənd"],

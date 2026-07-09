@@ -134,7 +134,7 @@ WORDS.father = {
       srb: ["aba", "aba"],
       kjg: ["ʔaaʔ", "ʔaːʔ"],
       mro: ["pa", "pə"],
-      gon: ["बाप / బాప", "baːp"],
+      gon: ["तप्पे / తప్పె", "tappe"],
       bfq: ["appa", "ɑpːɑ"],
       som: ["aabo", "ɑ.bɔ"],
       har: ["aw", "ɑw"],

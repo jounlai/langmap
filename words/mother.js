@@ -134,7 +134,7 @@ WORDS.mother = {
       srb: ["ayo", "ajo"],
       kjg: ["mɔɔʔ", "mɔːʔ"],
       mro: ["au", "əʔu"],
-      gon: ["माँ / ఆమ", "maː"],
+      gon: ["यायाल / యాయాల్", "jaːjaːl"],
       bfq: ["thaaya", "θɑːjɑ"],
       som: ["hooyo", "hoː.jɔ"],
       har: ["wallidda", "wɑlːidːɑ"],

@@ -127,7 +127,7 @@ WORDS.good = {
       sce: ["sain", "sain"],
       bua: ["сайн", "sɑjn"],
       cjs: ["чақшы", "tʃɑqʃɯ"],
-      dlg: ["абыlay", "ɑbəlɑj"],
+      dlg: ["үчүгэй", "ytʃyɡej"],
       kdt: ["ɟɔ", "dʑɔ"],
       blk: ["ကောင်း", "kɔ̃"],
       njo: ["khetü", "kʰetʰy"],

@@ -61,7 +61,7 @@ WORDS.love = {
       ar_jo: ["حب", "ħab"],
       ar_ps: ["حب", "ħobb"],
       fr_lu: ["amour", "amuʁ"],
-      fr_cm: ["aimer", "eme"],
+      fr_cm: ["amour", "amuʁ"],
       de_lu: ["Liebe", "liːbə"],
       en_ng2: ["love", "lʌv"],
       pt_mo: ["amor", "ɐmoɾ"],

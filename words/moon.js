@@ -136,7 +136,7 @@ WORDS.moon = {
       mro: ["la", "lə"],
       gon: ["चाँद / చంద్ర", "tʃaːnd"],
       bfq: ["thinguva", "θiŋɡuvɑ"],
-      som: ["galay", "ɡæ.læj"],
+      som: ["dayax", "dajaħ"],
       har: ["wahri", "wɑhri"],
       es_pr: ["luna", "luna"],
       es_do: ["luna", "luna"],

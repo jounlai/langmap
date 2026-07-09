@@ -136,7 +136,7 @@ WORDS.hand = {
       mro: ["bong", "boŋ"],
       gon: ["हाथ / చేయి", "haːtʰ"],
       bfq: ["kai", "kɑɪ"],
-      som: ["gacal", "ɡæ.tʃæl"],
+      som: ["gacan", "ɡaʕan"],
       har: ["händ", "hənd"],
       es_pr: ["mano", "mano"],
       es_do: ["mano", "mano"],

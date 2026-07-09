@@ -780,6 +780,7 @@ WORDS.star = {
       gay: ["bintang", "bintaŋ"],
       bug: ["wittoing", "wittoeŋ"],
       mdr: ["bittoeng", "bittoeŋ"],
+      cia: ["wicuko", "witʃuko"],
       war: ["bitoon", "bituʔon"],
       bik: ["bitoon", "bituʔon"],
       bto: ["bitóon", "bituʔon"],

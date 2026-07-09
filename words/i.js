@@ -780,6 +780,7 @@ WORDS.i = {
       gay: ["aku", "aku"],
       bug: ["iyya'", "ijːaʔ"],
       mdr: ["iyau", "ijau"],
+      cia: ["indau", "indau"],
       war: ["ako", "ʔako"],
       bik: ["ako", "ʔako"],
       bto: ["akó", "ʔako"],

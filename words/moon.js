@@ -786,6 +786,7 @@ WORDS.moon = {
     gay: ["lao", "lao"],
     bug: ["uleng", "uleŋ"],
     mdr: ["bulang", "bulaŋ"],
+    cia: ["wula", "wula"],
     war: ["bulan", "bulan"],
     bik: ["bulan", "bulan"],
     bto: ["bulən", "bulən"],

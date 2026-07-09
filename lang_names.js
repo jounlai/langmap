@@ -805,6 +805,11 @@ const LANG_NAMES = {
     }
     // Mandar (mdr), East Franconian (vmf), Motu (meu) — 700-language milestone! Sulawesi Austronesian + German dialect + PNG Austronesian.
     const ADDED29 = {
+        cia: { en: 'Cia-Cia', ja: 'チアチア語', ko: '찌아찌아어', zh: '吉阿吉阿语', yue: '吉阿吉阿語',
+               vi: 'Tiếng Cia-Cia', th: 'ภาษาจีอาจีอา', id: 'Cia-Cia', hi: 'चिया-चिया',
+               de: 'Cia-Cia', fr: 'Cia-cia', it: 'Cia-Cia',
+               es_eu: 'Cia-Cia', es_mx: 'Cia-Cia', pt_eu: 'Cia-Cia', pt_br: 'Cia-Cia',
+               ru: 'Чиа-чиа', uk: 'Чіа-чіа', ar: 'التشيا تشيا', he: "צ'יה-צ'יה", sw: 'Kicia-Cia' },
         mdr: { en: 'Mandar', ja: 'マンダル語', ko: '만다르어', zh: '曼达尔语', yue: '曼達爾語',
                vi: 'Tiếng Mandar', th: 'ภาษามันดาร์', id: 'Mandar', hi: 'मंदार',
                de: 'Mandar', fr: 'Mandar', it: 'Mandar',

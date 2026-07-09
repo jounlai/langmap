@@ -780,6 +780,7 @@ WORDS.eat = {
     gay: ["mangan", "maŋan"],
     bug: ["mandre", "mandɾe"],
     mdr: ["ma'ande", "maʔande"],
+    cia: ["ma'a", "maʔa"],
     war: ["kaon", "kaʔon"],
     bik: ["kakanon", "kakanon"],
     bto: ["kaən", "kaʔən"],

@@ -780,6 +780,7 @@ WORDS.good = {
     gay: ["jeroh", "dʒeɾoh"],
     bug: ["makanja", "makandʒa"],
     mdr: ["macoa", "matʃoa"],
+    cia: ["umela", "umela"],
     war: ["maupay", "maʔupaj"],
     bik: ["marhay", "maɾhaj"],
     bto: ["marhəy", "maɾhəj"],

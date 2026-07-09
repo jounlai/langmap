@@ -786,6 +786,7 @@ WORDS.mother = {
     gay: ["ine", "ine"],
     bug: ["indo", "indo"],
     mdr: ["indo", "indo"],
+    cia: ["ina", "ina"],
     war: ["nanay", "nanaj"],
     bik: ["nanay", "nanaj"],
     bto: ["ina", "ina"],

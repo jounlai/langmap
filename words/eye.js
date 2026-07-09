@@ -780,6 +780,7 @@ WORDS.eye = {
     gay: ["mata", "mata"],
     bug: ["mata", "mata"],
     mdr: ["mata", "mata"],
+    cia: ["mata", "mata"],
     war: ["mata", "mata"],
     bik: ["mata", "mata"],
     bto: ["mata", "mata"],

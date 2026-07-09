@@ -780,6 +780,7 @@ WORDS.tree = {
     gay: ["kayu", "kaju"],
     bug: ["aju", "adʒu"],
     mdr: ["kaju", "kaju"],
+    cia: ["sau", "sau"],
     war: ["kahoy", "kahɔj"],
     bik: ["kahoy", "kahoj"],
     bto: ["kahoy", "kahɔj"],

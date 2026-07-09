@@ -780,6 +780,7 @@ WORDS.drink = {
     gay: ["minum", "minum"],
     bug: ["minung", "minuŋ"],
     mdr: ["minung", "minuŋ"],
+    cia: ["poroku", "poroku"],
     war: ["inom", "ʔinɔm"],
     bik: ["inumon", "inumon"],
     bto: ["inum", "inum"],

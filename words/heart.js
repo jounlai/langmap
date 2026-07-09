@@ -780,6 +780,7 @@ WORDS.heart = {
     gay: ["ate", "ate"],
     bug: ["ati", "ati"],
     mdr: ["ate", "ate"],
+    cia: ["lalo", "lalo"],
     war: ["kasingkasing", "kasiŋkasiŋ"],
     bik: ["puso", "puso"],
     bto: ["puso", "puso"],

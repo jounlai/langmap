@@ -780,6 +780,7 @@ WORDS.two = {
       gay: ["roa", "roa"],
       bug: ["dua", "duwa"],
       mdr: ["dua", "dua"],
+      cia: ["rua", "rua"],
       war: ["duha", "duha"],
       bik: ["duwa", "duwa"],
       bto: ["darwā", "darwaː"],

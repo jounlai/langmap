@@ -780,6 +780,7 @@ WORDS.hello = {
     gay: ["salam", "salam"],
     bug: ["tabe'", "tabeʔ"],
     mdr: ["salama' ma'ondong", "salamaʔ maʔondoŋ"],
+    cia: ["Assalamu'alaikum", "asalamu ʔalaikum"],
     war: ["kumusta", "kumusta"],
     bik: ["kumusta", "kumusta"],
     bto: ["kumusta", "kumusta"],

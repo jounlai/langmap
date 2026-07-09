@@ -780,6 +780,7 @@ WORDS.name = {
       gay: ["gerel", "gərəl"],
       bug: ["aseng", "asəŋ"],
       mdr: ["sanga", "saŋa"],
+      cia: ["ngea", "ŋea"],
       war: ["ngaran", "ŋaran"],
       bik: ["ngaran", "ŋaran"],
       bto: ["ngaran", "ŋaran"],

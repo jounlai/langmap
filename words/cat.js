@@ -780,6 +780,7 @@ WORDS.cat = {
     gay: ["kucing", "kutʃiŋ"],
     bug: ["meong", "meoŋ"],
     mdr: ["mio", "mio"],
+    cia: ["mbuta", "mbuta"],
     war: ["misay", "misaj"],
     bik: ["ikos", "ikos"],
     bto: ["kuting", "kutiŋ"],

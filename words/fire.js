@@ -786,6 +786,7 @@ WORDS.fire = {
     gay: ["rara", "ɾaɾa"],
     bug: ["api", "api"],
     mdr: ["api", "api"],
+    cia: ["api", "api"],
     war: ["kalayo", "kalajɔ"],
     bik: ["kalayo", "kalajo"],
     bto: ["kalayo", "kalajɔ"],

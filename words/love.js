@@ -787,6 +787,7 @@ WORDS.love = {
     gay: ["kunyung", "kuɲuŋ"],
     bug: ["poji", "podʒi"],
     mdr: ["mappinawa", "mapːinawa"],
+    cia: ["pe'elu", "peʔelu"],
     war: ["gugma", "ɡuɡma"],
     bik: ["pagkamoot", "paɡkamoʔot"],
     bto: ["pagkaibəg", "paɡkaʔibəɡ"],

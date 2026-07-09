@@ -780,6 +780,7 @@ WORDS.you = {
       gay: ["kam", "kam"],
       bug: ["iko", "iko"],
       mdr: ["io", "iʔo"],
+      cia: ["iso'o", "isoʔo"],
       war: ["ikaw", "ʔikaw"],
       bik: ["ika", "ʔika"],
       bto: ["ikā", "ʔika"],

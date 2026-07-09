@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1112 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1113 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -2491,6 +2491,12 @@ const LANG_DATA = {
   // Mandar — Austronesian South Sulawesi, ~200K speakers, West Sulawesi province Indonesia.
   // Sources: Ethnologue 27 'mdr'; Glottolog mand1442; Strømme (1988) Mandar grammar.
   mdr: { name: 'Mandar', native: 'Bahasa Mandar', lat: -3.55, lng: 118.95, // Majene/Polewali, West Sulawesi
+},
+  // Cia-Cia — Austronesian (Celebic, Muna-Buton), southern Buton Island, Indonesia.
+  // Internationally known for the 2009 Hangul orthography experiment in Baubau.
+  // Sources: van den Berg (1991) Preliminary notes on the Cia-Cia language;
+  // Mead (2017) Wasambua word list (Sulang Language Data); Glottolog ciac1237.
+  cia: { name: 'Cia-Cia', native: 'Bahasa Ciacia', lat: -5.47, lng: 122.62, // Baubau, Buton Island, SE Sulawesi
 },
   // Philippine (Visayan/Bikolano)
   war: { name: 'Waray', native: 'Wináray', lat: 11.24, lng: 124.99, // Tacloban

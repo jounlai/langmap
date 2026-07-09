@@ -780,6 +780,7 @@ WORDS.hand = {
     gay: ["pumu", "pumu"],
     bug: ["lima", "lima"],
     mdr: ["lima", "lima"],
+    cia: ["lima", "lima"],
     war: ["kamot", "kamɔt"],
     bik: ["kamot", "kamot"],
     bto: ["kamət", "kamət"],

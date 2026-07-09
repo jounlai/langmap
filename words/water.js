@@ -787,6 +787,7 @@ WORDS.water = {
     gay: ["weih", "weih"],
     bug: ["wae", "wae"],
     mdr: ["uai", "uai"],
+    cia: ["we'e", "weʔe"],
     war: ["tubig", "tubiɡ"],
     bik: ["tubig", "tubiɡ"],
     bto: ["tubig", "tubiɡ"],

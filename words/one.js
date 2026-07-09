@@ -786,6 +786,7 @@ WORDS.one = {
     gay: ["sara", "saɾa"],
     bug: ["séddi", "sedːi"],
     mdr: ["mesa", "mesa"],
+    cia: ["ise", "ise"],
     war: ["usa", "ʔusa"],
     bik: ["saro", "saɾo"],
     bto: ["əsad", "əsad"],

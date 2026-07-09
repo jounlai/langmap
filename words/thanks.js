@@ -780,6 +780,7 @@ WORDS.thanks = {
     gay: ["berejen", "bərədʒən"],
     bug: ["kurru sumange", "kurːu sumaŋe"],
     mdr: ["kuru' sumanga'", "kuɾuʔ sumaŋaʔ"],
+    cia: ["tarima kasi", "tarima kasi"],
     war: ["salamat", "salamat"],
     bik: ["dios mabalos", "dios mabalos"],
     bto: ["dyos mabalos", "djos mabalos"],

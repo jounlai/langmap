@@ -780,6 +780,7 @@ WORDS.father = {
     gay: ["ama", "ama"],
     bug: ["ambo", "ambo"],
     mdr: ["ama", "ama"],
+    cia: ["ama", "ama"],
     war: ["tatay", "tataj"],
     bik: ["tatay", "tataj"],
     bto: ["ama", "ama"],

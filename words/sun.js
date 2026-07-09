@@ -785,6 +785,7 @@ WORDS.sun = {
     gay: ["matanlo", "matanlo"],
     bug: ["mata esso", "mata esːo"],
     mdr: ["mata allo", "mata alːo"],
+    cia: ["holeo", "holeo"],
     war: ["adlaw", "ʔadlaw"],
     bik: ["aldaw", "aldaw"],
     bto: ["aldəw", "aldəw"],

@@ -780,6 +780,7 @@ WORDS.dog = {
     gay: ["asu", "asu"],
     bug: ["asu", "asu"],
     mdr: ["asu", "asu"],
+    cia: ["au", "au"],
     war: ["ayam", "ˈʔajam"],
     bik: ["ayam", "ajam"],
     bto: ["ayam", "ajam"],

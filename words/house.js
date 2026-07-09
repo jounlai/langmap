@@ -787,6 +787,7 @@ WORDS.house = {
     gay: ["umah", "umah"],
     bug: ["bola", "bola"],
     mdr: ["boyang", "bojaŋ"],
+    cia: ["ka'ana", "kaʔana"],
     war: ["balay", "balaj"],
     bik: ["harong", "haɾoŋ"],
     bto: ["baləy", "baləj"],

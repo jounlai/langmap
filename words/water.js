@@ -127,7 +127,7 @@ WORDS.water = {
       sce: ["usu", "usu"],
       bua: ["ус", "us"],
       cjs: ["су", "su"],
-      dlg: ["уус", "uːs"],
+      dlg: ["уу", "uː"],
       kdt: ["ɗaːʔ", "ɗaʔ"],
       blk: ["ရေ", "jé"],
       njo: ["apv", "ʌpʰ"],

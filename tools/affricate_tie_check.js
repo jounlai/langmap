@@ -18,7 +18,8 @@ const fs = require('fs'), vm = require('vm'), path = require('path');
 
 // Affricate = a STOP tied to a homorganic FRICATIVE (the tie binds two
 // obstruents of differing manner). Nasals (ŋ͡m) and stop+stop (k͡p) are excluded.
-const STOP = 'pbtdcɟkgqɢ';
+// ʈ ɖ were missing until 2026-07: Qʼanjobʼal star carried ʈ͡ʂʼ and slipped past.
+const STOP = 'pbtdʈɖcɟkgqɢ';
 const FRIC = 'ɸβfvszʃʒɕʑʂʐɬɮçʝxɣχʁθð';
 const AFFRICATE_TIE = new RegExp(`([${STOP}])͡([${FRIC}])`);
 const AFFRICATE_TIE_G = new RegExp(`([${STOP}])͡([${FRIC}])`, 'g');

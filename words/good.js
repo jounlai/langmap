@@ -315,7 +315,7 @@ WORDS.good = {
     rtm: ["lelei", "lelei"],
     sm: ["lelei", "lelei"],
     to: ["lelei", "lelei"],
-    pau: ["klou", "klou"],
+    pau: ["ungil", "ʔuŋil"],
     sd: ["سٺو", "sʊʈʰo"],
     pa: ["ਚੰਗਾ", "tʃəŋɡɑː"],
     pnb: ["چنگا", "tʃəŋɡɑː"],

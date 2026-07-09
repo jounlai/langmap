@@ -697,7 +697,7 @@ WORDS.thanks = {
     ame: ["gracia", "ɡɾasia"],
     gym: ["kuin", "kuin"],
     sum: ["yaisi", "jaisi"],
-    jiv: ["yuminsajme", "juminsadʒme"],
+    jiv: ["yuminsajme", "juminsahme"],
     agr: ["see", "sɛː"],
     acu: ["mai-tikut", "majtikut"],
     car: ["irombo", "iɾombo"],

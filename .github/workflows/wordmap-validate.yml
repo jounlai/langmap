@@ -176,21 +176,24 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Verify every <script src="X.js?v=N"> in wordmap.html / tree.html / index.html points at an existing file
+      - name: Verify every <script src="X.js?v=N"> in the four pages points at an existing file
         run: |
           node -e "
             const fs = require('fs');
-            const htmls = ['wordmap.html', 'tree.html', 'index.html'].filter(f => fs.existsSync(f));
+            const htmls = ['wordmap.html', 'tree.html', 'index.html', 'hanmap.html'].filter(f => fs.existsSync(f));
             let bad = 0;
             for (const h of htmls) {
               const txt = fs.readFileSync(h, 'utf-8');
               const re = /src=\"([^\"?]+\\.js)(?:\\?v=\\d+)?\"/g;
               let m;
               while ((m = re.exec(txt)) !== null) {
-                const path = m[1];
-                if (path.startsWith('http')) continue;
+                const ref = m[1];
+                if (ref.startsWith('http')) continue;
+                // A leading slash is site-root-relative (the pages are served
+                // from the domain root), not a filesystem absolute path.
+                const path = ref.startsWith('/') ? ref.slice(1) : ref;
                 if (!fs.existsSync(path)) {
-                  console.error(h, 'references missing file:', path);
+                  console.error(h, 'references missing file:', ref);
                   bad++;
                 }
               }

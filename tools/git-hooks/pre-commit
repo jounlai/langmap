@@ -7,7 +7,11 @@
 set -euo pipefail
 
 # Only run when relevant files are staged — keep unrelated commits fast.
-if git diff --cached --name-only | grep -qE '^(hanmap_data\.js|data\.js|words/|tools/)'; then
+# wordmap.html and wordmap_{data,meta}.js belong here: the validator's
+# cache-buster check compares WM_ASSET_VERSION in wordmap.html against the
+# <script src=...?v=N> tags, and a mismatch there ships stale data to anyone
+# who has visited before. That used to be caught only by CI.
+if git diff --cached --name-only | grep -qE '^(hanmap_data\.js|data\.js|wordmap\.html|wordmap_data\.js|wordmap_meta\.js|lang_names\.js|word_manifest\.js|words/|tools/)'; then
   echo "Running data guards (tools/check_all.js)…"
   if ! node tools/check_all.js; then
     echo

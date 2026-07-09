@@ -6,6 +6,16 @@
  */
 const cp = require('child_process'), path = require('path');
 const run = f => cp.execSync(`node ${path.join(__dirname, f)}`, { encoding: 'utf8' });
+// validate_wordmap_data.js lives at the repo root and exits 1 when it has
+// errors, so capture its output instead of letting execSync throw.
+// WM_VALIDATE_STRICT=1 mirrors CI: it promotes [#19] cache-buster drift from a
+// warning to an error. Without it the hook is laxer than the pipeline and lets
+// a stale ?v=N through, which is exactly how one shipped.
+const runRoot = (f, env) => {
+    const opts = { encoding: 'utf8', env: { ...process.env, ...env } };
+    try { return cp.execSync(`node ${path.join(__dirname, '..', f)} 2>&1`, opts); }
+    catch (e) { return String(e.stdout || '') + String(e.stderr || ''); }
+};
 
 const num = (s, re) => { const m = s.match(re); return m ? parseInt(m[1], 10) : NaN; };
 let fail = 0;
@@ -42,6 +52,13 @@ line('WordMap integrity', num(s, /actionable: (\d+)/));
 
 s = run('speakers_format_check.js');
 line('speaker-count house style', num(s, /non-conforming: (\d+)/));
+
+// The full validator. Its warnings are advisory; its ERRORS block the commit.
+// This is what catches a bumped WM_ASSET_VERSION whose <script src=?v=N> was
+// left behind — a stale-cache bug that CI, not the pre-commit hook, used to
+// find. Wiring it in here means the hook finds it first.
+s = runRoot('validate_wordmap_data.js', { WM_VALIDATE_STRICT: '1' });
+line('wordmap_data validator (errors)', num(s, /^ERRORS \((\d+)\)/m));
 
 console.log(`\n${fail === 0 ? '✓ all guards clean' : '✗ ' + fail + ' guard(s) failing'}`);
 process.exit(fail === 0 ? 0 : 1);

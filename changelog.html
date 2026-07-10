@@ -143,6 +143,17 @@
         <nav class="month-nav">Months: <strong>2026-07</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-07-10 — The Word Map now opens on a fraction of the download</div>
+            <ul>
+                <li>A cold visit to the Word Map used to pull down <strong>1.59 MB</strong> of compressed JavaScript before it could draw anything. It now pulls <strong>465 KB</strong> — a <strong>71% cut</strong> — and everything else arrives quietly afterwards.</li>
+                <li>The map shows <em>one</em> word at a time, but it was loading the vocabulary of all 25 (344 KB) up front. It now loads the word you are looking at, and prefetches the rest once the page is idle. The word names and definitions — which the selector needs immediately — were split into their own small file.</li>
+                <li>Translated language names cover 1,154 languages in 19 interface languages (200 KB). You read one of them. The Word Map now fetches just yours, plus English as a fallback.</li>
+                <li>Two tables that exist purely to translate the <em>contents</em> of the language database — half a megabyte together — were being downloaded on every visit even though the database itself is only fetched when you open a language. They now travel with it. Trivia articles, likewise, arrive after the map is up.</li>
+                <li>None of this changes what you see. The pieces are fetched before anything needs them, and new guards keep the generated files in step with their sources.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-07-09 — Second review rally: 85 corrections, and Gondi turns out to have been Hindi</div>
             <ul>
                 <li><strong>Ten expert-persona reviewers</strong> audited all 25 word cells for every one of the <strong>1,113 languages</strong> — 27,825 cells — one reviewer per language-family domain (reviews <code>411</code>–<code>412</code>). 104 defects were reported. 85 are now fixed; 30 more were <em>proved wrong but left alone</em>, because no source could supply a replacement and a plausible invention is worse than a known-bad cell.</li>

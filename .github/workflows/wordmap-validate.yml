@@ -189,6 +189,10 @@ jobs:
               while ((m = re.exec(txt)) !== null) {
                 const ref = m[1];
                 if (ref.startsWith('http')) continue;
+                // Skip srcs assembled at runtime by document.write, e.g.
+                //   '<script src=\"lang_names/' + ui + '.js?v=122\">'
+                // There is no such file on disk; the loader picks one.
+                if (/['\`+]|\\\$\\{/.test(ref)) continue;
                 // A leading slash is site-root-relative (the pages are served
                 // from the domain root), not a filesystem absolute path.
                 const path = ref.startsWith('/') ? ref.slice(1) : ref;

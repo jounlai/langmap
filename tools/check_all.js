@@ -56,6 +56,16 @@ line('speaker-count house style', num(s, /non-conforming: (\d+)/));
 s = run('font_coverage_check.js');
 line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/));
 
+// Generated bundles: wordmap.html loads word_labels.js and lang_names/<ui>.js
+// instead of the full per-word and per-UI tables. If a label, definition or
+// language name changes, those files must be rebuilt or the site serves the
+// old text with no other symptom.
+s = run('build_word_labels.js --check');
+line('word_labels.js freshness', num(s, /stale: (\d+)/));
+
+s = run('build_lang_names.js --check');
+line('lang_names/ freshness', num(s, /stale: (\d+)/));
+
 // The full validator. Its warnings are advisory; its ERRORS block the commit.
 // This is what catches a bumped WM_ASSET_VERSION whose <script src=?v=N> was
 // left behind — a stale-cache bug that CI, not the pre-commit hook, used to

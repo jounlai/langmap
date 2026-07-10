@@ -619,12 +619,22 @@ const ASSET_KEY_BY_PATH = {
     'wordmap_data.js':    'data',
     'meta_i18n_ext.js':   'metaI18n',
     'lang-filter.js':     'filter',
-    'lang_names.js':      'names',
+    // wordmap.html no longer loads the whole lang_names.js; it loads a shim
+    // plus lang_names/<ui>.js. Both still carry the `names` version, and the
+    // early UI picker document.write()s the second one, so only the English
+    // table is a literal <script src> here.
+    'lang_names/en.js':   'names',
     'wordmap_meta.js':    'meta',
     'wordmap_trivia.js':  'trivia',
+    'meta_i18n_coverage.js': 'metaI18nCoverage',
     'word_manifest.js':   'words',
     'words/*.js':         'words',   // glob: every concept file
+    'word_labels.js':     'labels',  // generated: label+definition of all 25
 };
+// These are fetched at runtime via assetUrl(path, key), not by a <script src>.
+const LAZY_VIA_ASSET_URL = new Set([
+    'wordmap_meta.js', 'meta_i18n_ext.js', 'meta_i18n_coverage.js', 'wordmap_trivia.js',
+]);
 const versionRegistryMatch = htmlSrc.match(/const\s+WM_ASSET_VERSION\s*=\s*\{([^}]+)\}/);
 if (!versionRegistryMatch) {
     driftReporter(`[#19] wordmap.html missing WM_ASSET_VERSION registry (Audit Task 134)`);
@@ -663,12 +673,17 @@ if (!versionRegistryMatch) {
             // it's referenced via the loader. Skip — we trust the loader.
             continue;
         }
-        // wordmap_meta.js is loaded dynamically via assetUrl(); accept that
-        // pattern instead of a literal ?v=N string.
-        if (pathPattern === 'wordmap_meta.js') {
-            const dyn = htmlSrc.match(/assetUrl\(\s*['"]wordmap_meta\.js['"]\s*,\s*['"]meta['"]\s*\)/);
+        // Files loaded on demand carry their version through assetUrl(path, key)
+        // rather than a literal ?v=N in a <script src>. Accept that form: the
+        // registry is still the single source of truth for their version.
+        // (wordmap_meta.js always did this; meta_i18n_ext.js,
+        // meta_i18n_coverage.js and wordmap_trivia.js joined it when they were
+        // moved off the critical path.)
+        if (LAZY_VIA_ASSET_URL.has(pathPattern)) {
+            const esc = pathPattern.replace(/\./g, '\\.');
+            const dyn = new RegExp(`assetUrl\\(\\s*['"]${esc}['"]\\s*,\\s*['"]${key}['"]\\s*\\)`).test(htmlSrc);
             if (!dyn) {
-                driftReporter(`[#19] ${pathPattern}: no assetUrl('wordmap_meta.js', 'meta') call found in wordmap.html`);
+                driftReporter(`[#19] ${pathPattern}: no assetUrl('${pathPattern}', '${key}') call found in wordmap.html`);
             }
             continue;
         }

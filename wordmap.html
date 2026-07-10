@@ -2608,37 +2608,129 @@
     </script>
     <script src="wordmap_data.js?v=235"></script>
     <script src="word_manifest.js?v=65"></script>
+    <script src="word_labels.js?v=1"></script>
     <script>
-        // Reserve the WORDS global BEFORE the per-word <script> tags load,
-        // since each `words/<id>.js` does `WORDS.<id> = {...}` and would
-        // ReferenceError if WORDS isn't on the window yet.
+        // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
+        // does `WORDS.<id> = {...}` and would ReferenceError otherwise.
         var WORDS = window.WORDS = window.WORDS || {};
-        // Emit one <script> tag per concept via document.write. This forces
-        // SYNCHRONOUS sequential execution: the browser blocks subsequent
-        // HTML parsing (including the main IIFE further down) until every
-        // per-word file has loaded and assigned its WORDS.<id> slot. We use
-        // document.write rather than dynamic createElement so the IIFE can
-        // rely on WORDS being fully populated without waiting on an event.
-        // The preload scanner still parallelises the downloads in modern
-        // browsers; only execution is serialised.
+
+        // The map shows ONE word at a time, but this used to document.write a
+        // <script> for all 25 concepts — ≈344 KB gzipped, blocking first paint.
+        // Nearly all of that is each file's `data` block (1,113 language cells).
+        // The `label`/`definition` blocks the UI needs immediately now come
+        // from word_labels.js (≈30 KB gz, all 25 words), and the data arrives
+        // one word at a time:
+        //   - the word the page opens on is document.write'n, so it is present
+        //     synchronously and the first render needs no extra round trip;
+        //   - the other 24 are prefetched once the page is idle;
+        //   - anything that needs a word before its prefetch lands awaits
+        //     window.__wmEnsureWords([...]) / __wmEnsureAllWords().
         (function () {
             if (typeof WORD_ORDER === 'undefined') {
                 console.error('WORD_ORDER not defined — word_manifest.js failed to load');
                 return;
             }
             var v = (window.WM_ASSET_VERSION && window.WM_ASSET_VERSION.words) || 1;
-            for (var i = 0; i < WORD_ORDER.length; i++) {
-                document.write(
-                    '<script src="words/' + WORD_ORDER[i] + '.js?v=' + v + '"><\/script>'
-                );
+
+            // Which word does this page open on? The hash wins (#w=fire), else
+            // the manifest's first entry. Read it here, before any of the app
+            // code runs, so the right file is the one we block on.
+            var initial = WORD_ORDER[0];
+            try {
+                var m = /[#&]w=([a-z_]+)/.exec(window.location.hash || '');
+                if (m && WORD_ORDER.indexOf(m[1]) !== -1) initial = m[1];
+            } catch (_) {}
+            window.__wmInitialWord = initial;
+
+            var pending = Object.create(null);
+            function loadWord(id) {
+                if (WORDS[id] && WORDS[id].data) return Promise.resolve();
+                if (pending[id]) return pending[id];
+                pending[id] = new Promise(function (resolve) {
+                    var el = document.createElement('script');
+                    el.src = 'words/' + id + '.js?v=' + v;
+                    el.async = false;               // preserve execution order
+                    el.onload = el.onerror = function () { resolve(); };
+                    document.head.appendChild(el);
+                });
+                return pending[id];
             }
+            // Merge whatever has arrived into LANG_DATA and repaint. The merge
+            // function is defined in the main IIFE and tolerates absent words.
+            function settle() {
+                if (typeof window.__wmMergeWords === 'function') window.__wmMergeWords();
+            }
+            window.__wmEnsureWords = function (ids) {
+                return Promise.all(ids.map(loadWord)).then(settle);
+            };
+            window.__wmEnsureAllWords = function () {
+                return window.__wmEnsureWords(WORD_ORDER.slice());
+            };
+            window.__wmWordLoaded = function (id) { return !!(WORDS[id] && WORDS[id].data); };
+
+            // Block on exactly one file: the word we are about to draw.
+            document.write('<script src="words/' + initial + '.js?v=' + v + '"><\/script>');
+
+            // Everything else, once the page is interactive. requestIdleCallback
+            // where available so this never competes with first paint.
+            function prefetchRest() {
+                var rest = WORD_ORDER.filter(function (id) { return id !== initial; });
+                var go = function () { window.__wmEnsureWords(rest); };
+                if (window.requestIdleCallback) window.requestIdleCallback(go, { timeout: 3000 });
+                else setTimeout(go, 400);
+            }
+            if (document.readyState === 'complete') prefetchRest();
+            else window.addEventListener('load', prefetchRest, { once: true });
         })();
     </script>
-    <script src="meta_i18n_ext.js?v=15"></script>
-    <script src="meta_i18n_coverage.js?v=10"></script>
+    <!-- meta_i18n_ext.js (98 KB gz) and meta_i18n_coverage.js (426 KB gz)
+         translate the CONTENTS of wordmap_meta.js, which is itself lazily
+         loaded. Loading them eagerly meant half a megabyte on every visit for
+         data that only matters once a language modal opens. They now load
+         inside loadMeta(). See __wmLoadMetaI18n() below. -->
     <script src="lang-filter.js?v=32"></script>
-    <script src="lang_names.js?v=122"></script>
-    <script src="wordmap_trivia.js?v=27"></script>
+    <!-- Translated language names: 1,154 codes × 19 UI languages is ~200 KB
+         gzipped, and a reader uses one of them plus English as the fallback.
+         Load the shim, then English, then whichever UI language this visitor
+         will actually see (~21 KB total). tools/build_lang_names.js generates
+         lang_names/<ui>.js from lang_names.js; the other three pages still
+         load lang_names.js whole. -->
+    <script src="lang_names_shim.js?v=1"></script>
+    <script src="lang_names/en.js?v=122"></script>
+    <script>
+        (function () {
+            window.__langNamesVersion(122);
+            var UIS = ['ja','en','ko','zh','fr','de','es','ru','ar','he','sw','yue','vi','th','id','hi','it','pt','uk'];
+            // Mirror of detectBrowserLang()'s first two steps — cookie, then
+            // navigator. A wrong guess costs one extra request, not a bug: the
+            // app calls __ensureLangNames() once it has decided for real.
+            function pick() {
+                try {
+                    var m = /(?:^|;\s*)wm_uilang=([^;]+)/.exec(document.cookie || '');
+                    if (m) {
+                        var c = decodeURIComponent(m[1]).toLowerCase();
+                        if (UIS.indexOf(c) !== -1) return c;
+                        if (UIS.indexOf(c.split('_')[0]) !== -1) return c.split('_')[0];
+                    }
+                } catch (_) {}
+                try {
+                    var langs = navigator.languages || [navigator.language || 'en'];
+                    for (var i = 0; i < langs.length; i++) {
+                        var l = String(langs[i]).replace('-', '_').toLowerCase();
+                        if (l.indexOf('zh') === 0 && (l.indexOf('hk') !== -1 || l.indexOf('tw') !== -1 || l.indexOf('hant') !== -1)) return 'yue';
+                        var b = l.split('_')[0];
+                        if (UIS.indexOf(b) !== -1) return b;
+                    }
+                } catch (_) {}
+                return 'en';
+            }
+            var ui = pick();
+            if (ui !== 'en') document.write('<script src="lang_names/' + ui + '.js?v=122"><\/script>');
+        })();
+    </script>
+    <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
+         map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
+         guard with `|| []`, and the blinks refresh once it lands. -->
     <script>
     // LANG_NAMES is loaded synchronously via lang_names.js above.
     // (Was previously extracted from app.js via fetch+regex+new Function.
@@ -2650,11 +2742,67 @@
     (function() {
         'use strict';
         window.WORDS = window.WORDS || {};
-        // Pre-declare WORD_LIST as empty so early init code that iterates
-        // it (e.g. rebuildWordSelect) doesn't ReferenceError when the
-        // per-word <script> tags injected by the loader resolve AFTER this
-        // IIFE starts. _mergeWordsIntoLangData repopulates it later.
-        window.WORD_LIST = window.WORD_LIST || [];
+        // WORD_LIST drives the word <select> and its definition line. Both are
+        // needed at first paint, and neither needs the heavy per-word `data`
+        // block — so build the list from word_labels.js (all 25 words, loaded
+        // eagerly) rather than waiting on the per-word files.
+        window.WORD_LIST = (typeof WORD_ORDER !== 'undefined' && window.WORD_LABELS)
+            ? WORD_ORDER.map(function (id) {
+                var w = window.WORD_LABELS[id] || {};
+                return { id: id, label: w.label || {}, definition: w.definition || {} };
+            })
+            : (window.WORD_LIST || []);
+
+        // Word data arrives per concept (see the staged loader above). These
+        // wrap the loader so callers can be written as "make sure it's here,
+        // then draw". When a word is already present they resolve immediately,
+        // which is the normal case once the idle prefetch has run.
+        const ensureWords = ids => (window.__wmEnsureWords
+            ? window.__wmEnsureWords(ids)
+            : Promise.resolve());
+        const ensureAllWords = () => (window.__wmEnsureAllWords
+            ? window.__wmEnsureAllWords()
+            : Promise.resolve());
+        const wordLoaded = id => (window.__wmWordLoaded ? window.__wmWordLoaded(id) : true);
+
+        // Trivia articles are decorative on the map (blink markers) and only
+        // read in full when the reader opens one. Fetch after `load` so they
+        // never sit in front of first paint; every reader guards with `|| []`.
+        let _triviaPromise = null;
+        function loadTrivia() {
+            if (_triviaPromise) return _triviaPromise;
+            if (window.TRIVIA_ARTICLES) return (_triviaPromise = Promise.resolve());
+            _triviaPromise = new Promise((resolve) => {
+                const el = document.createElement('script');
+                el.src = assetUrl('wordmap_trivia.js', 'trivia');
+                el.onload = el.onerror = () => resolve();
+                document.head.appendChild(el);
+            }).then(() => {
+                // A failed fetch must not leave TRIVIA_ARTICLES undefined, or
+                // openTrivia()'s "not loaded yet, retry" branch would spin.
+                if (!window.TRIVIA_ARTICLES) window.TRIVIA_ARTICLES = [];
+                try { if (typeof refreshTriviaBlinks === 'function') refreshTriviaBlinks(); } catch (_) {}
+                try { if (typeof renderTriviaIndex === 'function') renderTriviaIndex(); } catch (_) {}
+            });
+            return _triviaPromise;
+        }
+        window.__wmLoadTrivia = loadTrivia;
+        if (document.readyState === 'complete') setTimeout(loadTrivia, 0);
+        else window.addEventListener('load', () => {
+            if (window.requestIdleCallback) requestIdleCallback(loadTrivia, { timeout: 4000 });
+            else setTimeout(loadTrivia, 600);
+        }, { once: true });
+        // Panels that show the whole 25-word table (language modal, compare
+        // panel, trivia, the games) need every word's data. `_allWordsAttempted`
+        // stops a failed fetch from looping: after one attempt we render with
+        // whatever arrived, exactly as the old eager loader would have.
+        let _allWordsAttempted = false;
+        const wordsReady = () => _allWordsAttempted
+            || ((typeof WORD_ORDER !== 'undefined' ? WORD_ORDER : []).every(wordLoaded));
+        function withAllWords(fn) {
+            if (wordsReady()) { fn(); return; }
+            ensureAllWords().then(() => { _allWordsAttempted = true; fn(); });
+        }
 
         // Forward declarations for trivia state — hoisted via `var` so
         // that updateMarkers() / map event listeners can call
@@ -2906,6 +3054,8 @@
             trivia:   27,
             triviaI18n: 4,
             words:      65,
+            labels:      1,
+            metaI18nCoverage: 10,
         };
         function assetUrl(path, key) {
             return `${path}?v=${WM_ASSET_VERSION[key]}`;
@@ -2947,9 +3097,13 @@
                     }
                 }
             }
+            // Prefer word_labels.js: a word whose data file has not loaded yet
+            // still has a label, so the selector never shows a bare id.
+            const LBL = window.WORD_LABELS || {};
             window.WORD_LIST = WORD_ORDER.map(id => {
                 const w = window.WORDS[id] || {};
-                return { id, label: w.label || {}, definition: w.definition || {} };
+                const l = LBL[id] || {};
+                return { id, label: w.label || l.label || {}, definition: w.definition || l.definition || {} };
             });
             // Re-run UI init that depends on WORD_LIST / per-language
             // words. The initial calls (during IIFE parse) ran against
@@ -2959,18 +3113,22 @@
             try { if (typeof updateWordDefinition === 'function') updateWordDefinition(); } catch (_) {}
             try { if (typeof updateMarkers === 'function' && typeof currentWord !== 'undefined') updateMarkers(currentWord); } catch (_) {}
         }
-        // Run the merge now if all per-word scripts have already resolved
-        // (race: scripts can finish before this IIFE executes). Otherwise
-        // wait for the loader's `langmap:words-loaded` event.
-        if (window.WORDS && typeof WORD_ORDER !== 'undefined'
-            && Object.keys(window.WORDS).length >= WORD_ORDER.length) {
-            _mergeWordsIntoLangData();
-        } else {
-            document.addEventListener('langmap:words-loaded',
-                _mergeWordsIntoLangData, { once: true });
-        }
+        // The staged loader calls this every time a batch of word files lands.
+        // It is idempotent and tolerates words whose data has not arrived yet.
+        window.__wmMergeWords = _mergeWordsIntoLangData;
+        _mergeWordsIntoLangData();
+        // Legacy event, still honoured if anything dispatches it.
+        document.addEventListener('langmap:words-loaded', _mergeWordsIntoLangData);
 
         let uiLang = detectBrowserLang();
+        // The early picker usually guessed right; if it did not, fetch the real
+        // table and repaint once it lands. Names fall back to English meanwhile.
+        if (window.__ensureLangNames && !(window.LANG_NAMES || {})[uiLang]) {
+            window.__ensureLangNames(uiLang).then(() => {
+                try { if (typeof applyUILang === 'function') applyUILang(); } catch (_) {}
+                try { if (typeof updateMarkers === 'function') updateMarkers(currentWord); } catch (_) {}
+            });
+        }
         const uiLangSelect = document.getElementById('header-ui-lang');
         for (const [code, label] of Object.entries(WM_UI_LABELS)) {
             const opt = document.createElement('option');
@@ -3497,6 +3655,15 @@
             uiLang = uiLangSelect.value;
             _wmSetCookie('wm_uilang', uiLang);  // Pass 34: cross-page cookie persistence
             window.__langmap.uiLang = uiLang;
+            // Names for this UI language may not be downloaded yet — fetch, then
+            // repaint. Everything else below re-renders immediately with the
+            // English fallback and is corrected when the table arrives.
+            if (window.__ensureLangNames) {
+                window.__ensureLangNames(uiLang).then(() => {
+                    try { applyUILang(); } catch (_) {}
+                    try { updateMarkers(currentWord); } catch (_) {}
+                });
+            }
             window.dispatchEvent(new CustomEvent('langmap:uichange', { detail: { uiLang } }));
             // Fetch the trivia overlay for the new UI lang (no-op if EN/JA
             // built-in, already loaded, or unsupported). Fires-and-forgets.
@@ -3574,9 +3741,17 @@
         }
 
         select.addEventListener('change', () => {
-            updateMarkers(select.value);
+            const id = select.value;
+            // The definition and the hash come from word_labels.js, so they can
+            // update at once; the markers need this word's data block.
             updateWordDefinition();
             updateHash();
+            if (wordLoaded(id)) { updateMarkers(id); return; }
+            select.disabled = true;
+            ensureWords([id]).then(() => {
+                select.disabled = false;
+                if (select.value === id) updateMarkers(id);
+            });
         });
         updateWordDefinition();
         // Refresh definition text when UI lang changes
@@ -3869,7 +4044,10 @@
         // WORD_LIST is empty at this point if the per-word <script>s haven't
         // resolved yet (common — they're async). WORD_ORDER from
         // word_manifest.js is a sync static script so it's always defined here.
-        let currentWord = (WORD_LIST[0] && WORD_LIST[0].id)
+        // The loader already resolved which word this page opens on (hash or
+        // manifest head) and blocked on exactly that file, so start there.
+        let currentWord = window.__wmInitialWord
+            || (WORD_LIST[0] && WORD_LIST[0].id)
             || (typeof WORD_ORDER !== 'undefined' && WORD_ORDER[0])
             || 'water';
         const MAJOR = new Set(['ja','ko','zh','en','de','fr','es','pt','ru','ar','hi','vi','th','id','tr','sw','fa','eo']);
@@ -5224,7 +5402,12 @@
             _applyingHashState = true;
             try {
                 loadHash();
-                updateMarkers(currentWord);
+                // Back/forward can land on a word whose data block has not been
+                // prefetched yet; fetch it before repainting rather than
+                // drawing an empty map.
+                const w = currentWord;
+                if (wordLoaded(w)) updateMarkers(w);
+                else ensureWords([w]).then(() => { if (currentWord === w) updateMarkers(w); });
             } finally {
                 _applyingHashState = false;
             }
@@ -5492,6 +5675,25 @@
         // Lazy-load wordmap_meta.js (~1.3 MB raw / 406 KB gzip) only when the
         // user first opens a language detail modal.
         let _metaLoadPromise = null;
+        // The two meta-i18n tables only translate strings that live in
+        // wordmap_meta.js, so they ride along with it rather than blocking
+        // first paint. Order matters: coverage augments ext's tables.
+        let _metaI18nPromise = null;
+        function loadMetaI18n() {
+            if (_metaI18nPromise) return _metaI18nPromise;
+            const inject = (src) => new Promise((resolve) => {
+                const el = document.createElement('script');
+                el.src = src;
+                el.async = false;                 // keep ext before coverage
+                el.onload = el.onerror = () => resolve();
+                document.head.appendChild(el);
+            });
+            // Literal assetUrl() arguments — validator check #19 reads them to
+            // confirm each lazy file is versioned from WM_ASSET_VERSION.
+            _metaI18nPromise = inject(assetUrl('meta_i18n_ext.js', 'metaI18n'))
+                .then(() => inject(assetUrl('meta_i18n_coverage.js', 'metaI18nCoverage')));
+            return _metaI18nPromise;
+        }
         function loadMeta() {
             if (_metaLoadPromise) return _metaLoadPromise;
             _metaLoadPromise = new Promise((resolve, reject) => {
@@ -5501,7 +5703,7 @@
                 s.src = assetUrl('wordmap_meta.js', 'meta');
                 s.onerror = () => reject(new Error('meta load failed'));
                 document.head.appendChild(s);
-            });
+            }).then(() => loadMetaI18n());
             return _metaLoadPromise;
         }
         // Expose so self-contained modules (e.g. Langle) can ensure the
@@ -6464,6 +6666,7 @@
         }
 
         function showLangInfo(code, opts) {
+            if (!wordsReady()) { withAllWords(() => showLangInfo(code, opts)); return; }
             const lang = LANG_DATA[code];
             if (!lang) return;
             // Audit Task 137: capture the opener BEFORE state changes so we
@@ -6916,6 +7119,7 @@
         }
 
         function renderCompare() {
+            if (!wordsReady()) { withAllWords(() => renderCompare()); return; }
             const body = document.getElementById('compare-body');
             if (!body) return;
             if (_compareList.length === 0) { body.innerHTML = ''; return; }
@@ -7690,6 +7894,15 @@
             try { _clearPantoLabel(); } catch (_) {}
         }
         function openTrivia(id) {
+            // Two lazy dependencies: the 25 word-data blocks (the compare table
+            // inside an article uses them) and the articles themselves.
+            if (!wordsReady() || !window.TRIVIA_ARTICLES) {
+                Promise.all([
+                    wordsReady() ? Promise.resolve() : ensureAllWords().then(() => { _allWordsAttempted = true; }),
+                    loadTrivia(),
+                ]).then(() => openTrivia(id));
+                return;
+            }
             const list = window.TRIVIA_ARTICLES || [];
             if (!list.length) return;
             // Best-effort load of the trivia translation overlay for the
@@ -8779,8 +8992,11 @@
         function openGame() {
             const done = () => { POOL = null; restore(); show(); };
             const lm = window.__langmap && window.__langmap.loadMeta;
-            if (window._wmMetaLoaded || !lm) { done(); return; }
-            lm().then(done).catch(done);
+            // Two lazy dependencies: the meta file (family/speaker filters) and
+            // the per-word data blocks the clues are drawn from. Wait on both.
+            const words = window.__wmEnsureAllWords ? window.__wmEnsureAllWords() : Promise.resolve();
+            const meta = (window._wmMetaLoaded || !lm) ? Promise.resolve() : lm();
+            Promise.all([words, meta]).then(done).catch(done);
         }
         function init() {
             const btn = document.getElementById('langle-open');
@@ -8995,8 +9211,9 @@
         function openQuiz() {
             const done = () => { POOL = null; show(); };
             const lm = window.__langmap && window.__langmap.loadMeta;
-            if (window._wmMetaLoaded || !lm) { done(); return; }
-            lm().then(done).catch(done);
+            const words = window.__wmEnsureAllWords ? window.__wmEnsureAllWords() : Promise.resolve();
+            const meta = (window._wmMetaLoaded || !lm) ? Promise.resolve() : lm();
+            Promise.all([words, meta]).then(done).catch(done);
         }
         function init() {
             const btn = document.getElementById('quiz-open');

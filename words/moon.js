@@ -970,7 +970,7 @@ WORDS.moon = {
     txb: ["𑀫𑁂𑀜𑁂", "meɲe"],
     phn: ["𐤉𐤓𐤇", "jaræħ"],
     uga: ["𐎊𐎗𐎈", "jaːriχ"],
-    xlu: ["arma-", "ˈarma"],
+    xlu: ["𔓜𔒄𔗦", "ˈarmas"],
     pal: ["𐭬𐭠𐭧", "maːh"],
     fa_clas: ["ماه", "maːh"],
     syc: ["ܣܗܪܐ", "sahraː"],

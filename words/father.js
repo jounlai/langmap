@@ -964,7 +964,7 @@ WORDS.father = {
     txb: ["𑀧𑀸𑀘𑁂𑀭𑁆", "paːtser"],
     phn: ["𐤀𐤁", "ʔab"],
     uga: ["𐎜𐎁", "ʔabu"],
-    xlu: ["tati-", "ˈtati"],
+    xlu: ["𔐞𔑣𔓯𔗔", "ˈtadis"],
     pal: ["𐭯𐭩𐭲𐭫", "pidar"],
     fa_clas: ["پدر", "pidar"],
     syc: ["ܐܒܐ", "ʔabbaː"],

@@ -964,7 +964,7 @@ WORDS.hand = {
     txb: ["𑀱𑀭𑁆", "ʂar"],
     phn: ["𐤉𐤃", "jad"],
     uga: ["𐎊𐎄", "jadu"],
-    xlu: ["iššari-", "isˈsari"],
+    xlu: ["𔑁𔓯𔑶𔖸", "ˈistri"],
     pal: ["𐭣𐭮𐭲", "dast"],
     fa_clas: ["دست", "dast"],
     syc: ["ܐܝܕܐ", "ʔiːðaː"],

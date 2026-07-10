@@ -964,7 +964,7 @@ WORDS.drink = {
     txb: ["𑀬𑁄𑀓𑁆", "jok"],
     phn: ["𐤔𐤕", "ʃat"],
     uga: ["𐎌𐎚𐎊", "ʃataju"],
-    xlu: ["aku-", "ˈaku"],
+    xlu: ["—", "—"],
     pal: ["𐭭𐭥𐭱𐭩𐭲𐭭", "noːʃiːdan"],
     fa_clas: ["آشامیدن", "aːʃaːmiːdan"],
     syc: ["ܐܫܬܝ", "ʔeʃtiː"],

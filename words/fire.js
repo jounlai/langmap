@@ -970,7 +970,7 @@ WORDS.fire = {
     txb: ["𑀧𑀼𑀯𑀭𑁆", "puwar"],
     phn: ["𐤀𐤔", "ʔeʃ"],
     uga: ["𐎛𐎌𐎚", "ʔiʃt"],
-    xlu: ["pāhur", "ˈpaːhur"],
+    xlu: ["—", "—"],
     pal: ["𐭠𐭲𐭱", "aːtaʃ"],
     fa_clas: ["آتش", "aːtaʃ"],
     syc: ["ܢܘܪܐ", "nuːraː"],

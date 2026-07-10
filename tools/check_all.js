@@ -53,6 +53,9 @@ line('WordMap integrity', num(s, /actionable: (\d+)/));
 s = run('speakers_format_check.js');
 line('speaker-count house style', num(s, /non-conforming: (\d+)/));
 
+s = run('font_coverage_check.js');
+line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/));
+
 // The full validator. Its warnings are advisory; its ERRORS block the commit.
 // This is what catches a bumped WM_ASSET_VERSION whose <script src=?v=N> was
 // left behind — a stale-cache bug that CI, not the pre-commit hook, used to

@@ -60,12 +60,17 @@
     </script>
     <link rel="stylesheet" href="styles.css?v=122">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
-         Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
-         characters render as tofu boxes on most systems. -->
+    <!-- Webfonts for ancient/rare scripts. Without these the characters render
+         as tofu boxes: desktop Linux often ships the Noto historic fonts, but
+         iOS and Windows ship almost none of them, so every script that appears
+         in a word surface has to be requested explicitly. Anatolian Hieroglyphs
+         (Luwian), Cuneiform, Brahmi, Linear B, Old Persian, Avestan, Old South
+         Arabian, Inscriptional Pahlavi, Phoenician, Gothic and Ugaritic were all
+         missing until 2026-07 and tofu'd on iPhone. tools/font_coverage_check.js
+         guards against a script re-appearing in the data without a font. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Brahmi&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Avestan&family=Noto+Sans+Old+South+Arabian&family=Noto+Sans+Inscriptional+Pahlavi&family=Noto+Sans+Phoenician&family=Noto+Sans+Gothic&family=Noto+Sans+Ugaritic&family=Noto+Sans+Limbu&family=Noto+Sans+Vai&family=Noto+Sans+Mandaic&family=Noto+Sans+Javanese&family=Noto+Sans+Tai+Viet&display=swap">
     <!-- Old Hangul Jamo (U+1100-11FF) for ko_mid / ko_em is now served
          from a self-hosted Noto Serif KR subset with explicit
          unicode-range scoping; see the @font-face block below. -->
@@ -478,6 +483,12 @@
                 "Noto Sans Egyptian Hieroglyphs", "Noto Sans Meroitic",
                 "Noto Sans Sundanese", "Noto Sans Tagalog", "Noto Sans Coptic",
                 "Noto Sans New Tai Lue",
+                "Noto Sans Anatolian Hieroglyphs", "Noto Sans Cuneiform", "Noto Sans Brahmi",
+                "Noto Sans Linear B", "Noto Sans Old Persian", "Noto Sans Avestan",
+                "Noto Sans Old South Arabian", "Noto Sans Inscriptional Pahlavi",
+                "Noto Sans Phoenician", "Noto Sans Gothic", "Noto Sans Ugaritic",
+                "Noto Sans Limbu", "Noto Sans Vai", "Noto Sans Mandaic",
+                "Noto Sans Javanese", "Noto Sans Tai Viet",
                 Georgia, "Times New Roman", serif;
         }
         /* Audit Task 135: visible focus ring for keyboard-accessible labels. */
@@ -721,6 +732,12 @@
                 "Noto Sans Manichaean", "Noto Sans Egyptian Hieroglyphs",
                 "Noto Sans Meroitic", "Noto Sans Sundanese", "Noto Sans Tagalog",
                 "Noto Sans Coptic", "Noto Sans New Tai Lue",
+                "Noto Sans Anatolian Hieroglyphs", "Noto Sans Cuneiform", "Noto Sans Brahmi",
+                "Noto Sans Linear B", "Noto Sans Old Persian", "Noto Sans Avestan",
+                "Noto Sans Old South Arabian", "Noto Sans Inscriptional Pahlavi",
+                "Noto Sans Phoenician", "Noto Sans Gothic", "Noto Sans Ugaritic",
+                "Noto Sans Limbu", "Noto Sans Vai", "Noto Sans Mandaic",
+                "Noto Sans Javanese", "Noto Sans Tai Viet",
                 Georgia, "Times New Roman", serif;
         }
         .lang-info-panel table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
@@ -938,6 +955,12 @@
                 "Noto Sans Manichaean", "Noto Sans Egyptian Hieroglyphs",
                 "Noto Sans Meroitic", "Noto Sans Sundanese", "Noto Sans Tagalog",
                 "Noto Sans Coptic", "Noto Sans New Tai Lue",
+                "Noto Sans Anatolian Hieroglyphs", "Noto Sans Cuneiform", "Noto Sans Brahmi",
+                "Noto Sans Linear B", "Noto Sans Old Persian", "Noto Sans Avestan",
+                "Noto Sans Old South Arabian", "Noto Sans Inscriptional Pahlavi",
+                "Noto Sans Phoenician", "Noto Sans Gothic", "Noto Sans Ugaritic",
+                "Noto Sans Limbu", "Noto Sans Vai", "Noto Sans Mandaic",
+                "Noto Sans Javanese", "Noto Sans Tai Viet",
                 Georgia, "Times New Roman", serif;
         }
         /* Per-column delete control. Lives in a dedicated bottom row

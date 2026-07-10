@@ -964,7 +964,7 @@ WORDS.tree = {
     txb: ["𑀲𑁆𑀢𑀸𑀫𑁆", "staːm"],
     phn: ["𐤏𐤑", "ʕesˤ"],
     uga: ["𐎓𐎕", "ʕasˤu"],
-    xlu: ["𔑯𔓯", "alana"],
+    xlu: ["—", "—"],
     pal: ["𐭣𐭫𐭧𐭲", "draxt"],
     fa_clas: ["درخت", "diraxt"],
     syc: ["ܐܝܠܢܐ", "ʔiːlaːnaː"],

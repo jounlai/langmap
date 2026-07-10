@@ -964,7 +964,7 @@ WORDS.eye = {
     txb: ["𑁂𑀓𑁆", "ek"],
     phn: ["𐤏𐤍", "ʕajin"],
     uga: ["𐎓𐎐", "ʕajnu"],
-    xlu: ["𔖖𔗬", "hidu"],
+    xlu: ["tawi-", "ˈtawi"],
     pal: ["𐭰𐭱𐭬", "tʃaʃm"],
     fa_clas: ["چشم", "tʃaʃm"],
     syc: ["ܥܝܢܐ", "ʕajnaː"],

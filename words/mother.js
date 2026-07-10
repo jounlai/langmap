@@ -970,7 +970,7 @@ WORDS.mother = {
     txb: ["𑀫𑀸𑀘𑁂𑀭𑁆", "maːtser"],
     phn: ["𐤀𐤌", "ʔem"],
     uga: ["𐎜𐎎", "ʔumm"],
-    xlu: ["𔑯𔑯", "anna"],
+    xlu: ["anni-", "ˈanni"],
     pal: ["𐭬𐭠𐭲𐭫", "maːdar"],
     fa_clas: ["مادر", "maːdar"],
     syc: ["ܐܡܐ", "ʔemmaː"],

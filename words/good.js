@@ -964,7 +964,7 @@ WORDS.good = {
     txb: ["𑀓𑀭𑁆𑀢𑁆𑀲𑁂", "kartse"],
     phn: ["𐤈𐤁", "tˤob"],
     uga: ["𐎉𐎁", "tˤaːbu"],
-    xlu: ["wāsu 𔓷𔖻", "waːsu"],
+    xlu: ["wasu-", "ˈwaːsu"],
     pal: ["𐭥𐭩𐭧", "weh"],
     fa_clas: ["نیک", "neːk"],
     syc: ["ܛܒܐ", "tˤaːβaː"],

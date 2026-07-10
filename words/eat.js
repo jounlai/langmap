@@ -964,7 +964,7 @@ WORDS.eat = {
     txb: ["𑀰𑀼𑀯", "ɕuwa"],
     phn: ["𐤀𐤊𐤋", "ʔakal"],
     uga: ["𐎍𐎈𐎎", "laħam"],
-    xlu: ["𔑯𔗬", "ad"],
+    xlu: ["ad-", "ad"],
     pal: ["𐭧𐭥𐭫𐭲𐭭", "xwardan"],
     fa_clas: ["خوردن", "xʷurdan"],
     syc: ["ܐܟܠ", "ʔeχal"],

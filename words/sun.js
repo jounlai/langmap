@@ -969,7 +969,7 @@ WORDS.sun = {
     txb: ["𑀓𑁅𑀁", "kauŋ"],
     phn: ["𐤔𐤌𐤔", "ʃameʃ"],
     uga: ["𐎌𐎔𐎌", "ʃapʃ"],
-    xlu: ["𔖻𔗬𔑯", "tiwad"],
+    xlu: ["Tiwad-", "ˈtiwad"],
     pal: ["𐭧𐭥𐭫𐭱𐭩𐭲", "xwarʃeːd"],
     fa_clas: ["خورشید", "xʷarʃeːd"],
     syc: ["ܫܡܫܐ", "ʃemʃaː"],

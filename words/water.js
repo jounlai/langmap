@@ -971,7 +971,7 @@ WORDS.water = {
     txb: ["𑀯𑀭𑁆", "war"],
     phn: ["𐤌𐤌", "majim"],
     uga: ["𐎎𐎊", "maju"],
-    xlu: ["𔓷𔗬𔖻𔑯", "wadar"],
+    xlu: ["wār", "waːr"],
     pal: ["𐭠𐭯", "aːb"],
     fa_clas: ["آب", "aːb"],
     syc: ["ܡܝܐ", "majjaː"],

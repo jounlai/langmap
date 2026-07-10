@@ -3327,7 +3327,7 @@ const LANG_DATA = {
   uga: { name: 'Ugaritic', native: '𐎜𐎂𐎗𐎚', lat: 35.60, lng: 35.78, // Ras Shamra
 },
   // Indo-European (Anatolian, Hittite-cousin)
-  xlu: { name: 'Luwian', native: '𔖻𔑯𔗬𔖻𔓯', lat: 38.4, lng: 33.5 },
+  xlu: { name: 'Luwian', native: 'Luwili', lat: 38.4, lng: 33.5 },
   pal: { name: 'Middle Persian', native: '𐭯𐭠𐭫𐭮𐭩𐭪', lat: 32.65, lng: 51.67 },
   // Classical Persian (پارسی, fārsi-ye kelāsik) — the literary New Persian of
   // the Samanid (819-999), Ghaznavid, Seljuk, and Timurid courts; the

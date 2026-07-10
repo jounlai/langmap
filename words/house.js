@@ -971,7 +971,7 @@ WORDS.house = {
     txb: ["𑁄𑀲𑁆𑀢𑁆", "ost"],
     phn: ["𐤁𐤕", "bajit"],
     uga: ["𐎁𐎚", "bajtu"],
-    xlu: ["𔑭𔗬𔑯", "parna"],
+    xlu: ["parna-", "ˈparna"],
     pal: ["𐭧𐭠𐭭𐭪", "xaːnaɡ"],
     fa_clas: ["خانه", "xaːna"],
     syc: ["ܒܝܬܐ", "bajθaː"],

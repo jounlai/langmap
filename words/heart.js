@@ -964,7 +964,7 @@ WORDS.heart = {
     txb: ["𑀅𑀭𑀾𑀜𑁆𑀘𑁂", "aɾæɲtse"],
     phn: ["𐤋𐤁", "lib"],
     uga: ["𐎍𐎁", "libbu"],
-    xlu: ["𔓷𔗬𔖻", "kard"],
+    xlu: ["—", "—"],
     pal: ["𐭣𐭩𐭫", "dil"],
     fa_clas: ["دل", "dil"],
     syc: ["ܠܒܐ", "lebbaː"],

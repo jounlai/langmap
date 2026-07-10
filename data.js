@@ -27138,7 +27138,7 @@ const SENTENCES = [
       "egy": [
         [
           "D",
-          "𓋴𓃀𓂝|sbꜣ"
+          "𓋴𓃀𓄿|sbꜣ"
         ],
         [
           "A",
@@ -27150,7 +27150,7 @@ const SENTENCES = [
         ],
         [
           "B",
-          "𓅓 𓉐 𓅱𓂋 𓈖 𓋴𓃀𓂝|m pr wr n sbꜣ"
+          "𓅓 𓉐 𓅱𓂋 𓈖 𓋴𓃀𓄿|m pr wr n sbꜣ"
         ]
       ],
       "ur": [
@@ -69025,7 +69025,7 @@ const SENTENCES = [
         ],
         [
           "C",
-          "𓋴𓃀𓂝 𓅓 𓐍𓂝𓋴𓏏|sbꜣ m ḫꜣst"
+          "𓋴𓃀𓄿 𓅓 𓐍𓂝𓋴𓏏|sbꜣ m ḫꜣst"
         ],
         [
           "B",
@@ -99736,7 +99736,7 @@ const SENTENCES = [
         ],
         [
           "D",
-          "𓋴𓃀𓂝|sbꜣ"
+          "𓋴𓃀𓄿|sbꜣ"
         ],
         [
           "F",
@@ -213180,7 +213180,7 @@ const SENTENCES = [
         ],
         [
           "A",
-          "𓋴𓃀𓂝|sbꜣ"
+          "𓋴𓃀𓄿|sbꜣ"
         ],
         [
           "B",
@@ -271375,7 +271375,7 @@ const SENTENCES = [
       "egy": [
         [
           "D",
-          "𓋴𓃀𓂝|sbꜣ"
+          "𓋴𓃀𓄿|sbꜣ"
         ],
         [
           "A",
@@ -337354,7 +337354,7 @@ const SENTENCES = [
       "egy": [
         [
           "C",
-          "𓅱𓈖𓈖 𓋴𓃀𓂝|wnn sbꜣ"
+          "𓅱𓈖𓈖 𓋴𓃀𓄿|wnn sbꜣ"
         ],
         [
           "A",
@@ -359766,7 +359766,7 @@ const SENTENCES = [
         ],
         [
           "B|F",
-          "𓋴𓃀𓂝 𓅓 𓐍𓂝𓋴𓏏|sbꜣ m ḫꜣst"
+          "𓋴𓃀𓄿 𓅓 𓐍𓂝𓋴𓏏|sbꜣ m ḫꜣst"
         ],
         [
           "D",
@@ -403640,7 +403640,7 @@ const SENTENCES = [
       "egy": [
         [
           "D",
-          "𓋴𓃀𓂝|sbꜣ"
+          "𓋴𓃀𓄿|sbꜣ"
         ],
         [
           "A",

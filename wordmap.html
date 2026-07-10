@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=122">
+    <link rel="stylesheet" href="styles.css?v=123">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -778,11 +778,14 @@
                 serif;
         }
         .wm-ipa  { unicode-bidi: isolate; direction: ltr; }
-        /* Info-panel word table: make the word forms the prominent element,
-           with IPA a readable secondary size (balanced hierarchy: name 18 →
-           word 16 → concept 14 → IPA 12.5). */
-        .lang-info-panel td .wm-form { font-size: 16px; }
-        .lang-info-panel td .wm-ipa  { font-size: 12.5px; }
+        /* Info-panel word table: one type size across all three columns.
+           The columns used to run 14 / 16 / 12.5 px, which read as three
+           unrelated sizes rather than a hierarchy. Hierarchy now comes from
+           weight and colour (the concept column is 600/grey, the IPA is
+           lighter grey) rather than from size. */
+        .lang-info-panel table td { font-size: 15px; }
+        .lang-info-panel td .wm-form { font-size: 15px; }
+        .lang-info-panel td .wm-ipa  { font-size: 15px; color: #666; }
         /* Audit Task 101: keyboard focus for inline evidence markers */
         .lang-info-panel .ev-marker:focus-visible {
             outline: 2px solid #1a73e8;
@@ -2888,7 +2891,7 @@
         // caught at validation time. The dynamic wordmap_meta.js load
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
-            styles:   122,
+            styles:   123,
             data:      235,
             metaI18n:  15,
             filter:    32,

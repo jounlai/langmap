@@ -15,8 +15,14 @@ self.addEventListener('fetch', (e) => {
   try { url = new URL(req.url); } catch (_) { return; }
   if (url.origin !== self.location.origin) return;
   if (req.mode === 'navigate') {
+    // `fetch(req)` still consults the HTTP cache, so a page served with a
+    // max-age (GitHub Pages sends 600s on HTML) comes back stale — and a stale
+    // page carries a stale WM_ASSET_VERSION, so it asks for the OLD ?v= of
+    // every data file and the site silently shows yesterday's data. Force a
+    // revalidation: "network-first" has to mean the network.
+    const fresh = new Request(req.url, { cache: 'reload', credentials: 'same-origin' });
     e.respondWith(
-      fetch(req)
+      fetch(fresh)
         .then((res) => { const copy = res.clone(); caches.open(SHELL).then((c) => c.put(req, copy)).catch(() => {}); return res; })
         .catch(() => caches.match(req).then((r) => r || caches.match('/wordmap.html').then((r2) => r2 || caches.match('/'))))
     );

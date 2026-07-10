@@ -776,6 +776,9 @@ select:focus { border-color: var(--accent); outline: none; }
     font-size: 14px;
     font-weight: 400;
     opacity: 0.65;
+    /* Egyptological alef ꜣ (U+A723) and ayin ꜥ (U+A725) are not in the iOS
+       system fonts. Gentium Plus and Charis SIL both carry them. */
+    font-family: "Gentium Plus", "Charis SIL", "Noto Serif", Georgia, serif;
 }
 .segment-space {
     width: 6px;

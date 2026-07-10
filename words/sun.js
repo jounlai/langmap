@@ -1086,7 +1086,7 @@ WORDS.sun = {
     orv: ["сълньце", "sŭlnĭtse"],
     xsc: ["hvar", "xʷar"],
     sukh: ["ตะวัน", "tawan"],
-    xmr: ["𐦨𐦬", "ms"],
+    xmr: ["𐦨𐦯", "ˈmasa"],
     onw: ["ⲙⲁⲥⲁⲗ", "masal"],
     cqu: ["inti", "inti"],
     omc: ["jiang", "dʒiaŋ"],

@@ -1081,7 +1081,7 @@ WORDS.good = {
     orv: ["добръ", "dobrŭ"],
     xsc: ["vohu", "wohu"],
     sukh: ["ดี", "diː"],
-    xmr: ["𐦞𐦢𐦮𐦤", "akheniska"],
+    xmr: ["—", "—"],
     onw: ["ⲇⲱⲗⲗⲉ", "dolle"],
     cqu: ["allin", "aʎin"],
     omc: ["peñaeñ", "peɲaeɲ"],

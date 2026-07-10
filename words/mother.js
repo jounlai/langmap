@@ -1087,7 +1087,7 @@ WORDS.mother = {
     orv: ["мати", "mati"],
     xsc: ["mātar", "maːtar"],
     sukh: ["แม่", "mɛː"],
-    xmr: ["𐦢𐦫𐦡𐦡", "kdke"],
+    xmr: ["—", "—"],
     onw: ["ⲉⲛ", "en"],
     cqu: ["mama", "mama"],
     omc: ["eng", "eŋ"],

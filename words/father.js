@@ -1081,7 +1081,7 @@ WORDS.father = {
     orv: ["отьць", "otĭtsĭ"],
     xsc: ["pitar", "pitar"],
     sukh: ["พ่อ", "pʰɔː"],
-    xmr: ["𐦡𐦢", "qor"],
+    xmr: ["—", "—"],
     onw: ["ⲁⲃ", "ab"],
     cqu: ["tayta", "tajta"],
     omc: ["ef", "ef"],

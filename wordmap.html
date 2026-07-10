@@ -775,6 +775,12 @@
                 "Noto Sans Egyptian Hieroglyphs", "Noto Sans Meroitic",
                 "Noto Sans Sundanese", "Noto Sans Tagalog", "Noto Sans Coptic",
                 "Noto Sans New Tai Lue",
+                "Noto Sans Anatolian Hieroglyphs", "Noto Sans Cuneiform", "Noto Sans Brahmi",
+                "Noto Sans Linear B", "Noto Sans Old Persian", "Noto Sans Avestan",
+                "Noto Sans Old South Arabian", "Noto Sans Inscriptional Pahlavi",
+                "Noto Sans Phoenician", "Noto Sans Gothic", "Noto Sans Ugaritic",
+                "Noto Sans Limbu", "Noto Sans Vai", "Noto Sans Mandaic",
+                "Noto Sans Javanese", "Noto Sans Tai Viet",
                 serif;
         }
         .wm-ipa  { unicode-bidi: isolate; direction: ltr; }
@@ -8314,15 +8320,18 @@
             if (visits < 2) return;
             try { if (localStorage.getItem('lm_lotd_day') === String(dayNumber())) return; } catch (_) {}
             const bar = document.createElement('div');
-            bar.style.cssText = 'position:fixed;left:50%;top:64px;transform:translateX(-50%);z-index:99998;background:#fff;border:1px solid #e2e4ea;border-radius:999px;box-shadow:0 6px 22px rgba(0,0,0,.16);display:flex;align-items:center;gap:10px;padding:7px 8px 7px 16px;font-size:13px;max-width:92vw;animation:lmwotd .35s ease';
-            bar.innerHTML = `<span style="display:flex;align-items:center;gap:7px"><span style="display:inline-flex;color:var(--accent)"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span><b style="color:var(--accent)">${pick(S.wotd)}</b>: ${lotdLabel(code)}</span></span>`;
+            // flex-wrap:nowrap + min-width:0 keep this a single-line pill: without
+            // them the label wrapped to two or three lines on narrow screens
+            // and the rounded pill grew into a rounded box.
+            bar.style.cssText = 'position:fixed;left:50%;top:64px;transform:translateX(-50%);z-index:99998;background:#fff;border:1px solid #e2e4ea;border-radius:999px;box-shadow:0 6px 22px rgba(0,0,0,.16);display:flex;flex-wrap:nowrap;align-items:center;gap:10px;padding:7px 8px 7px 16px;font-size:13px;max-width:92vw;animation:lmwotd .35s ease';
+            bar.innerHTML = `<span style="display:flex;align-items:center;gap:7px;min-width:0;flex:1 1 auto"><span style="display:inline-flex;flex:0 0 auto;color:var(--accent)"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span style="min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"><b style="color:var(--accent)">${pick(S.wotd)}</b>: ${lotdLabel(code)}</span></span>`;
             const go = document.createElement('button');
             go.type = 'button'; go.textContent = pick(S.view);
-            go.style.cssText = 'border:0;background:var(--accent);color:#fff;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;cursor:pointer';
+            go.style.cssText = 'flex:0 0 auto;white-space:nowrap;border:0;background:var(--accent);color:#fff;border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;cursor:pointer';
             go.addEventListener('click', () => { gotoLang(code); close(); });
             const x = document.createElement('button');
             x.type = 'button'; x.setAttribute('aria-label', pick(S.close)); x.textContent = '✕';
-            x.style.cssText = 'border:0;background:none;color:#999;font-size:15px;cursor:pointer;padding:2px 6px';
+            x.style.cssText = 'flex:0 0 auto;border:0;background:none;color:#999;font-size:15px;cursor:pointer;padding:2px 6px';
             function close() { try { localStorage.setItem('lm_lotd_day', String(dayNumber())); } catch (_) {} bar.remove(); }
             x.addEventListener('click', close);
             bar.appendChild(go); bar.appendChild(x);

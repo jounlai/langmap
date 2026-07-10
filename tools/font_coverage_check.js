@@ -25,7 +25,25 @@ for (const f of fs.readdirSync(path.join(ROOT, 'words')).filter(f => f.endsWith(
 const html = fs.readFileSync(path.join(ROOT, 'wordmap.html'), 'utf8');
 
 // block name -> the font-family that must appear in wordmap.html.
+//
+// BMP blocks are listed only when the script needs a webfont — iOS and Windows
+// do not ship Mandaic, Vai, Limbu, Javanese, Tai Viet, New Tai Lue, Tagalog,
+// Sundanese, Phags-pa or Coptic. (Arabic, Devanagari, Thai, Han, Cyrillic and
+// friends are everywhere and are deliberately absent from this list.)
 const BLOCKS = [
+    ['Mandaic',                 0x0840, 0x085F, 'Noto Sans Mandaic'],
+    ['Tagalog',                 0x1700, 0x171F, 'Noto Sans Tagalog'],
+    ['Mongolian',               0x1800, 0x18AF, 'Noto Sans Mongolian'],
+    ['Limbu',                   0x1900, 0x194F, 'Noto Sans Limbu'],
+    ['New Tai Lue',             0x1980, 0x19DF, 'Noto Sans New Tai Lue'],
+    ['Sundanese',               0x1B80, 0x1BBF, 'Noto Sans Sundanese'],
+    ['Coptic',                  0x2C80, 0x2CFF, 'Noto Sans Coptic'],
+    ['Yi Syllables',            0xA000, 0xA48F, 'Noto Sans Yi'],
+    ['Yi Radicals',             0xA490, 0xA4CF, 'Noto Sans Yi'],
+    ['Vai',                     0xA500, 0xA63F, 'Noto Sans Vai'],
+    ['Phags-pa',                0xA840, 0xA87F, 'Noto Sans Phags Pa'],
+    ['Javanese',                0xA980, 0xA9DF, 'Noto Sans Javanese'],
+    ['Tai Viet',                0xAA80, 0xAADF, 'Noto Sans Tai Viet'],
     ['Linear B Syllabary',      0x10000, 0x1007F, 'Noto Sans Linear B'],
     ['Linear B Ideograms',      0x10080, 0x100FF, 'Noto Sans Linear B'],
     ['Aegean Numbers',          0x10100, 0x1013F, 'Noto Sans Linear B'],
@@ -86,8 +104,10 @@ for (const w of Object.keys(WORDS)) {
         if (!surf) continue;
         for (const ch of surf) {
             const cp = ch.codePointAt(0);
-            if (cp < 0x10000) continue;
             const b = BLOCKS.find(b => cp >= b[1] && cp <= b[2]);
+            // BMP codepoints outside the curated list are covered by system
+            // fonts everywhere; only astral ones are an unmapped-block error.
+            if (!b && cp < 0x10000) continue;
             const key = b ? b[0] : `UNMAPPED U+${cp.toString(16).toUpperCase()}`;
             if (!found.has(key)) found.set(key, { font: b && b[3], codes: new Set() });
             found.get(key).codes.add(code);
@@ -99,10 +119,35 @@ for (const w of Object.keys(WORDS)) {
     }
 }
 
+// Word surfaces are rendered by FOUR separate font-family chains. Listing a
+// font in only some of them is the failure mode that shipped: the map label
+// rendered Luwian while the info-panel table showed tofu, because `.wm-form`
+// was missed. Each chain must carry every font.
+const CHAINS = ['.lang-label, .globe-label', '.wm-form', '.lang-info-panel .native-name', '.compare-table thead .native-name'];
+function chainBodies() {
+    // Grab each selector's declaration block.
+    return CHAINS.map(sel => {
+        const i = html.indexOf(sel + ' {');
+        if (i < 0) return { sel, body: null };
+        const end = html.indexOf('\n        }', i);
+        return { sel, body: html.slice(i, end < 0 ? i + 4000 : end) };
+    });
+}
+const chains = chainBodies();
+
 const missing = [];
 for (const [block, info] of found) {
     if (!info.font) { missing.push([block, '(no font mapping in this checker)', [...info.codes]]); continue; }
-    if (!html.includes(`"${info.font}"`)) missing.push([block, info.font, [...info.codes]]);
+    // The self-hosted Nôm subsets are only referenced from .wm-form and the
+    // label chain; @font-face + one chain is enough for them.
+    if (info.font === 'Nom Serif Subset') {
+        if (!html.includes(`'${info.font}'`)) missing.push([block, info.font, [...info.codes]]);
+        continue;
+    }
+    for (const { sel, body } of chains) {
+        if (body === null) { missing.push([block, `chain "${sel}" not found in wordmap.html`, []]); continue; }
+        if (!body.includes(`"${info.font}"`)) missing.push([block, `${info.font} — missing from chain ${sel}`, [...info.codes]]);
+    }
 }
 for (const u of unscoped) missing.push(['Nôm subset unicode-range', `add ${u}`, []]);
 

@@ -23,7 +23,7 @@ Then — and this is the part that makes the result checkable — the transliter
 
 (The Unicode `Annn` numbers *are* Laroche's `*nnn` sign numbers, which is what makes this mapping possible at all.)
 
-## Restored to hieroglyphs (6 cells)
+## Restored to hieroglyphs (7 cells)
 
 | cell | glyphs | transliteration | form | source |
 |---|---|---|---|---|
@@ -33,9 +33,10 @@ Then — and this is the part that makes the result checkable — the transliter
 | hand | 𔑁𔓯𔑶𔖸 | `MANUS-i-sà-tara/i` | stem /istri-/ | Werner; acc.sg. `-n` at KARKAMIŠ A7 |
 | moon | 𔓜𔒄𔗦 | `'LUNA'-ma-sá` | nom.sg. /armas/ | SULTANHAN §31 |
 | sun | 𔖖𔓚 | `(DEUS)SOL` | logogram | KARATEPE 1; Osborne et al. 2020 |
+| i | 𔐀 | `EGO` | 1sg.nom /amu/ | KARKAMIŠ A15b (glossed `EGO — amu — 1sg.nom`); KARATEPE 1 §1 |
 
 Codepoints, each verified against its Unicode annotation:
-`A029 tá · A090 ti · A209 i · A415 sa` — `A019 á · A172 lá/í · A110 ma · A377 za` — `A247 domus · A035 na · A377 za` — `A059 manus · A209 i · A104 sà · A388 tara/i` — `A193 luna · A110 ma · A433 sá` — `A360 deus · A191 sol`.
+`A029 tá · A090 ti · A209 i · A415 sa` — `A019 á · A172 lá/í · A110 ma · A377 za` — `A247 domus · A035 na · A377 za` — `A059 manus · A209 i · A104 sà · A388 tara/i` — `A193 luna · A110 ma · A433 sá` — `A360 deus · A191 sol` — `A001 ego`.
 
 Note what these surfaces honestly are: **inflected forms and logograms**, not stems. `𔔙𔐤𔖪` carries the neuter `=za` particle; `𔖖𔓚` is two logograms and no phonetic spelling at all. The IPA column now matches the surface, not the headword.
 
@@ -51,7 +52,9 @@ Note what these surfaces honestly are: **inflected forms and logograms**, not st
 - `eye` **tawi-** — cuneiform Luwian only, and even there as an adverb `ta-a-wi₅-ya-a-an` 'facing'. The hieroglyphic cognate is the logographic `VERUS-wa/i-ya-an`, which is not the noun.
 - `water` **wār** — cuneiform Luwian `wa-a-ar-sa` is attested. No hieroglyphic lexeme found. (Correctly *not* Hittite `wātar`, which is what the row held before #413.)
 - `eat` **ad-** — the hieroglyphic attestation is `EDERE-tu`, a **3sg imperative** ("let him eat", KARKAMIŠ A6, the curse of Nikarawa's dogs). An imperative is not the verb.
-- `dog` **zuwana-**, `good` **wasu-**, `i` **amu**, `you` **tu** — genuinely Hieroglyphic Luwian, but no published spelling was recovered for them in this pass. They stay transliterated rather than get invented ones.
+- `dog` **zuwana-** — the writing *is* attested, as `CANIS-ni-i-zi` /zuwani-nzi/ at KARKAMIŠ A6 §31 ("Nikarawa's **dogs**"). It is a **nominative plural**. A cell labelled "dog" must not show a plural, so the transliteration stays. This is the sharpest illustration of the general problem: the corpus gives you the sentence it happened to carve, not the citation form you wanted.
+- `good` **wasu-** — fully attested in cuneiform (`wa-a-šu-un`, Melchert CLL p. 266). A syllabic hieroglyphic spelling `wa/i-su` is what it *would* look like, and that is exactly the reasoning that produced the fabricated row. Not printed by any source I reached, so not written.
+- `you` **tu** — the paradigm is verified (nom. `ti(-i)`, oblique `tu-`, abl.-inst. `tu-wa/i-ri(+i)`), but 2sg is rare in monumental inscriptions and no primary paragraph was opened. Left as transliteration.
 
 ## Still blank
 `cat`, `heart`, `hello`, `love`, `one`, `star`, `thanks`, `tree`, `two`, plus the newly blanked `drink` and `fire`. Eleven of twenty-five. For a language whose corpus is a few thousand lines of monumental inscription, that is the honest number.
@@ -62,9 +65,9 @@ Note what these surfaces honestly are: **inflected forms and logograms**, not st
 `native` stays `Luwili` — the self-designation is an adverb (*luwili* "in Luwian"), and no single hieroglyphic spelling of it was sourced. The old value `𔖻𔑯𔗬𔖻𔓯` was made from the same seven fabricated signs.
 
 ## What #413 got wrong
-It concluded "correct hieroglyphs are not honestly recoverable per word" from the fact that they are logographic and inflected. Those are *descriptions of the writing system*, not reasons to hide it. Six of sixteen were recoverable in a single research pass, and the pass also caught three transliterations that were themselves wrong — including a reading that scholarship abandoned decades ago. The right lesson from #413 was "do not invent sign strings", not "do not show the script".
+It concluded "correct hieroglyphs are not honestly recoverable per word" from the fact that they are logographic and inflected. Those are *descriptions of the writing system*, not reasons to hide it. Seven of sixteen were recoverable in a single research pass, and the pass also caught three transliterations that were themselves wrong — including a reading that scholarship abandoned decades ago. The right lesson from #413 was "do not invent sign strings", not "do not show the script".
 
 ## Worker response (作業者)
-Applied 8 cells via `tools/apply_word_patch.js` (6 restored to hieroglyphs, 2 blanked) plus the `meta.script` field. Every codepoint was resolved from Unicode `NamesList.txt` by the sign value its source prints, and round-trip-verified. `node validate_wordmap_data.js` and `node tools/check_all.js` both pass; `tools/font_coverage_check.js` again requires Noto Sans Anatolian Hieroglyphs, which is loaded in all four font chains.
+Applied 9 cells via `tools/apply_word_patch.js` (7 restored to hieroglyphs, 2 blanked) plus the `meta.script` field. The row now reads: 7 hieroglyphic, 7 transliterated, 11 blank. Every codepoint was resolved from Unicode `NamesList.txt` by the sign value its source prints, and round-trip-verified. `node validate_wordmap_data.js` and `node tools/check_all.js` both pass; `tools/font_coverage_check.js` again requires Noto Sans Anatolian Hieroglyphs, which is loaded in all four font chains.
 
 **File status: CLOSED**

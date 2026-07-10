@@ -964,7 +964,7 @@ WORDS.i = {
       txb: ["𑀜𑀰𑁆", "ɲəɕ"],
       phn: ["𐤀𐤍𐤊", "ʔanoːkiː"],
       uga: ["𐎀𐎐𐎋", "ʔanaːku"],
-      xlu: ["amu", "ˈamu"],
+      xlu: ["𔐀", "ˈamu"],
       pal: ["𐭠𐭭", "an"],
       fa_clas: ["من", "man"],
       syc: ["ܐܢܐ", "ʔenaː"],

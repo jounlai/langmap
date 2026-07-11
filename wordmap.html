@@ -2607,8 +2607,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=235"></script>
-    <script src="word_manifest.js?v=68"></script>
-    <script src="word_labels.js?v=2"></script>
+    <script src="word_manifest.js?v=69"></script>
+    <script src="word_labels.js?v=3"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
         // does `WORDS.<id> = {...}` and would ReferenceError otherwise.
@@ -3053,8 +3053,8 @@
             meta:     212,
             trivia:   27,
             triviaI18n: 4,
-            words:      68,
-            labels:      2,
+            words:      69,
+            labels:      3,
             metaI18nCoverage: 10,
         };
         function assetUrl(path, key) {
@@ -3712,30 +3712,75 @@
         }
         rebuildWordSelect();
 
-        // A partial word (WORDS.<id>.partial) is not filled for every language:
-        // it is plotted only where a real, sourced form exists, so the map traces
-        // the concept's actual range (the cuckoo's is Eurasia + Africa). This note
-        // makes that difference visible next to the definition.
+        // A partial word (WORDS.<id>.partial) is not filled for every language.
+        // The note under the definition explains why. It is keyed by word id so
+        // each partial word can say what its own gaps mean (the cuckoo's are a
+        // bird's range; an onomatopoeia's are just coverage still filling in);
+        // _default covers any partial word without its own text.
         const PARTIAL_WORD_NOTE = {
-            en: 'Partial word — mapped only where the bird has a real, sourced name, so the map shows the cuckoo’s range, not every language.',
-            ja: '部分収録の語 — 実在の名がある地域にだけ打点。地図はカッコウの生息域を映し、全言語は網羅しません。',
-            ko: '부분 수록 단어 — 실제 명칭이 있는 곳에만 표시하므로 지도는 뻐꾸기의 분포 범위를 보여 줍니다(전 언어 아님).',
-            zh: '部分收录词 — 只在有真实名称之处打点，地图显示的是布谷鸟的分布范围，并非每种语言。',
-            yue: '部分收錄詞 — 只喺有真實名稱嘅地方打點，地圖顯示嘅係布穀鳥嘅分佈範圍，唔係每種語言。',
-            vi: 'Từ một phần — chỉ đánh dấu nơi có tên thật, nên bản đồ thể hiện vùng phân bố của chim cu cu, không phải mọi ngôn ngữ.',
-            th: 'คำบางส่วน — ลงจุดเฉพาะที่มีชื่อจริง แผนที่จึงแสดงเขตการกระจายของนกคัคคู ไม่ใช่ทุกภาษา.',
-            id: 'Kata parsial — hanya dipetakan di mana ada nama nyata, jadi peta menunjukkan sebaran burung kangkok, bukan tiap bahasa.',
-            hi: 'आंशिक शब्द — केवल वहीं अंकित जहाँ वास्तविक नाम मिलता है; मानचित्र कोयल/कुक्कू के विस्तार को दिखाता है, हर भाषा को नहीं।',
-            de: 'Teilwort — nur dort verzeichnet, wo es einen echten Namen gibt; die Karte zeigt das Verbreitungsgebiet des Kuckucks, nicht jede Sprache.',
-            fr: 'Mot partiel — cartographié seulement là où un nom réel existe ; la carte montre l’aire du coucou, pas toutes les langues.',
-            it: 'Parola parziale — mappata solo dove esiste un nome reale; la mappa mostra l’areale del cuculo, non ogni lingua.',
-            es: 'Palabra parcial — solo se traza donde hay un nombre real; el mapa muestra el área del cuco, no todas las lenguas.',
-            pt: 'Palavra parcial — mapeada só onde há um nome real; o mapa mostra a área do cuco, não todas as línguas.',
-            ru: 'Частичное слово — отмечено лишь там, где есть реальное название; карта показывает ареал кукушки, а не каждый язык.',
-            uk: 'Часткове слово — позначене лише там, де є справжня назва; карта показує ареал зозулі, а не кожну мову.',
-            ar: 'كلمة جزئية — تُرسَم فقط حيث يوجد اسم حقيقي، فالخريطة تُظهر نطاق الوقواق لا كل اللغات.',
-            he: 'מילה חלקית — ממופה רק היכן שיש שם אמיתי, כך שהמפה מציגה את תפוצת הקוקייה ולא כל שפה.',
-            sw: 'Neno pungufu — huwekwa tu penye jina halisi, hivyo ramani inaonyesha eneo la kekeo, si kila lugha.',
+            _default: {
+                en: 'Partial word — shown only where a real, sourced form exists; coverage is still filling in, so many languages are blank for now.',
+                ja: '部分収録の語 — 実在の出典ある形がある所にだけ表示。収録は拡充中で、多くの言語は現時点で空欄です。',
+                ko: '부분 수록 단어 — 출처 있는 실제 형태가 있는 곳에만 표시하며, 수록은 확충 중이라 다수 언어는 아직 비어 있습니다.',
+                zh: '部分收录词 — 仅在有真实、有出处的形式处显示；收录仍在补充中，许多语言暂为空白。',
+                yue: '部分收錄詞 — 只喺有真實、有出處嘅形式度顯示；收錄仲喺度補充，好多語言暫時空白。',
+                vi: 'Từ một phần — chỉ hiển thị nơi có dạng thật, có nguồn; phạm vi vẫn đang bổ sung, nhiều ngôn ngữ tạm để trống.',
+                th: 'คำบางส่วน — แสดงเฉพาะที่มีรูปจริงและมีแหล่งอ้างอิง ความครอบคลุมยังเพิ่มเติมอยู่ หลายภาษาจึงยังว่าง.',
+                id: 'Kata parsial — hanya ditampilkan di mana ada bentuk nyata bersumber; cakupan masih dilengkapi, banyak bahasa sementara kosong.',
+                hi: 'आंशिक शब्द — केवल वहीं दिखता है जहाँ स्रोत-सहित वास्तविक रूप है; कवरेज अभी भरी जा रही है, कई भाषाएँ फ़िलहाल रिक्त हैं।',
+                de: 'Teilwort — nur dort gezeigt, wo eine echte, belegte Form existiert; die Abdeckung wächst noch, viele Sprachen sind vorerst leer.',
+                fr: 'Mot partiel — affiché seulement là où une forme réelle et sourcée existe ; la couverture se complète encore, beaucoup de langues restent vides.',
+                it: 'Parola parziale — mostrata solo dove esiste una forma reale e documentata; la copertura è in crescita, molte lingue sono ancora vuote.',
+                es: 'Palabra parcial — se muestra solo donde hay una forma real y con fuente; la cobertura aún se completa, muchas lenguas quedan vacías por ahora.',
+                pt: 'Palavra parcial — mostrada só onde há uma forma real e com fonte; a cobertura ainda está sendo preenchida, muitas línguas ficam vazias por ora.',
+                ru: 'Частичное слово — показано лишь там, где есть реальная форма с источником; охват ещё пополняется, многие языки пока пусты.',
+                uk: 'Часткове слово — показане лише там, де є реальна форма з джерелом; охоплення ще поповнюється, багато мов поки порожні.',
+                ar: 'كلمة جزئية — تظهر فقط حيث توجد صيغة حقيقية موثّقة؛ التغطية ما زالت تُستكمل، وكثير من اللغات فارغة حالياً.',
+                he: 'מילה חלקית — מוצגת רק היכן שיש צורה אמיתית עם מקור; הכיסוי עדיין מתמלא, ושפות רבות ריקות בינתיים.',
+                sw: 'Neno pungufu — huonyeshwa tu penye umbo halisi lenye chanzo; ufunikaji bado unajazwa, lugha nyingi bado tupu.',
+            },
+            cuckoo: {
+                en: 'Partial word — mapped only where the bird has a real, sourced name, so the map shows the cuckoo’s range, not every language.',
+                ja: '部分収録の語 — 実在の名がある地域にだけ打点。地図はカッコウの生息域を映し、全言語は網羅しません。',
+                ko: '부분 수록 단어 — 실제 명칭이 있는 곳에만 표시하므로 지도는 뻐꾸기의 분포 범위를 보여 줍니다(전 언어 아님).',
+                zh: '部分收录词 — 只在有真实名称之处打点，地图显示的是布谷鸟的分布范围，并非每种语言。',
+                yue: '部分收錄詞 — 只喺有真實名稱嘅地方打點，地圖顯示嘅係布穀鳥嘅分佈範圍，唔係每種語言。',
+                vi: 'Từ một phần — chỉ đánh dấu nơi có tên thật, nên bản đồ thể hiện vùng phân bố của chim cu cu, không phải mọi ngôn ngữ.',
+                th: 'คำบางส่วน — ลงจุดเฉพาะที่มีชื่อจริง แผนที่จึงแสดงเขตการกระจายของนกคัคคู ไม่ใช่ทุกภาษา.',
+                id: 'Kata parsial — hanya dipetakan di mana ada nama nyata, jadi peta menunjukkan sebaran burung kangkok, bukan tiap bahasa.',
+                hi: 'आंशिक शब्द — केवल वहीं अंकित जहाँ वास्तविक नाम मिलता है; मानचित्र कोयल/कुक्कू के विस्तार को दिखाता है, हर भाषा को नहीं।',
+                de: 'Teilwort — nur dort verzeichnet, wo es einen echten Namen gibt; die Karte zeigt das Verbreitungsgebiet des Kuckucks, nicht jede Sprache.',
+                fr: 'Mot partiel — cartographié seulement là où un nom réel existe ; la carte montre l’aire du coucou, pas toutes les langues.',
+                it: 'Parola parziale — mappata solo dove esiste un nome reale; la mappa mostra l’areale del cuculo, non ogni lingua.',
+                es: 'Palabra parcial — solo se traza donde hay un nombre real; el mapa muestra el área del cuco, no todas las lenguas.',
+                pt: 'Palavra parcial — mapeada só onde há um nome real; o mapa mostra a área do cuco, não todas as línguas.',
+                ru: 'Частичное слово — отмечено лишь там, где есть реальное название; карта показывает ареал кукушки, а не каждый язык.',
+                uk: 'Часткове слово — позначене лише там, де є справжня назва; карта показує ареал зозулі, а не кожну мову.',
+                ar: 'كلمة جزئية — تُرسَم فقط حيث يوجد اسم حقيقي، فالخريطة تُظهر نطاق الوقواق لا كل اللغات.',
+                he: 'מילה חלקית — ממופה רק היכן שיש שם אמיתי, כך שהמפה מציגה את תפוצת הקוקייה ולא כל שפה.',
+                sw: 'Neno pungufu — huwekwa tu penye jina halisi, hivyo ramani inaonyesha eneo la kekeo, si kila lugha.',
+            },
+            woof: {
+                en: 'Partial word — this is an onomatopoeia (how the bark sounds in each language), shown where a sourced form exists; coverage is still filling in.',
+                ja: '部分収録の語 — これは擬音語（各言語で犬の吠え声をどう写すか）。出典ある形がある所に表示し、収録は拡充中です。',
+                ko: '부분 수록 단어 — 이것은 의성어(각 언어에서 개 짖는 소리를 어떻게 적는가)로, 출처 있는 형태가 있는 곳에 표시하며 수록은 확충 중입니다.',
+                zh: '部分收录词 — 这是拟声词（各语言如何摹写狗叫），在有出处的形式处显示，收录仍在补充中。',
+                yue: '部分收錄詞 — 呢個係擬聲詞（各語言點樣摹寫狗吠），喺有出處嘅形式度顯示，收錄仲喺度補充。',
+                vi: 'Từ một phần — đây là từ tượng thanh (cách mỗi ngôn ngữ mô phỏng tiếng chó sủa), hiển thị nơi có dạng có nguồn; đang bổ sung thêm.',
+                th: 'คำบางส่วน — เป็นคำเลียนเสียง (แต่ละภาษาเลียนเสียงหมาเห่าอย่างไร) แสดงที่มีรูปอ้างอิงได้ และยังเพิ่มเติมอยู่.',
+                id: 'Kata parsial — ini onomatope (bagaimana tiap bahasa menirukan gonggongan), ditampilkan bila ada bentuk bersumber; masih dilengkapi.',
+                hi: 'आंशिक शब्द — यह अनुकरणात्मक शब्द है (हर भाषा में भौंकना कैसा सुनाई देता है); स्रोत-सहित रूप जहाँ है वहाँ दिखता है, कवरेज बढ़ रही है।',
+                de: 'Teilwort — eine Lautmalerei (wie das Bellen in jeder Sprache klingt), gezeigt wo eine belegte Form existiert; die Abdeckung wächst noch.',
+                fr: 'Mot partiel — une onomatopée (comment l’aboiement sonne dans chaque langue), affichée là où une forme sourcée existe ; couverture en cours.',
+                it: 'Parola parziale — un’onomatopea (come suona l’abbaiare in ogni lingua), mostrata dove esiste una forma documentata; copertura in crescita.',
+                es: 'Palabra parcial — una onomatopeya (cómo suena el ladrido en cada lengua), mostrada donde hay una forma con fuente; cobertura en aumento.',
+                pt: 'Palavra parcial — uma onomatopeia (como o latido soa em cada língua), mostrada onde há forma com fonte; cobertura ainda crescendo.',
+                ru: 'Частичное слово — звукоподражание (как лай звучит в каждом языке), показано там, где есть форма с источником; охват пополняется.',
+                uk: 'Часткове слово — звуконаслідування (як гавкіт звучить у кожній мові), показане там, де є форма з джерелом; охоплення поповнюється.',
+                ar: 'كلمة جزئية — محاكاة صوتية (كيف يُحاكى نباح الكلب في كل لغة)، تظهر حيث توجد صيغة موثّقة؛ والتغطية تتوسّع.',
+                he: 'מילה חלקית — מילת הברה (איך הנביחה נשמעת בכל שפה), מוצגת היכן שיש צורה עם מקור; הכיסוי עדיין מתמלא.',
+                sw: 'Neno pungufu — ni onomatopeia (jinsi mbwa anavyobweka katika kila lugha), huonyeshwa penye umbo lenye chanzo; ufunikaji unaendelea.',
+            },
         };
 
         // Audit Task 95/128: visible concept definition under the word
@@ -3770,9 +3815,10 @@
             // Partial word: append a note so the reader understands this word is
             // deliberately not filled for every language (see PARTIAL_WORD_NOTE).
             if (w.partial) {
-                const note = PARTIAL_WORD_NOTE[uiLang]
-                    || PARTIAL_WORD_NOTE[baseLang]
-                    || PARTIAL_WORD_NOTE.en;
+                const noteSet = PARTIAL_WORD_NOTE[w.id] || PARTIAL_WORD_NOTE._default;
+                const note = noteSet[uiLang]
+                    || noteSet[baseLang]
+                    || noteSet.en;
                 const n = document.createElement('span');
                 n.className = 'partial-word-note';
                 n.style.display = 'block';

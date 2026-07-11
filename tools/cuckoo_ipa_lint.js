@@ -57,11 +57,21 @@ function lint(entries) {
   return problems;
 }
 
-function loadCuckoo() {
+// Lint every partial word (WORDS.<id>.partial) — cuckoo, woof, and any future
+// one. That is where the onomatopoeic/topolect cells live and where the rallies
+// keep introducing digit/accent tones.
+function loadPartialWords() {
   global.WORDS = {};
-  // eslint-disable-next-line no-eval
-  eval(fs.readFileSync(path.join(ROOT, 'words', 'cuckoo.js'), 'utf8'));
-  return Object.entries(WORDS.cuckoo.data);
+  const dir = path.join(ROOT, 'words');
+  for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.js'))) {
+    // eslint-disable-next-line no-eval
+    eval(fs.readFileSync(path.join(dir, f), 'utf8'));
+  }
+  const out = [];
+  for (const [, w] of Object.entries(WORDS)) {
+    if (w && w.partial === true && w.data) out.push(...Object.entries(w.data));
+  }
+  return out;
 }
 
 // --check: exit 0 and print a scrapable "violations: N" line for check_all.js
@@ -72,7 +82,7 @@ const checkMode = process.argv.includes('--check');
 const arg = args[0];
 const entries = arg
   ? Object.entries(JSON.parse(fs.readFileSync(arg, 'utf8')))
-  : loadCuckoo();
+  : loadPartialWords();
 const problems = lint(entries);
 console.log(`violations: ${problems.length}`);
 if (problems.length) {

@@ -27,6 +27,7 @@ const WORD_ORDER = [
     "dog",
     "cat",
     "cuckoo",
+    "woof",
     // actions
     "eat",
     "drink",

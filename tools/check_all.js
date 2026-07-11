@@ -34,6 +34,12 @@ line('phonotactic legality', num(s, /CHECK C[^\n]*?: (\d+)/));
 s = run('affricate_tie_check.js');
 line('affricate tie-bar (bare convention)', num(s, /affricate tie-bars: (\d+)/));
 
+// Tone-notation gate for the cuckoo partial word: no superscript-digit tones,
+// no Latin acute/grave tones where Chao letters are required, no tie-bars, and
+// no tonal-language cell left without a tone. --check scrapes the count.
+s = run('cuckoo_ipa_lint.js --check');
+line('cuckoo IPA tone notation', num(s, /violations: (\d+)/));
+
 s = run('variant_integrity_check.js');
 // actionable = COLLISION + DUP_LABEL + EMPTY_PROMOTE + EMPTY_MERGE (LONE_REDUNDANT/EMPTY_LABEL are informational)
 const act = ['COLLISION', 'DUP_LABEL', 'EMPTY_PROMOTE', 'EMPTY_MERGE'].reduce((a, k) => a + (num(s, new RegExp(k + ': (\\d+)')) || 0), 0);

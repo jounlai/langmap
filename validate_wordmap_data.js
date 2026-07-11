@@ -221,10 +221,15 @@ const W = m => {
 const I = m => infos.push(m);
 
 // ---- 1. WORD_LIST has 20 entries ----------------------------------------
-if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 25) {
-    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 25)`);
+if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 26) {
+    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 26)`);
 }
 const WORD_IDS = (ctx.WORD_LIST || []).map(w => w.id);
+// Partial words (WORDS.<id>.partial === true) are NOT required for every
+// language — they are plotted only where a real, sourced form exists (the
+// cuckoo, whose range is Eurasia/Africa, is the first). The map plotter and
+// compare table already skip a language that lacks the current word.
+const PARTIAL_WORD_IDS = new Set(WORD_IDS.filter(id => ctx.WORDS && ctx.WORDS[id] && ctx.WORDS[id].partial === true));
 
 // ---- 2-4. Per-language word-entry checks --------------------------------
 let dashCount = 0;
@@ -234,7 +239,10 @@ for (const code of codes) {
     if (!lang.words) { E(`${code}: missing .words`); continue; }
     for (const id of WORD_IDS) {
         const e = lang.words[id];
-        if (e === undefined) { E(`${code}.words.${id} missing`); continue; }
+        if (e === undefined) {
+            if (PARTIAL_WORD_IDS.has(id)) continue;  // partial word: absence is allowed
+            E(`${code}.words.${id} missing`); continue;
+        }
         if (!Array.isArray(e) || e.length !== 2) {
             E(`${code}.words.${id} is not [surface, ipa]: ${JSON.stringify(e)}`);
             continue;

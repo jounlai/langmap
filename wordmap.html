@@ -2607,8 +2607,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=235"></script>
-    <script src="word_manifest.js?v=67"></script>
-    <script src="word_labels.js?v=1"></script>
+    <script src="word_manifest.js?v=68"></script>
+    <script src="word_labels.js?v=2"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
         // does `WORDS.<id> = {...}` and would ReferenceError otherwise.
@@ -2749,7 +2749,7 @@
         window.WORD_LIST = (typeof WORD_ORDER !== 'undefined' && window.WORD_LABELS)
             ? WORD_ORDER.map(function (id) {
                 var w = window.WORD_LABELS[id] || {};
-                return { id: id, label: w.label || {}, definition: w.definition || {} };
+                return { id: id, label: w.label || {}, definition: w.definition || {}, partial: !!w.partial };
             })
             : (window.WORD_LIST || []);
 
@@ -3053,8 +3053,8 @@
             meta:     212,
             trivia:   27,
             triviaI18n: 4,
-            words:      67,
-            labels:      1,
+            words:      68,
+            labels:      2,
             metaI18nCoverage: 10,
         };
         function assetUrl(path, key) {
@@ -3103,7 +3103,7 @@
             window.WORD_LIST = WORD_ORDER.map(id => {
                 const w = window.WORDS[id] || {};
                 const l = LBL[id] || {};
-                return { id, label: w.label || l.label || {}, definition: w.definition || l.definition || {} };
+                return { id, label: w.label || l.label || {}, definition: w.definition || l.definition || {}, partial: !!(w.partial || l.partial) };
             });
             // Re-run UI init that depends on WORD_LIST / per-language
             // words. The initial calls (during IIFE parse) ran against
@@ -3702,12 +3702,41 @@
                 opt.value = w.id;
                 // w.label is { en, ja, id, ... } — `id` here is Indonesian, not entry id
                 const localWord = w.label[uiLang] || w.label[uiLang.split('_')[0]] || w.label.en;
-                opt.textContent = (uiLang === 'en' ? w.label.en : localWord + ' / ' + w.label.en);
+                const base = (uiLang === 'en' ? w.label.en : localWord + ' / ' + w.label.en);
+                // Mark a partial word (e.g. cuckoo) so the selector shows it is
+                // special — a range map, not a per-language cell.
+                opt.textContent = w.partial ? base + ' ◐' : base;
                 select.appendChild(opt);
             });
             if (curVal) select.value = curVal;
         }
         rebuildWordSelect();
+
+        // A partial word (WORDS.<id>.partial) is not filled for every language:
+        // it is plotted only where a real, sourced form exists, so the map traces
+        // the concept's actual range (the cuckoo's is Eurasia + Africa). This note
+        // makes that difference visible next to the definition.
+        const PARTIAL_WORD_NOTE = {
+            en: 'Partial word — mapped only where the bird has a real, sourced name, so the map shows the cuckoo’s range, not every language.',
+            ja: '部分収録の語 — 実在の名がある地域にだけ打点。地図はカッコウの生息域を映し、全言語は網羅しません。',
+            ko: '부분 수록 단어 — 실제 명칭이 있는 곳에만 표시하므로 지도는 뻐꾸기의 분포 범위를 보여 줍니다(전 언어 아님).',
+            zh: '部分收录词 — 只在有真实名称之处打点，地图显示的是布谷鸟的分布范围，并非每种语言。',
+            yue: '部分收錄詞 — 只喺有真實名稱嘅地方打點，地圖顯示嘅係布穀鳥嘅分佈範圍，唔係每種語言。',
+            vi: 'Từ một phần — chỉ đánh dấu nơi có tên thật, nên bản đồ thể hiện vùng phân bố của chim cu cu, không phải mọi ngôn ngữ.',
+            th: 'คำบางส่วน — ลงจุดเฉพาะที่มีชื่อจริง แผนที่จึงแสดงเขตการกระจายของนกคัคคู ไม่ใช่ทุกภาษา.',
+            id: 'Kata parsial — hanya dipetakan di mana ada nama nyata, jadi peta menunjukkan sebaran burung kangkok, bukan tiap bahasa.',
+            hi: 'आंशिक शब्द — केवल वहीं अंकित जहाँ वास्तविक नाम मिलता है; मानचित्र कोयल/कुक्कू के विस्तार को दिखाता है, हर भाषा को नहीं।',
+            de: 'Teilwort — nur dort verzeichnet, wo es einen echten Namen gibt; die Karte zeigt das Verbreitungsgebiet des Kuckucks, nicht jede Sprache.',
+            fr: 'Mot partiel — cartographié seulement là où un nom réel existe ; la carte montre l’aire du coucou, pas toutes les langues.',
+            it: 'Parola parziale — mappata solo dove esiste un nome reale; la mappa mostra l’areale del cuculo, non ogni lingua.',
+            es: 'Palabra parcial — solo se traza donde hay un nombre real; el mapa muestra el área del cuco, no todas las lenguas.',
+            pt: 'Palavra parcial — mapeada só onde há um nome real; o mapa mostra a área do cuco, não todas as línguas.',
+            ru: 'Частичное слово — отмечено лишь там, где есть реальное название; карта показывает ареал кукушки, а не каждый язык.',
+            uk: 'Часткове слово — позначене лише там, де є справжня назва; карта показує ареал зозулі, а не кожну мову.',
+            ar: 'كلمة جزئية — تُرسَم فقط حيث يوجد اسم حقيقي، فالخريطة تُظهر نطاق الوقواق لا كل اللغات.',
+            he: 'מילה חלקית — ממופה רק היכן שיש שם אמיתי, כך שהמפה מציגה את תפוצת הקוקייה ולא כל שפה.',
+            sw: 'Neno pungufu — huwekwa tu penye jina halisi, hivyo ramani inaonyesha eneo la kekeo, si kila lugha.',
+        };
 
         // Audit Task 95/128: visible concept definition under the word
         // selector. Localized en/ja/ko/zh with English fallback marked
@@ -3737,6 +3766,22 @@
                 fb.style.marginLeft = '4px';
                 fb.textContent = `(${fbLabel})`;
                 wd.appendChild(fb);
+            }
+            // Partial word: append a note so the reader understands this word is
+            // deliberately not filled for every language (see PARTIAL_WORD_NOTE).
+            if (w.partial) {
+                const note = PARTIAL_WORD_NOTE[uiLang]
+                    || PARTIAL_WORD_NOTE[baseLang]
+                    || PARTIAL_WORD_NOTE.en;
+                const n = document.createElement('span');
+                n.className = 'partial-word-note';
+                n.style.display = 'block';
+                n.style.marginTop = '2px';
+                n.style.fontSize = '10px';
+                n.style.fontStyle = 'italic';
+                n.style.opacity = '0.75';
+                n.textContent = '◐ ' + note;
+                wd.appendChild(n);
             }
         }
 

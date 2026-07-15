@@ -1463,7 +1463,11 @@
            uses the visual viewport, matching the user's expectation. */
         .url-watermark {
             position: fixed;
-            bottom: 0; left: 0; z-index: 1000;
+            /* z-index 1014: keep the credit visible above the bottom-left
+               dialect legend (1010) after both were lowered toward the bottom
+               edge (owner 2026-07-12 "クレジット表記は残すように"); still below
+               the Compare FAB (1015). */
+            bottom: 0; left: 0; z-index: 1014;
             font-size: 11px; color: rgba(0,0,0,0.5);
             background: rgba(255,255,255,0.75); padding: 3px 8px;
             border-radius: 0 4px 0 0;
@@ -2315,12 +2319,19 @@
             .tiles-revert { bottom: 12px; right: 12px; }
         }
 
-        /* Dialect-lineage colour legend (collapsible, bottom-left). */
+        /* Dialect-lineage colour legend (collapsible, bottom-left).
+           z-index 1010: above the map + credit watermark (1000) but BELOW the
+           Compare FAB (1015) and its panel (1020) — owner 2026-07-12 wants the
+           dialect button/panel layered behind Compare, in front of the map. */
         .dialect-legend {
-            position: fixed; z-index: 1502; bottom: 12px; left: 12px;
+            position: fixed; z-index: 1010; bottom: 12px; left: 12px;
             display: flex; flex-direction: column; align-items: flex-start;
             font-family: inherit;
         }
+        /* Simple-display (hide-UI) mode: hide the dialect legend + its panel
+           entirely (owner 2026-07-12). */
+        body.chrome-hidden .dialect-legend,
+        html[data-wm-chrome="hidden"] body .dialect-legend { display: none !important; }
         .dialect-legend-toggle {
             display: inline-flex; align-items: center; gap: 6px;
             padding: 6px 12px; border: 1px solid #d0d0d0; border-radius: 16px;

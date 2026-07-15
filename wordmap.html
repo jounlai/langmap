@@ -200,6 +200,25 @@
            the user picks different words (some labels are much longer
            than others, e.g. Japanese 食べる vs short 'good'). */
         .top-left-controls #word-select { width: 240px; }
+        /* Simple-display read-only word label — sits in the word <select>'s
+           slot (first child of .top-left-controls), styled like the select
+           pill but non-interactive. Hidden normally; revealed only when
+           chrome is hidden, where #word-select itself is display:none. */
+        .top-left-controls #word-select-label {
+            display: none;
+            width: 240px; box-sizing: border-box;
+            font-size: 13px; padding: 5px 12px;
+            border: 1px solid #d0d0d0; border-radius: 20px;
+            background: rgba(255,255,255,0.92);
+            -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+            color: #333; font-weight: 500;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        body.chrome-hidden .top-left-controls #word-select-label,
+        html[data-wm-chrome="hidden"] body .top-left-controls #word-select-label {
+            display: block;
+        }
         /* Era switch and filter FAB share one horizontal row so the
            filter doesn't claim a separate vertical slot under the
            search field. lang-filter.js's FAB is moved into this row by
@@ -2202,6 +2221,11 @@
     <!-- Top-left controls (below header): word select + era + lang search -->
     <div class="top-left-controls">
         <select id="word-select" aria-label="Select word" aria-describedby="word-definition"></select>
+        <!-- Read-only word label shown in place of the <select> in
+             simple-display (chrome-hidden) mode, so the reader still sees
+             which word is mapped without the interactive pulldown (owner
+             2026-07-12). Populated + kept in sync by updateWordSelectLabel(). -->
+        <div id="word-select-label" aria-hidden="true"></div>
         <div id="word-definition"></div>
         <!-- Era switch + filter button live in the same row so the
              filter FAB (created by lang-filter.js) doesn't claim its own
@@ -3706,6 +3730,17 @@
                 select.appendChild(opt);
             });
             if (curVal) select.value = curVal;
+            updateWordSelectLabel();
+        }
+        // Mirror the selected word's option text into the read-only
+        // #word-select-label shown in simple-display mode (where #word-select
+        // is display:none). Function declaration → hoisted, so rebuildWordSelect
+        // can call it above.
+        function updateWordSelectLabel() {
+            const lbl = document.getElementById('word-select-label');
+            if (!lbl) return;
+            const opt = select.options[select.selectedIndex];
+            lbl.textContent = opt ? opt.textContent : '';
         }
         rebuildWordSelect();
 
@@ -3833,6 +3868,7 @@
             // The definition and the hash come from word_labels.js, so they can
             // update at once; the markers need this word's data block.
             updateWordDefinition();
+            updateWordSelectLabel();
             updateHash();
             if (wordLoaded(id)) { updateMarkers(id); return; }
             select.disabled = true;

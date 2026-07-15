@@ -17,8 +17,13 @@ This finer granularity is the point: a family-only reviewer skims 25 columns at 
 - **Neighbour-language copies:** Abaza (abq) father cell was a verbatim copy of the Abkhaz row → аба; Komi-Permyak (koi) carried the Russian loan бать where native **ай** belongs; Extremaduran (ext) held the Fala word *pai* → pairi; es_pr "padre" had Portuguese *pai* as its IPA.
 - **Script/IPA self-consistency:** Sumerian (sux) father 𒀀𒁀→**𒀊𒁀** (ab-ba, matching its own /abba/ IPA); Plautdietsch (pdt) informal *Papa* → neutral citation **Voda**.
 
-## Batches 2–4 (pending)
-- Batch 2: i, you, name, eye, hand, heart, love
+## Batch 2 — i, you, name, eye, hand, heart, love (84 reviewers)
+**206 accepted, 10 rejected; all 206 applied.** (The scratchpad was cleared mid-run when the working tree was briefly on another branch; the accepted set was recovered from the workflow journal per [[workflow-harvest-recovery]].) "eye" alone took 44 fixes. Representative:
+- **Wrong meaning:** Otomi (otq) "eye" was *hmi* = **face** → da; Hurrian (xhu) "eye" was *šini* = **two** → furi (𒁍𒊑); Aari (aiw) "eye" was the Hamar **mouth** form → aafi.
+- **Wrong-language copies / wrong glyph:** Old Nubian (onw) "eye" held the Nile-Nubian word → **maɲ** (ⲙⲁⳡ); Vai (vai) carried the wrong syllabary glyph → **ꕰ** (NYA).
+- **Truncation / diacritic:** Dogon (ddn) gi→**giré**; Saho (ssy) int→**inti**; Venda (ve) ito→**iṱo** (dental); Kalenjin (kln) kosit→**konda**; Cherokee (chr) agati→**akta**.
+
+## Batches 3–4 (pending)
 - Batch 3: tree, house, dog, cat, eat, drink
 - Batch 4: one, two, hello, thanks, good
 

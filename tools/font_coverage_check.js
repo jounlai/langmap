@@ -86,6 +86,9 @@ const BLOCKS = [
     ['CJK Ext C',               0x2A700, 0x2B73F, 'Nom Serif Subset'],
     ['CJK Ext D',               0x2B740, 0x2B81F, 'Nom Serif Subset'],
     ['CJK Ext E',               0x2B820, 0x2CEAF, 'Nom Serif Subset'],
+    // Ext F carries the Zhuang Sawndip glyphs (𭓨 house, 𭝚 love …), served by
+    // the BabelStone-Han Sawndip subset added to the same family.
+    ['CJK Ext F',               0x2CEB0, 0x2EBEF, 'Nom Serif Subset'],
 ];
 
 // The Nôm subsets are unicode-range scoped, so a codepoint they claim must

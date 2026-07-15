@@ -305,10 +305,11 @@ WORDS.love = {
     th_n: ["ฮัก", "hak˧˥"],
     th_s: ["รัก", "rak˧˥"],
     za: {
-      form: "gyaez",
+      form: "𭝚",
       ipa:  "kjai˧˥",
       alt: [
-        { form: "𭝚 / 𠮹 / 𢟋 / 𢠿", script: "Sawndip (古壮字)", source: "za.wikipedia.org Gyaez — the Sawndip glyphs sit in CJK Ext-B/F, which common device fonts lack (tofu on mobile), so the displayed form falls back to the official Latin Sawcuengh" },
+        { form: "gyaez", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𠮹 / 𢟋 / 𢠿", script: "Sawndip (古壮字)", source: "za.wikipedia.org Gyaez — regional variant glyphs alongside the primary form 𭝚 (U+2D75A, CJK Ext-F; rendered via the embedded BabelStone-Han Sawndip subset)" },
       ],
     },
     hmn: ["hlub", "ɬu˥˥"],

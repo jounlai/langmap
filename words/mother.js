@@ -305,10 +305,10 @@ WORDS.mother = {
     th_n: ["แม่", "mɛː˥˩"],
     th_s: ["แม่", "mɛː˥˩"],
     za: {
-      form: "meh",
+      form: "𫱆",
       ipa:  "me˨",
       alt: [
-        { form: "𫱆", script: "Sawndip (古壮字)", source: "za.wikipedia.org Meh — 𫱆 (U+2BC46) sits in CJK Ext-F, which common device fonts lack (tofu on mobile), so the displayed form falls back to the official Latin Sawcuengh" },
+        { form: "meh", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
       ],
     },
     hmn: ["niam", "niã˨˩ˀ"],

@@ -305,10 +305,11 @@ WORDS.house = {
     th_n: ["เฮือน", "hɯːan˥"],
     th_s: ["บ้าน", "baːn˧˥"],
     za: {
-      form: "ranz",
+      form: "𭓨",
       ipa:  "ɣan˧˥",
       alt: [
-        { form: "𭓨 / 兰 / 䒟 / 苒 / 栏", script: "Sawndip (古壮字)", source: "za.wikipedia.org Ranz — 𭓨 (U+2D4E8) is the fuller Sawndip glyph but sits in CJK Ext-F, which common device fonts lack (tofu on mobile), so the displayed form falls back to the official Latin Sawcuengh; 兰/栏 etc. are renderable BMP variants" },
+        { form: "ranz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "兰 / 䒟 / 苒 / 栏", script: "Sawndip (古壮字)", source: "za.wikipedia.org Ranz — regional variant glyphs alongside the primary form 𭓨 (U+2D4E8, CJK Ext-F; rendered via the embedded BabelStone-Han Sawndip subset)" },
       ],
     },
     hmn: ["tsev", "tɕɛ˨˦"],

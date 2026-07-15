@@ -109,6 +109,24 @@
             src: url('fonts/HanaMinB-NomFill-subset.woff2') format('woff2');
             unicode-range: U+228D0, U+24657;
         }
+        /* Zhuang Sawndip (古壮字) glyphs in CJK Ext-B/E/F that common device
+           fonts lack — without this they rendered as tofu on mobile (owner
+           2026-07-15 "チュノムのようにフォントを埋め込んで…全部古壮字に"). Subset of
+           BabelStone Han (10 glyphs, ~4 KB), scoped by unicode-range so it
+           only loads when one of these Zhuang forms appears. Shares the
+           'Nom Serif Subset' family so it rides the same four font chains
+           (map label / .wm-form / info-panel / compare header). Not Nôm, but
+           the family is the site's catch-all for self-hosted rare-CJK. */
+        @font-face {
+            font-family: 'Nom Serif Subset';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('fonts/BabelStoneHan-Sawndip-subset.woff2') format('woff2');
+            unicode-range:
+                U+20BB9, U+225E8, U+227CB, U+2283F, U+23C99,
+                U+2BC46, U+2D4E8, U+2D72F, U+2D75A, U+2DC3D;
+        }
         /* Old Hangul Jamo (conjoining, used in Middle Korean ko_mid and
            Early-Modern Korean ko_em) — ᆞ arae-a, ᆡ arae-a-i, ᅀ pansiot,
            ᄉ ᄒ ᄃ etc. Google Fonts' default Noto Serif KR subset omits

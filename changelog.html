@@ -150,6 +150,7 @@
                 <li><strong>Simple-display</strong> (hide-UI) mode no longer strips the game launchers — reading quiz, Langle, "which word?" — out of the mobile hamburger menu; they stay reachable there even with the top bar hidden.</li>
                 <li>The trivia button (漢字文化圏の豆知識 / 言語学の豆知識) was missing from the mobile menu — it had been relocated into the top bar where another rule hid it. It now stays in the hamburger menu alongside the other games.</li>
                 <li>Word Map simple-display: the word picker used to vanish entirely, so you couldn't tell which word was mapped. The current word now stays visible as a read-only label in the picker's place (no dropdown).</li>
+                <li>Zhuang words written in the traditional Sawndip script were showing as empty boxes (tofu) on mobile — <em>house</em>, <em>love</em> and <em>mother</em> used glyphs from CJK Extension F, which phone fonts don't carry. They now display the official Latin Sawcuengh spelling (<em>ranz</em>, <em>gyaez</em>, <em>meh</em>), with the Sawndip characters kept as documented variants. The font-coverage guard was also fixed to scan these rich multi-script cells, which it had been silently skipping.</li>
             </ul>
         </div>
 

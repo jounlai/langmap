@@ -100,7 +100,13 @@ const unscoped = [];     // Nôm codepoints the subset's unicode-range omits
 for (const w of Object.keys(WORDS)) {
     const data = WORDS[w].data || {};
     for (const code of Object.keys(data)) {
-        const surf = data[code] && data[code][0];
+        // Cells are either ["surface","ipa"] arrays or rich {form,ipa,alt}
+        // objects (e.g. Zhuang/Jurchen). Read the displayed surface from both —
+        // reading only [0] silently skipped object cells, which let an astral
+        // Sawndip glyph (𭓨 U+2D4E8) ship as tofu. (alt forms are reference-only
+        // and may carry rarer glyphs, so they are not scanned.)
+        const cell = data[code];
+        const surf = Array.isArray(cell) ? cell[0] : (cell && cell.form);
         if (!surf) continue;
         for (const ch of surf) {
             const cp = ch.codePointAt(0);

@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=123">
+    <link rel="stylesheet" href="styles.css?v=124">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -1445,11 +1445,12 @@
             .compare-table th, .compare-table td { padding: 8px 6px 4px; font-size: 12px; }
             .compare-fab {
                 padding: 8px 12px;
-                /* Lift the compare FAB clear of the OS gesture/home bar
-                   so it's easier to thumb-tap (user 2026-05-17: "조금
-                   더 위로 이동"). 52px keeps it well above iOS home
-                   indicator + Android nav bar without crowding the map. */
-                bottom: max(52px, calc(env(safe-area-inset-bottom) + 44px));
+                /* Sit near the bottom edge (owner 2026-07-12: move it lower,
+                   closer to the bottom). It's bottom-RIGHT while the credit
+                   watermark is bottom-LEFT, so there's no collision. The
+                   safe-area-inset term still clears the iOS home indicator /
+                   Android nav bar. */
+                bottom: max(20px, calc(env(safe-area-inset-bottom) + 12px));
             }
         }
 
@@ -2337,7 +2338,11 @@
         .dialect-legend-row { display: flex; align-items: center; gap: 8px; padding: 3px 2px; font-size: 12px; color: #333; }
         .dialect-legend-sw { width: 12px; height: 12px; border-radius: 3px; flex: none; border: 1px solid rgba(0,0,0,0.18); }
         @media (max-width: 720px) {
-            .dialect-legend { bottom: 60px; left: 12px; }
+            /* Owner 2026-07-12: lower toward the bottom edge. The legend's
+               panel expands upward (margin-bottom), and the credit watermark
+               occupies only the bottom ~18px of the same corner, so ~22px
+               sits the toggle just above the credit without overlap. */
+            .dialect-legend { bottom: 22px; left: 12px; }
         }
 
         /* Temporary place-label shown for ~5s when a panto action
@@ -2992,17 +2997,13 @@
         const desktopTriviaAnchor = drawer ? drawer.querySelector('.header-ui-lang') : null;
         function apply() {
             if (!headerBar || !drawer || !triviaBtn) return;
-            if (mq.matches) {
-                // Mobile: trivia button → header bar, immediately to the
-                // LEFT of the hamburger button. Hamburger has
-                // `margin-left: auto`, so visually [logo …gap… trivia hamburger].
-                const hamburgerBtn = headerBar.querySelector('.hamburger-btn');
-                if (hamburgerBtn && triviaBtn !== hamburgerBtn.previousElementSibling) {
-                    headerBar.insertBefore(triviaBtn, hamburgerBtn);
-                }
-            } else if (desktopTriviaAnchor && triviaBtn.parentNode !== drawer) {
-                // Desktop: restore trivia button to the drawer (where it
-                // participates in the header flex layout via display:contents).
+            // Owner 2026-07-12: trivia (漢字文化圏の豆知識) stays in the
+            // hamburger drawer at ALL widths. It used to be relocated into the
+            // always-visible header bar on mobile, but `.game-btn{display:none}`
+            // then hid it there AND it was gone from the drawer, so 豆知識
+            // vanished from the menu. Keeping it in .header-collapse shows it as
+            // a drawer row like the other game launchers (quiz).
+            if (desktopTriviaAnchor && triviaBtn.parentNode !== drawer) {
                 drawer.insertBefore(triviaBtn, desktopTriviaAnchor);
             }
         }
@@ -4039,6 +4040,13 @@
                 const hf = params.get(HASH_PARAM);
                 if (hf != null) {
                     selected = new Set(hf.split(',').filter(Boolean).filter(c => offered.has(c)));
+                    // Seed the 古代語/kun switches from the restored selection
+                    // too, or a shared #hf link that includes ancient codes
+                    // would plot them while the filter panel shows the switch
+                    // OFF (owner-reported mismatch 2026-07-12). Mirror the
+                    // localStorage branch below.
+                    ancientOn = ANCIENT_SINO_CODES.some(c => selected.has(c));
+                    kunOn     = KUN_CODES.some(c => selected.has(c));
                     return;
                 }
             } catch (_) {}

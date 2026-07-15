@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=123">
+    <link rel="stylesheet" href="styles.css?v=124">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -1095,11 +1095,12 @@
             .compare-table th, .compare-table td { padding: 8px 6px 4px; font-size: 12px; }
             .compare-fab {
                 padding: 8px 12px;
-                /* Lift the compare FAB clear of the OS gesture/home bar
-                   so it's easier to thumb-tap (user 2026-05-17: "조금
-                   더 위로 이동"). 52px keeps it well above iOS home
-                   indicator + Android nav bar without crowding the map. */
-                bottom: max(52px, calc(env(safe-area-inset-bottom) + 44px));
+                /* Sit near the bottom edge (owner 2026-07-12: move it lower,
+                   closer to the bottom). It's bottom-RIGHT while the credit
+                   watermark is bottom-LEFT, so there's no collision. The
+                   safe-area-inset term still clears the iOS home indicator /
+                   Android nav bar. */
+                bottom: max(20px, calc(env(safe-area-inset-bottom) + 12px));
             }
         }
 
@@ -2392,17 +2393,13 @@
         const desktopTriviaAnchor = drawer ? drawer.querySelector('.header-ui-lang') : null;
         function apply() {
             if (!headerBar || !drawer || !triviaBtn) return;
-            if (mq.matches) {
-                // Mobile: trivia button → header bar, immediately to the
-                // LEFT of the hamburger button. Hamburger has
-                // `margin-left: auto`, so visually [logo …gap… trivia hamburger].
-                const hamburgerBtn = headerBar.querySelector('.hamburger-btn');
-                if (hamburgerBtn && triviaBtn !== hamburgerBtn.previousElementSibling) {
-                    headerBar.insertBefore(triviaBtn, hamburgerBtn);
-                }
-            } else if (desktopTriviaAnchor && triviaBtn.parentNode !== drawer) {
-                // Desktop: restore trivia button to the drawer (where it
-                // participates in the header flex layout via display:contents).
+            // Owner 2026-07-12: trivia (言語学の豆知識) stays in the hamburger
+            // drawer at ALL widths. It used to be relocated into the
+            // always-visible header bar on mobile, but `.game-btn{display:none}`
+            // then hid it there AND it was gone from the drawer, so 豆知識
+            // vanished from the menu. Keeping it in .header-collapse shows it as
+            // a drawer row like the other game launchers (Langle / which-word).
+            if (desktopTriviaAnchor && triviaBtn.parentNode !== drawer) {
                 drawer.insertBefore(triviaBtn, desktopTriviaAnchor);
             }
         }
@@ -3045,7 +3042,7 @@
         // caught at validation time. The dynamic wordmap_meta.js load
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
-            styles:   123,
+            styles:   124,
             data:      235,
             metaI18n:  15,
             filter:    32,

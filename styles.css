@@ -1585,6 +1585,17 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
         font-size: 15px;
     }
     .header-collapse .game-btn:hover { background: #f3f4f6; box-shadow: none; }
+    /* Owner 2026-07-12: in simple-display (chrome-hidden) mode the game
+       launchers (quiz / Langle / which-word / trivia) must STAY in the
+       hamburger drawer — only the always-visible top bar should be stripped.
+       The generic `body.chrome-hidden .trivia-btn { display:none }` rule
+       (specificity 0,2,1) otherwise beats the drawer-reveal (0,2,0) and
+       blanks them. These selectors are 0,3,1 so they win, re-revealing the
+       game rows inside the open drawer while leaving the top bar clean. */
+    body.chrome-hidden .header-collapse .game-btn,
+    html[data-wm-chrome="hidden"] body .header-collapse .game-btn {
+        display: flex !important;
+    }
     /* Language picker as a full-width labelled row in the drawer. */
     .header-collapse .lang-picker { width: 100%; gap: 8px; }
     .header-collapse .lang-picker-label {

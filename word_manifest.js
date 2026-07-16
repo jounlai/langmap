@@ -28,6 +28,9 @@ const WORD_ORDER = [
     "cat",
     "cuckoo",
     "woof",
+    // modern objects & food (loanword-heavy)
+    "computer",
+    "sushi",
     // actions
     "eat",
     "drink",

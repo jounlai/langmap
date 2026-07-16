@@ -20,5 +20,12 @@ Twelve family-domain researchers (each finding then reviewed by a per-domain adv
 - The **mainstream native/calqued word** for computer where that is what people say (电脑, ordinateur, dator, رایانه, tölva, bilgisayar, கணினி, Tibetan གློག་ཀླད, Korean 콤퓨터).
 - **No invention**: the unsourceable long tail (much of the Americas, the Pacific, and small African/Austronesian languages) was skipped — a gap, not a guess. These stay `partial`.
 
+## Correctness review pass (2026-07-17)
+A second rally re-audited every published cell by family domain (adversarial verify per finding). The data held up well — only **4 fixes, 0 removes, 1 rejected**:
+- Icelandic sushi ˈsuːʃi → **ˈsuːsɪ** (Icelandic has no /ʃ/, and unstressed -i → [ɪ]).
+- Persian computer → the mainstream loan **کامپیوتر** with corrected IPA; Jin (cjy) computer tone fix; Lingala computer **odinatɛ́lɛ**.
+- Rejected: a proposal to simplify Xiang (hsn) 電腦→电脑 — the atlas correctly writes the non-Mandarin topolects (Min/Wu/Hakka/Xiang) in **traditional** characters, so 電腦 is right and the adversarial verifier protected it.
+The many look-alike /ˈsuʃi/ sushi cells were checked and kept: for a simple CV·CV loanword most languages genuinely realise it that way, and the reviewers differentiated where it matters (Australian sʉːʃiː, Swedish sʉːɧi, seseo /susi/, Greek /susi/).
+
 ## Final
 computer **355** cells, sushi **294** cells. All data guards + IPA lint clean. WORD_LIST 27→29; caches bumped. Closed.

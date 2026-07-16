@@ -190,7 +190,7 @@ WORDS.sushi = {
     "id": ["susyi", "su.ʃi"],
     "ig": ["sushi", "suʃi"],
     "ilo": ["sushi", "ˈsuʃi"],
-    "is": ["sushi", "ˈsuːʃɪ"],
+    "is": ["sushi", "ˈsuːsɪ"],
     "it": ["sushi", "ˈsuʃ.ʃi"],
     "ja": ["寿司", "sɨᵝɕi"],
     "ja_aom": ["寿司", "sɨsɨ"],

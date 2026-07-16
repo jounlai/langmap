@@ -1,0 +1,24 @@
+# Wordmap review #420 — computer & sushi (two new words, #28 / #29)
+
+## Why this review exists
+Two new WordMap concepts were requested: **computer** and **sushi**. A first pass (by a different assistant) built them as a rigorous **rich-cell** dataset — every cell an object carrying `form`, `ipa`, `source{url,accessed}`, `transcriptionLevel`, evidence flags and historical-relationship markers (≈ analogue / ≙ descriptive coinage), backed by ~+439 lines of changes across nine core files (validator, wordmap.html UI, lint, build tools, CONTRIBUTING). That draft correctly refused the initial "1,113 uniform /suʃi/" coverage and shrank to a **verified partial** (computer 54, sushi 47) — but stopped there, review left OPEN.
+
+## Decision (owner-approved 2026-07-17)
+The rich-cell architecture required a sourced URL per cell, which cannot scale to broad coverage and diverges from the atlas's standard `[surface, ipa]` cells. The owner's guidance — "sushi is a loanword, so most countries use *sushi* but with their own pronunciation; historical languages had no such thing, so use a fitting analogue or a period-concept description" — is exactly the standard partial-word approach. So, with the owner's sign-off:
+- The nine core-file changes were reverted to HEAD; the rich-cell helper was removed.
+- The two words were rewritten in the **standard partial format** (`partial: true`, plain `[surface, ipa]`), **keeping the draft's verified data** (47 + 54 cells) and its good historical analogues.
+- Coverage was then broadened by a family-domain rally.
+
+## The historical analogues (kept from the draft, extended)
+sushi and the electronic computer did not exist in antiquity, so historical cells use the era's nearest thing, not an anachronistic loan:
+- **sushi**: Ancient Greek **τάριχος** (salted/preserved fish), Latin **salsāmentum**, Old/Middle/Edo Japanese **鮓 / 鮨** (the ancestral narezushi), Old/Middle Chinese **鮓**, Golden-Age Spanish **escabeche** (marinated fish), Sanskrit **शुष्कमत्स्य** (dried fish).
+- **computer**: Latin **calculātor** (a human reckoner), Ancient Greek **ἄβαξ** (abacus), Old/Heian Japanese **算木** (counting rods) and Middle/Edo **算盤** (soroban), Sanskrit/Pali **गणक / gaṇaka**, Quranic Arabic **حَاسِبِينَ** (reckoners), Old/Middle Chinese **籌 / 算盤**, Classical Tibetan **རྩིས་པ**.
+
+## Expansion rally
+Twelve family-domain researchers (each finding then reviewed by a per-domain adversarial verifier; every applied cell passed `tools/cuckoo_ipa_lint.js`): **+247 sushi, +301 computer**. Principles enforced:
+- Loanword in the local script with **that language's own pronunciation** — never a uniform /suʃi/. Differentiated where real: Australian sʉːʃiː, Swedish sʉːɧi, Greek σούσι /susi/, seseo Spanish /susi/, Cyrillic суши/сушы, Sinitic topolects with per-lect Chao tones (壽司/寿司, 電腦/电脑).
+- The **mainstream native/calqued word** for computer where that is what people say (电脑, ordinateur, dator, رایانه, tölva, bilgisayar, கணினி, Tibetan གློག་ཀླད, Korean 콤퓨터).
+- **No invention**: the unsourceable long tail (much of the Americas, the Pacific, and small African/Austronesian languages) was skipped — a gap, not a guess. These stay `partial`.
+
+## Final
+computer **355** cells, sushi **294** cells. All data guards + IPA lint clean. WORD_LIST 27→29; caches bumped. Closed.

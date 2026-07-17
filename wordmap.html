@@ -5443,8 +5443,14 @@
             const openTrivia = triviaModal && triviaModal.classList.contains('visible')
                 ? triviaModal.dataset.articleId : '';
             if (openTrivia) params.set('trivia', openTrivia);
-            // Pass 32: persist compare list
-            if (window.__compareList && window.__compareList.length > 0) {
+            // Pass 32: persist the compare list — but only while the panel is
+            // open, mirroring how `lang`/`trivia` track their modals. Closing
+            // the panel then drops `cmp` from the URL so a reload doesn't
+            // resurrect it; the selection itself is still kept in localStorage
+            // for the FAB to reopen.
+            const comparePanelEl = document.getElementById('compare-panel');
+            const compareOpen = comparePanelEl && comparePanelEl.classList.contains('visible');
+            if (compareOpen && window.__compareList && window.__compareList.length > 0) {
                 params.set('cmp', window.__compareList.join(','));
             }
             // Preserve the filter param owned by lang-filter.js
@@ -7277,10 +7283,14 @@
             // Update title text per current UI lang
             const t = panel.querySelector('.compare-title'); if (t) t.textContent = compareT('title');
             const c = panel.querySelector('.compare-clear'); if (c) c.textContent = compareT('clear');
+            // Reflect the now-open panel in the URL (writes `cmp`).
+            try { updateHash(); } catch (e) {}
         }
         function closeComparePanel() {
             const panel = document.getElementById('compare-panel');
             if (panel) panel.classList.remove('visible');
+            // Drop `cmp` from the URL now that the panel is closed.
+            try { updateHash(); } catch (e) {}
         }
         function renderCompareIfOpen() {
             const panel = document.getElementById('compare-panel');

@@ -27,5 +27,11 @@ A second rally re-audited every published cell by family domain (adversarial ver
 - Rejected: a proposal to simplify Xiang (hsn) 電腦→电脑 — the atlas correctly writes the non-Mandarin topolects (Min/Wu/Hakka/Xiang) in **traditional** characters, so 電腦 is right and the adversarial verifier protected it.
 The many look-alike /ˈsuʃi/ sushi cells were checked and kept: for a simple CV·CV loanword most languages genuinely realise it that way, and the reviewers differentiated where it matters (Australian sʉːʃiː, Swedish sʉːɧi, seseo /susi/, Greek /susi/).
 
+## Historical analogues, expanded (2026-07-17)
+The owner noted that sushi's true ancestor is **narezushi** — fish lacto-fermented packed in cooked grain — and asked to deepen the historical row. A dedicated rally (three regional researchers + adversarial verify) added **27** more historical cells, prioritising the genuine fermented-fish-with-grain dish where it existed and falling back to attested salted/preserved fish otherwise; barely-attested corpora were skipped, and one anachronism was rejected (Classical Armenian's salt-fish word is actually Middle Armenian):
+- **The narezushi belt (its real origin):** Old Khmer **ប្រហុក** (prahok), Old Thai (Sukhothai) **ปลาร้า** (pla ra), Old Tagalog **ᜊᜓᜇᜓ** (buro, i.e. *burong isda*, in Baybayin), Old Malay **pekasam**, Old Javanese **ḍeṅ**, Old Sundanese **tarasi**, Old Burmese **ငါးပိ** (ngapi), Chữ Nôm **𩻐** (mắm), Sino-Vietnamese **鮓**, Middle/Goryeo Korean **젓 / 醢** (jeot / hae).
+- **Salted / preserved fish elsewhere:** Old Norse **skreið** (stockfish), Middle/Early-Modern English & German **stokfish / Stockfisch**, Old French **harenc sor** & Classical French **hareng saur** (salt herring), Old Spanish **cecial**, Old Italian **tonnina** (salt tuna), Ottoman Turkish **لاكردا** (lakerda), Classical Persian **شورماهی**, Mishnaic Hebrew **טָרִית**, Akkadian **šiqqu**, Coptic **ⲧⲁⲣⲓⲭⲓⲟⲛ**, Katharevousa Greek **τάριχος**.
+(The Chữ Nôm 𩻐 sits in CJK Ext-B; it was added to the self-hosted BabelStone-Han subset so it renders instead of tofu.)
+
 ## Final
-computer **355** cells, sushi **294** cells. All data guards + IPA lint clean. WORD_LIST 27→29; caches bumped. Closed.
+computer **355** cells, sushi **321** cells. All data guards + IPA lint clean. WORD_LIST 27→29; caches bumped. Closed.

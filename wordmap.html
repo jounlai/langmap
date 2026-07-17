@@ -132,6 +132,40 @@
                 U+2BC46, U+2D4E8, U+2D72F, U+2D75A, U+2DC3D,
                 U+29ED0;
         }
+        /* Pallava-descended Brahmic scripts (owner 2026-07-17). The font chain
+           below names "Noto Sans Javanese/Brahmi/Tagalog/…", but those are
+           SYSTEM fonts — almost no device ships them, so kaw (ꦄꦏꦸ), otl
+           Baybayin (ᜊᜓᜇᜓ), Brahmi (kho/txb/xto), khb and blt all rendered as
+           tofu. font_coverage_check only audited the astral plane, so it never
+           caught the BMP ones. Self-hosted Noto subsets, cut to exactly the
+           codepoints the data uses (~37 KB total) and scoped by unicode-range
+           so each loads only when its script appears. Layout features are kept
+           — Brahmic needs GSUB/GPOS for conjuncts and mark placement. */
+        @font-face {
+            font-family: 'Brahmic Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansJavanese-subset.woff2') format('woff2');
+            unicode-range: U+A980-A9DF;      /* Javanese — kaw */
+        }
+        @font-face {
+            font-family: 'Brahmic Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansBrahmi-subset.woff2') format('woff2');
+            unicode-range: U+11000-1107F;    /* Brahmi — kho, txb, xto */
+        }
+        @font-face {
+            font-family: 'Brahmic Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansTagalog-subset.woff2') format('woff2');
+            unicode-range: U+1700-171F;      /* Tagalog/Baybayin — otl */
+        }
+        @font-face {
+            font-family: 'Brahmic Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansNewTaiLue-subset.woff2') format('woff2');
+            unicode-range: U+1980-19DF;      /* New Tai Lue — khb */
+        }
+        @font-face {
+            font-family: 'Brahmic Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansTaiViet-subset.woff2') format('woff2');
+            unicode-range: U+AA80-AADF;      /* Tai Viet — blt */
+        }
         /* Old Hangul Jamo (conjoining, used in Middle Korean ko_mid and
            Early-Modern Korean ko_em) — ᆞ arae-a, ᆡ arae-a-i, ᅀ pansiot,
            ᄉ ᄒ ᄃ etc. Google Fonts' default Noto Serif KR subset omits
@@ -519,6 +553,7 @@
                    for any chars outside their scope. */
                 "Noto Serif KR Old Jamo",
                 "Nom Serif Subset",
+                "Brahmic Subset",
                 "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
@@ -816,6 +851,7 @@
                    Noto Serif chain. */
                 "Noto Serif KR Old Jamo",
                 "Nom Serif Subset",
+                "Brahmic Subset",
                 "Nôm Na Tống", "HAN NOM A", "HAN NOM B", "HanaMinA", "HanaMinB",
                 "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",

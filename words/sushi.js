@@ -343,7 +343,7 @@ WORDS.sushi = {
     "vec": ["sushi", "ˈsuʃi"],
     "vi": ["sushi", "su˧ si˧"],
     "vi_han": ["鮓", "ʈaː˧˩˧"],
-    "vi_nom": ["𩻐 (mắm)", "mǎm"],
+    "vi_nom": ["𩻐 (mắm)", "mam˧˦"],
     "vmf": ["Sushi", "ˈsuʃi"],
     "wa": ["sushi", "ˈsuʃi"],
     "wae": ["Sushi", "ˈsuʃi"],

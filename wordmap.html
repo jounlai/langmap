@@ -1135,7 +1135,7 @@
             /* Top-heavy padding mirrors the desktop rule but tighter
                horizontally — gives the first line of each cell breathing
                room from the row-top border on iOS Safari (Hiragino). */
-            .compare-table th, .compare-table td { padding: 8px 6px 4px; font-size: 12px; }
+            .compare-table th, .compare-table td { padding: 8px 6px 4px; font-size: 14px; }
             .compare-fab {
                 padding: 8px 12px;
                 /* Sit near the bottom edge (owner 2026-07-12: move it lower,
@@ -1390,7 +1390,15 @@
         @media (max-width: 480px) {
             #info-content { padding: 14px 16px; padding-bottom: max(20px, env(safe-area-inset-bottom)); }
             .lang-info-panel h2 { font-size: 16px; }
-            .lang-info-panel td:first-child { width: 70px; font-size: 11px; }
+            /* Match the desktop panel's type size on mobile (owner 2026-07-17):
+               the label column had shrunk to 11px and the word-form / IPA
+               columns read small next to the PC modal. Keep the narrower 70px
+               label width, but pin every column to 15px so the modal table
+               matches PC. */
+            .lang-info-panel td:first-child { width: 70px; font-size: 15px; }
+            .lang-info-panel table td,
+            .lang-info-panel td .wm-form,
+            .lang-info-panel td .wm-ipa { font-size: 15px; }
         }
 
         /* --- Linguistic trivia button + modal --------------------
@@ -4054,7 +4062,14 @@
                 .htmlAltitude(0.01)
                 .onGlobeClick(() => {
                     if (_labelClickedAt && Date.now() - _labelClickedAt < 500) return;
-                    document.getElementById('lang-info').classList.remove('visible');
+                    // Close through closeInfoPanel() so the URL hash drops the
+                    // `lang=` param and dataset.code is cleared. A bare
+                    // classList.remove left both behind, so a reload re-opened
+                    // the panel (owner-reported 2026-07-17). Guard: only when open.
+                    const _ip = document.getElementById('lang-info');
+                    if (_ip && _ip.classList.contains('visible') && typeof closeInfoPanel === 'function') {
+                        closeInfoPanel();
+                    }
                 });
 
             // Double-click to zoom in

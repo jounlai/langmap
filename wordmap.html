@@ -4336,6 +4336,11 @@
             // reads as "historical".
             'trm',   // Tregami — ~3.5K speakers, Nuristan
             'yag',   // Yaghnobi — ~13K speakers, Yaghnob valley
+            // 2026-07-18 (owner): Modern Spoken Sanskrit is a living revival
+            // register (Saṃskṛta Bhāratī / संभाषण), not a historical stage — its
+            // HIST_DESCENDANT entry (→hi) only exempts its partial coverage from
+            // the validator. Classical `sa` stays historical; this is sa_edu.
+            'sa_edu', // Modern Spoken Sanskrit — contemporary conversational revival
         ]);
         const HIST_CODE_SET = new Set(
             Object.keys(HIST_DESCENDANT).filter(c => !LIVING_FRAGMENTARY_CODES.has(c))

@@ -3748,7 +3748,7 @@
                 const base = (uiLang === 'en' ? w.label.en : localWord + ' / ' + w.label.en);
                 // Mark a partial word (e.g. cuckoo) so the selector shows it is
                 // special — a range map, not a per-language cell.
-                opt.textContent = w.partial ? base + ' ◐' : base;
+                opt.textContent = w.partial ? base + ' 🧪' : base;
                 select.appendChild(opt);
             });
             if (curVal) select.value = curVal;
@@ -3880,7 +3880,7 @@
                 n.style.fontSize = '10px';
                 n.style.fontStyle = 'italic';
                 n.style.opacity = '0.75';
-                n.textContent = '◐ ' + note;
+                n.textContent = '🧪 ' + note;
                 wd.appendChild(n);
             }
         }

@@ -4575,6 +4575,10 @@
             maxZoom: 10,
             worldCopyJump: true,
             zoomControl: false, // we'll position it ourselves
+            // Half-level zoom (see wordmap.html): a pinch lands on 2.5/3.0/3.5…
+            // instead of a full 2× jump; +/− buttons keep a full-level step.
+            zoomSnap: 0.5,
+            zoomDelta: 1,
         });
 
         // On mobile the header + 2D/3D + gear button stack occupy ~120px
@@ -8229,7 +8233,7 @@
                     _hbtn.title = senseLabelOf(w, uiLang) || w;
                 }
             }
-            const z = parseInt(params.get('z'));
+            const z = parseFloat(params.get('z'));  // may be a half-level (zoomSnap 0.5)
             const latStr = params.get('lat'); const lngStr = params.get('lng');
             const lat = parseFloat(latStr); const lng = parseFloat(lngStr);
             if (Number.isFinite(z) && Number.isFinite(lat) && Number.isFinite(lng)) {

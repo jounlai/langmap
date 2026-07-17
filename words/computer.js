@@ -189,7 +189,7 @@ WORDS.computer = {
     "gu": ["કમ્પ્યુટર", "kəmpjuʈəɾ"],
     "gv": ["co-earrooder", "koˈjaːrudər"],
     "ha": ["kwamfuta", "kʷamfuta"],
-    "hak_cn": ["电脑", "tʰiɛn˥˧-˥˥ nau˧˩"],
+    "hak_cn": ["电脑", "tʰiɛn˥˥nau˧˩"],
     "hak_hl": ["電腦", "tʰien˧˧no˨˦"],
     "hak_tw": ["電腦", "tʰien˥˥no˧˩"],
     "haw": ["lolouila", "lolouˈila"],

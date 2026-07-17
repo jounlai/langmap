@@ -1063,8 +1063,8 @@
                 Georgia, "Times New Roman", serif;
         }
         .lang-info-panel table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
-        .lang-info-panel td { padding: 3px 0; vertical-align: top; }
-        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; white-space: nowrap; }
+        .lang-info-panel td { padding: 4px 10px 4px 0; vertical-align: middle; }
+        .lang-info-panel td:first-child { font-weight: 600; color: #555; width: 90px; white-space: nowrap; padding-right: 14px; }
         .lang-info-panel .desc { color: #444; font-size: 14px; line-height: 1.6; }
         /* Audit Task 129: RTL/bidi isolation for Arabic/Hebrew/Perso-Arabic
            word cells. unicode-bidi:isolate prevents RTL text from reordering
@@ -1113,10 +1113,12 @@
                 serif;
         }
         .wm-ipa  { unicode-bidi: isolate; direction: ltr; }
-        /* Info-panel word table: prominent word forms, readable IPA (balanced
-           hierarchy). Scoped to table cells so the native-name span is safe. */
+        /* Info-panel table sized to match WordMap (owner 2026-07-18): 15px
+           across the cells, IPA no longer shrunk to 12.5. The Han reading form
+           keeps its slightly larger 16px headword size. */
+        .lang-info-panel table td { font-size: 15px; }
         .lang-info-panel td .wm-form { font-size: 16px; }
-        .lang-info-panel td .wm-ipa  { font-size: 12.5px; }
+        .lang-info-panel td .wm-ipa  { font-size: 15px; color: #666; }
         /* Audit Task 101: keyboard focus for inline evidence markers */
         .lang-info-panel .ev-marker:focus-visible {
             outline: 2px solid #1a73e8;
@@ -1707,7 +1709,9 @@
         @media (max-width: 480px) {
             #info-content { padding: 14px 16px; padding-bottom: max(20px, env(safe-area-inset-bottom)); }
             .lang-info-panel h2 { font-size: 16px; }
-            .lang-info-panel td:first-child { width: 70px; font-size: 11px; }
+            .lang-info-panel td:first-child { width: 70px; font-size: 15px; }
+            .lang-info-panel table td,
+            .lang-info-panel td .wm-ipa { font-size: 15px; }
         }
 
         /* --- Linguistic trivia button + modal --------------------

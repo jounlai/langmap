@@ -625,7 +625,7 @@ WORDS.love = {
     ko_gor: ["—", "—"],
     ko_em: ["ᄉᆞ랑", "saɾaŋ"],
     vi_han: ["愛", "ai˧˥"],
-    vi_nom: ["𢞅", "iəw"],
+    vi_nom: ["𢞅", "iəw˧"],
     eo: ["amo", "ˈamo"],
     vo: ["löf", "løf"],
     ia: ["amor", "amor"],

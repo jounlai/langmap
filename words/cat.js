@@ -618,7 +618,7 @@ WORDS.cat = {
     ko_gor: ["—", "—"],
     ko_em: ["괴앙이", "kweaŋi"],
     vi_han: ["貓", "miew˧˧"],
-    vi_nom: ["猫", "mɛw"],
+    vi_nom: ["猫", "mɛw˨˩"],
     eo: ["kato", "ˈkato"],
     vo: ["kat", "kat"],
     ia: ["catto", "katto"],

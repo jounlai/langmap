@@ -373,7 +373,7 @@ WORDS.computer = {
     "ur": ["کمپیوٹر", "kəm.pjuː.ʈəɾ"],
     "uz": ["kompyuter", "kompjuˈter"],
     "vec": ["computer", "komˈpjuter"],
-    "vi": ["máy tính", "maj˧˦ tïŋ˧˦"],
+    "vi": ["máy tính", "maj˧˥ tïŋ˧˥"],
     "vi_han": ["算盤", "twaːn˧˥ɓaːn˨˩"],
     "vi_s": ["máy tính", "maj˦˥ tɨn˦˥"],
     "vmf": ["Computer", "kɔmˈpjuːdɐ"],

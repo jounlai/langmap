@@ -618,7 +618,7 @@ WORDS.hand = {
     ko_gor: ["遜", "*swon"],
     ko_em: ["손", "son"],
     vi_han: ["手", "tʰu˧˩˧"],
-    vi_nom: ["𡬶", "taj"],
+    vi_nom: ["𢬣", "taj˧"],
     eo: ["mano", "ˈmano"],
     vo: ["nam", "nam"],
     ia: ["mano", "mano"],

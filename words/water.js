@@ -625,7 +625,7 @@ WORDS.water = {
     ko_gor: ["沒", "*mwol"],
     ko_em: ["믈", "mɯl"],
     vi_han: ["水", "tʰwi˧˩˧"],
-    vi_nom: ["渃", "nɨək"],
+    vi_nom: ["渃", "nɨək˧˥"],
     eo: ["akvo", "ˈakvo"],
     vo: ["vat", "vat"],
     ia: ["aqua", "akwa"],

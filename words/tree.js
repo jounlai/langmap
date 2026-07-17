@@ -618,7 +618,7 @@ WORDS.tree = {
     ko_gor: ["南記", "*namki"],
     ko_em: ["나모", "namo"],
     vi_han: ["木", "mok˨˩"],
-    vi_nom: ["𣘃", "kəj"],
+    vi_nom: ["𣘃", "kəj˧"],
     eo: ["arbo", "ˈarbo"],
     vo: ["bim", "bim"],
     ia: ["arbore", "arbore"],

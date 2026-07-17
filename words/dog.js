@@ -618,7 +618,7 @@ WORDS.dog = {
     ko_gor: ["家稀", "*kahi"],
     ko_em: ["개", "kɛ"],
     vi_han: ["犬", "xwien˧˩˧"],
-    vi_nom: ["𤝞", "tɕɔ"],
+    vi_nom: ["㹥", "tɕɔ˧˥"],
     eo: ["hundo", "ˈhundo"],
     vo: ["dog", "doɡ"],
     ia: ["can", "kan"],

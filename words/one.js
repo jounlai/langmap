@@ -624,7 +624,7 @@ WORDS.one = {
     ko_gor: ["河屯", "*hatwun"],
     ko_em: ["하나", "hana"],
     vi_han: ["一", "ɲət˧˥"],
-    vi_nom: ["𠬠", "mot"],
+    vi_nom: ["𠬠", "mot˨˩"],
     eo: ["unu", "ˈunu"],
     vo: ["bal", "bal"],
     ia: ["un", "un"],

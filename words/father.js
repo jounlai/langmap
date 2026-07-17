@@ -618,7 +618,7 @@ WORDS.father = {
     ko_gor: ["—", "—"],
     ko_em: ["아비", "abi"],
     vi_han: ["父", "fu˨˩˨"],
-    vi_nom: ["𤙗", "ɓo"],
+    vi_nom: ["布", "ɓo˧˥"],
     eo: ["patro", "ˈpatro"],
     vo: ["fat", "fat"],
     ia: ["patre", "patre"],

@@ -618,7 +618,7 @@ WORDS.heart = {
     ko_gor: ["—", "—"],
     ko_em: ["마음", "maɯm"],
     vi_han: ["心", "təm˧˧"],
-    vi_nom: ["𢣐𢞂", "tɕaj tim"],
+    vi_nom: ["𢁑𢙭", "tɕaːj˧˥ tim˧"],
     eo: ["koro", "ˈkoro"],
     vo: ["lad", "lad"],
     ia: ["corde", "kɔrde"],

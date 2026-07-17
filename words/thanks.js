@@ -618,7 +618,7 @@ WORDS.thanks = {
     ko_gor: ["—", "—"],
     ko_em: ["고맙소이다", "komap.so.i.da"],
     vi_han: ["謝", "ta˨˩˨"],
-    vi_nom: ["感恩", "kaːm əːn"],
+    vi_nom: ["感恩", "kaːm˧˩˧ əːn˧"],
     eo: ["dankon", "ˈdankon"],
     vo: ["danö", "danø"],
     ia: ["gratias", "ɡratias"],

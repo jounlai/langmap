@@ -624,7 +624,7 @@ WORDS.fire = {
     ko_gor: ["孛", "*pwol"],
     ko_em: ["블", "pɯl"],
     vi_han: ["火", "hwa˧˩˧"],
-    vi_nom: ["𤏬", "lɨə"],
+    vi_nom: ["焒", "lɨə˧˩˧"],
     eo: ["fajro", "ˈfajro"],
     vo: ["fil", "fil"],
     ia: ["foco", "fɔko"],

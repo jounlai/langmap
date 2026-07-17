@@ -618,7 +618,7 @@ WORDS.drink = {
     ko_gor: ["—", "—"],
     ko_em: ["마시다", "maɕida"],
     vi_han: ["飲", "əm˧˩˧"],
-    vi_nom: ["㕵", "uəŋ"],
+    vi_nom: ["㕵", "uəŋ˧˥"],
     eo: ["trinki", "ˈtrinki"],
     vo: ["drinön", "drinøn"],
     ia: ["biber", "biber"],

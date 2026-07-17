@@ -624,7 +624,7 @@ WORDS.mother = {
     ko_gor: ["—", "—"],
     ko_em: ["어미", "ʌmi"],
     vi_han: ["母", "məw˧˥"],
-    vi_nom: ["𡞕", "mɛ"],
+    vi_nom: ["媄", "mɛ˨˩"],
     eo: ["patrino", "paˈtrino"],
     vo: ["mot", "mot"],
     ia: ["matre", "matre"],

@@ -618,7 +618,7 @@ WORDS.good = {
     ko_gor: ["—", "—"],
     ko_em: ["됴타", "tjotʰa"],
     vi_han: ["善", "tʰien˨˩˨"],
-    vi_nom: ["卒", "tot"],
+    vi_nom: ["卒", "tot˧˥"],
     eo: ["bona", "ˈbona"],
     vo: ["gudik", "ɡudik"],
     ia: ["bon", "bon"],

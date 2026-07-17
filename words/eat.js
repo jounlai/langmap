@@ -618,7 +618,7 @@ WORDS.eat = {
     ko_gor: ["—", "—"],
     ko_em: ["먹다", "mʌk̚t͈a"],
     vi_han: ["食", "tʰɨk˨˩"],
-    vi_nom: ["𫗒", "an"],
+    vi_nom: ["𫗒", "an˧"],
     eo: ["manĝi", "ˈmandʒi"],
     vo: ["fidön", "fidøn"],
     ia: ["manducar", "mandukar"],

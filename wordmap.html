@@ -107,7 +107,10 @@
             font-weight: 400;
             font-display: swap;
             src: url('fonts/HanaMinB-NomFill-subset.woff2') format('woff2');
-            unicode-range: U+228D0, U+24657;
+            /* Chữ Nôm Ext-B glyphs Nom Na Tống lacks: 𢬣 tay (hand), 𢙭 tim
+               (heart), 𢁋 trăng (moon). Replaced U+228D0/U+24657, which the
+               2026-07-17 Nôm rally retired as misreadings. */
+            unicode-range: U+22B23, U+2266D, U+2204B;
         }
         /* Rare-CJK glyphs common device fonts lack — Zhuang Sawndip (古壮字) in
            CJK Ext-B/E/F (𭓨 house, 𭝚 love, 𫱆 mother, owner 2026-07-15), plus

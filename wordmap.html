@@ -2731,7 +2731,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=32"></script>
+    <script src="lang-filter.js?v=33"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~200 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -3091,7 +3091,7 @@
             styles:   124,
             data:      235,
             metaI18n:  15,
-            filter:    32,
+            filter:    33,
             names:   122,
             meta:     212,
             trivia:   27,
@@ -5840,6 +5840,10 @@
                 .then(() => inject(assetUrl('meta_i18n_coverage.js', 'metaI18nCoverage')));
             return _metaI18nPromise;
         }
+        // Exposed so lang-filter.js can pull the family-name translator on
+        // demand (it lazy-loads here, so a non-English filter would otherwise
+        // show family chips in English).
+        window.loadMetaI18n = loadMetaI18n;
         function loadMeta() {
             if (_metaLoadPromise) return _metaLoadPromise;
             _metaLoadPromise = new Promise((resolve, reject) => {

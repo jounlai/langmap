@@ -143,6 +143,13 @@
         <nav class="month-nav">Months: <strong>2026-07</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-07-17 — Word Map filter: language-family names now localise</div>
+            <ul>
+                <li>In a non-English interface the Word Map's filter showed the language-family chips (Indo-European, Sino-Tibetan, …) in English while everything around them was translated. The translator for family names rides along with the map's metadata, which the Word Map loads lazily — so when the filter opened first, the names had nothing to translate against. The filter now pulls that table in the background and re-labels the chips, so they read インド・ヨーロッパ語族 / シナ・チベット語族 / etc. as expected.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-07-17 — Word Map: two new words, <strong>computer</strong> and <strong>sushi</strong></div>
             <ul>
                 <li>Two modern concepts join the map. <strong>Sushi</strong> is a loanword the world took from Japanese, so it is <em>sushi</em> almost everywhere — but each language says it its own way: Australian <em>sʉːʃiː</em>, Swedish <em>sʉːɧi</em>, Greek <em>σούσι</em>, seseo Spanish <em>/susi/</em>, Cyrillic <em>суши</em>, and the Chinese topolects read 壽司 with their own tones. <strong>Computer</strong> is split between languages that borrowed it (<em>computer / компьютер / 컴퓨터</em>) and those that built their own (<em>电脑, ordinateur, dator, رایانه, tölva, bilgisayar, கணினி</em>, Tibetan <em>གློག་ཀླད</em>).</li>

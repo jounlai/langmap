@@ -1399,6 +1399,30 @@
         });
     }
 
+    // Family-chip labels localize via meta_i18n_ext.js (window.translateMetaSmart).
+    // The Han Map loads that file eagerly, but the Word Map lazy-loads it, so when
+    // the filter panel first renders on a non-English UI the family names fall back
+    // to English. Load the file on demand (reusing the page's own versioned loader
+    // if it exposed one) so the family chips can be re-localized.
+    let _metaI18nExtPromise = null;
+    function ensureMetaI18n() {
+        if (typeof window.translateMetaSmart === 'function') return Promise.resolve();
+        if (_metaI18nExtPromise) return _metaI18nExtPromise;
+        if (typeof window.loadMetaI18n === 'function') {
+            _metaI18nExtPromise = Promise.resolve(window.loadMetaI18n());
+            return _metaI18nExtPromise;
+        }
+        _metaI18nExtPromise = new Promise((resolve) => {
+            const ver = (window.WM_ASSET_VERSION && window.WM_ASSET_VERSION.metaI18n);
+            const s = document.createElement('script');
+            s.src = 'meta_i18n_ext.js' + (ver ? '?v=' + ver : '');
+            s.async = false;
+            s.onload = s.onerror = () => resolve();
+            document.head.appendChild(s);
+        });
+        return _metaI18nExtPromise;
+    }
+
     function init() {
         if (typeof LANG_DATA === 'undefined') return setTimeout(init, 200);
         // Hydrate filterState from URL hash IMMEDIATELY (synchronous; doesn't
@@ -1490,8 +1514,17 @@
             }
             rebuildPanel();
 
+            // If the UI is non-English but the family translator hasn't loaded
+            // yet (Word Map lazy-loads it), pull it in the background and rebuild
+            // so the family chips switch from English to the localized names.
+            function refreshFamilyI18n() {
+                if (getUiLang() === 'en' || typeof window.translateMetaSmart === 'function') return;
+                ensureMetaI18n().then(() => { if (metaReady) rebuildPanel(); });
+            }
+            refreshFamilyI18n();
+
             // Swap the on-uichange handler to do a full panel rebuild
-            onUiChange = () => { renderFab(); rebuildPanel(); refresh(); };
+            onUiChange = () => { renderFab(); rebuildPanel(); refresh(); refreshFamilyI18n(); };
 
             // Era change → re-enumerate chip counts (chips themselves don't
             // change, but counts do; 0-count chips will become disabled).

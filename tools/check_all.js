@@ -62,12 +62,30 @@ line('speaker-count house style', num(s, /non-conforming: (\d+)/));
 s = run('font_coverage_check.js');
 line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/));
 
+// NOTE: tools/script_family_check.js (surface writing system vs the rest of the
+// corpus) is deliberately NOT wired in yet — it currently reports 6 real
+// deviations (cuckoo haj/kry/lzz/ojp/yug, i khb) that need their native-script
+// forms researched. Wire it in as a blocking guard once those are fixed.
+
+// Cache-version drift: wordmap.html serves data as `?v=WM_ASSET_VERSION[key]`.
+// Editing the data without bumping the key ships nothing — browsers keep the
+// old copy, and every other guard still passes. A whole day of Chữ Nôm /
+// Chinese-script / IPA fixes was invisible this way (owner 2026-07-17).
+s = run('asset_version_check.js --check');
+line('asset cache-version freshness', num(s, /violations: (\d+)/));
+
 // Generated bundles: wordmap.html loads word_labels.js and lang_names/<ui>.js
 // instead of the full per-word and per-UI tables. If a label, definition or
 // language name changes, those files must be rebuilt or the site serves the
 // old text with no other symptom.
 s = run('build_word_labels.js --check');
 line('word_labels.js freshness', num(s, /stale: (\d+)/));
+
+// docs/words/LANG_CODES.md is generated from LANG_DATA/LANG_NAMES/meta. It used
+// to stamp the run date, so it was permanently dirty and its real diffs went
+// uncommitted (owner 2026-07-17). The stamp is gone; this keeps it in sync.
+s = cp.execSync(`node ${path.join(__dirname, 'generate_lang_codes_md.mjs')} --check`, { encoding: 'utf8' });
+line('LANG_CODES.md freshness', num(s, /stale: (\d+)/));
 
 s = run('build_lang_names.js --check');
 line('lang_names/ freshness', num(s, /stale: (\d+)/));

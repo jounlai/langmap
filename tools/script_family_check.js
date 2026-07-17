@@ -108,7 +108,12 @@ for (const wid of audited) {
     if (!refScript) continue;                       // no evidence elsewhere
     const refTotal = Object.values(ref).reduce((a, b) => a + b, 0);
     const refShare = ref[refScript] / refTotal;
-    if (refShare < 0.8) continue;                   // corpus itself is mixed — no rule
+    // Only enforce where the corpus is UNANIMOUS for this code. Many codes mix
+    // scripts on purpose — za (Latin + Sawndip 古壮字), zkt (Latin + Khitan
+    // small script), ja_kanbun / ojp (Han + kana), blt, kho … — and a majority
+    // rule flags those deliberate cells as errors. The real bugs this catches
+    // (akk 100% cuneiform, kaw 100% Javanese) are unanimous, so demand that.
+    if (refShare < 1 || refTotal < 4) continue;
 
     for (const surf of new Set(perWord[wid][code] || [])) {
       if (surf === '—' || !surf.trim()) continue;

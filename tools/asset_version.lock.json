@@ -1,0 +1,57 @@
+{
+  "words": {
+    "version": 71,
+    "hash": "542b5e7b7a00dfe8",
+    "files": 30
+  },
+  "labels": {
+    "version": 4,
+    "hash": "d215b8027ab6b21f",
+    "files": 1
+  },
+  "data": {
+    "version": 235,
+    "hash": "108b43a2153f7cdc",
+    "files": 1
+  },
+  "filter": {
+    "version": 33,
+    "hash": "5bd63cdc044d7069",
+    "files": 1
+  },
+  "styles": {
+    "version": 124,
+    "hash": "b5b95f15f9f157a5",
+    "files": 1
+  },
+  "names": {
+    "version": 122,
+    "hash": "40b6b936920dca4c",
+    "files": 19
+  },
+  "meta": {
+    "version": 212,
+    "hash": "85c8e29b76c6d09e",
+    "files": 1
+  },
+  "trivia": {
+    "version": 27,
+    "hash": "8cd9d34d811385f5",
+    "files": 1
+  },
+  "metaI18n": {
+    "version": 15,
+    "hash": "e575def945b1aae8",
+    "files": 1
+  },
+  "metaI18nCoverage": {
+    "version": 10,
+    "hash": "15bfcda5e2d5847e",
+    "files": 1
+  },
+  "triviaI18n": {
+    "version": 4,
+    "hash": "2c3ac92e61479aaa",
+    "files": 17
+  }
+}

@@ -790,9 +790,11 @@
            column uses the panel's full width instead of bunching at the left
            (owner 2026-07-17). The table is a uniform two columns — label |
            value — so meta rows (family, speakers, …) also span the full width. */
-        .lang-info-panel .word-cell { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-        .lang-info-panel .word-cell-main { display: block; min-width: 0; }
-        .lang-info-panel .word-cell .wm-ipa { flex: 0 0 auto; white-space: nowrap; text-align: right; }
+        /* Word rows keep the surface form and its IPA together on one line
+           (form then /IPA/); the alt-script line, when present, drops beneath.
+           The table is a uniform two columns — label | value — so meta rows
+           (family, speakers, …) also get the full-width value column. */
+        .lang-info-panel td .wm-ipa { margin-left: 8px; }
         .lang-info-panel .desc { color: #444; font-size: 14px; line-height: 1.6; }
         /* Audit Task 129: RTL/bidi isolation for Arabic/Hebrew/Perso-Arabic
            word cells. unicode-bidi:isolate prevents RTL text from reordering
@@ -6643,7 +6645,7 @@
                         // Audit Task 129: wrap word in dir="auto" + bidi
                         // isolation so RTL forms (Arabic/Hebrew/Perso-Arabic)
                         // don't reorder adjacent slashes/markers; IPA forced LTR.
-                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><div class="word-cell"><span class="word-cell-main"><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</span><span class="wm-ipa" style="${ipaStyle}">/${escapeHtml(entry[1])}/</span></div></td></tr>`;
+                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark} <span class="wm-ipa" style="${ipaStyle}">/${escapeHtml(entry[1])}/</span>${altLine}</td></tr>`;
                     }
                 }
             }

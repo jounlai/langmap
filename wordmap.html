@@ -6134,8 +6134,14 @@
             if (typeof n !== 'number' || !isFinite(n)) return String(n);
             if (n === 0) return '0';
             const trim = (v, p) => {
-                const s = (Number.isInteger(v) ? String(v) : v.toFixed(p).replace(/\.?0+$/, ''));
-                return s;
+                let s = (Number.isInteger(v) ? String(v) : v.toFixed(p).replace(/\.?0+$/, ''));
+                // Comma-group the integer part so a large 万/億 multiplier reads
+                // "2,000万", not "2000万" (owner 2026-07-18). Latin M/B multipliers
+                // are always < 1000, so this leaves them untouched.
+                const dot = s.indexOf('.');
+                const int = dot < 0 ? s : s.slice(0, dot);
+                const frac = dot < 0 ? '' : s.slice(dot);
+                return int.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + frac;
             };
             if (ui === 'ja') {
                 if (n >= 1_0000_0000) return trim(n / 1_0000_0000, 2) + '億';
@@ -6178,6 +6184,28 @@
                 mainStr = formatSpeakerNumber(sc.total, ui);
             }
             return mainStr;
+        }
+
+        // Localize a legacy prose speakers figure ("~85–100K", "~20M") for the
+        // CJK UIs whose formatSpeakerNumber uses 万/億 (万-based units + comma
+        // grouping), so the ~200 rows that still carry a prose figure read like
+        // the structured ones instead of showing Latin K/M (owner 2026-07-18).
+        // Latin-script UIs keep the compact prose. Only magnitude tokens (a
+        // number immediately followed by K/M/B) are touched — years, EGIDS
+        // levels and country counts are left alone.
+        function localizeSpeakerProse(s, uiLangFull) {
+            if (typeof s !== 'string' || !s) return s;
+            const ui = (uiLangFull || 'en').split('_')[0];
+            if (ui !== 'ja' && ui !== 'ko' && ui !== 'zh' && ui !== 'yue') return s;
+            const sep = SC_RANGE_SEP[ui] || SC_RANGE_SEP.en;
+            const U = { K: 1e3, M: 1e6, B: 1e9 };
+            const val = (num, suf) => parseFloat(num) * (suf ? U[suf] : 1);
+            return s
+                .replace(/~\s*(?=\d)/g, '')   // drop the approximation tilde (structured rows show none)
+                .replace(/(\d+(?:\.\d+)?)([KMB])?\s*[–-]\s*(\d+(?:\.\d+)?)([KMB])/g,
+                    (_m, a, as, b, bs) => formatSpeakerNumber(val(a, as || bs), ui) + sep + formatSpeakerNumber(val(b, bs), ui))
+                .replace(/(\d+(?:\.\d+)?)([KMB])/g,
+                    (_m, a, suf) => formatSpeakerNumber(val(a, suf), ui));
         }
 
         // For these statuses, IPA cells are rendered in italic to signal
@@ -6438,7 +6466,7 @@
                     if (scFormatted) {
                         speakerCell = escapeHtml(scFormatted);
                     } else if (m.speakers) {
-                        speakerCell = escapeHtml(translateMeta(m.speakers));
+                        speakerCell = escapeHtml(localizeSpeakerProse(translateMeta(m.speakers), uiLang));
                     } else {
                         speakerCell = '';
                     }

@@ -8816,8 +8816,12 @@
             if (typeof n !== 'number' || !isFinite(n)) return String(n);
             if (n === 0) return '0';
             const trim = (v, p) => {
-                const s = (Number.isInteger(v) ? String(v) : v.toFixed(p).replace(/\.?0+$/, ''));
-                return s;
+                let s = (Number.isInteger(v) ? String(v) : v.toFixed(p).replace(/\.?0+$/, ''));
+                // Comma-group the integer part (2,000万 not 2000万) — see wordmap.html.
+                const dot = s.indexOf('.');
+                const int = dot < 0 ? s : s.slice(0, dot);
+                const frac = dot < 0 ? '' : s.slice(dot);
+                return int.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + frac;
             };
             if (ui === 'ja') {
                 if (n >= 1_0000_0000) return trim(n / 1_0000_0000, 2) + '億';
@@ -8860,6 +8864,22 @@
                 mainStr = formatSpeakerNumber(sc.total, ui);
             }
             return mainStr;
+        }
+
+        // Localize a legacy prose speakers figure for CJK UIs — see wordmap.html.
+        function localizeSpeakerProse(s, uiLangFull) {
+            if (typeof s !== 'string' || !s) return s;
+            const ui = (uiLangFull || 'en').split('_')[0];
+            if (ui !== 'ja' && ui !== 'ko' && ui !== 'zh' && ui !== 'yue') return s;
+            const sep = SC_RANGE_SEP[ui] || SC_RANGE_SEP.en;
+            const U = { K: 1e3, M: 1e6, B: 1e9 };
+            const val = (num, suf) => parseFloat(num) * (suf ? U[suf] : 1);
+            return s
+                .replace(/~\s*(?=\d)/g, '')
+                .replace(/(\d+(?:\.\d+)?)([KMB])?\s*[–-]\s*(\d+(?:\.\d+)?)([KMB])/g,
+                    (_m, a, as, b, bs) => formatSpeakerNumber(val(a, as || bs), ui) + sep + formatSpeakerNumber(val(b, bs), ui))
+                .replace(/(\d+(?:\.\d+)?)([KMB])/g,
+                    (_m, a, suf) => formatSpeakerNumber(val(a, suf), ui));
         }
 
         // For these statuses, IPA cells are rendered in italic to signal
@@ -9448,7 +9468,7 @@
                     if (scFormatted) {
                         speakerCell = escapeHtml(scFormatted);
                     } else if (m.speakers) {
-                        speakerCell = escapeHtml(translateMeta(m.speakers));
+                        speakerCell = escapeHtml(localizeSpeakerProse(translateMeta(m.speakers), uiLang));
                     } else {
                         speakerCell = '';
                     }

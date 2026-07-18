@@ -983,7 +983,11 @@
            #info-content scrolls instead so the close × button stays
            pinned at the top-right regardless of scroll position. */
         .lang-info-panel {
-            position: absolute; top: 56px; right: 12px; z-index: 1010;
+            /* Above the map controls it used to sit under — the dialect-colour
+               legend (1010) and the compare FAB (1015) painted on top of the
+               open language modal (owner 2026-07-18). Kept below the compare
+               PANEL (1020), the filter modal, and the site header. */
+            position: absolute; top: 56px; right: 12px; z-index: 1016;
             width: 440px; max-height: calc(100vh - 70px);
             background: rgba(255,255,255,0.97); border-radius: 10px;
             box-shadow: 0 4px 16px rgba(0,0,0,0.25);

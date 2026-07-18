@@ -35,9 +35,13 @@ function problems(s) {
     const out = [];
     if (/\d,\d{3}/.test(s)) out.push('comma-grouped digits — use ~NK / ~NM');
     if (/\b(approximately|approx\.?|about|around|roughly|estimated)\b/i.test(s)) out.push('prose hedge — use ~');
-    if (/\d\s*[-—]\s*\d/.test(s)) out.push('ASCII hyphen / em dash in range — use en dash –');
-    // A range may change magnitude ("~300K–1M"); it may not repeat one ("~12K–15K").
-    const dup = s.match(/(\d)([KMB])\s*–\s*\d+(?:\.\d+)?([KMB])/);
+    // Wrong range separator: ASCII hyphen or em dash, INCLUDING when a
+    // magnitude suffix sits between the figure and the dash ("600K-700K").
+    // The digit-only form missed those and let 33 rows through (owner 2026-07-18).
+    if (/\d\s*[KMB]?\s*[-—]\s*\d/.test(s)) out.push('ASCII hyphen / em dash in range — use en dash –');
+    // A range may change magnitude ("~300K–1M"); it may not repeat one
+    // ("~12K–15K" / "~600K-700K"). Catch a repeated suffix across ANY dash.
+    const dup = s.match(/(\d)([KMB])\s*[-–—]\s*\d+(?:\.\d+)?([KMB])/);
     if (dup && dup[2] === dup[3]) out.push('range repeats the suffix — write ~12–15K');
     if (s.includes(';')) out.push('multi-clause — move detail to description');
     if (s.length > 60) out.push(`too long (${s.length} chars) — move detail to description`);

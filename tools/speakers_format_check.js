@@ -33,7 +33,14 @@ const NONLIVING = /^(Extinct|Historical|Reconstructed|Liturgical|Revived|Constru
 
 function problems(s) {
     const out = [];
+    // The magnitude checks look at the FIGURE only (parentheticals hold years,
+    // EGIDS levels like "6b", country lists, source notes — none of which are
+    // the speaker figure, so they must not trip these rules).
+    const head = s.replace(/\([^)]*\)/g, '');
     if (/\d,\d{3}/.test(s)) out.push('comma-grouped digits — use ~NK / ~NM');
+    if (/\b\d{4,}\b/.test(head)) out.push('bare thousands — use ~NK / ~NM');
+    if (/\d\s*[kmb]\b/.test(head)) out.push('lowercase magnitude suffix — use K / M / B');
+    if (/\b(million|thousand|billion)\b/i.test(head)) out.push('spelled-out magnitude — use K / M / B');
     if (/\b(approximately|approx\.?|about|around|roughly|estimated)\b/i.test(s)) out.push('prose hedge — use ~');
     // Wrong range separator: ASCII hyphen or em dash, INCLUDING when a
     // magnitude suffix sits between the figure and the dash ("600K-700K").
@@ -41,8 +48,11 @@ function problems(s) {
     if (/\d\s*[KMB]?\s*[-—]\s*\d/.test(s)) out.push('ASCII hyphen / em dash in range — use en dash –');
     // A range may change magnitude ("~300K–1M"); it may not repeat one
     // ("~12K–15K" / "~600K-700K"). Catch a repeated suffix across ANY dash.
-    const dup = s.match(/(\d)([KMB])\s*[-–—]\s*\d+(?:\.\d+)?([KMB])/);
-    if (dup && dup[2] === dup[3]) out.push('range repeats the suffix — write ~12–15K');
+    const dup = s.match(/(\d(?:\.\d+)?)([KMB])\s*[-–—]\s*(\d+(?:\.\d+)?)([KMB])/);
+    if (dup && dup[2] === dup[4]) out.push('range repeats the suffix — write ~12–15K');
+    // Mixed-magnitude range ("800K–1.8M") — house style is a SHARED suffix, so
+    // express both ends in the larger unit ("0.8–1.8M").
+    if (dup && dup[2] !== dup[4]) out.push(`range mixes ${dup[2]}/${dup[4]} — share one suffix, e.g. 0.8–1.8M`);
     if (s.includes(';')) out.push('multi-clause — move detail to description');
     if (s.length > 60) out.push(`too long (${s.length} chars) — move detail to description`);
     if (/\bcensus\b/i.test(s) && s.length > 40) out.push('citation prose — move to description');

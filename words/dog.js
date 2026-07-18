@@ -116,7 +116,7 @@ WORDS.dog = {
       qxs: ["kʰwe", "kʰwe"],
       duu: ["kʰja", "kʰja"],
       jya: ["kʰə", "kʰə"],
-      ers: ["ʈɽʰò", "ʈɽʰò"],
+      ers: ["ʈɽʰo", "ʈɽʰo"],
       bca: ["kho", "kʰo"],
       atb: ["khi51", "kʰi⁵¹"],
       prk: ["kʰɔː", "kʰɔː"],

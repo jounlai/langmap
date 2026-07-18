@@ -116,7 +116,7 @@ WORDS.water = {
       qxs: ["tʃʰu", "tʃʰu"],
       duu: ["ʃə", "ʃə"],
       jya: ["tʃʰu", "tʃʰu"],
-      ers: ["ḍẓó", "ɖʐó"],
+      ers: ["ɖʐo", "ɖʐo"],
       bca: ["tshi", "tʃʰɪ"],
       atb: ["tui21", "tui²¹"],
       prk: ["tʃɔː", "tʃɔː"],

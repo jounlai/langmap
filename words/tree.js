@@ -116,7 +116,7 @@ WORDS.tree = {
       qxs: ["tʃʰoː", "tʃʰoː"],
       duu: ["sim", "sim"],
       jya: ["sin", "sin"],
-      ers: ["ʂɑ˥", "ʂɑ˥"],
+      ers: ["ʂɑ", "ʂɑ"],
       bca: ["si", "sɪ"],
       atb: ["tui51", "tui⁵¹"],
       prk: ["tʰɔː", "tʰɔː"],

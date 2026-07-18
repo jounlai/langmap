@@ -117,7 +117,7 @@ WORDS.love = {
       qxs: ["pʰo", "pʰo"],
       duu: ["ʃit", "ʃit"],
       jya: ["nə-ŋɯ", "nə.ŋɯ"],
-      ers: ["ŋɑ́", "ŋɑ"],
+      ers: ["ŋɑ", "ŋɑ"],
       bca: ["phi-tshje", "pʰɪ tʃʰje"],
       atb: ["aw51", "ɔ⁵¹"],
       prk: ["rəŋ", "rəŋ"],

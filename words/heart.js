@@ -116,7 +116,7 @@ WORDS.heart = {
       qxs: ["ɲit", "ɲit"],
       duu: ["ʃəŋ", "ʃəŋ"],
       jya: ["tʰoŋ", "tʰɔŋ"],
-      ers: ["tʂʰɑ́", "tʂʰɑ"],
+      ers: ["tʂʰɑ", "tʂʰɑ"],
       bca: ["sin", "sɪ̃"],
       atb: ["ngai51", "ŋaj⁵¹"],
       prk: ["sɛɛ", "sɛɛ"],

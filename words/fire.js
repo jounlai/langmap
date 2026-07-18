@@ -116,7 +116,7 @@ WORDS.fire = {
       qxs: ["miː", "miː"],
       duu: ["məə", "məː"],
       jya: ["mə", "mə"],
-      ers: ["pʰù", "pʰù"],
+      ers: ["pʰu", "pʰu"],
       bca: ["me", "me"],
       atb: ["my51", "mi⁵¹"],
       prk: ["miː", "miː"],

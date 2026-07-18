@@ -116,7 +116,7 @@ WORDS.sun = {
       qxs: ["ɲit", "ɲit"],
       duu: ["nɯ", "nɯ"],
       jya: ["niʂ", "niʂ"],
-      ers: ["ȵo˥ma˥", "ɲɔ˥ma˥"],
+      ers: ["ɲɔma", "ɲɔma"],
       bca: ["nyi", "ɲi"],
       atb: ["ni55", "ni⁵⁵"],
       prk: ["waː", "waː"],

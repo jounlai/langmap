@@ -116,7 +116,7 @@ WORDS.mother = {
       qxs: ["miː", "miː"],
       duu: ["ma", "ma"],
       jya: ["ma", "mɑ"],
-      ers: ["ɑmà", "ɑma"],
+      ers: ["ɑma", "ɑma"],
       bca: ["me", "me"],
       atb: ["nu44", "nu⁴⁴"],
       prk: ["maː", "maː"],

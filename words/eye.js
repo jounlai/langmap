@@ -116,7 +116,7 @@ WORDS.eye = {
       qxs: ["mit", "mit"],
       duu: ["mik", "mik"],
       jya: ["miʂ", "miʂ"],
-      ers: ["mík", "mik"],
+      ers: ["mik", "mik"],
       bca: ["ngat", "ŋɑ́t"],
       atb: ["mjoq1", "mjoʔ¹"],
       prk: ["miːn", "miːn"],

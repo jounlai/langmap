@@ -67,6 +67,11 @@ line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/
 // deviations (cuckoo haj/kry/lzz/ojp/yug, i khb) that need their native-script
 // forms researched. Wire it in as a blocking guard once those are fixed.
 
+// Chao tone letters (˥˦˧˨˩) belong in IPA, never in a surface/orthography.
+// Ersu was writing them into the headword (sun "ȵo˥ma˥").
+s = run('surface_tone_check.js --check');
+line('no Chao tone in surface', num(s, /violations: (\d+)/));
+
 // Cache-version drift: wordmap.html serves data as `?v=WM_ASSET_VERSION[key]`.
 // Editing the data without bumping the key ships nothing — browsers keep the
 // old copy, and every other guard still passes. A whole day of Chữ Nôm /

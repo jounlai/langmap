@@ -116,7 +116,7 @@ WORDS.i = {
       qxs: ["qa", "qɑ"],
       duu: ["nga", "ŋa"],
       jya: ["nga", "ŋa"],
-      ers: ["nga", "ŋa"],
+      ers: ["ŋa", "ŋa"],
       bca: ["ngo", "ŋo˧"],
       atb: ["ngo", "ŋo˥"],
       prk: ["ê", "ʔɤʔ"],

@@ -116,7 +116,7 @@ WORDS.cat = {
       qxs: ["maː", "maː"],
       duu: ["tsa", "tsʰa"],
       jya: ["tsa", "tsʰɑ"],
-      ers: ["bv̩", "bvə̃"],
+      ers: ["bvə̃", "bvə̃"],
       bca: ["mau", "mau̯"],
       atb: ["tsa51", "tsa⁵¹"],
       prk: ["mɛː", "mɛː"],

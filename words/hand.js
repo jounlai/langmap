@@ -116,7 +116,7 @@ WORDS.hand = {
       qxs: ["kʰaː", "kʰaː"],
       duu: ["kə", "kə"],
       jya: ["laʂ", "lɑʂ"],
-      ers: ["phɔ́", "pʰɔ"],
+      ers: ["pʰɔ", "pʰɔ"],
       bca: ["khon", "kʰɔ̃"],
       atb: ["sa51", "sa⁵¹"],
       prk: ["miːk", "miːk"],

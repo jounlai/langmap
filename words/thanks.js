@@ -116,7 +116,7 @@ WORDS.thanks = {
       adx: ["ཐུགས་རྗེ་ཆེ", "tʰoktɕe tɕʰe"],
       duu: ["tʃʰɔ", "tʃʰɔ"],
       jya: ["ʒo", "ʒɔ"],
-      ers: ["kʰa˩dʑí", "kʰa˩dʑi"],
+      ers: ["kʰadʑi", "kʰadʑi"],
       bca: ["mje-kje", "mje kje"],
       atb: ["ma31", "ma³¹"],
       prk: ["tʰɔk", "tʰɔk"],

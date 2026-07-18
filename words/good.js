@@ -116,7 +116,7 @@ WORDS.good = {
       qxs: ["kʰo", "kʰo"],
       duu: ["la", "la"],
       jya: ["tʰuŋ", "tʰʊŋ"],
-      ers: ["zə́", "zə"],
+      ers: ["zə", "zə"],
       bca: ["no", "no"],
       atb: ["ngaw51", "ŋɔ⁵¹"],
       prk: ["jɔː", "jɔː"],

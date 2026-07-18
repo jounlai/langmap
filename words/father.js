@@ -116,7 +116,7 @@ WORDS.father = {
       qxs: ["pə", "pə"],
       duu: ["pa", "pa"],
       jya: ["pə", "pə"],
-      ers: ["ɑpà", "ɑpa"],
+      ers: ["ɑpa", "ɑpa"],
       bca: ["phu", "pʰu"],
       atb: ["wa44", "wa⁴⁴"],
       prk: ["pʰaː", "pʰaː"],

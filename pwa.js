@@ -10,8 +10,15 @@
   if (!('serviceWorker' in navigator)) return;
 
   // ---- register SW (after load, low priority) ----
+  // updateViaCache:'none' makes the browser byte-check /sw.js against the
+  // network on every navigation instead of trusting an HTTP-cached copy, and
+  // reg.update() nudges that check on load — so a client stuck on an old SW is
+  // pulled onto the current one (which then purges caches + reloads) without any
+  // manual cache-clear.
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register('/sw.js').catch(function () {});
+    navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' })
+      .then(function (reg) { try { reg.update(); } catch (_) {} })
+      .catch(function () {});
   });
 
   var FB = 'en';

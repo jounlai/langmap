@@ -143,6 +143,46 @@
         <nav class="month-nav">Months: <strong>2026-07</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-07-18 — Word Map: <strong>sushi</strong> and <strong>computer</strong> reach 57 more languages</div>
+            <ul>
+                <li>Three fresh review rounds (each finding checked by an independent sceptic) went looking for languages the two words were still missing, and for mistakes in the ones already there. The result adds real, sourced forms for 57 more: the Arabic varieties (Jordanian, Palestinian, Gulf, Omani…) say سوشي / كمبيوتر; the Cyrillic-writing Caucasus and Turkic languages (Avar, Chechen, Lezgian, Tabasaran, Lak, Abkhaz) say суши / компьютер; Japanese now distinguishes Osaka, Kyoto, Hakata and Kagoshima by how each really pronounces the /u/; and computer picks up Lao ຄອມພິວເຕີ, Zhuang <em>dennauj</em>, Dzongkha <em>གློག་རིག</em>, Chamorro <em>kompiuta</em>, Assyrian Neo-Aramaic ܚܲܫܘܼܒ݂ܵܐ and a dozen smaller European languages (Bavarian <em>Rechna</em>, Breton, Scots, Sorbian, Mirandese, Võro…). Two existing pronunciations were corrected (Bengali, Samoan).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-18 — Two languages that were quietly wrong: Western Yugur and the Chữ Nôm words</div>
+            <ul>
+                <li><strong>Western Yugur</strong> — a Turkic language of Buddhist herders in Gansu — was showing Uyghur words written in the Uyghur Arabic script. That is the wrong language <em>and</em> the wrong alphabet (Western Yugur is unwritten; scholars romanise it), and the greetings were even Islamic loanwords its speakers don't use. Checked against the standard grammar and the ASJP and Starostin databases, its 24 words are now the genuine Western Yugur forms in Latin: sun <em>kün</em> (not Uyghur <em>quyash</em>), eye <em>kez</em>, two <em>šigɨ</em>, house <em>jü</em>, and so on.</li>
+                <li><strong>Chữ Nôm</strong> — the old Vietnamese character script — now carries tones on every word, like the rest of the Vietnamese data, and eight characters that actually spelled a different word were fixed (the one for "dog" had been the character for "rat"). Sushi's historical Akkadian and Old Javanese cells moved into their real scripts — cuneiform 𒅆𒅅𒄣 and Javanese ꦝꦺꦁ — instead of a romanised gloss.</li>
+                <li><strong>Rare scripts now display instead of boxes.</strong> Javanese, Baybayin (Tagalog), Brahmi, New Tai Lue and Tai Viet were named in the font list but no device actually ships those fonts, so they rendered as tofu (□□□). They are now self-hosted as tiny embedded subsets, so ꦄꦏꦸ, ᜊᜓᜇᜓ and the rest show properly.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-18 — Speaker numbers now read naturally in Japanese, Chinese and Korean</div>
+            <ul>
+                <li>About 200 languages still carried their speaker count as English-style text (<em>~20M</em>, <em>~85–100K</em>), which looked out of place in a Japanese or Chinese interface. Those figures now localise the way the rest already did — <em>2,000万</em>, <em>8.5万〜10万</em>, <em>3,600〜5,000</em> — while English keeps the compact <em>K/M</em>. Along the way every malformed range was tidied to one house style (Amdo Tibetan's <em>800K-1.8M</em> → <em>0.8–1.8M</em>, and 30-odd others), and a checker now guards the format so they stay consistent.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-18 — Mobile and modal polish</div>
+            <ul>
+                <li>The language pop-up now uses the full width of the panel with its columns lined up, and its text is the same comfortable size on phones as on desktop (the Han Map's pop-up was brought into line too).</li>
+                <li>Pinch-zoom on a phone now moves in half-steps instead of whole ones, so zooming in no longer overshoots the place you wanted, and zooming out no longer loses it.</li>
+                <li>Opening a language card now sits <em>above</em> the compare button and the dialect-colour key instead of behind them, and closing a card (or the comparison) now updates the address bar, so a reload no longer brings the closed pop-up back.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-17 — Chinese topolects and Modern Spoken Sanskrit: two classification fixes</div>
+            <ul>
+                <li>For sushi and computer, the mainland Chinese topolects (Wu, Jin, Gan, Xiang, mainland Hakka, the Min cities, Teochew, Nanning/Taishan) were written in traditional characters; the atlas actually writes those in simplified, reserving traditional for standard Cantonese, Taiwan Hokkien/Hakka and the historical stages. 25 cells were realigned (壽司/電腦 → 寿司/电脑 where the corpus expects it).</li>
+                <li><strong>Modern Spoken Sanskrit</strong> — the living conversational revival — had been grouped with the ancient languages and only appeared in the historical view. It is now shown as the modern language it is; Classical Sanskrit stays historical.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-07-17 — Word Map filter: language-family names now localise</div>
             <ul>
                 <li>In a non-English interface the Word Map's filter showed the language-family chips (Indo-European, Sino-Tibetan, …) in English while everything around them was translated. The translator for family names rides along with the map's metadata, which the Word Map loads lazily — so when the filter opened first, the names had nothing to translate against. The filter now pulls that table in the background and re-labels the chips, so they read インド・ヨーロッパ語族 / シナ・チベット語族 / etc. as expected.</li>

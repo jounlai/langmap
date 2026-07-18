@@ -121,7 +121,7 @@ WORDS.moon = {
       atb: ["la51", "la⁵¹"],
       prk: ["lɔː", "lɔː"],
       slr: ["ay", "ɑj"],
-      ybe: ["ئاي", "aj"],
+      ybe: ["aj", "aj"],
       yuy: ["сар", "sar"],
       mjg: ["sar", "sɑr"],
       sce: ["sara", "sɑrə"],

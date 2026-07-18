@@ -121,7 +121,7 @@ WORDS.i = {
       atb: ["ngo", "ŋo˥"],
       prk: ["ê", "ʔɤʔ"],
       slr: ["men", "men"],
-      ybe: ["مەن", "mɛn"],
+      ybe: ["men", "men"],
       yuy: ["би", "bi"],
       mjg: ["bu", "pu"],
       sce: ["bi", "pi"],

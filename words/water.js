@@ -121,7 +121,7 @@ WORDS.water = {
       atb: ["tui21", "tui²¹"],
       prk: ["tʃɔː", "tʃɔː"],
       slr: ["suv", "suv"],
-      ybe: ["سۇ", "su"],
+      ybe: ["su", "su"],
       yuy: ["ус", "us"],
       mjg: ["us", "ʊs"],
       sce: ["usu", "usu"],

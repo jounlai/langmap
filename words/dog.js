@@ -121,7 +121,7 @@ WORDS.dog = {
       atb: ["khi51", "kʰi⁵¹"],
       prk: ["kʰɔː", "kʰɔː"],
       slr: ["iṭ", "ɪtˤ"],
-      ybe: ["ئت", "it"],
+      ybe: ["əʂt", "ɯʂt"],
       yuy: ["нохай", "noχaj"],
       mjg: ["noxoi", "ˈnɔxɔɪ"],
       sce: ["noghoi", "noɣəi"],

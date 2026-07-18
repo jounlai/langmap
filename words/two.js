@@ -121,7 +121,7 @@ WORDS.two = {
       atb: ["ngiq", "ŋiʔ˥"],
       prk: ["rao", "ra̤ɯ"],
       slr: ["işki", "iʃki"],
-      ybe: ["ئېكى", "eki"],
+      ybe: ["šigɨ", "ʃiɣɯ"],
       yuy: ["гоор", "ɣoːr"],
       mjg: ["ghoor", "ɣoːr"],
       sce: ["ghua", "ʁua"],

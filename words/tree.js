@@ -121,7 +121,7 @@ WORDS.tree = {
       atb: ["tui51", "tui⁵¹"],
       prk: ["tʰɔː", "tʰɔː"],
       slr: ["yoğach", "joɡɑtʃ"],
-      ybe: ["ياغاچ", "jaɡatʃ"],
+      ybe: ["terik", "terik"],
       yuy: ["мод", "mod"],
       mjg: ["mod", "mɔd"],
       sce: ["mutun", "mutun"],

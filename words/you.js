@@ -121,7 +121,7 @@ WORDS.you = {
       atb: ["nang", "naŋ˥"],
       prk: ["mêh", "mɤʔ"],
       slr: ["sen", "sen"],
-      ybe: ["سەن", "sɛn"],
+      ybe: ["sen", "sen"],
       yuy: ["чи", "tʃi"],
       mjg: ["chi", "tɕi"],
       sce: ["chi", "tɕi"],

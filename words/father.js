@@ -121,7 +121,7 @@ WORDS.father = {
       atb: ["wa44", "wa⁴⁴"],
       prk: ["pʰaː", "pʰaː"],
       slr: ["papa", "papa"],
-      ybe: ["ئاتا", "ata"],
+      ybe: ["ata", "ata"],
       yuy: ["аава", "ɑːva"],
       mjg: ["aav", "ˈaːv"],
       sce: ["ebuge", "ɛbuɡɛ"],

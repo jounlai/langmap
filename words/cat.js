@@ -121,7 +121,7 @@ WORDS.cat = {
       atb: ["tsa51", "tsa⁵¹"],
       prk: ["mɛː", "mɛː"],
       slr: ["kǰi", "kʨi"],
-      ybe: ["مۈشۈك", "myʃyk"],
+      ybe: ["—", "—"],
       yuy: ["мэшэ", "meʃe"],
       mjg: ["mulagsai", "mulɑɡˈsaɪ"],
       sce: ["bisalai", "biːsəlai"],

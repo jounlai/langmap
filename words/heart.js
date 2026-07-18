@@ -121,7 +121,7 @@ WORDS.heart = {
       atb: ["ngai51", "ŋaj⁵¹"],
       prk: ["sɛɛ", "sɛɛ"],
       slr: ["köñül", "kœɲœl"],
-      ybe: ["يۈرەك", "jyrɛk"],
+      ybe: ["jörek", "jørek"],
       yuy: ["зүрх", "zʏrχ"],
       mjg: ["zürkh", "ˈzʏrkx"],
       sce: ["selme", "sɛlmɛ"],

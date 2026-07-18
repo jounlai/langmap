@@ -121,7 +121,7 @@ WORDS.name = {
       atb: ["amying", "amjiŋ"],
       prk: ["yaom", "jɔm"],
       slr: ["at", "at"],
-      ybe: ["ئات", "at"],
+      ybe: ["at", "at"],
       yuy: ["нэрэ", "nere"],
       mjg: ["nere", "nerə"],
       sce: ["niere", "niərə"],

@@ -121,7 +121,7 @@ WORDS.drink = {
       atb: ["yum51", "jʌm⁵¹"],
       prk: ["pə", "pə"],
       slr: ["içmä", "ɪtʃmæ"],
-      ybe: ["ئىچمەك", "itʃmɛk"],
+      ybe: ["ɨš", "ɯʃ"],
       yuy: ["ухаха", "uχaχa"],
       mjg: ["uu", "uː"],
       sce: ["otsu-", "otʂɯ"],

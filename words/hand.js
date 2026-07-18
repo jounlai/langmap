@@ -121,7 +121,7 @@ WORDS.hand = {
       atb: ["sa51", "sa⁵¹"],
       prk: ["miːk", "miːk"],
       slr: ["äl", "æl"],
-      ybe: ["قول", "qol"],
+      ybe: ["ɨlɨɣ", "ɯlɯɣ"],
       yuy: ["гар", "ɡar"],
       mjg: ["gar", "ɡɑr"],
       sce: ["qa", "qɑ"],

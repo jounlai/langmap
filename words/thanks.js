@@ -121,7 +121,7 @@ WORDS.thanks = {
       atb: ["ma31", "ma³¹"],
       prk: ["tʰɔk", "tʰɔk"],
       slr: ["shukirlä", "ʃukɪrlæ"],
-      ybe: ["رىخمەت", "rɪxmɛt"],
+      ybe: ["—", "—"],
       yuy: ["баярлалаа", "bajarlalaː"],
       mjg: ["bayarlaa", "bɑjɑrˈlaː"],
       sce: ["baiarla", "bɑjɑrlə"],

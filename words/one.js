@@ -121,7 +121,7 @@ WORDS.one = {
       atb: ["ra21", "ʒa21"],
       prk: ["tʃit", "tʃit"],
       slr: ["bir", "bir"],
-      ybe: ["بىر", "bir"],
+      ybe: ["per", "pɪr"],
       yuy: ["нэг", "neɡ"],
       mjg: ["nige", "ˈniɡe"],
       sce: ["nie", "niə"],

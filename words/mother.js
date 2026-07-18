@@ -121,7 +121,7 @@ WORDS.mother = {
       atb: ["nu44", "nu⁴⁴"],
       prk: ["maː", "maː"],
       slr: ["ama", "ɑma"],
-      ybe: ["ئانا", "ana"],
+      ybe: ["ana", "ana"],
       yuy: ["ээж", "eːʒ"],
       mjg: ["eej", "ˈeːʒ"],
       sce: ["ana", "ɑnə"],

@@ -121,7 +121,7 @@ WORDS.eye = {
       atb: ["mjoq1", "mjoʔ¹"],
       prk: ["miːn", "miːn"],
       slr: ["koz", "koz"],
-      ybe: ["كۆز", "kɵz"],
+      ybe: ["kez", "kez"],
       yuy: ["нүдэ", "nʏde"],
       mjg: ["nüd", "ˈnʏd"],
       sce: ["udun", "udun"],

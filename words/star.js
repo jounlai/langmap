@@ -121,7 +121,7 @@ WORDS.star = {
       atb: ["kyoi", "kjoi˥"],
       prk: ["si-ngai", "sŋaɪ"],
       slr: ["yultuz", "jultuz"],
-      ybe: ["يىلتىس", "jɨltɨs"],
+      ybe: ["yiltus", "jɯltɯs"],
       yuy: ["ходэн", "χoden"],
       mjg: ["hudun", "xudun"],
       sce: ["hodun", "hodun"],

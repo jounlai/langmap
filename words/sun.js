@@ -121,7 +121,7 @@ WORDS.sun = {
       atb: ["ni55", "ni⁵⁵"],
       prk: ["waː", "waː"],
       slr: ["güneş", "ɡyneʃ"],
-      ybe: ["قۇياش", "quyaʃ"],
+      ybe: ["kün", "kʰyn"],
       yuy: ["нар", "nar"],
       mjg: ["naran", "ˈnɑrɑn"],
       sce: ["naran", "nɑrən"],

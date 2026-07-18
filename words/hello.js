@@ -121,7 +121,7 @@ WORDS.hello = {
       atb: ["mou51", "mou⁵¹"],
       prk: ["sawʔdiː", "sawʔdiː"],
       slr: ["selam", "sælɑm"],
-      ybe: ["سالام", "salam"],
+      ybe: ["—", "—"],
       yuy: ["сайнар уу", "sajnar uː"],
       mjg: ["sain bain uu", "saɪn baɪn uː"],
       sce: ["sain baina", "sain bainə"],

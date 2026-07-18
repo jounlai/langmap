@@ -121,7 +121,7 @@ WORDS.house = {
       atb: ["im31", "ɪm³¹"],
       prk: ["miː", "miː"],
       slr: ["oy", "oj"],
-      ybe: ["ئۆي", "ɵj"],
+      ybe: ["jü", "jy"],
       yuy: ["гэр", "ɡer"],
       mjg: ["ger", "ɡer"],
       sce: ["ger", "ɡɛr"],

@@ -121,7 +121,7 @@ WORDS.eat = {
       atb: ["tai35", "taj³⁵"],
       prk: ["sɛː", "sɛː"],
       slr: ["yämä", "jæmæ"],
-      ybe: ["يىمەك", "jimɛk"],
+      ybe: ["ji", "ji"],
       yuy: ["идэхэ", "ɪdeχe"],
       mjg: ["ide", "ˈide"],
       sce: ["ijie-", "iʥiə"],

@@ -121,7 +121,7 @@ WORDS.fire = {
       atb: ["my51", "mi⁵¹"],
       prk: ["miː", "miː"],
       slr: ["ot", "ot"],
-      ybe: ["ئوت", "ot"],
+      ybe: ["ot", "ot"],
       yuy: ["гал", "ɡal"],
       mjg: ["gal", "ɡɑl"],
       sce: ["qan", "qɑn"],

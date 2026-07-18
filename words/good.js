@@ -121,7 +121,7 @@ WORDS.good = {
       atb: ["ngaw51", "ŋɔ⁵¹"],
       prk: ["jɔː", "jɔː"],
       slr: ["yakhshi", "jɑxʃi"],
-      ybe: ["ياخشى", "jaxʃɨ"],
+      ybe: ["yaş", "jɑʂ"],
       yuy: ["сайн", "sajn"],
       mjg: ["sain", "ˈsaɪn"],
       sce: ["sain", "sain"],

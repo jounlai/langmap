@@ -3,10 +3,17 @@
    Strategy: network-first for page navigations with a cache fallback so the
    last-seen page works offline; everything else passes straight through to the
    network so the existing ?v= cache-busting keeps versioned JS/data fresh. */
-const SHELL = 'langmap-shell-v1';
+const SHELL = 'langmap-shell-v2';
 
 self.addEventListener('install', () => self.skipWaiting());
-self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
+self.addEventListener('activate', (e) => e.waitUntil((async () => {
+  // Purge caches from older SW versions so a client that installed a stale
+  // shell can't keep serving it. (Bumping SHELL is also a byte change, which is
+  // what makes the browser notice this SW and replace an outdated one.)
+  const keys = await caches.keys();
+  await Promise.all(keys.filter((k) => k !== SHELL).map((k) => caches.delete(k)));
+  await self.clients.claim();
+})()));
 
 self.addEventListener('fetch', (e) => {
   const req = e.request;

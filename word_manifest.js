@@ -31,6 +31,7 @@ const WORD_ORDER = [
     // modern objects & food (loanword-heavy)
     "computer",
     "sushi",
+    "dopamine",
     // actions
     "eat",
     "drink",

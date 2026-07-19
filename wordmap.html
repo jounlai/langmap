@@ -3802,10 +3802,19 @@
         // --- Word selector ---
         const select = document.getElementById('word-select');
 
+        // Non-selectable <optgroup> heading that separates the experimental
+        // (partial 🧪) words from the full-coverage core words in the dropdown.
+        const EXPERIMENTAL_GROUP = {
+            en:'Experimental', ja:'実験的な単語', ko:'실험적 단어', zh:'实验性词条',
+            yue:'實驗性詞條', vi:'Từ thử nghiệm', th:'คำทดลอง', id:'Kata eksperimental',
+            hi:'प्रायोगिक शब्द', de:'Experimentell', fr:'Expérimental', it:'Sperimentali',
+            es:'Experimentales', pt:'Experimentais', ru:'Экспериментальные',
+            uk:'Експериментальні', ar:'كلمات تجريبية', he:'ניסיוני', sw:'Za majaribio'
+        };
         function rebuildWordSelect() {
             const curVal = select.value;
             select.innerHTML = '';
-            WORD_LIST.forEach(w => {
+            const mkOpt = (w) => {
                 const opt = document.createElement('option');
                 opt.value = w.id;
                 // w.label is { en, ja, id, ... } — `id` here is Indonesian, not entry id
@@ -3814,8 +3823,18 @@
                 // Mark a partial word (e.g. cuckoo) so the selector shows it is
                 // special — a range map, not a per-language cell.
                 opt.textContent = w.partial ? base + ' 🧪' : base;
-                select.appendChild(opt);
-            });
+                return opt;
+            };
+            const partials = [];
+            WORD_LIST.forEach(w => { if (w.partial) partials.push(w); else select.appendChild(mkOpt(w)); });
+            if (partials.length) {
+                const ui = uiLang.split('_')[0];
+                const grp = document.createElement('optgroup');
+                // The 🧪 in the heading makes the group non-selectable AND labelled.
+                grp.label = '🧪 ' + (EXPERIMENTAL_GROUP[uiLang] || EXPERIMENTAL_GROUP[ui] || EXPERIMENTAL_GROUP.en);
+                partials.forEach(w => grp.appendChild(mkOpt(w)));
+                select.appendChild(grp);
+            }
             if (curVal) select.value = curVal;
             updateWordSelectLabel();
         }

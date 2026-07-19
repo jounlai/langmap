@@ -26,12 +26,6 @@ const WORD_ORDER = [
     "house",
     "dog",
     "cat",
-    "cuckoo",
-    "woof",
-    // modern objects & food (loanword-heavy)
-    "computer",
-    "sushi",
-    "dopamine",
     // actions
     "eat",
     "drink",
@@ -42,4 +36,11 @@ const WORD_ORDER = [
     "hello",
     "thanks",
     "good",
+    // experimental / partial words (🧪) — mapped only where a sourced form
+    // exists, so they are grouped last, after the full-coverage core words.
+    "cuckoo",
+    "woof",
+    "computer",
+    "sushi",
+    "dopamine",
 ];

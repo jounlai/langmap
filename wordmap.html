@@ -731,6 +731,13 @@
         .lang-label .name {
             font-size: calc(9px * var(--label-scale)); color: #888; line-height: 1.3;
         }
+        /* Second name line for historical languages: the period they were spoken
+           (meta.period), e.g. "~700 BCE–600 CE". Dimmer + smaller than the name
+           so the pair reads as one two-line label (owner 2026-07-19). */
+        .lang-label .period, .globe-label .period {
+            font-size: calc(8px * var(--label-scale)); color: #a09a94; line-height: 1.25;
+            font-style: italic; white-space: nowrap;
+        }
         /* Vertical writing for Mongolian Traditional Script / Manchu */
         .lang-label.vertical .word {
             writing-mode: vertical-lr;
@@ -3158,7 +3165,7 @@
             metaI18n:  15,
             filter:    33,
             names:   122,
-            meta:     216,
+            meta:     217,
             trivia:   27,
             triviaI18n: 4,
             words:      78,
@@ -4588,7 +4595,13 @@
             // in correct order; IPA stays LTR.
             if (showWord) html += `<div class="word" dir="auto" ${c ? `style="color:${c}"` : ''}>${w}</div>`;
             if (showIpa) html += `<div class="ipa" dir="ltr" ${c ? `style="color:${c}"` : ''}>/${i}/</div>`;
-            if (showName) html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
+            if (showName) {
+                html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
+                // Historical languages carry meta.period ("~700 BCE–600 CE"): show
+                // it as a second name line so the label reads name-over-period.
+                const per = (LANG_DATA[code] && LANG_DATA[code].meta && LANG_DATA[code].meta.period) || '';
+                if (per) html += `<div class="period" dir="auto">${escapeHtml(per)}</div>`;
+            }
             html += '</div>';
             return html;
         }

@@ -3805,7 +3805,10 @@
         function rebuildWordSelect() {
             const curVal = select.value;
             select.innerHTML = '';
-            const mkOpt = (w) => {
+            // The experimental partial words are already grouped last in
+            // WORD_ORDER and carry a 🧪 marker, so no divider row is needed (a
+            // dashed one wrapped to two lines in the mobile picker — owner).
+            WORD_LIST.forEach(w => {
                 const opt = document.createElement('option');
                 opt.value = w.id;
                 // w.label is { en, ja, id, ... } — `id` here is Indonesian, not entry id
@@ -3814,21 +3817,8 @@
                 // Mark a partial word (e.g. cuckoo) so the selector shows it is
                 // special — a range map, not a per-language cell.
                 opt.textContent = w.partial ? base + ' 🧪' : base;
-                return opt;
-            };
-            const partials = [];
-            WORD_LIST.forEach(w => { if (w.partial) partials.push(w); else select.appendChild(mkOpt(w)); });
-            if (partials.length) {
-                // A disabled <option> as a plain divider LINE (no wording) — unlike
-                // an <optgroup> it does not indent the items under it, and it can't
-                // be selected (owner: a rule is enough, skip the heading text).
-                const div = document.createElement('option');
-                div.disabled = true;
-                div.className = 'word-select-divider';
-                div.textContent = '──────────';
-                select.appendChild(div);
-                partials.forEach(w => select.appendChild(mkOpt(w)));
-            }
+                select.appendChild(opt);
+            });
             if (curVal) select.value = curVal;
             updateWordSelectLabel();
         }
@@ -7572,6 +7562,15 @@
                     && window.__langmap.anyFilterActive()) {
                     pool = pool.filter(c => window.__langmap.passesFilter(c));
                 }
+                // Step 3: only languages that actually HAVE the current word. The
+                // partial words (cuckoo, woof, computer, sushi, dopamine 🧪) are
+                // blank for most languages — the dice must not land on a blank one
+                // (owner 2026-07-19). isUnattestedEntry(undefined) is true, so this
+                // also drops explicit "—" cells.
+                pool = pool.filter(c => {
+                    const lang = LANG_DATA[c];
+                    return lang && lang.words && !isUnattestedEntry(lang.words[currentWord]);
+                });
                 if (!pool.length) return;
                 const code = pool[Math.floor(Math.random() * pool.length)];
                 centerLangOnMap(code);

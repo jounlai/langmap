@@ -753,6 +753,12 @@
         .zoom-mid .lang-label .word { font-size: calc(13px * var(--label-scale)); }
         .zoom-mid .lang-label .ipa { font-size: calc(9px * var(--label-scale)); }
         .zoom-mid .lang-label .name { font-size: calc(8px * var(--label-scale)); }
+        /* The period line had no zoom-scaled sizes, so it stayed 8px while every
+           other line shrank when zoomed out — the box grew taller than the
+           declutter estimate and periods overlapped the label below
+           (owner 2026-07-19). Scale it like .name. */
+        .zoom-far .lang-label .period { font-size: calc(6px * var(--label-scale)); }
+        .zoom-mid .lang-label .period { font-size: calc(7px * var(--label-scale)); }
 
         /* Unattested cell: visually identical to attested .lang-label —
            the dashed outline used to mark "no data for this concept" was
@@ -4851,15 +4857,19 @@
             // matches the estimated label box. Markers in the same cell get
             // stacked vertically. Grid bucketing avoids chain-expansion of
             // overlapping pairs into huge groups across the map.
+            // These are font-size × line-height rounded UP, so the estimated box
+            // is never smaller than what the browser actually paints. The old
+            // values were rounded down (word 13 vs a real 11px×1.2=13.2, name 9
+            // vs 7px×1.3=9.1…), which left every label a pixel or two short and
+            // showed up as touching text once the period line was added.
             let baseLineH = 0;
-            if (showWord) baseLineH += (zoom <= 3 ? 13 : zoom <= 5 ? 15 : 17);
+            if (showWord) baseLineH += (zoom <= 3 ? 14 : zoom <= 5 ? 16 : 18);
             if (showIpa)  baseLineH += (zoom <= 3 ? 10 : zoom <= 5 ? 11 : 12);
-            if (showName) baseLineH += (zoom <= 3 ? 9  : zoom <= 5 ? 10 : 11);
-            // Historical rows carry a second name line (meta.period). In the
-            // historical era view every rendered label has one, so the box is a
-            // line taller — without this the declutter under-measured the box
-            // and periods overlapped the next label (owner 2026-07-19).
-            if (showName && showHistorical) baseLineH += (zoom <= 3 ? 8 : zoom <= 5 ? 9 : 10);
+            if (showName) baseLineH += (zoom <= 3 ? 10 : zoom <= 5 ? 11 : 12);
+            // Historical rows carry a second name line (meta.period), which now
+            // scales with zoom like .name (6/7/8px × 1.25). Budget a little over
+            // that so the extra line always has room.
+            if (showName && showHistorical) baseLineH += (zoom <= 3 ? 9 : zoom <= 5 ? 10 : 11);
             const labelH = (baseLineH * labelScale) + 4;
             const labelW = (zoom <= 3 ? 60 : zoom <= 5 ? 80 : 100) * labelScale;
             // See hanmap.html for the rationale: MAX_PUSH below is
@@ -4871,8 +4881,8 @@
             // two lines (name + period), so the "all rows on" reference height
             // grows too — otherwise MAX_PUSH stays sized for a 3-line label and
             // the extra line has nowhere to go.
-            const _fullH_z = (zoom <= 3 ? 32 : zoom <= 5 ? 36 : 40)
-                           + (showHistorical ? (zoom <= 3 ? 8 : zoom <= 5 ? 9 : 10) : 0);
+            const _fullH_z = (zoom <= 3 ? 34 : zoom <= 5 ? 38 : 42)
+                           + (showHistorical ? (zoom <= 3 ? 9 : zoom <= 5 ? 10 : 11) : 0);
             const labelHFull = (_fullH_z * labelScale) + 4;
             const collisionBudgetH = Math.max(labelHFull, labelW * 0.55);
 

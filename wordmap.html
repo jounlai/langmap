@@ -4873,8 +4873,13 @@
             // line-height 1.05 less a 1px negative top margin, i.e. ~5.3/6.4/7.4px
             // painted. Budget just above that — over-budgeting would push labels
             // apart (and hide more of them) for space the line never uses.
-            if (showName && showHistorical) baseLineH += (zoom <= 3 ? 6 : zoom <= 5 ? 7 : 8);
-            const labelH = (baseLineH * labelScale) + 4;
+            if (showName && showHistorical) baseLineH += (zoom <= 3 ? 8 : zoom <= 5 ? 9 : 10);
+            // Box padding around the text block. Bumped 4 → 8 (and 12 in the
+            // historical view, where the taller two-line name block sits closer
+            // to its neighbours) so labels keep clear air between them rather
+            // than merely not overlapping (owner 2026-07-19).
+            const _boxPad = showHistorical ? 12 : 8;
+            const labelH = (baseLineH * labelScale) + _boxPad;
             const labelW = (zoom <= 3 ? 60 : zoom <= 5 ? 80 : 100) * labelScale;
             // See hanmap.html for the rationale: MAX_PUSH below is
             // computed from the FULL-toggle box height so the cap
@@ -4886,8 +4891,8 @@
             // grows too — otherwise MAX_PUSH stays sized for a 3-line label and
             // the extra line has nowhere to go.
             const _fullH_z = (zoom <= 3 ? 34 : zoom <= 5 ? 38 : 42)
-                           + (showHistorical ? (zoom <= 3 ? 6 : zoom <= 5 ? 7 : 8) : 0);
-            const labelHFull = (_fullH_z * labelScale) + 4;
+                           + (showHistorical ? (zoom <= 3 ? 8 : zoom <= 5 ? 9 : 10) : 0);
+            const labelHFull = (_fullH_z * labelScale) + _boxPad;
             const collisionBudgetH = Math.max(labelHFull, labelW * 0.55);
 
             // When a filter is active, only ACTIVE labels compete for cell
@@ -5414,7 +5419,10 @@
             // Historical labels carry a second name line (meta.period), so they
             // need one more line's worth of vertical spacing (owner 2026-07-19).
             if (showName && showHistorical) lines++;
-            const baseSpacingDeg = (0.4 + lines * 0.3) * labelScale * altScale;
+            // 0.4 → 0.5 base and 0.3 → 0.34 per line: the globe stacks labels by
+            // latitude, so the same "give them clear air" bump as the 2D box
+            // padding (owner 2026-07-19).
+            const baseSpacingDeg = (0.5 + lines * 0.34) * labelScale * altScale;
             const cellSizeDeg = baseSpacingDeg * 1.2;
 
             // When a filter is active, only ACTIVE labels compete for cell

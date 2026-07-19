@@ -3830,8 +3830,9 @@
             if (partials.length) {
                 const ui = uiLang.split('_')[0];
                 const grp = document.createElement('optgroup');
-                // The 🧪 in the heading makes the group non-selectable AND labelled.
-                grp.label = '🧪 ' + (EXPERIMENTAL_GROUP[uiLang] || EXPERIMENTAL_GROUP[ui] || EXPERIMENTAL_GROUP.en);
+                // Heading text only — the per-word 🧪 already marks the items, so
+                // repeating the emoji on the group label read as noise (owner).
+                grp.label = (EXPERIMENTAL_GROUP[uiLang] || EXPERIMENTAL_GROUP[ui] || EXPERIMENTAL_GROUP.en);
                 partials.forEach(w => grp.appendChild(mkOpt(w)));
                 select.appendChild(grp);
             }

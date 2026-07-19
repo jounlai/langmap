@@ -735,7 +735,7 @@
            (meta.period), e.g. "~700 BCE–600 CE". Dimmer + smaller than the name
            so the pair reads as one two-line label (owner 2026-07-19). */
         .lang-label .period, .globe-label .period {
-            font-size: calc(8px * var(--label-scale)); color: #a09a94; line-height: 1.25;
+            font-size: calc(8px * var(--label-scale)); color: #c0392b; line-height: 1.25;
             white-space: nowrap;
         }
         /* Vertical writing for Mongolian Traditional Script / Manchu */
@@ -3165,7 +3165,7 @@
             metaI18n:  15,
             filter:    33,
             names:   123,
-            meta:     219,
+            meta:     220,
             trivia:   27,
             triviaI18n: 4,
             words:      78,
@@ -4855,6 +4855,11 @@
             if (showWord) baseLineH += (zoom <= 3 ? 13 : zoom <= 5 ? 15 : 17);
             if (showIpa)  baseLineH += (zoom <= 3 ? 10 : zoom <= 5 ? 11 : 12);
             if (showName) baseLineH += (zoom <= 3 ? 9  : zoom <= 5 ? 10 : 11);
+            // Historical rows carry a second name line (meta.period). In the
+            // historical era view every rendered label has one, so the box is a
+            // line taller — without this the declutter under-measured the box
+            // and periods overlapped the next label (owner 2026-07-19).
+            if (showName && showHistorical) baseLineH += (zoom <= 3 ? 8 : zoom <= 5 ? 9 : 10);
             const labelH = (baseLineH * labelScale) + 4;
             const labelW = (zoom <= 3 ? 60 : zoom <= 5 ? 80 : 100) * labelScale;
             // See hanmap.html for the rationale: MAX_PUSH below is
@@ -4862,7 +4867,12 @@
             // doesn't shrink when the user turns rows off, which
             // would otherwise make fewer-row layouts hide MORE labels
             // than richer layouts (counter-intuitive bug).
-            const _fullH_z = (zoom <= 3 ? 32 : zoom <= 5 ? 36 : 40);
+            // Full-toggle box height. In the historical view the name block is
+            // two lines (name + period), so the "all rows on" reference height
+            // grows too — otherwise MAX_PUSH stays sized for a 3-line label and
+            // the extra line has nowhere to go.
+            const _fullH_z = (zoom <= 3 ? 32 : zoom <= 5 ? 36 : 40)
+                           + (showHistorical ? (zoom <= 3 ? 8 : zoom <= 5 ? 9 : 10) : 0);
             const labelHFull = (_fullH_z * labelScale) + 4;
             const collisionBudgetH = Math.max(labelHFull, labelW * 0.55);
 
@@ -5387,6 +5397,9 @@
             if (showWord) lines++;
             if (showIpa) lines++;
             if (showName) lines++;
+            // Historical labels carry a second name line (meta.period), so they
+            // need one more line's worth of vertical spacing (owner 2026-07-19).
+            if (showName && showHistorical) lines++;
             const baseSpacingDeg = (0.4 + lines * 0.3) * labelScale * altScale;
             const cellSizeDeg = baseSpacingDeg * 1.2;
 

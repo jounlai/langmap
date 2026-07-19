@@ -739,7 +739,7 @@ Total: 1113 codes.
 | `om` | Oromo | オロモ語 | Cushitic | ~37M |
 | `oma` | Old Malay | 古マレー語 | Austronesian (Malayo-Polynesian, Malayic) | Extinct (~7-14c. CE; modern Malay/Indonesian descend) |
 | `omc` | Mochica | ムチカ語 (ユンガ) | Mochica (likely isolate) | Extinct |
-| `omx` | Middle Mongolian | 古モン語 | Austroasiatic (Mon-Khmer, Monic) | Extinct (~6-11c. CE; modern Mon descends) |
+| `omx` | Old Mon | 古モン語 | Austroasiatic (Mon-Khmer, Monic) | Extinct (~6-11c. CE; modern Mon descends) |
 | `one` | Oneida | オネイダ語 | Iroquoian | ~100–200 fluent L1 (critically endangered) |
 | `onn` | Onondaga | オノンダガ語 | Iroquoian (Northern, Five Nations) | ~20 fluent + heritage learners |
 | `ono` | Onondaga | オノンダガ語 | Iroquoian | ~50 fluent (mostly elderly) |

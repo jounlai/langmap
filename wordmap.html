@@ -2804,7 +2804,7 @@
          lang_names/<ui>.js from lang_names.js; the other three pages still
          load lang_names.js whole. -->
     <script src="lang_names_shim.js?v=1"></script>
-    <script src="lang_names/en.js?v=122"></script>
+    <script src="lang_names/en.js?v=123"></script>
     <script>
         (function () {
             window.__langNamesVersion(122);
@@ -2833,7 +2833,7 @@
                 return 'en';
             }
             var ui = pick();
-            if (ui !== 'en') document.write('<script src="lang_names/' + ui + '.js?v=122"><\/script>');
+            if (ui !== 'en') document.write('<script src="lang_names/' + ui + '.js?v=123"><\/script>');
         })();
     </script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
@@ -3164,7 +3164,7 @@
             data:      235,
             metaI18n:  15,
             filter:    33,
-            names:   122,
+            names:   123,
             meta:     218,
             trivia:   27,
             triviaI18n: 4,
@@ -4529,7 +4529,7 @@
                    : zoom <= 4 ? 10_000_000
                    : 0);
             if (showHistorical) {
-                for (const [hist, modern] of Object.entries(HIST_DESCENDANT)) {
+                for (const hist of Object.keys(HIST_DESCENDANT)) {
                     // Living-but-fragmentary codes (Kusunda, Yuchi, Itelmen, …)
                     // are in HIST_DESCENDANT only to satisfy the validator; they
                     // are MODERN languages (HIST_CODE_SET excludes them) and must
@@ -4540,12 +4540,14 @@
                         unattestedLangs.push(hist);
                     } else {
                         visibleLangs.push(hist);
-                        if (modern && LANG_DATA[modern] && LANG_DATA[modern].words && LANG_DATA[modern].words[wordId] && !isUnattestedEntry(LANG_DATA[modern].words[wordId])) {
-                            descendantCodes.add(modern);
-                        }
                     }
                 }
-                for (const code of descendantCodes) visibleLangs.push(code);
+                // The historical view used to also plot each historical
+                // language's modern descendant as a red "reference" label. The
+                // owner asked for the era view to show ONLY historical
+                // languages (2026-07-19), so descendants are no longer added.
+                // descendantCodes stays empty; the isDescendant colouring
+                // downstream therefore never fires.
             } else {
                 for (const [code, lang] of Object.entries(LANG_DATA)) {
                     if (EXCLUDED_CODES.has(code)) continue;

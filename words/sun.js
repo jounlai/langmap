@@ -134,7 +134,7 @@ WORDS.sun = {
       srb: ["dag", "dag"],
       kjg: ["maŋ", "maŋ"],
       mro: ["thum", "θum"],
-      gon: ["पोड़्द / పోడ్ద్", "poːɽd"],
+      gon: ["पोड़्द", "poːɽd"],
       bfq: ["hottu", "hɔtːu"],
       som: ["qorax", "qɔraħ"],
       har: ["ir", "iːr"],

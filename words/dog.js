@@ -134,7 +134,7 @@ WORDS.dog = {
       srb: ["sua", "sua"],
       kjg: ["cɔ", "tʃɔ"],
       mro: ["takui", "təkuɪ"],
-      gon: ["नय्यु / నెయ్", "naːj"],
+      gon: ["नय्यु", "naːj"],
       bfq: ["nei", "neː"],
       som: ["ey", "ʔej"],
       har: ["buchi", "butʃi"],

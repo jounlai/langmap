@@ -134,7 +134,7 @@ WORDS.house = {
       srb: ["suʔuŋ", "suʔuŋ"],
       kjg: ["kaaŋ", "kaːŋ"],
       mro: ["khim", "kʲɪm"],
-      gon: ["लॊन / లొన", "loːn"],
+      gon: ["लॊन", "loːn"],
       bfq: ["mane", "mɑneː"],
       som: ["guri", "ɡu.rɪ"],
       har: ["gár", "gɑːr"],

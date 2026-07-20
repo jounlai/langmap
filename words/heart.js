@@ -134,7 +134,7 @@ WORDS.heart = {
       srb: ["suʔun", "suʔun"],
       kjg: ["kruɛŋ", "kruɛŋ"],
       mro: ["tsak", "tsʰɑk"],
-      gon: ["गुण्डे / గుండె", "guɳɖe"],
+      gon: ["गुण्डे", "guɳɖe"],
       bfq: ["mana", "mɑnɑ"],
       som: ["qalbi", "qæl.bɪ"],
       har: ["libbi", "libːi"],

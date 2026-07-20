@@ -134,7 +134,7 @@ WORDS.eye = {
       srb: ["siʔi", "siʔi"],
       kjg: ["ŋtaa", "ŋtaː"],
       mro: ["mik", "mɪk"],
-      gon: ["कन्न / కన్న", "kaɳ"],
+      gon: ["कन्न", "kaɳ"],
       bfq: ["kannu", "kɑnːu"],
       som: ["il", "ɪl"],
       har: ["ʿäyin", "ʕæjin"],

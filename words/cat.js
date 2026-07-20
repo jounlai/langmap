@@ -134,7 +134,7 @@ WORDS.cat = {
       srb: ["biri", "biri"],
       kjg: ["meeo", "meːo"],
       mro: ["tamin", "təmɪn"],
-      gon: ["वेर्काड़ / వెర్కడ్", "ʋeɾkaːɖ"],
+      gon: ["वेर्काड़", "ʋeɾkaːɖ"],
       bfq: ["koththi", "kɔθːi"],
       som: ["bisad", "bɪs.æd"],
       har: ["aduru", "ɑduːru"],

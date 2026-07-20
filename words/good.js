@@ -134,7 +134,7 @@ WORDS.good = {
       srb: ["mando", "mando"],
       kjg: ["gee", "ɡeː"],
       mro: ["ayong", "əjoŋ"],
-      gon: ["चोक्कोट / చొకొట్", "tʃokkoːʈ"],
+      gon: ["चोक्कोट", "tʃokkoːʈ"],
       bfq: ["ollenge", "ɔlːeŋɡe"],
       som: ["wanaag", "wæ.nɑːɡ"],
       har: ["xaww", "χɑwː"],

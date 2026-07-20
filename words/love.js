@@ -134,7 +134,7 @@ WORDS.love = {
       srb: ["adi", "adi"],
       kjg: ["kɔɔh", "kɔːh"],
       mro: ["akiet", "əkiɛt"],
-      gon: ["प्रेम / ప్రేమ", "preːm"],
+      gon: ["प्रेम", "preːm"],
       bfq: ["gava", "ɡɑvɑ"],
       som: ["jaceel", "dʒaʕeːl"],
       har: ["ḥabb", "ħɑbː"],

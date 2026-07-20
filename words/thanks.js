@@ -134,7 +134,7 @@ WORDS.thanks = {
       srb: ["surai", "surai"],
       kjg: ["ɔrkun", "ʔɔrkun"],
       mro: ["dhanyabad", "dʰənəbɑd"],
-      gon: ["धन्यवाद / ధన్యవాదాలు", "dʰənjaːwaːd"],
+      gon: ["धन्यवाद", "dʰənjaːwaːd"],
       bfq: ["appara santhosha", "ɑpːɑrɑ sɑnθɔʃɑ"],
       som: ["mahadsanid", "mæ.hæd.sæ.nɪd"],
       har: ["šukran", "ʃuːkrɑn"],

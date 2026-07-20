@@ -134,7 +134,7 @@ WORDS.fire = {
       srb: ["tin", "tin"],
       kjg: ["ʔus", "ʔus"],
       mro: ["mai wa", "mɑɪ wɑ"],
-      gon: ["तड्मि / తడ్మి", "taɖmi"],
+      gon: ["तड्मि", "taɖmi"],
       bfq: ["kitcha", "kiʈʃɑ"],
       som: ["dab", "dæb"],
       har: ["isat", "isɑt"],

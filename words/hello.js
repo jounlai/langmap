@@ -134,7 +134,7 @@ WORDS.hello = {
       srb: ["limtam", "limtam"],
       kjg: ["lɔh", "lɔh"],
       mro: ["namaskaro", "nɑməskɑro"],
-      gon: ["सेवा जोहार / సేవా జోహార్", "seːʋaː dʒoːɦaːɾ"],
+      gon: ["सेवा जोहार", "seːʋaː dʒoːɦaːɾ"],
       bfq: ["namaskara", "nɑmɑskɑrɑ"],
       som: ["assalaamu alaikum", "ɑs.sæ.lɑː.mu ɑ.læɪ.kum"],
       har: ["salam", "sɑlɑm"],

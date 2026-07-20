@@ -171,6 +171,15 @@
             src: url('fonts/NotoSansCham-subset.woff2') format('woff2');
             unicode-range: U+AA00-AA5F;      /* Cham (Akhar Thrah) — cjm */
         }
+        /* Tifinagh (Libyco-Berber, not Brahmic) — its own self-hosted subset for
+           the Amazigh languages whose official/traditional script it is:
+           Neo-Tifinagh for tzm/shi/rif, traditional Tuareg Tifinagh for tmh.
+           Kabyle (kab) stays in the Berber Latin alphabet. */
+        @font-face {
+            font-family: 'Tifinagh Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansTifinagh-subset.woff2') format('woff2');
+            unicode-range: U+2D30-2D7F;
+        }
         /* Old Hangul Jamo (conjoining, used in Middle Korean ko_mid and
            Early-Modern Korean ko_em) — ᆞ arae-a, ᆡ arae-a-i, ᅀ pansiot,
            ᄉ ᄒ ᄃ etc. Google Fonts' default Noto Serif KR subset omits
@@ -559,6 +568,7 @@
                 "Noto Serif KR Old Jamo",
                 "Nom Serif Subset",
                 "Brahmic Subset",
+                "Tifinagh Subset",
                 "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
@@ -876,6 +886,7 @@
                 "Noto Serif KR Old Jamo",
                 "Nom Serif Subset",
                 "Brahmic Subset",
+                "Tifinagh Subset",
                 "Nôm Na Tống", "HAN NOM A", "HAN NOM B", "HanaMinA", "HanaMinB",
                 "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
@@ -2729,7 +2740,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=236"></script>
-    <script src="word_manifest.js?v=81"></script>
+    <script src="word_manifest.js?v=82"></script>
     <script src="word_labels.js?v=6"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -3179,10 +3190,10 @@
             metaI18n:  15,
             filter:    33,
             names:   124,
-            meta:     222,
+            meta:     223,
             trivia:   27,
             triviaI18n: 4,
-            words:      81,
+            words:      82,
             labels:      6,
             metaI18nCoverage: 10,
         };

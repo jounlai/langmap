@@ -72,6 +72,13 @@ line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/
 s = run('surface_tone_check.js --check');
 line('no Chao tone in surface', num(s, /violations: (\d+)/));
 
+// A language that is fully extinct (no living speakers) AND carries a
+// meta.period belongs on the historical map, not shown as a modern language.
+// Mochica (omc) slipped through as modern despite 0 speakers + a period
+// (owner 2026-07-21). Guards the LIVING_FRAGMENTARY_CODES / HIST_DESCENDANT split.
+s = run('extinct_classification_check.js');
+line('extinct-as-modern classification', num(s, /extinct-as-modern: (\d+)/));
+
 // Cache-version drift: wordmap.html serves data as `?v=WM_ASSET_VERSION[key]`.
 // Editing the data without bumping the key ships nothing — browsers keep the
 // old copy, and every other guard still passes. A whole day of Chữ Nôm /

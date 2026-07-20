@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1113 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1114 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -2988,8 +2988,14 @@ const LANG_DATA = {
 },
   bhb: { name: 'Bhili', native: 'भीली', lat: 23.55, lng: 74.45, // Banswara
 },
-  // Austronesian (Cham, Vietnam)
-  cja: { name: 'Cham', native: 'Cham', lat: 11.57, lng: 108.99, // Phan Rang
+  // Chamic (Austronesian). Two Cham languages: Western Cham (cja, Muslim
+  // communities of Cambodia / An Giang, written in Jawi Arabic script) and
+  // Eastern Cham (cjm, Ninh Thuận/Bình Thuận Vietnam, written in the Cham
+  // Brahmic script Akhar Thrah). cja formerly sat at Phan Rang — that is
+  // Eastern Cham territory, so it moved west and cjm took the coastal spot.
+  cja: { name: 'Western Cham', native: 'چام', lat: 10.70, lng: 105.11, // Châu Đốc, An Giang
+},
+  cjm: { name: 'Eastern Cham', native: 'ꨌꩌ', lat: 11.57, lng: 108.99, // Phan Rang, Ninh Thuận
 },
   // Motu — Austronesian Oceanic, ~14K speakers, Central Province PNG. Pure form, distinct from Hiri Motu pidgin (hmo).
   // Sources: Ethnologue 27 'meu'; Glottolog motu1246; Lister-Turner & Clark (1931) Grammar of the Motu Language.
@@ -5193,6 +5199,10 @@ const HIST_DESCENDANT = {
     // Phase 13c: Russia / Thailand / Africa / Americas / Indonesia / Philippines ancient
     orv:'ru', xsc:null, sukh:'th', xmr:null, onw:null, cqu:'qu',
     omc:null, chb:null, oma:'ms', osu:'su', otl:'tl',
+    // 2026-07-21 (owner, extinct-as-modern audit): Kulon-Pazeh (Formosan) is
+    // dormant — last fluent speaker died 2010, ~0 L1 — and carries a period
+    // (18–21c), so it belongs on the historical map, not the modern one.
+    uun:null,
     // Pass 35: 5 historical additions (Ottoman→Turkish, Classical Mongolian→Mongolian,
     // Etruscan/Hattic/Tartessian = isolates with no living descendant)
     ota:'tr', cmg:'mn', ett:null, xht:null, txr:null, cms:null, pmh:'mr', ofs:'fy',

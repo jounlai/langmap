@@ -166,6 +166,11 @@
             src: url('fonts/NotoSansTaiViet-subset.woff2') format('woff2');
             unicode-range: U+AA80-AADF;      /* Tai Viet — blt */
         }
+        @font-face {
+            font-family: 'Brahmic Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansCham-subset.woff2') format('woff2');
+            unicode-range: U+AA00-AA5F;      /* Cham (Akhar Thrah) — cjm */
+        }
         /* Old Hangul Jamo (conjoining, used in Middle Korean ko_mid and
            Early-Modern Korean ko_em) — ᆞ arae-a, ᆡ arae-a-i, ᅀ pansiot,
            ᄉ ᄒ ᄃ etc. Google Fonts' default Noto Serif KR subset omits
@@ -2723,8 +2728,8 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=235"></script>
-    <script src="word_manifest.js?v=79"></script>
+    <script src="wordmap_data.js?v=236"></script>
+    <script src="word_manifest.js?v=80"></script>
     <script src="word_labels.js?v=6"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -2813,7 +2818,7 @@
          lang_names/<ui>.js from lang_names.js; the other three pages still
          load lang_names.js whole. -->
     <script src="lang_names_shim.js?v=1"></script>
-    <script src="lang_names/en.js?v=123"></script>
+    <script src="lang_names/en.js?v=124"></script>
     <script>
         (function () {
             window.__langNamesVersion(122);
@@ -2842,7 +2847,7 @@
                 return 'en';
             }
             var ui = pick();
-            if (ui !== 'en') document.write('<script src="lang_names/' + ui + '.js?v=123"><\/script>');
+            if (ui !== 'en') document.write('<script src="lang_names/' + ui + '.js?v=124"><\/script>');
         })();
     </script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
@@ -3170,14 +3175,14 @@
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:   124,
-            data:      235,
+            data:      236,
             metaI18n:  15,
             filter:    33,
-            names:   123,
-            meta:     221,
+            names:   124,
+            meta:     222,
             trivia:   27,
             triviaI18n: 4,
-            words:      79,
+            words:      80,
             labels:      6,
             metaI18nCoverage: 10,
         };
@@ -4347,11 +4352,15 @@
             // (recently extinct or still moribund) → shown as modern, per user
             // policy. NOTE: uby & mnc reverse a prior deliberate 'historical'
             // classification (see EXCLUDED_CODES notes) at the owner's request.
-            'uby',   // Ubykh — last speaker Tevfik Esenç died 1992
-            'yug',   // Yugh (Yeniseian) — last speakers late 20th century
-            'omc',   // Mochica (Muchik, Peru) — last speakers early-mid 20th century
+            // 2026-07-21 (owner): a language that is fully EXTINCT (no living
+            // speakers) AND carries a meta.period belongs on the HISTORICAL map,
+            // not here — yug, omc and bzg moved back out. Guarded by
+            // tools/extinct_classification_check.js. Two members of this batch
+            // deliberately stay: uby (extinct 1992) has no meta.period and its
+            // 'modern' placement was an explicit owner request; mnc still has
+            // ~20 elderly L1 speakers (Sanjiazi), so it is not extinct.
+            'uby',   // Ubykh — last speaker Tevfik Esenç died 1992 (no period)
             'mnc',   // Manchu — a few elderly L1 speakers remain (Sanjiazi)
-            'bzg',   // Babuza / Favorlang (Formosan) — survived into the 20th century
             // 2026-07-09: fully-spoken languages whose dataStatus is 'fragmentary'
             // only because a handful of cells are genuinely unattested. Without
             // this, the info panel would show them a "fragmentary" chip that

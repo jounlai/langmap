@@ -8226,16 +8226,17 @@
             if (window.__compareList && window.__compareList.length > 0) {
                 params.set('cmp', window.__compareList.join(','));
             }
-            // Preserve the filter param owned by lang-filter.js
-            const fParam = (window.__langmap && typeof window.__langmap.getFilterHashParam === 'function')
-                ? window.__langmap.getFilterHashParam() : '';
-            if (fParam) {
-                const eq = fParam.indexOf('=');
-                params.set(fParam.slice(0, eq), fParam.slice(eq + 1));
-            }
             // Undo URLSearchParams' %2C so p=lat,lng,z and cmp=code,code keep
             // literal commas — shorter, still parsed correctly on load.
-            const hash = '#' + params.toString().replace(/%2C/g, ',');
+            let hashBody = params.toString().replace(/%2C/g, ',');
+            // Preserve the filter param owned by lang-filter.js — appended
+            // VERBATIM (raw : | , separators) rather than via params.set, which
+            // would percent-encode them (f=family%3ARomance): longer, and a
+            // format loadFilterFromHash then has to un-encode. Matches syncHash.
+            const fParam = (window.__langmap && typeof window.__langmap.getFilterHashParam === 'function')
+                ? window.__langmap.getFilterHashParam() : '';
+            if (fParam) hashBody += (hashBody ? '&' : '') + fParam;
+            const hash = '#' + hashBody;
             // replaceState by default — avoids history bloat from continuous
             // moveend/zoomend. Caller can pass {push:true} for explicit nav.
             try {

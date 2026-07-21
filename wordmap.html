@@ -2821,7 +2821,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=33"></script>
+    <script src="lang-filter.js?v=34"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~200 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -3188,7 +3188,7 @@
             styles:   124,
             data:      237,
             metaI18n:  15,
-            filter:    33,
+            filter:    34,
             names:   125,
             meta:     226,
             trivia:   27,
@@ -5595,17 +5595,19 @@
             if (compareOpen && window.__compareList && window.__compareList.length > 0) {
                 params.set('cmp', window.__compareList.join(','));
             }
-            // Preserve the filter param owned by lang-filter.js
-            const fParam = (window.__langmap && typeof window.__langmap.getFilterHashParam === 'function')
-                ? window.__langmap.getFilterHashParam() : '';
-            if (fParam) {
-                const eq = fParam.indexOf('=');
-                params.set(fParam.slice(0, eq), fParam.slice(eq + 1));
-            }
             // Undo URLSearchParams' %2C so combined params (p=lat,lng,z and
             // cmp=code,code) keep literal commas — shorter, and still parsed
             // correctly on load (URLSearchParams reads literal commas fine).
-            const hash = '#' + params.toString().replace(/%2C/g, ',');
+            let hashBody = params.toString().replace(/%2C/g, ',');
+            // Preserve the filter param owned by lang-filter.js — appended
+            // VERBATIM (raw : | , separators) rather than via params.set, which
+            // would percent-encode the separators (f=family%3ARomance): longer,
+            // and a format loadFilterFromHash then has to un-encode. This matches
+            // how lang-filter's own syncHash writes f=.
+            const fParam = (window.__langmap && typeof window.__langmap.getFilterHashParam === 'function')
+                ? window.__langmap.getFilterHashParam() : '';
+            if (fParam) hashBody += (hashBody ? '&' : '') + fParam;
+            const hash = '#' + hashBody;
             // replaceState by default — avoids history bloat from continuous
             // moveend/zoomend. Caller can pass {push:true} for explicit nav.
             try {

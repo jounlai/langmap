@@ -147,6 +147,7 @@
             <ul>
                 <li>The link in the address bar used to spell out every setting even when it was at its default — <code>#w=water&amp;z=5&amp;lat=25.00&amp;lng=20.00&amp;nat=0&amp;hist=0&amp;pin=0&amp;fs=140&amp;ui=en&amp;g3d=0</code>. Now it only carries what you've actually changed, so a plain share collapses to just <code>#w=water</code>. Move the map, flip a toggle or open a language and those pieces come back — nothing is lost, and every old long link still opens exactly as before. Applies to both the Word Map and the Han Map.</li>
                 <li>When the map has been moved, the three location pieces are now packed into one — <code>p=35.68,139.69,6</code> (latitude, longitude, zoom) instead of <code>z=6&amp;lat=35.68&amp;lng=139.69</code> — trimming the link a little further.</li>
+                <li>Fixed along the way: a shared link carrying a language filter could drop the filter the instant it opened (the <code>:</code> in <code>f=family:Romance</code> came back percent-encoded as <code>%3A</code> and wasn't recognised, so the map rewrote the link without it). Filters in shared links now restore reliably, and the filter piece is written in its shorter, un-encoded form.</li>
             </ul>
         </div>
 

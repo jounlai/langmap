@@ -854,6 +854,9 @@
         morph:   new Set(),
         speaker: new Set(),
     };
+    // Set once, the first time init() hydrates filterState from the URL hash,
+    // so deferred init() retries don't re-read (and re-clear from) the hash.
+    let _filterHydrated = false;
 
     // ----- URL-hash persistence ------------------------------------------
     // Encoded as a single hash param `f=cat:val,val|cat:val|…`.
@@ -900,7 +903,16 @@
         if (!h) return;
         const fParam = h.split('&').find(p => p.startsWith('f='));
         if (!fParam) return;
-        const decoded = decodeFilterParam(fParam.slice(2));
+        let raw = fParam.slice(2);
+        // app.js's updateHash historically routed f= through URLSearchParams,
+        // which percent-encodes the : | , separators (f=family%3ARomance),
+        // whereas syncHash writes them raw (f=family:Romance). If the separators
+        // are encoded, undo exactly one layer so decodeFilterParam (which splits
+        // on literal : | , and decodes each value itself) parses both forms.
+        // Only when a separator is actually encoded — otherwise a raw value that
+        // legitimately contains an encoded comma (a%2Cb) would be over-decoded.
+        if (/%3A|%7C/i.test(raw)) { try { raw = decodeURIComponent(raw); } catch (_) {} }
+        const decoded = decodeFilterParam(raw);
         for (const cat of Object.keys(decoded)) {
             filterState[cat].clear();
             for (const v of decoded[cat]) filterState[cat].add(v);
@@ -1424,12 +1436,17 @@
     }
 
     function init() {
+        // Hydrate filterState from the URL hash IMMEDIATELY — BEFORE the
+        // LANG_DATA guard below. loadFilterFromHash() only reads the hash (no
+        // meta / LANG_DATA needed), and this MUST run before app.js's first
+        // updateHash() fires, otherwise getFilterHashParam() returns empty and
+        // the f= param gets clobbered out of the URL on load (e.g. a shared
+        // link with a position param triggers setView → moveend → updateHash
+        // while wordmap_data.js is still loading and init() is deferred).
+        // One-shot so a later retry can't re-read (and re-clear from) a hash
+        // that a racing updateHash already stripped f= from.
+        if (!_filterHydrated) { _filterHydrated = true; loadFilterFromHash(); }
         if (typeof LANG_DATA === 'undefined') return setTimeout(init, 200);
-        // Hydrate filterState from URL hash IMMEDIATELY (synchronous; doesn't
-        // need meta or LANG_DATA — just the hash). This must happen before
-        // app.js's first updateHash() call, otherwise getFilterHashParam()
-        // returns empty and the f= param gets clobbered out of the URL.
-        loadFilterFromHash();
         injectStyles();
 
         const fab = document.createElement('button');

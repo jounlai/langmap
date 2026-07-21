@@ -8179,14 +8179,27 @@
                 lat = c.lat; lng = c.lng;
                 z = map.getZoom();
             }
+            // Shorter share URLs: only emit params that differ from their
+            // defaults. loadHash() falls back to the default for every missing
+            // key, so an omitted param round-trips identically and old
+            // full-length URLs still parse (fully backward-compatible).
             const params = new URLSearchParams();
             params.set('w', currentWord);
-            params.set('z', String(z));
-            params.set('lat', lat.toFixed(2));
-            params.set('lng', lng.toFixed(2));
-            params.set('nat', showNative ? '1' : '0');
-            params.set('hist', showHistorical ? '1' : '0');
-            params.set('fs', String(fontSizeSlider.value));
+            // Position: drop it when the 2D map is still at its (locale-based)
+            // initial view; loadHash needs all three or none, so they travel
+            // together. Always kept in 3D.
+            const atDefaultView = !is3D
+                && Math.abs(lat - _initialCenter[0]) < 0.02
+                && Math.abs(lng - _initialCenter[1]) < 0.02
+                && Math.round(z * 2) === 10;   // z === 5, the init zoom
+            if (!atDefaultView) {
+                params.set('z', String(z));
+                params.set('lat', lat.toFixed(2));
+                params.set('lng', lng.toFixed(2));
+            }
+            if (showNative)     params.set('nat', '1');   // default: off
+            if (showHistorical) params.set('hist', '1');  // default: off
+            if (String(fontSizeSlider.value) !== '140') params.set('fs', String(fontSizeSlider.value)); // default: 140
             // 2026-05-31: persist the settings-drawer toggles so a reload
             // keeps the user's display preferences. Only emit when off
             // (default ON for all four) to keep URLs short on first share.
@@ -8195,9 +8208,11 @@
             if (!showIpa)    params.set('w_ipa', '0');
             if (!showName)   params.set('w_name', '0');
             if (showPins)    params.set('pin', '1');   // default OFF — emit only when on
-            params.set('ui', uiLang);
-            params.set('g3d', is3D ? '1' : '0');
-            if (is3D && globe) params.set('alt', globe.pointOfView().altitude.toFixed(2));
+            if (uiLang !== detectBrowserLang()) params.set('ui', uiLang);  // default: the viewer's own browser language
+            if (is3D) {
+                params.set('g3d', '1');
+                if (globe) params.set('alt', globe.pointOfView().altitude.toFixed(2));
+            }
             // Persist open language modal so reload restores it.
             const openCode = infoPanel && infoPanel.classList.contains('visible')
                 ? infoPanel.dataset.code : '';

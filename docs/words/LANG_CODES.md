@@ -261,7 +261,7 @@ Total: 1120 codes.
 | `en_au` | English (Australian) | 英語(オーストラリア) | Germanic | ~25M |
 | `en_brum` | English (Brummie) | 英語(ブラミー) | Indo-European (West Germanic, English) | ~1M+ (Birmingham) |
 | `en_ca` | English (Canadian) | 英語(カナダ) | Germanic | ~28M |
-| `en_ck` | English (Cockney) | 英語(コックニー) | Indo-European (West Germanic, English, Caribbean) | ~30K |
+| `en_ck` | English (Cockney) | 英語(コックニー) | Indo-European (West Germanic, English) | ~500K (East London, declining) |
 | `en_em` | Early Modern English | 初期近代英語 | Indo-European (Germanic, West, Anglic) | Historical (1500–1700) |
 | `en_est` | English (Estuary) | 英語(河口域) | Indo-European (West Germanic, English) | ~10M (SE England) |
 | `en_geordie` | English (Geordie) | 英語(ジョーディー) | Indo-European (West Germanic, English) | ~1.1M (Tyneside) |

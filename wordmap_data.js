@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1114 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1120 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1491,6 +1491,21 @@ const LANG_DATA = {
   // Audit Task 161: shifted from London center to Bow / East End — the
   // working-class East London where Cockney is anchored.
   en_ck: { name: 'English (Cockney)', native: 'English (Cockney)', lat: 51.53, lng: -0.02,
+},
+  // British regional accents (owner 2026-07-21, "subdivide British English").
+  // Base `en` already carries Received Pronunciation; these are the major
+  // distinct regional accents anchored to their home cities.
+  en_scouse:  { name: 'English (Scouse)',        native: 'English (Scouse)',        lat: 53.41, lng: -2.99, // Liverpool
+},
+  en_geordie: { name: 'English (Geordie)',       native: 'English (Geordie)',       lat: 54.97, lng: -1.61, // Newcastle upon Tyne
+},
+  en_brum:    { name: 'English (Brummie)',       native: 'English (Brummie)',       lat: 52.48, lng: -1.90, // Birmingham
+},
+  en_manc:    { name: 'English (Mancunian)',     native: 'English (Mancunian)',     lat: 53.48, lng: -2.24, // Manchester
+},
+  en_wc:      { name: 'English (West Country)',  native: 'English (West Country)',  lat: 51.45, lng: -2.59, // Bristol
+},
+  en_est:     { name: 'English (Estuary)',       native: 'English (Estuary)',       lat: 51.54, lng: 0.71, // Thames Estuary (Southend)
 },
   en_sg: { name: 'Singlish', native: 'Singlish', lat: 1.35, lng: 103.82,
 },

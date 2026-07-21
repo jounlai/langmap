@@ -8193,9 +8193,9 @@
                 && Math.abs(lng - _initialCenter[1]) < 0.02
                 && Math.round(z * 2) === 10;   // z === 5, the init zoom
             if (!atDefaultView) {
-                params.set('z', String(z));
-                params.set('lat', lat.toFixed(2));
-                params.set('lng', lng.toFixed(2));
+                // One combined position param `p=lat,lng,z` instead of three
+                // keyed params. Commas kept literal (hash post-processed below).
+                params.set('p', lat.toFixed(2) + ',' + lng.toFixed(2) + ',' + z);
             }
             if (showNative)     params.set('nat', '1');   // default: off
             if (showHistorical) params.set('hist', '1');  // default: off
@@ -8233,7 +8233,9 @@
                 const eq = fParam.indexOf('=');
                 params.set(fParam.slice(0, eq), fParam.slice(eq + 1));
             }
-            const hash = '#' + params.toString();
+            // Undo URLSearchParams' %2C so p=lat,lng,z and cmp=code,code keep
+            // literal commas — shorter, still parsed correctly on load.
+            const hash = '#' + params.toString().replace(/%2C/g, ',');
             // replaceState by default — avoids history bloat from continuous
             // moveend/zoomend. Caller can pass {push:true} for explicit nav.
             try {
@@ -8256,9 +8258,16 @@
                     _hbtn.title = senseLabelOf(w, uiLang) || w;
                 }
             }
-            const z = parseFloat(params.get('z'));  // may be a half-level (zoomSnap 0.5)
-            const latStr = params.get('lat'); const lngStr = params.get('lng');
-            const lat = parseFloat(latStr); const lng = parseFloat(lngStr);
+            // Position: new combined `p=lat,lng,z`, falling back to the legacy
+            // separate z/lat/lng params so older shared URLs still work.
+            let z = parseFloat(params.get('z'));  // may be a half-level (zoomSnap 0.5)
+            let lat = parseFloat(params.get('lat'));
+            let lng = parseFloat(params.get('lng'));
+            const pParam = params.get('p');
+            if (pParam) {
+                const pp = pParam.split(',');
+                if (pp.length >= 3) { lat = parseFloat(pp[0]); lng = parseFloat(pp[1]); z = parseFloat(pp[2]); }
+            }
             if (Number.isFinite(z) && Number.isFinite(lat) && Number.isFinite(lng)) {
                 map.setView([lat, lng], z);
             }

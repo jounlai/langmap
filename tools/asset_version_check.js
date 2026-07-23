@@ -48,6 +48,7 @@ const ASSETS = {
   trivia:           { files: ['wordmap_trivia.js'] },
   metaI18n:         { files: ['meta_i18n_ext.js'] },
   metaI18nCoverage: { files: ['meta_i18n_coverage.js'] },
+  metaI18nCoverage2:{ files: ['meta_i18n_coverage2.js'] },
   triviaI18n:       { glob: /^wordmap_trivia_[a-z]{2,3}\.js$/ },
 };
 

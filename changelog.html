@@ -159,6 +159,14 @@
         </div>
 
         <div class="entry">
+            <div class="date">2026-07-23 — Metadata that reads naturally in every language</div>
+            <ul>
+                <li>In the language detail panel, the <em>Countries</em>, <em>Official</em>, <em>Script</em> and <em>Family</em> rows were being translated word-by-word, which left ugly half-English seams in non-English interfaces — Japanese showed "アルジェリア（Kabylie）; ディアスポラ in フランス" for Kabyle. Those four fields now read as proper sentences: "アルジェリア（カビリー）／フランスに離散コミュニティ", "アルジェリア（タマジクト語は2002年以降国語、2016年以降公用語）". Around 630 of the most tangled country/official phrases were fully translated into all 18 interface languages, and a batch of family, branch and script terms (including ones that were simply missing, like Cyrillic) were added.</li>
+                <li>Language-family wording is now consistent too: a family, a branch and a looser grouping each get their own standard suffix in each language (Japanese 語族 / 語派 / 諸語, and the equivalents elsewhere) — so "Niger-Congo (Mande, …, Vai-Kono)" reads "ニジェール・コンゴ語族（マンデ語派、…、ヴァイ・コノ語群）" instead of a mix.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-07-23 — Broken and missing description translations, repaired</div>
             <ul>
                 <li>A second, structural sweep of the language write-ups (separate from the factual one) caught a different family of defects: <strong>165 entries</strong> were repaired across all nineteen languages. Over a hundred had an English source that literally stopped mid-word — sometimes with an internal "[Provisional…]" work-note that had leaked into the live text and every translation. Seven had no translations at all (the six new British accents and Eastern Cham). The English was rebuilt from authoritative sources where broken, then every language was re-synced to it, so the required languages are now complete for all 1,120 entries. A new automated check (missing / untranslated / English-left-in / cut-off source) guards against regressions on every build.</li>

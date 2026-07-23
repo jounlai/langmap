@@ -49,6 +49,11 @@
     "hash": "15bfcda5e2d5847e",
     "files": 1
   },
+  "metaI18nCoverage2": {
+    "version": 1,
+    "hash": "091623cef53ca64a",
+    "files": 1
+  },
   "triviaI18n": {
     "version": 4,
     "hash": "2c3ac92e61479aaa",

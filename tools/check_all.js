@@ -79,6 +79,13 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 s = run('extinct_classification_check.js');
 line('extinct-as-modern classification', num(s, /extinct-as-modern: (\d+)/));
 
+// meta.description translation integrity: a missing / empty / untranslated
+// (same-as-English) UI-language description, or a run of English left inside a
+// translation, ships a broken info panel. Length outliers and source-* notes
+// are advisory (not counted here). Origin: review #425 (CODEX description audit).
+s = run('description_translation_check.js --check');
+line('description translation integrity', num(s, /blocking: (\d+)/));
+
 // Cache-version drift: wordmap.html serves data as `?v=WM_ASSET_VERSION[key]`.
 // Editing the data without bumping the key ships nothing — browsers keep the
 // old copy, and every other guard still passes. A whole day of Chữ Nôm /

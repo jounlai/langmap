@@ -9149,7 +9149,7 @@
                     } else {
                         rt = String(hanMeta.reading_type);
                     }
-                    if (rt) html += `<div style="margin:6px 0 4px;font-size:12px;color:#4a6cf7;font-weight:600">${escapeHtml(rt)}</div>`;
+                    if (rt) html += `<div style="margin:6px 0 4px;font-size:13px;color:#4a6cf7;font-weight:600">${escapeHtml(rt)}</div>`;
                 }
                 if (hanMeta.family) {
                     const famLabel = {
@@ -9160,7 +9160,7 @@
                         es: 'Familia', pt: 'Família', ru: 'Семья',
                         uk: 'Сім\'я', ar: 'العائلة', he: 'משפחה', sw: 'Familia',
                     }[uiBase] || 'Family';
-                    html += `<div style="margin:2px 0;font-size:11px;color:#666"><b>${escapeHtml(famLabel)}:</b> ${escapeHtml(hanMeta.family)}</div>`;
+                    html += `<div style="margin:2px 0;font-size:13px;color:#666"><b>${escapeHtml(famLabel)}:</b> ${escapeHtml(hanMeta.family)}</div>`;
                 }
                 if (hanMeta.region) {
                     const regLabel = {
@@ -9171,7 +9171,7 @@
                         es: 'Región', pt: 'Região', ru: 'Регион',
                         uk: 'Регіон', ar: 'المنطقة', he: 'אזור', sw: 'Eneo',
                     }[uiBase] || 'Region';
-                    html += `<div style="margin:2px 0 6px;font-size:11px;color:#666"><b>${escapeHtml(regLabel)}:</b> ${escapeHtml(hanMeta.region)}</div>`;
+                    html += `<div style="margin:2px 0 6px;font-size:13px;color:#666"><b>${escapeHtml(regLabel)}:</b> ${escapeHtml(hanMeta.region)}</div>`;
                 }
                 if (hanMeta.speakers) {
                     // 話者数 (speaker count) row — sourced figure with
@@ -9191,7 +9191,7 @@
                     const srcPart = hanMeta.speakersSource
                         ? ` <span style="color:#999">(${escapeHtml(hanMeta.speakersSource)})</span>`
                         : '';
-                    html += `<div style="margin:2px 0 6px;font-size:11px;color:#666"><b>${escapeHtml(spkLabel)}:</b> ${escapeHtml(hanMeta.speakers)}${srcPart}</div>`;
+                    html += `<div style="margin:2px 0 6px;font-size:13px;color:#666"><b>${escapeHtml(spkLabel)}:</b> ${escapeHtml(hanMeta.speakers)}${srcPart}</div>`;
                 }
                 if (hanMeta.description) {
                     let desc = '';
@@ -9201,7 +9201,7 @@
                         desc = String(hanMeta.description);
                     }
                     if (desc) {
-                        html += `<div class="desc" style="margin:8px 0 12px;font-size:12px;line-height:1.55;color:#444">${escapeHtml(desc)}</div>`;
+                        html += `<div class="desc" style="margin:8px 0 12px;font-size:14px;line-height:1.6;color:#444">${escapeHtml(desc)}</div>`;
                     }
                 }
                 if (hanMeta.romanization) {
@@ -9217,7 +9217,7 @@
                     const r = hanMeta.romanization;
                     const yearPart = r.year ? ` (${r.year})` : '';
                     const authPart = r.authority ? ` — ${r.authority}` : '';
-                    html += `<div style="margin:6px 0 4px;font-size:11px;color:#666"><b>${escapeHtml(romLabel)}:</b> ${escapeHtml(r.name || '')}${escapeHtml(authPart)}${escapeHtml(yearPart)}</div>`;
+                    html += `<div style="margin:6px 0 4px;font-size:13px;color:#666"><b>${escapeHtml(romLabel)}:</b> ${escapeHtml(r.name || '')}${escapeHtml(authPart)}${escapeHtml(yearPart)}</div>`;
                 }
                 if (hanMeta.sources && hanMeta.sources.length) {
                     const srcLabel = {
@@ -9227,8 +9227,8 @@
                         pt: 'Fontes', ru: 'Источники', uk: 'Джерела',
                         ar: 'المصادر', he: 'מקורות', sw: 'Vyanzo',
                     }[uiBase] || 'Sources';
-                    html += `<div style="margin:8px 0 4px;font-size:11px;color:#888"><b>${escapeHtml(srcLabel)}:</b></div>`;
-                    html += '<ul style="margin:0 0 12px 16px;padding:0;font-size:11px;color:#666;line-height:1.5">';
+                    html += `<div style="margin:8px 0 4px;font-size:12px;color:#888"><b>${escapeHtml(srcLabel)}:</b></div>`;
+                    html += '<ul style="margin:0 0 12px 16px;padding:0;font-size:12px;color:#666;line-height:1.55">';
                     // Unwrap mixed-shape source entries so we never render
                     // "[object Object]". Supported shapes per item:
                     //   - string                  → literal text
@@ -9332,7 +9332,7 @@
             }
             const hasNative = charBlocks.some(b => b.rows.some(r => r.native && r.native.trim()));
 
-            html += `<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px;width:100%;border-collapse:collapse;font-size:12px">`;
+            html += `<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px;width:100%;border-collapse:collapse;font-size:13px">`;
             html += `<thead><tr style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:0.04em">`;
             html += `<th style="text-align:left;font-weight:500;padding:4px 6px 6px 0;width:36px">${escapeHtml(tHead[0])}</th>`;
             if (hasNative) html += `<th style="text-align:left;font-weight:500;padding:4px 6px 6px 0">${escapeHtml(tHead[1])}</th>`;

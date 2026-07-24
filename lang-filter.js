@@ -616,7 +616,7 @@
         ja:  { '100M+':'1億+', '10M+':'1千万+', '1M+':'100万+', '100K+':'10万+', '10K+':'1万+', '1K+':'1千+', '<1K':'千未満' },
         ko:  { '100M+':'1억+', '10M+':'천만+',   '1M+':'백만+', '100K+':'십만+', '10K+':'만+',   '1K+':'천+',   '<1K':'천 미만' },
         zh:  { '100M+':'1亿+', '10M+':'1千万+', '1M+':'100万+', '100K+':'10万+', '10K+':'1万+', '1K+':'1千+', '<1K':'<1千' },
-        yue: { '100M+':'1億+', '10M+':'1千萬+', '1M+':'100萬+', '100K+':'10萬+', '10K+':'1萬+', '1K+':'1千+', '<1K':'<1千' },
+        yue: { title_period:'時期', period_from:'起', period_to:'迄', close:'關閉', '100M+':'1億+', '10M+':'1千萬+', '1M+':'100萬+', '100K+':'10萬+', '10K+':'1萬+', '1K+':'1千+', '<1K':'<1千' },
     };
 
     // ----- Family aggregation (top-level only, drop parens) ---------------
@@ -858,6 +858,41 @@
     // so deferred init() retries don't re-read (and re-clear from) the hash.
     let _filterHydrated = false;
 
+    // ----- Historical period-range filter --------------------------------
+    // Only shown / active in historical mode. Selection is a CONTIGUOUS range
+    // of centuries; a language passes when its meta.period OVERLAPS that range.
+    // The slider works in signed century indices: -45..-1 = 45c..1c BCE,
+    // +1..+21 = 1c..21c CE (0 treated as the BCE/CE boundary). Full span =
+    // inactive. -45 / +21 are the data's actual earliest start / latest end.
+    const PERIOD_MIN_IDX = -45, PERIOD_MAX_IDX = 21;
+    const periodFilter = { fromIdx: PERIOD_MIN_IDX, toIdx: PERIOD_MAX_IDX };
+    function periodActive() {
+        return periodFilter.fromIdx > PERIOD_MIN_IDX || periodFilter.toIdx < PERIOD_MAX_IDX;
+    }
+    // A century index -> the year at the START (for a range's left edge) or
+    // END (right edge) of that century. Signed years, negative = BCE.
+    function idxToYearStart(i) { return i < 0 ? i * 100 : (i <= 0 ? 0 : (i - 1) * 100); }
+    function idxToYearEnd(i)   { return i < 0 ? -(((-i) - 1) * 100) : i * 100; }
+    function fmtIdx(i) { return i < 0 ? (-i) + 'c BCE' : (i <= 0 ? '1c CE' : i + 'c CE'); }
+    // Parse a meta.period string ("15cBCE–21cCE", "6–1cBCE", "5–12c") into a
+    // [startYear, endYear] pair of signed years. A bare side inherits the era
+    // marker of the other side. Returns null if unparseable.
+    function periodToRange(str) {
+        if (!str) return null;
+        let p = String(str).split('–');
+        if (p.length !== 2) p = [p[0], p[0]];
+        const era = x => /BCE/i.test(x) ? 'BCE' : (/CE/i.test(x) ? 'CE' : null);
+        const cen = x => { const m = x.match(/(\d+)/); return m ? +m[1] : null; };
+        let [L, R] = p;
+        let eL = era(L), eR = era(R);
+        if (!eR) eR = eL || 'CE';
+        if (!eL) eL = eR;
+        const cL = cen(L), cR = cen(R);
+        if (cL == null || cR == null) return null;
+        return [eL === 'BCE' ? -(cL * 100) : (cL - 1) * 100,
+                eR === 'BCE' ? -((cR - 1) * 100) : (cR * 100)];
+    }
+
     // ----- URL-hash persistence ------------------------------------------
     // Encoded as a single hash param `f=cat:val,val|cat:val|…`.
     // Section/value separators (|, :, ,) chosen to avoid collision with the
@@ -960,15 +995,27 @@
             }
             if (!allowed.has(v)) return false;
         }
+        // Historical period-range: keep only languages whose attested span
+        // OVERLAPS the selected century range. A historical language with an
+        // unparseable/absent period can't be range-checked → excluded while
+        // the range filter is active.
+        if (periodActive()) {
+            const rng = periodToRange((LANG_DATA[code] && LANG_DATA[code].meta || {}).period);
+            if (!rng) return false;
+            const lo = idxToYearStart(periodFilter.fromIdx);
+            const hi = idxToYearEnd(periodFilter.toIdx);
+            if (rng[0] > hi || rng[1] < lo) return false;
+        }
         return true;
     }
 
     function anyFilterActive() {
-        return Object.values(filterState).some(s => s.size > 0);
+        return periodActive() || Object.values(filterState).some(s => s.size > 0);
     }
 
     function totalActiveFilters() {
-        return Object.values(filterState).reduce((s, set) => s + set.size, 0);
+        return (periodActive() ? 1 : 0)
+             + Object.values(filterState).reduce((s, set) => s + set.size, 0);
     }
 
     // ----- Visual application (DOM-based) ---------------------------------
@@ -1043,6 +1090,16 @@
             font-size: 10px; padding: 2px 6px; cursor: pointer; color: #666;
         }
         .lf-reset:hover { background: #f5f5f5; border-color: #aaa; }
+        .lf-close {
+            border: none; background: transparent; cursor: pointer; color: #666;
+            font-size: 20px; line-height: 1; padding: 0 4px; margin-left: 2px;
+            border-radius: 4px; font-weight: 400;
+        }
+        .lf-close:hover { background: #eee; color: #000; }
+        .lf-period-readout { font-size: 12px; font-weight: 600; color: #333; text-align: center; margin: 2px 0 6px; }
+        .lf-period-row { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
+        .lf-period-cap { font-size: 10px; color: #888; width: 40px; flex: none; }
+        .lf-period-row input[type=range] { flex: 1; min-width: 0; accent-color: #4a6cf7; height: 18px; }
 
         .lf-section { margin-top: 10px; }
         .lf-section-title {
@@ -1132,6 +1189,15 @@
             }
             if (!allowed.has(v)) return false;
         }
+        // Period range applies to chip counts too (it's never a chip category,
+        // so it's always enforced here when active).
+        if (periodActive()) {
+            const rng = periodToRange((LANG_DATA[code] && LANG_DATA[code].meta || {}).period);
+            if (!rng) return false;
+            const lo = idxToYearStart(periodFilter.fromIdx);
+            const hi = idxToYearEnd(periodFilter.toIdx);
+            if (rng[0] > hi || rng[1] < lo) return false;
+        }
         return true;
     }
 
@@ -1204,27 +1270,27 @@
     // Filter-UI strings translated for all 21 UI languages. {n} = remaining
     // count placeholder (used in show-more toggle and counter).
     const FILTER_UI_TEXT = {
-        en: { title_filter:'Filter', title_family:'Family', title_script:'Script', title_wo:'Word Order', title_tone:'Tone', title_morph:'Morphology', title_speaker:'Speakers', btn_clear:'Clear', btn_show_more:'+ Show {n} more', btn_collapse:'− Collapse', loading:'Loading…', loading_data:'Loading language data…', val_tonal:'tonal', val_non_tonal:'non-tonal', count_total:'{n} languages', count_active:'{m} / {n} languages' },
-        ja: { title_filter:'フィルター', title_family:'語族', title_script:'文字', title_wo:'語順', title_tone:'声調', title_morph:'形態論', title_speaker:'話者数', btn_clear:'クリア', btn_show_more:'+ もっと表示 ({n}件)', btn_collapse:'− 折りたたむ', loading:'読み込み中…', loading_data:'言語データを読み込み中…', val_tonal:'声調あり', val_non_tonal:'声調なし', count_total:'{n} 言語', count_active:'{m} / {n} 言語' },
-        ko: { title_filter:'필터', title_family:'어족', title_script:'문자', title_wo:'어순', title_tone:'성조', title_morph:'형태론', title_speaker:'화자 수', btn_clear:'지우기', btn_show_more:'+ 더 보기 ({n})', btn_collapse:'− 접기', loading:'로딩 중…', loading_data:'언어 데이터 로딩 중…', val_tonal:'성조 있음', val_non_tonal:'성조 없음', count_total:'{n}개 언어', count_active:'{m} / {n}개 언어' },
-        zh: { title_filter:'筛选', title_family:'语系', title_script:'文字', title_wo:'语序', title_tone:'声调', title_morph:'形态学', title_speaker:'使用者人数', btn_clear:'清除', btn_show_more:'+ 显示更多 ({n})', btn_collapse:'− 折叠', loading:'加载中…', loading_data:'正在加载语言数据…', val_tonal:'有声调', val_non_tonal:'无声调', count_total:'{n} 种语言', count_active:'{m} / {n} 种语言' },
-        yue: { title_filter:'篩選', title_family:'語系', title_script:'文字', title_wo:'語序', title_tone:'聲調', title_morph:'形態學', title_speaker:'使用者人數', btn_clear:'清除', btn_show_more:'+ 顯示更多 ({n})', btn_collapse:'− 摺疊', loading:'載入中…', loading_data:'正在載入語言數據…', val_tonal:'有聲調', val_non_tonal:'無聲調', count_total:'{n} 種語言', count_active:'{m} / {n} 種語言' },
-        vi: { title_filter:'Bộ lọc', title_family:'Họ ngôn ngữ', title_script:'Chữ viết', title_wo:'Trật tự từ', title_tone:'Thanh điệu', title_morph:'Hình thái', title_speaker:'Người nói', btn_clear:'Xóa', btn_show_more:'+ Hiện thêm {n}', btn_collapse:'− Thu gọn', loading:'Đang tải…', loading_data:'Đang tải dữ liệu ngôn ngữ…', val_tonal:'có thanh điệu', val_non_tonal:'không thanh điệu', count_total:'{n} ngôn ngữ', count_active:'{m} / {n} ngôn ngữ' },
-        th: { title_filter:'ตัวกรอง', title_family:'ตระกูลภาษา', title_script:'อักษร', title_wo:'ลำดับคำ', title_tone:'วรรณยุกต์', title_morph:'สัณฐานวิทยา', title_speaker:'จำนวนผู้พูด', btn_clear:'ล้าง', btn_show_more:'+ แสดงเพิ่ม {n}', btn_collapse:'− ย่อ', loading:'กำลังโหลด…', loading_data:'กำลังโหลดข้อมูลภาษา…', val_tonal:'มีวรรณยุกต์', val_non_tonal:'ไม่มีวรรณยุกต์', count_total:'{n} ภาษา', count_active:'{m} / {n} ภาษา' },
-        id: { title_filter:'Filter', title_family:'Rumpun', title_script:'Aksara', title_wo:'Urutan Kata', title_tone:'Tonal', title_morph:'Morfologi', title_speaker:'Jumlah Penutur', btn_clear:'Hapus', btn_show_more:'+ Tampilkan {n} lagi', btn_collapse:'− Ciutkan', loading:'Memuat…', loading_data:'Memuat data bahasa…', val_tonal:'tonal', val_non_tonal:'non-tonal', count_total:'{n} bahasa', count_active:'{m} / {n} bahasa' },
-        hi: { title_filter:'फ़िल्टर', title_family:'भाषा परिवार', title_script:'लिपि', title_wo:'शब्द क्रम', title_tone:'स्वराघात', title_morph:'आकृति विज्ञान', title_speaker:'वक्ता संख्या', btn_clear:'साफ़ करें', btn_show_more:'+ {n} और दिखाएं', btn_collapse:'− सिकोड़ें', loading:'लोड हो रहा है…', loading_data:'भाषा डेटा लोड हो रहा है…', val_tonal:'स्वराघातिक', val_non_tonal:'गैर-स्वराघातिक', count_total:'{n} भाषाएं', count_active:'{m} / {n} भाषाएं' },
-        de: { title_filter:'Filter', title_family:'Sprachfamilie', title_script:'Schrift', title_wo:'Wortstellung', title_tone:'Ton', title_morph:'Morphologie', title_speaker:'Sprecher', btn_clear:'Löschen', btn_show_more:'+ {n} weitere anzeigen', btn_collapse:'− Einklappen', loading:'Lädt…', loading_data:'Sprachdaten werden geladen…', val_tonal:'tonal', val_non_tonal:'nicht tonal', count_total:'{n} Sprachen', count_active:'{m} / {n} Sprachen' },
-        fr: { title_filter:'Filtre', title_family:'Famille', title_script:'Écriture', title_wo:'Ordre des mots', title_tone:'Ton', title_morph:'Morphologie', title_speaker:'Locuteurs', btn_clear:'Effacer', btn_show_more:'+ Afficher {n} de plus', btn_collapse:'− Réduire', loading:'Chargement…', loading_data:'Chargement des données…', val_tonal:'tonale', val_non_tonal:'non tonale', count_total:'{n} langues', count_active:'{m} / {n} langues' },
-        it: { title_filter:'Filtro', title_family:'Famiglia', title_script:'Scrittura', title_wo:'Ordine parole', title_tone:'Tono', title_morph:'Morfologia', title_speaker:'Parlanti', btn_clear:'Cancella', btn_show_more:'+ Mostra altri {n}', btn_collapse:'− Comprimi', loading:'Caricamento…', loading_data:'Caricamento dati lingue…', val_tonal:'tonale', val_non_tonal:'non tonale', count_total:'{n} lingue', count_active:'{m} / {n} lingue' },
-        es_eu: { title_filter:'Filtro', title_family:'Familia', title_script:'Escritura', title_wo:'Orden de palabras', title_tone:'Tono', title_morph:'Morfología', title_speaker:'Hablantes', btn_clear:'Borrar', btn_show_more:'+ Mostrar {n} más', btn_collapse:'− Contraer', loading:'Cargando…', loading_data:'Cargando datos de idiomas…', val_tonal:'tonal', val_non_tonal:'no tonal', count_total:'{n} idiomas', count_active:'{m} / {n} idiomas' },
-        es_mx: { title_filter:'Filtro', title_family:'Familia', title_script:'Escritura', title_wo:'Orden de palabras', title_tone:'Tono', title_morph:'Morfología', title_speaker:'Hablantes', btn_clear:'Borrar', btn_show_more:'+ Mostrar {n} más', btn_collapse:'− Contraer', loading:'Cargando…', loading_data:'Cargando datos de idiomas…', val_tonal:'tonal', val_non_tonal:'no tonal', count_total:'{n} idiomas', count_active:'{m} / {n} idiomas' },
-        pt_eu: { title_filter:'Filtro', title_family:'Família', title_script:'Escrita', title_wo:'Ordem das palavras', title_tone:'Tom', title_morph:'Morfologia', title_speaker:'Falantes', btn_clear:'Limpar', btn_show_more:'+ Mostrar mais {n}', btn_collapse:'− Recolher', loading:'A carregar…', loading_data:'A carregar dados de idiomas…', val_tonal:'tonal', val_non_tonal:'não tonal', count_total:'{n} idiomas', count_active:'{m} / {n} idiomas' },
-        pt_br: { title_filter:'Filtro', title_family:'Família', title_script:'Escrita', title_wo:'Ordem das palavras', title_tone:'Tom', title_morph:'Morfologia', title_speaker:'Falantes', btn_clear:'Limpar', btn_show_more:'+ Mostrar mais {n}', btn_collapse:'− Recolher', loading:'Carregando…', loading_data:'Carregando dados de idiomas…', val_tonal:'tonal', val_non_tonal:'não tonal', count_total:'{n} idiomas', count_active:'{m} / {n} idiomas' },
-        ru: { title_filter:'Фильтр', title_family:'Семья', title_script:'Письмо', title_wo:'Порядок слов', title_tone:'Тон', title_morph:'Морфология', title_speaker:'Говорящие', btn_clear:'Очистить', btn_show_more:'+ Показать ещё {n}', btn_collapse:'− Свернуть', loading:'Загрузка…', loading_data:'Загрузка данных…', val_tonal:'тональный', val_non_tonal:'не тональный', count_total:'{n} языков', count_active:'{m} / {n} языков' },
-        uk: { title_filter:'Фільтр', title_family:'Родина', title_script:'Письмо', title_wo:'Порядок слів', title_tone:'Тон', title_morph:'Морфологія', title_speaker:'Мовці', btn_clear:'Очистити', btn_show_more:'+ Показати ще {n}', btn_collapse:'− Згорнути', loading:'Завантаження…', loading_data:'Завантаження даних…', val_tonal:'тональна', val_non_tonal:'не тональна', count_total:'{n} мов', count_active:'{m} / {n} мов' },
-        ar: { title_filter:'فلتر', title_family:'العائلة', title_script:'الخط', title_wo:'ترتيب الكلمات', title_tone:'النبرة', title_morph:'علم الصرف', title_speaker:'عدد المتحدثين', btn_clear:'مسح', btn_show_more:'+ عرض {n} المزيد', btn_collapse:'− طي', loading:'جارٍ التحميل…', loading_data:'جارٍ تحميل بيانات اللغة…', val_tonal:'نبري', val_non_tonal:'غير نبري', count_total:'{n} لغات', count_active:'{m} / {n} لغات' },
-        he: { title_filter:'סינון', title_family:'משפחה', title_script:'כתב', title_wo:'סדר מילים', title_tone:'טון', title_morph:'מורפולוגיה', title_speaker:'דוברים', btn_clear:'נקה', btn_show_more:'+ הצג עוד {n}', btn_collapse:'− כווץ', loading:'טוען…', loading_data:'טוען נתוני שפה…', val_tonal:'טונאלית', val_non_tonal:'לא טונאלית', count_total:'{n} שפות', count_active:'{m} / {n} שפות' },
-        sw: { title_filter:'Kichujio', title_family:'Familia', title_script:'Mwandiko', title_wo:'Mpangilio wa Maneno', title_tone:'Toni', title_morph:'Mofolojia', title_speaker:'Wazungumzaji', btn_clear:'Futa', btn_show_more:'+ Onyesha {n} zaidi', btn_collapse:'− Kunja', loading:'Inapakia…', loading_data:'Inapakia data ya lugha…', val_tonal:'yenye toni', val_non_tonal:'isiyo na toni', count_total:'lugha {n}', count_active:'{m} / {n} lugha' },
+        en: { title_period:'Period', period_from:'From', period_to:'To', close:'Close', title_filter:'Filter', title_family:'Family', title_script:'Script', title_wo:'Word Order', title_tone:'Tone', title_morph:'Morphology', title_speaker:'Speakers', btn_clear:'Clear', btn_show_more:'+ Show {n} more', btn_collapse:'− Collapse', loading:'Loading…', loading_data:'Loading language data…', val_tonal:'tonal', val_non_tonal:'non-tonal', count_total:'{n} languages', count_active:'{m} / {n} languages' },
+        ja: { title_period:'時代', period_from:'開始', period_to:'終了', close:'閉じる', title_filter:'フィルター', title_family:'語族', title_script:'文字', title_wo:'語順', title_tone:'声調', title_morph:'形態論', title_speaker:'話者数', btn_clear:'クリア', btn_show_more:'+ もっと表示 ({n}件)', btn_collapse:'− 折りたたむ', loading:'読み込み中…', loading_data:'言語データを読み込み中…', val_tonal:'声調あり', val_non_tonal:'声調なし', count_total:'{n} 言語', count_active:'{m} / {n} 言語' },
+        ko: { title_period:'시대', period_from:'시작', period_to:'끝', close:'닫기', title_filter:'필터', title_family:'어족', title_script:'문자', title_wo:'어순', title_tone:'성조', title_morph:'형태론', title_speaker:'화자 수', btn_clear:'지우기', btn_show_more:'+ 더 보기 ({n})', btn_collapse:'− 접기', loading:'로딩 중…', loading_data:'언어 데이터 로딩 중…', val_tonal:'성조 있음', val_non_tonal:'성조 없음', count_total:'{n}개 언어', count_active:'{m} / {n}개 언어' },
+        zh: { title_period:'时期', period_from:'起', period_to:'迄', close:'关闭', title_filter:'筛选', title_family:'语系', title_script:'文字', title_wo:'语序', title_tone:'声调', title_morph:'形态学', title_speaker:'使用者人数', btn_clear:'清除', btn_show_more:'+ 显示更多 ({n})', btn_collapse:'− 折叠', loading:'加载中…', loading_data:'正在加载语言数据…', val_tonal:'有声调', val_non_tonal:'无声调', count_total:'{n} 种语言', count_active:'{m} / {n} 种语言' },
+        yue: { title_period:'時期', period_from:'起', period_to:'迄', close:'關閉', title_filter:'篩選', title_family:'語系', title_script:'文字', title_wo:'語序', title_tone:'聲調', title_morph:'形態學', title_speaker:'使用者人數', btn_clear:'清除', btn_show_more:'+ 顯示更多 ({n})', btn_collapse:'− 摺疊', loading:'載入中…', loading_data:'正在載入語言數據…', val_tonal:'有聲調', val_non_tonal:'無聲調', count_total:'{n} 種語言', count_active:'{m} / {n} 種語言' },
+        vi: { title_period:'Thời kỳ', period_from:'Từ', period_to:'Đến', close:'Đóng', title_filter:'Bộ lọc', title_family:'Họ ngôn ngữ', title_script:'Chữ viết', title_wo:'Trật tự từ', title_tone:'Thanh điệu', title_morph:'Hình thái', title_speaker:'Người nói', btn_clear:'Xóa', btn_show_more:'+ Hiện thêm {n}', btn_collapse:'− Thu gọn', loading:'Đang tải…', loading_data:'Đang tải dữ liệu ngôn ngữ…', val_tonal:'có thanh điệu', val_non_tonal:'không thanh điệu', count_total:'{n} ngôn ngữ', count_active:'{m} / {n} ngôn ngữ' },
+        th: { title_period:'ยุคสมัย', period_from:'จาก', period_to:'ถึง', close:'ปิด', title_filter:'ตัวกรอง', title_family:'ตระกูลภาษา', title_script:'อักษร', title_wo:'ลำดับคำ', title_tone:'วรรณยุกต์', title_morph:'สัณฐานวิทยา', title_speaker:'จำนวนผู้พูด', btn_clear:'ล้าง', btn_show_more:'+ แสดงเพิ่ม {n}', btn_collapse:'− ย่อ', loading:'กำลังโหลด…', loading_data:'กำลังโหลดข้อมูลภาษา…', val_tonal:'มีวรรณยุกต์', val_non_tonal:'ไม่มีวรรณยุกต์', count_total:'{n} ภาษา', count_active:'{m} / {n} ภาษา' },
+        id: { title_period:'Periode', period_from:'Dari', period_to:'Sampai', close:'Tutup', title_filter:'Filter', title_family:'Rumpun', title_script:'Aksara', title_wo:'Urutan Kata', title_tone:'Tonal', title_morph:'Morfologi', title_speaker:'Jumlah Penutur', btn_clear:'Hapus', btn_show_more:'+ Tampilkan {n} lagi', btn_collapse:'− Ciutkan', loading:'Memuat…', loading_data:'Memuat data bahasa…', val_tonal:'tonal', val_non_tonal:'non-tonal', count_total:'{n} bahasa', count_active:'{m} / {n} bahasa' },
+        hi: { title_period:'काल', period_from:'से', period_to:'तक', close:'बंद करें', title_filter:'फ़िल्टर', title_family:'भाषा परिवार', title_script:'लिपि', title_wo:'शब्द क्रम', title_tone:'स्वराघात', title_morph:'आकृति विज्ञान', title_speaker:'वक्ता संख्या', btn_clear:'साफ़ करें', btn_show_more:'+ {n} और दिखाएं', btn_collapse:'− सिकोड़ें', loading:'लोड हो रहा है…', loading_data:'भाषा डेटा लोड हो रहा है…', val_tonal:'स्वराघातिक', val_non_tonal:'गैर-स्वराघातिक', count_total:'{n} भाषाएं', count_active:'{m} / {n} भाषाएं' },
+        de: { title_period:'Zeitraum', period_from:'Von', period_to:'Bis', close:'Schließen', title_filter:'Filter', title_family:'Sprachfamilie', title_script:'Schrift', title_wo:'Wortstellung', title_tone:'Ton', title_morph:'Morphologie', title_speaker:'Sprecher', btn_clear:'Löschen', btn_show_more:'+ {n} weitere anzeigen', btn_collapse:'− Einklappen', loading:'Lädt…', loading_data:'Sprachdaten werden geladen…', val_tonal:'tonal', val_non_tonal:'nicht tonal', count_total:'{n} Sprachen', count_active:'{m} / {n} Sprachen' },
+        fr: { title_period:'Période', period_from:'De', period_to:'À', close:'Fermer', title_filter:'Filtre', title_family:'Famille', title_script:'Écriture', title_wo:'Ordre des mots', title_tone:'Ton', title_morph:'Morphologie', title_speaker:'Locuteurs', btn_clear:'Effacer', btn_show_more:'+ Afficher {n} de plus', btn_collapse:'− Réduire', loading:'Chargement…', loading_data:'Chargement des données…', val_tonal:'tonale', val_non_tonal:'non tonale', count_total:'{n} langues', count_active:'{m} / {n} langues' },
+        it: { title_period:'Periodo', period_from:'Da', period_to:'A', close:'Chiudi', title_filter:'Filtro', title_family:'Famiglia', title_script:'Scrittura', title_wo:'Ordine parole', title_tone:'Tono', title_morph:'Morfologia', title_speaker:'Parlanti', btn_clear:'Cancella', btn_show_more:'+ Mostra altri {n}', btn_collapse:'− Comprimi', loading:'Caricamento…', loading_data:'Caricamento dati lingue…', val_tonal:'tonale', val_non_tonal:'non tonale', count_total:'{n} lingue', count_active:'{m} / {n} lingue' },
+        es_eu: { title_period:'Periodo', period_from:'Desde', period_to:'Hasta', close:'Cerrar', title_filter:'Filtro', title_family:'Familia', title_script:'Escritura', title_wo:'Orden de palabras', title_tone:'Tono', title_morph:'Morfología', title_speaker:'Hablantes', btn_clear:'Borrar', btn_show_more:'+ Mostrar {n} más', btn_collapse:'− Contraer', loading:'Cargando…', loading_data:'Cargando datos de idiomas…', val_tonal:'tonal', val_non_tonal:'no tonal', count_total:'{n} idiomas', count_active:'{m} / {n} idiomas' },
+        es_mx: { title_period:'Periodo', period_from:'Desde', period_to:'Hasta', close:'Cerrar', title_filter:'Filtro', title_family:'Familia', title_script:'Escritura', title_wo:'Orden de palabras', title_tone:'Tono', title_morph:'Morfología', title_speaker:'Hablantes', btn_clear:'Borrar', btn_show_more:'+ Mostrar {n} más', btn_collapse:'− Contraer', loading:'Cargando…', loading_data:'Cargando datos de idiomas…', val_tonal:'tonal', val_non_tonal:'no tonal', count_total:'{n} idiomas', count_active:'{m} / {n} idiomas' },
+        pt_eu: { title_period:'Período', period_from:'De', period_to:'Até', close:'Fechar', title_filter:'Filtro', title_family:'Família', title_script:'Escrita', title_wo:'Ordem das palavras', title_tone:'Tom', title_morph:'Morfologia', title_speaker:'Falantes', btn_clear:'Limpar', btn_show_more:'+ Mostrar mais {n}', btn_collapse:'− Recolher', loading:'A carregar…', loading_data:'A carregar dados de idiomas…', val_tonal:'tonal', val_non_tonal:'não tonal', count_total:'{n} idiomas', count_active:'{m} / {n} idiomas' },
+        pt_br: { title_period:'Período', period_from:'De', period_to:'Até', close:'Fechar', title_filter:'Filtro', title_family:'Família', title_script:'Escrita', title_wo:'Ordem das palavras', title_tone:'Tom', title_morph:'Morfologia', title_speaker:'Falantes', btn_clear:'Limpar', btn_show_more:'+ Mostrar mais {n}', btn_collapse:'− Recolher', loading:'Carregando…', loading_data:'Carregando dados de idiomas…', val_tonal:'tonal', val_non_tonal:'não tonal', count_total:'{n} idiomas', count_active:'{m} / {n} idiomas' },
+        ru: { title_period:'Период', period_from:'С', period_to:'По', close:'Закрыть', title_filter:'Фильтр', title_family:'Семья', title_script:'Письмо', title_wo:'Порядок слов', title_tone:'Тон', title_morph:'Морфология', title_speaker:'Говорящие', btn_clear:'Очистить', btn_show_more:'+ Показать ещё {n}', btn_collapse:'− Свернуть', loading:'Загрузка…', loading_data:'Загрузка данных…', val_tonal:'тональный', val_non_tonal:'не тональный', count_total:'{n} языков', count_active:'{m} / {n} языков' },
+        uk: { title_period:'Період', period_from:'Від', period_to:'До', close:'Закрити', title_filter:'Фільтр', title_family:'Родина', title_script:'Письмо', title_wo:'Порядок слів', title_tone:'Тон', title_morph:'Морфологія', title_speaker:'Мовці', btn_clear:'Очистити', btn_show_more:'+ Показати ще {n}', btn_collapse:'− Згорнути', loading:'Завантаження…', loading_data:'Завантаження даних…', val_tonal:'тональна', val_non_tonal:'не тональна', count_total:'{n} мов', count_active:'{m} / {n} мов' },
+        ar: { title_period:'الفترة', period_from:'من', period_to:'إلى', close:'إغلاق', title_filter:'فلتر', title_family:'العائلة', title_script:'الخط', title_wo:'ترتيب الكلمات', title_tone:'النبرة', title_morph:'علم الصرف', title_speaker:'عدد المتحدثين', btn_clear:'مسح', btn_show_more:'+ عرض {n} المزيد', btn_collapse:'− طي', loading:'جارٍ التحميل…', loading_data:'جارٍ تحميل بيانات اللغة…', val_tonal:'نبري', val_non_tonal:'غير نبري', count_total:'{n} لغات', count_active:'{m} / {n} لغات' },
+        he: { title_period:'תקופה', period_from:'מ־', period_to:'עד', close:'סגור', title_filter:'סינון', title_family:'משפחה', title_script:'כתב', title_wo:'סדר מילים', title_tone:'טון', title_morph:'מורפולוגיה', title_speaker:'דוברים', btn_clear:'נקה', btn_show_more:'+ הצג עוד {n}', btn_collapse:'− כווץ', loading:'טוען…', loading_data:'טוען נתוני שפה…', val_tonal:'טונאלית', val_non_tonal:'לא טונאלית', count_total:'{n} שפות', count_active:'{m} / {n} שפות' },
+        sw: { title_period:'Kipindi', period_from:'Kuanzia', period_to:'Hadi', close:'Funga', title_filter:'Kichujio', title_family:'Familia', title_script:'Mwandiko', title_wo:'Mpangilio wa Maneno', title_tone:'Toni', title_morph:'Mofolojia', title_speaker:'Wazungumzaji', btn_clear:'Futa', btn_show_more:'+ Onyesha {n} zaidi', btn_collapse:'− Kunja', loading:'Inapakia…', loading_data:'Inapakia data ya lugha…', val_tonal:'yenye toni', val_non_tonal:'isiyo na toni', count_total:'lugha {n}', count_active:'{m} / {n} lugha' },
     };
 
     // Per-chip-value translations for morph + script categories.
@@ -1330,6 +1396,7 @@
                 <div class="lf-actions">
                     <span class="lf-counter"></span>
                     <button class="lf-reset">${t('btn_clear')}</button>
+                    <button type="button" class="lf-close" aria-label="${t('close')}" title="${t('close')}">×</button>
                 </div>
             </div>
         `;
@@ -1337,6 +1404,23 @@
         // (almost all extinct or with negligible/liturgical-only speakers),
         // so hide the entire section in historical mode.
         const histMode = !!(window.__langmap && window.__langmap.historical);
+        // Historical-only: a century range slider. Shows only languages whose
+        // attested span overlaps [from, to]. Placed first so it's prominent.
+        if (histMode) {
+            html += `
+                <div class="lf-section lf-period-section" data-cat="period">
+                    <div class="lf-section-title">
+                        <span>${t('title_period')}</span>
+                        <span class="lf-section-clear" data-cat="period" style="display:${periodActive() ? '' : 'none'}">${t('btn_clear')}</span>
+                    </div>
+                    <div class="lf-period-readout"><span class="lf-period-label">${fmtIdx(periodFilter.fromIdx)} – ${fmtIdx(periodFilter.toIdx)}</span></div>
+                    <label class="lf-period-row"><span class="lf-period-cap">${t('period_from')}</span>
+                        <input type="range" class="lf-period-from" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.fromIdx}"></label>
+                    <label class="lf-period-row"><span class="lf-period-cap">${t('period_to')}</span>
+                        <input type="range" class="lf-period-to" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.toIdx}"></label>
+                </div>
+            `;
+        }
         for (const sec of SECTIONS) {
             if (sec.key === 'speaker' && histMode) continue;
             const items = values[sec.key];
@@ -1473,6 +1557,7 @@
                     <span class="lf-panel-title">${t('title_filter')}</span>
                     <div class="lf-actions">
                         <span class="lf-counter">${t('loading')}</span>
+                        <button type="button" class="lf-close" aria-label="${t('close')}" title="${t('close')}">×</button>
                     </div>
                 </div>
                 <div style="padding:12px 0;color:#888;font-size:11px;text-align:center">
@@ -1483,17 +1568,36 @@
         renderPlaceholder();
         document.body.appendChild(panel);
 
-        // Position the panel just below the fab.
+        // Always-on close handler (delegated on the panel, so it survives the
+        // innerHTML swap when the real panel is built and works in every state).
+        // Gives the user a reliable way to dismiss the panel even if a layout
+        // glitch ever left it detached from the fab.
+        panel.addEventListener('click', (e) => {
+            if (e.target.closest('.lf-close')) panel.classList.remove('open');
+        });
+
+        // Position the panel just below the fab. Guard against a fab that
+        // isn't laid out yet (rect all-zero, e.g. while the wordmap era-filter
+        // shim is relocating it) — writing top:8px then would pin the panel to
+        // the very top, over the button, and it would stay there (only resize
+        // re-ran this) so the fab could no longer be clicked to close it.
         function positionPanel() {
             const r = fab.getBoundingClientRect();
+            if (!r.height && !r.width) return;   // not laid out — keep last good top
             panel.style.top = (r.bottom + 8) + 'px';
         }
         positionPanel();
         window.addEventListener('resize', positionPanel);
 
         // Toggle panel visibility on fab click (works even before meta loads
-        // — panel just shows the loading placeholder).
-        fab.addEventListener('click', () => panel.classList.toggle('open'));
+        // — panel just shows the loading placeholder). Recompute the position
+        // on every open from the fab's CURRENT rect, so layout shifts since the
+        // last positionPanel() (fab relocation, row wrap, UI-language relabel)
+        // can never leave the panel detached over the button.
+        fab.addEventListener('click', () => {
+            if (!panel.classList.contains('open')) positionPanel();
+            panel.classList.toggle('open');
+        });
 
         // Re-apply filter whenever new labels render (zoom/word/era change).
         // Safe to attach now; applyFilter is a no-op while no filters active.
@@ -1552,6 +1656,13 @@
                 if (e.detail && e.detail.historical && filterState.speaker.size > 0) {
                     filterState.speaker.clear();
                 }
+                // The period range only applies to the historical map. Leaving
+                // historical mode must clear it, or a leftover range would dim
+                // the whole modern map (modern langs carry no meta.period).
+                if (!(e.detail && e.detail.historical)) {
+                    periodFilter.fromIdx = PERIOD_MIN_IDX;
+                    periodFilter.toIdx = PERIOD_MAX_IDX;
+                }
                 rebuildPanel();
                 refresh();
             });
@@ -1603,8 +1714,23 @@
                 panel.querySelectorAll('.lf-section').forEach(sec => {
                     const cat = sec.dataset.cat;
                     const clearEl = sec.querySelector('.lf-section-clear');
-                    if (clearEl) clearEl.style.display = filterState[cat].size > 0 ? '' : 'none';
+                    if (!clearEl) return;
+                    // 'period' isn't a Set in filterState — it's the range slider.
+                    const active = cat === 'period'
+                        ? periodActive()
+                        : (filterState[cat] && filterState[cat].size > 0);
+                    clearEl.style.display = active ? '' : 'none';
                 });
+            }
+            // Reflect the period slider values/label into the DOM (used on
+            // reset / section-clear; slider drag updates them directly).
+            function updatePeriodUI() {
+                const fromEl = panel.querySelector('.lf-period-from');
+                const toEl = panel.querySelector('.lf-period-to');
+                if (fromEl) fromEl.value = String(periodFilter.fromIdx);
+                if (toEl) toEl.value = String(periodFilter.toIdx);
+                const label = panel.querySelector('.lf-period-label');
+                if (label) label.textContent = fmtIdx(periodFilter.fromIdx) + ' – ' + fmtIdx(periodFilter.toIdx);
             }
 
             panel.addEventListener('click', (e) => {
@@ -1624,17 +1750,26 @@
                 const sectionClear = e.target.closest('.lf-section-clear');
                 if (sectionClear) {
                     const cat = sectionClear.dataset.cat;
-                    filterState[cat].clear();
-                    panel.querySelectorAll(`.lf-chip[data-cat="${cat}"]`).forEach(c => {
-                        c.classList.remove('on');
-                        c.setAttribute('aria-pressed', 'false');
-                    });
+                    if (cat === 'period') {
+                        periodFilter.fromIdx = PERIOD_MIN_IDX;
+                        periodFilter.toIdx = PERIOD_MAX_IDX;
+                        updatePeriodUI();
+                    } else {
+                        filterState[cat].clear();
+                        panel.querySelectorAll(`.lf-chip[data-cat="${cat}"]`).forEach(c => {
+                            c.classList.remove('on');
+                            c.setAttribute('aria-pressed', 'false');
+                        });
+                    }
                     refresh();
                     return;
                 }
                 const reset = e.target.closest('.lf-reset');
                 if (reset) {
                     for (const k of Object.keys(filterState)) filterState[k].clear();
+                    periodFilter.fromIdx = PERIOD_MIN_IDX;
+                    periodFilter.toIdx = PERIOD_MAX_IDX;
+                    updatePeriodUI();
                     panel.querySelectorAll('.lf-chip.on').forEach(c => {
                         c.classList.remove('on');
                         c.setAttribute('aria-pressed', 'false');
@@ -1650,6 +1785,21 @@
                         ? more.dataset.expandedLabel
                         : more.dataset.collapsedLabel;
                 }
+            });
+
+            // Period range sliders (delegated 'input' so it survives rebuilds).
+            // Keep from ≤ to; live-update the readout and re-filter.
+            panel.addEventListener('input', (e) => {
+                const cl = e.target.classList;
+                const isFrom = cl && cl.contains('lf-period-from');
+                const isTo   = cl && cl.contains('lf-period-to');
+                if (!isFrom && !isTo) return;
+                const v = parseInt(e.target.value, 10);
+                if (!Number.isFinite(v)) return;
+                if (isFrom) periodFilter.fromIdx = Math.min(v, periodFilter.toIdx);
+                else        periodFilter.toIdx   = Math.max(v, periodFilter.fromIdx);
+                updatePeriodUI();
+                refresh();
             });
 
             refresh();

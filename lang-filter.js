@@ -869,15 +869,16 @@
     function periodActive() {
         return periodFilter.fromIdx > PERIOD_MIN_IDX || periodFilter.toIdx < PERIOD_MAX_IDX;
     }
-    // A century index -> the year at the START (for a range's left edge) or
-    // END (right edge) of that century. Signed years, negative = BCE.
-    function idxToYearStart(i) { return i < 0 ? i * 100 : (i <= 0 ? 0 : (i - 1) * 100); }
-    function idxToYearEnd(i)   { return i < 0 ? -(((-i) - 1) * 100) : i * 100; }
     function fmtIdx(i) { return i < 0 ? (-i) + 'c BCE' : (i <= 0 ? '1c CE' : i + 'c CE'); }
     // Parse a meta.period string ("15cBCE–21cCE", "6–1cBCE", "5–12c") into a
-    // [startYear, endYear] pair of signed years. A bare side inherits the era
+    // [startIdx, endIdx] pair of SIGNED CENTURY INDICES (BCE negative, CE
+    // positive — same space as the slider). A bare side inherits the era
     // marker of the other side. Returns null if unparseable.
-    function periodToRange(str) {
+    //
+    // Working in century indices (not years) avoids an off-by-one at century
+    // boundaries: a language ending in the 16th c must NOT match a range that
+    // starts in the 17th c. Overlap is the plain integer test below.
+    function periodToIdxRange(str) {
         if (!str) return null;
         let p = String(str).split('–');
         if (p.length !== 2) p = [p[0], p[0]];
@@ -889,8 +890,13 @@
         if (!eL) eL = eR;
         const cL = cen(L), cR = cen(R);
         if (cL == null || cR == null) return null;
-        return [eL === 'BCE' ? -(cL * 100) : (cL - 1) * 100,
-                eR === 'BCE' ? -((cR - 1) * 100) : (cR * 100)];
+        return [eL === 'BCE' ? -cL : cL, eR === 'BCE' ? -cR : cR];
+    }
+    // Does a language's century-index span overlap the active filter range?
+    function periodMatches(code) {
+        const rng = periodToIdxRange((LANG_DATA[code] && LANG_DATA[code].meta || {}).period);
+        if (!rng) return false;
+        return !(rng[0] > periodFilter.toIdx || rng[1] < periodFilter.fromIdx);
     }
 
     // ----- URL-hash persistence ------------------------------------------
@@ -999,13 +1005,7 @@
         // OVERLAPS the selected century range. A historical language with an
         // unparseable/absent period can't be range-checked → excluded while
         // the range filter is active.
-        if (periodActive()) {
-            const rng = periodToRange((LANG_DATA[code] && LANG_DATA[code].meta || {}).period);
-            if (!rng) return false;
-            const lo = idxToYearStart(periodFilter.fromIdx);
-            const hi = idxToYearEnd(periodFilter.toIdx);
-            if (rng[0] > hi || rng[1] < lo) return false;
-        }
+        if (periodActive() && !periodMatches(code)) return false;
         return true;
     }
 
@@ -1191,13 +1191,7 @@
         }
         // Period range applies to chip counts too (it's never a chip category,
         // so it's always enforced here when active).
-        if (periodActive()) {
-            const rng = periodToRange((LANG_DATA[code] && LANG_DATA[code].meta || {}).period);
-            if (!rng) return false;
-            const lo = idxToYearStart(periodFilter.fromIdx);
-            const hi = idxToYearEnd(periodFilter.toIdx);
-            if (rng[0] > hi || rng[1] < lo) return false;
-        }
+        if (periodActive() && !periodMatches(code)) return false;
         return true;
     }
 

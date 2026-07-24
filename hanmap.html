@@ -1006,14 +1006,20 @@
                the chain matches `.wm-form` so non-Korean glyphs (Phags-pa,
                Tangut, Khitan, etc.) inside the panel still pick up their
                respective Noto webfonts. */
+            /* Match WordMap: the panel PROSE (description, meta rows) renders
+               in the sans body stack, not serif. The scoped serif subsets stay
+               FIRST so their unicode-ranged archaic glyphs (old/compat jamo,
+               Chữ Nôm) still resolve; only the general text falls through to
+               Noto Sans. The Han readings keep their own serif chain (.wm-form),
+               exactly as WordMap does. */
             font-family:
                 "Noto Serif KR Hanmap Old Jamo",
                 "Nom Serif Hanmap Subset",
                 "Noto Serif KR Old Jamo",
                 "Noto Serif KR Compat Jamo",
                 "Nom Serif Subset",
-                "Gentium Plus", "Noto Serif", "Noto Serif JP",
-                "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+                'Segoe UI', 'Noto Sans JP', 'Noto Sans KR',
+                'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai',
                 system-ui, sans-serif;
         }
         .lang-info-panel.visible { display: flex; flex-direction: column; }

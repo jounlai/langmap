@@ -1101,12 +1101,21 @@
            The inputs are click-through (pointer-events:none) except their
            thumbs, so both handles are independently grabbable. */
         .lf-period-dual { position: relative; height: 26px; margin: 2px 2px 2px; }
-        .lf-period-track, .lf-period-fill {
-            position: absolute; top: 50%; transform: translateY(-50%);
-            height: 4px; border-radius: 2px; pointer-events: none;
+        .lf-period-track {
+            position: absolute; top: 50%; transform: translateY(-50%); left: 0; right: 0;
+            height: 4px; border-radius: 2px; background: #ddd; pointer-events: none;
         }
-        .lf-period-track { left: 0; right: 0; background: #ddd; }
-        .lf-period-fill { background: #4a6cf7; }
+        /* The fill is a full-height grab zone (drag it to slide the whole range);
+           the visible 4px bar is drawn by ::before. */
+        .lf-period-fill {
+            position: absolute; top: 0; height: 100%;
+            background: transparent; pointer-events: auto; cursor: grab; touch-action: none;
+        }
+        .lf-period-fill::before {
+            content: ''; position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%);
+            height: 4px; border-radius: 2px; background: #4a6cf7;
+        }
+        .lf-period-fill:active { cursor: grabbing; }
         .lf-period-dual input[type=range] {
             position: absolute; left: 0; top: 0; width: 100%; height: 26px;
             margin: 0; background: none; -webkit-appearance: none; appearance: none;
@@ -1830,6 +1839,43 @@
                 else        periodFilter.toIdx   = Math.max(v, periodFilter.fromIdx);
                 updatePeriodUI();
                 refresh();
+            });
+
+            // Drag the middle (fill) to slide the whole range — from and to move
+            // together, keeping their gap. Delegated pointerdown survives panel
+            // rebuilds; move/up are bound on document for the duration of a drag.
+            let periodDrag = null;
+            function onPeriodDrag(e) {
+                if (!periodDrag) return;
+                const dIdx = Math.round((e.clientX - periodDrag.startX) / periodDrag.pxPerIdx);
+                let nf = periodDrag.fromIdx + dIdx, nt = periodDrag.toIdx + dIdx;
+                if (nf < PERIOD_MIN_IDX) { nf = PERIOD_MIN_IDX; nt = nf + periodDrag.width; }
+                if (nt > PERIOD_MAX_IDX) { nt = PERIOD_MAX_IDX; nf = nt - periodDrag.width; }
+                periodFilter.fromIdx = nf; periodFilter.toIdx = nt;
+                updatePeriodUI();
+                refresh();
+            }
+            function endPeriodDrag() {
+                periodDrag = null;
+                document.removeEventListener('pointermove', onPeriodDrag);
+                document.removeEventListener('pointerup', endPeriodDrag);
+            }
+            panel.addEventListener('pointerdown', (e) => {
+                if (!e.target.classList || !e.target.classList.contains('lf-period-fill')) return;
+                const dual = e.target.closest('.lf-period-dual');
+                if (!dual) return;
+                const rect = dual.getBoundingClientRect();
+                if (!rect.width) return;
+                e.preventDefault();
+                periodDrag = {
+                    startX: e.clientX,
+                    fromIdx: periodFilter.fromIdx,
+                    toIdx: periodFilter.toIdx,
+                    width: periodFilter.toIdx - periodFilter.fromIdx,
+                    pxPerIdx: rect.width / (PERIOD_MAX_IDX - PERIOD_MIN_IDX),
+                };
+                document.addEventListener('pointermove', onPeriodDrag);
+                document.addEventListener('pointerup', endPeriodDrag);
             });
 
             refresh();

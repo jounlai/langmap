@@ -3197,6 +3197,7 @@
             labels:      6,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
+            metaI18nCoverage3: 1,
         };
         function assetUrl(path, key) {
             return `${path}?v=${WM_ASSET_VERSION[key]}`;
@@ -6041,7 +6042,8 @@
             // confirm each lazy file is versioned from WM_ASSET_VERSION.
             _metaI18nPromise = inject(assetUrl('meta_i18n_ext.js', 'metaI18n'))
                 .then(() => inject(assetUrl('meta_i18n_coverage.js', 'metaI18nCoverage')))
-                .then(() => inject(assetUrl('meta_i18n_coverage2.js', 'metaI18nCoverage2')));
+                .then(() => inject(assetUrl('meta_i18n_coverage2.js', 'metaI18nCoverage2')))
+                .then(() => inject(assetUrl('meta_i18n_coverage3.js', 'metaI18nCoverage3')));
             return _metaI18nPromise;
         }
         // Exposed so lang-filter.js can pull the family-name translator on

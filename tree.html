@@ -348,10 +348,11 @@
 })();
 </script>
 
-<script src="wordmap_data.js?v=206"></script>
+<script src="wordmap_data.js?v=241"></script>
 <script src="meta_i18n_ext.js?v=14"></script>
 <script src="meta_i18n_coverage.js?v=10"></script>
-<script src="lang_names.js?v=122"></script>
+<script src="meta_i18n_coverage2.js?v=2"></script>
+<script src="lang_names.js?v=129"></script>
 <script>
 (function () {
     'use strict';
@@ -481,7 +482,7 @@
 
     // ===== meta lazy load =====
     const metaScript = document.createElement('script');
-    metaScript.src = 'wordmap_meta.js?v=182';
+    metaScript.src = 'wordmap_meta.js?v=235';
     metaScript.onload = init;
     metaScript.onerror = () => { document.getElementById('loading').textContent = 'Failed to load wordmap_meta.js.'; };
     document.head.appendChild(metaScript);

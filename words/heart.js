@@ -609,6 +609,7 @@ WORDS.heart = {
     crn: ["hɨurí", "hɨuri"],
     myn: ["pixan", "piʃan"],
     ine: ["*ḱḗr", "ḱéːr"],
+    paus: ["*pusuq", "pusuq"],
     zh_song: ["心", "sim"],
     zh_wenyan_edu: ["心", "sɐm˥"],
     zh_han: ["心", "siəm"],

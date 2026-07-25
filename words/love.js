@@ -616,6 +616,7 @@ WORDS.love = {
     crn: ["ka'na", "kaʔna"],
     myn: ["yaah", "jaːh"],
     ine: ["*lewbʰ-", "lewbʰ"],
+    paus: ["—", "—"],
     zh_song: ["愛", "ai˥˩"],
     zh_wenyan_edu: ["愛", "ɔi˧"],
     zh_han: ["愛", "ʔɑːi"],

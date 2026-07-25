@@ -609,6 +609,7 @@ WORDS.you = {
       crn: ["aʼu", "ˈaʔu"],
       myn: ["hat", "hat"],
       ine: ["*túh₂", "tuːh"],
+      paus: ["*iSu", "iSu"],
       zh_song: ["汝", "ʐiə˧˩"],
       zh_wenyan_edu: ["汝", "jyː˩˧"],
       zh_han: ["汝", "ȵɑˀ"],

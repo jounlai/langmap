@@ -609,6 +609,7 @@ WORDS.dog = {
     crn: ["tsɨ'ɨ", "tsɨʔɨ"],
     myn: ["peekʼ", "peːkʼ"],
     ine: ["*ḱwṓ", "ḱwóː"],
+    paus: ["*asu", "asu"],
     zh_song: ["犬", "kʰɥɛn˧˩˧"],
     zh_wenyan_edu: ["犬", "hyn˧˥"],
     zh_han: ["犬", "kʰiuɛn"],

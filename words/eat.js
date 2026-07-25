@@ -609,6 +609,7 @@ WORDS.eat = {
     crn: ["kuá", "kwa"],
     myn: ["wiʼij", "wiʔiχ"],
     ine: ["*h₁ed-", "h₁ed"],
+    paus: ["*kaen", "kaen"],
     zh_song: ["食", "ʂʐ˧˥"],
     zh_wenyan_edu: ["食", "sɪk˨"],
     zh_han: ["食", "ʑiək"],

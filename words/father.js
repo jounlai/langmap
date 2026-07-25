@@ -609,6 +609,7 @@ WORDS.father = {
     crn: ["hahuá", "hahwa"],
     myn: ["yuum", "juːm"],
     ine: ["*ph₂tḗr", "ph₂téːr"],
+    paus: ["*ama", "ama"],
     zh_song: ["父", "fu˥˩"],
     zh_wenyan_edu: ["父", "fu˨"],
     zh_han: ["父", "biuoʔ"],

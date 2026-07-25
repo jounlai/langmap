@@ -609,6 +609,7 @@ WORDS.hello = {
     crn: ["ke'kuanenki", "keʔkwanenki"],
     myn: ["bix a beel", "biʃ a beːl"],
     ine: ["—", "—"],
+    paus: ["—", "—"],
     zh_song: ["萬福", "wan˥˩fu˧˥"],
     zh_wenyan_edu: ["萬福", "man˨ fʊk˥"],
     zh_han: ["萬福", "miuɑn piuk"],

@@ -609,6 +609,7 @@ WORDS.drink = {
     crn: ["hi'i", "hiʔi"],
     myn: ["ukʼ", "ukʼ"],
     ine: ["*peh₃-", "peh₃"],
+    paus: ["*inum", "inum"],
     zh_song: ["飲", "jin˧˩˧"],
     zh_wenyan_edu: ["飲", "jɐm˧˥"],
     zh_han: ["飲", "ʔiəm"],

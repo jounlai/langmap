@@ -615,6 +615,7 @@ WORDS.one = {
     crn: ["cei", "tsei"],
     myn: ["jun", "hun"],
     ine: ["*h₁óynos", "h₁ójnos"],
+    paus: ["*isa", "isa"],
     zh_song: ["一", "i˥"],
     zh_wenyan_edu: ["一", "jɐt˥"],
     zh_han: ["一", "ʔiit"],

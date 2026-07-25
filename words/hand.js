@@ -609,6 +609,7 @@ WORDS.hand = {
     crn: ["mam", "mam"],
     myn: ["kʼab", "kʼab"],
     ine: ["*ǵʰésr̥", "ǵʰésr̩"],
+    paus: ["*lima", "lima"],
     zh_song: ["手", "ʂou˧˩˧"],
     zh_wenyan_edu: ["手", "sɐu˧˥"],
     zh_han: ["手", "ɕiuʔ"],

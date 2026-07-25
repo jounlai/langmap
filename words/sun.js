@@ -614,6 +614,7 @@ WORDS.sun = {
     crn: ["tahaapuá", "tahaːpwa"],
     myn: ["kʼin", "kʼin"],
     ine: ["*sóh₂wl̥", "sóh₂wl̩"],
+    paus: ["*waRi", "waRi"],
     zh_song: ["日", "ʐi˥˩"],
     zh_wenyan_edu: ["日", "jɐt˨"],
     zh_han: ["日", "ȵit"],

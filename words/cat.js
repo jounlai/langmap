@@ -609,6 +609,7 @@ WORDS.cat = {
     crn: ["mistú", "mistu"],
     myn: ["miis", "miːs"],
     ine: ["—", "—"],
+    paus: ["—", "—"],
     zh_song: ["貓", "mau˧˥"],
     zh_wenyan_edu: ["貓", "mau˥"],
     zh_han: ["貓", "mau"],

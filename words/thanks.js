@@ -609,6 +609,7 @@ WORDS.thanks = {
     crn: ["atsipiraá", "atsipiraː"],
     myn: ["nibʼoolal", "nibʼoːlal"],
     ine: ["—", "—"],
+    paus: ["—", "—"],
     zh_song: ["謝", "ɕjɛ˥˩"],
     zh_wenyan_edu: ["謝", "tsɛ˨"],
     zh_han: ["謝", "ziɛ"],

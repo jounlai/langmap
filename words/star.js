@@ -609,6 +609,7 @@ WORDS.star = {
       crn: ["sɨɨrabe", "sɨːˈrabe"],
       myn: ["ek'", "eːkʼ"],
       ine: ["*h₂stḗr", "hˈsteːr"],
+      paus: ["*bituqen", "bituqen"],
       zh_song: ["星", "siajŋ˧"],
       zh_wenyan_edu: ["星", "sɪŋ˥"],
       zh_han: ["星", "seŋ"],

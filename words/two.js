@@ -609,6 +609,7 @@ WORDS.two = {
       crn: ["huapoa", "waˈpoa"],
       myn: ["cha'", "tʃaʔ"],
       ine: ["*dwóh₁", "dwoːh"],
+      paus: ["*duSa", "duSa"],
       zh_song: ["二", "ʐɿ˥˩"],
       zh_wenyan_edu: ["二", "jiː˨"],
       zh_han: ["二", "ȵis"],

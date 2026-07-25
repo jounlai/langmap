@@ -609,6 +609,7 @@ WORDS.i = {
       crn: ["neʼu", "ˈneʔu"],
       myn: ["hiin", "hiːn"],
       ine: ["*éǵh₂om", "ˈeɡʲhom"],
+      paus: ["*aku", "aku"],
       zh_song: ["我", "ŋɔ˧˩"],
       zh_wenyan_edu: ["我", "ŋɔ˩˧"],
       zh_han: ["我", "ŋɑiˀ"],

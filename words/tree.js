@@ -609,6 +609,7 @@ WORDS.tree = {
     crn: ["kɨré", "kɨre"],
     myn: ["cheʼ", "tʃeʔ"],
     ine: ["*dóru", "dóru"],
+    paus: ["*kaSiw", "kaSiw"],
     zh_song: ["木", "mu˥˩"],
     zh_wenyan_edu: ["木", "mʊk˨"],
     zh_han: ["木", "muok"],

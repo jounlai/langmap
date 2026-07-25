@@ -615,6 +615,7 @@ WORDS.fire = {
     crn: ["ta'ai", "taʔai"],
     myn: ["kʼahkʼ", "kʼahkʼ"],
     ine: ["*péh₂wr̥", "péh₂wr̩"],
+    paus: ["*Sapuy", "Sapuy"],
     zh_song: ["火", "xwo˧˩˧"],
     zh_wenyan_edu: ["火", "fɔ˧˥"],
     zh_han: ["火", "huɑiʔ"],

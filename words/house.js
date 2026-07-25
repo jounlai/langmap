@@ -616,6 +616,7 @@ WORDS.house = {
     crn: ["kíh", "kih"],
     myn: ["otoch", "otoːtʃ"],
     ine: ["*dṓm", "dóːm"],
+    paus: ["*Rumaq", "Rumaq"],
     zh_song: ["屋", "u˥"],
     zh_wenyan_edu: ["屋", "ʊk˥"],
     zh_han: ["屋", "ʔuok"],

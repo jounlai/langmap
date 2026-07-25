@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1120 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1121 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -15,7 +15,7 @@
 // some have small modern speaker communities (e.g. Manchu, Aramaic dialects,
 // liturgical Sanskrit). The shared property is "hidden from the modern view by default".
 const EXCLUDED_CODES = new Set([
-  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','myn','ine',
+  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','myn','ine','paus',
   'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_kath','zh_song','zh_han','zh_tang','zh_wenyan_edu',
   'vi_nom','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
@@ -1760,6 +1760,8 @@ const LANG_DATA = {
   myn: { name: 'Classical Maya', native: 'Maaya Tzij', lat: 14.63, lng: -90.51,
 },
   ine: { name: 'Proto-Indo-European', native: '*dń̥ǵʰwéh₂s', lat: 47.00, lng: 39.00,
+},
+  paus: { name: 'Proto-Austronesian', native: '*daNum', lat: 23.70, lng: 121.00,
 },
   zh_song: { name: 'Classical Chinese (Song)', native: '文言(宋)', lat: 34.80, lng: 114.31,
 },
@@ -5003,6 +5005,7 @@ const DATA_STATUS_OVERRIDES = {
     // Genuinely reconstructed (no direct text record):
     ine:       'reconstructed',  // Proto-Indo-European — comparative reconstruction
     pjk:       'reconstructed',  // Proto-Japonic-Koreanic — disputed hypothesis (Whitman/Robbeets)
+    paus: 'reconstructed',  // Proto-Austronesian
     // Critically endangered modern languages — sparse Swadesh-list coverage
     // (audit Task 142 Tier 2 optional additions, sourced cells only,
     // many '—' placeholders).
@@ -5189,7 +5192,7 @@ const HIST_DESCENDANT = {
     la:'it', el_grc:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
     got:'de', cu:'bg', pi:'si', cop:null, arc:'he',
     sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', myn:'es_mx',
-    ine:null, pjk:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
+    ine:null, pjk:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
     vi_han:'vi', de_lut:'de', es_sgl:'es_eu', fr_class:'fr',

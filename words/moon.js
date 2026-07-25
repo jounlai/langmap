@@ -615,6 +615,7 @@ WORDS.moon = {
     crn: ["mɨhka", "mɨhka"],
     myn: ["uh", "uh"],
     ine: ["*méh₁not", "méh₁not"],
+    paus: ["*bulaN", "bulaN"],
     zh_song: ["月", "ŋyat"],
     zh_wenyan_edu: ["月", "jyt˨"],
     zh_han: ["月", "ŋiuɑt"],

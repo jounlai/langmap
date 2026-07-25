@@ -609,6 +609,7 @@ WORDS.good = {
     crn: ["huá'i", "hwaʔi"],
     myn: ["utz", "uts"],
     ine: ["*h₁su-", "h₁su"],
+    paus: ["—", "—"],
     zh_song: ["善", "ʂan˥˩"],
     zh_wenyan_edu: ["善", "sin˨"],
     zh_han: ["善", "dʑiɛn"],

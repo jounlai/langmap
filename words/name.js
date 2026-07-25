@@ -609,6 +609,7 @@ WORDS.name = {
       crn: ["yeuwa", "ˈjeuwa"],
       myn: ["k'aba'", "kʼaˈɓaʔ"],
       ine: ["*h₃nómn̥", "hˈnomn̩"],
+      paus: ["*ŋajan", "ŋajan"],
       zh_song: ["名", "miajŋ˧"],
       zh_wenyan_edu: ["名", "mɪŋ˨˩"],
       zh_han: ["名", "mieŋ"],

@@ -5147,6 +5147,18 @@
             // position (offsets[code] = (0,0) from earlier — cellGroups
             // already excluded them), don't push filtered-in langs around,
             // and don't get hidden themselves. (User request 2026-05-26.)
+            // Reconstructed proto-languages (PIE and the family proto-ancestors)
+            // are the headline entries of the historical map, but they carry 0
+            // speakers like every other extinct language, so the speaker-count
+            // tiebreak left them to alphabetical order — in a dense ancient
+            // cluster (e.g. the Near East) they lost the collision pass to
+            // alphabetically-earlier neighbours and never appeared. Give them a
+            // declutter priority just under focused/spotlight so a proto claims
+            // its pin ahead of ordinary same-0-speaker historical languages.
+            const _isProtoKind = code => {
+                const m = LANG_DATA[code] && LANG_DATA[code].meta;
+                return !!(m && m.languageKind === 'reconstructed-proto');
+            };
             const _collisionOrder = allRenderable.filter(c => ppx[c] && isActive(c)).slice();
             _collisionOrder.sort((a, b) => {
                 // Focused (lang-info modal open on it) wins outright.
@@ -5166,6 +5178,8 @@
                 const aUna = unattestedSet.has(a) ? 1 : 0;
                 const bUna = unattestedSet.has(b) ? 1 : 0;
                 if (aUna !== bUna) return aUna - bUna;
+                const aPro = _isProtoKind(a) ? 0 : 1, bPro = _isProtoKind(b) ? 0 : 1;
+                if (aPro !== bPro) return aPro - bPro;
                 const sa = langSpeakerCount(a) || 0;
                 const sb = langSpeakerCount(b) || 0;
                 if (sb !== sa) return sb - sa;
@@ -5318,6 +5332,8 @@
                         const aS = _spotlight.has(a) ? 0 : 1, bS = _spotlight.has(b) ? 0 : 1;
                         if (aS !== bS) return aS - bS;
                     }
+                    const aPro = _isProtoKind(a) ? 0 : 1, bPro = _isProtoKind(b) ? 0 : 1;
+                    if (aPro !== bPro) return aPro - bPro;
                     const sa = langSpeakerCount(a) || 0, sb = langSpeakerCount(b) || 0;
                     if (sb !== sa) return sb - sa;
                     return a < b ? -1 : a > b ? 1 : 0;

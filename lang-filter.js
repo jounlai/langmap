@@ -637,7 +637,7 @@
         peo: ['Indo-European', 'Iranian'],          // Old Persian — already Iranian, but flag IE
         ave: ['Indo-European', 'Iranian'],          // Avestan
         sa:  ['Indo-European', 'Indo-Aryan'],       // Sanskrit (already Indo-Aryan, but show under IE)
-        vsa: ['Indo-European', 'Indo-Aryan', 'Proto-language'], // Vedic Sanskrit
+        vsa: ['Indo-European', 'Indo-Iranian', 'Indo-Aryan'], // Vedic Sanskrit (attested Old Indo-Aryan, NOT a proto)
     };
 
     // Parent-family normalization (wordmap-check.md §6). Without this,
@@ -837,6 +837,16 @@
             // Audit Task 117 provenance
             provenance: { wo: woProv, tone: toneProv, morph: morphProv },
         };
+        // 'Proto-language' filter membership must track the reconstructed-proto
+        // flag — NOT family-string 'proto' heuristics or ad-hoc overrides. Tag
+        // every reconstructed proto (PIE, Proto-Japonic-Koreanic, Proto-Ryukyuan,
+        // the family protos) and ONLY those, so attested ancient languages —
+        // Vedic Sanskrit, Old Chinese, etc. — never match the proto chip.
+        if (meta.languageKind === 'reconstructed-proto') {
+            if (!rec.family.includes('Proto-language')) rec.family.push('Proto-language');
+        } else if (rec.family.includes('Proto-language')) {
+            rec.family = rec.family.filter(t => t !== 'Proto-language');
+        }
         _featCache.set(code, rec);
         return rec;
     }

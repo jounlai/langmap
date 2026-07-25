@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1126 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1130 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -15,7 +15,7 @@
 // some have small modern speaker communities (e.g. Manchu, Aramaic dialects,
 // liturgical Sanskrit). The shared property is "hidden from the modern view by default".
 const EXCLUDED_CODES = new Set([
-  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','myn','ine','pban','pst','psem','pura','pdr','paus',
+  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','myn','ine','pafa','pkar','pmay','puaz','pban','pst','psem','pura','pdr','paus',
   'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_kath','zh_song','zh_han','zh_tang','zh_wenyan_edu',
   'vi_nom','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
@@ -1760,6 +1760,14 @@ const LANG_DATA = {
   myn: { name: 'Classical Maya', native: 'Maaya Tzij', lat: 14.63, lng: -90.51,
 },
   ine: { name: 'Proto-Indo-European', native: '*dń̥ǵʰwéh₂s', lat: 47.00, lng: 39.00,
+},
+  pafa: { name: 'Proto-Afroasiatic', native: '*Vfroasiatic', lat: 13.00, lng: 40.00,
+},
+  pkar: { name: 'Proto-Kartvelian', native: '*qel-', lat: 42.00, lng: 43.00,
+},
+  pmay: { name: 'Proto-Mayan', native: '*haʔ', lat: 15.50, lng: -91.00,
+},
+  puaz: { name: 'Proto-Uto-Aztecan', native: '*paʔ', lat: 30.00, lng: -110.00,
 },
   pban: { name: 'Proto-Bantu', native: '*-jíjì', lat: 6.00, lng: 12.00,
 },
@@ -5015,6 +5023,10 @@ const DATA_STATUS_OVERRIDES = {
     // Genuinely reconstructed (no direct text record):
     ine:       'reconstructed',  // Proto-Indo-European — comparative reconstruction
     pjk:       'reconstructed',  // Proto-Japonic-Koreanic — disputed hypothesis (Whitman/Robbeets)
+    pafa: 'reconstructed',  // Proto-Afroasiatic
+    pkar: 'reconstructed',  // Proto-Kartvelian
+    pmay: 'reconstructed',  // Proto-Mayan
+    puaz: 'reconstructed',  // Proto-Uto-Aztecan
     pban: 'reconstructed',  // Proto-Bantu
     pst: 'reconstructed',  // Proto-Sino-Tibetan
     psem: 'reconstructed',  // Proto-Semitic
@@ -5207,7 +5219,7 @@ const HIST_DESCENDANT = {
     la:'it', el_grc:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
     got:'de', cu:'bg', pi:'si', cop:null, arc:'he',
     sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', myn:'es_mx',
-    ine:null, pjk:null, pban:null, pst:null, psem:null, pura:null, pdr:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
+    ine:null, pjk:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, pst:null, psem:null, pura:null, pdr:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
     vi_han:'vi', de_lut:'de', es_sgl:'es_eu', fr_class:'fr',

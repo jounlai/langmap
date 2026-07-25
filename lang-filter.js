@@ -861,10 +861,11 @@
     // ----- Historical period-range filter --------------------------------
     // Only shown / active in historical mode. Selection is a CONTIGUOUS range
     // of centuries; a language passes when its meta.period OVERLAPS that range.
-    // The slider works in signed century indices: -45..-1 = 45c..1c BCE,
-    // +1..+21 = 1c..21c CE (0 treated as the BCE/CE boundary). Full span =
-    // inactive. -45 / +21 are the data's actual earliest start / latest end.
-    const PERIOD_MIN_IDX = -45, PERIOD_MAX_IDX = 21;
+    // The slider works in signed century indices: negative = c BCE,
+    // positive = c CE (0 treated as the BCE/CE boundary). Full span =
+    // inactive. -100 / +21 span the data's actual earliest start (Proto-
+    // Afroasiatic, ~100c BCE) to its latest end (living liturgical langs, 21c).
+    const PERIOD_MIN_IDX = -100, PERIOD_MAX_IDX = 21;
     const periodFilter = { fromIdx: PERIOD_MIN_IDX, toIdx: PERIOD_MAX_IDX };
     function periodActive() {
         return periodFilter.fromIdx > PERIOD_MIN_IDX || periodFilter.toIdx < PERIOD_MAX_IDX;

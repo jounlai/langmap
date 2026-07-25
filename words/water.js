@@ -616,6 +616,8 @@ WORDS.water = {
     crn: ["hapɨn", "hapɨn"],
     myn: ["haʼ", "haʔ"],
     ine: ["*wódr̥", "wódr̩"],
+    pban: ["*-jíjì", "-jíjì"],
+    pst: ["—", "—"],
     psem: ["*māʔ-", "māʔ-"],
     pura: ["*wete", "wete"],
     pdr: ["*nīr", "nīr"],

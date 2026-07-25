@@ -609,6 +609,8 @@ WORDS.cat = {
     crn: ["mistú", "mistu"],
     myn: ["miis", "miːs"],
     ine: ["—", "—"],
+    pban: ["—", "—"],
+    pst: ["—", "—"],
     psem: ["—", "—"],
     pura: ["—", "—"],
     pdr: ["—", "—"],

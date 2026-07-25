@@ -609,6 +609,8 @@ WORDS.dog = {
     crn: ["tsɨ'ɨ", "tsɨʔɨ"],
     myn: ["peekʼ", "peːkʼ"],
     ine: ["*ḱwṓ", "ḱwóː"],
+    pban: ["*-bʊ́à", "-bʊ́à"],
+    pst: ["*d-kʷəy", "d-kʷəy"],
     psem: ["*kalb-", "kalb-"],
     pura: ["—", "—"],
     pdr: ["—", "—"],

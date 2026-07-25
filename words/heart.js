@@ -609,6 +609,8 @@ WORDS.heart = {
     crn: ["hɨurí", "hɨuri"],
     myn: ["pixan", "piʃan"],
     ine: ["*ḱḗr", "ḱéːr"],
+    pban: ["*-tíma", "-tíma"],
+    pst: ["—", "—"],
     psem: ["*libb-", "libb-"],
     pura: ["—", "—"],
     pdr: ["*neñcu", "neñcu"],

@@ -609,6 +609,8 @@ WORDS.hello = {
     crn: ["ke'kuanenki", "keʔkwanenki"],
     myn: ["bix a beel", "biʃ a beːl"],
     ine: ["—", "—"],
+    pban: ["—", "—"],
+    pst: ["—", "—"],
     psem: ["—", "—"],
     pura: ["—", "—"],
     pdr: ["—", "—"],

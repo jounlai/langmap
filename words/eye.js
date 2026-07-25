@@ -609,6 +609,8 @@ WORDS.eye = {
     crn: ["húi", "hwi"],
     myn: ["ich", "itʃ"],
     ine: ["*h₃ékʷ-", "h₃ékʷ"],
+    pban: ["*-jícò", "-jícò"],
+    pst: ["*s-mik", "s-mik"],
     psem: ["*ʕayn-", "ʕayn-"],
     pura: ["*śilmä", "śilmä"],
     pdr: ["*kaṇ", "kaṇ"],

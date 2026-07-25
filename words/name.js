@@ -609,6 +609,8 @@ WORDS.name = {
       crn: ["yeuwa", "ˈjeuwa"],
       myn: ["k'aba'", "kʼaˈɓaʔ"],
       ine: ["*h₃nómn̥", "hˈnomn̩"],
+      pban: ["*-jína", "-jína"],
+      pst: ["*r-miŋ", "r-miŋ"],
       psem: ["*šim-", "šim-"],
       pura: ["*nimi", "nimi"],
       pdr: ["*peyar", "peyar"],

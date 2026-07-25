@@ -615,6 +615,8 @@ WORDS.fire = {
     crn: ["ta'ai", "taʔai"],
     myn: ["kʼahkʼ", "kʼahkʼ"],
     ine: ["*péh₂wr̥", "péh₂wr̩"],
+    pban: ["—", "—"],
+    pst: ["*mey", "mey"],
     psem: ["*ʔiš-", "ʔiš-"],
     pura: ["—", "—"],
     pdr: ["*tī", "tī"],

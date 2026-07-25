@@ -609,6 +609,8 @@ WORDS.star = {
       crn: ["sɨɨrabe", "sɨːˈrabe"],
       myn: ["ek'", "eːkʼ"],
       ine: ["*h₂stḗr", "hˈsteːr"],
+      pban: ["—", "—"],
+      pst: ["—", "—"],
       psem: ["*kawkab-", "kawkab-"],
       pura: ["—", "—"],
       pdr: ["—", "—"],

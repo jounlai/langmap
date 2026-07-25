@@ -1096,10 +1096,34 @@
             border-radius: 4px; font-weight: 400;
         }
         .lf-close:hover { background: #eee; color: #000; }
-        .lf-period-readout { font-size: 12px; font-weight: 600; color: #333; text-align: center; margin: 2px 0 6px; }
-        .lf-period-row { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
-        .lf-period-cap { font-size: 10px; color: #888; width: 40px; flex: none; }
-        .lf-period-row input[type=range] { flex: 1; min-width: 0; accent-color: #4a6cf7; height: 18px; }
+        .lf-period-readout { font-size: 12px; font-weight: 600; color: #333; text-align: center; margin: 2px 0 4px; }
+        /* Single dual-thumb range: two <input type=range> stacked on one track.
+           The inputs are click-through (pointer-events:none) except their
+           thumbs, so both handles are independently grabbable. */
+        .lf-period-dual { position: relative; height: 26px; margin: 2px 2px 2px; }
+        .lf-period-track, .lf-period-fill {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            height: 4px; border-radius: 2px; pointer-events: none;
+        }
+        .lf-period-track { left: 0; right: 0; background: #ddd; }
+        .lf-period-fill { background: #4a6cf7; }
+        .lf-period-dual input[type=range] {
+            position: absolute; left: 0; top: 0; width: 100%; height: 26px;
+            margin: 0; background: none; -webkit-appearance: none; appearance: none;
+            pointer-events: none;
+        }
+        .lf-period-dual input[type=range]::-webkit-slider-runnable-track { background: none; border: none; }
+        .lf-period-dual input[type=range]::-moz-range-track { background: none; border: none; }
+        .lf-period-dual input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none; appearance: none; pointer-events: auto; cursor: pointer;
+            width: 15px; height: 15px; border-radius: 50%; background: #fff;
+            border: 2px solid #4a6cf7; box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+        .lf-period-dual input[type=range]::-moz-range-thumb {
+            pointer-events: auto; cursor: pointer; width: 15px; height: 15px;
+            border-radius: 50%; background: #fff; border: 2px solid #4a6cf7;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
 
         .lf-section { margin-top: 10px; }
         .lf-section-title {
@@ -1408,10 +1432,12 @@
                         <span class="lf-section-clear" data-cat="period" style="display:${periodActive() ? '' : 'none'}">${t('btn_clear')}</span>
                     </div>
                     <div class="lf-period-readout"><span class="lf-period-label">${fmtIdx(periodFilter.fromIdx)} – ${fmtIdx(periodFilter.toIdx)}</span></div>
-                    <label class="lf-period-row"><span class="lf-period-cap">${t('period_from')}</span>
-                        <input type="range" class="lf-period-from" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.fromIdx}"></label>
-                    <label class="lf-period-row"><span class="lf-period-cap">${t('period_to')}</span>
-                        <input type="range" class="lf-period-to" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.toIdx}"></label>
+                    <div class="lf-period-dual">
+                        <div class="lf-period-track"></div>
+                        <div class="lf-period-fill"></div>
+                        <input type="range" class="lf-period-from" aria-label="${t('period_from')}" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.fromIdx}">
+                        <input type="range" class="lf-period-to" aria-label="${t('period_to')}" min="${PERIOD_MIN_IDX}" max="${PERIOD_MAX_IDX}" step="1" value="${periodFilter.toIdx}">
+                    </div>
                 </div>
             `;
         }
@@ -1625,6 +1651,7 @@
                         chip.setAttribute('aria-pressed', 'true');
                     }
                 });
+                updatePeriodUI();   // position the dual-slider fill (no-op if absent)
                 positionPanel();
             }
             rebuildPanel();
@@ -1725,6 +1752,15 @@
                 if (toEl) toEl.value = String(periodFilter.toIdx);
                 const label = panel.querySelector('.lf-period-label');
                 if (label) label.textContent = fmtIdx(periodFilter.fromIdx) + ' – ' + fmtIdx(periodFilter.toIdx);
+                // Position the highlighted fill between the two thumbs.
+                const fill = panel.querySelector('.lf-period-fill');
+                if (fill) {
+                    const span = PERIOD_MAX_IDX - PERIOD_MIN_IDX;
+                    const a = (periodFilter.fromIdx - PERIOD_MIN_IDX) / span * 100;
+                    const b = (periodFilter.toIdx - PERIOD_MIN_IDX) / span * 100;
+                    fill.style.left = a + '%';
+                    fill.style.width = Math.max(0, b - a) + '%';
+                }
             }
 
             panel.addEventListener('click', (e) => {

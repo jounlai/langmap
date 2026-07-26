@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangMap — Name Map: One Name Across the World's Languages</title>
+    <meta name="description" content="Interactive world map of given names: see how John, Mary, Muhammad, Alexander and more are written and pronounced in each country — with origins, meanings, family trees, IPA and notable people.">
+    <meta name="keywords" content="name map, given names, name etymology, John Jean Juan Ivan, name origins, onomastics, biblical names, Quranic names, name meanings, name variations by language">
+    <meta name="author" content="Jounlai Cho, Heuron Inc.">
+    <meta property="og:title" content="LangMap — Name Map: One Name Across the World">
+    <meta property="og:description" content="John, Jean, Juan, Giovanni, Ivan — see how one name spread and changed across the world's languages, with origins, meanings and family trees.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://langmap.heuron.com/namemap.html">
+    <meta property="og:image" content="https://langmap.heuron.com/ogp-wordmap.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="LangMap">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LangMap — Name Map: One Name Across the World">
+    <meta name="twitter:description" content="See how one given name spread and changed across the world's languages.">
+    <link rel="canonical" href="https://langmap.heuron.com/namemap.html">
+    <link rel="icon" type="image/png" href="/langmap.png">
+    <link rel="apple-touch-icon" href="/langmap.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#8e44ad">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Name Map: One Name Across the World's Languages",
+        "url": "https://langmap.heuron.com/namemap.html",
+        "description": "Interactive world map of given names with origins, meanings, family trees, pronunciation and notable people.",
+        "isPartOf": {"@id": "https://langmap.heuron.com/#website"},
+        "inLanguage": ["en", "ja"]
+    }
+    </script>
+    <script>
+        // Production-only GA firing: hostname-gated so dev/local traffic
+        // doesn't pollute analytics. Same pattern as the other pages.
+        if (location.hostname === 'langmap.heuron.com') {
+            const s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JZ7JJBCCHG');
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=125">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Webfonts for the scripts that name forms appear in. Without these,
+         Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
+         Armenian / Thai and CJK forms tofu on iOS and Windows. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Georgian:wght@400;700&family=Noto+Sans+Armenian:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap">
+    <style>
+        /* ===== NameMap-specific layout (shares header/nav/lang-picker/buttons
+                 from styles.css) =============================================== */
+        html, body { height: 100%; }
+        /* Flex column: header keeps its natural height, the stage fills the rest.
+           No magic pixel offset, so the header can never be clipped. */
+        body { margin: 0; padding: 0; overflow: hidden; background: #f0f2f5; display: flex; flex-direction: column; }
+        /* The shared header uses margin:-20px to bleed into body's 20px padding;
+           this page has no such padding, so cancel it (otherwise the header is
+           pulled up off the top). */
+        .site-header-bar { margin: 0 !important; flex: 0 0 auto; position: relative; z-index: 1100; }
+        :root { --nm-accent: #8e44ad; --nm-accent-dark: #703688; --nm-accent-tint: #f3eaf9; }
+
+        .nm-script { font-family: 'Noto Sans','Noto Sans Hebrew','Noto Sans Arabic','Noto Sans Devanagari','Noto Sans Bengali','Noto Sans Ethiopic','Noto Sans Georgian','Noto Sans Armenian','Noto Sans Thai','Noto Serif JP','Noto Serif SC','Noto Serif KR', sans-serif; }
+
+        /* Stage below the header: full-bleed map with a floating card panel
+           (same over-the-map treatment as WordMap / HanMap). */
+        .nm-stage { flex: 1 1 auto; position: relative; min-height: 0; }
+        #map { position: absolute; inset: 0; height: 100%; width: 100%; background: #e8eef4; z-index: 1; }
+
+        /* ---- Desktop: a single translucent card fixed to the LEFT, holding
+               the controls on top and the scrollable info below. Map area to
+               the right stays clear. Translucent (no solid white frame). ---- */
+        .nm-panel {
+            position: absolute; top: 10px; left: 10px; bottom: 10px; z-index: 800;
+            width: 350px; max-width: calc(100% - 20px);
+            display: flex; flex-direction: column; overflow: hidden;
+            background: rgba(255,255,255,0.9);
+            border: 1px solid rgba(0,0,0,0.08); border-radius: 14px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.22);
+            -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+        }
+        .nm-controls {
+            position: static; flex: 0 0 auto; padding: 11px 13px;
+            border-bottom: 1px solid rgba(0,0,0,0.08); background: rgba(250,251,252,0.5);
+        }
+        .nm-select-row { display: flex; gap: 6px; align-items: center; }
+        #name-select {
+            flex: 1 1 auto; font-size: 15px; padding: 7px 9px; border: 1px solid #d0d3dc;
+            border-radius: 6px; background: #fff; color: #1a1a2e; font-weight: 600; cursor: pointer;
+        }
+        .nm-random-btn {
+            flex: 0 0 auto; width: 36px; height: 36px; border: 1px solid #d0d3dc; border-radius: 6px;
+            background: #fff; cursor: pointer; font-size: 16px; line-height: 1;
+        }
+        .nm-random-btn:hover { background: var(--nm-accent-tint); border-color: var(--nm-accent); }
+        .nm-search-wrap { position: relative; margin-top: 8px; }
+        #nm-search {
+            width: 100%; box-sizing: border-box; font-size: 14px; padding: 7px 9px;
+            border: 1px solid #d0d3dc; border-radius: 6px; background: #fff;
+        }
+        #nm-search-results {
+            position: absolute; top: 100%; left: 0; right: 0; background: #fff;
+            border: 1px solid #d0d3dc; border-top: none; border-radius: 0 0 6px 6px;
+            max-height: 260px; overflow-y: auto; z-index: 40; display: none;
+            box-shadow: 0 6px 22px rgba(0,0,0,0.16);
+        }
+        #nm-search-results.open { display: block; }
+        .nm-search-item { padding: 8px 10px; cursor: pointer; font-size: 14px; display: flex; justify-content: space-between; gap: 8px; }
+        .nm-search-item:hover, .nm-search-item.active { background: var(--nm-accent-tint); }
+        .nm-search-item .sub { color: #888; font-size: 12px; }
+
+        .nm-info {
+            position: static; flex: 1 1 auto; overflow-y: auto; padding: 14px 16px 24px;
+            background: transparent; border: none; box-shadow: none;
+        }
+
+        .nm-headline { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+        .nm-name-en { font-size: 30px; font-weight: 800; color: #1a1a2e; line-height: 1.1; letter-spacing: -0.5px; }
+        .nm-cat-pill {
+            display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 9px;
+            border-radius: 999px; background: var(--nm-accent-tint); color: var(--nm-accent-dark);
+            white-space: nowrap;
+        }
+        .nm-origin-script {
+            font-size: 26px; margin: 10px 0 2px; color: #222; direction: auto;
+        }
+        .nm-origin-line { font-size: 13px; color: #666; margin-bottom: 10px; }
+        .nm-origin-line b { color: #333; }
+        .nm-meaning {
+            font-size: 16px; color: var(--nm-accent-dark); font-weight: 600; margin: 4px 0 12px;
+            padding: 10px 12px; background: var(--nm-accent-tint); border-radius: 8px; line-height: 1.4;
+        }
+        .nm-section-h {
+            font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px;
+            color: #999; margin: 18px 0 8px; padding-bottom: 4px; border-bottom: 1px solid #eee;
+        }
+        .nm-background { font-size: 13.5px; line-height: 1.6; color: #444; }
+
+        /* ---- Etymology tree (curved but continuous connector guides) ---- */
+        .nm-tree { font-size: 13px; --tree-line: #cbb6e0; }
+        .nm-tree ul { list-style: none; margin: 0; padding-left: 14px; }
+        .nm-tree > ul { padding-left: 2px; }
+        .nm-tree li { position: relative; padding: 3px 0 3px 16px; }
+        /* continuous straight trunk down the left (spans the whole subtree so
+           siblings always connect); truncated to the elbow on the last child */
+        .nm-tree li::after {
+            content: ''; position: absolute; left: 0; top: 0; height: 100%; border-left: 1px solid var(--tree-line);
+        }
+        .nm-tree li:last-child::after { height: 11px; }
+        /* rounded corner + horizontal arm, drawn on top of the trunk; the arm
+           sits at ~11px so it meets the vertical centre of the node label */
+        .nm-tree li::before {
+            content: ''; position: absolute; left: 0; top: -2px; width: 13px; height: 13px;
+            border-left: 1px solid var(--tree-line);
+            border-bottom: 1px solid var(--tree-line);
+            border-bottom-left-radius: 8px;
+        }
+        /* the root carries no incoming line */
+        .nm-tree > ul > li.nm-tree-root { padding-left: 0; }
+        .nm-tree > ul > li.nm-tree-root::before,
+        .nm-tree > ul > li.nm-tree-root::after { display: none; }
+        .nm-tree-node { display: inline-flex; align-items: baseline; gap: 7px; flex-wrap: wrap; }
+        .nm-tree-label { font-weight: 700; color: #1a1a2e; }
+        .nm-tree-root > .nm-tree-node .nm-tree-label { color: var(--nm-accent-dark); font-size: 15px; }
+        .nm-tree-script { color: #555; font-size: 13px; }
+        .nm-tree-lang { color: #999; font-size: 11.5px; }
+        .nm-tree-note { display: block; color: #b07acc; font-size: 11px; padding-left: 2px; }
+
+        /* ---- "Around the world" form list ---- */
+        .nm-form-row {
+            display: flex; align-items: center; gap: 8px; padding: 7px 6px; border-radius: 6px;
+            cursor: pointer; border-bottom: 1px solid #f2f2f4;
+        }
+        .nm-form-row:hover { background: var(--nm-accent-tint); }
+        .nm-form-left { flex: 0 0 92px; display: flex; align-items: center; gap: 6px; }
+        .nm-form-country { flex: 1 1 auto; font-size: 12px; color: #777; text-align: left; line-height: 1.2; }
+        .nm-form-main { flex: 1 1 auto; min-width: 0; }
+        .nm-form-word { font-size: 16px; font-weight: 700; color: #1a1a2e; }
+        .nm-form-rom { font-size: 12px; color: #888; margin-left: 6px; }
+        .nm-form-ipa { font-size: 12px; color: #2e6fb8; font-family: 'Gentium Plus','Charis SIL',serif; }
+        .nm-freq-dot { flex: 0 0 auto; width: 9px; height: 9px; border-radius: 50%; }
+        .nm-freq-very-common { background: #2e8b57; }
+        .nm-freq-common { background: #7cb342; }
+        .nm-freq-moderate { background: #f0ad4e; }
+        .nm-freq-rare { background: #ccc; }
+        /* frequency colour legend — small print, bottom of the info panel */
+        .nm-legend {
+            margin-top: 20px; padding-top: 10px; border-top: 1px solid #eee;
+            display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px;
+            font-size: 10.5px; color: #9a9aa2;
+        }
+        .nm-legend-lead { font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .nm-legend-item { display: inline-flex; align-items: center; gap: 5px; }
+        .nm-legend .nm-freq-dot { width: 8px; height: 8px; }
+
+        /* ---- Map labels (divIcon) ---- */
+        /* Map labels: plain text with a white halo for legibility over the
+           map — NO box/frame (WordMap-style). */
+        .nm-label {
+            display: inline-flex; flex-direction: column; align-items: center; line-height: 1.12;
+            white-space: nowrap; cursor: pointer; transform: translate(-50%, -50%); text-align: center;
+            text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 4px #fff, 1px 1px 2px #fff, -1px -1px 2px #fff;
+        }
+        .nm-label:hover { z-index: 600 !important; }
+        .nm-label:hover .w { color: var(--nm-accent-dark); }
+        .nm-label .w { font-weight: 700; font-size: 14px; color: #1a2340; }
+        .nm-label .r { font-size: 10px; color: #555; margin-top: -1px; }
+        .nm-label.is-origin .w {
+            color: var(--nm-accent-dark);
+            text-decoration: underline; text-decoration-color: rgba(142,68,173,0.55); text-underline-offset: 2px;
+        }
+
+        /* Leaflet popup theming */
+        .nm-pop-country { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
+        .nm-pop-word { font-size: 22px; font-weight: 800; color: #1a1a2e; margin: 2px 0; }
+        .nm-pop-line { font-size: 13px; color: #555; margin: 3px 0; }
+        .nm-pop-line .k { color: #999; }
+        .nm-pop-ipa { font-family: 'Gentium Plus','Charis SIL',serif; color: #2e6fb8; }
+        .nm-pop-people { margin: 6px 0 0; padding: 0; list-style: none; }
+        .nm-pop-people li { font-size: 12.5px; color: #444; padding: 1px 0 1px 14px; position: relative; }
+        .nm-pop-people li::before { content: '★'; position: absolute; left: 0; color: var(--nm-accent); font-size: 10px; top: 2px; }
+        .nm-pop-freq { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; color: #666; }
+        .leaflet-popup-content { margin: 12px 14px; min-width: 180px; }
+
+        /* ---- Simple-display mode (HanMap-style chrome toggle): hide the
+               floating panels so only the map + name labels show, but keep the
+               selected name visible (like WordMap) ---- */
+        body.chrome-hidden .nm-panel,
+        body.chrome-hidden .nm-fab-info { display: none !important; }
+        /* Simple-display toggle + zoom form one centred column at the map's
+           top-right on desktop (HanMap-style): [simple-display] then [zoom].
+           The button lives in the header markup; on mobile it reverts to a
+           normal header button (see the mobile block). */
+        .nm-chrome-fab {
+            position: fixed; top: 60px; right: 10px; z-index: 900;
+            width: 34px; height: 34px; padding: 0;
+            display: inline-flex; align-items: center; justify-content: center;
+            background: #fff; box-shadow: 0 1px 5px rgba(0,0,0,0.28);
+        }
+        .nm-chrome-fab svg { width: 18px; height: 18px; }
+        /* push the top-right zoom control down so it sits below the toggle,
+           and match its width so the two align into a centred column */
+        .leaflet-top.leaflet-right { top: 46px; }
+        .leaflet-control-zoom { margin-right: 10px !important; margin-top: 0 !important; }
+        .leaflet-control-zoom a { width: 34px; height: 34px; line-height: 34px; font-size: 20px; }
+        /* Selected-name label in simple-display mode — plain text with a white
+           halo, NO box (WordMap-style). */
+        .nm-simple-name {
+            display: none; position: absolute; top: 10px; left: 14px; z-index: 815;
+            max-width: calc(100% - 100px);
+            font-size: 23px; font-weight: 800; color: #1a2340; letter-spacing: -0.3px;
+            text-shadow: 0 0 3px #fff, 0 0 4px #fff, 1px 1px 2px #fff, -1px -1px 2px #fff;
+        }
+        body.chrome-hidden .nm-simple-name { display: block; }
+
+        /* ---- Mobile-only bits: hidden on desktop ---- */
+        .nm-fab-info { display: none; }
+        .nm-info-close { display: none; }
+        .nm-sheet-backdrop { display: none; }
+        .nm-details-btn { display: none; }   /* shown only on mobile, next to the selector */
+
+        /* ===== Mobile ===== */
+        @media (max-width: 780px) {
+            /* Panel stops being a card; its children are positioned individually. */
+            .nm-panel {
+                position: static; display: block; width: auto; max-width: none; max-height: none;
+                background: transparent; border: none; box-shadow: none; overflow: visible;
+                -webkit-backdrop-filter: none; backdrop-filter: none;
+            }
+            /* Minimal top control: a transparent pulldown + a subtle details
+               button. Search is hidden. Sits BELOW the header menu (z-index
+               < the drawer/backdrop at 1099) so the menu covers it when open. */
+            .nm-controls {
+                position: absolute; top: 8px; left: 8px; right: 8px; width: auto; max-width: none; z-index: 1050;
+                border: none; border-radius: 0; box-shadow: none; background: transparent; padding: 0;
+            }
+            .nm-search-wrap { display: none; }
+            /* Simple-display button reverts to a normal header button on mobile;
+               zoom returns to the normal top-right position. */
+            .nm-chrome-fab { position: static; top: auto; right: auto; width: auto; height: auto; box-shadow: none; }
+            .leaflet-top.leaflet-right { top: 0; }
+            .nm-select-row { justify-content: flex-start; }
+            #name-select {
+                flex: 0 1 auto; width: auto; max-width: 56vw;
+                background: rgba(255,255,255,0.55); border: 1px solid rgba(0,0,0,0.12);
+                -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+                font-size: 16px; box-shadow: 0 1px 6px rgba(0,0,0,0.14);
+            }
+            .nm-random-btn {
+                background: rgba(255,255,255,0.55); border: 1px solid rgba(0,0,0,0.12);
+                -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+                box-shadow: 0 1px 6px rgba(0,0,0,0.14);
+            }
+            /* subtle details button, sits next to the selector */
+            .nm-details-btn {
+                display: inline-flex; align-items: center; justify-content: center;
+                flex: 0 0 auto; width: 36px; height: 36px; font-size: 18px; line-height: 1;
+                color: var(--nm-accent-dark); cursor: pointer;
+                background: rgba(255,255,255,0.55); border: 1px solid rgba(0,0,0,0.12); border-radius: 6px;
+                -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+                box-shadow: 0 1px 6px rgba(0,0,0,0.14);
+            }
+            /* the bottom-right FAB is replaced by the inline details button */
+            .nm-fab-info { display: none !important; }
+            /* Info as a bottom sheet */
+            .nm-info {
+                position: fixed; left: 0; right: 0; bottom: 0; top: auto; width: auto; max-width: none; z-index: 1400;
+                max-height: 85vh; background: #fff; border-radius: 16px 16px 0 0;
+                box-shadow: 0 -6px 30px rgba(0,0,0,0.3);
+                transform: translateY(110%); transition: transform 0.25s ease;
+                padding: 0 16px calc(28px + env(safe-area-inset-bottom));
+            }
+            .nm-panel.info-open .nm-info { transform: none; }
+            /* Sheet gets top padding so the sticky close button clears content */
+            .nm-info { padding-top: 8px; }
+            /* Close: a round × pinned to the top-RIGHT of the sheet, stays put
+               while the sheet scrolls (margin-left:auto pushes it right; the
+               negative bottom margin lets content flow up beside it). */
+            .nm-info-close {
+                display: flex; align-items: center; justify-content: center;
+                position: sticky; top: 8px; z-index: 5;
+                margin: 0 0 -40px auto; width: 38px; height: 38px;
+                border: none; border-radius: 50%;
+                background: rgba(0,0,0,0.07); color: #333;
+                font-size: 24px; line-height: 1; cursor: pointer;
+            }
+            /* Tap-outside backdrop */
+            .nm-panel.info-open ~ .nm-sheet-backdrop {
+                display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35);
+            }
+            /* FAB opens the sheet — a clear "details" action, not the name */
+            .nm-fab-info {
+                display: inline-flex; align-items: center; gap: 6px;
+                position: absolute; right: 12px; bottom: calc(14px + env(safe-area-inset-bottom));
+                z-index: 1250; padding: 11px 16px; border: none; border-radius: 999px;
+                background: var(--nm-accent); color: #fff; font-size: 14px; font-weight: 700;
+                box-shadow: 0 4px 16px rgba(142,68,173,0.5); cursor: pointer;
+            }
+            .nm-panel.info-open ~ .nm-fab-info { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Name Map</h1>
+    <!-- Header (shared markup with wordmap/hanmap/tree/index) -->
+    <div class="site-header-bar">
+        <a href="index.html" class="logo">LangMap<span class="logo-badge logo-badge-name" aria-label="NameMap" title="NameMap"><svg viewBox="0 0 24 24"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3h0a3 3 0 0 1 3 3v5"/></svg></span></a>
+        <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle">
+        <!-- Simple-display toggle. On desktop it's positioned (via CSS) to float
+             at the map's top-right; on mobile it stays here in the header. -->
+        <button type="button" id="chrome-toggle" class="chrome-toggle-btn nm-chrome-fab" aria-label="Simple display" title="Simple display" aria-pressed="false">
+            <svg class="icon-on"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9V3h6M21 9V3h-6M3 15v6h6M21 15v6h-6"/></svg>
+            <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3v6H3M15 3v6h6M9 21v-6H3M15 21v-6h6"/></svg>
+        </button>
+        <label for="hdr-menu-toggle" class="hamburger-btn" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
+        <div class="header-collapse" id="header-collapse">
+            <nav class="header-nav">
+                <a href="index.html" class="header-nav-link" id="nav-order-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg>Word Order</a>
+                <span class="nav-sep">/</span>
+                <a href="wordmap.html" class="header-nav-link" id="nav-word"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Word Map</a>
+                <span class="nav-sep">/</span>
+                <a href="hanmap.html" class="header-nav-link" id="nav-han"><span style="display:inline-block;font-family:'Noto Serif JP','Noto Serif SC','Noto Serif TC','Noto Serif KR',serif;font-weight:700;vertical-align:-1px;margin-right:3px;font-size:13px">字</span>HanMap</a>
+                <span class="nav-sep">/</span>
+                <span class="header-nav-current" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</span>
+                <span class="nav-sep">/</span>
+                <a href="tree.html" class="header-nav-link" id="nav-tree-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg>Tree</a>
+            </nav>
+            <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
+            <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
+        </div>
+    </div>
+    <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
+
+    <div class="nm-stage">
+        <aside class="nm-panel" id="nm-panel">
+            <div class="nm-controls">
+                <div class="nm-select-row">
+                    <select id="name-select" aria-label="Select a name"></select>
+                    <button type="button" class="nm-random-btn" id="nm-random" title="Random name" aria-label="Random name">🎲</button>
+                    <button type="button" class="nm-details-btn" id="nm-details-btn" title="Details" aria-label="Details"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><line x1="12" y1="7.6" x2="12.01" y2="7.6"/></svg></button>
+                </div>
+                <div class="nm-search-wrap">
+                    <input type="text" id="nm-search" autocomplete="off" spellcheck="false" placeholder="Search a name…" aria-label="Search a name">
+                    <div id="nm-search-results" role="listbox"></div>
+                </div>
+            </div>
+            <div class="nm-info" id="nm-info">
+                <button type="button" class="nm-info-close" id="nm-info-close" aria-label="Close">&times;</button>
+                <!-- rendered by JS -->
+            </div>
+        </aside>
+        <div id="map"></div>
+        <!-- Selected-name label, shown only in simple-display mode so the name
+             stays visible while the panels are hidden (like WordMap). -->
+        <div id="nm-simple-name" class="nm-simple-name" aria-hidden="true"></div>
+        <div class="nm-sheet-backdrop" id="nm-sheet-backdrop" aria-hidden="true"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="namemap_data.js?v=1"></script>
+    <script src="namemap_i18n.js?v=1"></script>
+    <script src="namemap_names_ext.js?v=1"></script>
+    <script src="namemap_content_i18n.js?v=1"></script>
+    <script>
+    (function () {
+        'use strict';
+        const T = window.NM_UI, LANGS = window.NM_LANGS, NAMES = window.NAMES;
+        const CATS = window.NM_CATEGORY_ORDER;
+        const PALETTE = window.COUNTRY_PALETTE;
+
+        /* ---------- UI language ---------- */
+        function getCookie(n){ const m=document.cookie.match(new RegExp('(?:^|;\\s*)'+n+'=([^;]+)')); return m?decodeURIComponent(m[1]):null; }
+        function setCookie(n,v){ document.cookie=n+'='+encodeURIComponent(v)+'; path=/; max-age=31536000; SameSite=Lax'; }
+        function detectLang(){
+            const c=getCookie('wm_uilang'); if(c&&T[c]) return c;
+            const navs=(navigator.languages||[navigator.language||'en']);
+            for(const l of navs){ const b=(l||'').slice(0,2).toLowerCase(); if(T[b]) return b; }
+            return 'en';
+        }
+        let uiLang = detectLang();
+        function t(k){ return (T[uiLang]&&T[uiLang][k]) || (T.en&&T.en[k]) || k; }
+        function loc(o){ if(o==null) return ''; if(typeof o==='string') return o; return o[uiLang]||o.en||''; }
+
+        /* ---------- State ---------- */
+        let currentId = null;
+        const markers = {};           // cell code -> Leaflet marker
+        let map, geoLayer;
+        const PANEL_WIDTH = 360;      // desktop left info panel span (left:10 + w:350)
+        const PANEL_HALF = PANEL_WIDTH / 2;  // horizontal offset to centre in the visible area
+
+        /* ---------- Map init ---------- */
+        function initMap(){
+            map = L.map('map', {
+                center: [30, 15], zoom: 2.4, minZoom: 2, maxZoom: 8,
+                worldCopyJump: true, zoomControl: false, zoomSnap: 0.5,
+            });
+            L.control.zoom({ position: 'topright' }).addTo(map);
+            map.on('zoomend', ()=>requestAnimationFrame(relaxLabels));
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://openstreetmap.org">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                subdomains: 'abcd', maxZoom: 19,
+            }).addTo(map);
+            // Country tints (hash country name -> palette), same look as wordmap.
+            fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
+                .then(r=>r.json())
+                .then(gj=>{
+                    geoLayer = L.geoJSON(gj, { style:(f)=>{
+                        let name = f.properties.ADMIN || f.properties.name || '';
+                        if(name==='Russia'||name==='Russian Federation'||name==='Ukraine') name='Russia/Ukraine';
+                        let h=0; for(let i=0;i<name.length;i++){ h=((h<<5)-h+name.charCodeAt(i))|0; }
+                        return { fillColor: PALETTE[Math.abs(h)%PALETTE.length], fillOpacity:1, color:'#999', weight:0.8, opacity:0.5 };
+                    }});
+                    geoLayer.addTo(map);
+                    if(geoLayer.bringToBack) geoLayer.bringToBack();
+                })
+                .catch(e=>console.warn('country borders failed', e));
+        }
+
+        function freqClass(f){ return 'nm-freq-'+(f||'moderate'); }
+        function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+        /* ---------- Name selector ---------- */
+        function sortedNameIds(){
+            const ids = Object.keys(NAMES);
+            ids.sort((a,b)=>{
+                const ca=CATS.indexOf(NAMES[a].category), cb=CATS.indexOf(NAMES[b].category);
+                if(ca!==cb) return ca-cb;
+                return loc(NAMES[a].display).localeCompare(loc(NAMES[b].display));
+            });
+            return ids;
+        }
+        function buildSelect(){
+            const sel = document.getElementById('name-select');
+            sel.innerHTML='';
+            const byCat = {};
+            sortedNameIds().forEach(id=>{ (byCat[NAMES[id].category]=byCat[NAMES[id].category]||[]).push(id); });
+            CATS.forEach(cat=>{
+                if(!byCat[cat]) return;
+                const og=document.createElement('optgroup');
+                og.label = (t('cats')[cat]||cat);
+                byCat[cat].forEach(id=>{
+                    const o=document.createElement('option');
+                    o.value=id; o.textContent=loc(NAMES[id].display);
+                    og.appendChild(o);
+                });
+                sel.appendChild(og);
+            });
+            sel.value = currentId || '';
+        }
+
+        /* ---------- Etymology tree ---------- */
+        function renderTree(name){
+            const nodes = name.tree || {};
+            const ids = Object.keys(nodes);
+            if(!ids.length) return '';
+            const children = {}; let root=null;
+            ids.forEach(id=>{ const p=nodes[id].parent; if(p){ (children[p]=children[p]||[]).push(id); } else if(!root){ root=id; } });
+            function nodeHtml(id){
+                const n=nodes[id];
+                let h='<span class="nm-tree-node">';
+                h+='<span class="nm-tree-label">'+esc(n.label)+'</span>';
+                if(n.script) h+='<span class="nm-tree-script nm-script">'+esc(n.script)+'</span>';
+                h+='<span class="nm-tree-lang">'+esc(loc(n.lang))+'</span>';
+                h+='</span>';
+                if(n.note) h+='<span class="nm-tree-note">'+esc(loc(n.note))+'</span>';
+                const kids=children[id]||[];
+                if(kids.length){ h+='<ul>'+kids.map(k=>'<li>'+nodeHtml(k)+'</li>').join('')+'</ul>'; }
+                return h;
+            }
+            return '<div class="nm-tree"><ul><li class="nm-tree-root">'+nodeHtml(root)+'</li></ul></div>';
+        }
+
+        /* ---------- Info panel ---------- */
+        function renderInfo(id){
+            const name = NAMES[id]; if(!name) return;
+            const el = document.getElementById('nm-info');
+            const o = name.origin || {};
+            let h='<button type="button" class="nm-info-close" id="nm-info-close" aria-label="'+esc(t('close'))+'">&times;</button>';
+            h+='<div class="nm-headline"><span class="nm-name-en">'+esc(loc(name.display))+'</span>';
+            h+='<span class="nm-cat-pill">'+esc(t('cats')[name.category]||name.category)+'</span></div>';
+            if(o.native) h+='<div class="nm-origin-script nm-script">'+esc(o.native)+'</div>';
+            h+='<div class="nm-origin-line">';
+            if(o.rom) h+='<b>'+esc(o.rom)+'</b> · ';
+            h+=esc(t('origin'))+': <b>'+esc(loc(o.lang))+'</b></div>';
+            if(o.meaning) h+='<div class="nm-meaning">'+esc(loc(o.meaning))+'</div>';
+            if(name.background){ h+='<div class="nm-section-h">'+esc(t('background'))+'</div><div class="nm-background">'+esc(loc(name.background))+'</div>'; }
+            const tree = renderTree(name);
+            if(tree){ h+='<div class="nm-section-h">'+esc(t('tree'))+'</div>'+tree; }
+            // Forms list
+            const forms = name.forms||{};
+            const codes = Object.keys(forms).filter(c=>LANGS[c]).sort((a,b)=>{
+                const rank={'very-common':0,common:1,moderate:2,rare:3};
+                const d=(rank[forms[a].freq]??2)-(rank[forms[b].freq]??2); if(d) return d;
+                return loc(LANGS[a].country).localeCompare(loc(LANGS[b].country));
+            });
+            if(codes.length){
+                h+='<div class="nm-section-h">'+esc(t('forms'))+' · '+codes.length+'</div>';
+                codes.forEach(c=>{
+                    const f=forms[c];
+                    h+='<div class="nm-form-row" data-code="'+c+'">';
+                    h+='<span class="nm-form-left"><span class="nm-freq-dot '+freqClass(f.freq)+'"></span>';
+                    h+='<span class="nm-form-country">'+esc(loc(LANGS[c].country))+'</span></span>';
+                    h+='<span class="nm-form-main"><span class="nm-form-word nm-script">'+esc(f.form)+'</span>';
+                    if(f.rom && f.rom!==f.form) h+='<span class="nm-form-rom">'+esc(f.rom)+'</span>';
+                    if(f.ipa) h+=' <span class="nm-form-ipa">/'+esc(f.ipa)+'/</span>';
+                    h+='</span></div>';
+                });
+            }
+            // Frequency colour legend at the very bottom (small print)
+            h+='<div class="nm-legend"><span class="nm-legend-lead">'+esc(t('frequency'))+'</span>';
+            ['very-common','common','moderate','rare'].forEach(fq=>{
+                h+='<span class="nm-legend-item"><span class="nm-freq-dot '+freqClass(fq)+'"></span>'+esc(t('freq')[fq]||fq)+'</span>';
+            });
+            h+='</div>';
+            el.innerHTML=h;
+            el.scrollTop=0;
+            el.querySelector('#nm-info-close').addEventListener('click', closeInfoSheet);
+            el.querySelectorAll('.nm-form-row').forEach(row=>{
+                row.addEventListener('click', ()=>{
+                    const c=row.getAttribute('data-code');
+                    if(!markers[c]) return;
+                    const onMobile = window.matchMedia('(max-width: 780px)').matches;
+                    // On mobile, drop the sheet first so the country is visible.
+                    if(onMobile) closeInfoSheet();
+                    const z = Math.max(map.getZoom(), 4);
+                    const ll = markers[c].getLatLng();
+                    // Centre the marker in the VISIBLE map area: on desktop the
+                    // left info panel covers ~360px, so shift the target right by
+                    // half of that; nudge up so the popup stays on-screen.
+                    const offsetX = onMobile ? 0 : PANEL_HALF;
+                    const nudge = onMobile ? 70 : 40;
+                    const pt = map.project(ll, z).subtract([offsetX, -nudge]);
+                    map.setView(map.unproject(pt, z), z, { animate: true });
+                    setTimeout(()=>markers[c].openPopup(), onMobile ? 260 : 0);
+                });
+            });
+        }
+
+        /* ---------- Map labels ---------- */
+        function popupHtml(id, code){
+            const name=NAMES[id], f=name.forms[code], cell=LANGS[code];
+            let h='<div class="nm-pop-country">'+esc(loc(cell.country))+' · '+esc(loc(cell.name))+'</div>';
+            h+='<div class="nm-pop-word nm-script">'+esc(f.form)+'</div>';
+            if(f.rom && f.rom!==f.form) h+='<div class="nm-pop-line"><span class="k">'+esc(t('romanization'))+':</span> '+esc(f.rom)+'</div>';
+            if(f.ipa) h+='<div class="nm-pop-line"><span class="k">'+esc(t('ipa'))+':</span> <span class="nm-pop-ipa">/'+esc(f.ipa)+'/</span></div>';
+            h+='<div class="nm-pop-line nm-pop-freq"><span class="nm-freq-dot '+freqClass(f.freq)+'"></span>'+esc(t('freq')[f.freq]||f.freq)+'</div>';
+            if(f.note) h+='<div class="nm-pop-line" style="color:#b07acc">'+esc(loc(f.note))+'</div>';
+            if(f.people && f.people.length){
+                h+='<div class="nm-pop-line k" style="margin-top:6px">'+esc(t('notablePeople'))+'</div>';
+                h+='<ul class="nm-pop-people">'+f.people.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>';
+            }
+            return h;
+        }
+        function renderMap(id){
+            Object.values(markers).forEach(m=>map.removeLayer(m));
+            for(const k in markers) delete markers[k];
+            const name=NAMES[id]; if(!name) return;
+            const originLang = name.origin && loc(name.origin.lang);
+            Object.keys(name.forms).forEach(code=>{
+                const cell=LANGS[code]; if(!cell) return;
+                const f=name.forms[code];
+                const isOrigin = f.note && /original/i.test(loc(f.note));
+                const html='<div class="nm-label'+(isOrigin?' is-origin':'')+'">'
+                    +'<span class="w nm-script">'+esc(f.form)+'</span>'
+                    +(f.rom && f.rom!==f.form ? '<span class="r">'+esc(f.rom)+'</span>' : '')
+                    +'</div>';
+                const icon=L.divIcon({ className:'nm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
+                const mk=L.marker([cell.lat, cell.lng], { icon, riseOnHover:true });
+                mk.bindPopup(()=>popupHtml(id, code), { closeButton:true, maxWidth:260 });
+                mk.addTo(map);
+                markers[code]=mk;
+            });
+            requestAnimationFrame(relaxLabels);
+        }
+
+        /* ---------- Label de-collision (WordMap-style nudging) ----------
+           Country labels sit at fixed points and can overlap (esp. in Europe /
+           the Middle East). We measure each label's pixel box at the current
+           zoom and greedily push overlapping ones apart in a spiral, keeping
+           the higher-priority labels (origin form, then by frequency) in place.
+           Overlaps are pan-invariant, so we only recompute on zoom. */
+        function relaxLabels(){
+            if(!map || !currentId || typeof map.latLngToContainerPoint!=='function') return;
+            const name=NAMES[currentId]; if(!name) return;
+            const items=[];
+            Object.keys(markers).forEach(code=>{
+                const mk=markers[code];
+                const root=mk.getElement && mk.getElement(); if(!root) return;
+                const label=root.querySelector('.nm-label'); if(!label) return;
+                label.style.transform='translate(-50%, -50%)';   // reset before measuring
+                const pt=map.latLngToContainerPoint(mk.getLatLng());
+                const r=label.getBoundingClientRect();
+                const f=name.forms[code]||{};
+                const rank={'very-common':0,common:1,moderate:2,rare:3}[f.freq]??2;
+                const isOrigin=f.note && /original/i.test(loc(f.note));
+                items.push({ label, x:pt.x, y:pt.y, w:r.width||40, h:r.height||16, pr:rank+(isOrigin?-2:0) });
+            });
+            items.sort((a,b)=>a.pr-b.pr);
+            // spiral of candidate pixel offsets (0,0 first → keep put if possible)
+            const cand=[[0,0]];
+            for(let ring=1; ring<=6; ring++){
+                for(const [ox,oy] of [[0,-1],[0,1],[-1,0],[1,0],[-1,-1],[1,-1],[-1,1],[1,1]]){
+                    cand.push([ox*ring*15, oy*ring*13]);
+                }
+            }
+            const placed=[];
+            const hit=(a,b)=> Math.abs(a.cx-b.cx) < (a.w+b.w)/2+2 && Math.abs(a.cy-b.cy) < (a.h+b.h)/2+2;
+            items.forEach(it=>{
+                let dx=0, dy=0;
+                for(const [ox,oy] of cand){
+                    const box={ cx:it.x+ox, cy:it.y+oy, w:it.w, h:it.h };
+                    if(!placed.some(p=>hit(box,p))){ dx=ox; dy=oy; break; }
+                }
+                placed.push({ cx:it.x+dx, cy:it.y+dy, w:it.w, h:it.h });
+                it.label.style.transform='translate(-50%, -50%) translate('+dx+'px, '+dy+'px)';
+            });
+        }
+
+        /* ---------- Select a name ---------- */
+        function selectName(id, opts){
+            opts=opts||{};
+            if(!NAMES[id]){ id=sortedNameIds()[0]; }
+            currentId=id;
+            document.getElementById('name-select').value=id;
+            const sn=document.getElementById('nm-simple-name'); if(sn) sn.textContent=loc(NAMES[id].display);
+            renderInfo(id);
+            renderMap(id);
+            updateFabLabel();
+            if(opts.push!==false){
+                const h='#n='+id;
+                if(location.hash!==h) history.replaceState(null,'',h);
+            }
+            // gentle map framing: fit to markers on explicit user pick
+            if(opts.fit){
+                const pts=Object.values(markers).map(m=>m.getLatLng());
+                if(pts.length){ try{
+                    const onMobile=window.matchMedia('(max-width: 780px)').matches;
+                    // Pad the left so the fitted markers frame in the VISIBLE
+                    // area (clear of the desktop left info panel).
+                    map.fitBounds(L.latLngBounds(pts), {
+                        paddingTopLeft: [onMobile ? 14 : PANEL_WIDTH + 16, 24],
+                        paddingBottomRight: [24, 24], maxZoom: 5, animate: true });
+                }catch(e){} }
+            }
+        }
+        function updateFabLabel(){
+            const lbl=document.getElementById('nm-fab-label');
+            if(lbl) lbl.textContent=t('details');
+        }
+
+        /* ---------- Search ---------- */
+        function setupSearch(){
+            const input=document.getElementById('nm-search');
+            const box=document.getElementById('nm-search-results');
+            function norm(s){ return (s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase(); }
+            function render(q){
+                q=norm(q.trim());
+                if(!q){ box.classList.remove('open'); box.innerHTML=''; return; }
+                const hits=[];
+                sortedNameIds().forEach(id=>{
+                    const n=NAMES[id];
+                    const hay=[loc(n.display), n.display.en, n.display.ja, n.id,
+                        ...Object.values(n.forms||{}).map(f=>f.form),
+                        ...Object.values(n.forms||{}).map(f=>f.rom)].map(norm).join(' ');
+                    if(hay.includes(q)) hits.push(id);
+                });
+                if(!hits.length){ box.classList.remove('open'); box.innerHTML=''; return; }
+                box.innerHTML=hits.slice(0,12).map(id=>
+                    '<div class="nm-search-item" data-id="'+id+'"><span>'+esc(loc(NAMES[id].display))+'</span>'
+                    +'<span class="sub">'+esc(t('cats')[NAMES[id].category]||'')+'</span></div>').join('');
+                box.classList.add('open');
+                box.querySelectorAll('.nm-search-item').forEach(it=>{
+                    it.addEventListener('mousedown', e=>{ e.preventDefault(); pick(it.getAttribute('data-id')); });
+                });
+            }
+            function pick(id){ input.value=''; box.classList.remove('open'); selectName(id,{fit:true}); }
+            input.addEventListener('input', ()=>render(input.value));
+            input.addEventListener('focus', ()=>{ if(input.value) render(input.value); });
+            document.addEventListener('click', e=>{ if(!box.contains(e.target)&&e.target!==input) box.classList.remove('open'); });
+        }
+
+        /* ---------- Mobile info sheet ---------- */
+        function openInfoSheet(){ document.getElementById('nm-panel').classList.add('info-open'); }
+        function closeInfoSheet(){ document.getElementById('nm-panel').classList.remove('info-open'); }
+
+        /* ---------- UI language application ---------- */
+        function applyUILang(){
+            document.documentElement.lang = uiLang;
+            document.getElementById('nm-search').placeholder = t('searchPlaceholder');
+            document.getElementById('nm-random').title = t('random');
+            const _db=document.getElementById('nm-details-btn'); if(_db){ _db.title=t('details'); _db.setAttribute('aria-label',t('details')); }
+            const _ct=document.getElementById('chrome-toggle'); if(_ct){ _ct.title=t('simpleDisplay'); _ct.setAttribute('aria-label',t('simpleDisplay')); }
+            // nav labels
+            const map1={ 'nav-order-label':t('navOrder'), 'nav-word':t('navWord'), 'nav-han':t('navHan'),
+                         'nav-name':t('navName'), 'nav-tree-label':t('navTree') };
+            Object.keys(map1).forEach(idk=>{
+                const el=document.getElementById(idk); if(!el) return;
+                // keep the leading svg / glyph, replace trailing text node
+                const walker=el.childNodes;
+                let replaced=false;
+                for(let i=walker.length-1;i>=0;i--){ if(walker[i].nodeType===3 && walker[i].textContent.trim()){ walker[i].textContent=map1[idk]; replaced=true; break; } }
+                if(!replaced) el.appendChild(document.createTextNode(map1[idk]));
+            });
+            buildSelect();
+            if(currentId) renderInfo(currentId);
+            updateFabLabel();
+        }
+
+        /* ---------- UI-lang <select> for lang-picker.js ---------- */
+        function setupLangSelect(){
+            const sel=document.getElementById('header-ui-lang');
+            // Native names for every UI language NameMap ships (matches the
+            // sibling maps' picker). Only codes present in NM_UI are listed.
+            const LANG_NATIVE=[['en','English'],['ja','日本語'],['ko','한국어'],['zh','中文'],['yue','粵語'],
+                ['vi','Tiếng Việt'],['th','ไทย'],['id','Bahasa Indonesia'],['hi','हिन्दी'],['de','Deutsch'],
+                ['fr','Français'],['it','Italiano'],['es','Español'],['pt','Português'],['ru','Русский'],
+                ['uk','Українська'],['ar','العربية'],['he','עברית'],['sw','Kiswahili']];
+            LANG_NATIVE.forEach(([code,label])=>{
+                if(!T[code]) return;
+                const o=document.createElement('option'); o.value=code; o.textContent=label; sel.appendChild(o);
+            });
+            sel.value=uiLang;
+            sel.addEventListener('change', ()=>{
+                uiLang=sel.value; setCookie('wm_uilang', uiLang);
+                applyUILang();
+                try{ window.dispatchEvent(new CustomEvent('langmap:uichange',{detail:{lang:uiLang}})); }catch(e){}
+            });
+        }
+
+        /* ---------- Boot ---------- */
+        function boot(){
+            initMap();
+            setupLangSelect();
+            setupSearch();
+            document.getElementById('name-select').addEventListener('change', e=>selectName(e.target.value,{fit:true}));
+            document.getElementById('nm-random').addEventListener('click', ()=>{
+                const ids=sortedNameIds(); selectName(ids[Math.floor(Math.random()*ids.length)],{fit:true});
+            });
+            document.getElementById('nm-details-btn').addEventListener('click', openInfoSheet);
+            document.getElementById('nm-sheet-backdrop').addEventListener('click', closeInfoSheet);
+            const chromeBtn=document.getElementById('chrome-toggle');
+            if(chromeBtn) chromeBtn.addEventListener('click', ()=>{
+                const hidden=document.body.classList.toggle('chrome-hidden');
+                chromeBtn.setAttribute('aria-pressed', hidden?'true':'false');
+                if(hidden) closeInfoSheet();
+                if(map) setTimeout(()=>map.invalidateSize(), 60);
+            });
+            document.addEventListener('click', e=>{ if(e.target && e.target.id==='nm-info-close') closeInfoSheet(); });
+            window.addEventListener('hashchange', ()=>{
+                const m=location.hash.match(/n=([\w-]+)/); if(m && NAMES[m[1]] && m[1]!==currentId) selectName(m[1],{push:false,fit:true});
+            });
+            applyUILang();
+            const m=location.hash.match(/n=([\w-]+)/);
+            const first=(m&&NAMES[m[1]])?m[1]:sortedNameIds()[0];
+            selectName(first,{push:false});
+
+            // Share payload for share-button.js
+            window.__langmap = window.__langmap || {};
+            window.__langmap.share = function(){
+                const nm=currentId?loc(NAMES[currentId].display):'';
+                return { title:'LangMap · '+t('title'), text:(nm?nm+' — ':'')+t('tagline'), url:location.href };
+            };
+        }
+        if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+    })();
+    </script>
+    <script src="/pwa.js?v=2"></script>
+    <script src="share-button.js?v=1"></script>
+    <script src="lang-picker.js?v=2"></script>
+</body>
+</html>

@@ -57,8 +57,8 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=123">
-<link rel="stylesheet" href="styles.css?v=123">
+<link rel="stylesheet" href="styles.css?v=125">
+<link rel="stylesheet" href="styles.css?v=125">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -264,6 +264,8 @@
             <span class="nav-sep">/</span>
             <a href="hanmap.html" class="header-nav-link" id="nav-han"><span style="display:inline-block;font-family:&apos;Noto Serif JP&apos;,&apos;Noto Serif SC&apos;,&apos;Noto Serif TC&apos;,&apos;Noto Serif KR&apos;,serif;font-weight:700;vertical-align:-1px;margin-right:3px;font-size:13px">字</span>HanMap</a>
             <span class="nav-sep">/</span>
+            <a href="namemap.html" class="header-nav-link" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</a>
+            <span class="nav-sep">/</span>
             <span class="header-nav-current" id="nav-tree"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg>Tree</span>
         </nav>
         <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
@@ -373,8 +375,8 @@
 
     // ===== UI i18n =====
     const UI_I18N = {
-        en: { title:'Language Family Tree', subtitle:n=>n+' languages organized by family.', search:'🔍 Filter by language name or code…', expand:'Expand all', collapse:'Collapse all', legend:'Click a family to expand · click a language to open it on the map', stats:n=>n+' langs', navOrder:'Word Order', navMap:'Word Map', navHan:'HanMap', navTree:'Tree', jumpLast:'Jump to last visited' },
-        ja: { title:'言語系統樹', subtitle:n=>n+' 言語を系統別に整理。', search:'🔍 言語名・コードで絞り込み…', expand:'すべて展開', collapse:'すべて折りたたむ', legend:'系統名をクリックで展開 ／ 言語名をクリックで地図を開く', stats:n=>n+' 言語', navOrder:'語順マップ', navMap:'単語マップ', navHan:'漢字マップ', navTree:'系統樹', jumpLast:'前回の言語へ' },
+        en: { title:'Language Family Tree', subtitle:n=>n+' languages organized by family.', search:'🔍 Filter by language name or code…', expand:'Expand all', collapse:'Collapse all', legend:'Click a family to expand · click a language to open it on the map', stats:n=>n+' langs', navOrder:'Word Order', navMap:'Word Map', navHan:'HanMap', navName:'Name Map', navTree:'Tree', jumpLast:'Jump to last visited' },
+        ja: { title:'言語系統樹', subtitle:n=>n+' 言語を系統別に整理。', search:'🔍 言語名・コードで絞り込み…', expand:'すべて展開', collapse:'すべて折りたたむ', legend:'系統名をクリックで展開 ／ 言語名をクリックで地図を開く', stats:n=>n+' 言語', navOrder:'語順マップ', navMap:'単語マップ', navHan:'漢字マップ', navName:'ネームマップ', navTree:'系統樹', jumpLast:'前回の言語へ' },
         ko: { title:'언어 계통수', subtitle:n=>n+'개 언어를 계통별로 정리.', search:'🔍 언어 이름/코드로 필터…', expand:'모두 펼치기', collapse:'모두 접기', legend:'계통명을 클릭하여 펼침 / 언어를 클릭하여 지도 열기', stats:n=>n+'개 언어', navOrder:'어순 맵', navMap:'단어 맵', navHan:'한자 지도', navTree:'계통수', jumpLast:'최근 본 언어로' },
         zh: { title:'语言谱系树', subtitle:n=>'按谱系整理的 '+n+' 种语言。', search:'🔍 按语言名或代码过滤…', expand:'全部展开', collapse:'全部折叠', legend:'点击谱系展开 · 点击语言在地图上打开', stats:n=>n+' 种', navOrder:'语序图', navMap:'词汇地图', navHan:'汉字地图', navTree:'谱系树', jumpLast:'跳到上次查看的语言' },
         yue:{ title:'語言譜系樹', subtitle:n=>'按譜系整理嘅 '+n+' 種語言。', search:'🔍 按語言名或代碼過濾…', expand:'全部展開', collapse:'全部摺疊', legend:'撳譜系展開 · 撳語言喺地圖上打開', stats:n=>n+' 種', navOrder:'語序圖', navMap:'詞彙地圖', navHan:'漢字地圖', navTree:'譜系樹', jumpLast:'跳去上次睇嘅語言' },
@@ -478,6 +480,7 @@
         setNavText(document.getElementById('nav-order'), t('navOrder'));
         setNavText(document.getElementById('nav-map'), t('navMap'));
         setNavText(document.getElementById('nav-han'), t('navHan'));
+        setNavText(document.getElementById('nav-name'), t('navName'));
         setNavText(document.getElementById('nav-tree'), t('navTree'));
     }
 

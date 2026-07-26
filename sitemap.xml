@@ -26,6 +26,12 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://langmap.heuron.com/namemap.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
         <loc>https://langmap.heuron.com/wordmap/</loc>
         <lastmod>2026-06-13</lastmod>
         <changefreq>monthly</changefreq>

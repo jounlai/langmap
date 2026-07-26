@@ -58,7 +58,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=124">
+    <link rel="stylesheet" href="styles.css?v=125">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2674,6 +2674,8 @@
                 <span class="nav-sep">/</span>
                 <span class="header-nav-current" id="navHanMap"><span style="display:inline-block;font-family:&apos;Noto Serif JP&apos;,&apos;Noto Serif SC&apos;,&apos;Noto Serif TC&apos;,&apos;Noto Serif KR&apos;,serif;font-weight:700;vertical-align:-1px;margin-right:3px;font-size:13px">字</span>漢字マップ</span>
                 <span class="nav-sep">/</span>
+                <a href="namemap.html" class="header-nav-link" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</a>
+                <span class="nav-sep">/</span>
                 <a href="tree.html" class="header-nav-link" id="nav-tree-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg>Tree</a>
             </nav>
             <div class="play-menu-wrap">
@@ -4917,6 +4919,10 @@
             ru:'Карта иероглифов', uk:'Карта ієрогліфів', ar:'خريطة الحروف',
             he:'מפת תווים', sw:'Ramani ya hanzi',
         };
+        // Name Map nav label. Only en/ja provided; lookup falls back to en.
+        const NAV_NAME = {
+            en:'Name Map', ja:'ネームマップ',
+        };
 
         // Audit i18n: centralized localized UI strings. Moved here (before
         // applyUILang) so the i18n() helper is available during initial
@@ -5228,6 +5234,7 @@
             setNavText(document.getElementById('navWordMap'), NAV_MAP[uiLang] || NAV_MAP.en);
             setNavText(document.getElementById('nav-tree-label'), NAV_TREE[uiLang] || NAV_TREE.en);
             setNavText(document.getElementById('navHanMap'), NAV_HAN[uiLang] || NAV_HAN.en);
+            setNavText(document.getElementById('nav-name'), NAV_NAME[uiLang] || NAV_NAME.en);
             const sizeEl = document.getElementById('size-label');
             if (sizeEl) sizeEl.textContent = wt('size') || 'Font Size';
             ['toggle-word','toggle-ipa','toggle-name','toggle-pins'].forEach(id => {

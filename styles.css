@@ -89,6 +89,7 @@ body {
 .site-header-bar .logo-badge-word  { background: #2e8b57; }   /* Wordmap    */
 .site-header-bar .logo-badge-tree  { background: #8b4513; }   /* Tree       */
 .site-header-bar .logo-badge-order { background: #2563eb; }   /* Word Order */
+.site-header-bar .logo-badge-name  { background: #8e44ad; }   /* NameMap    */
 /* 字 character badge for Hanmap: CJK serif glyph instead of the
    previous abstract square-rect SVG. Sized to fit inside the 15×15
    badge with consistent vertical alignment. */

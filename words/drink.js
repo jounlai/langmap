@@ -617,7 +617,7 @@ WORDS.drink = {
     phm: ["—", "—"],
     pafa: ["—", "—"],
     pkar: ["—", "—"],
-    pmay: ["*ʔuchʼ", "ʔuchʼ"],
+    pmay: ["*ʔukʼ", "ʔukʼ"],
     puaz: ["—", "—"],
     pban: ["*-nyʊ̀", "-nyʊ̀"],
     pst: ["—", "—"],

@@ -617,7 +617,7 @@ WORDS.name = {
       phm: ["—", "—"],
       pafa: ["*sim-", "sim-"],
       pkar: ["*saqel-", "saqel-"],
-      pmay: ["*kʼaabʼaʔ", "kʼaabʼaʔ"],
+      pmay: ["*bʼih", "bʼih"],
       puaz: ["*tewa", "tewa"],
       pban: ["*-jína", "-jína"],
       pst: ["*r-miŋ", "r-miŋ"],

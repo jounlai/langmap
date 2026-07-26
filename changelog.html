@@ -137,10 +137,33 @@
                 <li><span class="count">1,000</span> languages <span class="when">— 2026-05-28 (<code>33e63ca</code> 🎉; official count settled 2026-06-09, <code>ac794b0</code>)</span></li>
                 <li><span class="count">1,111</span> languages <span class="when">— 2026-06-21 (multithreaded fill of thin regions — west China, zero-dot Africa/ME, South America — plus pluricentric and 中国语言地图集 dialect points; settled at 1,112 after a five-round QA pass) — current</span></li>
             </ul>
-            <p class="lead" style="margin-top:8px">The Word Map carries 1,113 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 119 languages and variants across 61 characters.</p>
+            <p class="lead" style="margin-top:8px">The Word Map carries 1,136 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 119 languages and variants across 61 characters.</p>
         </div>
 
         <nav class="month-nav">Months: <strong>2026-07</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-07-26 — Reconstructed proto-languages on the historical map</div>
+            <ul>
+                <li>The historical map now carries the reconstructed common ancestors of the world's major language families. Proto-Indo-European was already there; it is now joined by fifteen more — <strong>Proto-Austronesian, ‑Semitic, ‑Uralic, ‑Dravidian, ‑Bantu, ‑Sino-Tibetan, ‑Afroasiatic, ‑Kartvelian, ‑Mayan, ‑Uto-Aztecan, ‑Austroasiatic, ‑Kra-Dai, ‑Hmong-Mien, ‑Turkic, ‑Mongolic and ‑Tungusic</strong> (alongside the existing Proto-Japonic-Koreanic and Proto-Ryukyuan). Each shows its reconstructed core-vocabulary forms (marked with a <code>*</code>), a hypothesised homeland and date, and a write-up in every interface language; words that cannot be securely reconstructed are left blank rather than invented, so the sparser, more contested families (e.g. Hmong-Mien) show fewer forms than the well-studied ones (Turkic, Mongolic, Kartvelian, Bantu, Mayan).</li>
+                <li>An adversarial review then re-checked every reconstruction against the family-by-family comparative literature and corrected five forms where a daughter-branch reflex had crept in for the true proto — Proto-Turkic 'eye' is <em>*köz</em> (not the Oghuz <em>*göz</em>), Proto-Mayan 'name' is <em>*bʼih</em> (not the Lowland <em>*kʼaabʼaʔ</em>) and 'drink' <em>*ʔukʼ</em>, Proto-Bantu 'two' <em>*-bɪ̀dɪ̀</em>, and Proto-Kartvelian 'eye' <em>*tʼwal-</em>.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-26 — Filter the historical map by time period</div>
+            <ul>
+                <li>In historical mode, the filter panel gains a single dual-handle time slider running from deep prehistory to the 21st century. Drag the two ends — or grab the coloured bar in the middle to slide the whole window — to show only the languages that existed within that span, so you can see which written and reconstructed languages coexisted around, say, the 15th century BCE. The proto-languages, which carry no living speakers, are also given priority when historical labels are decluttered, so they surface instead of being crowded out.</li>
+                <li>The chosen period now travels in the page URL, so a time-filtered view survives a reload and can be shared. Separately, the <em>Proto-language</em> option in the family filter was corrected to list exactly the reconstructed protos — it no longer sweeps in attested ancient languages such as Vedic Sanskrit or Old Chinese.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-26 — Family names, localized in more languages</div>
+            <ul>
+                <li>The family tree and the family filter were still showing many branch names in English even when the interface was set to another language. Individual language names were already fully localized; now the most visible family and sub-branch labels — Ryukyuan, Tibetic, Qiangic, Cariban, Otomanguean, Indo-Iranian, Finno-Ugric and dozens more — read in Korean and the other interface languages too. The family tree also now loads the same shared translation layer the map already used (so e.g. Germanic and Romance are no longer left in English there), and its data caches were refreshed so it picks up the new proto-languages.</li>
+            </ul>
+        </div>
 
         <div class="entry">
             <div class="date">2026-07-21 — Much shorter share links</div>

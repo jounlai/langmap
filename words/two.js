@@ -619,7 +619,7 @@ WORDS.two = {
       pkar: ["*jor-", "jor-"],
       pmay: ["*kaʼ", "kaʼ"],
       puaz: ["*wo", "wo"],
-      pban: ["*-bìdì", "-bìdì"],
+      pban: ["*-bɪ̀dɪ̀", "-bɪ̀dɪ̀"],
       pst: ["*g-nis", "g-nis"],
       psem: ["*ṯin-", "ṯin-"],
       pura: ["*kakta", "kakta"],

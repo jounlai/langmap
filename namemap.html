@@ -240,6 +240,12 @@
                selected name visible (like WordMap) ---- */
         body.chrome-hidden .nm-panel,
         body.chrome-hidden .nm-fab-info { display: none !important; }
+        /* In simple-display mode float the header OVER the map (absolute, out of
+           the flex column) so the shared transparent-header rule reveals the map
+           through it — like HanMap. The map (stage flex:1) then fills the top. */
+        body.chrome-hidden .site-header-bar { position: absolute; top: 0; left: 0; right: 0; }
+        /* keep the selected-name label clear of the now-overlaid header */
+        body.chrome-hidden .nm-simple-name { top: 52px; }
         /* Simple-display toggle + zoom form one centred column at the map's
            top-right on desktop (HanMap-style): [simple-display] then [zoom].
            The button lives in the header markup; on mobile it reverts to a

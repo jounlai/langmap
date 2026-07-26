@@ -614,7 +614,7 @@ WORDS.two = {
       ptg: ["*ǰör", "ǰör"],
       paa: ["*ɓaːr", "ɓaːr"],
       pkd: ["*soːŋ", "soːŋ"],
-      phm: ["—", "—"],
+      phm: ["*ʔwei", "ʔwei"],
       pafa: ["*sin-", "sin-"],
       pkar: ["*jor-", "jor-"],
       pmay: ["*kaʼ", "kaʼ"],

@@ -616,7 +616,7 @@ WORDS.eye = {
     pkd: ["*taː", "taː"],
     phm: ["—", "—"],
     pafa: ["*ʕayn-", "ʕayn-"],
-    pkar: ["—", "—"],
+    pkar: ["*tʼol-", "tʼol-"],
     pmay: ["—", "—"],
     puaz: ["*pusi", "pusi"],
     pban: ["*-jícò", "-jícò"],

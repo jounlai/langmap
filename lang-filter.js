@@ -923,6 +923,9 @@
             const vals = [...set].map(v => encodeURIComponent(v)).join(',');
             parts.push(cat + ':' + vals);
         }
+        // Historical period range (not a Set): serialize as period:from..to so a
+        // shared/reloaded URL restores it like the other filters.
+        if (periodActive()) parts.push('period:' + periodFilter.fromIdx + '..' + periodFilter.toIdx);
         return parts.join('|');
     }
     function decodeFilterParam(s) {
@@ -933,6 +936,11 @@
             if (idx < 0) continue;
             const cat = part.slice(0, idx);
             const vals = part.slice(idx + 1);
+            if (cat === 'period') {
+                const m = vals.match(/^(-?\d+)\.\.(-?\d+)$/);
+                if (m) out.period = { fromIdx: parseInt(m[1], 10), toIdx: parseInt(m[2], 10) };
+                continue;
+            }
             if (!filterState[cat]) continue;
             out[cat] = vals.split(',').map(v => { try { return decodeURIComponent(v); } catch (e) { return v; } });
         }
@@ -966,8 +974,16 @@
         if (/%3A|%7C/i.test(raw)) { try { raw = decodeURIComponent(raw); } catch (_) {} }
         const decoded = decodeFilterParam(raw);
         for (const cat of Object.keys(decoded)) {
+            if (cat === 'period') continue;   // range, not a Set — applied below
             filterState[cat].clear();
             for (const v of decoded[cat]) filterState[cat].add(v);
+        }
+        if (decoded.period && typeof decoded.period.fromIdx === 'number') {
+            const clamp = v => Math.max(PERIOD_MIN_IDX, Math.min(PERIOD_MAX_IDX, v));
+            let f = clamp(decoded.period.fromIdx), t = clamp(decoded.period.toIdx);
+            if (f > t) { const tmp = f; f = t; t = tmp; }
+            periodFilter.fromIdx = f;
+            periodFilter.toIdx = t;
         }
     }
     // Expose so app.js's updateHash can preserve the f= param when it

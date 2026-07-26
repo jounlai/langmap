@@ -5662,6 +5662,14 @@
             const hist = params.get('hist');
             if (hist === '0' || hist === '1') {
                 showHistorical = hist === '1';
+                // Keep the shared flag in sync: the language filter reads
+                // window.__langmap.historical when it builds its panel to decide
+                // whether to show the period-range slider. This restore path runs
+                // before the filter's (async, meta-gated) first build, so setting
+                // the flag here ensures the period section is present on reload —
+                // otherwise it only appeared after toggling era once (which fires
+                // setEra → erachange). See lang-filter.js buildPanel() histMode.
+                window.__langmap.historical = showHistorical;
                 eraModern.classList.toggle('active', !showHistorical);
                 eraHistorical.classList.toggle('active', showHistorical);
                 eraModern.setAttribute('aria-checked', String(!showHistorical));

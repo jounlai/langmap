@@ -275,29 +275,31 @@
            transparent background + border (HanMap style), just resized to 32px */
         .nm-map-ctl .chrome-toggle-btn { margin: 0; width: 32px; height: 32px; }
         .nm-map-ctl .chrome-toggle-btn svg { width: 17px; height: 17px; }
-        /* settings (gear) button — matches the toggle: transparent + border */
-        .nm-settings-btn {
-            width: 32px; height: 32px; padding: 0;
+        /* settings (gear) + font-size stepper — copied verbatim from HanMap so
+           they look identical. The size control opens below the gear in the
+           same column (like HanMap's settings drawer). */
+        .settings-fab {
             display: inline-flex; align-items: center; justify-content: center;
-            background: transparent; border: 1px solid #d0d0d0; border-radius: 6px;
-            color: #444; cursor: pointer;
+            width: 44px; height: 44px; min-width: 44px;
+            background: #fff; border: 1px solid #d0d0d0; border-radius: 50%;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.12); color: #444; cursor: pointer; padding: 0;
         }
-        .nm-settings-btn:hover { background: #f3f4f6; }
-        /* font-size settings popover */
-        .nm-settings-pop {
-            position: fixed; top: 58px; right: 50px; z-index: 905;
-            background: #fff; border: 1px solid rgba(0,0,0,0.12); border-radius: 10px;
-            box-shadow: 0 6px 22px rgba(0,0,0,0.2); padding: 10px 12px; min-width: 150px;
+        .settings-fab:hover { background: #f3f4f6; }
+        .size-slider-wrap {
+            display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+            background: rgba(255,255,255,0.92); border-radius: 8px; padding: 6px 4px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
         }
-        .nm-settings-pop[hidden] { display: none; }
-        .nm-set-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #999; margin-bottom: 7px; }
-        .nm-set-stepper { display: flex; align-items: center; gap: 8px; }
-        .nm-set-stepper button {
-            width: 30px; height: 30px; flex: 0 0 auto; border: 1px solid #d0d3dc; border-radius: 6px;
-            background: #fff; font-size: 18px; line-height: 1; cursor: pointer; color: #333;
+        .size-slider-wrap[hidden] { display: none; }
+        .size-step-btn {
+            width: 32px; height: 30px; border: 1px solid #d0d0d0; border-radius: 6px;
+            background: #fff; color: #555; font-size: 16px; font-weight: 700; line-height: 1;
+            cursor: pointer; user-select: none; display: inline-flex; align-items: center; justify-content: center;
         }
-        .nm-set-stepper button:hover { background: var(--nm-accent-tint); border-color: var(--nm-accent); }
-        .nm-set-stepper span { flex: 1 1 auto; text-align: center; font-size: 14px; font-weight: 600; color: #333; }
+        .size-step-btn:hover { background: #f3f4f6; border-color: #bbb; color: #333; }
+        .size-step-btn:active { transform: scale(0.94); }
+        .size-step-btn:disabled { opacity: 0.35; cursor: default; transform: none; }
+        .size-label { font-size: 11px; color: #888; text-align: center; line-height: 1.1; user-select: none; }
         /* Selected-name label in simple-display mode — plain text with a white
            halo, NO box (WordMap-style). */
         .nm-simple-name {
@@ -454,16 +456,13 @@
                 <button type="button" id="nm-zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
                 <button type="button" id="nm-zoom-out" aria-label="Zoom out" title="Zoom out">&minus;</button>
             </div>
-            <button type="button" id="nm-settings-btn" class="nm-settings-btn" aria-label="Settings" title="Settings" aria-expanded="false" aria-controls="nm-settings-pop">
-                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            <button type="button" id="nm-settings-btn" class="settings-fab" aria-label="Settings" title="Settings" aria-expanded="false" aria-controls="nm-settings-pop">
+                <svg class="settings-fab-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
             </button>
-        </div>
-        <div class="nm-settings-pop" id="nm-settings-pop" hidden>
-            <div class="nm-set-title" id="nm-set-fontlabel">Font size</div>
-            <div class="nm-set-stepper">
-                <button type="button" id="nm-font-dec" aria-label="Smaller font">&minus;</button>
-                <span id="nm-font-val">100%</span>
-                <button type="button" id="nm-font-inc" aria-label="Larger font">+</button>
+            <div class="size-slider-wrap" id="nm-settings-pop" hidden>
+                <button type="button" class="size-step-btn" id="nm-font-inc" aria-label="Increase label font size">＋</button>
+                <label class="ctrl-label size-label" id="nm-set-fontlabel">Font Size</label>
+                <button type="button" class="size-step-btn" id="nm-font-dec" aria-label="Decrease label font size">−</button>
             </div>
         </div>
         <div class="nm-sheet-backdrop" id="nm-sheet-backdrop" aria-hidden="true"></div>
@@ -505,7 +504,9 @@
         /* ---------- Font size ---------- */
         function applyFontScale(){
             document.documentElement.style.setProperty('--nm-scale', String(fontScale));
-            const v=document.getElementById('nm-font-val'); if(v) v.textContent=Math.round(fontScale*100)+'%';
+            const inc=document.getElementById('nm-font-inc'), dec=document.getElementById('nm-font-dec');
+            if(inc) inc.disabled = fontScale>=1.6;
+            if(dec) dec.disabled = fontScale<=0.7;
             if(map && typeof map.latLngToContainerPoint==='function') requestAnimationFrame(relaxLabels);
         }
         function setFontScale(s){

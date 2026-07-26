@@ -615,6 +615,8 @@ WORDS.mother = {
     crn: ["naana", "naːna"],
     myn: ["naʼ", "naʔ"],
     ine: ["*méh₂tēr", "méh₂teːr"],
+    pjp: ["*papa", "papa"],
+    pko: ["*emi", "emi"],
     ptrk: ["*ana", "ana"],
     pmng: ["*eke", "eke"],
     ptg: ["*eńi", "eńi"],

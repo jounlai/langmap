@@ -609,6 +609,8 @@ WORDS.tree = {
     crn: ["kɨré", "kɨre"],
     myn: ["cheʼ", "tʃeʔ"],
     ine: ["*dóru", "dóru"],
+    pjp: ["*kəy", "kəy"],
+    pko: ["*namʌk", "namʌk"],
     ptrk: ["*ïgač", "ïgač"],
     pmng: ["*modun", "modun"],
     ptg: ["*mō", "mō"],

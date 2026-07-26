@@ -609,6 +609,8 @@ WORDS.father = {
     crn: ["hahuá", "hahwa"],
     myn: ["yuum", "juːm"],
     ine: ["*ph₂tḗr", "ph₂téːr"],
+    pjp: ["*titi", "titi"],
+    pko: ["*api", "api"],
     ptrk: ["*ata", "ata"],
     pmng: ["*ečige", "ečige"],
     ptg: ["*ama", "ama"],

@@ -609,6 +609,8 @@ WORDS.good = {
     crn: ["huá'i", "hwaʔi"],
     myn: ["utz", "uts"],
     ine: ["*h₁su-", "h₁su"],
+    pjp: ["*yə", "yə"],
+    pko: ["—", "—"],
     ptrk: ["*edgü", "edgü"],
     pmng: ["*sajin", "sajin"],
     ptg: ["—", "—"],

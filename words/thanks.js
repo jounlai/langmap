@@ -609,6 +609,8 @@ WORDS.thanks = {
     crn: ["atsipiraá", "atsipiraː"],
     myn: ["nibʼoolal", "nibʼoːlal"],
     ine: ["—", "—"],
+    pjp: ["—", "—"],
+    pko: ["—", "—"],
     ptrk: ["—", "—"],
     pmng: ["—", "—"],
     ptg: ["—", "—"],

@@ -616,6 +616,8 @@ WORDS.house = {
     crn: ["kíh", "kih"],
     myn: ["otoch", "otoːtʃ"],
     ine: ["*dṓm", "dóːm"],
+    pjp: ["*ipay", "ipay"],
+    pko: ["—", "—"],
     ptrk: ["*ēb", "ēb"],
     pmng: ["*ger", "ger"],
     ptg: ["—", "—"],

@@ -609,6 +609,8 @@ WORDS.eat = {
     crn: ["kuá", "kwa"],
     myn: ["wiʼij", "wiʔiχ"],
     ine: ["*h₁ed-", "h₁ed"],
+    pjp: ["*kupa-", "kupa-"],
+    pko: ["*mek-", "mek-"],
     ptrk: ["*jē-", "jē-"],
     pmng: ["*ide-", "ide-"],
     ptg: ["*ǰep-", "ǰep-"],

@@ -609,6 +609,8 @@ WORDS.drink = {
     crn: ["hi'i", "hiʔi"],
     myn: ["ukʼ", "ukʼ"],
     ine: ["*peh₃-", "peh₃"],
+    pjp: ["*nəm-", "nəm-"],
+    pko: ["—", "—"],
     ptrk: ["*ič-", "ič-"],
     pmng: ["*uu-", "uu-"],
     ptg: ["—", "—"],

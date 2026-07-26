@@ -609,6 +609,8 @@ WORDS.hand = {
     crn: ["mam", "mam"],
     myn: ["kʼab", "kʼab"],
     ine: ["*ǵʰésr̥", "ǵʰésr̩"],
+    pjp: ["*ta", "ta"],
+    pko: ["*son", "son"],
     ptrk: ["*elig", "elig"],
     pmng: ["*gar", "gar"],
     ptg: ["*ŋāla", "ŋāla"],

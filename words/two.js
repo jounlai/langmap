@@ -609,6 +609,8 @@ WORDS.two = {
       crn: ["huapoa", "waˈpoa"],
       myn: ["cha'", "tʃaʔ"],
       ine: ["*dwóh₁", "dwoːh"],
+      pjp: ["*puta", "puta"],
+      pko: ["*tur", "tur"],
       ptrk: ["*eki", "eki"],
       pmng: ["*koyar", "koyar"],
       ptg: ["*ǰör", "ǰör"],

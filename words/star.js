@@ -609,6 +609,8 @@ WORDS.star = {
       crn: ["sɨɨrabe", "sɨːˈrabe"],
       myn: ["ek'", "eːkʼ"],
       ine: ["*h₂stḗr", "hˈsteːr"],
+      pjp: ["*pəsi", "pəsi"],
+      pko: ["*pyər", "pyər"],
       ptrk: ["*jultuz", "jultuz"],
       pmng: ["*hodun", "hodun"],
       ptg: ["—", "—"],

@@ -609,6 +609,8 @@ WORDS.i = {
       crn: ["neʼu", "ˈneʔu"],
       myn: ["hiin", "hiːn"],
       ine: ["*éǵh₂om", "ˈeɡʲhom"],
+      pjp: ["*wa", "wa"],
+      pko: ["*na", "na"],
       ptrk: ["*ben", "ben"],
       pmng: ["*bi", "bi"],
       ptg: ["*bi", "bi"],

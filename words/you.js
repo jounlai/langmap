@@ -609,6 +609,8 @@ WORDS.you = {
       crn: ["aʼu", "ˈaʔu"],
       myn: ["hat", "hat"],
       ine: ["*túh₂", "tuːh"],
+      pjp: ["*na", "na"],
+      pko: ["*ne", "ne"],
       ptrk: ["*sen", "sen"],
       pmng: ["*či", "či"],
       ptg: ["*si", "si"],

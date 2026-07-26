@@ -614,6 +614,8 @@ WORDS.sun = {
     crn: ["tahaapuá", "tahaːpwa"],
     myn: ["kʼin", "kʼin"],
     ine: ["*sóh₂wl̥", "sóh₂wl̩"],
+    pjp: ["*pi", "pi"],
+    pko: ["*hʌy", "hʌy"],
     ptrk: ["*kün", "kün"],
     pmng: ["*naran", "naran"],
     ptg: ["*sigūn", "sigūn"],

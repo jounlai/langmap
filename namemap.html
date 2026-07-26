@@ -216,8 +216,8 @@
         }
         .nm-label:hover { z-index: 600 !important; }
         .nm-label:hover .w { color: var(--nm-accent-dark); }
-        .nm-label .w { font-weight: 700; font-size: 14px; color: #1a2340; }
-        .nm-label .r { font-size: 10px; color: #555; margin-top: -1px; }
+        .nm-label .w { font-weight: 700; font-size: calc(14px * var(--nm-scale, 1)); color: #1a2340; }
+        .nm-label .r { font-size: calc(10px * var(--nm-scale, 1)); color: #555; margin-top: -1px; }
         .nm-label.is-origin .w {
             color: var(--nm-accent-dark);
             text-decoration: underline; text-decoration-color: rgba(142,68,173,0.55); text-underline-offset: 2px;
@@ -275,6 +275,29 @@
            transparent background + border (HanMap style), just resized to 32px */
         .nm-map-ctl .chrome-toggle-btn { margin: 0; width: 32px; height: 32px; }
         .nm-map-ctl .chrome-toggle-btn svg { width: 17px; height: 17px; }
+        /* settings (gear) button — matches the toggle: transparent + border */
+        .nm-settings-btn {
+            width: 32px; height: 32px; padding: 0;
+            display: inline-flex; align-items: center; justify-content: center;
+            background: transparent; border: 1px solid #d0d0d0; border-radius: 6px;
+            color: #444; cursor: pointer;
+        }
+        .nm-settings-btn:hover { background: #f3f4f6; }
+        /* font-size settings popover */
+        .nm-settings-pop {
+            position: fixed; top: 58px; right: 50px; z-index: 905;
+            background: #fff; border: 1px solid rgba(0,0,0,0.12); border-radius: 10px;
+            box-shadow: 0 6px 22px rgba(0,0,0,0.2); padding: 10px 12px; min-width: 150px;
+        }
+        .nm-settings-pop[hidden] { display: none; }
+        .nm-set-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #999; margin-bottom: 7px; }
+        .nm-set-stepper { display: flex; align-items: center; gap: 8px; }
+        .nm-set-stepper button {
+            width: 30px; height: 30px; flex: 0 0 auto; border: 1px solid #d0d3dc; border-radius: 6px;
+            background: #fff; font-size: 18px; line-height: 1; cursor: pointer; color: #333;
+        }
+        .nm-set-stepper button:hover { background: var(--nm-accent-tint); border-color: var(--nm-accent); }
+        .nm-set-stepper span { flex: 1 1 auto; text-align: center; font-size: 14px; font-weight: 600; color: #333; }
         /* Selected-name label in simple-display mode — plain text with a white
            halo, NO box (WordMap-style). */
         .nm-simple-name {
@@ -431,6 +454,17 @@
                 <button type="button" id="nm-zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
                 <button type="button" id="nm-zoom-out" aria-label="Zoom out" title="Zoom out">&minus;</button>
             </div>
+            <button type="button" id="nm-settings-btn" class="nm-settings-btn" aria-label="Settings" title="Settings" aria-expanded="false" aria-controls="nm-settings-pop">
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </button>
+        </div>
+        <div class="nm-settings-pop" id="nm-settings-pop" hidden>
+            <div class="nm-set-title" id="nm-set-fontlabel">Font size</div>
+            <div class="nm-set-stepper">
+                <button type="button" id="nm-font-dec" aria-label="Smaller font">&minus;</button>
+                <span id="nm-font-val">100%</span>
+                <button type="button" id="nm-font-inc" aria-label="Larger font">+</button>
+            </div>
         </div>
         <div class="nm-sheet-backdrop" id="nm-sheet-backdrop" aria-hidden="true"></div>
     </div>
@@ -466,6 +500,52 @@
         let map, geoLayer;
         const PANEL_WIDTH = 360;      // desktop left info panel span (left:10 + w:350)
         const PANEL_HALF = PANEL_WIDTH / 2;  // horizontal offset to centre in the visible area
+        let fontScale = 1;            // map-label font scale (0.7–1.6)
+
+        /* ---------- Font size ---------- */
+        function applyFontScale(){
+            document.documentElement.style.setProperty('--nm-scale', String(fontScale));
+            const v=document.getElementById('nm-font-val'); if(v) v.textContent=Math.round(fontScale*100)+'%';
+            if(map && typeof map.latLngToContainerPoint==='function') requestAnimationFrame(relaxLabels);
+        }
+        function setFontScale(s){
+            fontScale=Math.min(1.6, Math.max(0.7, Math.round(s*10)/10));
+            applyFontScale(); updateHash();
+        }
+
+        /* ---------- URL state (name, lang, font, centre, zoom) ---------- */
+        function updateHash(){
+            const parts=[];
+            if(currentId) parts.push('n='+currentId);
+            parts.push('l='+uiLang);
+            parts.push('s='+Math.round(fontScale*100));
+            if(map && map.getCenter){
+                const c=map.getCenter();
+                parts.push('c='+c.lat.toFixed(2)+','+c.lng.toFixed(2));
+                parts.push('z='+map.getZoom().toFixed(1));
+            }
+            const h='#'+parts.join('&');
+            if(location.hash!==h) history.replaceState(null,'',h);
+        }
+        function readState(){
+            const o={}; location.hash.replace(/^#/,'').split('&').forEach(kv=>{
+                const i=kv.indexOf('='); if(i>0) o[kv.slice(0,i)]=decodeURIComponent(kv.slice(i+1));
+            }); return o;
+        }
+        // Apply a state object from a genuine URL change (back/forward, edited URL)
+        function applyState(o){
+            if(o.l && T[o.l] && o.l!==uiLang){
+                uiLang=o.l; const sel=document.getElementById('header-ui-lang'); if(sel) sel.value=uiLang;
+                setCookie('wm_uilang', uiLang); applyUILang();
+                try{ window.dispatchEvent(new CustomEvent('langmap:uichange',{detail:{lang:uiLang}})); }catch(e){}
+            }
+            if(o.s){ const v=parseInt(o.s,10); if(v>=70&&v<=160 && v/100!==fontScale){ fontScale=v/100; applyFontScale(); } }
+            if(o.n && NAMES[o.n] && o.n!==currentId) selectName(o.n,{push:false});
+            if(o.c && o.z && map){
+                const p=o.c.split(','); const lat=+p[0], lng=+p[1], z=+o.z;
+                if(isFinite(lat)&&isFinite(lng)&&isFinite(z)) map.setView([lat,lng], z, {animate:true});
+            }
+        }
 
         /* ---------- Map init ---------- */
         function initMap(){
@@ -609,7 +689,10 @@
                     const nudge = onMobile ? 70 : 40;
                     const pt = map.project(ll, z).subtract([offsetX, -nudge]);
                     map.setView(map.unproject(pt, z), z, { animate: true });
-                    setTimeout(()=>markers[c].openPopup(), onMobile ? 260 : 0);
+                    // Open the popup only AFTER the pan settles, so Leaflet's
+                    // autoPan (which respects the left-panel padding set on the
+                    // popup) doesn't fight the pan and shove it behind the panel.
+                    setTimeout(()=>markers[c].openPopup(), onMobile ? 300 : 340);
                 });
             });
         }
@@ -633,7 +716,10 @@
             Object.values(markers).forEach(m=>map.removeLayer(m));
             for(const k in markers) delete markers[k];
             const name=NAMES[id]; if(!name) return;
-            const originLang = name.origin && loc(name.origin.lang);
+            // Keep popups clear of the left info panel (desktop) / the header,
+            // so Leaflet's autoPan never tucks a popup behind the panel.
+            const onMobile = window.matchMedia('(max-width: 780px)').matches;
+            const padTL = onMobile ? L.point(16, 66) : L.point(PANEL_WIDTH + 16, 72);
             Object.keys(name.forms).forEach(code=>{
                 const cell=LANGS[code]; if(!cell) return;
                 const f=name.forms[code];
@@ -644,7 +730,8 @@
                     +'</div>';
                 const icon=L.divIcon({ className:'nm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
                 const mk=L.marker([cell.lat, cell.lng], { icon, riseOnHover:true });
-                mk.bindPopup(()=>popupHtml(id, code), { closeButton:true, maxWidth:260 });
+                mk.bindPopup(()=>popupHtml(id, code), { closeButton:true, maxWidth:260,
+                    autoPanPaddingTopLeft: padTL, autoPanPaddingBottomRight: L.point(24, 24) });
                 mk.addTo(map);
                 markers[code]=mk;
             });
@@ -704,10 +791,7 @@
             renderInfo(id);
             renderMap(id);
             updateFabLabel();
-            if(opts.push!==false){
-                const h='#n='+id;
-                if(location.hash!==h) history.replaceState(null,'',h);
-            }
+            if(opts.push!==false) updateHash();
             // gentle map framing: fit to markers on explicit user pick
             if(opts.fit){
                 const pts=Object.values(markers).map(m=>m.getLatLng());
@@ -782,6 +866,8 @@
             document.getElementById('nm-random').title = t('random');
             const _db=document.getElementById('nm-details-btn'); if(_db){ _db.title=t('details'); _db.setAttribute('aria-label',t('details')); }
             const _ct=document.getElementById('chrome-toggle'); if(_ct){ _ct.title=t('simpleDisplay'); _ct.setAttribute('aria-label',t('simpleDisplay')); }
+            const _sb=document.getElementById('nm-settings-btn'); if(_sb){ _sb.title=t('settings'); _sb.setAttribute('aria-label',t('settings')); }
+            const _fl=document.getElementById('nm-set-fontlabel'); if(_fl) _fl.textContent=t('fontSize');
             // nav labels
             const map1={ 'nav-order-label':t('navOrder'), 'nav-word':t('navWord'), 'nav-han':t('navHan'),
                          'nav-name':t('navName'), 'nav-tree-label':t('navTree') };
@@ -814,7 +900,7 @@
             sel.value=uiLang;
             sel.addEventListener('change', ()=>{
                 uiLang=sel.value; setCookie('wm_uilang', uiLang);
-                applyUILang();
+                applyUILang(); updateHash();
                 try{ window.dispatchEvent(new CustomEvent('langmap:uichange',{detail:{lang:uiLang}})); }catch(e){}
             });
         }
@@ -822,8 +908,14 @@
         /* ---------- Boot ---------- */
         function boot(){
             initMap();
+            // Read URL state first so the UI language + font size are set before
+            // the picker and first render.
+            const st0=readState();
+            if(st0.l && T[st0.l]) uiLang=st0.l;
+            if(st0.s){ const v=parseInt(st0.s,10); if(v>=70&&v<=160) fontScale=v/100; }
             setupLangSelect();
             setupSearch();
+            applyFontScale();
             document.getElementById('name-select').addEventListener('change', e=>selectName(e.target.value,{fit:true}));
             document.getElementById('nm-random').addEventListener('click', ()=>{
                 const ids=sortedNameIds(); selectName(ids[Math.floor(Math.random()*ids.length)],{fit:true});
@@ -833,6 +925,22 @@
             // Custom zoom buttons (Leaflet's own control is hidden)
             document.getElementById('nm-zoom-in').addEventListener('click', ()=>map&&map.zoomIn());
             document.getElementById('nm-zoom-out').addEventListener('click', ()=>map&&map.zoomOut());
+            // Settings gear + font-size stepper
+            const setBtn=document.getElementById('nm-settings-btn'), pop=document.getElementById('nm-settings-pop');
+            if(setBtn && pop){
+                setBtn.addEventListener('click', e=>{ e.stopPropagation();
+                    const willOpen=pop.hasAttribute('hidden');
+                    if(willOpen) pop.removeAttribute('hidden'); else pop.setAttribute('hidden','');
+                    setBtn.setAttribute('aria-expanded', willOpen?'true':'false');
+                });
+                document.addEventListener('click', e=>{
+                    if(!pop.hasAttribute('hidden') && !pop.contains(e.target) && !setBtn.contains(e.target)){
+                        pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded','false');
+                    }
+                });
+                document.getElementById('nm-font-dec').addEventListener('click', ()=>setFontScale(fontScale-0.1));
+                document.getElementById('nm-font-inc').addEventListener('click', ()=>setFontScale(fontScale+0.1));
+            }
             // Place the simple-display toggle (desktop: map stack / mobile: header)
             placeChromeToggle();
             let _rz; window.addEventListener('resize', ()=>{ clearTimeout(_rz); _rz=setTimeout(placeChromeToggle, 150); });
@@ -844,13 +952,16 @@
                 if(map) setTimeout(()=>map.invalidateSize(), 60);
             });
             document.addEventListener('click', e=>{ if(e.target && e.target.id==='nm-info-close') closeInfoSheet(); });
-            window.addEventListener('hashchange', ()=>{
-                const m=location.hash.match(/n=([\w-]+)/); if(m && NAMES[m[1]] && m[1]!==currentId) selectName(m[1],{push:false,fit:true});
-            });
+            // URL tracks the map view (pan / zoom), debounced.
+            if(map && map.on) map.on('moveend', ()=>{ clearTimeout(boot._mh); boot._mh=setTimeout(updateHash, 250); });
+            // Genuine URL changes (back/forward, edited URL) re-apply full state.
+            window.addEventListener('hashchange', ()=>applyState(readState()));
             applyUILang();
-            const m=location.hash.match(/n=([\w-]+)/);
-            const first=(m&&NAMES[m[1]])?m[1]:sortedNameIds()[0];
+            const first=(st0.n && NAMES[st0.n])?st0.n:sortedNameIds()[0];
             selectName(first,{push:false});
+            if(st0.c && st0.z){ const p=st0.c.split(','); const lat=+p[0],lng=+p[1],z=+st0.z;
+                if(isFinite(lat)&&isFinite(lng)&&isFinite(z)) map.setView([lat,lng], z); }
+            updateHash();
 
             // Share payload for share-button.js
             window.__langmap = window.__langmap || {};

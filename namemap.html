@@ -252,17 +252,26 @@
         .leaflet-control-zoom { display: none !important; }
         .nm-map-ctl {
             position: fixed; top: 58px; right: 10px; z-index: 900;
-            display: flex; flex-direction: column; gap: 8px; align-items: center;
+            display: flex; flex-direction: column; gap: 6px; align-items: center;
         }
-        .nm-map-ctl > button {
-            width: 34px; height: 34px; padding: 0; margin: 0;
-            display: inline-flex; align-items: center; justify-content: center;
-            background: #fff; border: 1px solid rgba(0,0,0,0.15); border-radius: 7px;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.2); cursor: pointer; color: #333;
+        /* Zoom pill — identical to HanMap's .map-zoom-controls */
+        .map-zoom-controls {
+            display: flex; flex-direction: column;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2); border-radius: 6px; overflow: hidden;
         }
-        .nm-map-ctl > button:hover { background: #f3f4f6; }
-        .nm-map-ctl .nm-zoom-btn { font-size: 22px; line-height: 1; font-weight: 400; }
-        .nm-map-ctl .chrome-toggle-btn svg { width: 18px; height: 18px; }
+        .map-zoom-controls button {
+            width: 32px; height: 32px; border: none; background: rgba(255,255,255,0.92);
+            font-size: 18px; font-weight: 700; cursor: pointer; color: #333; line-height: 32px; padding: 0;
+        }
+        .map-zoom-controls button:hover { background: #fff; }
+        .map-zoom-controls button + button { border-top: 1px solid #ddd; }
+        /* the simple-display toggle sits above the zoom pill, matching its size */
+        .nm-map-ctl .chrome-toggle-btn {
+            margin: 0; width: 32px; height: 32px; border: none; border-radius: 6px;
+            background: rgba(255,255,255,0.92); box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        .nm-map-ctl .chrome-toggle-btn:hover { background: #fff; }
+        .nm-map-ctl .chrome-toggle-btn svg { width: 17px; height: 17px; }
         /* Selected-name label in simple-display mode — plain text with a white
            halo, NO box (WordMap-style). */
         .nm-simple-name {
@@ -295,9 +304,9 @@
                 border: none; border-radius: 0; box-shadow: none; background: transparent; padding: 0;
             }
             .nm-search-wrap { display: none; }
-            /* On mobile the toggle is relocated into the header (JS); the map
-               control stack keeps just the +/− zoom buttons at the top-right. */
-            .nm-map-ctl { top: 54px; }
+            /* Match HanMap: zoom buttons are hidden on mobile (pinch to zoom);
+               the simple-display toggle is relocated into the header (JS). */
+            .map-zoom-controls { display: none; }
             .nm-select-row { justify-content: flex-start; }
             #name-select {
                 flex: 0 1 auto; width: auto; max-width: 56vw;
@@ -415,8 +424,10 @@
         <!-- Custom top-right control stack (HanMap-style). On desktop the
              #chrome-toggle button is moved in above these zoom buttons. -->
         <div class="nm-map-ctl" id="nm-map-ctl">
-            <button type="button" class="nm-zoom-btn" id="nm-zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
-            <button type="button" class="nm-zoom-btn" id="nm-zoom-out" aria-label="Zoom out" title="Zoom out">−</button>
+            <div class="map-zoom-controls" id="nm-map-zoom" role="group" aria-label="Map zoom">
+                <button type="button" id="nm-zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
+                <button type="button" id="nm-zoom-out" aria-label="Zoom out" title="Zoom out">&minus;</button>
+            </div>
         </div>
         <div class="nm-sheet-backdrop" id="nm-sheet-backdrop" aria-hidden="true"></div>
     </div>

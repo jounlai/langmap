@@ -159,7 +159,11 @@
         .nm-tree li::after {
             content: ''; position: absolute; left: 0; top: 0; height: 100%; border-left: 1px solid var(--tree-line);
         }
-        .nm-tree li:last-child::after { height: 11px; }
+        /* Last child has no sibling below, so the trunk must stop where the
+           rounded elbow (::before) starts curving (~3px) — otherwise the
+           straight line runs past the curve and dead-ends, looking like a
+           stray branch below the smooth corner. */
+        .nm-tree li:last-child::after { height: 3px; }
         /* rounded corner + horizontal arm, drawn on top of the trunk; the arm
            sits at ~11px so it meets the vertical centre of the node label */
         .nm-tree li::before {

@@ -257,7 +257,7 @@
            mobile (see placeChromeToggle()). */
         .leaflet-control-zoom { display: none !important; }
         .nm-map-ctl {
-            position: fixed; top: 58px; right: 10px; z-index: 900;
+            position: fixed; top: 52px; right: 10px; z-index: 1001;
             display: flex; flex-direction: column; gap: 6px; align-items: center;
         }
         /* Zoom pill — identical to HanMap's .map-zoom-controls */
@@ -271,10 +271,11 @@
         }
         .map-zoom-controls button:hover { background: #fff; }
         .map-zoom-controls button + button { border-top: 1px solid #ddd; }
-        /* the simple-display toggle sits above the zoom pill; keeps the shared
-           transparent background + border (HanMap style), just resized to 32px */
-        .nm-map-ctl .chrome-toggle-btn { margin: 0; width: 32px; height: 32px; }
-        .nm-map-ctl .chrome-toggle-btn svg { width: 17px; height: 17px; }
+        /* the simple-display toggle sits above the zoom pill. Match HanMap
+           exactly: the shared 40×40 chrome-toggle, made round in the stack
+           (same as HanMap's `.right-controls > .chrome-toggle-btn`). Keep the
+           base 20px icons — no size overrides. */
+        .nm-map-ctl > .chrome-toggle-btn { margin-left: 0; border-radius: 50%; }
         /* settings (gear) + font-size stepper — copied verbatim from HanMap so
            they look identical. The size control opens below the gear in the
            same column (like HanMap's settings drawer). */
@@ -335,6 +336,13 @@
             /* Match HanMap: zoom buttons are hidden on mobile (pinch to zoom);
                the simple-display toggle is relocated into the header (JS). */
             .map-zoom-controls { display: none; }
+            /* Header-button placement, identical to HanMap's ≤640 rules but
+               applied across NameMap's whole ≤780 mobile range (NameMap moves
+               the toggle into the header at ≤780, so the push-right must too):
+               [LangMap] ————— [simple-display][hamburger] hugging the right. */
+            .site-header-bar { gap: 0; }
+            .site-header-bar > .chrome-toggle-btn { margin-left: auto; }
+            .site-header-bar > .chrome-toggle-btn + .hamburger-btn { margin-left: 6px; }
             .nm-select-row { justify-content: flex-start; }
             #name-select {
                 flex: 0 1 auto; width: auto; max-width: 56vw;

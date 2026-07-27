@@ -343,6 +343,10 @@
             .site-header-bar { gap: 0; }
             .site-header-bar > .chrome-toggle-btn { margin-left: auto; }
             .site-header-bar > .chrome-toggle-btn + .hamburger-btn { margin-left: 6px; }
+            /* Push the gear/zoom stack down on mobile (matches HanMap's
+               `.right-controls { top: 68px }` mobile override) so the gear
+               isn't crowded up against the header / name pulldown. */
+            .nm-map-ctl { top: 68px; }
             .nm-select-row { justify-content: flex-start; }
             #name-select {
                 flex: 0 1 auto; width: auto; max-width: 56vw;
@@ -375,8 +379,9 @@
                 padding: 0 16px calc(28px + env(safe-area-inset-bottom));
             }
             .nm-panel.info-open .nm-info { transform: none; }
-            /* Sheet gets top padding so the sticky close button clears content */
-            .nm-info { padding-top: 8px; }
+            /* Sheet gets a balanced top margin (matches the 16px side padding)
+               so content doesn't crowd the rounded top edge. */
+            .nm-info { padding-top: 20px; }
             /* Close: a round × pinned to the top-RIGHT of the sheet, stays put
                while the sheet scrolls (margin-left:auto pushes it right; the
                negative bottom margin lets content flow up beside it). */
@@ -831,8 +836,11 @@
                 sortedNameIds().forEach(id=>{
                     const n=NAMES[id];
                     const hay=[loc(n.display), n.display.en, n.display.ja, n.id,
-                        ...Object.values(n.forms||{}).map(f=>f.form),
-                        ...Object.values(n.forms||{}).map(f=>f.rom)].map(norm).join(' ');
+                        n.origin&&n.origin.native, n.origin&&n.origin.rom,
+                        ...Object.values(n.forms||{}).map(f=>f.form),   // native / local spelling
+                        ...Object.values(n.forms||{}).map(f=>f.rom),    // romanization
+                        ...Object.values(n.tree||{}).map(nd=>nd.label), // derivations (etymology tree)
+                        ...Object.values(n.tree||{}).map(nd=>nd.script)].map(norm).join(' ');
                     if(hay.includes(q)) hits.push(id);
                 });
                 if(!hits.length){ box.classList.remove('open'); box.innerHTML=''; return; }

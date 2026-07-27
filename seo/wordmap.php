@@ -46,11 +46,12 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 
     $canonical = SEO_SITE . seo_path($ui, 'wordmap', $code);
     $altPath = '/wordmap/' . rawurlencode($code);
+    $wc = (string) count($words);
     $title = $name . ($native && $native !== $name ? " ($native)" : '')
-        . ' — ' . seo_t($ui, 'wm_lang_title') . ' | Word Map';
+        . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | Word Map';
     $metaDesc = $desc !== ''
         ? $desc
-        : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($native ? " ($native)" : '')]);
+        : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($native ? " ($native)" : ''), 'w' => $wc]);
     $robots = !empty($lang['excluded']) ? 'noindex,follow' : 'index,follow';
 
     seo_head([
@@ -124,7 +125,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 <?php endif; ?>
 
 <section class="seo-section">
-  <h2><?= e(seo_t($ui, 'words_heading', ['name' => $name])) ?></h2>
+  <h2><?= e(seo_t($ui, 'words_heading', ['name' => $name, 'w' => (string) count($words)])) ?></h2>
   <div class="seo-words">
   <?php foreach ($words as $w):
       $id = $w['id'];
@@ -186,9 +187,10 @@ function seo_render_wordmap_index(array $data, string $ui): void
     usort($modern, $cmp);
     usort($hidden, $cmp);
 
+    $wc = (string) count($data['words']);
     seo_head([
-        'title' => seo_t($ui, 'wm_index_title', ['n' => (string) count($langs)]) . ' | LangMap',
-        'description' => seo_t($ui, 'wm_index_desc', ['n' => (string) count($langs)]),
+        'title' => seo_t($ui, 'wm_index_title', ['n' => (string) count($langs), 'w' => $wc]) . ' | LangMap',
+        'description' => seo_t($ui, 'wm_index_desc', ['n' => (string) count($langs), 'w' => $wc]),
         'canonical' => SEO_SITE . seo_path($ui, 'wordmap'),
         'image' => SEO_SITE . '/ogp-wordmap.png',
         'ui' => $ui,
@@ -198,7 +200,7 @@ function seo_render_wordmap_index(array $data, string $ui): void
 <nav class="seo-crumbs"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; Word Map</nav>
 <header class="seo-hero">
   <h1>Word Map</h1>
-  <p class="sub"><?= e(seo_t($ui, 'wm_index_sub', ['n' => (string) count($langs)])) ?></p>
+  <p class="sub"><?= e(seo_t($ui, 'wm_index_sub', ['n' => (string) count($langs), 'w' => $wc])) ?></p>
 </header>
 <div class="seo-applink">
   <a href="/wordmap.html"><?= e(seo_t($ui, 'open_app_wm')) ?></a>

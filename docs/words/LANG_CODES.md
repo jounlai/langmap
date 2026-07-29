@@ -790,7 +790,7 @@ Total: 1138 codes.
 | `pi_edu` | Pedagogical Pali (Theravada monastic) | パーリ語(教学・上座部僧院) | Indo-European (Indo-Aryan, Middle; Theravada monastic pedagogy) | Active monastic/lay pedagogical use (Theravada) |
 | `pis` | Pijin | ピジン語 | English-based creole (Melanesian Pijin) | ~370K |
 | `piu` | Pintupi-Luritja | ピントゥピ・ルリチャ語 | Pama-Nyungan | ~1K (vulnerable) |
-| `pjk` | Proto-Japonic-Koreanic | 日韓祖語 | Japonic (proposed Japonic-Koreanic) | Reconstructed proto-language (no speakers; Bronze Age Korea ~3rd millennium BCE) |
+| `pjk` | Proto-Japonic-Koreanic | 日韓祖語 | Japonic-Koreanic (proposed macro-family) | Reconstructed proto-language (no speakers; Bronze Age Korea ~3rd millennium BCE) |
 | `pjp` | Proto-Japonic | 日琉祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pjt` | Pitjantjatjara | ピチャンチャチャラ語 | Pama-Nyungan (Wati, Western Desert) | ~3K |
 | `pkar` | Proto-Kartvelian | カルトヴェリ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |

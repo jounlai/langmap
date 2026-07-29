@@ -1759,43 +1759,43 @@ const LANG_DATA = {
 },
   myn: { name: 'Classical Maya', native: 'Maaya Tzij', lat: 14.63, lng: -90.51,
 },
-  ine: { name: 'Proto-Indo-European', native: '*dń̥ǵʰwéh₂s', lat: 47.00, lng: 39.00,
+  ine: { name: 'Proto-Indo-European', native: 'Proto-Indo-European', lat: 47.00, lng: 39.00,
 },
-  pjp: { name: 'Proto-Japonic', native: '*midu', lat: 33.60, lng: 130.40,
+  pjp: { name: 'Proto-Japonic', native: 'Proto-Japonic', lat: 33.60, lng: 130.40,
 },
-  pko: { name: 'Proto-Koreanic', native: '*mɨr', lat: 37.00, lng: 127.50,
+  pko: { name: 'Proto-Koreanic', native: 'Proto-Koreanic', lat: 37.00, lng: 127.50,
 },
-  ptrk: { name: 'Proto-Turkic', native: '*sub', lat: 48.00, lng: 100.00,
+  ptrk: { name: 'Proto-Turkic', native: 'Proto-Turkic', lat: 48.00, lng: 100.00,
 },
-  pmng: { name: 'Proto-Mongolic', native: '*usun', lat: 47.00, lng: 113.00,
+  pmng: { name: 'Proto-Mongolic', native: 'Proto-Mongolic', lat: 47.00, lng: 113.00,
 },
-  ptg: { name: 'Proto-Tungusic', native: '*mū', lat: 48.00, lng: 128.00,
+  ptg: { name: 'Proto-Tungusic', native: 'Proto-Tungusic', lat: 48.00, lng: 128.00,
 },
-  paa: { name: 'Proto-Austroasiatic', native: '*ɗaːk', lat: 17.00, lng: 105.00,
+  paa: { name: 'Proto-Austroasiatic', native: 'Proto-Austroasiatic', lat: 17.00, lng: 105.00,
 },
-  pkd: { name: 'Proto-Kra-Dai', native: '*naːm', lat: 23.00, lng: 110.00,
+  pkd: { name: 'Proto-Kra-Dai', native: 'Proto-Kra-Dai', lat: 21.80, lng: 110.00,
 },
-  phm: { name: 'Proto-Hmong-Mien', native: '*ʔuwm', lat: 28.00, lng: 111.00,
+  phm: { name: 'Proto-Hmong-Mien', native: 'Proto-Hmong-Mien', lat: 28.00, lng: 111.00,
 },
-  pafa: { name: 'Proto-Afroasiatic', native: '*Vfroasiatic', lat: 13.00, lng: 40.00,
+  pafa: { name: 'Proto-Afroasiatic', native: 'Proto-Afroasiatic', lat: 13.00, lng: 40.00,
 },
-  pkar: { name: 'Proto-Kartvelian', native: '*qel-', lat: 42.00, lng: 43.00,
+  pkar: { name: 'Proto-Kartvelian', native: 'Proto-Kartvelian', lat: 42.00, lng: 43.00,
 },
-  pmay: { name: 'Proto-Mayan', native: '*haʔ', lat: 15.50, lng: -91.00,
+  pmay: { name: 'Proto-Mayan', native: 'Proto-Mayan', lat: 15.50, lng: -91.00,
 },
-  puaz: { name: 'Proto-Uto-Aztecan', native: '*paʔ', lat: 30.00, lng: -110.00,
+  puaz: { name: 'Proto-Uto-Aztecan', native: 'Proto-Uto-Aztecan', lat: 30.00, lng: -110.00,
 },
-  pban: { name: 'Proto-Bantu', native: '*-jíjì', lat: 6.00, lng: 12.00,
+  pban: { name: 'Proto-Bantu', native: 'Proto-Bantu', lat: 6.00, lng: 10.00,
 },
-  pst: { name: 'Proto-Sino-Tibetan', native: '*ŋa', lat: 33.00, lng: 100.00,
+  pst: { name: 'Proto-Sino-Tibetan', native: 'Proto-Sino-Tibetan', lat: 33.00, lng: 100.00,
 },
-  psem: { name: 'Proto-Semitic', native: '*lišān-', lat: 31.00, lng: 40.00,
+  psem: { name: 'Proto-Semitic', native: 'Proto-Semitic', lat: 31.00, lng: 40.00,
 },
-  pura: { name: 'Proto-Uralic', native: '*wete', lat: 58.00, lng: 54.00,
+  pura: { name: 'Proto-Uralic', native: 'Proto-Uralic', lat: 58.00, lng: 54.00,
 },
-  pdr: { name: 'Proto-Dravidian', native: '*nīr', lat: 16.00, lng: 78.00,
+  pdr: { name: 'Proto-Dravidian', native: 'Proto-Dravidian', lat: 16.00, lng: 78.00,
 },
-  paus: { name: 'Proto-Austronesian', native: '*daNum', lat: 23.70, lng: 121.00,
+  paus: { name: 'Proto-Austronesian', native: 'Proto-Austronesian', lat: 23.70, lng: 121.00,
 },
   zh_song: { name: 'Classical Chinese (Song)', native: '文言(宋)', lat: 34.80, lng: 114.31,
 },
@@ -1850,7 +1850,7 @@ const LANG_DATA = {
   // mainland Japonic ~7-8c. CE per Pellard (2015), Thorpe (1983).
   // Distinctive innovations: *teda 'sun' (vs Japonic *pi), *kimu
   // 'heart/liver' (vs Japonic *kokoro), *maja 'cat' (vs *neko).
-  pry: { name: 'Proto-Ryukyuan', native: '*PR', lat: 28.40, lng: 129.50, // Amami area (Japonic-Ryukyuan boundary; geographic midpoint of Ryukyuan dispersal)
+  pry: { name: 'Proto-Ryukyuan', native: 'Proto-Ryukyuan', lat: 28.40, lng: 129.50, // Amami area (Japonic-Ryukyuan boundary; geographic midpoint of Ryukyuan dispersal)
 
     wordEvidence: {
       sun:    { evidence: 'reconstructed', source: 'Pellard 2015 — *teda; cf. Okinawan tida, Miyako tida (distinctive Ryukyuan; mainland Japonic uses *pi)' },
@@ -4470,7 +4470,7 @@ const LANG_DATA = {
   // is itself a major argument against the hypothesis. We therefore
   // leave most cells unattested ('—') and mark the few proposed
   // basic-vocabulary cognates with `disputed` evidence.
-  pjk: { name: 'Proto-Japonic-Koreanic', native: '*PJK', lat: 38.50, lng: 134.00, // Sea of Japan (symbolic — between hypothetical Korean Peninsula homeland and the Japanese archipelago)
+  pjk: { name: 'Proto-Japonic-Koreanic', native: 'Proto-Japonic-Koreanic', lat: 38.50, lng: 134.00, // Sea of Japan (symbolic — between hypothetical Korean Peninsula homeland and the Japanese archipelago)
 
     wordEvidence: {
       mother: { evidence: 'disputed', source: 'Whitman 2012 — childish *ma/əma; cross-linguistic baby-talk root, weak phylogenetic value' },

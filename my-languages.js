@@ -246,15 +246,14 @@
             '.mylang-sugg-native{font-weight:600}',
             '.mylang-sugg-rom{opacity:.6;font-size:12px}',
             '.mylang-list{display:flex;flex-direction:column;gap:6px}',
-            // Two-line row: line 1 = dot + language name + delete; line 2 = the
-            // level select at full width. Keeps the name from ever being crushed
-            // by the (now descriptive, wider) select, and keeps × always clickable.
-            '.mylang-row{display:flex;flex-direction:column;gap:7px;padding:9px 11px;border:1px solid rgba(128,128,128,.22);border-radius:10px}',
-            '.mylang-row-top{display:flex;align-items:center;gap:9px}',
+            // One line: dot + name (grows, keeps a min width) + level select
+            // (shrinkable, capped so it can never crush the name or overflow) +
+            // delete. Guarantees all three stay on the same row and visible.
+            '.mylang-row{display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid rgba(128,128,128,.22);border-radius:10px}',
             '.mylang-dot{width:13px;height:13px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 6px currentColor}',
-            '.mylang-row-name{flex:1 1 auto;min-width:0;overflow:hidden}',
-            '.mylang-level{width:100%;box-sizing:border-box;flex:none;font:inherit;font-size:13px;padding:7px 9px;border:1px solid rgba(128,128,128,.35);border-radius:8px;background:transparent;color:inherit}',
-            '.mylang-del{flex:0 0 auto;background:none;border:0;cursor:pointer;color:inherit;opacity:.5;font-size:20px;line-height:1;padding:0 4px}',
+            '.mylang-row-name{flex:1 1 auto;min-width:56px;overflow:hidden}',
+            '.mylang-level{flex:0 1 auto;min-width:0;max-width:56%;box-sizing:border-box;font:inherit;font-size:12px;padding:5px 6px;border:1px solid rgba(128,128,128,.35);border-radius:7px;background:transparent;color:inherit}',
+            '.mylang-del{flex:0 0 auto;background:none;border:0;cursor:pointer;color:inherit;opacity:.5;font-size:19px;line-height:1;padding:0 3px}',
             '.mylang-del:hover{opacity:1;color:#d9534f}',
             '.mylang-empty{opacity:.6;text-align:center;padding:14px 4px;font-size:13px}',
             '.mylang-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}',
@@ -328,28 +327,29 @@
             var e = el('div', 'mylang-empty'); e.textContent = T('empty'); listEl.appendChild(e); return;
         }
         var fi = foldInfo();
+        var dark = !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        var mainCol = dark ? '#eef2f8' : '#1a2230';
         state.langs.forEach(function (item, idx) {
+            // One line: dot + name + level select + delete.
             var row = el('div', 'mylang-row');
             var dot = el('span', 'mylang-dot'); dot.style.color = levelColor(item.level); dot.style.background = levelColor(item.level);
+            // Name (native + romanized, inline). Colours set INLINE so no page CSS
+            // cascade can hide it; nowrap+ellipsis keeps it to one line.
             var nm = el('div', 'mylang-row-name');
-            // Colours set INLINE (not via inherited CSS) so no page rule or
-            // cascade quirk can render the name invisible.
-            var dark = !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
-            var mainCol = dark ? '#eef2f8' : '#1a2230';
-            var nat = el('div', 'mylang-native'); nat.textContent = displayName(item.code);
-            nat.style.cssText = 'display:block;font-size:14px;font-weight:700;line-height:1.3;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol + ';overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+            nm.style.cssText = 'overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
+            var nat = el('span', 'mylang-native'); nat.textContent = displayName(item.code);
+            nat.style.cssText = 'font-size:14px;font-weight:700;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
             nm.appendChild(nat);
             var rom = romanName(item.code);
             if (rom && rom !== displayName(item.code)) {
-                var rr = el('div', 'mylang-rom'); rr.textContent = rom;
-                rr.style.cssText = 'display:block;font-size:11px;line-height:1.2;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol + ';opacity:.6;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+                var rr = el('span', 'mylang-rom'); rr.textContent = ' ' + rom;
+                rr.style.cssText = 'font-size:11px;opacity:.6;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
                 nm.appendChild(rr);
             }
-            // Overlap note: this selection's speakers are already counted within
-            // another selected language (e.g. a dialect folded into its parent).
+            // Overlap note (dialect folded into its parent), appended inline.
             if (fi.foldedInto[item.code]) {
-                var fn = el('div', 'mylang-fold'); fn.textContent = T('folded', { name: displayName(fi.foldedInto[item.code]) });
-                fn.style.cssText = 'display:block;font-size:11px;line-height:1.25;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol + ';opacity:.55;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+                var fn = el('span', 'mylang-fold'); fn.textContent = '  ' + T('folded', { name: displayName(fi.foldedInto[item.code]) });
+                fn.style.cssText = 'font-size:10px;opacity:.5;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
                 nm.appendChild(fn);
             }
             var sel = el('select', 'mylang-level');
@@ -361,13 +361,9 @@
             });
             sel.addEventListener('change', function () { item.level = sel.value; dot.style.color = dot.style.background = levelColor(item.level); syncHash(); });
             var del = el('button', 'mylang-del'); del.innerHTML = '×'; del.setAttribute('aria-label', 'remove'); del.title = 'remove';
-            del.style.cssText = 'color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
+            del.style.color = mainCol;
             del.addEventListener('click', function () { state.langs.splice(idx, 1); renderList(); renderStats(); renderActions(); plotIfActive(); syncHash(); });
-            // line 1: dot + name + delete
-            var top = el('div', 'mylang-row-top');
-            top.appendChild(dot); top.appendChild(nm); top.appendChild(del);
-            // line 2: level select (full width, room for the descriptor)
-            row.appendChild(top); row.appendChild(sel);
+            row.appendChild(dot); row.appendChild(nm); row.appendChild(sel); row.appendChild(del);
             listEl.appendChild(row);
         });
     }

@@ -59,10 +59,10 @@
     // ---- i18n (en/ja + major locales; others fall back to English) ---------
     var NATIVE = { en: 'Native', ja: '母語', ko: '모어', zh: '母语', yue: '母語', es: 'Nativo', fr: 'Natif', de: 'Muttersprache', it: 'Madrelingua', pt: 'Nativo', ru: 'Родной', id: 'Asli' };
     var STR = {
-        en: { btn: 'My languages', title: 'Languages I speak', name_ph: 'Your name (optional)', add_ph: 'Add a language you speak…', no_results: 'No matching language', empty: 'Add the languages you speak to see how many people you can reach.', s_langs: 'languages', s_reach: 'people reached', s_world: 'of the world', s_countries: 'countries', s_families: 'families', plot: 'Plot on map', clear_plot: 'Clear map', make_img: 'Create image', download: 'Download', share: 'Share', close: 'Close', folded: '≈ counted within {name}', card_my: 'My languages', card_of: 'languages', card_reach: 'people I can reach', card_world: 'of the world', card_note: 'cumulative reach — overlaps possible', card_countries: 'countries', card_families: 'families' },
-        ja: { btn: '話せる言語', title: '話せる言語', name_ph: 'お名前（任意）', add_ph: '話せる言語を追加…', no_results: '該当する言語がありません', empty: '話せる言語を追加すると、世界で何人に届くかがわかります。', s_langs: '言語', s_reach: 'カバー人口', s_world: '世界人口比', s_countries: 'か国', s_families: '語族', plot: '地図にプロット', clear_plot: '地図をクリア', make_img: '画像を作成', download: '保存', share: '共有', close: '閉じる', folded: '≈ {name}に含む', card_my: '話せる言語', card_of: '言語', card_reach: '届く人の数', card_world: '世界人口の', card_note: '延べ人数（重複あり）', card_countries: 'か国', card_families: '語族' },
-        ko: { btn: '할 수 있는 언어', title: '구사하는 언어', name_ph: '이름 (선택)', add_ph: '구사하는 언어 추가…', no_results: '일치하는 언어 없음', empty: '구사하는 언어를 추가하면 전 세계 몇 명에게 닿는지 알 수 있어요.', s_langs: '개 언어', s_reach: '도달 인구', s_world: '세계 인구 대비', s_countries: '개국', s_families: '어족', plot: '지도에 표시', clear_plot: '지도 지우기', make_img: '이미지 생성', download: '저장', share: '공유', close: '닫기', folded: '≈ {name}에 포함', card_my: '구사하는 언어', card_of: '개 언어', card_reach: '내가 닿는 사람 수', card_world: '세계 인구의', card_note: '누적 (중복 가능)', card_countries: '개국', card_families: '어족' },
-        zh: { btn: '我会的语言', title: '我会的语言', name_ph: '你的名字（可选）', add_ph: '添加你会的语言…', no_results: '无匹配语言', empty: '添加你会的语言，看看你能触达全球多少人。', s_langs: '种语言', s_reach: '覆盖人口', s_world: '占世界人口', s_countries: '个国家', s_families: '语系', plot: '在地图上标注', clear_plot: '清除地图', make_img: '生成图片', download: '下载', share: '分享', close: '关闭', folded: '≈ 已计入{name}', card_my: '我会的语言', card_of: '种语言', card_reach: '我能触达的人数', card_world: '占世界人口', card_note: '累计（可能重叠）', card_countries: '个国家', card_families: '语系' },
+        en: { btn: 'My languages', title: 'Languages I speak', name_ph: 'Your name (optional)', add_ph: 'Add a language you speak…', no_results: 'No matching language', empty: 'Add the languages you speak to see how many people you can reach.', s_langs: 'languages', s_reach: 'people reached', s_world: 'of the world', s_countries: 'countries', s_families: 'families', plot: 'Plot on map', clear_plot: 'Clear map', make_img: 'Create image', download: 'Download', share: 'Share', close: 'Close', back: 'Back', folded: '≈ counted within {name}', card_my: 'My languages', card_of: 'languages', card_reach: 'people I can reach', card_world: 'of the world', card_note: 'cumulative reach — overlaps possible', card_countries: 'countries', card_families: 'families' },
+        ja: { btn: '話せる言語', title: '話せる言語', name_ph: 'お名前（任意）', add_ph: '話せる言語を追加…', no_results: '該当する言語がありません', empty: '話せる言語を追加すると、世界で何人に届くかがわかります。', s_langs: '言語', s_reach: 'カバー人口', s_world: '世界人口比', s_countries: 'か国', s_families: '語族', plot: '地図にプロット', clear_plot: '地図をクリア', make_img: '画像を作成', download: '保存', share: '共有', close: '閉じる', back: 'もどる', folded: '≈ {name}に含む', card_my: '話せる言語', card_of: '言語', card_reach: '届く人の数', card_world: '世界人口の', card_note: '延べ人数（重複あり）', card_countries: 'か国', card_families: '語族' },
+        ko: { btn: '할 수 있는 언어', title: '구사하는 언어', name_ph: '이름 (선택)', add_ph: '구사하는 언어 추가…', no_results: '일치하는 언어 없음', empty: '구사하는 언어를 추가하면 전 세계 몇 명에게 닿는지 알 수 있어요.', s_langs: '개 언어', s_reach: '도달 인구', s_world: '세계 인구 대비', s_countries: '개국', s_families: '어족', plot: '지도에 표시', clear_plot: '지도 지우기', make_img: '이미지 생성', download: '저장', share: '공유', close: '닫기', back: '뒤로', folded: '≈ {name}에 포함', card_my: '구사하는 언어', card_of: '개 언어', card_reach: '내가 닿는 사람 수', card_world: '세계 인구의', card_note: '누적 (중복 가능)', card_countries: '개국', card_families: '어족' },
+        zh: { btn: '我会的语言', title: '我会的语言', name_ph: '你的名字（可选）', add_ph: '添加你会的语言…', no_results: '无匹配语言', empty: '添加你会的语言，看看你能触达全球多少人。', s_langs: '种语言', s_reach: '覆盖人口', s_world: '占世界人口', s_countries: '个国家', s_families: '语系', plot: '在地图上标注', clear_plot: '清除地图', make_img: '生成图片', download: '下载', share: '分享', close: '关闭', back: '返回', folded: '≈ 已计入{name}', card_my: '我会的语言', card_of: '种语言', card_reach: '我能触达的人数', card_world: '占世界人口', card_note: '累计（可能重叠）', card_countries: '个国家', card_families: '语系' },
     };
     function ui() {
         var g = (window.__langmap && window.__langmap.uiLang) ||
@@ -231,8 +231,12 @@
             '.mylang-panel{background:#fff;color:#1a2230;width:min(560px,100%);border-radius:16px;box-shadow:0 18px 60px rgba(0,0,0,.35);overflow:hidden;font-size:14px}',
             '@media (prefers-color-scheme:dark){.mylang-panel{background:#1c2432;color:#eef2f8}}',
             '.mylang-head{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;border-bottom:1px solid rgba(128,128,128,.2)}',
-            '.mylang-head h2{margin:0;font-size:16px;font-weight:700}',
-            '.mylang-x{background:none;border:0;font-size:22px;line-height:1;cursor:pointer;color:inherit;opacity:.6}',
+            '.mylang-head-left{display:flex;align-items:center;gap:10px;min-width:0}',
+            '.mylang-head h2{margin:0;font-size:16px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
+            '.mylang-back{display:inline-flex;align-items:center;gap:3px;background:none;border:0;cursor:pointer;color:inherit;font:inherit;font-size:14px;font-weight:600;padding:4px 6px;border-radius:8px;flex:none}',
+            '.mylang-back:hover{background:rgba(90,140,220,.14)}',
+            '.mylang-back svg{width:16px;height:16px}',
+            '.mylang-x{background:none;border:0;font-size:22px;line-height:1;cursor:pointer;color:inherit;opacity:.6;flex:none}',
             '.mylang-x:hover{opacity:1}',
             '.mylang-body{padding:14px 16px;display:flex;flex-direction:column;gap:12px}',
             '.mylang-name{width:100%;box-sizing:border-box;padding:9px 11px;border:1px solid rgba(128,128,128,.35);border-radius:9px;font:inherit;background:transparent;color:inherit}',
@@ -284,7 +288,9 @@
         overlay.className = 'mylang-overlay';
         overlay.innerHTML =
             '<div class="mylang-panel" role="dialog" aria-modal="true">' +
-            '<div class="mylang-head"><h2></h2><button class="mylang-x" aria-label="close">×</button></div>' +
+            '<div class="mylang-head"><div class="mylang-head-left">' +
+            '<button class="mylang-back" type="button" style="display:none"></button><h2></h2>' +
+            '</div><button class="mylang-x" aria-label="close">×</button></div>' +
             '<div class="mylang-body"></div></div>';
         panelBody = overlay.querySelector('.mylang-body');
         overlay.querySelector('.mylang-x').addEventListener('click', close);
@@ -294,9 +300,22 @@
         renderBuilder();
     }
 
+    // Header back button (‹ もどる): shown only in sub-views (e.g. the image
+    // preview). onClick=null hides it.
+    var BACK_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>';
+    function showBack(onClick) {
+        var b = overlay.querySelector('.mylang-back'); if (!b) return;
+        if (onClick) {
+            b.innerHTML = BACK_ICON + '<span>' + esc(T('back')) + '</span>';
+            b.style.display = '';
+            b.onclick = onClick;
+        } else { b.style.display = 'none'; b.onclick = null; }
+    }
+
     // The default "builder" view (name + add + list + stats + actions).
     function renderBuilder() {
         overlay.querySelector('.mylang-head h2').textContent = T('title');
+        showBack(null);
         panelBody.innerHTML = '';
 
         nameInput = el('input', 'mylang-name');
@@ -535,8 +554,17 @@
         });
     }
 
+    // Whether this browser can actually share an image FILE (mostly mobile;
+    // desktop Chrome/Firefox return false, so we hide Share there and rely on
+    // Download instead of offering a button that silently does nothing).
+    function canShareImage() {
+        try { return !!(navigator.canShare && navigator.canShare({ files: [new File([new Blob([''], { type: 'image/png' })], 'a.png', { type: 'image/png' })] })); }
+        catch (e) { return false; }
+    }
+
     function renderImageView(canvas) {
         overlay.querySelector('.mylang-head h2').textContent = T('make_img');
+        showBack(renderBuilder);   // ‹ もどる lives in the header now
         panelBody.innerHTML = '';
         var wrap = el('div', 'mylang-imgwrap');
         if (canvas) {
@@ -547,19 +575,15 @@
             var dl = el('button', 'mylang-act primary'); dl.textContent = T('download');
             dl.addEventListener('click', function () { downloadCanvas(canvas); });
             acts.appendChild(dl);
-            if (navigator.canShare) {
+            if (canShareImage()) {
                 var sh = el('button', 'mylang-act'); sh.textContent = T('share');
                 sh.addEventListener('click', function () { shareCanvas(canvas); });
                 acts.appendChild(sh);
             }
-            var back = el('button', 'mylang-act'); back.textContent = '←';
-            back.addEventListener('click', renderBuilder);
-            acts.appendChild(back);
             wrap.appendChild(acts);
             var note = el('div', 'mylang-note'); note.textContent = T('card_note'); wrap.appendChild(note);
         } else {
             var e = el('div', 'mylang-empty'); e.textContent = '⚠'; wrap.appendChild(e);
-            var back2 = el('button', 'mylang-act'); back2.textContent = '←'; back2.addEventListener('click', renderBuilder); wrap.appendChild(back2);
         }
         panelBody.appendChild(wrap);
     }

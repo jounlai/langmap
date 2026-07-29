@@ -177,11 +177,6 @@
     function injectStyles() {
         if (document.getElementById('mylang-styles')) return;
         var css = [
-            '.mylang-btn{display:inline-flex;align-items:center;gap:5px;background:none;border:0;cursor:pointer;color:inherit;font:inherit;padding:4px 6px;border-radius:8px;white-space:nowrap}',
-            '.mylang-btn:hover{background:rgba(0,0,0,.06)}',
-            '.mylang-btn svg{width:17px;height:17px;flex:none}',
-            '.mylang-btn .mylang-btn-label{font-size:13px;font-weight:600}',
-            '@media (max-width:640px){.mylang-btn .mylang-btn-label{display:none}}',
             '.mylang-overlay{position:fixed;inset:0;background:rgba(15,20,30,.55);z-index:4000;display:none;align-items:flex-start;justify-content:center;padding:24px 12px;overflow:auto}',
             '.mylang-overlay.open{display:flex}',
             '.mylang-panel{background:#fff;color:#1a2230;width:min(560px,100%);border-radius:16px;box-shadow:0 18px 60px rgba(0,0,0,.35);overflow:hidden;font-size:14px}',
@@ -285,10 +280,19 @@
             var row = el('div', 'mylang-row');
             var dot = el('span', 'mylang-dot'); dot.style.color = levelColor(item.level); dot.style.background = levelColor(item.level);
             var nm = el('div', 'mylang-row-name');
-            var nat = el('span', 'mylang-native'); nat.textContent = displayName(item.code);
+            // Colours set INLINE (not via inherited CSS) so no page rule or
+            // cascade quirk can render the name invisible.
+            var dark = !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            var mainCol = dark ? '#eef2f8' : '#1a2230';
+            var nat = el('div', 'mylang-native'); nat.textContent = displayName(item.code);
+            nat.style.cssText = 'display:block;font-size:14px;font-weight:700;line-height:1.3;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol + ';overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
             nm.appendChild(nat);
             var rom = romanName(item.code);
-            if (rom && rom !== displayName(item.code)) { var rr = el('span', 'mylang-rom'); rr.textContent = rom; nm.appendChild(rr); }
+            if (rom && rom !== displayName(item.code)) {
+                var rr = el('div', 'mylang-rom'); rr.textContent = rom;
+                rr.style.cssText = 'display:block;font-size:11px;line-height:1.2;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol + ';opacity:.6;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+                nm.appendChild(rr);
+            }
             var sel = el('select', 'mylang-level');
             LEVELS.forEach(function (lv) {
                 var o = document.createElement('option'); o.value = lv.key;
@@ -642,27 +646,28 @@
     function open() { if (!overlay) buildPanel(); else renderBuilder(); overlay.classList.add('open'); setTimeout(function () { if (nameInput) addInput.focus(); }, 30); }
     function close() { if (overlay) overlay.classList.remove('open'); }
 
-    var BTN_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/><circle cx="18.5" cy="6.5" r="2.4" fill="currentColor" stroke="none"/></svg>';
-
+    // Register as a hidden .game-btn so the page's "Play ▾ (あそぶ)" menu lists us
+    // alongside the other launchers. styles.css hides .game-btn; the menu builder
+    // in wordmap.html enumerates every .game-btn and mirrors it into the dropdown.
     function mountButton() {
-        var header = document.querySelector('.site-header-bar');
-        if (!header) return false;
-        if (header.querySelector('.mylang-btn')) return true;
-        var btn = el('button', 'mylang-btn');
+        var anchor = document.getElementById('quiz-open') || document.getElementById('langle-open') || document.getElementById('trivia-open');
+        var container = anchor && anchor.parentNode;
+        if (!container) return false;
+        if (document.getElementById('mylang-open')) return true;
+        var btn = document.createElement('button');
         btn.type = 'button';
-        btn.innerHTML = BTN_ICON + '<span class="mylang-btn-label">' + esc(T('btn')) + '</span>';
-        btn.title = T('btn'); btn.setAttribute('aria-label', T('btn'));
+        btn.id = 'mylang-open';
+        btn.className = 'trivia-btn game-btn';
+        btn.title = T('btn');
+        btn.innerHTML = '<span aria-hidden="true">🌍</span><span class="trivia-btn-label">' + esc(T('btn')) + '</span>';
         btn.addEventListener('click', open);
-        var anchor = header.querySelector('.share-icon-btn') || header.querySelector('.lang-picker') || header.querySelector('.header-url');
-        if (anchor && anchor.parentNode) anchor.parentNode.insertBefore(btn, anchor);
-        else header.appendChild(btn);
+        container.insertBefore(btn, anchor.nextSibling);   // sit after the last game launcher
         return true;
     }
 
     function relocalize() {
-        var lbl = document.querySelector('.mylang-btn .mylang-btn-label');
-        if (lbl) lbl.textContent = T('btn');
-        var b = document.querySelector('.mylang-btn'); if (b) { b.title = T('btn'); b.setAttribute('aria-label', T('btn')); }
+        var b = document.getElementById('mylang-open');
+        if (b) { b.title = T('btn'); var l = b.querySelector('.trivia-btn-label'); if (l) l.textContent = T('btn'); }
         if (overlay && overlay.classList.contains('open')) renderBuilder();
     }
 

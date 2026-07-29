@@ -42,20 +42,13 @@
     ];
     function levelColor(k) { for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].key === k) return LEVELS[i].color; return '#7bd191'; }
     function levelRank(k) { for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].key === k) return i; return 2; }
-    // Short CEFR descriptors per level, localized (fallback: English).
+    // Plain, what-you-can-actually-do descriptors per CEFR level, localized
+    // (en/ja/ko/zh; other UI languages fall back to English).
     var LEVEL_DESC = {
-        en: { A1: 'Beginner', A2: 'Elementary', B1: 'Intermediate', B2: 'Upper-intermediate', C1: 'Advanced', C2: 'Proficient' },
-        ja: { A1: '入門', A2: '初級', B1: '中級', B2: '中上級', C1: '上級', C2: '熟達' },
-        ko: { A1: '입문', A2: '초급', B1: '중급', B2: '중상급', C1: '고급', C2: '최상급' },
-        zh: { A1: '入门', A2: '初级', B1: '中级', B2: '中高级', C1: '高级', C2: '精通' },
-        yue: { A1: '入門', A2: '初級', B1: '中級', B2: '中高級', C1: '高級', C2: '精通' },
-        es: { A1: 'Principiante', A2: 'Elemental', B1: 'Intermedio', B2: 'Intermedio alto', C1: 'Avanzado', C2: 'Dominio' },
-        fr: { A1: 'Débutant', A2: 'Élémentaire', B1: 'Intermédiaire', B2: 'Intermédiaire sup.', C1: 'Avancé', C2: 'Maîtrise' },
-        de: { A1: 'Anfänger', A2: 'Grundlagen', B1: 'Mittelstufe', B2: 'Gute Mittelstufe', C1: 'Fortgeschritten', C2: 'Exzellent' },
-        it: { A1: 'Principiante', A2: 'Elementare', B1: 'Intermedio', B2: 'Intermedio sup.', C1: 'Avanzato', C2: 'Padronanza' },
-        pt: { A1: 'Iniciante', A2: 'Elementar', B1: 'Intermédio', B2: 'Intermédio alto', C1: 'Avançado', C2: 'Proficiente' },
-        ru: { A1: 'Начальный', A2: 'Базовый', B1: 'Средний', B2: 'Выше среднего', C1: 'Продвинутый', C2: 'Владение' },
-        id: { A1: 'Pemula', A2: 'Dasar', B1: 'Menengah', B2: 'Menengah atas', C1: 'Mahir', C2: 'Fasih' },
+        en: { A1: 'A few words & greetings', A2: 'Simple everyday exchanges', B1: 'Can hold an everyday conversation', B2: 'Comfortable with complex & work topics', C1: 'Fluent in almost any situation', C2: 'Near-native command' },
+        ja: { A1: '単語やあいさつが少し', A2: '簡単なやりとりができる', B1: '日常会話ができる', B2: '仕事や複雑な話もできる', C1: 'ほぼどんな場面でも流暢', C2: '母語話者に近い' },
+        ko: { A1: '단어·인사 조금', A2: '간단한 일상 대화', B1: '일상 대화가 가능', B2: '업무·복잡한 주제도 가능', C1: '거의 모든 상황에서 유창', C2: '원어민에 가까움' },
+        zh: { A1: '几个单词和问候', A2: '简单的日常交流', B1: '能进行日常对话', B2: '能应对复杂和工作话题', C1: '几乎任何场合都流利', C2: '接近母语水平' },
     };
     function levelDesc(k) {
         var u = ui().split('_')[0], d = LEVEL_DESC[u] || LEVEL_DESC.en;
@@ -253,13 +246,15 @@
             '.mylang-sugg-native{font-weight:600}',
             '.mylang-sugg-rom{opacity:.6;font-size:12px}',
             '.mylang-list{display:flex;flex-direction:column;gap:6px}',
-            '.mylang-row{display:flex;align-items:center;gap:9px;padding:7px 9px;border:1px solid rgba(128,128,128,.22);border-radius:10px}',
-            '.mylang-dot{width:12px;height:12px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 6px currentColor}',
-            '.mylang-row-name{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;justify-content:center;overflow:hidden}',
-            '.mylang-native{color:inherit;-webkit-text-fill-color:currentColor;font-size:14px;font-weight:600;line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
-            '.mylang-rom{color:inherit;font-size:11px;opacity:.6;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
-            '.mylang-level{flex:0 0 auto;font:inherit;font-size:12px;padding:4px 6px;border:1px solid rgba(128,128,128,.35);border-radius:7px;background:transparent;color:inherit}',
-            '.mylang-del{flex:0 0 auto;background:none;border:0;cursor:pointer;color:inherit;opacity:.5;font-size:16px;padding:2px 4px}',
+            // Two-line row: line 1 = dot + language name + delete; line 2 = the
+            // level select at full width. Keeps the name from ever being crushed
+            // by the (now descriptive, wider) select, and keeps × always clickable.
+            '.mylang-row{display:flex;flex-direction:column;gap:7px;padding:9px 11px;border:1px solid rgba(128,128,128,.22);border-radius:10px}',
+            '.mylang-row-top{display:flex;align-items:center;gap:9px}',
+            '.mylang-dot{width:13px;height:13px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 6px currentColor}',
+            '.mylang-row-name{flex:1 1 auto;min-width:0;overflow:hidden}',
+            '.mylang-level{width:100%;box-sizing:border-box;flex:none;font:inherit;font-size:13px;padding:7px 9px;border:1px solid rgba(128,128,128,.35);border-radius:8px;background:transparent;color:inherit}',
+            '.mylang-del{flex:0 0 auto;background:none;border:0;cursor:pointer;color:inherit;opacity:.5;font-size:20px;line-height:1;padding:0 4px}',
             '.mylang-del:hover{opacity:1;color:#d9534f}',
             '.mylang-empty{opacity:.6;text-align:center;padding:14px 4px;font-size:13px}',
             '.mylang-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}',
@@ -365,9 +360,14 @@
                 sel.appendChild(o);
             });
             sel.addEventListener('change', function () { item.level = sel.value; dot.style.color = dot.style.background = levelColor(item.level); syncHash(); });
-            var del = el('button', 'mylang-del'); del.innerHTML = '×'; del.setAttribute('aria-label', 'remove');
+            var del = el('button', 'mylang-del'); del.innerHTML = '×'; del.setAttribute('aria-label', 'remove'); del.title = 'remove';
+            del.style.cssText = 'color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
             del.addEventListener('click', function () { state.langs.splice(idx, 1); renderList(); renderStats(); renderActions(); plotIfActive(); syncHash(); });
-            row.appendChild(dot); row.appendChild(nm); row.appendChild(sel); row.appendChild(del);
+            // line 1: dot + name + delete
+            var top = el('div', 'mylang-row-top');
+            top.appendChild(dot); top.appendChild(nm); top.appendChild(del);
+            // line 2: level select (full width, room for the descriptor)
+            row.appendChild(top); row.appendChild(sel);
             listEl.appendChild(row);
         });
     }

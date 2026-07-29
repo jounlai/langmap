@@ -14,6 +14,11 @@
 (function () {
     'use strict';
 
+    // Capture our hash param at the earliest possible moment (script parse),
+    // before any of the page's event-driven updateHash() calls could rewrite
+    // the hash without it — so a reloaded selection is never lost to a race.
+    var _bootParam = (function () { try { return new URLSearchParams((location.hash || '').replace(/^#/, '')).get('ml'); } catch (e) { return null; } })();
+
     // ---- constants ---------------------------------------------------------
     var WORLD_POP = 8.1e9;                       // ~2024 world population
     // Country-outline GeoJSON, same source the poster uses. Fetched lazily and
@@ -135,6 +140,39 @@
             worldPct: reach / WORLD_POP * 100 };
     }
 
+    // ---- URL persistence ---------------------------------------------------
+    // The page (wordmap.html updateHash) appends our param verbatim via
+    // getMyLangHashParam and rewrites the hash when we call syncHash(), so the
+    // selection survives reloads and travels in shareable links.
+    function validLevel(k) { for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].key === k) return k; return 'B2'; }
+    function getMyLangHashParam() {
+        if (!state.langs.length) return '';
+        var payload = { n: state.name || '', p: _plotted ? 1 : 0, l: state.langs.map(function (x) { return [x.code, x.level]; }) };
+        return 'ml=' + encodeURIComponent(JSON.stringify(payload));
+    }
+    function syncHash() { try { if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } catch (e) {} }
+    function restoreFromHash() {
+        try {
+            var raw = _bootParam || new URLSearchParams((location.hash || '').replace(/^#/, '')).get('ml');
+            if (!raw) return;
+            var obj = JSON.parse(raw);
+            if (!obj || !Array.isArray(obj.l)) return;
+            state.name = typeof obj.n === 'string' ? obj.n : '';
+            state.langs = obj.l.filter(function (p) { return p && p[0] && LD()[p[0]]; })
+                .map(function (p) { return { code: p[0], level: validLevel(p[1]) }; });
+            if (obj.p && state.langs.length) { _plotted = true; replotWithRetry(0); }
+        } catch (e) {}
+    }
+    // The map/updateMarkers may not be ready the instant we restore; retry a few
+    // times so a reloaded "plotted" view lights up once the map is live.
+    function replotWithRetry(n) {
+        if (!_plotted || !state.langs.length) return;   // user cleared → stop
+        if (window.__langmap && typeof window.__langmap.setSpotlight === 'function') {
+            window.__langmap.setSpotlight(state.langs.map(function (x) { return x.code; }));
+        }
+        if (n < 8) setTimeout(function () { replotWithRetry(n + 1); }, 350);
+    }
+
     // ---- DOM: styles -------------------------------------------------------
     function injectStyles() {
         if (document.getElementById('mylang-styles')) return;
@@ -164,12 +202,13 @@
             '.mylang-sugg-native{font-weight:600}',
             '.mylang-sugg-rom{opacity:.6;font-size:12px}',
             '.mylang-list{display:flex;flex-direction:column;gap:6px}',
-            '.mylang-row{display:flex;align-items:center;gap:8px;padding:7px 9px;border:1px solid rgba(128,128,128,.22);border-radius:10px}',
-            '.mylang-dot{width:12px;height:12px;border-radius:50%;flex:none;box-shadow:0 0 6px currentColor}',
-            '.mylang-row-name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
-            '.mylang-row-name small{opacity:.55;font-weight:400}',
-            '.mylang-level{font:inherit;font-size:12px;padding:4px 6px;border:1px solid rgba(128,128,128,.35);border-radius:7px;background:transparent;color:inherit}',
-            '.mylang-del{background:none;border:0;cursor:pointer;color:inherit;opacity:.5;font-size:16px;padding:2px 4px}',
+            '.mylang-row{display:flex;align-items:center;gap:9px;padding:7px 9px;border:1px solid rgba(128,128,128,.22);border-radius:10px}',
+            '.mylang-dot{width:12px;height:12px;border-radius:50%;flex:0 0 auto;box-shadow:0 0 6px currentColor}',
+            '.mylang-row-name{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;justify-content:center;overflow:hidden}',
+            '.mylang-native{color:inherit;-webkit-text-fill-color:currentColor;font-size:14px;font-weight:600;line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
+            '.mylang-rom{color:inherit;font-size:11px;opacity:.6;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}',
+            '.mylang-level{flex:0 0 auto;font:inherit;font-size:12px;padding:4px 6px;border:1px solid rgba(128,128,128,.35);border-radius:7px;background:transparent;color:inherit}',
+            '.mylang-del{flex:0 0 auto;background:none;border:0;cursor:pointer;color:inherit;opacity:.5;font-size:16px;padding:2px 4px}',
             '.mylang-del:hover{opacity:1;color:#d9534f}',
             '.mylang-empty{opacity:.6;text-align:center;padding:14px 4px;font-size:13px}',
             '.mylang-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}',
@@ -217,7 +256,7 @@
 
         nameInput = el('input', 'mylang-name');
         nameInput.type = 'text'; nameInput.placeholder = T('name_ph'); nameInput.value = state.name;
-        nameInput.addEventListener('input', function () { state.name = nameInput.value; });
+        nameInput.addEventListener('input', function () { state.name = nameInput.value; syncHash(); });
         panelBody.appendChild(nameInput);
 
         var aw = el('div', 'mylang-addwrap');
@@ -246,7 +285,10 @@
             var row = el('div', 'mylang-row');
             var dot = el('span', 'mylang-dot'); dot.style.color = levelColor(item.level); dot.style.background = levelColor(item.level);
             var nm = el('div', 'mylang-row-name');
-            nm.innerHTML = esc(displayName(item.code)) + ' <small>' + esc(romanName(item.code)) + '</small>';
+            var nat = el('span', 'mylang-native'); nat.textContent = displayName(item.code);
+            nm.appendChild(nat);
+            var rom = romanName(item.code);
+            if (rom && rom !== displayName(item.code)) { var rr = el('span', 'mylang-rom'); rr.textContent = rom; nm.appendChild(rr); }
             var sel = el('select', 'mylang-level');
             LEVELS.forEach(function (lv) {
                 var o = document.createElement('option'); o.value = lv.key;
@@ -254,9 +296,9 @@
                 if (lv.key === item.level) o.selected = true;
                 sel.appendChild(o);
             });
-            sel.addEventListener('change', function () { item.level = sel.value; dot.style.color = dot.style.background = levelColor(item.level); });
+            sel.addEventListener('change', function () { item.level = sel.value; dot.style.color = dot.style.background = levelColor(item.level); syncHash(); });
             var del = el('button', 'mylang-del'); del.innerHTML = '×'; del.setAttribute('aria-label', 'remove');
-            del.addEventListener('click', function () { state.langs.splice(idx, 1); renderList(); renderStats(); renderActions(); plotIfActive(); });
+            del.addEventListener('click', function () { state.langs.splice(idx, 1); renderList(); renderStats(); renderActions(); plotIfActive(); syncHash(); });
             row.appendChild(dot); row.appendChild(nm); row.appendChild(sel); row.appendChild(del);
             listEl.appendChild(row);
         });
@@ -336,7 +378,7 @@
         if (!code || hasCode(code)) return;
         state.langs.push({ code: code, level: 'B2' });
         addInput.value = ''; suggData = []; suggBox.classList.remove('open');
-        renderList(); renderStats(); renderActions(); plotIfActive();
+        renderList(); renderStats(); renderActions(); plotIfActive(); syncHash();
         addInput.focus();
     }
 
@@ -345,12 +387,12 @@
     function doPlot() {
         if (!(window.__langmap && window.__langmap.setSpotlight)) return;
         window.__langmap.setSpotlight(state.langs.map(function (x) { return x.code; }));
-        _plotted = true;
+        _plotted = true; syncHash();
         close();   // reveal the map behind the panel so the plot is visible
     }
     function clearPlot() {
         if (window.__langmap && window.__langmap.clearSpotlight) window.__langmap.clearSpotlight();
-        _plotted = false;
+        _plotted = false; syncHash();
     }
     function plotIfActive() { if (_plotted) { if (window.__langmap && window.__langmap.setSpotlight) window.__langmap.setSpotlight(state.langs.map(function (x) { return x.code; })); } }
 
@@ -626,6 +668,10 @@
 
     function init() {
         injectStyles();
+        // Expose our hash-param provider before the page first writes the hash.
+        window.__langmap = window.__langmap || {};
+        window.__langmap.getMyLangHashParam = getMyLangHashParam;
+        restoreFromHash();
         if (!mountButton()) {
             var tries = 0, iv = setInterval(function () { if (mountButton() || ++tries > 40) clearInterval(iv); }, 150);
         }

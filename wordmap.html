@@ -5635,6 +5635,12 @@
             const fParam = (window.__langmap && typeof window.__langmap.getFilterHashParam === 'function')
                 ? window.__langmap.getFilterHashParam() : '';
             if (fParam) hashBody += (hashBody ? '&' : '') + fParam;
+            // Preserve the "My languages" selection (my-languages.js), same
+            // pattern as the filter param — appended verbatim so the module owns
+            // its own encoding and it round-trips through reloads.
+            const mlParam = (window.__langmap && typeof window.__langmap.getMyLangHashParam === 'function')
+                ? window.__langmap.getMyLangHashParam() : '';
+            if (mlParam) hashBody += (hashBody ? '&' : '') + mlParam;
             const hash = '#' + hashBody;
             // replaceState by default — avoids history bloat from continuous
             // moveend/zoomend. Caller can pass {push:true} for explicit nav.
@@ -6103,6 +6109,9 @@
             } catch (_) {}
         };
         window.__langmap.clearSpotlight = function () { try { window.__langmap.setSpotlight([]); } catch (_) {} };
+        // Let feature modules (my-languages.js) ask the page to rewrite the URL
+        // hash so their own state (appended via getMyLangHashParam) is persisted.
+        window.__langmap.updateHash = function (opts) { try { updateHash(opts || {}); } catch (_) {} };
 
         // Per Session 31 (Schema Revolution Phase 1): each status carries a
         // short pedagogical description shown inline next to the badge.
@@ -9725,6 +9734,6 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=1"></script>
+    <script src="my-languages.js?v=2"></script>
 </body>
 </html>

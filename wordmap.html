@@ -6089,6 +6089,20 @@
         // ...and the map pan, so the toast can fly to the language too (the
         // opener alone doesn't move the map — see centerLangOnMap callers).
         window.__langmap.centerLangOnMap = function (code, minZoom) { try { return centerLangOnMap(code, minZoom); } catch (_) {} };
+        // Spotlight API for the "My languages" feature (my-languages.js): force
+        // a specific set of languages visible on the map (reusing the trivia
+        // spotlight path, which already survives zoom-tier thinning). Passing an
+        // empty/undefined set clears it. Kept generic so any caller can plot a
+        // custom subset without touching the internal _triviaSpotlight var.
+        window.__langmap.setSpotlight = function (codes) {
+            try {
+                if (typeof _triviaSpotlight === 'undefined') return;
+                _triviaSpotlight.clear();
+                if (codes && codes.length) for (const c of codes) if (LANG_DATA[c]) _triviaSpotlight.add(c);
+                if (typeof updateMarkers === 'function' && typeof currentWord !== 'undefined') updateMarkers(currentWord);
+            } catch (_) {}
+        };
+        window.__langmap.clearSpotlight = function () { try { window.__langmap.setSpotlight([]); } catch (_) {} };
 
         // Per Session 31 (Schema Revolution Phase 1): each status carries a
         // short pedagogical description shown inline next to the badge.
@@ -9708,5 +9722,9 @@
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=1"></script>
     <script src="lang-picker.js?v=2"></script>
+    <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
+         projection its world-map card is drawn with. -->
+    <script src="poster_geo.js?v=12"></script>
+    <script src="my-languages.js?v=1"></script>
 </body>
 </html>

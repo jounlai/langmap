@@ -42,24 +42,46 @@
     ];
     function levelColor(k) { for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].key === k) return LEVELS[i].color; return '#7bd191'; }
     function levelRank(k) { for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].key === k) return i; return 2; }
+    // Short CEFR descriptors per level, localized (fallback: English).
+    var LEVEL_DESC = {
+        en: { A1: 'Beginner', A2: 'Elementary', B1: 'Intermediate', B2: 'Upper-intermediate', C1: 'Advanced', C2: 'Proficient' },
+        ja: { A1: '入門', A2: '初級', B1: '中級', B2: '中上級', C1: '上級', C2: '熟達' },
+        ko: { A1: '입문', A2: '초급', B1: '중급', B2: '중상급', C1: '고급', C2: '최상급' },
+        zh: { A1: '入门', A2: '初级', B1: '中级', B2: '中高级', C1: '高级', C2: '精通' },
+        yue: { A1: '入門', A2: '初級', B1: '中級', B2: '中高級', C1: '高級', C2: '精通' },
+        es: { A1: 'Principiante', A2: 'Elemental', B1: 'Intermedio', B2: 'Intermedio alto', C1: 'Avanzado', C2: 'Dominio' },
+        fr: { A1: 'Débutant', A2: 'Élémentaire', B1: 'Intermédiaire', B2: 'Intermédiaire sup.', C1: 'Avancé', C2: 'Maîtrise' },
+        de: { A1: 'Anfänger', A2: 'Grundlagen', B1: 'Mittelstufe', B2: 'Gute Mittelstufe', C1: 'Fortgeschritten', C2: 'Exzellent' },
+        it: { A1: 'Principiante', A2: 'Elementare', B1: 'Intermedio', B2: 'Intermedio sup.', C1: 'Avanzato', C2: 'Padronanza' },
+        pt: { A1: 'Iniciante', A2: 'Elementar', B1: 'Intermédio', B2: 'Intermédio alto', C1: 'Avançado', C2: 'Proficiente' },
+        ru: { A1: 'Начальный', A2: 'Базовый', B1: 'Средний', B2: 'Выше среднего', C1: 'Продвинутый', C2: 'Владение' },
+        id: { A1: 'Pemula', A2: 'Dasar', B1: 'Menengah', B2: 'Menengah atas', C1: 'Mahir', C2: 'Fasih' },
+    };
+    function levelDesc(k) {
+        var u = ui().split('_')[0], d = LEVEL_DESC[u] || LEVEL_DESC.en;
+        return (d && d[k]) || (LEVEL_DESC.en[k] || '');
+    }
+    function levelOptionLabel(k) { return k === 'Native' ? nativeLabel() : (k + ' · ' + levelDesc(k)); }
 
     // ---- i18n (en/ja + major locales; others fall back to English) ---------
     var NATIVE = { en: 'Native', ja: '母語', ko: '모어', zh: '母语', yue: '母語', es: 'Nativo', fr: 'Natif', de: 'Muttersprache', it: 'Madrelingua', pt: 'Nativo', ru: 'Родной', id: 'Asli' };
     var STR = {
-        en: { btn: 'My languages', title: 'Languages I speak', name_ph: 'Your name (optional)', add_ph: 'Add a language you speak…', no_results: 'No matching language', empty: 'Add the languages you speak to see how many people you can reach.', s_langs: 'languages', s_reach: 'people reached', s_world: 'of the world', s_countries: 'countries', s_families: 'families', plot: 'Plot on map', clear_plot: 'Clear map', make_img: 'Create image', download: 'Download', share: 'Share', close: 'Close', card_my: 'My languages', card_of: 'languages', card_reach: 'people I can reach', card_world: 'of the world', card_note: 'cumulative reach — overlaps possible', card_countries: 'countries', card_families: 'families' },
-        ja: { btn: '話せる言語', title: '話せる言語', name_ph: 'お名前（任意）', add_ph: '話せる言語を追加…', no_results: '該当する言語がありません', empty: '話せる言語を追加すると、世界で何人に届くかがわかります。', s_langs: '言語', s_reach: 'カバー人口', s_world: '世界人口比', s_countries: 'か国', s_families: '語族', plot: '地図にプロット', clear_plot: '地図をクリア', make_img: '画像を作成', download: '保存', share: '共有', close: '閉じる', card_my: '話せる言語', card_of: '言語', card_reach: '届く人の数', card_world: '世界人口の', card_note: '延べ人数（重複あり）', card_countries: 'か国', card_families: '語族' },
-        ko: { btn: '할 수 있는 언어', title: '구사하는 언어', name_ph: '이름 (선택)', add_ph: '구사하는 언어 추가…', no_results: '일치하는 언어 없음', empty: '구사하는 언어를 추가하면 전 세계 몇 명에게 닿는지 알 수 있어요.', s_langs: '개 언어', s_reach: '도달 인구', s_world: '세계 인구 대비', s_countries: '개국', s_families: '어족', plot: '지도에 표시', clear_plot: '지도 지우기', make_img: '이미지 생성', download: '저장', share: '공유', close: '닫기', card_my: '구사하는 언어', card_of: '개 언어', card_reach: '내가 닿는 사람 수', card_world: '세계 인구의', card_note: '누적 (중복 가능)', card_countries: '개국', card_families: '어족' },
-        zh: { btn: '我会的语言', title: '我会的语言', name_ph: '你的名字（可选）', add_ph: '添加你会的语言…', no_results: '无匹配语言', empty: '添加你会的语言，看看你能触达全球多少人。', s_langs: '种语言', s_reach: '覆盖人口', s_world: '占世界人口', s_countries: '个国家', s_families: '语系', plot: '在地图上标注', clear_plot: '清除地图', make_img: '生成图片', download: '下载', share: '分享', close: '关闭', card_my: '我会的语言', card_of: '种语言', card_reach: '我能触达的人数', card_world: '占世界人口', card_note: '累计（可能重叠）', card_countries: '个国家', card_families: '语系' },
+        en: { btn: 'My languages', title: 'Languages I speak', name_ph: 'Your name (optional)', add_ph: 'Add a language you speak…', no_results: 'No matching language', empty: 'Add the languages you speak to see how many people you can reach.', s_langs: 'languages', s_reach: 'people reached', s_world: 'of the world', s_countries: 'countries', s_families: 'families', plot: 'Plot on map', clear_plot: 'Clear map', make_img: 'Create image', download: 'Download', share: 'Share', close: 'Close', folded: '≈ counted within {name}', card_my: 'My languages', card_of: 'languages', card_reach: 'people I can reach', card_world: 'of the world', card_note: 'cumulative reach — overlaps possible', card_countries: 'countries', card_families: 'families' },
+        ja: { btn: '話せる言語', title: '話せる言語', name_ph: 'お名前（任意）', add_ph: '話せる言語を追加…', no_results: '該当する言語がありません', empty: '話せる言語を追加すると、世界で何人に届くかがわかります。', s_langs: '言語', s_reach: 'カバー人口', s_world: '世界人口比', s_countries: 'か国', s_families: '語族', plot: '地図にプロット', clear_plot: '地図をクリア', make_img: '画像を作成', download: '保存', share: '共有', close: '閉じる', folded: '≈ {name}に含む', card_my: '話せる言語', card_of: '言語', card_reach: '届く人の数', card_world: '世界人口の', card_note: '延べ人数（重複あり）', card_countries: 'か国', card_families: '語族' },
+        ko: { btn: '할 수 있는 언어', title: '구사하는 언어', name_ph: '이름 (선택)', add_ph: '구사하는 언어 추가…', no_results: '일치하는 언어 없음', empty: '구사하는 언어를 추가하면 전 세계 몇 명에게 닿는지 알 수 있어요.', s_langs: '개 언어', s_reach: '도달 인구', s_world: '세계 인구 대비', s_countries: '개국', s_families: '어족', plot: '지도에 표시', clear_plot: '지도 지우기', make_img: '이미지 생성', download: '저장', share: '공유', close: '닫기', folded: '≈ {name}에 포함', card_my: '구사하는 언어', card_of: '개 언어', card_reach: '내가 닿는 사람 수', card_world: '세계 인구의', card_note: '누적 (중복 가능)', card_countries: '개국', card_families: '어족' },
+        zh: { btn: '我会的语言', title: '我会的语言', name_ph: '你的名字（可选）', add_ph: '添加你会的语言…', no_results: '无匹配语言', empty: '添加你会的语言，看看你能触达全球多少人。', s_langs: '种语言', s_reach: '覆盖人口', s_world: '占世界人口', s_countries: '个国家', s_families: '语系', plot: '在地图上标注', clear_plot: '清除地图', make_img: '生成图片', download: '下载', share: '分享', close: '关闭', folded: '≈ 已计入{name}', card_my: '我会的语言', card_of: '种语言', card_reach: '我能触达的人数', card_world: '占世界人口', card_note: '累计（可能重叠）', card_countries: '个国家', card_families: '语系' },
     };
     function ui() {
         var g = (window.__langmap && window.__langmap.uiLang) ||
             (document.getElementById('header-ui-lang') && document.getElementById('header-ui-lang').value) || 'en';
         return String(g);
     }
-    function T(k) {
+    function T(k, vars) {
         var u = ui(), base = u.split('_')[0];
         var d = STR[u] || STR[base] || STR.en;
-        return (d && d[k] != null) ? d[k] : STR.en[k];
+        var s = (d && d[k] != null) ? d[k] : STR.en[k];
+        if (vars) for (var p in vars) s = s.replace('{' + p + '}', vars[p]);
+        return s;
     }
     function nativeLabel() { var u = ui().split('_')[0]; return NATIVE[u] || NATIVE.en; }
 
@@ -126,16 +148,50 @@
         return String(n);
     }
 
+    // Deduplication: a variety and its parent (Japanese + Kansai/Osaka, English
+    // + Indian English…) must not double-count their speakers. Group codes that
+    // are the same language: by ISO 639-3 where present, else by the base name
+    // ("Japanese (Osaka)" → "Japanese"), mapping that base back to the parent's
+    // ISO so ISO-less dialects fold into the ISO-bearing parent. Okinawan
+    // ("Okinawan", ISO ryu) or Edo Japanese (ISO ojp) keep distinct keys.
+    function baseName(code) { var n = (LD()[code] || {}).name || code; return String(n).split(' (')[0].trim(); }
+    var _baseIso = null;
+    function baseIsoMap() {
+        if (_baseIso) return _baseIso;
+        _baseIso = {}; var ld = LD();
+        for (var c in ld) { var m = (ld[c] && ld[c].meta) || {}; if (m.iso6393) { var b = baseName(c); if (!_baseIso[b]) _baseIso[b] = m.iso6393; } }
+        return _baseIso;
+    }
+    function dedupKey(code) { var m = metaOf(code); return m.iso6393 || baseIsoMap()[baseName(code)] || baseName(code); }
+    // For each dedup group among the SELECTED langs, the representative is the
+    // highest-reach member; the others are "folded" (their population already
+    // counted within the representative). Returns { foldedInto: {code:repCode} }.
+    function foldInfo() {
+        var best = {};   // key -> {code, reach}
+        state.langs.forEach(function (x) {
+            var k = dedupKey(x.code), r = reachOf(x.code);
+            if (!best[k] || r > best[k].reach) best[k] = { code: x.code, reach: r };
+        });
+        var foldedInto = {};
+        state.langs.forEach(function (x) {
+            var rep = best[dedupKey(x.code)];
+            if (rep && rep.code !== x.code) foldedInto[x.code] = rep.code;
+        });
+        return { foldedInto: foldedInto };
+    }
+
     // ---- state -------------------------------------------------------------
     var state = { name: '', langs: [] };         // langs: [{code, level}]
     function hasCode(code) { return state.langs.some(function (x) { return x.code === code; }); }
     function stats() {
-        var reach = 0, countries = {}, fams = {};
+        var groups = {}, countries = {}, fams = {};
         state.langs.forEach(function (x) {
-            reach += reachOf(x.code);
+            var k = dedupKey(x.code), r = reachOf(x.code);
+            if (!(k in groups) || r > groups[k]) groups[k] = r;   // count each language once (its max variety)
             countriesOf(x.code).forEach(function (c) { countries[c] = 1; });
             var f = familyTop(x.code); if (f) fams[f] = 1;
         });
+        var reach = 0; for (var k in groups) reach += groups[k];
         return { reach: reach, langs: state.langs.length, countries: Object.keys(countries).length, families: Object.keys(fams).length,
             worldPct: reach / WORLD_POP * 100 };
     }
@@ -276,6 +332,7 @@
         if (!state.langs.length) {
             var e = el('div', 'mylang-empty'); e.textContent = T('empty'); listEl.appendChild(e); return;
         }
+        var fi = foldInfo();
         state.langs.forEach(function (item, idx) {
             var row = el('div', 'mylang-row');
             var dot = el('span', 'mylang-dot'); dot.style.color = levelColor(item.level); dot.style.background = levelColor(item.level);
@@ -293,10 +350,17 @@
                 rr.style.cssText = 'display:block;font-size:11px;line-height:1.2;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol + ';opacity:.6;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
                 nm.appendChild(rr);
             }
+            // Overlap note: this selection's speakers are already counted within
+            // another selected language (e.g. a dialect folded into its parent).
+            if (fi.foldedInto[item.code]) {
+                var fn = el('div', 'mylang-fold'); fn.textContent = T('folded', { name: displayName(fi.foldedInto[item.code]) });
+                fn.style.cssText = 'display:block;font-size:11px;line-height:1.25;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol + ';opacity:.55;overflow:hidden;text-overflow:ellipsis;white-space:nowrap';
+                nm.appendChild(fn);
+            }
             var sel = el('select', 'mylang-level');
             LEVELS.forEach(function (lv) {
                 var o = document.createElement('option'); o.value = lv.key;
-                o.textContent = lv.key === 'Native' ? nativeLabel() : lv.key;
+                o.textContent = levelOptionLabel(lv.key);
                 if (lv.key === item.level) o.selected = true;
                 sel.appendChild(o);
             });
@@ -406,6 +470,57 @@
         if (_geoPromise) return _geoPromise;
         _geoPromise = fetch(GEOJSON_URL).then(function (r) { return r.json(); }).catch(function () { return null; });
         return _geoPromise;
+    }
+
+    // ---- country distribution ---------------------------------------------
+    // A widely-spoken language (English, French, Spanish…) shouldn't sit as a
+    // single dot on its "home" city — it should scatter across the countries it
+    // is spoken in. We derive a centroid per country from the same GeoJSON the
+    // card draws, and plot a dot at each of a language's meta.countries.
+    var COUNTRY_ALIAS = {
+        'uk': 'united kingdom', 'u.k.': 'united kingdom', 'great britain': 'united kingdom',
+        'usa': 'united states of america', 'u.s.a.': 'united states of america', 'us': 'united states of america', 'u.s.': 'united states of america', 'united states': 'united states of america',
+        'uae': 'united arab emirates', 'drc': 'democratic republic of the congo', 'dr congo': 'democratic republic of the congo', 'congo-kinshasa': 'democratic republic of the congo', 'congo (kinshasa)': 'democratic republic of the congo', 'congo-brazzaville': 'republic of congo', 'republic of the congo': 'republic of congo',
+        'ivory coast': "côte d'ivoire", 'czech republic': 'czechia', 'burma': 'myanmar', 'east timor': 'timor-leste', 'cape verde': 'cabo verde', 'swaziland': 'eswatini', 'macedonia': 'north macedonia', 'south korea': 'south korea', 'north korea': 'north korea', 'russia': 'russia', 'tanzania': 'united republic of tanzania', 'laos': 'laos', 'syria': 'syria', 'bolivia': 'bolivia', 'iran': 'iran', 'vietnam': 'vietnam', 'brunei': 'brunei', 'moldova': 'moldova',
+    };
+    var _cents = null;
+    function ringCentroid(ring) {
+        var a = 0, cx = 0, cy = 0;
+        for (var i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+            var x0 = ring[j][0], y0 = ring[j][1], x1 = ring[i][0], y1 = ring[i][1];
+            var f = x0 * y1 - x1 * y0; a += f; cx += (x0 + x1) * f; cy += (y0 + y1) * f;
+        }
+        if (Math.abs(a) < 1e-9) { var sx = 0, sy = 0; ring.forEach(function (p) { sx += p[0]; sy += p[1]; }); return [sx / ring.length, sy / ring.length]; }
+        return [cx / (3 * a), cy / (3 * a)];
+    }
+    function ringBBoxArea(ring) { var a = 1e9, b = 1e9, c = -1e9, d = -1e9; ring.forEach(function (p) { if (p[0] < a) a = p[0]; if (p[0] > c) c = p[0]; if (p[1] < b) b = p[1]; if (p[1] > d) d = p[1]; }); return (c - a) * (d - b); }
+    function buildCentroids(geo) {
+        if (_cents) return _cents;
+        _cents = {};
+        if (!geo || !geo.features) return _cents;
+        geo.features.forEach(function (f) {
+            var nm = f.properties && f.properties.name; var gm = f.geometry; if (!nm || !gm) return;
+            var polys = gm.type === 'Polygon' ? [gm.coordinates] : gm.type === 'MultiPolygon' ? gm.coordinates : [];
+            var best = null, bestA = -1;
+            polys.forEach(function (poly) { var r = poly[0]; if (!r) return; var ar = ringBBoxArea(r); if (ar > bestA) { bestA = ar; best = r; } });
+            if (!best) return;
+            var c = ringCentroid(best);
+            _cents[String(nm).toLowerCase()] = { lng: c[0], lat: c[1] };
+        });
+        return _cents;
+    }
+    function countryPoint(token, cents) {
+        var t = String(token).toLowerCase().trim();
+        return cents[COUNTRY_ALIAS[t] || t] || cents[t] || null;
+    }
+    // Where to draw a language: its countries' centroids when it spans 2+, else
+    // its precise home coordinate (so localized dialects stay put).
+    function pointsForLang(code, cents) {
+        var l = LD()[code] || {}, pts = [];
+        countriesOf(code).forEach(function (name) { var p = countryPoint(name, cents); if (p) pts.push(p); });
+        if (pts.length >= 2) return pts.slice(0, 16);
+        if (typeof l.lat === 'number' && typeof l.lng === 'number') return [{ lng: l.lng, lat: l.lat }];
+        return pts;
     }
 
     // ---- share card (canvas) ----------------------------------------------
@@ -534,12 +649,16 @@
                 for (var la = -60; la <= 60; la += 30) { var yy = mapY + mapH * (0.5 - la / 180); g.beginPath(); g.moveTo(mapX, yy); g.lineTo(mapX + mapW, yy); g.stroke(); }
                 for (var lo = -150; lo <= 150; lo += 30) { var xx = mapX + mapW * (0.5 + lo / 360); g.beginPath(); g.moveTo(xx, mapY); g.lineTo(xx, mapY + mapH); g.stroke(); }
             }
-            // language dots (glow)
+            // language dots (glow) — one per country for widely-spoken langs,
+            // else at the language's home coordinate.
+            var cents = buildCentroids(geo);
             var pts = [];
             state.langs.forEach(function (item) {
-                var l = LD()[item.code]; if (!l || typeof l.lat !== 'number' || typeof l.lng !== 'number') return;
-                var p = proj ? proj(l.lng, l.lat, { width: mapW }) : { x: mapW * (0.5 + l.lng / 360), y: mapH * (0.5 - l.lat / 180) };
-                pts.push({ x: mapX + p.x, y: mapY + p.y, color: levelColor(item.level), code: item.code, rank: levelRank(item.level) });
+                var col = levelColor(item.level), rank = levelRank(item.level);
+                pointsForLang(item.code, cents).forEach(function (loc) {
+                    var p = proj ? proj(loc.lng, loc.lat, { width: mapW }) : { x: mapW * (0.5 + loc.lng / 360), y: mapH * (0.5 - loc.lat / 180) };
+                    pts.push({ x: mapX + p.x, y: mapY + p.y, color: col, code: item.code, rank: rank });
+                });
             });
             pts.forEach(function (pt) {
                 var glow = g.createRadialGradient(pt.x, pt.y, 0, pt.x, pt.y, 26);

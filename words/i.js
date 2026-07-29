@@ -225,7 +225,7 @@ WORDS.i = {
       jpr: ["מן", "man"],
       prs: ["من", "man"],
       trm: ["e", "e"],
-      sw: ["mimi", "miˈmi"],
+      sw: ["mimi", "ˈmimi"],
       suk: ["nene", "ˈnene"],
       nym: ["nene", "ˈnene"],
       rim: ["une", "une"],

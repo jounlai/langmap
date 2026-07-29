@@ -940,7 +940,7 @@ WORDS.name = {
       lbz: ["wangalk", "waŋalk"],
       lbz_damin: ["m!ii", "m͡ʘiː"],
       nny: ["warra", "wara"],
-      kky: ["yindu", "jindu"],
+      kky: ["gadil", "ˈkatil"],
       guc: ["anülia", "anɨlia"],
       mch: ["eesedi", "eːsedi"],
       wba: ["wai", "wai"],

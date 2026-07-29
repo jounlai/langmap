@@ -162,7 +162,7 @@ WORDS.star = {
       en_us: ["star", "stɑɹ"],
       en_ca: ["star", "stɑɹ"],
       en_za: ["star", "stɑː"],
-      de_ch: ["Stärn", "ʃtæːrn"],
+      de_ch: ["Stern", "ʃtɛrn"],
       pt_ao: ["estrela", "ɨʃˈtɾelɐ"],
       es_ve: ["estrella", "ehˈtɾeʝa"],
       ca_va: ["estrella", "esˈtɾeʎa"],

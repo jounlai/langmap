@@ -336,20 +336,21 @@
             // Name (native + romanized, inline). Colours set INLINE so no page CSS
             // cascade can hide it; nowrap+ellipsis keeps it to one line.
             var nm = el('div', 'mylang-row-name');
-            nm.style.cssText = 'overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
-            var nat = el('span', 'mylang-native'); nat.textContent = displayName(item.code);
-            nat.style.cssText = 'font-size:14px;font-weight:700;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
+            nm.style.cssText = 'overflow:hidden;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
+            // Line 1: native (original-script) name. Line 2: romanized/English.
+            var nat = el('div', 'mylang-native'); nat.textContent = displayName(item.code);
+            nat.style.cssText = 'display:block;font-size:14px;font-weight:700;line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
             nm.appendChild(nat);
             var rom = romanName(item.code);
             if (rom && rom !== displayName(item.code)) {
-                var rr = el('span', 'mylang-rom'); rr.textContent = ' ' + rom;
-                rr.style.cssText = 'font-size:11px;opacity:.6;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
+                var rr = el('div', 'mylang-rom'); rr.textContent = rom;
+                rr.style.cssText = 'display:block;font-size:11px;line-height:1.2;opacity:.6;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
                 nm.appendChild(rr);
             }
-            // Overlap note (dialect folded into its parent), appended inline.
+            // Overlap note (dialect folded into its parent), on its own line.
             if (fi.foldedInto[item.code]) {
-                var fn = el('span', 'mylang-fold'); fn.textContent = '  ' + T('folded', { name: displayName(fi.foldedInto[item.code]) });
-                fn.style.cssText = 'font-size:10px;opacity:.5;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
+                var fn = el('div', 'mylang-fold'); fn.textContent = T('folded', { name: displayName(fi.foldedInto[item.code]) });
+                fn.style.cssText = 'display:block;font-size:10px;line-height:1.2;opacity:.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
                 nm.appendChild(fn);
             }
             var sel = el('select', 'mylang-level');

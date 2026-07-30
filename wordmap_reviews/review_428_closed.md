@@ -56,9 +56,11 @@ Workflow: 祖語ごとに1エージェント＝辛口の歴史言語学レビュ
 - **pafa period「100–75cBCE」を"破損"とした指摘**: 本アトラスは世紀BCE表記で 100cBCE=1万年前を
   意図的に許容（PERIOD_MIN_IDX=-100）。フィールド形式は正しい。→ 不採用。
 
-### 記述 (description) の事実誤り・誇張（英語＋18言語の書き換えが必要なため次フェーズ）
-以下は CONFIRMED だが、description が19言語で保持されているため、英語修正＋翻訳伝播を
-まとめて行う「記述フェーズ」で対応する:
+### 記述 (description) の事実誤り・誇張 — 【記述フェーズで適用済み】
+14祖語 × 19言語の記述を Workflow で修正（確定修正のみ最小限適用→JSON.stringify で
+安全に差し替え、既存訳は保持）。あわせて pjk `speakers`（Bronze Age→Neolithic〜早期
+青銅器）と ptg `countries`（eastern Siberia 削除→middle Amur basin）フィールドも修正。
+対象と内容:
 - **paus**: Dempwolff を Formosan ベース再構と誤記（実際は Malayo-Polynesian ベース。Formosan
   重視は Dyen/Blust 以降）。
 - **ine**: 「schwa indogermanicum」を Schleicher に誤帰属（実際は Brugmann/青年文法学派。Schleicher

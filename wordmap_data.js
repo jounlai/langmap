@@ -534,7 +534,7 @@ const LANG_DATA = {
 },
   // Rwa (North Pare) — Bantu E.301 Pare cluster, ~140K speakers, Tanzania (Mwanga / Same districts, North Pare mountains).
   // Sources: Ethnologue 27 'rwk'; Glottolog rwac1239; Mreta (1998) Rwa grammar; Schadeberg/Sebonego (2010).
-  rwk: { name: 'Rwa', native: 'Kirwa', lat: -3.65, lng: 37.75, // Mwanga district, Kilimanjaro Region
+  rwk: { name: 'Rwa', native: 'Kirwa', lat: -3.35, lng: 36.75, // Mwanga district, Kilimanjaro Region
 },
   // Asu (Pare, Chasu) — Bantu E.31 (sister to rwk Rwa within Pare cluster), ~500K, Tanzania (Kilimanjaro Region — South Pare mountains, Same District).
   // Sources: Ethnologue 27 'asu'; Glottolog pare1247; Mreta (1998) Asu phonology and grammar.
@@ -1163,7 +1163,7 @@ const LANG_DATA = {
 },
   // Degema — Niger-Congo Edoid (Delta-Edoid sub-branch, sister to Engenni and Epie), ~25K, Nigeria (Rivers State — Bonny Local Government Area).
   // Sources: Ethnologue 27 'dge'; Glottolog dege1246; Kari (2004) A Reference Grammar of Degema; Williamson (1989).
-  dge: { name: 'Degema', native: 'Atala-mọ', lat: 4.45, lng: 7.18, // Bonny, Rivers State, Nigeria
+  dge: { name: 'Degema', native: 'Atala-mọ', lat: 4.75, lng: 6.75, // Bonny, Rivers State, Nigeria
 },
   // Yekhee (Etsako, formerly Etsako proper) — Niger-Congo Edoid (North-Central, sister to bin Edo and other Edoid; Yekhee cluster includes Auchi, Avianwu, Uzairue), ~660K, Nigeria (Edo State — Etsako).
   // Sources: Ethnologue 27 'ets'; Glottolog yekh1235; Williamson (1989) Niger-Congo classification.
@@ -1722,7 +1722,7 @@ const LANG_DATA = {
 },
   sux: { name: 'Sumerian', native: '𒅴𒂠', lat: 30.96, lng: 46.1 },
   akk: { name: 'Akkadian', native: '𒀝𒅗𒁺𒌝', lat: 33.34, lng: 44.4 },
-  hit: { name: 'Hittite', native: '𒉈𒅆𒇷', lat: 39.93, lng: 32.86 },
+  hit: { name: 'Hittite', native: '𒉈𒅆𒇷', lat: 40.02, lng: 34.61 },
   nci: { name: 'Classical Nahuatl', native: 'Nāhuatl', lat: 19.43, lng: -99.13,
 },
   // Isthmus-Cosoleacaque Nahuatl (also Mecayapan-Pajapan Nahuatl) — Uto-Aztecan Nahuan, ~25K, Mexico (Veracruz — Cosoleacaque, Pajapan, Mecayapan in the Isthmus of Tehuantepec).
@@ -1757,7 +1757,7 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'crn'; Glottolog cora1260; Casad (1984) Cora.
   crn: { name: 'Cora', native: 'Naáyarite', lat: 22.13, lng: -104.93, // Jesús María, Nayarit
 },
-  myn: { name: 'Classical Maya', native: 'Maaya Tzij', lat: 14.63, lng: -90.51,
+  myn: { name: 'Classical Maya', native: 'Maaya Tzij', lat: 17.22, lng: -89.62,
 },
   ine: { name: 'Proto-Indo-European', native: 'Proto-Indo-European', lat: 47.00, lng: 39.00,
 },
@@ -4132,7 +4132,7 @@ const LANG_DATA = {
 },
   bej: { name: 'Beja', native: 'Bidhaawyeet', lat: 19.62, lng: 37.22, // Port Sudan
 },
-  tig: { name: 'Tigre', native: 'ትግረ', lat: 15.78, lng: 38.45, // Keren
+  tig: { name: 'Tigre', native: 'ትግረ', lat: 16.3, lng: 37.8, // Keren
 },
   // Blin/Bilen — Cushitic Agaw, Eritrea (Audit Task 150 Batch G).
   // Eritrea's only Agaw branch language. Sandgren (1991) + EMoE materials.
@@ -5001,7 +5001,7 @@ const LANG_DATA = {
 },
   pot: { name: 'Potawatomi', native: 'Bodéwadmimwen', lat: 39.04, lng: -95.74,
 },
-  uun: { name: 'Kulon-Pazeh', native: 'Pazeh', lat: 24.27, lng: 120.95,
+  uun: { name: 'Kulon-Pazeh', native: 'Pazeh', lat: 23.97, lng: 120.97,
 },
   wch: { name: 'Wichita', native: 'Kirikirʔis', lat: 35.05, lng: -98.4,
 },

@@ -83,7 +83,7 @@ Total: 1138 codes.
 | `atj` | Atikamekw | アティカメク語 | Algic | ~6–7K |
 | `av` | Avar | アヴァル語 | NE Caucasian (Avar-Andic) | ~1M |
 | `ave` | Avestan | アヴェスター語 | Indo-European (Iranian, Old, Eastern) | Extinct as L1 |
-| `awa` | Awadhi | アワディー語 | Indo-European (Eastern Indo-Aryan, Hindi belt) | ~38M |
+| `awa` | Awadhi | アワディー語 | Indo-European (Indo-Aryan, Central zone — Eastern Hindi) | ~38M |
 | `ay` | Aymara | アイマラ語 | Aymaran | ~2M |
 | `ayl` | Libyan Arabic | リビア・アラビア語 | Afro-Asiatic (Semitic) | ~4.2–5M (Libya + diaspora) |
 | `az` | Azerbaijani | アゼルバイジャン語 | Turkic | ~25M |
@@ -135,7 +135,7 @@ Total: 1138 codes.
 | `brx` | Bodo | ボド語 | Sino-Tibetan (Tibeto-Burman, Bodo-Garo) | ~1.5M |
 | `bs` | Bosnian | ボスニア語 | Indo-European (South Slavic, Western) | ~2.5M |
 | `bsk` | Burushaski | ブルシャスキー語 | Language isolate | ~100K |
-| `bsq` | Bassa | バサ語 | Niger-Congo (Atlantic-Congo, Kru, Eastern, Bassa-Nyabua subgroup) | ~600K |
+| `bsq` | Bassa | バサ語 | Niger-Congo (Atlantic-Congo, Kru, Western, Bassa) | ~600K |
 | `bto` | Iriga Bicolano | イリガ・ビコラノ語 | Austronesian | ~250K |
 | `bts` | Simalungun Batak | シマルングン・バタク語 | Austronesian | ~1.2M |
 | `bua` | Buryat language | ブリヤート語 | Mongolic | ~440K |
@@ -474,7 +474,7 @@ Total: 1138 codes.
 | `jya` | Situ rGyalrong | シトゥ・ルギャルロン語 | Sino-Tibetan (Gyalrongic) | ~85–100K |
 | `ka` | Georgian | ジョージア語 | Kartvelian | ~3.7M |
 | `kaa` | Karakalpak | カラカルパク語 | Turkic (Kipchak) | ~600K |
-| `kab` | Kabyle | カビル語 | Afro-Asiatic (Berber, Northern, Zenati) | ~6M |
+| `kab` | Kabyle | カビル語 | Afro-Asiatic (Berber, Northern) | ~6M |
 | `kac` | Jingpo (Kachin) | ジンポー語(カチン) | Sino-Tibetan (Sal, Jingpho) | ~900K |
 | `kam` | Kamba | カンバ語 | Atlantic-Congo (Bantu, Kamba-Kikuyu) | ~4M |
 | `kao` | Xaasongaxango | カソンケ語 | Niger-Congo | ~120–150K |
@@ -585,11 +585,11 @@ Total: 1138 codes.
 | `lo` | Lao | ラオ語 | Kra-Dai | ~7M |
 | `lol` | Mongo | モンゴ語 | Atlantic-Congo (Bantu, Mongo) | ~400–500K |
 | `loz` | Lozi | ロズィ語 | Atlantic-Congo (Bantu, Sotho-Tswana) | ~750K |
-| `lrc` | Lurish | ロル語 | Iranian (Northwestern) | ~5M |
+| `lrc` | Lurish | ロル語 | Iranian (Southwestern) | ~5M |
 | `lrr` | Southern Luri | 南ロル語 | Indo-European (Iranian — Southwestern, Luri-Bakhtiari) | ~1M |
 | `lt` | Lithuanian | リトアニア語 | Baltic | ~3M |
 | `lua` | Luba-Kasai | ルバ・カサイ語 | Atlantic-Congo (Bantu) | ~6M |
-| `lue` | Luvale | ルヴァレ語 | Atlantic-Congo (Bantu, Luyana) | ~600K |
+| `lue` | Luvale | ルヴァレ語 | Atlantic-Congo (Bantu, Chokwe-Luchazi / K.10 group) | ~600K |
 | `luo` | Luo | ルオ語 | Nilo-Saharan (Western Nilotic) | ~4M |
 | `lus` | Mizo | ミゾ語 | Sino-Tibetan (Tibeto-Burman, Kuki-Chin) | ~830K |
 | `luy` | Luhya | ルヒヤ語 | Atlantic-Congo (Bantu) | ~6M |
@@ -599,9 +599,9 @@ Total: 1138 codes.
 | `lzz` | Laz | ラズ語 | Kartvelian | ~150K |
 | `mad` | Madurese | マドゥラ語 | Austronesian (Malayo-Polynesian) | ~7M |
 | `mag` | Magahi | マガヒー語 | Indo-Aryan (Eastern, Bihari) | ~18M |
-| `mai` | Maithili | マイティリー語 | Indo-Aryan | ~40M |
+| `mai` | Maithili | マイティリー語 | Indo-Aryan | ~34M |
 | `mak` | Makassarese | マカッサル語 | Austronesian (South Sulawesi) | ~2M |
-| `mam` | Mam | マム語 | Mayan (Quichean) | ~530K |
+| `mam` | Mam | マム語 | Mayan (Mamean, Greater Mamean) | ~530K |
 | `mas` | Maasai | マサイ語 | Nilo-Saharan (Eastern Nilotic, Maa) | ~1.5M |
 | `maw` | Mampruli | マンプルリ語 | Niger-Congo | ~330K |
 | `max` | North Moluccan Malay | 北モルッカ・マレー語 | Austronesian | ~700K L1 + ~1M L2 |
@@ -863,7 +863,7 @@ Total: 1138 codes.
 | `ruq` | Megleno-Romanian | メグレノ・ルーマニア語 | Indo-European | ~5K (severely endangered) |
 | `rut` | Rutul | ルトゥル語 | NE Caucasian (Lezgic, Tsakhur-Rutul subgroup) | ~30K |
 | `rw` | Kinyarwanda | キニヤルワンダ語 | Bantu | ~13M |
-| `rwk` | Rwa | ルワ語 | Atlantic-Congo | ~140K |
+| `rwk` | Rwa | ルワ語 | Atlantic-Congo | ~190–200K |
 | `sa` | Sanskrit | サンスクリット語 | Indo-European (Indo-Aryan, Old) | ~25K (fluent) |
 | `sa_edu` | Modern Spoken Sanskrit | 現代会話サンスクリット | Indo-European (Indo-Aryan; Modern Spoken Sanskrit pedagogy) | ~25K L1 self-claimed + tens of thousands L2 learners |
 | `sad` | Sandawe | サンダウェ語 | Khoisan (proposed isolate or with Hadza) | ~60K |
@@ -893,7 +893,7 @@ Total: 1138 codes.
 | `shy` | Shawiya | シャウィヤ語 | Afro-Asiatic | ~2M (vibrant) |
 | `si` | Sinhala | シンハラ語 | Indo-Aryan | ~17M |
 | `sid` | Sidamo | シダモ語 | Afro-Asiatic (Cushitic, Highland East) | ~3M |
-| `sik` | Sikkimese | シッキム語 | Sino-Tibetan (Tibeto-Burman, Bodish, Tibetic, Central, Sikkimese-Bumthang) | ~70K |
+| `sik` | Sikkimese | シッキム語 | Sino-Tibetan (Tibeto-Burman, Bodish, Tibetic, Southern/Central Tibetic) | ~70K |
 | `sjd` | Kildin Sámi | キルディン・サーミ語 | Uralic (Sami, Eastern, Kola Sami) | ~340 |
 | `sjo` | Sibe | シベ語 (錫伯語) | Tungusic (Manchu-Nanai, Manchu — sister/dialect of Manchu) | ~30K |
 | `sk` | Slovak | スロバキア語 | Slavic | ~5.2M |

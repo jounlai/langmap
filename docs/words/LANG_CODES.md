@@ -17,7 +17,7 @@ Total: 1138 codes.
 | `acf` | Saint Lucian Creole | セントルシア・クレオール語 | French creole | ~168K (Saint Lucia) |
 | `ach` | Acholi | アチョリ語 | Nilo-Saharan (Eastern Sudanic, Nilotic, Western Nilotic, Southern Luo) | ~1.5M |
 | `acu` | Achuar | アチュアル語 | Jivaroan | ~5K (Peru ~3K + Ecuador ~2K) |
-| `acw` | Omani Arabic (Hijazi-Omani) | オマーンアラビア語 | Afro-Asiatic (Semitic) | ~2–3M (Oman) |
+| `acw` | Omani Arabic (Hijazi-Omani) | オマーンアラビア語 | Afro-Asiatic (Semitic) | ~11M (Hejaz, Saudi Arabia) |
 | `ada` | Adangme | アダンメ語 | Atlantic-Congo (Volta-Niger, Kwa, Ga-Adangme) | ~1M |
 | `adi` | Adi | アディ語 | Sino-Tibetan (Tibeto-Burman, Tani, Western) | ~250K |
 | `adt` | Adnyamathanha | アドニャマザンハ語 | Pama-Nyungan | ~10 fluent + ~150 partial speakers |
@@ -370,7 +370,7 @@ Total: 1138 codes.
 | `gmy` | Mycenaean Greek | ミケーネ・ギリシャ語 | Indo-European (Hellenic, pre-classical) | Extinct (~1450-1200 BCE) |
 | `gn` | Guaraní | グアラニー語 | Tupian | ~6.5M |
 | `goh` | Old High German | 古高ドイツ語 | Indo-European (Germanic, West) | Extinct (~750-1050 CE) |
-| `gon` | Gondi | ゴンド語 | Dravidian (Central) | ~2.7–3M L1 (highly endangered) |
+| `gon` | Gondi | ゴンド語 | Dravidian (South-Central) | ~2.7–3M L1 (highly endangered) |
 | `gor` | Gorontalo | ゴロンタロ語 | Austronesian (Philippine, Gorontalo-Mongondow) | ~1M |
 | `got` | Gothic | ゴート語 | Indo-European (Germanic, East) | Extinct |
 | `grt` | Garo | ガロ語 | Sino-Tibetan (Tibeto-Burman, Bodo-Garo) | ~1M |
@@ -500,7 +500,7 @@ Total: 1138 codes.
 | `kho` | Khotanese | コータン語 | Indo-European (Iranian, Middle, Eastern, Saka) | Extinct (~5th-10th c. CE) |
 | `khq` | Koyra Chiini | コイラ・チーニ語 | Songhai | ~200–220K |
 | `khv` | Khvarshi | フヴァルシ語 | NE Caucasian (Tsezic, West Tsezic) | ~1.7K |
-| `khw` | Khowar | コホワール語 | Indo-European (Indo-Iranian, Dardic) | ~50–80K (Chitral) |
+| `khw` | Khowar | コホワール語 | Indo-European (Indo-Iranian, Dardic) | ~300–380K |
 | `ki` | Kikuyu | キクユ語 | Atlantic-Congo (Bantu) | ~7M |
 | `kio` | Kiowa | カイオワ語 | Kiowa-Tanoan | ~50 (critically endangered) |
 | `kj` | Kuanyama | クワニヤマ語 | Atlantic-Congo (Bantu, Oshiwambo) | ~280K |
@@ -839,7 +839,7 @@ Total: 1138 codes.
 | `quy` | Ayacucho Quechua | アヤクーチョ・ケチュア語 | Quechuan (Southern, Chanka) | ~900K |
 | `quz` | Cusco Quechua | クスコ・ケチュア語 | Quechuan (Southern, Cuzco-Collao) | ~1.5M |
 | `qxq` | Qashqai | カシュガイ語 | Turkic (Oghuz, South Oghuz) | ~1.5M |
-| `qxs` | Southern Qiang | 南川チャン語 | Sino-Tibetan (Qiangic) | ~0.8–1.5K |
+| `qxs` | Southern Qiang | 南川チャン語 | Sino-Tibetan (Qiangic) | ~80–100K |
 | `rap` | Rapanui | ラパ・ヌイ語 | Austronesian (Polynesian, Eastern) | ~3.5K |
 | `rar` | Cook Islands Māori | クック諸島マオリ語 | Austronesian (Polynesian, Tahitic) | ~13K |
 | `rcf` | Réunion Creole | レユニオン・クレオール | French-based creole | ~600K |
@@ -1117,7 +1117,7 @@ Total: 1138 codes.
 | `yuy` | Eastern Yugur | 東ユグル語 | Mongolic | ~2.5K |
 | `za` | Zhuang | チワン語 | Kra-Dai | ~16M |
 | `zap` | Zapotec | サポテコ語 | Oto-Manguean (Zapotecan) | ~440K (macrolanguage) |
-| `zdj` | Comorian (Shikomori) | コモロ語（シコモリ） | Niger-Congo (Bantu, Sabaki) | ~800K (Comoros) + ~300K (Mayotte) |
+| `zdj` | Comorian (Shikomori) | コモロ語（シコモリ） | Niger-Congo (Bantu, Sabaki) | ~800K (Grande Comore, Comoros) |
 | `zh` | Chinese (Mandarin) | 中国語(普通話) | Sinitic (Mandarin) | ~920M |
 | `zh_cd` | Chengdu Mandarin | 成都官話 | Sinitic (Mandarin, Southwestern — Cheng-Yu) | ~20M (Chengdu city + plain) |
 | `zh_cq` | Chongqing Mandarin | 重慶官話 | Sinitic (Mandarin, Southwestern / Cheng-Yu cluster) | ~30M (Chongqing + eastern Sichuan) |

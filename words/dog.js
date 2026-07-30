@@ -572,7 +572,7 @@ WORDS.dog = {
     es_cu: ["perro", "pero"],
     es_pe: ["perro", "pero"],
     es_an: ["perro", "pero"],
-    lad: ["pero", "pero"],
+    lad: ["perro", "pero"],
     rm: ["chaun", "tʃawn"],
     sc: ["cane", "kane"],
     iu: ["ᕿᒻᒥᖅ", "qimːiq"],

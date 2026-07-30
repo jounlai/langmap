@@ -444,7 +444,7 @@ WORDS.cat = {
     kea: ["gatu", "ɡatu"],
     rom: ["mačka", "matʃka"],
     rmy: ["mačka", "matʃka"],
-    rmf: ["baari mačka", "baːri matʃka"],
+    rmf: ["mačka", "matʃka"],
     pcm: ["pus", "pus"],
     tpi: ["pusi", "pusi"],
     ho: ["pusi", "pusi"],

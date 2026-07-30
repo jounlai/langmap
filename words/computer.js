@@ -120,7 +120,7 @@ WORDS.computer = {
     "ee": ["kɔmputa", "kɔmputa"],
     "el": ["υπολογιστής", "ipoloʝiˈstis"],
     "el_grc": ["ἄβαξ", "á.baks"],
-    "el_kath": ["υπολογιστής", "ipoloʝiˈstis"],
+    "el_kath": ["ὑπολογιστής", "ipoloʝiˈstis"],
     "eml": ["computer", "komˈpjuter"],
     "en": ["computer", "kəmˈpjuːtə"],
     "en_aave": ["computer", "kəmˈpjuːɾə"],

@@ -94,7 +94,7 @@ WORDS.cuckoo = {
     "bgc": ["कोयल", "koːjal"],
     "bho": ["कोइलि", "koili"],
     "bjn": ["bubut", "ˈbubut"],
-    "bn": ["পাতি পাপিয়া", "pat̪i papija"],
+    "bn": ["কোকিল", "koːkil"],
     "bo": ["ཁུ་བྱུག", "kʰú tɕúʔ"],
     "br": ["koukoug", "ˈkukuk"],
     "bra": ["कोयल", "koːjal"],

@@ -158,7 +158,7 @@ WORDS.dopamine = {
     "su": ["dopamin", "dopaˈmin"],
     "ta": ["டோபமைன்", "ʈoːpəmaɪn"],
     "te": ["డోపమైన్", "ɖoːpəmaɪn"],
-    "tg": ["Дофамин", "dɔfaˈmin"],
+    "tg": ["дофамин", "dɔfaˈmin"],
     "th": ["โดพามีน", "doː˧ pʰaː˧ miːn˧"],
     "tl": ["dopamino", "dopaˈmino"],
     "tt": ["Дофамин", "dofaˈmin"],

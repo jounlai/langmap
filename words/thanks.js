@@ -87,7 +87,7 @@ WORDS.thanks = {
       cic: ["chokma'shki", "tʃokmaʔʃgi"],
       ik: ["quyanaq", "qujanaq"],
       na: ["tubwa kor", "tubwa kor"],
-      luz: ["تشکر", "tʃɑkər"],
+      luz: ["تشکر", "tæʃæˈkːor"],
       es_bo: ["gracias", "ɡɾasjas"],
       es_py: ["gracias", "ˈɡɾasjas"],
       es_pa: ["gracias", "ɡɾasjas"],

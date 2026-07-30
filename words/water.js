@@ -590,7 +590,7 @@ WORDS.water = {
     enm: ["water", "watər"],
     en_em: ["water", "ˈwætər"],
     ang: ["wæter", "wæter"],
-    ofs: ["wetir", "vetiɾ"],
+    ofs: ["wetir", "wetir"],
     non: ["vatn", "vɑtn"],
     got: ["𐍅𐌰𐍄𐍉", "wɑtoː"],
     cu: ["вода", "vodɑ"],

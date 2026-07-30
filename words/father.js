@@ -775,7 +775,7 @@ WORDS.father = {
     pjt: ["mama", "mama"],
     wbp: ["kirda", "kiɖa"],
     piu: ["mama", "mama"],
-    aer: ["arrweke", "arʷəkə"],
+    aer: ["akngeye", "akŋɛjə"],
     nha: ["kuthurra", "kutʰuɻa"],
     olg: ["kaba", "kaba"],
     adt: ["arndu", "aɳɖu"],

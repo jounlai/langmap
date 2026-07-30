@@ -779,7 +779,7 @@ WORDS.name = {
       nha: ["yini", "jini"],
       olg: ["ukal", "ukal"],
       adt: ["mityi", "mici"],
-      nys: ["kwerl", "kwɛrl"],
+      nys: ["kwerl", "kwɛɻl"],
       xul: ["yini", "jini"],
       wbt: ["yini", "jini"],
       mni: ["ꯃꯤꯡ", "miŋ"],

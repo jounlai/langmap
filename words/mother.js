@@ -781,7 +781,7 @@ WORDS.mother = {
     pjt: ["ngunytju", "ŋuɲcu"],
     wbp: ["ngati", "ŋati"],
     piu: ["ngunytju", "ŋuɲcu"],
-    aer: ["mama", "mama"],
+    aer: ["meye", "mɛjə"],
     nha: ["ngamaji", "ŋamadʒi"],
     olg: ["ngangi", "ŋaŋi"],
     adt: ["nyangka", "ɲaŋka"],

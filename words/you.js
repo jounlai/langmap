@@ -1152,7 +1152,7 @@ WORDS.you = {
       kjp: ["နါ", "nə˧"],
       kac: ["nang", "naŋ"],
       wbm: ["maix", "maɯ"],
-      pll: ["miʔ", "mɛʔ"],
+      pll: ["miʔ", "miʔ"],
       ahk: ["naw", "nɔ˧"],
       dtp: ["ika", "ika"],
       hne: ["तँय", "tə̃j"],

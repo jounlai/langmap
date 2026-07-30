@@ -772,7 +772,7 @@ WORDS.two = {
       tet: ["rua", "ˈrua"],
       aoz: ["nua", "ˈnua"],
       bi: ["tu", "tu"],
-      pjt: ["kutjara", "kucaɾa"],
+      pjt: ["kutjara", "kucaɻa"],
       wbp: ["jirrama", "ɟiɾama"],
       piu: ["kutjarra", "kucaɾa"],
       aer: ["atherre", "aˈt̪ərə"],

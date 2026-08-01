@@ -241,7 +241,20 @@
         for (var c in ld) { var m = (ld[c] && ld[c].meta) || {}; if (m.iso6393) { var b = baseName(c); if (!_baseIso[b]) _baseIso[b] = m.iso6393; } }
         return _baseIso;
     }
-    function dedupKey(code) { var m = metaOf(code); return m.iso6393 || baseIsoMap()[baseName(code)] || baseName(code); }
+    // Pluricentric languages: regional standard varieties (fr_lu, en_in, es_mx,
+    // pt_br…) are mutually intelligible with their parent, so they must fold into
+    // one group and not multiply reach — "if you speak French you already reach
+    // African/Belgian/Quebec French". Many such variety codes lack an explicit
+    // iso6393, so fold them by code prefix. Excludes Arabic (ar_*: its "dialects"
+    // are distinct ISO languages) and Chinese (zh_*: already grouped via iso).
+    var PLURI = { fr: 'fra', en: 'eng', es: 'spa', pt: 'por', de: 'deu', nl: 'nld', it: 'ita' };
+    function dedupKey(code) {
+        var m = metaOf(code);
+        if (m.iso6393) return m.iso6393;
+        var pre = code.split('_')[0];
+        if (PLURI[pre] && code.indexOf('_') > 0) return PLURI[pre];
+        return baseIsoMap()[baseName(code)] || baseName(code);
+    }
     // For each dedup group among the SELECTED langs, the representative is the
     // highest-reach member; the others are "folded" (their population already
     // counted within the representative). Returns { foldedInto: {code:repCode} }.

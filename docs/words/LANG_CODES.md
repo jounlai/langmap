@@ -339,7 +339,7 @@ Total: 1138 codes.
 | `fr_class` | Classical French (17c., Bel Usage) | 古典フランス語(17世紀) | Indo-European (Italic, Romance, Gallo-Romance, Northern French; Classical 17c.) | Historical literary form (~1650–1715 CE, Grand Siècle); pedagogical use |
 | `fr_cm` | Cameroonian French | カメルーンフランス語 | Romance | ~12M (Cameroon) |
 | `fr_ht` | French (Haitian) | フランス語(ハイチ) | Romance | ~4.5M |
-| `fr_lu` | French | フランス語 | Romance | ~81–112M L1 + ~300–400M total |
+| `fr_lu` | French | フランス語 | Romance | ~0.5M (Luxembourg) |
 | `fr_qc` | French (Québec) | フランス語(ケベック) | Indo-European (Romance, Gallo-Romance, Northern French) | ~7M |
 | `fr_sn` | French (Senegalese) | フランス語(セネガル) | Romance | ~5M |
 | `fra_jer` | Jèrriais | ジェリエ語 | Indo-European (Romance > Oïl > Norman) | ~1K (severely endangered) |

@@ -134,6 +134,30 @@
         var names = LN[u] || LN[base] || LN.en || {};
         return names[code] || romanName(code);
     }
+    // Some localized names are shared by two codes — regional variants whose
+    // qualifier is missing (fr_lu vs fr) or genuine duplicate entries (ono/onn).
+    // dispName() keeps the plain localized name when it is unique, and appends a
+    // distinguisher (primary country, else the code) only when it would collide,
+    // so the picker never shows two identical rows. Memoized per UI language.
+    var _dispMemo = null, _dispUi = null;
+    function buildDisp() {
+        var u = ui(); if (_dispMemo && _dispUi === u) return _dispMemo;
+        var ld = LD(), byName = {};
+        for (var c in ld) { var n = localName(c); (byName[n] = byName[n] || []).push(c); }
+        var out = {};
+        for (var name in byName) {
+            var group = byName[name];
+            if (group.length < 2) { out[group[0]] = name; continue; }
+            var countries = group.map(primaryCountry);
+            var uniqueCountry = countries.every(function (x, i) { return x && countries.indexOf(x) === i; });
+            group.forEach(function (code, i) {
+                var q = uniqueCountry ? countries[i] : code;
+                out[code] = name + ' (' + q + ')';
+            });
+        }
+        _dispMemo = out; _dispUi = u; return out;
+    }
+    function dispName(code) { return buildDisp()[code] || localName(code); }
 
     // ---- country flags -----------------------------------------------------
     // Map the entry's primary country to an ISO-3166 alpha-2, then to a flag
@@ -419,12 +443,12 @@
             var nm = el('div', 'mylang-row-name');
             nm.style.cssText = 'overflow:hidden;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
             // Line 1: flag + UI-language name. Line 2: native (original script) · speaker count.
-            var loc = localName(item.code), natv = displayName(item.code), rc = reachStr(item.code), flag = flagOf(item.code);
+            var loc = dispName(item.code), natv = displayName(item.code), rc = reachStr(item.code), flag = flagOf(item.code);
             var nat = el('div', 'mylang-native'); nat.textContent = (flag ? flag + ' ' : '') + loc;
             nat.style.cssText = 'display:block;font-size:14px;font-weight:700;line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
             nm.appendChild(nat);
             var sub = [];
-            if (natv && natv !== loc) sub.push(natv);
+            if (natv && natv !== loc && natv !== localName(item.code)) sub.push(natv);
             if (rc) sub.push(rc);
             if (sub.length) {
                 var rr = el('div', 'mylang-rom'); rr.textContent = sub.join(' · ');
@@ -515,9 +539,9 @@
         }
         suggData.forEach(function (code, i) {
             var it = el('div', 'mylang-sugg-item' + (i === activeSugg ? ' active' : ''));
-            var flag = flagOf(code), loc = localName(code), nat = displayName(code), rc = reachStr(code);
+            var flag = flagOf(code), loc = dispName(code), nat = displayName(code), rc = reachStr(code);
             var sub = [];
-            if (nat && nat !== loc) sub.push(nat);
+            if (nat && nat !== loc && nat !== localName(code)) sub.push(nat);
             if (rc) sub.push(rc);
             it.innerHTML = '<span class="mylang-sugg-native">' + (flag ? esc(flag) + ' ' : '') + esc(loc) + '</span>' +
                 '<span class="mylang-sugg-rom">' + esc(sub.join(' · ')) + '</span>';
@@ -813,7 +837,7 @@
         // measure
         var chips = items.map(function (it) {
             var flag = flagOf(it.code);
-            var name = (flag ? flag + ' ' : '') + localName(it.code);
+            var name = (flag ? flag + ' ' : '') + dispName(it.code);
             var lvl = it.level;
             g.font = NAME_FONT; var nw = g.measureText(name).width;
             g.font = LVL_FONT; var lw = g.measureText(lvl).width;

@@ -1,5 +1,5 @@
 /* ============================================================================
- * my-languages.js — "ことばの版図 / Word Empire" feature for the Word Map.
+ * my-languages.js — "言語パスポート / Language Passport" feature for the Word Map.
  *
  * Lets a visitor pick the languages they speak (each with a CEFR level A1–C2,
  * plus Native), plots them on the live map, tallies how many people those
@@ -59,10 +59,10 @@
     // ---- i18n (en/ja + major locales; others fall back to English) ---------
     var NATIVE = { en: 'Native', ja: '母語', ko: '모어', zh: '母语', yue: '母語', es: 'Nativo', fr: 'Natif', de: 'Muttersprache', it: 'Madrelingua', pt: 'Nativo', ru: 'Родной', id: 'Asli' };
     var STR = {
-        en: { btn: 'Word Empire', title: 'Your Word Empire', name_ph: 'Your name (optional)', add_ph: 'Add a language you speak…', no_results: 'No matching language', empty: 'Add the languages you speak to see how many people you can reach.', s_langs: 'languages', s_reach: 'people reached', s_world: 'of the world', s_countries: 'countries', s_families: 'families', plot: 'Plot on map', clear_plot: 'Clear map', make_img: 'Create image', download: 'Download', share: 'Share', close: 'Close', back: 'Back', folded: '≈ counted within {name}', card_my: 'My Word Empire', card_of: 'languages', card_reach: 'people I can reach', card_world: 'of the world', card_note: 'cumulative reach — overlaps possible', card_countries: 'countries', card_families: 'families' },
-        ja: { btn: 'ことばの版図', title: 'ことばの版図', name_ph: 'お名前（任意）', add_ph: '話せる言語を追加…', no_results: '該当する言語がありません', empty: '話せる言語を追加すると、世界で何人に届くかがわかります。', s_langs: '言語', s_reach: 'カバー人口', s_world: '世界人口比', s_countries: 'か国', s_families: '語族', plot: '地図にプロット', clear_plot: '地図をクリア', make_img: '画像を作成', download: '保存', share: '共有', close: '閉じる', back: 'もどる', folded: '≈ {name}に含む', card_my: 'ことばの版図', card_of: '言語', card_reach: '届く人の数', card_world: '世界人口の', card_note: '延べ人数（重複あり）', card_countries: 'か国', card_families: '語族' },
-        ko: { btn: '언어 판도', title: '언어 판도', name_ph: '이름 (선택)', add_ph: '구사하는 언어 추가…', no_results: '일치하는 언어 없음', empty: '구사하는 언어를 추가하면 전 세계 몇 명에게 닿는지 알 수 있어요.', s_langs: '개 언어', s_reach: '도달 인구', s_world: '세계 인구 대비', s_countries: '개국', s_families: '어족', plot: '지도에 표시', clear_plot: '지도 지우기', make_img: '이미지 생성', download: '저장', share: '공유', close: '닫기', back: '뒤로', folded: '≈ {name}에 포함', card_my: '언어 판도', card_of: '개 언어', card_reach: '내가 닿는 사람 수', card_world: '세계 인구의', card_note: '누적 (중복 가능)', card_countries: '개국', card_families: '어족' },
-        zh: { btn: '语言版图', title: '语言版图', name_ph: '你的名字（可选）', add_ph: '添加你会的语言…', no_results: '无匹配语言', empty: '添加你会的语言，看看你能触达全球多少人。', s_langs: '种语言', s_reach: '覆盖人口', s_world: '占世界人口', s_countries: '个国家', s_families: '语系', plot: '在地图上标注', clear_plot: '清除地图', make_img: '生成图片', download: '下载', share: '分享', close: '关闭', back: '返回', folded: '≈ 已计入{name}', card_my: '语言版图', card_of: '种语言', card_reach: '我能触达的人数', card_world: '占世界人口', card_note: '累计（可能重叠）', card_countries: '个国家', card_families: '语系' },
+        en: { btn: 'Language Passport', title: 'Language Passport', name_ph: 'Your name (optional)', add_ph: 'Add a language you speak…', no_results: 'No matching language', empty: 'Add the languages you speak to see how many people you can reach.', s_langs: 'languages', s_reach: 'people reached', s_world: 'of the world', s_countries: 'countries', s_families: 'families', plot: 'Plot on map', clear_plot: 'Clear map', make_img: 'Create image', download: 'Download', share: 'Share', close: 'Close', back: 'Back', folded: '≈ counted within {name}', card_my: 'My Language Passport', card_of: 'languages', card_reach: 'people I can reach', card_world: 'of the world', card_note: 'cumulative reach — overlaps possible', card_countries: 'countries', card_families: 'families', spk: 'speakers' },
+        ja: { btn: '言語パスポート', title: '言語パスポート', name_ph: 'お名前（任意）', add_ph: '話せる言語を追加…', no_results: '該当する言語がありません', empty: '話せる言語を追加すると、世界で何人に届くかがわかります。', s_langs: '言語', s_reach: 'カバー人口', s_world: '世界人口比', s_countries: 'か国', s_families: '語族', plot: '地図にプロット', clear_plot: '地図をクリア', make_img: '画像を作成', download: '保存', share: '共有', close: '閉じる', back: 'もどる', folded: '≈ {name}に含む', card_my: '言語パスポート', card_of: '言語', card_reach: '届く人の数', card_world: '世界人口の', card_note: '延べ人数（重複あり）', card_countries: 'か国', card_families: '語族', spk: '話者' },
+        ko: { btn: '언어 여권', title: '언어 여권', name_ph: '이름 (선택)', add_ph: '구사하는 언어 추가…', no_results: '일치하는 언어 없음', empty: '구사하는 언어를 추가하면 전 세계 몇 명에게 닿는지 알 수 있어요.', s_langs: '개 언어', s_reach: '도달 인구', s_world: '세계 인구 대비', s_countries: '개국', s_families: '어족', plot: '지도에 표시', clear_plot: '지도 지우기', make_img: '이미지 생성', download: '저장', share: '공유', close: '닫기', back: '뒤로', folded: '≈ {name}에 포함', card_my: '언어 여권', card_of: '개 언어', card_reach: '내가 닿는 사람 수', card_world: '세계 인구의', card_note: '누적 (중복 가능)', card_countries: '개국', card_families: '어족', spk: '화자' },
+        zh: { btn: '语言护照', title: '语言护照', name_ph: '你的名字（可选）', add_ph: '添加你会的语言…', no_results: '无匹配语言', empty: '添加你会的语言，看看你能触达全球多少人。', s_langs: '种语言', s_reach: '覆盖人口', s_world: '占世界人口', s_countries: '个国家', s_families: '语系', plot: '在地图上标注', clear_plot: '清除地图', make_img: '生成图片', download: '下载', share: '分享', close: '关闭', back: '返回', folded: '≈ 已计入{name}', card_my: '语言护照', card_of: '种语言', card_reach: '我能触达的人数', card_world: '占世界人口', card_note: '累计（可能重叠）', card_countries: '个国家', card_families: '语系', spk: '使用者' },
     };
     function ui() {
         var g = (window.__langmap && window.__langmap.uiLang) ||
@@ -125,6 +125,68 @@
     function romanName(code) {
         var l = LD()[code] || {};
         return l.name || code;
+    }
+    // Localized (UI-language) display name, via the LANG_NAMES table the page
+    // loads per UI language; falls back to the English/roman name.
+    function localName(code) {
+        var u = ui(), base = u.split('_')[0];
+        var LN = window.LANG_NAMES || {};
+        var names = LN[u] || LN[base] || LN.en || {};
+        return names[code] || romanName(code);
+    }
+
+    // ---- country flags -----------------------------------------------------
+    // Map the entry's primary country to an ISO-3166 alpha-2, then to a flag
+    // emoji (regional-indicator pair). Historical/ancient/regional homelands
+    // (Roman Empire, Ancient Greece, "Levant"…) have no modern flag → ''.
+    var C2 = {
+        'China':'CN','Russia':'RU','India':'IN','Indonesia':'ID','Mexico':'MX','USA':'US','United States':'US','US':'US',
+        'Canada':'CA','Australia':'AU','Italy':'IT','Papua New Guinea':'PG','Taiwan':'TW','Nigeria':'NG','Philippines':'PH',
+        'Japan':'JP','Guatemala':'GT','Vietnam':'VN','Germany':'DE','Tanzania':'TZ','Myanmar':'MM','Pakistan':'PK','Kenya':'KE',
+        'Spain':'ES','Peru':'PE','Iran':'IR','Ethiopia':'ET','United Kingdom':'GB','UK':'GB','Uganda':'UG','South Africa':'ZA',
+        'Thailand':'TH','Nepal':'NP','Mali':'ML','Cameroon':'CM','Ghana':'GH','Azerbaijan':'AZ','Mozambique':'MZ',
+        'Switzerland':'CH','Malaysia':'MY','Suriname':'SR','France':'FR','Afghanistan':'AF','Colombia':'CO','Senegal':'SN',
+        'Greece':'GR','Turkey':'TR','Türkiye':'TR','South Sudan':'SS','Zambia':'ZM','Namibia':'NA','Algeria':'DZ',
+        'South Korea':'KR','Bangladesh':'BD','Brazil':'BR','Israel':'IL','Finland':'FI','Poland':'PL','Norway':'NO','Ireland':'IE',
+        'Georgia':'GE','Morocco':'MA','Eritrea':'ER','DR Congo':'CD','DRC':'CD','Liberia':'LR','Federated States of Micronesia':'FM',
+        'Nicaragua':'NI','Luxembourg':'LU','Saudi Arabia':'SA','Ecuador':'EC','Lebanon':'LB',"Côte d'Ivoire":'CI','Belgium':'BE',
+        'Angola':'AO','Venezuela':'VE','Netherlands':'NL','Iraq':'IQ','Zimbabwe':'ZW','Chile':'CL','Guinea':'GN','Sierra Leone':'SL',
+        'Burkina Faso':'BF','Costa Rica':'CR','El Salvador':'SV','Syria':'SY','Jamaica':'JM','Haiti':'HT','North Korea':'KP',
+        'Portugal':'PT','Mongolia':'MN','Laos':'LA','Ukraine':'UA','Sweden':'SE','Romania':'RO','New Zealand':'NZ','Fiji':'FJ',
+        'Sri Lanka':'LK','Tajikistan':'TJ','Kyrgyzstan':'KG','Uzbekistan':'UZ','Sudan':'SD','Malawi':'MW','Slovakia':'SK',
+        'Lithuania':'LT','Latvia':'LV','Estonia':'EE','Belize':'BZ','Argentina':'AR','Botswana':'BW','Panama':'PA',
+        'French Polynesia':'PF','Cook Islands':'CK','Timor-Leste':'TL','Bhutan':'BT','Togo':'TG','Benin':'BJ','Croatia':'HR',
+        'Honduras':'HN','Jordan':'JO','Palestine':'PS','Macau':'MO','French Guiana':'GF','Saint Lucia':'LC','Comoros':'KM',
+        'Libya':'LY','Bahrain':'BH','Qatar':'QA','Mayotte':'YT','Puerto Rico':'PR','Dominican Republic':'DO','Uruguay':'UY',
+        'Yemen':'YE','Wales':'GB','Cape Verde':'CV','Cabo Verde':'CV','Madagascar':'MG','Hungary':'HU','Denmark':'DK',
+        'Armenia':'AM','Samoa':'WS','Tonga':'TO','Palau':'PW','Maldives':'MV','Moldova':'MD','Kazakhstan':'KZ','Turkmenistan':'TM',
+        'Egypt':'EG','Mauritania':'MR','Tunisia':'TN','Malta':'MT','Chad':'TD','Somalia':'SO','Rwanda':'RW','Burundi':'BI',
+        'Austria':'AT','Iceland':'IS','Belarus':'BY','Czech Republic':'CZ','Slovenia':'SI','Serbia':'RS','Bulgaria':'BG',
+        'Albania':'AL','Bahamas':'BS','Aruba':'AW','Solomon Islands':'SB','Paraguay':'PY','Singapore':'SG','Faroe Islands':'FO',
+        'Cuba':'CU','North Macedonia':'MK','Lesotho':'LS','Niger':'NE','Bolivia':'BO','Greenland':'GL','Niue':'NU','Tuvalu':'TV',
+        'Marshall Islands':'MH','Kiribati':'KI','Guam':'GU','Vanuatu':'VU','Eswatini':'SZ','Equatorial Guinea':'GQ','Cambodia':'KH',
+        'Isle of Man':'IM','Mauritius':'MU','Réunion':'RE','Seychelles':'SC','Guadeloupe':'GP','Tokelau':'TK','Hong Kong':'HK',
+        'Wallis & Futuna':'WF','Central African Republic':'CF','Bosnia and Herzegovina':'BA','Djibouti':'DJ','Gabon':'GA',
+        'Republic of the Congo':'CG','Guyana':'GY','Trinidad and Tobago':'TT','Nauru':'NR'
+    };
+    function iso2flag(cc) {
+        if (!/^[A-Za-z]{2}$/.test(cc)) return '';
+        cc = cc.toUpperCase();
+        return String.fromCodePoint(0x1F1E6 + cc.charCodeAt(0) - 65) + String.fromCodePoint(0x1F1E6 + cc.charCodeAt(1) - 65);
+    }
+    function primaryCountry(code) {
+        var s = metaOf(code).countries;
+        if (!s || typeof s !== 'string') return '';
+        var first = s.split(/[,/(]/)[0].replace(/^(Historical:|Originally|Greater|Across the)\s*/i, '').trim();
+        return first;
+    }
+    function flagOf(code) { var cc = C2[primaryCountry(code)]; return cc ? iso2flag(cc) : ''; }
+
+    // Short "N speakers" string in the UI language; '' when unknown (proto/extinct).
+    function reachStr(code) {
+        var r = reachOf(code);
+        if (!r || r < 1) return '';
+        return fmtBig(r) + ' ' + T('spk');
     }
 
     // Compact, locale-aware big-number formatting for the "映え" figure.
@@ -356,19 +418,22 @@
             // cascade can hide it; nowrap+ellipsis keeps it to one line.
             var nm = el('div', 'mylang-row-name');
             nm.style.cssText = 'overflow:hidden;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
-            // Line 1: native (original-script) name. Line 2: romanized/English.
-            var nat = el('div', 'mylang-native'); nat.textContent = displayName(item.code);
+            // Line 1: flag + UI-language name. Line 2: native (original script) · speaker count.
+            var loc = localName(item.code), natv = displayName(item.code), rc = reachStr(item.code), flag = flagOf(item.code);
+            var nat = el('div', 'mylang-native'); nat.textContent = (flag ? flag + ' ' : '') + loc;
             nat.style.cssText = 'display:block;font-size:14px;font-weight:700;line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
             nm.appendChild(nat);
-            var rom = romanName(item.code);
-            if (rom && rom !== displayName(item.code)) {
-                var rr = el('div', 'mylang-rom'); rr.textContent = rom;
+            var sub = [];
+            if (natv && natv !== loc) sub.push(natv);
+            if (rc) sub.push(rc);
+            if (sub.length) {
+                var rr = el('div', 'mylang-rom'); rr.textContent = sub.join(' · ');
                 rr.style.cssText = 'display:block;font-size:11px;line-height:1.2;opacity:.6;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
                 nm.appendChild(rr);
             }
             // Overlap note (dialect folded into its parent), on its own line.
             if (fi.foldedInto[item.code]) {
-                var fn = el('div', 'mylang-fold'); fn.textContent = T('folded', { name: displayName(fi.foldedInto[item.code]) });
+                var fn = el('div', 'mylang-fold'); fn.textContent = T('folded', { name: localName(fi.foldedInto[item.code]) });
                 fn.style.cssText = 'display:block;font-size:10px;line-height:1.2;opacity:.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:' + mainCol + ';-webkit-text-fill-color:' + mainCol;
                 nm.appendChild(fn);
             }
@@ -423,14 +488,19 @@
         for (var i = 0; i < codes.length && out.length < 40; i++) {
             var c = codes[i]; if (hasCode(c)) continue;
             var l = ld[c]; if (!l) continue;
-            var hay = ((l.name || '') + ' ' + (l.native || '') + ' ' + c).toLowerCase();
+            // Match on English name, native, the UI-language name, and code.
+            var hay = ((l.name || '') + ' ' + (l.native || '') + ' ' + localName(c) + ' ' + c).toLowerCase();
             if (hay.indexOf(q) !== -1) out.push(c);
         }
-        // prefer prefix matches on name/native, then by reach (prominent first)
+        // prefer prefix matches on any displayed name, then by reach (prominent first)
+        function isPrefix(code) {
+            var l = ld[code];
+            return (l.name || '').toLowerCase().indexOf(q) === 0 ||
+                (l.native || '').toLowerCase().indexOf(q) === 0 ||
+                localName(code).toLowerCase().indexOf(q) === 0;
+        }
         out.sort(function (a, b) {
-            var la = ld[a], lb = ld[b];
-            var pa = ((la.name || '').toLowerCase().indexOf(q) === 0 || (la.native || '').toLowerCase().indexOf(q) === 0) ? 0 : 1;
-            var pb = ((lb.name || '').toLowerCase().indexOf(q) === 0 || (lb.native || '').toLowerCase().indexOf(q) === 0) ? 0 : 1;
+            var pa = isPrefix(a) ? 0 : 1, pb = isPrefix(b) ? 0 : 1;
             if (pa !== pb) return pa - pb;
             return reachOf(b) - reachOf(a);
         });
@@ -445,8 +515,12 @@
         }
         suggData.forEach(function (code, i) {
             var it = el('div', 'mylang-sugg-item' + (i === activeSugg ? ' active' : ''));
-            it.innerHTML = '<span class="mylang-sugg-native">' + esc(displayName(code)) + '</span>' +
-                '<span class="mylang-sugg-rom">' + esc(romanName(code)) + '</span>';
+            var flag = flagOf(code), loc = localName(code), nat = displayName(code), rc = reachStr(code);
+            var sub = [];
+            if (nat && nat !== loc) sub.push(nat);
+            if (rc) sub.push(rc);
+            it.innerHTML = '<span class="mylang-sugg-native">' + (flag ? esc(flag) + ' ' : '') + esc(loc) + '</span>' +
+                '<span class="mylang-sugg-rom">' + esc(sub.join(' · ')) + '</span>';
             it.addEventListener('mousedown', function (ev) { ev.preventDefault(); addLang(code); });
             suggBox.appendChild(it);
         });
@@ -727,16 +801,24 @@
         g.fillStyle = 'rgba(255,255,255,.6)'; g.font = '500 22px ' + CARD_FONT; g.fillText(l, x, y + 30);
     }
 
-    // Language name chips, wrapped, centered, with a level-coloured dot.
+    // Language chips: level-coloured dot + flag + UI-language name + CEFR level.
+    // Wrapped and centred. Flags render as emoji on mobile (the share target);
+    // desktop platforms that don't support flag emoji on canvas degrade to the
+    // 2-letter code, which is still informative.
+    var NAME_FONT = '600 26px ' + CARD_FONT, LVL_FONT = '700 22px ' + CARD_FONT;
     function drawChips(g, y, mapW, mapX) {
         var items = state.langs.slice(0, 24);
-        g.font = '600 26px ' + CARD_FONT; g.textBaseline = 'middle';
-        var padX = 16, gap = 10, dot = 12, h = 44, lineGap = 12;
+        g.textBaseline = 'middle';
+        var padX = 16, gap = 10, dot = 12, h = 44, lineGap = 12, nameGap = 10;
         // measure
         var chips = items.map(function (it) {
-            var label = displayName(it.code);
-            var w = dot + 8 + g.measureText(label).width + padX * 2;
-            return { it: it, label: label, w: w };
+            var flag = flagOf(it.code);
+            var name = (flag ? flag + ' ' : '') + localName(it.code);
+            var lvl = it.level;
+            g.font = NAME_FONT; var nw = g.measureText(name).width;
+            g.font = LVL_FONT; var lw = g.measureText(lvl).width;
+            var w = dot + 8 + nw + nameGap + lw + padX * 2;
+            return { it: it, name: name, lvl: lvl, nw: nw, w: w };
         });
         var maxW = mapW; var lines = [[]], lineW = [0];
         chips.forEach(function (ch) {
@@ -750,16 +832,20 @@
             var x = (mapX + mapW / 2) - total / 2;
             var cy = y + li * (h + lineGap);
             line.forEach(function (ch) {
+                var col = levelColor(ch.it.level);
                 roundRect(g, x, cy - h / 2, ch.w, h, h / 2);
                 g.fillStyle = 'rgba(255,255,255,.07)'; g.fill();
-                g.strokeStyle = hexA(levelColor(ch.it.level), .55); g.lineWidth = 1.5; g.stroke();
-                g.fillStyle = levelColor(ch.it.level); g.beginPath(); g.arc(x + padX + dot / 2, cy, dot / 2, 0, 7); g.fill();
-                g.fillStyle = 'rgba(255,255,255,.92)'; g.textAlign = 'left';
-                g.fillText(ch.label, x + padX + dot + 8, cy + 1);
+                g.strokeStyle = hexA(col, .55); g.lineWidth = 1.5; g.stroke();
+                g.fillStyle = col; g.beginPath(); g.arc(x + padX + dot / 2, cy, dot / 2, 0, 7); g.fill();
+                var tx = x + padX + dot + 8;
+                g.font = NAME_FONT; g.fillStyle = 'rgba(255,255,255,.92)'; g.textAlign = 'left';
+                g.fillText(ch.name, tx, cy + 1);
+                g.font = LVL_FONT; g.fillStyle = col;
+                g.fillText(ch.lvl, tx + ch.nw + nameGap, cy + 1);
                 x += ch.w + gap;
             });
         });
-        g.textBaseline = 'alphabetic';
+        g.font = NAME_FONT; g.textBaseline = 'alphabetic';
     }
 
     // ---- small canvas/dom utils -------------------------------------------

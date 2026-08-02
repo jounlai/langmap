@@ -8028,6 +8028,7 @@
         }
         function renderTriviaIndex() {
             const modal = document.getElementById('trivia-modal');
+            modal.dataset.articleId = 'index';   // the list gets its own shareable URL (…#trivia=index)
             const heading = document.getElementById('trivia-heading');
             const summary = document.getElementById('trivia-summary');
             const body = document.getElementById('trivia-body');

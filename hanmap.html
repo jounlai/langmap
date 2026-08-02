@@ -11154,7 +11154,7 @@
                     + `</button>`;
             }).join('');
             index.hidden = false;
-            delete modal.dataset.articleId;
+            modal.dataset.articleId = 'index';   // the list gets its own shareable URL (…#trivia=index)
             modal.dataset.view = 'index';
             const _scrollIdx = document.getElementById('trivia-scroll');
             if (_scrollIdx) _scrollIdx.scrollTop = 0;

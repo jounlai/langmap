@@ -5623,6 +5623,10 @@
             if (compareOpen && window.__compareList && window.__compareList.length > 0) {
                 params.set('cmp', window.__compareList.join(','));
             }
+            // Persist an open game/tool (Langle, "Which word?" quiz, Language
+            // Passport) so its screen is deep-linkable and reopens from a shared
+            // URL. Games set window.__wmOpenGame on open and clear it on close.
+            if (window.__wmOpenGame) params.set('play', window.__wmOpenGame);
             // Undo URLSearchParams' %2C so combined params (p=lat,lng,z and
             // cmp=code,code) keep literal commas — shorter, and still parsed
             // correctly on load (URLSearchParams reads literal commas fine).
@@ -5752,6 +5756,17 @@
                         window.openTrivia(triviaId);
                     }
                 }, 150);
+            }
+            // Restore an open game/tool from a shared URL (…&play=langle|quiz|mylang).
+            // The game may not have registered yet (its module inits after data
+            // loads), so retry a few times.
+            const playId = params.get('play');
+            if (playId) {
+                (function tryOpenGame(n) {
+                    const fn = window.__wmGames && window.__wmGames[playId];
+                    if (typeof fn === 'function') fn();
+                    else if (n < 50) setTimeout(() => tryOpenGame(n + 1), 150);
+                })(0);
             }
         }
         loadHash();
@@ -9259,8 +9274,8 @@
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
             document.body.appendChild(modal);
         }
-        function hide() { if (modal) modal.style.display = 'none'; }
-        function show() { if (!modal) build(); modal.style.display = 'flex'; render(); }
+        function hide() { if (modal) modal.style.display = 'none'; if (window.__wmOpenGame === 'langle') { window.__wmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
+        function show() { if (!modal) build(); modal.style.display = 'flex'; render(); window.__wmOpenGame = 'langle'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
         function clueHtml() {
             const t = target(), words = WD(), order = ORD();
             let shown = 0, rows = '';
@@ -9444,6 +9459,7 @@
         function init() {
             const btn = document.getElementById('langle-open');
             if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', openGame); }
+            window.__wmGames = window.__wmGames || {}; window.__wmGames.langle = openGame;
             updateBadge();
             // Shared links (?play=langle) open the game straight away, then strip the
             // param so closing/refreshing doesn't reopen it.
@@ -9574,9 +9590,9 @@
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
             document.body.appendChild(modal);
         }
-        function hide() { if (modal) modal.style.display = 'none'; }
+        function hide() { if (modal) modal.style.display = 'none'; if (window.__wmOpenGame === 'quiz') { window.__wmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
         function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
-        function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); }
+        function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); window.__wmOpenGame = 'quiz'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
         function render() {
             const box = document.getElementById('lm-quiz-box'); if (!box) return;
             box.innerHTML = '';
@@ -9661,6 +9677,7 @@
         function init() {
             const btn = document.getElementById('quiz-open');
             if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', openQuiz); }
+            window.__wmGames = window.__wmGames || {}; window.__wmGames.quiz = openQuiz;
             localizeBtn();
             if (!window._quizUiWired) {
                 window._quizUiWired = true;
@@ -9735,6 +9752,6 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=20"></script>
+    <script src="my-languages.js?v=21"></script>
 </body>
 </html>

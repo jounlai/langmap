@@ -772,7 +772,7 @@
     // Shareable passport URL (the #ml= hash reconstructs the selection) + text.
     function passportUrl() {
         var p = getMyLangHashParam();
-        return location.origin + location.pathname + (p ? '#' + p + '&mlo=1' : '');
+        return location.origin + location.pathname + '#' + (p ? p + '&' : '') + 'play=mylang';
     }
     function shareText() {
         var s = stats();
@@ -1110,8 +1110,13 @@
     function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 
     // ---- open/close + mount -----------------------------------------------
-    function open() { if (!overlay) buildPanel(); else renderBuilder(); overlay.classList.add('open'); setTimeout(function () { if (nameInput) addInput.focus(); }, 30); }
-    function close() { if (overlay) overlay.classList.remove('open'); }
+    function markGame(on) {
+        if (on) window.__wmOpenGame = 'mylang';
+        else if (window.__wmOpenGame === 'mylang') window.__wmOpenGame = null;
+        try { if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } catch (e) {}
+    }
+    function open() { if (!overlay) buildPanel(); else renderBuilder(); overlay.classList.add('open'); markGame(true); setTimeout(function () { if (nameInput) addInput.focus(); }, 30); }
+    function close() { if (overlay) overlay.classList.remove('open'); markGame(false); }
 
     // Register as a hidden .game-btn so the page's "Play ▾ (あそぶ)" menu lists us
     // alongside the other launchers. styles.css hides .game-btn; the menu builder
@@ -1149,10 +1154,11 @@
         }
         window.addEventListener('langmap:uichange', relocalize);
         try { if (/mldebug/.test(location.hash + location.search)) window.__mlTest = { drawCard: drawCard, state: state, open: open, openImage: openImage, render: renderBuilder }; } catch (e) {}
-        // A shared passport link (…&mlo=1) opens straight to the finished card.
-        if (/[#&]mlo=1/.test(location.hash) && state.langs.length) {
-            setTimeout(function () { open(); setTimeout(openImage, 90); }, 220);
-        }
+        // Register as a deep-linkable game/tool: a shared link (…&play=mylang)
+        // opens the passport — straight to the finished card when it carries a
+        // selection, otherwise to the builder.
+        window.__wmGames = window.__wmGames || {};
+        window.__wmGames.mylang = function () { open(); if (state.langs.length) setTimeout(openImage, 90); };
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
     else init();

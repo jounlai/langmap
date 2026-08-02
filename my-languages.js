@@ -206,6 +206,26 @@
         return first;
     }
     function flagOf(code) { var cc = C2[primaryCountry(code)]; return cc ? iso2flag(cc) : ''; }
+    function iso2Of(code) { return C2[primaryCountry(code)] || ''; }
+    // Whether this browser actually renders flag emoji in colour (mobile: yes;
+    // many desktops: no — they show the 2-letter code). Probed once by drawing a
+    // flag to an offscreen canvas and checking for colour. Lets the card fall back
+    // to a clean code badge where flags won't render.
+    var _flagOK = null;
+    function flagsSupported() {
+        if (_flagOK !== null) return _flagOK;
+        try {
+            var cv = document.createElement('canvas'); cv.width = cv.height = 20;
+            var cx = cv.getContext('2d'); cx.textBaseline = 'top'; cx.font = '18px ' + CARD_FONT;
+            cx.fillText('🇯🇵', 0, 0);   // 🇯🇵
+            var d = cx.getImageData(0, 0, 20, 20).data, colour = false;
+            for (var i = 0; i < d.length; i += 4) {
+                if (d[i + 3] > 0 && (Math.abs(d[i] - d[i + 1]) > 24 || Math.abs(d[i + 1] - d[i + 2]) > 24)) { colour = true; break; }
+            }
+            _flagOK = colour;
+        } catch (e) { _flagOK = false; }
+        return _flagOK;
+    }
 
     // Short "N speakers" string in the UI language; '' when unknown (proto/extinct).
     function reachStr(code) {
@@ -819,29 +839,37 @@
         var maxRows = Math.max(1, Math.floor((maxBottom - y) / rh));
         var show = state.langs, extra = 0;
         if (state.langs.length > maxRows) { show = state.langs.slice(0, maxRows - 1); extra = state.langs.length - show.length; }
+        // Fixed columns so the pills and counts line up down the list.
+        var pillX = x + w - 392;        // level pill left edge
+        var countRightX = x + w - 84;   // speaker count right edge
+        var personCX = x + w - 56;      // person icon
+        var chevronX = x + w - 26;      // chevron
+        var flags = flagsSupported();
         show.forEach(function (it, i) {
             var top = y + i * rh, cy = top + (rh - gap) / 2, col = levelColor(it.level);
             softPanel(g, x, top, w, rh - gap, 20, '#ffffff');
-            // flag tile
+            // flag / code tile
             g.fillStyle = '#f3efe6'; roundRect(g, x + 16, cy - 26, 52, 52, 14); g.fill();
-            var flag = flagOf(it.code);
-            if (flag) { g.textAlign = 'center'; g.textBaseline = 'middle'; g.font = '34px ' + CARD_FONT; g.fillText(flag, x + 42, cy + 1); }
-            // right cluster (right → left): chevron, person+count, pill
-            var rightEdge = x + w - 26;
-            drawChevron(g, rightEdge, cy, 15, '#c7c0af'); rightEdge -= 34;
-            var hasReach = reachOf(it.code) > 0, reach = approx() + fmtBig(reachOf(it.code));
-            if (hasReach) {
-                drawPerson(g, rightEdge - 12, cy, 26, '#b6af9d'); rightEdge -= 30;
-                g.textAlign = 'right'; g.textBaseline = 'middle'; g.fillStyle = MUTE; g.font = '500 26px ' + CARD_FONT;
-                g.fillText(reach, rightEdge, cy + 1); rightEdge -= g.measureText(reach).width + 18;
-            }
+            var iso2 = iso2Of(it.code);
+            g.textAlign = 'center'; g.textBaseline = 'middle';
+            if (flags && flagOf(it.code)) { g.font = '34px ' + CARD_FONT; g.fillStyle = INK; g.fillText(flagOf(it.code), x + 42, cy + 1); }
+            else if (iso2) { g.font = '700 24px ' + CARD_FONT; g.fillStyle = '#6b6455'; g.fillText(iso2, x + 42, cy + 1); }
+            else { drawMiniGlobe(g, x + 42, cy, 15, '#9bb5c9'); }
+            // name (clipped to the pill column)
+            g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillStyle = INK; g.font = '700 33px ' + CARD_FONT;
+            g.fillText(clip(g, dispName(it.code), pillX - (x + 88) - 18), x + 88, cy + 1);
+            // level pill (fixed left edge)
             g.font = '700 26px ' + CARD_FONT;
-            var pillW = g.measureText(it.level).width + 36, px = rightEdge - pillW;
-            roundRect(g, px, cy - 21, pillW, 42, 21); g.fillStyle = col; g.fill();
-            g.fillStyle = '#ffffff'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(it.level, px + pillW / 2, cy + 1);
-            // name (clipped to the pill's left edge)
-            g.textAlign = 'left'; g.fillStyle = INK; g.font = '700 33px ' + CARD_FONT;
-            g.fillText(clip(g, dispName(it.code), px - (x + 88) - 18), x + 88, cy + 1);
+            var pillW = g.measureText(it.level).width + 36;
+            roundRect(g, pillX, cy - 21, pillW, 42, 21); g.fillStyle = col; g.fill();
+            g.fillStyle = '#ffffff'; g.textAlign = 'center'; g.fillText(it.level, pillX + pillW / 2, cy + 1);
+            // speaker count (fixed right edge) + person icon + chevron
+            if (reachOf(it.code) > 0) {
+                g.textAlign = 'right'; g.fillStyle = MUTE; g.font = '500 26px ' + CARD_FONT;
+                g.fillText(approx() + fmtBig(reachOf(it.code)), countRightX, cy + 1);
+                drawPerson(g, personCX, cy, 26, '#b6af9d');
+            }
+            drawChevron(g, chevronX, cy, 15, '#c7c0af');
         });
         if (extra > 0) {
             var ey = y + show.length * rh + (rh - gap) / 2;

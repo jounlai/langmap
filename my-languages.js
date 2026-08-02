@@ -60,10 +60,10 @@
     // ---- i18n (en/ja + major locales; others fall back to English) ---------
     var NATIVE = { en: 'Native', ja: '母語', ko: '모어', zh: '母语', yue: '母語', es: 'Nativo', fr: 'Natif', de: 'Muttersprache', it: 'Madrelingua', pt: 'Nativo', ru: 'Родной', id: 'Asli' };
     var STR = {
-        en: { btn: 'Language Passport', title: 'Language Passport', name_ph: 'Your name (optional)', add_ph: 'Add a language you speak…', no_results: 'No matching language', empty: 'Add the languages you speak to see how many people you can reach.', intro: 'Pick the languages you speak and see how much of the world you can reach — then share your Language Passport.', s_langs: 'languages', s_reach: 'people reached', s_world: 'of the world', s_countries: 'countries', s_families: 'families', plot: 'Plot on map', clear_plot: 'Clear map', make_img: 'Create my passport', download: 'Download', share: 'Share', close: 'Close', back: 'Back', folded: '≈ counted within {name}', card_my: 'My Language Passport', card_of: 'languages', card_reach: 'people I can reach', card_world: 'of the world', card_note: 'cumulative reach — overlaps possible', card_countries: 'countries', card_families: 'families', spk: 'speakers', res_ph: 'Where you live (optional)', card_langs: 'Languages', card_more: '+{n} more', card_foot: 'As many worlds as the words you speak. Where to next?' },
-        ja: { btn: '言語パスポート', title: '言語パスポート', name_ph: 'お名前（任意）', add_ph: '話せる言語を追加…', no_results: '該当する言語がありません', empty: '話せる言語を追加すると、世界で何人に届くかがわかります。', intro: '話せる言語を選ぶと、世界のどれだけの人に「ことばが届く」かがわかります。あなたの言語パスポートをシェアしよう。', s_langs: '言語', s_reach: 'カバー人口', s_world: '世界人口比', s_countries: 'か国', s_families: '語族', plot: '地図にプロット', clear_plot: '地図をクリア', make_img: 'パスポートを作成', download: '保存', share: '共有', close: '閉じる', back: 'もどる', folded: '≈ {name}に含む', card_my: '言語パスポート', card_of: '言語', card_reach: '届く人の数', card_world: '世界人口の', card_note: '延べ人数（重複あり）', card_countries: 'か国', card_families: '語族', spk: '話者', res_ph: '現在の居住地（任意）', card_langs: '話せることば', card_more: '他 {n} 言語', card_foot: 'ことばの数だけ、出会える世界がある。次はどこへ？' },
-        ko: { btn: '언어 여권', title: '언어 여권', name_ph: '이름 (선택)', add_ph: '구사하는 언어 추가…', no_results: '일치하는 언어 없음', empty: '구사하는 언어를 추가하면 전 세계 몇 명에게 닿는지 알 수 있어요.', intro: '구사하는 언어를 고르면 세계 몇 명에게 닿는지 알 수 있어요. 나의 언어 여권을 공유해 보세요.', s_langs: '개 언어', s_reach: '도달 인구', s_world: '세계 인구 대비', s_countries: '개국', s_families: '어족', plot: '지도에 표시', clear_plot: '지도 지우기', make_img: '여권 만들기', download: '저장', share: '공유', close: '닫기', back: '뒤로', folded: '≈ {name}에 포함', card_my: '언어 여권', card_of: '개 언어', card_reach: '내가 닿는 사람 수', card_world: '세계 인구의', card_note: '누적 (중복 가능)', card_countries: '개국', card_families: '어족', spk: '화자', res_ph: '거주지 (선택)', card_langs: '언어', card_more: '외 {n}개', card_foot: '아는 언어만큼 넓어지는 세계. 다음 여행지는?' },
-        zh: { btn: '语言护照', title: '语言护照', name_ph: '你的名字（可选）', add_ph: '添加你会的语言…', no_results: '无匹配语言', empty: '添加你会的语言，看看你能触达全球多少人。', intro: '选择你会的语言，看看你的话能触达世界多少人，分享你的语言护照吧。', s_langs: '种语言', s_reach: '覆盖人口', s_world: '占世界人口', s_countries: '个国家', s_families: '语系', plot: '在地图上标注', clear_plot: '清除地图', make_img: '生成护照', download: '下载', share: '分享', close: '关闭', back: '返回', folded: '≈ 已计入{name}', card_my: '语言护照', card_of: '种语言', card_reach: '我能触达的人数', card_world: '占世界人口', card_note: '累计（可能重叠）', card_countries: '个国家', card_families: '语系', spk: '使用者', res_ph: '现居地（可选）', card_langs: '语言', card_more: '等 {n} 种', card_foot: '你会的语言，就是你能遇见的世界。下一站去哪？' },
+        en: { btn: 'Language Passport', title: 'Language Passport', name_ph: 'Your name (optional)', add_ph: 'Add a language you speak…', no_results: 'No matching language', empty: 'Add the languages you speak to see how many people you can reach.', intro: 'Pick the languages you speak and see how much of the world you can reach — then share your Language Passport.', s_langs: 'languages', s_reach: 'people reached', s_world: 'of the world', s_countries: 'countries', s_families: 'families', plot: 'Plot on map', clear_plot: 'Clear map', make_img: 'Create my passport', download: 'Download', share: 'Share', close: 'Close', back: 'Back', folded: '≈ counted within {name}', card_my: 'My Language Passport', card_of: 'languages', card_reach: 'people I can reach', card_world: 'of the world', card_note: 'cumulative reach — overlaps possible', card_countries: 'countries', card_families: 'families', spk: 'speakers', res_ph: 'Where you live (optional)', card_langs: 'Languages', card_more: '+{n} more', card_foot: 'As many worlds as the words you speak. Where to next?', share_text: 'My Language Passport 🌍 I can reach {pct} of the world!', copy: 'Copy link', copied: 'Link copied!', share_img: 'Share image' },
+        ja: { btn: '言語パスポート', title: '言語パスポート', name_ph: 'お名前（任意）', add_ph: '話せる言語を追加…', no_results: '該当する言語がありません', empty: '話せる言語を追加すると、世界で何人に届くかがわかります。', intro: '話せる言語を選ぶと、世界のどれだけの人に「ことばが届く」かがわかります。あなたの言語パスポートをシェアしよう。', s_langs: '言語', s_reach: 'カバー人口', s_world: '世界人口比', s_countries: 'か国', s_families: '語族', plot: '地図にプロット', clear_plot: '地図をクリア', make_img: 'パスポートを作成', download: '保存', share: '共有', close: '閉じる', back: 'もどる', folded: '≈ {name}に含む', card_my: '言語パスポート', card_of: '言語', card_reach: '届く人の数', card_world: '世界人口の', card_note: '延べ人数（重複あり）', card_countries: 'か国', card_families: '語族', spk: '話者', res_ph: '現在の居住地（任意）', card_langs: '話せることば', card_more: '他 {n} 言語', card_foot: 'ことばの数だけ、出会える世界がある。次はどこへ？', share_text: '私の言語パスポート🌍 世界人口の{pct}に届く！', copy: 'リンクをコピー', copied: 'コピーしました', share_img: '画像で共有' },
+        ko: { btn: '언어 여권', title: '언어 여권', name_ph: '이름 (선택)', add_ph: '구사하는 언어 추가…', no_results: '일치하는 언어 없음', empty: '구사하는 언어를 추가하면 전 세계 몇 명에게 닿는지 알 수 있어요.', intro: '구사하는 언어를 고르면 세계 몇 명에게 닿는지 알 수 있어요. 나의 언어 여권을 공유해 보세요.', s_langs: '개 언어', s_reach: '도달 인구', s_world: '세계 인구 대비', s_countries: '개국', s_families: '어족', plot: '지도에 표시', clear_plot: '지도 지우기', make_img: '여권 만들기', download: '저장', share: '공유', close: '닫기', back: '뒤로', folded: '≈ {name}에 포함', card_my: '언어 여권', card_of: '개 언어', card_reach: '내가 닿는 사람 수', card_world: '세계 인구의', card_note: '누적 (중복 가능)', card_countries: '개국', card_families: '어족', spk: '화자', res_ph: '거주지 (선택)', card_langs: '언어', card_more: '외 {n}개', card_foot: '아는 언어만큼 넓어지는 세계. 다음 여행지는?', share_text: '나의 언어 여권 🌍 세계 인구의 {pct}에게 닿아요!', copy: '링크 복사', copied: '링크 복사됨', share_img: '이미지 공유' },
+        zh: { btn: '语言护照', title: '语言护照', name_ph: '你的名字（可选）', add_ph: '添加你会的语言…', no_results: '无匹配语言', empty: '添加你会的语言，看看你能触达全球多少人。', intro: '选择你会的语言，看看你的话能触达世界多少人，分享你的语言护照吧。', s_langs: '种语言', s_reach: '覆盖人口', s_world: '占世界人口', s_countries: '个国家', s_families: '语系', plot: '在地图上标注', clear_plot: '清除地图', make_img: '生成护照', download: '下载', share: '分享', close: '关闭', back: '返回', folded: '≈ 已计入{name}', card_my: '语言护照', card_of: '种语言', card_reach: '我能触达的人数', card_world: '占世界人口', card_note: '累计（可能重叠）', card_countries: '个国家', card_families: '语系', spk: '使用者', res_ph: '现居地（可选）', card_langs: '语言', card_more: '等 {n} 种', card_foot: '你会的语言，就是你能遇见的世界。下一站去哪？', share_text: '我的语言护照 🌍 可触达世界{pct}人口！', copy: '复制链接', copied: '已复制', share_img: '分享图片' },
     };
     function ui() {
         var g = (window.__langmap && window.__langmap.uiLang) ||
@@ -714,12 +714,9 @@
             var acts = el('div', 'mylang-actions'); acts.style.width = '100%';
             var dl = el('button', 'mylang-act primary'); dl.textContent = T('download');
             dl.addEventListener('click', function () { downloadCanvas(canvas); });
-            acts.appendChild(dl);
-            if (canShareImage()) {
-                var sh = el('button', 'mylang-act'); sh.textContent = T('share');
-                sh.addEventListener('click', function () { shareCanvas(canvas); });
-                acts.appendChild(sh);
-            }
+            var sh = el('button', 'mylang-act'); sh.textContent = T('share');
+            sh.addEventListener('click', function () { openSharePopover(canvas); });
+            acts.appendChild(dl); acts.appendChild(sh);
             wrap.appendChild(acts);
             var note = el('div', 'mylang-note'); note.textContent = T('card_note'); wrap.appendChild(note);
         } else {
@@ -743,11 +740,69 @@
     function shareCanvas(canvas) {
         canvas.toBlob(function (blob) {
             var file = new File([blob], fileName(), { type: 'image/png' });
-            var data = { files: [file], title: T('card_my') };
+            var data = { files: [file], title: T('card_my'), text: shareText() };
             if (navigator.canShare && navigator.canShare(data)) {
                 navigator.share(data).catch(function () {});
             } else { downloadCanvas(canvas); }
         }, 'image/png');
+    }
+
+    // Shareable passport URL (the #ml= hash reconstructs the selection) + text.
+    function passportUrl() {
+        var p = getMyLangHashParam();
+        return location.origin + location.pathname + (p ? '#' + p : '');
+    }
+    function shareText() {
+        var s = stats();
+        var pct = s.worldPct >= 100 ? '100%+' : (s.worldPct >= 10 ? Math.round(s.worldPct) : s.worldPct.toFixed(1)) + '%';
+        return T('share_text', { pct: pct, reach: fmtBig(s.reach) });
+    }
+    function toast(msg) {
+        var t = document.createElement('div');
+        t.textContent = msg;
+        t.style.cssText = 'position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:100003;background:#222;color:#fff;padding:9px 16px;border-radius:999px;font-size:13px;box-shadow:0 4px 16px rgba(0,0,0,.25)';
+        document.body.appendChild(t); setTimeout(function () { t.remove(); }, 1800);
+    }
+    // Per-network share links (works on desktop, unlike the Web Share API) plus
+    // copy-link and — where supported — native image share.
+    function openSharePopover(canvas) {
+        var url = passportUrl(), text = shareText(), enc = encodeURIComponent;
+        var targets = [
+            { label: 'X', color: '#000', href: 'https://twitter.com/intent/tweet?text=' + enc(text) + '&url=' + enc(url) },
+            { label: 'Facebook', color: '#1877f2', href: 'https://www.facebook.com/sharer/sharer.php?u=' + enc(url) },
+            { label: 'LINE', color: '#06c755', href: 'https://social-plugins.line.me/lineit/share?url=' + enc(url) + '&text=' + enc(text) }
+        ];
+        var back = document.createElement('div');
+        back.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100001;display:flex;align-items:center;justify-content:center;padding:20px;font-family:inherit';
+        var box = document.createElement('div');
+        box.style.cssText = 'background:#fff;color:#1a2230;border-radius:14px;padding:20px;max-width:340px;width:100%;box-shadow:0 12px 40px rgba(0,0,0,.3)';
+        box.innerHTML = '<div style="font-weight:700;font-size:15px;margin-bottom:14px">' + esc(T('share')) + '</div>';
+        var grid = document.createElement('div');
+        grid.style.cssText = 'display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px';
+        targets.forEach(function (t) {
+            var a = document.createElement('a');
+            a.href = t.href; a.target = '_blank'; a.rel = 'noopener'; a.textContent = t.label;
+            a.style.cssText = 'display:block;text-align:center;padding:12px 6px;border-radius:9px;background:' + t.color + ';color:#fff;text-decoration:none;font-size:13px;font-weight:700';
+            a.addEventListener('click', function () { setTimeout(function () { back.remove(); }, 50); });
+            grid.appendChild(a);
+        });
+        box.appendChild(grid);
+        function fullBtn(label, cb, primary) {
+            var b = document.createElement('button'); b.type = 'button'; b.textContent = label;
+            b.style.cssText = 'margin-top:8px;width:100%;padding:11px;border-radius:9px;cursor:pointer;font-size:14px;font-weight:600;' +
+                (primary ? 'border:0;background:#3f6fd6;color:#fff' : 'border:1px solid #d0d3dc;background:#f6f7f9;color:#333');
+            b.addEventListener('click', cb); box.appendChild(b); return b;
+        }
+        if (canShareImage()) fullBtn(T('share_img'), function () { back.remove(); shareCanvas(canvas); }, true);
+        fullBtn(T('copy'), function () {
+            (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject())
+                .then(function () { toast(T('copied')); back.remove(); })
+                .catch(function () { window.prompt(T('copy'), url); });
+        });
+        fullBtn(T('close'), function () { back.remove(); });
+        back.appendChild(box);
+        back.addEventListener('click', function (e) { if (e.target === back) back.remove(); });
+        document.body.appendChild(back);
     }
 
     // Card palette — warm "passport" look.

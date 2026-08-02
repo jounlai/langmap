@@ -8243,6 +8243,8 @@
             if (window.__compareList && window.__compareList.length > 0) {
                 params.set('cmp', window.__compareList.join(','));
             }
+            // Persist an open game (reading quiz) so it deep-links / reopens.
+            if (window.__hmOpenGame) params.set('play', window.__hmOpenGame);
             // Undo URLSearchParams' %2C so p=lat,lng,z and cmp=code,code keep
             // literal commas — shorter, still parsed correctly on load.
             let hashBody = params.toString().replace(/%2C/g, ',');
@@ -8376,6 +8378,15 @@
                         window.openTrivia(triviaId);
                     }
                 }, 150);
+            }
+            // Restore an open game from a shared URL (…&play=hquiz).
+            const playId = params.get('play');
+            if (playId) {
+                (function tryOpenGame(n) {
+                    const fn = window.__hmGames && window.__hmGames[playId];
+                    if (typeof fn === 'function') fn();
+                    else if (n < 50) setTimeout(() => tryOpenGame(n + 1), 150);
+                })(0);
             }
         }
         loadHash();
@@ -11975,9 +11986,9 @@
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
             document.body.appendChild(modal);
         }
-        function hide() { if (modal) modal.style.display = 'none'; }
+        function hide() { if (modal) modal.style.display = 'none'; if (window.__hmOpenGame === 'hquiz') { window.__hmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
         function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
-        function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); }
+        function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); window.__hmOpenGame = 'hquiz'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
         const accent = 'var(--accent, #2e6fb8)';
         function render() {
             const box = document.getElementById('lm-hquiz-box'); if (!box) return;
@@ -12052,6 +12063,7 @@
         function init() {
             const btn = document.getElementById('hquiz-open');
             if (btn && !btn._wired) { btn._wired = true; btn.addEventListener('click', () => { show(); }); }
+            window.__hmGames = window.__hmGames || {}; window.__hmGames.hquiz = show;
             localizeBtn();
             if (!window._hquizUiWired) {
                 window._hquizUiWired = true;

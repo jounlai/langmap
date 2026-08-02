@@ -391,7 +391,7 @@
             '.mylang-stat.big .v{font-size:30px}',
             '.mylang-stat .l{font-size:11px;opacity:.7;margin-top:2px}',
             '.mylang-actions{display:flex;flex-wrap:wrap;gap:8px}',
-            '.mylang-act{flex:1;min-width:120px;padding:10px;border-radius:10px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font:inherit;font-weight:600;cursor:pointer}',
+            '.mylang-act{flex:1;min-width:120px;padding:11px;border-radius:10px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer;text-align:center}',
             '.mylang-act:hover{background:rgba(90,140,220,.12)}',
             '.mylang-act.primary{background:#3f6fd6;border-color:#3f6fd6;color:#fff}',
             '.mylang-act.primary:hover{background:#345cb3}',
@@ -842,10 +842,9 @@
         var show = state.langs, extra = 0;
         if (state.langs.length > maxRows) { show = state.langs.slice(0, maxRows - 1); extra = state.langs.length - show.length; }
         // Fixed columns so the pills and counts line up down the list.
-        var pillX = x + w - 392;        // level pill left edge
-        var countRightX = x + w - 84;   // speaker count right edge
-        var personCX = x + w - 56;      // person icon
-        var chevronX = x + w - 26;      // chevron
+        var pillX = x + w - 372;        // level pill left edge
+        var countRightX = x + w - 52;   // speaker count right edge
+        var personCX = x + w - 26;      // person icon
         var flags = flagsSupported();
         show.forEach(function (it, i) {
             var top = y + i * rh, cy = top + (rh - gap) / 2, col = levelColor(it.level);
@@ -865,13 +864,12 @@
             var pillW = g.measureText(it.level).width + 36;
             roundRect(g, pillX, cy - 21, pillW, 42, 21); g.fillStyle = col; g.fill();
             g.fillStyle = '#ffffff'; g.textAlign = 'center'; g.fillText(it.level, pillX + pillW / 2, cy + 1);
-            // speaker count (fixed right edge) + person icon + chevron
+            // speaker count (fixed right edge) + person icon
             if (reachOf(it.code) > 0) {
                 g.textAlign = 'right'; g.fillStyle = MUTE; g.font = '500 26px ' + CARD_FONT;
                 g.fillText(approx() + fmtBig(reachOf(it.code)), countRightX, cy + 1);
                 drawPerson(g, personCX, cy, 26, '#b6af9d');
             }
-            drawChevron(g, chevronX, cy, 15, '#c7c0af');
         });
         if (extra > 0) {
             var ey = y + show.length * rh + (rh - gap) / 2;
@@ -887,18 +885,50 @@
         g.save(); g.shadowColor = 'rgba(70,55,25,0.12)'; g.shadowBlur = 16; g.shadowOffsetY = 5;
         roundRect(g, x, y, w, h, r); g.fillStyle = fill; g.fill(); g.restore();
     }
-    // Earth: blue ocean + green landmass blobs + gold progress ring + % text.
+    // Simplified continent outlines ([lon, lat]), orthographically projected onto
+    // the globe so the earth reads as real land (Africa-centred view).
+    var CONTINENTS = [
+        // Africa
+        [[-6, 35], [10, 37], [24, 32], [32, 31], [35, 23], [38, 15], [43, 11], [51, 12], [45, 5], [42, -1], [40, -10], [35, -22], [26, -34], [19, -35], [13, -23], [12, -17], [9, -5], [8, 4], [3, 6], [-8, 4], [-12, 8], [-16, 14], [-17, 21], [-13, 28], [-10, 31], [-6, 35]],
+        // Eurasia (Europe + Asia + Arabia + India)
+        [[-9, 43], [-2, 49], [3, 52], [8, 54], [8, 58], [13, 55], [20, 55], [22, 60], [15, 65], [24, 71], [38, 66], [45, 68], [60, 70], [73, 73], [90, 75], [105, 77], [130, 73], [142, 72], [160, 69], [163, 61], [155, 58], [142, 54], [135, 48], [130, 43], [128, 38], [122, 40], [121, 31], [110, 22], [106, 21], [108, 15], [105, 9], [103, 2], [100, 7], [98, 16], [92, 22], [89, 22], [80, 13], [78, 8], [73, 17], [68, 24], [61, 25], [57, 25], [50, 20], [45, 13], [43, 12], [40, 15], [35, 23], [34, 29], [36, 37], [28, 41], [22, 40], [19, 42], [13, 45], [8, 44], [3, 43], [-9, 43]],
+        // Madagascar
+        [[46, -12], [50, -15], [49, -25], [45, -25], [43, -18], [46, -12]],
+        // Greenland
+        [[-45, 60], [-22, 70], [-20, 76], [-45, 83], [-58, 76], [-52, 66], [-45, 60]],
+        // South America (eastern part, left limb)
+        [[-35, -6], [-40, -14], [-48, -25], [-58, -34], [-72, -45], [-70, -20], [-62, -5], [-52, 2], [-50, 6], [-42, 0], [-35, -6]]
+    ];
+    var _toRad = Math.PI / 180;
+    function drawContinent(g, poly, lon0, lat0, R, cx, cy) {
+        var a0 = lat0 * _toRad, b0 = lon0 * _toRad, started = false;
+        g.beginPath();
+        for (var i = 0; i < poly.length; i++) {
+            var lo = poly[i][0] * _toRad, la = poly[i][1] * _toRad;
+            var cosc = Math.sin(a0) * Math.sin(la) + Math.cos(a0) * Math.cos(la) * Math.cos(lo - b0);
+            if (cosc < 0.03) { started = false; continue; }   // back hemisphere / limb
+            var x = cx + R * Math.cos(la) * Math.sin(lo - b0);
+            var y = cy - R * (Math.cos(a0) * Math.sin(la) - Math.sin(a0) * Math.cos(la) * Math.cos(lo - b0));
+            if (!started) { g.moveTo(x, y); started = true; } else g.lineTo(x, y);
+        }
+        g.fill();
+    }
+    // Earth: blue ocean + projected continents + sphere shading + gold ring + %.
     function drawEarth(g, cx, cy, r, pct) {
-        var oc = g.createRadialGradient(cx - r * 0.3, cy - r * 0.35, r * 0.2, cx, cy, r);
-        oc.addColorStop(0, '#4aa3e0'); oc.addColorStop(1, '#2f77c2');
+        var oc = g.createRadialGradient(cx - r * 0.32, cy - r * 0.36, r * 0.15, cx, cy, r);
+        oc.addColorStop(0, '#5aa9e2'); oc.addColorStop(1, '#2b6fbf');
         g.fillStyle = oc; g.beginPath(); g.arc(cx, cy, r, 0, 7); g.fill();
         g.save(); g.beginPath(); g.arc(cx, cy, r, 0, 7); g.clip();
-        g.fillStyle = '#5cb85a';
-        var blobs = [[-0.4, -0.3, 0.5, 0.4], [0.15, -0.45, 0.42, 0.32], [0.35, 0.2, 0.52, 0.5], [-0.3, 0.35, 0.42, 0.34], [0.0, 0.0, 0.34, 0.46]];
-        blobs.forEach(function (b) { g.beginPath(); if (g.ellipse) { g.ellipse(cx + r * b[0], cy + r * b[1], r * b[2] * 0.5, r * b[3] * 0.5, 0.5, 0, 7); g.fill(); } });
-        var hl = g.createRadialGradient(cx - r * 0.35, cy - r * 0.4, 0, cx - r * 0.35, cy - r * 0.4, r * 0.9);
-        hl.addColorStop(0, 'rgba(255,255,255,.30)'); hl.addColorStop(1, 'rgba(255,255,255,0)');
+        var R = r * 0.99, lon0 = 20, lat0 = 8;
+        g.fillStyle = '#5bb85a';
+        for (var k = 0; k < CONTINENTS.length; k++) drawContinent(g, CONTINENTS[k], lon0, lat0, R, cx, cy);
+        // specular highlight (upper-left) + depth shadow (lower-right)
+        var hl = g.createRadialGradient(cx - r * 0.34, cy - r * 0.4, 0, cx - r * 0.34, cy - r * 0.4, r);
+        hl.addColorStop(0, 'rgba(255,255,255,.30)'); hl.addColorStop(0.55, 'rgba(255,255,255,0)');
         g.fillStyle = hl; g.beginPath(); g.arc(cx, cy, r, 0, 7); g.fill();
+        var sh = g.createRadialGradient(cx + r * 0.4, cy + r * 0.46, r * 0.2, cx, cy, r * 1.15);
+        sh.addColorStop(0, 'rgba(2,18,45,0)'); sh.addColorStop(1, 'rgba(2,14,38,.36)');
+        g.fillStyle = sh; g.beginPath(); g.arc(cx, cy, r, 0, 7); g.fill();
         g.restore();
         var frac = Math.max(0, Math.min(1, pct / 100));
         g.lineWidth = 14; g.lineCap = 'round';

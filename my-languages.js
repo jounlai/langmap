@@ -413,7 +413,7 @@
             '.mylang-stat.big .v{font-size:30px}',
             '.mylang-stat .l{font-size:11px;opacity:.7;margin-top:2px}',
             '.mylang-actions{display:flex;flex-wrap:wrap;gap:8px}',
-            '.mylang-act{flex:1;min-width:120px;padding:11px;border-radius:10px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer;text-align:center}',
+            '.mylang-act{flex:1;min-width:120px;padding:11px;border-radius:10px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font:inherit;font-weight:700;cursor:pointer;text-align:center;display:flex;align-items:center;justify-content:center}',
             '.mylang-act:hover{background:rgba(90,140,220,.12)}',
             '.mylang-act.primary{background:#3f6fd6;border-color:#3f6fd6;color:#fff}',
             '.mylang-act.primary:hover{background:#345cb3}',
@@ -772,7 +772,7 @@
     // Shareable passport URL (the #ml= hash reconstructs the selection) + text.
     function passportUrl() {
         var p = getMyLangHashParam();
-        return location.origin + location.pathname + (p ? '#' + p : '');
+        return location.origin + location.pathname + (p ? '#' + p + '&mlo=1' : '');
     }
     function shareText() {
         var s = stats();
@@ -1148,7 +1148,11 @@
             var tries = 0, iv = setInterval(function () { if (mountButton() || ++tries > 40) clearInterval(iv); }, 150);
         }
         window.addEventListener('langmap:uichange', relocalize);
-        try { if (/mldebug/.test(location.hash + location.search)) window.__mlTest = { drawCard: drawCard, state: state }; } catch (e) {}
+        try { if (/mldebug/.test(location.hash + location.search)) window.__mlTest = { drawCard: drawCard, state: state, open: open, openImage: openImage, render: renderBuilder }; } catch (e) {}
+        // A shared passport link (…&mlo=1) opens straight to the finished card.
+        if (/[#&]mlo=1/.test(location.hash) && state.langs.length) {
+            setTimeout(function () { open(); setTimeout(openImage, 90); }, 220);
+        }
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
     else init();

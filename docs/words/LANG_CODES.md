@@ -1026,7 +1026,7 @@ Total: 1138 codes.
 | `ve` | Venda | ヴェンダ語 | Niger-Congo (Atlantic-Congo, Bantu, Southern Bantu) | ~1.3M |
 | `vec` | Venetian | ヴェネト語 | Romance | ~3.8M |
 | `vep` | Veps | ヴェプス語 | Uralic (Finnic) | ~1.6K |
-| `vi` | Northern Vietnamese | 北部ベトナム語 | Austroasiatic | ~85M |
+| `vi` | Vietnamese | ベトナム語 | Austroasiatic | ~85M |
 | `vi_c` | Central Vietnamese | 中部ベトナム語 | Austroasiatic (Vietic, Vietnamese) | ~14M |
 | `vi_han` | Vietnamese Hán văn (Sino-reading) | ベトナム漢文(漢越音) | Sinitic (Sino-Vietnamese pedagogical reading of Literary Chinese) | Active Han-Nôm scholarly use (Vietnamese, no L1) |
 | `vi_nom` | Vietnamese (Chữ Nôm) | ベトナム語(字喃) | Austroasiatic | Extinct (script) |

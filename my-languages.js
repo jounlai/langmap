@@ -314,23 +314,45 @@
     // getMyLangHashParam and rewrites the hash when we call syncHash(), so the
     // selection survives reloads and travels in shareable links.
     function validLevel(k) { for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].key === k) return k; return 'B2'; }
+    function levelIdx(k) { for (var i = 0; i < LEVELS.length; i++) if (LEVELS[i].key === k) return i; return 3; }
+    function levelFromIdx(d) { var i = parseInt(d, 10); return (i >= 0 && i < LEVELS.length) ? LEVELS[i].key : 'B2'; }
+    // URL-safe base64 of a Unicode string (no %-encoding, so CJK names stay short).
+    function b64u(str) { try { return btoa(unescape(encodeURIComponent(str))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); } catch (e) { return ''; } }
+    function unb64u(s) { s = s.replace(/-/g, '+').replace(/_/g, '/'); while (s.length % 4) s += '='; return decodeURIComponent(escape(atob(s))); }
+    // Compact share param: base64url of "<p>\x1f<code+lvl joined by .>\x1f<name>\x1f<residence>",
+    // e.g. "0\x1fko6.zh3.ja4\x1f趙\x1f東京". Tiny vs the old percent-encoded JSON.
+    // \x1f (unit separator) can't occur in user text, so no escaping is needed.
     function getMyLangHashParam() {
         if (!state.langs.length) return '';
-        var payload = { n: state.name || '', r: state.residence || '', p: _plotted ? 1 : 0, l: state.langs.map(function (x) { return [x.code, x.level]; }) };
-        return 'ml=' + encodeURIComponent(JSON.stringify(payload));
+        var langs = state.langs.map(function (x) { return x.code + levelIdx(x.level); }).join('.');
+        var parts = [_plotted ? 1 : 0, langs, state.name || '', state.residence || ''];
+        while (parts.length > 2 && parts[parts.length - 1] === '') parts.pop();
+        return 'ml=' + b64u(parts.join('\u001f'));
     }
     function syncHash() { try { if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } catch (e) {} }
+    function rawMlParam() { var m = /(?:^|[#&])ml=([^&]*)/.exec(location.hash || ''); return m ? m[1] : null; }
     function restoreFromHash() {
         try {
-            var raw = _bootParam || new URLSearchParams((location.hash || '').replace(/^#/, '')).get('ml');
+            var raw = _bootParam || rawMlParam();
             if (!raw) return;
-            var obj = JSON.parse(raw);
-            if (!obj || !Array.isArray(obj.l)) return;
-            state.name = typeof obj.n === 'string' ? obj.n : '';
-            state.residence = typeof obj.r === 'string' ? obj.r : '';
-            state.langs = obj.l.filter(function (p) { return p && p[0] && LD()[p[0]]; })
-                .map(function (p) { return { code: p[0], level: validLevel(p[1]) }; });
-            if (obj.p && state.langs.length) { _plotted = true; replotWithRetry(0); }
+            if (/%|^\{/.test(raw) || /^%7B/i.test(raw)) {   // legacy percent-encoded JSON
+                var obj = JSON.parse(decodeURIComponent(raw));
+                if (!obj || !Array.isArray(obj.l)) return;
+                state.name = typeof obj.n === 'string' ? obj.n : '';
+                state.residence = typeof obj.r === 'string' ? obj.r : '';
+                state.langs = obj.l.filter(function (p) { return p && p[0] && LD()[p[0]]; })
+                    .map(function (p) { return { code: p[0], level: validLevel(p[1]) }; });
+                if (obj.p && state.langs.length) { _plotted = true; replotWithRetry(0); }
+                return;
+            }
+            var parts = unb64u(raw).split('\u001f');
+            var langStr = parts[1] || '';
+            state.langs = langStr ? langStr.split('.').filter(Boolean).map(function (tok) {
+                return { code: tok.slice(0, -1), level: levelFromIdx(tok.slice(-1)) };
+            }).filter(function (x) { return x.code && LD()[x.code]; }) : [];
+            state.name = parts[2] != null ? parts[2] : '';
+            state.residence = parts[3] != null ? parts[3] : '';
+            if (parts[0] === '1' && state.langs.length) { _plotted = true; replotWithRetry(0); }
         } catch (e) {}
     }
     // The map/updateMarkers may not be ready the instant we restore; retry a few

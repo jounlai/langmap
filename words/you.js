@@ -169,7 +169,7 @@ WORDS.you = {
       ja: ["あなた", "anata"],
       ja_osa: ["あんた", "anta"],
       ja_aom: ["な", "na"],
-      ja_oki: ["やー", "jaː"],
+      ja_oki: ["やー", "ʔjaː"],
       ja_hak: ["あんた", "anta"],
       ja_kyo: ["あんた", "anta"],
       ja_hir: ["あんた", "anta"],

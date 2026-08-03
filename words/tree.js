@@ -169,7 +169,7 @@ WORDS.tree = {
     ja: ["木", "ki"],
     ja_osa: ["木", "ki"],
     ja_aom: ["木", "ki"],
-    ja_oki: ["木", "tɕiː"],
+    ja_oki: ["木", "kiː"],
     ja_hak: ["木", "ki"],
     ja_kyo: ["木", "ki"],
     ja_hir: ["木", "ki"],

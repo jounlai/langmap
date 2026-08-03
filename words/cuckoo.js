@@ -472,6 +472,7 @@ WORDS.cuckoo = {
     "yug": ["χɔχpɨń", "χɔχpɨɲ"],
     "za": ["roegdinghgeng", "ɣok˧ tiŋ˧ keːŋ˨˦"],
     "zh": ["布谷鸟", "pu˥˩ ku˨˩˦ ni̯ɑʊ̯˨˩˦"],
+    "zh_tw": ["布穀鳥", "pu˥˩ ku˨˩˦ ni̯ɑʊ̯˨˩˦"],
     "zh_cd": ["阳雀", "iaŋ˨˩tɕʰio˨˩"],
     "zh_cq": ["阳雀", "iaŋ˨˩tɕʰio˨˩"],
     "zh_db": ["喀咕", "kʰa˦ku˦"],

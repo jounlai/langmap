@@ -395,6 +395,7 @@ WORDS.computer = {
     "yue": ["電腦", "tiːn˨ nou̯˩˧"],
     "yue_nn": ["电脑", "tin˨˨nou˨˦"],
     "zh": ["电脑", "tjɛn˥˩ nɑʊ̯˨˩˦"],
+    "zh_tw": ["電腦", "tjɛn˥˩ nɑʊ̯˨˩˦"],
     "zh_cd": ["电脑", "tiɛn˨˩˧nau˥˧"],
     "zh_cq": ["电脑", "tiɛn˨˩˦nau˦˨"],
     "zh_db": ["电脑", "tiɛn˥˨nau˨˩˧"],

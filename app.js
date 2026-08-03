@@ -667,7 +667,7 @@ function applyUILang() {
     }
     const trLabels = {ja:'系統樹',ko:'계통수',zh:'谱系树',yue:'譜系樹',vi:'Cây phả hệ',th:'แผนภูมิ',id:'Pohon',hi:'वृक्ष',en:'Tree',de:'Stammbaum',fr:'Arbre',it:'Albero',es:'Árbol',pt:'Árvore',ru:'Древо',uk:'Дерево',ar:'الشجرة',he:'אילן',sw:'Mti'};
     const hanLabels = {ja:'漢字マップ',ko:'한자 맵',zh:'汉字地图',yue:'漢字地圖',vi:'Bản đồ Hán tự',th:'แผนที่ตัวอักษร',id:'Peta Hanzi',hi:'हान्ज़ी मानचित्र',en:'HanMap',de:'HanMap',fr:'Carte des hanzi',it:'Mappa hanzi',es:'Mapa de hanzi',pt:'Mapa de hanzi',ru:'Карта иероглифов',uk:'Карта ієрогліфів',ar:'خريطة الحروف',he:'מפת תווים',sw:'Ramani ya hanzi'};
-    const nameLabels = {ja:'ネームマップ',ko:'이름 맵',zh:'姓名地图',yue:'姓名地圖',vi:'Bản đồ tên',th:'แผนที่ชื่อ',id:'Peta Nama',hi:'नाम मानचित्र',en:'Name Map',de:'Namenskarte',fr:'Carte des prénoms',it:'Mappa dei nomi',es:'Mapa de nombres',pt:'Mapa de nomes',ru:'Карта имён',uk:'Карта імен',ar:'خريطة الأسماء',he:'מפת שמות',sw:'Ramani ya majina'};
+    const nameLabels = {ja:'名前マップ',ko:'이름 맵',zh:'姓名地图',yue:'姓名地圖',vi:'Bản đồ tên',th:'แผนที่ชื่อ',id:'Peta Nama',hi:'नाम मानचित्र',en:'Name Map',de:'Namenskarte',fr:'Carte des prénoms',it:'Mappa dei nomi',es:'Mapa de nombres',pt:'Mapa de nomes',ru:'Карта имён',uk:'Карта імен',ar:'خريطة الأسماء',he:'מפת שמות',sw:'Ramani ya majina'};
     setNavText(document.getElementById('navWordOrder'), woLabels[currentUILang] || woLabels.en);
     setNavText(document.getElementById('navToWordMap'), wmLabels[currentUILang] || wmLabels.en);
     setNavText(document.getElementById('navToTree'), trLabels[currentUILang] || trLabels.en);

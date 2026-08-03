@@ -304,6 +304,17 @@
            its unpainted centre falls through and the button doesn't fire. Let the
            whole 44px button be the tap target. Same for the other map-ctl icons. */
         .nm-map-ctl button svg { pointer-events: none; }
+        /* Credit watermark (bottom-left), same as WordMap / HanMap so every map
+           carries the "Made by" credit alongside the map attribution. */
+        .url-watermark {
+            position: fixed; bottom: 0; left: 0; z-index: 1000;
+            font-size: 11px; color: rgba(0,0,0,0.5);
+            background: rgba(255,255,255,0.75); padding: 3px 8px;
+            border-radius: 0 4px 0 0;
+            display: flex; align-items: center; gap: 4px; line-height: 1.2;
+            pointer-events: none;
+        }
+        .url-watermark a { pointer-events: auto; color: inherit; }
         .size-slider-wrap {
             display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
             background: rgba(255,255,255,0.92); border-radius: 8px; padding: 6px 4px;
@@ -339,6 +350,7 @@
         @media (max-width: 780px) {
             /* Keep the map credit above the home indicator so it stays visible. */
             .leaflet-bottom { bottom: env(safe-area-inset-bottom); }
+            .url-watermark { left: env(safe-area-inset-left, 0); right: auto; bottom: 0; font-size: 9px; padding: 2px 6px; }
             /* Panel stops being a card; its children are positioned individually. */
             .nm-panel {
                 position: static; display: block; width: auto; max-width: none; max-height: none;
@@ -348,10 +360,16 @@
             /* Minimal top control: a transparent pulldown + a subtle details
                button. Search is hidden. Sits BELOW the header menu (z-index
                < the drawer/backdrop at 1099) so the menu covers it when open. */
+            /* right:auto so this transparent control strip shrinks to its own
+               content (the selector) instead of spanning full width — otherwise
+               its empty right half sat over the gear and ate taps on the gear's
+               top. pointer-events guard belt-and-suspenders. */
             .nm-controls {
-                position: absolute; top: 8px; left: 8px; right: 8px; width: auto; max-width: none; z-index: 1050;
+                position: absolute; top: 8px; left: 8px; right: auto; width: auto; max-width: none; z-index: 1050;
                 border: none; border-radius: 0; box-shadow: none; background: transparent; padding: 0;
+                pointer-events: none;
             }
+            .nm-controls > * { pointer-events: auto; }
             .nm-search-wrap { display: none; }
             /* Match HanMap: zoom buttons are hidden on mobile (pinch to zoom);
                the simple-display toggle is relocated into the header (JS). */
@@ -499,6 +517,11 @@
             </div>
         </div>
         <div class="nm-sheet-backdrop" id="nm-sheet-backdrop" aria-hidden="true"></div>
+    </div>
+
+    <!-- Credit watermark -->
+    <div class="url-watermark">
+        Made by <a href="https://x.com/jounlai" target="_blank" rel="noopener">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" aria-label="GitHub repository"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

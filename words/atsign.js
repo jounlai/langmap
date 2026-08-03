@@ -88,6 +88,33 @@ WORDS.atsign = {
     // === Middle East ===
     he: ["שטרודל", "ˈʃtrudel"],
     ar: ["آت", "ʔaːt"],
+    fa: ["ات", "ʔæt"],
+    // === More Western Europe ===
+    gl: ["arroba", "aˈrɔβɐ"],
+    oc: ["arròba", "aˈrɔβɔ"],
+    lb: ["Afeschwanz", "ˈafəʃvants"],
+    fo: ["kurla", "ˈkʰʊʂla"],
+    af: ["aapstert", "ˈɑːpstɛrt"],
+    // === Baltic ===
+    et: ["ätt", "ætː"],
+    lv: ["et", "et"],
+    lt: ["eta", "ɛˈtaː"],
+    // === More Eastern & Southeastern Europe ===
+    sl: ["afna", "ˈaːfna"],
+    mk: ["мајмунче", "majˈmuntʃe"],
+    be: ["слімак", "ˈslʲimak"],
+    // === More Caucasus & Central Asia ===
+    az: ["ət", "æt"],
+    uz: ["kuchukcha", "kutʃukˈtʃa"],
+    // === More South & Southeast Asia ===
+    ur: ["ایٹ", "eːʈ"],
+    bn: ["অ্যাট", "æʈ"],
+    tl: ["at", "ɐt"],
+    ms: ["di", "di"],
+    // === Historical: the @ symbol began as the "arroba" unit mark in
+    //     medieval Iberian/Italian merchant documents (Arabic ar-rubʿ). ===
+    lad: ["arroba", "aˈroba"],
+    osp: ["arroba", "aˈroba"],
     // === Constructed ===
     eo: ["heliko", "heˈliko"],
   },

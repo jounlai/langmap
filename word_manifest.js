@@ -43,4 +43,5 @@ const WORD_ORDER = [
     "computer",
     "sushi",
     "dopamine",
+    "atsign",
 ];

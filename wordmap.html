@@ -756,6 +756,14 @@
                two-line block rather than two separate rows (owner 2026-07-19). */
             margin-top: -1px;
         }
+        /* Literal meaning line — only for the "@" concept: shows what each
+           language's @ name actually means (🐌 snail, 🐕 dog…). Coloured green
+           so the playful gloss stands apart from the word/IPA. */
+        .lang-label .meaning, .globe-label .meaning {
+            font-size: calc(9px * var(--label-scale)); color: #2e8b57; line-height: 1.15;
+            white-space: nowrap; margin-top: 1px; font-weight: 600;
+        }
+        .zoom-far .lang-label .meaning { font-size: calc(7px * var(--label-scale)); }
         /* Vertical writing for Mongolian Traditional Script / Manchu */
         .lang-label.vertical .word {
             writing-mode: vertical-lr;
@@ -2742,8 +2750,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=247"></script>
-    <script src="word_manifest.js?v=101"></script>
-    <script src="word_labels.js?v=9"></script>
+    <script src="word_manifest.js?v=104"></script>
+    <script src="word_labels.js?v=10"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
         // does `WORDS.<id> = {...}` and would ReferenceError otherwise.
@@ -3195,8 +3203,8 @@
             meta:     247,
             trivia:   27,
             triviaI18n: 4,
-            words:      101,
-            labels:      9,
+            words:      104,
+            labels:      10,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
             metaI18nCoverage3: 1,
@@ -4638,6 +4646,11 @@
             // in correct order; IPA stays LTR.
             if (showWord) html += `<div class="word" dir="auto" ${c ? `style="color:${c}"` : ''}>${w}</div>`;
             if (showIpa) html += `<div class="ipa" dir="ltr" ${c ? `style="color:${c}"` : ''}>/${i}/</div>`;
+            // "@" concept only: the literal meaning of this language's @ name.
+            if (typeof currentWord !== 'undefined' && currentWord === 'atsign') {
+                const mng = atsignMeaning(code);
+                if (mng) html += `<div class="meaning" dir="auto">${escapeHtml(mng)}</div>`;
+            }
             if (showName) {
                 html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
                 // Historical languages carry meta.period ("~700 BCE–600 CE"): show
@@ -4647,6 +4660,17 @@
             }
             html += '</div>';
             return html;
+        }
+
+        // The literal meaning (emoji + localized gloss) of a language's "@" name,
+        // e.g. ru собака → "🐕 dog". Only the atsign concept defines .meaning.
+        function atsignMeaning(code) {
+            const M = window.WORDS && window.WORDS.atsign && window.WORDS.atsign.meaning;
+            const m = M && M[code];
+            if (!m) return '';
+            const base = uiLang.split('_')[0];
+            const txt = m[uiLang] || m[base] || m.en || '';
+            return txt ? ((m.emoji ? m.emoji + ' ' : '') + txt) : '';
         }
 
         function getDisplayName(code, lang) {

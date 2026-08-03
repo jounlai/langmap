@@ -2750,7 +2750,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=247"></script>
-    <script src="word_manifest.js?v=104"></script>
+    <script src="word_manifest.js?v=105"></script>
     <script src="word_labels.js?v=10"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -3203,7 +3203,7 @@
             meta:     247,
             trivia:   27,
             triviaI18n: 4,
-            words:      104,
+            words:      105,
             labels:      10,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
@@ -4665,8 +4665,13 @@
         // The literal meaning (emoji + localized gloss) of a language's "@" name,
         // e.g. ru собака → "🐕 dog". Only the atsign concept defines .meaning.
         function atsignMeaning(code) {
-            const M = window.WORDS && window.WORDS.atsign && window.WORDS.atsign.meaning;
-            const m = M && M[code];
+            const A = window.WORDS && window.WORDS.atsign;
+            const M = A && A.meaning;
+            let m = M && M[code];
+            if (!m) return '';
+            // meaning[code] may be a gloss-key string (into A.glosses) or, for
+            // backward compat, an inline {emoji, en, ja, …} object.
+            if (typeof m === 'string') m = A.glosses && A.glosses[m];
             if (!m) return '';
             const base = uiLang.split('_')[0];
             const txt = m[uiLang] || m[base] || m.en || '';

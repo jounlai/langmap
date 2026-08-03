@@ -181,6 +181,7 @@ WORDS.hello = {
     ko_jeju: ["혼저옵서예", "hondʑʌop̚s͈ʌje"],
     ko_yb: ["안녕하십니까", "annjʌŋhaɕimnik͈a"],
     zh: ["你好", "ni˧˩˧xaʊ̯˧˩˧"],
+    zh_tw: ["你好", "ni˧˩˧xaʊ̯˧˩˧"],
     yue: ["你好", "neːi˩˧hou˧˥"],
     nan: ["你好", "li˧˥ho˧˥"],
     wuu: ["侬好", "noŋ˩hɔ˧˩"],

@@ -181,6 +181,7 @@ WORDS.fire = {
     ko_jeju: ["불", "pul"],
     ko_yb: ["불", "pul"],
     zh: ["火", "xwo˧˩˧"],
+    zh_tw: ["火", "xwo˧˩˧"],
     yue: ["火", "fɔː˧˥"],
     nan: ["火", "hue˥˧"],
     wuu: ["火", "hu˧˥"],

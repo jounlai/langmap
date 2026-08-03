@@ -181,6 +181,7 @@ WORDS.one = {
     ko_jeju: ["하나", "hana"],
     ko_yb: ["하나", "hana"],
     zh: ["一", "i˥"],
+    zh_tw: ["一", "i˥"],
     yue: ["一", "jɐt˥"],
     nan: ["一", "it˦"],
     wuu: ["一", "iʔ˥"],

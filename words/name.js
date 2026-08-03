@@ -181,6 +181,7 @@ WORDS.name = {
       ko_jeju: ["이름", "iɾɯm"],
       ko_yb: ["이름", "iɾɯm"],
       zh: ["名字", "miŋ˧˥ tsɿ"],
+      zh_tw: ["名字", "miŋ˧˥ tsɿ"],
       yue: ["名", "mɛːŋ˧˥"],
       nan: ["名", "miã˨˦"],
       wuu: ["名字", "min˩˧ z̩"],

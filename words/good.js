@@ -181,6 +181,7 @@ WORDS.good = {
     ko_jeju: ["좋앙", "tɕoaŋ"],
     ko_yb: ["좋아", "tɕoa"],
     zh: ["好", "xaʊ̯˧˩˧"],
+    zh_tw: ["好", "xaʊ̯˧˩˧"],
     yue: ["好", "hou˧˥"],
     nan: ["好", "ho˧˥"],
     wuu: ["好", "hɔ˧˩"],

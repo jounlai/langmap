@@ -181,6 +181,7 @@ WORDS.drink = {
     ko_jeju: ["마셩", "maɕjʌŋ"],
     ko_yb: ["마셔", "maɕjʌ"],
     zh: ["喝", "xɤ˥"],
+    zh_tw: ["喝", "xɤ˥"],
     yue: ["飲", "jɐm˧˥"],
     nan: ["啉", "lim˦"],
     wuu: ["喝", "huəʔ˥"],

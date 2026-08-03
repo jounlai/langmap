@@ -181,6 +181,7 @@ WORDS.water = {
     ko_jeju: ["물", "mul"],
     ko_yb: ["물", "mul"],
     zh: ["水", "ʂweɪ̯˧˩˧"],
+    zh_tw: ["水", "ʂweɪ̯˧˩˧"],
     yue: ["水", "sɵy˧˥"],
     nan: ["水", "tsui˥˧"],
     wuu: ["水", "sz̩˧˥"],

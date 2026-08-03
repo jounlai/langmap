@@ -181,6 +181,7 @@ WORDS.heart = {
     ko_jeju: ["모심", "mosim"],
     ko_yb: ["마음", "maɯm"],
     zh: ["心", "ɕin˥"],
+    zh_tw: ["心", "ɕin˥"],
     yue: ["心", "sɐm˥"],
     nan: ["心", "sim˥"],
     wuu: ["心", "ɕin˥"],

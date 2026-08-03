@@ -181,6 +181,7 @@ WORDS.tree = {
     ko_jeju: ["낭", "naŋ"],
     ko_yb: ["나무", "namu"],
     zh: ["树", "ʂu˥˩"],
+    zh_tw: ["樹", "ʂu˥˩"],
     yue: ["樹", "syː˨"],
     nan: ["樹", "tsʰiu˨˨"],
     wuu: ["树", "zz̩˨˧"],

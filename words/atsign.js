@@ -108,6 +108,7 @@ WORDS.atsign = {
     ja: "atmark",
     is: "atmark",
     fo: "curl",
+    zh_tw: "littlemouse",
   },
   glosses: {
     snail: { emoji: "🐌", en: "snail", ja: "カタツムリ", ko: "달팽이", zh: "蜗牛", yue: "蝸牛", vi: "ốc sên", th: "หอยทาก", id: "siput", hi: "घोंघा", de: "Schnecke", fr: "escargot", it: "chiocciola", es: "caracol", pt: "caracol", ru: "улитка", uk: "равлик", ar: "حلزون", he: "חילזון", sw: "konokono" },
@@ -133,12 +134,14 @@ WORDS.atsign = {
     arroba: { emoji: "⚖️", en: "arroba (old weight unit)", ja: "アローバ（旧重量単位）", ko: "아로바 (옛 무게 단위)", zh: "阿罗瓦（旧重量单位）", yue: "阿羅瓦（舊重量單位）", vi: "arroba (đơn vị đo khối lượng cũ)", th: "อาร์โรบา (หน่วยน้ำหนักโบราณ)", id: "arroba (satuan berat kuno)", hi: "अरोबा (पुरानी वज़न इकाई)", de: "Arroba (altes Gewichtsmaß)", fr: "arroba (ancienne unité de poids)", it: "arroba (antica unità di peso)", es: "arroba (antigua unidad de peso)", pt: "arroba (antiga unidade de peso)", ru: "арроба (старая единица веса)", uk: "арроба (стара одиниця ваги)", ar: "أروبا (وحدة وزن قديمة)", he: "ארובה (יחידת משקל ישנה)", sw: "arroba (kipimo cha zamani cha uzito)" },
     commerciala: { emoji: "🅰️", en: "commercial 'a'", ja: "商業の a", ko: "상업용 a", zh: "商用 a", yue: "商用 a", vi: "a thương mại", th: "a เชิงพาณิชย์", id: "a komersial", hi: "व्यावसायिक a", de: "kaufmännisches A", fr: "a commercial", it: "a commerciale", es: "a comercial", pt: "a comercial", ru: "коммерческое a", uk: "комерційне a", ar: "a تجاري", he: "a מסחרי", sw: "a ya kibiashara" },
     atmark: { emoji: "🔤", en: "the 'at' mark", ja: "アット記号", ko: "at 기호", zh: "艾特符号", yue: "艾特符號", vi: "dấu at", th: "เครื่องหมายแอท", id: "tanda at", hi: "एट चिह्न", de: "At-Zeichen", fr: "signe at", it: "simbolo at", es: "signo at", pt: "sinal at", ru: "знак «ат»", uk: "знак «ат»", ar: "علامة \"at\"", he: "סימן \"at\"", sw: "alama ya at" },
+    littlemouse: { emoji: "🐭", en: "little mouse", ja: "子ネズミ", ko: "생쥐", zh: "小老鼠", yue: "小老鼠", vi: "chuột nhắt", th: "หนูน้อย", id: "tikus kecil", hi: "छोटा चूहा", de: "Mäuschen", fr: "petite souris", it: "topolino", es: "ratoncito", pt: "ratinho", ru: "мышка", uk: "мишка", ar: "فأر صغير", he: "עכבר קטן", sw: "panya mdogo" },
   },
   data: {
     // === East Asia ===
     ja: ["アットマーク", "atːomaːkɯ"],
     ko: ["골뱅이", "kolbɛŋi"],
     zh: ["艾特", "ai̯˥˩ tʰɤ˥˩"],
+    zh_tw: ["小老鼠", "ɕi̯ɑʊ̯˧˥ lɑʊ̯˧˥ ʂu˧˩˧"],
     yue: ["at", "ɛːt̚˥"],
     // === Southeast & South Asia ===
     vi: ["a còng", "aː˧ kɔŋ˨˩"],

@@ -181,6 +181,7 @@ WORDS.thanks = {
     ko_jeju: ["고맙수다", "komap̚s͈uda"],
     ko_yb: ["고맙습니다", "komap̚s͈ɯmnida"],
     zh: ["谢谢", "ɕjɛ˥˩ɕjɛ"],
+    zh_tw: ["謝謝", "ɕjɛ˥˩ɕjɛ"],
     yue: ["多謝", "tɔː˥tsɛː˨"],
     nan: ["多謝", "to˥sia˨˨"],
     wuu: ["谢谢", "ʑia˩ʑia"],

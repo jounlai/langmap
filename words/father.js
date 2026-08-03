@@ -181,6 +181,7 @@ WORDS.father = {
     ko_jeju: ["아방", "abaŋ"],
     ko_yb: ["아바이", "abai"],
     zh: ["爸爸", "pa˥˩pa"],
+    zh_tw: ["爸爸", "pa˥˩pa"],
     yue: ["爸爸", "paː˨˩paː˥"],
     nan: ["爸爸", "pa˥pa"],
     wuu: ["爸爸", "pa˧˩pa"],

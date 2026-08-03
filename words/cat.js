@@ -181,6 +181,7 @@ WORDS.cat = {
     ko_jeju: ["괭이", "kwɛŋi"],
     ko_yb: ["고양이", "kojaŋi"],
     zh: ["猫", "maʊ̯˥"],
+    zh_tw: ["貓", "maʊ̯˥"],
     yue: ["貓", "maːu˥"],
     nan: ["貓", "niau˥"],
     wuu: ["猫", "mɔ˥"],

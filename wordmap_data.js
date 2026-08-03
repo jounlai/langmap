@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1138 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1139 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -333,6 +333,8 @@ const LANG_DATA = {
   yue: { name: 'Cantonese', native: '廣東話', lat: 22.28, lng: 114.16, // Hong Kong
 },
   nan: { name: 'Taiwanese', native: '台語', lat: 25.03, lng: 121.57, // Taipei
+},
+  zh_tw: { name: 'Taiwan Mandarin', native: '國語', lat: 25.10, lng: 121.52, // Taipei
 },
   wuu: { name: 'Wu Chinese', native: '吳語', lat: 31.23, lng: 121.47,
 

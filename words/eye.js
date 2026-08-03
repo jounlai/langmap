@@ -181,6 +181,7 @@ WORDS.eye = {
     ko_jeju: ["눈", "nun"],
     ko_yb: ["눈", "nun"],
     zh: ["眼睛", "jɛn˧˩˧tɕiŋ"],
+    zh_tw: ["眼睛", "jɛn˧˩˧tɕiŋ"],
     yue: ["眼", "ŋaːn˩˧"],
     nan: ["目", "bak˦"],
     wuu: ["眼睛", "ŋɛ˩tɕin˥"],

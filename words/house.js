@@ -181,6 +181,7 @@ WORDS.house = {
     ko_jeju: ["집", "tɕip̚"],
     ko_yb: ["집", "tɕip̚"],
     zh: ["房子", "fɑŋ˧˥tsɨ"],
+    zh_tw: ["房子", "fɑŋ˧˥tsɨ"],
     yue: ["屋", "ʊk˥"],
     nan: ["厝", "tsʰu˩˩"],
     wuu: ["屋里", "oʔ˥li"],

@@ -181,6 +181,7 @@ WORDS.mother = {
     ko_jeju: ["어멍", "ʌmʌŋ"],
     ko_yb: ["오마니", "omani"],
     zh: ["妈妈", "ma˥ma"],
+    zh_tw: ["媽媽", "ma˥ma"],
     yue: ["媽媽", "maː˥maː˥"],
     nan: ["媽媽", "ma˥ma"],
     wuu: ["姆妈", "m̩ma"],

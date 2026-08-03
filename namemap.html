@@ -68,8 +68,8 @@
            / below the map (and push the footer under the URL bar). Kept as a flex
            column so the header keeps its natural height and the stage fills the
            rest — the header can never be clipped. */
-        html, body { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; }
-        body { background: #f0f2f5; display: flex; flex-direction: column; }
+        html, body { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; height: 100dvh; margin: 0; padding: 0; overflow: hidden; }
+        body { background: #fff; display: flex; flex-direction: column; }
         /* The shared header uses margin:-20px to bleed into body's 20px padding;
            this page has no such padding, so cancel it (otherwise the header is
            pulled up off the top). */
@@ -265,7 +265,7 @@
         .leaflet-control-zoom { display: none !important; }
         .nm-map-ctl {
             position: fixed; top: 52px; right: 10px; z-index: 1001;
-            display: flex; flex-direction: column; gap: 6px; align-items: center;
+            display: flex; flex-direction: column; gap: 6px; align-items: flex-end;
         }
         /* Zoom pill — identical to HanMap's .map-zoom-controls */
         .map-zoom-controls {
@@ -330,6 +330,8 @@
 
         /* ===== Mobile ===== */
         @media (max-width: 780px) {
+            /* Keep the map credit above the home indicator so it stays visible. */
+            .leaflet-bottom { bottom: env(safe-area-inset-bottom); }
             /* Panel stops being a card; its children are positioned individually. */
             .nm-panel {
                 position: static; display: block; width: auto; max-width: none; max-height: none;
@@ -577,6 +579,9 @@
             map = L.map('map', {
                 center: [30, 15], zoom: 2.4, minZoom: 2, maxZoom: 8,
                 worldCopyJump: true, zoomControl: false, zoomSnap: 0.5,
+                // Clamp latitude so you can't pan past the poles into the grey
+                // void (wide longitude keeps horizontal wrap free).
+                maxBounds: [[-84, -1200], [84, 1200]], maxBoundsViscosity: 1.0,
             });
             map.on('zoomend', ()=>requestAnimationFrame(relaxLabels));
             L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {

@@ -63,10 +63,13 @@
     <style>
         /* ===== NameMap-specific layout (shares header/nav/lang-picker/buttons
                  from styles.css) =============================================== */
-        html, body { height: 100%; }
-        /* Flex column: header keeps its natural height, the stage fills the rest.
-           No magic pixel offset, so the header can never be clipped. */
-        body { margin: 0; padding: 0; overflow: hidden; background: #f0f2f5; display: flex; flex-direction: column; }
+        /* Lock the page to the viewport like WordMap / HanMap: position:fixed so
+           iOS's dynamic URL bar can't let the page scroll into empty space above
+           / below the map (and push the footer under the URL bar). Kept as a flex
+           column so the header keeps its natural height and the stage fills the
+           rest — the header can never be clipped. */
+        html, body { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden; }
+        body { background: #f0f2f5; display: flex; flex-direction: column; }
         /* The shared header uses margin:-20px to bleed into body's 20px padding;
            this page has no such padding, so cancel it (otherwise the header is
            pulled up off the top). */
@@ -290,6 +293,10 @@
             box-shadow: 0 1px 4px rgba(0,0,0,0.12); color: #444; cursor: pointer; padding: 0;
         }
         .settings-fab:hover { background: #f3f4f6; }
+        /* The gear SVG (fill:none) must not intercept taps — otherwise a tap on
+           its unpainted centre falls through and the button doesn't fire. Let the
+           whole 44px button be the tap target. Same for the other map-ctl icons. */
+        .nm-map-ctl button svg { pointer-events: none; }
         .size-slider-wrap {
             display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
             background: rgba(255,255,255,0.92); border-radius: 8px; padding: 6px 4px;

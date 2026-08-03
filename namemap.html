@@ -81,7 +81,10 @@
         /* Stage below the header: full-bleed map with a floating card panel
            (same over-the-map treatment as WordMap / HanMap). */
         .nm-stage { flex: 1 1 auto; position: relative; min-height: 0; }
-        #map { position: absolute; inset: 0; height: 100%; width: 100%; background: #e8eef4; z-index: 1; }
+        /* Fill the whole viewport like WordMap / HanMap (header overlays the top),
+           so the map reaches the visible bottom — the credit stays on-screen and
+           iOS samples the white map (not a grey panel) for the URL-bar tint. */
+        #map { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; height: 100dvh; background: #fff; z-index: 1; }
 
         /* ---- Desktop: a single translucent card fixed to the LEFT, holding
                the controls on top and the scrollable info below. Map area to
@@ -292,7 +295,11 @@
             background: #fff; border: 1px solid #d0d0d0; border-radius: 50%;
             box-shadow: 0 1px 4px rgba(0,0,0,0.12); color: #444; cursor: pointer; padding: 0;
         }
+        .settings-fab { transition: background-color 0.15s, color 0.15s, border-color 0.15s, transform 0.1s; }
         .settings-fab:hover { background: #f3f4f6; }
+        .settings-fab:active { transform: scale(0.94); }
+        /* Turn blue while the settings panel is open (like WordMap's gear). */
+        #nm-settings-btn[aria-expanded="true"] { background: #1a73e8; color: #fff; border-color: #1a73e8; }
         /* The gear SVG (fill:none) must not intercept taps — otherwise a tap on
            its unpainted centre falls through and the button doesn't fire. Let the
            whole 44px button be the tap target. Same for the other map-ctl icons. */

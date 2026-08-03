@@ -46,7 +46,7 @@ WORDS.atsign = {
     // === Southeast & South Asia ===
     vi: ["a còng", "aː˧ kɔŋ˨˩"],
     id: ["et", "ɛt"],
-    hi: ["एट", "ɛːʈ"],
+    hi: ["एट", "eːʈ"],
     // === Western Europe ===
     en: ["at", "æt"],
     nl: ["apenstaartje", "ˈaːpənstaːrtjə"],
@@ -59,7 +59,7 @@ WORDS.atsign = {
     pt_eu: ["arroba", "ɐˈʁɔβɐ"],
     pt_br: ["arroba", "aˈʁɔbɐ"],
     ca: ["arrova", "əˈrɔβə"],
-    eu: ["a bildua", "a bildua"],
+    eu: ["a bildua", "a βilˈdua"],
     cy: ["malwen", "ˈmalwɛn"],
     ga: ["ag", "aɡ"],
     is: ["atmerki", "ˈaːtmɛrcɪ"],
@@ -77,7 +77,7 @@ WORDS.atsign = {
     hu: ["kukac", "ˈkukɒts"],
     el: ["παπάκι", "paˈpaci"],
     bg: ["маймунка", "mɐjˈmunkɐ"],
-    sr: ["мајмунче", "majˈmuntʃe"],
+    sr: ["мајмунче", "ˈmajmuntʃe"],
     hr: ["manki", "ˈmaŋki"],
     ro: ["coadă de maimuță", "ˈko̯adə de majˈmutsə"],
     // === Caucasus & Central Asia ===
@@ -93,7 +93,7 @@ WORDS.atsign = {
     gl: ["arroba", "aˈrɔβɐ"],
     oc: ["arròba", "aˈrɔβɔ"],
     lb: ["Afeschwanz", "ˈafəʃvants"],
-    fo: ["kurla", "ˈkʰʊʂla"],
+    fo: ["kurla", "ˈkʰʊɭa"],
     af: ["aapstert", "ˈɑːpstɛrt"],
     // === Baltic ===
     et: ["ätt", "ætː"],
@@ -101,13 +101,13 @@ WORDS.atsign = {
     lt: ["eta", "ɛˈtaː"],
     // === More Eastern & Southeastern Europe ===
     sl: ["afna", "ˈaːfna"],
-    mk: ["мајмунче", "majˈmuntʃe"],
+    mk: ["мајмунче", "ˈmajmuntʃe"],
     be: ["слімак", "ˈslʲimak"],
     // === More Caucasus & Central Asia ===
     az: ["ət", "æt"],
     uz: ["kuchukcha", "kutʃukˈtʃa"],
     // === More South & Southeast Asia ===
-    ur: ["ایٹ", "eːʈ"],
+    ur: ["ایٹ", "ɛːʈ"],
     bn: ["অ্যাট", "æʈ"],
     tl: ["at", "ɐt"],
     ms: ["di", "di"],

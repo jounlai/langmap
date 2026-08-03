@@ -111,6 +111,28 @@ WORDS.atsign = {
     bn: ["অ্যাট", "æʈ"],
     tl: ["at", "ɐt"],
     ms: ["di", "di"],
+    // === More national standard languages (read "@" as borrowed "at"/"et"
+    //     in the local script, unless a distinctive local name is noted). ===
+    th: ["แอท", "ʔɛːt̚˨˩"],
+    ta: ["அட்", "aʈ"],
+    te: ["ఎట్", "eʈ"],
+    kn: ["ಎಟ್", "eʈ"],
+    ml: ["അറ്റ്", "aʈːə"],
+    mr: ["ॲट", "æʈ"],
+    gu: ["ઍટ", "æʈ"],
+    pa: ["ਐਟ", "ɛːʈ"],
+    ne: ["एट", "eʈ"],
+    si: ["ඇට්", "æʈ"],
+    or: ["ଆଟ", "aʈ"],
+    my: ["အက်", "ʔɛʔ"],
+    km: ["អាត", "ʔaːt"],
+    am: ["አት", "ʔat"],
+    sw: ["ata", "ˈata"],
+    sq: ["et", "ɛt"],
+    bs: ["et", "ɛt"],
+    ps: ["اېټ", "eːʈ"],
+    tg: ["ат", "at"],
+    mn: ["эт", "et"],
     // === Historical: the @ symbol began as the "arroba" unit mark in
     //     medieval Iberian/Italian merchant documents (Arabic ar-rubʿ). ===
     lad: ["arroba", "aˈroba"],

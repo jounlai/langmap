@@ -86,7 +86,7 @@ WORDS.dog = {
       hai: ["st'áat", "sʰtʼɑːt"],
       cic: ["ofi'", "ofiʔ"],
       ik: ["qimmiq", "qimːiq"],
-      na: ["—", "—"],
+      na: ["robar", "roˈbaːr"], // from English "Rover" (a common dog name) — introduced by 19th-c. sailors; Wiktionary "robar" (Nauruan)
       luz: ["سگ", "sɑɡ"],
       es_bo: ["perro", "pero"],
       es_py: ["perro", "ˈpero"],

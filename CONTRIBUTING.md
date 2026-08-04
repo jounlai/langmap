@@ -1008,11 +1008,14 @@ holds for **Okinawan (`ja_oki`) only**.
     石垣): Okinawan ユタサン, Miyako ぞーはン (伊良部方言辞典), Yaeyama
     カイシャーン (石垣方言辞典). All three had been holding `まし` maɕi, which
     is a **noun** meaning "preferable", not the adjective.
-  - Okinawan `good` is displayed as ゆたさん following 大琉球語辞典, which
-    renders that 首里 headword ユタサン and distinguishes サン from シャン
-    elsewhere (与論 ユタシャン, 伊江島 ユタシャ). Note that the 沖縄語辞典's own
-    romanization of the same entry is `'jutasjaN`, which would read ゆたしゃん.
-    The discrepancy is recorded in `wordEvidence` rather than resolved silently.
+  - Okinawan `good` is ゆたさん, confirmed in both directions of 大琉球語辞典:
+    和琉 (いい / 良い) returns 首里 ユタサン, and 琉和 on ユタサン returns exactly
+    one hit — 首里 — while 琉和 on ユタシャン returns only 与論. ユタサン is
+    Okinawan; ユタシャン is Yoron.
+    **Do not read the 沖縄語辞典 romanization as kana.** Its field for this
+    entry is `'jutasjaN`, which looks like ゆたしゃん and is not. When that
+    romanization and the kana headword disagree, take the kana and check the
+    reverse direction in 大琉球語辞典 before trusting either.
 
 Do not extend this policy to a Ryukyuan language without first checking its
 subgroup (`meta.family`) — Northern and Southern Ryukyuan have different verb

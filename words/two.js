@@ -560,6 +560,7 @@ WORDS.two = {
       en_sg: ["two", "tu"],
       fy: ["twa", "twa"],
       frr: ["tou", "tou"],
+      frr_amr: ["tau", "taʊ̯"],
       li: ["twee", "tweː"],
       nn: ["to", "tuː"],
       fo: ["tveir", "tvaɪɹ"],

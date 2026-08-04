@@ -560,6 +560,7 @@ WORDS.eat = {
     en_sg: ["eat", "iːt"],
     fy: ["ite", "iːtə"],
     frr: ["äte", "ɛtə"],
+    frr_amr: ["iidj", "iːdʲ"],
     li: ["ete", "eːtə"],
     nn: ["eta", "eːtɑ"],
     fo: ["eta", "eːta"],

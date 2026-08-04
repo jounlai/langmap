@@ -560,6 +560,7 @@ WORDS.name = {
       en_sg: ["name", "nem"],
       fy: ["namme", "ˈnamə"],
       frr: ["nööme", "ˈnøːmə"],
+      frr_amr: ["nööm", "nøːm"],
       li: ["naam", "naːm"],
       nn: ["namn", "nɑmn"],
       fo: ["navn", "naun"],

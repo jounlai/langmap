@@ -566,6 +566,7 @@ WORDS.fire = {
     en_sg: ["fire", "fajə"],
     fy: ["fjoer", "fjuːr"],
     frr: ["ial", "ˈial"],
+    frr_amr: ["ial", "ia̯l"],
     li: ["vuur", "vyːr"],
     nn: ["eld", "ɛld"],
     fo: ["eldur", "ɛltʊɹ"],

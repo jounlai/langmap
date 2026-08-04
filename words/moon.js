@@ -566,6 +566,7 @@ WORDS.moon = {
     en_sg: ["moon", "muːn"],
     fy: ["moanne", "mwɑnə"],
     frr: ["muune", "muːnə"],
+    frr_amr: ["muun", "muːn"],
     li: ["maon", "maːʊn"],
     nn: ["måne", "moːnə"],
     fo: ["máni", "mɔaːnɪ"],

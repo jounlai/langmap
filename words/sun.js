@@ -565,6 +565,7 @@ WORDS.sun = {
     en_sg: ["sun", "san"],
     fy: ["sinne", "sɪnə"],
     frr: ["saanj", "saːɲ"],
+    frr_amr: ["san", "san"],
     li: ["zón", "zɔn"],
     nn: ["sol", "suːl"],
     fo: ["sól", "sɔuːl"],

@@ -560,6 +560,7 @@ WORDS.eye = {
     en_sg: ["eye", "aɪ"],
     fy: ["each", "ɪəx"],
     frr: ["uug", "uːx"],
+    frr_amr: ["uug", "uːx"],
     li: ["oug", "ɔux"],
     nn: ["auga", "æʉɡɑ"],
     fo: ["eyga", "ɛiːja"],

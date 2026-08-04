@@ -560,6 +560,7 @@ WORDS.father = {
     en_sg: ["father", "ˈfadə"],
     fy: ["heit", "hɛit"],
     frr: ["baabe", "baːbə"],
+    frr_amr: ["aatj", "aːtj"],
     li: ["pap", "pap"],
     nn: ["far", "fɑːr"],
     fo: ["faðir", "fɛaːjɪɹ"],

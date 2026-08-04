@@ -566,6 +566,7 @@ WORDS.mother = {
     en_sg: ["mother", "ˈmadə"],
     fy: ["mem", "mɛm"],
     frr: ["mam", "mɑm"],
+    frr_amr: ["mam", "mam"],
     li: ["mam", "mam"],
     nn: ["mor", "muːr"],
     fo: ["móðir", "mɔuːɪɹ"],

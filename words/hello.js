@@ -560,6 +560,7 @@ WORDS.hello = {
     en_sg: ["hello lah", "hɛlo lɑː"],
     fy: ["hoi", "hɔi"],
     frr: ["moin", "mɔin"],
+    frr_amr: ["gudai", "ˈɡudaɪ̯"],
     li: ["hallo", "halo"],
     nn: ["hei", "hɛɪ"],
     fo: ["hey", "hɛi"],

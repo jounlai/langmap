@@ -560,6 +560,7 @@ WORDS.tree = {
     en_sg: ["tree", "tɹiː"],
     fy: ["beam", "bɪəm"],
     frr: ["boom", "boːm"],
+    frr_amr: ["buum", "buːm"],
     li: ["boum", "bʌʊm"],
     nn: ["tre", "treː"],
     fo: ["træ", "tɹɛaː"],

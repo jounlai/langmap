@@ -560,6 +560,7 @@ WORDS.hand = {
     en_sg: ["hand", "hɛn"],
     fy: ["hân", "hɔːn"],
     frr: ["häänj", "hɛːɲ"],
+    frr_amr: ["hun", "hun"],
     li: ["handj", "hanʲ"],
     nn: ["hand", "hɑnd"],
     fo: ["hond", "hɔnt"],

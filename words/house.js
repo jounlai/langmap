@@ -567,6 +567,7 @@ WORDS.house = {
     en_sg: ["house", "haʊs"],
     fy: ["hûs", "huːs"],
     frr: ["hüs", "hyːs"],
+    frr_amr: ["hüs", "hyːs"],
     li: ["hoes", "huːs"],
     nn: ["hus", "huːs"],
     fo: ["hús", "huːs"],

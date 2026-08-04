@@ -560,6 +560,7 @@ WORDS.i = {
       en_sg: ["I", "aɪ"],
       fy: ["ik", "ɪk"],
       frr: ["ik", "ɪk"],
+      frr_amr: ["ik", "ɪk"],
       li: ["ich", "ɪç"],
       nn: ["eg", "eːɡ"],
       fo: ["eg", "eː"],

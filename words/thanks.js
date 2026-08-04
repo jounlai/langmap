@@ -560,6 +560,7 @@ WORDS.thanks = {
     en_sg: ["thanks", "tɛŋks"],
     fy: ["tankewol", "tɑŋkəvɔl"],
     frr: ["toonk", "toːŋk"],
+    frr_amr: ["toonk", "toːŋk"],
     li: ["merci", "mɛrsi"],
     nn: ["takk", "tɑkː"],
     fo: ["takk", "tʰahk"],

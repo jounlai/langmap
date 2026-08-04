@@ -567,6 +567,7 @@ WORDS.love = {
     en_sg: ["love", "laf"],
     fy: ["leafde", "lɪəfdə"],
     frr: ["liiwde", "ˈliːwdə"],
+    frr_amr: ["leefde", "ˈleːfdə"],
     li: ["leefde", "leːfdə"],
     nn: ["kjærleik", "çæːrlɛik"],
     fo: ["kærleiki", "kɛaːɹlaiːtʃɪ"],

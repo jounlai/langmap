@@ -560,6 +560,7 @@ WORDS.star = {
       en_sg: ["star", "staː"],
       fy: ["stjer", "stjɛr"],
       frr: ["steer", "steːr"],
+      frr_amr: ["stäär", "stɛːr"],
       li: ["sjter", "ʃtɛr"],
       nn: ["stjerne", "ˈʃæːɳə"],
       fo: ["stjørna", "ˈtʃœdna"],

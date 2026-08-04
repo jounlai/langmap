@@ -566,6 +566,7 @@ WORDS.one = {
     en_sg: ["one", "wan"],
     fy: ["ien", "iːn"],
     frr: ["ian", "iːan"],
+    frr_amr: ["ian", "iɐ̯n"],
     li: ["eine", "ɛɪnə"],
     nn: ["ein", "ɛɪn"],
     fo: ["ein", "ain"],

@@ -560,6 +560,7 @@ WORDS.you = {
       en_sg: ["you", "ju"],
       fy: ["do", "do"],
       frr: ["dü", "dy"],
+      frr_amr: ["dü", "dʏ"],
       li: ["doe", "du"],
       nn: ["du", "dʉː"],
       fo: ["tú", "tʉuː"],

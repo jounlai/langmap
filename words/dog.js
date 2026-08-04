@@ -560,6 +560,7 @@ WORDS.dog = {
     en_sg: ["dog", "dɔk"],
     fy: ["hûn", "huːn"],
     frr: ["hünj", "hyɲ"],
+    frr_amr: ["hünj", "hyɲ"],
     li: ["hóndj", "hɔnʲ"],
     nn: ["hund", "hʉnd"],
     fo: ["hundur", "hʊntʊɹ"],

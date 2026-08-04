@@ -567,6 +567,7 @@ WORDS.water = {
     en_sg: ["water", "ˈwɔːtə"],
     fy: ["wetter", "vɛtər"],
     frr: ["weeter", "vɛːtər"],
+    frr_amr: ["weeder", "ˈveːdər"],
     li: ["water", "vatər"],
     nn: ["vatn", "vɑːtn"],
     fo: ["vatn", "vahtn"],

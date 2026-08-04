@@ -560,6 +560,7 @@ WORDS.good = {
     en_sg: ["good", "ɡʊt"],
     fy: ["goed", "ɡuət"],
     frr: ["gud", "ɡud"],
+    frr_amr: ["gud", "ɡʊd"],
     li: ["good", "ɡoːt"],
     nn: ["god", "ɡuːd"],
     fo: ["góður", "kɔuːʊɹ"],

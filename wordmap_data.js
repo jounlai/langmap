@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1139 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1140 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1516,6 +1516,12 @@ const LANG_DATA = {
   // North Frisian (Frasch/Fering/Halunder/Mooring) — Indo-European Germanic Anglo-Frisian (sister to fy West Frisian and stq Saterland Frisian), ~10K, Germany (Schleswig-Holstein, North Frisian Islands).
   // Sources: Ethnologue 27 'frr'; Glottolog nort2626; Walker (1990) The Languages of Schleswig.
   frr: { name: 'North Frisian', native: 'Frasch', lat: 54.50, lng: 8.40, // Husum / Bredstedt, Nordfriesland
+},
+  // Öömrang — the North Frisian dialect of Amrum island (Föhr-Amrum / insular
+  // group), a variety of frr distinct from the mainland Mooring form. Forms
+  // sourced from Wiktionary (Föhr-Amrum tags), frr.wikipedia (Öömrang), and the
+  // Fering-Öömrang Wurdenbök. Contributed via @avzaagzonunaada.
+  frr_amr: { name: 'North Frisian (Öömrang)', native: 'Öömrang', lat: 54.63, lng: 8.34, // Amrum island (Nebel)
 },
   // Limburgish — West Germanic, ~1.3M, NL Limburg + Belgium + Germany.
   // Tonal (uniquely among major Germanic varieties — pitch accent like

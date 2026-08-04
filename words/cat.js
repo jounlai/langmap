@@ -560,6 +560,7 @@ WORDS.cat = {
     en_sg: ["cat", "kɛt"],
     fy: ["kat", "kɑt"],
     frr: ["kaat", "kaːt"],
+    frr_amr: ["kaat", "kaːt"],
     li: ["kat", "kat"],
     nn: ["katt", "kɑtː"],
     fo: ["ketta", "tʃɛhta"],

@@ -560,6 +560,7 @@ WORDS.heart = {
     en_sg: ["heart", "hat"],
     fy: ["hert", "hɛrt"],
     frr: ["hört", "høɾt"],
+    frr_amr: ["hart", "hart"],
     li: ["hart", "hart"],
     nn: ["hjarte", "jɑːrtə"],
     fo: ["hjarta", "jaɹta"],

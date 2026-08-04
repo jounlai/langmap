@@ -560,6 +560,7 @@ WORDS.drink = {
     en_sg: ["drink", "dɹɪŋk"],
     fy: ["drinke", "drɪŋkə"],
     frr: ["drinke", "drɪŋkə"],
+    frr_amr: ["drank", "draŋk"],
     li: ["drinke", "drɪŋkə"],
     nn: ["drikka", "drɪkːɑ"],
     fo: ["drekka", "tɹɛhka"],

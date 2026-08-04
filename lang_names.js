@@ -2159,6 +2159,7 @@ const LANG_NAMES = {
                de: 'Nordfriesisch', fr: 'Frison septentrional', it: 'Frisone settentrionale',
                es_eu: 'Frisón septentrional', es_mx: 'Frisón septentrional', pt_eu: 'Frísio setentrional', pt_br: 'Frísio setentrional',
                ru: 'Севернофризский', uk: 'Північнофризька', ar: 'الفريزية الشمالية', he: 'פריזית צפונית', sw: 'Kifrisia cha Kaskazini' },
+        frr_amr: { en: 'North Frisian (Öömrang)', ja: '北フリジア語（エームラング）', ko: '북프리지아어(외옴랑)', zh: '北弗里西亚语（厄姆兰）', yue: '北弗里西亞語（奧姆蘭）', vi: 'Tiếng Frisia Bắc (Öömrang)', th: 'ภาษาฟรีเซียนเหนือ (เออมรัง)', id: 'Bahasa Frisia Utara (Öömrang)', hi: 'उत्तरी फ़्रिसियाई (ओएमरांग)', de: 'Nordfriesisch (Öömrang)', fr: 'Frison septentrional (Öömrang)', it: 'Frisone settentrionale (Öömrang)', es_eu: 'Frisón septentrional (Öömrang)', es_mx: 'Frisón septentrional (Öömrang)', pt_eu: 'Frísio setentrional (Öömrang)', pt_br: 'Frísio setentrional (Öömrang)', ru: 'Севернофризский (Ёмранг)', uk: 'Північнофризька (Йомранг)', ar: 'الفريزية الشمالية (أومرانغ)', he: 'פריזית צפונית (אומרנג)', sw: 'Kifrisia cha Kaskazini (Öömrang)' },
         olo: { en: 'Livvi-Karelian', ja: 'リヴヴィ・カレリア語', ko: '리비-카렐리아어', zh: '利维-卡累利阿语', yue: '利維-卡累利阿語',
                vi: 'Tiếng Livvi-Karelia', th: 'ภาษาลิฟวี-คาเรเลีย', id: 'Bahasa Livvi-Karelia', hi: 'लिव्वि-करेलियाई',
                de: 'Olonetzisch', fr: 'Carélien livvi', it: 'Careliano livvi',

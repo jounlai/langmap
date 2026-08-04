@@ -169,7 +169,7 @@ WORDS.love = {
     ja: ["愛", "ai"],
     ja_osa: ["愛", "ai"],
     ja_aom: ["愛", "ai"],
-    ja_oki: ["しなさき", "ɕinasaki"],
+    ja_oki: ["情き", "nasaki"],
     ja_hak: ["愛", "ai"],
     ja_kyo: ["愛", "ai"],
     ja_hir: ["愛", "ai"],

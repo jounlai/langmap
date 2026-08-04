@@ -59,6 +59,12 @@ line('WordMap integrity', num(s, /actionable: (\d+)/));
 s = run('speakers_format_check.js');
 line('speaker-count house style', num(s, /non-conforming: (\d+)/));
 
+// Anyone thanked in a changelog entry must also be in the Contributors list at
+// the bottom of changelog.html. Crediting inline and forgetting the roll-up is
+// easy to do and invisible until someone notices they were left out.
+s = run('contributors_check.js');
+line('changelog contributors listed', num(s, /missing: (\d+)/));
+
 s = run('font_coverage_check.js');
 line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/));
 

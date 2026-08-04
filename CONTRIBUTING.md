@@ -663,6 +663,14 @@ When applying a fix based on external feedback:
 2. Add a dated entry in `changelog.html` with `<span class="contributor">— reported by Name</span>`
 3. Add the contributor's name to the Contributors list at the bottom of `changelog.html`
 
+Step 3 is the one that gets skipped — crediting someone inline in the entry
+you are already writing feels complete, and the roll-up list further down the
+file is out of sight. It was missed for three people in a row before a reader
+noticed. `tools/contributors_check.js` now enforces it: any handle linked from
+a changelog entry that is not in the Contributors list fails the guard, and
+`tools/check_all.js` runs it from the pre-commit hook. Adding the `<li>` is the
+only way past it — don't work around the guard.
+
 ---
 
 ## Word Map (`wordmap_data.js` / `wordmap_meta.js`) Rules / Word Map のルール

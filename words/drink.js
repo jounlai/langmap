@@ -174,7 +174,7 @@ WORDS.drink = {
     ja_kyo: ["飲んで", "nonde"],
     ja_hir: ["飲んで", "nonde"],
     ja_mvi: ["飲み", "numi"],
-    ja_rys: ["飲でぃ", "nudi"],
+    ja_rys: ["飲み", "numi"],
     ko: ["마시다", "maɕida"],
     ko_kp: ["마셔", "maɕjʌ"],
     ko_bus: ["마셔", "maɕjʌ"],

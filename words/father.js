@@ -174,7 +174,7 @@ WORDS.father = {
     ja_kyo: ["お父さん", "otoːsaɴ"],
     ja_hir: ["親父", "ojadʑi"],
     ja_mvi: ["うや", "uja"],
-    ja_rys: ["うや", "uja"],
+    ja_rys: ["あっちゃ", "attʃa"],
     ko: ["아버지", "abʌdʑi"],
     ko_kp: ["아버지", "abʌdʑi"],
     ko_bus: ["아부지", "abudʑi"],

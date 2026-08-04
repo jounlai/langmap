@@ -174,7 +174,7 @@ WORDS.fire = {
     ja_kyo: ["火", "hi"],
     ja_hir: ["火", "hi"],
     ja_mvi: ["火", "pɨː"],
-    ja_rys: ["火", "piː"],
+    ja_rys: ["火", "pɨː"],
     ko: ["불", "pul"],
     ko_kp: ["불", "pul"],
     ko_bus: ["불", "pul"],

@@ -173,7 +173,7 @@ WORDS.hello = {
     ja_hak: ["何ばしよっと？", "nambaɕotto"],
     ja_kyo: ["こんにちは", "konnitɕiwa"],
     ja_hir: ["やあ", "jaː"],
-    ja_mvi: ["んみゃーち", "n̩mjaːtɕi"],
+    ja_mvi: ["はい", "hai"],
     ja_rys: ["くよーなーら", "kujoːnaːɾa"],
     ko: ["안녕하세요", "annjʌŋhasejo"],
     ko_kp: ["반갑습니다", "panɡap̚s͈ɯmnida"],

@@ -887,12 +887,36 @@ Proto-Ryukyuan `pry`, Proto-Japonic-Koreanic `pjk`):
   Burushaski, Wakhi): trailing-hyphen bound stems are acceptable per
   Task 103 with `wordEvidence.formType: 'bound-stem'`.
 
+#### Native-speaker attestation as a source
+
+A speaker reporting their own usage is a **primary source**, not a weaker
+substitute for a dictionary. Record it as `evidence: 'direct'` with a `source`
+that names it explicitly as speaker attestation, who provided it and when, plus
+any published works they cite as counterparts.
+
+Two things this protects against:
+- Treating a dictionary as automatically superior. Published Ryukyuan
+  dictionaries are decades old (the 沖縄語辞典 is from 1976) and list forms a
+  present-day speaker may never use. Overwriting living usage with an archaic
+  headword makes the map worse, not better.
+- Treating speaker reports as unverifiable hearsay. They are checkable — by
+  other speakers, and often by the dictionaries too. When both agree, say so in
+  the note (see `ja_oki.woof`, where the 沖縄語辞典 and the speaker report match).
+
+Where a speaker and a dictionary genuinely disagree, keep both in the record and
+say which one the displayed cell follows and why.
+
 #### Regional-variety verb/adjective forms (Japonic / Koreanic)
 
 Rows that are regional varieties of Japonic (`ja`) or Koreanic (`ko`) — those
-with `parentCode: 'ja'`/`'ko'` and `coverage: 'regional-variety'` or
-`'base-copy-with-notes'` — display verb/adjective concept words (`eat`, `drink`,
-`good`) in the **connective form** rather than the dictionary citation form:
+with `meta.parentCode: 'ja'`/`'ko'` and `meta.codeType: 'regional-variant'` —
+display verb/adjective concept words (`eat`, `drink`, `good`) in the
+**connective form** rather than the dictionary citation form.
+
+(`parentCode` + `codeType` are the actual gate. An earlier version of this
+section named `coverage: 'regional-variety' | 'base-copy-with-notes'`, but the
+mainland JA rows carry `coverage: 'partial'` and the rule was applied to them
+anyway — the wording is corrected here to match the data.)
 
 - **Japonic regional varieties**: 〜て形 / 連用形 (e.g. `食べて`, `飲んで`,
   `良くて`). Dialect音便 differences become visible in this form:
@@ -901,6 +925,17 @@ with `parentCode: 'ja'`/`'ko'` and `coverage: 'regional-variety'` or
 - **Koreanic regional varieties**: 〜아/어 形 (e.g. `먹어`, `마셔`, `좋아`).
   Dialect endings and 보조용언 attach naturally here: Jeolla `좋아부러`,
   Pyongyang `먹어`, Busan stem-variant `묵어`.
+
+**Known gap — `good` on the mainland JA rows is only half-migrated.** Only
+`ja_aom` / `ja_sd` (良くて) and `ja_kg` (良かって) carry the connective form;
+`ja_kyo` / `ja_osa` / `ja_hir` (ええ) and `ja_hak` (よか) are still citation
+forms. Do **not** "finish" this without checking the contrast first: the
+current mixed state yields four distinct surfaces (良くて / ええ / よか /
+良かって), whereas converting the rest to the connective would merge 博多 into
+鹿児島's 良かって and drop it to three. The connective rule demonstrably earns
+its keep on `drink` (飲む is identical across all seven mainland rows in
+citation form, but splits into 飲んで / 飲うで in the connective) — it does not
+on `good`. A decision is pending; leave `good` alone until then.
 
 The parent rows `ja` and `ko` keep the **dictionary citation form**
 (`食べる`, `먹다`). This preserves cross-language comparability with
@@ -926,19 +961,62 @@ applies using Jeju's own 〜앙/엉 ending — the structural sister of Korean
 visually distinct from mainland Korean (`먹엉` vs `먹어`, `좋앙` vs `좋아`).
 Same `formType: 'connective-eo-a'` is reused.
 
-**Sister-language extension — Ryukyuan languages, partial**: Northern
-Ryukyuan (Okinawan `ja_oki`, Yaeyama `ja_rys`) and Southern Ryukyuan
-(Miyako `ja_mvi`) are Japonic sister languages. Connective forms applied
-to verbs only (eat / drink); adjective `まし` left as-is pending native
-verification.
-- **Okinawan / Yaeyama (Northern Ryukyuan)**: 〜でぃ (-di) connective —
-  the structural sister of Japanese 〜て. eat: `食でぃ` kadi, drink:
-  `飲でぃ` nudi.
-- **Miyako (Southern Ryukyuan)**: 〜み (-mi) 連用形 — Southern Ryukyuan
-  pattern differs. eat: `食み` kami, drink: `飲み` numi. Marked with
-  `evidence: 'inferred'` pending native-speaker verification.
+**Sister-language extension — Ryukyuan languages, Okinawan only**: the
+Ryukyuan languages are Japonic sister languages, but the extension currently
+holds for **Okinawan (`ja_oki`) only**.
+- **Okinawan (Northern Ryukyuan)**: 〜でぃ (-di) connective — the structural
+  sister of Japanese 〜て. eat: `食でぃ` kadi, drink: `飲でぃ` nudi.
+  `formType: 'connective-te'`. Adjective `まし` left as-is pending native
+  verification.
+- **Miyako (`ja_mvi`) and Yaeyama (`ja_rys`) — withdrawn, citation forms /
+  provisional.** Both are **Southern Ryukyuan** (Macro-Yaeyama); Yaeyama is
+  most closely related to Miyako, **not** to Okinawan. An earlier revision of
+  this section classified Yaeyama as Northern Ryukyuan and gave it Okinawan's
+  forms verbatim (`食でぃ` kadi, `飲でぃ` nudi), which is why `ja_oki` and
+  `ja_rys` were displaying identical cells.
+  - `ja_mvi` eat is restored to the sourced citation form `食ー` foː
+    (ja.wikipedia 宮古語). The previous `食み` kami was built on 噛む kamu;
+    Miyako's verb for "eat" is an f-initial reflex of 食(く)ふ. `ja_mvi` drink
+    is likewise back to citation `飲む` numu so the row is internally
+    consistent.
+  - `ja_rys` eat is restored to the sourced citation form `食ーん` ɸoːŋ
+    (ja.wikipedia 八重山語, 石垣方言 活用表: 終止形1 hoː / 終止形2 hoːN). The
+    f/h-initial reflex it shares with Miyako foː is itself evidence for the
+    Southern grouping.
+  - `ja_rys` drink is **still an Okinawan copy** (`飲でぃ` nudi), marked
+    `evidence: 'inferred'` with a PROVISIONAL note — the Yaeyama verb
+    conjugation table available online does not cover 飲む. It needs a
+    dictionary source (e.g. 宮城信勇『石垣方言辞典』) before it can be trusted.
+  - `good`: `ja_oki` is now `ゆたしゃん` jutaɕaɴ, sourced from 国立国語研究所
+    『沖縄語辞典』(首里方言), which lists it as the adjective「よい。いい。
+    よろしい」. The previous `まし` maɕi was wrong for this concept — the same
+    dictionary lists masi as a **noun**「一方よりまさること」("better /
+    preferable"), not the general adjective. `ja_mvi` and `ja_rys` still carry
+    the inherited `まし` and need per-language sources; no online source for
+    Miyako/Yaeyama "good" has been found so far.
+  - Verb forms for `ja_mvi` / `ja_rys` are now the connective 食い fai / ɸai
+    and 飲み numi, reader-reported and consistent with the 食(く)ふ stem the
+    Wikipedia conjugation tables give (Miyako foː, Yaeyama 語幹 hwa-). They are
+    `evidence: 'inferred'` — dictionary confirmation is still wanted.
+  - The Miyako/Yaeyama cells for mother, father, love, cat, one, hello and
+    woof were corrected in 2026-08 from **native-speaker attestation**
+    (@Soda_Limer on X). Several of them — mother, father, cat, love — had been
+    holding Okinawan-shaped values in both southern rows, the same copying
+    pattern that produced the eat/drink error.
+  - `good` is now sourced for all three, via 琉球大学「大琉球語辞典」 (a
+    cross-search over 首里 / 今帰仁 / 奄美分類 / 与論 / 伊江島 / 伊良部 /
+    石垣): Okinawan ユタサン, Miyako ぞーはン (伊良部方言辞典), Yaeyama
+    カイシャーン (石垣方言辞典). All three had been holding `まし` maɕi, which
+    is a **noun** meaning "preferable", not the adjective.
+  - Okinawan `good` is displayed as ゆたさん following 大琉球語辞典, which
+    renders that 首里 headword ユタサン and distinguishes サン from シャン
+    elsewhere (与論 ユタシャン, 伊江島 ユタシャ). Note that the 沖縄語辞典's own
+    romanization of the same entry is `'jutasjaN`, which would read ゆたしゃん.
+    The discrepancy is recorded in `wordEvidence` rather than resolved silently.
 
-All Ryukyuan cells reuse `formType: 'connective-te'`.
+Do not extend this policy to a Ryukyuan language without first checking its
+subgroup (`meta.family`) — Northern and Southern Ryukyuan have different verb
+morphology, and copying across the split is what produced the error above.
 
 #### Concept scope: heart, mother/father, one
 

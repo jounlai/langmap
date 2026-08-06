@@ -500,11 +500,11 @@ const LANG_DATA = {
 },
   it: { name: 'Italian', native: 'Italiano', lat: 41.90, lng: 12.50, // Rome
 },
-  es_eu: { name: 'Spanish (Europe)', native: 'Español', lat: 40.42, lng: -3.70, // Madrid
+  es: { name: 'Spanish', native: 'Español', lat: 40.42, lng: -3.70, // Madrid
 },
   es_mx: { name: 'Spanish (Mexico)', native: 'Español (México)', lat: 19.43, lng: -99.13, // Mexico City
 },
-  pt_eu: { name: 'Portuguese (Europe)', native: 'Português', lat: 38.72, lng: -9.14, // Lisbon
+  pt: { name: 'Portuguese', native: 'Português', lat: 38.72, lng: -9.14, // Lisbon
 },
   pt_br: { name: 'Portuguese (Brazil)', native: 'Português (Brasil)', lat: -23.55, lng: -46.63, // São Paulo
 },
@@ -5315,7 +5315,7 @@ const HIST_DESCENDANT = {
     p_ine:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, p_kra:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
-    vi_han:'vi', de_lut:'de', es_sgl:'es_eu', fr_class:'fr',
+    vi_han:'vi', de_lut:'de', es_sgl:'es', fr_class:'fr',
     oko:'ko', h_goguryeo:null, ko_gor:'ko', ja_chu:'ja', p_ryu:'ja_oki',
     // Phase 4: historical
     peo:'fa', ave:'fa', xto:null, txb:null, phn:'he', uga:'he',
@@ -5323,7 +5323,7 @@ const HIST_DESCENDANT = {
     he_mis:'he', hy_grab:'hy',
     // Phase 4B: more historical
     gmy:'el', xct:'bo', xpu:'ar', xhu:null, elx:null, xsa:'ar',
-    kaw:'jv', kho:null, gmh:'de', osp:'es_eu', okz:'km', osx:'nds',
+    kaw:'jv', kho:null, gmh:'de', osp:'es', okz:'km', osx:'nds',
     // Phase 5 historical
     xpr:'fa', xqa:'ug', sga:'ga',
     // Phase 6 historical

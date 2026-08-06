@@ -284,6 +284,7 @@ Total: 1131 codes.
 | `enq` | Enga | エンガ語 | Trans-New Guinea (Engan) | ~230K |
 | `eo` | Esperanto | エスペラント | Constructed (a posteriori) | ~100K (L1: ~1K) |
 | `ers` | Ersu | エルス語 | Sino-Tibetan (Qiangic) | ~9–17K (endangered) |
+| `es` | Spanish | スペイン語 | Romance | ~47M |
 | `es_an` | Spanish (Andalusian) | スペイン語(アンダルシア) | Romance | ~8M |
 | `es_ar` | Spanish (Argentina) | スペイン語(アルゼンチン) | Indo-European (Romance, Ibero-Romance) | ~45M |
 | `es_bo` | Spanish (Bolivia) | スペイン語(ボリビア) | Romance | ~9M |
@@ -293,7 +294,6 @@ Total: 1131 codes.
 | `es_cu` | Spanish (Cuban) | スペイン語(キューバ) | Romance | ~11M |
 | `es_do` | Spanish (Dominican Republic) | スペイン語(ドミニカ共和国) | Romance | ~10M |
 | `es_ec` | Spanish (Ecuadorian) | スペイン語(エクアドル) | Romance | ~13.5M |
-| `es_eu` | Spanish (Europe) | スペイン語(欧州) | Romance | ~47M |
 | `es_gt` | Spanish (Guatemalan) | スペイン語（グアテマラ） | Romance | ~16M |
 | `es_hn` | Spanish | スペイン語 | Romance | ~9.5M L1 (Honduras) |
 | `es_mx` | Spanish (Mexico) | スペイン語(メキシコ) | Romance | ~125M |
@@ -814,10 +814,10 @@ Total: 1131 codes.
 | `ps` | Pashto | パシュトー語 | Iranian | ~50M |
 | `psem` | Proto-Semitic | セム祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `psi` | Pashai | パシャイ語 | Indo-Aryan (Dardic) | ~600K |
+| `pt` | Portuguese | ポルトガル語 | Romance | ~10M |
 | `pt_ao` | Portuguese (Angolan) | ポルトガル語(アンゴラ) | Romance | ~17M |
 | `pt_br` | Portuguese (Brazil) | ポルトガル語(ブラジル) | Romance | ~215M |
 | `pt_cv` | Portuguese (Cape Verdean) | ポルトガル語（カボベルデ） | Romance | ~500K |
-| `pt_eu` | Portuguese (Europe) | ポルトガル語(欧州) | Romance | ~10M |
 | `pt_gw` | Guinea-Bissau Kriol | ギニアビサウ・クレオール語 | Romance (creole) | ~1.1M (L1/L2 combined) |
 | `pt_mo` | Macanese Portuguese | マカオポルトガル語 | Romance | ~2.2K L1 (Macau) |
 | `pt_mz` | Portuguese (Mozambique) | ポルトガル語(モザンビーク) | Romance | ~3M |

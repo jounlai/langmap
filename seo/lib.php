@@ -88,6 +88,11 @@ const SEO_RENAMED_CODES = [
     'xtm' => 'mix',
     // Southern Luri onto its correct code.
     'lrr' => 'luz',
+    // es_eu -> es, pt_eu -> pt. The root rows were already there, spelled
+    // "(Europe)"; every other major language uses the bare code for the
+    // homeland variety (en, fr, de, it, ru, nl, ar, zh).
+    'es_eu' => 'es',
+    'pt_eu' => 'pt',
     // Retired codes whose successor row already existed.
     'mvc' => 'mam',      // Central Mam, merged
     'kzj' => 'dtp_kzj',  // Coastal Kadazan, kept as a dtp variety

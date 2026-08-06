@@ -70,6 +70,24 @@ const SEO_RENAMED_CODES = [
     'azo' => 'yiz',   // Azhe
     'dge' => 'deg',   // Degema
     'jia' => 'jio',   // Jiamao
+    // Phase 3. Codes with no ISO 639-3 entry of their own move to the
+    // underscore form the dataset already uses for variants (es_mx, ja_osa) —
+    // URL-safe, and no colon to encode.
+    'pko' => 'p_kor',   'pst' => 'p_sit',   'phm' => 'p_hmx',
+    'pjp' => 'p_jpn',   'ptg' => 'p_tun',   'paa' => 'p_aav',
+    'pkd' => 'p_kra',   'pdr' => 'p_dra',   'pry' => 'p_ryu',
+    'pjk' => 'p_jpk',   'ine' => 'p_ine',
+    'okg' => 'h_goguryeo', 'otl' => 'h_tagalog', 'vsa' => 'h_vedic',
+    'dgr' => 'nrf_gg',  // Guernésiais, a Norman variety
+    // Retired ISO codes whose successor was free.
+    'cqu' => 'qwc',     'occ' => 'ocm',     'wch' => 'wic',
+    'cnd' => 'cng',     'izi' => 'izz',     'olg' => 'olk',
+    'iuu' => 'ium',     'tup' => 'tpn',     'myn' => 'emy',
+    // Mixtec: ISO mix is Mixtepec Mixtec, so the individual row takes it and
+    // the cover row moves off it. xtm's old URL lands on the row it held.
+    'xtm' => 'mix',
+    // Southern Luri onto its correct code.
+    'lrr' => 'luz',
     // Consolidated duplicates (2026-08-06/07) — the row is gone, not renamed,
     // but the old URL should still land somewhere useful.
     'som' => 'so',    // Somali
@@ -1204,7 +1222,7 @@ function seo_data(string $which): array
  * Oklahoma)" in English next to Japanese chip labels (reader report,
  * 2026-08-06). tools/export_seo_data.js now runs the same translator and
  * writes data/meta_i18n_seo.json — a table keyed by the English string, since
- * these values repeat heavily across the 1,133 rows.
+ * these values repeat heavily across the 1,132 rows.
  *
  * Anything with no translation falls back to English, which is what the page
  * did for every value before.

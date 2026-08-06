@@ -284,7 +284,7 @@ WORDS.sushi = {
     "osp": ["cecial", "tseˈtsjal"],
     "osn": ["tarasi", "tarasi"],
     "ota": ["لاكردا", "laˈkerda"],
-    "otl": ["ᜊᜓᜇᜓ", "ˈbuɾo"],
+    "h_tagalog": ["ᜊᜓᜇᜓ", "ˈbuɾo"],
     "pa": ["ਸੂਸ਼ੀ", "suː.ʃiː"],
     "pag": ["sushi", "ˈsuʃi"],
     "pam": ["sushi", "ˈsuʃi"],

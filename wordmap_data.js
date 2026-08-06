@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1133 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1132 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -15,7 +15,7 @@
 // some have small modern speaker communities (e.g. Manchu, Aramaic dialects,
 // liturgical Sanskrit). The shared property is "hidden from the modern view by default".
 const EXCLUDED_CODES = new Set([
-  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','myn','ine','pjp','pko','ptrk','pmng','ptg','paa','pkd','phm','pafa','pkar','pmay','puaz','pban','pst','psem','pura','pdr','paus',
+  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','emy','p_ine','p_jpn','p_kor','ptrk','pmng','p_tun','p_aav','p_kra','p_hmx','pafa','pkar','pmay','puaz','pban','p_sit','psem','pura','p_dra','paus',
   'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_kath','zh_song','zh_han','zh_tang','zh_wenyan_edu',
   'vi_nom','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
@@ -31,17 +31,17 @@ const EXCLUDED_CODES = new Set([
   // Phase 8 historical
   'xng',
   // Phase 13: ancient Asian additions
-  'och','ojp','vsa','txg','sog','otk',
+  'och','ojp','h_vedic','txg','sog','otk',
   // Phase 13b: NE Asian + SE Asian ancient
-  'zkt','juc','omx','pyx','obr','occ',
+  'zkt','juc','omx','pyx','obr','ocm',
   // Phase 13c: Russia / Thailand / Africa / Americas / Indonesia / Philippines ancient
-  'orv','xsc','sukh','xmr','onw','cqu','chb','omy','osn','otl',
+  'orv','xsc','sukh','xmr','onw','qwc','chb','omy','osn','h_tagalog',
   // Reconstructed proto / hypothetical
-  'pjk',
+  'p_jpk',
   // Korean Peninsula historical
-  'oko', 'okg', 'ko_gor',
+  'oko', 'h_goguryeo', 'ko_gor',
   // Japonic historical / proto
-  'ja_chu', 'pry',
+  'ja_chu', 'p_ryu',
   // Pass 35: 5 historical additions
   'ota', 'cmg', 'ett', 'xht', 'txr',
   // Batches 48 & 54: Messapic + Maharastri Prakrit additions
@@ -70,7 +70,7 @@ const EXCLUDED_CODES = new Set([
   //   oar — Old Aramaic (ancestor of Imperial Aramaic)
   //   tup — Tupinambá (extinct as L1 ~1700s; basis of Língua Geral/Nheengatu)
   //   yug — Yug (Yeniseian, last L1 speaker died early 2000s)
-  'xum', 'osc', 'xfa', 'xve', 'xpg', 'oar', 'tup', // 2026-06-09 follow-up: 4 more extinct langs missed by the first sweep
+  'xum', 'osc', 'xfa', 'xve', 'xpg', 'oar', 'tpn', // 2026-06-09 follow-up: 4 more extinct langs missed by the first sweep
   // (they use the '†extinct' dagger-prefixed speakers value or 'Extinct'
   // without the leading '0', which the initial filter missed).
   //   xib — Iberian (Paleo-Hispanic isolate, †extinct ~1c CE)
@@ -141,7 +141,6 @@ const LANG_DATA = {
   "cic": { "name": "Chickasaw", "native": "Chikashshanompa'", "lat": 34.774, "lng": -96.678 },
   "ik": { "name": "Iñupiaq", "native": "Iñupiatun", "lat": 71.29, "lng": -156.79 },
   "na": { "name": "Nauruan", "native": "dorerin Naoero", "lat": -0.53, "lng": 166.93 },
-  "luz": { "name": "Northern Luri", "native": "لری شمالی", "lat": 33.34, "lng": 47.98 },
   "es_bo": { "name": "Bolivian Spanish", "native": "Español boliviano", "lat": -17, "lng": -65.3 },
   "es_py": { "name": "Paraguayan Spanish", "native": "español paraguayo", "lat": -25.27, "lng": -57.65 },
   "es_pa": { "name": "Panamanian Spanish", "native": "español panameño", "lat": 8.5, "lng": -80 },
@@ -966,8 +965,8 @@ const LANG_DATA = {
   khg: { name: 'Khams Tibetan', native: 'ཁམས་སྐད', lat: 30.04, lng: 99.10, // Kandze (Garzê), Sichuan
 },
   // Northern Qiang — Sino-Tibetan (Tibeto-Burman, Qiangic — sister to cng Central Qiang and other Qiangic varieties), ~57K, China (Sichuan — Mao County, Wenchuan, Heishui Aba Tibetan AP).
-  // Sources: Ethnologue 27 'cng'/'cnd'; Glottolog nort2722; LaPolla & Huang (2003) A Grammar of Qiang.
-  cnd: { name: 'Northern Qiang', native: 'Rrmea', lat: 31.68, lng: 103.82, // Mao County, Aba Tibetan-Qiang AP, Sichuan
+  // Sources: Ethnologue 27 'cng'/'cng'; Glottolog nort2722; LaPolla & Huang (2003) A Grammar of Qiang.
+  cng: { name: 'Northern Qiang', native: 'Rrmea', lat: 31.68, lng: 103.82, // Mao County, Aba Tibetan-Qiang AP, Sichuan
 },
   ii: { name: 'Yi (Nuosu)', native: 'ꆈꌠꉙ', lat: 27.90, lng: 102.26,
 },
@@ -1190,8 +1189,8 @@ const LANG_DATA = {
   ekp: { name: 'Ekpeye', native: 'Ekpeye', lat: 5.05, lng: 6.52, // Ahoada, Rivers State, Nigeria
 },
   // Izii — Niger-Congo (Atlantic-Congo, Volta-Niger, Igboid — sister to ig Igbo and ekp Ekpeye within Igboid; classified as separate language by Ethnologue), ~600K, Nigeria (Ebonyi State — Abakaliki, Izzi LGA).
-  // Sources: Ethnologue 27 'izi'; Glottolog izii1238; Williamson (1989) Niger-Congo classification.
-  izi: { name: 'Izii', native: 'Izi', lat: 6.32, lng: 8.11, // Abakaliki, Ebonyi State, Nigeria
+  // Sources: Ethnologue 27 'izz'; Glottolog izii1238; Williamson (1989) Niger-Congo classification.
+  izz: { name: 'Izii', native: 'Izi', lat: 6.32, lng: 8.11, // Abakaliki, Ebonyi State, Nigeria
 },
   // Ibibio — Cross River, ~5M speakers, southeastern Nigeria. Major Niger-Congo language.
   // Sources: Ethnologue 27 'ibb'; Glottolog ibib1240; Essien (1990) Grammar of Ibibio.
@@ -1832,25 +1831,25 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'crn'; Glottolog cora1260; Casad (1984) Cora.
   crn: { name: 'Cora', native: 'Naáyarite', lat: 22.13, lng: -104.93, // Jesús María, Nayarit
 },
-  myn: { name: 'Classical Maya', native: 'Maaya Tzij', lat: 17.22, lng: -89.62,
+  emy: { name: 'Classical Maya', native: 'Maaya Tzij', lat: 17.22, lng: -89.62,
 },
-  ine: { name: 'Proto-Indo-European', native: 'Proto-Indo-European', lat: 47.00, lng: 39.00,
+  p_ine: { name: 'Proto-Indo-European', native: 'Proto-Indo-European', lat: 47.00, lng: 39.00,
 },
-  pjp: { name: 'Proto-Japonic', native: 'Proto-Japonic', lat: 33.60, lng: 130.40,
+  p_jpn: { name: 'Proto-Japonic', native: 'Proto-Japonic', lat: 33.60, lng: 130.40,
 },
-  pko: { name: 'Proto-Koreanic', native: 'Proto-Koreanic', lat: 37.00, lng: 127.50,
+  p_kor: { name: 'Proto-Koreanic', native: 'Proto-Koreanic', lat: 37.00, lng: 127.50,
 },
   ptrk: { name: 'Proto-Turkic', native: 'Proto-Turkic', lat: 48.00, lng: 100.00,
 },
   pmng: { name: 'Proto-Mongolic', native: 'Proto-Mongolic', lat: 47.00, lng: 113.00,
 },
-  ptg: { name: 'Proto-Tungusic', native: 'Proto-Tungusic', lat: 48.00, lng: 128.00,
+  p_tun: { name: 'Proto-Tungusic', native: 'Proto-Tungusic', lat: 48.00, lng: 128.00,
 },
-  paa: { name: 'Proto-Austroasiatic', native: 'Proto-Austroasiatic', lat: 17.00, lng: 105.00,
+  p_aav: { name: 'Proto-Austroasiatic', native: 'Proto-Austroasiatic', lat: 17.00, lng: 105.00,
 },
-  pkd: { name: 'Proto-Kra-Dai', native: 'Proto-Kra-Dai', lat: 21.80, lng: 110.00,
+  p_kra: { name: 'Proto-Kra-Dai', native: 'Proto-Kra-Dai', lat: 21.80, lng: 110.00,
 },
-  phm: { name: 'Proto-Hmong-Mien', native: 'Proto-Hmong-Mien', lat: 28.00, lng: 111.00,
+  p_hmx: { name: 'Proto-Hmong-Mien', native: 'Proto-Hmong-Mien', lat: 28.00, lng: 111.00,
 },
   pafa: { name: 'Proto-Afroasiatic', native: 'Proto-Afroasiatic', lat: 13.00, lng: 40.00,
 },
@@ -1862,13 +1861,13 @@ const LANG_DATA = {
 },
   pban: { name: 'Proto-Bantu', native: 'Proto-Bantu', lat: 6.00, lng: 10.00,
 },
-  pst: { name: 'Proto-Sino-Tibetan', native: 'Proto-Sino-Tibetan', lat: 33.00, lng: 100.00,
+  p_sit: { name: 'Proto-Sino-Tibetan', native: 'Proto-Sino-Tibetan', lat: 33.00, lng: 100.00,
 },
   psem: { name: 'Proto-Semitic', native: 'Proto-Semitic', lat: 31.00, lng: 40.00,
 },
   pura: { name: 'Proto-Uralic', native: 'Proto-Uralic', lat: 58.00, lng: 54.00,
 },
-  pdr: { name: 'Proto-Dravidian', native: 'Proto-Dravidian', lat: 16.00, lng: 78.00,
+  p_dra: { name: 'Proto-Dravidian', native: 'Proto-Dravidian', lat: 16.00, lng: 78.00,
 },
   paus: { name: 'Proto-Austronesian', native: 'Proto-Austronesian', lat: 23.70, lng: 121.00,
 },
@@ -1925,7 +1924,7 @@ const LANG_DATA = {
   // mainland Japonic ~7-8c. CE per Pellard (2015), Thorpe (1983).
   // Distinctive innovations: *teda 'sun' (vs Japonic *pi), *kimu
   // 'heart/liver' (vs Japonic *kokoro), *maja 'cat' (vs *neko).
-  pry: { name: 'Proto-Ryukyuan', native: 'Proto-Ryukyuan', lat: 28.40, lng: 129.50, // Amami area (Japonic-Ryukyuan boundary; geographic midpoint of Ryukyuan dispersal)
+  p_ryu: { name: 'Proto-Ryukyuan', native: 'Proto-Ryukyuan', lat: 28.40, lng: 129.50, // Amami area (Japonic-Ryukyuan boundary; geographic midpoint of Ryukyuan dispersal)
 
     wordEvidence: {
       sun:    { evidence: 'reconstructed', source: 'Pellard 2015 — *teda; cf. Okinawan tida, Miyako tida (distinctive Ryukyuan; mainland Japonic uses *pi)' },
@@ -1972,7 +1971,7 @@ const LANG_DATA = {
   // ~80 toponyms in Samguk Sagi (Geography vol. 37) — almost no
   // basic-vocabulary attestation. Most cells deliberately '—' to
   // honestly reflect this fragmentary state.
-  okg: { name: 'Goguryeo', native: '高句麗語', lat: 41.13, lng: 126.19, // Gungnae-seong (Ji'an, early Goguryeo capital)
+  h_goguryeo: { name: 'Goguryeo', native: '高句麗語', lat: 41.13, lng: 126.19, // Gungnae-seong (Ji'an, early Goguryeo capital)
 
     wordEvidence: {
       water: { evidence: 'reconstructed', source: 'Samguk Sagi vol. 37 — 水谷城 (買旦忽); 買 read as Goguryeo *mai/*me — debated cognate (Whitman 2011: ↔ Old Japanese *mey "water"; Lee 1993: ↔ Tungusic mu)' },
@@ -2238,7 +2237,7 @@ const LANG_DATA = {
   tzh: { name: 'Tzeltal', native: 'Batsʼil kʼop', lat: 16.91, lng: -92.10, // Ocosingo
 },
   // Oto-Manguean
-  mix: { name: 'Mixtec', native: 'Tu\'un Sávi', lat: 17.27, lng: -97.69, // Tlaxiaco
+  mixtec: { name: 'Mixtec', native: 'Tu\'un Sávi', lat: 17.27, lng: -97.69, // Tlaxiaco
 },
   zap: { name: 'Zapotec', native: 'Diidxazá', lat: 16.43, lng: -95.02, // Juchitán
 },
@@ -2251,8 +2250,8 @@ const LANG_DATA = {
   maz: { name: 'Mazahua', native: 'Jñatjo', lat: 19.71, lng: -99.92, // San Felipe del Progreso, Estado de México (Mazahua heartland)
 },
   // Mixtepec Mixtec — Otomanguean (Mixtecan, Eastern Mixtec — sister to mix Mixtec macro-language varieties), ~7K, Mexico (Oaxaca — San Juan Mixtepec area, Sierra Sur).
-  // Sources: Ethnologue 27 'xtm'; Glottolog mixt1422; Pankratz & Pike (1967) Phonology and morphotonemics of Ayutla Mixtec.
-  xtm: { name: 'Mixtepec Mixtec', native: 'Sa\'an Sàvǐ Sa San Juan Mixtepec', lat: 16.64, lng: -97.92, // San Juan Mixtepec, Oaxaca
+  // Sources: Ethnologue 27 'mix'; Glottolog mixt1422; Pankratz & Pike (1967) Phonology and morphotonemics of Ayutla Mixtec.
+  mix: { name: 'Mixtepec Mixtec', native: 'Sa\'an Sàvǐ Sa San Juan Mixtepec', lat: 16.64, lng: -97.92, // San Juan Mixtepec, Oaxaca
 },
   // Metlatónoc Mixtec — Otomanguean (Mixtecan, Mixtec — sister variety to mix Mixtec macrolanguage and xtm Mixtepec Mixtec; spoken in Guerrero highlands rather than Oaxaca core area).
   // Sources: Ethnologue 27 'mxv'; Glottolog metl1240; Caballero (2008) Choices and constraints in the analysis of mountain Mixtec.
@@ -2524,8 +2523,8 @@ const LANG_DATA = {
   // Adnyamathanha — Pama-Nyungan (Thura-Yura, sister to Kaurna), ~10 fluent + ~150 partial speakers, Australia (South Australia — Flinders Ranges, Nepabunna).
   // Sources: Ethnologue 27 'adt'; Glottolog adny1238; Schebeck (1973) Texts on the Social System of the Atyñamatana People.
   // Olkol — Pama-Nyungan (Paman, Northern — sister to Yir-Yoront and other Cape York Peninsula Paman), ~50 fluent + heritage learners, Australia (Queensland — Cape York Peninsula, Coen, Pormpuraaw).
-  // Sources: Ethnologue 27 'olg'; Glottolog olko1239; Sutton (1976) Cape York Peninsula linguistic survey.
-  olg: { name: 'Olkol', native: 'Olkol', lat: -13.94, lng: 143.20, // Coen, Cape York Peninsula, Queensland
+  // Sources: Ethnologue 27 'olk'; Glottolog olko1239; Sutton (1976) Cape York Peninsula linguistic survey.
+  olk: { name: 'Olkol', native: 'Olkol', lat: -13.94, lng: 143.20, // Coen, Cape York Peninsula, Queensland
 },
   adt: { name: 'Adnyamathanha', native: 'Adnyamathanha-na yarta', lat: -30.78, lng: 138.83, // Nepabunna, Flinders Ranges, SA
 },
@@ -2825,7 +2824,10 @@ const LANG_DATA = {
       one:    { evidence: 'direct', source: 'Rastorgueva & Kerimova (1971) — i-tā "one"; Caspian numeral with -tā classifier (cf. Persian yek)', formType: 'free-word', note: 'compound: i (numeral) + tā (classifier) — characteristic Caspian numeral construction' },
       good:   { evidence: 'direct', source: 'Stilo (2001) — xub "good"; Persian loan in widespread Caspian use', formType: 'free-word' },
     } },
-  lrc: { name: 'Lurish', native: 'لۊری', lat: 33.49, lng: 48.36, // Khorramabad
+   // ISO 639-3 lrc denotes NORTHERN Luri specifically. This row is kept as the
+  // Lurish cover entry (~5M, all varieties) because Southern Luri (luz) and
+  // Bakhtiari (bqi) have their own rows; see review phase 3, 2026-08-07.
+ lrc: { name: 'Lurish', native: 'لۊری', lat: 33.49, lng: 48.36, // Khorramabad
 
     // Audit Task 200/173: full per-cell wordEvidence for source-checked
     // Northern Lurish row. Sources: Anonby, Erik (2003) "Update on Luri:
@@ -3939,7 +3941,7 @@ const LANG_DATA = {
       good:   { evidence: 'direct', source: 'Snyder (2008) — ndil/ndi˧˥ "good"; tone 5; Tai *ʔdiː', formType: 'free-word' },
     } },
   // Hmong-Mien (Yao branch)
-  iuu: { name: 'Iu Mien', native: 'Iu Mienh', lat: 22.0, lng: 103.0, // Vietnam-Laos-China border
+  ium: { name: 'Iu Mien', native: 'Iu Mienh', lat: 22.0, lng: 103.0, // Vietnam-Laos-China border
 
     // Audit Task 200/173: full per-cell wordEvidence for source-checked
     // Iu Mien row. Sources: Court, Christopher (1986) "A Fleeting
@@ -4298,7 +4300,7 @@ const LANG_DATA = {
 },
   // Classical Quechua — lingua franca of the Inca Empire (~15-16c.). Latin script
   // (Spanish friars). Well-attested; Cuzco Quechua is the closest modern descendant.
-  cqu: { name: 'Classical Quechua', native: 'Runa simi', lat: -13.53, lng: -71.97, // Cuzco
+  qwc: { name: 'Classical Quechua', native: 'Runa simi', lat: -13.53, lng: -71.97, // Cuzco
 },
   // Mochica / Yunga — pre-Columbian Pacific coast Peru. No native script; vocabulary
   // recorded by Carrera Daza (1644). Limited attestation; many entries are tentative.
@@ -4363,7 +4365,7 @@ const LANG_DATA = {
   // Old Tagalog (pre-Hispanic) — used Baybayin script (Tagalog block U+1700).
   // Vocabulary attested via early Spanish-era dictionaries (Pedro de San Buenaventura,
   // 1613). Many words still in modern Tagalog.
-  otl: { name: 'Old Tagalog', native: 'ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔', lat: 14.60, lng: 120.98, // Manila / Tondo
+  h_tagalog: { name: 'Old Tagalog', native: 'ᜏᜒᜃᜅ᜔ ᜆᜄᜎᜓᜄ᜔', lat: 14.60, lng: 120.98, // Manila / Tondo
 },
 
   // === Phase 13b: Northeast Asian + SE Asian ancient languages ===
@@ -4507,7 +4509,7 @@ const LANG_DATA = {
 },
   // Old Cham — Champa kingdom inscriptions (~4c. CE+). Cham script (Brahmic);
   // Latin transliteration used for portability. Mỹ Sơn sanctuary area.
-  occ: { name: 'Old Cham', native: 'aksara cam', lat: 15.76, lng: 108.12,
+  ocm: { name: 'Old Cham', native: 'aksara cam', lat: 15.76, lng: 108.12,
 },
 
   // === Ancient Asian languages (Phase 13) ===
@@ -4539,14 +4541,14 @@ const LANG_DATA = {
   // is itself a major argument against the hypothesis. We therefore
   // leave most cells unattested ('—') and mark the few proposed
   // basic-vocabulary cognates with `disputed` evidence.
-  pjk: { name: 'Proto-Japonic-Koreanic', native: 'Proto-Japonic-Koreanic', lat: 38.50, lng: 134.00, // Sea of Japan (symbolic — between hypothetical Korean Peninsula homeland and the Japanese archipelago)
+  p_jpk: { name: 'Proto-Japonic-Koreanic', native: 'Proto-Japonic-Koreanic', lat: 38.50, lng: 134.00, // Sea of Japan (symbolic — between hypothetical Korean Peninsula homeland and the Japanese archipelago)
 
     wordEvidence: {
       mother: { evidence: 'disputed', source: 'Whitman 2012 — childish *ma/əma; cross-linguistic baby-talk root, weak phylogenetic value' },
       father: { evidence: 'disputed', source: 'Whitman 2012 — childish *əpa; cf. OJ titi but Korean apa is also baby-talk; weak phylogenetic value' },
     } },
   // Vedic Sanskrit — Rigveda period (~1500-500 BCE). Sapta Sindhu (Punjab/Saraswati basin).
-  vsa: { name: 'Vedic Sanskrit', native: 'वैदिक संस्कृतम्', lat: 30.50, lng: 75.00,
+  h_vedic: { name: 'Vedic Sanskrit', native: 'वैदिक संस्कृतम्', lat: 30.50, lng: 75.00,
 },
   // Tangut (Western Xia, 11-13c.) — Sofronov / Gong reconstructions; tones 1=level (˧), 2=rising (˧˥).
   // Tangut script chars are Unicode block U+17000-U+187FF; some readings are scholarly approximations.
@@ -4943,7 +4945,7 @@ const LANG_DATA = {
 },
   dbl: { name: 'Dyirbal', native: 'Jirrbal', lat: -17.85, lng: 145.65,
 },
-  dgr: { name: 'Guernésiais', native: 'Dgèrnésiais', lat: 49.45, lng: -2.58,
+  nrf_gg: { name: 'Guernésiais', native: 'Dgèrnésiais', lat: 49.45, lng: -2.58,
 },
   fra_jer: { name: 'Jèrriais', native: 'Jèrriais', lat: 49.21, lng: -2.13,
 },
@@ -4981,7 +4983,7 @@ const LANG_DATA = {
 },
   kim: { name: 'Tofa', native: 'тоъфа дыл', lat: 54.3, lng: 99.1,
 },
-  tup: { name: 'Tupinambá', native: 'Tupinambá / Nhe\'engatú', lat: -22.91, lng: -43.17,
+  tpn: { name: 'Tupinambá', native: 'Tupinambá / Nhe\'engatú', lat: -22.91, lng: -43.17,
 },
   uln: { name: 'Unserdeutsch', native: 'Unserdeutsch', lat: -4.2, lng: 152.2,
 },
@@ -5034,7 +5036,7 @@ const LANG_DATA = {
 },
   kry: { name: 'Kryts', native: 'кърыцӀаз кьеланджи', lat: 41.19, lng: 48.27,
 },
-  lrr: { name: 'Southern Luri', native: 'لوری جنوبی', lat: 30.4, lng: 51.55,
+  luz: { name: 'Southern Luri', native: 'لوری جنوبی', lat: 30.4, lng: 51.55,
 },
   osc: { name: 'Oscan', native: 'Oscan', lat: 40.75, lng: 14.49,
 },
@@ -5072,7 +5074,7 @@ const LANG_DATA = {
 },
   uun: { name: 'Kulon-Pazeh', native: 'Pazeh', lat: 23.97, lng: 120.97,
 },
-  wch: { name: 'Wichita', native: 'Kirikirʔis', lat: 35.05, lng: -98.4,
+  wic: { name: 'Wichita', native: 'Kirikirʔis', lat: 35.05, lng: -98.4,
 },
   wuu_jh: { name: 'Jinhua Wu', native: '金华话', lat: 29.08, lng: 119.65,
 },
@@ -5106,25 +5108,25 @@ const LANG_DATA = {
 // whose vocabulary/grammar is only partially known (e.g. Elamite).
 const DATA_STATUS_OVERRIDES = {
     // Genuinely reconstructed (no direct text record):
-    ine:       'reconstructed',  // Proto-Indo-European — comparative reconstruction
-    pjk:       'reconstructed',  // Proto-Japonic-Koreanic — disputed hypothesis (Whitman/Robbeets)
-    pjp: 'reconstructed',  // Proto-Japonic
-    pko: 'reconstructed',  // Proto-Koreanic
+    p_ine:       'reconstructed',  // Proto-Indo-European — comparative reconstruction
+    p_jpk:       'reconstructed',  // Proto-Japonic-Koreanic — disputed hypothesis (Whitman/Robbeets)
+    p_jpn: 'reconstructed',  // Proto-Japonic
+    p_kor: 'reconstructed',  // Proto-Koreanic
     ptrk: 'reconstructed',  // Proto-Turkic
     pmng: 'reconstructed',  // Proto-Mongolic
-    ptg: 'reconstructed',  // Proto-Tungusic
-    paa: 'reconstructed',  // Proto-Austroasiatic
-    pkd: 'reconstructed',  // Proto-Kra-Dai
-    phm: 'reconstructed',  // Proto-Hmong-Mien
+    p_tun: 'reconstructed',  // Proto-Tungusic
+    p_aav: 'reconstructed',  // Proto-Austroasiatic
+    p_kra: 'reconstructed',  // Proto-Kra-Dai
+    p_hmx: 'reconstructed',  // Proto-Hmong-Mien
     pafa: 'reconstructed',  // Proto-Afroasiatic
     pkar: 'reconstructed',  // Proto-Kartvelian
     pmay: 'reconstructed',  // Proto-Mayan
     puaz: 'reconstructed',  // Proto-Uto-Aztecan
     pban: 'reconstructed',  // Proto-Bantu
-    pst: 'reconstructed',  // Proto-Sino-Tibetan
+    p_sit: 'reconstructed',  // Proto-Sino-Tibetan
     psem: 'reconstructed',  // Proto-Semitic
     pura: 'reconstructed',  // Proto-Uralic
-    pdr: 'reconstructed',  // Proto-Dravidian
+    p_dra: 'reconstructed',  // Proto-Dravidian
     paus: 'reconstructed',  // Proto-Austronesian
     // Critically endangered modern languages — sparse Swadesh-list coverage
     // (audit Task 142 Tier 2 optional additions, sourced cells only,
@@ -5150,7 +5152,7 @@ const DATA_STATUS_OVERRIDES = {
     yai:       'fragmentary',    // Yaghnobi — Andreyev–Peshchereva / Novák lexicons have no headword for 'love'
     uby:       'fragmentary',       // Ubykh — extinct 1992 (Esenç d. 7 Oct 1992); Dumézil 1931 + Vogt 1963 + Hewitt 2004  [reclassified modern 2026-07: fragmentary 25-word coverage]
     // Attested in primary text records (despite scholarly phonological reconstruction):
-    vsa:       'attested',       // Vedic Sanskrit — Rigveda et al. directly transmitted
+    h_vedic:       'attested',       // Vedic Sanskrit — Rigveda et al. directly transmitted
     xto:       'attested',       // Tocharian A — 5-8c. CE manuscripts
     txb:       'attested',       // Tocharian B — same
     xlu:       'attested',       // Luwian — cuneiform + hieroglyphic Luwian texts
@@ -5199,18 +5201,18 @@ const DATA_STATUS_OVERRIDES = {
     xqa:       'attested',       // Karakhanid — Dīwān Lughāt al-Turk (Mahmud al-Kashgari, 11c.)
     // Mesoamerican / Classical American:
     nci:       'attested',       // Classical Nahuatl — codices + Spanish-era documentation
-    myn:       'attested',       // Classical Maya — hieroglyphic inscriptions + codices
-    cqu:       'attested',       // Classical Quechua — colonial-era documentation
+    emy:       'attested',       // Classical Maya — hieroglyphic inscriptions + codices
+    qwc:       'attested',       // Classical Quechua — colonial-era documentation
     // Mainland SE Asia / Insular SE Asia historical:
     kaw:       'attested',       // Old Javanese (Kawi) — Brahmic inscriptions, kakawin literature
     kho:       'attested',       // Khotanese — Buddhist + secular Saka manuscripts
     okz:       'attested',       // Old Khmer — Angkor inscriptions
     omx:       'attested',       // Old Mon — Dvaravati / Pagan inscriptions
     obr:       'attested',       // Old Burmese — Myazedi (1113) + Pagan inscriptions
-    occ:       'attested',       // Old Cham — Champa kingdom inscriptions
+    ocm:       'attested',       // Old Cham — Champa kingdom inscriptions
     omy:       'attested',       // Old Malay — Srivijaya inscriptions (Kedukan Bukit 683)
     osn:       'attested',       // Old Sundanese — Sunda Kingdom / Pajajaran inscriptions
-    otl:       'attested',       // Old Tagalog — pre-Spanish Baybayin inscriptions
+    h_tagalog:       'attested',       // Old Tagalog — pre-Spanish Baybayin inscriptions
     onw:       'attested',       // Old Nubian — Christian Nubian Christian texts
     // East Asian / Inner Asian historical:
     och:       'attested',       // Old Chinese — pre-Han inscriptions + Shijing/Shujing
@@ -5271,10 +5273,10 @@ const DATA_STATUS_OVERRIDES = {
     es_sgl:    'pedagogical',      // Golden Age Spanish (Siglo de Oro literary canon — Cervantes, Lope, Calderón)
     fr_class:  'pedagogical',      // Classical French / Grand Siècle (Académie française "le bel usage")
     oko:       'attested',         // Old Korean (Silla) — hyangga corpus + idu
-    okg:       'fragmentary',      // Goguryeo — ~80 toponyms only
+    h_goguryeo:       'fragmentary',      // Goguryeo — ~80 toponyms only
     ko_gor:    'attested',         // Goryeo Korean — 鶏林類事 corpus
     ja_chu:    'pedagogical',      // Middle Japanese — period reconstruction (Heike + Vocabulario)
-    pry:       'reconstructed',    // Proto-Ryukyuan — comparative reconstruction
+    p_ryu:       'reconstructed',    // Proto-Ryukyuan — comparative reconstruction
     vi_nom:    'pedagogical',
     // Well-attested historical Sinitic:
     zh_song:   'attested',
@@ -5311,12 +5313,12 @@ const DATA_STATUS_OVERRIDES = {
 const HIST_DESCENDANT = {
     la:'it', el_grc:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
     got:'de', cu:'bg', pi:'si', cop:null, arc:'he',
-    sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', myn:'es_mx',
-    ine:null, pjk:null, pjp:null, pko:null, ptrk:null, pmng:null, ptg:null, paa:null, pkd:null, phm:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, pst:null, psem:null, pura:null, pdr:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
+    sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', emy:'es_mx',
+    p_ine:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, p_kra:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
     vi_han:'vi', de_lut:'de', es_sgl:'es_eu', fr_class:'fr',
-    oko:'ko', okg:null, ko_gor:'ko', ja_chu:'ja', pry:'ja_oki',
+    oko:'ko', h_goguryeo:null, ko_gor:'ko', ja_chu:'ja', p_ryu:'ja_oki',
     // Phase 4: historical
     peo:'fa', ave:'fa', xto:null, txb:null, phn:'he', uga:'he',
     xlu:null, pal:'fa', fa_clas:'fa', syc:'syr', fro:'fr', it_dan:'it', goh:'de', gez:'am',
@@ -5331,12 +5333,12 @@ const HIST_DESCENDANT = {
     // Phase 8 historical
     xng:'mn',
     // Phase 13: ancient Asian additions
-    och:'zh', ojp:'ja', vsa:'hi', txg:null, sog:'tg', otk:'tr',
+    och:'zh', ojp:'ja', h_vedic:'hi', txg:null, sog:'tg', otk:'tr',
     // Phase 13b: NE Asian + SE Asian ancient
-    zkt:null, juc:'mnc', omx:'mnw', pyx:'my', obr:'my', occ:'cja',
+    zkt:null, juc:'mnc', omx:'mnw', pyx:'my', obr:'my', ocm:'cja',
     // Phase 13c: Russia / Thailand / Africa / Americas / Indonesia / Philippines ancient
-    orv:'ru', xsc:null, sukh:'th', xmr:null, onw:null, cqu:'qu',
-    omc:null, chb:null, omy:'ms', osn:'su', otl:'tl',
+    orv:'ru', xsc:null, sukh:'th', xmr:null, onw:null, qwc:'qu',
+    omc:null, chb:null, omy:'ms', osn:'su', h_tagalog:'tl',
     // 2026-07-21 (owner, extinct-as-modern audit): Kulon-Pazeh (Formosan) is
     // dormant — last fluent speaker died 2010, ~0 L1 — and carries a period
     // (18–21c), so it belongs on the historical map, not the modern one.
@@ -5394,7 +5396,7 @@ const HIST_DESCENDANT = {
     xve:null,    // Venetic — Italic, displaced by Latin
     xpg:null,    // Phrygian — IE isolate branch, no living descendant
     oar:null,    // Old Aramaic — ancestor of arc (which → he)
-    tup:'yrl',   // Tupinambá — Nheengatu (yrl) is its direct continuation
+    tpn:'yrl',   // Tupinambá — Nheengatu (yrl) is its direct continuation
     yug:'ket',   // Yug — Ket is the only other surviving Yeniseian language
     xib:null,    // Iberian — Paleo-Hispanic isolate, undeciphered
     xli:null,    // Liburnian — extinct Adriatic, no living descendant

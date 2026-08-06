@@ -244,7 +244,7 @@ function buildWordMapJSON(nameIndex) {
 // Running the same translator here and shipping a shared phrase table keeps
 // one source of truth. The table is keyed by the English string rather than by
 // language code because these strings repeat heavily across rows — ~3,300
-// distinct values for 1,133 languages — so a per-row copy would be several
+// distinct values for 1,132 languages — so a per-row copy would be several
 // times larger. Entries identical to English are omitted.
 //
 // It goes in its own file, not into wordmap_seo.json, because only the

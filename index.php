@@ -87,6 +87,18 @@ if ($map === 'wordmap' || $map === 'hanmap') {
         seo_404('Invalid language id.', $seo_ui);
         return;
     }
+    // A language whose code we corrected keeps its old URL working. These
+    // pages are indexed and shared, so a rename that 404s loses the page.
+    if ($seo_id !== '' && isset(SEO_RENAMED_CODES[$seo_id])) {
+        // Third argument, not string concatenation: seo_path() puts the
+        // trailing slash after $map, so passing "wordmap/sip" as the map would
+        // 301 to /ja/wordmap/sip/ and cost crawlers a second hop to the
+        // canonical /ja/wordmap/sip.
+        $target = SEO_SITE . seo_path($seo_ui, $map, SEO_RENAMED_CODES[$seo_id]);
+        header('Location: ' . $target, true, 301);
+        http_response_code(301);
+        exit;
+    }
     header('Content-Type: text/html; charset=utf-8');
     require __DIR__ . '/seo/' . $map . '.php';
     return;

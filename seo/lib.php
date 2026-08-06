@@ -44,6 +44,42 @@ if (!function_exists('mb_strrpos')) {
 }
 
 const SEO_SITE = 'https://langmap.heuron.com';
+
+/**
+ * Language codes that moved, old => new. index.php 301s the old URL.
+ *
+ * Each of these rows was sitting on an ISO 639-3 code that denotes a
+ * DIFFERENT language — bvu is Bukit Malay, fla is Kalispel-Pend d'Oreille,
+ * tsm is Turkish Sign Language — while the code for the language actually in
+ * the row was free. Verified against the official registry, not from memory.
+ *
+ * Never delete an entry from this map. The old URLs are indexed and shared;
+ * dropping a line here turns a working page into a 404 with no warning.
+ */
+const SEO_RENAMED_CODES = [
+    'bvu' => 'sdo',   // Bukar-Sadong Bidayuh
+    'fla' => 'fax',   // Fala
+    'jaq' => 'jqr',   // Jaqaru
+    'oma' => 'omy',   // Old Malay
+    'osu' => 'osn',   // Old Sundanese
+    'pgz' => 'pmy',   // Papuan Malay
+    'sik' => 'sip',   // Sikkimese
+    'tof' => 'kim',   // Tofa / Karagas
+    'tsm' => 'tru',   // Turoyo
+    'yag' => 'yai',   // Yaghnobi
+    'azo' => 'yiz',   // Azhe
+    'dge' => 'deg',   // Degema
+    'jia' => 'jio',   // Jiamao
+    // Consolidated duplicates (2026-08-06/07) — the row is gone, not renamed,
+    // but the old URL should still land somewhere useful.
+    'som' => 'so',    // Somali
+    'ipk' => 'ik',    // Iñupiaq
+    'onn' => 'ono',   // Onondaga (onn is Onobasulu)
+    'xkk' => 'kjg',   // Khmu (xkk is Kachok)
+    'bua' => 'bxr',   // Buryat
+    'ar_dz' => 'arq', // Algerian Arabic
+    'eml' => 'egl',   // Emilian (eml retired from ISO in 2009)
+];
 const SEO_DATA_DIR = __DIR__ . '/../data';
 
 // Number of Word Map concepts (= WORD_ORDER length in word_manifest.js).

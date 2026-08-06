@@ -87,7 +87,6 @@ Total: 1133 codes.
 | `ayl` | Libyan Arabic | リビア・アラビア語 | Afro-Asiatic (Semitic) | ~4.2–5M (Libya + diaspora) |
 | `az` | Azerbaijani | アゼルバイジャン語 | Turkic | ~25M |
 | `azb` | South Azerbaijani | 南アゼルバイジャン語 | Turkic (Oghuz, Azerbaijani) | ~15M |
-| `azo` | Azhe | アジェ語 | Sino-Tibetan | ~50K |
 | `ba` | Bashkir | バシキール語 | Turkic (Kipchak) | ~1.4M |
 | `bah` | Bahamian Creole | バハマ・クレオール語 | English-based creole | ~400K |
 | `bal` | Balochi | バローチー語 | Iranian (Northwestern) | ~10M |
@@ -139,7 +138,6 @@ Total: 1133 codes.
 | `bts` | Simalungun Batak | シマルングン・バタク語 | Austronesian | ~1.2M |
 | `bug` | Buginese | ブギス語 | Austronesian (South Sulawesi) | ~4.3M |
 | `bum` | Bulu | ブル語 | Atlantic-Congo (Bantu, Beti) | ~860K |
-| `bvu` | Bukar-Sadong Bidayuh | ブカル＝サドン・ビダユ語 | Austronesian (Land Dayak, Bidayuhic) | ~50K |
 | `bxk` | Bukusu | ブクス語 | Niger-Congo | ~0.75–1.4M (Bungoma & Trans-Nzoia counties) |
 | `bxr` | Buryat | ブリヤート語 | Mongolic | ~265K |
 | `byn` | Blin | ブリン語 | Afro-Asiatic (Cushitic, Central) | ~140K |
@@ -218,7 +216,7 @@ Total: 1133 codes.
 | `de_ch` | German (Swiss) | ドイツ語(スイス) | Germanic | ~5M |
 | `de_lu` | German (Luxembourgish) | ドイツ語(ルクセンブルク) | Germanic | ~660K (working language, Luxembourg) |
 | `de_lut` | Early New High German (Luther-era) | 初期新高ドイツ語(ルター期) | Indo-European (Germanic, West, Frühneuhochdeutsch / Early New High German) | Historical literary form (~1350–1650 CE); pedagogical use (Reformation) |
-| `dge` | Degema | デゲマ語 | Niger-Congo | ~25–32K |
+| `deg` | Degema | デゲマ語 | Niger-Congo | ~25–32K |
 | `dgr` | Guernésiais | ゲルネジエ語 | Indo-European (Romance > Oïl > Norman) | ~200 (critically endangered) |
 | `din` | Dinka | ディンカ語 | Nilo-Saharan (Western Nilotic) | ~4M |
 | `dje` | Zarma | ザルマ語 | Songhai (Southern) | ~3M |
@@ -322,10 +320,10 @@ Total: 1133 codes.
 | `fa_clas` | Persian (Classical) | ペルシャ語(古典) | Indo-European (Iranian, Southwestern Iranian, New Persian) | Historical literary form (~800–1500 CE; widely taught today) |
 | `fai` | Faiwol | ファイウォル語 | Trans-New Guinea | ~5–7K |
 | `fan` | Fang | ファン語 | Atlantic-Congo (Bantu, A.70 Yaounde-Fang) | ~1M |
+| `fax` | Fala | ファラ語 | Indo-European | ~10K |
 | `ff` | Fula | フラニ語 | Atlantic-Congo (Senegambian, Fula) | ~40M |
 | `fi` | Finnish | フィンランド語 | Uralic | ~5.5M |
 | `fj` | Fijian | フィジー語 | Austronesian | ~640K |
-| `fla` | Fala | ファラ語 | Indo-European | ~10K |
 | `fo` | Faroese | フェロー語 | Germanic | ~70K |
 | `fon` | Fon | フォン語 | Niger-Congo (Volta-Niger, Gbe) | ~2.2M |
 | `fr` | French | フランス語 | Romance | ~320M |
@@ -459,12 +457,12 @@ Total: 1133 codes.
 | `ja_rys` | Yaeyama | 八重山語 | Japonic (Ryukyuan, Southern) | ~45K |
 | `ja_sd` | Japanese (Sendai) | 日本語(仙台弁) | Japonic (Tohoku) | ~2.3M |
 | `jam` | Jamaican Patois | ジャマイカ・パトワ | English-based creole | ~3M |
-| `jaq` | Jaqaru | ハカル語 | Aymaran | ~700 (severely endangered) |
 | `jbo` | Lojban | ロジバン | Constructed (logical) | ~1K |
-| `jia` | Jiamao | ジアマオ語 | Kra-Dai | ~3K (severely endangered) |
+| `jio` | Jiamao | ジアマオ語 | Kra-Dai | ~3K (severely endangered) |
 | `jiv` | Shuar | シュアル語 | Jivaroan | ~35K |
 | `jmc` | Machame | マチャメ語 | Atlantic-Congo (Bantu, Chaga) | ~470K |
 | `jpr` | Judeo-Persian | ユダヤ・ペルシア語 | Iranian | ~60K |
+| `jqr` | Jaqaru | ハカル語 | Aymaran | ~700 (severely endangered) |
 | `juc` | Jurchen | 女真語 | Tungusic (Jurchen-Manchu) | Extinct (~12th-16th c. CE; merged into Manchu) |
 | `jv` | Javanese | ジャワ語 | Austronesian | ~98M |
 | `jvn` | Caribbean Javanese | カリブ・ジャワ語 | Austronesian (Malayo-Polynesian, Javanese, diaspora) | ~60K |
@@ -499,6 +497,7 @@ Total: 1133 codes.
 | `khv` | Khvarshi | フヴァルシ語 | NE Caucasian (Tsezic, West Tsezic) | ~1.7K |
 | `khw` | Khowar | コホワール語 | Indo-European (Indo-Iranian, Dardic) | ~300–380K |
 | `ki` | Kikuyu | キクユ語 | Atlantic-Congo (Bantu) | ~7M |
+| `kim` | Tofa | トファ語 | Turkic (Sayan Turkic, Northern) | ~40 (critically endangered) |
 | `kio` | Kiowa | カイオワ語 | Kiowa-Tanoan | ~50 (critically endangered) |
 | `kj` | Kuanyama | クワニヤマ語 | Atlantic-Congo (Bantu, Oshiwambo) | ~280K |
 | `kjb` | Q'anjob'al | カンジョバル語 | Mayan | ~80–100K (Guatemala + significant USA diaspora) |
@@ -741,9 +740,9 @@ Total: 1133 codes.
 | `olg` | Olkol | オルコル語 | Pama-Nyungan | ~50 fluent + heritage learners |
 | `olo` | Livvi-Karelian | リヴヴィ・カレリア語 | Uralic | ~14K (severely endangered) |
 | `om` | Oromo | オロモ語 | Cushitic | ~37M |
-| `oma` | Old Malay | 古マレー語 | Austronesian (Malayo-Polynesian, Malayic) | Extinct (~7-14c. CE; modern Malay/Indonesian descend) |
 | `omc` | Mochica | ムチカ語 (ユンガ) | Mochica (likely isolate) | Extinct |
 | `omx` | Old Mon | 古モン語 | Austroasiatic (Mon-Khmer, Monic) | Extinct (~6-11c. CE; modern Mon descends) |
+| `omy` | Old Malay | 古マレー語 | Austronesian (Malayo-Polynesian, Malayic) | Extinct (~7-14c. CE; modern Malay/Indonesian descend) |
 | `one` | Oneida | オネイダ語 | Iroquoian | ~100–200 fluent L1 (critically endangered) |
 | `ono` | Onondaga | オノンダガ語 | Iroquoian (Northern, Five Nations) | ~20 fluent + heritage learners |
 | `onw` | Old Nubian | 古ヌビア語 | Nilo-Saharan (Eastern Sudanic) | Extinct (~8-15c. CE; Nobiin/Mahas-Fadicca are descendants) |
@@ -752,8 +751,8 @@ Total: 1133 codes.
 | `os` | Ossetian | オセット語 | Iranian (Eastern) | ~600K |
 | `osa` | Osage | オセージ語 | Siouan (Dhegihan) | ~15 L1 + active revitalization L2 |
 | `osc` | Oscan | オスク語 | Indo-European / Italic (Sabellic — Oscan) | Extinct by c. 1c CE (last inscriptions pre-79 CE) |
+| `osn` | Old Sundanese | 古スンダ語 | Austronesian (Malayo-Polynesian, Sundic) | Extinct as L1 |
 | `osp` | Old Spanish | 古スペイン語 | Indo-European (Romance, Ibero-Romance, Castilian) | Extinct as L1 |
-| `osu` | Old Sundanese | 古スンダ語 | Austronesian (Malayo-Polynesian, Sundic) | Extinct as L1 |
 | `osx` | Old Saxon | 古ザクセン語 | Indo-European (West Germanic, Low German, Old Saxon) | Extinct (~8th-12th c. CE; ancestor of Low German) |
 | `ota` | Ottoman Turkish | オスマン・トルコ語 | Turkic (Oghuz) | Extinct |
 | `ote` | Otomi | オトミ語 | Oto-Manguean (Otomian) | ~290K |
@@ -779,7 +778,6 @@ Total: 1133 codes.
 | `pdr` | Proto-Dravidian | ドラヴィダ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pdt` | Plautdietsch | プラウトディーチェ語 | Indo-European | ~400K |
 | `peo` | Old Persian | 古ペルシア語 | Indo-European (Iranian, Old, Southwestern) | Extinct (~6th-4th c. BCE; royal Achaemenid) |
-| `pgz` | Papuan Malay | パプア・マレー語 | Austronesian (Malayic creole / Eastern Malay) | ~1M (L1+L2) |
 | `phm` | Proto-Hmong-Mien | 苗瑶祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `phn` | Phoenician | フェニキア語 | Afro-Asiatic (Northwest Semitic, Canaanite) | Extinct (~1500 BCE-3rd c. CE) |
 | `pi` | Pali | パーリ語 | Indo-European (Indo-Aryan, Middle) | Extinct (liturgical) |
@@ -800,6 +798,7 @@ Total: 1133 codes.
 | `pmng` | Proto-Mongolic | モンゴル祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pms` | Piedmontese | ピエモンテ語 | Indo-European (Romance, Italo-Western, Gallo-Italic) | ~1–2M |
 | `pmt` | Tuamotuan | トゥアモトゥアン語 | Austronesian (Polynesian) | ~6K |
+| `pmy` | Papuan Malay | パプア・マレー語 | Austronesian (Malayic creole / Eastern Malay) | ~1M (L1+L2) |
 | `pnb` | Western Punjabi | 西部パンジャブ語 | Indo-European | ~64M |
 | `pnt` | Pontic Greek | ポントス・ギリシャ語 | Hellenic | ~600K |
 | `poh` | Poqomchi' | ポコムチ語 | Mayan | ~50K (Alta Verapaz + Baja Verapaz Guatemala) |
@@ -875,6 +874,7 @@ Total: 1133 codes.
 | `sd` | Sindhi | シンド語 | Indo-Aryan | ~32M |
 | `sda` | Toraja-Sa'dan | サダン・トラジャ語 | Austronesian (South Sulawesi, Toraja-Sa'dan) | ~750K |
 | `sdh` | Southern Kurdish | 南クルド語 | Indo-European (Iranian, Northwest, Kurdish) | ~3M (largely undercounted in censuses) |
+| `sdo` | Bukar-Sadong Bidayuh | ブカル＝サドン・ビダユ語 | Austronesian (Land Dayak, Bidayuhic) | ~50K |
 | `se` | Northern Sami | 北サーミ語 | Uralic (Saami) | ~25K |
 | `seh` | Sena | セナ語 | Atlantic-Congo (Bantu, Senga-Sena) | ~1.4M |
 | `sel` | Selkup | セリクプ語 | Uralic | ~1K |
@@ -889,7 +889,7 @@ Total: 1133 codes.
 | `shy` | Shawiya | シャウィヤ語 | Afro-Asiatic | ~2M (vibrant) |
 | `si` | Sinhala | シンハラ語 | Indo-Aryan | ~17M |
 | `sid` | Sidamo | シダモ語 | Afro-Asiatic (Cushitic, Highland East) | ~3M |
-| `sik` | Sikkimese | シッキム語 | Sino-Tibetan (Tibeto-Burman, Bodish, Tibetic, Southern/Central Tibetic) | ~70K |
+| `sip` | Sikkimese | シッキム語 | Sino-Tibetan (Tibeto-Burman, Bodish, Tibetic, Southern/Central Tibetic) | ~70K |
 | `sjd` | Kildin Sámi | キルディン・サーミ語 | Uralic (Sami, Eastern, Kola Sami) | ~340 |
 | `sjo` | Sibe | シベ語 (錫伯語) | Tungusic (Manchu-Nanai, Manchu — sister/dialect of Manchu) | ~30K |
 | `sk` | Slovak | スロバキア語 | Slavic | ~5.2M |
@@ -970,7 +970,6 @@ Total: 1133 codes.
 | `tn` | Tswana | ツワナ語 | Atlantic-Congo (Bantu, Sotho-Tswana) | ~14M |
 | `to` | Tongan | トンガ語 | Austronesian (Polynesian) | ~187K |
 | `toc` | Coyutla Totonac | コユトラ・トトナック語 | Totonacan | ~50K |
-| `tof` | Tofa | トファ語 | Turkic (Sayan Turkic, Northern) | ~40 (critically endangered) |
 | `toi` | Tonga (Zambia) | トンガ語(ザンビア) | Atlantic-Congo (Bantu, Tonga-Lenje) | ~1.7M |
 | `toj` | Tojolabal | トホラバル語 | Mayan | ~70K |
 | `tok` | Toki Pona | トキポナ | Constructed (philosophical) | ~10K |
@@ -978,11 +977,11 @@ Total: 1133 codes.
 | `tr` | Turkish | トルコ語 | Turkic | ~85M |
 | `trm` | Tregami | トレガミ語 | Indo-European | ~3.5K |
 | `trn` | Trinitario Mojeño | トリニタリオ・モヘーニョ語 | Arawakan | ~3–3.1K L1 (Beni) |
+| `tru` | Turoyo | トゥロヨ語 | Afro-Asiatic | ~50–100K |
 | `trv` | Truku/Seediq | タロコ・セデック語 | Austronesian (Atayalic) | ~30K (Truku ~25K + Seediq ~5K daily L1) |
 | `ts` | Tsonga | ツォンガ語 | Atlantic-Congo (Bantu, Tswa-Ronga) | ~10M |
 | `tsg` | Tausug | タウスグ語 | Austronesian (Greater Central Philippine) | ~1.1M |
 | `tsi` | Coast Tsimshian | コースト・ツィムシアン語 | Tsimshianic (Maritime) | ~200 |
-| `tsm` | Turoyo | トゥロヨ語 | Afro-Asiatic | ~50–100K |
 | `tsu` | Tsou | ツォウ語 | Austronesian (Tsouic) | ~4K (~2K daily L1, severely endangered) |
 | `tsz` | Purépecha | プレペチャ語 | isolate | ~142K L1 |
 | `tt` | Tatar | タタール語 | Turkic (Kipchak) | ~5M |
@@ -1086,12 +1085,13 @@ Total: 1133 codes.
 | `xul` | Ngunnawal | ングンナワル語 | Pama-Nyungan | ~5K heritage learners |
 | `xum` | Umbrian | ウンブリア語 | Indo-European > Italic > Sabellic (Osco-Umbrian) | 0 (extinct ~1st c. CE) |
 | `xve` | Venetic | ヴェネト語 | Indo-European > Italic (or independent IE branch — debated) | 0 (extinct ~1st c. BCE) |
-| `yag` | Yaghnobi | ヤグノビ語 | Iranian (Eastern) | ~13K |
+| `yai` | Yaghnobi | ヤグノビ語 | Iranian (Eastern) | ~13K |
 | `yao` | Yao | ヤオ語 | Atlantic-Congo (Bantu, Yao-Makonde) | ~3M |
 | `yap` | Yapese | ヤップ語 | Austronesian (Admiralty Islands or independent Oceanic) | ~7K |
 | `ybe` | Western Yugur | 西裕固語 | Turkic (Siberian) | ~3.6–5K L1 (critically endangered) |
 | `ygr` | Yagaria | ヤガリア語 | Trans-New Guinea (Eastern Highlands) | ~10K |
 | `yi` | Yiddish | イディッシュ語 | Germanic | ~600K |
+| `yiz` | Azhe | アジェ語 | Sino-Tibetan | ~50K |
 | `ykg` | Tundra Yukaghir | ツンドラ・ユカギール語 | Yukaghir (Tundra) | ~370 |
 | `yle` | Yele | イェリ・ドニェ語 | Language isolate (sometimes grouped Yele-West New Britain) | ~4–5K |
 | `yo` | Yoruba | ヨルバ語 | Niger-Congo | ~45M |

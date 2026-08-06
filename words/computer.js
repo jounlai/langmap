@@ -306,7 +306,7 @@ WORDS.computer = {
     "pam": ["kompyuter", "komˈpjutɛr"],
     "pcm": ["kọmputa", "kɔm.pú.tà"],
     "pdc": ["Computer", "ˈkɔmpjuːtɐ"],
-    "pgz": ["komputer", "komˈputer"],
+    "pmy": ["komputer", "komˈputer"],
     "pi": ["गणक", "ɡɐɳɐkɐ"],
     "pi_edu": ["gaṇaka", "ɡɐɳɐkɐ"],
     "pl": ["komputer", "kɔmˈpu.tɛr"],

@@ -35,7 +35,7 @@ const EXCLUDED_CODES = new Set([
   // Phase 13b: NE Asian + SE Asian ancient
   'zkt','juc','omx','pyx','obr','occ',
   // Phase 13c: Russia / Thailand / Africa / Americas / Indonesia / Philippines ancient
-  'orv','xsc','sukh','xmr','onw','cqu','chb','oma','osu','otl',
+  'orv','xsc','sukh','xmr','onw','cqu','chb','omy','osn','otl',
   // Reconstructed proto / hypothetical
   'pjk',
   // Korean Peninsula historical
@@ -972,8 +972,8 @@ const LANG_DATA = {
   ii: { name: 'Yi (Nuosu)', native: 'ꆈꌠꉙ', lat: 27.90, lng: 102.26,
 },
   // Azhe — Sino-Tibetan (Tibeto-Burman, Loloish, Southeastern), ~50K, China (Yunnan — Mile and Yiliang counties around Honghe Hani-Yi Autonomous Prefecture).
-  // Sources: Ethnologue 27 'azo'; Glottolog azhe1239; Wang & Yu (1994) Yi/Lolo-Burmese phonology.
-  azo: { name: 'Azhe', native: 'Azhepu', lat: 24.41, lng: 103.41, // Mile County, Honghe Prefecture, Yunnan
+  // Sources: Ethnologue 27 'yiz'; Glottolog azhe1239; Wang & Yu (1994) Yi/Lolo-Burmese phonology.
+  yiz: { name: 'Azhe', native: 'Azhepu', lat: 24.41, lng: 103.41, // Mile County, Honghe Prefecture, Yunnan
 },
   // Hani — Sino-Tibetan (Tibeto-Burman, Loloish, Southeastern — sister to Akha ahk and Bisu within Hanoid Loloish), ~1.5M, China (Yunnan — Honghe + Pu'er prefectures) + Vietnam (Lào Cai) + Laos (Phongsaly).
   // Sources: Ethnologue 27 'hni'; Glottolog hani1247; Lewis (1989) Akha-English Dictionary (Hani context).
@@ -1202,8 +1202,8 @@ const LANG_DATA = {
   urh: { name: 'Urhobo', native: 'Urhobo', lat: 5.51, lng: 5.76, // Ughelli/Delta State, Nigeria
 },
   // Degema — Niger-Congo Edoid (Delta-Edoid sub-branch, sister to Engenni and Epie), ~25K, Nigeria (Rivers State — Bonny Local Government Area).
-  // Sources: Ethnologue 27 'dge'; Glottolog dege1246; Kari (2004) A Reference Grammar of Degema; Williamson (1989).
-  dge: { name: 'Degema', native: 'Atala-mọ', lat: 4.75, lng: 6.75, // Bonny, Rivers State, Nigeria
+  // Sources: Ethnologue 27 'deg'; Glottolog dege1246; Kari (2004) A Reference Grammar of Degema; Williamson (1989).
+  deg: { name: 'Degema', native: 'Atala-mọ', lat: 4.75, lng: 6.75, // Bonny, Rivers State, Nigeria
 },
   // Yekhee (Etsako, formerly Etsako proper) — Niger-Congo Edoid (North-Central, sister to bin Edo and other Edoid; Yekhee cluster includes Auchi, Avianwu, Uzairue), ~660K, Nigeria (Edo State — Etsako).
   // Sources: Ethnologue 27 'ets'; Glottolog yekh1235; Williamson (1989) Niger-Congo classification.
@@ -1792,8 +1792,8 @@ const LANG_DATA = {
   aii: { name: 'Assyrian Neo-Aramaic', native: 'ܠܫܢܐ ܐܫܘܪܝܐ', lat: 36.34, lng: 43.13, // Mosul / Nineveh Plains (historical homeland)
 },
   // Turoyo (Surayt) — Central Neo-Aramaic (sister to aii Assyrian Neo-Aramaic and other Eastern Neo-Aramaic varieties), ~50K-100K, Tur Abdin Turkey homeland + Sweden/Germany/Netherlands diaspora.
-  // Sources: Ethnologue 27 'tru'/'tsm'; Glottolog turo1239; Jastrow (1992) Lehrbuch der Ṭuroyo-Sprache.
-  tsm: { name: 'Turoyo', native: 'ܛܘܪܝܐ', lat: 37.45, lng: 41.50, // Midyat, Tur Abdin, Turkey (Mardin Province)
+  // Sources: Ethnologue 27 'tru'/'tru'; Glottolog turo1239; Jastrow (1992) Lehrbuch der Ṭuroyo-Sprache.
+  tru: { name: 'Turoyo', native: 'ܛܘܪܝܐ', lat: 37.45, lng: 41.50, // Midyat, Tur Abdin, Turkey (Mardin Province)
 },
   sux: { name: 'Sumerian', native: '𒅴𒂠', lat: 30.96, lng: 46.1 },
   akk: { name: 'Akkadian', native: '𒀝𒅗𒁺𒌝', lat: 33.34, lng: 44.4 },
@@ -2271,7 +2271,7 @@ const LANG_DATA = {
 },
   // Jaqaru — Aymaran (Tupe-Cauqui branch — sister to Aymara within Aymaran family), ~700, Yauyos Province, Peru.
   // Sources: Ethnologue 27 'jqr'; Glottolog jaqa1251; Belleza (1995) Vocabulario Jaqaru-Castellano; Hardman (1983) Jaqaru.
-  jaq: { name: 'Jaqaru', native: 'Jaqaru aru', lat: -12.31, lng: -75.83, // Tupe district, Yauyos, Peru
+  jqr: { name: 'Jaqaru', native: 'Jaqaru aru', lat: -12.31, lng: -75.83, // Tupe district, Yauyos, Peru
 },
   // Asháninka — Arawakan (Kampan), Peruvian Amazon, ~25K-50K speakers. Largest Arawakan in Peru.
   // Sources: Ethnologue 27 'cni'; Glottolog asha1243; Mihas (2010) Asháninka grammar.
@@ -2595,7 +2595,7 @@ const LANG_DATA = {
 },
   // Sikkimese (Drenjongke) — Tibetic, ~70K speakers, Sikkim India. Closely related to Dzongkha (dz) and Standard Tibetan (bo).
   // Sources: Ethnologue 27 'sip'; Glottolog sikk1242; van Driem (1992) Bumthang grammar (regional reference).
-  sik: { name: 'Sikkimese', native: 'འབྲས་ལྗོངས་སྐད', lat: 27.33, lng: 88.61, // Gangtok, Sikkim
+  sip: { name: 'Sikkimese', native: 'འབྲས་ལྗོངས་སྐད', lat: 27.33, lng: 88.61, // Gangtok, Sikkim
 },
   // Indonesian (large regional)
   min: { name: 'Minangkabau', native: 'Baso Minangkabau', lat: -0.95, lng: 100.35, // Padang
@@ -2738,8 +2738,8 @@ const LANG_DATA = {
   ext: { name: 'Extremaduran', native: 'Estremeñu', lat: 39.47, lng: -6.37, // Cáceres, Extremadura
 },
   // Fala (A Fala de Xálima, Galician-Asturian-Portuguese transition, sometimes "the third Spanish language") — Iberian Romance, ~10K, Spain (Cáceres, Extremadura — Vall de Xálima).
-  // Sources: Ethnologue 27 'fla'; Glottolog fala1241; Costas González (1999) Fala phonology.
-  fla: { name: 'Fala', native: 'A Fala', lat: 40.10, lng: -6.79, // San Martín de Trevejo, Extremadura
+  // Sources: Ethnologue 27 'fax'; Glottolog fala1241; Costas González (1999) Fala phonology.
+  fax: { name: 'Fala', native: 'A Fala', lat: 40.10, lng: -6.79, // San Martín de Trevejo, Extremadura
 },
   an: { name: 'Aragonese', native: 'Aragonés', lat: 42.57, lng: -0.55, // Jaca
 },
@@ -2916,8 +2916,8 @@ const LANG_DATA = {
   shn: { name: 'Shan', native: 'လိၵ်ႈတႆး', lat: 20.78, lng: 97.04, // Taunggyi
 },
   // Jiamao (Jiamao Hlai) — Tai-Kadai (Kra-Dai) Hlaic (a divergent member of the Hlai branch of Kra-Dai; some classifications place Jiamao outside Hlai due to its substantial divergence from other Hlai varieties; the Hlai/Li are the indigenous people of Hainan island, distinct from the Han Chinese majority), ~3K (severely endangered — UNESCO severely endangered; on the verge of extinction with only elderly speakers remaining), China (Hainan province — Baoting Li and Miao Autonomous County, Lingshui Li Autonomous County in southern Hainan).
-  // Sources: Ethnologue 27 'jia'; Glottolog jiam1236; Ouyang & Zheng (1980) Jiamao Hlai linguistic studies.
-  jia: { name: 'Jiamao', native: 'Jiamao', lat: 18.62, lng: 109.70, // Baoting, Hainan, China
+  // Sources: Ethnologue 27 'jio'; Glottolog jiam1236; Ouyang & Zheng (1980) Jiamao Hlai linguistic studies.
+  jio: { name: 'Jiamao', native: 'Jiamao', lat: 18.62, lng: 109.70, // Baoting, Hainan, China
 },
   // === Phase 3K: African Bantu/Khoisan/W. African (more) ===
   // Niger-Congo (Kwa, additional)
@@ -3818,7 +3818,7 @@ const LANG_DATA = {
   bsk: { name: 'Burushaski', native: 'بُروشَسکی', lat: 36.32, lng: 74.65, // Hunza
 },
   // Iranian (Sogdian descendant)
-  yag: { name: 'Yaghnobi', native: 'yaġnobí zivók', lat: 39.15, lng: 68.50, // Yaghnob Valley
+  yai: { name: 'Yaghnobi', native: 'yaġnobí zivók', lat: 39.15, lng: 68.50, // Yaghnob Valley
 },
   // English-based creole (Suriname)
   srn: { name: 'Sranan Tongo', native: 'Sranan Tongo', lat: 5.85, lng: -55.20, // Paramaribo
@@ -4354,11 +4354,11 @@ const LANG_DATA = {
     } },
   // Old Malay — Srivijaya inscriptions (7c. CE+); the Kedukan Bukit (683) is the
   // earliest. Pallava-derived Brahmi script; many words cognate with modern Malay.
-  oma: { name: 'Old Malay', native: 'bhāṣā Mlayu kuna', lat: -2.99, lng: 104.76, // Palembang
+  omy: { name: 'Old Malay', native: 'bhāṣā Mlayu kuna', lat: -2.99, lng: 104.76, // Palembang
 },
   // Old Sundanese — Sunda Kingdom / Pajajaran (14-16c.). Old Sundanese script
   // (Brahmic; ancestor of modern Sundanese script).
-  osu: { name: 'Old Sundanese', native: 'basa Sunda buhun', lat: -6.59, lng: 106.80, // Pakuan Pajajaran
+  osn: { name: 'Old Sundanese', native: 'basa Sunda buhun', lat: -6.59, lng: 106.80, // Pakuan Pajajaran
 },
   // Old Tagalog (pre-Hispanic) — used Baybayin script (Tagalog block U+1700).
   // Vocabulary attested via early Spanish-era dictionaries (Pedro de San Buenaventura,
@@ -4939,7 +4939,7 @@ const LANG_DATA = {
 },
   bdk: { name: 'Budukh', native: 'Будад мез', lat: 41.05, lng: 48.36,
 },
-  bvu: { name: 'Bukar-Sadong Bidayuh', native: 'Bidayuh Bukar-Sadong', lat: 1.35, lng: 110.43,
+  sdo: { name: 'Bukar-Sadong Bidayuh', native: 'Bidayuh Bukar-Sadong', lat: 1.35, lng: 110.43,
 },
   dbl: { name: 'Dyirbal', native: 'Jirrbal', lat: -17.85, lng: 145.65,
 },
@@ -4979,7 +4979,7 @@ const LANG_DATA = {
 },
   rut: { name: 'Rutul', native: 'МыхӀабишды чӀел', lat: 41.55, lng: 47.3,
 },
-  tof: { name: 'Tofa', native: 'тоъфа дыл', lat: 54.3, lng: 99.1,
+  kim: { name: 'Tofa', native: 'тоъфа дыл', lat: 54.3, lng: 99.1,
 },
   tup: { name: 'Tupinambá', native: 'Tupinambá / Nhe\'engatú', lat: -22.91, lng: -43.17,
 },
@@ -5066,7 +5066,7 @@ const LANG_DATA = {
 },
   osa: { name: 'Osage', native: '𐓏𐓘𐓻𐓘𐓻𐓟 𐒻𐓟', lat: 36.69, lng: -96.34,
 },
-  pgz: { name: 'Papuan Malay', native: 'Bahasa Melayu Papua', lat: -2.53, lng: 140.72,
+  pmy: { name: 'Papuan Malay', native: 'Bahasa Melayu Papua', lat: -2.53, lng: 140.72,
 },
   pot: { name: 'Potawatomi', native: 'Bodéwadmimwen', lat: 39.04, lng: -95.74,
 },
@@ -5147,7 +5147,7 @@ const DATA_STATUS_OVERRIDES = {
     // does. Both are LIVING languages — see LIVING_FRAGMENTARY_CODES in
     // wordmap.html, which suppresses the misleading "fragmentary" badge.
     trm:       'fragmentary',    // Tregami — Morgenstierne (1973) is the only substantial wordlist; 6 cells unattested
-    yag:       'fragmentary',    // Yaghnobi — Andreyev–Peshchereva / Novák lexicons have no headword for 'love'
+    yai:       'fragmentary',    // Yaghnobi — Andreyev–Peshchereva / Novák lexicons have no headword for 'love'
     uby:       'fragmentary',       // Ubykh — extinct 1992 (Esenç d. 7 Oct 1992); Dumézil 1931 + Vogt 1963 + Hewitt 2004  [reclassified modern 2026-07: fragmentary 25-word coverage]
     // Attested in primary text records (despite scholarly phonological reconstruction):
     vsa:       'attested',       // Vedic Sanskrit — Rigveda et al. directly transmitted
@@ -5208,8 +5208,8 @@ const DATA_STATUS_OVERRIDES = {
     omx:       'attested',       // Old Mon — Dvaravati / Pagan inscriptions
     obr:       'attested',       // Old Burmese — Myazedi (1113) + Pagan inscriptions
     occ:       'attested',       // Old Cham — Champa kingdom inscriptions
-    oma:       'attested',       // Old Malay — Srivijaya inscriptions (Kedukan Bukit 683)
-    osu:       'attested',       // Old Sundanese — Sunda Kingdom / Pajajaran inscriptions
+    omy:       'attested',       // Old Malay — Srivijaya inscriptions (Kedukan Bukit 683)
+    osn:       'attested',       // Old Sundanese — Sunda Kingdom / Pajajaran inscriptions
     otl:       'attested',       // Old Tagalog — pre-Spanish Baybayin inscriptions
     onw:       'attested',       // Old Nubian — Christian Nubian Christian texts
     // East Asian / Inner Asian historical:
@@ -5336,7 +5336,7 @@ const HIST_DESCENDANT = {
     zkt:null, juc:'mnc', omx:'mnw', pyx:'my', obr:'my', occ:'cja',
     // Phase 13c: Russia / Thailand / Africa / Americas / Indonesia / Philippines ancient
     orv:'ru', xsc:null, sukh:'th', xmr:null, onw:null, cqu:'qu',
-    omc:null, chb:null, oma:'ms', osu:'su', otl:'tl',
+    omc:null, chb:null, omy:'ms', osn:'su', otl:'tl',
     // 2026-07-21 (owner, extinct-as-modern audit): Kulon-Pazeh (Formosan) is
     // dormant — last fluent speaker died 2010, ~0 L1 — and carries a period
     // (18–21c), so it belongs on the historical map, not the modern one.

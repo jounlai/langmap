@@ -186,7 +186,7 @@ WORDS.cuckoo = {
     "eu": ["kuku", "ˈkuku"],
     "fa": ["کوکو", "kuːˈkuː"],
     "fi": ["käki", "ˈkæki"],
-    "fla": ["cucu", "ˈkuku"],
+    "fax": ["cucu", "ˈkuku"],
     "fo": ["geykur", "ˈtʃɛiːkʊr"],
     "fr": ["coucou", "kuku"],
     "fr_af": ["coucou", "kuku"],

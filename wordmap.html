@@ -3200,7 +3200,7 @@
             metaI18n:  15,
             filter:    43,
             names:   134,
-            meta:     252,
+            meta:     253,
             trivia:   27,
             triviaI18n: 4,
             words:      115,
@@ -6332,7 +6332,12 @@
         // m.speakers prose if the structure is unrecognizable.
         const SC_RANGE_SEP = { ja: '〜', ko: '~', en: '–' };
         const SC_VITALITY_LBL = {
-            'extinct':                { en:'extinct',                ja:'死語',          ko:'사어',           zh:'已灭绝',     yue:'已滅絕',     vi:'đã tuyệt chủng',         th:'สูญพันธุ์',                id:'punah',                 hi:'विलुप्त',                de:'ausgestorben',     fr:'éteinte',                it:'estinta',           es:'extinta',             pt:'extinta',          ru:'мёртвый',                  uk:'мертва',                 ar:'منقرضة',           he:'נכחדה',         sw:'imepotea' },
+            // 'safe' is never annotated onto a speaker count (there is nothing
+            // to warn about), but the SSR pages print vitality as its own chip
+            // and were falling back to the raw slug for the 567 rows that
+            // carry it. tools/export_seo_data.js reads this table.
+            'safe':                   { en:'safe',                  ja:'安定',          ko:'안정',           zh:'安全',       yue:'安全',       vi:'an toàn',                th:'ปลอดภัย',                 id:'aman',                  hi:'सुरक्षित',                de:'nicht gefährdet',  fr:'non menacée',            it:'non a rischio',     es:'no amenazada',        pt:'não ameaçada',     ru:'благополучный',            uk:'благополучна',           ar:'غير مهددة',         he:'לא בסכנה',      sw:'salama' },
+            'extinct':              { en:'extinct',                ja:'死語',          ko:'사어',           zh:'已灭绝',     yue:'已滅絕',     vi:'đã tuyệt chủng',         th:'สูญพันธุ์',                id:'punah',                 hi:'विलुप्त',                de:'ausgestorben',     fr:'éteinte',                it:'estinta',           es:'extinta',             pt:'extinta',          ru:'мёртвый',                  uk:'мертва',                 ar:'منقرضة',           he:'נכחדה',         sw:'imepotea' },
             'critically-endangered':  { en:'critically endangered',  ja:'極めて深刻な危機', ko:'심각한 위기',     zh:'极度濒危',   yue:'極度瀕危',   vi:'cực kỳ nguy cấp',        th:'ใกล้สูญพันธุ์อย่างยิ่ง', id:'sangat terancam punah', hi:'गंभीर रूप से संकटग्रस्त',  de:'akut bedroht',     fr:'en danger critique',     it:'in grave pericolo', es:'en peligro crítico',  pt:'criticamente ameaçada', ru:'на грани вымирания',     uk:'на межі вимирання',      ar:'مهددة بالانقراض الشديد', he:'בסכנת הכחדה חמורה', sw:'hatari kubwa sana' },
             'severely-endangered':    { en:'severely endangered',    ja:'重大な危機',     ko:'심각한 위협',     zh:'严重濒危',   yue:'嚴重瀕危',   vi:'bị đe dọa nghiêm trọng', th:'ใกล้สูญพันธุ์รุนแรง',   id:'sangat terancam',       hi:'गंभीर रूप से संकटग्रस्त',  de:'stark bedroht',    fr:'sévèrement en danger',   it:'gravemente in pericolo', es:'severamente en peligro', pt:'gravemente ameaçada', ru:'под серьёзной угрозой', uk:'під серйозною загрозою', ar:'مهددة بشدة',       he:'בסכנה חמורה',   sw:'hatari sana' },
             'definitely-endangered':  { en:'definitely endangered',  ja:'危機',          ko:'확실한 위협',     zh:'确定濒危',   yue:'確定瀕危',   vi:'bị đe dọa rõ ràng',      th:'ใกล้สูญพันธุ์',          id:'pasti terancam',        hi:'निश्चित रूप से संकटग्रस्त', de:'eindeutig bedroht', fr:'en danger certain',      it:'in pericolo certo', es:'definitivamente en peligro', pt:'definitivamente ameaçada', ru:'определённо под угрозой', uk:'визначено під загрозою', ar:'مهددة قطعا',       he:'בסכנה מובהקת',  sw:'hatari iliyo wazi' },

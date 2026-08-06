@@ -72,19 +72,20 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
   <?php if (!empty($meta['family'])): ?>
-    <p class="sub"><?= e($meta['family']) ?><?= !empty($lang['excluded']) ? ' · ' . e(seo_t($ui, 'hidden_tag')) : '' ?></p>
+    <p class="sub"><?= e(seo_meta_value($ui, $meta['family'])) ?><?= !empty($lang['excluded']) ? ' · ' . e(seo_t($ui, 'hidden_tag')) : '' ?></p>
   <?php endif; ?>
 </header>
 
 <?php
     $chips = [];
-    if (!empty($meta['family']))   $chips[seo_t($ui, 'family')]    = $meta['family'];
-    if (!empty($meta['speakers'])) $chips[seo_t($ui, 'speakers')]  = $meta['speakers'];
-    if (!empty($meta['script']))   $chips[seo_t($ui, 'script')]    = $meta['script'];
-    if (!empty($meta['countries']))$chips[seo_t($ui, 'countries')] = $meta['countries'];
-    if (!empty($meta['official'])) $chips[seo_t($ui, 'official')]  = $meta['official'];
-    if (!empty($meta['region']))   $chips[seo_t($ui, 'region')]    = $meta['region'];
-    if (!empty($meta['vitality'])) $chips[seo_t($ui, 'vitality')]  = $meta['vitality'];
+    // Values, not just labels, are translated — see seo_meta_value().
+    if (!empty($meta['family']))   $chips[seo_t($ui, 'family')]    = seo_meta_value($ui, $meta['family']);
+    if (!empty($meta['speakers'])) $chips[seo_t($ui, 'speakers')]  = seo_meta_value($ui, $meta['speakers']);
+    if (!empty($meta['script']))   $chips[seo_t($ui, 'script')]    = seo_meta_value($ui, $meta['script']);
+    if (!empty($meta['countries']))$chips[seo_t($ui, 'countries')] = seo_meta_value($ui, $meta['countries']);
+    if (!empty($meta['official'])) $chips[seo_t($ui, 'official')]  = seo_meta_value($ui, $meta['official']);
+    if (!empty($meta['region']))   $chips[seo_t($ui, 'region')]    = seo_meta_value($ui, $meta['region']);
+    if (!empty($meta['vitality'])) $chips[seo_t($ui, 'vitality')]  = seo_vitality($ui, $meta['vitality']);
     if (!empty($meta['iso6393']))  $chips[seo_t($ui, 'iso')]       = $meta['iso6393'];
     if (!empty($meta['glottocode']))$chips[seo_t($ui, 'glotto')]   = $meta['glottocode'];
     if ($chips): ?>

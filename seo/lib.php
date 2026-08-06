@@ -1159,6 +1159,48 @@ function seo_data(string $which): array
     return $cache[$which] = is_array($data) ? $data : [];
 }
 
+/**
+ * Translate a language-metadata VALUE (not a label) into the UI language.
+ *
+ * The interactive map runs family / speakers / countries / official / script
+ * through translateMetaSmart() at render time. These pages had no equivalent,
+ * so /ja/wordmap/arp printed "Algonquian", "Latin" and "USA (Wyoming,
+ * Oklahoma)" in English next to Japanese chip labels (reader report,
+ * 2026-08-06). tools/export_seo_data.js now runs the same translator and
+ * writes data/meta_i18n_seo.json — a table keyed by the English string, since
+ * these values repeat heavily across the 1,140 rows.
+ *
+ * Anything with no translation falls back to English, which is what the page
+ * did for every value before.
+ */
+function seo_meta_value(string $ui, string $value): string
+{
+    if ($ui === 'en' || $value === '') {
+        return $value;
+    }
+    $t = seo_data('meta_i18n');
+    return $t['fields'][$value][$ui] ?? $value;
+}
+
+/**
+ * vitality is a kebab-case enum ('critically-endangered'), not prose, so the
+ * smart translator never had anything to match and the raw slug was printed.
+ * The table mirrors SC_VITALITY_LBL in wordmap.html and is extracted from it
+ * at export time so the two cannot drift.
+ */
+function seo_vitality(string $ui, string $value): string
+{
+    if ($value === '') {
+        return $value;
+    }
+    $t = seo_data('meta_i18n');
+    $row = $t['vitality'][$value] ?? null;
+    if (!$row) {
+        return str_replace('-', ' ', $value);
+    }
+    return $row[$ui] ?? ($row['en'] ?? $value);
+}
+
 /** Escape for HTML text/attribute context. */
 function e($s): string
 {

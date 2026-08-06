@@ -66,15 +66,16 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
   <?php endif; ?>
   <h1><?= e($name) ?></h1>
   <?php if (!empty($lang['family'])): ?>
-    <p class="sub"><?= e($lang['family']) ?></p>
+    <p class="sub"><?= e(seo_meta_value($ui, $lang['family'])) ?></p>
   <?php endif; ?>
 </header>
 
 <?php
     $chips = [];
-    if (!empty($lang['family']))      $chips[seo_t($ui, 'family')]   = $lang['family'];
-    if (!empty($lang['speakers']))    $chips[seo_t($ui, 'speakers')] = $lang['speakers'];
-    if (!empty($lang['region']))      $chips[seo_t($ui, 'region')]   = $lang['region'];
+    // Values, not just labels, are translated — see seo_meta_value().
+    if (!empty($lang['family']))      $chips[seo_t($ui, 'family')]   = seo_meta_value($ui, $lang['family']);
+    if (!empty($lang['speakers']))    $chips[seo_t($ui, 'speakers')] = seo_meta_value($ui, $lang['speakers']);
+    if (!empty($lang['region']))      $chips[seo_t($ui, 'region')]   = seo_meta_value($ui, $lang['region']);
     if (!empty($lang['romanization']))$chips[seo_t($ui, 'romanization')] = $lang['romanization'];
     if ($readingType !== '')          $chips[seo_t($ui, 'reading')]  = $readingType;
     if ($chips): ?>

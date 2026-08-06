@@ -92,6 +92,12 @@ line('extinct-as-modern classification', num(s, /extinct-as-modern: (\d+)/));
 s = run('description_translation_check.js --check');
 line('description translation integrity', num(s, /blocking: (\d+)/));
 
+// Chip fields cut off mid-sentence with the bracket still open. A reader found
+// arp's 公用語 reading "…operates a tribal college and" on the SSR page; 92
+// rows were in that state, some since import, and nothing flagged them.
+s = run('meta_truncation_check.js --check');
+line('meta string truncation', num(s, /truncated: (\d+)/));
+
 // Cache-version drift: wordmap.html serves data as `?v=WM_ASSET_VERSION[key]`.
 // Editing the data without bumping the key ships nothing — browsers keep the
 // old copy, and every other guard still passes. A whole day of Chữ Nôm /

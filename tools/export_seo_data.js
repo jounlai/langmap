@@ -232,6 +232,84 @@ function buildWordMapJSON(nameIndex) {
 // ---------------------------------------------------------------------------
 // Han Map
 // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Metadata i18n for the SSR pages
+//
+// The interactive map translates family / speakers / countries / official /
+// script through translateMetaSmart() (meta_i18n_ext.js + the three coverage
+// layers) at render time. The SSR pages had no equivalent, so /ja/wordmap/arp
+// showed "Algonquian", "Latin", "USA (Wyoming, Oklahoma)" in English while the
+// chip labels beside them were Japanese (reader report, 2026-08-06).
+//
+// Running the same translator here and shipping a shared phrase table keeps
+// one source of truth. The table is keyed by the English string rather than by
+// language code because these strings repeat heavily across rows — ~3,300
+// distinct values for 1,140 languages — so a per-row copy would be several
+// times larger. Entries identical to English are omitted.
+//
+// It goes in its own file, not into wordmap_seo.json, because only the
+// language-detail page needs it and that blob is already ~23 MB.
+// ---------------------------------------------------------------------------
+const META_I18N_FIELDS = ['family', 'speakers', 'countries', 'official', 'script', 'region'];
+
+function buildMetaI18n(LANG_DATA, hanLangs) {
+  let src = 'var window=this;\n';
+  src += read('meta_i18n_ext.js') + '\n';
+  src += read('meta_i18n_coverage.js') + '\n';
+  src += read('meta_i18n_coverage2.js') + '\n';
+  src += read('meta_i18n_coverage3.js') + '\n';
+  src += 'this.__T = translateMetaSmart;\n';
+  const ctx = { LANG_DATA };
+  vm.createContext(ctx);
+  vm.runInContext(src, ctx);
+  const translate = ctx.__T;
+
+  const values = new Set();
+  for (const ld of Object.values(LANG_DATA)) {
+    const m = (ld && ld.meta) || {};
+    for (const f of META_I18N_FIELDS) if (m[f]) values.add(String(m[f]));
+  }
+  // Han Map chips read HAN_LANG_META (family / speakers / region), which is a
+  // separate table from LANG_DATA.meta — its region strings in particular
+  // appear nowhere in the Word Map corpus.
+  for (const l of Object.values(hanLangs || {})) {
+    for (const f of ['family', 'speakers', 'region']) if (l[f]) values.add(String(l[f]));
+  }
+
+  const fields = {};
+  let translated = 0;
+  for (const en of values) {
+    const row = {};
+    for (const ui of UI_LANGS) {
+      if (ui === 'en') continue;
+      const t = translate(en, ui);
+      if (t && t !== en) row[ui] = t;
+    }
+    if (Object.keys(row).length) { fields[en] = row; translated++; }
+  }
+
+  // vitality is a kebab-case enum, not prose, so translateMetaSmart never had
+  // a chance at it — the SSR page was printing "critically-endangered" raw.
+  // Mirrors SC_VITALITY_LBL in wordmap.html.
+  const vitality = loadVitalityLabels();
+
+  console.log('Meta i18n: ' + translated + '/' + values.size +
+    ' distinct strings have at least one translation; ' +
+    Object.keys(vitality).length + ' vitality values');
+  return { fields, vitality };
+}
+
+// Parse SC_VITALITY_LBL out of wordmap.html so the two cannot drift.
+function loadVitalityLabels() {
+  const html = read('wordmap.html');
+  const m = html.match(/const\s+SC_VITALITY_LBL\s*=\s*(\{[\s\S]*?\n\s*\};)/);
+  if (!m) throw new Error('SC_VITALITY_LBL not found in wordmap.html');
+  const ctx = {};
+  vm.createContext(ctx);
+  vm.runInContext('this.__V = ' + m[1].replace(/;$/, ''), ctx);
+  return ctx.__V;
+}
+
 function loadHanMap() {
   // wordmap_data.js supplies coordinates for codes shared with the Word Map.
   let src = 'var window=this;var WORDS={};\n';
@@ -372,6 +450,9 @@ function main() {
 
   fs.writeFileSync(path.join(OUT_DIR, 'wordmap_seo.json'), JSON.stringify(wm));
   fs.writeFileSync(path.join(OUT_DIR, 'hanmap_seo.json'), JSON.stringify(hm));
+
+  const metaI18n = buildMetaI18n(loadWordMap().LANG_DATA, hm.langs);
+  fs.writeFileSync(path.join(OUT_DIR, 'meta_i18n_seo.json'), JSON.stringify(metaI18n));
 
   // Spot-check.
   const checks = [

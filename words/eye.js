@@ -383,7 +383,7 @@ WORDS.eye = {
     srr: ["kën", "kən"],
     so: ["il", "il"],
     om: ["ija", "idʒa"],
-    kxc: ["ila", "ila"],
+    kxc: ["ilta", "ilta"],
     drs: ["ille", "ilːe"],
     dsh: ["ill", "ilː"],
     rw: ["ijisho", "idʒiʃo"],

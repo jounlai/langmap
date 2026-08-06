@@ -383,7 +383,7 @@ WORDS.two = {
       srr: ["ɗak", "ɗak"],
       so: ["laba", "laba"],
       om: ["lama", "lama"],
-      kxc: ["lakki", "lakki"],
+      kxc: ["lakki", "lakːi"],
       drs: ["lame", "lame"],
       dsh: ["nam", "nam"],
       rw: ["kabiri", "kabiri"],

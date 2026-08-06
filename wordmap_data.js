@@ -108,8 +108,31 @@ const LANG_DATA = {
   "hsn_yz": { "name": "Xiang Chinese (Yongzhou)", "native": "Xiang Chinese (Yongzhou)", "lat": 26.42, "lng": 111.61 },
   "czh_wy": { "name": "Hui Chinese (Wuyuan)", "native": "徽州话（婺源）", "lat": 29.25, "lng": 117.86 },
   "bla": { "name": "Blackfoot", "native": "Siksiká Iʼksistamiʼkssin", "lat": 49, "lng": -112 },
-  "hop": { "name": "Hopi", "native": "Hopílavayi", "lat": 35.907, "lng": -110.6093 },
-  "com": { "name": "Comanche", "native": "nʉmʉnʉʉ", "lat": 34.75, "lng": -98.5 },
+  "hop": { "name": "Hopi", "native": "Hopílavayi", "lat": 35.907, "lng": -110.6093,
+    "wordEvidence": {
+      "tree": { "evidence": "direct", "source": "hopidictionary.com — Hotski 'tree', with the example Hotski mokingpu '(The) tree (is) green'", "note": "replaces suukya, which was a copy of this row's own one cell (suukya' 'one', confirmed by native-languages.org). WEAK SOURCE: one online dictionary, and neither the Hopi Dictionary Project's Third Mesa volume nor Wiktionary was reachable to cross-check the orthography — Wiktionary's nearest Hopi lemma is koho 'wood, firewood, stick'" },
+      "good": { "evidence": "direct", "source": "Wiktionary Hopi lemma hopi 'civilised, well-behaved; polite, peaceable'", "note": "the ethnonym and the adjective are the same word" },
+      "water": { "evidence": "direct", "source": "Wiktionary Hopi lemma paahu 'water; spring'", "note": "native-languages.org gives kuuyi for water; paahu is natural/spring water and kuuyi is drawn water. Both are defensible; paahu kept" }
+    } },
+  // Comanche — review 433 row sweep. The row had been carrying several words
+  // that are not Comanche at all; the ones replaced below are sourced cell by
+  // cell. Surface forms follow the Comanche orthography (ʉ = /ɨ/), IPA uses ɨ.
+  "com": { "name": "Comanche", "native": "nʉmʉnʉʉ", "lat": 34.75, "lng": -98.5,
+    "wordEvidence": {
+      "dog":    { "evidence": "direct", "source": "Wiktionary Comanche lemma sarii 'dog'; Comanche Nation Language Department, 'Comanche Word of the Day: sarii/dog'; ASJP wordlist (Canonge) sati7", "note": "replaces sʉwʉ, which is not a Comanche word for dog" },
+      "moon":   { "evidence": "direct", "source": "Wiktionary Comanche lemma mʉa 'moon'; native-languages.org Comanche word list, Moon: Mua", "note": "replaces poʰa — puha/poha is 'medicine, spiritual power', the same stem that was also sitting in the good cell" },
+      "good":   { "evidence": "direct", "source": "Omniglot Comanche phrases — Tsaatʉ̱ as the reply to 'How are you?'; ASJP wordlist glosses ca (tsaa) 'good'", "note": "replaces puʰa; see the moon note" },
+      "hello":  { "evidence": "direct", "source": "Omniglot Comanche phrases — Marʉ́awe 'hello' (haa marʉ́awe 'hi')", "formType": "greeting-formula", "note": "replaces haʊ, which is the English-language 'how' stereotype of Plains speech, not a Comanche word" },
+      "thanks": { "evidence": "direct", "source": "Omniglot Comanche phrases — Ʉra / Ʉrako 'thank you'", "formType": "thanks-formula", "note": "cell was empty" },
+      "house":  { "evidence": "direct", "source": "Wiktionary Comanche lemma kahni 'house'", "note": "replaces tua" },
+      "tree":   { "evidence": "direct", "source": "ASJP wordlist (Canonge) hupi 'tree'; Numic *huupi 'wood, tree'", "note": "replaces piʰe" },
+      "mother": { "evidence": "direct", "source": "Wiktionary Comanche lemma pia 'mother'", "note": "replaces miʰa" },
+      "father": { "evidence": "direct", "source": "Wiktionary Comanche lemma ahpʉ 'father'", "note": "replaces pʊ" },
+      "star":   { "evidence": "direct", "source": "Wiktionary Comanche lemma tatsinuupi 'star (celestial body)'; ASJP tacinupi", "note": "orthography corrected from tatsinʉʉpʉ — two independent sources write -uupi" },
+      "hand":   { "evidence": "direct", "source": "native-languages.org Comanche body-part chart — mo'o; Wiktionary glosses nami, the form this cell used to hold, as 'younger sister'" },
+      "cat":    { "evidence": "disputed", "source": "no source found", "note": "ɨsʉ mixes ɨ and ʉ in a row that otherwise writes ʉ throughout, and its IPA ɪsɨ uses /ɪ/, which Comanche does not have. Numic isa is 'wolf, coyote'. Left as-is only because no Comanche word for the domestic cat could be sourced" },
+      "love":   { "evidence": "disputed", "source": "no source found", "note": "wʊʊʰa is not in Wiktionary, ASJP or the Comanche Nation materials. Left as-is pending a source" }
+    } },
   "one": { "name": "Oneida", "native": "Onʌyota'káhkahʌ", "lat": 43, "lng": -75.5 },
   "ono": { "name": "Onondaga", "native": "Onoñdaʼgegáʼ nigaweñoʼdeñʼ", "lat": 42.95, "lng": -76.2 },
   "win": { "name": "Ho-Chunk (Winnebago)", "native": "Ho-Chunk (Winnebago)", "lat": 44.31, "lng": -90.8 },
@@ -1219,8 +1242,39 @@ const LANG_DATA = {
 },
   // Konso — Cushitic East (Lowland), ~250K, Ethiopia (SNNPR — Konso Special Woreda). Famous for terraced agriculture and stone tower-stelae (UNESCO heritage 2011).
   // Sources: Ethnologue 27 'kxc'; Glottolog kons1241; Ongaye (2013) Konso grammar; Sasse (1976) East Cushitic.
+  // Review 433: this row cited Ongaye (2013) above while actually holding
+  // Oromo. 19 of 25 cells were Oromo or unidentifiable; every replacement
+  // below is a page-level citation from the grammar itself. The tell was
+  // phonological — Konso has no voiced stops and no ejectives (it has the
+  // implosives ɓ ɗ ʄ ʛ instead), yet the row's IPA was full of /b/, /d/, /ɡ/,
+  // /dʒ/ and /kʼ/.
   kxc: { name: 'Konso', native: 'Af kawooti', lat: 5.34, lng: 37.43, // Konso town, SNNPR Ethiopia
-},
+    wordEvidence: {
+      water:  { evidence: 'direct', source: 'Ongaye (2013) §2.1.1 (2), /p/ example — piʃaa \'water\'', note: 'already correct; review 432 had fixed it from inanta, which is \'the girl\' in the grammar\'s own example sentences' },
+      house:  { evidence: 'direct', source: 'Ongaye (2013) §2.1.1 (7), /t/ example — tika \'house\', pl. tikkaa', note: 'replaces mana (Oromo)' },
+      dog:    { evidence: 'direct', source: 'Ongaye (2013) §2.1.1 (7) and the noun appendix — kuta (M), pl. kuttaa \'dog\'', note: 'replaces kareta' },
+      fire:   { evidence: 'direct', source: 'Ongaye (2013) §2 — apitta (M) \'fire\'', note: 'replaces iya' },
+      eye:    { evidence: 'direct', source: 'Ongaye (2013) §2.2 (31), /i/ example — ilta \'eye\'; root il-, plurative ilɗaa', note: 'corrected from ila' },
+      heart:  { evidence: 'direct', source: 'Ongaye (2013) §2.7 — /sataʔta/ [sataatḁ] \'heart\'', note: 'replaces onna (Oromo onnee)' },
+      tree:   { evidence: 'direct', source: 'Ongaye (2013), the /ʛ/ uvular-implosive example — ʛoyra (M), pl. ʛoraa \'tree\'', note: 'replaces ergaa' },
+      star:   { evidence: 'direct', source: 'Ongaye (2013) noun appendix — hikkitta (M), pl. hikkiyyaa \'star\'', note: 'replaces urjii (Oromo)' },
+      sun:    { evidence: 'direct', source: 'Ongaye (2013) noun appendix — piirtuta (F), pl. piirtuwwaa \'sun\'', note: 'replaces kawa' },
+      moon:   { evidence: 'inferred', source: 'Ongaye (2013) noun appendix — leya (M), pl. leyaɗɗaa, glossed \'month\'', note: 'WEAKEST CELL IN THE ROW. The grammar has no entry glossed \'moon\' anywhere, and Glosbe has no Konso moon either. leya is used because moon and month are the same lexeme across much of Lowland East Cushitic (cf. Oromo jiʼa) — but not all of it: Somali separates dayax \'moon\' from bil \'month\'. Replaces ayeena, which is not moon in Konso or in Oromo. Needs a speaker or the 2022 English–Afaa Xonso school dictionary' },
+      mother: { evidence: 'direct', source: 'Ongaye (2013) §2.1, stated outright: "in Konso the word for \'mother\' is aayyaa"; also the kinship table', note: 'replaces eedda' },
+      father: { evidence: 'direct', source: 'Ongaye (2013) kinship table — aappaa \'father\'', note: 'replaces abba (Oromo abbaa); Konso has no voiced stops' },
+      cat:    { evidence: 'direct', source: 'Ongaye (2013) §13, conative interjections — aturr \'call to a cat\' <aturraata \'cat\'>', note: 'replaces adurree (Oromo)' },
+      name:   { evidence: 'direct', source: 'Ongaye (2013) §2.1.1 — maχχa \'name\'', note: 'replaces maqaa (Oromo), whose IPA /makʼaː/ used an ejective Konso does not have' },
+      i:      { evidence: 'direct', source: 'Ongaye (2013) Table 1, independent personal pronouns — anti 1SG.NOM', note: 'replaces ani (Oromo)' },
+      you:    { evidence: 'direct', source: 'Ongaye (2013) Table 1 — atti 2SG.NOM', note: 'already correct' },
+      one:    { evidence: 'direct', source: 'Ongaye (2013) §2.1.1 — takka \'one\'', note: 'already correct; Oromo is tokko' },
+      two:    { evidence: 'direct', source: 'Ongaye (2013) §2.1.1, /l/ example — lakki \'two\'', note: 'already correct; Oromo is lama. IPA corrected to lakːi for the geminate' },
+      hand:   { evidence: 'direct', source: 'Ongaye (2013) §2.1.1, /h/ example — harka \'hand\'', note: 'already correct; IPA corrected from haɾka — the Konso rhotic is the trill /r/' },
+      good:   { evidence: 'direct', source: 'Ongaye (2013) §7.1 adjectival roots — paʛaar- \'to be good, beautiful\'; predicative i=paʛaar-i', note: 'Konso adjectives are stative verbs, so the predicative paʛaari is the citable form. Replaces fayye (Oromo fayya)' },
+      hello:  { evidence: 'direct', source: 'Ongaye (2013) §13.3.1 — general greetings are built on nakaytaa \'health, peace\'', formType: 'greeting-formula', note: 'replaces akkam (Oromo)' },
+      eat:    { evidence: 'direct', source: 'Ongaye (2013) — root ɗam- \'to eat\'; the infinitive ɗam-iyaa is printed in the grammar', formType: 'inflected-form', note: 'replaces ihaa. Infinitive chosen to parallel Oromo dhuguu / nyaachuu in this dataset' },
+      drink:  { evidence: 'inferred', source: 'Ongaye (2013) — root ik- ~ ikk- \'to drink\'', formType: 'inflected-form', note: 'the root is attested; the -iyaa infinitive is the regular pattern of ɗam-iyaa but ikiyaa itself is not printed in the grammar. Replaces inakkaa (Oromo)' },
+      love:   { evidence: 'inferred', source: 'Ongaye (2013) §5 (16) — ʄaalaɗ- \'to choose, love\'', formType: 'inflected-form', note: 'same caveat as drink: the root is attested, the infinitive is regular but not printed. Replaces jaalla, whose IPA /dʒaːlːa/ used a phoneme Konso does not have' },
+    } },
   // Gedeo (Derasa) — Afro-Asiatic Cushitic East (Highland — sister to sid Sidamo, omx Hadiyya, kbr Kembata), ~1.8M, Ethiopia (SNNPR — Gedeo Zone south of Awasa).
   // Sources: Ethnologue 27 'drs'; Glottolog gede1242; Hudson (1989) Highland East Cushitic Dictionary.
   drs: { name: 'Gedeo', native: 'Gedeʼuffa', lat: 6.10, lng: 38.30, // Dilla, Gedeo Zone, SNNPR

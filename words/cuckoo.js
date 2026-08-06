@@ -111,7 +111,7 @@ WORDS.cuckoo = {
     "cmg": ["ᠬᠦᠬᠦᠭᠡ", "kɵkɵˈɡe"],
     "cni": ["tsiya", "ˈtsija"],
     "co": ["cuccu", "ˈkukku"],
-    "com": ["ebikuyuutsi", "ebikuˈjuːtsi"],
+    "com": ["—", "—"],
     "cpx": ["布谷", "pɔu˦˨kɒʔ˨˩"],
     "crh": ["kukuquş", "kukuˈquʃ"],
     "cs": ["kukačka", "ˈkukatʃka"],

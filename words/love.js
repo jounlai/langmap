@@ -390,7 +390,7 @@ WORDS.love = {
     srr: ["mbutu", "mbutu"],
     so: ["jacayl", "dʒaʕajl"],
     om: ["jaalala", "dʒaːlala"],
-    kxc: ["jaalla", "dʒaːlːa"],
+    kxc: ["ʄaalaɗiyaa", "ʄaːlaɗijaː"],
     drs: ["baxxa", "baxːa"],
     dsh: ["kashed", "kaʃed"],
     rw: ["urukundo", "uɾukundo"],

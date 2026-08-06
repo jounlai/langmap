@@ -383,7 +383,7 @@ WORDS.cat = {
     srr: ["mboor", "mboːɾ"],
     so: ["bisad", "bisad"],
     om: ["adurree", "aduɾːeː"],
-    kxc: ["adurree", "aduɾːeː"],
+    kxc: ["aturraata", "aturːaːta"],
     drs: ["adurre", "aduɾːe"],
     dsh: ["paka", "paka"],
     rw: ["injangwe", "indʒaŋɡwe"],

@@ -383,7 +383,7 @@ WORDS.hand = {
     srr: ["ɓod", "ɓɔd"],
     so: ["gacan", "ɡaʕan"],
     om: ["harka", "haɾka"],
-    kxc: ["harka", "haɾka"],
+    kxc: ["harka", "harka"],
     drs: ["anga", "aŋɡa"],
     dsh: ["hark", "haɾk"],
     rw: ["ikiganza", "ikiɡanza"],

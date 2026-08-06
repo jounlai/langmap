@@ -383,7 +383,7 @@ WORDS.eat = {
     srr: ["niam", "ɲam"],
     so: ["cun", "ʕun"],
     om: ["nyaachuu", "ɲaːtʃuː"],
-    kxc: ["ihaa", "ihaː"],
+    kxc: ["ɗamiyaa", "ɗamijaː"],
     drs: ["ittu", "itːu"],
     dsh: ["icho", "itʃo"],
     rw: ["kurya", "kuɾja"],

@@ -383,7 +383,7 @@ WORDS.drink = {
     srr: ["ñam", "ɲam"],
     so: ["cab", "ʕab"],
     om: ["dhuguu", "ɗuɡuː"],
-    kxc: ["inakkaa", "inakːaː"],
+    kxc: ["ikiyaa", "ikijaː"],
     drs: ["agittu", "aɡitːu"],
     dsh: ["ʔurro", "ʔuro"],
     rw: ["kunywa", "kuɲwa"],

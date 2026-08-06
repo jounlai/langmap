@@ -383,7 +383,7 @@ WORDS.i = {
       srr: ["mi", "mi"],
       so: ["aniga", "aniɡa"],
       om: ["ani", "ani"],
-      kxc: ["ani", "ani"],
+      kxc: ["anti", "anti"],
       drs: ["ani", "ani"],
       dsh: ["yi", "jɪ"],
       rw: ["njye", "ɲɟe"],

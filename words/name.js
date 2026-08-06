@@ -383,7 +383,7 @@ WORDS.name = {
       srr: ["sant", "sant"],
       so: ["magac", "maɡaʕ"],
       om: ["maqaa", "makʼaː"],
-      kxc: ["maqaa", "makʼaː"],
+      kxc: ["maχχa", "maχːa"],
       drs: ["su'ma", "suʔma"],
       dsh: ["ete", "ete"],
       rw: ["izina", "izina"],

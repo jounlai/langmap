@@ -388,7 +388,7 @@ WORDS.sun = {
     srr: ["naangu", "naːŋɡu"],
     so: ["qorrax", "qɔɾːaħ"],
     om: ["aduu", "aduː"],
-    kxc: ["kawa", "kawa"],
+    kxc: ["piirtuta", "piːrtuta"],
     drs: ["ayyaʼne", "ajːaʔne"],
     dsh: ["sicho", "sitʃo"],
     rw: ["izuba", "izuba"],

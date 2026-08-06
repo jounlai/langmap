@@ -137,10 +137,57 @@
                 <li><span class="count">1,000</span> languages <span class="when">— 2026-05-28 (<code>33e63ca</code> 🎉; official count settled 2026-06-09, <code>ac794b0</code>)</span></li>
                 <li><span class="count">1,111</span> languages <span class="when">— 2026-06-21 (multithreaded fill of thin regions — west China, zero-dot Africa/ME, South America — plus pluricentric and 中国语言地图集 dialect points; settled at 1,112 after a five-round QA pass) — current</span></li>
             </ul>
-            <p class="lead" style="margin-top:8px">The Word Map carries 1,138 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 119 languages and variants across 61 characters.</p>
+            <p class="lead" style="margin-top:8px">The Word Map carries 1,135 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 119 languages and variants across 61 characters.</p>
         </div>
 
         <nav class="month-nav">Months: <strong>2026-07</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-08-06 — Konso was Oromo, and Comanche said “how”</div>
+            <ul>
+                <li>A review pass over the whole Word Map turned up something worse than a wrong transcription: <strong>19 of the 25 Konso cells were Oromo</strong>. The two are related Cushitic languages of Ethiopia, which is how it went unnoticed — <em>abbaa</em> “father”, <em>mana</em> “house”, <em>urjii</em> “star” and <em>akkam</em> “hello” are all perfectly good words, just not Konso ones. The row had cited Ongaye’s <em>A Grammar of Konso</em> as its source the entire time.</li>
+                <li>What gave it away was <strong>phonology, not vocabulary</strong>. Konso has no voiced stops and no ejectives — it has the rare implosive series ɓ ɗ ʄ ʛ instead, including a uvular implosive almost no other language has. Yet the pronunciation column was full of /b/, /d/, /ɡ/, /dʒ/ and /kʼ/. Six cells could be flagged as impossible without knowing a word of either language. Konso now reads <em>tika</em> (house), <em>kuta</em> (dog), <em>apitta</em> (fire), <em>ʛoyra</em> (tree), <em>aayyaa</em> (mother), <em>sataʔta</em> (heart) — each cited to a page of the grammar.</li>
+                <li><strong>Comanche</strong> had two cells holding the same word: “good” and “moon” were both <em>puha</em>, which actually means “medicine, spiritual power”. Fixed to <em>tsaatʉ</em> and <em>mʉa</em>. Worse, “hello” was <em>haʊ</em> — the English-language “how” stereotype of Plains Indian speech, not a Comanche word at all. The real greeting is <strong>marʉawe</strong>, and “thank you” (<em>ʉra</em>), which had been blank, is now filled. Also corrected: dog (<em>sarii</em>), house (<em>kahni</em>), tree (<em>huupi</em>), mother (<em>pia</em>), father (<em>ahpʉ</em>).</li>
+                <li>Where no source could be found, the cell now says so rather than guessing. Comanche “heart” is blank; “cat” and “love” are kept but flagged as unverified; Konso “moon” uses the word for “month” and is marked as an inference, because the grammar has no entry for “moon” anywhere in its 900 pages.</li>
+                <li>Hopi “tree” was this row’s own word for “one” with the glottal stop dropped (<em>suukya’</em> → <em>suukya</em>). Now <em>hotski</em>.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-08-06 — Five languages were on the map twice</div>
+            <ul>
+                <li>Somali, Iñupiaq, Buryat, Onondaga and Khmu each had <strong>two rows at the same coordinates</strong>, so one pin was drawn directly on top of the other and the duplicate was invisible. Consolidated: <strong>1,138 → 1,135 languages</strong>. No word was lost — every cell the removed row filled, the surviving row already filled.</li>
+                <li>Two of them were a different problem from a plain duplicate. The Onondaga row used the code <code>onn</code>, which in ISO 639-3 is <strong>Onobasulu</strong>, a language of Papua New Guinea; and the Khmu row used <code>xkk</code>, which is <strong>Kachok</strong>, a Bahnaric language of Cambodia. Both are now on their correct codes (<code>ono</code> and <code>kjg</code>) and keep their translated names in all 19 interface languages.</li>
+                <li>“Cree (Plains)” is renamed simply <strong>Cree</strong>. It is the macrolanguage, and Plains Cree is a separate row hanging off it — the old name made the parent look like a rival for the child’s slot.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-08-06 — “Official in” now says what is actually true</div>
+            <ul>
+                <li>For 124 languages the <strong>“Official in” field held nothing but a country name</strong>. For Japanese or Thai that is correct. For Berom, Tiv and Efik it said “Nigeria”, which reads as though they are official languages of Nigeria — they are not; English is. Same for Konso and Gedeo (“Ethiopia”), and for Northern Qiang, Azhe, Hani, Xibe and Jiamao (“China”).</li>
+                <li>79 rows rewritten. Where a country grants a real but partial status, the field now says which: Mexico’s sixteen indigenous rows cite the 2003 law that makes them <em>national languages with the same validity as Spanish in their own territory</em>; Guatemala’s five cite the Ley de Idiomas Nacionales; Colombia and Venezuela cite the constitutional articles making indigenous languages official within their own territories. <strong>Chipewyan keeps “Canada”</strong> — Dëne Sųłiné really is one of the 11 official languages of the Northwest Territories. Nheengatu is co-official in one Amazonian municipality and now says so.</li>
+                <li>Australia’s four languages now state the fact that surprises people: <strong>Australia has no official language at federal level.</strong> Swiss German no longer claims to be official in Switzerland (the official written language is Standard German). And Ancient Egyptian no longer says “Official in: Ancient Egypt”.</li>
+                <li>Separately, <strong>92 metadata strings turned out to be cut off mid-sentence</strong>, some since the rows were first added — Arapaho’s official status ended “…operates a tribal college and”, and Kiowa’s country field was literally “USA (Oklahoma”. All repaired, and a new automated check now blocks any metadata string with an unclosed bracket from being committed.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-08-06 — Language pages now speak your language</div>
+            <ul>
+                <li>On a language’s own page, the labels were translated but the <strong>values were not</strong> — a Japanese reader saw 語族 next to “Algonquian”, 文字 next to “Latin”. The interactive map had been translating these all along; the standalone pages had no equivalent. They do now, covering family, speaker counts, countries, official status and script.</li>
+                <li>The vitality field was showing its raw internal value (<code>critically-endangered</code>) instead of a readable one, in every language including English. Now 極めて深刻な危機 / en peligro crítico / на грани вымирания, and the 567 languages marked “safe”, which had no label at all, have one.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-08-06 — Han Map: 口 was “mouth”, 立 was “stand”</div>
+            <ul>
+                <li>Five Han Map cells held a <em>different character’s</em> reading. Dungan — the Sinitic language of Central Asia written in Cyrillic — gave 口 as зуйъ, which is 嘴 “mouth”, and 立 as җань, which is 站 “to stand”: in both cases the everyday word for the concept instead of the character’s own reading. The Cyrillic for 行 was 走’s, copied one row over.</li>
+                <li>Pu-Xian Min 三 was wrong three times at once. 三 is a 心母 character, which in Pu-Xian gives the language’s celebrated <strong>/ɬ/</strong> — the same initial its own 四, 山, 心 and 西 already had; the nasal coda was missing; and the tone was the wrong one. Meixian Hakka 坐 was on the 上聲 tone, missing the classic Hakka shift of 全濁上 to 陰平 that the other four Hakka varieties all show.</li>
+                <li>Middle Korean 食 used ᅀ, the letter <em>Dongguk Jeongun</em> reserves for the 日母 initial — while 十, the same kind of syllable, was already correct with ㅆ. And the Korean native-reading row for 北 showed 북, which is the <em>Sino-Korean</em> reading, next to its own native gloss 된 (as in 된바람, the north wind).</li>
+            </ul>
+        </div>
 
         <div class="entry">
             <div class="date">2026-08-04 — Miyako and Yaeyama “eat”/“drink” corrected (reader feedback)</div>

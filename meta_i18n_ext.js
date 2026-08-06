@@ -83,7 +83,14 @@ function _lookup(val, dict, atoms) {
 
 // Locale-appropriate separators for composed output. CJK use full-width
 // parentheses and ideographic comma; everything else uses ASCII.
-const _SEPS_DEFAULT = { lparen: '(', rparen: ')', comma: ', ' };
+//
+// lparen carries its own leading space. Composition is `left + lparen + inner`
+// with left trimmed, so without it every Latin-script UI rendered
+// "USA(Wyoming, Oklahoma)" and "~1K(kritisch gefährdet)" — correct text, wrong
+// typography, on every composed value. Full-width （ needs no space, and
+// Korean convention is deliberately closed up (영어(호주)), so both keep the
+// bare form.
+const _SEPS_DEFAULT = { lparen: ' (', rparen: ')', comma: ', ' };
 const _SEPS = {
     ja:  { lparen: '（', rparen: '）', comma: '、' },
     zh:  { lparen: '（', rparen: '）', comma: '、' },

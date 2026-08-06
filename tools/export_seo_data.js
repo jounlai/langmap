@@ -254,6 +254,12 @@ const META_I18N_FIELDS = ['family', 'speakers', 'countries', 'official', 'script
 
 function buildMetaI18n(LANG_DATA, hanLangs) {
   let src = 'var window=this;\n';
+  // wordmap_meta.js declares META_I18N, the exact-match table the coverage
+  // batches augment and translateMetaSmart consults BEFORE composing atoms.
+  // Without it those batches hit their `if (typeof META_I18N === 'undefined')
+  // return;` guard and silently do nothing, so whole-clause translations were
+  // present in the browser and missing from the SSR pages.
+  src += read('wordmap_meta.js') + '\n';
   src += read('meta_i18n_ext.js') + '\n';
   src += read('meta_i18n_coverage.js') + '\n';
   src += read('meta_i18n_coverage2.js') + '\n';

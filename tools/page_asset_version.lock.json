@@ -24,12 +24,12 @@
     "hash": "59c80d2e11243e21"
   },
   "lang_names.js": {
-    "version": 131,
-    "hash": "b9e8400f668965de"
+    "version": 132,
+    "hash": "a6f23ca5b8550aa8"
   },
   "lang_names/en.js": {
-    "version": 136,
-    "hash": "66bb842261a0c4ce"
+    "version": 137,
+    "hash": "3b4f9c356cce06d1"
   },
   "lang_names_shim.js": {
     "version": 1,
@@ -100,11 +100,11 @@
     "hash": "bd142fa2b42b5b16"
   },
   "word_manifest.js": {
-    "version": 118,
+    "version": 119,
     "hash": "b463575901bddf0e"
   },
   "wordmap_data.js": {
-    "version": 257,
-    "hash": "90d4a205cfb6bf5b"
+    "version": 258,
+    "hash": "162915dcae849a7d"
   }
 }

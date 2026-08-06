@@ -121,7 +121,7 @@ WORDS.computer = {
     "el": ["υπολογιστής", "ipoloʝiˈstis"],
     "el_grc": ["ἄβαξ", "á.baks"],
     "el_kath": ["ὑπολογιστής", "ipoloʝiˈstis"],
-    "eml": ["computer", "komˈpjuter"],
+    egl: ["computer", "komˈpjuter"],
     "en": ["computer", "kəmˈpjuːtə"],
     "en_aave": ["computer", "kəmˈpjuːɾə"],
     "en_app": ["computer", "kəmˈpjuːɾɚ"],

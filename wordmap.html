@@ -2749,8 +2749,8 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=257"></script>
-    <script src="word_manifest.js?v=118"></script>
+    <script src="wordmap_data.js?v=258"></script>
+    <script src="word_manifest.js?v=119"></script>
     <script src="word_labels.js?v=10"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -2832,14 +2832,14 @@
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
     <script src="lang-filter.js?v=43"></script>
-    <!-- Translated language names: 1,154 codes × 19 UI languages is ~200 KB
+    <!-- Translated language names: 2,154 codes × 19 UI languages is ~200 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
          will actually see (~21 KB total). tools/build_lang_names.js generates
          lang_names/<ui>.js from lang_names.js; the other three pages still
          load lang_names.js whole. -->
     <script src="lang_names_shim.js?v=1"></script>
-    <script src="lang_names/en.js?v=136"></script>
+    <script src="lang_names/en.js?v=137"></script>
     <script>
         (function () {
             window.__langNamesVersion(122);
@@ -2868,7 +2868,7 @@
                 return 'en';
             }
             var ui = pick();
-            if (ui !== 'en') document.write('<script src="lang_names/' + ui + '.js?v=136"><\/script>');
+            if (ui !== 'en') document.write('<script src="lang_names/' + ui + '.js?v=137"><\/script>');
         })();
     </script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
@@ -3196,14 +3196,14 @@
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:   125,
-            data:      257,
+            data:      258,
             metaI18n:  16,
             filter:    43,
-            names:   136,
-            meta:     256,
+            names:   137,
+            meta:     257,
             trivia:   27,
             triviaI18n: 4,
-            words:      118,
+            words:      119,
             labels:      10,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,

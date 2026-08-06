@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1135 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1133 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -197,7 +197,6 @@ const LANG_DATA = {
   "es_uy": { "name": "Uruguayan Spanish", "native": "Español uruguayo", "lat": -34.9, "lng": -56.16 },
   "ar_sy": { "name": "Syrian Arabic", "native": "اللهجة السورية", "lat": 33.51, "lng": 36.29 },
   "ar_ye": { "name": "Yemeni Arabic", "native": "اللهجة اليمنية", "lat": 15.35, "lng": 44.21 },
-  "ar_dz": { "name": "Algerian Arabic", "native": "الدارجة الجزائرية", "lat": 36.75, "lng": 3.06 },
   "ar_sa": { "name": "Najdi Arabic", "native": "اللهجة النجدية", "lat": 24.71, "lng": 46.68 },
   "ar_lb": { "name": "Lebanese Arabic", "native": "اللهجة اللبنانية", "lat": 33.89, "lng": 35.5 },
   "en_wls": { "name": "Welsh English", "native": "English (Welsh)", "lat": 51.48, "lng": -3.18 },
@@ -3098,8 +3097,6 @@ const LANG_DATA = {
   lmo: { name: 'Lombard', native: 'Lombard', lat: 45.46, lng: 9.19, // Milan
 },
   pms: { name: 'Piedmontese', native: 'Piemontèis', lat: 45.07, lng: 7.69, // Turin
-},
-  eml: { name: 'Emilian-Romagnol', native: 'Emiliàn-Rumagnòl', lat: 44.49, lng: 11.34, // Bologna
 },
   mwl: { name: 'Mirandese', native: 'Mirandés', lat: 41.50, lng: -6.27, // Miranda do Douro
 },

@@ -1,0 +1,110 @@
+{
+  "app.js": {
+    "version": 76,
+    "hash": "98583a971b9ed508"
+  },
+  "data.js": {
+    "version": 88,
+    "hash": "8487e5c7ab110f1a"
+  },
+  "hanmap_data.js": {
+    "version": 111,
+    "hash": "418084f85f795a53"
+  },
+  "hanmap_trivia.js": {
+    "version": 7,
+    "hash": "2cd2ae7168e476da"
+  },
+  "lang-filter.js": {
+    "version": 43,
+    "hash": "fbc1a1ebf5d9b7ad"
+  },
+  "lang-picker.js": {
+    "version": 2,
+    "hash": "59c80d2e11243e21"
+  },
+  "lang_names.js": {
+    "version": 129,
+    "hash": "dc6b929c930573c2"
+  },
+  "lang_names/en.js": {
+    "version": 134,
+    "hash": "539e95667bb771c6"
+  },
+  "lang_names_shim.js": {
+    "version": 1,
+    "hash": "98a93506c4ae3641"
+  },
+  "meta_i18n_coverage.js": {
+    "version": 10,
+    "hash": "43c8060c9c26ae45"
+  },
+  "meta_i18n_coverage2.js": {
+    "version": 2,
+    "hash": "ceb4b93302bd1ab9"
+  },
+  "meta_i18n_coverage3.js": {
+    "version": 1,
+    "hash": "ab9e320a686775cf"
+  },
+  "meta_i18n_ext.js": {
+    "version": 15,
+    "hash": "5988a671d9a0e299"
+  },
+  "my-languages.js": {
+    "version": 21,
+    "hash": "1485ff229e3fcf19"
+  },
+  "namemap_content_i18n.js": {
+    "version": 2,
+    "hash": "3539483919ab5fc1"
+  },
+  "namemap_data.js": {
+    "version": 2,
+    "hash": "bfed996117e44d7a"
+  },
+  "namemap_i18n.js": {
+    "version": 1,
+    "hash": "c8034b735cfdbb3f"
+  },
+  "namemap_names_ext.js": {
+    "version": 2,
+    "hash": "0dc7a79eeb127021"
+  },
+  "poster_geo.js": {
+    "version": 12,
+    "hash": "2bf191b5e8736fd4"
+  },
+  "poster_langs.js": {
+    "version": 12,
+    "hash": "495ff333e7265867"
+  },
+  "poster_render.js": {
+    "version": 12,
+    "hash": "86181f3bf041494a"
+  },
+  "pwa.js": {
+    "version": 2,
+    "hash": "ceda6c52e92f0f39"
+  },
+  "share-button.js": {
+    "version": 1,
+    "hash": "24c807781aa6c6d0"
+  },
+  "styles.css": {
+    "version": 125,
+    "hash": "a078df60933cff32"
+  },
+  "word_labels.js": {
+    "version": 10,
+    "hash": "bd142fa2b42b5b16"
+  },
+  "word_manifest.js": {
+    "version": 113,
+    "hash": "b463575901bddf0e"
+  },
+  "wordmap_data.js": {
+    "version": 252,
+    "hash": "63a443bad8f43568"
+  }
+}

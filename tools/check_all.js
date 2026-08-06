@@ -99,6 +99,23 @@ line('description translation integrity', num(s, /blocking: (\d+)/));
 s = run('asset_version_check.js --check');
 line('asset cache-version freshness', num(s, /violations: (\d+)/));
 
+// The same guard for hanmap.html / namemap.html / tree.html / index.html,
+// which write their ?v= numbers as literals instead of through
+// WM_ASSET_VERSION and so were not covered at all — hanmap_data.js and
+// namemap_*.js both had to be bumped by hand and were forgotten twice
+// (reviews 01 and 432). Also catches one asset carrying different ?v= numbers
+// on different pages: caching is per-URL, so the lower page serves a stale
+// copy. hanmap.html was on wordmap_data.js?v=221 while wordmap.html was on 252.
+s = run('page_asset_version_check.js --check');
+line('page ?v= cache-buster freshness', num(s, /violations: (\d+)/));
+
+// Simplified/traditional consistency per language code. Was scoped to the two
+// words it was written for (sushi, computer) and so missed six traditional-
+// script cuckoo cells in mainland rows (review 432). --all checks every word
+// against a per-code majority baseline.
+s = run('zh_script_convention.js --all');
+line('zh simplified/traditional convention', num(s, /mismatches: (\d+)/));
+
 // Generated bundles: wordmap.html loads word_labels.js and lang_names/<ui>.js
 // instead of the full per-word and per-UI tables. If a label, definition or
 // language name changes, those files must be rebuilt or the site serves the

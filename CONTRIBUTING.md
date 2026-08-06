@@ -1394,6 +1394,27 @@ flags mismatches. Two enforcement modes:
   floor is never legitimate. Update the floor only when the current
   value exceeds it by ≥ 10 to avoid micro-tracking.
 
+#### Pages outside `WM_ASSET_VERSION`
+
+Everything above is scoped to `wordmap.html`. `hanmap.html`, `namemap.html`,
+`tree.html` and `index.html` write their `?v=` numbers as plain literals in the
+`<script>`/`<link>` tags, so none of it applied to them: `hanmap_data.js` and
+`namemap_*.js` had to be bumped by hand, and both were forgotten (NameMap
+review 01 and review 432, 2026-08-06).
+
+`tools/page_asset_version_check.js` covers every page. It pins each asset to a
+content hash in `tools/page_asset_version.lock.json` and fails on two things:
+
+- **DRIFT** — the file changed, its `?v=` didn't.
+- **INCONSISTENT** — one asset carries different `?v=` numbers on different
+  pages. Caching is per-URL, so the page with the lower number keeps serving a
+  stale copy to anyone who visited it before. This was live in five places when
+  the guard was written; `hanmap.html` was asking for `wordmap_data.js?v=221`
+  while `wordmap.html` was on 252.
+
+So when you change a shared file, bump `?v=` in **every** page that references
+it, then `node tools/page_asset_version_check.js --update` and commit the lock.
+
 Optional pre-commit hook (`.githooks/pre-commit`) runs the validator
 before each commit and surfaces drift inline. Install once:
 

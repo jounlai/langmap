@@ -76,7 +76,7 @@ WORDS.heart = {
       hsn_hy: ["心", "sin˥˩"],
       hsn_yz: ["心", "sim˨˩˧"],
       czh_wy: ["心", "ɕin˧˧"],
-      bla: ["imitá", "imitaː"],
+      bla: ["—", "—"],
       hop: ["—", "—"],
       com: ["koroma", "kɔɾomɑ"],
       one: ["oianeh", "oianeh"],

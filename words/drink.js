@@ -78,7 +78,7 @@ WORDS.drink = {
       czh_wy: ["喝", "xa˧˥"],
       bla: ["oknáhsim", "oknaːhsim"],
       hop: ["—", "—"],
-      com: ["tʉ", "tɨ"],
+      com: ["hibi", "hibi"],
       one: ["ohwisaʔ", "ohwisaʔ"],
       ono: ["ehnega:i'ron", "ehneɡaːiʔron"],
       win: ["—", "—"],

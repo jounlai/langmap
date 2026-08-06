@@ -32,6 +32,11 @@ const PAIRS = [
   '開开','關关','聽听','覺觉','讀读','書书','現现','樣样','過过','進进','遠远',
   '應应','燈灯','蟲虫','雞鸡','鴨鸭','鵝鹅','蝦虾','島岛','灣湾','醫医','藥药',
   '團团','圓圆','邊边','紅红','綠绿','號号','萬万','與与','雲云','電电','腦脑',
+  // added 2026-08 after the review rally: 布穀/布谷 and 伏鳩仔/伏鸠仔 slipped
+  // through because these pairs were missing, so the cells read as 'neutral'.
+  '穀谷','鳩鸠','雀雀','貓猫','華华','漢汉','廣广','韓韩','體体','發发','舊旧',
+  '觀观','歡欢','樂乐','機机','業业','傳传','專专','轉转','節节','聲声','葉叶',
+  '蘭兰','嶺岭','歲岁','氣气','種种','稱称','親亲','豬猪','雙双','雜杂','驢驴',
 ];
 const TRAD = new Set(), SIMP = new Set();
 for (const p of PAIRS) { TRAD.add(p[0]); SIMP.add(p[1]); }
@@ -83,6 +88,39 @@ function scriptOf(surfaces) {
 const WORDS = loadWords();
 const ids = Object.keys(WORDS);
 const NEW = new Set(['sushi', 'computer']);
+const ALL = process.argv.includes('--all');
+
+// --all: check EVERY word, not just the two this tool was written for. For each
+// code the convention is the majority verdict over all its cells, so one deviant
+// cell cannot flip its own baseline. Added after a review rally found 布穀 /
+// 陽雀子 / 伏鳩仔 sitting in mainland-simplified rows (cuckoo), which the
+// sushi/computer-only scope could not see.
+if (ALL) {
+  const per = {};                       // code -> [{word, surf}]
+  for (const id of ids) {
+    const m = {}; collect(WORDS[id], m, null);
+    for (const code of Object.keys(m)) {
+      if (!SINITIC_RE.test(code)) continue;
+      for (const surf of m[code]) (per[code] = per[code] || []).push({ word: id, surf });
+    }
+  }
+  const bad = [];
+  for (const code of Object.keys(per).sort()) {
+    const cells = per[code];
+    const v = scriptOf(cells.map(c => c.surf));
+    if (v.verdict === 'unknown') continue;
+    for (const c of cells) {
+      let t = 0, sm = 0;
+      for (const ch of c.surf) { if (TRAD.has(ch)) t++; else if (SIMP.has(ch)) sm++; }
+      const sc = t > sm ? 'traditional' : (sm > t ? 'simplified' : 'neutral');
+      if (sc !== 'neutral' && sc !== v.verdict) bad.push({ code, word: c.word, surf: c.surf, is: sc, want: v.verdict, ev: `${v.t}/${v.s}` });
+    }
+  }
+  console.log('zh script convention — every word, per-code majority baseline\n');
+  for (const b2 of bad) console.log(`  ${b2.code.padEnd(10)} ${b2.word.padEnd(10)} ${b2.surf.padEnd(8)} is ${b2.is}, code is ${b2.want} (${b2.ev})`);
+  console.log(`\nmismatches: ${bad.length}`);
+  process.exit(0);
+}
 
 // Convention from existing words (excluding the two under review).
 const existing = {};   // code -> surfaces[]

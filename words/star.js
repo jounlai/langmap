@@ -85,7 +85,7 @@ WORDS.star = {
       cro: ["ihké", "ihkéː"],
       hai: ["k'aayhlt'áa", "kʼaːjɬtʼáː"],
       cic: ["fochik", "foːtʃik"],
-      ik: ["uvluġiaq", "uvluɣiaq"],
+      ik: ["uvluġiaq", "uvluʁiaq"],
       na: ["edetong", "edetoŋ"],
       luz: ["هساره", "hasɒːɾæ"],
       es_bo: ["estrella", "esˈtɾeʝa"],

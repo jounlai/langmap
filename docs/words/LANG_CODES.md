@@ -927,7 +927,7 @@ Total: 1140 codes.
 | `stq` | Saterland Frisian | ザーターラント・フリジア語 | Indo-European (West Germanic, Frisian) | ~2.5K |
 | `su` | Sundanese | スンダ語 | Austronesian | ~42M |
 | `suk` | Sukuma | スクマ語 | Atlantic-Congo (Bantu, Sukuma-Nyamwezi) | ~5M |
-| `sukh` | Old Thai (Sukhothai) | 古タイ語(スコータイ) | Austroasiatic (Khmeric) | Extinct (~7th-9th c. CE; superseded by Old Khmer) |
+| `sukh` | Old Thai (Sukhothai) | 古タイ語(スコータイ) | Kra-Dai (Tai, Southwestern) | Extinct (13–15c; direct ancestor of modern Thai) |
 | `sum` | Sumo | スモ語 | Misumalpan | ~10K (Nicaragua ~8K + Honduras ~2K) |
 | `sus` | Susu | スース語 | Niger-Congo (Mande, Western, Susu-Yalunka) | ~1.2M |
 | `sux` | Sumerian | シュメール語 | Language isolate | Extinct |

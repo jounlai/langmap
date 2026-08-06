@@ -79,7 +79,7 @@ WORDS.house = {
       bla: ["mahkówa", "mahkoːwa"],
       hop: ["kiihu", "kiːhu"],
       com: ["tua", "tuɑ"],
-      one: ["oneʔnʌ", "oneʔnʌ"],
+      one: ["kanúhsote", "kanuhsote"],
       ono: ["ganǫhsoht", "ɡanõhsoht"],
       win: ["—", "—"],
       cro: ["tipí", "tipi"],

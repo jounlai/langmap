@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1132 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1131 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -2285,8 +2285,8 @@ const LANG_DATA = {
   gym: { name: 'Ngäbere', native: 'Ngäbere', lat: 8.43, lng: -82.13, // Llano Tugrí, Panama (Ngäbe-Buglé capital)
 },
   // Sumo (Mayangna) — Misumalpan (sister to Miskito within the small Misumalpan family of Central America), ~10K, Nicaragua (Bonanza, Rosita) + Honduras (Mosquitia).
-  // Sources: Ethnologue 27 'sum'; Glottolog mayy1239; Norwood (1997) Mayangna grammar.
-  sum: { name: 'Sumo', native: 'Mayangna', lat: 14.18, lng: -84.62, // Bonanza, Nicaragua (Mayangna heartland)
+  // Sources: Ethnologue 27 'yan'; Glottolog mayy1239; Norwood (1997) Mayangna grammar.
+  yan: { name: 'Sumo', native: 'Mayangna', lat: 14.18, lng: -84.62, // Bonanza, Nicaragua (Mayangna heartland)
 },
   // Shuar — Jivaroan, ~35K speakers, Ecuadorian + Peruvian Amazon. Famous historically for tsantsa (shrunken heads).
   // Sources: Ethnologue 27 'jiv'; Glottolog shua1257; Pellizzaro & Náwech (2005) Chicham Shuar.
@@ -4819,8 +4819,6 @@ const LANG_DATA = {
 },
   // Central Mam — Mayan (Quichean-Mamean, Mamean — sister variety to Mam mam macrolanguage; spoken in central Huehuetenango department), ~520K, Guatemala (Huehuetenango — Todos Santos Cuchumatán, San Juan Atitán, Concepción Huista, Santiago Chimaltenango).
   // Sources: Ethnologue 27 'mvc'; Glottolog cent2152; England (1983) A Grammar of Mam, a Mayan Language.
-  mvc: { name: "Central Mam", native: "Qyool Mam", lat: 15.51, lng: -91.60, // Todos Santos Cuchumatán, Huehuetenango, Guatemala
-},
   wal: { name: 'Wolaytta', native: 'Wolayttattuwaa', lat: 6.85, lng: 37.76, // Wolaita Sodo
 },
   sid: { name: 'Sidamo', native: 'Sidaamu Afoo', lat: 7.06, lng: 38.48, // Hawassa
@@ -5058,7 +5056,7 @@ const LANG_DATA = {
 },
   haj: { name: 'Hajong', native: 'হাজং', lat: 25.5, lng: 90.27,
 },
-  kzj: { name: 'Coastal Kadazan', native: 'Boos Momogun', lat: 5.97, lng: 116.07,
+  dtp_kzj: { name: 'Coastal Kadazan', native: 'Boos Momogun', lat: 5.97, lng: 116.07,
 },
   mez: { name: 'Menominee', native: 'Mamāceqtaw', lat: 44.91, lng: -88.74,
 },
@@ -5072,7 +5070,7 @@ const LANG_DATA = {
 },
   pot: { name: 'Potawatomi', native: 'Bodéwadmimwen', lat: 39.04, lng: -95.74,
 },
-  uun: { name: 'Kulon-Pazeh', native: 'Pazeh', lat: 23.97, lng: 120.97,
+  pzh: { name: 'Pazeh', native: 'Pazeh', lat: 23.97, lng: 120.97,
 },
   wic: { name: 'Wichita', native: 'Kirikirʔis', lat: 35.05, lng: -98.4,
 },
@@ -5342,7 +5340,7 @@ const HIST_DESCENDANT = {
     // 2026-07-21 (owner, extinct-as-modern audit): Kulon-Pazeh (Formosan) is
     // dormant — last fluent speaker died 2010, ~0 L1 — and carries a period
     // (18–21c), so it belongs on the historical map, not the modern one.
-    uun:null,
+    pzh:null,
     // Pass 35: 5 historical additions (Ottoman→Turkish, Classical Mongolian→Mongolian,
     // Etruscan/Hattic/Tartessian = isolates with no living descendant)
     ota:'tr', cmg:'mn', ett:null, xht:null, txr:null, cms:null, pmh:'mr', ofs:'fy',

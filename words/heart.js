@@ -636,7 +636,7 @@ WORDS.heart = {
     ja_chu: ["心", "kokoɾo"],
     pry: ["*kimu", "kimu"],
     ko_mid: ["ᄆᆞᅀᆞᆷ", "mʌzʌm"],
-    oko: ["心音", "*məsʌm"],
+    oko: ["心音", "*mʌsʌm"],
     okg: ["—", "—"],
     ko_gor: ["—", "—"],
     ko_em: ["마음", "maɯm"],

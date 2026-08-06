@@ -1953,13 +1953,13 @@ const LANG_DATA = {
     // characters used only where no phonetic attestation exists.
 
     wordEvidence: {
-      water:  { evidence: 'reconstructed', source: 'Lee KM 2003 — pre-MK *muru → MK 믈; cf. modern 물' },
+      water:  { evidence: 'reconstructed', source: 'Wiktionary/Old Korean 勿 *mul, a water element in first-millennium southern place names; Jilin leishi (1103) writes it 沒', note: 'was *muɾu. The final vowel had no support. 勿 is a single phonogram (MC *mjut, Sino-Korean 물) with NO 末音添記 — under that convention a disyllable would be spelled 勿理 or the like, exactly as this row spells moon 月羅理 and two 二肹. The row\'s own fire 弗 *puɾ is the same kind of graph and carries no final vowel. It was also the only stage with one: pko is *mɨr and ko_mid is 믈 mɯl, so the vowel appeared and vanished again. Disyllabic pre-Korean reconstructions of this word do exist, but they belong to the proto stage, not to 7-10c Silla, and the open-syllable hypothesis for Old Korean is itself contested (coda consonants are attested early)' },
       moon:   { evidence: 'reconstructed', source: 'Lee KM 2003 — *tʌrh attested in hyangga 月隠 → MK ᄃᆞᆯ → 달' },
       one:    { evidence: 'reconstructed', source: 'Hyangga 一念惡寸; → MK ᄒᆞ나 → 하나' },
       house:  { evidence: 'direct', source: 'Idu/hyangchal 家=cip; → MK 집' },
-      heart:  { evidence: 'reconstructed', source: 'Hyangga 心 → *məsʌm → MK ᄆᆞᅀᆞᆷ → 마음' },
-      mother: { evidence: 'reconstructed', source: 'Lee KM 1993 — *əmi attested in idu → MK 어미' },
-      father: { evidence: 'reconstructed', source: 'Lee KM 1993 — *əpi attested → MK 아비' },
+      heart:  { evidence: 'reconstructed', source: 'Hyangga 心音 (logogram + 音 as 末音添記 for the -m coda) → MK ᄆᆞᅀᆞᆷ mʌzʌm → 마음', note: 'was *məsʌm. 心音 spells no vowels at all, so both are projected back from MK ᄆᆞᅀᆞᆷ, which has ㆍ in both syllables — the cell disagreed with its own second syllable and with pko *mʌzʌm. The s (not z) is kept: ᅀ is generally taken to postdate this stage' },
+      mother: { evidence: 'disputed', source: 'cited as Lee KM 1993 *əmi → MK 어미', note: 'the graph and the reconstruction disagree. 阿 is /a/ in Sino-Korean and in every hyangga use of it as a phonogram, so 阿米 reads *ami — but MK is 어미 ʌmi and pko here is *emi, neither of which has /a/. Left at *əmi because the descendant outweighs one loose phonogram, but the pairing is unresolved: the same 阿 in father was reconstructed /ə/ too, and there the graph, MK 아비 and pko *api all agree on /a/' },
+      father: { evidence: 'reconstructed', source: '阿比 (阿 = /a/ as a hyangga phonogram) → MK 아비 abi', note: 'was *əpi, cited to Lee KM 1993. Changed because the graph, the Middle Korean descendant 아비 and this dataset\'s own pko *api all give /a/, and nothing gave /ə/. See the mother note for the half of this pair that is still open' },
       cat:    { evidence: 'disputed', note: 'no Old Korean form attested; later 고양이 < 高揚 + suffix is post-medieval' },
       hello:  { evidence: 'disputed', note: 'Silla/Old Korean greeting formula not preserved in hyangga corpus' },
       thanks: { evidence: 'disputed', note: 'no Old Korean thanks formula attested; native 고맙- < later strata' },

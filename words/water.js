@@ -643,7 +643,7 @@ WORDS.water = {
     ja_chu: ["水", "midu"],
     pry: ["*midu", "midu"],
     ko_mid: ["믈", "mɯl"],
-    oko: ["勿", "*muɾu"],
+    oko: ["勿", "*muɾ"],
     okg: ["買", "*mai"],
     ko_gor: ["沒", "*mwol"],
     ko_em: ["믈", "mɯl"],

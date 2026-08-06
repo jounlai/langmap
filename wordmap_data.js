@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1140 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1135 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -179,7 +179,6 @@ const LANG_DATA = {
   "yuy": { "name": "Eastern Yugur", "native": "ئۇيغۇر", "lat": 39.3, "lng": 99.7 },
   "mjg": { "name": "Monguor (Tu)", "native": "Mongghul", "lat": 36.32, "lng": 102.83 },
   "sce": { "name": "Dongxiang (Santa)", "native": "Santa", "lat": 35.6, "lng": 103.2 },
-  "bua": { "name": "Buryat", "native": "Буряад хэлэн", "lat": 51.840836, "lng": 107.608093 },
   "cjs": { "name": "Shor", "native": "Шор тили", "lat": 53.26, "lng": 88.54 },
   "dlg": { "name": "Dolgan", "native": "Долган тили", "lat": 71, "lng": 102.3 },
   "kdt": { "name": "Kuy", "native": "Kuy", "lat": 13.75, "lng": 105 },
@@ -190,7 +189,6 @@ const LANG_DATA = {
   "mro": { "name": "Mru", "native": "Mru (ꯃꯔꯨ in Mru script)", "lat": 21.775, "lng": 92.2 },
   "gon": { "name": "Gondi", "native": "गोंडी / కోయం (Gōṇḍī / Koitur)", "lat": 20.5, "lng": 79 },
   "bfq": { "name": "Badaga", "native": "Badaga", "lat": 11.417, "lng": 76.683 },
-  "som": { "name": "Somali", "native": "Soomaali", "lat": 2.05, "lng": 45.32 },
   "har": { "name": "Harari", "native": "Gēy Sinan", "lat": 9.3126, "lng": 42.1227 },
   "es_pr": { "name": "Puerto Rican Spanish", "native": "Español puertorriqueño", "lat": 18.47, "lng": -66.11 },
   "es_do": { "name": "Dominican Spanish", "native": "Español dominicano", "lat": 18.49, "lng": -69.93 },
@@ -1537,8 +1535,6 @@ const LANG_DATA = {
 },
   // Onondaga — Iroquoian Northern, ~20 fluent, Six Nations Reserve + Onondaga Nation NY.
   // Sources: Ethnologue 27 'ono'; Glottolog onon1246; Woodbury (2003) Onondaga grammar.
-  onn: { name: 'Onondaga', native: 'Onǫdaʼgegáʼ', lat: 43.05, lng: -76.13, // Onondaga Nation, NY
-},
   // Tuscarora — Iroquoian Northern, ~10 fluent, NC homeland → Six Nations Reserve ON.
   // Sources: Ethnologue 27 'tus'; Glottolog tusc1257; Williams (1976) Tuscarora Vocabulary.
   tus: { name: 'Tuscarora', native: 'Skarù:rę\'', lat: 43.16, lng: -78.96, // Tuscarora Reservation, NY
@@ -2322,7 +2318,7 @@ const LANG_DATA = {
   arn: { name: 'Mapudungun', native: 'Mapuzugun', lat: -38.74, lng: -72.59, // Temuco
 },
   // Algonquian (North America)
-  cr: { name: 'Cree (Plains)', native: 'ᓀᐦᐃᔭᐍᐏᐣ', lat: 52.13, lng: -106.67, // Saskatoon
+  cr: { name: 'Cree', native: 'ᓀᐦᐃᔭᐍᐏᐣ', lat: 52.13, lng: -106.67, // Saskatoon
 },
   // Chipewyan (Dëne Sųłıné) — Na-Dene Athabaskan Northern (sister to Slavey, Dogrib, Sahtu Dene within the Northern Athabaskan branch; Athabaskan family stretches from northern Canada to Navajo nv and Apache languages of the US Southwest), ~12K, Canada (Northwest Territories — Łutsel K'e, Fort Smith; Northern Saskatchewan — La Loche, Black Lake; Northern Alberta — Cold Lake; Northern Manitoba — Brochet).
   // Sources: Ethnologue 27 'chp'; Glottolog chip1261; Cook (2004) A Grammar of Dëne Sųłıné.
@@ -3057,8 +3053,6 @@ const LANG_DATA = {
   // mon (incorrect ISO code; conflicts with ISO 639-1 'mon' = Mongolian)
   // removed Session 51 — canonical Mon-language entry is `mnw` (ISO 639-3).
   // omx Old Mon HIST_DESCENDANT updated to point at mnw.
-  xkk: { name: 'Khmu', native: 'Kmhmu\'', lat: 19.89, lng: 102.13, // Luang Prabang
-},
   // Iroquoian (NE North America)
   moh: { name: 'Mohawk', native: 'Kanien\'kéha', lat: 45.42, lng: -73.66, // Kahnawake
 },
@@ -3071,8 +3065,6 @@ const LANG_DATA = {
 },
   // Eskimo-Aleut (Yupik + Inupiaq)
   esu: { name: 'Central Alaskan Yupik', native: 'Yugtun', lat: 60.79, lng: -161.76, // Bethel
-},
-  ipk: { name: 'Inupiaq', native: 'Iñupiatun', lat: 71.29, lng: -156.79, // Utqiagvik
 },
   // Central Siberian Yupik (Yupik, Saint Lawrence Island/Chukchi) — Eskimo-Aleut, ~1K, Russia (Chukotka Coast) + USA (Alaska, Saint Lawrence Island Gambell, Savoonga).
   // Sources: Ethnologue 27 'ess'; Glottolog cent2127; Jacobson (2001) A Practical Grammar of the Central Yupʼik Eskimo Language.

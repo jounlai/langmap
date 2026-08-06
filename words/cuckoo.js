@@ -99,7 +99,6 @@ WORDS.cuckoo = {
     "br": ["koukoug", "ˈkukuk"],
     "bra": ["कोयल", "koːjal"],
     "bs": ["kukavica", "kûkaʋitsa"],
-    "bua": ["хүхы", "xyˈxɘ"],
     "bxr": ["хүхы", "xyˈxɘ"],
     "ca": ["cucut", "kuˈkut"],
     "ca_va": ["cucut", "kuˈkut"],

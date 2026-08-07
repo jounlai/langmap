@@ -4691,10 +4691,21 @@
                 // descendantCodes stays empty; the isDescendant colouring
                 // downstream therefore never fires.
             } else {
+                // The language the reader is currently focused on — the dice
+                // pick, a search hit, the open lang-info modal — is exempt
+                // from the speaker-count gate. Without this the dice can land
+                // on a small language at zoom 3-4 and nothing appears on the
+                // map at all: the collision sort below already gives
+                // _focusedCode top priority, but it never gets the chance
+                // because the gate removed the language before that
+                // (owner 2026-08-07, "Zoom率の問題で言語自体が表示されない").
+                const _panel = document.getElementById('lang-info');
+                const _forced = (_panel && _panel.classList.contains('visible'))
+                    ? _panel.dataset.code : null;
                 for (const [code, lang] of Object.entries(LANG_DATA)) {
                     if (EXCLUDED_CODES.has(code)) continue;
                     if (!lang.words || !lang.words[wordId]) continue;
-                    if (tierMin > 0 && langSpeakerCount(code) < tierMin) continue;
+                    if (tierMin > 0 && code !== _forced && langSpeakerCount(code) < tierMin) continue;
                     if (isUnattestedEntry(lang.words[wordId])) {
                         unattestedLangs.push(code);
                     } else {
@@ -7876,7 +7887,12 @@
                 });
                 if (!pool.length) return;
                 const code = pool[Math.floor(Math.random() * pool.length)];
-                centerLangOnMap(code);
+                _spinDie(randomBtn);
+                // Floor the zoom at 5 so the pick clears the speaker-count
+                // tier gate on its own. The _forced exemption in
+                // getVisibleLangs covers the desktop case where the modal
+                // opens; this covers mobile, where it does not.
+                centerLangOnMap(code, 5);
                 // On mobile, skip the lang-info modal — opening it on top of
                 // the (often-already-visible) trivia modal stacks UI, and on
                 // a small viewport the user wants to first SEE where the
@@ -7901,6 +7917,36 @@
                     showLangInfo(code, { push: true });   // Back button returns to the previous random pick
                 }
             });
+        }
+
+        // Roll the 🎲 while the map flies, the same 80ms / 90-120° jiggle the
+        // Han Map character roulette uses on its own die. There the reel is
+        // the main event and the die is the paired animation; here there is no
+        // reel — the map fly is what takes the time — so the die runs for the
+        // flight and stops with it.
+        function _spinDie(btn) {
+            if (!btn || btn.dataset.spinTimer) return;
+            btn.style.transition = 'transform 80ms ease-in-out';
+            let angle = 0;
+            const timer = setInterval(() => {
+                angle += 90 + Math.floor(Math.random() * 30);
+                btn.style.transform = 'rotate(' + angle + 'deg)';
+            }, 80);
+            btn.dataset.spinTimer = String(timer);
+            const stop = () => {
+                if (!btn.dataset.spinTimer) return;
+                try { clearInterval(parseInt(btn.dataset.spinTimer, 10)); } catch (_) {}
+                delete btn.dataset.spinTimer;
+                btn.style.transition = 'none';
+                btn.style.transform = 'rotate(0deg)';
+                try { map && map.off('moveend', stop); } catch (_) {}
+                clearTimeout(fallback);
+            };
+            // Stop when the fly settles; the timeout is the guard for a pick
+            // that needs no movement (already centred) and so never fires
+            // moveend, which would otherwise leave the die spinning forever.
+            try { map && map.on('moveend', stop); } catch (_) {}
+            const fallback = setTimeout(stop, 1200);
         }
 
         // Auto-clear the dice-button spotlight/blink when the user interacts

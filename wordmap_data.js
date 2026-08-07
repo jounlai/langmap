@@ -1956,8 +1956,8 @@ const LANG_DATA = {
       one:    { evidence: 'reconstructed', source: 'Hyangga 一念惡寸; → MK ᄒᆞ나 → 하나' },
       house:  { evidence: 'direct', source: 'Idu/hyangchal 家=cip; → MK 집' },
       heart:  { evidence: 'reconstructed', source: 'Hyangga 心音 (logogram + 音 as 末音添記 for the -m coda) → MK ᄆᆞᅀᆞᆷ mʌzʌm → 마음', note: 'was *məsʌm. 心音 spells no vowels at all, so both are projected back from MK ᄆᆞᅀᆞᆷ, which has ㆍ in both syllables — the cell disagreed with its own second syllable and with pko *mʌzʌm. The s (not z) is kept: ᅀ is generally taken to postdate this stage' },
-      mother: { evidence: 'disputed', source: 'cited as Lee KM 1993 *əmi → MK 어미', note: 'the graph and the reconstruction disagree. 阿 is /a/ in Sino-Korean and in every hyangga use of it as a phonogram, so 阿米 reads *ami — but MK is 어미 ʌmi and pko here is *emi, neither of which has /a/. Left at *əmi because the descendant outweighs one loose phonogram, but the pairing is unresolved: the same 阿 in father was reconstructed /ə/ too, and there the graph, MK 아비 and pko *api all agree on /a/' },
-      father: { evidence: 'reconstructed', source: '阿比 (阿 = /a/ as a hyangga phonogram) → MK 아비 abi', note: 'was *əpi, cited to Lee KM 1993. Changed because the graph, the Middle Korean descendant 아비 and this dataset\'s own pko *api all give /a/, and nothing gave /ə/. See the mother note for the half of this pair that is still open' },
+      mother: { evidence: 'disputed', source: 'no Silla-era attestation found', note: 'BLANKED. The cell showed 阿米 *əmi, but 阿米 is not an attestation of this word anywhere in the Silla corpus — it appears to have been supplied to fill the slot. The earliest attestation is 丫彌 in the 鷄林類事 (1103), which is Goryeo, so it now sits on ko_gor with the rest of that source. Raised by @Gutascii (X), who noticed that 阿 is /a/ while the reconstruction said /ə/ — the graph was the part that was wrong. The vowel was not: MK 어미 émì has ㅓ, so *əmi tracked its descendant correctly' },
+      father: { evidence: 'disputed', source: 'no Silla-era attestation found', note: 'BLANKED for the same reason as mother: 阿比 is not attested. The earliest form is 丫秘 in the 鷄林類事 (1103), now on ko_gor. Note that the reconstruction *api — changed from *əpi a day earlier on the strength of the graph — turns out to have been right for the other reason: MK 아비 àpí has ㅏ, and father and mother genuinely differ in that vowel' },
       cat:    { evidence: 'disputed', note: 'no Old Korean form attested; later 고양이 < 高揚 + suffix is post-medieval' },
       hello:  { evidence: 'disputed', note: 'Silla/Old Korean greeting formula not preserved in hyangga corpus' },
       thanks: { evidence: 'disputed', note: 'no Old Korean thanks formula attested; native 고맙- < later strata' },
@@ -1980,6 +1980,10 @@ const LANG_DATA = {
   // 鶏林類事 (Gyerim Yusa, 1103) by 孫穆 — ~350 Korean words transcribed
   // in Chinese characters as a Chinese-Korean glossary. Reconstructions
   // follow Lee KM, Sasse (1976), Sohn (1999).
+  // mother 丫彌 and father 丫秘 were added 2026-08-07 from the 鷄林類事,
+  // the same source every other cell in this row comes from. They had been
+  // sitting on the Silla row under invented graphs (阿米 / 阿比); reported by
+  // @Gutascii (X).
   ko_gor: { name: 'Goryeo Korean (Early Middle)', native: '高麗時代韓國語', lat: 37.97, lng: 126.55, // Kaesong (Goryeo capital)
 
     wordEvidence: {

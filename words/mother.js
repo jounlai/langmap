@@ -640,7 +640,7 @@ WORDS.mother = {
     ja_chu: ["母", "ɸaɸa"],
     p_ryu: ["*amma", "amma"],
     ko_mid: ["어미", "ʌmi"],
-    oko: ["—", "—"],
+    oko: ["母史", "*əsi"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["丫彌", "*emi"],
     ko_em: ["어미", "ʌmi"],

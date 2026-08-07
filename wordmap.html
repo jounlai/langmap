@@ -5,12 +5,12 @@
     <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LangMap — Word Map: 1,138 Languages on an Interactive World Map (IPA + Pronunciation)</title>
-    <meta name="description" content="Interactive world map of 20 key words (water, fire, sun, mother, hello, thanks…) in 1,138 languages with pronunciation — IPA, broad transcription, and romanization. 2D / 3D globe view, compare panel, language family filter, includes ancient and historical languages like Sumerian, Akkadian, Old Chinese, Vedic Sanskrit, Sogdian.">
+    <title>LangMap — Word Map: 1,131 Languages on an Interactive World Map (IPA + Pronunciation)</title>
+    <meta name="description" content="Interactive world map of 20 key words (water, fire, sun, mother, hello, thanks…) in 1,131 languages with pronunciation — IPA, broad transcription, and romanization. 2D / 3D globe view, compare panel, language family filter, includes ancient and historical languages like Sumerian, Akkadian, Old Chinese, Vedic Sanskrit, Sogdian.">
     <meta name="keywords" content="world language map, IPA, pronunciation, language comparison, linguistic atlas, language family, historical linguistics, ancient languages, Sumerian, Akkadian, Old Chinese, Vedic Sanskrit, dialectology, language typology">
     <meta name="author" content="Jounlai Cho, Heuron Inc.">
-    <meta property="og:title" content="LangMap — Word Map: 1,138 Languages with Pronunciation">
-    <meta property="og:description" content="20 key words in 1,138 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view and a compare panel.">
+    <meta property="og:title" content="LangMap — Word Map: 1,131 Languages with Pronunciation">
+    <meta property="og:description" content="20 key words in 1,131 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view and a compare panel.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://langmap.heuron.com/wordmap.html">
     <meta property="og:image" content="https://langmap.heuron.com/ogp-wordmap.png">
@@ -22,8 +22,8 @@
     <meta property="og:locale:alternate" content="ko_KR">
     <meta property="og:locale:alternate" content="zh_CN">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="LangMap — Word Map: 1,138 Languages with Pronunciation">
-    <meta name="twitter:description" content="20 key words in 1,138 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view.">
+    <meta name="twitter:title" content="LangMap — Word Map: 1,131 Languages with Pronunciation">
+    <meta name="twitter:description" content="20 key words in 1,131 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view.">
     <meta name="twitter:image" content="https://langmap.heuron.com/ogp-wordmap.png">
     <meta name="twitter:creator" content="@jounlai">
     <link rel="canonical" href="https://langmap.heuron.com/wordmap.html">
@@ -35,9 +35,9 @@
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Word Map: 1,138 Languages with Pronunciation",
+        "name": "Word Map: 1,131 Languages with Pronunciation",
         "url": "https://langmap.heuron.com/wordmap.html",
-        "description": "Interactive world map of 20 key words in 1,138 languages with IPA, broad transcription, and romanization.",
+        "description": "Interactive world map of 20 key words in 1,131 languages with IPA, broad transcription, and romanization.",
         "isPartOf": {"@id": "https://langmap.heuron.com/#website"},
         "inLanguage": ["en", "ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"]
     }
@@ -323,40 +323,63 @@
             font-size: 11px;
             padding: 3px 10px;
         }
-        /* Word definition — fixed width matches the selector; height
-           grows to fit all content so 3+ line definitions aren't
-           truncated (user 2026-05-17). The era switch / lang search
-           below shift down as needed; this trade-off was preferred over
-           hiding meaningful text. Empty concepts collapse via the
-           :empty rule below so the lower controls still hug the
-           selector when there's no description. */
+        /* Word definition.
+           It used to sit directly on the map — transparent, italic, 10px,
+           legible only via a white text-shadow. That worked while the texts
+           were one or two lines; once several concepts grew a second sense
+           (computer and sushi mean a counting device and preserved fish in
+           the historical rows) it became four to six lines of italic laid
+           over coastlines and dots, and unreadable (owner 2026-08-07).
+           Now: hidden behind a toggle, and given a real surface when open,
+           the same pill treatment the other controls use. */
+        .top-left-controls #word-def-toggle {
+            align-self: flex-start;
+            width: 22px; height: 22px; padding: 0;
+            border: 1px solid #d0d0d0; border-radius: 50%;
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: blur(6px);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+            font-size: 12px; line-height: 1; color: #555;
+            cursor: pointer;
+        }
+        .top-left-controls #word-def-toggle[aria-expanded="true"] {
+            color: #111; border-color: #999;
+        }
+        .top-left-controls #word-def-toggle[hidden] { display: none; }
         .top-left-controls #word-definition {
             width: 240px;
             box-sizing: border-box;
-            margin: 0 0 2px;
-            padding: 2px 7px;
-            font-size: 10px;
+            margin: 0;
+            padding: 7px 9px;
+            font-size: 11px;
             color: #333;
-            font-style: italic;
-            line-height: 1.3;
-            background: transparent;
-            text-shadow: 0 1px 2px rgba(255,255,255,0.6);
+            line-height: 1.45;
+            background: rgba(255,255,255,0.94);
+            backdrop-filter: blur(6px);
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+            /* Long definitions scroll inside the panel instead of pushing the
+               era switch and language search off the bottom of the screen. */
+            max-height: 42vh;
+            overflow-y: auto;
         }
-        /* When the current concept has no definition, collapse the box
-           entirely so the lower controls hug the selector. The :empty
-           selector only matches when there's no whitespace either, which
-           is what `wd.textContent = …` produces. */
-        .top-left-controls #word-definition:empty {
-            margin: 0; padding: 0;
-        }
+        .top-left-controls #word-definition[hidden] { display: none; }
         body.is-3d .top-left-controls #word-definition {
-            color: #f5f5f5;
-            text-shadow: 0 1px 2px rgba(0,0,0,0.7);
+            color: #f0f0f0;
+            background: rgba(20,22,26,0.88);
+            border-color: rgba(255,255,255,0.18);
+        }
+        body.is-3d .top-left-controls #word-def-toggle {
+            color: #ddd;
+            background: rgba(20,22,26,0.88);
+            border-color: rgba(255,255,255,0.18);
         }
         @media (max-width: 480px) {
-            /* Hide the definition box on phones to save vertical space;
-               the modal still shows it once a language is selected. */
-            .top-left-controls #word-definition { display: none; }
+            /* Still off on phones — vertical space is the scarce thing there,
+               and the modal shows the definition once a language is picked. */
+            .top-left-controls #word-definition,
+            .top-left-controls #word-def-toggle { display: none; }
         }
 
         /* --- Bottom-left: UI lang only --- */
@@ -2348,7 +2371,13 @@
              which word is mapped without the interactive pulldown (owner
              2026-07-12). Populated + kept in sync by updateWordSelectLabel(). -->
         <div id="word-select-label" aria-hidden="true"></div>
-        <div id="word-definition"></div>
+        <!-- The definition is collapsed by default and opened from here. It
+             overlaid the map when always-on; see the CSS note above. The
+             button keeps its own state in localStorage, so a reader who wants
+             it open gets it open on every word and every visit. -->
+        <button type="button" id="word-def-toggle" aria-expanded="false"
+                aria-controls="word-definition">&#9432;</button>
+        <div id="word-definition" hidden></div>
         <!-- Era switch + filter button live in the same row so the
              filter FAB (created by lang-filter.js) doesn't claim its own
              vertical slot below the search field. The shim near the end
@@ -3868,7 +3897,11 @@
                 const base = (uiLang === 'en' ? w.label.en : localWord + ' / ' + w.label.en);
                 // Mark a partial word (e.g. cuckoo) so the selector shows it is
                 // special — a range map, not a per-language cell.
-                opt.textContent = w.partial ? base + ' 🧪' : base;
+                // Marker goes in FRONT: the labels are "local / English" pairs
+                // of very different lengths, so a trailing 🧪 landed in a
+                // different place on every row and was easy to miss. Leading,
+                // it lines up down the left edge of the list (owner).
+                opt.textContent = w.partial ? '🧪 ' + base : base;
                 select.appendChild(opt);
             });
             if (curVal) select.value = curVal;
@@ -4002,6 +4035,46 @@
                 n.style.opacity = '0.75';
                 n.textContent = '🧪 ' + note;
                 wd.appendChild(n);
+            }
+            syncWordDefToggle();
+        }
+
+        // The definition panel is collapsed by default because it sits on top
+        // of the map. The toggle remembers the reader's choice across words
+        // and visits; a concept with no definition hides the button entirely
+        // rather than offering an empty panel.
+        const DEF_OPEN_KEY = 'wm_def_open';
+        let defOpen = false;
+        try { defOpen = localStorage.getItem(DEF_OPEN_KEY) === '1'; } catch (e) { /* private mode */ }
+
+        function syncWordDefToggle() {
+            const wd = document.getElementById('word-definition');
+            const btn = document.getElementById('word-def-toggle');
+            if (!wd || !btn) return;
+            const hasText = wd.textContent.trim() !== '';
+            btn.hidden = !hasText;
+            const open = hasText && defOpen;
+            wd.hidden = !open;
+            btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            // Only describe the selector while the text is actually on screen.
+            if (open) select.setAttribute('aria-describedby', 'word-definition');
+            else select.removeAttribute('aria-describedby');
+        }
+
+        {
+            const btn = document.getElementById('word-def-toggle');
+            if (btn) {
+                // No new UI string: reuse the existing 'concept' label rather
+                // than adding a 24th translation key for one tooltip.
+                const t = (typeof WM_UI !== 'undefined' && WM_UI[uiLang] && WM_UI[uiLang].concept)
+                    || (typeof WM_UI !== 'undefined' && WM_UI.en && WM_UI.en.concept) || 'Concept';
+                btn.title = t;
+                btn.setAttribute('aria-label', t);
+                btn.addEventListener('click', () => {
+                    defOpen = !defOpen;
+                    try { localStorage.setItem(DEF_OPEN_KEY, defOpen ? '1' : '0'); } catch (e) { /* private mode */ }
+                    syncWordDefToggle();
+                });
             }
         }
 
@@ -8862,7 +8935,7 @@
             view:    {en:'View', ja:'見る', ko:'보기', zh:'查看', yue:'睇', vi:'Xem', th:'ดู', id:'Lihat', hi:'देखें', de:'Ansehen', fr:'Voir', it:'Vedi', es:'Ver', pt:'Ver', ru:'Открыть', uk:'Відкрити', ar:'عرض', he:'הצגה', sw:'Tazama'},
             close:   {en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', yue:'閂', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', de:'Schließen', fr:'Fermer', it:'Chiudi', es:'Cerrar', pt:'Fechar', ru:'Закрыть', uk:'Закрити', ar:'إغلاق', he:'סגירה', sw:'Funga'}
         };
-        // Share text template: "<word>" in 1,138 languages — LangMap
+        // Share text template: "<word>" in 1,131 languages — LangMap
         const SHARE_TPL = {
             en:(w)=>`How do people say “${w}” around the world? — ${ct()} languages on LangMap`,
             ja:(w)=>`「${w}」は世界の言語でどう言う？ — LangMap（${ct()}言語の発音マップ）`,

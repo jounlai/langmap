@@ -2410,9 +2410,14 @@
                    role="combobox" aria-autocomplete="list" aria-expanded="false"
                    aria-controls="lang-search-results" aria-activedescendant=""
                    style="width:200px;padding:5px 9px;font-size:12px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#333">
+            <!-- Round like the Han Map's character die. aspect-ratio + stretch
+                 makes it a true circle at whatever height the search input
+                 renders at, instead of hard-coding a pixel size that would
+                 drift if the input's padding or font changed. The glyph is in
+                 its own span so the roll spins the die and not the frame. -->
             <button type="button" id="lang-random" title="Random language"
                     aria-label="Random language"
-                    style="padding:5px 8px;font-size:14px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#555;cursor:pointer;line-height:1">🎲</button>
+                    style="padding:0;width:auto;aspect-ratio:1;align-self:stretch;font-size:14px;border:1px solid #d0d0d0;border-radius:50%;background:#fff;color:#555;cursor:pointer;line-height:1;display:inline-flex;align-items:center;justify-content:center"><span class="die-face" style="display:inline-block;line-height:1">🎲</span></button>
             <div id="lang-search-results" role="listbox" style="display:none;position:absolute;top:100%;left:0;right:0;margin-top:2px;background:#fff;border:1px solid #d0d0d0;border-radius:4px;box-shadow:0 2px 10px rgba(0,0,0,0.15);max-height:280px;overflow-y:auto;z-index:1100;font-size:12px"></div>
         </div>
     </div>
@@ -7926,19 +7931,23 @@
         // flight and stops with it.
         function _spinDie(btn) {
             if (!btn || btn.dataset.spinTimer) return;
-            btn.style.transition = 'transform 80ms ease-in-out';
+            // Spin the GLYPH, not the button: rotating the button rotates its
+            // round frame and border with it, which reads as the whole control
+            // tumbling rather than a die being rolled inside it.
+            const face = btn.querySelector('.die-face') || btn;
+            face.style.transition = 'transform 80ms ease-in-out';
             let angle = 0;
             const timer = setInterval(() => {
                 angle += 90 + Math.floor(Math.random() * 30);
-                btn.style.transform = 'rotate(' + angle + 'deg)';
+                face.style.transform = 'rotate(' + angle + 'deg)';
             }, 80);
             btn.dataset.spinTimer = String(timer);
             const stop = () => {
                 if (!btn.dataset.spinTimer) return;
                 try { clearInterval(parseInt(btn.dataset.spinTimer, 10)); } catch (_) {}
                 delete btn.dataset.spinTimer;
-                btn.style.transition = 'none';
-                btn.style.transform = 'rotate(0deg)';
+                face.style.transition = 'none';
+                face.style.transform = 'rotate(0deg)';
                 try { map && map.off('moveend', stop); } catch (_) {}
                 clearTimeout(fallback);
             };

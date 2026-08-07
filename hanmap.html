@@ -2821,9 +2821,15 @@
                    role="combobox" aria-autocomplete="list" aria-expanded="false"
                    aria-controls="lang-search-results" aria-activedescendant=""
                    style="width:200px;padding:5px 9px;font-size:12px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#333">
+            <!-- Round, matching the character die above it and the Word Map's
+                 own language die. Fixed 28px square rather than aspect-ratio,
+                 which renders as an ellipse here: a flex item keeps
+                 flex-shrink:1, so the row squeezes the width while the height
+                 holds. The glyph is in its own span so the roll spins the die
+                 and not the frame. -->
             <button type="button" id="lang-random" title="Random language"
                     aria-label="Random language"
-                    style="padding:5px 8px;font-size:14px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#555;cursor:pointer;line-height:1">🎲</button>
+                    style="padding:0;width:28px;height:28px;flex:0 0 28px;align-self:center;font-size:14px;border:1px solid #d0d0d0;border-radius:50%;background:#fff;color:#555;cursor:pointer;line-height:1;display:inline-flex;align-items:center;justify-content:center"><span class="die-face" style="display:inline-block;line-height:1">🎲</span></button>
             <div id="lang-search-results" role="listbox" style="display:none;position:absolute;top:100%;left:0;right:0;margin-top:2px;background:#fff;border:1px solid #d0d0d0;border-radius:4px;box-shadow:0 2px 10px rgba(0,0,0,0.15);max-height:280px;overflow-y:auto;z-index:1100;font-size:12px"></div>
         </div>
     </div>
@@ -3256,7 +3262,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=266"></script>
-    <script src="hanmap_data.js?v=112"></script>
+    <script src="hanmap_data.js?v=113"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -6388,10 +6394,19 @@
                 }
                 for (const code of descendantCodes) visibleLangs.push(code);
             } else {
+                // Same exemption as the Word Map: the language the reader is
+                // focused on — the dice pick, a search hit, the open lang-info
+                // panel — skips the speaker-count gate. Without it the dice can
+                // land on a small variety at a wide zoom and nothing appears at
+                // all, because the collision sort that already prioritises
+                // _focusedCode never sees a language the gate removed.
+                const _panel = document.getElementById('lang-info');
+                const _forced = (_panel && _panel.classList.contains('visible'))
+                    ? _panel.dataset.code : null;
                 for (const [code, lang] of Object.entries(LANG_DATA)) {
                     if (EXCLUDED_CODES.has(code)) continue;
                     if (!lang.words[wordId]) continue;
-                    if (tierMin > 0 && langSpeakerCount(code) < tierMin) continue;
+                    if (tierMin > 0 && code !== _forced && langSpeakerCount(code) < tierMin) continue;
                     if (isUnattestedEntry(lang.words[wordId])) {
                         unattestedLangs.push(code);
                     } else {
@@ -10823,6 +10838,35 @@
         // Picks a random language from the *currently visible* set:
         //   - respects the era toggle (modern vs historical) via getActiveCodes()
         //   - respects active lang-filter selections via passesFilter()
+        // Roll the 🎲 while the map flies — the same 80ms / 90-120° step the
+        // character roulette above uses on its own die, and the same helper the
+        // Word Map has. Spins the GLYPH: rotating the button would turn its
+        // round frame with it and read as the whole control tumbling.
+        function _spinLangDie(btn) {
+            if (!btn || btn.dataset.spinTimer) return;
+            const face = btn.querySelector('.die-face') || btn;
+            face.style.transition = 'transform 80ms ease-in-out';
+            let angle = 0;
+            const timer = setInterval(() => {
+                angle += 90 + Math.floor(Math.random() * 30);
+                face.style.transform = 'rotate(' + angle + 'deg)';
+            }, 80);
+            btn.dataset.spinTimer = String(timer);
+            const stop = () => {
+                if (!btn.dataset.spinTimer) return;
+                try { clearInterval(parseInt(btn.dataset.spinTimer, 10)); } catch (_) {}
+                delete btn.dataset.spinTimer;
+                face.style.transition = 'none';
+                face.style.transform = 'rotate(0deg)';
+                try { map && map.off('moveend', stop); } catch (_) {}
+                clearTimeout(fallback);
+            };
+            // Picking a language that is already centred fires no moveend at
+            // all, so the timeout is what stops the die in that case.
+            try { map && map.on('moveend', stop); } catch (_) {}
+            const fallback = setTimeout(stop, 1200);
+        }
+
         const randomBtn = document.getElementById('lang-random');
         if (randomBtn) {
             randomBtn.addEventListener('click', () => {
@@ -10842,6 +10886,7 @@
                 }
                 if (!pool.length) return;
                 const code = pool[Math.floor(Math.random() * pool.length)];
+                _spinLangDie(randomBtn);
                 centerLangOnMap(code);
                 // On mobile, skip the lang-info modal — opening it on top of
                 // the (often-already-visible) trivia modal stacks UI, and on

@@ -1935,6 +1935,8 @@ const LANG_DATA = {
   // (Unger), and ties settlement to the Proto-Gusuku period, 10-12th c.
   // The forms themselves look sound — the modern reflexes are real — but the
   // attributions were not. Raised by the owner from a reader question.
+  // The dating in the description was corrected in all 19 languages the same
+  // day; the per-cell attributions were corrected first.
   p_ryu: { name: 'Proto-Ryukyuan', native: 'Proto-Ryukyuan', lat: 28.40, lng: 129.50, // Amami area (Japonic-Ryukyuan boundary; geographic midpoint of Ryukyuan dispersal)
 
     wordEvidence: {

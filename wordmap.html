@@ -332,18 +332,25 @@
            over coastlines and dots, and unreadable (owner 2026-08-07).
            Now: hidden behind a toggle, and given a real surface when open,
            the same pill treatment the other controls use. */
+        /* The selector and its "?" share a row so the icon sits at the right
+           end of the pulldown rather than under it. #word-select-label swaps
+           into the <select>'s place in chrome-hidden mode, so it lives in the
+           same row. */
+        .top-left-controls .word-select-row {
+            display: flex; align-items: center; gap: 5px;
+        }
+        /* Matches #era-help exactly — same 18px circle, same grey, same "?" —
+           because they are the same affordance one row apart, and two
+           different help icons in one column read as two different things. */
         .top-left-controls #word-def-toggle {
-            align-self: flex-start;
-            width: 22px; height: 22px; padding: 0;
-            border: 1px solid #d0d0d0; border-radius: 50%;
-            background: rgba(255,255,255,0.92);
-            backdrop-filter: blur(6px);
-            box-shadow: 0 1px 4px rgba(0,0,0,0.12);
-            font-size: 12px; line-height: 1; color: #555;
-            cursor: pointer;
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 18px; height: 18px;
+            border-radius: 50%;
+            background: #eee; color: #666;
+            font-size: 11px; cursor: help; user-select: none;
         }
         .top-left-controls #word-def-toggle[aria-expanded="true"] {
-            color: #111; border-color: #999;
+            background: #555; color: #fff;
         }
         .top-left-controls #word-def-toggle[hidden] { display: none; }
         .top-left-controls #word-definition {
@@ -371,16 +378,13 @@
             border-color: rgba(255,255,255,0.18);
         }
         body.is-3d .top-left-controls #word-def-toggle {
-            color: #ddd;
-            background: rgba(20,22,26,0.88);
-            border-color: rgba(255,255,255,0.18);
+            background: rgba(255,255,255,0.22); color: #f0f0f0;
         }
-        @media (max-width: 480px) {
-            /* Still off on phones — vertical space is the scarce thing there,
-               and the modal shows the definition once a language is picked. */
-            .top-left-controls #word-definition,
-            .top-left-controls #word-def-toggle { display: none; }
+        body.is-3d .top-left-controls #word-def-toggle[aria-expanded="true"] {
+            background: #f0f0f0; color: #222;
         }
+        /* Phone rules live with #era-help's breakpoint (max-width: 640px)
+           further down, so the "?" and the panel it opens vanish together. */
 
         /* --- Bottom-left: UI lang only --- */
         .map-controls {
@@ -1966,6 +1970,10 @@
                (tooltip shown on hover/focus); mobile users tap into the
                pills directly and the icon just adds clutter to the row. */
             #era-help { display: none !important; }
+            /* Same reasoning for the definition's "?" — and the panel it
+               opens is already hidden on phones (owner 2026-08-07). */
+            #word-def-toggle,
+            .top-left-controls #word-definition { display: none !important; }
         }
         .trivia-action {
             display: inline-flex; align-items: center; gap: 4px;
@@ -2365,18 +2373,21 @@
 
     <!-- Top-left controls (below header): word select + era + lang search -->
     <div class="top-left-controls">
+        <div class="word-select-row">
         <select id="word-select" aria-label="Select word" aria-describedby="word-definition"></select>
         <!-- Read-only word label shown in place of the <select> in
              simple-display (chrome-hidden) mode, so the reader still sees
              which word is mapped without the interactive pulldown (owner
              2026-07-12). Populated + kept in sync by updateWordSelectLabel(). -->
         <div id="word-select-label" aria-hidden="true"></div>
-        <!-- The definition is collapsed by default and opened from here. It
-             overlaid the map when always-on; see the CSS note above. The
-             button keeps its own state in localStorage, so a reader who wants
-             it open gets it open on every word and every visit. -->
-        <button type="button" id="word-def-toggle" aria-expanded="false"
-                aria-controls="word-definition">&#9432;</button>
+        <!-- The definition is collapsed by default and opened from here.
+             Styled and placed to match #era-help: a small "?" at the right
+             end of its own row. It overlaid the map when always-on; see the
+             CSS note above. State is kept in localStorage, so a reader who
+             wants it open gets it open on every word and every visit. -->
+        <span id="word-def-toggle" tabindex="0" role="button" aria-expanded="false"
+              aria-controls="word-definition" aria-label="" title="">?</span>
+        </div>
         <div id="word-definition" hidden></div>
         <!-- Era switch + filter button live in the same row so the
              filter FAB (created by lang-filter.js) doesn't claim its own
@@ -4070,10 +4081,19 @@
                     || (typeof WM_UI !== 'undefined' && WM_UI.en && WM_UI.en.concept) || 'Concept';
                 btn.title = t;
                 btn.setAttribute('aria-label', t);
-                btn.addEventListener('click', () => {
+                const toggle = () => {
                     defOpen = !defOpen;
                     try { localStorage.setItem(DEF_OPEN_KEY, defOpen ? '1' : '0'); } catch (e) { /* private mode */ }
                     syncWordDefToggle();
+                };
+                btn.addEventListener('click', toggle);
+                // It is a <span role="button"> to match #era-help's markup, so
+                // Enter and Space have to be wired by hand.
+                btn.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+                        e.preventDefault();
+                        toggle();
+                    }
                 });
             }
         }

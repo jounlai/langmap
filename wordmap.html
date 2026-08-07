@@ -386,6 +386,32 @@
         /* Phone rules live with #era-help's breakpoint (max-width: 640px)
            further down, so the "?" and the panel it opens vanish together. */
 
+        /* Historical era: give the basemap an old-map look.
+           A filter on the panes rather than a different tile provider —
+           Positron has no antique variant, and swapping providers mid-session
+           would reload every tile and lose the cache.
+           It is applied to the tile and overlay panes only. Putting it on the
+           map container would drag the language labels through the same sepia
+           and wash out exactly the text the page exists to show; labels live
+           in .leaflet-marker-pane, which is deliberately left alone.
+           The country-border layer sits in the overlay pane and warms with the
+           tiles, so borders stay visually attached to the land. */
+        body.era-historical .leaflet-tile-pane,
+        body.era-historical .leaflet-overlay-pane {
+            filter: sepia(0.72) saturate(0.72) contrast(0.94) brightness(1.03) hue-rotate(-6deg);
+        }
+        /* The map's own background shows through at the edges of the world and
+           while tiles load; without this it stays modern grey and the parchment
+           illusion breaks at exactly the moment the reader is panning. */
+        body.era-historical #map { background: #e8dcc0; }
+        /* Ease it in so flipping the era reads as a change of register rather
+           than a flash. Matches the marker re-layout, which is not animated but
+           completes within the same beat. */
+        .leaflet-tile-pane, .leaflet-overlay-pane { transition: filter 320ms ease; }
+        @media (prefers-reduced-motion: reduce) {
+            .leaflet-tile-pane, .leaflet-overlay-pane { transition: none; }
+        }
+
         /* --- Bottom-left: UI lang only --- */
         .map-controls {
             position: absolute; bottom: 24px; left: 12px; z-index: 1000;
@@ -4141,6 +4167,11 @@
         function setEra(historical) {
             showHistorical = historical;
             window.__langmap.historical = historical;
+            // Drives the parchment filter in CSS. Set here rather than in the
+            // click handlers so the hash-restore path (?hist=1 on load) gets it
+            // too — otherwise a shared historical link opens on a modern-looking
+            // map until the reader touches the switch.
+            document.body.classList.toggle('era-historical', historical);
             eraModern.classList.toggle('active', !historical);
             eraHistorical.classList.toggle('active', historical);
             eraModern.setAttribute('aria-checked', String(!historical));
@@ -5836,6 +5867,11 @@
                 eraHistorical.classList.toggle('active', showHistorical);
                 eraModern.setAttribute('aria-checked', String(!showHistorical));
                 eraHistorical.setAttribute('aria-checked', String(showHistorical));
+                // This path deliberately does NOT call setEra (it runs during
+                // boot, before markers exist), so the parchment class has to be
+                // set by hand here too — otherwise a shared ?hist=1 link opens
+                // on a modern-looking map until the reader touches the switch.
+                document.body.classList.toggle('era-historical', showHistorical);
             }
             const pin = params.get('pin');
             if ((pin === '0' || pin === '1') && btnPins) {

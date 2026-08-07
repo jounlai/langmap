@@ -2410,14 +2410,18 @@
                    role="combobox" aria-autocomplete="list" aria-expanded="false"
                    aria-controls="lang-search-results" aria-activedescendant=""
                    style="width:200px;padding:5px 9px;font-size:12px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#333">
-            <!-- Round like the Han Map's character die. aspect-ratio + stretch
-                 makes it a true circle at whatever height the search input
-                 renders at, instead of hard-coding a pixel size that would
-                 drift if the input's padding or font changed. The glyph is in
-                 its own span so the roll spins the die and not the frame. -->
+            <!-- Round like the Han Map's character die. The first attempt used
+                 aspect-ratio:1 + align-self:stretch to track the search input's
+                 height automatically; it came out an ELLIPSE, because a flex
+                 item still has flex-shrink:1 — the width was squeezed by the
+                 row while stretch held the height. A fixed square with
+                 flex:0 0 is the reliable circle. 28px matches the input, which
+                 renders ~26px (12px text + 5px padding + 1px border).
+                 The glyph is in its own span so the roll spins the die and not
+                 the frame. -->
             <button type="button" id="lang-random" title="Random language"
                     aria-label="Random language"
-                    style="padding:0;width:auto;aspect-ratio:1;align-self:stretch;font-size:14px;border:1px solid #d0d0d0;border-radius:50%;background:#fff;color:#555;cursor:pointer;line-height:1;display:inline-flex;align-items:center;justify-content:center"><span class="die-face" style="display:inline-block;line-height:1">🎲</span></button>
+                    style="padding:0;width:28px;height:28px;flex:0 0 28px;align-self:center;font-size:14px;border:1px solid #d0d0d0;border-radius:50%;background:#fff;color:#555;cursor:pointer;line-height:1;display:inline-flex;align-items:center;justify-content:center"><span class="die-face" style="display:inline-block;line-height:1">🎲</span></button>
             <div id="lang-search-results" role="listbox" style="display:none;position:absolute;top:100%;left:0;right:0;margin-top:2px;background:#fff;border:1px solid #d0d0d0;border-radius:4px;box-shadow:0 2px 10px rgba(0,0,0,0.15);max-height:280px;overflow-y:auto;z-index:1100;font-size:12px"></div>
         </div>
     </div>

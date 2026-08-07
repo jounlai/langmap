@@ -1232,7 +1232,7 @@ function seo_data(string $which): array
  * Oklahoma)" in English next to Japanese chip labels (reader report,
  * 2026-08-06). tools/export_seo_data.js now runs the same translator and
  * writes data/meta_i18n_seo.json — a table keyed by the English string, since
- * these values repeat heavily across the 1,131 rows.
+ * these values repeat heavily across the 1,151 rows.
  *
  * Anything with no translation falls back to English, which is what the page
  * did for every value before.

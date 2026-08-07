@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1131 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1151 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -5088,6 +5088,31 @@ const LANG_DATA = {
 },
   zh_nj: { name: 'Nanjing Mandarin', native: '南京话', lat: 32.06, lng: 118.8,
 },
+
+  // === Phase 4/5 additions (review 2026-08-07) ==========================
+  // 20 languages authored with an explicit "leave it blank rather than
+  // guess" rule, so several carry 22-27 of the 31 concepts. The gaps are
+  // the honest state of the documentation, not work left undone.
+  bew: { name: "Betawi", native: "Basa Betawi", lat: -6.18, lng: 106.83 }, // central Jakarta (Monas), the historic core of the Betawi speech area, which today extends across Greater Jakarta into Depok, Bekasi and Tangerang
+  ltg: { name: "Latgalian", native: "Latgalīšu volūda", lat: 56.51, lng: 27.33 }, // Rēzekne, the main town and cultural centre of Latgale in south-eastern Latvia
+  djr: { name: "Djambarrpuyngu", native: "Djambarrpuyŋu", lat: -12.02, lng: 135.57 }, // Galiwin'ku on Elcho Island, the largest Djambarrpuyŋu-speaking community in north-east Arnhem Land
+  ie: { name: "Interlingue", native: "Interlingue", lat: 59.3, lng: 24.6 }, // near Tallinn — Edgar de Wahl published Occidental there in 1922; offset so the pin does not sit on Estonian
+  io: { name: "Ido", native: "Ido", lat: 48.7, lng: 2.2 }, // near Paris — the 1907 Delegation for the Adoption of an International Auxiliary Language met there; offset so the pin does not sit on French
+  vls: { name: "West Flemish", native: "West-Vlams", lat: 51.21, lng: 3.22 }, // Bruges (Brugge), capital of the Belgian province of West Flanders and the main town of the core speech area
+  fkv: { name: "Kven Finnish", native: "kväänin kieli", lat: 70.32, lng: 25.55 }, // Børselv (Kven: Pyssyjoki), Porsanger in Troms og Finnmark, seat of the Kven Institute (Kainun institutti) and the centre of Kven language standardisation
+  fit: { name: "Meänkieli", native: "meänkieli", lat: 67.21, lng: 23.37 }, // Pajala, one of the five Meänkieli administrative-area municipalities and the cultural centre of the Torne Valley
+  hif: { name: "Fiji Hindi", native: "Fiji Baat", lat: -17.61, lng: 177.45 }, // Lautoka, Fiji's "Sugar City" on western Viti Levu and the largest town of the Indo-Fijian cane belt
+  zgh: { name: "Standard Moroccan Tamazight", native: "ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴰⵏⴰⵡⴰⵢⵜ", lat: 34.02, lng: -6.84 }, // Rabat, seat of IRCAM (Institut Royal de la Culture Amazighe), the body that built and maintains the standard
+  aln: { name: "Gheg Albanian", native: "gegnisht", lat: 42.67, lng: 21.17 }, // Prishtina, the largest Gheg-speaking city and the reference point IE-CoR uses for northeastern Gheg
+  rmt: { name: "Domari", native: "Dōmʋārī", lat: 31.7767, lng: 35.2345 }, // the Old City of Jerusalem, home of the Dom community whose dialect is the only fully described variety of the language
+  fia: { name: "Nobiin", native: "Nòbíín", lat: 21.8, lng: 31.34 }, // Wadi Halfa on the Sudanese Nile, the main town of the Nobiin-speaking stretch of the river between Aswan and the Kerma basin
+  fvr: { name: "Fur", native: "Foor'íŋ belé", lat: 12.95, lng: 24.27 }, // the Jebel Marra massif in central Darfur, the historic Fur heartland
+  fud: { name: "East Futunan", native: "Fakafutuna", lat: -14.2967, lng: -178.1583 }, // Leava, the port and administrative village of Sigave district on Futuna island, Wallis and Futuna
+  tca: { name: "Ticuna", native: "Duüxügu", lat: -4.2153, lng: -69.9406 }, // the Tabatinga–Leticia conurbation on the Brazil–Colombia–Peru tri-border, the main urban centre of a Ticuna area stretching some 1,000 km along the Solimões/Amazon
+  wrh: { name: "Wiradjuri", native: "Wiradjuri", lat: -33.0864, lng: 147.1481 }, // Condobolin on the Kalari (Lachlan) River, seat of the Wiradjuri Study Centre and near the centre of Wiradjuri country in central New South Wales
+  lun: { name: "Lunda", native: "Chilunda", lat: -11.7386, lng: 24.4272 }, // Mwinilunga, the district town at the centre of the Lunda-speaking area in Zambia's North-Western Province
+  tsj: { name: "Tshangla", native: "Tshangla", lat: 27.3333, lng: 91.55 }, // Trashigang, the main town of eastern Bhutan and home of the prestige Trashigang dialect
+  lep: { name: "Lepcha", native: "ᰛᰩᰵᰛᰧᰵᰶ", lat: 27.06, lng: 88.47 }, // Kalimpong, West Bengal — the main town of the Támsángmú Lepcha community; the other centre is the Dzongu Lepcha reserve in North Sikkim, about 60 km north
 
 };
 

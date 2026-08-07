@@ -268,5 +268,8 @@ WORDS.atsign = {
     osp: ["arroba", "aˈroba"],
     // === Constructed ===
     eo: ["heliko", "heˈliko"],
+    io: ["arobo", "aˈrobo"],
+    fit: ["häntä-aa", "ˈhæntæˌɑː"],
+    aln: ["et", "ɛt"],
   },
 };

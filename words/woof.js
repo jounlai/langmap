@@ -126,5 +126,6 @@ WORDS.woof = {
     "yue": ["汪汪", "wɔːŋ˥ wɔːŋ˥"],
     "zh": ["汪汪", "waŋ˥ waŋ˥"],
     "zh_tw": ["汪汪", "waŋ˥ waŋ˥"],
+    aln: ["ham ham", "ham ham"],
   },
 };

@@ -403,5 +403,10 @@ WORDS.sushi = {
     "or": ["ସୁଶି", "su.si"],
     "vi_s": ["sushi", "ʂu˧ ʂi˧"],
     "wuu_jx": ["寿司", "ze˩˩˧sz̩˥˧"],
+    bew: ["sushi", "ˈsuʃi"],
+    io: ["sushio", "suˈʃio"],
+    fit: ["susji", "ˈsuʃi"],
+    zgh: ["ⵙⵓⵛⵉ", "suʃi"],
+    aln: ["sushi", "ˈsuʃi"],
   },
 };

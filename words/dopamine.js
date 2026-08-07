@@ -168,5 +168,7 @@ WORDS.dopamine = {
     "vi": ["dopamine", "ɗo˧ paː˧ min˧"],
     "wuu": ["多巴胺", "ta˥pa˧ø˧"],
     "zu": ["i-dopamine", "idɔˈpʰamin"],
+    io: ["dopamino", "dopaˈmino"],
+    aln: ["dopaminë", "dopaˈmin"],
   },
 };

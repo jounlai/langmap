@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangMap - Changelog 2026-07</title>
+    <meta name="description" content="LangMap changelog for 2026-07.">
+    <!-- Internal documentation page — kept out of search-engine indexes
+         (canonical content lives on index.html / wordmap.html / tree.html). -->
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://langmap.heuron.com/changelog-202607.html">
+    <link rel="icon" type="image/png" href="/langmap.png">
+    <link rel="apple-touch-icon" href="/langmap.png">
+    <meta name="google-site-verification" content="bv4ffQGbDc_Grf1Ioc8NCotrXWc2mY34wEmL-5yHJyM" />
+    <script>
+        // Production-only GA firing: hostname-gated so dev/local/staging
+        // traffic doesn't pollute the analytics property.
+        if (location.hostname === 'langmap.heuron.com') {
+            const s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JZ7JJBCCHG');
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=125">
+    <link rel="stylesheet" href="styles.css?v=125">
+    <style>
+        .changelog {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 24px 20px 60px;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .changelog h1 {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+        .changelog .lead {
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .changelog .entry {
+            border-left: 3px solid #e0e0e0;
+            padding: 4px 0 4px 16px;
+            margin-bottom: 20px;
+        }
+        .changelog .entry .date {
+            font-weight: 600;
+            color: #333;
+        }
+        .changelog .entry ul {
+            margin: 6px 0 0;
+            padding-left: 20px;
+        }
+        .changelog .entry li {
+            margin-bottom: 4px;
+        }
+        .changelog .contributor {
+            color: #666;
+            font-size: 12px;
+        }
+        .changelog .back {
+            display: inline-block;
+            margin-bottom: 16px;
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .changelog .back:hover { text-decoration: underline; }
+        .changelog .milestones {
+            background: #f6f8fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 12px 16px;
+            margin: 0 0 28px;
+            font-size: 13px;
+        }
+        .changelog .milestones h2 {
+            font-size: 14px;
+            margin: 0 0 8px;
+            color: #333;
+        }
+        .changelog .milestones ul {
+            margin: 0;
+            padding-left: 18px;
+            list-style: none;
+        }
+        .changelog .milestones li {
+            margin-bottom: 2px;
+            color: #555;
+        }
+        .changelog .milestones .count {
+            display: inline-block;
+            min-width: 56px;
+            font-weight: 600;
+            color: #0366d6;
+        }
+        .changelog .milestones .when {
+            color: #999;
+            font-size: 12px;
+            margin-left: 4px;
+        }
+        .changelog .month-nav {
+            margin: 0 0 24px;
+            font-size: 13px;
+            color: #555;
+        }
+        .changelog .month-nav a { color: #0366d6; text-decoration: none; }
+        .changelog .month-nav a:hover { text-decoration: underline; }
+        .changelog .month-nav strong { color: #333; }
+    </style>
+</head>
+<body>
+    <div class="changelog">
+        <a href="index.html" class="back">&larr; Back to LangMap</a>
+        <h1>Changelog</h1>
+        <p class="lead">A running log of fixes, additions, and improvements to LangMap.</p>
+
+        <nav class="month-nav">Months: <a href="changelog.html">2026-08</a> · <strong>2026-07</strong> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-07-30 — Strict audit of every language’s facts and figures</div>
+            <ul>
+                <li>A second big review turned from the words to the <strong>language entries themselves</strong> — homeland, family, speaker numbers, coordinates, endangerment status, ISO codes and writing systems — with each finding checked adversarially before it was applied. It uncovered two systematic bugs and fixed them at the source. First, any speaker figure written as a range (e.g. “4–5M”) was being misread as its first digits, so dozens of perfectly healthy languages — Bambara, Bukusu, Piedmontese and others — were wrongly flagged as critically endangered; they now read correctly. Second, several <em>living</em> but under-documented languages (Itelmen, Tundra Yukaghir, Yaghnobi and more) had been labelled “extinct” simply because their word data is fragmentary; they are now shown with their true endangerment level.</li>
+                <li>Many individual facts were corrected too: second countries added where a language is spoken across a border (Ngäbere in Costa Rica, Achuar in Peru, Makonde in Mozambique, Megleno-Romanian in North Macedonia, and more), a number of family reclassifications (Northern Luri as South-western Iranian, Mam as Mamean, Kabyle outside Zenati…), coordinates moved to the right place (Hittite to Hattusa, Crow to its Montana reservation, the Classic-Maya point to Tikal), and several mislabelled ISO codes fixed. Hijazi Arabic — whose description was right but whose location, country and speaker count still said “Oman” — was set straight across the board. Endangerment status was also aligned with UNESCO for languages like Māori, Navajo, Walloon and Moksha.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-30 — Full data sweep: every language, every word</div>
+            <ul>
+                <li>A large multi-pass review swept all 1,138 languages and every one of the 30 words, cross-checking each cell and confirming fixes adversarially. The data held up very well; a handful of genuine slips were corrected — a Bengali species name swapped for the everyday word for “cuckoo”, Pali/Prakrit “good” (which had the word for “beautiful”), Ladino “perro”, a Romani entry that read “big cat”, some Bakhtiari and Old-Spanish words, and a set of retroflex-r and Greek breathing-mark transcription fixes. Eastern Arrernte “father” and “mother” were corrected to <em>akngeye</em> and <em>meye</em>. A few uncertain cases in low-resource and fragmentary languages were left flagged rather than guessed at.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-30 — Strict scholarly review of the reconstructed proto-languages</div>
+            <ul>
+                <li>A very strict audit went back over the 21 reconstructed proto-languages and corrected their entries against mainstream comparative-linguistics scholarship. Every proto had a reconstructed word (usually 'water') sitting in the wrong field where its name should be — now fixed. Several homelands and map pins were nudged to the accepted position (Proto-Bantu to the Cameroon Grassfields; Proto-Kra-Dai onto the coast it describes), and several reconstruction dates were corrected or widened to reflect that they are genuinely contested — most notably Proto-Hmong-Mien, whose date had been read as 2500 BCE when the literature places it around 2,500 years <em>ago</em> (roughly 500 BCE). The write-ups were also fixed in all 19 interface languages: e.g. the “schwa indogermanicum” is no longer misattributed to Schleicher, Proto-Ryukyuan now lists the Amami branch, and the disputed Japonic-Koreanic macro-family is presented as the contested hypothesis it is.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-30 — “My languages”: plot what you speak and share it</div>
+            <ul>
+                <li>A new <strong>My languages</strong> entry in the Word Map's <em>Play</em> menu lets you pick the languages you speak — each with a CEFR level from A1 to C2 (or Native) — and see, live, how many people they reach worldwide, across how many countries and language families. Your picks can be lit up on the map, and a one-tap <strong>Create image</strong> builds a shareable card: a world map with your languages glowing on it, your total reach and its share of the world's population, and your language list. The reach figure is a cumulative total of each language's speakers (second-language speakers included), so it is an upper bound where big lingua-francas overlap.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-30 — Review pass on five recently-added words</div>
+            <ul>
+                <li>An adversarial review checked the five most-recently-added core words — <strong>star, I, you, name</strong> and <strong>two</strong> — across all 1,138 languages, and corrected eleven entries. Two Swiss Standard German cells had slipped into the Alemannic dialect spelling (<em>zwöi → zwei</em>, <em>Stärn → Stern</em>); Squamish, Nuxalk, Guugu Yimithirr and Huli each had a neighbouring word standing in for the target (Squamish 'two' is <em>án̓us</em>, not the word for 'three'); Tundra and Kolyma Yukaghir had their word for 'two' swapped; and a few pronunciations were tidied (Swahili stress, Thulung 'two' <em>नि</em>). Every fix was verified against the descriptive literature before being applied.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-26 — Reconstructed proto-languages on the historical map</div>
+            <ul>
+                <li>The historical map now carries the reconstructed common ancestors of the world's major language families. Proto-Indo-European was already there; it is now joined by seventeen more — <strong>Proto-Austronesian, ‑Semitic, ‑Uralic, ‑Dravidian, ‑Bantu, ‑Sino-Tibetan, ‑Afroasiatic, ‑Kartvelian, ‑Mayan, ‑Uto-Aztecan, ‑Austroasiatic, ‑Kra-Dai, ‑Hmong-Mien, ‑Turkic, ‑Mongolic, ‑Tungusic, ‑Japonic and ‑Koreanic</strong> (the last two are the single-family ancestors of Japanese and Korean, kept separate from the disputed Proto-Japonic-Koreanic macro; Proto-Ryukyuan was already present). That brings the reconstructed proto-languages to twenty-one, and the Word Map to 1,138 languages and varieties in all. Each shows its reconstructed core-vocabulary forms (marked with a <code>*</code>), a hypothesised homeland and date, and a write-up in every interface language; words that cannot be securely reconstructed are left blank rather than invented, so the sparser, more contested families (e.g. Hmong-Mien) show fewer forms than the well-studied ones (Turkic, Mongolic, Kartvelian, Bantu, Mayan).</li>
+                <li>An adversarial review then re-checked every reconstruction against the family-by-family comparative literature and corrected five forms where a daughter-branch reflex had crept in for the true proto — Proto-Turkic 'eye' is <em>*köz</em> (not the Oghuz <em>*göz</em>), Proto-Mayan 'name' is <em>*bʼih</em> (not the Lowland <em>*kʼaabʼaʔ</em>) and 'drink' <em>*ʔukʼ</em>, Proto-Bantu 'two' <em>*-bɪ̀dɪ̀</em>, and Proto-Kartvelian 'eye' <em>*tʼwal-</em>.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-26 — Filter the historical map by time period</div>
+            <ul>
+                <li>In historical mode, the filter panel gains a single dual-handle time slider running from deep prehistory to the 21st century. Drag the two ends — or grab the coloured bar in the middle to slide the whole window — to show only the languages that existed within that span, so you can see which written and reconstructed languages coexisted around, say, the 15th century BCE. The proto-languages, which carry no living speakers, are also given priority when historical labels are decluttered, so they surface instead of being crowded out.</li>
+                <li>The chosen period now travels in the page URL, so a time-filtered view survives a reload and can be shared. Separately, the <em>Proto-language</em> option in the family filter was corrected to list exactly the reconstructed protos — it no longer sweeps in attested ancient languages such as Vedic Sanskrit or Old Chinese.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-26 — Family names, localized in more languages</div>
+            <ul>
+                <li>The family tree and the family filter were still showing many branch names in English even when the interface was set to another language. Individual language names were already fully localized; now the most visible family and sub-branch labels — Ryukyuan, Tibetic, Qiangic, Cariban, Otomanguean, Indo-Iranian, Finno-Ugric and dozens more — read in Korean and the other interface languages too. The family tree also now loads the same shared translation layer the map already used (so e.g. Germanic and Romance are no longer left in English there), and its data caches were refreshed so it picks up the new proto-languages.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-21 — Much shorter share links</div>
+            <ul>
+                <li>The link in the address bar used to spell out every setting even when it was at its default — <code>#w=water&amp;z=5&amp;lat=25.00&amp;lng=20.00&amp;nat=0&amp;hist=0&amp;pin=0&amp;fs=140&amp;ui=en&amp;g3d=0</code>. Now it only carries what you've actually changed, so a plain share collapses to just <code>#w=water</code>. Move the map, flip a toggle or open a language and those pieces come back — nothing is lost, and every old long link still opens exactly as before. Applies to both the Word Map and the Han Map.</li>
+                <li>When the map has been moved, the three location pieces are now packed into one — <code>p=35.68,139.69,6</code> (latitude, longitude, zoom) instead of <code>z=6&amp;lat=35.68&amp;lng=139.69</code> — trimming the link a little further.</li>
+                <li>Fixed along the way: a shared link carrying a language filter could drop the filter the instant it opened (the <code>:</code> in <code>f=family:Romance</code> came back percent-encoded as <code>%3A</code> and wasn't recognised, so the map rewrote the link without it). Filters in shared links now restore reliably, and the filter piece is written in its shorter, un-encoded form.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-21 — Consistent stress marks across the English accents</div>
+            <ul>
+                <li>The primary-stress mark (ˈ) had been applied unevenly: "father" showed as ˈfɑːðə in standard and American English but as plain fɑːðə in the Yorkshire, Scottish, Welsh, Cockney, Australian and other entries. Every multi-syllable single word across the English varieties now carries its stress mark (ˈfɑːðə, ˈwɔːtə, ˈmʌðə, həˈləʊ), so the same word reads the same way from one accent to the next. Single-syllable words (cat, sun) correctly carry none. This pass covered the English varieties; the same tidy-up for other languages can follow.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-23 — Metadata that reads naturally in every language</div>
+            <ul>
+                <li>In the language detail panel, the <em>Countries</em>, <em>Official</em>, <em>Script</em> and <em>Family</em> rows were being translated word-by-word, which left ugly half-English seams in non-English interfaces — Japanese showed "アルジェリア（Kabylie）; ディアスポラ in フランス" for Kabyle. Those four fields now read as proper sentences: "アルジェリア（カビリー）／フランスに離散コミュニティ", "アルジェリア（タマジクト語は2002年以降国語、2016年以降公用語）". Around 630 of the most tangled country/official phrases were fully translated into all 18 interface languages, and a batch of family, branch and script terms (including ones that were simply missing, like Cyrillic) were added.</li>
+                <li>Language-family wording is now consistent too: a family, a branch and a looser grouping each get their own standard suffix in each language (Japanese 語族 / 語派 / 諸語, and the equivalents elsewhere) — so "Niger-Congo (Mande, …, Vai-Kono)" reads "ニジェール・コンゴ語族（マンデ語派、…、ヴァイ・コノ語群）" instead of a mix.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-23 — Broken and missing description translations, repaired</div>
+            <ul>
+                <li>A second, structural sweep of the language write-ups (separate from the factual one) caught a different family of defects: <strong>165 entries</strong> were repaired across all nineteen languages. Over a hundred had an English source that literally stopped mid-word — sometimes with an internal "[Provisional…]" work-note that had leaked into the live text and every translation. Seven had no translations at all (the six new British accents and Eastern Cham). The English was rebuilt from authoritative sources where broken, then every language was re-synced to it, so the required languages are now complete for all 1,120 entries. A new automated check (missing / untranslated / English-left-in / cut-off source) guards against regressions on every build.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-23 — A sweep for descriptions that were confidently wrong</div>
+            <ul>
+                <li>The Vai fix turned out not to be a one-off, so every language description was audited for the same failure — an absolute claim ("the only", "the oldest", "the largest", "the first") that isn't actually true. Of the 1,120 descriptions, 387 make such a claim; most are correct, but <strong>67 were not</strong> and have been rewritten in English and every translation. A sample: Kannada does <em>not</em> have the most Jnanpith Awards of any Indian language (Hindi does); Silesian was <em>not</em> recognised as a regional language of Poland (the bill was vetoed); Chile's "Real Academia de la Lengua Chilena" doesn't exist (it's the Academia Chilena de la Lengua); Hawaiian is grammatically accusative, not ergative; Sequoyah's Cherokee was not the <em>first</em> indigenous American script (the Maya had one two millennia earlier); Finnish and Swedish are co-equal national languages of Finland, not a language and its "secondary"; and Tongan's war dance is not the (Māori) haka. Each correction was researched, then carried through all nineteen-plus translations so no language keeps the old error.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-23 — Vai: a description that was confidently wrong</div>
+            <ul>
+                <li>The write-up for <strong>Vai</strong> (the Liberian language with its own remarkable syllabary) called the script "the only" indigenous African writing system invented before colonisation and still in use, and "the oldest" — both untrue. Geʽez and Tifinagh are far older and still very much in use, and Liberia was a settlement of freed African Americans rather than a European colony, so "pre-colonial" was the wrong frame. The corrected version places Vai as one of the earliest and most successful of the roughly two dozen indigenous West African scripts of the 1800s–1900s, notes the scholarly view that exposure to Latin, Arabic and perhaps Cherokee sparked the idea of writing (the signs themselves being largely original), and fixes a "Mande-Mande" typo to Mande–Atlantic. All nineteen translations were rewritten from scratch as natural prose — the Japanese, especially, had read like a machine.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-21 — British English, subdivided into six more accents</div>
+            <ul>
+                <li>Alongside the Cockney, Yorkshire, Scottish and Welsh entries already on the map, six of Britain's most distinctive regional accents join it: <strong>Scouse</strong> (Liverpool), <strong>Geordie</strong> (Newcastle), <strong>Brummie</strong> (Birmingham), <strong>Mancunian</strong> (Manchester), <strong>West Country</strong> (Bristol and the South West) and <strong>Estuary</strong> (the South East). The base "English" entry already carries Received Pronunciation, so RP is not duplicated.</li>
+                <li>The spelling usually stays standard; what changes is the sound. Each of the 150 transcriptions was written by an accent specialist and independently checked for the features that actually define these accents: the northern ones (Scouse, Geordie, Brummie, Mancunian) have no FOOT–STRUT split, so "love" and "sun" rhyme with "put"; Scouse softens its consonants ("back" toward [bax]); Geordie says "house" almost as "hoose"; the West Country is rhotic (the /r/ in "farmer" is sounded) and even keeps a trace of the old "Zummerzet" voicing in "father" [ˈvɑːðɚ]; Estuary swallows its t's ("water" → [ˈwɔːʔə]). Where an accent simply uses a different word — Scouse, Brummie and Mancunian all prefer "ta" for "thanks" — that word is shown instead.</li>
+                <li>Also fixed: <strong>Welsh English</strong> "thanks" carried a leftover /juː/ in its transcription (the tail of "thank you") that didn't match the word shown; it now reads /θaŋks/.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-21 — The Amazigh languages, now in Tifinagh</div>
+            <ul>
+                <li>Four Berber (Amazigh) languages were written in the Latin alphabet even though their entries advertised Tifinagh — the angular, ancient-looking Libyco-Berber script. They now appear in it: <strong>Central Atlas Tamazight</strong>, <strong>Tashelhit</strong> and <strong>Tarifit</strong> in Neo-Tifinagh (the standard IRCAM form official in Morocco), and <strong>Tuareg</strong> (Tamasheq) in the traditional Saharan Tifinagh — ⴰⵎⴰⵏ "water", ⵜⴰⴼⵓⴽⵜ "sun", ⴰⵣⵓⵍ "hello". <strong>Kabyle</strong> deliberately stays in Latin: that is genuinely how Kabyle is written day to day in Algeria, and pretending otherwise would be less accurate, not more.</li>
+                <li>Every spelling was transliterated from the word's own pronunciation and then checked letter-by-letter against the Unicode Tifinagh chart — following the real orthographic rules (the neutral vowel goes unwritten, long consonants are doubled), not a naive letter swap. Tifinagh ships as a small self-hosted webfont so it renders everywhere.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-21 — Two Cham languages, each in its own script</div>
+            <ul>
+                <li>Cham was a single entry written in the Latin alphabet. It is really two languages that split when the kingdom of Champa fell, and each kept a different script. The map now shows both. <strong>Western Cham</strong> (the Muslim communities of Cambodia and An Giang) is written in <strong>Jawi</strong>, the Arabic-based orthography they use — ايا, سلام, تريما كاسيه. <strong>Eastern Cham</strong>, a new entry for the ~100,000 speakers of Ninh Thuận and Bình Thuận in Vietnam, is written in the ancestral <strong>Cham script</strong> (Akhar Thrah, a Brahmic script descended from the Pallava letters of southern India): ꨀꨳꨩ, ꨦꨤꩌ, ꨟꨢꨥ.</li>
+                <li>Every one of the 25 core words was researched from a scholarly Eastern-Cham dictionary and then independently checked letter-by-letter against the Unicode Cham chart — two words even resolved to spellings attested on Wiktionary. The two languages genuinely differ in vocabulary, not just script: Eastern Cham "star" is <em>bituk</em>, not Western <em>patìk</em>; "thank you" is the native <em>ndua phuel</em>, not the Malay loan the western dialect borrowed. The Cham script is delivered as a tiny self-hosted webfont so it renders the same everywhere.</li>
+                <li>Full descriptions for Eastern Cham are written in English, Japanese, Korean and Chinese, and both names are translated into all nineteen interface languages.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-21 — Dead languages no longer sit among the living</div>
+            <ul>
+                <li><strong>Mochica</strong> (Yunga), the language of Peru's north coast that died out in the early 20th century, was appearing on the <em>modern</em> map even though it has no speakers left and carries a historical period. It — and three others in the same situation (<strong>Yugh</strong>, <strong>Babuza</strong>, <strong>Kulon-Pazeh</strong>) — now live on the historical map where they belong. Languages that are merely endangered but still spoken (Manchu, Ubykh) stay put.</li>
+                <li>To make sure this doesn't drift back, the rule is now enforced automatically: any language with zero living speakers <em>and</em> a recorded period must be classified as historical, checked on every build.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-21 — Gondi settles on one script</div>
+            <ul>
+                <li>Gondi cells had been showing two scripts side by side (Devanagari / Telugu), and five words only one — inconsistent, and against the one-word-per-cell rule everywhere else. All 25 now use <strong>Devanagari</strong>, the script of the larger Gondi-speaking regions (Madhya Pradesh, Chhattisgarh, Maharashtra).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-21 — Southern Vietnamese: the retroflex "s"</div>
+            <ul>
+                <li>In the southern dialect the letter <em>s</em> is pronounced with the tongue curled back — /ʂ/ — and kept distinct from <em>x</em> (/s/), unlike the north where the two merge. The word "star" (<em>sao</em>) was still showing the northern /s/; it now reads /ʂaːw/, matching how the rest of the southern column already treats the sound.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-19 — Historical languages now say <em>when</em> they were spoken</div>
+            <ul>
+                <li>In the historical era view every language label carries a second line: the century span it was actually a living, spoken language — Latin <em>7cBCE–6cCE</em>, Sumerian <em>31–21cBCE</em>, Old English <em>5–12c</em>, Gothic <em>3–8c</em>, Old Khmer <em>7–15c</em>. It reads in red under the language name.</li>
+                <li>This needed a field the atlas simply didn't have. The dates were buried in prose inside the speaker-count text, and only about half the historical languages had one there at all — the most famous ones (Latin, Ancient Greek, Sumerian, Akkadian, Gothic, Old Norse, Hittite, Coptic, Pali) said nothing but "Extinct". So all <strong>108</strong> spans were researched from scratch and checked by an independent reviewer, in two passes: the second caught that Southeast Asia and the Austronesian world had fallen through a gap in the first, leaving Old Khmer, Old Mon, Old Burmese, Pyu, Old Cham, Chữ Nôm, Old Javanese, Old Malay, Old Tagalog and others blank.</li>
+                <li>Each span is the language's <em>living</em> period, not its afterlife as a scholarly or liturgical language — Latin's line ends in the 6th century, not with the Vatican — and for a historical stage (Old English, Middle Korean) it is that stage's own span. Everything is written one way: centuries, an en dash, BCE only where needed, averaging under seven characters so it fits under the name.</li>
+                <li>The historical view now shows <strong>only</strong> historical languages. It used to also plot each one's modern descendant as a red reference label, which crowded the map.</li>
+                <li>Also fixed: <strong>Old Mon</strong> was labelled "Middle Mongolian" in English — a different language on a different continent — while its family, its countries and all nineteen other translations correctly said Old Mon. (The real Middle Mongolian is a separate entry and was untouched.)</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-19 — Word Map: a 30th word, <strong>dopamine</strong></div>
+            <ul>
+                <li>A modern scientific word joins the map. Dopamine was only isolated in 1957, so unlike sushi or computer it has no ancient analogue at all — the historical languages are simply left blank rather than given a stand-in. Nearly every living language borrowed the international term and bent it to its own sounds and script: ドーパミン, 도파민, дофамин, دوبامين, ντοπαμίνη, डोपामाइन. Chinese is the interesting exception, writing it 多巴胺 — a sound-and-sense rendering where 多巴 carries "dopa" and 胺 means "amine".</li>
+                <li>Three review rounds took it from an initial 35 languages to <strong>107</strong>, adding among others the Caucasus and Central Asia (Georgian დოფამინი, Armenian Դոֆամին, Kazakh Дофамин), the Indic and Dravidian scripts (ડોપામાઇન, டோபமைன், ഡോപാമിൻ), Tibetan ཌོ་པ་མིན, Burmese ဒိုပါမင်း, Lao ໂດປາມີນ, Thai โดพามีน and a long tail of smaller European languages (Icelandic <em>dópamín</em>, Irish <em>dopaimín</em>, Welsh, Breton, Sorbian…).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-19 — The experimental words now sit together at the end</div>
+            <ul>
+                <li>Five of the thirty words are <strong>partial</strong> (marked 🧪): they are filled only where a real, sourced form exists, rather than for every language. Those five — cuckoo, woof, computer, sushi, dopamine — used to be scattered through the list; they are now grouped at the bottom, below a divider line, after the twenty-five words that cover every language.</li>
+                <li>The dice button no longer lands on a language that has no entry for the word you're looking at.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-18 — Word Map: <strong>sushi</strong> and <strong>computer</strong> reach 57 more languages</div>
+            <ul>
+                <li>Three fresh review rounds (each finding checked by an independent sceptic) went looking for languages the two words were still missing, and for mistakes in the ones already there. The result adds real, sourced forms for 57 more: the Arabic varieties (Jordanian, Palestinian, Gulf, Omani…) say سوشي / كمبيوتر; the Cyrillic-writing Caucasus and Turkic languages (Avar, Chechen, Lezgian, Tabasaran, Lak, Abkhaz) say суши / компьютер; Japanese now distinguishes Osaka, Kyoto, Hakata and Kagoshima by how each really pronounces the /u/; and computer picks up Lao ຄອມພິວເຕີ, Zhuang <em>dennauj</em>, Dzongkha <em>གློག་རིག</em>, Chamorro <em>kompiuta</em>, Assyrian Neo-Aramaic ܚܲܫܘܼܒ݂ܵܐ and a dozen smaller European languages (Bavarian <em>Rechna</em>, Breton, Scots, Sorbian, Mirandese, Võro…). Two existing pronunciations were corrected (Bengali, Samoan).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-18 — Two languages that were quietly wrong: Western Yugur and the Chữ Nôm words</div>
+            <ul>
+                <li><strong>Western Yugur</strong> — a Turkic language of Buddhist herders in Gansu — was showing Uyghur words written in the Uyghur Arabic script. That is the wrong language <em>and</em> the wrong alphabet (Western Yugur is unwritten; scholars romanise it), and the greetings were even Islamic loanwords its speakers don't use. Checked against the standard grammar and the ASJP and Starostin databases, its 24 words are now the genuine Western Yugur forms in Latin: sun <em>kün</em> (not Uyghur <em>quyash</em>), eye <em>kez</em>, two <em>šigɨ</em>, house <em>jü</em>, and so on.</li>
+                <li><strong>Chữ Nôm</strong> — the old Vietnamese character script — now carries tones on every word, like the rest of the Vietnamese data, and eight characters that actually spelled a different word were fixed (the one for "dog" had been the character for "rat"). Sushi's historical Akkadian and Old Javanese cells moved into their real scripts — cuneiform 𒅆𒅅𒄣 and Javanese ꦝꦺꦁ — instead of a romanised gloss.</li>
+                <li><strong>Rare scripts now display instead of boxes.</strong> Javanese, Baybayin (Tagalog), Brahmi, New Tai Lue and Tai Viet were named in the font list but no device actually ships those fonts, so they rendered as tofu (□□□). They are now self-hosted as tiny embedded subsets, so ꦄꦏꦸ, ᜊᜓᜇᜓ and the rest show properly.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-18 — Speaker numbers now read naturally in Japanese, Chinese and Korean</div>
+            <ul>
+                <li>About 200 languages still carried their speaker count as English-style text (<em>~20M</em>, <em>~85–100K</em>), which looked out of place in a Japanese or Chinese interface. Those figures now localise the way the rest already did — <em>2,000万</em>, <em>8.5万〜10万</em>, <em>3,600〜5,000</em> — while English keeps the compact <em>K/M</em>. Along the way every malformed range was tidied to one house style (Amdo Tibetan's <em>800K-1.8M</em> → <em>0.8–1.8M</em>, and 30-odd others), and a checker now guards the format so they stay consistent.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-18 — Mobile and modal polish</div>
+            <ul>
+                <li>The language pop-up now uses the full width of the panel with its columns lined up, and its text is the same comfortable size on phones as on desktop (the Han Map's pop-up was brought into line too).</li>
+                <li>Pinch-zoom on a phone now moves in half-steps instead of whole ones, so zooming in no longer overshoots the place you wanted, and zooming out no longer loses it.</li>
+                <li>Opening a language card now sits <em>above</em> the compare button and the dialect-colour key instead of behind them, and closing a card (or the comparison) now updates the address bar, so a reload no longer brings the closed pop-up back.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-17 — Chinese topolects and Modern Spoken Sanskrit: two classification fixes</div>
+            <ul>
+                <li>For sushi and computer, the mainland Chinese topolects (Wu, Jin, Gan, Xiang, mainland Hakka, the Min cities, Teochew, Nanning/Taishan) were written in traditional characters; the atlas actually writes those in simplified, reserving traditional for standard Cantonese, Taiwan Hokkien/Hakka and the historical stages. 25 cells were realigned (壽司/電腦 → 寿司/电脑 where the corpus expects it).</li>
+                <li><strong>Modern Spoken Sanskrit</strong> — the living conversational revival — had been grouped with the ancient languages and only appeared in the historical view. It is now shown as the modern language it is; Classical Sanskrit stays historical.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-17 — Word Map filter: language-family names now localise</div>
+            <ul>
+                <li>In a non-English interface the Word Map's filter showed the language-family chips (Indo-European, Sino-Tibetan, …) in English while everything around them was translated. The translator for family names rides along with the map's metadata, which the Word Map loads lazily — so when the filter opened first, the names had nothing to translate against. The filter now pulls that table in the background and re-labels the chips, so they read インド・ヨーロッパ語族 / シナ・チベット語族 / etc. as expected.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-17 — Word Map: two new words, <strong>computer</strong> and <strong>sushi</strong></div>
+            <ul>
+                <li>Two modern concepts join the map. <strong>Sushi</strong> is a loanword the world took from Japanese, so it is <em>sushi</em> almost everywhere — but each language says it its own way: Australian <em>sʉːʃiː</em>, Swedish <em>sʉːɧi</em>, Greek <em>σούσι</em>, seseo Spanish <em>/susi/</em>, Cyrillic <em>суши</em>, and the Chinese topolects read 壽司 with their own tones. <strong>Computer</strong> is split between languages that borrowed it (<em>computer / компьютер / 컴퓨터</em>) and those that built their own (<em>电脑, ordinateur, dator, رایانه, tölva, bilgisayar, கணினி</em>, Tibetan <em>གློག་ཀླད</em>).</li>
+                <li>Both are <strong>partial words</strong> (marked 🧪): filled where a real, sourced form exists — 294 languages for sushi, 355 for computer — and left blank rather than guessed elsewhere. For the ancient languages, which had neither thing, the map shows the era's nearest analogue. Sushi's ancestor is <em>narezushi</em> — fish fermented in cooked grain — so its historical cells trace that dish to its Mekong-basin origin: Old Khmer <em>ប្រហុក</em> (prahok), Old Thai <em>ปลาร้า</em> (pla ra), Old Tagalog <em>ᜊᜓᜇᜓ</em> (burong isda), Old Burmese <em>ငါးပိ</em> (ngapi); further west, where there was no such dish, salted or dried fish stands in — Old Norse <em>skreið</em> (stockfish), Ottoman <em>lakerda</em>, Ancient Greek <em>τάριχος</em>, Latin <em>salsāmentum</em>. For computer: Latin <em>calculātor</em> (a human reckoner), the <em>ἄβαξ</em> abacus and Japanese <em>算木</em> counting rods.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-12 — Mobile: four fixes to the Han Map &amp; Word Map controls</div>
+            <ul>
+                <li>The floating <strong>Compare</strong> button (both maps) and the Han Map's <strong>dialect-colour legend</strong> now sit closer to the bottom edge, where they are easier to thumb-reach. The dialect legend and its panel are layered behind the Compare button (and in front of the map), hidden in simple-display mode, and the bottom-left credit line stays visible above them.</li>
+                <li>Han Map: opening a shared link whose filter list included <strong>ancient languages</strong> plotted them on the map but left the 古代語 switch showing OFF. The switch now reflects what is actually displayed.</li>
+                <li><strong>Simple-display</strong> (hide-UI) mode no longer strips the game launchers — reading quiz, Langle, "which word?" — out of the mobile hamburger menu; they stay reachable there even with the top bar hidden.</li>
+                <li>The trivia button (漢字文化圏の豆知識 / 言語学の豆知識) was missing from the mobile menu — it had been relocated into the top bar where another rule hid it. It now stays in the hamburger menu alongside the other games.</li>
+                <li>Word Map simple-display: the word picker used to vanish entirely, so you couldn't tell which word was mapped. The current word now stays visible as a read-only label in the picker's place (no dropdown).</li>
+                <li>Zhuang words written in the traditional Sawndip script (𭓨 <em>house</em>, 𭝚 <em>love</em>, 𫱆 <em>mother</em>) were showing as empty boxes on mobile — their glyphs live in CJK Extension F, which phone fonts don't carry. Rather than fall back to romanisation, we now embed them the same way the Chữ Nôm characters are handled: a ~4 KB subset of BabelStone Han, loaded only when one of these Zhuang forms appears, so the Sawndip renders everywhere. The font-coverage guard was also fixed — it had been silently skipping these rich multi-script cells, which is how the missing glyphs shipped.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-12 — Word Map: a full family×word review of the whole atlas</div>
+            <ul>
+                <li>Every one of the 25 core words is being re-audited across all ~1,113 languages, one reviewer per <em>language-family × word</em> cell (≈300 reviewers), each finding independently, adversarially verified against sources. This is far finer-grained than the earlier family-only rallies and it is turning up the errors they missed — chiefly <strong>cross-language copy artefacts</strong> (a cell holding the neighbouring language's word) and <strong>wrong-meaning cells</strong>.</li>
+                <li><strong>Batch 1 (water, fire, sun, moon, star, mother, father): 209 corrections.</strong> Tulu had father and mother swapped (<em>amme</em>=father, <em>appe</em>=mother); Lampung's "father" was really <em>uncle</em>; Abaza's father cell was a verbatim copy of the Abkhaz row; Komi-Permyak carried a Russian loan where the native <em>ай</em> belongs; Extremaduran held the neighbouring Fala word; Puerto-Rican Spanish "padre" had Portuguese <em>pai</em> as its pronunciation; the Sumerian cuneiform was corrected to match its own reading. Rich multi-script cells (e.g. Zhuang, Jurchen) were left intact. (Further batches to follow.)</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-11 — Word Map: three review rounds harden the two new sound-words</div>
+            <ul>
+                <li>The cuckoo and woof were put through <strong>three sourced, adversarially-verified review passes</strong>. Round 1 (cuckoo) and Round 2 (woof) audited every cell by language family: they swapped Anglicised/checklist forms for the everyday word (Hindi <em>कुक्कू→कोयल</em>, Urdu <em>کوئل</em>, Gujarati, Marathi, Sinhala, Nepali), fixed tone notation (Tibetan/Dzongkha to diacritics), and corrected phonetics (Macedonian and Catalan final devoicing, Slovene glide, Telugu breathy voicing), plus a properly-sourced Irish <em>bhuf bhuf</em> (the listicle "amh amh" actually means "raw").</li>
+                <li>Round 3 was a hostile fact-check of the 134 riskiest cells — this session's minority-language and folk-name additions. 115 held up; 19 did not. Several eye-catching "discoveries" from the earlier dialect-synonym mining did <em>not</em> survive: Shanghainese <em>催忙鳥</em> and Taiyuan Jin <em>姑姑蟲</em> (whose last character means "insect") could not be attested as cuckoos, and Yoruba <em>gbó</em> turned out to be the <em>verb</em> "to bark", not the sound. Where a cell was wrong and no sourced replacement existed, it was blanked rather than guessed. Taiwanese Hokkien was corrected from the literary <em>布穀</em> to the dictionary's <em>杜鵑</em>, and Quanzhou Hokkien to the native <em>豆仔鳥</em>. The bar throughout: the mainstream everyday word, sourced, or nothing.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-11 — Word Map: a 27th word, <strong>woof</strong> — how a dog's bark sounds in each language</div>
+            <ul>
+                <li>The newest word is not a thing but a <em>sound</em>: the onomatopoeia for a dog's bark. Every language hears the same animal and writes it differently — English <strong>woof</strong>, Japanese <strong>ワンワン</strong>, Mandarin <strong>汪汪</strong>, Spanish <strong>guau guau</strong>, Russian <strong>гав-гав</strong>, Italian <strong>bau bau</strong>, Korean <strong>멍멍</strong>, Greek <strong>γαβ γαβ</strong>, Thai <strong>โฮ่ง ๆ</strong> — a small map of how a culture agrees to spell a noise, not a recording of the noise.</li>
+                <li>Like the cuckoo it is a <strong>partial word</strong> (marked 🧪), and its note explains it is an onomatopoeia rather than a bird's range. It sits right after the cuckoo in the selector, since both are words the mouth borrows from the world.</li>
+                <li>A review-and-expand rally (one thread per language family, every form sourced and adversarially verified) grew it to <strong>75 languages</strong> and caught a few seed slips — Welsh <em>wff wff</em>, Basque <em>au au</em>, Armenian <em>հաֆ հաֆ</em>, Azerbaijani <em>ham-ham</em> (not <em>hav hav</em>), Kazakh <em>шәу-шәу</em>, Belarusian <em>гаў-гаў</em>, Shanghainese 汪汪, Mongolian <em>хав хав</em>, plus Kapampangan, Cebuano, Balinese, Somali and the Dravidian south (Malayalam <em>ബൗ</em>, Telugu <em>భౌ</em>, Marathi <em>भो भो</em>). Slovene's <em>h</em> was corrected from a voiced glottal to the right velar <em>[x]</em>, Catalan to <em>bub-bub</em>, and Japanese ワンワン to the uvular-nasal <em>waɴwaɴ</em>. Two proposals with only listicle sources were left out. A further pass reached Africa and the Pacific — Yoruba <em>gbó gbó</em>, Hawaiian <em>ʻaoa</em>, Māori <em>au au</em>, Sundanese <em>gogog</em>, Scottish Gaelic <em>af af</em>, Kannada <em>ಬೌ ಬೌ</em> — bringing it to <strong>81 languages</strong>; forms that could not be sourced (or whose tone could not be pinned down) were left blank rather than guessed.</li>
+                <li>The tone-notation guard added with the cuckoo now covers every partial word, so the new onomatopoeia's tonal cells (Mandarin, Cantonese, Thai, Vietnamese) are held to Chao tone letters from the first commit.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-11 — Word Map: a 26th word, the cuckoo — the first that maps a bird's range, not every language</div>
+            <ul>
+                <li>The Word Map has always shown a word for every one of its 1,113 languages. The <strong>cuckoo</strong> (placed right after the cat in the selector, and marked with a <strong>🧪</strong>) is the first that does not, and on purpose: it is plotted only where a real, sourced form exists — thinning out across the Americas and the remote Pacific because that is where the common cuckoo (<em>Cuculus canorus</em>) does not fly. A note under the word explains it: the map shows the bird's range, not a grid of guesses.</li>
+                <li>It earns its place by being the clearest case of a word the world built from a sound. The cuckoo's two-note call names it again and again in languages that never met — Russian <em>kukushka</em>, French <em>coucou</em>, German <em>Kuckuck</em>, Hungarian <em>kakukk</em>, Finnish <em>käki</em>, Welsh <em>cog</em>, Japanese <em>kakkō</em>, Ainu <em>kakkok</em> — so the map reads as one long echo of the same two notes spreading across Eurasia. Where a language names the koel instead (much of South Asia keeps the Sanskrit <em>kokila</em>), that word is shown as its own tradition.</li>
+                <li>Because a partial word is plotted only where a form is <em>distinct</em>, regional accents that merely repeat their standard language verbatim were dropped — the seven identical Japanese "カッコウ" dialect points, the twenty-two identical English "cuckoo" accents, and so on (68 in all). The freed-up detail went where it belongs: to Chinese, whose topolects really do differ.</li>
+                <li>A <strong>ten-thread review rally</strong> (one reviewer per language-family domain, each finding adversarially verified) then audited every cell. 30 fixes landed: Mandarin and Cantonese tones rewritten from superscript digits to the atlas's Chao letters (<em>pu⁵¹→pu˥˩</em>), Thai and Lao tones rescued from stress-accent notation, Central/Southern Vietnamese given the tone they were missing, and a scatter of transcription slips corrected (Turkish <em>ɟuɟuk→ɡuɡuk</em>, Maltese <em>q</em> as a glottal stop, Serbo-Croatian pitch accent).</li>
+                <li>A second, source-hunting rally then went after the words the topolects <em>don't</em> share with Mandarin — and found them, each with a citation. Shanghainese calls the cuckoo <strong>催忙鳥</strong> ("the hurry-up bird"), Xiamen and Zhangzhou Hokkien <strong>豆仔鳥</strong> ("bean bird", for the sowing it signals), Taiyuan Jin <strong>姑姑蟲</strong>, Meixian Hakka <strong>伏鳩仔</strong>, Changsha Xiang <strong>陽雀子</strong>, and across the southwest (Chengdu, Chongqing, Kunming) the cuckoo is the <strong>阳雀</strong>, not the textbook 布谷鸟. North China has its <strong>喀咕</strong>; the Dungan of Central Asia write theirs in Cyrillic, <strong>җунгўчўр</strong>. Island Southeast Asia named its own cuckoos too — Javanese <em>kedhasih</em>, Sundanese <em>manuk uncuing</em>, Kapampangan <em>siabukut</em>. With Min, Hakka, Wu, Xiang, Jin and more now filled, plus a third pass across Asian dialects, coverage stands at <strong>365 sourced cells</strong>, and a new build guard (<code>cuckoo_ipa_lint.js</code>) rejects any tone written with superscript digits or stress accents so the notation can't drift back.</li>
+                <li>The Americas got their own cuckoos, which are not the European one at all. Latin-American Spanish had been showing the book word <em>cuco</em> everywhere; it now names the bird each country actually sees — Río de la Plata <strong>pirincho</strong> (the guira cuckoo) and Paraguay <strong>piririta</strong>, Bolivia <strong>serere</strong>, the Andean north <strong>garrapatero</strong> (the ani), the Caribbean <strong>pájaro bobo</strong> and Cuba <strong>arriero</strong> (lizard cuckoos), Mexico/Guatemala <strong>pijuy</strong>, Costa Rica <strong>tijo</strong>, Honduras/Nicaragua <strong>tijul</strong>. Indigenous names joined too — Quechua <em>chikwan</em> and Cariban <em>pika</em> for the squirrel cuckoo, Bororo <em>ori</em> for the ani. And after a run of Spanish and Chinese varieties had been split fine while English, Arabic, French and Japanese were collapsed to one dot each, the identical dialect points were restored for geographic parity — so American and Australian English, Egyptian and Gulf Arabic, Québec French and the Kansai cities appear on the map again. Mainland Southeast Asia filled in from dictionaries too — Shan <em>ၼူၵ်ႉတွင်ႉလေႃး</em>, Zhuang <em>roegdinghgeng</em>, Tày/Nùng <em>khảm khắc</em> (the Indian cuckoo, named for its night call), Lahu <em>qú-pu</em>, Lisu, Hani, Jingpho, Sgaw/Pwo Karen, Cham <em>tawaw</em> (the koel), Iu Mien. Coverage now stands at <strong>456 cells</strong>.</li>
+                <li>That Asian pass answered a nice question: do Japanese and Korean dialects have their <em>own</em> cuckoos? Korean does — 우리말샘 gives Gyeongsang <strong>부꾹새</strong>, Yanbian/Hamgyŏng <strong>뻐꿍기</strong>, Jeju <strong>버꿍새</strong>, each distinct from standard 뻐꾸기. Japanese, it turns out, does <em>not</em>: every modern dialect just says カッコウ, so none were added — but Old Japanese did, and it is a surprise: カッコウ is only an Edo-period coinage, so the classical cuckoo is <strong>ほととぎす</strong> (written 霍公鳥, all over the Man'yōshū). More topolects joined too — Nanchang Gan and Quanzhou / Min-Bei / Pu-Xian Hokkien keep their old entering-tone stops (<em>布穀 pu˦˥kuk˥</em>), the Jianghuai and Zhongyuan Mandarin cities their own contours, Pashto <em>کوکو</em>, and Manipuri its koel <strong>ꯀꯣꯀꯤꯜ</strong>.</li>
+                <li>Under the hood, the data guards and the map plotter now understand a <strong>partial word</strong>: for a word flagged <code>partial</code>, a language with no cell is left off the map instead of failing the build. All data guards pass.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-10 — The Word Map now opens on a fraction of the download</div>
+            <ul>
+                <li>A cold visit to the Word Map used to pull down <strong>1.59 MB</strong> of compressed JavaScript before it could draw anything. It now pulls <strong>465 KB</strong> — a <strong>71% cut</strong> — and everything else arrives quietly afterwards.</li>
+                <li>The map shows <em>one</em> word at a time, but it was loading the vocabulary of all 25 (344 KB) up front. It now loads the word you are looking at, and prefetches the rest once the page is idle. The word names and definitions — which the selector needs immediately — were split into their own small file.</li>
+                <li>Translated language names cover 1,154 languages in 19 interface languages (200 KB). You read one of them. The Word Map now fetches just yours, plus English as a fallback.</li>
+                <li>Two tables that exist purely to translate the <em>contents</em> of the language database — half a megabyte together — were being downloaded on every visit even though the database itself is only fetched when you open a language. They now travel with it. Trivia articles, likewise, arrive after the map is up.</li>
+                <li>None of this changes what you see. The pieces are fetched before anything needs them, and new guards keep the generated files in step with their sources.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-09 — Second review rally: 85 corrections, and Gondi turns out to have been Hindi</div>
+            <ul>
+                <li><strong>Ten expert-persona reviewers</strong> audited all 25 word cells for every one of the <strong>1,113 languages</strong> — 27,825 cells — one reviewer per language-family domain (reviews <code>411</code>–<code>412</code>). 104 defects were reported. 85 are now fixed; 30 more were <em>proved wrong but left alone</em>, because no source could supply a replacement and a plausible invention is worse than a known-bad cell.</li>
+                <li><strong>Three whole rows had been imported from the wrong language.</strong> <em>Gondi</em> — a Dravidian language of central India with 3 million speakers — had 16 of its 25 cells filled with <strong>Hindi words carrying Hindi pronunciation</strong>; the "Devanagari / Telugu" dual spelling that looked like one Gondi word in two scripts was really a Hindi word beside its Telugu translation. It has been rebuilt from Subrahmanyam's 1968 grammar and the Dravidian Etymological Dictionary: water is <em>ēr</em>, not <em>pānī</em>; house is <em>lōn</em>, not <em>ghar</em>; the cat is <em>verkāṛ</em>, from a Proto-Dravidian word for wildcat.</li>
+                <li><em>Dolgan</em>, a Turkic language of the Taimyr peninsula, had nine cells holding the wrong word: "one" held the verb <strong>to give</strong>, "water" held <strong>blacksmith</strong>, and "hello" held <strong>summer</strong>. <em>Achuar</em> and <em>Shuar</em> spell /h/ with the letter ⟨j⟩, and ten cells read it as /dʒ/ — the atlas's own Aguaruna row had it right all along.</li>
+                <li>Two transcription conventions were fixed in both directions. Somali writes /ʕ/ with ⟨c⟩ and /ħ/ with ⟨x⟩ — but <strong>Afar and Saho use the opposite convention</strong>, ⟨c⟩ for /ħ/ and ⟨q⟩ for /ʕ/, and seven of their cells had been pulled toward the Somali values. And in the Spanish column for <em>perro</em>, four countries were transcribed with a tap — which spells <em>pero</em> "but", a minimal pair — while Puerto Rico was given <em>pelo</em>, "hair". (Puerto Rican /r/ lateralises at the end of a syllable, not between vowels, where it is uvular.)</li>
+                <li>Five reviewers independently reached for the same clue: <strong>a cell that repeats another cell in the same row is the fingerprint of a bad import.</strong> That is mechanical, so it is now a tool. Run over every language it rediscovers eight of their findings knowing no linguistics at all. It is a hint, not a rule — Fijian <em>vinaka</em> really does mean both "good" and "thank you", and Toki Pona's <em>soweli</em> covers cat and dog by design.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-09 — New language: Cia-Cia, the Austronesian language that writes itself in Hangul</div>
+            <ul>
+                <li><strong>Cia-Cia</strong> (<code>cia</code>, Bahasa Ciacia) joins the Word Map at Baubau on Buton Island, Indonesia — bringing it to <strong>1,113 languages</strong>. It is Austronesian (Muna-Buton), has around 80,000–105,000 speakers, and is known worldwide because Baubau began teaching it in the Korean <strong>Hangul</strong> script in 2009, reviving obsolete jamo such as ᄫ for a bilabial fricative Korean lacks.</li>
+                <li>The language's entry says what is true rather than what is famous: <strong>Latin is the everyday script.</strong> Hangul is taught in a couple of subdistricts' schools and appears on some street signs; it was never officially adopted.</li>
+                <li>Because Cia-Cia is famous but thinly documented — the exact profile that produced the fabricated rows fixed below — its 25 words were researched by two independent readers and adjudicated (review <code>410</code>). Every cell rests on a real citation. Two traps had to be navigated: the divergent <em>Wasambua</em> dialect uses different roots for "dog", "house" and "star" than the Baubau standard, and Latin spelling hides the implosives /ɓ/ and /ɗ/ — so "good" is recorded as <em>umela</em> rather than <em>bajiga</em>, whose first consonant no source actually transcribes.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-09 — Speaker counts now follow one house style across all 1,112 languages</div>
+            <ul>
+                <li>The speaker-count line had drifted into 131 different shapes — <code>~12,000-15,000 (estimated; declining trend)</code>, <code>approximately 800-1500 speakers</code>, <code>1000-1500 (UNCONFIRMED - see notes)</code>, and long census citations that ran off the end of the info panel. Every entry now reads the same way: <strong>a figure, not a citation</strong>. Magnitudes use <code>~</code> with K/M/B (<code>~12K</code>, <code>~2.7M</code>), ranges share a suffix and an en dash (<code>~12–15K</code>), and meaning-bearing qualifiers survive (<code>~30 fluent</code>, <code>~380M L1 + ~1.5B total (with L2)</code>).</li>
+                <li>Reformatting exposed real bugs in the fallback that reads a number out of this field: Gulf Arabic's "36 million" was being read as <strong>36 speakers</strong>, Malaysian English picked up the country's <em>population</em> (33M) instead of its speaker estimate, and Xinzhou Jin borrowed the 48M figure belonging to Jin as a whole. All are now correct.</li>
+                <li>A new deterministic guard, <code>tools/speakers_format_check.js</code>, runs with the other data guards and fails the build if the style drifts again.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-09 — Three languages whose word rows were fabricated: Tregami, Khowar, Yaghnobi</div>
+            <ul>
+                <li>The ten-thread rally flagged three rows as untrustworthy but <strong>refused to correct them</strong>, because inventing replacements for poorly-documented languages is worse than leaving a known-bad cell. Each was re-opened with two independent researchers — one hunting dictionaries, one reasoning from expected sound changes — plus an adjudicator who could only accept a correction that was <em>cited and uncontradicted</em>, and otherwise had to leave the cell blank (reviews <code>407</code>–<code>409</code>).</li>
+                <li><strong>Tregami</strong> (Nuristani, ~3,500 speakers) held Sanskrit dictionary headwords: <em>hasta</em> "hand", <em>hridaya</em> "heart", <em>agni</em> "fire", <em>vrkṣa</em> "tree". Twelve cells corrected, <strong>six blanked</strong> because no source attests them.</li>
+                <li><strong>Khowar</strong> (Dardic, Chitral) had Urdu and Persian words standing in for its own — <em>ghar</em> "house", <em>dil</em> "heart", <em>ek</em> "one" — plus four forms belonging to no language at all. Seventeen cells corrected to the forms in Bashir's <em>Khowar–English Lexicon</em>; both researchers independently agreed on 24 of 25.</li>
+                <li><strong>Yaghnobi</strong> (the only living descendant of Sogdian) was 18 cells wrong. The giveaway: its "cat" held <em>kyat</em>, a mangling of <em>kat</em> — which is Yaghnobi for <strong>house</strong>, while "house" held an invented word. One cell, "love", is now blank: the complete Yaghnobi–Tajik–English lexicon has no headword for it, and a plausible Tajik loan would have been a guess.</li>
+                <li>Both Tregami and Yaghnobi are <strong>living languages</strong> and continue to appear on the modern map; the blanked cells simply show "—".</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-09 — Word Map review rally: ten family-domain reviewers audit all 1,112 languages</div>
+            <ul>
+                <li><strong>A ten-thread review rally</strong> put one expert-persona reviewer on each of ten language-family domains — Romance/Germanic, other Indo-European, Indo-Iranian + Caucasus, Sino-Tibetan, Austronesian, Afro-Asiatic, Niger-Congo/Nilo-Saharan, Japonic–Koreanic–Turkic–Mongolic–Tungusic–Uralic, SE Asia/Oceania/Australia + isolates, and the Americas — auditing every one of the 25 word cells for all <strong>1,112 languages</strong> (reviews <code>397</code>–<code>406</code>).</li>
+                <li><strong>39 genuine defects found and fixed.</strong> Wrong-sense slips: Mingrelian "house" held the word for <em>apple</em>; Somali "moon" held <em>maize</em> and "hand" held <em>beloved</em>; Classical Mongolian "cat" held <em>bad</em>; Buryat "eye" held <em>hitching-post</em>; Blackfoot "sun" held the trickster <em>Napi</em>; Bai "one" held <em>seven</em>; Tai Lue "heart" held <em>father</em>; Nias "drink" held <em>sky</em>; Mayangna "sun" held the <em>moon</em> word; Mongghul "drink" held <em>ride</em>. Copy/fabrication: Dolgan "heart" carried a Kipchak form, Gayo "thanks" was Javanese, Edo "fire"/"drink" were not Edo. Transcription: Somali and Afar ⟨c⟩ read as /tʃ/ or /ħ/ instead of the pharyngeal /ʕ/; Rohingya "eat" carried Bengali IPA; Honduran Spanish "thanks" showed a European /θ/ in an otherwise <em>seseante</em> row.</li>
+                <li>Reviewers were explicitly instructed <strong>not to normalise dialects</strong> toward their standard language — deliberate dialect phonology (Puerto Rican lateralisation, Andalusian aspiration, Amdo clusters, Taishanese s→ɬ, Fijian prenasalisation, …) was preserved, and every flagged cell was traced back to a bulk data-import so that no earlier hand-made correction was overwritten.</li>
+                <li>A deterministic guard also caught <strong>58 affricate transcriptions</strong> in the five newest words that used a tie bar (t͡ʃ) against the project's bare convention; all were normalised, and every data guard now passes.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-08 — Living languages no longer shown as historical; quiz &amp; font fixes</div>
+            <ul>
+                <li><strong>Kusunda (and other living-but-fragmentary languages) no longer appear in the historical map view.</strong> The historical-era plotter was iterating the raw ancestor table instead of the era set, so critically-endangered <em>living</em> languages that are deliberately excluded from "historical" — Kusunda, Yuchi, Itelmen, Tundra Yukaghir, Ubykh, Mochica, Yugh, Babuza, Rotokas — were being drawn on the map (and marked) whenever the era switch was set to Historical, even though the counter and search treated them as modern. Fixed on both the 2D map and 3D globe; also stopped them being listed as "historical ancestors" and dropped a leftover "fragmentary" chip that made an actively-spoken language look historical. (A stale data cache-buster was also bumped so the fix reaches returning visitors.)</li>
+                <li>Han-character reading quiz: the fifth answer option was cut off on some screens — the layout now fits all five choices.</li>
+                <li>Traditional Mongolian script now prefers a serif-style face to match the serif rest of the maps.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-08 — Word Map: fixed 21 languages whose description belonged to a different language</div>
+            <ul>
+                <li>A name-vs-description scan found <strong>21 records whose family, script and encyclopedic description had been swapped in from an unrelated language</strong> — e.g. <em>Old Cham</em> showed Occitan's entry, <em>Vedic Sanskrit</em> showed Waray's, <em>Hattic</em> showed Hadza's, and Assamese←Odia, Dungan←Upper Sorbian, Sakha←Tuvan, Aromanian←Walloon, Acholi←Rakhine, Nepali←Dotyali, Venda←Bemba, Chukchi←Itelmen and others. Each was regenerated with the correct family, writing system, speaker count and a fresh description in all 19 UI languages, then re-scanned to confirm none remain.</li>
+                <li><strong>Era reclassification.</strong> Languages that survived into the modern era — even if now extinct — are shown as modern, not historical: <em>Ubykh</em> (last speaker d. 1992), <em>Yugh</em>, <em>Mochica</em>, <em>Babuza</em> and the still-spoken <em>Manchu</em> moved onto the modern map.</li>
+                <li><strong>Script-field fixes.</strong> Five Arabic dialects were mislabelled "Latin" though their data is in Arabic script; Kusunda claimed Devanagari though it is written here in romanization. Both corrected.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-08 — Han Map: colour readings by dialect lineage, with a legend</div>
+            <ul>
+                <li>Character readings on the Han Map are now coloured by <strong>dialect branch</strong> rather than simply Chinese-vs-other, so distinct Sinitic groups no longer blur together (Yong'an Min used to look identical to Mandarin). Mandarin, Jin, Yue, Min, Wu, Hakka, Xiang, Gan, Pinghua and Hui each get a dark, muted hue, alongside Korean, Japanese and Vietnamese — with a small collapsible legend in the corner. Historical/reconstructed readings keep their lighter sepia tone.</li>
+                <li>The Han-character reading quiz now mixes romanization and IPA per question, and its option layout was rebuilt so all five choices fit and centre cleanly.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-07 — Games, sharing and modal polish</div>
+            <ul>
+                <li><strong>Unified language picker &amp; Share.</strong> A single globe + language-code control (opening a "CODE  Native-name" dropdown) and one icon-only Share button now sit in the header of every page.</li>
+                <li><strong>Language of the Day</strong> replaces Word of the Day on the Word Map (the word set was too small to rotate), featuring a different language each day. <strong>Langle</strong> gained a shareable link that opens the game directly and a friendlier share card that teases a real word rather than an abstract grid.</li>
+                <li>Quiz modals ("Which word?", Han reading quiz) were made more readable — larger type, option text vertically centred, consistent button heights, and the results screen laid out with its buttons pinned to the bottom.</li>
+                <li>Removed the faint white seams between tiles on the 2D map, enlarged the language info-panel word table (prominent word forms, readable IPA), and localized the remaining header controls.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-05 — Word Map: 20 → 25 words (added <strong>I, you, two, name, star</strong>) with a five-round review rally</div>
+            <ul>
+                <li>Added five high-frequency concepts to the Word Map — the singular pronouns <em>I</em> and <em>you</em>, the numeral <em>two</em>, and the nouns <em>name</em> and <em>star</em> — each filled across all <strong>1,112 languages</strong> to match the existing twenty. Labels and terse sense-disambiguation definitions were written in all 19 UI languages (singular pronoun, not plural/honorific; cardinal, not ordinal; the noun "name", not a proper name; celestial "star", not a celebrity or asterisk).</li>
+                <li><strong>Five-round family-domain review rally.</strong> After a multithreaded first fill, 41 expert-persona reviewers per round — organized by language family (Germanic, Romance, Sinitic, Tibeto-Burman, Bantu, Austronesian, Papuan, Americas, Caucasian, Dravidian, …) — audited every new cell across five rounds, writing 205 review documents (<code>wordmap_reviews/review_192</code>–<code>396</code>) and applying ~181 fixes. The passes converged (55 → 42 → 33 → 28 → 23). Representative catches: Hopi ⟨u⟩ = /ɨ/; Basque informal 2sg <em>hi</em> (not polite <em>zu</em>); Sandawe/Hadza click de-fabrication; Udege/Dakota/Yukaghir copy-errors; wrong-sense fixes (Khmu "name" held "nose", Warao "star" held "sun").</li>
+                <li><strong>Script / notation-policy sweep.</strong> A scan comparing each language's existing-word scripts against the new cells flagged 45 codes filled in the wrong script. Fixed so the five new words follow each language's established writing system — cuneiform (Akkadian 𒀀𒈾𒆪, Sumerian, Hittite), Tangut (西夏 𗧓), Gothic (𐌹𐌺), Old Turkic runiform, Canadian syllabics (Cree ᓂᔭ), Ethiopic, Georgian, Myanmar, Mongolian, Coptic, Katakana (Ainu カニ), Han glosses — with Goguryeo and Proto-Japonic-Koreanic set to "—" where the senses are genuinely unattested.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-07-05 — All pages: unified header, right-aligned share / language controls</div>
+            <ul>
+                <li>Unified the header markup across all four pages (Word Order / Word Map / Han Map / Tree) and right-aligned the share icon together with the language picker into one cluster at the far right — previously only the <code>langmap.heuron.com</code> link floated right while share and language stuck to the navigation on the left. Retired the dead <code>.ui-lang-footer</code> bottom-pill markup on the map pages.</li>
+                <li>Fixed the Word Order page dropping the "Word Map" navigation globe icon (a mis-scoped <code>.textContent</code> write had wiped the inline SVG), and stopped the empty language <code>&lt;select&gt;</code> from briefly flashing in the header during load.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

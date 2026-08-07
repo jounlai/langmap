@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangMap - Changelog 2026-06</title>
+    <meta name="description" content="LangMap changelog for 2026-06.">
+    <!-- Internal documentation page — kept out of search-engine indexes
+         (canonical content lives on index.html / wordmap.html / tree.html). -->
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://langmap.heuron.com/changelog-202606.html">
+    <link rel="icon" type="image/png" href="/langmap.png">
+    <link rel="apple-touch-icon" href="/langmap.png">
+    <meta name="google-site-verification" content="bv4ffQGbDc_Grf1Ioc8NCotrXWc2mY34wEmL-5yHJyM" />
+    <script>
+        // Production-only GA firing: hostname-gated so dev/local/staging
+        // traffic doesn't pollute the analytics property.
+        if (location.hostname === 'langmap.heuron.com') {
+            const s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JZ7JJBCCHG');
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=125">
+    <link rel="stylesheet" href="styles.css?v=125">
+    <style>
+        .changelog {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 24px 20px 60px;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .changelog h1 {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+        .changelog .lead {
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .changelog .entry {
+            border-left: 3px solid #e0e0e0;
+            padding: 4px 0 4px 16px;
+            margin-bottom: 20px;
+        }
+        .changelog .entry .date {
+            font-weight: 600;
+            color: #333;
+        }
+        .changelog .entry ul {
+            margin: 6px 0 0;
+            padding-left: 20px;
+        }
+        .changelog .entry li {
+            margin-bottom: 4px;
+        }
+        .changelog .contributor {
+            color: #666;
+            font-size: 12px;
+        }
+        .changelog .back {
+            display: inline-block;
+            margin-bottom: 16px;
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .changelog .back:hover { text-decoration: underline; }
+        .changelog .milestones {
+            background: #f6f8fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 12px 16px;
+            margin: 0 0 28px;
+            font-size: 13px;
+        }
+        .changelog .milestones h2 {
+            font-size: 14px;
+            margin: 0 0 8px;
+            color: #333;
+        }
+        .changelog .milestones ul {
+            margin: 0;
+            padding-left: 18px;
+            list-style: none;
+        }
+        .changelog .milestones li {
+            margin-bottom: 2px;
+            color: #555;
+        }
+        .changelog .milestones .count {
+            display: inline-block;
+            min-width: 56px;
+            font-weight: 600;
+            color: #0366d6;
+        }
+        .changelog .milestones .when {
+            color: #999;
+            font-size: 12px;
+            margin-left: 4px;
+        }
+        .changelog .month-nav {
+            margin: 0 0 24px;
+            font-size: 13px;
+            color: #555;
+        }
+        .changelog .month-nav a { color: #0366d6; text-decoration: none; }
+        .changelog .month-nav a:hover { text-decoration: underline; }
+        .changelog .month-nav strong { color: #333; }
+    </style>
+</head>
+<body>
+    <div class="changelog">
+        <a href="index.html" class="back">&larr; Back to LangMap</a>
+        <h1>Changelog</h1>
+        <p class="lead">A running log of fixes, additions, and improvements to LangMap.</p>
+
+        <nav class="month-nav">Months: <a href="changelog.html">2026-08</a> · <a href="changelog-202607.html">2026-07</a> · <strong>2026-06</strong> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-06-26 — Han Map: added Loudi Xiang (娄底, <code>hsn_ld</code>), a conservative Old Xiang point</div>
+            <ul>
+                <li>Added a new Sinitic dialect point — <strong>Loudi Xiang</strong> (婁底湘語, Lou–Shao cluster 娄邵片 of Old Xiang 老湘语, central Hunan) — prompted by a reader's etymology post. Readings come from English Wiktionary's <code>Module:hsn-pron-Loudi</code> (after the field study 颜清徽·刘丽华《娄底方言研究》), extracted verbatim from each character's <code>x-l=</code> parameter and rendered through the live module, every value independently verified — no derivation or guessing. <strong>40 of the 59 core characters</strong> are attested in that source; the rest are left blank rather than filled in. Wired through all of HanMap: per-character surface + IPA, the map point (27.73 N, 112.00 E), the dialect-picker group, names in all 19 UI languages and a description in all 19. A characteristic trait shows up in the data — certain Middle Chinese lai-initial (來母) words surface with a nasal <em>n-</em>: 龍 "dragon" is /nɤŋ¹³/, not <em>l-</em>.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-23 — All maps: consistent capitalisation of localized language names + "undefined" fix</div>
+            <ul>
+                <li>A contributor noticed Vietnamese names mixed "tiếng" and "Tiếng". Swept every localized name and normalised them to the dataset's established uppercase-first label convention in all cased UI languages — Vietnamese <em>Tiếng …</em>, Indonesian <em>Bahasa …</em>, and ~2,300 lowercase-first names across French, Spanish, Italian, Portuguese, German, Russian, Ukrainian, Swahili and English (haïda→Haïda, chickasaw→Chickasaw, осский→Осский, …).</li>
+                <li>Fixed 38 broken names: Angolan Portuguese (<code>pt_ao</code>) and Venezuelan Spanish (<code>es_ve</code>) read literally "undefined (Angolan)" / "undefined (Venezuelan)" in all 19 UI languages (a base-name lookup had returned undefined) — now "Portuguese (Angolan)" / "Spanish (Venezuelan)" and their translations. Added a deterministic guard so bulk language additions can't silently reintroduce lowercase or "undefined" names.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-23 — Word Map: stray-script word fixes (a word written in the wrong alphabet)</div>
+            <ul>
+                <li>Reported via Northern Luri, whose <em>water</em> was the Latin romanization "av" while all 19 other words are in Perso-Arabic. Built a deterministic script-consistency checker and swept the whole Word Map; fixed every genuine standout — luz <em>water</em> av→آو, Yaghnobi (<code>yag</code>) <em>hello</em>/<em>thanks</em> Cyrillic салом/рахمат→Latin salom/rahmat, Hajong (<code>haj</code>) <em>eye</em> Bengali চকু→soku. Left alone the legitimately mixed scripts: Japanese kana-among-kanji, and Hunzib's palochka convention used consistently across its whole entry.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-22 — All maps: every language description now reads in all 19 UI languages</div>
+            <ul>
+                <li>Languages added in the big multithreaded batches had their description (and a few labels) only in English/Japanese/Korean/Chinese, so under e.g. a French or Arabic UI they fell back to English. Filled the gap end-to-end: ~580 Word Map descriptions plus the remaining Han Map dialect descriptions and reading-type labels were translated into the other UI languages — about <strong>8,500 translation cells</strong> — so the detail panels now read in the selected UI language everywhere. Also caught and fixed two duplicate metadata definitions (mey, tem) whose English-only copy had been shadowing the full multilingual one.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-22 — SEO: the site now identifies itself as "LangMap" in Google, not the parent company</div>
+            <ul>
+                <li>Google was showing the parent domain's company name as the site name for <code>langmap.heuron.com</code> results — by default a subdomain inherits the root domain's site name. Gave the subdomain its own strong, consistent signals: the publisher in the structured data is now a "LangMap" organisation (with the company kept as its parent organisation), and every page carries an <code>&lt;h1&gt;</code> with the brand. Once re-crawled, results show "LangMap".</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Word Map: five-round QA pass on the newly-added languages</div>
+            <ul>
+                <li>After growing the Word Map past 1,100, ran <strong>five rounds</strong> of an 8-thread, web-verifying review focused only on the ~112 languages added this round. Each finding had to be confirmed against Wiktionary / dictionaries / grammars by a separate strict verifier before applying. Net result across the five rounds: about <strong>60 source-confirmed corrections</strong> applied and <strong>~150 candidates rejected</strong>. Representative fixes: a language whose every word was the pronoun instead of the headword (Northern Luri <em>water</em> او→av, <em>mother</em> مار "snake"→مادر), several concepts that had collapsed to one form (Comanche <em>fire</em>=<em>sun</em>, Oneida <em>mother</em>=<em>tree</em>), Comorian <em>j</em> = /dʒ/, Amdo Tibetan IPA repaired while keeping the Tibetan-script surfaces, and a Puerto-Rican / Venezuelan / Panama weak-jota correction (<em>ojo</em> /oxo/→/oho/).</li>
+                <li><strong>Discipline: preserve real dialect features, fix only genuine errors.</strong> The bulk of the ~150 rejections were the verifier trying to "standardise" deliberate, internally-consistent dialect phonology — Puerto-Rican /r/→[l] and final-/d/ drop, Dominican final-consonant deletion, Malaysian-English final devoicing, Caribbean /x/→[h], Sanaani Yemeni ق→[g], the Shanxi 水→/fei/ shift, frozen Maghrebi articles — all left intact. A round-2 over-correction (stripping the tone off one Zaiwa word, which broke that language's own tone-in-spelling convention) was caught and reverted in round 4.</li>
+                <li><strong>Two entries removed (1,114 → 1,112).</strong> The review caught <em>Bonan</em> (<code>peh</code>) — its every "Bonan" word was actually Nepali written in Devanagari, though Bonan is a Mongolic language of Qinghai with no relation to Nepali — and <em>Western Apache</em> (<code>nv2</code>), a byte-for-byte duplicate of the existing <code>apw</code> entry. Better unrecorded than fabricated, so both were dropped rather than patched.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Han Map: every label localized for HanMap-only varieties</div>
+            <ul>
+                <li>"Guibei Pinghua (Guilin)" and the other Han-Map-only Sinitic varieties were showing their English name in several places under a non-English UI (filter chips, comparison panel, search rows, ancestor/descendant labels). The site-name lookup only consulted the shared Word-Map name dictionary; threaded a fallback to each variety's 19-language reading-type label through every label site, so they all read in the selected UI language (e.g. 桂北平話 under the Japanese UI).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Word Map: stop over-claiming Tibetan script for oral languages</div>
+            <ul>
+                <li>Kurtöp (Bhutan) was tagged as written in Tibetan script with a Tibetan-script native name, yet its words are shown in Roman transcription. Research confirmed Kurtöp is essentially oral — only the Roman orthography is in practical use and no Tibetan-script word-list is published — so the metadata now reflects that, and two leaked "native" fields (Situ rGyalrong, Monguor) were cleaned up alongside it.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Word Map: never blank the map during a cache transition</div>
+            <ul>
+                <li>Fixed a production crash ("Cannot read properties of undefined") that could blank the whole map: the Word Map lazy-loads one word file at a time, so a browser serving a stale cached word file alongside a freshly-bumped data file could hit a language that has no loaded words yet. The renderer now guarantees a <code>.words</code> object for every language and guards the lookup, so a not-yet-loaded language simply doesn't show that word instead of throwing.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Word Map: +8 pluricentric varieties (1,000 → 1,008)</div>
+            <ul>
+                <li>A contributor pointed out that Flemish (Belgian Dutch) — same spelling as Netherlands Dutch but a quite different pronunciation — was missing. Added it plus seven more national/regional standard varieties of pluricentric languages, following the existing <code>fr_be</code> / <code>de_at</code> precedent: <strong>nl_be</strong> Belgian Dutch (Flemish), <strong>en_us</strong> General American, <strong>en_ca</strong> Canadian English, <strong>en_za</strong> South African English, <strong>de_ch</strong> Swiss Standard German, <strong>pt_ao</strong> Angolan Portuguese, <strong>es_ve</strong> Venezuelan Spanish, and <strong>ca_va</strong> Valencian. Each carries all 20 word readings with variety-specific IPA, full metadata, a map location, and a localized name in all 19 UI languages. (en_us notably fills a real gap — the base "English" entry is British RP, so General American was previously unrepresented.) Heading toward 1,111.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-21 — Both maps: unify affricate IPA to bare digraphs (drop tie bar)</div>
+            <ul>
+                <li>A user noticed affricates were inconsistently written with vs without the IPA tie bar (t͡s vs ts). After confirming the scope — varieties split between the two conventions — we standardised the whole project on the <strong>bare digraph</strong> (ts, tsʰ, tɕ, dz, dʒ, qχ, …): it is the Sinological norm, was already the majority, and the combining tie bar renders unreliably across the maps' many fonts (both forms are valid IPA, so no accuracy is lost). Removed the tie bar from ~850 affricates across Han Map and all 20 Word Map word files, while keeping it on genuine non-affricate co-articulations (e.g. the labial-velar nasal ŋ͡m). Added a deterministic guard (<code>affricate_tie_check.js</code>, now the 10th data check) so the convention can't silently regress.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — Han Map: Cantonese checked-tone notation + 來/嚟 literary-colloquial split</div>
+            <ul>
+                <li><strong>Checked-tone notation</strong> (commit <code>01c665b</code>): a user spotted 立 lap6 written /lɐp̚˨˨/ — an entering (short, stopped) tone with two tone letters. A scan found the same single/double inconsistency in yue_nn and yue_zs (一六日月木目立 doubled vs the rest single) and nan_hai; collapsed the redundant level-doubles to a single Chao letter (16 cells), leaving genuine contour tones and 2-digit-tone varieties (cnp) alone.</li>
+                <li><strong>來 / 嚟 "come"</strong> (commit <code>bbebd58</code>): the colloquial 嚟 (lai) vs literary 來 (loi) reading is a Guangfu/Yuehai feature — web-research showed it is not universal across Yue. Gave the six Guangfu varieties (HK, Guangzhou, Macau, overseas, Nanning, Zhongshan) both readings (literary 來 loi as main + a 嚟 lai colloquial variant); corrected Dongguan, which does not use 嚟, to its actual reading of 來 (ngui4 /ŋui˨˩/); left Taishanese (loi3, no 嚟) as-is.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — Han Map: 雷州話 (Leizhou Min) reading corrections — 15 cells</div>
+            <ul>
+                <li>Web-sourced corrections to the provisional Leizhou Min (nan_lei) character readings (commit <code>a30ad94</code>), verified against Wiktionary dialectal data and 小學堂 — e.g. 三 ta→sa, 木 bak→mog, 二 zi→lu, 日 rit→yieg. Tone digits normalized to Chao letters; three cells that would break the variety's tone-category register were held back. (Part of a broader new-variety research pass; only Leizhou Min reached full source-gated verification.)</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — Word Map: language metadata corrections</div>
+            <ul>
+                <li><strong>"Official in: Russia" was over-claimed</strong> for 13 minority languages — Russia's only federal official language is Russian. Web-verified each against republic state-language lists: only Aghul (Dagestan), Nogai (Dagestan & Karachay-Cherkessia), Abaza (Karachay-Cherkessia) and Kolyma Yukaghir (Sakha, local) have genuine republic-level status; the other nine — including Archi, Tsez, Nanai, Selkup, Kildin Sámi and Livvi-Karelian — are recognized indigenous/minority/regional, not official.</li>
+                <li><strong>Speaker counts unified to "K" notation</strong>: the 23 entries still written long-hand ("~640,000", "~100,000") now match the rest of the dataset ("~640K", "~100K"), endangerment notes preserved.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — Word Map: rally round 3 (strict, web-verified) — 13 corrections</div>
+            <ul>
+                <li>A third 20-thread pass with a deliberately strict, web-confirming verifier (commit <code>a51f85b</code>). With the data already cleaned by two rounds, the tightened bar surfaced only 25 candidates (vs 116/152 before) → 13 dictionary-confirmed fixes, 9 rejected as already-correct — the expected diminishing-returns signal. Fixes: Old Burmese <em>moon</em> /lat/→/la/ (no final stop), Kashmiri <em>water</em> long /aːb/, White Hmong <em>good</em> nasal vowel, Quanzhou Hokkien <em>sun</em> /l/-initial + checked coda, Tojolabal <em>heart</em> alma (a Spanish loan, "soul")→altzil, and several IPA/orthography corrections.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — Word Map: labels no longer hidden under the pin cap</div>
+            <ul>
+                <li>Fixed a declutter bug where a language could vanish even with empty space around it (commit <code>4ad88c6</code>): the priority thinning was hard-dropping labels within a minimum pixel distance of a higher-population neighbour <em>before</em> the smart collision pass (which stacks and pushes labels) could run. At zoom 7 / large font, Slovak disappeared next to Austrian German despite only a few labels nearby. Now, whenever the on-screen language count is under the pin cap, every label is handed to the collision pass — which stacks them and hides one only if it truly cannot be placed. Dense low-zoom continental views still thin to prevent a pin-explosion.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — All maps: web-researched decisions on 98 held findings</div>
+            <ul>
+                <li><strong>Revived every still-open held finding</strong> across the entire review history — including items previously parked as "owner judgment" — and had a research pass decide each one against Wiktionary, Glottolog, grammars and dictionaries (commit <code>565a412</code>): 74 apply / 23 reject / 1 question. ~70 cells applied across all three maps. Han Map: Middle-Korean 西 셰/syey (DGJ 齊韻 offglide), Shao-Jiang Min 月/六 陽入 tone. Word Map: Greek <em>dog</em> palatal [sc], Dutch <em>good</em> /ɣut/, Icelandic <em>one</em> einn, Occitan <em>moon</em> lynɔ, and dozens of script/IPA corrections; resolved the Old Cham, Bishnupriya and Ibibio conflicts. Lang Map: word-order re-segmentation plus genuine translation fixes (Spanish "como hueso"→"con fluidez", Javanese bersih→resik, Hindi ergative-ने drop).</li>
+                <li>A few researched changes were held back on integrity grounds — Han Map tone refinements that would break their variety's tone-category system, and Lang Map re-segmentations that invented or dropped words — leaving one genuinely open question — a dubious Tanzanian Chasu/Pare word for <em>sun</em> (nyu), which was then resolved by further research to the correct <strong>idhuva</strong> /iðuʋa/ (a regular Proto-Bantu *ijʊ́bà reflex).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — All maps: deep re-verification of held findings — 29 cells promoted</div>
+            <ul>
+                <li><strong>Consolidated every "probable" (蓋然) held finding</strong> from the recent rallies and deep-re-verified each (commit <code>efd2d3c</code>): 36 promoted → 29 cells applied. Han Map (7): Old Xiang hsn_sf 人 restored its 日母 ɲ- onset, Xi'an 十 dental sɿ, Cantonese 立 laap6 (long-aa standard), Jinhua 南 corrected to the 咸攝 rhyme, Taiyuan/Datong Jin nasalized rhymes. Word Map (22): Warlpiri <em>good</em> ngumarna→ngurrju, Telugu <em>fire</em> అగ్ని→నిప్పు, plus orthography-vs-IPA and Cyrillic-script fixes.</li>
+                <li>Three over-eager promotions were caught and reverted (a self-contradictory pair on Old Cham <em>sun</em>, an invented Czech pronoun, a Urdu re-ordering against the actual sentence order) — routed to web-verified research instead.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — Word Map: 20-thread rally (round 2, cross-family) — 23 corrections</div>
+            <ul>
+                <li><strong>A second 20-thread pass</strong> (commit <code>4f30264</code>) re-shuffled the 1,000 languages into cross-family groups for fresh perspectives: 152 findings → 23 cells. Vietnamese <em>eat/heart/moon</em> ngang-tone ˥→˧ (the same mid-level systematic error as <em>hand</em>), more Mixtec spurious-ʔ removals, hsn <em>water</em> restored -ei rime, Azerbaijani back vowel /ɑ/, Icelandic <em>good</em> /ɹ/→trill /r/, Afrikaans <em>house</em> /ɦ/, and wrong-word fixes (Persian <em>hello</em> درود→سلام, Pipil <em>love</em> nesa→tasujta).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-20 — Word Map: 20-thread rally (round 1) — 31 corrections</div>
+            <ul>
+                <li><strong>20 reviewer threads over all 1,000 languages</strong> (commit <code>d9a92d9</code>): 116 findings → 31 cells applied. Spurious-IPA fixes (Mixtec mix/xtm <em>heart</em> /iniʔ/→/ini/ — no saltillo in the surface; Nheengatu yrl <em>drink</em> acute pasted into the IPA; bn/glk/hi/pnb/wmt/nxq/mic/lg/akb), wrong-word fixes (Old Hungarian ohu <em>dog</em> kuvasz [a breed]→eb, Hittite hit <em>one</em> 𒁹→𒀸, Vedic vsa <em>love</em> →स्नेहः, Middle English enm <em>thanks</em> gramercy→thank, Shipibo shp <em>thanks</em> gracias→irake, Mazandarani mzn <em>eat</em> →خوردن), and orthography (German <em>thanks</em> Danke→danke, Nahuatl nci <em>father</em> tāhtli→tahtli, Sakizaya szy <em>moon</em> ʔulalalalal→ʔulalal).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-19 — Han Map: +8 varieties (diaspora + Sinitic-gap topolects), now 109</div>
+            <ul>
+                <li><strong>Two diaspora topolects</strong> (commits <code>d73525b</code>): <code>wuu_qt</code> 青田話 (Qingtian Wu) — the Oujiang-Wu ancestral home of most Chinese in Italy/Spain/Netherlands/Portugal — and <code>hak_hy</code> 惠陽客家話 (Huiyang Hakka) — the 粵台片 Xin-Hui topolect of Shenzhen / HK New Territories / the Suriname-Guyana Hakka.</li>
+                <li><strong>Six varieties filling within-group Sinitic gaps</strong> (commit <code>2274645</code>): <code>hsn_sf</code> 雙峰話 Old Xiang (retains the Middle-Chinese voiced obstruents), <code>nan_lei</code> 雷州話 Leizhou Min (Qiong-Lei, implosives), <code>mnz</code> 永安話 the previously-missing Central Min, <code>czh_jx</code> 績溪話 Jixi Hui (type-site), <code>cjy_dt</code> 大同話 Datong Jin, <code>msj</code> 邵將話 Shao-Jiang Min.</li>
+                <li>Each new variety has full parity with the gold-standard entry — all 12 metadata fields, name + description localized in all 19 UI languages, 61/61 surface+IPA readings, sources/speakers/romanization — and is registered in the family filter. Readings derived from the closest baseline + each variety's documented profile, flagged as pending native-speaker verification in their sources.</li>
+                <li><strong>Removed the empty <code>zh_kanbun</code> stub</strong> (commit <code>7bc6f5f</code>): it had a filter slot but zero readings (kanbun is a reading method, not per-character pronunciations) so it never rendered. <strong>Map-label names now localized for Han Map-only varieties</strong> (commit <code>eb6088c</code>) via their <code>reading_type</code>, instead of falling back to the English meta name.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-19 — Han Map review rallies #76–#78</div>
+            <ul>
+                <li><strong>#76 — 文白 stratum / diachronic regularity / romanization conformance</strong> (commits <code>1e6c628</code>, <code>1576e00</code>): 13 cells — e.g. nan_my/nan_xm/nan_qz 魚 文讀 hû→gû (疑母 literary g-), gan 血 -ʔ→-t coda, ko_hun 北 aligned to native 된. Plus resolved held collision cases by merge (食 Wu, 火 ja — characters with no real 文白/漢呉 distinction).</li>
+                <li><strong>#77 — verify the 8 newly-added (provisional) varieties</strong> (commit <code>fad4312</code>): 8 cells of generation-error fixes caught by sibling comparison — tone-register slips (msj 見 陰去, nan_lei 六 陽入, mnz 立 陽入), surface↔IPA coda consistency (mnz 目), etc.</li>
+                <li><strong>#78 — comprehensive all-11-families sweep</strong> (commit <code>7d8318e</code>): 26 cells of segmental / cross-variety outliers the prior rallies + deterministic guards missed — zh_xa 食 sʐ̩→sɿ, zh_km 去 撮口 tɕʰy, zh_hf/zh_jh 七 q→c (Jianghuai 尖音), hak_cn/hak_mz 中 retroflex→plain tʃ→ts, cjy 日 ʐ→z, nan_sg 口 喙→kháu, hsn 手 fill the lone missing tone digit.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-19 — Word Map + Lang Map rallies, held-item scrutiny, modal fix</div>
+            <ul>
+                <li><strong>Word Map rally</strong> (commit <code>8638eb2</code>): 24-group family audit (1000 langs) → 24 cells of IPA-accuracy and wrong-word fixes (vi <em>hand</em> ngang tone ˥→˧, ks <em>cat</em> /buːz/→/braːriː/, ff <em>good</em> stale-paste IPA, kek/nch/nhw <em>drink</em>, …).</li>
+                <li><strong>Lang Map word-order rally</strong> (commit <code>42e6549</code>): 11-group review over sampled sentences → 20 segmentation fixes (role-letter swaps like tg/rm/ro S37 birthday/present C↔D, missing C:very segments, B|D fusions).</li>
+                <li><strong>Held-item scrutiny</strong> (commit <code>ad81db5</code>): re-verified the probable findings held from the rallies and promoted 15 across all three maps (the rest kept as genuine convention judgments).</li>
+                <li><strong>Word Map modal</strong> (commit <code>4e43066</code>): clicking a ✓ / ? evidence marker no longer horizontal-scrolls the language modal — the detail row's long citation/URL tokens now wrap (<code>overflow-wrap:anywhere</code>).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-18 — Han Map: label rendering fixes (overlap + Khitan blank)</div>
+            <ul>
+                <li><strong>Map labels no longer overlap when a reading is tall</strong> (commits <code>753c163</code>, <code>184223e</code>, <code>3428e56</code>): native-script (独自文字) lines and multi-reading labels (白讀/文讀, 文白異讀) stack extra rows, so those labels were taller than their neighbours and bled over them. Capped the native-script line height, compacted the stacked variant rows, and — the real fix — made the label de-overlap engine (grid → greedy → simulated annealing → pull-home) reserve each label's <em>real</em> height instead of one uniform value. A plain single-reading label is unchanged; only tall labels now claim the space they occupy.</li>
+                <li><strong>Khitan (<code>zkt</code>) glyphs had a long blank above and below the character</strong> (commits <code>4a7b9e5</code>, <code>a2989e7</code>): the Noto Serif Khitan Small Script font ships with hugely inflated vertical metrics (a 4.0em line box vs the normal 1.0em). Added an <code>ascent/descent-override</code> on the <code>@font-face</code> to restore sane line metrics, and switched Khitan to horizontal rendering (like Tangut) so the vertical glyph-advance blank is gone too.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-18 — Han Map: filter now localized in all 19 UI languages</div>
+            <ul>
+                <li><strong>The family × era filter fell back to Japanese for 15 UI languages</strong> (commit <code>cb12aa0</code>): the Han Map's own filter dictionary only had en/ja/ko/zh and defaulted the rest to Japanese, so selecting e.g. Vietnamese left the whole filter panel in Japanese. Added full translations (family names + panel strings) for the remaining 15 — vi, th, id, hi, de, fr, it, es, pt, ru, uk, ar, he, sw — reusing the codebase's existing family-name translations for consistency. All 19 supported UI languages now render the filter natively.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-18 — Han Map: review rallies #69–#75 + deterministic data guards</div>
+            <ul>
+                <li><strong>Seven multi-reviewer rallies across all 102 varieties</strong> (commits <code>defe477</code>, <code>93d442a</code>, <code>3341b5a</code>, <code>9f134b0</code>, <code>6af52b4</code>, <code>32a9119</code>, <code>b2fe8c8</code>): #69/#70 all-directions passes, then targeted angles — #71 novel sense/reconstruction, #72 Han Map ↔ Word Map cross-map drift, #73 segmental (rime/medial/phonotactic), #74 reconstruction layers, #75 fresh-eyes single-cell outliers. Hundreds of cell corrections; e.g. tone-category single-character swaps (zh_kf 頭 24→42), <code>zh_phagspa</code> 九 g→k against its own glyph, <code>zh_db</code> 鳥 niɔ→niau.</li>
+                <li><strong>New deterministic guard suite</strong> (commits <code>fde883c</code>, <code>ab1f83a</code>, <code>560f2f5</code>, <code>c018be8</code>, <code>76f9ab5</code>, <code>9b81ffd</code>, <code>d7ff09a</code>, <code>0b1e066</code>): rather than re-running LLM rallies forever, systematic error classes are now exhausted by code — Middle-Chinese tone-category consistency, surface↔IPA field integrity + tone agreement + phonotactic legality, variant structural integrity, native-script block + kana↔romaji skeleton, Word Map duplicate keys, Lang Map role integrity. A one-command runner (<code>tools/check_all.js</code>) plus a GitHub-Actions workflow and a pre-commit hook now block any commit that reintroduces these defects.</li>
+                <li><strong>Hokkien standardized to Tâi-lô</strong> (commit <code>e0a65a8</code>) across 8 varieties (223 surface cells, POJ → Tâi-lô); <em>魚</em> colloquial <code>ŋ̍</code> regularization and <code>cnp</code> 三/南/心/飲 <code>-m</code> finals (commits <code>a4e9df3</code>, <code>dcf98df</code>); <code>zh_jh</code> relabelled to Nanjing.</li>
+                <li class="contributor">With corrections from <strong>kori228</strong> (<a href="https://github.com/kori228" target="_blank" rel="noopener">@kori228</a>, PR #8: <code>wuu_sz</code> 行 <code>ghaon6→ghaon2</code>). ありがとうございます！</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-18 — Word Map rally: 37 corrections (18-reviewer audit)</div>
+            <ul>
+                <li><strong>IPA and wrong-word fixes across ~56 languages</strong> (commit <code>e94fc59</code>): orthography→IPA corrections — Arapaho ⟨c⟩=/tʃ/, Corsican <code>ghj</code>=/ɟ/, Manx <code>th</code>=/t/ with no spurious palatalization, Old Spanish ʤ→ʒ / ʦ→t͡s, Old Norse/Nynorsk rhotic ɹ→r, Dungan/Kalmyk syllabic-nasal fixes — plus six wrong-word surfaces (Brahui native Dravidian <em>hand</em>/<em>eye</em>, Fulfulde <em>good</em> moƴƴo, Kashmiri <em>cat</em> براري, Zhuang <em>drink</em> gwn).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-17 — Big rallies: Han Map #67/#68 + Word Map #191 + Lang Map #111</div>
+            <ul>
+                <li><strong>Han Map all-language rallies</strong>: #67 (commit <code>e5aa365</code>, 199 findings, 30 reviewers + 10 developers) and #68 (commit <code>0afc57d</code>, 291 cells, 30 family + 6 dimension reviewers + 12 developers) — the largest sweeps to date across every variety and dimension.</li>
+                <li><strong>Word Map rally #191</strong> (commits <code>60dedb2</code>, <code>7bf9ddf</code>, <code>0b5e491</code>): 141 verified [surface, IPA] corrections applied; separately, <strong>919 duplicate language-code keys</strong> were removed from the <code>words/*.js</code> data blocks (commit <code>60ff622</code>).</li>
+                <li><strong>Lang Map word-order rally #111</strong> (commits <code>7fbf4eb</code>, <code>d19e122</code>): 103 verified word-order corrections.</li>
+                <li><strong>Min Nan 訓讀 relabelling</strong> (commits <code>05aae20</code>, <code>f6bff59</code>): readings that are native words by meaning (e.g. 立 khiā) re-tagged 白讀 → 訓讀（本字）where appropriate.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-16 — Han Map: iPhone tofu fix for new jamo + Nôm glyphs</div>
+            <ul>
+                <li><strong>Self-hosted font subsets for archaic Hangul jamo and Chữ Nôm</strong> (commit <code>95cba56</code>): the newly-added <code>ko_mid</code> Old-Hangul jamo and several Nôm characters rendered as tofu (□) on iPhone, where the system Noto fallback doesn't cover those codepoints. Added per-glyph self-hosted subsets so they render on iOS Safari.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-15 — Han Map data corrections + SEO operations</div>
+            <ul>
+                <li><strong>Wiktionary-verified Wu / Min / Hakka corrections</strong> (commit <code>0f62488</code>): Hakka and Min-Dong fixes, Min Nan gap-fills, and Shanghai Wu tone corrections, each cross-checked against Wiktionary.</li>
+                <li><strong>血 Wu variant fix + homophonic 文白 merge</strong> (commit <code>523d32c</code>): corrected the Wu reading of 血 and merged 文讀/白讀 variant pairs that had become homophonic (identical readings collapsed to a single entry).</li>
+                <li><strong>Removed redundant sense annotations from 行</strong> (commit <code>87e1de0</code>): the split-character 行:1 / 行:2 variant labels no longer repeat the sense tag that the character header already shows.</li>
+                <li><strong>SEO operations</strong>: GA4 analytics tag added (production-only, hostname-gated; commit <code>a79127e</code>), footer links to the SEO index point at the UI-prefixed <code>/en/wordmap/</code> &amp; <code>/en/hanmap/</code> paths (commit <code>a5282ee</code>), and <code>robots.txt</code> stopped declaring <code>sitemap-seo.xml</code> to let the pages be discovered organically (commit <code>abb835f</code>).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-14 — Han Map: Wu &amp; Min romanization overhaul</div>
+            <ul>
+                <li><strong>Suzhou Wu PR #7 merged</strong> (commit <code>f4b02b0</code>): manual <code>wuu_sz</code> / Suzhou Wu edits reconciled against develop's Wugniu pass + IPA tone normalization — kept develop's Chao tone-letter format and applied the PR's deliberate Suzhou intent in that format.</li>
+                <li><strong>Taihu Wu normalized to Wugniu tone-class notation</strong> (commits <code>df98f94</code>, <code>5dfa56d</code>): 文白 tone notation converted to Wugniu tone-class digits, with romanization-meta fixes so each variety declares its scheme.</li>
+                <li><strong>Wenzhou / Jinhua Wu phonotactics</strong> (commits <code>c76b3f4</code>, <code>9847991</code>, <code>a7f08e5</code>): fixed invalid doubled onsets, ran a Qian-consistency pass, and gave each variety an accurate romanization label (kept on pitch-contour, not Wugniu, since those are non-Taihu).</li>
+                <li><strong>日 白讀/文讀 swap corrected</strong> (commit <code>8af1e82</code>) across the Wu varieties.</li>
+                <li><strong>見 onset fix + targeted revert</strong> (commits <code>b85ee4b</code>, <code>d5f1089</code>): Shanghai Wu 見 onset ji→ci per Wiktionary, then reverted an over-broad version that had wrongly changed Cantonese — restoring 耳=ji5 (correct Jyutping).</li>
+                <li class="contributor">Contributor: <strong>kori228</strong> (<a href="https://github.com/kori228" target="_blank" rel="noopener">@kori228</a>, PR #7 + extensive Wu review). ありがとうございます！</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-13 — SEO pages: server-rendered Word/Han Map &amp; word-order pages</div>
+            <ul>
+                <li><strong>New crawlable, server-rendered pages for each word, character, and language</strong> (commits <code>7dada6a</code>, <code>c9649a7</code>, <code>06776a4</code>): PHP front-controller pages that render the popup content plus related-language comparison sections, with richer Han Map metadata; Nginx + PHP-FPM configuration and a feature doc added.</li>
+                <li><strong>Related-language comparison ranking</strong> (commit <code>fe09615</code>): Word/Han comparison sections expose previously-missing metadata and rank related languages by IPA similarity to the page language.</li>
+                <li><strong>Word-order comparison block</strong> (commits <code>3a3e9fa</code>, <code>c5284e0</code>, <code>bd0b7be</code>, <code>3172591</code>, <code>0969b3a</code>): a two-block Lang Map-style comparison with connector lines drawn in front, rows ordered by closeness to the page language, widened segment spacing, underlines dropped, and the redundant per-block sentence title removed.</li>
+                <li><strong>Han Map SEO table</strong> (commit <code>ef04554</code>): native-script glyphs now render in the character table, with <code>vi_nom</code> fixes; <em>心</em> <code>vi_nom</code> → trái tim (𬃻心) per user (commit <code>beb4c78</code>).</li>
+                <li><strong>Taiwan vs Thai-diaspora Mandarin</strong> (commit <code>badc3c7</code>): differentiated their IPA (de-retroflexion in the Thai-substrate variety).</li>
+                <li><strong>Compared languages marked on the map</strong> (commit <code>24c0125</code>): languages in a comparison section are highlighted on the Word/Han map.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-09 — 1,000-language count finalized + extinct-language hygiene + filter/nav polish</div>
+            <ul>
+                <li><strong>Headline counts settled</strong> (commit <code>ac794b0</code>): Word Map 935 → 1,000, sentence / word-order map → 242.</li>
+                <li><strong>Extinct languages hidden from the modern view</strong> (commits <code>557c41e</code>, <code>0f417f4</code>, <code>e0a2eff</code>): 24 extinct languages (8 + 4 + 12) added to <code>EXCLUDED_CODES</code> / registered in <code>HIST_DESCENDANT</code> — Iberian, Liburnian, Caucasian Albanian, Babuza, etc. — so they only appear under the Historical toggle; Meru meta fixed.</li>
+                <li><strong>Word Map filter accuracy</strong>: the filter counter now counts the whole era cohort, not just viewport-rendered labels (commit <code>e35f777</code>), and filter-excluded languages skip the plot entirely instead of dimming (commit <code>1607d11</code>).</li>
+                <li><strong>Header navigation scoping</strong> (commits <code>6aef1ff</code>, <code>c273206</code>): the Word Map and Tree header logos now keep the user within that page instead of bouncing to <code>index.html</code>.</li>
+                <li><strong>Min Nan surface cleanup</strong> (commit <code>8789477</code>): stripped the POJ romanization annotation from <code>nan_xm</code> / <code>nan_zz</code> surface forms.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-04 — Parallel review waves: Lang Map Steps 4–7 + Han Map / Word Map</div>
+            <ul>
+                <li><strong>Lang Map Steps 4–7</strong> (commits <code>0ba4e92</code>, <code>1f69467</code>, <code>f5400e4</code>, <code>2a48c03</code>): Step 4 honorifics deep-dive #81 (33 edits), Step 5 methodology + niche reviews #82–#86 (134 edits), Step 6 reviewers #87–#98 (241 cells, +18 palette letters), Step 7 reviewers #99–#110 (220 cells, +18 palette letters). New roles auto-extended the segment palette where a phenomenon needed its own colour (e.g. apodosis correlatives 所以/就/तो as a new F-role).</li>
+                <li><strong>Han Map review waves #34–#63 + Word Map #81–#100</strong> (commits <code>ebc0772</code>, <code>59f4d2f</code>, <code>95157d4</code>): three back-to-back waves of 10–20 parallel reviewers — #34–#43 (220 cell edits, 257 findings), #44–#53 + Word Map #81–#90 (459 cell edits, 492 findings), #54–#63 + Word Map #91–#100 (348 cell edits, 518 findings).</li>
+                <li><strong>Lang Map UI</strong>: segment text unified to sans-serif on iOS where Latin had been rendering serif (commit <code>db9d827</code>); the mobile sentence action bar swapped emoji for SVG icons (commit <code>568bf1c</code>).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-03 — Lang Map systematic rallies #31–#80 + Han Map #24–#33 + dual-script</div>
+            <ul>
+                <li><strong>Methodology cross-cutter rallies</strong> (commits <code>0dfd5da</code>, <code>95564f4</code>, <code>43f366a</code>): each reviewer audited all 100 sentences for one phenomenon — #39–#43 (108 edits), #44–#48 negation/chunking cross-cutters (63 edits), #49–#55 (183 edits) — catching defects the family-specific reviewers missed.</li>
+                <li><strong>Targeted audits</strong> (commits <code>aefa6fc</code>, <code>c97e167</code>, <code>f44c6ed</code>, <code>6ea167b</code>, <code>8b53b28</code>, <code>d99a780</code>, <code>dba4f80</code>, <code>ff5e2fa</code>, <code>242e9ae</code>): Chinese-dialect Mandarinism #56–#59, dialect-vs-standard #60–#61, cross-sibling chunking #62–#66, Mainland SE Asia chunking #67 (Khmer palette gap 43%→28%), under-covered families #68–#72, palette-gap systematic + content-word consistency #73–#77 (156 edits), Old Japanese + Ryukyuan #78, Q-particle systematic + Korean varieties #79–#80 (17 cells retagged D→E).</li>
+                <li><strong>Han Map specialist reviews #24–#33</strong> (commits <code>6047c05</code>, <code>2e6727e</code>): 10 new reviews opened/addressed/closed, plus 160 round-2 deferral cleanups across 6 reviews.</li>
+                <li><strong>Dual-script rendering</strong>: Sumerian (<code>sux</code>) all 100 sentences converted to cuneiform | Latin dual-script (commit <code>3799f49</code>); Egyptian display fixes + Mongolian/Manchu native scripts + French chunking unification (commit <code>664d555</code>).</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-06-02 — Lang Map: 30-expert audit + 10-developer catch-ball</div>
+            <ul>
+                <li><strong>Full data.js audit</strong> (commit <code>999b7d0</code>): a 30-reviewer specialist audit of the 100 sentences × 223 languages, grouped by language family, then a 10-developer catch-ball that applied well-supported fixes and rebutted overreaching claims, with reviewers re-verifying against live data until all 30 reviews closed. ~480 cell edits — naturalness fixes (idiom / register / orthography / agreement), word-order and role-letter corrections, suffix/clitic/complementizer splits. Edits favour finer segmentation per owner directive (prefer splitting over merging).</li>
+                <li><strong>Consistency rounds</strong> (commits <code>aefe7d5</code>, <code>e9a7d9f</code>, <code>a613fe9</code>, <code>2062261</code>, <code>3ea0c66</code>): split-granularity + dialect-naturalness audit (rounds 4–8), a comprehensive compound sweep (round 9), 19 cross-sibling role-letter fixes + 2 adjacency repairs, and undefined-segment regression fixes — all 30 reviews closed with applier hardening. Findings + reviewer dialogue recorded in <code>langmap_reviews/NN_closed.md</code>.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>

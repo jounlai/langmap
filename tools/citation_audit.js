@@ -89,18 +89,31 @@ for (const [code, ld] of Object.entries(LANG_DATA)) {
 // cites a work by short form while the row carries no bibliography, so the
 // reader has no way to look it up. p_ryu was in that state while citing two
 // works in nineteen languages.
+//
+// The loose CITE pattern is wrong for this job: run over prose it collects
+// "In 1984", "Stalin's 1944", "Bolivia's 2009" — historical dates, not works.
+// The check needs high precision instead, because every hit here is a request
+// for someone to go and write a bibliography entry. So: a bare surname (or
+// two joined by &) directly before the year, no possessive, no leading
+// article. It under-reports — Jenner's 1904 Handbook is a real citation the
+// apostrophe hides — and that is the right way round for this one.
+const STOP = new Set(['In', 'The', 'By', 'Since', 'After', 'Before', 'From', 'Until', 'A', 'An']);
+const CITE_STRICT = /(?:^|[\s(;,])([A-ZÀ-Þ][a-zà-ÿ]{2,}(?:\s*&\s*[A-ZÀ-Þ][a-zà-ÿ]{2,})?)\s+\(?((?:1[5-9]|20)\d{2})\)?/g;
 const citesNoBib = [];
 for (const [code, ld] of Object.entries(LANG_DATA)) {
   const meta = ld.meta || {};
   const en = (meta.description || {}).en || '';
-  CITE.lastIndex = 0;
-  if (CITE.test(en) && !(meta.sources || []).length) citesNoBib.push(code);
+  if ((meta.sources || []).length) continue;
+  CITE_STRICT.lastIndex = 0;
+  let m, hits = [];
+  while ((m = CITE_STRICT.exec(en))) if (!STOP.has(m[1])) hits.push(m[1] + ' ' + m[2]);
+  if (hits.length) citesNoBib.push(code + ': ' + [...new Set(hits)].join(', '));
 }
 
 if (CHECK) {
   console.log('citations: ' + found.size);
   console.log('cites-without-bibliography: ' + citesNoBib.length);
-  for (const c of citesNoBib) console.log('  ' + c + ': description names a work, meta.sources is empty');
+  for (const c of citesNoBib) console.log('  ' + c);
   process.exit(0);
 }
 

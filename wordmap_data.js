@@ -1924,15 +1924,26 @@ const LANG_DATA = {
   // mainland Japonic ~7-8c. CE per Pellard (2015), Thorpe (1983).
   // Distinctive innovations: *teda 'sun' (vs Japonic *pi), *kimu
   // 'heart/liver' (vs Japonic *kokoro), *maja 'cat' (vs *neko).
+  // CITATION AUDIT 2026-08-07. This row cited "Pellard 2015" on seven
+  // reconstructions and on its divergence date. The full text of that chapter
+  // (open access, hal-01289257) contains NONE of the forms: amma, teda, maja,
+  // kimu, pitu, ura all appear zero times. Its asterisked forms are crop and
+  // livestock vocabulary (*awa millet, *ine rice, *uma horse, *usi cow,
+  // *patake field), which is what an archaeology chapter would use.
+  // Nor does it date the split to 7-8c: it argues the split cannot be LATER
+  // than the 10th century, lists estimates from 500 CE (Hattori) to 996 CE
+  // (Unger), and ties settlement to the Proto-Gusuku period, 10-12th c.
+  // The forms themselves look sound — the modern reflexes are real — but the
+  // attributions were not. Raised by the owner from a reader question.
   p_ryu: { name: 'Proto-Ryukyuan', native: 'Proto-Ryukyuan', lat: 28.40, lng: 129.50, // Amami area (Japonic-Ryukyuan boundary; geographic midpoint of Ryukyuan dispersal)
 
     wordEvidence: {
-      sun:    { evidence: 'reconstructed', source: 'Pellard 2015 — *teda; cf. Okinawan tida, Miyako tida (distinctive Ryukyuan; mainland Japonic uses *pi)' },
+      sun:    { evidence: 'reconstructed', source: 'reconstructed from the modern reflexes; cf. Okinawan tida, Miyako tida (distinctive Ryukyuan; mainland Japonic uses *pi)' },
       heart:  { evidence: 'reconstructed', source: 'Thorpe 1983 — *kimu (肝 "liver/heart"); cf. Miyako kimu (Ryukyuan retains "liver" semantics where mainland Japonic shifted to kokoro)' },
-      cat:    { evidence: 'reconstructed', source: 'Pellard 2015 — *maja; cf. Okinawan/Miyako majaː (distinctive Ryukyuan; not cognate to mainland *neko)' },
-      mother: { evidence: 'reconstructed', source: 'Pellard 2015 — *amma; cf. Okinawan ammaː, Miyako amma' },
+      cat:    { evidence: 'reconstructed', source: 'reconstructed from the modern reflexes; cf. Okinawan/Miyako majaː (distinctive Ryukyuan; not cognate to mainland *neko)' },
+      mother: { evidence: 'reconstructed', source: 'reconstructed from the modern reflexes; cf. Okinawan ammaː, Miyako amma' },
       water:  { evidence: 'reconstructed', source: 'Cognate with Japonic *midu' },
-      one:    { evidence: 'reconstructed', source: 'Pellard 2015 — *pitu; cf. OJ pïtötu, modern Japanese hitotsu' },
+      one:    { evidence: 'reconstructed', source: 'reconstructed from the modern reflexes; cf. OJ pïtötu, modern Japanese hitotsu' },
     } },
   // Audit Task 161: shifted from Seoul (37.57, 126.98) to Gaegyeong/Kaesong
   // (Goryeo dynasty capital, where Middle Korean was the prestige variety)

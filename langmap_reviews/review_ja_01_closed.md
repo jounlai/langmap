@@ -24,8 +24,9 @@ the missing 35. It then completed with 0 errors.
 ## The reader was right, and the two halves are wrong differently
 
 **The living mainland dialects are mostly fine; the historical stages are not.**
-Osaka ends at 2 defective cells out of 100 and Hiroshima at 3. Hakata has 8,
-Aomori 6, Kyoto 7, Edo 8 — and Heian 21, more than the other five put together.
+99 cells were repaired in all. Osaka ends at 2 defective cells out of 100 and
+Hiroshima at 3. Hakata has 8, Aomori 6, Edo 8, Kyoto 16 — and Heian 25, more
+than Osaka, Hiroshima, Hakata, Aomori and Edo put together.
 That split is not an accident of effort. A living dialect can absorb a doubtful
 form: the adversarial layer pushed back hard and correctly on うち in Kyoto (the
 characteristic first person there, not only female speech), on ちょうだい in
@@ -33,7 +34,7 @@ Osaka, on どさ in Tsugaru, and my own opening guess that うち across Kyoto, 
 and Hakata was a pronoun template was refuted outright. A closed corpus has no
 such give: ja_heian ended around 1200, so "undescribed variation" and "a
 register I have not met" are not available as defences. Either a form is
-attested for the period or it is an anachronism, and 21 of them were.
+attested for the period or it is an anachronism, and 25 of them were.
 
 **Okinawan was Japanese in disguise.** Four independent reviewers reached that
 sentence almost verbatim. Japanese は marks the topic in 44 of 100 sentences
@@ -150,7 +151,7 @@ elsewhere (#70). Tsugaru voices medial /t/, including before the benefactive
 いっちゃん is a western superlative with no Tōhoku attestation, which also breaks
 the row's own voicing: いぢばん (#4).
 
-## Applied, 3: ja_heian (21 cells)
+## Applied, 3: ja_heian (25 cells)
 
 The largest single block, and the one where the verifiers had the least room to
 manoeuvre. Three defect classes cover almost all of it.

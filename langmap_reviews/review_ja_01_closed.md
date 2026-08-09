@@ -35,7 +35,7 @@ such give: ja_heian ended around 1200, so "undescribed variation" and "a
 register I have not met" are not available as defences. Either a form is
 attested for the period or it is an anachronism, and 21 of them were.
 
-**Okinawan is Japanese in disguise.** Four independent reviewers reached that
+**Okinawan was Japanese in disguise.** Four independent reviewers reached that
 sentence almost verbatim. Japanese は marks the topic in 44 of 100 sentences
 (Okinawan uses や, with vowel coalescence); Japanese に and で serve as case
 particles in about 52 (Okinawan has んじ and っし); the row carries 358 kanji
@@ -185,6 +185,60 @@ else — 黒き湯, 影絵, 遠声, 遠声の器, 器の技, 作り知恵, 空�
 空の網の合言葉え見出でず, with 空の網 coined in the row's established style and え…ず
 for the negative potential, since 見えず would only say "is not visible".
 
+## Applied, 4: ja_oki (31 cells)
+
+The first draft of this log filed Okinawan alongside Miyako and Yaeyama as a
+rebuild rather than a patch. The round-3 verdicts show that was half wrong, and
+the way they show it is worth recording: the verifiers rejected almost every
+maximalist rewrite the reviewers proposed, and rejected them on the same ground
+each time. The row *has* settled conventions — わんや in 31 of 31 first-person
+topics, さー/どー as the obligatory sentence-final, kanji-mixed nouns — and a
+fix that changes one cell's convention manufactures an inconsistency where
+there was none. One reviewer wanted ありや for 彼女; the verifier pointed out
+that i + や fuses to えー, so the "fix" was not even a possible Okinawan word.
+Another wanted わんねー at #44 and #98 alone, which would have made those two
+the sole outliers against 31 siblings.
+
+What survives that filter is ordinary lexical and morphological repair, each
+naming one segment. The verbs were the worst of it: 遊ん- is the Japanese
+euphonic stem where Okinawan has あしぶん/あしどーん; 習っとー is 習って+おる where
+the file itself writes ならとーん at #6; 買った, 話せる, 頑張っとー, 飲んだ, 開く and
+運動しよう were simply untranslated. くりたん is Japanese くれ- with an Okinawan
+past ending stapled on, for a verb that is くぃゆん. 休みー is 休み with the vowel
+lengthened. The obligation frame was 〜んでーならん where Shuri has 〜んだれーならん,
+the presumptive was 〜やんでー where Okinawan uses はじ, and the causal ので was
+rendered with 〜ねー — which is the *conditional*, so #79 said "if her friend
+moves, she is sad".
+
+Two structural ones. 'My' was built as わん + ぬ in four cells, i.e. Japanese
+私の with の respelled — 我ん has a suppletive genitive わー, a bound prefix that
+attaches with no particle at all ('waamuN, 'waaQkwa). And the が/ぬ nominative
+split is categorical in Shuri-Naha: が for pronouns, names and people, ぬ for
+everything else, so #89's password took ぬ.
+
+#46 was a segmentation bug rather than a language one: the split fell inside a
+mora, leaving segment H starting with a small ゃ. Fused into one `E|H` segment,
+which is a mechanism the file already uses 1,442 times.
+
+Two edits carry a caveat, and both are in the log rather than buried:
+
+- **#84 reverts an earlier hand-made fix.** Review 94 item 25 had introduced
+  くずぃしゅう for "last week". くじゅ means *last year*, not "last", so it cannot
+  prefix しゅう; the row treats Sino-Japanese time words as kanji everywhere
+  else, including the identical role split at #35 (先/月). Back to 先週.
+- **#85's advisory frame is unconfirmed.** ぬだる (attributive of ぬむん) and
+  なーふぃん are both dictionary-solid. ほーがまし is the verifier's own suggestion
+  and they flagged it as needing a speaker. It is an improvement on untouched
+  Japanese 飲んだほうがいい either way, but it is the one cell here that is not
+  fully sourced.
+
+One dispute was left unresolved on purpose. Two verifiers disagree over whether
+the desiderative attaches to す (review 78's settled choice, and what ja_rys
+uses at 旅すぶさん, ちゃくすぶさん) or to the 連用形 しー. That is a rally finding
+proposing to overturn a prior hand-made decision on contested grounds, so the
+row's own す stands. What *was* fixed at #44 and #98 is the part both verifiers
+agree on: the Japanese 〜たい surviving untouched.
+
 ## Not applied
 
 **The Okinawan は → や conversion (44 sentences).** The rule is real and was
@@ -194,7 +248,11 @@ all: `-ja 助 は。ii,ee,aa,oo,uu などに終わる語に付く時は -ja の�
 That last clause is why it cannot be applied mechanically: kuri → kuree, kuma →
 kumaa, and a word ending in N takes のー. Forty-four individual judgements, and
 a blind swap would replace one error with another. The verifier said so
-explicitly.
+explicitly, and put it as a scope rule: *"Do NOT change は→や in this row alone;
+raise it as a language-agnostic policy item covering all 44 noun+は rows."*
+Most of the hosts are still Japanese kanji, so deciding the fusion means first
+deciding the Okinawan word underneath. The same holds for に/で → んかい/をぅてぃ/
+っし beyond the two cells at #14, where the verifier named the replacement.
 
 **Miyako and Yaeyama.** Not a patching problem. If the two rows are one
 Okinawan-lexicon text split by a mechanical ending swap — which is what 81%

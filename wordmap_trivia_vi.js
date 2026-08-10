@@ -59,7 +59,7 @@ window.TRIVIA_I18N['vi'] = {
 <p>Kỹ thuật này có trước cả tiếng Tây Ban Nha. Cư dân ban đầu của Canary, người <strong>Guanche</strong>, đã sử dụng một thanh vực huýt sáo của ngôn ngữ riêng của họ (liên quan đến tiếng Berber); khi tiếng Tây Ban Nha Castilla thay thế tiếng Guanche sau cuộc chinh phục thế kỷ 15, tiếng huýt sáo đơn giản được lắp vào từ vựng mới. Nhà nhân học <strong>Ramón Trujillo</strong> đã ghi lại tính liên tục này trong chuyên khảo năm 1978 <em>El silbo gomero: análisis lingüístico</em>, vẫn là tài liệu tham khảo kinh điển.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 So sánh tiếng Tây Ban Nha, Berber và Kabyle</button>
+  <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 So sánh tiếng Tây Ban Nha, Berber và Kabyle</button>
 </div>
 
 <p>Đến những năm 1980, Silbo gần như tuyệt chủng: di cư, đường nhựa và điện thoại đã làm rỗng nền kinh tế chăn cừu duy trì nó. Cabildo Insular de La Gomera đã phản ứng bằng một động thái triệt để — vào năm 1999 họ đã biến <strong>Silbo Gomero thành môn học bắt buộc tại mọi trường tiểu học công lập trên đảo</strong>. Trẻ em hiện dành khoảng 25 phút mỗi tuần để học huýt sáo, và hàng chục nghìn học sinh đã trải qua chương trình này.</p>
@@ -1117,7 +1117,7 @@ window.TRIVIA_I18N['vi'] = {
 <p>Một nửa số người sống ngày nay nói một ngôn ngữ có nguồn gốc từ một tổ tiên tiền sử duy nhất: <strong>Ấn-Âu nguyên thủy</strong> (PIE). Tiếng Anh, Tây Ban Nha, Hindi, Nga, Ba Tư, Bengali, Đức, Pháp, Hy Lạp, Ý, Ba Lan, Punjabi, Marathi — tất cả chúng, cộng với hàng chục ngôn ngữ đã tuyệt chủng như Latinh, Sanskrit, Hittite, Tocharian, và Gothic — có nguồn gốc từ một ngôn ngữ được nói khoảng <strong>6.000 năm trước</strong> trên thảo nguyên Pontic-Caspian (theo giả thuyết Kurgan thống trị của <strong>Marija Gimbutas</strong> và David Anthony) hoặc, trong một lý thuyết cạnh tranh, ở Anatolia.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 Hiển thị họ Ấn-Âu</button>
+  <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 Hiển thị họ Ấn-Âu</button>
 </div>
 
 <p>Không ai từng viết PIE ra. Tuy nhiên, các nhà ngôn ngữ học tự tin trích dẫn các từ PIE: <em>*ph₂tḗr</em> "cha", <em>*méh₂tēr</em> "mẹ", <em>*wódr̥</em> "nước", <em>*ǵneh₃-</em> "biết", <em>*kʷékʷlos</em> "bánh xe". Làm sao họ có thể?</p>

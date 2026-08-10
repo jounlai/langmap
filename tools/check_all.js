@@ -115,6 +115,15 @@ line('asset cache-version freshness', num(s, /violations: (\d+)/));
 s = run('page_asset_version_check.js --check');
 line('page ?v= cache-buster freshness', num(s, /violations: (\d+)/));
 
+// Trivia article buttons whose target does not exist: a data-char that is not
+// one of the 61 characters, a data-code that is not a language row, a data-word
+// with no cell. The click silently does nothing, and because every article body
+// is duplicated per UI language, one bad attribute is nineteen dead buttons.
+// Found by the 2026-08-10 trivia rally: 行 (the map splits it 行:1 / 行:2),
+// ja_on and es_eu (no such rows), ine (an ISO family code, not a language).
+s = run('trivia_button_check.js --check');
+line('trivia button targets exist', num(s, /dead targets: (\d+)/));
+
 // Simplified/traditional consistency per language code. Was scoped to the two
 // words it was written for (sushi, computer) and so missed six traditional-
 // script cuckoo cells in mainland rows (review 432). --all checks every word

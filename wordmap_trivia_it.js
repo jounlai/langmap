@@ -59,7 +59,7 @@ window.TRIVIA_I18N['it'] = {
 <p>La tecnica precede lo spagnolo stesso. Gli abitanti originari delle Canarie, i <strong>Guanci</strong>, usavano già un registro fischiato della loro lingua (di affinità berbera); quando lo spagnolo castigliano soppiantò il guanci dopo la conquista del XV secolo, il fischio fu semplicemente riadattato al nuovo vocabolario. L\'antropologo <strong>Ramón Trujillo</strong> ha documentato questa continuità nella sua monografia del 1978 <em>El silbo gomero: análisis lingüístico</em>, che rimane il riferimento canonico.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 Confronta spagnolo, berbero e cabilo</button>
+  <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Confronta spagnolo, berbero e cabilo</button>
 </div>
 
 <p>Negli anni \'80 il Silbo era quasi estinto: l\'emigrazione, le strade asfaltate e i telefoni avevano svuotato l\'economia pastorale che lo sosteneva. Il Cabildo Insular de La Gomera rispose con una mossa radicale — nel 1999 resero il <strong>Silbo Gomero materia obbligatoria in ogni scuola primaria pubblica dell\'isola</strong>. I bambini ora trascorrono circa 25 minuti a settimana imparando a fischiare, e decine di migliaia di alunni sono passati attraverso il programma.</p>
@@ -1116,7 +1116,7 @@ window.TRIVIA_I18N['it'] = {
 <p>Metà delle persone viventi oggi parla una lingua discendente da un singolo antenato preistorico: il <strong>proto-indoeuropeo</strong> (PIE). Inglese, spagnolo, hindi, russo, persiano, bengalese, tedesco, francese, greco, italiano, polacco, punjabi, marathi — tutti loro, più dozzine di lingue estinte come il latino, il sanscrito, l\'ittita, il tocario, e il gotico — discendono da una lingua parlata circa <strong>6.000 anni fa</strong> sulla steppa pontico-caspica (secondo l\'ipotesi Kurgan dominante di <strong>Marija Gimbutas</strong> e David Anthony) o, in una teoria concorrente, in Anatolia.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 Mostra la famiglia indoeuropea</button>
+  <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 Mostra la famiglia indoeuropea</button>
 </div>
 
 <p>Nessuno scrisse mai il PIE. Eppure i linguisti citano con fiducia parole PIE: <em>*ph₂tḗr</em> "padre", <em>*méh₂tēr</em> "madre", <em>*wódr̥</em> "acqua", <em>*ǵneh₃- </em> "conoscere", <em>*kʷékʷlos</em> "ruota". Come possono?</p>

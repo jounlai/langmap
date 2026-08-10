@@ -56,7 +56,7 @@ window.TRIVIA_I18N['fr'] = {
 <p>La technique précède l\'espagnol lui-même. Les premiers habitants des Canaries, les <strong>Guanches</strong>, utilisaient déjà un registre sifflé de leur propre langue (apparentée au berbère) ; quand l\'espagnol castillan a remplacé le guanche après la conquête du 15e siècle, le sifflement a simplement été réadapté au nouveau vocabulaire. L\'anthropologue <strong>Ramón Trujillo</strong> a documenté cette continuité dans sa monographie de 1978, <em>El silbo gomero : análisis lingüístico</em>, qui reste la référence canonique.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 Comparer espagnol, berbère et kabyle</button>
+  <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Comparer espagnol, berbère et kabyle</button>
 </div>
 
 <p>Dans les années 1980, le Silbo était presque éteint : l\'émigration, les routes goudronnées et les téléphones avaient vidé l\'économie pastorale qui le soutenait. Le Cabildo Insular de La Gomera a réagi par un geste radical — en 1999, ils ont fait du <strong>Silbo Gomero une matière obligatoire dans toutes les écoles primaires publiques de l\'île</strong>. Les enfants passent désormais environ 25 minutes par semaine à apprendre à siffler, et des dizaines de milliers d\'élèves sont passés par le programme.</p>
@@ -1114,7 +1114,7 @@ window.TRIVIA_I18N['fr'] = {
 <p>La moitié des personnes vivantes aujourd'hui parle une langue descendant d'un seul ancêtre préhistorique : le <strong>proto-indo-européen</strong> (PIE). L'anglais, l'espagnol, le hindi, le russe, le persan, le bengali, l'allemand, le français, le grec, l'italien, le polonais, le pendjabi, le marathi — tous, plus des dizaines de langues éteintes comme le latin, le sanskrit, le hittite, le tokharien et le gothique — descendent d'une langue parlée il y a environ <strong>6 000 ans</strong> sur la steppe pontique-caspienne (selon l'hypothèse dominante du Kourgane de <strong>Marija Gimbutas</strong> et David Anthony) ou, dans une théorie concurrente, en Anatolie.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 Afficher la famille indo-européenne</button>
+  <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 Afficher la famille indo-européenne</button>
 </div>
 
 <p>Personne n'a jamais écrit le PIE. Pourtant les linguistes citent avec confiance des mots PIE : <em>*ph₂tḗr</em> « père », <em>*méh₂tēr</em> « mère », <em>*wódr̥</em> « eau », <em>*ǵneh₃-</em> « savoir », <em>*kʷékʷlos</em> « roue ». Comment le peuvent-ils ?</p>

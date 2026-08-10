@@ -139,7 +139,7 @@ const TRIVIA_ARTICLES = [
   <p>The technique pre-dates Spanish itself. The original inhabitants of the Canaries, the <strong>Guanches</strong>, already used a whistled register of their own (Berber-related) language; when Castilian Spanish displaced Guanche after the 15th-century conquest, the whistle was simply re-fitted to the new vocabulary. Anthropologist <strong>Ramón Trujillo</strong> documented this continuity in his 1978 monograph <em>El silbo gomero: análisis lingüístico</em>, which remains the canonical reference.</p>
   
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 Compare Spanish, Berber and Kabyle</button>
+    <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Compare Spanish, Berber and Kabyle</button>
   </div>
   
   <p>By the 1980s Silbo was nearly extinct: emigration, paved roads and telephones had hollowed out the shepherding economy that sustained it. The Cabildo Insular de La Gomera responded with a radical move — in 1999 they made <strong>Silbo Gomero a compulsory subject in every public primary school on the island</strong>. Children now spend roughly 25 minutes a week learning to whistle, and tens of thousands of pupils have passed through the programme.</p>
@@ -172,7 +172,7 @@ const TRIVIA_ARTICLES = [
   <p>口笛文化はスペイン語より古い。先住民<strong>グアンチェ族</strong>（ベルベル系）はすでに自分たちの言語の口笛版を持っていた。15世紀のカスティーリャによる征服でグアンチェ語自体は消滅したが、口笛の<em>方式</em>だけは生き残り、新たな言語であるスペイン語に被せ直された。言語学者<strong>ラモン・トルヒージョ</strong>の1978年の研究書がいまも基本文献となっている。</p>
   
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 スペイン語・ベルベル語・カビル語を比べる</button>
+    <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 スペイン語・ベルベル語・カビル語を比べる</button>
   </div>
   
   <p>1980年代、シルボはほぼ絶滅寸前まで衰えた。離島からの人口流出と舗装道路、そして電話の普及が、口笛を必要としていた牧畜経済を崩したのだ。島政府は1999年、思いきった一手を打つ──<strong>島内すべての公立小学校でシルボ・ゴメロを必修科目化</strong>。子どもたちは週25分ほど口笛を学び、これまでに数万人がこの授業を通過した。</p>
@@ -192,7 +192,7 @@ const TRIVIA_ARTICLES = [
         'Trujillo, Ramón (1978). El silbo gomero: análisis lingüístico. Editorial Interinsular Canaria.',
         'Carreiras, Manuel; Lopez, Jorge; Rivero, Francisco; Corina, David (2005). "Linguistic perception: Neural processing of a whistled language." Nature 433(7021): 31–32.',
         'Meyer, Julien (2015). Whistled Languages: A Worldwide Inquiry on Human Whistled Speech. Springer.',
-        'Plazas, Marcial Morera (1990). "El silbo gomero y otras formas de comunicación silbada." Anuario de Estudios Atlánticos 36: 525–561.',
+        'Batista Rodríguez, José Juan; Morera Pérez, Marcial (coords.) (2007). El silbo gomero: 125 años de estudios lingüísticos y etnográficos. Academia Canaria de la Lengua.',
         { text: 'UNESCO: Whistled language of the island of La Gomera (Silbo Gomero)', url: 'https://ich.unesco.org/en/RL/whistled-language-of-the-island-of-la-gomera-silbo-gomero-00172' },
         { text: 'Glottolog: Spanish (stan1288)', url: 'https://glottolog.org/resource/languoid/id/stan1288' },
       ],
@@ -377,7 +377,7 @@ const TRIVIA_ARTICLES = [
         'Maddieson, Ian (1984). Patterns of Sounds. Cambridge University Press.',
         'Allen, Jerry; Hurd, Conrad (1963). Languages of the Bougainville District. Department of Information and Extension Services, Port Moresby.',
         { text: 'Glottolog: Rotokas (roto1249)', url: 'https://glottolog.org/resource/languoid/id/roto1249' },
-        { text: 'WALS: Rotokas', url: 'https://wals.info/languoid/lect/wals_code_rot' },
+        { text: 'WALS: Rotokas', url: 'https://wals.info/languoid/lect/wals_code_rtk' },
       ],
     },
     {
@@ -463,7 +463,7 @@ const TRIVIA_ARTICLES = [
         `,
       },
       sources: [
-        'Dumézil, Georges (1965). Documents anatoliens sur les langues et les traditions du Caucase, IV: Récits oubykh. Adrien Maisonneuve.',
+        'Dumézil, Georges (1965). Documents anatoliens sur les langues et les traditions du Caucase, III: Nouvelles études oubykhs. Institut d\'Ethnologie, Paris (Travaux et Mémoires de l\'Institut d\'Ethnologie, 71).',
         'Vogt, Hans (1963). Dictionnaire de la langue oubykh. Universitetsforlaget, Oslo.',
         'Charachidzé, Georges (1989). "Ubykh." In B. G. Hewitt (ed.), The Indigenous Languages of the Caucasus, vol. 2: The North West Caucasian Languages. Caravan Books, pp. 357–459.',
         'Hewitt, B. George (2005). "North West Caucasian." Lingua 115(1–2): 91–145.',
@@ -1024,7 +1024,7 @@ const TRIVIA_ARTICLES = [
         'Goodheart, Adam (2000). "The Last Island of the Savages." The American Scholar 69(4): 13–44.',
         'Abbi, Anvita (2006). Endangered Languages of the Andaman Islands. LINCOM Europa.',
         'Blevins, Juliette (2007). "A Long Lost Sister of Proto-Austronesian? Proto-Ongan, Mother of Jarawa and Onge of the Andaman Islands." Oceanic Linguistics 46(1): 154–198.',
-        'Chattopadhyay, Madhumala (2021). Tribes of Car Nicobar: Field Notes. Indian Anthropological Society.',
+        'Chattopadhyay, Madhumala (2001). Tribes of Car Nicobar. Sarup & Sons, New Delhi. (Background on the author\'s Andaman & Nicobar fieldwork; does not treat the Sentinelese.)',
         { text: 'Glottolog: Sentinelese (sent1241)', url: 'https://glottolog.org/resource/languoid/id/sent1241' },
         { text: 'Survival International — The Sentinelese', url: 'https://www.survivalinternational.org/tribes/sentinelese' },
       ],
@@ -1203,7 +1203,7 @@ const TRIVIA_ARTICLES = [
         'Cardona, George (1997). Pāṇini: A Survey of Research. Motilal Banarsidass.',
         'Kiparsky, Paul (1979). Pāṇini as a Variationist. MIT Press / Poona University Press.',
         'Staal, Frits (1965). "Euclid and Pāṇini." Philosophy East and West 15(2): 99–116.',
-        'Bloomfield, Leonard (1929). "On Some Rules of Pāṇini." Journal of the American Oriental Society 47: 61–70.',
+        'Bloomfield, Leonard (1927). "On Some Rules of Pāṇini." Journal of the American Oriental Society 47: 61–70.',
         'Briggs, Rick (1985). "Knowledge Representation in Sanskrit and Artificial Intelligence." AI Magazine 6(1): 32–39.',
         'Joshi, S. D.; Roodbergen, J. A. F. (1991–2009). The Aṣṭādhyāyī of Pāṇini, with translation and commentary (multi-volume). Sahitya Akademi.',
         { text: 'Glottolog: Sanskrit (sans1269)', url: 'https://glottolog.org/resource/languoid/id/sans1269' },
@@ -1415,7 +1415,7 @@ const TRIVIA_ARTICLES = [
         'Lang, Sonja (2014). Toki Pona: The Language of Good. Tawhid.',
         'Lang, Sonja (2021). Toki Pona Dictionary (ku). Illustrated edition.',
         'Roberts, Siobhan (2007). "Canadian has people talking about her invented language." The Globe and Mail, 9 July 2007.',
-        'Blahuš, Marek (2011). "Toki Pona: A Language with a Hundred Words." In Proceedings of the 5th International Conference Grammar & Corpora.',
+        'Blahuš, Marek (2011). "Toki Pona: eine minimalistische Plansprache." In Sabine Fiedler (ed.), Interlinguistische Informationen, Beiheft 18. Berlin, pp. 51–55.',
         'Okrent, Arika (2009). In the Land of Invented Languages. Spiegel & Grau, ch. on micro-languages.',
         { text: 'Official Toki Pona site', url: 'https://tokipona.org/' },
         { text: 'Glottolog: Toki Pona (toki1239)', url: 'https://glottolog.org/resource/languoid/id/toki1239' },
@@ -1507,7 +1507,7 @@ const TRIVIA_ARTICLES = [
         'Quijada, John (2011). A Grammar of the Ithkuil Language. Self-published, ithkuil.net.',
         'Foer, Joshua (2012). "Utopian for Beginners: An amateur linguist loses control of the language he invented." The New Yorker, 24 December 2012.',
         'Quijada, John (2004). Ithkuil: A Philosophical Design for a Hypothetical Language. ithkuil.net (archive).',
-        'Schreyer, Christine (2015). "The Digital Fandom of Constructed Languages." Transformative Works and Cultures 18.',
+        'Schreyer, Christine (2015). "The digital fandom of Na\'vi speakers." Transformative Works and Cultures 18.',
         'Sapir, Edward (1921). Language: An Introduction to the Study of Speech. Harcourt — referenced as historical background to engelang projects.',
         { text: 'Official Ithkuil website (Quijada)', url: 'https://ithkuil.net/' },
         { text: 'The New Yorker — Utopian for Beginners', url: 'https://www.newyorker.com/magazine/2012/12/24/utopian-for-beginners' },
@@ -1801,7 +1801,7 @@ const TRIVIA_ARTICLES = [
         'Tuchscherer, Konrad & Hair, P. E. H. (2002). "Cherokee and West Africa: Examining the Origins of the Vai Script." History in Africa 29: 427–486.',
         'Dalby, David (1967). "A Survey of the Indigenous Scripts of Liberia and Sierra Leone: Vai, Mende, Loma, Kpelle and Bassa." African Language Studies 8: 1–51.',
         'Singler, John Victor (1996). "Scripts of West Africa." In The World\'s Writing Systems, ed. Daniels & Bright, Oxford University Press, pp. 593–598.',
-        { text: 'Glottolog: Vai (vaii1244)', url: 'https://glottolog.org/resource/languoid/id/vaii1244' },
+        { text: 'Glottolog: Vai (vaii1241)', url: 'https://glottolog.org/resource/languoid/id/vaii1241' },
         { text: 'Unicode block: Vai (U+A500–U+A63F)', url: 'https://www.unicode.org/charts/PDF/UA500.pdf' },
       ],
     },
@@ -1885,8 +1885,8 @@ const TRIVIA_ARTICLES = [
         'Nevsky, Nikolai A. (1960). Tangutskaya Filologiya: Issledovaniya i Slovar (2 vols.). Moscow: Izdatelstvo Vostochnoi Literatury.',
         'Sofronov, Mikhail V. (1968). Grammatika tangutskogo yazyka (2 vols.). Moscow: Nauka.',
         'Kepping, Ksenia B. (1985). Tangutskij yazyk: Morfologiya. Moscow: Nauka.',
-        'Kychanov, Evgenij I. (2006). "Tangut Studies in St Petersburg." Manuscripta Orientalia 12(1): 3–9.',
-        'Jacques, Guillaume (2014). "The Tangut Language." In Thurgood & LaPolla (eds.), The Sino-Tibetan Languages (2nd ed.), Routledge: 619–632.',
+        'Kychanov, Evgenij I. (1999). Catalogue of Tangut Buddhist Texts. Kyoto: Faculty of Letters, Kyoto University.',
+        'Gong, Hwang-cherng (2017). "Tangut." In Graham Thurgood & Randy J. LaPolla (eds.), The Sino-Tibetan Languages (2nd ed.), Routledge: 805–822.',
         { text: 'Glottolog: Tangut (tang1334)', url: 'https://glottolog.org/resource/languoid/id/tang1334' },
         { text: 'ISO 639-3: txg', url: 'https://iso639-3.sil.org/code/txg' },
       ],
@@ -2684,12 +2684,12 @@ const TRIVIA_ARTICLES = [
         `,
       },
       sources: [
-        'Jakobson, Roman (1962 [1959]). "Why \'Mama\' and \'Papa\'?" In Selected Writings I: Phonological Studies, pp. 538–545. Mouton.',
+        'Jakobson, Roman (1962 [1960]). "Why \'Mama\' and \'Papa\'?" Originally in B. Kaplan & S. Wapner (eds.), Perspectives in Psychological Theory: Essays in Honor of Heinz Werner. New York: International Universities Press. Reprinted in Selected Writings I: Phonological Studies, pp. 538–545. Mouton.',
         'Murdock, George P. (1959). "Cross-Language Parallels in Parental Kin Terms." Anthropological Linguistics 1(9): 1–5.',
         'Bancel, Pierre J.; Matthey de l\'Etang, Alain (2002). "Tracing the Ancestral Kinship System: The Global Etymon KAKA. Part I: A Linguistic Study." Mother Tongue 7: 209–243.',
         'Locke, John L. (1985). "The role of phonetic factors in parent reference." Journal of Child Language 12(1): 215–220.',
-        'Goldman, Henry I. (2001). "Parental reports of \'MAMA\' sounds in infants: An exploratory study." Journal of Child Language 28(2): 497–506.',
-        { text: 'WALS Feature 137A: M in First Person Singular', url: 'https://wals.info/feature/137A' },
+        'Goldman, Herbert I. (2001). "Parental reports of \'MAMA\' sounds in infants: An exploratory study." Journal of Child Language 28(2): 497–506.',
+        { text: 'WALS Feature 136B: M in First Person Singular', url: 'https://wals.info/feature/136B' },
         { text: 'Wiktionary: Reconstruction of \'mama\' across language families', url: 'https://en.wiktionary.org/wiki/mama' },
       ],
     },
@@ -2710,7 +2710,7 @@ const TRIVIA_ARTICLES = [
   <p>Half the people alive today speak a language descended from a single prehistoric ancestor: <strong>Proto-Indo-European</strong> (PIE). English, Spanish, Hindi, Russian, Persian, Bengali, German, French, Greek, Italian, Polish, Punjabi, Marathi — all of them, plus dozens of extinct languages like Latin, Sanskrit, Hittite, Tocharian, and Gothic — descend from a language spoken roughly <strong>6,000 years ago</strong> on the Pontic-Caspian steppe (according to the dominant Kurgan hypothesis of <strong>Marija Gimbutas</strong> and David Anthony) or, in a competing theory, in Anatolia.</p>
   
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 Show the Indo-European family</button>
+    <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 Show the Indo-European family</button>
   </div>
   
   <p>No one ever wrote PIE down. Yet linguists confidently quote PIE words: <em>*ph₂tḗr</em> "father", <em>*méh₂tēr</em> "mother", <em>*wódr̥</em> "water", <em>*ǵneh₃- </em> "to know", <em>*kʷékʷlos</em> "wheel". How can they?</p>
@@ -2736,7 +2736,7 @@ const TRIVIA_ARTICLES = [
   <p>今を生きる人類の約半数が、同じひとつの先史言語の子孫を話している──<strong>印欧祖語（Proto-Indo-European、PIE）</strong>である。英語、スペイン語、ヒンディー語、ロシア語、ペルシア語、ベンガル語、ドイツ語、フランス語、ギリシア語、イタリア語、ポーランド語、パンジャブ語、マラーティー語、そしてラテン語、サンスクリット、ヒッタイト、トカラ語、ゴート語──すべて、約<strong>6,000年前</strong>のポントス・カスピ海ステップ（<strong>マリヤ・ギンブタス</strong>とデイヴィッド・アンソニーが提唱した有力なクルガン仮説）あるいは対立仮説ではアナトリアで話されていた、一つの言語の末裔である。</p>
   
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 印欧語族を地図で見る</button>
+    <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 印欧語族を地図で見る</button>
   </div>
   
   <p>誰もPIEを書き残さなかった。それでも言語学者はPIEの単語を堂々と引用する──<em>*ph₂tḗr</em>「父」、<em>*méh₂tēr</em>「母」、<em>*wódr̥</em>「水」、<em>*ǵneh₃-</em>「知る」、<em>*kʷékʷlos</em>「車輪」。なぜそんなことが可能なのか。</p>

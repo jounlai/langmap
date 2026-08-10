@@ -59,7 +59,7 @@ window.TRIVIA_I18N['yue'] = {
   <p>呢種技術比西班牙語本身更早出現。加那利群島嘅原住民<strong>關契人</strong>(柏柏爾系)早已有自己語言嘅口哨版本;15世紀卡斯蒂利亞人征服之後,卡斯蒂利亞西班牙語取代關契語,口哨方式只係換上新嘅詞彙。人類學家<strong>拉蒙·特魯希約</strong>喺1978年嘅專著《El silbo gomero: análisis lingüístico》記錄咗呢種連續性,至今仍係經典參考。</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 比較西班牙語、柏柏爾語同卡比爾語</button>
+    <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 比較西班牙語、柏柏爾語同卡比爾語</button>
   </div>
 
   <p>到1980年代Silbo幾乎絕種:移民、鋪好嘅公路同電話搵走咗支撐佢嘅牧羊經濟。戈梅拉島議會喺1999年做咗一個大膽決定——將<strong>Silbo Gomero列為島上所有公立小學嘅必修科</strong>。家陣兒童每週大概用25分鐘學口哨,先後有幾萬學生上過呢個課程。</p>
@@ -1117,7 +1117,7 @@ window.TRIVIA_I18N['yue'] = {
   <p>今日活著嘅一半人講源自單一史前祖先嘅語言:<strong>原始印歐語</strong>(PIE)。英語、西班牙語、印地語、俄語、波斯語、孟加拉語、德語、法語、希臘語、意大利語、波蘭語、旁遮普語、馬拉地語——全部,加上幾十種已滅絕嘅語言好似拉丁語、梵語、赫梯語、吐火羅語同哥特語——都源於大約<strong>6,000年前</strong>喺龐廷-裏海大草原(根據<strong>瑪麗婭·金布塔斯</strong>同大衛·安東尼嘅主導庫爾干假說),或者係競爭理論中,喺安納托利亞講嘅一種語言。</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 顯示印歐語族</button>
+    <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 顯示印歐語族</button>
   </div>
 
   <p>冇人寫低過PIE。然而語言學家信心十足咁引用PIE詞:<em>*ph₂tḗr</em>「父親」、<em>*méh₂tēr</em>「母親」、<em>*wódr̥</em>「水」、<em>*ǵneh₃- </em>「知道」、<em>*kʷékʷlos</em>「輪」。佢哋點樣可以咁做?</p>

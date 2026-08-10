@@ -56,7 +56,7 @@ window.TRIVIA_I18N['zh'] = {
 <p>这种技艺比西班牙语本身更古老。加那利群岛的原住民<strong>关切人(Guanches)</strong>早已使用他们自己语言(柏柏尔语支)的哨语版本;15世纪卡斯蒂利亚征服之后,卡斯蒂利亚西班牙语取代了关切语,哨语只是被重新套用在新词汇上。人类学家<strong>拉蒙·特鲁希略</strong>在他1978年的专著《戈梅拉哨语:语言学分析》中记录了这种连续性,该书至今仍是经典参考。</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 对比西班牙语、柏柏尔语与卡比尔语</button>
+  <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 对比西班牙语、柏柏尔语与卡比尔语</button>
 </div>
 
 <p>到20世纪80年代,哨语已濒临消亡:移民、铺设道路与电话掏空了支撑它的牧业经济。戈梅拉岛议会回应得很激进——1999年将<strong>戈梅拉哨语列为岛上所有公立小学的必修课</strong>。如今孩子们每周约花25分钟学习吹哨,数以万计的学生已通过这一课程。</p>
@@ -1113,7 +1113,7 @@ window.TRIVIA_I18N['zh'] = {
 <p>当今活着的人中约有一半,讲源自单一史前祖先的语言:<strong>原始印欧语(PIE)</strong>。英语、西班牙语、印地语、俄语、波斯语、孟加拉语、德语、法语、希腊语、意大利语、波兰语、旁遮普语、马拉地语——它们全部,加上几十种已灭绝的语言如拉丁语、梵语、赫梯语、吐火罗语和哥特语——都源自约<strong>6,000年前</strong>在庞蒂—里海草原(根据<strong>玛丽亚·金布塔斯</strong>与戴维·安东尼的主流库尔干假说)或在另一种竞争理论中在安纳托利亚使用的一种语言。</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 查看印欧语系</button>
+  <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 查看印欧语系</button>
 </div>
 
 <p>没有人把PIE写下来。然而语言学家自信地引用PIE词:<em>*ph₂tḗr</em>"父亲"、<em>*méh₂tēr</em>"母亲"、<em>*wódr̥</em>"水"、<em>*ǵneh₃-</em>"知道"、<em>*kʷékʷlos</em>"轮子"。怎么能这样?</p>

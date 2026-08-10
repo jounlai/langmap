@@ -59,7 +59,7 @@ window.TRIVIA_I18N['es'] = {
   <p>La técnica precede al español mismo. Los habitantes originales de las Canarias, los <strong>guanches</strong>, ya usaban un registro silbado de su propia lengua (emparentada con el bereber); cuando el castellano desplazó al guanche tras la conquista del siglo XV, el silbido simplemente se reajustó al nuevo vocabulario. El antropólogo <strong>Ramón Trujillo</strong> documentó esta continuidad en su monografía de 1978 <em>El silbo gomero: análisis lingüístico</em>, que sigue siendo la referencia canónica.</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 Comparar español, bereber y cabilio</button>
+    <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Comparar español, bereber y cabilio</button>
   </div>
 
   <p>Hacia los años 80 el silbo estaba casi extinto: la emigración, las carreteras asfaltadas y los teléfonos habían vaciado la economía pastoril que lo sostenía. El Cabildo Insular de La Gomera respondió con una medida radical — en 1999 hicieron del <strong>silbo gomero asignatura obligatoria en todas las escuelas primarias públicas de la isla</strong>. Los niños dedican ahora unos 25 minutos por semana a aprender a silbar, y decenas de miles de alumnos han pasado por el programa.</p>
@@ -1117,7 +1117,7 @@ window.TRIVIA_I18N['es'] = {
   <p>La mitad de las personas vivas hoy habla una lengua descendiente de un único ancestro prehistórico: el <strong>protoindoeuropeo</strong> (PIE). Inglés, español, hindi, ruso, persa, bengalí, alemán, francés, griego, italiano, polaco, panyabí, maratí — todas ellas, más docenas de lenguas extintas como el latín, sánscrito, hitita, tocario y gótico — descienden de una lengua hablada hace aproximadamente <strong>6.000 años</strong> en la estepa póntico-caspiana (según la hipótesis kurgana dominante de <strong>Marija Gimbutas</strong> y David Anthony) o, en una teoría rival, en Anatolia.</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 Mostrar la familia indoeuropea</button>
+    <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 Mostrar la familia indoeuropea</button>
   </div>
 
   <p>Nadie escribió jamás el PIE. Sin embargo los lingüistas citan con confianza palabras del PIE: <em>*ph₂tḗr</em> "padre", <em>*méh₂tēr</em> "madre", <em>*wódr̥</em> "agua", <em>*ǵneh₃- </em> "saber", <em>*kʷékʷlos</em> "rueda". ¿Cómo pueden?</p>

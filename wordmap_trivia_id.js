@@ -59,7 +59,7 @@ window.TRIVIA_I18N['id'] = {
 <p>Teknik ini lebih tua dari bahasa Spanyol sendiri. Penduduk asli Canary, <strong>orang Guanche</strong>, sudah menggunakan register siulan dari bahasa mereka sendiri (terkait Berber); ketika bahasa Spanyol Kastilia menggantikan Guanche setelah penaklukan abad ke-15, siulan itu hanya dipasang ulang ke kosakata baru. Antropolog <strong>Ramón Trujillo</strong> mendokumentasikan kesinambungan ini dalam monograf 1978-nya <em>El silbo gomero: análisis lingüístico</em>, yang tetap menjadi rujukan kanonik.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 Bandingkan bahasa Spanyol, Berber, dan Kabyle</button>
+  <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Bandingkan bahasa Spanyol, Berber, dan Kabyle</button>
 </div>
 
 <p>Pada 1980-an Silbo hampir punah: emigrasi, jalan beraspal, dan telepon telah mengosongkan ekonomi penggembalaan yang menopangnya. Cabildo Insular de La Gomera menanggapi dengan langkah radikal — pada 1999 mereka menjadikan <strong>Silbo Gomero mata pelajaran wajib di setiap sekolah dasar negeri di pulau itu</strong>. Anak-anak kini menghabiskan sekitar 25 menit seminggu belajar bersiul, dan puluhan ribu murid telah melewati program tersebut.</p>
@@ -1117,7 +1117,7 @@ window.TRIVIA_I18N['id'] = {
 <p>Setengah dari orang yang hidup hari ini berbicara bahasa yang diturunkan dari satu leluhur prasejarah: <strong>Proto-Indo-Eropa</strong> (PIE). Inggris, Spanyol, Hindi, Rusia, Persia, Bengali, Jerman, Prancis, Yunani, Italia, Polandia, Punjabi, Marathi — semuanya, ditambah puluhan bahasa punah seperti Latin, Sanskerta, Hittit, Tokharia, dan Goth — diturunkan dari bahasa yang dituturkan kira-kira <strong>6.000 tahun yang lalu</strong> di stepa Pontik-Kaspia (menurut hipotesis Kurgan dominan dari <strong>Marija Gimbutas</strong> dan David Anthony) atau, dalam teori yang bersaing, di Anatolia.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 Tampilkan keluarga Indo-Eropa</button>
+  <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 Tampilkan keluarga Indo-Eropa</button>
 </div>
 
 <p>Tidak ada yang pernah menulis PIE. Namun para linguis dengan yakin mengutip kata PIE: <em>*ph₂tḗr</em> "ayah", <em>*méh₂tēr</em> "ibu", <em>*wódr̥</em> "air", <em>*ǵneh₃- </em> "untuk mengetahui", <em>*kʷékʷlos</em> "roda". Bagaimana mereka bisa?</p>

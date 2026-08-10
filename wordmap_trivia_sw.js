@@ -59,7 +59,7 @@ window.TRIVIA_I18N['sw'] = {
   <p>Mbinu hii ilianza kabla ya Kihispania chenyewe. Wakazi wa awali wa Visiwa vya Kanari, <strong>Waguanche</strong>, tayari walitumia kiwango cha mluzi cha lugha yao (yenye uhusiano na Kiberberi); wakati Kihispania cha Kikastilia kilipoondoa Kiguanche baada ya ushindi wa karne ya 15, mluzi ulibadilishwa tu kufaa msamiati mpya. Mwanaanthropolojia <strong>Ramón Trujillo</strong> aliandika mwendelezo huu katika kitabu chake cha 1978 <em>El silbo gomero: análisis lingüístico</em>, ambacho bado ni rejea ya msingi.</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 Linganisha Kihispania, Kiberberi na Kikabyle</button>
+    <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Linganisha Kihispania, Kiberberi na Kikabyle</button>
   </div>
 
   <p>Kufikia miaka ya 1980 Silbo ilikuwa karibu kutoweka: uhamiaji, barabara zilizojengwa na simu vilikuwa vimemaliza uchumi wa kuchunga ulioiidhinisha. Cabildo Insular de La Gomera ilijibu kwa hatua kali — mwaka 1999 walifanya <strong>Silbo Gomero kuwa somo la lazima katika kila shule ya msingi ya umma kwenye kisiwa</strong>. Watoto sasa hutumia takriban dakika 25 kwa wiki kujifunza kupiga mluzi, na maelfu kadhaa ya wanafunzi wamepitia mpango huo.</p>
@@ -1154,7 +1154,7 @@ window.TRIVIA_I18N['sw'] = {
   <p>Nusu ya watu walio hai leo huzungumza lugha inayoshuka kutoka kwa babu mmoja wa kabla ya historia: <strong>Proto-Indo-Ulaya</strong> (PIE). Kiingereza, Kihispania, Kihindi, Kirusi, Kiperisi, Kibengali, Kijerumani, Kifaransa, Kigiriki, Kiitalia, Kipolishi, Kipunjabi, Kimarathi — vyote, pamoja na makumi ya lugha zilizotoweka kama Kilatini, Kisanskrit, Kihiti, Kitokharian, na Kigoth — hushuka kutoka kwa lugha iliyozungumzwa takriban <strong>miaka 6,000 iliyopita</strong> kwenye steppe ya Pontic-Caspian (kulingana na dhana kuu ya Kurgan ya <strong>Marija Gimbutas</strong> na David Anthony) au, katika nadharia inayoshindana, katika Anatolia.</p>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 Onyesha familia ya Indo-Ulaya</button>
+    <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 Onyesha familia ya Indo-Ulaya</button>
   </div>
 
   <p>Hakuna mtu alipata kuandika PIE. Bado wanaisimu wananukuu kwa imani maneno ya PIE: <em>*ph₂tḗr</em> "baba", <em>*méh₂tēr</em> "mama", <em>*wódr̥</em> "maji", <em>*ǵneh₃- </em> "kujua", <em>*kʷékʷlos</em> "gurudumu". Wanawezaje?</p>

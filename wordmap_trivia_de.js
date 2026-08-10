@@ -62,7 +62,7 @@ window.TRIVIA_I18N['de'] = {
 <p>Die Technik ist älter als das Spanische selbst. Die ursprünglichen Bewohner der Kanaren, die <strong>Guanchen</strong>, benutzten bereits ein gepfiffenes Register ihrer eigenen (berberverwandten) Sprache; als das kastilische Spanisch das Guanche nach der Eroberung des 15. Jahrhunderts verdrängte, wurde das Pfeifen einfach an das neue Vokabular angepasst. Der Anthropologe <strong>Ramón Trujillo</strong> dokumentierte diese Kontinuität in seiner Monographie von 1978, die bis heute die kanonische Referenz bleibt.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 Spanisch, Berberisch und Kabylisch vergleichen</button>
+  <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Spanisch, Berberisch und Kabylisch vergleichen</button>
 </div>
 
 <p>In den 1980er Jahren war Silbo fast ausgestorben: Auswanderung, asphaltierte Straßen und Telefone hatten die Hirtenwirtschaft ausgehöhlt, die es trug. Der Cabildo Insular de La Gomera reagierte mit einer radikalen Maßnahme — 1999 machte er <strong>Silbo Gomero zum Pflichtfach an jeder öffentlichen Grundschule der Insel</strong>. Kinder verbringen jetzt ungefähr 25 Minuten pro Woche damit, das Pfeifen zu lernen, und Zehntausende von Schülern haben das Programm durchlaufen.</p>
@@ -1148,7 +1148,7 @@ window.TRIVIA_I18N['de'] = {
 <p>Die Hälfte der heute lebenden Menschen spricht eine Sprache, die von einem einzigen prähistorischen Vorfahren abstammt: <strong>Proto-Indogermanisch</strong> (PIE). Englisch, Spanisch, Hindi, Russisch, Persisch, Bengali, Deutsch, Französisch, Griechisch, Italienisch, Polnisch, Punjabi, Marathi — alle, plus Dutzende ausgestorbene Sprachen wie Latein, Sanskrit, Hethitisch, Tocharisch und Gotisch — stammen von einer Sprache ab, die vor ungefähr <strong>6.000 Jahren</strong> in der pontisch-kaspischen Steppe gesprochen wurde (nach der vorherrschenden Kurganhypothese von <strong>Marija Gimbutas</strong> und David Anthony) oder in einer konkurrierenden Theorie in Anatolien.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 Die indogermanische Familie zeigen</button>
+  <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 Die indogermanische Familie zeigen</button>
 </div>
 
 <p>Niemand schrieb PIE je nieder. Doch Linguisten zitieren selbstbewusst PIE-Wörter: <em>*ph₂tḗr</em> "Vater", <em>*méh₂tēr</em> "Mutter", <em>*wódr̥</em> "Wasser", <em>*ǵneh₃-</em> "wissen", <em>*kʷékʷlos</em> "Rad". Wie können sie das?</p>

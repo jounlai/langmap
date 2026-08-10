@@ -56,7 +56,7 @@ window.TRIVIA_I18N['ko'] = {
 <p>이 기술은 스페인어 자체보다 오래되었다. 카나리아 제도의 원주민 <strong>관체족</strong>은 이미 자기들 언어(베르베르 계통)의 휘파람 어역을 사용하고 있었고, 15세기 정복 이후 카스티야 스페인어가 관체어를 대체했을 때 휘파람만 새 어휘에 다시 끼워 맞춰졌을 뿐이다. 인류학자 <strong>라몬 트루히요</strong>는 1978년 단행본 <em>El silbo gomero: análisis lingüístico</em>에서 이 연속성을 기록했고, 이 책은 지금도 표준 참고서다.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="compare" data-codes="es_eu,kab,shi">🗣 스페인어, 베르베르어, 카빌어 비교</button>
+  <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 스페인어, 베르베르어, 카빌어 비교</button>
 </div>
 
 <p>1980년대에 실보는 거의 멸종 직전까지 갔다. 이민, 포장도로, 전화기가 이 휘파람을 지탱하던 목축 경제를 무너뜨렸다. 라고메라 도의회는 과감한 한 수를 두었다 — 1999년부터 <strong>실보 고메로를 섬 내 모든 공립 초등학교의 필수 과목</strong>으로 지정한 것이다. 이제 아이들은 매주 25분 정도 휘파람을 배우고, 수만 명의 학생이 이 프로그램을 거쳐갔다.</p>
@@ -1113,7 +1113,7 @@ window.TRIVIA_I18N['ko'] = {
 <p>오늘날 살아 있는 사람들의 절반이 하나의 단일 선사 조상의 후예 언어를 말한다. <strong>원시 인도유럽어</strong>(PIE)다. 영어, 스페인어, 힌디어, 러시아어, 페르시아어, 벵골어, 독일어, 프랑스어, 그리스어, 이탈리아어, 폴란드어, 펀자브어, 마라티어 — 그 모두에 더해, 라틴어, 산스크리트어, 히타이트어, 토하라어, 고트어 같은 수십 개의 사멸 언어들 — 모두가 약 <strong>6,000년 전</strong> 폰토스-카스피해 스텝(마리야 김부타스와 데이비드 앤서니의 지배적인 쿠르간 가설에 따르면) 또는 경쟁 이론에 따르면 아나톨리아에서 말해진 한 언어의 후예다.</p>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="focus" data-code="ine" data-zoom="3">🌍 인도유럽어족 보기</button>
+  <button type="button" class="trivia-action" data-action="focus" data-code="p_ine" data-zoom="3">🌍 인도유럽어족 보기</button>
 </div>
 
 <p>아무도 PIE를 적지 않았다. 그런데도 언어학자들은 PIE 단어를 자신 있게 인용한다. <em>*ph₂tḗr</em> "아버지", <em>*méh₂tēr</em> "어머니", <em>*wódr̥</em> "물", <em>*ǵneh₃-</em> "알다", <em>*kʷékʷlos</em> "바퀴". 어떻게 그것이 가능한가?</p>

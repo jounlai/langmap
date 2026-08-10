@@ -1,8 +1,9 @@
 # Trivia review 01 — the 70 WordMap and HanMap articles
 
 **Date:** 2026-08-10
-**Status:** OPEN. Phase 1 (bibliographies, dead buttons, one broken body) is
-applied. Phase 2 (363 body findings, each cascading to 19 languages) is not.
+**Status:** OPEN. Phase 1 (bibliographies, dead buttons, one broken body) and
+phase 2 (the English and Japanese bodies) are applied. Phase 3 — reflecting the
+same corrections into the other 17 UI languages — is not.
 **Scope:** all 70 read-aloud articles — `wordmap_trivia.js` (30, en + ja in the
 base file and 17 overlay files) and `hanmap_trivia.js` (40, all 19 UI languages
 inline). 418 citations between them.
@@ -160,17 +161,71 @@ nn̄g/兩 finding above), but that is a 19-language body fix and belongs to
 phase 2; fixing the markup now and the content later beats shipping malformed
 HTML in the meantime.
 
-## Not applied: 363 body findings
+## Applied, 4: the English and Japanese bodies (561 edits, 69 articles)
 
-Every one of these edits a body, and every body exists in 19 languages, so the
-full application is roughly 6,900 text edits. The translations are authored
-rather than glossed — they differ in wording, structure and length — so a
-find-and-replace does not work, and fixing only the English would recreate
-exactly the defect the previous Codex review complained about ("英語原文だけ弱めたが
-各翻訳へ cascade していない").
+327 body findings remained after phase 1 (the earlier figure of 363 counted the
+buttons, which were already done). One agent per article turned them into
+**exact find/replace pairs** rather than rewriting anything — the application is
+deterministic, and an edit whose `find` matches zero or two times is reported
+and skipped, never guessed at. 561 edits, 272 English and 289 Japanese, across
+69 of the 70 articles. 84 findings were skipped, mostly as already-done in
+phase 1, out of scope (sources, buttons), or belonging to one of the other 17
+languages.
 
-This needs its own pass: correct the English, then reflect each change into the
-other 18 languages in the register that translation already uses.
+The applier had to decode each string literal, edit the plain text and re-encode
+it in the literal's own quote style, because the two files store strings
+differently — `wordmap_trivia.js` uses backtick template literals for bodies and
+single quotes for summaries, `hanmap_trivia.js` is JSON-shaped with escaped
+double quotes. A round-trip test over all 280 literals (70 articles × body /
+summary × en / ja) confirmed decode→encode is byte-identical before a single
+edit was applied. That test caught a real bug: the first version re-escaped the
+already-escaped `\"` in the JSON-shaped file, which truncated 29 of the 40
+HanMap bodies at the first embedded quote.
+
+Two edits out of 561 failed to match, both in the same cell, and both for the
+same reason: the agent had transcribed タングット as タングート. The article was
+already inconsistent about it — 8 of one spelling and 5 of the other in the same
+Japanese body — so the whole article was normalised to タングート, the standard
+Japanese form, and the two edits then applied.
+
+Spot-checked afterwards: 道 now reads "the go-on dō in 道路 but the kan-on tō in
+神道"; Cantonese "preserves the final stops -p, -t and -k … and split its tones
+into upper and lower registers when the Middle Chinese voiced initials
+devoiced"; 山 is `*s-ŋrar`; the 二 bullet is now about 兩, with 二 explicitly
+noted as having no colloquial reading; Tangut writing runs to 1502; Yi Syllables
+ends at U+A48F.
+
+## Not applied: the other 17 UI languages
+
+Every correction above exists only in English and Japanese. The same sentences
+in Korean, Chinese, Cantonese, Vietnamese, Thai, Indonesian, Hindi, German,
+French, Italian, Spanish, Portuguese, Russian, Ukrainian, Arabic, Hebrew and
+Swahili still carry the original errors. The translations are authored rather
+than glossed — they differ in wording, structure and length — so a
+find-and-replace does not work, and leaving them is exactly the defect the
+previous Codex review complained about ("英語原文だけ弱めたが各翻訳へ cascade して
+いない").
+
+## Two corruptions nobody could have read
+
+While checking for damage from my own edits I ran a script-fusion scan — one
+word containing letters from two different writing systems — and it found two
+defects that had been in the tree since the articles shipped, in HEAD, in
+languages no one on the project reads:
+
+```
+th  hakka-diaspora-language    ...ที่ดูแลทополкต์ซินิติกเดียว
+hi  sino-vietnamese-han-viet   ...चीनी ध्वनि विज्ञान को놀랍도록 बनाए रखा है
+```
+
+The first is the Thai rendering of "topolect" half-overwritten by Cyrillic; the
+second is a Hindi adverb replaced by the Korean word 놀랍도록 "remarkably". Both
+are invisible to a spell-checker, an HTML validator, and any reviewer working
+in English or Japanese. `tools/script_fusion_check.js` now catches this class
+and is the 27th guard; it ignores Latin (transliterations mix it with
+everything), and ignores Thai+Hangul and Arabic+Hangul pairs, because Thai
+writes without spaces and Arabic glues its conjunction to the next word, so a
+Korean proper noun quoted mid-sentence legitimately fuses there.
 
 ## Notes
 
@@ -188,4 +243,18 @@ other 18 languages in the register that translation already uses.
 4. **I introduced a defect while fixing one.** Rewriting the 19 `ja_on` button
    labels, I typed the Hindi one with a Cyrillic а and г inside the Devanagari.
    A mixed-script scan caught it. Any hand-edit across 19 scripts needs that
-   check afterwards, not trust.
+   check afterwards, not trust. Hunting for that mistake is what turned up the
+   two pre-existing corruptions, so the guard exists because I made the error
+   first.
+5. **Have the agents emit edits, not prose.** Asking 69 agents to return exact
+   find/replace pairs and applying them myself meant 561 edits landed with two
+   mismatches, both diagnosable in a minute. Had they rewritten the bodies
+   instead, every article would have needed reading end to end to find what
+   else had moved.
+6. **Test the applier against the file before trusting it.** The round-trip
+   check over 280 literals cost one command and caught an escaping bug that
+   would have silently truncated 29 articles.
+7. **My extraction dropped `titleJa`.** Seven of eight title corrections landed
+   in both languages; the eighth could not, because I never gave the agent the
+   Japanese title to match against. It flagged the gap in `skipped` rather than
+   inventing a match, and the title was fixed by hand afterwards.

@@ -124,6 +124,13 @@ line('page ?v= cache-buster freshness', num(s, /violations: (\d+)/));
 s = run('trivia_button_check.js --check');
 line('trivia button targets exist', num(s, /dead targets: (\d+)/));
 
+// Two writing systems fused inside one word — the signature of a generation or
+// hand-edit accident in a language nobody on the project reads. Two sat in the
+// tree from the day the articles shipped: the Thai for "topolect" half
+// overwritten by Cyrillic, and a Hindi adverb replaced by Korean 놀랍도록.
+s = run('script_fusion_check.js --check');
+line('no fused-script words', num(s, /fusions: (\d+)/));
+
 // Simplified/traditional consistency per language code. Was scoped to the two
 // words it was written for (sushi, computer) and so missed six traditional-
 // script cuckoo cells in mainland rows (review 432). --all checks every word

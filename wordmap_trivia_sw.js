@@ -17,7 +17,7 @@ window.TRIVIA_I18N['sw'] = {
 <p>Mtafiti aliyeanzisha mzozo ni <strong>Daniel Everett</strong>, mmisionari aliyegeuka mwanaisimu, aliyeishi na Wapirahã kwa miaka. Kulingana na ripoti zake, lugha hii inakosa vitu kadhaa ambavyo wanaisimu wa karne ya 20 walidai kuwa vya ulimwengu wote katika lugha ya binadamu:</p>
 
 <ul>
-  <li><strong>Hakuna maneno halisi ya nambari.</strong> Jamii hutumia tu <em>hói</em> ("kiasi kidogo") na <em>hoí</em> ("kiasi kikubwa") — tofauti ya wingi, si ya kuhesabu. Katika majaribio, wasemaji wa Pirahã hawawezi kulinganisha kwa uhakika malundo ya vitu 4 dhidi ya 5, hata wakihamasishwa.</li>
+  <li><strong>Hakuna maneno halisi ya nambari.</strong> Jamii hutumia tu <em>hói</em> ("kiasi kidogo") na <em>hoí</em> ("kiasi kikubwa") — tofauti ya wingi, si ya kuhesabu. Katika majaribio, wasemaji wa Pirahã wanaweza kupanga safu ya vitu kimoja kwa kimoja, hadi vitu kumi, karibu bila kosa lolote — lakini hushindwa mara tu idadi hiyo inapopaswa kubebwa kuvuka nafasi au wakati: ikifichwa nyuma ya kizuizi, ikigeuzwa pembe ya mraba, au ikidondoshwa kimoja baada ya kingine ndani ya kopo.</li>
   <li><strong>Hakuna msamiati wa msingi wa rangi.</strong> Rangi hufafanuliwa kwa muundo — "kama damu", "isiyoiva", "chafu" — badala ya majina yaliyotengamaa kama "nyekundu" au "kijani".</li>
   <li><strong>Hakuna urudufu wa kisarufi.</strong> Sentensi haziwezi kuingizwa ndani ya sentensi nyingine. Hili linapinga moja kwa moja madai ya <strong>Noam Chomsky</strong> kwamba urudufu ndio <em>kipengele</em> kinachotenganisha lugha ya binadamu na mawasiliano ya wanyama. Kama Everett yuko sahihi, Pirahã inavunja nadharia hiyo.</li>
   <li><strong>Hakuna hadithi za uumbaji, hakuna hadithi za kubuni, hakuna hadithi kuhusu mababu ambao hakuna mtu hai aliyewajua.</strong> Kanuni kali ya kitamaduni — Everett anaiita kanuni ya "upesi wa uzoefu" — inazuia usemi kuwa juu tu ya yale ambayo msemaji au mzungumzaji aliye hai amejionea binafsi.</li>
@@ -28,9 +28,9 @@ window.TRIVIA_I18N['sw'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="mother" data-code="myp">👩 Ona "Mama" katika Pirahã</button>
 </div>
 
-<p>Kinachoshangaza zaidi, Pirahã ni mojawapo ya lugha chache duniani zinazoweza kupelekwa kwa <em>njia nne sambamba</em>: inaweza <strong>kuzungumzwa, kupulizwa kama mluzi, kuhumiwa, au kupazwa sauti</strong>. Kwa sababu Pirahã ina vokali tatu tu na konsonanti nane, mlolongo wake wa toni na mdundo hubeba mzigo mzito wa habari — kiasi kwamba mama wanaweza kuwahumia watoto wachanga sentensi nzima bila kutamka konsonanti yoyote.</p>
+<p>Kinachoshangaza zaidi, Pirahã ni mojawapo ya lugha chache duniani zinazoweza kupelekwa kwa <em>njia tano sambamba</em>: inaweza <strong>kuzungumzwa, kupulizwa kama mluzi, kuhumiwa, kuimbwa, au kupazwa sauti</strong>. Kwa sababu Pirahã ina vokali tatu tu na konsonanti nane, mlolongo wake wa toni na mdundo hubeba mzigo mzito wa habari — kiasi kwamba mama wanaweza kuwahumia watoto wachanga sentensi nzima bila kutamka konsonanti yoyote.</p>
 
-<blockquote>"Toni, mkazo, na urefu wa silabi ni muhimu zaidi kuliko vokali na konsonanti katika kubeba ujumbe katika Pirahã." — Daniel Everett</blockquote>
+<blockquote>"Watu wa Pirahã huwasiliana kwa kuimba, kupuliza mluzi na kuhumia karibu kwa kiwango kile kile wanachotumia konsonanti na vokali." — Daniel Everett, <em>Current Anthropology</em> 46(4), 2005, uk. 622</blockquote>
 
 <p>Madai ya Everett <strong>yanapingwa vikali</strong>. Watafiti wa baadaye, akiwemo Andrew Nevins, David Pesetsky na Cilene Rodrigues, wamedai kuwa Pirahã ina urudufu — ila hutumika mara chache tu — na kwamba ukweli wa nambari unaweza kuelezwa bila athari zisizo za kawaida za kiakili. Everett amejibu; mjadala bado uko wazi.</p>
 
@@ -56,7 +56,7 @@ window.TRIVIA_I18N['sw'] = {
     <li>Mdundo, mkazo na toni huhifadhiwa kwa uaminifu zaidi kuliko habari za sehemu — wasikilizaji wanajenga upya maelezo yaliyokosekana kutoka kwa muktadha, kama vile simu zinavyoendelea kufanya kazi kwenye mistari yenye bandwidth ndogo.</li>
   </ul>
 
-  <p>Mbinu hii ilianza kabla ya Kihispania chenyewe. Wakazi wa awali wa Visiwa vya Kanari, <strong>Waguanche</strong>, tayari walitumia kiwango cha mluzi cha lugha yao (yenye uhusiano na Kiberberi); wakati Kihispania cha Kikastilia kilipoondoa Kiguanche baada ya ushindi wa karne ya 15, mluzi ulibadilishwa tu kufaa msamiati mpya. Mwanaanthropolojia <strong>Ramón Trujillo</strong> aliandika mwendelezo huu katika kitabu chake cha 1978 <em>El silbo gomero: análisis lingüístico</em>, ambacho bado ni rejea ya msingi.</p>
+  <p>Mbinu hii ilianza kabla ya Kihispania chenyewe. Wakazi wa awali wa Visiwa vya Kanari, <strong>Waguanche</strong>, tayari walitumia kiwango cha mluzi cha lugha yao (yenye uhusiano na Kiberberi); wakati Kihispania cha Kikastilia kilipoondoa Kiguanche baada ya ushindi wa karne ya 15, mluzi ulibadilishwa tu kufaa msamiati mpya. Mwanaisimu <strong>Ramón Trujillo</strong> wa Chuo Kikuu cha La Laguna alitoa maelezo ya kiisimu ya kawaida ya mluzi huu katika kitabu chake cha 1978 <em>El silbo gomero: análisis lingüístico</em>, ambacho bado ni rejea ya msingi.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Linganisha Kihispania, Kiberberi na Kikabyle</button>
@@ -66,21 +66,21 @@ window.TRIVIA_I18N['sw'] = {
 
   <blockquote>"Ni lugha pekee ya mluzi iliyoendelezwa kikamilifu na kufanyiwa mazoezi na jamii kubwa… mfano wa kipekee wa ubunifu wa kitamaduni wa ubinadamu." — Maandishi ya usajili wa UNESCO, 2009</blockquote>
 
-  <p>Wanasayansi wa ubongo wamevutiwa. Utafiti wa fMRI wa 2005 wa <strong>Manuel Carreiras</strong> na wenzake katika Chuo Kikuu cha La Laguna ulionyesha kuwa wasilbadores wenye uzoefu huchakata Silbo wakitumia <em>maeneo yale yale ya lugha ya nusu ya kushoto</em> yanayohifadhiwa kwa kawaida kwa hotuba — si mitandao ya muziki na nyimbo ya nusu ya kulia ambayo huwashwa wakati wasiokuwa wasilbadores wanasikia mluzi huo huo. Kwa maneno mengine, ubongo unaichukua Silbo kama lugha, si kama muziki au sauti ya ndege. Tokeo hilo moja lilihamisha Silbo kutoka "udadisi wa kifolkloric" kuwa uchunguzi halisi wa jinsi uwezo wa lugha wa binadamu unavyobadilika.</p>
+  <p>Wanasayansi wa ubongo wamevutiwa. Utafiti wa fMRI wa 2005 wa <strong>Manuel Carreiras</strong> na wenzake katika Chuo Kikuu cha La Laguna ulionyesha kuwa wasilbadores wenye uzoefu huchakata Silbo wakitumia <em>maeneo yale yale ya lugha ya nusu ya kushoto</em> yanayohifadhiwa kwa kawaida kwa hotuba — huku kwa wasikilizaji ambao hawakuwahi kujifunza Silbo mluzi huo huo ukiacha maeneo hayo ya lugha kimya. Kwa maneno mengine, ubongo unaichukua Silbo kama lugha, si kama muziki au sauti ya ndege. Tokeo hilo moja lilihamisha Silbo kutoka "udadisi wa kifolkloric" kuwa uchunguzi halisi wa jinsi uwezo wa lugha wa binadamu unavyobadilika.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="28.10" data-lng="-17.20" data-zoom="9" data-tiles="terrain">🌋 Vuta karibu na mabonde</button>
   </div>
 
-  <p>Silbo si kiwango pekee cha mluzi kilichosalia — Kuşköy katika Uturuki, miluzi ya uchumba ya Wahmong, Kihispania cha mluzi cha Wamazatec wa Oaxaca na toni za mluzi za Akha za Yunnan vyote vinaishi pamoja na wazazi wao wa kuzungumzwa — lakini ndicho kilichoinstitualizwa zaidi, kilichoandikwa vizuri zaidi, na pekee kilicholindwa rasmi kama Urithi wa Kitamaduni Usiomshikika. Wakati ujao utakaposimama kwenye mteremko huko La Gomera na kusikia kile kinachosikika kama ndege anayepiga porojo, sikia tena: huenda ni mtu anaambia binamu yake kile cha kuokota dukani.</p>
+  <p>Silbo si kiwango pekee cha mluzi kilichosalia — Kuşköy katika Uturuki, miluzi ya uchumba ya Wahmong, Kimazatec cha mluzi cha Oaxaca na toni za mluzi za Akha za Yunnan vyote vinaishi pamoja na wazazi wao wa kuzungumzwa — lakini ndicho kilichoinstitualizwa zaidi, kilichoandikwa vizuri zaidi, na pekee kilichoorodheshwa katika Orodha Wakilishi ya UNESCO (mluzi wa Kuşköy nchini Uturuki uliorodheshwa mwaka 2017 katika Orodha ya Urithi Unaohitaji Ulinzi wa Haraka). Wakati ujao utakaposimama kwenye mteremko huko La Gomera na kusikia kile kinachosikika kama ndege anayepiga porojo, sikia tena: huenda ni mtu anaambia binamu yake kile cha kuokota dukani.</p>
     `
   },
 
   'taa-most-consonants': {
     title: 'Taa (!Xóõ) — lugha yenye konsonanti nyingi kuliko nyingine yoyote',
-    summary: 'Ikisemwa labda na watu 2,500 kwenye mpaka wa Botswana–Namibia, Taa hujikusanya na takriban konsonanti 160 tofauti, ikiwa ni pamoja na aina tano zilizoendelezwa kikamilifu za mibofyo, katika mfumo mmoja wa fonimu — kwa baadhi ya vipimo mfumo mkubwa zaidi wa sauti uliopata kuelezwa.',
+    summary: 'Ikisemwa labda na watu 2,500 kwenye mpaka wa Botswana–Namibia, Taa hujikusanya na takriban fonimu 160 tofauti — zikiwemo konsonanti zaidi ya 120 na aina zote tano zilizoendelezwa kikamilifu za mibofyo — katika mfumo mmoja — kwa baadhi ya vipimo mfumo mkubwa zaidi wa sauti uliopata kuelezwa.',
     body: `
-  <p>Ukichukua kila konsonanti tofauti ya Kiingereza — zote 24 — na kuziweka juu ya kila konsonanti tofauti ya Kifaransa, Kijerumani, Kirusi, Kiarabu na Kimandarini, bado utakuwa chini ya <strong>Taa</strong>, pia inayoandikwa <em>!Xóõ</em>. Kulingana na hesabu katika sarufi kubwa ya 1985 ya Anthony Traill, Taa ina kati ya <strong>konsonanti 83 na 164 za kifonimu</strong> kutegemea jinsi unavyokata mibofyo na vifaa vyake — na takwimu yoyote ni rekodi ya dunia.</p>
+  <p>Kiingereza hutosheka na konsonanti 24 tofauti. <strong>Taa</strong>, pia inayoandikwa <em>!Xóõ</em>, ina nyingi kiasi kwamba wanaisimu hawakubaliani hata juu ya jinsi ya kuzihesabu. Utafiti mkubwa wa Anthony Traill wa 1985 kuhusu lahaja ya ǃXoon ya Mashariki hutoa angalau <strong>konsonanti 58 za kifonimu</strong> kwa hesabu ya tahadhari zaidi, na maelezo ya baadaye ya mradi wa DoBeS kuhusu ǃXoon ya Magharibi hutoa angalau <strong>87</strong> — lakini idadi hizo ndogo hutokana na kuhesabu mibofyo iliyo tata zaidi kama makundi ya konsonanti. Ukihesabu kila mbofyo tata kama kipande kimoja, orodha hupanda hadi karibu konsonanti <strong>130</strong> katika vifaa vya Traill na <strong>122</strong> katika vya DoBeS — takwimu ambayo WALS huinukuu inapoiweka orodha ya Taa kuwa kubwa kuliko ya lugha yoyote iliyowahi kuandikwa. Kwa hesabu yoyote kati ya hizi, Taa inashikilia rekodi.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="nmn" data-zoom="5">🌍 Onyesha Taa kwenye ramani</button>
@@ -101,11 +101,11 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="compare" data-codes="nmn,naq,xh,zu">🗣 Linganisha lugha za mibofyo (Taa, Khoekhoe, Xhosa, Zulu)</button>
   </div>
 
-  <p>Mwanaisimu wa Afrika Kusini <strong>Anthony Traill</strong> alitumia zaidi ya miaka thelathini kuandika Taa, akianza na utafiti wa shamba la PhD katika miaka ya 1970 na kufikia kilele cha kamusi yake ya 1994, <em>A !Xóõ Dictionary</em>. Kazi ya vyombo ya Traill — kwa kutumia laryngoscopy ya nyuzi za macho na ultrasound — ilionyesha kuwa kile wageni wa awali walipuuza kama "kelele za bahati" kweli zilikuwa <strong>matamshi yenye nia kamili</strong> yenye mfumo wa kufungwa tofauti kwenye velum, uvula na epiglottis. Alionyesha kuwa neno moja la mibofyo linaweza kuhusisha <em>mifumo minne ya hewa kwa wakati mmoja</em>: mfumo wa hewa wa ulimi ndani kwa mibofyo wenyewe, mfumo wa hewa wa mapafu nje kwa sauti, koo iliyofungwa kwa utoaji wa kuruka, na velum iliyoshushwa kwa pua.</p>
+  <p>Mwanaisimu wa Afrika Kusini <strong>Anthony Traill</strong> alitumia zaidi ya miaka thelathini kuandika Taa, akianza na utafiti wa shamba la PhD katika miaka ya 1970 na kufikia kilele cha kamusi yake ya 1994, <em>A !Xóõ Dictionary</em>. Kazi ya vyombo ya Traill — kwa kutumia palatografia tuli, vipimo vya mtiririko wa hewa na picha za eksirei — ilionyesha kuwa kile wageni wa awali walipuuza kama "kelele za bahati" kweli zilikuwa <strong>matamshi yenye nia kamili</strong> yenye mfumo wa kufungwa tofauti kwenye velum na epiglottis. Alionyesha kuwa mbofyo mmoja tu wa Taa unaweza kutumia <em>mifumo yote mitatu ya hewa iliyopo katika usemi wa binadamu</em>: mfumo wa hewa wa ulimi kuelekea ndani unaotoa mbofyo wenyewe, mfumo wa hewa wa mapafu kuelekea nje unaobeba sauti inayoutangulia, na mfumo wa hewa wa koo unaotoa utoaji wa kuruka unaofuata — huku mfululizo mwingine ukishusha velum ili kuongeza unazali.</p>
 
-  <blockquote>"Si tena heshima kuandika mibofyo kama kelele isiyo ya lugha. Ni konsonanti za lugha." — Anthony Traill, 1985</blockquote>
+  <p>Hoja ya Traill haikuwa ya maneno matupu bali ya takwimu. Mibofyo ya Taa si pambo la pembeni katika orodha ya sauti: ni konsonanti za kawaida za lugha hiyo, na kwa kweli ndiyo njia <em>inayopendelewa</em> ya kuanza neno — kwa hesabu moja, <strong>asilimia 82 ya msamiati wa msingi</strong> huanza kwa mbofyo, kiwango cha juu kuliko mfululizo wowote usio wa mibofyo.</p>
 
-  <p>Wanaisimu wanatofautiana kuhusu <em>kwa nini</em> Taa ikawa kelele sana. Dhana moja, iliyotolewa na <strong>Bonny Sands</strong> na wengine, ni kwamba eneo la Kalahari Tuu limekuwa eneo la hifadhi tangu angalau Pleistocene ya marehemu; ufakhamu wa fonolojia unaweza kuwa mkusanyiko wa zamani sana, labda unaonyesha mandhari ya sauti ya lugha za zamani sana za wawindaji-wakusanyaji ambazo sasa zimepotea. Iwe ni kweli au la, Taa hutoa pingamizi kali kwa wazo kwamba lugha za binadamu "huelekea kwa uchumi": wakati jiografia na demografia zinaruhusu, fonolojia inaweza kupanda juu kwa karibu bila mwisho.</p>
+  <p>Wanaisimu wanatofautiana kuhusu <em>kwa nini</em> Taa ikawa kelele sana. Dhana moja iliyopendwa kwa muda mrefu — iliyotetewa kwa sauti kubwa zaidi upande wa jenetiki na <strong>Alec Knight, Peter Underhill na wenzao</strong> mwaka 2003 — ni kwamba Kalahari imekuwa eneo la hifadhi tangu angalau Pleistocene ya marehemu; ufakhamu wa fonolojia unaweza kuwa mkusanyiko wa zamani sana, labda unaoakisi mandhari ya sauti ya lugha za zamani sana za wawindaji-wakusanyaji ambazo sasa zimepotea. Lakini wataalamu wa lugha hizo zenyewe wana shaka kubwa zaidi: <strong>Bonny Sands</strong> na <strong>Tom Güldemann</strong> wamehoji kuwa mibofyo si mabaki ya lugha mama ya kale, kuwa hakuna uhifadhi wa pekee wa kiisimu katika eneo hilo, na kuwa kuenea kwa mibofyo ni jambo la wakati wa karibu kiasi katika historia ya binadamu, si la mwanzo wa lugha. Vyovyote mjadala huo utakavyoisha, Taa hutoa pingamizi kali kwa wazo kwamba lugha za binadamu "huelekea kwa uchumi": wakati jiografia na demografia zinaruhusu, fonolojia inaweza kupanda juu kwa karibu bila mwisho.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="-23.5" data-lng="21.5" data-zoom="6">🌵 Vuta karibu Kalahari</button>
@@ -126,10 +126,10 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="panto" data-lat="-6.30" data-lng="155.20" data-zoom="6">🗺️ Ruka hadi Bougainville</button>
   </div>
 
-  <p>Kihawaii — na fonimu kumi na tatu — wakati mwingine hunukuliwa kama mshindani wa rekodi, na kiwango cha kiume cha <strong>Pirahã</strong> kinaweza kuwa hata chini zaidi; lakini hesabu ambayo wanaisimu kawaida hufikia ni Rotokas, kulingana na maelezo ya makini ya 1973 na wamishionari wanaisimu wa Australia <strong>Stuart na Janice Firchow</strong> kwa ajili ya Summer Institute of Linguistics. Walitambua sehemu tatu za utamkaji, hakuna konsonanti za pua kabisa, na hakuna makundi ya konsonanti zaidi ya kuingiza fupi.</p>
+  <p>Kihawaii — na fonimu kumi na tatu — wakati mwingine hunukuliwa kama mshindani wa rekodi, na kiwango cha kike cha <strong>Pirahã</strong> kinaweza kuwa hata chini zaidi; lakini hesabu ambayo wanaisimu kawaida hufikia ni Rotokas, kulingana na maelezo ya makini ya 1969 na wamishionari wanaisimu wa Summer Institute of Linguistics (SIL) <strong>Irwin na Jacqueline Firchow</strong> katika jarida la <em>Anthropological Linguistics</em>. Walitambua sehemu tatu za utamkaji, hakuna konsonanti za pua kabisa, na hakuna makundi ya konsonanti zaidi ya kuingiza fupi.</p>
 
   <ul>
-    <li><strong>Hakuna za pua.</strong> Familia ya lugha ya Rotokas ni mojawapo ya kesi nadra sana ambapo <em>m, n, ng</em> <strong>hazipo kabisa kama fonimu</strong>. Wakati wasemaji wakuu wanapotoa sauti za pua, hizo huwa zinaonekana kama tofauti za bure za <em>b, d, g</em> katika usemi wa kupiga porojo au kunong'ona, si kama vipande tofauti.</li>
+    <li><strong>Hakuna za pua.</strong> Lahaja ya kati ya Rotokas ni mojawapo ya kesi nadra sana ambapo <em>m, n, ng</em> <strong>hazipo kabisa kama fonimu</strong> — ingawa lahaja jirani ya Aita inazo. Sauti za pua hujitokeza kweli, lakini kama tofauti za bure za mfululizo wenye sauti <em>b, d, g</em> tu, na katika mazingira ya pembeni tu — kwa kukosea wanapojaribu kutamka maneno ya Kiingereza (<em>bye-bye</em> hutoka [maemae]), au wanapomwigiza mgeni anayeongea Rotokas — kamwe si kama vipande tofauti.</li>
     <li><strong>Orodha ndogo ya konsonanti.</strong> <em>p</em> na <em>β</em> (sauti ya midomo miwili laini sawa na Kihispania <em>b</em> kati ya vokali), <em>t</em> na <em>ɾ</em> (tap), <em>k</em> na <em>ɡ</em> — tatu zisizo na sauti na tatu zenye sauti, zilizojumuishwa sawa katika mdomo.</li>
     <li><strong>Silabi za CV pekee.</strong> Kila silabi ni konsonanti moja inayofuatwa na vokali moja. Vokali ndefu na mfululizo wa vokali hubeba toni yoyote ya ziada inayohitajika na lugha.</li>
   </ul>
@@ -142,7 +142,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Rotokas ni mwanachama wa familia ya <strong>Bougainville Kaskazini</strong>, mojawapo ya familia mbili ndogo zisizo za Austronesia (Papua) kwenye kisiwa. Kigenealojia haina uhusiano na lugha za pwani za Austronesia za Oceanic, na majirani wake wa kusini wa Bougainville. Kujitenga huku kunaweza kusaidia kueleza mwelekeo wake kuelekea fonolojia iliyokatwa hivyo: jamii ndogo na zilizoungana za wasemaji wakati mwingine hurahisisha badala ya kupanua, kioo cha mfumo wa Kalahari.</p>
 
-  <blockquote>"Rotokas inaonekana kupinga dhana ya muda mrefu kwamba kikomo cha chini cha orodha za fonimu ni karibu kumi na tano." — Ian Maddieson, <em>Patterns of Sounds</em>, 1984</blockquote>
+  <p>Katika utafiti wa UPSID wa Maddieson — sampuli ya lugha 317 iliyo nyuma ya <em>Patterns of Sounds</em> (1984) — ukubwa wa orodha za vipashio huanzia 11 upande wa chini, katika Rotokas, hadi 141 upande wa juu, katika !Xũ. Rotokas iko chini kabisa ya kipimo hicho.</p>
 
   <p>Bougainville imekuwa na historia ngumu ya marehemu wa karne ya 20: vita vya wenyewe kwa wenyewe kutoka 1988 hadi 1998, kufungwa kwa mgodi wa Panguna, na mazungumzo yanayoendelea kuelekea uhuru kutoka Papua New Guinea baada ya kura ya maoni ya 2019. Rotokas iliyumbisha yote. Leo lugha hufundishwa katika shule za Tok Pisin pamoja na Kiingereza, na <strong>mpango mdogo lakini hai wa kuongeza ujuzi wa kusoma na kuandika wa lugha-mama</strong> umetoa vitabu vya hadithi na tafsiri za Biblia katika lugha hii. Idadi ya wasemaji ni thabiti, ingawa wasemaji wadogo wanakuwa na lugha mbili zaidi katika Tok Pisin.</p>
 
@@ -158,7 +158,7 @@ window.TRIVIA_I18N['sw'] = {
     title: 'Ubykh — siku ambayo lugha yenye konsonanti 84 ilikufa',
     summary: 'Tarehe 7 Oktoba 1992, Tevfik Esenç alifariki katika kijiji cha Uturuki na kuichukua lugha ya Ubykh pamoja naye: lugha ya Caucasian ya Kaskazini-Magharibi yenye konsonanti 84 na vokali mbili tu za kifonimu, iliyorekodiwa kwa miongo na mtafiti wa Kifaransa Georges Dumézil.',
     body: `
-  <p>Wakati kamili lugha inapokufa mara chache unaweza kuwa na tarehe. <strong>Ubykh</strong> ni isipokuwa. Tarehe <strong>7 Oktoba 1992</strong>, katika kijiji cha Uturuki cha <strong>Hacıosman</strong> kusini mwa Bahari ya Marmara, mkulima wa miaka 88 aitwaye <strong>Tevfik Esenç</strong> alilala na hakuamka. Alikuwa msemaji wa mwisho aliye na ufasaha kamili wa lugha ambayo, hadi karne mbili kabla, ilikuwa lugha ya kila siku ya makumi ya maelfu ya watu kwenye pwani ya Bahari Nyeusi ya Caucasus.</p>
+  <p>Wakati kamili lugha inapokufa mara chache unaweza kuwa na tarehe. <strong>Ubykh</strong> ni isipokuwa. Tarehe <strong>7 Oktoba 1992</strong>, katika kijiji cha Uturuki cha <strong>Hacıosman</strong> kusini mwa Bahari ya Marmara, mkulima wa miaka 88 aitwaye <strong>Tevfik Esenç</strong> alilala na hakuamka. Alikuwa msemaji wa mwisho aliye na ufasaha kamili wa lugha ambayo, hadi zaidi kidogo ya karne moja kabla, ilikuwa lugha ya kila siku ya makumi ya maelfu ya watu kwenye pwani ya Bahari Nyeusi ya Caucasus.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="uby" data-zoom="6">🌍 Onyesha Ubykh kwenye ramani</button>
@@ -179,11 +179,11 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="compare" data-codes="ab,ady,kbd">🗣 Linganisha binamu wa Ubykh waliosalia (Abkhaz, Adyghe, Kabardian)</button>
   </div>
 
-  <p>Karibu kila kitu tunachojua kuhusu Ubykh katika karne ya 20 tunadaiwa kwa mwanaisimu wa Indo-Ulaya wa Kifaransa na mtaalam wa hadithi za kulinganisha <strong>Georges Dumézil</strong>. Kuanzia 1930, Dumézil alifanya safari za kurudi-rudi kuelekea Anatolia kurekodi jamii inayopungua, akirudi mwaka kwa mwaka kwa karibu miongo sita. Alitoa mfululizo wa maelezo ya kisarufi na makusanyo ya maandiko — ikiwemo mfululizo wa <em>Documents anatoliens sur les langues et les traditions du Caucase</em> (hasa juzuu ya IV: <em>Récits oubykh</em>, 1965) — ambayo bado ni msingi. Esenç alikuwa mshauri mkuu wa Dumézil katika miaka ya 1960; wawili hao waliandikiana barua na kufanya kazi pamoja hadi kifo cha Dumézil mwaka 1986.</p>
+  <p>Karibu kila kitu tunachojua kuhusu Ubykh katika karne ya 20 tunadaiwa kwa mwanaisimu wa Indo-Ulaya wa Kifaransa na mtaalam wa hadithi za kulinganisha <strong>Georges Dumézil</strong>. Kuanzia 1930, Dumézil alifanya safari za kurudi-rudi kuelekea Anatolia kurekodi jamii inayopungua, akirudi mwaka kwa mwaka kwa karibu miongo sita. Alitoa mfululizo wa maelezo ya kisarufi na makusanyo ya maandiko — ikiwemo mfululizo wa <em>Documents anatoliens sur les langues et les traditions du Caucase</em> (hasa juzuu ya III: <em>Nouvelles études oubykhs</em>, 1965) — ambayo bado ni msingi. Esenç alikuwa mshauri mkuu wa Dumézil katika miaka ya 1960; wawili hao waliandikiana barua na kufanya kazi pamoja hadi kifo cha Dumézil mwaka 1986.</p>
 
-  <blockquote>"Alijua kuwa alikuwa wa mwisho. Aliibeba lugha kama mtu anavyobeba mshumaa katika chumba kilichofungwa: peke yake, makini, na anajua kuwa hewa haitadumu." — kumbukumbu iliyofupishwa ya wafanyikazi wa Dumézil</blockquote>
+  <blockquote>"Tevfik Esenç — msomeeni Fatiha kwa ajili ya roho yake — aliyeifanya lugha ya Ubykh kuwa ya milele, Mubykh wa mwisho aliyeweza kuandika na kuzungumza lugha hii." — maandishi ya Kituruki kwenye jiwe la kaburi la Esenç, ambayo yeye mwenyewe aliyatamka</blockquote>
 
-  <p>Esenç alielewa jukumu lake kwa uwazi usio wa kawaida. Alikumbuka methali, nyimbo, sala, majina ya mahali na hadithi haswa ili ziweze kurekodiwa. Alisisitiza kuzikwa chini ya jiwe la kichwa lililomtaja, kwa Ubykh, kama "msemaji wa mwisho", maneno ambayo yeye mwenyewe aliyaeleza. Mwanafonetiki wa Norway <strong>Hans Vogt</strong> alitoa kamusi ya kawaida ya rejea <em>Dictionnaire de la langue oubykh</em> (1963), na mwanaisimu wa Uholanzi <strong>Rieks Smeets</strong> aliendelea na maandishi hadi mwishoni mwa karne ya 20; pamoja na matoleo ya maandiko ya Dumézil, kazi zao zinaunda msingi wa hati wa lugha hii.</p>
+  <p>Esenç alielewa jukumu lake kwa uwazi usio wa kawaida. Alikumbuka methali, nyimbo, sala, majina ya mahali na hadithi haswa ili ziweze kurekodiwa. Jiwe lenye maneno hayo lipo katika makaburi ya kijiji cha Hacıosman, na yamechongwa kwa Kituruki — si kwa lugha ambayo yanaikumbuka. Mwanafonetiki wa Norway <strong>Hans Vogt</strong> alitoa kamusi ya kawaida ya rejea <em>Dictionnaire de la langue oubykh</em> (1963), na mwanaisimu wa Uholanzi <strong>Rieks Smeets</strong> aliendelea na maandishi hadi mwishoni mwa karne ya 20; pamoja na matoleo ya maandiko ya Dumézil, kazi zao zinaunda msingi wa hati wa lugha hii.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ Vuta karibu na Hacıosman, Uturuki</button>
@@ -198,7 +198,7 @@ window.TRIVIA_I18N['sw'] = {
     title: "Damin — kiwango cha siri cha wanaume kilichovunja kanuni za fonolojia za Australia",
     summary: 'Kilichotumiwa tu na wanaume waliopita sherehe ya kuanzishwa kwenye Kisiwa cha Mornington, Damin ilibanya msamiati mzima wa Lardil katika maneno yapata 200 — na ikavunja kila kanuni ya sauti ya Australia, na vipande vya mibofyo, sauti za upande za kuingia ndani na za kuruka ambazo hazipatikani popote pengine kwenye bara.',
     body: `
-  <p>Katika bara la Australia, zaidi ya lugha 250 za kiasili hushiriki, kwa uthabiti wa kushangaza, palette ndogo ya sauti za usemi: vipande visivyo na sauti katika sehemu nne au tano za utamkaji, sauti za pua zinazolingana, baadhi ya za upande, mizizi miwili — na hakika hakuna mibofyo, hakuna za kuruka, hakuna za kuingia, hakuna sauti zinazoingia ndani. Kisha inakuja <strong>Damin</strong>, na kanuni zinavunjika.</p>
+  <p>Katika bara la Australia, zaidi ya lugha 250 za kiasili hushiriki, kwa uthabiti wa kushangaza, palette ndogo ya sauti za usemi: vipande visivyo na sauti katika sehemu nne au tano za utamkaji, sauti za pua zinazolingana, baadhi ya za upande, sauti mbili za r — na hakika hakuna mibofyo, hakuna za kuruka, hakuna za kuingia, hakuna sauti zinazoingia ndani. Kisha inakuja <strong>Damin</strong>, na kanuni zinavunjika.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="lbz_damin" data-zoom="6">🌍 Onyesha Damin kwenye ramani</button>
@@ -207,7 +207,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Damin (mara nyingine huandikwa <em>Demiin</em>) kilikuwa <strong>kiwango cha ziada cha siri</strong> cha watu wa <strong>Lardil</strong> na majirani <strong>Yangkaal</strong> wa Kisiwa cha Mornington na Kisiwa cha Forsyth, katika Ghuba ya Kusini ya Carpentaria. Kilifundishwa tu kwa wanaume waliopita hatua ya pili ya sherehe ya kuanzishwa ya <em>Warama</em>, na kilitumiwa katika kipindi cha kujitenga cha sherehe mara baada yake. Nje ya muktadha huo wa sherehe ilikuwa, angalau kwa kanuni, marufuku kuzungumza. Kufikia wakati lugha ilipoorodheshwa kwa utaratibu mara ya kwanza — na mwanaisimu wa Marekani <strong>Kenneth Hale</strong> katika miaka ya 1960 — sherehe za mwisho za kuanzishwa zilikuwa zimesimama, na ni wanaume wazee wachache tu walikumbuka mfumo.</p>
 
-  <p>Kile Hale alichopata kilikuwa cha ajabu. Damin haikuwa lugha tofauti: ilishiriki sarufi ya Lardil zaidi au kidogo kwa ujumla. Lakini ilikuwa na msamiati wake wa <strong>vipande takriban 200 vya kileksiko</strong>, kila kimoja kikimwakilisha kwa kanuni ya busara ya kubanya semantiki darasa zima la maneno ya Lardil. <em>n!aa</em>, kwa mfano, ilifunika kila neno la jamaa lililorejelea mwanamume wa moiety yake mwenyewe, na <em>didi</em> ilifunika kila mtu wa moiety kinyume. Msemaji aliyejua vipande 200 vya Damin angeweza kwa kanuni kueleza chochote ambacho Lardil ingeweza kueleza — kwa ufupi tu zaidi.</p>
+  <p>Kile Hale alichopata kilikuwa cha ajabu. Damin haikuwa lugha tofauti: ilishiriki sarufi ya Lardil zaidi au kidogo kwa ujumla. Lakini ilikuwa na msamiati wake wa <strong>vipande takriban 200 vya kileksiko</strong>, kila kimoja kikimwakilisha kwa kanuni ya busara ya kubanya semantiki darasa zima la maneno ya Lardil. <em>n!aa</em>, kwa mfano, ilifunika msemaji mwenyewe na watu wa upande wake, na <em>n!uu</em> ilifunika kila mtu mwingine — viwakilishi kumi na tisa vya Lardil vikibanwa kuwa viwili. Msemaji aliyejua vipande 200 vya Damin angeweza kwa kanuni kueleza chochote ambacho Lardil ingeweza kueleza — kwa ufupi tu zaidi.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="compare" data-codes="lbz,nny">🗣 Linganisha Lardil na Yangkaal</button>
@@ -218,11 +218,11 @@ window.TRIVIA_I18N['sw'] = {
   <ul>
     <li><strong>Vipande vya mibofyo</strong> — pamoja na mibofyo wa midomo miwili <em>ʘ</em>, ambayo vinginevyo inapatikana tu katika lugha za Khoisan za Afrika ya kusini na vipindi vichache vya sherehe duniani kote. Hakuna lugha nyingine ya Australia ina mibofyo.</li>
     <li><strong>Sauti ya upande inayoingia ndani</strong>, inayotamkwa kwa kunyonya hewa ndani juu ya pande za ulimi. Sauti hii ni, kwa kadiri yoyote ambayo mtu ameandika, <strong>ya kipekee kwa Damin</strong> katika lugha za dunia.</li>
-    <li><strong>Sauti ya kuruka</strong> <em>t'</em> na pengine sauti nyingine za kuondoa, tena bila kifani katika sehemu nyingine za Australia.</li>
+    <li><strong>Sauti mbili za kuruka</strong>, <em>p'</em> na <em>k'</em> — ya kwanza hutamkwa kwa mkandamizo wa kaakaa laini badala ya koo, tena bila kifani katika sehemu nyingine za Australia.</li>
     <li><strong>Sauti ya kupiga ya labio-lingual inayotoka nje iliyozungushiwa pua</strong> ("Bronx cheer") — kelele iliyotengenezwa kwa makusudi yenye kuonekana ya kufedhehi iliyowekwa katika huduma ya kiisimu.</li>
   </ul>
 
-  <blockquote>"Damin ni uvumbuzi wa makusudi, iliyotengenezwa kuwa tofauti. Pale ambapo Lardil ina p, Damin ina mibofyo; pale ambapo Lardil ina t, Damin ina ya kuruka. Tofauti yenyewe ni sehemu ya maana ya kiwango." — Ken Hale, 1973</blockquote>
+  <blockquote>Fonolojia ya Damin ilikuwa mkengeuko wa makusudi kutoka ile ya Lardil, si kubadilisha sauti moja baada ya nyingine: kando na vipande vya kawaida vya Australia — na konsonanti sahili za Lardil zilizosalia hasa katika viambishi vya sarufi — Damin ilitumia mibofyo ya pua, sauti ya kuruka ya kaakaa laini <em>k'</em>, mtetemo wa midomo miwili, na sauti ya upande inayoingia ndani, sauti ambazo hazijaandikwa popote pengine barani. — kwa mujibu wa Hale &amp; Nash, "Lardil and Damin Phonotactics" (1997)</blockquote>
 
   <p>Hitimisho ambalo wanaisimu wengi hupata kutoka kwa Damin ni la kuhuzunisha na la kuvutia sawa. <strong>Wasifu wa fonolojia wa "Australia" si wa kibailojia usiokwepeka.</strong> Wasemaji wa Lardil — ambao katika maisha ya kila siku walitumia mfumo wa sauti rahisi kama wowote wa majirani zao — wangeweza, wakati sherehe ilihitaji, kutoa na mara kwa mara kufundisha fonolojia ya kigeni isiyo ya kawaida kwa vijana wanaoingizwa. Chochote kinachoifanya mifumo ya sauti ya juu ya lugha za Australia kuwa sawa kwa maelfu ya kilomita kwa hivyo ni <strong>ya kitamaduni na ya kisociolinguistic, si ya kitamkaji au kiakili</strong>.</p>
 
@@ -247,12 +247,12 @@ window.TRIVIA_I18N['sw'] = {
   <p>Kundi la kawaida la "lugha za mibofyo" linajumuisha asili tatu zisizohusiana kabisa:</p>
 
   <ul>
-    <li><strong>Khoe</strong> — familia inayojumuisha Khoekhoegowab (Nama–Damara) ya Namibia, ǂ'Amkoe na Naro ya Botswana, na lugha kadhaa ndogo za pembezoni mwa Kalahari.</li>
+    <li><strong>Khoe</strong> — familia inayojumuisha Khoekhoegowab (Nama–Damara) ya Namibia, Naro na Gǀui ya Botswana, na lugha kadhaa ndogo za pembezoni mwa Kalahari.</li>
     <li><strong>Tuu</strong> — kundi la kusini linalojumuisha <em>Taa (!Xóõ)</em>, mwenye rekodi ya konsonanti aliyetajwa pengine katika mkusanyiko huu wa maarifa, pamoja na N|uu inayofa polepole ya Afrika Kusini.</li>
     <li><strong>Kx'a</strong> — familia ndogo iliyo na Juǀ'hoan na ǂHoan, na orodha za mibofyo zilizoelimika za zao wenyewe.</li>
   </ul>
 
-  <p>Kwa familia hizi tatu kawaida huongezwa <strong>lugha mbili pekee za Afrika ya Mashariki</strong>: <strong>Hadza</strong>, inayozungumzwa na labda elfu moja ya wawindaji-wakusanyaji karibu na Ziwa Eyasi katika Tanzania, na <strong>Sandawe</strong>, kilomita mia chache kuelekea kaskazini. Zote zina mibofyo; hakuna iliyoonyeshwa kuwa na uhusiano na vikundi vya kusini kwa njia yoyote inayostahili uchunguzi wa karibu. Neno la zamani la mwavuli "Khoisan" liliviweka vyote vitano pamoja, lakini Tom Güldemann na wengine wametumia miaka ishirini iliyopita wakidai — kwa ushawishi — kwamba <strong>Khoisan ni kundi la kieneo, si familia ya kigenetiki</strong>.</p>
+  <p>Kwa familia hizi tatu kawaida huongezwa <strong>lugha mbili pekee za Afrika ya Mashariki</strong>: <strong>Hadza</strong>, inayozungumzwa na labda elfu moja ya wawindaji-wakusanyaji karibu na Ziwa Eyasi katika Tanzania, na <strong>Sandawe</strong>, umbali wa kilomita 150 hivi kuelekea kusini, katika nyanda za juu zenye miamba za Mkoa wa Dodoma. Zote zina mibofyo, lakini hali zao zinatofautiana: <strong>Hadza</strong> haina ndugu yeyote aliyethibitishwa popote, ilhali <strong>Sandawe</strong> yaweza kuwa ndugu wa mbali wa familia ya Khoe — uhusiano ambao Tom Güldemann na Edward Elderkin, kwa kutegemea ushahidi wa msamiati na viwakilishi, wanauona kuwa wa kutia matumaini ingawa haujathibitishwa. Neno la zamani la mwavuli "Khoisan" liliviweka vyote vitano pamoja, lakini Güldemann na wengine wametumia miaka ishirini iliyopita wakidai — kwa ushawishi — kwamba <strong>Khoisan ni kundi la kieneo, si familia ya kigenetiki</strong>.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="compare" data-codes="hts,sad,naq,xh,zu">🗣 Linganisha Hadza, Sandawe, Khoekhoe, Xhosa, Zulu</button>
@@ -263,9 +263,9 @@ window.TRIVIA_I18N['sw'] = {
   <ul>
     <li><strong>Wa midomo miwili</strong> <em>ʘ</em> — pop kama ya busu iliyotengenezwa kwa midomo. Nadra zaidi ya yote; inaendelea hasa katika Taa na aina chache za jirani.</li>
     <li><strong>Wa meno</strong> <em>|</em> — sauti ambayo wasemaji wa Kiingereza huifanya kama "tut-tut".</li>
-    <li><strong>Wa alveoli</strong> <em>!</em> — pop kali iliyotengenezwa kwa kupiga ulimi kutoka kwenye ukingo wa alveoli; mibofyo katika jina la <em>Xhosa</em>.</li>
+    <li><strong>Wa alveoli</strong> <em>!</em> — pop kali iliyotengenezwa kwa kupiga ulimi kutoka kwenye ukingo wa alveoli, kama sauti ya kizibo kinapotoka kwenye chupa; huandikwa <em>q</em> katika Kixhosa na Kizulu.</li>
     <li><strong>Wa kaakaa</strong> <em>ǂ</em> — utoaji laini zaidi nyuma zaidi kwenye kaakaa.</li>
-    <li><strong>Wa upande</strong> <em>||</em> — mibofyo ya upande wa ulimi mara nyingine inatumika na wasemaji wa Kiingereza kuhimiza farasi kuendelea.</li>
+    <li><strong>Wa upande</strong> <em>||</em> — mibofyo ya upande wa ulimi mara nyingine inatumika na wasemaji wa Kiingereza kuhimiza farasi kuendelea; huu ndio mbofyo ulio katika jina lenyewe la <em>Xhosa</em>, ulioandikwa <em>xh</em>.</li>
   </ul>
 
   <p>Kila mibofyo basi inaweza <em>kuongezewa</em> na sauti, pumzi, pua, kuondoa kwa koo, na kuunganishwa na utoaji wa uvula au wa kuruka. Kuzidisha vigezo nje kunatoa baadhi ya lugha za Khoe na Tuu orodha za mibofyo kubwa kuliko mifumo nzima ya konsonanti ya lugha zinazojulikana mahali pengine.</p>
@@ -274,13 +274,13 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="focus" data-code="naq" data-zoom="6">🌍 Onyesha Khoekhoe (Nama)</button>
   </div>
 
-  <p>Ukweli wa kustaajabisha zaidi wa kisociolinguistiki kuhusu mibofyo ni kwamba <strong>iliruka familia</strong>. Lugha za Kibantu <strong>Kizulu</strong>, <strong>Kixhosa</strong>, <strong>Kisotho cha Kusini</strong> na <strong>Kiswati</strong> zote zina mibofyo ya kifonimu — tatu hadi tano kati yao — ingawa ndugu zao wa karibu wa Kibantu zaidi kaskazini hawana hata moja. Maelezo, yaliyofanyika kwa undani na wanahistoria na wanaisimu kutoka <strong>Anthony Traill</strong> hadi <strong>Rainer Vossen</strong>, yanaenda takriban kama ifuatavyo: kadiri wakulima wanaozungumza Kibantu walivyohamia kusini mwa Limpopo katika milenia ya pili BK, walikutana na, walioana na na walifyonza sehemu jamii za Khoe na San. Vizazi vya lugha mbili ambavyo vilikua katika kaya zilizochanganyika vilibeba mibofyo kuvuka mpaka wa familia, hasa katika msamiati wa heshima na sherehe. Neno la Kixhosa <em>iXhosa</em> lenyewe linaanza na mibofyo ya alveoli.</p>
+  <p>Ukweli wa kustaajabisha zaidi wa kisociolinguistiki kuhusu mibofyo ni kwamba <strong>iliruka familia</strong>. Lugha za Kibantu <strong>Kizulu</strong>, <strong>Kixhosa</strong>, <strong>Kisotho cha Kusini</strong> na <strong>Kiswati</strong> zote zina mibofyo ya kifonimu — aina tatu katika Kizulu na Kixhosa, moja tu katika Kisotho cha Kusini na Kiswati — ingawa ndugu zao wa karibu wa Kibantu zaidi kaskazini hawana hata moja. Maelezo, yaliyofanyika kwa undani na wanahistoria na wanaisimu kutoka <strong>Anthony Traill</strong> hadi <strong>Rainer Vossen</strong>, yanaenda takriban kama ifuatavyo: kadiri wakulima wanaozungumza Kibantu walivyohamia kusini mwa Limpopo katika milenia ya pili BK, walikutana na, walioana na na walifyonza sehemu jamii za Khoe na San. Vizazi vya lugha mbili ambavyo vilikua katika kaya zilizochanganyika vilibeba mibofyo kuvuka mpaka wa familia, hasa katika msamiati wa heshima na sherehe. Jina <em>isiXhosa</em> lenyewe linabeba mmoja: mara tu baada ya kiambishi awali cha ngeli, <em>xh</em> ni mbofyo wa upande wenye pumzi.</p>
 
-  <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">Ukibofya <strong>Linganisha</strong> hapo juu, utagundua kuwa hakuna lolote la maneno ishirini ya msingi ya Swadesh-100 katika Kixhosa au Kizulu yana <em>mibofyo</em> ndani. Hiyo ni nusu ya pili ya hadithi: mibofyo katika Kibantu inaishi karibu kabisa katika <strong>msamiati wa kitamaduni na wa heshima</strong> — majina (<em>iXhosa</em>, <em>uXamu</em>), wanyama (<em>iqaqa</em> "polecat", <em>ixoxo</em> "chura"), salamu, badala za mwiko katika usemi wa kuepuka wa <em>hlonipha</em>, na mikopo ya Khoekhoe (<em>iCawa</em> "Jumapili"). Maneno ya kurithi ya Kibantu ya maji / moto / jua / mkono / jicho yanabaki bila mibofyo.</p>
+  <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">Ukibofya <strong>Linganisha</strong> hapo juu, utagundua kuwa katika Kixhosa au Kizulu hakuna hata neno moja la msingi la kila siku la ramani hii lenye <em>mibofyo</em> ndani. Hiyo ni nusu ya pili ya hadithi: mibofyo katika Kibantu inaishi karibu kabisa katika <strong>msamiati wa kitamaduni na wa heshima</strong> — majina (<em>iXhosa</em>, <em>uXamu</em>), wanyama (<em>iqaqa</em> "polecat", <em>ixoxo</em> "chura"), salamu, badala za mwiko katika usemi wa kuepuka wa <em>hlonipha</em>, na mikopo ya Khoekhoe (<em>iCawa</em> "Jumapili"). Maneno ya kurithi ya Kibantu ya maji / moto / jua / mkono / jicho yanabaki bila mibofyo.</p>
 
-  <blockquote>"Mibofyo si sauti zilizokopwa kwa njia ambayo maneno yaliyokopwa hukopwa. Ni vipengele vilivyorithiwa vya utoto wa lugha mbili — na mara tu vinapokuwa katika msamiati wa kizazi kimoja, vinakuwa vya kuzaliwa." — Anthony Traill, 1995 (kwa kufupisha)</blockquote>
+  <p>Jinsi mambo yalivyokwenda sasa yamefahamika vizuri kiasi. Pakendorf, Gunnink, Sands na Bostoen (2017), wakichanganya ushahidi wa kiisimu na wa kijenetiki, wanahitimisha kuwa kuchukuliwa kwa mibofyo kuliambatana na wanawake wengi wanaozungumza lugha za Khoisan kuolewa katika jamii zinazozungumza Kibantu, huku sehemu ya athari ikitokana na wasemaji wa Khoisan wenyewe kubadili lugha. Kwa maelezo hayo mibofyo haikuingia jinsi neno la mkopo la kawaida linavyoingia: iliingia kupitia kaya ambazo watoto walikulia wakisikia lugha zote mbili, na mara kizazi kimoja kilipokuwa nayo, ilikuwa tu konsonanti za asili.</p>
 
-  <p>Zaidi ya Afrika ya kusini, kesi zilizoandikwa kwa uthabiti ni lugha pekee za Afrika Mashariki <strong>Hadza</strong> na <strong>Sandawe</strong>, pamoja na kiwango maalum cha sherehe <strong>Damin</strong> katika Australia — kinachotumiwa na wanaume waliojahizwa wa Kisiwa cha Mornington, si kama lugha ya kuzungumzwa ya kawaida. (Taarifa kuhusu sauti kama za mibofyo katika kiwango cha sherehe cha El Molo kilichotoweka zipo lakini hazijathibitishwa vizuri.) Hiyo inafanya eneo la mibofyo la Afrika ya kusini kuwa mojawapo ya maeneo ya lugha yenye nguvu zaidi duniani — mahali ambapo kipengele kimoja cha ajabu kimekuwa kikidumishwa, kikielimika na kibadilishwana katika familia nne kwa angalau miaka elfu kadhaa.</p>
+  <p>Zaidi ya Afrika ya kusini, kesi zilizoandikwa kwa uthabiti ni lugha pekee za Afrika Mashariki <strong>Hadza</strong> na <strong>Sandawe</strong>, lugha ya Kikushi <strong>Dahalo</strong> ya pwani ya Kenya, pamoja na kiwango maalum cha sherehe <strong>Damin</strong> katika Australia — kinachotumiwa na wanaume waliojahizwa wa Kisiwa cha Mornington, si kama lugha ya kuzungumzwa ya kawaida. Dahalo ndiyo ya tofauti kuliko zote: mibofyo yake imesalia katika maneno arobaini hivi tu, baadhi yao yakiwa ya msamiati wa msingi, na kwa kawaida huchukuliwa kuwa mabaki ya lugha ya awali yaliyoachwa wasemaji wake walipohamia lugha ya Kikushi. (Taarifa kuhusu sauti kama za mibofyo katika kiwango cha sherehe cha El Molo kilichotoweka zipo lakini hazijathibitishwa vizuri.) Hiyo inafanya eneo la mibofyo la Afrika ya kusini kuwa mojawapo ya maeneo ya lugha yenye nguvu zaidi duniani — mahali ambapo kipengele kimoja cha ajabu kimekuwa kikidumishwa, kikielimika na kibadilishwana katika familia nne kwa angalau miaka elfu kadhaa.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Chunguza ukanda wa mibofyo wa Afrika ya kusini</button>
@@ -294,14 +294,14 @@ window.TRIVIA_I18N['sw'] = {
     title: 'Kibasque — lugha ambayo Ulaya ilisahau kuibadilisha',
     summary: 'Lugha pekee ya Ulaya ya magharibi inayoendelea kabla ya Indo-Ulaya, inayozungumzwa katika Pyrenees na watu ~750,000 — na haina uhusiano na kitu chochote kingine duniani.',
     body: `
-  <p>Wakati Warumi waliingia Hispania katika karne ya 2 KK, walikutana na makumi ya lugha. Ndani ya miaka mia nne, karibu kila moja ilikuwa imebadilishwa na Kilatini — mbegu ya Kihispania, Kireno, Kikatalani, Kifaransa, na Ulaya zingine za Kiromance. Karibu kila moja. Katika Pyrenees za magharibi, lugha moja ilikataa kufa. Wasemaji wake bado wanajiita <em>euskaldunak</em> — kwa hakika "wale walio na Kibasque" — na lugha yao, <strong>Euskara</strong>, ni mbakizo wa mwisho wa Ulaya iliyokuwepo kabla ya wa-Indo-Ulaya kuwasili.</p>
+  <p>Wakati Warumi waliingia Hispania mwaka 218 KK, walikutana na makumi ya lugha. Ndani ya miaka mia nne, karibu kila moja ilikuwa imebadilishwa na Kilatini — mbegu ya Kihispania, Kireno, Kikatalani, Kifaransa, na Ulaya zingine za Kiromance. Karibu kila moja. Katika Pyrenees za magharibi, lugha moja ilikataa kufa. Wasemaji wake bado wanajiita <em>euskaldunak</em> — kwa hakika "wale walio na Kibasque" — na lugha yao, <strong>Euskara</strong>, ni mbakizo wa mwisho wa Ulaya iliyokuwepo kabla ya wa-Indo-Ulaya kuwasili.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="eu" data-zoom="7">🌍 Onyesha Kibasque kwenye ramani</button>
     <button type="button" class="trivia-action" data-action="panto" data-lat="43.17" data-lng="-2.47" data-zoom="8">⛰️ Ruka hadi Nchi ya Kibasque</button>
   </div>
 
-  <p>Takriban watu 750,000 husema Kibasque leo, wakigawanywa kati ya majimbo matatu katika Hispania (Bizkaia, Gipuzkoa, Araba na Navarra) na matatu katika Ufaransa (Labourd, Navarre ya Chini, Soule). Kigenetiki, lugha ni <strong>pekee</strong> kweli: hakuna ndugu waliothibitishwa. Wanaisimu wametumia karne mbili wakijaribu kuiunganisha na Kiberi, Kiberberi, Kicaucasian, Kietruscan, Kipiktish, Kiburushaski, na hata Kiainu — na hakuna pendekezo lolote limestahimili ukaguzi wa wenzao.</p>
+  <p>Takriban watu 750,000 husema Kibasque leo, wakigawanywa kati ya majimbo manne katika Hispania (Bizkaia, Gipuzkoa, Araba na Navarra) na matatu katika Ufaransa (Labourd, Navarre ya Chini, Soule). Kigenetiki, lugha ni <strong>pekee</strong> kweli: hakuna ndugu waliothibitishwa. Wanaisimu wametumia karne mbili wakijaribu kuiunganisha na Kiberi, Kiberberi, Kicaucasian, Kietruscan, Kipiktish, Kiburushaski, na hata Kiainu — na hakuna pendekezo lolote limestahimili ukaguzi wa wenzao.</p>
 
   <p>Kiungo cha kihistoria cha kazi zaidi ni cha <strong>Kiakwitania</strong>, lililothibitishwa katika takriban majina 500 ya kibinafsi na ya kimungu yaliyochorwa kwenye mawe ya kujitolea ya enzi ya Kirumi katika Gallia ya kusini-magharibi. Fomu zinaonekana kwa kushangaza Kibasque: <em>NESCATO</em> inalingana na <em>neskato</em> ya kisasa "msichana"; <em>CISON</em> inalingana na <em>gizon</em> "mwanamume"; <em>SEMBE-</em> inalingana na <em>seme</em> "mwana". Wataalamu wengi sasa wanachukulia Kiakwitania kama binamu mzee au mzazi wa moja kwa moja wa Kibasque, ukirudisha historia ya nyaraka za lugha angalau miaka 2,000. Iwapo Kibasque pia inashuka kutoka kwa <strong>chini cha Kivasconic</strong> kipana zaidi ambacho zamani kilifunika Ulaya ya Magharibi — kama vile lilipendekezwa na Theo Vennemann — ni la mzozo zaidi.</p>
 
@@ -317,7 +317,7 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="setword" data-word="one" data-code="eu">🔢 Ona Kibasque "Moja"</button>
   </div>
 
-  <p>Kibasque kilikaribia kutoweka katika karne ya 20. Chini ya udikteta wa Francisco Franco (1939–1975), kuzungumza Kibasque hadharani kulikuwa kunaadhibiwa, lugha ilipigwa marufuku kutoka shule na kanisa, na wazazi walitozwa faini kwa kuwapa watoto wao majina ya Kibasque. Juhudi za usanifishaji baada ya Franco, <strong>Euskara Batua</strong> ("Kibasque Kilichounganishwa"), ziliongozwa kuanzia miaka ya 1960 na chuo cha lugha cha Kibasque <em>Euskaltzaindia</em> na mwanaisimu <strong>Koldo Mitxelena</strong>. Iliunganisha lahaja zinazotofautiana — Kibizkaian, Kigipuzkoan, Kinavarrese, Kilapurdian, Kizuberoan — katika kawaida ya kuandikwa inayoweza kutumika katika shule, magazeti, na serikali.</p>
+  <p>Kibasque kilikaribia kutoweka katika karne ya 20. Chini ya udikteta wa Francisco Franco (1939–1975), kuzungumza Kibasque hadharani kulikuwa kunaadhibiwa, lugha ilipigwa marufuku kutoka shule na kanisa, na wazazi walitozwa faini kwa kuwapa watoto wao majina ya Kibasque. Juhudi za usanifishaji, <strong>Euskara Batua</strong> ("Kibasque Kilichounganishwa"), zilianzishwa wakati wa utawala wa Franco — katika kongamano la Arantzazu la mwaka 1968 — na chuo cha lugha cha Kibasque <em>Euskaltzaindia</em> na mwanaisimu <strong>Koldo Mitxelena</strong>. Iliunganisha lahaja zinazotofautiana — Kibizkaian, Kigipuzkoan, Kinavarrese, Kilapurdian, Kizuberoan — katika kawaida moja ya kuandikwa, ingawa ni baada ya mwaka 1975 tu ndipo kawaida hiyo iliweza kutumika katika shule, magazeti, na serikali.</p>
 
   <blockquote>"Hizkuntza bat ez da galtzen ez dakitenek ikasten ez dutelako, dakitenek hitz egiten ez dutelako baizik."<br>"Lugha haipotei kwa sababu wale wasiojua wameshindwa kujifunza — inapotea kwa sababu wale wanaojua wameacha kuzungumza." — Joxean Artze</blockquote>
 
@@ -347,7 +347,7 @@ window.TRIVIA_I18N['sw'] = {
     <li><strong>Kibao cha Kish</strong> (k. 3500 KK) na kibao cha Uruk W 9578a ni miongoni mwa maandiko ya kwanza yanayojulikana.</li>
     <li><strong>Maelekezo ya Shuruppak</strong> (k. 2500 KK) ni miongoni mwa kazi za fasihi kongwe zaidi zinazoendelea.</li>
     <li><strong>Kanuni za Ur-Nammu</strong> (k. 2100 KK), kanuni ya zamani zaidi inayojulikana ya sheria, inatangulia Hammurabi kwa karne tatu — na iliandikwa kwa Kisumerian.</li>
-    <li><strong>Enheduanna</strong> (k. 2285 KK), binti wa kifalme wa Kiakkadian na kasisi mkuu wa mungu wa mwezi Nanna, alitunga nyimbo za Kisumerian kwa Inanna na ni mwandishi wa mwanzo aliyepewa jina katika historia ya binadamu.</li>
+    <li><strong>Enheduanna</strong> (k. 2285 KK), binti wa kifalme wa Kiakkadian na kasisi mkuu wa mungu wa mwezi Nanna, kwa mapokeo huhesabiwa kuwa mwandishi wa mwanzo aliyepewa jina katika historia ya binadamu — ingawa nyimbo za Kisumerian kwa Inanna zenye jina lake zimesalia tu katika nakala zilizoandikwa karibu karne sita baadaye, na wataalamu wa Ashuru bado wamegawanyika kuhusu kama ni yeye aliyezitunga.</li>
   </ul>
 
   <div class="trivia-actions">
@@ -357,9 +357,9 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Karibu na 2000 KK, baada ya kuanguka kwa Nasaba ya Tatu ya Ur, Kisumerian inaonekana kuwa imekufa kama lugha ya mama ya mtu yeyote, ikibadilishwa na Kiakkadian cha Kisemiti cha majirani zao wa kaskazini. Lakini hakukuacha kuandikwa. Kwa karibu miaka elfu mbili zaidi, Kisumerian kilihifadhiwa hai katika shule za waandishi (<em>edubba</em>) kama lugha ya prestige ya dini, usomi, ushawishi, na nyota — Kilatini cha ulimwengu wa cuneiform. Waandishi wa Kibabilonia na Kiassyrian walinakili maandiko ya Kisumerian hadi karne ya 1 KK, vibao vya mwisho vya lugha ya Kisumerian vyenye tarehe vikiwa baada ya Alexander Mkuu.</p>
 
-  <p>Lugha ilisahaulika kabisa baada ya kifo cha cuneiform yenyewe, karibu karne ya 1 BK. Iliingia tena katika kumbukumbu ya binadamu tu katika karne ya 19, wakati <strong>Henry Rawlinson</strong>, <strong>Edward Hincks</strong> na <strong>Jules Oppert</strong> — watatu wa wachakuzi wa cuneiform — walitambua kwamba orodha za leksika za lugha mbili walizokuwa wakisoma zilirekodi si tu Kiakkadian bali lugha ya zamani zaidi, isiyo ya Kisemiti nyuma yake. Oppert alipendekeza jina "Kisumerian" mwaka 1869, baada ya neno <em>kengir</em> "Sumer" lililotumiwa na Wasumeri wenyewe.</p>
+  <p>Lugha ilisahaulika kabisa baada ya kifo cha cuneiform yenyewe, karibu karne ya 1 BK. Iliingia tena katika kumbukumbu ya binadamu tu katika karne ya 19, wakati <strong>Henry Rawlinson</strong>, <strong>Edward Hincks</strong> na <strong>Jules Oppert</strong> — watatu wa wachakuzi wa cuneiform — walitambua kwamba orodha za leksika za lugha mbili walizokuwa wakisoma zilirekodi si tu Kiakkadian bali lugha ya zamani zaidi, isiyo ya Kisemiti nyuma yake. Oppert alipendekeza jina "Kisumerian" mwaka 1869, akilichukua kutoka cheo cha kifalme cha Kiakkadian "Mfalme wa Sumer na Akkad" — huku Wasumeri wenyewe wakiita nchi yao <em>ki-en-gi(-r)</em>.</p>
 
-  <p>Leo <strong>Kamusi ya Kisumerian ya Pennsylvania</strong> na <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) huwezesha kusoma mashairi ya zamani zaidi duniani kwenye simu. <strong>Epic of Gilgamesh</strong>, katika watangulizi wake wa lugha ya Kisumerian kama "Gilgamesh na Ng'ombe wa Mbinguni", ilikuwa fasihi ya kwanza ambayo wanadamu waliwahi kuandika — na bado inatafsiriwa.</p>
+  <p>Leo <strong>Kamusi ya Kisumerian ya Pennsylvania</strong> na <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) huwezesha kusoma mashairi ya zamani zaidi duniani kwenye simu. <strong>Epic of Gilgamesh</strong>, katika watangulizi wake wa lugha ya Kisumerian kama "Gilgamesh na Ng'ombe wa Mbinguni", ni miongoni mwa hadithi za kale zaidi ambazo wanadamu waliwahi kuziandika — na bado inatafsiriwa.</p>
     `
   },
 
@@ -379,7 +379,7 @@ window.TRIVIA_I18N['sw'] = {
   <p>Takriban <strong>maandishi 13,000</strong> yanajulikana, wengi wao mafupi na ya mazishi: ni nani amezikwa hapa, walikuwa na umri gani, wazazi na mwenza wao walikuwa nani. Fomu zinazorudiwa kama <em>mi larthia</em> "Mimi ni wa Larth" ni rahisi. Chochote zaidi ya jina, familia, na nambari ni ngumu. Maandiko machache marefu ndio funguo kwa chochote tunachoelewa:</p>
 
   <ul>
-    <li><strong>Liber Linteus</strong> (Kitabu cha Kitani), maandiko marefu zaidi ya Kietruscan yanayoendelea. Ni kalenda ya sherehe ya takriban maneno 1,200 yanayosomeka, yaliyonakiliwa kwa mkono kwenye kitani katika karne ya 3 KK, kisha yakakatwa katika Misri ya Kirumi na kutumika kuvika mama wa kifo wa kike sasa katika Makumbusho ya Akiolojia ya Zagreb.</li>
+    <li><strong>Liber Linteus</strong> (Kitabu cha Kitani), maandiko marefu zaidi ya Kietruscan yanayoendelea. Ni kalenda ya sherehe ya takriban maneno 1,200 yanayosomeka, yaliyonakiliwa kwa mkono kwenye kitani katika karne ya 3 KK, kisha yakakatwa katika Misri ya enzi ya Ptolemaio na kutumika kuvika mama wa kifo wa kike sasa katika Makumbusho ya Akiolojia ya Zagreb.</li>
     <li><strong>Tabula Capuana</strong>, kigae cha terracotta chenye takriban maneno 390 ya maelekezo ya sherehe (k. 470 KK).</li>
     <li><strong>Mbao za Pyrgi</strong> (k. 500 KK), karatasi tatu nyembamba za dhahabu kutoka bandari ya Pyrgi, mbili katika Kietruscan na moja katika Kifoinisia — kujitolea karibu cha lugha mbili kwa mungu wa kike Uni / Astarte. Iligunduliwa mwaka 1964 na muhimu kwa kuthibitisha msamiati.</li>
     <li><strong>Tabula Cortonensis</strong>, kibao cha shaba cha maneno 200 kinachorekodi kile kinachoonekana kama mauzo ya ardhi, kilipatikana karibu na Cortona mwaka 1992.</li>
@@ -389,9 +389,9 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="setword" data-word="one" data-code="ett">🔢 Ona Kietruscan "Moja"</button>
   </div>
 
-  <p>Kile <em>tunachojua</em> kinashangaza. Kietruscan kina nambari <em>thu, zal, ci, huth, mach, śa</em> kwa 1–6 — ingawa wasomi bado wanabishana ni nambari gani inalingana na ipi, kwa sehemu kwa sababu dado nne za pembe za ndovu zilizopatikana Tuscany zinaandika nambari kama maneno badala ya dots. Kietruscan kinapinda nomino kwa kesi (genitive katika <em>-s</em> au <em>-l</em>, ablative katika <em>-is</em>), kinaconjugate vitenzi kwa wakati uliopita na wa sasa (<em>-ce</em> uliopita, <em>-e</em> sasa), na kina mfumo wa kushangaza wa <strong>viambishi vya kifungu cha kinomino vinavyojikusanya</strong>: nomino iliyoalamishwa kwa genitive inaweza kuchukua genitive ya pili juu. Msamiati uliotolewa kwa usalama ni karibu maneno 250; sehemu zingine za leksika, ikiwa ni pamoja na maneno mengi ya kiufundi ya sherehe ya Liber Linteus, ni dhana ya muktadha.</p>
+  <p>Kile <em>tunachojua</em> kinashangaza. Kietruscan kina nambari <em>thu, zal, ci, huth, mach, śa</em> kwa 1–6 — ingawa wasomi bado wanabishana ni nambari gani inalingana na ipi, kwa sehemu kwa sababu jozi pekee inayojulikana ya dado za pembe za ndovu, iliyopatikana Tuscania kaskazini mwa Lazio, inaandika nambari kama maneno badala ya dots. Kietruscan kinapinda nomino kwa kesi (genitive katika <em>-s</em> au <em>-l</em>, ablative katika <em>-is</em>), kinaconjugate vitenzi kwa wakati uliopita na wa sasa (<em>-ce</em> uliopita, <em>-e</em> sasa), na kina mfumo wa kushangaza wa <strong>viambishi vya kifungu cha kinomino vinavyojikusanya</strong>: nomino iliyoalamishwa kwa genitive inaweza kuchukua genitive ya pili juu. Msamiati uliotolewa kwa usalama ni karibu maneno 250; sehemu zingine za leksika, ikiwa ni pamoja na maneno mengi ya kiufundi ya sherehe ya Liber Linteus, ni dhana ya muktadha.</p>
 
-  <p>Masomo ya kisasa ya Kietruscan yalianzishwa kimsingi na mwanaakiolojia wa Kiitalia <strong>Massimo Pallottino</strong> (1909–1995), ambaye <em>Etruscologia</em> yake (iliyochapishwa kwanza 1942, matoleo nane) iliweka upya uwanja kwa "mbinu ya mchanganyiko": kulinganisha mifumo ndani ya Kietruscan yenyewe, kuchukulia vyanzo vya kawaida vya Kigiriki na Kirumi kama kelele ya nyuma badala ya msaada wa moja kwa moja wa tafsiri, na kukubali kwamba tutaendelea maandiko moja kwa wakati.</p>
+  <p>Masomo ya kisasa ya Kietruscan yalianzishwa kimsingi na mwanaakiolojia wa Kiitalia <strong>Massimo Pallottino</strong> (1909–1995), ambaye <em>Etruscologia</em> yake (iliyochapishwa kwanza 1942, ikirekebishwa hadi toleo la saba mwaka 1984) iliweka upya uwanja kwa "mbinu ya mchanganyiko": kulinganisha mifumo ndani ya Kietruscan yenyewe, kuchukulia vyanzo vya kawaida vya Kigiriki na Kirumi kama kelele ya nyuma badala ya msaada wa moja kwa moja wa tafsiri, na kukubali kwamba tutaendelea maandiko moja kwa wakati.</p>
 
   <blockquote>"Kietruscan si tena siri, lakini bado ni tatizo." — Massimo Pallottino, kufupishwa kutoka <em>Etruscologia</em></blockquote>
 
@@ -403,7 +403,7 @@ window.TRIVIA_I18N['sw'] = {
     title: 'Kisentinelese — lugha ambayo hatujaiwahi kurekodi',
     summary: 'Katika kisiwa cha kilomita za mraba 60 katika Ghuba ya Bengali wanaishi watu ambao mababu zao wanaaminika kuwa miongoni mwa tabaka za awali kabisa za makazi ya binadamu katika eneo hilo — na lugha yao hakuna mgeni amewahi kuisikia, sembuse kuiandika.',
     body: `
-  <p>Karibu kilomita 1,200 mashariki mwa bara la India, katika Ghuba ya Bengali, kuna kisiwa kidogo chenye misitu cha takriban kilomita za mraba 60. Kinaitwa <strong>Kisiwa cha North Sentinel</strong>, na mahali fulani ndani yake huishi labda watu hamsini hadi mia kadhaa — hakuna anayejua idadi halisi — ambao wamekataa kila jaribio moja la kuzungumza nao. Wao ni <strong>Wasentinelese</strong>, na lugha yao ni lugha pekee ya kibinadamu duniani ambayo haijawahi kurekodiwa, haijawahi kunakiliwa, na haijawahi hata kuwekwa kwa uhakika katika familia.</p>
+  <p>Karibu kilomita 1,200 mashariki mwa bara la India, katika Ghuba ya Bengali, kuna kisiwa kidogo chenye misitu cha takriban kilomita za mraba 60. Kinaitwa <strong>Kisiwa cha North Sentinel</strong>, na mahali fulani ndani yake huishi labda watu hamsini hadi mia kadhaa — hakuna anayejua idadi halisi — ambao wamekataa kila jaribio moja la kuzungumza nao. Wao ni <strong>Wasentinelese</strong>, na lugha yao ni miongoni mwa lugha chache mno za kibinadamu duniani ambazo hazijawahi kurekodiwa, hazijawahi kunakiliwa, na hazijawahi hata kuwekwa kwa uhakika katika familia — na ndiyo inayojulikana zaidi kuliko zote.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Ruka hadi Kisiwa cha North Sentinel</button>
@@ -416,7 +416,7 @@ window.TRIVIA_I18N['sw'] = {
   <ul>
     <li><strong>1880</strong>: Afisa wa kikoloni wa Uingereza <strong>Maurice Vidal Portman</strong> alishuka na kikundi cha utafutaji, akakamata mke na mume wazee na watoto wanne, na akawaleta Port Blair. Watu wazima walikufa ndani ya siku chache, karibu kwa hakika kutokana na maambukizi ya kawaida ambayo Wasentinelese hawana kinga. Watoto walirudishwa kisiwani na zawadi. Chochote kile Portman alichoandika cha hotuba yao kinaendelea tu kama vipande na kumbukumbu za upili.</li>
     <li><strong>1974</strong>: Timu ya filamu ya National Geographic ilirudishwa nyuma kwa mishale. Mkurugenzi alipigwa mshale wa futi 8 kwenye paja lake.</li>
-    <li><strong>1991</strong>: Mwanaanthropolojia wa Kihindi <strong>Madhumala Chattopadhyay</strong> aliongoza mfululizo wa "kuteremsha zawadi" za nazi ambazo zilipata mawasiliano pekee ya amani yanayojulikana — Wasentinelese wakitembea hadi kwenye mashua bila silaha kukusanya nazi. Ziara zilisimamishwa mwaka 1996 kwa wasiwasi wa kueneza magonjwa.</li>
+    <li><strong>1991</strong>: Msafara rasmi wa serikali ya India wenye wajumbe 13 ulipata mawasiliano pekee ya amani yanayojulikana, ukitoa nazi kutoka kwenye mashua hadi Wasentinelese walipoingia majini bila silaha kuzichukua. Mwanaanthropolojia wa msafara huo, <strong>Madhumala Chattopadhyay</strong>, aliingia majini mwenyewe na kuwakabidhi nazi kwa mkono wake — mwanamke wa kwanza kutoka ulimwengu wa nje kuwahi kukutana nao. Ziara zilisimamishwa mwaka 1996 kwa wasiwasi wa kueneza magonjwa.</li>
     <li><strong>Tsunami ya 2004</strong>: Helikopta ya Walinzi wa Pwani iliruka juu ya kisiwa siku chache baada ya tsunami ya Bahari ya Hindi ya 2004 kuangalia waokokaji. Ilipokewa na mishale. Wakaaji wa kisiwa walihamia kwenye ardhi ya juu zaidi na walikuwa salama.</li>
     <li><strong>2006</strong>: Wavuvi wawili waliodhuru kuteleza ufukweni waliuawa.</li>
     <li><strong>2018</strong>: Mmisionari wa Marekani <strong>John Allen Chau</strong> aliuawa akijaribu kuwainjilisha Wasentinelese, akiwa amewahonga kinyume cha sheria wavuvi wa eneo hilo kumpeleka huko.</li>
@@ -424,11 +424,11 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Chini ya <strong>Kanuni za Ulinzi wa Makabila ya Asili wa Visiwa vya Andaman na Nicobar</strong> ya serikali ya India (1956, iliyofanyiwa marekebisho mara kadhaa tangu hapo), ni kinyume cha sheria kwa mtu yeyote kukaribia ndani ya maili tano za baharini za Kisiwa cha North Sentinel. Jeshi la Wanamaji la India linalinda ukanda wa pambizo. Sera rasmi, iliyokuwepo tangu mwishoni mwa miaka ya 1990 na kuimarishwa baada ya kifo cha Chau, ni ile ya <strong>"macho juu, mikono mbali"</strong>: kufuatilia idadi ya watu kutoka mbali, kutoshikamana, kutoingilia.</p>
 
-  <blockquote>"Si sisi tunaowatenga. Wameamua kuachwa peke yao, na tuna wajibu wa kuheshimu hilo." — Madhumala Chattopadhyay, akifupisha msimamo wa sera wa muda mrefu</blockquote>
+  <blockquote>"Makabila ya visiwa hivi hayahitaji wageni wa kuyalinda, wanachohitaji ni kuachwa peke yao." — Madhumala Chattopadhyay, katika mahojiano na National Geographic</blockquote>
 
   <p>Kile kichache tunachoshuku kuhusu mfumo wa kiisimu wa Kisentinelese huja kwa mfanano: lugha za Kiongan zina orodha ndogo ya fonimu, viambishi vya umiliki kwenye maneno ya sehemu za mwili na ya jamaa, na mfumo wa deictics zinazotegemea sehemu ya mwili (k.m. kiambishi kimoja kwa "cha kichwa", kingine kwa "cha mgongo"). Inawezekana — lakini haiwezi kuthibitishwa — kwamba Kisentinelese hufanya kazi vivyo hivyo. Ethnologue, ISO 639-3, na Glottolog vinakitaja (kanuni <em>std</em>, languoid <em>sent1241</em>), lakini kila uga kwenye kuingilia kinachouliza data halisi husomeka "hakuna habari inayopatikana" au "haijulikani".</p>
 
-  <p>Ni hali ya kawaida zaidi ya kiisimu: lugha hai inayopumua ya binadamu, inayotumika kila siku, ambayo tumekubaliana kama spishi kutoisoma. Iwapo makubaliano hayo yatadumu karne ya 21 hayajulikani. Kwa sasa, Wasentinelese hubaki kuwa watu ambao hawatahojiwa — na lugha yao, lugha pekee kwenye Wordmap ambayo tumeorodhesha si kwa sababu tunaijua, bali kwa sababu tunajua hatujui.</p>
+  <p>Ni hali ya kawaida zaidi ya kiisimu: lugha hai inayopumua ya binadamu, inayotumika kila siku, ambayo tumekubaliana kama spishi kutoisoma. Iwapo makubaliano hayo yatadumu karne ya 21 hayajulikani. Kwa sasa, Wasentinelese hubaki kuwa watu ambao hawatahojiwa — na lugha yao, lugha pekee katika mkusanyiko huu ambayo tumeieleza si kwa sababu tunaijua, bali kwa sababu tunajua hatujui.</p>
     `
   },
 
@@ -456,16 +456,16 @@ window.TRIVIA_I18N['sw'] = {
     <li><strong>chashmal</strong> (חשמל) — "umeme", ikitumia tena neno la kushangaza la Biblia kutoka kwa Ezekieli.</li>
   </ul>
 
-  <p>Alikusanya <em>Kamusi Kamili ya Kiebrania cha Kale na cha Kisasa</em> kubwa katika juzuu 17 (iliendelezwa na kukamilishwa baada ya kifo chake na mwanawe na wengine), na alisaidia kuanzisha <strong>Va'ad ha-Lashon ha-Ivrit</strong> (Kamati ya Lugha ya Kiebrania, 1890), ambayo ikawa ya leo <strong>Chuo cha Lugha ya Kiebrania</strong> — bado mwili rasmi wa Israeli unaobuni msamiati mpya wa kiufundi (<em>machshev</em> "kompyuta", <em>klikim</em> "bofya", <em>siyumon</em> "programu").</p>
+  <p>Alikusanya <em>Kamusi Kamili ya Kiebrania cha Kale na cha Kisasa</em> kubwa katika juzuu 17 (iliendelezwa na kukamilishwa baada ya kifo chake na mwanawe na wengine), na alisaidia kuanzisha <strong>Va'ad ha-Lashon ha-Ivrit</strong> (Kamati ya Lugha ya Kiebrania, 1890), ambayo ikawa ya leo <strong>Chuo cha Lugha ya Kiebrania</strong> — bado mwili rasmi wa Israeli unaobuni msamiati mpya wa kiufundi (<em>machshev</em> "kompyuta", <em>yisumon</em> "programu").</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="he">👋 Ona Kiebrania "Hujambo"</button>
     <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="he">💧 Ona Kiebrania "Maji"</button>
   </div>
 
-  <p>Wanahistoria wa kisasa wa Kiebrania (Ghil'ad Zuckermann, Bernard Spolsky na wengine) ni wepesi kuongeza nuance. Ben-Yehuda hakuwa peke yake; alikuwa sauti kubwa zaidi katika wimbi la walimu, hasa <strong>Jumuiya ya Walimu wa Kiebrania</strong> kuanzia miaka ya 1890 na kuendelea, ambao walibadilisha madarasa yao kutoka Kiyidi na Kirusi kwenda Kiebrania, wakijenga kizazi cha kwanza cha watumiaji wenye ufasaha darasa moja kwa wakati. Zuckermann amedai kuwa kile kilichozaliwa kwa kweli si kabisa "Kiebrania kilichofufuliwa" bali mchanganyiko anaouita <em>Kiisraeli</em> — tabaka la kifonetiki la Kisemiti (mofolojia, msamiati mwingi) juu ya msingi wa kisintaksia na kifonetiki wa Kizungu sana (hasa Kiyidi na Kislavoni). Kwa mtazamo huo, wasemaji wa kuzaliwa wa Israeli ni warithi wa Mfalme Daudi na wa yeshiva ya enzi ya Tsar ya Vilna.</p>
+  <p>Wanahistoria wa kisasa wa Kiebrania (Ghil'ad Zuckermann, Bernard Spolsky na wengine) ni wepesi kuongeza nuance. Ben-Yehuda hakuwa peke yake; alikuwa sauti kubwa zaidi katika wimbi la walimu, hasa walimu ambao kuanzia miaka ya 1890 na kuendelea walibadilisha madarasa yao kutoka Kiyidi na Kirusi kwenda Kiebrania, na kuanzia 1903 walijipanga katika <strong>Muungano wa Walimu wa Kiebrania</strong>, wakijenga kizazi cha kwanza cha watumiaji wenye ufasaha darasa moja kwa wakati. Zuckermann amedai kuwa kile kilichozaliwa kwa kweli si kabisa "Kiebrania kilichofufuliwa" bali mchanganyiko anaouita <em>Kiisraeli</em> — tabaka la kifonetiki la Kisemiti (mofolojia, msamiati mwingi) juu ya msingi wa kisintaksia na kifonetiki wa Kizungu sana (hasa Kiyidi na Kislavoni). Kwa mtazamo huo, wasemaji wa kuzaliwa wa Israeli ni warithi wa Mfalme Daudi na wa yeshiva ya enzi ya Tsar ya Vilna.</p>
 
-  <blockquote>"Hata kama haiwezekani kufufua lugha kwa asilimia mia moja, kile wasemaji wa Kiebrania wamefanikiwa kufanya ni si chini ya muujiza." — Ghil'ad Zuckermann</blockquote>
+  <blockquote>"Wayahudi hawakufanikiwa kuifufua lugha ya Isaya. Kuifufua lugha iwe kama ilivyokuwa zamani hakuwezekani kabisa." — Ghil'ad Zuckermann, BBC Future, 22 Machi 2019</blockquote>
 
   <p>Kufikia 1922, Ben-Yehuda alipokufa, Kiebrania kilikuwa mojawapo ya lugha tatu rasmi za Mandate ya Uingereza ya Palestina. Kufikia 1948 kilikuwa lugha kuu ya Jimbo la Israeli iliyoanzishwa upya. Leo ni lugha ya shule ya mamilioni, lugha ya washindi wa Tuzo ya Nobel (S. Y. Agnon, 1966), ya sinema na teknolojia ya juu, ya soko kuu na uwanja wa michezo. Mtoto wa mwisho aliyejifunza Kiebrania kama mtoto mchanga kabla ya 200 BK na mtoto wa kwanza aliyejifunza kama mtoto mchanga mwaka 1882 wamegawanywa na takriban vizazi 70 vya maisha ya Kiyahudi ambapo lugha ilibebwa lakini haikufungwa kwenye matebe — na ni lugha pekee duniani iliyofanya hivyo na kurudi.</p>
     `
@@ -473,7 +473,7 @@ window.TRIVIA_I18N['sw'] = {
 
   'sanskrit-panini': {
     title: 'Pāṇini — mwanasarufi wa Kisanskrit aliyetangulia sayansi ya kompyuta kwa miaka 2,400',
-    summary: 'Karibu 500 KK, msomi mmoja wa Kihindi aliandika sarufi rasmi ya Kisanskrit yenye sheria 4,000 yenye ukali kiasi kwamba wanaisimu wa karne ya 20 waliiita "maelezo kamili zaidi ya lugha yoyote hadi nyakati za kisasa" — na babu wa moja kwa moja wa jinsi compilers huparse code leo.',
+    summary: 'Karibu 500 KK, msomi mmoja wa Kihindi aliandika sarufi rasmi ya Kisanskrit yenye sheria 4,000 yenye ukali kiasi kwamba mwaka 1933 Leonard Bloomfield aliweza kuandika kwamba "hakuna lugha nyingine, hadi leo, iliyowahi kuelezwa kwa ukamilifu kama huo" — nayo ni babu wa moja kwa moja wa jinsi compilers huparse code leo.',
     body: `
   <p>Ikiwa ulipaswa kuchagua kitabu kimoja cha kupeleka nyuma kwa mashine ya wakati ili kuchanganya mwanasayansi wa kompyuta wa karne ya 20, ingekuwa vigumu kufanya bora kuliko <strong>Aṣṭādhyāyī</strong> — "Sura Nane" za <strong>Pāṇini</strong>. Imetungwa katika kile ambacho sasa ni Pakistan kaskazini-magharibi karibu <strong>500–400 KK</strong>, Aṣṭādhyāyī ni maelezo kamili ya kizazi cha Kisanskrit katika chini ya <strong>sūtras 4,000</strong> (sheria fupi za maandalisho), zilizojaa sana hadi sarufi nzima inatoshea katika karibu kurasa 35 za kuchapishwa za kisasa. Wanaisimu wa kisasa, kutoka Leonard Bloomfield hadi Paul Kiparsky na Noam Chomsky, wote wameiita sarufi rasmi ya kisasa zaidi ya lugha yoyote iliyowahi kutolewa kabla ya karne ya 20.</p>
 
@@ -501,9 +501,9 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="setword" data-word="fire" data-code="sa">🔥 Ona Kisanskrit "Moto"</button>
   </div>
 
-  <p>Ushawishi wa Pāṇini ni wa moja kwa moja, na si tu wa kimafumbo. <strong>Leonard Bloomfield</strong> (1887–1949), mmoja wa waanzilishi wa isimu ya kimuundo ya Marekani, aliandika insha yake ya 1929 "Juu ya Baadhi ya Sheria za Pāṇini" kwa sehemu kuingiza utaratibu wa sheria wa kipāṇini katika nadharia ya kisarufi ya Magharibi. Mantiki ya Uholanzi <strong>Frits Staal</strong> alidai katika <em>The Science of Language</em> (1965) kwamba lugha-meta ya Pāṇini inatangulia muundo wa Backus-Naur unaotumiwa kufafanua lugha za programu. Mwanasayansi wa kompyuta wa Kimarekani-Mhindi <strong>Rick Briggs</strong>, akifanya kazi NASA Ames katika miaka ya 1980, alipendekeza uwakilishi wa namna ya Kisanskrit ya kāraka kama lugha ya katikati ya asili kwa uwakilishi wa maarifa wa AI. Na katika 1965 yake <em>Aspects of the Theory of Syntax</em>, <strong>Noam Chomsky</strong> alimsifu Pāṇini na wafafanuzi wake kama wanasarufi wa kwanza wa kizazi katika historia.</p>
+  <p>Ushawishi wa Pāṇini ni wa moja kwa moja, na si tu wa kimafumbo. <strong>Leonard Bloomfield</strong> (1887–1949), mmoja wa waanzilishi wa isimu ya kimuundo ya Marekani, aliandika insha yake ya 1927 "Juu ya Baadhi ya Sheria za Pāṇini" kwa sehemu kuingiza utaratibu wa sheria wa kipāṇini katika nadharia ya kisarufi ya Magharibi. Mwanachuoni wa Kiholanzi wa masomo ya Kihindi <strong>Frits Staal</strong> alidai katika makala "Euclid and Pāṇini" (1965) kwamba sarufi ya Pāṇini ni mfumo rasmi wa daraja lile lile la jiometri ya Euclid; miaka miwili baadaye mwanasayansi wa kompyuta <strong>Peter Zilahy Ingerman</strong>, katika barua kwa <em>Communications of the ACM</em>, alipendekeza kubadilisha jina la muundo wa kawaida wa Backus kuwa "muundo wa Pāṇini-Backus" kwa heshima ya Pāṇini. Mwanasayansi wa kompyuta wa Kimarekani-Mhindi <strong>Rick Briggs</strong>, akifanya kazi NASA Ames katika miaka ya 1980, alipendekeza uwakilishi wa namna ya Kisanskrit ya kāraka kama lugha ya katikati ya asili kwa uwakilishi wa maarifa wa AI. Na katika utangulizi wa <em>Aspects of the Theory of Syntax</em> yake ya 1965, <strong>Noam Chomsky</strong> alikiri kwamba "hata sarufi ya Pāṇini inaweza kufasiriwa kama kipande cha 'sarufi zalishi' ya aina hiyo, kwa maana ya leo ya neno hili".</p>
 
-  <blockquote>"Sarufi ya maelezo ya Kisanskrit ambayo Pāṇini aliifikisha ukamilifu ni mojawapo ya makumbusho makubwa zaidi ya akili ya binadamu." — Leonard Bloomfield, <em>Language</em> (1933)</blockquote>
+  <blockquote>"Sarufi ya maelezo ya Kisanskrit, ambayo Pāṇini aliifikisha kilele cha ukamilifu, ni mojawapo ya makumbusho makubwa zaidi ya akili ya binadamu." — Leonard Bloomfield, uhakiki wa <em>Konkordanz Pāṇini-Candra</em> ya Liebich, <em>Language</em> 5 (1929)</blockquote>
 
   <p>Kisanskrit chenyewe (<em>saṃskṛta-</em>, "iliyong'arishwa, iliyoboreshwa") ilikuwa tayari kawaida ya kifasihi na ya kisherehe, si lugha ya kawaida, kufikia siku za Pāṇini. Baada yake ikawa, kwa kawaida, kile Pāṇini alichosema ilikuwa: lugha ambayo kila sentensi yake iliyoundwa vizuri inaweza, kwa kanuni, kutoa kutoka kwa sūtras zake 4,000. Miaka elfu mbili na nusu baadaye, hicho pia ndio hasa tunachoomba kutoka kwa parser. Aṣṭādhyāyī haikuelezea tu Kisanskrit. Ilisukuma wazo la maelezo ya kizalishaji na ya kifomu ya lugha hadi kiwango cha usahihi ambacho hakikuwa na mfano wake katika kale — na ambacho hakijapata mlinganishi, inaweza kusemwa, hadi isimu ya kifomu ya karne ya 20 ilipogundua tena mawazo hayohayo kwa kujitegemea.</p>
     `
@@ -543,7 +543,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Kufikia 1905 <strong>Kongamano la Ulimwengu la Kwanza la Esperanto</strong> lilikutana huko Boulogne-sur-Mer; wajumbe 688 kutoka nchi 20 waligundua wangeweza kuelewana mara moja. Kufikia miaka ya 1920 Ligi ya Mataifa ilijadili kwa makini kupitisha Esperanto kama lugha ya kazi — kura ya turufu na Ufaransa, ambayo iliogopa kupoteza heshima ya diplomasia ya Kifaransa. Vatican hutangaza kwa Esperanto. Google Translate iliiongeza mwaka 2012.</p>
 
-  <blockquote>"Mi ne scias kio estas la lingvo, sed mi scias ke ĝi devas esti facila, neŭtrala kaj viva." ("Sijui lugha itakuwa nini, lakini najua lazima iwe rahisi, isiyo na upande na hai.") — inahusishwa na Zamenhof, katika barua kwa Nikolai Borovko, 1895</blockquote>
+  <blockquote>"En Bjelostoko la loĝantaro konsistas el kvar diversaj elementoj: rusoj, poloj, germanoj kaj hebreoj; ĉiuj el tiuj ĉi elementoj parolas apartan lingvon kaj neamike rilatas la aliajn elementojn." ("Katika Białystok wakazi wanaundwa na vipengele vinne tofauti: Warusi, Wapolishi, Wajerumani na Wayahudi; kila kimoja cha vipengele hivi kinazungumza lugha yake mwenyewe na kinawachukia vingine.") — Zamenhof, katika barua kwa Nikolai Borovko, 1895 (iliandikwa kwa Kirusi; matini ya Esperanto imetoka katika tafsiri ya Vladimir Gernet ya 1896)</blockquote>
 
   <p>Historia ya karne ya ishirini ilikuwa kali kwa Waesperantist. Hitler aliilaani lugha katika <em>Mein Kampf</em> kama njama ya Kiyahudi; watoto watatu wa Zamenhof waliuawa katika Holocaust. Stalin alifunga na kunyonga Waesperantist wa Sovieti katika usafishaji wa 1937–38 kama "wapelelezi wa kicosmopolitan". Harakati ilinusurika zote mbili.</p>
 
@@ -564,7 +564,7 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="tok">👋 "Hujambo" — <em>toki!</em></button>
   </div>
 
-  <p>Michoro ya kwanza ilijitokeza mtandaoni mwaka 2001. Marejeleo ya kanuni, <em>Toki Pona: The Language of Good</em>, hatimaye yalitokea mwaka 2014. Kati ya tarehe hizo lugha ilikua kimya jamii bila msaada wowote wa kitaasisi, matangazo au bidhaa ya kibiashara. Kitabu cha 2014 kinaorodhesha <strong>maneno 120 ya msingi</strong> (kamusi ya baadaye ya 2021, <em>ku</em>, iliongeza seti ndogo iliyopanuliwa); wasemaji wengi wenye ufasaha huchukulia hesabu kuwa karibu <strong>maneno 123 muhimu</strong>.</p>
+  <p>Michoro ya kwanza ilijitokeza mtandaoni mwaka 2001. Marejeleo ya kanuni, <em>Toki Pona: The Language of Good</em>, hatimaye yalitokea mwaka 2014. Kati ya tarehe hizo lugha ilikua kimya jamii bila msaada wowote wa kitaasisi, matangazo au bidhaa ya kibiashara. Kitabu cha 2014 kinaorodhesha <strong>maneno 120 ya msingi</strong> (<em>kin</em>, <em>namako</em> na <em>oko</em> yameorodheshwa humo kama visawe tu); kisha kamusi <em>ku</em> ya 2021 ilijumuisha maneno ambayo jamii ilikuwa imeyakubali kweli, na kwenye jalada la nyuma inataja jumla ya <strong>maneno 137 muhimu</strong> — <em>nimi ku suli</em> — ndiyo idadi ambayo wasemaji wengi wenye ufasaha hutumia leo.</p>
 
   <p>Fonolojia ni ndogo vile vile:</p>
 
@@ -593,9 +593,9 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="setword" data-word="love" data-code="tok">❤️ "Upendo" — <em>olin</em></button>
   </div>
 
-  <p>Usemi sawa unaweza kumaanisha vitu tofauti katika miktadha tofauti. <em>jan pona</em> ni "rafiki", lakini mahakamani inaweza kumaanisha "raia mwema"; <em>kili</em> hufunika tunda lolote au mboga. Falsafa ya muundo ya Lang, iliyoshawishiwa na Utao, ibada ya urahisi ya GTD (Getting Things Done), na dhana ya Sapir–Whorf, ilikuwa kwamba <strong>kulazimisha urahisi katika usemi kunalazimisha urahisi katika fikra</strong>:</p>
+  <p>Usemi sawa unaweza kumaanisha vitu tofauti katika miktadha tofauti. <em>jan pona</em> ni "rafiki", lakini mahakamani inaweza kumaanisha "raia mwema"; <em>kili</em> hufunika tunda lolote au mboga. Falsafa ya muundo ya Lang, iliyoshawishiwa na Utao, urahisi uliokithiri wa lugha za pijini, na dhana ya Sapir–Whorf, ilikuwa kwamba <strong>kulazimisha urahisi katika usemi kunalazimisha urahisi katika fikra</strong>:</p>
 
-  <blockquote>"Toki Pona ni lugha ya wema. Ni njia rahisi ya maisha." — Sonja Lang, Toki Pona: The Language of Good (2014)</blockquote>
+  <blockquote>"Ukiweza kujieleza kwa njia rahisi, basi unaelewa kweli unachozungumzia, na hilo ni jambo jema. Kitu kikiwa kigumu kupita kiasi, hilo ni baya. Unaingiza kelele nyingi mno kwenye mlinganyo. Imani hiyo kwa kiasi fulani imejengwa ndani ya lugha yenyewe." — Sonja Lang, akihojiwa na Roc Morin, <em>The Atlantic</em> (2015)</blockquote>
 
   <p>Wakosoaji huiita haifai kazi: huwezi kufanya sheria ya kodi kwa Toki Pona, na hata hesabu ya msingi ni ngumu (lugha kwa ujulikana haikuwa na maneno ya asili kwa nambari zaidi ya mbili; baadaye mfumo <em>wan, tu, luka, mute, ale</em> ulitoa 1, 2, 5, 20, 100/nyingi, kwa mtindo wa fimbo ya kuhesabu).</p>
 
@@ -605,7 +605,7 @@ window.TRIVIA_I18N['sw'] = {
 
   'ithkuil-complexity': {
     title: 'Ithkuil — lugha bunifu yenye msongamano kiasi kwamba mvumbuzi wake hawezi kuizungumza',
-    summary: 'John Quijada alitumia miongo minne kubuni lugha inayolenga kueleza uakikisho wa juu zaidi katika nafasi ndogo zaidi. Tokeo lina takriban fonimu 92, makumi ya kesi, na sentensi yenye msongamano kiasi kwamba neno moja linaweza kutafsiriwa kama aya.',
+    summary: 'John Quijada alitumia miongo minne kubuni lugha inayolenga kueleza uakikisho wa juu zaidi katika nafasi ndogo zaidi. Tokeo lilikuwa na fonimu 82 katika toleo lake la kwanza, makumi ya kesi, na sentensi yenye msongamano kiasi kwamba neno moja linaweza kutafsiriwa kama aya.',
     body: `
   <p>Lugha nyingi bunifu zinalenga kuwa <em>rahisi</em>. <strong>Ithkuil</strong> ni kinyume: ni <em>lugha iliyounganishwa</em> (engelang) ambayo lengo lake la wazi ni kueleza, katika morphemes chache zaidi zinazowezekana, kiasi cha juu kinachowezekana cha habari ya kiakili — kuwa, kama mvumbuzi wake anavyosema, "jaribio bora la kiisimu lililoidealishwa".</p>
 
@@ -613,12 +613,12 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="panto" data-lat="40" data-lng="0" data-zoom="3">🗺️ Ruka hadi nyumba ya Ithkuil (hakuna mahali)</button>
   </div>
 
-  <p>Mvumbuzi ni <strong>John Quijada</strong>, mwanaisimu wa Marekani na mtumishi wa zamani wa DMV huko California, ambaye alianza kuchora kile ambacho kingekuja kuwa Ithkuil — awali <em>Tikəlh Khəi</em>, "TKE" — mwaka 1978. Alichapisha toleo la kwanza kamili mwaka 2004 kwenye tovuti yake binafsi, kisha <strong>TNIL</strong> iliyobadilishwa (Ithkuil III / "Ithkuil 2011") mwaka 2011, na akaendelea kuiboresha hadi 2020. Hajaeahi kudai Ithkuil inapaswa kuwa lugha ya jamii. Anaiita jaribio la mawazo.</p>
+  <p>Mvumbuzi ni <strong>John Quijada</strong>, mwanaisimu wa Marekani na mtumishi wa zamani wa DMV huko California, ambaye alianza kuchora kile ambacho kingekuja kuwa Ithkuil mwaka 1978, baada ya majaribio ya awali aliyoyaita <em>Mbozo</em> na <em>Pskeoj</em>. Alichapisha toleo la kwanza kamili mwaka 2004 kwenye tovuti yake binafsi, kisha mwaka 2007 akatoa toleo lililorahisishwa liitwalo <strong>Ilaksh</strong>, kisha akaliondoa na kulipanua kuwa Ithkuil III ("Ithkuil 2011") mwaka 2011, akaendelea kuiboresha hadi 2020 — na mnamo Februari 2023 akaibadilisha kabisa kwa lugha rithi, <strong>New Ithkuil</strong> (TNIL, "The New Ithkuilic Language"). Hajaeahi kudai Ithkuil inapaswa kuwa lugha ya jamii. Anaiita jaribio la mawazo.</p>
 
   <p>Baadhi ya vigezo vya muundo ni vya kusababisha kizunguzungu:</p>
 
   <ul>
-    <li>Fonolojia ya 2004 ilitumia hadi <strong>fonimu 92</strong>, ikiwa ni pamoja na sauti za kuruka, uvular, koo, toni, na tofauti za urefu. Marekebisho ya 2011 yaliyaliyapunguza lakini bado yako juu sana kuliko lugha yoyote ya asili.</li>
+    <li>Fonolojia ya 2004 ilitumia <strong>fonimu 82</strong> (konsonanti 65 na irabu 17), ikiwa ni pamoja na sauti za kuruka, uvular, koo, toni, na tofauti za urefu. Marekebisho ya 2011 yaliyapunguza hadi konsonanti 45 na irabu 13 — nyingi zaidi kuliko lugha nyingi, lakini si rekodi ya dunia: lugha ya Taa (ǃXóõ) ya Botswana inahesabiwa kuwa na konsonanti 58 hadi 87 na irabu 20 hadi 31, kutegemea uchanganuzi.</li>
     <li>Nomino hupinda kwa takriban <strong>kesi 96</strong> katika baadhi ya hesabu (dhidi ya 18 ya Hungarian au 15 ya Kifinlandi).</li>
     <li>Kila neno husimba kwa wakati mmoja: <em>usanidi</em>, <em>uhusiano</em>, <em>mtazamo</em>, <em>kiini</em>, <em>upanuzi</em>, <em>muktadha</em> na kategoria zingine kadhaa ambazo hazina sawa halisi katika Kiingereza.</li>
     <li>Vitenzi hubeba alama ya lazima kwa <em>uthibitisho</em> — jinsi msemaji anavyojua habari (uchunguzi wa moja kwa moja, dhana, maongezi, intuition, n.k.) — katika mfumo wenye undani zaidi kuliko mfumo wowote wa ushahidi wa asili.</li>
@@ -634,7 +634,7 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="panto" data-lat="34" data-lng="-118" data-zoom="4">🗺️ Ruka hadi California (nyumba ya Quijada)</button>
   </div>
 
-  <p>Ithkuil ilipiga mbio kwa umaarufu wa pana mnamo <strong>Desemba 2012</strong>, wakati Joshua Foer alichapisha makala katika <em>The New Yorker</em> yenye kichwa "Utopian for Beginners". Foer aliripoti kuwa jamii ya mashabiki wa Kirusi ilikuwa imeandaa kongamano, kwamba wanafunzi walikuwa wakipatiwa tattoos katika hati iliyobuniwa, na kwamba wanaisimu wawili wa Kikalmyk hata walikuwa wamejaribu kufanya Ithkuil kuwa somo rasmi la mtaala katika Jamhuri ya Kalmykia (mradi ulishindwa).</p>
+  <p>Ithkuil ilipiga mbio kwa umaarufu wa pana mnamo <strong>Desemba 2012</strong>, wakati Joshua Foer alichapisha makala katika <em>The New Yorker</em> yenye kichwa "Utopian for Beginners". Foer aliripoti kuwa katika ulimwengu unaozungumza Kirusi kulikua kundi la wafuasi wa lugha hii miongoni mwa waumini wa "psychonetics", vuguvugu la kujiendeleza binafsi: Quijada alisafirishwa hadi kongamano mjini Elista, mji mkuu wa Jamhuri ya Kalmykia nchini Urusi, mwezi Julai 2010, na kwenye kongamano la pili mjini Kiev mwezi Mei 2011. Katika kongamano la Kiev, Oleg Bakhtiyarov — mwanasaikolojia aliyeongoza vuguvugu hilo na kuendesha taasisi ndogo ya binafsi iliyoitwa Chuo Kikuu cha Maendeleo Yenye Ufanisi, wala si mwanaisimu — alitangaza kuwa kuanzia muhula uliofuata Ithkuil ingekuwa somo la lazima katika mtaala wa shule hiyo mjini Kiev na katika vituo vitatu vya matawi. Quijada, akizidi kutiwa wasiwasi na kundi hilo, alikataa mwaliko uliofuata wa Bakhtiyarov.</p>
 
   <p>Quijada mwenyewe amekiri kuwa <strong>hawezi kuzungumza Ithkuil kwa ufasaha</strong>. Kuzalisha sentensi moja kwa wakati halisi kunahitaji kuchagua kwa makusudi kati ya makumi ya kategoria za kisarufi kabla ya kufungua mdomo wa mtu. Amesema katika mahojiano kwamba hata baada ya miaka thelathini anahitaji wakati mwingine dakika kutunga sentensi moja katika lugha yake mwenyewe.</p>
 
@@ -660,7 +660,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Kabla ya Hangul, Wakorea waliandika katika <em>Hanja</em> (herufi za Kichina cha kale), mfumo unaohitaji sana hivi kwamba kusoma na kuandika kulizuiliwa kwa ufanisi kwa darasa la kiume la kiarustokrasia la <em>yangban</em>. Sejong alitaka hati ambayo wasio na elimu wangeweza kujifunza katika asubuhi moja.</p>
 
-  <p>Kile yeye na wasomi wake walizalisha ni, kwa makubaliano ya kiisimu, ndio <strong>alfabeti pekee ya kifeatural</strong> inayotumika kwa amali leo — kumaanisha kwamba maumbo ya herufi yanaonyesha vipengele vya kifonetiki vya sauti wanavyowakilisha:</p>
+  <p>Kile yeye na wasomi wake walizalisha ndio mfano unaotajwa zaidi wa <strong>alfabeti ya kifeatural</strong> (kundi lililopendekezwa na Geoffrey Sampson mwaka 1985 ambalo si wasomi wote wanalikubali; John DeFrancis alikuwa miongoni mwa waliopinga) — kumaanisha kwamba maumbo ya herufi yanaonyesha vipengele vya kifonetiki vya sauti wanavyowakilisha:</p>
 
   <ul>
     <li><strong>ㄱ</strong> (g/k) ni mwoneko wa upande wa nyuma ya ulimi unainuka kuzuia hewa kwenye kaakaa laini.</li>
@@ -668,7 +668,7 @@ window.TRIVIA_I18N['sw'] = {
     <li><strong>ㅁ</strong> (m) ni mdomo uliofungwa.</li>
     <li><strong>ㅅ</strong> (s) ina umbo kama jino — ukandamizo uko kwenye meno.</li>
     <li><strong>ㅇ</strong> (ng / kimya) ni koo iliyo wazi, ya pande zote.</li>
-    <li>Matoleo yenye pumzi na yenye nguvu ya kila konsonanti yanaundwa kwa kuongeza viboko: ㄱ → ㅋ → ㄲ. Ugumu wa kichoro unafuata ugumu wa kifonetiki.</li>
+    <li>Toleo lenye pumzi la kila konsonanti huundwa kwa kuongeza kiboko kimoja (ㄱ → ㅋ, ㄷ → ㅌ, ㅂ → ㅍ), ilhali toleo lenye nguvu huundwa kwa kuandika herufi ileile mara mbili (ㄱ → ㄲ). Vyovyote vile, ugumu wa kichoro unafuata ugumu wa kifonetiki.</li>
   </ul>
 
   <p>Vokali ni za dhana zaidi. Zimejengwa kutoka kwa primitives tatu: mstari mlalo ─ (dunia), mstari wima │ (mtu), na nukta · (mbingu, baadaye ikawa kiboko kifupi). Mchanganyiko wa vipengele hivi vitatu vya Kikonfyushasi vinatoa kila vokali ya Kikorea: ㅏ, ㅓ, ㅗ, ㅜ, na kadhalika.</p>
@@ -689,7 +689,7 @@ window.TRIVIA_I18N['sw'] = {
 
   'cherokee-sequoyah': {
     title: 'Sequoyah — fundi mahiri asiyejua kusoma aliyebuni mfumo wa kuandika kutoka mwanzo',
-    summary: 'Mwaka 1821 fundi wa fedha wa Cherokee ambaye hakuweza kusoma Kiingereza alifunua syllabary ya herufi 85 aliyokuwa amejenga peke yake kwa miaka 12. Ndani ya muongo, waangalizi wa wakati huo waliripoti kwamba kiwango cha kusoma na kuandika kwa Cherokee kililingana na au kuzidi kile cha wakaaji weupe waliokuwa karibu.',
+    summary: 'Mwaka 1821 fundi wa fedha wa Cherokee ambaye hakuweza kusoma Kiingereza alifunua syllabary ya herufi 86 — 85 kati yake bado zinatumika hadi leo — aliyokuwa amejenga peke yake kwa miaka 12. Ndani ya muongo, waangalizi wa wakati huo waliripoti kwamba kiwango cha kusoma na kuandika kwa Cherokee kililingana na au kuzidi kile cha wakaaji weupe waliokuwa karibu.',
     body: `
   <p><strong>Sequoyah</strong> (pia anaandikwa ᏍᏏᏉᏯ <em>Ssiquoya</em>, au kwa Kiingereza George Guess, k. 1770–1843) ni mmoja wa watu pekee katika historia iliyoandikwa anayejulikana kuwa amebuni mfumo wa kuandika unaofanya kazi kikamilifu kutoka kwa chochote, akiwa binafsi hajui kusoma na kuandika katika lugha yoyote. Hadithi haina uwezekano kiasi kwamba wafafanuzi wa karne ya 19 waliendelea kujaribu kuielezea mbali. Ilitokea hata hivyo.</p>
 
@@ -722,11 +722,11 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Kile kilichofuata hakijawahi kutokea katika historia ya kusoma na kuandika. Taifa la Cherokee lilipitisha syllabary kwa amri rasmi mwaka 1825. Kufikia 1828 walikuwa wameanza kuchapisha <em>Tsalagi Tsulehisanvhi / Cherokee Phoenix</em>, gazeti la kwanza la Wamarekani wa Asili, lililochapishwa kwa lugha mbili katika Cherokee na Kiingereza kwenye chapa ya syllabary iliyotengenezwa maalum. Ndani ya miaka kumi tangu maandamano ya Sequoyah ya 1821, waangalizi wa wakati huo — wakiwemo wamishionari wa Marekani — walikadiria kwamba <strong>kusoma na kuandika kwa Cherokee katika hati yao wenyewe kulizidi kiwango cha kusoma na kuandika cha wakaaji weupe waliokuwa karibu katika Kiingereza</strong>.</p>
 
-  <blockquote>"Katika miezi michache alikuwa amekamilisha mfumo wake... na taifa zima lilisisimka kwa ugunduzi huo." — Samuel Lorenzo Knapp, <em>Lectures on American Literature</em>, 1829</blockquote>
+  <blockquote>"Makabila yaliwatazama vijana hao kwa wasiwasi kwa miezi kadhaa; na walipojitokeza kufanyiwa mtihani, hisia za wote zilipanda hadi kilele." — Samuel Lorenzo Knapp, <em>Lectures on American Literature</em>, 1829</blockquote>
 
-  <p>Ushindi ulifuatwa na msiba. Mwaka 1838–1839, licha ya jimbo la kisasa la kitaifa la Cherokee linalosoma na kuandika, lenye katiba, linalochapisha gazeti, utawala wa Rais Andrew Jackson uliwalazimisha kuondolewa magharibi katika <strong>Trail of Tears</strong>; karibu 4,000 kati ya Wacherokee 16,000 walikufa. Syllabary ilienda nao. Sequoyah mwenyewe alikufa mwaka 1843 huko Mexico, akitafuta bendi ya Cherokee iliyotengwa, kulingana na ripoti zilizoenezwa.</p>
+  <p>Ushindi ulifuatwa na msiba. Mwaka 1838–1839, licha ya jimbo la kisasa la kitaifa la Cherokee linalosoma na kuandika, lenye katiba, linalochapisha gazeti, utawala wa Rais Martin Van Buren — ukitekeleza mkataba wa kuwaondoa ambao Andrew Jackson alikuwa amefanikisha — uliwalazimisha kuondolewa magharibi katika <strong>Trail of Tears</strong>; karibu 4,000 kati ya Wacherokee 16,000 walikufa. Syllabary ilienda nao. Sequoyah mwenyewe alikufa mwaka 1843 huko Mexico, akitafuta bendi ya Cherokee iliyotengwa, kulingana na ripoti zilizoenezwa.</p>
 
-  <p>Leo syllabary ya Cherokee inafundishwa katika shule za kuzama huko Tahlequah, Oklahoma na Cherokee, North Carolina. Iko katika Unicode (U+13A0–U+13FF), inasaidiwa na mifumo ya uendeshaji ya Apple na Google, na imetumika kuandika kila kitu kutoka kwa tafsiri za Biblia hadi posts za kisasa za mitandao ya kijamii. Mti mkubwa wa California redwood <em>Sequoia sempervirens</em> umeitwa baada yake. Mtu hakuweza kusoma. Alipa taifa hati.</p>
+  <p>Leo syllabary ya Cherokee inafundishwa katika shule za kuzama huko Tahlequah, Oklahoma na Cherokee, North Carolina. Iko katika Unicode (U+13A0–U+13FF), inasaidiwa na mifumo ya uendeshaji ya Apple na Google, na imetumika kuandika kila kitu kutoka kwa tafsiri za Biblia hadi posts za kisasa za mitandao ya kijamii. Mti wa redwood wa pwani ya California <em>Sequoia sempervirens</em> kwa mapokeo husemekana umeitwa kwa jina lake, ingawa jinsi Endlicher alivyofikia jina hilo mwaka 1847 bado inabishaniwa. Mtu hakuweza kusoma. Alipa taifa hati.</p>
     `
   },
 
@@ -747,7 +747,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Bukele hakubunika hati peke yake kabisa; alikutanisha kikundi kidogo cha wanaume wenzake wa Vai — Wonu Wulen, Maule, na wengine — na syllabary ilikamilishwa kwa pamoja. Toleo la kwanza lilikuwa na takriban <strong>herufi 200</strong>, moja kwa silabi ya Vai pamoja na wachache wa logographs. Seti ya kisasa iliyosanifiwa, iliyowekwa katikati ya karne ya 20, ina <strong>herufi 212</strong>.</p>
 
-  <p>Vai ni lugha ya Kimande, kama Mandinka na Bambara, yenye muundo wazi wa silabi (C)V(N) na vokali saba zenye toni. Syllabary inalinganishwa kabisa na muundo huu: kila herufi inawakilisha kitengo kimoja cha konsonanti + vokali + toni. Herufi chache ni za picha kwa asili (ishara ya <em>fa</em>, "baba", ilikuwa awali kwa misingi ya ndevu), lakini nyingi ni maumbo ya kijiometri ya bahati.</p>
+  <p>Vai ni lugha ya Kimande, kama Mandinka na Bambara, yenye muundo wazi wa silabi (C)V(N) na vokali saba ambazo pia hubeba toni za kutofautisha maana. Syllabary inafuata muundo huo kwa karibu: kila herufi inawakilisha kitengo kimoja cha konsonanti + vokali, na nazali ya mwisho wa silabi huongezwa kama alama ya pekee (ꘋ). Kisichoandikwa ni toni — Vai ina toni nne, lakini hakuna hata moja inayoonekana ukurasani, na wasomaji huzitambua kutokana na muktadha. Herufi chache ni za picha kwa asili (ishara ya <em>fa</em>, "baba", ilikuwa awali kwa misingi ya ndevu), lakini nyingi ni maumbo ya kijiometri ya bahati.</p>
 
   <ul>
     <li>Ndani ya muongo wa kufunguliwa kwake mwaka 1834, hati ya Vai ilikuwa inatumika kwa barua za kibinafsi, akaunti za biashara, rekodi za mahakama na maelezo ya Kurani.</li>
@@ -756,7 +756,7 @@ window.TRIVIA_I18N['sw'] = {
   </ul>
 
   <div class="trivia-actions">
-    <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="vai">💧 "Maji" — <em>ꕕ (ja)</em></button>
+    <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="vai">💧 "Maji" — <em>ꕀ (ji)</em></button>
     <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="vai">👋 Ona Vai "Hujambo"</button>
   </div>
 
@@ -771,7 +771,7 @@ window.TRIVIA_I18N['sw'] = {
 
   'tangut-deciphered': {
     title: 'Tangut — hati iliyopotea ya himaya iliyosahaulika',
-    summary: 'Lugha ya Kichinochibetan iliyoandikwa katika takriban logographs 6,000 zilizojengwa kwa mkono, iliyobuniwa kwa amri ya kifalme mwaka 1036 na kusahaulika kwa miaka 700 — hadi mwanaisimu wa Kirusi alipoiburuza kurudi kutoka kwa wafu.',
+    summary: 'Lugha ya Kichinochibetan iliyoandikwa katika takriban logographs 6,000 zilizojengwa kwa mkono, iliyobuniwa kwa amri ya kifalme mwaka 1036 na kusahaulika kwa miaka 400 — hadi mwanaisimu wa Kirusi alipoiburuza kurudi kutoka kwa wafu.',
     body: `
   <p>Mwaka 1036 BK, mfalme <strong>Li Yuanhao</strong> wa dini ya <strong>Xia Magharibi</strong> (Xixia / 西夏) aliamuru kuwa watu wake, Watangut, lazima wawe na mfumo wa kuandika unaostahili wao wenyewe. Msomi wake Yeli Renrong inasemekana alibuni hati nzima katika miaka michache tu — takriban <strong>logographs 6,000</strong>, kila moja muundo mpya, ikifanana kwa makusudi lakini si kukopa kutoka Kichina. Tokeo ni <strong>Tangut (西夏文)</strong>: mojawapo ya mifumo ya kuandika yenye msongamano wa kuona zaidi iliyowahi kuundwa.</p>
 
@@ -780,14 +780,14 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="panto" data-lat="38.5" data-lng="106" data-zoom="5">🗺️ Ruka hadi makao ya Xixia</button>
   </div>
 
-  <p>Himaya ya Xia Magharibi, iliyokuwa katikati ya kile ambacho sasa ni Ningxia na Gansu kaskazini-magharibi mwa China, ilidumu karibu karne mbili — kwa muda mrefu wa kutosha kutoa kanuni za Kibuddha, kamusi, kanuni za sheria, historia za nasaba, na urasimu mkubwa, vyote katika Tangut. Kisha mwaka <strong>1227</strong> Wamongolia chini ya Genghis Khan waliiharibu. Tangut ilinusurika kidogo kama lugha ya kiliturujia na ya kisomi, lakini kufikia nasaba ya Ming hakuna mtu angeweza kuisoma. Hati ilitoweka kutoka kwa matumizi ya kazi.</p>
+  <p>Himaya ya Xia Magharibi, iliyokuwa katikati ya kile ambacho sasa ni Ningxia na Gansu kaskazini-magharibi mwa China, ilidumu karibu karne mbili — kwa muda mrefu wa kutosha kutoa kanuni za Kibuddha, kamusi, kanuni za sheria, historia za nasaba, na urasimu mkubwa, vyote katika Tangut. Kisha mwaka <strong>1227</strong> Wamongolia chini ya Genghis Khan waliiharibu. Tangut iliishi karne kadhaa zaidi ya himaya yake. Jamii zilizotawanyika upande wa mashariki ziliendelea kuiandika kama lugha ya kiliturujia na ya kisomi, na maandishi ya mwisho ya Tangut yanayoweza kupangiwa tarehe ni nguzo mbili za dharani za Kibuddha zilizosimikwa Baoding, Hebei — takriban kilomita 800 mashariki mwa mji mkuu wa zamani wa Xixia — mwaka <strong>1502</strong>, katikati ya nasaba ya Ming. Baada ya hapo hati ilitoweka kutoka kwa matumizi ya kazi.</p>
 
-  <p>Kile wanaisimu hatimaye walifaurudisha ni lugha ya <strong>Kichinochibetan</strong> — uwezekano mkubwa kwenye tawi la <strong>Qiangic</strong> — yenye tofauti tajiri za toni, makundi changamano ya konsonanti za awali yaliyofaurudishwa kutoka kwa meza za uimbo, na upendeleo wa logographs za kuunganisha ambamo radicals <em>zinakopwa kutoka nyingine</em> badala ya kutoka kwa babu yoyote wa Kichina. Herufi ya kawaida ya Tangut ina viboko 15–20; baadhi zina zaidi ya 30.</p>
+  <p>Kile wanaisimu hatimaye walifaurudisha ni lugha ya <strong>Kichinochibetan</strong> — uwezekano mkubwa kwenye tawi la <strong>Qiangic</strong> — yenye utofautishaji wa toni mbili tu (toni tambarare 平聲 na toni inayopanda 上聲), makundi changamano ya konsonanti za awali yaliyofaurudishwa kutoka kwa meza za uimbo, na upendeleo wa logographs za kuunganisha ambamo radicals <em>zinakopwa kutoka nyingine</em> badala ya kutoka kwa babu yoyote wa Kichina. Herufi ya kawaida ya Tangut ina viboko 15–20; baadhi zina zaidi ya 30.</p>
 
   <ul>
     <li><strong>Iliyoundwa, si iliyobadilika.</strong> Tofauti na Kichina, ambayo herufi zake zilikua kwa asili kwa milenia, kila logograph ya Tangut iliundwa mara moja, katika kiwanda kimoja cha kifalme. Hii ni mojawapo ya hati chache sana kubwa "zilizojengwa" katika historia ya binadamu.</li>
     <li><strong>Fonolojia kwa meza.</strong> Kwa sababu hakuna msemaji wa asili anaeishi, ufaurudisho wote wa sauti ya Tangut unategemea kamusi za uimbo za lugha mbili — hasa <em>Wénhǎi</em> (文海) na <em>Tóngyīn</em> (同音), ambazo zinaunganisha herufi kwa awali, uimbo na toni.</li>
-    <li><strong>Maktaba ya Kibuddha chini ya ardhi.</strong> Mwaka 1908 mchunguzi wa Kirusi <strong>Pyotr Kozlov</strong> alichimbua mji ulioharibika wa Khara-Khoto na akapeleka maelfu ya nakala za Tangut hadi St Petersburg — bado mkusanyiko mkubwa zaidi duniani.</li>
+    <li><strong>Maktaba ya Kibuddha chini ya ardhi.</strong> Mwaka 1908 mchunguzi wa Kirusi <strong>Pyotr Kozlov</strong> alifika katika mji ulioharibika wa Khara-Khoto na kuanza kuchimba; aliporudi mwezi Juni 1909 alifungua stupa nje ya kuta zake na akapeleka maelfu ya vitabu na nakala za Tangut hadi St Petersburg — bado mkusanyiko mkubwa zaidi duniani.</li>
   </ul>
 
   <div class="trivia-actions">
@@ -795,13 +795,13 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="txg">💧 Ona Tangut "Maji"</button>
   </div>
 
-  <p>Mchakuzi alikuwa <strong>Nikolai Nevsky</strong> (1892–1937), mtaalamu wa Kirusi wa Japani ambaye alitumia miaka ya 1920 nchini Japani na Taiwan na akageuza umakini wake kwenye hazina ya Khara-Khoto aliporejea Leningrad. Kufikia 1929 Nevsky alikuwa amevunja muundo wa msingi wa kifonolojia na akajenga kamusi ya kwanza inayofanya kazi ya Tangut–Kirusi. Kazi yake bora, <em>Tangutskaya Filologiya</em>, ilichapishwa baada ya kifo mwaka 1960 — Nevsky mwenyewe alikuwa amepigwa risasi katika Usafishaji Mkubwa wa Stalin mwaka 1937. Alipewa Tuzo ya Lenin baada ya kifo.</p>
+  <p>Aliyechangia zaidi katika kuifumbua alikuwa <strong>Nikolai Nevsky</strong> (1892–1937), mtaalamu wa Kirusi wa Japani ambaye alitumia miaka ya 1920 nchini Japani na Taiwan. Alianza kushughulikia hazina ya Khara-Khoto mwaka 1925, akiwa bado anaishi Japani, na baada ya kurejea Leningrad mwaka 1929 alitumia muongo uliofuata kufumbua muundo wake wa kifonolojia na kutunga kamusi ya kwanza ya Tangut–Kirusi. Kazi yake bora, <em>Tangutskaya Filologiya</em>, ilichapishwa baada ya kifo mwaka 1960 — Nevsky mwenyewe alikuwa amepigwa risasi katika Usafishaji Mkubwa wa Stalin mwaka 1937. Alipewa Tuzo ya Lenin baada ya kifo.</p>
 
   <blockquote>"Kila herufi ya Tangut ni tatizo dogo la usanifu: viboko havizungumzi tu sauti, vinatandaza mraba." — kufupishwa kutoka kwa M. V. Sofronov</blockquote>
 
   <p>Baadaye <strong>Mikhail Sofronov</strong> aliboresha ufaurudisho wa kifonolojia katika miaka ya 1960; <strong>Ksenia Kepping</strong> alifanya kazi juu ya sarufi na maandiko ya sherehe; leo watafiti huko Beijing, Kyoto, Taipei na St Petersburg wanaendelea kuchapisha matoleo ya nakala zilizoorodheshwa hivi karibuni. Maswali muhimu yanabaki — mfumo halisi wa toni, nafasi ya ndani zaidi ya kigenetiki ndani ya Kichinochibetan, maana ya makumi ya herufi nadra ambazo zinatokea mara moja au mbili tu katika kamusi.</p>
 
-  <p>Tangut ni kumbusho kwamba "lugha iliyokufa" mara chache ni hukumu ya mwisho. Hati iliyobuniwa katika muongo mmoja, iliyotumika na mamilioni, iliyosahaulika kwa karne saba, bado inaweza kuhamasishwa kurudi kwa usemi — kwa kuwa mtu anakaidi vya kutosha kutumia maisha ya muda mrefu kwenye meza za uimbo.</p>
+  <p>Tangut ni kumbusho kwamba "lugha iliyokufa" mara chache ni hukumu ya mwisho. Hati iliyobuniwa katika muongo mmoja, iliyotumika na mamilioni, iliyosahaulika kwa karne nne, bado inaweza kuhamasishwa kurudi kwa usemi — kwa kuwa mtu anakaidi vya kutosha kutumia maisha ya muda mrefu kwenye meza za uimbo.</p>
     `
   },
 
@@ -822,7 +822,7 @@ window.TRIVIA_I18N['sw'] = {
   <ul>
     <li><strong>Tatizo la kusoma karibu limetatuliwa.</strong> Takriban 70–80% ya ishara za Linear A zina sawa za Linear B zilizokubaliwa. Tunaweza kuhamisha vibao vingi.</li>
     <li><strong>Tatizo la kutafsiri kimsingi halijaguswa.</strong> Tunaweza kusoma <em>ku-ro</em> (ambayo labda inamaanisha "jumla", kwani inaonekana chini ya orodha za nambari), <em>ja-sa-sa-ra</em> (formula ya libation ya kurudia, labda jina la kimungu), na wachache wa majina ya mahali ambayo yanaendelea katika Kigiriki cha baadaye. Zaidi ya hayo, karibu chochote.</li>
-    <li><strong>Maandishi 1,400 yanasikika kama mengi. Si.</strong> Wengi ni neno moja au mawili kwa urefu: jina, nambari, bidhaa. Kamusi ni takriban ukubwa wa riwaya fupi — na nyingi yake ni uhasibu.</li>
+    <li><strong>Maandishi 1,400 yanasikika kama mengi. Si.</strong> Wengi ni neno moja au mawili kwa urefu: jina, nambari, bidhaa. Kamusi nzima ina takriban ishara 7,400 — maneno elfu chache tu, si ndefu kuliko hadithi fupi — na nyingi yake ni uhasibu.</li>
   </ul>
 
   <div class="trivia-actions">
@@ -943,7 +943,7 @@ window.TRIVIA_I18N['sw'] = {
   <p>Mfumo una maneno manne ya msingi — ingawa kama utafiti wa makini wa Stephen Levinson katika miaka ya 1980 na 1990 ulionyesha, hawapo "kaskazini/kusini/mashariki/magharibi" kabisa kwa maana ya Kiingereza:</p>
 
   <ul>
-    <li><strong><em>gungga</em></strong> ≈ <strong>kaskazini</strong> (na mhimili uliozungushwa kuhusu 10–15° mashariki mwa kaskazini halisi)</li>
+    <li><strong><em>gungga</em></strong> ≈ <strong>kaskazini</strong> (mfumo mzima wa maneno haya manne umezungushwa kidogo kwa mkono wa saa kutoka kaskazini halisi)</li>
     <li><strong><em>jiba</em></strong> ≈ <strong>kusini</strong></li>
     <li><strong><em>naga</em></strong> ≈ <strong>mashariki</strong> (kuelekea mawio ya jua)</li>
     <li><strong><em>guwa</em></strong> ≈ <strong>magharibi</strong> (kuelekea machweo ya jua)</li>
@@ -957,7 +957,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Tokeo la kifikra, lililothibitishwa na Levinson, John Haviland na wenzake katika Taasisi ya Max Planck, ni la kushangaza. Wasemaji wa Guugu Yimithirr huhifadhi hisia isiyovunjika ya mwelekeo wao kwa <strong>dead-reckoning (urambazaji wa makadirio)</strong>. Katika majaribio, wanaweza kuelekeza kwa usahihi mahali pa mbali (bahari, makazi ya jirani, nyumba ya jamaa kilomita mia kadhaa mbali) bila kujali kama wameketi katika chumba kisicho na madirisha, wamefungwa kupofusha, baada ya kuendeshwa katika mizunguko, au chini ya pango. Kompasi yao ya kardinali haijazimika tu.</p>
 
-  <p>Hii si ujuzi maalum wa wachache wazee. Ni <strong>mali ya ulimwengu wote ya wasemaji wenye ufasaha</strong>, iliyojifunzwa katika utoto wa mapema. Watoto wa miaka mitatu wanaashiria kikardinali. Mashine ya kiakili imejengwa na lugha na inafanyiwa mazoezi mara kwa mara na hitaji la kuzungumza juu yake.</p>
+  <p>Hii si ujuzi maalum wa wachache wazee. Miongoni mwa wasemaji wazee wenye ufasaha zaidi, ni <strong>sifa ya jamii nzima ya wasemaji</strong>, iliyopatikana utotoni. Watoto hawaupati mfumo huu kwa mpigo mmoja bali hatua kwa hatua: utafiti wa uwandani wa Lourdes de León kwa wasemaji wachanga huko Hopevale, kama alivyoripoti Haviland, unaonyesha njia inayoanza kwa neno kama <em>naga</em> kusikika kwa utata kama "kule", kisha kuhusishwa na mahali maalum kama ufuo, kisha eneo zima, na mwishoni tu kuwa utofautishaji dhahania wa pande nne. Mashine ya kiakili imejengwa na lugha na inafanyiwa mazoezi mara kwa mara na hitaji la kuzungumza juu yake.</p>
 
   <blockquote>"Huwezi kuzungumza Guugu Yimithirr bila kujua kila wakati kaskazini iko wapi." — kufupisha Stephen Levinson, 1997</blockquote>
 
@@ -991,8 +991,8 @@ window.TRIVIA_I18N['sw'] = {
   <ul>
     <li><em>wa-</em> — kiambishi cha ukweli / wakati uliopita</li>
     <li><em>shako-</em> — mhusika wa kiume mmoja anayetenda kwa kitu cha kike kimoja ("yeye … yeye")</li>
-    <li><em>-ya't-</em> — marejeleo ya mwili / nafsi</li>
-    <li><em>-awitshera-</em> — mzizi wa nomino uliojumuishwa: "gauni, mavazi"</li>
+    <li><em>-ya't-</em> — "mwili" — nusu ya kwanza ya nomino iliyojumuishwa hapa chini, si kipashio huru</li>
+    <li><em>-awitshera-</em> — <em>-awi-</em> "kuvaa" pamoja na kiambishi cha kuunda nomino <em>-tsher-</em>; pamoja na <em>-ya't-</em> "mwili" kinachotangulia, hii ni nomino iliyojumuishwa <em>-ya'tawitshera-</em> "gauni, mavazi", kwa maana halisi "kitu kinachovaliwa mwilini" (linganisha Kanien'kéha <em>atià:tawi</em> "shati, koti, gauni")</li>
     <li><em>-hetkv-</em> — mzizi wa kitenzi: "kuwa mbaya, kuharibu"</li>
     <li><em>-ht-</em> — causative ("fanya X")</li>
     <li><em>-a's-</em> — benefactive ("kwa ajili yake")</li>
@@ -1006,13 +1006,13 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="setword" data-word="father" data-code="moh">👨 Ona Mohawk "Baba"</button>
   </div>
 
-  <p>Vitenzi vya Mohawk pia hualamisha kwa lazima <strong>kiambishi cha viwakilishi</strong> changamano kinachounganisha mtu, nambari na jinsia ya mhusika na kitu katika morpheme moja ya portmanteau. Kuna zaidi ya viambishi <strong>60</strong> kama hivyo katika paradigm, vikitofautisha kwa mfano "Mimi → wewe (sg)" kutoka "Mimi → ninyi (pl)" kutoka "wewe (sg) → mimi" — kila moja silabi moja. Kujifunza meza ya kiambishi kunazingatiwa kwa mapana kuwa mlima mwinukoje katika lugha.</p>
+  <p>Vitenzi vya Mohawk pia hualamisha kwa lazima <strong>kiambishi cha viwakilishi</strong> changamano kinachounganisha mtu, nambari na jinsia ya mhusika na kitu katika morpheme moja ya portmanteau. Kuna viambishi <strong>58</strong> kama hivyo katika paradigm, vikitofautisha kwa mfano "Mimi → wewe (sg)" kutoka "Mimi → ninyi (pl)" kutoka "wewe (sg) → mimi" — kila moja silabi moja. Kujifunza meza ya kiambishi kunazingatiwa kwa mapana kuwa mlima mwinukoje katika lugha.</p>
 
   <p>Polysynthesis inazua swali la kina kwa typolojia ya kiisimu. Je, "neno" la Mohawk ni aina sawa ya kitengo na "neno" la Kiingereza? Mark Baker, katika <em>The Polysynthesis Parameter</em> yake yenye ushawishi (1996), alidai kwamba lugha za polysynthetic huzitii vikwazo vyake vya kisintaksia — kwa mfano, hakuna hoja huru za viwakilishi zinazohitajika kwa sababu kitenzi tayari kinazibeba — na kwamba zinawakilisha mpangilio wa parametric mbadala kwa lugha kama Kiingereza. Wengine, ikiwa ni pamoja na Mithun, hupendelea kuelezea Mohawk kwa maneno yake mwenyewe badala ya kuifaa katika parameter ya ulimwengu wote.</p>
 
   <blockquote>"Katika Mohawk, kitenzi ni ukumbi mdogo wa michezo. Watendaji huingia kabla ya pazia kupanda na ni nadra kuondoka jukwaani." — kufupisha Marianne Mithun, 1999</blockquote>
 
-  <p>Harakati ya uhuishaji ni muhimu hapa. Shule za kuzama za Kanien'kéha — Shule ya Kuokoa ya Kahnawà:ke na Shule ya Uhuru ya Akwesasne ndizo zinazojulikana zaidi — zimezalisha kizazi kipya cha wasemaji ambao hushughulikia meza hiyo ya viambishi 60 kwa ufasaha wa kuzaliwa. Mohawk inaonyesha kuwa polysynthesis si fossil ya zamani; ni mkakati wa kisarufi unaoishi, unaoeleza sawa na mkakati wowote wa kuchambua, na sasa unajengwa upya kwa makusudi na jamii zilizoazimia kuwa <em>Kanien'kéha</em> itaendelea.</p>
+  <p>Harakati ya uhuishaji ni muhimu hapa. Shule za kuzama za Kanien'kéha — Shule ya Kuokoa ya Kahnawà:ke na Shule ya Uhuru ya Akwesasne ndizo zinazojulikana zaidi — zimezalisha kizazi kipya cha wasemaji ambao hushughulikia meza hiyo ya viambishi 58 kwa ufasaha wa kuzaliwa. Mohawk inaonyesha kuwa polysynthesis si fossil ya zamani; ni mkakati wa kisarufi unaoishi, unaoeleza sawa na mkakati wowote wa kuchambua, na sasa unajengwa upya kwa makusudi na jamii zilizoazimia kuwa <em>Kanien'kéha</em> itaendelea.</p>
 
   <p>Lugha zingine za kawaida za polysynthetic — Inuktitut, Yupik wa Siberia ya Kati, Chukchi, Ainu, Sora — zinathibitisha kuwa muundo unajirudia kwenye mabara. Lakini kwa msongamano tupu wa habari ya kisarufi kwa neno, lugha za Iroquoian, na hasa Mohawk, bado ni protoaina ambayo vitabu vya kufundisha hufikia kwanza.</p>
     `
@@ -1034,12 +1034,12 @@ window.TRIVIA_I18N['sw'] = {
 
   <blockquote><em>xłp̓x̣ʷłtłpłłskʷc̓</em><br>"basi alikuwa amekuwa amemiliki mmea wa bunchberry"</blockquote>
 
-  <p>Soma tena. Hakuna <em>a</em>, <em>e</em>, <em>i</em>, <em>o</em>, au <em>u</em> hata moja — hata sio schwa. Bado wasemaji wa Nuxalk huitamka kama neno la ufasaha lisilovunjika. Mengine ya kawaida ni pamoja na <em>clhp̓xʷłtłpłłs</em> ("alikuwa amekuwa na mmea wa bunchberry"), <em>tłk̓ʷixʷ</em> ("ulinitemea mate"), na hata sentensi za neno moja kama <em>sps</em> ("upepo wa kaskazini-mashariki").</p>
+  <p>Soma tena. Hakuna <em>a</em>, <em>e</em>, <em>i</em>, <em>o</em>, au <em>u</em> hata moja — hata sio schwa. Bado wasemaji wa Nuxalk huitamka kama neno la ufasaha lisilovunjika. Mengine ya kawaida ni pamoja na <em>p̓x̣ʷłt</em> ("mmea wa bunchberry"), <em>cktskʷc</em> ("alifika"), <em>łxʷtłcxʷ</em> ("ulinitemea mate"), na hata sentensi za neno moja kama <em>sps</em> ("upepo wa kaskazini-mashariki").</p>
 
   <p>Hii inawezekanaje? Katika lugha nyingi, kila silabi inajengwa kuzunguka <strong>vokali</strong> — kiini wazi, cha sauti kinachobeba pumzi. Nuxalk inaonekana kuvunja kanuni hii. Uchambuzi mbili kuu zimependekezwa:</p>
 
   <ul>
-    <li><strong>Obstruents kama vyiini vya silabi.</strong> Nater, na baadaye <strong>Eung-Do Cook</strong> na <strong>Bruce Bagemihl</strong>, walidai kwamba hata konsonanti zisizo za sonorant — vipande na fricatives — vinaweza kuwa moyo wa silabi katika Nuxalk. <em>s</em> katika <em>sps</em> ni tu <em>ni</em> silabi.</li>
+    <li><strong>Obstruents kama vyiini vya silabi.</strong> Nater, na kabla yake <strong>James E. Hoard</strong>, walidai kwamba hata konsonanti zisizo za sonorant — vipande na fricatives — vinaweza kuwa moyo wa silabi katika Nuxalk. <em>s</em> katika <em>sps</em> ni tu <em>ni</em> silabi.</li>
     <li><strong>Hakuna silabi kabisa.</strong> Tasnifu yenye ushawishi ya Bagemihl ya 1991 ilienda mbele zaidi na kupendekeza kwamba maneno ya Nuxalk yanajipanga si katika silabi bali moja kwa moja katika <strong>nafasi za muda wa kimoraic</strong>, ikifanya dhana ya "kiini cha silabi" isiyo na umuhimu.</li>
   </ul>
 
@@ -1048,11 +1048,11 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="blc">☀️ Ona Nuxalk "jua" (snx)</button>
   </div>
 
-  <p>Wasemaji wa asili wenyewe hawagundui "vokali iliyokosekana". Hawahisi kwamba wanaingiza schwa iliyofichwa kufanya neno litamke — rekodi na masomo ya electropalatographic huthibitisha konsonanti zinakimbia pamoja bila mpito wa kivokali unaoweza kupimwa kati yao. Neno <em>xłp̓x̣ʷłtłpłłskʷc̓</em> linachukua kuhusu sekunde moja kutamka na ni, kwa msemaji, neno tu.</p>
+  <p>Wasemaji wa asili wenyewe hawagundui "vokali iliyokosekana". Hawahisi kwamba wanaingiza schwa iliyofichwa kufanya neno litamke — kuanzia maelezo ya fonolojia ya Newman ya mwaka 1947 hadi utafiti wa nyanjani na rekodi za Nater, maandiko ya kimaelezo hayapati vokali yoyote ya kuingizwa kati yao. Neno <em>xłp̓x̣ʷłtłpłłskʷc̓</em> linachukua kuhusu sekunde moja kutamka na ni, kwa msemaji, neno tu.</p>
 
   <p>Athari zinaenda mbali zaidi ya Nuxalk. Iwapo lugha inaweza kujenga maneno kutoka kwa mfululizo wa obstruent safi, basi madai ya ulimwengu wote kwamba <em>kila silabi inahitaji vokali</em> haiwezi kusimama katika fomu yake yenye nguvu zaidi. Wanafonolojia sasa wanatofautisha kwa makini zaidi kati ya <strong>sonority</strong> (sifa ya kifononi) na <strong>kiini</strong> (jukumu la kimuundo) — na Nuxalk ni mfano kila mtu hufundisha.</p>
 
-  <p>Leo wasemaji wa kwanza wa lugha wenye ufasaha chini ya 20 wa Nuxalk wanabaki, karibu wote ni wazee huko Bella Coola. Taifa la Nuxalk huendesha mipango ya kuzama na hatua ya nyumba ya lugha; rekodi zilizofanywa na Nater katika miaka ya 1970, na kazi ya hivi karibuni zaidi ya <strong>Suzanne Gessner</strong> na Baraza la Utamaduni la Watu wa Kwanza, vinakimbia kuandika fonolojia isiyo na nyingine yoyote.</p>
+  <p>Leo wasemaji wa kwanza wa lugha wenye ufasaha chini ya 20 wa Nuxalk wanabaki, karibu wote ni wazee huko Bella Coola. Taifa la Nuxalk huendesha mipango ya kuzama na hatua ya nyumba ya lugha; rekodi zilizofanywa na Nater katika miaka ya 1970, na kazi ya hivi karibuni zaidi ya uwekaji kumbukumbu inayosaidiwa na Baraza la Utamaduni la Watu wa Kwanza, vinakimbia kuandika fonolojia isiyo na nyingine yoyote.</p>
     `
   },
 
@@ -1068,7 +1068,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Na vipengele vichache vya ujenzi, maneno lazima yawe marefu na yenye vokali nyingi. Tokeo ni mojawapo ya lugha za muziki zaidi duniani: <em>humuhumunukunukuapuaʻa</em> (samaki wa reef triggerfish, samaki wa jimbo la Hawaiʻi), <em>pāhoehoe</em> na <em>ʻaʻā</em> (lava laini na yenye michongoma — maneno yote yamekopwa moja kwa moja katika jiolojia duniani kote), na ya kila siku <em>aloha</em>, ambayo wakati huo huo inamaanisha hujambo, kwaheri, upendo, na huruma.</p>
 
-  <p>Kihawaii kinashuka kutoka <strong>Proto-Polynesian</strong>, kilicholetwa na wasafiri kutoka Visiwa vya Marquesas na Society takriban miaka 1,000–1,500 iliyopita. Ndugu wa karibu wanaoishi ni Kimarquesan, Kitahitian, na Kimaori — na mawasiliano ya kihistoria ni ya kawaida sana hivi kwamba msemaji wa Kimaori mara nyingi anaweza kudhana kogneti ya Kihawaii kwa mtazamo (Kimaori <em>tangata</em> ↔ Kihawaii <em>kanaka</em>, "mtu"; Kimaori <em>whetū</em> ↔ Kihawaii <em>hōkū</em>, "nyota").</p>
+  <p>Kihawaii kinashuka kutoka <strong>Proto-Polynesian</strong>, kilicholetwa na wasafiri kutoka Visiwa vya Marquesas na Society. Upimaji wa umri kwa kaboni yenye mionzi wa usahihi wa hali ya juu umesogeza wakati wa kuwasili huko karibu zaidi nasi kuliko vilivyodhani vitabu vya zamani — makadirio ya sasa yanakusanyika kati ya mwaka <strong>1000 na 1300 BK</strong>, yaani takriban miaka elfu moja tu iliyopita. Ndugu wa karibu wanaoishi ni Kimarquesan, Kitahitian, na Kimaori — na mawasiliano ya kihistoria ni ya kawaida sana hivi kwamba msemaji wa Kimaori mara nyingi anaweza kudhana kogneti ya Kihawaii kwa mtazamo (Kimaori <em>tangata</em> ↔ Kihawaii <em>kanaka</em>, "mtu"; Kimaori <em>whetū</em> ↔ Kihawaii <em>hōkū</em>, "nyota").</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="haw">☀️ Ona Kihawaii "jua"</button>
@@ -1083,7 +1083,7 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 Ruka hadi Hilo, moyo wa uhuishaji</button>
   </div>
 
-  <p>Sensa ya Marekani ya 2016 ilikadiria <strong>wasemaji ~18,000 wa Kihawaii</strong>; tafiti za jimbo lenyewe huweka idadi karibu 24,000 na inaongezeka. Kwa mara ya kwanza katika zaidi ya karne, lugha ina watoto kama wasemaji wa asili tena. Orodha ya fonimu bado ni 13. Hata hivyo wakati ujao umepanuka isivyoweza kupimwa.</p>
+  <p>Ripoti ya jimbo la Hawaiʻi ya 2016 ilihesabu <strong>watu ~18,400</strong> wanaozungumza Kihawaii nyumbani; kufikia 2024 Ofisi ya Masuala ya Kihawaii iliweka idadi hiyo kuwa <strong>27,338</strong> — ongezeko la karibu asilimia 50 katika chini ya muongo mmoja, na wasemaji wapatao 33,000 wa Kihawaii nyumbani kote nchini. Kwa mara ya kwanza katika zaidi ya karne, lugha ina watoto kama wasemaji wa asili tena. Orodha ya fonimu bado ni 13. Hata hivyo wakati ujao umepanuka isivyoweza kupimwa.</p>
     `
   },
 
@@ -1106,18 +1106,18 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Mwanaisimu wa Marekani <strong>Judy Kegl</strong> alialikwa kusoma hali mwaka 1986. Aligundua haraka kuwa kile alichokuwa akiona kilikuwa kisicho na mfano. Pamoja na <strong>Ann Senghas</strong>, <strong>Marie Coppola</strong>, na wengine, ameyaandika lugha katika makundi tangu hapo. Ugunduzi wao wa kihistoria:</p>
 
-  <blockquote>"Watoto walioingia wakiwa wadogo na katika idadi kubwa walifanya ishara kwa njia ambazo zilikuwa za kimuundo ngumu zaidi na za kisarufi zaidi kuliko ishara za kundi kongwe la kizazi cha kwanza lililotoa mchango wao." — Senghas, Kita & Özyürek, <em>Science</em> 2004</blockquote>
+  <blockquote>"Utafiti huu unaonyesha kwamba watoto walioanzisha lugha hii walianza kuchambua matukio changamano na kuyagawa katika vipengele vya msingi, na kupanga vipengele hivyo katika tungo zenye muundo wa daraja, wakifuata kanuni ambazo hazionekani katika ishara za mwili zinazoambatana na usemi wa lugha inayowazunguka. Makundi yaliyofuata ya wanaojifunza yaliendeleza utaratibu huu, na kuigeuza ishara ya Nicaragua kutoka umbo lake la awali la ishara za mwili kuwa mfumo wa kiisimu." — Senghas, Kita & Özyürek, <em>Science</em> 2004</blockquote>
 
   <p>Hii ni msaada wa moja kwa moja wa kihalisi kwa wazo kwamba <strong>lugha ni tokeo la ubunifu la akili ya mtoto</strong>, si tu kurekodi kwa upole kwa mchango. Watoto katika makundi yanayofuatana kwa kujitegemea walibuni vipengele — kama kuvunja matukio ya mwendo katika vipengele vya "njia" na "namna" — ambavyo hakuna mtu mzima alikuwa amewapa, na ambavyo vinaonekana kwa kushangaza kama vipengele vilivyoandikwa katika lugha zingine za ishara zilizoanzishwa.</p>
 
-  <p>Leo ISN ina labda watu 3,000 wanaofanya ishara na jamii ya Viziwi yenye nguvu inayoandaliwa kupitia <em>Asociación Nacional de Sordos de Nicaragua</em>. Ni mojawapo ya lugha za asili kamili zilizoundwa hivi karibuni zaidi — na kesi ambayo mchakato wake mzima wa kuunda umekamatwa kwa ukamilifu zaidi kwenye kamera, kwenye karatasi, na kwenye kumbukumbu za shamba za kiisimu.</p>
+  <p>Leo ISN ina labda watu 3,000 wanaofanya ishara na jamii ya Viziwi yenye nguvu inayoandaliwa kupitia <em>Asociación Nacional de Sordos de Nicaragua</em>. Ni mojawapo ya lugha changa zaidi duniani, na hakuna lugha nyingine ambayo sarufi yake imefuatiliwa kwa ukaribu kiasi hicho ilipokuwa bado inaundwa: miaka ya pidgin ya kundi la kwanza ililazimika kujengwa upya kutokana na ishara za watu hao wakiwa watu wazima, lakini tangu 1986 kila kundi limerekodiwa kwenye kamera, kwenye karatasi, na kwenye kumbukumbu za shamba za kiisimu.</p>
     `
   },
 
 
   'mama-papa-universals': {
     title: 'Kwa nini karibu kila lugha humwita mama "mama"',
-    summary: 'Kutoka Kiingereza mama hadi Kimandarin māma, Kiswahili mama, Kiquechua mama, na Kinavajo amá — lugha zisizohusiana zinakutana kwa neno sawa la mtoto. Roman Jakobson alieleza kwa nini mwaka 1959, na haina uhusiano wowote na asili ya pamoja.',
+    summary: 'Kutoka Kiingereza mama hadi Kimandarin māma, Kiswahili mama, Kiquechua mama, na Kinavajo amá — lugha zisizohusiana zinakutana kwa neno sawa la mtoto. Roman Jakobson alieleza kwa nini mwaka 1960, na haina uhusiano wowote na asili ya pamoja.',
     body: `
   <p>Chagua lugha yoyote kwa nasibu. Uliza inasemaje "mama". Uwezekano ni mkubwa kwa wasiwasi kwamba neno linaanza na <strong>m</strong> na lina <em>a</em>: Kiingereza <em>mama</em>, Kimandarin <em>māma</em>, Kiswahili <em>mama</em>, Kiquechua <em>mama</em>, Kinavajo <em>amá</em>, Kiwelsh <em>mam</em>, Kiebrania <em>imá</em>, Kitagalog <em>nanay</em> / <em>mama</em>, Kihindi <em>mā</em>, Kimalayalam <em>amma</em>, Kihawaii <em>makuahine</em> / <em>māmā</em>. Sasa uliza inasemaje "baba". Katika sampuli kubwa sawa unapata <strong>papa, baba, tata, dada, abba, atta</strong> — kipande cha midomo au cha taji pamoja na <em>a</em>.</p>
 
@@ -1127,7 +1127,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Hii si bahati. Mwanaanthropolojia wa Yale <strong>George P. Murdock</strong> alikusanya seti ya data ya 1959 ya kitamaduni mbalimbali ya maneno 1,072 ya jamaa kutoka lugha 470 na akapata kuwa maneno ya aina ya <em>mama</em> yalitumika kwa "mama" katika 52% ya sampuli, na maneno ya aina ya <em>papa</em>/<em>tata</em>/<em>baba</em> kwa "baba" katika 55%. Lugha hizo zinashughulikia kila familia duniani — Kiindo-Ulaya, Kichinochibetan, Kinigerokongo, Kiaustronesian, Kiuto-Aztecan, Kipama-Nyungan. Haziwezi zote kushiriki asili ya pamoja.</p>
 
-  <p>Maelezo ya kawaida yalitolewa mwaka huo huo na mwanaisimu wa Kirusi-Mmarekani <strong>Roman Jakobson</strong>, katika karatasi nyembamba, nzuri yenye kichwa <em>"Kwa nini 'Mama' na 'Papa'?"</em>. Hoja yake huenda kama ifuatavyo:</p>
+  <p>Maelezo ya kawaida yalitolewa mwaka mmoja baadaye, mwaka 1960, na mwanaisimu wa Kirusi-Mmarekani <strong>Roman Jakobson</strong>, katika karatasi nyembamba, nzuri yenye kichwa <em>"Kwa nini 'Mama' na 'Papa'?"</em>. Hoja yake huenda kama ifuatavyo:</p>
 
   <ul>
     <li>Sauti za kwanza ambazo mtoto huzalisha — mara baada ya awamu ya kulia ya nasibu ikiisha — ni <strong>za pua za midomo miwili</strong> [m] na <strong>za kipande cha midomo miwili</strong> [p, b]. Hizi zinahitaji tu kwamba midomo ifunge na kufungua; hakuna udhibiti wa ulimi unaohitajika. Vokali ya msingi inayotoka kwenye mdomo uliofunguliwa kidogo ni <strong>[a]</strong>.</li>
@@ -1159,7 +1159,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Hakuna mtu alipata kuandika PIE. Bado wanaisimu wananukuu kwa imani maneno ya PIE: <em>*ph₂tḗr</em> "baba", <em>*méh₂tēr</em> "mama", <em>*wódr̥</em> "maji", <em>*ǵneh₃- </em> "kujua", <em>*kʷékʷlos</em> "gurudumu". Wanawezaje?</p>
 
-  <p>Mafanikio yalikuja mwaka 1786, wakati jaji wa Uingereza <strong>Sir William Jones</strong> alipotangaza mbele ya Jumuiya ya Asiatic ya Bengal kwamba Kisanskrit, Kigiriki, na Kilatini vinaonyesha uhusiano "wenye nguvu sana, kwamba hakuna mwanafilologi angeweza kuchunguza vyote vitatu, bila kuamini kuwa vimetokana na chanzo kimoja cha pamoja, ambacho, labda, hakipo tena." Katika karne iliyofuata, <strong>Franz Bopp</strong>, <strong>Rasmus Rask</strong>, <strong>Jacob Grimm</strong>, na <strong>August Schleicher</strong> walikuza <strong>mbinu ya kulinganisha</strong>: panga maneno ya kogneti kwenye lugha za binti, tambua mawasiliano ya kawaida ya sauti, na yarudishe nyuma kwa mzazi uliojengwa upya.</p>
+  <p>Mafanikio yalikuja mwaka 1786, wakati jaji wa Uingereza <strong>Sir William Jones</strong> alipotangaza mbele ya Jumuiya ya Asiatic ya Bengal kwamba Kisanskrit, Kigiriki, na Kilatini vinaonyesha uhusiano "kwa kweli wenye nguvu sana, kwamba hakuna mwanafilologi angeweza kuchunguza vyote vitatu, bila kuamini kuwa vimetokana na chanzo kimoja cha pamoja, ambacho, labda, hakipo tena." Katika karne iliyofuata, <strong>Franz Bopp</strong>, <strong>Rasmus Rask</strong>, <strong>Jacob Grimm</strong>, na <strong>August Schleicher</strong> walikuza <strong>mbinu ya kulinganisha</strong>: panga maneno ya kogneti kwenye lugha za binti, tambua mawasiliano ya kawaida ya sauti, na yarudishe nyuma kwa mzazi uliojengwa upya.</p>
 
   <p>Mfano maarufu zaidi ni <strong>Sheria ya Grimm</strong>, iliyoundwa mwaka 1822, ambayo inaeleza mabadiliko ya kawaida ya konsonanti za kipande katika babu wa Kijerumanik. PIE <em>*p</em> ikawa Kijerumanik <em>*f</em>: kwa hivyo Kilatini <em>pater</em> ↔ Kiingereza <em>father</em>, Kilatini <em>piscis</em> ↔ Kiingereza <em>fish</em>, Kilatini <em>pēs</em> ↔ Kiingereza <em>foot</em>. PIE <em>*t</em> ikawa <em>*þ</em> (sauti ya <em>th</em>): Kilatini <em>trēs</em> ↔ Kiingereza <em>three</em>. Mawasiliano hayana isipokuwa mara tu sheria za sekondari (Sheria ya Verner, 1875) zinapoongezwa.</p>
 

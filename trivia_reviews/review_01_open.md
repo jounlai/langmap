@@ -1,9 +1,9 @@
 # Trivia review 01 — the 70 WordMap and HanMap articles
 
 **Date:** 2026-08-10
-**Status:** OPEN. Phase 1 (bibliographies, dead buttons, one broken body) and
-phase 2 (the English and Japanese bodies) are applied. Phase 3 — reflecting the
-same corrections into the other 17 UI languages — is not.
+**Status:** CLOSED for the rally's own findings. Phases 1–3 are applied: the
+shared bibliographies, the dead buttons, and the article text in all 19 UI
+languages. What remains is listed at the end and is new work, not leftovers.
 **Scope:** all 70 read-aloud articles — `wordmap_trivia.js` (30, en + ja in the
 base file and 17 overlay files) and `hanmap_trivia.js` (40, all 19 UI languages
 inline). 418 citations between them.
@@ -195,16 +195,41 @@ devoiced"; 山 is `*s-ŋrar`; the 二 bullet is now about 兩, with 二 explicit
 noted as having no colloquial reading; Tangut writing runs to 1502; Yi Syllables
 ends at U+A48F.
 
-## Not applied: the other 17 UI languages
+## Applied, 5: the other 17 languages (3,731 edits)
 
-Every correction above exists only in English and Japanese. The same sentences
-in Korean, Chinese, Cantonese, Vietnamese, Thai, Indonesian, Hindi, German,
-French, Italian, Spanish, Portuguese, Russian, Ukrainian, Arabic, Hebrew and
-Swahili still carry the original errors. The translations are authored rather
-than glossed — they differ in wording, structure and length — so a
-find-and-replace does not work, and leaving them is exactly the defect the
-previous Codex review complained about ("英語原文だけ弱めたが各翻訳へ cascade して
-いない").
+One agent per article again, this time given the before/after pairs already
+applied plus the current text in all 17 remaining languages, and asked for the
+same surgical find/replace treatment. **3,731 edits, and all 3,731 matched on
+the first dry run** — no mismatches, no ambiguities. Spread evenly: 235 in
+Korean down to 214 in Swahili.
+
+312 changes were deliberately skipped, and the reasons are the interesting part.
+**The non-English bodies are not parallel translations.** Many are substantially
+condensed. All 17 translations of `old-mongol-uyghur-script` are a single
+paragraph covering 1206, 1946 and 2020 — they never mention the Latin-script
+episode at all, so the 1941/1946 correction had nothing to attach to. Thirteen
+translations of `yi-syllabary` omit the Unicode sentence entirely, so the
+U+A4C6 error was never in them. The agents declined to invent text, which is
+right.
+
+That also invalidated my first verification. Checking "is 1941 now present in
+19/19" reported 2/19 and looked like a failure; the correct test is the inverse
+— **does any language still carry the wrong claim** — and by that test the
+cascade is clean: no `A4C6`, no `*s.rǝn`, no `137A`, no `vaii1244` anywhere.
+
+## The residual the cascade exposed
+
+Checking for leftovers turned up one the earlier phase had missed. Phase 1 fixed
+the Bloomfield bibliography entry to 1927, but the **body still said 1929 in all
+19 languages** — the phase-2 agent had classified it as "bibliographies are out
+of scope" without noticing the date also appears in the prose. The article and
+its own bibliography contradicted each other.
+
+A blanket 1929→1927 would have introduced a second error: `1929` occurs twice in
+every language, and the second is Bloomfield's review of Liebich's *Konkordanz
+Pāṇini-Candra* in *Language* 5, which really is 1929. Only the first occurrence
+was replaced, with the find string sliced from the live text so it could not
+match the wrong one. All 19 now read 1927 for the essay and 1929 for the review.
 
 ## Two corruptions nobody could have read
 
@@ -254,7 +279,16 @@ Korean proper noun quoted mid-sentence legitimately fuses there.
 6. **Test the applier against the file before trusting it.** The round-trip
    check over 280 literals cost one command and caught an escaping bug that
    would have silently truncated 29 articles.
-7. **My extraction dropped `titleJa`.** Seven of eight title corrections landed
+7. **A presence test is the wrong test for a cascade.** "Is the corrected fact
+   now in all 19 languages" fails whenever a translation is condensed and never
+   carried the error. "Does any language still assert the wrong thing" is the
+   question that actually matters, and it is the one that catches leftovers.
+8. **The phases leaked into each other.** Splitting the work by cost — shared
+   fields first, bodies second, other languages third — was right, but "out of
+   scope, that's the other phase" let one date sit wrong in the prose while the
+   bibliography beside it was correct. Worth an explicit sweep for facts that
+   live in two places at once.
+9. **My extraction dropped `titleJa`.** Seven of eight title corrections landed
    in both languages; the eighth could not, because I never gave the agent the
    Japanese title to match against. It flagged the gap in `skipped` rather than
    inventing a match, and the title was fixed by hand afterwards.

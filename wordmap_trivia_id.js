@@ -18,7 +18,7 @@ window.TRIVIA_I18N['id'] = {
 <p>Peneliti lapangan yang memicu badai ini adalah <strong>Daniel Everett</strong>, seorang misionaris yang beralih menjadi linguis dan tinggal bersama orang Pirahã selama bertahun-tahun. Menurut laporannya, bahasa ini kehilangan beberapa hal yang oleh para linguis abad ke-20 dianggap universal dalam bahasa manusia:</p>
 
 <ul>
-  <li><strong>Tidak ada kata bilangan tepat.</strong> Komunitas hanya menggunakan <em>hói</em> ("sedikit") dan <em>hoí</em> ("lebih banyak") — sebuah kontras kuantitas, bukan jumlah. Dalam eksperimen, penutur Pirahã tidak dapat secara andal mencocokkan tumpukan 4 vs 5 benda, bahkan ketika diberi motivasi.</li>
+  <li><strong>Tidak ada kata bilangan tepat.</strong> Komunitas hanya menggunakan <em>hói</em> ("sedikit") dan <em>hoí</em> ("lebih banyak") — sebuah kontras kuantitas, bukan jumlah. Dalam eksperimen, penutur Pirahã mampu menjajarkan barisan benda satu lawan satu hingga sepuluh buah, nyaris tanpa kesalahan — tetapi mereka gagal begitu kumpulan itu harus dibawa melintasi ruang atau waktu: disembunyikan di balik sekat, diputar tegak lurus, atau dijatuhkan satu per satu ke dalam kaleng.</li>
   <li><strong>Tidak ada kosakata warna dasar.</strong> Warna dideskripsikan secara komposisional — "seperti darah", "belum matang", "kotor" — bukan dengan label tetap seperti "merah" atau "hijau".</li>
   <li><strong>Tidak ada rekursi tata bahasa.</strong> Kalimat tidak dapat disematkan di dalam kalimat lain. Ini langsung menantang klaim <strong>Noam Chomsky</strong> bahwa rekursi adalah ciri pendefinisi <em>satu-satunya</em> yang memisahkan bahasa manusia dari komunikasi hewan. Jika Everett benar, Pirahã mematahkan teori itu.</li>
   <li><strong>Tidak ada mitos penciptaan, tidak ada fiksi, tidak ada cerita tentang leluhur yang tidak dikenal orang yang masih hidup.</strong> Sebuah norma budaya yang kuat — Everett menyebutnya prinsip "kelekatan pengalaman" — membatasi tuturan pada apa yang telah disaksikan langsung oleh penutur atau lawan bicara yang masih hidup.</li>
@@ -29,9 +29,9 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="mother" data-code="myp">👩 Lihat "Ibu" dalam Pirahã</button>
 </div>
 
-<p>Yang lebih aneh lagi, Pirahã adalah salah satu dari sedikit bahasa yang dapat ditransmisikan melalui <em>empat saluran paralel</em>: ia dapat <strong>diucapkan, disiulkan, disenandungkan, atau diteriakkan</strong>. Karena Pirahã hanya memiliki tiga vokal dan delapan konsonan, prosodinya (nada dan ritme) membawa beban informasi yang sangat berat — cukup sehingga para ibu dapat menyenandungkan seluruh kalimat kepada bayi tanpa mengartikulasikan satu konsonan pun.</p>
+<p>Yang lebih aneh lagi, Pirahã adalah salah satu dari sedikit bahasa yang dapat ditransmisikan melalui <em>lima saluran paralel</em>: ia dapat <strong>diucapkan, disiulkan, disenandungkan, dinyanyikan, atau diteriakkan</strong>. Karena Pirahã hanya memiliki tiga vokal dan delapan konsonan, prosodinya (nada dan ritme) membawa beban informasi yang sangat berat — cukup sehingga para ibu dapat menyenandungkan seluruh kalimat kepada bayi tanpa mengartikulasikan satu konsonan pun.</p>
 
-<blockquote>"Nada, tekanan, dan panjang suku kata jauh lebih penting daripada vokal dan konsonan dalam menyampaikan pesan dalam Pirahã." — Daniel Everett</blockquote>
+<blockquote>"Orang Pirahã berkomunikasi dengan menyanyi, bersiul, dan bersenandung hampir sebanyak mereka berkomunikasi dengan konsonan dan vokal." — Daniel Everett, <em>Current Anthropology</em> 46(4), 2005, hlm. 622</blockquote>
 
 <p>Klaim Everett <strong>diperdebatkan dengan sengit</strong>. Peneliti kemudian, termasuk Andrew Nevins, David Pesetsky, dan Cilene Rodrigues, berargumen bahwa Pirahã memang memiliki rekursi — hanya jarang digunakan — dan bahwa fakta angka dapat dijelaskan tanpa konsekuensi kognitif yang eksotis. Everett membalas; perdebatan masih terbuka.</p>
 
@@ -56,7 +56,7 @@ window.TRIVIA_I18N['id'] = {
   <li>Ritme, tekanan, dan intonasi dipertahankan lebih setia daripada informasi segmental — pendengar merekonstruksi detail yang hilang dari konteks, persis seperti panggilan telepon bertahan di saluran berbandwidth rendah.</li>
 </ul>
 
-<p>Teknik ini lebih tua dari bahasa Spanyol sendiri. Penduduk asli Canary, <strong>orang Guanche</strong>, sudah menggunakan register siulan dari bahasa mereka sendiri (terkait Berber); ketika bahasa Spanyol Kastilia menggantikan Guanche setelah penaklukan abad ke-15, siulan itu hanya dipasang ulang ke kosakata baru. Antropolog <strong>Ramón Trujillo</strong> mendokumentasikan kesinambungan ini dalam monograf 1978-nya <em>El silbo gomero: análisis lingüístico</em>, yang tetap menjadi rujukan kanonik.</p>
+<p>Teknik ini lebih tua dari bahasa Spanyol sendiri. Penduduk asli Canary, <strong>orang Guanche</strong>, sudah menggunakan register siulan dari bahasa mereka sendiri (terkait Berber); ketika bahasa Spanyol Kastilia menggantikan Guanche setelah penaklukan abad ke-15, siulan itu hanya dipasang ulang ke kosakata baru. Ahli bahasa <strong>Ramón Trujillo</strong> dari Universidad de La Laguna memberikan deskripsi linguistik baku atas siulan ini dalam monograf 1978-nya <em>El silbo gomero: análisis lingüístico</em>, yang tetap menjadi rujukan kanonik.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Bandingkan bahasa Spanyol, Berber, dan Kabyle</button>
@@ -66,20 +66,20 @@ window.TRIVIA_I18N['id'] = {
 
 <blockquote>"Ini adalah satu-satunya bahasa siulan yang sepenuhnya berkembang dan dipraktikkan oleh komunitas yang cukup besar… contoh luar biasa dari kreativitas budaya umat manusia." — Teks inskripsi UNESCO, 2009</blockquote>
 
-<p>Ahli saraf memperhatikan. Sebuah studi fMRI 2005 oleh <strong>Manuel Carreiras</strong> dan rekan-rekannya di Universitas La Laguna menunjukkan bahwa silbador berpengalaman memproses Silbo menggunakan <em>area bahasa hemisfer kiri yang sama</em> yang biasanya dicadangkan untuk tuturan lisan — bukan jaringan musik-dan-melodi hemisfer kanan yang aktif ketika non-silbador mendengar siulan yang sama. Dengan kata lain, otak memperlakukan Silbo sebagai bahasa, bukan sebagai musik atau kicauan burung. Hasil tunggal itu memindahkan Silbo dari "keingintahuan rakyat" menjadi penyelidikan sejati tentang seberapa fleksibel kemampuan bahasa manusia sebenarnya.</p>
+<p>Ahli saraf memperhatikan. Sebuah studi fMRI 2005 oleh <strong>Manuel Carreiras</strong> dan rekan-rekannya di Universitas La Laguna menunjukkan bahwa silbador berpengalaman memproses Silbo menggunakan <em>area bahasa hemisfer kiri yang sama</em> yang biasanya dicadangkan untuk tuturan lisan — sementara pada pendengar yang tidak pernah belajar Silbo, siulan yang sama membiarkan area bahasa itu diam. Dengan kata lain, otak memperlakukan Silbo sebagai bahasa, bukan sebagai musik atau kicauan burung. Hasil tunggal itu memindahkan Silbo dari "keingintahuan rakyat" menjadi penyelidikan sejati tentang seberapa fleksibel kemampuan bahasa manusia sebenarnya.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="28.10" data-lng="-17.20" data-zoom="9" data-tiles="terrain">🌋 Perbesar ke barranco</button>
 </div>
 
-<p>Silbo bukan satu-satunya register siulan yang bertahan — Kuşköy di Turki, kebiasaan siulan pacaran Hmong (penggunaan siulan secara sosial dalam konteks merayu, bukan register siulan yang sepenuhnya melembaga seperti Silbo), Spanyol siulan Mazatec di Oaxaca, dan nada siulan Akha di Yunnan semuanya hidup berdampingan dengan induk lisannya — tetapi ia yang paling melembaga, paling terdokumentasi dengan baik, dan satu-satunya yang secara resmi dilindungi sebagai Warisan Budaya Takbenda. Lain kali Anda berdiri di punggung bukit La Gomera dan mendengar suara yang terdengar seperti burung yang sangat cerewet, dengarkan lagi: itu mungkin seseorang yang memberi tahu sepupunya apa yang harus dibeli dari toko.</p>
+<p>Silbo bukan satu-satunya register siulan yang bertahan — Kuşköy di Turki, kebiasaan siulan pacaran Hmong (penggunaan siulan secara sosial dalam konteks merayu, bukan register siulan yang sepenuhnya melembaga seperti Silbo), bahasa Mazatec siulan di Oaxaca, dan nada siulan Akha di Yunnan semuanya hidup berdampingan dengan induk lisannya — tetapi ia yang paling melembaga, paling terdokumentasi dengan baik, dan satu-satunya yang masuk Daftar Representatif UNESCO (siulan Kuşköy di Turki tercatat pada Daftar Warisan Budaya Takbenda yang Memerlukan Perlindungan Mendesak tahun 2017). Lain kali Anda berdiri di punggung bukit La Gomera dan mendengar suara yang terdengar seperti burung yang sangat cerewet, dengarkan lagi: itu mungkin seseorang yang memberi tahu sepupunya apa yang harus dibeli dari toko.</p>
     `
   },
   'taa-most-consonants': {
     title: 'Taa (!Xóõ) — bahasa dengan konsonan terbanyak di dunia',
-    summary: 'Dituturkan oleh mungkin 2.500 orang di perbatasan Botswana–Namibia, Taa memuat sekitar 160 konsonan berbeda, termasuk lima jenis bunyi klik yang berkembang penuh, dalam satu inventaris fonemik — menurut beberapa ukuran, sistem bunyi terbesar yang pernah dideskripsikan.</p>',
+    summary: 'Dituturkan oleh mungkin 2.500 orang di perbatasan Botswana–Namibia, Taa memuat sekitar 160 fonem berbeda — termasuk lebih dari 120 bunyi konsonan dan kelima jenis bunyi klik yang berkembang penuh — dalam satu inventaris — menurut beberapa ukuran, sistem bunyi terbesar yang pernah dideskripsikan.</p>',
     body: `
-<p>Jika Anda mengambil setiap konsonan berbeda dalam bahasa Inggris — semua 24 — dan menumpuknya di atas setiap konsonan berbeda dalam bahasa Prancis, Jerman, Rusia, Arab, dan Mandarin, Anda masih akan kalah dari <strong>Taa</strong>, juga ditulis <em>!Xóõ</em>. Menurut hitungan dalam tata bahasa monumental Anthony Traill 1985, Taa memiliki antara <strong>83 dan 164 konsonan fonemik</strong> tergantung bagaimana Anda mengiris klik kontur dan pengiring klik — dan kedua angka tersebut adalah rekor dunia.</p>
+<p>Bahasa Inggris cukup dengan 24 konsonan berbeda. <strong>Taa</strong>, juga ditulis <em>!Xóõ</em>, punya begitu banyak sehingga para linguis pun tidak sepakat bagaimana menghitungnya. Studi monumental Anthony Traill 1985 atas dialek ǃXoon Timur menghasilkan sedikitnya <strong>58 konsonan fonemik</strong> menurut perhitungan paling konservatif, dan deskripsi DoBeS atas dialek ǃXoon Barat yang lebih belakangan sedikitnya <strong>87</strong> — tetapi angka minimum itu muncul karena klik yang paling rumit diperlakukan sebagai gugus konsonan. Hitunglah setiap klik rumit sebagai satu segmen, dan inventarisnya naik menjadi sekitar <strong>130</strong> konsonan pada bahan Traill dan <strong>122</strong> pada bahan DoBeS — angka yang dikutip WALS ketika menempatkan inventaris Taa sebagai yang terbesar diantara semua bahasa yang pernah didokumentasikan. Dengan hitungan mana pun, Taa memegang rekor.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="nmn" data-zoom="5">🌍 Tampilkan Taa di peta</button>
@@ -100,11 +100,11 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="compare" data-codes="nmn,naq,xh,zu">🗣 Bandingkan bahasa klik (Taa, Khoekhoe, Xhosa, Zulu)</button>
 </div>
 
-<p>Linguis Afrika Selatan <strong>Anthony Traill</strong> menghabiskan lebih dari tiga puluh tahun mendokumentasikan Taa, dimulai dengan kerja lapangan PhD pada 1970-an dan memuncak dalam kamusnya 1994, <em>A !Xóõ Dictionary</em>. Karya instrumental Traill — menggunakan laringoskopi serat optik dan ultrasonografi — menunjukkan bahwa apa yang oleh para pengunjung awal disingkirkan sebagai "kebisingan tak sengaja" sebenarnya adalah <strong>artikulasi yang sepenuhnya disengaja</strong> dengan penutupan berbeda di velum, uvula, dan epiglotis. Dia menunjukkan bahwa satu kata klik dapat melibatkan <em>empat mekanisme aliran udara secara bersamaan</em>: aliran udara lingual ingresif untuk klik itu sendiri, aliran udara pulmonik egresif untuk penyuaraan, glotis tertutup untuk pelepasan ejektif, dan velum diturunkan untuk nasalisasi.</p>
+<p>Linguis Afrika Selatan <strong>Anthony Traill</strong> menghabiskan lebih dari tiga puluh tahun mendokumentasikan Taa, dimulai dengan kerja lapangan PhD pada 1970-an dan memuncak dalam kamusnya 1994, <em>A !Xóõ Dictionary</em>. Karya instrumental Traill — menggunakan palatografi statis, pengukuran aerodinamis, dan pencitraan sinar-X — menunjukkan bahwa apa yang oleh para pengunjung awal disingkirkan sebagai "kebisingan tak sengaja" sebenarnya adalah <strong>artikulasi yang sepenuhnya disengaja</strong> dengan penutupan berbeda di velum dan epiglotis. Dia menunjukkan bahwa satu klik Taa saja dapat mengerahkan <em>ketiga mekanisme aliran udara yang tersedia bagi ujaran manusia</em>: aliran udara lingual ingresif yang menghasilkan kliknya sendiri, aliran udara pulmonik egresif untuk penyuaraan yang mendahuluinya, dan aliran udara glotalik untuk pelepasan ejektif yang menyusul — sementara satu rangkaian lain menurunkan velum untuk menambahkan nasalisasi.</p>
 
-<blockquote>"Tidak lagi terhormat untuk menganggap klik sebagai kebisingan paralinguistik. Mereka adalah konsonan bahasa." — Anthony Traill, 1985</blockquote>
+<p>Argumen Traill bukan retorika melainkan statistik. Klik dalam bahasa Taa bukan sudut pinggiran atau hiasan dalam inventarisnya: klik adalah konsonan biasa bahasa itu, dan justru merupakan cara yang <em>lebih disukai</em> untuk memulai kata — menurut satu hitungan, <strong>82% kosakata dasar</strong> diawali klik, jauh lebih tinggi daripada rangkaian non-klik mana pun.</p>
 
-<p>Para linguis tidak sepakat tentang <em>mengapa</em> Taa menjadi begitu nyaring. Satu hipotesis, dikemukakan oleh <strong>Bonny Sands</strong> dan lainnya, adalah bahwa wilayah Tuu Kalahari telah menjadi zona perlindungan setidaknya sejak akhir Pleistosen; kemewahan fonologis mungkin merupakan akumulasi yang sangat tua, mungkin mencerminkan lanskap suara bahasa pemburu-pengumpul jauh lebih awal yang kini hilang. Benar atau tidak, Taa memberikan tandingan yang menyadarkan terhadap gagasan bahwa bahasa manusia "cenderung menuju ekonomi": ketika geografi dan demografi memungkinkan, fonologi dapat berputar ke atas hampir tanpa batas.</p>
+<p>Para linguis tidak sepakat tentang <em>mengapa</em> Taa menjadi begitu nyaring. Satu hipotesis yang lama populer — paling menonjol dikemukakan dari sisi genetika oleh <strong>Alec Knight, Peter Underhill, dan rekan-rekan</strong> pada 2003 — adalah bahwa Kalahari telah menjadi zona perlindungan setidaknya sejak akhir Pleistosen, dan bahwa kemewahan fonologis itu merupakan akumulasi yang sangat tua, mungkin mencerminkan lanskap suara bahasa pemburu-pengumpul jauh lebih awal yang kini hilang. Para ahli bahasa-bahasa itu sendiri jauh lebih skeptis: <strong>Bonny Sands</strong> dan <strong>Tom Güldemann</strong> berargumen bahwa klik bukan peninggalan suatu bahasa induk purba, bahwa tidak ada kekonservatifan bahasa yang khusus di wilayah itu, dan bahwa penyebaran klik termasuk masa lalu manusia yang relatif baru, bukan fajar bahasa. Ke mana pun perdebatan itu berakhir, Taa memberikan tandingan yang menyadarkan terhadap gagasan bahwa bahasa manusia "cenderung menuju ekonomi": ketika geografi dan demografi memungkinkan, fonologi dapat berputar ke atas hampir tanpa batas.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="-23.5" data-lng="21.5" data-zoom="6">🌵 Perbesar ke Kalahari</button>
@@ -124,10 +124,10 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="-6.30" data-lng="155.20" data-zoom="6">🗺️ Terbang ke Bougainville</button>
 </div>
 
-<p>Hawaii — dengan tiga belas fonem — kadang-kadang disebut sebagai pesaing rekor, dan register pria <strong>Pirahã</strong> mungkin turun lebih rendah; tetapi hitungan yang biasanya digunakan oleh para linguis adalah Rotokas, berdasarkan deskripsi cermat 1973 oleh linguis misionaris Australia <strong>Stuart dan Janice Firchow</strong> untuk Summer Institute of Linguistics. Mereka mengidentifikasi tiga tempat artikulasi, sama sekali tidak ada konsonan nasal, dan tidak ada gugus konsonan di luar geluncuran singkat.</p>
+<p>Hawaii — dengan tiga belas fonem — kadang-kadang disebut sebagai pesaing rekor, dan register perempuan <strong>Pirahã</strong> mungkin turun lebih rendah; tetapi hitungan yang biasanya digunakan oleh para linguis adalah Rotokas, berdasarkan deskripsi cermat 1969 oleh linguis misionaris SIL <strong>Irwin dan Jacqueline Firchow</strong> dalam <em>Anthropological Linguistics</em>. Mereka mengidentifikasi tiga tempat artikulasi, sama sekali tidak ada konsonan nasal, dan tidak ada gugus konsonan di luar geluncuran singkat.</p>
 
 <ul>
-  <li><strong>Tidak ada nasal.</strong> Keluarga bahasa Rotokas adalah salah satu kasus yang sangat langka di mana <em>m, n, ng</em> <strong>sepenuhnya tidak ada sebagai fonem</strong>. Ketika penutur yang lebih tua menghasilkan bunyi nasal, mereka cenderung muncul sebagai varian bebas dari <em>b, d, g</em> dalam ucapan ekspresif atau berbisik, bukan sebagai unit terpisah.</li>
+  <li><strong>Tidak ada nasal.</strong> Dialek tengah Rotokas adalah salah satu kasus yang sangat langka di mana <em>m, n, ng</em> <strong>sepenuhnya tidak ada sebagai fonem</strong> — meskipun dialek Aita di dekatnya justru memilikinya. Bunyi nasal memang muncul, tetapi hanya sebagai varian bebas dari deret bersuara <em>b, d, g</em> dan hanya dalam konteks pinggiran — keliru dilafalkan saat mencoba mengucapkan kata bahasa Inggris (<em>bye-bye</em> keluar sebagai [maemae]), atau saat menirukan orang asing berbicara Rotokas — tidak pernah sebagai unit terpisah.</li>
   <li><strong>Inventaris konsonan kecil.</strong> <em>p</em> dan <em>β</em> (frikatif bilabial lembut mirip dengan <em>b</em> Spanyol di antara vokal), <em>t</em> dan <em>ɾ</em> (ketukan), <em>k</em> dan <em>ɡ</em> — tiga tak bersuara dan tiga bersuara, dipasangkan secara simetris di seluruh mulut.</li>
   <li><strong>Suku kata CV ketat.</strong> Setiap suku kata adalah satu konsonan diikuti satu vokal. Vokal panjang dan urutan vokal membawa prosodi tambahan yang dibutuhkan bahasa.</li>
 </ul>
@@ -140,7 +140,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Rotokas termasuk dalam keluarga <strong>Bougainville Utara</strong>, salah satu dari dua keluarga kecil non-Austronesia (Papua) di pulau itu. Secara genealogis ia tidak terkait dengan bahasa Austronesia Oseanik yang mengelilingi pantai, maupun dengan tetangga Bougainville selatannya. Isolasi itu mungkin membantu menjelaskan pergeserannya ke arah fonologi yang sangat sederhana: komunitas tutur yang kecil dan erat kadang menyederhanakan daripada mengelaborasi, cermin terbalik dari pola Kalahari.</p>
 
-<blockquote>"Rotokas tampaknya menyangkal asumsi lama bahwa batas bawah inventaris fonem adalah sekitar lima belas." — Ian Maddieson, <em>Patterns of Sounds</em>, 1984</blockquote>
+<p>Dalam survei UPSID Maddieson — sampel 317 bahasa yang menjadi dasar <em>Patterns of Sounds</em> (1984) — besar inventaris segmen berkisar dari 11 di ujung terendah, pada Rotokas, hingga 141 di ujung tertinggi, pada !Xũ. Rotokas berada tepat di dasar rentang itu.</p>
 
 <p>Bougainville memiliki sejarah akhir abad ke-20 yang sulit: perang sipil dari 1988 hingga 1998, penutupan tambang Panguna, dan negosiasi berkelanjutan menuju kemerdekaan dari Papua Nugini setelah referendum 2019. Rotokas bertahan dari semuanya. Hari ini bahasa ini diajarkan di beberapa sekolah berbahasa Tok Pisin bersama bahasa Inggris, dan <strong>program literasi vernakular</strong> yang kecil tetapi aktif telah menghasilkan buku cerita dan terjemahan Alkitab dalam bahasa itu. Jumlah penutur stabil, meskipun penutur yang lebih muda semakin dwibahasa dalam Tok Pisin.</p>
 
@@ -155,7 +155,7 @@ window.TRIVIA_I18N['id'] = {
     title: 'Ubykh — hari ketika bahasa dengan 84 konsonan mati',
     summary: 'Pada 7 Oktober 1992, Tevfik Esenç meninggal di sebuah desa Turki dan membawa bahasa Ubykh bersamanya: bahasa Kaukasus Barat Laut dengan 84 konsonan dan hanya dua vokal fonemik, direkam selama beberapa dekade oleh sarjana Prancis Georges Dumézil.',
     body: `
-<p>Saat tepat ketika sebuah bahasa mati jarang dapat diberi tanggal. <strong>Ubykh</strong> adalah pengecualian. Pada <strong>7 Oktober 1992</strong>, di desa Turki <strong>Hacıosman</strong> di selatan Laut Marmara, seorang petani berusia 88 tahun bernama <strong>Tevfik Esenç</strong> tidur dan tidak bangun. Dia adalah penutur fasih terakhir dari bahasa yang, hingga dua abad sebelumnya, adalah lidah sehari-hari puluhan ribu orang di pantai Laut Hitam Kaukasus.</p>
+<p>Saat tepat ketika sebuah bahasa mati jarang dapat diberi tanggal. <strong>Ubykh</strong> adalah pengecualian. Pada <strong>7 Oktober 1992</strong>, di desa Turki <strong>Hacıosman</strong> di selatan Laut Marmara, seorang petani berusia 88 tahun bernama <strong>Tevfik Esenç</strong> tidur dan tidak bangun. Dia adalah penutur fasih terakhir dari bahasa yang, hingga sedikit lebih dari satu abad sebelumnya, adalah lidah sehari-hari puluhan ribu orang di pantai Laut Hitam Kaukasus.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="uby" data-zoom="6">🌍 Tampilkan Ubykh di peta</button>
@@ -176,11 +176,11 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="compare" data-codes="ab,ady,kbd">🗣 Bandingkan sepupu Ubykh yang masih hidup (Abkhaz, Adyghe, Kabardian)</button>
 </div>
 
-<p>Hampir semua yang kita ketahui tentang Ubykh di abad ke-20 berutang kepada Indo-Eropais dan ahli mitologi komparatif Prancis <strong>Georges Dumézil</strong>. Dimulai pada 1930, Dumézil melakukan perjalanan berulang kali ke Anatolia untuk merekam komunitas yang menyusut, kembali tahun demi tahun selama hampir enam dekade. Dia menghasilkan serangkaian deskripsi tata bahasa dan koleksi teks — termasuk seri <em>Documents anatoliens sur les langues et les traditions du Caucase</em> (khususnya jilid IV: <em>Récits oubykh</em>, 1965) — yang tetap menjadi dasar. Esenç menjadi konsultan utama Dumézil pada 1960-an; keduanya berkorespondensi dan bekerja sama hingga kematian Dumézil pada 1986.</p>
+<p>Hampir semua yang kita ketahui tentang Ubykh di abad ke-20 berutang kepada Indo-Eropais dan ahli mitologi komparatif Prancis <strong>Georges Dumézil</strong>. Dimulai pada 1930, Dumézil melakukan perjalanan berulang kali ke Anatolia untuk merekam komunitas yang menyusut, kembali tahun demi tahun selama hampir enam dekade. Dia menghasilkan serangkaian deskripsi tata bahasa dan koleksi teks — termasuk seri <em>Documents anatoliens sur les langues et les traditions du Caucase</em> (khususnya jilid III: <em>Nouvelles études oubykhs</em>, 1965) — yang tetap menjadi dasar. Esenç menjadi konsultan utama Dumézil pada 1960-an; keduanya berkorespondensi dan bekerja sama hingga kematian Dumézil pada 1986.</p>
 
-<blockquote>"Dia tahu bahwa dia adalah yang terakhir. Dia membawa bahasa itu seperti seseorang membawa lilin di ruang tertutup: sendiri, penuh perhatian, dan menyadari bahwa udara tidak akan bertahan." — kenangan parafrase kolaborator Dumézil</blockquote>
+<blockquote>"Tevfik Esenç — bacakanlah Al-Fatihah untuk arwahnya — yang mengabadikan bahasa Ubykh, orang Ubykh terakhir yang bisa menulis dan berbicara bahasa ini." — epitaf berbahasa Turki pada batu nisan Esenç, yang ia diktekan sendiri</blockquote>
 
-<p>Esenç memahami perannya dengan kejernihan yang tidak biasa. Dia menghafal peribahasa, lagu, doa, nama tempat, dan dongeng rakyat khusus agar dapat direkam. Dia bersikeras dimakamkan di bawah batu nisan yang menyebutnya, dalam bahasa Ubykh, sebagai "penutur terakhir", sebuah frasa yang dia sendiri diktekan. Fonetisian Norwegia <strong>Hans Vogt</strong> menghasilkan kamus rujukan standar <em>Dictionnaire de la langue oubykh</em> (1963), dan linguis Belanda <strong>Rieks Smeets</strong> melanjutkan dokumentasi sampai akhir abad ke-20; bersama dengan edisi teks Dumézil, karya mereka membentuk landasan dokumenter bagi bahasa ini.</p>
+<p>Esenç memahami perannya dengan kejernihan yang tidak biasa. Dia menghafal peribahasa, lagu, doa, nama tempat, dan dongeng rakyat khusus agar dapat direkam. Batu yang memuat kata-kata itu berdiri di pemakaman desa Hacıosman, dan kata-kata itu dipahat dalam bahasa Turki — bukan dalam bahasa yang diperingatinya. Fonetisian Norwegia <strong>Hans Vogt</strong> menghasilkan kamus rujukan standar <em>Dictionnaire de la langue oubykh</em> (1963), dan linguis Belanda <strong>Rieks Smeets</strong> melanjutkan dokumentasi sampai akhir abad ke-20; bersama dengan edisi teks Dumézil, karya mereka membentuk landasan dokumenter bagi bahasa ini.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ Perbesar ke Hacıosman, Turki</button>
@@ -202,7 +202,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Damin (kadang dieja <em>Demiin</em>) adalah <strong>register tambahan rahasia</strong> dari orang <strong>Lardil</strong> dan tetangga <strong>Yangkaal</strong> di Pulau Mornington dan Pulau Forsyth, di Teluk Carpentaria selatan. Itu diajarkan hanya kepada pria yang telah melewati tahap kedua upacara inisiasi <em>Warama</em>, dan digunakan dalam periode pengasingan ritual segera sesudahnya. Di luar konteks seremonial itu, setidaknya secara prinsip, dilarang berbicara. Pada saat bahasa ini pertama kali direkam secara sistematis — oleh linguis Amerika <strong>Kenneth Hale</strong> pada 1960-an — inisiasi terakhir telah berhenti, dan hanya segelintir pria tua yang masih ingat sistemnya.</p>
 
-<p>Yang ditemukan Hale luar biasa. Damin bukanlah bahasa terpisah: ia berbagi tata bahasa Lardil kurang lebih sepenuhnya. Tetapi ia memiliki kosakatanya sendiri dari <strong>kira-kira 200 item leksikal</strong>, masing-masing memetakan dengan aturan pemampatan semantik yang cerdik ke seluruh kelas kata Lardil. <em>n!aa</em>, misalnya, mencakup setiap istilah kekerabatan yang merujuk pada pria dari moiety sendiri, dan <em>didi</em> mencakup semua orang dari moiety berlawanan. Seorang penutur yang mengetahui 200 item Damin secara prinsip dapat mengungkapkan apa pun yang dapat diungkapkan Lardil — hanya lebih abstrak.</p>
+<p>Yang ditemukan Hale luar biasa. Damin bukanlah bahasa terpisah: ia berbagi tata bahasa Lardil kurang lebih sepenuhnya. Tetapi ia memiliki kosakatanya sendiri dari <strong>kira-kira 200 item leksikal</strong>, masing-masing memetakan dengan aturan pemampatan semantik yang cerdik ke seluruh kelas kata Lardil. <em>n!aa</em>, misalnya, mencakup penutur sendiri dan orang-orang di pihaknya, dan <em>n!uu</em> mencakup semua orang lain — sembilan belas kata ganti Lardil dimampatkan menjadi dua. Seorang penutur yang mengetahui 200 item Damin secara prinsip dapat mengungkapkan apa pun yang dapat diungkapkan Lardil — hanya lebih abstrak.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="compare" data-codes="lbz,nny">🗣 Bandingkan Lardil dan Yangkaal</button>
@@ -213,11 +213,11 @@ window.TRIVIA_I18N['id'] = {
 <ul>
   <li><strong>Henti klik</strong> — termasuk klik bilabial <em>ʘ</em>, yang jika tidak hanya ditemukan dalam bahasa Khoisan Afrika selatan dan segelintir register ritual di seluruh dunia. Tidak ada bahasa Australia lain yang memiliki klik.</li>
   <li><strong>Frikatif lateral ingresif</strong>, diartikulasikan dengan menyedot udara ke dalam melalui sisi lidah. Bunyi ini, sejauh siapa pun mendokumentasikan, <strong>unik bagi Damin</strong> dalam bahasa-bahasa dunia.</li>
-  <li><strong>Ejektif</strong> <em>t'</em> dan mungkin bunyi glotalik lainnya, sekali lagi tak tertandingi di seluruh Australia.</li>
+  <li><strong>Dua ejektif</strong>, <em>p'</em> dan <em>k'</em> — yang pertama dihasilkan dengan tekanan velarik alih-alih laringal, sekali lagi tak tertandingi di seluruh Australia.</li>
   <li><strong>Trill labio-lingual egresif yang ternasalisasi</strong> ("Bronx cheer") — kebisingan kasar yang sengaja ditekan ke dalam layanan linguistik.</li>
 </ul>
 
-<blockquote>"Damin adalah penemuan yang disengaja, dirancang untuk berbeda. Di mana Lardil memiliki p, Damin memiliki klik; di mana Lardil memiliki t, Damin memiliki ejektif. Kontras itu sendiri adalah bagian dari makna register." — Ken Hale, 1973</blockquote>
+<blockquote>Fonologi Damin adalah penyimpangan yang disengaja dari fonologi Lardil, bukan pengodean ulang bunyi demi bunyi: di samping henti Australia yang lazim — dan konsonan Lardil polos yang bertahan terutama dalam sufiks gramatikalnya — Damin memakai klik nasal, ejektif velar <em>k'</em>, trill bilabial, dan frikatif lateral ingresif, bunyi-bunyi yang tidak tercatat di mana pun lagi di benua itu. — menurut Hale &amp; Nash, "Lardil and Damin Phonotactics" (1997)</blockquote>
 
 <p>Kesimpulan yang ditarik sebagian besar linguis dari Damin sama-sama meresahkan dan menggairahkan. <strong>Profil fonologis "Australia" tidak secara biologis tak terhindarkan.</strong> Penutur Lardil — yang dalam kehidupan sehari-hari menggunakan sistem bunyi sebanyak tetangga mereka — dapat, ketika ritual menuntut, menghasilkan dan secara rutin mengajarkan fonologi yang sangat eksotis kepada remaja yang diinisiasi. Apa pun yang menjaga sistem bunyi permukaan bahasa Australia begitu seragam di ribuan kilometer karenanya adalah <strong>budaya dan sosiolinguistik, bukan artikulator atau kognitif</strong>.</p>
 
@@ -241,12 +241,12 @@ window.TRIVIA_I18N['id'] = {
 <p>Kelompok tradisional "bahasa klik" terdiri dari tiga garis keturunan yang sama sekali tidak terkait:</p>
 
 <ul>
-  <li><strong>Khoe</strong> — keluarga yang mencakup Khoekhoegowab (Nama–Damara) di Namibia, ǂ'Amkoe dan Naro di Botswana, dan beberapa bahasa kecil di tepi Kalahari.</li>
+  <li><strong>Khoe</strong> — keluarga yang mencakup Khoekhoegowab (Nama–Damara) di Namibia, Naro dan Gǀui di Botswana, dan beberapa bahasa kecil di tepi Kalahari.</li>
   <li><strong>Tuu</strong> — kelompok selatan yang mencakup <em>Taa (!Xóõ)</em>, pemegang rekor konsonan yang ditampilkan di tempat lain dalam koleksi trivia ini, ditambah N|uu Afrika Selatan yang sekarat.</li>
   <li><strong>Kx'a</strong> — keluarga kecil yang berisi Juǀ'hoan dan ǂHoan, dengan inventaris klik elaboratif mereka sendiri.</li>
 </ul>
 
-<p>Pada ketiga keluarga ini biasanya ditambahkan <strong>dua isolat Afrika Timur</strong>: <strong>Hadza</strong>, yang dituturkan oleh mungkin seribu pemburu-pengumpul di sekitar Danau Eyasi di Tanzania, dan <strong>Sandawe</strong>, beberapa ratus kilometer ke utara. Keduanya memiliki klik; tak satu pun terbukti terkait dengan kelompok selatan dengan cara yang tahan terhadap pengamatan dekat. Istilah payung lama "Khoisan" menggumpalkan kelima keluarga itu, tetapi Tom Güldemann dan lainnya telah menghabiskan dua puluh tahun terakhir berargumen — secara meyakinkan — bahwa <strong>Khoisan adalah pengelompokan areal, bukan keluarga genetik</strong>.</p>
+<p>Pada ketiga keluarga ini biasanya ditambahkan <strong>dua isolat Afrika Timur</strong>: <strong>Hadza</strong>, yang dituturkan oleh mungkin seribu pemburu-pengumpul di sekitar Danau Eyasi di Tanzania, dan <strong>Sandawe</strong>, sekitar 150 km ke selatan di dataran tinggi berbatu Provinsi Dodoma. Keduanya memiliki klik, tetapi kedudukannya berbeda: <strong>Hadza</strong> tidak punya kerabat yang terbukti di mana pun, sedangkan <strong>Sandawe</strong> mungkin kerabat jauh keluarga Khoe — kaitan yang menurut Tom Güldemann dan Edward Elderkin, berdasarkan bukti leksikal dan pronominal, cukup menjanjikan meski belum terbukti. Istilah payung lama "Khoisan" menggumpalkan kelima keluarga itu, tetapi Güldemann dan lainnya telah menghabiskan dua puluh tahun terakhir berargumen — secara meyakinkan — bahwa <strong>Khoisan adalah pengelompokan areal, bukan keluarga genetik</strong>.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="compare" data-codes="hts,sad,naq,xh,zu">🗣 Bandingkan Hadza, Sandawe, Khoekhoe, Xhosa, Zulu</button>
@@ -257,9 +257,9 @@ window.TRIVIA_I18N['id'] = {
 <ul>
   <li><strong>Bilabial</strong> <em>ʘ</em> — letupan mirip ciuman dibuat dengan bibir. Paling langka dari semuanya; bertahan terutama di Taa dan beberapa varietas tetangga.</li>
   <li><strong>Dental</strong> <em>|</em> — bunyi yang dibuat penutur bahasa Inggris sebagai "tut-tut".</li>
-  <li><strong>Alveolar</strong> <em>!</em> — letupan tajam dibuat dengan menjentikkan lidah dari punggung alveolar; klik dalam nama <em>Xhosa</em>.</li>
+  <li><strong>Alveolar</strong> <em>!</em> — letupan tajam dibuat dengan menjentikkan lidah dari punggung alveolar, agak seperti gabus yang meloncat dari botol; ditulis <em>q</em> dalam bahasa Xhosa dan Zulu.</li>
   <li><strong>Palatal</strong> <em>ǂ</em> — pelepasan yang lebih lembut lebih jauh ke belakang di langit-langit.</li>
-  <li><strong>Lateral</strong> <em>||</em> — klik sisi lidah yang kadang digunakan penutur bahasa Inggris untuk mendorong kuda.</li>
+  <li><strong>Lateral</strong> <em>||</em> — klik sisi lidah yang kadang digunakan penutur bahasa Inggris untuk mendorong kuda; inilah klik dalam nama <em>Xhosa</em> sendiri, yang ditulis <em>xh</em>.</li>
 </ul>
 
 <p>Setiap klik kemudian dapat <em>diiringi</em> oleh penyuaraan, aspirasi, nasalisasi, glotalisasi, dan dikombinasikan dengan pelepasan uvular atau ejektif. Mengalikan parameter memberikan beberapa bahasa Khoe dan Tuu inventaris klik yang lebih besar dari seluruh sistem konsonan bahasa terkenal di tempat lain.</p>
@@ -268,13 +268,13 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="focus" data-code="naq" data-zoom="6">🌍 Tampilkan Khoekhoe (Nama)</button>
 </div>
 
-<p>Fakta sosiolinguistik paling mencolok tentang klik adalah bahwa mereka <strong>melompati keluarga</strong>. Bahasa Bantu <strong>Zulu</strong>, <strong>Xhosa</strong>, <strong>Sotho Selatan</strong>, dan <strong>Swati</strong> semuanya memiliki klik fonemik — tiga hingga lima — meskipun kerabat Bantu terdekat mereka lebih jauh ke utara sama sekali tidak memiliki. Penjelasannya, dikerjakan secara rinci oleh sejarawan dan linguis dari <strong>Anthony Traill</strong> hingga <strong>Rainer Vossen</strong>, berjalan kira-kira seperti ini: ketika petani penutur Bantu pindah ke selatan Limpopo pada milenium kedua M, mereka menemui, menikahi, dan sebagian menyerap komunitas Khoe dan San. Generasi dwibahasa yang tumbuh di rumah tangga campuran membawa klik melintasi batas keluarga, terutama dalam kosakata hormat dan ritual. Kata Xhosa <em>iXhosa</em> sendiri dimulai dengan klik alveolar.</p>
+<p>Fakta sosiolinguistik paling mencolok tentang klik adalah bahwa mereka <strong>melompati keluarga</strong>. Bahasa Bantu <strong>Zulu</strong>, <strong>Xhosa</strong>, <strong>Sotho Selatan</strong>, dan <strong>Swati</strong> semuanya memiliki klik fonemik — tiga jenis dalam bahasa Zulu dan Xhosa, hanya satu dalam bahasa Sotho Selatan dan Swati — meskipun kerabat Bantu terdekat mereka lebih jauh ke utara sama sekali tidak memiliki. Penjelasannya, dikerjakan secara rinci oleh sejarawan dan linguis dari <strong>Anthony Traill</strong> hingga <strong>Rainer Vossen</strong>, berjalan kira-kira seperti ini: ketika petani penutur Bantu pindah ke selatan Limpopo pada milenium kedua M, mereka menemui, menikahi, dan sebagian menyerap komunitas Khoe dan San. Generasi dwibahasa yang tumbuh di rumah tangga campuran membawa klik melintasi batas keluarga, terutama dalam kosakata hormat dan ritual. Nama <em>isiXhosa</em> pun membawa satu: tepat setelah prefiks kelas nomina, <em>xh</em> itu adalah klik lateral beraspirasi.</p>
 
-<p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">Jika Anda mengklik <strong>Bandingkan</strong> di atas, Anda akan melihat bahwa tidak satu pun dari dua puluh kata Swadesh-100 dasar dalam Xhosa atau Zulu sebenarnya <em>mengandung</em> klik. Itu adalah paruh kedua cerita: klik dalam bahasa Bantu hidup hampir seluruhnya dalam <strong>kosakata budaya dan hormat</strong> — nama (<em>iXhosa</em>, <em>uXamu</em>), hewan (<em>iqaqa</em> "musang", <em>ixoxo</em> "katak"), salam, pengganti tabu dalam tutur penghindaran <em>hlonipha</em>, dan pinjaman Khoekhoe (<em>iCawa</em> "Minggu"). Kata Bantu warisan untuk air / api / matahari / tangan / mata tetap bebas klik.</p>
+<p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">Jika Anda mengklik <strong>Bandingkan</strong> di atas, Anda akan melihat bahwa dalam bahasa Xhosa maupun Zulu tidak satu pun kata dasar sehari-hari di peta ini sebenarnya <em>mengandung</em> klik. Itu adalah paruh kedua cerita: klik dalam bahasa Bantu hidup hampir seluruhnya dalam <strong>kosakata budaya dan hormat</strong> — nama (<em>iXhosa</em>, <em>uXamu</em>), hewan (<em>iqaqa</em> "musang", <em>ixoxo</em> "katak"), salam, pengganti tabu dalam tutur penghindaran <em>hlonipha</em>, dan pinjaman Khoekhoe (<em>iCawa</em> "Minggu"). Kata Bantu warisan untuk air / api / matahari / tangan / mata tetap bebas klik.</p>
 
-<blockquote>"Klik bukanlah bunyi pinjaman dengan cara kata pinjaman dipinjam. Mereka adalah fitur warisan masa kanak-kanak dwibahasa — dan begitu mereka ada di leksikon satu generasi, mereka menjadi asli." — Anthony Traill, 1995 (parafrase)</blockquote>
+<p>Mekanismenya kini sudah cukup baik direkonstruksi. Pakendorf, Gunnink, Sands, dan Bostoen (2017), dengan menggabungkan bukti linguistik dan genetik, menyimpulkan bahwa penyalinan klik menyertai perkawinan masuk besar-besaran perempuan penutur Khoisan ke dalam komunitas penutur Bantu, dengan sebagian pengaruhnya berasal dari peralihan bahasa oleh penutur Khoisan sendiri. Menurut penjelasan itu, klik tidak datang sebagaimana sebuah kata pinjaman biasa datang: klik masuk lewat rumah tangga tempat anak-anak tumbuh mendengar kedua bahasa, dan begitu satu generasi memilikinya, klik hanyalah konsonan asli.</p>
 
-<p>Di luar Afrika selatan, kasus yang didokumentasikan dengan kuat adalah isolat Afrika Timur <strong>Hadza</strong> dan <strong>Sandawe</strong>, ditambah register ritual khusus <strong>Damin</strong> di Australia — digunakan oleh laki-laki yang telah diinisiasi di Pulau Mornington, bukan sebagai bahasa lisan biasa. (Laporan tentang bunyi mirip klik dalam register seremonial El Molo yang kini punah memang ada, tetapi belum dipastikan dengan baik.) Itu menjadikan wilayah klik Afrika selatan salah satu wilayah linguistik paling ketat di dunia — tempat di mana satu fitur luar biasa telah dipertahankan, dielaborasi, dan diperdagangkan di empat keluarga setidaknya selama beberapa ribu tahun.</p>
+<p>Di luar Afrika selatan, kasus yang didokumentasikan dengan kuat adalah isolat Afrika Timur <strong>Hadza</strong> dan <strong>Sandawe</strong>, bahasa Kushitik <strong>Dahalo</strong> di pesisir Kenya, ditambah register ritual khusus <strong>Damin</strong> di Australia — digunakan oleh laki-laki yang telah diinisiasi di Pulau Mornington, bukan sebagai bahasa lisan biasa. Dahalo adalah kasus yang menyimpang: kliknya hanya bertahan pada sekitar empat puluh kata, beberapa di antaranya kosakata dasar, dan umumnya dibaca sebagai sisa substrat yang tertinggal ketika para penuturnya beralih ke bahasa Kushitik. (Laporan tentang bunyi mirip klik dalam register seremonial El Molo yang kini punah memang ada, tetapi belum dipastikan dengan baik.) Itu menjadikan wilayah klik Afrika selatan salah satu wilayah linguistik paling ketat di dunia — tempat di mana satu fitur luar biasa telah dipertahankan, dielaborasi, dan diperdagangkan di empat keluarga setidaknya selama beberapa ribu tahun.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Survei sabuk klik Afrika selatan</button>
@@ -287,14 +287,14 @@ window.TRIVIA_I18N['id'] = {
     title: 'Basque — bahasa yang lupa diganti oleh Eropa',
     summary: 'Satu-satunya bahasa pra-Indo-Eropa yang masih bertahan di Eropa Barat, dituturkan di Pyrenees oleh sekitar 750.000 orang — dan tidak terkait dengan apa pun di Bumi.',
     body: `
-<p>Ketika orang Romawi berbaris ke Hispania pada abad ke-2 SM, mereka menemui puluhan bahasa. Dalam empat ratus tahun, hampir setiap satu telah digantikan oleh bahasa Latin — benih dari bahasa Spanyol, Portugis, Katala, Prancis, dan sisanya dari Eropa Roman. Hampir setiap satu. Di Pyrenees barat, satu bahasa menolak untuk mati. Penuturnya masih menyebut diri mereka <em>euskaldunak</em> — secara harfiah "mereka yang memiliki Basque" — dan bahasa mereka, <strong>Euskara</strong>, adalah satu-satunya yang selamat hidup dari Eropa yang ada sebelum orang Indo-Eropa tiba.</p>
+<p>Ketika orang Romawi berbaris ke Hispania pada 218 SM, mereka menemui puluhan bahasa. Dalam empat ratus tahun, hampir setiap satu telah digantikan oleh bahasa Latin — benih dari bahasa Spanyol, Portugis, Katala, Prancis, dan sisanya dari Eropa Roman. Hampir setiap satu. Di Pyrenees barat, satu bahasa menolak untuk mati. Penuturnya masih menyebut diri mereka <em>euskaldunak</em> — secara harfiah "mereka yang memiliki Basque" — dan bahasa mereka, <strong>Euskara</strong>, adalah satu-satunya yang selamat hidup dari Eropa yang ada sebelum orang Indo-Eropa tiba.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="eu" data-zoom="7">🌍 Tampilkan Basque di peta</button>
   <button type="button" class="trivia-action" data-action="panto" data-lat="43.17" data-lng="-2.47" data-zoom="8">⛰️ Terbang ke Tanah Basque</button>
 </div>
 
-<p>Kira-kira 750.000 orang berbicara Basque hari ini, terbagi antara tiga provinsi di Spanyol (Bizkaia, Gipuzkoa, Araba, dan Navarra) dan tiga di Prancis (Labourd, Navarra Hilir, Soule). Secara genetis, bahasa ini adalah <strong>isolat</strong> sejati: tidak ada kerabat terbukti. Para linguis telah menghabiskan dua abad mencoba menghubungkannya dengan Iberia, Berber, Kaukasus, Etruska, Pict, Burushaski, dan bahkan Ainu — dan tidak satu pun proposal selamat melewati tinjauan sejawat.</p>
+<p>Kira-kira 750.000 orang berbicara Basque hari ini, terbagi antara empat provinsi di Spanyol (Bizkaia, Gipuzkoa, Araba, dan Navarra) dan tiga di Prancis (Labourd, Navarra Hilir, Soule). Secara genetis, bahasa ini adalah <strong>isolat</strong> sejati: tidak ada kerabat terbukti. Para linguis telah menghabiskan dua abad mencoba menghubungkannya dengan Iberia, Berber, Kaukasus, Etruska, Pict, Burushaski, dan bahkan Ainu — dan tidak satu pun proposal selamat melewati tinjauan sejawat.</p>
 
 <p>Tautan historis paling serius adalah dengan <strong>Akuitania</strong>, dibuktikan dalam kira-kira 500 nama pribadi dan ilahi yang diukir pada batu nazar era Romawi di barat daya Galia. Bentuknya tampak sangat mirip Basque: <em>NESCATO</em> cocok dengan <em>neskato</em> "gadis" modern; <em>CISON</em> cocok dengan <em>gizon</em> "pria"; <em>SEMBE-</em> cocok dengan <em>seme</em> "anak laki-laki". Sebagian besar spesialis sekarang memperlakukan Akuitania sebagai sepupu yang lebih tua atau leluhur langsung Basque, mendorong sejarah terdokumentasi bahasa itu kembali setidaknya 2.000 tahun. Apakah Basque juga berasal dari <strong>substrat Vasconik</strong> yang lebih luas yang pernah menyelimuti Eropa Barat — seperti yang diusulkan Theo Vennemann — jauh lebih kontroversial.</p>
 
@@ -310,7 +310,7 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="one" data-code="eu">🔢 Lihat Basque "Satu"</button>
 </div>
 
-<p>Basque hampir punah pada abad ke-20. Di bawah kediktatoran Francisco Franco (1939–1975), berbicara Basque di depan umum dihukum, bahasa itu dilarang dari sekolah dan gereja, dan orang tua didenda karena memberi anak mereka nama Basque. Upaya standardisasi pasca-Franco, <strong>Euskara Batua</strong> ("Basque Bersatu"), dipimpin sejak 1960-an oleh akademi bahasa Basque <em>Euskaltzaindia</em> dan linguis <strong>Koldo Mitxelena</strong>. Itu menarik dialek-dialek yang menyimpang — Bizkaia, Gipuzkoa, Navarra, Lapurdi, Zuberoa — menjadi standar tertulis yang dapat digunakan di sekolah, surat kabar, dan pemerintahan.</p>
+<p>Basque hampir punah pada abad ke-20. Di bawah kediktatoran Francisco Franco (1939–1975), berbicara Basque di depan umum dihukum, bahasa itu dilarang dari sekolah dan gereja, dan orang tua didenda karena memberi anak mereka nama Basque. Upaya standardisasi, <strong>Euskara Batua</strong> ("Basque Bersatu"), justru diluncurkan di bawah Franco — pada kongres Arantzazu 1968 — oleh akademi bahasa Basque <em>Euskaltzaindia</em> dan linguis <strong>Koldo Mitxelena</strong>. Itu menarik dialek-dialek yang menyimpang — Bizkaia, Gipuzkoa, Navarra, Lapurdi, Zuberoa — menjadi satu standar tertulis, meski baru setelah 1975 standar itu benar-benar dapat digunakan di sekolah, surat kabar, dan pemerintahan.</p>
 
 <blockquote>"Hizkuntza bat ez da galtzen ez dakitenek ikasten ez dutelako, dakitenek hitz egiten ez dutelako baizik."<br>"Sebuah bahasa tidak hilang karena mereka yang tidak mengetahuinya gagal mempelajarinya — ia hilang karena mereka yang mengetahuinya berhenti mengucapkannya." — Joxean Artze</blockquote>
 
@@ -338,7 +338,7 @@ window.TRIVIA_I18N['id'] = {
   <li><strong>Tablet Kish</strong> (sekitar 3500 SM) dan tablet Uruk W 9578a termasuk yang paling awal yang diketahui.</li>
   <li><strong>Instruksi Shuruppak</strong> (sekitar 2500 SM) termasuk karya sastra tertua yang bertahan.</li>
   <li><strong>Kode Ur-Nammu</strong> (sekitar 2100 SM), kode hukum tertua yang diketahui, mendahului Hammurabi tiga abad — dan ditulis dalam Sumeria.</li>
-  <li><strong>Enheduanna</strong> (sekitar 2285 SM), seorang putri Akkadia dan pendeta tinggi dewa bulan Nanna, mengarang himne Sumeria untuk Inanna dan merupakan pengarang bernama paling awal dalam sejarah manusia.</li>
+  <li><strong>Enheduanna</strong> (sekitar 2285 SM), seorang putri Akkadia dan pendeta tinggi dewa bulan Nanna, secara tradisional dianggap pengarang bernama paling awal dalam sejarah manusia — meskipun himne Sumeria untuk Inanna yang mencantumkan namanya hanya bertahan dalam salinan yang dibuat kira-kira enam abad kemudian, dan para Asiriolog masih terbelah soal apakah ia benar-benar mengarangnya.</li>
 </ul>
 
 <div class="trivia-actions">
@@ -348,9 +348,9 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Sekitar 2000 SM, setelah jatuhnya Dinasti Ketiga Ur, Sumeria tampaknya mati sebagai bahasa ibu siapa pun, digantikan oleh Semit Akkadia dari tetangga utara mereka. Tetapi ia tidak berhenti ditulis. Selama hampir dua ribu tahun lagi, Sumeria dipertahankan di sekolah juru tulis (<em>edubba</em>) sebagai bahasa prestise agama, kesarjanaan, ramalan, dan astronomi — bahasa Latin dunia paku. Juru tulis Babilonia dan Asiria menyalin teks Sumeria hingga abad ke-1 SM, tablet bahasa Sumeria yang terakhir dapat dipastikan tanggalnya melampaui Aleksander Agung.</p>
 
-<p>Bahasa itu sepenuhnya dilupakan setelah kematian aksara paku itu sendiri, sekitar abad ke-1 M. Ia memasuki kembali ingatan manusia hanya pada abad ke-19, ketika <strong>Henry Rawlinson</strong>, <strong>Edward Hincks</strong>, dan <strong>Jules Oppert</strong> — tiga dari para penemu kode paku — menyadari bahwa daftar leksikal dwibahasa yang mereka baca merekam bukan hanya Akkadia tetapi bahasa yang lebih tua dan bukan Semit di baliknya. Oppert mengusulkan nama "Sumeria" pada 1869, sesuai istilah <em>kengir</em> "Sumer" yang digunakan oleh orang Sumeria sendiri.</p>
+<p>Bahasa itu sepenuhnya dilupakan setelah kematian aksara paku itu sendiri, sekitar abad ke-1 M. Ia memasuki kembali ingatan manusia hanya pada abad ke-19, ketika <strong>Henry Rawlinson</strong>, <strong>Edward Hincks</strong>, dan <strong>Jules Oppert</strong> — tiga dari para penemu kode paku — menyadari bahwa daftar leksikal dwibahasa yang mereka baca merekam bukan hanya Akkadia tetapi bahasa yang lebih tua dan bukan Semit di baliknya. Oppert mengusulkan nama "Sumeria" pada 1869, mengambilnya dari gelar raja Akkadia "Raja Sumer dan Akkad" — sedangkan nama yang dipakai orang Sumeria sendiri untuk tanah mereka adalah <em>ki-en-gi(-r)</em>.</p>
 
-<p>Hari ini <strong>Pennsylvania Sumerian Dictionary</strong> dan <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) memungkinkan membaca puisi tertua di dunia di ponsel. <strong>Epos Gilgamesh</strong>, dalam pendahulunya berbahasa Sumeria seperti "Gilgamesh dan Banteng Surga", adalah sastra pertama yang pernah ditulis umat manusia — dan masih sedang diterjemahkan.</p>
+<p>Hari ini <strong>Pennsylvania Sumerian Dictionary</strong> dan <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) memungkinkan membaca puisi tertua di dunia di ponsel. <strong>Epos Gilgamesh</strong>, dalam pendahulunya berbahasa Sumeria seperti "Gilgamesh dan Banteng Surga", termasuk kisah tertua yang pernah dituliskan umat manusia — dan masih sedang diterjemahkan.</p>
     `
   },
   'etruscan-mystery': {
@@ -369,7 +369,7 @@ window.TRIVIA_I18N['id'] = {
 <p>Kira-kira <strong>13.000 inskripsi</strong> diketahui, sebagian besar pendek dan kuburan: siapa yang dimakamkan di sini, berapa usia mereka, siapa orang tua dan pasangan mereka. Rumusan berulang seperti <em>mi larthia</em> "saya milik Larth" mudah. Apa pun di luar nama, keluarga, dan angka sulit. Segelintir teks yang lebih panjang adalah kunci apa pun yang kita pahami:</p>
 
 <ul>
-  <li><strong>Liber Linteus</strong> (Kitab Linen), teks Etruska terpanjang yang bertahan. Ini adalah kalender ritual sekitar 1.200 kata yang dapat dibaca, disalin tangan ke linen pada abad ke-3 SM, kemudian dipotong di Mesir Romawi dan digunakan untuk membungkus mumi wanita yang kini berada di Museum Arkeologi Zagreb.</li>
+  <li><strong>Liber Linteus</strong> (Kitab Linen), teks Etruska terpanjang yang bertahan. Ini adalah kalender ritual sekitar 1.200 kata yang dapat dibaca, disalin tangan ke linen pada abad ke-3 SM, kemudian dipotong di Mesir Ptolemaik dan digunakan untuk membungkus mumi wanita yang kini berada di Museum Arkeologi Zagreb.</li>
   <li><strong>Tabula Capuana</strong>, ubin terakota dengan sekitar 390 kata instruksi ritual (sekitar 470 SM).</li>
   <li><strong>Tablet Pyrgi</strong> (sekitar 500 SM), tiga lembar tipis emas dari pelabuhan Pyrgi, dua dalam Etruska dan satu dalam Fenisia — dedikasi hampir dwibahasa kepada dewi Uni / Astarte. Ditemukan pada 1964 dan penting untuk mengkonfirmasi kosakata.</li>
   <li><strong>Tabula Cortonensis</strong>, tablet perunggu 200 kata yang mencatat apa yang tampak seperti penjualan tanah, ditemukan dekat Cortona pada 1992.</li>
@@ -379,9 +379,9 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="one" data-code="ett">🔢 Lihat Etruska "Satu"</button>
 </div>
 
-<p>Apa yang <em>memang</em> kita ketahui mengejutkan. Etruska memiliki angka <em>thu, zal, ci, huth, mach, śa</em> untuk 1–6 — meskipun para sarjana masih berdebat tentang pasangan angka mana yang cocok, sebagian karena empat dadu gading yang ditemukan di Toscana menuliskan angka sebagai kata bukan titik. Etruska menurunkan nomina menurut kasus (genitif dalam <em>-s</em> atau <em>-l</em>, ablatif dalam <em>-is</em>), mengkonjugasikan verba untuk lampau dan kini (<em>-ce</em> lampau, <em>-e</em> kini), dan memiliki sistem mencolok <strong>sufiks frasa nominal yang ditumpuk</strong>: nomina yang ditandai untuk genitif dapat mengambil genitif kedua di atasnya. Kosakata yang telah diekstraksi dengan aman sekitar 250 kata; sisa leksikonnya, termasuk sebagian besar istilah teknis ritual Liber Linteus, adalah tebakan kontekstual.</p>
+<p>Apa yang <em>memang</em> kita ketahui mengejutkan. Etruska memiliki angka <em>thu, zal, ci, huth, mach, śa</em> untuk 1–6 — meskipun para sarjana masih berdebat tentang pasangan angka mana yang cocok, sebagian karena satu-satunya pasang dadu gading yang diketahui, ditemukan di Tuscania di Lazio utara, menuliskan angka sebagai kata bukan titik. Etruska menurunkan nomina menurut kasus (genitif dalam <em>-s</em> atau <em>-l</em>, ablatif dalam <em>-is</em>), mengkonjugasikan verba untuk lampau dan kini (<em>-ce</em> lampau, <em>-e</em> kini), dan memiliki sistem mencolok <strong>sufiks frasa nominal yang ditumpuk</strong>: nomina yang ditandai untuk genitif dapat mengambil genitif kedua di atasnya. Kosakata yang telah diekstraksi dengan aman sekitar 250 kata; sisa leksikonnya, termasuk sebagian besar istilah teknis ritual Liber Linteus, adalah tebakan kontekstual.</p>
 
-<p>Studi Etruska modern pada dasarnya didirikan oleh arkeolog Italia <strong>Massimo Pallottino</strong> (1909–1995), yang <em>Etruscologia</em> (pertama diterbitkan 1942, delapan edisi) menyetel ulang bidang itu pada "metode kombinatorial": cocokkan pola dalam Etruska itu sendiri, perlakukan sumber klasik Yunani dan Romawi sebagai kebisingan latar belakang daripada alat bantu terjemahan langsung, dan terima bahwa kita akan maju satu inskripsi pada satu waktu.</p>
+<p>Studi Etruska modern pada dasarnya didirikan oleh arkeolog Italia <strong>Massimo Pallottino</strong> (1909–1995), yang <em>Etruscologia</em> (pertama diterbitkan 1942, direvisi hingga edisi ketujuh pada 1984) menyetel ulang bidang itu pada "metode kombinatorial": cocokkan pola dalam Etruska itu sendiri, perlakukan sumber klasik Yunani dan Romawi sebagai kebisingan latar belakang daripada alat bantu terjemahan langsung, dan terima bahwa kita akan maju satu inskripsi pada satu waktu.</p>
 
 <blockquote>"Etruska bukan lagi misteri, tetapi tetap menjadi masalah." — Massimo Pallottino, parafrase dari <em>Etruscologia</em></blockquote>
 
@@ -392,7 +392,7 @@ window.TRIVIA_I18N['id'] = {
     title: 'Sentinel — bahasa yang belum pernah kita rekam',
     summary: 'Di pulau seluas 60 km² di Teluk Benggala hidup orang-orang yang nenek moyangnya diyakini termasuk salah satu lapisan permukiman manusia paling awal di wilayah tersebut — dan bahasa mereka tidak pernah didengar siapa pun dari luar, apalagi didokumentasikan.',
     body: `
-<p>Sekitar 1.200 km timur daratan India, di Teluk Benggala, terletak sebuah pulau berhutan kecil seluas kira-kira 60 kilometer persegi. Itu disebut <strong>Pulau Sentinel Utara</strong>, dan di suatu tempat di dalamnya tinggal mungkin lima puluh hingga beberapa ratus orang — tidak ada yang tahu jumlah sebenarnya — yang telah menolak setiap upaya untuk berbicara dengan mereka. Mereka adalah <strong>orang Sentinel</strong>, dan bahasa mereka adalah satu-satunya bahasa manusia di Bumi yang belum pernah direkam, belum pernah ditranskripsikan, dan bahkan belum pernah diklasifikasikan dengan yakin.</p>
+<p>Sekitar 1.200 km timur daratan India, di Teluk Benggala, terletak sebuah pulau berhutan kecil seluas kira-kira 60 kilometer persegi. Itu disebut <strong>Pulau Sentinel Utara</strong>, dan di suatu tempat di dalamnya tinggal mungkin lima puluh hingga beberapa ratus orang — tidak ada yang tahu jumlah sebenarnya — yang telah menolak setiap upaya untuk berbicara dengan mereka. Mereka adalah <strong>orang Sentinel</strong>, dan bahasa mereka adalah satu dari segelintir bahasa manusia di Bumi yang belum pernah direkam, belum pernah ditranskripsikan, dan bahkan belum pernah diklasifikasikan dengan yakin — sekaligus yang paling dikenal di antaranya.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Terbang ke Pulau Sentinel Utara</button>
@@ -405,7 +405,7 @@ window.TRIVIA_I18N['id'] = {
 <ul>
   <li><strong>1880</strong>: Perwira kolonial Inggris <strong>Maurice Vidal Portman</strong> mendarat dengan tim pencari, menangkap pasangan tua dan empat anak, dan membawa mereka ke Port Blair. Orang dewasa meninggal dalam beberapa hari, hampir pasti karena infeksi umum yang tidak ada kekebalannya pada Sentinel. Anak-anak dikembalikan ke pulau dengan hadiah. Apa pun yang Portman rekam dari tuturan mereka hanya bertahan sebagai fragmen dan catatan tangan kedua.</li>
   <li><strong>1974</strong>: Tim film National Geographic diusir oleh anak panah. Sutradara mendapat anak panah sepanjang 2,4 meter di pahanya.</li>
-  <li><strong>1991</strong>: Antropolog India <strong>Madhumala Chattopadhyay</strong> memimpin serangkaian "penurunan hadiah" kelapa yang mencapai satu-satunya kontak damai yang diketahui — orang Sentinel berjalan ke perahu tanpa senjata untuk mengumpulkan kelapa. Kunjungan dihentikan pada 1996 karena kekhawatiran penularan penyakit.</li>
+  <li><strong>1991</strong>: Sebuah rombongan resmi India beranggotakan 13 orang mencapai satu-satunya kontak damai yang diketahui, menyodorkan kelapa dari perahu hingga orang Sentinel berjalan ke air tanpa senjata untuk mengambilnya. Antropolog rombongan itu, <strong>Madhumala Chattopadhyay</strong>, turun ke air dan menyerahkan kelapa itu dengan tangannya sendiri — perempuan pertama dari dunia luar yang pernah bertemu mereka. Kunjungan dihentikan pada 1996 karena kekhawatiran penularan penyakit.</li>
   <li><strong>Tsunami 2004</strong>: Helikopter Penjaga Pantai terbang di atas pulau beberapa hari setelah tsunami Samudra Hindia 2004 untuk memeriksa korban selamat. Itu disambut dengan anak panah. Penduduk pulau telah pindah ke tempat yang lebih tinggi dan tidak terluka.</li>
   <li><strong>2006</strong>: Dua nelayan yang terdampar dibunuh.</li>
   <li><strong>2018</strong>: Misionaris Amerika <strong>John Allen Chau</strong> dibunuh saat mencoba menginjili orang Sentinel, setelah secara ilegal menyuap nelayan lokal untuk membawanya ke sana.</li>
@@ -413,11 +413,11 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Di bawah <strong>Peraturan Perlindungan Suku Pribumi Kepulauan Andaman dan Nikobar</strong> (1956, diamandemen beberapa kali sejak itu) pemerintah India, ilegal bagi siapa pun untuk mendekati dalam jarak 5 mil laut dari Pulau Sentinel Utara. Angkatan Laut India berpatroli di zona penyangga. Kebijakan resmi, berlaku sejak akhir 1990-an dan diperkuat setelah kematian Chau, adalah <strong>"mata di, tangan lepas"</strong>: pantau populasi dari kejauhan, jangan kontak, jangan ikut campur.</p>
 
-<blockquote>"Bukan kami yang mengisolasi mereka. Mereka telah memutuskan untuk dibiarkan sendiri, dan kami berkewajiban untuk menghormatinya." — Madhumala Chattopadhyay, memparafrase sikap kebijakan jangka panjang</blockquote>
+<blockquote>"Suku-suku di kepulauan ini tidak butuh orang luar untuk melindungi mereka, yang mereka butuhkan adalah dibiarkan sendiri." — Madhumala Chattopadhyay, dalam wawancara dengan National Geographic</blockquote>
 
 <p>Yang sedikit kita duga tentang tipologi linguistik Sentinel datang dari analogi: bahasa Ongan memiliki inventaris fonem kecil, awalan posesif pada istilah bagian tubuh dan kekerabatan, dan sistem deiksis berbasis bagian tubuh (misalnya satu sufiks untuk "kepala", yang lain untuk "punggung"). Masuk akal — tetapi tak terbukti — bahwa Sentinel bekerja serupa. Ethnologue, ISO 639-3, dan Glottolog mendaftarkannya (kode <em>std</em>, languoid <em>sent1241</em>), tetapi setiap bidang pada entri yang meminta data aktual bertuliskan "tidak ada informasi tersedia" atau "tidak diketahui".</p>
 
-<p>Ini adalah situasi linguistik paling langka: bahasa manusia yang hidup dan bernapas, digunakan setiap hari, yang telah kita sepakati sebagai spesies untuk tidak diteliti. Apakah kesepakatan itu akan bertahan abad ke-21 tidak pasti. Untuk saat ini, orang Sentinel tetap menjadi orang yang tidak akan diwawancarai — dan bahasa mereka, satu-satunya bahasa di Wordmap yang kami daftarkan bukan karena kami mengetahuinya, tetapi karena kami tahu kami tidak.</p>
+<p>Ini adalah situasi linguistik paling langka: bahasa manusia yang hidup dan bernapas, digunakan setiap hari, yang telah kita sepakati sebagai spesies untuk tidak diteliti. Apakah kesepakatan itu akan bertahan abad ke-21 tidak pasti. Untuk saat ini, orang Sentinel tetap menjadi orang yang tidak akan diwawancarai — dan bahasa mereka, satu-satunya bahasa dalam kumpulan tulisan ini yang kami bahas bukan karena kami mengetahuinya, tetapi karena kami tahu kami tidak.</p>
     `
   },
   'modern-hebrew-revival': {
@@ -443,23 +443,23 @@ window.TRIVIA_I18N['id'] = {
   <li><strong>chashmal</strong> (חשמל) — "listrik", memanfaatkan kembali kata Alkitab misterius dari Yehezkiel.</li>
 </ul>
 
-<p>Ia menyusun raksasa <em>Kamus Lengkap Ibrani Kuno dan Modern</em> dalam 17 jilid (dilanjutkan dan diselesaikan setelah kematiannya oleh putranya dan lainnya), dan membantu mendirikan <strong>Va'ad ha-Lashon ha-Ivrit</strong> (Komite Bahasa Ibrani, 1890), yang menjadi <strong>Akademi Bahasa Ibrani</strong> hari ini — masih badan resmi Israel yang menciptakan kosakata teknis baru (<em>machshev</em> "komputer", <em>klikim</em> "klik", <em>siyumon</em> "aplikasi").</p>
+<p>Ia menyusun raksasa <em>Kamus Lengkap Ibrani Kuno dan Modern</em> dalam 17 jilid (dilanjutkan dan diselesaikan setelah kematiannya oleh putranya dan lainnya), dan membantu mendirikan <strong>Va'ad ha-Lashon ha-Ivrit</strong> (Komite Bahasa Ibrani, 1890), yang menjadi <strong>Akademi Bahasa Ibrani</strong> hari ini — masih badan resmi Israel yang menciptakan kosakata teknis baru (<em>machshev</em> "komputer", <em>yisumon</em> "aplikasi").</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="he">👋 Lihat Ibrani "Halo"</button>
   <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="he">💧 Lihat Ibrani "Air"</button>
 </div>
 
-<p>Sejarawan modern Ibrani (Ghil'ad Zuckermann, Bernard Spolsky, dan lainnya) cepat menambahkan nuansa. Ben-Yehuda tidak sendirian; ia adalah suara paling lantang dalam gelombang guru, terutama <strong>Asosiasi Guru Ibrani</strong> dari 1890-an dan seterusnya, yang mengalihkan kelas mereka dari Yiddi dan Rusia ke Ibrani, membangun generasi pertama pengguna fasih satu ruang kelas pada satu waktu. Zuckermann telah berargumen bahwa apa yang sebenarnya lahir bukan secara ketat "Ibrani yang dihidupkan kembali" tetapi hibrida yang ia sebut <em>Israeli</em> — lapisan permukaan Semit (morfologi, banyak kosakata) di atas substrat sintaksis dan fonetik Eropa yang dalam (terutama Yiddi dan Slavik). Menurut pandangan itu, penutur Israel asli adalah pewaris baik Raja Daud maupun yeshiva Vilna era Tsar.</p>
+<p>Sejarawan modern Ibrani (Ghil'ad Zuckermann, Bernard Spolsky, dan lainnya) cepat menambahkan nuansa. Ben-Yehuda tidak sendirian; ia adalah suara paling lantang dalam gelombang guru, terutama para guru yang mengajarkan Ibrani dalam bahasa Ibrani sejak 1890-an dan sejak 1903 terhimpun dalam <strong>Persatuan Guru Ibrani</strong>, yang mengalihkan kelas mereka dari Yiddi dan Rusia ke Ibrani, membangun generasi pertama pengguna fasih satu ruang kelas pada satu waktu. Zuckermann telah berargumen bahwa apa yang sebenarnya lahir bukan secara ketat "Ibrani yang dihidupkan kembali" tetapi hibrida yang ia sebut <em>Israeli</em> — lapisan permukaan Semit (morfologi, banyak kosakata) di atas substrat sintaksis dan fonetik Eropa yang dalam (terutama Yiddi dan Slavik). Menurut pandangan itu, penutur Israel asli adalah pewaris baik Raja Daud maupun yeshiva Vilna era Tsar.</p>
 
-<blockquote>"Meskipun mustahil untuk menghidupkan kembali bahasa seratus persen, apa yang berhasil dilakukan penutur Ibrani tidak kurang dari ajaib." — Ghil'ad Zuckermann</blockquote>
+<blockquote>"Orang Yahudi tidak berhasil menghidupkan kembali bahasa Yesaya. Menghidupkan kembali sebuah bahasa persis seperti dulu memang mustahil." — Ghil'ad Zuckermann, BBC Future, 22 Maret 2019</blockquote>
 
 <p>Pada 1922, ketika Ben-Yehuda meninggal, Ibrani adalah salah satu dari tiga bahasa resmi Palestina Mandat Inggris. Pada 1948 ia adalah bahasa utama Negara Israel yang baru didirikan. Hari ini ia adalah bahasa sekolah jutaan orang, bahasa pemenang Nobel (S. Y. Agnon, 1966), bioskop dan teknologi tinggi, supermarket dan taman bermain. Anak terakhir yang belajar Ibrani sebagai bayi sebelum 200 M dan anak pertama yang belajar sebagai bayi pada 1882 dipisahkan oleh sekitar 70 generasi kehidupan Yahudi di mana bahasa itu dibawa tetapi tidak diayunkan — dan itu adalah satu-satunya bahasa di Bumi yang telah melakukannya dan kembali.</p>
     `
   },
   'sanskrit-panini': {
     title: 'Pāṇini — tata bahasawan Sanskerta yang mendahului ilmu komputer sejauh 2.400 tahun',
-    summary: 'Sekitar 500 SM, seorang sarjana India menulis tata bahasa formal Sanskerta 4.000 aturan yang sangat ketat sehingga para linguis abad ke-20 menyebutnya "deskripsi paling lengkap dari bahasa apa pun hingga zaman modern" — dan leluhur langsung bagaimana kompiler mengurai kode hari ini.',
+    summary: 'Sekitar 500 SM, seorang sarjana India menulis tata bahasa formal Sanskerta 4.000 aturan yang begitu ketat sehingga pada 1933 Leonard Bloomfield dapat menulis bahwa "tidak ada bahasa lain, sampai hari ini, yang pernah dideskripsikan sesempurna itu" — dan ia adalah leluhur langsung bagaimana kompiler mengurai kode hari ini.',
     body: `
 <p>Jika Anda harus memilih satu buku untuk dikirim kembali dalam mesin waktu untuk membingungkan ilmuwan komputer abad ke-20, akan sulit melakukan yang lebih baik daripada <strong>Aṣṭādhyāyī</strong> — "Delapan Bab" karya <strong>Pāṇini</strong>. Disusun di tempat yang sekarang adalah Pakistan barat laut sekitar <strong>500–400 SM</strong>, Aṣṭādhyāyī adalah deskripsi generatif lengkap Sanskerta dalam hanya kurang dari <strong>4.000 sūtra</strong> (aturan aforistik ringkas), dipadatkan begitu rapat sehingga seluruh tata bahasa muat dalam kira-kira 35 halaman cetak modern. Linguis modern, dari Leonard Bloomfield hingga Paul Kiparsky dan Noam Chomsky, semuanya menyebutnya sebagai tata bahasa formal paling canggih dari bahasa apa pun yang pernah dihasilkan sebelum abad ke-20.</p>
 
@@ -487,9 +487,9 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="fire" data-code="sa">🔥 Lihat Sanskerta "Api"</button>
 </div>
 
-<p>Pengaruh Pāṇini langsung, dan bukan hanya metaforis. <strong>Leonard Bloomfield</strong> (1887–1949), salah satu pendiri linguistik struktural Amerika, menulis esai 1929-nya "On Some Rules of Pāṇini" sebagian untuk mengimpor pengurutan aturan Pāṇini ke dalam teori tata bahasa Barat. Ahli logika Belanda <strong>Frits Staal</strong> berargumen dalam <em>The Science of Language</em> (1965) bahwa metabahasa Pāṇini mendahului bentuk Backus-Naur yang digunakan untuk mendefinisikan bahasa pemrograman. Ilmuwan komputer India-Amerika <strong>Rick Briggs</strong>, bekerja di NASA Ames pada 1980-an, mengusulkan representasi kāraka gaya Sanskerta sebagai bahasa perantara alami untuk representasi pengetahuan AI. Dan dalam <em>Aspects of the Theory of Syntax</em> 1965-nya, <strong>Noam Chomsky</strong> mengkredit Pāṇini dan para komentatornya sebagai tata bahasawan generatif pertama dalam sejarah.</p>
+<p>Pengaruh Pāṇini langsung, dan bukan hanya metaforis. <strong>Leonard Bloomfield</strong> (1887–1949), salah satu pendiri linguistik struktural Amerika, menulis esai 1927-nya "On Some Rules of Pāṇini" sebagian untuk mengimpor pengurutan aturan Pāṇini ke dalam teori tata bahasa Barat. Indolog Belanda <strong>Frits Staal</strong> berargumen dalam "Euclid and Pāṇini" (1965) bahwa tata bahasa Pāṇini adalah sistem formal setara dengan geometri Euklides; dua tahun kemudian ilmuwan komputer <strong>Peter Zilahy Ingerman</strong>, dalam sebuah surat ke <em>Communications of the ACM</em>, mengusulkan agar bentuk normal Backus dinamai ulang menjadi "bentuk Pāṇini-Backus" untuk menghormati Pāṇini. Ilmuwan komputer India-Amerika <strong>Rick Briggs</strong>, bekerja di NASA Ames pada 1980-an, mengusulkan representasi kāraka gaya Sanskerta sebagai bahasa perantara alami untuk representasi pengetahuan AI. Dan dalam kata pengantar <em>Aspects of the Theory of Syntax</em> 1965-nya, <strong>Noam Chomsky</strong> mengakui bahwa "bahkan tata bahasa Pāṇini pun dapat ditafsirkan sebagai satu penggal dari 'tata bahasa generatif' semacam itu, pada dasarnya dalam pengertian istilah ini sekarang".</p>
 
-<blockquote>"Tata bahasa deskriptif Sanskerta yang Pāṇini bawa ke kesempurnaannya adalah salah satu monumen terbesar kecerdasan manusia." — Leonard Bloomfield, <em>Language</em> (1933)</blockquote>
+<blockquote>"Tata bahasa deskriptif Sanskerta, yang Pāṇini bawa ke kesempurnaannya yang tertinggi, adalah salah satu monumen terbesar kecerdasan manusia." — Leonard Bloomfield, ulasan atas <em>Konkordanz Pāṇini-Candra</em> karya Liebich, <em>Language</em> 5 (1929)</blockquote>
 
 <p>Sanskerta sendiri (<em>saṃskṛta-</em>, "dipoles, halus") sudah menjadi standar sastra dan ritual, bukan vernakular, pada zaman Pāṇini. Setelah dia ia menjadi, secara formal, apa yang dikatakan Pāṇini: sebuah bahasa yang setiap kalimat terbentuk dengan baiknya secara prinsip dapat diturunkan dari 4.000 sūtra-nya. Dua setengah ribu tahun kemudian, itu juga persis yang kita minta dari sebuah parser. Aṣṭādhyāyī tidak hanya mendeskripsikan Sanskerta. Ia mendorong gagasan tentang deskripsi bahasa yang generatif dan formal ke tingkat ketelitian yang tak tertandingi di zaman kuno — dan bisa dibilang sampai linguistik formal abad ke-20 secara independen menemukan kembali gagasan yang sama.</p>
     `
@@ -527,7 +527,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Pada 1905 <strong>Kongres Esperanto Dunia</strong> pertama bertemu di Boulogne-sur-Mer; 688 delegasi dari 20 negara menemukan mereka dapat segera saling memahami. Pada 1920-an Liga Bangsa-Bangsa secara serius memperdebatkan mengadopsi Esperanto sebagai bahasa kerja — diveto oleh Prancis, yang khawatir kehilangan prestise diplomasi Prancis. Vatikan menyiarkan dalam Esperanto. Google Terjemahan menambahkannya pada 2012.</p>
 
-<blockquote>"Mi ne scias kio estas la lingvo, sed mi scias ke ĝi devas esti facila, neŭtrala kaj viva." ("Saya tidak tahu apa bahasanya nanti, tetapi saya tahu itu harus mudah, netral, dan hidup.") — dikaitkan dengan Zamenhof, dalam surat kepada Nikolai Borovko, 1895</blockquote>
+<blockquote>"En Bjelostoko la loĝantaro konsistas el kvar diversaj elementoj: rusoj, poloj, germanoj kaj hebreoj; ĉiuj el tiuj ĉi elementoj parolas apartan lingvon kaj neamike rilatas la aliajn elementojn." ("Di Białystok penduduknya terdiri atas empat unsur yang berbeda: orang Rusia, Polandia, Jerman, dan Yahudi; masing-masing unsur ini berbicara dalam bahasanya sendiri dan bersikap bermusuhan terhadap unsur yang lain.") — Zamenhof, dalam surat kepada Nikolai Borovko, 1895 (ditulis dalam bahasa Rusia; teks Esperanto berasal dari terjemahan Vladimir Gernet tahun 1896)</blockquote>
 
 <p>Sejarah abad ke-20 kejam terhadap kaum Esperantis. Hitler mengutuk bahasa itu dalam <em>Mein Kampf</em> sebagai konspirasi Yahudi; tiga anak Zamenhof dibunuh dalam Holocaust. Stalin memenjarakan dan mengeksekusi kaum Esperantis Soviet dalam pembersihan 1937–38 sebagai "mata-mata kosmopolitan". Gerakan itu bertahan dari keduanya.</p>
 
@@ -547,7 +547,7 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="tok">👋 "Halo" — <em>toki!</em></button>
 </div>
 
-<p>Sketsa pertama muncul daring pada 2001. Rujukan kanonik, <em>Toki Pona: The Language of Good</em>, akhirnya muncul pada 2014. Di antara tanggal-tanggal itu bahasa diam-diam menumbuhkan komunitas tanpa dukungan kelembagaan, iklan, atau produk komersial. Buku 2014 mencantumkan <strong>120 kata inti</strong> (kamus 2021 kemudian, <em>ku</em>, menambahkan kumpulan kecil yang diperluas); sebagian besar penutur fasih menganggap hitungannya sekitar <strong>123 kata esensial</strong>.</p>
+<p>Sketsa pertama muncul daring pada 2001. Rujukan kanonik, <em>Toki Pona: The Language of Good</em>, akhirnya muncul pada 2014. Di antara tanggal-tanggal itu bahasa diam-diam menumbuhkan komunitas tanpa dukungan kelembagaan, iklan, atau produk komersial. Buku 2014 mencantumkan <strong>120 kata inti</strong> (<em>kin</em>, <em>namako</em>, dan <em>oko</em> di sana hanya dicantumkan sebagai sinonim); kamus <em>ku</em> tahun 2021 kemudian merangkum kata-kata yang benar-benar dipakai komunitas, dan pada sampul belakangnya menyebut total <strong>137 kata esensial</strong> — <em>nimi ku suli</em> — angka yang menjadi acuan sebagian besar penutur fasih saat ini.</p>
 
 <p>Fonologinya sama minimalnya:</p>
 
@@ -576,9 +576,9 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="love" data-code="tok">❤️ "Cinta" — <em>olin</em></button>
 </div>
 
-<p>Ekspresi yang sama dapat berarti hal yang berbeda dalam konteks yang berbeda. <em>jan pona</em> adalah "teman", tetapi di ruang pengadilan mungkin berarti "warga negara yang baik"; <em>kili</em> mencakup buah atau sayuran apa pun. Filosofi desain Lang, dipengaruhi oleh Taoisme, kultus kesederhanaan GTD (Getting Things Done), dan hipotesis Sapir–Whorf, adalah bahwa <strong>memaksa kesederhanaan dalam ekspresi memaksa kesederhanaan dalam pikiran</strong>:</p>
+<p>Ekspresi yang sama dapat berarti hal yang berbeda dalam konteks yang berbeda. <em>jan pona</em> adalah "teman", tetapi di ruang pengadilan mungkin berarti "warga negara yang baik"; <em>kili</em> mencakup buah atau sayuran apa pun. Filosofi desain Lang, dipengaruhi oleh Taoisme, kesederhanaan radikal bahasa-bahasa pijin, dan hipotesis Sapir–Whorf, adalah bahwa <strong>memaksa kesederhanaan dalam ekspresi memaksa kesederhanaan dalam pikiran</strong>:</p>
 
-<blockquote>"Toki Pona adalah bahasa kebaikan. Itu adalah cara hidup yang sederhana." — Sonja Lang, Toki Pona: The Language of Good (2014)</blockquote>
+<blockquote>"Kalau Anda bisa mengungkapkan diri dengan cara yang sederhana, berarti Anda benar-benar paham apa yang Anda bicarakan, dan itu baik. Kalau sesuatu terlalu rumit, itu buruk. Anda memasukkan terlalu banyak derau ke dalam persamaan. Keyakinan itu boleh dibilang tertanam dalam bahasa ini." — Sonja Lang, diwawancarai Roc Morin, <em>The Atlantic</em> (2015)</blockquote>
 
 <p>Kritikus menyebutnya tidak praktis: Anda tidak dapat mengurus hukum pajak dalam Toki Pona, dan bahkan aritmetika dasar tidak nyaman (bahasa terkenal tidak memiliki kata asli untuk angka di atas dua; kemudian sistem <em>wan, tu, luka, mute, ale</em> memberi 1, 2, 5, 20, 100/banyak, dalam gaya tongkat hitung).</p>
 
@@ -587,7 +587,7 @@ window.TRIVIA_I18N['id'] = {
   },
   'ithkuil-complexity': {
     title: 'Ithkuil — conlang yang begitu padat hingga penemunya tidak dapat berbicara',
-    summary: 'John Quijada menghabiskan empat dekade merancang bahasa yang dimaksudkan untuk mengekspresikan presisi maksimum dalam ruang minimum. Hasilnya memiliki sekitar 92 fonem, puluhan kasus, dan kalimat yang begitu padat sehingga satu kata dapat diterjemahkan sebagai paragraf.',
+    summary: 'John Quijada menghabiskan empat dekade merancang bahasa yang dimaksudkan untuk mengekspresikan presisi maksimum dalam ruang minimum. Hasilnya memiliki 82 fonem pada versi pertamanya, puluhan kasus, dan kalimat yang begitu padat sehingga satu kata dapat diterjemahkan sebagai paragraf.',
     body: `
 <p>Sebagian besar bahasa rancangan bertujuan untuk <em>mudah</em>. <strong>Ithkuil</strong> sebaliknya: ia adalah <em>bahasa yang direkayasa</em> (sebuah "engelang") yang tujuan eksplisitnya adalah mengekspresikan, dalam morfem sesedikit mungkin, jumlah maksimum informasi kognitif yang mungkin — menjadi, seperti yang dikatakan penciptanya, "eksperimen rekayasa linguistik yang diidealkan".</p>
 
@@ -595,12 +595,12 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="40" data-lng="0" data-zoom="3">🗺️ Terbang ke rumah Ithkuil (tidak ada di mana pun)</button>
 </div>
 
-<p>Penciptanya adalah <strong>John Quijada</strong>, seorang linguis Amerika dan mantan karyawan DMV di California, yang mulai membuat sketsa apa yang akan menjadi Ithkuil — awalnya <em>Tikəlh Khəi</em>, "TKE" — pada 1978. Ia menerbitkan versi lengkap pertama pada 2004 di situs pribadinya, lalu <strong>TNIL</strong> yang direvisi (Ithkuil III / "Ithkuil 2011") pada 2011, dan terus memperbaikinya hingga 2020. Ia tidak pernah mengklaim Ithkuil seharusnya menjadi bahasa komunitas. Ia menyebutnya eksperimen pemikiran.</p>
+<p>Penciptanya adalah <strong>John Quijada</strong>, seorang linguis Amerika dan mantan karyawan DMV di California, yang mulai membuat sketsa apa yang akan menjadi Ithkuil pada 1978, setelah upaya-upaya awal yang ia namai <em>Mbozo</em> dan <em>Pskeoj</em>. Ia menerbitkan versi lengkap pertama pada 2004 di situs pribadinya, lalu garapan ulang yang disederhanakan bernama <strong>Ilaksh</strong> pada 2007, lalu menariknya kembali dan mengembangkannya sebagai Ithkuil III ("Ithkuil 2011") pada 2011, yang terus ia perbaiki hingga 2020 — dan pada Februari 2023 ia menggantinya sama sekali dengan bahasa penerus, <strong>New Ithkuil</strong> (TNIL, "The New Ithkuilic Language"). Ia tidak pernah mengklaim Ithkuil seharusnya menjadi bahasa komunitas. Ia menyebutnya eksperimen pemikiran.</p>
 
 <p>Beberapa parameter desainnya membuat pusing:</p>
 
 <ul>
-  <li>Fonologi 2004 menggunakan hingga <strong>92 fonem</strong>, termasuk ejektif, uvular, faringal, nada, dan kontras panjang. Revisi 2011 menguranginya tetapi masih jauh di atas bahasa alami mana pun.</li>
+  <li>Fonologi 2004 menggunakan <strong>82 fonem</strong> (65 konsonan dan 17 vokal), termasuk ejektif, uvular, faringal, nada, dan kontras panjang. Revisi 2011 memangkasnya menjadi 45 konsonan dan 13 vokal — jauh lebih banyak daripada kebanyakan bahasa, meski bukan rekor dunia: bahasa Taa (ǃXóõ) di Botswana disebut memiliki 58 hingga 87 konsonan dan 20 hingga 31 vokal, tergantung analisisnya.</li>
   <li>Nomina diinfleksikan untuk sekitar <strong>96 kasus</strong> dalam beberapa hitungan (vs Hungaria 18 atau Finlandia 15).</li>
   <li>Setiap kata mengkodekan secara bersamaan: <em>konfigurasi</em>, <em>afiliasi</em>, <em>perspektif</em>, <em>esensi</em>, <em>ekstensi</em>, <em>konteks</em>, dan beberapa kategori lain yang tidak memiliki padanan nyata dalam bahasa Inggris.</li>
   <li>Verba membawa penandaan wajib untuk <em>validasi</em> — bagaimana penutur mengetahui informasi (pengamatan langsung, inferensi, kabar angin, intuisi, dll.) — dalam sistem yang jauh lebih rumit daripada sistem evidensialitas alami mana pun.</li>
@@ -616,7 +616,7 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="34" data-lng="-118" data-zoom="4">🗺️ Terbang ke California (rumah Quijada)</button>
 </div>
 
-<p>Ithkuil melambung ke ketenaran yang lebih luas pada <strong>Desember 2012</strong>, ketika Joshua Foer menerbitkan fitur di <em>The New Yorker</em> berjudul "Utopian for Beginners". Foer melaporkan bahwa komunitas penggemar Rusia telah mengorganisir simposium, bahwa para mahasiswa membuat tato dalam aksara rancangan, dan bahwa dua linguis Kalmyk bahkan mencoba menjadikan Ithkuil mata kuliah resmi di Republik Kalmykia (proyek terhenti).</p>
+<p>Ithkuil melambung ke ketenaran yang lebih luas pada <strong>Desember 2012</strong>, ketika Joshua Foer menerbitkan fitur di <em>The New Yorker</em> berjudul "Utopian for Beginners". Foer melaporkan bahwa di dunia berbahasa Rusia tumbuh sekelompok pengikut bahasa ini di kalangan penganut "psychonetics", sebuah gerakan pengembangan diri: Quijada diterbangkan ke sebuah konferensi di Elista, ibu kota Republik Kalmykia di Rusia, pada Juli 2010, dan ke konferensi kedua di Kiev pada Mei 2011. Di konferensi Kiev, Oleg Bakhtiyarov — psikolog yang memimpin gerakan itu dan mengelola sebuah lembaga swasta kecil bernama Universitas Pengembangan Efektif, dan sama sekali bukan linguis — mengumumkan bahwa mulai semester berikutnya Ithkuil akan menjadi bagian wajib kurikulum sekolah itu di Kiev dan di tiga kampus cabangnya. Quijada, yang makin resah menghadapi kelompok tersebut, menolak undangan Bakhtiyarov berikutnya.</p>
 
 <p>Quijada sendiri telah mengakui bahwa <strong>ia tidak dapat berbicara Ithkuil dengan fasih</strong>. Menghasilkan satu kalimat dalam waktu nyata memerlukan secara sadar memilih di antara puluhan kategori gramatikal sebelum membuka mulut. Ia telah mengatakan dalam wawancara bahwa bahkan setelah tiga puluh tahun ia kadang membutuhkan beberapa menit untuk menyusun satu kalimat dalam bahasanya sendiri.</p>
 
@@ -640,7 +640,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Sebelum Hangul, orang Korea menulis dalam <em>Hanja</em> (karakter Tionghoa klasik), sistem yang begitu menuntut sehingga literasi praktis terbatas pada kelas aristokrat laki-laki <em>yangban</em>. Sejong menginginkan aksara yang dapat dipelajari oleh yang buta huruf dalam satu pagi.</p>
 
-<p>Apa yang ia dan para sarjananya hasilkan adalah, menurut konsensus linguistik, satu-satunya <strong>alfabet fitur</strong> yang aktif digunakan hari ini — artinya bentuk huruf mencerminkan fitur fonetik dari bunyi yang mereka wakili:</p>
+<p>Apa yang ia dan para sarjananya hasilkan adalah contoh yang paling sering dikutip dari sebuah <strong>alfabet fitur</strong> (kategori yang diusulkan Geoffrey Sampson pada 1985 dan tidak diterima oleh semua sarjana, John DeFrancis salah satu penentangnya) — artinya bentuk huruf mencerminkan fitur fonetik dari bunyi yang mereka wakili:</p>
 
 <ul>
   <li><strong>ㄱ</strong> (g/k) adalah tampilan samping bagian belakang lidah yang naik untuk memblokir udara di langit-langit lunak.</li>
@@ -648,7 +648,7 @@ window.TRIVIA_I18N['id'] = {
   <li><strong>ㅁ</strong> (m) adalah mulut yang tertutup.</li>
   <li><strong>ㅅ</strong> (s) berbentuk seperti gigi — penyempitan ada di gigi.</li>
   <li><strong>ㅇ</strong> (ng / diam) adalah tenggorokan bulat dan terbuka.</li>
-  <li>Versi beraspirasi dan tegang dari setiap konsonan dibentuk dengan menambahkan goresan: ㄱ → ㅋ → ㄲ. Kompleksitas grafis mengikuti kompleksitas fonetik.</li>
+  <li>Versi beraspirasi dari setiap konsonan dibentuk dengan menambahkan satu goresan (ㄱ → ㅋ, ㄷ → ㅌ, ㅂ → ㅍ), sedangkan versi tegang dibentuk dengan menuliskan huruf yang sama dua kali (ㄱ → ㄲ). Bagaimanapun caranya, kompleksitas grafis mengikuti kompleksitas fonetik.</li>
 </ul>
 
 <p>Vokalnya bahkan lebih konseptual. Mereka dibangun dari tiga primitif: garis horizontal ─ (bumi), garis vertikal │ (manusia), dan titik · (langit, kemudian diratakan menjadi goresan pendek). Kombinasi dari ketiga elemen Konfusianisme ini memberikan setiap vokal Korea: ㅏ, ㅓ, ㅗ, ㅜ, dan seterusnya.</p>
@@ -668,7 +668,7 @@ window.TRIVIA_I18N['id'] = {
   },
   'cherokee-sequoyah': {
     title: 'Sequoyah — jenius buta huruf yang menemukan sistem penulisan dari nol',
-    summary: 'Pada 1821 seorang pandai perak Cherokee yang tidak dapat membaca bahasa Inggris mengungkap silabari 85 karakter yang ia bangun sendiri selama 12 tahun. Dalam satu dekade, pengamat sezaman melaporkan bahwa literasi Cherokee menyamai atau melampaui pemukim kulit putih di sekitarnya.',
+    summary: 'Pada 1821 seorang pandai perak Cherokee yang tidak dapat membaca bahasa Inggris mengungkap silabari 86 karakter — 85 di antaranya masih dipakai hingga kini — yang ia bangun sendiri selama 12 tahun. Dalam satu dekade, pengamat sezaman melaporkan bahwa literasi Cherokee menyamai atau melampaui pemukim kulit putih di sekitarnya.',
     body: `
 <p><strong>Sequoyah</strong> (juga ditulis ᏍᏏᏉᏯ <em>Ssiquoya</em>, atau dalam bahasa Inggris George Guess, sekitar 1770–1843) adalah salah satu dari sedikit orang dalam sejarah tercatat yang diketahui telah menemukan sistem penulisan yang sepenuhnya berfungsi dari ketiadaan, sambil secara pribadi buta huruf dalam bahasa apa pun. Kisah ini begitu tidak mungkin sehingga para komentator abad ke-19 terus mencoba menjelaskannya. Itu terjadi tetap saja.</p>
 
@@ -701,11 +701,11 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Apa yang terjadi selanjutnya belum pernah terjadi sebelumnya dalam sejarah literasi. Bangsa Cherokee mengadopsi silabari dengan keputusan resmi pada 1825. Pada 1828 mereka telah mulai menerbitkan <em>Tsalagi Tsulehisanvhi / Cherokee Phoenix</em>, surat kabar Indian Amerika pertama, dicetak dwibahasa dalam Cherokee dan Inggris pada jenis silabari yang dibuat khusus. Dalam kira-kira sepuluh tahun setelah demonstrasi Sequoyah 1821, para pengamat kontemporer — termasuk misionaris Amerika — memperkirakan bahwa <strong>literasi Cherokee dalam aksara mereka sendiri melampaui tingkat literasi pemukim kulit putih sekitarnya dalam bahasa Inggris</strong>.</p>
 
-<blockquote>"Dalam beberapa bulan ia telah menyelesaikan sistemnya... dan seluruh bangsa tersengat dengan penemuan itu." — Samuel Lorenzo Knapp, <em>Lectures on American Literature</em>, 1829</blockquote>
+<blockquote>"Suku-suku itu mengawasi para pemuda tersebut dengan cemas selama beberapa bulan; dan ketika mereka maju untuk diuji, perasaan semua orang memuncak sampai ke titik tertinggi." — Samuel Lorenzo Knapp, <em>Lectures on American Literature</em>, 1829</blockquote>
 
-<p>Kemenangan diikuti oleh tragedi. Pada 1838–1839, meskipun Bangsa Cherokee adalah negara modern terpelajar, konstitusional, penerbit surat kabar, administrasi Presiden Andrew Jackson memaksa pemindahan mereka ke barat di <strong>Jalan Air Mata</strong>; sekitar 4.000 dari 16.000 Cherokee meninggal. Silabari ikut bersama mereka. Sequoyah sendiri meninggal pada 1843 di Meksiko, mencari kelompok Cherokee terpisah yang dikabarkan.</p>
+<p>Kemenangan diikuti oleh tragedi. Pada 1838–1839, meskipun Bangsa Cherokee adalah negara modern terpelajar, konstitusional, penerbit surat kabar, pemerintahan Presiden Martin Van Buren — yang menjalankan perjanjian pemindahan yang telah diperoleh Andrew Jackson — memaksa pemindahan mereka ke barat di <strong>Jalan Air Mata</strong>; sekitar 4.000 dari 16.000 Cherokee meninggal. Silabari ikut bersama mereka. Sequoyah sendiri meninggal pada 1843 di Meksiko, mencari kelompok Cherokee terpisah yang dikabarkan.</p>
 
-<p>Hari ini silabari Cherokee diajarkan di sekolah imersi di Tahlequah, Oklahoma dan Cherokee, North Carolina. Ia ada di Unicode (U+13A0–U+13FF), didukung oleh sistem operasi Apple dan Google, dan telah digunakan untuk menulis segala sesuatu mulai dari terjemahan Alkitab hingga unggahan media sosial modern. Pohon kayu merah raksasa California <em>Sequoia sempervirens</em> dinamai menurut namanya. Pria itu tidak bisa membaca. Ia memberi sebuah bangsa sebuah aksara.</p>
+<p>Hari ini silabari Cherokee diajarkan di sekolah imersi di Tahlequah, Oklahoma dan Cherokee, North Carolina. Ia ada di Unicode (U+13A0–U+13FF), didukung oleh sistem operasi Apple dan Google, dan telah digunakan untuk menulis segala sesuatu mulai dari terjemahan Alkitab hingga unggahan media sosial modern. Pohon kayu merah pesisir California <em>Sequoia sempervirens</em> secara tradisional dikatakan dinamai menurut namanya, meski bagaimana Endlicher sampai pada nama itu pada 1847 masih diperdebatkan. Pria itu tidak bisa membaca. Ia memberi sebuah bangsa sebuah aksara.</p>
     `
   },
   'vai-dream-script': {
@@ -725,7 +725,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Bukele tidak menemukan aksara sepenuhnya sendirian; ia mengumpulkan sekelompok kecil rekan-rekan Vai — Wonu Wulen, Maule, dan lainnya — dan silabari diselesaikan secara kolektif. Versi pertama memiliki kira-kira <strong>200 karakter</strong>, satu per suku kata Vai ditambah segelintir logograf. Set modern terstandardisasi, dikodifikasikan pada pertengahan abad ke-20, memiliki <strong>212 karakter</strong>.</p>
 
-<p>Vai adalah bahasa Mande, seperti Mandinka dan Bambara, dengan struktur suku kata (C)V(N) yang jelas dan tujuh vokal dengan nada. Silabari cocok dengan struktur ini secara persis: setiap karakter mewakili satu unit konsonan + vokal + nada. Beberapa karakter bersifat piktografis dalam asal-usulnya (simbol untuk <em>fa</em>, "ayah", awalnya didasarkan pada janggut), tetapi sebagian besar adalah bentuk geometris yang sewenang-wenang.</p>
+<p>Vai adalah bahasa Mande, seperti Mandinka dan Bambara, dengan struktur suku kata (C)V(N) yang jelas dan tujuh vokal yang juga membawa nada pembeda makna. Silabari mengikuti struktur ini cukup rapat: setiap karakter mewakili satu unit konsonan + vokal, sedangkan nasal di akhir suku kata ditambahkan sebagai tanda tersendiri (ꘋ). Yang tidak ditulisnya adalah nada — Vai memiliki empat nada, tetapi tak satu pun muncul di atas kertas, dan pembaca menyimpulkannya dari konteks. Beberapa karakter bersifat piktografis dalam asal-usulnya (simbol untuk <em>fa</em>, "ayah", awalnya didasarkan pada janggut), tetapi sebagian besar adalah bentuk geometris yang sewenang-wenang.</p>
 
 <ul>
   <li>Dalam satu dekade peluncurannya pada 1834, aksara Vai digunakan untuk surat pribadi, catatan komersial, catatan pengadilan, dan glosa Quranik.</li>
@@ -734,7 +734,7 @@ window.TRIVIA_I18N['id'] = {
 </ul>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="vai">💧 "Air" — <em>ꕕ (ja)</em></button>
+  <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="vai">💧 "Air" — <em>ꕀ (ji)</em></button>
   <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="vai">👋 Lihat Vai "Halo"</button>
 </div>
 
@@ -747,7 +747,7 @@ window.TRIVIA_I18N['id'] = {
   },
   'tangut-deciphered': {
     title: 'Tangut — aksara yang hilang dari kerajaan yang terlupakan',
-    summary: 'Sebuah bahasa Sino-Tibet ditulis dalam sekitar 6.000 logograf buatan tangan, ditemukan dengan keputusan kekaisaran pada 1036 dan dilupakan selama 700 tahun — sampai seorang linguis Rusia menariknya kembali dari kematian.',
+    summary: 'Sebuah bahasa Sino-Tibet ditulis dalam sekitar 6.000 logograf buatan tangan, ditemukan dengan keputusan kekaisaran pada 1036 dan dilupakan selama 400 tahun — sampai seorang linguis Rusia menariknya kembali dari kematian.',
     body: `
 <p>Pada 1036 M, kaisar <strong>Li Yuanhao</strong> dari dinasti <strong>Xia Barat</strong> (Xixia / 西夏) memerintahkan bahwa rakyatnya, Tangut, harus memiliki sistem tulisan yang layak untuk mereka sendiri. Sarjananya Yeli Renrong dikatakan telah menemukan seluruh aksara dalam hitungan tahun — kira-kira <strong>6.000 logograf</strong>, setiap satu desain baru, sengaja menyerupai tetapi tidak meminjam dari Tionghoa. Hasilnya adalah <strong>Tangut (西夏文)</strong>: salah satu sistem penulisan paling padat secara visual yang pernah dibuat.</p>
 
@@ -756,14 +756,14 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="38.5" data-lng="106" data-zoom="5">🗺️ Terbang ke jantung Xixia</button>
 </div>
 
-<p>Kekaisaran Xia Barat, berpusat di tempat yang sekarang adalah Ningxia dan Gansu di barat laut China, bertahan hampir dua abad — cukup lama untuk menghasilkan kanon Buddhis, kamus, kode hukum, sejarah dinasti, dan birokrasi besar, semuanya dalam Tangut. Lalu pada <strong>1227</strong> bangsa Mongol di bawah Genghis Khan meratakannya. Tangut bertahan sedikit lebih lama sebagai bahasa liturgis dan ilmiah, tetapi pada dinasti Ming tidak ada yang bisa membacanya. Aksara itu menghilang dari penggunaan aktif.</p>
+<p>Kekaisaran Xia Barat, berpusat di tempat yang sekarang adalah Ningxia dan Gansu di barat laut China, bertahan hampir dua abad — cukup lama untuk menghasilkan kanon Buddhis, kamus, kode hukum, sejarah dinasti, dan birokrasi besar, semuanya dalam Tangut. Lalu pada <strong>1227</strong> bangsa Mongol di bawah Genghis Khan meratakannya. Tangut hidup berabad-abad lebih lama daripada kekaisarannya. Komunitas yang tersebar ke timur terus menuliskannya sebagai bahasa liturgis dan ilmiah, dan teks Tangut terakhir yang dapat ditanggali adalah dua pilar dharani Buddhis yang didirikan di Baoding, Hebei — sekitar 800 km di timur ibu kota lama Xixia — pada <strong>1502</strong>, pertengahan dinasti Ming. Setelah itu aksara tersebut menghilang dari penggunaan aktif.</p>
 
-<p>Apa yang akhirnya ditemukan kembali para linguis adalah bahasa <strong>Sino-Tibet</strong> — kemungkinan besar pada cabang <strong>Qiangik</strong> — dengan kontras nada yang kaya, gugus konsonan awal kompleks yang direkonstruksi dari tabel rima, dan kesukaan untuk logograf majemuk di mana radikal <em>dipinjam satu sama lain</em> daripada dari leluhur Tionghoa mana pun. Karakter Tangut khas memiliki 15–20 goresan; beberapa memiliki lebih dari 30.</p>
+<p>Apa yang akhirnya ditemukan kembali para linguis adalah bahasa <strong>Sino-Tibet</strong> — kemungkinan besar pada cabang <strong>Qiangik</strong> — dengan kontras nada dua arah saja (nada datar 平聲 dan nada naik 上聲), gugus konsonan awal kompleks yang direkonstruksi dari tabel rima, dan kesukaan untuk logograf majemuk di mana radikal <em>dipinjam satu sama lain</em> daripada dari leluhur Tionghoa mana pun. Karakter Tangut khas memiliki 15–20 goresan; beberapa memiliki lebih dari 30.</p>
 
 <ul>
   <li><strong>Diciptakan, bukan dievolusi.</strong> Tidak seperti Tionghoa, yang karakternya tumbuh organik selama ribuan tahun, setiap logograf Tangut dirancang sekaligus, dalam satu lokakarya kekaisaran tunggal. Ini adalah salah satu dari sangat sedikit aksara "rancangan" skala besar dalam sejarah manusia.</li>
   <li><strong>Fonologi melalui tabel.</strong> Karena tidak ada penutur asli yang bertahan, semua rekonstruksi bunyi Tangut bergantung pada kamus rima dwibahasa — terutama <em>Wénhǎi</em> (文海) dan <em>Tóngyīn</em> (同音), yang mengelompokkan karakter berdasarkan awalan, rima, dan nada.</li>
-  <li><strong>Perpustakaan Buddhis bawah tanah.</strong> Pada 1908 penjelajah Rusia <strong>Pyotr Kozlov</strong> menggali kota yang hancur Khara-Khoto dan mengirim ribuan manuskrip Tangut ke St Petersburg — masih koleksi terbesar di dunia.</li>
+  <li><strong>Perpustakaan Buddhis bawah tanah.</strong> Pada 1908 penjelajah Rusia <strong>Pyotr Kozlov</strong> mencapai kota yang hancur Khara-Khoto dan mulai menggali; saat kembali pada Juni 1909 ia membuka sebuah stupa di luar temboknya dan mengirim ribuan buku dan manuskrip Tangut ke St Petersburg — masih koleksi terbesar di dunia.</li>
 </ul>
 
 <div class="trivia-actions">
@@ -771,13 +771,13 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="txg">💧 Lihat Tangut "Air"</button>
 </div>
 
-<p>Pendekodenya adalah <strong>Nikolai Nevsky</strong> (1892–1937), seorang Japanologis Rusia yang menghabiskan 1920-an di Jepang dan Taiwan dan mengalihkan perhatiannya ke timbunan Khara-Khoto saat kembali ke Leningrad. Pada 1929 Nevsky telah memecahkan struktur fonologis dasar dan membangun kamus Tangut–Rusia pertama yang berfungsi. Karya agungnya, <em>Tangutskaya Filologiya</em>, diterbitkan secara anumerta pada 1960 — Nevsky sendiri telah ditembak dalam Pembersihan Besar Stalin pada 1937. Ia dianugerahi Penghargaan Lenin setelah kematiannya.</p>
+<p>Orang yang paling berjasa memecahkannya adalah <strong>Nikolai Nevsky</strong> (1892–1937), seorang Japanologis Rusia yang menghabiskan 1920-an di Jepang dan Taiwan. Ia mulai menggarap timbunan Khara-Khoto pada 1925, ketika masih tinggal di Jepang, dan setelah kembali ke Leningrad pada 1929 ia menghabiskan satu dekade berikutnya untuk mengurai struktur fonologisnya dan menyusun kamus Tangut–Rusia yang pertama. Karya agungnya, <em>Tangutskaya Filologiya</em>, diterbitkan secara anumerta pada 1960 — Nevsky sendiri telah ditembak dalam Pembersihan Besar Stalin pada 1937. Ia dianugerahi Penghargaan Lenin setelah kematiannya.</p>
 
 <blockquote>"Setiap karakter Tangut adalah masalah arsitektur kecil: goresan tidak hanya mengeja bunyi, mereka mengubin persegi." — parafrase dari M. V. Sofronov</blockquote>
 
 <p>Kemudian <strong>Mikhail Sofronov</strong> menyempurnakan rekonstruksi fonologis pada 1960-an; <strong>Ksenia Kepping</strong> mengerjakan tata bahasa dan teks ritual; hari ini peneliti di Beijing, Kyoto, Taipei, dan St Petersburg terus menerbitkan edisi manuskrip yang baru dikatalogkan. Pertanyaan signifikan tetap ada — sistem nada yang tepat, posisi genetis lebih dalam dalam Sino-Tibet, makna lusinan karakter langka yang terjadi hanya sekali atau dua kali dalam korpus.</p>
 
-<p>Tangut adalah pengingat bahwa "bahasa mati" jarang merupakan vonis akhir. Aksara yang ditemukan dalam satu dekade, digunakan oleh jutaan, dilupakan selama tujuh abad, masih dapat dibujuk kembali ke tuturan — asalkan seseorang cukup keras kepala untuk menghabiskan seumur hidup pada tabel rima.</p>
+<p>Tangut adalah pengingat bahwa "bahasa mati" jarang merupakan vonis akhir. Aksara yang ditemukan dalam satu dekade, digunakan oleh jutaan, dilupakan selama empat abad, masih dapat dibujuk kembali ke tuturan — asalkan seseorang cukup keras kepala untuk menghabiskan seumur hidup pada tabel rima.</p>
     `
   },
   'linear-a-undeciphered': {
@@ -797,7 +797,7 @@ window.TRIVIA_I18N['id'] = {
 <ul>
   <li><strong>Masalah membaca hampir terpecahkan.</strong> Kira-kira 70–80% tanda Linear A memiliki padanan Linear B yang disepakati. Kita dapat mentransliterasikan sebagian besar tablet.</li>
   <li><strong>Masalah terjemahan pada dasarnya tak tersentuh.</strong> Kita dapat membaca <em>ku-ro</em> (yang mungkin berarti "total", karena muncul di bagian bawah daftar numerik), <em>ja-sa-sa-ra</em> (formula libasi berulang, mungkin nama ilahi), dan segelintir nama tempat yang bertahan hingga Yunani kemudian. Selain itu, hampir tidak ada.</li>
-  <li><strong>1.400 inskripsi terdengar banyak. Tidak.</strong> Sebagian besar panjangnya satu atau dua kata: nama, angka, komoditas. Korpus kira-kira seukuran novel pendek — dan sebagian besar adalah pembukuan.</li>
+  <li><strong>1.400 inskripsi terdengar banyak. Tidak.</strong> Sebagian besar panjangnya satu atau dua kata: nama, angka, komoditas. Seluruh korpus hanya sekitar 7.400 tanda — beberapa ribu kata, tidak lebih panjang dari sebuah cerita pendek — dan sebagian besar adalah pembukuan.</li>
 </ul>
 
 <div class="trivia-actions">
@@ -879,7 +879,7 @@ window.TRIVIA_I18N['id'] = {
   <li><strong>Dilaporkan</strong> — penutur diberitahu. <em>díiga apé-yigi</em> "ia bermain sepak bola (begitu kata mereka)".</li>
 </ul>
 
-<p>Sistem ini lebih dari konvensi kesopanan. Itu adalah kendala gramatikal yang keras, dipelajari sejak dini oleh anak-anak, dan dihormati bahkan dalam percakapan santai. Seorang penutur Tuyuca yang menceritakan pertengkaran diwajibkan untuk menandai — setiap klausa — apakah mereka menyaksikannya, mendengarnya secara tidak sengaja, atau melaporkannya. Untuk menghilangkan penanda adalah menghasilkan kalimat yang tidak terbentuk dengan baik, seperti mengatakan <em>"yesterday he go store"</em> dalam bahasa Inggris.</p>
+<p>Sistem ini lebih dari konvensi kesopanan. Itu adalah kendala gramatikal yang keras, dipelajari sejak dini oleh anak-anak, dan dihormati bahkan dalam percakapan santai. Seorang penutur Tuyuca yang menceritakan pertengkaran diwajibkan untuk menandai — setiap klausa — apakah mereka menyaksikannya, mendengarnya secara tidak sengaja, atau diberitahu oleh orang lain. Untuk menghilangkan penanda adalah menghasilkan kalimat yang tidak terbentuk dengan baik, seperti mengatakan <em>"yesterday he go store"</em> dalam bahasa Inggris.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="setword" data-word="eye" data-code="tue">👁️ Lihat Tuyuca "Mata"</button>
@@ -914,7 +914,7 @@ window.TRIVIA_I18N['id'] = {
 <p>Sistem ini memiliki empat istilah inti — meskipun seperti yang ditunjukkan kerja lapangan cermat Stephen Levinson pada 1980-an dan 1990-an, mereka tidak persis "utara/selatan/timur/barat" dalam pengertian Inggris:</p>
 
 <ul>
-  <li><strong><em>gungga</em></strong> ≈ <strong>utara</strong> (dengan sumbu diputar sekitar 10–15° timur dari utara sejati)</li>
+  <li><strong><em>gungga</em></strong> ≈ <strong>utara</strong> (seluruh sistem empat istilah ini condong sedikit searah jarum jam dari utara sejati)</li>
   <li><strong><em>jiba</em></strong> ≈ <strong>selatan</strong></li>
   <li><strong><em>naga</em></strong> ≈ <strong>timur</strong> (menuju matahari terbit)</li>
   <li><strong><em>guwa</em></strong> ≈ <strong>barat</strong> (menuju matahari terbenam)</li>
@@ -928,7 +928,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Konsekuensi kognitif, didokumentasikan oleh Levinson, John Haviland, dan rekan-rekan di Institut Max Planck, mencolok. Penutur Guugu Yimithirr mempertahankan rasa orientasi yang tak terputus melalui <strong>dead-reckoning (navigasi perkiraan)</strong>. Dalam eksperimen, mereka dapat menunjuk dengan akurat ke tempat-tempat jauh (laut, pemukiman tetangga, rumah kerabat ratusan kilometer jauhnya) terlepas dari apakah mereka duduk di ruangan tanpa jendela, ditutup matanya, setelah dikendarai berputar-putar, atau di dasar gua. Kompas mata angin mental mereka sekadar tidak mati.</p>
 
-<p>Ini bukan keterampilan khusus beberapa sesepuh. Ini adalah <strong>properti universal penutur fasih</strong>, dipelajari pada masa kanak-kanak awal. Anak berusia tiga tahun memberi isyarat dalam arah mata angin. Mesin mental dibangun oleh bahasa dan terus-menerus dilatih oleh tuntutan untuk membicarakannya.</p>
+<p>Ini bukan keterampilan khusus beberapa sesepuh. Di kalangan penutur tua yang paling fasih, ini adalah <strong>ciri seluruh komunitas tutur</strong>, yang terserap sejak masa kanak-kanak. Anak-anak menguasai sistem ini secara bertahap, bukan sekaligus: kerja lapangan Lourdes de León dengan penutur cilik di Hopevale, sebagaimana dilaporkan Haviland, menelusuri jalur dari mendengar kata seperti <em>naga</em> sebagai "di sana" yang samar, lalu mengaitkannya dengan tempat tertentu seperti pantai, kemudian dengan suatu kawasan, dan baru pada akhirnya sebagai pertentangan arah mata angin yang abstrak. Mesin mental dibangun oleh bahasa dan terus-menerus dilatih oleh tuntutan untuk membicarakannya.</p>
 
 <blockquote>"Anda tidak dapat berbicara Guugu Yimithirr tanpa selalu mengetahui di mana utara." — parafrase Stephen Levinson, 1997</blockquote>
 
@@ -961,8 +961,8 @@ window.TRIVIA_I18N['id'] = {
 <ul>
   <li><em>wa-</em> — awalan faktual / kala lampau</li>
   <li><em>shako-</em> — subjek tunggal maskulin yang berperan pada objek tunggal feminin ("ia ... dia")</li>
-  <li><em>-ya't-</em> — referensi tubuh / diri</li>
-  <li><em>-awitshera-</em> — akar nomina yang tergabungkan: "gaun, pakaian"</li>
+  <li><em>-ya't-</em> — "tubuh" — paruh pertama nomina yang tergabungkan di bawah, bukan unsur tersendiri</li>
+  <li><em>-awitshera-</em> — <em>-awi-</em> "mengenakan" ditambah pembentuk nomina <em>-tsher-</em>; bersama <em>-ya't-</em> "tubuh" yang mendahuluinya, ini adalah nomina yang tergabungkan <em>-ya'tawitshera-</em> "gaun, pakaian", harfiah "sesuatu yang dikenakan pada tubuh" (bandingkan Kanien'kéha <em>atià:tawi</em> "kemeja, jaket, gaun")</li>
   <li><em>-hetkv-</em> — akar verba: "buruk, merusak"</li>
   <li><em>-ht-</em> — kausatif ("membuat X")</li>
   <li><em>-a's-</em> — benefaktif ("untuknya")</li>
@@ -976,13 +976,13 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="father" data-code="moh">👨 Lihat Mohawk "Ayah"</button>
 </div>
 
-<p>Verba Mohawk juga wajib menandai <strong>awalan pronominal</strong> kompleks yang menggabungkan persona, jumlah, dan gender subjek dan objek menjadi satu morfem portmanteau. Ada lebih dari <strong>60</strong> awalan seperti itu dalam paradigma, membedakan misalnya "Saya → Anda (tunggal)" dari "Saya → Anda (jamak)" dari "Anda (tunggal) → Saya" — masing-masing satu suku kata. Mempelajari tabel awalan secara luas dianggap sebagai pendakian tercuram dalam bahasa.</p>
+<p>Verba Mohawk juga wajib menandai <strong>awalan pronominal</strong> kompleks yang menggabungkan persona, jumlah, dan gender subjek dan objek menjadi satu morfem portmanteau. Ada <strong>58</strong> awalan seperti itu dalam paradigma, membedakan misalnya "Saya → Anda (tunggal)" dari "Saya → Anda (jamak)" dari "Anda (tunggal) → Saya" — masing-masing satu suku kata. Mempelajari tabel awalan secara luas dianggap sebagai pendakian tercuram dalam bahasa.</p>
 
 <p>Polisintesis mengangkat pertanyaan dalam tipologi linguistik. Apakah "kata" Mohawk adalah jenis unit yang sama dengan "kata" bahasa Inggris? Mark Baker, dalam <em>The Polysynthesis Parameter</em> (1996) yang berpengaruh, berargumen bahwa bahasa polisintetis mematuhi kendala sintaksis mereka sendiri — misalnya, tidak ada argumen pronomina independen yang diperlukan karena verba sudah membawanya — dan bahwa mereka mewakili alternatif setelan parametrik untuk bahasa seperti bahasa Inggris. Yang lain, termasuk Mithun, lebih suka mendeskripsikan Mohawk dengan istilahnya sendiri daripada memasukkannya ke parameter universalis.</p>
 
 <blockquote>"Dalam Mohawk, verba adalah teater kecil. Para aktor masuk sebelum tirai naik dan jarang meninggalkan panggung." — parafrase Marianne Mithun, 1999</blockquote>
 
-<p>Gerakan kebangkitan penting di sini. Sekolah imersi Kanien'kéha — Kahnawà:ke Survival School dan Akwesasne Freedom School adalah yang paling dikenal — telah menghasilkan generasi baru penutur yang menangani tabel pronominal 60-sel itu dengan kefasihan asli. Mohawk menunjukkan bahwa polisintesis bukan fosil masa lalu; ia adalah strategi gramatikal yang hidup, sama ekspresifnya dengan bahasa analitis mana pun, dan sekarang dibangun ulang secara sadar oleh komunitas yang bertekad bahwa <em>Kanien'kéha</em> akan berlanjut.</p>
+<p>Gerakan kebangkitan penting di sini. Sekolah imersi Kanien'kéha — Kahnawà:ke Survival School dan Akwesasne Freedom School adalah yang paling dikenal — telah menghasilkan generasi baru penutur yang menangani tabel pronominal 58-sel itu dengan kefasihan asli. Mohawk menunjukkan bahwa polisintesis bukan fosil masa lalu; ia adalah strategi gramatikal yang hidup, sama ekspresifnya dengan bahasa analitis mana pun, dan sekarang dibangun ulang secara sadar oleh komunitas yang bertekad bahwa <em>Kanien'kéha</em> akan berlanjut.</p>
 
 <p>Bahasa polisintetis klasik lainnya — Inuktitut, Yupik Siberia Tengah, Chukchi, Ainu, Sora — mengkonfirmasi bahwa pola ini berulang lintas benua. Tetapi untuk kepadatan informasi gramatikal per kata yang murni, bahasa Iroquoian, dan Mohawk khususnya, masih merupakan prototipe yang pertama dijangkau oleh buku teks.</p>
     `
@@ -1002,12 +1002,12 @@ window.TRIVIA_I18N['id'] = {
 
 <blockquote><em>xłp̓x̣ʷłtłpłłskʷc̓</em><br>"kemudian ia telah memiliki dalam kepemilikannya tanaman bunchberry"</blockquote>
 
-<p>Baca itu lagi. Tidak ada satu <em>a</em>, <em>e</em>, <em>i</em>, <em>o</em>, atau <em>u</em> — bahkan tidak ada schwa. Namun penutur Nuxalk mengucapkannya sebagai kata yang fasih dan tak terputus. Klasik lainnya termasuk <em>clhp̓xʷłtłpłłs</em> ("ia telah memiliki tanaman bunchberry"), <em>tłk̓ʷixʷ</em> ("kamu meludahi saya"), dan bahkan kalimat satu kata seperti <em>sps</em> ("angin timur laut").</p>
+<p>Baca itu lagi. Tidak ada satu <em>a</em>, <em>e</em>, <em>i</em>, <em>o</em>, atau <em>u</em> — bahkan tidak ada schwa. Namun penutur Nuxalk mengucapkannya sebagai kata yang fasih dan tak terputus. Klasik lainnya termasuk <em>p̓x̣ʷłt</em> ("tanaman bunchberry"), <em>cktskʷc</em> ("ia telah tiba"), <em>łxʷtłcxʷ</em> ("kamu meludahi saya"), dan bahkan kalimat satu kata seperti <em>sps</em> ("angin timur laut").</p>
 
 <p>Bagaimana ini mungkin? Dalam sebagian besar bahasa, setiap suku kata dibangun di sekitar <strong>vokal</strong> — inti terbuka, sonor yang membawa napas. Nuxalk tampaknya mematahkan aturan ini. Dua analisis utama telah diusulkan:</p>
 
 <ul>
-  <li><strong>Obstruen sebagai inti suku kata.</strong> Nater, dan kemudian <strong>Eung-Do Cook</strong> dan <strong>Bruce Bagemihl</strong>, berargumen bahwa bahkan konsonan non-sonor — henti dan frikatif — dapat berfungsi sebagai jantung suku kata dalam Nuxalk. <em>s</em> dalam <em>sps</em> sekadar <em>adalah</em> suku kata.</li>
+  <li><strong>Obstruen sebagai inti suku kata.</strong> Nater, dan sebelumnya <strong>James E. Hoard</strong>, berargumen bahwa bahkan konsonan non-sonor — henti dan frikatif — dapat berfungsi sebagai jantung suku kata dalam Nuxalk. <em>s</em> dalam <em>sps</em> sekadar <em>adalah</em> suku kata.</li>
   <li><strong>Tidak ada suku kata sama sekali.</strong> Disertasi 1991 Bagemihl yang berpengaruh melangkah lebih jauh dan mengusulkan bahwa kata-kata Nuxalk diorganisasikan bukan ke dalam suku kata tetapi langsung ke dalam <strong>slot waktu moraik</strong>, membuat gagasan "inti suku kata" tidak relevan.</li>
 </ul>
 
@@ -1016,11 +1016,11 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="blc">☀️ Lihat Nuxalk "matahari" (snx)</button>
 </div>
 
-<p>Penutur asli sendiri tidak merasakan "vokal yang hilang". Mereka tidak merasa mereka memasukkan schwa terselubung untuk membuat kata dapat diucapkan — rekaman dan studi elektropalatografis mengkonfirmasi bahwa konsonan berjalan bersama tanpa transisi vokal yang dapat diukur di antara mereka. Kata <em>xłp̓x̣ʷłtłpłłskʷc̓</em> membutuhkan sekitar satu detik untuk diucapkan dan, bagi penutur, hanyalah sebuah kata.</p>
+<p>Penutur asli sendiri tidak merasakan "vokal yang hilang". Mereka tidak merasa mereka memasukkan schwa terselubung untuk membuat kata dapat diucapkan — dari deskripsi fonologi Newman tahun 1947 hingga kerja lapangan dan rekaman Nater, seluruh catatan deskriptif tidak menemukan vokal epentetik di antara mereka. Kata <em>xłp̓x̣ʷłtłpłłskʷc̓</em> membutuhkan sekitar satu detik untuk diucapkan dan, bagi penutur, hanyalah sebuah kata.</p>
 
 <p>Implikasinya melampaui Nuxalk. Jika sebuah bahasa dapat membangun kata-kata dari rangkaian obstruen murni, maka klaim universal bahwa <em>setiap suku kata membutuhkan vokal</em> tidak dapat bertahan dalam bentuk terkuatnya. Para ahli fonologi sekarang membedakan lebih hati-hati antara <strong>sonoritas</strong> (properti akustik) dan <strong>ke-inti-an</strong> (peran struktural) — dan Nuxalk adalah contoh yang diajarkan setiap orang.</p>
 
-<p>Hari ini kurang dari 20 penutur fasih bahasa pertama Nuxalk tersisa, hampir semua sesepuh di Bella Coola. Bangsa Nuxalk menjalankan program imersi dan inisiatif rumah bahasa; rekaman yang dibuat oleh Nater pada 1970-an, dan karya lebih baru oleh <strong>Suzanne Gessner</strong> dan First Peoples' Cultural Council, berpacu untuk mendokumentasikan fonologi yang tidak seperti yang lain.</p>
+<p>Hari ini kurang dari 20 penutur fasih bahasa pertama Nuxalk tersisa, hampir semua sesepuh di Bella Coola. Bangsa Nuxalk menjalankan program imersi dan inisiatif rumah bahasa; rekaman yang dibuat oleh Nater pada 1970-an, dan dokumentasi lebih baru yang didukung First Peoples' Cultural Council, berpacu untuk mendokumentasikan fonologi yang tidak seperti yang lain.</p>
     `
   },
   'hawaiian-13-phonemes': {
@@ -1035,7 +1035,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Dengan begitu sedikit blok bangunan, kata-kata pasti panjang dan kaya vokal. Hasilnya adalah salah satu bahasa paling musikal di Bumi: <em>humuhumunukunukuapuaʻa</em> (ikan triggerfish karang, ikan negara bagian Hawaiʻi), <em>pāhoehoe</em> dan <em>ʻaʻā</em> (lava halus dan bergerigi — kedua istilah dipinjam langsung ke geologi di seluruh dunia), dan sehari-hari <em>aloha</em>, yang secara bersamaan berarti halo, selamat tinggal, cinta, dan belas kasih.</p>
 
-<p>Hawaii diturunkan dari <strong>Proto-Polinesia</strong>, dibawa oleh pelayar dari Marquesas dan Kepulauan Society sekitar 1.000–1.500 tahun yang lalu. Kerabat hidup terdekat adalah Marquesan, Tahiti, dan Māori — dan korespondensi historisnya begitu reguler sehingga penutur Māori sering dapat menebak kognat Hawaii dengan sekilas (Māori <em>tangata</em> ↔ Hawaii <em>kanaka</em>, "orang"; Māori <em>whetū</em> ↔ Hawaii <em>hōkū</em>, "bintang").</p>
+<p>Hawaii diturunkan dari <strong>Proto-Polinesia</strong>, dibawa oleh pelayar dari Marquesas dan Kepulauan Society. Penanggalan radiokarbon presisi tinggi telah mendorong waktu kedatangan itu jauh lebih belakangan daripada dugaan buku teks lama — perkiraan saat ini berkisar antara sekitar <strong>1000 dan 1300 M</strong>, jadi baru sekitar seribu tahun yang lalu. Kerabat hidup terdekat adalah Marquesan, Tahiti, dan Māori — dan korespondensi historisnya begitu reguler sehingga penutur Māori sering dapat menebak kognat Hawaii dengan sekilas (Māori <em>tangata</em> ↔ Hawaii <em>kanaka</em>, "orang"; Māori <em>whetū</em> ↔ Hawaii <em>hōkū</em>, "bintang").</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="haw">☀️ Lihat Hawaii "matahari"</button>
@@ -1050,7 +1050,7 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 Terbang ke Hilo, jantung kebangkitan</button>
 </div>
 
-<p>Sensus AS 2016 memperkirakan <strong>~18.000 penutur bahasa Hawaii</strong>; survei negara bagian sendiri menempatkan angka mendekati 24.000 dan meningkat. Untuk pertama kalinya dalam lebih dari satu abad, bahasa kembali memiliki anak-anak sebagai penutur asli. Inventaris fonem masih 13. Masa depan, bagaimanapun, telah berkembang tak terukur.</p>
+<p>Sebuah laporan Negara Bagian Hawaiʻi tahun 2016 mencatat <strong>~18.400 orang</strong> yang berbicara bahasa Hawaii di rumah; pada 2024 Office of Hawaiian Affairs menempatkan angka itu pada <strong>27.338</strong> — naik hampir 50% dalam kurang dari satu dekade, dengan sekitar 33.000 penutur bahasa Hawaii di rumah secara nasional. Untuk pertama kalinya dalam lebih dari satu abad, bahasa kembali memiliki anak-anak sebagai penutur asli. Inventaris fonem masih 13. Masa depan, bagaimanapun, telah berkembang tak terukur.</p>
     `
   },
   'nicaraguan-sign-language': {
@@ -1072,16 +1072,16 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Linguis Amerika <strong>Judy Kegl</strong> diundang untuk mempelajari situasi pada 1986. Ia segera menyadari apa yang ia lihat belum pernah terjadi sebelumnya. Bersama dengan <strong>Ann Senghas</strong>, <strong>Marie Coppola</strong>, dan lainnya, ia telah mendokumentasikan bahasa lintas kohort sejak itu. Temuan tonggak mereka:</p>
 
-<blockquote>"Anak-anak yang tiba lebih muda dan dalam jumlah lebih besar mengisyaratkan dengan cara yang secara sistematis lebih kompleks dan lebih gramatikal daripada isyarat kohort generasi pertama yang lebih tua yang menyediakan masukan mereka." — Senghas, Kita & Özyürek, <em>Science</em> 2004</blockquote>
+<blockquote>"Penelitian ini menunjukkan bahwa anak-anak yang mula-mula menciptakan bahasa itu mulai menguraikan peristiwa yang kompleks menjadi unsur-unsur dasar, dan merangkai unsur-unsur itu menjadi ungkapan berstruktur hierarkis, mengikuti prinsip-prinsip yang tidak teramati pada gestur yang menyertai tuturan dalam bahasa di sekitar mereka. Kohort-kohort pembelajar berikutnya memperluas prosedur ini, mengubah pengisyaratan Nikaragua dari bentuk gesturalnya yang awal menjadi sebuah sistem linguistik." — Senghas, Kita & Özyürek, <em>Science</em> 2004</blockquote>
 
 <p>Ini adalah dukungan empiris langsung untuk gagasan bahwa <strong>bahasa adalah keluaran kreatif dari pikiran anak</strong>, bukan sekadar perekaman pasif dari masukan. Anak-anak dalam kohort berturut-turut secara independen menemukan fitur — seperti mendekomposisi peristiwa gerakan menjadi komponen "jalur" dan "cara" — yang tidak diberikan orang dewasa kepada mereka, dan yang tampak luar biasa mirip dengan fitur yang didokumentasikan dalam bahasa isyarat mapan lainnya.</p>
 
-<p>Hari ini ISN mungkin memiliki 3.000 penanda dan komunitas Tuli yang kokoh yang terorganisir melalui <em>Asociación Nacional de Sordos de Nicaragua</em>. Itu adalah salah satu bahasa alami sepenuhnya yang paling baru terbentuk — dan kasus yang proses pembentukannya paling lengkap ditangkap di kamera, di atas kertas, dan dalam catatan lapangan linguistik.</p>
+<p>Hari ini ISN mungkin memiliki 3.000 penanda dan komunitas Tuli yang kokoh yang terorganisir melalui <em>Asociación Nacional de Sordos de Nicaragua</em>. Ia adalah salah satu bahasa termuda di Bumi, dan tidak ada bahasa lain yang tata bahasanya diamati sedekat itu ketika masih terbentuk: tahun-tahun pidgin kohort pertama harus direkonstruksi dari para penanda itu setelah mereka dewasa, tetapi sejak 1986 setiap kohort terekam di kamera, di atas kertas, dan dalam catatan lapangan linguistik.</p>
     `
   },
   'mama-papa-universals': {
     title: 'Mengapa hampir setiap bahasa menyebut ibu "mama"',
-    summary: 'Dari bahasa Inggris mama hingga Mandarin māma, Swahili mama, Quechua mama, dan Navajo amá — bahasa yang tak terkait bertemu pada kata bayi yang sama. Roman Jakobson menjelaskan alasannya pada 1959, dan itu tidak ada hubungannya dengan leluhur bersama.',
+    summary: 'Dari bahasa Inggris mama hingga Mandarin māma, Swahili mama, Quechua mama, dan Navajo amá — bahasa yang tak terkait bertemu pada kata bayi yang sama. Roman Jakobson menjelaskan alasannya pada 1960, dan itu tidak ada hubungannya dengan leluhur bersama.',
     body: `
 <p>Pilih bahasa apa pun secara acak. Tanyakan bagaimana mengatakan "ibu". Peluangnya sangat tinggi bahwa kata itu dimulai dengan <strong>m</strong> dan mengandung <em>a</em>: Inggris <em>mama</em>, Mandarin <em>māma</em>, Swahili <em>mama</em>, Quechua <em>mama</em>, Navajo <em>amá</em>, Welsh <em>mam</em>, Ibrani <em>imá</em>, Tagalog <em>nanay</em> / <em>mama</em>, Hindi <em>mā</em>, Malayalam <em>amma</em>, Hawaii <em>makuahine</em> / <em>māmā</em>. Sekarang tanyakan bagaimana mengatakan "ayah". Di sampel yang sama luasnya Anda mendapatkan <strong>papa, baba, tata, dada, abba, atta</strong> — henti labial atau koronal plus <em>a</em>.</p>
 
@@ -1091,7 +1091,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Ini bukan kebetulan. Antropolog Yale <strong>George P. Murdock</strong> mengumpulkan dataset lintas-budaya 1959 dari 1.072 istilah kekerabatan dari 470 bahasa dan menemukan bahwa kata-kata tipe <em>mama</em> digunakan untuk "ibu" dalam 52% sampel, dan kata-kata tipe <em>papa</em>/<em>tata</em>/<em>baba</em> untuk "ayah" dalam 55%. Bahasa-bahasa tersebut mencakup setiap keluarga di Bumi — Indo-Eropa, Sino-Tibet, Niger-Kongo, Austronesia, Uto-Aztec, Pama-Nyungan. Mereka tidak mungkin semuanya berbagi leluhur bersama.</p>
 
-<p>Penjelasan klasik diberikan pada tahun yang sama oleh linguis Rusia-Amerika <strong>Roman Jakobson</strong>, dalam makalah tipis dan indah berjudul <em>"Why 'Mama' and 'Papa'?"</em>. Argumennya berjalan sebagai berikut:</p>
+<p>Penjelasan klasik diberikan setahun kemudian, pada 1960, oleh linguis Rusia-Amerika <strong>Roman Jakobson</strong>, dalam makalah tipis dan indah berjudul <em>"Why 'Mama' and 'Papa'?"</em>. Argumennya berjalan sebagai berikut:</p>
 
 <ul>
   <li>Bunyi paling awal yang dihasilkan bayi — setelah fase tangisan acak berakhir — adalah <strong>nasal bilabial</strong> [m] dan <strong>henti bilabial</strong> [p, b]. Ini hanya membutuhkan bibir menutup dan membuka; tidak diperlukan kontrol lidah. Vokal default yang muncul dari mulut yang sedikit terbuka adalah <strong>[a]</strong>.</li>
@@ -1122,7 +1122,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Tidak ada yang pernah menulis PIE. Namun para linguis dengan yakin mengutip kata PIE: <em>*ph₂tḗr</em> "ayah", <em>*méh₂tēr</em> "ibu", <em>*wódr̥</em> "air", <em>*ǵneh₃- </em> "untuk mengetahui", <em>*kʷékʷlos</em> "roda". Bagaimana mereka bisa?</p>
 
-<p>Terobosan datang pada 1786, ketika hakim Inggris <strong>Sir William Jones</strong> mengumumkan di hadapan Asiatic Society of Bengal bahwa Sanskerta, Yunani, dan Latin menunjukkan hubungan "begitu kuat, sehingga tidak ada filolog yang dapat memeriksa ketiganya, tanpa percaya mereka berasal dari beberapa sumber bersama, yang, mungkin, tidak ada lagi." Selama abad berikutnya, <strong>Franz Bopp</strong>, <strong>Rasmus Rask</strong>, <strong>Jacob Grimm</strong>, dan <strong>August Schleicher</strong> mengembangkan <strong>metode komparatif</strong>: sejajarkan kata kognat lintas bahasa anak, identifikasi korespondensi bunyi reguler, dan proyeksikan kembali ke induk yang direkonstruksi.</p>
+<p>Terobosan datang pada 1786, ketika hakim Inggris <strong>Sir William Jones</strong> mengumumkan di hadapan Asiatic Society of Bengal bahwa Sanskerta, Yunani, dan Latin menunjukkan hubungan "sungguh begitu kuat, sehingga tidak ada filolog yang dapat memeriksa ketiganya, tanpa percaya mereka berasal dari beberapa sumber bersama, yang, mungkin, tidak ada lagi." Selama abad berikutnya, <strong>Franz Bopp</strong>, <strong>Rasmus Rask</strong>, <strong>Jacob Grimm</strong>, dan <strong>August Schleicher</strong> mengembangkan <strong>metode komparatif</strong>: sejajarkan kata kognat lintas bahasa anak, identifikasi korespondensi bunyi reguler, dan proyeksikan kembali ke induk yang direkonstruksi.</p>
 
 <p>Contoh paling terkenal adalah <strong>Hukum Grimm</strong>, dirumuskan pada 1822, yang mendeskripsikan pergeseran sistematis konsonan henti pada leluhur Jermanik. PIE <em>*p</em> menjadi Jermanik <em>*f</em>: dari sini Latin <em>pater</em> ↔ Inggris <em>father</em>, Latin <em>piscis</em> ↔ Inggris <em>fish</em>, Latin <em>pēs</em> ↔ Inggris <em>foot</em>. PIE <em>*t</em> menjadi <em>*þ</em> (bunyi <em>th</em>): Latin <em>trēs</em> ↔ Inggris <em>three</em>. Korespondensi bebas pengecualian setelah aturan sekunder (Hukum Verner, 1875) ditambahkan.</p>
 

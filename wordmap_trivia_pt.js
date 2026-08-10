@@ -19,7 +19,7 @@ window.TRIVIA_I18N['pt'] = {
 <p>O pesquisador de campo que provocou a tempestade é <strong>Daniel Everett</strong>, um missionário que se tornou linguista e viveu com os Pirahã por anos. Segundo seus relatos, à língua faltam várias coisas que os linguistas do século XX consideravam universais na linguagem humana:</p>
 
 <ul>
-  <li><strong>Sem palavras numéricas exatas.</strong> A comunidade usa apenas <em>hói</em> ("uma pequena quantidade") e <em>hoí</em> ("uma quantidade maior") — um contraste de quantidade, não de contagem. Em experimentos, falantes do Pirahã não conseguem combinar de forma confiável pilhas de 4 e 5 objetos, mesmo quando motivados a fazê-lo.</li>
+  <li><strong>Sem palavras numéricas exatas.</strong> A comunidade usa apenas <em>hói</em> ("uma pequena quantidade") e <em>hoí</em> ("uma quantidade maior") — um contraste de quantidade, não de contagem. Em experimentos, falantes do Pirahã conseguem dispor uma fileira de objetos em correspondência de um para um, até dez, quase sem erros — mas falham assim que a quantidade precisa ser transportada pelo espaço ou pelo tempo: escondida atrás de um anteparo, girada em ângulo reto ou solta uma a uma dentro de uma lata.</li>
   <li><strong>Sem vocabulário básico de cores.</strong> As cores são descritas composicionalmente — "como sangue", "verde", "sujo" — em vez de rótulos fixos como "vermelho" ou "verde".</li>
   <li><strong>Sem recursão gramatical.</strong> As orações não podem ser encaixadas dentro de outras orações. Isso desafia diretamente a afirmação de <strong>Noam Chomsky</strong> de que a recursão é <em>a</em> característica definidora que separa a linguagem humana da comunicação animal. Se Everett estiver certo, o Pirahã quebra a teoria.</li>
   <li><strong>Sem mitos de criação, sem ficção, sem histórias sobre ancestrais que nenhuma pessoa viva conheceu.</strong> Uma forte norma cultural — Everett a chama de princípio da "imediatez da experiência" — restringe a fala ao que o falante ou um interlocutor vivo testemunhou pessoalmente.</li>
@@ -30,9 +30,9 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="mother" data-code="myp">👩 Ver "mãe" em Pirahã</button>
 </div>
 
-<p>Mais estranho ainda, o Pirahã é uma das poucas línguas que podem ser transmitidas por <em>quatro canais paralelos</em>: pode ser <strong>falada, assobiada, cantarolada ou gritada</strong>. Como o Pirahã tem apenas três vogais e oito consoantes, sua prosódia (tom e ritmo) carrega uma carga informacional excepcionalmente pesada — o suficiente para que as mães possam cantarolar frases inteiras para os bebês sem articular uma única consoante.</p>
+<p>Mais estranho ainda, o Pirahã é uma das poucas línguas que podem ser transmitidas por <em>cinco canais paralelos</em>: pode ser <strong>falada, assobiada, cantarolada, cantada ou gritada</strong>. Como o Pirahã tem apenas três vogais e oito consoantes, sua prosódia (tom e ritmo) carrega uma carga informacional excepcionalmente pesada — o suficiente para que as mães possam cantarolar frases inteiras para os bebês sem articular uma única consoante.</p>
 
-<blockquote>"Tons, acentuação e duração silábica são muito mais importantes do que vogais e consoantes para transmitir a mensagem em Pirahã." — Daniel Everett</blockquote>
+<blockquote>"Os Pirahã se comunicam cantando, assobiando e cantarolando quase tanto quanto se comunicam usando consoantes e vogais." — Daniel Everett, <em>Current Anthropology</em> 46(4), 2005, p. 622</blockquote>
 
 <p>As afirmações de Everett são <strong>fortemente contestadas</strong>. Pesquisadores posteriores, incluindo Andrew Nevins, David Pesetsky e Cilene Rodrigues, argumentaram que o Pirahã tem recursão — apenas raramente usada — e que os fatos sobre números podem ser explicados sem consequências cognitivas exóticas. Everett rebateu; o debate ainda está em aberto.</p>
 
@@ -57,7 +57,7 @@ window.TRIVIA_I18N['pt'] = {
   <li>Ritmo, acento e entonação são preservados com mais fidelidade do que a informação segmental — os ouvintes reconstroem os detalhes faltantes pelo contexto, exatamente como ligações telefônicas sobrevivem em linhas de baixa qualidade.</li>
 </ul>
 
-<p>A técnica é anterior ao próprio espanhol. Os habitantes originais das Canárias, os <strong>guanches</strong>, já usavam um registro assobiado de sua própria língua (aparentada ao berbere); quando o espanhol castelhano substituiu o guanche após a conquista do século XV, o assobio foi simplesmente reaplicado ao novo vocabulário. O antropólogo <strong>Ramón Trujillo</strong> documentou essa continuidade em sua monografia de 1978, <em>El silbo gomero: análisis lingüístico</em>, que continua sendo a referência canônica.</p>
+<p>A técnica é anterior ao próprio espanhol. Os habitantes originais das Canárias, os <strong>guanches</strong>, já usavam um registro assobiado de sua própria língua (aparentada ao berbere); quando o espanhol castelhano substituiu o guanche após a conquista do século XV, o assobio foi simplesmente reaplicado ao novo vocabulário. O linguista <strong>Ramón Trujillo</strong>, da Universidad de La Laguna, deu ao assobio sua descrição linguística padrão em sua monografia de 1978, <em>El silbo gomero: análisis lingüístico</em>, que continua sendo a referência canônica.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Comparar espanhol, berbere e cabila</button>
@@ -67,20 +67,20 @@ window.TRIVIA_I18N['pt'] = {
 
 <blockquote>"É a única língua assobiada plenamente desenvolvida e praticada por uma comunidade de tamanho significativo… um exemplo excepcional da criatividade cultural da humanidade." — Texto de inscrição da UNESCO, 2009</blockquote>
 
-<p>Neurocientistas tomaram nota. Um estudo de fMRI de 2005 por <strong>Manuel Carreiras</strong> e colegas da Universidade de La Laguna mostrou que silbadores experientes processam o Silbo usando <em>as mesmas áreas de linguagem do hemisfério esquerdo</em> normalmente reservadas para a fala — não as redes de música e melodia do hemisfério direito que se ativam quando não silbadores ouvem os mesmos assobios. Em outras palavras, o cérebro trata o Silbo como linguagem, não como música ou canto de pássaro. Esse único resultado levou o Silbo de "curiosidade folclórica" a uma genuína sonda de quão flexível é realmente a faculdade humana da linguagem.</p>
+<p>Neurocientistas tomaram nota. Um estudo de fMRI de 2005 por <strong>Manuel Carreiras</strong> e colegas da Universidade de La Laguna mostrou que silbadores experientes processam o Silbo usando <em>as mesmas áreas de linguagem do hemisfério esquerdo</em> normalmente reservadas para a fala — enquanto em ouvintes que nunca haviam aprendido o Silbo esses mesmos assobios deixavam tais áreas de linguagem silenciosas. Em outras palavras, o cérebro trata o Silbo como linguagem, não como música ou canto de pássaro. Esse único resultado levou o Silbo de "curiosidade folclórica" a uma genuína sonda de quão flexível é realmente a faculdade humana da linguagem.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="28.10" data-lng="-17.20" data-zoom="9" data-tiles="terrain">🌋 Aproximar dos barrancos</button>
 </div>
 
-<p>O Silbo não é o único registro assobiado sobrevivente — Kuşköy na Turquia, as práticas de assobio de cortejo Hmong (um uso social do assobio ligado ao namoro, não um registro assobiado plenamente institucionalizado como o Silbo), o espanhol assobiado mazateco de Oaxaca e os tons assobiados Akha de Yunnan coexistem com seus pais falados — mas é o mais institucionalizado, o mais bem documentado e o único formalmente protegido como Patrimônio Cultural Imaterial. Da próxima vez que estiver em um cume de La Gomera e ouvir o que soa como um pássaro muito falante, escute novamente: pode ser alguém dizendo à prima o que comprar na loja.</p>
+<p>O Silbo não é o único registro assobiado sobrevivente — Kuşköy na Turquia, as práticas de assobio de cortejo Hmong (um uso social do assobio ligado ao namoro, não um registro assobiado plenamente institucionalizado como o Silbo), o mazateco assobiado de Oaxaca e os tons assobiados Akha de Yunnan coexistem com seus pais falados — mas é o mais institucionalizado, o mais bem documentado e o único na Lista Representativa da UNESCO (o assobio de Kuşköy, na Turquia, foi inscrito na Lista de Salvaguarda Urgente em 2017). Da próxima vez que estiver em um cume de La Gomera e ouvir o que soa como um pássaro muito falante, escute novamente: pode ser alguém dizendo à prima o que comprar na loja.</p>
     `,
   },
   'taa-most-consonants': {
     title: 'Taa (!Xóõ) — a língua com mais consoantes do que qualquer outra',
-    summary: 'Falada talvez por 2.500 pessoas na fronteira Botsuana–Namíbia, o Taa concentra cerca de 160 consoantes distintas, incluindo cinco tipos plenamente desenvolvidos de cliques, em um único inventário fonêmico — por algumas medidas, o maior sistema sonoro já descrito.',
+    summary: 'Falada talvez por 2.500 pessoas na fronteira Botsuana–Namíbia, o Taa concentra cerca de 160 fonemas distintos — incluindo mais de 120 consoantes e os cinco tipos plenamente desenvolvidos de cliques — em um único inventário — por algumas medidas, o maior sistema sonoro já descrito.',
     body: `
-<p>Se você pegasse cada consoante distinta do inglês — todas as 24 — e as empilhasse sobre todas as consoantes distintas do francês, alemão, russo, árabe e mandarim, ainda assim ficaria aquém do <strong>Taa</strong>, também escrito <em>!Xóõ</em>. Segundo a contagem na monumental gramática de 1985 de Anthony Traill, o Taa tem entre <strong>83 e 164 consoantes fonêmicas</strong>, dependendo de como se contam os cliques de contorno e os acompanhamentos de clique — e qualquer dos números é um recorde mundial.</p>
+<p>O inglês se resolve com 24 consoantes distintas. O <strong>Taa</strong>, também escrito <em>!Xóõ</em>, tem tantas que os linguistas não conseguem sequer concordar sobre como contá-las. O monumental estudo de 1985 de Anthony Traill, dedicado ao dialeto ǃXoon oriental, chega a pelo menos <strong>58 consoantes fonêmicas</strong> na contagem mais cautelosa, e a descrição posterior do ǃXoon ocidental feita pelo projeto DoBeS, a pelo menos <strong>87</strong> — mas esses mínimos vêm de tratar os cliques mais complexos como grupos consonantais. Se em vez disso cada clique complexo for contado como um único segmento, o inventário sobe para cerca de <strong>130</strong> consoantes no material de Traill e <strong>122</strong> no do DoBeS — o número que o WALS cita ao classificar o inventário do Taa como o maior de todas as línguas documentadas. Por qualquer dessas contagens, o recorde é do Taa.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="nmn" data-zoom="5">🌍 Mostrar Taa no mapa</button>
@@ -101,11 +101,11 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="compare" data-codes="nmn,naq,xh,zu">🗣 Comparar línguas de cliques (Taa, Khoekhoe, Xhosa, Zulu)</button>
 </div>
 
-<p>O linguista sul-africano <strong>Anthony Traill</strong> passou mais de trinta anos documentando o Taa, começando com trabalho de campo de doutorado nos anos 1970 e culminando em seu dicionário de 1994, <em>A !Xóõ Dictionary</em>. O trabalho instrumental de Traill — usando laringoscopia de fibra óptica e ultrassom — mostrou que aquilo que os primeiros visitantes haviam descartado como "ruídos acidentais" eram, na verdade, <strong>articulações totalmente voluntárias</strong> com fechamentos distintos no véu, na úvula e na epiglote. Ele demonstrou que uma única palavra com clique pode envolver <em>quatro mecanismos de fluxo de ar simultâneos</em>: um fluxo lingual ingressivo para o próprio clique, um fluxo pulmonar egressivo para a vocalização, uma glote fechada para a soltura ejetiva e um véu abaixado para a nasalização.</p>
+<p>O linguista sul-africano <strong>Anthony Traill</strong> passou mais de trinta anos documentando o Taa, começando com trabalho de campo de doutorado nos anos 1970 e culminando em seu dicionário de 1994, <em>A !Xóõ Dictionary</em>. O trabalho instrumental de Traill — usando palatografia estática, medição aerodinâmica e imagens de raios X — mostrou que aquilo que os primeiros visitantes haviam descartado como "ruídos acidentais" eram, na verdade, <strong>articulações totalmente voluntárias</strong> com fechamentos distintos no véu e na epiglote. Ele demonstrou que um único clique do Taa pode mobilizar <em>os três mecanismos de fluxo de ar de que a fala humana dispõe</em>: o fluxo lingual ingressivo do próprio clique, um fluxo pulmonar egressivo para o vozeamento que o antecede e um fluxo glotálico para a soltura ejetiva que o segue — enquanto outra série ainda abaixa o véu para acrescentar a nasalização.</p>
 
-<blockquote>"Já não é respeitável descartar os cliques como ruído paralinguístico. Eles são as consoantes da língua." — Anthony Traill, 1985</blockquote>
+<p>O argumento de Traill não era retórico, mas estatístico. Os cliques do Taa não são um canto marginal ou decorativo do inventário: são consoantes comuns da língua e, na verdade, a maneira <em>preferida</em> de começar uma palavra — segundo uma contagem, <strong>82% do vocabulário básico</strong> começa por um clique, proporção muito superior à de qualquer série não-clique.</p>
 
-<p>Os linguistas discordam sobre <em>por que</em> o Taa ficou tão "alto". Uma hipótese, avançada por <strong>Bonny Sands</strong> e outros, é que a área Tuu do Kalahari foi uma zona de refúgio desde pelo menos o final do Pleistoceno; a extravagância fonológica pode ser uma acumulação extremamente antiga, possivelmente espelhando a paisagem sonora de línguas de caçadores-coletores muito mais antigas, agora perdidas. Verdadeira ou não, o Taa oferece um contraponto sóbrio à ideia de que as línguas humanas "tendem à economia": quando a geografia e a demografia permitem, a fonologia pode espiralar para cima quase indefinidamente.</p>
+<p>Os linguistas discordam sobre <em>por que</em> o Taa ficou tão "alto". Uma hipótese há muito popular — defendida de modo mais visível pelo lado da genética por <strong>Alec Knight, Peter Underhill e colegas</strong> em 2003 — é que o Kalahari foi uma zona de refúgio desde pelo menos o final do Pleistoceno, e que a extravagância fonológica é uma acumulação extremamente antiga, possivelmente espelhando a paisagem sonora de línguas de caçadores-coletores muito mais antigas, agora perdidas. Os especialistas nessas próprias línguas são bem mais céticos: <strong>Bonny Sands</strong> e <strong>Tom Güldemann</strong> argumentam que os cliques não são relíquias de uma língua-mãe ancestral, que não há na região nenhum conservadorismo linguístico especial e que a difusão dos cliques pertence a um passado humano relativamente recente, não à aurora da linguagem. Seja qual for o desfecho dessa discussão, o Taa oferece um contraponto sóbrio à ideia de que as línguas humanas "tendem à economia": quando a geografia e a demografia permitem, a fonologia pode espiralar para cima quase indefinidamente.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="-23.5" data-lng="21.5" data-zoom="6">🌵 Aproximar do Kalahari</button>
@@ -125,10 +125,10 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="-6.30" data-lng="155.20" data-zoom="6">🗺️ Voar até Bougainville</button>
 </div>
 
-<p>O havaiano — com treze fonemas — é às vezes citado como concorrente ao recorde, e o registro masculino do <strong>Pirahã</strong> pode descer ainda mais; mas a contagem que os linguistas geralmente buscam é a do Rotokas, baseada na cuidadosa descrição de 1973 dos linguistas missionários australianos <strong>Stuart e Janice Firchow</strong> para o Summer Institute of Linguistics. Eles identificaram três pontos de articulação, nenhuma consoante nasal e nenhum encontro consonantal além de uma breve semivogal.</p>
+<p>O havaiano — com treze fonemas — é às vezes citado como concorrente ao recorde, e o registro feminino do <strong>Pirahã</strong> pode descer ainda mais; mas a contagem que os linguistas geralmente buscam é a do Rotokas, baseada na cuidadosa descrição de 1969 dos linguistas missionários do Summer Institute of Linguistics (SIL) <strong>Irwin e Jacqueline Firchow</strong> publicada em <em>Anthropological Linguistics</em>. Eles identificaram três pontos de articulação, nenhuma consoante nasal e nenhum encontro consonantal além de uma breve semivogal.</p>
 
 <ul>
-  <li><strong>Sem nasais.</strong> A família linguística Rotokas é um dos casos raríssimos em que <em>m, n, ng</em> estão <strong>inteiramente ausentes como fonemas</strong>. Quando falantes mais velhos produzem sons nasais, eles tendem a aparecer como variantes livres de <em>b, d, g</em> na fala expressiva ou sussurrada, não como unidades separadas.</li>
+  <li><strong>Sem nasais.</strong> O dialeto central do Rotokas é um dos casos raríssimos em que <em>m, n, ng</em> estão <strong>inteiramente ausentes como fonemas</strong> — embora o vizinho dialeto aita os tenha. Sons nasais até aparecem, mas apenas como variantes livres da série sonora <em>b, d, g</em> e apenas em contextos marginais — no erro de quem tenta pronunciar palavras inglesas (<em>bye-bye</em> sai [maemae]) ou ao imitar um estrangeiro falando rotokas — nunca como unidades separadas.</li>
   <li><strong>Inventário consonantal mínimo.</strong> <em>p</em> e <em>β</em> (uma fricativa bilabial suave semelhante ao <em>b</em> espanhol entre vogais), <em>t</em> e <em>ɾ</em> (um tepe), <em>k</em> e <em>ɡ</em> — três surdas e três sonoras, emparelhadas simetricamente pela boca.</li>
   <li><strong>Sílabas estritamente CV.</strong> Cada sílaba é uma única consoante seguida de uma única vogal. Vogais longas e sequências vocálicas carregam qualquer prosódia adicional de que a língua necessite.</li>
 </ul>
@@ -141,7 +141,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>O Rotokas pertence à família <strong>Bougainville do Norte</strong>, uma das duas minúsculas famílias não-austronésias (papuásicas) na ilha. Genealogicamente, não tem relação com as línguas oceânicas austronésias circundantes da costa, nem com seus vizinhos do sul de Bougainville. Esse isolamento pode ajudar a explicar sua deriva para uma fonologia tão reduzida: pequenas comunidades de fala unidas às vezes simplificam em vez de elaborar, a imagem espelhada do padrão do Kalahari.</p>
 
-<blockquote>"O Rotokas parece refutar a antiga suposição de que o limite inferior dos inventários de fonemas está em torno de quinze." — Ian Maddieson, <em>Patterns of Sounds</em>, 1984</blockquote>
+<p>No levantamento UPSID de Maddieson — a amostra de 317 línguas por trás de <em>Patterns of Sounds</em> (1984) — os inventários de segmentos vão de 11 na ponta baixa, no Rotokas, a 141 na ponta alta, no !Xũ. O Rotokas fica bem no fundo dessa faixa.</p>
 
 <p>Bougainville teve uma história difícil no final do século XX: guerra civil de 1988 a 1998, o fechamento da mina de Panguna e negociações em andamento para a independência da Papua-Nova Guiné após o referendo de 2019. O Rotokas sobreviveu a tudo isso. Hoje, a língua é ensinada em algumas escolas em tok pisin junto com o inglês, e um pequeno mas ativo <strong>programa de letramento vernáculo</strong> produziu livros de histórias e traduções da Bíblia na língua. O número de falantes é estável, embora os falantes mais jovens sejam cada vez mais bilíngues em tok pisin.</p>
 
@@ -156,7 +156,7 @@ window.TRIVIA_I18N['pt'] = {
     title: 'Ubykh — o dia em que uma língua com 84 consoantes morreu',
     summary: 'Em 7 de outubro de 1992, Tevfik Esenç morreu em uma aldeia turca e levou consigo a língua ubykh: uma língua do noroeste caucasiano com 84 consoantes e apenas duas vogais fonêmicas, registrada por décadas pelo erudito francês Georges Dumézil.',
     body: `
-<p>O momento exato em que uma língua morre raramente pode ser datado. O <strong>Ubykh</strong> é a exceção. Em <strong>7 de outubro de 1992</strong>, na aldeia turca de <strong>Hacıosman</strong>, ao sul do Mar de Mármara, um agricultor de 88 anos chamado <strong>Tevfik Esenç</strong> foi dormir e não acordou. Ele era o último falante plenamente fluente de uma língua que, até dois séculos antes, fora o idioma cotidiano de dezenas de milhares de pessoas na costa do Mar Negro do Cáucaso.</p>
+<p>O momento exato em que uma língua morre raramente pode ser datado. O <strong>Ubykh</strong> é a exceção. Em <strong>7 de outubro de 1992</strong>, na aldeia turca de <strong>Hacıosman</strong>, ao sul do Mar de Mármara, um agricultor de 88 anos chamado <strong>Tevfik Esenç</strong> foi dormir e não acordou. Ele era o último falante plenamente fluente de uma língua que, até pouco mais de um século antes, fora o idioma cotidiano de dezenas de milhares de pessoas na costa do Mar Negro do Cáucaso.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="uby" data-zoom="6">🌍 Mostrar Ubykh no mapa</button>
@@ -177,11 +177,11 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="compare" data-codes="ab,ady,kbd">🗣 Comparar os primos sobreviventes do Ubykh (abecásio, adigueu, cabardiano)</button>
 </div>
 
-<p>Quase tudo o que sabemos sobre o Ubykh no século XX devemos ao indo-europeísta francês e mitólogo comparativo <strong>Georges Dumézil</strong>. A partir de 1930, Dumézil fez viagens repetidas à Anatólia para registrar a comunidade em declínio, retornando ano após ano por quase seis décadas. Produziu uma série de descrições gramaticais e coleções de textos — incluindo a série <em>Documents anatoliens sur les langues et les traditions du Caucase</em> (em especial o vol. IV: <em>Récits oubykh</em>, 1965) — que continuam fundamentais. Esenç tornou-se o principal informante de Dumézil nos anos 1960; os dois corresponderam-se e trabalharam juntos até a morte de Dumézil em 1986.</p>
+<p>Quase tudo o que sabemos sobre o Ubykh no século XX devemos ao indo-europeísta francês e mitólogo comparativo <strong>Georges Dumézil</strong>. A partir de 1930, Dumézil fez viagens repetidas à Anatólia para registrar a comunidade em declínio, retornando ano após ano por quase seis décadas. Produziu uma série de descrições gramaticais e coleções de textos — incluindo a série <em>Documents anatoliens sur les langues et les traditions du Caucase</em> (em especial o vol. III: <em>Nouvelles études oubykhs</em>, 1965) — que continuam fundamentais. Esenç tornou-se o principal informante de Dumézil nos anos 1960; os dois corresponderam-se e trabalharam juntos até a morte de Dumézil em 1986.</p>
 
-<blockquote>"Ele sabia que era o último. Carregava a língua como se carrega uma vela em uma sala selada: sozinho, atento e ciente de que o ar não duraria." — recordação parafraseada dos colaboradores de Dumézil</blockquote>
+<blockquote>"Tevfik Esenç — que se recite uma Fatiha por sua alma — que imortalizou a língua ubykh, o último ubykh capaz de escrever e falar esta língua." — o epitáfio em turco na lápide de Esenç, ditado por ele mesmo</blockquote>
 
-<p>Esenç compreendeu seu papel com clareza incomum. Memorizou provérbios, canções, orações, nomes de lugares e contos populares especificamente para que pudessem ser registrados. Insistiu em ser enterrado sob uma lápide que o identificasse, em ubykh, como "o último falante", frase que ele mesmo ditou. O foneticista norueguês <strong>Hans Vogt</strong> produziu o dicionário de referência padrão <em>Dictionnaire de la langue oubykh</em> (1963), e o linguista holandês <strong>Rieks Smeets</strong> continuou a documentação até o fim do século XX; junto com as edições de textos de Dumézil, seus trabalhos constituem a base documental da língua.</p>
+<p>Esenç compreendeu seu papel com clareza incomum. Memorizou provérbios, canções, orações, nomes de lugares e contos populares especificamente para que pudessem ser registrados. A pedra que traz essas palavras está no cemitério da aldeia de Hacıosman, e elas foram gravadas em turco — não na língua que celebram. O foneticista norueguês <strong>Hans Vogt</strong> produziu o dicionário de referência padrão <em>Dictionnaire de la langue oubykh</em> (1963), e o linguista holandês <strong>Rieks Smeets</strong> continuou a documentação até o fim do século XX; junto com as edições de textos de Dumézil, seus trabalhos constituem a base documental da língua.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ Aproximar de Hacıosman, Turquia</button>
@@ -203,7 +203,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>O Damin (às vezes grafado <em>Demiin</em>) era o <strong>registro auxiliar secreto</strong> dos povos <strong>Lardil</strong> e <strong>Yangkaal</strong> vizinhos da Ilha Mornington e da Ilha Forsyth, no sul do Golfo de Carpentária. Era ensinado apenas a homens que haviam passado pelo segundo estágio da cerimônia de iniciação <em>Warama</em>, e usado no período de reclusão ritual imediatamente após. Fora desse contexto cerimonial, era, ao menos em princípio, proibido falar. Quando a língua foi pela primeira vez sistematicamente registrada — pelo linguista americano <strong>Kenneth Hale</strong> nos anos 1960 — as últimas iniciações haviam cessado, e apenas um punhado de homens mais velhos ainda lembrava do sistema.</p>
 
-<p>O que Hale encontrou foi extraordinário. O Damin não era uma língua separada: compartilhava a gramática lardil mais ou menos por inteiro. Mas tinha seu próprio vocabulário de <strong>cerca de 200 itens lexicais</strong>, cada um mapeando, por uma regra inteligente de compressão semântica, em toda uma classe de palavras lardil. <em>n!aa</em>, por exemplo, cobria todos os termos de parentesco referentes a um homem da própria metade, e <em>didi</em> cobria todos da metade oposta. Um falante que conhecesse os 200 itens do Damin podia, em princípio, expressar qualquer coisa que o Lardil pudesse expressar — apenas de forma mais abstrata.</p>
+<p>O que Hale encontrou foi extraordinário. O Damin não era uma língua separada: compartilhava a gramática lardil mais ou menos por inteiro. Mas tinha seu próprio vocabulário de <strong>cerca de 200 itens lexicais</strong>, cada um mapeando, por uma regra inteligente de compressão semântica, em toda uma classe de palavras lardil. <em>n!aa</em>, por exemplo, cobria o próprio falante e os do seu lado, e <em>n!uu</em> cobria todos os demais — os dezenove pronomes do lardil comprimidos em dois. Um falante que conhecesse os 200 itens do Damin podia, em princípio, expressar qualquer coisa que o Lardil pudesse expressar — apenas de forma mais abstrata.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="compare" data-codes="lbz,nny">🗣 Comparar Lardil e Yangkaal</button>
@@ -214,11 +214,11 @@ window.TRIVIA_I18N['pt'] = {
 <ul>
   <li><strong>Oclusivas em clique</strong> — incluindo um clique bilabial <em>ʘ</em>, encontrado em outras partes apenas em línguas Khoisan do sul da África e em um punhado de registros rituais pelo mundo. Nenhuma outra língua australiana tem cliques.</li>
   <li><strong>Uma fricativa lateral ingressiva</strong>, articulada sugando ar para dentro pelas laterais da língua. Esse som é, até onde se documentou, <strong>exclusivo do Damin</strong> nas línguas do mundo.</li>
-  <li><strong>Uma ejetiva</strong> <em>t'</em> e possivelmente outros sons glotálicos, também sem paralelo no restante da Austrália.</li>
+  <li><strong>Duas ejetivas</strong>, <em>p'</em> e <em>k'</em> — a primeira produzida com pressão velárica em vez de laríngea, também sem paralelo no restante da Austrália.</li>
   <li><strong>Um trinado labio-lingual egressivo nasalizado</strong> ("som de desprezo") — um ruído deliberadamente rude colocado a serviço da linguística.</li>
 </ul>
 
-<blockquote>"O Damin é uma invenção deliberada, projetada para ser diferente. Onde o Lardil tem p, o Damin tem um clique; onde o Lardil tem t, o Damin tem uma ejetiva. O próprio contraste faz parte do significado do registro." — Ken Hale, 1973</blockquote>
+<blockquote>A fonologia do Damin era um desvio deliberado da do lardil, não uma recodificação som a som: ao lado de oclusivas australianas comuns — e das consoantes lardil simples que sobrevivem sobretudo nos seus sufixos gramaticais — o Damin usava cliques nasais, uma ejetiva velar <em>k'</em>, uma vibrante bilabial e uma fricativa lateral ingressiva, sons não atestados em nenhuma outra parte do continente. — segundo Hale &amp; Nash, "Lardil and Damin Phonotactics" (1997)</blockquote>
 
 <p>A conclusão que a maioria dos linguistas tira do Damin é, ao mesmo tempo, perturbadora e estimulante. <strong>O perfil fonológico "australiano" não é biologicamente inevitável.</strong> Os falantes do Lardil — que na vida cotidiana usavam um sistema sonoro tão simples quanto o de qualquer vizinho — podiam, quando o ritual exigia, produzir e ensinar rotineiramente uma fonologia selvagemente exótica a iniciados adolescentes. O que mantém os sistemas sonoros de superfície das línguas australianas tão uniformes ao longo de milhares de quilômetros é, portanto, <strong>cultural e sociolinguístico, não articulatório ou cognitivo</strong>.</p>
 
@@ -242,12 +242,12 @@ window.TRIVIA_I18N['pt'] = {
 <p>O agrupamento tradicional de "línguas de cliques" compreende três linhagens completamente não relacionadas:</p>
 
 <ul>
-  <li><strong>Khoe</strong> — a família que inclui o khoekhoegowab (Nama-Damara) da Namíbia, o ǂ'Amkoe e o Naro de Botsuana, e várias línguas menores das franjas do Kalahari.</li>
+  <li><strong>Khoe</strong> — a família que inclui o khoekhoegowab (Nama-Damara) da Namíbia, o Naro e o Gǀui de Botsuana, e várias línguas menores das franjas do Kalahari.</li>
   <li><strong>Tuu</strong> — o grupo sul que inclui o <em>Taa (!Xóõ)</em>, o recordista de consoantes apresentado em outra parte desta coleção de trivialidades, mais o moribundo N|uu da África do Sul.</li>
   <li><strong>Kx'a</strong> — uma pequena família contendo Juǀ'hoan e ǂHoan, com elaborados inventários de cliques próprios.</li>
 </ul>
 
-<p>A essas três famílias geralmente se adicionam <strong>dois isolados da África Oriental</strong>: o <strong>Hadza</strong>, falado por talvez mil caçadores-coletores ao redor do Lago Eyasi na Tanzânia, e o <strong>Sandawe</strong>, algumas centenas de quilômetros ao norte. Ambos têm cliques; nenhum demonstrou ter relação com os grupos do sul de forma que resista a escrutínio rigoroso. O antigo termo guarda-chuva "Khoisan" agrupava todos os cinco juntos, mas Tom Güldemann e outros passaram os últimos vinte anos argumentando — de forma convincente — que <strong>Khoisan é um agrupamento areal, não uma família genética</strong>.</p>
+<p>A essas três famílias geralmente se adicionam <strong>dois isolados da África Oriental</strong>: o <strong>Hadza</strong>, falado por talvez mil caçadores-coletores ao redor do Lago Eyasi na Tanzânia, e o <strong>Sandawe</strong>, cerca de 150 km ao sul, nos planaltos rochosos da região de Dodoma. Ambos têm cliques, mas suas posições são diferentes: o <strong>Hadza</strong> não tem parentes comprovados em lugar nenhum, ao passo que o <strong>Sandawe</strong> pode ser um parente distante da família Khoe — uma ligação que Tom Güldemann e Edward Elderkin, com base em evidências lexicais e pronominais, consideram promissora, ainda que não provada. O antigo termo guarda-chuva "Khoisan" agrupava todos os cinco juntos, mas Güldemann e outros passaram os últimos vinte anos argumentando — de forma convincente — que <strong>Khoisan é um agrupamento areal, não uma família genética</strong>.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="compare" data-codes="hts,sad,naq,xh,zu">🗣 Comparar Hadza, Sandawe, Khoekhoe, Xhosa, Zulu</button>
@@ -258,9 +258,9 @@ window.TRIVIA_I18N['pt'] = {
 <ul>
   <li><strong>Bilabial</strong> <em>ʘ</em> — um estalo semelhante a um beijo feito com os lábios. O mais raro de todos; sobrevive principalmente no Taa e em algumas variedades vizinhas.</li>
   <li><strong>Dental</strong> <em>|</em> — o som que falantes de inglês fazem como "tut-tut".</li>
-  <li><strong>Alveolar</strong> <em>!</em> — um estalo agudo feito ao soltar a língua da crista alveolar; o clique no nome <em>Xhosa</em>.</li>
+  <li><strong>Alveolar</strong> <em>!</em> — um estalo agudo feito ao soltar a língua da crista alveolar, um pouco como uma rolha saindo da garrafa; escrito <em>q</em> em xhosa e zulu.</li>
   <li><strong>Palatal</strong> <em>ǂ</em> — uma soltura mais suave, mais atrás no palato.</li>
-  <li><strong>Lateral</strong> <em>||</em> — um clique lateral da língua às vezes usado por falantes de inglês para incitar um cavalo.</li>
+  <li><strong>Lateral</strong> <em>||</em> — um clique lateral da língua às vezes usado por falantes de inglês para incitar um cavalo; é este o clique do próprio nome <em>Xhosa</em>, escrito <em>xh</em>.</li>
 </ul>
 
 <p>Cada clique pode então ser <em>acompanhado</em> por vocalização, aspiração, nasalização, glotalização, e combinado com solturas uvulares ou ejetivas. Multiplicando os parâmetros, algumas línguas Khoe e Tuu têm inventários de cliques maiores do que sistemas consonantais inteiros de línguas bem conhecidas em outras partes.</p>
@@ -269,13 +269,13 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="focus" data-code="naq" data-zoom="6">🌍 Mostrar Khoekhoe (Nama)</button>
 </div>
 
-<p>O fato sociolinguístico mais marcante sobre os cliques é que eles <strong>saltaram entre famílias</strong>. As línguas bantas <strong>zulu</strong>, <strong>xhosa</strong>, <strong>soto do sul</strong> e <strong>suázi</strong> têm todas cliques fonêmicos — três a cinco deles — embora seus parentes bantos mais próximos ao norte não tenham nenhum. A explicação, elaborada em detalhes por historiadores e linguistas de <strong>Anthony Traill</strong> a <strong>Rainer Vossen</strong>, é mais ou menos a seguinte: à medida que os agricultores falantes de banto se moviam para o sul do Limpopo no segundo milênio EC, encontravam, casavam-se e absorviam parcialmente comunidades Khoe e San. As gerações bilíngues que cresceram em lares mistos levaram cliques através da fronteira familiar, especialmente no vocabulário respeitoso e ritual. A própria palavra Xhosa <em>iXhosa</em> começa com um clique alveolar.</p>
+<p>O fato sociolinguístico mais marcante sobre os cliques é que eles <strong>saltaram entre famílias</strong>. As línguas bantas <strong>zulu</strong>, <strong>xhosa</strong>, <strong>soto do sul</strong> e <strong>suázi</strong> têm todas cliques fonêmicos — três tipos em zulu e xhosa, um único em soto do sul e suázi — embora seus parentes bantos mais próximos ao norte não tenham nenhum. A explicação, elaborada em detalhes por historiadores e linguistas de <strong>Anthony Traill</strong> a <strong>Rainer Vossen</strong>, é mais ou menos a seguinte: à medida que os agricultores falantes de banto se moviam para o sul do Limpopo no segundo milênio EC, encontravam, casavam-se e absorviam parcialmente comunidades Khoe e San. As gerações bilíngues que cresceram em lares mistos levaram cliques através da fronteira familiar, especialmente no vocabulário respeitoso e ritual. O próprio nome <em>isiXhosa</em> carrega um: logo depois do prefixo de classe nominal, o <em>xh</em> é um clique lateral aspirado.</p>
 
-<p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">Se clicar em <strong>Comparar</strong> acima, notará que nenhuma das vinte palavras Swadesh-100 básicas em xhosa ou zulu realmente <em>contém</em> um clique. Essa é a segunda metade da história: os cliques nas línguas bantas vivem quase inteiramente em <strong>vocabulário cultural e respeitoso</strong> — nomes (<em>iXhosa</em>, <em>uXamu</em>), animais (<em>iqaqa</em> "doninha", <em>ixoxo</em> "sapo"), saudações, substitutos de tabu na fala de evitação <em>hlonipha</em> e empréstimos do khoekhoe (<em>iCawa</em> "domingo"). As palavras bantas herdadas para água / fogo / sol / mão / olho permanecem sem cliques.</p>
+<p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">Se clicar em <strong>Comparar</strong> acima, notará que, em xhosa ou zulu, nenhuma das palavras básicas do dia a dia deste mapa realmente <em>contém</em> um clique. Essa é a segunda metade da história: os cliques nas línguas bantas vivem quase inteiramente em <strong>vocabulário cultural e respeitoso</strong> — nomes (<em>iXhosa</em>, <em>uXamu</em>), animais (<em>iqaqa</em> "doninha", <em>ixoxo</em> "sapo"), saudações, substitutos de tabu na fala de evitação <em>hlonipha</em> e empréstimos do khoekhoe (<em>iCawa</em> "domingo"). As palavras bantas herdadas para água / fogo / sol / mão / olho permanecem sem cliques.</p>
 
-<blockquote>"Os cliques não são sons emprestados da forma como os empréstimos lexicais são emprestados. São características herdadas da infância bilíngue — e, uma vez no léxico de uma única geração, tornam-se nativos." — Anthony Traill, 1995 (parafraseado)</blockquote>
+<p>O mecanismo já está razoavelmente bem reconstruído. Pakendorf, Gunnink, Sands e Bostoen (2017), cruzando evidências linguísticas e genéticas, concluem que a cópia dos cliques acompanhou o casamento em larga escala de mulheres falantes de línguas khoisan em comunidades falantes de banto, com parte do efeito devida à própria mudança de língua dos falantes khoisan. Nessa leitura, os cliques não chegaram como chega um empréstimo qualquer: vieram por meio de lares em que as crianças cresciam ouvindo as duas línguas e, uma vez que uma geração os tinha, eram simplesmente consoantes nativas.</p>
 
-<p>Fora do sul da África, os casos solidamente documentados são os isolados da África Oriental <strong>Hadza</strong> e <strong>Sandawe</strong>, junto com o registro ritual especial <strong>Damin</strong> na Austrália — usado pelos homens iniciados da Ilha de Mornington, não como língua falada comum. (Existem relatos de sons semelhantes a cliques no registro cerimonial extinto do El Molo, mas não estão bem estabelecidos.) Isso faz da área de cliques do sul da África uma das regiões linguísticas mais compactas do mundo — um lugar onde uma característica extraordinária foi mantida, elaborada e trocada entre quatro famílias por pelo menos vários milhares de anos.</p>
+<p>Fora do sul da África, os casos solidamente documentados são os isolados da África Oriental <strong>Hadza</strong> e <strong>Sandawe</strong>, a língua cuxita <strong>Dahalo</strong> do litoral do Quênia, junto com o registro ritual especial <strong>Damin</strong> na Austrália — usado pelos homens iniciados da Ilha de Mornington, não como língua falada comum. O Dahalo é o caso destoante: seus cliques sobrevivem em apenas cerca de quarenta palavras, várias delas do vocabulário básico, e costumam ser lidos como relíquia de substrato deixada quando seus falantes passaram para uma língua cuxita. (Existem relatos de sons semelhantes a cliques no registro cerimonial extinto do El Molo, mas não estão bem estabelecidos.) Isso faz da área de cliques do sul da África uma das regiões linguísticas mais compactas do mundo — um lugar onde uma característica extraordinária foi mantida, elaborada e trocada entre quatro famílias por pelo menos vários milhares de anos.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Examinar o cinturão de cliques do sul da África</button>
@@ -288,14 +288,14 @@ window.TRIVIA_I18N['pt'] = {
     title: 'Basco — a língua que a Europa esqueceu de substituir',
     summary: 'A única língua pré-indo-europeia sobrevivente da Europa Ocidental, falada nos Pirineus por cerca de 750.000 pessoas — e sem relação com nenhuma outra na Terra.',
     body: `
-<p>Quando os romanos marcharam para a Hispânia no século II AEC, encontraram dezenas de línguas. Em quatrocentos anos, quase todas haviam sido substituídas pelo latim — a semente do espanhol, português, catalão, francês e do restante da Europa românica. Quase todas. Nos Pirineus ocidentais, uma língua se recusou a morrer. Seus falantes ainda se chamam de <em>euskaldunak</em> — literalmente "aqueles que têm o basco" — e sua língua, <strong>Euskara</strong>, é o último sobrevivente vivo de uma Europa que existia antes da chegada dos indo-europeus.</p>
+<p>Quando os romanos marcharam para a Hispânia em 218 AEC, encontraram dezenas de línguas. Em quatrocentos anos, quase todas haviam sido substituídas pelo latim — a semente do espanhol, português, catalão, francês e do restante da Europa românica. Quase todas. Nos Pirineus ocidentais, uma língua se recusou a morrer. Seus falantes ainda se chamam de <em>euskaldunak</em> — literalmente "aqueles que têm o basco" — e sua língua, <strong>Euskara</strong>, é o último sobrevivente vivo de uma Europa que existia antes da chegada dos indo-europeus.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="eu" data-zoom="7">🌍 Mostrar basco no mapa</button>
   <button type="button" class="trivia-action" data-action="panto" data-lat="43.17" data-lng="-2.47" data-zoom="8">⛰️ Voar até o País Basco</button>
 </div>
 
-<p>Cerca de 750.000 pessoas falam basco hoje, distribuídas entre três províncias na Espanha (Biscaia, Guipúscoa, Álava e Navarra) e três na França (Lapurdi, Baixa Navarra, Sola). Geneticamente, a língua é um verdadeiro <strong>isolado</strong>: sem parentes comprovados. Os linguistas passaram dois séculos tentando conectá-la ao ibérico, berbere, caucasiano, etrusco, picto, burushaski, e até mesmo ao ainu — e nenhuma proposta sobreviveu à revisão por pares.</p>
+<p>Cerca de 750.000 pessoas falam basco hoje, distribuídas entre quatro províncias na Espanha (Biscaia, Guipúscoa, Álava e Navarra) e três na França (Lapurdi, Baixa Navarra, Sola). Geneticamente, a língua é um verdadeiro <strong>isolado</strong>: sem parentes comprovados. Os linguistas passaram dois séculos tentando conectá-la ao ibérico, berbere, caucasiano, etrusco, picto, burushaski, e até mesmo ao ainu — e nenhuma proposta sobreviveu à revisão por pares.</p>
 
 <p>A conexão histórica mais séria é com o <strong>aquitano</strong>, atestado em cerca de 500 nomes pessoais e divinos esculpidos em pedras votivas da era romana no sudoeste da Gália. As formas parecem surpreendentemente bascas: <em>NESCATO</em> corresponde ao moderno <em>neskato</em> "menina"; <em>CISON</em> corresponde a <em>gizon</em> "homem"; <em>SEMBE-</em> corresponde a <em>seme</em> "filho". A maioria dos especialistas agora trata o aquitano como um primo mais antigo ou ancestral direto do basco, recuando a história documentada da língua em pelo menos 2.000 anos. Se o basco também descende de um <strong>substrato vascônico</strong> mais amplo que outrora cobria a Europa Ocidental — como proposto por Theo Vennemann — é muito mais controverso.</p>
 
@@ -311,7 +311,7 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="one" data-code="eu">🔢 Ver "um" em basco</button>
 </div>
 
-<p>O basco esteve perto da extinção no século XX. Sob a ditadura de Francisco Franco (1939–1975), falar basco em público era punido, a língua foi proibida nas escolas e na igreja, e os pais eram multados por dar nomes bascos aos filhos. O esforço de padronização pós-Franco, <strong>Euskara Batua</strong> ("Basco Unificado"), foi liderado a partir dos anos 1960 pela academia de língua basca <em>Euskaltzaindia</em> e pelo linguista <strong>Koldo Mitxelena</strong>. Reuniu dialetos divergentes — biscainho, guipuscoano, navarro, lapurdiano, soletino — em um padrão escrito utilizável em escolas, jornais e governo.</p>
+<p>O basco esteve perto da extinção no século XX. Sob a ditadura de Francisco Franco (1939–1975), falar basco em público era punido, a língua foi proibida nas escolas e na igreja, e os pais eram multados por dar nomes bascos aos filhos. O esforço de padronização, <strong>Euskara Batua</strong> ("Basco Unificado"), foi lançado ainda sob Franco — no congresso de Arantzazu de 1968 — pela academia de língua basca <em>Euskaltzaindia</em> e pelo linguista <strong>Koldo Mitxelena</strong>. Reuniu dialetos divergentes — biscainho, guipuscoano, navarro, lapurdiano, soletino — em um único padrão escrito, embora só depois de 1975 esse padrão pudesse de fato ser usado em escolas, jornais e governo.</p>
 
 <blockquote>"Hizkuntza bat ez da galtzen ez dakitenek ikasten ez dutelako, dakitenek hitz egiten ez dutelako baizik."<br>"Uma língua não se perde porque os que não a conhecem não a aprendem — perde-se porque os que a conhecem deixam de falá-la." — Joxean Artze</blockquote>
 
@@ -339,7 +339,7 @@ window.TRIVIA_I18N['pt'] = {
   <li><strong>A tábua de Kish</strong> (c. 3500 AEC) e a tábua de Uruk W 9578a estão entre as primeiras escritas conhecidas.</li>
   <li><strong>As Instruções de Shuruppak</strong> (c. 2500 AEC) estão entre as obras literárias mais antigas que sobreviveram.</li>
   <li><strong>O Código de Ur-Nammu</strong> (c. 2100 AEC), o código de leis mais antigo conhecido, é três séculos anterior a Hamurabi — e foi escrito em sumério.</li>
-  <li><strong>Enheduanna</strong> (c. 2285 AEC), princesa acadiana e suma sacerdotisa do deus-lua Nanna, compôs hinos sumérios a Inanna e é a primeira autora nomeada na história da humanidade.</li>
+  <li><strong>Enheduanna</strong> (c. 2285 AEC), princesa acadiana e suma sacerdotisa do deus-lua Nanna, é tradicionalmente tida como a primeira autora nomeada na história da humanidade — embora os hinos sumérios a Inanna que trazem seu nome só tenham sobrevivido em cópias feitas cerca de seis séculos depois, e os assiriólogos continuem divididos sobre se foi ela quem os compôs.</li>
 </ul>
 
 <div class="trivia-actions">
@@ -349,9 +349,9 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Por volta de 2000 AEC, após a queda da Terceira Dinastia de Ur, o sumério parece ter desaparecido como língua materna de qualquer pessoa, deslocado pelo acadiano semítico de seus vizinhos do norte. Mas não deixou de ser escrito. Por quase dois mil anos mais, o sumério foi mantido vivo em escolas de escribas (a <em>edubba</em>) como a língua de prestígio da religião, erudição, adivinhação e astronomia — o latim do mundo cuneiforme. Escribas babilônicos e assírios copiaram textos sumérios até o século I AEC, e as últimas tábuas datáveis em língua suméria são posteriores a Alexandre, o Grande.</p>
 
-<p>A língua foi completamente esquecida após a morte do próprio cuneiforme, por volta do século I EC. Só voltou à memória humana no século XIX, quando <strong>Henry Rawlinson</strong>, <strong>Edward Hincks</strong> e <strong>Jules Oppert</strong> — três dos decifradores do cuneiforme — perceberam que as listas lexicais bilíngues que estavam lendo registravam não apenas o acadiano, mas uma língua mais antiga, não semítica, por trás dele. Oppert propôs o nome "sumério" em 1869, a partir do termo <em>kengir</em> "Sumer" usado pelos próprios sumérios.</p>
+<p>A língua foi completamente esquecida após a morte do próprio cuneiforme, por volta do século I EC. Só voltou à memória humana no século XIX, quando <strong>Henry Rawlinson</strong>, <strong>Edward Hincks</strong> e <strong>Jules Oppert</strong> — três dos decifradores do cuneiforme — perceberam que as listas lexicais bilíngues que estavam lendo registravam não apenas o acadiano, mas uma língua mais antiga, não semítica, por trás dele. Oppert propôs o nome "sumério" em 1869, tirando-o do título real acádio "rei de Sumer e Acade" — os próprios sumérios chamavam sua terra de <em>ki-en-gi(-r)</em>.</p>
 
-<p>Hoje, o <strong>Pennsylvania Sumerian Dictionary</strong> e o <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) tornam possível ler a poesia mais antiga do mundo em um celular. A <strong>Epopeia de Gilgamés</strong>, em seus predecessores em língua suméria como "Gilgamés e o Touro do Céu", foi a primeira literatura que a humanidade jamais escreveu — e ainda está sendo traduzida.</p>
+<p>Hoje, o <strong>Pennsylvania Sumerian Dictionary</strong> e o <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) tornam possível ler a poesia mais antiga do mundo em um celular. A <strong>Epopeia de Gilgamés</strong>, em seus predecessores em língua suméria como "Gilgamés e o Touro do Céu", está entre as histórias mais antigas que a humanidade já pôs por escrito — e ainda está sendo traduzida.</p>
     `,
   },
   'etruscan-mystery': {
@@ -370,7 +370,7 @@ window.TRIVIA_I18N['pt'] = {
 <p>Cerca de <strong>13.000 inscrições</strong> são conhecidas, a grande maioria curta e funerária: quem está enterrado aqui, qual era sua idade, quem eram seus pais e cônjuge. Fórmulas repetitivas como <em>mi larthia</em> "eu sou de Larth" são fáceis. Qualquer coisa além de nome, família e número é difícil. Um punhado de textos mais longos são as chaves para o que de fato entendemos:</p>
 
 <ul>
-  <li><strong>O Liber Linteus</strong> (Livro de Linho), o mais longo texto etrusco sobrevivente. É um calendário ritual de cerca de 1.200 palavras legíveis, copiado à mão em linho no século III AEC, depois cortado no Egito romano e usado para envolver uma múmia feminina agora no Museu Arqueológico de Zagreb.</li>
+  <li><strong>O Liber Linteus</strong> (Livro de Linho), o mais longo texto etrusco sobrevivente. É um calendário ritual de cerca de 1.200 palavras legíveis, copiado à mão em linho no século III AEC, depois cortado no Egito ptolomaico e usado para envolver uma múmia feminina agora no Museu Arqueológico de Zagreb.</li>
   <li><strong>A Tabula Capuana</strong>, uma placa de terracota com cerca de 390 palavras de instruções rituais (c. 470 AEC).</li>
   <li><strong>As Tábuas de Pyrgi</strong> (c. 500 AEC), três finas folhas de ouro do porto de Pyrgi, duas em etrusco e uma em fenício — uma dedicação quase bilíngue à deusa Uni / Astarte. Descobertas em 1964 e cruciais para confirmar vocabulário.</li>
   <li><strong>A Tabula Cortonensis</strong>, uma placa de bronze de 200 palavras registrando o que parece ser uma venda de terras, encontrada perto de Cortona em 1992.</li>
@@ -380,9 +380,9 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="one" data-code="ett">🔢 Ver "um" em etrusco</button>
 </div>
 
-<p>O que <em>sabemos</em> é surpreendente. O etrusco tem os numerais <em>thu, zal, ci, huth, mach, śa</em> para 1–6 — embora os estudiosos ainda discutam qual numeral combina com qual, em parte porque quatro dados de marfim encontrados na Toscana escrevem os números como palavras em vez de pontos. O etrusco declina substantivos por caso (genitivo em <em>-s</em> ou <em>-l</em>, ablativo em <em>-is</em>), conjuga verbos para passado e presente (<em>-ce</em> passado, <em>-e</em> presente), e tem um sistema notável de <strong>sufixos de sintagma nominal que se empilham</strong>: um substantivo marcado para genitivo pode receber um segundo genitivo por cima. O vocabulário extraído com segurança é de cerca de 250 palavras; o restante do léxico, incluindo a maior parte dos termos técnicos rituais do Liber Linteus, é dedução contextual.</p>
+<p>O que <em>sabemos</em> é surpreendente. O etrusco tem os numerais <em>thu, zal, ci, huth, mach, śa</em> para 1–6 — embora os estudiosos ainda discutam qual numeral combina com qual, em parte porque o único par de dados de marfim conhecido, encontrado em Tuscânia, no norte do Lácio, escreve os números como palavras em vez de pontos. O etrusco declina substantivos por caso (genitivo em <em>-s</em> ou <em>-l</em>, ablativo em <em>-is</em>), conjuga verbos para passado e presente (<em>-ce</em> passado, <em>-e</em> presente), e tem um sistema notável de <strong>sufixos de sintagma nominal que se empilham</strong>: um substantivo marcado para genitivo pode receber um segundo genitivo por cima. O vocabulário extraído com segurança é de cerca de 250 palavras; o restante do léxico, incluindo a maior parte dos termos técnicos rituais do Liber Linteus, é dedução contextual.</p>
 
-<p>Os estudos etruscos modernos foram essencialmente fundados pelo arqueólogo italiano <strong>Massimo Pallottino</strong> (1909–1995), cuja <em>Etruscologia</em> (primeira edição 1942, oito edições) reorganizou o campo no "método combinatório": combinar padrões dentro do próprio etrusco, tratar as fontes clássicas gregas e romanas como ruído de fundo em vez de auxílios diretos à tradução, e aceitar que progrediremos uma inscrição de cada vez.</p>
+<p>Os estudos etruscos modernos foram essencialmente fundados pelo arqueólogo italiano <strong>Massimo Pallottino</strong> (1909–1995), cuja <em>Etruscologia</em> (primeira edição 1942, revista até a sétima edição em 1984) reorganizou o campo no "método combinatório": combinar padrões dentro do próprio etrusco, tratar as fontes clássicas gregas e romanas como ruído de fundo em vez de auxílios diretos à tradução, e aceitar que progrediremos uma inscrição de cada vez.</p>
 
 <blockquote>"O etrusco já não é um mistério, mas continua sendo um problema." — Massimo Pallottino, parafraseado de <em>Etruscologia</em></blockquote>
 
@@ -393,7 +393,7 @@ window.TRIVIA_I18N['pt'] = {
     title: 'Sentinelês — a língua que nunca registramos',
     summary: 'Em uma ilha de 60 km² na Baía de Bengala vive um povo cujos antepassados pertenceriam a uma das camadas mais antigas do povoamento humano da região — e cuja língua nenhum forasteiro jamais ouviu, muito menos documentou.',
     body: `
-<p>A cerca de 1.200 km a leste da Índia continental, na Baía de Bengala, encontra-se uma pequena ilha florestada de aproximadamente 60 quilômetros quadrados. Chama-se <strong>Ilha Sentinela do Norte</strong> e, em algum lugar dela, vivem talvez cinquenta a várias centenas de pessoas — ninguém sabe o número real — que rejeitaram toda e qualquer tentativa de comunicação. São os <strong>sentineleses</strong>, e a sua é a única língua humana na Terra que nunca foi gravada, nunca foi transcrita e nunca foi sequer classificada com confiança.</p>
+<p>A cerca de 1.200 km a leste da Índia continental, na Baía de Bengala, encontra-se uma pequena ilha florestada de aproximadamente 60 quilômetros quadrados. Chama-se <strong>Ilha Sentinela do Norte</strong> e, em algum lugar dela, vivem talvez cinquenta a várias centenas de pessoas — ninguém sabe o número real — que rejeitaram toda e qualquer tentativa de comunicação. São os <strong>sentineleses</strong>, e a sua é uma das pouquíssimas línguas humanas na Terra que nunca foi gravada, nunca foi transcrita e nunca foi sequer classificada com confiança — e, de longe, a mais conhecida entre elas.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Voar até a Ilha Sentinela do Norte</button>
@@ -406,7 +406,7 @@ window.TRIVIA_I18N['pt'] = {
 <ul>
   <li><strong>1880</strong>: o oficial colonial britânico <strong>Maurice Vidal Portman</strong> desembarcou com uma equipe de busca, capturou um casal idoso e quatro crianças, e os levou para Port Blair. Os adultos morreram em dias, quase certamente de infecções comuns às quais os sentineleses não têm imunidade. As crianças foram devolvidas à ilha com presentes. O que Portman registrou da fala deles sobrevive apenas como fragmentos e notas de segunda mão.</li>
   <li><strong>1974</strong>: uma equipe de filmagem da National Geographic foi repelida por flechas. O diretor recebeu uma flecha de 2,4 metros na coxa.</li>
-  <li><strong>1991</strong>: a antropóloga indiana <strong>Madhumala Chattopadhyay</strong> liderou uma série de "entregas de presentes" de cocos que alcançaram o único contato pacífico conhecido — sentineleses caminhando desarmados até os barcos para recolher cocos. As visitas foram interrompidas em 1996 devido a preocupações com transmissão de doenças.</li>
+  <li><strong>1991</strong>: uma equipe oficial indiana de treze pessoas alcançou o único contato pacífico conhecido, oferecendo cocos a partir dos barcos até que os sentineleses saíssem desarmados para recolhê-los. A antropóloga da equipe, <strong>Madhumala Chattopadhyay</strong>, entrou ela mesma na água e lhes entregou os cocos em mãos — a primeira mulher do mundo exterior a encontrá-los. As visitas foram interrompidas em 1996 devido a preocupações com transmissão de doenças.</li>
   <li><strong>Tsunami de 2004</strong>: um helicóptero da Guarda Costeira sobrevoou a ilha dias após o tsunami do dia 26 de dezembro para verificar sobreviventes. Foi recebido com flechas. Os ilhéus haviam se mudado para terreno mais alto e estavam ilesos.</li>
   <li><strong>2006</strong>: dois pescadores que foram parar na praia à deriva foram mortos.</li>
   <li><strong>2018</strong>: o missionário americano <strong>John Allen Chau</strong> foi morto ao tentar evangelizar os sentineleses, tendo subornado ilegalmente pescadores locais para levá-lo até lá.</li>
@@ -414,11 +414,11 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Sob o <strong>Regulamento de Proteção das Tribos Aborígenes das Ilhas Andamão e Nicobar</strong> do governo indiano (1956, alterado várias vezes desde então), é ilegal qualquer pessoa se aproximar dentro de 5 milhas náuticas da Ilha Sentinela do Norte. A Marinha Indiana patrulha uma zona-tampão. A política oficial, vigente desde o final dos anos 1990 e reforçada após a morte de Chau, é de <strong>"olhos atentos, mãos afastadas"</strong>: monitorar a população à distância, não contatar, não interferir.</p>
 
-<blockquote>"Não somos nós que os estamos isolando. Eles decidiram ser deixados em paz, e somos obrigados a respeitar isso." — Madhumala Chattopadhyay, parafraseando a posição política de longa data</blockquote>
+<blockquote>"As tribos das ilhas não precisam que estrangeiros as protejam, o que elas precisam é que as deixem em paz." — Madhumala Chattopadhyay, em entrevista à National Geographic</blockquote>
 
 <p>O pouco que suspeitamos sobre a tipologia linguística sentinelesa vem por analogia: as línguas Ongan têm um pequeno inventário fonêmico, prefixos possessivos em termos de partes do corpo e de parentesco, e um sistema de dêiticos baseados em partes do corpo (por exemplo, um sufixo para "da cabeça", outro para "das costas"). É plausível — mas improvável — que o sentinelês funcione de forma semelhante. O Ethnologue, ISO 639-3 e Glottolog o listam (código <em>std</em>, languóide <em>sent1241</em>), mas todo campo na entrada que pede dados reais diz "nenhuma informação disponível" ou "desconhecido".</p>
 
-<p>É a mais rara das situações linguísticas: uma língua humana viva e respirante, usada diariamente, que concordamos como espécie em não estudar. Se esse acordo sobreviverá ao século XXI é incerto. Por enquanto, os sentineleses continuam sendo o povo que não será entrevistado — e sua língua, a única no Wordmap que listamos não porque a conhecemos, mas porque sabemos que não a conhecemos.</p>
+<p>É a mais rara das situações linguísticas: uma língua humana viva e respirante, usada diariamente, que concordamos como espécie em não estudar. Se esse acordo sobreviverá ao século XXI é incerto. Por enquanto, os sentineleses continuam sendo o povo que não será entrevistado — e sua língua, a única desta coletânea que descrevemos não porque a conhecemos, mas porque sabemos que não a conhecemos.</p>
     `,
   },
   'modern-hebrew-revival': {
@@ -444,23 +444,23 @@ window.TRIVIA_I18N['pt'] = {
   <li><strong>chashmal</strong> (חשמל) — "eletricidade", reaproveitando uma misteriosa palavra bíblica de Ezequiel.</li>
 </ul>
 
-<p>Ele compilou o gigantesco <em>Dicionário Completo do Hebraico Antigo e Moderno</em> em 17 volumes (continuado e concluído após sua morte pelo filho e outros), e ajudou a fundar o <strong>Va'ad ha-Lashon ha-Ivrit</strong> (Comitê da Língua Hebraica, 1890), que se tornou a atual <strong>Academia da Língua Hebraica</strong> — ainda o órgão israelense oficial que cunha novo vocabulário técnico (<em>machshev</em> "computador", <em>klikim</em> "cliques", <em>siyumon</em> "aplicativo").</p>
+<p>Ele compilou o gigantesco <em>Dicionário Completo do Hebraico Antigo e Moderno</em> em 17 volumes (continuado e concluído após sua morte pelo filho e outros), e ajudou a fundar o <strong>Va'ad ha-Lashon ha-Ivrit</strong> (Comitê da Língua Hebraica, 1890), que se tornou a atual <strong>Academia da Língua Hebraica</strong> — ainda o órgão israelense oficial que cunha novo vocabulário técnico (<em>machshev</em> "computador", <em>yisumon</em> "aplicativo").</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="he">👋 Ver "olá" em hebraico</button>
   <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="he">💧 Ver "água" em hebraico</button>
 </div>
 
-<p>Historiadores modernos do hebraico (Ghil'ad Zuckermann, Bernard Spolsky e outros) são rápidos em adicionar nuance. Ben-Yehuda não estava sozinho; foi a voz mais alta em uma onda de professores, especialmente a <strong>Associação de Professores de Hebraico</strong> a partir dos anos 1890, que trocaram suas salas de aula do iídiche e russo para o hebraico, construindo a primeira geração de usuários fluentes uma sala de aula por vez. Zuckermann argumentou que o que realmente nasceu não é estritamente "hebraico revivido", mas um híbrido que ele chama de <em>israelense</em> — uma camada superficial semítica (a morfologia, grande parte do vocabulário) sobre um substrato sintático e fonético profundamente europeu (especialmente iídiche e eslavo). Por essa visão, os falantes nativos israelenses são herdeiros tanto do Rei Davi quanto da iechivá de Vilna da era czarista.</p>
+<p>Historiadores modernos do hebraico (Ghil'ad Zuckermann, Bernard Spolsky e outros) são rápidos em adicionar nuance. Ben-Yehuda não estava sozinho; foi a voz mais alta em uma onda de professores, especialmente os que a partir dos anos 1890 trocaram suas salas de aula do iídiche e russo para o hebraico e, em 1903, se organizaram na <strong>União dos Professores de Hebraico</strong>, construindo a primeira geração de usuários fluentes uma sala de aula por vez. Zuckermann argumentou que o que realmente nasceu não é estritamente "hebraico revivido", mas um híbrido que ele chama de <em>israelense</em> — uma camada superficial semítica (a morfologia, grande parte do vocabulário) sobre um substrato sintático e fonético profundamente europeu (especialmente iídiche e eslavo). Por essa visão, os falantes nativos israelenses são herdeiros tanto do Rei Davi quanto da iechivá de Vilna da era czarista.</p>
 
-<blockquote>"Mesmo que seja impossível reviver uma língua cem por cento, o que os falantes de hebraico conseguiram fazer não é nada menos que milagroso." — Ghil'ad Zuckermann</blockquote>
+<blockquote>"Os judeus não conseguiram reviver a língua de Isaías. É simplesmente impossível reviver uma língua tal como ela era." — Ghil'ad Zuckermann, BBC Future, 22 de março de 2019</blockquote>
 
 <p>Em 1922, quando Ben-Yehuda morreu, o hebraico era uma das três línguas oficiais da Palestina sob Mandato Britânico. Em 1948, era a língua principal do recém-fundado Estado de Israel. Hoje é a língua escolar de milhões, a língua dos laureados com o Nobel (S. Y. Agnon, 1966), do cinema e da alta tecnologia, do supermercado e do parquinho. A última criança a aprender hebraico como bebê antes de 200 EC e a primeira criança a aprendê-lo como bebê em 1882 estão separadas por cerca de 70 gerações de vida judaica em que a língua foi carregada mas não embalada — e é a única língua na Terra que fez isso e voltou.</p>
     `,
   },
   'sanskrit-panini': {
     title: 'Pāṇini — o gramático sânscrito que antecipou a ciência da computação em 2.400 anos',
-    summary: 'Por volta de 500 AEC, um erudito indiano escreveu uma gramática formal do sânscrito com 4.000 regras tão rigorosa que linguistas do século XX a chamaram de "a descrição mais completa de qualquer língua até os tempos modernos" — e um ancestral direto da forma como os compiladores analisam código hoje.',
+    summary: 'Por volta de 500 AEC, um erudito indiano escreveu uma gramática formal do sânscrito com 4.000 regras tão rigorosa que em 1933 Leonard Bloomfield pôde escrever que "nenhuma outra língua, até hoje, foi descrita de modo tão perfeito" — e ela é um ancestral direto da forma como os compiladores analisam código hoje.',
     body: `
 <p>Se você tivesse que escolher um único livro para enviar em uma máquina do tempo a fim de confundir um cientista da computação do século XX, seria difícil superar o <strong>Aṣṭādhyāyī</strong> — os "Oito Capítulos" de <strong>Pāṇini</strong>. Composto no que é hoje o noroeste do Paquistão por volta de <strong>500–400 AEC</strong>, o Aṣṭādhyāyī é uma descrição generativa completa do sânscrito em pouco menos de <strong>4.000 sūtras</strong> (regras aforísticas concisas), tão densamente compactados que toda a gramática cabe em cerca de 35 páginas impressas modernas. Linguistas modernos, de Leonard Bloomfield a Paul Kiparsky e Noam Chomsky, todos a chamaram da gramática formal mais sofisticada de qualquer língua já produzida antes do século XX.</p>
 
@@ -488,9 +488,9 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="fire" data-code="sa">🔥 Ver "fogo" em sânscrito</button>
 </div>
 
-<p>A influência de Pāṇini é direta, e não apenas metafórica. <strong>Leonard Bloomfield</strong> (1887–1949), um dos fundadores da linguística estrutural americana, escreveu seu ensaio de 1929 "On Some Rules of Pāṇini" em parte para importar a ordenação de regras paniniana para a teoria gramatical ocidental. O lógico holandês <strong>Frits Staal</strong> argumentou em <em>The Science of Language</em> (1965) que a metalinguagem de Pāṇini antecipa a forma Backus-Naur usada para definir linguagens de programação. O cientista da computação indo-americano <strong>Rick Briggs</strong>, trabalhando na NASA Ames nos anos 1980, propôs representações estilo kāraka sânscrito como uma linguagem intermediária natural para representação de conhecimento em IA. E em seu <em>Aspectos da Teoria da Sintaxe</em> de 1965, <strong>Noam Chomsky</strong> creditou Pāṇini e seus comentadores como os primeiros gramáticos generativos da história.</p>
+<p>A influência de Pāṇini é direta, e não apenas metafórica. <strong>Leonard Bloomfield</strong> (1887–1949), um dos fundadores da linguística estrutural americana, escreveu seu ensaio de 1927 "On Some Rules of Pāṇini" em parte para importar a ordenação de regras paniniana para a teoria gramatical ocidental. O indólogo holandês <strong>Frits Staal</strong> argumentou em "Euclid and Pāṇini" (1965) que a gramática de Pāṇini é um sistema formal da mesma ordem que a geometria de Euclides; dois anos depois, o cientista da computação <strong>Peter Zilahy Ingerman</strong>, em uma carta à <em>Communications of the ACM</em>, propôs rebatizar a forma normal de Backus como "forma Pāṇini-Backus" em homenagem a Pāṇini. O cientista da computação indo-americano <strong>Rick Briggs</strong>, trabalhando na NASA Ames nos anos 1980, propôs representações estilo kāraka sânscrito como uma linguagem intermediária natural para representação de conhecimento em IA. E no prefácio de seu <em>Aspectos da Teoria da Sintaxe</em> de 1965, <strong>Noam Chomsky</strong> admitiu que "até a gramática de Pāṇini pode ser interpretada como um fragmento de uma tal 'gramática generativa', no sentido essencialmente atual do termo".</p>
 
-<blockquote>"A gramática descritiva do sânscrito que Pāṇini levou à perfeição é um dos maiores monumentos da inteligência humana." — Leonard Bloomfield, <em>Language</em> (1933)</blockquote>
+<blockquote>"A gramática descritiva do sânscrito, que Pāṇini levou à sua mais alta perfeição, é um dos maiores monumentos da inteligência humana." — Leonard Bloomfield, resenha da <em>Konkordanz Pāṇini-Candra</em> de Liebich, <em>Language</em> 5 (1929)</blockquote>
 
 <p>O próprio sânscrito (<em>saṃskṛta-</em>, "polido, refinado") já era um padrão literário e ritual, não um vernáculo, à época de Pāṇini. Depois dele tornou-se, formalmente, o que Pāṇini disse que era: uma língua cuja toda sentença bem-formada é, em princípio, derivável de seus 4.000 sūtras. Dois milênios e meio depois, é exatamente isso que pedimos de um analisador sintático. O Aṣṭādhyāyī não apenas descreveu o sânscrito. Levou a ideia de uma descrição generativa e formal da língua a um grau de precisão sem paralelo na Antiguidade — e provavelmente sem equivalente até que a linguística formal do século XX redescobrisse, de modo independente, as mesmas ideias.</p>
     `,
@@ -528,7 +528,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Em 1905, o primeiro <strong>Congresso Mundial de Esperanto</strong> reuniu-se em Boulogne-sur-Mer; 688 delegados de 20 países descobriram que podiam se entender imediatamente. Nos anos 1920, a Liga das Nações debateu seriamente adotar o esperanto como língua de trabalho — vetada pela França, que temia perder o prestígio da diplomacia francesa. O Vaticano transmite em esperanto. O Google Tradutor o adicionou em 2012.</p>
 
-<blockquote>"Mi ne scias kio estas la lingvo, sed mi scias ke ĝi devas esti facila, neŭtrala kaj viva." ("Não sei o que será a língua, mas sei que deve ser fácil, neutra e viva.") — atribuído a Zamenhof, em carta a Nikolai Borovko, 1895</blockquote>
+<blockquote>"En Bjelostoko la loĝantaro konsistas el kvar diversaj elementoj: rusoj, poloj, germanoj kaj hebreoj; ĉiuj el tiuj ĉi elementoj parolas apartan lingvon kaj neamike rilatas la aliajn elementojn." ("Em Białystok a população compõe-se de quatro elementos diferentes: russos, poloneses, alemães e judeus; cada um desses elementos fala a sua própria língua e mantém relações hostis com os demais.") — Zamenhof, em carta a Nikolai Borovko, 1895 (escrita em russo; o texto em esperanto vem da tradução de Vladimir Gernet de 1896)</blockquote>
 
 <p>A história do século XX foi cruel com os esperantistas. Hitler condenou a língua em <em>Mein Kampf</em> como uma conspiração judaica; os três filhos de Zamenhof foram assassinados no Holocausto. Stalin prendeu e executou esperantistas soviéticos nos expurgos de 1937–38 como "espiões cosmopolitas". O movimento sobreviveu a ambos.</p>
 
@@ -548,7 +548,7 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="tok">👋 "Olá" — <em>toki!</em></button>
 </div>
 
-<p>Os primeiros esboços apareceram online em 2001. A referência canônica, <em>Toki Pona: The Language of Good</em>, finalmente apareceu em 2014. Entre essas datas, a língua silenciosamente cresceu uma comunidade sem qualquer apoio institucional, publicidade ou produto comercial. O livro de 2014 lista <strong>120 palavras nucleares</strong> (um dicionário posterior de 2021, <em>ku</em>, adicionou um pequeno conjunto estendido); a maioria dos falantes fluentes considera que a contagem está em torno de <strong>123 palavras essenciais</strong>.</p>
+<p>Os primeiros esboços apareceram online em 2001. A referência canônica, <em>Toki Pona: The Language of Good</em>, finalmente apareceu em 2014. Entre essas datas, a língua silenciosamente cresceu uma comunidade sem qualquer apoio institucional, publicidade ou produto comercial. O livro de 2014 lista <strong>120 palavras nucleares</strong> (<em>kin</em>, <em>namako</em> e <em>oko</em> aparecem ali apenas como sinônimos); o dicionário <em>ku</em> de 2021 então incorporou as palavras que a comunidade de fato adotara, e na quarta capa declara um total de <strong>137 palavras essenciais</strong> — <em>nimi ku suli</em> —, número que a maioria dos falantes fluentes usa hoje.</p>
 
 <p>A fonologia é igualmente mínima:</p>
 
@@ -577,9 +577,9 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="love" data-code="tok">❤️ "Amor" — <em>olin</em></button>
 </div>
 
-<p>A mesma expressão pode significar coisas diferentes em contextos diferentes. <em>jan pona</em> é "amigo", mas em um tribunal pode significar "um bom cidadão"; <em>kili</em> cobre qualquer fruta ou vegetal. A filosofia de design de Lang, influenciada pelo taoísmo, pelo culto da simplicidade do GTD (Getting Things Done) e pela hipótese de Sapir–Whorf, era que <strong>forçar a simplicidade na expressão força a simplicidade no pensamento</strong>:</p>
+<p>A mesma expressão pode significar coisas diferentes em contextos diferentes. <em>jan pona</em> é "amigo", mas em um tribunal pode significar "um bom cidadão"; <em>kili</em> cobre qualquer fruta ou vegetal. A filosofia de design de Lang, influenciada pelo taoísmo, pela simplicidade radical das línguas pidgin e pela hipótese de Sapir–Whorf, era que <strong>forçar a simplicidade na expressão força a simplicidade no pensamento</strong>:</p>
 
-<blockquote>"Toki Pona é a língua do bom. É a forma simples de viver." — Sonja Lang, Toki Pona: The Language of Good (2014)</blockquote>
+<blockquote>"Se você consegue se expressar de forma simples, é porque entende de verdade aquilo de que está falando, e isso é bom. Se algo é complicado demais, isso é ruim: você está colocando ruído demais na equação. Essa crença está, de certo modo, embutida na própria língua." — Sonja Lang, em entrevista a Roc Morin, <em>The Atlantic</em> (2015)</blockquote>
 
 <p>Os críticos a chamam de impraticável: você não pode fazer direito tributário em Toki Pona, e até mesmo a aritmética básica é desajeitada (a língua, é famoso, não tinha palavras nativas para números acima de dois; depois, o sistema <em>wan, tu, luka, mute, ale</em> deu 1, 2, 5, 20, 100/muito, em um estilo de palitos de contagem).</p>
 
@@ -588,7 +588,7 @@ window.TRIVIA_I18N['pt'] = {
   },
   'ithkuil-complexity': {
     title: 'Ithkuil — a língua construída tão densa que seu inventor não consegue falá-la',
-    summary: 'John Quijada passou quatro décadas projetando uma língua destinada a expressar precisão máxima em espaço mínimo. O resultado tem cerca de 92 fonemas, dezenas de casos, e uma sentença tão densa que uma palavra pode traduzir-se como um parágrafo.',
+    summary: 'John Quijada passou quatro décadas projetando uma língua destinada a expressar precisão máxima em espaço mínimo. O resultado tinha 82 fonemas em sua primeira versão, dezenas de casos, e uma sentença tão densa que uma palavra pode traduzir-se como um parágrafo.',
     body: `
 <p>A maioria das línguas construídas visa ser <em>fácil</em>. O <strong>Ithkuil</strong> é o oposto: é uma <em>língua engendrada</em> (uma "engelang") cujo objetivo explícito é expressar, no menor número possível de morfemas, a maior quantidade possível de informação cognitiva — ser, como diz seu criador, "um experimento idealizado de engenharia linguística".</p>
 
@@ -596,12 +596,12 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="40" data-lng="0" data-zoom="3">🗺️ Voar para o lar do Ithkuil (lugar nenhum)</button>
 </div>
 
-<p>O criador é <strong>John Quijada</strong>, um linguista americano e ex-funcionário do DMV na Califórnia, que começou a esboçar o que viria a ser o Ithkuil — originalmente <em>Tikəlh Khəi</em>, "TKE" — em 1978. Publicou a primeira versão completa em 2004 em seu site pessoal, depois um <strong>TNIL</strong> revisado (Ithkuil III / "Ithkuil 2011") em 2011, e continuou refinando-o até 2020. Ele nunca afirmou que o Ithkuil deveria ser uma língua de comunidade. Chama-o de experimento de pensamento.</p>
+<p>O criador é <strong>John Quijada</strong>, um linguista americano e ex-funcionário do DMV na Califórnia, que começou a esboçar o que viria a ser o Ithkuil em 1978, depois de tentativas anteriores que chamou de <em>Mbozo</em> e <em>Pskeoj</em>. Publicou a primeira versão completa em 2004 em seu site pessoal, depois, em 2007, uma reformulação simplificada chamada <strong>Ilaksh</strong>, voltou atrás e a ampliou como Ithkuil III ("Ithkuil 2011") em 2011, refinando-a até 2020 — e em fevereiro de 2023 substituiu-a de vez por uma língua sucessora, <strong>New Ithkuil</strong> (TNIL, "The New Ithkuilic Language"). Ele nunca afirmou que o Ithkuil deveria ser uma língua de comunidade. Chama-o de experimento de pensamento.</p>
 
 <p>Alguns dos parâmetros de design induzem vertigem:</p>
 
 <ul>
-  <li>A fonologia de 2004 usava até <strong>92 fonemas</strong>, incluindo ejetivas, uvulares, faríngeas, tom e contrastes de duração. A revisão de 2011 a reduziu, mas ainda está muito acima de qualquer língua natural.</li>
+  <li>A fonologia de 2004 usava <strong>82 fonemas</strong> (65 consoantes e 17 vogais), incluindo ejetivas, uvulares, faríngeas, tom e contrastes de duração. A revisão de 2011 a reduziu a 45 consoantes e 13 vogais: bem mais do que a maioria das línguas, mas não é recorde mundial, já que ao taa (ǃXóõ) de Botsuana se atribuem de 58 a 87 consoantes e de 20 a 31 vogais, conforme a análise.</li>
   <li>Substantivos se flexionam para cerca de <strong>96 casos</strong> em algumas contagens (contra os 18 do húngaro ou os 15 do finlandês).</li>
   <li>Cada palavra codifica simultaneamente: <em>configuração</em>, <em>filiação</em>, <em>perspectiva</em>, <em>essência</em>, <em>extensão</em>, <em>contexto</em> e várias outras categorias que não têm equivalente real em português.</li>
   <li>Verbos carregam marcação obrigatória de <em>validação</em> — como o falante sabe a informação (observação direta, inferência, ouvir dizer, intuição, etc.) — em um sistema muito mais elaborado do que qualquer sistema natural de evidencialidade.</li>
@@ -617,7 +617,7 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="34" data-lng="-118" data-zoom="4">🗺️ Voar até a Califórnia (lar de Quijada)</button>
 </div>
 
-<p>O Ithkuil saltou para a fama mais ampla em <strong>dezembro de 2012</strong>, quando Joshua Foer publicou um perfil em <em>The New Yorker</em> intitulado "Utopian for Beginners". Foer relatou que uma comunidade de fãs russa havia organizado simpósios, que estudantes faziam tatuagens na escrita construída, e que dois linguistas calmuques haviam até tentado tornar o Ithkuil matéria oficial do currículo na República da Calmúquia (o projeto fracassou).</p>
+<p>O Ithkuil saltou para a fama mais ampla em <strong>dezembro de 2012</strong>, quando Joshua Foer publicou um perfil em <em>The New Yorker</em> intitulado "Utopian for Beginners". Foer relatou que em torno da língua havia surgido um público de fala russa entre os adeptos da "psiconética", um movimento de desenvolvimento pessoal: em julho de 2010 Quijada foi levado a um congresso em Elista, capital da república russa da Calmúquia, e em maio de 2011 a um segundo em Kiev. No congresso de Kiev, Oleg Bakhtiyarov — o psicólogo que liderava o movimento e dirigia uma pequena instituição privada chamada "Universidade do Desenvolvimento Eficaz", e nada linguista — anunciou que, a partir do semestre seguinte, o Ithkuil seria matéria obrigatória do currículo daquela escola em Kiev e em três campi filiais. Cada vez mais desconfortável com o grupo, Quijada recusou o convite seguinte de Bakhtiyarov.</p>
 
 <p>O próprio Quijada admitiu que <strong>não consegue falar Ithkuil fluentemente</strong>. Gerar uma única sentença em tempo real requer escolher conscientemente entre dezenas de categorias gramaticais antes de abrir a boca. Disse em entrevistas que, mesmo após trinta anos, às vezes precisa de minutos para compor uma única sentença em sua própria língua.</p>
 
@@ -641,7 +641,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Antes do Hangul, os coreanos escreviam em <em>Hanja</em> (caracteres chineses clássicos), um sistema tão exigente que a alfabetização era efetivamente restrita à classe aristocrática masculina <em>yangban</em>. Sejong queria uma escrita que os iletrados pudessem aprender em uma única manhã.</p>
 
-<p>O que ele e seus eruditos produziram é, por consenso linguístico, o único <strong>alfabeto featural</strong> (alfabeto baseado em traços distintivos) em uso ativo hoje — significando que as formas das letras refletem as características fonéticas dos sons que representam:</p>
+<p>O que ele e seus eruditos produziram é o exemplo mais citado de <strong>alfabeto featural</strong> (alfabeto baseado em traços distintivos), uma categoria proposta por Geoffrey Sampson em 1985 e não aceita por todos os estudiosos, com John DeFrancis entre os que discordam — significando que as formas das letras refletem as características fonéticas dos sons que representam:</p>
 
 <ul>
   <li><strong>ㄱ</strong> (g/k) é uma vista lateral da parte de trás da língua subindo para bloquear o ar no palato mole.</li>
@@ -649,7 +649,7 @@ window.TRIVIA_I18N['pt'] = {
   <li><strong>ㅁ</strong> (m) é uma boca fechada.</li>
   <li><strong>ㅅ</strong> (s) tem o formato de um dente — a constrição está nos dentes.</li>
   <li><strong>ㅇ</strong> (ng / mudo) é uma garganta arredondada e aberta.</li>
-  <li>As versões aspiradas e tensas de cada consoante são formadas adicionando traços: ㄱ → ㅋ → ㄲ. A complexidade gráfica acompanha a complexidade fonética.</li>
+  <li>A versão aspirada de cada consoante é formada acrescentando um traço (ㄱ → ㅋ, ㄷ → ㅌ, ㅂ → ㅍ); a versão tensa é formada duplicando a própria letra (ㄱ → ㄲ). De um jeito ou de outro, a complexidade gráfica acompanha a complexidade fonética.</li>
 </ul>
 
 <p>As vogais são ainda mais conceituais. São construídas a partir de três primitivos: uma linha horizontal ─ (terra), uma linha vertical │ (homem), e um ponto · (céu, posteriormente achatado em um pequeno traço). Combinações desses três elementos confucianos dão cada vogal coreana: ㅏ, ㅓ, ㅗ, ㅜ, e assim por diante.</p>
@@ -669,7 +669,7 @@ window.TRIVIA_I18N['pt'] = {
   },
   'cherokee-sequoyah': {
     title: 'Sequoyah — o gênio analfabeto que inventou um sistema de escrita do zero',
-    summary: 'Em 1821, um ourives cherokee que não sabia ler inglês revelou um silabário de 85 caracteres que havia construído sozinho ao longo de 12 anos. Em uma década, observadores contemporâneos relataram que a alfabetização cherokee igualava ou superava a dos colonos brancos vizinhos.',
+    summary: 'Em 1821, um ourives cherokee que não sabia ler inglês revelou um silabário de 86 caracteres — 85 dos quais ainda estão em uso hoje — que havia construído sozinho ao longo de 12 anos. Em uma década, observadores contemporâneos relataram que a alfabetização cherokee igualava ou superava a dos colonos brancos vizinhos.',
     body: `
 <p><strong>Sequoyah</strong> (também grafado ᏍᏏᏉᏯ <em>Ssiquoya</em>, ou em inglês George Guess, c. 1770–1843) é uma das únicas pessoas na história registrada conhecidas por ter inventado um sistema de escrita plenamente funcional a partir do nada, sendo pessoalmente analfabeta em qualquer língua. A história é tão improvável que comentaristas do século XIX continuaram tentando explicá-la. Aconteceu mesmo assim.</p>
 
@@ -702,11 +702,11 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>O que aconteceu em seguida é sem precedentes na história da alfabetização. A Nação Cherokee adotou o silabário por decreto oficial em 1825. Em 1828, começaram a publicar <em>Tsalagi Tsulehisanvhi / Cherokee Phoenix</em>, o primeiro jornal indígena norte-americano, impresso bilinguemente em cherokee e inglês em tipos do silabário fundidos sob medida. Em cerca de dez anos a partir da demonstração de Sequoyah em 1821, observadores contemporâneos — incluindo missionários americanos — estimaram que <strong>a alfabetização cherokee em sua própria escrita excedia a taxa de alfabetização em inglês dos colonos brancos vizinhos</strong>.</p>
 
-<blockquote>"Em poucos meses, ele havia completado seu sistema… e toda a nação foi eletrificada com a descoberta." — Samuel Lorenzo Knapp, <em>Lectures on American Literature</em>, 1829</blockquote>
+<blockquote>"As tribos observaram aqueles jovens com apreensão durante vários meses; e quando eles se apresentaram ao exame, a emoção de todos chegou ao ponto mais alto." — Samuel Lorenzo Knapp, <em>Lectures on American Literature</em>, 1829</blockquote>
 
-<p>O triunfo foi seguido pela tragédia. Em 1838–1839, apesar do estado moderno alfabetizado, constitucional e editor de jornal da Nação Cherokee, o governo do presidente Andrew Jackson forçou sua remoção para o oeste na <strong>Trilha das Lágrimas</strong>; estima-se que 4.000 de 16.000 cherokee morreram. O silabário foi com eles. Sequoyah morreu em 1843 no México, procurando uma banda separada de cherokee que se rumorava existir.</p>
+<p>O triunfo foi seguido pela tragédia. Em 1838–1839, apesar do estado moderno alfabetizado, constitucional e editor de jornal da Nação Cherokee, o governo do presidente Martin Van Buren — que executava o tratado de remoção que Andrew Jackson havia obtido — forçou sua remoção para o oeste na <strong>Trilha das Lágrimas</strong>; estima-se que 4.000 de 16.000 cherokee morreram. O silabário foi com eles. Sequoyah morreu em 1843 no México, procurando uma banda separada de cherokee que se rumorava existir.</p>
 
-<p>Hoje, o silabário cherokee é ensinado em escolas de imersão em Tahlequah, Oklahoma, e Cherokee, Carolina do Norte. Está em Unicode (U+13A0–U+13FF), suportado pelos sistemas operacionais da Apple e Google, e tem sido usado para escrever tudo, desde traduções da Bíblia até postagens modernas em redes sociais. A gigantesca sequoia da Califórnia <em>Sequoia sempervirens</em> tem seu nome em sua homenagem. O homem não sabia ler. Deu a uma nação uma escrita.</p>
+<p>Hoje, o silabário cherokee é ensinado em escolas de imersão em Tahlequah, Oklahoma, e Cherokee, Carolina do Norte. Está em Unicode (U+13A0–U+13FF), suportado pelos sistemas operacionais da Apple e Google, e tem sido usado para escrever tudo, desde traduções da Bíblia até postagens modernas em redes sociais. Diz-se tradicionalmente que a sequoia-vermelha da costa da Califórnia <em>Sequoia sempervirens</em> recebeu o nome em sua homenagem, embora ainda se discuta como Endlicher chegou a esse nome em 1847. O homem não sabia ler. Deu a uma nação uma escrita.</p>
     `,
   },
   'vai-dream-script': {
@@ -726,7 +726,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Bukele não inventou a escrita inteiramente sozinho; convocou um pequeno grupo de companheiros vai — Wonu Wulen, Maule e outros — e o silabário foi concluído coletivamente. A primeira versão tinha aproximadamente <strong>200 caracteres</strong>, um por sílaba vai mais um punhado de logogramas. Um conjunto moderno padronizado, codificado em meados do século XX, tem <strong>212 caracteres</strong>.</p>
 
-<p>O vai é uma língua mande, como o mandinka e o bambara, com uma estrutura silábica clara (C)V(N) e sete vogais com tom. O silabário se encaixa exatamente nessa estrutura: cada caractere representa uma unidade consoante + vogal + tom. Alguns caracteres têm origem pictográfica (o símbolo de <em>fa</em>, "pai", baseava-se originalmente em uma barba), mas a maioria são formas geométricas arbitrárias.</p>
+<p>O vai é uma língua mande, como o mandinka e o bambara, com uma estrutura silábica clara (C)V(N) e sete vogais que também carregam tom distintivo. O silabário acompanha de perto essa estrutura: cada caractere representa uma unidade consoante + vogal, e a nasal no fim da sílaba é acrescentada como um sinal à parte (ꘋ). O que ele não escreve é o tom — o vai tem quatro, mas nenhum aparece na página, e o leitor os deduz pelo contexto. Alguns caracteres têm origem pictográfica (o símbolo de <em>fa</em>, "pai", baseava-se originalmente em uma barba), mas a maioria são formas geométricas arbitrárias.</p>
 
 <ul>
   <li>Em uma década após sua revelação em 1834, a escrita vai estava sendo usada para cartas pessoais, contas comerciais, registros judiciais e glosas alcorânicas.</li>
@@ -735,7 +735,7 @@ window.TRIVIA_I18N['pt'] = {
 </ul>
 
 <div class="trivia-actions">
-  <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="vai">💧 "Água" — <em>ꕕ (ja)</em></button>
+  <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="vai">💧 "Água" — <em>ꕀ (ji)</em></button>
   <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="vai">👋 Ver "olá" em vai</button>
 </div>
 
@@ -748,7 +748,7 @@ window.TRIVIA_I18N['pt'] = {
   },
   'tangut-deciphered': {
     title: 'Tangute — a escrita perdida de um império esquecido',
-    summary: 'Uma língua sino-tibetana escrita em cerca de 6.000 logogramas construídos à mão, inventada por decreto imperial em 1036 e esquecida por 700 anos — até que um linguista russo a arrastou de volta dos mortos.',
+    summary: 'Uma língua sino-tibetana escrita em cerca de 6.000 logogramas construídos à mão, inventada por decreto imperial em 1036 e esquecida por 400 anos — até que um linguista russo a arrastou de volta dos mortos.',
     body: `
 <p>Em 1036 EC, o imperador <strong>Li Yuanhao</strong> da dinastia <strong>Xia Ocidental</strong> (Xixia / 西夏) decretou que seu povo, os tangutes, deveria ter um sistema de escrita digno de si. Seu erudito Yeli Renrong teria inventado toda a escrita em poucos anos — cerca de <strong>6.000 logogramas</strong>, cada um um projeto novo, deliberadamente parecido, mas sem tomar emprestado do chinês. O resultado é o <strong>tangute (西夏文)</strong>: um dos sistemas de escrita mais visualmente densos já criados.</p>
 
@@ -757,14 +757,14 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="38.5" data-lng="106" data-zoom="5">🗺️ Voar até o coração de Xixia</button>
 </div>
 
-<p>O império Xia Ocidental, centrado no que é hoje Ningxia e Gansu no noroeste da China, durou quase dois séculos — tempo suficiente para produzir cânones budistas, dicionários, códigos legais, histórias dinásticas e uma vasta burocracia, tudo em tangute. Então, em <strong>1227</strong>, os mongóis de Gengis Khan arrasaram-no. O tangute sobreviveu um pouco mais como língua litúrgica e erudita, mas na dinastia Ming ninguém conseguia lê-lo. A escrita desapareceu do uso ativo.</p>
+<p>O império Xia Ocidental, centrado no que é hoje Ningxia e Gansu no noroeste da China, durou quase dois séculos — tempo suficiente para produzir cânones budistas, dicionários, códigos legais, histórias dinásticas e uma vasta burocracia, tudo em tangute. Então, em <strong>1227</strong>, os mongóis de Gengis Khan arrasaram-no. O tangute sobreviveu séculos ao próprio império. Comunidades dispersas para leste continuaram a escrevê-lo como língua litúrgica e erudita, e os últimos textos tangutes datáveis são dois pilares budistas de dhāraṇī erguidos em Baoding, em Hebei — cerca de 800 km a leste da antiga capital de Xixia — em <strong>1502</strong>, em plena dinastia Ming. Depois disso a escrita desapareceu do uso ativo.</p>
 
-<p>O que os linguistas eventualmente redescobriram foi uma língua <strong>sino-tibetana</strong> — muito provavelmente no ramo <strong>qiang</strong> — com ricos contrastes tonais, complexos encontros consonantais iniciais reconstruídos a partir de tabelas de rimas, e uma predileção por logogramas compostos em que os radicais são <em>emprestados uns dos outros</em> em vez de qualquer ancestral chinês. Um caractere tangute típico tem 15–20 traços; alguns têm mais de 30.</p>
+<p>O que os linguistas eventualmente redescobriram foi uma língua <strong>sino-tibetana</strong> — muito provavelmente no ramo <strong>qiang</strong> — com uma oposição de apenas dois tons (plano 平聲 e ascendente 上聲), complexos encontros consonantais iniciais reconstruídos a partir de tabelas de rimas, e uma predileção por logogramas compostos em que os radicais são <em>emprestados uns dos outros</em> em vez de qualquer ancestral chinês. Um caractere tangute típico tem 15–20 traços; alguns têm mais de 30.</p>
 
 <ul>
   <li><strong>Criada, não evoluída.</strong> Diferentemente do chinês, cujos caracteres cresceram organicamente ao longo de milênios, cada logograma tangute foi projetado de uma vez, em uma única oficina imperial. Esta é uma das pouquíssimas escritas "construídas" em grande escala na história humana.</li>
   <li><strong>Fonologia por tabela.</strong> Como nenhum falante nativo sobrevive, toda a reconstrução do som tangute depende de dicionários bilíngues de rimas — especialmente o <em>Wénhǎi</em> (文海) e o <em>Tóngyīn</em> (同音), que agrupam caracteres por inicial, rima e tom.</li>
-  <li><strong>Uma biblioteca budista subterrânea.</strong> Em 1908, o explorador russo <strong>Piotr Kozlov</strong> escavou a cidade em ruínas de Khara-Khoto e enviou milhares de manuscritos tangutes para São Petersburgo — ainda a maior coleção do mundo.</li>
+  <li><strong>Uma biblioteca budista subterrânea.</strong> Em 1908, o explorador russo <strong>Piotr Kozlov</strong> chegou à cidade em ruínas de Khara-Khoto e começou a escavar; ao regressar, em junho de 1909, abriu uma estupa fora das muralhas e enviou milhares de livros e manuscritos tangutes para São Petersburgo — ainda a maior coleção do mundo.</li>
 </ul>
 
 <div class="trivia-actions">
@@ -772,13 +772,13 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="txg">💧 Ver "água" em tangute</button>
 </div>
 
-<p>O decifrador foi <strong>Nikolai Nevsky</strong> (1892–1937), um japanólogo russo que passou os anos 1920 no Japão e em Taiwan e voltou sua atenção ao tesouro de Khara-Khoto ao retornar a Leningrado. Em 1929, Nevsky havia desvendado a estrutura fonológica básica e construído o primeiro dicionário tangute-russo funcional. Sua obra-prima, <em>Tangutskaya Filologiya</em>, foi publicada postumamente em 1960 — Nevsky havia sido fuzilado no Grande Expurgo de Stalin em 1937. Foi agraciado com o Prêmio Lenin após a morte.</p>
+<p>Quem mais contribuiu para decifrá-lo foi <strong>Nikolai Nevsky</strong> (1892–1937), um japanólogo russo que passou os anos 1920 no Japão e em Taiwan. Dedicou-se ao tesouro de Khara-Khoto já em 1925, quando ainda vivia no Japão, e depois de voltar a Leningrado em 1929 passou a década seguinte a desvendar sua estrutura fonológica e a compor o primeiro dicionário tangute-russo. Sua obra-prima, <em>Tangutskaya Filologiya</em>, foi publicada postumamente em 1960 — Nevsky havia sido fuzilado no Grande Expurgo de Stalin em 1937. Foi agraciado com o Prêmio Lenin após a morte.</p>
 
 <blockquote>"Cada caractere tangute é um pequeno problema arquitetônico: os traços não apenas soletram um som, eles ladrilham um quadrado." — parafraseado de M. V. Sofronov</blockquote>
 
 <p>Mais tarde, <strong>Mikhail Sofronov</strong> refinou a reconstrução fonológica nos anos 1960; <strong>Ksenia Kepping</strong> trabalhou em gramática e textos rituais; hoje pesquisadores em Pequim, Quioto, Taipé e São Petersburgo continuam a publicar edições de manuscritos recém-catalogados. Questões significativas permanecem — o sistema tonal exato, a posição genética mais profunda dentro do sino-tibetano, o significado de dezenas de caracteres raros que ocorrem apenas uma ou duas vezes no corpus.</p>
 
-<p>O tangute é um lembrete de que "língua morta" raramente é um veredicto final. Uma escrita inventada em uma única década, usada por milhões, esquecida por sete séculos, ainda pode ser persuadida a voltar à fala — desde que alguém seja teimoso o suficiente para passar uma vida em tabelas de rimas.</p>
+<p>O tangute é um lembrete de que "língua morta" raramente é um veredicto final. Uma escrita inventada em uma única década, usada por milhões, esquecida por quatro séculos, ainda pode ser persuadida a voltar à fala — desde que alguém seja teimoso o suficiente para passar uma vida em tabelas de rimas.</p>
     `,
   },
   'linear-a-undeciphered': {
@@ -798,7 +798,7 @@ window.TRIVIA_I18N['pt'] = {
 <ul>
   <li><strong>O problema da leitura está quase resolvido.</strong> Aproximadamente 70–80% dos sinais do Linear A têm equivalentes acordados no Linear B. Podemos transliterar a maioria das tábuas.</li>
   <li><strong>O problema da tradução está essencialmente intocado.</strong> Podemos ler <em>ku-ro</em> (que provavelmente significa "total", já que aparece no final de listas numéricas), <em>ja-sa-sa-ra</em> (uma fórmula de libação recorrente, possivelmente um nome divino), e um punhado de nomes de lugares que sobrevivem no grego posterior. Além disso, quase nada.</li>
-  <li><strong>1.400 inscrições parecem muitas. Não são.</strong> A maioria tem uma ou duas palavras de comprimento: um nome, um número, um produto. O corpus é aproximadamente do tamanho de um romance curto — e a maior parte dele é contabilidade.</li>
+  <li><strong>1.400 inscrições parecem muitas. Não são.</strong> A maioria tem uma ou duas palavras de comprimento: um nome, um número, um produto. O corpus inteiro soma cerca de 7.400 sinais — alguns milhares de palavras, não mais longo que um conto — e a maior parte dele é contabilidade.</li>
 </ul>
 
 <div class="trivia-actions">
@@ -915,7 +915,7 @@ window.TRIVIA_I18N['pt'] = {
 <p>O sistema tem quatro termos centrais — embora, como mostrou o cuidadoso trabalho de campo de Stephen Levinson nos anos 1980 e 1990, eles não sejam exatamente "norte/sul/leste/oeste" no sentido português:</p>
 
 <ul>
-  <li><strong><em>gungga</em></strong> ≈ <strong>norte</strong> (com eixo girado cerca de 10–15° a leste do norte verdadeiro)</li>
+  <li><strong><em>gungga</em></strong> ≈ <strong>norte</strong> (todo o sistema de quatro termos está ligeiramente girado no sentido horário em relação ao norte verdadeiro)</li>
   <li><strong><em>jiba</em></strong> ≈ <strong>sul</strong></li>
   <li><strong><em>naga</em></strong> ≈ <strong>leste</strong> (em direção ao nascer do sol)</li>
   <li><strong><em>guwa</em></strong> ≈ <strong>oeste</strong> (em direção ao pôr do sol)</li>
@@ -929,7 +929,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>A consequência cognitiva, documentada por Levinson, John Haviland e colegas do Instituto Max Planck, é marcante. Falantes de Guugu Yimithirr mantêm um senso ininterrupto de <strong>navegação por estima</strong> da sua orientação. Em experimentos, podem apontar com precisão para lugares distantes (o mar, um assentamento vizinho, a casa de um parente a centenas de quilômetros de distância) independentemente de estarem sentados em uma sala sem janelas, vendados, depois de serem conduzidos de carro em círculos, ou no fundo de uma caverna. A bússola cardeal deles simplesmente não se desliga.</p>
 
-<p>Esta não é uma habilidade especial de alguns anciãos. É uma <strong>propriedade universal dos falantes fluentes</strong>, aprendida na primeira infância. Crianças de três anos gesticulam cardealmente. A maquinaria mental é construída pela língua e constantemente exercitada pela demanda de falar sobre isso.</p>
+<p>Esta não é uma habilidade especial de alguns anciãos. Entre os falantes mais velhos e mais fluentes, é uma <strong>propriedade de toda a comunidade de fala</strong>, adquirida na infância. As crianças não absorvem o sistema de uma vez, mas aos poucos: o trabalho de campo de Lourdes de León com falantes pequenos em Hopevale, relatado por Haviland, traça um percurso que vai de ouvir uma palavra como <em>naga</em> como um vago "para lá", a ligá-la a lugares concretos como a praia, depois a toda uma região, e só no fim a um contraste direcional abstrato de quatro termos. A maquinaria mental é construída pela língua e constantemente exercitada pela demanda de falar sobre isso.</p>
 
 <blockquote>"Você não pode falar Guugu Yimithirr sem sempre saber onde fica o norte." — paráfrase de Stephen Levinson, 1997</blockquote>
 
@@ -961,8 +961,8 @@ window.TRIVIA_I18N['pt'] = {
 <ul>
   <li><em>wa-</em> — prefixo factual / pretérito</li>
   <li><em>shako-</em> — sujeito singular masculino agindo sobre objeto singular feminino ("ele … a ela")</li>
-  <li><em>-ya't-</em> — referência ao corpo / a si mesmo</li>
-  <li><em>-awitshera-</em> — raiz nominal incorporada: "vestido, roupa"</li>
+  <li><em>-ya't-</em> — "corpo" — a primeira metade do substantivo incorporado abaixo, não um elemento separado</li>
+  <li><em>-awitshera-</em> — <em>-awi-</em> "vestir" mais o nominalizador <em>-tsher-</em>; junto com o <em>-ya't-</em> "corpo" precedente, forma o substantivo incorporado <em>-ya'tawitshera-</em> "vestido, roupa", literalmente "aquilo que se veste no corpo" (cf. kanien'kéha <em>atià:tawi</em> "camisa, casaco, vestido")</li>
   <li><em>-hetkv-</em> — raiz verbal: "ser ruim, arruinar"</li>
   <li><em>-ht-</em> — causativo ("fazer X")</li>
   <li><em>-a's-</em> — benefactivo ("para ela")</li>
@@ -976,13 +976,13 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="father" data-code="moh">👨 Ver "pai" em mohawk</button>
 </div>
 
-<p>Os verbos mohawk também marcam obrigatoriamente um complexo <strong>prefixo pronominal</strong> que funde pessoa, número e gênero do sujeito e do objeto em um morfema portmanteau. Há mais de <strong>60</strong> desses prefixos no paradigma, distinguindo, por exemplo, "eu → você (sg)" de "eu → vocês (pl)" de "você (sg) → me" — cada um uma única sílaba. Aprender a tabela de prefixos é amplamente considerado a subida mais íngreme da língua.</p>
+<p>Os verbos mohawk também marcam obrigatoriamente um complexo <strong>prefixo pronominal</strong> que funde pessoa, número e gênero do sujeito e do objeto em um morfema portmanteau. Há <strong>58</strong> desses prefixos no paradigma, distinguindo, por exemplo, "eu → você (sg)" de "eu → vocês (pl)" de "você (sg) → me" — cada um uma única sílaba. Aprender a tabela de prefixos é amplamente considerado a subida mais íngreme da língua.</p>
 
 <p>A polissíntese levanta uma questão profunda para a tipologia linguística. Uma "palavra" mohawk é o mesmo tipo de unidade que uma "palavra" em português? Mark Baker, em seu influente <em>The Polysynthesis Parameter</em> (1996), argumentou que línguas polissintéticas obedecem às suas próprias restrições sintáticas — por exemplo, não são exigidos argumentos pronominais independentes porque o verbo já os carrega — e que representam uma configuração paramétrica alternativa a línguas como o inglês. Outros, incluindo Mithun, preferem descrever o mohawk em seus próprios termos em vez de encaixá-lo em um parâmetro universalista.</p>
 
 <blockquote>"No mohawk, o verbo é um pequeno teatro. Os atores entram antes que a cortina se abra e raramente saem do palco." — paráfrase de Marianne Mithun, 1999</blockquote>
 
-<p>O movimento de revitalização importa aqui. As escolas de imersão Kanien'kéha — a Kahnawà:ke Survival School e a Akwesasne Freedom School são as mais conhecidas — produziram uma nova geração de falantes que lidam com aquela tabela pronominal de 60 células com fluência nativa. O mohawk mostra que a polissíntese não é um fóssil do passado; é uma estratégia gramatical viva, tão expressiva quanto qualquer analítica, e agora conscientemente reconstruída por comunidades determinadas a que o <em>Kanien'kéha</em> continue.</p>
+<p>O movimento de revitalização importa aqui. As escolas de imersão Kanien'kéha — a Kahnawà:ke Survival School e a Akwesasne Freedom School são as mais conhecidas — produziram uma nova geração de falantes que lidam com aquela tabela pronominal de 58 células com fluência nativa. O mohawk mostra que a polissíntese não é um fóssil do passado; é uma estratégia gramatical viva, tão expressiva quanto qualquer analítica, e agora conscientemente reconstruída por comunidades determinadas a que o <em>Kanien'kéha</em> continue.</p>
 
 <p>Outras línguas polissintéticas clássicas — inuktitut, yupik central da Sibéria, chukchi, ainu, sora — confirmam que o padrão recorre em todos os continentes. Mas pela pura densidade de informação gramatical por palavra, as línguas iroquesas, e o mohawk em particular, continuam sendo o protótipo que os manuais buscam primeiro.</p>
     `,
@@ -1002,12 +1002,12 @@ window.TRIVIA_I18N['pt'] = {
 
 <blockquote><em>xłp̓x̣ʷłtłpłłskʷc̓</em><br>"então ele havia tido em sua posse uma planta de Cornus canadensis"</blockquote>
 
-<p>Leia isso novamente. Não há um único <em>a</em>, <em>e</em>, <em>i</em>, <em>o</em> ou <em>u</em> — nem mesmo um shwa. Mas os falantes de Nuxalk pronunciam-na como uma palavra fluente e ininterrupta. Outros clássicos incluem <em>clhp̓xʷłtłpłłs</em> ("ele havia tido uma planta de Cornus canadensis"), <em>tłk̓ʷixʷ</em> ("você cuspiu em mim"), e até sentenças de uma palavra como <em>sps</em> ("vento nordeste").</p>
+<p>Leia isso novamente. Não há um único <em>a</em>, <em>e</em>, <em>i</em>, <em>o</em> ou <em>u</em> — nem mesmo um shwa. Mas os falantes de Nuxalk pronunciam-na como uma palavra fluente e ininterrupta. Outros clássicos incluem <em>p̓x̣ʷłt</em> ("Cornus canadensis"), <em>cktskʷc</em> ("ele chegou"), <em>łxʷtłcxʷ</em> ("você cuspiu em mim"), e até sentenças de uma palavra como <em>sps</em> ("vento nordeste").</p>
 
 <p>Como isso é possível? Na maioria das línguas, toda sílaba é construída em torno de uma <strong>vogal</strong> — um núcleo aberto e sonoro que carrega o sopro. O Nuxalk parece quebrar essa regra. Duas análises principais foram propostas:</p>
 
 <ul>
-  <li><strong>Obstruintes como núcleos silábicos.</strong> Nater, e mais tarde <strong>Eung-Do Cook</strong> e <strong>Bruce Bagemihl</strong>, argumentaram que mesmo consoantes não soantes — oclusivas e fricativas — podem servir como o coração de uma sílaba em Nuxalk. O <em>s</em> em <em>sps</em> simplesmente <em>é</em> a sílaba.</li>
+  <li><strong>Obstruintes como núcleos silábicos.</strong> Nater, e antes dele <strong>James E. Hoard</strong>, argumentaram que mesmo consoantes não soantes — oclusivas e fricativas — podem servir como o coração de uma sílaba em Nuxalk. O <em>s</em> em <em>sps</em> simplesmente <em>é</em> a sílaba.</li>
   <li><strong>Nenhuma sílaba.</strong> A influente dissertação de Bagemihl de 1991 foi além e propôs que as palavras em Nuxalk são organizadas não em sílabas, mas diretamente em <strong>slots de tempo moraicos</strong>, tornando a noção de "núcleo silábico" irrelevante.</li>
 </ul>
 
@@ -1016,11 +1016,11 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="blc">☀️ Ver "sol" em Nuxalk (snx)</button>
 </div>
 
-<p>Os próprios falantes nativos não percebem uma "vogal faltante". Eles não sentem que estão inserindo um shwa encoberto para tornar a palavra pronunciável — gravações e estudos eletropalatográficos confirmam que as consoantes se sucedem sem nenhuma transição vocálica mensurável entre elas. A palavra <em>xłp̓x̣ʷłtłpłłskʷc̓</em> leva cerca de um segundo para ser pronunciada e é, para o falante, apenas uma palavra.</p>
+<p>Os próprios falantes nativos não percebem uma "vogal faltante". Eles não sentem que estão inserindo um shwa encoberto para tornar a palavra pronunciável — da fonologia de Newman de 1947 ao trabalho de campo e às gravações de Nater, a literatura descritiva não registra nenhuma vogal epentética entre elas. A palavra <em>xłp̓x̣ʷłtłpłłskʷc̓</em> leva cerca de um segundo para ser pronunciada e é, para o falante, apenas uma palavra.</p>
 
 <p>As implicações vão muito além do Nuxalk. Se uma língua pode construir palavras a partir de cadeias de obstruintes puras, então a afirmação universal de que <em>cada sílaba precisa de uma vogal</em> não pode se manter em sua forma mais forte. Os fonólogos agora distinguem mais cuidadosamente entre <strong>sonoridade</strong> (a propriedade acústica) e <strong>caráter de núcleo</strong> (o papel estrutural) — e o Nuxalk é o exemplo que todo mundo ensina.</p>
 
-<p>Hoje restam menos de 20 falantes fluentes de Nuxalk como primeira língua, quase todos anciãos em Bella Coola. A Nação Nuxalk administra programas de imersão e uma iniciativa de casa-da-língua; as gravações feitas por Nater nos anos 1970, e o trabalho mais recente de <strong>Suzanne Gessner</strong> e do First Peoples' Cultural Council, correm para documentar uma fonologia diferente de qualquer outra.</p>
+<p>Hoje restam menos de 20 falantes fluentes de Nuxalk como primeira língua, quase todos anciãos em Bella Coola. A Nação Nuxalk administra programas de imersão e uma iniciativa de casa-da-língua; as gravações feitas por Nater nos anos 1970, e o trabalho de documentação mais recente apoiado pelo First Peoples' Cultural Council, correm para documentar uma fonologia diferente de qualquer outra.</p>
     `,
   },
   'hawaiian-13-phonemes': {
@@ -1035,7 +1035,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Com tão poucos blocos de construção, as palavras são necessariamente longas e ricas em vogais. O resultado é uma das línguas mais musicais da Terra: <em>humuhumunukunukuapuaʻa</em> (o peixe-cabra-de-recife, peixe-símbolo do Havaí), <em>pāhoehoe</em> e <em>ʻaʻā</em> (lava lisa e lava acidentada — ambos os termos emprestados diretamente para a geologia em todo o mundo), e o cotidiano <em>aloha</em>, que simultaneamente significa olá, adeus, amor e compaixão.</p>
 
-<p>O havaiano descende do <strong>proto-polinésio</strong>, trazido por navegadores das Marquesas e Ilhas da Sociedade há aproximadamente 1.000–1.500 anos. Os parentes vivos mais próximos são o marquesano, taitiano e maori — e as correspondências históricas são tão regulares que um falante de maori muitas vezes pode adivinhar um cognato havaiano à primeira vista (maori <em>tangata</em> ↔ havaiano <em>kanaka</em>, "pessoa"; maori <em>whetū</em> ↔ havaiano <em>hōkū</em>, "estrela").</p>
+<p>O havaiano descende do <strong>proto-polinésio</strong>, trazido por navegadores das Marquesas e Ilhas da Sociedade. A datação por radiocarbono de alta precisão empurrou essa chegada para muito mais tarde do que supunham os manuais antigos — as estimativas atuais concentram-se entre cerca de <strong>1000 e 1300 d.C.</strong>, ou seja, mal mil anos atrás. Os parentes vivos mais próximos são o marquesano, taitiano e maori — e as correspondências históricas são tão regulares que um falante de maori muitas vezes pode adivinhar um cognato havaiano à primeira vista (maori <em>tangata</em> ↔ havaiano <em>kanaka</em>, "pessoa"; maori <em>whetū</em> ↔ havaiano <em>hōkū</em>, "estrela").</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="haw">☀️ Ver "sol" em havaiano</button>
@@ -1050,7 +1050,7 @@ window.TRIVIA_I18N['pt'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 Voar até Hilo, coração do renascimento</button>
 </div>
 
-<p>O Censo dos EUA de 2016 estimou <strong>~18.000 falantes de havaiano</strong>; as próprias pesquisas do estado colocam o número perto de 24.000 e crescendo. Pela primeira vez em mais de um século, a língua tem novamente crianças como falantes nativos. O inventário fonêmico ainda é 13. O futuro, no entanto, expandiu-se imensuravelmente.</p>
+<p>Um relatório do estado do Havaí de 2016 contou <strong>~18.400 pessoas</strong> que falam havaiano em casa; em 2024 o Office of Hawaiian Affairs colocou esse número em <strong>27.338</strong> — um aumento de quase 50% em menos de uma década, com cerca de 33.000 falantes de havaiano em casa em todo o país. Pela primeira vez em mais de um século, a língua tem novamente crianças como falantes nativos. O inventário fonêmico ainda é 13. O futuro, no entanto, expandiu-se imensuravelmente.</p>
     `,
   },
   'nicaraguan-sign-language': {
@@ -1072,16 +1072,16 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>A linguista americana <strong>Judy Kegl</strong> foi convidada a estudar a situação em 1986. Rapidamente percebeu que o que estava vendo era sem precedentes. Junto com <strong>Ann Senghas</strong>, <strong>Marie Coppola</strong> e outros, ela documentou a língua através das coortes desde então. Sua descoberta marcante:</p>
 
-<blockquote>"As crianças que chegaram mais jovens e em maior número sinalizavam de maneiras sistematicamente mais complexas e mais gramaticais do que a sinalização da coorte mais velha de primeira geração que forneceu sua entrada." — Senghas, Kita & Özyürek, <em>Science</em> 2004</blockquote>
+<blockquote>"O presente estudo mostra que as crianças que inicialmente criaram a língua começaram a analisar eventos complexos em elementos básicos e a ordenar esses elementos em expressões hierarquicamente estruturadas, seguindo princípios não observados nos gestos que acompanham a fala na língua do entorno. Coortes sucessivas de aprendizes ampliaram esse procedimento, transformando a sinalização nicaraguense de sua forma gestual inicial em um sistema linguístico." — Senghas, Kita & Özyürek, <em>Science</em> 2004</blockquote>
 
 <p>Esse é apoio empírico direto à ideia de que <strong>a língua é uma saída criativa da mente da criança</strong>, não apenas uma gravação passiva da entrada. As crianças em coortes sucessivas inventaram independentemente características — como decompor eventos de movimento em componentes de "trajeto" e "modo" — que nenhum adulto lhes havia dado, e que se assemelham notavelmente a características documentadas em outras línguas de sinais estabelecidas.</p>
 
-<p>Hoje, a ISN tem talvez 3.000 sinalizadores e uma robusta comunidade surda organizada através da <em>Asociación Nacional de Sordos de Nicaragua</em>. É uma das línguas plenamente naturais mais recentemente surgidas — e o caso cujo processo de formação inteiro foi capturado de forma mais completa em câmera, no papel e em notas de campo linguístico.</p>
+<p>Hoje, a ISN tem talvez 3.000 sinalizadores e uma robusta comunidade surda organizada através da <em>Asociación Nacional de Sordos de Nicaragua</em>. É uma das línguas mais jovens da Terra, e a gramática de nenhuma outra língua foi acompanhada tão de perto enquanto ainda se formava: os anos de pidgin da primeira coorte tiveram de ser reconstruídos a partir da sinalização desses mesmos sinalizadores já adultos, mas de 1986 em diante cada coorte foi registrada em câmera, no papel e em notas de campo linguístico.</p>
     `,
   },
   'mama-papa-universals': {
     title: 'Por que quase toda língua chama a mãe de "mama"',
-    summary: 'Do inglês mama ao mandarim māma, suaíli mama, quéchua mama e navajo amá — línguas não relacionadas convergem para a mesma palavra de bebê. Roman Jakobson explicou por quê em 1959, e isso não tem nada a ver com ascendência compartilhada.',
+    summary: 'Do inglês mama ao mandarim māma, suaíli mama, quéchua mama e navajo amá — línguas não relacionadas convergem para a mesma palavra de bebê. Roman Jakobson explicou por quê em 1960, e isso não tem nada a ver com ascendência compartilhada.',
     body: `
 <p>Escolha qualquer língua ao acaso. Pergunte como ela diz "mãe". As chances de a palavra começar com <strong>m</strong> e conter um <em>a</em> são desconfortavelmente altas: inglês <em>mama</em>, mandarim <em>māma</em>, suaíli <em>mama</em>, quéchua <em>mama</em>, navajo <em>amá</em>, galês <em>mam</em>, hebraico <em>imá</em>, tagalo <em>nanay</em> / <em>mama</em>, hindi <em>mā</em>, malaiala <em>amma</em>, havaiano <em>makuahine</em> / <em>māmā</em>. Agora pergunte como ela diz "pai". Em uma amostra igualmente vasta você obtém <strong>papa, baba, tata, dada, abba, atta</strong> — uma oclusiva labial ou coronal mais <em>a</em>.</p>
 
@@ -1091,7 +1091,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Isso não é acaso. O antropólogo de Yale <strong>George P. Murdock</strong> reuniu em 1959 um conjunto de dados translinguísticos de 1.072 termos de parentesco de 470 línguas e descobriu que palavras do tipo <em>mama</em> eram usadas para "mãe" em 52% da amostra, e palavras do tipo <em>papa</em>/<em>tata</em>/<em>baba</em> para "pai" em 55%. As línguas abrangem toda família da Terra — indo-europeia, sino-tibetana, niger-congo, austronésia, uto-asteca, pama-nyunga. Não podem todas compartilhar um ancestral comum.</p>
 
-<p>A explicação clássica foi dada no mesmo ano pelo linguista russo-americano <strong>Roman Jakobson</strong>, em um pequeno e belo artigo intitulado <em>"Why 'Mama' and 'Papa'?"</em>. Seu argumento é o seguinte:</p>
+<p>A explicação clássica foi dada um ano depois, em 1960, pelo linguista russo-americano <strong>Roman Jakobson</strong>, em um pequeno e belo artigo intitulado <em>"Why 'Mama' and 'Papa'?"</em>. Seu argumento é o seguinte:</p>
 
 <ul>
   <li>Os primeiros sons que um bebê produz — uma vez que a fase de choro aleatório termina — são as <strong>nasais bilabiais</strong> [m] e as <strong>oclusivas bilabiais</strong> [p, b]. Estas requerem apenas que os lábios fechem e abram; nenhum controle de língua é necessário. A vogal padrão que emerge de uma boca ligeiramente aberta é <strong>[a]</strong>.</li>
@@ -1122,7 +1122,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Ninguém jamais escreveu o PIE. No entanto, os linguistas citam com confiança palavras do PIE: <em>*ph₂tḗr</em> "pai", <em>*méh₂tēr</em> "mãe", <em>*wódr̥</em> "água", <em>*ǵneh₃-</em> "saber", <em>*kʷékʷlos</em> "roda". Como podem?</p>
 
-<p>O avanço veio em 1786, quando o juiz britânico <strong>Sir William Jones</strong> anunciou perante a Sociedade Asiática de Bengala que o sânscrito, o grego e o latim mostravam uma relação "tão forte que nenhum filólogo poderia examinar os três sem acreditar que brotaram de alguma fonte comum, que talvez não exista mais." No século seguinte, <strong>Franz Bopp</strong>, <strong>Rasmus Rask</strong>, <strong>Jacob Grimm</strong> e <strong>August Schleicher</strong> desenvolveram o <strong>método comparativo</strong>: alinhar palavras cognatas em línguas filhas, identificar correspondências sonoras regulares e projetá-las de volta a um pai reconstruído.</p>
+<p>O avanço veio em 1786, quando o juiz britânico <strong>Sir William Jones</strong> anunciou perante a Sociedade Asiática de Bengala que o sânscrito, o grego e o latim mostravam uma relação "realmente tão forte que nenhum filólogo poderia examinar os três sem acreditar que brotaram de alguma fonte comum, que talvez não exista mais." No século seguinte, <strong>Franz Bopp</strong>, <strong>Rasmus Rask</strong>, <strong>Jacob Grimm</strong> e <strong>August Schleicher</strong> desenvolveram o <strong>método comparativo</strong>: alinhar palavras cognatas em línguas filhas, identificar correspondências sonoras regulares e projetá-las de volta a um pai reconstruído.</p>
 
 <p>O exemplo mais famoso é a <strong>Lei de Grimm</strong>, formulada em 1822, que descreve a mudança sistemática de consoantes oclusivas no ancestral do germânico. PIE <em>*p</em> tornou-se germânico <em>*f</em>: daí latim <em>pater</em> ↔ inglês <em>father</em>, latim <em>piscis</em> ↔ inglês <em>fish</em>, latim <em>pēs</em> ↔ inglês <em>foot</em>. PIE <em>*t</em> tornou-se <em>*þ</em> (o som <em>th</em>): latim <em>trēs</em> ↔ inglês <em>three</em>. As correspondências são livres de exceções uma vez que regras secundárias (Lei de Verner, 1875) são adicionadas.</p>
 

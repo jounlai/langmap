@@ -10,6 +10,7 @@ const WORD_ORDER = [
     "sun",
     "moon",
     "star",
+    "night",
     // people
     "mother",
     "father",

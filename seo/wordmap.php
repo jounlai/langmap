@@ -206,7 +206,7 @@ function seo_render_wordmap_index(array $data, string $ui): void
 <div class="seo-applink">
   <a href="/wordmap.html"><?= e(seo_t($ui, 'open_app_wm')) ?></a>
 </div>
-<p class="seo-crumbs"><?= e(seo_t($ui, 'see_also')) ?>: <a href="<?= e(seo_path($ui, 'hanmap')) ?>"><?= e(seo_t($ui, 'hm_link')) ?></a> · <a href="<?= e(seo_path($ui, '')) ?>"><?= e(seo_t($ui, 'home')) ?></a></p>
+<p class="seo-crumbs"><?= e(seo_t($ui, 'see_also')) ?>: <a href="<?= e(seo_path($ui, 'hanmap')) ?>"><?= e(seo_t($ui, 'hm_link')) ?></a> · <a href="<?= e(seo_path($ui, 'trivia')) ?>"><?= e(seo_t($ui, 'tri_link')) ?></a> · <a href="<?= e(seo_path($ui, '')) ?>"><?= e(seo_t($ui, 'home')) ?></a></p>
 
 <section class="seo-section">
   <h2><?= e(seo_t($ui, 'languages')) ?> (<?= count($modern) ?>)</h2>

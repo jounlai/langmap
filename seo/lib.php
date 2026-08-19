@@ -217,6 +217,7 @@ const SEO_T = [
         'nf_title' => 'Not found',
         'nf_wm' => 'Word Map index',
         'nf_hm' => 'Han Map index',
+        'tri_link' => 'Trivia', 'tri_brand' => 'LangMap Trivia', 'tri_hub_title' => '{n} linguistic trivia articles', 'tri_hub_desc' => '{n} long-form articles on unusual, surprising and contested languages and scripts — click-free, fully readable.', 'tri_hub_sub' => '{n} articles on languages and writing systems, with sources.', 'tri_tags' => 'Tags', 'tri_more' => 'More on this', 'tri_group_wm' => 'Languages', 'tri_group_hm' => 'Scripts & Han readings',
     ],
     'ja' => [
         'family' => '語族', 'speakers' => '話者数', 'script' => '文字',
@@ -270,6 +271,7 @@ const SEO_T = [
         'nf_title' => '見つかりません',
         'nf_wm' => 'Word Map 索引',
         'nf_hm' => 'Han Map 索引',
+        'tri_link' => '読み物', 'tri_brand' => 'LangMap 読み物', 'tri_hub_title' => '言語学の読み物 {n} 本', 'tri_hub_desc' => '珍しい・驚く・論争のある言語と文字についての長文記事 {n} 本。出典付きで全文掲載。', 'tri_hub_sub' => '言語と文字についての記事 {n} 本（出典付き）。', 'tri_tags' => 'タグ', 'tri_more' => '関連する読み物', 'tri_group_wm' => '言語', 'tri_group_hm' => '文字と漢字音',
     ],
     'ko' => [
         'family' => '어족', 'speakers' => '사용자', 'script' => '문자',
@@ -323,6 +325,7 @@ const SEO_T = [
         'nf_title' => '찾을 수 없음',
         'nf_wm' => 'Word Map 색인',
         'nf_hm' => 'Han Map 색인',
+        'tri_link' => '읽을거리', 'tri_brand' => 'LangMap 읽을거리', 'tri_hub_title' => '언어학 읽을거리 {n}편', 'tri_hub_desc' => '희귀하고 놀랍고 논쟁적인 언어와 문자에 관한 장문 기사 {n}편. 출처 포함 전문 수록.', 'tri_hub_sub' => '언어와 문자에 관한 기사 {n}편(출처 포함).', 'tri_tags' => '태그', 'tri_more' => '관련 읽을거리', 'tri_group_wm' => '언어', 'tri_group_hm' => '문자와 한자음',
     ],
     'zh' => [
         'family' => '语系', 'speakers' => '使用者', 'script' => '文字',
@@ -376,6 +379,7 @@ const SEO_T = [
         'nf_title' => '未找到',
         'nf_wm' => 'Word Map 索引',
         'nf_hm' => 'Han Map 索引',
+        'tri_link' => '读物', 'tri_brand' => 'LangMap 读物', 'tri_hub_title' => '语言学读物 {n} 篇', 'tri_hub_desc' => '关于罕见、令人惊讶及有争议的语言与文字的长文 {n} 篇，附出处，全文可读。', 'tri_hub_sub' => '关于语言与文字的文章 {n} 篇（附出处）。', 'tri_tags' => '标签', 'tri_more' => '相关读物', 'tri_group_wm' => '语言', 'tri_group_hm' => '文字与汉字音',
     ],
     'yue' => [
         'family' => '語系', 'speakers' => '使用者', 'script' => '文字',
@@ -429,6 +433,7 @@ const SEO_T = [
         'nf_title' => '搵唔到',
         'nf_wm' => 'Word Map 索引',
         'nf_hm' => 'Han Map 索引',
+        'tri_link' => '讀物', 'tri_brand' => 'LangMap 讀物', 'tri_hub_title' => '語言學讀物 {n} 篇', 'tri_hub_desc' => '關於罕見、令人驚訝同有爭議嘅語言同文字嘅長文 {n} 篇，附出處，全文可讀。', 'tri_hub_sub' => '關於語言同文字嘅文章 {n} 篇（附出處）。', 'tri_tags' => '標籤', 'tri_more' => '相關讀物', 'tri_group_wm' => '語言', 'tri_group_hm' => '文字同漢字音',
     ],
     'vi' => [
         'family' => 'Ngữ hệ', 'speakers' => 'Người nói', 'script' => 'Chữ viết',
@@ -482,6 +487,7 @@ const SEO_T = [
         'nf_title' => 'Không tìm thấy',
         'nf_wm' => 'Chỉ mục Word Map',
         'nf_hm' => 'Chỉ mục Han Map',
+        'tri_link' => 'Bài đọc', 'tri_brand' => 'LangMap Bài đọc', 'tri_hub_title' => '{n} bài viết về ngôn ngữ học', 'tri_hub_desc' => '{n} bài dài về những ngôn ngữ và hệ chữ viết hiếm, bất ngờ và gây tranh cãi — đọc trọn vẹn, có nguồn.', 'tri_hub_sub' => '{n} bài về ngôn ngữ và chữ viết, kèm nguồn.', 'tri_tags' => 'Thẻ', 'tri_more' => 'Đọc thêm', 'tri_group_wm' => 'Ngôn ngữ', 'tri_group_hm' => 'Chữ viết & âm Hán',
     ],
     'th' => [
         'family' => 'ตระกูลภาษา', 'speakers' => 'ผู้พูด', 'script' => 'อักษร',
@@ -535,6 +541,7 @@ const SEO_T = [
         'nf_title' => 'ไม่พบ',
         'nf_wm' => 'ดัชนี Word Map',
         'nf_hm' => 'ดัชนี Han Map',
+        'tri_link' => 'บทความ', 'tri_brand' => 'LangMap บทความ', 'tri_hub_title' => 'บทความภาษาศาสตร์ {n} เรื่อง', 'tri_hub_desc' => 'บทความยาว {n} เรื่องว่าด้วยภาษาและระบบเขียนที่หายาก น่าประหลาดใจ และเป็นที่ถกเถียง อ่านได้ทั้งเรื่องพร้อมแหล่งอ้างอิง', 'tri_hub_sub' => 'บทความเกี่ยวกับภาษาและอักษร {n} เรื่อง พร้อมแหล่งอ้างอิง', 'tri_tags' => 'แท็ก', 'tri_more' => 'อ่านต่อ', 'tri_group_wm' => 'ภาษา', 'tri_group_hm' => 'อักษรและเสียงอ่านจีน',
     ],
     'id' => [
         'family' => 'Rumpun bahasa', 'speakers' => 'Penutur', 'script' => 'Aksara',
@@ -588,6 +595,7 @@ const SEO_T = [
         'nf_title' => 'Tidak ditemukan',
         'nf_wm' => 'Indeks Word Map',
         'nf_hm' => 'Indeks Han Map',
+        'tri_link' => 'Bacaan', 'tri_brand' => 'LangMap Bacaan', 'tri_hub_title' => '{n} artikel linguistik', 'tri_hub_desc' => '{n} artikel panjang tentang bahasa dan aksara yang langka, mengejutkan, dan diperdebatkan — lengkap dengan sumber.', 'tri_hub_sub' => '{n} artikel tentang bahasa dan aksara, dengan sumber.', 'tri_tags' => 'Tag', 'tri_more' => 'Bacaan terkait', 'tri_group_wm' => 'Bahasa', 'tri_group_hm' => 'Aksara & bacaan Han',
     ],
     'hi' => [
         'family' => 'भाषा परिवार', 'speakers' => 'वक्ता', 'script' => 'लिपि',
@@ -641,6 +649,7 @@ const SEO_T = [
         'nf_title' => 'नहीं मिला',
         'nf_wm' => 'Word Map सूचकांक',
         'nf_hm' => 'Han Map सूचकांक',
+        'tri_link' => 'पठन सामग्री', 'tri_brand' => 'LangMap पठन सामग्री', 'tri_hub_title' => 'भाषाविज्ञान के {n} लेख', 'tri_hub_desc' => 'दुर्लभ, चौंकाने वाली और विवादित भाषाओं व लिपियों पर {n} विस्तृत लेख — स्रोतों सहित पूरा पाठ।', 'tri_hub_sub' => 'भाषाओं और लिपियों पर {n} लेख, स्रोतों सहित।', 'tri_tags' => 'टैग', 'tri_more' => 'इससे जुड़े लेख', 'tri_group_wm' => 'भाषाएँ', 'tri_group_hm' => 'लिपियाँ और हान उच्चारण',
     ],
     'de' => [
         'family' => 'Sprachfamilie', 'speakers' => 'Sprecher', 'script' => 'Schrift',
@@ -694,6 +703,7 @@ const SEO_T = [
         'nf_title' => 'Nicht gefunden',
         'nf_wm' => 'Word-Map-Index',
         'nf_hm' => 'Han-Map-Index',
+        'tri_link' => 'Lesestoff', 'tri_brand' => 'LangMap Lesestoff', 'tri_hub_title' => '{n} sprachwissenschaftliche Artikel', 'tri_hub_desc' => '{n} ausführliche Artikel über seltene, überraschende und umstrittene Sprachen und Schriften — vollständig lesbar, mit Quellen.', 'tri_hub_sub' => '{n} Artikel über Sprachen und Schriftsysteme, mit Quellen.', 'tri_tags' => 'Schlagwörter', 'tri_more' => 'Mehr dazu', 'tri_group_wm' => 'Sprachen', 'tri_group_hm' => 'Schriften & Han-Lesungen',
     ],
     'fr' => [
         'family' => 'Famille', 'speakers' => 'Locuteurs', 'script' => 'Écriture',
@@ -747,6 +757,7 @@ const SEO_T = [
         'nf_title' => 'Introuvable',
         'nf_wm' => 'Index Word Map',
         'nf_hm' => 'Index Han Map',
+        'tri_link' => 'Lectures', 'tri_brand' => 'LangMap Lectures', 'tri_hub_title' => '{n} articles de linguistique', 'tri_hub_desc' => '{n} articles de fond sur des langues et des écritures rares, surprenantes ou contestées — texte intégral, avec sources.', 'tri_hub_sub' => '{n} articles sur les langues et les écritures, avec sources.', 'tri_tags' => 'Étiquettes', 'tri_more' => 'À lire aussi', 'tri_group_wm' => 'Langues', 'tri_group_hm' => 'Écritures et lectures han',
     ],
     'it' => [
         'family' => 'Famiglia', 'speakers' => 'Parlanti', 'script' => 'Scrittura',
@@ -800,6 +811,7 @@ const SEO_T = [
         'nf_title' => 'Non trovato',
         'nf_wm' => 'Indice Word Map',
         'nf_hm' => 'Indice Han Map',
+        'tri_link' => 'Letture', 'tri_brand' => 'LangMap Letture', 'tri_hub_title' => '{n} articoli di linguistica', 'tri_hub_desc' => '{n} articoli approfonditi su lingue e scritture rare, sorprendenti e controverse — testo integrale, con fonti.', 'tri_hub_sub' => '{n} articoli su lingue e sistemi di scrittura, con fonti.', 'tri_tags' => 'Etichette', 'tri_more' => 'Da leggere ancora', 'tri_group_wm' => 'Lingue', 'tri_group_hm' => 'Scritture e letture han',
     ],
     'es' => [
         'family' => 'Familia', 'speakers' => 'Hablantes', 'script' => 'Escritura',
@@ -853,6 +865,7 @@ const SEO_T = [
         'nf_title' => 'No encontrado',
         'nf_wm' => 'Índice Word Map',
         'nf_hm' => 'Índice Han Map',
+        'tri_link' => 'Lecturas', 'tri_brand' => 'LangMap Lecturas', 'tri_hub_title' => '{n} artículos de lingüística', 'tri_hub_desc' => '{n} artículos extensos sobre lenguas y escrituras raras, sorprendentes y discutidas — texto completo, con fuentes.', 'tri_hub_sub' => '{n} artículos sobre lenguas y sistemas de escritura, con fuentes.', 'tri_tags' => 'Etiquetas', 'tri_more' => 'Seguir leyendo', 'tri_group_wm' => 'Lenguas', 'tri_group_hm' => 'Escrituras y lecturas han',
     ],
     'pt' => [
         'family' => 'Família', 'speakers' => 'Falantes', 'script' => 'Escrita',
@@ -906,6 +919,7 @@ const SEO_T = [
         'nf_title' => 'Não encontrado',
         'nf_wm' => 'Índice Word Map',
         'nf_hm' => 'Índice Han Map',
+        'tri_link' => 'Leituras', 'tri_brand' => 'LangMap Leituras', 'tri_hub_title' => '{n} artigos de linguística', 'tri_hub_desc' => '{n} artigos longos sobre línguas e escritas raras, surpreendentes e contestadas — texto integral, com fontes.', 'tri_hub_sub' => '{n} artigos sobre línguas e sistemas de escrita, com fontes.', 'tri_tags' => 'Etiquetas', 'tri_more' => 'Leia também', 'tri_group_wm' => 'Línguas', 'tri_group_hm' => 'Escritas e leituras han',
     ],
     'ru' => [
         'family' => 'Семья', 'speakers' => 'Носители', 'script' => 'Письмо',
@@ -959,6 +973,7 @@ const SEO_T = [
         'nf_title' => 'Не найдено',
         'nf_wm' => 'Указатель Word Map',
         'nf_hm' => 'Указатель Han Map',
+        'tri_link' => 'Статьи', 'tri_brand' => 'LangMap Статьи', 'tri_hub_title' => '{n} лингвистических статей', 'tri_hub_desc' => '{n} развёрнутых статей о редких, неожиданных и спорных языках и системах письма — полный текст с источниками.', 'tri_hub_sub' => '{n} статей о языках и письменностях, с источниками.', 'tri_tags' => 'Теги', 'tri_more' => 'Ещё по теме', 'tri_group_wm' => 'Языки', 'tri_group_hm' => 'Письменности и ханьские чтения',
     ],
     'uk' => [
         'family' => 'Сім’я', 'speakers' => 'Носії', 'script' => 'Письмо',
@@ -1012,6 +1027,7 @@ const SEO_T = [
         'nf_title' => 'Не знайдено',
         'nf_wm' => 'Покажчик Word Map',
         'nf_hm' => 'Покажчик Han Map',
+        'tri_link' => 'Статті', 'tri_brand' => 'LangMap Статті', 'tri_hub_title' => '{n} лінгвістичних статей', 'tri_hub_desc' => '{n} розлогих статей про рідкісні, несподівані та спірні мови й системи письма — повний текст із джерелами.', 'tri_hub_sub' => '{n} статей про мови та писемності, із джерелами.', 'tri_tags' => 'Теги', 'tri_more' => 'Ще за темою', 'tri_group_wm' => 'Мови', 'tri_group_hm' => 'Писемності й ханьські читання',
     ],
     'ar' => [
         'family' => 'العائلة', 'speakers' => 'المتحدثون', 'script' => 'الكتابة',
@@ -1065,6 +1081,7 @@ const SEO_T = [
         'nf_title' => 'غير موجود',
         'nf_wm' => 'فهرس Word Map',
         'nf_hm' => 'فهرس Han Map',
+        'tri_link' => 'مقالات', 'tri_brand' => 'مقالات LangMap', 'tri_hub_title' => '{n} مقالة في اللسانيات', 'tri_hub_desc' => '{n} مقالة مطوّلة عن لغات وكتابات نادرة ومدهشة ومختلَف فيها — نص كامل مع المصادر.', 'tri_hub_sub' => '{n} مقالة عن اللغات وأنظمة الكتابة، مع المصادر.', 'tri_tags' => 'وسوم', 'tri_more' => 'مزيد حول هذا', 'tri_group_wm' => 'اللغات', 'tri_group_hm' => 'الكتابات وقراءات الهان',
     ],
     'he' => [
         'family' => 'משפחה', 'speakers' => 'דוברים', 'script' => 'כתב',
@@ -1118,6 +1135,7 @@ const SEO_T = [
         'nf_title' => 'לא נמצא',
         'nf_wm' => 'אינדקס Word Map',
         'nf_hm' => 'אינדקס Han Map',
+        'tri_link' => 'מאמרים', 'tri_brand' => 'מאמרי LangMap', 'tri_hub_title' => '{n} מאמרים בבלשנות', 'tri_hub_desc' => '{n} מאמרים ארוכים על שפות וכתבים נדירים, מפתיעים ושנויים במחלוקת — טקסט מלא עם מקורות.', 'tri_hub_sub' => '{n} מאמרים על שפות ומערכות כתב, עם מקורות.', 'tri_tags' => 'תגיות', 'tri_more' => 'עוד בנושא', 'tri_group_wm' => 'שפות', 'tri_group_hm' => 'כתבים וקריאות האן',
     ],
     'sw' => [
         'family' => 'Familia', 'speakers' => 'Wasemaji', 'script' => 'Hati',
@@ -1171,6 +1189,7 @@ const SEO_T = [
         'nf_title' => 'Haikupatikana',
         'nf_wm' => 'Faharasa ya Word Map',
         'nf_hm' => 'Faharasa ya Han Map',
+        'tri_link' => 'Makala', 'tri_brand' => 'Makala ya LangMap', 'tri_hub_title' => 'Makala {n} za isimu', 'tri_hub_desc' => 'Makala {n} ndefu kuhusu lugha na mifumo ya uandishi adimu, ya kushangaza na yenye mabishano — matini kamili, yenye vyanzo.', 'tri_hub_sub' => 'Makala {n} kuhusu lugha na mifumo ya uandishi, zenye vyanzo.', 'tri_tags' => 'Vitambulisho', 'tri_more' => 'Soma zaidi', 'tri_group_wm' => 'Lugha', 'tri_group_hm' => 'Mifumo ya uandishi na usomaji wa Han',
     ],
 ];
 
@@ -1507,6 +1526,24 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-index-list a { color: var(--accent); text-decoration: none; }
 .seo-index-list a:hover { text-decoration: underline; }
 .seo-index-list .code { color: var(--muted); font-size: .85rem; }
+/* Trivia ("読み物") pages: long-form prose, and the in-article map controls
+   that seo/trivia.php turns from <button> into a label plus real links. */
+.seo-prose { font-size: 1.05rem; line-height: 1.85; }
+.seo-prose p { margin: 0 0 1.1em; }
+.seo-prose h3 { font-size: 1.25rem; margin: 2em 0 .6em; }
+.seo-prose ul, .seo-prose ol { margin: 0 0 1.2em; padding-inline-start: 1.4em; }
+.seo-prose li { margin: 0 0 .45em; }
+.seo-prose blockquote { margin: 1.2em 0; padding: .1em 0 .1em 1em;
+  border-inline-start: 3px solid var(--line); color: var(--muted); }
+.seo-prose a { color: var(--accent); }
+.trivia-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.2em 0; }
+.trivia-note { display: inline-block; background: #fff8ec; border: 1px solid #f0dfc0;
+  border-radius: .6rem; padding: .35rem .7rem; font-size: .92rem; color: #6b5533; }
+.trivia-note a { color: var(--accent); text-decoration: none; }
+.trivia-note a:hover { text-decoration: underline; }
+.seo-tri-list { columns: 1; }
+.seo-tri-list li { margin: 0 0 1rem; }
+.seo-tri-sum { color: var(--muted); font-size: .95rem; margin-top: .15rem; }
 .seo-applink { margin: 2rem 0; }
 .seo-applink a { display: inline-block; background: var(--accent); color: #fff;
   padding: .7rem 1.3rem; border-radius: .6rem; text-decoration: none; font-weight: 600; }

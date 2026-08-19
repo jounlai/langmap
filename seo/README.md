@@ -1,10 +1,11 @@
 # SEO pages (`/seo`)
 
 Server-side-rendered (SSR), crawlable "big-text" pages that expose the
-**Word Map** and **Han Map** per-language content as standalone HTML. The
-interactive apps render their language popups in JavaScript, which search
-engines don't index well; these PHP pages publish the same data as real,
-localized, crawlable text plus rich internal linking.
+**Word Map** and **Han Map** per-language content — and the **trivia articles**
+("読み物") — as standalone HTML. The interactive apps render their language
+popups and article modals in JavaScript, which search engines don't index well;
+these PHP pages publish the same data as real, localized, crawlable text plus
+rich internal linking.
 
 **Live example:** `https://langmap.heuron.com/en/wordmap/ja`
 
@@ -17,12 +18,15 @@ localized, crawlable text plus rich internal linking.
 /{ui}/hanmap/{lang}      a single Han Map language page
 /{ui}/wordmap/           Word Map language index (hub)
 /{ui}/hanmap/            Han Map language index (hub)
+/{ui}/trivia/{slug}      a single trivia article ("読み物")
+/{ui}/trivia/            article hub, grouped by map
 /{ui}/                   per-UI-language hub
 /sitemap-seo.xml         dynamic sitemap (all langs × all UI prefixes + hreflang)
 ```
 
 - `{ui}` is one of the **19 UI languages**: `en ja ko zh yue vi th id hi de fr it es pt ru uk ar he sw`.
 - `{lang}` is a Word Map / Han Map language code (see `docs/words/LANG_CODES.md`).
+- `{slug}` is a trivia article id (kebab-case), e.g. `piraha-no-numbers`, `tea-tea-cha-cha`.
 - Any non-prefixed legacy path (`/wordmap/{lang}`, `/`, …) **301-redirects** to its `/en/…` equivalent. The canonical URL is always the UI-prefixed one, with `<link rel="alternate" hreflang>` for all 19 UI langs + `x-default`.
 
 ## Build (data export)
@@ -35,7 +39,27 @@ PHP reads:
 node tools/export_seo_data.js
 # → data/wordmap_seo.json
 # → data/hanmap_seo.json
+
+node tools/export_trivia_seo.js      # run AFTER the line above
+# → data/trivia_seo.json
 ```
+
+`export_trivia_seo.js` merges `wordmap_trivia.js` (base is en+ja) with the
+seventeen `wordmap_trivia_<ui>.js` overlays and `hanmap_trivia.js` (all 19
+languages inline), giving 70 articles × 19 UI languages. It also copies the
+language **names** for the codes the in-article buttons point at, so the links
+those buttons become can read "Pirahã" rather than "myp" — which is why it must
+run after `export_seo_data.js`, whose output it reads.
+
+### In-article map buttons
+
+Article bodies contain `<button data-action="focus|panto|compare|setword|setchar" …>`
+controls that drive the interactive map. On an SSR page they would be inert, so
+`seo/trivia.php` rewrites each one at render time: where the target has an SSR
+page (a language code) it becomes the author's label plus a real `<a>` to
+`/{ui}/{map}/{code}`; where it does not (a single Han character), the label is
+kept as plain text and the dead control is dropped. Nothing is hidden behind JS,
+and every article contributes real internal links.
 
 Re-run it whenever any of these change: `wordmap_data.js`, `words/*.js`,
 `wordmap_meta.js`, `hanmap_data.js`, `lang_names.js`, `data.js` (word-order

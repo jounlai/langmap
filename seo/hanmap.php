@@ -209,7 +209,7 @@ function seo_render_hanmap_index(array $data, string $ui): void
 <div class="seo-applink">
   <a href="/hanmap.html"><?= e(seo_t($ui, 'open_app_hm')) ?></a>
 </div>
-<p class="seo-crumbs"><?= e(seo_t($ui, 'see_also')) ?>: <a href="<?= e(seo_path($ui, 'wordmap')) ?>"><?= e(seo_t($ui, 'wm_link')) ?></a> · <a href="<?= e(seo_path($ui, '')) ?>"><?= e(seo_t($ui, 'home')) ?></a></p>
+<p class="seo-crumbs"><?= e(seo_t($ui, 'see_also')) ?>: <a href="<?= e(seo_path($ui, 'wordmap')) ?>"><?= e(seo_t($ui, 'wm_link')) ?></a> · <a href="<?= e(seo_path($ui, 'trivia')) ?>"><?= e(seo_t($ui, 'tri_link')) ?></a> · <a href="<?= e(seo_path($ui, '')) ?>"><?= e(seo_t($ui, 'home')) ?></a></p>
 
 <section class="seo-section">
   <h2><?= e(seo_t($ui, 'languages')) ?> (<?= count($rows) ?>)</h2>

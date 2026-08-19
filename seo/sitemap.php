@@ -14,6 +14,7 @@ header('Content-Type: application/xml; charset=utf-8');
 
 $wm = seo_data('wordmap');
 $hm = seo_data('hanmap');
+$tr = seo_data('trivia');
 $today = date('Y-m-d');
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
@@ -52,6 +53,7 @@ $emit = function (string $altPath, string $priority) use ($today): void {
 $emit('/', '0.7');
 $emit('/wordmap/', '0.8');
 $emit('/hanmap/', '0.8');
+$emit('/trivia/', '0.8');
 
 foreach (($wm['langs'] ?? []) as $code => $l) {
     if (!empty($l['excluded'])) {
@@ -62,6 +64,12 @@ foreach (($wm['langs'] ?? []) as $code => $l) {
 
 foreach (($hm['langs'] ?? []) as $code => $l) {
     $emit('/hanmap/' . rawurlencode($code), '0.6');
+}
+
+// The long-form articles. Higher priority than a single language page: this is
+// the only original prose on the site, and it is what a search result can quote.
+foreach (($tr['articles'] ?? []) as $a) {
+    $emit('/trivia/' . rawurlencode($a['id']), '0.7');
 }
 
 echo '</urlset>' . "\n";

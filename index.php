@@ -75,6 +75,24 @@ if (count($rest) === 0) {
 }
 
 $map = $rest[0];
+
+// /{ui}/trivia[/{slug}] — the long-form articles. Slugs are kebab-case, so
+// they need a looser pattern than the language codes below.
+if ($map === 'trivia') {
+    $seo_id = isset($rest[1]) ? rawurldecode($rest[1]) : '';
+    if (count($rest) > 2) {
+        seo_404('Page not found', $seo_ui);
+        return;
+    }
+    if ($seo_id !== '' && !preg_match('#^[a-z0-9][a-z0-9\-]*$#', $seo_id)) {
+        seo_404('Invalid article id.', $seo_ui);
+        return;
+    }
+    header('Content-Type: text/html; charset=utf-8');
+    require __DIR__ . '/seo/trivia.php';
+    return;
+}
+
 if ($map === 'wordmap' || $map === 'hanmap') {
     $seo_id = isset($rest[1]) ? rawurldecode($rest[1]) : '';
     // Reject deeper paths (/{ui}/wordmap/x/y).
@@ -122,6 +140,7 @@ function seo_render_hub(string $ui): void
     echo '<section class="seo-section"><h2>' . e(seo_t($ui, 'maps')) . '</h2><ul class="seo-index-list">'
         . '<li><a href="' . e(seo_path($ui, 'wordmap')) . '">' . e(seo_t($ui, 'wm_link')) . '</a></li>'
         . '<li><a href="' . e(seo_path($ui, 'hanmap')) . '">' . e(seo_t($ui, 'hm_link')) . '</a></li>'
+        . '<li><a href="' . e(seo_path($ui, 'trivia')) . '">' . e(seo_t($ui, 'tri_link')) . '</a></li>'
         . '</ul></section>';
     seo_foot($ui);
 }

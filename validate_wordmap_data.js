@@ -221,8 +221,8 @@ const W = m => {
 const I = m => infos.push(m);
 
 // ---- 1. WORD_LIST has 20 entries ----------------------------------------
-if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 34) {
-    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 34)`);
+if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 35) {
+    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 35)`);
 }
 const WORD_IDS = (ctx.WORD_LIST || []).map(w => w.id);
 // Partial words (WORDS.<id>.partial === true) are NOT required for every

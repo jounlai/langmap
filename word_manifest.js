@@ -33,6 +33,7 @@ const WORD_ORDER = [
     // numbers
     "one",
     "two",
+    "three",
     // greetings & quality
     "hello",
     "thanks",

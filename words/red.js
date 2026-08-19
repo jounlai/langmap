@@ -992,7 +992,7 @@ WORDS.red = {
     kxm: ["ក្រហម", "krɑhɑːm"],
     xng: ["ᠤᠯᠠᠭᠠᠨ", "ulaɣan"],
     ja_kg: ["赤か", "akaka"],
-    ja_sd: ["赤い", "akai"],
+    ja_sd: ["あがい", "aɡai"],
     ko_hg: ["빨갛다", "p͈alɡatʰa"],
     ko_jl: ["뻘겋다", "p͈ʌlɡʌtʰa"],
     nan_pn: ["紅", "aŋ˨˨"],

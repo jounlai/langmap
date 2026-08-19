@@ -993,7 +993,7 @@ WORDS.fish = {
     kxm: ["ត្រី", "trɛj"],
     xng: ["ᠵᠢᠭᠠᠰᠤ", "dʒiɡasu"],
     ja_kg: ["魚", "sakana"],
-    ja_sd: ["魚", "sakana"],
+    ja_sd: ["さがな", "saɡana"],
     ko_hg: ["물고기", "mulɡoɡi"],
     ko_jl: ["물괴기", "mulɡwedʒi"],
     nan_pn: ["魚", "hu˨˦"],

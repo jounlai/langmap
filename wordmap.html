@@ -5148,7 +5148,14 @@
             // than merely not overlapping (owner 2026-07-19).
             const _boxPad = showHistorical ? 12 : 8;
             const labelH = (baseLineH * labelScale) + _boxPad;
-            const labelW = (zoom <= 3 ? 60 : zoom <= 5 ? 80 : 100) * labelScale;
+            // labelW carries the same _boxPad as labelH: the box needs horizontal
+            // clear air too, not just vertical. Because the pad is an unscaled
+            // pixel constant added AFTER scaling, it is proportionally larger at
+            // small font — exactly where labels were crowding/overlapping, since
+            // MIN_PX (= labelW*0.55) and the collision boxes both derive from it
+            // and would otherwise shrink to near-zero at small scale (owner
+            // report 2026-08-19: small font size → labels overlap).
+            const labelW = (zoom <= 3 ? 60 : zoom <= 5 ? 80 : 100) * labelScale + _boxPad;
             // See hanmap.html for the rationale: MAX_PUSH below is
             // computed from the FULL-toggle box height so the cap
             // doesn't shrink when the user turns rows off, which

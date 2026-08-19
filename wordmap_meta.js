@@ -3662,7 +3662,7 @@ const SPEAKER_COUNT_OVERLAY = {
     jam: { l1: 3_200_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     jqr: { l1: 700, range: 'point', year: 2024, source: 'Ethnologue 27', notes: 'Tupe ~600 + Cachuy ~100; some sources estimate up to ~2,000 including weak speakers' },
     jbo: { l1: 1000, range: 'point', year: 2024, source: 'Ethnologue 27' },
-    jio: { l1: 3000, range: 'point', year: 2024, source: 'Ethnologue 27', vitality: 'extinct', notes: 'severely endangered — UNESCO severely endangered; on the verge of extinction with only elderly speakers remaining; younger Jiamao Hlai shift to Hlai Proper or Standard Mandarin' },
+    jio: { l1: 3000, range: 'point', year: 2024, source: 'Ethnologue 27', vitality: 'severely-endangered', notes: 'severely endangered — UNESCO severely endangered; on the verge of extinction with only elderly speakers remaining; younger Jiamao Hlai shift to Hlai Proper or Standard Mandarin' },
     jiv: { l1: 35_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     jmc: { l1: 470_000, range: 'point', year: 2024, source: 'Ethnologue 27' },
     jpr: { l1: 60_000, range: 'point', year: 2024, source: 'Ethnologue 27' },

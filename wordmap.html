@@ -3319,7 +3319,7 @@
             metaI18n:  16,
             filter:    43,
             names:   143,
-            meta:     270,
+            meta:     271,
             trivia:   31,
             triviaI18n: 6,
             words:      149,
@@ -7400,6 +7400,20 @@
             if (!wordsReady()) { withAllWords(() => showLangInfo(code, opts)); return; }
             const lang = LANG_DATA[code];
             if (!lang) return;
+            // The era follows the language whose panel is being opened.
+            // Old Prussian (extinct c. 1700) was showing up among the living
+            // languages: nothing switched the era when its panel opened, so a
+            // shared #lang=prg link — or a click on it in a modern language's
+            // "historical ancestors" list — left the map in modern mode with a
+            // historical language selected, and updateHash() then wrote that
+            // state back without hist=1. Doing it here rather than in the hash
+            // restore covers every entry point (link, search, ancestor list).
+            try {
+                if (typeof HIST_CODE_SET !== 'undefined' && typeof showHistorical !== 'undefined') {
+                    const wantHist = HIST_CODE_SET.has(code);
+                    if (wantHist !== showHistorical && typeof setEra === 'function') setEra(wantHist);
+                }
+            } catch (_) { /* boot-order safety: never block the panel */ }
             // Audit Task 137: capture the opener BEFORE state changes so we
             // can restore focus on close. activeElement is the most reliable
             // signal for keyboard openers; pointer openers may have already

@@ -85,6 +85,16 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 s = run('extinct_classification_check.js');
 line('extinct-as-modern classification', num(s, /extinct-as-modern: (\d+)/));
 
+// The sibling of the check above, from the other side: a row whose vitality
+// fields contradict each other. Jiamao carried l1:3000 with
+// speakerCount.vitality 'extinct' and a note reading "severely endangered" —
+// nothing rendered wrong, so nothing flagged it. meta-vs-count disagreements
+// are reported but not blocking; review 430 made meta.vitality a deliberate
+// override in some rows.
+s = run('vitality_consistency_check.js --check');
+line('vitality field contradictions', num(s, /vitality contradictions: (\d+)/),
+     `${num(s, /informational\): (\d+)/)} meta-vs-count informational`);
+
 // meta.description translation integrity: a missing / empty / untranslated
 // (same-as-English) UI-language description, or a run of English left inside a
 // translation, ships a broken info panel. Length outliers and source-* notes

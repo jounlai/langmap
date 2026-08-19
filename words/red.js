@@ -105,7 +105,7 @@ WORDS.red = {
     pmt: ["kura", "kuɾa"],
     bin: ["baba", "baba"],
     khw: ["لال", "laːl"],
-    xav: ["tebe", "tebe"],
+    xav: ["iprẽ", "ipɾẽ"],
     ter: ["ipúku", "iˈpuku"],
     bor: ["kujagureu", "kuʒaɡuɾew"],
     trn: ["tijeko", "tihek"],

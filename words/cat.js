@@ -636,7 +636,7 @@ WORDS.cat = {
     ko_mid: [":괴", "kwe"],
     oko: ["—", "—"],
     h_goguryeo: ["—", "—"],
-    ko_gor: ["—", "—"],
+    ko_gor: ["鬼尼", "*kwoni"],
     ko_em: ["괴앙이", "kweaŋi"],
     vi_han: ["貓", "miew˧˧"],
     vi_nom: ["猫", "mɛw˨˩"],

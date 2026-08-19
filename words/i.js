@@ -636,7 +636,7 @@ WORDS.i = {
       ko_mid: ["나", "na"],
       oko: ["吾", "*na"],
       h_goguryeo: ["—", "—"],
-      ko_gor: ["—", "—"],
+      ko_gor: ["能", "*na"],
       ko_em: ["나", "na"],
       vi_han: ["我", "ŋaː˧˥"],
       vi_nom: ["碎", "toj˧"],

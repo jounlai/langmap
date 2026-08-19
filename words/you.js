@@ -636,7 +636,7 @@ WORDS.you = {
       ko_mid: ["너", "nə"],
       oko: ["汝", "*nə"],
       h_goguryeo: ["—", "—"],
-      ko_gor: ["—", "—"],
+      ko_gor: ["你", "*ne"],
       ko_em: ["너", "nə"],
       vi_han: ["汝", "ɲɨ˧˥"],
       vi_nom: ["眉", "maj˨˩"],

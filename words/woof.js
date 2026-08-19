@@ -117,6 +117,7 @@ WORDS.woof = {
     "te": ["భౌ భౌ", "bʱau bʱau"],
     "th": ["โฮ่ง ๆ", "hoːŋ˥˩ hoːŋ˥˩"],
     "tl": ["aw aw", "ʔaw ʔaw"],
+    "paus": ["*qawqaw", "qawqaw"],  // Proto-Austronesian (ACD/Blust, set 27685) — reflex: Tagalog aw-aw; reconstructed sound-symbolic form
     "tr": ["hav hav", "hav hav"],
     "uk": ["гав-гав", "ɦɑu ɦɑu"],
     "ur": ["بھَو بھَو", "bʱəʊ bʱəʊ"],

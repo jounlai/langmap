@@ -221,8 +221,8 @@ const W = m => {
 const I = m => infos.push(m);
 
 // ---- 1. WORD_LIST has 20 entries ----------------------------------------
-if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 36) {
-    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 36)`);
+if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 37) {
+    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 37)`);
 }
 const WORD_IDS = (ctx.WORD_LIST || []).map(w => w.id);
 // Partial words (WORDS.<id>.partial === true) are NOT required for every
@@ -837,7 +837,19 @@ for (const code of codes) {
             //   from. Print only: no online lexicon, scripture portion or
             //   comparative wordlist carries Kera 'red' (checked ASJP, IDS,
             //   Kraft Chadic, Glosbe, Webonary, ebible).
-            const MODERN_UNSOURCED_ALLOW = { ker: new Set(['red']) };
+            //   kmu.tongue, nlc.tongue — no wordlist anywhere carries the
+            //   concept for these two. Checked ASJP (neither language has a
+            //   TONGUE entry), TransNewGuinea.org's dump (89_tongue is absent
+            //   for both), IDS, ABVD and Glosbe. Nalca's family has it —
+            //   Proto-Northwest Mek *se̝l[i]mu, Kimyal selamu — but Nalca
+            //   itself is not in the comparative table, and Kanite's Gorokan
+            //   neighbours (Yagaria nevoda, Hua venu'za) disagree too much to
+            //   project from. Left blank rather than reconstructed.
+            const MODERN_UNSOURCED_ALLOW = {
+                ker: new Set(['red']),
+                kmu: new Set(['tongue']),
+                nlc: new Set(['tongue']),
+            };
             const isAllowedUnsourced = unattestedReason === 'unsourced' &&
                 MODERN_UNSOURCED_ALLOW[code]?.has(id);
             if (!isHist && !isFragmentary && !isCulturalAbsence && !isAllowedUnsourced) {

@@ -21,6 +21,7 @@ const WORD_ORDER = [
     "hand",
     "heart",
     "blood",
+    "tongue",
     "love",
     // home & living things
     "tree",

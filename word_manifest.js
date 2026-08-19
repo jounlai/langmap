@@ -50,6 +50,7 @@ const WORD_ORDER = [
     "computer",
     "sushi",
     "tea",
+    "orange",
     "dopamine",
     "atsign",
 ];

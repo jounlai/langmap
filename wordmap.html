@@ -826,12 +826,10 @@
             white-space: nowrap; margin-top: 1px; font-weight: 600;
         }
         .zoom-far .lang-label .meaning { font-size: calc(7px * var(--label-scale)); }
-        /* "tea" concept only: colour the word itself by its trade-route family
-           (cha = overland/amber, te = by-sea/teal, other = Latin/grey) so the
-           map splits into the two waves; a legend explains the colours. */
-        .word.tea-cha, .ipa.tea-cha { color: #b45309; }
-        .word.tea-te, .ipa.tea-te { color: #0e7490; }
-        .word.tea-other, .ipa.tea-other { color: #6b7280; }
+        /* Route-coloured concepts (tea, orange): the word itself is coloured by
+           which trade route carried the name, so the map splits into waves. The
+           colour comes from WORDS[id].routes[fam].color (inline), not from CSS,
+           so a new route word needs no stylesheet change; a legend explains it. */
         .tea-legend {
             position: absolute; left: 12px; bottom: 20px; z-index: 500;
             background: rgba(255,255,255,0.94); border: 1px solid rgba(0,0,0,0.12);
@@ -841,9 +839,6 @@
         .tea-legend-title { font-weight: 700; margin-bottom: 3px; color: #333; }
         .tea-legend-row { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
         .tea-legend .sw { width: 12px; height: 12px; border-radius: 3px; flex: 0 0 auto; }
-        .tea-legend .sw-cha { background: #b45309; }
-        .tea-legend .sw-te { background: #0e7490; }
-        .tea-legend .sw-other { background: #6b7280; }
         .tea-legend .tl-text { color: #333; }
         @media (prefers-color-scheme: dark) {
             .tea-legend { background: rgba(30,30,30,0.92); border-color: rgba(255,255,255,0.15); }
@@ -2807,13 +2802,9 @@
     </div>
 
     <div id="map"></div>
-    <!-- Colour legend for the "tea" concept (trade-route families); toggled by updateTeaLegend(). -->
-    <div id="tea-legend" class="tea-legend" hidden aria-hidden="true">
-        <div class="tea-legend-title">🍵 tea</div>
-        <div class="tea-legend-row"><span class="sw sw-cha"></span><span class="tl-text" data-fam="cha"></span></div>
-        <div class="tea-legend-row"><span class="sw sw-te"></span><span class="tl-text" data-fam="te"></span></div>
-        <div class="tea-legend-row"><span class="sw sw-other"></span><span class="tl-text" data-fam="other"></span></div>
-    </div>
+    <!-- Colour legend for route-coloured concepts (tea, orange); filled and
+         toggled by updateRouteLegend() from WORDS[currentWord].routes. -->
+    <div id="tea-legend" class="tea-legend" hidden aria-hidden="true"></div>
     <div id="globe"></div>
     <!-- Connector from selected map label to the open info panel -->
     <svg id="connector-line" aria-hidden="true">
@@ -2870,8 +2861,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=269"></script>
-    <script src="word_manifest.js?v=153"></script>
-    <script src="word_labels.js?v=26"></script>
+    <script src="word_manifest.js?v=155"></script>
+    <script src="word_labels.js?v=27"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
         // does `WORDS.<id> = {...}` and would ReferenceError otherwise.
@@ -3323,8 +3314,8 @@
             meta:     272,
             trivia:   31,
             triviaI18n: 6,
-            words:      153,
-            labels:      26,
+            words:      155,
+            labels:      27,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
             metaI18nCoverage3: 3,
@@ -4850,17 +4841,14 @@
             let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
             // Audit Task 129: dir="auto" on word + name so RTL labels render
             // in correct order; IPA stays LTR.
-            // "tea" concept only: colour the word/IPA by its cha/te/other route
-            // family (via CSS class) instead of the usual language colour, so the
-            // map visibly splits along the two trade routes. A legend explains it.
-            const teaFam = (typeof currentWord !== 'undefined' && currentWord === 'tea'
-                && window.WORDS && WORDS.tea && WORDS.tea.family) ? WORDS.tea.family[code] : null;
-            if (showWord) html += teaFam
-                ? `<div class="word tea-${teaFam}" dir="auto">${w}</div>`
-                : `<div class="word" dir="auto" ${c ? `style="color:${c}"` : ''}>${w}</div>`;
-            if (showIpa) html += teaFam
-                ? `<div class="ipa tea-${teaFam}" dir="ltr">/${i}/</div>`
-                : `<div class="ipa" dir="ltr" ${c ? `style="color:${c}"` : ''}>/${i}/</div>`;
+            // Route-coloured concepts: colour the word/IPA by which trade route
+            // carried the name instead of by the usual language colour, so the map
+            // visibly splits into waves. Any word that ships `family` + `routes`
+            // gets this — tea (cha/te) and orange (naranj/portakal/…) today.
+            // A legend explains the colours.
+            const routeColor = routeColorFor(code);
+            if (showWord) html += `<div class="word" dir="auto" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${w}</div>`;
+            if (showIpa) html += `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>/${i}/</div>`;
             // "@" concept only: the literal meaning of this language's @ name.
             if (typeof currentWord !== 'undefined' && currentWord === 'atsign') {
                 const mng = atsignMeaning(code);
@@ -4893,21 +4881,37 @@
             return txt ? ((m.emoji ? m.emoji + ' ' : '') + txt) : '';
         }
 
-        // The "tea" map colours each word by its trade-route family; this
-        // populates + shows the colour legend (localized) only for that concept.
-        function updateTeaLegend() {
+        // A route-coloured word is any word carrying both `family` (code -> route
+        // key) and `routes` (route key -> {color, emoji, <ui>: label}). Returns
+        // the colour for one cell, or null when the current word has no routes.
+        function routeColorFor(code) {
+            if (typeof currentWord === 'undefined' || !window.WORDS) return null;
+            const W = WORDS[currentWord];
+            if (!W || !W.family || !W.routes) return null;
+            const fam = W.family[code];
+            return (fam && W.routes[fam] && W.routes[fam].color) || null;
+        }
+
+        // Build + show the localized colour legend for a route-coloured word.
+        // Rows come from the word's own `routes` object, so adding a route word
+        // needs no markup or stylesheet change.
+        function updateRouteLegend() {
             const el = document.getElementById('tea-legend');
             if (!el) return;
-            const T = window.WORDS && window.WORDS.tea;
-            if (typeof currentWord === 'undefined' || currentWord !== 'tea' || !T || !T.routes) {
-                el.hidden = true; el.setAttribute('aria-hidden', 'true'); return;
+            const W = (typeof currentWord !== 'undefined' && window.WORDS) ? WORDS[currentWord] : null;
+            if (!W || !W.routes || !W.family) {
+                el.hidden = true; el.setAttribute('aria-hidden', 'true'); el.innerHTML = ''; return;
             }
             const base = uiLang.split('_')[0];
-            el.querySelectorAll('.tl-text').forEach(span => {
-                const fam = span.getAttribute('data-fam');
-                const r = T.routes[fam] || {};
-                span.textContent = r[uiLang] || r[base] || r.en || fam;
-            });
+            const name = (W.label && (W.label[uiLang] || W.label[base] || W.label.en)) || currentWord;
+            const title = (W.emoji ? W.emoji + ' ' : '') + name;
+            const rows = Object.keys(W.routes).map(fam => {
+                const r = W.routes[fam] || {};
+                const text = r[uiLang] || r[base] || r.en || fam;
+                return `<div class="tea-legend-row"><span class="sw" style="background:${escapeHtml(r.color || '#888')}"></span>`
+                     + `<span class="tl-text">${escapeHtml(text)}</span></div>`;
+            }).join('');
+            el.innerHTML = `<div class="tea-legend-title">${escapeHtml(title)}</div>` + rows;
             el.hidden = false; el.setAttribute('aria-hidden', 'false');
         }
 
@@ -5118,7 +5122,7 @@
 
         function updateMarkers(wordId) {
             currentWord = wordId;
-            updateTeaLegend();
+            updateRouteLegend();
 
             if (is3D) {
                 updateGlobeLabels(wordId);

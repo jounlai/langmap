@@ -9,6 +9,7 @@
  */
 WORDS.tea = {
   partial: true,
+  emoji: "🍵",
   label: {
     en: "Tea",
     ja: "お茶（茶）",
@@ -252,9 +253,9 @@ WORDS.tea = {
   // Route marker shown on each tea label (this concept only): which trade
   // route the word travelled. Localized; falls back to en.
   routes: {
-    cha: { emoji: "🐫", en: "overland · Silk Road", ja: "陸路・シルクロード", ko: "육로 · 실크로드", zh: "陆路・丝绸之路", yue: "陸路 · 絲綢之路", vi: "đường bộ · Con đường Tơ lụa", th: "ทางบก · เส้นทางสายไหม", id: "jalur darat · Jalur Sutra", hi: "स्थल मार्ग · रेशम मार्ग", de: "Landweg · Seidenstraße", fr: "voie terrestre · route de la soie", it: "via terrestre · Via della Seta", es: "ruta terrestre · Ruta de la Seda", pt: "rota terrestre · Rota da Seda", ru: "по суше · Шёлковый путь", uk: "суходолом · Шовковий шлях", ar: "برًا · طريق الحرير", he: "ביבשה · דרך המשי", sw: "nchi kavu · Njia ya Hariri" },
-    te: { emoji: "⛵", en: "by sea · Dutch trade", ja: "海路・オランダ交易", ko: "해로 · 네덜란드 교역", zh: "海路・荷兰贸易", yue: "海路 · 荷蘭貿易", vi: "đường biển · thương mại Hà Lan", th: "ทางเรือ · การค้าดัตช์", id: "jalur laut · perdagangan Belanda", hi: "समुद्री मार्ग · डच व्यापार", de: "Seeweg · niederländischer Handel", fr: "voie maritime · commerce néerlandais", it: "via marittima · commercio olandese", es: "ruta marítima · comercio neerlandés", pt: "rota marítima · comércio holandês", ru: "по морю · голландская торговля", uk: "морем · голландська торгівля", ar: "بحرًا · التجارة الهولندية", he: "בים · הסחר ההולנדי", sw: "baharini · biashara ya Kiholanzi" },
-    other: { emoji: "🌿", en: "from Latin herba", ja: "ラテン語 herba 由来", ko: "라틴어 herba 유래", zh: "源自拉丁语 herba", yue: "源自拉丁文 herba", vi: "từ tiếng Latin herba", th: "จากภาษาละติน herba", id: "dari bahasa Latin herba", hi: "लैटिन herba से", de: "vom lateinischen herba", fr: "du latin herba", it: "dal latino herba", es: "del latín herba", pt: "do latim herba", ru: "от лат. herba", uk: "від лат. herba", ar: "من اللاتينية herba", he: "מלטינית herba", sw: "kutoka Kilatini herba" },
+    cha: { color: "#b45309", emoji: "🐫", en: "overland · Silk Road", ja: "陸路・シルクロード", ko: "육로 · 실크로드", zh: "陆路・丝绸之路", yue: "陸路 · 絲綢之路", vi: "đường bộ · Con đường Tơ lụa", th: "ทางบก · เส้นทางสายไหม", id: "jalur darat · Jalur Sutra", hi: "स्थल मार्ग · रेशम मार्ग", de: "Landweg · Seidenstraße", fr: "voie terrestre · route de la soie", it: "via terrestre · Via della Seta", es: "ruta terrestre · Ruta de la Seda", pt: "rota terrestre · Rota da Seda", ru: "по суше · Шёлковый путь", uk: "суходолом · Шовковий шлях", ar: "برًا · طريق الحرير", he: "ביבשה · דרך המשי", sw: "nchi kavu · Njia ya Hariri" },
+    te: { color: "#0e7490", emoji: "⛵", en: "by sea · Dutch trade", ja: "海路・オランダ交易", ko: "해로 · 네덜란드 교역", zh: "海路・荷兰贸易", yue: "海路 · 荷蘭貿易", vi: "đường biển · thương mại Hà Lan", th: "ทางเรือ · การค้าดัตช์", id: "jalur laut · perdagangan Belanda", hi: "समुद्री मार्ग · डच व्यापार", de: "Seeweg · niederländischer Handel", fr: "voie maritime · commerce néerlandais", it: "via marittima · commercio olandese", es: "ruta marítima · comercio neerlandés", pt: "rota marítima · comércio holandês", ru: "по морю · голландская торговля", uk: "морем · голландська торгівля", ar: "بحرًا · التجارة الهولندية", he: "בים · הסחר ההולנדי", sw: "baharini · biashara ya Kiholanzi" },
+    other: { color: "#6b7280", emoji: "🌿", en: "from Latin herba", ja: "ラテン語 herba 由来", ko: "라틴어 herba 유래", zh: "源自拉丁语 herba", yue: "源自拉丁文 herba", vi: "từ tiếng Latin herba", th: "จากภาษาละติน herba", id: "dari bahasa Latin herba", hi: "लैटिन herba से", de: "vom lateinischen herba", fr: "du latin herba", it: "dal latino herba", es: "del latín herba", pt: "do latim herba", ru: "от лат. herba", uk: "від лат. herba", ar: "من اللاتينية herba", he: "מלטינית herba", sw: "kutoka Kilatini herba" },
   },
   data: {
     // --- cha ---

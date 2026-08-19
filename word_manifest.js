@@ -11,6 +11,9 @@ const WORD_ORDER = [
     "moon",
     "star",
     "night",
+    "rain",
+    "wind",
+    "earth",
     // people
     "mother",
     "father",
@@ -19,6 +22,7 @@ const WORD_ORDER = [
     "name",
     // body & feeling
     "eye",
+    "ear",
     "tooth",
     "hand",
     "heart",
@@ -54,4 +58,5 @@ const WORD_ORDER = [
     "orange",
     "dopamine",
     "atsign",
+    "poop",
 ];

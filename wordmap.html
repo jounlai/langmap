@@ -817,6 +817,16 @@
             white-space: nowrap; margin-top: 1px; font-weight: 600;
         }
         .zoom-far .lang-label .meaning { font-size: calc(7px * var(--label-scale)); }
+        /* "tea" concept only: the trade-route marker, colour-coded by family
+           (cha = overland/amber, te = by-sea/teal, other = Latin/grey). */
+        .lang-label .route, .globe-label .route {
+            font-size: calc(9px * var(--label-scale)); line-height: 1.15;
+            white-space: nowrap; margin-top: 1px; font-weight: 600;
+        }
+        .zoom-far .lang-label .route { font-size: calc(7px * var(--label-scale)); }
+        .route-cha { color: #b45309; }
+        .route-te { color: #0e7490; }
+        .route-other { color: #6b7280; }
         /* Vertical writing for Mongolian Traditional Script / Manchu */
         .lang-label.vertical .word {
             writing-mode: vertical-lr;
@@ -2825,7 +2835,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=269"></script>
-    <script src="word_manifest.js?v=129"></script>
+    <script src="word_manifest.js?v=130"></script>
     <script src="word_labels.js?v=12"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -3278,7 +3288,7 @@
             meta:     267,
             trivia:   31,
             triviaI18n: 6,
-            words:      129,
+            words:      130,
             labels:      12,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
@@ -4795,6 +4805,11 @@
                 const mng = atsignMeaning(code);
                 if (mng) html += `<div class="meaning" dir="auto">${escapeHtml(mng)}</div>`;
             }
+            // "tea" concept only: the cha/te/other trade-route marker.
+            if (typeof currentWord !== 'undefined' && currentWord === 'tea') {
+                const rt = teaRoute(code);
+                if (rt) html += `<div class="route route-${rt.family}" dir="auto">${escapeHtml(rt.text)}</div>`;
+            }
             if (showName) {
                 html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
                 // Historical languages carry meta.period ("~700 BCE–600 CE"): show
@@ -4820,6 +4835,21 @@
             const base = uiLang.split('_')[0];
             const txt = m[uiLang] || m[base] || m.en || '';
             return txt ? ((m.emoji ? m.emoji + ' ' : '') + txt) : '';
+        }
+
+        // The trade-route marker for a language's word for "tea": which route it
+        // travelled (cha = overland Silk Road, te = Dutch sea trade, other =
+        // Latin herba). Returns {family, text} or null. Only the tea concept.
+        function teaRoute(code) {
+            const T = window.WORDS && window.WORDS.tea;
+            const fam = T && T.family && T.family[code];
+            if (!fam) return null;
+            const r = T.routes && T.routes[fam];
+            if (!r) return null;
+            const base = uiLang.split('_')[0];
+            const txt = r[uiLang] || r[base] || r.en || '';
+            if (!txt) return null;
+            return { family: fam, text: (r.emoji ? r.emoji + ' ' : '') + txt };
         }
 
         function getDisplayName(code, lang) {

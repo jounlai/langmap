@@ -155,6 +155,7 @@ WORDS.tea = {
     zh_km: "cha",
     zh_sc: "cha",
     zh_song: "cha",
+    zh_tang: "cha",
     zh_tw: "cha",
     zh_wenyan_edu: "cha",
     af: "te",
@@ -350,7 +351,8 @@ WORDS.tea = {
     zh_cd: ["茶", "tsʰa˨˩"],
     zh_km: ["茶", "tʂʰa˧˩"],
     zh_sc: ["茶", "tsʰa˨˩"],
-    zh_song: ["茶", "ɖˠa"],
+    zh_song: ["茶", "tʂʰa˧˥"],
+    zh_tang: ["茶", "ɖˠa"],
     zh_tw: ["茶", "tʂʰa˧˥"],
     zh_wenyan_edu: ["茶", "tsʰaː˨˩"],
     // --- te ---

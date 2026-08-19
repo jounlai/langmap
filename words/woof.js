@@ -127,5 +127,11 @@ WORDS.woof = {
     "zh": ["汪汪", "waŋ˥ waŋ˥"],
     "zh_tw": ["汪汪", "waŋ˥ waŋ˥"],
     aln: ["ham ham", "ham ham"],
+    "el_grc": ["αὖ αὖ", "au̯ au̯"],
+    "la": ["bau bau", "bau̯ bau̯"],
+    "zh_han": ["狺狺", "ŋɨn ŋɨn"],
+    "zh_tang": ["狺狺", "ŋiɪn ŋiɪn"],
+    "zh_song": ["狺狺", "ŋin˧˥ ŋin˧˥"],
+    "zh_wenyan_edu": ["汪汪", "wɔːŋ˥ wɔːŋ˥"],
   },
 };

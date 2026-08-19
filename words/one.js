@@ -639,7 +639,7 @@ WORDS.one = {
     ja_heian: ["一つ", "ɸitotu"],
     ja_chu: ["一つ", "ɸitotu"],
     p_ryu: ["*pitu", "pitu"],
-    ko_mid: ["ᄒᆞ나", "hʌna"],
+    ko_mid: ["ᄒᆞ낳", "hʌna"],
     oko: ["一等", "*hʌnah"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["河屯", "*hatwun"],

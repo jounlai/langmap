@@ -633,7 +633,7 @@ WORDS.hand = {
     ja_heian: ["手", "te"],
     ja_chu: ["手", "te"],
     p_ryu: ["*tii", "tiː"],
-    ko_mid: [":손", "son"],
+    ko_mid: ["·손", "son"],
     oko: ["孫", "*son"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["遜", "*swon"],

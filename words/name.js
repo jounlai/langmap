@@ -633,7 +633,7 @@ WORDS.name = {
       ja_heian: ["名", "na"],
       ja_chu: ["名", "na"],
       p_ryu: ["*na", "na"],
-      ko_mid: ["일훔", "iɾhum"],
+      ko_mid: ["일·훔", "iɾhum"],
       oko: ["—", "—"],
       h_goguryeo: ["—", "—"],
       ko_gor: ["—", "—"],

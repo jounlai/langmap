@@ -639,7 +639,7 @@ WORDS.mother = {
     ja_heian: ["母", "ɸaɸa"],
     ja_chu: ["母", "ɸaɸa"],
     p_ryu: ["*amma", "amma"],
-    ko_mid: ["어미", "ʌmi"],
+    ko_mid: ["·어미", "ʌmi"],
     oko: ["母史", "*əzi"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["丫彌", "*emi"],

@@ -567,7 +567,7 @@ WORDS.fish = {
     ja_heian: ["魚", "iwo"],
     ja_chu: ["魚", "uwo"],
     p_ryu: ["*iwo", "iwo"],
-    ko_mid: ["믌고기", "mɯlskoɡi"],
+    ko_mid: ["믌고·기", "mɯlskoɡi"],
     oko: ["—", "—"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["—", "—"],

@@ -633,7 +633,7 @@ WORDS.two = {
       ja_heian: ["二", "ɸutatu"],
       ja_chu: ["二", "ni"],
       p_ryu: ["*puta", "puta"],
-      ko_mid: ["둟", "tulh"],
+      ko_mid: [":둟", "tulh"],
       oko: ["二肹", "*tubɨɾ"],
       h_goguryeo: ["—", "—"],
       ko_gor: ["途孛", "*twubʌr"],

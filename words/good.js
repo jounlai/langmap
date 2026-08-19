@@ -633,7 +633,7 @@ WORDS.good = {
     ja_heian: ["良し", "joɕi"],
     ja_chu: ["良し", "joɕi"],
     p_ryu: ["*masi", "maɕi"],
-    ko_mid: ["됴타", "tjotʰa"],
+    ko_mid: [":됴·타", "tjotʰa"],
     oko: ["好", "*tjoh"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["—", "—"],

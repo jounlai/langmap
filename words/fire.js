@@ -639,7 +639,7 @@ WORDS.fire = {
     ja_heian: ["火", "ɸi"],
     ja_chu: ["火", "ɸi"],
     p_ryu: ["*pii", "piː"],
-    ko_mid: ["블", "pɯl"],
+    ko_mid: ["·블", "pɯl"],
     oko: ["弗", "*puɾ"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["孛", "*pwol"],

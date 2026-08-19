@@ -633,7 +633,7 @@ WORDS.star = {
       ja_heian: ["星", "ɸosi"],
       ja_chu: ["星", "ɸoɕi"],
       p_ryu: ["*posi", "posi"],
-      ko_mid: ["별", "pjəl"],
+      ko_mid: [":별", "pjəl"],
       oko: ["—", "—"],
       h_goguryeo: ["—", "—"],
       ko_gor: ["—", "—"],

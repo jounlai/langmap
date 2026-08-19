@@ -633,7 +633,7 @@ WORDS.eat = {
     ja_heian: ["食ふ", "kuɸu"],
     ja_chu: ["食ふ", "kuɸu"],
     p_ryu: ["*kam-", "kam"],
-    ko_mid: ["먹다", "mʌk̚.ta"],
+    ko_mid: ["먹·다", "mʌk̚.ta"],
     oko: ["食", "*məkta"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["—", "—"],

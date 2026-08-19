@@ -633,7 +633,7 @@ WORDS.drink = {
     ja_heian: ["飲む", "nomu"],
     ja_chu: ["飲む", "nomu"],
     p_ryu: ["*num-", "num"],
-    ko_mid: ["마시다", "maɕi.ta"],
+    ko_mid: ["마·시·다", "maɕi.ta"],
     oko: ["飲", "*maɕita"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["—", "—"],

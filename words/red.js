@@ -566,7 +566,7 @@ WORDS.red = {
     ja_heian: ["赤し", "akaɕi"],
     ja_chu: ["赤し", "akaɕi"],
     p_ryu: ["*aka", "aka"],
-    ko_mid: ["븕다", "pɨlkta"],
+    ko_mid: ["븕·다", "pɨlkta"],
     oko: ["—", "—"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["—", "—"],

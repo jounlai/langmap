@@ -633,7 +633,7 @@ WORDS.dog = {
     ja_heian: ["犬", "inu"],
     ja_chu: ["犬", "inu"],
     p_ryu: ["*in", "in"],
-    ko_mid: ["가히", "kahi"],
+    ko_mid: ["가·히", "kahi"],
     oko: ["加伊", "*kahi"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["家稀", "*kahi"],

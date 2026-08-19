@@ -639,7 +639,7 @@ WORDS.moon = {
     ja_heian: ["月", "tukï"],
     ja_chu: ["月", "tuki"],
     p_ryu: ["*tuki", "tuki"],
-    ko_mid: ["ᄃᆞᆯ", "tʌl"],
+    ko_mid: ["·ᄃᆞᆯ", "tʌl"],
     oko: ["月羅理", "*tʌrari"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["妲", "*tʌl"],

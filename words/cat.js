@@ -633,7 +633,7 @@ WORDS.cat = {
     ja_heian: ["猫", "neko"],
     ja_chu: ["猫", "neko"],
     p_ryu: ["*maja", "maja"],
-    ko_mid: ["괴", "kwe"],
+    ko_mid: [":괴", "kwe"],
     oko: ["—", "—"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["—", "—"],

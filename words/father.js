@@ -633,7 +633,7 @@ WORDS.father = {
     ja_heian: ["父", "titi"],
     ja_chu: ["父", "titi"],
     p_ryu: ["*aja", "aja"],
-    ko_mid: ["아비", "abi"],
+    ko_mid: ["아·비", "abi"],
     oko: ["父", "*api"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["丫秘", "*api"],

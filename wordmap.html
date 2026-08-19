@@ -4165,6 +4165,11 @@
 
         select.addEventListener('change', () => {
             const id = select.value;
+            // Set currentWord BEFORE updateHash(): the hash's w= param reads
+            // currentWord, but that was only updated later inside updateMarkers()
+            // (and later still in the async ensureWords branch), so the URL
+            // lagged one word behind the selection. (owner-reported bug)
+            currentWord = id;
             // The definition and the hash come from word_labels.js, so they can
             // update at once; the markers need this word's data block.
             updateWordDefinition();

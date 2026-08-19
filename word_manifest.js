@@ -26,6 +26,7 @@ const WORD_ORDER = [
     "house",
     "dog",
     "cat",
+    "fish",
     // actions
     "eat",
     "drink",

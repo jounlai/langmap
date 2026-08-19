@@ -145,6 +145,12 @@ line('zh simplified/traditional convention', num(s, /mismatches: (\d+)/));
 s = run('build_word_labels.js --check');
 line('word_labels.js freshness', num(s, /stale: (\d+)/));
 
+// The three indexed static pages carry a plain-HTML list of every trivia
+// article, because a crawler cannot open the JS modal and reach the SSR pages
+// any other way. Adding an article without rebuilding leaves it undiscoverable.
+s = run('build_trivia_index_links.js --check');
+line('trivia index links freshness', num(s, /stale: (\d+)/));
+
 // docs/words/LANG_CODES.md is generated from LANG_DATA/LANG_NAMES/meta. It used
 // to stamp the run date, so it was permanently dirty and its real diffs went
 // uncommitted (owner 2026-07-17). The stamp is gone; this keeps it in sync.

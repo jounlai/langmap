@@ -29,6 +29,35 @@ rich internal linking.
 - `{slug}` is a trivia article id (kebab-case), e.g. `piraha-no-numbers`, `tea-tea-cha-cha`.
 - Any non-prefixed legacy path (`/wordmap/{lang}`, `/`, …) **301-redirects** to its `/en/…` equivalent. The canonical URL is always the UI-prefixed one, with `<link rel="alternate" hreflang>` for all 19 UI langs + `x-default`.
 
+## Discovery: how a crawler reaches the articles
+
+The article pages are SSR, but the apps that link to them are not crawlable —
+the trivia modal is JavaScript and a crawler never opens it. Two paths exist
+instead:
+
+1. **A plain-HTML article list in the footer of the three indexed static pages**
+   (`index.html` = all 70, `wordmap.html` = its 30, `hanmap.html` = its 40).
+   It sits inside a collapsed `<details>`, but the `<a>` elements are in the
+   HTML source, not built at runtime. Generated — never hand-edit between the
+   markers:
+
+   ```bash
+   node tools/build_trivia_index_links.js          # rewrite
+   node tools/build_trivia_index_links.js --check  # drift check (wired into tools/check_all.js)
+   ```
+
+   The block lives between `<!-- TRIVIA-INDEX:START -->` and
+   `<!-- TRIVIA-INDEX:END -->`, and links point at `/en/…` — the x-default of
+   the hreflang cluster — matching the existing footer index links.
+
+2. **`/sitemap-seo.xml`**, which carries every article under all 19 UI prefixes
+   with full `xhtml:link` alternates.
+
+Going the other way, the apps' trivia modal renders a **reverse link** to
+`/{ui}/trivia/{slug}` built from the app's current UI language, so a reader who
+wants a shareable URL lands on the SSR page. That link is for humans; the
+discovery path for search engines is (1) and (2).
+
 ## Build (data export)
 
 The JS data files are the **single source of truth**. A Node step loads them

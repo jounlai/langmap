@@ -81,6 +81,7 @@ WORDS.woof = {
     "is": ["voff voff", "vɔfː vɔfː"],
     "it": ["bau bau", "baw baw"],
     "ja": ["ワンワン", "waɴwaɴ"],
+    "ja_heian": ["びよびよ", "bijobijo"],
     "ja_oki": ["わうわう", "wauwau"],
     "ja_mvi": ["わうわう", "wauwau"],
     "ja_rys": ["わうわう", "wauwau"],

@@ -817,16 +817,29 @@
             white-space: nowrap; margin-top: 1px; font-weight: 600;
         }
         .zoom-far .lang-label .meaning { font-size: calc(7px * var(--label-scale)); }
-        /* "tea" concept only: the trade-route marker, colour-coded by family
-           (cha = overland/amber, te = by-sea/teal, other = Latin/grey). */
-        .lang-label .route, .globe-label .route {
-            font-size: calc(9px * var(--label-scale)); line-height: 1.15;
-            white-space: nowrap; margin-top: 1px; font-weight: 600;
+        /* "tea" concept only: colour the word itself by its trade-route family
+           (cha = overland/amber, te = by-sea/teal, other = Latin/grey) so the
+           map splits into the two waves; a legend explains the colours. */
+        .word.tea-cha, .ipa.tea-cha { color: #b45309; }
+        .word.tea-te, .ipa.tea-te { color: #0e7490; }
+        .word.tea-other, .ipa.tea-other { color: #6b7280; }
+        .tea-legend {
+            position: absolute; left: 12px; bottom: 20px; z-index: 500;
+            background: rgba(255,255,255,0.94); border: 1px solid rgba(0,0,0,0.12);
+            border-radius: 8px; padding: 8px 11px; font-size: 12px; line-height: 1.55;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.18); max-width: 70vw; pointer-events: none;
         }
-        .zoom-far .lang-label .route { font-size: calc(7px * var(--label-scale)); }
-        .route-cha { color: #b45309; }
-        .route-te { color: #0e7490; }
-        .route-other { color: #6b7280; }
+        .tea-legend-title { font-weight: 700; margin-bottom: 3px; color: #333; }
+        .tea-legend-row { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
+        .tea-legend .sw { width: 12px; height: 12px; border-radius: 3px; flex: 0 0 auto; }
+        .tea-legend .sw-cha { background: #b45309; }
+        .tea-legend .sw-te { background: #0e7490; }
+        .tea-legend .sw-other { background: #6b7280; }
+        .tea-legend .tl-text { color: #333; }
+        @media (prefers-color-scheme: dark) {
+            .tea-legend { background: rgba(30,30,30,0.92); border-color: rgba(255,255,255,0.15); }
+            .tea-legend-title, .tea-legend .tl-text { color: #eee; }
+        }
         /* Vertical writing for Mongolian Traditional Script / Manchu */
         .lang-label.vertical .word {
             writing-mode: vertical-lr;
@@ -2779,6 +2792,13 @@
     </div>
 
     <div id="map"></div>
+    <!-- Colour legend for the "tea" concept (trade-route families); toggled by updateTeaLegend(). -->
+    <div id="tea-legend" class="tea-legend" hidden aria-hidden="true">
+        <div class="tea-legend-title">🍵 tea</div>
+        <div class="tea-legend-row"><span class="sw sw-cha"></span><span class="tl-text" data-fam="cha"></span></div>
+        <div class="tea-legend-row"><span class="sw sw-te"></span><span class="tl-text" data-fam="te"></span></div>
+        <div class="tea-legend-row"><span class="sw sw-other"></span><span class="tl-text" data-fam="other"></span></div>
+    </div>
     <div id="globe"></div>
     <!-- Connector from selected map label to the open info panel -->
     <svg id="connector-line" aria-hidden="true">
@@ -4798,17 +4818,21 @@
             let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
             // Audit Task 129: dir="auto" on word + name so RTL labels render
             // in correct order; IPA stays LTR.
-            if (showWord) html += `<div class="word" dir="auto" ${c ? `style="color:${c}"` : ''}>${w}</div>`;
-            if (showIpa) html += `<div class="ipa" dir="ltr" ${c ? `style="color:${c}"` : ''}>/${i}/</div>`;
+            // "tea" concept only: colour the word/IPA by its cha/te/other route
+            // family (via CSS class) instead of the usual language colour, so the
+            // map visibly splits along the two trade routes. A legend explains it.
+            const teaFam = (typeof currentWord !== 'undefined' && currentWord === 'tea'
+                && window.WORDS && WORDS.tea && WORDS.tea.family) ? WORDS.tea.family[code] : null;
+            if (showWord) html += teaFam
+                ? `<div class="word tea-${teaFam}" dir="auto">${w}</div>`
+                : `<div class="word" dir="auto" ${c ? `style="color:${c}"` : ''}>${w}</div>`;
+            if (showIpa) html += teaFam
+                ? `<div class="ipa tea-${teaFam}" dir="ltr">/${i}/</div>`
+                : `<div class="ipa" dir="ltr" ${c ? `style="color:${c}"` : ''}>/${i}/</div>`;
             // "@" concept only: the literal meaning of this language's @ name.
             if (typeof currentWord !== 'undefined' && currentWord === 'atsign') {
                 const mng = atsignMeaning(code);
                 if (mng) html += `<div class="meaning" dir="auto">${escapeHtml(mng)}</div>`;
-            }
-            // "tea" concept only: the cha/te/other trade-route marker.
-            if (typeof currentWord !== 'undefined' && currentWord === 'tea') {
-                const rt = teaRoute(code);
-                if (rt) html += `<div class="route route-${rt.family}" dir="auto">${escapeHtml(rt.text)}</div>`;
             }
             if (showName) {
                 html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
@@ -4837,19 +4861,22 @@
             return txt ? ((m.emoji ? m.emoji + ' ' : '') + txt) : '';
         }
 
-        // The trade-route marker for a language's word for "tea": which route it
-        // travelled (cha = overland Silk Road, te = Dutch sea trade, other =
-        // Latin herba). Returns {family, text} or null. Only the tea concept.
-        function teaRoute(code) {
+        // The "tea" map colours each word by its trade-route family; this
+        // populates + shows the colour legend (localized) only for that concept.
+        function updateTeaLegend() {
+            const el = document.getElementById('tea-legend');
+            if (!el) return;
             const T = window.WORDS && window.WORDS.tea;
-            const fam = T && T.family && T.family[code];
-            if (!fam) return null;
-            const r = T.routes && T.routes[fam];
-            if (!r) return null;
+            if (typeof currentWord === 'undefined' || currentWord !== 'tea' || !T || !T.routes) {
+                el.hidden = true; el.setAttribute('aria-hidden', 'true'); return;
+            }
             const base = uiLang.split('_')[0];
-            const txt = r[uiLang] || r[base] || r.en || '';
-            if (!txt) return null;
-            return { family: fam, text: (r.emoji ? r.emoji + ' ' : '') + txt };
+            el.querySelectorAll('.tl-text').forEach(span => {
+                const fam = span.getAttribute('data-fam');
+                const r = T.routes[fam] || {};
+                span.textContent = r[uiLang] || r[base] || r.en || fam;
+            });
+            el.hidden = false; el.setAttribute('aria-hidden', 'false');
         }
 
         function getDisplayName(code, lang) {
@@ -5059,6 +5086,7 @@
 
         function updateMarkers(wordId) {
             currentWord = wordId;
+            updateTeaLegend();
 
             if (is3D) {
                 updateGlobeLabels(wordId);

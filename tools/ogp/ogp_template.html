@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0}
+  *{box-sizing:border-box}
+  .card{width:1200px;height:630px;position:relative;overflow:hidden;background:#fff;
+    font-family:'Inter','Segoe UI','Noto Sans JP','Yu Gothic','Meiryo','Noto Sans SC','Noto Sans KR',system-ui,sans-serif;
+    color:#16223a}
+  .bg{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat}
+  .panel{position:absolute;left:0;top:0;width:592px;height:100%;
+    background:linear-gradient(90deg, var(--tint) 0%, var(--tint) 72%, rgba(255,255,255,0) 100%)}
+  .accent{position:absolute;left:0;top:0;width:100%;height:9px;background:var(--theme);z-index:5}
+  .brand{position:absolute;left:56px;top:44px;display:flex;align-items:center;gap:13px;z-index:6}
+  .brand img{width:42px;height:42px;border-radius:9px;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+  .brand b{font-size:30px;font-weight:800;letter-spacing:-.4px;color:#16223a}
+  .kicker{position:absolute;left:57px;top:122px;font-size:15px;font-weight:700;letter-spacing:2px;
+    text-transform:uppercase;color:var(--theme);z-index:6}
+  .title{position:absolute;left:56px;top:150px;z-index:6}
+  .title .en{font-size:58px;font-weight:800;line-height:1.03;letter-spacing:-1.4px;color:#14213d;margin:0;max-width:510px}
+  .title .jp{font-size:26px;font-weight:700;color:var(--theme);margin-top:10px;letter-spacing:.5px}
+  .sub{position:absolute;left:57px;top:326px;width:512px;font-size:23px;line-height:1.42;color:#2b3550;z-index:6}
+  .stat{position:absolute;left:57px;top:414px;z-index:6;display:inline-block;
+    font-size:20px;font-weight:700;color:#fff;background:var(--theme);padding:8px 16px;border-radius:999px;
+    box-shadow:0 2px 6px rgba(0,0,0,.15)}
+  .chips{position:absolute;left:57px;top:480px;width:530px;display:flex;flex-wrap:wrap;gap:9px;z-index:6}
+  .chip{font-size:21px;padding:6px 14px;border-radius:999px;background:#fff;color:var(--themeDark);
+    border:1.5px solid var(--chipBorder);font-weight:600;
+    font-family:'Charis SIL','Gentium Plus','Noto Serif JP','Noto Serif',serif}
+  .url{position:absolute;right:26px;bottom:22px;z-index:6;font-size:18px;font-weight:600;color:#3a4358;
+    background:rgba(255,255,255,.82);padding:4px 12px;border-radius:8px}
+</style></head>
+<body>
+<div class="card" id="card">
+  <div class="bg" id="bg"></div>
+  <div class="panel" id="panel"></div>
+  <div class="accent" id="accent"></div>
+  <div class="brand"><img src="../../langmap.png"><b>LangMap</b></div>
+  <div class="kicker" id="kicker"></div>
+  <div class="title"><div class="en" id="en"></div><div class="jp" id="jp"></div></div>
+  <div class="sub" id="sub"></div>
+  <div class="stat" id="stat"></div>
+  <div class="chips" id="chips"></div>
+  <div class="url">langmap.heuron.com</div>
+</div>
+<script>
+const CFG = {
+  index:   {theme:'#0e7490',dark:'#0b5563',tint:'#e7f2f5',border:'#bfe0e6',kick:'LangMap',en:'Word Order Map',jp:'語順マップ',
+            sub:"See the world's basic word order laid out in a single sentence.",stat:'242 languages · SOV / SVO / VSO',
+            chips:['日本語 = SOV','English = SVO','Irish = VSO','SOV','SVO','VSO'],img:'src2_index.png',pos:'50% 50%'},
+  wordmap: {theme:'#b45309',dark:'#7c3a06',tint:'#fbf0e4',border:'#efd3b4',kick:'LangMap',en:'Word Map',jp:'単語マップ',
+            sub:'One everyday word, wildly different across languages — with pronunciation.',stat:'1,151 languages · 35 words',
+            chips:['茶 chá','thé','чай','お茶','çay','tea'],img:'src2_wordmap.png',pos:'64% 50%'},
+  hanmap:  {theme:'#c0392b',dark:'#8f2519',tint:'#fbeae7',border:'#f0c5bd',kick:'HanMap',en:'Han Map',jp:'漢字マップ',
+            sub:'How a single Han character is read across the Sinosphere.',stat:'61 characters × 119 languages',
+            chips:['一 yī','일 il','イチ ichi','it','jat1','yiq'],img:'src2_hanmap.png',pos:'60% 46%'},
+  namemap: {theme:'#8e44ad',dark:'#6a3184',tint:'#f4eafa',border:'#e2c9ef',kick:'LangMap',en:'Name Map',jp:'名前マップ',
+            sub:'How one given name changes as it travels the world.',stat:'origins · meanings · family trees',
+            chips:['John','Jean','Juan','Giovanni','Иван','Ιωάννης'],img:'src2_namemap.png',pos:'58% 42%'},
+  tree:    {theme:'#2e8b57',dark:'#1f6b41',tint:'#e9f5ee',border:'#c2e4d0',kick:'LangMap',en:'Language Family Tree',jp:'系統樹',
+            sub:"Explore the world's languages by their genealogical family tree.",stat:'1,000+ languages by family',
+            chips:['Indo-European','Sino-Tibetan','Austronesian','Afro-Asiatic','Dravidian'],img:'src2_tree.png',pos:'50% 50%'},
+};
+const p = new URLSearchParams(location.search).get('p') || 'wordmap';
+const c = CFG[p];
+document.documentElement.style.setProperty('--theme', c.theme);
+document.documentElement.style.setProperty('--themeDark', c.dark);
+document.documentElement.style.setProperty('--tint', c.tint);
+document.documentElement.style.setProperty('--chipBorder', c.border);
+const bg = document.getElementById('bg');
+bg.style.backgroundImage = 'url('+c.img+')';
+bg.style.backgroundPosition = c.pos;
+document.getElementById('kicker').textContent = c.kick;
+document.getElementById('en').textContent = c.en;
+document.getElementById('jp').textContent = c.jp;
+document.getElementById('sub').textContent = c.sub;
+document.getElementById('stat').textContent = c.stat;
+const chips = document.getElementById('chips');
+c.chips.forEach(t=>{const s=document.createElement('span');s.className='chip';s.textContent=t;chips.appendChild(s);});
+</script>
+</body></html>

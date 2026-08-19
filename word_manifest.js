@@ -19,6 +19,7 @@ const WORD_ORDER = [
     "name",
     // body & feeling
     "eye",
+    "tooth",
     "hand",
     "heart",
     "blood",

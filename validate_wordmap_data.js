@@ -221,8 +221,8 @@ const W = m => {
 const I = m => infos.push(m);
 
 // ---- 1. WORD_LIST has 20 entries ----------------------------------------
-if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 32) {
-    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 32)`);
+if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 33) {
+    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 33)`);
 }
 const WORD_IDS = (ctx.WORD_LIST || []).map(w => w.id);
 // Partial words (WORDS.<id>.partial === true) are NOT required for every
@@ -828,7 +828,19 @@ for (const code of codes) {
         if (wDash && iDash) {
             const unattestedReason = lang.meta?.unattestedReason?.[id];
             const isCulturalAbsence = unattestedReason === 'cultural-absence';
-            if (!isHist && !isFragmentary && !isCulturalAbsence) {
+            // Explicit, reviewable exceptions: a modern language whose only
+            // lexical source for a concept is a print work this project does
+            // not hold. Each entry must name that source here; the allowlist
+            // keeps the guard strict everywhere else.
+            //   ker.red — Ebert (1976) Sprache und Tradition der Kera, Teil II:
+            //   Lexikon (Reimer, Berlin), the same work Kera's other cells come
+            //   from. Print only: no online lexicon, scripture portion or
+            //   comparative wordlist carries Kera 'red' (checked ASJP, IDS,
+            //   Kraft Chadic, Glosbe, Webonary, ebible).
+            const MODERN_UNSOURCED_ALLOW = { ker: new Set(['red']) };
+            const isAllowedUnsourced = unattestedReason === 'unsourced' &&
+                MODERN_UNSOURCED_ALLOW[code]?.has(id);
+            if (!isHist && !isFragmentary && !isCulturalAbsence && !isAllowedUnsourced) {
                 E(`${code}.words.${id}: both '—' but language is modern (unattested-marker only allowed for historical or fragmentary)`);
                 modernDashErrors++;
             }

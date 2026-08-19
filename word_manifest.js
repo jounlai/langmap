@@ -36,6 +36,8 @@ const WORD_ORDER = [
     "hello",
     "thanks",
     "good",
+    // colour
+    "red",
     // experimental / partial words (🧪) — mapped only where a sourced form
     // exists, so they are grouped last, after the full-coverage core words.
     "cuckoo",

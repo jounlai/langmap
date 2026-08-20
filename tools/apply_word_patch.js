@@ -23,10 +23,12 @@ for (const [word, edits] of Object.entries(byWord)) {
     let src = fs.readFileSync(file, 'utf8');
     for (const { code, pair } of edits) {
         const esc = code.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const re = new RegExp(`^(\\s*)${esc}:\\s*\\[[^\\]]*\\],`, 'm');
+        // Five word files (cuckoo, computer, dopamine, sushi, woof) quote their
+        // keys — accept either form and echo back whichever the file uses.
+        const re = new RegExp(`^(\\s*)("?)${esc}\\2:\\s*\\[[^\\]]*\\],`, 'm');
         if (!re.test(src)) { fail.push([code, word, 'entry not found']); continue; }
         const [s, ipa] = pair;
-        src = src.replace(re, (_, indent) => `${indent}${code}: [${JSON.stringify(s)}, ${JSON.stringify(ipa)}],`);
+        src = src.replace(re, (_, indent, q) => `${indent}${q}${code}${q}: [${JSON.stringify(s)}, ${JSON.stringify(ipa)}],`);
         done++;
     }
     if (WRITE) fs.writeFileSync(file, src);

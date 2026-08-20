@@ -691,7 +691,7 @@ WORDS.three = {
     abq: ["хъпа", "χpa"],
     uby: ["śa", "ɕa"],
     xmf: ["სუმი", "sumi"],
-    os: ["æртæ", "ærtæ"],
+    os: ["ӕртӕ", "ærtæ"],
     ty: ["toru", "toɾu"],
     niu: ["tolu", "tolu"],
     tvl: ["tolu", "tolu"],

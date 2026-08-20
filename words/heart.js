@@ -1000,7 +1000,7 @@ WORDS.heart = {
     elx: ["𒌋𒄭", "ulhi"],
     xsa: ["𐩡𐩨", "lubb"],
     kaw: ["ꦲꦠꦶ", "hati"],
-    kho: ["𑀬𑀲𑀭 (ysära)", "zəra"],
+    kho: ["𑀬𑀲𑀭", "zəra"],
     de_lut: ["Hertz", "hɛrts"],
     gmh: ["herze", "ˈhertsə"],
     es_sgl: ["coraçón", "koɾaˈtson"],

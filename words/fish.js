@@ -689,7 +689,7 @@ WORDS.fish = {
     kbd: ["бдзэжьей", "bdzaʐej"],
     ab: ["аҧсыӡ", "apʰsɨdz"],
     abq: ["псылакӏва", "pslatʃʷa"],
-    uby: ["псa", "psa"],
+    uby: ["psa", "psa"],
     xmf: ["ჩხომი", "tʃxomi"],
     os: ["кӕсаг", "kæsaɡ"],
     ty: ["iʻa", "ˈiʔa"],

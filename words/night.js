@@ -694,7 +694,7 @@ WORDS.night = {
     abq: ["уахъа", "waqʼa"],
     uby: ["śwa", "ɕʷa"],
     xmf: ["სერი", "seri"],
-    os: ["æхсæв", "æxsæv"],
+    os: ["ӕхсӕв", "æxsæv"],
     ty: ["pō", "poː"],
     niu: ["pō", "poː"],
     tvl: ["pō", "poː"],

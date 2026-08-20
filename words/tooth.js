@@ -695,7 +695,7 @@ WORDS.tooth = {
     abq: ["пыц", "pəts"],
     uby: ["cakʼə", "tsakʼʲə"],
     xmf: ["კიბირი", "kʼibiri"],
-    os: ["дæндаг", "dændaɡ"],
+    os: ["дӕндаг", "dændaɡ"],
     ty: ["niho", "niho"],
     niu: ["nifo", "nifo"],
     tvl: ["nifo", "nifo"],

@@ -428,7 +428,7 @@ WORDS.tea = {
     rm: ["té", "te"],
     sc: ["te", "te"],
     scn: ["tè", "tɛ"],
-    shi: ["atay", "ataj"],
+    shi: ["ⴰⵜⴰⵢ", "ataj"],
     si: ["තේ", "teː"],
     sm: ["tī", "tiː"],
     sn: ["tii", "ˈtiː"],

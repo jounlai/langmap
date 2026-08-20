@@ -890,7 +890,7 @@ WORDS.blood = {
     mui: ["darah", "darah"],
     sas: ["daraq", "daraʔ"],
     kha: ["snam", "snam"],
-    mns: ["кēлп", "keːlp"],
+    mns: ["ке̄лп", "keːlp"],
     mrw: ["rogo'", "roɡoʔ"],
     tsg: ["dugu'", "duɡuʔ"],
     yap: ["racha'", "ratʃaʔ"],

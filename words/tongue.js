@@ -695,7 +695,7 @@ WORDS.tongue = {
     abq: ["бзы", "bzə"],
     uby: ["bza", "bʒa"],
     xmf: ["ნინა", "nina"],
-    os: ["æвзаг", "ævzaɡ"],
+    os: ["ӕвзаг", "ævzaɡ"],
     ty: ["arero", "aɾeɾo"],
     niu: ["alelo", "alelo"],
     tvl: ["alelo", "alelo"],

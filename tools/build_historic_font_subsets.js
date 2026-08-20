@@ -52,6 +52,18 @@ const SCRIPTS = [
   { key: 'EgyptianHiero',  repo: 'NotoSansEgyptianHieroglyphs',  range: 'U+13000-1342F', blocks: [[0x13000,0x1342F]] },
   { key: 'AnatolianHiero', repo: 'NotoSansAnatolianHieroglyphs', range: 'U+14400-1467F', blocks: [[0x14400,0x1467F]] },
   { key: 'Tangut',         repo: 'NotoSerifTangut',              range: 'U+17000-18AFF', blocks: [[0x17000,0x18AFF]] },
+  // Brahmic + Tifinagh subsets were originally cut by hand and had no builder
+  // entry, so they went stale silently when new glyphs entered the data (the
+  // Brahmi LA needed by Tocharian klautso/klots was missing until 2026-08-21).
+  // They live under their own @font-face families in wordmap.html — `family`
+  // keeps the emitted CSS matching what is already declared there.
+  { key: 'Javanese',       repo: 'NotoSansJavanese',             range: 'U+A980-A9DF',   blocks: [[0xA980,0xA9DF]], family: 'Brahmic Subset' },
+  { key: 'Brahmi',         repo: 'NotoSansBrahmi',               range: 'U+11000-1107F', blocks: [[0x11000,0x1107F]], family: 'Brahmic Subset' },
+  { key: 'Tagalog',        repo: 'NotoSansTagalog',              range: 'U+1700-171F',   blocks: [[0x1700,0x171F]], family: 'Brahmic Subset' },
+  { key: 'NewTaiLue',      repo: 'NotoSansNewTaiLue',            range: 'U+1980-19DF',   blocks: [[0x1980,0x19DF]], family: 'Brahmic Subset' },
+  { key: 'TaiViet',        repo: 'NotoSansTaiViet',              range: 'U+AA80-AADF',   blocks: [[0xAA80,0xAADF]], family: 'Brahmic Subset' },
+  { key: 'Cham',           repo: 'NotoSansCham',                 range: 'U+AA00-AA5F',   blocks: [[0xAA00,0xAA5F]], family: 'Brahmic Subset' },
+  { key: 'Tifinagh',       repo: 'NotoSansTifinagh',             range: 'U+2D30-2D7F',   blocks: [[0x2D30,0x2D7F]], family: 'Tifinagh Subset' },
 ];
 
 // Collect the codepoints each script actually needs from the word data.
@@ -70,6 +82,27 @@ for (const w of Object.keys(WORDS)) {
       const cp = ch.codePointAt(0);
       for (const s of SCRIPTS) if (s.blocks.some(([lo, hi]) => cp >= lo && cp <= hi)) need.get(s.key).add(cp);
     }
+  }
+}
+
+// Word surfaces are not the only place these scripts appear on the page: native
+// language names, meta descriptions and trivia bodies carry them too. Cutting
+// to surfaces alone left real tofu (Tifinagh ⵇ in a language name, Cham ꨌ, five
+// Meroitic letters, three Yi syllables …). Sweep every shipped asset for
+// codepoints in the tracked blocks — over-including a few unrendered
+// characters from a comment costs bytes; under-including renders a box.
+const EXTRA = ['lang_names.js', 'lang_names_shim.js', 'wordmap_meta.js', 'wordmap_data.js',
+  'wordmap.html', 'word_labels.js', 'word_manifest.js', 'meta_i18n_ext.js',
+  'meta_i18n_coverage.js', 'meta_i18n_coverage2.js', 'meta_i18n_coverage3.js']
+  .concat(fs.readdirSync(ROOT).filter(f => /^wordmap_trivia.*\.js$/.test(f)))
+  .concat(fs.existsSync(path.join(ROOT, 'lang_names'))
+    ? fs.readdirSync(path.join(ROOT, 'lang_names')).map(f => path.join('lang_names', f)) : []);
+for (const rel of EXTRA) {
+  const p = path.join(ROOT, rel);
+  if (!fs.existsSync(p) || fs.statSync(p).isDirectory()) continue;
+  for (const ch of fs.readFileSync(p, 'utf8')) {
+    const cp = ch.codePointAt(0);
+    for (const s of SCRIPTS) if (s.blocks.some(([lo, hi]) => cp >= lo && cp <= hi)) need.get(s.key).add(cp);
   }
 }
 
@@ -94,7 +127,7 @@ for (const s of SCRIPTS) {
   console.error(`  ${s.key.padEnd(18)} ${cps.length} glyphs -> ${path.basename(out)} (${kb} KB)`);
   css.push(
     `        @font-face {\n` +
-    `            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;\n` +
+    `            font-family: '${s.family || 'Historic Script Subset'}'; font-style: normal; font-weight: 400; font-display: swap;\n` +
     `            src: url('fonts/${s.repo}-subset.woff2') format('woff2');\n` +
     `            unicode-range: ${s.range};\n` +
     `        }`);

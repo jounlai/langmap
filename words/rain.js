@@ -553,5 +553,6 @@ WORDS.rain = {
     bug: ["bosi", "ˈbosi"],
     sga: ["fras", "fras"],
     egy: ["ḥwt", "huːt"],
+    vi_nom: ["𩄎", "mɨə˧˧"],
   },
 };

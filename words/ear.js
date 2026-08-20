@@ -598,5 +598,7 @@ WORDS.ear = {
     mni: ["nakong", "nakoŋ"],
     na: ["iyungen", "ijuŋen"],
     zdj: ["shishio", "ʃiʃo"],
+    vi_nom: ["𦖻", "taj˧˧"],
+    vi_han: ["耳", "ɲi˧ˀ˥"],
   },
 };

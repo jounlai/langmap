@@ -392,5 +392,7 @@ WORDS.poop = {
     mai: ["टट्टी", "ʈəʈːiː"],
     nbl: ["amasimba", "amasimba"],
     nd: ["amasimba", "amasimba"],
+    vi_nom: ["𡳛", "kɨt̚˧˥"],
+    vi_han: ["糞", "fɤn˧˧"],
   },
 };

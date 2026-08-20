@@ -483,5 +483,6 @@ WORDS.wind = {
     bug: ["anging", "aŋiŋ"],
     mak: ["anging", "aŋiŋ"],
     bjn: ["angin", "aŋin"],
+    vi_nom: ["𩙋", "zɔ˧˩˧"],
   },
 };

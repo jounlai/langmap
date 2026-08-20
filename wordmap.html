@@ -101,7 +101,8 @@
                 U+215B5, U+21B36, U+22051, U+22782, U+22785, U+23603, U+243EC,
                 U+2475E, U+2512B, U+269DC, U+275B1, U+27E65, U+29218, U+29D5C,
                 U+2A635, U+2B5D2,
-                U+2028E, U+20129, U+20E1C, U+232C0;
+                U+2028E, U+20129, U+20E1C, U+232C0,
+                U+265BB, U+2910E, U+2964B, U+21419, U+21CDB;
         }
         @font-face {
             font-family: 'Nom Serif Subset';
@@ -199,6 +200,121 @@
             font-display: swap;
             src: url('fonts/NotoSerifKR-OldHangul-subset.ttf') format('truetype');
             unicode-range: U+1100-11FF;
+        }
+
+        /* Historic-script subsets (owner 2026-08-21). The font chains name
+           system fonts ("Noto Serif Tangut", "Noto Sans Old Turkic", …) that
+           desktop Linux ships but iOS / Windows / most Android do NOT, so the
+           astral historic scripts tofu on phones (西夏 Tangut, 突厥 Old Turkic,
+           Egyptian, Cuneiform, Yi, Vai, Mongolian, Coptic, …). Self-hosted Noto
+           subsets cut to exactly the codepoints the word data uses (~120 KB
+           total across 21 scripts), served under one family, unicode-range
+           scoped so each loads only when its script appears. Rebuild with
+           tools/build_historic_font_subsets.js. */
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansMandaic-subset.woff2') format('woff2');
+            unicode-range: U+0840-085F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansLimbu-subset.woff2') format('woff2');
+            unicode-range: U+1900-194F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansMongolian-subset.woff2') format('woff2');
+            unicode-range: U+1800-18AF;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansCoptic-subset.woff2') format('woff2');
+            unicode-range: U+2C80-2CFF;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansYi-subset.woff2') format('woff2');
+            unicode-range: U+A000-A4CF;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansVai-subset.woff2') format('woff2');
+            unicode-range: U+A500-A63F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansLinearB-subset.woff2') format('woff2');
+            unicode-range: U+10000-1013F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansGothic-subset.woff2') format('woff2');
+            unicode-range: U+10330-1034F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansUgaritic-subset.woff2') format('woff2');
+            unicode-range: U+10380-1039F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansOldPersian-subset.woff2') format('woff2');
+            unicode-range: U+103A0-103DF;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansImperialAramaic-subset.woff2') format('woff2');
+            unicode-range: U+10840-1085F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansPhoenician-subset.woff2') format('woff2');
+            unicode-range: U+10900-1091F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansMeroitic-subset.woff2') format('woff2');
+            unicode-range: U+10980-109FF;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansOldSouthArabian-subset.woff2') format('woff2');
+            unicode-range: U+10A60-10A7F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansAvestan-subset.woff2') format('woff2');
+            unicode-range: U+10B00-10B3F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansInscriptionalPahlavi-subset.woff2') format('woff2');
+            unicode-range: U+10B60-10B7F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansOldTurkic-subset.woff2') format('woff2');
+            unicode-range: U+10C00-10C4F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansCuneiform-subset.woff2') format('woff2');
+            unicode-range: U+12000-1247F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansEgyptianHieroglyphs-subset.woff2') format('woff2');
+            unicode-range: U+13000-1342F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSansAnatolianHieroglyphs-subset.woff2') format('woff2');
+            unicode-range: U+14400-1467F;
+        }
+        @font-face {
+            font-family: 'Historic Script Subset'; font-style: normal; font-weight: 400; font-display: swap;
+            src: url('fonts/NotoSerifTangut-subset.woff2') format('woff2');
+            unicode-range: U+17000-18AFF;
         }
             /* Crawlable article index in the footer. Collapsed for readers,
            but the links are in the HTML source so crawlers reach every
@@ -645,6 +761,8 @@
                 "Noto Sans Anatolian Hieroglyphs", "Noto Sans Cuneiform", "Noto Sans Brahmi",
                 "Noto Sans Linear B", "Noto Sans Old Persian", "Noto Sans Avestan",
                 "Noto Sans Old South Arabian", "Noto Sans Inscriptional Pahlavi",
+                "Historic Script Subset",
+                "Noto Sans Imperial Aramaic",
                 "Noto Sans Phoenician", "Noto Sans Gothic", "Noto Sans Ugaritic",
                 "Noto Sans Limbu", "Noto Sans Vai", "Noto Sans Mandaic",
                 "Noto Sans Javanese", "Noto Sans Tai Viet",
@@ -939,6 +1057,8 @@
                 "Noto Sans Anatolian Hieroglyphs", "Noto Sans Cuneiform", "Noto Sans Brahmi",
                 "Noto Sans Linear B", "Noto Sans Old Persian", "Noto Sans Avestan",
                 "Noto Sans Old South Arabian", "Noto Sans Inscriptional Pahlavi",
+                "Historic Script Subset",
+                "Noto Sans Imperial Aramaic",
                 "Noto Sans Phoenician", "Noto Sans Gothic", "Noto Sans Ugaritic",
                 "Noto Sans Limbu", "Noto Sans Vai", "Noto Sans Mandaic",
                 "Noto Sans Javanese", "Noto Sans Tai Viet",
@@ -990,6 +1110,8 @@
                 "Noto Sans Anatolian Hieroglyphs", "Noto Sans Cuneiform", "Noto Sans Brahmi",
                 "Noto Sans Linear B", "Noto Sans Old Persian", "Noto Sans Avestan",
                 "Noto Sans Old South Arabian", "Noto Sans Inscriptional Pahlavi",
+                "Historic Script Subset",
+                "Noto Sans Imperial Aramaic",
                 "Noto Sans Phoenician", "Noto Sans Gothic", "Noto Sans Ugaritic",
                 "Noto Sans Limbu", "Noto Sans Vai", "Noto Sans Mandaic",
                 "Noto Sans Javanese", "Noto Sans Tai Viet",
@@ -1179,6 +1301,8 @@
                 "Noto Sans Anatolian Hieroglyphs", "Noto Sans Cuneiform", "Noto Sans Brahmi",
                 "Noto Sans Linear B", "Noto Sans Old Persian", "Noto Sans Avestan",
                 "Noto Sans Old South Arabian", "Noto Sans Inscriptional Pahlavi",
+                "Historic Script Subset",
+                "Noto Sans Imperial Aramaic",
                 "Noto Sans Phoenician", "Noto Sans Gothic", "Noto Sans Ugaritic",
                 "Noto Sans Limbu", "Noto Sans Vai", "Noto Sans Mandaic",
                 "Noto Sans Javanese", "Noto Sans Tai Viet",
@@ -3315,7 +3439,7 @@
             meta:     272,
             trivia:   31,
             triviaI18n: 6,
-            words:      164,
+            words:      165,
             labels:      29,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,

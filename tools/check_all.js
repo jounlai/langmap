@@ -69,9 +69,16 @@ s = run('font_coverage_check.js');
 line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/));
 
 // NOTE: tools/script_family_check.js (surface writing system vs the rest of the
-// corpus) is deliberately NOT wired in yet — it currently reports 6 real
-// deviations (cuckoo haj/kry/lzz/ojp/yug, i khb) that need their native-script
-// forms researched. Wire it in as a blocking guard once those are fixed.
+// corpus) is deliberately NOT wired in yet — it still reports real deviations
+// (cuckoo haj/kry, ear otk/rhg, i kho/khb, tea kaa, orange mn_cn, rain pi_edu)
+// whose native-script forms need researching. Wire it in as a blocking guard
+// once those are fixed.
+//
+// Its unanimity rule (`refShare < 1`) is self-silencing: once a code has TWO
+// romanized cells it is exempt from the check forever, so the languages
+// furthest from their own script are the ones it stops watching. That is how
+// akk/egy/sux/hit/pal each accumulated four Latin cells behind a comment
+// claiming akk was "100% cuneiform". Tighten the rule before wiring it in.
 
 // Chao tone letters (˥˦˧˨˩) belong in IPA, never in a surface/orthography.
 // Ersu was writing them into the headword (sun "ȵo˥ma˥").

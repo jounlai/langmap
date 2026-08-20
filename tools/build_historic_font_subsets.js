@@ -91,10 +91,17 @@ for (const w of Object.keys(WORDS)) {
 // Meroitic letters, three Yi syllables …). Sweep every shipped asset for
 // codepoints in the tracked blocks — over-including a few unrendered
 // characters from a comment costs bytes; under-including renders a box.
-const EXTRA = ['lang_names.js', 'lang_names_shim.js', 'wordmap_meta.js', 'wordmap_data.js',
-  'wordmap.html', 'word_labels.js', 'word_manifest.js', 'meta_i18n_ext.js',
-  'meta_i18n_coverage.js', 'meta_i18n_coverage2.js', 'meta_i18n_coverage3.js']
-  .concat(fs.readdirSync(ROOT).filter(f => /^wordmap_trivia.*\.js$/.test(f)))
+// Derived from wordmap.html rather than hand-listed, so a newly loaded asset
+// is swept automatically. Scoped to what THIS page loads: hanmap/namemap ship
+// their own -hanmap.woff2 faces, and folding their data in here would have
+// tripled the Cuneiform, Yi and Tangut subsets with glyphs the word map never
+// renders. The two dynamic loads (per-UI lang_names, per-UI trivia overlays)
+// are added by pattern since their paths are built at runtime.
+const HTML_SRC = fs.readFileSync(path.join(ROOT, 'wordmap.html'), 'utf8');
+const EXTRA = ['wordmap.html']
+  .concat([...HTML_SRC.matchAll(/(?:src="|assetUrl\(')([A-Za-z0-9_./-]+\.js)/g)]
+    .map(m => m[1].replace(/^\//, '')))
+  .concat(fs.readdirSync(ROOT).filter(f => /^wordmap_trivia(_[a-z]{2,3})?\.js$/.test(f)))
   .concat(fs.existsSync(path.join(ROOT, 'lang_names'))
     ? fs.readdirSync(path.join(ROOT, 'lang_names')).map(f => path.join('lang_names', f)) : []);
 for (const rel of EXTRA) {

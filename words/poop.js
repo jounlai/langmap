@@ -384,5 +384,13 @@ WORDS.poop = {
     eu: ["kaka", "kaka"],
     sq: ["kakë", "ˈkakə"],
     so: ["saxaro", "saħaro"],
+    pnb: ["ٹٹی", "ʈəʈːiː"],
+    prs: ["گه", "guːh"],
+    azb: ["کاکا", "kaka"],
+    bho: ["टट्टी", "ʈəʈːiː"],
+    bgc: ["टट्टी", "ʈəʈːiː"],
+    mai: ["टट्टी", "ʈəʈːiː"],
+    nbl: ["amasimba", "amasimba"],
+    nd: ["amasimba", "amasimba"],
   },
 };

@@ -518,7 +518,7 @@ WORDS.rain = {
     pjt: ["mina", "ˈmina"],
     tiw: ["pakitringa", "pakitɾiŋa"],
     sux: ["šeg₃", "ʃeg"],
-    oar: ["מטר", "maːtˤar"],
+    oar: ["𐡌𐡈𐡓", "maːtˤar"],
     hit: ["ḫēuš", "xeːuʃ"],
     pal: ["wārān", "waːraːn"],
     non: ["regn", "rɛɣn"],
@@ -527,5 +527,9 @@ WORDS.rain = {
     qwc: ["para", "para"],
     p_jpn: ["*ami", "ami"],
     akk: ["zunnu", "ˈzunnu"],
+    ang: ["regn", "rejn"],
+    goh: ["regan", "ˈreɡan"],
+    och: ["雨", "*C.ɢʷ(r)aʔ"],
+    mga: ["báitsech", "ˈbaːtʲʃəx"],
   },
 };

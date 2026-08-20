@@ -66,7 +66,7 @@ WORDS.poop = {
     it_dan: ["merda", "ˈmɛrda"],
     fro: ["merde", "ˈmɛrdə"],
     fr_class: ["merde", "mɛʁd"],
-    el_grc: ["κόπρος", "kópros"],
+    el_grc: ["κόπρος", "ˈkopros"],
     el_kath: ["κόπρος", "ˈkopros"],
     ang: ["tord", "tord"],
     enm: ["tord", "tord"],
@@ -375,5 +375,6 @@ WORDS.poop = {
     hy_grab: ["աղբ", "ɑʁb"],
     sw: ["Kinyesi", "kiˈɲesi"],
     akk: ["zû", "zuː"],
+    och: ["屎", "*[qʰ]ijʔ"],
   },
 };

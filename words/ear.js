@@ -61,7 +61,7 @@ WORDS.ear = {
   },
   data: {
     la: ["auris", "au̯ris"],
-    el_grc: ["οὖς", "uːs"],
+    el_grc: ["οὖς", "ûːs"],
     el: ["αυτί", "afˈti"],
     ang: ["ēare", "æːɑre"],
     enm: ["ere", "ɛːrə"],
@@ -552,7 +552,7 @@ WORDS.ear = {
     pjt: ["pina", "pɪnɐ"],
     sux: ["ĝeštug", "ŋeʃtug"],
     uga: ["𐎜𐎄𐎐", "ʔudn"],
-    oar: ["אדנא", "ʔuðnaː"],
+    oar: ["𐡀𐡃𐡍𐡀", "ʔuðnaː"],
     xto: ["klots", "klots"],
     txb: ["klautso", "klau̯tso"],
     xpr: ["gōš", "ɡoːʃ"],

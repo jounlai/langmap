@@ -115,7 +115,6 @@ WORDS.poop = {
     ko_jl: ["똥", "t͈oŋ"],
     ko_mid: ["ᄯᅩᇰ", "stwoŋ"],
     ko_em: ["똥", "t͈oŋ"],
-    p_kor: ["*sotwonko", "sotwoŋko"],
     it: ["cacca", "ˈkakka"],
     es: ["caca", "ˈkaka"],
     es_mx: ["caca", "ˈkaka"],

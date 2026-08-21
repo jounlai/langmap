@@ -14,6 +14,8 @@ const WORD_ORDER = [
     "rain",
     "wind",
     "earth",
+    "snow",
+    "stone",
     // people
     "mother",
     "father",
@@ -23,6 +25,7 @@ const WORD_ORDER = [
     // body & feeling
     "eye",
     "ear",
+    "nose",
     "tooth",
     "hand",
     "heart",
@@ -35,19 +38,24 @@ const WORD_ORDER = [
     "dog",
     "cat",
     "fish",
+    "bird",
+    "egg",
     // actions
     "eat",
     "drink",
+    "sleep",
     // numbers
     "one",
     "two",
     "three",
+    "five",
     // greetings & quality
     "hello",
     "thanks",
     "good",
     // colour
     "red",
+    "white",
     // experimental / partial words (🧪) — mapped only where a sourced form
     // exists, so they are grouped last, after the full-coverage core words.
     "cuckoo",

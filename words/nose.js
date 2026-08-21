@@ -591,5 +591,7 @@ WORDS.nose = {
     puaz: ["*yaka", "jaka"],
     pkar: ["*cxwir-", "tsxwir"],
     p_aav: ["*muh", "muh"],
+    ojp: ["鼻", "pana"],
+    ko_mid: ["고", "koh"],
   },
 };

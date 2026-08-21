@@ -836,5 +836,6 @@ WORDS.five = {
     p_hmx: ["*prja", "prja"],
     pmay: ["*hoʔ", "hoʔ"],
     pkar: ["*xut-", "xut"],
+    ko_mid: ["다ᄉᆞᆺ", "tasʌs"],
   },
 };

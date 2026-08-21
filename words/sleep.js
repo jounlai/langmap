@@ -534,5 +534,7 @@ WORDS.sleep = {
     fro: ["dormir", "dorˈmir"],
     fr_class: ["dormir", "dɔrˈmir"],
     osp: ["dormir", "doɾˈmir"],
+    ojp: ["寝", "nu"],
+    ko_mid: ["자·다", "tɕa.ta"],
   },
 };

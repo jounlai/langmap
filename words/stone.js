@@ -689,5 +689,6 @@ WORDS.stone = {
     p_aav: ["*tmɔʔ", "tmɔʔ"],
     pkar: ["*ḳwa", "kʼwa"],
     p_tun: ["*ǯolo", "dʒolo"],
+    ko_mid: ["돓", "tolh"],
   },
 };

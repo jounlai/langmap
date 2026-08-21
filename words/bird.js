@@ -680,5 +680,7 @@ WORDS.bird = {
     p_dra: ["*puḷ", "puɭ"],
     p_aav: ["*ciːm", "ciːm"],
     p_kra: ["*nok", "nok"],
+    ojp: ["鳥", "toɾi"],
+    ko_mid: ["새", "saj"],
   },
 };

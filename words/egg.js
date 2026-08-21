@@ -528,5 +528,6 @@ WORDS.egg = {
     pura: ["*muna", "muna"],
     paus: ["*qiCeluR", "qicəlur"],
     p_tun: ["*umukta", "umukta"],
+    ko_mid: ["알", "al"],
   },
 };

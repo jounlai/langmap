@@ -545,5 +545,6 @@ WORDS.snow = {
     ptrk: ["*kar", "kaːr"],
     pmng: ["*časun", "tɕasun"],
     p_tun: ["*imana", "imana"],
+    ko_mid: ["눈", "nwun"],
   },
 };

@@ -145,7 +145,7 @@ WORDS.sleep = {
     my: ["အိပ်", "ʔeɪʔ"],
     km: ["ដេក", "deːk"],
     lo: ["ນອນ", "nɔːn"],
-    yo: ["sùn", "sṹ"],
+    yo: ["sùn", "sũ̀"],
     am: ["ተኛ", "tɛɲːa"],
     mg: ["matory", "maˈturi"],
     fi: ["nukkua", "ˈnukːuɑ"],

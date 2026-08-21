@@ -406,7 +406,7 @@ WORDS.sleep = {
     ho: ["mahuta", "maˈhuta"],
     tcs: ["slip", "slip"],
     hwc: ["sleep", "sliːp"],
-    ain: ["mokor", "mokor"],
+    ain: ["モコㇿ", "mokor"],
     mxc: ["rara", "ˈraɾa"],
     ve: ["eḓela", "eˈɖela"],
     tum: ["gona", "ˈɡona"],

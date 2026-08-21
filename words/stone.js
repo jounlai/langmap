@@ -376,7 +376,7 @@ WORDS.stone = {
     hop: ["owa", "ˈʔowa"],
     tsz: ["tsakapu", "tsaˈkapu"],
     vo: ["ston", "ston"],
-    ain: ["suma", "suma"],
+    ain: ["スマ", "suma"],
     es_hn: ["piedra", "ˈpjeðɾa"],
     es_ni: ["piedra", "ˈpjeðɾa"],
     es_sv: ["piedra", "ˈpjeðɾa"],

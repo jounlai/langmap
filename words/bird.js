@@ -136,7 +136,7 @@ WORDS.bird = {
     zu: ["inyoni", "iˈɲoni"],
     am: ["ወፍ", "wəf"],
     mg: ["vorona", "ˈvurunə"],
-    ain: ["cikap", "tʃikap"],
+    ain: ["チカㇷ゚", "tʃikap"],
     fi: ["lintu", "ˈlintu"],
     hu: ["madár", "ˈmɒdaːr"],
     el: ["πουλί", "puˈli"],

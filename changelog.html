@@ -143,6 +143,37 @@
         <nav class="month-nav">Months: <strong>2026-08</strong> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-08-22 — Eight new words at once, and a way to add them without inventing anything 🐦</div>
+            <ul>
+                <li>Eight concepts in one go, taking the Word Map to <strong>53 words</strong>: <em>snow ❄️, stone 🪨, nose 👃, bird 🐦, egg 🥚, sleep 😴, white ⚪</em> and <em>five 5️⃣</em>. Each carries a full set of interface labels and a sense-disambiguated definition, and each already spans several hundred languages (from ~440 to ~740).</li>
+                <li><strong>How they were built.</strong> Instead of scraping a dictionary site language by language — which stalls the moment a minority language has no IPA online — each word was generated from the model’s own knowledge in <strong>two or more independent passes</strong>, and a cell was kept only where the passes <strong>agreed on the same form</strong>. Disagreement is exactly the signature of a guessed word, so the cross-check throws those out. Nothing was filled that could not be corroborated twice.</li>
+                <li><strong>Indo-European never settled on a word for “bird”.</strong> English <em>bird</em> is from Old English <em>bridd</em> (originally a nestling), German took <em>Vogel</em>, Latin <em>avis</em> went to Romance, Slavic says <em>ptica</em> — four unrelated roots for one everyday animal, against Sino-Tibetan 鳥 and Austronesian <strong>*manuk</strong>.</li>
+                <li><strong>Five is a hand.</strong> Austronesian <strong>*lima</strong> means both, and family after family builds “five” out of the word for the hand — a fossil of counting on fingers. White and black, meanwhile, are the <strong>first two colour terms</strong> any language lexicalises (Berlin &amp; Kay), which is why <em>white</em> travels so far so cleanly. And egg is PIE <strong>*h₂ōwyóm</strong> — English <em>egg</em> is actually a Norse import that displaced the native <em>ey</em>.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-08-21 — The historic scripts stop being tofu on phones 西夏 突厥</div>
+            <ul>
+                <li>The map named the right fonts for its oldest scripts — “Noto Serif Tangut”, “Noto Sans Old Turkic”, and two dozen others — but those are <strong>desktop system fonts</strong>. iPhones, most Androids and Windows ship almost none of them, so <strong>Tangut 西夏, Old Turkic 突厥, Egyptian, Cuneiform, Yi, Vai, Mongolian, Coptic, Phoenician, Ugaritic, Linear B</strong> and a dozen more rendered as rows of <strong>□□□</strong> on a phone. A coverage checker only proved the name was in the stylesheet, never that the glyph would actually appear, so it stayed green while the phone showed boxes.</li>
+                <li>Now <strong>21 historic scripts are self-hosted</strong> — each cut down to exactly the characters the data uses (about 120&nbsp;KB in total, loaded only when its script is on screen), so they render the same on a phone as on a desktop.</li>
+                <li>The same sweep fixed the <strong>Chữ Nôm</strong> forms of the new words — 𦖻 (ear), 𩄎 (rain), 𩙋 (wind), 𡐙 (earth) — and the <strong>Old Hangul</strong> jamo of their Middle-Korean readings, which had been tofu on iOS.</li>
+                <li>Smaller thing, same cause: the <strong>tea route legend</strong> no longer has its bottom row clipped under the iPhone home-indicator bar.</li>
+                <li>In the background the four newest core words kept filling out — <em>wind</em> alone went from 423 to 743 languages — by the same generate-and-cross-check method.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-08-20 — Five more words — ear, rain, wind, earth — and one that isn’t polite 🧪</div>
+            <ul>
+                <li>Four core words — <em>ear 👂, rain 🌧️, wind 🌬️, earth 🟫</em> — plus one experimental one kept off to the side and marked 🧪: <em>poop</em>. <strong>Earth here is the soil underfoot</strong>, the substance you dig, not the planet and not a country — the split that trips up half the world’s dictionaries.</li>
+                <li>The Indo-European anchors are old and stable: <em>ear</em> is PIE <strong>*h₂ṓws</strong> (Latin <em>auris</em>, Greek <em>οὖς</em>), <em>wind</em> is <strong>*h₂weh₁-nt-</strong>, literally “blowing”. Elsewhere the roots go their own way — Semitic <em>rīḥ</em> is both “wind” and “spirit”, Bantu <strong>*-pepo</strong> gives Swahili <em>upepo</em>, and “earth = soil” runs on entirely separate words from “earth = world”.</li>
+                <li>Each of the five then went through <strong>review rallies</strong> — vocabulary, ancient languages, a delicate Japanese/Korean dialect pass, and an IPA-notation sweep — that corrected well over a hundred cells across the batch.</li>
+                <li>One of those checks paid off later: the experimental <em>poop</em> word had been given a Proto-Koreanic reconstruction, <strong>*sotwonko</strong>, that no source supports and that doesn’t fit its own attested descendant (Middle Korean <em>ᄯᅩᇰ</em>). With nothing to cite, the cell was removed rather than kept — the Proto-Japonic <strong>*kuso</strong> beside it is real and stayed.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-08-19 — A new core word: “tooth”, a noun that is really a verb</div>
             <ul>
                 <li>The <strong>40th concept</strong>, across all 1,151 languages: <em>tooth</em>, one tooth, the ordinary kind.</li>

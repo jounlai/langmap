@@ -432,7 +432,7 @@ WORDS.egg = {
     zgh: ["ⵜⴰⴳⵍⴰⵢⵜ", "taɡlajt"],
     ki: ["itumbĩ", "itumbi"],
     ln: ["likei", "likei"],
-    kg: ["diki", "diki"],
+    kg: ["diaki", "diaki"],
     mad: ["tello'", "tɛlːoʔ"],
     abs: ["telor", "təlor"],
     tvl: ["fuamoa", "fuamoa"],

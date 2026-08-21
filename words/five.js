@@ -747,7 +747,7 @@ WORDS.five = {
     abe: ["nôlan", "nõlan"],
     alq: ["naanan", "naːnan"],
     cay: ["hwihs", "hwihs"],
-    win: ["saatą", "saːtã"],
+    win: ["saacą", "saːtʃã"],
     mixtec: ["u'un", "ũʔũ"],
     mix: ["u'un", "ũʔũ"],
     mxv: ["u'un", "ũʔũ"],

@@ -54,6 +54,8 @@ WORDS.father = {
     sw: "Baba — umbo la kamusi/la kawaida; sera ile ile kama \"mama\".",
   },
   data: {
+      kwa: ["ʔǐp","ʔǐp"],
+      jup: ["ʔíp","ʔíp"],
       tpy: ["ao","ao"],
       crt: ["naʔ","naʔ"],
       cag: ["tata","tata"],

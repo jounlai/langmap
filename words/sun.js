@@ -54,6 +54,8 @@ WORDS.sun = {
     sw: "Jua kama linavyoonekana kutoka Dunia; \"jua angani\".",
   },
   data: {
+      kwa: ["xɨtɨ̂m","xɨtɨ̂m"],
+      jup: ["wædhɔ́","wædhɔ́"],
       tpy: ["atetla","atetla"],
       crt: ["kilaj","kilaj"],
       cag: ["xunkuklaʔj","xunkuklaʔj"],

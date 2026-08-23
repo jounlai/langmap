@@ -54,6 +54,8 @@ WORDS.you = {
     sw: "Kiwakilishi cha nafsi ya pili UMOJA \"wewe\"; muundo wa kawaida/isiyo rasmi. Si wingi wala muundo wa heshima pekee.",
   },
   data: {
+      kwa: ["ʔãm","ʔãm"],
+      jup: ["ʔab","ʔab"],
       tpy: ["hi","hi"],
       crt: ["am","am"],
       cag: ["awaatʃa","awaatʃa"],

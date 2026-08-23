@@ -54,6 +54,8 @@ WORDS.eye = {
     sw: "Jicho (kiungo cha kuona); umbo la umoja hupendekezwa.",
   },
   data: {
+      kwa: ["tɨm","tɨm"],
+      jup: ["kǝwǝ̌g","kǝwǝ̌g"],
       tpy: ["xon","xon"],
       crt: ["tateʔ","tateʔ"],
       cag: ["tɔsex","tɔsex"],

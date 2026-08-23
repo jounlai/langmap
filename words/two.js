@@ -54,6 +54,8 @@ WORDS.two = {
     sw: "Nambari kamili 2 (\"mbili\"); nambari ya kuhesabu. Si nambari ya mpangilio \"pili\".",
   },
   data: {
+      kwa: ["tɨ̌m","tɨ̌m"],
+      jup: ["koʔap","koʔap"],
       tpy: ["uuʃ","uuʃ"],
       crt: ["intak","intak"],
       cag: ["napuʔ","napuʔ"],

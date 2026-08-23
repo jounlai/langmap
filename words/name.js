@@ -54,6 +54,8 @@ WORDS.name = {
     sw: "Nomino ya kawaida \"jina\" (jina la mtu, kama \"jina langu ni…\"). Si jina la pekee wala kitenzi \"kutaja/kuita\".",
   },
   data: {
+      kwa: ["xǎt","xǎt"],
+      jup: ["hǎt","hǎt"],
       tpy: ["taak","taak"],
       crt: ["ej","ej"],
       cag: ["ej","ej"],

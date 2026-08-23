@@ -54,6 +54,8 @@ WORDS.water = {
     sw: "Maji ya kunywa au matumizi (H₂O); si mto/ziwa/bahari.",
   },
   data: {
+      kwa: ["nǝ̌x","nǝ̌x"],
+      jup: ["děh","děh"],
       tpy: ["misu","misu"],
       crt: ["anat","anat"],
       cag: ["inɔʔt","inɔʔt"],

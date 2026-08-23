@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1162 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1164 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3361,6 +3361,14 @@ const LANG_DATA = {
   // speakers. Word data: UT Austin Hunter-Gatherer Language DB #382 (phonetic;
   // surface===ipa; (ha)- possessive prefix dropped on body parts).
   tpy: { name: 'Trumai', native: 'Trumai', lat: -11.9, lng: -53.4 }, // Upper Xingu, Brazil
+  // Nadahup (upper Rio Negro), NW Amazon; ~1,500 speakers in Amazonas, Brazil
+  // (+ Colombia). Word data: UT Austin Hunter-Gatherer Language DB #120 (phonemic;
+  // surface===ipa; tone marked; nasal-spread prefix notation dropped).
+  jup: { name: 'Hup', native: 'Hup', lat: 0.3, lng: -68.5 }, // upper Rio Negro, Brazil
+  // Nadahup (middle Rio Negro), NW Amazon; ~140 speakers near São Gabriel da
+  // Cachoeira, Amazonas, Brazil — endangered. Word data: UT Austin Hunter-Gatherer
+  // Language DB #119 (phonemic; surface===ipa; tone marked).
+  kwa: { name: 'Dâw', native: 'Dâw', lat: -0.1, lng: -67.0 }, // middle Rio Negro, Brazil
   // Mura (linguistic isolate, Amazonia)
   myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30, // Maici River
 

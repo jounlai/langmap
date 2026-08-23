@@ -54,6 +54,8 @@ WORDS.sleep = {
     sw: "Kulala — kuwa katika hali ya asili ya kupumzika inayojirudia huku fahamu zikipungua; kitenzi, si nomino.",
   },
   data: {
+      sga: ["con·tuili","konˈtulʲi"],
+      akk: ["ṣalālu","sˤalaːlu"],
       moc: ["laq","laq"],
       plg: ["dʔotʃi","dʔotʃi"],
       tob: ["doʔotʃi","doʔotʃi"],

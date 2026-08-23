@@ -54,6 +54,7 @@ WORDS.bird = {
     sw: "Ndege — mnyama mwenye manyoya na mabawa anayetaga mayai (jamii ya jumla); si spishi maalum.",
   },
   data: {
+      akk: ["iṣṣūru","isˤsˤuːru"],
       moc: ["ajo","ajo"],
       plg: ["majoʔ","majoʔ"],
       tob: ["qojo","qojo"],
@@ -666,7 +667,7 @@ WORDS.bird = {
     ofs: ["fugel", "ˈfuɡəl"],
     sga: ["én", "eːn"],
     mga: ["én", "eːn"],
-    och: ["鳥", "*tˤiwʔ"],
+    och: ["鳥", "tˤiwʔ"],
     zh_tang: ["鳥", "teu"],
     zh_song: ["鳥", "teu"],
     zh_wenyan_edu: ["鳥", "niːu˨˧"],

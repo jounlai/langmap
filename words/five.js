@@ -797,7 +797,7 @@ WORDS.five = {
     chy: ["nóhona", "nóhona"],
     srm: ["feifi", "feifi"],
     la: ["quinque", "kʷiːnkʷe"],
-    el_grc: ["πέντε", "pénte"],
+    el_grc: ["πέντε", "pén.te"],
     el_kath: ["πέντε", "pende"],
     sa: ["पञ्च", "pɐɲtɕɐ"],
     sa_edu: ["पञ्च", "pəɲtʃə"],

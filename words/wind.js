@@ -97,7 +97,7 @@ WORDS.wind = {
     gez: ["ነፋስ", "nafas"],
     p_ine: ["*h₂wéh₁n̥ts", "h₂wéh₁n̥ts"],
     p_ryu: ["*kaze", "kaze"],
-    och: ["風", "*prəm"],
+    och: ["風", "prəm"],
     zh_tang: ["風", "pjuŋ"],
     vi_han: ["風", "fɔŋm˧˧"],
     ja: ["風", "kaze"],

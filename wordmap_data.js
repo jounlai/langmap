@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1155 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1157 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3332,6 +3332,15 @@ const LANG_DATA = {
   // provinces, Argentina. Word data: UT Austin Hunter-Gatherer Language DB #389
   // (Americanist notation → IPA; surface===ipa). Spanish-loan numerals left '—'.
   moc: { name: 'Mocoví', native: 'Moqoit', lat: -28.5, lng: -60.0 }, // Chaco/Santa Fe, Argentina
+  // Cariban; ~30,000 speakers in the Roraima savannas (N Brazil) and across the
+  // border in Guyana and Venezuela — the most widely spoken northern-Amazonian
+  // Cariban language. Word data: UT Austin Hunter-Gatherer Language DB #75
+  // (orthographic y = IPA j; inalienable nouns cited without the 1sg prefix).
+  mbc: { name: 'Makuxi', native: 'Makuxi', lat: 3.8, lng: -60.2 }, // Roraima, Brazil
+  // Macro-Jê (Karajá); ~3,000 speakers along the Araguaia river and Bananal
+  // Island, central Brazil. Notable for men's vs women's speech differences.
+  // Word data: UT Austin Hunter-Gatherer Language DB #386 (phonetic; surface===ipa).
+  kpj: { name: 'Karajá', native: 'Iny rybè', lat: -11.2, lng: -50.7 }, // Bananal I., Brazil
   // Mura (linguistic isolate, Amazonia)
   myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30, // Maici River
 

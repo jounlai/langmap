@@ -54,6 +54,8 @@ WORDS.hello = {
     sw: "Salamu ya kawaida isiyo na ushawishi wa wakati. Salamu za saa (asubuhi/jioni) ikiwa hakuna umbo la jumla; baraka kama \"amani\" zinapokubaliwa kama salamu ya kawaida.",
   },
   data: {
+      kpj: ["—","—"],
+      mbc: ["—","—"],
       moc: ["—","—"],
       plg: ["—","—"],
       tob: ["—","—"],

@@ -61,6 +61,8 @@ WORDS.red = {
     sw: "Kivumishi cha rangi ya msingi \"nyekundu\"; umbo la sifa/la kamusi hupendelewa. Rangi yenyewe — si \"nyekundu\" kwa maana ya kisiasa (kikomunisti/mrengo wa kushoto), si nywele nyekundu, wala si \"iliyoiva\". Lugha isipokuwa na neno la msingi la nyekundu, hutumika maelezo ya kawaida.",
   },
   data: {
+      kpj: ["isɔ","isɔ"],
+      mbc: ["suyú","sujú"],
       moc: ["tok","tok"],
       plg: ["toomaʁadaik","toomaʁadaik"],
       tob: ["tok","tok"],

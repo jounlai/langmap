@@ -54,6 +54,8 @@ WORDS.heart = {
     sw: "Chaguo-msingi: neno la msingi la \"moyo/akili\" kama kitovu cha hisia. \"Moyo\" wa kianatomia hutumika tu ikiwa ndilo neno la msingi; weka noti katika wordEvidence.note.",
   },
   data: {
+      kpj: ["telesõ","telesõ"],
+      mbc: ["yewan","jewan"],
       moc: ["leʔtaʁanata","leʔtaʁanata"],
       plg: ["likidiaqte","likidiaqte"],
       tob: ["lkidʒaqte","lkidʒaqte"],

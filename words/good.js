@@ -54,6 +54,8 @@ WORDS.good = {
     sw: "Kivumishi cha msingi \"nzuri\" (ubora chanya); umbo la sifa/la kamusi hupendelewa. Epuka kielezi (kama хорошо / добре) na majibu ya salamu.",
   },
   data: {
+      kpj: ["awi","awi"],
+      mbc: ["morɨ","morɨ"],
       moc: ["noʔwen","noʔwen"],
       plg: ["antasi","antasi"],
       tob: ["tʲuri","tʲuri"],

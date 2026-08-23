@@ -60,6 +60,8 @@ WORDS.dopamine = {
     "sw": "Kisafirishaji-neva dopamini (katekolamini) kinachopeleka ishara za tuzo, motisha na mwendo ubongoni. Ni kemikali ya ubongo yenyewe, si dawa wala hisia.",
   },
   data: {
+      kpj: ["—","—"],
+      mbc: ["—","—"],
       moc: ["—","—"],
       plg: ["—","—"],
       tob: ["—","—"],

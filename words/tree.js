@@ -54,6 +54,8 @@ WORDS.tree = {
     sw: "Mti (mmea wa miti); si aina maalum wala si \"mbao\".",
   },
   data: {
+      kpj: ["—","—"],
+      mbc: ["yéi","jéi"],
       moc: ["qoʔpaq","qoʔpaq"],
       plg: ["ʔepaq","ʔepaq"],
       tob: ["ʔipaq","ʔipaq"],

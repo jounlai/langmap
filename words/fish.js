@@ -62,6 +62,8 @@ WORDS.fish = {
     sw: "Nomino \"samaki\" = mnyama wa majini aliye hai, umoja. Si samaki kama chakula pale lugha inapotofautisha (es pescado, ko 생선), si kitenzi \"kuvua\", wala si spishi fulani.",
   },
   data: {
+      kpj: ["ətora","ətora"],
+      mbc: ["moróʔ","moróʔ"],
       moc: ["nalʲin","nalʲin"],
       plg: ["nijaq","nijaq"],
       tob: ["njaq","njaq"],

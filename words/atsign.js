@@ -137,6 +137,8 @@ WORDS.atsign = {
     littlemouse: { emoji: "🐭", en: "little mouse", ja: "子ネズミ", ko: "생쥐", zh: "小老鼠", yue: "小老鼠", vi: "chuột nhắt", th: "หนูน้อย", id: "tikus kecil", hi: "छोटा चूहा", de: "Mäuschen", fr: "petite souris", it: "topolino", es: "ratoncito", pt: "ratinho", ru: "мышка", uk: "мишка", ar: "فأر صغير", he: "עכבר קטן", sw: "panya mdogo" },
   },
   data: {
+      kpj: ["—","—"],
+      mbc: ["—","—"],
       moc: ["—","—"],
       plg: ["—","—"],
       tob: ["—","—"],

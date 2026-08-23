@@ -5,7 +5,7 @@ WORDS.white = {
   emoji: "⚪",
   label: {
     en: "White",
-    ja: "白",
+    ja: "白い",
     ko: "하양",
     zh: "白",
     yue: "白",

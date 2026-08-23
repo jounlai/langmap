@@ -3294,9 +3294,9 @@
          TRIVIA_ARTICLES on window so the inherited wordmap trivia modal
          renders these without changes. Must come BEFORE wordmap's IIFE. -->
     <script src="hanmap_trivia.js?v=11"></script>
-    <script src="meta_i18n_ext.js?v=16"></script>
-    <script src="meta_i18n_coverage.js?v=10"></script>
-    <script src="meta_i18n_coverage2.js?v=2"></script>
+    <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
+         slice only) via loadMetaI18n() in the IIFE below. The old eager
+         meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->
     <script src="lang_names.js?v=138"></script>
     <script>
     // HanMap-specific display-name overrides.
@@ -5443,9 +5443,16 @@
             // that would close the modal instead of re-rendering.
             const panel = document.getElementById('lang-info');
             if (panel.classList.contains('visible') && panel.dataset.code) {
-                renderLangInfo(panel.dataset.code);
-                if (typeof updateSelectedLabel === 'function') updateSelectedLabel();
-                if (typeof updateConnectorLine === 'function') updateConnectorLine();
+                const _code = panel.dataset.code;
+                const _rr = () => {
+                    renderLangInfo(_code);
+                    if (typeof updateSelectedLabel === 'function') updateSelectedLabel();
+                    if (typeof updateConnectorLine === 'function') updateConnectorLine();
+                };
+                _rr();  // immediate (English fallback until the new UI slice loads)
+                // The new UI's meta-translation slice may not be loaded yet — pull
+                // it and repaint so family/script/… switch language. Memoized per UI.
+                if (uiLang !== 'en') loadMetaI18n().then(_rr);
             }
             // On mobile the UI-lang select lives inside the hamburger drawer.
             // After a pick the drawer should collapse so the user sees the
@@ -8727,6 +8734,30 @@
         let _metaLoadPromise = Promise.resolve();
         function loadMeta() { return _metaLoadPromise; }
 
+        // Meta-field translation (family / speakers / script / … in the language
+        // panel) via translateMetaSmart. Load the small engine + ONLY the current
+        // UI's fully-merged slice (meta_i18n/<ui>.js), instead of the old eager
+        // ~4.6 MB for all 22 UIs. Memoized per UI; English needs neither (it is
+        // the source language). No base META_I18N here (hanmap never loaded it) —
+        // the per-UI file's atoms cover the same fields as before.
+        const _hmInject = (src) => new Promise((resolve) => {
+            const el = document.createElement('script');
+            el.src = src; el.async = false;   // parallel download, ordered execution
+            el.onload = el.onerror = () => resolve();
+            document.head.appendChild(el);
+        });
+        let _metaEnginePromise = null;
+        const _metaI18nByUi = {};
+        function loadMetaI18n() {
+            const ui = (typeof uiLang === 'string' ? uiLang : 'en');
+            if (ui === 'en') return Promise.resolve();
+            if (_metaI18nByUi[ui]) return _metaI18nByUi[ui];
+            if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=1')]);
+            return _metaI18nByUi[ui];
+        }
+        window.loadMetaI18n = loadMetaI18n;
+
         // Per Session 31 (Schema Revolution Phase 1): each status carries a
         // short pedagogical description shown inline next to the badge.
         // Per Session 32 (Phase 1.5): labels translated to all 21 UI langs,
@@ -10046,6 +10077,16 @@
                 }).catch(() => {
                     const sp = infoContent.querySelector('.meta-loading');
                     if (sp) sp.textContent = '⚠';
+                });
+            }
+            // Meta-field labels (family/script/…) translate via the per-UI i18n
+            // slice, which is now lazy-loaded. Pull it and repaint the panel so
+            // they switch from English. No-op once the slice is present / for en.
+            if (uiLang !== 'en') {
+                loadMetaI18n().then(() => {
+                    if (infoPanel.classList.contains('visible') && infoPanel.dataset.code === code) {
+                        renderLangInfo(code);
+                    }
                 });
             }
         }

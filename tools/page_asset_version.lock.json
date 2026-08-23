@@ -35,18 +35,6 @@
     "version": 1,
     "hash": "98a93506c4ae3641"
   },
-  "meta_i18n_coverage.js": {
-    "version": 10,
-    "hash": "43c8060c9c26ae45"
-  },
-  "meta_i18n_coverage2.js": {
-    "version": 2,
-    "hash": "ceb4b93302bd1ab9"
-  },
-  "meta_i18n_ext.js": {
-    "version": 16,
-    "hash": "b55f683011cdd3ee"
-  },
   "my-languages.js": {
     "version": 21,
     "hash": "1485ff229e3fcf19"

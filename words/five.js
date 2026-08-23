@@ -54,6 +54,9 @@ WORDS.five = {
     sw: "Tano — nambari kamili 5, moja zaidi ya nne.",
   },
   data: {
+      tpy: ["—","—"],
+      crt: ["—","—"],
+      cag: ["—","—"],
       bwi: ["—","—"],
       guu: ["—","—"],
       kpj: ["—","—"],

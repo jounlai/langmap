@@ -54,6 +54,9 @@ WORDS.egg = {
     sw: "Yai — kitu cha mviringo kinachotagwa na ndege (hasa kuku), kinacholiwa kama chakula; si kitenzi wala yai la uzazi kwa maana ya kitaalamu.",
   },
   data: {
+      tpy: ["taf","taf"],
+      crt: ["leʔkjuʔ","leʔkjuʔ"],
+      cag: ["ɬʃajkʼu","ɬʃajkʼu"],
       bwi: ["éewhe","éewhe"],
       guu: ["natʰe","natʰe"],
       kpj: ["si","si"],

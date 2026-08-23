@@ -54,6 +54,9 @@ WORDS.love = {
     sw: "Neno/shina la msingi la upendo au kupendana; nomino au kitenzi kulingana na lugha; si salamu.",
   },
   data: {
+      tpy: ["—","—"],
+      crt: ["—","—"],
+      cag: ["—","—"],
       bwi: ["—","—"],
       guu: ["—","—"],
       kpj: ["—","—"],

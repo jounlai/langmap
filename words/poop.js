@@ -62,6 +62,9 @@ WORDS.poop = {
     sw: "Kinyesi — neno la kawaida la kila siku kwa mavi; si neno la kitaalamu.",
   },
   data: {
+      tpy: ["—","—"],
+      crt: ["—","—"],
+      cag: ["—","—"],
       bwi: ["—","—"],
       guu: ["—","—"],
       kpj: ["—","—"],

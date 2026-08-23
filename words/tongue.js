@@ -66,6 +66,9 @@ WORDS.tongue = {
     sw: "Kiungo cha misuli kilicho mdomoni, umbo la kamusi. Sehemu ya mwili tu — si maana ya \"lugha\" ambayo maneno hayohayo mara nyingi hubeba (\"lugha mama\"), wala mchanganyiko. Katika lugha ambazo nomino lazima iwe na mmiliki, umbo la kunukuu limetolewa.",
   },
   data: {
+      tpy: ["ano","ano"],
+      crt: ["kax","kax"],
+      cag: ["tʃʼakletʃ","tʃʼakletʃ"],
       bwi: ["eenéne","eenéne"],
       guu: ["aka","aka"],
       kpj: ["—","—"],

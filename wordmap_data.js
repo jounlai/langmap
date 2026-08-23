@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1159 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1162 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3350,6 +3350,17 @@ const LANG_DATA = {
   // Venezuela. Word data: UT Austin Hunter-Gatherer Language DB #52 (orthographic
   // surface, phonemic IPA; leading possessive '-' dropped on inalienable nouns).
   bwi: { name: 'Baniwa', native: 'Baniwa', lat: 1.5, lng: -68.0 }, // Içana river, NW Amazon
+  // Matacoan (Gran Chaco); ~12K speakers in Paraguay & NW Argentina. Word data:
+  // UT Austin Hunter-Gatherer Language DB #398 (phonetic; surface===ipa; inalienable
+  // nouns cited without the possessive prefix).
+  cag: { name: 'Nivaclé', native: 'Nivaclé', lat: -23.4, lng: -60.3 }, // Gran Chaco (Paraguay/Argentina)
+  // Matacoan (Gran Chaco); ~2–3K speakers in Salta (Argentina), Paraguay & Bolivia.
+  // Word data: UT Austin Hunter-Gatherer Language DB #396 (phonetic; surface===ipa).
+  crt: { name: 'Chorote', native: 'Iyojwaʼja', lat: -22.6, lng: -62.6 }, // Gran Chaco, Argentina
+  // Isolate of the Upper Xingu, Mato Grosso, Brazil; ~of a few dozen–hundred
+  // speakers. Word data: UT Austin Hunter-Gatherer Language DB #382 (phonetic;
+  // surface===ipa; (ha)- possessive prefix dropped on body parts).
+  tpy: { name: 'Trumai', native: 'Trumai', lat: -11.9, lng: -53.4 }, // Upper Xingu, Brazil
   // Mura (linguistic isolate, Amazonia)
   myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30, // Maici River
 

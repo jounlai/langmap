@@ -61,6 +61,9 @@ WORDS.wind = {
     sw: "Upepo — hewa inayosogea kiasili (hasa nje); si \"pumzi\" wala \"kuzungusha\" (saa).",
   },
   data: {
+      tpy: ["sut","sut"],
+      crt: ["laxwu","laxwu"],
+      cag: ["ɬawiʔm","ɬawiʔm"],
       bwi: ["káwaaɺe","káwaaɺe"],
       guu: ["watoɾi","watoɾi"],
       kpj: ["ɨhɨ","ɨhɨ"],

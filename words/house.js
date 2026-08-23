@@ -54,6 +54,9 @@ WORDS.house = {
     sw: "Nyumba / makazi — neno la kila siku la makazi; katika baadhi ya lahaja laweza kuwa kifungu cha mahali (mfano \"ndani ya nyumba\") kilichotwaliwa kuwa neno la \"nyumba\".",
   },
   data: {
+      tpy: ["dat","dat"],
+      crt: ["sawo","sawo"],
+      cag: ["—","—"],
       bwi: ["pántti","pánt̪i"],
       guu: ["ʃapono","ʃapono"],
       kpj: ["heto","heto"],

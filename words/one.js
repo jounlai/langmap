@@ -54,6 +54,9 @@ WORDS.one = {
     sw: "Idadi 1 (kardinali); katika lugha zinazotofautisha jinsia, umbo la kiume/la msingi (ar واحد, he אחד, fr un, es uno).",
   },
   data: {
+      tpy: ["mihin","mihin"],
+      crt: ["ifʷjenni","ifʷjenni"],
+      cag: ["weʔɬa","weʔɬa"],
       bwi: ["aapa","aapa"],
       guu: ["tahiapɨ","tahiapɨ"],
       kpj: ["sohodʒi","sohodʒi"],

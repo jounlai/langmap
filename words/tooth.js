@@ -66,6 +66,9 @@ WORDS.tooth = {
     sw: "Jino moja, umbo la kamusi. Nomino ya umoja kwa jino la kawaida — si \"meno\" kwa maana ya jumla, wala pembe au chonge, wala mchanganyiko unaotaja aina moja (gego, kato). Pale lugha inapotenganisha meno ya mbele na ya nyuma, neno la jumla au la meno ya mbele ndilo lililotolewa.",
   },
   data: {
+      tpy: ["iʃa","iʃa"],
+      crt: ["afʷeʔ","afʷeʔ"],
+      cag: ["tsewte","tsewte"],
       bwi: ["eétsha","eétʃa"],
       guu: ["nakɨ","nakɨ"],
       kpj: ["dʒuu","dʒuu"],

@@ -44,7 +44,10 @@ const ASSETS = {
   filter:           { files: ['lang-filter.js'] },
   styles:           { files: ['styles.css'] },
   names:            { dirs: ['lang_names'] },
-  meta:             { files: ['wordmap_meta.js'] },
+  // wordmap_meta.js is the source of truth; wordmap_meta_lite.js + meta_desc/
+  // are generated from it (tools/build_meta_split.js) and served to the browser.
+  // All share the `meta` cache-version so a regen bumps them together.
+  meta:             { files: ['wordmap_meta.js', 'wordmap_meta_lite.js'], dirs: ['meta_desc'] },
   trivia:           { files: ['wordmap_trivia.js'] },
   metaI18n:         { files: ['meta_i18n_ext.js'] },
   metaI18nCoverage: { files: ['meta_i18n_coverage.js'] },

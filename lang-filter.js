@@ -1524,25 +1524,27 @@
 
     // ----- Init -----------------------------------------------------------
 
-    // wordmap_meta.js is lazy-loaded by wordmap.html (only when the user
-    // first opens a language detail panel). The filter needs meta for every
-    // category — load it eagerly here so the panel is fully populated.
+    // The filter needs structured meta (family/script/…) for every category.
+    // wordmap.html lazy-loads it via loadMeta() — which now pulls the ~1 MB
+    // wordmap_meta_lite.js, not the 19 MB wordmap_meta.js. Delegate to that same
+    // loader so we don't double-download (this file used to inject its own
+    // <script src="wordmap_meta.js">, racing wordmap.html's copy). Fall back to a
+    // direct lite injection only if the page never exposed loadMeta.
     function ensureMeta() {
         if (window._wmMetaLoaded || (typeof META_I18N !== 'undefined')) {
             return Promise.resolve();
         }
+        if (window.__langmap && typeof window.__langmap.loadMeta === 'function') {
+            return window.__langmap.loadMeta().catch(() => {});
+        }
         return new Promise((resolve) => {
-            // Chain onto any existing resolver wordmap.html may have set up
             const prev = window._wmMetaResolve;
             window._wmMetaResolve = () => { if (prev) try { prev(); } catch(e) {} resolve(); };
-            // If no script tag for meta has been added yet, add it ourselves
-            if (!document.querySelector('script[src*="wordmap_meta.js"]')) {
+            if (!document.querySelector('script[src*="wordmap_meta"]')) {
                 const s = document.createElement('script');
-                s.src = 'wordmap_meta.js';
+                s.src = 'wordmap_meta_lite.js';
                 document.head.appendChild(s);
             }
-            // Belt-and-suspenders: poll every 200ms in case _wmMetaResolve
-            // gets clobbered by a competing call
             const poll = setInterval(() => {
                 if (window._wmMetaLoaded || typeof META_I18N !== 'undefined') {
                     clearInterval(poll); resolve();

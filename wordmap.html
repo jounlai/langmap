@@ -3068,7 +3068,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=43"></script>
+    <script src="lang-filter.js?v=44"></script>
     <!-- Translated language names: 2,154 codes × 19 UI languages is ~200 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -3441,9 +3441,9 @@
             styles:   125,
             data:      269,
             metaI18n:  16,
-            filter:    43,
+            filter:    44,
             names:   143,
-            meta:     272,
+            meta:     273,
             trivia:   31,
             triviaI18n: 6,
             words:      184,
@@ -6480,12 +6480,16 @@
             return dict[val] || val;
         }
 
-        // Lazy-load wordmap_meta.js (~1.3 MB raw / 406 KB gzip) only when the
-        // user first opens a language detail modal.
+        // Lazy-load the meta layer only when the user first opens a language
+        // detail modal (or a filter/game/historical view needs it). loadMeta()
+        // now pulls wordmap_meta_lite.js (~1 MB: structured meta for every
+        // language + the base translation table) instead of the 19 MB
+        // wordmap_meta.js; each language's description + sources come from
+        // meta_desc/<code>.js on demand (loadLangDesc).
         let _metaLoadPromise = null;
-        // The two meta-i18n tables only translate strings that live in
-        // wordmap_meta.js, so they ride along with it rather than blocking
-        // first paint. Order matters: coverage augments ext's tables.
+        // The two meta-i18n tables only translate strings that live in the meta
+        // layer, so they ride along with it rather than blocking first paint.
+        // Order matters: coverage augments ext's tables.
         let _metaI18nPromise = null;
         function loadMetaI18n() {
             if (_metaI18nPromise) return _metaI18nPromise;
@@ -6508,14 +6512,52 @@
         // demand (it lazy-loads here, so a non-English filter would otherwise
         // show family chips in English).
         window.loadMetaI18n = loadMetaI18n;
+        // Per-language description + sources. loadMeta() (lite) leaves .meta
+        // populated with structured fields but NO description/sources; those live
+        // in meta_desc/<code>.js (~10 KB each) so a popup pulls only the language
+        // it shows. Idempotent per code; a missing file resolves quietly (some
+        // languages have no description, and the full-meta fallback already set it).
+        const _langDescPromises = {};
+        function loadLangDesc(code) {
+            if (_langDescPromises[code]) return _langDescPromises[code];
+            const lang = LANG_DATA[code];
+            if (lang && lang.meta && (lang.meta.description || lang.meta.sources)) {
+                return _langDescPromises[code] = Promise.resolve();
+            }
+            _langDescPromises[code] = new Promise((resolve) => {
+                const s = document.createElement('script');
+                s.src = assetUrl('meta_desc/' + code + '.js', 'meta');
+                s.onload = () => resolve();
+                s.onerror = () => resolve(); // description is optional; never block the panel
+                document.head.appendChild(s);
+            });
+            return _langDescPromises[code];
+        }
+        // loadMeta (structured, all langs) THEN this language's description.
+        function ensureLangMeta(code) {
+            return loadMeta().then(() => loadLangDesc(code));
+        }
         function loadMeta() {
             if (_metaLoadPromise) return _metaLoadPromise;
             _metaLoadPromise = new Promise((resolve, reject) => {
                 if (window._wmMetaLoaded) return resolve();
                 window._wmMetaResolve = resolve;
+                // wordmap_meta_lite.js carries ONLY the small structured meta
+                // (family/speakers/script/period/…) for every language — ~0.66 MB
+                // instead of the 19 MB wordmap_meta.js. Descriptions + sources are
+                // fetched per-language on demand (loadLangDesc), so opening the
+                // panel no longer drags the whole corpus down on slow links. Both
+                // files fire the same _wmMetaLoaded / _wmMetaResolve signal.
                 const s = document.createElement('script');
-                s.src = assetUrl('wordmap_meta.js', 'meta');
-                s.onerror = () => reject(new Error('meta load failed'));
+                s.src = assetUrl('wordmap_meta_lite.js', 'meta');
+                // Fallback: if the split file is missing (stale deploy), load the
+                // full pre-split meta so the panel still fully populates.
+                s.onerror = () => {
+                    const f = document.createElement('script');
+                    f.src = assetUrl('wordmap_meta.js', 'meta');
+                    f.onerror = () => reject(new Error('meta load failed'));
+                    document.head.appendChild(f);
+                };
                 document.head.appendChild(s);
             }).then(() => loadMetaI18n());
             return _metaLoadPromise;
@@ -7580,8 +7622,13 @@
             // browser Back button returns to the previously-shown language;
             // other callers replace (default) to avoid history bloat.
             updateHash(opts && opts.push ? { push: true } : undefined);  // persist `lang` to URL so reload restores
-            if (!lang.meta) {
-                loadMeta().then(() => {
+            // Structured meta (lite, all langs) + THIS language's description.
+            // Always run: after lite loads once, lang.meta is set for every
+            // language, so a per-lang gate would skip the description fetch for
+            // the 2nd panel onward. ensureLangMeta is idempotent + cached, so a
+            // language already fully loaded just re-renders once (cheap).
+            if (!lang.meta || !lang.meta.description) {
+                ensureLangMeta(code).then(() => {
                     if (infoPanel.classList.contains('visible') && infoPanel.dataset.code === code) {
                         renderLangInfo(code);
                     }

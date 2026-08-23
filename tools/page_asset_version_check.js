@@ -25,11 +25,15 @@
  *   node tools/page_asset_version_check.js           # report (exit 1 on drift)
  *   node tools/page_asset_version_check.js --check   # print "violations: N", exit 0
  *   node tools/page_asset_version_check.js --update  # re-record the lock
+ *   node tools/page_asset_version_check.js --bump    # AUTO-FIX: rewrite ?v= in
+ *                                                    # every page + update lock
  *
- * Workflow when you change a file a page cache-busts:
- *   1. edit the file
- *   2. bump ?v= in EVERY page that references it (they must agree)
- *   3. node tools/page_asset_version_check.js --update   (commit the lock)
+ * Workflow when you change a file a page cache-busts — pick one:
+ *   A. automatic:  node tools/page_asset_version_check.js --bump
+ *      (bumps the ?v= of every changed asset across all pages, unifies any
+ *       inconsistent numbers, and re-records the lock — nothing to remember)
+ *   B. manual:  bump ?v= in EVERY page that references the file (they must
+ *      agree), then run --update to commit the lock.
  */
 'use strict';
 const fs = require('fs');
@@ -41,6 +45,7 @@ const LOCK = path.join(__dirname, 'page_asset_version.lock.json');
 const argv = process.argv.slice(2);
 const CHECK = argv.includes('--check');
 const UPDATE = argv.includes('--update');
+const BUMP = argv.includes('--bump');
 
 // Pages that are snapshots of an already-shipped state. Their ?v= numbers are
 // deliberately frozen and must not be dragged along by a later bump.
@@ -107,6 +112,61 @@ for (const asset of [...refs.keys()].sort()) {
 }
 
 const violations = drift.length + inconsistent.length;
+
+if (BUMP) {
+  // AUTO-FIX. For every asset: pick a target version — max across pages, +1 if
+  // the content changed since the lock — then rewrite EVERY page's ?v= for that
+  // asset to the target, and re-record the lock. This unifies inconsistent
+  // numbers AND bumps changed files in one pass, so a stale ?v= can't survive a
+  // forgotten manual edit. A brand-new asset (no lock) is just recorded.
+  const targets = {};      // asset -> version to write everywhere
+  const bumped = [];       // {asset, from:[...], to}
+  for (const asset of [...refs.keys()].sort()) {
+    const uses = refs.get(asset);
+    const versions = [...new Set(uses.map(u => u.version))].sort((a, b) => a - b);
+    const maxV = Math.max(...versions);
+    const hash = hashOf(asset);
+    const prev = lock[asset];
+    const contentChanged = prev && prev.hash !== hash;
+    const target = contentChanged ? maxV + 1 : maxV;
+    targets[asset] = target;
+    next[asset] = { version: target, hash };
+    // Something to fix if any page is off-target, or the lock is behind.
+    const pagesOff = uses.filter(u => u.version !== target);
+    if (pagesOff.length || (prev && prev.version !== target) || (prev && prev.hash !== hash) || !prev) {
+      if (pagesOff.length || contentChanged) bumped.push({ asset, from: versions, to: target, contentChanged: !!contentChanged });
+    }
+  }
+  // Apply the rewrites, one page at a time. Match the asset with an optional
+  // leading slash (site-root form like "/pwa.js?v=2") and any ?v=<digits>.
+  let filesTouched = 0;
+  for (const page of fs.readdirSync(ROOT).filter(f => f.endsWith('.html')).sort()) {
+    if (SKIP_PAGES.has(page)) continue;
+    const p = path.join(ROOT, page);
+    let src = fs.readFileSync(p, 'utf8');
+    let changed = false;
+    for (const [asset, target] of Object.entries(targets)) {
+      const esc = asset.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = new RegExp(`((?:src|href)="/?${esc})\\?v=(\\d+)"`, 'g');
+      src = src.replace(re, (m, head, oldV) => {
+        if (Number(oldV) === target) return m;   // already on target — leave byte-identical
+        changed = true; return `${head}?v=${target}"`;
+      });
+    }
+    if (changed) { fs.writeFileSync(p, src); filesTouched++; }
+  }
+  fs.writeFileSync(LOCK, JSON.stringify(next, null, 2) + '\n');
+  if (bumped.length) {
+    for (const b of bumped) {
+      console.log(`  ${b.asset}: ${b.contentChanged ? 'content changed → ' : 'unified → '}?v=${b.to}` +
+        (b.from.length > 1 || b.from[0] !== b.to ? `  (was ${b.from.join('/')})` : ''));
+    }
+    console.log(`\nbumped ${bumped.length} asset(s) across ${filesTouched} page(s); lock updated.`);
+  } else {
+    console.log('all page ?v= already in sync — nothing to bump.');
+  }
+  process.exit(0);
+}
 
 if (UPDATE) {
   if (violations) {

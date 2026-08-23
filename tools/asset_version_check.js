@@ -17,11 +17,12 @@
  *   node tools/asset_version_check.js            # check (exit 1 on drift)
  *   node tools/asset_version_check.js --check    # check, print "violations: N", exit 0
  *   node tools/asset_version_check.js --update   # re-record the lock (requires a bumped version)
+ *   node tools/asset_version_check.js --bump     # AUTO-FIX: increment each changed
+ *                                                # key in wordmap.html + update lock
  *
- * Workflow when you change data:
- *   1. edit words/*.js
- *   2. bump WM_ASSET_VERSION.words in wordmap.html
- *   3. node tools/asset_version_check.js --update   (commit the lock with your change)
+ * Workflow when you change data — pick one:
+ *   A. automatic:  node tools/asset_version_check.js --bump   (or tools/bump_versions.js)
+ *   B. manual:  bump WM_ASSET_VERSION.<key> in wordmap.html, then --update.
  */
 'use strict';
 const fs = require('fs');
@@ -34,6 +35,7 @@ const LOCK = path.join(__dirname, 'asset_version.lock.json');
 const argv = process.argv.slice(2);
 const CHECK = argv.includes('--check');
 const UPDATE = argv.includes('--update');
+const BUMP = argv.includes('--bump');
 
 // WM_ASSET_VERSION key -> the files that key cache-busts.
 // `dir` entries hash every .js in that directory (sorted, so order is stable).
@@ -119,6 +121,34 @@ for (const [key, spec] of Object.entries(ASSETS)) {
   // Content changed.
   if (prev.version === version) drift.push({ key, version, files: count });
   else unrecorded.push({ key, why: `version bumped ${prev.version}→${version}` });
+}
+
+if (BUMP) {
+  // AUTO-FIX: for every key whose content drifted, increment its number inside
+  // the WM_ASSET_VERSION registry in wordmap.html, then re-record the lock.
+  let html = fs.readFileSync(HTML, 'utf8');
+  const bumped = [];
+  for (const d of drift) {
+    const target = d.version + 1;
+    // Match `  key:  <num>,` inside the registry (keys are unique identifiers).
+    const re = new RegExp(`(\\b${d.key}\\s*:\\s*)${d.version}(\\s*,)`);
+    if (re.test(html)) {
+      html = html.replace(re, `$1${target}$2`);
+      next[d.key] = { ...next[d.key], version: target };
+      bumped.push({ key: d.key, from: d.version, to: target });
+    } else {
+      console.error(`  could not find WM_ASSET_VERSION.${d.key} = ${d.version} in wordmap.html — bump it by hand`);
+    }
+  }
+  if (bumped.length) fs.writeFileSync(HTML, html);
+  fs.writeFileSync(LOCK, JSON.stringify(next, null, 2) + '\n');
+  if (bumped.length) {
+    for (const b of bumped) console.log(`  WM_ASSET_VERSION.${b.key}: content changed → ${b.to}  (was ${b.from})`);
+    console.log(`\nbumped ${bumped.length} key(s) in wordmap.html; lock updated.`);
+  } else {
+    console.log('every WM_ASSET_VERSION key already matches its content — nothing to bump.');
+  }
+  process.exit(0);
 }
 
 if (UPDATE) {

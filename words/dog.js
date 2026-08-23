@@ -54,6 +54,8 @@ WORDS.dog = {
     sw: "Mbwa wa kufugwa (Canis familiaris); jumla, si aina au jinsia maalum.",
   },
   data: {
+      bwi: ["tsíino","tsíino"],
+      guu: ["tʰãɾi","tʰãɾi"],
       kpj: ["idʒɔrɔsa","idʒɔrɔsa"],
       mbc: ["areimaraaká","areimaraaká"],
       moc: ["pioq","pioq"],

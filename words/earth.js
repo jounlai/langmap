@@ -60,6 +60,8 @@ WORDS.earth = {
     sw: "Udongo / ardhi chini ya miguu — dutu yenyewe, si sayari Dunia.",
   },
   data: {
+      bwi: ["híipai","híipai"],
+      guu: ["maʃitʰa","maʃitʰa"],
       kpj: ["—","—"],
       mbc: ["non","non"],
       moc: ["ʔlawa","ʔlawa"],

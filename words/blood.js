@@ -64,6 +64,8 @@ WORDS.blood = {
     sw: "Umajimaji mwekundu unaozunguka mwilini, umbo la kamusi. Nomino ya kawaida ya kiasi (\"kutokwa damu\"), si maana ya \"ukoo\" wala mchanganyiko kama \"mshipa wa damu\". Katika lugha ambazo nomino lazima iwe na mmiliki, umbo la kunukuu limetolewa.",
   },
   data: {
+      bwi: ["iiránaa","iiɻánaa"],
+      guu: ["ĩjə̃ĩjə̃pə","ĩjə̃ĩjə̃pə"],
       kpj: ["hãləbu","hãləbu"],
       mbc: ["mɨ́ŋ","mɨ́ŋ"],
       moc: ["lewoʔ","lewoʔ"],

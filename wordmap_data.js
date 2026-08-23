@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1157 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1159 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3341,6 +3341,15 @@ const LANG_DATA = {
   // Island, central Brazil. Notable for men's vs women's speech differences.
   // Word data: UT Austin Hunter-Gatherer Language DB #386 (phonetic; surface===ipa).
   kpj: { name: 'Karajá', native: 'Iny rybè', lat: -11.2, lng: -50.7 }, // Bananal I., Brazil
+  // Yanomaman; ~20–35K speakers in Roraima/Amazonas (Brazil) and Venezuela —
+  // among the most populous isolated-forest peoples of the Amazon. Word data: UT
+  // Austin Hunter-Gatherer Language DB #162 (phonemic; surface===ipa; generic
+  // 'pei' relational prefix dropped on body parts).
+  guu: { name: 'Yanomami', native: 'Yąnomamö', lat: 2.5, lng: -63.5 }, // Roraima/Amazonas, Brazil
+  // Arawakan (Içana river, NW Amazon); ~6–12K speakers in Brazil, Colombia and
+  // Venezuela. Word data: UT Austin Hunter-Gatherer Language DB #52 (orthographic
+  // surface, phonemic IPA; leading possessive '-' dropped on inalienable nouns).
+  bwi: { name: 'Baniwa', native: 'Baniwa', lat: 1.5, lng: -68.0 }, // Içana river, NW Amazon
   // Mura (linguistic isolate, Amazonia)
   myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30, // Maici River
 

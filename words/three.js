@@ -62,6 +62,8 @@ WORDS.three = {
     sw: "Nambari kamili \"tatu\" (3), umbo la kamusi. Lugha ikiwa na mifululizo miwili ya nambari, hutumika ule wa kuhesabu kwa kawaida — ule ule wa safu za \"moja\" na \"mbili\" katika ramani hii (Kijapani 一・二・三, Kikorea 하나・둘・셋). Si nambari ya mpangilio \"tatu\" wala kiainishi.",
   },
   data: {
+      bwi: ["madali","madali"],
+      guu: ["jãmi","jãmi"],
       kpj: ["inataõ","inataõ"],
       mbc: ["séúruné","séúruné"],
       moc: ["—","—"],

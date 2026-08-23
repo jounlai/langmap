@@ -54,6 +54,8 @@ WORDS.thanks = {
     sw: "Msemo wa shukrani unaonenwa katika lugha za kisasa. Kwa lugha za kihistoria tumia \"—\" au nomino ya shukrani/kiimani iliyotajwa; usitunge.",
   },
   data: {
+      bwi: ["—","—"],
+      guu: ["—","—"],
       kpj: ["—","—"],
       mbc: ["—","—"],
       moc: ["—","—"],

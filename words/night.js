@@ -65,6 +65,8 @@ WORDS.night = {
     sw: "Sehemu ya giza ya siku, umbo la kamusi. Nomino ya kawaida (\"usiku\"), si \"jioni\", si \"usiku wa manane\", wala mchanganyiko au kielezi. Pale lugha inapotofautisha kipindi na \"usiku mmoja\" unaohesabika, kipindi ndicho kilichotolewa.",
   },
   data: {
+      bwi: ["déepi","déepi"],
+      guu: ["titi ha","titi ha"],
       kpj: ["ruu","ruu"],
       mbc: ["ewaron","ewaron"],
       moc: ["pe","pe"],

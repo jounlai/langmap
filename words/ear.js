@@ -60,6 +60,8 @@ WORDS.ear = {
     sw: "Sikio — kiungo cha nje cha mwili kinachohusika na kusikia (si gunzi la mahindi, wala si hisia ya kusikia yenyewe).",
   },
   data: {
+      bwi: ["héeni","héeni"],
+      guu: ["jɨmɨkakɨ","jɨmɨkakɨ"],
       kpj: ["nohõti","nohõti"],
       mbc: ["pana","pana"],
       moc: ["lkeʔla","lkeʔla"],

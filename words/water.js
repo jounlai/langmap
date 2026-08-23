@@ -54,6 +54,8 @@ WORDS.water = {
     sw: "Maji ya kunywa au matumizi (H₂O); si mto/ziwa/bahari.",
   },
   data: {
+      bwi: ["óoni","óoni"],
+      guu: ["maũ ũ","maũ ũ"],
       kpj: ["be","be"],
       mbc: ["tuna","tuna"],
       moc: ["waʁajaq","waʁajaq"],

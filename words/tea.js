@@ -258,6 +258,8 @@ WORDS.tea = {
     other: { color: "#6b7280", emoji: "🌿", en: "from Latin herba", ja: "ラテン語 herba 由来", ko: "라틴어 herba 유래", zh: "源自拉丁语 herba", yue: "源自拉丁文 herba", vi: "từ tiếng Latin herba", th: "จากภาษาละติน herba", id: "dari bahasa Latin herba", hi: "लैटिन herba से", de: "vom lateinischen herba", fr: "du latin herba", it: "dal latino herba", es: "del latín herba", pt: "do latim herba", ru: "от лат. herba", uk: "від лат. herba", ar: "من اللاتينية herba", he: "מלטינית herba", sw: "kutoka Kilatini herba" },
   },
   data: {
+      bwi: ["—","—"],
+      guu: ["—","—"],
       kpj: ["—","—"],
       mbc: ["—","—"],
       moc: ["—","—"],

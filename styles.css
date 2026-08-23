@@ -236,34 +236,20 @@ body {
     }
     .header-collapse .header-nav-current { background: #f3f4f6; }
     .header-collapse .header-ui-lang { margin-left: 0; width: 100%; max-width: none; }
-    /* The drawer must scroll: with the language menu open inline (below), its
-       content can exceed the screen. Without this, the lower UI languages
-       (Português, Українська, …) sit below the fold and can't be tapped, since
-       the page behind the drawer is backdrop-locked. */
-    .header-collapse {
-        max-height: calc(100dvh - 52px);
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-    /* On mobile the language picker opens INLINE inside the scrollable drawer
-       instead of as an absolute overlay anchored to the button — an absolute
-       menu drops below the viewport with its lower items (and scrollbar) off
-       screen and unreachable. Inline, every one of the 19 languages is reached
-       by scrolling the drawer. */
-    .header-collapse .lang-picker { width: 100%; }
-    .header-collapse .lang-picker-menu {
-        position: static;
-        width: 100%;
-        min-width: 0;
-        /* Compact scrollable box (not a full 19-row expansion that stretches
-           the drawer). It scrolls internally; the drawer scroll above is the
-           fallback on very short screens. */
-        max-height: 50dvh;
-        overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-        overscroll-behavior: contain;
-        margin-top: 6px;
-        box-shadow: none;
+    /* Mobile language selection: use the NATIVE <select> (the OS picker —
+       iOS wheel / Android list), not the custom globe dropdown. The custom
+       menu, opened inside the hamburger drawer, either dropped its lower items
+       below the viewport (unreachable) or, made inline, stretched the drawer
+       into an ugly 19-row list. The native select handles the long list cleanly
+       and is the expected mobile control. Hide the custom picker, reveal the
+       native select (overrides the global `display:none !important` on it). */
+    .header-collapse .lang-picker { display: none !important; }
+    .site-header-bar .header-collapse select.header-ui-lang {
+        display: block !important;
+        width: 100%; max-width: none; margin: 0;
+        padding: 10px 12px; font-size: 15px;
+        border: 1px solid #e5e7eb; border-radius: 8px;
+        background: #f9fafb; color: #374151; cursor: pointer;
     }
     .header-collapse .header-url {
         margin-left: 0;

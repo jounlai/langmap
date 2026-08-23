@@ -54,6 +54,7 @@ WORDS.white = {
     sw: "Nyeupe — rangi angavu zaidi, rangi ya theluji au maziwa; neno la msingi la rangi, si jina la rangi ya ngozi.",
   },
   data: {
+      kgp: ["kupri","kupɾi"],
     ar_jo: ["أبيض", "ʔabjad"],
     ar_ps: ["أبيض", "ʔabjad"],
     lb: ["wäiss", "væɪs"],

@@ -54,6 +54,7 @@ WORDS.star = {
     sw: "Nomino \"nyota\" = kitu cha angani usiku. Si \"nyota\" (mtu maarufu) wala umbo la nyota/alama ya nyota.",
   },
   data: {
+      kgp: ["krĩg","kɾĩŋ"],
       es_cr: ["estrella", "esˈtɾeʝa"],
       es_hn: ["estrella", "esˈtɾeʝa"],
       es_ni: ["estrella", "esˈtɾeʝa"],

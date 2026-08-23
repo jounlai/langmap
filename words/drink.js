@@ -54,6 +54,7 @@ WORDS.drink = {
     sw: "Kitenzi \"kunywa\" — sera ile ile kama \"kula\"; linaweza kuingiliana na \"kula\" katika lugha za Kiirani/Kithai cha kale.",
   },
   data: {
+      kgp: ["kron","kɾõn"],
       es_cr: ["beber", "beβeɾ"],
       es_hn: ["beber", "beβer"],
       es_ni: ["beber", "beβeɾ"],

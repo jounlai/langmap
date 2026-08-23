@@ -42,6 +42,7 @@ WORDS.woof = {
   },
   data: {
 
+      kgp: ["—","—"],
     "af": ["woef woef", "vuf vuf"],
     "ar": ["هَوْ هَوْ", "haw haw"],
     "az": ["ham-ham", "hɑm hɑm"],

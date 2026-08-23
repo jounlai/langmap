@@ -60,6 +60,7 @@ WORDS.computer = {
   },
   data: {
 
+      kgp: ["—","—"],
     "abs": ["komputer", "komˈputər"],
     "ace": ["komputer", "komˈputər"],
     "af": ["rekenaar", "ˈreːkənɑːr"],

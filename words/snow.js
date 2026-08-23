@@ -54,6 +54,7 @@ WORDS.snow = {
     sw: "Theluji — mvua iliyoganda inayoanguka kama vipande vyeupe laini na kujilundika ardhini; si kitenzi 'kunyesha theluji' wala barafu ya kawaida.",
   },
   data: {
+      kgp: ["—","—"],
     lb: ["Schnéi", "ʃneɪ"],
     es_bo: ["nieve", "njeβe"],
     es_ec: ["nieve", "njeβe"],

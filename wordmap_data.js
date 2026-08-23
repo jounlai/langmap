@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1151 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1152 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3313,6 +3313,12 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'mzh'; Glottolog wich1264; Terraza (2009) Gramática del Wichi.
   mzh: { name: 'Wichí', native: 'Wichí Lhamtés', lat: -22.93, lng: -63.27, // Yacuiba area / Bermejo border, Salta-Tarija
 },
+  // Southern Jê (Macro-Jê); ~27,000 speakers in Rio Grande do Sul / Santa Catarina /
+  // Paraná / São Paulo, Brazil (2022 census) — one of Brazil's most-spoken Indigenous
+  // languages. Word data from the UT Austin Hunter-Gatherer Language Database (#91),
+  // based on U. Wiesemann's documentation (Dicionário Kaingang-Português, 2011). Only
+  // sourced core-vocabulary cells are filled; culturally-specific / modern words left '—'.
+  kgp: { name: 'Kaingang', native: 'Kanhgág', lat: -27.00, lng: -51.50 }, // southern Brazil
   // Mura (linguistic isolate, Amazonia)
   myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30, // Maici River
 

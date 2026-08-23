@@ -61,6 +61,7 @@ WORDS.wind = {
     sw: "Upepo — hewa inayosogea kiasili (hasa nje); si \"pumzi\" wala \"kuzungusha\" (saa).",
   },
   data: {
+      kgp: ["kãka","kãka"],
     la: ["ventus", "ˈwɛntʊs"],
     el_grc: ["ἄνεμος", "ˈanemos"],
     el_kath: ["άνεμος", "ˈanemos"],

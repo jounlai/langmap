@@ -54,6 +54,7 @@ WORDS.eye = {
     sw: "Jicho (kiungo cha kuona); umbo la umoja hupendekezwa.",
   },
   data: {
+      kgp: ["kanẽ","kanẽ"],
       es_cr: ["ojo", "oho"],
       es_hn: ["ojo", "oho"],
       es_ni: ["ojo", "oxo"],

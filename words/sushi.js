@@ -60,6 +60,7 @@ WORDS.sushi = {
   },
   data: {
 
+      kgp: ["—","—"],
     "abs": ["sushi", "ˈsuʃi"],
     "ace": ["sushi", "suˈsi"],
     "af": ["sushi", "ˈsuʃi"],

@@ -140,7 +140,7 @@ Total: 1159 codes.
 | `bts` | Simalungun Batak | シマルングン・バタク語 | Austronesian | ~1.2M |
 | `bug` | Buginese | ブギス語 | Austronesian (South Sulawesi) | ~4.3M |
 | `bum` | Bulu | ブル語 | Atlantic-Congo (Bantu, Beti) | ~860K |
-| `bwi` | Baniwa |  | Arawakan | ~6–12K (Brazil, Colombia, Venezuela) |
+| `bwi` | Baniwa | バニワ語 | Arawakan | ~6–12K (Brazil, Colombia, Venezuela) |
 | `bxk` | Bukusu | ブクス語 | Niger-Congo | ~0.75–1.4M (Bungoma & Trans-Nzoia counties) |
 | `bxr` | Buryat | ブリヤート語 | Mongolic | ~265K |
 | `byn` | Blin | ブリン語 | Afro-Asiatic (Cushitic, Central) | ~140K |
@@ -385,7 +385,7 @@ Total: 1159 codes.
 | `guc` | Wayuu | ワユー語 | Arawakan (Northern) | ~400K |
 | `gum` | Misak | ミサク語 | Barbacoan | ~25K (vulnerable) |
 | `gun` | Mbyá Guaraní | ムビア・グアラニー語 | Tupian (Tupí-Guaraní) | ~15K L1 |
-| `guu` | Yanomami |  | Yanomaman | ~20–35K (Brazil, Venezuela) |
+| `guu` | Yanomami | ヤノマミ語 | Yanomaman | ~20–35K (Brazil, Venezuela) |
 | `gv` | Manx | マン島語 | Indo-European (Celtic, Goidelic) | ~2K (revived) |
 | `gym` | Ngäbere | ンガベレ語 | Chibchan | ~170K (largest Chibchan language by speakers) |
 | `h_goguryeo` | Goguryeo | 高句麗語 | Koreanic (debated; possible Japonic affinity) | Extinct (1c. BCE - 668 CE) |
@@ -504,7 +504,7 @@ Total: 1159 codes.
 | `kfy` | Kumaoni | クマウオン語 | Indo-Aryan (Central Pahari) | ~2M |
 | `kg` | Kikongo | コンゴ語 | Atlantic-Congo (Bantu) | ~7M |
 | `kgg` | Kusunda | クスンダ語 | Language isolate | ~3 partial |
-| `kgp` | Kaingang |  | Macro-Jê (Southern Jê) | ~27K (2022 census) |
+| `kgp` | Kaingang | カインガング語 | Macro-Jê (Southern Jê) | ~27K (2022 census) |
 | `kha` | Khasi | カシ語 | Austroasiatic (Khasian) | ~1.6M |
 | `khb` | Tai Lue | タイ・ルー語 | Kra-Dai (Tai) | ~700K |
 | `khg` | Khams Tibetan | カム・チベット語 | Sino-Tibetan (Tibeto-Burman, Bodish) | ~1.5M |
@@ -546,7 +546,7 @@ Total: 1159 codes.
 | `koy` | Koyukon | コユコン語 | Na-Dené (Athabaskan, Northern, Central Alaska) | ~65 (severely endangered) |
 | `kpe` | Kpelle | クペレ語 | Niger-Congo (Mande) | ~750K |
 | `kpf` | Komba | コンバ語 | Trans-New Guinea (Finisterre-Huon, Western Huon, Kabwum) | ~9K |
-| `kpj` | Karajá |  | Macro-Jê (Karajá) | ~3K (Brazil) |
+| `kpj` | Karajá | カラジャ語 | Macro-Jê (Karajá) | ~3K (Brazil) |
 | `kpv` | Komi-Zyrian | コミ・ジリエン語 | Uralic (Permic) | ~160K |
 | `kpy` | Koryak | コリャーク語 | Chukotko-Kamchatkan | ~1.5K |
 | `kqn` | Kaonde | カオンデ語 | Niger-Congo | ~400K |
@@ -620,7 +620,7 @@ Total: 1159 codes.
 | `maw` | Mampruli | マンプルリ語 | Niger-Congo | ~330K |
 | `max` | North Moluccan Malay | 北モルッカ・マレー語 | Austronesian | ~700K L1 + ~1M L2 |
 | `maz` | Mazahua | マサワ語 | Otomanguean | ~150K |
-| `mbc` | Makuxi |  | Cariban | ~30K (Brazil, Guyana, Venezuela) |
+| `mbc` | Makuxi | マクシ語 | Cariban | ~30K (Brazil, Guyana, Venezuela) |
 | `mcf` | Matsés | マツェス語 | Panoan (Mayoruna) | ~3.2K |
 | `mch` | Maquiritari | マキリタレ語 | Cariban | ~6–10K (Venezuela ~3K + Brazil ~3K) |
 | `mdf` | Moksha | モクシャ語 | Uralic (Mordvinic) | ~250K |
@@ -657,7 +657,7 @@ Total: 1159 codes.
 | `mnp` | Min Bei | 閩北語 | Sinitic (Min Bei / Northern Min) | ~10M |
 | `mns` | Mansi | マンシ語 | Uralic (Ob-Ugric) | ~940 |
 | `mnw` | Mon | モン語 | Austroasiatic (Mon-Khmer, Monic) | ~1M (Myanmar) + ~50K (Thailand) |
-| `moc` | Mocoví |  | Guaicuruan | ~4K (Chaco & Santa Fe, Argentina) |
+| `moc` | Mocoví | モコビ語 | Guaicuruan | ~4K (Chaco & Santa Fe, Argentina) |
 | `moh` | Mohawk | モホーク語 | Iroquoian (Northern) | ~3.5K |
 | `mos` | Mooré | モーレ語 | Niger-Congo (Gur) | ~7M |
 | `mpj` | Martu Wangka | マルトゥ・ワンカ語 | Pama-Nyungan (Wati / Western Desert) | ~1.3K |
@@ -814,7 +814,7 @@ Total: 1159 codes.
 | `pkar` | Proto-Kartvelian | カルトヴェリ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pkp` | Pukapukan | プカプカ語 | Austronesian (Polynesian, Samoic-Outlier) | ~2K |
 | `pl` | Polish | ポーランド語 | Indo-European (Slavic, West) | ~45M |
-| `plg` | Pilagá |  | Guaicuruan | ~4K (Formosa, Argentina) |
+| `plg` | Pilagá | ピラガ語 | Guaicuruan | ~4K (Formosa, Argentina) |
 | `pll` | Shwe Palaung | シュエ・パラウン語 | Austroasiatic | ~560K |
 | `pmay` | Proto-Mayan | マヤ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pmh` | Maharastri Prakrit | マハーラーシュトリー・プラークリット語 | Indo-European | 0 (extinct as L1, ~13th c. CE) |
@@ -992,7 +992,7 @@ Total: 1159 codes.
 | `tmh` | Tamasheq (Tuareg) | タマシェク語(トゥアレグ) | Afro-Asiatic (Berber, Tuareg) | ~1.2M |
 | `tn` | Tswana | ツワナ語 | Atlantic-Congo (Bantu, Sotho-Tswana) | ~14M |
 | `to` | Tongan | トンガ語 | Austronesian (Polynesian) | ~187K |
-| `tob` | Toba |  | Guaicuruan | ~120K (Argentina, Paraguay, Bolivia) |
+| `tob` | Toba | トバ語 | Guaicuruan | ~120K (Argentina, Paraguay, Bolivia) |
 | `toc` | Coyutla Totonac | コユトラ・トトナック語 | Totonacan | ~50K |
 | `toi` | Tonga (Zambia) | トンガ語(ザンビア) | Atlantic-Congo (Bantu, Tonga-Lenje) | ~1.7M |
 | `toj` | Tojolabal | トホラバル語 | Mayan | ~70K |

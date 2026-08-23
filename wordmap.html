@@ -3055,16 +3055,12 @@
             // Block on exactly one file: the word we are about to draw.
             document.write('<script src="words/' + initial + '.js?v=' + v + '"><\/script>');
 
-            // Everything else, once the page is interactive. requestIdleCallback
-            // where available so this never competes with first paint.
-            function prefetchRest() {
-                var rest = WORD_ORDER.filter(function (id) { return id !== initial; });
-                var go = function () { window.__wmEnsureWords(rest); };
-                if (window.requestIdleCallback) window.requestIdleCallback(go, { timeout: 3000 });
-                else setTimeout(go, 400);
-            }
-            if (document.readyState === 'complete') prefetchRest();
-            else window.addEventListener('load', prefetchRest, { once: true });
+            // NO eager prefetch of the other ~52 word files. On a slow link that
+            // was ~2.5 MB competing with first paint and the map data. The map
+            // only ever draws ONE word at a time, so switching words loads that
+            // word on demand (loadWord); the language popup and the games pull
+            // whatever they need lazily (per-language files / __wmEnsureAllWords)
+            // at the moment the user opens them, not on every page load.
         })();
     </script>
     <!-- meta_i18n_ext.js (98 KB gz) and meta_i18n_coverage.js (426 KB gz)
@@ -3353,8 +3349,14 @@
             showLangInfo(label.dataset.code);
         });
 
-        // Country borders
-        fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
+        // Country borders — self-hosted + simplified (Douglas-Peucker, ~2 km)
+        // from datasets/geo-countries. Was fetched from raw.githubusercontent.com
+        // at full resolution (14.6 MB / 4.6 MB gz), which took ~1.5 min on slow
+        // 4G AND froze the main thread parsing it; the simplified local copy is
+        // ~1.9 MB / ~0.6 MB gz and serves from our own CDN. Regenerate with
+        // tools/build_countries_geojson.js. (Micro-states/reefs below ~6 km were
+        // dropped; their word labels still render from LANG_DATA lat/lng.)
+        fetch('countries.geojson?v=1')
             .then(r => r.json())
             .then(geojson => {
                 L.geoJSON(geojson, {

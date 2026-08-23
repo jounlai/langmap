@@ -1698,8 +1698,17 @@
             // yet (Word Map lazy-loads it), pull it in the background and rebuild
             // so the family chips switch from English to the localized names.
             function refreshFamilyI18n() {
-                if (getUiLang() === 'en' || typeof window.translateMetaSmart === 'function') return;
-                ensureMetaI18n().then(() => { if (metaReady) rebuildPanel(); });
+                if (getUiLang() === 'en') return;
+                // Each UI language now has its own translation slice
+                // (meta_i18n/<ui>.js), so translateMetaSmart merely existing is
+                // NOT enough — a UI switch needs the NEW slice. loadMetaI18n is
+                // memoized per UI in wordmap.html, so this loads the current UI's
+                // slice if new and is a no-op once present. Rebuild after so the
+                // family chips switch from English to the localized names.
+                const p = (typeof window.loadMetaI18n === 'function')
+                    ? Promise.resolve(window.loadMetaI18n())
+                    : ensureMetaI18n();
+                p.then(() => { if (metaReady) rebuildPanel(); });
             }
             refreshFamilyI18n();
 

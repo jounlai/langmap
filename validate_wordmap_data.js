@@ -640,7 +640,10 @@ const WM_VERSION_FLOOR = {
 const ASSET_KEY_BY_PATH = {
     'styles.css':         'styles',
     'wordmap_data.js':    'data',
-    'meta_i18n_ext.js':   'metaI18n',
+    // meta_i18n_ext.js / meta_i18n_coverage*.js are no longer loaded by
+    // wordmap.html — they are the generation source (tools/build_meta_split.js)
+    // for meta_i18n_engine.js + meta_i18n/<ui>.js, which the page loads instead.
+    'meta_i18n_engine.js': 'metaI18nEngine',
     'lang-filter.js':     'filter',
     // wordmap.html no longer loads the whole lang_names.js; it loads a shim
     // plus lang_names/<ui>.js. Both still carry the `names` version, and the
@@ -649,14 +652,13 @@ const ASSET_KEY_BY_PATH = {
     'lang_names/en.js':   'names',
     'wordmap_meta.js':    'meta',
     'wordmap_trivia.js':  'trivia',
-    'meta_i18n_coverage.js': 'metaI18nCoverage',
     'word_manifest.js':   'words',
     'words/*.js':         'words',   // glob: every concept file
     'word_labels.js':     'labels',  // generated: label+definition of all 25
 };
 // These are fetched at runtime via assetUrl(path, key), not by a <script src>.
 const LAZY_VIA_ASSET_URL = new Set([
-    'wordmap_meta.js', 'meta_i18n_ext.js', 'meta_i18n_coverage.js', 'wordmap_trivia.js',
+    'wordmap_meta.js', 'meta_i18n_engine.js', 'wordmap_trivia.js',
 ]);
 const versionRegistryMatch = htmlSrc.match(/const\s+WM_ASSET_VERSION\s*=\s*\{([^}]+)\}/);
 if (!versionRegistryMatch) {

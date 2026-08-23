@@ -3068,7 +3068,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=44"></script>
+    <script src="lang-filter.js?v=45"></script>
     <!-- Translated language names: 2,154 codes × 19 UI languages is ~200 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -3441,7 +3441,7 @@
             styles:   125,
             data:      269,
             metaI18n:  16,
-            filter:    44,
+            filter:    45,
             names:   143,
             meta:     273,
             trivia:   31,
@@ -3451,6 +3451,8 @@
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
             metaI18nCoverage3: 3,
+            metaI18nEngine: 1,
+            metaI18nUi: 1,
         };
         function assetUrl(path, key) {
             return `${path}?v=${WM_ASSET_VERSION[key]}`;
@@ -4091,9 +4093,19 @@
             // that would close the modal instead of re-rendering.
             const panel = document.getElementById('lang-info');
             if (panel.classList.contains('visible') && panel.dataset.code) {
-                renderLangInfo(panel.dataset.code);
-                if (typeof updateSelectedLabel === 'function') updateSelectedLabel();
-                if (typeof updateConnectorLine === 'function') updateConnectorLine();
+                const _code = panel.dataset.code;
+                const _rerender = () => {
+                    renderLangInfo(_code);
+                    if (typeof updateSelectedLabel === 'function') updateSelectedLabel();
+                    if (typeof updateConnectorLine === 'function') updateConnectorLine();
+                };
+                _rerender();  // immediate (structured meta already localized via LANG_NAMES)
+                // The new UI's meta-translation slice (meta_i18n/<ui>.js) may not
+                // be loaded yet — meta fields would fall back to English until it
+                // arrives. If the meta layer is active, load this UI's slice and
+                // repaint. loadMetaI18n is memoized per UI, so this is a no-op
+                // once the slice is present.
+                if (window._wmMetaLoaded && uiLang !== 'en') loadMetaI18n().then(_rerender);
             }
             // On mobile the UI-lang select lives inside the hamburger drawer.
             // After a pick the drawer should collapse so the user sees the
@@ -6490,32 +6502,35 @@
         // The two meta-i18n tables only translate strings that live in the meta
         // layer, so they ride along with it rather than blocking first paint.
         // Order matters: coverage augments ext's tables.
-        let _metaI18nPromise = null;
+        const _inject = (src) => new Promise((resolve) => {
+            const el = document.createElement('script');
+            el.src = src;
+            el.async = false;                 // parallel download, ordered execution
+            el.onload = el.onerror = () => resolve();
+            document.head.appendChild(el);
+        });
+        let _metaEnginePromise = null;
+        const _metaI18nByUi = {};             // ui code -> Promise (loaded once each)
+        // The i18n layer used to ship translations for ALL 22 UI languages
+        // (meta_i18n_ext + coverage{,2,3} ≈ 5 MB) even though a viewer only sees
+        // one UI. Now load the small engine (translateMetaSmart) plus ONLY the
+        // current UI's fully-merged slice (meta_i18n/<ui>.js, ja ≈ 0.4 MB).
+        // Verified byte-for-byte identical translation output to the old stack
+        // (tools/build_meta_split.js). English is the source language, so it
+        // needs neither the engine nor any data. Memoized PER UI so switching
+        // the UI language loads the new slice instead of falling back to English.
         function loadMetaI18n() {
-            if (_metaI18nPromise) return _metaI18nPromise;
-            // Inject all four in the SAME tick. async=false makes the browser
-            // download them in PARALLEL but execute in DOM (insertion) order, so
-            // coverage still augments ext's tables after ext runs. The old code
-            // chained them with .then(), which serialized the NETWORK too — each
-            // ~MB file sat "pending" until the previous finished (~5 MB one at a
-            // time on slow links). lite (which defines META_I18N) is already
-            // loaded before this runs, so ordering only matters among these four.
-            const inject = (src) => new Promise((resolve) => {
-                const el = document.createElement('script');
-                el.src = src;
-                el.async = false;                 // parallel download, ordered execution
-                el.onload = el.onerror = () => resolve();
-                document.head.appendChild(el);
-            });
-            // Literal assetUrl() arguments — validator check #19 reads them to
-            // confirm each lazy file is versioned from WM_ASSET_VERSION.
-            _metaI18nPromise = Promise.all([
-                inject(assetUrl('meta_i18n_ext.js', 'metaI18n')),
-                inject(assetUrl('meta_i18n_coverage.js', 'metaI18nCoverage')),
-                inject(assetUrl('meta_i18n_coverage2.js', 'metaI18nCoverage2')),
-                inject(assetUrl('meta_i18n_coverage3.js', 'metaI18nCoverage3')),
+            const ui = (typeof uiLang === 'string' ? uiLang : 'en');
+            if (ui === 'en') return Promise.resolve();
+            if (_metaI18nByUi[ui]) return _metaI18nByUi[ui];
+            if (!_metaEnginePromise) _metaEnginePromise = _inject(assetUrl('meta_i18n_engine.js', 'metaI18nEngine'));
+            // async=false → engine executes before the per-UI data that fills it.
+            // Concatenated per-UI path (validator #19 accepts non-literal here).
+            _metaI18nByUi[ui] = Promise.all([
+                _metaEnginePromise,
+                _inject(assetUrl('meta_i18n/' + ui + '.js', 'metaI18nUi')),
             ]);
-            return _metaI18nPromise;
+            return _metaI18nByUi[ui];
         }
         // Exposed so lang-filter.js can pull the family-name translator on
         // demand (it lazy-loads here, so a non-English filter would otherwise

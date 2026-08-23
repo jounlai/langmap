@@ -53,6 +53,10 @@ const ASSETS = {
   metaI18nCoverage: { files: ['meta_i18n_coverage.js'] },
   metaI18nCoverage2:{ files: ['meta_i18n_coverage2.js'] },
   metaI18nCoverage3:{ files: ['meta_i18n_coverage3.js'] },
+  // Generated from meta_i18n_ext.js + coverage* by tools/build_meta_split.js:
+  // the translateMetaSmart engine, and one fully-merged slice per UI language.
+  metaI18nEngine:   { files: ['meta_i18n_engine.js'] },
+  metaI18nUi:       { dirs: ['meta_i18n'] },
   triviaI18n:       { glob: /^wordmap_trivia_[a-z]{2,3}\.js$/ },
 };
 

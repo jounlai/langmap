@@ -23,14 +23,18 @@ Recent commits already did (all on `main`, `check_all` clean):
 - **meta-i18n split per UI** → `meta_i18n_engine.js` (translateMetaSmart engine) + `meta_i18n/<ui>.js` (one fully-merged slice per UI). `meta_i18n_ext.js` + `meta_i18n_coverage{,2,3}.js` remain the GENERATION SOURCE. Same regen tool.
 - **wordmap.html, tree.html, hanmap.html** rewired to load the lite/engine/per-UI files (current UI only; English loads no i18n). Verified byte-identical translation output to the old stack.
 - **Auto cache-bump tooling:** `node tools/bump_versions.js` increments the `?v=` of every changed asset across both version systems (WM_ASSET_VERSION registry + literal per-page tags) and updates both locks. Guards: `tools/asset_version_check.js`, `tools/page_asset_version_check.js`, both run by `tools/check_all.js`.
+- **gzip compression enabled (2026-08-23):** nginx configured with `gzip_types` for JS/CSS/JSON/GeoJSON. `data.js` 6.2 MB → 0.88 MB (86% reduction), `countries.geojson` 1.9 MB → 0.62 MB (67% reduction).
+- **GeoJSON MIME type fixed (2026-08-23):** `/etc/nginx/mime.types` now maps `.geojson` → `application/geo+json`.
 
-**Still eager / unsplit (this handoff):** the server does not compress; `index.html` ships `data.js` (6.2 MB) and every page ships the whole `lang_names.js` (656 KB, all 19 UIs); `namemap.html` ships `namemap_content_i18n.js` (584 KB, all UIs).
+**Still eager / unsplit (this handoff):** `index.html` ships `data.js` (6.2 MB raw, 0.88 MB gzipped) and every page ships the whole `lang_names.js` (656 KB, all 19 UIs); `namemap.html` ships `namemap_content_i18n.js` (584 KB, all UIs).
 
 ---
 
-## 2. Task 1 (P0) — Enable gzip/brotli on the server ★ highest leverage
+## 2. Task 1 (P0) — Enable gzip/brotli on the server ★ highest leverage ✅ DONE
 
-**Confirmed 2026-08-23:** production serves uncompressed. `curl -sI -H 'Accept-Encoding: gzip, br' https://langmap.heuron.com/data.js` returns `content-length: 6497271` and **no `content-encoding`** header. Every `.js`/`.css`/`.json`/`.geojson` is sent raw.
+**~~Confirmed 2026-08-23:~~ FIXED 2026-08-23:** nginx gzip enabled. Actual results: `data.js` 6.2 MB → 0.88 MB, `countries.geojson` 1.9 MB → 0.62 MB.
+
+**Original issue:** `curl -sI -H 'Accept-Encoding: gzip, br' https://langmap.heuron.com/data.js` returns `content-length: 6497271` and **no `content-encoding`** header. Every `.js`/`.css`/`.json`/`.geojson` is sent raw.
 
 This one change beats all the code work below and touches no code or data:
 
@@ -54,9 +58,11 @@ This one change beats all the code work below and touches no code or data:
 
 ---
 
-## 3. Task 2 (P1) — Fix countries.geojson MIME type
+## 3. Task 2 (P1) — Fix countries.geojson MIME type ✅ DONE
 
-Production serves `countries.geojson` as `content-type: application/octet-stream`. Serve it as `application/geo+json` (or `application/json`). Add the mapping in the server/CDN config (e.g. nginx `types { application/geo+json geojson; }`). Low risk; improves correctness and lets the compression rule in §2 match it.
+**FIXED 2026-08-23:** Added `application/geo+json geojson;` to `/etc/nginx/mime.types`. Now serves `content-type: application/geo+json`.
+
+~~Production serves `countries.geojson` as `content-type: application/octet-stream`. Serve it as `application/geo+json` (or `application/json`). Add the mapping in the server/CDN config (e.g. nginx `types { application/geo+json geojson; }`). Low risk; improves correctness and lets the compression rule in §2 match it.~~
 
 ---
 

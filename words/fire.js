@@ -54,6 +54,8 @@ WORDS.fire = {
     sw: "Moto / mwali kama jambo la kuwaka; si \"kibiriti\" au \"moto wa kambi\".",
   },
   data: {
+      moc: ["norek","norek"],
+      plg: ["doleʔ","doleʔ"],
       tob: ["nodek","nodek"],
       kgp: ["pĩ","pĩ"],
       es_cr: ["fuego", "fweɣo"],

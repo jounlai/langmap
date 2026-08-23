@@ -60,6 +60,8 @@ WORDS.computer = {
   },
   data: {
 
+      moc: ["—","—"],
+      plg: ["—","—"],
       tob: ["—","—"],
       kgp: ["—","—"],
     "abs": ["komputer", "komˈputər"],

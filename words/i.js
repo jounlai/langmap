@@ -54,6 +54,8 @@ WORDS.i = {
     sw: "Kiwakilishi cha nafsi ya kwanza UMOJA \"mimi\"; muundo wa kawaida. Si wingi \"sisi\".",
   },
   data: {
+      moc: ["ajim","ajim"],
+      plg: ["hajim","hajim"],
       tob: ["ajim","ajim"],
       kgp: ["inh","ʔĩɲ"],
       es_cr: ["yo", "ʝo"],

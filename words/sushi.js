@@ -60,6 +60,8 @@ WORDS.sushi = {
   },
   data: {
 
+      moc: ["—","—"],
+      plg: ["—","—"],
       tob: ["—","—"],
       kgp: ["—","—"],
     "abs": ["sushi", "ˈsuʃi"],

@@ -42,6 +42,8 @@ WORDS.woof = {
   },
   data: {
 
+      moc: ["—","—"],
+      plg: ["—","—"],
       tob: ["—","—"],
       kgp: ["—","—"],
     "af": ["woef woef", "vuf vuf"],

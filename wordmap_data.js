@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1153 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1155 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3324,6 +3324,14 @@ const LANG_DATA = {
   // languages. Word data: UT Austin Hunter-Gatherer Language Database #391
   // (Americanist notation converted to IPA; surface===ipa). Spanish-loan numerals left '—'.
   tob: { name: 'Toba', native: 'Qom', lat: -26.5, lng: -59.5 }, // Gran Chaco, Argentina
+  // Guaicuruan (Gran Chaco); ~4,000 speakers on the Pilcomayo/Bermejo rivers,
+  // Formosa Province, Argentina. Word data: UT Austin Hunter-Gatherer Language DB
+  // #390 (Americanist notation → IPA; surface===ipa). Spanish-loan numerals left '—'.
+  plg: { name: 'Pilagá', native: 'Pilagá', lat: -24.9, lng: -60.0 }, // Formosa, Argentina
+  // Guaicuruan (Gran Chaco); a few thousand speakers in Chaco & Santa Fe
+  // provinces, Argentina. Word data: UT Austin Hunter-Gatherer Language DB #389
+  // (Americanist notation → IPA; surface===ipa). Spanish-loan numerals left '—'.
+  moc: { name: 'Mocoví', native: 'Moqoit', lat: -28.5, lng: -60.0 }, // Chaco/Santa Fe, Argentina
   // Mura (linguistic isolate, Amazonia)
   myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30, // Maici River
 

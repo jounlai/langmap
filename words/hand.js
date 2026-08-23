@@ -54,6 +54,8 @@ WORDS.hand = {
     sw: "Mkono (sehemu ya mbali ya kiungo cha juu); si \"mkono mzima\" (kuanzia bega). Lugha kadhaa hazitofautishi.",
   },
   data: {
+      moc: ["lqaiʔlaʁat","lqaiʔlaʁat"],
+      plg: ["lowaq","lowaq"],
       tob: ["lwaq","lwaq"],
       kgp: ["nĩgà","nĩŋɛ"],
       es_cr: ["mano", "mano"],

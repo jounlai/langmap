@@ -21,6 +21,13 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 5. **Performance (Phase 9)** — see §"Perf" below and `docs/perf-optimization-handoff.md`.
 
 ## Environment gotchas (this machine)
+- **Scratch data must NOT live in `/tmp`.** `/tmp` here is **tmpfs — a RAM disk**
+  (`df -P /tmp` → `tmpfs`), wiped on every reboot. Claude's session scratchpad is
+  under `/tmp/claude-*/`, so anything left there is lost on restart — this has cost
+  real work more than once (2026-08-24: a full parallel drafting run for two words,
+  ~2300 hand-checked cells, plus all agent transcripts). Use **`~/langmap-work/`**
+  instead (real disk, and deliberately outside the repo so `git add -A` can't sweep
+  it in). See `~/langmap-work/README.md`.
 - Local static server was run at **http://localhost:8765** (`python3 -m http.server 8765`). Restart on the new machine to preview.
 - No `pdftotext`; some WebFetch PDFs are image-only (couldn't extract).
 - Production is **langmap.heuron.com** (nginx). **gzip/brotli + geojson MIME are already enabled there** (done 2026-08-23). data.js 6.2MB→0.86MB over the wire.

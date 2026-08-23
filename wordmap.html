@@ -6493,19 +6493,28 @@
         let _metaI18nPromise = null;
         function loadMetaI18n() {
             if (_metaI18nPromise) return _metaI18nPromise;
+            // Inject all four in the SAME tick. async=false makes the browser
+            // download them in PARALLEL but execute in DOM (insertion) order, so
+            // coverage still augments ext's tables after ext runs. The old code
+            // chained them with .then(), which serialized the NETWORK too — each
+            // ~MB file sat "pending" until the previous finished (~5 MB one at a
+            // time on slow links). lite (which defines META_I18N) is already
+            // loaded before this runs, so ordering only matters among these four.
             const inject = (src) => new Promise((resolve) => {
                 const el = document.createElement('script');
                 el.src = src;
-                el.async = false;                 // keep ext before coverage
+                el.async = false;                 // parallel download, ordered execution
                 el.onload = el.onerror = () => resolve();
                 document.head.appendChild(el);
             });
             // Literal assetUrl() arguments — validator check #19 reads them to
             // confirm each lazy file is versioned from WM_ASSET_VERSION.
-            _metaI18nPromise = inject(assetUrl('meta_i18n_ext.js', 'metaI18n'))
-                .then(() => inject(assetUrl('meta_i18n_coverage.js', 'metaI18nCoverage')))
-                .then(() => inject(assetUrl('meta_i18n_coverage2.js', 'metaI18nCoverage2')))
-                .then(() => inject(assetUrl('meta_i18n_coverage3.js', 'metaI18nCoverage3')));
+            _metaI18nPromise = Promise.all([
+                inject(assetUrl('meta_i18n_ext.js', 'metaI18n')),
+                inject(assetUrl('meta_i18n_coverage.js', 'metaI18nCoverage')),
+                inject(assetUrl('meta_i18n_coverage2.js', 'metaI18nCoverage2')),
+                inject(assetUrl('meta_i18n_coverage3.js', 'metaI18nCoverage3')),
+            ]);
             return _metaI18nPromise;
         }
         // Exposed so lang-filter.js can pull the family-name translator on

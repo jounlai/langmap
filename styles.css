@@ -255,7 +255,13 @@ body {
         position: static;
         width: 100%;
         min-width: 0;
-        max-height: none;
+        /* Compact scrollable box (not a full 19-row expansion that stretches
+           the drawer). It scrolls internally; the drawer scroll above is the
+           fallback on very short screens. */
+        max-height: 50dvh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
         margin-top: 6px;
         box-shadow: none;
     }

@@ -352,10 +352,9 @@
 </script>
 
 <script src="wordmap_data.js?v=269"></script>
-<script src="meta_i18n_ext.js?v=16"></script>
-<script src="meta_i18n_coverage.js?v=10"></script>
-<script src="meta_i18n_coverage2.js?v=2"></script>
-<script src="meta_i18n_coverage3.js?v=3"></script>
+<!-- The meta-i18n layer (engine + the current UI's slice only) is loaded
+     dynamically below, next to the meta file — see loadMetaI18nForUi(). The old
+     eager meta_i18n_ext + coverage{,2,3} tags pulled ~5 MB of ALL 22 UIs. -->
 <script src="lang_names.js?v=138"></script>
 <script>
 (function () {
@@ -430,11 +429,18 @@
         sel.addEventListener('change', () => {
             uiLang = sel.value;
             setCookie('wm_uilang', uiLang);
-            applyI18n();
-            buildAndRender();
-            // Re-apply the last-visited highlight after the tree DOM is
-            // rebuilt under the new UI language.
-            if (getLastVisited()) requestAnimationFrame(() => revealLastVisited({ smooth: false, flash: false }));
+            const rerender = () => {
+                applyI18n();
+                buildAndRender();
+                // Re-apply the last-visited highlight after the tree DOM is
+                // rebuilt under the new UI language.
+                if (getLastVisited()) requestAnimationFrame(() => revealLastVisited({ smooth: false, flash: false }));
+            };
+            rerender();  // immediate (chrome labels + English family fallback)
+            // The new UI's family-name translations live in its own slice, which
+            // may not be loaded yet — pull it and repaint so family names switch
+            // from English. Memoized per UI, so a no-op once present.
+            loadMetaI18nForUi(uiLang).then(rerender);
         });
     }
 
@@ -486,11 +492,37 @@
     }
 
     // ===== meta lazy load =====
-    const metaScript = document.createElement('script');
-    metaScript.src = 'wordmap_meta.js?v=235';
-    metaScript.onload = init;
-    metaScript.onerror = () => { document.getElementById('loading').textContent = 'Failed to load wordmap_meta.js.'; };
-    document.head.appendChild(metaScript);
+    // Ordered dynamic loader (async=false → execute in insertion order while
+    // downloading in parallel).
+    function _loadJS(src) {
+        return new Promise((res, rej) => {
+            const s = document.createElement('script');
+            s.src = src; s.async = false;
+            s.onload = res; s.onerror = rej;
+            document.head.appendChild(s);
+        });
+    }
+    // Per-UI meta translations: the small translateMetaSmart engine + ONE UI's
+    // fully-merged slice (meta_i18n/<ui>.js), instead of ~5 MB for all 22 UIs.
+    // Memoized per UI so switching the UI language pulls the new slice. English
+    // is the source language — familyDisplayName() skips the translator for it.
+    const _i18nByUi = {}; let _enginePromise = null;
+    function loadMetaI18nForUi(ui) {
+        if (!ui || ui === 'en') return Promise.resolve();
+        if (_i18nByUi[ui]) return _i18nByUi[ui];
+        if (!_enginePromise) _enginePromise = _loadJS('meta_i18n_engine.js?v=1');
+        // per-UI writes META_I18N[ui] (the const from the lite file) + fills
+        // META_I18N_ATOMS — engine must run first (async=false guarantees it).
+        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=1')]);
+        return _i18nByUi[ui];
+    }
+    // The tree only reads structured fields (family / parentCode / speakers) +
+    // the base META_I18N table — all in wordmap_meta_lite.js (~1.1 MB), so it
+    // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
+    _loadJS('wordmap_meta_lite.js?v=273')
+        .then(() => loadMetaI18nForUi(uiLang))   // lite defines META_I18N before the per-UI slice fills it
+        .then(init)
+        .catch(() => { document.getElementById('loading').textContent = 'Failed to load language metadata.'; });
 
     // ===== Family-name i18n (top families + sub-branches) =====
     const FAMILY_PROMOTE = {

@@ -54,6 +54,7 @@ WORDS.nose = {
     sw: "Pua — kiungo cha usoni kinachotumika kunusa na kupumua; si hisia ya kunusa wala kitenzi.",
   },
   data: {
+      tob: ["lmik","lmik"],
       kgp: ["nĩjẽ","nĩjẽ"],
     es_cr: ["nariz", "naˈɾis"],
     es_hn: ["nariz", "naˈɾis"],

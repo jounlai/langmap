@@ -41,6 +41,7 @@ WORDS.cuckoo = {
   },
   data: {
 
+      tob: ["—","—"],
       kgp: ["—","—"],
     "aae": ["qyqe", "ˈcyce"],
     "ab": ["акәыкәы", "akʷǝkʷǝ"],

@@ -54,6 +54,7 @@ WORDS.love = {
     sw: "Neno/shina la msingi la upendo au kupendana; nomino au kitenzi kulingana na lugha; si salamu.",
   },
   data: {
+      tob: ["—","—"],
       kgp: ["—","—"],
       es_cr: ["amor", "amoɾ"],
       es_hn: ["amor", "amor"],

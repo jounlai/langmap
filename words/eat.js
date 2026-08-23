@@ -54,6 +54,7 @@ WORDS.eat = {
     sw: "Kitenzi \"kula\" — tumia umbo la kawaida la kamusi; toa noti kupitia wordEvidence.note.",
   },
   data: {
+      tob: ["dekeʔe","dekeʔe"],
       kgp: ["ko","ko"],
       es_cr: ["comer", "komeɾ"],
       es_hn: ["comer", "komer"],

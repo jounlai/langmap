@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1152 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1153 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -3319,6 +3319,11 @@ const LANG_DATA = {
   // based on U. Wiesemann's documentation (Dicionário Kaingang-Português, 2011). Only
   // sourced core-vocabulary cells are filled; culturally-specific / modern words left '—'.
   kgp: { name: 'Kaingang', native: 'Kanhgág', lat: -27.00, lng: -51.50 }, // southern Brazil
+  // Guaicuruan (Gran Chaco); ~120,000 speakers, mainly Argentine Chaco/Formosa/
+  // Salta plus Paraguay & Bolivia — one of the region's most vital Indigenous
+  // languages. Word data: UT Austin Hunter-Gatherer Language Database #391
+  // (Americanist notation converted to IPA; surface===ipa). Spanish-loan numerals left '—'.
+  tob: { name: 'Toba', native: 'Qom', lat: -26.5, lng: -59.5 }, // Gran Chaco, Argentina
   // Mura (linguistic isolate, Amazonia)
   myp: { name: 'Pirahã', native: 'Xapagí', lat: -7.70, lng: -62.30, // Maici River
 

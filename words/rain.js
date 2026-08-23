@@ -62,6 +62,7 @@ WORDS.rain = {
     sw: "Mvua — maji yanayoanguka kutoka mawingu (nomino); si kitenzi 'kunyesha' wala msimu wa mvua.",
   },
   data: {
+      tob: ["awot","awot"],
       kgp: ["ta","ta"],
     ja: ["雨", "ame"],
     ja_osa: ["雨", "ame"],

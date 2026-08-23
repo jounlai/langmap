@@ -54,6 +54,7 @@ WORDS.cat = {
     sw: "Paka wa nyumbani (Felis catus); umbo la kamusi/la kawaida; jinsia katika wordEvidence.note inapohitajika.",
   },
   data: {
+      tob: ["—","—"],
       kgp: ["—","—"],
       es_cr: ["gato", "gato"],
       es_hn: ["gato", "ɡato"],

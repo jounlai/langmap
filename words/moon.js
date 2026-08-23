@@ -54,6 +54,7 @@ WORDS.moon = {
     sw: "Mwezi, satilaiti asilia ya Dunia; si \"mwezi\" wa kalenda.",
   },
   data: {
+      tob: ["kaʔagoʁoik","kaʔagoʁoik"],
       kgp: ["kysã","kɨsã"],
       es_cr: ["luna", "luna"],
       es_hn: ["luna", "luna"],

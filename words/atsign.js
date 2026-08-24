@@ -12,8 +12,8 @@
 WORDS.atsign = {
   partial: true,
   label: {
-    en: "At sign (@)",
-    ja: "アットマーク（＠）",
+    en: "At sign",
+    ja: "アットマーク",
     ko: "골뱅이 (@)",
     zh: "@ 符号（艾特）",
     yue: "@ 符號",
@@ -21,7 +21,7 @@ WORDS.atsign = {
     th: "เครื่องหมาย @",
     id: "Tanda @",
     hi: "@ चिह्न",
-    de: "At-Zeichen (@)",
+    de: "At-Zeichen",
     fr: "Arobase (@)",
     it: "Chiocciola (@)",
     es: "Arroba (@)",

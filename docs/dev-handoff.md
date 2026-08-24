@@ -79,5 +79,46 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 3. **Mature words with modern-coverage gaps** (small, tractable): heart −24, house −14, good/drink −17, hand −10 vs the ~1009 ceiling; love/cat/hello/thanks −~50 (some of that is the new Tier-1 langs, which legitimately lack those concepts).
 4. **Per-UI splits for the other pages' `lang_names.js`** (index/tree/hanmap/namemap still load the whole 656 KB) and **namemap_content_i18n per-UI** — low priority now that gzip is on; full runbook in `docs/perf-optimization-handoff.md` §4–5.
 
+## Filling a word from the comparative datasets (doculect alignment)
+
+Hand-researching a cell at a time does not scale to a 400–600 row gap, and it burns the
+WebSearch quota fast. The faster route is the CLDF comparative datasets — but naively
+matching on ISO code does not work, because every one of them carries several doculects per
+language (ABVD alone has 4723 for ~1000 languages) and they disagree with each other.
+
+`~/langmap-work/align.js` solves the picking problem deterministically. For each atlas row it
+scores every candidate doculect by **how many of the row's already-filled cells that doculect
+reproduces** (after a normalisation pass that strips diacritics and folds the obvious
+transcription variants). A doculect that gets the row's water, eye and fire right is the one
+the row was actually built from, so its remaining concepts can be trusted — and the score
+travels with the candidate, so a reviewer can see how much weight it carries.
+
+    cd ~/langmap-work
+    node align.js egg nose ear stone …     > align_all.tsv    # candidates + agreement score
+    ALIGN=align_all.tsv node worksheet.js x 0 6 > ws_0.md      # per-row briefs, 1 of 6 slices
+
+`worksheet.js` prints each row's existing cells above the candidates. That context is doing
+two jobs: it is the orthography/IPA convention the new cell has to match, and it is the
+cross-check — a new cell that comes out identical to a cell already in the row is either
+homophony or a mis-gloss, and that test has now caught several.
+
+Caveats learned the hard way:
+
+- **Concepticon glosses are coarser than the atlas's definitions.** NorthEuraLex `EARTH (SOIL)`
+  is glossed "Erde::N", ambiguous in German, and returns Hill Mari **свет** — a Russian loan
+  meaning 'world/light', not soil. Always re-read the atlas definition before accepting.
+- Datasets differ in what goes where: NorthEuraLex puts orthography in `Value` and IPA in
+  `Form`; IDS puts orthography in `Value` and its phonemic string in `AlternativeValues`;
+  most lexibank sets put the source's single transcription in `Value` and nothing usable in
+  `Form`. Only NorthEuraLex hands you both halves of a cell.
+- Artifacts to clean: `_` is a word space, a leading or trailing `-` marks a bound stem
+  (ABVD gives possessed body parts that way), `~` separates variants, `saenkoromance` writes
+  per-segment dots, and `tls` writes Bantu seven-vowel systems with capital I and U.
+- `johanssonsoundsymbolic` is a sound-symbolism study, not a basic-vocabulary list — leads only.
+
+The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b_*` and
+`asjp_*`/`ids_*` files; they are deliberately outside the repo. Re-fetch with
+`curl https://raw.githubusercontent.com/lexibank/<dataset>/master/cldf/{forms,languages,parameters}.csv`.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

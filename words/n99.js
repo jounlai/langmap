@@ -94,8 +94,10 @@ WORDS.n99 = {
     la: "sub", ne: "sub",
     sq: "dec", el: "dec", hy: "dec", mn: "dec", th: "dec", fa: "dec",
     he: "dec", lt: "dec", uk: "dec", cs: "dec", ro: "dec", bg: "dec", kk: "dec",
+    ms: "dec", id: "dec", ta: "dec",
+    km: "quin", wo: "quin",
     yo: "sub",
-    hi: "opaque", bn: "opaque"
+    hi: "opaque", bn: "opaque", ur: "opaque"
   },
   routes: {
     dec: {
@@ -141,6 +143,19 @@ WORDS.n99 = {
       pt: "meia vintena · 9 + 4½×20", ru: "полудвадцатка · 9 + 4½×20",
       uk: "піводвадцятка · 9 + 4½×20", ar: "نصف عشرينية · ٩ + ٤½×٢٠",
       he: "חצי־עשרים · 9 + 4½×20", sw: "nusu-ishirini · 9 + 4½×20"
+    },
+    quin: {
+      color: "#0891b2", emoji: "🖐️",
+      en: "quinary nine · 90 + (5+4)", ja: "5進の9 · 90＋(5＋4)",
+      ko: "오진법의 9 · 90 + (5+4)", zh: "五进的9 · 90＋(5＋4)",
+      yue: "五進嘅9 · 90＋(5＋4)", vi: "số 9 ngũ phân · 90 + (5+4)",
+      th: "เก้าฐานห้า · 90 + (5+4)", id: "sembilan kuiner · 90 + (5+4)",
+      hi: "पाँच-आधारित नौ · 90 + (5+4)", de: "quinäre Neun · 90 + (5+4)",
+      fr: "neuf quinaire · 90 + (5+4)", it: "nove quinario · 90 + (5+4)",
+      es: "nueve quinario · 90 + (5+4)", pt: "nove quinário · 90 + (5+4)",
+      ru: "пятеричная девятка · 90 + (5+4)", uk: "п'ятіркова дев'ятка · 90 + (5+4)",
+      ar: "تسعة خماسية · ٩٠ + (٥+٤)", he: "תשע חמישונית · 90 + (5+4)",
+      sw: "tisa ya tano · 90 + (5+4)"
     },
     sub: {
       color: "#15803d", emoji: "➖",
@@ -210,6 +225,12 @@ WORDS.n99 = {
     cs:    ["devadesát devět", "ˈdɛvadɛsaːt ˈdɛvjɛt"],
     ro:    ["nouăzeci și nouă", "nowəˈzetʃʲ ʃi ˈnowə"],
     bg:    ["деветдесет и девет", "devedeˈset i ˈdevet"],
-    kk:    ["тоқсан тоғыз", "toqˈsan toˈʁəz"]
+    kk:    ["тоқсан тоғыз", "toqˈsan toˈʁəz"],
+    km:    ["កៅសិបប្រាំបួន", "kavsəp praːmɓuən"],
+    ms:    ["sembilan puluh sembilan", "səmbilan puluh səmbilan"],
+    id:    ["sembilan puluh sembilan", "səmbilan puluh səmbilan"],
+    ta:    ["தொண்ணூற்று ஒன்பது", "toɳɳuːtru onbad̪u"],
+    ur:    ["ننانوے", "nənaːnəʋeː"],
+    wo:    ["juróom-ñeenti fukk ak juróom-ñeent", "dʒuˈroːmɲeːnti fukː ak dʒuˈroːmɲeːnt"]
   }
 };

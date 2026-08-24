@@ -1231,6 +1231,11 @@ const LANG_DATA = {
   dbq: { name: 'Daba', native: 'mə-daba', lat: 10.65, lng: 13.97, // Mokolo area, Cameroon
 },
   wo: { name: 'Wolof', native: 'Wolof', lat: 14.69, lng: -17.44,
+    wordEvidence: {
+      n99: { evidence: 'inferred',
+             source: "Wiktionary Wolof lemmas juróom 'five', ñeent 'four', fukk 'ten' — all three confirmed individually",
+             note: "the whole numeral is not attested anywhere reachable; this is the regular Wolof composition, 9x10 + 9 where 9 is itself juróom-ñeent 'five-four'. Kept because it is the quinary sub-base again, the same shape as Khmer ប្រាំបួន, on the other side of the world" }
+    },
 },
   // Serer — Niger-Congo (Atlantic, Senegambian — sister to Fula and Wolof but Cangin subgroup), ~1.4M, Senegal (Sine-Saloum + Petite Côte). Tonal, ~12 noun classes.
   // Sources: Ethnologue 27 'srr'; Glottolog sere1260; Faye (1980) Lexique Sereer-Sine; McLaughlin (1992).

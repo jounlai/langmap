@@ -29,6 +29,7 @@ const WORD_ORDER = [
     "tooth",
     "hand",
     "heart",
+    "bone",
     "blood",
     "tongue",
     "love",

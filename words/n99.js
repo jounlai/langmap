@@ -52,20 +52,22 @@
 WORDS.n99 = {
   partial: true,
   emoji: "🔢",
-  // Spelled out, not "99": every other numeral on this map is the word in the
-  // UI language — one is 一 in Japanese, 하나 in Korean, एक in Hindi, واحد in
-  // Arabic — and a bare digit here broke that. Some of these are long (Indonesian
-  // 23 characters, French 21), which does widen the concept column in those UIs.
-  // That is the honest cost of naming the concept: unlike the "(@)" trimmed off
-  // the At-sign label, there is no redundancy here to cut.
+  // The one label on this map that is NOT translated. Every other concept is
+  // named in the reader's own language, but this concept IS a number, and the
+  // digits carry it everywhere — while the spelled-out forms ranged from three
+  // characters (九十九) to twenty-three (Sembilan puluh sembilan), so the same
+  // row was a different width in every UI. One string in all 23 keeps the
+  // selector and the modal's concept column a fixed size, and the English name
+  // rides along so the concept still reads as a word and not just a figure.
   label: {
-    en: "Ninety-nine", ja: "九十九", ko: "아흔아홉", zh: "九十九", yue: "九十九",
-    vi: "Chín mươi chín", th: "เก้าสิบเก้า", id: "Sembilan puluh sembilan",
-    hi: "निन्यानवे", de: "Neunundneunzig", fr: "Quatre-vingt-dix-neuf",
-    it: "Novantanove", es: "Noventa y nueve", es_eu: "Noventa y nueve",
-    es_mx: "Noventa y nueve", pt: "Noventa e nove", pt_eu: "Noventa e nove",
-    pt_br: "Noventa e nove", ru: "Девяносто девять", uk: "Дев'яносто дев'ять",
-    ar: "تسعة وتسعون", he: "תשעים ותשע", sw: "Tisini na tisa"
+    en: "99 / Ninety-nine", ja: "99 / Ninety-nine", ko: "99 / Ninety-nine",
+    zh: "99 / Ninety-nine", yue: "99 / Ninety-nine", vi: "99 / Ninety-nine",
+    th: "99 / Ninety-nine", id: "99 / Ninety-nine", hi: "99 / Ninety-nine",
+    de: "99 / Ninety-nine", fr: "99 / Ninety-nine", it: "99 / Ninety-nine",
+    es: "99 / Ninety-nine", es_eu: "99 / Ninety-nine", es_mx: "99 / Ninety-nine",
+    pt: "99 / Ninety-nine", pt_eu: "99 / Ninety-nine", pt_br: "99 / Ninety-nine",
+    ru: "99 / Ninety-nine", uk: "99 / Ninety-nine", ar: "99 / Ninety-nine",
+    he: "99 / Ninety-nine", sw: "99 / Ninety-nine"
   },
   definition: {
     en: "The number 99 — chosen because it is where numeral systems stop agreeing: base ten against base twenty, tens-first against units-first, Danish half-scores, subtraction from a hundred, and numerals too opaque to decompose at all.",

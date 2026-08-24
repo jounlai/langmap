@@ -922,7 +922,7 @@ WORDS.red = {
     her: ["serandu", "serandu"],
     xal: ["улан", "ulan"],
     sg: ["bengba", "beŋɡba"],
-    toi: ["salala", "salala"],
+    toi: ["subila", "subila"],
     peo: ["—", "—"],
     ave: ["𐬯𐬎𐬑𐬭𐬀", "suxra"],
     xto: ["𑀭𑁆𑀢𑀸𑀭", "rtaːr"],

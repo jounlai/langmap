@@ -1,0 +1,189 @@
+/**
+ * n99 — the number 99, chosen because it is where numeral systems stop agreeing.
+ *
+ * PARTIAL WORD (🧪): most concepts on this map are a word. This one is a
+ * structure. 99 is the smallest number that simultaneously exposes four
+ * independent typological axes, which is why it beats 70, 80 or 17:
+ *
+ *   base          decimal 9×10+9 vs vigesimal 4×20+19
+ *   order         French 4×20+10+9, Basque 4×20+19, Breton 19+4×20,
+ *                 German/Dutch/Arabic unit-before-ten (9-and-90)
+ *   half-score    Danish halvfems is "half-fifth score", 4½×20 — a pattern
+ *                 that only surfaces above 50 and so is invisible at 17 or 20
+ *   subtraction   Latin undecentum and Nepali उनान्सय are both "one from a
+ *                 hundred" — sharpest right below the round number
+ *   opacity       Hindi निन्यानवे and Bengali নিরানব্বই cannot be decomposed at
+ *                 all; Indo-Aryan memorises all hundred numerals separately
+ *
+ * `family` assigns each row to one of those structures and `routes` colours the
+ * map by it, so the typology is legible without reading a single form — the
+ * same data-only mechanism `tea` and `orange` use for their trade routes.
+ *
+ * COVERAGE is deliberately partial and will stay that way. `five` reaches 857
+ * of 1164 rows and that is the ceiling; a great many languages have no native
+ * numeral this high and borrow above 5 or 10, so the blank areas are the
+ * finding, not a gap to be filled.
+ *
+ * SOURCING: every form here was checked against its English Wiktionary entry —
+ * either the whole numeral (quatre-vingt-dix-neuf, nioghalvfems, laurogeita
+ * hemeretzi, ოთხმოცდაცხრამეტი, undecentum, उनान्सय …) or, where the compound
+ * has no entry of its own, both components (Korean 아흔 'ninety' + 아홉 'nine';
+ * Irish nócha + naoi; Breton naontek 'nineteen' + pevar-ugent 'eighty'; Arabic
+ * تسعون + تسعة). IPA follows each row's own existing conventions, read off its
+ * one/two/three/five cells.
+ *
+ * The id is `n99`, not `99`: a numeric-looking key sorts first in JavaScript
+ * object enumeration and would have been a permanent special case, and the
+ * hash parser reads the word id with [a-z_]+.
+ *
+ * WANTED: Yoruba, whose numerals are subtractive throughout and which would be
+ * the best `sub` example on the map — no reachable source for the 99 form yet.
+ * Also Nahuatl and Yucatec Maya for `vig`, and Ainu.
+ */
+WORDS.n99 = {
+  partial: true,
+  emoji: "🔢",
+  label: {
+    en: "99", ja: "99（九十九）", ko: "99", zh: "99（九十九）", yue: "99（九十九）",
+    vi: "99", th: "99", id: "99", hi: "99", de: "99", fr: "99", it: "99",
+    es: "99", es_eu: "99", es_mx: "99", pt: "99", pt_eu: "99", pt_br: "99",
+    ru: "99", uk: "99", ar: "٩٩", he: "99", sw: "99"
+  },
+  definition: {
+    en: "The number 99 — chosen because it is where numeral systems stop agreeing: base ten against base twenty, tens-first against units-first, Danish half-scores, subtraction from a hundred, and numerals too opaque to decompose at all.",
+    ja: "数の99。数詞の体系が最も食い違う数だから選んだ——10進と20進、十の位が先か一の位が先か、デンマーク語の「半分の score」、100からの引き算、そして分解できないほど不透明な数詞。",
+    ko: "숫자 99. 수사 체계가 가장 크게 갈리는 수여서 골랐다 — 십진법과 이십진법, 십의 자리가 먼저인가 일의 자리가 먼저인가, 덴마크어의 반(半) 스코어, 100에서 빼기, 그리고 아예 분해되지 않는 수사.",
+    zh: "数字99。选它是因为这是各语言数词体系分歧最大的数——十进制与二十进制、十位在前还是个位在前、丹麦语的「半个二十」、从一百中减去，以及根本无法拆解的数词。",
+    yue: "數字99。揀佢係因為呢個數最能顯示數詞體系嘅分歧——十進制同二十進制、十位定個位喺前、丹麥語嘅「半個二十」、由一百減出嚟，同埋完全拆唔開嘅數詞。",
+    vi: "Số 99 — được chọn vì đây là nơi các hệ đếm khác nhau nhất: cơ số mười so với cơ số hai mươi, hàng chục trước hay hàng đơn vị trước, lối đếm nửa-score của tiếng Đan Mạch, phép trừ từ một trăm, và những số từ không thể phân tích.",
+    th: "เลข 99 — เลือกเพราะเป็นจุดที่ระบบเลขของภาษาต่าง ๆ ต่างกันมากที่สุด: ฐานสิบกับฐานยี่สิบ หลักสิบมาก่อนหรือหลักหน่วยมาก่อน ระบบครึ่งยี่สิบของเดนมาร์ก การลบจากหนึ่งร้อย และคำเลขที่แยกส่วนไม่ได้เลย",
+    id: "Angka 99 — dipilih karena di sinilah sistem bilangan paling berbeda: basis sepuluh melawan basis dua puluh, puluhan dulu atau satuan dulu, sistem setengah-kodi bahasa Denmark, pengurangan dari seratus, dan bilangan yang sama sekali tak terurai.",
+    hi: "संख्या 99 — इसे इसलिए चुना क्योंकि यहीं अंक-प्रणालियाँ सबसे अधिक भिन्न होती हैं: दशमलव बनाम बीस का आधार, दहाई पहले या इकाई पहले, डेनिश का आधा-बीस, सौ में से घटाना, और वे अंक जो बिल्कुल विश्लेषित नहीं होते।",
+    de: "Die Zahl 99 — gewählt, weil hier die Zahlsysteme am weitesten auseinandergehen: Zehnerbasis gegen Zwanzigerbasis, Zehner zuerst oder Einer zuerst, das dänische Halb-Schock, Subtraktion von hundert und Zahlwörter, die sich gar nicht zerlegen lassen.",
+    fr: "Le nombre 99 — choisi parce que c'est là que les systèmes de numération divergent le plus : base dix contre base vingt, dizaines d'abord ou unités d'abord, les demi-vingtaines danoises, la soustraction à partir de cent, et des numéraux impossibles à décomposer.",
+    it: "Il numero 99 — scelto perché è qui che i sistemi di numerazione divergono di più: base dieci contro base venti, decine prima o unità prima, le mezze ventine danesi, la sottrazione da cento e numerali del tutto indecomponibili.",
+    es: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer.",
+    es_eu: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer.",
+    es_mx: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer.",
+    pt: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor.",
+    pt_eu: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor.",
+    pt_br: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor.",
+    ru: "Число 99 — выбрано потому, что именно здесь системы счисления расходятся сильнее всего: десятичная против двадцатеричной, десятки впереди или единицы впереди, датские полудвадцатки, вычитание из ста и числительные, которые вообще не раскладываются.",
+    uk: "Число 99 — вибране тому, що саме тут системи числення розходяться найдужче: десяткова проти двадцяткової, десятки спереду чи одиниці спереду, данські піводвадцятки, віднімання від ста і числівники, які взагалі не розкладаються.",
+    ar: "العدد ٩٩ — اختير لأنه الموضع الذي تتباعد فيه أنظمة العدّ أكثر ما يكون: الأساس العشري في مقابل العشريني، العشرات أولًا أو الآحاد أولًا، أنصاف العشرينات الدنماركية، الطرح من المئة، وأعداد لا تقبل التحليل أصلًا.",
+    he: "המספר 99 — נבחר משום שכאן מערכות הספירה נבדלות זו מזו יותר מכל: בסיס עשר מול בסיס עשרים, עשרות תחילה או יחידות תחילה, חצאי־העשרים הדניים, חיסור ממאה, ומספרים שאינם ניתנים לפירוק כלל.",
+    sw: "Namba 99 — imechaguliwa kwa sababu hapa ndipo mifumo ya kuhesabu inatofautiana zaidi: msingi wa kumi dhidi ya msingi wa ishirini, makumi kwanza au mamoja kwanza, nusu-ishirini za Kidenmaki, kutoa kutoka mia, na namba zisizoweza kuchambuliwa kabisa."
+  },
+  // Which structure each row uses. Colours the map; see `routes` below.
+  family: {
+    en: "dec", es: "dec", it: "dec", sv: "dec", is: "dec", fr_be: "dec",
+    cy: "dec", ga: "dec", ko: "dec", sw: "dec", ja: "dec", zh: "dec",
+    vi: "dec", tl: "dec", ru: "dec", pl: "dec", tr: "dec", hu: "dec", fi: "dec",
+    de: "unit", nl: "unit", ar: "unit",
+    fr: "vig", eu: "vig", ka: "vig", br: "vig",
+    da: "half",
+    la: "sub", ne: "sub",
+    hi: "opaque", bn: "opaque"
+  },
+  routes: {
+    dec: {
+      color: "#0e7490", emoji: "🔟",
+      en: "decimal · 90 + 9", ja: "10進 · 90＋9", ko: "십진 · 90 + 9", zh: "十进 · 90＋9",
+      yue: "十進 · 90＋9", vi: "thập phân · 90 + 9", th: "ฐานสิบ · 90 + 9",
+      id: "desimal · 90 + 9", hi: "दशमलव · 90 + 9", de: "dezimal · 90 + 9",
+      fr: "décimal · 90 + 9", it: "decimale · 90 + 9", es: "decimal · 90 + 9",
+      pt: "decimal · 90 + 9", ru: "десятичная · 90 + 9", uk: "десяткова · 90 + 9",
+      ar: "عشري · ٩٠ + ٩", he: "עשרוני · 90 + 9", sw: "desimali · 90 + 9"
+    },
+    unit: {
+      color: "#7c3aed", emoji: "🔄",
+      en: "decimal, unit first · 9 and 90", ja: "10進・一の位が先 · 9と90",
+      ko: "십진, 일의 자리 먼저 · 9와 90", zh: "十进，个位在前 · 9和90",
+      yue: "十進，個位喺前 · 9同90", vi: "thập phân, đơn vị trước · 9 và 90",
+      th: "ฐานสิบ หลักหน่วยก่อน · 9 และ 90", id: "desimal, satuan dulu · 9 dan 90",
+      hi: "दशमलव, इकाई पहले · 9 और 90", de: "dezimal, Einer zuerst · 9 und 90",
+      fr: "décimal, unités d'abord · 9 et 90", it: "decimale, unità prima · 9 e 90",
+      es: "decimal, unidades primero · 9 y 90", pt: "decimal, unidades primeiro · 9 e 90",
+      ru: "десятичная, единицы впереди · 9 и 90", uk: "десяткова, одиниці спереду · 9 і 90",
+      ar: "عشري، الآحاد أولًا · ٩ و٩٠", he: "עשרוני, יחידות תחילה · 9 ו־90",
+      sw: "desimali, mamoja kwanza · 9 na 90"
+    },
+    vig: {
+      color: "#b45309", emoji: "2️⃣",
+      en: "vigesimal · 4×20 + 19", ja: "20進 · 4×20＋19", ko: "이십진 · 4×20 + 19",
+      zh: "二十进 · 4×20＋19", yue: "二十進 · 4×20＋19", vi: "nhị thập phân · 4×20 + 19",
+      th: "ฐานยี่สิบ · 4×20 + 19", id: "vigesimal · 4×20 + 19", hi: "बीस-आधारित · 4×20 + 19",
+      de: "vigesimal · 4×20 + 19", fr: "vicésimal · 4×20 + 19", it: "vigesimale · 4×20 + 19",
+      es: "vigesimal · 4×20 + 19", pt: "vigesimal · 4×20 + 19",
+      ru: "двадцатеричная · 4×20 + 19", uk: "двадцяткова · 4×20 + 19",
+      ar: "عشريني · ٤×٢٠ + ١٩", he: "עשריני · 4×20 + 19", sw: "vigesimali · 4×20 + 19"
+    },
+    half: {
+      color: "#be123c", emoji: "🇩🇰",
+      en: "half-score · 9 + 4½×20", ja: "半分の20進 · 9＋4½×20",
+      ko: "반(半) 스코어 · 9 + 4½×20", zh: "半二十 · 9＋4½×20", yue: "半二十 · 9＋4½×20",
+      vi: "nửa-score · 9 + 4½×20", th: "ครึ่งยี่สิบ · 9 + 4½×20",
+      id: "setengah-kodi · 9 + 4½×20", hi: "आधा-बीस · 9 + 4½×20",
+      de: "Halb-Schock · 9 + 4½×20", fr: "demi-vingtaine · 9 + 4½×20",
+      it: "mezza ventina · 9 + 4½×20", es: "media veintena · 9 + 4½×20",
+      pt: "meia vintena · 9 + 4½×20", ru: "полудвадцатка · 9 + 4½×20",
+      uk: "піводвадцятка · 9 + 4½×20", ar: "نصف عشرينية · ٩ + ٤½×٢٠",
+      he: "חצי־עשרים · 9 + 4½×20", sw: "nusu-ishirini · 9 + 4½×20"
+    },
+    sub: {
+      color: "#15803d", emoji: "➖",
+      en: "subtractive · 100 − 1", ja: "減算 · 100−1", ko: "감산 · 100 − 1",
+      zh: "减法 · 100−1", yue: "減法 · 100−1", vi: "phép trừ · 100 − 1",
+      th: "การลบ · 100 − 1", id: "pengurangan · 100 − 1", hi: "घटाव · 100 − 1",
+      de: "subtraktiv · 100 − 1", fr: "soustractif · 100 − 1", it: "sottrattivo · 100 − 1",
+      es: "sustractivo · 100 − 1", pt: "subtrativo · 100 − 1",
+      ru: "вычитание · 100 − 1", uk: "віднімання · 100 − 1", ar: "طرحي · ١٠٠ − ١",
+      he: "חיסורי · 100 − 1", sw: "kutoa · 100 − 1"
+    },
+    opaque: {
+      color: "#6b7280", emoji: "❓",
+      en: "opaque · not decomposable", ja: "不透明 · 分解できない",
+      ko: "불투명 · 분해 불가", zh: "不透明 · 无法拆解", yue: "不透明 · 拆唔開",
+      vi: "không phân tích được", th: "ทึบ · แยกส่วนไม่ได้",
+      id: "opak · tak terurai", hi: "अपारदर्शी · अविभाज्य",
+      de: "undurchsichtig · nicht zerlegbar", fr: "opaque · indécomposable",
+      it: "opaco · indecomponibile", es: "opaco · indescomponible",
+      pt: "opaco · indecomponível", ru: "непрозрачное · не разлагается",
+      uk: "непрозоре · не розкладається", ar: "غير قابل للتحليل",
+      he: "אטום · לא ניתן לפירוק", sw: "isiyoeleweka · haigawanyiki"
+    }
+  },
+  data: {
+    en:    ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    de:    ["neunundneunzig", "ˈnɔʏnʊntˌnɔʏntsɪç"],
+    nl:    ["negenennegentig", "ˈneːɣənənˌneːɣəntəx"],
+    fr:    ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
+    fr_be: ["nonante-neuf", "nɔnɑ̃tnœf"],
+    es:    ["noventa y nueve", "noˈβenta i ˈnweβe"],
+    it:    ["novantanove", "novantaˈnove"],
+    da:    ["nioghalvfems", "ˈniɔhalˀfɛms"],
+    sv:    ["nittionio", "ˈnɪtːiuˌniːu"],
+    is:    ["níutíu og níu", "ˈniːʏtʰiːʏ ɔɣ ˈniːʏ"],
+    eu:    ["laurogeita hemeretzi", "lauɾoɣeita emeɾetsi"],
+    ka:    ["ოთხმოცდაცხრამეტი", "otʰxmotsdatsxɾametʰi"],
+    cy:    ["naw deg naw", "nau dɛɡ nau"],
+    br:    ["naontek ha pevar-ugent", "nãwntek a pewaɾˈyːɡɛn"],
+    ga:    ["nócha a naoi", "ˈn̪ˠoːxə ə ˈn̪ˠiː"],
+    ko:    ["아흔아홉", "ahɯnahop"],
+    sw:    ["tisini na tisa", "tiˈsini na ˈtisa"],
+    hi:    ["निन्यानवे", "ninjaːnəʋeː"],
+    bn:    ["নিরানব্বই", "niranobːoi"],
+    ne:    ["उनान्सय", "unaːnsʌj"],
+    ja:    ["九十九", "kʲuːdʑuːkʲuː"],
+    zh:    ["九十九", "tɕiou̯˨˩˦ ʂʐ̩˧˥ tɕiou̯˨˩˦"],
+    vi:    ["chín mươi chín", "tɕin˧˥ mɯəj˧ tɕin˧˥"],
+    ar:    ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
+    tl:    ["siyamnapu't siyam", "ʃamnaˈput ʃam"],
+    ru:    ["девяносто девять", "dʲɪvʲɪˈnostə ˈdʲevʲɪtʲ"],
+    pl:    ["dziewięćdziesiąt dziewięć", "dʑevʲɛɲˈdʑeɕɔnt ˈdʑevʲɛɲtɕ"],
+    tr:    ["doksan dokuz", "dokˈsan doˈkuz"],
+    hu:    ["kilencvenkilenc", "ˈkilɛntsvɛnˌkilɛnts"],
+    fi:    ["yhdeksänkymmentäyhdeksän", "ˈyhdeksænˌkymmentæˌyhdeksæn"],
+    la:    ["undecentum", "undeˈkentum"]
+  }
+};

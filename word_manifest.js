@@ -51,6 +51,7 @@ const WORD_ORDER = [
     "two",
     "three",
     "five",
+    "n99",
     // greetings & quality
     "hello",
     "thanks",

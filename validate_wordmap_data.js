@@ -220,9 +220,13 @@ const W = m => {
 };
 const I = m => infos.push(m);
 
-// ---- 1. WORD_LIST has 20 entries ----------------------------------------
-if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 55) {
-    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 55)`);
+// ---- 1. WORD_LIST is the expected size ----------------------------------
+// Pinned deliberately: adding a concept means touching word_manifest.js,
+// words/<id>.js, word_labels.js and lang_words/, and this is the check that
+// fails if the manifest was edited without the rest following.
+const EXPECTED_WORDS = 56;
+if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== EXPECTED_WORDS) {
+    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected ${EXPECTED_WORDS})`);
 }
 const WORD_IDS = (ctx.WORD_LIST || []).map(w => w.id);
 // Partial words (WORDS.<id>.partial === true) are NOT required for every

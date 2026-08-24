@@ -1144,7 +1144,7 @@ WORDS.water = {
     ojp: ["水", "midu"],
     p_jpk: ["—", "—"],
     h_vedic: ["आपः", "aːpaɦ"],
-    txg: ["𗀚", "tjɨ˧"],
+    txg: ["𗋽", "zjɨr˧˥"],
     sog: ["ʾāp", "aːp"],
     otk: ["𐰽𐰆𐰉", "sub"],
     ami: ["nanom", "nanom"],

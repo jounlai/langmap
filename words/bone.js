@@ -1057,7 +1057,7 @@ WORDS.bone = {
     ojp: ["骨", "pone"],
     p_jpk: ["—", "—"],
     h_vedic: ["अस्थि", "astʰi"],
-    txg: ["𗥛", "rjɨr˨"],
+    txg: ["𗥛", "rjɨr˧"],
     sog: ["ʾstk", "əstak"],
     otk: ["𐰾𐰇𐰭𐰜", "syŋyk"],
     ami: ["ʼokak", "ʔokak"],

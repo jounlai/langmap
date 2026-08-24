@@ -36,9 +36,18 @@
  * object enumeration and would have been a permanent special case, and the
  * hash parser reads the word id with [a-z_]+.
  *
- * WANTED: Yoruba, whose numerals are subtractive throughout and which would be
- * the best `sub` example on the map — no reachable source for the 99 form yet.
- * Also Nahuatl and Yucatec Maya for `vig`, and Ainu.
+ * YORUBA is the one entry not taken whole from a source, and it is marked
+ * `inferred` in wordEvidence so the map says so. Wikipedia's "Yoruba numerals"
+ * states the rule outright — "units in 5–9 are created by subtracting from the
+ * next decade" — and its table gives both the base, 100 = ọgọ́rùn-ún (20×5), and
+ * an exact morphological template one decade down, 19 = ọ̀kàndínlógún (20−1).
+ * Applying that productive rule to that base yields ọ̀kàndínlọ́gọ́rùn-ún. Worth
+ * having because Yoruba subtracts throughout — even its 90 is 20×5−10 — and it
+ * is the clearest `sub` case on the map. Replace with a directly attested form
+ * if one turns up.
+ *
+ * STILL WANTED: Nahuatl and Yucatec Maya for `vig`, and Ainu. Wiktionary has no
+ * 90/99 entries for any of them, so those need real reference grammars.
  */
 WORDS.n99 = {
   partial: true,
@@ -83,6 +92,9 @@ WORDS.n99 = {
     fr: "vig", eu: "vig", ka: "vig", br: "vig",
     da: "half",
     la: "sub", ne: "sub",
+    sq: "dec", el: "dec", hy: "dec", mn: "dec", th: "dec", fa: "dec",
+    he: "dec", lt: "dec", uk: "dec", cs: "dec", ro: "dec", bg: "dec", kk: "dec",
+    yo: "sub",
     hi: "opaque", bn: "opaque"
   },
   routes: {
@@ -184,6 +196,20 @@ WORDS.n99 = {
     tr:    ["doksan dokuz", "dokˈsan doˈkuz"],
     hu:    ["kilencvenkilenc", "ˈkilɛntsvɛnˌkilɛnts"],
     fi:    ["yhdeksänkymmentäyhdeksän", "ˈyhdeksænˌkymmentæˌyhdeksæn"],
-    la:    ["undecentum", "undeˈkentum"]
+    la:    ["undecentum", "undeˈkentum"],
+    yo:    ["ọ̀kàndínlọ́gọ́rùn-ún", "ɔ̀kãdĩ́lɔ́gɔ́ɾṹṹ"],
+    sq:    ["nëntëdhjetë e nëntë", "nəntəˈðjetə e ˈnəntə"],
+    el:    ["ενενήντα εννέα", "eneˈninda eˈnea"],
+    hy:    ["իննսունինը", "innsuˈninə"],
+    mn:    ["ерэн ес", "jeren jes"],
+    th:    ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
+    fa:    ["نود و نه", "næˈvæd o noh"],
+    he:    ["תשעים ותשע", "tiʃˈʔim veˈteʃa"],
+    lt:    ["devyniasdešimt devyni", "dʲɪvʲiniɐzˈdʲæʃimt dʲɪˈvʲini"],
+    uk:    ["дев'яносто дев'ять", "dewjɐˈnɔstɔ ˈdɛwjɐtʲ"],
+    cs:    ["devadesát devět", "ˈdɛvadɛsaːt ˈdɛvjɛt"],
+    ro:    ["nouăzeci și nouă", "nowəˈzetʃʲ ʃi ˈnowə"],
+    bg:    ["деветдесет и девет", "devedeˈset i ˈdevet"],
+    kk:    ["тоқсан тоғыз", "toqˈsan toˈʁəz"]
   }
 };

@@ -774,7 +774,11 @@ const LANG_DATA = {
 },
   // === African ===
   yo: { name: 'Yoruba', native: 'Yorùbá', lat: 7.39, lng: 3.93, // Ibadan (Yoruba historical/cultural center)
-},
+    wordEvidence: {
+      n99: { evidence: 'inferred',
+             source: "Wikipedia, 'Yoruba numerals' — states the rule (\"units in 5-9 are created by subtracting from the next decade\") and tabulates both the base, 100 = ọgọ́rùn-ún (20x5), and the exact template one decade down, 19 = ọ̀kàndínlógún (20-1)",
+             note: "not attested whole anywhere reachable: this is the documented productive rule applied to the documented base, ọ̀kàn 'one' + dín 'subtract' + l- + ọ́gọ́rùn-ún '100'. Replace if a directly attested form turns up. Yoruba subtracts throughout — even its 90 is àádọ́rùn-ún, 20x5-10" }
+    } },
   zu: { name: 'Zulu', native: 'isiZulu', lat: -29.86, lng: 31.02, // Durban
 },
   am: { name: 'Amharic', native: 'አማርኛ', lat: 9.02, lng: 38.75, // Addis Ababa

@@ -3043,7 +3043,12 @@
             // code runs, so the right file is the one we block on.
             var initial = WORD_ORDER[0];
             try {
-                var m = /[#&]w=([a-z_]+)/.exec(window.location.hash || '');
+                // [a-z0-9_], not [a-z_]: word ids may carry digits (n99). With
+                // the narrower class this matched just "n" out of "n99", found no
+                // such word, and fell back to WORD_ORDER[0] — so the page loaded
+                // the wrong data file and #w=n99 opened blank on reload while
+                // switching words by hand worked fine.
+                var m = /[#&]w=([a-z0-9_]+)/.exec(window.location.hash || '');
                 if (m && WORD_ORDER.indexOf(m[1]) !== -1) initial = m[1];
             } catch (_) {}
             window.__wmInitialWord = initial;
@@ -6283,6 +6288,16 @@
             }
         }
         loadHash();
+        // The same guard applyHashState() uses for back/forward. loadHash() reads
+        // w= with URLSearchParams while the loader above reads it with a regex,
+        // and when those two disagreed the map drew a word whose data file had
+        // never been requested — a blank map that fixed itself the moment you
+        // picked any other word. Belt and braces: whatever loadHash() settled on,
+        // make sure its data is actually here.
+        if (!wordLoaded(currentWord)) {
+            const _w0 = currentWord;
+            ensureWords([_w0]).then(() => { if (currentWord === _w0) updateMarkers(_w0); });
+        }
         applyUILang(); // Apply detected/loaded UI language
         // Notify subscribers (lang-filter.js) of the resolved initial UI lang.
         // lang-filter.js loads before this inline script via <script src> in

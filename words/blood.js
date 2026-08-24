@@ -781,7 +781,7 @@ WORDS.blood = {
     zh_jh: ["血", "ɕyeʔ˥˥"],
     zh_tj: ["血", "ɕɥɛ˥˧"],
     zh_lz: ["血", "ɕyɛ˩˧"],
-    dng: ["щүә", "ɕyɤ˨˦"],
+    dng: ["ще", "ɕie˨˦"],
     hsb: ["kréj", "kreːj"],
     csb: ["krew", "krɛv"],
     rue: ["кров", "krou̯"],

@@ -616,7 +616,7 @@ WORDS.water = {
     akk: ["𒈬", "muː"],
     hit: ["𒉿𒀀𒋻", "waːtar"],
     nci: ["ātl", "aːtɬ"],
-    nhx: ["ahtli", "aʔtli"],
+    nhx: ["ahtli", "aʔtɬi"],
     nch: ["atl", "atɬ"],
     nhw: ["atl", "atɬ"],
     nhe: ["atl", "atɬ"],

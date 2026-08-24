@@ -609,7 +609,7 @@ WORDS.thanks = {
     akk: ["𒁲𒌅", "taʃlimtu"],
     hit: ["—", "—"],
     nci: ["tlazōhcāmati", "tɬasoːhkaːmati"],
-    nhx: ["tlazohcamati", "tlasoʔkamati"],
+    nhx: ["tlazohcamati", "tɬasoʔkamati"],
     nch: ["tlazohcamati", "tɬasoʔkamati"],
     nhw: ["tlazohcamati", "tɬasoʔkamati"],
     nhe: ["tlazohcamati", "tɬasoʔkamati"],

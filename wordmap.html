@@ -112,9 +112,11 @@
             src: url('fonts/HanaMinB-NomFill-subset.woff2') format('woff2');
             /* Chữ Nôm Ext-B glyphs Nom Na Tống lacks: 𢬣 tay (hand), 𢙭 tim
                (heart), 𢁋 trăng (moon). Replaced U+228D0/U+24657, which the
-               2026-07-17 Nôm rally retired as misreadings. Plus 𩩫 xương
-               (bone), added 2026-08-24. */
-            unicode-range: U+22B23, U+2266D, U+2204B, U+29A6B;
+               2026-07-17 Nôm rally retired as misreadings. Plus the 2026-08-24 batch: 𩩫 xương (bone), and the
+               ancient-fill Nôm 𪀄 chim, 𠨡 trứng, 𠄼 năm, 𪖫 mũi,
+               𥄬 ngủ, 𥒥 đá, 𤽸 trắng. */
+            unicode-range: U+22B23, U+2266D, U+2204B, U+29A6B,
+                U+2A004, U+20A21, U+2013C, U+2A5AB, U+2512C, U+254A5, U+24F78;
         }
         /* Rare-CJK glyphs common device fonts lack — Zhuang Sawndip (古壮字) in
            CJK Ext-B/E/F (𭓨 house, 𭝚 love, 𫱆 mother, owner 2026-07-15), plus
@@ -2993,7 +2995,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=278"></script>
-    <script src="word_manifest.js?v=197"></script>
+    <script src="word_manifest.js?v=198"></script>
     <script src="word_labels.js?v=34"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -3448,7 +3450,7 @@
             meta:     286,
             trivia:   31,
             triviaI18n: 6,
-            words:      197,
+            words:      198,
             labels:      34,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,

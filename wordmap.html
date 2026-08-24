@@ -5006,7 +5006,15 @@
                 html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
                 // Historical languages carry meta.period ("~700 BCE–600 CE"): show
                 // it as a second name line so the label reads name-over-period.
-                const per = (LANG_DATA[code] && LANG_DATA[code].meta && LANG_DATA[code].meta.period) || '';
+                // ONLY on the historical map. Four rows have a period AND living
+                // speakers — sa (25K), arc (500K), myz (5K) and sa_edu (24.8K) —
+                // because they are classical languages still in liturgical or
+                // revival use. On the modern map their period read as if they were
+                // dead, and "Modern Spoken Sanskrit / 20–21c" read as an outright
+                // error (owner report 2026-08-24).
+                const per = showHistorical
+                    ? ((LANG_DATA[code] && LANG_DATA[code].meta && LANG_DATA[code].meta.period) || '')
+                    : '';
                 if (per) html += `<div class="period" dir="auto">${escapeHtml(per)}</div>`;
             }
             html += '</div>';

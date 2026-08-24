@@ -656,7 +656,7 @@ WORDS.red = {
     maz: ["tsʼijnu", "tsʼihnu"],
     mix: ["kwaʼa", "kʷaʔa"],
     mxv: ["kwaʼa", "kʷaʔa"],
-    toc: ["snapapa", "snapapa"],
+    toc: ["tsutsokgo", "tsutsokɡo"],
     huv: ["nakants", "nakants"],
     ay: ["wila", "wila"],
     jqr: ["wila", "wila"],

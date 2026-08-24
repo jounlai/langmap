@@ -734,7 +734,7 @@ WORDS.sun = {
     jqr: ["inti", "inti"],
     cni: ["oorya", "oːɾja"],
     ame: ["mtsho", "mtso"],
-    gym: ["ngwen", "ŋʷen"],
+    gym: ["ñänä", "ɲæ̃næ̃"],
     yan: ["ma", "ma"],
     jiv: ["etsa", "etsa"],
     agr: ["etsá", "etsá"],

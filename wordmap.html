@@ -7458,8 +7458,14 @@
                         }
                         // Audit Task 129: wrap word in dir="auto" + bidi
                         // isolation so RTL forms (Arabic/Hebrew/Perso-Arabic)
-                        // don't reorder adjacent slashes/markers; IPA forced LTR.
-                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa">/${escapeHtml(entry[1])}/</span></td></tr>`;
+                        // don't reorder adjacent evidence markers; IPA forced LTR.
+                        // No / / around the IPA: the column is its own labelled
+                        // column under the Pronunciation header, so the brackets
+                        // carry no information, and meta.pronunciationType says
+                        // this column is not always phonemic — for a row marked
+                        // phonetic or romanization the slashes were simply wrong.
+                        // The compare table already renders it bare.
+                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa">${escapeHtml(entry[1])}</span></td></tr>`;
                     }
                 }
             }

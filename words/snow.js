@@ -721,6 +721,7 @@ WORDS.snow = {
     huz: ["əᴴз", "ə̃z"],
     khv: ["иса", "isa"],
     kjj: ["ккыза", "kːɨza"],
+    kqz: ["abas", "abas"],
     lij_t: ["neive", "nejve"],
     oar: ["𐡕𐡋𐡂", "talɡ"],
     rut: ["йиз", "jiz"],
@@ -762,6 +763,7 @@ WORDS.snow = {
     hif: ["baraf", "bəɾəf"],
     zgh: ["ⴰⴷⴼⴻⵍ", "adfəl"],
     aln: ["borë", "boːɾə"],
+    tsj: ["phom", "pʰom"],
     lep: ["ᰠᰦᰍᰩᰰ", "sanɔn"],
   },
 };

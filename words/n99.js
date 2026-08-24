@@ -52,11 +52,20 @@
 WORDS.n99 = {
   partial: true,
   emoji: "🔢",
+  // Spelled out, not "99": every other numeral on this map is the word in the
+  // UI language — one is 一 in Japanese, 하나 in Korean, एक in Hindi, واحد in
+  // Arabic — and a bare digit here broke that. Some of these are long (Indonesian
+  // 23 characters, French 21), which does widen the concept column in those UIs.
+  // That is the honest cost of naming the concept: unlike the "(@)" trimmed off
+  // the At-sign label, there is no redundancy here to cut.
   label: {
-    en: "99", ja: "99（九十九）", ko: "99", zh: "99（九十九）", yue: "99（九十九）",
-    vi: "99", th: "99", id: "99", hi: "99", de: "99", fr: "99", it: "99",
-    es: "99", es_eu: "99", es_mx: "99", pt: "99", pt_eu: "99", pt_br: "99",
-    ru: "99", uk: "99", ar: "٩٩", he: "99", sw: "99"
+    en: "Ninety-nine", ja: "九十九", ko: "아흔아홉", zh: "九十九", yue: "九十九",
+    vi: "Chín mươi chín", th: "เก้าสิบเก้า", id: "Sembilan puluh sembilan",
+    hi: "निन्यानवे", de: "Neunundneunzig", fr: "Quatre-vingt-dix-neuf",
+    it: "Novantanove", es: "Noventa y nueve", es_eu: "Noventa y nueve",
+    es_mx: "Noventa y nueve", pt: "Noventa e nove", pt_eu: "Noventa e nove",
+    pt_br: "Noventa e nove", ru: "Девяносто девять", uk: "Дев'яносто дев'ять",
+    ar: "تسعة وتسعون", he: "תשעים ותשע", sw: "Tisini na tisa"
   },
   definition: {
     en: "The number 99 — chosen because it is where numeral systems stop agreeing: base ten against base twenty, tens-first against units-first, Danish half-scores, subtraction from a hundred, and numerals too opaque to decompose at all.",

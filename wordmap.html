@@ -932,21 +932,23 @@
             font-size: calc(9px * var(--label-scale)); color: #888; line-height: 1.3;
         }
         /* Long-form concepts (99, and anything else whose forms average out long)
-           get wrapping labels instead of one very wide nowrap line. At 15px a
-           25-character numeral like "dziewięćdziesiąt dziewięć" is ~250px across,
-           and in a dense region — the Nordics, the Low Countries — those bars of
-           text overlap each other into an unreadable stack. Capping the width and
-           letting them wrap trades height for width, which the map has far more
-           of. The class is applied from the data, not per word id; see
+           get smaller labels, because at 15px a 25-character numeral like
+           "dziewięćdziesiąt dziewięć" is ~250px across and in a dense region —
+           the Nordics, the Low Countries — those bars of text overlap into an
+           unreadable stack.
+
+           Shrinking, NOT wrapping. Wrapping was tried and reverted: CSS breaks a
+           line at hyphens, so quatre-vingt-dix-neuf split as "quatre-vingt-dix-"
+           / "neuf", which reads as a word torn in half. `white-space: nowrap` on
+           .lang-label therefore stays in force here — these rules only change the
+           type size. The class is applied from the data, not per word id; see
            updateLongFormClass(). */
-        .long-forms .lang-label { white-space: normal; max-width: 8.5em; }
-        .long-forms .lang-label .word { font-size: calc(12px * var(--label-scale)); }
-        .long-forms .lang-label .ipa  { font-size: calc(9px  * var(--label-scale)); }
-        .long-forms.zoom-far .lang-label { max-width: 6.5em; }
-        .long-forms.zoom-far .lang-label .word { font-size: calc(9px  * var(--label-scale)); }
-        .long-forms.zoom-far .lang-label .ipa  { font-size: calc(7px  * var(--label-scale)); }
-        .long-forms.zoom-mid .lang-label .word { font-size: calc(11px * var(--label-scale)); }
-        .long-forms.zoom-mid .lang-label .ipa  { font-size: calc(8px  * var(--label-scale)); }
+        .long-forms .lang-label .word { font-size: calc(11px * var(--label-scale)); }
+        .long-forms .lang-label .ipa  { font-size: calc(8px  * var(--label-scale)); }
+        .long-forms.zoom-far .lang-label .word { font-size: calc(8px  * var(--label-scale)); }
+        .long-forms.zoom-far .lang-label .ipa  { font-size: calc(6px  * var(--label-scale)); }
+        .long-forms.zoom-mid .lang-label .word { font-size: calc(9.5px * var(--label-scale)); }
+        .long-forms.zoom-mid .lang-label .ipa  { font-size: calc(7px  * var(--label-scale)); }
         /* Second name line for historical languages: the period they were spoken
            (meta.period), e.g. "~700 BCE–600 CE". Dimmer + smaller than the name
            so the pair reads as one two-line label (owner 2026-07-19). */

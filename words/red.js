@@ -582,7 +582,7 @@ WORDS.red = {
     ko_mid: ["븕·다", "pɨlkta"],
     oko: ["—", "—"],
     h_goguryeo: ["—", "—"],
-    ko_gor: ["赤", "*cyek"],
+    ko_gor: ["—", "—"],
     ko_em: ["붉다", "pulkta"],
     vi_han: ["赤", "sik̚˧˥"],
     vi_nom: ["𧹥", "ɗɔ˧˩˧"],

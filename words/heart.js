@@ -649,7 +649,7 @@ WORDS.heart = {
     ko_mid: ["ᄆᆞᅀᆞᆷ", "mʌzʌm"],
     oko: ["心音", "*mʌsʌm"],
     h_goguryeo: ["—", "—"],
-    ko_gor: ["心", "*sim"],
+    ko_gor: ["—", "—"],
     ko_em: ["마음", "maɯm"],
     vi_han: ["心", "təm˧˧"],
     vi_nom: ["𢁑𢙭", "tɕaːj˧˥ tim˧"],

@@ -189,7 +189,7 @@ WORDS.red = {
     ja_hak: ["赤か", "akaka"],
     ja_kyo: ["赤い", "akai"],
     ja_hir: ["赤い", "akai"],
-    ja_mvi: ["あかはン", "akahaɴ"],
+    ja_mvi: ["あかはん", "akahaɴ"],
     ja_rys: ["あかさーん", "akasaːɴ"],
     ko: ["빨갛다", "p͈alɡatʰa"],
     ko_kp: ["빨갛다", "p͈alɡatʰa"],

@@ -21,6 +21,7 @@ const WORD_ORDER = [
     "father",
     "i",
     "you",
+    "we",
     "name",
     // body & feeling
     "eye",

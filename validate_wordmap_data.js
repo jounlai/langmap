@@ -221,8 +221,8 @@ const W = m => {
 const I = m => infos.push(m);
 
 // ---- 1. WORD_LIST has 20 entries ----------------------------------------
-if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 54) {
-    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 54)`);
+if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== 55) {
+    E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected 55)`);
 }
 const WORD_IDS = (ctx.WORD_LIST || []).map(w => w.id);
 // Partial words (WORDS.<id>.partial === true) are NOT required for every
@@ -862,10 +862,28 @@ for (const code of codes) {
             //   itself is not in the comparative table, and Kanite's Gorokan
             //   neighbours (Yagaria nevoda, Hua venu'za) disagree too much to
             //   project from. Left blank rather than reconstructed.
+            //   agq.we, mgo.we — Aghem and Meta' (Grassfields). The 1PL free
+            //   pronoun is in Hyman (1979) Aghem Grammatical Structure pp.47-50
+            //   (Grambank's own source for agq GB028=1) and in Spreda's
+            //   unpublished Meta' notes; neither is online. Every SIL-Cameroon
+            //   PDF for both languages was retrieved through the Wayback Machine
+            //   (aghem_troyer1995; meta_spreda1990/1991/1995/1996/2000;
+            //   moghamo_spreda1997) and all are phonology/orthography/literacy
+            //   documents with no pronoun paradigm. Also checked: ASJP (params
+            //   1-2 only for both), IDS, Grambank, bantubvd, grollemundbantu,
+            //   Wiktionary, Glosbe.
+            //   koy.we — Koyukon. Needs Jette & Jones (2000) Koyukon Athabascan
+            //   Dictionary, print only; ASJP's 'hun' could not be corroborated
+            //   and the curriculum workbook yields only the possessive prefix.
+            //   yiz.we — Azhe. No ASJP, Grambank, WALS or LaPolla datum exists.
             const MODERN_UNSOURCED_ALLOW = {
                 ker: new Set(['red']),
                 kmu: new Set(['tongue']),
                 nlc: new Set(['tongue']),
+                agq: new Set(['we']),
+                mgo: new Set(['we']),
+                koy: new Set(['we']),
+                yiz: new Set(['we']),
             };
             const isAllowedUnsourced = unattestedReason === 'unsourced' &&
                 MODERN_UNSOURCED_ALLOW[code]?.has(id);

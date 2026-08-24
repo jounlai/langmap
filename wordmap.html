@@ -120,7 +120,8 @@
            CJK Ext-B/E/F (𭓨 house, 𭝚 love, 𫱆 mother, owner 2026-07-15), plus
            the Chữ Nôm 𩻐 (U+29ED0, mắm) used by the historical sushi cell.
            Without this they render as tofu on mobile. Subset of BabelStone Han
-           (11 glyphs, ~4.5 KB), scoped by unicode-range so it only loads when
+           plus Taiwanese Hakka 𫣆 (U+2B8C6, ên — the inclusive "we").
+           (12 glyphs), scoped by unicode-range so it only loads when
            one of these forms appears. Shares the 'Nom Serif Subset' family so
            it rides the same four font chains (map label / .wm-form / info-panel
            / compare header) — the family is the site's catch-all for
@@ -134,7 +135,7 @@
             unicode-range:
                 U+20BB9, U+225E8, U+227CB, U+2283F, U+23C99,
                 U+2BC46, U+2D4E8, U+2D72F, U+2D75A, U+2DC3D,
-                U+29ED0;
+                U+29ED0, U+2B8C6;
         }
         /* Pallava-descended Brahmic scripts (owner 2026-07-17). The font chain
            below names "Noto Sans Javanese/Brahmi/Tagalog/…", but those are
@@ -2992,8 +2993,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=278"></script>
-    <script src="word_manifest.js?v=196"></script>
-    <script src="word_labels.js?v=33"></script>
+    <script src="word_manifest.js?v=197"></script>
+    <script src="word_labels.js?v=34"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
         // does `WORDS.<id> = {...}` and would ReferenceError otherwise.
@@ -3444,11 +3445,11 @@
             metaI18n:  16,
             filter:    45,
             names:   146,
-            meta:     285,
+            meta:     286,
             trivia:   31,
             triviaI18n: 6,
-            words:      196,
-            labels:      33,
+            words:      197,
+            labels:      34,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
             metaI18nCoverage3: 3,

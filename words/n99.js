@@ -6,6 +6,14 @@
  * independent typological axes, which is why it beats 70, 80 or 17:
  *
  *   base          decimal 9×10+9 vs vigesimal 4×20+19
+ *   transparency  within decimal, whether the decade is still 9×10 — Japanese
+ *                 九十, Vietnamese chín mươi, Welsh naw deg, Icelandic níutíu all
+ *                 show the ordinary word for TEN — or has fossilised into a word
+ *                 of its own: English ninety, Turkish doksan, Russian девяносто,
+ *                 Korean 아흔, Tamil தொண்ணூறு. The test used here is whether the
+ *                 language's free word for ten is visible in the decade; Swedish
+ *                 nittio and Hungarian kilencven fail it (fused suffix), Czech
+ *                 devadesát and Bulgarian деветдесет pass it
  *   order         French 4×20+10+9, Basque 4×20+19, Breton 19+4×20,
  *                 German/Dutch/Arabic unit-before-ten (9-and-90)
  *   half-score    Danish halvfems is "half-fifth score", 4½×20 — a pattern
@@ -72,55 +80,77 @@ WORDS.n99 = {
     he: "99", sw: "99"
   },
   definition: {
-    en: "The number 99 — chosen because it is where numeral systems stop agreeing: base ten against base twenty, tens-first against units-first, Danish half-scores, subtraction from a hundred, and numerals too opaque to decompose at all.",
-    ja: "数の99。数詞の体系が最も食い違う数だから選んだ——10進と20進、十の位が先か一の位が先か、デンマーク語の「半分の score」、100からの引き算、そして分解できないほど不透明な数詞。",
-    ko: "숫자 99. 수사 체계가 가장 크게 갈리는 수여서 골랐다 — 십진법과 이십진법, 십의 자리가 먼저인가 일의 자리가 먼저인가, 덴마크어의 반(半) 스코어, 100에서 빼기, 그리고 아예 분해되지 않는 수사.",
-    zh: "数字99。选它是因为这是各语言数词体系分歧最大的数——十进制与二十进制、十位在前还是个位在前、丹麦语的「半个二十」、从一百中减去，以及根本无法拆解的数词。",
-    yue: "數字99。揀佢係因為呢個數最能顯示數詞體系嘅分歧——十進制同二十進制、十位定個位喺前、丹麥語嘅「半個二十」、由一百減出嚟，同埋完全拆唔開嘅數詞。",
-    vi: "Số 99 — được chọn vì đây là nơi các hệ đếm khác nhau nhất: cơ số mười so với cơ số hai mươi, hàng chục trước hay hàng đơn vị trước, lối đếm nửa-score của tiếng Đan Mạch, phép trừ từ một trăm, và những số từ không thể phân tích.",
-    th: "เลข 99 — เลือกเพราะเป็นจุดที่ระบบเลขของภาษาต่าง ๆ ต่างกันมากที่สุด: ฐานสิบกับฐานยี่สิบ หลักสิบมาก่อนหรือหลักหน่วยมาก่อน ระบบครึ่งยี่สิบของเดนมาร์ก การลบจากหนึ่งร้อย และคำเลขที่แยกส่วนไม่ได้เลย",
-    id: "Angka 99 — dipilih karena di sinilah sistem bilangan paling berbeda: basis sepuluh melawan basis dua puluh, puluhan dulu atau satuan dulu, sistem setengah-kodi bahasa Denmark, pengurangan dari seratus, dan bilangan yang sama sekali tak terurai.",
-    hi: "संख्या 99 — इसे इसलिए चुना क्योंकि यहीं अंक-प्रणालियाँ सबसे अधिक भिन्न होती हैं: दशमलव बनाम बीस का आधार, दहाई पहले या इकाई पहले, डेनिश का आधा-बीस, सौ में से घटाना, और वे अंक जो बिल्कुल विश्लेषित नहीं होते।",
-    de: "Die Zahl 99 — gewählt, weil hier die Zahlsysteme am weitesten auseinandergehen: Zehnerbasis gegen Zwanzigerbasis, Zehner zuerst oder Einer zuerst, das dänische Halb-Schock, Subtraktion von hundert und Zahlwörter, die sich gar nicht zerlegen lassen.",
-    fr: "Le nombre 99 — choisi parce que c'est là que les systèmes de numération divergent le plus : base dix contre base vingt, dizaines d'abord ou unités d'abord, les demi-vingtaines danoises, la soustraction à partir de cent, et des numéraux impossibles à décomposer.",
-    it: "Il numero 99 — scelto perché è qui che i sistemi di numerazione divergono di più: base dieci contro base venti, decine prima o unità prima, le mezze ventine danesi, la sottrazione da cento e numerali del tutto indecomponibili.",
-    es: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer.",
-    es_eu: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer.",
-    es_mx: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer.",
-    pt: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor.",
-    pt_eu: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor.",
-    pt_br: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor.",
-    ru: "Число 99 — выбрано потому, что именно здесь системы счисления расходятся сильнее всего: десятичная против двадцатеричной, десятки впереди или единицы впереди, датские полудвадцатки, вычитание из ста и числительные, которые вообще не раскладываются.",
-    uk: "Число 99 — вибране тому, що саме тут системи числення розходяться найдужче: десяткова проти двадцяткової, десятки спереду чи одиниці спереду, данські піводвадцятки, віднімання від ста і числівники, які взагалі не розкладаються.",
-    ar: "العدد ٩٩ — اختير لأنه الموضع الذي تتباعد فيه أنظمة العدّ أكثر ما يكون: الأساس العشري في مقابل العشريني، العشرات أولًا أو الآحاد أولًا، أنصاف العشرينات الدنماركية، الطرح من المئة، وأعداد لا تقبل التحليل أصلًا.",
-    he: "המספר 99 — נבחר משום שכאן מערכות הספירה נבדלות זו מזו יותר מכל: בסיס עשר מול בסיס עשרים, עשרות תחילה או יחידות תחילה, חצאי־העשרים הדניים, חיסור ממאה, ומספרים שאינם ניתנים לפירוק כלל.",
-    sw: "Namba 99 — imechaguliwa kwa sababu hapa ndipo mifumo ya kuhesabu inatofautiana zaidi: msingi wa kumi dhidi ya msingi wa ishirini, makumi kwanza au mamoja kwanza, nusu-ishirini za Kidenmaki, kutoa kutoka mia, na namba zisizoweza kuchambuliwa kabisa."
+    en: "The number 99 — chosen because it is where numeral systems stop agreeing: base ten against base twenty, tens-first against units-first, Danish half-scores, subtraction from a hundred, and numerals too opaque to decompose at all. Within base ten it splits again, on whether the decade is still nine times ten or has fossilised into a word of its own.",
+    ja: "数の99。数詞の体系が最も食い違う数だから選んだ——10進と20進、十の位が先か一の位が先か、デンマーク語の「半分の score」、100からの引き算、そして分解できないほど不透明な数詞。10進の内部でもさらに分かれる——十位が「9×10」と透けて見えるか、独立した語に固まっているか。",
+    ko: "숫자 99. 수사 체계가 가장 크게 갈리는 수여서 골랐다 — 십진법과 이십진법, 십의 자리가 먼저인가 일의 자리가 먼저인가, 덴마크어의 반(半) 스코어, 100에서 빼기, 그리고 아예 분해되지 않는 수사. 십진법 안에서도 다시 갈린다 — 십의 자리가 여전히 9×10인지, 독립된 낱말로 굳었는지.",
+    zh: "数字99。选它是因为这是各语言数词体系分歧最大的数——十进制与二十进制、十位在前还是个位在前、丹麦语的「半个二十」、从一百中减去，以及根本无法拆解的数词。在十进制内部还会再分——十位究竟仍是9×10，还是已固化为独立的词。",
+    yue: "數字99。揀佢係因為呢個數最能顯示數詞體系嘅分歧——十進制同二十進制、十位定個位喺前、丹麥語嘅「半個二十」、由一百減出嚟，同埋完全拆唔開嘅數詞。喺十進制入面仲會再分——十位究竟仲係9×10，定係已經固化成獨立嘅詞。",
+    vi: "Số 99 — được chọn vì đây là nơi các hệ đếm khác nhau nhất: cơ số mười so với cơ số hai mươi, hàng chục trước hay hàng đơn vị trước, lối đếm nửa-score của tiếng Đan Mạch, phép trừ từ một trăm, và những số từ không thể phân tích. Trong hệ cơ số mười nó lại chia tiếp: hàng chục còn là 9×10 hay đã hoá thạch thành một từ riêng.",
+    th: "เลข 99 — เลือกเพราะเป็นจุดที่ระบบเลขของภาษาต่าง ๆ ต่างกันมากที่สุด: ฐานสิบกับฐานยี่สิบ หลักสิบมาก่อนหรือหลักหน่วยมาก่อน ระบบครึ่งยี่สิบของเดนมาร์ก การลบจากหนึ่งร้อย และคำเลขที่แยกส่วนไม่ได้เลย ภายในฐานสิบยังแยกอีกชั้น — หลักสิบยังเป็น 9×10 อยู่ หรือกลายเป็นคำเฉพาะไปแล้ว",
+    id: "Angka 99 — dipilih karena di sinilah sistem bilangan paling berbeda: basis sepuluh melawan basis dua puluh, puluhan dulu atau satuan dulu, sistem setengah-kodi bahasa Denmark, pengurangan dari seratus, dan bilangan yang sama sekali tak terurai. Di dalam basis sepuluh ia terbelah lagi: apakah puluhan masih 9×10 atau sudah membeku menjadi kata tersendiri.",
+    hi: "संख्या 99 — इसे इसलिए चुना क्योंकि यहीं अंक-प्रणालियाँ सबसे अधिक भिन्न होती हैं: दशमलव बनाम बीस का आधार, दहाई पहले या इकाई पहले, डेनिश का आधा-बीस, सौ में से घटाना, और वे अंक जो बिल्कुल विश्लेषित नहीं होते। दशमलव के भीतर यह फिर बँटता है — दहाई अब भी 9×10 है, या अपने ही एक शब्द में जम चुकी है।",
+    de: "Die Zahl 99 — gewählt, weil hier die Zahlsysteme am weitesten auseinandergehen: Zehnerbasis gegen Zwanzigerbasis, Zehner zuerst oder Einer zuerst, das dänische Halb-Schock, Subtraktion von hundert und Zahlwörter, die sich gar nicht zerlegen lassen. Innerhalb der Zehnerbasis teilt es sich noch einmal: ob der Zehner noch 9×10 ist oder zu einem eigenen Wort erstarrt ist.",
+    fr: "Le nombre 99 — choisi parce que c'est là que les systèmes de numération divergent le plus : base dix contre base vingt, dizaines d'abord ou unités d'abord, les demi-vingtaines danoises, la soustraction à partir de cent, et des numéraux impossibles à décomposer. À l'intérieur de la base dix, il se divise encore : la dizaine reste-t-elle 9×10, ou s'est-elle figée en un mot propre ?",
+    it: "Il numero 99 — scelto perché è qui che i sistemi di numerazione divergono di più: base dieci contro base venti, decine prima o unità prima, le mezze ventine danesi, la sottrazione da cento e numerali del tutto indecomponibili. Dentro la base dieci si divide ancora: se la decina è tuttora 9×10 o si è fossilizzata in una parola propria.",
+    es: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer. Dentro de la base diez vuelve a dividirse: si la decena sigue siendo 9×10 o se ha fosilizado en una palabra propia.",
+    es_eu: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer. Dentro de la base diez vuelve a dividirse: si la decena sigue siendo 9×10 o se ha fosilizado en una palabra propia.",
+    es_mx: "El número 99 — elegido porque es donde más divergen los sistemas de numeración: base diez frente a base veinte, decenas primero o unidades primero, las medias veintenas danesas, la resta a partir de cien y numerales imposibles de descomponer. Dentro de la base diez vuelve a dividirse: si la decena sigue siendo 9×10 o se ha fosilizado en una palabra propia.",
+    pt: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor. Dentro da base dez divide-se outra vez: se a dezena ainda é 9×10 ou se fossilizou numa palavra própria.",
+    pt_eu: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor. Dentro da base dez divide-se outra vez: se a dezena ainda é 9×10 ou se fossilizou numa palavra própria.",
+    pt_br: "O número 99 — escolhido porque é onde os sistemas de numeração mais divergem: base dez contra base vinte, dezenas primeiro ou unidades primeiro, as meias vintenas dinamarquesas, a subtração a partir de cem e numerais impossíveis de decompor. Dentro da base dez divide-se outra vez: se a dezena ainda é 9×10 ou se fossilizou numa palavra própria.",
+    ru: "Число 99 — выбрано потому, что именно здесь системы счисления расходятся сильнее всего: десятичная против двадцатеричной, десятки впереди или единицы впереди, датские полудвадцатки, вычитание из ста и числительные, которые вообще не раскладываются. Внутри десятичной системы деление идёт снова: остаётся ли десяток 9×10 или окаменел в отдельное слово.",
+    uk: "Число 99 — вибране тому, що саме тут системи числення розходяться найдужче: десяткова проти двадцяткової, десятки спереду чи одиниці спереду, данські піводвадцятки, віднімання від ста і числівники, які взагалі не розкладаються. Усередині десяткової системи поділ триває: чи лишається десяток 9×10, чи скам'янів в окреме слово.",
+    ar: "العدد ٩٩ — اختير لأنه الموضع الذي تتباعد فيه أنظمة العدّ أكثر ما يكون: الأساس العشري في مقابل العشريني، العشرات أولًا أو الآحاد أولًا، أنصاف العشرينات الدنماركية، الطرح من المئة، وأعداد لا تقبل التحليل أصلًا. وداخل الأساس العشري ينقسم مرة أخرى: هل ما زالت العشرات ٩×١٠ أم تحجّرت في كلمة مستقلة.",
+    he: "המספר 99 — נבחר משום שכאן מערכות הספירה נבדלות זו מזו יותר מכל: בסיס עשר מול בסיס עשרים, עשרות תחילה או יחידות תחילה, חצאי־העשרים הדניים, חיסור ממאה, ומספרים שאינם ניתנים לפירוק כלל. ובתוך הבסיס העשרוני הוא נחלק שוב: האם העשרות עדיין 9×10 או שהתאבנו למילה נפרדת.",
+    sw: "Namba 99 — imechaguliwa kwa sababu hapa ndipo mifumo ya kuhesabu inatofautiana zaidi: msingi wa kumi dhidi ya msingi wa ishirini, makumi kwanza au mamoja kwanza, nusu-ishirini za Kidenmaki, kutoa kutoka mia, na namba zisizoweza kuchambuliwa kabisa. Ndani ya msingi wa kumi hugawanyika tena: kama makumi bado ni 9×10 au yameganda kuwa neno lake."
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
-    en: "dec", es: "dec", it: "dec", sv: "dec", is: "dec", fr_be: "dec",
-    cy: "dec", ga: "dec", ko: "dec", sw: "dec", ja: "dec", zh: "dec",
-    vi: "dec", tl: "dec", ru: "dec", pl: "dec", tr: "dec", hu: "dec", fi: "dec",
+    // 90 + 9, where the decade is its own word — fossilised (ninety, noventa,
+    // ενενήντα), fused (doksan, nittio) or wholly suppletive (девяносто, 아흔,
+    // ерэн, தொண்ணூறு). Hebrew תשעים belongs here too, though by a third route
+    // again: Semitic decades are the PLURAL of the unit, "nines".
+    en: "dec", es: "dec", it: "dec", sv: "dec", fr_be: "dec", ga: "dec",
+    ko: "dec", sw: "dec", ru: "dec", uk: "dec", tr: "dec", kk: "dec",
+    hu: "dec", el: "dec", hy: "dec", mn: "dec", fa: "dec", he: "dec", ta: "dec",
+    // 9 × 10 + 9, with the language's ordinary word for TEN still visible in
+    // the decade: 九(9)十(10)九, chín mươi chín, เก้าสิบเก้า, naw deg naw,
+    // sembilan puluh sembilan, yhdeksän-kymmentä, níu-tíu, nëntë-dhjetë.
+    ja: "mult", zh: "mult", vi: "mult", th: "mult", ms: "mult", id: "mult",
+    fi: "mult", cy: "mult", tl: "mult", is: "mult", lt: "mult", cs: "mult",
+    pl: "mult", bg: "mult", sq: "mult", ro: "mult",
     de: "unit", nl: "unit", ar: "unit",
     fr: "vig", eu: "vig", ka: "vig", br: "vig",
     da: "half",
-    la: "sub", ne: "sub",
-    sq: "dec", el: "dec", hy: "dec", mn: "dec", th: "dec", fa: "dec",
-    he: "dec", lt: "dec", uk: "dec", cs: "dec", ro: "dec", bg: "dec", kk: "dec",
-    ms: "dec", id: "dec", ta: "dec",
+    la: "sub", ne: "sub", yo: "sub",
     km: "quin", wo: "quin",
-    yo: "sub",
     hi: "opaque", bn: "opaque", ur: "opaque"
   },
   routes: {
     dec: {
       color: "#0e7490", emoji: "🔟",
-      en: "decimal · 90 + 9", ja: "10進 · 90＋9", ko: "십진 · 90 + 9", zh: "十进 · 90＋9",
-      yue: "十進 · 90＋9", vi: "thập phân · 90 + 9", th: "ฐานสิบ · 90 + 9",
-      id: "desimal · 90 + 9", hi: "दशमलव · 90 + 9", de: "dezimal · 90 + 9",
-      fr: "décimal · 90 + 9", it: "decimale · 90 + 9", es: "decimal · 90 + 9",
-      pt: "decimal · 90 + 9", ru: "десятичная · 90 + 9", uk: "десяткова · 90 + 9",
-      ar: "عشري · ٩٠ + ٩", he: "עשרוני · 90 + 9", sw: "desimali · 90 + 9"
+      en: "decade word · 90 + 9", ja: "十位が独立語 · 90＋9",
+      ko: "십의 자리가 독립어 · 90 + 9", zh: "十位为独立词 · 90＋9",
+      yue: "十位係獨立詞 · 90＋9", vi: "từ riêng cho hàng chục · 90 + 9",
+      th: "คำเฉพาะของหลักสิบ · 90 + 9", id: "kata puluhan tersendiri · 90 + 9",
+      hi: "दहाई का अलग शब्द · 90 + 9", de: "eigenes Zehnerwort · 90 + 9",
+      fr: "mot de dizaine propre · 90 + 9", it: "parola propria per la decina · 90 + 9",
+      es: "palabra propia de decena · 90 + 9", pt: "palavra própria da dezena · 90 + 9",
+      ru: "отдельное слово десятка · 90 + 9", uk: "окреме слово десятка · 90 + 9",
+      ar: "كلمة مستقلة للعشرات · ٩٠ + ٩", he: "מילה נפרדת לעשרות · 90 + 9",
+      sw: "neno lake la makumi · 90 + 9"
+    },
+    mult: {
+      color: "#2563eb", emoji: "✖️",
+      en: "transparent · 9×10 + 9", ja: "透明な10進 · 9×10＋9",
+      ko: "투명한 십진 · 9×10 + 9", zh: "透明十进 · 9×10＋9",
+      yue: "透明十進 · 9×10＋9", vi: "minh bạch · 9×10 + 9",
+      th: "โปร่งใส · 9×10 + 9", id: "transparan · 9×10 + 9",
+      hi: "पारदर्शी · 9×10 + 9", de: "transparent · 9×10 + 9",
+      fr: "transparent · 9×10 + 9", it: "trasparente · 9×10 + 9",
+      es: "transparente · 9×10 + 9", pt: "transparente · 9×10 + 9",
+      ru: "прозрачная · 9×10 + 9", uk: "прозора · 9×10 + 9",
+      ar: "شفاف · ٩×١٠ + ٩", he: "שקוף · 9×10 + 9", sw: "wazi · 9×10 + 9"
     },
     unit: {
       color: "#7c3aed", emoji: "🔄",

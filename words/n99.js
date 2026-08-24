@@ -52,22 +52,24 @@
 WORDS.n99 = {
   partial: true,
   emoji: "🔢",
-  // The one label on this map that is NOT translated. Every other concept is
-  // named in the reader's own language, but this concept IS a number, and the
-  // digits carry it everywhere — while the spelled-out forms ranged from three
-  // characters (九十九) to twenty-three (Sembilan puluh sembilan), so the same
-  // row was a different width in every UI. One string in all 23 keeps the
-  // selector and the modal's concept column a fixed size, and the English name
-  // rides along so the concept still reads as a word and not just a figure.
+  // The selector builds its own "local / English" pair (rebuildWordSelect:
+  // localWord + ' / ' + label.en), so the label must NOT already contain both —
+  // putting "99 / Ninety-nine" in every key rendered as
+  // "99 / Ninety-nine / 99 / Ninety-nine" in the Japanese UI.
+  //
+  // So: the digits are the local name in all 22 non-English UIs, and English
+  // carries the word. Every non-English selector row then reads exactly
+  // "99 / Ninety-nine", and the English one reads "Ninety-nine", beside "一 / One"
+  // and "One". This is the one label that is not translated — the concept IS a
+  // number and the digits carry it in every writing system — and it keeps the
+  // modal's concept column at two characters instead of the twenty-three that
+  // "Sembilan puluh sembilan" needed.
   label: {
-    en: "99 / Ninety-nine", ja: "99 / Ninety-nine", ko: "99 / Ninety-nine",
-    zh: "99 / Ninety-nine", yue: "99 / Ninety-nine", vi: "99 / Ninety-nine",
-    th: "99 / Ninety-nine", id: "99 / Ninety-nine", hi: "99 / Ninety-nine",
-    de: "99 / Ninety-nine", fr: "99 / Ninety-nine", it: "99 / Ninety-nine",
-    es: "99 / Ninety-nine", es_eu: "99 / Ninety-nine", es_mx: "99 / Ninety-nine",
-    pt: "99 / Ninety-nine", pt_eu: "99 / Ninety-nine", pt_br: "99 / Ninety-nine",
-    ru: "99 / Ninety-nine", uk: "99 / Ninety-nine", ar: "99 / Ninety-nine",
-    he: "99 / Ninety-nine", sw: "99 / Ninety-nine"
+    en: "Ninety-nine",
+    ja: "99", ko: "99", zh: "99", yue: "99", vi: "99", th: "99", id: "99",
+    hi: "99", de: "99", fr: "99", it: "99", es: "99", es_eu: "99", es_mx: "99",
+    pt: "99", pt_eu: "99", pt_br: "99", ru: "99", uk: "99", ar: "99",
+    he: "99", sw: "99"
   },
   definition: {
     en: "The number 99 — chosen because it is where numeral systems stop agreeing: base ten against base twenty, tens-first against units-first, Danish half-scores, subtraction from a hundred, and numerals too opaque to decompose at all.",

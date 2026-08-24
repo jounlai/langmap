@@ -79,6 +79,28 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 3. **Mature words with modern-coverage gaps** (small, tractable): heart −24, house −14, good/drink −17, hand −10 vs the ~1009 ceiling; love/cat/hello/thanks −~50 (some of that is the new Tier-1 langs, which legitimately lack those concepts).
 4. **Per-UI splits for the other pages' `lang_names.js`** (index/tree/hanmap/namemap still load the whole 656 KB) and **namemap_content_i18n per-UI** — low priority now that gzip is on; full runbook in `docs/perf-optimization-handoff.md` §4–5.
 
+## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
+
+Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —
+that is the one that used to be the whole 695 KB corpus, fixed. The other,
+`meta_desc/<code>.js`, is ~10.5 KB gzipped, and **more than nine tenths of it is text the
+reader cannot read**: the file carries that language's description in all 23 UI languages
+(ja ko zh yue vi th id hi de fr it es pt ru uk ar he sw en es_eu es_mx pt_eu pt_br) and the
+reader uses one, plus the English fallback. `meta_desc/` is 20 MB in total for this reason.
+
+It is the same shape of bug as the one the language modal had, one layer down, and it is
+NOT covered by `meta_i18n/<ui>.js` — those hold term translations (family names, regions),
+not descriptions.
+
+The fix is a split to `meta_desc/<ui>/<code>.js`: gzipped 10.5 KB → about 1.6 KB, being the
+English fallback plus the reader's own UI. The reason it has not been done is the file count
+— 23 × 1164 = 26,772 files. Bundling per UI instead (`meta_desc_i18n/<ui>.js`, the shape
+`lang_names/` uses) is not an option here: at ~870 KB per UI it would be far worse than the
+10.5 KB it replaces, because this data is fetched lazily on modal open, not once per session.
+
+Deferred by the owner on 2026-08-24 as a small win next to the 695 KB one, not as a
+non-issue. Anyone picking it up should also check whether all 23 UIs are still live.
+
 ## Filling a word from the comparative datasets (doculect alignment)
 
 Hand-researching a cell at a time does not scale to a 400–600 row gap, and it burns the

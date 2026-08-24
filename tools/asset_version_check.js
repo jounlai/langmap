@@ -41,6 +41,10 @@ const BUMP = argv.includes('--bump');
 // `dir` entries hash every .js in that directory (sorted, so order is stable).
 const ASSETS = {
   words:            { files: ['word_manifest.js'], dirs: ['words'] },
+  // lang_words/ is the per-language transpose of words/, so it changes whenever
+  // words/ does — but it needs its own number, because the modal loads it by a
+  // different URL and would otherwise serve a stale row behind a fresh corpus.
+  langWords:        { dirs: ['lang_words'] },
   labels:           { files: ['word_labels.js'] },
   data:             { files: ['wordmap_data.js'] },
   filter:           { files: ['lang-filter.js'] },

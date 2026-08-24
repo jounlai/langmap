@@ -177,6 +177,13 @@ line('LANG_CODES.md freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_names.js --check');
 line('lang_names/ freshness', num(s, /stale: (\d+)/));
 
+// lang_words/<code>.js is the per-language transpose of words/*.js, and it is
+// what the language modal reads instead of downloading the whole corpus. Edit a
+// cell without rebuilding and the map shows the new value while the modal shows
+// the old one, with nothing else to give it away.
+s = run('build_lang_words.js --check');
+line('lang_words/ freshness', num(s, /stale: (\d+)/));
+
 // The full validator. Its warnings are advisory; its ERRORS block the commit.
 // This is what catches a bumped WM_ASSET_VERSION whose <script src=?v=N> was
 // left behind — a stale-cache bug that CI, not the pre-commit hook, used to

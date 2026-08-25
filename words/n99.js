@@ -208,6 +208,11 @@ WORDS.n99 = {
     km: "quin", wo: "quin",
     nci: "vig15",
     sux: "sexa",
+    // Old French is the surprise: nonante, not quatre-vingt-dix. The vigesimal
+    // form that modern France uses is the innovation, and Belgian French kept
+    // the older count. Old Turkic is the other one — toquz on, nine tens, still
+    // separable, before it fused into doksan / туксан / токсон everywhere.
+    fro: "dec", otk: "mult", qwc: "mult",
     // Turkic is uniform — Tatar туксан, Bashkir туҡһан, Kyrgyz токсон, Turkmen
     // togsan, Azerbaijani doxsan and Uyghur توقسان all descend from *tokuz+on
     // fused past recognition. Chuvash alone rebuilt it: тӑхӑр + вуннӑ, nine and
@@ -487,6 +492,9 @@ WORDS.n99 = {
     non:      ["níu ok níu tigir", "niːu ɔk niːu ˈtiɣir"],
     cu:       ["девѧть десѧтъ и девѧть", "devɛ̃tĭ desɛ̃tŭ i devɛ̃tĭ"],
     sux:      ["𒐕𒌍𒑆", "ŋeʃ uʃu ilimːu"],
+    fro:      ["nonante nuef", "noˈnantə ˈnu̯ɛf"],
+    otk:      ["𐱃𐰸𐰆𐰕 𐰆𐰣 𐱃𐰸𐰆𐰕", "toquz on toquz"],
+    qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

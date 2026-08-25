@@ -49,6 +49,13 @@
  *                 'eight' is "leave two", on top of isithupha 'six', literally
  *                 'thumb'. Different from Latin/Odia, where it is the hundred
  *                 that is subtracted from
+ *                 Japanese contributes the most literary instance. Heian
+ *                 つくも is a word that means 99 and nothing else, usually
+ *                 derived from 次百 tsugu-momo 'next to a hundred' — it names
+ *                 the number by pointing at the one above it. 伊勢物語 63 has
+ *                 つくも髪, hair "one year short of a hundred years". The
+ *                 counting numeral was ここのそあまりここのつ, 90-and-9, which
+ *                 is what the Old Japanese row carries
  *   plural        Hebrew תשעים and Arabic تسعون are the PLURAL of nine — the
  *                 same -īm / -ūn that pluralises any Semitic noun. A decade
  *                 that is literally "nines"
@@ -150,6 +157,10 @@ WORDS.n99 = {
     // ενενήντα), fused (doksan, nittio) or wholly suppletive (девяносто, 아흔,
     // ерэн, தொண்ணூறு). Hebrew תשעים belongs here too, though by a third route
     // again: Semitic decades are the PLURAL of the unit, "nines".
+    // Old Japanese ここのそ is ここの 'nine' plus the decade suffix -そ (みそ 30,
+    // やそ 80) — not とを, the free word for ten — so it belongs with kilencven
+    // and ninety rather than with 九十九.
+    ojp: "dec", ja_heian: "sub",
     en: "dec", es: "dec", it: "dec", fr_be: "dec", ga: "dec",
     ko: "dec", sw: "dec", ru: "dec", uk: "dec", tr: "dec", kk: "dec",
     hu: "dec", el: "dec", hy: "dec", mn: "dec", fa: "dec", ta: "dec",
@@ -438,6 +449,8 @@ WORDS.n99 = {
     so:     ["sagaashan iyo sagaal", "saɡaːˈʃan ijo saˈɡaːl"],
     haw:    ["kanaiwakumamāiwa", "kanaiwakumamaːˈiwa"],
     zu:     ["amashumi ayisishiyagalolunye nesishiyagalolunye", "amaʃumi ajisiʃijaɡaloˈluɲe nesiʃijaɡaloˈluɲe"],
+    ojp:      ["ここのそあまりここのつ", "kəkənəsə amari kəkənətu"],
+    ja_heian: ["つくも", "tukumo"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

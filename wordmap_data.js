@@ -1926,6 +1926,11 @@ const LANG_DATA = {
   // historical western palace area so ja_heian / ja_kyo / ja_chu no longer
   // cluster on a single coordinate. Heian-jingū / former 平安宮 site.
   ja_heian: { name: 'Japanese (Heian)', native: '平安京言葉', lat: 35.05, lng: 135.74,
+    wordEvidence: {
+      n99: { evidence: 'direct',
+             source: "ja.wiktionary 九十九 lists つくも as its 和語 reading and glosses the number as 「百より一少ない数。99」, 'the number one less than a hundred'; つくもがみ is glossed 「老女のしらが」, an old woman's white hair. Locus classicus: 伊勢物語 63段, 「百年に一年たらぬつくも髪」 — hair one year short of a hundred years",
+             note: "NOT the counting numeral. Heian Japanese counted 99 the way Old Japanese did, ここのそあまりここのつ (see the ojp row). つくも is a lexicalised word for the quantity, and it is here because of what it says about the number rather than how anyone counted to it: the usual etymology is 次百 tsugu-momo, 'next to a hundred', so the word names 99 by pointing at 100 — the same move as undecentum and ଅନେଶୋତ, in a language whose numerals are otherwise strictly additive" }
+    },
 },
   // Middle Japanese (中世日本語) — Kamakura-Muromachi (1185-1603).
   // Best attested via Heike Monogatari (~1240), Tsurezuregusa (1330),

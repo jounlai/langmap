@@ -30,7 +30,11 @@
  *   half-score    Danish halvfems is "half-fifth score", 4½×20 — a pattern
  *                 that only surfaces above 50 and so is invisible at 17 or 20
  *   subtraction   Latin undecentum and Nepali उनान्सय are both "one from a
- *                 hundred" — sharpest right below the round number
+ *                 hundred" — sharpest right below the round number. Odia is the
+ *                 cleanest demonstration: 98 is ଅଠାନବେ, formed like every other
+ *                 number in the nineties, and then 99 switches to ଅନେଶୋତ,
+ *                 ane- + śota, "one less than a hundred". The subtraction is
+ *                 not a system, it is a single hole right under the round number
  *   opacity       Hindi निन्यानवे, Urdu ننانوے and Bengali নিরানব্বই cannot be
  *                 decomposed at all; Indo-Aryan memorises all hundred separately
  *   quinary       Khmer ប្រាំបួន 'nine' is literally ប្រាំ 'five' + បួន 'four', so
@@ -162,7 +166,7 @@ WORDS.n99 = {
     he: "plural", ar: "plural",
     fr: "vig", eu: "vig", ka: "vig", br: "vig",
     da: "half",
-    la: "sub", ne: "sub", yo: "sub",
+    la: "sub", ne: "sub", yo: "sub", or: "sub",
     km: "quin", wo: "quin",
     hi: "opaque", bn: "opaque", ur: "opaque"
   },
@@ -334,6 +338,7 @@ WORDS.n99 = {
     su:    ["salapan puluh salapan", "salapan puluh salapan"],
     min:   ["sambilan puluah sambilan", "sambilan puluah sambilan"],
     my:    ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"],
+    or:    ["ଅନେଶୋତ", "ɔneʃotɔ"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

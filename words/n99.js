@@ -40,6 +40,16 @@
  *                 same -īm / -ūn that pluralises any Semitic noun. A decade
  *                 that is literally "nines"
  *
+ * SINITIC TONES ARE DERIVED, NOT LOOKED UP. The segments come from MCPDict's
+ * per-county 同音字彙, but the tones come from the row itself: 九 and 水 are the
+ * same Middle Chinese class (全清上), and 十 and 白 are likewise the same class
+ * (全濁入). Two characters in one class carry the same modern tone in any
+ * dialect — including Mandarin, where 入聲 is gone but 十 and 白 went to 陽平
+ * together — so each row's own 水 and 白 cells are a correct donor and nothing
+ * had to be guessed. Rows were dropped where that broke down: 合肥 and 南京 keep
+ * 入聲 while their 白 cell holds a literary 陽平 reading, 建甌's only 十 entry is
+ * a sandhi form (~一), and 成都 and 吉安 have no 九/十 in their table at all.
+ *
  * `family` assigns each row to one of those structures and `routes` colours the
  * map by it, so the typology is legible without reading a single form — the
  * same data-only mechanism `tea` and `orange` use for their trade routes.
@@ -139,7 +149,11 @@ WORDS.n99 = {
     ja: "mult", zh: "mult", vi: "mult", th: "mult", ms: "mult", id: "mult",
     fi: "mult", cy: "mult", tl: "mult", is: "mult", lt: "mult", cs: "mult",
     pl: "mult", bg: "mult", sq: "mult", ro: "mult",
-    jv: "mult", su: "mult", min: "mult",
+    jv: "mult", su: "mult", min: "mult", my: "mult",
+    // Sinitic: 九十九 everywhere, and every one of them transparent 9×10+9.
+    yue: "mult", yue_zs: "mult", yue_ts: "mult", yue_dg: "mult", yue_nn: "mult", nan_te: "mult",
+    nan_qz: "mult", nan_zz: "mult", nan_hai: "mult", cpx: "mult", hak_cn: "mult", wuu: "mult", wuu_wz: "mult", zh_cq: "mult",
+    zh_xa: "mult", zh_jn: "mult", zh_km: "mult", zh_wh: "mult", zh_kf: "mult", zh_tj: "mult", gan_yc: "mult", hsn_hy: "mult",
     de: "unit", nl: "unit",
     // Hebrew תשעים and Arabic تسعون are the PLURAL of nine — the -īm / -ūn that
     // makes any ordinary plural. Arabic is unit-first as well (تسعة وتسعون,
@@ -318,6 +332,29 @@ WORDS.n99 = {
     am:    ["ዘጠና ዘጠኝ", "zətʼəna zətʼəɲː"],
     jv:    ["sangang puluh sanga", "saŋaŋ puluh sɔŋɔ"],
     su:    ["salapan puluh salapan", "salapan puluh salapan"],
-    min:   ["sambilan puluah sambilan", "sambilan puluah sambilan"]
+    min:   ["sambilan puluah sambilan", "sambilan puluah sambilan"],
+    my:    ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"],
+    yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
+    yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
+    yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],
+    yue_dg: ["九十九", "kau˧˥ʃɔk˨kau˧˥"],
+    yue_nn: ["九十九", "kɐu˧˥ʃɐp˨kɐu˧˥"],
+    nan_te: ["九十九", "kau˥˧tsap˦kau˥˧"],
+    nan_qz: ["九十九", "kau˥˥tsap˦kau˥˥"],
+    nan_zz: ["九十九", "kau˥˧tsap˦kau˥˧"],
+    nan_hai: ["九十九", "kau˨˩˧tap˦kau˨˩˧"],
+    cpx:    ["九十九", "kau˦˩ɬɛʔ˥˥kau˦˩"],
+    hak_cn: ["九十九", "kiu˧˩səp˥kiu˧˩"],
+    wuu:    ["九十九", "tɕiɤ˧˥zəʔ˩˨tɕiɤ˧˥"],
+    wuu_wz: ["九十九", "tɕau˧˥zai˨˩˧tɕau˧˥"],
+    zh_cq:  ["九十九", "tɕiəu˦˨sɿ˧˥tɕiəu˦˨"],
+    zh_xa:  ["九十九", "tɕiɤu˥˧ʂʅ˧˥tɕiɤu˥˧"],
+    zh_jn:  ["九十九", "tɕiou˥˥ʂʅ˧˥tɕiou˥˥"],
+    zh_km:  ["九十九", "tɕiəu˥˧ʂʅ˧˥tɕiəu˥˧"],
+    zh_wh:  ["九十九", "tɕiou˦˨sɿ˧˥tɕiou˦˨"],
+    zh_kf:  ["九十九", "tɕiou˥˧ʂʅ˧˥tɕiou˥˧"],
+    zh_tj:  ["九十九", "tɕiou˨˩˧ʂʅ˧˥tɕiou˨˩˧"],
+    gan_yc: ["九十九", "tʃɪu˨˩˥ʃɪʔ˧˩tʃɪu˨˩˥"],
+    hsn_hy: ["九十九", "tɕiu˥˩ɕi˩˧tɕiu˥˩"]
   }
 };

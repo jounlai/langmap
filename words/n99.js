@@ -173,6 +173,12 @@ WORDS.n99 = {
     la: "sub", ne: "sub", yo: "sub", or: "sub",
     km: "quin", wo: "quin",
     nci: "vig15",
+    // Turkic is uniform — Tatar туксан, Bashkir туҡһан, Kyrgyz токсон, Turkmen
+    // togsan, Azerbaijani doxsan and Uyghur توقسان all descend from *tokuz+on
+    // fused past recognition. Chuvash alone rebuilt it: тӑхӑр + вуннӑ, nine and
+    // ten still visible, the same kind of split Slavic shows.
+    tt: "dec", ba: "dec", ky: "dec", tk: "dec", ug: "dec", az: "dec",
+    cv: "mult",
     // Filling out the thin categories: Maltese joins Hebrew and Arabic as a
     // Semitic plural decade (disgħin is the plural of disgħa), Afrikaans joins
     // German and Dutch in putting the unit first, and Esperanto — built to be
@@ -386,6 +392,13 @@ WORDS.n99 = {
     ca:     ["noranta-nou", "nuˈɾantə ˈnɔw"],
     gl:     ["noventa e nove", "noˈβɛnta e ˈnoβe"],
     oc:     ["nonanta-nòu", "nuˈnantɔ ˈnɔw"],
+    tt:     ["туксан тугыз", "tuksan tuˈɣɯz"],
+    ba:     ["туҡһан туғыҙ", "tuqhan tuˈɣɯð"],
+    ky:     ["токсон тогуз", "tokson toˈɡuz"],
+    tk:     ["togsan dokuz", "toʁˈsɑn doˈkuz"],
+    ug:     ["توقسان توققۇز", "toqsan toqˈquz"],
+    az:     ["doxsan doqquz", "doxˈsɑn doɡˈɡuz"],
+    cv:     ["тӑхӑрвуннӑ тӑхӑр", "təxərʋunːə ˈtəxər"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

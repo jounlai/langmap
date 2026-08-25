@@ -5162,7 +5162,18 @@
             const base = uiLang.split('_')[0];
             const name = (W.label && (W.label[uiLang] || W.label[base] || W.label.en)) || currentWord;
             const title = (W.emoji ? W.emoji + ' ' : '') + name;
-            const rows = Object.keys(W.routes).map(fam => {
+            // Only list categories that have a language in the CURRENT era. The
+            // 99 map has one vigesimal-on-fifteen language, Classical Nahuatl,
+            // and it is historical-only — so on the modern map that row pointed
+            // at nothing, and once legend rows became clickable it blinked
+            // nothing too. Latin is the other case, in `sub`. Era is the only
+            // filter applied here: the language-filter panel hides markers
+            // without meaning the category is absent.
+            const active = (window.__langmap && window.__langmap.getActiveCodes)
+                ? window.__langmap.getActiveCodes() : null;
+            const present = new Set();
+            if (active) { for (const c in W.family) if (active.has(c)) present.add(W.family[c]); }
+            const rows = Object.keys(W.routes).filter(fam => !active || present.has(fam)).map(fam => {
                 const r = W.routes[fam] || {};
                 const text = r[uiLang] || r[base] || r.en || fam;
                 // data-route makes the row clickable (see wireRouteLegendClicks);

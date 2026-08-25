@@ -1808,7 +1808,12 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'tru'/'tru'; Glottolog turo1239; Jastrow (1992) Lehrbuch der Ṭuroyo-Sprache.
   tru: { name: 'Turoyo', native: 'ܛܘܪܝܐ', lat: 37.45, lng: 41.50, // Midyat, Tur Abdin, Turkey (Mardin Province)
 },
-  sux: { name: 'Sumerian', native: '𒅴𒂠', lat: 30.96, lng: 46.1 },
+  sux: { name: 'Sumerian', native: '𒅴𒂠', lat: 30.96, lng: 46.1,
+    wordEvidence: {
+      n99: { evidence: 'inferred',
+             source: "Components from the Wikipedia Sumerian numerals table, which cites Jagersma 2010: 242-246, Sallaberger 2023 and Foxvog 2016: ilimmu 9 (explained there as ia2 'five' + limmu 'four'), ušu3 30, ĝeš2(d) 60. Composition from sumerian.neocities.org/nouns4, whose counting table runs 61-599 as the 60-sign plus the rest and states outright that 𒐕𒌋 is 70, not 600",
+             note: "the whole numeral is not attested in any scholarly source I could reach - Foxvog's grammar 404s and the Leiden copy of Jagersma serves a viewer page, not the PDF. So the three parts are solidly sourced and the stacking is not. Kept because Sumerian is the only base-60 row on the map, and it stacks three systems at once: ten is a subbase, the units are quinary, and nimin 40 and ninnu 50 are subtractive" }
+    } },
   akk: { name: 'Akkadian', native: '𒀝𒅗𒁺𒌝', lat: 33.34, lng: 44.4 },
   hit: { name: 'Hittite', native: '𒉈𒅆𒇷', lat: 40.02, lng: 34.61 },
   nci: { name: 'Classical Nahuatl', native: 'Nāhuatl', lat: 19.43, lng: -99.13,

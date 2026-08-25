@@ -37,6 +37,12 @@
  *                 not a system, it is a single hole right under the round number
  *   opacity       Hindi निन्यानवे, Urdu ننانوے and Bengali নিরানব্বই cannot be
  *                 decomposed at all; Indo-Aryan memorises all hundred separately
+ *   sixty         Sumerian is the only base-60 row: 𒐕𒌍𒑆, ĝeš 60 + ušu 30 +
+ *                 ilimmu 9. It stacks three systems — ten is a subbase, the
+ *                 units are quinary (ilimmu is iá 'five' + limmu 'four'), and
+ *                 two of its decades are subtractive (nimin 40 "less two tens",
+ *                 ninnu 50 "less ten"). Base 60 is the one that has no rival
+ *                 anywhere else on the map, so that is what colours it
  *   fifteen       Classical Nahuatl counts 4×20 + 15 + 4. It is vigesimal like
  *                 Basque and Breton, but the remainder is built on caxtōlli
  *                 'fifteen' rather than on ten, and its nine is chiucnāhui,
@@ -201,6 +207,7 @@ WORDS.n99 = {
     la: "sub", ne: "sub", yo: "sub", or: "sub",
     km: "quin", wo: "quin",
     nci: "vig15",
+    sux: "sexa",
     // Turkic is uniform — Tatar туксан, Bashkir туҡһан, Kyrgyz токсон, Turkmen
     // togsan, Azerbaijani doxsan and Uyghur توقسان all descend from *tokuz+on
     // fused past recognition. Chuvash alone rebuilt it: тӑхӑр + вуннӑ, nine and
@@ -294,6 +301,18 @@ WORDS.n99 = {
       pt: "meia vintena · 9 + 4½×20", ru: "полудвадцатка · 9 + 4½×20",
       uk: "піводвадцятка · 9 + 4½×20", ar: "نصف عشرينية · ٩ + ٤½×٢٠",
       he: "חצי־עשרים · 9 + 4½×20", sw: "nusu-ishirini · 9 + 4½×20"
+    },
+    sexa: {
+      color: "#0f766e", emoji: "𒐕",
+      en: "sexagesimal · 60 + 30 + 9", ja: "60進 · 60＋30＋9",
+      ko: "육십진 · 60 + 30 + 9", zh: "六十进 · 60＋30＋9", yue: "六十進 · 60＋30＋9",
+      vi: "lục thập phân · 60 + 30 + 9", th: "ฐานหกสิบ · 60 + 30 + 9",
+      id: "seksagesimal · 60 + 30 + 9", hi: "साठ-आधारित · 60 + 30 + 9",
+      de: "sexagesimal · 60 + 30 + 9", fr: "sexagésimal · 60 + 30 + 9",
+      it: "sessagesimale · 60 + 30 + 9", es: "sexagesimal · 60 + 30 + 9",
+      pt: "sexagesimal · 60 + 30 + 9", ru: "шестидесятеричная · 60 + 30 + 9",
+      uk: "шістдесяткова · 60 + 30 + 9", ar: "ستيني · ٦٠ + ٣٠ + ٩",
+      he: "שישימי · 60 + 30 + 9", sw: "sexagesimali · 60 + 30 + 9"
     },
     vig15: {
       color: "#7e22ce", emoji: "🌽",
@@ -467,6 +486,7 @@ WORDS.n99 = {
     syc:      ["ܬܫܥܝܢ ܘܬܫܥܐ", "teʃʕiːn wteʃʕaː"],
     non:      ["níu ok níu tigir", "niːu ɔk niːu ˈtiɣir"],
     cu:       ["девѧть десѧтъ и девѧть", "devɛ̃tĭ desɛ̃tŭ i devɛ̃tĭ"],
+    sux:      ["𒐕𒌍𒑆", "ŋeʃ uʃu ilimːu"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

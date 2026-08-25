@@ -150,7 +150,7 @@ WORDS.n99 = {
     // ενενήντα), fused (doksan, nittio) or wholly suppletive (девяносто, 아흔,
     // ерэн, தொண்ணூறு). Hebrew תשעים belongs here too, though by a third route
     // again: Semitic decades are the PLURAL of the unit, "nines".
-    en: "dec", es: "dec", it: "dec", sv: "dec", fr_be: "dec", ga: "dec",
+    en: "dec", es: "dec", it: "dec", fr_be: "dec", ga: "dec",
     ko: "dec", sw: "dec", ru: "dec", uk: "dec", tr: "dec", kk: "dec",
     hu: "dec", el: "dec", hy: "dec", mn: "dec", fa: "dec", ta: "dec",
     // Amharic ዘጠና is built off ዘጠኝ too, but with -a, not the plural suffix
@@ -159,6 +159,10 @@ WORDS.n99 = {
     // 9 × 10 + 9, with the language's ordinary word for TEN still visible in
     // the decade: 九(9)十(10)九, chín mươi chín, เก้าสิบเก้า, naw deg naw,
     // sembilan puluh sembilan, yhdeksän-kymmentä, níu-tíu, nëntë-dhjetë.
+    // Swedish belongs here, not with the decade words: nittio looks fused on its
+    // own, but the series gives it away — femtio is fem + tio, åttio is åtta +
+    // tio, and tio 'ten' is visible in every decade. Only the nine is reduced.
+    sv: "mult",
     ja: "mult", zh: "mult", vi: "mult", th: "mult", ms: "mult", id: "mult",
     fi: "mult", cy: "mult", tl: "mult", is: "mult", lt: "mult", cs: "mult",
     pl: "mult", bg: "mult", sq: "mult", ro: "mult",

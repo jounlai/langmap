@@ -14,6 +14,17 @@
  *                 language's free word for ten is visible in the decade; Swedish
  *                 nittio and Hungarian kilencven fail it (fused suffix), Czech
  *                 devadesát and Bulgarian деветдесет pass it
+ *
+ *                 Vietnamese is the one worth writing down, because the form
+ *                 looks like a typo and is not: 99 is chín mươi chín, never
+ *                 *chín mười chín. Wiktionary's usage note puts it exactly —
+ *                 "mười is a true numeral, while mươi is a noun", and "if
+ *                 preceded by [a numeral], use mươi". So mười is the standalone
+ *                 ten (mười một 11, mười hai 12) and mươi is the tens form
+ *                 (hai mươi 20, chín mươi 90, each with its own entry; chín mười
+ *                 has none). It is still counted transparent here — mươi is a
+ *                 combining form of the same root, like Malay puluh beside
+ *                 sepuluh, not a separate decade word like ninety or doksan.
  *   order         French 4×20+10+9, Basque 4×20+19, Breton 19+4×20,
  *                 German/Dutch/Arabic unit-before-ten (9-and-90)
  *   half-score    Danish halvfems is "half-fifth score", 4½×20 — a pattern

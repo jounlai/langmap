@@ -161,6 +161,14 @@ WORDS.n99 = {
     // やそ 80) — not とを, the free word for ten — so it belongs with kilencven
     // and ninety rather than with 九十九.
     ojp: "dec", ja_heian: "sub",
+    // Ancient languages. Old English and Sanskrit both put the unit first —
+    // nigon and hundnigontig, nava-navati — while Old Norse and Old Church
+    // Slavonic say 'nine tens' outright. Biblical Hebrew and Syriac pluralise
+    // the nine, as their modern descendants still do.
+    el_grc: "dec",
+    ang: "unit", sa: "unit", h_vedic: "unit",
+    hbo: "plural", syc: "plural",
+    non: "mult", cu: "mult",
     en: "dec", es: "dec", it: "dec", fr_be: "dec", ga: "dec",
     ko: "dec", sw: "dec", ru: "dec", uk: "dec", tr: "dec", kk: "dec",
     hu: "dec", el: "dec", hy: "dec", mn: "dec", fa: "dec", ta: "dec",
@@ -451,6 +459,14 @@ WORDS.n99 = {
     zu:     ["amashumi ayisishiyagalolunye nesishiyagalolunye", "amaʃumi ajisiʃijaɡaloˈluɲe nesiʃijaɡaloˈluɲe"],
     ojp:      ["ここのそあまりここのつ", "kəkənəsə amari kəkənətu"],
     ja_heian: ["つくも", "tukumo"],
+    el_grc:   ["ἐνενήκοντα ἐννέα", "eneˈnɛːkonta enˈnéa"],
+    ang:      ["nigon and hundnigontig", "ˈniɣon and hundˈniɣontiɣ"],
+    sa:       ["नवनवति", "nɐʋɐnɐʋɐti"],
+    h_vedic:  ["नवनवति", "nɐʋɐnɐʋɐtí"],
+    hbo:      ["תשעים ותשעה", "tiʃʕiːm vətiʃʕɔː"],
+    syc:      ["ܬܫܥܝܢ ܘܬܫܥܐ", "teʃʕiːn wteʃʕaː"],
+    non:      ["níu ok níu tigir", "niːu ɔk niːu ˈtiɣir"],
+    cu:       ["девѧть десѧтъ и девѧть", "devɛ̃tĭ desɛ̃tŭ i devɛ̃tĭ"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

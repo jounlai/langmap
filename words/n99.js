@@ -161,7 +161,7 @@ WORDS.n99 = {
     // Sinitic: 九十九 everywhere, and every one of them transparent 9×10+9.
     yue: "mult", yue_zs: "mult", yue_ts: "mult", yue_dg: "mult", yue_nn: "mult", nan_te: "mult",
     nan_qz: "mult", nan_zz: "mult", nan_hai: "mult", cpx: "mult", hak_cn: "mult", wuu: "mult", wuu_wz: "mult", zh_cq: "mult",
-    zh_xa: "mult", zh_jn: "mult", zh_km: "mult", zh_wh: "mult", zh_kf: "mult", zh_tj: "mult", gan_yc: "mult", hsn_hy: "mult",
+    zh_xa: "mult", zh_jn: "mult", zh_km: "mult", zh_wh: "mult", zh_kf: "mult", zh_tj: "mult", hsn_hy: "mult",
     de: "unit", nl: "unit",
     // Hebrew תשעים and Arabic تسعون are the PLURAL of nine — the -īm / -ūn that
     // makes any ordinary plural. Arabic is unit-first as well (تسعة وتسعون,
@@ -173,6 +173,14 @@ WORDS.n99 = {
     la: "sub", ne: "sub", yo: "sub", or: "sub",
     km: "quin", wo: "quin",
     nci: "vig15",
+    // Filling out the thin categories: Maltese joins Hebrew and Arabic as a
+    // Semitic plural decade (disgħin is the plural of disgħa), Afrikaans joins
+    // German and Dutch in putting the unit first, and Esperanto — built to be
+    // regular — is naŭ-dek-naŭ, nine-ten-nine.
+    mt: "plural",
+    af: "unit",
+    eo: "mult", sl: "mult", sk: "mult", hr: "mult", sr: "mult", bs: "mult", mk: "mult", lv: "mult",
+    be: "dec", ca: "dec", gl: "dec", oc: "dec",
     hi: "opaque", bn: "opaque", ur: "opaque"
   },
   routes: {
@@ -364,27 +372,40 @@ WORDS.n99 = {
     my:    ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"],
     or:    ["ଅନେଶୋତ", "ɔneʃotɔ"],
     nci:   ["nāppōhualli oncaxtōlli onnāhui", "naːpːoːˈwalːi onkaʃˈtoːlːi onˈnaːwi"],
+    mt:     ["disgħa u disgħin", "ˈdɪsa w dɪˈsɛjn"],
+    af:     ["nege-en-negentig", "ˈnɪəxə ən ˈnɪəxəntəx"],
+    eo:     ["naŭdek naŭ", "ˈnaudek ˈnau"],
+    sl:     ["devetdeset devet", "dɛʋɛtˈdɛsɛt ˈdɛʋɛt"],
+    sk:     ["deväťdesiat deväť", "ˈdɛvɛcdɛsɪat ˈdɛvɛc"],
+    hr:     ["devedeset devet", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
+    sr:     ["деведесет девет", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
+    bs:     ["devedeset devet", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
+    mk:     ["деведесет и девет", "dɛvɛˈdɛsɛt i ˈdɛvɛt"],
+    lv:     ["deviņdesmit deviņi", "ˈdeviɲdesmit ˈdeviɲi"],
+    be:     ["дзевяноста дзевяць", "dzʲevʲaˈnosta ˈdzʲevʲatsʲ"],
+    ca:     ["noranta-nou", "nuˈɾantə ˈnɔw"],
+    gl:     ["noventa e nove", "noˈβɛnta e ˈnoβe"],
+    oc:     ["nonanta-nòu", "nuˈnantɔ ˈnɔw"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],
-    yue_dg: ["九十九", "kau˧˥ʃɔk˨kau˧˥"],
-    yue_nn: ["九十九", "kɐu˧˥ʃɐp˨kɐu˧˥"],
+    yue_dg: ["九十九", "kau˧˥sɔk˨kau˧˥"],
+    yue_nn: ["九十九", "kɐu˧˥ɬɐp˨kɐu˧˥"],
     nan_te: ["九十九", "kau˥˧tsap˦kau˥˧"],
     nan_qz: ["九十九", "kau˥˥tsap˦kau˥˥"],
     nan_zz: ["九十九", "kau˥˧tsap˦kau˥˧"],
     nan_hai: ["九十九", "kau˨˩˧tap˦kau˨˩˧"],
     cpx:    ["九十九", "kau˦˩ɬɛʔ˥˥kau˦˩"],
-    hak_cn: ["九十九", "kiu˧˩səp˥kiu˧˩"],
+    hak_cn: ["九十九", "kiu˧˩sɨp˥kiu˧˩"],
     wuu:    ["九十九", "tɕiɤ˧˥zəʔ˩˨tɕiɤ˧˥"],
     wuu_wz: ["九十九", "tɕau˧˥zai˨˩˧tɕau˧˥"],
     zh_cq:  ["九十九", "tɕiəu˦˨sɿ˧˥tɕiəu˦˨"],
-    zh_xa:  ["九十九", "tɕiɤu˥˧ʂʅ˧˥tɕiɤu˥˧"],
+    zh_xa:  ["九十九", "tɕiɤu˥˧ʂɿ˧˥tɕiɤu˥˧"],
     zh_jn:  ["九十九", "tɕiou˥˥ʂʅ˧˥tɕiou˥˥"],
     zh_km:  ["九十九", "tɕiəu˥˧ʂʅ˧˥tɕiəu˥˧"],
     zh_wh:  ["九十九", "tɕiou˦˨sɿ˧˥tɕiou˦˨"],
     zh_kf:  ["九十九", "tɕiou˥˧ʂʅ˧˥tɕiou˥˧"],
     zh_tj:  ["九十九", "tɕiou˨˩˧ʂʅ˧˥tɕiou˨˩˧"],
-    gan_yc: ["九十九", "tʃɪu˨˩˥ʃɪʔ˧˩tʃɪu˨˩˥"],
     hsn_hy: ["九十九", "tɕiu˥˩ɕi˩˧tɕiu˥˩"]
   }
 };

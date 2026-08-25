@@ -31,8 +31,14 @@
  *                 that only surfaces above 50 and so is invisible at 17 or 20
  *   subtraction   Latin undecentum and Nepali उनान्सय are both "one from a
  *                 hundred" — sharpest right below the round number
- *   opacity       Hindi निन्यानवे and Bengali নিরানব্বই cannot be decomposed at
- *                 all; Indo-Aryan memorises all hundred numerals separately
+ *   opacity       Hindi निन्यानवे, Urdu ننانوے and Bengali নিরানব্বই cannot be
+ *                 decomposed at all; Indo-Aryan memorises all hundred separately
+ *   quinary       Khmer ប្រាំបួន 'nine' is literally ប្រាំ 'five' + បួន 'four', so
+ *                 99 carries a base-five sub-system inside a decimal one; Wolof
+ *                 juróom-ñeent is the same shape in West Africa
+ *   plural        Hebrew תשעים and Arabic تسعون are the PLURAL of nine — the
+ *                 same -īm / -ūn that pluralises any Semitic noun. A decade
+ *                 that is literally "nines"
  *
  * `family` assigns each row to one of those structures and `routes` colours the
  * map by it, so the typology is legible without reading a single form — the

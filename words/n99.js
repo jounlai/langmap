@@ -37,6 +37,10 @@
  *                 not a system, it is a single hole right under the round number
  *   opacity       Hindi निन्यानवे, Urdu ننانوے and Bengali নিরানব্বই cannot be
  *                 decomposed at all; Indo-Aryan memorises all hundred separately
+ *   fifteen       Classical Nahuatl counts 4×20 + 15 + 4. It is vigesimal like
+ *                 Basque and Breton, but the remainder is built on caxtōlli
+ *                 'fifteen' rather than on ten, and its nine is chiucnāhui,
+ *                 5+4 — three bases stacked in one numeral
  *   quinary       Khmer ប្រាំបួន 'nine' is literally ប្រាំ 'five' + បួន 'four', so
  *                 99 carries a base-five sub-system inside a decimal one; Wolof
  *                 juróom-ñeent is the same shape in West Africa
@@ -168,6 +172,7 @@ WORDS.n99 = {
     da: "half",
     la: "sub", ne: "sub", yo: "sub", or: "sub",
     km: "quin", wo: "quin",
+    nci: "vig15",
     hi: "opaque", bn: "opaque", ur: "opaque"
   },
   routes: {
@@ -244,6 +249,25 @@ WORDS.n99 = {
       pt: "meia vintena · 9 + 4½×20", ru: "полудвадцатка · 9 + 4½×20",
       uk: "піводвадцятка · 9 + 4½×20", ar: "نصف عشرينية · ٩ + ٤½×٢٠",
       he: "חצי־עשרים · 9 + 4½×20", sw: "nusu-ishirini · 9 + 4½×20"
+    },
+    vig15: {
+      color: "#7e22ce", emoji: "🌽",
+      en: "vigesimal on fifteen · 4×20 + 15 + 4", ja: "20進＋15の下位基数 · 4×20＋15＋4",
+      ko: "이십진 + 15 하위기수 · 4×20 + 15 + 4", zh: "二十进＋十五为次基数 · 4×20＋15＋4",
+      yue: "二十進＋十五為次基數 · 4×20＋15＋4",
+      vi: "nhị thập phân trên mười lăm · 4×20 + 15 + 4",
+      th: "ฐานยี่สิบบนสิบห้า · 4×20 + 15 + 4", id: "vigesimal atas lima belas · 4×20 + 15 + 4",
+      hi: "बीस-आधारित, पंद्रह उप-आधार · 4×20 + 15 + 4",
+      de: "vigesimal auf fünfzehn · 4×20 + 15 + 4",
+      fr: "vicésimal sur quinze · 4×20 + 15 + 4",
+      it: "vigesimale su quindici · 4×20 + 15 + 4",
+      es: "vigesimal sobre quince · 4×20 + 15 + 4",
+      pt: "vigesimal sobre quinze · 4×20 + 15 + 4",
+      ru: "двадцатеричная на пятнадцати · 4×20 + 15 + 4",
+      uk: "двадцяткова на п'ятнадцяти · 4×20 + 15 + 4",
+      ar: "عشريني على الخمسة عشر · ٤×٢٠ + ١٥ + ٤",
+      he: "עשריני על חמש־עשרה · 4×20 + 15 + 4",
+      sw: "vigesimali juu ya kumi na tano · 4×20 + 15 + 4"
     },
     quin: {
       color: "#0891b2", emoji: "🖐️",
@@ -339,6 +363,7 @@ WORDS.n99 = {
     min:   ["sambilan puluah sambilan", "sambilan puluah sambilan"],
     my:    ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"],
     or:    ["ଅନେଶୋତ", "ɔneʃotɔ"],
+    nci:   ["nāppōhualli oncaxtōlli onnāhui", "naːpːoːˈwalːi onkaʃˈtoːlːi onˈnaːwi"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

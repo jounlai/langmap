@@ -1807,6 +1807,11 @@ const LANG_DATA = {
   akk: { name: 'Akkadian', native: '𒀝𒅗𒁺𒌝', lat: 33.34, lng: 44.4 },
   hit: { name: 'Hittite', native: '𒉈𒅆𒇷', lat: 40.02, lng: 34.61 },
   nci: { name: 'Classical Nahuatl', native: 'Nāhuatl', lat: 19.43, lng: -99.13,
+    wordEvidence: {
+      n99: { evidence: 'inferred',
+             source: "Wiktionary Appendix:Classical Nahuatl numerals — the table gives 80 nāppōhualli, 95 nāppōhualli oncaxtōlli (80+15) and 19 caxtōlli onnāhui (15+4), but stops before 96-99",
+             note: "composed from those three rows: 99 = 80 + 15 + 4, nāppōhualli oncaxtōlli onnāhui, with the on- linker the table uses at both joins. Replace if a directly attested form turns up. Worth having because it is the only row on the map that counts on fifteen: caxtōlli is a sub-base, and nine is chiucnāhui, 5+4" }
+    },
 },
   // Isthmus-Cosoleacaque Nahuatl (also Mecayapan-Pajapan Nahuatl) — Uto-Aztecan Nahuan, ~25K, Mexico (Veracruz — Cosoleacaque, Pajapan, Mecayapan in the Isthmus of Tehuantepec).
   // Sources: Ethnologue 27 'nhx'; Glottolog isth1238; Wolgemuth (1981) Gramática Náhuatl de Mecayapan.

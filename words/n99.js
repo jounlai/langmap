@@ -123,14 +123,23 @@ WORDS.n99 = {
     // again: Semitic decades are the PLURAL of the unit, "nines".
     en: "dec", es: "dec", it: "dec", sv: "dec", fr_be: "dec", ga: "dec",
     ko: "dec", sw: "dec", ru: "dec", uk: "dec", tr: "dec", kk: "dec",
-    hu: "dec", el: "dec", hy: "dec", mn: "dec", fa: "dec", he: "dec", ta: "dec",
+    hu: "dec", el: "dec", hy: "dec", mn: "dec", fa: "dec", ta: "dec",
+    // Amharic ዘጠና is built off ዘጠኝ too, but with -a, not the plural suffix
+    // that puts Hebrew and Arabic in `plural` below.
+    am: "dec",
     // 9 × 10 + 9, with the language's ordinary word for TEN still visible in
     // the decade: 九(9)十(10)九, chín mươi chín, เก้าสิบเก้า, naw deg naw,
     // sembilan puluh sembilan, yhdeksän-kymmentä, níu-tíu, nëntë-dhjetë.
     ja: "mult", zh: "mult", vi: "mult", th: "mult", ms: "mult", id: "mult",
     fi: "mult", cy: "mult", tl: "mult", is: "mult", lt: "mult", cs: "mult",
     pl: "mult", bg: "mult", sq: "mult", ro: "mult",
-    de: "unit", nl: "unit", ar: "unit",
+    jv: "mult", su: "mult", min: "mult",
+    de: "unit", nl: "unit",
+    // Hebrew תשעים and Arabic تسعون are the PLURAL of nine — the -īm / -ūn that
+    // makes any ordinary plural. Arabic is unit-first as well (تسعة وتسعون,
+    // "nine and ninety", like German), but the plural decade is the rarer and
+    // more diagnostic of the two, so that is what colours it here.
+    he: "plural", ar: "plural",
     fr: "vig", eu: "vig", ka: "vig", br: "vig",
     da: "half",
     la: "sub", ne: "sub", yo: "sub",
@@ -162,6 +171,20 @@ WORDS.n99 = {
       es: "transparente · 9×10 + 9", pt: "transparente · 9×10 + 9",
       ru: "прозрачная · 9×10 + 9", uk: "прозора · 9×10 + 9",
       ar: "شفاف · ٩×١٠ + ٩", he: "שקוף · 9×10 + 9", sw: "wazi · 9×10 + 9"
+    },
+    plural: {
+      color: "#db2777", emoji: "➕",
+      en: "decade = plural of nine · 90 + 9", ja: "十位が「9」の複数形 · 90＋9",
+      ko: "십의 자리가 9의 복수형 · 90 + 9", zh: "十位是「九」的复数 · 90＋9",
+      yue: "十位係「九」嘅複數 · 90＋9", vi: "hàng chục là số nhiều của chín · 90 + 9",
+      th: "หลักสิบคือพหูพจน์ของเก้า · 90 + 9", id: "puluhan = jamak dari sembilan · 90 + 9",
+      hi: "दहाई = नौ का बहुवचन · 90 + 9", de: "Zehner = Plural von neun · 90 + 9",
+      fr: "dizaine = pluriel de neuf · 90 + 9", it: "decina = plurale di nove · 90 + 9",
+      es: "decena = plural de nueve · 90 + 9", pt: "dezena = plural de nove · 90 + 9",
+      ru: "десяток = множественное от девяти · 90 + 9",
+      uk: "десяток = множина від дев'яти · 90 + 9",
+      ar: "العشرات = جمع التسعة · ٩٠ + ٩", he: "עשרות = ריבוי של תשע · 90 + 9",
+      sw: "makumi = wingi wa tisa · 90 + 9"
     },
     unit: {
       color: "#7c3aed", emoji: "🔄",
@@ -285,6 +308,10 @@ WORDS.n99 = {
     id:    ["sembilan puluh sembilan", "səmbilan puluh səmbilan"],
     ta:    ["தொண்ணூற்று ஒன்பது", "toɳɳuːtru onbad̪u"],
     ur:    ["ننانوے", "nənaːnəʋeː"],
-    wo:    ["juróom-ñeenti fukk ak juróom-ñeent", "dʒuˈroːmɲeːnti fukː ak dʒuˈroːmɲeːnt"]
+    wo:    ["juróom-ñeenti fukk ak juróom-ñeent", "dʒuˈroːmɲeːnti fukː ak dʒuˈroːmɲeːnt"],
+    am:    ["ዘጠና ዘጠኝ", "zətʼəna zətʼəɲː"],
+    jv:    ["sangang puluh sanga", "saŋaŋ puluh sɔŋɔ"],
+    su:    ["salapan puluh salapan", "salapan puluh salapan"],
+    min:   ["sambilan puluah sambilan", "sambilan puluah sambilan"]
   }
 };

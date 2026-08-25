@@ -780,6 +780,11 @@ const LANG_DATA = {
              note: "not attested whole anywhere reachable: this is the documented productive rule applied to the documented base, ọ̀kàn 'one' + dín 'subtract' + l- + ọ́gọ́rùn-ún '100'. Replace if a directly attested form turns up. Yoruba subtracts throughout — even its 90 is àádọ́rùn-ún, 20x5-10" }
     } },
   zu: { name: 'Zulu', native: 'isiZulu', lat: -29.86, lng: 31.02, // Durban
+    wordEvidence: {
+      n99: { evidence: 'inferred',
+             source: "Wiktionary Zulu lemmas isishiyagalolunye 'nine' (literally 'leave one'), isishiyagalombili 'eight' ('leave two') and ishumi 'ten' — each confirmed separately",
+             note: "the whole numeral is not attested anywhere reachable; this is the regular Bantu composition, amashumi 'tens' with class concord plus the unit. The concord is generated here, which is why it is marked inferred rather than treated as juxtaposition. Kept because Zulu is the only row on the map that builds the UNIT by subtraction — nine is 'leave one', on top of isithupha 'six', literally 'thumb'" }
+    },
 },
   am: { name: 'Amharic', native: 'አማርኛ', lat: 9.02, lng: 38.75, // Addis Ababa
 },

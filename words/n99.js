@@ -44,6 +44,11 @@
  *   quinary       Khmer ប្រាំបួន 'nine' is literally ប្រាំ 'five' + បួន 'four', so
  *                 99 carries a base-five sub-system inside a decimal one; Wolof
  *                 juróom-ñeent is the same shape in West Africa
+ *   subtractive   Zulu builds the UNIT by subtraction, not the whole numeral:
+ *                 isishiyagalolunye 'nine' is "leave one" and isishiyagalombili
+ *                 'eight' is "leave two", on top of isithupha 'six', literally
+ *                 'thumb'. Different from Latin/Odia, where it is the hundred
+ *                 that is subtracted from
  *   plural        Hebrew תשעים and Arabic تسعون are the PLURAL of nine — the
  *                 same -īm / -ūn that pluralises any Semitic noun. A decade
  *                 that is literally "nines"
@@ -179,6 +184,9 @@ WORDS.n99 = {
     // ten still visible, the same kind of split Slavic shows.
     tt: "dec", ba: "dec", ky: "dec", tk: "dec", ug: "dec", az: "dec",
     cv: "mult",
+    to: "mult", fj: "mult", sm: "mult", quz: "mult", ig: "mult",
+    so: "dec", haw: "dec",
+    zu: "subunit",
     // Filling out the thin categories: Maltese joins Hebrew and Arabic as a
     // Semitic plural decade (disgħin is the plural of disgħa), Afrikaans joins
     // German and Dutch in putting the unit first, and Esperanto — built to be
@@ -296,6 +304,25 @@ WORDS.n99 = {
       ar: "تسعة خماسية · ٩٠ + (٥+٤)", he: "תשע חמישונית · 90 + (5+4)",
       sw: "tisa ya tano · 90 + (5+4)"
     },
+    subunit: {
+      color: "#65a30d", emoji: "✋",
+      en: "nine is 'leave one' · unit by subtraction", ja: "9が「1を残す」 · 単位が減算",
+      ko: "9가 '하나를 남기다' · 단위가 감산", zh: "九是「留一」 · 单位用减法",
+      yue: "九係「留一」 · 單位用減法", vi: "chín là 'bỏ lại một' · đơn vị bằng phép trừ",
+      th: "เก้าคือ 'เหลือหนึ่ง' · หน่วยเกิดจากการลบ",
+      id: "sembilan adalah 'sisakan satu' · satuan dengan pengurangan",
+      hi: "नौ यानी 'एक छोड़ो' · इकाई घटाव से",
+      de: "Neun heißt „lass eins“ · Einer durch Subtraktion",
+      fr: "neuf, c'est « laisse-en un » · unité par soustraction",
+      it: "nove è «lasciane uno» · unità per sottrazione",
+      es: "nueve es «deja uno» · unidad por sustracción",
+      pt: "nove é «deixa um» · unidade por subtração",
+      ru: "девять — «оставь один» · единица через вычитание",
+      uk: "дев'ять — «залиш один» · одиниця через віднімання",
+      ar: "التسعة هي «اترك واحدًا» · الآحاد بالطرح",
+      he: "תשע היא ״השאר אחת״ · היחידה בחיסור",
+      sw: "tisa ni 'acha moja' · kipimo kwa kutoa"
+    },
     sub: {
       color: "#15803d", emoji: "➖",
       en: "subtractive · 100 − 1", ja: "減算 · 100−1", ko: "감산 · 100 − 1",
@@ -399,6 +426,14 @@ WORDS.n99 = {
     ug:     ["توقسان توققۇز", "toqsan toqˈquz"],
     az:     ["doxsan doqquz", "doxˈsɑn doɡˈɡuz"],
     cv:     ["тӑхӑрвуннӑ тӑхӑр", "təxərʋunːə ˈtəxər"],
+    to:     ["hivangofulu mā hiva", "hivaŋoˈfulu maː ˈhiva"],
+    fj:     ["ciwasagavulu ka ciwa", "ðiwasaŋaˈvulu ka ˈðiwa"],
+    sm:     ["ivasefulu ma le iva", "ivaseˈfulu ma le ˈiva"],
+    quz:    ["isqun chunka isqunniyuq", "ˈisqun ˈtʃunka isqunniˈjuq"],
+    ig:     ["iri itoolu na itoolu", "iɾi itoːlu na itoːlu"],
+    so:     ["sagaashan iyo sagaal", "saɡaːˈʃan ijo saˈɡaːl"],
+    haw:    ["kanaiwakumamāiwa", "kanaiwakumamaːˈiwa"],
+    zu:     ["amashumi ayisishiyagalolunye nesishiyagalolunye", "amaʃumi ajisiʃijaɡaloˈluɲe nesiʃijaɡaloˈluɲe"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

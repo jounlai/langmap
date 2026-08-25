@@ -981,9 +981,39 @@
             background: rgba(255,255,255,0.94); border: 1px solid rgba(0,0,0,0.12);
             border-radius: 8px; padding: 8px 11px; font-size: 12px; line-height: 1.55;
             box-shadow: 0 1px 5px rgba(0,0,0,0.18); max-width: 70vw; pointer-events: none;
+            /* Above the credit in BOTH senses. The bottom offset already lifted
+               it clear, but z-index 500 sat under the watermark's 1000, so any
+               overlap — a watermark wrapped to two lines on a narrow window, a
+               legend grown to eight rows — was painted over. */
+            z-index: 1001;
         }
         .tea-legend-title { font-weight: 700; margin-bottom: 3px; color: #333; }
         .tea-legend-row { display: flex; align-items: center; gap: 7px; white-space: nowrap; }
+        /* The legend itself stays click-through (pointer-events: none above) so
+           it never blocks the map; only the rows take clicks. */
+        .tea-legend-row[data-route] {
+            pointer-events: auto; cursor: pointer;
+            margin: 0 -5px; padding: 0 5px; border-radius: 4px;
+        }
+        .tea-legend-row[data-route]:hover,
+        .tea-legend-row[data-route]:focus-visible { background: rgba(0,0,0,0.07); outline: none; }
+        @media (prefers-color-scheme: dark) {
+            .tea-legend-row[data-route]:hover,
+            .tea-legend-row[data-route]:focus-visible { background: rgba(255,255,255,0.12); }
+        }
+        /* Two blinks, then stop — same look as the trivia highlight, but a
+           counted animation instead of an infinite one, so nothing has to be
+           cleaned up on a timer. */
+        .lang-label.route-blink,
+        .globe-label.route-blink,
+        .unattested-marker.route-blink {
+            animation: triviaPulse 0.55s ease-out 2;
+            border-radius: 6px; padding: 6px 10px; box-sizing: border-box;
+        }
+        .lang-label.route-blink .word,
+        .globe-label.route-blink .word {
+            animation: triviaPulseText 0.55s ease-in-out 2;
+        }
         .tea-legend .sw { width: 12px; height: 12px; border-radius: 3px; flex: 0 0 auto; }
         .tea-legend .tl-text { color: #333; }
         @media (prefers-color-scheme: dark) {
@@ -5135,11 +5165,60 @@
             const rows = Object.keys(W.routes).map(fam => {
                 const r = W.routes[fam] || {};
                 const text = r[uiLang] || r[base] || r.en || fam;
-                return `<div class="tea-legend-row"><span class="sw" style="background:${escapeHtml(r.color || '#888')}"></span>`
+                // data-route makes the row clickable (see wireRouteLegendClicks);
+                // role/tabindex so it is reachable from the keyboard too.
+                return `<div class="tea-legend-row" data-route="${escapeHtml(fam)}" role="button" tabindex="0"`
+                     + ` title="${escapeHtml(text)}" aria-label="${escapeHtml(text)}">`
+                     + `<span class="sw" style="background:${escapeHtml(r.color || '#888')}"></span>`
                      + `<span class="tl-text">${escapeHtml(text)}</span></div>`;
             }).join('');
             el.innerHTML = `<div class="tea-legend-title">${escapeHtml(title)}</div>` + rows;
             el.hidden = false; el.setAttribute('aria-hidden', 'false');
+            wireRouteLegendClicks(el);
+        }
+
+        // Clicking a legend row blinks every marker in that route twice, so the
+        // reader can see where a category actually is without hunting for the
+        // colour. Delegated and re-armable: updateRouteLegend() rewrites
+        // innerHTML on every word change, so the listener is attached to the
+        // container, once.
+        function wireRouteLegendClicks(el) {
+            if (el._routeWired) return;
+            el._routeWired = true;
+            const fire = (ev) => {
+                const row = ev.target.closest('.tea-legend-row[data-route]');
+                if (!row) return;
+                ev.preventDefault();
+                blinkRoute(row.getAttribute('data-route'));
+            };
+            el.addEventListener('click', fire);
+            el.addEventListener('keydown', (ev) => {
+                if (ev.key === 'Enter' || ev.key === ' ') fire(ev);
+            });
+        }
+
+        function blinkRoute(fam) {
+            const W = (typeof currentWord !== 'undefined' && window.WORDS) ? WORDS[currentWord] : null;
+            const family = (W && W.family) || {};
+            // Restart cleanly if a previous blink is still running: removing the
+            // class and forcing a reflow before re-adding it makes the animation
+            // play again from zero, which a second click otherwise would not do.
+            const sel = '.lang-label, .globe-label, .unattested-marker';
+            document.querySelectorAll(sel + '.route-blink').forEach(n => n.classList.remove('route-blink'));
+            const hits = [];
+            document.querySelectorAll(sel).forEach(n => {
+                const code = n.dataset && n.dataset.code;
+                if (code && family[code] === fam) hits.push(n);
+            });
+            if (!hits.length) return;
+            void hits[0].offsetWidth;
+            hits.forEach(n => {
+                n.classList.add('route-blink');
+                n.addEventListener('animationend', function done() {
+                    n.classList.remove('route-blink');
+                    n.removeEventListener('animationend', done);
+                });
+            });
         }
 
         function getDisplayName(code, lang) {

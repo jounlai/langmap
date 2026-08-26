@@ -184,6 +184,12 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// A language with no LANG_NAMES entry falls back to English with no warning,
+// so a Korean or Thai page can show half its comparison table in English and
+// look fine from the Japanese one. Fifteen Han Map varieties shipped that way.
+s = run('lang_name_coverage.js --check');
+line('language-name coverage', num(s, /violations: (\d+)/));
+
 // data/*_seo.json is what index.php serves for /{ui}/wordmap/{code} at request
 // time. Nothing in the browser reads it, so a forgotten export is invisible
 // locally — localhost shows the new data while langmap.heuron.com serves the

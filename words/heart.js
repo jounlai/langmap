@@ -90,7 +90,7 @@ WORDS.heart = {
       hsn_yz: ["心", "sim˨˩˧"],
       czh_wy: ["心", "ɕin˧˧"],
       bla: ["—", "—"],
-      hop: ["—", "—"],
+      hop: ["unangwa", "ʔunaŋʷa"],
       com: ["—", "—"],
       one: ["oianeh", "oianeh"],
       ono: ["awé:ri", "aweːri"],

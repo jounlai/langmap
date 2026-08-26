@@ -265,7 +265,7 @@ WORDS.house = {
     kca: ["хӑт", "xɐt"],
     ckt: ["яраӈы", "jaraŋɯ"],
     kpy: ["яяӈа", "jajaŋa"],
-    itl: ["—", "—"],
+    itl: ["кист", "kist"],
     ykg: ["нумэ", "nume"],
     yux: ["нумэ", "nume"],
     niv: ["тыф", "tɯf"],

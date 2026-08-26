@@ -97,7 +97,7 @@ WORDS.drink = {
       win: ["—", "—"],
       cro: ["—", "—"],
       hai: ["ɢ'áaɬ", "ɢʼɑːɬ"],
-      cic: ["—", "—"],
+      cic: ["ishko", "iʃko"],
       ik: ["imiġuq", "imiʁuq"],
       na: ["ren", "ren"],
       es_bo: ["beber", "beβeɾ"],

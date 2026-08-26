@@ -97,7 +97,7 @@ WORDS.house = {
       win: ["—", "—"],
       cro: ["tipí", "tipi"],
       hai: ["tluwáa", "tɬuːwɑː"],
-      cic: ["—", "—"],
+      cic: ["chokka'", "tʃokːaʔ"],
       ik: ["iglu", "iɡlu"],
       na: ["—", "—"],
       es_bo: ["casa", "kasa"],

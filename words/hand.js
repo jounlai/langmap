@@ -97,7 +97,7 @@ WORDS.hand = {
       win: ["—", "—"],
       cro: ["basúa", "basua"],
       hai: ["gaaw", "ɡɑːw"],
-      cic: ["—", "—"],
+      cic: ["ilbak", "ilbak"],
       ik: ["argak", "arɡak"],
       na: ["ebe", "ebe"],
       es_bo: ["mano", "mano"],

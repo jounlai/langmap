@@ -47,6 +47,13 @@
  *   ninety-nine are left behind. Three independent attestations of the exact
  *   number, in running text.
  *
+ *   Old French is nonante NUEF, not *nonante neuf — the second form looks like
+ *   a typo for the modern word and is not one. Wiktionary has nuef as an Old
+ *   French numeral, /ˈnu̯ɛf/ 'nine' (variants nof, neof), and has no Old French
+ *   section for neuf at all; nuef's own descendants line is nuef > Middle French
+ *   neuf > Modern French neuf. The row is Old French throughout — treis 'three',
+ *   eve 'water' — so nuef is the form for its period.
+ *
  *   sixty         Sumerian is the only base-60 row: 𒐕𒌍𒑆, ĝeš 60 + ušu 30 +
  *                 ilimmu 9. It stacks three systems — ten is a subbase, the
  *                 units are quinary (ilimmu is iá 'five' + limmu 'four'), and

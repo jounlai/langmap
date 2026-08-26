@@ -77,7 +77,7 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 1. **Tier-2 AR/BR languages** (if desired): Kadiwéu, Apinajé, Xerénte, Krahô, Paresí, Wapishana… (many NOT in HG DB → need Wiktionary/grammars). And the 5 originally-planned but un-sourceable ones (Guajajára gub, Kayapó/Mẽbêngôkre txu, Kaiowá kgk, Sateré-Mawé mav, Mundurukú myu) — add later from reliable dictionaries or the owner's cross-validation pipeline.
 2. **Historical-language coverage of recent words is thin** (vs ~145 hist ceiling): sleep 26, egg 34, snow 39, bird 41, stone/nose/five/white 45–46, wind 65, rain 71, earth 79, ear 86. A targeted historical-fill rally (la/grc/sa/akk/got/ang/non/och…, JA/KO carefully) would help. The review rally already fixed the highest-confidence gaps; more remain.
 3. **Mature words with modern-coverage gaps** (small, tractable): heart −24, house −14, good/drink −17, hand −10 vs the ~1009 ceiling; love/cat/hello/thanks −~50 (some of that is the new Tier-1 langs, which legitimately lack those concepts).
-4. **Per-UI splits for the other pages' `lang_names.js`** (index/tree/hanmap/namemap still load the whole 656 KB) and **namemap_content_i18n per-UI** — low priority now that gzip is on; full runbook in `docs/perf-optimization-handoff.md` §4–5.
+4. ~~**Per-UI splits for the other pages' `lang_names.js`**~~ — done 2026-08-26: index/tree/hanmap now load `lang_names_shim.js` + `lang_names/en.js` + the reader's own slice via `window.__langNamesBoot()`, 215 KB gz → 12–24 KB. **namemap_content_i18n per-UI** is still open; runbook in `docs/perf-optimization-handoff.md` §4–5.
 
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 

@@ -3297,7 +3297,14 @@
     <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
          slice only) via loadMetaI18n() in the IIFE below. The old eager
          meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->
-    <script src="lang_names.js?v=146"></script>
+    <!-- Translated language names: 1,154 codes x 19 UI languages is ~215 KB
+    gzipped, and a reader uses one of them plus English as the fallback.
+    Load the shim, then English, then whichever UI language this visitor
+    will actually see (~12 KB gzipped). tools/build_lang_names.js
+    generates lang_names/<ui>.js from lang_names.js. -->
+    <script src="lang_names_shim.js?v=2"></script>
+    <script src="lang_names/en.js?v=151"></script>
+    <script>window.__langNamesVersion(151); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // lang_names.js carries the WordMap/LangMap-canonical name (e.g. ko_mid =
@@ -5438,6 +5445,16 @@
             applyUILang();
             updateMarkers(currentWord);
             updateHash();
+            // Translated language names load per UI language, so the names are
+            // still English at this point. Pull the slice and repaint. The shim
+            // merges without overwriting, which is what keeps the ko_mid
+            // overrides applied above from being wiped by the incoming table.
+            if (typeof window.__ensureLangNames === 'function') {
+                window.__ensureLangNames(uiLang).then(() => {
+                    applyUILang();
+                    updateMarkers(currentWord);
+                });
+            }
             // Refresh open modal in the new UI lang. Use direct render path
             // (not showLangInfo) because showLangInfo has a same-code toggle
             // that would close the modal instead of re-rendering.

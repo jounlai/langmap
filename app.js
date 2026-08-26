@@ -42,8 +42,11 @@ function t(key) {
 // global window.LANG_NAMES for consistent name lookup.
 
 function langName(code) {
-    const names = LANG_NAMES[currentUILang] || LANG_NAMES.en;
-    return names[code] || LANG_NAMES.en[code] || LANG_NAMES.ja[code] || code;
+    // Every table may be absent: the pages load English plus the reader's own
+    // UI slice, so indexing LANG_NAMES.ja directly threw for any code missing
+    // from both — which is exactly the case this fallback exists for.
+    const names = LANG_NAMES[currentUILang] || LANG_NAMES.en || {};
+    return names[code] || (LANG_NAMES.en || {})[code] || (LANG_NAMES.ja || {})[code] || code;
 }
 
 // Language definitions - ordered by linguistic similarity within groups
@@ -634,8 +637,14 @@ function initUILangSelect() {
     sel.addEventListener('change', () => {
         currentUILang = sel.value;
         _wmSetCookie('wm_uilang', currentUILang);
-        applyUILang();
+        applyUILang();   // immediate: chrome labels, language names still English
         updateURL();
+        // The new UI's language-name slice is fetched on demand. applyUILang()
+        // ends in render(), so re-running it once the slice lands is what
+        // switches the names over. Memoized, so a no-op if already present.
+        if (typeof window.__ensureLangNames === 'function') {
+            window.__ensureLangNames(currentUILang).then(applyUILang);
+        }
     });
 }
 

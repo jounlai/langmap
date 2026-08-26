@@ -143,6 +143,14 @@
         <nav class="month-nav">Months: <strong>2026-08</strong> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-08-26 — Three pages stop downloading 19 languages to show you one ⚡</div>
+            <ul>
+                <li><strong>The word-order map, the family tree and the Han Map were each pulling 215 KB of translated language names on every visit, and using about a twentieth of it.</strong> The file holds the name of every language in all nineteen interface languages; a reader sees one of them, plus English where a name is missing. The Word Map was fixed in August; the other three now load the same way — the shared loader, English, and the visitor's own language. 215 KB down to 12 KB for an English reader and 24 KB for a Japanese one.</li>
+                <li><strong>And the Word Map had been serving one of its two files stale.</strong> The loader was copy-pasted into the page with the cache version written out by hand, and the two halves drifted: English was requested at v=151 while every other language was still asked for at v=143. So a French or Korean reader kept getting whatever their browser had cached from an older build. The loader lives in one file now and reads the version instead of repeating it, which is the only real fix for that kind of bug.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-08-26 — Old Chinese now speaks with one voice 上古漢語</div>
             <ul>
                 <li><strong>The Old Chinese row had been reconstructed three different ways at once.</strong> Most cells were Baxter–Sagart's 2014 reconstruction, some were their earlier 2011 version, and four were Zhengzhang Shangfang's — a different system entirely, recognisable because it writes long vowels with ː, which Baxter–Sagart never do. On top of that, 21 of the 49 cells were missing the asterisk that marks a form as reconstructed rather than attested. All 49 are Baxter–Sagart (2014) now, verbatim, asterisk and all.</li>

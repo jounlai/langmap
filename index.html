@@ -330,8 +330,15 @@
     </div>
 
     <script src="data.js?v=92"></script>
-    <script src="lang_names.js?v=146"></script>
-    <script src="app.js?v=76"></script>
+    <!-- Translated language names: 1,154 codes x 19 UI languages is ~215 KB
+    gzipped, and a reader uses one of them plus English as the fallback.
+    Load the shim, then English, then whichever UI language this visitor
+    will actually see (~12 KB gzipped). tools/build_lang_names.js
+    generates lang_names/<ui>.js from lang_names.js. -->
+    <script src="lang_names_shim.js?v=2"></script>
+    <script src="lang_names/en.js?v=151"></script>
+    <script>window.__langNamesVersion(151); window.__langNamesBoot();</script>
+    <script src="app.js?v=77"></script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=1"></script>
     <script src="lang-picker.js?v=2"></script>

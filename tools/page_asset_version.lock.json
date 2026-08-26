@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 76,
-    "hash": "98583a971b9ed508"
+    "version": 77,
+    "hash": "a6b704966fff5363"
   },
   "data.js": {
     "version": 92,
@@ -23,17 +23,13 @@
     "version": 2,
     "hash": "59c80d2e11243e21"
   },
-  "lang_names.js": {
-    "version": 146,
-    "hash": "0a7ae5e2124f3bc1"
-  },
   "lang_names/en.js": {
     "version": 151,
     "hash": "00f074e315bd26f3"
   },
   "lang_names_shim.js": {
-    "version": 1,
-    "hash": "98a93506c4ae3641"
+    "version": 2,
+    "hash": "f7758e4b4a4f30c6"
   },
   "my-languages.js": {
     "version": 21,

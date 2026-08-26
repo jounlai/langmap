@@ -1127,7 +1127,7 @@ WORDS.star = {
       pyx: ["kar", "karʔ"],
       obr: ["ကြယ်", "kraj"],
       ocm: ["bituk", "bituʔ"],
-      och: ["星", "s-tsʰˤeŋ"],
+      och: ["星", "*s-tsʰˤeŋ"],
       ojp: ["星", "posi"],
       p_jpk: ["—", "—"],
       h_vedic: ["तारा", "taːˈraː"],

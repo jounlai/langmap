@@ -111,7 +111,7 @@ WORDS.ear = {
     sga: ["clúas", "kluəs"],
     egy: ["𓅓𓋴𓆓𓂋", "mesedʒer"],
     cop: ["ⲙⲁⲁϫⲉ", "maːdʒe"],
-    och: ["耳", "C.nəʔ"],
+    och: ["耳", "*C.nəʔ"],
     zh_tang: ["耳", "ɲiX"],
     zh_wenyan_edu: ["耳", "jiː˩˧"],
     ojp: ["耳", "mimi"],

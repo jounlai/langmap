@@ -1127,7 +1127,7 @@ WORDS.name = {
       pyx: ["miŋ", "miŋ"],
       obr: ["အမည်", "ʔamɲaɲ"],
       ocm: ["angan", "aŋan"],
-      och: ["名", "meŋ"],
+      och: ["名", "*C.meŋ"],
       ojp: ["名", "na"],
       p_jpk: ["—", "—"],
       h_vedic: ["नाम", "naːmɐ"],

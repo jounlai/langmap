@@ -1127,7 +1127,7 @@ WORDS.you = {
       pyx: ["naŋ", "naŋ"],
       obr: ["နင်", "naŋ"],
       ocm: ["hã", "haː"],
-      och: ["汝", "naʔ"],
+      och: ["汝", "*naʔ"],
       ojp: ["汝", "na"],
       p_jpk: ["—", "—"],
       h_vedic: ["त्वम्", "tʋɐm"],

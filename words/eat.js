@@ -1127,7 +1127,7 @@ WORDS.eat = {
     pyx: ["cyaʔ", "tɕaʔ"],
     obr: ["စား", "tsaːʔ"],
     ocm: ["bɔh", "bɔh"],
-    och: ["食", "*mə.lək"],
+    och: ["食", "*mə-lək"],
     ojp: ["多夫", "tabu"],
     p_jpk: ["—", "—"],
     h_vedic: ["अत्ति", "atti"],

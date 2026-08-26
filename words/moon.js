@@ -1139,7 +1139,7 @@ WORDS.moon = {
     pyx: ["hla", "hla"],
     obr: ["လ", "la"],
     ocm: ["bulan", "bulan"],
-    och: ["月", "*ŋʷat"],
+    och: ["月", "*[ŋ]ʷat"],
     ojp: ["月", "tukï"],
     p_jpk: ["—", "—"],
     h_vedic: ["चन्द्रमाः", "tɕandramaːɦ"],

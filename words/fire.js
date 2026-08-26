@@ -1139,7 +1139,7 @@ WORDS.fire = {
     pyx: ["vyaŋ", "wjaŋ"],
     obr: ["မိး", "miːʔ"],
     ocm: ["apuy", "ʔapuj"],
-    och: ["火", "*qʷʰˤəjʔ"],
+    och: ["火", "*[qʷʰ]ˤəjʔ"],
     ojp: ["火", "pi"],
     p_jpk: ["—", "—"],
     h_vedic: ["अग्निः", "aɡniɦ"],

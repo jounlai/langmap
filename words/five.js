@@ -829,7 +829,7 @@ WORDS.five = {
     pyx: ["pəŋa", "pəŋa"],
     obr: ["ငါး", "ŋaːh"],
     ocm: ["lima", "lima"],
-    och: ["五", "ŋaːʔ"],
+    och: ["五", "*C.ŋˤaʔ"],
     ojp: ["いつ", "itu"],
     h_vedic: ["पञ्च", "páɲtɕɐ"],
     txg: ["𗏁", "ŋwə˧"],

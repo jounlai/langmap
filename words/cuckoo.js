@@ -466,7 +466,7 @@ WORDS.cuckoo = {
     tcy: ["ಕೋಗಿಲೆ", "koːɡile"],
     kaa: ["átshók", "ætˈʃøk"],
     orv: ["зегзица", "zʲɛɡˈzitsa"],
-    och: ["布穀", "*paːs kloːɡ"],
+    och: ["布穀", "*pˤa-s [k]ˤok"],
     ojp: ["ほととぎす", "pototoɡisu"],
     hak_tw: ["杜鵑", "tʰu˥˥kien˨˦"],
     nan_qz: ["豆仔鳥", "tau˨˨a˥˥tsiau˥˥"],

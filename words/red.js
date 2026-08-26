@@ -1060,7 +1060,7 @@ WORDS.red = {
     pyx: ["—", "—"],
     obr: ["နီ", "niy"],
     ocm: ["mưriah", "mɨriah"],
-    och: ["赤", "*t-qʰAk"],
+    och: ["赤", "*[t-qʰ](r)Ak"],
     ojp: ["赤し", "akasi"],
     p_jpk: ["—", "—"],
     h_vedic: ["रोहितः", "rohitaɦ"],

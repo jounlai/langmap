@@ -1133,7 +1133,7 @@ WORDS.eye = {
     pyx: ["mik", "mik"],
     obr: ["မ္ယက်", "mlak"],
     ocm: ["mata", "mata"],
-    och: ["目", "*C.muk"],
+    och: ["目", "*C.m(r)[u]k"],
     ojp: ["目", "ma"],
     p_jpk: ["—", "—"],
     h_vedic: ["अक्षि", "akʂi"],

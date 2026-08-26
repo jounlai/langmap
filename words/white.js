@@ -957,7 +957,7 @@ WORDS.white = {
     omx: ["ဗ္တာၚ်", "bətaiŋ"],
     obr: ["ဖ္လူ", "pʰlu"],
     ocm: ["patih", "patih"],
-    och: ["白", "braːk"],
+    och: ["白", "*bˤrak"],
     ojp: ["白し", "sirosi"],
     h_vedic: ["श्वेत", "ɕʋetɐ"],
     txg: ["𗴂", "pʰiow˧"],

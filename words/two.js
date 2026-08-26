@@ -1127,7 +1127,7 @@ WORDS.two = {
       pyx: ["nit", "nit"],
       obr: ["နှစ်", "n̥ik"],
       ocm: ["dua", "dua"],
-      och: ["二", "nijs"],
+      och: ["二", "*ni[j]-s"],
       ojp: ["二", "puta"],
       p_jpk: ["—", "—"],
       h_vedic: ["द्वौ", "dʋɐu"],

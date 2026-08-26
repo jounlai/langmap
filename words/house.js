@@ -1134,7 +1134,7 @@ WORDS.house = {
     pyx: ["vaiŋ", "waiŋ"],
     obr: ["အိမ်", "ʔim"],
     ocm: ["sɔŋ", "sɔŋ"],
-    och: ["室", "*s.tit"],
+    och: ["室", "*s.ti[t]"],
     ojp: ["家", "ipey"],
     p_jpk: ["—", "—"],
     h_vedic: ["गृहम्", "ɡr̩ham"],

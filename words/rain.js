@@ -542,7 +542,7 @@ WORDS.rain = {
     akk: ["𒍪𒌦𒉡", "ˈzunnu"],
     ang: ["regn", "rejn"],
     goh: ["regan", "ˈreɡan"],
-    och: ["雨", "C.ɢʷ(r)aʔ"],
+    och: ["雨", "*C.ɢʷ(r)aʔ"],
     mga: ["báitsech", "ˈbaːtʲʃəx"],
     os: ["уарын", "wɑrɨn"],
     ce: ["догӏа", "ˈdɔʁɑ"],

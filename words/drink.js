@@ -1127,7 +1127,7 @@ WORDS.drink = {
     pyx: ["—", "—"],
     obr: ["ၐုက်", "suk"],
     ocm: ["mɛnum", "mɛnum"],
-    och: ["飲", "*qrəmʔ"],
+    och: ["飲", "*q(r)[u]mʔ"],
     ojp: ["能牟", "nəmu"],
     p_jpk: ["—", "—"],
     h_vedic: ["पिबति", "pibati"],

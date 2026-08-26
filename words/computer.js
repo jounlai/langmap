@@ -308,7 +308,7 @@ WORDS.computer = {
     "nv": ["béésh nitsékeesí", "péːʃ nìtsékèːsí"],
     "ny": ["kompyuta", "kompjuta"],
     "oc": ["ordinator", "urdinaˈtu"],
-    "och": ["籌", "dru"],
+    "och": ["籌", "*dru"],
     "ojp": ["算木", "saŋɡi"],
     "om": ["koompitara", "koːmpitara"],
     "or": ["କମ୍ପ୍ୟୁଟର", "kɔmpjuʈɔɾɔ"],

@@ -1145,7 +1145,7 @@ WORDS.one = {
     pyx: ["te", "te"],
     obr: ["တ", "tac"],
     ocm: ["sa", "sa"],
-    och: ["一", "*ʔit"],
+    och: ["一", "*ʔi[t]"],
     ojp: ["比登都", "pitətu"],
     p_jpk: ["—", "—"],
     h_vedic: ["एकः", "eːkaɦ"],

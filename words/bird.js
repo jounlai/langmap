@@ -696,7 +696,7 @@ WORDS.bird = {
     omx: ["ဂစေမ်", "kəcem"],
     obr: ["ငှက်", "ŋ̊ak"],
     ocm: ["cim", "tʃim"],
-    och: ["鳥", "tˤiwʔ"],
+    och: ["鳥", "*tˤiwʔ"],
     ojp: ["鳥", "toɾi"],
     h_vedic: ["वि", "ʋí"],
     txg: ["𗿼", "dʑjwow˧"],

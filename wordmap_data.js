@@ -4643,6 +4643,16 @@ const LANG_DATA = {
 
   // === Ancient Asian languages (Phase 13) ===
   // Old Chinese — Baxter-Sagart 2014 reconstructions. Anyang (Shang capital area).
+  // Reconstruction convention (set 2026-08-26): every och cell is Baxter–Sagart
+  // (2014) verbatim, with the leading * and with their brackets kept — [x] is an
+  // uncertain segment, (x) an optional one, <x> an infix. The row used to mix
+  // three systems: BS 2014, BS 2011 (dog *kʷʰˤinʔ for *[k]ʷʰˤ[e][n]ʔ, fish *ŋ(r)a
+  // for *[r.ŋ]a) and Zhengzhang (five *ŋaːʔ, white *braːk, sleep *mids, cuckoo
+  // *paːs kloːɡ — ː is a Zhengzhang marker BS never uses), and 21 of 49 cells had
+  // no * at all. 父 was Zhengzhang *baʔ where BS glosses *[N-p](r)aʔ 'father',
+  // and 謝 read *s.ɢAk-s, which is 夜 *[ɢ]Ak-s with an initial swapped in — BS has
+  // *sə-lAk-s (glossed 'decline, renounce'; the 'thank' sense is post-Han).
+  // 籌 *dru and 鮓 *tsˤraʔ are not in the BS 2014 list and keep their BS-style forms.
   och: { name: 'Old Chinese', native: '上古漢語', lat: 36.10, lng: 114.40,
     wordEvidence: {
       n99: { evidence: 'direct',

@@ -1134,7 +1134,7 @@ WORDS.love = {
     pyx: ["—", "—"],
     obr: ["ချစ်", "klyit"],
     ocm: ["klɛn", "klɛn"],
-    och: ["愛", "*qˤəps"],
+    och: ["愛", "*[q]ˤə[p]-s"],
     ojp: ["加奈志", "kanasi"],
     p_jpk: ["—", "—"],
     h_vedic: ["स्नेहः", "sneːɦaɦ"],

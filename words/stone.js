@@ -724,7 +724,7 @@ WORDS.stone = {
     omx: ["တၟံ", "tmɔʔ"],
     obr: ["က္လောက်", "klok"],
     ocm: ["batau", "batau"],
-    och: ["石", "dak"],
+    och: ["石", "*dAk"],
     ojp: ["石", "isi"],
     h_vedic: ["अश्मन्", "ɐɕman"],
     txg: ["𗱸", "lu˧"],

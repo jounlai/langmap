@@ -585,7 +585,7 @@ WORDS.sleep = {
     osn: ["saré", "sare"],
     h_tagalog: ["ᜆᜓᜎᜓᜄ᜔", "ˈtuloɡ"],
     juc: ["dedure", "dədurə"],
-    och: ["寐", "mids"],
+    och: ["寐", "*mi[t]-s"],
     ojp: ["寝", "nu"],
     h_vedic: ["स्वपिति", "svɐpiti"],
     txg: ["𗂯", "ɡar˧˥"],

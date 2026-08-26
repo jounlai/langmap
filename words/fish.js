@@ -1061,7 +1061,7 @@ WORDS.fish = {
     pyx: ["ətso", "ətso"],
     obr: ["ငါး", "ŋaːh"],
     ocm: ["ikan", "ikan"],
-    och: ["魚", "*ŋ(r)a"],
+    och: ["魚", "*[r.ŋ]a"],
     ojp: ["魚", "uwo"],
     p_jpk: ["—", "—"],
     h_vedic: ["मत्स्यः", "matsjaɦ"],

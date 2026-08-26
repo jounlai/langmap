@@ -1139,7 +1139,7 @@ WORDS.dog = {
     pyx: ["kwiy", "kwij"],
     obr: ["ခုယ်း", "kʰuj"],
     ocm: ["asɔ", "asɔ"],
-    och: ["犬", "*kʷʰˤinʔ"],
+    och: ["犬", "*[k]ʷʰˤ[e][n]ʔ"],
     ojp: ["犬", "inu"],
     p_jpk: ["—", "—"],
     h_vedic: ["श्वा", "ɕwaː"],

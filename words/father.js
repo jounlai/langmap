@@ -1133,7 +1133,7 @@ WORDS.father = {
     pyx: ["paʔ", "paʔ"],
     obr: ["အဖ", "ʔap"],
     ocm: ["amaŋ", "amaŋ"],
-    och: ["父", "*baʔ"],
+    och: ["父", "*[N-p](r)aʔ"],
     ojp: ["父", "titi"],
     p_jpk: ["*əpa", "əpa"],
     h_vedic: ["पिता", "pitaː"],

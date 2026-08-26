@@ -1053,7 +1053,7 @@ WORDS.bone = {
     pyx: ["—", "—"],
     obr: ["အရိုး", "ʔaruiwh"],
     ocm: ["talang", "talaŋ"],
-    och: ["骨", "kˤut"],
+    och: ["骨", "*kˤut"],
     ojp: ["骨", "pone"],
     p_jpk: ["—", "—"],
     h_vedic: ["अस्थि", "astʰi"],

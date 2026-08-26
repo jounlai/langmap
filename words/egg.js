@@ -561,7 +561,7 @@ WORDS.egg = {
     sukh: ["ไข่", "kʰaj"],
     qwc: ["runtu", "ɾuntu"],
     h_tagalog: ["ᜁᜆ᜔ᜎᜓᜄ᜔", "itˈloɡ"],
-    och: ["卵", "rˤorʔ"],
+    och: ["卵", "*k.rˤorʔ"],
     ojp: ["卵", "kapiɡo"],
     h_vedic: ["अण्ड", "ɐɳɖɐ"],
     hak_tw: ["卵", "lon"],

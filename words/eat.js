@@ -699,7 +699,7 @@ WORDS.eat = {
     tll: ["kolya", "koʎa"],
     ff: ["ñaamde", "ɲaːmde"],
     bm: ["dumuni", "dumuni"],
-    ddn: ["kɔɔ", "kɔː"],
+    dds: ["kɔɔ", "kɔː"],
     emk: ["domu", "domu"],
     kao: ["domu", "domu"],
     snk: ["lawu", "lawu"],

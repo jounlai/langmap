@@ -632,7 +632,7 @@ WORDS.red = {
     tll: ["kunza", "kunza"],
     ff: ["boɗeejo", "boɗeːdʒo"],
     bm: ["bilen", "bileɲ"],
-    ddn: ["banu", "banu"],
+    dds: ["banu", "banu"],
     emk: ["bilen", "bileɲ"],
     kao: ["wuleŋ", "wuleŋ"],
     snk: ["dumbi", "dumbi"],

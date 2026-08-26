@@ -699,7 +699,7 @@ WORDS.i = {
       tll: ["dimi", "dimi"],
       ff: ["miin", "miːn"],
       bm: ["ne", "nè"],
-      ddn: ["mi", "mi"],
+      dds: ["mi", "mi"],
       emk: ["ne", "ne"],
       kao: ["ne", "ne"],
       snk: ["in", "in"],

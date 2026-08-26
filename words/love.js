@@ -706,7 +706,7 @@ WORDS.love = {
     tll: ["langɔ", "laŋɡɔ"],
     ff: ["yiɗde", "jiɗːe"],
     bm: ["kanu", "kanu"],
-    ddn: ["suuli", "suːli"],
+    dds: ["suuli", "suːli"],
     emk: ["kanu", "kanu"],
     kao: ["kanu", "kanu"],
     snk: ["ñaxando", "ɲaxando"],

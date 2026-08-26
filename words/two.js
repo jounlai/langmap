@@ -699,7 +699,7 @@ WORDS.two = {
       tll: ["hende", "hende"],
       ff: ["ɗiɗi", "ɗiɗi"],
       bm: ["fila", "fìla"],
-      ddn: ["lɛy", "lɛj"],
+      dds: ["lɛy", "lɛj"],
       emk: ["fila", "fila"],
       kao: ["fila", "fila"],
       snk: ["filli", "filːi"],

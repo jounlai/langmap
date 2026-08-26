@@ -699,7 +699,7 @@ WORDS.heart = {
     tll: ["utema", "utema"],
     ff: ["ɓernde", "ɓeɾnde"],
     bm: ["dusu", "dusu"],
-    ddn: ["kɛɛla", "kɛːla"],
+    dds: ["kɛɛla", "kɛːla"],
     emk: ["dusu", "dusu"],
     kao: ["dusu", "dusu"],
     snk: ["sondome", "sondome"],

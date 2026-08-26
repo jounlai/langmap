@@ -633,7 +633,7 @@ WORDS.three = {
     tll: ["hasatu", "hasatu"],
     ff: ["tati", "tati"],
     bm: ["saba", "saba"],
-    ddn: ["taanu", "taːnu"],
+    dds: ["taanu", "taːnu"],
     emk: ["saba", "saba"],
     kao: ["saba", "saba"],
     snk: ["sikko", "sikːo"],

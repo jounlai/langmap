@@ -699,7 +699,7 @@ WORDS.name = {
       tll: ["lokombo", "lokombo"],
       ff: ["innde", "inːde"],
       bm: ["tɔgɔ", "tɔ̀ɡɔ"],
-      ddn: ["boy", "bɔj"],
+      dds: ["boy", "bɔj"],
       emk: ["tɔɔ", "tɔː"],
       kao: ["tɔɔ", "tɔː"],
       snk: ["toxo", "toχo"],

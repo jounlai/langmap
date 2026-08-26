@@ -705,7 +705,7 @@ WORDS.one = {
     tll: ["ɔtɔi", "ɔtɔi"],
     ff: ["go'o", "ɡoʔo"],
     bm: ["kelen", "kelen"],
-    ddn: ["tum", "tum"],
+    dds: ["tum", "tum"],
     emk: ["kelen", "kelen"],
     kao: ["kele", "kele"],
     snk: ["baane", "baːne"],

@@ -699,7 +699,7 @@ WORDS.star = {
       tll: ["ɔtɔtɔ", "ɔtɔtɔ"],
       ff: ["hoodere", "hoːdeɾe"],
       bm: ["dolo", "dòlo"],
-      ddn: ["tolo", "tolo"],
+      dds: ["tolo", "tolo"],
       emk: ["lolo", "lolo"],
       kao: ["lolo", "lolo"],
       snk: ["tulle", "tulːe"],

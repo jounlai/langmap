@@ -633,7 +633,7 @@ WORDS.fish = {
     tll: ["se", "se"],
     ff: ["liingu", "liːŋɡu"],
     bm: ["jɛgɛ", "dʒɛɡɛ"],
-    ddn: ["ɔmɔ", "ɔmɔ"],
+    dds: ["ɔmɔ", "ɔmɔ"],
     emk: ["jɛgɛ", "dʒɛɡɛ"],
     kao: ["ñewo", "ɲewo"],
     snk: ["yaxe", "jaxe"],

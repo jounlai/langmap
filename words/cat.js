@@ -699,7 +699,7 @@ WORDS.cat = {
     tll: ["paka", "paka"],
     ff: ["ullundu", "ulːundu"],
     bm: ["jakuma", "dʒakuma"],
-    ddn: ["monyi", "moɲi"],
+    dds: ["monyi", "moɲi"],
     emk: ["jakuma", "dʒakuma"],
     kao: ["jakuma", "dʒakuma"],
     snk: ["mussu", "musːu"],

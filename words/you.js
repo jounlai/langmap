@@ -699,7 +699,7 @@ WORDS.you = {
       tll: ["wɛ", "wɛ"],
       ff: ["aan", "aːn"],
       bm: ["i", "í"],
-      ddn: ["u", "u"],
+      dds: ["u", "u"],
       emk: ["i", "i"],
       kao: ["i", "i"],
       snk: ["an", "an"],

@@ -706,7 +706,7 @@ WORDS.house = {
     tll: ["mbongo", "mboŋɡo"],
     ff: ["suudu", "suːdu"],
     bm: ["so", "so"],
-    ddn: ["gina", "ɡina"],
+    dds: ["gina", "ɡina"],
     emk: ["lu", "lu"],
     kao: ["so", "so"],
     snk: ["ka", "ka"],

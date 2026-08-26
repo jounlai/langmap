@@ -705,7 +705,7 @@ WORDS.mother = {
     tll: ["nyango", "ɲaŋɡo"],
     ff: ["yumma", "jumːa"],
     bm: ["ba", "ba"],
-    ddn: ["na", "na"],
+    dds: ["na", "na"],
     emk: ["ba", "ba"],
     kao: ["ba", "ba"],
     snk: ["ma", "ma"],

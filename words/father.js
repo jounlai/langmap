@@ -699,7 +699,7 @@ WORDS.father = {
     tll: ["shi", "ʃi"],
     ff: ["baaba", "baːba"],
     bm: ["fa", "fa"],
-    ddn: ["ba", "ba"],
+    dds: ["ba", "ba"],
     emk: ["fa", "fa"],
     kao: ["fa", "fa"],
     snk: ["baba", "baba"],

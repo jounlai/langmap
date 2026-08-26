@@ -705,7 +705,7 @@ WORDS.moon = {
     tll: ["ngondo", "ŋɡondo"],
     ff: ["lewru", "lewɾu"],
     bm: ["kalo", "kalo"],
-    ddn: ["ele", "ele"],
+    dds: ["ele", "ele"],
     emk: ["kalo", "kalo"],
     kao: ["kalo", "kalo"],
     snk: ["kullu", "kulːu"],

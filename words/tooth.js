@@ -637,7 +637,7 @@ WORDS.tooth = {
     tll: ["dino", "dino"],
     ff: ["ñiire", "ɲiːre"],
     bm: ["ɲin", "ɲĩ"],
-    ddn: ["hinje", "hindʒe"],
+    dds: ["inu", "inu"],
     emk: ["ɲin", "ɲĩ"],
     kao: ["ɲin", "ɲĩ"],
     snk: ["kambe", "kambe"],

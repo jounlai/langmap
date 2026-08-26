@@ -699,7 +699,7 @@ WORDS.thanks = {
     tll: ["toleko", "toleko"],
     ff: ["a jaaraama", "a dʒaːɾaːma"],
     bm: ["i ni ce", "i ni tʃɛ"],
-    ddn: ["biguƞ", "biɡũ"],
+    dds: ["biguƞ", "biɡũ"],
     emk: ["i ni ce", "i ni tʃe"],
     kao: ["i ni baara", "i ni baːɾa"],
     snk: ["inkawu", "iŋkawu"],

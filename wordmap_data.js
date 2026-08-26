@@ -2210,9 +2210,13 @@ const LANG_DATA = {
 },
   bm: { name: 'Bambara', native: 'Bamanankan', lat: 12.65, lng: -7.99, // Bamako
 },
-  // Donno So (Tomo Kan Dogon) — Niger-Congo Atlantic-Congo Dogon (sister to Toro So, Toro Tegu, Tommo So within the Dogon family of Mali — Dogon is a small distinctive language family of central Mali on the Bandiagara escarpment, with ~13 distinct Dogon languages historically; the type-language for the Dogon people internationally famous for their Bandiagara cliff dwellings, traditional cosmology, and the role of French anthropologist Marcel Griaule's mid-20th c ethnography), ~50K, Mali (Mopti region — Bandiagara escarpment, Dourou, Sangha villages).
-  // Sources: Ethnologue 27 'ddn'; Glottolog donn1238; Plungian (1995) Dogon.
-  ddn: { name: 'Donno So', native: 'Dogosò', lat: 14.35, lng: -3.61, // Bandiagara, Mali (Dogon cultural heart along the escarpment)
+  // Donno So (Kamba So) — Niger-Congo Atlantic-Congo Dogon (sister to Toro So, Toro Tegu, Tommo So within the Dogon family of Mali — Dogon is a small distinctive language family of central Mali on the Bandiagara escarpment, with ~13 distinct Dogon languages historically; the type-language for the Dogon people internationally famous for their Bandiagara cliff dwellings, traditional cosmology, and the role of French anthropologist Marcel Griaule's mid-20th c ethnography), ~50K, Mali (Mopti region — Bandiagara escarpment, Dourou, Sangha villages).
+  // Sources: Ethnologue 27 'dds'; Glottolog donn1238; Plungian (1995) Dogon.
+  // Code corrected ddn -> dds on 2026-08-26: ISO 639-3 'ddn' is Dendi, a Songhay
+  // language of Benin. Three cells (blood, tongue, tooth) had been filled from the
+  // Songhay rows and a fourth (night) from Dendi itself; all four re-sourced from
+  // four independent Donno So wordlists in ASJP (sources 2277/2323/2324/2325).
+  dds: { name: 'Donno So', native: 'Dogosò', lat: 14.35, lng: -3.61, // Bandiagara, Mali (Dogon cultural heart along the escarpment)
 },
   // Eastern Maninka — Niger-Congo Mande Western Manding (sister to Bambara bm and Western Maninka mlq within the Manding cluster; the prestige variety of Guinea — basis of Guinean state cultural projects), ~3M+, Guinea (Upper Guinea — Kankan, Faranah, Siguiri prefectures, the historical Mali Empire heartland) + small populations in Mali, Côte d'Ivoire, Senegal, Liberia, Sierra Leone.
   // Sources: Ethnologue 27 'emk'; Glottolog east2542; Spears (1965) The Structure of Faranah-Maninka.

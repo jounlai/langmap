@@ -699,7 +699,7 @@ WORDS.drink = {
     tll: ["konwa", "konwa"],
     ff: ["yarude", "jaɾude"],
     bm: ["min", "min"],
-    ddn: ["nɔ", "nɔ"],
+    dds: ["nɔ", "nɔ"],
     emk: ["min", "min"],
     kao: ["min", "min"],
     snk: ["mini", "mini"],

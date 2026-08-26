@@ -706,7 +706,7 @@ WORDS.water = {
     tll: ["ashi", "aʃi"],
     ff: ["ndiyam", "ndijam"],
     bm: ["ji", "dʒi"],
-    ddn: ["di", "di"],
+    dds: ["di", "di"],
     emk: ["ji", "dʒi"],
     kao: ["ji", "dʒi"],
     snk: ["jiyi", "dʒiji"],

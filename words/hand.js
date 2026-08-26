@@ -699,7 +699,7 @@ WORDS.hand = {
     tll: ["lonya", "loɲa"],
     ff: ["junngo", "dʒuŋːɡo"],
     bm: ["bolo", "bolo"],
-    ddn: ["nu", "nu"],
+    dds: ["nu", "nu"],
     emk: ["bolo", "bolo"],
     kao: ["bolo", "bolo"],
     snk: ["kitte", "kitːe"],

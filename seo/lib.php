@@ -70,6 +70,7 @@ const SEO_RENAMED_CODES = [
     'azo' => 'yiz',   // Azhe
     'dge' => 'deg',   // Degema
     'jia' => 'jio',   // Jiamao
+    'ddn' => 'dds',   // Donno So Dogon — ddn is Dendi, a Songhay language of Benin
     // Phase 3. Codes with no ISO 639-3 entry of their own move to the
     // underscore form the dataset already uses for variants (es_mx, ja_osa) —
     // URL-safe, and no colon to encode.

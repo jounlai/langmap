@@ -635,7 +635,7 @@ WORDS.blood = {
     tll: ["dikila", "dikila"],
     ff: ["ƴiiƴam", "ʄiːʄam"],
     bm: ["joli", "dʒoli"],
-    ddn: ["kuri", "kuri"],
+    dds: ["ni", "ni"],
     emk: ["joli", "dʒoli"],
     kao: ["jelu", "dʒelu"],
     snk: ["fare", "fare"],

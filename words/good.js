@@ -699,7 +699,7 @@ WORDS.good = {
     tll: ["lɔlɔ", "lɔlɔ"],
     ff: ["moƴƴo", "moƴːo"],
     bm: ["ka ɲi", "ka ɲi"],
-    ddn: ["suuli", "suːli"],
+    dds: ["suuli", "suːli"],
     emk: ["ka ɲi", "ka ɲi"],
     kao: ["nyi", "ɲi"],
     snk: ["ñaxa", "ɲaxa"],

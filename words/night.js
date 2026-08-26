@@ -636,7 +636,7 @@ WORDS.night = {
     tll: ["otsho", "otʃo"],
     ff: ["jemma", "dʒemːa"],
     bm: ["su", "su"],
-    ddn: ["cini", "tʃini"],
+    dds: ["diga", "diɡa"],
     emk: ["su", "su"],
     kao: ["su", "su"],
     snk: ["wuro", "wuro"],

@@ -637,7 +637,7 @@ WORDS.tongue = {
     tll: ["olemi", "olemi"],
     ff: ["ɗemngal", "ɗemŋɡal"],
     bm: ["nɛn", "nɛn"],
-    ddn: ["deene", "deːne"],
+    dds: ["nɛndɛ", "nɛndɛ"],
     emk: ["nɛn", "nɛn"],
     kao: ["nɛn", "nɛn"],
     snk: ["nene", "nene"],

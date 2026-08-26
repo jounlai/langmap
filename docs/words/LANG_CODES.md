@@ -213,8 +213,8 @@ Total: 1164 codes.
 | `dar` | Dargwa | ダルギン語 | NE Caucasian (Dargic) | ~500K |
 | `dbl` | Dyirbal | ジルバル語 | Pama-Nyungan (Dyirbalic) | ~30 (severely endangered) |
 | `dbq` | Daba | ダバ語 | Afro-Asiatic (Chadic, Central, Mafa-Bata — Daba subgroup) | ~30K |
-| `ddn` | Donno So | ドノ・ソ語 | Niger-Congo | ~50K (vulnerable) |
 | `ddo` | Tsez | ツェズ語 | NE Caucasian | ~15K (severely endangered) |
+| `dds` | Donno So | ドノ・ソ語 | Niger-Congo | ~50K (vulnerable) |
 | `de` | German | ドイツ語 | Germanic | ~130M |
 | `de_at` | German (Austrian) | ドイツ語(オーストリア) | Indo-European (Germanic, West) | ~8.5M |
 | `de_ch` | German (Swiss) | ドイツ語(スイス) | Germanic | ~5M |

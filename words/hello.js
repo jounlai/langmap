@@ -699,7 +699,7 @@ WORDS.hello = {
     tll: ["nyongo", "ɲoŋɡo"],
     ff: ["jam tan", "dʒam tan"],
     bm: ["i ni ce", "i ni tʃɛ"],
-    ddn: ["agandɛla", "aɡandɛla"],
+    dds: ["agandɛla", "aɡandɛla"],
     emk: ["i ni se", "i ni se"],
     kao: ["i ni sogoma", "i ni soɡoma"],
     snk: ["an na siri", "an na siɾi"],

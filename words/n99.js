@@ -245,6 +245,12 @@ WORDS.n99 = {
     // 80 ḫmn(yw). Derivational, like English -ty — the free word for ten, mḏ(w),
     // is not in there. Coptic inherits the shape.
     egy: "dec",
+    // Tibetan writes 9 × 10 and then joins the unit with a particle that is
+    // DIFFERENT for every decade — རྩ for 21-29, སོ for 31-39, ཞེ 41-49, ང 51-59,
+    // རེ 61-69, དོན 71-79, གྱ 81-89, and གོ for 91-99. So the linker itself tells
+    // you which ten you are in. Still transparent 9×10 underneath: དགུ nine,
+    // བཅུ ten.
+    xct: "mult", xct_litpr: "mult", bo: "mult", dz: "mult",
     // Cornish nownsek ha peswar ugens and Manx kiare feed as nuy-jeig put the
     // Celtic vigesimal count at four languages with Breton, on both sides of
     // the Irish Sea — and Haitian Creole carries the French one to the
@@ -538,6 +544,10 @@ WORDS.n99 = {
     qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     cop:      ["ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ", "pstaiupsis"],
     egy:      ["𓎎𓐂", "pesedʒiu pesedʒ"],
+    xct:        ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
+    xct_litpr:  ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
+    bo:         ["དགུ་བཅུ་གོ་དགུ", "ku˥tɕu˥ ko˥ ku˥"],
+    dz:         ["དགུ་བཅུ་གོ་དགུ", "ɡu tɕu ɡo ɡu"],
     kw:       ["nownsek ha peswar ugens", "naʊnzɛk ha ˈpɛzwar ˈɪɡənz"],
     gv:       ["kiare feed as nuy-jeig", "kʲeːr fiːdʲ as nei dʒeɡ"],
     ht:       ["katrevendiznèf", "katɾevɛ̃diznɛf"],

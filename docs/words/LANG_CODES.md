@@ -783,14 +783,14 @@ Total: 1164 codes.
 | `otq` | Querétaro Otomi | ケレタロ・オトミ語 | Otomanguean | ~30K (vulnerable) |
 | `p_aav` | Proto-Austroasiatic | オーストロアジア祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_dra` | Proto-Dravidian | ドラヴィダ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
-| `p_hmx` | Proto-Hmong-Mien | 苗瑶祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
+| `p_hmx` | Proto-Hmong-Mien | フモン・ミエン祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_ine` | Proto-Indo-European | 印欧祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_jpk` | Proto-Japonic-Koreanic | 日韓祖語 | Japonic-Koreanic (proposed macro-family) | Reconstructed proto-language (no speakers; Bronze Age Korea ~3rd millennium BCE) |
 | `p_jpn` | Proto-Japonic | 日琉祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_kor` | Proto-Koreanic | 朝鮮祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_kra` | Proto-Kra-Dai | クラ・ダイ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_ryu` | Proto-Ryukyuan | 琉球祖語 | Japonic (Ryukyuan) | Reconstructed proto-language (no speakers; split from Japonic ~7–8c. CE) |
-| `p_sit` | Proto-Sino-Tibetan | 漢蔵祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
+| `p_sit` | Proto-Sino-Tibetan | シナ・チベット祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_tun` | Proto-Tungusic | ツングース祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pa` | Punjabi | パンジャーブ語 | Indo-Aryan | ~150M |
 | `pafa` | Proto-Afroasiatic | アフロ・アジア祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |

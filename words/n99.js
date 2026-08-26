@@ -37,6 +37,15 @@
  *                 not a system, it is a single hole right under the round number
  *   opacity       Hindi निन्यानवे, Urdu ننانوے and Bengali নিরানব্বই cannot be
  *                 decomposed at all; Indo-Aryan memorises all hundred separately
+ *   Korean runs in three stages and then stops. 鷄林類事 (1103) records 九曰鴉好
+ *   'nine' and 九十曰鴉訓 'ninety' — 아홉 and 아흔 — in a full decade run that
+ *   goes 10, 20, 30 … 90, 100 and never gives 99, so the Goryeo cell is those
+ *   two joined and is marked inferred. Fifteenth-century Middle Korean has
+ *   아ᄒᆞᆫ아홉 and modern Korean 아흔아홉, the same shape throughout.
+ *   OLD KOREAN IS DELIBERATELY EMPTY. Lee & Ramsey note that of the native
+ *   numerals only 1, 2 and 1000 can be given a Silla-period pronunciation from
+ *   the hyangga; nine and ninety cannot, so there is nothing to reconstruct from.
+ *
  *   Egyptian and Coptic are a pair worth reading together: 𓎎𓐂 psḏyw psḏ and
  *   its descendant ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ, three thousand years apart, the same 90 + 9 with
  *   the same decade built off the nine.
@@ -245,6 +254,9 @@ WORDS.n99 = {
     // 80 ḫmn(yw). Derivational, like English -ty — the free word for ten, mḏ(w),
     // is not in there. Coptic inherits the shape.
     egy: "dec",
+    // Korean, three stages, and the earliest one is where the evidence stops.
+    // 아흔 is a decade word of its own, not 아홉 times 열, all the way back.
+    ko_gor: "dec", ko_mid: "dec", ko_em: "dec",
     // Tibetan writes 9 × 10 and then joins the unit with a particle that is
     // DIFFERENT for every decade — རྩ for 21-29, སོ for 31-39, ཞེ 41-49, ང 51-59,
     // རེ 61-69, དོན 71-79, གྱ 81-89, and གོ for 91-99. So the linker itself tells
@@ -544,6 +556,9 @@ WORDS.n99 = {
     qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     cop:      ["ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ", "pstaiupsis"],
     egy:      ["𓎎𓐂", "pesedʒiu pesedʒ"],
+    ko_gor:     ["鴉訓鴉好", "*ahʌn ahop"],
+    ko_mid:     ["아ᄒᆞᆫ아홉", "ahʌnahop"],
+    ko_em:      ["아흔아홉", "ahɯnahop"],
     xct:        ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
     xct_litpr:  ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
     bo:         ["དགུ་བཅུ་གོ་དགུ", "ku˥tɕu˥ ko˥ ku˥"],

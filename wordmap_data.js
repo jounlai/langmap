@@ -2037,8 +2037,10 @@ const LANG_DATA = {
   // sitting on the Silla row under invented graphs (阿米 / 阿比); reported by
   // @Gutascii (X).
   ko_gor: { name: 'Goryeo Korean (Early Middle)', native: '高麗時代韓國語', lat: 37.97, lng: 126.55, // Kaesong (Goryeo capital)
-
     wordEvidence: {
+      n99:    { evidence: 'inferred',
+                source: "鷄林類事 (1103) 九曰鴉好 ahop 'nine' and 九十曰鴉訓 ahon 'ninety', in a decade run reading 十曰噎, 二十曰戌沒, 三十曰實漢 … 八十曰逸頓, 九十曰鴉訓, 百曰醞",
+                note: "the source gives 90 and 9 separately and has NO entry for 99 — the run jumps from 九十 straight to 百 — so this cell is the two joined. Same shape at every later stage: Middle Korean 아ᄒᆞᆫ아홉, modern 아흔아홉. Old Korean is left empty on purpose: per Lee & Ramsey only 1, 2 and 1000 have a recoverable Silla-period pronunciation, so nine and ninety cannot be carried back that far" },
       water:  { evidence: 'direct', source: '鶏林類事 (1103) 沒 mwol; cf. MK 믈 → 물' },
       fire:   { evidence: 'direct', source: '鶏林類事 孛 pwol; cf. MK 블 → 불' },
       sun:    { evidence: 'direct', source: '鶏林類事 姮 (= 害) hai; cf. modern 해' },

@@ -37,6 +37,12 @@
  *                 not a system, it is a single hole right under the round number
  *   opacity       Hindi निन्यानवे, Urdu ننانوے and Bengali নিরানব্বই cannot be
  *                 decomposed at all; Indo-Aryan memorises all hundred separately
+ *   Coptic is the best-attested cell on this word. ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ is not composed
+ *   here — it is read off the page in Matthew 18:12 and Luke 15:4/15:7, the
+ *   parable of the lost sheep, where the flock of a hundred loses one and the
+ *   ninety-nine are left behind. Three independent attestations of the exact
+ *   number, in running text.
+ *
  *   sixty         Sumerian is the only base-60 row: 𒐕𒌍𒑆, ĝeš 60 + ušu 30 +
  *                 ilimmu 9. It stacks three systems — ten is a subbase, the
  *                 units are quinary (ilimmu is iá 'five' + limmu 'four'), and
@@ -213,6 +219,10 @@ WORDS.n99 = {
     // the older count. Old Turkic is the other one — toquz on, nine tens, still
     // separable, before it fused into doksan / туксан / токсон everywhere.
     fro: "dec", otk: "mult", qwc: "mult",
+    // Coptic ⲡⲥⲧⲁⲓⲟⲩ descends from Egyptian psḏjw, the unit psḏw 'nine' plus a
+    // decade ending — so the nine is in there historically, but the free word
+    // for ten is ⲙⲏⲧ and it is not. Same class as ninety and ዘጠና.
+    cop: "dec",
     // Turkic is uniform — Tatar туксан, Bashkir туҡһан, Kyrgyz токсон, Turkmen
     // togsan, Azerbaijani doxsan and Uyghur توقسان all descend from *tokuz+on
     // fused past recognition. Chuvash alone rebuilt it: тӑхӑр + вуннӑ, nine and
@@ -495,6 +505,7 @@ WORDS.n99 = {
     fro:      ["nonante nuef", "noˈnantə ˈnu̯ɛf"],
     otk:      ["𐱃𐰸𐰆𐰕 𐰆𐰣 𐱃𐰸𐰆𐰕", "toquz on toquz"],
     qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
+    cop:      ["ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ", "pstaiupsis"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

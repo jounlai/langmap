@@ -1793,6 +1793,11 @@ const LANG_DATA = {
   pmh: { name: 'Maharastri Prakrit', native: 'महाराष्ट्री प्राकृत', lat: 19.48, lng: 75.38, // Pratishthan/Paithan (ancient Satavahana capital and Maharastri historical literary heartland — distinct from mr Mumbai for [#14])
 },
   cop: { name: 'Coptic', native: 'ⲙⲉⲧⲣⲉⲙⲛⲕⲏⲙⲉ', lat: 31.20, lng: 29.92,
+    wordEvidence: {
+      n99: { evidence: 'direct',
+             source: "Coptic Dictionary Online (KELLIA/TLA), lemma C2921 ⲡⲥⲧⲁⲓⲟⲩ 'ninety' (Sahidic, NUM; CD 273b, CED 129, KoptHWb 153, DELC 248, ChLCS 38b), whose cited examples contain the exact numeral: ⲡⲓⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ 'the ninety-nine' in Matthew 18:12 and Luke 15:4 and 15:7",
+             note: "attested whole, in running text - the parable of the lost sheep. Written as one word, ⲡⲥⲧⲁⲓⲟⲩ 90 plus ⲯⲓⲥ 9 (Sahidic; Bohairic has ⲯⲓⲧ)" }
+    },
 },
   arc: { name: 'Aramaic', native: 'ܐܪܡܝܐ', lat: 33.51, lng: 36.29,
 },

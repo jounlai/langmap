@@ -47,7 +47,14 @@
  *   ninety-nine are left behind. Three independent attestations of the exact
  *   number, in running text.
  *
- *   Old French is nonante NUEF, not *nonante neuf — the second form looks like
+ *   Old French is attested whole. Le Couronnement de Louis, verse 12: "Quant
+ *   Deus eslist nonante et nuef reiames, / Tôt le meillor torna en dolce
+ *   France" — when God chose ninety-nine kingdoms, he made the best of them
+ *   into sweet France. Langlois's 1888 edition, and a second manuscript in the
+ *   same volume has the variant with the numeral in Roman figures, nonante et
+ *   .ix. So the conjunction is part of it: nonante ET nuef.
+ *
+ *   And it is nuef, not *neuf — the second form looks like
  *   a typo for the modern word and is not one. Wiktionary has nuef as an Old
  *   French numeral, /ˈnu̯ɛf/ 'nine' (variants nof, neof), and has no Old French
  *   section for neuf at all; nuef's own descendants line is nuef > Middle French
@@ -517,7 +524,7 @@ WORDS.n99 = {
     non:      ["níu ok níu tigir", "niːu ɔk niːu ˈtiɣir"],
     cu:       ["девѧть десѧтъ и девѧть", "devɛ̃tĭ desɛ̃tŭ i devɛ̃tĭ"],
     sux:      ["𒐕𒌍𒑆", "ŋeʃ uʃu ilimːu"],
-    fro:      ["nonante nuef", "noˈnantə ˈnu̯ɛf"],
+    fro:      ["nonante et nuef", "noˈnantə e ˈnu̯ɛf"],
     otk:      ["𐱃𐰸𐰆𐰕 𐰆𐰣 𐱃𐰸𐰆𐰕", "toquz on toquz"],
     qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     cop:      ["ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ", "pstaiupsis"],

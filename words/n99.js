@@ -245,6 +245,15 @@ WORDS.n99 = {
     // 80 ḫmn(yw). Derivational, like English -ty — the free word for ten, mḏ(w),
     // is not in there. Coptic inherits the shape.
     egy: "dec",
+    // Cornish nownsek ha peswar ugens and Manx kiare feed as nuy-jeig put the
+    // Celtic vigesimal count at four languages with Breton, on both sides of
+    // the Irish Sea — and Haitian Creole carries the French one to the
+    // Caribbean. Manchu is filed as a decade word: -ju in uyunju is a fossil
+    // of juwan 'ten' surviving only in 60-90, not a live tens-former.
+    kw: "vig", gv: "vig", ht: "vig",
+    pt: "dec", lmo: "dec", ml: "dec", mnc: "dec",
+   
+    mi: "mult", tpi: "mult",
     // Turkic is uniform — Tatar туксан, Bashkir туҡһан, Kyrgyz токсон, Turkmen
     // togsan, Azerbaijani doxsan and Uyghur توقسان all descend from *tokuz+on
     // fused past recognition. Chuvash alone rebuilt it: тӑхӑр + вуннӑ, nine and
@@ -456,7 +465,7 @@ WORDS.n99 = {
     tr:    ["doksan dokuz", "dokˈsan doˈkuz"],
     hu:    ["kilencvenkilenc", "ˈkilɛntsvɛnˌkilɛnts"],
     fi:    ["yhdeksänkymmentäyhdeksän", "ˈyhdeksænˌkymmentæˌyhdeksæn"],
-    la:    ["undecentum", "undeˈkentum"],
+    la:    ["ūndēcentum", "uːndeːˈkentum"],
     yo:    ["ọ̀kàndínlọ́gọ́rùn-ún", "ɔ̀kãdĩ́lɔ́ɡɔ́ɾṹṹ"],
     sq:    ["nëntëdhjetë e nëntë", "nəntəˈðjetə e ˈnəntə"],
     el:    ["ενενήντα εννέα", "eneˈninda eˈnea"],
@@ -529,6 +538,15 @@ WORDS.n99 = {
     qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     cop:      ["ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ", "pstaiupsis"],
     egy:      ["𓎎𓐂", "pesedʒiu pesedʒ"],
+    kw:       ["nownsek ha peswar ugens", "naʊnzɛk ha ˈpɛzwar ˈɪɡənz"],
+    gv:       ["kiare feed as nuy-jeig", "kʲeːr fiːdʲ as nei dʒeɡ"],
+    ht:       ["katrevendiznèf", "katɾevɛ̃diznɛf"],
+    pt:       ["noventa e nove", "nuˈvẽtɐ i ˈnɔvɨ"],
+    lmo:      ["novanta-neuv", "nuˈvanta ˈnøf"],
+    ml:       ["തൊണ്ണൂറ്റൊമ്പത്", "t̪oɳːuːtːombat̪ɨ"],
+    mnc:      ["ᡠᠶᡠᠨᠵᡠ ᡠᠶᡠᠨ", "ujundʒu ujun"],
+    mi:       ["iwa tekau mā iwa", "iwa tekau maː iwa"],
+    tpi:      ["nainpela ten nain", "nainpela ten nain"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

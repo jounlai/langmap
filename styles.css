@@ -1417,6 +1417,10 @@ body.chrome-hidden .chrome-toggle-btn .icon-off { display: block; }
    per-component display rules (e.g. .compare-fab.visible { display: inline-flex }). */
 body.chrome-hidden #word-select,
 body.chrome-hidden #word-definition,
+/* The "?" goes with the panel it opens. Hiding the panel but leaving the icon
+   left a control that visibly did nothing when clicked — the toggle flipped
+   aria-expanded and the definition stayed display:none (owner 2026-08-26). */
+body.chrome-hidden #word-def-toggle,
 body.chrome-hidden #era-filter-row,
 body.chrome-hidden .lang-search-wrap,
 body.chrome-hidden #compare-fab,
@@ -1431,6 +1435,7 @@ body.chrome-hidden #char-random-btn {
    Cleared once Task 2 Step 3's body-class transfer runs. */
 html[data-wm-chrome="hidden"] body #word-select,
 html[data-wm-chrome="hidden"] body #word-definition,
+html[data-wm-chrome="hidden"] body #word-def-toggle,
 html[data-wm-chrome="hidden"] body #era-filter-row,
 html[data-wm-chrome="hidden"] body .lang-search-wrap,
 html[data-wm-chrome="hidden"] body #compare-fab,

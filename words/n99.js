@@ -37,6 +37,10 @@
  *                 not a system, it is a single hole right under the round number
  *   opacity       Hindi निन्यानवे, Urdu ننانوے and Bengali নিরানব্বই cannot be
  *                 decomposed at all; Indo-Aryan memorises all hundred separately
+ *   Egyptian and Coptic are a pair worth reading together: 𓎎𓐂 psḏyw psḏ and
+ *   its descendant ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ, three thousand years apart, the same 90 + 9 with
+ *   the same decade built off the nine.
+ *
  *   Coptic is the best-attested cell on this word. ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ is not composed
  *   here — it is read off the page in Matthew 18:12 and Luke 15:4/15:7, the
  *   parable of the lost sheep, where the flock of a hundred loses one and the
@@ -223,6 +227,10 @@ WORDS.n99 = {
     // decade ending — so the nine is in there historically, but the free word
     // for ten is ⲙⲏⲧ and it is not. Same class as ninety and ዘጠና.
     cop: "dec",
+    // Egyptian decades are the unit plus -yw: 9 psḏ / 90 psḏyw, 8 ḫmn(w) /
+    // 80 ḫmn(yw). Derivational, like English -ty — the free word for ten, mḏ(w),
+    // is not in there. Coptic inherits the shape.
+    egy: "dec",
     // Turkic is uniform — Tatar туксан, Bashkir туҡһан, Kyrgyz токсон, Turkmen
     // togsan, Azerbaijani doxsan and Uyghur توقسان all descend from *tokuz+on
     // fused past recognition. Chuvash alone rebuilt it: тӑхӑр + вуннӑ, nine and
@@ -506,6 +514,7 @@ WORDS.n99 = {
     otk:      ["𐱃𐰸𐰆𐰕 𐰆𐰣 𐱃𐰸𐰆𐰕", "toquz on toquz"],
     qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     cop:      ["ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ", "pstaiupsis"],
+    egy:      ["𓎎𓐂", "pesedʒiu pesedʒ"],
     yue:    ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥sɐp˨kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧sip˨kiu˧˧"],

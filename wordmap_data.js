@@ -1713,7 +1713,12 @@ const LANG_DATA = {
   // mantis), official documents, and ecclesiastical Greek.
   el_kath: { name: 'Greek (Katharevousa)', native: 'Καθαρεύουσα', lat: 37.98, lng: 23.73, // Athens (state administration center)
 },
-  egy: { name: 'Ancient Egyptian', native: '𓂋 𓈖 𓆎𓅓𓏏', lat: 25.69, lng: 32.64 },
+  egy: { name: 'Ancient Egyptian', native: '𓂋 𓈖 𓆎𓅓𓏏', lat: 25.69, lng: 32.64,
+    wordEvidence: {
+      n99: { evidence: 'direct',
+             source: "宮川創・吉野宏志・永井正勝, 「古代エジプト語のヒエログリフ入門」第15回 (ひつじ書房, 2019-11-28), citing Gardiner 1957 and Hoch 1997: 9 = psḏ 慣読 pesedj, 90 = psḏyw 慣読 pesedjiu, and two-digit numbers are written 大きい位から順に (larger place first), with 13, 37 and 89 given as worked examples",
+             note: "the IPA is the Egyptological conventional reading, not a reconstruction - which is what most of this row already uses (sḏt sedʒet, msḏr mesedʒer, fnḏ fenedʒ, nfr nefeɾ, and ḫmt(w) as xamtu). Surface is the composed sign groups U+1338E (nine V20) and U+13402 (nine Z1), matching how the row writes 𓏼 three and 𓏾 five. A reconstructed vocalisation would need Loprieno 37-39 or Allen §9.1.2 p.142, neither reachable" }
+    } },
   // Audit Task 161: shifted from London to Canterbury (Chaucer-era southern
   // dialect tradition; Canterbury Tales pilgrims reflect Middle English speech).
   enm: { name: 'Middle English', native: 'Englisch', lat: 51.28, lng: 1.08,

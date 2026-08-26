@@ -371,7 +371,7 @@ WORDS.sleep = {
     ptrk: ["*ūdï-", "uːdɯ"],
     pmng: ["*unta-", "unta-"],
     p_tun: ["*ām-", "aːm"],
-    p_kra: ["*nwɯːn", "nwɯːn"],
+    ptai: ["*nwɯːn", "nwɯːn"],
     pmay: ["*war", "war"],
     puaz: ["*koci", "koci"],
     pban: ["*-dáada", "-dáada"],

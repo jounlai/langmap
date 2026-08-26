@@ -420,7 +420,7 @@ WORDS.stone = {
     pmng: ["*čilaɣun", "tʃilaɣun"],
     p_tun: ["*ǯolo", "dʒolo"],
     p_aav: ["*tmɔʔ", "tmɔʔ"],
-    p_kra: ["*triːl", "triːl"],
+    ptai: ["*triːl", "triːl"],
     p_hmx: ["*ʔrəu", "ʔrəu"],
     pafa: ["*ʔabun-", "ʔabun-"],
     pkar: ["*ḳwa", "kʼwa"],

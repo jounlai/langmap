@@ -625,7 +625,7 @@ WORDS.name = {
       pmng: ["*nere", "nere"],
       p_tun: ["*gerbū", "gerbū"],
       p_aav: ["—", "—"],
-      p_kra: ["*ɟɯː", "ɟɯː"],
+      ptai: ["*ɟɤː", "ɟɤː"],
       p_hmx: ["—", "—"],
       pafa: ["*sim-", "sim-"],
       pkar: ["*saqel-", "saqel-"],

@@ -788,7 +788,6 @@ Total: 1164 codes.
 | `p_jpk` | Proto-Japonic-Koreanic | 日韓祖語 | Japonic-Koreanic (proposed macro-family) | Reconstructed proto-language (no speakers; Bronze Age Korea ~3rd millennium BCE) |
 | `p_jpn` | Proto-Japonic | 日琉祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_kor` | Proto-Koreanic | 朝鮮祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
-| `p_kra` | Proto-Kra-Dai | クラ・ダイ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_ryu` | Proto-Ryukyuan | 琉球祖語 | Japonic (Ryukyuan) | Reconstructed proto-language (no speakers; split from Japonic ~7–8c. CE) |
 | `p_sit` | Proto-Sino-Tibetan | シナ・チベット祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_tun` | Proto-Tungusic | ツングース祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
@@ -846,6 +845,7 @@ Total: 1164 codes.
 | `pt_gw` | Guinea-Bissau Kriol | ギニアビサウ・クレオール語 | Romance (creole) | ~1.1M (L1/L2 combined) |
 | `pt_mo` | Macanese Portuguese | マカオポルトガル語 | Romance | ~2.2K L1 (Macau) |
 | `pt_mz` | Portuguese (Mozambique) | ポルトガル語(モザンビーク) | Romance | ~3M |
+| `ptai` | Proto-Tai | タイ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `ptrk` | Proto-Turkic | テュルク祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `puaz` | Proto-Uto-Aztecan | ユト・アステカ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pura` | Proto-Uralic | ウラル祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |

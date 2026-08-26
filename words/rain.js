@@ -411,7 +411,7 @@ WORDS.rain = {
     ch: ["uchan", "ˈutʃan"],
     tet: ["udan", "ˈudan"],
     paus: ["*quzaN", "quzaN"],
-    p_kra: ["*fɨn", "fɨn"],
+    ptai: ["*wɯn", "wɯn"],
     p_hmx: ["*naŋ", "naŋ"],
     hmn: ["naag", "naːɡ"],
     qu: ["para", "ˈpara"],

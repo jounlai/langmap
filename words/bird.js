@@ -411,7 +411,7 @@ WORDS.bird = {
     pmng: ["*sibaɣun", "sibaɣun"],
     p_tun: ["*gasa", "gasa"],
     p_aav: ["*ciːm", "ciːm"],
-    p_kra: ["*nok", "nok"],
+    ptai: ["*nok", "nok"],
     p_hmx: ["*m-nɔk", "m-nɔk"],
     pmay: ["*tzʼikin", "tzʼikin"],
     pban: ["*-njʊ̀nì", "-njʊ̀nì"],

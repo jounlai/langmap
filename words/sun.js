@@ -630,7 +630,7 @@ WORDS.sun = {
     pmng: ["*naran", "naran"],
     p_tun: ["*sigūn", "sigūn"],
     p_aav: ["*tŋiːʔ", "tŋiːʔ"],
-    p_kra: ["—", "—"],
+    ptai: ["—", "—"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],
     pkar: ["*mze-", "mze-"],

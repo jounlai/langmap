@@ -361,7 +361,7 @@ WORDS.egg = {
     ptrk: ["*jumurtka", "jumurtqa"],
     pmng: ["*öndegen", "øndeɡen"],
     p_tun: ["*umukta", "umukta"],
-    p_kra: ["*qraj", "qraj"],
+    ptai: ["*qraj", "qraj"],
     pban: ["*-ìgɪ́", "-ìgɪ́"],
     p_sit: ["*ʔu", "ʔu"],
     psem: ["*bayṣ́at-", "bayṣ́at-"],

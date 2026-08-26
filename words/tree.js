@@ -625,7 +625,7 @@ WORDS.tree = {
     pmng: ["*modun", "modun"],
     p_tun: ["*mō", "mō"],
     p_aav: ["—", "—"],
-    p_kra: ["*maːj", "maːj"],
+    ptai: ["*mwaj", "mwaj"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],
     pkar: ["—", "—"],

@@ -126,7 +126,7 @@ WORDS.ear = {
     p_sit: ["*r-na", "r̩na"],
     pura: ["*pixlä", "pixlæ"],
     paus: ["*Caliŋa", "tsaliŋa"],
-    p_kra: ["*huː", "huː"],
+    ptai: ["*krwɯː", "krwɯː"],
     p_jpn: ["*mimi", "mimi"],
     p_ryu: ["*mimi", "mimi"],
     ja: ["耳", "mimi"],

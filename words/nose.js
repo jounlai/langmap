@@ -400,7 +400,7 @@ WORDS.nose = {
     ptrk: ["*burun", "burun"],
     pmng: ["*kamar", "kamar"],
     p_aav: ["*muh", "muh"],
-    p_kra: ["*(ʔ)idaŋ", "idaŋ"],
+    ptai: ["*ɗaŋ", "ɗaŋ"],
     p_hmx: ["*mbru̯iᴴ", "mbru̯i"],
     pkar: ["*cxwir-", "tsxwir"],
     puaz: ["*yaka", "jaka"],

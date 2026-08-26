@@ -631,7 +631,7 @@ WORDS.one = {
     pmng: ["*nigen", "nigen"],
     p_tun: ["*emun", "emun"],
     p_aav: ["*muːj", "muːj"],
-    p_kra: ["*nɯŋ", "nɯŋ"],
+    ptai: ["*nɯːŋ", "nɯːŋ"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],
     pkar: ["*ert-", "ert-"],

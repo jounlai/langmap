@@ -129,7 +129,7 @@ WORDS.earth = {
     shn: ["လိၼ်", "lǐn"],
     km: ["ដី", "dəj"],
     my: ["မြေ", "mjè"],
-    p_kra: ["*ɗin", "ɗin"],
+    ptai: ["*ɗin", "ɗin"],
     id: ["tanah", "tanah"],
     ms: ["tanah", "tanah"],
     jv: ["lemah", "ləmah"],

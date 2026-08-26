@@ -632,7 +632,7 @@ WORDS.water = {
     pmng: ["*usun", "usun"],
     p_tun: ["*mū", "mū"],
     p_aav: ["*ɗaːk", "ɗaːk"],
-    p_kra: ["*naːm", "naːm"],
+    ptai: ["*nam", "nam"],
     p_hmx: ["*ʔuwm", "ʔuwm"],
     pafa: ["*maw-", "maw-"],
     pkar: ["*c̣q̇ar-", "c̣q̇ar-"],

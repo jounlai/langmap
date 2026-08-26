@@ -509,7 +509,7 @@ WORDS.white = {
     p_kor: ["*hʌi", "hʌi"],
     ptrk: ["*āk", "aːk"],
     pmng: ["*čagaːn", "tʃaɡaːn"],
-    p_kra: ["*xaːw", "xaːw"],
+    ptai: ["*xaːw", "xaːw"],
     pkar: ["*ter-", "ter-"],
     pmay: ["*saq", "saq"],
     puaz: ["*tosa", "tosa"],

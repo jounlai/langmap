@@ -563,7 +563,7 @@ WORDS.tooth = {
     pmng: ["*sidün", "sidyn"],
     p_tun: ["*iːkte", "iːkte"],
     p_aav: ["*lmVɲ", "lməɲ"],
-    p_kra: ["*lipan", "lipan"],
+    ptai: ["*wan", "wan"],
     p_hmx: ["*hmjinX", "m̥jin"],
     pafa: ["—", "—"],
     pkar: ["*swa", "sʷa"],

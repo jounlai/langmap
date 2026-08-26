@@ -631,7 +631,7 @@ WORDS.moon = {
     pmng: ["*sara", "sara"],
     p_tun: ["*bēga", "bēga"],
     p_aav: ["—", "—"],
-    p_kra: ["—", "—"],
+    ptai: ["—", "—"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],
     pkar: ["—", "—"],

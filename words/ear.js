@@ -162,6 +162,7 @@ WORDS.ear = {
     hak_cn: ["耳", "ŋiː˩"],
     hak_tw: ["耳", "ŋiː˩"],
     bo: ["རྣ་བ", "naba"],
+    xct: ["རྣ་བ", "naba"],
     bft: ["རྣ་བ", "naba"],
     dz: ["རྣ་བ", "naba"],
     my: ["နား", "nà"],

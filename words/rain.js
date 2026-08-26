@@ -382,6 +382,7 @@ WORDS.rain = {
     id: ["hujan", "ˈhudʒan"],
     ms: ["hujan", "ˈhudʒan"],
     jv: ["udan", "ˈʔudan"],
+    kaw: ["ꦈꦢꦤ꧀", "udan"],
     jvn: ["udan", "ˈʔudan"],
     su: ["hujan", "ˈhudʒan"],
     min: ["ujan", "ˈudʒan"],

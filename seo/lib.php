@@ -1651,7 +1651,10 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-cmp-tbl td .cmp-ipa { display: block; color: var(--accent); font-size: .85rem; }
 .seo-cmp-tbl td .cmp-rl { font-size: .62rem; color: var(--muted); border: 1px solid var(--line);
   border-radius: .4rem; padding: 0 .3rem; margin-right: .25rem; }
-.seo-cmp-tbl td .cmp-rd { margin: 0 0 .25rem; }
+/* One reading per line. A cell can hold two (白讀 la̍k /laʔ˨˦/ and 文讀 lo̍k
+   /lɔʔ˨˦/ for Min Bei 六), and .cmp-rd is a <span>, so the margin below was
+   being dropped and the two readings ran together as one string. */
+.seo-cmp-tbl td .cmp-rd { display: block; margin: 0 0 .25rem; }
 .seo-cmp-tbl td .cmp-rd:last-child { margin-bottom: 0; }
 /* Word-order comparison: one row per language, with LangMap-style SVG
    connector lines between same-role segments of consecutive rows. */

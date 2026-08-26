@@ -577,7 +577,13 @@ WORDS.n99 = {
     ko_gor:     ["鴉訓鴉好", "*ahʌn ahop"],
     ko_mid:     ["아ᄒᆞᆫ아홉", "ahʌnahop"],
     ko_em:      ["아흔아홉", "ahɯnahop"],
-    och:        ["九十有九", "*[k]uʔ t.[ɡ]əp [ɢ]ʷəʔ-s [k]uʔ"],
+    och:        { form: "九十有九", ipa: "*[k]uʔ t.[ɡ]əp [ɢ]ʷəʔ-s [k]uʔ",
+                  alt: [
+                    { form: "九十㞢九", script: "甲骨文 (Shang oracle bone, 釈文)",
+                      source: "甲骨文合集 10407正 has 百㞢九十㞢九 = 199; 㞢 is the earlier writing of the connective 又 (漢語多功能字庫)" },
+                    { form: "九十又九", script: "金文 (Zhou bronze)",
+                      source: "齊侯鎛 (Spring and Autumn): 邑二百又九十又九邑 = 299 邑" }
+                  ] },
     zh_tang:    ["九十九", "kɨuX ʑip kɨuX"],
     xct:        ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
     xct_litpr:  ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],

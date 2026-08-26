@@ -424,6 +424,7 @@ WORDS.snow = {
     aii: ["ܬܲܠܓܵܐ", "talɡa"],
     tru: ["ܬܠܓܐ", "talɡo"],
     akk: ["šalgu", "ʃalɡu"],
+    cop: ["ⲭⲓⲱⲛ", "xioːn"],
     nci: ["cepayahuitl", "sepaˈjawitɬ"],
     nhe: ["sepayauitl", "sepaˈjawitɬ"],
     hch: ["'ɨwi", "ʔɨwi"],

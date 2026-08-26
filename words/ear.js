@@ -109,6 +109,7 @@ WORDS.ear = {
     es_sgl: ["oreja", "oˈɾexa"],
     osp: ["oreja", "oˈɾeʒa"],
     sga: ["clúas", "kluəs"],
+    mga: ["ó", "oː"],
     egy: ["𓅓𓋴𓆓𓂋", "mesedʒer"],
     cop: ["ⲙⲁⲁϫⲉ", "maːdʒe"],
     och: ["耳", "*C.nəʔ"],

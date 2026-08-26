@@ -541,6 +541,7 @@ WORDS.rain = {
     p_jpn: ["*amay", "amay"],
     akk: ["𒍪𒌦𒉡", "ˈzunnu"],
     ang: ["regn", "rejn"],
+    enm: ["reyn", "ræin"],
     goh: ["regan", "ˈreɡan"],
     och: ["雨", "*C.ɢʷ(r)aʔ"],
     mga: ["báitsech", "ˈbaːtʲʃəx"],

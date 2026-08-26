@@ -4637,7 +4637,7 @@ const LANG_DATA = {
     wordEvidence: {
       n99: { evidence: 'direct',
              source: "逸周書·世俘解 (ctext.org/lost-book-of-zhou/shi-fu): 武王遂征四方，凡憝國九十有九國 — 'ninety-nine states'. The same passage uses 有 as the connective throughout: 二十有一, 百一十有八, 三百五十有二, 三千五百有八, 七千七百七十有九",
-             note: "有 here is not 'to have' but the linker 又; Wiktionary's 有 entry glosses exactly this use and marks the reading yòu, quoting 出師表 二十有{yòu}一年. The reconstruction is Baxter-Sagart 2014 (九 *[k]uʔ, 十 *t.[ɡ]əp, 有 *[ɢ]ʷəʔ), matching this row's dominant notation - brackets for uncertain segments as in 夜 *[ɢ]Ak-s, tight-junction dots as in 舌 *mə.lat. The Michigan B-S site would not resolve from here, so the forms are cited rather than re-verified; they are consistent with the Zhengzhang forms Wiktionary does show for the same characters (有 *ɢʷɯʔ, 十 *ɡjub)" }
+             note: "有 here is not 'to have' but the linker 又; Wiktionary's 有 entry glosses exactly this use and marks the reading yòu, quoting 出師表 二十有{yòu}一年. The reconstruction is Baxter-Sagart 2014 (九 *[k]uʔ, 十 *t.[ɡ]əp, and for the connective the reading 又 *[ɢ]ʷəʔ-s rather than 有 *[ɢ]ʷəʔ — Wiktionary gives 又 Middle Chinese hjuwH against 有's hjuwX, and the -s is what yields that 去聲), matching this row's dominant notation - brackets for uncertain segments as in 夜 *[ɢ]Ak-s, tight-junction dots as in 舌 *mə.lat. The Michigan B-S site would not resolve from here, so the forms are cited rather than re-verified; they are consistent with the Zhengzhang forms Wiktionary does show for the same characters (有 *ɢʷɯʔ, 十 *ɡjub)" }
     },
 },
   // Old Japanese (Asuka-Nara, 7-8c.) — Manyōshū / Kojiki period. Heijō-kyō (Nara).

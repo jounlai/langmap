@@ -37,10 +37,20 @@
  *                 not a system, it is a single hole right under the round number
  *   opacity       Hindi निन्यानवे, Urdu ننانوے and Bengali নিরানব্বই cannot be
  *                 decomposed at all; Indo-Aryan memorises all hundred separately
- *   Old Chinese kept a connective the modern language dropped: 九十有九, where
- *   有 is not "to have" but the linker 又. 逸周書·世俘解 uses it right through the
- *   passage — 二十有一, 百一十有八, 三千五百有八, 七千七百七十有九 — and 九十有九
- *   國 "ninety-nine states" sits in the middle of it.
+ *   Chinese is the counterexample to French. Its arithmetic has not moved since
+ *   the oracle bones — always 9×10+9 — and what changed is only the word for the
+ *   "+" in the middle, which finally disappeared:
+ *       Shang oracle bone   九十㞢九   (㞢 = 又; 甲骨文合集 10407正 has 百㞢九十㞢九 = 199)
+ *       Spring and Autumn   九十又九   (齊侯鎛: 邑二百又九十又九邑 = 299)
+ *       transmitted OC      九十有九   (逸周書·世俘解, the cell below)
+ *       Middle → modern     九十九
+ *   And the connective was never obligatory: 二十三 and 二百五十 are already in the
+ *   oracle bones, so both forms ran side by side for three thousand years and the
+ *   shorter one simply won. Only the last two stages are cells here — the atlas
+ *   has no oracle-bone or bronze row to put the earlier ones in.
+ *
+ *   有 in 九十有九 writes the word 又, not "to have": MC hjuwH (去聲) against 有's
+ *   own hjuwX (上聲), which is the -s on the reconstruction below.
  *
  *   Korean runs in three stages and then stops. 鷄林類事 (1103) records 九曰鴉好
  *   'nine' and 九十曰鴉訓 'ninety' — 아홉 and 아흔 — in a full decade run that
@@ -264,7 +274,7 @@ WORDS.n99 = {
     ko_gor: "dec", ko_mid: "dec", ko_em: "dec",
     // Old Chinese 九十有九 is 9×10 with 有 (read 又) between the ten and the unit
     // — still transparent, just with a connective the modern language dropped.
-    och: "mult",
+    och: "mult", zh_tang: "mult",
     // Tibetan writes 9 × 10 and then joins the unit with a particle that is
     // DIFFERENT for every decade — རྩ for 21-29, སོ for 31-39, ཞེ 41-49, ང 51-59,
     // རེ 61-69, དོན 71-79, གྱ 81-89, and གོ for 91-99. So the linker itself tells
@@ -567,7 +577,8 @@ WORDS.n99 = {
     ko_gor:     ["鴉訓鴉好", "*ahʌn ahop"],
     ko_mid:     ["아ᄒᆞᆫ아홉", "ahʌnahop"],
     ko_em:      ["아흔아홉", "ahɯnahop"],
-    och:        ["九十有九", "*[k]uʔ t.[ɡ]əp [ɢ]ʷəʔ [k]uʔ"],
+    och:        ["九十有九", "*[k]uʔ t.[ɡ]əp [ɢ]ʷəʔ-s [k]uʔ"],
+    zh_tang:    ["九十九", "kɨuX ʑip kɨuX"],
     xct:        ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
     xct_litpr:  ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
     bo:         ["དགུ་བཅུ་གོ་དགུ", "ku˥tɕu˥ ko˥ ku˥"],

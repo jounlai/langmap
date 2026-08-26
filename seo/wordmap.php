@@ -27,6 +27,9 @@ if ($seo_id === '') {
 }
 
 if (!isset($data['langs'][$seo_id])) {
+    // A code this map no longer uses may have moved; the other map may
+    // still use it, which is why this runs after the lookup, not before.
+    if (seo_redirect_if_renamed('wordmap', $seo_id, $seo_ui)) return;
     seo_404("Unknown Word Map language: " . $seo_id, $seo_ui);
     return;
 }

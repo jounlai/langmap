@@ -108,6 +108,24 @@ const SEO_RENAMED_CODES = [
     'ar_dz' => 'arq', // Algerian Arabic
     'eml' => 'egl',   // Emilian (eml retired from ISO in 2009)
 ];
+
+/**
+ * 301 to a renamed code's new URL — but only when the requested code is dead
+ * on THIS map. The two maps do not share a code space: the Word Map moved its
+ * proto-languages to p_kor / p_sit / p_aav / p_hmx, while the Han Map still
+ * calls those rows pko / pst / paa / phm. Redirecting on the table alone sent
+ * every Han Map proto page to a Word Map URL that does not exist there, so all
+ * four 404'd while their data sat in the export (owner 2026-08-26).
+ *
+ * Call this only after the map's own lookup has failed.
+ */
+function seo_redirect_if_renamed(string $map, string $id, string $ui): bool
+{
+    if ($id === '' || !isset(SEO_RENAMED_CODES[$id])) return false;
+    header('Location: ' . SEO_SITE . seo_path($ui, $map, SEO_RENAMED_CODES[$id]), true, 301);
+    http_response_code(301);
+    return true;
+}
 const SEO_DATA_DIR = __DIR__ . '/../data';
 
 // Number of Word Map concepts (= WORD_ORDER length in word_manifest.js).

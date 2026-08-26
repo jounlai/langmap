@@ -10,11 +10,9 @@
  * way to tell from the Japanese or English page that anything is wrong. Fifteen
  * Han Map varieties had been added that way (owner 2026-08-26).
  *
- * es and pt are a separate, older gap: 350 Word Map rows were added without
- * them. That is tracked with a ratchet rather than ignored — the count may go
- * down but never up, so the two languages can be filled in at leisure while a
- * new omission still fails immediately. Set the baseline to 0 and delete the
- * exception once they are complete.
+ * es and pt were 350 Word Map rows behind when this was written, held on a
+ * ratchet; they were filled in the same day and the exception is gone. All 19
+ * UIs now cover both maps, and any omission fails immediately.
  *
  * Usage: node tools/lang_name_coverage.js [--check]
  */
@@ -25,10 +23,6 @@ const vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
 const CHECK = process.argv.includes('--check');
-
-// Word Map rows still owed a Spanish and Portuguese name. Ratchet: lower it as
-// they are filled in; never raise it.
-const ESPT_BASELINE = 350;
 
 function ctxOf(file, prep) {
   const c = vm.createContext({});
@@ -52,34 +46,24 @@ const targets = [
   ['Han Map', hanCodes],
 ];
 
-const hard = [];       // any UI other than es/pt
-let espt = 0;          // the tracked es/pt backlog
-const esptCodes = new Set();
+const gaps = [];
 
 for (const [map, codes] of targets) {
   for (const code of codes) {
     for (const ui of UIS) {
-      if ((LANG_NAMES[ui] || {})[code]) continue;
-      if (ui === 'es' || ui === 'pt') { espt++; esptCodes.add(code); continue; }
-      hard.push({ map, code, ui });
+      if (!(LANG_NAMES[ui] || {})[code]) gaps.push({ map, code, ui });
     }
   }
 }
 
-const regressed = espt > ESPT_BASELINE * 2 ? espt : 0;  // 350 codes x {es, pt}
-const violations = hard.length + (regressed ? 1 : 0);
-
 if (CHECK) {
-  console.log(`violations: ${violations}`);
-  for (const v of hard) console.log(`  ${v.map} ${v.code} — no ${v.ui} name`);
-  if (regressed) console.log(`  es/pt backlog grew to ${esptCodes.size} codes (baseline ${ESPT_BASELINE})`);
+  console.log(`violations: ${gaps.length}`);
+  for (const v of gaps) console.log(`  ${v.map} ${v.code} — no ${v.ui} name`);
   process.exit(0);
 }
 
 console.log('language-name coverage — every map row needs a name in every UI\n');
-if (!hard.length) console.log('clean — all 17 fully-translated UIs cover both maps.');
-for (const v of hard) console.log(`  ${v.map.padEnd(9)} ${v.code.padEnd(10)} missing ${v.ui}`);
-console.log(`\nes/pt backlog: ${esptCodes.size} Word Map rows (baseline ${ESPT_BASELINE})`
-  + (regressed ? ' — GREW, this is a failure' : ''));
-console.log(`${violations} violation(s).`);
-process.exit(violations ? 1 : 0);
+if (!gaps.length) console.log(`clean — all ${UIS.length} UIs cover both maps.`);
+for (const v of gaps) console.log(`  ${v.map.padEnd(9)} ${v.code.padEnd(10)} missing ${v.ui}`);
+console.log(`\n${gaps.length} violation(s).`);
+process.exit(gaps.length ? 1 : 0);

@@ -184,6 +184,14 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// data/*_seo.json is what index.php serves for /{ui}/wordmap/{code} at request
+// time. Nothing in the browser reads it, so a forgotten export is invisible
+// locally — localhost shows the new data while langmap.heuron.com serves the
+// old. Adding this is what a session that shipped 11 new concepts to the map
+// and none of them to the site cost (owner 2026-08-26).
+s = run('export_seo_data.js --check');
+line('data/*_seo.json freshness', num(s, /stale: (\d+)/));
+
 // The full validator. Its warnings are advisory; its ERRORS block the commit.
 // This is what catches a bumped WM_ASSET_VERSION whose <script src=?v=N> was
 // left behind — a stale-cache bug that CI, not the pre-commit hook, used to

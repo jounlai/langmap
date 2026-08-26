@@ -1475,6 +1475,9 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color: var(--muted); margin: 0 0 .25rem; }
 .seo-word .surface { font-size: 2rem; line-height: 1.15; margin: 0; word-break: break-word; }
 .seo-word .ipa { font-size: 1.1rem; color: var(--accent); margin: .2rem 0 0; }
+.seo-word .alt { font-size: .95rem; color: var(--muted); margin: .3rem 0 0;
+  word-break: break-word; }
+.seo-word .alt .alt-script { font-size: .75rem; opacity: .8; }
 /* Han-character readings as an aligned dictionary table (文白異讀 / 呉音漢音 etc.). */
 .seo-chartable-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0; }
 .seo-chartable { width: 100%; border-collapse: collapse; font-size: 1rem; }

@@ -178,13 +178,26 @@ function buildWordMapJSON(nameIndex) {
     // populated only in the browser by _mergeWordsIntoLangData(). Rebuild it
     // here from the per-word files so the export is self-contained.
     const entries = {};
+    // Object-form cells carry `alt` — the same word in another script or from
+    // another period (Sawndip, Khitan large script, Jurchen, and the oracle-bone
+    // / bronze writings of Old Chinese 九十有九). Those are the whole reason the
+    // cell is an object rather than a pair, so they have to survive the export
+    // or the SSR page silently shows less than the map does.
+    const altEntries = {};
     for (const id of WORD_ORDER) {
       const w = WORDS[id];
       const e = w && w.data && w.data[code];
       if (!e) continue;
       let surface = '', ipa = '';
       if (Array.isArray(e)) { surface = e[0] || ''; ipa = e[1] || ''; }
-      else { surface = e.form || ''; ipa = e.ipa || ''; }
+      else {
+        surface = e.form || ''; ipa = e.ipa || '';
+        if (Array.isArray(e.alt) && e.alt.length) {
+          altEntries[id] = e.alt.map((a) => ({
+            form: a.form || '', script: a.script || '', source: a.source || '',
+          }));
+        }
+      }
       if (surface || ipa) entries[id] = [surface, ipa];
     }
 
@@ -198,6 +211,7 @@ function buildWordMapJSON(nameIndex) {
       names: nameIndex[code] || {},
       excluded: EXCLUDED.has(code),
       words: entries,
+      altWords: altEntries,
       meta: {
         family: meta.family || '',
         speakers: meta.speakers || '',
@@ -219,6 +233,8 @@ function buildWordMapJSON(nameIndex) {
           : [],
       },
     };
+    // Only 4 rows have alt forms; don't ship 1,160 empty objects.
+    if (!Object.keys(altEntries).length) delete langs[code].altWords;
   }
 
   return {
@@ -435,6 +451,32 @@ function buildHanMapJSON(nameIndex) {
 // ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
+// `--check` reports whether data/*_seo.json still matches the JS sources, the
+// way the other build steps do. It exists because the SSR pages are served from
+// these files at request time, so forgetting the export is invisible locally —
+// the map shows the new data and only langmap.heuron.com stays behind. That is
+// exactly what happened over 2026-08-24..26: a whole session of Word Map work
+// (n99 and 10 other concepts) never reached the site. The `generated` stamp is
+// ignored, or the file would read stale on every run.
+const CHECK = process.argv.includes('--check');
+
+function stripStamp(o) {
+  const c = Object.assign({}, o);
+  delete c.generated;
+  return JSON.stringify(c);
+}
+
+function emit(name, obj) {
+  const file = path.join(OUT_DIR, name);
+  const next = stripStamp(obj);
+  if (!CHECK) { fs.writeFileSync(file, JSON.stringify(obj)); return 0; }
+  if (!fs.existsSync(file)) return 1;
+  let cur;
+  try { cur = stripStamp(JSON.parse(fs.readFileSync(file, 'utf8'))); }
+  catch (e) { return 1; }
+  return cur === next ? 0 : 1;
+}
+
 function main() {
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
@@ -451,19 +493,26 @@ function main() {
   const wordorder = buildWordOrder();
   wm.wordorder = wordorder;
   hm.wordorder = wordorder;
+  const metaI18n = buildMetaI18n(loadWordMap().LANG_DATA, hm.langs);
+
+  let stale = 0;
+  stale += emit('wordmap_seo.json', wm);
+  stale += emit('hanmap_seo.json', hm);
+  stale += emit('meta_i18n_seo.json', metaI18n);
+
+  if (CHECK) {
+    console.log('stale: ' + stale);
+    if (stale) console.log('  run: node tools/export_seo_data.js');
+    process.exit(0);
+  }
+
   console.log('Word-order languages: ' + Object.keys(wordorder).length +
     ' (sentences source: ' + (wordorder.ja ? wordorder.ja.length : 0) + ' for ja)');
-
-  fs.writeFileSync(path.join(OUT_DIR, 'wordmap_seo.json'), JSON.stringify(wm));
-  fs.writeFileSync(path.join(OUT_DIR, 'hanmap_seo.json'), JSON.stringify(hm));
-
-  const metaI18n = buildMetaI18n(loadWordMap().LANG_DATA, hm.langs);
-  fs.writeFileSync(path.join(OUT_DIR, 'meta_i18n_seo.json'), JSON.stringify(metaI18n));
 
   // Spot-check.
   const checks = [
     ['wordmap', wm.langs, 'ja'],
-    ['wordmap', wm.langs, 'yue_hk'],
+    ['wordmap', wm.langs, 'yue'],   // the Word Map's Cantonese row; yue_hk is Han Map only
     ['hanmap', hm.langs, 'cjy'],
     ['hanmap', hm.langs, 'yue_hk'],
   ];

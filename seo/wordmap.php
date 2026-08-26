@@ -135,11 +135,21 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
       $surface = $entry[0] ?? '';
       $ipa = $entry[1] ?? '';
       if ($surface === '' && $ipa === '') continue;
+      // Alternate script / period forms — Sawndip for Zhuang, the Khitan large
+      // script, the Jurchen 女真譯語 transliterations, and the oracle-bone and
+      // bronze writings of Old Chinese. The map shows these under the main word;
+      // the SSR page has no hover, so the script name is printed, not tooltipped.
+      $alts = $lang['altWords'][$id] ?? [];
   ?>
     <div class="seo-word">
       <p class="label"><?= e($label) ?></p>
       <p class="surface" lang="<?= e($code) ?>"><?= e($surface !== '' ? $surface : '—') ?></p>
-      <?php if ($ipa !== ''): ?><p class="ipa">/<?= e($ipa) ?>/</p><?php endif; ?>
+      <?php if ($ipa !== ''): ?><p class="ipa"><?= e($ipa) ?></p><?php endif; ?>
+      <?php foreach ($alts as $a):
+          $af = $a['form'] ?? ''; if ($af === '') continue;
+          $as = $a['script'] ?? ''; ?>
+        <p class="alt"><span lang="<?= e($code) ?>"><?= e($af) ?></span><?php if ($as !== ''): ?> <span class="alt-script"><?= e($as) ?></span><?php endif; ?></p>
+      <?php endforeach; ?>
     </div>
   <?php endforeach; ?>
   </div>

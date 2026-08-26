@@ -3586,6 +3586,11 @@ const LANG_DATA = {
 },
   // Old Romance / Old Germanic
   fro: { name: 'Old French', native: 'romans', lat: 48.86, lng: 2.35, // Île-de-France
+    wordEvidence: {
+      n99: { evidence: 'direct',
+             source: "Le Couronnement de Louis, verse 12: 'Quant Deus eslist nonante et nuef reiames, / Tot le meillor torna en dolce France.' Ernest Langlois's 1888 edition (archive.org lecouronnementd01langgoog, line 7755); a second manuscript printed in the same volume gives the variant with the numeral in Roman figures, 'nonante et .ix. reaumes'",
+             note: "attested whole, in verse, which is why the conjunction is there: nonante ET nuef. And nuef rather than neuf - Wiktionary has nuef as the Old French numeral, /ˈnu̯ɛf/, with no Old French section for neuf at all, and its own descendants line runs nuef > Middle French neuf > Modern French neuf" }
+    },
 },
   // Classical French / French of the Grand Siècle (17c., "Le Bel Usage")
   // — the French of Racine, Corneille, Molière, La Fontaine, Pascal,

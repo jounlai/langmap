@@ -427,7 +427,7 @@ WORDS.thanks = {
     vec: ["grassie", "ɡrasje"],
     co: ["grazie", "ɡratsje"],
     lij: ["graçie", "ɡrasje"],
-    rgn: ["gras", "ˈɡɾas"],
+    rgn: ["gras", "ɡɾas"],
     egl: ["gràzie", "ˈɡɾaːtsje"],
     frp: ["mèrci", "mɛrsi"],
     ca: ["gràcies", "ɡɾasiəs"],

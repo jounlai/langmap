@@ -446,7 +446,7 @@ WORDS.night = {
     bg: ["нощ", "noʃt"],
     lt: ["naktis", "nɐkˈtʲɪs"],
     sgs: ["naktis", "ˈnaktʲɪs"],
-    lv: ["nakts", "ˈnakts"],
+    lv: ["nakts", "nakts"],
     prg: ["nacktin", "naktin"],
     sq: ["natë", "ˈnatə"],
     aae: ["natë", "ˈnatə"],

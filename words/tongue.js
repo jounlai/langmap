@@ -427,7 +427,7 @@ WORDS.tongue = {
     yi: ["צונג", "tsuŋ"],
     is: ["tunga", "ˈtʰuŋka"],
     gd: ["teanga", "ˈtʃʰɛŋɡə"],
-    br: ["teod", "ˈtɛwt"],
+    br: ["teod", "tɛwt"],
     nap: ["lengua", "ˈlɛŋɡwə"],
     scn: ["lingua", "ˈlinɡwa"],
     vec: ["léngua", "ˈleŋɡwa"],

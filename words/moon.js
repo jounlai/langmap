@@ -862,7 +862,7 @@ WORDS.moon = {
     an: ["luna", "ˈluna"],
     rup: ["lunâ", "ˈlunɨ"],
     ruq: ["lunâ", "ˈlunɨ"],
-    wa: ["lune", "ˈlyn"],
+    wa: ["lune", "lyn"],
     kpv: ["тӧлысь", "tɵlɨɕ"],
     koi: ["тӧлісь", "tɵliɕ"],
     udm: ["толэзь", "tolezʲ"],

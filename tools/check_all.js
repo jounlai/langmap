@@ -184,6 +184,12 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// ˈ on a monosyllable marks a contrast that is not there. Half the stress
+// policy is checkable; the other half — whether a polysyllable SHOULD carry it
+// — depends on the language and stays a judgement call.
+s = run('stress_mark_check.js --check');
+line('stress mark on monosyllables', num(s, /violations: (\d+)/));
+
 // namemap_i18n/<ui>.js is the per-UI split of namemap_content_i18n.js, which
 // namemap.html no longer loads. Edit a country name or a background paragraph
 // in the source without rebuilding and the page keeps showing the old text.

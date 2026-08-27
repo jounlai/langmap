@@ -861,7 +861,7 @@ WORDS.fish = {
     lmo: ["pess", "pes"],
     pms: ["pess", "pes"],
     mwl: ["peixe", "ˈpejʃe"],
-    pnt: ["ψάρ", "ˈpsar"],
+    pnt: ["ψάρ", "psar"],
     hno: ["مچھی", "mətʃʰiː"],
     bhb: ["माछली", "maːtʃʰliː"],
     cja: ["kan", "kan"],

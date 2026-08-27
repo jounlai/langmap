@@ -184,6 +184,13 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// wordmap_meta_lite.js + meta_desc/ (11 MB) + meta_i18n/ (5.8 MB) are the
+// largest generated set here and nothing guarded them: editing wordmap_meta.js
+// without rerunning left the site serving the old metadata, and the only thing
+// that noticed was the content-hash version lock, which gets --updated routinely.
+s = run('build_meta_split.js --check');
+line('meta split freshness', num(s, /stale: (\d+)/));
+
 // In IPA j is the palatal glide and y is a vowel. Ten rows spelled the glide
 // both ways, from sources that use the Americanist y.
 s = run('glide_notation_check.js --check');

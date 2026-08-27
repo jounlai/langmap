@@ -66,17 +66,46 @@ for (const [page, tagRx, callRx, name] of PAIRS) {
         if (process.argv.includes('--update')) {
             lock.namemap_i18n = { version, hash };
             fs.writeFileSync(lockPath, JSON.stringify(lock, null, 2) + '\n');
-            console.log('slice_version.lock.json updated (namemap_i18n v=' + version + ')');
-            process.exit(0);
-        }
+            console.log('slice_version.lock.json: namemap_i18n v=' + version);
+        } else {
         const prev = lock.namemap_i18n;
         if (!prev) violations.push({ page: 'namemap.html', name: '__nmI18nVersion',
             msg: 'namemap_i18n/ not in the lock yet; run: node tools/slice_version_check.js --update' });
         else if (prev.hash !== hash && prev.version === version)
             violations.push({ page: 'namemap.html', name: '__nmI18nVersion',
                 msg: `namemap_i18n/ changed but __nmI18nVersion is still ${version}` });
+        }
     }
 }
+
+// countries.geojson (1.95 MB) is pulled by fetch(), not a <script src>, so no
+// lock tracked it either — and tools/build_countries_geojson.js just tells the
+// reader to "bump the ?v= in wordmap.html when you regenerate". Same hash test.
+{
+    const crypto = require('crypto');
+    const f = path.join(ROOT, 'countries.geojson');
+    const lockPath = path.join(__dirname, 'slice_version.lock.json');
+    if (fs.existsSync(f)) {
+        const hash = crypto.createHash('sha1').update(fs.readFileSync(f)).digest('hex').slice(0, 16);
+        const s = fs.readFileSync(path.join(ROOT, 'wordmap.html'), 'utf8');
+        const call = /countries\.geojson\?v=(\d+)/.exec(s);
+        const version = call ? call[1] : null;
+        const lock = fs.existsSync(lockPath) ? JSON.parse(fs.readFileSync(lockPath, 'utf8')) : {};
+        if (process.argv.includes('--update')) {
+            lock['countries.geojson'] = { version, hash };
+            fs.writeFileSync(lockPath, JSON.stringify(lock, null, 2) + '\n');
+        } else {
+            const prev = lock['countries.geojson'];
+            if (!prev) violations.push({ page: 'wordmap.html', name: 'countries.geojson',
+                msg: 'countries.geojson not in the lock yet; run: node tools/slice_version_check.js --update' });
+            else if (prev.hash !== hash && prev.version === version)
+                violations.push({ page: 'wordmap.html', name: 'countries.geojson',
+                    msg: `countries.geojson changed but its fetch is still ?v=${version}` });
+        }
+    }
+}
+
+if (process.argv.includes('--update')) { console.log('slice_version.lock.json updated.'); process.exit(0); }
 
 if (CHECK) {
     console.log(`violations: ${violations.length}`);

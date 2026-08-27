@@ -2,5 +2,9 @@
   "namemap_i18n": {
     "version": "1",
     "hash": "f9d3273a7ea77a71"
+  },
+  "countries.geojson": {
+    "version": "1",
+    "hash": "0b43ff5c126c23df"
   }
 }

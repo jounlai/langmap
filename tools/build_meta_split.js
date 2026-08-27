@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+/* --check mode (added 2026-08-27): report whether the generated files still
+ * match wordmap_meta.js instead of writing them. This is the largest generated
+ * set in the repo — wordmap_meta_lite.js, meta_desc/ (11 MB) and meta_i18n/
+ * (5.8 MB) — and until now nothing guarded it. Editing wordmap_meta.js without
+ * rerunning left the site serving the old metadata; the only thing that noticed
+ * was the content-hash version lock, which is routinely --updated. */
 /*
  * build_meta_split.js — split the 19 MB wordmap_meta.js so a language popup
  * no longer pulls the whole corpus.
@@ -21,6 +27,24 @@
  */
 const fs = require('fs');
 const path = require('path');
+
+// --check: stage every write and diff it, so one run answers "is any of this stale?"
+const CHECK = process.argv.includes('--check');
+let STALE = 0;
+const _write = fs.writeFileSync.bind(fs);
+const _mkdir = fs.mkdirSync.bind(fs);
+if (CHECK) {
+    fs.writeFileSync = (p, body) => {
+        const cur = fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : null;
+        if (cur !== String(body)) STALE++;
+    };
+    fs.mkdirSync = () => {};
+    const seen = new Set();
+    process.on('exit', () => {
+        console.log(`stale: ${STALE}`);
+        if (STALE) console.log('  run: node tools/build_meta_split.js');
+    });
+}
 const vm = require('vm');
 const ROOT = path.join(__dirname, '..');
 

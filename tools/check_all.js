@@ -184,6 +184,11 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// In IPA j is the palatal glide and y is a vowel. Ten rows spelled the glide
+// both ways, from sources that use the Americanist y.
+s = run('glide_notation_check.js --check');
+line('glide notation (j vs y)', num(s, /violations: (\d+)/));
+
 // meta.family is the family tree's grouping key: tree.html takes everything
 // before "(" as the top-level node and my-languages.js counts the distinct
 // values. A ">" chain or a second spelling forks the family.

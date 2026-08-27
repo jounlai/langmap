@@ -600,7 +600,7 @@ WORDS.wind = {
     mns: ["wot", "wot"],
     myv: ["var̃ma", "var̃ma"],
     mzh: ["inhʷokʷ", "inhʷokʷ"],
-    nog: ["ел", "yel"],
+    nog: ["ел", "jel"],
     nut: ["lam.2", "lam"],
     pbb: ["wexʸa", "wexʸa"],
     rmy: ["balval", "balval"],

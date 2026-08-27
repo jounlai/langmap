@@ -632,7 +632,7 @@ WORDS.eat = {
     pmay: ["—", "—"],
     puaz: ["*kwaʔa", "kwaʔa"],
     pban: ["*-dɪ́a", "-dɪ́a"],
-    p_sit: ["*dzya", "dzya"],
+    p_sit: ["*dzya", "dzja"],
     psem: ["*ʔakal-", "ʔakal-"],
     pura: ["*sewe-", "sewe-"],
     p_dra: ["*uṇ", "uṇ"],

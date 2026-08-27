@@ -565,7 +565,7 @@ WORDS.red = {
     pmay: ["*kaq", "kaq"],
     puaz: ["—", "—"],
     pban: ["*-kúndù", "-kúndù"],
-    p_sit: ["*tya-n", "tya-n"],
+    p_sit: ["*tya-n", "tja-n"],
     psem: ["*ʔadam-", "ʔadam-"],
     pura: ["—", "—"],
     p_dra: ["*cem-", "cem-"],

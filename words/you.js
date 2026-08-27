@@ -746,7 +746,7 @@ WORDS.you = {
       pqm: ["kil", "kil"],
       abe: ["kia", "kia"],
       umu: ["kii", "kiː"],
-      crk: ["ᑭᔭ", "kiya"],
+      crk: ["ᑭᔭ", "kija"],
       yur: ["ke'l", "keʔl"],
       lkt: ["niyé", "nijé"],
       kl: ["illit", "iɬːit"],

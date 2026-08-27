@@ -622,7 +622,7 @@ WORDS.two = {
       p_jpn: ["*puta", "puta"],
       p_kor: ["*tur", "tur"],
       ptrk: ["*eki", "eki"],
-      pmng: ["*koyar", "koyar"],
+      pmng: ["*koyar", "kojar"],
       p_tun: ["*ǰör", "ǰör"],
       p_aav: ["*ɓaːr", "ɓaːr"],
       ptai: ["*soːŋ", "soːŋ"],

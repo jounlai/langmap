@@ -635,7 +635,7 @@ WORDS.name = {
       p_sit: ["*r-miŋ", "r-miŋ"],
       psem: ["*šim-", "šim-"],
       pura: ["*nimi", "nimi"],
-      p_dra: ["*peyar", "peyar"],
+      p_dra: ["*peyar", "pejar"],
       paus: ["*ŋajan", "ŋajan"],
       zh_song: ["名", "miajŋ˧"],
       zh_wenyan_edu: ["名", "mɪŋ˨˩"],

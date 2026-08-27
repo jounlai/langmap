@@ -376,7 +376,7 @@ WORDS.sleep = {
     pmay: ["*war", "war"],
     puaz: ["*koci", "koci"],
     pban: ["*-dáada", "-dáada"],
-    p_sit: ["*yip", "yip"],
+    p_sit: ["*yip", "jip"],
     p_dra: ["*tuñc-", "tuɲtʃ"],
     paus: ["*tuduR", "tuduR"],
     zh_song: ["睡", "ʂui˥˩"],

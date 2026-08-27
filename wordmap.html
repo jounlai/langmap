@@ -31,6 +31,12 @@
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
     <link rel="manifest" href="/manifest.json">
+    <!-- CARTO raster basemaps need a key or the tiles carry an "API key
+         required" watermark. basemap_key.js is NOT in the repo (.gitignore);
+         see basemap_key.sample.js. Missing, the map works and only the
+         watermark returns, so a fresh clone needs no setup. No ?v= on
+         purpose: it is deployed by hand, outside the version registry. -->
+    <script src="basemap_key.js"></script>
     <meta name="theme-color" content="#2e6fb8">
     <script type="application/ld+json">
     {
@@ -3378,13 +3384,17 @@
         // pill (#tiles-revert) — no automatic restoration on close.
         let _currentTilesMode = 'flat';
         let _currentTileLayer = null;
+        // CARTO raster tiles need ?key=; basemap_key.js defines it and is not
+        // in the repo. Undefined -> empty string -> the URL is what it was.
+        const CARTO_KEY_QS = (typeof window.CARTO_BASEMAP_KEY === 'string' && window.CARTO_BASEMAP_KEY)
+            ? '?key=' + encodeURIComponent(window.CARTO_BASEMAP_KEY) : '';
         const TILE_LAYERS = {
             flat: {
-                url: 'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png',
+                url: 'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png' + CARTO_KEY_QS,
                 opts: { attribution: '&copy; <a href="https://carto.com/">CARTO</a>', maxZoom: 18 },
             },
             labels: {
-                url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+                url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png' + CARTO_KEY_QS,
                 opts: { attribution: '&copy; <a href="https://carto.com/">CARTO</a> &middot; <a href="https://openstreetmap.org">OSM</a>', maxZoom: 18 },
             },
             terrain: {

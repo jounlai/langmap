@@ -11,3 +11,7 @@ __pycache__/
 submissions/*.json
 wordmap_data.js.pre-split
 server.log
+
+# CARTO basemap key — deployed to the server by hand, never committed.
+# See basemap_key.sample.js. Absent, the map still works (with the watermark).
+/basemap_key.js

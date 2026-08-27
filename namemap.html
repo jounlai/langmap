@@ -318,10 +318,7 @@
         /* Credit watermark (bottom-left), same as WordMap / HanMap so every map
            carries the "Made by" credit alongside the map attribution. */
         .url-watermark {
-            /* +10px so the strip never depends on the last few pixels of
-               the viewport, and +var(--vv-bottom) so it follows the region
-               actually painted (see the visualViewport script in <head>). */
-            position: fixed; bottom: calc(var(--vv-bottom, 0px) + 10px); left: 0; z-index: 1000;
+            position: fixed; bottom: 0; left: 0; z-index: 1000;
             font-size: 11px; color: rgba(0,0,0,0.75);
             background: rgba(255,255,255,0.92); padding: 3px 8px;
             border-radius: 0 4px 0 0;
@@ -350,7 +347,7 @@
         .leaflet-control-container .leaflet-bottom.leaflet-right {
             position: fixed;
             right: 0;
-            bottom: calc(var(--vv-bottom, 0px) + env(safe-area-inset-bottom, 0px) + 10px);
+            bottom: env(safe-area-inset-bottom, 0px);
         }
         .leaflet-control-attribution {
             background: rgba(255,255,255,0.92) !important;
@@ -360,16 +357,6 @@
             border-radius: 4px 0 0 0;
         }
         .leaflet-control-attribution a { color: rgba(0,0,0,0.78) !important; }
-        /* Mobile keeps the verified layout: the attribution sits on the same
-           line as the credit, hard against the safe-area edge. The +10px lift
-           and --vv-bottom above are a desktop remedy (owner confirmed iPhone
-           was already correct on 2026-08-28). */
-        @media (max-width: 780px) {
-            .leaflet-control-container .leaflet-bottom.leaflet-right {
-                bottom: env(safe-area-inset-bottom, 0px);
-            }
-        }
-
 
         .size-slider-wrap {
             display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
@@ -502,41 +489,6 @@
             .nm-panel.info-open ~ .nm-fab-info { display: none; }
         }
     </style>
-    <script>
-        /* Bottom-anchored UI — the two credits and (on HanMap) the dialect
-           legend — is position:fixed, which anchors to the LAYOUT viewport.
-           That is not always what is painted: on desktop Chrome a maximized
-           window can report a layout viewport taller than the visible area,
-           and any pinch-zoom does the same, so everything pinned to bottom:0
-           slides below the screen edge together (owner 2026-08-28,
-           "ウィンドーサイズを全画面にすると見えなくなる" — and the dialect
-           button moved down with it, which is the same symptom).
-
-           visualViewport reports the region actually on screen. Publish the
-           difference as --vv-bottom and let the bottom offsets add it, so the
-           strip rides on the visible edge whatever the window is doing.
-
-           Desktop only. Mobile was confirmed correct after the safe-area fix
-           and iOS already moves visualViewport for its own toolbar, so adding
-           the gap there would push the credits up twice. */
-        (function () {
-            var vv = window.visualViewport;
-            if (!vv) return;
-            var root = document.documentElement;
-            function sync() {
-                var gap = 0;
-                if (root.clientWidth > 780) {
-                    gap = Math.max(0, Math.round(root.clientHeight - (vv.height + vv.offsetTop)));
-                    if (gap > 300) gap = 0;   /* implausible: don't strand the UI mid-screen */
-                }
-                root.style.setProperty('--vv-bottom', gap + 'px');
-            }
-            vv.addEventListener('resize', sync);
-            vv.addEventListener('scroll', sync);
-            window.addEventListener('resize', sync);
-            sync();
-        })();
-    </script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Name Map</h1>

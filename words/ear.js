@@ -349,6 +349,7 @@ WORDS.ear = {
     ota: ["قولاق", "qulaq"],
     mn: ["чих", "tɕʰiç"],
     mn_cn: ["ᠴᠢᠬᠢ", "tʃʰiki"],
+    cmg: ["ᠴᠢᠬᠢᠨ", "tʃikin"],
     xal: ["чикн", "tʃikn"],
     bxr: ["шэхэн", "ʃexen"],
     mnc: ["ᡧᠠᠨ", "ʃan"],

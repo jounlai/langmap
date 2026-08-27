@@ -223,6 +223,7 @@ WORDS.snow = {
     yo: ["yìnyín", "jĩ̀jĩ́"],
     zu: ["iqhwa", "iǃʰwa"],
     am: ["በረዶ", "bərədo"],
+    gez: ["ሐመዳ", "ħamadaː"],
     ain: ["ウパㇱ", "upas"],
     fi: ["lumi", "lumi"],
     hu: ["hó", "hoː"],

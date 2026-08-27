@@ -210,6 +210,7 @@ WORDS.earth = {
     ptrk: ["*jer", "jer"],
     mn: ["газар", "ɢɑzɑr"],
     mn_cn: ["ᠭᠠᠵᠠᠷ", "ɢɑdʒɑr"],
+    cmg: ["ᠭᠠᠵᠠᠷ", "ɡadʒar"],
     xal: ["газр", "ɡazr"],
     bxr: ["газар", "ɡazar"],
     pmng: ["*ɣajar", "ɣajar"],

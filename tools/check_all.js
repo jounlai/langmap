@@ -96,6 +96,13 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // /sitemap-seo.xml is at 94.9% of the 50MB limit (review 460). Over it, search
 // engines reject the WHOLE file rather than the excess, so every SSR page loses
 // its entry at once. Reported as headroom until it goes over.
+// Eager first-paint weight per page, ratcheted. hanmap.html is 1,988 KB gz and
+// 943 KB of that is hanmap_trivia.js, which wordmap.html loads AFTER `load` by
+// its own stated rule (review 462). The guard stops it growing further.
+s = run('page_weight_check.js --check');
+line('page weight ratchet', num(s, /violations: (\d+)/),
+    (s.match(/heaviest: ([^\n]+)/) || [])[1] || '');
+
 s = run('sitemap_size_check.js --check');
 line('sitemap within limits', num(s, /violations: (\d+)/),
     (s.match(/headroom: ([\d.]+)% of the byte limit[^)]*\)/) || [])[0] || '');

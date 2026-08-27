@@ -197,6 +197,22 @@ jobs:
                 // from the domain root), not a filesystem absolute path.
                 const path = ref.startsWith('/') ? ref.slice(1) : ref;
                 if (!fs.existsSync(path)) {
+                  // A file the repository deliberately does not ship cannot be
+                  // asserted to exist here. basemap_key.js holds the CARTO
+                  // basemap key, is listed in .gitignore, and is uploaded to
+                  // the server by hand; the pages tolerate its absence (no key
+                  // -> no ?key= -> watermarked tiles), which is precisely why
+                  // it is allowed to be optional. Ask git rather than keeping a
+                  // hand-written allowlist, so this stays true for the next one.
+                  let ignored = false;
+                  try {
+                    require('child_process').execFileSync('git', ['check-ignore', '-q', path], { stdio: 'ignore' });
+                    ignored = true;
+                  } catch (e) { ignored = false; }
+                  if (ignored) {
+                    console.log(h, '-- optional, gitignored, deployed by hand:', ref);
+                    continue;
+                  }
                   console.error(h, 'references missing file:', ref);
                   bad++;
                 }

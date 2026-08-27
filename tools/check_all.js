@@ -85,6 +85,15 @@ line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/
 s = run('surface_tone_check.js --check');
 line('no Chao tone in surface', num(s, /violations: (\d+)/));
 
+// A declared Han Map lect must not be a copy of its group's parent row. Every
+// genuinely researched sub-dialect sits 0–69% identical to its parent; six rows
+// sit at 95–100% because they were declared but never separately sourced. Those
+// six are listed as debt inside the tool (green, but visible); a SEVENTH copy
+// appearing is a violation.
+s = run('hanmap_dup_row_check.js --check');
+line('no copied Han Map row', num(s, /violations: (\d+)/),
+    (s.match(/debt: (\d+)/) || [])[1] ? (s.match(/debt: (\d+)/)[1] + ' known undifferentiated') : '');
+
 // A language that is fully extinct (no living speakers) AND carries a
 // meta.period belongs on the historical map, not shown as a modern language.
 // Mochica (omc) slipped through as modern despite 0 speakers + a period

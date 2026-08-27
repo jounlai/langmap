@@ -98,7 +98,10 @@
                the controls on top and the scrollable info below. Map area to
                the right stays clear. Translucent (no solid white frame). ---- */
         .nm-panel {
-            position: absolute; top: 10px; left: 10px; bottom: 10px; z-index: 800;
+            /* bottom:26px, not 10px: the panel used to reach into the
+               credit strip and its translucent card washed the credit out
+               (owner 2026-08-27, "左の説明ウィンドーに隠れてるかも"). */
+            position: absolute; top: 10px; left: 10px; bottom: 26px; z-index: 800;
             width: 350px; max-width: calc(100% - 20px);
             display: flex; flex-direction: column; overflow: hidden;
             background: rgba(255,255,255,0.9);
@@ -316,13 +319,45 @@
            carries the "Made by" credit alongside the map attribution. */
         .url-watermark {
             position: fixed; bottom: 0; left: 0; z-index: 1000;
-            font-size: 11px; color: rgba(0,0,0,0.5);
-            background: rgba(255,255,255,0.75); padding: 3px 8px;
+            font-size: 11px; color: rgba(0,0,0,0.75);
+            background: rgba(255,255,255,0.92); padding: 3px 8px;
             border-radius: 0 4px 0 0;
             display: flex; align-items: center; gap: 4px; line-height: 1.2;
             pointer-events: none;
         }
         .url-watermark a { pointer-events: auto; color: inherit; }
+
+        /* --- Map credits -------------------------------------------------
+           Both credits sat in the last ~17px of the viewport at
+           rgba(0,0,0,0.5) on rgba(255,255,255,0.75) and were reported
+           unreadable on a desktop screen (owner 2026-08-27). Two faults:
+
+           1. LEGIBILITY. 11px half-opacity black over a light basemap with
+              language labels crossing it. Darkened; the plate made nearly
+              opaque so map labels stop showing through the text.
+           2. iOS. Leaflet pins its attribution INSIDE #map, which is 100vh
+              tall, and on iOS Safari the bottom of 100vh sits behind the
+              browser toolbar — so the CARTO credit was invisible on iPhone
+              while .url-watermark, being position:fixed, stayed visible.
+              Fixing the control to the VISUAL viewport puts the two credits
+              back on the same line.
+
+           The CARTO + OpenStreetMap credit is the condition of the free
+           basemap tier, so it has to be legible, not merely present. */
+        .leaflet-control-container .leaflet-bottom.leaflet-right {
+            position: fixed;
+            right: 0;
+            bottom: env(safe-area-inset-bottom, 0px);
+        }
+        .leaflet-control-attribution {
+            background: rgba(255,255,255,0.92) !important;
+            color: rgba(0,0,0,0.75) !important;
+            font-size: 11px; line-height: 1.2;
+            padding: 3px 8px; margin: 0 !important;
+            border-radius: 4px 0 0 0;
+        }
+        .leaflet-control-attribution a { color: rgba(0,0,0,0.78) !important; }
+
         .size-slider-wrap {
             display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
             background: rgba(255,255,255,0.92); border-radius: 8px; padding: 6px 4px;

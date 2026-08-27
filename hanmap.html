@@ -1496,12 +1496,44 @@
                edge (owner 2026-07-12 "クレジット表記は残すように"); still below
                the Compare FAB (1015). */
             bottom: 0; left: 0; z-index: 1014;
-            font-size: 11px; color: rgba(0,0,0,0.5);
-            background: rgba(255,255,255,0.75); padding: 3px 8px;
+            font-size: 11px; color: rgba(0,0,0,0.75);
+            background: rgba(255,255,255,0.92); padding: 3px 8px;
             border-radius: 0 4px 0 0;
             display: flex; align-items: center; gap: 4px;
         }
         .url-watermark a { pointer-events: auto; }
+
+        /* --- Map credits -------------------------------------------------
+           Both credits sat in the last ~17px of the viewport at
+           rgba(0,0,0,0.5) on rgba(255,255,255,0.75) and were reported
+           unreadable on a desktop screen (owner 2026-08-27). Two faults:
+
+           1. LEGIBILITY. 11px half-opacity black over a light basemap with
+              language labels crossing it. Darkened; the plate made nearly
+              opaque so map labels stop showing through the text.
+           2. iOS. Leaflet pins its attribution INSIDE #map, which is 100vh
+              tall, and on iOS Safari the bottom of 100vh sits behind the
+              browser toolbar — so the CARTO credit was invisible on iPhone
+              while .url-watermark, being position:fixed, stayed visible.
+              Fixing the control to the VISUAL viewport puts the two credits
+              back on the same line.
+
+           The CARTO + OpenStreetMap credit is the condition of the free
+           basemap tier, so it has to be legible, not merely present. */
+        .leaflet-control-container .leaflet-bottom.leaflet-right {
+            position: fixed;
+            right: 0;
+            bottom: env(safe-area-inset-bottom, 0px);
+        }
+        .leaflet-control-attribution {
+            background: rgba(255,255,255,0.92) !important;
+            color: rgba(0,0,0,0.75) !important;
+            font-size: 11px; line-height: 1.2;
+            padding: 3px 8px; margin: 0 !important;
+            border-radius: 4px 0 0 0;
+        }
+        .leaflet-control-attribution a { color: rgba(0,0,0,0.78) !important; }
+
 
         /* Hide default Leaflet zoom */
         .leaflet-control-zoom { display: none !important; }
@@ -2360,7 +2392,12 @@
            Compare FAB (1015) and its panel (1020) — owner 2026-07-12 wants the
            dialect button/panel layered behind Compare, in front of the map. */
         .dialect-legend {
-            position: fixed; z-index: 1010; bottom: 12px; left: 12px;
+            /* Clear the credit strip. At bottom:12px the .url-watermark plate
+               (~19px tall, z-index 1014) crossed the toggle's lower 7px and it
+               read as a button cut in half (owner 2026-08-27). 26px puts the
+               whole toggle above the strip on every viewport height, since
+               both are anchored to the bottom rather than to each other. */
+            position: fixed; z-index: 1010; bottom: 26px; left: 12px;
             display: flex; flex-direction: column; align-items: flex-start;
             font-family: inherit;
         }
@@ -4664,11 +4701,11 @@
         const TILE_LAYERS = {
             flat: {
                 url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png' + CARTO_KEY_QS,
-                opts: { attribution: '&copy; <a href="https://carto.com/">CARTO</a>', maxZoom: 18 },
+                opts: { attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &middot; <a href="https://openstreetmap.org">OSM</a>', maxZoom: 18 },
             },
             labels: {
                 url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png' + CARTO_KEY_QS,
-                opts: { attribution: '&copy; <a href="https://carto.com/">CARTO</a> &middot; <a href="https://openstreetmap.org">OSM</a>', maxZoom: 18 },
+                opts: { attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &middot; <a href="https://openstreetmap.org">OSM</a>', maxZoom: 18 },
             },
             terrain: {
                 url: 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',

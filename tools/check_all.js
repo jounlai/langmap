@@ -99,6 +99,12 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // Eager first-paint weight per page, ratcheted. hanmap.html is 1,988 KB gz and
 // 943 KB of that is hanmap_trivia.js, which wordmap.html loads AFTER `load` by
 // its own stated rule (review 462). The guard stops it growing further.
+// The CARTO free tier is granted in exchange for keeping the CARTO AND
+// OpenStreetMap credit visible. The default `flat` layer on both map pages
+// credited only CARTO (owner 2026-08-27).
+s = run('map_attribution_check.js --check');
+line('map attribution complete', num(s, /violations: (\d+)/));
+
 s = run('page_weight_check.js --check');
 line('page weight ratchet', num(s, /violations: (\d+)/),
     (s.match(/heaviest: ([^\n]+)/) || [])[1] || '');

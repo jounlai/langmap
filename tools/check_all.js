@@ -103,6 +103,12 @@ s = run('page_weight_check.js --check');
 line('page weight ratchet', num(s, /violations: (\d+)/),
     (s.match(/heaviest: ([^\n]+)/) || [])[1] || '');
 
+// Every root .html is a public URL. It must be in sitemap.xml or say noindex —
+// _buildertest.html and _cardtest.html were neither, and each pulls
+// wordmap_meta.js (7 MB gz) to render a test canvas (review 464).
+s = run('page_indexability_check.js --check');
+line('root pages indexable or noindex', num(s, /violations: (\d+)/));
+
 s = run('sitemap_size_check.js --check');
 line('sitemap within limits', num(s, /violations: (\d+)/),
     (s.match(/headroom: ([\d.]+)% of the byte limit[^)]*\)/) || [])[0] || '');

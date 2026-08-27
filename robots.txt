@@ -8,6 +8,13 @@ Disallow: /__pycache__/
 # Internal documentation — also noindex'd via meta tag.
 Disallow: /changelog.html
 
+# Dev harnesses — bare test pages that pull wordmap_meta.js (18.7 MB) to draw a
+# test canvas. They are NOT in the repository (.git/info/exclude), so a
+# git-based deploy never carries them; these lines are insurance in case a
+# working-copy deploy does.
+Disallow: /_buildertest.html
+Disallow: /_cardtest.html
+
 # SEO big-text pages (sitemap-seo.xml) are intentionally NOT declared here —
 # discovery is left to organic internal-link crawling (footer → /en/wordmap/
 # index → hreflang) rather than bulk-submitting 18k URLs. The file still exists

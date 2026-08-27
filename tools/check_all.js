@@ -115,6 +115,13 @@ line('sitemap within limits', num(s, /violations: (\d+)/),
 
 // Chao letters spell a contour; the same level three times is a half-finished
 // edit. bca wrote ˨˨˨ on all nine of its entering-tone cells (review 463).
+// A tone digit on the surface and the Chao value in the IPA are two statements
+// about one tone, so a row defines its own digit→value map. bca 七 broke its
+// row's map and 44 other guards had passed it (review 465).
+s = run('tone_digit_map_check.js --check');
+line('tone-digit map per row', num(s, /violations: (\d+)/),
+    (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' unsettled') : '');
+
 s = run('chao_repeat_check.js --check');
 line('no repeated Chao level', num(s, /violations: (\d+)/));
 

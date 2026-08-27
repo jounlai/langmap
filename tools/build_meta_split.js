@@ -39,6 +39,7 @@ if (CHECK) {
         if (cur !== String(body)) STALE++;
     };
     fs.mkdirSync = () => {};
+    console.error = () => {};      // --check answers one question; keep it to one line
     const seen = new Set();
     process.on('exit', () => {
         console.log(`stale: ${STALE}`);

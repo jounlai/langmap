@@ -184,6 +184,12 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// The partial words are range maps. A route-coloured cell may not sit in a
+// language that died before the route existed — Ge'ez ብርቱካን is built on
+// "Portugal" in a row whose period ends in the 10th century.
+s = run('route_era_check.js --check');
+line('route vs language era', num(s, /violations: (\d+)/));
+
 // wordmap_meta_lite.js + meta_desc/ (11 MB) + meta_i18n/ (5.8 MB) are the
 // largest generated set here and nothing guarded them: editing wordmap_meta.js
 // without rerunning left the site serving the old metadata, and the only thing

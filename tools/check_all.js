@@ -90,6 +90,12 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // sit at 95–100% because they were declared but never separately sourced. Those
 // six are listed as debt inside the tool (green, but visible); a SEVENTH copy
 // appearing is a violation.
+// Tone is written with Chao letters, never digits — the digits belong to a
+// romanization, which is what the surface field is for. cjy_xz and atb each
+// wrote BOTH inside one row (bird niau˥˧ vs cat miau⁵³), 40 cells (review 458).
+s = run('ipa_digit_check.js --check');
+line('no digit tone in IPA', num(s, /violations: (\d+)/));
+
 s = run('hanmap_dup_row_check.js --check');
 line('no copied Han Map row', num(s, /violations: (\d+)/),
     (s.match(/debt: (\d+)/) || [])[1] ? (s.match(/debt: (\d+)/)[1] + ' known undifferentiated') : '');

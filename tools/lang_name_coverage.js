@@ -40,6 +40,11 @@ const LANG_NAMES = vm.runInContext(
   'typeof LANG_NAMES!=="undefined" ? LANG_NAMES : window.LANG_NAMES', ctxOf('lang_names.js'));
 const LANG_DATA = vm.runInContext('LANG_DATA', ctxOf('wordmap_data.js'));
 const HAN_LANGS = vm.runInContext('HAN_LANGS', ctxOf('hanmap_data.js'));
+// "either map" was two maps when this was written, and the Lang Map went
+// unchecked: es_eu, pt_eu, myn and ine had no name in any UI, so langName()'s
+// last fallback printed the raw code next to "Spanish (Mexico)" and
+// "Portuguese (Brazil)" (review 456).
+const SENTENCES = vm.runInContext('SENTENCES', ctxOf('data.js'));
 
 const hanCodes = Array.isArray(HAN_LANGS)
   ? HAN_LANGS.map((x) => (typeof x === 'string' ? x : x.code))
@@ -49,6 +54,7 @@ const UIS = Object.keys(LANG_NAMES);
 const targets = [
   ['Word Map', Object.keys(LANG_DATA)],
   ['Han Map', hanCodes],
+  ['Lang Map', [...new Set(SENTENCES.flatMap((s) => Object.keys(s.langs || {})))]],
 ];
 
 // LANG_NAMES read through the vm sees only the surviving value, so duplicates

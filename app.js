@@ -2082,7 +2082,14 @@ function getShareURL() {
 
 function getShareText() {
     const sentence = SENTENCES[currentSentenceIdx];
-    return sentence ? `LangMap: ${sentence.title}` : 'LangMap - 多言語語順マップ';
+    if (!sentence) return t('ogTitle');
+    // sentence.title is English for sentences 1-25 and Japanese for 26-100, so
+    // sharing handed every reader one of two languages neither of them chose.
+    // The sentence itself exists in all 223 rows — quote the reader's own, the
+    // way sentenceLabel() already does for the picker.
+    const data = sentence.langs[currentUILang] || sentence.langs.ja;
+    const text = data ? data.map(([, s]) => s).join(' ') : sentence.title;
+    return `LangMap: ${text}`;
 }
 
 function copyShareURL() {

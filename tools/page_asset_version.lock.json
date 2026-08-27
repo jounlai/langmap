@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 77,
-    "hash": "a6b704966fff5363"
+    "version": 78,
+    "hash": "bb020288245cc121"
   },
   "data.js": {
     "version": 92,
@@ -24,8 +24,8 @@
     "hash": "59c80d2e11243e21"
   },
   "lang_names/en.js": {
-    "version": 152,
-    "hash": "00f074e315bd26f3"
+    "version": 153,
+    "hash": "8482cfadb0fa53b9"
   },
   "lang_names_shim.js": {
     "version": 2,
@@ -80,7 +80,7 @@
     "hash": "5a520c2ce161f47b"
   },
   "word_manifest.js": {
-    "version": 274,
+    "version": 275,
     "hash": "27593eb60f3459b3"
   },
   "wordmap_data.js": {

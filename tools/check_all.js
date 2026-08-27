@@ -184,6 +184,12 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// meta.family is the family tree's grouping key: tree.html takes everything
+// before "(" as the top-level node and my-languages.js counts the distinct
+// values. A ">" chain or a second spelling forks the family.
+s = run('family_string_check.js --check');
+line('family grouping key', num(s, /violations: (\d+)/));
+
 // Four pages hand the per-UI shim its cache version through a function call,
 // which page_asset_version_check.js cannot see — that is how wordmap.html came
 // to ask for en.js?v=151 and every other UI at ?v=143.

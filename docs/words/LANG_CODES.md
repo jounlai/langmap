@@ -41,7 +41,7 @@ Total: 1164 codes.
 | `ake` | Akawaio | アカワイオ語 | Cariban | ~5–6.4K |
 | `akk` | Akkadian | アッカド語 | Afro-Asiatic (Semitic, East) | Extinct |
 | `ale` | Aleut | アリュート語 | Eskimo-Aleut (Aleut) | ~150 (severely endangered) |
-| `aln` | Gheg Albanian | ゲグ・アルバニア語 | Indo-European > Albanian (Gheg, one of the two primary dialect groups alongside Tosk) | ~4.1M |
+| `aln` | Gheg Albanian | ゲグ・アルバニア語 | Indo-European (Albanian, Gheg — one of the two primary dialect groups alongside Tosk) | ~4.1M |
 | `alq` | Algonquin | アルゴンキン語 | Algonquian (Anishinaabemowin) | ~2.5K |
 | `alt` | Altai | アルタイ語 | Turkic (Siberian, Kipchak) | ~55K |
 | `am` | Amharic | アムハラ語 | Semitic | ~32M L1 + ~25M L2 |
@@ -329,10 +329,10 @@ Total: 1164 codes.
 | `fax` | Fala | ファラ語 | Indo-European | ~10K |
 | `ff` | Fula | フラニ語 | Atlantic-Congo (Senegambian, Fula) | ~40M |
 | `fi` | Finnish | フィンランド語 | Uralic | ~5.5M |
-| `fia` | Nobiin | ノビーン語 | Nilo-Saharan > Eastern Sudanic > Nubian (Northern) | ~685K |
-| `fit` | Meänkieli | メアンキエリ | Uralic > Finnic | ~50K (severely endangered) |
+| `fia` | Nobiin | ノビーン語 | Nilo-Saharan (Eastern Sudanic, Nubian, Northern) | ~685K |
+| `fit` | Meänkieli | メアンキエリ | Uralic (Finnic) | ~50K (severely endangered) |
 | `fj` | Fijian | フィジー語 | Austronesian | ~640K |
-| `fkv` | Kven Finnish | クヴェン語 | Uralic > Finnic | ~2–8K (severely endangered) |
+| `fkv` | Kven Finnish | クヴェン語 | Uralic (Finnic) | ~2–8K (severely endangered) |
 | `fo` | Faroese | フェロー語 | Germanic | ~70K |
 | `fon` | Fon | フォン語 | Niger-Congo (Volta-Niger, Gbe) | ~2.2M |
 | `fr` | French | フランス語 | Romance | ~320M |
@@ -346,14 +346,14 @@ Total: 1164 codes.
 | `fr_lu` | French | フランス語 | Romance | ~0.5M (Luxembourg) |
 | `fr_qc` | French (Québec) | フランス語(ケベック) | Indo-European (Romance, Gallo-Romance, Northern French) | ~7M |
 | `fr_sn` | French (Senegalese) | フランス語(セネガル) | Romance | ~5M |
-| `fra_jer` | Jèrriais | ジェリエ語 | Indo-European (Romance > Oïl > Norman) | ~1K (severely endangered) |
+| `fra_jer` | Jèrriais | ジェリエ語 | Indo-European (Romance, Oïl, Norman) | ~1K (severely endangered) |
 | `fro` | Old French | 古フランス語 | Indo-European (Romance, Gallo-Romance, Northern French) | Extinct as L1 |
 | `frp` | Arpitan | アルピタン語 | Romance (Gallo-Romance) | ~150K |
 | `frr` | North Frisian | 北フリジア語 | Indo-European | ~10K (highly endangered) |
 | `frr_amr` | North Frisian (Öömrang) | 北フリジア語（エームラング） | Indo-European | ~600 |
 | `fud` | East Futunan | 東フツナ語 | Austronesian › Malayo-Polynesian › Oceanic › Central Pacific › Polynesian › Nuclear Polynesian | ~6.5K (endangered) |
 | `fur` | Friulian | フリウリ語 | Romance (Rhaeto-Romance) | ~600K |
-| `fvr` | Fur | フール語 | Nilo-Saharan > Fur | ~790K |
+| `fvr` | Fur | フール語 | Nilo-Saharan (Fur) | ~790K |
 | `fy` | Frisian | フリジア語 | Germanic | ~500K |
 | `ga` | Irish | アイルランド語 | Celtic | ~1.7M (L1: ~70K) |
 | `gaa` | Ga | ガー語 | Niger-Congo | ~750K |
@@ -408,7 +408,7 @@ Total: 1164 codes.
 | `he_mis` | Mishnaic Hebrew | ヘブライ語(ミシュナー期) | Afro-Asiatic (Semitic, Central, Northwest, Canaanite, Hebrew) | Historical literary form (~70-200 CE); active religious/scholarly use |
 | `her` | Herero | ヘレロ語 | Atlantic-Congo (Bantu, Herero) | ~250K |
 | `hi` | Hindi | ヒンディー語 | Indo-Aryan | ~345M L1 (~600M Hindustani total) |
-| `hif` | Fiji Hindi | フィジー・ヒンディー語 | Indo-European > Indo-Aryan > Eastern Hindi/Bihari (Awadhi–Bhojpuri-based koiné) | ~380K |
+| `hif` | Fiji Hindi | フィジー・ヒンディー語 | Indo-European (Indo-Aryan, Eastern Hindi/Bihari, Awadhi–Bhojpuri-based koiné) | ~380K |
 | `hil` | Hiligaynon | ヒリガイノン語 | Austronesian (Visayan) | ~9M |
 | `hit` | Hittite | ヒッタイト語 | Anatolian (Indo-European) | Extinct |
 | `hmn` | Hmong | ミャオ語 | Hmong-Mien | ~5M |
@@ -582,7 +582,7 @@ Total: 1164 codes.
 | `lbj` | Ladakhi | ラダック語 | Sino-Tibetan | ~110K |
 | `lbz` | Lardil | ラーディル語 | Tangkic (Tangkic-Pama) | ~2 fluent (effectively dormant) |
 | `lbz_damin` | Damin (Lardil ceremonial register) | ダミン語 (ラーディル儀礼語) | Tangkic (Lardil — ceremonial men's register) | 0 (dormant since ~1980, elderly memory only) |
-| `lep` | Lepcha | レプチャ語 | Sino-Tibetan > Tibeto-Burman > Himalayish (isolated within it; sometimes linked to Mahakiranti) | ~66K (definitely endangered) |
+| `lep` | Lepcha | レプチャ語 | Sino-Tibetan (Tibeto-Burman, Himalayish — isolated within it; sometimes linked to Mahakiranti) | ~66K (definitely endangered) |
 | `lez` | Lezgian | レズギ語 | NE Caucasian (Lezgic) | ~800K |
 | `lg` | Luganda | ルガンダ語 | Atlantic-Congo (Bantu) | ~5.5M |
 | `lhm` | Lhomi | ロミ語 | Sino-Tibetan (Tibeto-Burman, Tibetic, Central) | ~4K |
@@ -607,7 +607,7 @@ Total: 1164 codes.
 | `ltg` | Latgalian | ラトガレ語 | Indo-European (Balto-Slavic, Baltic, Eastern Baltic) | ~165K |
 | `lua` | Luba-Kasai | ルバ・カサイ語 | Atlantic-Congo (Bantu) | ~6M |
 | `lue` | Luvale | ルヴァレ語 | Atlantic-Congo (Bantu, Chokwe-Luchazi / K.10 group) | ~600K |
-| `lun` | Lunda | ルンダ語 | Niger-Congo > Atlantic-Congo > Benue-Congo > Bantu (Guthrie zone L.52) | ~600K |
+| `lun` | Lunda | ルンダ語 | Niger-Congo (Atlantic-Congo, Benue-Congo, Bantu, Guthrie zone L.52) | ~600K |
 | `luo` | Luo | ルオ語 | Nilo-Saharan (Western Nilotic) | ~4M |
 | `lus` | Mizo | ミゾ語 | Sino-Tibetan (Tibeto-Burman, Kuki-Chin) | ~830K |
 | `luy` | Luhya | ルヒヤ語 | Atlantic-Congo (Bantu) | ~6M |
@@ -623,7 +623,7 @@ Total: 1164 codes.
 | `mas` | Maasai | マサイ語 | Nilo-Saharan (Eastern Nilotic, Maa) | ~1.5M |
 | `maw` | Mampruli | マンプルリ語 | Niger-Congo | ~330K |
 | `max` | North Moluccan Malay | 北モルッカ・マレー語 | Austronesian | ~700K L1 + ~1M L2 |
-| `maz` | Mazahua | マサワ語 | Otomanguean | ~150K |
+| `maz` | Mazahua | マサワ語 | Oto-Manguean (Otomian) | ~150K |
 | `mbc` | Makuxi | マクシ語 | Cariban | ~30K (Brazil, Guyana, Venezuela) |
 | `mcf` | Matsés | マツェス語 | Panoan (Mayoruna) | ~3.2K |
 | `mch` | Maquiritari | マキリタレ語 | Cariban | ~6–10K (Venezuela ~3K + Brazil ~3K) |
@@ -682,7 +682,7 @@ Total: 1164 codes.
 | `mwl` | Mirandese | ミランデース語 | Indo-European (Romance, Ibero-Romance, Astur-Leonese) | ~10–15K |
 | `mwr` | Marwari | マルワーリー語 | Indo-European (Western Indo-Aryan, Rajasthani) | ~30M (Marwari group) |
 | `mxc` | Manyika | マニカ語 | Niger-Congo | ~2M (eastern Zimbabwe + adjacent Mozambique) |
-| `mxv` | Metlatónoc Mixtec | メトラトノク・ミシュテコ語 | Otomanguean | ~25K |
+| `mxv` | Metlatónoc Mixtec | メトラトノク・ミシュテコ語 | Oto-Manguean (Mixtecan) | ~25K |
 | `my` | Burmese | ミャンマー語 | Sino-Tibetan (Tibeto-Burman, Burmic) | ~33M |
 | `myp` | Pirahã | ピダハン語 | Mura (isolate) | ~360 |
 | `myv` | Erzya | エルジャ語 | Uralic (Mordvinic) | ~120K |
@@ -736,7 +736,7 @@ Total: 1164 codes.
 | `nog` | Nogai | ノガイ語 | Turkic | ~90K (definitely endangered) |
 | `non` | Old Norse | 古ノルド語 | Germanic | Extinct |
 | `nrf` | Norman | ノルマン語 | Indo-European | ~50K (severely endangered for island varieties) |
-| `nrf_gg` | Guernésiais | ゲルネジエ語 | Indo-European (Romance > Oïl > Norman) | ~200 (critically endangered) |
+| `nrf_gg` | Guernésiais | ゲルネジエ語 | Indo-European (Romance, Oïl, Norman) | ~200 (critically endangered) |
 | `nso` | Northern Sotho | 北ソト語 | Atlantic-Congo (Bantu, Sotho-Tswana) | ~5M |
 | `nus` | Nuer | ヌエル語 | Nilo-Saharan (Western Nilotic) | ~1.5M |
 | `nut` | Nùng | ヌン語 | Kra-Dai (Tai, Central) | ~1M |
@@ -773,14 +773,14 @@ Total: 1164 codes.
 | `orv` | Old East Slavic | 古東スラヴ語 | Slavic (East) | Extinct (~10-15c. CE) |
 | `os` | Ossetian | オセット語 | Iranian (Eastern) | ~600K |
 | `osa` | Osage | オセージ語 | Siouan (Dhegihan) | ~15 L1 + active revitalization L2 |
-| `osc` | Oscan | オスク語 | Indo-European / Italic (Sabellic — Oscan) | Extinct by c. 1c CE (last inscriptions pre-79 CE) |
+| `osc` | Oscan | オスク語 | Indo-European (Italic, Sabellic, Oscan) | Extinct by c. 1c CE (last inscriptions pre-79 CE) |
 | `osn` | Old Sundanese | 古スンダ語 | Austronesian (Malayo-Polynesian, Sundic) | Extinct as L1 |
 | `osp` | Old Spanish | 古スペイン語 | Indo-European (Romance, Ibero-Romance, Castilian) | Extinct as L1 |
 | `osx` | Old Saxon | 古ザクセン語 | Indo-European (West Germanic, Low German, Old Saxon) | Extinct (~8th-12th c. CE; ancestor of Low German) |
 | `ota` | Ottoman Turkish | オスマン・トルコ語 | Turkic (Oghuz) | Extinct |
 | `ote` | Otomi | オトミ語 | Oto-Manguean (Otomian) | ~290K |
 | `otk` | Old Turkic | 古テュルク語 | Turkic | Extinct (~6-10c. CE) |
-| `otq` | Querétaro Otomi | ケレタロ・オトミ語 | Otomanguean | ~30K (vulnerable) |
+| `otq` | Querétaro Otomi | ケレタロ・オトミ語 | Oto-Manguean (Otomian) | ~30K (vulnerable) |
 | `p_aav` | Proto-Austroasiatic | オーストロアジア祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_dra` | Proto-Dravidian | ドラヴィダ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_hmx` | Proto-Hmong-Mien | フモン・ミエン祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
@@ -829,7 +829,7 @@ Total: 1164 codes.
 | `pnt` | Pontic Greek | ポントス・ギリシャ語 | Hellenic | ~600K |
 | `poh` | Poqomchi' | ポコムチ語 | Mayan | ~50K (Alta Verapaz + Baja Verapaz Guatemala) |
 | `pon` | Pohnpeian | ポンペイ語 | Austronesian (Micronesian) | ~30K |
-| `pot` | Potawatomi | ポタワトミ語 | Algic > Algonquian (Central Algonquian, Ojibwe-Potawatomi) | ~30 L1 + ~200 L2 (severely endangered) |
+| `pot` | Potawatomi | ポタワトミ語 | Algic (Algonquian, Central Algonquian, Ojibwe-Potawatomi) | ~30 L1 + ~200 L2 (severely endangered) |
 | `ppl` | Nawat | ナワト語 | Uto-Aztecan | ~1K fluent |
 | `pqm` | Maliseet-Passamaquoddy | マリシート＝パッサマクオディ語 | Algic | ~500 |
 | `prg` | Old Prussian | 古プロイセン語 | Indo-European | 0 (extinct early 18th century) |
@@ -872,7 +872,7 @@ Total: 1164 codes.
 | `rkt` | Rangpuri | ラングプリ語 | Indo-Aryan | ~15M |
 | `rm` | Romansh | ロマンシュ語 | Indo-European (Romance, Gallo-Romance, Rhaeto-Romance) | ~60K |
 | `rmf` | Finnish Romani | フィンランド・ロマ語 | Indo-European (Indo-Aryan, Romani, Northern, Romanichal-Kaale subgroup) | ~10–12K (Finland) |
-| `rmt` | Domari | ドマリ語 | Indo-European > Indo-Aryan (Central) | ~280K (severely endangered) |
+| `rmt` | Domari | ドマリ語 | Indo-European (Indo-Aryan, Central) | ~280K (severely endangered) |
 | `rmy` | Vlax Romani | ヴラフ・ロマ語 | Indo-Aryan (Romani) | ~1.5M |
 | `rn` | Kirundi | キルンディ語 | Atlantic-Congo (Bantu, Great Lakes) | ~10M |
 | `ro` | Romanian | ルーマニア語 | Romance | ~24M |
@@ -1012,7 +1012,7 @@ Total: 1164 codes.
 | `ts` | Tsonga | ツォンガ語 | Atlantic-Congo (Bantu, Tswa-Ronga) | ~10M |
 | `tsg` | Tausug | タウスグ語 | Austronesian (Greater Central Philippine) | ~1.1M |
 | `tsi` | Coast Tsimshian | コースト・ツィムシアン語 | Tsimshianic (Maritime) | ~200 |
-| `tsj` | Tshangla | ツァンラ語 | Sino-Tibetan > Tibeto-Burman > Bodish (close to but not descended from Classical Tibetan) | ~170K |
+| `tsj` | Tshangla | ツァンラ語 | Sino-Tibetan (Tibeto-Burman, Bodish — close to but not descended from Classical Tibetan) | ~170K |
 | `tsu` | Tsou | ツォウ語 | Austronesian (Tsouic) | ~4K (~2K daily L1, severely endangered) |
 | `tsz` | Purépecha | プレペチャ語 | isolate | ~142K L1 |
 | `tt` | Tatar | タタール語 | Turkic (Kipchak) | ~5M |
@@ -1054,7 +1054,7 @@ Total: 1164 codes.
 | `vi_han` | Vietnamese Hán văn (Sino-reading) | ベトナム漢文(漢越音) | Sinitic (Sino-Vietnamese pedagogical reading of Literary Chinese) | Active Han-Nôm scholarly use (Vietnamese, no L1) |
 | `vi_nom` | Vietnamese (Chữ Nôm) | ベトナム語(字喃) | Austroasiatic | Extinct (script) |
 | `vi_s` | Southern Vietnamese | 南部ベトナム語 | Austroasiatic | ~30M |
-| `vls` | West Flemish | 西フラマン語 | Indo-European > Germanic > West Germanic > Low Franconian (Dutch) | ~1.4M (vulnerable) |
+| `vls` | West Flemish | 西フラマン語 | Indo-European (Germanic, West Germanic, Low Franconian, Dutch) | ~1.4M (vulnerable) |
 | `vmf` | East Franconian | 東フランケン語 | Indo-European (Germanic, West, High German, Upper East Franconian) | ~5M |
 | `vmw` | Makhuwa | マクア語 | Atlantic-Congo (Bantu) | ~6M |
 | `vo` | Volapük | ヴォラピュク | Constructed (auxiliary, schematic) | ~30 active |
@@ -1090,13 +1090,13 @@ Total: 1164 codes.
 | `xct` | Classical Tibetan | 古典チベット語 | Sino-Tibetan (Tibeto-Burman, Bodish) | Liturgical (Tibetan Buddhism) |
 | `xct_litpr` | Liturgical Classical Tibetan | チベット語(仏典朗誦) | Sino-Tibetan (Tibeto-Burman, Bodish; Tibetan Buddhist liturgical pedagogy) | Active liturgical + pedagogical use (Tibetan Buddhism) |
 | `xed` | Hdi | ヒディ語 | Afro-Asiatic (Chadic, Central, Mafa-Bata subgroup) | ~30K |
-| `xfa` | Faliscan | ファリスク語 | Indo-European > Italic > Latino-Faliscan | 0 (extinct ~150 BCE) |
+| `xfa` | Faliscan | ファリスク語 | Indo-European (Italic, Latino-Faliscan) | 0 (extinct ~150 BCE) |
 | `xh` | Xhosa | コサ語 | Bantu (Nguni) | ~20M |
 | `xht` | Hattic | ハッティ語 | Language isolate (unclassified; sometimes tentatively linked to the Northwest Caucasian languages) | Extinct (last attested 2nd millennium BCE) |
 | `xhu` | Hurrian | フルリ語 | Hurro-Urartian (separate from IE/Semitic) | Extinct (~2300-1000 BCE) |
 | `xib` | Iberian | イベリア語 | Paleo-Hispanic (unclassified, isolate) | †extinct (~1c CE) |
 | `xkz` | Kurtöp | クルテプ語 | Sino-Tibetan | ~10K |
-| `xli` | Liburnian | リブルニア語 | Indo-European? (unclassified Paleo-Balkan; possibly Illyrian-related or pre-IE) | †extinct (~1c CE, Romanized) |
+| `xli` | Liburnian | リブルニア語 | Paleo-Balkan (unclassified; possibly Indo-European and Illyrian-related, possibly pre-IE) | †extinct (~1c CE, Romanized) |
 | `xlu` | Luwian | ルウィ語 | Indo-European (Anatolian) | Extinct (~16th-7th c. BCE) |
 | `xmf` | Mingrelian | ミングレル語 | Kartvelian | ~500K |
 | `xmr` | Meroitic | メロエ語 | Meroitic (debated; possibly Eastern Sudanic) | Extinct (~3c. BCE - 4c. CE) |
@@ -1112,8 +1112,8 @@ Total: 1164 codes.
 | `xsr` | Sherpa | シェルパ語 | Sino-Tibetan | ~200K |
 | `xto` | Tocharian A | トカラ語A | Indo-European (Tocharian) | Extinct (~5th-9th c. CE) |
 | `xul` | Ngunnawal | ングンナワル語 | Pama-Nyungan | ~5K heritage learners |
-| `xum` | Umbrian | ウンブリア語 | Indo-European > Italic > Sabellic (Osco-Umbrian) | 0 (extinct ~1st c. CE) |
-| `xve` | Venetic | ヴェネト語 | Indo-European > Italic (or independent IE branch — debated) | 0 (extinct ~1st c. BCE) |
+| `xum` | Umbrian | ウンブリア語 | Indo-European (Italic, Sabellic, Osco-Umbrian) | 0 (extinct ~1st c. CE) |
+| `xve` | Venetic | ヴェネト語 | Indo-European (Italic, or an independent IE branch — debated) | 0 (extinct ~1st c. BCE) |
 | `yai` | Yaghnobi | ヤグノビ語 | Iranian (Eastern) | ~13K |
 | `yan` | Sumo | スモ語 | Misumalpan | ~10K (Nicaragua ~8K + Honduras ~2K) |
 | `yao` | Yao | ヤオ語 | Atlantic-Congo (Bantu, Yao-Makonde) | ~3M |
@@ -1142,7 +1142,7 @@ Total: 1164 codes.
 | `za` | Zhuang | チワン語 | Kra-Dai | ~16M |
 | `zap` | Zapotec | サポテコ語 | Oto-Manguean (Zapotecan) | ~440K (macrolanguage) |
 | `zdj` | Comorian (Shikomori) | コモロ語（シコモリ） | Niger-Congo (Bantu, Sabaki) | ~800K (Grande Comore, Comoros) |
-| `zgh` | Standard Moroccan Tamazight | 標準モロッコ・タマジクト語 | Afro-Asiatic > Berber > Northern Berber (planned standard pooling Tashelhiyt, Central Atlas Tamazight and Tarifit) | ~9M (planned standard, no native speakers) |
+| `zgh` | Standard Moroccan Tamazight | 標準モロッコ・タマジクト語 | Afro-Asiatic (Berber, Northern Berber; planned standard pooling Tashelhiyt, Central Atlas Tamazight and Tarifit) | ~9M (planned standard, no native speakers) |
 | `zh` | Chinese (Mandarin) | 中国語(普通話) | Sinitic (Mandarin) | ~920M |
 | `zh_cd` | Chengdu Mandarin | 成都官話 | Sinitic (Mandarin, Southwestern — Cheng-Yu) | ~20M (Chengdu city + plain) |
 | `zh_cq` | Chongqing Mandarin | 重慶官話 | Sinitic (Mandarin, Southwestern / Cheng-Yu cluster) | ~30M (Chongqing + eastern Sichuan) |
@@ -1166,6 +1166,6 @@ Total: 1164 codes.
 | `zh_zz` | Zhongyuan Mandarin | 中原官話 | Sinitic (Mandarin, Zhongyuan) | ~10M (Zhengzhou) + ~190M total Zhongyuan Mandarin |
 | `zkt` | Khitan | 契丹語 | Mongolic (Para-Mongolic) | Extinct (~10-13c. CE) |
 | `zne` | Zande | ザンデ語 | Niger-Congo | ~1.1M |
-| `zts` | Tlacolula Zapotec | トラコルラ・サポテク語 | Otomanguean | ~6K |
+| `zts` | Tlacolula Zapotec | トラコルラ・サポテク語 | Oto-Manguean (Zapotecan) | ~6K |
 | `zu` | Zulu | ズールー語 | Bantu (Nguni) | ~28M |
 | `zza` | Zaza | ザザ語 | Iranian (Zaza-Gorani) | ~3M |

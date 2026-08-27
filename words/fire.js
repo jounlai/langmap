@@ -97,7 +97,7 @@ WORDS.fire = {
       win: ["—", "—"],
       cro: ["asxé", "asχe"],
       hai: ["guḵ", "ɡuk̚"],
-      cic: ["lowak", "lowaʔ"],
+      cic: ["lowak", "lowak"],
       ik: ["igniq", "iɡniq"],
       na: ["e", "ʔe"],
       es_bo: ["fuego", "fweɣo"],

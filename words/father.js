@@ -97,7 +97,7 @@ WORDS.father = {
       win: ["jází", "ˈdʒaːzi"],
       cro: ["appé", "appe"],
       hai: ["yan", "jɑn"],
-      cic: ["inki'", "ingiʔ"],
+      cic: ["inki'", "inkiʔ"],
       ik: ["aapa", "aːpa"],
       na: ["etongin", "etongin"],
       es_bo: ["padre", "paðɾe"],

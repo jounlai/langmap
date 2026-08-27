@@ -97,7 +97,7 @@ WORDS.mother = {
       win: ["hinį", "ˈhinɪ̃"],
       cro: ["immé", "imme"],
       hai: ["gúx̱", "ɡuχ"],
-      cic: ["ishki'", "iʃgiʔ"],
+      cic: ["ishki'", "iʃkiʔ"],
       ik: ["aaka", "aːka"],
       na: ["inen", "inen"],
       es_bo: ["madre", "maðɾe"],

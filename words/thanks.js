@@ -97,7 +97,7 @@ WORDS.thanks = {
       win: ["hąbujį́", "hɐ̃buˈdʒɪ̃"],
       cro: ["—", "—"],
       hai: ["—", "—"],
-      cic: ["chokma'shki", "tʃokmaʔʃgi"],
+      cic: ["chokma'shki", "tʃokmaʔʃki"],
       ik: ["quyanaq", "qujanaq"],
       na: ["tubwa kor", "tubwa kor"],
       es_bo: ["gracias", "ɡɾasjas"],

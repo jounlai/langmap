@@ -35,10 +35,6 @@
     "version": 21,
     "hash": "1485ff229e3fcf19"
   },
-  "namemap_content_i18n.js": {
-    "version": 2,
-    "hash": "3539483919ab5fc1"
-  },
   "namemap_data.js": {
     "version": 2,
     "hash": "bfed996117e44d7a"
@@ -46,6 +42,10 @@
   "namemap_i18n.js": {
     "version": 1,
     "hash": "c8034b735cfdbb3f"
+  },
+  "namemap_i18n_shim.js": {
+    "version": 1,
+    "hash": "1725c7a21734a986"
   },
   "namemap_names_ext.js": {
     "version": 2,

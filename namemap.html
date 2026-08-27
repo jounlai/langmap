@@ -530,7 +530,14 @@
     <script src="namemap_data.js?v=2"></script>
     <script src="namemap_i18n.js?v=1"></script>
     <script src="namemap_names_ext.js?v=2"></script>
-    <script src="namemap_content_i18n.js?v=2"></script>
+    <!-- NameMap content strings (country/language names, each name's meaning and
+         background) come in one file per UI language: 217 KB gzipped for all
+         nineteen, ~14 KB for the one this reader will see. English is the
+         source text and has no slice. tools/build_namemap_i18n.js generates
+         namemap_i18n/<ui>.js from namemap_content_i18n.js, which is now a
+         source file the page does not load. -->
+    <script src="namemap_i18n_shim.js?v=1"></script>
+    <script>window.__nmI18nVersion(1); window.__nmI18nBoot();</script>
     <script>
     (function () {
         'use strict';
@@ -965,8 +972,14 @@
             sel.value=uiLang;
             sel.addEventListener('change', ()=>{
                 uiLang=sel.value; setCookie('wm_uilang', uiLang);
-                applyUILang(); updateHash();
+                applyUILang(); updateHash();   // immediate; content still English
                 try{ window.dispatchEvent(new CustomEvent('langmap:uichange',{detail:{lang:uiLang}})); }catch(e){}
+                // Country names, meanings and background paragraphs live in a
+                // per-UI slice that may not be loaded yet. It merges additively,
+                // so pulling it and repainting is all that is needed; memoized,
+                // so a no-op once present.
+                if(typeof window.__ensureNmI18n==='function')
+                    window.__ensureNmI18n(uiLang).then(applyUILang);
             });
         }
 
@@ -978,6 +991,11 @@
             const st0=readState();
             if(st0.l && T[st0.l]) uiLang=st0.l;
             if(st0.s){ const v=parseInt(st0.s,10); if(v>=70&&v<=160) fontScale=v/100; }
+            // The shim guessed a UI language from the cookie during parse; ?l=
+            // in the URL overrides it, so pull that slice too and repaint once
+            // it lands. Memoized, and a no-op when the guess was right.
+            if(typeof window.__ensureNmI18n==='function')
+                window.__ensureNmI18n(uiLang).then(()=>{ applyUILang(); });
             setupLangSelect();
             setupSearch();
             applyFontScale();

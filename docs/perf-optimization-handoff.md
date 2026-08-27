@@ -86,7 +86,9 @@ Once all four pages are migrated, `lang_names.js` is no longer referenced by any
 
 ---
 
-## 5. Task 4 (P3, code) — Split `namemap_content_i18n.js` per UI
+## 5. Task 4 (P3, code) — Split `namemap_content_i18n.js` per UI — **DONE 2026-08-27**
+
+> Shipped as `tools/build_namemap_i18n.js` → `namemap_i18n/<ui>.js`, loaded through `namemap_i18n_shim.js` (`__nmI18nBoot()` during parse, `__ensureNmI18n(ui)` on a language switch). 216 KB gz → 14 KB, and 1 KB for an English reader since English is the source text and has no slice. Parity proven by §6 across 17 UIs and 4,012 field comparisons, zero differences. `namemap_content_i18n.js` stays in the repo as the source the generator reads; the page no longer loads it. Freshness is guarded in `tools/check_all.js`.
 
 `namemap.html` eagerly loads `namemap_content_i18n.js` (584 KB) — an IIFE holding `{ 'Entity': { ko:…, zh:…, … } }` tables (country/language names + each name's origin/meaning) that it merges into `NM_LANGS` / `NAMES` for ALL 19 UIs. A visitor uses one. Lower priority than §2–§4 and the most entangled — do it only after the above, and only with browser verification.
 

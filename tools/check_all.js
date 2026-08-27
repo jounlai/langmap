@@ -184,6 +184,12 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// namemap_i18n/<ui>.js is the per-UI split of namemap_content_i18n.js, which
+// namemap.html no longer loads. Edit a country name or a background paragraph
+// in the source without rebuilding and the page keeps showing the old text.
+s = run('build_namemap_i18n.js --check');
+line('namemap_i18n/ freshness', num(s, /stale: (\d+)/));
+
 // A language with no LANG_NAMES entry falls back to English with no warning,
 // so a Korean or Thai page can show half its comparison table in English and
 // look fine from the Japanese one. Fifteen Han Map varieties shipped that way.

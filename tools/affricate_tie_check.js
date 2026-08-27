@@ -58,6 +58,26 @@ const hits = [];
   }
 }
 
+// ---- NameMap ----
+// The third map was outside every IPA-convention guard until review 457, and
+// eight of its 1,069 forms carried d͡ʒ (george/ar, gabriel/ar·fa·tr,
+// arjun/hi·bn·id·ms) while the same affricate is bare everywhere else.
+{
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  for (const f of ['namemap_data.js', 'namemap_names_ext.js']) {
+    const p = path.join(root, f);
+    if (fs.existsSync(p)) vm.runInContext('var window=this;' + fs.readFileSync(p, 'utf8').replace(/^const /gm, 'var ') + ';', ctx, { filename: f });
+  }
+  const NAMES = ctx.NAMES || {};
+  for (const id of Object.keys(NAMES)) for (const [cell, arr] of Object.entries(NAMES[id].forms || {}))
+    for (const f of (Array.isArray(arr) ? arr : [arr])) {
+      const ipa = String(f.ipa || '');
+      if (AFFRICATE_TIE.test(ipa))
+        hits.push({ map: 'NameMap', id: `${id}/${cell}`, ipa, tied: (ipa.match(AFFRICATE_TIE_G) || []).join(', ') });
+    }
+}
+
 console.log('affricate tie-bars: ' + hits.length + '\n');
 for (const h of hits) console.log(`   [${h.map}] ${h.id}  ${JSON.stringify(h.ipa)}  (${h.tied} → should be bare)`);
-if (hits.length === 0) console.log('   (all affricates are bare across HanMap + WordMap — clean)');
+if (hits.length === 0) console.log('   (all affricates are bare across HanMap + WordMap + NameMap — clean)');

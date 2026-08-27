@@ -68,6 +68,28 @@ for (const [id, w] of Object.entries(WORDS)) {
     }
 }
 
+// NameMap. Given names are exactly where a stress mark matters and exactly the
+// map no IPA-convention guard was reading: Hungarian György /ˈɟørɟ/ carried one
+// on a single syllable (review 457).
+{
+    const ctx = vm.createContext({});
+    for (const f of ['namemap_data.js', 'namemap_names_ext.js']) {
+        const p = path.resolve(__dirname, '..', f);
+        if (fs.existsSync(p)) vm.runInContext('var window=this;' + fs.readFileSync(p, 'utf8').replace(/^const /gm, 'var ') + ';', ctx, { filename: f });
+    }
+    const NAMES = vm.runInContext('typeof NAMES!=="undefined" ? NAMES : {}', ctx);
+    for (const id of Object.keys(NAMES)) {
+        for (const [cell, arr] of Object.entries(NAMES[id].forms || {})) {
+            for (const f of (Array.isArray(arr) ? arr : [arr])) {
+                const surface = f.rom || f.form || '';
+                const ipa = String(f.ipa || '');
+                if (!ipa.includes('ˈ') || /\s/.test(String(surface).trim())) continue;
+                if (monosyllabic(ipa)) violations.push({ code: cell, id, surface, ipa });
+            }
+        }
+    }
+}
+
 if (CHECK) {
     console.log(`violations: ${violations.length}`);
     for (const v of violations) console.log(`  ${v.code} ${v.id} ${v.surface} /${v.ipa}/ — ˈ on a monosyllable`);

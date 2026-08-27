@@ -8773,7 +8773,7 @@
             if (ui === 'en') return Promise.resolve();
             if (_metaI18nByUi[ui]) return _metaI18nByUi[ui];
             if (!_metaEnginePromise) _metaEnginePromise = _hmInject('meta_i18n_engine.js?v=1');
-            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=1')]);
+            _metaI18nByUi[ui] = Promise.all([_metaEnginePromise, _hmInject('meta_i18n/' + ui + '.js?v=2')]);
             return _metaI18nByUi[ui];
         }
         window.loadMetaI18n = loadMetaI18n;

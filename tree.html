@@ -529,7 +529,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
         if (!_enginePromise) _enginePromise = _loadJS('meta_i18n_engine.js?v=1');
         // per-UI writes META_I18N[ui] (the const from the lite file) + fills
         // META_I18N_ATOMS — engine must run first (async=false guarantees it).
-        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=1')]);
+        _i18nByUi[ui] = Promise.all([_enginePromise, _loadJS('meta_i18n/' + ui + '.js?v=2')]);
         return _i18nByUi[ui];
     }
     // The tree only reads structured fields (family / parentCode / speakers) +

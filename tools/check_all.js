@@ -93,6 +93,13 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // Tone is written with Chao letters, never digits — the digits belong to a
 // romanization, which is what the surface field is for. cjy_xz and atb each
 // wrote BOTH inside one row (bird niau˥˧ vs cat miau⁵³), 40 cells (review 458).
+// /sitemap-seo.xml is at 94.9% of the 50MB limit (review 460). Over it, search
+// engines reject the WHOLE file rather than the excess, so every SSR page loses
+// its entry at once. Reported as headroom until it goes over.
+s = run('sitemap_size_check.js --check');
+line('sitemap within limits', num(s, /violations: (\d+)/),
+    (s.match(/headroom: ([\d.]+)% of the byte limit[^)]*\)/) || [])[0] || '');
+
 s = run('ipa_digit_check.js --check');
 line('no digit tone in IPA', num(s, /violations: (\d+)/));
 

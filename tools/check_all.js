@@ -184,6 +184,12 @@ line('lang_names/ freshness', num(s, /stale: (\d+)/));
 s = run('build_lang_words.js --check');
 line('lang_words/ freshness', num(s, /stale: (\d+)/));
 
+// Four pages hand the per-UI shim its cache version through a function call,
+// which page_asset_version_check.js cannot see — that is how wordmap.html came
+// to ask for en.js?v=151 and every other UI at ?v=143.
+s = run('slice_version_check.js --check');
+line('slice-loader versions', num(s, /violations: (\d+)/));
+
 // ˈ on a monosyllable marks a contrast that is not there. Half the stress
 // policy is checkable; the other half — whether a polysyllable SHOULD carry it
 // — depends on the language and stays a judgement call.

@@ -569,7 +569,7 @@ WORDS.n99 = {
     non:      ["níu ok níu tigir", "niːu ɔk niːu ˈtiɣir"],
     cu:       ["девѧть десѧтъ и девѧть", "devɛ̃tĭ desɛ̃tŭ i devɛ̃tĭ"],
     sux:      ["𒐕𒌍𒑆", "ŋeʃ uʃu ilimːu"],
-    fro:      ["nonante et nuef", "noˈnantə e ˈnu̯ɛf"],
+    fro:      ["nonante et nuef", "noˈnantə e ˈnwɛf"],
     otk:      ["𐱃𐰸𐰆𐰕 𐰆𐰣 𐱃𐰸𐰆𐰕", "toquz on toquz"],
     qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     cop:      ["ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ", "pstaiupsis"],

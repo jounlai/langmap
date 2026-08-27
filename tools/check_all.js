@@ -107,6 +107,11 @@ s = run('sitemap_size_check.js --check');
 line('sitemap within limits', num(s, /violations: (\d+)/),
     (s.match(/headroom: ([\d.]+)% of the byte limit[^)]*\)/) || [])[0] || '');
 
+// Chao letters spell a contour; the same level three times is a half-finished
+// edit. bca wrote ˨˨˨ on all nine of its entering-tone cells (review 463).
+s = run('chao_repeat_check.js --check');
+line('no repeated Chao level', num(s, /violations: (\d+)/));
+
 s = run('ipa_digit_check.js --check');
 line('no digit tone in IPA', num(s, /violations: (\d+)/));
 

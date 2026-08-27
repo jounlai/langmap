@@ -6,5 +6,9 @@
   "countries.geojson": {
     "version": "1",
     "hash": "0b43ff5c126c23df"
+  },
+  "meta_i18n": {
+    "version": "1",
+    "hash": "54c6352262f7b2f4"
   }
 }

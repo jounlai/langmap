@@ -312,7 +312,7 @@ Total: 1164 codes.
 | `es_sv` | Spanish (Salvadoran) | スペイン語（エルサルバドル） | Romance | ~6.5M native speakers |
 | `es_uy` | Spanish (Uruguayan) | スペイン語(ウルグアイ) | Romance | ~3.4M |
 | `es_ve` | Spanish (Venezuelan) | スペイン語(ベネズエラ) | Romance | ~28M |
-| `ess` | Central Siberian Yupik | 中央シベリア・ユピック語 | Eskimo-Aleut (Yupik branch — sister to Central Alaskan Yupʼik (esu) and Aleut) | ~1K (~400 fluent + ~500 partial speakers) |
+| `ess` | Central Siberian Yupik | 中央シベリア・ユピック語 | Eskimo-Aleut (Yupik, Central Siberian) | ~1K (~400 fluent + ~500 partial speakers) |
 | `esu` | Central Alaskan Yupik | 中央アラスカ・ユピック語 | Eskimo-Aleut (Yupik) | ~10K |
 | `et` | Estonian | エストニア語 | Uralic (Finnic) | ~1.1M |
 | `ets` | Yekhee | イェキー語 | Niger-Congo | ~660K |
@@ -351,7 +351,7 @@ Total: 1164 codes.
 | `frp` | Arpitan | アルピタン語 | Romance (Gallo-Romance) | ~150K |
 | `frr` | North Frisian | 北フリジア語 | Indo-European | ~10K (highly endangered) |
 | `frr_amr` | North Frisian (Öömrang) | 北フリジア語（エームラング） | Indo-European | ~600 |
-| `fud` | East Futunan | 東フツナ語 | Austronesian › Malayo-Polynesian › Oceanic › Central Pacific › Polynesian › Nuclear Polynesian | ~6.5K (endangered) |
+| `fud` | East Futunan | 東フツナ語 | Austronesian (Polynesian, Nuclear Polynesian) | ~6.5K (endangered) |
 | `fur` | Friulian | フリウリ語 | Romance (Rhaeto-Romance) | ~600K |
 | `fvr` | Fur | フール語 | Nilo-Saharan (Fur) | ~790K |
 | `fy` | Frisian | フリジア語 | Germanic | ~500K |
@@ -382,7 +382,7 @@ Total: 1164 codes.
 | `got` | Gothic | ゴート語 | Indo-European (Germanic, East) | Extinct |
 | `grt` | Garo | ガロ語 | Sino-Tibetan (Tibeto-Burman, Bodo-Garo) | ~1M |
 | `gsw` | Swiss German | スイス・ドイツ語 | Indo-European (Germanic, West, High German, Alemannic) | ~5M |
-| `gsw_w` | Walliser German | ヴァリス・ドイツ語 | Indo-European (Germanic → West → Upper German → Alemannic → Höchstalemannisch) | ~80K |
+| `gsw_w` | Walliser German | ヴァリス・ドイツ語 | Indo-European (Germanic, West, High German, Alemannic, Höchstalemannisch) | ~80K |
 | `gu` | Gujarati | グジャラート語 | Indo-Aryan | ~57M |
 | `guc` | Wayuu | ワユー語 | Arawakan (Northern) | ~400K |
 | `gum` | Misak | ミサク語 | Barbacoan | ~25K (vulnerable) |
@@ -590,7 +590,7 @@ Total: 1164 codes.
 | `li` | Limburgish | リンブルフ語 | Germanic | ~1.6M |
 | `lif` | Limbu | リンブー語 | Sino-Tibetan (Tibeto-Burman, Kiranti, Eastern) | ~340K |
 | `lij` | Ligurian | リグーリア語 | Romance (Gallo-Italic) | ~500K |
-| `lij_t` | Tabarchino | タバルキーノ語 | Indo-European (Romance → Italo-Western → Gallo-Italic → Ligurian → Tabarchino) | ~2K (active speakers far fewer) |
+| `lij_t` | Tabarchino | タバルキーノ語 | Indo-European (Romance, Italo-Western, Gallo-Italic, Ligurian, Tabarchino) | ~2K (active speakers far fewer) |
 | `lis` | Lisu | リス語 | Sino-Tibetan (Loloish) | ~1M |
 | `liv` | Livonian | リーヴ語 | Uralic (Finnic, South) | ~30 partial |
 | `ljp` | Lampung | ランプン語 | Austronesian (Malayo-Polynesian, Lampungic) | ~1.5M |
@@ -1065,7 +1065,7 @@ Total: 1164 codes.
 | `wal` | Wolaytta | ウォライタ語 | Afro-Asiatic (Omotic) | ~2M |
 | `war` | Waray | ワライ語 | Austronesian (Visayan) | ~2.5M |
 | `wba` | Warao | ワラオ語 | Language isolate | ~28K (Venezuela ~26K + small Guyana/Suriname) |
-| `wbl` | Wakhi | ワヒ語 | Indo-European (Iranian, Eastern Iranian, Southeastern → Pamir) | ~40–60K |
+| `wbl` | Wakhi | ワヒ語 | Indo-European (Iranian, Eastern Iranian, Southeastern, Pamir) | ~40–60K |
 | `wbm` | Wa | ワ語 | Austroasiatic (Palaungic) | ~1M (Wa proper) |
 | `wbp` | Warlpiri | ワルピリ語 | Pama-Nyungan (Ngumpin-Yapa) | ~3K |
 | `wbt` | Warnman | ワーンマン語 | Pama-Nyungan | ~50 fluent + heritage learners |
@@ -1075,7 +1075,7 @@ Total: 1164 codes.
 | `wmt` | Walmajarri | ワルマジャリ語 | Pama-Nyungan (Ngumpin-Yapa) | ~1K |
 | `wo` | Wolof | ウォロフ語 | Atlantic (Niger-Congo) | ~12M (~5M L1 + ~7M L2) |
 | `woe` | Woleaian | ウォレアイ語 | Austronesian (Micronesian) | ~1.7–5K L1 |
-| `wrh` | Wiradjuri | ウィラジュリ語 | Pama-Nyungan › Central New South Wales (Wiradhuric) | ~1.5K (revival, no first-language speakers) |
+| `wrh` | Wiradjuri | ウィラジュリ語 | Pama-Nyungan (Central New South Wales, Wiradhuric) | ~1.5K (revival, no first-language speakers) |
 | `wuu` | Shanghainese | 上海呉語 | Sinitic (Wu) | ~80M (Wu family total) |
 | `wuu_hz` | Hangzhou Wu | 杭州呉語 | Sinitic (Wu, Taihu) | ~1.4M |
 | `wuu_jh` | Jinhua Wu | 金華呉語 | Sinitic (Wu, Wuzhou 婺州片) | ~2M |

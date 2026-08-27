@@ -105,6 +105,48 @@ for (const [page, tagRx, callRx, name] of PAIRS) {
     }
 }
 
+// meta_i18n/<ui>.js + meta_i18n_engine.js are lazy-loaded by three pages.
+// wordmap.html asks through assetUrl(), so its ?v= tracks the registry — but
+// tree.html and hanmap.html have "?v=1" written into the string literal, and
+// hanmap.html's own WM_ASSET_VERSION has no metaI18nEngine/metaI18nUi key to
+// read (review 459). So those two pages would keep serving a cached slice
+// after a regeneration while Word Map readers got the new one. Hash the set
+// and hold the literal against it.
+{
+    const crypto = require('crypto');
+    const dir = path.join(ROOT, 'meta_i18n');
+    const engine = path.join(ROOT, 'meta_i18n_engine.js');
+    const lockPath = path.join(__dirname, 'slice_version.lock.json');
+    if (fs.existsSync(dir) && fs.existsSync(engine)) {
+        const h = crypto.createHash('sha1');
+        for (const f of fs.readdirSync(dir).sort()) h.update(f).update(fs.readFileSync(path.join(dir, f)));
+        h.update(fs.readFileSync(engine));
+        const hash = h.digest('hex').slice(0, 16);
+        const vOf = (page) => {
+            const src = fs.readFileSync(path.join(ROOT, page), 'utf8');
+            const m = /meta_i18n\/' \+ ui \+ '\.js\?v=(\d+)/.exec(src);
+            return m ? m[1] : null;
+        };
+        const tv = vOf('tree.html'), hv = vOf('hanmap.html');
+        const version = tv;
+        const lock = fs.existsSync(lockPath) ? JSON.parse(fs.readFileSync(lockPath, 'utf8')) : {};
+        if (process.argv.includes('--update')) {
+            lock.meta_i18n = { version, hash };
+            fs.writeFileSync(lockPath, JSON.stringify(lock, null, 2) + '\n');
+            console.log('slice_version.lock.json: meta_i18n v=' + version);
+        } else {
+            if (tv && hv && tv !== hv) violations.push({ page: 'tree.html/hanmap.html', name: 'meta_i18n',
+                msg: `meta_i18n/<ui>.js is asked for at ?v=${tv} on tree.html but ?v=${hv} on hanmap.html` });
+            const prev = lock.meta_i18n;
+            if (!prev) violations.push({ page: 'tree.html', name: 'meta_i18n',
+                msg: 'meta_i18n/ not in the lock yet; run: node tools/slice_version_check.js --update' });
+            else if (prev.hash !== hash && prev.version === version)
+                violations.push({ page: 'tree.html + hanmap.html', name: 'meta_i18n',
+                    msg: `meta_i18n/ changed but both pages still ask for ?v=${version}` });
+        }
+    }
+}
+
 if (process.argv.includes('--update')) { console.log('slice_version.lock.json updated.'); process.exit(0); }
 
 if (CHECK) {

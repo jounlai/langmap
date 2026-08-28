@@ -105,6 +105,13 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // The pin is the most visible claim the atlas makes and nothing checked it.
 // Real point-in-polygon against countries.geojson; four rows stood in a country
 // their own meta.description named but meta.countries omitted (review 466).
+// meta.sources is where the atlas shows its work. Three rows cited a Glottolog
+// page for a different language — glottocodes collide on the first four letters
+// of a name, so a guessed code lands on a neighbour (review 467).
+s = run('source_link_check.js --check');
+line('citations point at the row', num(s, /violations: (\d+)/),
+    (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' rows with no sources') : '');
+
 s = run('coord_country_check.js --check');
 line('pin inside a declared country', num(s, /violations: (\d+)/),
     (s.match(/boundary: (\d+)/) || [])[1] ? ((s.match(/boundary: (\d+)/))[1] + ' basemap boundary') : '');

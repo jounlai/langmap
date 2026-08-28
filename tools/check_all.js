@@ -102,6 +102,13 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // The CARTO free tier is granted in exchange for keeping the CARTO AND
 // OpenStreetMap credit visible. The default `flat` layer on both map pages
 // credited only CARTO (owner 2026-08-27).
+// The pin is the most visible claim the atlas makes and nothing checked it.
+// Real point-in-polygon against countries.geojson; four rows stood in a country
+// their own meta.description named but meta.countries omitted (review 466).
+s = run('coord_country_check.js --check');
+line('pin inside a declared country', num(s, /violations: (\d+)/),
+    (s.match(/boundary: (\d+)/) || [])[1] ? ((s.match(/boundary: (\d+)/))[1] + ' basemap boundary') : '');
+
 s = run('map_attribution_check.js --check');
 line('map attribution complete', num(s, /violations: (\d+)/));
 

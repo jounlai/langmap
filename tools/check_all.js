@@ -114,6 +114,12 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // Nine languages exist twice under different codes because the three maps grew
 // separate conventions for reconstructed languages; 35 of their names had
 // diverged, so one language read two ways depending on the map (review 469).
+// codeType / languageKind / dataStatus / varietyRole / period describe one
+// language from different angles; a row can satisfy each separately while
+// contradicting itself. These held by discipline until now (review 470).
+s = run('meta_invariant_check.js --check');
+line('meta fields agree', num(s, /violations: (\d+)/));
+
 s = run('paired_code_name_check.js --check');
 line('paired codes name alike', num(s, /violations: (\d+)/),
     (s.match(/note: (\d+) pair/) || [])[1] ? ((s.match(/note: (\d+) pair/))[1] + ' ISO aliases') : '');

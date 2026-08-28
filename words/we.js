@@ -1142,7 +1142,7 @@ WORDS.we = {
     cjy_lv: ["俺们", "ɣæ̃˥˧mə"],
     cjy_xz: ["咱们 / 我们", "tsa˥˧mə / ŋɤ˧˩mə"],
     hsn_hy: ["我伲", "ŋo˨˩ȵin˩˩"],
-    hsn_yz: ["我們", "ŋo˦˩mə̃n˨˨"],
+    hsn_yz: ["我们", "ŋo˦˩mə̃n˨˨"],
     czh_wy: ["—", "—"],
     bla: ["kiistónnoon / niistónnaan", "kiːstonːoːn / niːstonːaːn"],
     hop: ["itam", "ʔitam"],

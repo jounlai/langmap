@@ -108,6 +108,13 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // meta.sources is where the atlas shows its work. Three rows cited a Glottolog
 // page for a different language — glottocodes collide on the first four letters
 // of a name, so a guessed code lands on a neighbour (review 467).
+// meta.script is shown to the reader and read by nothing else, so a wrong value
+// is invisible to every other guard. Four Chinese dialect rows declared "Latin"
+// while writing Han (review 468); review 432 had fixed four siblings already.
+s = run('script_declaration_check.js --check');
+line('script declared matches data', num(s, /violations: (\d+)/),
+    (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' overstated') : '');
+
 s = run('source_link_check.js --check');
 line('citations point at the row', num(s, /violations: (\d+)/),
     (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' rows with no sources') : '');

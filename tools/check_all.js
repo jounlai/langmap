@@ -111,6 +111,13 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // meta.script is shown to the reader and read by nothing else, so a wrong value
 // is invisible to every other guard. Four Chinese dialect rows declared "Latin"
 // while writing Han (review 468); review 432 had fixed four siblings already.
+// Nine languages exist twice under different codes because the three maps grew
+// separate conventions for reconstructed languages; 35 of their names had
+// diverged, so one language read two ways depending on the map (review 469).
+s = run('paired_code_name_check.js --check');
+line('paired codes name alike', num(s, /violations: (\d+)/),
+    (s.match(/note: (\d+) pair/) || [])[1] ? ((s.match(/note: (\d+) pair/))[1] + ' ISO aliases') : '');
+
 s = run('script_declaration_check.js --check');
 line('script declared matches data', num(s, /violations: (\d+)/),
     (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' overstated') : '');

@@ -301,7 +301,7 @@ Total: 1164 codes.
 | `es_do` | Spanish (Dominican Republic) | スペイン語(ドミニカ共和国) | Romance | ~10M |
 | `es_ec` | Spanish (Ecuadorian) | スペイン語(エクアドル) | Romance | ~13.5M |
 | `es_gt` | Spanish (Guatemalan) | スペイン語（グアテマラ） | Romance | ~16M |
-| `es_hn` | Spanish | スペイン語 | Romance | ~9.5M L1 (Honduras) |
+| `es_hn` | Spanish (Honduras) | スペイン語(ホンジュラス) | Romance | ~9.5M L1 (Honduras) |
 | `es_mx` | Spanish (Mexico) | スペイン語(メキシコ) | Romance | ~125M |
 | `es_ni` | Spanish (Nicaragua) | スペイン語(ニカラグア) | Romance | ~6.9M L1 (Nicaragua) |
 | `es_pa` | Panamanian Spanish | パナマスペイン語 | Romance | ~3.9–4.4M |
@@ -343,7 +343,7 @@ Total: 1164 codes.
 | `fr_class` | Classical French (17c., Bel Usage) | 古典フランス語(17世紀) | Indo-European (Italic, Romance, Gallo-Romance, Northern French; Classical 17c.) | Historical literary form (~1650–1715 CE, Grand Siècle); pedagogical use |
 | `fr_cm` | Cameroonian French | カメルーンフランス語 | Romance | ~12M (Cameroon) |
 | `fr_ht` | French (Haitian) | フランス語(ハイチ) | Romance | ~4.5M |
-| `fr_lu` | French | フランス語 | Romance | ~0.5M (Luxembourg) |
+| `fr_lu` | French (Luxembourg) | フランス語(ルクセンブルク) | Romance | ~0.5M (Luxembourg) |
 | `fr_qc` | French (Québec) | フランス語(ケベック) | Indo-European (Romance, Gallo-Romance, Northern French) | ~7M |
 | `fr_sn` | French (Senegalese) | フランス語(セネガル) | Romance | ~5M |
 | `fra_jer` | Jèrriais | ジェリエ語 | Indo-European (Romance, Oïl, Norman) | ~1K (severely endangered) |

@@ -33,7 +33,7 @@ const TRIVIA_ARTICLES = [
       ja: '数を数えない言語、ピダハン語',
     },
     summary: {
-      en: 'A tiny Amazonian isolate that allegedly lacks number words, basic colour terms, and grammatical recursion — and shook a 60-year-old theory of language.',
+      en: 'A tiny Amazonian isolate that allegedly lacks number words, basic colour terms, and grammatical recursion, and shook a 60-year-old theory of language.',
       ja: 'アマゾン奥地の孤立言語。数詞も基本色名も再帰文法もないとされ、半世紀続いた言語理論を揺さぶった。',
     },
     body: {
@@ -48,7 +48,7 @@ const TRIVIA_ARTICLES = [
 <p>The fieldworker who triggered the storm is <strong>Daniel Everett</strong>, a missionary-turned-linguist who lived with the Pirahã for years. According to his reports, the language is missing several things that 20th-century linguists had argued were universal in human language:</p>
 
 <ul>
-  <li><strong>No exact number words.</strong> The community uses only <em>hói</em> ("a small amount") and <em>hoí</em> ("a larger amount") — a contrast of quantity, not of count. In experiments, Pirahã speakers can lay out a matching row of objects one-for-one, up to ten, almost without error — but they fail as soon as the set has to be carried across space or time: hidden behind a screen, turned at right angles, or dropped one by one into a can.</li>
+  <li><strong>No exact number words.</strong> The community uses only <em>hói</em> ("a small amount") and <em>hoí</em> ("a larger amount") — a contrast of quantity, not of count. In experiments, Pirahã speakers can lay out a matching row of objects one-for-one, up to ten, almost without error, but they fail as soon as the set has to be carried across space or time: hidden behind a screen, turned at right angles, or dropped one by one into a can.</li>
   <li><strong>No basic colour vocabulary.</strong> Colours are described compositionally — "like blood", "unripe", "dirty" — rather than with fixed labels like "red" or "green".</li>
   <li><strong>No grammatical recursion.</strong> Sentences cannot be embedded inside other sentences. This directly challenges <strong>Noam Chomsky's</strong> claim that recursion is <em>the</em> defining feature that separates human language from animal communication. If Everett is right, Pirahã breaks the theory.</li>
   <li><strong>No creation myths, no fiction, no stories about ancestors no living person knew.</strong> A strong cultural norm — Everett calls it the "immediacy of experience" principle — restricts speech to what the speaker or a living interlocutor has personally witnessed.</li>
@@ -65,7 +65,7 @@ const TRIVIA_ARTICLES = [
 
 <p>Everett's claims are <strong>hotly contested</strong>. Later researchers, including Andrew Nevins, David Pesetsky and Cilene Rodrigues, have argued that Pirahã does have recursion — just rarely used — and that the number facts can be explained without exotic cognitive consequences. Everett has fired back; the debate is still open.</p>
 
-<p>Less controversial, though still discussed, are the cultural norm restricting speech to directly-experienced events and Pirahã's striking multi-channel transmission. Whichever side wins the recursion war, Pirahã has done what very few languages ever do: forced linguists to ask, once again, whether language shapes thought — or thought shapes language.</p>
+<p>Less controversial, though still discussed, are the cultural norm restricting speech to directly-experienced events and Pirahã's striking multi-channel transmission. Whichever side wins the recursion war, Pirahã has done what very few languages ever do: forced linguists to ask, once again, whether language shapes thought, or thought shapes language.</p>
       `,
       ja: `
 <p>ブラジル・アマゾンの奥地に、話者わずか700〜800人の<strong>ピダハン語（Pirahã）</strong>がある。世界のどの言語とも親縁関係が証明されていない孤立言語で、現代言語学でもっとも激しい論争を呼んでいる言語のひとつだ。</p>
@@ -211,14 +211,14 @@ const TRIVIA_ARTICLES = [
       },
       body: {
         en: `
-  <p>English gets by on 24 distinct consonants. <strong>Taa</strong>, also written <em>!Xóõ</em>, has so many that linguists cannot agree on how to count them. Anthony Traill's monumental 1985 study of the East ǃXoon dialect yields at least <strong>58 phonemic consonants</strong> on the most conservative reckoning, and the later DoBeS description of West ǃXoon at least <strong>87</strong> — but those minima come from treating the most complex clicks as consonant clusters. Count each complex click as a single segment instead and the inventory climbs to around <strong>130</strong> consonants on Traill's material and <strong>122</strong> on DoBeS's — the figure WALS cites when it ranks Taa's inventory the largest of any documented language. On every one of these counts, Taa holds the record.</p>
+  <p>English gets by on 24 distinct consonants. <strong>Taa</strong>, also written <em>!Xóõ</em>, has so many that linguists cannot agree on how to count them. Anthony Traill's monumental 1985 study of the East ǃXoon dialect yields at least <strong>58 phonemic consonants</strong> on the most conservative reckoning, and the later DoBeS description of West ǃXoon at least <strong>87</strong>, but those minima come from treating the most complex clicks as consonant clusters. Count each complex click as a single segment instead and the inventory climbs to around <strong>130</strong> consonants on Traill's material and <strong>122</strong> on DoBeS's — the figure WALS cites when it ranks Taa's inventory the largest of any documented language. On every one of these counts, Taa holds the record.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="nmn" data-zoom="5">🌍 Show Taa on the map</button>
     <button type="button" class="trivia-action" data-action="panto" data-lat="-22" data-lng="20" data-zoom="5">🗺️ Fly to the Taa heartland</button>
   </div>
   
-  <p>Taa is a <strong>Tuu language</strong> (formerly grouped with the now-discredited "Southern Khoisan" family) spoken in scattered villages of the southwestern Kalahari, mostly in Botswana with a smaller community in Namibia. Estimates put the speaker community at around <strong>2,500 people</strong>, all of whom are bilingual in Tswana, Afrikaans or Khoekhoegowab — so although the language is not yet moribund, every generational hand-off is a coin flip.</p>
+  <p>Taa is a <strong>Tuu language</strong> (formerly grouped with the now-discredited "Southern Khoisan" family) spoken in scattered villages of the southwestern Kalahari, mostly in Botswana with a smaller community in Namibia. Estimates put the speaker community at around <strong>2,500 people</strong>, all of whom are bilingual in Tswana, Afrikaans or Khoekhoegowab, so although the language is not yet moribund, every generational hand-off is a coin flip.</p>
   
   <p>The phonological extravagance has three layers:</p>
   
@@ -415,7 +415,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="compare" data-codes="ab,ady,kbd">🗣 Compare Ubykh's surviving cousins (Abkhaz, Adyghe, Kabardian)</button>
   </div>
   
-  <p>Almost everything we know about Ubykh in the 20th century we owe to the French Indo-Europeanist and comparative mythologist <strong>Georges Dumézil</strong>. Beginning in 1930, Dumézil made repeated trips to Anatolia to record the dwindling community, returning year after year for nearly six decades. He produced a series of grammatical descriptions and text collections — including the <em>Documents anatoliens sur les langues et les traditions du Caucase</em> series (vol. III: <em>Nouvelles études oubykhs</em>, 1965) — that remain foundational. Esenç became Dumézil's principal consultant in the 1960s; the two corresponded and worked together until Dumézil's death in 1986.</p>
+  <p>Almost everything we know about Ubykh in the 20th century we owe to the French Indo-Europeanist and comparative mythologist <strong>Georges Dumézil</strong>. Beginning in 1930, Dumézil made repeated trips to Anatolia to record the dwindling community, returning year after year for nearly six decades. He produced a series of grammatical descriptions and text collections, including the <em>Documents anatoliens sur les langues et les traditions du Caucase</em> series (vol. III: <em>Nouvelles études oubykhs</em>, 1965) — that remain foundational. Esenç became Dumézil's principal consultant in the 1960s; the two corresponded and worked together until Dumézil's death in 1986.</p>
   
   <blockquote>"Tevfik Esenç — recite a Fatiha for his soul — who immortalised the Ubykh language, the last Ubykh who could write and speak this language." — the Turkish epitaph on Esenç's gravestone, which he dictated himself</blockquote>
   
@@ -425,7 +425,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="panto" data-lat="40.50" data-lng="29.20" data-zoom="7">🕯️ Zoom into Hacıosman, Turkey</button>
   </div>
   
-  <p>Today there are small groups of ethnic Ubykh in Turkey, Jordan and the United States who study the recordings, attempt limited revitalisation, and maintain a sense of identity through Circassian solidarity organisations. But functional fluency, with its 84 consonants and its bristling verb morphology, has not returned and most likely will not. Ubykh remains the textbook case of a language that was <strong>caught and described just in time</strong> — and then lost anyway.</p>
+  <p>Today there are small groups of ethnic Ubykh in Turkey, Jordan and the United States who study the recordings, attempt limited revitalisation, and maintain a sense of identity through Circassian solidarity organisations. But functional fluency, with its 84 consonants and its bristling verb morphology, has not returned and most likely will not. Ubykh remains the textbook case of a language that was <strong>caught and described just in time</strong>, and then lost anyway.</p>
         `,
         ja: `
   <p>言語の死を正確な日付で言える例は少ない。<strong>ウビフ語</strong>はその例外だ。<strong>1992年10月7日</strong>、トルコ・マルマラ海南方の村<strong>ハジオスマン</strong>で、88歳の農夫<strong>テヴフィク・エセンチ</strong>が眠りについたまま目を覚まさなかった。彼はウビフ語の最後の完全な話者だった。1世紀あまり前まで、コーカサスの黒海沿岸で数万人が日常的に話していた言語が、その瞬間に消えた。</p>
@@ -481,12 +481,12 @@ const TRIVIA_ARTICLES = [
         ja: 'ダミン語 — オーストラリアの音韻常識を破った男性秘密言語',
       },
       summary: {
-        en: 'Used only by initiated men on Mornington Island, Damin compressed the whole Lardil vocabulary into about 200 words — and broke every Australian sound rule, with click stops, ingressive laterals and ejectives found nowhere else on the continent.',
+        en: 'Used only by initiated men on Mornington Island, Damin compressed the whole Lardil vocabulary into about 200 words, and broke every Australian sound rule, with click stops, ingressive laterals and ejectives found nowhere else on the continent.',
         ja: 'モーニントン島で成人儀礼を経た男性のみが用いたダミン語は、ラーディル語の語彙を約200語に圧縮し、吸気側面音や放出音など「オーストラリアにあり得ない音」を体系的に持っていた。',
       },
       body: {
         en: `
-  <p>Across the continent of Australia, more than 250 indigenous languages share, with surprising consistency, a small palette of speech sounds: voiceless stops at four or five places of articulation, matching nasals, a couple of laterals, two rhotics — and absolutely no clicks, no ejectives, no implosives, no ingressive sounds. Then comes <strong>Damin</strong>, and the rules break.</p>
+  <p>Across the continent of Australia, more than 250 indigenous languages share, with surprising consistency, a small palette of speech sounds: voiceless stops at four or five places of articulation, matching nasals, a couple of laterals, two rhotics, and absolutely no clicks, no ejectives, no implosives, no ingressive sounds. Then comes <strong>Damin</strong>, and the rules break.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="lbz_damin" data-zoom="6">🌍 Show Damin on the map</button>
@@ -504,7 +504,7 @@ const TRIVIA_ARTICLES = [
   <p>The phonology, though, was where Damin broke continental norms. It contained:</p>
   
   <ul>
-    <li><strong>Click stops</strong> — including a bilabial click <em>ʘ</em>, which is otherwise found only in southern African Khoisan languages and a handful of ritual registers worldwide. No other Australian language has clicks.</li>
+    <li><strong>Click stops</strong>, including a bilabial click <em>ʘ</em>, which is otherwise found only in southern African Khoisan languages and a handful of ritual registers worldwide. No other Australian language has clicks.</li>
     <li><strong>An ingressive lateral fricative</strong>, articulated by sucking air inward over the sides of the tongue. This sound is, as far as anyone has documented, <strong>unique to Damin</strong> in the world's languages.</li>
     <li><strong>Two ejectives</strong>, <em>p'</em> and <em>k'</em> — the first of them produced with velaric rather than laryngeal pressure — again unparalleled in the rest of Australia.</li>
     <li><strong>A nasalised egressive labio-lingual trill</strong> ("Bronx cheer") — a deliberately rude noise pressed into linguistic service.</li>
@@ -702,19 +702,19 @@ const TRIVIA_ARTICLES = [
         ja: 'ヨーロッパが置き換え損ねた言語、バスク語',
       },
       summary: {
-        en: 'Western Europe\'s only surviving pre-Indo-European language, spoken in the Pyrenees by ~750,000 people — and unrelated to anything else on Earth.',
+        en: 'Western Europe\'s only surviving pre-Indo-European language, spoken in the Pyrenees by ~750,000 people, and unrelated to anything else on Earth.',
         ja: '西ヨーロッパで唯一生き残った印欧語以前の言語。ピレネー山中で約75万人が話す、地球上のどの言語とも親縁関係のない孤立言語。',
       },
       body: {
         en: `
-  <p>When the Romans marched into Hispania in 218 BCE, they encountered dozens of languages. Within four hundred years, almost every one had been replaced by Latin — the seed of Spanish, Portuguese, Catalan, French, and the rest of Romance Europe. Almost every one. In the western Pyrenees, one language refused to die. Its speakers still call themselves <em>euskaldunak</em> — literally "those who have Basque" — and their language, <strong>Euskara</strong>, is the last living survivor of a Europe that existed before the Indo-Europeans arrived.</p>
+  <p>When the Romans marched into Hispania in 218 BCE, they encountered dozens of languages. Within four hundred years, almost every one had been replaced by Latin — the seed of Spanish, Portuguese, Catalan, French, and the rest of Romance Europe. Almost every one. In the western Pyrenees, one language refused to die. Its speakers still call themselves <em>euskaldunak</em> — literally "those who have Basque", and their language, <strong>Euskara</strong>, is the last living survivor of a Europe that existed before the Indo-Europeans arrived.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="eu" data-zoom="7">🌍 Show Basque on the map</button>
     <button type="button" class="trivia-action" data-action="panto" data-lat="43.17" data-lng="-2.47" data-zoom="8">⛰️ Fly to the Basque Country</button>
   </div>
   
-  <p>Roughly 750,000 people speak Basque today, split between four provinces in Spain (Bizkaia, Gipuzkoa, Araba and Navarra) and three in France (Labourd, Lower Navarre, Soule). Genetically, the language is a true <strong>isolate</strong>: no proven relatives. Linguists have spent two centuries trying to connect it to Iberian, Berber, Caucasian, Etruscan, Pictish, Burushaski, and even Ainu — and not one proposal has survived peer review.</p>
+  <p>Roughly 750,000 people speak Basque today, split between four provinces in Spain (Bizkaia, Gipuzkoa, Araba and Navarra) and three in France (Labourd, Lower Navarre, Soule). Genetically, the language is a true <strong>isolate</strong>: no proven relatives. Linguists have spent two centuries trying to connect it to Iberian, Berber, Caucasian, Etruscan, Pictish, Burushaski, and even Ainu, and not one proposal has survived peer review.</p>
   
   <p>The most serious historical link is to <strong>Aquitanian</strong>, attested in roughly 500 personal and divine names carved on Roman-era votive stones in southwestern Gaul. The forms look strikingly Basque: <em>NESCATO</em> matches modern <em>neskato</em> "girl"; <em>CISON</em> matches <em>gizon</em> "man"; <em>SEMBE-</em> matches <em>seme</em> "son". Most specialists now treat Aquitanian as an older cousin or direct ancestor of Basque, pushing the language's documented history back at least 2,000 years. Whether Basque also descends from a wider <strong>Vasconic substrate</strong> that once blanketed Western Europe — as proposed by Theo Vennemann — is far more controversial.</p>
   
@@ -791,7 +791,7 @@ const TRIVIA_ARTICLES = [
       },
       body: {
         en: `
-  <p>Around 3200 BCE, in the southern Mesopotamian city of <strong>Uruk</strong>, somebody pressed the end of a reed stylus into wet clay and wrote down a quantity of barley. That clay tablet, and thousands like it, are among the earliest moments human language escaped the breath that carried it — alongside parallel developments in early dynastic Egypt and, somewhat later, in the Indus Valley and China. The language being recorded was <strong>Sumerian</strong> (<em>eme-gir</em>, "the native tongue") — and 5,200 years later we are still reading it.</p>
+  <p>Around 3200 BCE, in the southern Mesopotamian city of <strong>Uruk</strong>, somebody pressed the end of a reed stylus into wet clay and wrote down a quantity of barley. That clay tablet, and thousands like it, are among the earliest moments human language escaped the breath that carried it — alongside parallel developments in early dynastic Egypt and, somewhat later, in the Indus Valley and China. The language being recorded was <strong>Sumerian</strong> (<em>eme-gir</em>, "the native tongue"), and 5,200 years later we are still reading it.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="sux" data-zoom="6">🌍 Show Sumerian on the map</button>
@@ -802,12 +802,12 @@ const TRIVIA_ARTICLES = [
   
   <blockquote><em>i-mu-na-an-šúm</em> — "he gave it to him" (literally: aspect-ventive-3sg.dative-3sg.agent-give)</blockquote>
   
-  <p>Writing began as accountancy. The earliest tablets — the so-called <strong>proto-cuneiform</strong> of Uruk IV (c. 3200 BCE) — are receipts and ration lists: pictographs for sheep, beer, oil, with numbers in a sexagesimal (base-60) system that survives in our 60-minute hour. Over the following four centuries the pictographs were rotated 90 degrees, stylized into wedge-shaped impressions, and gained a phonetic dimension via the <strong>rebus principle</strong>: a sign for an object came to also stand for the sound of its name. Once a writing system can spell sounds, it can spell anything — and by 2600 BCE Sumerian scribes were writing literature, law, and prayer.</p>
+  <p>Writing began as accountancy. The earliest tablets — the so-called <strong>proto-cuneiform</strong> of Uruk IV (c. 3200 BCE) — are receipts and ration lists: pictographs for sheep, beer, oil, with numbers in a sexagesimal (base-60) system that survives in our 60-minute hour. Over the following four centuries the pictographs were rotated 90 degrees, stylized into wedge-shaped impressions, and gained a phonetic dimension via the <strong>rebus principle</strong>: a sign for an object came to also stand for the sound of its name. Once a writing system can spell sounds, it can spell anything, and by 2600 BCE Sumerian scribes were writing literature, law, and prayer.</p>
   
   <ul>
     <li><strong>The Kish tablet</strong> (c. 3500 BCE) and Uruk tablet W 9578a are among the earliest known writing.</li>
     <li><strong>The Instructions of Shuruppak</strong> (c. 2500 BCE) are among the oldest surviving works of literature.</li>
-    <li><strong>The Code of Ur-Nammu</strong> (c. 2100 BCE), the oldest known law code, predates Hammurabi by three centuries — and was written in Sumerian.</li>
+    <li><strong>The Code of Ur-Nammu</strong> (c. 2100 BCE), the oldest known law code, predates Hammurabi by three centuries, and was written in Sumerian.</li>
     <li><strong>Enheduanna</strong> (c. 2285 BCE), an Akkadian princess and high priestess of the moon god Nanna, is traditionally counted the earliest named author in human history — though the Sumerian hymns to Inanna that bear her name survive only in copies made roughly six centuries later, and Assyriologists remain divided over whether she composed them.</li>
   </ul>
   
@@ -820,7 +820,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The language was forgotten entirely after the death of cuneiform itself, around the 1st century CE. It re-entered human memory only in the 19th century, when <strong>Henry Rawlinson</strong>, <strong>Edward Hincks</strong> and <strong>Jules Oppert</strong> — three of the decipherers of cuneiform — realized that the bilingual lexical lists they were reading recorded not just Akkadian but an older, non-Semitic language behind it. Oppert proposed the name "Sumerian" in 1869, taking it from the Akkadian royal title "King of Sumer and Akkad" — the Sumerians' own name for their land was <em>ki-en-gi(-r)</em>.</p>
   
-  <p>Today the <strong>Pennsylvania Sumerian Dictionary</strong> and the <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) make it possible to read the world's oldest poetry on a phone. The <strong>Epic of Gilgamesh</strong>, in its Sumerian-language predecessors like "Gilgamesh and the Bull of Heaven", is among the oldest stories humanity ever wrote down — and it is still being translated.</p>
+  <p>Today the <strong>Pennsylvania Sumerian Dictionary</strong> and the <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) make it possible to read the world's oldest poetry on a phone. The <strong>Epic of Gilgamesh</strong>, in its Sumerian-language predecessors like "Gilgamesh and the Bull of Heaven", is among the oldest stories humanity ever wrote down, and it is still being translated.</p>
         `,
         ja: `
   <p>紀元前3200年頃、メソポタミア南部の都市<strong>ウルク</strong>で、誰かが葦のスタイラスの先を湿った粘土に押しつけ、大麦の数量を記録した。その粘土板と、それに続く何千枚もの板は、人類の言語が「息」から解放されて物質に刻まれた最初期の瞬間のひとつである──初期王朝期のエジプト、やや遅れてインダスや中国でも、並行して同じことが起きた。記録された言語は<strong>シュメール語</strong>（<em>eme-gir</em>「土地の言葉」）──5200年後の今も読み続けられている。</p>
@@ -872,7 +872,7 @@ const TRIVIA_ARTICLES = [
         ja: '読めるのに分からない言語、エトルリア語',
       },
       summary: {
-        en: 'Pre-Roman Italy\'s dominant language: 13,000 surviving inscriptions in a Greek-derived alphabet, fully phonetically readable — and still only partly translated.',
+        en: 'Pre-Roman Italy\'s dominant language: 13,000 surviving inscriptions in a Greek-derived alphabet, fully phonetically readable, and still only partly translated.',
         ja: 'ローマ以前のイタリアを支配した言語。ギリシア由来のアルファベットで書かれた約13,000の碑文が残り、音は完全に読めるのに、意味はいまだ部分的にしか解読されていない。',
       },
       body: {
@@ -958,12 +958,12 @@ const TRIVIA_ARTICLES = [
         ja: '一度も録音されたことのない言語、センチネル語',
       },
       summary: {
-        en: 'On a 60 km² island in the Bay of Bengal lives a people whose ancestors may belong to one of the earliest layers of human settlement in the region — and whose language no outsider has ever heard, let alone documented.',
+        en: 'On a 60 km² island in the Bay of Bengal lives a people whose ancestors may belong to one of the earliest layers of human settlement in the region, and whose language no outsider has ever heard, let alone documented.',
         ja: 'ベンガル湾の60平方キロの島で、地域における人類最古の定住層に連なるとされる人々が話す言語。外部の誰も聞いたことも記録したこともない。',
       },
       body: {
         en: `
-  <p>About 1,200 km east of mainland India, in the Bay of Bengal, lies a small forested island of roughly 60 square kilometres. It is called <strong>North Sentinel Island</strong>, and somewhere inside it live perhaps fifty to several hundred people — nobody knows the real number — who have rejected every single attempt to talk to them. They are the <strong>Sentinelese</strong>, and theirs is one of the very few human languages on Earth that has never been recorded, never been transcribed, and never even been confidently classified — and by far the best known of them.</p>
+  <p>About 1,200 km east of mainland India, in the Bay of Bengal, lies a small forested island of roughly 60 square kilometres. It is called <strong>North Sentinel Island</strong>, and somewhere inside it live perhaps fifty to several hundred people — nobody knows the real number — who have rejected every single attempt to talk to them. They are the <strong>Sentinelese</strong>, and theirs is one of the very few human languages on Earth that has never been recorded, never been transcribed, and never even been confidently classified, and by far the best known of them.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Fly to North Sentinel Island</button>
@@ -988,7 +988,7 @@ const TRIVIA_ARTICLES = [
   
   <p>What little we suspect about Sentinelese linguistic typology comes by analogy: Ongan languages have a small phoneme inventory, possessive prefixes on body-part and kinship terms, and a system of body-part-based deictics (e.g. one suffix for "of the head", another for "of the back"). It is plausible — but unprovable — that Sentinelese works similarly. The Ethnologue, ISO 639-3, and Glottolog list it (code <em>std</em>, languoid <em>sent1241</em>), but every field on the entry that asks for actual data reads "no information available" or "unknown".</p>
   
-  <p>It is the rarest of linguistic situations: a living, breathing human language, used every day, that we have agreed as a species not to study. Whether that agreement will survive the 21st century is uncertain. For now, the Sentinelese remain the people who will not be interviewed — and their language, the one tongue in this collection that we describe not because we know it, but because we know we don't.</p>
+  <p>It is the rarest of linguistic situations: a living, breathing human language, used every day, that we have agreed as a species not to study. Whether that agreement will survive the 21st century is uncertain. For now, the Sentinelese remain the people who will not be interviewed, and their language, the one tongue in this collection that we describe not because we know it, but because we know we don't.</p>
         `,
         ja: `
   <p>インド本土から東に約1,200km、ベンガル湾の中に、面積60平方キロほどの森林に覆われた小島がある。<strong>北センチネル島</strong>と呼ばれるその島に、おそらく数十人から数百人──正確な数は誰も知らない──の人々が住んでいる。彼らは外部とのあらゆる接触を拒絶してきた。彼らこそ<strong>センチネル族</strong>であり、その言語は、一度も録音されず、一度も書き取られず、系統さえ確定していない──地球上にごくわずかしか存在しないそうした人類言語の一つであり、その中で群を抜いて知られた存在である。</p>
@@ -1073,7 +1073,7 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>"The Jews did not manage to revive the language of Isaiah. It is simply impossible to revive a language as it used to be." — Ghil'ad Zuckermann, BBC Future, 22 March 2019</blockquote>
   
-  <p>By 1922, when Ben-Yehuda died, Hebrew was one of the three official languages of British Mandate Palestine. By 1948 it was the principal language of the newly-founded State of Israel. Today it is the school language of millions, the language of Nobel laureates (S. Y. Agnon, 1966), of cinema and high tech, of the supermarket and the playground. The last child to learn Hebrew as a baby before 200 CE and the first child to learn it as a baby in 1882 are separated by about 70 generations of Jewish life in which the language was carried but not cradled — and it is the only language on Earth that has done so and come back.</p>
+  <p>By 1922, when Ben-Yehuda died, Hebrew was one of the three official languages of British Mandate Palestine. By 1948 it was the principal language of the newly-founded State of Israel. Today it is the school language of millions, the language of Nobel laureates (S. Y. Agnon, 1966), of cinema and high tech, of the supermarket and the playground. The last child to learn Hebrew as a baby before 200 CE and the first child to learn it as a baby in 1882 are separated by about 70 generations of Jewish life in which the language was carried but not cradled, and it is the only language on Earth that has done so and come back.</p>
         `,
         ja: `
   <p>西暦<strong>200年</strong>頃のある時点で、ローマ領パレスチナで子供がヘブライ語を聞きながら育つ家庭はついに途絶えた。街路ではすでにアラム語が、都市ではギリシア語が優勢になり、ミシュナーの編纂者たちは書けるが日常で<em>話さない</em>ヘブライ語で文書を綴っていた。その後の1,700年間、ヘブライ語はシナゴーグの祈り、トーラーの巻物、ラビ同士の書簡──つまり「読み書きできる大人の言語」として生き延びたが、誰一人として赤ん坊として習得することはなかった。それがなぜか、変わった。今やヘブライ語は約<strong>900万人</strong>の日常の話し言葉であり、そのおよそ半数が赤ん坊として習得した母語話者である。コーンウォール語、マン島語、ワンパノアグ語といった小規模な復興例もあるが、母語話者が絶えた言語が共同体の日常語として戻ってきた事例としては、ヘブライ語が最大規模であり、もっとも詳しく記録されている。</p>
@@ -1128,7 +1128,7 @@ const TRIVIA_ARTICLES = [
         ja: '計算機科学を2,400年先取りしたサンスクリット文法家、パーニニ',
       },
       summary: {
-        en: 'Around 500 BCE, an Indian scholar wrote a 4,000-rule formal grammar of Sanskrit so rigorous that Leonard Bloomfield could write in 1933 that "no other language, to this day, has been so perfectly described" — and it is a direct ancestor of how compilers parse code today.',
+        en: 'Around 500 BCE, an Indian scholar wrote a 4,000-rule formal grammar of Sanskrit so rigorous that Leonard Bloomfield could write in 1933 that "no other language, to this day, has been so perfectly described", and it is a direct ancestor of how compilers parse code today.',
         ja: '紀元前500年頃、インドの一学者が4,000規則からなるサンスクリットの形式文法を著した。1933年にレナード・ブルームフィールドが「今日に至るまで、これほど完璧に記述された言語は他にない」と評したほどの書であり、現代のコンパイラ理論の直接の祖先でもある。',
       },
       body: {
@@ -1163,7 +1163,7 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>"The descriptive grammar of Sanskrit, which Pāṇini brought to its highest perfection, is one of the greatest monuments of human intelligence." — Leonard Bloomfield, review of Liebich's <em>Konkordanz Pāṇini-Candra</em>, <em>Language</em> 5 (1929)</blockquote>
   
-  <p>Sanskrit itself (<em>saṃskṛta-</em>, "polished, refined") was already a literary and ritual standard, not a vernacular, by Pāṇini's day. After him it became, formally, what Pāṇini said it was: a language whose every well-formed sentence is, in principle, derivable from his 4,000 sūtras. Two and a half thousand years later, that is also exactly what we ask of a parser. The Aṣṭādhyāyī did not just describe Sanskrit. It pushed the idea of generative, formal description of language to a degree of precision unmatched in antiquity — and arguably until 20th-century formal linguistics rediscovered the same ideas independently.</p>
+  <p>Sanskrit itself (<em>saṃskṛta-</em>, "polished, refined") was already a literary and ritual standard, not a vernacular, by Pāṇini's day. After him it became, formally, what Pāṇini said it was: a language whose every well-formed sentence is, in principle, derivable from his 4,000 sūtras. Two and a half thousand years later, that is also exactly what we ask of a parser. The Aṣṭādhyāyī did not just describe Sanskrit. It pushed the idea of generative, formal description of language to a degree of precision unmatched in antiquity, and arguably until 20th-century formal linguistics rediscovered the same ideas independently.</p>
         `,
         ja: `
   <p>20世紀の計算機科学者をタイムマシンで困惑させる一冊を選ぶとしたら、<strong>パーニニ</strong>の『<strong>アシュターディヤーイー</strong>』（八章篇）以上の候補を挙げるのは難しい。紀元前500〜400年頃、現在のパキスタン北西部で書かれたこの書は、わずか<strong>約4,000のスートラ</strong>（極度に圧縮された規則）で、サンスクリット語の生成的記述を完全に与える。全文が現代の活字でわずか35ページほどに収まるほど密度が高い。レナード・ブルームフィールドからポール・キパルスキー、ノーム・チョムスキーに至るまで、近現代の言語学者がこぞって20世紀以前に書かれた最も完成度の高い言語の形式記述と評する書物である。</p>
@@ -1318,7 +1318,7 @@ const TRIVIA_ARTICLES = [
         ja: 'トキポナ──120語で世界を語れるか',
       },
       summary: {
-        en: 'A Canadian linguist designed a language with only ~120 words and ~14 sounds, partly as a Taoist thought experiment. Two decades later, thousands of people speak it — and many say it changed how they think.',
+        en: 'A Canadian linguist designed a language with only ~120 words and ~14 sounds, partly as a Taoist thought experiment. Two decades later, thousands of people speak it, and many say it changed how they think.',
         ja: 'カナダの言語学者が、約120語・約14音という極小の語彙体系を、道家思想の実験として設計した。20年後、世界中で数千人が話し、「世界の見え方が変わった」と語っている。',
       },
       body: {
@@ -1341,7 +1341,7 @@ const TRIVIA_ARTICLES = [
     <li>Stress is always on the first syllable.</li>
   </ul>
   
-  <p>That gives only about <strong>14 phonemes</strong> in total — far fewer than English's ~44 — and a sound inventory so widespread cross-linguistically that almost any human can pronounce Toki Pona on first hearing.</p>
+  <p>That gives only about <strong>14 phonemes</strong> in total — far fewer than English's ~44, and a sound inventory so widespread cross-linguistically that almost any human can pronounce Toki Pona on first hearing.</p>
   
   <p>So how do you say anything with 120 words? <strong>Composition.</strong> Toki Pona has no word for "friend", "computer" or "library". Instead you describe:</p>
   
@@ -1441,7 +1441,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="panto" data-lat="40" data-lng="0" data-zoom="3">🗺️ Fly to Ithkuil's home (nowhere)</button>
   </div>
   
-  <p>The creator is <strong>John Quijada</strong>, an American linguist and former DMV employee in California, who began sketching what would become Ithkuil in 1978, after earlier attempts he called Mbozo and Pskeoj. He published the first complete version in 2004 on his personal site, then a simplified reworking called <strong>Ilaksh</strong> in 2007, then reverted and expanded it as Ithkuil III ("Ithkuil 2011") in 2011, refining that through 2020 — and in February 2023 he replaced it outright with a successor language, <strong>New Ithkuil</strong> (TNIL, "The New Ithkuilic Language"). He has never claimed Ithkuil should be a community language. He calls it a thought experiment.</p>
+  <p>The creator is <strong>John Quijada</strong>, an American linguist and former DMV employee in California, who began sketching what would become Ithkuil in 1978, after earlier attempts he called Mbozo and Pskeoj. He published the first complete version in 2004 on his personal site, then a simplified reworking called <strong>Ilaksh</strong> in 2007, then reverted and expanded it as Ithkuil III ("Ithkuil 2011") in 2011, refining that through 2020, and in February 2023 he replaced it outright with a successor language, <strong>New Ithkuil</strong> (TNIL, "The New Ithkuilic Language"). He has never claimed Ithkuil should be a community language. He calls it a thought experiment.</p>
   
   <p>Some of the design parameters are vertigo-inducing:</p>
   
@@ -1522,7 +1522,7 @@ const TRIVIA_ARTICLES = [
         ja: 'ハングル──王が「実験室」で設計した文字',
       },
       summary: {
-        en: 'In 1443 King Sejong the Great unveiled a new Korean alphabet whose letter shapes literally diagram the vocal tract. Linguists call it the most scientifically designed writing system on Earth — and it was almost banned twice.',
+        en: 'In 1443 King Sejong the Great unveiled a new Korean alphabet whose letter shapes literally diagram the vocal tract. Linguists call it the most scientifically designed writing system on Earth, and it was almost banned twice.',
         ja: '1443年、朝鮮王朝の世宗大王が発表した新しい朝鮮文字。子音字は発音器官の形を、母音字は天・地・人を模した、世界でもっとも科学的に設計された文字体系。だが、二度も廃止されかけた。',
       },
       body: {
@@ -1636,7 +1636,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="chr">👋 "Hello" — <em>ᎣᏏᏲ (osiyo)</em></button>
   </div>
   
-  <p>Sequoyah was a silversmith and disabled veteran of the Cherokee Regiment under Andrew Jackson in the Creek War. He spoke no English and had had no formal schooling. But he had seen English-speaking soldiers reading and writing letters during the war — what the Cherokee called "talking leaves" — and he became convinced that this was not magic but a technology, and that his own people deserved it too.</p>
+  <p>Sequoyah was a silversmith and disabled veteran of the Cherokee Regiment under Andrew Jackson in the Creek War. He spoke no English and had had no formal schooling. But he had seen English-speaking soldiers reading and writing letters during the war — what the Cherokee called "talking leaves", and he became convinced that this was not magic but a technology, and that his own people deserved it too.</p>
   
   <p>From around 1809 he worked obsessively on the problem. His first attempt was logographic — one symbol per word — and he reportedly drew over a thousand symbols before realising the system would be unlearnable. His wife is said to have burned his work in frustration at one point. He started again.</p>
   
@@ -1729,7 +1729,7 @@ const TRIVIA_ARTICLES = [
       },
       body: {
         en: `
-  <p>The history of writing has a small but striking subgenre: scripts whose inventors claim they received them in a dream or vision. The <strong>Vai syllabary</strong> of Liberia is the most famous and the best-documented of them — and it became, in 1834, one of the first independent inventions of writing in modern West Africa.</p>
+  <p>The history of writing has a small but striking subgenre: scripts whose inventors claim they received them in a dream or vision. The <strong>Vai syllabary</strong> of Liberia is the most famous and the best-documented of them, and it became, in 1834, one of the first independent inventions of writing in modern West Africa.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="vai" data-zoom="6">🌍 Show Vai on map</button>
@@ -1900,7 +1900,7 @@ const TRIVIA_ARTICLES = [
         ja: '読めるのに分からない文字、線文字A',
       },
       summary: {
-        en: 'About 1,400 Bronze Age inscriptions from Minoan Crete. We can sound out almost every sign — yet the language behind them remains, after a century of effort, completely unknown.',
+        en: 'About 1,400 Bronze Age inscriptions from Minoan Crete. We can sound out almost every sign, yet the language behind them remains, after a century of effort, completely unknown.',
         ja: '青銅器時代クレタ島の約1400点の刻文。記号の音価はほぼ読めるのに、背後の言語そのものは1世紀の研究を経てもなお正体不明である。',
       },
       body: {
@@ -1913,7 +1913,7 @@ const TRIVIA_ARTICLES = [
   
   <p>Here is the strange situation. In 1952, the young English architect <strong>Michael Ventris</strong>, working with classicist John Chadwick, deciphered a sister script called <strong>Linear B</strong>. He showed, to almost everyone's astonishment, that Linear B encoded an <em>early form of Greek</em> — the language of the Mycenaeans who took over Crete around 1450 BCE. Linear B uses many of the same syllabic signs as Linear A, just with slight stylistic differences. So we can pick up a Linear A tablet, look at each sign, and assign it the Linear B sound value with reasonable confidence: <em>ku, ro, pi, te, da</em>…</p>
   
-  <p>And then the trail goes cold. The strings of syllables that emerge are <strong>not Greek</strong>. They are not Semitic in any recognisable way. They do not match Hittite, Luwian, Hurrian, Egyptian, or any other attested Bronze Age language of the region. They are simply the <strong>Minoan language</strong> — and we have no living relative, no bilingual Rosetta-style key, and no idea where the Minoans came from or what family their tongue belonged to.</p>
+  <p>And then the trail goes cold. The strings of syllables that emerge are <strong>not Greek</strong>. They are not Semitic in any recognisable way. They do not match Hittite, Luwian, Hurrian, Egyptian, or any other attested Bronze Age language of the region. They are simply the <strong>Minoan language</strong>, and we have no living relative, no bilingual Rosetta-style key, and no idea where the Minoans came from or what family their tongue belonged to.</p>
   
   <ul>
     <li><strong>The reading problem is almost solved.</strong> Roughly 70–80% of Linear A signs have agreed Linear B equivalents. We can transliterate most tablets.</li>
@@ -1933,7 +1933,7 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>"We can pronounce the words of the Minoans. We just do not know what they mean." — paraphrased from John Chadwick, The Decipherment of Linear B</blockquote>
   
-  <p>Compare the situation with the still-undeciphered <strong>Cypro-Minoan</strong> script of Bronze Age Cyprus, or the even older <strong>Cretan hieroglyphs</strong> on which Linear A itself appears to be based. Bronze Age Aegean writing is a small forest of related scripts encoding at least two and possibly three or four different languages — and only one of them, the latecomer Linear B, has yielded.</p>
+  <p>Compare the situation with the still-undeciphered <strong>Cypro-Minoan</strong> script of Bronze Age Cyprus, or the even older <strong>Cretan hieroglyphs</strong> on which Linear A itself appears to be based. Bronze Age Aegean writing is a small forest of related scripts encoding at least two and possibly three or four different languages, and only one of them, the latecomer Linear B, has yielded.</p>
   
   <p>The hope is that excavations at sites like Zominthos or Petras will eventually yield a long bilingual inscription — perhaps Minoan paired with Egyptian or Akkadian — or simply a Linear A tablet long enough for statistical and morphological analysis to gain traction. Until then, Linear A remains the great unread book of European prehistory, hiding in plain sight on clay tablets we have been holding for a hundred years.</p>
         `,
@@ -1997,14 +1997,14 @@ const TRIVIA_ARTICLES = [
         en: `
   <p>If you ask an English speaker what is "ahead", they will tell you about meetings <em>next week</em>, deadlines <em>up ahead</em>, futures <em>to look forward to</em>. The future is in front; the past is behind. Almost every Indo-European language packages time this way, and most cognitive scientists assumed for decades that the metaphor was a near-universal of human thought.</p>
   
-  <p>Then in 2006, Rafael Núñez and Eve Sweetser published a careful fieldwork study of <strong>Aymara</strong>, a language spoken by roughly <strong>2–3 million people</strong> in the high Andes of Bolivia, Peru and northern Chile — and found exactly the opposite mapping.</p>
+  <p>Then in 2006, Rafael Núñez and Eve Sweetser published a careful fieldwork study of <strong>Aymara</strong>, a language spoken by roughly <strong>2–3 million people</strong> in the high Andes of Bolivia, Peru and northern Chile, and found exactly the opposite mapping.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="ay" data-zoom="6">🌍 Show Aymara on map</button>
     <button type="button" class="trivia-action" data-action="panto" data-lat="-16.5" data-lng="-68.15" data-zoom="6">🗺️ Fly to La Paz</button>
   </div>
   
-  <p>In Aymara, the basic word for "front" is <em>nayra</em> — which also means <strong>"eye"</strong> and <strong>"sight"</strong>. The basic word for "behind" is <em>qhipa</em>, which also means <strong>"back"</strong>. These spatial roots are reused for time, and the alignment is:</p>
+  <p>In Aymara, the basic word for "front" is <em>nayra</em>, which also means <strong>"eye"</strong> and <strong>"sight"</strong>. The basic word for "behind" is <em>qhipa</em>, which also means <strong>"back"</strong>. These spatial roots are reused for time, and the alignment is:</p>
   
   <ul>
     <li><strong><em>nayra mara</em></strong> — literally "eye/front year", meaning <strong>last year</strong>.</li>
@@ -2013,7 +2013,7 @@ const TRIVIA_ARTICLES = [
     <li><strong><em>qhipa mara</em></strong> — "back year", meaning <strong>next year</strong>.</li>
   </ul>
   
-  <p>The logic, repeatedly given by Aymara speakers when asked, is beautifully consistent: <em>the past is what you have already seen, so it must be in front of you, where eyes look. The future is unseen, unknown — so it lies behind your back, where you cannot see.</em></p>
+  <p>The logic, repeatedly given by Aymara speakers when asked, is beautifully consistent: <em>the past is what you have already seen, so it must be in front of you, where eyes look. The future is unseen, unknown, so it lies behind your back, where you cannot see.</em></p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="ay">☀️ See Aymara "Sun"</button>
@@ -2207,7 +2207,7 @@ const TRIVIA_ARTICLES = [
     <li><strong><em>guwa</em></strong> ≈ <strong>west</strong> (towards sunset)</li>
   </ul>
   
-  <p>These terms combine freely with verbs, postpositions, and even motion morphemes. You can say "I dropped it <em>nagaalu</em>" — meaning "I dropped it on the east side". A man telling a story about a fight does not say "he punched him in the face"; he says "he punched him in the north-side cheek" — and crucially, that "north" is the real-world compass north at the time of the fight, not at the time of telling.</p>
+  <p>These terms combine freely with verbs, postpositions, and even motion morphemes. You can say "I dropped it <em>nagaalu</em>" — meaning "I dropped it on the east side". A man telling a story about a fight does not say "he punched him in the face"; he says "he punched him in the north-side cheek", and crucially, that "north" is the real-world compass north at the time of the fight, not at the time of telling.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="hand" data-code="kky">✋ See Guugu Yimithirr "Hand"</button>
@@ -2225,7 +2225,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="kky">☀️ See Guugu Yimithirr "Sun"</button>
   </div>
   
-  <p>Guugu Yimithirr also has another claim to fame: it is the language from which English borrowed the word <strong>"kangaroo"</strong>. James Cook's crew recorded <em>gangurru</em> in 1770 as the name of a particular large grey kangaroo species — and the word travelled the world. The language now has fewer than 1,000 fluent speakers, but its cognitive lessons have reached far further.</p>
+  <p>Guugu Yimithirr also has another claim to fame: it is the language from which English borrowed the word <strong>"kangaroo"</strong>. James Cook's crew recorded <em>gangurru</em> in 1770 as the name of a particular large grey kangaroo species, and the word travelled the world. The language now has fewer than 1,000 fluent speakers, but its cognitive lessons have reached far further.</p>
         `,
         ja: `
   <p>英語話者の隣に座って「そのコップを取って」と頼みたいとき、私たちは「あなたの<em>左</em>のコップ」「あなたの<em>前</em>のコップ」と言う。基準は<strong>自己中心的</strong>──体に固定された軸である。ヨーロッパ系のほぼ全ての言語はこの方式を取る。</p>
@@ -2426,7 +2426,7 @@ const TRIVIA_ARTICLES = [
   
   <p>Native speakers themselves do not perceive a "missing vowel". They do not feel they are inserting a covert schwa to make the word pronounceable — the descriptive record, from Newman's 1947 phonology to Nater's fieldwork and recordings, finds no epenthetic vowel between them. The word <em>xłp̓x̣ʷłtłpłłskʷc̓</em> takes about a second to pronounce and is, to the speaker, just a word.</p>
   
-  <p>The implications go far beyond Nuxalk. If a language can build words from pure obstruent strings, then the universal claim that <em>every syllable needs a vowel</em> cannot stand in its strongest form. Phonologists now distinguish more carefully between <strong>sonority</strong> (the acoustic property) and <strong>nucleus-hood</strong> (the structural role) — and Nuxalk is the example everyone teaches.</p>
+  <p>The implications go far beyond Nuxalk. If a language can build words from pure obstruent strings, then the universal claim that <em>every syllable needs a vowel</em> cannot stand in its strongest form. Phonologists now distinguish more carefully between <strong>sonority</strong> (the acoustic property) and <strong>nucleus-hood</strong> (the structural role), and Nuxalk is the example everyone teaches.</p>
   
   <p>Today fewer than 20 fluent first-language speakers of Nuxalk remain, almost all elders in Bella Coola. The Nuxalk Nation runs immersion programs and a language-house initiative; recordings made by Nater in the 1970s, and more recent documentation supported by the First Peoples' Cultural Council, are racing to record a phonology unlike any other.</p>
         `,
@@ -2494,7 +2494,7 @@ const TRIVIA_ARTICLES = [
   
   <p>With so few building blocks, words are necessarily long and rich in vowels. The result is one of the most musical languages on Earth: <em>humuhumunukunukuapuaʻa</em> (the reef triggerfish, Hawaiʻi's state fish), <em>pāhoehoe</em> and <em>ʻaʻā</em> (smooth and jagged lava — both terms borrowed straight into geology worldwide), and the everyday <em>aloha</em>, which simultaneously means hello, goodbye, love, and compassion.</p>
   
-  <p>Hawaiian descends from <strong>Proto-Polynesian</strong>, brought by voyagers from the Marquesas and Society Islands. High-precision radiocarbon dating has pushed that arrival far later than older textbooks assumed — current estimates cluster between roughly <strong>AD 1000 and 1300</strong>, so barely a thousand years ago. The closest living relatives are Marquesan, Tahitian, and Māori — and the historical correspondences are so regular that a Māori speaker can often guess a Hawaiian cognate at a glance (Māori <em>tangata</em> ↔ Hawaiian <em>kanaka</em>, "person"; Māori <em>whetū</em> ↔ Hawaiian <em>hōkū</em>, "star").</p>
+  <p>Hawaiian descends from <strong>Proto-Polynesian</strong>, brought by voyagers from the Marquesas and Society Islands. High-precision radiocarbon dating has pushed that arrival far later than older textbooks assumed — current estimates cluster between roughly <strong>AD 1000 and 1300</strong>, so barely a thousand years ago. The closest living relatives are Marquesan, Tahitian, and Māori, and the historical correspondences are so regular that a Māori speaker can often guess a Hawaiian cognate at a glance (Māori <em>tangata</em> ↔ Hawaiian <em>kanaka</em>, "person"; Māori <em>whetū</em> ↔ Hawaiian <em>hōkū</em>, "star").</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="haw">☀️ See Hawaiian "sun"</button>

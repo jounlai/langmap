@@ -844,7 +844,7 @@ WORDS.you = {
       cnp: ["你", "ni˨˦"],
       zh_jh: ["你", "li˨˩˨"],
       zh_tj: ["你", "ni˩˧"],
-      zh_lz: ["你", "ni˥˧"],
+      zh_lz: ["你", "ni˦˦˨"],
       dng: ["ни", "ni˧"],
       hsb: ["ty", "tɨ"],
       csb: ["të", "tɜ"],

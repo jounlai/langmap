@@ -796,7 +796,7 @@ WORDS.rain = {
     ngl: ["epula", "epula"],
     sma: ["ebrie", "ebrie"],
     doi: ["मींह", "mĩːh"],
-    zh_lz: ["雨", "y˥˧"],
+    zh_lz: ["雨", "y˦˦˨"],
     zh_cq: ["雨", "y˦˨"],
     zh_km: ["雨", "y˥˧"],
     zh_kf: ["雨", "y"],

@@ -844,7 +844,7 @@ WORDS.dog = {
     cnp: ["狗", "kɐu˦˨"],
     zh_jh: ["狗", "kəu˨˩˦"],
     zh_tj: ["狗", "koʊ˨˩˧"],
-    zh_lz: ["狗", "kəu˥˧"],
+    zh_lz: ["狗", "kəu˦˦˨"],
     dng: ["гу", "ku"],
     hsb: ["pos", "pɔs"],
     csb: ["pies", "pjɛs"],

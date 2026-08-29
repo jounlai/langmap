@@ -345,7 +345,7 @@ WORDS.poop = {
     yue_ts: ["屎", "ɬi˧˧"],
     zh_jh: ["屎", "sz̩˨˩˦"],
     zh_tj: ["屎", "ʂz̩˩˧"],
-    zh_lz: ["屎", "sz̩˥˧"],
+    zh_lz: ["屎", "sz̩˦˦˨"],
     ast: ["caca", "ˈkaka"],
     an: ["caca", "ˈkaka"],
     nbl: ["amasimba", "amasimba"],

@@ -844,7 +844,7 @@ WORDS.good = {
     cnp: ["好", "hou˦˨"],
     zh_jh: ["好", "hau˨˩˦"],
     zh_tj: ["好", "xau˨˩˧"],
-    zh_lz: ["好", "xau˥˧"],
+    zh_lz: ["好", "xau˦˦˨"],
     dng: ["хау", "xau˨˦"],
     hsb: ["dobry", "ˈdɔbrɨ"],
     csb: ["dobri", "ˈdɔbri"],

@@ -40,9 +40,33 @@
  * left out of the table entirely rather than guessed at; so are dialect-only
  * graphs (啉, 脷, 倷) with no Qieyun ancestry to look up.
  *
+ * WIDE MODE (--wide) lifts the 平/入-only restriction and reports 上聲 and 去聲
+ * too, comparing contours prefix-tolerantly so that ˨˩˦ and ˨˩ — the full and
+ * half third tone — count as the same claim. It is ADVISORY and deliberately
+ * not wired into check_all: it currently prints ~112 disagreements, and most of
+ * them are notation or sandhi rather than error. It is still the fastest way to
+ * find the real ones. What it found on the day it was written was zh_lz, whose
+ * 三 ˧˩, 红 ˥˧, 五 ˦˦˨ and 二 ˩˧ are exactly Lanzhou's four tones while eleven
+ * other cells in the same row ignored them.
+ *
+ * Reading the wide output, in descending order of "probably not a bug":
+ *
+ *   鳥 against the rest of 陰上. 廣韻 has it 都了切, 端母, so 陰上 — but the n-
+ *     of niǎo / niu5 comes from a 泥母 variant, which is 次濁 and therefore 陽上.
+ *     Both readings are live in different lects. Not a witness; excluded below.
+ *   我, 你, 汝 against 五 in 陽上. Pronouns carry 變調 and neutral tone more than
+ *     any other word class, and rows often take them from conversational
+ *     sources. Excluded.
+ *   好 and 狗 in Min at ˧˥ where the row's other 陰上 is ˥˧. That is Taiwanese
+ *     sandhi, not a second tone. Not excluded — a compound cell would be, but
+ *     these are single characters and worth a human look.
+ *   樹 against 二 in 陽去. Real often enough to keep: 二 has a 文/白 split in Wu
+ *     and Min, so check which reading the row means before trusting either.
+ *
  * Usage:
  *   node tools/sinitic_tone_class_check.js           # report
  *   node tools/sinitic_tone_class_check.js --check   # print "violations: N"
+ *   node tools/sinitic_tone_class_check.js --wide    # advisory 上/去 report too
  */
 'use strict';
 const fs = require('fs');
@@ -50,6 +74,16 @@ const path = require('path');
 const vm = require('vm');
 const ROOT = path.resolve(__dirname, '..');
 const CHECK = process.argv.includes('--check');
+const WIDE = process.argv.includes('--wide');
+
+// Characters that are not usable as 上/去 witnesses. Each has two live readings
+// in different tone classes, or a tone that regularly changes, so a row that
+// writes it differently from its neighbours is not necessarily wrong.
+const NOT_A_WITNESS = new Set([
+  '鳥', '鸟',        // 端母 陰上 in 廣韻, but the n- readings continue a 泥母 (次濁) variant
+  '善',              // 全濁上, which goes to 去聲 across Mandarin and much else
+  '我', '你', '妳', '汝', '尔', '爾',   // pronouns: 變調 and neutral tone more than any other class
+]);
 
 // 調類 by Middle Chinese initial voicing + tone. 陰 = voiceless initial, 陽 =
 // voiced. Read off the Qieyun categories, not off any modern reading.
@@ -151,7 +185,8 @@ const toneOf = (ipa) => (String(ipa).match(/[\u02E5-\u02E9]+/gu) || []).join('')
 const norm = (t) => (t.length === 1 ? t + t : t);
 const checked = new Set();   // rows that still have a checked coda on 入 cells
 
-const seen = {};   // code -> class -> {contour -> [concepts]}
+const seen = {};   // code -> class -> {contour -> [concepts]}  — 平/入, blocking
+const wide = {};   // the same for 上/去 — advisory only, never counted
 for (const id of Object.keys(W)) {
   const data = W[id].data || {};
   for (const code of sinitic) {
@@ -162,13 +197,16 @@ for (const id of Object.keys(W)) {
     if (!surf || [...surf].length !== 1) continue;      // single character only
     const cls = CLASS[surf];
     if (!cls) continue;
-    if (!/^[陰陽](平|入)$/.test(cls)) continue;          // see SCOPE above
+    const isWide = /^[陰陽](上|去)$/.test(cls);
+    if (!/^[陰陽](平|入)$/.test(cls) && !(WIDE && isWide)) continue;   // see SCOPE above
+    if (isWide && NOT_A_WITNESS.has(surf)) continue;
     if (ALLOW.some((a) => a.code.test(code) && a.ch === surf)) continue;
     const t = norm(toneOf(ipa));
     if (!t) continue;
     if (/入$/.test(cls) && /[ptkʔ]̚?$/.test(String(surf ? ipa : ''))) checked.add(code);
-    ((seen[code] = seen[code] || {})[cls] = seen[code][cls] || {});
-    (seen[code][cls][t] = seen[code][cls][t] || []).push(`${id} ${surf}`);
+    const store = isWide ? wide : seen;
+    ((store[code] = store[code] || {})[cls] = store[code][cls] || {});
+    (store[code][cls][t] = store[code][cls][t] || []).push(`${id} ${surf}`);
   }
 }
 
@@ -208,5 +246,24 @@ if (debtHits.length) {
 if (stale.length) {
   console.log('\n⚠ DEBT entries that no longer match the data — delete them:');
   stale.forEach((d) => console.log(`    ${d.code} ${d.cls}`));
+}
+
+// ADVISORY. ˨˩˦ and ˨˩ are one tone written two ways, so a contour that is a
+// prefix of another is not a disagreement. Never added to `hits`.
+if (WIDE) {
+  const compat = (a, b) => a.startsWith(b) || b.startsWith(a);
+  const wideHits = [];
+  for (const code of Object.keys(wide)) {
+    for (const cls of Object.keys(wide[code])) {
+      const contours = Object.keys(wide[code][cls]);
+      if (contours.length < 2) continue;
+      if (!contours.some((a) => contours.some((b) => !compat(a, b)))) continue;
+      wideHits.push(`${code} ${LANG_DATA[code].name}: ${cls} — ` +
+        contours.map((t) => `${t} (${wide[code][cls][t].join(', ')})`).join('  vs  '));
+    }
+  }
+  wideHits.sort();
+  console.log(`\n上/去, advisory (${wideHits.length}) — not counted, see the header for how to read it:`);
+  wideHits.forEach((h) => console.log('  ~ ' + h));
 }
 process.exit(hits.length ? 1 : 0);

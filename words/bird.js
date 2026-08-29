@@ -536,7 +536,7 @@ WORDS.bird = {
     cnp: ["鸟", "niu˦˨"],
     zh_jh: ["鸟", "niau˥˧"],
     zh_tj: ["鸟", "niau˩˧"],
-    zh_lz: ["鸟", "niau˥˧"],
+    zh_lz: ["鸟", "niau˦˦˨"],
     hsb: ["ptačk", "ptatʃk"],
     csb: ["ptôch", "ptɔx"],
     rue: ["птах", "ptax"],

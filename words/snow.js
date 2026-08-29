@@ -606,7 +606,12 @@ WORDS.snow = {
     kw: ["ergh", "ɛrx"],
     zza: ["vor", "voɾ"],
     brh: ["برف", "barf"],
-    kgp: ["—", "—"],
+    // kgp had the — no-source marker, but Wiesemann's Kaingáng dictionary has
+    // the word in both directions: kukryr "geada" (frost), kukryr kó "neve".
+    // IPA read off this row's own cells — y is /ɨ/ (kuty /kutɨ/), r is /ɾ/
+    // (kupri /kupɾi/), an acute vowel is close-mid (kyfé /kɨfe/). Kaingang
+    // country is the southern Brazilian highlands, where it does snow.
+    kgp: ["kukryr kó", "kukɾɨɾ ko"],
     tob: ["—", "—"],
     plg: ["—", "—"],
     moc: ["—", "—"],
@@ -790,5 +795,50 @@ WORDS.snow = {
     lis: ["wa", "wɑ˧˩"], // Fraser 1922 — distinct from frost ni and ice ni hpya
     nxq: ["bbei", "be˧˧"],
     sat: ["ᱦᱤᱢ", "him"], // Sanskrit hima
+    amw: ["ܬܠܟܐ", "ˈθelka"], // Spitaler/Bergsträsser — inherited Aramaic talgā
+    tig: ["ዕጥብ በረድ", "ʕətʼəb barad"], // lit. cotton-ice; bare bäräd alone is hail — Littmann & Höfner
+    ha: ["dusar ƙanƙara", "dusaɾ kʼankʼara"], // lit. chaff of ice; ƙanƙara alone is ice/hail
+    naq: ["tsâmaros", "tsãːmaros"], // Krönlein 1889; distinct from ǃkhoab ice
+    loz: ["litwa", "ˈlitwa"], // distinct from litwitwi mist, silami frost, limbwewewe hail
+    ny: ["chipale chofewa", "tʃipale tʃofewa"],
+    rw: ["shelegi", "ʃeleɡi"], // ult. Arabic thalj via Swahili; urubura is ice
+    luo: ["theluji", "θeluʒi"], // Swahili loan; native pe is hail/frost
+    ses: ["neeži", "neːʒi"], // French neige
+    ig: ["snoo", "sinoː"], // English loan
+    ee: ["sno", "sno"], // English loan — Westermann
+    kxc: ["apteenta", "apteːnta"],
+    mg: ["oram-panala", "uramˈpanala"], // orana rain + fanala hoar-frost
+    iba: ["seleju", "səledʒu"], // Malay salji < Arabic
+    ilo: ["niebe", "ˈnjebe"], // Spanish nieve
+    hil: ["niyebe", "niˈjebe"], // Spanish nieve
+    war: ["niyebe", "niˈjebe"], // Spanish nieve
+    bik: ["niyebe", "niˈjebe"], // Spanish nieve
+    pam: ["niebe", "ˈnjebe"], // Spanish nieve
+    ch: ["niebe", "ˈnjebe"], // Spanish nieve
+    tet: ["neve", "ˈnɛvɛ"], // Portuguese neve
+    rar: ["kiona", "kiˈona"], // Greek khiōn via the LMS Bible
+    tkl: ["kiona", "kiona"], // Greek khiōn via the Bible
+    tvl: ["kiona", "kiona"], // Greek khiōn via the Bible
+    pkp: ["kīona", "kiːona"], // Greek khiōn via the Bible
+    wls: ["nive", "ˈnive"], // French neige via the Marist Bible
+    fud: ["nive", "ˈnive"], // French neige via the Marist Bible
+    gil: ["tinoo", "siˈnoː"], // English snow
+    pon: ["sinoh", "sinoː"], // English snow
+    ho: ["sinou", "sinou"], // English snow
+    pis: ["snou", "snou"], // English snow
+    koy: ["tseetl", "tsʰiːtɬʰ"], // Jones, Junior Dictionary for Central Koyukon; yoł is falling snow
+    cay: ["oʼgraʼ", "oʔɡraʔ"], // Dyck, Froman, Keye & Keye 2024
+    kio: ["tʼól", "tʼól"], // Poolaw 2023; Harrington 1928 — cp. tʼou to be cold
+    pao: ["nɨbabi", "nɨpapi"], // UACV 2075 *nɨpa; the harvested pɨpa-pi was an n/p misreading
+    ale: ["каниих̆", "qaniːχ"], // Comparative Eskimo Dictionary, PE *qaniɣ
+    ess: ["анигу", "aniɣu"], // snow on the ground; falling snow is qanik
+    quc: ["saqtew", "saqteːw"], // ALMG — saq white + tew cold; granizo is saqbʼach
+    kjb: ["chew", "tʃew"], // ALMG — Nieve, hielo
+    tzo: ["taiv", "taiv"], // frost/snowfall polyseme; ta xyal taiv it is snowing
+    toj: ["sakal kʼinal", "sakal kʼinal"], // lit. white land — Lenkersdorf
+    nch: ["sital set", "sital set"], // lit. star-ice; contrasted with tesihuit hail at Job 38:22
+    nhw: ["sitlal setl", "sitɬal setɬ"], // lit. star-ice; contrasted with tesihuitl hail
+    gun: ["yro'y api", "ɨɾoʔɨ api"], // Dooley, Léxico Guarani Mbyá — Neve, granizo fino
+    gn: ["yrypyʼa veve", "ɨɾɨpɨʔa veve"], // neologism, lit. flying ice; yrypyʼa alone is hielo
   },
 };

@@ -357,5 +357,38 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     code, which is how it was found. Same shape as the Donno So `ddn`→`dds` fix of 2026-08-26 and
     needs the same treatment: rename plus a `SEO_RENAMED_CODES` 301, so it was not done here.
 
+33. **Running list of dataset traps, for whoever fills the next concept.** Every one of these cost an
+    agent real time on 2026-08-29; none is discoverable except by hitting it.
+
+    **Wrong-language joins by ISO code** — the dataset row keyed to this atlas code is a different
+    language entirely:
+    - `asu` → ASJP `ASURINI` / tuled `Asuriní Tocantins`, Tupian. (And see item 32: the atlas code
+      itself is wrong; the row is Asu/Pare, which is `asa`.)
+    - `pyx` → ASJP `TAMAN_MYANMAR`. Taman is not Pyu.
+    - `mvf` → `KALAQIN` and `MONGOLIAN_SANGGENDALAI`, i.e. Kharchin and Mongolian proper, not
+      Mongghul. The sibling `mjg` Monguor IS genuinely targeted.
+
+    **Wrong-language joins by NAME** — these bite when a script falls back to doculect name because
+    the ISO join missed:
+    - `bum` Bulu (Cameroon, Bantu) → ABVD's "Bulu" is `bjl`, Bulu of Papua New Guinea, Austronesian.
+    - `men` Mende (Sierra Leone, Mande) → TransNewGuinea.org's "Mende" is `sim`, Mende of Papua New
+      Guinea, Sepik.
+    - `gsw_w` Walliser German → ASJP/iecor rows are Bernese German, and the same doculect twice.
+    - `jya` Situ rGyalrong → ABVD's only jya doculect is Japhug, a different variety.
+    - `dtp_kzj` Coastal Kadazan → ABVD's is Bundu Dusun.
+
+    **Gloss slips** — the source's form for concept A is actually concept B. The tell is that it
+    equals, letter for letter, the row's OWN cell for B. `tools/intra_row_dup_check.js --check` catches
+    these now; it caught `mra` Mlabri rain = its own *mother* in production the day it was wired in.
+    Others found by hand: ASJP's ear for Wichí and Kera = each row's *tooth*; its ear for Ladakhi,
+    Kurtöp, Sherpa and Sikkimese = their *nose*; dravlex's bird for Kuvi = its *fish*; IDS's bird for
+    Hittite = its *fish* cell (see item 30); WOLD's rain for Otomi = its *hand*; and a whole cluster
+    of `rain` forms that were simply each row's *water* (`chf`, `itz`, `toj`, `kgg`, `nej`, `adt`,
+    `wbp`, `mpj`, `sat`, `bci`, `bsq`, `nzi`, `myp`).
+
+    **"Two datasets agreeing" is often one source.** Three ASJP doculects agreed on a wrong Urhobo
+    form; only ASJP_3 plus Polyglotta had the right one. dravlex and ASJP share an origin for
+    Dravidian. Prefer agreement ACROSS families of source, not across doculects within one.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

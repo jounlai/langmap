@@ -648,7 +648,7 @@ WORDS.earth = {
     yue_ts: ["泥", "ⁿdai˨˨"],
     yue_dg: ["泥", "nɔi˨˩"],
     yue_nn: ["泥", "nɐi˨˩"],
-    yue_zs: ["泥", "nɐi˥˩"],
+    yue_zs: ["泥", "nɐi˨˩"],
     wuu_nb: ["土", "tʰu˧˨˥"],
     wuu_sz: ["土", "tʰəu˥˩"],
     wuu_wz: ["土", "tʰøy˦˥"],

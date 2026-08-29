@@ -384,7 +384,7 @@ WORDS.salt = {
     hsn: ["盐", "jɛn˩˧"],
     hsn_hy: ["盐", "jɛn˩˧"],
     hsn_yz: ["盐", "jɛn˩˧"],
-    gan: ["盐", "jɛn˦˥"],
+    gan: ["盐", "jɛn˨˦"],
     gan_ja: ["盐", "jɛn˦˥"],
     gan_fz: ["盐", "jɛn˦˥"],
     gan_yc: ["盐", "jɛn˥"],
@@ -404,7 +404,7 @@ WORDS.salt = {
     nan_pn: ["鹽", "iam˨˦"],
     nan_te: ["盐", "iam˥˥"],
     nan_hai: ["盐", "iam˨˩"],
-    hak_cn: ["盐", "iam˨˦"],
+    hak_cn: ["盐", "iam˩˩"],
     hak_tw: ["鹽", "iam˩˩"],
     hak_hl: ["鹽", "iam˥˥"],
 

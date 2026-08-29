@@ -1159,7 +1159,7 @@ WORDS.love = {
     zh_wh: ["爱", "ai˥˧"],
     zh_zz: ["爱", "ai˨˩"],
     hak_hl: ["惜", "ʃiak˨˨"],
-    cpx: ["疼", "tʰiã˨˩"],
+    cpx: ["疼", "tʰiã˩˧"],
     mfa: ["cinto", "tʃinto"],
     mtq: ["thương", "tʰɨəŋ"],
     tyz: ["hắc", "hak˧˥"],

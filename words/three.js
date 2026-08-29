@@ -1203,7 +1203,7 @@ WORDS.three = {
     wuu_jx: ["三", "sɛ˥˧"],
     yue_zs: ["三", "saːm˥˥"],
     zh_cd: ["三", "san˥˥"],
-    zh_hf: ["三", "sæ̃˨˩"],
+    zh_hf: ["三", "sæ̃˨˩˨"],
     zh_kf: ["三", "san˨˦"],
     zh_nj: ["三", "sã˧˩"],
     bew: ["tige", "tiɡə"],

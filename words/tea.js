@@ -355,7 +355,7 @@ WORDS.tea = {
     vi: ["trà", "tɕaː˨˩"],
     wo: ["àttaaya", "attaːja"],
     wuu: ["茶", "zo˨˧"],
-    wuu_sz: ["茶", "zo˩˧"],
+    wuu_sz: ["茶", "zo˨˨˧"],
     wuu_wz: ["茶", "dzo˧˩"],
     xal: ["цә", "tsæ"],
     xct: ["ཇ", "dʑa"],

@@ -96,49 +96,35 @@ const ALLOW = [
 // Work the list down and delete entries; the stale check below will complain if
 // an entry stops matching, so a fix cannot hide behind its own note.
 //
-// hak_cn 陽平 is the one to start with, and the instructive one: its MAJORITY is
-// wrong. 紅 魚 鹽 all say ˨˦ and only 名 says ˩, but Meixian 陽平 is 11 and
-// hak_tw writes all four that way. See docs/dev-handoff.md item 27.
+// hak_cn 陽平 was the first one worked down, and the instructive one: its
+// MAJORITY was wrong. 紅 魚 鹽 said ˨˦ and only 名 and 茶 said ˩, but this row
+// is Meizhou by its own description and its own latitude, Meixian 陽平 is 11,
+// and hak_tw — Sixian, descended from Meixian — writes all six that way.
+// Resolved 2026-08-29; the lesson is that counting cells is a heuristic and
+// the row's identity is the evidence.
 //
 // Already fixed and therefore absent: the 15 `orange` cells that carried
 // Beijing's 陽平 ˧˥ into rows whose own 陽平 is something else, and nan 紅.
 const DEBT = [
-  { code: 'hak_cn', cls: '陽平',
-    why: 'the majority is the wrong one — Meixian 陽平 is 11, which only 名 and 茶 write. Start here.' },
   { code: 'zh_song', cls: '陽平' },
   { code: 'zh_song', cls: '陰平' },
-  { code: 'wuu', cls: '陽平' },
-  { code: 'cdo', cls: '陽平' },
   { code: 'cpx', cls: '陰平' },
-  { code: 'cpx', cls: '陽平' },
-  { code: 'nan_zz', cls: '陰平' },
   { code: 'gan_yc', cls: '陰平' },
   { code: 'gan_ja', cls: '陰平' },
   { code: 'cjy_xz', cls: '陽平' },
   { code: 'cjy_xz', cls: '陰平' },
   { code: 'czh_wy', cls: '陰平' },
-  { code: 'gan', cls: '陽平' },
-  { code: 'mnp', cls: '陽平' },
-  { code: 'mnp', cls: '陰平' },
   { code: 'czh', cls: '陽平' },
-  { code: 'cnp', cls: '陽平' },
   { code: 'cnp', cls: '陰平' },
   { code: 'zh_jh', cls: '陽平' },
   { code: 'zh_jh', cls: '陰平' },
   { code: 'nan_pn', cls: '陽平' },
   { code: 'nan_pn', cls: '陰平' },
   { code: 'wuu_nb', cls: '陽平' },
-  { code: 'wuu_sz', cls: '陽平' },
   { code: 'wuu_hz', cls: '陽平' },
-  { code: 'wuu_hz', cls: '陰平' },
   { code: 'wuu_jh', cls: '陽平' },
   { code: 'wuu_jh', cls: '陰平' },
-  { code: 'wuu_jx', cls: '陽平' },
   { code: 'wuu_jx', cls: '陰平' },
-  { code: 'yue_zs', cls: '陽平' },
-  { code: 'zh_cd', cls: '陰平' },
-  { code: 'zh_hf', cls: '陰平' },
-  { code: 'zh_nj', cls: '陽平' },
 ];
 
 const wc = vm.createContext({});

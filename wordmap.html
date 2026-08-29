@@ -10075,17 +10075,39 @@
         function curStreak() { const s = load(); return (s.streakDay === day() || s.streakDay === day() - 1) ? (s.streak || 0) : 0; }
         // ---- share text ----
         const SHARE_URL = 'https://langmap.heuron.com/wordmap.html?play=langle';
-        // A fun linguistic tidbit — "In <language>, <word> is <form>" — drawn from a
-        // random NON-target language so it teases the quiz without spoiling today's
-        // answer. This is what makes an onlooker curious, far more than an abstract
-        // emoji grid did.
+        // A fun linguistic tidbit — "In <language>, <word> is <form>" — never about
+        // today's answer, so it teases the quiz without spoiling it.
+        //
+        // It used to draw BOTH halves at random from the whole atlas, and a player
+        // reported the result reading as a non sequitur (2026-08-29): the answer was
+        // Cebuano, the game never showed "blood", and the share line announced that
+        // Kurdish for blood is xwîn. True, but about nothing the player had just done.
+        //
+        // So prefer a language the player actually GUESSED and a concept today's
+        // clue panel actually SHOWED. Both are things they saw, neither can spoil
+        // the answer — a wrong guess is already known to be wrong. Only when there
+        // is nothing to draw on (won on the first try) does it fall back to the
+        // old atlas-wide pick.
+        function clueConcepts() {
+            const words = WD(), order = ORD(), t = target(), out = [];
+            for (const concept of order) {
+                if (out.length >= 4) break;
+                const w = words[concept]; if (!w || !w.data || !w.data[t]) continue;
+                const cell = w.data[t]; if (!cell[0] || cell[0] === '—') continue;
+                out.push(concept);
+            }
+            return out;
+        }
         function teaser() {
             const words = WD(), order = ORD(), t = target();
-            const pool = pickCodes().filter(c => c !== t);
-            if (!pool.length || !order.length) return '';
+            const guessed = guesses.filter(c => c !== t);
+            const clues = clueConcepts();
+            const pool = guessed.length ? guessed : pickCodes().filter(c => c !== t);
+            const cpool = clues.length ? clues : order;
+            if (!pool.length || !cpool.length) return '';
             for (let i = 0; i < 40; i++) {
                 const code = pool[Math.floor(Math.random() * pool.length)];
-                const concept = order[Math.floor(Math.random() * order.length)];
+                const concept = cpool[Math.floor(Math.random() * cpool.length)];
                 const w = words[concept];
                 if (!w || !w.data || !w.data[code]) continue;
                 const surf = w.data[code][0];

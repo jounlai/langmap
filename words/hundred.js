@@ -545,5 +545,6 @@ WORDS.hundred = {
     ht: ["san", "sã"],
     pap: ["shen", "ʃen"],
     tpi: ["handet", "handet"],
+    vi_nom: ["𤾓", "tɕam˧"],
   },
 };

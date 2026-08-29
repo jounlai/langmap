@@ -67,6 +67,7 @@ WORDS.orange = {
     sw: "Chungwa — tunda tamu la jamii ya michungwa, na ramani ya majibu manne tofauti kwa swali lilelile. Tunda hili lilifika Ulaya mara mbili. Chungwa chungu lilikuja nchi kavu na biashara ya Kiajemi na Kiarabu enzi za kati, likibeba neno la Kisanskriti नारङ्ग: نارنج → Kihispania naranja, Kiitaliano arancia, Kifaransa na Kiingereza orange. Chungwa tamu lilikuja baharini katika karne ya 16 kwa meli za Kireno, na nusu ya Mediterania ya mashariki ikaliita tu kwa jina la wafanyabiashara hao — Kigiriki πορτοκάλι, Kituruki portakal, Kiarabu برتقال, Kiamhari ብርቱካን, Kijojia ფორთოხალი, Kiajemi پرتقال. Ulaya ya Kaskazini ilichukua jibu la tatu kutoka kwa wafanyabiashara wa Kiholanzi, walioliita \"tufaha kutoka Uchina\": sinaasappel, Apfelsine, апельсин, appelsiini. Na sehemu kubwa ya dunia iliendelea tu na neno lake yenyewe.",
   },
   family: {
+    vi_nom: "local",
     es_cr: "naranj",
     es_hn: "naranj",
     es_ni: "naranj",
@@ -836,5 +837,6 @@ WORDS.orange = {
     io: ["oranjo", "oˈranʒo"],
     vls: ["sinaasappel", "ˈsinɑsɑpəl"],
     aln: ["portokall", "pɔrtɔˈkalː"],
+    vi_nom: ["柑", "kaːm˧"],
   },
 };

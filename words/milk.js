@@ -593,5 +593,6 @@ WORDS.milk = {
     pmng: ["*sün", "syn"],
     psem: ["*ḥalab-", "ħalab-"],
     p_dra: ["*pāl", "pāl"],
+    vi_nom: ["𣳪", "sɨə˧ˀ˥"],
   },
 };

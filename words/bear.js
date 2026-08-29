@@ -457,5 +457,6 @@ WORDS.bear = {
     ar_ma: ["دب", "dobb"],
     ar_tn: ["دب", "dobb"],
     arq: ["دب", "dobb"],
+    vi_nom: ["𤠰", "ɣəw˧˥"],
   },
 };

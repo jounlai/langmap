@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    vi_nom: "mult",
     es_mx: "dec",
     es_ar: "dec",
     es_co: "dec",
@@ -777,5 +778,6 @@ WORDS.n99 = {
     en_wls: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_yk: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ck: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    vi_nom: ["𠃩𨒒𠃩", "tɕin˧˥ mɨəj˧ tɕin˧˥"],
   }
 };

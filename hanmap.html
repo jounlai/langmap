@@ -110,7 +110,15 @@
             font-weight: 400;
             font-display: swap;
             src: url('fonts/HanaMinB-NomFill-subset.woff2') format('woff2');
-            unicode-range: U+228D0, U+24657;
+            /* The 2026-07-17 Nôm rally retired U+228D0 and U+24657 as
+               misreadings and the font stopped carrying them, but this range
+               was never updated — hanmap.html has been declaring two
+               codepoints the file does not contain and declaring none of the
+               ones it does. Corrected 2026-08-29 to the font's actual 18. */
+            unicode-range: U+200E9, U+2013C, U+20A21, U+216D4, U+21975, U+2204B,
+                U+2266D, U+22B23, U+23CEA, U+24830, U+24F78, U+24F93,
+                U+2512C, U+254A5, U+25E58, U+2629A, U+28492, U+29A6B,
+                U+2A004, U+2A5AB;
         }
         /* Old Hangul Jamo (conjoining, used in Middle Korean ko_mid and
            Early-Modern Korean ko_em) — ᆞ arae-a, ᆡ arae-a-i, ᅀ pansiot,

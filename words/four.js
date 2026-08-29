@@ -417,5 +417,6 @@ WORDS.four = {
     en_yk: ["four", "fɔː"],
     en_ck: ["four", "fɔː"],
     sco: ["fower", "ˈfʌuər"],
+    vi_nom: ["𦊚", "ɓon˧˥"],
   },
 };

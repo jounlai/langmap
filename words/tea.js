@@ -62,6 +62,7 @@ WORDS.tea = {
   },
   // cha = overland Silk-Road route; te = Dutch sea route; other = Latin herba root.
   family: {
+    vi_nom: "cha",
     es_mx: "te",
     es_ar: "te",
     es_co: "te",
@@ -621,5 +622,6 @@ WORDS.tea = {
     en_wls: ["tea", "tiː"],
     en_yk: ["tea", "tiː"],
     en_ck: ["tea", "tiː"],
+    vi_nom: ["茶", "tɕaː˨˩"],
   },
 };

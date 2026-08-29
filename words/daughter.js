@@ -580,5 +580,6 @@ WORDS.daughter = {
     wal: ["michchiyo", "mitʃːijo"],
     ee: ["vinyɔnu", "viɲɔnu"],
     pjt: ["uṉṯal", "uɳʈal"],
+    vi_nom: ["𡥵𡛔", "kɔn˧ ɣaːj˧˥"],
   },
 };

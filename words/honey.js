@@ -408,5 +408,6 @@ WORDS.honey = {
     ar_tn: ["عسل", "ʕsəl"],
     arq: ["عسل", "ʕsəl"],
     en_jam: ["honey", "ˈhʌni"],
+    vi_nom: ["蜜螉", "mət˨˩ ɔŋ˧"],
   },
 };

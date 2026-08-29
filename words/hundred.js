@@ -228,7 +228,34 @@ WORDS.hundred = {
 
     // --- Sinitic and Sinoxenic ---------------------------------------------
     och: ["百", "*pˤrak"],
-    zh_tang: ["百", "pɐk"],
+    zh_tang: ["百", "pˠæk"],
+
+    // --- Sinitic — 百 is 陰入, and 白 is its 陽入 minimal pair -----------
+    // Every tone below is that row's own value for 陰入, read off its 骨
+    // (an unambiguous 陰入 syllable; 一 is not usable here because Min
+    // reads it both 陰入 it and 陽入 chi̍t). Nothing carried across rows.
+    // Rows whose 骨 and 白 carry the SAME value do not distinguish 陰入
+    // from 陽入 at all, so their 百 is only as good as that — flagged in
+    // the handoff rather than silently trusted.
+    zh_han: ["百", "pɐk"],
+    zh_song: ["百", "pæk"],
+    yue_gz: ["百", "paːk̚˧"],
+    hak_cn: ["百", "pak̚˧"],
+    hak_tw: ["百", "pak̚˨"],
+    wuu: ["百", "paʔ˥"],
+    nan: ["百", "paʔ˦"],
+    nan_xm: ["百", "paʔ˦"],
+    nan_zz: ["百", "paʔ˦"],
+    nan_qz: ["百", "paʔ˥"],
+    nan_te: ["百", "peʔ˨˨"],
+    cdo: ["百", "paʔ˨˦"],
+    gan: ["百", "pak̚˥"],
+    zh_nj: ["百", "pəʔ˥"],
+    zh_hf: ["百", "pəʔ˦"],
+    zh_db: ["百", "pai˨˩˦"],
+    vi_han: ["百", "ɓak̚˧˥"],
+    ja_kanbun: ["百", "momo"],
+    ja_chu: ["百", "momo"],
     zh_wenyan_edu: ["百", "paːk˧"],
     zh_tw: ["百", "pai˨˩˦"],
     ja_edo: ["百", "hʲaku"],

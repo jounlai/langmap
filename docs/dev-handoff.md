@@ -313,5 +313,26 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     which is how the ekp/bbo check above was done — worth knowing they are there before re-fetching
     anything. **`/home/jounlai/langmap-work` is durable; `/tmp` is tmpfs and loses this.**
 
+30. **Removed: `hit` (Hittite) `fish` = 𒋗𒉿𒅖 /suwaiʃ/, which was the BIRD word.** Found 2026-08-29
+    when the `bird` subagent noticed that IDS gives Hittite 'bird' as *šuwaiš*, letter-for-letter the
+    atlas's existing `fish` cell. Two independent sources settle it, and both ways:
+    - Starling's Old Hittite 100-word list, entry 29 FISH: *"Unknown, normally written with the
+      ideogram KU6"* — Hittite's word for fish is genuinely not known.
+    - The same list, entry 6 BIRD: *"The traditional Hittite reading of MUŠEN is a hapax: suwai-"*,
+      and the etymological literature calls *suwai-* "a very nice match for the basic IE term for
+      'bird'".
+
+    So the cell was the wrong word AND filled a slot that has no answer. It came from rally 1
+    (`b518ff45`, "cross-row consistency audit of red/fish/three"), which is worth noting: that rally
+    was itself a consistency pass, and it introduced this. Removed, with the reasoning left in
+    `words/fish.js` as a comment so nobody re-adds it.
+
+    **Not added: `hit` `bird`.** *suwai-* is a hapax and Starling calls the reading "still unclear".
+    The `bird` agent declined it for the same reason and I agree — but if someone with Kloekhorst's
+    dictionary wants to make the call, this is the cell.
+
+    `tools/intra_row_dup_check.js --check` would have caught this the moment anyone tried to add the
+    bird cell, which is the whole argument for the ratchet added the same day.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

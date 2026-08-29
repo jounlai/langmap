@@ -760,5 +760,135 @@ WORDS.bird = {
     zgh: ["ⴰⴳⴹⵉⴹ", "aɡdˤidˤ"],
     aln: ["zog", "zɔɡ"],
     fud: ["manu", "manu"],
+
+    // --- Uralic and Siberia — NorthEuraLex orthography, re-read to each row's IPA
+    ale: ["сах̆", "sɑχ"],
+    ckt: ["гатԓе", "ɣatɬe"],
+    gld: ["гаса", "ɡasa"],
+    ket: ["кеӈассель", "kʲɛŋasːʲɛʎ"],
+    yux: ["нодо", "nodo"],
+    ykg: ["чирэмэ", "tʃireme"],
+    koi: ["кай", "kaj"],
+    sms: ["låʹdd", "lɔdːʲɘ"],
+    sjd: ["лоаннҍт", "loaɲːt"],
+    nio: ["тәибәә", "təibəː"],
+    eve: ["дэги", "deɡi"],
+    dlg: ["көтөр", "køtør"],
+    // Ob-Ugric and Samoyedic have no simplex noun — the everyday word is a compound,
+    // literally 'winged animal', built on the same 'animal' stem as the neighbours.
+    kca: ["тохӆаӈ вой", "toχɬaŋ woj"],
+    mns: ["товлыӈ ӯй", "towlɪŋ uːj"],
+    yrk: ["тиртя сармик", "tʲirtʲɑ sɑrmʲik"],
+
+    // --- Caucasus — Turkic quš spread through Lezgic and Khinalug; the rest are native
+    agx: ["къуш", "quʃ"],
+    lez: ["къуш", "quʃ"],
+    udi: ["къуш", "quʃ"],
+    kjj: ["къуш", "quʃ"],
+    kry: ["quş", "quʃ"],
+    ddo: ["агъи", "aʁi"],
+    khv: ["кӏеца", "kʼetsa"],
+    huz: ["чӏехъ", "tʃʼeq"],
+    ani: ["щеким", "ʃːekim"],
+    dar: ["арцан", "artsan"],
+    lbe: ["лелуххи", "leluχːi"],
+    aqc: ["ноцӏ", "notsʼ"],
+    tkr: ["шитӏ", "ʃitʼ"],
+    rut: ["шурук", "ʃuruk"],
+    ab: ["аҧсаа", "apʰsaː"],
+
+    // --- Austronesian — *manuk survives as the generic in the east and as a
+    // reduplication where the bare stem narrowed to 'chicken' (Maguindanao mánuk
+    // 'chicken' beside papanúk 'bird'); burung took over in the Malay orbit.
+    agt: ["mamanuk", "maˈmanuk"],
+    mdh: ["papanuk", "papaˈnuk"],
+    mrw: ["papanok", "papanok"],
+    tsg: ["manuk-manuk", "manukmanuk"],
+    cia: ["manumanu", "manumanu"],
+    sda: ["manuk-manuk", "manuʔmanuʔ"],
+    mak: ["jangang-jangang", "dʒaŋaŋdʒaŋaŋ"],
+    gay: ["manuk", "manuk"],
+    nij: ["burung", "buruŋ"],
+    dtp: ["tombolog", "tomboloɡ"],
+    bto: ["bayóng", "baˈjoŋ"],
+    nia: ["fofo", "fofo"],
+    aoz: ["kolo", "kɔlɔ"],
+    hot: ["menak", "menak"],
+    yap: ["qarcheaq", "ʔartʃəʔ"],
+    // Formosan keeps *qayam, the stem Malayo-Polynesian lost
+    pyu: ["ayam", "ajam"],
+    pzh: ["ayam", "a.jam"],
+    pwn: ["qayaqayam", "qajaqajam"],
+    ckv: ["alam", "aˈɬam"],
+    ssf: ["rumfaz", "ɾumfað"],
+    // Palauan has no noun for it at all — the phrase is 'flying animal'
+    pau: ["suebek el charm", "suəbək əl ʔarm"],
+
+    // --- Mayan — Chʼolan mut against Kʼichean tzʼikin and the Mamean chʼit
+    chf: ["mut", "mut"],
+    ctu: ["mut", "mut"],
+    usp: ["tzʼikin", "tsʼikin"],
+    mam: ["chʼit", "tʃʼit"],
+
+    // --- Americas
+    cic: ["foshi'", "foʃiʔ"],
+    mus: ["fuswv", "foswa"],
+    osa: ["wažį́ka", "waʒĩ́ka"],
+    pot: ["bnéshi", "bneʃi"],
+    com: ["huutsuu", "huːtsuː"],
+    crn: ["pina'a", "ˈpinaʔa"],
+    tar: ["chulugí", "tʃuluɡi"],
+    wba: ["domu", "domu"],
+
+    // --- Australia and New Guinea
+    aer: ["thipe", "t̪ipə"],
+    kky: ["dyidyirr", "cicir"],
+    enq: ["yaka", "jaka"],
+    hui: ["ega", "eɡa"],
+    kmh: ["yakt", "jakt"],
+
+    // --- Bantu — Proto-Bantu *-nyʊnɪ, each row with its own class prefix
+    rim: ["nyonyi", "ɲoɲi"],
+    suk: ["noni", "noni"],
+    nym: ["noni", "noni"],
+    cgg: ["enyonyi", "eɲoɲi"],
+    ttj: ["enyonyi", "eɲoɲi"],
+    nyo: ["enyonyi", "eɲoɲi"],
+    tum: ["chiyuni", "tʃijuni"],
+    yao: ["cijuni", "tʃidʒuni"],
+    kmb: ["njila", "ndʒila"],
+    seh: ["mbalame", "mbalame"],
+
+    // --- Rest of Africa
+    zne: ["zire", "zire"],
+    kr: ["ngudo", "ŋɡudo"],
+    khq: ["cirow", "tʃirow"],
+    aa: ["kimbiró", "kimbiroː"],
+    sid: ["ceʼa", "tʃeʔa"],
+    naq: ["anis", "anis"],
+
+    // --- South and Southeast Asia — Austroasiatic *ciim is the sim/sem set
+    pll: ["sim", "sim"],
+    wbm: ["sim", "sim"],
+    kjg: ["sim", "sim"],
+    bdq: ["sem", "səm"],
+    sat: ["ᱪᱮᱺᱬᱮᱹ", "tʃẽɽeʔ"],
+    kfa: ["ಪಕ್ಷಿ", "pakʂi"],
+    rhg: ["faik", "faik"],
+    hni: ["alzil", "a˥˥dzi˥˥"],
+    // Tai nok, in each row's own script
+    khb: ["ᦷᦓᧅ", "nok"],
+    blt: ["ꪶꪙꪀ", "nok"],
+    jio: ["nɔːk", "nɔːk˧˩"],
+
+    // --- Sinitic — 鸟 read with the 泥母 initial, so the tone is the lower 上聲
+    gan_ja: ["鸟", "ȵiau˨˩˧"],
+    hsn_hy: ["鸟", "niau˥˩"],
+    hsn_yz: ["鸟", "niau˨˩"],
+
+    // --- Europe — Megleno-Romanian keeps Latin pullus, the Norman lects keep avicellus
+    ruq: ["pul'", "pulʲ"],
+    fra_jer: ["ouaîsé", "wɛˈze"],
+    nrf_gg: ["mouissaon", "muiˈsɔ̃"],
   },
 };

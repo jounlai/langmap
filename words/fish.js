@@ -541,7 +541,13 @@ WORDS.fish = {
     tru: ["ܢܘܢܐ", "nuno"],
     sux: ["𒄩", "kuɂa"],
     akk: ["𒄩", "nuːnu"],
-    hit: ["𒋗𒉿𒅖", "suwaiʃ"],
+    // hit: Hittite's word for FISH is unknown — it is only ever written with
+    // the Sumerogram KU₆ (Starling's Old Hittite 100-list; CHD P:148). The
+    // cell here read 𒋗𒉿𒅖 /suwaiʃ/, which is the hapax reading of MUŠEN
+    // 'bird', not fish — introduced by rally 1 (b518ff45) and removed
+    // 2026-08-29. — is this project's marker for "no source", which is
+    // exactly the situation; see docs/dev-handoff.md item 30.
+    hit: ["—", "—"],
     nci: ["michin", "mitʃin"],
     nhx: ["michin", "mitʃin"],
     nch: ["michin", "mitʃin"],

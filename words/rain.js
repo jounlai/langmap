@@ -622,7 +622,7 @@ WORDS.rain = {
     pau: ["chull", "ʔulː"],
     tzo: ["voʼ", "vɔʔ"],
     zh_sc: ["雨", "y˥˧"],
-    zh_jh: ["雨", "y˩˩"],
+    zh_jh: ["雨", "y˨˩˦"],
     gan_ja: ["雨", "y˥˧"],
     gan_fz: ["雨", "i˧˥"],
     zh_zz: ["雨", "y˥˧"],

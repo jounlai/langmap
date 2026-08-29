@@ -236,5 +236,27 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     `validate_wordmap_data.js` #19 failed. Fixed 2026-08-29; if a similar coupling turns up for
     another asset, that is the place to add it.
 
+25. **Cells the drafting agents flagged as least certain, in `honey` and `bear`.**
+    honey: `egy bj.t /ˈbijat/` (form certain, vocalisation is a mechanical application of the row's
+    own Loprieno-style template — the weakest cell in the file); `da honning /ˈhɔneŋ/` (DDO gives
+    [ˈhʌneŋ]; ɔ was chosen to match the row's `tunge /ˈtɔŋə/` — pick one); `enm hony /ˈhɔni/`
+    (historically /u/, but the row writes `tonge /ˈtɔŋɡə/`); `af heuning` (no ⟨eu⟩ precedent in that
+    row); `kab tament /θamənt/` (the row is internally inconsistent about Kabyle spirantisation —
+    `tuɣmest /θuɣməst/` spirantises, `tamellalt /tamɛlːalt/` does not); `sm meli` without ˈ (the whole
+    Samoan row omits stress marks — a systematic pass on Samoan may be worth it).
+    bear: `se guovža /ˈkuovtʃa/` (⟨ž⟩ rendered /tʃ/ to match the row's voiceless treatment; /dʒ/ is
+    defensible); `xqa adhığ` (source gives Arabic script اَذِغْ, the Latin is the agent's
+    transliteration); `sma bïerne` (vowel length inferred from `bïenje`); `moh ohkwári` (the only
+    cell not in the bulk source); `xh ibhere /ibʱere/`; `pt_br urso /ˈuɾsu/` (the row's `cachorro
+    /kaʃohu/` hints at coda-r → [h], which was not applied — different environment, but worth a look).
+    Both agents also left out cells they could source the WORD for but not the IPA: Navajo
+    `neeznádiin` and Fijian `drau` for hundred are the two most likely to be right.
+
+26. **`honey.egy` and `honey.hit` are romanised rather than in script, and could be upgraded.**
+    Hittite mi-li-it needs the cuneiform IT sign and Egyptian bj.t needs the bee 𓆤 (L2); neither is
+    in the subset fonts. The atlas already romanises in those rows where it must (`egy` white = `ḥḏ`,
+    `sux` wind = `líl`), so this follows existing practice — but if item 20's font work happens, both
+    can be switched to script.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

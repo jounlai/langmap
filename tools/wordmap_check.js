@@ -15,8 +15,37 @@ const fs = require('fs'), vm = require('vm'), path = require('path');
 const DIR = path.join(__dirname, '..', 'words');
 const files = fs.readdirSync(DIR).filter(f => f.endsWith('.js'));
 
+// Line comments are stripped before any of this runs. The scan is raw-text, so a
+// comment reads exactly like source: `// --- Turkic: one word ...` was counted as
+// a key named `Turkic`, and `hit: [...],  // cuneiform mi-li-it: IT sign missing`
+// as a second `it`. Both fired as DUP_KEY against real keys elsewhere in the file
+// (2026-08-29, three times in one afternoon). A comment can also carry an unpaired
+// brace, which would desynchronise the depth counter, so strip first and scan after.
+function stripLineComments(txt) {
+  let out = '', inStr = false, q = '', esc = false;
+  for (let i = 0; i < txt.length; i++) {
+    const c = txt[i];
+    if (inStr) {
+      out += c;
+      if (esc) { esc = false; continue; }
+      if (c === '\\') { esc = true; continue; }
+      if (c === q) inStr = false;
+      continue;
+    }
+    if (c === '"' || c === "'" || c === '`') { inStr = true; q = c; out += c; continue; }
+    if (c === '/' && txt[i + 1] === '/') {          // run to end of line, keep the newline
+      while (i < txt.length && txt[i] !== '\n') i++;
+      out += '\n';
+      continue;
+    }
+    out += c;
+  }
+  return out;
+}
+
 // --- raw-text duplicate-key scan inside each word's `data: { ... }` block
-function dataBlock(txt) {
+function dataBlock(rawTxt) {
+  const txt = stripLineComments(rawTxt);
   const m = /(?:^|[^A-Za-z_])data\s*:\s*\{/.exec(txt);
   if (!m) return null;
   const open = txt.indexOf('{', m.index);

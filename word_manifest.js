@@ -52,6 +52,8 @@ const WORD_ORDER = [
     "three",
   "four",
   "hundred",
+  "honey",
+  "bear",
   "daughter",
   "iron",
   "wheel",

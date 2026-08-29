@@ -757,7 +757,7 @@ WORDS.bone = {
     cnp: ["骨", "kʷɐt˨"],
     zh_jh: ["骨头", "kuʔ˥˥tʰəu˧˥"],
     zh_tj: ["骨头", "ku˩˧tʰou"],
-    zh_lz: ["骨头", "ku˥˧tʰəu˥˧"],
+    zh_lz: ["骨头", "ku˩˧tʰəu˥˧"],
     dng: ["гуту", "kutʰu"],
     hsb: ["kósć", "kʊstʃ"],
     csb: ["gnôt", "ɡnɞt"],

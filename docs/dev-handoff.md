@@ -524,5 +524,28 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     evidence while you are there: the dictionary's own introduction spells the people *Kʋnakʋma*, so
     the language writes ʋ, and by the same alphabet ɩ — which is what the four repaired cells assume.
 
+41. **`zh_lz` (Lanyin Mandarin / Lanzhou) had the right tone system and the wrong tones.** The row's
+    三 ˧˩, 红 ˥˧, 五 ˦˦˨ and 二 ˩˧ are exactly Lanzhou's 陰平 31 / 陽平 53 / 上聲 442 / 去聲 13, so the
+    row is genuinely Lanzhou-calibrated — but ten other cells had never been adapted to it and were
+    carrying values from somewhere else. Repaired against Lanzhou's own tone-class rules, with the
+    row's own 五 as the 上聲 anchor and its own 二 as the 去聲 anchor:
+
+    水 sui˥˧ → **fei˦˦˨**, 白 pai˧˥ → **pə˥˧** (both verified against Wiktionary's 各地讀音 table,
+    which prints Lanzhou fei⁴⁴² and pə⁵³), 树 sɨ˨˦ → **fu˩˧**, 手 → sou˦˦˨, 火 → xo˦˦˨, 眼睛 →
+    jɛn˦˦˨tɕin, 晚上 → van˦˦˨ʂaŋ, 爱 → ɛ˩˧, 一 → ji˩˧, 月亮 → yɛ˩˧ljaŋ, 骨头 → ku˩˧tʰəu˥˧.
+
+    水 and 树 also had the wrong segments. Lanzhou sends 知章組合口三等 to **f** — 水 is [fei] and 樹
+    is [fu] — which is the signature development of the whole Lanyin group, and the row had neither.
+
+    The 入聲 rule used here, from the Chinese Wikipedia article on 兰银官话: 中古入聲清音聲母和次濁聲母
+    讀作去聲，全濁入聲聲母讀作陽平. So 一 and 骨 (清入) and 月 (次濁入) all go to 去 = ˩˧, while 白
+    (全濁入) goes to 陽平 = ˥˧ — and that last one is independently confirmed by Wiktionary.
+
+    **Still open**: the remaining segments in this row are unverified. 手 sou, 火 xo, 眼 jɛn, 晚 van and
+    骨 ku were left exactly as they were and only their tones changed, because a tone class is
+    deterministic and a segment is not. If someone gets hold of 《蘭州方言志》 the whole row is worth
+    a pass. `gan_yc` has a smaller version of the same problem: its 二 is ˨˩ while 树, 四 and 爱 are
+    ˨˩˥ and all four are 去聲.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

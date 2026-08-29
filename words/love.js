@@ -851,7 +851,7 @@ WORDS.love = {
     cnp: ["爱", "ɔi˦˦"],
     zh_jh: ["爱", "ɛ˦˦"],
     zh_tj: ["爱", "ai˥˩"],
-    zh_lz: ["爱", "ɛ˨˦"],
+    zh_lz: ["爱", "ɛ˩˧"],
     dng: ["ай", "ai"],
     hsb: ["lubosć", "ˈlubɔstɕ"],
     csb: ["lubota", "luˈbɔta"],

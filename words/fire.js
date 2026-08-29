@@ -850,7 +850,7 @@ WORDS.fire = {
     cnp: ["火", "fu˦˨"],
     zh_jh: ["火", "xuo˨˩˦"],
     zh_tj: ["火", "xwo˨˩˧"],
-    zh_lz: ["火", "xo˥˧"],
+    zh_lz: ["火", "xo˦˦˨"],
     dng: ["хуә", "xuə"],
     hsb: ["woheń", "ˈvɔhɛɲ"],
     csb: ["òdżin", "ˈwɛdʒin"],

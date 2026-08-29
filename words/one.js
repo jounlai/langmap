@@ -850,7 +850,7 @@ WORDS.one = {
     cnp: ["一", "jɐt˨"],
     zh_jh: ["一", "iʔ˥˥"],
     zh_tj: ["一", "i˩˩"],
-    zh_lz: ["一", "ji˧˧"],
+    zh_lz: ["一", "ji˩˧"],
     dng: ["и", "i"],
     hsb: ["jedyn", "ˈjɛdɨn"],
     csb: ["jeden", "ˈjɛdɛn"],

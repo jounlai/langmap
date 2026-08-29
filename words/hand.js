@@ -844,7 +844,7 @@ WORDS.hand = {
     cnp: ["手", "sɐu˦˨"],
     zh_jh: ["手", "səu˨˩˦"],
     zh_tj: ["手", "ʂoʊ˨˩˧"],
-    zh_lz: ["手", "sou˥˧"],
+    zh_lz: ["手", "sou˦˦˨"],
     dng: ["шў", "ʂəu"],
     hsb: ["ruka", "ˈruka"],
     csb: ["rãka", "ˈrãka"],

@@ -701,7 +701,7 @@ WORDS.white = {
     cnp: ["白", "paʔ˨˨"],
     zh_jh: ["白", "pai˧˥"],
     zh_tj: ["白", "pai˦˥"],
-    zh_lz: ["白", "pai˧˥"],
+    zh_lz: ["白", "pə˥˧"],
     dng: ["бый", "pei"],
     hsb: ["běły", "ˈbʲɛwɨ"],
     csb: ["biôłi", "bjɔˈwi"],

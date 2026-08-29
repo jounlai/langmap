@@ -851,7 +851,7 @@ WORDS.water = {
     cnp: ["水", "ɬui˦˨"],
     zh_jh: ["水", "suei˨˩˦"],
     zh_tj: ["水", "ʂwei˩˧"],
-    zh_lz: ["水", "sui˥˧"],
+    zh_lz: ["水", "fei˦˦˨"],
     dng: ["фи", "fi˥˩"],
     hsb: ["woda", "ˈvɔda"],
     csb: ["woda", "ˈvɔda"],

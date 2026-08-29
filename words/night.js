@@ -781,7 +781,7 @@ WORDS.night = {
     cnp: ["夜晚", "jɛ˨man˩˧"],
     zh_jh: ["晚上", "uan˨˩˦saŋ"],
     zh_tj: ["晚上", "wan˩˧ʂɑŋ"],
-    zh_lz: ["晚上", "van˥˧ʂaŋ"],
+    zh_lz: ["晚上", "van˦˦˨ʂaŋ"],
     dng: ["вәнщи", "vənɕi"],
     hsb: ["nóc", "nots"],
     csb: ["noc", "nots"],

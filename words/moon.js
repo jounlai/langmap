@@ -850,7 +850,7 @@ WORDS.moon = {
     cnp: ["月光", "ŋyt˨kwɔŋ˦˦"],
     zh_jh: ["月亮", "yeʔ˥˥liaŋ˦˦"],
     zh_tj: ["月亮", "ɥɛ˥˩ljaŋ"],
-    zh_lz: ["月亮", "yɛ˦˦ljaŋ"],
+    zh_lz: ["月亮", "yɛ˩˧ljaŋ"],
     dng: ["йүәлён", "yə˨˦liɑŋ˦˦"],
     hsb: ["měsac", "ˈmʲɛsats"],
     csb: ["ksãżëc", "ˈksɔ̃ʐɨts"],

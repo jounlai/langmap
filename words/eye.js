@@ -844,7 +844,7 @@ WORDS.eye = {
     cnp: ["眼", "ŋɐn˦˨"],
     zh_jh: ["眼", "jɛn˨˩˦"],
     zh_tj: ["眼睛", "jɛn˨˩˧tɕiŋ"],
-    zh_lz: ["眼睛", "jɛn˥˧tɕin"],
+    zh_lz: ["眼睛", "jɛn˦˦˨tɕin"],
     dng: ["янҗин", "janʐin"],
     hsb: ["woko", "ˈwɔkɔ"],
     csb: ["òkò", "ˈwɛkwɛ"],

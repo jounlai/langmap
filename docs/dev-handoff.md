@@ -334,5 +334,28 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     `tools/intra_row_dup_check.js --check` would have caught this the moment anyone tried to add the
     bird cell, which is the whole argument for the ratchet added the same day.
 
+31. **`白` in nine Mandarin rows still carries Beijing's RHYME, though its tone is now fixed.**
+    Found 2026-08-29 by the `stone` subagent while deriving 石's tone: every Mandarin row wrote 白 as
+    /pai˧˥/ — Beijing's 陽平 — while its own 紅 and 魚 carried the local value. Same class as the
+    `orange` contamination, but invisible to `sinitic_tone_class_check` because 白 is 陽入 in the
+    table and the checker skips 入 classes for lects that merged them away.
+    Tone corrected in `zh_cd zh_wh zh_xa zh_jn zh_km zh_cq zh_kf zh_zz zh_tj` — nine rows where 紅 and
+    魚 agree, which is what identifies the row's 陽平. **The rhyme was NOT corrected**: Chengdu says
+    /pe/, Wuhan /pɤ/, Jinan and Xi'an /pei/, and none of that could be sourced per row. Those cells
+    are still half wrong and the comment in `words/white.js` says so.
+    Deliberately untouched: `gan_yc gan_ja wuu hsn_yz` keep 入聲, so their 白 is 陽入 and simply not
+    comparable with 紅; `zh_jh zh_nj zh_hf` (Jianghuai) keep it too and need a glottal coda as well as
+    a tone; `zh_lz` (Lan-Yin) sends 全濁入 to 去聲, not 陽平.
+    **Worth building:** the checker cannot see this class because it needs to know, per lect, where
+    入聲 went (陽平 in SW/Zhongyuan/Jilu, 去 in Lan-Yin, preserved in Jianghuai/Gan/Wu/Xiang). A small
+    per-row "入聲 merged to X" table would let the same tool cover 白, 石, 十, 六 and the rest.
+
+32. **`asu` carries the wrong ISO code.** Confirmed 2026-08-29 by the `stone` subagent against RMCA's
+    Bantu lexicon. The row IS Asu/Pare, Bantu G22 — its `mti`, `mende`, `mshika`, `iiso` and `idhuva`
+    all match RMCA G22 exactly. But **ISO 639-3 `asu` is Asurini do Tocantins**, a Tupian language of
+    Brazil; Asu/Pare is **`asa`**. Every comparative dataset therefore returns Tupian data for this
+    code, which is how it was found. Same shape as the Donno So `ddn`→`dds` fix of 2026-08-26 and
+    needs the same treatment: rename plus a `SEO_RENAMED_CODES` 301, so it was not done here.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

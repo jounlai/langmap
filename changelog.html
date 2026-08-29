@@ -143,6 +143,27 @@
         <nav class="month-nav">Months: <strong>2026-08</strong> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-08-29 — A new check found fifteen oranges wearing Beijing's tone 🍊</div>
+            <ul>
+                <li><strong>Every Chinese dialect gives one pitch to each historical tone class.</strong> So within one language, every word in the 陽平 class has to carry the same contour — and a row that disagrees with itself has a mistake in it somewhere. Nothing on the site was checking that. Now something is, and the first thing it found was that <strong>the word for “orange” carried Beijing's tone in fifteen dialects that do not use it</strong>: Chengdu, Wuhan, Jinan, Kunming, Wenzhou and ten more. Each of those rows had four to six other words in the same tone class agreeing with each other, and 橙 alone dissenting — always with the same wrong value, which is what a batch filled without adapting the tone looks like. All fifteen corrected.</li>
+                <li><strong>It also caught one cell in Hokkien.</strong> 紅 was written /aŋ˧˥/ while the same row's 魚, 名 and 鹽 all said ˨˦, and both neighbouring Hokkien rows said ˨˦ as well — one cell against five independent agreements. Corrected.</li>
+                <li><strong>Making the check useful meant making it narrow.</strong> The obvious version flags Mandarin for pronouncing 黑, 血, 百 and 铁 four different ways — but that is correct, because Mandarin lost the entering tone centuries ago and the class stopped predicting anything. So the check only looks at the classes that still behave, only at languages that still have them, treats ˥ and ˥˥ as the same claim, and exempts Cantonese's genuinely changed tones. Sino-Vietnamese is out entirely: there the tone depends on what kind of consonant a word starts with, so 熊 <em>hùng</em> and 魚 <em>ngư</em> are both right.</li>
+                <li>What it still finds — 56 more disagreements — is written down inside the check rather than hidden, so the site stays green while any <em>new</em> drift fails immediately. The one to fix first is Meixian Hakka, and it is the interesting case: there the majority is wrong.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-08-29 — Salt, milk and daughter reach roughly five hundred languages each 🧂🥛👧</div>
+            <ul>
+                <li><strong>Salt 129 → 528, milk 123 → 495, daughter 123 → 469, black 231 → 504, four 134 → 301.</strong> Around 1,700 new cells in an afternoon. Most of it is ordinary filling-in, but a few things are worth pointing at.</li>
+                <li><strong>Okinawan does not say しお.</strong> Its word for salt is <em>マース māsu</em>, a separate native word — so the Japanese block is not one word repeated down a column of dialects. Kurdish likewise keeps its own <em>xwê</em> rather than the <em>namak</em> that Persian, Dari and Tajik share.</li>
+                <li><strong>Oscan kept the word Latin threw away.</strong> Daughter is <em>*dʰugh₂tḗr</em> almost everywhere in Indo-European, and Latin replaced it with <em>fīlia</em> — but Oscan, spoken on the same peninsula, still says <strong>futír</strong>, and Mycenaean Greek writes it <strong>𐀶𐀏𐀳 tu-ka-te</strong> in Linear B. Sumerian solves the problem the way Indonesian does, four thousand years earlier: <em>𒌉𒊩 dumu-munus</em>, “child-female”.</li>
+                <li><strong>Three unrelated families call milk “breast water”.</strong> Classical Nahuatl, Igbo and Ewe all build the word that way, as Hawaiian <em>waiū</em> already did. And Old Prussian's <em>dadan</em> is an orphan — unrelated to Lithuanian <em>pienas</em> or Russian <em>молоко</em>, sitting right next to both.</li>
+                <li>Blanks are still deliberate. Bear is empty across most of Africa, Amazonia, Australia and the Pacific because there are no bears there. Jeju's word for daughter is missing because writing it needs an Old Hangul letter the site's font does not carry, and an empty cell is better than an empty box.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-08-29 — Ten new words, chosen so the dead languages have something to say 𐬯𐬀𐬙𐬆𐬨 𑀓𑀦𑁆𑀢𑁂</div>
             <ul>
                 <li><strong>The map has 143 rows for historical and reconstructed languages, and most of the words it carried were words those rows had nothing special to contribute to.</strong> These ten were picked the other way round — each one is a word where the old languages are the point. <strong>Hundred</strong> is the clearest: Latin <em>centum</em> and Avestan <em>𐬯𐬀𐬙𐬆𐬨 satəm</em> are now one row apart, and those two words are literally what the two halves of Indo-European are named after, because the first sound of *ḱm̥tóm stayed a <em>k</em> in one half and became an <em>s</em> in the other. Then Tocharian B <em>𑀓𑀦𑁆𑀢𑁂 kante</em>, sitting in the Tarim Basin at the eastern edge of the whole family — and saying <em>k</em>. That single cell is why nobody can read the split as simply “west versus east” any more.</li>

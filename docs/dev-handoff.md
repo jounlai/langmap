@@ -258,5 +258,20 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     `sux` wind = `líl`), so this follows existing practice — but if item 20's font work happens, both
     can be switched to script.
 
+27. **`hak_cn` (Meixian Hakka) writes 陽平 two different ways, and the majority is the wrong one.**
+    Found 2026-08-29 while a subagent was reading tone classes off the row to write 鹽. Within
+    `hak_cn`: 紅 /fuŋ˨˦/, 魚 /ŋ˨˦/ and the new 鹽 /iam˨˦/ all say ˨˦, but 名 /miaŋ˩/ says ˩. All four
+    are 陽平. Meixian Hakka 陽平 is 11, and `hak_tw` (Sixian, same tone value) writes all four as ˩˩ —
+    so **名 is the correct cell and 紅/魚/鹽 are wrong**, i.e. the outlier is right and the majority is
+    not. Needs a full pass over every 陽平 syllable in that row rather than the one-line fix, which is
+    why it was not done here. Check 陰平 in the same row while you are there (三 /sam˦˦/ against
+    Meixian's actual 44 — that one looks right).
+    **Already fixed by contrast:** `nan` had 紅 /aŋ˧˥/ where its own 魚, 名 and 鹽 all say ˨˦ and both
+    sibling rows (`nan_xm`, `nan_qz`) say ˨˦. One-cell outlier, five independent agreements, changed
+    to ˨˦ in `words/red.js`.
+    A deterministic checker would settle this class for good: a character → 調類 table for the ~40
+    Han characters the WordMap actually uses, then flag any row whose cells disagree about a class.
+    That is the pattern `tools/tone_category_check.js` already follows for the Han Map.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

@@ -324,6 +324,14 @@ line('language-name coverage', num(s, /violations: (\d+)/));
 // locally — localhost shows the new data while langmap.heuron.com serves the
 // old. Adding this is what a session that shipped 11 new concepts to the map
 // and none of them to the site cost (owner 2026-08-26).
+// One 調類, one contour, within one row. Written 2026-08-29 after two real
+// errors turned up that nothing else could see: nan wrote 紅 as ˧˥ where its own
+// 魚 名 鹽 all said ˨˦, and fifteen `orange` cells carried Beijing's 陽平 ˧˥ into
+// rows whose 陽平 is something else entirely. Both fixed; the rest of what it
+// found is carried as debt inside the tool so new drift still fails.
+s = run('sinitic_tone_class_check.js --check');
+line('Sinitic tone class per row', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} stale debt entries` : '');
+
 s = run('export_seo_data.js --check');
 line('data/*_seo.json freshness', num(s, /stale: (\d+)/));
 

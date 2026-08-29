@@ -576,5 +576,44 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
       second tone. Probably correct data recorded in the wrong register rather than a wrong tone;
       decide the policy before touching any of them.
 
+44. **milk 496 → 727. Three homophony calls, decided two ways.** The fill agent hit the byte-identical
+    rule three times and removed its own cell each time rather than touch the lock, which is the right
+    reflex. Two of the three were genuine and are now in:
+
+    - **`xmf` Mingrelian ბჟა = milk AND sun.** Accepted, and the evidence is the sister language in
+      the same table: Georgian keeps მზე 'sun' apart from რძე 'milk', Zan merges both to *bʒa*, and
+      **Laz** shows the two halves separately — ბჯა *bdʒa* for milk beside მჟორა *mʒora* for sun,
+      where the sun word took a suffix and the milk word did not. Mingrelian let them fall together.
+      Locked, with that reasoning written into `tools/intra_row_dup_check.js`.
+    - **`zh_wenyan_edu` 乳 /jyː˩˧/ = 汝 /jyː˩˧/.** Accepted without a lock entry, because the dup
+      check compares the surface and the two characters differ. Genuine Cantonese homophony.
+    - **`nxq` Naxi no³³ = that row's 'you'.** REFUSED. Sun's Tibeto-Burman doculect fails calibration
+      against this row on three basic words — its water is dʑi³¹ where the row writes *ggee* /ɡɯ̄/,
+      its eye is miə³¹ly³³ where the row writes *nyi*, its drink is thɯ³¹ where the row writes *chil*
+      — so it is a different variety and its homophony says nothing about this row's. Left empty.
+      (Separately: the row's own `water` *ggee* does not look like Naxi *jji* [dʑi] either, so this
+      row may want a provenance check of its own.)
+
+45. **Tone rows the milk pass could not fill because the row disagrees with itself.** Recorded here so
+    the next 上/去 pass has them; each is a row whose own 上聲 cells give two or three contours, which
+    made it impossible to derive 奶 (次濁上) honestly:
+
+    - `hsn_hy` **Hengyang — the worst of them.** 妈 (陰平), 五/水/眼 (上聲) and 爱 (去聲) are all
+      written ˥˩. Three tone classes, one contour. That is a bulk copy, not a lect.
+    - `zh_jh` 五 ˧˥ vs 我 ˨˩˨ vs 水 ˨˩˦; `hsn_yz` 五/水 ˨˩ vs 我/你 ˦˩ — and its 水 *tshui* matches
+      no entry in the Yongzhou 同音字表, so that row's provenance is unclear;
+      `cnp` Pinghua 五 ˨˩ vs 眼 ˦˨; `gan_ja` 五 has no tone at all beside 我 ˧˩ and 水 ˨˩˧.
+    - `nan_pn` Penang: the row's 魚 is ˨˦ where Penang 陽平 is 23.
+    - `wuu_jx` Jiaxing: the row's 鱼 (陽平) ˨˧ and 五 (陽上) ˨˩˧ against Wugniu's 13 and 31.
+
+46. **Script-mixing found in passing, not milk's fault and not fixed.** `rif` Tarifit and `shi`
+    Tashelhit both run Neo-Tifinagh for water, drink, mother, eat, blood and tooth and Latin for
+    `white` *amellal*. `syl` Sylheti runs Bengali script for water, drink, mother and eat and Sylheti
+    Nagari for white, blood and tooth. `bbl` Bats has rain, wind and earth in Cyrillic among 43
+    Georgian cells; `haj` has cuckoo and earth in Bengali among 38 Latin ones. `aa` Afar writes /ʕ/ as
+    **q** (*qado*, *qabal*) where the standard orthography uses **c** — pick one before filling that
+    row further. And `vi_c` and `vi_s` both carry `nose` *mũi* with the Northern ngã spelling and no
+    tone letter, in two dialects that do not have that tone.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

@@ -105,6 +105,20 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // and ahk, so refusing the new four would have meant leaving four correct cells
 // out to keep a number at zero. That is the failure mode a ratchet invites, and
 // the reason each accepted entry should be justifiable rather than merely old.
+// 2026-08-30: accepts xmf ბჟა = milk + sun, and the evidence is the sister
+// language sitting in the same table. Georgian keeps მზე 'sun' and რძე 'milk'
+// apart; Zan turns both into bʒa, and Laz — the other Zan language — shows the
+// two halves separately, with ბჯა bdʒa for milk beside მჟორა mʒora for sun,
+// where the sun word took a suffix and the milk word did not. Mingrelian let
+// them fall together. So the collision is a fact about Mingrelian rather than
+// about this atlas, and refusing it would have meant an empty cell to keep a
+// counter at zero.
+// Not accepted the same day, for the opposite reason: nxq (Naxi) milk no³³ from
+// Sun's Tibeto-Burman database, which collides with that row's own 'you'. The
+// doculect fails calibration — its water is dʑi³¹ where the row writes ggee
+// /ɡɯ̄/, its eye is miə³¹ly³³ where the row writes nyi, its drink is thɯ³¹ where
+// the row writes chil — so it is not this row's variety and its homophony says
+// nothing about this row's. Left empty.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

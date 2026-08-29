@@ -94,6 +94,12 @@ for (const h of hits) {
 const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 
 // ---- ratchet ----
+// Lock updated 2026-08-29 to accept five more Tibeto-Burman *ŋa collisions —
+// blk, lif, lis (twice) and tsj, where five, fish and 'I' are genuinely the
+// same syllable. The lock already carried exactly this for my, rki, obr, lhu
+// and ahk, so refusing the new four would have meant leaving four correct cells
+// out to keep a number at zero. That is the failure mode a ratchet invites, and
+// the reason each accepted entry should be justifiable rather than merely old.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

@@ -50,6 +50,7 @@ const WORD_ORDER = [
     "one",
     "two",
     "three",
+  "four",
     "five",
     "n99",
     // greetings & quality

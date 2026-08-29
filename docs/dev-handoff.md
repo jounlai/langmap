@@ -399,8 +399,22 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     **Not changed here**: a code change moves SSR URLs and needs a `SEO_RENAMED_CODES` 301 planned
     alongside, same as items 19 and 32. Whoever does it should first confirm which variety the row's
     existing CELLS came from — if they were sourced from Tilquiapan materials the fix is the name, not
-    the code. Note that `source_link_check.js` compares an Ethnologue citation's code against
-    `meta.iso6393`, so it cannot see this: both are `zts` and agree with each other.
+    the code — but the row's own metadata already answers that, and unanimously:
+      - `glottocode` cites **tlac1241**, which is Tlacolula.
+      - the description reads "Tlacolula Zapotec (autonymously Dizhsa … San Lucas Quiaviní Zapotec
+        for the most-documented variety)".
+      - the third cited source is **Pamela Munro's UCLA page**; Munro is the San Lucas Quiaviní /
+        Tlacolula Valley researcher.
+      - the coordinates are Tlacolula de Matamoros'.
+    Four fields say Tlacolula. Only `iso6393` and the Ethnologue URL say `zts`, i.e. Tilquiapan. So
+    the fix is the code, `zts` → `zab`, and the Ethnologue link with it.
+
+    **The row's live Ethnologue citation therefore resolves to a different language than the row is
+    about.** `source_link_check.js` cannot see it, and the reason is worth remembering: that guard
+    checks whether a citation's code matches `meta.iso6393` — INTERNAL consistency. Here the two
+    agree with each other perfectly while both being wrong. A guard comparing a row's `glottocode`
+    against its `iso6393` through Glottolog's own mapping would have caught this, and would catch the
+    same class elsewhere.
 
     There are now three of these queued (items 19, 32, 34). They share one blocker — the 301 plan —
     so they are probably one task, not three.

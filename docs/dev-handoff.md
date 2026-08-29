@@ -273,5 +273,45 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     Han characters the WordMap actually uses, then flag any row whose cells disagree about a class.
     That is the pattern `tools/tone_category_check.js` already follows for the Han Map.
 
+28. **`ekp` (Ekpeye) and `bbo` (Konabéré) look like they carry a neighbour's words — same shape as the
+    Donno So mis-coding, but NOT yet confirmed and NOT changed.** Flagged 2026-08-29 by a research
+    subagent, then checked against ASJP directly. The evidence:
+
+    | | atlas | ASJP for that language | atlas value equals |
+    |---|---|---|---|
+    | `ekp` tree | osisi | **uṣi** (EKPEYE) | Igbo `osisi` exactly |
+    | `ekp` eye | anya | **akpalanɛ** (EKPEYE) | Igbo `anya` exactly |
+    | `bbo` tree | yiri | **sio** (NORTHERN_BOBO_MANDARE) | Bambara/Dyula `yiri` exactly |
+    | `bbo` eye | ɲɛ | **ɲono** (NORTHERN_BOBO_MANDARE) | Bambara/Dyula `ɲɛ` exactly |
+
+    Both rows' `blood` DOES match ASJP (ekp ubala, bbo tsuu), so the rows are not wholesale copies —
+    which is what makes the two cells each look like an individual slip rather than a bad row.
+
+    **Not fixed, deliberately.** ASJP is one source, its wordlists are short and sometimes poor, and
+    Ekpeye is genuinely Igboid so some agreement with Igbo is expected — though `osisi`/`uṣi` and
+    `anya`/`akpalanɛ` are different words, not cognate spellings. Settling it needs a second source:
+    Blench & Williamson's *A Dictionary of Ẹkpẹyẹ, an Igboid Language of Southern Nigeria* (Kay
+    Williamson Educational Foundation, on academia.edu) and a Bobo Madaré wordlist. Only ASJP has
+    lexical data for these two among the datasets currently on disk.
+
+    `deg` (Degema) was flagged in the same report and does NOT show the pattern: its tree `eyo` and eye
+    `enẹ` match neither ASJP (utain, ukmo udo) nor Igbo, so it is a plain disagreement with one source
+    rather than a borrowed row. Lower priority.
+
+29. **Eleven concepts have unapplied comparative-dataset harvests sitting in `~/langmap-work/`.**
+    A previous session pulled these and never used them. They are the reason egg, sleep, nose and iron
+    each jumped 20-40 points on 2026-08-29.
+
+        h2_nose.tsv 1736   h2_stone.tsv 1703   h2_sleep.tsv 941   h2_egg.tsv 844
+        h2_ear.tsv   711   h2_bird.tsv   466   h2_earth.tsv 263   h2_rain.tsv 166
+        h2_wind.tsv  155   h2_five.tsv   114   h2_snow.tsv   19
+
+    Columns: `code, language, dataset, doculect, Value, Form, extra`. `code` is the atlas language
+    code, so each joins directly against its `words/*.js`. Sources behind them: NorthEuraLex, IDS,
+    ABVD, ASJP, Polyglotta Africana, bowernpny, utoaztecan, dravlex, iecor. Raw dataset dumps are in
+    the same directory (`asjp_forms.csv`, `ids_forms.csv`, `b_polyglottaafricana_*`, `al3_abvd_*`),
+    which is how the ekp/bbo check above was done — worth knowing they are there before re-fetching
+    anything. **`/home/jounlai/langmap-work` is durable; `/tmp` is tmpfs and loses this.**
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

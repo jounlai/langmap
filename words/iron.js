@@ -783,5 +783,29 @@ WORDS.iron = {
     vo: ["lel", "lel"],
     jbo: ["tirse", "tirse"],
     tlh: ["baS", "baʂ"],
+
+    // --- Philippine and Formosan — sourced per row, not extrapolated -----
+    // Taiwan's languages each have their own word and they share almost
+    // nothing: Amis marad, Atayal baliq, Paiwan vatjuljayan, Truku xiluy,
+    // Rukai adreme, Kavalan and Thao balis, Puyuma batulrayaw.
+    bik: ["batbat", "ˈbatbat"],
+    tsg: ["basi'", "basiʔ"],
+    pam: ["bakal", "ˈbakal"],
+    gor: ["wuwate", "wuˈwate"],
+    h_tagalog: ["ᜊᜃᜎ᜔", "ˈbakal"],
+    ami: ["marad", "marad"],
+    pwn: ["vatjuljayan", "vatʲuɭajan"],
+    tay: ["baliq", "baliq"],
+    bnn: ["ngul-a", "ŋulʔa"],
+    trv: ["xiluy", "xiluj"],
+    tao: ["vahalang", "vahalaŋ"],
+    pyu: ["batulrayaw", "batuɭajaw"],
+    szy: ["mukin", "mukin"],
+    dru: ["adreme", "aˈɖəmə"],
+    ckv: ["balis", "baˈlis"],
+    ssf: ["balis", "balis"],
+    ch: ["lulok", "ˈlulok"],
+    pau: ["deel", "dɛːl"],
+    yap: ["waasëy", "waːsəj"],
   },
 };

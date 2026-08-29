@@ -200,5 +200,41 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
 `asjp_*`/`ids_*` files; they are deliberately outside the repo. Re-fetch with
 `curl https://raw.githubusercontent.com/lexibank/<dataset>/master/cldf/{forms,languages,parameters}.csv`.
 
+## Open items from the 2026-08-29 concept batch
+
+20. **The Chữ Nôm and Sinitic subset fonts block two kinds of cell, and nothing in `tools/` can
+    regenerate them.** `fonts/NomNaTong-subset.woff2` carries 30 of the 33 Nôm/Ext-B characters the
+    atlas uses; the source NomNaTong is not in the repo, and `tools/build_historic_font_subsets.js`
+    does not cover it (it builds Avestan, Brahmi, Cham, Coptic, Cuneiform, Tifinagh and the rest).
+    `pyftsubset` IS installed at `~/.local/bin/pyftsubset`, so the only missing piece is the source
+    font. Two cells are blank because of this: `four.vi_nom` 𦊚 (U+2629A) and `hundred.vi_nom` 𤾓
+    (U+24F93). `tools/font_coverage_check.js` catches these, which is how both were found — a blank
+    is more honest than tofu on iPhone, but the right fix is to fetch NomNaTong from the Nôm
+    Preservation Foundation, re-subset, and update the `unicode-range` in wordmap.html + hanmap.html.
+
+21. **Non-Mandarin Sinitic rows are blocked on entering-tone Chao values for 百 and 黑.** `black`
+    solved this for 烏 and 黑 by reading each row's own 三 (陰平) and 一 (陰入) cells — that method
+    works and should be reused. `hundred` did not get the same treatment: 百 is 陰入 too, so the same
+    trick applies and roughly 45 Sinitic rows are winnable. Worth doing before adding more words with
+    checked-tone syllables.
+
+22. **Cells to re-check in `hundred` (drafted by a subagent, flagged by it as least certain).**
+    `pal 𐭮𐭣` (Book Pahlavi, constructed from the row's own letters), `arc`/`syc`/`oar ܡܐܐ /maː/`
+    (Eastern vs Western Syriac realisation), `si සියය /sijəjə/`, `yo ọgọ́rùn-ún` (tones copied from the
+    atlas's own n99 rendering), `nci mācuīlpōhualli` (vigesimal, 5×20), `br kant /kãnt/` (nasalisation),
+    `da hundrede`, `mn зуу /tsuː/`, `ptrk *jǖz`, `p_kor *on`. Also worth a look: Navajo `neeznádiin`
+    and Fijian `drau` were left out only because the IPA could not be pinned to the row's style.
+
+23. **`tools/wordmap_check.js` reads a comment as a data key.** A line like `// --- Turkic: one word
+    from …` inside a `data` block is counted as a key named `Turkic`, and two such comments in one
+    file trip DUP_KEY. Worked around in `words/black.js` by rewording both to use an em-dash. The
+    checker should skip `//` lines.
+
+24. **`bump_versions.js` now syncs `word_manifest.js?v=` to `WM_ASSET_VERSION.words`.** The page
+    checker keys off content, and adding a language to a `words/*.js` file does not change
+    `word_manifest.js`, so it used to report "in sync" while `WM_ASSET_VERSION` moved on and
+    `validate_wordmap_data.js` #19 failed. Fixed 2026-08-29; if a similar coupling turns up for
+    another asset, that is the place to add it.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

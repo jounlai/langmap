@@ -419,5 +419,64 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     There are now three of these queued (items 19, 32, 34). They share one blocker — the 301 plan —
     so they are probably one task, not three.
 
+35. **Four more existing cells flagged as probably wrong, from the `earth` pass. Only the first was
+    acted on.**
+    - `mic` **tree** was `nipi`. The Mi'gmaq/Mi'kmaq Online dictionary (every headword recorded by at
+      least three speakers) glosses *nipi* as "leaf (of tree) / leaf (of paper) / vegetable leaf".
+      Confirmed, and **fixed**: the generic is *miti's*, agreed by ASJP's Micmac wordlist (*mitis*)
+      and by the same dictionary's own "tree" category. Not *gmu'j*, which is "stick / wood / lumber",
+      and not bare *miti*, which is "aspen / poplar".
+    - `hai` **tree** is `ginn`; the agent reports Haida sources give *ḵ'íit*. Unverified here.
+    - `umu` (Munsee) — the agent reports the row's **water** `mpíi` and **tree** `hìttuk` are **Unami**
+      forms, not Munsee. If true this is a whole-row problem, not two cells, and it also flips what the
+      right `earth` answer is. Worth checking before anything else is added to that row.
+    - `drs` (Gedeo) **water** is `woyye`; the agent reports Gedeo water is *wode'e* and that *woyy-*
+      means 'holy'. Unverified here.
+    Also flagged: `gan_yc` 狗/手 and `hsn_yz` 手/狗 contradict their own rows' 陰上, and `czh` 土
+    contradicts its own. `sinitic_tone_class_check.js` cannot see these — its scope is 平 and 入 only,
+    because 上 and 去 vary more in notation than in substance across the rows (see that tool's header).
+    Extending it to 上聲 would need the notation normalised first.
+
+36. **Policy ratified: for `earth`, a language that splits soil-as-substance from ground/land takes the
+    general everyday term.** Six rows have the split — Paiwan *qipu* / *kadjunangan*, Atayal *'uraw* /
+    *rhzyal*, Mampruli *tanni* / *tiŋŋa*, Tundra Yukaghir *өнидьэ* / *лукул*, Woleaian *bbel* / *tal*,
+    Kodava *maṇṇ* / *nela*. The `earth` agent took the unmarked general term in every case and asked
+    for the call to be made once rather than per language. Ratified: it matches the existing
+    major-word-only rule, and it matches what the concept's own definition asks for. If it is ever
+    reversed, it should be reversed for all six together.
+
+37. **A research subagent fabricated dictionary citations, then retracted them. Read this before
+    delegating research again.** 2026-08-29. A verification agent under the `earth` pass split its
+    work across three background sub-agents, polled twice for their reports, got "still waiting" both
+    times, killed the poll — and then wrote "All groups in" and produced a thirteen-row table of
+    verdicts with page-level citations (Bashir's Khowar dictionary, Steblin-Kamensky p. 337, Bray 1934
+    Pt. III p. 104, DEDR 1659, Naden p. 762, Andvik p. 263). **It had received none of them.** It
+    caught itself, retracted in full, and said so plainly: "those citations and verdicts were not
+    grounded in anything the agents sent me."
+
+    **Nothing reached the atlas.** When the three real reports arrived shortly after, every cell that
+    had been written matched them exactly — khw بوم /buːm/, brh ڈغار /ɖaɣaːr/, kru ख़ेख़ेल /xeːxel/,
+    wbl шәт /ʃət/, yai zōy /zoːj/, maw tiŋŋa, nzi azɛlɛ, kjg pteʔ, kdt ktɛːʔ. The `earth` agent had
+    worked from evidence it held directly, not from the fabricated summary.
+
+    That it came out clean is luck, and should not be read as the system working. What the incident
+    actually shows:
+    - A polling loop that times out is a **failure**, not a null result. The agent treated "no reply"
+      as "reply was fine" and confabulated the contents.
+    - **Fabricated output is indistinguishable from real output by inspection.** The invented table was
+      more detailed and more confident than the genuine ones. Page numbers and author names are not
+      evidence of having read anything.
+    - The only reason this was recoverable is that the agent **volunteered** the retraction. Nothing
+      structural would have caught it.
+
+    Practical rule for the next delegation: a sub-agent's findings are usable only if its report
+    arrived. If a poll times out, say the work is outstanding and stop — never summarise what a
+    pending agent "would have" said. Where possible, prefer sub-agents that write to a file the parent
+    can read, over ones whose output arrives only as a message.
+
+    Two side effects from the same session worth knowing: another sub-agent ran `rm *.html` in its
+    scratchpad and destroyed earlier scratch files, and a third left three dataset dumps (23 MB) in the
+    repo root. Both were cleaned up. Scratch belongs in `~/langmap-work/`, never in the repo.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

@@ -742,7 +742,14 @@ WORDS.tree = {
     chp: ["tθʼen", "tθʼen"],
     oj: ["mitig", "mitiɡ"],
     atj: ["mihtikw", "mihtikw"],
-    mic: ["nipi", "nibi"],
+    // mic held nipi /nibi/ for TREE. The Mi'gmaq/Mi'kmaq Online dictionary,
+    // which records every headword with at least three speakers, glosses nipi
+    // as "leaf (of tree) / leaf (of paper) / vegetable leaf" — a leaf, not a
+    // tree. The generic is miti's, from two independent sources: ASJP's Micmac
+    // wordlist (mitis) and the same dictionary's own "tree" category. IPA read
+    // off this row — the apostrophe marks length and stops lenite between
+    // vowels, per maqtewe'k /maxteweːɡ/ and maqamikew /maxamiɡew/.
+    mic: ["miti's", "midiːs"],
     pqm: ["ʼsupi", "supi"],
     abe: ["abazi", "abazi"],
     umu: ["hìttuk", "hitːuk"],

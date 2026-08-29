@@ -987,5 +987,34 @@ WORDS.earth = {
     kwk: ["a̱wi'nak̕wa̱s", "ʔəwiʔnakʷʼəs"],
     hai: ["tllga", "tɬʼaɡa"],
     osa: ["mąðį́hka", "mãðĩ́hka"],
+    srr: ["lanq", "laŋɢ"],
+    dds: ["tay", "taj"],
+    tem: ["ʌ-thɔf", "ʌt̪ɔf"],
+    spp: ["ɲiŋɛ", "ɲiŋɛ"],
+    sus: ["bɔxi", "bɔxi"],
+    bsq: ["ɓóɖó", "ɓóɖó"],
+    fvr: ["sʉʉrʉ", "sʊ̀ːrʊ̀"],
+    tig: ["ምድር", "mɨdɨr"],
+    ngl: ["echaya", "etʃʰaja"],
+    dyo: ["mof", "mɔf"],
+    drs: ["buttina", "butːina"],
+    dag: ["tiŋa", "tiŋa"],
+    kfa: ["ಮಣ್ಣ್", "maɳɳ"],
+    kxv: ["irā", "iɾaː"],
+    kfx: ["धरती", "d̪ʱərt̪iː"],
+
+    // --- Late additions, each from a named primary source ------------------
+    // slr and ybe: yer survives in both as 'place/land', but the ordinary soil
+    // word is the Common Turkic *topraq reflex, which is what every other
+    // Turkic row here already carries (tr toprak, az torpaq, uz tuproq).
+    // Salar from Lin Lianyun 1992 p.85 and Yakup 2002 p.168; Western Yugur
+    // from Roos 2000. Vowels follow each row's own dash /dɑʃ/ and das /dɑs/.
+    slr: ["toraq", "torɑχ"],
+    ybe: ["turaq", "turɑq"],
+    // tsj: Andvik, A Grammar of Tshangla (Brill 2010) p.263, "a distinct
+    // nominal lexeme sa 'earth, ground'"; p.37 records no lexical tone. Latin,
+    // because Andvik calls Tshangla unwritten and this row is Latin throughout
+    // (ri, lung, shing, nga) — the Tibetan ས་ would be an inferred spelling.
+    tsj: ["sa", "sa"],
   },
 };

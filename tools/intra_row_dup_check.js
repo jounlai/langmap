@@ -12,6 +12,25 @@
  * tool, not a gate. It exits 0 and prints candidates for a human to judge.
  *
  * Pairs that are polysemous often enough to be noise are suppressed by default.
+ *
+ * --check / --update: the ratchet. 245 candidates is a list nobody re-reads, so
+ * the accepted set is frozen in intra_row_dup.lock.json and --check reports only
+ * what is NEW since then. That turns "245 things to judge some day" into "3
+ * things this batch added", which is the only version anyone acts on.
+ *
+ * This matters more than it used to. As of 2026-08-29 the concepts are being
+ * filled from comparative datasets (ASJP, IDS, ABVD, NorthEuraLex, Polyglotta,
+ * …) and those carry gloss slips: the agent filling `ear` found that ASJP's
+ * "ear" for Wichí and for Kera was letter-for-letter each row's own `tooth`,
+ * and that its "ear" for four Tibetic rows was their own `nose`. A form that
+ * exactly equals another cell in the same row is the signature. Run --check
+ * after every harvest batch.
+ *
+ * Usage:
+ *   node tools/intra_row_dup_check.js            # full report
+ *   node tools/intra_row_dup_check.js --all      # include the polysemy allowlist
+ *   node tools/intra_row_dup_check.js --check    # print "violations: N" (new only)
+ *   node tools/intra_row_dup_check.js --update   # accept the current set
  */
 const fs = require('fs');
 const path = require('path');
@@ -73,6 +92,31 @@ for (const h of hits) {
     (byPair[k] ||= []).push(h);
 }
 const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
+
+// ---- ratchet ----
+const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
+const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
+const current = new Set(hits.map(sig));
+if (process.argv.includes('--update')) {
+    fs.writeFileSync(LOCK, JSON.stringify([...current].sort(), null, 0) + '\n');
+    console.log(`accepted ${current.size} intra-row duplicates`);
+    process.exit(0);
+}
+let known = new Set();
+try { known = new Set(JSON.parse(fs.readFileSync(LOCK, 'utf8'))); } catch (_) {}
+const fresh = hits.filter((h) => !known.has(sig(h)));
+const gone = [...known].filter((k) => !current.has(k));
+if (process.argv.includes('--check')) {
+    console.log(`violations: ${fresh.length}`);
+    if (gone.length) console.log(`stale: ${gone.length}`);
+    process.exit(0);
+}
+if (fresh.length) {
+    console.log(`\n⚠ NEW since the lock (${fresh.length}) — check each against the row's other cells:`);
+    fresh.forEach((h) => console.log(`    ${h.code}  ${h.form}  = ${h.a} + ${h.b}`));
+    console.log('');
+}
+if (gone.length) console.log(`(${gone.length} lock entries no longer match — run --update)\n`);
 
 console.log(`intra-row duplicate surfaces: ${hits.length} across ${pairs.length} concept pairs`);
 console.log('(informational — genuine polysemy is common; judge each one)\n');

@@ -333,6 +333,15 @@ line('language-name coverage', num(s, /violations: (\d+)/));
 // 2026-08-29 after the same mistake twice in an afternoon: 76 tea rows and 77
 // n99 rows added with cells and no `family` entry, which does not error — the
 // language just stops being drawn in a colour. Found two more the moment it ran.
+// A form that exactly equals another cell in the same row is the signature of a
+// gloss slip in a source. Ratcheted 2026-08-29: 245 existing pairs are almost
+// all real polysemy (Korean 눈 eye/snow, Old English hund dog/hundred) and are
+// frozen in the lock; only NEW ones fail. This is the guard for the comparative-
+// dataset harvests — ASJP's "ear" for Wichí and Kera was each row's own "tooth",
+// and its "ear" for four Tibetic rows was their own "nose".
+s = run('intra_row_dup_check.js --check');
+line('no new intra-row duplicate', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} lock entries stale` : '');
+
 s = run('route_coverage_check.js --check');
 line('route colouring complete', num(s, /violations: (\d+)/));
 

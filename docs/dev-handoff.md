@@ -615,5 +615,33 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     row further. And `vi_c` and `vi_s` both carry `nose` *mũi* with the Northern ngã spelling and no
     tone letter, in two dialects that do not have that tone.
 
+47. **The 土 pass: five rows where the MAJORITY of the 上聲 class was wrong.** Handoff 43 predicted
+    this for cpx and it turned out to be true in five rows, not one. Method: Wiktionary's 各地讀音
+    tables for **土** and for **水** are two independent 上聲 characters with a per-city value, so
+    fetching both settles a row without trusting either cell already in it.
+
+    | row | lect | 土 / 水 both say | the row said, on 5–8 cells | what ˓that wrong value actually is |
+    |---|---|---|---|---|
+    | cnp | Nanning Pinghua | 33 | ˦˨ | — |
+    | cpx | Putian | 453 | ˦˩ | Putian's 陰去 (42) |
+    | mnp | Jian'ou | 21 | ˧˧ | Jian'ou's 陰去 (33) |
+    | nan_qz | Quanzhou | 554 | ˧˥ on 狗火好手 | — (土 屎 水 were already ˥˥) |
+    | hsn_hy | Hengyang | 33 | ˥˩ | — |
+
+    In each case the row's own 土 was the single dissenting cell and the single correct one. 34 cells
+    changed; the advisory count went 74 → 65. Three smaller rows fixed the other way round, where the
+    majority was right and 土 was the outlier: cjy_xz 土 → ˥˧ (Xinzhou tʰu⁵³ verified), cjy_lv 土 and
+    好 → ˥˧, gan_ja 土 → ˨˩˧.
+
+    One segment changed as well as a tone: `mnp` 水 sui˧˧ → **sy˨˩**, because Wiktionary gives Jian'ou
+    水 as /sy²¹/ outright and the row's own 土 tʰu˨˩ is that lect letter for letter, so the whole cell
+    was taken rather than half of it.
+
+    **Still open in these rows.** `czh` (Hui) was deliberately skipped: its 二 ˩ matches Tunxi, but
+    Wiktionary gives Tunxi 上聲 31 and Shexian 35, and the row writes ˦˦ on six cells and ˨˩˧ on 土 —
+    neither value belongs to either point, so the row may be a third Hui lect and needs identifying
+    first. `hsn_hy` still has 樹 ˥˩ against 二 ˧˧, and Wiktionary's Hengyang 樹 is 213, which is a
+    third value again.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

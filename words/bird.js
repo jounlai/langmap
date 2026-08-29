@@ -883,7 +883,7 @@ WORDS.bird = {
 
     // --- Sinitic — 鸟 read with the 泥母 initial, so the tone is the lower 上聲
     gan_ja: ["鸟", "ȵiau˨˩˧"],
-    hsn_hy: ["鸟", "niau˥˩"],
+    hsn_hy: ["鸟", "niau˧˧"],
     hsn_yz: ["鸟", "niau˨˩"],
 
     // --- Europe — Megleno-Romanian keeps Latin pullus, the Norman lects keep avicellus

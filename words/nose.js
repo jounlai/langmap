@@ -700,6 +700,11 @@ WORDS.nose = {
     xkz: ["na", "na"],
     kac: ["ladi", "ladi"],
     tsj: ["nawung", "nawuŋ"],
+    atb: ["no", "no˥˩"],
+    yiz: ["nɯbɯ", "nɯ˧˧bɯ˨˩"],
+    nxq: ["nyimer", "ɲi˥˥mɚ˨˩"],
+    njo: ["teni", "teni"],
+    nzm: ["mineu", "mineu"],
     // --- Austronesian — PMP *ijuŋ in the west, *ŋusuq in Taiwan ----------
     agt: ["igung", "iɡuŋ"],
     gay: ["iung", "iuŋ"],
@@ -715,6 +720,9 @@ WORDS.nose = {
     sda: ["illong", "ilːoŋ"],
     ljp: ["irung", "iʁuŋ"],
     ckv: ["unung", "unuŋ"],
+    mak: ["ka'muru", "kaʔˈmuru"],
+    tao: ["momodan", "momodan"],
+    pau: ["iis", "iːs"],
     gor: ["wulingo", "wuliŋo"],
     bug: ["inge'", "iŋəʔ"],
     nia: ["ikhu", "ixu"],
@@ -729,6 +737,10 @@ WORDS.nose = {
     emi: ["ngusu", "ŋusu"],
     gil: ["bwairi", "bʷairi"],
     pon: ["tumwe", "tumʷe"],
+    chk: ["pwéét", "pʷeːt"],
+    woe: ["booti", "boːti"],
+    enq: ["lyaa", "ʎaː"],
+    mkz: ["murikai", "murikai"],
     // --- Bantu — the *-jʊdʊ noun, carrying each row's own class prefix --
     // The prefix is read off that row's own 'eye': class 5 li-/di-, 9 N-.
     suk: ["lyulu", "ljulu"],
@@ -770,6 +782,9 @@ WORDS.nose = {
     bom: ["wol", "wol"],
     tiv: ["hinga", "hiŋɡa"],
     ets: ["isue", "isue"],
+    bin: ["ihue", "ihue"],
+    mev: ["nyu", "ɲu"],
+    dbq: ["mìcin", "mìtʃin"],
     // --- Cushitic *san- and Semitic *ʔanf- -----------------------------
     ssy: ["san", "san"],
     sid: ["sano", "sano"],
@@ -825,6 +840,8 @@ WORDS.nose = {
     cjs: ["пурун", "purun"],
     qxq: ["burun", "buˈrun"],
     kim: ["хаай", "xaːj"],
+    mjg: ["xavar", "xawar"],
+    yuy: ["хавар", "χawar"],
     // --- Iranian, Indic, and the isolate next door ----------------------
     bal: ["پونز", "poːnz"],
     glk: ["دماغ", "dəmaɣ"],
@@ -842,6 +859,7 @@ WORDS.nose = {
     kru: ["मुई", "mui"],
     brh: ["بموس", "bamus"],
     kxv: ["mungeli", "muŋɡeli"],
+    kfa: ["ಮೂಕ್ಕ", "muːkːə"],
     // --- Europe — more Germanic, Ligurian, Latgalian --------------------
     wae: ["Nasu", "ˈnaːsu"],
     gsw_w: ["Nase", "ˈnaːsə"],
@@ -861,6 +879,8 @@ WORDS.nose = {
     // --- Kra-Dai --------------------------------------------------------
     shn: ["ၶူႈလင်", "kʰuː laŋ"],
     khb: ["ᦡᧂ", "daŋ"],
+    tyz: ["đang", "ʔdaŋ˧˧"],
+    pll: ["kɔŋmuh", "kɔŋmuh"],
     // --- Pama-Nyungan — mulya across the Western Desert, ŋurru in Arnhem
     wbp: ["mulyu", "muʎu"],
     piu: ["mulya", "muʎa"],
@@ -868,6 +888,11 @@ WORDS.nose = {
     mpj: ["mulya", "muʎa"],
     aer: ["alhe", "al̪ə"],
     djr: ["ŋurru", "ŋuru"],
+    wrh: ["muurruu", "muːruː"],
+    nys: ["moolya", "muːʎa"],
+    nha: ["muttha", "mut̪a"],
+    wmt: ["punul", "ˈpunul"],
+    dbl: ["guwu", "ˈɡuwu"],
     // --- Nilotic and Songhay -------------------------------------------
     nus: ["wum", "wum"],
     anu: ["wum", "wum"],
@@ -902,6 +927,7 @@ WORDS.nose = {
     mus: ["yopo", "jopo"],
     cic: ["ibichchala'", "ibitʃːalaʔ"],
     tar: ["aká", "aka"],
+    pao: ["mupi", "muβi"],
     // --- Central and South America -------------------------------------
     cuk: ["asu", "asu"],
     cab: ["igiri", "iɡiɾi"],
@@ -911,6 +937,7 @@ WORDS.nose = {
     jqr: ["nasa", "nasa"],
     yan: ["nantak", "nantak"],
     bor: ["eno", "eno"],
+    gun: ["xĩ", "tʃĩ"],
     // --- Creoles, pidgins, and Khoekhoe --------------------------------
     bzj: ["nuoz", "nuoz"],
     rcf: ["né", "ne"],

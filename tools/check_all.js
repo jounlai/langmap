@@ -329,6 +329,13 @@ line('language-name coverage', num(s, /violations: (\d+)/));
 // 魚 名 鹽 all said ˨˦, and fifteen `orange` cells carried Beijing's 陽平 ˧˥ into
 // rows whose 陽平 is something else entirely. Both fixed; the rest of what it
 // found is carried as debt inside the tool so new drift still fails.
+// A route-coloured word must route every language it has a word for. Written
+// 2026-08-29 after the same mistake twice in an afternoon: 76 tea rows and 77
+// n99 rows added with cells and no `family` entry, which does not error — the
+// language just stops being drawn in a colour. Found two more the moment it ran.
+s = run('route_coverage_check.js --check');
+line('route colouring complete', num(s, /violations: (\d+)/));
+
 s = run('sinitic_tone_class_check.js --check');
 line('Sinitic tone class per row', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} stale debt entries` : '');
 

@@ -223,6 +223,64 @@ WORDS.iron = {
     ayl: ["حديد", "ħadiːd"],
     arq: ["حديد", "ħadiːd"],
 
+    // --- Caucasus — three families, three unrelated words ------------------
+    ce: ["эчиг", "etʃiɡ"],
+    inh: ["аьшк", "æʃk"],
+    av: ["махх", "maxː"],
+    lez: ["ракь", "raqʼ"],
+    dar: ["мегь", "meh"],
+    agx: ["рукь", "ruqʼ"],
+    tab: ["рукь", "ruqʼ"],
+    lbe: ["мах", "max"],
+    aqc: ["лацут", "ˈlatsut"],
+    ady: ["гъучӏы", "ʁʷətʃʼə"],
+    kbd: ["гъущӏ", "ʁʷəɕʼ"],
+    ab: ["аиха", "aixa"],
+    xmf: ["რკინა", "rkʼina"],
+    lzz: ["ერკინა", "erkʼina"],
+    sva: ["ბერეჟ", "bereʒ"],
+
+    // --- Baltic — *gelž-, the Slavic word's own cousin ---------------------
+    prg: ["gelso", "ˈɡelso"],
+    sgs: ["gelžis", "ˈɡʲɛlʒʲɪs"],
+    ltg: ["dzeļzs", "dzʲeʎzs"],
+
+    // --- More Romance, and the rest of Indo-Iranian -----------------------
+    ext: ["hierru", "ˈhjeru"],
+    fax: ["ferru", "ˈferu"],
+    mwl: ["fierro", "ˈfjɛru"],
+    lld: ["fer", "fɛr"],
+    ruq: ["ier", "jer"],
+    egl: ["fèr", "fɛr"],
+    fra_jer: ["fé", "fe"],
+    wym: ["ajza", "ˈajza"],
+    ave: ["𐬀𐬌𐬌𐬀𐬢𐬵", "ajaŋh"],
+    tly: ["osın", "osɨn"],
+    as: ["লোহা", "luɦa"],
+    haj: ["luha", "luɦa"],
+    kok: ["लोक्कंड", "lokːəɳɖ"],
+    brh: ["اهین", "aːhin"],
+    bsk: ["ćhumár", "tʂʰumar"],
+
+    // --- The Americas — a word that arrived with the ships ----------------
+    chr: ["ᏔᎷᎩᏍᎩ", "taluɡisɡi"],
+    chy: ["ma'aata", "maʔaːta"],
+    cr: ["ᐱᐚᐰᐢᐠ", "piwaːpeːsk"],
+    oj: ["biiwaabik", "biːˈwaːbik"],
+    nv: ["béésh", "péːʃ"],
+    ik: ["saviksraq", "savikʐaq"],
+    kl: ["savimineq", "savimineq"],
+    yua: ["máaskab", "maːskab"],
+    kgp: ["kyfé", "kɨfe"],
+
+    // --- Elsewhere ---------------------------------------------------------
+    ko_jeju: ["쒜", "s͈we"],
+    oko: ["薩", "*so"],
+    lus: ["thîr", "tʰiːr"],
+    ksw: ["ထး", "tʰa"],
+    khb: ["ᦵᦜᧅ", "lek"],
+    mpj: ["yayinpa", "jajinpa"],
+
     // --- Japonic, Koreanic — the Sino word 鐵 borrowed twice --------------
     ja_osa: ["鉄", "tetsɯ"],
     ja_kyo: ["鉄", "tetsɯ"],

@@ -308,7 +308,7 @@ WORDS.star = {
       qu: ["quyllur", "ˈqojʎʊr"],
       zh_db: ["星星", "ɕiŋ˦ɕiŋ"],
       zh_sc: ["星星", "ɕin˥ɕin"],
-      cdo: ["星", "saŋ˥"],
+      cdo: ["星", "saŋ˦˦"],
       bo: ["སྐར་མ", "karma˥"],
       bft: ["སྐར་མ", "skarma"],
       lbj: ["སྐར་མ", "skarma"],

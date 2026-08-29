@@ -657,6 +657,7 @@ WORDS.five = {
     men: ["lɔɔlu", "lɔːlu"],
     dyu: ["lóoru", "loːru"],
     sus: ["suuli", "suːli"],
+    bbo: ["kʋ", "kʊ̄"],
     syl: ["পাঁচ", "faːs"],
     rhg: ["fañs", "fãs"],
     mag: ["पाँच", "pãːtʃ"],

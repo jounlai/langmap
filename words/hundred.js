@@ -647,6 +647,7 @@ WORDS.hundred = {
     kao: ["keme", "keme"],
     dyu: ["kɛmɛ", "kɛ̀mɛ́"],
     sus: ["kɛmɛ", "kɛmɛ"],
+    bbo: ["jɔlɩ", "ɟɔ̄lɪ̀"],
     tem: ["kɛmɛ", "kɛmɛ"],
     snk: ["kame", "kãme"],
     men: ["hɔndo", "hɔ́ndo"],   // from English hundred

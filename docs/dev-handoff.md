@@ -495,5 +495,34 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     comment that explains why something is missing becomes a lie the moment the thing is supplied, and
     nothing checks prose against data.
 
+40. **`bbo` (Northern Bobo Madaré / Konabéré) is a mixed row — roughly two thirds of it is Bambara.**
+    Found while filling `four`: a cell written as *naani* was inferred from the row's own
+    `one`/`two`/`three` (kelen, pla, saba), and Chan's actual Konabéré doculect — collected by
+    Wilma Wolthuis of SIL, for this exact ISO code — reads `tálɪ̄ / pálà / sǎ / nìã̄`. Only the *two*
+    matched.
+
+    Cross-checking against ASJP's Southern Bobo Madaré (`bwq`, the nearest relative with a wordlist)
+    separates the row cleanly in two:
+
+    | genuinely Bobo | Bambara sitting in a Bobo row |
+    |---|---|
+    | two *pla* (ASJP `pEla`), bone *wuo* (`wono`), tooth *nyineno* (`5ini`), tongue *nyenu* (`nio`), night *wuru* (`wuru`) | one *kelen*, three *saba*, water *ji*, fish *jɛgɛ*, eye *ɲɛ*, hand *bolo* (ASJP `soro`), tree *yiri* (`sono`), fire *ta* (`togo`), sun *tile* (`si`), drink *min* (`mEnE`), plus heart *dusu*, moon *kalo*, house *so*, name *to*, good *ɲuman*, red *bilen*, thanks *baraka*, and all three pronouns |
+
+    Every entry in the right-hand column is letter-for-letter the Bambara word. Someone appears to have
+    filled the gaps in a partial Bobo list from Bambara, which is a plausible thing to do by accident:
+    both are Mande, and Jula/Bambara is the lingua franca of Bobo-Dioulasso.
+
+    **Fixed so far** from Chan/Wolthuis: `one` kelen → *talɩ*, `three` saba → *sǎ*, and `five` *kʋ* and
+    `hundred` *jɔlɩ* added. `four` is left out on purpose — Chan's *nìã̄* has a nasal vowel and this
+    row's orthography does not show how it writes one.
+
+    **Still open**: the ~20 remaining Bambara cells. They cannot be fixed from Chan, which is numerals
+    only. The real source is the *Dictionnaire konabéré* on webonary.org (≈7,500 entries,
+    Konabéré–French with a French reversal index), which returns HTTP 403 to WebFetch — it needs a
+    browser session, or SIL's *Esquisse phonologique du bobo madaré nord (konabéré)*. Until then the
+    row should be treated as unreliable and NOT used to calibrate anything else. Note the orthography
+    evidence while you are there: the dictionary's own introduction spells the people *Kʋnakʋma*, so
+    the language writes ʋ, and by the same alphabet ɩ — which is what the four repaired cells assume.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

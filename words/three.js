@@ -839,7 +839,7 @@ WORDS.three = {
     vai: ["sakpa", "sakpa"],
     tem: ["pə-sas", "pəsas"],
     dyu: ["saba", "saba"],
-    bbo: ["saba", "saba"],
+    bbo: ["sa", "sǎ"],
     spp: ["taanre", "taːnre"],
     sus: ["sakhan", "saxan"],
     syl: ["ꠔꠤꠘ", "t̪in"],

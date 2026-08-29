@@ -547,5 +547,34 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     a pass. `gan_yc` has a smaller version of the same problem: its 二 is ˨˩ while 树, 四 and 爱 are
     ˨˩˥ and all four are 去聲.
 
+42. **`hai` (Haida) tree: resolved — it was `ginn`, and it should be ḵʼíit.** Handoff 35 flagged this
+    cell as unverified. Wiktionary's Haida Swadesh list (X̲aad Kíl) gives TREE as *k̲'íit* and FISH as
+    *chíin* — and the row's own `fish` is already *chíin*, letter for letter, so the list and the row
+    are describing the same variety. `ginn` looks like Haida *gina* 'thing, something' picked up from
+    a gloss. Fixed to `ḵʼíit /qʼiːt/`, with U+02BC for the ejective to match the row's own tooth
+    *tsʼang* and tongue *tʼáng̱al*.
+
+    **Two more cells in the same row that a Haida source should settle**, noticed while doing it and
+    NOT changed: `sun` *t'áaw /tʰɑːw/* and `snow` *t'a'áaw /tʼaʔɑːw/* are the same word with a glottal
+    stop inserted, which is the shape a mis-parse takes; and the `sun` cell writes an ejective in the
+    surface and a plain aspirate in the IPA, so at least one of its two halves is wrong regardless.
+    The row also mixes U+02BC and ASCII apostrophes for the ejective.
+
+43. **The 上/去 advisory list is the work queue now.** `node tools/sinitic_tone_class_check.js --wide`
+    prints it; it was 114 when written, 89 after excluding the four kinds of unreliable witness, and
+    74 after the 樹/二 pass. What is left, in order of how likely it is to be a real error:
+
+    - **土 against the rest of 陰上, in eight rows** (cjy_lv, cjy_xz, cnp, cpx, czh, gan_ja, mnp,
+      nan_qz and more). Worth doing next. Note cpx may be the hak_cn case again — Putian 上聲 is 453
+      and the row writes 土 ˦˥˧ while six other 陰上 cells say ˦˩, which is Putian's 陰去. If so the
+      majority is wrong and 土 is the only correct cell in the class.
+    - **The Wu 二 cluster.** 二 reads ˩˧ in Ningbo, Suzhou, Wenzhou and Jinhua alike — the signature
+      of one source used across a whole family — but every one of those lects has a different 陽去,
+      and Wiktionary's 樹 disagrees with the row's in three of the four. Needs a real Wu source, not
+      a transfer from a neighbour.
+    - **Min 狗 and 好 at ˧˥ where the row's other 陰上 is ˥˧.** That is the sandhi form of 陰上, not a
+      second tone. Probably correct data recorded in the wrong register rather than a wrong tone;
+      decide the policy before touching any of them.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

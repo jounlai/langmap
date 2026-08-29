@@ -96,7 +96,7 @@ WORDS.tree = {
       ono: ["ga:enda'", "ɡaːendaʔ"],
       win: ["nąįžą", "nɐ̃ɪ̃ˈʒɐ̃"],
       cro: ["bashée", "baʃe"],
-      hai: ["ginn", "ɡɪn"],
+      hai: ["ḵʼíit", "qʼiːt"],
       cic: ["itti'", "itːiʔ"],
       ik: ["napaaqtaq", "napaːqtaq"],
       na: ["—", "—"],

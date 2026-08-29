@@ -94,6 +94,11 @@ for (const h of hits) {
 const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 
 // ---- ratchet ----
+// 2026-08-29, second update: accepts li veer = four + we. South Limburgish has
+// a set of pronouns ending in -r that no other Dutch variety has — heer, veer,
+// geer — so its 'we' is veer, and its 'four' is veer as well (Dutch vier with
+// the regular i > eː). Verified against Van Hout, "Limburgse voornaamwoorden".
+// Genuine homophony, like the Tibeto-Burman ŋa set above.
 // Lock updated 2026-08-29 to accept five more Tibeto-Burman *ŋa collisions —
 // blk, lif, lis (twice) and tsj, where five, fish and 'I' are genuinely the
 // same syllable. The lock already carried exactly this for my, rki, obr, lhu

@@ -20,8 +20,9 @@
  * East Asia runs an unrelated layer, 百, inherited into every Sinoxenic reading; Middle Korean had
  * its own native 온 for 100 before 백 replaced it, and Old Japanese momo survives only in compounds.
  *
- * No vi_nom cell: Chữ Nôm writes trăm as 𤾓 (U+24F93), outside the self-hosted NomNaTong subset, so
- * it would render as tofu. Several tone-uncertain Sinitic and Tai rows are left blank on purpose.
+ * The vi_nom cell was blank at first because 𤾓 (U+24F93) is outside the self-hosted NomNaTong
+ * subset and would have been tofu on iPhone. That was fixed on 2026-08-29 by rebuilding the subset
+ * from Hanazono Mincho B rather than by leaving the data short, so the cell is there now.
  */
 WORDS.hundred = {
   emoji: "💯",

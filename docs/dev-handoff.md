@@ -478,5 +478,22 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     scratchpad and destroyed earlier scratch files, and a third left three dataset dumps (23 MB) in the
     repo root. Both were cleaned up. Scratch belongs in `~/langmap-work/`, never in the repo.
 
+38. **`atb` Zaiwa hundred: escalated by the `hundred` agent, decided NOT to add.** Chan gives Zaiwa
+    100 as `ʃo⁵¹`, which is letter-for-letter and tone-for-tone this row's own **tongue** `sho /ʃo˥˩/`.
+    The agent removed its own cell rather than touch the dup lock, and asked whether the two are
+    genuinely homophonous.
+    **They are probably not, and Chan's Zaiwa doculect is probably not this row.** Two independent
+    reasons: (a) Chan's own `200` is `i⁵⁵ʃo⁵¹`, so its "two" is *i⁵⁵*, while this row's `two` is
+    `ngiq /ŋiʔ˥/` — the doculect fails calibration on a basic numeral. (b) Burmish 100 continues
+    *r-ya, and this row shows r- going to ʒ (its `one` is `ra21 /ʒa˨˩/`), so a Zaiwa hundred should
+    begin ʒ-, not ʃ-. Left empty. If someone with a Zaiwa source can settle it, the cell and possibly
+    the row's `tongue` are both in play.
+
+39. **Fixed: `words/hundred.js` said "No vi_nom cell" in its header while carrying one.** The cell was
+    genuinely absent when the header was written, then added the same day once the Nôm font was
+    rebuilt, and the prose was not updated with it. Corrected. Worth remembering as a shape: a header
+    comment that explains why something is missing becomes a lie the moment the thing is supplied, and
+    nothing checks prose against data.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

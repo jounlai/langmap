@@ -51,6 +51,12 @@ const WORD_ORDER = [
     "two",
     "three",
   "four",
+  "daughter",
+  "iron",
+  "wheel",
+  "salt",
+  "milk",
+  "wine",
     "five",
     "n99",
     // greetings & quality

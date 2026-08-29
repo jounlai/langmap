@@ -224,7 +224,7 @@ const I = m => infos.push(m);
 // Pinned deliberately: adding a concept means touching word_manifest.js,
 // words/<id>.js, word_labels.js and lang_words/, and this is the check that
 // fails if the manifest was edited without the rest following.
-const EXPECTED_WORDS = 58;
+const EXPECTED_WORDS = 64;
 if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== EXPECTED_WORDS) {
     E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected ${EXPECTED_WORDS})`);
 }
@@ -241,7 +241,7 @@ const PARTIAL_WORD_IDS = new Set(WORD_IDS.filter(id => ctx.WORDS && ctx.WORDS[id
 // per word) rather than a hard error, so a work-in-progress core word does not
 // block the pre-commit guard. Remove an id from this set once it is fully
 // covered; a later coverage regression is then a hard error again.
-const FILLING_IN = new Set(['ear', 'rain', 'wind', 'earth', 'snow', 'stone', 'nose', 'bird', 'egg', 'sleep', 'white', 'five', 'black', 'four']);
+const FILLING_IN = new Set(['ear', 'rain', 'wind', 'earth', 'snow', 'stone', 'nose', 'bird', 'egg', 'sleep', 'white', 'five', 'black', 'four', 'daughter', 'iron', 'wheel', 'salt', 'milk', 'wine']);
 const fillingMissing = {};
 
 // ---- 2-4. Per-language word-entry checks --------------------------------

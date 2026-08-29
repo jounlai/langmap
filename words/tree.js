@@ -1153,7 +1153,7 @@ WORDS.tree = {
     ssf: ["lhalum", "ʎalum"],
     hak_tw: ["樹仔", "su˥ e˧˩"],
     wuu_sz: ["树", "zʮ˨˧˩"],
-    wuu_wz: ["树", "zɿ˧˩"],
+    wuu_wz: ["树", "zɿ˨˨"],
     nan_qz: ["樹", "tsʰiu˦˩"],
     nan_hai: ["树", "tsʰi˨˨"],
     zh_wh: ["树", "ɕy˧˥"],

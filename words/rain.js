@@ -799,7 +799,7 @@ WORDS.rain = {
     zh_lz: ["雨", "y˦˦˨"],
     zh_cq: ["雨", "y˦˨"],
     zh_km: ["雨", "y˥˧"],
-    zh_kf: ["雨", "y"],
+    zh_kf: ["雨", "y˥˧"],
     yue_gz: ["雨", "jy˩˧"],
     cic: ["oba", "oba"],
     win: ["nįžú", "nĩʒu"],
@@ -819,7 +819,7 @@ WORDS.rain = {
     lrc: ["بارون", "bɑːrun"],
     hno: ["مینہ", "mĩː"],
     cjy_lv: ["雨", "y˥˧"],
-    cjy_xz: ["雨", "y"],
+    cjy_xz: ["雨", "y˥˧"],
     czh_wy: ["雨", "y˧˩"],
     nan_hai: ["雨", "ho˨˩"],
 

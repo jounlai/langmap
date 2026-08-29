@@ -671,5 +671,35 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     and rows with no Wiktionary point — gan_fz, gan_yc, hsn_yz, czh, yue_ts. Those need per-lect
     sources rather than another fetch.
 
+49. **Toneless Sinitic cells: 54 → 17.** `tools/sinitic_tone_present_check.js` has been telling us for
+    days to "restore each from the row's own cells of the same tone class". `~/langmap-work/toneless.js`
+    does exactly that mechanically — for every locked cell it prints the row's OWN single-character
+    cells of the same 調類 — and 37 of the 54 turned out to be decidable that way.
+
+    **五, 卵, 鼻, 雨 (16 cells)** were straightforward: two or more witnesses of the same class agreeing
+    inside the row. Pronouns were not counted as witnesses, per the same policy the class checker uses.
+
+    **雪 (21 cells)** needed the 清入 rule for each Mandarin group, because 雪 and 血 diverged in
+    Beijing (xuě vs xuè) and neither one is a proxy for the other:
+
+    - **Southwestern** (zh_cd, zh_cq, zh_sc, zh_wh, zh_km): 清入 → 陽平, exceptionless. Every one of
+      those rows already had 血, 百 and 铁 on the 陽平 contour and 喝, 吃 and 一 somewhere else.
+    - **Beijing-type** (zh_db, zh_tj): 雪, 百 and 铁 are all 上聲 in Mandarin, so 雪 takes whatever the
+      row writes for 百 — ˨˩˦ and ˩˧ respectively.
+    - **Lanyin** (zh_lz): 清入 → 去聲, which is the rule handoff 41 already established for that row.
+    - **Zhongyuan** (zh_xa, zh_zz): 清入 → 陰平.
+    - **Yue** (yue_dg, yue_nn, yue_zs): 陰入 splits by vowel length, and 雪 *syut3* is long, so it
+      patterns with the row's 血 and 铁 (˧) and not with its 骨, 屋 and 一 (˥). The clearest case of
+      the lot — the rows already showed both halves of the split.
+    - Rows where every 陰入 witness agreed (czh, hsn, zh_hf, zh_jh, zh_jn, zh_kf, zh_nj, mnp) just took
+      that value.
+
+    **17 left, and 13 of them are `white` 白.** Deliberately not done. Each row has at most one 陽入
+    witness, and worse, the witnesses are themselves suspect: 舌 reads ˩˨ in Hangzhou, Jinhua, Jiaxing
+    AND Ningbo Wu, and 白 reads /bɐʔ/ in all four — one value copied across four different lects. And
+    `gan` writes 舌 ˥ where Nanchang 陽入 is 21 and ˥ is its 陰入. Filling 白 from those would propagate
+    the copy rather than fix anything. The remaining four are cjy_xz 雪 and czh_wy 雪 (both rows split
+    their 陰入 witnesses two ways), cdo 五 and gan_fz 鸟.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

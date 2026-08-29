@@ -345,6 +345,13 @@ line('no new intra-row duplicate', num(s, /violations: (\d+)/), num(s, /stale: (
 s = run('route_coverage_check.js --check');
 line('route colouring complete', num(s, /violations: (\d+)/));
 
+// A tonal row must not drop its Chao letters. 145 single-character cells had
+// none — 五 in half the Min rows, 雪 across a dozen, 鳥 and 风 the same — which
+// no other guard could see, because a missing tone is not a wrong tone. 79 were
+// restored from each row's own cells of the same 調類; the rest are frozen.
+s = run('sinitic_tone_present_check.js --check');
+line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} lock entries stale` : '');
+
 s = run('sinitic_tone_class_check.js --check');
 line('Sinitic tone class per row', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} stale debt entries` : '');
 

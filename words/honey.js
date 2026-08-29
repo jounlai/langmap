@@ -409,5 +409,182 @@ WORDS.honey = {
     arq: ["عسل", "ʕsəl"],
     en_jam: ["honey", "ˈhʌni"],
     vi_nom: ["蜜螉", "mət˨˩ ɔŋ˧"],
+
+    // --- Romance and Albanian — Latin mel, and *mélit in Albanian ----------
+    it_dan: ["miele", "ˈmjɛːle"],
+    lmo: ["mel", "mɛl"],
+    pms: ["amel", "aˈmɛl"],
+    lld: ["mel", "mɛl"],
+    egl: ["mêl", "meːl"],
+    frp: ["mièl", "mjɛl"],
+    pcd: ["miel", "mjɛl"],
+    fax: ["mel", "mɛl"],
+    mwl: ["mel", "mɛl"],
+    rup: ["njari", "ˈɲari"],
+    kea: ["mel", "mɛl"],
+    pt_gw: ["mel", "mɛl"],
+    cbk: ["miel", "mjel"],
+    // The French creoles agglutinate the partitive: du miel became one noun.
+    crs: ["dimyel", "dimjɛl"],
+    mfe: ["dimiel", "dimjɛl"],
+    // In Haitian myèl alone is the BEE (from mouche à miel), so the substance
+    // needs siwo 'syrup' in front of it.
+    ht: ["siwo myèl", "siwo mjɛl"],
+    aln: ["mjaltë", "mjalt"],
+    aae: ["mjaltë", "ˈmjaltə"],
+
+    // --- Germanic — the third word, and the -ig that Austria says as -ik ----
+    gmh: ["honec", "ˈhonɛk"],
+    de_lut: ["Honig", "ˈhoːnɪk"],
+    de_at: ["Honig", "ˈhoːnɪk"],
+    de_ch: ["Honig", "ˈhoːnɪk"],
+    de_lu: ["Honig", "ˈhoːnɪç"],
+    nds: ["Honnig", "ˈhɔnɪç"],
+    lb: ["Hunneg", "ˈhunəç"],
+    nl_be: ["honing", "ˈhoːnɪŋ"],
+    fo: ["hunangur", "ˈhuːnaŋɡʊɹ"],
+    pdc: ["Hunnich", "ˈhʊnɪç"],
+    pdt: ["Honnich", "ˈhɔnɪç"],
+
+    // --- Indo-Aryan and Iranian ------------------------------------------
+    // Punjabi took the Perso-Arabic šahd; Odia and Assamese keep *médʰu; Pashto
+    // šāt is neither, an inherited Iranian word of its own.
+    pa: ["ਸ਼ਹਿਦ", "ʃəɦəd"],
+    or: ["ମହୁ", "mɔɦu"],
+    as: ["মৌ", "mɔu"],
+    dv: ["މާމުއި", "maːmui"],
+    ps: ["شات", "ʃɑt"],
+    rmy: ["avdžin", "avdʒin"],   // Romani took the Persian angubīn, not madhu
+
+    // --- Uralic — *mete again, and the Scandinavian loan in Sámi ----------
+    olo: ["mezi", "ˈmezi"],
+    krl: ["mesi", "ˈmesi"],
+    vot: ["mesi", "ˈmesi"],
+    vro: ["mesi", "ˈmesi"],
+    liv: ["mež", "mɛʒ"],
+    mrj: ["мӱ", "my"],
+    mdf: ["медь", "medʲ"],
+    udm: ["чечы", "tʃetʃɨ"],
+    koi: ["ма", "ma"],
+    kca: ["мав", "maw"],
+    mns: ["ма̄г", "maːɣ"],
+    ohu: ["mēz", "meːz"],
+    // fit and fkv follow Finnish, where mesi narrowed to 'nectar'.
+    fit: ["hunaja", "ˈhunɑjɑ"],
+    fkv: ["hunaja", "ˈhunɑjɑ"],
+    // Northern Sámi borrowed the Scandinavian word instead; its eastern
+    // neighbours kept the *mete one.
+    se: ["honnet", "ˈhonnet"],
+    smj: ["meda", "ˈmeda"],
+    smn: ["mietâ", "ˈmietɐ"],
+
+    // --- Turkic, Mongolic, Tungusic ---------------------------------------
+    xal: ["бал", "bal"],
+    mn_cn: ["ᠪᠠᠯ", "bal"],
+    cmg: ["ᠪᠠᠯ", "bal"],
+    mnc: ["ᡥᡳᠪᠰᡠ", "xibsu"],
+
+    // --- The Caucasus, where every valley has its own root -----------------
+    // Avar-Andic and Tsezic share *nVc'-; Lezgic has *it-; Nakh has *moz.
+    av: ["гьоцӏцӏо", "hotsʼːo"],
+    ani: ["гьунцӏцӏи", "huntsʼːi"],
+    ddo: ["нуци", "nutsi"],
+    khv: ["нуца", "nutsa"],
+    huz: ["нуцу", "nutsu"],
+    dar: ["варъа", "warʔa"],
+    lbe: ["ницӏ", "nitsʼ"],
+    aqc: ["имцӏ", "imtsʼ"],
+    lez: ["вирт", "virt"],
+    tab: ["йиччв", "jitʃːv"],
+    tkr: ["итв", "itʷ"],
+    rut: ["ит", "it"],
+    agx: ["уьтт", "ytː"],
+    bdk: ["йит", "jit"],
+    kry: ["yit", "jit"],
+    kjj: ["нуьцӏ", "nytsʼ"],
+    ce: ["моз", "moz"],
+    inh: ["модз", "modz"],
+    bbl: ["მოცʼ", "motsʼ"],
+    ab: ["ацха", "atsxa"],
+    ady: ["шъоу", "ʂʷəw"],
+    kbd: ["фо", "fʷa"],
+
+    // --- Semitic, Cushitic, Berber ----------------------------------------
+    oar: ["דבשא", "debʃaː"],
+    tig: ["መዓር", "mɐʕar"],
+    mey: ["عسل", "ʕasal"],
+    aa: ["malab", "malab"],
+    ssy: ["malab", "malab"],
+    tzm: ["ⵜⴰⵎⵎⵏⵜ", "tamːnt"],
+    shy: ["tament", "tamənt"],
+    dbq: ["ɓùɓum", "ɓùɓum"],
+
+    // --- Sinitic 蜂蜜 — one compound, and 蜜 sorted by its 入聲 class ------
+    // 蜂 is the homophone of 风, so each row's 陰平 carries it. 蜜 was 次濁入:
+    // it went to 去聲 in the northern lects, to 陽平 in the southwestern ones
+    // (which sent the whole 入聲 there), to 陰平 in Zhongyuan, and stayed a
+    // checked syllable in Jianghuai.
+    zh_jn: ["蜂蜜", "fəŋ˨˩˧ mi˨˩"],
+    zh_tj: ["蜂蜜", "fəŋ˨˩ mi˥˩"],
+    zh_db: ["蜂蜜", "fɤŋ˥ mi˥˩"],
+    zh_hf: ["蜂蜜", "fəŋ˨˩˨ miʔ˦"],
+    zh_nj: ["蜂蜜", "fən˧˩ miʔ˥"],
+    zh_jh: ["蜂蜜", "fə̃˧˩ miʔ˥˥"],
+    zh_cq: ["蜂蜜", "foŋ˥ mi˨˩"],
+    zh_cd: ["蜂蜜", "foŋ˥˥ mi˨˩"],
+    zh_sc: ["蜂蜜", "foŋ˥˥ mi˨˩"],
+    zh_wh: ["蜂蜜", "foŋ˥˥ mi˨˩˧"],
+    zh_km: ["蜂蜜", "fə̃˦˦ mi˧˩"],
+    zh_kf: ["蜂蜜", "fəŋ˨˦ mi˨˦"],
+    zh_zz: ["蜂蜜", "fəŋ˨˦ mi˨˦"],
+    zh_xa: ["蜂蜜", "fəŋ˨˩ mi˨˩"],
+    // Min Nan reads 蜂 with the colloquial phang, not the literary hong.
+    nan: ["蜂蜜", "pʰaŋ˥ bit˦"],
+    nan_xm: ["蜂蜜", "pʰaŋ˥˥ bit˦"],
+    nan_qz: ["蜂蜜", "pʰaŋ˧˧ bit˨˦"],
+
+    // --- Japonic and Koreanic ---------------------------------------------
+    ja_kyo: ["蜂蜜", "hatɕimitsɯ"],
+    ja_osa: ["蜂蜜", "hatɕimitsɯ"],
+    ja_hak: ["蜂蜜", "hatɕimitsɯ"],
+    ja_hir: ["蜂蜜", "hatɕimitsɯ"],
+    ja_aom: ["蜂蜜", "hatɕimitsɯ"],
+    ja_sd: ["蜂蜜", "hatɕimitsɯ"],
+    ko_bus: ["꿀", "k͈ul"],
+    ko_jl: ["꿀", "k͈ul"],
+    ko_hg: ["꿀", "k͈ul"],
+    ko_yb: ["꿀", "k͈ul"],
+    ko_jeju: ["꿀", "k͈ul"],
+
+    // --- Mainland Southeast Asia — the water of the bee --------------------
+    lo: ["ນ້ຳເຜິ້ງ", "naːm˥˩ pʰɤŋ˥˩"],
+    th_n: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
+    th_s: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
+    th_isan: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
+    vi_s: ["mật ong", "mək˨˩˨ ɔŋ˧"],
+
+    // --- Pacific and the Philippines ---------------------------------------
+    // Two more Pacific reflexes of the mel/méli family, carried in by mission
+    // contact, beside Tongan hone straight from English.
+    mi: ["miere", "ˈmiere"],
+    rap: ["meri", "meɾi"],
+    to: ["hone", "hone"],
+    ceb: ["dugos", "duˈɡos"],
+    hil: ["dugos", "duˈɡos"],
+    war: ["dugos", "duˈɡos"],
+
+    // --- The Americas -------------------------------------------------------
+    guc: ["mapa", "mapa"],
+    car: ["wano", "wano"],
+    ote: ["t'afi", "tʼafi"],
+
+    // --- Africa — Bantu *-jókì again, and Manding li -----------------------
+    rn: ["ubuki", "ubuki"],
+    tum: ["uchi", "utʃi"],
+    ts: ["vulombe", "vulombe"],
+    umb: ["owiki", "owiki"],
+    emk: ["li", "li"],
+    mnk: ["liyo", "lijo"],
+    ak: ["ɛwoɔ", "ɛwoɔ"],
   },
 };

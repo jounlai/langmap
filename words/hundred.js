@@ -546,5 +546,277 @@ WORDS.hundred = {
     pap: ["shen", "ʃen"],
     tpi: ["handet", "handet"],
     vi_nom: ["𤾓", "tɕam˧"],
+    // --- Austronesian — Sumatra, Sulawesi, Borneo, the Philippines ---------
+    bbc: ["saratus", "saratus"],
+    bts: ["saratus", "saratus"],
+    iba: ["seratus", "səratus"],
+    mui: ["seratus", "səʁatus"],
+    ljp: ["seratus", "səʁatus"],
+    gay: ["seratus", "səratus"],
+    min: ["saratuih", "saratuih"],
+    sda: ["saratu", "saratu"],
+    mdr: ["sangatus", "saŋatus"],
+    bug: ["ratu'", "ratuʔ"],
+    mad: ["saratos", "saratos"],
+    sas: ["satus", "satus"],
+    nia: ["ötu", "øtu"],
+    gor: ["mohetuto", "mohetuto"],
+    dtp: ["hatus", "hatus"],
+    sdo: ["siratus", "siraːtus"],
+    tsg: ["hanggatus", "haŋɡaˈtus"],
+    mdh: ["magatus", "maɡatus"],
+    mrw: ["magatos", "maɡatos"],
+    agt: ["magatut", "maɡatut"],
+    ilo: ["sangagasut", "saŋaɡaˈsut"],
+    pam: ["dinalan", "dinaːˈlan"],
+    pag: ["sanlasos", "sanlaˈsos"],
+    bto: ["sanggatos", "saŋɡaˈtos"],
+    pwn: ["taidai", "taidai"],
+    bnn: ["saba", "saba"],   // the bare hundred root — one hundred is tas-saba
+    ssf: ["shaba", "ʃaba"],   // same root as Bunun saba
+    trv: ["kbekuy", "kbəkuj"],
+    tay: ["kbhul", "kβhul"],
+    tao: ["ranaw", "ranaw"],
+    roo: ["voboto", "βoβoto"],
+    mkz: ["rasa", "rasa"],
+    aoz: ["natun", "natun"],   // one hundred is natun=es, with the metathesis Meto puts on a phrase-final noun
+    meu: ["sinahu", "sinahu"],
+    gil: ["tebubua", "tebubʷa"],
+    kos: ["siofok", "siofok"],
+    fud: ["kaulelau", "kaulelau"],
+    wls: ["teau", "teau"],
+    niu: ["teau", "teau"],
+    tkl: ["helau", "helau"],
+    tvl: ["selau", "selau"],
+    pkp: ["lau", "lau"],   // the native Polynesian *rau, beside a borrowed aanele
+    rap: ["rau", "rau"],   // native rau, beside the English loan hanere
+    ty: ["hānere", "haːnere"],   // from English hundred; the older native rau survives beside it
+    pmt: ["hānere", "haːnere"],   // from English hundred
+    rar: ["'ānere", "ʔaːnere"],   // from English hundred
+    ch: ["sientu", "sjentu"],   // Spanish loan, like this row's own dos and tres
+    cab: ["san", "saŋ"],   // from French cent, like Haitian san
+    // --- Africa — Bantu, Nilotic, Cushitic, Mande, Kwa ---------------------
+    ki: ["igana", "iɣana"],
+    mer: ["igana", "iɡana"],
+    ebu: ["igana", "iɡana"],
+    suk: ["igana", "iɡana"],
+    nym: ["igana", "iɡana"],
+    rim: ["ighana", "iɣana"],
+    ttj: ["kikumi", "tʃikumi"],
+    nyn: ["kikumi", "tʃikumi"],
+    bem: ["umwanda", "umwanda"],
+    loz: ["mwanda", "mwanda"],
+    lua: ["lukama", "lukama"],
+    lol: ["nkama", "nkama"],
+    tll: ["lokama", "lokama"],
+    kmb: ["hama", "hama"],
+    umb: ["ocita", "otʃita"],
+    her: ["esere", "esere"],
+    kj: ["efele", "efele"],
+    ve: ["ḓana", "d̪ana"],
+    ts: ["dzana", "dzana"],
+    vmw: ["emiya", "emija"],   // the Swahili mia, and so ultimately Arabic miʾa, taken into a Bantu noun class
+    yao: ["mia", "mia"],   // Swahili loan
+    swb: ["mia", "mia"],   // Swahili loan
+    bxk: ["miya", "mija"],   // Swahili loan
+    luy: ["emia", "emia"],   // Swahili loan
+    kde: ["miya", "miːja"],   // Swahili loan; the inherited alternative is makuumi makuumi, ten tens
+    luo: ["mia", "mia"],   // Swahili loan
+    ach: ["miya", "mija"],   // Swahili loan
+    laj: ["mia", "miə"],   // Swahili loan
+    anu: ["dipa", "dipa"],
+    teo: ["akwatat", "akwatat"],
+    srr: ["teemeed", "teːmeːd"],   // the same word as Wolof téeméer
+    dje: ["zangu", "zaŋɡu"],
+    khq: ["jongu", "dʒoŋɡu"],
+    bej: ["shee", "ʃeː"],
+    ssy: ["bool", "boːl"],
+    aa: ["bool", "boːlu"],
+    drs: ["dhibba", "ɗibba"],
+    kxc: ["dhippa", "ɗipːa"],
+    aiw: ["mato", "mato"],   // beside a vigesimal circumlocution, edonq-baab its, five persons eaten
+    wal: ["xeeta", "tʼeːta"],
+    efi: ["ikie", "ikie"],   // Chan's Efik hundred is a gloss slip on its own one; ikie is read off its 200, ikie iba, and confirmed by Ibibio
+    ibb: ["ikie", "íkíè"],
+    ada: ["lafa", "lafa"],
+    bci: ["ya", "ja"],
+    mos: ["koabga", "koabɡa"],
+    dag: ["kobga", "kobɡa"],
+    mnk: ["keme", "keme"],
+    kao: ["keme", "keme"],
+    dyu: ["kɛmɛ", "kɛ̀mɛ́"],
+    sus: ["kɛmɛ", "kɛmɛ"],
+    tem: ["kɛmɛ", "kɛmɛ"],
+    snk: ["kame", "kãme"],
+    men: ["hɔndo", "hɔ́ndo"],   // from English hundred
+    bsq: ["hɔ̃dɛɖɛ", "hɔ̃dɛɖɛ"],   // from English hundred
+    mev: ["wũ", "wũ"],
+    ee: ["alafa", "alafa"],
+    ak: ["ɔha", "ɔha"],
+    zne: ["ngbangbu", "ŋɡbaŋɡbu"],
+    fan: ["ntɛt", "ntɛ̀t"],
+    ewo: ["ntɛt", "ntɛ̀d"],
+    naq: ["kaidisi", "kaitisi"],   // literally big ten — disi is this row's own ten
+    sad: ["kom kom", "kom kom"],   // ten ten; the Swahili mia is the alternative
+    // --- Americas — Quechuan, Siouan, Algonquian, Mayan and the vigesimal count ----
+    arn: ["pataka", "pataka"],
+    quz: ["pachak", "ˈpatʃak"],
+    jqr: ["pachak", "patʃak"],
+    lkt: ["opáwiŋǧe", "opáwĩʁe"],
+    dak: ["opáwiŋǧe", "opáwĩɣe"],
+    win: ["hogihí", "hoɡihi"],
+    cro: ["pilakisée", "pilakiseː"],
+    cic: ["talhipa", "taɬipa"],
+    mus: ["cokpe", "tʃokpi"],
+    bla: ["kiipippo", "kiːpipːo"],
+    pot: ["ngotwak", "ŋɡʊdwɑk"],
+    nv: ["neeznádiin", "neːznáːtiːn"],   // ten tens — neeznáá is this row's ten, -diin the decade suffix
+    esu: ["yuinaak talliman", "juinaːk talːiman"],   // five twenties: yuinaq is twenty, talliman this row's own five
+    cuk: ["dulatar", "dulataɾ"],   // five persons — dula twenty, atar this row's own five
+    quc: ["jokʼal", "xokʼal"],   // five twenties, on the Mayan vigesimal count
+    cak: ["wokʼal", "wokʼal"],   // five twenties
+    kjb: ["okʼal", "okʼal"],   // five twenties
+    tzh: ["jo' winik", "hoʔ winik"],   // five twenties — winik is the score, literally man
+    tsz: ["yumu ekuatsi", "jumu ekwatsi"],   // five twenties — yumu is this row's own five
+    tar: ["siénto", "ˈsjento"],   // Spanish loan
+    emp: ["cien", "sjen"],   // Spanish loan
+    // --- Europe, the Caucasus rim and mainland Asia ------------------------
+    kw: ["kans", "kans"],   // Celtic centum, beside Welsh cant and Breton kant
+    gv: ["keead", "kʲiːd"],   // the Goidelic form, beside Irish céad
+    fo: ["hundrað", "ˈhʊndɹa"],
+    gsw: ["hundert", "ˈhʊndərt"],
+    stq: ["hunnert", "ˈhunərt"],
+    pcd: ["chint", "ʃɛ̃"],
+    fax: ["cen", "θeŋ"],
+    ruq: ["sută", "ˈsutə"],   // the Slavic loan Romanian also took
+    sms: ["čuâđ", "tʃuaʰtʲ"],
+    sma: ["tjuetie", "tɕuødie"],
+    yai: ["sad", "sad"],
+    tly: ["sə", "sæ"],
+    luz: ["sad", "sað"],
+    hif: ["sau", "səu"],
+    hoc: ["sao", "sao"],   // borrowed from the Indo-Aryan neighbours, beside a native vigesimal mi hisi
+    bsk: ["tha", "tʰaː"],
+    kha: ["spah", "spaʔ"],
+    grt: ["ritcha", "ritʃa"],
+    cnh: ["za", "za"],
+    lus: ["za", "dʒa"],
+    nmf: ["shakha", "ʃakʰə"],   // sha is the hundred, kha this row's own one
+    njo: ["nuklang", "nuklaŋ"],
+    nzm: ["heiket", "heiket"],   // hei is the hundred, ket the enclitic one
+    kac: ["tsa", "tsa˧"],
+    tsj: ["gya", "ɡʲa"],   // the Tibetan བརྒྱ carried east into Tshangla
+    jya: ["pərjɐ", "pərjɐ"],   // the same Tibetan brgya, behind a Gyalrong prefix
+    yiz: ["xo", "xo˧"],
+    nxq: ["xi", "ɕi˧"],
+    mtq: ["tlăm", "tlam˥"],   // the cluster Vietnamese trăm lost
+    mra: ["rɔy", "rɔj"],   // the Thai ร้อย, borrowed
+    bdq: ["hreng", "hreŋ"],
+    bru: ["culam", "kulam"],
+    prk: ["yeh", "jɛh"],
+    // --- Devanagari, Arabic, Tibetan, Cyrillic and the other scripts -------
+    bgc: ["सौ", "sɔː"],
+    hne: ["सौ", "səu"],
+    mag: ["सौ", "so"],
+    awa: ["सौ", "səu"],
+    kfy: ["सौ", "sɔ"],
+    lmn: ["सौ", "so"],
+    bgq: ["सौ", "so"],
+    mai: ["सै", "sɛ"],
+    thr: ["सौ", "sau"],
+    pnb: ["سو", "so"],
+    kfx: ["पंज बी", "pandʒ biː"],   // five twenties — bi is this row's own twenty, panj its five
+    brh: ["صد", "sad"],   // Persian loan
+    mzn: ["صد", "sad"],
+    bqi: ["صد", "sæd"],
+    lrc: ["صد", "sʌd"],
+    wbl: ["сад", "sad"],   // the Persian loan; the inherited count is panz bist, five twenties
+    dv: ["ސަތޭކަ", "sat̪eːka"],
+    tcy: ["ನೂದು", "nuːdu"],   // Dravidian *nūṟu, as in Tamil நூறு
+    kfa: ["ನೂರ್", "nuːɾə"],
+    sat: ["ᱥᱟᱭ", "sae"],   // an Indo-Aryan loan; the inherited count is mɔɽɛ gɛl, five tens
+    tru: ["ܡܐ", "mo"],
+    tig: ["ምእት", "mɨʔɨt"],   // the Geʽez ምእት unchanged
+    sgw: ["በቅር", "bəkʼɨr"],
+    bo: ["བརྒྱ", "ca˩˧"],
+    lbj: ["བརྒྱ", "rɡʲa"],
+    dz: ["བརྒྱ", "dʐa"],
+    khg: ["བརྒྱ", "dʑa˥˧"],
+    sip: ["བརྒྱ", "ɡʲɛ"],
+    ce: ["бӀе", "bæː"],
+    inh: ["бӀаь", "bʕe"],
+    lez: ["виш", "wiʃ"],
+    agx: ["верш", "werʃ"],
+    ddo: ["бишон", "biʃon"],
+    ani: ["бешонугу", "beʃonuɡu"],
+    bxr: ["зуун", "zuːn"],
+    xal: ["зун", "zuːn"],
+    kim: ["чүс", "tʃys"],
+    ude: ["таӈгу", "taŋɡu"],   // the Tungusic *taŋgū that Manchu writes ᡨᠠᠩᡤᡡ
+    gld: ["таӈгу", "taŋɡu"],
+    sjo: ["ᡨᠠᠩᡤᡡ", "taŋ"],
+    eve: ["няма", "ɲama"],
+    evn: ["нама", "nama"],
+    yrk: ["юрˮ", "jurʔ"],
+    nio: ["дир", "dʲir"],
+    sel: ["тоон", "toːn"],
+    chr: ["ᏍᎪᎯᏥᏆ", "sɡohitsɡwa"],   // ten-something: ᏍᎪᎯ is this row's own ten
+    ain: ["アシㇰネ ホㇳネ", "aʃikne hotne"],   // five twenties — hotne is twenty, ashikne this row's own five
+    blk: ["ရာ", "ja"],
+    // --- Sinitic — 百 is 陰入; each tone is that row's own, read off its 骨 ----
+    zh_tj: ["百", "pai˩˧"],
+    zh_jn: ["百", "pai˨˩˧"],
+    zh_zz: ["百", "pai˨˦"],
+    zh_kf: ["百", "pai˨˦"],
+    zh_xa: ["百", "pai˨˩"],
+    zh_wh: ["百", "pai˨˩˧"],
+    zh_cq: ["百", "pai˨˩"],
+    zh_cd: ["百", "pai˨˩"],
+    zh_km: ["百", "pai˧˩"],
+    zh_sc: ["百", "pe˨˩"],
+    hsn: ["百", "pe˨˦"],
+    hsn_hy: ["百", "pɛ˨˦"],
+    gan_yc: ["百", "pak̚˨˦"],
+    gan_ja: ["百", "pa˥"],
+    gan_fz: ["百", "paʔ˥"],
+    cjy: ["百", "paʔ˨"],
+    cjy_lv: ["百", "paʔ˨"],
+    cjy_xz: ["百", "paʔ˨˩"],
+    czh: ["百", "paʔ˨˦"],
+    czh_wy: ["百", "paʔ˥˥"],
+    wuu_sz: ["百", "pɐʔ˥"],
+    wuu_nb: ["百", "pɐʔ˥˥"],
+    wuu_hz: ["百", "pɐʔ˥"],
+    wuu_jh: ["百", "pɐʔ˥"],
+    wuu_jx: ["百", "pɐʔ˥"],
+    yue_dg: ["百", "paːk̚˧"],
+    yue_nn: ["百", "paːk̚˧"],
+    yue_zs: ["百", "paːk̚˧"],
+    hak_hl: ["百", "pak̚˨˨"],
+    nan_pn: ["百", "paʔ˥˥"],
+    mnp: ["百", "pa˨˦"],
+    cpx: ["百", "paʔ˥˥"],
+    // --- Late additions ----------------------------------------------------
+    lo: ["ຮ້ອຍ", "hɔːj˥˩"],
+    gd: ["ceud", "kʰʲiət"],   // the Goidelic céad again
+    ab: ["шәкы", "ʃʷkʼə"],
+    av: ["нусго", "nusɡo"],
+    ks: ["ہَتھ", "hɐtʰ"],
+    xmf: ["ოში", "ɔʃi"],   // Mingrelian oši, unrelated to Georgian ასი
+    ia: ["cento", "ˈtʃento"],
+    ie: ["cent", "tsent"],
+    io: ["cent", "tsent"],
+    bfq: ["nuuru", "nuːru"],   // Dravidian *nūṟu
+    mak: ["sibilangngang", "sibilaŋːaŋ"],
+    rtm: ["tarau", "tarau"],   // the Polynesian *rau under a prefix
+    dru: ["iday", "idaj"],
+    mas: ["ip", "iːp"],
+    saq: ["ip", "ip"],
+    ses: ["zangu", "zaŋɡu"],
+    cgg: ["igana", "iɡana"],
+    nyo: ["kikumi", "tʃikumi"],   // Runyoro palatalises k before i, as Tooro and Ganda do
+    xnr: ["सौ", "sɔ"],
+    cho: ["talhepa", "taːɬiːpə"],
+    xkz: ["gya", "ɟɑ"],   // the Tibetan བརྒྱ once more
   },
 };

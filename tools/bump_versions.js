@@ -33,4 +33,35 @@ const run = (script) => {
 // in each, and because both start from the same number they stay in step.
 run('asset_version_check.js');
 run('page_asset_version_check.js');
+
+// A third coupling neither checker owns. `word_manifest.js?v=` in wordmap.html
+// is expected to equal WM_ASSET_VERSION.words (validate_wordmap_data.js #19),
+// because the manifest and the per-word files it names must invalidate
+// together — a browser holding an old manifest asks for words that the new
+// one reordered. But the page checker keys off CONTENT, and adding a language
+// to words/black.js does not touch word_manifest.js, so it reports "in sync"
+// while WM_ASSET_VERSION.words moves on without it. Caught by the validator on
+// two commits running (2026-08-29) and fixed by hand both times; do it here
+// instead. Only this one tag is rewritten, and only its lock entry is patched,
+// so a real drift elsewhere still has to go through --bump.
+const fs = require('fs');
+const ROOT = path.resolve(__dirname, '..');
+const PAGE = path.join(ROOT, 'wordmap.html');
+const LOCK = path.join(__dirname, 'page_asset_version.lock.json');
+console.log('\n=== word_manifest.js?v= vs WM_ASSET_VERSION.words ===');
+let page = fs.readFileSync(PAGE, 'utf8');
+const want = /WM_ASSET_VERSION\s*=\s*\{[^}]*?\bwords:\s*(\d+)/.exec(page);
+const has = /word_manifest\.js\?v=(\d+)/.exec(page);
+if (!want || !has) {
+  console.log('could not read one of the two numbers — leaving both alone');
+} else if (want[1] === has[1]) {
+  console.log(`already in step (${has[1]})`);
+} else {
+  page = page.replace(/word_manifest\.js\?v=\d+/g, `word_manifest.js?v=${want[1]}`);
+  fs.writeFileSync(PAGE, page);
+  const lock = JSON.parse(fs.readFileSync(LOCK, 'utf8'));
+  if (lock['word_manifest.js']) lock['word_manifest.js'].version = Number(want[1]);
+  fs.writeFileSync(LOCK, JSON.stringify(lock, null, 2) + '\n');
+  console.log(`word_manifest.js?v=${has[1]} -> ${want[1]} (following WM_ASSET_VERSION.words)`);
+}
 console.log('\nDone. Run `node tools/check_all.js` to confirm clean, then commit.');

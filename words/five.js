@@ -234,7 +234,7 @@ WORDS.five = {
     mi: ["rima", "ɾima"],
     qu: ["pichqa", "ˈpitʃqa"],
     zh_db: ["五", "u˨˩˦"],
-    zh_sc: ["五", "u˨˩˦"],
+    zh_sc: ["五", "u˥˧"],
     cdo: ["五", "ŋu"],
     bo: ["ལྔ", "ŋa"],
     bft: ["ལྔ", "ŋa"],

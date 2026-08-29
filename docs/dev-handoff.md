@@ -643,5 +643,33 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     first. `hsn_hy` still has 樹 ˥˩ against 二 ˧˧, and Wiktionary's Hengyang 樹 is 213, which is a
     third value again.
 
+48. **狗/好 and 雨: two more batch classes, 38 cells. Advisory 65 → 45.** Same method as 47 — Wiktionary's
+    各地讀音 for 土 and 水 pins each lect's 上聲 independently of anything already in the row, and a
+    third fetch for 雨 settled the 陽上 half.
+
+    **狗 and 好 together, against the rest of 陰上.** They travel as a pair, which is what a two-cell
+    batch looks like: nan (˧˥ → ˥˧, Taipei 53), wuu (˧˩ → ˧˥, Shanghai 35), zh_wh (˨˩˧ → ˦˨, Wuhan
+    42), zh_sc (+手, → ˥˧, Chengdu 53), cjy (好 alone → ˥˧, Taiyuan 53), zh_tj (+火 手, → ˩˧, Tianjin
+    13). Two rows were majority-wrong again: **zh_zz** six cells ˥˥ → ˥˧ against Zhengzhou's and
+    Xi'an's 53, and **wuu_nb** five cells ˨˩˦ → ˧˨˥ against Ningbo's 325, where the row's own 土 and
+    手 already said ˧˨˥. wuu_wz went the other way — its six ˧˥ cells are right and 土 ˦˥ was the
+    outlier.
+
+    **雨 in 陽上 — and this one splits both ways, which is why it had to be fetched rather than
+    assumed.** Wiktionary gives Beijing 雨 214, Chengdu 53, Guangzhou 13, Meixian 31. So:
+
+    - `zh` and `zh_tw` 雨 ˧˩˧ → ˨˩˦ — the row's own 五 and 耳朵 already said ˨˩˦.
+    - `yue` ˨˧ → ˩˧, and `yue_nn`, `yue_zs`, `zh_wenyan_edu` with it.
+    - `zh_sc` the OTHER way: its 雨 ˥˧ was right and its 五 ˨˩˦ was wrong, because Chengdu 上聲 is 53
+      and 土, 水 and 雨 all say so. Fixed the 五.
+    - `hak_cn` and `hak_tw` likewise: 雨 ˧˩ right, 耳 ˩˩ wrong — ˩˩ is Meixian's 陽平, and this is
+      the second time that row has had a 陽平 contour sitting on a non-平 syllable.
+    - `cjy_lv` and `cjy_xz` 耳 → ˥˧; `cnp` 眼 ˦˨ → ˨˦, ˦˨ being the wrong 陰上 value that handoff 47
+      removed from the rest of that row.
+
+    **What is left in the 45.** Mostly the Wu 二 cluster (see 43), the Min 陰去 pair 四/厝 against 睏,
+    and rows with no Wiktionary point — gan_fz, gan_yc, hsn_yz, czh, yue_ts. Those need per-lect
+    sources rather than another fetch.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

@@ -774,5 +774,21 @@ WORDS.snow = {
     fvr: ["umé", "ùmé"],
     tsj: ["phom", "pʰom"],
     lep: ["ᰠᰦᰍᰩᰰ", "sanɔn"],
+    psi: ["ہیم", "hiːm"],
+    rmt: ["xiif", "xiːf"],
+    dv: ["ސްނޯ", "snoː"], // English loan — Dhivehi has no inherited term (E-D/D-E Dictionary 2005)
+    tcy: ["ಹಿಮ", "ˈhima"], // Sanskrit tatsama; Männer 1886 glosses snow, hoar-frost, dew
+    nag: ["borop", "bɔɾɔp"], // Persian barf via Assamese বৰফ
+    khb: ["ᦵᦖᧀᦉᦏᦱᧇ", "mɤj satʰaːp"], // Hanna, Dai Lue-English Dictionary — kept distinct from frost
+    blt: ["mươi phông", "mɯəj foŋ"], // lit. blown frost; native Tai compound, not a loan
+    nan_hai: ["雪", "te˥˥"],
+    kho: ["𑀩𑀅𑀼𑀭", "baura"], // Bailey, Dictionary of Khotan Saka 305-306
+    txg: ["𗎆", "ʔwji˧"], // Li Fanwen 4091
+    ckv: ["suRna", "suʁna"], // PAn *SuReNa; verb s<m>uRna to snow
+    pzh: ["hahela", "ha.he.la"],
+    lhm: ["ཁ་བ", "kʰawa"],
+    lis: ["wa", "wɑ˧˩"], // Fraser 1922 — distinct from frost ni and ice ni hpya
+    nxq: ["bbei", "be˧˧"],
+    sat: ["ᱦᱤᱢ", "him"], // Sanskrit hima
   },
 };

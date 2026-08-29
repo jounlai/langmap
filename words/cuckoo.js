@@ -521,5 +521,13 @@ WORDS.cuckoo = {
     aln: ["qyqe", "ˈcyce"],
     fud: ["kāleva", "kaːˈleva"],
     lep: ["ᰀᰀᰪᰑᰨ", "kəkɯfo"],
+
+    // --- Pluricentric rows — each reads its own row's vowel where one differs
+    en_scouse: ["cuckoo", "ˈkʊkuː"],
+    en_geordie: ["cuckoo", "ˈkʊkuː"],
+    en_brum: ["cuckoo", "ˈkʊkuː"],
+    en_manc: ["cuckoo", "ˈkʊkuː"],
+    en_wc: ["cuckoo", "ˈkʊkuː"],
+    en_est: ["cuckoo", "ˈkʊkuː"],
   },
 };

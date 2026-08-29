@@ -410,5 +410,18 @@ WORDS.poop = {
     zh_hf: ["屎", "ʂz̩˨˦"],
     zh_kf: ["屎", "ʂz̩˥˧"],
     zh_nj: ["屎", "ʂz̩˨˩˨"],
+
+    // --- Pluricentric rows — each reads its own row's vowel where one differs
+    ar_sy: ["كاكا", "kaːka"],
+    ar_lb: ["كاكا", "kaːka"],
+    ar_jo: ["كاكا", "kaːka"],
+    ar_ps: ["كاكا", "kaːka"],
+    ar_ye: ["كاكا", "kaːka"],
+    ar_sa: ["كاكا", "kaːka"],
+    abv: ["كاكا", "kaːka"],
+    afb: ["كاكا", "kaːka"],
+    acw: ["كاكا", "kaːka"],
+    ayl: ["كاكا", "kaːka"],
+    arq: ["كاكا", "kaːka"],
   },
 };

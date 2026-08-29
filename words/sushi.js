@@ -420,5 +420,30 @@ WORDS.sushi = {
     fit: ["susji", "ˈsuʃi"],
     zgh: ["ⵙⵓⵛⵉ", "suʃi"],
     aln: ["sushi", "ˈsuʃi"],
+
+    // --- Pluricentric rows — each reads its own row's vowel where one differs
+    es_bo: ["sushi", "ˈsusi"],
+    es_cr: ["sushi", "ˈsusi"],
+    es_hn: ["sushi", "ˈsusi"],
+    es_ni: ["sushi", "ˈsusi"],
+    es_sv: ["sushi", "ˈsusi"],
+    es_py: ["sushi", "ˈsusi"],
+    es_pa: ["sushi", "ˈsusi"],
+
+    fr_lu: ["sushi", "su.ʃi"],
+    fr_cm: ["sushi", "su.ʃi"],
+
+    pt_mo: ["sushi", "ˈsu.ʃi"],
+
+    ayl: ["سوشي", "suː.ʃiː"],
+
+    en_scouse: ["sushi", "ˈsuːʃi"],
+    en_geordie: ["sushi", "ˈsuːʃi"],
+    en_brum: ["sushi", "ˈsuːʃi"],
+    en_manc: ["sushi", "ˈsuːʃi"],
+    en_wc: ["sushi", "ˈsuːʃi"],
+    en_est: ["sushi", "ˈsuːʃi"],
+    en_ng2: ["sushi", "ˈsuːʃi"],
+    en_my: ["sushi", "ˈsuːʃi"],
   },
 };

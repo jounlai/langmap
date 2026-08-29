@@ -475,5 +475,32 @@ WORDS.computer = {
     zgh: ["ⴰⵎⵙⵙⵓⴷⵙ", "amsːuds"],
     aln: ["kompjuter", "kompjuˈteɾ"],
     fud: ["masini", "maˈsini"],
+
+    // --- Pluricentric rows — each reads its own row's vowel where one differs
+    es_bo: ["computadora", "komputaˈðoɾa"],
+    es_cr: ["computadora", "komputaˈðoɾa"],
+    es_hn: ["computadora", "komputaˈðoɾa"],
+    es_ni: ["computadora", "komputaˈðoɾa"],
+    es_sv: ["computadora", "komputaˈðoɾa"],
+    es_py: ["computadora", "komputaˈðoɾa"],
+    es_pa: ["computadora", "komputaˈðoɾa"],
+
+    fr_lu: ["ordinateur", "ɔʁ.di.na.tœʁ"],
+    fr_cm: ["ordinateur", "ɔʁ.di.na.tœʁ"],
+
+    pt_mo: ["computador", "kõputɐˈdoɾ"],
+
+    ar_ma: ["حاسوب", "ħaː.suːb"],
+    ar_tn: ["حاسوب", "ħaː.suːb"],
+    arq: ["حاسوب", "ħaː.suːb"],
+
+    en_scouse: ["computer", "kəmˈpjuːtə"],
+    en_geordie: ["computer", "kəmˈpjuːtə"],
+    en_brum: ["computer", "kəmˈpjuːtə"],
+    en_manc: ["computer", "kəmˈpjuːtə"],
+    en_wc: ["computer", "kəmˈpjuːtɚ"],
+    en_est: ["computer", "kəmˈpjuːtə"],
+    en_ng2: ["computer", "kəmˈpjuːtə"],
+    en_my: ["computer", "kəmˈpjuːtə"],
   },
 };

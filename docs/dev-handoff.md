@@ -390,5 +390,20 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     form; only ASJP_3 plus Polyglotta had the right one. dravlex and ASJP share an origin for
     Dravidian. Prefer agreement ACROSS families of source, not across doculects within one.
 
+34. **`zts` is named "Tlacolula Zapotec" but ISO 639-3 `zts` is Tilquiapan Zapotec.** Found 2026-08-29
+    by a research subagent looking for a snow word. Confirmed at the source: iso639-3.sil.org/code/zts
+    gives **Tilquiapan Zapotec**, and lists **`zab` = Western Tlacolula Valley Zapotec** separately.
+    The atlas row's latitude is 16.95, which is Tlacolula de Matamoros (Tilquiapan is 16.83), and its
+    name says Tlacolula — so the row appears to be Tlacolula and the CODE is the wrong one, exactly
+    the shape of the Donno So `ddn`→`dds` fix (2026-08-26) and the `asu`→`asa` finding in item 32.
+    **Not changed here**: a code change moves SSR URLs and needs a `SEO_RENAMED_CODES` 301 planned
+    alongside, same as items 19 and 32. Whoever does it should first confirm which variety the row's
+    existing CELLS came from — if they were sourced from Tilquiapan materials the fix is the name, not
+    the code. Note that `source_link_check.js` compares an Ethnologue citation's code against
+    `meta.iso6393`, so it cannot see this: both are `zts` and agree with each other.
+
+    There are now three of these queued (items 19, 32, 34). They share one blocker — the 301 plan —
+    so they are probably one task, not three.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

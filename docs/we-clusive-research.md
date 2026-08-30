@@ -120,3 +120,40 @@ which feature.
 consistently in this atlas: ⟨l⟩ is ˨˩ in `gul` but ˧˥ in `ndeeul`, and ⟨z⟩ is ˩ in `mengz` and `rauz`
 but ˨˦ in `ndeengz`. The new `dul /du˧˥/` follows `ndeeul`. Whichever is right, the row needs one
 mapping and currently has two; `tools/tone_digit_map_check.js` does not cover Bouyei.
+
+## Rows resolved outside this pass, with their evidence
+
+Recorded here so that every non-`unknown` row from the 2026-08-30 campaign rests on a written
+source rather than on a commit message.
+
+```text
+ctu | YES | joñonla | hoɲonla | joñon lojon | hoɲon lohon | Chol NT (ebible.org ctucti): 34 and 23 occurrences as free pronouns. Peter's "but WE have left everything" to Jesus (Mk 10:28) is joñon lojon; "the Spirit dwells in us" is joñonla. The old cell held only lojon, the exclusive enclitic.
+dnj | YES | kwa | kwa | yi | ji | Dan NT (ebible.org dnj): 1 John 1:9, writer with reader, uses kwa; 1 John 1:3 and Acts 4:20, writer to reader, use yi. Matches Vydrin's 1PL.INCL kwa / 1PL.EXCL yi.
+```
+
+Two caveats on `dnj`, both deliberate:
+
+- **No tone.** That is inside this row's convention, not outside it: **34 of the row's 39 cells carry
+  no tone mark at all.** Marking only the pronouns would make them the exception. The row being
+  under-marked for tone is a real but separate problem.
+- **The exclusive *yi* is byte-identical to this row's own `water`.** `intra_row_dup_check` does not
+  fire on it, because the cell is the string `"kwa / yi"` and that checker compares whole surfaces —
+  so a collision inside a two-form cell is invisible to it, for every clusive row and not just this
+  one. Recorded rather than worked around.
+
+## Rows taken back to `unknown`
+
+`zh_tj` Tianjin and `zh_lz` Lanzhou were written as `咱们 / 我们` and have been reverted. Neither
+half was attested for those two lects:
+
+- The **form** came from "Wiktionary confirms 咱们 usage in Northern Mandarin" — a statement about a
+  region, not about Tianjin or Lanzhou. The working notes for that pass list "Wiktionary 咱 dialect
+  section" as an unchecked box. This atlas's own northern rows do not agree with each other either:
+  `zh_jn` and `zh_db` write 咱们, `zh_xa`, `zh_zz` and `zh_kf` write bare 咱, and Lanzhou is the
+  nearer of the two to the 咱 area.
+- The **tone** was Standard Mandarin's 陽平 ˧˥, described in those notes as "a reasonable interim
+  solution". It was then corrected to each row's own 陽平 (˦˥ and ˥˧) — better, but still an
+  inference that 咱 belongs to that class in those lects, not an attestation.
+
+Tianjin is *probably* right. "Probably, because the neighbours do" is the reasoning that put Bambara
+into the Konabéré row (handoff 40), and it is not a standard this word can keep and also relax here.

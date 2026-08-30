@@ -855,5 +855,46 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     collision hidden inside a two-form cell is invisible to it — true of every clusive row, not just
     this one. Not fixed here; the honest note is that the guard's coverage stops at the slash.
 
+54. **The `provisional` proposal: declined, and why. `we` back to 35 unknown.** A review argued that
+    `we` conflates "check_all passes" with "linguistically established", and proposed a third
+    `family` value between `unknown` and `clusive`. The premise is right and one of its two examples
+    was right; the remedy is not.
+
+    **Agreed on the premise.** `check_all` is a consistency guard. It proves the data is not broken;
+    it proves nothing about whether a form exists. Nothing in this repo should be read as saying
+    otherwise.
+
+    **Declined: a `provisional` tier.** The `family` axis answers exactly one question — does this
+    language split its free first-person plural? A row can have a settled answer to that and an
+    unsettled transcription; folding the second into the colour makes the map answer a blurrier
+    question than the one its legend states. It would also break the invariant that makes this word
+    legible — **every `clusive` row has two forms and every `single` row has one** — because a
+    `provisional` row would carry two forms without being clusive. That exact state arrived on `dnj`
+    this week and reads as a bug, which is the argument against institutionalising it.
+
+    What the review is right about is that **evidence strength was not written down anywhere
+    machine-readable**. The answer to that is a source record, not a third colour, and
+    `docs/we-clusive-research.md` already is one — it simply did not cover the rows resolved outside
+    Codex's pass. `ctu` and `dnj` are now in it with their evidence.
+
+    **Accepted: `zh_tj` and `zh_lz` back to `unknown`.** Neither half of `咱们 / 我们` was attested
+    for those lects. The form came from "Wiktionary confirms 咱们 usage in Northern Mandarin" — a
+    claim about a region — and that pass's own notes list "Wiktionary 咱 dialect section" as an
+    unchecked box. The tone was Standard Mandarin's ˧˥, described there as "a reasonable interim
+    solution"; correcting it to each row's own 陽平 improved it but is still an inference that 咱
+    belongs to that class in those lects. This atlas's northern rows do not even agree with one
+    another — zh_jn and zh_db write 咱们, zh_xa, zh_zz and zh_kf write bare 咱, and Lanzhou is the
+    nearer to the 咱 area. Tianjin is probably right, and "probably, because the neighbours do" is
+    what put Bambara in the Konabéré row.
+
+    **Rejected: demoting `dnj`.** That pass's own decision file says "✗ CANNOT UPDATE — leave as
+    UNKNOWN", and the edit that landed contradicted it. But the forms are attested independently of
+    that pass: the Dan NT uses *kwa* at 1 John 1:9 and *yi* at both 1 John 1:3 and Acts 4:20, which
+    is a direct attestation of the contrast in free pronouns, not an inference. Demoting it would
+    make the map less accurate, not more careful. Kept, with that evidence now written down.
+
+    **The ratchet went 36 → 34 → 33 → 35 today, and the way back up is the point.** A number that
+    can only fall is a number that rewards claiming things.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

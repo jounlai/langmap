@@ -22,7 +22,7 @@
  *
  * A word may also declare a route that means "not decided yet" — `we` has one,
  * because whether a language splits its first-person plural takes a source per
- * language and 49 of them are unsourced. That is better than leaving the cells
+ * language and 36 of them are unsourced. That is better than leaving the cells
  * unrouted, where the reader cannot tell "undecided" from "no data". It is
  * ratcheted in UNDECIDED below so the category can only ever shrink.
  *
@@ -58,9 +58,9 @@ const DEBT = {};
 // and better than a blank — the reader sees "not determined" instead of a
 // language that quietly vanishes from the legend — but it must only ever
 // shrink, or the category becomes a place to put anything inconvenient. `we`'s
-// 49 are one sourced inclusive/exclusive pronoun pair each; see
+// 36 are one sourced inclusive/exclusive pronoun pair each; see
 // docs/dev-handoff.md #51 for the list and the method that works.
-const UNDECIDED = { we: { route: 'unknown', max: 49 } };
+const UNDECIDED = { we: { route: 'unknown', max: 36 } };
 
 let violations = 0;
 const notes = [];

@@ -762,13 +762,14 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     "the Spirit dwells in us" is *joñonla*. The old cell held only *lojon*, which is the exclusive
     enclitic rather than the pronoun. Debt allowance lowered 50 → 49.
 
-    **Two that the same method nearly settled and I did NOT write, both for orthography reasons:**
+    **Done 2026-08-30: 13 more rows, with form-level sources.** `ker`, `chy`, `arp`, `pll`, `maz`,
+    `kky`, `mbc`, `cag`, `pcc`, `mpt`, `roo`, `kry`, and `tca` now carry an independent
+    inclusive/exclusive pair (inclusive first). This also fixes three misleading old cells:
+    Rotokas *bigoe* → *vigei / igei*, Macushi exclusive-only *anna* → *uurînîkon / anna*, and
+    Kryts 2PL *vin* → 1PL *jin / žin*. The source audit and the deliberately unresolved 36 rows are
+    in `docs/we-clusive-research.md`. Debt allowance lowered 49 → 36.
 
-    - `maz` Mazahua. The NT attests *nuzgöji* (inclusive — "God is not with us people") against
-      *nuzgöjme* (exclusive — "WE who are natives of Israel; and you, who are not"), 9 and 10 times.
-      Unwritten because Mazahua ⟨ö⟩ needs an IPA value and no other cell in that row uses it, so I
-      would have been guessing between /ø/ and /ʌ/. The existing cell's *nuzgome* is a third spelling
-      that matches neither and is probably wrong.
+    **One that the same method nearly settled and I did NOT write, for tone and duplicate reasons:**
     - `dnj` Dan. 1 John 1:9 uses *kwa*, 1 John 1:3 and Acts 4:20 use *yi*, which matches Vydrin's
       1PL.INCL kwa / 1PL.EXCL yi. Unwritten because Dan *yi* is also that row's own word for **water**,
       so the cell would need a dup-lock entry, and because this row marks tone on every other cell

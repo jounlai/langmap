@@ -157,3 +157,22 @@ half was attested for those two lects:
 
 Tianjin is *probably* right. "Probably, because the neighbours do" is the reasoning that put Bambara
 into the Konabéré row (handoff 40), and it is not a standard this word can keep and also relax here.
+
+## Correction from the owner: Ainu (Saru dialect)
+
+```text
+ain | YES | アオカ aoka | aoka | チョカ coka | tɕoka | Saru dialect (沙流方言), owner report 2026-08-30; the standard reference variety for Ainu (Tamura, Kayano)
+```
+
+The inclusive was already right. The exclusive read **チオカィ** `ciokay` — the uncontracted shape —
+where Saru has **coka**, from *ci-* (the exclusive first-person plural prefix) plus *oka* 'to be
+(plural)', exactly as the inclusive is *a-* plus *oka*. Writing one member of the pair contracted and
+the other not also hid the symmetry that makes the pair legible.
+
+⟨c⟩ is transcribed **tɕ** here to follow the row's majority — チセ *cise* /tɕise/, チャペ *cape*
+/tɕape/, チュプ *cup* /tɕup/, アチャ *aca* /atɕa/, ノチウ *nociw* /notɕiw/, クンネチュプ /kunnetɕup/.
+
+**Pre-existing and not fixed here:** that row transcribes ⟨c⟩ three different ways — tɕ in six cells,
+**tʃ** in `bird` チカㇷ゚ /tʃikap/ and `night` アンチカㇻ /antʃikar/, and **ts** in `fish` チェㇷ゚
+/tsep/. Ainu ⟨c⟩ is described as both [t͡ʃ] and [t͡s] depending on the grammar, so this needs one
+decision for the whole row rather than a third value added to it.

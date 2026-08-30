@@ -896,5 +896,16 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     **The ratchet went 36 → 34 → 33 → 35 today, and the way back up is the point.** A number that
     can only fall is a number that rewards claiming things.
 
+55. **`ain` Ainu `we`: exclusive チオカィ → チョカ, from the owner.** Saru dialect (沙流方言), the
+    standard reference variety. The inclusive **アオカ aoka** was already right; the exclusive was
+    written **ciokay**, the uncontracted shape, where Saru has **coka** — *ci-* (exclusive 1PL) plus
+    *oka* 'to be (pl)', exactly parallel to the inclusive's *a-* plus *oka*. Having one member of the
+    pair contracted and the other not also hid the symmetry that makes the pair readable.
+
+    ⟨c⟩ written **tɕ** to follow that row's majority (cise, cape, cup, aca, nociw, kunnecup — six
+    cells). **Still open:** the row transcribes ⟨c⟩ three ways. tɕ in six, **tʃ** in `bird` チカㇷ゚
+    and `night` アンチカㇻ, and **ts** in `fish` チェㇷ゚ /tsep/. Ainu ⟨c⟩ is described as both [t͡ʃ]
+    and [t͡s] depending on the grammar, so the row wants one decision, not a third value.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

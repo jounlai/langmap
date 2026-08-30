@@ -1384,7 +1384,7 @@ WORDS.we = {
     aiw: ["wota", "woˈta"],
     sgw: ["የና", "jəna"],
     mg: ["isika / izahay", "iˈsika / izaˈhaj"],
-    ain: ["アオカ / チオカィ", "aoka / tʃiokaj"],
+    ain: ["アオカ / チョカ", "aoka / tɕoka"],
     fi: ["me", "me"],
     hu: ["mi", "mi"],
     ohu: ["mi", "mi"],

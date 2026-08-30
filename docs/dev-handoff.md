@@ -824,5 +824,36 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     row-level source, not cell patches; the report's 234 form-claims with no named source and its 19
     strict script candidates are research, not edits.
 
+53. **`we` 36 → 33: zh_tj, zh_lz and dnj, with a Beijing-tone slip on two of them.** The three rows
+    handoff 51 called "most of the answer already" came back done. Two needed correcting and the
+    correction is the same error class this atlas has spent the week on.
+
+    **`zh_tj` and `zh_lz` were given 咱 as `tsan˧˥` — Beijing's 陽平.** Neither row uses it. Tianjin's
+    own 红, 鱼, 名 and 盐 all say **˦˥**; Lanzhou's own 红, 鱼 and 名 all say **˥˧**. Corrected. This is
+    the `orange`-in-fifteen-dialects and `白`-in-nine-dialects shape a third time: a Beijing value
+    carried into rows that do not use it, and caught the same way — by reading the row's own cells of
+    the same 調類. `zh_lz`'s 我们 half was also still on ˥˧ where that row's 我, 你 and 五 are all
+    ˦˦˨; fixed with it.
+
+    **Still open on those two:** whether Tianjin and Lanzhou say 咱们 or bare 咱. The atlas's other
+    northern rows split — zh_jn and zh_db write 咱们, zh_xa, zh_zz and zh_kf write 咱 — and Lanzhou is
+    the nearer of the two to the 咱 area. The forms are entered as 咱们 on the strength of the
+    neighbouring rows; a local source would settle it.
+
+    **`dnj` Dan is in, and my stated blocker was wrong.** I had said the tone could not be left off
+    because "every other cell in the row carries tone". It does not: **34 of that row's 39 cells have
+    no tone mark at all** — I had looked at i, you, two and name, which are four of the five that do.
+    Bare `kwa / yi` is inside that row's own convention, and the row being under-marked for tone is a
+    separate, pre-existing problem. Sampling four cells and calling it "every".
+
+    The cell arrived with two forms but `family` still `unknown`, which is a state the word does not
+    otherwise have — every clusive row has two forms and every single row has one. Tagged `clusive`.
+
+    **One thing the dup checker cannot see.** Dan's exclusive *yi* is byte-identical to that row's own
+    `water` cell, which is why handoff 51 asked for a lock entry. `intra_row_dup_check` does not fire,
+    because the cell is now the string `"kwa / yi"` and the checker compares whole surfaces. So a
+    collision hidden inside a two-form cell is invisible to it — true of every clusive row, not just
+    this one. Not fixed here; the honest note is that the guard's coverage stops at the slash.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

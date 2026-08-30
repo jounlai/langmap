@@ -58,9 +58,11 @@ const DEBT = {};
 // and better than a blank — the reader sees "not determined" instead of a
 // language that quietly vanishes from the legend — but it must only ever
 // shrink, or the category becomes a place to put anything inconvenient. `we`'s
-// 36 are one sourced inclusive/exclusive pronoun pair each; see
+// 33 are one sourced inclusive/exclusive pronoun pair each; see
 // docs/dev-handoff.md #51 for the list and the method that works.
-const UNDECIDED = { we: { route: 'unknown', max: 36 } };
+// [2026-08-30] zh_tj, zh_lz and dnj resolved. NOTE: the first two were first written
+// with Beijing's 陽平 ˧˥ on 咱; each row's own 红/鱼/名 give ˦˥ and ˥˧ respectively.
+const UNDECIDED = { we: { route: 'unknown', max: 33 } };
 
 let violations = 0;
 const notes = [];

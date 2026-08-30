@@ -701,5 +701,37 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     the copy rather than fix anything. The remaining four are cjy_xz 雪 and czh_wy 雪 (both rows split
     their 陰入 witnesses two ways), cdo 五 and gan_fz 鸟.
 
+50. **Harvest after the salt and daughter agents died mid-apply.** Both were killed by the account's
+    monthly spend limit, salt at 933 cells and daughter at 799, and daughter's died holding vetted
+    sub-agent output it had not yet written into the file. The recovery rule from handoff 37 applies
+    in reverse: a dead agent's *files* are still evidence even though its report never arrived.
+
+    The test for "was this deliberately skipped or merely not applied yet" is the hit rate per output
+    file. A file whose codes are ALL missing from the word file was never applied; a file where 39 of
+    44 landed was applied and the other 5 were rejected on purpose. On that test, seven of daughter's
+    twelve output files had never been applied at all. **70 cells harvested**, daughter 799 → 869.
+    Every line carries its own citation in `~/langmap-work/daughter2/out_*.tsv`.
+
+    Two IPA fields were repaired on the way in: `toc` tsumát had an acute accent in the IPA field
+    rather than a stress mark (→ tsuˈmat) and `tar` mará had no stress at all (→ maˈɾa).
+
+    **Three rows deliberately NOT taken:**
+
+    - `kio` Kiowa í:tá. The agent that found it said "kill this line if you want zero risk", and it
+      was right: the only modern source is a flashcard deck, and it disagrees with Harrington 1928 on
+      whether the consonant is aspirated or ejective. A tonal language needs a tone convention this
+      row has not settled either.
+    - `sdh` Southern Kurdish خوا /xwɑː/, from salt's own scratch. **خوا is Kurdish for GOD.** Central
+      Kurdish salt is خوێ *xwê* and the atlas already has it for `ckb` and `ku`; a Southern Kurdish
+      form with -ɑː rather than -eː may be right, but the collision with a very common word is exactly
+      the shape of a gloss slip and there was no search budget left to settle it. Left empty.
+    - The 1,102 unmatched codes in `salt2/byiso.json` and 75 in `wikt_salt.json` are raw source dumps,
+      not vetted output. Do not apply them; they are the pool the agent was selecting FROM.
+
+    **One escalation accepted:** `chr` Cherokee ᎠᎹ for salt, byte-identical to that row's water. The
+    syllabary writes neither vowel length nor tone, so àmã́ 'water' and áːmã́ 'salt' are the same six
+    strokes (Uchihara, *A Reference Grammar of Oklahoma Cherokee*, p. 57). Added and locked; the IPA
+    fields differ and only the surfaces collide, which is the honest state of the writing system.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

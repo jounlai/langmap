@@ -119,6 +119,12 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // /ɡɯ̄/, its eye is miə³¹ly³³ where the row writes nyi, its drink is thɯ³¹ where
 // the row writes chil — so it is not this row's variety and its homophony says
 // nothing about this row's. Left empty.
+// 2026-08-30: accepts chr ᎠᎹ = salt + water. The Cherokee syllabary writes no
+// vowel length and no tone, so the language's word for water and its word for
+// salt are the same six strokes and are told apart by pitch alone — àmã́ against
+// áːmã́ (Uchihara, A Reference Grammar of Oklahoma Cherokee, p. 57, via
+// en.wiktionary's two etymologies at ᎠᎹ). The IPA fields differ; only the
+// surfaces collide, which is the honest state of the writing system.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

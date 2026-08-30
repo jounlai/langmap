@@ -636,6 +636,11 @@
             user-select: none;
         }
         .toggle-btn:hover { background: #e8e8e8; border-color: #bbb; }
+        /* The Only toggle is disabled while the comparison list is empty. Say so
+           visually, or it reads as a dead button rather than as one waiting for
+           input. */
+        .toggle-btn:disabled { opacity: .4; cursor: not-allowed; }
+        .toggle-btn:disabled:hover { background: #f0f0f0; border-color: #d0d0d0; }
         .toggle-btn.active {
             background: #333; border-color: #222; color: #fff;
             box-shadow: 0 1px 4px rgba(0,0,0,0.25);
@@ -869,6 +874,25 @@
         body.is-3d .globe-label.selected.in-compare {
             box-shadow: 0 0 0 1px rgba(74,108,247,0.85),
                         0 0 0 3px rgba(245, 166, 35, 0.95);
+        }
+        /* With the Only toggle on, every label on the map IS the comparison set,
+           so the amber ring distinguishes nothing and just adds noise around
+           each of the four or five labels left. Drop it, in 2D and on the globe,
+           and let the blue `selected` state through unchanged — that one still
+           means something, because only one language can be selected at a time.
+           (owner request 2026-08-30) */
+        body.only-compare .lang-label.in-compare:not(.selected),
+        body.only-compare .globe-label.in-compare:not(.selected) {
+            background: none;
+            padding: 0;
+            box-shadow: none;
+        }
+        body.only-compare .lang-label.selected.in-compare,
+        body.only-compare .globe-label.selected.in-compare {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.22), 0 0 0 1px rgba(74,108,247,0.6);
+        }
+        body.is-3d.only-compare .globe-label.selected.in-compare {
+            box-shadow: 0 0 0 1px rgba(74,108,247,0.85);
         }
         /* Connector — drawn ABOVE the info modal (z-index 1011 vs panel
            1010) so the line visibly terminates on the panel surface
@@ -2744,6 +2768,10 @@
                  drawn at each language's true lat/lng so the de-cluttered
                  (offset) label can be related back to its real location. -->
             <button class="toggle-btn" id="toggle-pins" aria-pressed="false" aria-label="Toggle location pins"><span class="pin-label-row"><span class="pin-swatch" aria-hidden="true"></span><span class="label">Pins</span></span><span class="onoff">OFF</span></button>
+            <!-- Show only the languages in the comparison list. Disabled while
+                 that list is empty, because "only" would then mean "none" and
+                 an empty map reads as a bug rather than as a filter. -->
+            <button class="toggle-btn" id="toggle-only-compare" aria-pressed="false" disabled aria-label="Show only the languages in the comparison list"><span class="label">Only</span><span class="onoff">OFF</span></button>
             <div class="size-slider-wrap">
                 <!-- + on top, − on bottom; the hidden range input keeps the
                      existing JS surface (fontSizeSlider.value, input/change
@@ -3086,7 +3114,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=295"></script>
+    <script src="wordmap_data.js?v=296"></script>
     <script src="word_manifest.js?v=351"></script>
     <script src="word_labels.js?v=51"></script>
     <script>
@@ -3560,7 +3588,7 @@
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:   129,
-            data:      295,
+            data:      296,
             metaI18n:  16,
             filter:    45,
             names:   154,
@@ -4047,8 +4075,8 @@
             setNavText(document.getElementById('nav-name'), NAV_NAME[uiLang] || NAV_NAME.en);
             const sizeEl = document.getElementById('size-label');
             if (sizeEl) sizeEl.textContent = wt('size') || 'Font Size';
-            ['toggle-word','toggle-ipa','toggle-name','toggle-pins'].forEach(id => {
-                const key = id.replace('toggle-','');
+            ['toggle-word','toggle-ipa','toggle-name','toggle-pins','toggle-only-compare'].forEach(id => {
+                const key = id === 'toggle-only-compare' ? 'onlyCompare' : id.replace('toggle-','');
                 const el = document.getElementById(id);
                 if (!el) return;
                 const text = wt(key);
@@ -4060,6 +4088,9 @@
                 // toggle-pins isn't covered by the ariaTargets table below, so
                 // localize its aria-label here off the same short label.
                 if (id === 'toggle-pins') el.setAttribute('aria-label', text);
+                // Same for the Only toggle: not in ariaTargets, and its long
+                // form is the one that actually explains what "only" means.
+                if (id === 'toggle-only-compare') el.setAttribute('aria-label', wt('onlyCompareCol') || text);
                 // Refresh the ON/OFF text in the user's UI language.
                 if (typeof updateOnOff === 'function') {
                     updateOnOff(el, el.classList.contains('active'));
@@ -4476,11 +4507,20 @@
         // --- Toggle buttons ---
         let showWord = true, showIpa = true, showName = true, showNative = false;
         let showPins = false;
+        // "Only": restrict the map to the comparison list. Off by default, and
+        // force-off whenever that list is empty — see syncOnlyCompareBtn.
+        let onlyCompare = false;
+        // Single owner of the body class the CSS above keys off, so the amber
+        // ring can never be left on after the toggle goes off.
+        function applyOnlyCompareClass() {
+            document.body.classList.toggle('only-compare', !!onlyCompare);
+        }
         let showHistorical = false;
         const btnWord = document.getElementById('toggle-word');
         const btnIpa = document.getElementById('toggle-ipa');
         const btnName = document.getElementById('toggle-name');
         const btnPins = document.getElementById('toggle-pins');
+        const btnOnlyCompare = document.getElementById('toggle-only-compare');
         const nameNative = document.getElementById('name-native');
         const nameTranslated = document.getElementById('name-translated');
         const eraModern = document.getElementById('era-modern');
@@ -4536,6 +4576,8 @@
         setupToggle(btnWord, () => showWord, v => showWord = v);
         setupToggle(btnIpa, () => showIpa, v => showIpa = v);
         setupToggle(btnName, () => showName, v => showName = v);
+        if (btnOnlyCompare) setupToggle(btnOnlyCompare, () => onlyCompare, v => { onlyCompare = v; applyOnlyCompareClass(); });
+        if (btnOnlyCompare) btnOnlyCompare.addEventListener('click', () => updateHash());
         if (btnPins) setupToggle(btnPins, () => showPins, v => showPins = v);
         // Persist the pin toggle in the URL hash (unlike the form/pron/name
         // toggles). setupToggle's own click listener flips showPins first, so
@@ -5001,6 +5043,20 @@
             // compare action so the listed languages are visible at any
             // zoom level (without it, low-zoom views hide tiny-speaker
             // langs like Rotokas / Hawaiian).
+            // "Only" toggle: restrict to the comparison list, and — like the
+            // spotlight below — ignore zoom-tier gating, or turning it on at
+            // world zoom would hide the very languages it is meant to isolate.
+            // Runs FIRST so that an explicit user toggle wins over a transient
+            // trivia spotlight rather than the two silently intersecting.
+            if (onlyCompare && (window.__compareList || []).length) {
+                for (const code of window.__compareList) {
+                    const lang = LANG_DATA[code];
+                    if (!lang || !lang.words || !lang.words[wordId]) continue;
+                    if (isUnattestedEntry(lang.words[wordId])) unattestedLangs.push(code);
+                    else visibleLangs.push(code);
+                }
+                return { visibleLangs, unattestedLangs, descendantCodes };
+            }
             if (_triviaSpotlight && _triviaSpotlight.size > 0) {
                 for (const code of _triviaSpotlight) {
                     const lang = LANG_DATA[code];
@@ -6221,6 +6277,7 @@
             if (showNative)     params.set('nat', '1');   // default: off
             if (showHistorical) params.set('hist', '1');  // default: off
             if (showPins)       params.set('pin', '1');   // default: off
+            if (onlyCompare)    params.set('only', '1');  // default: off
             if (String(fontSizeSlider.value) !== '140') params.set('fs', String(fontSizeSlider.value)); // default: 140
             if (uiLang !== detectBrowserLang()) params.set('ui', uiLang);  // default: the viewer's own browser language
             if (is3D) {
@@ -6329,6 +6386,18 @@
                 btnPins.classList.toggle('active', showPins);
                 btnPins.setAttribute('aria-pressed', String(showPins));
                 if (typeof updateOnOff === 'function') updateOnOff(btnPins, showPins);
+            }
+            // Only-the-comparison-list toggle. Restored after the compare list
+            // itself (loadCompareList runs earlier in boot), so an `only=1` link
+            // with an empty cmp list lands disabled rather than blanking the map.
+            const onlyParam = params.get('only');
+            if (btnOnlyCompare) {
+                onlyCompare = onlyParam === '1' && (window.__compareList || []).length > 0;
+                btnOnlyCompare.classList.toggle('active', onlyCompare);
+                btnOnlyCompare.setAttribute('aria-pressed', String(onlyCompare));
+                btnOnlyCompare.disabled = (window.__compareList || []).length === 0;
+                if (typeof updateOnOff === 'function') updateOnOff(btnOnlyCompare, onlyCompare);
+                applyOnlyCompareClass();
             }
             const fs = parseInt(params.get('fs'));
             if (Number.isFinite(fs) && fs >= 50 && fs <= 200) {
@@ -8221,7 +8290,13 @@
         function saveCompareList() {
             window.__compareList = _compareList;
             try { localStorage.setItem(COMPARE_STORAGE_KEY, JSON.stringify(_compareList)); } catch (e) {}
+            try { syncOnlyCompareBtn(); } catch (e) {}
             try { updateHash(); } catch (e) {}
+            // With Only on, the visible set IS the comparison list, so any
+            // add/remove has to redraw the map and not just the amber rings.
+            if (typeof onlyCompare !== 'undefined' && onlyCompare) {
+                try { updateMarkers(currentWord); } catch (e) {}
+            }
         }
         function isInCompare(code) { return _compareList.indexOf(code) !== -1; }
         // Toggle the `in-compare` marker class on every label already in the
@@ -8229,6 +8304,24 @@
         // the current compare set. Cheap O(visible labels) DOM pass; called
         // after any mutation of _compareList. New labels created later pick
         // up the class directly from buildLabelHtml.
+        // The Only toggle is meaningless with an empty comparison list, so it is
+        // disabled there and forced off if the user empties the list while it is
+        // on — otherwise Clear would blank the map with no visible cause.
+        function syncOnlyCompareBtn() {
+            const btn = document.getElementById('toggle-only-compare');
+            if (!btn) return;
+            const n = (window.__compareList || []).length;
+            btn.disabled = n === 0;
+            if (n === 0 && typeof onlyCompare !== 'undefined' && onlyCompare) {
+                onlyCompare = false;
+                btn.classList.remove('active');
+                btn.setAttribute('aria-pressed', 'false');
+                if (typeof updateOnOff === 'function') updateOnOff(btn, false);
+                applyOnlyCompareClass();
+                try { updateMarkers(currentWord); } catch (_) {}
+                try { updateHash(); } catch (_) {}
+            }
+        }
         function refreshCompareMarkers() {
             const set = window.__compareList || [];
             document.querySelectorAll('.lang-label[data-code], .globe-label[data-code]').forEach(el => {
@@ -8626,6 +8719,26 @@
         loadCompareList();
         updateCompareFab();
         refreshCompareMarkers();
+        // loadHash() runs ~2,000 lines earlier than this, so at that point the
+        // comparison list is still empty and an `only=1` deep link could not be
+        // honoured. Re-apply it here, now that the list exists, and set the
+        // button's enabled state for the ordinary (no-hash) reload as well.
+        {
+            const btn = document.getElementById('toggle-only-compare');
+            if (btn) {
+                const has = (window.__compareList || []).length > 0;
+                btn.disabled = !has;
+                const want = new URLSearchParams(location.hash.slice(1)).get('only') === '1' && has;
+                if (want !== onlyCompare) {
+                    onlyCompare = want;
+                    btn.classList.toggle('active', want);
+                    btn.setAttribute('aria-pressed', String(want));
+                    if (typeof updateOnOff === 'function') updateOnOff(btn, want);
+                    applyOnlyCompareClass();
+                    try { updateMarkers(currentWord); } catch (_) {}
+                }
+            }
+        }
         // Arriving via a compare deep-link (#cmp=...) opens the panel directly.
         if (new URLSearchParams(location.hash.slice(1)).get('cmp')) openComparePanel();
 

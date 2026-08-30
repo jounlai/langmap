@@ -244,7 +244,7 @@ WORDS.honey = {
     mn: ["бал", "bal"],
 
     // --- Semitic *dibš- and *ʕasal- ------------------------------------
-    psem: ["*dibš-", "dibʃ-"],
+    psem: ["*dibš-", "dibʃ"],
     uga: ["𐎐𐎁𐎚", "nubtu"],
     akk: ["dišpu", "diʃpu"],
     hbo: ["דבש", "dəvaʃ"],

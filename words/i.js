@@ -627,7 +627,7 @@ WORDS.i = {
       p_aav: ["*ʔaɲ", "ʔaɲ"],
       ptai: ["*kuː", "kuː"],
       p_hmx: ["—", "—"],
-      pafa: ["*ʔan-", "ʔan-"],
+      pafa: ["*ʔan-", "ʔan"],
       pkar: ["*me", "me"],
       pmay: ["*in", "in"],
       puaz: ["*nɨ", "nɨ"],

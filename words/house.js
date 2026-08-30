@@ -640,7 +640,7 @@ WORDS.house = {
     puaz: ["*ki", "ki"],
     pban: ["*-jʊ̀", "-jʊ̀"],
     p_sit: ["—", "—"],
-    psem: ["*bayt-", "bayt-"],
+    psem: ["*bayt-", "bayt"],
     pura: ["—", "—"],
     p_dra: ["*il", "il"],
     paus: ["*Rumaq", "Rumaq"],

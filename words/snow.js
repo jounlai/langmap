@@ -436,7 +436,7 @@ WORDS.snow = {
     ptrk: ["*kar", "kaːr"],
     pmng: ["*časun", "tɕasun"],
     p_tun: ["*imana", "imana"],
-    pkar: ["*towl-", "towl-"],
+    pkar: ["*towl-", "towl"],
     p_sit: ["*s-pʷal", "s-pʷal"],
     psem: ["*ṯalg-", "θalɡ"],
     pura: ["*lume", "lume"],

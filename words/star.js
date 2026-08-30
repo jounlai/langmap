@@ -633,7 +633,7 @@ WORDS.star = {
       puaz: ["—", "—"],
       pban: ["—", "—"],
       p_sit: ["*s-kar", "s-kar"],
-      psem: ["*kawkab-", "kawkab-"],
+      psem: ["*kawkab-", "kawkab"],
       pura: ["—", "—"],
       p_dra: ["—", "—"],
       paus: ["*bituqen", "bituqen"],

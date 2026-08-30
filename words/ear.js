@@ -5,7 +5,7 @@
  * Sino-Tibetan *r-na (Tibetan རྣ་བ, Burmese နား), Proto-Austronesian *Caliŋa
  * (Malay telinga, Tagalog tainga), Japanese 耳 mimi (stable since Old
  * Japanese/Proto-Japonic *mimi), Korean 귀 gwi. Forms sourced from
- * historical/comparative linguistics; uncertain forms omitted (partial:true).
+ * historical/comparative linguistics; uncertain forms omitted.
  */
 WORDS.ear = {
   emoji: "👂",
@@ -684,27 +684,27 @@ WORDS.ear = {
     cjy_lv: ["耳", "ər˥˧"],
     cjy_xz: ["耳", "ər˥˧"],
     agx: ["ибур", "ibur"],
-    aqc: ["ой", "oy"],
+    aqc: ["ой", "oy"],
     ddo: ["ахІа", "aħa"],
     emp: ["kɨuɨ'rɨ", "kɨuɨ'rɨ"],
-    guc: ["ta-čeʔe", "ta-čeʔe"],
+    guc: ["ta-čeʔe", "ta-čeʔe"],
     huz: ["аᴴгъа", "aⁿɣa"],
     jam: ["ɛɩz", "ɛɩz"],
     kca: ["pal", "pal"],
     khv: ["агьи", "ahi"],
     kjj: ["тІоп", "tʼop"],
     kry: ["сибел", "sibel"],
-    mch: ["hāna", "hāna"],
+    mch: ["hāna", "hāna"],
     nut: ["khjou.2", "kʰjou"],
-    pbb: ["thũʔwẽ", "thũʔwẽ"],
+    pbb: ["thũʔwẽ", "thũʔwẽ"],
     rtm: ["faliŋa", "faliŋa"],
     rut: ["убур", "ubur"],
-    sel: ["üŋkɨma", "üŋkɨma"],
+    sel: ["üŋkɨma", "üŋkɨma"],
     shp: ["pa-βiki", "pa-βiki"],
     th_n: ["hu:.1", "huː"],
     th_s: ["hu:.1", "huː"],
     tkr: ["кІыры", "kʼɨrɨ"],
-    tue: ["kãbõ'pe-ro", "kãbõ'pe-ro"],
+    tue: ["kãbõ'pe-ro", "kãbõ'pe-ro"],
     udi: ["уъмуъх", "uˤmuˤx"],
     vo: ["lil", "lil"],
     ik: ["siun", "siun"],

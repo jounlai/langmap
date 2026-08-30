@@ -317,7 +317,7 @@ WORDS.cuckoo = {
     pmh: ["कोइल", "koˑilɐ"],
     nci: ["metlapīltetzotzontzin", "metɬapiːltetsotsoˈtsontsin"],
     p_ine: ["*gʰegʰuǵʰ-", "gʰegʰuǵʰ"],
-    pkar: ["*gugul-", "gugul-"],
+    pkar: ["*gugul-", "gugul"],
     zh_song: ["布穀", "puH kuwk"],
     zh_wenyan_edu: ["布穀", "pou˧ kʊk˥"],
     zh_han: ["布穀", "pɑs kok"],

@@ -780,5 +780,49 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     — mfa Patani Malay beside min *kito / kami*, tyz and nut beside za *raeuz / dou* — but "near-certain
     by family" is what put Bambara in the Konabéré row (handoff 40), so each still needs its own source.
 
+52. **A review of all 67 `words/` files, and the worst thing in it was one of our own checkers.**
+    Report: `docs/words/REVIEW_2026-08-30.md`. Verified item by item; the counts below are mine.
+
+    **`tools/wordmap_check.js` was silently skipping eight of the sixty-seven files.** It strips `//`
+    comments before its raw-text scan but never stripped `/* */`, and every `words/*.js` opens with a
+    prose header in one. An apostrophe in that header — "the map's first typological word" — read as
+    an opening string quote that never closed, so the scanner ran to EOF without finding `data: {`.
+    Any header with an ODD number of apostrophes was affected: **black, computer, five, four,
+    hundred, sushi, tea, woof**. The tool then printed `! four.js: no data block` and, below it,
+    `actionable: 0`.
+
+    **I share that failure.** I have run this checker perhaps thirty times this week and every single
+    time as `node tools/wordmap_check.js | tail -1`, which shows the `actionable: 0` and hides the
+    eight `!` lines above it. The review found the same class of thing in the other direction: it read
+    `validate_wordmap_data.js` printing five `#164` warnings and reported "5 cells", missing the
+    `(72 more — fix all)` line the validator prints right underneath. **A truncated output read as a
+    total, twice in one day, in opposite directions.** Both tools now say what they mean: a file the
+    scanner cannot reach is counted as `UNREAD` in `actionable`, not narrated.
+
+    What the repaired checker found: **15 duplicate language keys in `hundred.js`** — se, es_mx,
+    pt_br, jv, su, ban, ceb, mg, mi, sm, to, zu, xh, sn, rw, each listed twice. The file grew a second
+    Austronesian section and a second Africa section during the Chan pass. JavaScript keeps the last,
+    and in four cases the last is the better cell (`seˈlau` over `selau`, `ɾau` over `rau`, `teˈau`
+    over `teau`, `iʒana` over `idʒana`), so nothing wrong was ever displayed — but an editor working
+    in the first block would have seen no effect. Earlier duplicate removed in each case; verified the
+    runtime key set and every value are unchanged and only insertion order moved.
+
+    **Also fixed, all mechanical:** 77 proto cells carrying a trailing `-` in the IPA as well as the
+    surface (Audit Task 164's documented Option C keeps `*` and `-` in the surface only); 17 cells not
+    in Unicode NFC; 8 missing sentence-boundary spaces in the `computer` and `sushi` definitions;
+    `ear.js`'s header claiming `partial:true` when the word is core; and `atsign`'s definition, which
+    had 4 UI languages where all 66 other words have 23 — now 23.
+
+    **One more checker defect, from the same report:** `tools/script_consistency_check.js` read every
+    cell as `e[0]`, so the 22 rich `{form, ipa, alt}` cells yielded `undefined`, which stringifies to
+    the Latin word "undefined". That is where `och / n99 = undefined (Latin among Han×56)` came from —
+    a checker defect, not a data one. Fixed with a shared accessor. (The report suggested `e.surface`;
+    the field is `e.form`.)
+
+    **Not done, and each for a stated reason:** `asu` and `zts` are the ISO-code renames already
+    open as handoff 19 and 32, blocked on the same 301-redirect plan; `bbo` is handoff 40 and needs a
+    row-level source, not cell patches; the report's 234 form-claims with no named source and its 19
+    strict script candidates are research, not edits.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

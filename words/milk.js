@@ -592,7 +592,7 @@ WORDS.milk = {
     sux: ["𒂵", "ɡa"],
     ptrk: ["*sǖt", "syːt"],
     pmng: ["*sün", "syn"],
-    psem: ["*ḥalab-", "ħalab-"],
+    psem: ["*ḥalab-", "ħalab"],
     p_dra: ["*pāl", "pāl"],
     vi_nom: ["𣳪", "sɨə˧ˀ˥"],
     hsn_hy: ["牛奶", "niu˩˧ nai˥˩"],

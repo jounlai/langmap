@@ -211,7 +211,7 @@ WORDS.bear = {
     te: ["ఎలుగుబంటి", "eluɡubanʈi"],
 
     // --- Semitic: *dubb- straight through -----------------------------
-    psem: ["*dubb-", "dubb-"],
+    psem: ["*dubb-", "dubb"],
     akk: ["𒊍", "asu"],
     uga: ["𐎄𐎁", "dubbu"],
     hbo: ["דֹּב", "doːv"],
@@ -300,7 +300,7 @@ WORDS.bear = {
     iu: ["ᓇᓄᖅ", "nanuq"],
 
     // --- Caucasus -------------------------------------------------------
-    pkar: ["*datw-", "datw-"],
+    pkar: ["*datw-", "datw"],
     ka: ["დათვი", "datvi"],
     xmf: ["თუნთი", "tʰuntʰi"],
     lzz: ["მთუთი", "mtʰutʰi"],

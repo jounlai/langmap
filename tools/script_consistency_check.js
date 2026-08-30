@@ -37,7 +37,12 @@ function surfScript(s){const cnt={};for(const ch of String(s)){const sc=script(c
 const flags=[];
 for(const[code,d] of Object.entries(LD)){
   const per={},wScr={};
-  for(const w of WORDS){const e=W[w].data[code];if(!e||e[0]==='—')continue;const b=surfScript(e[0]);if(!b)continue;wScr[w]=b;per[b]=(per[b]||0)+1;}
+  // A cell is either [surface, ipa] or a rich {form, ipa, …} evidence object.
+  // Reading e[0] on the 22 rich cells yielded undefined, which stringifies to the
+  // Latin word "undefined" — that is where `och / n99 = undefined  (Latin among
+  // Han×56)` came from. A checker defect, not a data one (2026-08-30 review).
+  const surfOf = (e) => (Array.isArray(e) ? e[0] : (e && e.form));
+  for(const w of WORDS){const e=W[w].data[code];const sf=surfOf(e);if(!sf||sf==='—')continue;const b=surfScript(sf);if(!b)continue;wScr[w]=b;per[b]=(per[b]||0)+1;}
   const scripts=Object.entries(per).sort((a,b)=>b[1]-a[1]);if(scripts.length<2)continue;
   const[dom,domN]=scripts[0];if(domN<5)continue;
   for(const[sc,n] of scripts.slice(1)){
@@ -45,7 +50,7 @@ for(const[code,d] of Object.entries(LD)){
     // Japanese & friends legitimately mix kana with kanji
     if(dom==="Han"&&(sc==="Hiragana"||sc==="Katakana"))continue;
     for(const[w,ws] of Object.entries(wScr)){if(ws!==sc)continue;if(EXCEPTIONS.has(code+"|"+w))continue;
-      flags.push({code,name:d.name,word:w,surface:W[w].data[code][0],outlier:sc,dom,domN});}
+      flags.push({code,name:d.name,word:w,surface:surfOf(W[w].data[code]),outlier:sc,dom,domN});}
   }
 }
 if(flags.length){

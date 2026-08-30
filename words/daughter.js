@@ -908,7 +908,7 @@ WORDS.daughter = {
     uby: ["pχʲa", "pʰχʲa"],
     obr: ["သ္မိဟ်", "smih"],
     sog: ["ẟwɣt", "ðuɣd"],
-    pkar: ["*asul-", "asul-"],
+    pkar: ["*asul-", "asul"],
     ohu: ["leány", "leaːɲ"],
     puaz: ["*mala", "mala"],
     // --- harvested 2026-08-30 from the daughter agents' vetted output, after the

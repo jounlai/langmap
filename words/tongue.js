@@ -565,7 +565,7 @@ WORDS.tongue = {
     p_aav: ["*lntaːk", "lntaːk"],
     ptai: ["*liːn", "liːn"],
     p_hmx: ["*mblet", "mblet"],
-    pafa: ["*lis-", "lis-"],
+    pafa: ["*lis-", "lis"],
     pkar: ["*bli", "bli"],
     pmay: ["*aaqʼ", "aːqʼ"],
     puaz: ["*nene", "nene"],

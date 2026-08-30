@@ -628,7 +628,7 @@ WORDS.you = {
       ptai: ["—", "—"],
       p_hmx: ["—", "—"],
       pafa: ["—", "—"],
-      pkar: ["*sen-", "sen-"],
+      pkar: ["*sen-", "sen"],
       pmay: ["—", "—"],
       puaz: ["—", "—"],
       pban: ["—", "—"],

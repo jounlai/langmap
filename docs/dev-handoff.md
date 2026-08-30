@@ -733,5 +733,51 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     strokes (Uchihara, *A Reference Grammar of Oklahoma Cherokee*, p. 57). Added and locked; the IPA
     fields differ and only the surfaces collide, which is the honest state of the writing system.
 
+51. **`we`: the 50 black cells are not a tagging oversight — they are clusive languages missing their
+    second form.** Owner reported Bouyei and others showing black on the map. Verified:
+
+    - The original build's own scratch (`~/langmap-work/we.jsonl`, one line per language with a third
+      field SINGLE/CLUSIVE/UNKNOWN) marks **all 50 of them UNKNOWN**. Whoever built `we` knew these
+      were undecided and left them out rather than guessing. That was the right call.
+    - The atlas convention is strict and currently unbroken: **every one of the 222 `clusive` rows
+      carries two forms and every one of the 835 `single` rows carries one.** All 50 unrouted rows
+      carry exactly one form.
+    - **Grambank GB028** ("inclusive/exclusive distinction in independent personal pronouns", 2,451
+      languages, one cited source per row) settles **28 of the 50 — and every one of them is
+      `clusive`, none `single`.** That is the whole explanation: `single` rows were easy to finish
+      because one form is all they need, so the residue is entirely languages that need a second form
+      nobody had sourced. Bouyei is one of them (Grambank 1, Yu 1980:33).
+
+    So finishing `we` is not tagging work. It is 28+ languages × one sourced inclusive/exclusive pair
+    each, which is fill-agent work, not something to guess at.
+
+    **Method that works, for whoever picks this up.** Bible translations mark clusivity reliably and
+    ~14 of these languages already have a corpus in `~/langmap-work/milk2/eb/`. Contrast
+    **1 John 1:3 and Acts 4:20** (writer to reader — exclusive) against **1 John 1:9 and Matthew 6:12**
+    (writer with reader — inclusive), then take the tokens that occur in one set and never the other.
+    It separated Chol cleanly in one pass.
+
+    **Done: `ctu` Chol → `joñonla / joñon lojon`, clusive.** Both are free pronouns in the Chol NT
+    (34 and 23 occurrences). Peter saying "but WE have left everything" to Jesus is *joñon lojon*;
+    "the Spirit dwells in us" is *joñonla*. The old cell held only *lojon*, which is the exclusive
+    enclitic rather than the pronoun. Debt allowance lowered 50 → 49.
+
+    **Two that the same method nearly settled and I did NOT write, both for orthography reasons:**
+
+    - `maz` Mazahua. The NT attests *nuzgöji* (inclusive — "God is not with us people") against
+      *nuzgöjme* (exclusive — "WE who are natives of Israel; and you, who are not"), 9 and 10 times.
+      Unwritten because Mazahua ⟨ö⟩ needs an IPA value and no other cell in that row uses it, so I
+      would have been guessing between /ø/ and /ʌ/. The existing cell's *nuzgome* is a third spelling
+      that matches neither and is probably wrong.
+    - `dnj` Dan. 1 John 1:9 uses *kwa*, 1 John 1:3 and Acts 4:20 use *yi*, which matches Vydrin's
+      1PL.INCL kwa / 1PL.EXCL yi. Unwritten because Dan *yi* is also that row's own word for **water**,
+      so the cell would need a dup-lock entry, and because this row marks tone on every other cell
+      (tɔ́, plɛ̀, ŋ̄) and I have no tone for the pronouns.
+
+    **Not settled by Grambank at all — 21 after ctu:** jya, blk, iru, bft, lbj, dbq, dnj, zts, maz, jqr,
+    dng, lis, bhb, cja, nan_hai, mfa, mtq, tyz, wbm, nut, ktz. Several are near-certain by family
+    — mfa Patani Malay beside min *kito / kami*, tyz and nut beside za *raeuz / dou* — but "near-certain
+    by family" is what put Bambara in the Konabéré row (handoff 40), so each still needs its own source.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

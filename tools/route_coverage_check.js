@@ -48,7 +48,7 @@ const blank = (e) => {
 // project's policy, verb-marking does not count — takes a source per language.
 // Carried as debt so the tree stays green and any NEW gap still fails. Work it
 // down and shrink the number; the stale check below complains if it is too big.
-const DEBT = { we: 50 };
+const DEBT = { we: 49 };
 
 let violations = 0;
 const notes = [];

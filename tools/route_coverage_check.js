@@ -20,6 +20,12 @@
  * route. A route key that no language uses is reported too, since it means
  * either a dead legend entry or a typo in a key.
  *
+ * A word may also declare a route that means "not decided yet" — `we` has one,
+ * because whether a language splits its first-person plural takes a source per
+ * language and 49 of them are unsourced. That is better than leaving the cells
+ * unrouted, where the reader cannot tell "undecided" from "no data". It is
+ * ratcheted in UNDECIDED below so the category can only ever shrink.
+ *
  * Usage:
  *   node tools/route_coverage_check.js           # report
  *   node tools/route_coverage_check.js --check   # print "violations: N"
@@ -42,13 +48,19 @@ const blank = (e) => {
   return !s || /^[\s—–-]*$/.test(String(s));
 };
 
-// `we` colours by clusivity, and 50 of its languages have a pronoun but no
-// route. That is pre-existing and not fixable by rule: deciding whether a
-// language has an inclusive/exclusive contrast in its FREE pronoun — the
-// project's policy, verb-marking does not count — takes a source per language.
-// Carried as debt so the tree stays green and any NEW gap still fails. Work it
-// down and shrink the number; the stale check below complains if it is too big.
-const DEBT = { we: 49 };
+// Debt: languages with a word and no route entry at all. Empty now — `we` used
+// to carry 50 and they are now routed as `unknown` instead, which is visible on
+// the map rather than invisible. Keep this mechanism for the next word that
+// grows a gap.
+const DEBT = {};
+
+// A word may declare a route meaning "we have not decided yet". That is honest
+// and better than a blank — the reader sees "not determined" instead of a
+// language that quietly vanishes from the legend — but it must only ever
+// shrink, or the category becomes a place to put anything inconvenient. `we`'s
+// 49 are one sourced inclusive/exclusive pronoun pair each; see
+// docs/dev-handoff.md #51 for the list and the method that works.
+const UNDECIDED = { we: { route: 'unknown', max: 49 } };
 
 let violations = 0;
 const notes = [];
@@ -81,6 +93,18 @@ for (const id of routed) {
     notes.push(`✗ ${id}: route key not declared in routes{} — ${unknown.join(' ')}`);
   }
   if (unused.length) notes.push(`· ${id}: route declared but unused — ${unused.join(' ')}`);
+  const u = UNDECIDED[id];
+  if (u) {
+    const n = Object.values(w.family).filter((r) => r === u.route).length;
+    if (n > u.max) {
+      violations += n - u.max;
+      notes.push(`✗ ${id}: ${n} cells routed '${u.route}' but the ratchet allows ${u.max} — that route may only shrink`);
+    } else if (n < u.max) {
+      notes.push(`  ⚠ ${id}: '${u.route}' is down to ${n} from ${u.max} — lower the ratchet`);
+    } else {
+      notes.push(`· ${id}: ${n} cells still '${u.route}' (undecided, at the ratchet)`);
+    }
+  }
 }
 
 if (CHECK) { console.log(`violations: ${violations}`); process.exit(0); }

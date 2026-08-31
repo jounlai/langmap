@@ -621,7 +621,7 @@ WORDS.bear = {
     zza: ["heş", "hɛʃ"],
     mzn: ["اش", "æʃ"],
     bal: ["مم", "mamm"],
-    yai: ["хирс", "xirs"],
+    yai: ["xirs", "xirs"],
     ks: ["ہاپُتھ", "haːputʰ"],
     sd: ["رڇ", "rɪtʃʰu"],
     pnb: ["رچھ", "rɪtʃːʰ"],
@@ -710,6 +710,24 @@ WORDS.bear = {
     nso: ["bêrê", "bɛrɛ"],
     shy: ["abubaz", "abubaz"],
     ote: ["'muhu", "ʔmuhu"],
+
+    // --- 2026-08-31 bear pass 2: Germanic dialects, ancient Iranian/Semitic, misc (out_misc2.tsv)
+    gmh: ["ber", "bɛr"],
+    pdc: ["Baer", "bɛːr"],
+    gsw: ["Bärr", "bær"],
+    ave: ["𐬀𐬭𐬴𐬀", "arʃa"],
+    oar: ["דבא", "dubbaː"],
+    tig: ["ድብ", "dəbb"],
+    tly: ["xərs", "xəɾs"],
+    bdq: ["chơgơu", "tʃəɡəu"],
+
+    // --- 2026-08-31 bear pass 2: last IDS/NEL rows (out_misc3.tsv)
+    ess: ["кайӈа", "kajŋa"],
+    rom: ["riči", "ritʃi"],
+    mra: ["bɛk", "bɛk"],
+    wbm: ["krih", "krih"],
+    to: ["pea", "pea"],
+    rtm: ["pea", "pea"],
 
   },
 };

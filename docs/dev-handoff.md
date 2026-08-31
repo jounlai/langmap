@@ -1215,5 +1215,43 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     an ISO-based join would silently overwrite it. And Polyglotta Africana's **"Tíwi" is Tiv**
     (Nigeria), not Tiwi (Australia), and its "Kaure" is not Kabiyè; a name join mis-assigns both.
 
+66. **bear 404 → 587 (35% → 50%). And a case FOR giving this word a colour map — three colours, not
+    the taboo/non-taboo binary the header implies.** The agent's argument, which I find convincing:
+
+    - **Inherited-and-unreplaced** is far commoner than the header suggests, and geographically
+      coherent: PIE \*h₂ŕ̥tḱos across Iranian and Armenian, Nakh-Daghestanian \*sːe across ten
+      Lezgic/Tsezic rows, PST \*tV-wəm from Old Chinese through Tibetan དོམ, Burmese ဝက်ဝံ, Zaiwa
+      *wàm* and Nuosu ꊈ, PAn \*Cumay across every Formosan language, Tai \*hmwɯj across every Tai one,
+      Muskogean \*nita and Athabaskan \*sǝs each across their whole family. **These are the families
+      whose speakers live with bears and never stopped naming them.**
+    - **Taboo replacement is real but narrow and northern** — a belt, not a scatter: Germanic, Slavic,
+      Goidelic *mathgamain*, Finnic *kondii*, Khanty *mojpər* 'the guest', Mansi *wōrtōlnut*
+      'forest-eater', Yukaghir 'big grandfather', Shor 'old man'. Eleven of 183 new rows. **Muisca
+      *guia* is the Andean outlier that shows it is not merely a Eurasian areal habit.**
+    - **Loan / description / absent** is a latitude band, roughly 15°N to 35°S outside the Andes.
+
+    So the three colours are nearly predicted by whether bears live there. That is a stronger and more
+    falsifiable claim than "half of Indo-European was afraid of the word". **The ~200 deliberately
+    empty rows are load-bearing**: filling them with *oso*, *bea* and *urso* would erase the pattern
+    the map would exist to show. eBible states the absence bluntly — Huli, Kalam, Kanite, Mussau,
+    Hote, Faiwol, Mian, Abau, Rotokas, Enga, Mapos Buang, Komba, Yele, Kosraean, Yapese, Motu,
+    Pohnpeian, Chuukese and six Australian languages all render 'bear' with the English word, usually
+    inside an explicit frame ("the animal called *bea*").
+
+    **Fixed alongside: 8 cells carrying IDS's tone-class tag in the surface field.** `nut` ear
+    *khjou.2*, earth *na:m.6*, rain *phɔn.2*, wind *lam.2*; `th_n` and `th_s` ear *hu:.1*; `khb` rain
+    *fun.1*, wind *lum.2*. The `.N` is IDS's tone number, not part of the word, and each cell's own
+    IPA already had it stripped — so the IPA proved the intended form. Now zero.
+
+    **`duu` Drung needs a real source.** Sun's Tibeto-Burman gives Trung **bear and blood the same
+    form**, ɕɯi⁵⁵, in the same file, so one of its two slots is mis-glossed and the agent correctly
+    refused to write the bear cell. Worse, the atlas's own `duu` row disagrees with Sun on water
+    (ʃə against ŋɑŋ⁵⁵) and on eat (ʃə against kɑi⁵⁵) — and its `water` and `eat` are byte-identical to
+    each other, already sitting in the dup lock as `duu|eat|water`. That row wants checking as a row.
+
+    **Two more mis-glossed dataset slots confirmed:** NorthEuraLex's Aleut bear is *tangaax́*, which
+    is that row's own **water** (таӈах̆); and IDS's Coast Tsimshian bear is *masgmˀol*, where *masgm-*
+    is 'white' — the Kermode bear, not the generic. Neither was written.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

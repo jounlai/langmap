@@ -672,7 +672,7 @@ WORDS.earth = {
     lbe: ["аьрщи", "aˁrš̄i"],
     mch: ["nono", "nono"],
     nog: ["ер", "jer"],
-    nut: ["na:m.6", "naːm"],
+    nut: ["na:m", "naːm"],
     pbb: ["kiwe", "kiwe"],
     rap: ["ʔoʔone", "ʔoʔone"],
     rtm: ["pera", "pera"],

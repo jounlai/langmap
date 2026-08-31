@@ -1135,5 +1135,49 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     remaining Mexican gap (nhx, ngu, crn, hch, itz, usp, tzh, mixtec, mix, zap, zts, maz, toc) is a
     SIL-México dictionary PDF that is one download away from anywhere that resolves it.
 
+64. **wine 336 → 685 (29% → 59%), plus a new guard that found 20 mis-routed cells on its first run.**
+
+    **The guard.** `route_coverage_check.js` now checks that **two languages writing the word the same
+    way carry the same route.** It is not a subtlety — it is the same string, so it cannot have come
+    along two different roads. Twenty cells failed:
+
+    - `zu` *iwayini* routed `other` while `xh`, `nd` and `nbl` carry the **byte-identical** form as
+      `ie`; `th` ไวน์ as `other` beside `th_n`, `th_s`, `th_isan` as `ie`; `vi` *rượu vang* as `other`
+      beside `vi_c` and `vi_s` as `ie`. Eleven of these came from the fill agent's own report.
+    - Then the guard found nine more nobody had noticed: **ワイン is `other` in Japanese and all seven
+      of its dialect rows while the three Ryukyuan rows have it as `ie`** — and ワイン is English
+      *wine*. Plus Arbëresh *verë* as `other` beside Albanian *verë* as `ie`.
+
+    **Which field to compare is the whole design.** The check is opt-in per word because the routes
+    do not all mean the same thing: `wine`, `orange` and `n99` colour by where the FORM came from, so
+    compare surfaces; `tea` colours by the READING — 茶 is one character read *chá* on the land route
+    and *tê* on the sea route — so comparing surfaces would flag the entire Sinitic block as an error
+    when that block *is* the map; and `we` colours by a typological fact about the language, so two
+    rows can write 我们 identically and legitimately differ. `we` is not checkable this way at all.
+
+    **Also fixed: duplicate `es_mx` and `pt_br` keys in wine's `family` object** — the same class the
+    words/ review found in `hundred.js`. Both copies said `"ie"` so nothing was wrong on the map, but
+    an editor working on the first would have seen no effect.
+
+    **Two things the fill agent raised that are policy, not sourcing, and are still open:**
+
+    1. **What `sem` means.** The legend says "Semitic \*wayn-", but `arc`/`syc` ܚܡܪܐ, `ar_qur` خمر and
+       `akk` *karānu* are all routed `sem` and none is from \*wayn-, while `ar` نبيذ and every Arabic
+       dialect row is `other`. The agent followed the existing precedent, so the file is at least
+       self-consistent — but the legend and the data disagree about what the route is for. This also
+       blocks two otherwise-solid rows: **Udi фи** and **Caucasian Albanian 𐕔𐔼** are securely 'wine'
+       but derive from *either* PIE \*wéyh₁ō *or* Proto-Kartvelian \*ɣwino-, so they cannot be routed
+       until there is a rule for `ie` vs `kart`.
+    2. **Existing cells that are the wrong concept** — general alcohol, not grape wine: `ha` *giya* is
+       beer; `tl` *alak* is liquor generally (Wiktionary gives Tagalog "alak, **bino**"); `bn` মদ, `as`
+       মদ, `or` ମଦ, `ta` மது and `ne` मदिरा are all 'liquor'; and `am` ወይን is glossed 'grape', the wine
+       word being ወይን ጠጅ.
+
+    **Method worth reusing:** the agent required the word in **two or more** of a fixed checklist of
+    wine passages, and found that **Ephesians 5:18 works as a discriminator in the other direction** —
+    a language that switches to a *different* word there (Twi *nsã*, Dagbani *dam*, Ateso *ajon*,
+    Ewondo *mëyòg*) has proved its John 2 word is grape-specific rather than generic alcohol. About 53
+    rows were left out on exactly that test.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

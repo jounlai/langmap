@@ -18,7 +18,9 @@
  *
  * Blank cells ("—", the honest no-source marker) are exempt: there is no word to
  * route. A route key that no language uses is reported too, since it means
- * either a dead legend entry or a typo in a key.
+ * either a dead legend entry or a typo in a key. And two languages writing the
+ * word with exactly the same string cannot have got it along two different
+ * routes, so that is an error too — see the check at the end of the loop.
  *
  * A word may also declare a route that means "not decided yet" — `we` has one,
  * because whether a language splits its first-person plural takes a source per
@@ -98,6 +100,44 @@ for (const id of routed) {
     notes.push(`✗ ${id}: route key not declared in routes{} — ${unknown.join(' ')}`);
   }
   if (unused.length) notes.push(`· ${id}: route declared but unused — ${unused.join(' ')}`);
+  // Two languages that write the word EXACTLY the same way cannot have got it
+  // along two different routes. It found eleven rows in `wine` on 2026-08-31,
+  // including zu iwayini routed `other` while xh, nd and nbl carry the identical
+  // iwayini as `ie`, and th ไวน์ as `other` beside th_n, th_s and th_isan as
+  // `ie`. A route map is assembled language by language, so it drifts every time
+  // a block is added.
+  //
+  // Which field to compare depends on what the word's routes actually mean:
+  //
+  //   surface  the route is about where the FORM came from (wine, orange, n99).
+  //   ipa      the route is about the READING. `tea` is the case: 茶 is one
+  //            character read chá on the land route and tê on the sea route, so
+  //            comparing surfaces would flag the entire Sinitic block as an
+  //            error when it is the point of the map.
+  //   (absent) the route is not about the word at all. `we` colours by whether
+  //            the language splits its first person plural, so two languages can
+  //            write 我们 identically and still differ. Not checkable this way.
+  const SAME_FORM = { wine: 'surface', orange: 'surface', n99: 'surface', tea: 'ipa' };
+  if (SAME_FORM[id]) {
+    const field = SAME_FORM[id];
+    const byForm = {};
+    for (const [code, cell] of Object.entries(w.data || {})) {
+      if (blank(cell)) continue;
+      const r = w.family[code];
+      if (!r) continue;
+      const arr = Array.isArray(cell);
+      const surf = String(field === 'ipa' ? (arr ? cell[1] : cell.ipa) : (arr ? cell[0] : cell.form)).trim();
+      if (!surf) continue;
+      (byForm[surf] = byForm[surf] || []).push([code, r]);
+    }
+    for (const [surf, list] of Object.entries(byForm)) {
+      const routes = [...new Set(list.map((x) => x[1]))];
+      if (routes.length < 2) continue;
+      violations++;
+      notes.push(`✗ ${id}: "${surf}" is routed ${routes.length} ways — ` +
+        list.map(([c, r]) => `${c}=${r}`).join(' '));
+    }
+  }
   const u = UNDECIDED[id];
   if (u) {
     const n = Object.values(w.family).filter((r) => r === u.route).length;

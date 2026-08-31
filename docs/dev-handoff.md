@@ -929,5 +929,26 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     `gan_yc`, `hsn_yz`, `czh`, `czh_wy` and `yue_ts`'s remaining cells, none of which that table
     covers at all.
 
+57. **Toneless cells 17 → 6, by fetching 白 instead of trusting 舌.** Handoff 49 left thirteen 白 cells
+    unfilled because each row's only 陽入 witness was 舌, and 舌 reads ˩˨ in Hangzhou, Jinhua, Jiaxing
+    *and* Ningbo alike — one value copied across four unrelated lects, not four observations.
+
+    **Fetching the character itself sidesteps that entirely.** Wiktionary's 各地讀音 for 白 gives a
+    per-city value, so the row's own suspect witness is not needed. Ten of the thirteen filled:
+    Taiyuan ˥˦, Tunxi ˩˩, Nanchang ˨, Changsha ˨˦, Jian'ou ˦˦, Suzhou ˧, Hangzhou ˨, Ningbo ˩˨,
+    Jinhua ˨˩˨, Jiaxing ˨˨ — and note that those four Wu values are ˧, ˨, ˩˨, ˨˩˨, i.e. all
+    different, which is what a copied 舌 was hiding. **Only the tone was restored; the segments are
+    left as the row had them**, since that is the job this check describes and changing a segment is a
+    different one.
+
+    Two more fell out of the same two fetches. Fuzhou 卵 is /l̃ɑuŋ²⁴²/, so `cdo` 卵 ˧˩ → ˨˦˨, joining
+    that row's 耳 and 雨 — which then gave `cdo` 五 three agreeing witnesses and filled it too. Penang
+    卵 is /nui²¹/, so `nan_pn` 卵 ˨˨ → ˨˩, which clears that row's 陽上 class completely.
+
+    Advisory 27 → 25 as a side effect. **Six left**, and all six are genuinely stuck: `cjy_lv` 白 has
+    no witness at all; `cjy_xz` 白 and `czh_wy` 白 have exactly one each; `cjy_xz` 雪 and `czh_wy` 雪
+    have witnesses that split two ways; `gan_fz` 鸟 has three different values in its own 陰上. None of
+    the five is in Wiktionary's table.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

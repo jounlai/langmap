@@ -553,7 +553,7 @@ WORDS.egg = {
     xng: ["ᠥᠨᠳᠡᠭᠡᠨ", "øndeɡen"],
     ja_kg: ["卵", "tamaɡo"],
     ja_sd: ["卵", "tamaɡo"],
-    nan_pn: ["卵", "nŋ̍˨˨"],
+    nan_pn: ["卵", "nŋ̍˨˩"],
     pam: ["ebun", "ʔɛbun"],
     pag: ["iknol", "iknol"],
     kri: ["eg", "ɛɡ"],
@@ -774,7 +774,7 @@ WORDS.egg = {
     yue_nn: ["蛋", "taːn˨"],
     yue_zs: ["蛋", "taːn˨"],
     yue_ts: ["蛋", "an˧˨"],
-    cdo: ["卵", "louŋ˧˩"],
+    cdo: ["卵", "louŋ˨˦˨"],
     hak_hl: ["卵", "lon˨˦"],
     // --- Elsewhere in Asia — several rows can only say 'bird's egg'
     grt: ["doʼchi", "doʔtʃi"],

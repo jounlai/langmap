@@ -2609,12 +2609,21 @@ for (const ui of UI_LANGS) {
 }
 console.log('');
 // ── Self-hosted subset-font coverage guard (iPhone tofu prevention) ──
-// Chữ Nôm (CJK Ext B+, ≥U+20000) and Old Hangul conjoining jamo (U+1100–11FF)
-// render as tofu on iOS unless served by the self-hosted @font-face subsets
-// (fonts/NomNaTong-subset.woff2, fonts/NotoSerifKR-OldHangul-subset.ttf). Those
-// subsets are pinned to the exact codepoints in the data, so any NEW special
-// codepoint added to words/*.js without regenerating the subset font silently
-// breaks iPhone. This guard fails the build if that happens.
+// Chữ Nôm (CJK Ext B+, ≥U+20000) and the Korean historical codepoints — old
+// conjoining jamo U+1100–11FF and Ext-A/B, the archaic compatibility jamo
+// ㅸ ㅭ ㅿ ㆁ ㆆ in U+3130–318F, and the 방점 tone marks U+302E–302F — render
+// as tofu on iOS unless served by the self-hosted @font-face subsets
+// (fonts/NomNaTong-subset.woff2, fonts/NotoSerifKR-OldHangul.woff2). The Nôm
+// subset is still pinned to the exact codepoints in the data, so a NEW Nôm
+// character added to words/*.js without regenerating it silently breaks
+// iPhone. This guard fails the build if that happens.
+//
+// The Korean font is no longer pinned: it carries the whole of every block it
+// claims, because the pinned version cost real data. daughter.ko_jeju sat
+// blank for months with a comment explaining that ᄄᆞᆯ could not be written,
+// and both the wordmap and hanmap subsets turned out to be one codepoint short
+// of their own page anyway. The cmap is still read and still checked — a
+// re-subset that drops a codepoint will fail here.
 (function checkSubsetFontCoverage() {
     let html;
     try { html = read('wordmap.html'); } catch (e) { return; } // skip if absent
@@ -2636,10 +2645,34 @@ console.log('');
     //    read the real cmap, dependency-free).
     let jamoCmap = null;
     try {
-        const b = fs.readFileSync(path.join(__dirname, 'fonts', 'NotoSerifKR-OldHangul-subset.ttf'));
-        const u16 = o => b.readUInt16BE(o), u32 = o => b.readUInt32BE(o);
-        let cmapOff = 0; const nt = u16(4);
-        for (let i = 0; i < nt; i++) { const o = 12 + i*16; if (b.toString('ascii', o, o+4) === 'cmap') cmapOff = u32(o+8); }
+        //    The file is WOFF2, so the sfnt table directory has to be rebuilt
+        //    first: a WOFF2 stores a compact directory (tag nibble + variable-
+        //    length lengths) followed by ONE brotli stream holding every table
+        //    back to back. Only glyf/loca are ever transformed, so cmap comes
+        //    out of the stream verbatim at its cumulative offset.
+        const raw = fs.readFileSync(path.join(__dirname, 'fonts', 'NotoSerifKR-OldHangul.woff2'));
+        const KNOWN = ['cmap','head','hhea','hmtx','maxp','name','OS/2','post','cvt ','fpgm','glyf','loca','prep','CFF ','VORG','EBDT','EBLC','gasp','hdmx','kern','LTSH','PCLT','VDMX','vhea','vmtx','BASE','GDEF','GPOS','GSUB','EBSC','JSTF','MATH','CBDT','CBLC','COLR','CPAL','SVG ','sbix','acnt','avar','bdat','bloc','bsln','cvar','fdsc','feat','fmtx','fvar','gvar','hsty','just','lcar','mort','morx','opbd','prop','trak','Zapf','Silf','Glat','Gloc','Feat','Sill'];
+        let o = 48, numTables = raw.readUInt16BE(12);
+        const readBase128 = () => { let v = 0; for (let i = 0; i < 5; i++) { const byte = raw[o++]; v = (v << 7) | (byte & 0x7f); if (!(byte & 0x80)) break; } return v >>> 0; };
+        const dir = [];
+        for (let i = 0; i < numTables; i++) {
+            const flags = raw[o++];
+            const idx = flags & 0x3f;
+            const tag = idx === 0x3f ? raw.toString('ascii', o, (o += 4)) : KNOWN[idx];
+            const origLen = readBase128();
+            // A transformed table also carries its transformed length; glyf/loca
+            // use transform 0 as the DEFAULT, so the version bits read inverted
+            // for them. Only their lengths matter here — cmap is never transformed.
+            const ver = (flags >> 6) & 0x3;
+            const transformed = (tag === 'glyf' || tag === 'loca') ? ver !== 3 : ver !== 0;
+            const len = transformed ? readBase128() : origLen;
+            dir.push({ tag, len });
+        }
+        const stream = require('zlib').brotliDecompressSync(raw.subarray(o));
+        let cmapOff = 0, cursor = 0;
+        for (const t of dir) { if (t.tag === 'cmap') { cmapOff = cursor; break; } cursor += t.len; }
+        const b = stream;
+        const u16 = x => b.readUInt16BE(x), u32 = x => b.readUInt32BE(x);
         if (cmapOff) {
             const nSub = u16(cmapOff+2); let best = 0, bestFmt = -1;
             for (let i = 0; i < nSub; i++) { const o = cmapOff+4+i*8, plat = u16(o), enc = u16(o+2), off = u32(o+4), fmt = u16(cmapOff+off);
@@ -2661,13 +2694,16 @@ console.log('');
             const surf = d[code] && d[code][0]; if (typeof surf !== 'string') continue;
             for (const ch of surf) {
                 const cp = ch.codePointAt(0);
-                const isNom = cp >= 0x20000, isJamo = cp >= 0x1100 && cp <= 0x11FF;
+                const isNom = cp >= 0x20000;
+                const isJamo = (cp >= 0x1100 && cp <= 0x11FF) || (cp >= 0x302E && cp <= 0x302F)
+                    || (cp >= 0x3130 && cp <= 0x318F) || (cp >= 0xA960 && cp <= 0xA97F)
+                    || (cp >= 0xD7B0 && cp <= 0xD7FF);
                 if (!isNom && !isJamo) continue;
                 scanned++;
                 const ok = (isJamo && jamoCmap) ? jamoCmap.has(cp) : inDeclared(cp);
                 if (!ok) {
                     uncovered++;
-                    const kind = isNom ? 'Chữ Nôm (CJK Ext B+)' : 'Old Hangul jamo';
+                    const kind = isNom ? 'Chữ Nôm (CJK Ext B+)' : 'Korean historical (jamo / 방점)';
                     E(`subset-font coverage: ${kind} U+${cp.toString(16).toUpperCase()} "${ch}" in ${id}.${code} surface "${surf}" is NOT in the self-hosted subset font → tofu on iPhone. Regenerate the fonts/ subset and its @font-face unicode-range (wordmap.html + hanmap.html) to include it.`);
                 }
             }

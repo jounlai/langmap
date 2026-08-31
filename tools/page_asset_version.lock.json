@@ -12,8 +12,8 @@
     "hash": "f0e902b436bb7617"
   },
   "hanmap_trivia.js": {
-    "version": 14,
-    "hash": "763cb7f4cb644789"
+    "version": 15,
+    "hash": "01295c4dd29d5f8a"
   },
   "lang-filter.js": {
     "version": 45,
@@ -72,15 +72,15 @@
     "hash": "24c807781aa6c6d0"
   },
   "styles.css": {
-    "version": 129,
-    "hash": "087237ed0b7e7156"
+    "version": 130,
+    "hash": "c875137512b57c09"
   },
   "word_labels.js": {
     "version": 51,
     "hash": "b786b089502dc1fe"
   },
   "word_manifest.js": {
-    "version": 369,
+    "version": 370,
     "hash": "911fd1b40a6f80ea"
   },
   "wordmap_data.js": {

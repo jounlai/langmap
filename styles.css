@@ -7,6 +7,25 @@
     height: 256.5px !important;
 }
 
+/* Old Hangul conjoining jamo (U+1100-11FF + Extended-A/B). The Lang Map
+   sentence data carries 30 of them — Middle Korean ko_mid renders "나ᄂᆞᆫ
+   새로온 ᄆᆞᄅᆞᆯ …" — and this stylesheet, shared by index.html, tree.html and
+   namemap.html, had no @font-face for them at all. Google's Noto Sans/Serif
+   KR web subsets omit the whole block, so every jamo fell through to the
+   system font: broken composition on PC Chrome, tofu on iPhone. wordmap.html
+   and hanmap.html each self-hosted their own subset; this is the same file
+   they now share, scoped by unicode-range so it is fetched only when a page
+   actually shows Old Hangul. The family name still has to appear in the
+   font-family chain of anything that renders it — see body and .segment. */
+@font-face {
+    font-family: 'Noto Serif KR Old Jamo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/NotoSerifKR-OldHangul.woff2') format('woff2');
+    unicode-range: U+1100-11FF, U+302E-302F, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
 /* Single accent colour for all interactive UI (links, buttons, focus,
    selected states). Consolidated from several near-duplicate blues so the
    interface reads as deliberately designed rather than assembled. */
@@ -30,7 +49,7 @@ body {
        body font-family extension). Tibetan fallback is now scoped to
        the elements that actually contain Tibetan codepoints
        (.segment, .node.leaf .native) below. */
-    font-family: 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
+    font-family: 'Noto Serif KR Old Jamo', 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
     background: #f0f2f5;
     min-height: 100vh;
     padding: 20px;
@@ -755,7 +774,8 @@ select:focus { border-color: var(--accent); outline: none; }
        while Greek/Cyrillic (not in Noto Serif Tibetan) dropped to the system
        sans. Inserting -apple-system etc. here keeps all alphabetic scripts
        uniformly sans-serif; only Tibetan reaches the serif Tibetan fallback. */
-    font-family: 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai',
+    font-family: 'Noto Serif KR Old Jamo',
+        'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai',
         -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', 'Arial',
         'Noto Serif Tibetan', 'Kailasa', 'Microsoft Himalaya', 'Jomolhari', 'Tibetan Machine Uni',
         sans-serif;

@@ -65,7 +65,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=129">
+    <link rel="stylesheet" href="styles.css?v=130">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -199,23 +199,33 @@
             src: url('fonts/NotoSansTifinagh-subset.woff2') format('woff2');
             unicode-range: U+2D30-2D7F;
         }
-        /* Old Hangul Jamo (conjoining, used in Middle Korean ko_mid and
-           Early-Modern Korean ko_em) — ᆞ arae-a, ᆡ arae-a-i, ᅀ pansiot,
-           ᄉ ᄒ ᄃ etc. Google Fonts' default Noto Serif KR subset omits
-           U+1100-11FF entirely; iOS Hiragino lacks it too. Without
-           explicit scoping the chars fall back to system sans-serif on
-           PC Chrome and tofu on iPhone. Self-host a 32 KB Noto Serif KR
-           subset (downloaded via Google Fonts text= API) and scope it
-           with unicode-range so the browser ALWAYS uses it for old jamo,
-           regardless of font-family chain order. The font carries the
-           GPOS rules needed for proper jamo composition. */
+        /* Old Hangul Jamo (conjoining, used in Middle Korean ko_mid,
+           Early-Modern Korean ko_em and Jeju ko_jeju) — ᆞ arae-a, ᆡ
+           arae-a-i, ᅀ pansiot, ᄉ ᄒ ᄃ etc. Google Fonts' default Noto
+           Serif KR subset omits U+1100-11FF entirely; iOS Hiragino lacks
+           it too. Without explicit scoping the chars fall back to system
+           sans-serif on PC Chrome and tofu on iPhone. Self-host a Noto
+           Serif KR subset and scope it with unicode-range so the browser
+           always uses it for old jamo. The font carries the ljmo/vjmo/tjmo
+           GSUB rules needed for proper jamo composition.
+
+           This used to be a 20-codepoint subset cut to exactly the jamo
+           the WordMap cells contained, and hanmap.html carried a SECOND
+           24-codepoint subset for the jamo the first one lacked. Both
+           were then found to be one codepoint short of their own page's
+           data (wordmap ᄄ U+1104, hanmap ᅲ U+1172), and neither covered
+           the 30 jamo in the Lang Map sentences at all. A per-character
+           subset cannot survive new data, so this is now the WHOLE jamo
+           range — U+1100-11FF plus Extended-A and Extended-B — 200 KB,
+           fetched only by readers who actually look at a Korean
+           historical row. tools/oldhangul_font_check.js keeps it honest. */
         @font-face {
             font-family: 'Noto Serif KR Old Jamo';
             font-style: normal;
             font-weight: 400;
             font-display: swap;
-            src: url('fonts/NotoSerifKR-OldHangul-subset.ttf') format('truetype');
-            unicode-range: U+1100-11FF;
+            src: url('fonts/NotoSerifKR-OldHangul.woff2') format('woff2');
+            unicode-range: U+1100-11FF, U+302E-302F, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
         }
 
         /* Historic-script subsets (owner 2026-08-21). The font chains name
@@ -3115,7 +3125,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=296"></script>
-    <script src="word_manifest.js?v=369"></script>
+    <script src="word_manifest.js?v=370"></script>
     <script src="word_labels.js?v=51"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -3587,16 +3597,16 @@
         // caught at validation time. The dynamic wordmap_meta.js load
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
-            styles:   129,
+            styles:   130,
             data:      296,
             metaI18n:  16,
             filter:    45,
             names:   154,
             meta:     293,
-            trivia:   32,
-            triviaI18n: 6,
-            words:      369,
-            langWords:    138,
+            trivia:   34,
+            triviaI18n: 8,
+            words:      370,
+            langWords:    139,
             labels:      51,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,

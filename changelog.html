@@ -28,8 +28,8 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=129">
-    <link rel="stylesheet" href="styles.css?v=129">
+    <link rel="stylesheet" href="styles.css?v=130">
+    <link rel="stylesheet" href="styles.css?v=130">
     <style>
         .changelog {
             max-width: 760px;
@@ -141,6 +141,16 @@
         </div>
 
         <nav class="month-nav">Months: <strong>2026-08</strong> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-08-31 — Middle Korean was unreadable on the Word Order map, and one letter had been left out of the atlas entirely ᄆᆞ</div>
+            <ul>
+                <li><strong>Old Hangul — the 15th-century letters with the dot vowel ᆞ, ᄆᆞᄅᆞᆯ, ᄒᆞ노라 — needs a font almost nobody has.</strong> Google's Korean webfonts leave the whole block out, iPhones have nothing for it, and desktop Chrome puts the letters side by side instead of stacking them into syllables. The Word Map and the Han Map each shipped their own hand-cut font for it. The <strong>Word Order map never had one</strong>, so every Middle Korean sentence on the front page — 나ᄂᆞᆫ 새로온 ᄆᆞᄅᆞᆯ … — has been broken or blank for its whole life. Reported by the owner.</li>
+                <li><strong>The two fonts that did exist were each one letter short of their own page</strong>, because both were cut to exactly the letters the data contained on the day they were made: the Word Map's was missing ᄄ, the Han Map's ᅲ. There is now one font, cut to the whole range instead of to today's data — every conjoining letter, the archaic ㅸ ㅭ ㅿ ㆁ ㆆ, and the 방점 tone dots — shared by every page and fetched only by readers who actually open a Korean historical row.</li>
+                <li><strong>Jeju's word for "daughter" was missing from the atlas because of this.</strong> Jeju writes it ᄄᆞᆯ, and the cell had been left deliberately blank with a note saying the letter ᄄ could not be displayed. It is filled in now.</li>
+                <li>A new check reads the shipped font's actual character list, compares it against every Korean historical letter in the data, and confirms each page both declares the font and actually uses it — the three ways this has broken so far.</li>
+            </ul>
+        </div>
 
         <div class="entry">
             <div class="date">2026-08-31 — Every button in an article page was decoration; now they all go somewhere 🔗</div>

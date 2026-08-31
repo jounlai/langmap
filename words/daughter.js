@@ -447,10 +447,12 @@ WORDS.daughter = {
     ko_yb: ["딸", "t͈al"],
     ko_hg: ["딸", "t͈al"],
     ko_jl: ["딸", "t͈al"],
-    // ko_jeju: Jeju writes daughter ᄄᆞᆯ, with arae-a — but that needs the Old
-    // Hangul jamo U+1104 ᄄ, which is not in the self-hosted subset font (it has
-    // 20 glyphs and no tool rebuilds it). It would be tofu on iPhone, so the row
-    // is blank rather than broken. Same reason as four.vi_nom.
+    // Jeju writes daughter with arae-a, ᄄᆞᆯ. This cell was blank until
+    // 2026-08-31 because U+1104 ᄄ was missing from the 20-glyph Old Hangul
+    // subset font and would have been tofu; the font now carries the whole
+    // conjoining-jamo range. Arae-a is /ʌ/ throughout this row (ᄇᆞ름 pʌɾɯm,
+    // ᄒᆞ다 hʌda), and ko_em ᄯᆞᆯ is the same word.
+    ko_jeju: ["ᄄᆞᆯ", "t͈ʌl"],
     ko_mid: ["ᄯᆞᆯ〮", "stʌl"],
     ko_em: ["ᄯᆞᆯ", "t͈ʌl"],
     ain: ["マッネポ", "matnepo"],

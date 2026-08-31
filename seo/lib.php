@@ -212,6 +212,7 @@ const SEO_T = [
         'sources' => 'Sources', 'languages' => 'Languages',
         'hidden' => 'Historical & hidden varieties',
         'foot' => 'Part of LangMap — a linguistic visualization project. This is a static, crawlable summary; the interactive maps offer pronunciation audio, filters, and a globe view.',
+        'open_map' => 'Open the interactive map', 'made_by' => 'Made by',
         'words_heading' => '{w} core words in {name}',
         'chars_heading' => 'Han character readings in {name}',
         'hidden_tag' => 'historical / hidden variety',
@@ -266,6 +267,7 @@ const SEO_T = [
         'sources' => '出典', 'languages' => '言語',
         'hidden' => '歴史的・非表示の変種',
         'foot' => 'LangMap — 言語の可視化プロジェクトの一部です。これは静的でクロール可能な要約です。インタラクティブマップでは発音音声・フィルター・地球儀ビューを利用できます。',
+        'open_map' => 'インタラクティブ版を開く', 'made_by' => '制作',
         'words_heading' => '{name}の基本{w}語',
         'chars_heading' => '{name}の漢字の読み',
         'hidden_tag' => '歴史的・非表示の変種',
@@ -320,6 +322,7 @@ const SEO_T = [
         'sources' => '출처', 'languages' => '언어',
         'hidden' => '역사적·숨겨진 변종',
         'foot' => 'LangMap — 언어 시각화 프로젝트의 일부입니다. 정적이고 크롤링 가능한 요약이며, 인터랙티브 지도에서는 발음 음성, 필터, 지구본 보기를 제공합니다.',
+        'open_map' => '인터랙티브 지도 열기', 'made_by' => '제작',
         'words_heading' => '{name}의 핵심 단어 {w}개',
         'chars_heading' => '{name}의 한자 독음',
         'hidden_tag' => '역사적·숨겨진 변종',
@@ -374,6 +377,7 @@ const SEO_T = [
         'sources' => '来源', 'languages' => '语言',
         'hidden' => '历史与隐藏变体',
         'foot' => 'LangMap — 语言可视化项目的一部分。这是静态、可抓取的摘要；交互式地图提供发音音频、筛选和地球视图。',
+        'open_map' => '打开交互式地图', 'made_by' => '制作',
         'words_heading' => '{name}的{w}个核心词',
         'chars_heading' => '{name}的汉字读音',
         'hidden_tag' => '历史／隐藏变体',
@@ -428,6 +432,7 @@ const SEO_T = [
         'sources' => '來源', 'languages' => '語言',
         'hidden' => '歷史同隱藏變體',
         'foot' => 'LangMap — 語言視覺化項目嘅一部分。呢個係靜態、可抓取嘅摘要；互動地圖提供發音音頻、篩選同地球視圖。',
+        'open_map' => '打開互動地圖', 'made_by' => '製作',
         'words_heading' => '{name}嘅{w}個核心詞',
         'chars_heading' => '{name}嘅漢字讀音',
         'hidden_tag' => '歷史／隱藏變體',
@@ -482,6 +487,7 @@ const SEO_T = [
         'sources' => 'Nguồn', 'languages' => 'Ngôn ngữ',
         'hidden' => 'Biến thể lịch sử & ẩn',
         'foot' => 'Một phần của LangMap — dự án trực quan hóa ngôn ngữ. Đây là bản tóm tắt tĩnh, có thể thu thập; bản đồ tương tác cung cấp âm thanh phát âm, bộ lọc và chế độ xem địa cầu.',
+        'open_map' => 'Mở bản đồ tương tác', 'made_by' => 'Thực hiện bởi',
         'words_heading' => '{w} từ cốt lõi trong {name}',
         'chars_heading' => 'Cách đọc chữ Hán trong {name}',
         'hidden_tag' => 'biến thể lịch sử / ẩn',
@@ -536,6 +542,7 @@ const SEO_T = [
         'sources' => 'แหล่งข้อมูล', 'languages' => 'ภาษา',
         'hidden' => 'รูปแบบทางประวัติศาสตร์และที่ซ่อน',
         'foot' => 'ส่วนหนึ่งของ LangMap — โครงการแสดงภาพทางภาษาศาสตร์ นี่คือสรุปแบบสถิตที่ค้นเก็บได้ แผนที่แบบโต้ตอบมีเสียงการออกเสียง ตัวกรอง และมุมมองลูกโลก',
+        'open_map' => 'เปิดแผนที่แบบโต้ตอบ', 'made_by' => 'จัดทำโดย',
         'words_heading' => '{w} คำหลักใน {name}',
         'chars_heading' => 'การอ่านอักษรจีนใน {name}',
         'hidden_tag' => 'รูปแบบทางประวัติศาสตร์ / ที่ซ่อน',
@@ -590,6 +597,7 @@ const SEO_T = [
         'sources' => 'Sumber', 'languages' => 'Bahasa',
         'hidden' => 'Varietas historis & tersembunyi',
         'foot' => 'Bagian dari LangMap — proyek visualisasi linguistik. Ini ringkasan statis yang dapat dirayapi; peta interaktif menyediakan audio pelafalan, filter, dan tampilan globe.',
+        'open_map' => 'Buka peta interaktif', 'made_by' => 'Dibuat oleh',
         'words_heading' => '{w} kata inti dalam {name}',
         'chars_heading' => 'Bacaan aksara Han dalam {name}',
         'hidden_tag' => 'varietas historis / tersembunyi',
@@ -644,6 +652,7 @@ const SEO_T = [
         'sources' => 'स्रोत', 'languages' => 'भाषाएँ',
         'hidden' => 'ऐतिहासिक और छिपी किस्में',
         'foot' => 'LangMap का हिस्सा — एक भाषाई विज़ुअलाइज़ेशन परियोजना। यह एक स्थिर, क्रॉल-योग्य सारांश है; इंटरैक्टिव मानचित्र उच्चारण ऑडियो, फ़िल्टर और ग्लोब दृश्य प्रदान करते हैं।',
+        'open_map' => 'इंटरैक्टिव मानचित्र खोलें', 'made_by' => 'निर्माता',
         'words_heading' => '{name} में {w} मूल शब्द',
         'chars_heading' => '{name} में हान वर्णों की पठन',
         'hidden_tag' => 'ऐतिहासिक / छिपी किस्म',
@@ -698,6 +707,7 @@ const SEO_T = [
         'sources' => 'Quellen', 'languages' => 'Sprachen',
         'hidden' => 'Historische & verborgene Varietäten',
         'foot' => 'Teil von LangMap — einem Projekt zur Sprachvisualisierung. Dies ist eine statische, crawlbare Zusammenfassung; die interaktiven Karten bieten Ausspracheaudio, Filter und eine Globusansicht.',
+        'open_map' => 'Die interaktive Karte öffnen', 'made_by' => 'Erstellt von',
         'words_heading' => '{w} Kernwörter in {name}',
         'chars_heading' => 'Lesungen der Han-Zeichen in {name}',
         'hidden_tag' => 'historische / verborgene Varietät',
@@ -752,6 +762,7 @@ const SEO_T = [
         'sources' => 'Sources', 'languages' => 'Langues',
         'hidden' => 'Variétés historiques & masquées',
         'foot' => 'Fait partie de LangMap — un projet de visualisation linguistique. Ceci est un résumé statique et explorable ; les cartes interactives offrent l’audio de prononciation, des filtres et une vue globe.',
+        'open_map' => 'Ouvrir la carte interactive', 'made_by' => 'Réalisé par',
         'words_heading' => '{w} mots essentiels en {name}',
         'chars_heading' => 'Lectures des caractères han en {name}',
         'hidden_tag' => 'variété historique / masquée',
@@ -806,6 +817,7 @@ const SEO_T = [
         'sources' => 'Fonti', 'languages' => 'Lingue',
         'hidden' => 'Varietà storiche & nascoste',
         'foot' => 'Parte di LangMap — un progetto di visualizzazione linguistica. Questo è un riepilogo statico e scansionabile; le mappe interattive offrono audio di pronuncia, filtri e una vista globo.',
+        'open_map' => 'Apri la mappa interattiva', 'made_by' => 'Realizzato da',
         'words_heading' => '{w} parole essenziali in {name}',
         'chars_heading' => 'Letture dei caratteri han in {name}',
         'hidden_tag' => 'varietà storica / nascosta',
@@ -860,6 +872,7 @@ const SEO_T = [
         'sources' => 'Fuentes', 'languages' => 'Lenguas',
         'hidden' => 'Variedades históricas y ocultas',
         'foot' => 'Parte de LangMap — un proyecto de visualización lingüística. Este es un resumen estático y rastreable; los mapas interactivos ofrecen audio de pronunciación, filtros y una vista de globo.',
+        'open_map' => 'Abrir el mapa interactivo', 'made_by' => 'Creado por',
         'words_heading' => '{w} palabras esenciales en {name}',
         'chars_heading' => 'Lecturas de caracteres han en {name}',
         'hidden_tag' => 'variedad histórica / oculta',
@@ -914,6 +927,7 @@ const SEO_T = [
         'sources' => 'Fontes', 'languages' => 'Línguas',
         'hidden' => 'Variedades históricas e ocultas',
         'foot' => 'Parte do LangMap — um projeto de visualização linguística. Este é um resumo estático e rastreável; os mapas interativos oferecem áudio de pronúncia, filtros e uma vista de globo.',
+        'open_map' => 'Abrir o mapa interativo', 'made_by' => 'Criado por',
         'words_heading' => '{w} palavras essenciais em {name}',
         'chars_heading' => 'Leituras de caracteres han em {name}',
         'hidden_tag' => 'variedade histórica / oculta',
@@ -968,6 +982,7 @@ const SEO_T = [
         'sources' => 'Источники', 'languages' => 'Языки',
         'hidden' => 'Исторические и скрытые разновидности',
         'foot' => 'Часть LangMap — проекта визуализации языков. Это статическое, индексируемое резюме; интерактивные карты предлагают аудио произношения, фильтры и вид глобуса.',
+        'open_map' => 'Открыть интерактивную карту', 'made_by' => 'Автор',
         'words_heading' => '{w} основных слов на языке {name}',
         'chars_heading' => 'Чтения ханьских иероглифов на языке {name}',
         'hidden_tag' => 'историческая / скрытая разновидность',
@@ -1022,6 +1037,7 @@ const SEO_T = [
         'sources' => 'Джерела', 'languages' => 'Мови',
         'hidden' => 'Історичні та приховані різновиди',
         'foot' => 'Частина LangMap — проєкту візуалізації мов. Це статичне, індексоване резюме; інтерактивні карти пропонують аудіо вимови, фільтри та вигляд глобуса.',
+        'open_map' => 'Відкрити інтерактивну карту', 'made_by' => 'Автор',
         'words_heading' => '{w} основних слів мовою {name}',
         'chars_heading' => 'Читання ханьських ієрогліфів мовою {name}',
         'hidden_tag' => 'історичний / прихований різновид',
@@ -1076,6 +1092,7 @@ const SEO_T = [
         'sources' => 'المصادر', 'languages' => 'اللغات',
         'hidden' => 'أنواع تاريخية ومخفية',
         'foot' => 'جزء من LangMap — مشروع لتصور اللغات. هذا ملخص ثابت قابل للفهرسة؛ توفر الخرائط التفاعلية صوت النطق والمرشحات وعرض الكرة الأرضية.',
+        'open_map' => 'افتح الخريطة التفاعلية', 'made_by' => 'من إعداد',
         'words_heading' => '{w} كلمة أساسية في {name}',
         'chars_heading' => 'قراءات الحروف الهانية في {name}',
         'hidden_tag' => 'نوع تاريخي / مخفي',
@@ -1130,6 +1147,7 @@ const SEO_T = [
         'sources' => 'מקורות', 'languages' => 'שפות',
         'hidden' => 'גרסאות היסטוריות ומוסתרות',
         'foot' => 'חלק מ-LangMap — פרויקט להמחשת שפות. זהו סיכום סטטי הניתן לסריקה; המפות האינטראקטיביות מציעות שמע הגייה, מסננים ותצוגת גלובוס.',
+        'open_map' => 'לפתיחת המפה האינטראקטיבית', 'made_by' => 'נוצר על ידי',
         'words_heading' => '{w} מילים בסיסיות ב{name}',
         'chars_heading' => 'קריאות תווי האן ב{name}',
         'hidden_tag' => 'גרסה היסטורית / מוסתרת',
@@ -1184,6 +1202,7 @@ const SEO_T = [
         'sources' => 'Vyanzo', 'languages' => 'Lugha',
         'hidden' => 'Aina za kihistoria & zilizofichwa',
         'foot' => 'Sehemu ya LangMap — mradi wa kuonyesha lugha kwa picha. Huu ni muhtasari tuli unaoweza kutambaliwa; ramani shirikishi hutoa sauti ya matamshi, vichujio, na mwonekano wa dunia.',
+        'open_map' => 'Fungua ramani shirikishi', 'made_by' => 'Imetengenezwa na',
         'words_heading' => 'Maneno {w} ya msingi katika {name}',
         'chars_heading' => 'Usomaji wa herufi za Han katika {name}',
         'hidden_tag' => 'aina ya kihistoria / iliyofichwa',
@@ -1573,6 +1592,9 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-foot { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
   color: var(--muted); font-size: .9rem; }
 .seo-foot a { color: var(--accent); }
+.seo-foot-cta { margin: 0 0 .9rem; font-size: 1rem; }
+.seo-foot-cta a { white-space: nowrap; }
+.seo-foot-credit { margin: .9rem 0 0; font-size: .85rem; opacity: .85; }
 .seo-related { margin: 2.5rem 0 0; }
 .seo-related h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-bottom: 2px solid var(--line);
   padding-bottom: .35rem; }
@@ -2635,9 +2657,26 @@ function seo_comparisons(string $map, string $code, string $ui,
 
 function seo_foot(string $ui = 'en'): void
 {
+    // Owner report 2026-08-31: these pages ended on one sentence of prose, with
+    // no credit and no obvious way back into the site. A reader who lands here
+    // from a search result has read the static summary and then has nowhere to
+    // go — the only links were the see-also line far above. So the footer now
+    // carries the way in (named, not a bare "home" link) and the byline.
+    $home = seo_path($ui, '');
     ?>
 <div class="seo-foot">
+  <p class="seo-foot-cta"><strong><?= e(seo_t($ui, 'open_map')) ?>:</strong>
+    <a href="/wordmap.html">Word Map</a> &middot;
+    <a href="/hanmap.html">HanMap</a> &middot;
+    <a href="/namemap.html">Name Map</a> &middot;
+    <a href="/index.html">Word Order</a> &middot;
+    <a href="/tree.html">Tree</a></p>
   <p><?= e(seo_t($ui, 'foot')) ?></p>
+  <p class="seo-foot-credit"><?= e(seo_t($ui, 'made_by')) ?>
+    <a href="https://heuron.com" rel="noopener">Heuron Inc.</a> &middot;
+    <a href="https://github.com/jounlai/langmap" rel="noopener">GitHub</a> &middot;
+    <a href="mailto:cho@heuron.com">cho@heuron.com</a> &middot;
+    <a href="<?= e($home) ?>"><?= e(seo_t($ui, 'home')) ?></a></p>
 </div>
 </main>
 </body>

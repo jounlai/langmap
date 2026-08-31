@@ -13,7 +13,7 @@
  * Scope per page follows topical relevance:
  *   wordmap.html  the 30 Word Map articles
  *   hanmap.html   the 40 Han Map articles
- *   index.html    all 70 (site root, the most-linked page)
+ *   index.html    none — see the note in PAGES below
  *
  * Links point at /en/… like the existing footer index links do: that is the
  * x-default of the hreflang cluster, and the SSR page hands a reader on to
@@ -39,7 +39,18 @@ const START = '<!-- TRIVIA-INDEX:START -->';
 const END = '<!-- TRIVIA-INDEX:END -->';
 
 const TARGETS = [
-  { file: 'index.html', maps: ['wordmap', 'hanmap'], label: '読み物（言語学の記事）' },
+  // index.html was here until 2026-08-31 and is deliberately not any more.
+  // Owner report: a <details> holding 70 links, sitting in the site footer under
+  // a label that reads like a section of the site, is not somewhere a reader
+  // looks for an article — it reads as a malfunction. The crawl path is not
+  // weakened by removing it: the footer now carries a single link to
+  // /{ui}/trivia/, which is a real SSR hub page listing all 70 with their own
+  // links, so index → hub → article is an ordinary two-hop internal path rather
+  // than the sitemap-only discovery this file was written to avoid.
+  //
+  // wordmap.html and hanmap.html keep their blocks, where the list is topical
+  // (30 and 40) rather than the whole catalogue — but the same UI objection
+  // applies to them and they should probably go the same way.
   { file: 'wordmap.html', maps: ['wordmap'], label: '読み物（言語学の記事）' },
   { file: 'hanmap.html', maps: ['hanmap'], label: '読み物（文字と漢字音の記事）' },
 ];

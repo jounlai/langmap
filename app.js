@@ -687,6 +687,29 @@ function applyUILang() {
     setNavText(document.getElementById('navToTree'), trLabels[currentUILang] || trLabels.en);
     setNavText(document.getElementById('navToHanMap'), hanLabels[currentUILang] || hanLabels.en);
     setNavText(document.getElementById('nav-name'), nameLabels[currentUILang] || nameLabels.en);
+    // Footer links. Until 2026-08-31 the footer offered Word Map and Changelog
+    // only, plus a row labelled "全言語インデックス (SEO)" that exposed the
+    // crawler plumbing to readers and a <details> holding all 70 trivia links —
+    // an accordion in a footer is not a place anyone looks for an article.
+    // Every page the header links is now linked here too, with the same labels,
+    // and Trivia is a single link to the hub (which lists all 70 itself and is
+    // in the sitemap, so nothing became less crawlable).
+    const chgLabels = {ja:'更新履歴',ko:'변경 내역',zh:'更新日志',yue:'更新日誌',vi:'Nhật ký thay đổi',th:'บันทึกการเปลี่ยนแปลง',id:'Catatan perubahan',hi:'बदलाव सूची',en:'Changelog',de:'Änderungen',fr:'Journal des modifications',it:'Novità',es:'Novedades',pt:'Novidades',ru:'История изменений',uk:'Історія змін',ar:'سجل التغييرات',he:'יומן שינויים',sw:'Kumbukumbu ya mabadiliko'};
+    const triLabels = {ja:'読み物',ko:'읽을거리',zh:'语言趣谈',yue:'語言趣談',vi:'Bài đọc',th:'บทความ',id:'Bacaan',hi:'लेख',en:'Trivia',de:'Lesestoff',fr:'À lire',it:'Da leggere',es:'Lecturas',pt:'Leituras',ru:'Статьи',uk:'Статті',ar:'مقالات',he:'קריאה',sw:'Makala'};
+    const setFoot = (id, text, href) => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.textContent = text;
+        if (href) el.setAttribute('href', href);
+    };
+    setFoot('footWordMap',  wmLabels[currentUILang]   || wmLabels.en);
+    setFoot('footHanMap',   hanLabels[currentUILang]  || hanLabels.en);
+    setFoot('footNameMap',  nameLabels[currentUILang] || nameLabels.en);
+    setFoot('footTree',     trLabels[currentUILang]   || trLabels.en);
+    setFoot('footChangelog',chgLabels[currentUILang]  || chgLabels.en);
+    // The trivia hub is per-UI-language, so send the reader to their own.
+    setFoot('footTrivia',   triLabels[currentUILang]  || triLabels.en,
+            '/' + (currentUILang || 'en') + '/trivia/');
     // --- Header chrome + tooltip aria/title localization (self-contained maps) ---
     const menuLbl = {ja:'メニュー',ko:'메뉴',zh:'菜单',yue:'選單',vi:'Menu',th:'เมนู',id:'Menu',hi:'मेन्यू',en:'Menu',de:'Menü',fr:'Menu',it:'Menu',es:'Menú',pt:'Menu',ru:'Меню',uk:'Меню',ar:'القائمة',he:'תפריט',sw:'Menyu'};
     const prevLbl = {ja:'前へ',ko:'이전',zh:'上一个',yue:'上一個',vi:'Trước',th:'ก่อนหน้า',id:'Sebelumnya',hi:'पिछला',en:'Previous',de:'Zurück',fr:'Précédent',it:'Precedente',es:'Anterior',pt:'Anterior',ru:'Назад',uk:'Назад',ar:'السابق',he:'הקודם',sw:'Iliyotangulia'};

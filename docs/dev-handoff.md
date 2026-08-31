@@ -1015,5 +1015,30 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     - `olk` Olkol and `xul` Ngunnawal may have been filled from a Western Desert template rather than
       from Kunjen and NSW sources. Low-confidence flag only.
 
+60. **wheel 681 (58.5%). A re-applier hazard, and six more neighbouring cells.**
+
+    **The hazard, worth knowing before the next harvest.** The sub-agents kept *rewriting* their
+    `in/*.jsonl` files while I was applying them, and my applier skips a code that is already present.
+    So a cell taken from an early version of a file is never revisited when that file is corrected.
+    Two rows had drifted: `khv` wheel had **Cyrillic а and л inside the IPA field** (`ʁabал`), which
+    the validator caught, and `niv` had `кулкулс` where the corrected file says `кулкус`. **Diff every
+    harvested cell against the final file, not just the ones that were missing.** One line of code:
+    read the JSONL again and compare, rather than only asking "is this code present".
+
+    **Six neighbouring cells flagged by the Afro-Asiatic pass, none touched:**
+
+    - `niv` `eye` = ӈак /ŋak/ — Amur Nivkh 'eye' is ӈаӽ /ŋaχ/, and that row already uses ӽ in `stone`
+      (паӽ /paχ/), so the grapheme is available.
+    - `ktz` Juǀ'hoan `eye` = ǃʼàqè /ᶢǃʼàʔè/ — the IPA carries a voiced-click prefix the surface does
+      not write, while the `water` cell (gǃú /ᶢǃú/) *does* write the g-. One half is wrong.
+    - `bsk` Burushaski spells one retroflex affricate two ways inside one row: `iron` ćhumár /tʂʰumar/
+      against `water` čhil /ʈʂʰil/.
+    - `shi` Tashelhit `stone` = azru — the parallel kab/tzm/zgh rows have azˤru with the emphatic, and
+      this is also the only Latin-script cell in an otherwise Tifinagh row.
+    - `tzm` and `zgh` `house` — identical Tifinagh ⵜⵉⴳⵎⵎⵉ transcribed tiɡemːi in one row and tiɡəmːi
+      in the other.
+    - `rif` `iron` ⵓⵣⵣⴰⵍ /uzzaɾ/ — Tifinagh writes final *l* and the IPA has ɾ. **This one is
+      correct**: it is the regular Tarifit l → r shift. Recorded so a future checker does not "fix" it.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

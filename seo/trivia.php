@@ -66,16 +66,24 @@ function seo_tri_text(array $a, string $ui): array
  * or — where no such page exists, e.g. a single Han character — plain text.
  * The author's label is always preserved.
  */
-function seo_tri_links(string $html, string $map, string $ui, array $names = []): string
+function seo_tri_links(string $html, string $map, string $ui, array $names = [], string $articleId = ''): string
 {
+    $app = $map === 'hanmap' ? '/hanmap.html' : '/wordmap.html';
     return preg_replace_callback(
         '#<button\b([^>]*)>(.*?)</button>#si',
-        static function (array $m) use ($map, $ui, $names): string {
+        static function (array $m) use ($map, $ui, $names, $app, $articleId): string {
             $attrs = $m[1];
             $label = trim($m[2]);
+            // The attribute value may be double-quoted, single-quoted or bare.
+            // This only matched double quotes until 2026-08-31, and 241 of the
+            // 1,577 button tags in the trivia corpus are written with single
+            // quotes — every one of those fell through to the "no target" branch
+            // and rendered as an inert label. That is what the owner saw on
+            // /ko/trivia/tea-tea-cha-cha, where both controls are single-quoted.
             $get = static function (string $name) use ($attrs): string {
-                if (preg_match('#\b' . preg_quote($name, '#') . '\s*=\s*"([^"]*)"#i', $attrs, $mm)) {
-                    return trim($mm[1]);
+                $q = '#\b' . preg_quote($name, '#') . '\s*=\s*("([^"]*)"|\'([^\']*)\'|([^\s>]+))#i';
+                if (preg_match($q, $attrs, $mm)) {
+                    return trim($mm[2] !== '' ? $mm[2] : ($mm[3] !== '' ? $mm[3] : ($mm[4] ?? '')));
                 }
                 return '';
             };
@@ -88,8 +96,28 @@ function seo_tri_links(string $html, string $map, string $ui, array $names = [])
             }
             $targets = array_keys($targets);
 
+            // "Pan to these coordinates" has no SSR page to point at, but it
+            // does have an obvious destination: the interactive map, at that
+            // spot. Both maps read #p=lat,lng,z on load.
+            if ($action === 'panto') {
+                $lat = $get('data-lat'); $lng = $get('data-lng'); $zoom = $get('data-zoom');
+                if (is_numeric($lat) && is_numeric($lng)) {
+                    $z = is_numeric($zoom) ? $zoom : '5';
+                    // Literal commas, matching the hash the app writes itself
+                    // (see the URLSearchParams %2C fix-up in hanmap.html).
+                    $href = $app . '#p=' . $lat . ',' . $lng . ',' . $z;
+                    return '<span class="trivia-note"><a href="' . e($href) . '">' . $label . '</a></span>';
+                }
+            }
             if ($action === 'setchar' || !$targets) {
-                // No SSR target: keep the words, drop the dead control.
+                // No SSR page for a single character or a concept — but the
+                // control still means something, so send the reader to the
+                // article inside the interactive map rather than leaving a
+                // button-shaped box that does nothing when clicked.
+                if ($articleId !== '') {
+                    $href = $app . '#trivia=' . rawurlencode($articleId);
+                    return '<span class="trivia-note"><a href="' . e($href) . '">' . $label . '</a></span>';
+                }
                 return '<span class="trivia-note">' . $label . '</span>';
             }
 
@@ -161,7 +189,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 <?php endif; ?>
 
 <article class="seo-section seo-prose">
-  <?= seo_tri_links($t['body'], $map, $ui, $data['names'] ?? []) ?>
+  <?= seo_tri_links($t['body'], $map, $ui, $data['names'] ?? [], $id) ?>
 </article>
 
 <?php if (!empty($a['sources'])): ?>
@@ -188,7 +216,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 <?php endif; ?>
 
 <div class="seo-applink">
-  <a href="<?= $map === 'hanmap' ? '/hanmap.html' : '/wordmap.html' ?>">
+  <a href="<?= ($map === 'hanmap' ? '/hanmap.html' : '/wordmap.html') . '#trivia=' . rawurlencode($id) ?>">
     <?= e(seo_t($ui, $map === 'hanmap' ? 'open_app_hm' : 'open_app_wm')) ?>
   </a>
 </div>

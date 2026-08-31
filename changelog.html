@@ -143,6 +143,16 @@
         <nav class="month-nav">Months: <strong>2026-08</strong> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-08-31 — Every button in an article page was decoration; now they all go somewhere 🔗</div>
+            <ul>
+                <li><strong>The article pages carry 3,447 little map controls — "See Min Nan on map", "Pan to the Fujian coast" — and on the server-rendered pages none of them did anything.</strong> They looked like buttons, and clicking them did nothing at all. In the interactive map they work; the article pages are plain HTML with no map behind them, so the template was supposed to swap each one for a link. It was only managing that for some.</li>
+                <li><strong>Three separate reasons, all now fixed.</strong> The template only recognised attributes written with double quotes, so 241 controls written with single quotes were invisible to it. "Pan to these coordinates" had no page to point at — it now links into the map at that spot. And "show this character" or "show this word" had no page either — those now open the article inside the interactive map. Every one of the 3,447 controls is a working link.</li>
+                <li><strong>The tea article's two controls were still in English on all 18 other languages</strong>, plus two more in the go-on article. Translated.</li>
+                <li>The "open the interactive map" button at the foot of an article used to drop you on the bare map. It now opens the article you were reading.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-08-31 — Bear gets colours, and they turn out to be a map of where bears live 🐻</div>
             <ul>
                 <li><strong>"Bear" now colours the map by what each language did with the word, and the pattern is not the one the entry was written around.</strong> The story everyone knows is taboo avoidance — Germanic swapped in "the brown one", Slavic the kenning "honey-eater", so that English <em>bear</em> and Russian <em>медведь</em> are both euphemisms for a word people stopped saying. That is real, and it is now purple on the map. But it covers 112 of 587 languages, and it is a <em>belt</em>: Germanic, Slavic, Baltic, Irish, Finnish, Khanty "the guest", Mansi "forest-eater", Yukaghir "big grandfather", Shor "old man". Northern, and hunting cultures.</li>

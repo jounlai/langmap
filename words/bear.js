@@ -513,5 +513,22 @@ WORDS.bear = {
     zh_hf: ["熊", "ɕiəŋ˥˥"],
     zh_jh: ["熊", "ɕioŋ˧˥"],
 
+    // --- 2026-08-31, the bear agent's South America pass
+    // (~/langmap-work/bear2/out_americas3.tsv has the source per row). Only the
+    // rows it marked `inherited` or `taboo` are here; its five UNSURE rows are
+    // left out because they are all peoples living where no Ursidae has ever
+    // occurred and IDS has no 'anteater' concept for its bear slot to fall into.
+    cni: ["meeni", "meːni"],
+    jiv: ["chai", "tʃai"],
+    agr: ["chayú", "tʃajú"],
+    acu: ["chayu", "tʃaju"],
+    pbb: ["e'sxavy", "eʔʃaβj"],
+    gum: ["wig", "wiɡ"],
+    quz: ["ukuku", "ukuku"],
+    quy: ["ukumari", "ukumaɾi"],
+    guc: ["jeesü", "heːsɨ"],
+    emp: ["wi", "wi"],
+    chb: ["guia", "ɡuia"],
+
   },
 };

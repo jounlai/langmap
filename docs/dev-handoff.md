@@ -983,5 +983,37 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     turns up independently in the Americas as the phrase-only rows (Osage 'wagon's leg', Embera
     'cart's foot', Bribri 'cart's round-thing'). If `wheel` ever gets a route map, that is the axis.
 
+59. **Second harvest: wheel 608 (52%), bear 404 (35%), wine 646 (56%).** More children of the stalled
+    agents reported. Two findings from them are worth more than the cells.
+
+    **The anteater trap, and a systematic caution about IDS.** The South America pass found that
+    **IDS has no 'anteater' concept, so its bear slot (3-730) repeatedly absorbs one.** Confirmed three
+    times: Mocoví, where IDS's own comment says the form is literally "ant eater's mother"; Galibi
+    Carib, whose NT renders 'bear' with *tamanuwa*, the giant anteater (cf. *tamanduá*); and Mbyá,
+    which uses *kaguare-jagua*, *kaguare* being Tamandua. On that basis five more rows were reported
+    UNSURE rather than filled — `mch` Ye'kwana, `mzh` Wichí, `tue` Tuyuca, `tca` Ticuna — all peoples
+    living where no Ursidae has ever occurred. **Those five are not in the atlas**, and the reasoning
+    generalises: for any animal concept, an IDS South American slot with no near-synonym concept in
+    the questionnaire is a slot that can silently hold a different animal.
+
+    **`chb` Muisca *guia* is a taboo find.** IDS gives the same *guia* for 'bear', for 'older brother'
+    (2-444) and for 'older sister' (2-454), all from one colonial dictionary — a kinship respect-name
+    of exactly the Siberian grandfather/father type the concept's header already describes for Yakut,
+    Dolgan, Nanai and Udege. Entered as `taboo`.
+
+    **`wiila` does not travel.** Pitjantjatjara *wiila* is 'wheel' (< English), but in Pintupi-Luritja
+    the same string is 'well (water)' and in Martu Wangka it is 'to light a fire'; those two use
+    *taaya* < *tyre*. A neat illustration of why the briefs forbid copying across close relatives.
+
+    **More neighbouring cells flagged, none touched:**
+
+    - `wbp` Warlpiri `stone` = *pirli* /pirli/ — ⟨rl⟩ is the retroflex lateral, so /piɭi/. The `wbt`
+      row gets the same digraph right (*purli* /puɭi/).
+    - `mpj` Martu Wangka: `tree` *watarrka* /wataɻka/ and `hand` *mara* /maɾa/ have r and rr swapped
+      against Western Desert orthography — the `pjt` and `piu` rows write *mara* /maɻa/. And `one` =
+      *kutjarra-wangu* is literally 'two-without', where Western Desert 'one' is *kutju*.
+    - `olk` Olkol and `xul` Ngunnawal may have been filled from a Western Desert template rather than
+      from Kunjen and NSW sources. Low-confidence flag only.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

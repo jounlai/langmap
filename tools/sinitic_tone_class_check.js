@@ -122,6 +122,11 @@ const CLASS = {
 const ALLOW = [
   { code: /^yue/, ch: '名', why: 'colloquial meng2 — 陽上變調 to 35, the regular Cantonese changed tone' },
   { code: /^yue/, ch: '橙', why: 'caang2 — the same 變調' },
+  // Checked against Wiktionary's 各地讀音 on 2026-08-31 and NOT an error: both
+  // members of the pair are attested at these values, so the row is right and
+  // the class simply does not predict one contour in these two lects.
+  { code: /^wuu_jx$/, ch: '雨', why: 'Jiaxing: 五 is 213 and 雨 is 433, both as printed' },
+  { code: /^mnp$/,    ch: '雨', why: "Jian'ou: 五 is 42 and 雨 xy- is 55; a 文/白 pair, both printed" },
 ];
 
 // The backlog this guard found on the day it was written. Recording it as debt

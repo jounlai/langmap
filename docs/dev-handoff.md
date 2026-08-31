@@ -907,5 +907,27 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     and `night` アンチカㇻ, and **ts** in `fish` チェㇷ゚ /tsep/. Ainu ⟨c⟩ is described as both [t͡ʃ]
     and [t͡s] depending on the grammar, so the row wants one decision, not a third value.
 
+56. **Sinitic 上/去 advisory 32 → 27, by fetching 五 and 雨 together.** Same method as the 土/水 pass:
+    two characters of the same class settle a row from outside it. 五 and 雨 are both 次濁上, so a row
+    that writes them differently has an error — unless both values are attested, which is the useful
+    half of doing it this way.
+
+    **Seven cells corrected**, each because Wiktionary gives 五 and 雨 the *same* value in that lect
+    and the atlas gave them different ones: `zh_nj` 五 ˨˩˨ → ˩˩ (Nanjing u¹¹ / y¹¹), `wuu_jh` →
+    ˥˧˥ (Jinhua 535 / 535), `wuu_nb` → ˩˩˧ (Ningbo 113 / 113), `nan_pn` 五 and 耳 → ˨˩ (Penang ɡɔ²¹ /
+    hɔ²¹), `yue_ts` 五 → ˥˥ (Taishan m̩⁵⁵, joining that row's own 女 and 耳), `mnp` 五 → ˦˨ (Jian'ou
+    ŋu⁴²).
+
+    **Two rows moved into ALLOW instead, because the disagreement is real.** Jiaxing prints 五 at 213
+    and 雨 at 433; Jian'ou prints 五 at 42 and 雨 xy- at 55, which looks like a 文/白 pair. Both are as
+    published, so the rows are right and the class simply does not predict one contour there. Recorded
+    with the reason rather than silently fixed to match, which is what a checker without an ALLOW list
+    would have pushed someone into doing.
+
+    **Left open:** `wuu_hz` Hangzhou, where Wiktionary itself gives 五 113 and 雨 53 — those are two
+    different tones for two 次濁上 characters, so that source cannot settle the row. And `gan_fz`,
+    `gan_yc`, `hsn_yz`, `czh`, `czh_wy` and `yue_ts`'s remaining cells, none of which that table
+    covers at all.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

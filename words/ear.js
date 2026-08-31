@@ -830,7 +830,7 @@ WORDS.ear = {
     fud: ["taliga", "taliŋa"],
     wls: ["taliga", "taliŋa"],
     shy: ["amezzuɣ", "amɛzːuɣ"],
-    nan_pn: ["耳", "hĩ˥˧"],
+    nan_pn: ["耳", "hĩ˨˩"],
     ake: ["pana", "pana"],
     aoc: ["pana", "pana"],
     adx: ["རྣ་བ", "rna wa"],

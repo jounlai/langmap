@@ -110,7 +110,13 @@ za: {
 
 - Use IPA notation, not the language's native romanization.
 - Tone diacritics belong inline (`ʂweɪ˧˩˧`, `nɨək˧˥`).
-- Empty IPA (`''`) is allowed when you only have the surface form.
+- **Never leave the IPA empty.** `tools/wordmap_check.js` counts an empty surface or IPA as a
+  `GAP` and adds it to `actionable`, so an entry written that way fails the guard. If you have
+  a surface and no pronunciation, either leave the language out of `data` altogether — these
+  files are sparse and an absent key is the honest way to say "not sourced" — or, for a
+  historical or fragmentary row where the absence is itself the finding, write `["—", "—"]`.
+  (This line used to say the opposite. The data has always had zero empty-IPA cells, so nothing
+  broke, but the doc and the guard were giving new entries contradictory advice.)
 
 ### Sources
 

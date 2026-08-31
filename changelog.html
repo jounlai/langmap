@@ -143,6 +143,25 @@
         <nav class="month-nav">Months: <strong>2026-08</strong> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-08-31 — The map can now show only the languages you picked 👥</div>
+            <ul>
+                <li><strong>A new switch under the pin toggle limits the map to your comparison list.</strong> Add four languages, flick it on, and the other eleven hundred go away. It deliberately ignores the zoom rules that normally hide small languages — otherwise turning it on while zoomed out would hide the very languages you asked to see, since a list of Rotokas and Hawaiian is invisible below a certain zoom.</li>
+                <li><strong>The amber ring disappears while it is on.</strong> That ring marks "this language is in your comparison" — and when the map contains nothing else, it marks nothing. Four ringed labels on an otherwise empty map is noise, so the ring steps aside and the labels are shown plain. The blue selection ring stays, because only one language can be selected at a time and that still tells you something.</li>
+                <li>The switch is disabled while the list is empty, since "only these" would then mean "none", and a blank map reads as breakage rather than as a filter. Emptying the list while it is on turns it off rather than leaving you with a white screen and no visible cause.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-08-31 — A check that had been quietly skipping eight files, and what it was hiding 🔍</div>
+            <ul>
+                <li><strong>One of the site's own data checks had stopped reading eight of the sixty-seven word files, and said nothing useful about it.</strong> It strips out one kind of code comment before scanning but not the other, and every word file opens with a paragraph of English prose in the second kind. An apostrophe in that paragraph — “the map's first typological word” — looked to the scanner like the start of a quotation that never ended, so it read to the end of the file without ever finding the data. Every file whose opening paragraph had an odd number of apostrophes was affected. It printed a note for each and then reported zero problems, which is the worst possible combination.</li>
+                <li><strong>What it had been missing: fifteen languages listed twice in “hundred”.</strong> The file had grown a second Austronesian section and a second Africa section, so Javanese, Sundanese, Cebuano, Malagasy, Māori, Samoan, Tongan, Zulu, Xhosa, Shona and five more each appeared in two places. Nothing wrong was ever displayed, because the later entry wins and in four cases the later entry was the better one — but anyone editing the first copy would have seen no effect at all.</li>
+                <li><strong>The reviewer made the mirror-image mistake the same day.</strong> Reading a different check that prints its first five warnings and then a line saying how many more there are, they reported five problems where there were seventy-seven. A truncated output read as a total, twice, in opposite directions. Both tools now say what they mean, and a file the scanner cannot open is counted as a failure rather than mentioned in passing.</li>
+                <li>Fixed alongside: seventy-seven reconstructed forms carrying a stem-boundary mark in the pronunciation as well as the spelling, seventeen cells that looked identical to their neighbours but were stored as different sequences of characters, eight missing spaces that ran two sentences together in the Korean, Vietnamese, Indonesian and Hindi definitions, and the at-sign entry, whose explanation existed in four of the site's twenty-three interface languages while every other word had all twenty-three.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-08-30 — 129 Chinese cells were wearing the wrong tone, and the giveaway was 土 🀄</div>
             <ul>
                 <li><strong>Every Chinese dialect gives one pitch to each historical tone class, so a row that disagrees with itself has a mistake in it.</strong> A check for that has been running since yesterday, but only over two of the four classes — the other two are written so inconsistently across the map (a Mandarin third tone is spelled ˨˩˦ in one row and ˧˩˧ in the next) that the obvious version of the check is useless. Teaching it that a shorter contour which is a prefix of a longer one is the same claim, and that four particular characters are unreliable witnesses, brought the noise down far enough to read. It found 114 disagreements. 129 cells later there are 34.</li>

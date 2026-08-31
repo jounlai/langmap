@@ -118,7 +118,7 @@ WORDS.heart = {
       ake: ["mïda", "mɨ.da"],
       aoc: ["sïköpoka", "sikɯpɯka"],
       gun: ["py'a", "pɨ.ˈa"],
-      zdj: ["moyo", "moyo"],
+      zdj: ["moyo", "mojo"],
       ayl: ["قلب", "ɡalb"],
       abv: ["قلب", "qælb"],
       afb: ["قلب", "qɑlb"],

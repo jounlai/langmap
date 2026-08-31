@@ -118,7 +118,7 @@ WORDS.one = {
       ake: ["teginnö", "te.ɡin.nɔ"],
       aoc: ["potakoron", "potakaɾɯn"],
       gun: ["peteĩ", "pe.te.ˈĩ"],
-      zdj: ["moja", "moːdʒa"],
+      zdj: ["moja", "modʒa"],
       ayl: ["واحد", "wɑːħɛd"],
       abv: ["واحد / وحدة", "wɑːħɪd / wɑħdə"],
       afb: ["واحد", "wɑːħɪd"],

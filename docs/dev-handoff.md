@@ -1179,5 +1179,41 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     Ewondo *mëyòg*) has proved its John 2 word is grape-specific rather than generic alcohol. About 53
     rows were left out on exactly that test.
 
+65. **honey 426 → 631 (37% → 54%), and a guard that blocked a correct cell until a neighbour was
+    fixed.** The nicest small story in the batch: the agent had a sourced Ngazidja Comorian honey cell
+    and **pulled it back out**, because adding it made `glide_notation_check` fire — not on its own
+    cell but on that row's `heart`, *moyo* /moyo/, which writes the glide as **y** where the rest of
+    the row uses **j** (kʊɲwa, dʒwai, ɲũba, ɲota). Fixed to /mojo/ and the honey cell went in. That is
+    a guard working exactly as intended: a new correct cell made an old wrong one visible. `zdj`'s
+    `one` *moja* /moːdʒa/ also had a length mark no other cell in that row carries and Comorian has no
+    contrastive length there — removed; the wheel pass had flagged it independently.
+
+    **The single biggest structural finding: 30 languages build 'honey' out of 'bee'** — Igbo, Izii,
+    Lingala and Dholuo all say *oil of bee*; Luganda, Motu, Pohnpeian, Huli, Abau, Hote, Shipibo,
+    Asháninka, Aguaruna, Tuyuca, Trumai, Mi'kmaq, Mam, Tetun, Khmer, Wa, Mru, Mizo and Navajo all
+    build it on the insect. Six more build it on 'sweet' instead — and **Hakka says 蜂糖, not 蜂蜜**,
+    while Yue says 蜜糖. If `honey` ever gets a colour map, bee-vs-sweet-vs-inherited is the axis.
+
+    **Findings about the map rather than gaps in it**, and worth defending against a later "fill":
+
+    - `cag` Nivaclé has **no generic word** — IDS records three coordinate terms, *akɔyeč*, *šinwoʔ*,
+      *tˀuxaʔ*, and no superordinate. The clearest such case in the file.
+    - Most of Pama-Nyungan names sugarbags **by species**. `wbp ngarlu`, `pjt tjuratja` and `djr guku`
+      are genuine generics and went in; the other eleven rows are species-specific in their own NTs.
+      That is a fact about those languages.
+    - `tn`/`st`/`nso` say *mahe a dinotshe*, literally **'bee eggs'**, and the Tswana NT just writes
+      *dinotshe* 'bees'. Left out rather than enter the insect.
+
+    **Fourteen Sinitic rows refused** because the row's own tone-class witnesses contradict each
+    other, so there is nothing to derive 蜜 from: `gan_yc` has 心, 三 and 星 — all 陰平 — on three
+    different contours, and 白, 月, 舌 — all 陽入 — on three more. Same shape in `gan_ja`, `cjy_xz`,
+    `cdo` and `hsn_yz`. **These rows block every future Sinitic fill, not just this one**, and are the
+    highest-value tone work left.
+
+    **Two dataset traps recorded for future joins**, neither currently a wrong cell: IDS and
+    NorthEuraLex file **Jèrriais under `fra` with French *miel*** — the real Jèrriais word is *myi*, so
+    an ISO-based join would silently overwrite it. And Polyglotta Africana's **"Tíwi" is Tiv**
+    (Nigeria), not Tiwi (Australia), and its "Kaure" is not Kabiyè; a name join mis-assigns both.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

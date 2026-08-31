@@ -1253,5 +1253,23 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     is that row's own **water** (таӈах̆); and IDS's Coast Tsimshian bear is *masgmˀol*, where *masgm-*
     is 'white' — the Kermode bear, not the generic. Neither was written.
 
+67. **`vi_c` and `vi_s`: ⟨r⟩ ʐ → ɹ.** Owner report — the retroflex fricative felt too strong for the
+    Central and Southern Vietnamese r. It is not *wrong*: Wikipedia's Vietnamese phonology lists
+    [ʐ] among five attested realisations of southern /r/, alongside [ɹ], [ɾ], [r] and [ɾ̞]. But [ɹ] is
+    the neutral citation value and the ordinary realisation; [ʐ] is the careful or emphatic one.
+    Changed in the four cells that had it — `tooth` răng and `wine` rượu in both rows.
+
+    **Still open in those two rows, and a bigger call than it looks:** the retroflex series is
+    transcribed inconsistently. Both dialects genuinely keep the ⟨s/x⟩ and ⟨tr/ch⟩ distinctions that
+    Northern merges, and both rows write ⟨tr⟩ as **ʈ** throughout — but `vi_s` writes ⟨s⟩ as **ʂ** in
+    `star` sao and `sushi` and as plain **s** in `iron` sắt and `milk` sữa, while `vi_c` writes plain
+    **s** in all three of its ⟨s⟩ cells. So one row is split 2–2 and the other has abandoned the
+    series entirely, while both mark it on ⟨tr⟩.
+
+    That is a decision about **transcription depth** for the whole row rather than a per-cell error,
+    which is why it is recorded instead of fixed: going one way makes `sao` /ʂaːw/ wrong, going the
+    other makes `sắt` /sat/ wrong, and there is no evidence inside the rows that settles which.
+    `vi` (Northern-based) is correct as it stands — it merges ⟨r⟩ to /z/, which is what Northern does.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

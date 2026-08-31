@@ -58,14 +58,14 @@ const DEBT = {};
 // and better than a blank — the reader sees "not determined" instead of a
 // language that quietly vanishes from the legend — but it must only ever
 // shrink, or the category becomes a place to put anything inconvenient. `we`'s
-// 35 are one sourced inclusive/exclusive pronoun pair each; see
+// 33 are one sourced inclusive/exclusive pronoun pair each; see
 // docs/dev-handoff.md #51 for the list and the method that works.
 // This number went 36 -> 34 -> 33 and back to 35 on 2026-08-30, and the way back
 // up is the point. zh_tj and zh_lz had been given 咱们 / 我们, but neither half was
 // attested for those two lects: the form came from "Northern Mandarin generally"
 // and the tone from Standard Mandarin. Returned to `unknown`. A ratchet that only
 // ever falls is a ratchet that rewards claiming things.
-const UNDECIDED = { we: { route: 'unknown', max: 35 } };
+const UNDECIDED = { we: { route: 'unknown', max: 33 } };
 
 let violations = 0;
 const notes = [];

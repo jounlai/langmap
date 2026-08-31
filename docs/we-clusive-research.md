@@ -176,3 +176,36 @@ the other not also hid the symmetry that makes the pair legible.
 **tʃ** in `bird` チカㇷ゚ /tʃikap/ and `night` アンチカㇻ /antʃikar/, and **ts** in `fish` チェㇷ゚
 /tsep/. Ainu ⟨c⟩ is described as both [t͡ʃ] and [t͡s] depending on the grammar, so this needs one
 decision for the whole row rather than a third value added to it.
+
+## 2026-08-31: two more from the Bible-corpus method
+
+```text
+bzh | YES | hil | hil | he | he | Mapos Buang NT: hil at 1 John 1:9, Hebrews 4:16 and 1 John 3:1 ("hil Amad Anutu", our Father); he at 1 John 1:3 ("sën he halë los hanġo" — what we have seen and heard), Acts 2:32 and John 1:14
+atb | YES | nga-nhung | ŋan̥uŋ | ngamoq | ŋamoʔ | Zaiwa NT: nga-nhúng at 1 John 1:9, Hebrews 4:16 and 1 John 3:1; ngamoq at 1 John 1:3, Acts 2:32 and John 1:14
+```
+
+`bzh` also has a **dual** exclusive, *alu*, and the corpus shows it doing its job: Acts 4:20 is Peter
+and John speaking, exactly two people, and that verse uses *alu* where the plural verses use *he*.
+Only the plural pair is entered. Its Matthew 6:12 uses *he* for the Lord's Prayer, which is a
+translator's choice about who is praying rather than a counter-example — three other inclusive verses
+agree on *hil*.
+
+`atb`'s old cell was **ngamo**, i.e. the exclusive with its final -q dropped, not a general "we". The
+row writes final -q elsewhere (`two` ngiq /ŋiʔ˥/, `snow` kyoq /kjoʔ˨˩/), which is where /ʔ/ comes
+from here. **One inference, stated:** ⟨nh⟩ is read /n̥/, the voiceless nasal that Burmish
+romanisations regularly write that way. Everything else in the cell is either attested in the corpus
+or derived from this row's own cells. No tone, which continues what that cell already did — though
+this row marks tone on 43 of its 44 other cells, so the whole cell would benefit from a Zaiwa source.
+
+**Checked and NOT taken this round:**
+
+- `kos` Kosraean. Grambank says the contrast exists (Lee 1975), but the corpus does not show it: 1
+  John 1:3 and Acts 4:20 use *kut* and so do 1 John 1:9 and Matthew 6:12. Either it lives somewhere
+  the free pronoun does not, or this translation neutralises it. Left `unknown`.
+- `kpj` Karajá. *jiarỹboho* is exclusive at Acts 4:20, but *inyboho* appears in exclusive verses
+  (1 John 1:3, Acts 2:32, John 1:14) **and** in an inclusive one (1 John 3:1, "we are called children
+  of God"), so the corpus does not separate them. Karajá also has male and female speech registers,
+  which this method cannot see.
+- `mam` Mam. The NT uses a different orthography from this atlas row — `keya` / `key` against the
+  row's ALMG-standard `aqoʼ` — so its evidence cannot be transcribed into the row without a second
+  source for the mapping.

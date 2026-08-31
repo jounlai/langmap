@@ -1040,5 +1040,35 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     - `rif` `iron` ⵓⵣⵣⴰⵍ /uzzaɾ/ — Tifinagh writes final *l* and the IPA has ɾ. **This one is
       correct**: it is the regular Tarifit l → r shift. Recorded so a future checker does not "fix" it.
 
+61. **wheel 690 (59.3%). The drift check earns its keep immediately.** Running it after handoff 60
+    found nine rows that had appeared since the previous apply and one more that had drifted: `mad`
+    wheel was `ˈrɔdʰa` in the atlas and `ˈrɔdʱa` in the corrected file. Neither is what that row
+    actually writes — its `blood` is *dhara* /ɖʱara/, its `sleep` *tedhung* /təɖʱuŋ/ and its `tongue`
+    *jhila* /dʒʱila/, so Madurese ⟨dh⟩ is **ɖʱ** twice over. Set to `ˈrɔɖʱa`. Row consistency over an
+    external transcription, the same call as everywhere else this week.
+
+    **Two Daghestanian rows where the eye/wheel trap fired**, both handled correctly by the agent and
+    recorded here because the pattern will recur:
+
+    - `lbe` Lak — IDS gives wheel as "йа, нигь", and **йа is that row's own `eye` cell**. The agent
+      took *нигь* instead. Textbook.
+    - `dar` Dargwa — wheel *хӏула* /ħula/ against that row's `eye` *хӏули* /ħuli/: the same root,
+      differing only in the final vowel, so the byte-identical guard cannot see it. Entered with a
+      polysemy note. **If anyone wants a stricter bar, this is the row to revisit** — it is the only
+      cell in this batch where the collision is real but sub-threshold.
+    - `sva` Svan has the same wheel/eye polysemy in its source gloss, but harmless there: that row's
+      `eye` is *თე*, not the wheel word.
+
+    **Convention drift the same pass introduced, worth knowing:** the `evn` and `eve` rows spell /ŋ/
+    as the digraph нг (*нгалэ*, *нгал*) where standard Evenki and Even Cyrillic use ӈ. The new wheel
+    cell *хоролиӈки* is attested with ӈ, so those two rows now mix both. Not fixed; the row wants one
+    decision.
+
+    **Highest-yield sources found this round**, for the next fill: **Wikidata Q446 labels + sitelinks**
+    (settled ab, azb, bxr, xal, vep, sms, smj, sjd, kv, mhr in one pass) and the **giellalt GitHub
+    dictionaries**, `codeload.github.com/giellalt/dict-XXX-YYY`, which are downloadable XML and
+    settled liv, sms, smn, smj, olo and mrj definitively. Also: NorthEuraLex has **no** wheel concept
+    — all 1017 parameters checked — so do not go looking for one.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

@@ -665,7 +665,7 @@ WORDS.wheel = {
     mdh: ["tilikan", "tiliˈkan"],
     gor: ["bola", "ˈbola"],
     ace: ["ruda", "ɾuda"],
-    mad: ["rodha", "ˈrɔdʰa"],
+    mad: ["rodha", "ˈrɔɖʱa"],
     mak: ["roda", "ˈɾoda"],
     bug: ["roda", "roda"],
     bts: ["galapang", "ɡalapaŋ"],
@@ -779,6 +779,18 @@ WORDS.wheel = {
     kim: ["һольсоо", "holʲsoː"],
     khv: ["гъабал", "ʁabal"],
     ie: ["rote", "ˈrote"],
+
+    // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
+    // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
+    dtp: ["ruda'", "rudaʔ"],
+    akb: ["roda", "roda"],
+    nij: ["roda", "roda"],
+    tkl: ["uili", "uili"],
+    wls: ["teka", "ˈteka"],
+    fud: ["teka", "ˈteka"],
+    tay: ["hbangan", "hbaŋan"],
+    dru: ["palridingi", "paɭiˈdiŋi"],
+    sas: ["gegiling", "ɡəɡiliŋ"],
 
   },
 };

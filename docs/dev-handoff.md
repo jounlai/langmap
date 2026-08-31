@@ -1306,5 +1306,57 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     35°S outside the Andes. **The ~200 rows with no cell at all are part of that pattern**, and
     filling them with *oso*, *bea* and *urso* would erase it.
 
+69. **The SSR trivia pages' map controls were all decoration.** Owner report on
+    `/ko/trivia/tea-tea-cha-cha`: "どれも推せない". Every `<button class="trivia-action">` in an
+    article body is supposed to be swapped for a link by `seo_tri_links()` in `seo/trivia.php`,
+    because the SSR pages have no map behind them. Three independent reasons it was not happening,
+    all fixed in one pass: the attribute reader matched only `name="value"`, so the **241 of 1,577**
+    button tags written with single quotes — both of the tea article's among them — read as having no
+    `data-action` at all; `panto` (353) carries coordinates rather than a language code so it never
+    had a target, and now links to `#p=lat,lng,z`, which both maps parse on load; `setchar` (441) and
+    `setword` (92) have no per-character or per-word SSR page, and now link to
+    `/{map}.html#trivia={id}`, the article inside the live map. Measured by running the function over
+    all 70 articles × 19 UIs: **3,447 controls, 0 without a link**. The foot-of-article CTA also
+    pointed at the bare map and now carries `#trivia={id}`.
+
+    Separately, `tea-tea-cha-cha`'s two button labels were **English in all 18 non-`en` bodies** (and
+    `japanese-go-on-bias`'s in `de`). Translated to each UI's existing phrasing for focus/panto
+    labels — worth spot-checking new articles for this, since the label lives inside the body HTML
+    and translators skip it.
+
+70. **Old Hangul: one font, cut to the block instead of to the data.** Owner report — "古ハングルが
+    地図から表示されない、例えば ᄆᆞ". That string is in `data.js`, the Lang Map word-order
+    sentences (`ko_mid`: 나ᄂᆞᆫ 새로온 ᄆᆞᄅᆞᆯ …), and `styles.css` — shared by `index.html`,
+    `tree.html` and `namemap.html` — had **no `@font-face` for the conjoining jamo block at all**.
+    Google's Noto Sans/Serif KR web subsets omit U+1100-11FF entirely and iOS Hiragino has nothing
+    for it, so it fell to the system font: no ljmo/vjmo/tjmo composition on desktop Chrome, tofu on
+    iPhone. That had been true for as long as those sentences existed.
+
+    `wordmap.html` and `hanmap.html` did each self-host a subset, and **both were one codepoint short
+    of their own page** — wordmap missing ᄄ U+1104, hanmap missing ᅲ U+1172 — because each was cut
+    with the Google Fonts `text=` API to exactly the jamo present on the day, and nothing rebuilds
+    them. **This is the pattern to avoid**: a font pinned to today's data is a guard that fails
+    silently the next time data lands.
+
+    It also cost data. `words/daughter.js` carried a comment saying Jeju ᄄᆞᆯ *could not be written*
+    because U+1104 was missing, so the cell was left blank. Filled now, `/t͈ʌl/`, matching how the row
+    transcribes arae-a elsewhere (ᄇᆞ름 pʌɾɯm, ᄒᆞ다 hʌda) and `ko_em` ᄯᆞᆯ. **If you find another cell
+    withheld for a font reason, check whether the font is still the constraint.**
+
+    Now `fonts/NotoSerifKR-OldHangul.woff2` (209 KB) covers whole blocks: all 256 conjoining jamo,
+    Ext-A/B, the compatibility block U+3130-318F with its archaic ㅸ ㅭ ㅿ ㆁ ㆆ, and the 방점 tone
+    marks U+302E-302F. Shared by all three stylesheets; `'Noto Serif KR Hanmap Old Jamo'` and
+    `'Noto Serif KR Compat Jamo'` and their three files are gone. `tree.html` and `namemap.html`
+    override the shared body chain, so they name the family themselves.
+
+    `tools/korean_hist_font_check.js` checks the three things that must line up, each of which has
+    failed in production: the font carries the codepoint, the `@font-face` claims it, and the page
+    **names the family in a real chain** — `unicode-range` narrows a face, it does not install one,
+    and a family name appearing only inside its own `@font-face` block does nothing. It reads the
+    shipped WOFF2's real cmap (brotli stream + cumulative table offsets, no dependencies) rather than
+    trusting the declared range; the same reader replaced the dead sfnt parse in
+    `validate_wordmap_data.js`, which had been silently returning nothing since the font became a
+    WOFF2. All three failure modes were verified to fail the guard before shipping.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

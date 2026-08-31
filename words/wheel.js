@@ -796,5 +796,10 @@ WORDS.wheel = {
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
     na: ["ekabiroro", "ekabirɔrɔ"],
 
+    // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
+    // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
+    hop: ["ngöla", "ŋøla"],
+    tus: ["uka'neh", "ukaʔneh"],
+
   },
 };

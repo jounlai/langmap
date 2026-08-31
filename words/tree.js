@@ -89,7 +89,7 @@ WORDS.tree = {
       hsn_hy: ["树", "ɕy˥˩"],
       hsn_yz: ["树", "tshɯ˧˥˩"],
       czh_wy: ["树", "ɕy˥˧"],
-      bla: ["ohtá", "ohtaː"],
+      bla: ["ohtá", "ohta"],
       hop: ["hotski", "hotski"],
       com: ["huupi", "huːpi"],
       one: ["oyʌte", "ojʌte"],

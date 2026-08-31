@@ -1102,5 +1102,38 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     (to, tvl, wls, fud). Together with the African foot→wheel block in handoff 59 and the American
     'cart's foot' phrases, that is now three independent regions doing the same thing.
 
+63. **`bla` Blackfoot: 13 spurious vowel-length marks, and four cells that may be the wrong words.**
+    The Americas pass reported this row as its "worst offender" and it is half right.
+
+    **Fixed: the length marks.** In Frantz's orthography — which this row is written in — vowel
+    **length is written by doubling** and the **acute marks pitch**. The IPA was turning a single
+    accented vowel into a long one: *ohtá* → /ohtaː/, *istó* → /istoː/, *aksí* → /aksiː/, and ten more.
+    The row proves the rule against itself twice: its `i` = *niistó* → /niːsto/ and `you` = *kiistó* →
+    /kiːsto/ both lengthen the doubled ii and leave the accented ó short, and `four` = *niisoo* →
+    /niːsoː/ does the same. So the row already knew the rule in three cells and broke it in thirteen.
+    Corrected. The genuinely doubled cells — *imitáá*, *ksááhko*, *mohpííkin*, *aohkíí*, *kóónssko* —
+    were left alone, which is the whole distinction.
+
+    **Not fixed, and worth a Blackfoot source:** `tree` *ohtá*, `hand` *aksí*, `eye` *istó* and
+    `house` *mahkówa* may be the wrong words. Expected are *mistsís*, *o'tsís*, *moápsspi* and
+    *napioyis*. Note that `eye` *istó* is the shape of this row's own pronouns minus their prefix —
+    *niistó* 'I', *kiistó* 'you' — which is the kind of thing that happens when a paradigm is read as
+    a wordlist. Most of the row is unambiguously correct Blackfoot (*aohkíí* water, *imitáá* dog,
+    *oohkotok* stone, *naató'si* sun, *kakató'si* star, *aapan* blood, *isttsiksipoko* salt), so this
+    is four cells rather than a `bbo`-style whole-row problem.
+
+    **Six more rows flagged by the same pass, none touched:** `cro` Crow drops phonemic vowel length
+    throughout its IPA (*bashée* → /baʃe/) and its `house` *tipí* is questionable — Crow 'house' is
+    *ashé*; `nez` Nez Perce `one` *nakz* is not a Nez Perce spelling (expect *naqc*); `cr` Cree
+    `stone` *asiniy* is in Latin script while every other cell in that row is syllabics; `mic` Mi'kmaq
+    `tree` *miti's* is 'poplar', not generic 'tree' (*kmu'j*); `win` Ho-Chunk `tree` *nąįžą* is 'a
+    tree', the bare noun being *nąą*; `iu` Inuktitut `iron` is empty although the word is ᓴᕕᒃ *savik*,
+    which the parallel `ik` row has.
+
+    **The single biggest blocker for the Americas, for whoever picks it up:** `sil.org` is
+    Cloudflare-blocked from this machine — 403 to curl, WebFetch and r.jina.ai alike. Almost every
+    remaining Mexican gap (nhx, ngu, crn, hch, itz, usp, tzh, mixtec, mix, zap, zts, maz, toc) is a
+    SIL-México dictionary PDF that is one download away from anywhere that resolves it.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

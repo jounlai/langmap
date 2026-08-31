@@ -97,7 +97,7 @@ WORDS.fish = {
     hsn_hy: ["鱼", "y˩˧"],
     hsn_yz: ["鱼", "y˩˧"],
     czh_wy: ["鱼", "y˨˩˧"],
-    bla: ["mamiái", "mamiaːi"],
+    bla: ["mamiái", "mamiai"],
     hop: ["pakiw", "pakiw"],
     com: ["pekwi", "pekʷi"],
     one: ["kʌtsyu", "kʌtsju"],

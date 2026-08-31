@@ -89,7 +89,7 @@ WORDS.fire = {
       hsn_hy: ["火", "xo˧˧"],
       hsn_yz: ["火", "fu˨˩"],
       czh_wy: ["火", "xu˥˧"],
-      bla: ["kówa", "koːwa"],
+      bla: ["kówa", "kowa"],
       hop: ["kukvay", "kukvɑj"],
       com: ["kohtopʉ", "kohtopɨ"],
       one: ["onaʔ", "onaʔ"],

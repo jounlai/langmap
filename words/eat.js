@@ -89,7 +89,7 @@ WORDS.eat = {
       hsn_hy: ["吃", "tɕʰi˨˩"],
       hsn_yz: ["食", "tshɪ̚˧˥"],
       czh_wy: ["吃", "tɕʰi˧˥"],
-      bla: ["íta", "iːta"],
+      bla: ["íta", "ita"],
       hop: ["—", "—"],
       com: ["tʉhkarʉ", "tɨhkarɨ"],
       one: ["ohkaʔ", "ohkaʔ"],

@@ -89,7 +89,7 @@ WORDS.house = {
       hsn_hy: ["屋里", "u˨˩ li˥˩"],
       hsn_yz: ["屋", "uʔ˥"],
       czh_wy: ["屋", "uʔ˧˥"],
-      bla: ["mahkówa", "mahkoːwa"],
+      bla: ["mahkówa", "mahkowa"],
       hop: ["kiihu", "kiːhu"],
       com: ["kahni", "kahni"],
       one: ["kanúhsote", "kanuhsote"],

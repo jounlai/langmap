@@ -89,7 +89,7 @@ WORDS.mother = {
       hsn_hy: ["妈妈", "ma˥˩ ma˥˩"],
       hsn_yz: ["妈", "ma˧˥"],
       czh_wy: ["妈", "ma˧˧"],
-      bla: ["nomó", "nomoː"],
+      bla: ["nomó", "nomo"],
       hop: ["yu'at", "juʔɑt"],
       com: ["pia", "pia"],
       one: ["aknulha", "aknulha"],

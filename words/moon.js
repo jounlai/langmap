@@ -89,7 +89,7 @@ WORDS.moon = {
       hsn_hy: ["月亮", "ye˨˩ liaŋ˥˩"],
       hsn_yz: ["月", "ŋɔ̃˥˦"],
       czh_wy: ["月光", "yo˧˩kuaŋ˧˥"],
-      bla: ["kokómiksi", "kokoːmiksi"],
+      bla: ["kokómiksi", "kokomiksi"],
       hop: ["muuyaw", "muːjɑw"],
       com: ["mʉa", "mɨa"],
       one: ["tsikʌ", "tsikʌ"],

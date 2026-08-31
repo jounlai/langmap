@@ -89,7 +89,7 @@ WORDS.eye = {
       hsn_hy: ["眼睛", "ŋan˥˩ tɕin˥˩"],
       hsn_yz: ["眼", "ŋã˨˩"],
       czh_wy: ["—", "—"],
-      bla: ["istó", "istoː"],
+      bla: ["istó", "isto"],
       hop: ["poosi", "poːsi"],
       com: ["puui", "puːi"],
       one: ["oʔloh", "oʔloh"],

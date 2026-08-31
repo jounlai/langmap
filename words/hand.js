@@ -89,7 +89,7 @@ WORDS.hand = {
       hsn_hy: ["手", "ɕəu˧˧"],
       hsn_yz: ["手", "tʂu˨˩˧"],
       czh_wy: ["手", "səu˥˧"],
-      bla: ["aksí", "aksiː"],
+      bla: ["aksí", "aksi"],
       hop: ["maa't", "mɑːʔt"],
       com: ["mo'o", "moʔo"],
       one: ["okaʔ", "okaʔ"],

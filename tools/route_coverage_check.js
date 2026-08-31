@@ -67,7 +67,7 @@ const DEBT = {};
 // attested for those two lects: the form came from "Northern Mandarin generally"
 // and the tone from Standard Mandarin. Returned to `unknown`. A ratchet that only
 // ever falls is a ratchet that rewards claiming things.
-const UNDECIDED = { we: { route: 'unknown', max: 33 } };
+const UNDECIDED = { we: { route: 'unknown', max: 33 }, bear: { route: 'unknown', max: 4 } };
 
 let violations = 0;
 const notes = [];
@@ -118,6 +118,12 @@ for (const id of routed) {
   //            the language splits its first person plural, so two languages can
   //            write 我们 identically and still differ. Not checkable this way.
   const SAME_FORM = { wine: 'surface', orange: 'surface', n99: 'surface', tea: 'ipa' };
+  //   `bear` is deliberately NOT here, and the reason sharpens the rule. Its
+  //   routes say what the LANGUAGE did — kept its word, replaced it, borrowed
+  //   one — which is language-relative rather than a property of the form.
+  //   Spanish oso is inherited and Tagalog oso is borrowed, and both are right;
+  //   so is Portuguese urso inherited beside Esperanto urso borrowed. Adding
+  //   bear here flagged all of those as errors.
   if (SAME_FORM[id]) {
     const field = SAME_FORM[id];
     const byForm = {};

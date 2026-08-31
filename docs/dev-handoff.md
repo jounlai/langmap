@@ -1271,5 +1271,40 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     other makes `sắt` /sat/ wrong, and there is no evidence inside the rows that settles which.
     `vi` (Northern-based) is correct as it stands — it merges ⟨r⟩ to /z/, which is what Northern does.
 
+68. **`bear` is now route-coloured: inherited 438, taboo 112, loan 30, coined 3, unknown 4.**
+    Five routes, all 587 cells assigned, `unknown` ratcheted at 4.
+
+    **How the 587 were classified**, in order of evidence strength: 244 from the fill agents' own
+    `type` column, which they wrote with the source in front of them; 322 by family or etymon rule
+    where the etymon is not in doubt (PIE \*h₂ŕ̥tḱos across Italic, Hellenic, Iranian, Armenian,
+    Anatolian, Celtic *arth*; Germanic and Slavic as taboo; PST, PAn, Tai, Muskogean, Athabaskan,
+    Kartvelian, Quechuan as inherited); 6 by the form being a bare donor word in a language outside
+    the donor's family; and 11 by hand where the family string was too vague. Four are left
+    `unknown` — Marathi *अस्वल*, Bulgarian and Macedonian *мечка*, Sinhala *වලසා* — each a separate
+    etymon whose status is genuinely unsettled.
+
+    **The same-form check caught nine of my own classifications immediately**, which is the second
+    time that guard has paid for itself in a day. Fifteen Germanic rows were typed `inherited` by the
+    agents when the Germanic word *is* the taboo one — `de_lu` and `de_ch` *Bär* against `de` *Bär*,
+    `nl_be` and `li` *beer* against `nl` *beer*, `fo` *bjørn* against `da`/`no`, `gmh` *ber*. And the
+    भालू set was split `unknown`/`inherited` across hi, bho, ne, anp and mai. Both fixed.
+
+    **Then the check had to be turned off for this word, and the reason sharpens the rule.**
+    `bear`'s routes say what the **language** did — kept, replaced, borrowed — which is
+    language-relative rather than a property of the form. Spanish *oso* is inherited and Tagalog *oso*
+    is borrowed, and **both are right**; so is Portuguese *urso* inherited beside Esperanto *urso*
+    borrowed. With `bear` in `SAME_FORM` all of those read as errors. So the rule is now stated
+    explicitly in the tool: compare surfaces where the route is a property of the word's journey
+    (`wine`, `orange`, `n99`), compare IPA where it is a property of the reading (`tea`, because 茶 is
+    one character read *chá* one way and *tê* the other), and do not compare at all where the route is
+    a fact about the language (`we`, `bear`).
+
+    **What the colours turn out to show** — worth defending against a later well-meaning fill: the
+    three main routes are very nearly predicted by whether bears live there. Inherited where they do;
+    taboo where they do *and* the culture hunts them ritually, which is a northern belt plus the
+    Muisca outlier in the Andes; borrowed, described or absent in the latitude band roughly 15°N to
+    35°S outside the Andes. **The ~200 rows with no cell at all are part of that pattern**, and
+    filling them with *oso*, *bea* and *urso* would erase it.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

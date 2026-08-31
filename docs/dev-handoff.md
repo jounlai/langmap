@@ -950,5 +950,38 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     have witnesses that split two ways; `gan_fz` 鸟 has three different values in its own 陰上. None of
     the five is in Wiktionary's table.
 
+58. **wheel 31% → 48% and bear 30% → 34%, harvested from two agents that stalled.** Both parents were
+    killed by the stream watchdog after 600s with no progress, but their children had already written
+    vetted output to disk — the same recovery as handoff 50, and the reason the brief tells agents to
+    write files rather than only report.
+
+    `~/langmap-work/wheel2/in/*.jsonl` held **193 rows across nine files**, each with its own source
+    and a note. All 193 passed the applier's checks (language code exists, no digits or tie bars in
+    the IPA, no stress on a monosyllable or a phrase) and went in. `~/langmap-work/bear2/out_sinitic.tsv`
+    held 50 Sinitic rows, each read off MCPDict's 同音字表 with the tone taken from that row's own 紅.
+
+    **One of the 50 was wrong and the guard caught it.** `zh_wh` 熊 came in at ˥˥, and that row's own
+    六 陽平 cells — 鱼, 名, 橙, 红, 盐, 牙 — all say ˨˩˧. The agent's own source note gives the reason
+    away: it recorded "熊 ɕ ioŋ 55 **陰平**", and 熊 is 匣母, unambiguously 陽平. Either MCPDict's
+    Wuhan entry is mislabelled or the wrong line was read; either way six witnesses in the row beat
+    one external reading. Corrected to ˨˩˧.
+
+    **Neighbouring-cell problems the two reports raised, not acted on:**
+
+    - `tsi` Coast Tsimshian `eye` = *mooḵs* is probably **'white'** — that row already has
+      `white` = *mooksk*, the Sm'algyax Dictionary gives eye = *wüliil*, and IDS's Tsimshian gives
+      *c̷ˀal*. This is the mis-glossed-neighbour shape that has caught Mlabri, Kuvi and Hittite.
+    - `moh` Mohawk `eye` = *kakahre* looks corrupted; Cuoq 1882 has *okahra*.
+    - `swb` Maore Comorian looks **Swahili-contaminated**: *jicho, nyumba, mti, mkono, shuma, moja,
+      maji* are all straight Swahili where Shimaore has *dziho*, *muri*, *muhono*. Its `eye` cell also
+      disagrees with its own IPA (*jicho* would be /dʒitʃo/, not /dʒiʃo/). Same shape as `bbo`.
+    - `zdj` Ngazidja `one` = *moja* /moːdʒa/ — Comorian has no contrastive length there.
+
+    **Worth keeping from the wheel reports:** 'foot/leg' extended to 'wheel' is an areal pattern right
+    across West and East Africa — Bini *owe*, Kikuyu *kũgũrũ*, Kongo *dikulu*, Tswana *leotwana*, Dan
+    *gɛn*, Bambara *mobilisen* 'car-leg', Akan *ntwahonan* 'turning foot' — and the same construction
+    turns up independently in the Americas as the phrase-only rows (Osage 'wagon's leg', Embera
+    'cart's foot', Bribri 'cart's round-thing'). If `wheel` ever gets a route map, that is the axis.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

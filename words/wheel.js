@@ -792,5 +792,9 @@ WORDS.wheel = {
     dru: ["palridingi", "paɭiˈdiŋi"],
     sas: ["gegiling", "ɡəɡiliŋ"],
 
+    // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
+    // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
+    na: ["ekabiroro", "ekabirɔrɔ"],
+
   },
 };

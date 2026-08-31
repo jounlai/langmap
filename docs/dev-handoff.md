@@ -1070,5 +1070,37 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     settled liv, sms, smn, smj, olo and mrj definitively. Also: NorthEuraLex has **no** wheel concept
     — all 1017 parameters checked — so do not go looking for one.
 
+62. **wheel 691 (59.4%) — final harvest. Austronesian conflicts the fills paper over.** The
+    Austronesian pass filled 51 of 79 but flagged six rows where the dictionary and the Bible
+    disagree, and those are worth having written down because the cell now shows only one of them:
+
+    - `bug` Bugis — the dictionary gives *roda*, the Bugis Bible uses *padati* in all five wheel
+      passages. *roda* taken.
+    - `bbc` Toba Batak — the same Bible uses *roda* at Ezekiel 1:16 and 10:9 but inherited *galapang*
+      at Exodus 14:25, 1 Kings 7:33 and Nahum 3:2. Warneck also has *giling-giling*.
+    - `meu` Motu — the old Motu Bible uses *ava-keikei* **39 times** and *uili* once. *uili* was taken
+      as the modern everyday form; that is a judgement about register, not about attestation.
+    - `iba` Iban — Richards has *peruda*, but notes vehicle wheels are "usu. **kaki**", and the Iban
+      Bible uses the phrase *kaki kerita* throughout.
+    - `ami` Amis — the CIP dictionary gives *fiher*, the 1997 Amis Bible uses *kalileng*, which is not
+      in that dictionary at all.
+    - `to` Tongan — three candidates: *veʻeteka*, *teka* and Churchward's *vaʻe* 'foot; wheel of cart'.
+
+    **The pattern across all of them is the same one the African pass found**: the inherited word is a
+    body part or a verb of rolling, the loan is the modern everyday word, and Bible translations
+    prefer the inherited one. Whichever this atlas wants, it should want it consistently — right now
+    `meu` takes the loan and `bbc` takes the inherited word from the same kind of evidence.
+
+    **Four more neighbouring cells**, none touched: `pmt` Tuamotuan `tree` = *rait* looks wrong
+    (should be *rākau*, cf. rap, rar, tvl in the same set); `fj` writes the same phoneme two ways
+    (*vatu* /ˈvatu/ against *vale* /βale/); `rar` likewise (*rima* /ɾima/ against *ʻāuri* /ˈʔaːuri/);
+    and `ho`/`meu` `eye` = *matana* is the 3sg-possessed form where the bare stem is *mata* — normal
+    for an inalienable noun but inconsistent with every other row in that group.
+
+    **Also worth keeping:** three Oceanic languages lexicalise wheel as 'leg/foot' (Fijian *yava*,
+    Tongan *vaʻe*, Marshallese *ne*) and four Polynesian ones use the reflex of \*teka 'to trundle'
+    (to, tvl, wls, fud). Together with the African foot→wheel block in handoff 59 and the American
+    'cart's foot' phrases, that is now three independent regions doing the same thing.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

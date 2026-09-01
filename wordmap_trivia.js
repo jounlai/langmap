@@ -33,12 +33,12 @@ const TRIVIA_ARTICLES = [
       ja: '数を数えない言語、ピダハン語',
     },
     summary: {
-      en: 'A tiny Amazonian isolate that allegedly lacks number words, basic colour terms, and grammatical recursion, and shook a 60-year-old theory of language.',
+        en: 'Pirahã is an Amazonian isolate whose reported lack of exact number words and grammatical recursion remains the subject of an active linguistic debate.',
       ja: 'アマゾン奥地の孤立言語。数詞も基本色名も再帰文法もないとされ、半世紀続いた言語理論を揺さぶった。',
     },
     body: {
       en: `
-<p>Deep in the Brazilian Amazon, fewer than 800 people speak <strong>Pirahã</strong> (pronounced roughly <em>pee-da-HAN</em>). It is a language isolate — no proven relatives anywhere on Earth — and has become one of the most fiercely debated cases in modern linguistics.</p>
+<p>Deep in the Brazilian Amazon, fewer than 800 people speak <strong>Pirahã</strong> (pronounced roughly <em>pee-da-HAN</em>). It is a language isolate with no proven relatives, and its reported grammatical properties are debated in modern linguistics.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="myp" data-zoom="6">📍 Show Pirahã on the map</button>
@@ -65,10 +65,10 @@ const TRIVIA_ARTICLES = [
 
 <p>Everett's claims are <strong>hotly contested</strong>. Later researchers, including Andrew Nevins, David Pesetsky and Cilene Rodrigues, have argued that Pirahã does have recursion — just rarely used — and that the number facts can be explained without exotic cognitive consequences. Everett has fired back; the debate is still open.</p>
 
-<p>Less controversial, though still discussed, are the cultural norm restricting speech to directly-experienced events and Pirahã's striking multi-channel transmission. Whichever side wins the recursion war, Pirahã has done what very few languages ever do: forced linguists to ask, once again, whether language shapes thought, or thought shapes language.</p>
+<p>The cultural norm restricting speech to directly experienced events, and communication by whistling, humming, singing, and shouting, are less contested but still studied. Whatever the outcome of the recursion debate, Pirahã has kept an older question in view: how do language, culture, and thought shape one another?</p>
       `,
       ja: `
-<p>ブラジル・アマゾンの奥地に、話者わずか700〜800人の<strong>ピダハン語（Pirahã）</strong>がある。世界のどの言語とも親縁関係が証明されていない孤立言語で、現代言語学でもっとも激しい論争を呼んでいる言語のひとつだ。</p>
+<p>ブラジル・アマゾンの奥地で、700〜800人ほどが<strong>ピダハン語（Pirahã）</strong>を話す。親縁関係が証明されていない孤立言語で、数詞や再帰構造をめぐる記述は現在も議論されている。</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="myp" data-zoom="6">📍 地図でピダハン語を見る</button>
@@ -117,12 +117,12 @@ const TRIVIA_ARTICLES = [
         ja: 'シルボ・ゴメロ — 峡谷を越える口笛のスペイン語',
       },
       summary: {
-        en: 'On a tiny volcanic island in the Atlantic, shepherds re-encoded Spanish into pure whistle and could converse across ravines two kilometres wide. UNESCO listed it in 2009; today it is taught in every primary school on La Gomera.',
+        en: 'Silbo Gomero is a whistled register of Spanish used to communicate across La Gomera\'s ravines. UNESCO listed it in 2009, and the island\'s schools teach it today.',
         ja: '大西洋に浮かぶ小さな火山島で、羊飼いたちはスペイン語をまるごと口笛に置き換え、2キロ以上離れた谷越しに会話していた。2009年にユネスコ無形文化遺産となり、現在は島の全小学校で必修科目になっている。',
       },
       body: {
         en: `
-  <p>The island of <strong>La Gomera</strong> in the Canary Islands is carved by deep, near-vertical barrancos — ravines so steep that a neighbour visible across the gully might be an hour's walk away. Long before mobile phones, Gomerans solved this with one of the world's most elaborate <strong>whistled languages</strong>: <em>Silbo Gomero</em>, "the Gomeran whistle".</p>
+  <p>The island of <strong>La Gomera</strong> in the Canary Islands is carved by deep, near-vertical barrancos — ravines so steep that a neighbour visible across the gully might be an hour's walk away. Long before mobile phones, Gomerans used <em>Silbo Gomero</em>, "the Gomeran whistle", to speak across them.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="28.10" data-lng="-17.20" data-zoom="7">🗺️ Fly to La Gomera</button>
@@ -155,7 +155,7 @@ const TRIVIA_ARTICLES = [
   <p>Silbo is not the only surviving whistled register — Kuşköy in Turkey, Hmong courtship whistles, the whistled Mazatec of Oaxaca and the Akha whistled tones of Yunnan all coexist with their spoken parents — but it is the most institutionalised, the best documented, and the only one on UNESCO's Representative List — Turkey's Kuşköy whistle was inscribed on the Urgent Safeguarding List in 2017. The next time you stand on a ridge in La Gomera and hear what sounds like a very chatty bird, listen again: it might be someone telling their cousin what to pick up from the shop.</p>
         `,
         ja: `
-  <p>カナリア諸島の<strong>ラ・ゴメラ島</strong>は、ほぼ垂直に切り立った深い渓谷（バランコ）に幾筋にも刻まれている。目の前に見える隣人の家まで歩けば1時間以上。携帯電話が普及するはるか以前、ゴメラの羊飼いたちはこの地形を世界でもっとも洗練された<strong>口笛言語</strong>──<em>シルボ・ゴメロ</em>で乗り越えてきた。</p>
+<p>カナリア諸島の<strong>ラ・ゴメラ島</strong>は、ほぼ垂直に切り立った深い渓谷（バランコ）に幾筋にも刻まれている。目の前に見える隣人の家まで歩けば1時間以上かかることもある。携帯電話が普及する以前、島の人々はスペイン語の口笛レジスターである<em>シルボ・ゴメロ</em>を使って渓谷越しに会話していた。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="28.10" data-lng="-17.20" data-zoom="7">🗺️ ラ・ゴメラ島へ飛ぶ</button>
@@ -202,11 +202,11 @@ const TRIVIA_ARTICLES = [
       icon: '🔊',
       tags: ['clicks', 'phonology', 'africa', 'extreme'],
       title: {
-        en: 'Taa (!Xóõ) — the language with more consonants than any other',
+        en: 'Taa (!Xóõ) — counting one of the largest consonant inventories',
         ja: 'タア語（!Xóõ）— 世界一子音が多い言語',
       },
       summary: {
-        en: 'Spoken by perhaps 2,500 people on the Botswana–Namibia border, Taa packs around 160 distinct phonemes — including more than 120 consonant sounds and all five fully developed click types — into a single inventory, by some measures the largest sound system ever described.',
+        en: 'Taa is spoken by about 2,500 people near the Botswana–Namibia border. Depending on how complex clicks are analysed, descriptions count roughly 120 consonants or more.',
         ja: 'ボツワナとナミビアの国境地帯にわずか2500人ほどの話者しか残っていないタア語は、120を超える子音と5系統の吸着音を含む約160の音素をひとつの体系に詰め込んでいる。記述されたなかで最大級の音体系である。',
       },
       body: {
@@ -242,7 +242,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="panto" data-lat="-23.5" data-lng="21.5" data-zoom="6">🌵 Zoom into the Kalahari</button>
   </div>
   
-  <p>Taa is generally described as <strong>severely endangered</strong>. The few hundred children who still acquire it grow up alongside Tswana-medium schooling and increasingly mobile lifestyles. If Taa goes silent in the next generation, the world loses not only a community's heritage but the single richest natural laboratory the science of phonetics has ever had.</p>
+  <p>Taa is generally described as <strong>severely endangered</strong>. The few hundred children who still acquire it grow up alongside Tswana-medium schooling and increasingly mobile lifestyles. A break in transmission would end the daily use of the language and remove an important source of evidence for how complex a consonant inventory can become.</p>
         `,
         ja: `
   <p>英語の子音は24個。<strong>タア語</strong>（原綴り <em>!Xóõ</em>）は、その子音をどう数えるかすら言語学者の合意が得られないほど多い。アンソニー・トレイルの記念碑的記述（1985年、東ǃXoon方言）では、もっとも控えめに数えて音素子音は<strong>58個</strong>以上、のちのDoBeSによる西ǃXoon方言の記述では<strong>87個</strong>以上。ただしこれは複雑な吸着音を子音連続とみなした最小値である。複雑な吸着音をそれぞれ一つの分節音として数えれば、トレイルの資料で約<strong>130個</strong>、DoBeSで<strong>122個</strong>まで膨らむ。後者はWALSがタア語を「記述されたなかで最大の子音体系」と位置づける際に用いた数字である。いずれの数え方でも世界記録である。</p>
@@ -276,7 +276,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="panto" data-lat="-23.5" data-lng="21.5" data-zoom="6">🌵 カラハリ砂漠を拡大</button>
   </div>
   
-  <p>タア語は一般に<strong>重度の危機</strong>にあるとされる。次世代でこの言語が沈黙すれば、共同体の遺産だけでなく、音声学が手にした「もっとも豊かな天然実験室」そのものが失われる。</p>
+<p>タア語は一般に<strong>重度の危機</strong>にあるとされる。次世代への継承が途切れれば、共同体の日常語が失われると同時に、複雑な子音体系がどのように成立し機能するかを示す重要な資料も失われる。</p>
         `,
       },
       sources: [
@@ -294,11 +294,11 @@ const TRIVIA_ARTICLES = [
       icon: '🤫',
       tags: ['phonology', 'papua-new-guinea', 'extreme', 'minimal'],
       title: {
-        en: 'Rotokas — the language with (almost) the fewest sounds',
+        en: 'Rotokas — an eleven-phoneme sound system',
         ja: 'ロトカス語 — 世界一音が少ないとされる言語',
       },
       summary: {
-        en: 'On the cocoa-growing island of Bougainville, the central dialect of Rotokas is famous for having only eleven phonemes — six consonants and five vowels — once cited as the smallest phoneme inventory in the world.',
+        en: 'The central dialect of Rotokas, spoken on Bougainville, has been analysed with six consonants and five vowels, placing it at the low end of documented phoneme inventories.',
         ja: 'カカオの島ブーゲンビルで話されるロトカス語の中央方言は、音素がわずか11個（子音6、母音5）。世界最小級の音体系として知られる。',
       },
       body: {
@@ -334,7 +334,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="panto" data-lat="-6.20" data-lng="155.30" data-zoom="8" data-tiles="terrain">🌋 Zoom into the Crown Prince Range</button>
   </div>
   
-  <p>The lesson of Rotokas is not that simpler languages are "easier" — every Rotokas child still acquires native fluency with the same effort any baby anywhere puts into language learning. It is, rather, that <strong>the human language faculty has remarkable headroom in both directions</strong>. From eleven sounds to one hundred and sixty-four, the underlying system is the same.</p>
+  <p>A small phoneme inventory does not make a language "easier": Rotokas children acquire their language as children elsewhere acquire theirs. Rotokas and Taa instead show the range that spoken-language sound systems can occupy, from about eleven contrastive sounds to well over one hundred.</p>
         `,
         ja: `
   <p>タア語がマキシマリストの楽園なら、<strong>ロトカス語</strong>はミニマリストの聖地である。パプアニューギニア東端の<strong>ブーゲンビル島</strong>──地理的にはソロモン諸島の延長線上にある火山島──の山間部で約4000人に話される。その中央方言の音素はわずか<strong>11個</strong>。子音6（<em>p, t, k, β, ɾ, ɡ</em>）、母音5（<em>a, e, i, o, u</em>。それぞれ長短対立を持つ）。</p>
@@ -368,7 +368,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="panto" data-lat="-6.20" data-lng="155.30" data-zoom="8" data-tiles="terrain">🌋 クラウン・プリンス山脈を拡大</button>
   </div>
   
-  <p>ロトカス語が教えてくれるのは「音が少ない言語は習得が楽」という単純な話ではない。ロトカスの子どもも、世界中の他の子どもと同じ労力で母語を獲得していく。重要なのは、<strong>人類の言語能力は上にも下にも驚くほど余白がある</strong>ということだ。11音から164音まで、根底のシステムは同じなのだ。</p>
+  <p>音素目録が小さいことは、言語習得が必ず容易になることを意味しない。ロトカス語とタア語の記述を比較すると、人間言語で確認されている音素目録の幅が非常に大きいことが分かる。</p>
         `,
       },
       sources: [
@@ -385,11 +385,11 @@ const TRIVIA_ARTICLES = [
       icon: '🕯️',
       tags: ['extinct', 'caucasian', 'phonology', 'language-death'],
       title: {
-        en: 'Ubykh — the day a language with 84 consonants died',
+        en: 'Ubykh — documenting a language with about 84 consonants',
         ja: 'ウビフ語 — 子音84個の言語が消えた日',
       },
       summary: {
-        en: 'On 7 October 1992, Tevfik Esenç died in a Turkish village and took the Ubykh language with him: a Northwest Caucasian tongue with 84 consonants and just two phonemic vowels, recorded across decades by the French scholar Georges Dumézil.',
+        en: 'Ubykh, a Northwest Caucasian language with about 84 consonants and two phonemic vowels, lost its last fully fluent speaker when Tevfik Esenç died in 1992. Georges Dumézil and other scholars recorded it over several decades.',
         ja: '1992年10月7日、テヴフィク・エセンチがトルコの村で世を去り、子音84・母音2のウビフ語も彼とともに消えた。半世紀にわたりこの言語を記録し続けたのは、フランスの碩学ジョルジュ・デュメジルだった。',
       },
       body: {
@@ -403,7 +403,7 @@ const TRIVIA_ARTICLES = [
   
   <p>Ubykh belonged to the <strong>Northwest Caucasian</strong> family, alongside Abkhaz, Abaza, Adyghe and Kabardian. Its homeland was the strip of coast around what is now the Russian resort city of <strong>Sochi</strong>. After Imperial Russia's conquest of the Caucasus in the 1860s, almost the entire Ubykh population was forcibly deported across the Black Sea to Ottoman territory — a tragedy now remembered as the <em>muhajir</em> exile. Settled in scattered villages in Anatolia, the community switched, generation by generation, to Turkish and to Circassian. By 1900 Ubykh was already a domestic relic; by 1950 it was the speech of a handful of old men.</p>
   
-  <p>What makes Ubykh extraordinary in linguistic terms is its phoneme inventory:</p>
+  <p>Ubykh is especially well known for its phoneme inventory:</p>
   
   <ul>
     <li><strong>84 phonemic consonants.</strong> Pharyngealised, labialised, palatalised, ejective — every parameter that can multiply a consonant series, Ubykh used. Some published counts go as high as 81, others 83 or 84; even the lowest figure is higher than any non-Khoisan language.</li>
@@ -477,16 +477,16 @@ const TRIVIA_ARTICLES = [
       icon: '🔒',
       tags: ['ritual', 'australia', 'secret-language', 'phonology'],
       title: {
-        en: 'Damin — the secret men\'s register that broke Australia\'s phonological rules',
+        en: 'Damin — a ceremonial register with clicks and ingressive sounds',
         ja: 'ダミン語 — オーストラリアの音韻常識を破った男性秘密言語',
       },
       summary: {
-        en: 'Used only by initiated men on Mornington Island, Damin compressed the whole Lardil vocabulary into about 200 words, and broke every Australian sound rule, with click stops, ingressive laterals and ejectives found nowhere else on the continent.',
+        en: 'Damin was used by initiated Lardil men on Mornington Island. Its small vocabulary and use of clicks, ingressive laterals and ejectives set it apart from neighbouring Australian sound systems.',
         ja: 'モーニントン島で成人儀礼を経た男性のみが用いたダミン語は、ラーディル語の語彙を約200語に圧縮し、吸気側面音や放出音など「オーストラリアにあり得ない音」を体系的に持っていた。',
       },
       body: {
         en: `
-  <p>Across the continent of Australia, more than 250 indigenous languages share, with surprising consistency, a small palette of speech sounds: voiceless stops at four or five places of articulation, matching nasals, a couple of laterals, two rhotics, and absolutely no clicks, no ejectives, no implosives, no ingressive sounds. Then comes <strong>Damin</strong>, and the rules break.</p>
+  <p>More than 250 Indigenous languages of Australia share a broadly similar set of speech sounds: voiceless stops at four or five places of articulation, matching nasals, a few laterals, two rhotics, and no clicks, ejectives, implosives, or ingressive sounds. <strong>Damin</strong> differs sharply from that pattern.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="lbz_damin" data-zoom="6">🌍 Show Damin on the map</button>
@@ -495,7 +495,7 @@ const TRIVIA_ARTICLES = [
   
   <p>Damin (sometimes spelled <em>Demiin</em>) was the <strong>secret auxiliary register</strong> of the <strong>Lardil</strong> and neighbouring <strong>Yangkaal</strong> peoples of Mornington Island and Forsyth Island, in the southern Gulf of Carpentaria. It was taught only to men who had passed through the second stage of the <em>Warama</em> initiation ceremony, and was used in the ritual seclusion period immediately after. Outside that ceremonial context it was, at least in principle, forbidden to speak. By the time the language was first systematically recorded — by the American linguist <strong>Kenneth Hale</strong> in the 1960s — the last initiations had stopped, and only a handful of older men still remembered the system.</p>
   
-  <p>What Hale found was extraordinary. Damin was not a separate language: it shared Lardil's grammar more or less wholesale. But it had its own vocabulary of <strong>roughly 200 lexical items</strong>, each one mapping by a clever rule of semantic compression onto a whole class of Lardil words. <em>n!aa</em>, for example, covered ego and ego's own group, and <em>n!uu</em> covered everyone else — Lardil's nineteen pronouns compressed into two. A speaker who knew the 200 Damin items could in principle express anything that Lardil could express — just more abstractly.</p>
+  <p>Hale found that Damin was not a separate language: it retained Lardil grammar almost wholesale. It did, however, have its own vocabulary of <strong>roughly 200 lexical items</strong>. A rule of semantic compression mapped each item onto a class of Lardil words. <em>n!aa</em>, for example, covered ego and ego's own group, while <em>n!uu</em> covered everyone else; Lardil's nineteen pronouns were thus reduced to two. A speaker who knew the 200 Damin items could in principle express anything that Lardil could express, at a more abstract level.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="compare" data-codes="lbz,nny">🗣 Compare Lardil and Yangkaal</button>
@@ -512,13 +512,13 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>Damin's phonology was a deliberate departure from Lardil's, not a segment-by-segment recoding of it: alongside ordinary Australian stops — and the plain Lardil consonants that survive mainly in its grammatical suffixes — Damin used nasal clicks, a velar ejective <em>k'</em>, a bilabial trill and an ingressive lateral fricative, sounds attested nowhere else on the continent. — after Hale &amp; Nash, "Lardil and Damin Phonotactics" (1997)</blockquote>
   
-  <p>The conclusion most linguists draw from Damin is unsettling and exhilarating in equal measure. <strong>The "Australian" phonological profile is not biologically inevitable.</strong> Speakers of Lardil — who in everyday life used a sound system as plain as any of their neighbours — could, when ritual demanded, produce and routinely teach a wildly exotic phonology to teenage initiates. Whatever keeps the surface sound systems of Australian languages so uniform across thousands of kilometres is therefore <strong>cultural and sociolinguistic, not articulatory or cognitive</strong>.</p>
+  <p>Damin bears on a broader question about Australian phonology. The familiar "Australian" profile is not an articulatory or biological limit: Lardil speakers, whose everyday sound system resembled those of neighbouring languages, could produce and teach this very different ritual register to teenage initiates. The relative uniformity of sound systems across the continent therefore calls for a cultural and sociolinguistic explanation, rather than an articulatory or cognitive one.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="-16.55" data-lng="139.45" data-zoom="9">🪨 Zoom into Mornington Island</button>
   </div>
   
-  <p>Damin is no longer transmitted. The last initiated speakers died in the 1980s, and the secrecy taboos surrounding the register meant that the Lardil community itself could not simply "revive" it from recordings without violating its sacred function. What survives is Hale's fieldnotes, a small body of follow-up work by <strong>Norvin Richards</strong> and others, and an outsized place in the world's phonological imagination. For a language with only 200 words, Damin's footprint in linguistic theory is enormous.</p>
+  <p>Damin is no longer transmitted. The last initiated speakers died in the 1980s, and the secrecy taboos surrounding the register mean that the Lardil community cannot simply "revive" it from recordings without violating its sacred function. What remains is Hale's fieldnotes and a small body of follow-up work by <strong>Norvin Richards</strong> and others. Those records have made Damin an important case in discussions of phonology, despite its vocabulary of only about 200 words.</p>
         `,
         ja: `
   <p>オーストラリア大陸の250以上の先住民言語は、驚くほど似た音体系を共有している──4〜5箇所の無声破裂音、対応する鼻音、いくつかの側面音、2種のR音。吸着音もなく、放出音もなく、吸気音もない。ところが<strong>ダミン語</strong>はそのすべてを破ってしまう。</p>
@@ -530,7 +530,7 @@ const TRIVIA_ARTICLES = [
   
   <p>ダミン語（<em>Demiin</em> とも）は、カーペンタリア湾南部のモーニントン島・フォーサイス島の<strong>ラーディル族</strong>および隣接する<strong>ヤンカール族</strong>が用いた<strong>儀礼用の秘密レジスター</strong>である。<em>ワラマ</em>成人儀礼の第二段階を経た男性のみに伝授され、儀礼後の隔離期間中に用いられた。それ以外の場面で話すことは原則として禁じられていた。アメリカの言語学者<strong>ケネス・ヘイル</strong>が1960年代に初めて体系的に記録したときには、すでに成人儀礼は途絶え、覚えている老人は数人しかいなかった。</p>
   
-  <p>ヘイルが見出したのは驚くべき体系だった。ダミン語はラーディル語とは別言語ではない──文法はほぼまるごと共有している。だが語彙だけは独自で、<strong>約200項目</strong>しかない。各項目はラーディル語の語彙クラスをまるごと一語で覆う巧妙な意味圧縮になっている。たとえば <em>n!aa</em> は「自分と自分の側の人間」、<em>n!uu</em> は「それ以外のすべて」を指す──ラーディル語の19の代名詞が2語に圧縮されている。200語を知る者は理屈の上ではラーディル語と同じだけのことを語れる──ただし、より抽象的に。</p>
+<p>ヘイルの分析では、ダミン語はラーディル語と別の文法を持つ言語ではなく、文法の大部分を共有する特殊なレジスターである。一方、独自の語彙は<strong>約200項目</strong>で、各項目がラーディル語の語彙クラスを広く覆う。たとえば <em>n!aa</em> は「自分と自分の側の人間」、<em>n!uu</em> は「それ以外のすべて」を指し、ラーディル語の19の代名詞に対応する領域を2語で表す。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="compare" data-codes="lbz,nny">🗣 ラーディル語とヤンカール語を比べる</button>
@@ -575,7 +575,7 @@ const TRIVIA_ARTICLES = [
         ja: '吸着音 — 国境を越えた5系統の音',
       },
       summary: {
-        en: 'Five kinds of click — dental, lateral, alveolar, palatal and bilabial — emerged in the languages of southern Africa\'s Khoe and Tuu families and the isolate Hadza, then leapt into Bantu Zulu and Xhosa via centuries of contact with Khoekhoe-speaking neighbours.',
+        en: 'Dental, lateral, alveolar, palatal and bilabial clicks occur across several southern African language families. Contact with Khoe-speaking communities also introduced clicks into Bantu languages including Zulu and Xhosa.',
         ja: '5系統の吸着音──歯音・側面・歯茎・硬口蓋・両唇──は南部アフリカのコエ語族・トゥー語族とハッザ語に発生し、コエコエ系民族との数百年にわたる接触を経てズールー語・コサ語などバントゥー諸語にも飛び移った。',
       },
       body: {
@@ -622,13 +622,13 @@ const TRIVIA_ARTICLES = [
 
   <p>The mechanism is now reasonably well reconstructed. Pakendorf, Gunnink, Sands and Bostoen (2017), combining linguistic and genetic evidence, conclude that the copying of clicks accompanied large-scale inmarriage of Khoisan-speaking women into Bantu-speaking communities, with part of the effect attributable to language shift by Khoisan speakers themselves. On that account clicks did not arrive the way a casual loanword arrives: they came through households in which children grew up hearing both languages, and once a generation had them, they were simply native consonants.</p>
   
-  <p>Beyond southern Africa, robust documented cases are the East African isolates <strong>Hadza</strong> and <strong>Sandawe</strong>, the Cushitic language <strong>Dahalo</strong> of coastal Kenya, plus the special ritual register <strong>Damin</strong> in Australia — used by initiated men of Mornington Island rather than as an ordinary spoken language. Dahalo is the odd one out: its clicks survive in only about forty words, several of them basic vocabulary, and are generally read as a substrate relic left behind when its speakers shifted to Cushitic. (Reports of click-like sounds in the ceremonial register of El Molo exist but are not well established.) That makes the southern African click area one of the world's tightest linguistic regions — a place where one extraordinary feature has been maintained, elaborated and traded across four families for at least several thousand years.</p>
+  <p>Beyond southern Africa, robust documented cases are the East African isolates <strong>Hadza</strong> and <strong>Sandawe</strong>, the Cushitic language <strong>Dahalo</strong> of coastal Kenya, plus the special ritual register <strong>Damin</strong> in Australia — used by initiated men of Mornington Island rather than as an ordinary spoken language. Dahalo is the odd one out: its clicks survive in only about forty words, several of them basic vocabulary, and are generally read as a substrate relic left behind when its speakers shifted to Cushitic. (Reports of click-like sounds in the ceremonial register of El Molo exist but are not well established.) In southern Africa, clicks have been maintained and exchanged across four language families for at least several thousand years.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Survey the click belt of southern Africa</button>
   </div>
   
-  <p>Whether clicks are an archaic feature inherited from extremely ancient African populations, a regional invention amplified by contact, or some combination of both, remains debated. What is not debated is that they are <strong>fully functional phonemes</strong>, learned by children with the same ease as any other consonant — a reminder that the "exotic" is just a matter of where you happen to grow up.</p>
+  <p>Whether clicks are an archaic feature inherited from very early African populations, a regional innovation strengthened through contact, or a combination of both remains debated. Their status as <strong>fully functional phonemes</strong> does not: children acquire them as part of their ordinary sound system, as they acquire any other consonant.</p>
         `,
         ja: `
   <p>英語話者の多くも「クリック音」は出せる──いらいらした親の唇打ち、舌打ちによる否定。だがそれらは<em>パラ言語的</em>な音であり、音素ではない。これに対し<strong>南部アフリカ</strong>の複数の言語族では、吸着音は正真正銘の子音である。英語の <em>p</em> や <em>t</em> と同じ資格で普通の単語の中に組み込まれている。</p>
@@ -673,7 +673,7 @@ const TRIVIA_ARTICLES = [
 
   <p>この移入の経路は、いまではかなり明確に再構されている。Pakendorf・Gunnink・Sands・Bostoen (2017) は言語学と遺伝学の証拠を突き合わせ、吸着音の取り込みはコイサン系の女性がバントゥー系共同体へ大規模に嫁入りした過程に伴うものであり、一部はコイサン系話者自身の言語交替によるものだと結論づけている。つまり吸着音は、ふつうの借用語のように入ってきたのではない。二つの言語が飛び交う家庭で子どもが育ち、その世代が身につけてしまえば、それはもう外来の音ではなく母語の子音だった、ということである。</p>
   
-  <p>南部アフリカ以外で吸着音が生きているのは、東アフリカの<strong>ハッザ</strong>・<strong>サンダウェ</strong>、ケニア沿岸のクシ系言語<strong>ダハロ語</strong>、オーストラリアの儀礼レジスター<strong>ダミン語</strong>など、ごくわずか。なかでもダハロ語は異色で、吸着音が残るのは40語ほど（うち数語は基本語彙）にすぎず、話者がクシ系言語へ言語交替した際の基層の名残と見るのが一般的である。南部アフリカの吸着音圏は、4つの語族にわたって少なくとも数千年にわたり一つの特異な音特徴を維持・拡大・交換してきた、世界でもっとも「タイトな」言語地帯のひとつである。</p>
+<p>南部アフリカ以外で吸着音が確認されるのは、東アフリカの<strong>ハッザ</strong>・<strong>サンダウェ</strong>、ケニア沿岸のクシ系言語<strong>ダハロ語</strong>、オーストラリアの儀礼レジスター<strong>ダミン語</strong>などである。ダハロ語では吸着音が残るのは40語ほどで、話者がクシ系言語へ言語交替した際の基層の名残と見る分析がある。南部アフリカでは、吸着音が4つの語族にわたり少なくとも数千年間維持され、言語接触を通じて広がってきた。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 南部アフリカの吸着音圏を俯瞰</button>
@@ -698,11 +698,11 @@ const TRIVIA_ARTICLES = [
       icon: '⛰️',
       tags: ['isolate', 'europe', 'prehistory', 'pre-indo-european'],
       title: {
-        en: 'Basque — the language Europe forgot to replace',
+        en: 'Basque — a language isolate of the western Pyrenees',
         ja: 'ヨーロッパが置き換え損ねた言語、バスク語',
       },
       summary: {
-        en: 'Western Europe\'s only surviving pre-Indo-European language, spoken in the Pyrenees by ~750,000 people, and unrelated to anything else on Earth.',
+        en: 'Basque is spoken by about 750,000 people in the western Pyrenees. It is the only surviving language of Western Europe known to predate the region\'s Indo-European languages, with no demonstrated living relative.',
         ja: '西ヨーロッパで唯一生き残った印欧語以前の言語。ピレネー山中で約75万人が話す、地球上のどの言語とも親縁関係のない孤立言語。',
       },
       body: {
@@ -764,7 +764,7 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>「言語は、知らない者が学ばないから失われるのではない。知っている者が話さなくなるから失われるのだ」── ホシェアン・アルツェ</blockquote>
   
-  <p>復興は実を結んだ。バスク語はバスク自治州でスペイン語と並ぶ公用語となり、A・B・D の三つのモデルで学校教育に組み込まれ、テレビ・文学・インターネット上で日々使われている。バスク語は数千年来そうであったように、西ピレネーから響き続ける頑固な「印欧語以前の声」であり、私たちが他の方法では決して聞くことのできない、古代ヨーロッパの生きたタイムカプセルである。</p>
+<p>バスク語はバスク自治州でスペイン語と並ぶ公用語となり、A・B・D の三つのモデルで学校教育に組み込まれ、テレビ・文学・インターネットでも使われている。現代まで継承された語彙と地名は、西ヨーロッパで印欧語が広がる以前の言語史を考える資料になっている。</p>
         `,
       },
       sources: [
@@ -903,12 +903,11 @@ const TRIVIA_ARTICLES = [
   
   <p>Modern Etruscan studies were essentially founded by the Italian archaeologist <strong>Massimo Pallottino</strong> (1909–1995), whose <em>Etruscologia</em> (first published 1942, revised through a seventh edition in 1984) reset the field on the "combinatorial method": match patterns within Etruscan itself, treat Greek and Roman classical sources as background noise rather than direct translation aids, and accept that we will progress one inscription at a time.</p>
   
-  <blockquote>"Etruscan is no longer a mystery, but it remains a problem." — Massimo Pallottino, paraphrased from <em>Etruscologia</em></blockquote>
-  
-  <p>By the 1st century CE, Etruscan was dying. The emperor Claudius (10 BCE–54 CE) wrote a now-lost 20-volume history of the Etruscans, the <em>Tyrrhenika</em>, and tried to preserve the language; he is sometimes called the last man who could read it. With his death the language slipped out of living memory — leaving us 13,000 inscriptions and one ritually-wrapped mummy as the field notebook of a civilization that taught Rome how to be Rome.</p>
+
+<p>By the 1st century CE, Etruscan was dying. The emperor Claudius (10 BCE–54 CE) wrote a now-lost 20-volume history of the Etruscans, the <em>Tyrrhenika</em>, and tried to preserve the language; he is sometimes called the last man who could read it. With his death the language slipped out of living memory — leaving us 13,000 inscriptions and one ritually-wrapped mummy as the field notebook of a civilization that taught Rome how to be Rome.</p>
         `,
         ja: `
-  <p>ローマがローマになる前、中部イタリアを支配していたのは<strong>エトルリア人</strong>だった。アルノ川からティベル川まで広がる12都市国家の連合体で、金属加工と海上交易に長け、トーガの巻き方、アーチの架け方、剣闘士試合の演出までローマ人に教えた民族である。彼らはまた、考古学に最も奇妙な贈り物の一つを残した──<em>声に出して読めるのに、意味は部分的にしか分からない</em>言語、<strong>エトルリア語</strong>である。</p>
+<p>ローマが勢力を拡大する以前、中部イタリアには<strong>エトルリア人</strong>の12都市国家があった。金属加工と海上交易に長け、後のローマ文化にも影響を与えた。エトルリア語の文字と音価はおおむね読めるが、語彙と文法の理解は現在も部分的である。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="ett" data-zoom="6">🌍 地図でエトルリア語を見る</button>
@@ -954,16 +953,16 @@ const TRIVIA_ARTICLES = [
       icon: '🏝️',
       tags: ['unknown', 'isolated', 'andamanese', 'uncontacted'],
       title: {
-        en: 'Sentinelese — the language we have never recorded',
+        en: 'Sentinelese — an unrecorded language of North Sentinel Island',
         ja: '一度も録音されたことのない言語、センチネル語',
       },
       summary: {
-        en: 'On a 60 km² island in the Bay of Bengal lives a people whose ancestors may belong to one of the earliest layers of human settlement in the region, and whose language no outsider has ever heard, let alone documented.',
+        en: 'The language of North Sentinel Island has no usable public recording or transcription. With sustained contact prohibited, its relationship to other Andamanese languages remains unconfirmed.',
         ja: 'ベンガル湾の60平方キロの島で、地域における人類最古の定住層に連なるとされる人々が話す言語。外部の誰も聞いたことも記録したこともない。',
       },
       body: {
         en: `
-  <p>About 1,200 km east of mainland India, in the Bay of Bengal, lies a small forested island of roughly 60 square kilometres. It is called <strong>North Sentinel Island</strong>, and somewhere inside it live perhaps fifty to several hundred people — nobody knows the real number — who have rejected every single attempt to talk to them. They are the <strong>Sentinelese</strong>, and theirs is one of the very few human languages on Earth that has never been recorded, never been transcribed, and never even been confidently classified, and by far the best known of them.</p>
+  <p>About 1,200 km east of mainland India, in the Bay of Bengal, lies a small forested island of roughly 60 square kilometres. It is called <strong>North Sentinel Island</strong>, and somewhere inside it live perhaps fifty to several hundred people — nobody knows the real number — who have resisted sustained contact from outsiders. No usable recording or transcription of their language is publicly available, and it has not been classified with confidence.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Fly to North Sentinel Island</button>
@@ -1016,7 +1015,7 @@ const TRIVIA_ARTICLES = [
   
   <p>センチネル語の類型について推測できるのは、姉妹言語の類推からだけだ。オンガン語は音素目録が小さく、身体部位や親族名詞に所有接頭辞をつけ、「頭の」「背の」など身体部位に基づく指示体系を持つ。センチネル語も同様の構造を持つ可能性は高いが、検証する手段がない。Ethnologue、ISO 639-3、Glottolog はセンチネル語を「<em>std</em>／sent1241」として登録しているが、実データの欄はすべて「情報なし／不明」である。</p>
   
-  <p>これは言語学上もっとも稀な状況──日々現役で話されている生きた人類言語を、我々人類が「研究しない」と合意した、というものだ。21世紀の間その合意が保たれるかどうかは分からない。今のところセンチネル族は「インタビューを受けない人々」であり、その言語は、この読み物で唯一、「知っているから取り上げた」のではなく「知らないと知っているから取り上げた」言語である。</p>
+<p>インド政府は接触を禁じ、感染症や外部からの暴力から共同体を守る方針を採っている。そのため、センチネル語には公開された実用的な録音・転写資料がなく、近隣のアンダマン諸語との関係も確認されていない。資料の欠如は研究上の空白であると同時に、接触を試みないという保護方針の結果でもある。</p>
         `,
       },
       sources: [
@@ -1038,8 +1037,8 @@ const TRIVIA_ARTICLES = [
         ja: '日常語として蘇った古代言語、ヘブライ語',
       },
       summary: {
-        en: 'For nearly 1,700 years, Hebrew survived as a liturgical and literary language but no child grew up speaking it. Today it is the mother tongue of nine million people — the largest-scale and most successful revival of a language that had ceased to be a community vernacular.',
-        ja: '約1,700年にわたりヘブライ語は典礼・文献の言語として残り続けたが、母語として育つ子供はいなかった。今やそれは900万人の母語となっている──共同体の日常語として途絶えた言語を再び生活語として復活させた、もっとも大規模で成功した事例。',
+        en: 'For many centuries Hebrew continued mainly as a liturgical and literary language rather than a community vernacular. It returned to everyday speech from the late nineteenth century and is now used natively by millions of people.',
+        ja: 'ヘブライ語は長く典礼・文献を中心に使われ、共同体の日常語ではなくなっていた。19世紀末以降に日常使用と世代間継承が広がり、現在は数百万人が母語として話している。',
       },
       body: {
         en: `
@@ -1073,7 +1072,7 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>"The Jews did not manage to revive the language of Isaiah. It is simply impossible to revive a language as it used to be." — Ghil'ad Zuckermann, BBC Future, 22 March 2019</blockquote>
   
-  <p>By 1922, when Ben-Yehuda died, Hebrew was one of the three official languages of British Mandate Palestine. By 1948 it was the principal language of the newly-founded State of Israel. Today it is the school language of millions, the language of Nobel laureates (S. Y. Agnon, 1966), of cinema and high tech, of the supermarket and the playground. The last child to learn Hebrew as a baby before 200 CE and the first child to learn it as a baby in 1882 are separated by about 70 generations of Jewish life in which the language was carried but not cradled, and it is the only language on Earth that has done so and come back.</p>
+  <p>By 1922, when Ben-Yehuda died, Hebrew was one of the three official languages of British Mandate Palestine. By 1948 it was the principal language of the newly-founded State of Israel. Today it is used in schools, literature, cinema, technology, shops and playgrounds. Its return to intergenerational transmission after centuries of mainly liturgical and literary use remains unusual among documented language-revival movements.</p>
         `,
         ja: `
   <p>西暦<strong>200年</strong>頃のある時点で、ローマ領パレスチナで子供がヘブライ語を聞きながら育つ家庭はついに途絶えた。街路ではすでにアラム語が、都市ではギリシア語が優勢になり、ミシュナーの編纂者たちは書けるが日常で<em>話さない</em>ヘブライ語で文書を綴っていた。その後の1,700年間、ヘブライ語はシナゴーグの祈り、トーラーの巻物、ラビ同士の書簡──つまり「読み書きできる大人の言語」として生き延びたが、誰一人として赤ん坊として習得することはなかった。それがなぜか、変わった。今やヘブライ語は約<strong>900万人</strong>の日常の話し言葉であり、そのおよそ半数が赤ん坊として習得した母語話者である。コーンウォール語、マン島語、ワンパノアグ語といった小規模な復興例もあるが、母語話者が絶えた言語が共同体の日常語として戻ってきた事例としては、ヘブライ語が最大規模であり、もっとも詳しく記録されている。</p>
@@ -1124,16 +1123,16 @@ const TRIVIA_ARTICLES = [
       icon: '🕉️',
       tags: ['sanskrit', 'grammar', 'ancient', 'india', 'panini'],
       title: {
-        en: 'Pāṇini — the Sanskrit grammarian who anticipated computer science by 2,400 years',
+        en: 'Pāṇini — formal rules in an ancient Sanskrit grammar',
         ja: '計算機科学を2,400年先取りしたサンスクリット文法家、パーニニ',
       },
       summary: {
-        en: 'Around 500 BCE, an Indian scholar wrote a 4,000-rule formal grammar of Sanskrit so rigorous that Leonard Bloomfield could write in 1933 that "no other language, to this day, has been so perfectly described", and it is a direct ancestor of how compilers parse code today.',
+        en: 'Around 500–400 BCE, Pāṇini described Sanskrit through nearly 4,000 compact rules. Later linguists and computer scientists have compared its rule ordering and derivations with formal systems.',
         ja: '紀元前500年頃、インドの一学者が4,000規則からなるサンスクリットの形式文法を著した。1933年にレナード・ブルームフィールドが「今日に至るまで、これほど完璧に記述された言語は他にない」と評したほどの書であり、現代のコンパイラ理論の直接の祖先でもある。',
       },
       body: {
         en: `
-  <p>If you had to pick a single book to send back in a time machine to confound a 20th-century computer scientist, it would be hard to do better than the <strong>Aṣṭādhyāyī</strong> — the "Eight Chapters" of <strong>Pāṇini</strong>. Composed in what is now northwestern Pakistan around <strong>500–400 BCE</strong>, the Aṣṭādhyāyī is a complete generative description of Sanskrit in just under <strong>4,000 sūtras</strong> (terse aphoristic rules), packed so densely that the entire grammar fits in roughly 35 modern printed pages. Modern linguists, from Leonard Bloomfield to Paul Kiparsky and Noam Chomsky, have all called it the most sophisticated formal grammar of any language ever produced before the 20th century.</p>
+  <p>Composed in what is now northwestern Pakistan around <strong>500–400 BCE</strong>, the <strong>Aṣṭādhyāyī</strong> — the "Eight Chapters" of <strong>Pāṇini</strong> — gives a generative description of Sanskrit in just under <strong>4,000 sūtras</strong> (terse aphoristic rules). The complete grammar fits in roughly 35 modern printed pages. Linguists including Leonard Bloomfield, Paul Kiparsky, and Noam Chomsky have discussed its formal analysis in relation to later work in linguistics and computer science.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="sa" data-zoom="7">🌍 Show Sanskrit on the map</button>
@@ -1159,14 +1158,14 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="fire" data-code="sa">🔥 See Sanskrit "Fire"</button>
   </div>
   
-  <p>Pāṇini's influence is direct, and not just metaphorical. <strong>Leonard Bloomfield</strong> (1887–1949), one of the founders of American structural linguistics, wrote his 1927 essay "On Some Rules of Pāṇini" in part to import Pāṇinian rule-ordering into Western grammatical theory. The Dutch Indologist <strong>Frits Staal</strong> argued in "Euclid and Pāṇini" (1965) that Pāṇini's grammar is a formal system of the same order as Euclid's geometry; two years later the computer scientist <strong>Peter Zilahy Ingerman</strong>, in a letter to <em>Communications of the ACM</em>, proposed renaming Backus normal form the "Pāṇini-Backus form" in Pāṇini's honour. The Indian-American computer scientist <strong>Rick Briggs</strong>, working at NASA Ames in the 1980s, proposed Sanskrit-style kāraka representations as a natural intermediate language for AI knowledge representation. And in the preface to his 1965 <em>Aspects of the Theory of Syntax</em>, <strong>Noam Chomsky</strong> allowed that "even Pāṇini's grammar can be interpreted as a fragment of such a 'generative grammar,' in essentially the contemporary sense of this term."</p>
+  <p>Pāṇini's influence can be traced directly in later scholarship. <strong>Leonard Bloomfield</strong> (1887–1949), one of the founders of American structural linguistics, wrote his 1927 essay "On Some Rules of Pāṇini" in part to introduce Pāṇinian rule-ordering to Western grammatical theory. The Dutch Indologist <strong>Frits Staal</strong> argued in "Euclid and Pāṇini" (1965) that Pāṇini's grammar is a formal system of the same order as Euclid's geometry; two years later the computer scientist <strong>Peter Zilahy Ingerman</strong>, in a letter to <em>Communications of the ACM</em>, proposed renaming Backus normal form the "Pāṇini-Backus form" in Pāṇini's honour. The Indian-American computer scientist <strong>Rick Briggs</strong>, working at NASA Ames in the 1980s, proposed Sanskrit-style kāraka representations as a natural intermediate language for AI knowledge representation. In the preface to his 1965 <em>Aspects of the Theory of Syntax</em>, <strong>Noam Chomsky</strong> wrote that "even Pāṇini's grammar can be interpreted as a fragment of such a 'generative grammar,' in essentially the contemporary sense of this term."</p>
   
   <blockquote>"The descriptive grammar of Sanskrit, which Pāṇini brought to its highest perfection, is one of the greatest monuments of human intelligence." — Leonard Bloomfield, review of Liebich's <em>Konkordanz Pāṇini-Candra</em>, <em>Language</em> 5 (1929)</blockquote>
   
-  <p>Sanskrit itself (<em>saṃskṛta-</em>, "polished, refined") was already a literary and ritual standard, not a vernacular, by Pāṇini's day. After him it became, formally, what Pāṇini said it was: a language whose every well-formed sentence is, in principle, derivable from his 4,000 sūtras. Two and a half thousand years later, that is also exactly what we ask of a parser. The Aṣṭādhyāyī did not just describe Sanskrit. It pushed the idea of generative, formal description of language to a degree of precision unmatched in antiquity, and arguably until 20th-century formal linguistics rediscovered the same ideas independently.</p>
+  <p>Sanskrit itself (<em>saṃskṛta-</em>, "polished, refined") was already a literary and ritual standard rather than a vernacular in Pāṇini's day. It was subsequently formalized in the terms his grammar set out: in principle, every well-formed sentence could be derived from its 4,000 sūtras. That is comparable to the expectation placed on a parser today. The Aṣṭādhyāyī provides an unusually precise early model of how a language can be described through generative, formal rules.</p>
         `,
         ja: `
-  <p>20世紀の計算機科学者をタイムマシンで困惑させる一冊を選ぶとしたら、<strong>パーニニ</strong>の『<strong>アシュターディヤーイー</strong>』（八章篇）以上の候補を挙げるのは難しい。紀元前500〜400年頃、現在のパキスタン北西部で書かれたこの書は、わずか<strong>約4,000のスートラ</strong>（極度に圧縮された規則）で、サンスクリット語の生成的記述を完全に与える。全文が現代の活字でわずか35ページほどに収まるほど密度が高い。レナード・ブルームフィールドからポール・キパルスキー、ノーム・チョムスキーに至るまで、近現代の言語学者がこぞって20世紀以前に書かれた最も完成度の高い言語の形式記述と評する書物である。</p>
+<p><strong>パーニニ</strong>の『<strong>アシュターディヤーイー</strong>』（八章篇）は、紀元前500〜400年頃に現在のパキスタン北西部で成立した。<strong>約4,000のスートラ</strong>（圧縮された規則）を組み合わせてサンスクリット語の形を導出し、全文は現代の活字で約35ページに収まる。後代の言語学者は、その規則体系と適用順序を形式文法との関連で論じてきた。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="sa" data-zoom="7">🌍 地図でサンスクリットを見る</button>
@@ -1196,7 +1195,7 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>「パーニニが最高度にまで完成させたサンスクリットの記述文法は、人類知性の最大の記念碑の一つである」── レナード・ブルームフィールド、リービヒ『パーニニ＝チャンドラ対照表』書評、『Language』誌5巻（1929年）</blockquote>
   
-  <p>サンスクリット（<em>saṃskṛta-</em>「磨き上げられた、洗練された」）は、パーニニの時代にはすでに日常語ではなく、文学・祭祀の威信標準だった。だが彼以後、サンスクリットは形式的に「パーニニが書いた通りの言語」となった──正しい全文がパーニニの4,000スートラから原理的に導出可能な言語、である。これは2500年後、現代のパーサに対して我々が要求するのとまったく同じ性質だ。アシュターディヤーイーは、単にサンスクリットを記述しただけの書物ではない。言語を生成的・形式的に記述するという発想を、古代においては比類なき精度──20世紀の形式言語学が同じ発想を独自に再発見するまで、おそらく並ぶものはなかったと言ってよい精度──にまで押し上げたのである。</p>
+<p>サンスクリット（<em>saṃskṛta-</em>「磨き上げられた、洗練された」）は、パーニニの時代にはすでに文学・祭祀の標準語だった。『アシュターディヤーイー』は、適格な語形や文を規則の連鎖から導出する仕組みを示している。そのため、後世の研究では生成文法や形式的な構文解析と比較されてきた。</p>
         `,
       },
       sources: [
@@ -1214,12 +1213,12 @@ const TRIVIA_ARTICLES = [
       icon: '🟢',
       tags: ['conlang', 'esperanto', 'auxlang', 'zamenhof'],
       title: {
-        en: 'Esperanto — the conlang that actually worked',
+        en: 'Esperanto — from an 1887 booklet to an international community',
         ja: 'エスペラント──本当に話されるようになった人工言語',
       },
       summary: {
-        en: 'A Polish-Jewish ophthalmologist published a 40-page booklet in 1887. Today his language has up to two million speakers, around a thousand of them native — the only constructed language to truly take root.',
-        ja: '1887年、ポーランドのユダヤ系眼科医が出した40ページの小冊子から始まった人工言語。話者は最大で200万人、母語話者（denaskuloj）も約1000人を数える、世界で唯一「定着した」人工言語だ。',
+        en: 'L. L. Zamenhof introduced Esperanto in an 1887 booklet. It later developed an international speaking community, literature and a small population of native speakers.',
+        ja: 'L・L・ザメンホフが1887年の小冊子で発表した人工言語。国際的な話者共同体と文学が形成され、家庭で育った母語話者もいる。',
       },
       body: {
         en: `
@@ -1256,7 +1255,7 @@ const TRIVIA_ARTICLES = [
   
   <p>Twentieth-century history was cruel to Esperantists. Hitler condemned the language in <em>Mein Kampf</em> as a Jewish conspiracy; Zamenhof's three children were murdered in the Holocaust. Stalin imprisoned and executed Soviet Esperantists in the 1937–38 purges as "cosmopolitan spies". The movement survived both.</p>
   
-  <p>Today Esperanto has perhaps <strong>two million speakers</strong> at varying levels, and around <strong>a thousand native speakers</strong> known as <em>denaskuloj</em>, raised in bilingual households where Esperanto is one of the home languages. Duolingo's Esperanto course alone has enrolled over a million learners. By any measure — sustained community, breadth of literature, native-speaker population — Esperanto is by far the most successful constructed language ever attempted.</p>
+  <p>Today Esperanto has perhaps <strong>two million speakers</strong> at varying levels, and around <strong>a thousand native speakers</strong> known as <em>denaskuloj</em>, raised in bilingual households where Esperanto is one of the home languages. Duolingo's Esperanto course alone has enrolled over a million learners. Its sustained community, extensive literature and native speakers distinguish it from most other constructed languages.</p>
   
   <p>Zamenhof never claimed Esperanto would replace anyone's mother tongue. He wanted a <em>dua lingvo</em> — a second language — equally foreign to everyone, so that no native speaker would ever have the upper hand at the negotiating table. A century and a half later, the project is small, but it is still alive, still neutral, and still hopeful — exactly as its founder, <em>Doktoro Esperanto</em>, signed his name.</p>
         `,
@@ -1318,7 +1317,7 @@ const TRIVIA_ARTICLES = [
         ja: 'トキポナ──120語で世界を語れるか',
       },
       summary: {
-        en: 'A Canadian linguist designed a language with only ~120 words and ~14 sounds, partly as a Taoist thought experiment. Two decades later, thousands of people speak it, and many say it changed how they think.',
+        en: 'Sonja Lang designed Toki Pona around a vocabulary of roughly 120 words and about 14 sounds. Its speakers use compounding and context to express meanings beyond that small lexicon.',
         ja: 'カナダの言語学者が、約120語・約14音という極小の語彙体系を、道家思想の実験として設計した。20年後、世界中で数千人が話し、「世界の見え方が変わった」と語っている。',
       },
       body: {
@@ -1518,12 +1517,12 @@ const TRIVIA_ARTICLES = [
       icon: '🇰🇷',
       tags: ['hangul', 'korean', 'script', 'sejong', 'featural'],
       title: {
-        en: 'Hangul — the alphabet a king designed in a laboratory',
+        en: 'Hangul — the design principles of the Korean alphabet',
         ja: 'ハングル──王が「実験室」で設計した文字',
       },
       summary: {
-        en: 'In 1443 King Sejong the Great unveiled a new Korean alphabet whose letter shapes literally diagram the vocal tract. Linguists call it the most scientifically designed writing system on Earth, and it was almost banned twice.',
-        ja: '1443年、朝鮮王朝の世宗大王が発表した新しい朝鮮文字。子音字は発音器官の形を、母音字は天・地・人を模した、世界でもっとも科学的に設計された文字体系。だが、二度も廃止されかけた。',
+        en: 'In 1443 King Sejong introduced a Korean alphabet whose basic consonant shapes represent positions of the speech organs. Elite opposition and later restrictions did not prevent it from becoming Korea\'s principal script.',
+        ja: '1443年に世宗が創製した朝鮮語の文字体系。基本子音字は調音器官の形を表し、母音字は天・地・人という設計原理に基づく。',
       },
       body: {
         en: `
@@ -1534,7 +1533,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="ko">👋 "Hello" — <em>안녕하세요</em></button>
   </div>
   
-  <p>Sejong's motivation, set out in the project's preface, is one of the most touching openings in any writing-system history:</p>
+  <p>Sejong's motivation is set out in the project's preface:</p>
   
   <blockquote>"The speech of our country is different from that of China and does not match the Chinese characters. Therefore, even if the ignorant want to communicate, many of them cannot express themselves. Thinking of this with pity, I have newly designed twenty-eight letters, wishing only that everyone may easily learn them and use them in their daily life." — King Sejong, <em>Hunminjeongeum</em> preface, 1446</blockquote>
   
@@ -1563,7 +1562,7 @@ const TRIVIA_ARTICLES = [
   
   <p>Hangul's true rehabilitation came at the end of the 19th century with reformer Ju Si-gyeong, who systematized its name (<em>han-geul</em>, "great script") and its modern orthography. After the Japanese colonial period — during which Hangul was again banned, this time by an outside power — South Korea declared Hangul Day (한글날) a national holiday. North Korea calls it <em>Chosŏn'gŭl</em> and observes its own holiday on 15 January. Modern Korean literacy is functionally 100%.</p>
   
-  <p>The linguist Geoffrey Sampson described Hangul in 1985 as "perhaps the most scientific system of writing in general use in any country". The basic letter shapes are famously quick to memorize — Korean children can grasp the alphabet in a single sitting, though full reading and writing fluency takes the usual years. It is the world's only major script with both a known designer and a documented design rationale — a 600-year-old laboratory experiment that worked.</p>
+  <p>The linguist Geoffrey Sampson described Hangul in 1985 as "perhaps the most scientific system of writing in general use in any country". Its basic letter shapes can be learned quickly, although full reading and writing fluency still takes years. The <em>Hunminjeongeum Haerye</em> preserves an unusually detailed contemporary account of the script's design principles and intended use.</p>
         `,
         ja: `
   <p>たいていの文字体系は「進化」する。何百年もかけて絵文字から抽象記号へ漂流し、誰も「なぜBはこの形なのか」を覚えていない。<strong>ハングル</strong>はそうではない。ハングルには誕生日がある──<strong>1446年10月9日</strong>、解説書『<em>訓民正音解例本</em>』が頒布された日だ。そして名前のある単独の発明者がいる。朝鮮王朝第4代国王、<strong>世宗大王</strong>（在位1418〜1450）と、彼の集賢殿（<em>チピョンジョン</em>）の学者たちである。</p>
@@ -1573,7 +1572,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="ko">👋 「こんにちは」──<em>안녕하세요</em></button>
   </div>
   
-  <p>序文の冒頭は、文字史上もっとも胸を打つ一節とされる。</p>
+<p>序文では、新しい文字を作った目的が次のように説明されている。</p>
   
   <blockquote>「国の言葉は中国と異なり、漢字とは通じ合わない。それゆえ無学な民が言いたいことがあっても、ついに己の思いを述べることができない者が多い。これを憐れんで、新たに二十八字を作る。誰もが容易に習い、日々の暮らしに役立てんことを願うのみである」──世宗『訓民正音』序、1446年</blockquote>
   
@@ -1602,7 +1601,7 @@ const TRIVIA_ARTICLES = [
   
   <p>本格的な復権は19世紀末、改革者・周時経によってもたらされた。彼が<em>han-geul</em>（偉大な文字）という名を定め、現代正書法を整えたのである。日本統治期にハングルは再び禁止されるが、解放後の韓国は10月9日を「ハングルの日（한글날）」として国民の祝日にした。北朝鮮は<em>チョソングル</em>と呼び、1月15日に祝う。今日の朝鮮語識字率は事実上100%である。</p>
   
-  <p>言語学者ジェフリー・サンプソンは1985年、ハングルを「世界で使われている文字体系のうち、おそらく最も科学的なもの」と評した。基本の字形は覚えやすいことで有名で、子どもは一度の学習で字母をひと通り把握できる。もっとも、読み書きを不自由なく操れるようになるまでには、他の文字と同じく何年もかかる。発明者と設計理念が両方とも史料で裏付けられる、世界で唯一の大規模文字体系──ハングルは600年前に成功した「言語学の実験」なのだ。</p>
+<p>言語学者ジェフリー・サンプソンは1985年、ハングルを「世界で使われている文字体系のうち、おそらく最も科学的なもの」と評した。基本字母は比較的短期間で覚えられるが、読み書きの習熟には他の文字と同じく時間がかかる。『訓民正音解例』には字形の設計原理と使用目的が同時代の資料として詳しく残されている。</p>
         `,
       },
       sources: [
@@ -1620,7 +1619,7 @@ const TRIVIA_ARTICLES = [
       icon: '✍️',
       tags: ['syllabary', 'cherokee', 'sequoyah', 'north-america', 'invention'],
       title: {
-        en: 'Sequoyah — the illiterate genius who invented a writing system from scratch',
+        en: 'Sequoyah and the creation of the Cherokee syllabary',
         ja: 'シクウォイア──文字を知らぬまま文字を発明した男',
       },
       summary: {
@@ -1629,7 +1628,7 @@ const TRIVIA_ARTICLES = [
       },
       body: {
         en: `
-  <p><strong>Sequoyah</strong> (also written ᏍᏏᏉᏯ <em>Ssiquoya</em>, or in English George Guess, c. 1770–1843) is one of the only people in recorded history known to have invented a fully functional writing system from nothing, while being personally illiterate in any language. The story is so improbable that 19th-century commentators kept trying to explain it away. It happened anyway.</p>
+  <p><strong>Sequoyah</strong> (also written ᏍᏏᏉᏯ <em>Ssiquoya</em>, or in English George Guess, c. 1770–1843) developed a fully functional writing system without first being literate in another language. Nineteenth-century commentators disputed that account, but the syllabary and its adoption by Cherokee communities are well documented.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="chr" data-zoom="5">🌍 Show Cherokee on map</button>
@@ -1667,7 +1666,7 @@ const TRIVIA_ARTICLES = [
   <p>Today the Cherokee syllabary is taught in immersion schools in Tahlequah, Oklahoma and Cherokee, North Carolina. It is in Unicode (U+13A0–U+13FF), supported by Apple and Google operating systems, and has been used to write everything from translations of the Bible to modern social-media posts. The California coast redwood <em>Sequoia sempervirens</em> is traditionally said to be named after him, though how Endlicher arrived at the name in 1847 is still argued over. The man could not read. He gave a nation a script.</p>
         `,
         ja: `
-  <p><strong>シクウォイア</strong>（ᏍᏏᏉᏯ、英語名 George Guess、約1770〜1843）は、記録の残る歴史の中で、いかなる言語の読み書きもできないまま、完全に機能する文字体系を独力で発明した、ほぼ唯一の人物である。あまりに奇跡的なため、19世紀の論者たちは「どこかから盗用したに違いない」と説明しようとし続けた。だが、それは本当に起きたのだ。</p>
+<p><strong>シクウォイア</strong>（ᏍᏏᏉᏯ、英語名 George Guess、約1770〜1843）は、他言語の読み書きを身につける前にチェロキー語の音節文字を作った。19世紀には借用説も唱えられたが、音節文字の成立過程とチェロキー共同体による採用は記録に残っている。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="chr" data-zoom="5">🌍 地図でチェロキー語を見る</button>
@@ -1729,7 +1728,7 @@ const TRIVIA_ARTICLES = [
       },
       body: {
         en: `
-  <p>The history of writing has a small but striking subgenre: scripts whose inventors claim they received them in a dream or vision. The <strong>Vai syllabary</strong> of Liberia is the most famous and the best-documented of them, and it became, in 1834, one of the first independent inventions of writing in modern West Africa.</p>
+  <p>Several script inventors have said that they received their characters in a dream or vision. The <strong>Vai syllabary</strong> of Liberia is a well-documented example and, from 1834, an early independent invention of writing in modern West Africa.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="vai" data-zoom="6">🌍 Show Vai on map</button>
@@ -1762,7 +1761,7 @@ const TRIVIA_ARTICLES = [
   <p>Whether the dream was metaphor or memory, Bukele understood the social technology better than many of his European contemporaries: writing is not magic, and any people who want it can have it.</p>
         `,
         ja: `
-  <p>文字史には小さいが強烈なサブジャンルがある──「発明者が夢や幻視で授かったと語る文字体系」だ。リベリアの<strong>ヴァイ文字</strong>はその中でも最も有名かつ最も史料の残る例で、1834年、近代西アフリカで最初に独立発明された文字体系のひとつとなった。</p>
+  <p>文字の発明者が、夢や幻視を創案の契機として語る例がある。リベリアの<strong>ヴァイ文字</strong>もその一つで、1834年に記録され、近代西アフリカで独立して成立した文字体系の早い例に数えられる。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="vai" data-zoom="6">🌍 地図でヴァイ語を見る</button>
@@ -1810,16 +1809,16 @@ const TRIVIA_ARTICLES = [
       icon: '🈯',
       tags: ['tangut', 'dead-language', 'xixia', 'decipherment', 'sino-tibetan'],
       title: {
-        en: 'Tangut — the lost script of a forgotten empire',
+        en: 'Tangut — reconstructing the script of Western Xia',
         ja: '失われた王朝の文字、西夏文',
       },
       summary: {
-        en: 'A Sino-Tibetan language written in some 6,000 hand-built logographs, invented by imperial decree in 1036 and forgotten for four centuries — until a Russian linguist dragged it back from the dead.',
+        en: 'Western Xia used some 6,000 Tangut characters for a Sino-Tibetan language. Manuscripts rediscovered around 1900 enabled twentieth-century scholars to reconstruct much of the script and language.',
         ja: '1036年に皇帝の命令で作られた約6000字の表意文字。400年眠った西夏文を、ロシア人言語学者ネフスキーが甦らせた。',
       },
       body: {
         en: `
-  <p>In 1036 CE, the emperor <strong>Li Yuanhao</strong> of the <strong>Western Xia</strong> (Xixia / 西夏) dynasty decreed that his people, the Tangut, must have a writing system worthy of their own. His scholar Yeli Renrong is said to have invented the entire script in a matter of years — roughly <strong>6,000 logographs</strong>, every one a fresh design, deliberately resembling but not borrowing from Chinese. The result is <strong>Tangut (西夏文)</strong>: one of the most visually dense writing systems ever created.</p>
+  <p>In 1036 CE, the emperor <strong>Li Yuanhao</strong> of the <strong>Western Xia</strong> (Xixia / 西夏) dynasty decreed a writing system for the Tangut language. His scholar Yeli Renrong is said to have invented the script in a matter of years: roughly <strong>6,000 logographs</strong>, each a new design that resembles Chinese characters without borrowing from them. The result is <strong>Tangut (西夏文)</strong>, a script with dense, square, multi-part characters.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="txg" data-zoom="5">🌍 Show Tangut on map</button>
@@ -1843,11 +1842,11 @@ const TRIVIA_ARTICLES = [
   
   <p>The scholar who did most to crack it was <strong>Nikolai Nevsky</strong> (1892–1937), a Russian Japanologist who spent the 1920s in Japan and Taiwan. He took up the Khara-Khoto hoard in 1925, while still living in Japan, and after returning to Leningrad in 1929 he spent the following decade working out its phonological structure and building the first Tangut–Russian dictionary. His masterpiece, <em>Tangutskaya Filologiya</em>, was published posthumously in 1960 — Nevsky himself had been shot in Stalin's Great Purge in 1937. He was awarded the Lenin Prize after death.</p>
   
-  <blockquote>"Each Tangut character is a small architectural problem: the strokes do not just spell a sound, they tile a square." — paraphrased from M. V. Sofronov</blockquote>
+  <p>Tangut characters occupy square blocks built from recurring graphic components. Their structure is logographic rather than an alphabetic sequence of strokes.</p>
   
   <p>Later <strong>Mikhail Sofronov</strong> refined the phonological reconstruction in the 1960s; <strong>Ksenia Kepping</strong> worked on grammar and ritual texts; today researchers in Beijing, Kyoto, Taipei and St Petersburg continue to publish editions of newly catalogued manuscripts. Significant questions remain — the exact tone system, the deeper genetic position within Sino-Tibetan, the meaning of dozens of rare characters that occur only once or twice in the corpus.</p>
   
-  <p>Tangut is a reminder that "dead language" is rarely a final verdict. A script invented in a single decade, used by millions, forgotten for four centuries, can still be coaxed back into speech — provided someone is stubborn enough to spend a lifetime on rhyme tables.</p>
+  <p>Tangut was created within a decade, used for centuries, and then fell out of active use for roughly four centuries. Modern reconstruction relies on surviving manuscripts, bilingual dictionaries, and rhyme tables.</p>
         `,
         ja: `
   <p>西暦1036年、<strong>西夏（Xixia）</strong>王朝の初代皇帝<strong>李元昊（り・げんこう）</strong>は、自らの民タングート族にふさわしい文字を持つよう命じた。学者・野利仁栄がわずか数年で<strong>約6000字</strong>の表意文字を一気に設計したとされる。漢字に似ているが漢字から借りていない、完全に新設計の文字体系──それが<strong>西夏文（Tangut script）</strong>である。</p>
@@ -1874,7 +1873,7 @@ const TRIVIA_ARTICLES = [
   
   <p>解読を決定的に前進させたのは<strong>ニコライ・ネフスキー</strong>（1892–1937）。1920年代を日本と台湾で過ごしたロシアの日本学者。まだ日本にいた1925年にカラ・ホト文書へ着手し、1929年にレニングラードへ戻ってからの十年を、音韻構造の解明と最初の西夏語＝ロシア語辞書の編纂に費やした。代表作『西夏文献学』は没後1960年刊──ネフスキー自身は1937年、スターリンの大粛清で銃殺されていた。死後にレーニン賞を受賞している。</p>
   
-  <blockquote>「西夏文字はひとつひとつが小さな建築である──筆画が音を綴るだけでなく、正方形を敷きつめる」──ソフロノフによる西夏文評（要約）</blockquote>
+  <p>西夏文字は反復する構成要素を正方形の字枠に組み合わせる表語文字であり、筆画をアルファベットのように直線的に並べる体系ではない。</p>
   
   <p>その後<strong>ミハイル・ソフロノフ</strong>が音韻復元を精緻化し、<strong>クセニア・ケッピング</strong>が文法と儀礼文献を整備、現在は北京・京都・台北・サンクトペテルブルクの研究者たちが新出写本の校訂を続けている。声調体系の細部、シナ・チベット語族内の正確な位置、コーパス中に一・二回しか現れない希少字の意味──未解明の問いはまだ多い。</p>
   
@@ -1931,9 +1930,8 @@ const TRIVIA_ARTICLES = [
   
   <p>Many decipherment claims have been published — that Minoan is Semitic, Anatolian, Tyrrhenian, Indo-European, even Proto-Basque. None has convinced the field. The main obstacles are (1) the small and repetitive corpus, (2) the absence of any bilingual text long enough to bootstrap a grammar, and (3) the suspicion that Minoan may simply be an <strong>isolate</strong> — a language with no surviving relatives anywhere.</p>
   
-  <blockquote>"We can pronounce the words of the Minoans. We just do not know what they mean." — paraphrased from John Chadwick, The Decipherment of Linear B</blockquote>
-  
-  <p>Compare the situation with the still-undeciphered <strong>Cypro-Minoan</strong> script of Bronze Age Cyprus, or the even older <strong>Cretan hieroglyphs</strong> on which Linear A itself appears to be based. Bronze Age Aegean writing is a small forest of related scripts encoding at least two and possibly three or four different languages, and only one of them, the latecomer Linear B, has yielded.</p>
+
+<p>Compare the situation with the still-undeciphered <strong>Cypro-Minoan</strong> script of Bronze Age Cyprus, or the even older <strong>Cretan hieroglyphs</strong> on which Linear A itself appears to be based. Bronze Age Aegean writing is a small forest of related scripts encoding at least two and possibly three or four different languages, and only one of them, the latecomer Linear B, has yielded.</p>
   
   <p>The hope is that excavations at sites like Zominthos or Petras will eventually yield a long bilingual inscription — perhaps Minoan paired with Egyptian or Akkadian — or simply a Linear A tablet long enough for statistical and morphological analysis to gain traction. Until then, Linear A remains the great unread book of European prehistory, hiding in plain sight on clay tablets we have been holding for a hundred years.</p>
         `,
@@ -2019,15 +2017,14 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="ay">☀️ See Aymara "Sun"</button>
   </div>
   
-  <p>Núñez and Sweetser did not just rely on lexical glosses, which can mislead. They filmed elderly Aymara speakers as they talked about events from many decades back and decades into the future. The gestures are unambiguous: when describing past events, speakers gesture <strong>forward, into the visual field in front of them</strong> — sometimes with a sweep, sometimes pointing at a specific imagined location. When describing future events, they gesture backward, sometimes with a thumb thrown over the shoulder. The further back in time, the further forward the gesture. The further into the future, the further behind.</p>
+  <p>Because lexical glosses can mislead, Núñez and Sweetser also filmed elderly Aymara speakers discussing events from many decades in the past and future. When describing past events, speakers gesture <strong>forward, into the visual field in front of them</strong> — sometimes with a sweep, sometimes pointing at a specific imagined location. When describing future events, they gesture backward, sometimes with a thumb thrown over the shoulder. The further back in time, the further forward the gesture; the further into the future, the further behind.</p>
   
-  <p>Interestingly, younger bilingual Aymara–Spanish speakers gesture more in the Spanish pattern (future forward), suggesting the older spatial mapping is gradually being overwritten by contact with Indo-European languages of wider exchange. Aymara may turn out to be one of the last reservoirs of a metaphor that other Andean and Amazonian languages used to share.</p>
+  <p>Younger bilingual Aymara–Spanish speakers gesture more often in the Spanish pattern (future forward), suggesting that language contact is affecting the older spatial mapping. Related mappings have also been reported elsewhere in the Andes and Amazonia.</p>
   
-  <blockquote>"What you have seen with your own eyes you can place in front of you; what you have not seen has to stay at your back." — paraphrase of an Aymara elder, in Núñez & Sweetser 2006</blockquote>
+
+<p>The Aymara findings are often discussed alongside George Lakoff's work on conceptual metaphor and Lera Boroditsky's experiments on time and language. They provide evidence that <strong>spatial metaphors for abstract domains are not universal</strong> and can vary with linguistic and cultural convention.</p>
   
-  <p>The finding mattered far beyond Andean linguistics. Together with George Lakoff's work on conceptual metaphor and Lera Boroditsky's experiments on time and language, the Aymara case became a cornerstone of the modern argument that <strong>basic spatial metaphors for abstract domains are not universal</strong> — they are deeply shaped by culture and embodied experience. Time, the most relentless abstraction we have, may not even point the same way for everyone.</p>
-  
-  <p>Aymara is also remarkable in other ways: a much-debated proposal — most prominently by Iván Guzmán de Rojas in the 1980s — that its grammar reflects a <em>three-valued logic</em> (a claim still disputed among linguists), an obligatory evidential system not unlike Tuyuca's, and a vibrant indigenous-language publishing scene. But the front-facing past remains its most famous gift to cognitive science.</p>
+  <p>Other work on Aymara includes Iván Guzmán de Rojas's disputed 1980s proposal that its grammar reflects a <em>three-valued logic</em>, research on its obligatory evidential system, and a growing body of indigenous-language publishing. The front-facing past remains the feature most often discussed in cognitive-linguistic research.</p>
         `,
         ja: `
   <p>英語話者に「先（ahead）」とは何かと聞けば、来週の会議、迫る締切、楽しみな未来──と答えるだろう。未来は前、過去は後ろ。印欧諸語のほぼすべてが時間をこの向きで切り取っており、認知科学者たちは長らく「これは人類の思考に普遍の比喩だ」と考えていた。</p>
@@ -2058,9 +2055,8 @@ const TRIVIA_ARTICLES = [
   
   <p>興味深いことに、若いアイマラ＝スペイン語バイリンガル世代は、スペイン語式（未来が前）に近い身振りを混ぜるようになっている。アンデス・アマゾン地域でかつて共有されていた「過去＝前」比喩は、印欧諸語との接触で少しずつ書き換えられている最中なのかもしれない。</p>
   
-  <blockquote>「自分の目で見たものは前に置ける。見ていないものは背中に置くしかない」──アイマラ古老の発言の意訳（Núñez & Sweetser 2006）</blockquote>
-  
-  <p>この発見はアンデス研究の枠を超えて重要だった。ジョージ・レイコフの概念メタファー研究、レラ・ボロディツキーの時間言語実験と並んで、「抽象概念の空間メタファーは人類普遍ではなく、文化と身体経験に深く規定される」という現代的主張の中核となっている。最も逃れがたい抽象である<strong>時間</strong>でさえ、全人類で同じ向きを指してはいないのである。</p>
+
+<p>この発見は、ジョージ・レイコフの概念メタファー研究やレラ・ボロディツキーの時間言語実験とあわせて論じられてきた。抽象概念を空間で表す方法がすべての言語で同じではなく、言語的・文化的な慣習によって異なることを示す資料である。</p>
   
   <p>アイマラ語にはほかにも興味深い特徴が多い──1980年代にイバン・グスマン・デ・ロハスらが提唱した「アイマラ文法には三値論理が反映されている」とする説（現在も言語学者の間で議論が続く論争的な主張）、トゥユカ語に似た義務的な証拠性、活発な先住民出版文化。だが、「目の前に過去がある」というこの一点は、今も認知科学への最大の贈り物として語り継がれている。</p>
         `,
@@ -2108,7 +2104,7 @@ const TRIVIA_ARTICLES = [
     <li><strong>Reported</strong> — the speaker was told. <em>díiga apé-yigi</em> "he played soccer (so they say)".</li>
   </ul>
   
-  <p>The system is more than a politeness convention. It is a hard grammatical constraint, learned early by children, and respected even in casual conversation. A Tuyuca speaker recounting a quarrel is required to flag — every clause — whether they witnessed it, overheard it, or had it reported. To omit the marker is to produce an ill-formed sentence, like saying <em>"yesterday he go store"</em> in English.</p>
+  <p>The evidential system is grammatical rather than optional etiquette. A Tuyuca speaker recounting a quarrel must mark whether they witnessed it, perceived it indirectly, inferred it, assumed it, or heard it reported. Omitting the required marker produces an ill-formed sentence.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="eye" data-code="tue">👁️ See Tuyuca "Eye"</button>
@@ -2116,9 +2112,8 @@ const TRIVIA_ARTICLES = [
   
   <p>Tuyuca is not unique. <strong>Evidentiality</strong> as a grammatical category is found across the Tukanoan family, in Quechua, Aymara, Turkish (the famous <em>-miş</em>), Bulgarian, Korean, many Tibeto-Burman languages, and across Amazonia. <strong>Alexandra Aikhenvald</strong>'s typological survey (2004) collected nearly 500 languages with grammaticalised evidentials. But Tuyuca stands out for the <em>granularity</em> of its system — five distinctions where most languages make two or three — and for being among the very first to be carefully described.</p>
   
-  <blockquote>"In Tuyuca, you cannot lie comfortably. Every claim wears the signature of how it was acquired." — paraphrase of Aikhenvald 2004</blockquote>
-  
-  <p>The implications for cognition are debated. Some researchers, including Lev Vygotsky's intellectual heirs and Aikhenvald herself, argue that habitually marking the source of information cultivates a different orientation to evidence and rumour. Others note that English speakers can express the same distinctions — they just are not <em>forced</em> to. The current consensus is somewhere in between: obligatory grammaticalisation makes a category cognitively salient, but does not make speakers of other languages incapable of the same distinctions.</p>
+
+<p>The implications for cognition are debated. Some researchers, including Lev Vygotsky's intellectual heirs and Aikhenvald herself, argue that habitually marking the source of information cultivates a different orientation to evidence and rumour. Others note that English speakers can express the same distinctions — they just are not <em>forced</em> to. The current consensus is somewhere in between: obligatory grammaticalisation makes a category cognitively salient, but does not make speakers of other languages incapable of the same distinctions.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="drink" data-code="tue">🥤 See Tuyuca "Drink" (sĩdĩ)</button>
@@ -2180,7 +2175,7 @@ const TRIVIA_ARTICLES = [
       icon: '🧭',
       tags: ['guugu-yimithirr', 'australia', 'cardinal', 'spatial', 'cognitive'],
       title: {
-        en: 'Guugu Yimithirr — the language with no left or right',
+        en: 'Guugu Yimithirr — an absolute-direction spatial system',
         ja: '「左」も「右」も使わない言語、グーグ・イミディル語',
       },
       summary: {
@@ -2191,7 +2186,7 @@ const TRIVIA_ARTICLES = [
         en: `
   <p>If you sit down at a table with a speaker of English and they want you to pass them a cup, they will say "the cup on your left" or "the cup in front of you". The reference frame is <strong>egocentric</strong> — anchored to your body. Almost every European language works this way.</p>
   
-  <p>If you sit down with a speaker of <strong>Guugu Yimithirr</strong> — a <strong>Pama-Nyungan</strong> language of Cape York Peninsula in far north Queensland, Australia — they will instead say, in effect, "the cup north of you" or "the cup to your east". Guugu Yimithirr does not just <em>prefer</em> cardinal directions. It has <strong>no productive vocabulary for left or right at all</strong> when describing the location of external objects. The body-relative axes simply are not used in the basic spatial system.</p>
+  <p>A speaker of <strong>Guugu Yimithirr</strong> — a <strong>Pama-Nyungan</strong> language of Cape York Peninsula in far north Queensland, Australia — may instead say, in effect, "the cup north of you" or "the cup to your east". The language has <strong>no productive vocabulary for left or right</strong> when describing the location of external objects, so its basic spatial system does not use body-relative axes.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="kky" data-zoom="6">🌍 Show Guugu Yimithirr on the map</button>
@@ -2217,9 +2212,8 @@ const TRIVIA_ARTICLES = [
   
   <p>This is not a special skill of a few elders. Among the older, most fluent speakers it is a <strong>property of the whole speech community</strong>, picked up in childhood. Children take the system on gradually rather than all at once: Lourdes de León's fieldwork with young speakers at Hopevale, reported by Haviland, traces a path from hearing a term like <em>naga</em> as a vague "over there", to tying it to particular places such as the beach, to a region, and only finally to an abstract four-way directional contrast. The mental machinery is constructed by the language and constantly exercised by the demand to talk about it.</p>
   
-  <blockquote>"You cannot speak Guugu Yimithirr without always knowing where north is." — paraphrase of Stephen Levinson, 1997</blockquote>
-  
-  <p>Comparable absolute-frame systems are now known from <strong>Tzeltal Mayan</strong> in Mexico (uphill/downhill axes), <strong>Marshallese</strong> in Micronesia (seaward/landward), <strong>Balinese</strong> (mountainward/seaward), and numerous Aboriginal Australian languages — Kuuk Thaayorre, Warlpiri and Arrernte among them. The Sapir–Whorf-flavoured debate over whether language drives the spatial cognition or vice versa remains live, but the empirical fact is undisputed: speakers of absolute-frame languages perform on non-verbal orientation tasks in a measurably different way from speakers of egocentric-frame languages.</p>
+
+<p>Comparable absolute-frame systems are now known from <strong>Tzeltal Mayan</strong> in Mexico (uphill/downhill axes), <strong>Marshallese</strong> in Micronesia (seaward/landward), <strong>Balinese</strong> (mountainward/seaward), and numerous Aboriginal Australian languages — Kuuk Thaayorre, Warlpiri and Arrernte among them. The Sapir–Whorf-flavoured debate over whether language drives the spatial cognition or vice versa remains live, but the empirical fact is undisputed: speakers of absolute-frame languages perform on non-verbal orientation tasks in a measurably different way from speakers of egocentric-frame languages.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="setword" data-word="sun" data-code="kky">☀️ See Guugu Yimithirr "Sun"</button>
@@ -2324,11 +2318,10 @@ const TRIVIA_ARTICLES = [
   
   <p>Mohawk verbs also obligatorily mark a complex <strong>pronominal prefix</strong> that fuses the person, number and gender of subject and object into one portmanteau morpheme. There are <strong>58</strong> such prefixes in the paradigm, distinguishing for instance "I → you (sg)" from "I → you (pl)" from "you (sg) → me" — each a single syllable. Learning the prefix table is widely regarded as the steepest climb in the language.</p>
   
-  <p>Polysynthesis raises a deep question for linguistic typology. Is a Mohawk "word" the same kind of unit as an English "word"? Mark Baker, in his influential <em>The Polysynthesis Parameter</em> (1996), argued that polysynthetic languages obey their own syntactic constraints — for example, no independent pronoun arguments are required because the verb already carries them — and that they represent a parametric setting alternative to languages like English. Others, including Mithun, prefer to describe Mohawk on its own terms rather than fit it into a universalist parameter.</p>
+  <p>Polysynthesis also complicates cross-linguistic definitions of a "word". Mark Baker, in <em>The Polysynthesis Parameter</em> (1996), argued that polysynthetic languages obey their own syntactic constraints — for example, independent pronoun arguments need not appear because the verb already carries them — and that they represent a parametric setting different from languages like English. Others, including Mithun, prefer to describe Mohawk on its own terms rather than fit it into a universalist parameter.</p>
   
-  <blockquote>"In Mohawk, the verb is a small theatre. The actors enter before the curtain rises and rarely leave the stage." — paraphrase of Marianne Mithun, 1999</blockquote>
-  
-  <p>The revival movement matters here. Kanien'kéha immersion schools — the Kahnawà:ke Survival School and the Akwesasne Freedom School are the best known — have produced a new generation of speakers who handle that 58-cell pronominal table with native fluency. Mohawk shows that polysynthesis is not a fossil of the past; it is a living grammatical strategy, just as expressive as any analytic one, and now consciously rebuilt by communities determined that <em>Kanien'kéha</em> will continue.</p>
+
+<p>The revival movement matters here. Kanien'kéha immersion schools — the Kahnawà:ke Survival School and the Akwesasne Freedom School are the best known — have produced a new generation of speakers who handle that 58-cell pronominal table with native fluency. Mohawk shows that polysynthesis is not a fossil of the past; it is a living grammatical strategy, just as expressive as any analytic one, and now consciously rebuilt by communities determined that <em>Kanien'kéha</em> will continue.</p>
   
   <p>Other classic polysynthetic languages — Inuktitut, Central Siberian Yupik, Chukchi, Ainu, Sora — confirm that the pattern is recurrent across continents. But for sheer density of grammatical information per word, the Iroquoian languages, and Mohawk in particular, are still the prototype the textbooks reach for first.</p>
         `,
@@ -2365,11 +2358,11 @@ const TRIVIA_ARTICLES = [
   
   <p>動詞は<strong>代名詞接頭辞</strong>も義務的に取る。主語・目的語の人称・数・性が1音節の融合形態素として表現され、その総数は<strong>58</strong>に及ぶ。「私→君」「私→君たち」「君→私」がそれぞれ別の1音節接頭辞となる、というわけで、学習者にとっては最大の関門だ。</p>
   
-  <p>多総合性は類型論にとって深い問いを投げかける。モホーク語の「単語」は英語の「単語」と同じ単位なのか？ マーク・ベイカーは『The Polysynthesis Parameter』（1996）で、多総合的言語は固有の統語制約に従う独立したパラメータ設定だと主張した（独立代名詞項が不要なのは、動詞に既に取り込まれているからだ、等）。ミスンらは普遍的パラメータに押し込めるよりモホーク語をその固有の論理で記述すべきだと反論する。</p>
+<p>多総合性は、言語間で「単語」をどう定義するかという問題に関わる。マーク・ベイカーは『The Polysynthesis Parameter』（1996）で、多総合的言語は固有の統語制約に従うパラメータ設定だと主張した。ミスンらは、普遍的パラメータに当てはめるよりモホーク語固有の構造として記述すべきだと論じている。</p>
   
   <blockquote>「モホーク語の動詞は小さな劇場である。役者は幕が上がる前から舞台に立ち、ほとんど舞台を降りない」──ミスン 1999 の要約</blockquote>
   
-  <p>復興運動はこの言語学的重要性と切り離せない。カナワケ・サバイバル・スクール、アクウェサスネ・フリーダム・スクールといったイマージョン校は、58個からなる代名詞接頭辞表を母語並みに操る新世代の話者を育てている。多総合性は化石ではない。今も生きている文法戦略で、分析的言語と同じく豊かに表現でき、<em>Kanien'kéha</em> を絶やすまいとする共同体の意志によって、現代に意識的に再建されつつあるのだ。</p>
+  <p>カナワケ・サバイバル・スクールやアクウェサスネ・フリーダム・スクールなどのイマージョン校では、複雑な代名詞体系を実際の会話の中で教えている。多総合性は歴史資料だけの特徴ではなく、現在も共同体で使われ、次世代へ伝えられている文法体系である。</p>
   
   <p>他の代表的多総合的言語──イヌクティトゥット、中央シベリア・ユピック、チュクチ、アイヌ、ソラ──を見ても、この類型は大陸を越えて繰り返し現れる。だが1単語あたりの文法情報密度の高さでは、イロコイ諸語、とりわけモホーク語が、教科書が真っ先に挙げる原型であり続けている。</p>
         `,
@@ -2394,12 +2387,12 @@ const TRIVIA_ARTICLES = [
         ja: '母音ゼロの言語、ヌハルク語',
       },
       summary: {
-        en: 'A Salishan language of coastal British Columbia whose words can be entirely consonantal — whole utterances with not a single vowel.',
+        en: 'Some Nuxalk words and utterances can be analysed without a vowel segment, raising questions about syllable structure and the role of sonorant consonants.',
         ja: 'カナダ・ブリティッシュコロンビアの沿岸で話されるサリシュ語族の言語。子音だけで構成された「母音ゼロ」の語が存在し、音節核とは何かを根底から問い直す。',
       },
       body: {
         en: `
-  <p>On the rugged inlets of central British Columbia, a few dozen people still speak <strong>Nuxalk</strong> (also called <em>Bella Coola</em>), a Salishan language whose phonology has astonished linguists for more than half a century. Its claim to fame: <strong>words that contain no vowels whatsoever</strong>.</p>
+  <p>On the rugged inlets of central British Columbia, a few dozen people still speak <strong>Nuxalk</strong> (also called <em>Bella Coola</em>). Descriptions of this Salishan language include <strong>words analysed without any vowel segment</strong>, a long-running subject of phonological research.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="blc" data-zoom="6">🌍 Show Nuxalk on the map</button>
@@ -2431,7 +2424,7 @@ const TRIVIA_ARTICLES = [
   <p>Today fewer than 20 fluent first-language speakers of Nuxalk remain, almost all elders in Bella Coola. The Nuxalk Nation runs immersion programs and a language-house initiative; recordings made by Nater in the 1970s, and more recent documentation supported by the First Peoples' Cultural Council, are racing to record a phonology unlike any other.</p>
         `,
         ja: `
-  <p>カナダ・ブリティッシュコロンビア州中央部の入り組んだ入江に、いまも数十人の話者を残す<strong>ヌハルク語（Nuxalk、別名 Bella Coola）</strong>がある。サリシュ語族に属するこの言語は、半世紀にわたって音韻論者を驚かせ続けてきた。最大の特徴は、<strong>母音をひとつも含まない単語</strong>が存在することだ。</p>
+  <p>カナダ・ブリティッシュコロンビア州中央部では、数十人が<strong>ヌハルク語（Nuxalk、別名 Bella Coola）</strong>を使用している。サリシュ語族に属し、<strong>母音を含まないと分析される単語</strong>があることで音韻論の研究対象となってきた。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="blc" data-zoom="6">🌍 地図でヌハルク語を見る</button>
@@ -2477,22 +2470,22 @@ const TRIVIA_ARTICLES = [
       icon: '🌺',
       tags: ['hawaiian', 'polynesian', 'revival', 'minimal-phonemes', 'hawaii'],
       title: {
-        en: 'Hawaiian — only 13 sounds, and a stunning revival',
-        ja: 'たった13音──奇跡の復興を遂げたハワイ語',
+        en: 'Hawaiian — 13 sounds and language revitalization',
+        ja: '13の音素とハワイ語復興運動',
       },
       summary: {
-        en: 'Hawaiian has one of the smallest phoneme inventories on Earth — just 13 sounds — and was once on the edge of extinction. Today it is one of the most successful indigenous-language revivals ever recorded.',
-        ja: 'ハワイ語の音素はわずか13個──世界でも屈指の少なさ。一度は消滅寸前まで追い込まれながら、近代でもっとも成功した先住民言語復興の事例として知られる。',
+        en: 'Hawaiian has a 13-phoneme inventory and was once close to losing intergenerational transmission. Revitalization programs now support its use in education and community life.',
+        ja: 'ハワイ語は13音素の体系を持ち、かつて世代間継承が途絶えかけた。現在は就学前教育から大学まで、ハワイ語による教育が行われている。',
       },
       body: {
         en: `
-  <p><strong>ʻŌlelo Hawaiʻi</strong> — the Hawaiian language — has one of the smallest sound inventories of any living language. <strong>Just 13 phonemes</strong>: 8 consonants (<em>p, k, ʻ, h, m, n, l, w</em>) and 5 vowels (<em>a, e, i, o, u</em>), each of which can be short or long. That's it. You can learn the entire alphabet, including the glottal stop <em>ʻokina</em> and the long-vowel mark <em>kahakō</em>, in an afternoon.</p>
+  <p><strong>ʻŌlelo Hawaiʻi</strong> — the Hawaiian language — has a small sound inventory for a living language: <strong>13 phonemes</strong>, with 8 consonants (<em>p, k, ʻ, h, m, n, l, w</em>) and 5 vowels (<em>a, e, i, o, u</em>), each of which can be short or long. Its orthography uses the glottal stop <em>ʻokina</em> and the long-vowel mark <em>kahakō</em>.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="haw" data-zoom="5">🌍 Show Hawaiian on the map</button>
   </div>
   
-  <p>With so few building blocks, words are necessarily long and rich in vowels. The result is one of the most musical languages on Earth: <em>humuhumunukunukuapuaʻa</em> (the reef triggerfish, Hawaiʻi's state fish), <em>pāhoehoe</em> and <em>ʻaʻā</em> (smooth and jagged lava — both terms borrowed straight into geology worldwide), and the everyday <em>aloha</em>, which simultaneously means hello, goodbye, love, and compassion.</p>
+  <p>Its small phoneme inventory produces many vowel-rich words, including <em>humuhumunukunukuapuaʻa</em> (the reef triggerfish, Hawaiʻi's state fish), <em>pāhoehoe</em> and <em>ʻaʻā</em> (smooth and jagged lava — both terms borrowed into geology worldwide), and <em>aloha</em>, which can mean hello, goodbye, love, and compassion.</p>
   
   <p>Hawaiian descends from <strong>Proto-Polynesian</strong>, brought by voyagers from the Marquesas and Society Islands. High-precision radiocarbon dating has pushed that arrival far later than older textbooks assumed — current estimates cluster between roughly <strong>AD 1000 and 1300</strong>, so barely a thousand years ago. The closest living relatives are Marquesan, Tahitian, and Māori, and the historical correspondences are so regular that a Māori speaker can often guess a Hawaiian cognate at a glance (Māori <em>tangata</em> ↔ Hawaiian <em>kanaka</em>, "person"; Māori <em>whetū</em> ↔ Hawaiian <em>hōkū</em>, "star").</p>
   
@@ -2503,7 +2496,7 @@ const TRIVIA_ARTICLES = [
   
   <p>Then came the collapse. The <strong>1893 overthrow of the Hawaiian Kingdom</strong> and the 1898 U.S. annexation set off a generation of cultural repression. In 1896 the Republic of Hawaiʻi passed <strong>Act 57</strong>, requiring English as the sole medium of instruction in schools. Children caught speaking Hawaiian were physically punished. By 1980, fewer than 2,000 native speakers remained, almost all elderly. Linguists wrote it off as moribund.</p>
   
-  <p>What happened next is one of the great stories in modern sociolinguistics. Inspired by Māori <em>Kōhanga Reo</em> ("language nests") in New Zealand, a group of educators including <strong>Larry Kimura</strong>, <strong>William H. "Pila" Wilson</strong>, and <strong>Kauanoe Kamanā</strong> founded <strong>ʻAha Pūnana Leo</strong> in 1983 — Hawaiian-only preschools where elders spoke nothing but Hawaiian to toddlers. In 1986, the 90-year ban on Hawaiian-medium schooling was finally repealed. By 1987 the first <strong>Kula Kaiapuni</strong> Hawaiian-immersion public schools opened. The University of Hawaiʻi at Hilo's <strong>Ka Haka ʻUla O Keʻelikōlani</strong> college now offers PhD coursework conducted entirely in Hawaiian — the first indigenous language in the United States to reach that level.</p>
+  <p>Inspired by Māori <em>Kōhanga Reo</em> ("language nests") in New Zealand, educators including <strong>Larry Kimura</strong>, <strong>William H. "Pila" Wilson</strong>, and <strong>Kauanoe Kamanā</strong> founded <strong>ʻAha Pūnana Leo</strong> in 1983 — Hawaiian-only preschools where elders spoke Hawaiian to toddlers. In 1986, the 90-year ban on Hawaiian-medium schooling was repealed. By 1987 the first <strong>Kula Kaiapuni</strong> Hawaiian-immersion public schools opened. The University of Hawaiʻi at Hilo's <strong>Ka Haka ʻUla O Keʻelikōlani</strong> college now offers PhD coursework conducted entirely in Hawaiian, the first such program for an Indigenous language in the United States.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 Fly to Hilo, the heart of the revival</button>
@@ -2518,7 +2511,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="focus" data-code="haw" data-zoom="5">🌍 地図でハワイ語を見る</button>
   </div>
   
-  <p>素材が少ない分、語は長く、母音が豊かに連なる。結果として世界でもっとも音楽的な言語のひとつになった──<em>humuhumunukunukuapuaʻa</em>（ハワイ州の魚）、<em>pāhoehoe</em>と<em>ʻaʻā</em>（なめらかな溶岩・ごつごつした溶岩。地質学用語として世界中に借用されている）、そしてあいさつ・別れ・愛・思いやりすべてを意味する<em>aloha</em>。</p>
+  <p>少数の音素を組み合わせるため、ハワイ語には母音の連続する語が多い。例として <em>humuhumunukunukuapuaʻa</em>（ハワイ州の魚）、地質学にも借用された <em>pāhoehoe</em> と <em>ʻaʻā</em>、文脈により挨拶・別れ・愛・思いやりを表す <em>aloha</em> がある。</p>
   
   <p>ハワイ語は<strong>祖ポリネシア語</strong>に遡り、マルキーズ・ソシエテ諸島から航海者によってもたらされた。高精度の放射性炭素年代測定により、その到達時期は旧来の説より大幅に新しく見直されており、現在の推定はおおむね<strong>西暦1000〜1300年</strong>に集中している──せいぜい千年ほど前のことである。近縁言語はマルキーズ語、タヒチ語、マオリ語で、音対応が非常に規則的なため、マオリ語話者はハワイ語の同根語をしばしば即座に推測できる（マオリ<em>tangata</em>↔ハワイ<em>kanaka</em>「人」、マオリ<em>whetū</em>↔ハワイ<em>hōkū</em>「星」）。</p>
   
@@ -2553,12 +2546,12 @@ const TRIVIA_ARTICLES = [
       icon: '🤟',
       tags: ['sign-language', 'nicaragua', 'emergence', 'isn', 'kegl', 'deaf'],
       title: {
-        en: 'Nicaraguan Sign Language — a language born in real time',
+        en: 'Nicaraguan Sign Language — change observed across cohorts',
         ja: 'ニカラグア手話──研究者の目の前で誕生した言語',
       },
       summary: {
-        en: 'One of the best-documented cases of a new natural human language taking shape in real time — emerging among deaf Nicaraguan children when they were finally brought together in the 1970s and 80s.',
-        ja: '新しい人類言語が自然に形づくられていく瞬間を研究者がリアルタイムで観察した、もっともよく記録された事例のひとつ。1970〜80年代のニカラグアで、ろう児たちが集まったときに自然発生した。',
+        en: 'Nicaraguan Sign Language emerged among deaf children brought together in Managua from the late 1970s. Recordings of successive cohorts document how its shared lexicon and grammar developed.',
+        ja: '1970年代末からマナグアに集まったろう児たちの間でニカラグア手話が成立した。世代ごとの記録から、共有語彙と文法が発達する過程を追うことができる。',
       },
       body: {
         en: `
@@ -2579,12 +2572,12 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>"The present study shows that children initially creating the language began analyzing complex events into basic elements, and sequencing these elements into hierarchically structured expressions, following principles not observed in gestures accompanying speech in the surrounding language. Successive cohorts of learners extended this procedure, transforming Nicaraguan signing from its early gestural form into a linguistic system." — Senghas, Kita & Özyürek, <em>Science</em> 2004</blockquote>
   
-  <p>This is direct empirical support for the idea that <strong>language is a creative output of the child's mind</strong>, not just a passive recording of the input. Children in successive cohorts independently invented features — like decomposing motion events into "path" and "manner" components — that no adult had given them, and that look remarkably like features documented in other established sign languages.</p>
+  <p>The study documents how children in successive cohorts introduced features such as decomposing motion events into "path" and "manner" components, despite those features not being provided by adult signers. These patterns are also documented in other established sign languages.</p>
   
-  <p>Today ISN has perhaps 3,000 signers and a robust Deaf community organised through <em>Asociación Nacional de Sordos de Nicaragua</em>. It is one of the youngest languages on Earth, and no other language's grammar has been watched as closely while it was still forming: the first cohort's pidgin years had to be reconstructed from those signers as adults, but from 1986 onward every cohort has been recorded on camera, on paper, and in linguistic fieldnotes.</p>
+  <p>Today ISN has perhaps 3,000 signers and a Deaf community organised through <em>Asociación Nacional de Sordos de Nicaragua</em>. The first cohort's early signing had to be reconstructed from those signers as adults, but from 1986 onward successive cohorts were recorded on camera and described in linguistic fieldnotes. Those records make changes in the language observable across generations.</p>
         `,
         ja: `
-  <p>言語学者として、新しい人間言語が生まれる瞬間に立ち会えるとしたら──。既存の音声言語からのクレオール化ではなく、ひと世代の子どもたちが、主に自分たちのホームサインと身振りを出発点として生み出した言語を、リアルタイムで観察できるとしたら。1977年から1990年代初頭にかけて、ニカラグアの首都マナグアで、まさにそれが起きた。生まれたのが<strong>Idioma de Señas de Nicaragua（ISN、ニカラグア手話）</strong>である。近年になって成立した手話は他にもあり（イスラエルのアル＝サイード・ベドウィン手話、バリ島のカタ・コロックなど）、それらも以後研究されてきたが、世代（コホート）ごとの発達を追える事例としては、ISNがいまなおもっともよく記録されている。</p>
+<p>1977年以降、ニカラグアの首都マナグアで、それまで家庭ごとのホームサインを使っていたろう児たちが学校に集まった。子どもたちの交流から共有の手話が形成され、1980年代以降に入学した世代が語彙と文法を発達させた。この言語が<strong>Idioma de Señas de Nicaragua（ISN、ニカラグア手話）</strong>である。1986年以降の記録により、世代ごとの変化を比較できる。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="ncs" data-zoom="7">🌍 地図でニカラグア手話を見る</button>
@@ -2601,9 +2594,9 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>「本研究が示すのは、この言語を最初に作り出した子どもたちが、複雑な出来事を基本的な要素へと分析し、それらを階層的に構造化された表現へと並べはじめたということである──周囲の言語で発話に伴う身振りには見られない原理に従って。後続の世代の学習者たちはこの手続きを拡張し、ニカラグアの手話を初期の身振り的な形態から言語体系へと変えていった」── センガス、喜多、オズユレク, <em>Science</em>誌, 2004年</blockquote>
   
-  <p>これは「言語は子どもの心が能動的に生み出す創造的出力であり、入力の受動的な複写ではない」という主張の直接的な実証である。後続世代は、誰も教えていない特徴──たとえば移動事象を「経路」と「様態」に分解する構造──を独立に発明し、それは世界の他の自然手話に観察される特徴と驚くほど一致した。</p>
+  <p>後続世代では、移動事象を「経路」と「様態」に分けて表す構造など、先行世代の入力には一貫して見られなかった特徴が広がった。同様の構造は他の自然手話にも記録されており、子ども同士の伝達が文法の形成に果たす役割を検討する資料となっている。</p>
   
-  <p>現在、ISNの話者は約3,000人。<em>Asociación Nacional de Sordos de Nicaragua</em>を中心に堅固なろうコミュニティが形成されている。地球上でもっとも若い言語のひとつであり、文法が形づくられていく過程をこれほど間近で追跡された言語はほかにない。最初の世代のピジン期については、成人となった当事者の手話から遡って再構するほかなかったが、1986年以降は世代ごとにビデオ・論文・フィールドノートへ記録され続けている。</p>
+<p>現在、ISNの話者は約3,000人で、<em>Asociación Nacional de Sordos de Nicaragua</em>を中心にろうコミュニティが形成されている。最初の世代の初期段階は成人後の手話から遡って再構する必要があるが、1986年以降は各世代が映像・論文・フィールドノートに記録されている。</p>
         `,
       },
       sources: [
@@ -2620,11 +2613,11 @@ const TRIVIA_ARTICLES = [
       icon: '👶',
       tags: ['mama-papa', 'universals', 'jakobson', 'baby-talk', 'kinship'],
       title: {
-        en: 'Why almost every language calls mother "mama"',
+        en: 'Why “mama” and “papa” recur across unrelated languages',
         ja: 'なぜ世界中で母は「ママ」なのか',
       },
       summary: {
-        en: 'From English mama to Mandarin māma, Swahili mama, Quechua mama, and Navajo amá — unrelated languages converge on the same baby word. Roman Jakobson explained why in 1960, and it has nothing to do with shared ancestry.',
+        en: 'Forms such as mama, papa and baba recur in unrelated languages. Roman Jakobson connected the pattern to early infant babbling and adults\' interpretation of those sounds.',
         ja: '英語 mama、中国語 māma、スワヒリ語 mama、ケチュア語 mama、ナバホ語 amá──血縁関係のない言語が同じ語形に収束する。1960年、ローマン・ヤコブソンが理由を解き明かした。共通祖先のせいではない。',
       },
       body: {
@@ -2635,7 +2628,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="compare" data-codes="ja,ko,zh,en,eu,ar,hi,sw" data-word="mother">🗣 Compare "mother" across 8 unrelated languages</button>
   </div>
   
-  <p>This is not chance. The Yale anthropologist <strong>George P. Murdock</strong> assembled a 1959 cross-cultural dataset of 1,072 kin terms from 470 languages and found that words of the <em>mama</em> type were used for "mother" in 52% of the sample, and <em>papa</em>/<em>tata</em>/<em>baba</em>-type words for "father" in 55%. The languages span every family on Earth — Indo-European, Sino-Tibetan, Niger-Congo, Austronesian, Uto-Aztecan, Pama-Nyungan. They cannot all share a common ancestor.</p>
+  <p>The pattern is too widespread to be explained by a single shared ancestor. The Yale anthropologist <strong>George P. Murdock</strong> assembled a 1959 cross-cultural dataset of 1,072 kin terms from 470 languages and found that words of the <em>mama</em> type were used for "mother" in 52% of the sample, and <em>papa</em>/<em>tata</em>/<em>baba</em>-type words for "father" in 55%. His sample included languages from unrelated families such as Indo-European, Sino-Tibetan, Niger-Congo, Austronesian, Uto-Aztecan and Pama-Nyungan.</p>
   
   <p>The classical explanation was given a year later by the Russian-American linguist <strong>Roman Jakobson</strong>, in a slim, beautiful 1960 paper titled <em>"Why 'Mama' and 'Papa'?"</em>. His argument runs as follows:</p>
   
@@ -2698,11 +2691,11 @@ const TRIVIA_ARTICLES = [
       icon: '🌳',
       tags: ['pie', 'proto-indo-european', 'reconstruction', 'comparative-method'],
       title: {
-        en: 'Proto-Indo-European — the language nobody ever wrote down',
+        en: 'Proto-Indo-European — reconstruction through regular sound correspondences',
         ja: '誰も書き残さなかった言語、印欧祖語',
       },
       summary: {
-        en: 'Half the world\'s population speaks a descendant of Proto-Indo-European — a language spoken roughly 6,000 years ago that left no texts. Linguists have rebuilt it word by word using the comparative method, and even predicted sounds that turned out to be real.',
+        en: 'Proto-Indo-European left no direct texts. Linguists reconstruct its vocabulary and grammar by comparing regular correspondences among its descendant languages.',
         ja: '世界人口の半数が話す言語の祖先──しかし文字資料はゼロ。約6,000年前に話されていた印欧祖語を、言語学者は比較方法で一語ずつ復元してきた。そして「あるはずだ」と予言した音が、後に実在することが確認されたのだ。',
       },
       body: {
@@ -2728,9 +2721,9 @@ const TRIVIA_ARTICLES = [
   
   <blockquote>"There must once have existed in Indo-European a phoneme A which has left no direct trace in the historical languages..." — Saussure, 1879</blockquote>
   
-  <p>It was a brilliant deduction with zero direct evidence. For almost fifty years, most Indo-Europeanists thought it was elegant speculation. Then, in 1915, the Czech scholar Bedřich Hrozný deciphered <strong>Hittite</strong> — an Indo-European language from the Bronze Age that had been buried under Anatolia for three thousand years. By 1927, the Polish linguist <strong>Jerzy Kuryłowicz</strong> noticed that Hittite preserved a consonant, written <em>ḫ</em>, in <strong>exactly the positions where Saussure had predicted his missing sound</strong>. Saussure had been dead for fourteen years. His ghosts had been real all along.</p>
+  <p>Saussure's proposal initially rested on internal reconstruction rather than direct attestation. After Bedřich Hrozný deciphered <strong>Hittite</strong> in 1915, the Polish linguist <strong>Jerzy Kuryłowicz</strong> argued in 1927 that the Hittite consonant written <em>ḫ</em> occurred in positions corresponding to some of the coefficients Saussure had proposed. This supplied direct comparative evidence for the laryngeal theory.</p>
   
-  <p>Today PIE reconstruction has hundreds of well-established roots, a sophisticated grammar with eight cases and three genders, ablaut alternations, and even reconstructed poetry — phrases like <em>*ḱléwos n̥dʰgʷʰitóm</em> "imperishable fame", attested in both Homeric Greek (<em>kléos áphthiton</em>) and Vedic Sanskrit (<em>śrávas ákṣitam</em>). The language nobody ever wrote down may be the best-studied unwritten language in history.</p>
+  <p>Today PIE reconstruction includes hundreds of well-established roots, a grammar conventionally reconstructed with eight cases and three genders, ablaut alternations, and inherited poetic formulas — phrases like <em>*ḱléwos n̥dʰgʷʰitóm</em> "imperishable fame", reflected in both Homeric Greek (<em>kléos áphthiton</em>) and Vedic Sanskrit (<em>śrávas ákṣitam</em>). The reconstruction remains a model rather than a recorded text, and individual forms continue to be revised as the evidence is reassessed.</p>
         `,
         ja: `
   <p>今を生きる人類の約半数が、同じひとつの先史言語の子孫を話している──<strong>印欧祖語（Proto-Indo-European、PIE）</strong>である。英語、スペイン語、ヒンディー語、ロシア語、ペルシア語、ベンガル語、ドイツ語、フランス語、ギリシア語、イタリア語、ポーランド語、パンジャブ語、マラーティー語、そしてラテン語、サンスクリット、ヒッタイト、トカラ語、ゴート語──すべて、約<strong>6,000年前</strong>のポントス・カスピ海ステップ（<strong>マリヤ・ギンブタス</strong>とデイヴィッド・アンソニーが提唱した有力なクルガン仮説）あるいは対立仮説ではアナトリアで話されていた、一つの言語の末裔である。</p>
@@ -2750,13 +2743,13 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="water" data-code="en">💧 英語の「水」</button>
   </div>
   
-  <p>そして、比較方法が単なる類推ではなく「予測能力を持つ科学」であることが決定的に示される瞬間が訪れる。1879年、若きスイスの言語学者<strong>フェルディナン・ド・ソシュール</strong>──まだ21歳、現代記号学の創始者として有名になる前──は『印欧諸語における母音原始体系に関する覚書』を発表した。PIEの母音交替を整合的に説明するため、子孫言語すべてから消滅した謎の追加音素<em>coefficients sonantiques</em>の存在を仮定した。これが現在<strong>喉音（laryngeals、<em>*h₁, *h₂, *h₃</em>）</strong>と呼ばれる音である。</p>
+<p>1879年、21歳のスイスの言語学者<strong>フェルディナン・ド・ソシュール</strong>は『印欧諸語における母音原始体系に関する覚書』を発表した。PIEの母音交替を説明するため、当時知られていた子孫言語には直接残っていない追加要素 <em>coefficients sonantiques</em> を仮定した。これが現在<strong>喉音（laryngeals、<em>*h₁, *h₂, *h₃</em>）</strong>と呼ばれる音である。</p>
   
   <blockquote>「印欧祖語にはかつて、歴史時代の諸言語にいかなる直接的痕跡も残していない音素Aが存在したに違いない……」── ソシュール、1879年</blockquote>
   
   <p>直接証拠はゼロの、純粋な理論的演繹だった。以後ほぼ半世紀、多くの印欧語学者はこれを「優雅な思弁」とみなした。ところが1915年、チェコの学者ベドジヒ・フロズニーが<strong>ヒッタイト語</strong>──3000年間アナトリアの地下に埋もれていた青銅器時代の印欧語──を解読する。1927年、ポーランドの言語学者<strong>イェジー・クリウォヴィチ</strong>は、ヒッタイト語に<em>ḫ</em>で書かれる子音が<strong>ソシュールが「あるはずだ」と予言したまさにその位置</strong>に保存されていることを発見した。ソシュールはすでに14年前に没していた。彼の「幽霊」は、初めから実在していたのである。</p>
   
-  <p>現在、PIE再構は何百もの確立された語根、8格3性の精緻な文法、母音交替体系、さらには再構された詩句──ホメロスのギリシア語<em>kléos áphthiton</em>とヴェーダ・サンスクリットの<em>śrávas ákṣitam</em>に共通する<em>*ḱléwos n̥dʰgʷʰitóm</em>「不滅の名声」──まで含む。誰も書き残さなかった言語は、人類史上もっとも詳細に研究された無文字言語かもしれない。</p>
+<p>現在のPIE再構には、数百の語根、格・性の体系、母音交替、継承された詩的定型が含まれる。たとえばホメロスのギリシア語 <em>kléos áphthiton</em> とヴェーダ・サンスクリットの <em>śrávas ákṣitam</em> は、共通する「不滅の名声」という表現に遡ると分析される。再建形は録音や文献そのものではなく、比較資料に基づくモデルであり、個々の形は研究の進展に応じて改訂される。</p>
         `,
       },
       sources: [

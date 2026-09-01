@@ -35,7 +35,7 @@ window.TRIVIA_I18N['es'] = {
 
 <p>Las afirmaciones de Everett son <strong>muy controvertidas</strong>. Investigadores posteriores, entre ellos Andrew Nevins, David Pesetsky y Cilene Rodrigues, han argumentado que el pirahã sí tiene recursión — simplemente poco usada — y que los hechos sobre los números pueden explicarse sin consecuencias cognitivas exóticas. Everett ha replicado; el debate sigue abierto.</p>
 
-<p>Menos controvertidas, aunque todavía discutidas, son la norma cultural que restringe el habla a sucesos vividos directamente y la notable transmisión multicanal del pirahã. Sea cual sea el ganador de la guerra de la recursión, el pirahã ha hecho lo que muy pocas lenguas hacen: forzar a los lingüistas a preguntarse, una vez más, si el lenguaje moldea el pensamiento — o el pensamiento moldea el lenguaje.</p>
+<p>Menos controvertidas, aunque todavía discutidas, son la norma cultural que restringe el habla a sucesos vividos directamente y la notable transmisión multicanal del pirahã. Independientemente de cómo se resuelva la cuestión de la recursión, el pirahã ha obligado a los lingüistas a replantearse: ¿moldea el lenguaje el pensamiento — o moldea el pensamiento el lenguaje?
     `,
   },
   'silbo-gomero': {
@@ -219,7 +219,7 @@ window.TRIVIA_I18N['es'] = {
 
   <blockquote>La fonología del damin era una desviación deliberada de la del lardil, no una recodificación sonido por sonido: junto a oclusivas australianas corrientes — y las consonantes lardil llanas que sobreviven sobre todo en sus sufijos gramaticales — el damin empleaba chasquidos nasales, una eyectiva velar <em>k'</em>, una vibrante bilabial y una fricativa lateral ingresiva, sonidos no atestiguados en ningún otro lugar del continente. — según Hale &amp; Nash, "Lardil and Damin Phonotactics" (1997)</blockquote>
 
-  <p>La conclusión que la mayoría de los lingüistas extraen del damin es inquietante y emocionante a partes iguales. <strong>El perfil fonológico "australiano" no es biológicamente inevitable.</strong> Los hablantes de lardil — que en la vida cotidiana usaban un sistema de sonidos tan simple como el de cualquiera de sus vecinos — podían, cuando el ritual lo exigía, producir y enseñar rutinariamente una fonología salvajemente exótica a iniciados adolescentes. Lo que mantiene los sistemas sonoros superficiales de las lenguas australianas tan uniformes a lo largo de miles de kilómetros es por lo tanto <strong>cultural y sociolingüístico, no articulatorio ni cognitivo</strong>.</p>
+  <p>Lo que la investigación sobre el damin revela es que el perfil fonológico "australiano" no es biológicamente inevitable. Los hablantes de lardil — que en la vida cotidiana usaban un sistema de sonidos tan simple como el de cualquiera de sus vecinos — podían, cuando el ritual lo exigía, producir y enseñar rutinariamente una fonología exótica a iniciados adolescentes. Lo que mantiene los sistemas sonoros superficiales de las lenguas australianas tan uniformes a lo largo de miles de kilómetros es por lo tanto <strong>cultural y sociolingüístico, no articulatorio ni cognitivo</strong>.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="panto" data-lat="-16.55" data-lng="139.45" data-zoom="9">🪨 Acercar a la isla Mornington</button>
@@ -280,7 +280,7 @@ window.TRIVIA_I18N['es'] = {
     <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Recorrer el cinturón de chasquidos del sur de África</button>
   </div>
 
-  <p>Si los chasquidos son un rasgo arcaico heredado de poblaciones africanas extremadamente antiguas, una invención regional amplificada por contacto, o alguna combinación de ambos, sigue siendo objeto de debate. Lo que no se debate es que son <strong>fonemas plenamente funcionales</strong>, aprendidos por los niños con la misma facilidad que cualquier otra consonante — un recordatorio de que lo "exótico" es solo cuestión de dónde te toca crecer.</p>
+  <p>Si los chasquidos son un rasgo arcaico heredado de poblaciones africanas extremadamente antiguas, una invención regional amplificada por contacto, o alguna combinación de ambos, sigue siendo objeto de debate. Lo que no se debate es que son <strong>fonemas plenamente funcionales</strong>, aprendidos por los niños con la misma facilidad que cualquier otra consonante.</p>
     `,
   },
   'basque-isolate': {
@@ -383,8 +383,6 @@ window.TRIVIA_I18N['es'] = {
 
   <p>Los estudios etruscos modernos fueron esencialmente fundados por el arqueólogo italiano <strong>Massimo Pallottino</strong> (1909-1995), cuya <em>Etruscologia</em> (primera publicación 1942, revisada hasta una séptima edición en 1984) reinició el campo sobre el "método combinatorio": emparejar patrones dentro del propio etrusco, tratar las fuentes clásicas griegas y romanas como ruido de fondo en lugar de ayudas de traducción directa, y aceptar que avanzaremos una inscripción a la vez.</p>
 
-  <blockquote>"El etrusco ya no es un misterio, pero sigue siendo un problema." — Massimo Pallottino, parafraseado de <em>Etruscologia</em></blockquote>
-
   <p>Hacia el siglo I d.C., el etrusco estaba muriendo. El emperador Claudio (10 a.C.-54 d.C.) escribió una historia de los etruscos en 20 volúmenes ahora perdida, la <em>Tyrrhenika</em>, e intentó preservar la lengua; a veces se le llama el último hombre que pudo leerla. Con su muerte la lengua se deslizó fuera de la memoria viva — dejándonos 13.000 inscripciones y una momia envuelta ritualmente como cuaderno de campo de una civilización que enseñó a Roma a ser Roma.</p>
     `,
   },
@@ -461,7 +459,7 @@ window.TRIVIA_I18N['es'] = {
     title: 'Pāṇini — el gramático sánscrito que anticipó la ciencia informática en 2.400 años',
     summary: 'Hacia el 500 a.C., un erudito indio escribió una gramática formal del sánscrito de 4.000 reglas tan rigurosa que en 1933 Leonard Bloomfield pudo escribir que "ninguna otra lengua, hasta el día de hoy, ha sido descrita con tanta perfección" — y es un ancestro directo de cómo los compiladores analizan código hoy.',
     body: `
-  <p>Si tuvieras que elegir un solo libro para enviar en una máquina del tiempo y desconcertar a un científico informático del siglo XX, sería difícil hacerlo mejor que el <strong>Aṣṭādhyāyī</strong> — los "Ocho Capítulos" de <strong>Pāṇini</strong>. Compuesto en lo que ahora es el noroeste de Pakistán alrededor del <strong>500-400 a.C.</strong>, el Aṣṭādhyāyī es una descripción generativa completa del sánscrito en apenas <strong>4.000 sūtras</strong> (reglas aforísticas concisas), empacadas tan densamente que toda la gramática cabe en aproximadamente 35 páginas impresas modernas. Los lingüistas modernos, desde Leonard Bloomfield hasta Paul Kiparsky y Noam Chomsky, todos la han llamado la gramática formal más sofisticada de cualquier lengua jamás producida antes del siglo XX.</p>
+  <p>Compuesto en lo que ahora es el noroeste de Pakistán alrededor del <strong>500-400 a.C.</strong>, el <strong>Aṣṭādhyāyī</strong> — los "Ocho Capítulos" de <strong>Pāṇini</strong> — ofrece una descripción generativa del sánscrito en casi <strong>4.000 sūtras</strong> (reglas aforísticas concisas). La gramática completa cabe en aproximadamente 35 páginas impresas modernas. Lingüistas como Leonard Bloomfield, Paul Kiparsky y Noam Chomsky han relacionado su análisis formal con trabajos posteriores de lingüística e informática.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="sa" data-zoom="7">🌍 Mostrar el sánscrito en el mapa</button>
@@ -773,8 +771,6 @@ window.TRIVIA_I18N['es'] = {
 
   <p>Quien más contribuyó al desciframiento fue <strong>Nikolai Nevsky</strong> (1892-1937), un japonólogo ruso que pasó los años 20 en Japón y Taiwán. Se puso con el tesoro de Khara-Khoto ya en 1925, cuando aún vivía en Japón, y tras regresar a Leningrado en 1929 dedicó la década siguiente a desentrañar su estructura fonológica y a componer el primer diccionario tangut-ruso. Su obra maestra, <em>Tangutskaya Filologiya</em>, fue publicada póstumamente en 1960 — el propio Nevsky había sido fusilado en la Gran Purga de Stalin en 1937. Le fue otorgado el Premio Lenin póstumamente.</p>
 
-  <blockquote>"Cada carácter tangut es un pequeño problema arquitectónico: los trazos no solo deletrean un sonido, embaldosan un cuadrado." — parafraseado de M. V. Sofronov</blockquote>
-
   <p>Más tarde <strong>Mikhail Sofronov</strong> refinó la reconstrucción fonológica en los años 60; <strong>Ksenia Kepping</strong> trabajó en gramática y textos rituales; hoy investigadores en Pekín, Kioto, Taipéi y San Petersburgo continúan publicando ediciones de manuscritos recién catalogados. Quedan preguntas significativas — el sistema tonal exacto, la posición genética más profunda dentro del sino-tibetano, el significado de docenas de caracteres raros que aparecen solo una o dos veces en el corpus.</p>
 
   <p>El tangut es un recordatorio de que "lengua muerta" rara vez es un veredicto final. Una escritura inventada en una sola década, usada por millones, olvidada durante cuatro siglos, aún puede ser persuadida de volver al habla — siempre que alguien sea lo bastante terco para dedicar una vida a las tablas de rima.</p>
@@ -809,8 +805,6 @@ window.TRIVIA_I18N['es'] = {
   </div>
 
   <p>Se han publicado muchas afirmaciones de desciframiento — que el minoico es semítico, anatolio, tirreno, indoeuropeo, incluso protovasco. Ninguna ha convencido al campo. Los principales obstáculos son (1) el corpus pequeño y repetitivo, (2) la ausencia de cualquier texto bilingüe lo bastante largo para arrancar una gramática, y (3) la sospecha de que el minoico puede ser simplemente un <strong>aislado</strong> — una lengua sin parientes supervivientes en ninguna parte.</p>
-
-  <blockquote>"Podemos pronunciar las palabras de los minoicos. Simplemente no sabemos qué significan." — parafraseado de John Chadwick, The Decipherment of Linear B</blockquote>
 
   <p>Compárese la situación con la aún no descifrada escritura <strong>chiprio-minoica</strong> de la Chipre de la Edad de Bronce, o los aún más antiguos <strong>jeroglíficos cretenses</strong> en los que el propio Lineal A parece basarse. La escritura egea de la Edad de Bronce es un pequeño bosque de escrituras relacionadas que codifican al menos dos y posiblemente tres o cuatro lenguas diferentes — y solo una de ellas, la tardía Lineal B, ha cedido.</p>
 
@@ -849,8 +843,6 @@ window.TRIVIA_I18N['es'] = {
 
   <p>Curiosamente, los hablantes bilingües más jóvenes aimara-español hacen gestos más al patrón español (futuro adelante), lo que sugiere que el mapeo espacial más antiguo está siendo gradualmente sobrescrito por el contacto con lenguas indoeuropeas de mayor intercambio. El aimara puede resultar ser uno de los últimos reservorios de una metáfora que otras lenguas andinas y amazónicas solían compartir.</p>
 
-  <blockquote>"Lo que has visto con tus propios ojos puedes colocarlo frente a ti; lo que no has visto tiene que quedarse a tu espalda." — paráfrasis de un anciano aimara, en Núñez & Sweetser 2006</blockquote>
-
   <p>El hallazgo importó mucho más allá de la lingüística andina. Junto con el trabajo de George Lakoff sobre la metáfora conceptual y los experimentos de Lera Boroditsky sobre el tiempo y el lenguaje, el caso aimara se convirtió en una piedra angular del argumento moderno de que <strong>las metáforas espaciales básicas para dominios abstractos no son universales</strong> — están profundamente moldeadas por la cultura y la experiencia corporeizada. El tiempo, la abstracción más implacable que tenemos, puede que ni siquiera apunte en la misma dirección para todos.</p>
 
   <p>El aimara también es notable de otras maneras: una <em>lógica trivaluada</em> debatida por científicos informáticos en los años 80, un sistema evidencial obligatorio no muy distinto del del tuyuca, y una vibrante escena editorial en lengua indígena. Pero el pasado mirando al frente sigue siendo su regalo más famoso a la ciencia cognitiva.</p>
@@ -886,8 +878,6 @@ window.TRIVIA_I18N['es'] = {
   </div>
 
   <p>El tuyuca no es único. La <strong>evidencialidad</strong> como categoría gramatical se encuentra a lo largo de la familia tukano, en quechua, aimara, turco (el famoso <em>-miş</em>), búlgaro, coreano, muchas lenguas tibeto-birmanas, y a lo largo de la Amazonía. La encuesta tipológica de <strong>Alexandra Aikhenvald</strong> (2004) recopiló casi 500 lenguas con evidenciales gramaticalizados. Pero el tuyuca destaca por la <em>granularidad</em> de su sistema — cinco distinciones donde la mayoría de lenguas hacen dos o tres — y por estar entre las primerísimas en ser descritas cuidadosamente.</p>
-
-  <blockquote>"En tuyuca, no puedes mentir cómodamente. Cada afirmación lleva la firma de cómo fue adquirida." — paráfrasis de Aikhenvald 2004</blockquote>
 
   <p>Las implicaciones para la cognición son debatidas. Algunos investigadores, incluidos los herederos intelectuales de Lev Vygotsky y la propia Aikhenvald, argumentan que marcar habitualmente la fuente de información cultiva una orientación diferente hacia la evidencia y el rumor. Otros notan que los hispanohablantes pueden expresar las mismas distinciones — simplemente no están <em>forzados</em> a hacerlo. El consenso actual está en algún punto intermedio: la gramaticalización obligatoria hace que una categoría sea cognitivamente saliente, pero no hace a los hablantes de otras lenguas incapaces de las mismas distinciones.</p>
 
@@ -929,8 +919,6 @@ window.TRIVIA_I18N['es'] = {
   <p>La consecuencia cognitiva, documentada por Levinson, John Haviland y colegas del Instituto Max Planck, es sorprendente. Los hablantes de guugu yimithirr mantienen un sentido ininterrumpido de su orientación por <strong>navegación a estima</strong>. En experimentos, pueden señalar con precisión a lugares distantes (el mar, un asentamiento vecino, la casa de un pariente a cientos de kilómetros de distancia) sin importar si están sentados en una habitación sin ventanas, con los ojos vendados, después de ser conducidos en círculos, o en el fondo de una cueva. Su brújula cardinal simplemente no se apaga.</p>
 
   <p>Esta no es una habilidad especial de unos pocos ancianos. Entre los hablantes mayores y más fluidos es una <strong>propiedad de toda la comunidad de habla</strong>, adquirida en la infancia. Los niños no asimilan el sistema de golpe, sino poco a poco: el trabajo de campo de Lourdes de León con hablantes pequeños en Hopevale, referido por Haviland, traza un recorrido que va de oír una palabra como <em>naga</em> como un vago "por allá", a ligarla a lugares concretos como la playa, luego a toda una zona, y solo al final a un contraste direccional abstracto de cuatro términos. La maquinaria mental es construida por la lengua y constantemente ejercitada por la demanda de hablar de ello.</p>
-
-  <blockquote>"No puedes hablar guugu yimithirr sin saber siempre dónde está el norte." — paráfrasis de Stephen Levinson, 1997</blockquote>
 
   <p>Sistemas comparables de marco absoluto se conocen ahora del <strong>tzeltal maya</strong> en México (ejes cuesta arriba/cuesta abajo), del <strong>marshalés</strong> en Micronesia (hacia el mar/hacia la tierra), del <strong>balinés</strong> (hacia la montaña/hacia el mar), y de numerosas lenguas aborígenes australianas — kuuk thaayorre, warlpiri y arrernte entre ellas. El debate de sabor Sapir-Whorf sobre si la lengua impulsa la cognición espacial o viceversa sigue vivo, pero el hecho empírico es indiscutible: los hablantes de lenguas de marco absoluto se desempeñan en tareas de orientación no verbal de una manera mensurablemente diferente a los hablantes de lenguas de marco egocéntrico.</p>
 
@@ -979,8 +967,6 @@ window.TRIVIA_I18N['es'] = {
   <p>Los verbos mohawk también marcan obligatoriamente un complejo <strong>prefijo pronominal</strong> que fusiona la persona, número y género de sujeto y objeto en un solo morfema portmanteau. Hay <strong>58</strong> tales prefijos en el paradigma, distinguiendo por ejemplo "yo → tú (sg)" de "yo → ustedes (pl)" de "tú (sg) → yo" — cada uno una sola sílaba. Aprender la tabla de prefijos es ampliamente considerado el ascenso más empinado en la lengua.</p>
 
   <p>La polisíntesis plantea una pregunta profunda para la tipología lingüística. ¿Es una "palabra" mohawk el mismo tipo de unidad que una "palabra" española? Mark Baker, en su influyente <em>The Polysynthesis Parameter</em> (1996), argumentó que las lenguas polisintéticas obedecen sus propias restricciones sintácticas — por ejemplo, no se requieren argumentos pronominales independientes porque el verbo ya los lleva — y que representan un ajuste paramétrico alternativo a lenguas como el inglés. Otros, incluida Mithun, prefieren describir el mohawk en sus propios términos en lugar de encajarlo en un parámetro universalista.</p>
-
-  <blockquote>"En mohawk, el verbo es un pequeño teatro. Los actores entran antes de que se alce el telón y rara vez salen del escenario." — paráfrasis de Marianne Mithun, 1999</blockquote>
 
   <p>El movimiento de revitalización importa aquí. Las escuelas de inmersión Kanien'kéha — la Kahnawà:ke Survival School y la Akwesasne Freedom School son las más conocidas — han producido una nueva generación de hablantes que manejan esa tabla pronominal de 58 celdas con fluidez nativa. El mohawk muestra que la polisíntesis no es un fósil del pasado; es una estrategia gramatical viva, tan expresiva como cualquier analítica, y ahora reconstruida conscientemente por comunidades decididas a que el <em>Kanien'kéha</em> continúe.</p>
 

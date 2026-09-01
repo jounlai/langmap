@@ -37,7 +37,7 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Everetts Behauptungen sind <strong>heftig umstritten</strong>. Spätere Forscher, darunter Andrew Nevins, David Pesetsky und Cilene Rodrigues, haben argumentiert, dass Pirahã sehr wohl Rekursion besitzt — nur selten genutzt — und dass die Zahlentatsachen ohne exotische kognitive Konsequenzen erklärt werden können. Everett hat zurückgeschossen; die Debatte ist noch offen.</p>
 
-<p>Weniger umstritten, wenn auch nach wie vor diskutiert, sind die kulturelle Norm, das Sprechen auf direkt Erlebtes zu beschränken, und Pirahãs auffällige Mehrkanalübertragung. Wer auch immer den Rekursionskrieg gewinnt, Pirahã hat geschafft, was nur wenige Sprachen je tun: Es zwang die Linguisten, einmal mehr zu fragen, ob die Sprache das Denken formt — oder das Denken die Sprache.</p>
+<p>Weniger umstritten, wenn auch nach wie vor diskutiert, sind die kulturelle Norm, das Sprechen auf direkt Erlebtes zu beschränken, und Pirahãs auffällige Mehrkanalübertragung. Unabhängig davon, ob Rekursion universell ist, hat Pirahã die Linguisten gezwungen, sich erneut zu fragen: Formt die Sprache das Denken — oder formt das Denken die Sprache ?</p>
     `,
   },
 
@@ -226,7 +226,7 @@ window.TRIVIA_I18N['de'] = {
 
 <blockquote>Damins Phonologie war eine bewusste Abkehr von der des Lardil, keine Umkodierung Laut für Laut: Neben gewöhnlichen australischen Plosiven — und den schlichten Lardil-Konsonanten, die vor allem in den grammatischen Suffixen überleben — verwendete Damin nasale Klicks, einen velaren Ejektiv <em>k'</em>, einen bilabialen Triller und einen ingressiven lateralen Frikativ, Laute, die sonst nirgends auf dem Kontinent belegt sind. — nach Hale &amp; Nash, "Lardil and Damin Phonotactics" (1997)</blockquote>
 
-<p>Die Schlussfolgerung, die die meisten Linguisten aus Damin ziehen, ist gleichermaßen verstörend und aufregend. <strong>Das "australische" phonologische Profil ist nicht biologisch unvermeidlich.</strong> Sprecher des Lardil — die im Alltag ein Lautsystem benutzten, das so schlicht war wie das ihrer Nachbarn — konnten, wenn das Ritual es verlangte, jugendlichen Initianden eine wild exotische Phonologie produzieren und routinemäßig lehren. Was auch immer die Oberflächenlautsysteme der australischen Sprachen über Tausende von Kilometern hinweg so einheitlich hält, ist daher <strong>kulturell und soziolinguistisch, nicht artikulatorisch oder kognitiv</strong>.</p>
+<p>Die Damin-Forschung offenbart, dass das "australische" phonologische Profil nicht biologisch unvermeidlich ist. Sprecher des Lardil — die im Alltag ein Lautsystem benutzten, das so schlicht war wie das ihrer Nachbarn — konnten, wenn das Ritual es verlangte, jugendlichen Initianden eine exotische Phonologie produzieren und routinemäßig lehren. Was auch immer die Oberflächenlautsysteme der australischen Sprachen über Tausende von Kilometern hinweg so einheitlich hält, ist daher <strong>kulturell und soziolinguistisch, nicht artikulatorisch oder kognitiv</strong>.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="-16.55" data-lng="139.45" data-zoom="9">🪨 Mornington Island heranzoomen</button>
@@ -288,7 +288,7 @@ window.TRIVIA_I18N['de'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Den Klickgürtel des südlichen Afrikas überblicken</button>
 </div>
 
-<p>Ob Klicks ein archaisches Merkmal sind, das von extrem alten afrikanischen Populationen ererbt wurde, eine regionale Erfindung, durch Kontakt verstärkt, oder eine Kombination aus beidem, bleibt umstritten. Was nicht umstritten ist: Sie sind <strong>vollständig funktionale Phoneme</strong>, von Kindern mit derselben Leichtigkeit gelernt wie jeder andere Konsonant — eine Erinnerung daran, dass das "Exotische" nur eine Frage davon ist, wo man zufällig aufwächst.</p>
+<p>Ob Klicks ein archaisches Merkmal sind, das von extrem alten afrikanischen Populationen ererbt wurde, eine regionale Erfindung, durch Kontakt verstärkt, oder eine Kombination aus beidem, bleibt umstritten. Was nicht umstritten ist: Sie sind <strong>vollständig funktionale Phoneme</strong>, von Kindern mit derselben Leichtigkeit gelernt wie jeder andere Konsonant.</p>
     `,
   },
 
@@ -394,8 +394,6 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Die moderne Etruskologie wurde im Wesentlichen vom italienischen Archäologen <strong>Massimo Pallottino</strong> (1909–1995) begründet, dessen <em>Etruscologia</em> (erstmals 1942 erschienen, bis zur siebten Auflage 1984 überarbeitet) das Feld auf die "kombinatorische Methode" umstellte: Muster innerhalb des Etruskischen selbst abgleichen, griechische und römische klassische Quellen als Hintergrundrauschen statt als direkte Übersetzungshilfe behandeln und akzeptieren, dass wir nur eine Inschrift nach der anderen vorankommen werden.</p>
 
-<blockquote>"Das Etruskische ist kein Rätsel mehr, aber es bleibt ein Problem." — Massimo Pallottino, paraphrasiert aus <em>Etruscologia</em></blockquote>
-
 <p>Bis zum 1. Jahrhundert n. Chr. starb das Etruskische aus. Kaiser Claudius (10 v. Chr.–54 n. Chr.) schrieb eine heute verlorene 20-bändige Geschichte der Etrusker, die <em>Tyrrhenika</em>, und versuchte, die Sprache zu bewahren; er wird manchmal als der letzte Mann bezeichnet, der sie lesen konnte. Mit seinem Tod verschwand die Sprache aus dem lebendigen Gedächtnis — und hinterließ uns 13.000 Inschriften und eine rituell eingewickelte Mumie als Feldnotizbuch einer Zivilisation, die Rom lehrte, wie es Rom sein konnte.</p>
     `,
   },
@@ -475,7 +473,7 @@ window.TRIVIA_I18N['de'] = {
     title: 'Pāṇini — der Sanskrit-Grammatiker, der die Informatik um 2.400 Jahre vorwegnahm',
     summary: 'Um 500 v. Chr. schrieb ein indischer Gelehrter eine formale Grammatik des Sanskrit mit 4.000 Regeln, die so streng war, dass Leonard Bloomfield 1933 schreiben konnte, "keine andere Sprache ist bis heute so vollkommen beschrieben worden" — und sie ist ein direkter Vorfahre dessen, wie Compiler heute Code parsen.',
     body: `
-<p>Wenn man ein einziges Buch wählen müsste, das man mit einer Zeitmaschine zurückschicken könnte, um einen Informatiker des 20. Jahrhunderts zu verblüffen, wäre es schwer, etwas Besseres zu finden als die <strong>Aṣṭādhyāyī</strong> — die "Acht Kapitel" des <strong>Pāṇini</strong>. Verfasst in dem, was heute das nordwestliche Pakistan ist, um <strong>500–400 v. Chr.</strong>, ist die Aṣṭādhyāyī eine vollständige generative Beschreibung des Sanskrit in knapp unter <strong>4.000 Sūtras</strong> (knappen aphoristischen Regeln), so dicht gepackt, dass die gesamte Grammatik auf etwa 35 modernen Druckseiten Platz findet. Moderne Linguisten, von Leonard Bloomfield über Paul Kiparsky bis Noam Chomsky, haben sie alle als die ausgefeilteste formale Grammatik einer Sprache bezeichnet, die jemals vor dem 20. Jahrhundert hervorgebracht wurde.</p>
+<p>Die um <strong>500–400 v. Chr.</strong> im heutigen Nordwesten Pakistans verfasste <strong>Aṣṭādhyāyī</strong> — die "Acht Kapitel" des <strong>Pāṇini</strong> — beschreibt Sanskrit mit knapp <strong>4.000 Sūtras</strong> (knappen aphoristischen Regeln) generativ. Die gesamte Grammatik findet auf etwa 35 modernen Druckseiten Platz. Linguisten wie Leonard Bloomfield, Paul Kiparsky und Noam Chomsky haben ihre formale Analyse im Zusammenhang mit späteren Arbeiten der Linguistik und Informatik erörtert.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="sa" data-zoom="7">🌍 Sanskrit auf der Karte zeigen</button>
@@ -794,8 +792,6 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Am meisten zur Entzifferung trug <strong>Nikolai Newski</strong> bei (1892–1937), ein russischer Japanologe, der die 1920er Jahre in Japan und Taiwan verbrachte. Dem Khara-Khoto-Schatz wandte er sich bereits 1925 zu, als er noch in Japan lebte, und nach seiner Rückkehr nach Leningrad 1929 verbrachte er das folgende Jahrzehnt damit, dessen phonologische Struktur zu erschließen und das erste Tangut-Russisch-Wörterbuch zu erarbeiten. Sein Meisterwerk, <em>Tangutskaya Filologiya</em>, wurde posthum 1960 veröffentlicht — Newski selbst war 1937 in Stalins Großer Säuberung erschossen worden. Er erhielt den Lenin-Preis posthum.</p>
 
-<blockquote>"Jedes Tangut-Zeichen ist ein kleines architektonisches Problem: Die Striche buchstabieren nicht nur einen Laut, sie kacheln ein Quadrat." — paraphrasiert nach M. V. Sofronov</blockquote>
-
 <p>Später verfeinerte <strong>Michail Sofronow</strong> die phonologische Rekonstruktion in den 1960er Jahren; <strong>Xenia Kepping</strong> arbeitete an Grammatik und rituellen Texten; heute veröffentlichen Forscher in Peking, Kyoto, Taipeh und St. Petersburg weiterhin Editionen neu katalogisierter Manuskripte. Bedeutende Fragen bleiben — das genaue Tonsystem, die tiefere genetische Position innerhalb des Sino-Tibetischen, die Bedeutung Dutzender seltener Zeichen, die nur ein- oder zweimal im Korpus vorkommen.</p>
 
 <p>Tangutisch ist eine Erinnerung daran, dass "tote Sprache" selten ein endgültiges Urteil ist. Eine Schrift, die in einem einzigen Jahrzehnt erfunden, von Millionen verwendet, vier Jahrhunderte lang vergessen wurde, kann immer noch zur Rede zurückgeholt werden — vorausgesetzt, jemand ist hartnäckig genug, ein Leben lang an Reimtabellen zu arbeiten.</p>
@@ -831,8 +827,6 @@ window.TRIVIA_I18N['de'] = {
 </div>
 
 <p>Viele Entzifferungsansprüche wurden veröffentlicht — dass Minoisch semitisch, anatolisch, tyrsenisch, indogermanisch oder sogar Proto-Baskisch sei. Keiner hat das Fach überzeugt. Die Haupthindernisse sind (1) das kleine und sich wiederholende Korpus, (2) das Fehlen eines zweisprachigen Textes, der lang genug wäre, um eine Grammatik zu bootstrappen, und (3) der Verdacht, dass Minoisch einfach eine <strong>Isolatsprache</strong> sein könnte — eine Sprache ohne überlebende Verwandte irgendwo.</p>
-
-<blockquote>"Wir können die Wörter der Minoer aussprechen. Wir wissen einfach nicht, was sie bedeuten." — paraphrasiert nach John Chadwick, The Decipherment of Linear B</blockquote>
 
 <p>Vergleichen Sie die Situation mit der noch unentzifferten <strong>kypro-minoischen</strong> Schrift des bronzezeitlichen Zypern oder den noch älteren <strong>kretischen Hieroglyphen</strong>, auf denen Linear A selbst zu basieren scheint. Die bronzezeitliche ägäische Schrift ist ein kleiner Wald verwandter Schriften, der mindestens zwei und möglicherweise drei oder vier verschiedene Sprachen kodiert — und nur eine davon, das spätkommende Linear B, hat nachgegeben.</p>
 
@@ -872,8 +866,6 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Interessanterweise gestikulieren jüngere zweisprachige Aymara-Spanisch-Sprecher mehr im spanischen Muster (Zukunft vorn), was darauf hindeutet, dass die ältere räumliche Abbildung allmählich durch den Kontakt mit indogermanischen Sprachen weiteren Austauschs überschrieben wird. Aymara könnte sich als eines der letzten Reservoirs einer Metapher erweisen, die andere andine und amazonische Sprachen einmal teilten.</p>
 
-<blockquote>"Was du mit deinen eigenen Augen gesehen hast, kannst du vor dich stellen; was du nicht gesehen hast, muss in deinem Rücken bleiben." — paraphrasiert nach einem Aymara-Ältesten, in Núñez & Sweetser 2006</blockquote>
-
 <p>Der Befund war weit über die andine Linguistik hinaus bedeutsam. Zusammen mit George Lakoffs Arbeit zur konzeptuellen Metapher und Lera Boroditskys Experimenten zu Zeit und Sprache wurde der Aymara-Fall zu einem Eckpfeiler des modernen Arguments, dass <strong>grundlegende räumliche Metaphern für abstrakte Bereiche nicht universell sind</strong> — sie werden tief von Kultur und verkörperter Erfahrung geprägt. Die Zeit, die unerbittlichste Abstraktion, die wir haben, zeigt vielleicht nicht einmal für alle in dieselbe Richtung.</p>
 
 <p>Aymara ist auch in anderer Hinsicht bemerkenswert: eine in den 1980er Jahren von Informatikern diskutierte <em>dreiwertige Logik</em>, ein obligatorisches Evidenzialitätssystem nicht unähnlich dem des Tuyuca und eine lebendige indigene Verlagsszene. Aber die der Vergangenheit zugewandte Vorderseite bleibt sein berühmtestes Geschenk an die Kognitionswissenschaft.</p>
@@ -910,8 +902,6 @@ window.TRIVIA_I18N['de'] = {
 </div>
 
 <p>Tuyuca ist nicht einzigartig. <strong>Evidentialität</strong> als grammatische Kategorie findet sich in der gesamten Tukanoan-Familie, im Quechua, Aymara, Türkischen (das berühmte <em>-miş</em>), Bulgarischen, Koreanischen, vielen tibetobirmanischen Sprachen und in ganz Amazonien. <strong>Alexandra Aikhenvalds</strong> typologische Übersicht (2004) hat fast 500 Sprachen mit grammatikalisierten Evidentials gesammelt. Aber Tuyuca sticht heraus durch die <em>Granularität</em> seines Systems — fünf Unterscheidungen, wo die meisten Sprachen zwei oder drei machen — und weil es zu den allerersten gehörte, die sorgfältig beschrieben wurden.</p>
-
-<blockquote>"Im Tuyuca kann man nicht bequem lügen. Jede Behauptung trägt die Signatur dessen, wie sie erworben wurde." — Paraphrase aus Aikhenvald 2004</blockquote>
 
 <p>Die Implikationen für die Kognition sind umstritten. Einige Forscher, darunter die intellektuellen Erben Lev Vygotskys und Aikhenvald selbst, argumentieren, dass das gewohnheitsmäßige Markieren der Informationsquelle eine andere Ausrichtung zu Beweis und Gerücht kultiviert. Andere stellen fest, dass Deutschsprachige dieselben Unterscheidungen ausdrücken können — sie sind nur nicht <em>gezwungen</em> dazu. Der gegenwärtige Konsens liegt irgendwo dazwischen: Die obligatorische Grammatikalisierung macht eine Kategorie kognitiv salient, macht aber Sprecher anderer Sprachen nicht unfähig zu denselben Unterscheidungen.</p>
 
@@ -954,8 +944,6 @@ window.TRIVIA_I18N['de'] = {
 <p>Die kognitive Konsequenz, dokumentiert von Levinson, John Haviland und Kollegen am Max-Planck-Institut, ist auffällig. Sprecher des Guugu Yimithirr behalten ein ununterbrochenes <strong>Koppelnavigationsgefühl</strong> ihrer Orientierung. In Experimenten können sie genau auf entfernte Orte zeigen (das Meer, eine benachbarte Siedlung, das Haus eines Verwandten Hunderte von Kilometern entfernt), unabhängig davon, ob sie in einem fensterlosen Raum sitzen, mit verbundenen Augen, nachdem sie im Kreis gefahren wurden, oder am Boden einer Höhle. Ihr Himmelsrichtungskompass schaltet sich einfach nicht aus.</p>
 
 <p>Das ist keine besondere Fähigkeit einiger weniger Ältester. Bei den älteren, am flüssigsten sprechenden Generationen ist es eine <strong>Eigenschaft der gesamten Sprachgemeinschaft</strong>, in der Kindheit erworben. Kinder eignen sich das System nicht auf einen Schlag an, sondern nach und nach: Die von Haviland referierte Feldforschung von Lourdes de León mit jungen Sprechern in Hopevale zeichnet einen Weg nach, der von einem Wort wie <em>naga</em> als vagem "da drüben" über die Bindung an bestimmte Orte wie den Strand und an eine ganze Gegend erst zuletzt zu einem abstrakten Vier-Wege-Richtungskontrast führt. Die mentale Maschinerie wird durch die Sprache konstruiert und durch die Forderung, darüber zu sprechen, ständig trainiert.</p>
-
-<blockquote>"Man kann Guugu Yimithirr nicht sprechen, ohne immer zu wissen, wo Norden ist." — Paraphrase nach Stephen Levinson, 1997</blockquote>
 
 <p>Vergleichbare absolute Rahmen-Systeme sind heute aus dem <strong>Tzeltal-Maya</strong> in Mexiko (Bergauf/Bergab-Achsen), <strong>Marshallesisch</strong> in Mikronesien (seewärts/landwärts), <strong>Balinesisch</strong> (bergwärts/seewärts) und zahlreichen australischen Aborigine-Sprachen — Kuuk Thaayorre, Warlpiri und Arrernte unter ihnen — bekannt. Die Sapir-Whorf-gefärbte Debatte darüber, ob die Sprache die räumliche Kognition antreibt oder umgekehrt, bleibt lebendig, aber die empirische Tatsache ist unbestritten: Sprecher von Sprachen mit absolutem Rahmen schneiden bei nicht-verbalen Orientierungsaufgaben messbar anders ab als Sprecher von egozentrischen Rahmensprachen.</p>
 
@@ -1005,8 +993,6 @@ window.TRIVIA_I18N['de'] = {
 <p>Mohawk-Verben markieren auch obligatorisch ein komplexes <strong>pronominales Präfix</strong>, das Person, Numerus und Genus von Subjekt und Objekt zu einem Portmanteau-Morphem verschmilzt. Es gibt <strong>58</strong> solche Präfixe im Paradigma, die zum Beispiel "Ich → du (Sg)" von "Ich → ihr (Pl)" von "Du (Sg) → ich" unterscheiden — jedes eine einzige Silbe. Das Erlernen der Präfixtabelle gilt weithin als der steilste Anstieg in der Sprache.</p>
 
 <p>Die Polysynthese wirft eine tiefe Frage für die linguistische Typologie auf. Ist ein Mohawk-"Wort" dieselbe Art von Einheit wie ein deutsches "Wort"? Mark Baker argumentierte in seinem einflussreichen <em>The Polysynthesis Parameter</em> (1996), dass polysynthetische Sprachen ihren eigenen syntaktischen Beschränkungen unterliegen — zum Beispiel sind keine unabhängigen Pronomenargumente erforderlich, weil das Verb sie bereits trägt — und dass sie eine parametrische Einstellung darstellen, die eine Alternative zu Sprachen wie dem Englischen bildet. Andere, darunter Mithun, ziehen es vor, Mohawk in seinen eigenen Begriffen zu beschreiben, anstatt es in einen universalistischen Parameter zu pressen.</p>
-
-<blockquote>"Im Mohawk ist das Verb ein kleines Theater. Die Akteure betreten die Bühne, bevor der Vorhang aufgeht, und verlassen sie selten." — Paraphrase nach Marianne Mithun, 1999</blockquote>
 
 <p>Die Wiederbelebungsbewegung ist hier wichtig. Kanien'kéha-Immersionsschulen — die Kahnawà:ke Survival School und die Akwesasne Freedom School sind die bekanntesten — haben eine neue Generation von Sprechern hervorgebracht, die diese 58-Zellen-Pronominaltabelle mit muttersprachlicher Geläufigkeit beherrschen. Mohawk zeigt, dass die Polysynthese kein Fossil der Vergangenheit ist; sie ist eine lebendige grammatische Strategie, ebenso ausdrucksstark wie jede analytische, und nun bewusst von Gemeinschaften wieder aufgebaut, die entschlossen sind, dass <em>Kanien'kéha</em> weitergehen wird.</p>
 

@@ -28,11 +28,11 @@ window.TRIVIA_I18N['sw'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="mother" data-code="myp">👩 Ona "Mama" katika Pirahã</button>
 </div>
 
-<p>Kinachoshangaza zaidi, Pirahã ni mojawapo ya lugha chache duniani zinazoweza kupelekwa kwa <em>njia tano sambamba</em>: inaweza <strong>kuzungumzwa, kupulizwa kama mluzi, kuhumiwa, kuimbwa, au kupazwa sauti</strong>. Kwa sababu Pirahã ina vokali tatu tu na konsonanti nane, mlolongo wake wa toni na mdundo hubeba mzigo mzito wa habari — kiasi kwamba mama wanaweza kuwahumia watoto wachanga sentensi nzima bila kutamka konsonanti yoyote.</p>
+<p>Pirahã inaweza kupelekwa kwa njia tano sambamba: inaweza kuzungumzwa, kupulizwa kama mluzi, kuhumiwa, kuimbwa, au kupazwa sauti. Kwa sababu Pirahã ina vokali tatu tu na konsonanti nane, mlolongo wake wa toni na mdundo hubeba mzigo mkubwa wa habari — mama wanaweza kuwahumia watoto wachanga sentensi nzima bila kutamka konsonanti yoyote.</p>
 
 <blockquote>"Watu wa Pirahã huwasiliana kwa kuimba, kupuliza mluzi na kuhumia karibu kwa kiwango kile kile wanachotumia konsonanti na vokali." — Daniel Everett, <em>Current Anthropology</em> 46(4), 2005, uk. 622</blockquote>
 
-<p>Madai ya Everett <strong>yanapingwa vikali</strong>. Watafiti wa baadaye, akiwemo Andrew Nevins, David Pesetsky na Cilene Rodrigues, wamedai kuwa Pirahã ina urudufu — ila hutumika mara chache tu — na kwamba ukweli wa nambari unaweza kuelezwa bila athari zisizo za kawaida za kiakili. Everett amejibu; mjadala bado uko wazi.</p>
+<p>Madai ya Everett yanacheza katika mjadala. Watafiti wa baadaye, akiwemo Andrew Nevins, David Pesetsky na Cilene Rodrigues, wamependekeza kuwa Pirahã ina urudufu — ila katika hali nadra — na kwamba ukweli wa nambari unaweza kuelezwa kwa njia nyingine. Everett amejibu; mjadala unaendelea.</p>
 
 <p>Mambo yanayobishaniwa kidogo, ingawa bado yamo katika mjadala, ni kanuni ya kitamaduni inayozuia mazungumzo kwa matukio yaliyopatikana moja kwa moja na utumaji wa Pirahã wa njia nyingi unaovutia. Bila kujali ni upande gani utashinda vita ya urudufu, Pirahã imefanya kile lugha chache sana zinafanya: imelazimisha wanaisimu kuuliza tena, je lugha hutengeneza fikra — au fikra hutengeneza lugha.</p>
     `
@@ -48,7 +48,7 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="panto" data-lat="28.10" data-lng="-17.20" data-zoom="7">🗺️ Ruka hadi La Gomera</button>
   </div>
 
-  <p>Silbo si kanuni au seti ya ishara. Ni <strong>kiwango kilichotamkwa kikamilifu cha Kihispania</strong>: kila neno la Kihispania linaweza kupulizwa kwa kanuni, na mtaalamu wa silbo anaweza kuendesha mazungumzo bila mwisho kuhusu hali ya hewa, bei za mifugo au mchezo wa mpira wa miguu wa usiku jana. Hila ni kwamba mluzi hupunguza orodha kamili ya vokali na konsonanti za Kihispania kuwa seti ndogo zaidi ya <em>ishara za toni</em>:</p>
+  <p>Silbo si <strong>sanjari kamili ya Kihispania</strong> iliyozungumzwa: kwa kanuni, kila neno la Kihispania linaweza kupulizwa kama mluzi, na mtaalamu wa silbo anaweza kuendesha mazungumzo bila mwisho kuhusu hali ya hewa, bei za mifugo au mchezo wa mpira wa usiku jana. Hila ni kwamba mluzi hupunguza orodha kamili ya vokali na konsonanti za Kihispania kuwa seti ndogo zaidi ya ishara za toni:</p>
 
   <ul>
     <li><strong>"Vokali" mbili</strong> zinazotofautishwa kwa toni — toni ya juu inayofunika <em>/i, e/</em> ya Kihispania na toni ya chini inayofunika <em>/a, o, u/</em>.</li>
@@ -286,7 +286,7 @@ window.TRIVIA_I18N['sw'] = {
     <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Chunguza ukanda wa mibofyo wa Afrika ya kusini</button>
   </div>
 
-  <p>Iwapo mibofyo ni kipengele cha kale kilichorithiwa kutoka kwa watu wa kale sana wa Afrika, uvumbuzi wa kieneo uliongezwa na mawasiliano, au mchanganyiko wowote wa zote mbili, bado huzungumzwa. Kile ambacho hakihojiwi ni kwamba ni <strong>fonimu zinazofanya kazi kikamilifu</strong>, zilizojifunzwa na watoto kwa urahisi sawa na konsonanti yoyote nyingine — kumbusho kwamba "ya kigeni" ni jambo la mahali tu unapokulia.</p>
+  <p>Iwapo mibofyo ni kipengele cha kale kilichorithiwa kutoka kwa watu wa kale sana wa Afrika, uvumbuzi wa kieneo uliongezwa na mawasiliano, au mchanganyiko wowote wa zote mbili, bado huzungumzwa. Kile ambacho hakihojiwi ni kwamba ni <strong>fonimu zinazofanya kazi kikamilifu</strong>, zilizojifunzwa na watoto kwa urahisi sawa na konsonanti yoyote nyingine</p>
     `
   },
 
@@ -393,8 +393,6 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Masomo ya kisasa ya Kietruscan yalianzishwa kimsingi na mwanaakiolojia wa Kiitalia <strong>Massimo Pallottino</strong> (1909–1995), ambaye <em>Etruscologia</em> yake (iliyochapishwa kwanza 1942, ikirekebishwa hadi toleo la saba mwaka 1984) iliweka upya uwanja kwa "mbinu ya mchanganyiko": kulinganisha mifumo ndani ya Kietruscan yenyewe, kuchukulia vyanzo vya kawaida vya Kigiriki na Kirumi kama kelele ya nyuma badala ya msaada wa moja kwa moja wa tafsiri, na kukubali kwamba tutaendelea maandiko moja kwa wakati.</p>
 
-  <blockquote>"Kietruscan si tena siri, lakini bado ni tatizo." — Massimo Pallottino, kufupishwa kutoka <em>Etruscologia</em></blockquote>
-
   <p>Kufikia karne ya 1 BK, Kietruscan kilikuwa kinakufa. Mfalme Claudius (10 KK–54 BK) aliandika historia ya juzuu 20 sasa iliyopotea ya Wa-Etruscan, <em>Tyrrhenika</em>, na alijaribu kuhifadhi lugha; mara nyingine huitwa mtu wa mwisho aliyeweza kuisoma. Kwa kifo chake lugha iliteleza nje ya kumbukumbu ya kuishi — ikituachia maandishi 13,000 na mummy mmoja aliyefungwa kwa sherehe kama kitabu cha shamba cha ustaarabu uliofundisha Roma jinsi ya kuwa Roma.</p>
     `
   },
@@ -475,7 +473,7 @@ window.TRIVIA_I18N['sw'] = {
     title: 'Pāṇini — mwanasarufi wa Kisanskrit aliyetangulia sayansi ya kompyuta kwa miaka 2,400',
     summary: 'Karibu 500 KK, msomi mmoja wa Kihindi aliandika sarufi rasmi ya Kisanskrit yenye sheria 4,000 yenye ukali kiasi kwamba mwaka 1933 Leonard Bloomfield aliweza kuandika kwamba "hakuna lugha nyingine, hadi leo, iliyowahi kuelezwa kwa ukamilifu kama huo" — nayo ni babu wa moja kwa moja wa jinsi compilers huparse code leo.',
     body: `
-  <p>Ikiwa ulipaswa kuchagua kitabu kimoja cha kupeleka nyuma kwa mashine ya wakati ili kuchanganya mwanasayansi wa kompyuta wa karne ya 20, ingekuwa vigumu kufanya bora kuliko <strong>Aṣṭādhyāyī</strong> — "Sura Nane" za <strong>Pāṇini</strong>. Imetungwa katika kile ambacho sasa ni Pakistan kaskazini-magharibi karibu <strong>500–400 KK</strong>, Aṣṭādhyāyī ni maelezo kamili ya kizazi cha Kisanskrit katika chini ya <strong>sūtras 4,000</strong> (sheria fupi za maandalisho), zilizojaa sana hadi sarufi nzima inatoshea katika karibu kurasa 35 za kuchapishwa za kisasa. Wanaisimu wa kisasa, kutoka Leonard Bloomfield hadi Paul Kiparsky na Noam Chomsky, wote wameiita sarufi rasmi ya kisasa zaidi ya lugha yoyote iliyowahi kutolewa kabla ya karne ya 20.</p>
+  <p>Imetungwa katika eneo ambalo sasa ni Pakistan kaskazini-magharibi karibu <strong>500–400 KK</strong>, <strong>Aṣṭādhyāyī</strong> — "Sura Nane" za <strong>Pāṇini</strong> — hutoa maelezo ya kizazi cha Kisanskrit katika chini ya <strong>sūtras 4,000</strong> (sheria fupi za maandalisho). Sarufi nzima inatoshea katika karibu kurasa 35 za uchapishaji wa kisasa. Wanaisimu kama Leonard Bloomfield, Paul Kiparsky na Noam Chomsky wamejadili uchanganuzi wake rasmi kuhusiana na kazi za baadaye katika isimu na sayansi ya kompyuta.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="sa" data-zoom="7">🌍 Onyesha Kisanskrit kwenye ramani</button>
@@ -797,8 +795,6 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Aliyechangia zaidi katika kuifumbua alikuwa <strong>Nikolai Nevsky</strong> (1892–1937), mtaalamu wa Kirusi wa Japani ambaye alitumia miaka ya 1920 nchini Japani na Taiwan. Alianza kushughulikia hazina ya Khara-Khoto mwaka 1925, akiwa bado anaishi Japani, na baada ya kurejea Leningrad mwaka 1929 alitumia muongo uliofuata kufumbua muundo wake wa kifonolojia na kutunga kamusi ya kwanza ya Tangut–Kirusi. Kazi yake bora, <em>Tangutskaya Filologiya</em>, ilichapishwa baada ya kifo mwaka 1960 — Nevsky mwenyewe alikuwa amepigwa risasi katika Usafishaji Mkubwa wa Stalin mwaka 1937. Alipewa Tuzo ya Lenin baada ya kifo.</p>
 
-  <blockquote>"Kila herufi ya Tangut ni tatizo dogo la usanifu: viboko havizungumzi tu sauti, vinatandaza mraba." — kufupishwa kutoka kwa M. V. Sofronov</blockquote>
-
   <p>Baadaye <strong>Mikhail Sofronov</strong> aliboresha ufaurudisho wa kifonolojia katika miaka ya 1960; <strong>Ksenia Kepping</strong> alifanya kazi juu ya sarufi na maandiko ya sherehe; leo watafiti huko Beijing, Kyoto, Taipei na St Petersburg wanaendelea kuchapisha matoleo ya nakala zilizoorodheshwa hivi karibuni. Maswali muhimu yanabaki — mfumo halisi wa toni, nafasi ya ndani zaidi ya kigenetiki ndani ya Kichinochibetan, maana ya makumi ya herufi nadra ambazo zinatokea mara moja au mbili tu katika kamusi.</p>
 
   <p>Tangut ni kumbusho kwamba "lugha iliyokufa" mara chache ni hukumu ya mwisho. Hati iliyobuniwa katika muongo mmoja, iliyotumika na mamilioni, iliyosahaulika kwa karne nne, bado inaweza kuhamasishwa kurudi kwa usemi — kwa kuwa mtu anakaidi vya kutosha kutumia maisha ya muda mrefu kwenye meza za uimbo.</p>
@@ -834,8 +830,6 @@ window.TRIVIA_I18N['sw'] = {
   </div>
 
   <p>Madai mengi ya uchakuzi yamechapishwa — kwamba Minoan ni Kisemiti, Kianatolia, Kityrsenian, Kiindo-Ulaya, hata Proto-Basque. Hakuna iliyoshawishi uwanja. Vizuizi vikuu ni (1) kamusi ndogo na inayorudiwa, (2) kutokuwepo kwa maandiko yoyote ya lugha mbili marefu vya kutosha kuanzisha sarufi, na (3) shaka kwamba Minoa inaweza tu kuwa <strong>pekee</strong> — lugha bila ndugu wanaoendelea popote.</p>
-
-  <blockquote>"Tunaweza kutamka maneno ya Waminoa. Tu hatujui yanamaanisha nini." — kufupishwa kutoka kwa John Chadwick, The Decipherment of Linear B</blockquote>
 
   <p>Linganisha hali na hati ya <strong>Kicypro-Minoan</strong> ya Enzi ya Shaba ya Kupro ambayo bado haijachakuliwa, au <strong>Cretan hieroglyphs</strong> za zamani zaidi ambazo Linear A yenyewe inaonekana kuwa imeegemea. Kuandika kwa Enzi ya Shaba ya Aegean ni msitu mdogo wa hati zinazohusiana zinazosimba angalau lugha mbili na pengine tatu au nne tofauti — na moja tu kati yao, mtoto wa baadaye Linear B, imefanikiwa.</p>
 
@@ -875,8 +869,6 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Kwa kuvutia, wasemaji wadogo wa Kiaymara-Kihispania wa lugha mbili huashiria zaidi katika muundo wa Kihispania (wakati ujao mbele), ikipendekeza kwamba ramani ya zamani ya kimwanya inaandikwa upya hatua kwa hatua na mawasiliano na lugha za Indo-Ulaya za biashara pana. Kiaymara kinaweza kugeuka kuwa mojawapo ya hifadhi za mwisho za sitiari ambayo lugha zingine za Andean na Amazon zilishiriki.</p>
 
-  <blockquote>"Kile umeona kwa macho yako mwenyewe unaweza kuweka mbele yako; kile usichokiona lazima ubaki nyuma yako." — kufupishwa kwa mzee wa Kiaymara, katika Núñez & Sweetser 2006</blockquote>
-
   <p>Tokeo lilikuwa muhimu mbali zaidi ya isimu ya Andean. Pamoja na kazi ya George Lakoff juu ya sitiari ya dhana na majaribio ya Lera Boroditsky juu ya wakati na lugha, kesi ya Aymara ikawa msingi wa hoja ya kisasa kwamba <strong>sitiari za kimsingi za kimwanya kwa nyanja za abstract hazipo kila mahali</strong> — zimeundwa kwa kina na utamaduni na uzoefu wa kibinafsi. Wakati, abstraction inayodumu zaidi tuliyo nayo, huenda hata haielekei njia sawa kwa kila mtu.</p>
 
   <p>Kiaymara pia ni cha kuvutia kwa njia zingine: <em>mantiki ya thamani-tatu</em> iliyojadiliwa na wanasayansi wa kompyuta katika miaka ya 1980, mfumo wa lazima wa ushahidi sio tofauti na wa Tuyuca, na eneo la uchapishaji wa lugha asili hai. Lakini wakati uliopita unaoangalia mbele unabaki kuwa zawadi yake maarufu zaidi kwa sayansi ya fikra.</p>
@@ -914,8 +906,6 @@ window.TRIVIA_I18N['sw'] = {
   </div>
 
   <p>Tuyuca si ya kipekee. <strong>Ushahidi</strong> kama kategoria ya kisarufi unapatikana katika familia ya Tukanoan, katika Kiquechua, Kiaymara, Kituruki (maarufu <em>-miş</em>), Kibulgaria, Kikorea, lugha nyingi za Kitibetan-Kiburma, na katika Amazonia. Utafiti wa kityplogia wa <strong>Alexandra Aikhenvald</strong> (2004) ulikusanya karibu lugha 500 zenye ushahidi uliokuwa wa kisarufi. Lakini Tuyuca inajitokeza kwa <em>granularity</em> ya mfumo wake — tofauti tano ambapo lugha nyingi hufanya mbili au tatu — na kwa kuwa miongoni mwa za kwanza kabisa kuelezewa kwa makini.</p>
-
-  <blockquote>"Katika Tuyuca, huwezi kudanganya kwa raha. Kila madai huvaa saini ya jinsi yalivyopatikana." — kufupisha Aikhenvald 2004</blockquote>
 
   <p>Athari kwa fikra zinajadiliwa. Baadhi ya watafiti, ikiwa ni pamoja na warithi wa kiakili wa Lev Vygotsky na Aikhenvald mwenyewe, hudai kwamba kualamisha kawaida chanzo cha habari kunaendeleza mwelekeo tofauti kwa ushahidi na uvumi. Wengine wanaona kwamba wasemaji wa Kiingereza wanaweza kueleza tofauti zile zile — tu hawalazimishwi. Makubaliano ya sasa yako mahali fulani katikati: kuwekwa kwa kisarufi kwa lazima hufanya kategoria iwe wazi kifikra, lakini haifanyi wasemaji wa lugha zingine washindwe na tofauti zile zile.</p>
 
@@ -958,8 +948,6 @@ window.TRIVIA_I18N['sw'] = {
   <p>Tokeo la kifikra, lililothibitishwa na Levinson, John Haviland na wenzake katika Taasisi ya Max Planck, ni la kushangaza. Wasemaji wa Guugu Yimithirr huhifadhi hisia isiyovunjika ya mwelekeo wao kwa <strong>dead-reckoning (urambazaji wa makadirio)</strong>. Katika majaribio, wanaweza kuelekeza kwa usahihi mahali pa mbali (bahari, makazi ya jirani, nyumba ya jamaa kilomita mia kadhaa mbali) bila kujali kama wameketi katika chumba kisicho na madirisha, wamefungwa kupofusha, baada ya kuendeshwa katika mizunguko, au chini ya pango. Kompasi yao ya kardinali haijazimika tu.</p>
 
   <p>Hii si ujuzi maalum wa wachache wazee. Miongoni mwa wasemaji wazee wenye ufasaha zaidi, ni <strong>sifa ya jamii nzima ya wasemaji</strong>, iliyopatikana utotoni. Watoto hawaupati mfumo huu kwa mpigo mmoja bali hatua kwa hatua: utafiti wa uwandani wa Lourdes de León kwa wasemaji wachanga huko Hopevale, kama alivyoripoti Haviland, unaonyesha njia inayoanza kwa neno kama <em>naga</em> kusikika kwa utata kama "kule", kisha kuhusishwa na mahali maalum kama ufuo, kisha eneo zima, na mwishoni tu kuwa utofautishaji dhahania wa pande nne. Mashine ya kiakili imejengwa na lugha na inafanyiwa mazoezi mara kwa mara na hitaji la kuzungumza juu yake.</p>
-
-  <blockquote>"Huwezi kuzungumza Guugu Yimithirr bila kujua kila wakati kaskazini iko wapi." — kufupisha Stephen Levinson, 1997</blockquote>
 
   <p>Mifumo linganishi ya marejeleo kamili sasa inajulikana kutoka <strong>Kitzeltal Maya</strong> nchini Mexico (mhimili wa juu/chini), <strong>Kimarshall</strong> katika Micronesia (kuelekea baharini/kuelekea nchi kavu), <strong>Kibalinese</strong> (kuelekea milimani/kuelekea baharini), na lugha nyingi za Aborigine wa Australia — Kuuk Thaayorre, Warlpiri na Arrernte miongoni mwao. Mjadala uliopaikwa na Sapir–Whorf juu ya kama lugha huongoza fikra ya kimwanya au kinyume chake bado uko hai, lakini ukweli wa kihalisi ni usiopingika: wasemaji wa lugha za marejeleo kamili hutekeleza kazi za mwelekeo zisizo za kimaneno kwa njia inayoweza kupimwa tofauti na wasemaji wa lugha za marejeleo ya egocentric.</p>
 
@@ -1009,8 +997,6 @@ window.TRIVIA_I18N['sw'] = {
   <p>Vitenzi vya Mohawk pia hualamisha kwa lazima <strong>kiambishi cha viwakilishi</strong> changamano kinachounganisha mtu, nambari na jinsia ya mhusika na kitu katika morpheme moja ya portmanteau. Kuna viambishi <strong>58</strong> kama hivyo katika paradigm, vikitofautisha kwa mfano "Mimi → wewe (sg)" kutoka "Mimi → ninyi (pl)" kutoka "wewe (sg) → mimi" — kila moja silabi moja. Kujifunza meza ya kiambishi kunazingatiwa kwa mapana kuwa mlima mwinukoje katika lugha.</p>
 
   <p>Polysynthesis inazua swali la kina kwa typolojia ya kiisimu. Je, "neno" la Mohawk ni aina sawa ya kitengo na "neno" la Kiingereza? Mark Baker, katika <em>The Polysynthesis Parameter</em> yake yenye ushawishi (1996), alidai kwamba lugha za polysynthetic huzitii vikwazo vyake vya kisintaksia — kwa mfano, hakuna hoja huru za viwakilishi zinazohitajika kwa sababu kitenzi tayari kinazibeba — na kwamba zinawakilisha mpangilio wa parametric mbadala kwa lugha kama Kiingereza. Wengine, ikiwa ni pamoja na Mithun, hupendelea kuelezea Mohawk kwa maneno yake mwenyewe badala ya kuifaa katika parameter ya ulimwengu wote.</p>
-
-  <blockquote>"Katika Mohawk, kitenzi ni ukumbi mdogo wa michezo. Watendaji huingia kabla ya pazia kupanda na ni nadra kuondoka jukwaani." — kufupisha Marianne Mithun, 1999</blockquote>
 
   <p>Harakati ya uhuishaji ni muhimu hapa. Shule za kuzama za Kanien'kéha — Shule ya Kuokoa ya Kahnawà:ke na Shule ya Uhuru ya Akwesasne ndizo zinazojulikana zaidi — zimezalisha kizazi kipya cha wasemaji ambao hushughulikia meza hiyo ya viambishi 58 kwa ufasaha wa kuzaliwa. Mohawk inaonyesha kuwa polysynthesis si fossil ya zamani; ni mkakati wa kisarufi unaoishi, unaoeleza sawa na mkakati wowote wa kuchambua, na sasa unajengwa upya kwa makusudi na jamii zilizoazimia kuwa <em>Kanien'kéha</em> itaendelea.</p>
 

@@ -35,7 +35,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Klaim Everett <strong>diperdebatkan dengan sengit</strong>. Peneliti kemudian, termasuk Andrew Nevins, David Pesetsky, dan Cilene Rodrigues, berargumen bahwa Pirahã memang memiliki rekursi — hanya jarang digunakan — dan bahwa fakta angka dapat dijelaskan tanpa konsekuensi kognitif yang eksotis. Everett membalas; perdebatan masih terbuka.</p>
 
-<p>Yang lebih sedikit kontroversinya, meski masih diperdebatkan, adalah norma budaya yang membatasi pembicaraan pada peristiwa yang dialami langsung dan transmisi multi-saluran Pirahã yang menonjol. Pihak mana pun yang menang dalam perang rekursi, Pirahã telah melakukan apa yang sangat sedikit bahasa pernah lakukan: memaksa para linguis untuk bertanya, sekali lagi, apakah bahasa membentuk pikiran — atau pikiran membentuk bahasa.</p>
+<p>Yang kurang diperdebatkan, meski tetap dibahas, adalah norma budaya yang membatasi pembicaraan pada peristiwa yang dialami langsung serta transmisi multi-saluran Pirahã yang mencolok. Tidak peduli pihak mana yang menang dalam perang rekursi, Pirahã telah melakukan apa yang sangat sedikit bahasa pernah lakukan: membuat para linguis kembali mempertanyakan apakah bahasa membentuk pikiran — atau pikiran membentuk bahasa.</p>
     `
   },
   'silbo-gomero': {
@@ -280,7 +280,7 @@ window.TRIVIA_I18N['id'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Survei sabuk klik Afrika selatan</button>
 </div>
 
-<p>Apakah klik adalah fitur kuno yang diwarisi dari populasi Afrika yang sangat purba, penemuan regional yang diperkuat oleh kontak, atau beberapa kombinasi keduanya, masih diperdebatkan. Yang tidak diperdebatkan adalah bahwa mereka adalah <strong>fonem yang berfungsi penuh</strong>, dipelajari oleh anak-anak dengan kemudahan yang sama seperti konsonan lainnya — pengingat bahwa "eksotis" hanyalah masalah di mana Anda kebetulan tumbuh dewasa.</p>
+<p>Apakah klik adalah fitur kuno yang diwarisi dari populasi Afrika yang sangat purba, penemuan regional yang diperkuat oleh kontak, atau beberapa kombinasi keduanya, masih diperdebatkan. Yang tidak diperdebatkan adalah bahwa mereka adalah <strong>fonem yang berfungsi penuh</strong>, dipelajari oleh anak-anak dengan kemudahan yang sama seperti konsonan lainnya</p>
     `
   },
   'basque-isolate': {
@@ -383,8 +383,6 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Studi Etruska modern pada dasarnya didirikan oleh arkeolog Italia <strong>Massimo Pallottino</strong> (1909–1995), yang <em>Etruscologia</em> (pertama diterbitkan 1942, direvisi hingga edisi ketujuh pada 1984) menyetel ulang bidang itu pada "metode kombinatorial": cocokkan pola dalam Etruska itu sendiri, perlakukan sumber klasik Yunani dan Romawi sebagai kebisingan latar belakang daripada alat bantu terjemahan langsung, dan terima bahwa kita akan maju satu inskripsi pada satu waktu.</p>
 
-<blockquote>"Etruska bukan lagi misteri, tetapi tetap menjadi masalah." — Massimo Pallottino, parafrase dari <em>Etruscologia</em></blockquote>
-
 <p>Pada abad ke-1 M, Etruska sedang sekarat. Kaisar Claudius (10 SM–54 M) menulis sejarah 20 jilid Etruska yang kini hilang, <em>Tyrrhenika</em>, dan mencoba melestarikan bahasa itu; ia kadang disebut orang terakhir yang dapat membacanya. Dengan kematiannya, bahasa itu meluncur keluar dari ingatan hidup — meninggalkan kita 13.000 inskripsi dan satu mumi yang dibungkus ritual sebagai buku catatan lapangan sebuah peradaban yang mengajari Roma cara menjadi Roma.</p>
     `
   },
@@ -461,7 +459,7 @@ window.TRIVIA_I18N['id'] = {
     title: 'Pāṇini — tata bahasawan Sanskerta yang mendahului ilmu komputer sejauh 2.400 tahun',
     summary: 'Sekitar 500 SM, seorang sarjana India menulis tata bahasa formal Sanskerta 4.000 aturan yang begitu ketat sehingga pada 1933 Leonard Bloomfield dapat menulis bahwa "tidak ada bahasa lain, sampai hari ini, yang pernah dideskripsikan sesempurna itu" — dan ia adalah leluhur langsung bagaimana kompiler mengurai kode hari ini.',
     body: `
-<p>Jika Anda harus memilih satu buku untuk dikirim kembali dalam mesin waktu untuk membingungkan ilmuwan komputer abad ke-20, akan sulit melakukan yang lebih baik daripada <strong>Aṣṭādhyāyī</strong> — "Delapan Bab" karya <strong>Pāṇini</strong>. Disusun di tempat yang sekarang adalah Pakistan barat laut sekitar <strong>500–400 SM</strong>, Aṣṭādhyāyī adalah deskripsi generatif lengkap Sanskerta dalam hanya kurang dari <strong>4.000 sūtra</strong> (aturan aforistik ringkas), dipadatkan begitu rapat sehingga seluruh tata bahasa muat dalam kira-kira 35 halaman cetak modern. Linguis modern, dari Leonard Bloomfield hingga Paul Kiparsky dan Noam Chomsky, semuanya menyebutnya sebagai tata bahasa formal paling canggih dari bahasa apa pun yang pernah dihasilkan sebelum abad ke-20.</p>
+<p>Disusun di wilayah yang kini menjadi Pakistan barat laut sekitar <strong>500–400 SM</strong>, <strong>Aṣṭādhyāyī</strong> — "Delapan Bab" karya <strong>Pāṇini</strong> — menyajikan deskripsi generatif Sanskerta dalam kurang dari <strong>4.000 sūtra</strong> (aturan aforistik ringkas). Seluruh tata bahasanya muat dalam kira-kira 35 halaman cetak modern. Linguis seperti Leonard Bloomfield, Paul Kiparsky, dan Noam Chomsky membahas analisis formalnya dalam kaitannya dengan karya-karya berikutnya di bidang linguistik dan ilmu komputer.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="sa" data-zoom="7">🌍 Tampilkan Sanskerta di peta</button>
@@ -773,8 +771,6 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Orang yang paling berjasa memecahkannya adalah <strong>Nikolai Nevsky</strong> (1892–1937), seorang Japanologis Rusia yang menghabiskan 1920-an di Jepang dan Taiwan. Ia mulai menggarap timbunan Khara-Khoto pada 1925, ketika masih tinggal di Jepang, dan setelah kembali ke Leningrad pada 1929 ia menghabiskan satu dekade berikutnya untuk mengurai struktur fonologisnya dan menyusun kamus Tangut–Rusia yang pertama. Karya agungnya, <em>Tangutskaya Filologiya</em>, diterbitkan secara anumerta pada 1960 — Nevsky sendiri telah ditembak dalam Pembersihan Besar Stalin pada 1937. Ia dianugerahi Penghargaan Lenin setelah kematiannya.</p>
 
-<blockquote>"Setiap karakter Tangut adalah masalah arsitektur kecil: goresan tidak hanya mengeja bunyi, mereka mengubin persegi." — parafrase dari M. V. Sofronov</blockquote>
-
 <p>Kemudian <strong>Mikhail Sofronov</strong> menyempurnakan rekonstruksi fonologis pada 1960-an; <strong>Ksenia Kepping</strong> mengerjakan tata bahasa dan teks ritual; hari ini peneliti di Beijing, Kyoto, Taipei, dan St Petersburg terus menerbitkan edisi manuskrip yang baru dikatalogkan. Pertanyaan signifikan tetap ada — sistem nada yang tepat, posisi genetis lebih dalam dalam Sino-Tibet, makna lusinan karakter langka yang terjadi hanya sekali atau dua kali dalam korpus.</p>
 
 <p>Tangut adalah pengingat bahwa "bahasa mati" jarang merupakan vonis akhir. Aksara yang ditemukan dalam satu dekade, digunakan oleh jutaan, dilupakan selama empat abad, masih dapat dibujuk kembali ke tuturan — asalkan seseorang cukup keras kepala untuk menghabiskan seumur hidup pada tabel rima.</p>
@@ -809,8 +805,6 @@ window.TRIVIA_I18N['id'] = {
 </div>
 
 <p>Banyak klaim pendekoden telah diterbitkan — bahwa Minoa adalah Semit, Anatolia, Tirrenia, Indo-Eropa, bahkan Proto-Basque. Tidak ada yang meyakinkan bidang itu. Hambatan utama adalah (1) korpus kecil dan berulang, (2) tidak adanya teks dwibahasa apa pun yang cukup panjang untuk memuat tata bahasa, dan (3) kecurigaan bahwa Minoa mungkin hanya merupakan <strong>isolat</strong> — bahasa tanpa kerabat yang bertahan di mana pun.</p>
-
-<blockquote>"Kita dapat melafalkan kata-kata orang Minoa. Kita hanya tidak tahu apa artinya." — parafrase dari John Chadwick, The Decipherment of Linear B</blockquote>
 
 <p>Bandingkan situasi dengan aksara <strong>Cypro-Minoan</strong> Siprus Zaman Perunggu yang masih belum terpecahkan, atau <strong>hieroglif Kreta</strong> yang bahkan lebih tua di mana Linear A sendiri tampaknya didasarkan. Tulisan Aegean Zaman Perunggu adalah hutan kecil aksara terkait yang mengkodekan setidaknya dua dan mungkin tiga atau empat bahasa berbeda — dan hanya satu di antaranya, Linear B yang datang terlambat, yang telah berhasil dipecahkan.</p>
 
@@ -849,8 +843,6 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Menariknya, penutur dwibahasa Aymara–Spanyol yang lebih muda memberi isyarat lebih dalam pola Spanyol (masa depan di depan), menunjukkan pemetaan spasial yang lebih tua sedang ditimpa secara bertahap oleh kontak dengan bahasa Indo-Eropa dengan pertukaran yang lebih luas. Aymara mungkin ternyata menjadi salah satu reservoir terakhir dari metafora yang pernah dimiliki bersama oleh bahasa Andes dan Amazon lainnya.</p>
 
-<blockquote>"Apa yang telah Anda lihat dengan mata Anda sendiri dapat Anda tempatkan di depan Anda; apa yang belum Anda lihat harus tetap di belakang Anda." — parafrase dari sesepuh Aymara, dalam Núñez & Sweetser 2006</blockquote>
-
 <p>Temuan ini penting jauh melampaui linguistik Andes. Bersama dengan karya George Lakoff tentang metafora konseptual dan eksperimen Lera Boroditsky tentang waktu dan bahasa, kasus Aymara menjadi landasan argumen modern bahwa <strong>metafora spasial dasar untuk domain abstrak tidak universal</strong> — mereka dibentuk dalam-dalam oleh budaya dan pengalaman tubuh. Waktu, abstraksi paling tak henti-hentinya yang kita miliki, bahkan mungkin tidak menunjuk ke arah yang sama untuk semua orang.</p>
 
 <p>Aymara juga luar biasa dalam hal lain: <em>logika tiga-nilai</em> yang diperdebatkan oleh ilmuwan komputer pada 1980-an, sistem evidensial wajib yang tidak berbeda dengan Tuyuca, dan scene penerbitan bahasa pribumi yang hidup. Tetapi masa lalu yang menghadap ke depan tetap menjadi hadiahnya yang paling terkenal kepada ilmu kognitif.</p>
@@ -886,8 +878,6 @@ window.TRIVIA_I18N['id'] = {
 </div>
 
 <p>Tuyuca tidaklah unik. <strong>Evidensialitas</strong> sebagai kategori gramatikal ditemukan di seluruh keluarga Tukanoan, dalam Quechua, Aymara, Turki (terkenal <em>-miş</em>), Bulgaria, Korea, banyak bahasa Tibet-Burma, dan di seluruh Amazon. Survei tipologis <strong>Alexandra Aikhenvald</strong> (2004) mengumpulkan hampir 500 bahasa dengan evidensial yang tergrammatisasi. Tetapi Tuyuca menonjol untuk <em>granularitas</em> sistemnya — lima perbedaan di mana sebagian besar bahasa membuat dua atau tiga — dan untuk menjadi di antara yang pertama dideskripsikan dengan cermat.</p>
-
-<blockquote>"Dalam Tuyuca, Anda tidak dapat berbohong dengan nyaman. Setiap klaim memakai tanda tangan bagaimana ia diperoleh." — parafrase Aikhenvald 2004</blockquote>
 
 <p>Implikasi untuk kognisi diperdebatkan. Beberapa peneliti, termasuk pewaris intelektual Lev Vygotsky dan Aikhenvald sendiri, berargumen bahwa secara kebiasaan menandai sumber informasi menumbuhkan orientasi berbeda terhadap bukti dan desas-desus. Yang lain mencatat bahwa penutur bahasa Inggris dapat mengekspresikan perbedaan yang sama — mereka hanya tidak <em>dipaksa</em>. Konsensus saat ini ada di antara: gramatikalisasi wajib membuat kategori menjadi menonjol secara kognitif, tetapi tidak membuat penutur bahasa lain tidak mampu membuat perbedaan yang sama.</p>
 
@@ -929,8 +919,6 @@ window.TRIVIA_I18N['id'] = {
 <p>Konsekuensi kognitif, didokumentasikan oleh Levinson, John Haviland, dan rekan-rekan di Institut Max Planck, mencolok. Penutur Guugu Yimithirr mempertahankan rasa orientasi yang tak terputus melalui <strong>dead-reckoning (navigasi perkiraan)</strong>. Dalam eksperimen, mereka dapat menunjuk dengan akurat ke tempat-tempat jauh (laut, pemukiman tetangga, rumah kerabat ratusan kilometer jauhnya) terlepas dari apakah mereka duduk di ruangan tanpa jendela, ditutup matanya, setelah dikendarai berputar-putar, atau di dasar gua. Kompas mata angin mental mereka sekadar tidak mati.</p>
 
 <p>Ini bukan keterampilan khusus beberapa sesepuh. Di kalangan penutur tua yang paling fasih, ini adalah <strong>ciri seluruh komunitas tutur</strong>, yang terserap sejak masa kanak-kanak. Anak-anak menguasai sistem ini secara bertahap, bukan sekaligus: kerja lapangan Lourdes de León dengan penutur cilik di Hopevale, sebagaimana dilaporkan Haviland, menelusuri jalur dari mendengar kata seperti <em>naga</em> sebagai "di sana" yang samar, lalu mengaitkannya dengan tempat tertentu seperti pantai, kemudian dengan suatu kawasan, dan baru pada akhirnya sebagai pertentangan arah mata angin yang abstrak. Mesin mental dibangun oleh bahasa dan terus-menerus dilatih oleh tuntutan untuk membicarakannya.</p>
-
-<blockquote>"Anda tidak dapat berbicara Guugu Yimithirr tanpa selalu mengetahui di mana utara." — parafrase Stephen Levinson, 1997</blockquote>
 
 <p>Sistem kerangka absolut yang sebanding sekarang dikenal dari <strong>Tzeltal Mayan</strong> di Meksiko (sumbu menanjak/menurun), <strong>Marshall</strong> di Mikronesia (ke arah laut/darat), <strong>Bali</strong> (ke arah gunung/laut), dan banyak bahasa Aborigin Australia — Kuuk Thaayorre, Warlpiri, dan Arrernte di antaranya. Debat ber-Sapir–Whorf tentang apakah bahasa mengarahkan kognisi spasial atau sebaliknya tetap hidup, tetapi fakta empiris tidak diperdebatkan: penutur bahasa kerangka absolut melakukan tugas orientasi non-verbal dengan cara yang dapat diukur berbeda dari penutur bahasa kerangka egosentris.</p>
 
@@ -979,8 +967,6 @@ window.TRIVIA_I18N['id'] = {
 <p>Verba Mohawk juga wajib menandai <strong>awalan pronominal</strong> kompleks yang menggabungkan persona, jumlah, dan gender subjek dan objek menjadi satu morfem portmanteau. Ada <strong>58</strong> awalan seperti itu dalam paradigma, membedakan misalnya "Saya → Anda (tunggal)" dari "Saya → Anda (jamak)" dari "Anda (tunggal) → Saya" — masing-masing satu suku kata. Mempelajari tabel awalan secara luas dianggap sebagai pendakian tercuram dalam bahasa.</p>
 
 <p>Polisintesis mengangkat pertanyaan dalam tipologi linguistik. Apakah "kata" Mohawk adalah jenis unit yang sama dengan "kata" bahasa Inggris? Mark Baker, dalam <em>The Polysynthesis Parameter</em> (1996) yang berpengaruh, berargumen bahwa bahasa polisintetis mematuhi kendala sintaksis mereka sendiri — misalnya, tidak ada argumen pronomina independen yang diperlukan karena verba sudah membawanya — dan bahwa mereka mewakili alternatif setelan parametrik untuk bahasa seperti bahasa Inggris. Yang lain, termasuk Mithun, lebih suka mendeskripsikan Mohawk dengan istilahnya sendiri daripada memasukkannya ke parameter universalis.</p>
-
-<blockquote>"Dalam Mohawk, verba adalah teater kecil. Para aktor masuk sebelum tirai naik dan jarang meninggalkan panggung." — parafrase Marianne Mithun, 1999</blockquote>
 
 <p>Gerakan kebangkitan penting di sini. Sekolah imersi Kanien'kéha — Kahnawà:ke Survival School dan Akwesasne Freedom School adalah yang paling dikenal — telah menghasilkan generasi baru penutur yang menangani tabel pronominal 58-sel itu dengan kefasihan asli. Mohawk menunjukkan bahwa polisintesis bukan fosil masa lalu; ia adalah strategi gramatikal yang hidup, sama ekspresifnya dengan bahasa analitis mana pun, dan sekarang dibangun ulang secara sadar oleh komunitas yang bertekad bahwa <em>Kanien'kéha</em> akan berlanjut.</p>
 

@@ -29,11 +29,11 @@ window.TRIVIA_I18N['vi'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="mother" data-code="myp">👩 Xem "Mẹ" trong Pirahã</button>
 </div>
 
-<p>Kỳ lạ hơn nữa, Pirahã là một trong số ít ngôn ngữ trên thế giới có thể được truyền qua <em>năm kênh song song</em>: nó có thể được <strong>nói, huýt sáo, ngân nga, hát lên hoặc hét lên</strong>. Vì Pirahã chỉ có ba nguyên âm và tám phụ âm, ngữ điệu (cao độ và nhịp điệu) của nó mang gánh nặng thông tin lớn bất thường — đủ để các bà mẹ có thể ngân nga cả câu cho con mà không phát âm một phụ âm nào.</p>
+<p>Pirahã có thể được truyền qua năm kênh song song: nó có thể được nói, huýt sáo, ngân nga, hát lên hoặc hét lên. Vì Pirahã chỉ có ba nguyên âm và tám phụ âm, ngữ điệu (cao độ và nhịp điệu) của nó mang gánh nặng thông tin lớn — các bà mẹ có thể ngân nga câu đầy đủ cho con mà không phát âm một phụ âm nào.</p>
 
 <blockquote>"Người Pirahã giao tiếp bằng cách hát, huýt sáo và ngân nga gần nhiều ngang với khi họ dùng phụ âm và nguyên âm." — Daniel Everett, <em>Current Anthropology</em> 46(4), 2005, tr. 622</blockquote>
 
-<p>Các tuyên bố của Everett bị <strong>tranh cãi gay gắt</strong>. Các nhà nghiên cứu sau này, bao gồm Andrew Nevins, David Pesetsky và Cilene Rodrigues, đã lập luận rằng Pirahã có đệ quy — chỉ là hiếm khi được sử dụng — và rằng các sự kiện về số có thể được giải thích mà không cần các hệ quả nhận thức kỳ lạ. Everett đã phản pháo; cuộc tranh luận vẫn đang tiếp diễn.</p>
+<p>Các tuyên bố của Everett còn trong cuộc tranh luận. Các nhà nghiên cứu sau này, bao gồm Andrew Nevins, David Pesetsky và Cilene Rodrigues, đã lập luận rằng Pirahã có đệ quy — mặc dù hiếm khi được sử dụng — và rằng các sự kiện về số có thể được giải thích mà không cần những hệ quả nhận thức bất thường. Everett đã phản ứng; cuộc tranh luận vẫn tiếp tục.</p>
 
 <p>Ít bị tranh cãi hơn, dù vẫn còn được thảo luận, là chuẩn mực văn hóa giới hạn lời nói trong những điều đã trải nghiệm trực tiếp và phương thức truyền tải đa kênh đáng chú ý của Pirahã. Bất kể bên nào thắng trong cuộc chiến đệ quy, Pirahã đã làm được điều mà rất ít ngôn ngữ làm được: một lần nữa buộc các nhà ngôn ngữ học phải đặt câu hỏi liệu ngôn ngữ định hình tư duy — hay tư duy định hình ngôn ngữ.</p>
     `,
@@ -48,7 +48,7 @@ window.TRIVIA_I18N['vi'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="28.10" data-lng="-17.20" data-zoom="7">🗺️ Bay đến La Gomera</button>
 </div>
 
-<p>Silbo không phải là mật mã hay tập hợp tín hiệu. Đó là một <strong>thanh vực đầy đủ của tiếng Tây Ban Nha</strong>: về nguyên tắc, mọi từ tiếng Tây Ban Nha đều có thể được huýt sáo, và một silbador thành thạo có thể tiến hành cuộc trò chuyện không giới hạn về thời tiết, giá gia súc hay trận bóng đá tối qua. Bí quyết là tiếng huýt sáo rút gọn toàn bộ kho nguyên âm và phụ âm của tiếng Tây Ban Nha xuống một tập hợp <em>cử chỉ cao độ</em> nhỏ hơn nhiều:</p>
+<p>Silbo không phải là mật mã hay tập hợp tín hiệu. Đó là một <strong>thanh vực đầy đủ của tiếng Tây Ban Nha</strong>: về nguyên tắc, mọi từ tiếng Tây Ban Nha đều có thể được huýt sáo, và một silbador thành thạo có thể tiến hành cuộc trò chuyện không giới hạn về thời tiết, giá gia súc hay trận bóng đá tối qua. Bí quyết là tiếng huýt sáo rút gọn toàn bộ kho nguyên âm và phụ âm của tiếng Tây Ban Nha xuống một tập hợp cử chỉ cao độ nhỏ hơn nhiều:</p></p>
 
 <ul>
   <li><strong>Hai "nguyên âm"</strong> phân biệt theo cao độ — một âm cao bao trùm <em>/i, e/</em> của tiếng Tây Ban Nha và một âm thấp bao trùm <em>/a, o, u/</em>.</li>
@@ -76,7 +76,7 @@ window.TRIVIA_I18N['vi'] = {
     `,
   },
   'taa-most-consonants': {
-    title: 'Taa (!Xóõ) — ngôn ngữ có nhiều phụ âm hơn bất kỳ ngôn ngữ nào khác',
+    title: 'Taa (!Xóõ) — hơn 120 phụ âm theo một số cách phân tích',
     summary: 'Được khoảng 2.500 người nói ở biên giới Botswana–Namibia, Taa nén khoảng 160 âm vị riêng biệt — trong đó có hơn 120 phụ âm và cả năm loại click phát triển đầy đủ — vào một kho duy nhất — theo một số đo lường là hệ thống âm thanh lớn nhất từng được mô tả.',
     body: `
 <p>Tiếng Anh chỉ cần 24 phụ âm riêng biệt. <strong>Taa</strong>, còn viết là <em>!Xóõ</em>, có nhiều đến mức các nhà ngôn ngữ học không thống nhất được cách đếm. Công trình đồ sộ năm 1985 của Anthony Traill về phương ngữ ǃXoon Đông cho ít nhất <strong>58 phụ âm âm vị</strong> theo cách tính dè dặt nhất, còn mô tả về sau của dự án DoBeS về phương ngữ ǃXoon Tây cho ít nhất <strong>87</strong> — nhưng các con số tối thiểu đó xuất phát từ việc coi những click phức tạp nhất là tổ hợp phụ âm. Nếu tính mỗi click phức tạp là một âm đoạn duy nhất, kho phụ âm sẽ lên tới khoảng <strong>130</strong> theo tư liệu của Traill và <strong>122</strong> theo tư liệu DoBeS — chính con số mà WALS dẫn ra khi xếp kho âm của Taa là lớn nhất trong mọi ngôn ngữ từng được ghi chép. Đếm theo cách nào thì Taa vẫn giữ kỷ lục.</p>
@@ -110,7 +110,7 @@ window.TRIVIA_I18N['vi'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="-23.5" data-lng="21.5" data-zoom="6">🌵 Phóng to vào Kalahari</button>
 </div>
 
-<p>Taa thường được mô tả là <strong>cực kỳ nguy cấp</strong>. Số ít trẻ em vẫn tiếp thu nó lớn lên cùng với trường học bằng tiếng Tswana và lối sống ngày càng di động. Nếu Taa im lặng trong thế hệ tiếp theo, thế giới mất không chỉ di sản của một cộng đồng mà còn là phòng thí nghiệm tự nhiên giàu nhất duy nhất mà khoa học âm vị học từng có.</p>
+<p>Taa thường được xếp vào nhóm <strong>cực kỳ nguy cấp</strong>. Trẻ em còn học ngôn ngữ này đồng thời theo học các trường dùng tiếng Tswana và sống trong môi trường ngày càng di động. Nếu việc truyền ngôn ngữ giữa các thế hệ bị gián đoạn, cộng đồng sẽ mất dần một phương tiện giao tiếp và nguồn tư liệu về hệ thống âm click phức tạp cũng sẽ thu hẹp.</p>
     `,
   },
   'rotokas-fewest-sounds': {
@@ -242,12 +242,12 @@ window.TRIVIA_I18N['vi'] = {
   <button type="button" class="trivia-action" data-action="panto" data-lat="-25" data-lng="22" data-zoom="4">🌍 Khảo sát vành đai click miền nam châu Phi</button>
 </div>
 
-<p>Liệu click có phải là một đặc điểm cổ xưa được kế thừa từ các quần thể châu Phi cực kỳ cổ đại, một phát minh khu vực được khuếch đại bởi tiếp xúc, hay một số kết hợp của cả hai, vẫn còn tranh luận. Điều không tranh luận là chúng là <strong>các âm vị hoạt động đầy đủ</strong>, được trẻ em học với cùng sự dễ dàng như bất kỳ phụ âm nào khác — một lời nhắc nhở rằng "kỳ lạ" chỉ là vấn đề bạn lớn lên ở đâu.</p>
+<p>Liệu click có phải là một đặc điểm cổ xưa được kế thừa từ các quần thể châu Phi cực kỳ cổ đại, một phát minh khu vực được khuếch đại bởi tiếp xúc, hay một số kết hợp của cả hai, vẫn còn tranh luận. Điều không tranh luận là chúng là <strong>các âm vị hoạt động đầy đủ</strong>, được trẻ em học với cùng sự dễ dàng như bất kỳ phụ âm nào khác</p>
     `,
   },
   'basque-isolate': {
-    title: 'Basque — ngôn ngữ mà châu Âu quên thay thế',
-    summary: 'Ngôn ngữ tiền Ấn-Âu sống sót duy nhất của Tây Âu, được khoảng 750.000 người nói ở Pyrenees — và không liên quan đến bất cứ thứ gì khác trên Trái Đất.',
+    title: 'Basque — một ngôn ngữ Tây Âu chưa xác định được họ hàng',
+    summary: 'Một ngôn ngữ ngoài hệ Ấn-Âu được khoảng 750.000 người sử dụng quanh dãy Pyrenees. Quan hệ với tiếng Aquitania cổ được chấp nhận rộng rãi, nhưng không có họ hàng còn sống nào được xác nhận.',
     body: `
 <p>Khi người La Mã hành quân vào Hispania vào năm 218 trước Công nguyên, họ gặp hàng chục ngôn ngữ. Trong vòng bốn trăm năm, hầu như mỗi ngôn ngữ đã bị thay thế bởi tiếng Latinh — hạt giống của tiếng Tây Ban Nha, Bồ Đào Nha, Catalan, Pháp, và phần còn lại của châu Âu Romance. Hầu như mỗi ngôn ngữ. Ở Pyrenees phía tây, một ngôn ngữ từ chối chết. Người nói nó vẫn tự gọi mình là <em>euskaldunak</em> — nghĩa đen "những người có Basque" — và ngôn ngữ của họ, <strong>Euskara</strong>, là người sống sót cuối cùng của một châu Âu tồn tại trước khi người Ấn-Âu đến.</p>
 
@@ -276,7 +276,7 @@ window.TRIVIA_I18N['vi'] = {
 
 <blockquote>"Hizkuntza bat ez da galtzen ez dakitenek ikasten ez dutelako, dakitenek hitz egiten ez dutelako baizik."<br>"Một ngôn ngữ không bị mất bởi vì những người không biết nó không học — nó bị mất vì những người biết nó ngừng nói." — Joxean Artze</blockquote>
 
-<p>Sự hồi sinh đó đã hoạt động: Basque hiện là đồng-chính thức với tiếng Tây Ban Nha ở Cộng đồng Tự trị Basque, được dạy khắp hệ thống trường học trong ba mô hình đắm chìm (A, B, D), và được sử dụng trên truyền hình, trong văn học, và trực tuyến. Nó vẫn là, như đã là trong hàng nghìn năm, giọng nói tiền Ấn-Âu cứng đầu của Pyrenees phía tây — một viên nang thời gian ngôn ngữ học từ một châu Âu mà chúng ta sẽ không bao giờ nghe được bằng cách khác.</p>
+<p>Tiếng Basque hiện là ngôn ngữ đồng chính thức với tiếng Tây Ban Nha tại Cộng đồng Tự trị Basque. Trường học áp dụng ba mô hình ngôn ngữ A, B và D; tiếng Basque cũng được dùng trên truyền hình, trong văn học và trên mạng. Tiếng chuẩn Euskara Batua và các phương ngữ địa phương đảm nhiệm những vai trò khác nhau trong giáo dục và đời sống hằng ngày.</p>
     `,
   },
   'sumerian-first-writing': {
@@ -345,8 +345,6 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Các nghiên cứu Etruscan hiện đại về cơ bản được thành lập bởi nhà khảo cổ học Ý <strong>Massimo Pallottino</strong> (1909–1995), người có <em>Etruscologia</em> (xuất bản lần đầu năm 1942, sửa chữa đến ấn bản thứ bảy năm 1984) đã thiết lập lại lĩnh vực này theo "phương pháp kết hợp": khớp các mẫu trong chính Etruscan, coi các nguồn cổ điển Hy Lạp và La Mã như tiếng ồn nền hơn là hỗ trợ dịch thuật trực tiếp, và chấp nhận rằng chúng ta sẽ tiến bộ từng bản khắc một.</p>
 
-<blockquote>"Etruscan không còn là một bí ẩn, nhưng nó vẫn là một vấn đề." — Massimo Pallottino, diễn giải từ <em>Etruscologia</em></blockquote>
-
 <p>Đến thế kỷ 1 sau Công nguyên, Etruscan đang chết. Hoàng đế Claudius (10 TCN–54 SCN) đã viết một cuốn lịch sử 20 tập về người Etruscan, <em>Tyrrhenika</em>, hiện đã thất lạc, và cố gắng bảo tồn ngôn ngữ; ông đôi khi được gọi là người đàn ông cuối cùng có thể đọc nó. Với cái chết của ông, ngôn ngữ trượt ra khỏi ký ức sống — để lại cho chúng ta 13.000 bản khắc và một xác ướp được quấn nghi lễ như sổ tay thực địa của một nền văn minh đã dạy Rome cách trở thành Rome.</p>
     `,
   },
@@ -389,10 +387,10 @@ window.TRIVIA_I18N['vi'] = {
     `,
   },
   'sentinelese-unknown': {
-    title: 'Sentinelese — ngôn ngữ chúng ta chưa bao giờ ghi âm',
-    summary: 'Trên một hòn đảo rộng 60 km² ở Vịnh Bengal sống một dân tộc mà tổ tiên được tin là thuộc về một trong những lớp định cư sớm nhất của con người trong khu vực — và ngôn ngữ của họ chưa có người ngoài nào từng nghe, chứ đừng nói đến ghi chép.',
+    title: 'Sentinelese — ngôn ngữ hầu như không có tư liệu công khai',
+    summary: 'Ngôn ngữ được sử dụng trên Đảo Bắc Sentinel. Vì không có bản ghi âm hay bản chép công khai đủ để nghiên cứu, quan hệ họ hàng của nó vẫn chưa được xác định.',
     body: `
-<p>Khoảng 1.200 km về phía đông đất liền Ấn Độ, ở Vịnh Bengal, nằm một hòn đảo nhỏ có rừng rộng khoảng 60 km². Nó được gọi là <strong>Đảo Bắc Sentinel</strong>, và đâu đó bên trong sống có lẽ từ năm mươi đến vài trăm người — không ai biết con số thực — những người đã từ chối mọi nỗ lực giao tiếp với họ. Họ là <strong>người Sentinel</strong>, và ngôn ngữ của họ là một trong số rất ít ngôn ngữ loài người trên Trái Đất chưa bao giờ được ghi âm, chưa bao giờ được phiên âm, và thậm chí chưa bao giờ được phân loại một cách tự tin — và là ngôn ngữ được biết đến nhiều nhất trong số đó.</p>
+<p>Khoảng 1.200 km về phía đông đất liền Ấn Độ, ở Vịnh Bengal, có một hòn đảo rừng rộng khoảng 60 km² mang tên <strong>Đảo Bắc Sentinel</strong>. Dân số trên đảo được ước tính từ khoảng năm mươi đến vài trăm người; không có con số chắc chắn. <strong>Người Sentinel</strong> đã từ chối tiếp xúc với bên ngoài, và hiện không có bản ghi âm hay bản chép ngôn ngữ công khai đủ cho nghiên cứu. Vì vậy, Sentinelese chưa được phân loại một cách đáng tin cậy.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="11.55" data-lng="92.24" data-zoom="8">🗺️ Bay đến Đảo Bắc Sentinel</button>
@@ -417,12 +415,12 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Những gì ít ỏi chúng ta nghi ngờ về kiểu hình ngôn ngữ Sentinelese đến từ phép loại suy: các ngôn ngữ Ongan có kho âm vị nhỏ, các tiền tố sở hữu trên các thuật ngữ bộ phận cơ thể và thân tộc, và một hệ thống chỉ thị dựa trên bộ phận cơ thể (ví dụ: một hậu tố cho "của đầu", một hậu tố khác cho "của lưng"). Có lý — nhưng không thể chứng minh — rằng Sentinelese hoạt động tương tự. Ethnologue, ISO 639-3 và Glottolog đều liệt kê nó (mã <em>std</em>, ngôn ngữ <em>sent1241</em>), nhưng mọi trường trên mục yêu cầu dữ liệu thực tế đều ghi "không có thông tin" hoặc "không xác định".</p>
 
-<p>Đó là tình huống ngôn ngữ học hiếm hoi nhất: một ngôn ngữ loài người sống, đang thở, được sử dụng hàng ngày, mà chúng ta đã đồng ý như một loài không nghiên cứu. Liệu thỏa thuận đó có sống sót đến thế kỷ 21 hay không vẫn chưa chắc chắn. Hiện tại, người Sentinel vẫn là những người sẽ không được phỏng vấn — và ngôn ngữ của họ, ngôn ngữ duy nhất trong tuyển tập này mà chúng tôi nhắc đến không phải vì chúng tôi biết nó, mà vì chúng tôi biết rằng chúng tôi không biết.</p>
+<p>Việc thiếu dữ liệu về Sentinelese gắn với chính sách bảo vệ hạn chế tiếp xúc, không phải với đặc điểm nội tại của ngôn ngữ. Tư liệu hiện có chưa đủ để mô tả đáng tin cậy số người sử dụng, âm vị học, ngữ pháp hay quan hệ họ hàng của nó.</p>
     `,
   },
   'modern-hebrew-revival': {
     title: 'Hebrew — một ngôn ngữ cổ được đưa trở lại đời sống hàng ngày',
-    summary: 'Trong gần 1.700 năm, Hebrew tồn tại như ngôn ngữ phụng vụ và văn học nhưng không có đứa trẻ nào lớn lên nói nó. Ngày nay nó là tiếng mẹ đẻ của chín triệu người — đợt hồi sinh quy mô lớn nhất và thành công nhất đối với một ngôn ngữ đã không còn là tiếng nói thường ngày của cộng đồng.',
+    summary: 'Sau nhiều thế kỷ được dùng trong nghi lễ và văn bản, tiếng Hebrew trở thành ngôn ngữ sinh hoạt và giáo dục của cộng đồng trong thế kỷ 19–20. Ngày nay đây là ngôn ngữ chính của Israel.',
     body: `
 <p>Vào khoảng năm <strong>200 sau Công nguyên</strong>, hộ gia đình cuối cùng ở Palestine La Mã trong đó trẻ em lớn lên nghe Hebrew tại bàn ăn tối đã im lặng. Aramaic đã chiếm lĩnh đường phố; Hy Lạp thống trị các thành phố; Mishnah đang được biên soạn bằng tiếng Hebrew mà các học giả viết nhưng ngày càng không <em>nói</em>. Trong 1.700 năm tiếp theo, Hebrew tồn tại như ngôn ngữ của giáo đường, sách cầu nguyện, cuộn Torah, và bức thư từ rabbi này đến rabbi khác — một ngôn ngữ viết được sử dụng bởi người lớn biết chữ, nhưng không phải lời nói đầu tiên của bất kỳ đứa trẻ nào. Sau đó, không hiểu sao, điều đó đã thay đổi. Hebrew hiện là ngôn ngữ nói hàng ngày của khoảng <strong>chín triệu người</strong>, khoảng một nửa trong số họ là người nói bản ngữ học nó từ khi còn là em bé. Có những cuộc hồi sinh quy mô nhỏ hơn (Cornish, Manx, Wampanoag), nhưng Hebrew vẫn là trường hợp quy mô lớn nhất và được ghi chép kỹ lưỡng nhất về một ngôn ngữ không còn là tiếng mẹ đẻ của bất kỳ ai được đưa trở lại sử dụng hàng ngày trong cộng đồng.</p>
 
@@ -454,14 +452,14 @@ window.TRIVIA_I18N['vi'] = {
 
 <blockquote>"Người Do Thái đã không hồi sinh được ngôn ngữ của Isaiah. Đơn giản là không thể hồi sinh một ngôn ngữ đúng như nó vốn có." — Ghil'ad Zuckermann, BBC Future, 22 tháng 3 năm 2019</blockquote>
 
-<p>Đến năm 1922, khi Ben-Yehuda qua đời, Hebrew là một trong ba ngôn ngữ chính thức của Palestine Ủy trị Anh. Đến năm 1948, đó là ngôn ngữ chính của Nhà nước Israel mới thành lập. Ngày nay nó là ngôn ngữ trường học của hàng triệu người, ngôn ngữ của những người đoạt giải Nobel (S. Y. Agnon, 1966), của điện ảnh và công nghệ cao, của siêu thị và sân chơi. Đứa trẻ cuối cùng học tiếng Hebrew như em bé trước năm 200 sau Công nguyên và đứa trẻ đầu tiên học nó như em bé năm 1882 cách nhau khoảng 70 thế hệ cuộc sống Do Thái mà trong đó ngôn ngữ được mang đi nhưng không được nuôi dưỡng — và đó là ngôn ngữ duy nhất trên Trái Đất đã làm như vậy và trở lại.</p>
+<p>Khi Ben-Yehuda qua đời năm 1922, tiếng Hebrew là một trong ba ngôn ngữ chính thức của Palestine dưới quyền ủy trị Anh; từ năm 1948, nó trở thành ngôn ngữ chính của Israel. Ngày nay tiếng Hebrew được dùng trong trường học, điện ảnh, ngành công nghệ và gia đình. Quá trình hình thành tiếng Hebrew hiện đại tiếp nối truyền thống nghi lễ và văn bản, đồng thời chịu ảnh hưởng của tiếng Yiddish, tiếng Nga và các ngôn ngữ của người nhập cư.</p>
     `,
   },
   'sanskrit-panini': {
     title: 'Pāṇini — nhà ngữ pháp Sanskrit đã đoán trước khoa học máy tính 2.400 năm',
     summary: 'Khoảng năm 500 TCN, một học giả Ấn Độ đã viết một ngữ pháp hình thức 4.000 quy tắc của Sanskrit nghiêm ngặt đến nỗi năm 1933 Leonard Bloomfield có thể viết rằng "cho đến hôm nay, chưa có ngôn ngữ nào khác được mô tả hoàn hảo đến thế" — và nó là tổ tiên trực tiếp của cách trình biên dịch phân tích cú pháp mã ngày nay.',
     body: `
-<p>Nếu bạn phải chọn một cuốn sách duy nhất để gửi lại trong một cỗ máy thời gian để làm bối rối một nhà khoa học máy tính thế kỷ 20, thật khó để làm tốt hơn <strong>Aṣṭādhyāyī</strong> — "Tám Chương" của <strong>Pāṇini</strong>. Được sáng tác ở khu vực ngày nay là tây bắc Pakistan vào khoảng <strong>500–400 TCN</strong>, Aṣṭādhyāyī là một mô tả sinh tạo hoàn chỉnh về Sanskrit chỉ trong gần <strong>4.000 sūtra</strong> (các quy tắc cách ngôn ngắn gọn), được đóng gói dày đặc đến nỗi toàn bộ ngữ pháp khớp với khoảng 35 trang in hiện đại. Các nhà ngôn ngữ học hiện đại, từ Leonard Bloomfield đến Paul Kiparsky và Noam Chomsky, đều gọi đây là ngữ pháp hình thức tinh vi nhất của bất kỳ ngôn ngữ nào từng được tạo ra trước thế kỷ 20.</p>
+<p>Được sáng tác ở khu vực ngày nay là tây bắc Pakistan vào khoảng <strong>500–400 TCN</strong>, <strong>Aṣṭādhyāyī</strong> — "Tám Chương" của <strong>Pāṇini</strong> — trình bày một mô tả sinh tạo về Sanskrit trong gần <strong>4.000 sūtra</strong> (các quy tắc cách ngôn ngắn gọn). Toàn bộ ngữ pháp gói trong khoảng 35 trang in hiện đại. Các nhà ngôn ngữ học như Leonard Bloomfield, Paul Kiparsky và Noam Chomsky đã thảo luận về phân tích hình thức của tác phẩm trong mối liên hệ với các công trình sau này về ngôn ngữ học và khoa học máy tính.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="sa" data-zoom="7">🌍 Hiển thị Sanskrit trên bản đồ</button>
@@ -620,12 +618,12 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Bản thân Quijada thừa nhận rằng <strong>ông không thể nói Ithkuil một cách lưu loát</strong>. Tạo một câu duy nhất theo thời gian thực đòi hỏi việc chọn một cách có ý thức trong hàng chục phạm trù ngữ pháp trước khi mở miệng. Ông đã nói trong các cuộc phỏng vấn rằng ngay cả sau ba mươi năm, đôi khi ông cần vài phút để sáng tác một câu duy nhất bằng ngôn ngữ của chính mình.</p>
 
-<p>Liệu Ithkuil có phải là một thất bại? Chỉ khi bạn đo các ngôn ngữ nhân tạo theo quy mô cộng đồng. Như một mảnh <em>kiến trúc ngôn ngữ học</em> — một cuộc trình diễn kéo dài, hàng thập kỷ về việc đường phát âm của con người có thể được tạo ra để mang bao nhiêu ý nghĩa mỗi giây nói — nó không có đối thủ. Nó là cho Esperanto những gì một tên lửa Saturn V là cho một chiếc xe đạp: không ai đi làm trên nó, nhưng nó cho thấy những gì là có thể về mặt vật lý.</p>
+<p>Ithkuil không nhằm xây dựng một cộng đồng sử dụng lớn; nó là một thử nghiệm thiết kế về mức độ dày đặc mà ngữ pháp có thể mã hóa ý nghĩa. Hệ thống cho phép mật độ thông tin cao, nhưng đồng thời đặt gánh nặng nhận thức lớn lên việc tạo và hiểu câu theo thời gian thực.</p>
     `,
   },
   'hangul-scientific-script': {
     title: 'Hangul — bảng chữ cái mà một vị vua đã thiết kế trong phòng thí nghiệm',
-    summary: 'Năm 1443, Vua Sejong Đại đế công bố một bảng chữ cái Hàn Quốc mới mà các hình dạng chữ cái mô tả theo nghĩa đen đường âm thanh. Các nhà ngôn ngữ học gọi đó là hệ thống chữ viết được thiết kế khoa học nhất trên Trái Đất — và nó đã suýt bị cấm hai lần.',
+    summary: 'Năm 1443, Vua Sejong cho tạo một hệ chữ mới cho tiếng Hàn. Hình dạng của một số chữ phản ánh cơ quan phát âm hoặc đặc trưng ngữ âm, và nguyên tắc thiết kế được ghi lại trong bản giải thích năm 1446.',
     body: `
 <p>Hầu hết các bảng chữ cái đã tiến hóa. Chúng trôi dạt qua các thế kỷ từ chữ tượng hình đến trừu tượng, không ai còn nhớ tại sao một chữ "B" trông như vậy. <strong>Hangul</strong> không như vậy. Hangul có ngày sinh — <strong>9 tháng 10 năm 1446</strong>, ngày phần giải thích kèm theo, <em>Hunminjeongeum Haerye</em>, được xuất bản. Và nó có một nhà phát minh duy nhất, được nêu tên: <strong>Vua Sejong Đại đế</strong> (世宗大王, trị vì 1418–1450) của Joseon Hàn Quốc, làm việc với các học giả của Sảnh Hiền Tài của ông (集賢殿, <em>Jiphyeonjeon</em>).</p>
 
@@ -634,7 +632,7 @@ window.TRIVIA_I18N['vi'] = {
   <button type="button" class="trivia-action" data-action="setword" data-word="hello" data-code="ko">👋 "Xin chào" — <em>안녕하세요</em></button>
 </div>
 
-<p>Động lực của Sejong, được trình bày trong lời nói đầu của dự án, là một trong những khởi đầu cảm động nhất trong bất kỳ lịch sử hệ thống chữ viết nào:</p>
+<p>Lời nói đầu trình bày mục đích của Sejong khi tạo ra hệ chữ mới như sau:</p>
 
 <blockquote>"Tiếng nói của nước ta khác với tiếng nói của Trung Quốc và không khớp với chữ Hán. Do đó, ngay cả khi người không học muốn giao tiếp, nhiều người trong số họ không thể tự diễn đạt. Nghĩ điều này với sự thương xót, ta đã mới thiết kế hai mươi tám chữ cái, chỉ mong rằng mọi người có thể dễ dàng học chúng và sử dụng chúng trong cuộc sống hàng ngày." — Vua Sejong, lời nói đầu <em>Hunminjeongeum</em>, 1446</blockquote>
 
@@ -663,7 +661,7 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Sự phục hồi thực sự của Hangul đến vào cuối thế kỷ 19 với nhà cải cách Ju Si-gyeong, người đã hệ thống hóa tên của nó (<em>han-geul</em>, "chữ viết vĩ đại") và chính tả hiện đại của nó. Sau thời kỳ thuộc địa Nhật Bản — trong đó Hangul lại bị cấm, lần này bởi một cường quốc bên ngoài — Hàn Quốc đã tuyên bố Ngày Hangul (한글날) là một ngày lễ quốc gia. Bắc Triều Tiên gọi nó là <em>Chosŏn'gŭl</em> và quan sát ngày lễ riêng vào ngày 15 tháng 1. Tỷ lệ biết chữ Hàn Quốc hiện đại về mặt chức năng là 100%.</p>
 
-<p>Nhà ngôn ngữ học Geoffrey Sampson đã mô tả Hangul vào năm 1985 là "có lẽ là hệ thống chữ viết khoa học nhất đang được sử dụng phổ biến ở bất kỳ quốc gia nào". Hình dáng các chữ cái cơ bản nổi tiếng dễ ghi nhớ — trẻ em Hàn Quốc có thể nắm bắt bảng chữ cái chỉ trong một buổi ngồi, mặc dù để đạt được sự lưu loát đọc viết đầy đủ vẫn cần nhiều năm như mọi chữ viết khác. Đây là chữ viết lớn duy nhất trên thế giới có cả nhà thiết kế được biết đến và lý do thiết kế được ghi chép — một thí nghiệm phòng thí nghiệm 600 năm tuổi đã hoạt động.</p>
+<p>Năm 1985, nhà ngôn ngữ học Geoffrey Sampson mô tả Hangul là “có lẽ là hệ thống chữ viết khoa học nhất đang được sử dụng phổ biến ở bất kỳ quốc gia nào”. Các chữ cơ bản có thể được học tương đối nhanh, nhưng để đọc viết thành thạo vẫn cần nhiều năm như với các hệ chữ khác. Niên đại, những người tham gia và cơ sở thiết kế của Hangul đều được ghi lại trong tư liệu cùng thời, một trường hợp không phổ biến trong lịch sử chữ viết.</p>
     `,
   },
   'cherokee-sequoyah': {
@@ -742,14 +740,14 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Chữ viết Vai đã được thêm vào <strong>Unicode 5.1 vào năm 2008</strong> (khối U+A500–U+A63F), và hiện có sẵn trên Android, iOS và các bản phân phối Linux lớn. Có các Wikipedia ngôn ngữ Vai sơ khai, bố cục bàn phím Vai, và một cộng đồng trực tuyến nhỏ nhưng kiên trì. Người Vai bản thân chưa bao giờ mất chữ viết của họ; ngày nay, gần 200 năm sau giấc mơ của Bukele, một bà nội Vai có thể nhắn WhatsApp cho cháu của mình bằng cùng bảng âm tiết mà một người đàn ông trẻ vào năm 1834 đã viết trên tờ giấy nhập khẩu đầu tiên của mình.</p>
 
-<p>Cho dù giấc mơ là ẩn dụ hay ký ức, Bukele hiểu công nghệ xã hội tốt hơn nhiều so với những người châu Âu cùng thời với ông: chữ viết không phải là phép thuật, và bất kỳ dân tộc nào muốn nó đều có thể có nó.</p>
+<p>Không thể xác minh bản chất giấc mơ mà Bukele kể lại. Hệ chữ âm tiết do ông tạo ra đã được cộng đồng tiếp nhận, dùng trong giáo dục và xuất bản, và ngày nay có mặt trong Unicode cùng các phương thức nhập liệu số.</p>
     `,
   },
   'tangut-deciphered': {
     title: 'Tangut — chữ viết bị mất của một đế chế bị lãng quên',
     summary: 'Một ngôn ngữ Hán-Tạng được viết bằng khoảng 6.000 chữ logograph được làm thủ công, được phát minh bằng sắc lệnh đế chế vào năm 1036 và bị lãng quên trong 400 năm — cho đến khi một nhà ngôn ngữ học người Nga kéo nó trở lại từ cái chết.',
     body: `
-<p>Vào năm 1036 sau Công nguyên, hoàng đế <strong>Lý Nguyên Hạo</strong> của triều đại <strong>Tây Hạ</strong> (Xixia / 西夏) đã ban sắc lệnh rằng dân tộc của ông, người Tangut, phải có một hệ thống chữ viết xứng đáng với riêng họ. Học giả Dã Lợi Nhân Vinh của ông được cho là đã phát minh ra toàn bộ chữ viết trong vài năm — khoảng <strong>6.000 chữ logograph</strong>, mỗi cái một thiết kế mới, có chủ ý giống nhưng không vay mượn từ tiếng Trung. Kết quả là <strong>Tangut (西夏文)</strong>: một trong những hệ thống chữ viết dày đặc về thị giác nhất từng được tạo ra.</p>
+<p>Năm 1036, hoàng đế <strong>Lý Nguyên Hạo</strong> của triều đại <strong>Tây Hạ</strong> (Xixia / 西夏) ra lệnh tạo một hệ chữ để ghi tiếng Tangut. Học giả Dã Lợi Nhân Vinh được cho là đã hoàn thành hệ thống trong vài năm. <strong>Chữ Tangut (西夏文)</strong> có khoảng 6.000 chữ biểu ý, dùng cấu trúc vuông và cách ghép thành phần gợi nhớ chữ Hán, nhưng phần lớn hình chữ được thiết kế mới.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="txg" data-zoom="5">🌍 Hiển thị Tangut trên bản đồ</button>
@@ -773,11 +771,11 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Người có công lớn nhất trong việc giải mã nó là <strong>Nikolai Nevsky</strong> (1892–1937), một nhà Nhật Bản học người Nga đã dành những năm 1920 ở Nhật Bản và Đài Loan. Ông bắt tay vào kho tài liệu Khara-Khoto từ năm 1925, khi vẫn còn sống ở Nhật Bản, và sau khi trở về Leningrad năm 1929, ông dành trọn thập niên tiếp theo để làm sáng tỏ cấu trúc âm vị của nó và biên soạn cuốn từ điển Tangut-Nga đầu tiên. Kiệt tác của ông, <em>Tangutskaya Filologiya</em>, được xuất bản sau khi ông qua đời vào năm 1960 — Nevsky đã bị bắn trong cuộc Đại thanh trừng của Stalin vào năm 1937. Ông được trao Giải Lenin sau khi qua đời.</p>
 
-<blockquote>"Mỗi ký tự Tangut là một vấn đề kiến trúc nhỏ: các nét không chỉ đánh vần một âm thanh, chúng lát một hình vuông." — diễn giải từ M. V. Sofronov</blockquote>
+<p>Các nét và thành phần của chữ Tangut được sắp xếp trong một khung vuông. Vì vậy, phân tích cấu trúc chữ là một phần quan trọng của việc giải đọc và biên soạn từ điển.</p>
 
 <p>Sau đó <strong>Mikhail Sofronov</strong> tinh chỉnh việc tái cấu trúc âm vị vào những năm 1960; <strong>Ksenia Kepping</strong> làm việc về ngữ pháp và các văn bản nghi lễ; ngày nay các nhà nghiên cứu ở Bắc Kinh, Kyoto, Đài Bắc và St Petersburg tiếp tục xuất bản các phiên bản của các bản thảo mới được biên mục. Các câu hỏi quan trọng vẫn còn — hệ thống thanh điệu chính xác, vị trí di truyền sâu hơn trong Hán-Tạng, ý nghĩa của hàng chục ký tự hiếm chỉ xuất hiện một hoặc hai lần trong corpus.</p>
 
-<p>Tangut là một lời nhắc nhở rằng "ngôn ngữ chết" hiếm khi là phán quyết cuối cùng. Một chữ viết được phát minh trong một thập kỷ duy nhất, được hàng triệu người sử dụng, bị lãng quên trong bốn thế kỷ, vẫn có thể được dỗ trở lại lời nói — miễn là ai đó đủ ngoan cố dành cả đời cho các bảng vần.</p>
+<p>Việc giải đọc Tangut dựa vào đối chiếu các bảng vần, tư liệu song ngữ và một khối lượng lớn văn bản còn lại. Dù một số vấn đề về âm hệ và chữ hiếm vẫn chưa được giải quyết, nguồn tư liệu hiện nay đã cho phép biên soạn từ điển, hiệu đính văn bản và nghiên cứu ngữ pháp.</p>
     `,
   },
   'linear-a-undeciphered': {
@@ -809,8 +807,6 @@ window.TRIVIA_I18N['vi'] = {
 </div>
 
 <p>Nhiều tuyên bố giải mã đã được xuất bản — rằng Minoan là Semitic, Anatolia, Tyrsenian, Ấn-Âu, thậm chí là Proto-Basque. Không có cái nào thuyết phục được lĩnh vực này. Các trở ngại chính là (1) corpus nhỏ và lặp lại, (2) sự vắng mặt của bất kỳ văn bản song ngữ nào đủ dài để khởi động một ngữ pháp, và (3) sự nghi ngờ rằng Minoan có thể đơn giản là một ngôn ngữ <strong>biệt lập</strong> — một ngôn ngữ không có họ hàng nào còn sống sót ở đâu cả.</p>
-
-<blockquote>"Chúng ta có thể phát âm các từ của người Minoan. Chúng ta chỉ không biết chúng có nghĩa gì." — diễn giải từ John Chadwick, The Decipherment of Linear B</blockquote>
 
 <p>So sánh tình huống với chữ viết <strong>Cypro-Minoan</strong> chưa được giải mã của đảo Síp thời Đồ Đồng, hoặc các <strong>chữ tượng hình Cretan</strong> thậm chí cổ hơn mà chính Linear A dường như dựa trên đó. Chữ viết Aegean thời Đồ Đồng là một khu rừng nhỏ các chữ viết liên quan mã hóa ít nhất hai và có thể ba hoặc bốn ngôn ngữ khác nhau — và chỉ một trong số đó, người đến muộn Linear B, đã chịu khuất phục.</p>
 
@@ -849,8 +845,6 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Điều thú vị là, những người nói Aymara–Tây Ban Nha song ngữ trẻ hơn ra cử chỉ nhiều hơn theo mẫu Tây Ban Nha (tương lai về phía trước), gợi ý rằng ánh xạ không gian cũ đang dần bị viết đè bởi sự tiếp xúc với các ngôn ngữ Ấn-Âu rộng hơn. Aymara có thể trở thành một trong những kho cuối cùng của một ẩn dụ mà các ngôn ngữ Andes và Amazon khác từng chia sẻ.</p>
 
-<blockquote>"Những gì bạn đã thấy bằng chính đôi mắt của mình bạn có thể đặt trước mặt mình; những gì bạn chưa thấy phải ở lại sau lưng bạn." — diễn giải từ một trưởng lão Aymara, trong Núñez & Sweetser 2006</blockquote>
-
 <p>Phát hiện này quan trọng vượt xa ngôn ngữ học Andes. Cùng với công việc của George Lakoff về ẩn dụ khái niệm và các thí nghiệm của Lera Boroditsky về thời gian và ngôn ngữ, trường hợp Aymara đã trở thành nền tảng của lập luận hiện đại rằng <strong>các ẩn dụ không gian cơ bản cho các lĩnh vực trừu tượng không phải là phổ quát</strong> — chúng được định hình sâu sắc bởi văn hóa và kinh nghiệm hiện thân. Thời gian, sự trừu tượng tàn nhẫn nhất chúng ta có, có thể thậm chí không chỉ cùng một hướng cho mọi người.</p>
 
 <p>Aymara cũng đáng chú ý theo những cách khác: một <em>logic ba giá trị</em> được các nhà khoa học máy tính tranh luận vào những năm 1980, một hệ thống chứng cứ bắt buộc không khác Tuyuca, và một cảnh xuất bản ngôn ngữ bản địa sôi động. Nhưng quá khứ đối mặt phía trước vẫn là món quà nổi tiếng nhất của nó cho khoa học nhận thức.</p>
@@ -886,8 +880,6 @@ window.TRIVIA_I18N['vi'] = {
 </div>
 
 <p>Tuyuca không phải là duy nhất. <strong>Chứng cứ</strong> như một phạm trù ngữ pháp được tìm thấy khắp họ Tukano, trong Quechua, Aymara, Thổ Nhĩ Kỳ (<em>-miş</em> nổi tiếng), Bulgaria, Hàn Quốc, nhiều ngôn ngữ Tạng-Miến và khắp Amazonia. Khảo sát kiểu hình của <strong>Alexandra Aikhenvald</strong> (2004) đã thu thập gần 500 ngôn ngữ với các chứng cứ được ngữ pháp hóa. Nhưng Tuyuca nổi bật vì <em>độ chi tiết</em> của hệ thống của nó — năm sự phân biệt nơi hầu hết các ngôn ngữ tạo ra hai hoặc ba — và vì là một trong những ngôn ngữ đầu tiên được mô tả cẩn thận.</p>
-
-<blockquote>"Trong Tuyuca, bạn không thể nói dối thoải mái. Mọi tuyên bố đều mang chữ ký của cách nó được tiếp nhận." — diễn giải từ Aikhenvald 2004</blockquote>
 
 <p>Những hàm ý cho nhận thức được tranh luận. Một số nhà nghiên cứu, bao gồm những người thừa kế trí tuệ của Lev Vygotsky và chính Aikhenvald, lập luận rằng đánh dấu nguồn thông tin theo thói quen nuôi dưỡng một định hướng khác đối với chứng cứ và tin đồn. Những người khác lưu ý rằng người nói tiếng Anh có thể diễn đạt các sự phân biệt tương tự — họ chỉ không bị <em>buộc</em>. Sự đồng thuận hiện tại nằm đâu đó giữa: ngữ pháp hóa bắt buộc làm cho một phạm trù nổi bật về mặt nhận thức, nhưng không làm cho người nói các ngôn ngữ khác không thể có các sự phân biệt tương tự.</p>
 
@@ -929,8 +921,6 @@ window.TRIVIA_I18N['vi'] = {
 <p>Hậu quả nhận thức, được Levinson, John Haviland và các đồng nghiệp tại Viện Max Planck ghi chép, thật nổi bật. Người nói Guugu Yimithirr duy trì một cảm giác không gián đoạn về định hướng của họ thông qua <strong>hàng hải ước lượng (dead-reckoning)</strong>. Trong các thí nghiệm, họ có thể chỉ chính xác đến những nơi xa xôi (biển, một khu định cư lân cận, nhà của một người thân cách xa hàng trăm km) bất kể họ đang ngồi trong một căn phòng không có cửa sổ, bịt mắt, sau khi được lái xe vòng tròn, hay ở dưới đáy hang động. La bàn cố định của họ đơn giản là không tắt.</p>
 
 <p>Đây không phải là một kỹ năng đặc biệt của một số ít trưởng lão. Ở lớp người lớn tuổi nói lưu loát nhất, đây là <strong>thuộc tính chung của cả cộng đồng nói</strong>, tiếp thu từ thời thơ ấu. Trẻ em không tiếp thu hệ thống này một lúc mà dần dần: khảo sát thực địa của Lourdes de León với những người nói nhỏ tuổi ở Hopevale, được Haviland thuật lại, cho thấy một lộ trình đi từ chỗ nghe một từ như <em>naga</em> chỉ là "đằng kia" mơ hồ, đến chỗ gắn nó với những nơi cụ thể như bãi biển, rồi với cả một vùng, và cuối cùng mới thành thế đối lập bốn hướng trừu tượng. Máy móc tinh thần được xây dựng bởi ngôn ngữ và được tập luyện liên tục bởi yêu cầu nói về nó.</p>
-
-<blockquote>"Bạn không thể nói Guugu Yimithirr mà không luôn biết hướng bắc ở đâu." — diễn giải từ Stephen Levinson, 1997</blockquote>
 
 <p>Các hệ thống khung tuyệt đối tương đương hiện được biết đến từ <strong>Tzeltal Maya</strong> ở Mexico (các trục lên dốc/xuống dốc), <strong>Marshallese</strong> ở Micronesia (về phía biển/về phía đất liền), <strong>Bali</strong> (về phía núi/về phía biển), và nhiều ngôn ngữ Thổ dân Úc — Kuuk Thaayorre, Warlpiri và Arrernte trong số đó. Cuộc tranh luận theo hướng Sapir–Whorf về việc ngôn ngữ thúc đẩy nhận thức không gian hay ngược lại vẫn còn sống, nhưng sự thật thực nghiệm không bị tranh cãi: người nói các ngôn ngữ khung tuyệt đối thực hiện các nhiệm vụ định hướng không lời theo cách đo lường được khác với người nói các ngôn ngữ khung vị kỷ.</p>
 
@@ -980,8 +970,6 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Đa tổng hợp đặt ra một câu hỏi sâu sắc cho kiểu hình ngôn ngữ học. Liệu một "từ" Mohawk có phải là cùng loại đơn vị như một "từ" tiếng Anh? Mark Baker, trong cuốn sách ảnh hưởng <em>The Polysynthesis Parameter</em> (1996) của ông, đã lập luận rằng các ngôn ngữ đa tổng hợp tuân theo các ràng buộc cú pháp riêng của họ — ví dụ, không cần các đối số đại từ độc lập vì động từ đã mang chúng — và rằng chúng đại diện cho một cài đặt tham số thay thế cho các ngôn ngữ như tiếng Anh. Những người khác, bao gồm Mithun, thích mô tả Mohawk theo các điều khoản riêng của nó hơn là gắn nó vào một tham số phổ quát.</p>
 
-<blockquote>"Trong Mohawk, động từ là một sân khấu nhỏ. Các diễn viên vào trước khi tấm màn được kéo lên và hiếm khi rời sân khấu." — diễn giải từ Marianne Mithun, 1999</blockquote>
-
 <p>Phong trào hồi sinh quan trọng ở đây. Các trường đắm chìm Kanien'kéha — Trường Sống còn Kahnawà:ke và Trường Tự do Akwesasne được biết đến rộng rãi nhất — đã sản xuất một thế hệ người nói mới xử lý bảng đại từ 58 ô đó với sự lưu loát bản ngữ. Mohawk cho thấy rằng đa tổng hợp không phải là hóa thạch của quá khứ; đó là một chiến lược ngữ pháp đang sống, biểu cảm như bất kỳ chiến lược phân tích nào, và bây giờ được xây dựng lại một cách có ý thức bởi các cộng đồng quyết tâm rằng <em>Kanien'kéha</em> sẽ tiếp tục.</p>
 
 <p>Các ngôn ngữ đa tổng hợp cổ điển khác — Inuktitut, Yupik Trung Siberia, Chukchi, Ainu, Sora — xác nhận rằng mô hình này tái diễn khắp các lục địa. Nhưng đối với mật độ thông tin ngữ pháp đơn thuần mỗi từ, các ngôn ngữ Iroquois, và Mohawk đặc biệt, vẫn là nguyên mẫu mà các sách giáo khoa tiếp cận đầu tiên.</p>
@@ -1024,16 +1012,16 @@ window.TRIVIA_I18N['vi'] = {
     `,
   },
   'hawaiian-13-phonemes': {
-    title: 'Hawaii — chỉ 13 âm thanh, và một sự hồi sinh tuyệt vời',
-    summary: 'Tiếng Hawaii có một trong những kho âm vị nhỏ nhất trên Trái Đất — chỉ 13 âm thanh — và đã từng ở bên bờ tuyệt chủng. Ngày nay nó là một trong những sự hồi sinh ngôn ngữ bản địa thành công nhất từng được ghi chép.',
+    title: 'Tiếng Hawaii — 13 âm vị và công cuộc phục hồi',
+    summary: 'Tiếng Hawaii thường được phân tích với 13 âm vị. Từ cuối thế kỷ 20, các trường mầm non và chương trình giáo dục hòa nhập ngôn ngữ giữ vai trò trung tâm trong công cuộc phục hồi.',
     body: `
-<p><strong>ʻŌlelo Hawaiʻi</strong> — tiếng Hawaii — có một trong những kho âm thanh nhỏ nhất của bất kỳ ngôn ngữ sống nào. <strong>Chỉ 13 âm vị</strong>: 8 phụ âm (<em>p, k, ʻ, h, m, n, l, w</em>) và 5 nguyên âm (<em>a, e, i, o, u</em>), mỗi cái có thể ngắn hoặc dài. Đó là tất cả. Bạn có thể học toàn bộ bảng chữ cái, bao gồm âm tắc thanh hầu <em>ʻokina</em> và dấu nguyên âm dài <em>kahakō</em>, trong một buổi chiều.</p>
+<p><strong>ʻŌlelo Hawaiʻi</strong> — tiếng Hawaii — thường được phân tích với <strong>13 âm vị</strong>: 8 phụ âm (<em>p, k, ʻ, h, m, n, l, w</em>) và 5 nguyên âm (<em>a, e, i, o, u</em>), trong đó nguyên âm có đối lập dài–ngắn. Chữ viết còn dùng <em>ʻokina</em> cho âm tắc thanh hầu và <em>kahakō</em> cho nguyên âm dài.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="haw" data-zoom="5">🌍 Hiển thị Hawaii trên bản đồ</button>
 </div>
 
-<p>Với rất ít khối xây dựng, các từ tất yếu dài và giàu nguyên âm. Kết quả là một trong những ngôn ngữ âm nhạc nhất trên Trái Đất: <em>humuhumunukunukuapuaʻa</em> (cá kích rạn, cá quốc gia của Hawaii), <em>pāhoehoe</em> và <em>ʻaʻā</em> (dung nham mịn và lởm chởm — cả hai thuật ngữ được vay mượn thẳng vào địa chất học toàn cầu), và <em>aloha</em> hàng ngày, đồng thời có nghĩa là xin chào, tạm biệt, tình yêu và lòng trắc ẩn.</p>
+<p>Âm tiết mở và chuỗi nguyên âm xuất hiện thường xuyên trong tiếng Hawaii. Ví dụ gồm <em>humuhumunukunukuapuaʻa</em> (một loài cá bò, cá biểu tượng của bang Hawaii), <em>pāhoehoe</em> và <em>ʻaʻā</em> (hai thuật ngữ về dung nham đã được mượn vào địa chất học quốc tế), cùng <em>aloha</em>, từ được dùng khi chào, tạm biệt và để biểu đạt tình yêu hoặc lòng trắc ẩn.</p>
 
 <p>Tiếng Hawaii xuất phát từ <strong>Proto-Polynesian</strong>, được mang bởi các nhà hàng hải từ Quần đảo Marquesas và Society. Phương pháp định tuổi bằng carbon phóng xạ độ chính xác cao đã đẩy thời điểm đặt chân ấy muộn hơn nhiều so với giả định của các sách giáo khoa cũ — ước tính hiện nay tập trung vào khoảng <strong>năm 1000 đến 1300 sau Công nguyên</strong>, tức chỉ vừa hơn một nghìn năm trước. Các họ hàng sống gần gũi nhất là Marquesan, Tahitian và Māori — và các tương ứng lịch sử đều đặn đến nỗi người nói Māori thường có thể đoán được một họ hàng Hawaii ngay lập tức (Māori <em>tangata</em> ↔ Hawaii <em>kanaka</em>, "người"; Māori <em>whetū</em> ↔ Hawaii <em>hōkū</em>, "ngôi sao").</p>
 
@@ -1044,7 +1032,7 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Sau đó đến sự sụp đổ. Cuộc <strong>lật đổ Vương quốc Hawaii năm 1893</strong> và việc Hoa Kỳ sáp nhập năm 1898 đã châm ngòi cho một thế hệ đàn áp văn hóa. Năm 1896, Cộng hòa Hawaii đã thông qua <strong>Đạo luật 57</strong>, yêu cầu tiếng Anh là phương tiện hướng dẫn duy nhất trong trường học. Trẻ em bị bắt nói tiếng Hawaii bị trừng phạt thể chất. Đến năm 1980, ít hơn 2.000 người nói bản ngữ vẫn còn, gần như tất cả là người cao tuổi. Các nhà ngôn ngữ học đã viết nó như hấp hối.</p>
 
-<p>Những gì xảy ra tiếp theo là một trong những câu chuyện vĩ đại trong xã hội ngôn ngữ học hiện đại. Lấy cảm hứng từ <em>Kōhanga Reo</em> ("tổ ngôn ngữ") của Māori ở New Zealand, một nhóm các nhà giáo dục bao gồm <strong>Larry Kimura</strong>, <strong>William H. "Pila" Wilson</strong>, và <strong>Kauanoe Kamanā</strong> đã thành lập <strong>ʻAha Pūnana Leo</strong> vào năm 1983 — các trường mầm non chỉ tiếng Hawaii nơi các trưởng lão không nói gì ngoài tiếng Hawaii với trẻ mới biết đi. Năm 1986, lệnh cấm 90 năm đối với giáo dục bằng tiếng Hawaii cuối cùng đã được bãi bỏ. Đến năm 1987, các trường công lập đắm chìm Hawaii <strong>Kula Kaiapuni</strong> đầu tiên đã mở cửa. Cao đẳng <strong>Ka Haka ʻUla O Keʻelikōlani</strong> của Đại học Hawaii tại Hilo hiện cung cấp khóa học tiến sĩ được tiến hành hoàn toàn bằng tiếng Hawaii — ngôn ngữ bản địa đầu tiên ở Hoa Kỳ đạt đến cấp độ đó.</p>
+<p>Lấy cảm hứng từ <em>Kōhanga Reo</em> (“tổ ngôn ngữ”) của người Māori ở New Zealand, các nhà giáo dục như <strong>Larry Kimura</strong>, <strong>William H. “Pila” Wilson</strong> và <strong>Kauanoe Kamanā</strong> thành lập <strong>ʻAha Pūnana Leo</strong> năm 1983, hệ thống trường mầm non dùng tiếng Hawaii. Lệnh hạn chế giáo dục bằng tiếng Hawaii được bãi bỏ năm 1986, và trường công lập hòa nhập ngôn ngữ <strong>Kula Kaiapuni</strong> đầu tiên mở năm 1987. Trường <strong>Ka Haka ʻUla O Keʻelikōlani</strong> thuộc Đại học Hawaii tại Hilo hiện có chương trình tiến sĩ giảng dạy hoàn toàn bằng tiếng Hawaii.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="panto" data-lat="19.72" data-lng="-155.08" data-zoom="7">🌋 Bay đến Hilo, trái tim của sự hồi sinh</button>
@@ -1055,7 +1043,7 @@ window.TRIVIA_I18N['vi'] = {
   },
   'nicaraguan-sign-language': {
     title: 'Ngôn ngữ Ký hiệu Nicaragua — một ngôn ngữ ra đời trong thời gian thực',
-    summary: 'Một trong những trường hợp được ghi chép đầy đủ nhất về một ngôn ngữ loài người tự nhiên mới đang định hình trong thời gian thực — xuất hiện giữa những trẻ em điếc Nicaragua khi cuối cùng họ được tập hợp lại với nhau vào những năm 1970 và 80.',
+    summary: 'Từ cuối thập niên 1970, trẻ em điếc ở Nicaragua đã hình thành một ngôn ngữ ký hiệu mới khi cùng học tập và giao tiếp. Các nhà nghiên cứu sau đó ghi lại sự phát triển ngữ pháp theo từng nhóm tuổi.',
     body: `
 <p>Hãy tưởng tượng bạn là một nhà ngôn ngữ học và được xem một ngôn ngữ loài người mới định hình trong thời gian thực — không phải được creole hóa từ một ngôn ngữ nói có sẵn, mà được tạo ra bởi trẻ em trong một thế hệ duy nhất, phần lớn khởi đầu từ chính các hệ thống ký hiệu nhà và cử chỉ của chúng. Đó đại khái là những gì đã xảy ra ở Managua, Nicaragua, giữa năm 1977 và đầu những năm 1990, tạo ra cái mà chúng ta hiện gọi là <strong>Idioma de Señas de Nicaragua (ISN)</strong>, Ngôn ngữ Ký hiệu Nicaragua. Các ngôn ngữ ký hiệu mới hình thành khác (Ngôn ngữ Ký hiệu Bedouin Al-Sayyid ở Israel, Kata Kolok ở Bali) đã được nghiên cứu kể từ đó, nhưng ISN vẫn là trường hợp được ghi chép đầy đủ nhất về quá trình nổi lên theo từng thế hệ.</p>
 
@@ -1070,17 +1058,17 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Sau đó đến cuộc cách mạng. Khi trẻ em trẻ hơn — trẻ mầm non và đầu tiểu học — vào hệ thống vào giữa những năm 1980, chúng lấy pidgin của trẻ lớn hơn làm đầu vào và làm điều mà chỉ trẻ em mới có thể làm: <strong>chúng đã ngữ pháp hóa nó</strong>. Chúng đã thêm sự hợp không gian nhất quán, hình thái động từ, và các dấu hiệu diễn ngôn. Vào đầu những năm 1990, nhóm trẻ hơn đang ký một ngôn ngữ tự nhiên hoàn toàn ngữ pháp, hoàn toàn — ISN — mà nhóm trẻ lớn hơn chỉ có thể theo dõi một phần.</p>
 
-<p>Nhà ngôn ngữ học Mỹ <strong>Judy Kegl</strong> đã được mời nghiên cứu tình huống vào năm 1986. Bà nhanh chóng nhận ra những gì bà đang nhìn thấy là chưa từng có. Cùng với <strong>Ann Senghas</strong>, <strong>Marie Coppola</strong> và những người khác, bà đã ghi chép ngôn ngữ qua các lứa kể từ đó. Phát hiện cột mốc của họ:</p>
+<p>Nhà ngôn ngữ học Mỹ <strong>Judy Kegl</strong> được mời nghiên cứu tình huống này vào năm 1986. Cùng với <strong>Ann Senghas</strong>, <strong>Marie Coppola</strong> và các cộng sự, bà ghi chép ngôn ngữ theo từng nhóm tuổi và phân tích sự thay đổi ngữ pháp giữa các thế hệ:</p>
 
 <blockquote>"Nghiên cứu này cho thấy những đứa trẻ đầu tiên tạo ra ngôn ngữ đã bắt đầu phân tích các sự kiện phức tạp thành những yếu tố cơ bản, và sắp xếp các yếu tố đó thành những biểu đạt có cấu trúc thứ bậc, theo những nguyên tắc không quan sát thấy ở cử chỉ đi kèm lời nói trong ngôn ngữ xung quanh. Các lứa người học kế tiếp đã mở rộng quy trình này, biến việc ký hiệu ở Nicaragua từ hình thức cử chỉ ban đầu thành một hệ thống ngôn ngữ." — Senghas, Kita & Özyürek, <em>Science</em> 2004</blockquote>
 
 <p>Đây là sự hỗ trợ thực nghiệm trực tiếp cho ý tưởng rằng <strong>ngôn ngữ là một đầu ra sáng tạo của tâm trí trẻ em</strong>, không chỉ là một bản ghi thụ động của đầu vào. Trẻ em trong các lứa kế tiếp đã độc lập phát minh ra các đặc điểm — như phân hủy các sự kiện chuyển động thành các thành phần "đường đi" và "cách thức" — mà không có người lớn nào đã cho chúng, và trông giống đáng kể như các đặc điểm được ghi chép trong các ngôn ngữ ký hiệu được thiết lập khác.</p>
 
-<p>Ngày nay ISN có lẽ 3.000 người ký và một cộng đồng Người điếc mạnh mẽ được tổ chức thông qua <em>Asociación Nacional de Sordos de Nicaragua</em>. Đây là một trong những ngôn ngữ trẻ nhất trên Trái Đất, và không ngôn ngữ nào khác có ngữ pháp được theo dõi sát sao đến thế ngay khi còn đang hình thành: những năm pidgin của lứa đầu tiên phải được dựng lại từ chính những người ký hiệu ấy khi đã trưởng thành, nhưng từ năm 1986 trở đi, mọi lứa đều được ghi lại trên máy quay, trên giấy, và trong các ghi chú thực địa ngôn ngữ học.</p>
+<p>Ngày nay ISN có khoảng 3.000 người sử dụng và một cộng đồng người Điếc được tổ chức qua <em>Asociación Nacional de Sordos de Nicaragua</em>. Giai đoạn đầu của nhóm thứ nhất phải được tái dựng từ cách ký của họ khi trưởng thành; từ năm 1986, nhiều nhóm tuổi đã được ghi lại bằng video và ghi chép thực địa. Nguồn dữ liệu này được dùng để nghiên cứu cách ngữ pháp phát triển qua truyền đạt giữa các thế hệ.</p>
     `,
   },
   'mama-papa-universals': {
-    title: 'Tại sao hầu như mọi ngôn ngữ đều gọi mẹ là "mama"',
+    title: 'Vì sao mama xuất hiện trong lời trẻ nhỏ ở nhiều ngôn ngữ',
     summary: 'Từ tiếng Anh mama đến Quan Thoại māma, Swahili mama, Quechua mama, và Navajo amá — các ngôn ngữ không liên quan hội tụ về cùng một từ trẻ em. Roman Jakobson đã giải thích lý do vào năm 1960, và nó không liên quan gì đến tổ tiên chung.',
     body: `
 <p>Hãy chọn bất kỳ ngôn ngữ nào ngẫu nhiên. Hỏi nó nói "mẹ" như thế nào. Xác suất không thoải mái cao rằng từ bắt đầu bằng <strong>m</strong> và chứa <em>a</em>: tiếng Anh <em>mama</em>, Quan Thoại <em>māma</em>, Swahili <em>mama</em>, Quechua <em>mama</em>, Navajo <em>amá</em>, Welsh <em>mam</em>, Hebrew <em>imá</em>, Tagalog <em>nanay</em> / <em>mama</em>, Hindi <em>mā</em>, Malayalam <em>amma</em>, Hawaii <em>makuahine</em> / <em>māmā</em>. Bây giờ hỏi nó nói "cha" như thế nào. Trên một mẫu rộng lớn không kém, bạn nhận được <strong>papa, baba, tata, dada, abba, atta</strong> — một âm tắc môi hoặc đỉnh răng cộng với <em>a</em>.</p>
@@ -1107,7 +1095,7 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Lời kể của Jakobson cũng giải thích các ngoại lệ một cách thanh lịch. <strong>Tiếng Gruzia</strong> nổi tiếng đổi cặp: <em>mama</em> có nghĩa là "cha" và <em>deda</em> có nghĩa là "mẹ". Đây không phải là điều xấu hổ đối với lý thuyết — quan điểm của Jakobson là <em>mama</em> là từ đầu tiên dễ nhất, không phải là nó phải có nghĩa là "mẹ". Tiếng Gruzia chỉ đơn giản gắn dạng dễ nhất với tham chiếu hơi ít được mong đợi hơn. Tương tự, trong <strong>tiếng Nhật cổ</strong>, "mẹ" được tái cấu trúc là <em>papa</em> (<em>haha</em> hiện đại, với /p/ → /h/ thay đổi âm thanh đều đặn), và "cha" là <em>titi</em>.</p>
 
-<p>Vì vậy, khi một em bé tiếng Anh nói <em>mama</em>, một em bé Quan Thoại nói <em>māma</em>, và một em bé Swahili nói <em>mama</em>, không cần tổ tiên chung. Cùng sự dễ dàng phát âm gặp cùng người chăm sóc, và cùng từ được sinh ra — một cách độc lập, lặp đi lặp lại, trên mọi lục địa của lịch sử loài người.</p>
+<p>Sự giống nhau giữa tiếng Anh <em>mama</em>, Quan thoại <em>māma</em> và Swahili <em>mama</em> không nhất thiết bắt nguồn từ một tổ ngữ chung. Những âm dễ phát ra đối với trẻ nhỏ và cách người chăm sóc gán nghĩa cho chúng có thể tạo ra các dạng từ tương tự một cách độc lập ở nhiều cộng đồng.</p>
     `,
   },
   'pie-reconstruction': {
@@ -1141,4 +1129,3 @@ window.TRIVIA_I18N['vi'] = {
     `,
   },
 };
-

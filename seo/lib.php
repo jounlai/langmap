@@ -1583,6 +1583,47 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   border-radius: .6rem; padding: .35rem .7rem; font-size: .92rem; color: #6b5533; }
 .trivia-note a { color: var(--accent); text-decoration: none; }
 .trivia-note a:hover { text-decoration: underline; }
+
+/* In-article locator maps and comparison tables (seo_tri_minimap /
+   seo_tri_compare). The buttons in the body are instructions — "compare these
+   four", "zoom to the Kalahari" — and on a static page we can answer them in
+   place instead of only linking away. No script, no external request: the
+   coastlines are a pre-rendered SVG from tools/build_seo_minimaps.js and the
+   table is the same data the per-language pages already show. */
+.trivia-embed { margin: 1.6em 0; padding: 0; }
+/* .trivia-actions is a flex row of small note chips. A map or a table is not a
+   chip — give it the whole row rather than letting it share one with a link. */
+.trivia-actions .trivia-embed { flex: 1 0 100%; margin: .4em 0; }
+.trivia-embed figcaption { font-size: .95rem; color: var(--muted); margin: .5rem 0 0;
+  display: flex; flex-wrap: wrap; gap: .5rem; align-items: baseline; }
+.trivia-embed .trivia-embed-more { color: var(--accent); text-decoration: none;
+  font-size: .85rem; white-space: nowrap; }
+.trivia-embed .trivia-embed-more:hover { text-decoration: underline; }
+.trivia-minimap svg { display: block; width: 100%; height: auto;
+  border: 1px solid var(--line); border-radius: .6rem; background: #dce9f7; }
+.trivia-minimap .mm-sea { fill: #dce9f7; }
+.trivia-minimap .mm-land { fill: #f7f9fb; stroke: #9fb2c6; stroke-width: .7;
+  stroke-linejoin: round; }
+.trivia-minimap .mm-halo { fill: #e5484d; opacity: .2; }
+.trivia-minimap .mm-dot { fill: #e5484d; stroke: #fff; stroke-width: 2; }
+.trivia-minimap .mm-lang circle { fill: #1f2937; stroke: #fff; stroke-width: 1.5; }
+.trivia-minimap .mm-lang text { font: 600 13px system-ui, sans-serif; fill: #1f2937;
+  paint-order: stroke; stroke: #fff; stroke-width: 3.5px; stroke-linejoin: round; }
+.trivia-compare figcaption { margin: 0 0 .5rem; }
+.trivia-table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.trivia-compare table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+.trivia-compare th, .trivia-compare td { border: 1px solid var(--line);
+  padding: .45rem .7rem; text-align: left; vertical-align: top; }
+.trivia-compare thead th { background: var(--card); font-size: .85rem;
+  color: var(--muted); font-weight: 600; white-space: nowrap; }
+.trivia-compare tbody th { font-weight: 600; white-space: nowrap; }
+.trivia-compare tbody th a { color: var(--accent); text-decoration: none; }
+.trivia-compare tbody th a:hover { text-decoration: underline; }
+/* Family and speaker counts are prose ("~380M L1 + ~1.5B total (with L2)")
+   and will happily eat the width the word columns need. */
+.trivia-compare .tc-meta { font-size: .85rem; color: var(--muted); max-width: 15ch; }
+.trivia-compare .tc-form { display: block; }
+.trivia-compare .tc-ipa { display: block; color: var(--muted); font-size: .85rem; }
 .seo-tri-list { columns: 1; }
 .seo-tri-list li { margin: 0 0 1rem; }
 .seo-tri-sum { color: var(--muted); font-size: .95rem; margin-top: .15rem; }

@@ -66,12 +66,30 @@ function seo_tri_text(array $a, string $ui): array
  * or — where no such page exists, e.g. a single Han character — plain text.
  * The author's label is always preserved.
  */
-function seo_tri_links(string $html, string $map, string $ui, array $names = [], string $articleId = ''): string
+function seo_tri_links(string $html, string $map, string $ui, array $names = [], string $articleId = '', array $langs = [], array $wordLabels = []): string
 {
     $app = $map === 'hanmap' ? '/hanmap.html' : '/wordmap.html';
+    // Every language this article points at, collected before the rewrite so a
+    // locator map can mark the ones that fall inside its frame. A "pan here"
+    // button carries coordinates, not codes, and would otherwise have no way
+    // to know that the article is about Taa and Khoekhoe.
+    $articleCodes = [];
+    foreach (preg_match_all('#<button\b[^>]*>#i', $html, $bm) ? $bm[0] : [] as $tag) {
+        if (!preg_match('#data-actions?\s*=\s*["\']?(focus|compare)#i', $tag)) continue;
+        if (preg_match_all('#data-codes?\s*=\s*("([^"]*)"|\'([^\']*)\'|([^\s>]+))#i', $tag, $cm, PREG_SET_ORDER)) {
+            foreach ($cm as $one) {
+                $val = $one[2] !== '' ? $one[2] : ($one[3] !== '' ? $one[3] : ($one[4] ?? ''));
+                foreach (preg_split('#[,\s]+#', $val, -1, PREG_SPLIT_NO_EMPTY) ?: [] as $c) {
+                    if (preg_match('#^[A-Za-z0-9_:\-]+$#', $c)) $articleCodes[$c] = true;
+                }
+            }
+        }
+    }
+    $articleCodes = array_keys($articleCodes);
+
     return preg_replace_callback(
         '#<button\b([^>]*)>(.*?)</button>#si',
-        static function (array $m) use ($map, $ui, $names, $app, $articleId): string {
+        static function (array $m) use ($map, $ui, $names, $app, $articleId, $langs, $wordLabels, $articleCodes): string {
             $attrs = $m[1];
             $label = trim($m[2]);
             // The attribute value may be double-quoted, single-quoted or bare.
@@ -106,6 +124,10 @@ function seo_tri_links(string $html, string $map, string $ui, array $names = [],
                     // Literal commas, matching the hash the app writes itself
                     // (see the URLSearchParams %2C fix-up in hanmap.html).
                     $href = $app . '#p=' . $lat . ',' . $lng . ',' . $z;
+                    if ($langs) {
+                        $fig = seo_tri_minimap($lat, $lng, $z, $label, $langs, $articleCodes, $ui, $href);
+                        if ($fig !== '') return $fig;
+                    }
                     return '<span class="trivia-note"><a href="' . e($href) . '">' . $label . '</a></span>';
                 }
             }
@@ -121,6 +143,12 @@ function seo_tri_links(string $html, string $map, string $ui, array $names = [],
                 return '<span class="trivia-note">' . $label . '</span>';
             }
 
+            // Two or more languages named together is a comparison; show it.
+            if (count($targets) > 1 && $langs) {
+                $fig = seo_tri_compare($targets, $langs, $wordLabels, $ui, $map, $label, $get('data-word'));
+                if ($fig !== '') return $fig;
+            }
+
             $links = [];
             foreach ($targets as $c) {
                 // Distinct variable: $label is the author's button text and must
@@ -133,6 +161,130 @@ function seo_tri_links(string $html, string $map, string $ui, array $names = [],
         },
         $html
     ) ?? $html;
+}
+
+
+/* ── Rich in-article blocks ───────────────────────────────────────────────
+   The map controls are instructions: "compare these four languages", "zoom
+   to the Kalahari". Turning them into links was enough to make them work,
+   but the reader still has to leave the article to see what they are being
+   told about. On the server-rendered pages we can just show it — a locator
+   map for a place, a comparison table for a set of languages — and still
+   ship plain HTML with no script and no external request. ------------------ */
+
+/** Web Mercator, matching Leaflet and tools/build_seo_minimaps.js. */
+function seo_merc(float $lat, float $lng, float $z): array
+{
+    $scale = 256 * pow(2, $z);
+    $s = sin(max(-85.05112878, min(85.05112878, $lat)) * M_PI / 180);
+    return [($lng + 180) / 360 * $scale, (0.5 - log((1 + $s) / (1 - $s)) / (4 * M_PI)) * $scale];
+}
+
+/**
+ * Locator map for a "pan to here" control.
+ *
+ * The coastlines are a pre-rendered SVG (57 of them cover the whole corpus,
+ * and they are the same in every language). The pins are added here, because
+ * WHICH languages are worth marking depends on the article and their names
+ * depend on the UI — so a static file could not carry them.
+ */
+function seo_tri_minimap(string $lat, string $lng, string $z, string $label, array $langs, array $codes, string $ui, string $href): string
+{
+    $key = str_replace(['.', '-'], ['p', 'm'], (float)$lat . '_' . (float)$lng . '_' . (float)$z);
+    $file = __DIR__ . '/minimaps/' . $key . '.svg';
+    if (!is_file($file)) return '';
+    $svg = file_get_contents($file);
+    if ($svg === false) return '';
+
+    // Project the article's own languages into the frame and keep the ones
+    // that actually land inside it.
+    [$cx, $cy] = seo_merc((float)$lat, (float)$lng, (float)$z);
+    $W = 720; $H = 380;
+    $pins = '';
+    $placed = [];
+    foreach ($codes as $c) {
+        $l = $langs[$c] ?? null;
+        if (!$l || !isset($l['lat'], $l['lng'])) continue;
+        [$px, $py] = seo_merc((float)$l['lat'], (float)$l['lng'], (float)$z);
+        $x = $px - $cx + $W / 2;
+        $y = $py - $cy + $H / 2;
+        if ($x < 8 || $x > $W - 8 || $y < 8 || $y > $H - 8) continue;
+        // Don't stack two labels on the same spot.
+        foreach ($placed as [$qx, $qy]) if (abs($qx - $x) < 60 && abs($qy - $y) < 16) continue 2;
+        $placed[] = [$x, $y];
+        $name = seo_lang_name($langs, $c, $ui);
+        // Flip the label to the left half when the pin is near the right edge.
+        $anchor = $x > $W - 170 ? 'end' : 'start';
+        $tx = $anchor === 'end' ? $x - 10 : $x + 10;
+        $pins .= '<g class="mm-lang"><circle cx="' . round($x, 1) . '" cy="' . round($y, 1) . '" r="4"/>'
+            . '<text x="' . round($tx, 1) . '" y="' . round($y + 4, 1) . '" text-anchor="' . $anchor . '">'
+            . e($name) . '</text></g>';
+    }
+    if ($pins !== '') $svg = str_replace('</svg>', $pins . '</svg>', $svg);
+
+    return '<figure class="trivia-embed trivia-minimap">'
+        . $svg
+        . '<figcaption>' . $label . ' <a class="trivia-embed-more" href="' . e($href) . '">'
+        . e(seo_t($ui, 'open_map')) . '</a></figcaption>'
+        . '</figure>';
+}
+
+/**
+ * Comparison table for a "compare these languages" control.
+ *
+ * Family, speaker count and the word forms are all already in the SEO data —
+ * the same fields the per-language pages show — so the table is the article
+ * saying "compare X and Y" and then actually doing it.
+ */
+function seo_tri_compare(array $targets, array $langs, array $wordLabels, string $ui, string $map, string $label, string $word = ''): string
+{
+    $rows = [];
+    foreach ($targets as $c) {
+        if (isset($langs[$c])) $rows[$c] = $langs[$c];
+    }
+    if (count($rows) < 2) return '';
+
+    // Concepts every compared language actually has, most basic first, so the
+    // table never shows a column of dashes. The control may name one itself.
+    $prefer = ['water', 'one', 'two', 'three', 'sun', 'moon', 'fire', 'eye', 'hand',
+        'name', 'dog', 'fish', 'tree', 'mother', 'father', 'house', 'i', 'you', 'we'];
+    if ($word !== '') array_unshift($prefer, $word);
+    $cols = [];
+    foreach ($prefer as $w) {
+        if (in_array($w, $cols, true)) continue;
+        foreach ($rows as $l) if (empty($l['words'][$w][0])) continue 2;
+        $cols[] = $w;
+        if (count($cols) === 3) break;
+    }
+
+    $h = '<figure class="trivia-embed trivia-compare"><figcaption>' . $label . '</figcaption>'
+        . '<div class="trivia-table-scroll"><table><thead><tr>'
+        . '<th>' . e(seo_t($ui, 'picker')) . '</th>'
+        . '<th>' . e(seo_t($ui, 'family')) . '</th>'
+        . '<th>' . e(seo_t($ui, 'speakers')) . '</th>';
+    foreach ($cols as $w) $h .= '<th>' . e($wordLabels[$w][$ui] ?? $wordLabels[$w]['en'] ?? $w) . '</th>';
+    $h .= '</tr></thead><tbody>';
+    foreach ($rows as $c => $l) {
+        // WordMap nests these under meta, HanMap keeps them top-level.
+        $family   = $l['meta']['family']   ?? $l['family']   ?? '';
+        $speakers = $l['meta']['speakers'] ?? $l['speakers'] ?? '';
+        $h .= '<tr><th scope="row"><a href="' . e(seo_path($ui, $map, $c)) . '">'
+            . e(seo_lang_name($langs, $c, $ui)) . '</a></th>'
+            . '<td class="tc-meta">' . e($family !== '' ? seo_meta_value($ui, $family) : '—') . '</td>'
+            // Speaker counts start with "~" and often mix Latin digits into an
+            // RTL cell; <bdi> keeps "~2.5K" from rendering as "2.5K~" in Arabic
+            // and Hebrew.
+            . '<td class="tc-meta"><bdi>' . e($speakers !== '' ? seo_meta_value($ui, $speakers) : '—') . '</bdi></td>';
+        foreach ($cols as $w) {
+            $cell = $l['words'][$w] ?? null;
+            $h .= '<td>' . ($cell
+                ? '<span class="tc-form">' . e($cell[0]) . '</span>'
+                    . (!empty($cell[1]) ? '<span class="tc-ipa">/' . e($cell[1]) . '/</span>' : '')
+                : '—') . '</td>';
+        }
+        $h .= '</tr>';
+    }
+    return $h . '</tbody></table></div></figure>';
 }
 
 /** Articles sharing the most tags with $id, for a "read next" block. */
@@ -156,6 +308,17 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
     $a = $byId[$id];
     $t = seo_tri_text($a, $ui);
     $map = ($a['map'] ?? 'wordmap') === 'hanmap' ? 'hanmap' : 'wordmap';
+
+    // The article's own map data: coordinates and family/speaker facts for the
+    // locator maps and comparison tables built into the body. Word labels come
+    // from the Word Map either way — a Han Map article that compares languages
+    // still wants "Water" spelled in the reader's language.
+    $mapData    = seo_data($map);
+    $mapLangs   = $mapData['langs'] ?? [];
+    $wordLabels = [];
+    foreach ((seo_data('wordmap')['words'] ?? []) as $w) {
+        if (!empty($w['id'])) $wordLabels[$w['id']] = $w['label'] ?? [];
+    }
 
     $title = trim(($a['icon'] ? $a['icon'] . ' ' : '') . $t['title']);
     $canonical = SEO_SITE . seo_path($ui, 'trivia', $id);
@@ -189,7 +352,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
 <?php endif; ?>
 
 <article class="seo-section seo-prose">
-  <?= seo_tri_links($t['body'], $map, $ui, $data['names'] ?? [], $id) ?>
+  <?= seo_tri_links($t['body'], $map, $ui, $data['names'] ?? [], $id, $mapLangs, $wordLabels) ?>
 </article>
 
 <?php if (!empty($a['sources'])): ?>

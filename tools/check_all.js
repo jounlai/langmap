@@ -71,6 +71,11 @@ line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/
 s = run('korean_hist_font_check.js');
 line('Old Hangul font coverage', num(s, /problems: (\d+)/));
 
+// The SSR trivia pages inline these; a new "pan to here" control with no
+// pre-rendered map silently falls back to a bare link.
+s = run('build_seo_minimaps.js --check');
+line('trivia locator maps fresh', num(s, /stale: (\d+)/));
+
 // NOTE: tools/script_family_check.js (surface writing system vs the rest of the
 // corpus) is deliberately NOT wired in yet — it still reports real deviations
 // (cuckoo haj/kry, ear otk/rhg, i kho/khb, tea kaa, orange mn_cn, rain pi_edu)

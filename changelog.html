@@ -143,6 +143,16 @@
         <nav class="month-nav">Months: <strong>2026-08</strong> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-09-01 — The article pages now show you the thing instead of linking to it 🗺️</div>
+            <ul>
+                <li><strong>The reading pages carry little instructions — "compare Taa, Khoekhoe, Xhosa and Zulu", "zoom to the Kalahari" — and until now they were only links.</strong> You had to leave the article, load the map, and come back. Now the page just answers them where they stand: a set of languages becomes an actual comparison table, and a place becomes an actual map.</li>
+                <li><strong>The comparison tables use the same facts the language pages do</strong> — family, speaker numbers, and the word forms with their pronunciation — so the click-language article now shows you ǃqhàa, ǁgam-i and amanzi side by side rather than telling you to go and look. Where the article names a word, that word is the first column.</li>
+                <li><strong>The maps are drawn from the site's own country outlines, at build time.</strong> Fifty-seven locations cover every article. There is no script on the page, nothing is fetched from anywhere, and the languages the article is about are pinned on the map with their names in your language — Pirahã shows up as ピダハン語 on the Japanese page and as пирахан on the Russian one.</li>
+                <li>Both work with no JavaScript and are in the page source, so they are readable by anyone the interactive map does not reach — and a search engine sees the table too.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-08-31 — Middle Korean was unreadable on the Word Order map, and one letter had been left out of the atlas entirely ᄆᆞ</div>
             <ul>
                 <li><strong>Old Hangul — the 15th-century letters with the dot vowel ᆞ, ᄆᆞᄅᆞᆯ, ᄒᆞ노라 — needs a font almost nobody has.</strong> Google's Korean webfonts leave the whole block out, iPhones have nothing for it, and desktop Chrome puts the letters side by side instead of stacking them into syllables. The Word Map and the Han Map each shipped their own hand-cut font for it. The <strong>Word Order map never had one</strong>, so every Middle Korean sentence on the front page — 나ᄂᆞᆫ 새로온 ᄆᆞᄅᆞᆯ … — has been broken or blank for its whole life. Reported by the owner.</li>

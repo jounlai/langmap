@@ -1358,5 +1358,37 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     `validate_wordmap_data.js`, which had been silently returning nothing since the font became a
     WOFF2. All three failure modes were verified to fail the guard before shipping.
 
+71. **SSR articles answer their own map controls now.** Owner asked whether the "compare these
+    four languages" and "zoom to the Kalahari" lines could show a table and a map instead of just
+    linking away. Both are built in `seo/trivia.php`:
+
+    - **`seo_tri_compare()`** — any control naming 2+ languages becomes a table: name (linked to
+      its SSR page), family, speakers, and up to three word columns. The columns are chosen as the
+      first concepts *every* compared language actually has, from a most-basic-first list, so a
+      column of dashes is impossible; `data-word` on the control jumps its own concept to the
+      front. 14 controls in the corpus, 133 tables across the 19 UIs.
+    - **`seo_tri_minimap()`** — a `panto` control becomes a locator map. The coastlines are
+      pre-rendered SVG from `tools/build_seo_minimaps.js`; **only 57 distinct coordinates exist in
+      the whole corpus** and they are language-independent, so one file serves all 19 UIs. The
+      *pins* are projected in PHP at render time, because which languages are worth marking depends
+      on the article (taken from its own focus/compare controls) and their names depend on the UI.
+      880 maps across the corpus.
+
+    **Why not a real map:** the SSR pages are plain HTML with no Leaflet, pulling the app in would
+    cost megabytes, and a tile service means an API key we must never ship plus an external request
+    per article view. Drawing from the `countries.geojson` the site already self-hosts costs
+    nothing at runtime, needs no script, and puts the map in the HTML source where a crawler sees
+    it. Simplification is done in **projected pixels** (1.1px) so a world view and a city view are
+    both as detailed as they need to be and no more; rings under 2px are dropped. Worst page is
+    31 KB gzipped, average 51 KB raw.
+
+    **If you add a `panto` control, run `node tools/build_seo_minimaps.js`** — `check_all` has a
+    `trivia locator maps fresh` guard, and without the file the control silently degrades to the
+    old plain link rather than breaking.
+
+    No new i18n keys: the table reuses `picker`/`family`/`speakers` and the map caption reuses
+    `open_map`, all of which already exist in the 19 `SEO_T` blocks. Speaker counts are wrapped in
+    `<bdi>` — "~2.5K" rendered as "2.5K~" in Arabic and Hebrew without it.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

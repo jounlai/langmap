@@ -1390,5 +1390,30 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     `open_map`, all of which already exist in the 19 `SEO_T` blocks. Speaker counts are wrapped in
     `<bdi>` — "~2.5K" rendered as "2.5K~" in Arabic and Hebrew without it.
 
+72. **Trivia prose has a written standard now: `docs/trivia-writing-guide.md`.** Owner asked whether
+    the 2026-08-31 Codex pass went the right way and what else to say. Short answer: the hard rules
+    it enforced were right, the register it moved to was not quite.
+
+    Measured over the 39k English words, before → after: superlatives 56 → 35, `not just X but Y`
+    17 → 2, evaluative adjectives 31 → 12, reader address 82 → 63 — all intended and all good. But
+    **hedges went 39 → 48** and are now the densest marker in the corpus. Hype and hedge are the
+    same failure — register applied on top of content instead of content — and the pass swapped one
+    for the other in places, along with a drift from writing about a language to writing about the
+    literature on it ("the feature most often discussed in cognitive-linguistic research").
+
+    Concrete regressions the guide exists to prevent, all found by diffing rather than reading:
+    a checkable claim traded for a vaguer one (`tea-tea-cha-cha`, "almost perfectly binary" →
+    "unusually widespread"); a date lost inside a de-hyped sentence while 18 other languages kept
+    it (1543 in `kokugo-versus-kango`, since restored); a Japanese heading left promising something
+    its rewritten body no longer delivers (`tangut-3000-syllables`). Number density across the
+    corpus was NOT a casualty — 171.9 → 174.0 per 10k words — so the concreteness worry was local,
+    not systemic.
+
+    The guide is also where the multilingual rules live, because that is the least finished part:
+    edit English first then port, never machine-translate the fix into the other 18, and a title
+    change is not done until all 19 are done (33 articles are currently mid-flight). §6 records
+    what `seo/trivia.php` does with each control type, which is now a reason to prefer a `compare`
+    control over a `focus` one — it renders as a real table.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

@@ -626,6 +626,11 @@
             if(currentId) parts.push('n='+currentId);
             parts.push('l='+uiLang);
             parts.push('s='+Math.round(fontScale*100));
+            // Simple display. Emitted only when on, like the other toggles, so
+            // an ordinary link stays short. NameMap does not persist this in
+            // localStorage the way WordMap and HanMap do, so the URL is the
+            // only place it lives.
+            if(document.body.classList.contains('chrome-hidden')) parts.push('simple=1');
             if(map && map.getCenter){
                 const c=map.getCenter();
                 parts.push('c='+c.lat.toFixed(2)+','+c.lng.toFixed(2));
@@ -647,6 +652,17 @@
                 try{ window.dispatchEvent(new CustomEvent('langmap:uichange',{detail:{lang:uiLang}})); }catch(e){}
             }
             if(o.s){ const v=parseInt(o.s,10); if(v>=70&&v<=160 && v/100!==fontScale){ fontScale=v/100; applyFontScale(); } }
+            {   // Absent means off here: with nothing persisted there is no
+                // stored preference for an absent param to defer to.
+                const want = o.simple === '1';
+                if(document.body.classList.contains('chrome-hidden') !== want){
+                    document.body.classList.toggle('chrome-hidden', want);
+                    const cb=document.getElementById('chrome-toggle');
+                    if(cb) cb.setAttribute('aria-pressed', want?'true':'false');
+                    if(want) closeInfoSheet();
+                    if(map) setTimeout(()=>map.invalidateSize(), 60);
+                }
+            }
             if(o.n && NAMES[o.n] && o.n!==currentId) selectName(o.n,{push:false});
             if(o.c && o.z && map){
                 const p=o.c.split(','); const lat=+p[0], lng=+p[1], z=+o.z;
@@ -1036,6 +1052,12 @@
             const st0=readState();
             if(st0.l && T[st0.l]) uiLang=st0.l;
             if(st0.s){ const v=parseInt(st0.s,10); if(v>=70&&v<=160) fontScale=v/100; }
+            // Simple display, applied before the first paint of the chrome.
+            if(st0.simple === '1'){
+                document.body.classList.add('chrome-hidden');
+                const _cb0=document.getElementById('chrome-toggle');
+                if(_cb0) _cb0.setAttribute('aria-pressed','true');
+            }
             // The shim guessed a UI language from the cookie during parse; ?l=
             // in the URL overrides it, so pull that slice too and repaint once
             // it lands. Memoized, and a no-op when the guess was right.
@@ -1078,6 +1100,7 @@
                 chromeBtn.setAttribute('aria-pressed', hidden?'true':'false');
                 if(hidden) closeInfoSheet();
                 if(map) setTimeout(()=>map.invalidateSize(), 60);
+                updateHash();   // keep the shareable URL in step
             });
             document.addEventListener('click', e=>{ if(e.target && e.target.id==='nm-info-close') closeInfoSheet(); });
             // URL tracks the map view (pan / zoom), debounced.

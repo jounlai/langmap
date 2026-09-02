@@ -1438,5 +1438,27 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     translation. That is translation backlog rather than regression (they were never ported), so it
     is counted, not listed, and does not fail.
 
+74. **Simple display (`chrome-hidden`) is in the URL: `#simple=1`.** Owner request. Added to
+    wordmap, hanmap and namemap — all three have the toggle.
+
+    **Precedence, and why it is asymmetric.** `simple=1` in the hash wins over
+    `localStorage['wm-chrome-hidden']`, and is applied by the pre-body FOUC script so there is no
+    flash of full chrome. But **an absent param does NOT mean off** — almost no URL carries it, and
+    reading absence as "off" would wipe the saved preference on every visit. Absent = fall through
+    to localStorage. An explicit `simple=0` does force it off. NameMap is the exception: it never
+    persisted the mode, so there absence genuinely means off.
+
+    Emitted only when on, matching the house convention for `nat`/`hist`/`pin`/`only`. One extra
+    step was needed: when the mode comes from localStorage rather than the URL, the hash would not
+    say so, and the share button copies the hash — so the toggle script writes it once on `load` if
+    the class is set and the param is missing.
+
+    **Side effect worth knowing:** `updateHash()` is block-scoped in both maps, so the toggle script
+    could not call it. wordmap already exposed `window.__langmap.updateHash` (for my-languages.js);
+    hanmap did **not**, even though its Reading-quiz modal had been calling
+    `window.__langmap.updateHash` at open and close since it was written. That call had always been
+    a no-op — `play=hquiz` was never written to the URL. Exposing the function for the chrome toggle
+    fixed the quiz deep link too; verified in the browser.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

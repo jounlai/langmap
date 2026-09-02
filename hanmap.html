@@ -2652,6 +2652,17 @@
         // rules in styles.css. The body-class transfer happens in Step 3.
         // Spec: docs/superpowers/specs/2026-05-26-chrome-toggle-design.md
         (function () {
+            // `simple=1` in the URL wins over the stored preference, so a shared
+            // link opens the way its sender saw it. Its ABSENCE does not mean
+            // "off" — almost no URL carries the param, and reading it that way
+            // would wipe the saved choice on every visit. Absent = fall through
+            // to localStorage.
+            try {
+                if (/(^|[#&])simple=1(&|$)/.test(location.hash)) {
+                    document.documentElement.dataset.wmChrome = 'hidden';
+                    return;
+                }
+            } catch (e) { /* no hash — carry on to the stored preference */ }
             try {
                 if (localStorage.getItem('wm-chrome-hidden') === '1') {
                     document.documentElement.dataset.wmChrome = 'hidden';
@@ -3113,8 +3124,21 @@
                         document.body.classList.contains('chrome-hidden') ? '1' : '0');
                 } catch (e) { /* silent — toggle still works for the session */ }
                 refreshLabels();
+                // Keep the shareable URL in step with what is on screen.
+                if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash();
             });
             refreshLabels();
+
+            // If the mode came from the stored preference rather than the URL,
+            // the hash does not say so yet — and the share button copies the
+            // hash. Write it once the map's updateHash exists, so a link copied
+            // from simple display opens in simple display.
+            if (document.body.classList.contains('chrome-hidden')
+                && !/(^|[#&])simple=1(&|$)/.test(location.hash)) {
+                window.addEventListener('load', function () {
+                    if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash();
+                }, { once: true });
+            }
 
             // Re-apply labels when UI lang changes. Hook into applyUILang()
             // via a small global (Step 5 wires the call site).
@@ -8292,6 +8316,8 @@
             if (!showIpa)    params.set('w_ipa', '0');
             if (!showName)   params.set('w_name', '0');
             if (showPins)    params.set('pin', '1');   // default OFF — emit only when on
+            if (document.body.classList.contains('chrome-hidden'))
+                params.set('simple', '1');             // default: off
             if (uiLang !== detectBrowserLang()) params.set('ui', uiLang);  // default: the viewer's own browser language
             if (is3D) {
                 params.set('g3d', '1');
@@ -8370,6 +8396,19 @@
                 eraHistorical.classList.toggle('active', showHistorical);
                 eraModern.setAttribute('aria-checked', String(!showHistorical));
                 eraHistorical.setAttribute('aria-checked', String(showHistorical));
+            }
+            // Simple-display mode. The pre-body FOUC script already applied it
+            // on first paint; this is for back/forward and hand-edited URLs.
+            // Absent means "leave it alone", not "off" — see that script for why.
+            const simpleParam = params.get('simple');
+            if (simpleParam === '0' || simpleParam === '1') {
+                const wantSimple = simpleParam === '1';
+                if (document.body.classList.contains('chrome-hidden') !== wantSimple) {
+                    document.body.classList.toggle('chrome-hidden', wantSimple);
+                    if (typeof window.__refreshChromeToggleLabels === 'function') {
+                        window.__refreshChromeToggleLabels();
+                    }
+                }
             }
             const fs = parseInt(params.get('fs'));
             if (Number.isFinite(fs) && fs >= 50 && fs <= 200) {
@@ -8487,6 +8526,9 @@
         window.addEventListener('hashchange', applyHashState);
         // Also expose so other code paths (search/option) can guard if needed.
         window.__langmap.isApplyingHash = () => _applyingHashState;
+        // updateHash() is scoped to this block, but the chrome-toggle lives in
+        // its own <script> and has to refresh the URL when it flips.
+        window.__langmap.updateHash = updateHash;
 
         // rAF-throttled connector update — keeps line glued to the label
         // during continuous map drag/zoom without re-layout thrashing.

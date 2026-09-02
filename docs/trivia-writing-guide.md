@@ -238,13 +238,47 @@ Consequences for writing:
 
 ---
 
-## 7. Before committing
+## 7. The checker
+
+`node tools/trivia_style_check.js` enforces §1 and reports on the rest. Every defect this corpus has
+actually shipped was invisible to a reader of any single page — a year that survived in 18 languages
+and vanished from the 19th, an English button label under Japanese prose, an invented quotation with
+a real name on it — so they are found by comparing bodies, not by reading them.
+
+**Hard (exit code 1):**
+
+| check | what it catches |
+|---|---|
+| §1.1 | a `<blockquote>` or quoted sentence attributed to a named person while admitting it is a paraphrase, in any of `paraphrase / 意訳 / 의역 / 转述 / diễn giải / …` |
+| §1.2 | a **4-digit year** present in English and in 14+ translations but missing from 1–4 of them — the signature of an edit that dropped a fact |
+| §1.3 | a button label byte-identical to its English original in a non-English body |
+
+**Advisory (never fails):** hedge density per 10k words with the worst articles named; English headings
+making a superlative claim, for a human to check against the body; and titles carrying an unhedged
+superlative counted per language, so an English-only pass shows up as `en 1` beside `yue 4`.
+
+Two deliberate limits, stated rather than hidden:
+
+- **Only years are compared, not all figures.** English "750,000" is 「75万」 in Japanese and
+  "750 mil" in Portuguese; a check that flagged those would report hundreds of non-problems and be
+  switched off within a week. Everything other than a year stays a human diff.
+- **Superlative patterns are written for `en ja ko zh yue vi` only.** The other thirteen are named in
+  the output as unchecked rather than silently passing.
+
+The checker is **not** wired into `check_all.js`, because it currently reports four pre-existing
+translation gaps (see the handoff) and a guard that starts red gets ignored. Wire it in once those
+are closed.
+
+---
+
+## 8. Before committing
 
 1. `node tools/check_all.js` green.
-2. Diff the numbers and proper nouns, not just the prose (§1.2).
-3. Every `<blockquote>` and quoted sentence traces to a real source (§1.1).
-4. Button labels translated in all 19 bodies (§1.3).
-5. Headings still entailed by their bodies (§4).
-6. If the English title changed, the other 18 changed too — or it is recorded as outstanding (§5).
-7. `node tools/export_trivia_seo.js` and `node tools/build_trivia_index_links.js`, then
+2. `node tools/trivia_style_check.js` — no new hard problems (§7).
+3. Diff the numbers and proper nouns, not just the prose (§1.2).
+4. Every `<blockquote>` and quoted sentence traces to a real source (§1.1).
+5. Button labels translated in all 19 bodies (§1.3).
+6. Headings still entailed by their bodies (§4).
+7. If the English title changed, the other 18 changed too — or it is recorded as outstanding (§5).
+8. `node tools/export_trivia_seo.js` and `node tools/build_trivia_index_links.js`, then
    `node tools/bump_versions.js`.

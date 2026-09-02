@@ -1415,5 +1415,28 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     what `seo/trivia.php` does with each control type, which is now a reason to prefer a `compare`
     control over a `focus` one — it renders as a real table.
 
+73. **`tools/trivia_style_check.js` — the guide, enforced where it can be.** Three hard checks
+    (fabricated quotations, a year present in English and 14+ translations but missing from 1–4 of
+    them, button labels still in English) plus advisories for hedge density and superlative titles
+    per language. All three hard checks were verified to fire by deliberately reintroducing each
+    defect before shipping.
+
+    **It reports 4 pre-existing problems, all real, all needing prose in a language I could not
+    write safely:**
+
+    - `phagspa-universal-script.yue` — the Ledyard sentence is there but without 「1966年博士論文」;
+      the other 17 carry the year. Smallest of the four, a one-phrase insertion.
+    - `bai-language-script.yue` — the Cantonese body has no 1958 Latin Scheme section at all.
+    - `sumerian-first-writing.th` — the "by around 2000 BCE Sumerian had died out as a mother
+      tongue" passage is missing its date.
+    - `manchu-script-origins.th` — same shape, the 1764 Sibe garrison relocation.
+
+    Because of those four the checker is **not** in `check_all.js` — a guard that starts red gets
+    ignored. Close them, then wire it in.
+
+    A separate advisory count: **34 years across 16 articles** exist in the English body and in no
+    translation. That is translation backlog rather than regression (they were never ported), so it
+    is counted, not listed, and does not fail.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

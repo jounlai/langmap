@@ -619,6 +619,7 @@ WORDS.hand = {
     crn: ["mam", "mam"],
     emy: ["kʼab", "kʼab"],
     p_ine: ["*ǵʰésr̥", "ǵʰésr̩"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*ta", "ta"],
     p_kor: ["*son", "son"],
     ptrk: ["*elig", "elig"],

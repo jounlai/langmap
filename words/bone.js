@@ -532,6 +532,7 @@ WORDS.bone = {
     crn: ["ɨka", "ɨka"],
     emy: ["baak", "ɓaːk"],
     p_ine: ["*h₃ésth₁", "h₃ésth₁"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*pone", "pone"],
     p_kor: ["*spyə", "spjə"],
     ptrk: ["*süŋük", "süŋük"],

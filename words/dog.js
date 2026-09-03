@@ -619,6 +619,7 @@ WORDS.dog = {
     crn: ["tsɨ'ɨ", "tsɨʔɨ"],
     emy: ["peekʼ", "peːkʼ"],
     p_ine: ["*ḱwṓ", "ḱwóː"],
+    p_toc: ["*ku", "ku"],   // Wiktionary PT (Adams 2013); A ku, B ku
     p_jpn: ["*inu", "inu"],
     p_kor: ["—", "—"],
     ptrk: ["*ït", "ït"],

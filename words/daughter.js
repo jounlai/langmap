@@ -71,6 +71,7 @@ WORDS.daughter = {
 
     // --- *dʰugh₂tḗr, branch by branch ---------------------------------
     p_ine: ["*dʰugh₂tḗr", "dʰugh₂téːr"],
+    p_toc: ["*t(ŭ)kācēr", "tkaːtseːr"],   // Wiktionary PT; A ckācar, B tkācer
     sa: ["दुहितृ", "duhitr̩"],
     h_vedic: ["दुहितृ", "duhitr̩"],
     pi: ["धीता", "dʰiːtaː"],

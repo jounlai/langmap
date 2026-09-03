@@ -625,6 +625,7 @@ WORDS.moon = {
     crn: ["mɨhka", "mɨhka"],
     emy: ["uh", "uh"],
     p_ine: ["*méh₁not", "méh₁not"],
+    p_toc: ["*mēñē", "meːɲeː"],   // Wiktionary PT; A mañ, B meñe
     p_jpn: ["*tukuy", "tukuy"],
     p_kor: ["*tʌr", "tʌr"],
     ptrk: ["*āń", "āń"],

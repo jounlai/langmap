@@ -619,6 +619,7 @@ WORDS.drink = {
     crn: ["hi'i", "hiʔi"],
     emy: ["ukʼ", "ukʼ"],
     p_ine: ["*peh₃-", "peh₃"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*nəm-", "nəm"],
     p_kor: ["—", "—"],
     ptrk: ["*ič-", "ič"],

@@ -619,6 +619,7 @@ WORDS.cat = {
     crn: ["mistú", "mistu"],
     emy: ["miis", "miːs"],
     p_ine: ["—", "—"],
+    p_toc: ["—", "—"],   // domestic cat post-dates the proto-stage, as for p_ine
     p_jpn: ["—", "—"],
     p_kor: ["—", "—"],
     ptrk: ["—", "—"],

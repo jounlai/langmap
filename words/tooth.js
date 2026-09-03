@@ -557,6 +557,7 @@ WORDS.tooth = {
     crn: ["tame", "tame"],
     emy: ["eh", "eh"],
     p_ine: ["*h₃dónts", "h₃donts"],
+    p_toc: ["*keme", "keme"],   // Wiktionary PT; A kam, B keme
     p_jpn: ["*pa", "pa"],
     p_kor: ["*ni", "ni"],
     ptrk: ["*dīĺ", "diːɬ"],

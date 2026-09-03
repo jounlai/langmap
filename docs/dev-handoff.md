@@ -6,7 +6,7 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 ---
 
 ## Current state
-- Dataset: **1164 languages** (`wordmap_data.js` header must match — it's validated).
+- Dataset: **1165 languages** (`wordmap_data.js` header must match — it's validated).
 - Branch `main`, working tree clean. Last commit `8ab7ce9`.
 - `node tools/check_all.js` is **green**; keep it green before every commit.
 
@@ -1459,6 +1459,63 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     `window.__langmap.updateHash` at open and close since it was written. That call had always been
     a no-op — `play=hquiz` was never written to the URL. Exposing the function for the chrome toggle
     fixed the quiz deep link too; verified in the browser.
+
+75. **Proto-Tocharian added as `p_toc` (1164 → 1165 languages).** Request from `langmap-marketing`
+    (`requests/langmap_proto_tocharian.md`): SNS post #328 traces PIE *médʰu → Proto-Tocharian →
+    Old Chinese 蜜 *mit, and the map showed only `txb`/`xto`, whose manuscripts are 5th-10th c. CE
+    — later than Old Chinese, so a reader could correctly object that the dates do not work. The
+    lender is the proto-stage; `txb`/`xto` are witnesses. Meier & Peyrot's own formulation is a loan
+    from "the Tocharian etymon **represented by** Tocharian B mit".
+
+    **The three decisions the request left open, and the reasoning:**
+
+    - **Code `p_toc`.** The 21 existing protos split 10/11 between `p_xxx` and `pxxx` with no rule,
+      so this follows the requester's suggestion.
+    - **44.0N, 87.0E** — north of the Tianshan, not on either daughter's oasis (Toch A Karashahr
+      41.6/84.9, Toch B Kucha 41.7/82.95). Colocating would read as "same place, same time", the
+      exact misreading the row exists to prevent. Tocharian speakers are generally held to have
+      entered the Tarim from the north. Round numbers are the house signal for an approximation, as
+      with p_ine (47/39) and ptrk (48/100); `locationBasis: 'approx-region'`.
+    - **`period: "10–1cBCE"`.** Wikipedia's Tocharian languages article: "A common Proto-Tocharian
+      language must precede the attested languages by several centuries, probably dating to the late
+      1st millennium BC." The band is deliberately wide because earlier estimates circulate; the
+      description says the dating is not settled rather than asserting one.
+
+    **17 word cells, every one from a published reconstruction** — honey, water, mother, daughter,
+    moon, blood, tongue, tooth, heart, three, four, five, hundred, dog, white, earth, wind. Each
+    carries its source in an inline comment. **Nothing was reconstructed by comparing Toch A and B
+    myself** — that is research, not data entry, and the request explicitly forbade it. Confirmation
+    that the lemmas are the right ones: every Wiktionary Proto-Tocharian entry's listed A/B
+    descendants match what `txb`/`xto` already hold in this atlas.
+
+    `honey` is `*ḿətə`, not the `*ḿət(ə)` the request asked for — that is the form I could actually
+    cite (Wiktionary's PT reconstruction on the PIE *médʰu page); the parenthesised variant also
+    circulates and the description mentions it.
+
+    The other 25 required core words are `["—","—"]`. That is the house convention for a thinly
+    reconstructed proto, not a shortcut: `p_jpk` is 2 filled / 32 dashed and `pafa` 10 / 25.
+
+    **Two things worth knowing for next time:**
+
+    - `reviewStatus` is `'human-reviewed'`, not `'source-checked'`. Audit Task 173 warns when a
+      `source-checked` row has fewer than 20 annotated `wordEvidence` cells; this row has 17 sourced
+      cells, so `source-checked` would leave a permanent warning. `p_ine` uses `human-reviewed` too.
+    - `meta.countries` was first written `'Tarim Basin / Dzungaria approach (hypothetical)'` and the
+      meta_i18n table half-translated it ("タリム盆地 / Dzungaria approach（仮説的）"). Simplified to
+      `'Tarim Basin (hypothetical)'`, which the table renders cleanly in all 19. **Check a new meta
+      value's translation after `export_seo_data.js`** — the table is generated from the string.
+
+    Also fixed, per §3 of the request: the `words/honey.js` header said Old Chinese 蜜 was "compared
+    with Tocharian B mit … carried east along the Tarim oases", which reads as Tocharian B being the
+    lender. It now names the proto-stage as lender and the two attested rows as witnesses, and says
+    why the manuscript dates rule out the alternative.
+
+    **Left undone, deliberately:** `four` is empty for `txb`/`xto`, and this pass turned up sourced
+    forms for both (A śtwar, B śtwer, Adams 2013 via Wiktionary). Filling them is outside the
+    request and is a separate small job.
+
+    **Watch out:** port 8899 is a Laravel dev server for `~/jml-shop`, not this project. A browser
+    check against it silently returns that site's 404 page. Used 8912 instead.
 
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

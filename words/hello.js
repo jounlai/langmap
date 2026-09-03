@@ -619,6 +619,7 @@ WORDS.hello = {
     crn: ["ke'kuanenki", "keʔkwanenki"],
     emy: ["bix a beel", "biʃ a beːl"],
     p_ine: ["—", "—"],
+    p_toc: ["—", "—"],   // no reconstructed greeting formula
     p_jpn: ["—", "—"],
     p_kor: ["—", "—"],
     ptrk: ["—", "—"],

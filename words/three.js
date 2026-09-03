@@ -553,6 +553,7 @@ WORDS.three = {
     crn: ["waika", "waika"],
     emy: ["ox", "oʃ"],
     p_ine: ["*tréyes", "trejes"],
+    p_toc: ["*treyä", "trejə"],   // Wiktionary PT; A tre, B trai/trey
     p_jpn: ["*mi", "mi"],
     p_kor: ["*seyh", "sejh"],
     ptrk: ["*üč", "ytʃ"],

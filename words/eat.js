@@ -619,6 +619,7 @@ WORDS.eat = {
     crn: ["kuá", "kwa"],
     emy: ["weʼ", "weʔ"],
     p_ine: ["*h₁ed-", "h₁ed"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*kupa-", "kupa"],
     p_kor: ["*mek-", "mek"],
     ptrk: ["*jē-", "jē"],

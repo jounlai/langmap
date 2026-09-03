@@ -619,6 +619,7 @@ WORDS.tree = {
     crn: ["kɨré", "kɨre"],
     emy: ["cheʼ", "tʃeʔ"],
     p_ine: ["*dóru", "dóru"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*kəy", "kəy"],
     p_kor: ["*namʌk", "namʌk"],
     ptrk: ["*ïgač", "ïgač"],

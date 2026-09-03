@@ -619,6 +619,7 @@ WORDS.i = {
       crn: ["neʼu", "ˈneʔu"],
       emy: ["hiin", "hiːn"],
       p_ine: ["*éǵh₂om", "ˈeɡʲhom"],
+      p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
       p_jpn: ["*wa", "wa"],
       p_kor: ["*na", "na"],
       ptrk: ["*ben", "ben"],

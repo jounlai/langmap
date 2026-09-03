@@ -557,6 +557,7 @@ WORDS.tongue = {
     crn: ["nanu", "nanu"],
     emy: ["akʼ", "akʼ"],
     p_ine: ["*dn̥ǵʰwéh₂s", "dn̥ǵʰweh₂s"],
+    p_toc: ["*käntwo", "kəntwo"],   // Wiktionary PT (Adams 2013); A käntu, B kantwo
     p_jpn: ["*sita", "sita"],
     p_kor: ["*hyəl", "hjəl"],
     ptrk: ["*tïl", "tɯl"],

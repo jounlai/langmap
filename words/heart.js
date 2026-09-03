@@ -619,6 +619,7 @@ WORDS.heart = {
     crn: ["hɨurí", "hɨuri"],
     emy: ["pixan", "piʃan"],
     p_ine: ["*ḱḗr", "ḱéːr"],
+    p_toc: ["*āräñce", "aːrəɲtse"],   // Wiktionary PT; A āriñc, B arañce
     p_jpn: ["*kəkərə", "kəkərə"],
     p_kor: ["*mʌzʌm", "mʌzʌm"],
     ptrk: ["*jürek", "jürek"],

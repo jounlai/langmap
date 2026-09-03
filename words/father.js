@@ -619,6 +619,7 @@ WORDS.father = {
     crn: ["hahuá", "hahwa"],
     emy: ["yuum", "juːm"],
     p_ine: ["*ph₂tḗr", "ph₂téːr"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*titi", "titi"],
     p_kor: ["*api", "api"],
     ptrk: ["*ata", "ata"],

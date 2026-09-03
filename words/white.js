@@ -505,6 +505,7 @@ WORDS.white = {
     crn: ["cuaiina", "kʷaiˈina"],
     emy: ["sak", "sak"],
     p_ine: ["*h₂erǵ-", "h₂erǵ"],
+    p_toc: ["*ārkwi", "aːrkwi"],   // Wiktionary PT (Adams 2013); A ārki, B ārkwi
     p_jpn: ["*siro", "siro"],
     p_kor: ["*hʌi", "hʌi"],
     ptrk: ["*āk", "aːk"],

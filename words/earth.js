@@ -434,6 +434,7 @@ WORDS.earth = {
     kri: ["gron", "ɡrɔn"],
     srn: ["gron", "ɣrɔn"],
     p_ine: ["*dʰéǵʰōm", "dʰéɡʲʰoːm"],
+    p_toc: ["*tken", "tken"],   // Wiktionary PT; A tkaṃ, B keṃ
     hit: ["𒋼𒂊𒅗𒀭", "teːkan"],
     zh_cd: ["土", "tʰu˥˧"],
     zh_cq: ["土", "tʰu˦˨"],

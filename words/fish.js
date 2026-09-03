@@ -559,6 +559,7 @@ WORDS.fish = {
     crn: ["sasa", "sasa"],
     emy: ["kay", "kaj"],
     p_ine: ["*dʰǵʰuHs", "dʰǵʰuːs"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*iwo", "iwo"],
     p_kor: ["*mɨrkoki", "mɨrkoki"],
     ptrk: ["*balïk", "balɯk"],

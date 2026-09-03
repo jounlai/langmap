@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1164 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1165 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -15,7 +15,7 @@
 // some have small modern speaker communities (e.g. Manchu, Aramaic dialects,
 // liturgical Sanskrit). The shared property is "hidden from the modern view by default".
 const EXCLUDED_CODES = new Set([
-  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','emy','p_ine','p_jpn','p_kor','ptrk','pmng','p_tun','p_aav','ptai','p_hmx','pafa','pkar','pmay','puaz','pban','p_sit','psem','pura','p_dra','paus',
+  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','emy','p_ine','p_toc','p_jpn','p_kor','ptrk','pmng','p_tun','p_aav','ptai','p_hmx','pafa','pkar','pmay','puaz','pban','p_sit','psem','pura','p_dra','paus',
   'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_kath','zh_song','zh_han','zh_tang','zh_wenyan_edu',
   'vi_nom','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
@@ -1868,6 +1868,15 @@ const LANG_DATA = {
   emy: { name: 'Classical Maya', native: 'Maaya Tzij', lat: 17.22, lng: -89.62,
 },
   p_ine: { name: 'Proto-Indo-European', native: 'Proto-Indo-European', lat: 47.00, lng: 39.00,
+},
+  // Placed north of the Tianshan rather than on either daughter's oasis. Toch A
+  // sits at Karashahr (41.6, 84.9) and Toch B at Kucha (41.7, 82.95); putting
+  // their common ancestor on top of one of them would read as "same place, same
+  // time", which is the misreading this row exists to prevent. Tocharian
+  // speakers are generally held to have entered the Tarim from the north, so
+  // the round coordinates mark that approach, hypothetically — locationBasis is
+  // 'approx-region', as for every other proto row.
+  p_toc: { name: 'Proto-Tocharian', native: 'Proto-Tocharian', lat: 44.00, lng: 87.00,
 },
   p_jpn: { name: 'Proto-Japonic', native: 'Proto-Japonic', lat: 33.60, lng: 130.40,
 },
@@ -5276,6 +5285,7 @@ const LANG_DATA = {
 const DATA_STATUS_OVERRIDES = {
     // Genuinely reconstructed (no direct text record):
     p_ine:       'reconstructed',  // Proto-Indo-European — comparative reconstruction
+    p_toc:       'reconstructed',  // Proto-Tocharian — reconstructed from Tocharian A and B only
     p_jpk:       'reconstructed',  // Proto-Japonic-Koreanic — disputed hypothesis (Whitman/Robbeets)
     p_jpn: 'reconstructed',  // Proto-Japonic
     p_kor: 'reconstructed',  // Proto-Koreanic
@@ -5481,7 +5491,7 @@ const HIST_DESCENDANT = {
     la:'it', el_grc:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
     got:'de', cu:'bg', pi:'si', cop:null, arc:'he',
     sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', emy:'es_mx',
-    p_ine:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
+    p_ine:null, p_toc:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
     vi_han:'vi', de_lut:'de', es_sgl:'es', fr_class:'fr',

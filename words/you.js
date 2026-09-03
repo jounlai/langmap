@@ -619,6 +619,7 @@ WORDS.you = {
       crn: ["aʼu", "ˈaʔu"],
       emy: ["hat", "hat"],
       p_ine: ["*túh₂", "tuːh"],
+      p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
       p_jpn: ["*na", "na"],
       p_kor: ["*ne", "ne"],
       ptrk: ["*sen", "sen"],

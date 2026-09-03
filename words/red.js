@@ -552,6 +552,7 @@ WORDS.red = {
     crn: ["sabí", "saˈbi"],
     emy: ["chak", "tʃak"],
     p_ine: ["*h₁rudʰrós", "h₁rudʰrós"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*aka", "aka"],
     p_kor: ["*pɨrk", "pɨrk"],
     ptrk: ["*kïŕïl", "kɯŕɯl"],

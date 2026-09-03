@@ -619,6 +619,7 @@ WORDS.good = {
     crn: ["huá'i", "hwaʔi"],
     emy: ["utz", "uts"],
     p_ine: ["*h₁su-", "h₁su"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*yə", "yə"],
     p_kor: ["—", "—"],
     ptrk: ["*edgü", "edgü"],

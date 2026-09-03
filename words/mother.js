@@ -625,6 +625,7 @@ WORDS.mother = {
     crn: ["naana", "naːna"],
     emy: ["naʼ", "naʔ"],
     p_ine: ["*méh₂tēr", "méh₂teːr"],
+    p_toc: ["*mācer", "maːtser"],   // Wiktionary PT; A mācar, B mācer
     p_jpn: ["*papa", "papa"],
     p_kor: ["*emi", "emi"],
     ptrk: ["*ana", "ana"],

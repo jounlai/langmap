@@ -624,6 +624,7 @@ WORDS.sun = {
     crn: ["tahaapuá", "tahaːpwa"],
     emy: ["kʼin", "kʼin"],
     p_ine: ["*sóh₂wl̥", "sóh₂wl̩"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*pi", "pi"],
     p_kor: ["*hʌy", "hʌy"],
     ptrk: ["*kün", "kün"],

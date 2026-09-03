@@ -555,6 +555,7 @@ WORDS.blood = {
     crn: ["xuuri", "ʃuːɾi"],
     emy: ["kʼikʼ", "kʼikʼ"],
     p_ine: ["*h₁ésh₂r̥", "h₁ésh₂r̥"],
+    p_toc: ["*yä́sar", "jə́sar"],   // Wiktionary PT; A ysār, B yasar
     p_jpn: ["*ti", "ti"],
     p_kor: ["*pʰi", "pʰi"],
     ptrk: ["*kān", "kaːn"],

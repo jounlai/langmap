@@ -1655,6 +1655,7 @@ WORDS.we = {
     crn: ["ta", "ta"],
     emy: ["—", "—"],
     p_ine: ["*wéy", "wéj"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["—", "—"],
     p_kor: ["*uri", "uri"],
     ptrk: ["*biŕ", "biz"],

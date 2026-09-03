@@ -619,6 +619,7 @@ WORDS.eye = {
     crn: ["húi", "hwi"],
     emy: ["ich", "itʃ"],
     p_ine: ["*h₃ékʷ-", "h₃ékʷ"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*may", "may"],
     p_kor: ["*nun", "nun"],
     ptrk: ["*köz", "köz"],

@@ -15,11 +15,15 @@
  * is what the Finnish cell gives.
  *
  * The other hook is at the far end of the Silk Road. Old Chinese 蜜 (Baxter–Sagart *mit) has long
- * been compared with Tocharian B mit 'honey', and both rows are on this map. If the comparison
- * holds it is one of the very few Indo-European loans into Chinese, carried east along the Tarim
- * oases; the borrowing is a hypothesis, not a settled fact, but the two cells sit close enough
- * that the reader can weigh it. The 蜜 layer then rides Buddhist texts onward: Heian Japanese
- * mitu, Sino-Vietnamese mật, Cantonese mat6. Korean took none of it and kept native 꿀.
+ * been derived from Tocharian, and the map now carries all three stages so the reader can follow
+ * the chain: PIE *médʰu → Proto-Tocharian *ḿətə → Old Chinese *mit. The lender is the proto-stage,
+ * not Tocharian B: the Tocharian manuscripts are 5th–10th century CE and Old Chinese is older than
+ * that, so a loan *from* the attested language is chronologically impossible. Toch B mit and Toch A
+ * mit are the surviving witnesses to the word that was lent, which is why the standard formulation
+ * (Meier & Peyrot 2017) is a borrowing from "the Tocharian etymon represented by Tocharian B mit".
+ * The borrowing is a hypothesis, not a settled fact, but it is the best current explanation. The 蜜
+ * layer then rides Buddhist texts onward: Heian Japanese mitu, Sino-Vietnamese mật, Cantonese mat6.
+ * Korean took none of it and kept native 꿀.
  *
  * Beyond Indo-European the map goes its own ways: Semitic splits *dibš- (Hebrew דבש, Aramaic
  * ܕܒܫܐ, Ugaritic nbt) from *ʕasal- (Arabic عسل, borrowed on into Persian, Uzbek, Hindi शहद,
@@ -95,6 +99,7 @@ WORDS.honey = {
     // the other PIE word, shows up below in Sanskrit, Slavic, Baltic and
     // (as the drink) Germanic mead. Both are PIE; the branches split them.
     p_ine: ["*mélit", "mélit"],
+    p_toc: ["*ḿətə", "mʲətə"],   // Meier & Peyrot 2017 (ZDMG 167.1); form after Wiktionary's PT reconstruction, also written *ḿət(ə)
     hit: ["milit", "milit"],          // cuneiform mi-li-it: IT sign not in the subset font
     la: ["mel", "mel"],
     gmy: ["𐀕𐀪", "meli"],              // Linear B me-ri
@@ -193,9 +198,12 @@ WORDS.honey = {
     ckb: ["هەنگوین", "hɛnɡwiːn"],
 
     // --- Old Chinese 蜜 and Tocharian mit ------------------------------
-    // Baxter–Sagart OC *mit beside Tocharian B mit: one of the few proposed
+    // Baxter–Sagart OC *mit from the Tocharian etymon: one of the few proposed
     // Indo-European loans into Chinese, plausibly along the Tarim routes.
-    // Compared since Bailey; still a hypothesis, not a settled etymology.
+    // The lender is Proto-Tocharian (the p_toc row above); these two cells are
+    // the attested witnesses, and their manuscripts are centuries too late to
+    // have been the source themselves. Still a hypothesis, not a settled
+    // etymology, but the standard one (Meier & Peyrot 2017).
     txb: ["𑀫𑀺𑀢𑁆", "mit"],
     xto: ["𑀫𑀺𑀢𑁆", "mit"],
     och: ["蜜", "*mit"],

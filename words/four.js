@@ -74,6 +74,7 @@ WORDS.four = {
 
     // --- Indo-European: what each branch did to *kʷ -------------------
     p_ine: ["*kʷetwóres", "kʷetwóres"],
+    p_toc: ["*ćätwerä", "tɕətwerə"],   // Wiktionary PT (Adams 2013); A śtwar, B śtwer
     la: ["quattuor", "ˈkʷattuor"],
     el_grc: ["τέσσαρες", "tés.sa.res"],
     el_kath: ["τέσσαρες", "ˈtesares"],

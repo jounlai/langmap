@@ -619,6 +619,7 @@ WORDS.star = {
       crn: ["sɨɨrabe", "sɨːˈrabe"],
       emy: ["ek'", "eːkʼ"],
       p_ine: ["*h₂stḗr", "hˈsteːr"],
+      p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
       p_jpn: ["*pəsi", "pəsi"],
       p_kor: ["*pyər", "pyər"],
       ptrk: ["*jultuz", "jultuz"],

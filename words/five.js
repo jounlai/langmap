@@ -444,6 +444,7 @@ WORDS.five = {
     ppl: ["makwil", "maˈkʷil"],
     emy: ["hoʼ", "hoʔ"],
     p_ine: ["*pénkʷe", "pénkʷe"],
+    p_toc: ["*p'ä́ñćä", "pʲə́ɲtɕə"],   // Wiktionary PT (Adams 2013); A päñ, B piś
     p_jpn: ["*itu", "itu"],
     p_kor: ["*tasʌs", "tasʌs"],
     ptrk: ["*bēš", "beːʃ"],

@@ -626,6 +626,7 @@ WORDS.water = {
     crn: ["hapɨn", "hapɨn"],
     emy: ["haʼ", "haʔ"],
     p_ine: ["*wódr̥", "wódr̩"],
+    p_toc: ["*wär", "wər"],   // Wiktionary PT; A wär, B war
     p_jpn: ["*midu", "midu"],
     p_kor: ["*mɨr", "mɨr"],
     ptrk: ["*sub", "sub"],

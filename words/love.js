@@ -626,6 +626,7 @@ WORDS.love = {
     crn: ["ka'na", "kaʔna"],
     emy: ["yaah", "jaːh"],
     p_ine: ["*lewbʰ-", "lewbʰ"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["—", "—"],
     p_kor: ["—", "—"],
     ptrk: ["—", "—"],

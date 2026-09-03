@@ -619,6 +619,7 @@ WORDS.name = {
       crn: ["yeuwa", "ˈjeuwa"],
       emy: ["k'aba'", "kʼaˈɓaʔ"],
       p_ine: ["*h₃nómn̥", "hˈnomn̩"],
+      p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
       p_jpn: ["*na", "na"],
       p_kor: ["—", "—"],
       ptrk: ["*āt", "āt"],

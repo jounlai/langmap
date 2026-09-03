@@ -625,6 +625,7 @@ WORDS.fire = {
     crn: ["ta'ai", "taʔai"],
     emy: ["kʼahkʼ", "kʼahkʼ"],
     p_ine: ["*péh₂wr̥", "péh₂wr̩"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*poy", "poy"],
     p_kor: ["*pɨr", "pɨr"],
     ptrk: ["*ōt", "ōt"],

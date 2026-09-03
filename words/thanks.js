@@ -619,6 +619,7 @@ WORDS.thanks = {
     crn: ["atsipiraá", "atsipiraː"],
     emy: ["nibʼoolal", "nibʼoːlal"],
     p_ine: ["—", "—"],
+    p_toc: ["—", "—"],   // no reconstructed politeness formula
     p_jpn: ["—", "—"],
     p_kor: ["—", "—"],
     ptrk: ["—", "—"],

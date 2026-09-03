@@ -82,6 +82,7 @@ WORDS.hundred = {
     // --- The isogloss itself ------------------------------------------
     // p_ine *ḱ: centum branches keep a velar, satem branches assibilate.
     p_ine: ["*ḱm̥tóm", "ḱm̩tóm"],
+    p_toc: ["*känte", "kənte"],   // Wiktionary PT (Adams 2013); A känt, B kante
     la: ["centum", "ˈkentum"],          // centum, the label for the /k/ side
     ave: ["𐬯𐬀𐬙𐬆𐬨", "satəm"],            // satəm, the label for the /s/ side
     txb: ["𑀓𑀦𑁆𑀢𑁂", "kante"],            // centum at the far east — the counterexample

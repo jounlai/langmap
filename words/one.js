@@ -625,6 +625,7 @@ WORDS.one = {
     crn: ["cei", "tsei"],
     emy: ["jun", "hun"],
     p_ine: ["*h₁óynos", "h₁ójnos"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*pitə", "pitə"],
     p_kor: ["*hʌnah", "hʌnah"],
     ptrk: ["*bīr", "bīr"],

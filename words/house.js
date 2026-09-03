@@ -626,6 +626,7 @@ WORDS.house = {
     crn: ["kíh", "kih"],
     emy: ["otoch", "otoːtʃ"],
     p_ine: ["*dṓm", "dóːm"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*ipay", "ipay"],
     p_kor: ["—", "—"],
     ptrk: ["*ēb", "ēb"],

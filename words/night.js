@@ -556,6 +556,7 @@ WORDS.night = {
     crn: ["tika", "tika"],
     emy: ["akʼabʼ", "akʼaɓ"],
     p_ine: ["*nókʷts", "nokʷts"],
+    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*yo", "jo"],
     p_kor: ["*pam", "pam"],
     ptrk: ["*tün", "tyn"],

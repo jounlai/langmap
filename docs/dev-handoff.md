@@ -1510,9 +1510,13 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     lender. It now names the proto-stage as lender and the two attested rows as witnesses, and says
     why the manuscript dates rule out the alternative.
 
-    **Left undone, deliberately:** `four` is empty for `txb`/`xto`, and this pass turned up sourced
-    forms for both (A śtwar, B śtwer, Adams 2013 via Wiktionary). Filling them is outside the
-    request and is a separate small job.
+    **Follow-up, done on the owner's go-ahead:** `four` was empty for `txb`/`xto`; this pass had
+    turned up sourced forms for both (A śtwar, B śtwer, from PT *ćätwerä — Adams 2013 via the
+    Wiktionary Tocharian B entry), so they are filled. The Brahmi surfaces were built from letters
+    the two rows already use rather than transliterated freehand — `txb` white ārkwi 𑀆𑀭𑁆𑀓𑁆𑀯𑀺
+    is the identical consonant+virama+va+vowel-sign shape, and every codepoint was checked against
+    an existing cell. Coverage warning for `four` went 184 → 182 languages uncovered; no new
+    warning class.
 
     **Watch out:** port 8899 is a Laravel dev server for `~/jml-shop`, not this project. A browser
     check against it silently returns that site's 404 page. Used 8912 instead.

@@ -74,6 +74,12 @@ WORDS.four = {
 
     // --- Indo-European: what each branch did to *kʷ -------------------
     p_ine: ["*kʷetwóres", "kʷetwóres"],
+    // Tocharian: A śtwar, B śtwer, from PT *ćätwerä (Adams 2013, via the
+    // Wiktionary Proto-Tocharian entry). Brahmi built from the letters both
+    // rows already use — compare txb white ārkwi 𑀆𑀭𑁆𑀓𑁆𑀯𑀺, the same
+    // consonant+virama+va+vowel-sign shape.
+    txb: ["𑀰𑁆𑀢𑁆𑀯𑁂𑀭𑁆", "ɕtwer"],
+    xto: ["𑀰𑁆𑀢𑁆𑀯𑀭𑁆", "ɕtwar"],
     p_toc: ["*ćätwerä", "tɕətwerə"],   // Wiktionary PT (Adams 2013); A śtwar, B śtwer
     la: ["quattuor", "ˈkʷattuor"],
     el_grc: ["τέσσαρες", "tés.sa.res"],

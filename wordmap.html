@@ -77,7 +77,7 @@
          guards against a script re-appearing in the data without a font. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Brahmi&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Avestan&family=Noto+Sans+Old+South+Arabian&family=Noto+Sans+Inscriptional+Pahlavi&family=Noto+Sans+Phoenician&family=Noto+Sans+Gothic&family=Noto+Sans+Ugaritic&family=Noto+Sans+Limbu&family=Noto+Sans+Vai&family=Noto+Sans+Mandaic&family=Noto+Sans+Javanese&family=Noto+Sans+Tai+Viet&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Devanagari&family=Noto+Serif+Bengali&family=Noto+Serif+Gujarati&family=Noto+Serif+Gurmukhi&family=Noto+Serif+Oriya&family=Noto+Serif+Tamil&family=Noto+Serif+Telugu&family=Noto+Serif+Kannada&family=Noto+Serif+Malayalam&family=Noto+Serif+Sinhala&family=Noto+Serif+Thai&family=Noto+Serif+Lao&family=Noto+Serif+Khmer&family=Noto+Serif+Myanmar&family=Noto+Serif+Georgian&family=Noto+Serif+Armenian&family=Noto+Serif+Hebrew&family=Noto+Serif+Ethiopic&family=Noto+Naskh+Arabic&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Brahmi&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Avestan&family=Noto+Sans+Old+South+Arabian&family=Noto+Sans+Inscriptional+Pahlavi&family=Noto+Sans+Phoenician&family=Noto+Sans+Gothic&family=Noto+Sans+Ugaritic&family=Noto+Sans+Limbu&family=Noto+Sans+Vai&family=Noto+Sans+Mandaic&family=Noto+Sans+Javanese&family=Noto+Sans+Tai+Viet&display=swap">
     <!-- Old Hangul Jamo (U+1100-11FF) for ko_mid / ko_em is now served
          from a self-hosted Noto Serif KR subset with explicit
          unicode-range scoping; see the @font-face block below. -->
@@ -749,6 +749,21 @@
             cursor: pointer;
             font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+                /* Serif faces for the modern non-Latin scripts. Without these the
+                   chain had nothing for Devanagari, Arabic, Hebrew, Thai, Bengali,
+                   Myanmar, Ethiopic, Georgian, Armenian, Khmer, Lao and the South
+                   Indian scripts, so ~8,200 cells across 22 blocks fell through to
+                   the generic `serif` keyword — which on most systems resolves to a
+                   SANS face for those scripts. Sanskrit sat in sans beside a serif
+                   Latin row (owner report 2026-09-03). Google Fonts has no serif
+                   Syriac or Cherokee, so those two are still system-dependent. */
+                "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati",
+                "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil",
+                "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam",
+                "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao",
+                "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
+                "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
+                "Noto Naskh Arabic",
                 Georgia, "Times New Roman", serif;
         }
         .unattested-label:hover {
@@ -781,6 +796,21 @@
                 "Tifinagh Subset",
                 "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+                /* Serif faces for the modern non-Latin scripts. Without these the
+                   chain had nothing for Devanagari, Arabic, Hebrew, Thai, Bengali,
+                   Myanmar, Ethiopic, Georgian, Armenian, Khmer, Lao and the South
+                   Indian scripts, so ~8,200 cells across 22 blocks fell through to
+                   the generic `serif` keyword — which on most systems resolves to a
+                   SANS face for those scripts. Sanskrit sat in sans beside a serif
+                   Latin row (owner report 2026-09-03). Google Fonts has no serif
+                   Syriac or Cherokee, so those two are still system-dependent. */
+                "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati",
+                "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil",
+                "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam",
+                "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao",
+                "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
+                "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
+                "Noto Naskh Arabic",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
@@ -1149,6 +1179,21 @@
                etc. render where the corresponding Noto font is installed. */
             font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+                /* Serif faces for the modern non-Latin scripts. Without these the
+                   chain had nothing for Devanagari, Arabic, Hebrew, Thai, Bengali,
+                   Myanmar, Ethiopic, Georgian, Armenian, Khmer, Lao and the South
+                   Indian scripts, so ~8,200 cells across 22 blocks fell through to
+                   the generic `serif` keyword — which on most systems resolves to a
+                   SANS face for those scripts. Sanskrit sat in sans beside a serif
+                   Latin row (owner report 2026-09-03). Google Fonts has no serif
+                   Syriac or Cherokee, so those two are still system-dependent. */
+                "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati",
+                "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil",
+                "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam",
+                "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao",
+                "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
+                "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
+                "Noto Naskh Arabic",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
@@ -1202,6 +1247,21 @@
                 "Nôm Na Tống", "HAN NOM A", "HAN NOM B", "HanaMinA", "HanaMinB",
                 "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+                /* Serif faces for the modern non-Latin scripts. Without these the
+                   chain had nothing for Devanagari, Arabic, Hebrew, Thai, Bengali,
+                   Myanmar, Ethiopic, Georgian, Armenian, Khmer, Lao and the South
+                   Indian scripts, so ~8,200 cells across 22 blocks fell through to
+                   the generic `serif` keyword — which on most systems resolves to a
+                   SANS face for those scripts. Sanskrit sat in sans beside a serif
+                   Latin row (owner report 2026-09-03). Google Fonts has no serif
+                   Syriac or Cherokee, so those two are still system-dependent. */
+                "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati",
+                "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil",
+                "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam",
+                "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao",
+                "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
+                "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
+                "Noto Naskh Arabic",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
@@ -1393,6 +1453,21 @@
             /* Same historical-script fallback chain as the modal native-name. */
             font-family: "Gentium Plus", "Noto Serif", "Noto Serif JP",
                 "Noto Serif SC", "Noto Serif TC", "Noto Serif KR",
+                /* Serif faces for the modern non-Latin scripts. Without these the
+                   chain had nothing for Devanagari, Arabic, Hebrew, Thai, Bengali,
+                   Myanmar, Ethiopic, Georgian, Armenian, Khmer, Lao and the South
+                   Indian scripts, so ~8,200 cells across 22 blocks fell through to
+                   the generic `serif` keyword — which on most systems resolves to a
+                   SANS face for those scripts. Sanskrit sat in sans beside a serif
+                   Latin row (owner report 2026-09-03). Google Fonts has no serif
+                   Syriac or Cherokee, so those two are still system-dependent. */
+                "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Gujarati",
+                "Noto Serif Gurmukhi", "Noto Serif Oriya", "Noto Serif Tamil",
+                "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam",
+                "Noto Serif Sinhala", "Noto Serif Thai", "Noto Serif Lao",
+                "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
+                "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
+                "Noto Naskh Arabic",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",

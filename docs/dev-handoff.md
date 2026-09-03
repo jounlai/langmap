@@ -1521,5 +1521,36 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     **Watch out:** port 8899 is a Laravel dev server for `~/jml-shop`, not this project. A browser
     check against it silently returns that site's 404 page. Used 8912 instead.
 
+76. **wordmap's serif label chains had no serif for 22 modern non-Latin scripts.** Owner: "地図上の
+    サンスクリット語などが、Sans Serif形になっているようだけど、、気のせいかな？" Not imagination.
+
+    The five serif chains in `wordmap.html` (`.lang-label`/`.globe-label`, `.unattested-label`,
+    `.wm-form`, `.lang-info-panel .native-name`, `.compare-table thead .native-name`) named serif
+    faces for Latin/JP/SC/TC/KR/Tibetan and then a long tail of `Noto Sans <ancient script>` — but
+    **nothing for Devanagari, Arabic, Hebrew, Thai, Bengali, Myanmar, Ethiopic, Georgian, Armenian,
+    Khmer, Lao, Syriac, Thaana, Cherokee or the South Indian scripts**. Those fell through to the
+    generic `serif` keyword, which on most systems resolves to a SANS face for them. **8,190 cells
+    across 22 blocks and ~150 languages** — Arabic 2,741, Devanagari 1,727, Myanmar 448.
+
+    Proof rather than reasoning, since the headless container has different system fonts than the
+    owner's machine: measure the same string in each family on a canvas. Before the fix, `serif`
+    measured 72.0px for मधु and `Noto Sans Devanagari` 72.2px — the same face. After, `Noto Serif
+    Devanagari` measures 45.0px and `document.fonts.check(..., 'मधु')` is true. Note the gotcha:
+    `document.fonts.check('16px "Noto Serif Devanagari"')` **without a text argument returns false
+    even when the font is fine**, because it tests a Latin string the Devanagari subset does not
+    cover. Always pass the text.
+
+    19 families added to the Google Fonts link and to all five chains. Cost is small: +5.2 KB of
+    CSS, and Google serves per-script subsets so a font file is only fetched when a reader looks at
+    that script. **Every family name was verified against the css2 endpoint first** — an unknown
+    family makes Google return 400 for the WHOLE request, which would have killed all 37 existing
+    families in that one `<link>`. `Noto Serif Syriac` and `Noto Serif Cherokee` do not exist; those
+    two scripts stay system-dependent (265 and 55 cells).
+
+    **Not a problem on the other pages, checked:** hanmap's label and reading fields contain none of
+    these scripts (its 38k Devanagari codepoints are all UI description prose, which renders in the
+    sans body stack); index/tree/namemap render forms in a sans stack throughout, so there is no
+    serif/sans mismatch to fix there.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

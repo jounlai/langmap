@@ -275,6 +275,20 @@ line('translations add no figures', num(s, /unexplained figures: (\d+)/));
 s = run('trivia_control_parity.js --check');
 line('trivia controls in translations', num(s, /missing controls: (\d+)/));
 
+// Sections, same story as the controls: a translation with fewer <h3> than its
+// English is that article with sections MISSING, not a shorter rendering of it.
+// ko-mid-eastguk-jeongun's Vietnamese had one heading against four. The five
+// languages of the backfill (ja/ko/zh/yue/vi) are at parity; the other thirteen
+// are still summaries in many articles, and that debt is a ratchet — it may
+// come down, never up.
+const SECTION_DEBT = 509;
+s = run('trivia_section_parity.js --check');
+{
+    const n = num(s, /missing sections: (\d+)/);
+    line('trivia sections in translations', n > SECTION_DEBT ? n - SECTION_DEBT : 0,
+        n + ' missing, budget ' + SECTION_DEBT + ' (ja/ko/zh/yue/vi at parity)');
+}
+
 // Generated bundles: wordmap.html loads word_labels.js and lang_names/<ui>.js
 // instead of the full per-word and per-UI tables. If a label, definition or
 // language name changes, those files must be rebuilt or the site serves the

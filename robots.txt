@@ -18,5 +18,7 @@ Disallow: /_cardtest.html
 # SEO big-text pages (sitemap-seo.xml) are intentionally NOT declared here —
 # discovery is left to organic internal-link crawling (footer → /en/wordmap/
 # index → hreflang) rather than bulk-submitting 18k URLs. The file still exists
-# at /sitemap-seo.xml if ever needed.
+# at /sitemap-seo.xml if ever needed; since 2026-09-04 that URL is a sitemap
+# INDEX pointing at /sitemap-seo-1.xml … -5.xml, so declaring it here would
+# still be one line.
 Sitemap: https://langmap.heuron.com/sitemap.xml

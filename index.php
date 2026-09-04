@@ -47,7 +47,17 @@ function seo_redirect_to_en(string $path): void
 }
 
 // Sitemap for the SEO pages (generated; UI-agnostic, no prefix).
+// /sitemap-seo.xml is the INDEX; the URLs live in /sitemap-seo-<n>.xml parts,
+// because one file with 19 hreflang alternates per URL was at 94.9% of the
+// 52,428,800-byte limit, over which the whole file is rejected rather than
+// truncated. seo/sitemap.php reads $seo_sitemap_part.
 if ($path === '/sitemap-seo.xml') {
+    $seo_sitemap_part = 0;
+    require __DIR__ . '/seo/sitemap.php';
+    return;
+}
+if (preg_match('#^/sitemap-seo-([0-9]{1,3})\.xml$#', $path, $m)) {
+    $seo_sitemap_part = (int) $m[1];
     require __DIR__ . '/seo/sitemap.php';
     return;
 }

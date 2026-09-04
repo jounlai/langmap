@@ -101,9 +101,11 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // Tone is written with Chao letters, never digits — the digits belong to a
 // romanization, which is what the surface field is for. cjy_xz and atb each
 // wrote BOTH inside one row (bird niau˥˧ vs cat miau⁵³), 40 cells (review 458).
-// /sitemap-seo.xml is at 94.9% of the 50MB limit (review 460). Over it, search
+// /sitemap-seo.xml was at 94.9% of the 50MB limit (review 460) — over it, search
 // engines reject the WHOLE file rather than the excess, so every SSR page loses
-// its entry at once. Reported as headroom until it goes over.
+// its entry at once. 2026-09-04 it became a sitemap index over 250-page parts,
+// so growth adds parts instead of bytes; the guard now checks every part, and
+// that the index lists exactly the parts that exist.
 // Eager first-paint weight per page, ratcheted. hanmap.html was 1,988 KB gz,
 // 943 KB of it hanmap_trivia.js in front of the map — 2026-09-04 that file is
 // injected on demand the way wordmap.html has always done it, and the page is
@@ -160,7 +162,7 @@ line('root pages indexable or noindex', num(s, /violations: (\d+)/));
 
 s = run('sitemap_size_check.js --check');
 line('sitemap within limits', num(s, /violations: (\d+)/),
-    (s.match(/headroom: ([\d.]+)% of the byte limit[^)]*\)/) || [])[0] || '');
+    (s.split('\n').find((l) => / parts, /.test(l)) || '').trim());
 
 // Chao letters spell a contour; the same level three times is a half-finished
 // edit. bca wrote ˨˨˨ on all nine of its entering-tone cells (review 463).

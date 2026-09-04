@@ -160,6 +160,13 @@ line('page weight ratchet', num(s, /violations: (\d+)/),
 s = run('page_indexability_check.js --check');
 line('root pages indexable or noindex', num(s, /violations: (\d+)/));
 
+// A screen-reader user navigates by headings. tree.html and poster.html had
+// none at all — not one h1..h6 — and wordmap/hanmap jumped h1 to h3 (review
+// 461). The h1 on the map pages is visually hidden on purpose: a full-bleed map
+// has nowhere to print a title, and a hidden h1 is a normal way to name a page.
+s = run('heading_order_check.js --check');
+line('page headings', num(s, /heading problems: (\d+)/));
+
 s = run('sitemap_size_check.js --check');
 line('sitemap within limits', num(s, /violations: (\d+)/),
     (s.split('\n').find((l) => / parts, /.test(l)) || '').trim());

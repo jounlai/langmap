@@ -66,12 +66,32 @@ const advisory = [];
 /* ── §1.1  Quotation marks mean verbatim ────────────────────────────────────
    A quotation attributed to a named person while admitting it is not that
    person's wording. "paraphrase", 意訳, 의역, 转述… all mean the same defect. */
-const FAKE = /(paraphrase|paraphrased|loosely quoted|意訳|パラフレーズ|의역|풀어 쓴|转述|轉述|diễn giải|parafrase|parafras|بإعادة صياغة)/i;
+// Japanese marks a paraphrase with 要約 / 大意 / より要約 as readily as with 意訳,
+// and all five of the invented quotations this check failed to catch in
+// wordmap_trivia.js's ja bodies used 要約 or 大意.
+const FAKE = /(paraphrase|paraphrased|loosely quoted|意訳|要約|大意|パラフレーズ|의역|풀어 쓴|요약|转述|轉述|概括|diễn giải|parafrase|parafras|بإعادة صياغة)/i;
+
+// A quotation with no nameable source at all — "a saying that spread during the
+// 2020 protests" — is the same defect wearing different clothes: the reader
+// cannot check it and it was not said by anyone in particular. Three of these
+// survived in hanmap_trivia.js after the English was cleaned.
+const ANON_SOURCE = /(で広まった言葉|중 퍼진 말|中流传的话语|中流傳的話語|a saying that spread|as the saying goes|流行語)/;
 for (const a of arts) {
     for (const ui of Object.keys(a.bodies)) {
         const body = String(a.bodies[ui]);
         for (const m of body.matchAll(/<blockquote[^>]*>([\s\S]*?)<\/blockquote>/g)) {
             if (FAKE.test(m[1])) hard.push(`${a.id}.${ui}: blockquote presented as a quotation but marked as a paraphrase — ${text(m[1]).slice(0, 90)}…`);
+            else if (ANON_SOURCE.test(m[1])) hard.push(`${a.id}.${ui}: blockquote attributed to nobody in particular, so a reader cannot check it — ${text(m[1]).slice(0, 90)}…`);
+        }
+
+        // A translation carrying MORE blockquotes than its English source is the
+        // signature of an English-only cleanup: the 2026-08-31 pass pulled ten
+        // invented quotations out of English and the 17 overlays and left the
+        // ja bodies in wordmap_trivia.js and three in hanmap_trivia.js untouched.
+        if (ui !== 'en' && a.bodies.en) {
+            const enQ = (String(a.bodies.en).match(/<blockquote/g) || []).length;
+            const myQ = (body.match(/<blockquote/g) || []).length;
+            if (myQ > enQ) hard.push(`${a.id}.${ui}: ${myQ} blockquote(s) against ${enQ} in English — a quotation the English no longer makes`);
         }
         // Same thing outside a blockquote: "…" followed by an attribution dash.
         for (const m of body.matchAll(/["“][^"”]{25,}["”]\s*(?:—|&mdash;|――|--)\s*([^<.]{0,80})/g)) {

@@ -258,6 +258,15 @@ line('zh simplified/traditional convention', num(s, /mismatches: (\d+)/));
 s = run('trivia_zh_script_check.js --check');
 line('trivia zh is simplified', num(s, /traditional zh characters: (\d+)/));
 
+// Three articles in a row were translated from an English draft that was later
+// edited, leaving the translations asserting things the article no longer says
+// — 97 million speakers, "communist propaganda", "1,500 years in the character
+// 生". Nobody reads all nineteen languages, so prose drift needs a checker;
+// this catches its sharpest edge, a FIGURE that appears in a translation and
+// nowhere in its English.
+s = run('trivia_translation_drift.js --check');
+line('translations add no figures', num(s, /unexplained figures: (\d+)/));
+
 // Generated bundles: wordmap.html loads word_labels.js and lang_names/<ui>.js
 // instead of the full per-word and per-UI tables. If a label, definition or
 // language name changes, those files must be rebuilt or the site serves the

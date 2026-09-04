@@ -75,7 +75,7 @@ const FAKE = /(paraphrase|paraphrased|loosely quoted|意訳|要約|大意|パラ
 // 2020 protests" — is the same defect wearing different clothes: the reader
 // cannot check it and it was not said by anyone in particular. Three of these
 // survived in hanmap_trivia.js after the English was cleaned.
-const ANON_SOURCE = /(で広まった言葉|중 퍼진 말|中流传的话语|中流傳的話語|a saying that spread|as the saying goes|流行語)/;
+const ANON_SOURCE = /(で広まった言葉|중 퍼진 말|中流传的话语|中流傳的話語|a saying that spread|as the saying goes|流行語|once quipped|as one \w+ put it|an? (?:linguist|phonologist|scholar|speaker) once|よく言われる|이런 말이 있다)/i;
 for (const a of arts) {
     for (const ui of Object.keys(a.bodies)) {
         const body = String(a.bodies[ui]);

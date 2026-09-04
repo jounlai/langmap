@@ -155,6 +155,15 @@ for (const id of routed) {
     } else {
       notes.push(`· ${id}: ${n} cells still '${u.route}' (undecided, at the ratchet)`);
     }
+    // The word's own docstring tells the reader how many rows are still
+    // undecided. It drifts: `we` said "36 of them" long after the count had
+    // fallen to 33, because the ratchet above is the only thing anyone updates.
+    const doc = (fs.readFileSync(path.join(ROOT, 'words', id + '.js'), 'utf8').match(/^\/\*\*[\s\S]*?\*\//) || [''])[0];
+    const claim = doc.match(/(\d{1,4}) of them/);
+    if (claim && +claim[1] !== n) {
+      violations++;
+      notes.push(`✗ ${id}: the docstring says "${claim[1]} of them" but ${n} cells are '${u.route}'`);
+    }
   }
 }
 

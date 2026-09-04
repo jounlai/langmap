@@ -7596,6 +7596,16 @@
             const _ipaLH  = (zoom <= 3 ? 10 : zoom <= 5 ? 11 : 12);
             const _nameLH = (zoom <= 3 ? 9  : zoom <= 5 ? 10 : 11);
             const _natLH  = (zoom <= 3 ? 11 : zoom <= 5 ? 13 : 14);
+            // The period line (meta.period, "7–10c") is 6/7/8px at line-height
+            // 1.05 with a 1px negative top margin. It was added 2026-09-04 and
+            // NOT counted here, so an ancient label was a line taller than the
+            // collision pass believed and its red date landed on the label
+            // below — owner saw 宋明文語's date printed through 元代官話's
+            // reading. Budget just above what the line paints; only the 19 rows
+            // that have a period pay for it.
+            const _perLH  = (zoom <= 3 ? 7 : zoom <= 5 ? 8 : 9);
+            const _hasPeriod = (code) => !!(typeof HAN_LANG_META !== 'undefined'
+                && HAN_LANG_META[code] && HAN_LANG_META[code].period);
             const _labelHeightPx = (code) => {
                 const v = (typeof HAN_VARIANTS !== 'undefined' && HAN_VARIANTS[wordId])
                     ? HAN_VARIANTS[wordId][code] : null;
@@ -7606,14 +7616,24 @@
                     ? ((typeof VERTICAL_LANGS !== 'undefined' && VERTICAL_LANGS.has(code)) ? _natLH * 1.6 : _natLH)
                     : 0;
                 const perRow = (showWord ? _wordLH : 0) + (showIpa ? _ipaLH : 0) + natH;
-                const h = vRows * perRow + (showName ? _nameLH : 0);
-                return (h * labelScale) + 4;
+                const h = vRows * perRow + (showName ? _nameLH : 0)
+                    + ((showName && _hasPeriod(code)) ? _perLH : 0);
+                // Rows carrying a period get a little extra air as well: the
+                // date sits tight under the name and reads as part of the label
+                // below when the two only just fail to overlap.
+                return (h * labelScale) + ((showName && _hasPeriod(code)) ? 8 : 4);
             };
             const _heightByCode = {};
             const _hhOf = (code) => {
                 let h = _heightByCode[code];
                 if (h === undefined) { h = _labelHeightPx(code); _heightByCode[code] = h; }
-                return h * 0.4 + 1;   // half-extent, same 0.4 packing factor as _bbHalfH
+                // 0.4 rather than 0.5 lets ordinary labels overlap by up to a
+                // fifth of their estimated height — deliberate packing slack.
+                // A period row cannot take it: the date is the BOTTOM line, so
+                // any downward slack is spent printing a red date through the
+                // reading of the label beneath (owner 2026-09-04, 宋明文語 over
+                // 元代官話). Reserve those in full.
+                return h * ((showName && _hasPeriod(code)) ? 0.5 : 0.4) + 1;
             };
 
             // When a filter is active, only ACTIVE labels compete for cell

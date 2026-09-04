@@ -1666,5 +1666,34 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     kokugo-versus-kango lost 1543 from **English** while all 18 translations kept it. This compares
     English against translations, so it cannot see that direction. That was found by git diff.
 
+83. **HanMap period line vs the declutter pass (regression from 77, fixed same day).** Owner: the
+    period was "被り防止の範囲に入っていない" — 宋明文語's red 10–17c printed through 元代官話's
+    reading. `_labelHeightPx(code)` in `hanmap.html` sums word/ipa/native/name line heights and knew
+    nothing about the period, so an ancient label was ~9px taller than the collision pass believed.
+
+    Two changes, both scoped to the 19 rows that have a period so ordinary packing is untouched:
+    `_perLH` (7/8/9px by zoom tier) added to `_labelHeightPx`, box padding 4 → 8 for those rows, and
+    `_hhOf` reserves **half-extent 0.5 instead of 0.4** for them. That 0.4 is deliberate packing
+    slack — labels may overlap by up to a fifth of their estimated height — and a period row cannot
+    take it, because the date is the BOTTOM line and all the slack is spent printing over the label
+    beneath.
+
+    A/B measured against HEAD at three zooms with 20 codes forced into the filter:
+
+        zoom 5 (normal)   4 overlapping pairs  ->  0
+        zoom 7            0                    ->  0
+        zoom 3 (far out)  1                    ->  1   (a different pair; pre-existing —
+                                                        at that zoom the Sinosphere is a
+                                                        few pixels wide)
+
+    WordMap solved the same problem differently in July: it adds the period to the uniform
+    `baseLineH` under `if (showName && showHistorical)` and widens `_boxPad` 8 → 12 in the
+    historical view. That works there because the whole historical view is period-bearing; HanMap
+    shows period and non-period rows together, so per-label is the right place.
+
+    **Careless-edit warning:** the first patch also changed `_natLH` from 11/13/14 to 11/14/15
+    because the anchor string I matched on included that line. Caught by reading the diff before
+    committing. Read the diff, not just the tests.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

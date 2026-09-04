@@ -129,7 +129,17 @@ for (const [code, entry] of Object.entries(store)) {
     }
     if (typeof desc[lang] !== 'string') {
       issues.push({ code, lang, kind: 'invalid-type', detail: typeof desc[lang] });
-    } else if (!desc[lang].trim()) {
+      continue;
+    }
+    // These fields are plain text — nothing renders them as HTML. An entity
+    // written into one shows up as its literal characters. Twice in one
+    // afternoon I typed &nbsp; into a French description out of habit; before
+    // that there were none in the whole corpus.
+    if (/&(?:[a-zA-Z]+|#\d+);/.test(desc[lang])) {
+      const m = desc[lang].match(/&(?:[a-zA-Z]+|#\d+);/)[0];
+      issues.push({ code, lang, kind: 'html-entity', detail: m });
+    }
+    if (!desc[lang].trim()) {
       issues.push({ code, lang, kind: 'missing', detail: '' });
     }
   }
@@ -195,6 +205,7 @@ for (const [code, entry] of Object.entries(store)) {
 // outliers and the source-* notes are advisory.
 const BLOCKING = new Set([
   'missing-object', 'missing', 'invalid-type', 'same-as-en', 'english-fragment',
+  'html-entity',
 ]);
 
 // ---- CLI ----

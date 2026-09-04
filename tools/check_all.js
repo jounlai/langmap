@@ -250,6 +250,14 @@ line('no fused-script words', num(s, /fusions: (\d+)/));
 s = run('zh_script_convention.js --all');
 line('zh simplified/traditional convention', num(s, /mismatches: (\d+)/));
 
+// The guard above reads word CELLS. It never looked at article prose, and 30 of
+// 30 HanMap trivia articles turned out to carry traditional zh — 18 of them end
+// to end — while every WordMap article and all the UI chrome is simplified.
+// Cited forms (the 體→体 pair, the 開元通寶 coin legend, kokuji, data-char
+// button targets) are exempted by name inside the checker.
+s = run('trivia_zh_script_check.js --check');
+line('trivia zh is simplified', num(s, /traditional zh characters: (\d+)/));
+
 // Generated bundles: wordmap.html loads word_labels.js and lang_names/<ui>.js
 // instead of the full per-word and per-UI tables. If a label, definition or
 // language name changes, those files must be rebuilt or the site serves the

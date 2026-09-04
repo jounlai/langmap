@@ -1552,5 +1552,26 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     sans body stack); index/tree/namemap render forms in a sans stack throughout, so there is no
     serif/sans mismatch to fix there.
 
+77. **HanMap's ancient rows now show a period, like WordMap.** Owner request. `HAN_LANG_META` had no
+    `period` field at all; `hanmap.html` now renders `<div class="period">` under the name with the
+    same CSS and the same `showHistorical` gate as `wordmap.html`, so the two maps read alike.
+
+    **19 of the 20 `HAN_ANCIENT_CODES` are dated, and none of the dates were invented.** Fifteen are
+    the WordMap's own `meta.period` for the identical language — eight by direct code match
+    (`zh_han`, `zh_tang`, `zh_song`, `txg`, `juc`, `zkt`, `ko_mid`, `ptai`) and seven through the
+    code the WordMap uses for the same proto (`pst`←`p_sit`, `pko`←`p_kor`, `pja`←`p_jpn`,
+    `ptung`←`p_tun`, `pmgl`←`pmng`, `phm`←`p_hmx`, `paa`←`p_aav`). The remaining four are dated from
+    what that row's own description already states: `zh_yuan` 14c (Zhongyuan Yinyun, 1324),
+    `zh_phagspa` 13–14c (Menggu Ziyun c.1308, script official 1269–1370), `ja_ojp` 5–8c (borrowed
+    5th–6th c., stabilised in Nara texts 710–794), `vi_ohan` 1cBCE–6cCE (Han occupation from 111 BC,
+    Late Han to Early Middle Chinese). **`ptb` (Proto-Tibeto-Burman) is deliberately left undated** —
+    its description gives no date and there is no WordMap counterpart to borrow one from.
+
+    **Worth knowing when testing this:** HanMap's default language filter (`hf` in the hash, 93
+    codes) **excludes every ancient code**, so switching to historical mode alone shows no period
+    lines — the rows are filtered out entirely. That is pre-existing behaviour, not part of this
+    change. To see it: `#w=一&hist=1&hf=zh,ja,ko,zh_tang,ko_mid,txg,…`. Worth asking the owner
+    whether the ancient rows should be in the default filter when the historical era is selected.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

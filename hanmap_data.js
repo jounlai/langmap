@@ -17943,6 +17943,7 @@ const HAN_LANG_META = {
   },
   "zh_han": {
     "name": "Han Chinese (reconstructed)",
+    "period": "3cBCE–3cCE",
     "native": "上古漢語",
     "family": "Sinitic (Old Chinese)",
     "reading_type": {
@@ -18002,6 +18003,7 @@ const HAN_LANG_META = {
   },
   "zh_tang": {
     "name": "Tang Chinese (Middle Chinese)",
+    "period": "7–10c",
     "native": "中古漢語",
     "family": "Sinitic (Middle Chinese)",
     "reading_type": {
@@ -18061,6 +18063,7 @@ const HAN_LANG_META = {
   },
   "zh_song": {
     "name": "Song-Ming Classical",
+    "period": "10–17c",
     "native": "近古漢語",
     "family": "Sinitic (Late Middle Chinese)",
     "reading_type": {
@@ -18409,6 +18412,7 @@ const HAN_LANG_META = {
   },
   "juc": {
     "name": "Jurchen",
+    "period": "12–16c",
     "native": "jušen gisun",
     "lat": 45.55,
     "lng": 126.97,
@@ -18537,6 +18541,7 @@ const HAN_LANG_META = {
   },
   "txg": {
     "name": "Tangut",
+    "period": "11–13c",
     "native": "𗼇𗟲",
     "lat": 38.5,
     "lng": 106.27,
@@ -18660,6 +18665,7 @@ const HAN_LANG_META = {
   },
   "zkt": {
     "name": "Khitan",
+    "period": "4–13c",
     "native": "𘬱𘬻𘭟 𘬐𘭦𘬰",
     "lat": 43.97,
     "lng": 119.41,
@@ -18787,6 +18793,7 @@ const HAN_LANG_META = {
   },
   "zh_yuan": {
     "name": "Early Mandarin (Zhongyuan Yinyun, 1324)",
+    "period": "14c",
     "native": "中原音韻",
     "lat": 34.7,
     "lng": 113.6,
@@ -18850,6 +18857,7 @@ const HAN_LANG_META = {
   },
   "zh_phagspa": {
     "name": "Yuan Mandarin (Phags-pa script)",
+    "period": "13–14c",
     "native": "ꡏꡡꡃ ꡣꡟꡓ ꡒꡜ ꡓꡦꡋ (蒙古字韻)",
     "lat": 39.9,
     "lng": 116.4,
@@ -19354,6 +19362,7 @@ const HAN_LANG_META = {
   },
   "ko_mid": {
     "name": "Middle Korean Sino-reading",
+    "period": "10–16c",
     "native": "동국정운식 한자음",
     "lat": 37.57,
     "lng": 126.97,
@@ -19416,6 +19425,7 @@ const HAN_LANG_META = {
   },
   "ja_ojp": {
     "name": "Old Japanese on-yomi (7-8c.)",
+    "period": "5–8c",
     "native": "上代日本語呉音",
     "lat": 34.68,
     "lng": 135.83,
@@ -19483,6 +19493,7 @@ const HAN_LANG_META = {
   },
   "vi_ohan": {
     "name": "Old Sino-Vietnamese (古漢越音)",
+    "period": "1cBCE–6cCE",
     "native": "âm Cổ Hán Việt",
     "lat": 21.03,
     "lng": 105.85,
@@ -19767,6 +19778,7 @@ const HAN_LANG_META = {
   },
   "pst": {
     "name": "Proto-Sino-Tibetan",
+    "period": "55–35cBCE",
     "native": "原始漢蔵語",
     "lat": 33,
     "lng": 102,
@@ -19891,6 +19903,7 @@ const HAN_LANG_META = {
   },
   "pko": {
     "name": "Proto-Koreanic",
+    "period": "1cBCE–7cCE",
     "native": "원시 한국어 / 朝鮮祖語",
     "lat": 39,
     "lng": 127,
@@ -19953,6 +19966,7 @@ const HAN_LANG_META = {
   },
   "pja": {
     "name": "Proto-Japonic",
+    "period": "5cBCE–5cCE",
     "native": "日本祖語",
     "lat": 34.5,
     "lng": 134,
@@ -20015,6 +20029,7 @@ const HAN_LANG_META = {
   },
   "ptung": {
     "name": "Proto-Tungusic",
+    "period": "1cBCE–5cCE",
     "native": "ツングース祖語",
     "lat": 50,
     "lng": 130,
@@ -20077,6 +20092,7 @@ const HAN_LANG_META = {
   },
   "paa": {
     "name": "Proto-Austroasiatic",
+    "period": "45–20cBCE",
     "native": "原始オーストロアジア語",
     "lat": 13,
     "lng": 105,
@@ -20138,6 +20154,7 @@ const HAN_LANG_META = {
   },
   "ptai": {
     "name": "Proto-Tai",
+    "period": "2cBCE–6cCE",
     "native": "原始タイ語",
     "lat": 23,
     "lng": 108,
@@ -20199,6 +20216,7 @@ const HAN_LANG_META = {
   },
   "pmgl": {
     "name": "Proto-Mongolic",
+    "period": "9–13c",
     "native": "原始モンゴル語",
     "lat": 47,
     "lng": 105,
@@ -20260,6 +20278,7 @@ const HAN_LANG_META = {
   },
   "phm": {
     "name": "Proto-Hmong-Mien",
+    "period": "6–3cBCE",
     "native": "原始苗瑶語",
     "lat": 28,
     "lng": 110,

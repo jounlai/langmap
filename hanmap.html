@@ -890,6 +890,16 @@
         .lang-label .name {
             font-size: calc(9px * var(--label-scale)); color: #888; line-height: 1.3;
         }
+        /* Second name line for the historical rows: the period the reading
+           belongs to (meta.period), e.g. "7–10c" for Tang Chinese. Same
+           treatment as the Word Map so the two maps read alike — dimmer and
+           smaller than the name, pulled up so the pair is one two-line block.
+           Owner request 2026-09-04. */
+        .lang-label .period {
+            font-size: calc(8px * var(--label-scale)); color: #c0392b; line-height: 1.05;
+            white-space: nowrap;
+            margin-top: -1px;
+        }
         /* Vertical writing for Mongolian Traditional Script / Manchu /
            Sibe / Phags-pa. Per user request 2026-05-29: ONLY the native-
            script line rotates to vertical; the romanization above and
@@ -918,9 +928,11 @@
         .zoom-far .lang-label .word { font-size: calc(11px * var(--label-scale)); }
         .zoom-far .lang-label .ipa { font-size: calc(8px * var(--label-scale)); }
         .zoom-far .lang-label .name { font-size: calc(7px * var(--label-scale)); }
+        .zoom-far .lang-label .period { font-size: calc(6px * var(--label-scale)); }
         .zoom-mid .lang-label .word { font-size: calc(13px * var(--label-scale)); }
         .zoom-mid .lang-label .ipa { font-size: calc(9px * var(--label-scale)); }
         .zoom-mid .lang-label .name { font-size: calc(8px * var(--label-scale)); }
+        .zoom-mid .lang-label .period { font-size: calc(7px * var(--label-scale)); }
 
         /* 独自文字 (horizontal native scripts — Tangut, Chữ Nôm, archaic
            Hangul jamo, etc.) share the .word box, so a script whose font has
@@ -3295,7 +3307,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=297"></script>
-    <script src="hanmap_data.js?v=115"></script>
+    <script src="hanmap_data.js?v=116"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -6980,7 +6992,17 @@
                     html += `<div class="ipa" dir="ltr" ${c ? `style="color:${c}"` : ''}>${escapeHtml(r.ipa)}</div>`;
                 }
             }
-            if (showName) html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
+            if (showName) {
+                html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
+                // Historical rows carry meta.period ("7–10c"): show it as a
+                // second name line, but only on the historical map — on the
+                // modern one a date under a living reading reads as an error.
+                // Same rule and same look as the Word Map.
+                const per = showHistorical
+                    ? ((HAN_LANG_META[code] && HAN_LANG_META[code].period) || '')
+                    : '';
+                if (per) html += `<div class="period" dir="auto">${escapeHtml(per)}</div>`;
+            }
             html += '</div>';
             return html;
         }

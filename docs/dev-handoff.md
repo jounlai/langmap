@@ -1573,5 +1573,30 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     change. To see it: `#w=一&hist=1&hf=zh,ja,ko,zh_tang,ko_mid,txg,…`. Worth asking the owner
     whether the ancient rows should be in the default filter when the historical era is selected.
 
+78. **Ctrl/Cmd-click a map label toggles it in the comparison.** Owner request. Both maps now route
+    every label activation through one helper instead of calling `showLangInfo` directly:
+    `activateLabel(code, ev)` toggles compare when `ev.ctrlKey || ev.metaKey` (and neither alt nor
+    shift), otherwise opens the panel as before.
+
+    Five call sites in `wordmap.html` and five in `hanmap.html`: the 2D Leaflet marker click (pass
+    `e.originalEvent`, not the Leaflet event object), the 2D keydown, the globe label click, the
+    globe keydown, and the unattested globe label. Missing any one leaves a label where the shortcut
+    silently does nothing.
+
+    **`metaKey` is not optional.** On macOS Ctrl+click IS the context-menu gesture and never reaches
+    a click handler, so Ctrl alone would be dead on every Mac. alt/shift are excluded so the binding
+    cannot swallow a future modifier combination. Touch sets neither, so tapping is unaffected.
+
+    A `hint` string went into `COMPARE_I18N` in both files (19 languages) and is the `title` of the
+    panel's compare button. The FAB was the obvious home for it but only appears once the list is
+    non-empty — exactly when the user has already found the feature the slow way.
+
+    Verified in Chromium on both maps with Control and with Meta: add, remove, amber ring and FAB
+    appear and clear, the info panel does NOT open on a modified click, plain click still opens it.
+    The globe path shares the helper but was not exercised headlessly (WebGL).
+
+    Note for testing: the language info panel's id is **`lang-info`**, not `info-panel` — a wrong
+    selector there made a working plain click look broken for a minute.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

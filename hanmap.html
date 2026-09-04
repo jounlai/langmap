@@ -4756,7 +4756,7 @@
             const label = e.target.closest('.lang-label, .unattested-marker, .unattested-label');
             if (!label || !label.dataset.code) return;
             e.preventDefault();
-            showLangInfo(label.dataset.code);
+            activateLabel(label.dataset.code, e);
         });
 
         // Country borders
@@ -6099,7 +6099,7 @@
                     // connector line, and URL `lang` param). Use it instead of
                     // the manual visible/dataset.code mutation that left state
                     // partially stale.
-                    showLangInfo(label.dataset.code);
+                    activateLabel(label.dataset.code, e);
                 }
             });
             // Audit Task 135: keyboard activation for globe labels.
@@ -6108,7 +6108,7 @@
                 const label = e.target.closest('.globe-label');
                 if (!label || !label.dataset.code) return;
                 e.preventDefault();
-                showLangInfo(label.dataset.code);
+                activateLabel(label.dataset.code, e);
             });
 
             // Sync globe size
@@ -8137,7 +8137,7 @@
                 const icon = L.divIcon({ className: '', html: pinHtml + labelHtml, iconSize: [0, 0], iconAnchor: [0, 0] });
                 const marker = L.marker([lang.lat, lang.lng], { icon, interactive: true });
                 marker._langCode = code;
-                marker.on('click', () => showLangInfo(code));
+                marker.on('click', (e) => activateLabel(code, e && e.originalEvent));
                 marker.addTo(map);
                 markers.push(marker);
 
@@ -9320,7 +9320,7 @@
                 const lObj = cmpI18n[uiBase] || cmpI18n.en;
                 const lbl = inCmp ? lObj.remove : lObj.add;
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
-                html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}">${escapeHtml(lbl)}</button>`;
+                html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
 
             if (hanMeta) {
@@ -9612,7 +9612,7 @@
                 const lObj = cmpI18n[uiLang] || cmpI18n[uiLang.split('_')[0]] || cmpI18n.en;
                 const lbl = inCmp ? lObj.remove : lObj.add;
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
-                html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}">${escapeHtml(lbl)}</button>`;
+                html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
             // Audit Task 115: disambiguator for rows that share a display
             // or native name with another row (e.g. mn_cn/xng both show
@@ -10450,25 +10450,25 @@
 
         // i18n labels for compare UI (subset; falls back to en)
         const COMPARE_I18N = {
-            en:    { title:'Language comparison', clear:'Clear', fab:'Compare', add:'+ Add to compare', remove:'✓ In comparison (remove)', max:'Maximum 8 languages', simcolor:'Highlight by similarity', del:'Remove' },
-            ja:    { title:'言語比較', clear:'クリア', fab:'比較', add:'+ 比較に追加', remove:'✓ 比較中（削除）', max:'最大 8 言語まで', simcolor:'発音類似でハイライト', del:'削除' },
-            ko:    { title:'언어 비교', clear:'초기화', fab:'비교', add:'+ 비교에 추가', remove:'✓ 비교 중 (제거)', max:'최대 8개 언어', simcolor:'발음 유사도로 강조', del:'제거' },
-            zh:    { title:'语言对比', clear:'清空', fab:'对比', add:'+ 加入对比', remove:'✓ 对比中（移除）', max:'最多 8 种语言', simcolor:'按发音相似性高亮', del:'移除' },
-            yue:   { title:'語言對比', clear:'清空', fab:'對比', add:'+ 加入對比', remove:'✓ 對比中（移除）', max:'最多 8 種語言', simcolor:'按發音相似性高亮', del:'移除' },
-            vi:    { title:'So sánh ngôn ngữ', clear:'Xóa', fab:'So sánh', add:'+ Thêm vào so sánh', remove:'✓ Đang so sánh (gỡ)', max:'Tối đa 8 ngôn ngữ', simcolor:'Tô màu theo độ tương tự', del:'Xóa' },
-            th:    { title:'การเปรียบเทียบภาษา', clear:'ล้าง', fab:'เปรียบเทียบ', add:'+ เพิ่มเพื่อเปรียบเทียบ', remove:'✓ กำลังเปรียบเทียบ (ลบ)', max:'สูงสุด 8 ภาษา', simcolor:'เน้นตามความคล้ายเสียง', del:'ลบ' },
-            id:    { title:'Perbandingan bahasa', clear:'Hapus', fab:'Bandingkan', add:'+ Tambah ke perbandingan', remove:'✓ Sedang dibandingkan (hapus)', max:'Maksimum 8 bahasa', simcolor:'Sorot kemiripan bunyi', del:'Hapus' },
-            hi:    { title:'भाषा तुलना', clear:'साफ़ करें', fab:'तुलना', add:'+ तुलना में जोड़ें', remove:'✓ तुलना में (हटाएं)', max:'अधिकतम 8 भाषाएं', simcolor:'उच्चारण समानता से हाइलाइट', del:'हटाएं' },
-            de:    { title:'Sprachvergleich', clear:'Leeren', fab:'Vergleichen', add:'+ Zum Vergleich', remove:'✓ Im Vergleich (entfernen)', max:'Maximal 8 Sprachen', simcolor:'Nach Ähnlichkeit hervorheben', del:'Entfernen' },
-            fr:    { title:'Comparaison de langues', clear:'Effacer', fab:'Comparer', add:'+ Ajouter à la comparaison', remove:'✓ En comparaison (retirer)', max:'8 langues maximum', simcolor:'Surligner par similarité', del:'Retirer' },
-            it:    { title:'Confronto lingue', clear:'Pulisci', fab:'Confronta', add:'+ Aggiungi al confronto', remove:'✓ In confronto (rimuovi)', max:'Massimo 8 lingue', simcolor:'Evidenzia per similarità', del:'Rimuovi' },
-            es:    { title:'Comparación de idiomas', clear:'Borrar', fab:'Comparar', add:'+ Añadir a comparar', remove:'✓ En comparación (quitar)', max:'Máximo 8 idiomas', simcolor:'Resaltar por similitud', del:'Quitar' },
-            pt:    { title:'Comparação de idiomas', clear:'Limpar', fab:'Comparar', add:'+ Adicionar à comparação', remove:'✓ Em comparação (remover)', max:'Máximo de 8 idiomas', simcolor:'Destacar por similaridade', del:'Remover' },
-            ru:    { title:'Сравнение языков', clear:'Очистить', fab:'Сравнить', add:'+ Добавить к сравнению', remove:'✓ В сравнении (убрать)', max:'Максимум 8 языков', simcolor:'Подсветить по сходству', del:'Убрать' },
-            uk:    { title:'Порівняння мов', clear:'Очистити', fab:'Порівняти', add:'+ Додати до порівняння', remove:'✓ У порівнянні (вилучити)', max:'Максимум 8 мов', simcolor:'Підсвітити за схожістю', del:'Вилучити' },
-            ar:    { title:'مقارنة اللغات', clear:'مسح', fab:'مقارنة', add:'+ إضافة للمقارنة', remove:'✓ قيد المقارنة (إزالة)', max:'بحد أقصى 8 لغات', simcolor:'إبراز حسب التشابه', del:'إزالة' },
-            he:    { title:'השוואת שפות', clear:'נקה', fab:'השווה', add:'+ הוסף להשוואה', remove:'✓ בהשוואה (הסר)', max:'מקסימום 8 שפות', simcolor:'הדגש לפי דמיון', del:'הסר' },
-            sw:    { title:'Ulinganishaji wa lugha', clear:'Futa', fab:'Linganisha', add:'+ Ongeza ili kulinganisha', remove:'✓ Inalinganishwa (toa)', max:'Lugha 8 zaidi', simcolor:'Angazia kwa kufanana', del:'Ondoa' },
+            en:    { title:'Language comparison', clear:'Clear', fab:'Compare', add:'+ Add to compare', remove:'✓ In comparison (remove)', max:'Maximum 8 languages', simcolor:'Highlight by similarity', del:'Remove', hint:'Tip: Ctrl-click (⌘-click on Mac) a language on the map to add or remove it' },
+            ja:    { title:'言語比較', clear:'クリア', fab:'比較', add:'+ 比較に追加', remove:'✓ 比較中（削除）', max:'最大 8 言語まで', simcolor:'発音類似でハイライト', del:'削除', hint:'ヒント: 地図上の言語を Ctrl+クリック（Mac は ⌘+クリック）で比較に追加・解除' },
+            ko:    { title:'언어 비교', clear:'초기화', fab:'비교', add:'+ 비교에 추가', remove:'✓ 비교 중 (제거)', max:'최대 8개 언어', simcolor:'발음 유사도로 강조', del:'제거', hint:'팁: 지도에서 언어를 Ctrl+클릭(Mac은 ⌘+클릭)하면 비교에 추가·해제' },
+            zh:    { title:'语言对比', clear:'清空', fab:'对比', add:'+ 加入对比', remove:'✓ 对比中（移除）', max:'最多 8 种语言', simcolor:'按发音相似性高亮', del:'移除', hint:'提示：在地图上 Ctrl+点击（Mac 为 ⌘+点击）语言即可加入或移出对比' },
+            yue:    { title:'語言對比', clear:'清空', fab:'對比', add:'+ 加入對比', remove:'✓ 對比中（移除）', max:'最多 8 種語言', simcolor:'按發音相似性高亮', del:'移除', hint:'提示：喺地圖上 Ctrl+點擊（Mac 用 ⌘+點擊）語言就可以加入或移走' },
+            vi:    { title:'So sánh ngôn ngữ', clear:'Xóa', fab:'So sánh', add:'+ Thêm vào so sánh', remove:'✓ Đang so sánh (gỡ)', max:'Tối đa 8 ngôn ngữ', simcolor:'Tô màu theo độ tương tự', del:'Xóa', hint:'Mẹo: Ctrl-nhấp (⌘-nhấp trên Mac) vào một ngôn ngữ trên bản đồ để thêm hoặc bỏ' },
+            th:    { title:'การเปรียบเทียบภาษา', clear:'ล้าง', fab:'เปรียบเทียบ', add:'+ เพิ่มเพื่อเปรียบเทียบ', remove:'✓ กำลังเปรียบเทียบ (ลบ)', max:'สูงสุด 8 ภาษา', simcolor:'เน้นตามความคล้ายเสียง', del:'ลบ', hint:'เคล็ดลับ: Ctrl-คลิก (⌘-คลิกบน Mac) ภาษาบนแผนที่เพื่อเพิ่มหรือเอาออก' },
+            id:    { title:'Perbandingan bahasa', clear:'Hapus', fab:'Bandingkan', add:'+ Tambah ke perbandingan', remove:'✓ Sedang dibandingkan (hapus)', max:'Maksimum 8 bahasa', simcolor:'Sorot kemiripan bunyi', del:'Hapus', hint:'Tips: Ctrl-klik (⌘-klik di Mac) sebuah bahasa di peta untuk menambah atau menghapusnya' },
+            hi:    { title:'भाषा तुलना', clear:'साफ़ करें', fab:'तुलना', add:'+ तुलना में जोड़ें', remove:'✓ तुलना में (हटाएं)', max:'अधिकतम 8 भाषाएं', simcolor:'उच्चारण समानता से हाइलाइट', del:'हटाएं', hint:'सुझाव: नक्शे पर भाषा को Ctrl+क्लिक (Mac पर ⌘+क्लिक) कर तुलना में जोड़ें या हटाएं' },
+            de:    { title:'Sprachvergleich', clear:'Leeren', fab:'Vergleichen', add:'+ Zum Vergleich', remove:'✓ Im Vergleich (entfernen)', max:'Maximal 8 Sprachen', simcolor:'Nach Ähnlichkeit hervorheben', del:'Entfernen', hint:'Tipp: Strg-Klick (⌘-Klick auf dem Mac) auf eine Sprache in der Karte fügt sie hinzu oder entfernt sie' },
+            fr:    { title:'Comparaison de langues', clear:'Effacer', fab:'Comparer', add:'+ Ajouter à la comparaison', remove:'✓ En comparaison (retirer)', max:'8 langues maximum', simcolor:'Surligner par similarité', del:'Retirer', hint:'Astuce : Ctrl-clic (⌘-clic sur Mac) sur une langue de la carte pour l’ajouter ou la retirer' },
+            it:    { title:'Confronto lingue', clear:'Pulisci', fab:'Confronta', add:'+ Aggiungi al confronto', remove:'✓ In confronto (rimuovi)', max:'Massimo 8 lingue', simcolor:'Evidenzia per similarità', del:'Rimuovi', hint:'Suggerimento: Ctrl-clic (⌘-clic su Mac) su una lingua nella mappa per aggiungerla o rimuoverla' },
+            es:    { title:'Comparación de idiomas', clear:'Borrar', fab:'Comparar', add:'+ Añadir a comparar', remove:'✓ En comparación (quitar)', max:'Máximo 8 idiomas', simcolor:'Resaltar por similitud', del:'Quitar', hint:'Consejo: Ctrl-clic (⌘-clic en Mac) sobre un idioma del mapa para añadirlo o quitarlo' },
+            pt:    { title:'Comparação de idiomas', clear:'Limpar', fab:'Comparar', add:'+ Adicionar à comparação', remove:'✓ Em comparação (remover)', max:'Máximo de 8 idiomas', simcolor:'Destacar por similaridade', del:'Remover', hint:'Dica: Ctrl-clique (⌘-clique no Mac) num idioma do mapa para adicioná-lo ou removê-lo' },
+            ru:    { title:'Сравнение языков', clear:'Очистить', fab:'Сравнить', add:'+ Добавить к сравнению', remove:'✓ В сравнении (убрать)', max:'Максимум 8 языков', simcolor:'Подсветить по сходству', del:'Убрать', hint:'Совет: Ctrl+клик (⌘+клик на Mac) по языку на карте добавляет его в сравнение или убирает' },
+            uk:    { title:'Порівняння мов', clear:'Очистити', fab:'Порівняти', add:'+ Додати до порівняння', remove:'✓ У порівнянні (вилучити)', max:'Максимум 8 мов', simcolor:'Підсвітити за схожістю', del:'Вилучити', hint:'Порада: Ctrl+клік (⌘+клік на Mac) по мові на карті додає її до порівняння або прибирає' },
+            ar:    { title:'مقارنة اللغات', clear:'مسح', fab:'مقارنة', add:'+ إضافة للمقارنة', remove:'✓ قيد المقارنة (إزالة)', max:'بحد أقصى 8 لغات', simcolor:'إبراز حسب التشابه', del:'إزالة', hint:'تلميح: اضغط Ctrl مع النقر (⌘ مع النقر على ماك) على لغة في الخريطة لإضافتها أو إزالتها' },
+            he:    { title:'השוואת שפות', clear:'נקה', fab:'השווה', add:'+ הוסף להשוואה', remove:'✓ בהשוואה (הסר)', max:'מקסימום 8 שפות', simcolor:'הדגש לפי דמיון', del:'הסר', hint:'טיפ: Ctrl+לחיצה (⌘+לחיצה במק) על שפה במפה מוסיפה אותה להשוואה או מסירה אותה' },
+            sw:    { title:'Ulinganishaji wa lugha', clear:'Futa', fab:'Linganisha', add:'+ Ongeza ili kulinganisha', remove:'✓ Inalinganishwa (toa)', max:'Lugha 8 zaidi', simcolor:'Angazia kwa kufanana', del:'Ondoa', hint:'Dokezo: Ctrl-bofya (⌘-bofya kwenye Mac) lugha kwenye ramani ili kuiongeza au kuiondoa' },
         };
         function compareT(key) {
             const base = uiLang.split('_')[0];
@@ -10668,6 +10668,20 @@
             window.__compareList = _compareList;
             try { localStorage.setItem(COMPARE_STORAGE_KEY, JSON.stringify(_compareList)); } catch (e) {}
             try { updateHash(); } catch (e) {}
+        }
+        // Ctrl/Cmd-click a language label to add or remove it from the
+        // comparison instead of opening its panel (owner request 2026-09-04).
+        // metaKey is the Mac binding: there Ctrl+click IS the context-menu
+        // gesture and never arrives as a plain click, so Ctrl alone would be
+        // dead on half the desktops. Touch devices never set either, so the
+        // ordinary tap is untouched.
+        function activateLabel(code, ev) {
+            if (ev && (ev.ctrlKey || ev.metaKey) && !ev.altKey && !ev.shiftKey) {
+                if (ev.preventDefault) ev.preventDefault();
+                if (isInCompare(code)) removeFromCompare(code); else addToCompare(code);
+                return;
+            }
+            showLangInfo(code);
         }
         function isInCompare(code) { return _compareList.indexOf(code) !== -1; }
         // Toggle the `in-compare` marker class on every label already in the

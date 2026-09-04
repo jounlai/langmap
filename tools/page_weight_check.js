@@ -21,7 +21,8 @@
  * own comment says trivia is "decorative on the map … Fetch after `load` so
  * they never sit in front of first paint", and it also splits per UI
  * (wordmap_trivia.js is EN+JA, wordmap_trivia_<ui>.js loads on demand).
- * hanmap.html does neither — one eager tag carrying 40 articles in all 19 UIs.
+ * hanmap.html did neither until 2026-09-04 — one eager tag carrying 30
+ * articles in all 19 UIs, 1 MB gzipped. It now injects them on demand.
  *
  * The lock records what each page weighs today. Growth beyond TOLERANCE fails;
  * a page that gets lighter is reported so the lock can be re-cut with --update.
@@ -49,7 +50,16 @@ function weigh(page) {
     let total = gz(Buffer.from(src, 'utf8'));
     const parts = [[page, total]];
     const urls = [];
-    for (const m of src.matchAll(/<script[^>]+src=["']([^"']+)["']/g)) urls.push(m[1]);
+    // A <script> whose type the browser cannot execute is never fetched
+    // either, so it costs nothing at first paint. hanmap.html uses one to
+    // park hanmap_trivia.js's URL and ?v= where the version tool can find
+    // and bump them, while the file itself is injected later on demand.
+    for (const m of src.matchAll(/<script([^>]+)src=["']([^"']+)["']/g)) {
+        const attrs = m[1];
+        const type = (attrs.match(/type=["']([^"']*)["']/) || [, ''])[1];
+        if (type && !/^(text\/javascript|application\/javascript|module)$/i.test(type)) continue;
+        urls.push(m[2]);
+    }
     for (const m of src.matchAll(/<link[^>]+rel=["']stylesheet["'][^>]+href=["']([^"']+)["']/g)) urls.push(m[1]);
     for (const m of src.matchAll(/<link[^>]+href=["']([^"']+)["'][^>]*rel=["']stylesheet["']/g)) urls.push(m[1]);
     const seen = new Set();

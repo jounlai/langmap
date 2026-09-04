@@ -104,9 +104,10 @@ line('no Chao tone in surface', num(s, /violations: (\d+)/));
 // /sitemap-seo.xml is at 94.9% of the 50MB limit (review 460). Over it, search
 // engines reject the WHOLE file rather than the excess, so every SSR page loses
 // its entry at once. Reported as headroom until it goes over.
-// Eager first-paint weight per page, ratcheted. hanmap.html is 1,988 KB gz and
-// 943 KB of that is hanmap_trivia.js, which wordmap.html loads AFTER `load` by
-// its own stated rule (review 462). The guard stops it growing further.
+// Eager first-paint weight per page, ratcheted. hanmap.html was 1,988 KB gz,
+// 943 KB of it hanmap_trivia.js in front of the map — 2026-09-04 that file is
+// injected on demand the way wordmap.html has always done it, and the page is
+// 1,052 KB. The lock came down with it; the guard stops it growing back.
 // The CARTO free tier is granted in exchange for keeping the CARTO AND
 // OpenStreetMap credit visible. The default `flat` layer on both map pages
 // credited only CARTO (owner 2026-08-27).

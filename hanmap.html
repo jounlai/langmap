@@ -3319,10 +3319,20 @@
         var WORDS = window.WORDS = window.WORDS || {};
         var WORD_ORDER = window.WORD_ORDER = window.WORD_ORDER || [];
     </script>
-    <!-- Hanmap-specific trivia (40 articles × 19 UI langs). Defines
-         TRIVIA_ARTICLES on window so the inherited wordmap trivia modal
-         renders these without changes. Must come BEFORE wordmap's IIFE. -->
-    <script src="hanmap_trivia.js?v=62"></script>
+    <!-- Hanmap-specific trivia (30 articles × 19 UI langs), 1 MB gzipped.
+         As a plain <script> tag this was 47% of the page's first-paint
+         weight, downloaded in front of the map by every reader whether or
+         not they ever opened an article. loadHanTrivia() below injects it
+         instead — at idle after `load`, or immediately when the reader
+         opens the modal, whichever comes first. wordmap.html has loaded
+         its own trivia that way since review 462; this page had not.
+         The tag below is deliberately type="text/plain": a script with a
+         type the browser does not execute is never fetched either, so
+         this is a place to keep the URL and its ?v= — which
+         page_asset_version_check.js still finds and bumps — without
+         downloading anything. rel="prefetch" was tried first and fetched
+         the file twice without the injected script reusing it. -->
+    <script type="text/plain" id="trivia-src" src="hanmap_trivia.js?v=62"></script>
     <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
          slice only) via loadMetaI18n() in the IIFE below. The old eager
          meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->
@@ -11205,6 +11215,43 @@
                 }
             }
         }
+        // The articles themselves are lazy for the same reason the i18n
+        // overlays are: nobody has asked for them yet when the map paints.
+        // The inert #trivia-src tag in the head carries the URL and its
+        // cache-version, so there is exactly one place the version lives
+        // and the version tool still maintains it.
+        let _hanTriviaLoaded = false;
+        let _hanTriviaPromise = null;
+        function loadHanTrivia() {
+            if (_hanTriviaPromise) return _hanTriviaPromise;
+            const ref = document.getElementById('trivia-src');
+            const src = (ref && ref.getAttribute('src')) || 'hanmap_trivia.js';
+            _hanTriviaPromise = new Promise((resolve) => {
+                const el = document.createElement('script');
+                el.src = src;
+                el.onload = el.onerror = () => resolve();
+                document.head.appendChild(el);
+            }).then(() => {
+                // A failed fetch must not leave the modal retrying forever:
+                // mark it loaded either way and render whatever arrived.
+                _hanTriviaLoaded = true;
+                if (!Array.isArray(window.TRIVIA_ARTICLES)) window.TRIVIA_ARTICLES = [];
+                try { applyTriviaI18nOverlay(); } catch (_) {}
+                try { refreshTriviaBlinks(); } catch (_) {}
+                const idx = document.getElementById('trivia-index');
+                if (idx && idx.classList.contains('visible')) {
+                    try { renderTriviaIndex(); } catch (_) {}
+                }
+            });
+            return _hanTriviaPromise;
+        }
+        window.__hmLoadTrivia = loadHanTrivia;
+        if (document.readyState === 'complete') setTimeout(loadHanTrivia, 0);
+        else window.addEventListener('load', () => {
+            if (window.requestIdleCallback) requestIdleCallback(loadHanTrivia, { timeout: 4000 });
+            else setTimeout(loadHanTrivia, 600);
+        }, { once: true });
+
         function loadTriviaI18nFor(lang) {
             if (!lang) return Promise.resolve();
             const base = lang.split('_')[0];
@@ -11694,6 +11741,10 @@
             try { _clearPantoLabel(); } catch (_) {}
         }
         function openTrivia(id) {
+            // The articles are lazy (loadHanTrivia above). If the reader beats
+            // the idle fetch — or arrives on a #trivia=<id> deep link — pull
+            // them now and re-enter.
+            if (!_hanTriviaLoaded) { loadHanTrivia().then(() => openTrivia(id)); return; }
             const list = window.TRIVIA_ARTICLES || [];
             if (!list.length) return;
             // Best-effort load of the trivia translation overlay for the

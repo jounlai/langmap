@@ -114,6 +114,8 @@ function figures(html) {
     // 1-6", not 60,000. It counts as a myriad only when a counter follows.
     t = t.replace(/(\d+)\s*만(?=\s*(?:명|여|개|권|자|점|부|건|원|글자|음절|어휘|가지|이상|가량|정도|[~〜–—]))/g, (_, a) => String(+a * 10000));
     t = t.replace(/(\d+)\s*억(?=\s*(?:명|여|개|원|건))/g, (_, a) => String(+a * 1e8));
+    // 1億2500万 is 125,000,000, not 100,000,000 beside 25,000,000.
+    t = t.replace(/(\d+)\s*[億亿]\s*(\d+)\s*[万萬]/g, (_, a, b) => String(+a * 1e8 + +b * 10000));
     t = t.replace(/(\d+)\s*[億亿]/g, (_, a) => String(+a * 1e8));
     t = t.replace(/(?<![~–—-])(\d+)\s*[万萬]/g, (_, a) => String(+a * 10000));
     // "nine million", "a thousand", "half a million" -> a plain figure.

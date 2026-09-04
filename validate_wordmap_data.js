@@ -512,12 +512,15 @@ if (familyOutsideAllow) W(`${familyOutsideAllow} languages have meta.family with
 // Only check counts that are plausibly Word-Map related (within 100 of actual)
 // to avoid false positives from index.html / Word Order Map mentions.
 const N = codes.length;
-const reN = /(\d{3,4})\s*(?:languages|言語|languages\/varieties)/g;
+// The public copy writes the count with a thousands separator ("1,165
+// Languages"), and \d{3,4} matched only the "165", so a CORRECT page still
+// warned — for a year it said "mentions 151" while the tag read 1,151.
+const reN = /(\d{1,3}(?:,\d{3})+|\d{3,4})\s*(?:languages|Languages|言語|languages\/varieties)/g;
 function checkCounts(src, where) {
     const seen = new Set();
     let m;
     while ((m = reN.exec(src)) !== null) {
-        const n = +m[1];
+        const n = +m[1].replace(/,/g, '');
         if (seen.has(n)) continue;
         seen.add(n);
         if (Math.abs(n - N) > 100) continue; // skip clearly different scope
@@ -526,20 +529,24 @@ function checkCounts(src, where) {
 }
 checkCounts(htmlSrc,    'wordmap.html');
 checkCounts(readmeSrc,  'README.md');
-const headerN = (dataSrc.match(/(\d{3,4})\s*languages/) || [])[1];
+const headerN = ((dataSrc.match(/(\d{1,3}(?:,\d{3})+|\d{3,4})\s*languages/) || [])[1] || '').replace(/,/g, '');
 if (headerN && +headerN !== N) E(`wordmap_data.js header says ${headerN} languages, actual ${N}`);
 
 // Audit Task 107: explicitly cross-check meta description / OG / Twitter tags
 // that are externally visible (SEO/social previews) and easy to miss.
+// NUM allows a thousands separator: the tags are written for readers
+// ("1,165 Languages"), and \d{3,4} alone matched just the "165", so these four
+// warned even when the page was right.
+const NUM = '(\\d{1,3}(?:,\\d{3})+|\\d{3,4})';
 const seoTags = [
-    { re: /<title>[^<]*?(\d{3,4})\s*Languages/i,                                   label: '<title>' },
-    { re: /<meta\s+name="description"\s+content="[^"]*?(\d{3,4})\s*languages/i,    label: '<meta name="description">' },
-    { re: /<meta\s+property="og:description"\s+content="[^"]*?(\d{3,4})\s*languages/i, label: '<meta og:description>' },
-    { re: /<meta\s+name="twitter:description"\s+content="[^"]*?(\d{3,4})\s*languages/i, label: '<meta twitter:description>' },
+    { re: new RegExp('<title>[^<]*?' + NUM + '\\s*Languages', 'i'),                                   label: '<title>' },
+    { re: new RegExp('<meta\\s+name="description"\\s+content="[^"]*?' + NUM + '\\s*languages', 'i'),    label: '<meta name="description">' },
+    { re: new RegExp('<meta\\s+property="og:description"\\s+content="[^"]*?' + NUM + '\\s*languages', 'i'), label: '<meta og:description>' },
+    { re: new RegExp('<meta\\s+name="twitter:description"\\s+content="[^"]*?' + NUM + '\\s*languages', 'i'), label: '<meta twitter:description>' },
 ];
 for (const t of seoTags) {
     const m = htmlSrc.match(t.re);
-    if (m && +m[1] !== N) W(`wordmap.html ${t.label} mentions ${m[1]} languages but actual count is ${N} (Audit Task 107)`);
+    if (m && +m[1].replace(/,/g, '') !== N) W(`wordmap.html ${t.label} mentions ${m[1]} languages but actual count is ${N} (Audit Task 107)`);
 }
 
 // ---- 18a. Trust-label UI coverage (Audit Task 92) --------------------

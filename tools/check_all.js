@@ -211,6 +211,19 @@ line('vitality field contradictions', num(s, /vitality contradictions: (\d+)/),
 // (same-as-English) UI-language description, or a run of English left inside a
 // translation, ships a broken info panel. Length outliers and source-* notes
 // are advisory (not counted here). Origin: review #425 (CODEX description audit).
+// 67 rows were rewritten in en/ja/ko/zh and left at their older, much shorter
+// text in the other 19 UI languages — a German reader looking up German gets two
+// lines where an English reader gets a full profile. The length check above
+// cannot see it: it compares each language against the median of the entry's
+// others, and when 19 of 23 are short the median is short. Ratcheted.
+const DESC_DRIFT_DEBT = 972;
+s = run('description_content_drift.js --check');
+{
+    const n = num(s, /drifted descriptions: (\d+)/);
+    line('descriptions say the same thing', n > DESC_DRIFT_DEBT ? n - DESC_DRIFT_DEBT : 0,
+        n + ' drifted, budget ' + DESC_DRIFT_DEBT);
+}
+
 s = run('description_translation_check.js --check');
 line('description translation integrity', num(s, /blocking: (\d+)/));
 

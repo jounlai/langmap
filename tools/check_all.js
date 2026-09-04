@@ -267,6 +267,20 @@ line('trivia zh is simplified', num(s, /traditional zh characters: (\d+)/));
 s = run('trivia_translation_drift.js --check');
 line('translations add no figures', num(s, /unexplained figures: (\d+)/));
 
+// Controls are being lost in translation. Nine HanMap articles had buttons ONLY
+// in English; go-on-kan-on-to-on has nine and thirteen languages had three. The
+// older "trivia button targets exist" guard checks that a button points at
+// something real, never that the button is there at all. ja/ko/zh/yue/vi are
+// now at parity; the remaining thirteen languages are a ratchet that must go
+// down, never up.
+const CONTROL_DEBT = 530;
+s = run('trivia_control_parity.js --check');
+{
+    const n = num(s, /missing controls: (\d+)/);
+    line('trivia controls in translations', n > CONTROL_DEBT ? n - CONTROL_DEBT : 0,
+        n + ' missing, budget ' + CONTROL_DEBT + ' (ja/ko/zh/yue/vi at parity)');
+}
+
 // Generated bundles: wordmap.html loads word_labels.js and lang_names/<ui>.js
 // instead of the full per-word and per-UI tables. If a label, definition or
 // language name changes, those files must be rebuilt or the site serves the

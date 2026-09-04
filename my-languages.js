@@ -23,7 +23,7 @@
     var WORLD_POP = 8.1e9;                       // ~2024 world population
     // Country-outline GeoJSON, same source the poster uses. Fetched lazily and
     // cached; the card degrades to a graticule-only backdrop if it can't load.
-    var GEOJSON_URL = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
+    var GEOJSON_URL = 'countries.geojson?v=1';
     // Multi-script font stack (mirrors poster_render.js) for card labels.
     var CARD_FONT = "'Noto Sans','Noto Sans JP','Noto Sans KR','Noto Sans SC'," +
         "'Noto Sans Arabic','Noto Sans Hebrew','Noto Sans Devanagari','Noto Sans Bengali'," +

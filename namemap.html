@@ -689,7 +689,10 @@
                 subdomains: 'abcd', maxZoom: 19,
             }).addTo(map);
             // Country tints (hash country name -> palette), same look as wordmap.
-            fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
+            // Self-hosted + simplified copy — see wordmap.html for why the
+            // 14.6 MB remote original was dropped (~1.5 min on slow 4G, and it
+            // froze the main thread while parsing).
+            fetch('countries.geojson?v=1')
                 .then(r=>r.json())
                 .then(gj=>{
                     geoLayer = L.geoJSON(gj, { style:(f)=>{

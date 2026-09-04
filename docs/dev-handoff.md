@@ -1598,5 +1598,42 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     Note for testing: the language info panel's id is **`lang-info`**, not `info-panel` — a wrong
     selector there made a working plain click look broken for a minute.
 
+79. **countries.geojson: the other four consumers finally self-hosted.** The Phase-9 perf work moved
+    `wordmap.html` to a simplified local copy and left `hanmap.html`, `namemap.html`, `poster.html`
+    and `my-languages.js` fetching **the full 14.6 MB file from raw.githubusercontent.com on every
+    page load** — the exact thing wordmap's own comment says took "~1.5 min on slow 4G AND froze the
+    main thread parsing it". Local copy is 1.95 MB / 640 KB gz. Drop-in: all four read
+    `properties.ADMIN || properties.name` (or `properties.name`) and the local file carries `name`.
+    Verified in Chromium: zero githubusercontent requests, 237 country paths drawn on each, NameMap's
+    country tints unchanged.
+
+    Also worth knowing: **raw.githubusercontent.com is not a CDN**, is rate-limited, and is blocked
+    on some corporate/national networks — so this was a availability risk as well as a perf one.
+
+80. **HanMap's period is no longer gated on the historical era.** Owner: 「HanMap には歴史モードは
+    不要ですよ」. The gate copied from wordmap made the line unreachable in practice, because
+    HanMap's default language filter excludes every ancient code, so the era switch never brings one
+    on screen. No gate is needed: `period` only exists on the 19 ancient rows, so a living reading
+    cannot pick up a date.
+
+    **Not done, and it is bigger than it looks:** actually removing the era mode from HanMap. Its
+    `showHistorical` is referenced at ~20 sites — the language-filter enable/disable logic
+    (`m.disabled = isHist !== showHistorical`), descendant highlighting, the trivia `setEra` calls,
+    the era help text and the `hist` hash param. That is a refactor with real regression risk, not a
+    delete. Ask before doing it.
+
+81. **Seven scripts had no font named in wordmap's chains and no self-hosted subset either.** They
+    rendered only if the reader happened to have the face installed — tofu on stock Windows. 636
+    cells, 13 languages: Syriac (arc syc aii tru amw), Canadian Aboriginal syllabics (iu cr crk),
+    Thaana (dv), Cherokee (chr), Meetei Mayek (mni), Lepcha (lep), Syloti Nagri (syl). Added as
+    `Noto Sans …`; none of them has a serif on Google Fonts and the owner said another face is fine
+    where no serif exists.
+
+    **How to find this class of bug:** enumerate the Unicode blocks present in `words/*.js`
+    surfaces, then check each against the family names in the `font-family` chains AND the
+    `unicode-range`s of the self-hosted `@font-face` rules. A block covered by neither is
+    system-font-only. Note Cham looks missing by name but is covered by the `Brahmic Subset` family,
+    so check ranges, not just names.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

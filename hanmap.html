@@ -4760,7 +4760,12 @@
         });
 
         // Country borders
-        fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
+        // Self-hosted + simplified copy of datasets/geo-countries (Douglas-Peucker,
+        // ~2 km), the same file wordmap.html moved to during the perf work. The
+        // remote original is 14.6 MB / 4.6 MB gz at full resolution and both
+        // downloaded it on every page load; the local copy is 1.9 MB / 0.6 MB gz
+        // and comes off our own CDN. Regenerate with tools/build_countries_geojson.js.
+        fetch('countries.geojson?v=1')
             .then(r => r.json())
             .then(geojson => {
                 L.geoJSON(geojson, {
@@ -6994,13 +6999,15 @@
             }
             if (showName) {
                 html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
-                // Historical rows carry meta.period ("7–10c"): show it as a
-                // second name line, but only on the historical map — on the
-                // modern one a date under a living reading reads as an error.
-                // Same rule and same look as the Word Map.
-                const per = showHistorical
-                    ? ((HAN_LANG_META[code] && HAN_LANG_META[code].period) || '')
-                    : '';
+                // Ancient rows carry meta.period ("7–10c"): show it as a second
+                // name line. Unlike the Word Map this is NOT gated on the
+                // historical era — the owner does not want an era mode here
+                // (2026-09-04), and the gate made the line unreachable, since
+                // HanMap's default language filter excludes every ancient code
+                // so the era switch never brings one on screen anyway. No gate
+                // is needed: `period` only exists on the 19 ancient rows, so a
+                // living reading can never pick up a date.
+                const per = (HAN_LANG_META[code] && HAN_LANG_META[code].period) || '';
                 if (per) html += `<div class="period" dir="auto">${escapeHtml(per)}</div>`;
             }
             html += '</div>';

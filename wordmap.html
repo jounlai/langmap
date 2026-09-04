@@ -77,7 +77,7 @@
          guards against a script re-appearing in the data without a font. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Devanagari&family=Noto+Serif+Bengali&family=Noto+Serif+Gujarati&family=Noto+Serif+Gurmukhi&family=Noto+Serif+Oriya&family=Noto+Serif+Tamil&family=Noto+Serif+Telugu&family=Noto+Serif+Kannada&family=Noto+Serif+Malayalam&family=Noto+Serif+Sinhala&family=Noto+Serif+Thai&family=Noto+Serif+Lao&family=Noto+Serif+Khmer&family=Noto+Serif+Myanmar&family=Noto+Serif+Georgian&family=Noto+Serif+Armenian&family=Noto+Serif+Hebrew&family=Noto+Serif+Ethiopic&family=Noto+Naskh+Arabic&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Brahmi&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Avestan&family=Noto+Sans+Old+South+Arabian&family=Noto+Sans+Inscriptional+Pahlavi&family=Noto+Sans+Phoenician&family=Noto+Sans+Gothic&family=Noto+Sans+Ugaritic&family=Noto+Sans+Limbu&family=Noto+Sans+Vai&family=Noto+Sans+Mandaic&family=Noto+Sans+Javanese&family=Noto+Sans+Tai+Viet&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Devanagari&family=Noto+Serif+Bengali&family=Noto+Serif+Gujarati&family=Noto+Serif+Gurmukhi&family=Noto+Serif+Oriya&family=Noto+Serif+Tamil&family=Noto+Serif+Telugu&family=Noto+Serif+Kannada&family=Noto+Serif+Malayalam&family=Noto+Serif+Sinhala&family=Noto+Serif+Thai&family=Noto+Serif+Lao&family=Noto+Serif+Khmer&family=Noto+Serif+Myanmar&family=Noto+Serif+Georgian&family=Noto+Serif+Armenian&family=Noto+Serif+Hebrew&family=Noto+Serif+Ethiopic&family=Noto+Naskh+Arabic&family=Noto+Sans+Syriac&family=Noto+Sans+Canadian+Aboriginal&family=Noto+Sans+Thaana&family=Noto+Sans+Cherokee&family=Noto+Sans+Meetei+Mayek&family=Noto+Sans+Lepcha&family=Noto+Sans+Syloti+Nagri&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Brahmi&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Avestan&family=Noto+Sans+Old+South+Arabian&family=Noto+Sans+Inscriptional+Pahlavi&family=Noto+Sans+Phoenician&family=Noto+Sans+Gothic&family=Noto+Sans+Ugaritic&family=Noto+Sans+Limbu&family=Noto+Sans+Vai&family=Noto+Sans+Mandaic&family=Noto+Sans+Javanese&family=Noto+Sans+Tai+Viet&display=swap">
     <!-- Old Hangul Jamo (U+1100-11FF) for ko_mid / ko_em is now served
          from a self-hosted Noto Serif KR subset with explicit
          unicode-range scoping; see the @font-face block below. -->
@@ -764,6 +764,18 @@
                 "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
                 "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
                 "Noto Naskh Arabic",
+                /* Scripts that had no font named here at all and no self-hosted
+                   subset either, so they rendered only if the reader happened to
+                   have the face installed — tofu on a stock Windows machine.
+                   636 cells across 13 languages: Syriac (arc syc aii tru amw),
+                   Canadian Aboriginal syllabics (iu cr crk), Thaana (dv),
+                   Cherokee (chr), Meetei Mayek (mni), Lepcha (lep), Syloti Nagri
+                   (syl). None of these has a serif on Google Fonts; the owner
+                   said a different face is fine where no serif exists. */
+                "Noto Sans Syriac", "Noto Sans Canadian Aboriginal",
+                "Noto Sans Thaana", "Noto Sans Cherokee",
+                "Noto Sans Meetei Mayek", "Noto Sans Lepcha",
+                "Noto Sans Syloti Nagri",
                 Georgia, "Times New Roman", serif;
         }
         .unattested-label:hover {
@@ -811,6 +823,18 @@
                 "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
                 "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
                 "Noto Naskh Arabic",
+                /* Scripts that had no font named here at all and no self-hosted
+                   subset either, so they rendered only if the reader happened to
+                   have the face installed — tofu on a stock Windows machine.
+                   636 cells across 13 languages: Syriac (arc syc aii tru amw),
+                   Canadian Aboriginal syllabics (iu cr crk), Thaana (dv),
+                   Cherokee (chr), Meetei Mayek (mni), Lepcha (lep), Syloti Nagri
+                   (syl). None of these has a serif on Google Fonts; the owner
+                   said a different face is fine where no serif exists. */
+                "Noto Sans Syriac", "Noto Sans Canadian Aboriginal",
+                "Noto Sans Thaana", "Noto Sans Cherokee",
+                "Noto Sans Meetei Mayek", "Noto Sans Lepcha",
+                "Noto Sans Syloti Nagri",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
@@ -1194,6 +1218,18 @@
                 "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
                 "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
                 "Noto Naskh Arabic",
+                /* Scripts that had no font named here at all and no self-hosted
+                   subset either, so they rendered only if the reader happened to
+                   have the face installed — tofu on a stock Windows machine.
+                   636 cells across 13 languages: Syriac (arc syc aii tru amw),
+                   Canadian Aboriginal syllabics (iu cr crk), Thaana (dv),
+                   Cherokee (chr), Meetei Mayek (mni), Lepcha (lep), Syloti Nagri
+                   (syl). None of these has a serif on Google Fonts; the owner
+                   said a different face is fine where no serif exists. */
+                "Noto Sans Syriac", "Noto Sans Canadian Aboriginal",
+                "Noto Sans Thaana", "Noto Sans Cherokee",
+                "Noto Sans Meetei Mayek", "Noto Sans Lepcha",
+                "Noto Sans Syloti Nagri",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
@@ -1262,6 +1298,18 @@
                 "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
                 "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
                 "Noto Naskh Arabic",
+                /* Scripts that had no font named here at all and no self-hosted
+                   subset either, so they rendered only if the reader happened to
+                   have the face installed — tofu on a stock Windows machine.
+                   636 cells across 13 languages: Syriac (arc syc aii tru amw),
+                   Canadian Aboriginal syllabics (iu cr crk), Thaana (dv),
+                   Cherokee (chr), Meetei Mayek (mni), Lepcha (lep), Syloti Nagri
+                   (syl). None of these has a serif on Google Fonts; the owner
+                   said a different face is fine where no serif exists. */
+                "Noto Sans Syriac", "Noto Sans Canadian Aboriginal",
+                "Noto Sans Thaana", "Noto Sans Cherokee",
+                "Noto Sans Meetei Mayek", "Noto Sans Lepcha",
+                "Noto Sans Syloti Nagri",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
@@ -1468,6 +1516,18 @@
                 "Noto Serif Khmer", "Noto Serif Myanmar", "Noto Serif Georgian",
                 "Noto Serif Armenian", "Noto Serif Hebrew", "Noto Serif Ethiopic",
                 "Noto Naskh Arabic",
+                /* Scripts that had no font named here at all and no self-hosted
+                   subset either, so they rendered only if the reader happened to
+                   have the face installed — tofu on a stock Windows machine.
+                   636 cells across 13 languages: Syriac (arc syc aii tru amw),
+                   Canadian Aboriginal syllabics (iu cr crk), Thaana (dv),
+                   Cherokee (chr), Meetei Mayek (mni), Lepcha (lep), Syloti Nagri
+                   (syl). None of these has a serif on Google Fonts; the owner
+                   said a different face is fine where no serif exists. */
+                "Noto Sans Syriac", "Noto Sans Canadian Aboriginal",
+                "Noto Sans Thaana", "Noto Sans Cherokee",
+                "Noto Sans Meetei Mayek", "Noto Sans Lepcha",
+                "Noto Sans Syloti Nagri",
                 "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya", "Jomolhari", "Tibetan Machine Uni",
                 "Noto Sans Yi", "Microsoft Yi Baiti",
                 "Charis SIL", "Noto Serif Tangut", "Noto Sans Old Turkic",
@@ -10873,6 +10933,6 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=22"></script>
+    <script src="my-languages.js?v=23"></script>
 </body>
 </html>

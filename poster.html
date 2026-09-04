@@ -28,7 +28,9 @@
   <script src="poster_render.js?v=12"></script>
   <script>
     (function () {
-      const SRC = 'https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson';
+      // Self-hosted + simplified copy (see wordmap.html); the remote original
+      // is 14.6 MB at full resolution.
+      const SRC = 'countries.geojson?v=1';
       // Google Fonts subsets are lazy-loaded per script and NOT covered by
       // document.fonts.ready until something uses them. Canvas measureText on an
       // unloaded script (Arabic, Bengali, …) returns fallback/.notdef metrics,

@@ -1635,5 +1635,36 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     system-font-only. Note Cham looks missing by name but is covered by the `Brahmic Subset` family,
     so check ranges, not just names.
 
+82. **The four "translation gaps" were mostly my checker lying, and the real gap is much bigger.**
+    Owner asked me to translate the four items `trivia_style_check.js` was reporting. Two were real
+    and are fixed; two were false positives; and chasing them uncovered the actual problem.
+
+    **Fixed:** `phagspa-universal-script.yue` — the Ledyard citation had lost 「1966年博士論文」 that
+    17 other languages carry. `bai-language-script.yue` — the whole 1958 Latin Scheme section was
+    absent; written in that body's own Cantonese register from the English source.
+
+    **False positives, both from the year regex:**
+    - `\d{4}` could not see a thousands separator. Thai writes the same figure as
+      「ราว 2,000 ปีก่อนคริสตกาล」and Vietnamese as "1.700", so `sumerian-first-writing.th` was
+      reported as having dropped a date it states plainly.
+    - `\b` fails between "1200" and "km". Japanese writes 「約1,200km」 with no space where English
+      writes "1,200 km", so ja and ko were reported as missing a figure both carry. Fixed with digit
+      lookarounds, `(?<!\d)…(?!\d)`.
+
+    **§1.2 is now ADVISORY, not hard, and that is the important finding.** With the regex fixed, the
+    remaining 59 findings are not edit slips at all: **235 HanMap article bodies run under 45% of
+    their English length** (yue 29, zh 27, he 21, ar 16, hi 15 …; the worst is
+    `old-mongol-uyghur-script.yue` at 8%). Those translations are summaries that were never brought
+    up to date when the English grew, so a year they skip is an unfinished translation, not a
+    deletion. WordMap is fine — its overlays are complete; all 235 are HanMap.
+
+    **Measure the overlays, not `body`.** WordMap keeps English in `wordmap_trivia.js` and the other
+    18 languages in `wordmap_trivia_*.js`; reading `a.body[ui]` alone makes every WordMap
+    translation look like a stub. My first sweep did exactly that and produced a false alarm.
+
+    Also note the check is blind by construction to the one real regression we know of:
+    kokugo-versus-kango lost 1543 from **English** while all 18 translations kept it. This compares
+    English against translations, so it cannot see that direction. That was found by git diff.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

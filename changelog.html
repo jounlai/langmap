@@ -143,6 +143,15 @@
         <nav class="month-nav">Months: <strong>2026-09</strong> · <a href="changelog-202608.html">2026-08</a> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-09-04 — Two missing pieces of Cantonese, and a check that was crying wolf 🐺</div>
+            <ul>
+                <li><strong>The Cantonese Bai article was missing its whole section on the 1958 Latin alphabet scheme</strong>, and the Cantonese Phags-pa article had lost the date of the dissertation it cites. Both written back in.</li>
+                <li><strong>Two other reported gaps turned out to be the checker's fault, not the text's.</strong> It looked for years as four digits in a row, which cannot see 「2,000 ปีก่อนคริสตกาล」 in Thai or 「約1,200km」 in Japanese — so it accused both of dropping figures they state plainly. Fixed.</li>
+                <li>With that fixed, the check stopped finding dropped facts and started finding something else: <strong>235 Han Map articles are much shorter in translation than in English</strong> — some under a tenth the length. They are summaries that were never brought up to date as the English grew. That is a real backlog and it is now counted honestly rather than reported one date at a time.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-09-04 — Two maps were downloading 14 MB of borders on every visit 🗺️</div>
             <ul>
                 <li><strong>The Han Map and the Name Map were fetching the world's country outlines from GitHub at full resolution — 14.6 MB — every time someone opened them.</strong> The Word Map stopped doing that months ago and uses a simplified copy served from our own site, 1.9 MB. The other pages were simply never switched over. They are now.</li>

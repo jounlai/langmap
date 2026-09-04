@@ -90,35 +90,79 @@ for (const a of arts) {
 
    Two different situations share this shape, and only one of them is a defect:
 
-     missing in 1-4 translations   someone edited those bodies and dropped a
-                                   fact the other fifteen still carry. This is
-                                   exactly how kokugo-versus-kango lost 1543.
-                                   HARD.
+   This check is ADVISORY, and that was a correction. It began as a hard check
+   on the theory that a year present in English and missing from one or two
+   translations meant an edit had dropped it. Two things killed that theory.
+
+   First, the regex was wrong in two ways and both fixes changed the answer:
+   \d{4} could not see a thousands separator (Thai 「2,000 ปีก่อน」, Vietnamese
+   "1.700"), and \b fails between "1200" and "km" in Japanese 「約1,200km」 where
+   it holds in English's "1,200 km". Every finding before those fixes was
+   suspect.
+
+   Second, once they were fixed the findings were not edit slips at all. The
+   HanMap translations are systematically shorter than their English — 235 of
+   them run under 45% of the English length — so a year they skip is a
+   translation that was never finished, not a fact somebody deleted. Filtering
+   to bodies at full length still left only borderline cases.
+
+   And the one real instance we know of ran the other way: kokugo-versus-kango
+   lost 1543 from ENGLISH while all 18 translations kept it, which this check
+   cannot see by construction. It was found by diffing against git.
+
+   So: count it, name the few worth a look, and do not fail on it.
+
+   The cut is at two, not four, and that was measured rather than guessed.
+   Once the year regex was fixed (see below), 15 of 20 findings were "missing
+   in exactly four" and the four were the same cluster every time — ar, es, he,
+   it — which is a set of shorter translations, not an edit that dropped
+   something. Only the 1-2 cases had the shape of a slip.
      missing in most or all        the English body has a fact the translations
                                    never had. Real work, but it is translation
                                    backlog, not a regression, and there are
                                    ~250 of them. ADVISORY, counted not listed. */
 const years = s => {
     const out = new Set();
-    for (const m of text(s).matchAll(/\b(1[0-9]{3}|20[0-9]{2})\b/g)) out.add(m[1]);
+    // Collapse a thousands separator before matching. Thai writes the same year
+    // as「2,000 ปีก่อนคริสตกาล」and Vietnamese as "1.700", and a bare \d{4}
+    // match reported both as missing when the fact was plainly there — that is
+    // how sumerian-first-writing.th was flagged as a dropped date it never
+    // dropped. Only a separator followed by exactly three digits is collapsed,
+    // so ordinary decimals are left alone.
+    const flat = text(s).replace(/(\d)[,.\u00A0\u202F ](?=\d{3}(?!\d))/g, '$1');
+    // Digit lookarounds, not \b: Japanese writes 「約1,200km」 with no space, and
+    // \b fails between "1200" and "km" while it holds in English's "1,200 km".
+    // That reported ja and ko as having dropped a figure both plainly carry.
+    for (const m of flat.matchAll(/(?<!\d)(1[0-9]{3}|20[0-9]{2})(?!\d)/g)) out.add(m[1]);
     return out;
 };
 let yearBacklog = 0;
 const backlogArts = new Set();
+const yearNotable = [];
+// A body that is much shorter than its English source is a summary, and a
+// summary is *expected* to omit facts — flagging every year it skips buries the
+// one case that matters. So a missing year only counts as a dropped fact when
+// that body is otherwise a full translation. 0.6 of the English character count
+// separates the two populations cleanly here; below it are the ar/he/it/es
+// bodies that run 25-50% of the English and skip whole sentences.
+const dense = s => String(s).replace(/<[^>]*>/g, ' ').replace(/&[a-z#0-9]+;/gi, ' ').replace(/\s/g, '').length;
+const FULL_ENOUGH = 0.6;
 for (const a of arts) {
     const en = a.bodies.en;
     if (!en) continue;
     const want = years(en);
     const uis = Object.keys(a.bodies).filter(u => u !== 'en');
     if (!want.size || uis.length < 5) continue;
+    const enLen = dense(en);
+    const full = new Set(uis.filter(u => dense(a.bodies[u]) / enLen >= FULL_ENOUGH));
     for (const y of want) {
         const missing = uis.filter(u => !years(a.bodies[u]).has(y));
         if (!missing.length) continue;
-        if (missing.length <= 4) {
-            hard.push(`${a.id}: ${y} is in the English body and in ${uis.length - missing.length} of ${uis.length} translations, but not in ${missing.join(', ')} — a fact dropped by an edit`);
-        } else {
-            yearBacklog++;
-            backlogArts.add(a.id);
+        const fullMissing = missing.filter(u => full.has(u));
+        yearBacklog++;
+        backlogArts.add(a.id);
+        if (fullMissing.length && fullMissing.length <= 2) {
+            yearNotable.push(`${a.id}: ${y} missing from ${fullMissing.join(', ')}, which is otherwise a full-length translation`);
         }
     }
 }
@@ -184,8 +228,13 @@ if (!quiet) {
     for (const h of hard.slice(0, 40)) console.log('    ✗ ' + h);
     if (hard.length > 40) console.log(`    … and ${hard.length - 40} more`);
 
-    console.log(`\n  §1.2 translation backlog (not a regression): ${yearBacklog} year(s) that the English`);
-    console.log(`       body carries and most translations never had, across ${backlogArts.size} article(s).`);
+    console.log(`\n  §1.2 translation backlog (advisory): ${yearBacklog} year(s) the English body`);
+    console.log(`       carries and some translation does not, across ${backlogArts.size} article(s).`);
+    if (yearNotable.length) {
+        console.log(`       Of those, ${yearNotable.length} sit in a body that is otherwise full length —`);
+        console.log('       the likeliest to be a real omission rather than an unfinished translation:');
+        for (const x of yearNotable.slice(0, 8)) console.log('         ' + x);
+    }
 
     console.log(`\n  §2 hedge density (English): ${(hedgeTotal / wordTotal * 10000).toFixed(1)} per 10k words`);
     console.log('     heaviest articles:');

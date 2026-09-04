@@ -250,7 +250,7 @@ a real name on it — so they are found by comparing bodies, not by reading them
 | check | what it catches |
 |---|---|
 | §1.1 | a `<blockquote>` or quoted sentence attributed to a named person while admitting it is a paraphrase, in any of `paraphrase / 意訳 / 의역 / 转述 / diễn giải / …` |
-| §1.2 | a **4-digit year** present in English and in 14+ translations but missing from 1–4 of them — the signature of an edit that dropped a fact |
+| ~~§1.2~~ | *(now advisory)* years present in English and missing from a translation — see below |
 | §1.3 | a button label byte-identical to its English original in a non-English body |
 
 **Advisory (never fails):** hedge density per 10k words with the worst articles named; English headings
@@ -262,6 +262,12 @@ Two deliberate limits, stated rather than hidden:
 - **Only years are compared, not all figures.** English "750,000" is 「75万」 in Japanese and
   "750 mil" in Portuguese; a check that flagged those would report hundreds of non-problems and be
   switched off within a week. Everything other than a year stays a human diff.
+- **The year check is advisory, not hard, and the demotion is itself instructive.** It was written
+  to catch an edit that dropped a fact. Once its regex was fixed — it could not see a thousands
+  separator, and `\b` fails between "1200" and "km" in 「約1,200km」 — the findings turned out to be
+  something else: **235 HanMap bodies run under 45% of their English length**, so a year they skip
+  is a translation nobody finished rather than a fact somebody deleted. It reports a count and names
+  the few sitting in otherwise full-length bodies.
 - **Superlative patterns are written for `en ja ko zh yue vi` only.** The other thirteen are named in
   the output as unchecked rather than silently passing.
 

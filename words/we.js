@@ -1301,7 +1301,7 @@ WORDS.we = {
     ko_yb: ["우리", "uɾi"],
     zh: ["咱们 / 我们", "tsan˧˥mən / wo˨˩˦mən"],
     yue: ["我哋", "ŋɔ˩˧tei˨"],
-    nan: ["咱 / 阮", "lan˥˩ / ɡun˥˩"],
+    nan: ["咱 / 阮", "lan˥˧ / ɡun˥˧"],
     zh_tw: ["我們", "wo˨˩˦mən"],
     wuu: ["阿拉", "aʔ˧laʔ˦"],
     hak_cn: ["𠊎兜", "ŋai˩teu˦"],

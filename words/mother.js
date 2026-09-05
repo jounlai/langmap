@@ -192,7 +192,7 @@ WORDS.mother = {
     zh: ["妈妈", "ma˥ma"],
     zh_tw: ["媽媽", "ma˥ma"],
     yue: ["媽媽", "maː˥maː˥"],
-    nan: ["媽媽", "ma˥ma"],
+    nan: ["老母", "lau˧˧bu˥˧"],
     wuu: ["姆妈", "m̩ma"],
     hak_cn: ["阿姆", "a˥me˥"],
     vi: ["mẹ", "mɛ˨˩"],

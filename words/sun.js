@@ -193,7 +193,7 @@ WORDS.sun = {
     zh: ["太阳", "tʰaɪ̯˥˩jɑŋ˧˥"],
     zh_tw: ["太陽", "tʰaɪ̯˥˩jɑŋ˧˥"],
     yue: ["太陽", "tʰaːi˧jœːŋ˨˩"],
-    nan: ["日頭", "lit˦tʰau˧˥"],
+    nan: ["日頭", "lit˦tʰau˨˦"],
     wuu: ["太阳", "tʰa˧˧ɦiã˩˩"],
     hak_cn: ["日头", "ŋit˧tʰeu˧˥"],
     vi: ["mặt trời", "mət˨˩ tɕɤːj˨˩"],

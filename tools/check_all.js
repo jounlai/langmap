@@ -422,6 +422,20 @@ line('route colouring complete', num(s, /violations: (\d+)/));
 s = run('sinitic_tone_present_check.js --check');
 line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} lock entries stale` : '');
 
+// A contour a Sinitic row uses exactly once is usually a neighbour's value
+// copied in. Found from a reader report (齒 khí): fixing that one cell exposed
+// ten more in `nan` alone, carrying Mandarin's ˧˥ and ˥˩ or Xiamen's ˨˨ and ˦˦
+// while nan_xm — the same language — had the right value. The class check above
+// cannot see them: it reads single-character surfaces and skips 上/去 by design.
+// Ratcheted; 126 remain across the other rows.
+const TONE_OUTLIER_DEBT = 126;
+s = run('sinitic_tone_outlier_check.js --check');
+{
+    const n = num(s, /tone outliers: (\d+)/);
+    line('Sinitic tone outliers', n > TONE_OUTLIER_DEBT ? n - TONE_OUTLIER_DEBT : 0,
+        n + ' outliers, budget ' + TONE_OUTLIER_DEBT);
+}
+
 s = run('sinitic_tone_class_check.js --check');
 line('Sinitic tone class per row', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} stale debt entries` : '');
 

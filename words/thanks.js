@@ -192,7 +192,7 @@ WORDS.thanks = {
     zh: ["谢谢", "ɕjɛ˥˩ɕjɛ"],
     zh_tw: ["謝謝", "ɕjɛ˥˩ɕjɛ"],
     yue: ["多謝", "tɔː˥tsɛː˨"],
-    nan: ["多謝", "to˥sia˨˨"],
+    nan: ["多謝", "to˥sia˧˧"],
     wuu: ["谢谢", "ʑia˩ʑia"],
     hak_cn: ["多谢", "to˥tsia˧"],
     vi: ["cảm ơn", "kaːm˧˩˧ əːn˥"],

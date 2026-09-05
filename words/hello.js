@@ -192,7 +192,7 @@ WORDS.hello = {
     zh: ["你好", "ni˧˩˧xaʊ̯˧˩˧"],
     zh_tw: ["你好", "ni˧˩˧xaʊ̯˧˩˧"],
     yue: ["你好", "neːi˩˧hou˧˥"],
-    nan: ["你好", "li˧˥ho˧˥"],
+    nan: ["你好", "li˥˧ho˥˧"],
     wuu: ["侬好", "noŋ˩hɔ˧˩"],
     hak_cn: ["你好", "nɡi˧˥ho˧˩"],
     vi: ["xin chào", "sin˧˧ tɕaːw˨˩"],

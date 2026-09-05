@@ -266,6 +266,19 @@ line('trivia button targets exist', num(s, /dead targets: (\d+)/));
 s = run('script_fusion_check.js --check');
 line('no fused-script words', num(s, /fusions: (\d+)/));
 
+// The companion to the above, for the pair that check deliberately ignores.
+// script_fusion_check skips Latin because transliterations mix with everything
+// — but Cyrillic never plays that role, so a Latin letter inside a Cyrillic word
+// (or the reverse) is a typo or a half-finished replace. That exemption was
+// holding 40 corrupted words in ru/uk/id prose on 2026-09-05. Palochka, the
+// Proto-Slavic yers and Ossetian æ are exempt by name.
+s = run('latin_cyrillic_fusion_check.js --check');
+{
+    const un = num(s, /unresolved \(needs a source\): (\d+)/);
+    line('no Latin/Cyrillic fusion', num(s, /latin\+cyrillic words: (\d+)/),
+        un ? un + ' unresolved, need an orthography source' : '');
+}
+
 // Simplified/traditional consistency per language code. Was scoped to the two
 // words it was written for (sushi, computer) and so missed six traditional-
 // script cuckoo cells in mainland rows (review 432). --all checks every word

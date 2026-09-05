@@ -249,6 +249,31 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
     Standing lesson for reader reports: check what the reports imply about the PROSE as well as the cells. Two of the three fixes here were in prose that no data guard covers.
 
+26. **`script_fusion_check.js` skipped Latin on purpose, and the exemption was holding 40 corrupted words (2026-09-05).** Found by accident: while backfilling the `pa` description I typed a Cyrillic е into the Portuguese word *sique*, then swept the corpus for the same shape and the sweep came back with far more than my own typo.
+
+    That checker says so in its own header — "Latin is ignored — transliterations and HTML entities legitimately mix it with everything." True for Greek: IPA writes θe, βeð, aχ, and the Udeγe ethnonym takes a real gamma. **Not true for Cyrillic**, which has no such role. A Latin letter inside a Cyrillic word, or the reverse, is a typo or a half-finished replace, every time.
+
+    | word | where | should be |
+    |---|---|---|
+    | Franконia Timur | id, vmf | Franconia |
+    | Saksония Hilir | id, stq | Saksonia |
+    | bahasa Algonkия Tengah | id, pot | Algonkia |
+    | kayu ebони | id, kde | eboni |
+    | Latinh/Rôман | vi, ia | Rôman |
+    | позднестароjaponским | ru, ja_chu | позднестарояпонским |
+    | «Чuyện Kiều» / «Чyện Kiều» / «Трuyện Kiều» | uk+ru trivia | «Truyện Kiều» |
+    | Конфедерации Haудiнoсауни | ru trivia | Хауденосауни |
+
+    40 in all, across `wordmap_meta.js`, `hanmap_trivia.js` and `wordmap_trivia_ru.js`. Each sits mid-sentence in a Russian, Ukrainian or Indonesian description that nobody with the relevant language reads, and each survives every other check because it is a single well-formed word in no language at all.
+
+    **`cv` is why this matters beyond prose.** 59 of the 64 Chuvash word cells used the Cyrillic ӑ ӗ ҫ and five used the Latin lookalikes ă ĕ ç — кайăк, çӑмарта, тăваттă, тимĕр, çывӑр. The row's own majority settled all five with no dictionary needed.
+
+    Guard: `tools/latin_cyrillic_fusion_check.js`, gated at 0, verified by injection. **Three exemptions, all real orthography**: the Caucasian palochka (цIа, чIаь, кIотIу, usually typed as ASCII I), the Proto-Slavic and OCS yers on a Latin stem (\*dъždžь, \*čьrvь, \*sněgъ), and Ossetian æ.
+
+    **Four carried as unresolved** because they need a source rather than a majority vote: `Шöльӄумыт` (Selkup autonym — Selkup Cyrillic has ӧ U+04E7, this is a Latin ö, and it is quoted as the autonym in both the English description and `wordmap_data.js`), `мāʼ` (Nganasan house), `ЦӀаIхна` (Tsakhur autonym using BOTH palochka forms in one word — Ӏ and ASCII I), and `цIə` (Hunzib fire, Latin ə where Cyrillic ә may belong; its Khvarshi neighbour writes цIа with a Cyrillic а).
+
+    Noticed and NOT fixed: the `cv` IPA is inconsistent about what ӑ maps to — mostly ə (шӑмӑ ʃəmə, хӑлха xəlxa) but tɤpra for тӑпра and ɕɔlˈtor for ҫӑлтӑр. Separate from the script issue and needs a Chuvash phonology source.
+
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 
 Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —

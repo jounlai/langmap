@@ -773,7 +773,7 @@ WORDS.iron = {
     alt: ["темир", "temir"],
     sah: ["тимир", "timir"],
     ba: ["тимер", "timer"],
-    cv: ["тимĕр", "timər"],
+    cv: ["тимӗр", "timər"],
     xqa: ["temür", "temyr"],
     ota: ["دمیر", "demiɾ"],
     azb: ["دمیر", "dæmiɾ"],

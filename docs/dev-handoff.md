@@ -311,6 +311,25 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
     Errors found and fixed in the ENGLISH while doing this, not just in the translations: Fijian described as using digraphs for its prenasalised stops when the striking thing is that it uses single letters (item 25-adjacent, commit "Fijian does NOT use digraphs"), its Bible dated "1864 NT, complete 1864", and `mt` wrapping a phrase in `**` in a field rendered with escapeHtml.
 
+29. **18 Sinitic tone outliers fixed from the rows' own data, and where the method stops (2026-09-05).** Outliers 126 → 114, notation cells 307 → 292.
+
+    **The method: group the row's CHECKED syllables by contour and read off the 入聲 classes.** A checked syllable's tone is fully determined by its 中古 class, so a row's own cells settle any single outlier without an external source. Twelve of the eighteen were the same cell in twelve different rows — **雪 (陰入) written with the doubled letter while every other 陰入 syllable in that row used the single one**: cjy, cjy_lv (˨˨→˨), gan (˥˥→˥), hak_cn (˧˧→˧), hak_tw (˨˨→˨), nan_xm, nan_zz (˦˦→˦), wuu, wuu_hz, wuu_jh, wuu_jx, wuu_sz (˥˥→˥).
+
+    The other six:
+    - `hak_hl` sleep 目 ˨ → ˨˨. The **same character in the same row**: eye 目 is ˨˨.
+    - `wuu_hz` white 白 ˨ → ˩˨, `wuu_jh` ˨˩˨ → ˩˨, `wuu_jx` ˨˨ → ˩˨. 白 is 陽入 and each row writes 蜜, 月, 鼻, 日, 舌 at ˩˨.
+    - `yue_gz` blood 血 ˧˧ → ˧ (百 and 铁 are ˧) and eat 食 ˨˨ → ˨ (蜜 月 石 日 白 are ˨).
+
+    **Where the method stops, and why the remaining 114 are NOT this easy.** Every row below was examined and left alone:
+    - `czh` writes 陽入 as both ˨˧ (舌) and ˩˩ (白), each once — the row cannot settle itself.
+    - `czh_wy` writes 陰入 as ˥˥ (血骨百铁) AND ˧˥ (屋一). Same problem.
+    - `gan_yc` has 陰入 at ˨˦ (血骨百) but 屋 at ˧˩; the class is not internally consistent.
+    - `nan_pn` writes 陰入 AND 陽入 alike at ˥˥ across eleven cells — a whole-row problem, not an outlier.
+    - `cdo` has 陽入 at both ˨˦ (食目月舌) and ˦ (蜜白).
+    - `wuu_nb`, `cpx`, `yue_ts` outliers all sit on the non-final syllable of a compound (阿爸, 布谷, 我各儂), which is exactly where sandhi lives. The `cuckoo` cells were left alone on purpose — that is a partial word with its own conventions.
+
+    So the cheap half of this ratchet is spent. What is left wants a published tone table per lect, not more inference.
+
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 
 Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —

@@ -1015,7 +1015,7 @@ WORDS.blood = {
     nan_pn: ["血", "hueʔ˥˥"],
     mra: ["mhang", "mhaŋ"],
     wuu_nb: ["血", "ɕyəʔ˥˥"],
-    yue_gz: ["血", "hyt˧˧"],
+    yue_gz: ["血", "hyt˧"],
     khb: ["ᦟᦹᧆ", "lɤt˥"],
     blt: ["ꪹꪩꪒ", "lɯat˧˩"],
     pam: ["daya", "daˈjaʔ"],

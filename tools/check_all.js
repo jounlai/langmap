@@ -458,7 +458,7 @@ s = run('sinitic_lexical_import_check.js --check');
         n + ' to review, budget ' + LEXICAL_IMPORT_DEBT);
 }
 
-const TONE_OUTLIER_DEBT = 126;
+const TONE_OUTLIER_DEBT = 114;
 s = run('sinitic_tone_outlier_check.js --check');
 {
     const n = num(s, /tone outliers: (\d+)/);
@@ -471,7 +471,7 @@ s = run('sinitic_tone_outlier_check.js --check');
 // the row was pasted from somewhere else. Exempts the genuine short-checked vs
 // long-open contrast. Needs no source to fix; ratcheted because a few rows are
 // near-ties where picking a side is house style, not a correction.
-const CHAO_NOTATION_DEBT = 307;
+const CHAO_NOTATION_DEBT = 292;
 s = run('chao_level_notation_check.js --check');
 {
     const n = num(s, /minority-notation cells: (\d+)/);

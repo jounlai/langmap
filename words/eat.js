@@ -1079,7 +1079,7 @@ WORDS.eat = {
     nan_pn: ["食", "tsiaʔ˥˥"],
     mra: ["ʔiʔ", "ʔiʔ"],
     wuu_nb: ["吃", "tɕʰiʔ˥˥"],
-    yue_gz: ["食", "sɪk˨˨"],
+    yue_gz: ["食", "sɪk˨"],
     khb: ["ᦂᦲᧃ", "kin"],
     blt: ["ꪀꪲꪙ", "kin˨˦"],
     pam: ["mangan", "maˈŋan"],

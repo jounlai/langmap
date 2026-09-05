@@ -804,7 +804,7 @@ WORDS.sleep = {
     gan_fz: ["睏觉", "kʰun˦˥ kau˦˥"],
     hak_cn: ["睡目", "soi˥˥ muk˥"],
     hak_tw: ["睡目", "soi˥˥ muk˥"],
-    hak_hl: ["睡目", "ʃoi˧˧ muk˨"],
+    hak_hl: ["睡目", "ʃoi˧˧ muk˨˨"],
     yue_gz: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
     yue_dg: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
     yue_nn: ["瞓觉", "fɐn˧˧ kaːu˧˧"],

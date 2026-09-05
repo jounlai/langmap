@@ -428,6 +428,20 @@ line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale:
 // while nan_xm — the same language — had the right value. The class check above
 // cannot see them: it reads single-character surfaces and skips 上/去 by design.
 // Ratcheted; 126 remain across the other rows.
+// The lexical counterpart: a row that agrees with Mandarin where two or more of
+// its own siblings do not. Caught 爸爸/媽媽 in `nan` against nan_xm's 老爸/老母.
+// Traditional/simplified is normalised away first or half the report is the
+// script convention behaving correctly. It cannot decide which side is wrong —
+// `nan` you 你 against six siblings' 汝 is on the list and is CORRECT — so this
+// is a shortlist, ratcheted.
+const LEXICAL_IMPORT_DEBT = 29;
+s = run('sinitic_lexical_import_check.js --check');
+{
+    const n = num(s, /mandarin-shaped cells: (\d+)/);
+    line('Sinitic cells shaped like Mandarin', n > LEXICAL_IMPORT_DEBT ? n - LEXICAL_IMPORT_DEBT : 0,
+        n + ' to review, budget ' + LEXICAL_IMPORT_DEBT);
+}
+
 const TONE_OUTLIER_DEBT = 126;
 s = run('sinitic_tone_outlier_check.js --check');
 {

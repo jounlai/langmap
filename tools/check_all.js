@@ -320,7 +320,7 @@ line('trivia controls in translations', num(s, /missing controls: (\d+)/));
 // languages of the backfill (ja/ko/zh/yue/vi) are at parity; the other thirteen
 // are still summaries in many articles, and that debt is a ratchet — it may
 // come down, never up.
-const SECTION_DEBT = 254;
+const SECTION_DEBT = 215;
 s = run('trivia_section_parity.js --check');
 {
     const n = num(s, /missing sections: (\d+)/);

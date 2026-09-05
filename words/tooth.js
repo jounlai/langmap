@@ -11,11 +11,16 @@
  * the Aegean to the Lena; Austronesian *nipen reaches Taiwan (nipun, ngipən)
  * and the Philippines (ngipin, ngipon) while Malay took gigi instead.
  * The Sinosphere cuts the mouth in two: 牙 is the back tooth and the tusk,
- * 齒 the front tooth. Every Chinese variety here says 牙 except four Hokkien
- * rows — Taiwanese and its Quanzhou, Xiamen and Zhangzhou neighbours — which
- * say 齒: the MOE Taiwanese dictionary gives 齒 khí and files 牙 gê under 虎牙
- * and 象牙 (2026-09-05, reader report). Japanese says 歯, Korean 이, and
- * Vietnamese răng, none of them borrowed.
+ * 齒 the front tooth — and 齒 reaches further into Min than it first looked.
+ * Six rows here say it: Taiwanese with its Quanzhou, Xiamen and Zhangzhou
+ * neighbours (the MOE Taiwanese dictionary gives 齒 khí and files 牙 gê under
+ * 虎牙 and 象牙), plus Teochew and Puxian, both reported by readers on
+ * 2026-09-05. Note the initials do NOT match: Hokkien aspirates (khí) where
+ * Teochew and Puxian do not — Wiktionary's 齒 gives mn-t ki2 and px pt,xy:ki3
+ * as the vernacular readings against mn ml,jj,tw:khí. Everything else Chinese
+ * here says 牙; Japanese says 歯, Korean 이, and Vietnamese răng, none of them
+ * borrowed. Still open: `nan_hai` (Hainanese), which the dialect tables give as
+ * 齒 at Haikou but for which no reading has been found.
  * Tai splits the same way and Thai is the one that goes its own way: Proto-Tai
  * *χeːwꟲ 'fang' gives Lao ແຂ້ວ, Shan ၶဵဝ်, Tày khẻo and Zhuang heuj, while
  * *wanᴬ gives Thai ฟัน and, dialectally, Zhuang faenz. `za` stays heuj — that
@@ -788,7 +793,7 @@ WORDS.tooth = {
     ks: ["دَنٛد", "dand"],
     kok: ["दांत", "daːnt"],
     mnp: ["牙", "ŋa˧˧"],
-    nan_te: ["牙", "ɡe˥˥"],
+    nan_te: ["齒", "ki˥˧"],
     yue_ts: ["牙", "ŋa˨˨"],
     czh: ["牙", "ŋo˨˩˧"],
     cnp: ["牙", "ŋa˨˩"],
@@ -1102,7 +1107,7 @@ WORDS.tooth = {
     zh_wh: ["牙", "ŋa˨˩˧"],
     zh_zz: ["牙", "ja˦˨"],
     hak_hl: ["牙", "ŋa˥˥"],
-    cpx: ["牙", "ŋa˩˧"],
+    cpx: ["齒", "ki˦˥˧"],
     mfa: ["gigi", "ɡiɡi"],
     mtq: ["săng", "saŋ"],
     tyz: ["khẻo", "kʰɛːw˧˩"],

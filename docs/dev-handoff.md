@@ -274,6 +274,27 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
     Noticed and NOT fixed: the `cv` IPA is inconsistent about what ӑ maps to — mostly ə (шӑмӑ ʃəmə, хӑлха xəlxa) but tɤpra for тӑпра and ɕɔlˈtor for ҫӑлтӑр. Separate from the script issue and needs a Chuvash phonology source.
 
+27. **齒 reaches further into Min than the first report showed (Marvin Sy, 2026-09-05).** Reported that Puxian Min and Teochew also say 齒. Both confirmed, and Wiktionary's dialectal-synonym table for 牙齒 settles the whole Min picture at once:
+
+    | point | word | row |
+    |---|---|---|
+    | Xiamen, Quanzhou, Zhangzhou, Kaohsiung, Tainan | 喙齒 / 齒 | already fixed |
+    | Chaozhou, Shantou, Jieyang | **齒** | `nan_te` — **fixed** |
+    | Putian, Xianyou | **齒** | `cpx` — **fixed** |
+    | Haikou | **齒** | `nan_hai` — still 牙, no reading found |
+    | Wenchang | 牙 | (same island, different word) |
+    | Fuzhou | 牙 | `cdo` correct |
+    | Meixian | 牙齒 | `hak_cn` |
+    | Guangzhou, Hong Kong, Beijing | 牙 | correct |
+
+    **The initials do not match across Min, and that is the part worth remembering.** Wiktionary's `齒` gives `mn=ml,jj,tw:khí` but `mn-t=ki2` and `px=pt,xy:ki3` — Hokkien aspirates, Teochew and Puxian do not. This is exactly the doubt that stopped the Teochew cell being changed on the first report, and it was right to stop: the answer is that Teochew really is unaspirated, not that the report was wrong.
+
+    Applied: `nan_te` 牙 ɡe˥˥ → **齒 ki˥˧** (Teochew 陰上 is ˥˧ in this row: 火 hue˥˧, 水 tsui˥˧, 好 ho˥˧). `cpx` 牙 ŋa˩˧ → **齒 ki˦˥˧** (Puxian 陰上 is ˦˥˧: 火 hø˦˥˧, 水 ɬui˦˥˧, 好 ho˦˥˧).
+
+    **Two rows left on 牙, and the lexical checker now flags both** — which is the guard working, not a regression. `nan_hai` is pinned at Haikou, where the table says 齒, so it IS wrong; but no Hainanese reading of 齒 has been found, and Wenchang on the same island says 牙. `nan_pn` (Penang Hokkien) is not in the tables at all, though Philippine and Singapore Hokkien both give 喙齒/齒. Ratchet 7 → 9, with the reason written into the tool.
+
+    Second reader report in a day to land on this one word. Both were right, and both went further than the corpus had.
+
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 
 Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —

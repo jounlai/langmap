@@ -70,6 +70,14 @@ const ALLOW = {
     // Hokkien rows use is the etymological spelling, not a different word.
     'you|nan': true,
 
+    // --- tooth. NOT allowed, and listed here only to say why: `nan_pn` and
+    // `nan_hai` are the two Min rows still on 牙 after Teochew and Puxian moved
+    // to 齒 on 2026-09-05. Haikou IS 齒 in the dialect tables, so `nan_hai` is
+    // wrong — but no Hainanese reading of 齒 has been found, and the row is
+    // pinned at Haikou while nearby Wenchang says 牙. Penang Hokkien is not in
+    // the tables at all, though Philippine and Singapore Hokkien both give
+    // 喙齒/齒. Both need a reading before the surface can move.
+
     // --- sun: the whole cluster is the check being wrong, in both directions.
     // Hong Kong lists 太陽 FIRST (太陽/熱頭/日頭); Shanghai gives 太陽 with 日頭
     // marked dated; Suzhou 太陽/日頭; Xinzhou 太陽/爺爺. All four flagship rows

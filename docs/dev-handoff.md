@@ -159,6 +159,35 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
    Left alone pending a Teochew source: `nan_te` tooth is still 牙. Wiktionary says Teochew uses 齒 alone rather than the 喙齒 compound, which points the same way as the Hokkien fix, but the one Teochew reading found rendered it unaspirated (ki2) where Hokkien has khí, and aspiration is phonemic.
 
+21. **The 29 Mandarin-shaped cells, worked through one at a time (2026-09-05).** Source throughout: Wiktionary's Chinese dialectal-synonym tables, `Module:zh/data/dial-syn/<word>`, which reproduce the point-by-point fieldwork of 《漢語方言詞匯》 and 《現代漢語方言大詞典》. Fetch them with `?action=raw`; the location keys are romanised (Hong Kong, Shanghai, Suzhou, Hangzhou, Wenzhou, Nanchang, Taiyuan, Xinzhou, Lishi, Meixian). Caveat: that fieldwork is mid-20th-century, so a form it omits may still be current speech.
+
+    **21 of the 29 were the check misfiring, and every misfire pointed the same way** — the flagship row was right and its siblings were the unsourced ones. They are now in the checker's `ALLOW` block with the dictionary line that cleared each. Highlights: Hong Kong lists 太陽 first; Shanghai gives 太陽 with 日頭 marked dated; Hangzhou and Wenzhou have 你 as their own 2sg pronoun (so 你好 is theirs, not Mandarin's — Hangzhou Wu is Mandarin-shaped because the Southern Song court moved there); Nanchang genuinely took 吃 and 眼睛; Meixian 愛 oi4 /oɪ⁵³/ matches this corpus's IPA exactly and carries "to love" in Hakka; Xinzhou has the clusivity pair 咱們/俺們 outright, so its agreement with Mandarin IS the distinction.
+
+    **1 was a real error.** `gan` mother was 妈妈 [ma˦˨ma]. Nanchang is 姆媽/娘 with no 媽媽 at all. Changed to 姆妈 [m̩˦˨ma] — Wiktionary's Gan reading of 姆媽 is `m1 ma`, and Nanchang 陰平 is ˦˨, which is the value the cell already carried.
+
+    **7 remain, and 6 of them are not cell-level problems.** `yue_gz` father/mother and `gan_ja` eat/eye/father/mother sit at points the dialect tables leave blank (Gaozhou, Ji'an). Judging them one cell at a time is the wrong move because **the rows themselves look derived** — see item 22. The seventh is `hak_cn` cat 猫: Meixian's entry is 貓公, but 公 is the male-animal suffix and this concept asks for the generic form, so it needs a Hakka speaker rather than another table.
+
+    **Errors this turned up in rows the check never flagged** (open, unfixed — each needs an IPA source before the surface can move):
+    - `sun`: 日头 is not listed for **Dongguan** (熱頭/阿日), **Zhongshan** (熱頭), **Hangzhou** (太陽 only), **Wenzhou** (太陽/熱頭) or **Lishi** (太陽/熱頭兒). The characteristically Yue word is **熱頭** and nothing in the corpus has it.
+    - `egg`: all five `yue_*` rows carry the bare 蛋, which no source gives. Taishan/Gaozhou/Nanning are 雞蛋; Dongguan/Zhongshan are **雞春**.
+    - `we`: `cjy` (Taiyuan) carries only 我们, but Taiyuan has 咱們/咱 inclusive against 我們/俺們 exclusive — a missing clusivity pair, the mirror of the `cjy_xz` finding.
+    - `you`: `wuu_nb` has 侬 where Ningbo is 諾/爾; `wuu_jx` has 倷 where Jiaxing is 你.
+
+22. **`cjy_lv` looks like a copy of `cjy`, and a pairwise scan is how to see it.** Comparing every pair of rows inside each Sinitic group on how often the IPA string is character-for-character identical:
+
+    | pair | shared | same surface | same IPA |
+    |---|---|---|---|
+    | **cjy / cjy_lv** | 51 | 49 | **39 (76%)** |
+    | zh_db / zh_tw | 62 | 36 | 39 (63%) |
+    | nan_xm / nan_zz | 61 | 59 | 37 (61%) |
+    | gan / gan_ja | 50 | 48 | 23 (46%) |
+    | yue / yue_gz | 55 | 39 | 21 (38%) |
+    | cjy / cjy_xz | 51 | 42 | 19 (37%) |
+
+    What genuine differentiation looks like, for contrast: `wuu / wuu_sz` 3 of 59, `yue / yue_ts` 2 of 55, `gan / gan_yc` 3 of 45, `wuu / wuu_hz` 6 of 55 — near zero.
+
+    Taiyuan (并州片) and Lishi (呂梁片) are different Jin subgroups with different tone systems; 76% identical IPA across 51 words is not credible. The high pairs that ARE credible are the ones between genuinely close lects (Xiamen/Zhangzhou Hokkien, two Mandarins). **`cjy_lv` first, then `gan_ja` and `yue_gz`** — which is also where 6 of the 7 unresolved lexical cells live, so the two queues are the same queue. Worth a checker of its own once one row has been done by hand and the honest threshold is known.
+
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 
 Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —

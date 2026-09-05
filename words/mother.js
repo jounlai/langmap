@@ -668,7 +668,7 @@ WORDS.mother = {
     jbo: ["mamta", "ˈmamta"],
     cjy: ["妈妈", "ma˩ma"],
     hsn: ["妈妈", "ma˧ma"],
-    gan: ["妈妈", "ma˦˨ma"],
+    gan: ["姆妈", "m̩˦˨ma"],
     mai: ["माय", "maːj"],
     anp: ["माय", "maːj"],
     awa: ["मइया", "məjjaː"],

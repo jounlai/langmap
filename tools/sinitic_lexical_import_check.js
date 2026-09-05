@@ -18,14 +18,22 @@
  * is 41 findings and half of them are `hak_cn` 铁 against `hak_tw` 鐵, which is
  * the documented per-code script convention doing exactly what it should.
  *
- * THIS CANNOT DECIDE, and the direction is not always the same. The largest
- * cluster it finds is `sun`: yue, wuu, wuu_sz and cjy_xz all say 太陽 while
- * every one of their siblings says 日頭. That looks like four flagship rows
- * filled from Mandarin — until you check, and Wiktionary gives Cantonese 日頭
- * as DAYTIME, not the sun. So in the Yue group the flagship row is right and
- * the five dialect rows are the suspects, which is the reverse of the Hokkien
- * case that prompted this. The check finds the disagreement; it does not know
- * which side is wrong.
+ * THIS CANNOT DECIDE, and the direction is not always the same. Of the 29
+ * cells it first reported, 21 turned out to be the check misfiring and one was
+ * a real error — and the misfires all pointed the same way: the flagship row
+ * was right and its SIBLINGS were the unsourced ones.
+ *
+ * The largest cluster was `sun`: yue, wuu, wuu_sz and cjy_xz all say 太陽 while
+ * every sibling says 日頭. Four flagship rows carrying the Mandarin word is the
+ * exact shape of an import — but the dialect tables list 太陽 first for Hong
+ * Kong, give it for Shanghai with 日頭 marked dated, and give it for Suzhou and
+ * Xinzhou too. Meanwhile 日頭 is not listed at all for Dongguan, Zhongshan,
+ * Hangzhou, Wenzhou or Lishi, which is where this corpus puts it. The
+ * characteristically Yue word is 熱頭, and nothing in the corpus has it.
+ *
+ * So the check finds a disagreement and nothing more. Read the ALLOW block
+ * below before trusting any finding here: every entry in it is a cell this
+ * check accused and a dictionary cleared.
  *
  * It produces a shortlist for a human with a dictionary.
  * `nan` you 你 against six siblings' 汝 is on the list and is CORRECT — 你 is
@@ -47,10 +55,79 @@ const CHECK = process.argv.includes('--check');
 
 // Reviewed and kept, with the reason. A row on this list agrees with Mandarin
 // because that is what the language does, not because a cell was copied.
+// Every entry below was checked on 2026-09-05 against Wiktionary's Chinese
+// dialectal-synonym tables (Module:zh/data/dial-syn/<word>), which reproduce the
+// point-by-point fieldwork of 《漢語方言詞匯》 and 《現代漢語方言大詞典》. The
+// location key for each row: yue=Hong Kong, wuu=Shanghai, wuu_sz=Suzhou,
+// wuu_hz=Hangzhou, wuu_wz=Wenzhou, gan=Nanchang, cjy=Taiyuan, cjy_xz=Xinzhou,
+// hak_cn=Meixian.
+//
+// Caveat worth keeping in mind: that fieldwork is mid-20th-century, so a form
+// it omits may still be current speech today. Absence there is a reason to
+// look, not a verdict on its own.
 const ALLOW = {
     // 你 is the MOE's recommended character for Taiwanese lí; the 汝 the other
     // Hokkien rows use is the etymological spelling, not a different word.
     'you|nan': true,
+
+    // --- sun: the whole cluster is the check being wrong, in both directions.
+    // Hong Kong lists 太陽 FIRST (太陽/熱頭/日頭); Shanghai gives 太陽 with 日頭
+    // marked dated; Suzhou 太陽/日頭; Xinzhou 太陽/爺爺. All four flagship rows
+    // are right. It is five of their SIBLINGS that are unsourced — see the
+    // handoff. 熱頭, not 日頭, is the characteristically Yue word.
+    'sun|yue': true, 'sun|wuu': true, 'sun|wuu_sz': true, 'sun|cjy_xz': true,
+
+    // --- father: 爸爸 is listed at every one of these points.
+    // HK 阿爸/爸爸/爸/爹哋; Shanghai 爸爸/老爸; Hangzhou 爹/阿伯/爸爸;
+    // Nanchang 爸爸/爺. The siblings' 阿爸 and 爹爹 are alternatives, not
+    // corrections.
+    'father|yue': true, 'father|wuu': true, 'father|wuu_hz': true,
+    'father|gan': true,
+
+    // --- mother: HK 媽咪/阿媽/媽媽; Hangzhou 姆媽/媽媽/娘. Both listed.
+    // `gan` was NOT: Nanchang gives 姆媽/娘 and no 媽媽, so that cell was
+    // changed to 姆妈 (Wiktionary Gan reading of 姆媽 is m1 ma = m̩˦˨ ma).
+    'mother|yue': true, 'mother|wuu_hz': true,
+
+    // --- you, and therefore hello. The 2sg pronoun tables give Hangzhou 你 and
+    // Wenzhou 你 outright — against Shanghai 儂, Suzhou 倷, Ningbo 諾/爾. So
+    // 你 is these two lects' own pronoun and 你好 is their own greeting, not
+    // Mandarin leaking in. Hangzhou Wu is Mandarin-shaped for a historical
+    // reason: the Southern Song court moved there.
+    'you|wuu_hz': true, 'you|wuu_wz': true,
+    'hello|wuu_hz': true, 'hello|wuu_wz': true,
+
+    // --- house. 房子 is listed for Hangzhou; 家 has no Hangzhou entry at all,
+    // so the 屋里 its siblings carry is the unsourced side here. The concept
+    // gloss allows both readings ("in some varieties this surfaces as a
+    // locative compound … lexicalized as house/home").
+    'house|wuu_hz': true,
+
+    // --- egg. HK is 雞蛋 (雞春 marked dated). The bare 蛋 in all five sibling
+    // rows is what no source gives: Taishan/Gaozhou/Nanning are 雞蛋 too, and
+    // Dongguan/Zhongshan are 雞春.
+    'egg|yue': true,
+
+    // --- eat, eye. Nanchang is 吃 and 眼睛. Gan is one of the Sinitic groups
+    // that genuinely took 吃 rather than 食; the agreement with Mandarin is the
+    // language, not a copy.
+    'eat|gan': true, 'eye|gan': true,
+
+    // --- tree. Meixian is 樹, bare. The 仔 in hak_tw/hak_hl 樹仔 is Taiwan
+    // Hakka's suffix, not something Meixian dropped.
+    'tree|hak_cn': true,
+
+    // --- love. Wiktionary gives Meixian 愛 oi4 = /oɪ⁵³/, matching this row's
+    // IPA exactly, and lists "to love" among its Hakka senses alongside the
+    // regional "to want / must". hak_tw/hak_hl 惜 siak is the doting word — a
+    // different shade, not a correction.
+    'love|hak_cn': true,
+
+    // --- we. Xinzhou has the clusivity pair outright: 咱們 inclusive against
+    // 我們/俺們/俺 exclusive. Its agreement with Mandarin IS the distinction.
+    // (Taiyuan has 咱們/咱 too and `cjy` carries only 我们 — the reverse gap,
+    // logged in the handoff.)
+    'we|cjy_xz': true,
 };
 
 // Varieties of one language. Historical stages (zh_song, zh_han …) are left out

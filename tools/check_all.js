@@ -434,7 +434,7 @@ line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale:
 // script convention behaving correctly. It cannot decide which side is wrong —
 // `nan` you 你 against six siblings' 汝 is on the list and is CORRECT — so this
 // is a shortlist, ratcheted.
-const LEXICAL_IMPORT_DEBT = 29;
+const LEXICAL_IMPORT_DEBT = 7;
 s = run('sinitic_lexical_import_check.js --check');
 {
     const n = num(s, /mandarin-shaped cells: (\d+)/);

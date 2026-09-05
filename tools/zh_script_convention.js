@@ -37,6 +37,13 @@ const PAIRS = [
   '穀谷','鳩鸠','雀雀','貓猫','華华','漢汉','廣广','韓韩','體体','發发','舊旧',
   '觀观','歡欢','樂乐','機机','業业','傳传','專专','轉转','節节','聲声','葉叶',
   '蘭兰','嶺岭','歲岁','氣气','種种','稱称','親亲','豬猪','雙双','雜杂','驢驴',
+  // added 2026-09-05 after a reader question about 齒: the same gap as the
+  // 穀谷/鳩鸠 one above. 齒齿, 烏乌 and 儂侬 were all missing, so seven cells
+  // sat in mainland-simplified rows reading as 'neutral' — including a row
+  // whose own sibling wrote the simplified form (wuu 儂 against wuu_nb 侬).
+  // The remaining pairs are every other trad/simp character the Sinitic
+  // corpus actually uses, so the blind spot is closed rather than patched.
+  '齒齿','烏乌','儂侬','媽妈','鹽盐','盤盘','輪轮','鮓鲊','鵑鹃','籌筹','諸诸',
 ];
 const TRAD = new Set(), SIMP = new Set();
 for (const p of PAIRS) { TRAD.add(p[0]); SIMP.add(p[1]); }

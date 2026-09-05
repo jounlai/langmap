@@ -188,6 +188,27 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
     Taiyuan (并州片) and Lishi (呂梁片) are different Jin subgroups with different tone systems; 76% identical IPA across 51 words is not credible. The high pairs that ARE credible are the ones between genuinely close lects (Xiamen/Zhangzhou Hokkien, two Mandarins). **`cjy_lv` first, then `gan_ja` and `yue_gz`** — which is also where 6 of the 7 unresolved lexical cells live, so the two queues are the same queue. Worth a checker of its own once one row has been done by hand and the honest threshold is known.
 
+23. **`cjy_lv` carries Taiyuan's tone system, and the way to see that is the tone INVENTORY, not row similarity (2026-09-05).** Following up item 22.
+
+    **The first metric was wrong.** Comparing rows on how often the whole IPA string is byte-identical points at `cjy / cjy_lv` (39 of 51) inside Sinitic, but run over the whole corpus it drowns: `es_ar / es_uy` is 66 of 67, `fr_af / fr_ht` is 67 of 67. Those rows ARE the same phonology with a different lexicon, and that is correct. Identical IPA proves nothing by itself.
+
+    **The metric that works, for tonal lects: the set of distinct Chao contours a row uses anywhere.** That is a property of the LECT, not of which cells happen to be filled. Across all nine Sinitic groups exactly two pairs have identical inventories:
+
+    - `zh / zh_tw` — 6 of 6. Correct and allowed. One standard language, one set of tone categories; they part company on lexicon (41 of 66 surfaces differ).
+    - `cjy / cjy_lv` — **9 of 9**: ˩˩ ˥˧ ˨ ˩ ˦˥ ˨˩˧ ˧ ˥˦ ˨˨.
+
+    For contrast, properly differentiated pairs: `yue / yue_ts` 7 of 11, `wuu / wuu_sz` 5 of 20, `nan / nan_te` 6 of 15.
+
+    **Why `cjy_lv` is not credible, structurally rather than statistically.** Taiyuan (并州片) **merges** 陰平 and 陽平 into one 平聲 11. The 呂梁片, where Lishi is, **splits** them — every 呂梁 point in Wikipedia's Jin tone table does: 汾陽 324/22, 吳堡 213/33, 興縣 324/55, 嵐縣 214/44. A Lishi row cannot have Taiyuan's inventory. This one has it exactly, and in the data both 陰平 words (三 sæ̃˩˩, 星, 風, 心, 家, 貓, 爹, 媽) and 陽平 words (熊, 魚, 紅, 鹽) come out as Taiyuan's merged ˩/˩˩.
+
+    **Someone did start differentiating this row and stopped.** 12 of the 51 cells carry real 呂梁 features: 風 **xuəŋ** and 蜂 **xuəŋ** against Taiyuan fəŋ (the f→x change before rounded vowels), 水 **fei** against sueɪ, 熊 ɕy**ʌ**ŋ, 萄 tʰ**ou**, and the pronoun 俺们 against 我们. The segments were touched; **the tones never were**.
+
+    **What is needed to fix it, and what must not be done.** Published Chao values for 離石 itself. Wikipedia's Jin tone table omits the point, and so does its 呂梁片 lexical table. The 离石小片 also holds 中陽, 柳林, 方山, 臨縣 — **do not borrow 臨縣's or 汾陽's values**, that is the same error again with a different neighbour. Likely print sources: 《山西方言調查研究報告》(侯精一), a 離石/呂梁 方言志.
+
+    Guard: `tools/sinitic_tone_system_share_check.js`, gated at 0 for NEW identical-inventory pairs, with `zh|zh_tw` allowed and `cjy|cjy_lv` carried as named debt. Verified by injection in both directions (removing the zh_tw exemption reports 1; forcing wuu_sz to wuu's inventory reports 1).
+
+    Also worth reading in its advisory table: **`yue_gz` sits at 73–82% overlap against every other Yue row, Taishanese included** — no genuine Gaozhou row should overlap Taishanese that far. `yue_gz` is independently on the lexical check's unresolved list (item 21). It is the next row to look at after `cjy_lv`.
+
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 
 Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —

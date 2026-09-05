@@ -450,6 +450,18 @@ s = run('sinitic_tone_outlier_check.js --check');
         n + ' outliers, budget ' + TONE_OUTLIER_DEBT);
 }
 
+// Two rows in one Sinitic group using the SAME SET of tone contours and nothing
+// else. Whole-IPA similarity is useless here (es_ar/es_uy is 66 of 67 and that
+// is correct); the tone inventory is a property of the lect, so sharing one
+// exactly means one row was toned from the other. Gate at 0 for anything NEW;
+// cjy/cjy_lv is carried as named debt inside the tool.
+s = run('sinitic_tone_system_share_check.js --check');
+{
+    const known = num(s, /known debt: (\d+)/);
+    line('Sinitic rows sharing a tone system', num(s, /shared tone systems: (\d+)/),
+        known ? known + ' known (cjy_lv carries Taiyuan\'s system)' : '');
+}
+
 s = run('sinitic_tone_class_check.js --check');
 line('Sinitic tone class per row', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} stale debt entries` : '');
 

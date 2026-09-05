@@ -231,6 +231,24 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
     Checked while here: item 23's inventory metric is **robust to this**. Collapsing ˥˥→˥ everywhere still yields exactly two identical-inventory pairs, `cjy/cjy_lv` (7 of 7) and `zh/zh_tw` (5 of 5), with `yue_gz` next at 86%.
 
+25. **The Thai/Zhuang reader report (ドン健想, 2026-09-05) — the data was right, the trivia was wrong.** Reported that Thai งา 'tusk' comes from Middle Chinese 牙 while ฟัน 'tooth' may join Austronesian *nipen and Japonic *pa, via Proto-Kra-Dai *ipan, citing Zhuang **faenz**.
+
+    **`za` tooth stays heuj.** Wiktionary gives heuj as the standard Zhuang word, from Proto-Tai *χeːwꟲ 'fang'; faenz exists but is dialectal, from *wanᴬ. Under the major-word-only policy heuj is right. Recorded in the `tooth.js` docstring so nobody "corrects" it later.
+
+    **The corpus already shows the split the reader is pointing at**, and it is worth knowing about: *χeːwꟲ gives Lao ແຂ້ວ, Shan ၶဵဝ်, Tày khẻo and Zhuang heuj, while *wanᴬ gives Thai ฟัน alone. **Thai is the odd one out among the five Tai rows.** On the Austronesian side the corpus carries the exact shape the Austro-Tai comparison turns on: Kapampangan **ipan** against its neighbours' ngipin/ngipon, plus Bunun nipun and Sakizaya ngipən in Taiwan.
+
+    Nothing else changed. งา is the tusk, which the concept excludes by gloss. The Japonic leg of the reader's chain (*pa) is Benedict's Japanese-Austro-Tai and is not mainstream; the Austronesian–Kra-Dai leg is.
+
+    **The real find was a factual error in `hanmap_trivia.js`.** The `sino-tibetan-cognates` article said:
+
+    > "Sagart's 1999 controversial hypothesis that Proto-Sinitic was also related to Austronesian (the 'Austro-Tai' proposal)"
+
+    **The name is on the wrong hypothesis.** Sagart's is **Sino-Austronesian**. **Austro-Tai** is Benedict's 1942 proposal joining Austronesian to **Kra-Dai**, and Chinese is not in it. Rewritten to name both and say how they differ. The sentence exists only in the English body — all 18 translations of this article drop the whole methodological caveat, which is the general abridgement (translations run 1816–3686 chars against en 4219), not a gap specific to this sentence.
+
+    Also fixed while in `tooth.js`: the docstring still said **"every Chinese variety here says 牙"**, which the 齒 fix of the same day had made false. Now names the four Hokkien rows that say 齒.
+
+    Standing lesson for reader reports: check what the reports imply about the PROSE as well as the cells. Two of the three fixes here were in prose that no data guard covers.
+
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 
 Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —

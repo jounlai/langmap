@@ -11,8 +11,19 @@
  * the Aegean to the Lena; Austronesian *nipen reaches Taiwan (nipun, ngipən)
  * and the Philippines (ngipin, ngipon) while Malay took gigi instead.
  * The Sinosphere cuts the mouth in two: 牙 is the back tooth and the tusk,
- * 齒 the front tooth, and every Chinese variety here says 牙 — but Japanese
- * says 歯, Korean 이, and Vietnamese răng, none of them borrowed.
+ * 齒 the front tooth. Every Chinese variety here says 牙 except four Hokkien
+ * rows — Taiwanese and its Quanzhou, Xiamen and Zhangzhou neighbours — which
+ * say 齒: the MOE Taiwanese dictionary gives 齒 khí and files 牙 gê under 虎牙
+ * and 象牙 (2026-09-05, reader report). Japanese says 歯, Korean 이, and
+ * Vietnamese răng, none of them borrowed.
+ * Tai splits the same way and Thai is the one that goes its own way: Proto-Tai
+ * *χeːwꟲ 'fang' gives Lao ແຂ້ວ, Shan ၶဵဝ်, Tày khẻo and Zhuang heuj, while
+ * *wanᴬ gives Thai ฟัน and, dialectally, Zhuang faenz. `za` stays heuj — that
+ * is the standard word, faenz is the dialectal one (2026-09-05, reader report).
+ * Thai's other tooth word, งา, is the tusk; it belongs with 牙 and so is not in
+ * this row. Whether *wanᴬ and Austronesian *nipen are the same word is the
+ * Austro-Tai question, and the corpus shows the shape it turns on: Kapampangan
+ * has ipan where its neighbours have ngipin and ngipon.
  */
 WORDS.tooth = {
   label: {

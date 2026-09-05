@@ -9,6 +9,18 @@
  * use the same stem for both. English black is the odd one out — it descends from Proto-Germanic
  * *blakaz 'burnt', and its Old English relative blāc meant the opposite, 'pale, shining', from the
  * same *bʰel- root that gives Slavic bel- 'white'.
+ * The Slavic word is not a separate image but the oldest one the row holds. Old Church Slavonic
+ * чрьнъ, Old East Slavic чьрнъ, Sanskrit कृष्णः and Old Prussian kirsnan all continue Proto-Indo-
+ * European *kr̥snós, a *-nós adjective to the root *kers-; those four sat in the row for years with
+ * nothing between them, and the reconstruction is now in it. Tocharian is the one branch that goes
+ * its own way: Proto-Tocharian *erkent (Adams, A Dictionary of Tocharian B, 2nd ed. 2013, p. 101)
+ * is of uncertain origin, and is left as such rather than attached to *h₁regʷ- or *h₂erǵ-, both of
+ * which have been proposed. Sino-Tibetan has its own root again, *nək (Coblin 1986; STEDT *s-nak),
+ * which Burmese နက် and Tibetan ནག་པོ still carry.
+ * `txb` and `xto` are still empty although the words are known — erkent and arkant — because those
+ * two rows write their surfaces in Brahmi and transliterating into it here would be this file's
+ * guess rather than a manuscript spelling. Old Spanish, Old Javanese and Proto-Austronesian are
+ * empty for the ordinary reason: no source to hand.
  */
 WORDS.black = {
   emoji: "⚫",
@@ -469,6 +481,14 @@ WORDS.black = {
     mga: ["dub", "duβ"],
     hy_grab: ["սեաւ", "sɛaw"],
     prg: ["kirsnan", "ˈkirsnan"],
+    // Added 2026-09-05. The *kr̥snós branch, which the row could already show
+    // in Old Prussian kirsnan and Sanskrit कृष्णः but nowhere between them.
+    p_ine: ["*kr̥snós", "kr̥snós"],
+    h_vedic: ["कृष्णः", "kr̩ʂɳɐ́ɦ"],
+    cu: ["чрьнъ", "tʃrʲnŭ"],
+    orv: ["чьрнъ", "tʃɪrnŭ"],
+    fro: ["noir", "ˈnojr"],
+    p_toc: ["*erkent", "erkent"],
 
     // --- Modern Germanic & Celtic --------------------------------------
     nn: ["svart", "svɑrt"],
@@ -480,6 +500,8 @@ WORDS.black = {
     bs: ["crn", "tsrn"],
     ga: ["dubh", "dˠʊvˠ"],
     da: ["sort", "sɒːˀd"],
+
+    p_sit: ["*nək", "nək"],
 
     // --- Sinitic ------------------------------------------------------
     // The lexical split matters more than the phonology here: Southern Min

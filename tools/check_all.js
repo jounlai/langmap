@@ -216,7 +216,10 @@ line('vitality field contradictions', num(s, /vitality contradictions: (\d+)/),
 // lines where an English reader gets a full profile. The length check above
 // cannot see it: it compares each language against the median of the entry's
 // others, and when 19 of 23 are short the median is short. Ratcheted.
-const DESC_DRIFT_DEBT = 972;
+// Cleared 2026-09-05: 972 -> 0 across 60 rows. GATED AT 0 now — a new
+// description must be written in every UI language the row carries, not
+// summarised in four and abbreviated in nineteen.
+const DESC_DRIFT_DEBT = 0;
 s = run('description_content_drift.js --check');
 {
     const n = num(s, /drifted descriptions: (\d+)/);

@@ -295,6 +295,22 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
     Second reader report in a day to land on this one word. Both were right, and both went further than the corpus had.
 
+28. **The description drift is CLEARED: 972 → 0, and the guard is now gated at 0 (2026-09-05).** This was the largest ratchet in the suite. 60 rows had a full English description and 19 UI languages carrying one or two summary sentences in its place; ja, ko and zh were usually already full, which is the shape the whole list had.
+
+    **Rows done** (in order): uk it mt pa zh fj ur eu ga gd mi gu te ta krl tt inh sd ko_jeju ady tl ko_mid akk ja_hir bn nan tly yue_ts br fa ar hmn ce lez ast cja kri ja_oki kaa kca tlh dak fro lkt kl shi fur gej osp okz srn tkl, plus the seven variant-only rows below.
+
+    **Two shortcuts worth remembering for next time.**
+    - **Seven rows were drifted ONLY on es_eu/es_mx/pt_eu/pt_br** (tet, mn, ko_kp, ht, ee, cy, ca): the base `es` and `pt` had been rewritten and the four regional variants left behind. Copying the base across fixed 28 cells with no writing at all. Check for this shape first.
+    - The tail is cheap. Once the 19-language rows are done, most of what is left is a single `yue` cell per row — 9 rows in a row ended that way.
+
+    **A checker bug to know about**: `drift_keys.js` in the scratch tooling must use the tool's own `size()` (whitespace and markup stripped), not `String.length`. With raw length it under-reports and you patch a row and find it still drifted.
+
+    Three checks ran on every one of the ~1,100 new strings before it was applied: no HTML entities (that field is plain text), no ASCII double quotes (they have broken the Python drafts twice), and no Latin/Cyrillic fusion (item 26).
+
+    **Gate verified by injection**: shortening the uk row's German body to four characters in `wordmap_meta.js` takes the guard from PASS 0 to FAIL 1. Note that the tool reads `wordmap_meta.js`, not the generated `meta_desc/*.js` — injecting into the split files only trips the freshness guard.
+
+    Errors found and fixed in the ENGLISH while doing this, not just in the translations: Fijian described as using digraphs for its prenasalised stops when the striking thing is that it uses single letters (item 25-adjacent, commit "Fijian does NOT use digraphs"), its Bible dated "1864 NT, complete 1864", and `mt` wrapping a phrase in `**` in a field rendered with escapeHtml.
+
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 
 Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —

@@ -209,6 +209,28 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
     Also worth reading in its advisory table: **`yue_gz` sits at 73–82% overlap against every other Yue row, Taishanese included** — no genuine Gaozhou row should overlap Taishanese that far. `yue_gz` is independently on the lexical check's unresolved list (item 21). It is the next row to look at after `cjy_lv`.
 
+24. **`yue_gz`, and the notation that gives away a pasted cell (2026-09-05).** Chasing the lead item 23 left: `yue_gz` (Gaozhou Yue) overlaps every other Yue row at 73–82% on tone inventory, Taishanese included, which no genuine Gaozhou row should.
+
+    **Gaozhou's own convention is the doubled spelling** — 三 saːm˥˥, 心 sɐm˥˥, 貓 maːu˥˥, 媽 maː˥˥. The row has exactly three cells carrying a bare level tone on an open syllable:
+
+    | cell | value | identical to |
+    |---|---|---|
+    | star | 星 sɛŋ˥ | `yue_dg` |
+    | wind | 风 fʊŋ˥ | `yue` |
+    | two | 二 ji˨ | `yue`, `yue_dg`, `yue_nn`, `yue_zs` |
+
+    **Three out of three.** The notation is the seam and it names the cells that came in from a neighbour. Overall `yue_gz` is byte-identical to `yue_dg` in 27 cells, `yue_zs` in 22, `yue` in 21 — against `yue_ts` in 4, which is what an independent row looks like.
+
+    **Not fixed.** Rewriting the three to ˥˥/˨˨ would make the row uniformly wrong and destroy the only evidence of where it came from. `yue_gz` needs a Gaozhou source; it is also unresolved on the lexical list (item 21, father/mother at a point the dialect tables leave blank).
+
+    **The class generalises: `tools/chao_level_notation_check.js`, 307 cells across 67 rows.** ˧ and ˧˧ are the same pitch; a row using both is using two notations. Reports the MINORITY spelling, since the row's own majority is that row's convention. Leaders: cjy 14, ii 13, cjy_lv 12, bo 11, hak_cn 11, yue_gz 10, nan 9, hak_tw 9, yue_ts 9, nxq 9.
+
+    One legitimate case is exempted and it matters: a short checked syllable written with one letter against a long open one written doubled (Cantonese 陰入 ˥ against 陰平 ˥˥). Without that exemption this fires on half the Sinitic corpus for doing the right thing. It currently saves 6 row×level combinations — wuu ˦, cdo ˦, nan_qz ˥, nan_pn ˦, yue_dg ˧, yue_nn ˧.
+
+    **No source is needed to clear this** — the fix is the same tone value spelled the way the row spells it elsewhere. It is ratcheted rather than mass-edited because a few rows are near-ties where picking a side is a house-style call: `cjy` is ˩×15 against ˩˩×13, and Taiyuan's merged 平聲 is 11 either way. Verified by injection (a bare ˧ into `yue_ts` orange takes 307 to 308).
+
+    Checked while here: item 23's inventory metric is **robust to this**. Collapsing ˥˥→˥ everywhere still yields exactly two identical-inventory pairs, `cjy/cjy_lv` (7 of 7) and `zh/zh_tw` (5 of 5), with `yue_gz` next at 86%.
+
 ## Known, deferred: meta_desc/<code>.js still ships 23 UI languages
 
 Opening a language modal now costs two requests. `lang_words/<code>.js` is ~1 KB gzipped —

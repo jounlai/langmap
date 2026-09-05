@@ -450,6 +450,19 @@ s = run('sinitic_tone_outlier_check.js --check');
         n + ' outliers, budget ' + TONE_OUTLIER_DEBT);
 }
 
+// One row spelling one level tone two ways — ˧ and ˧˧ are the same pitch, so a
+// row using both is using two notations, and the minority spelling marks where
+// the row was pasted from somewhere else. Exempts the genuine short-checked vs
+// long-open contrast. Needs no source to fix; ratcheted because a few rows are
+// near-ties where picking a side is house style, not a correction.
+const CHAO_NOTATION_DEBT = 307;
+s = run('chao_level_notation_check.js --check');
+{
+    const n = num(s, /minority-notation cells: (\d+)/);
+    line('one level tone, two spellings', n > CHAO_NOTATION_DEBT ? n - CHAO_NOTATION_DEBT : 0,
+        n + ' cells, budget ' + CHAO_NOTATION_DEBT);
+}
+
 // Two rows in one Sinitic group using the SAME SET of tone contours and nothing
 // else. Whole-IPA similarity is useless here (es_ar/es_uy is 66 of 67 and that
 // is correct); the tone inventory is a property of the lect, so sharing one

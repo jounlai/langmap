@@ -5501,9 +5501,12 @@
         const _WM_SA_CACHE_MAX = 64;  // LRU cap to avoid unbounded growth
 
         // Pairwise overlap area between two AABBs centered at (cx,cy).
+        // _WM_LABEL_MARGIN inflates each box by a few px so the de-overlap solver
+        // keeps a visible gap between labels rather than letting their edges touch.
+        const _WM_LABEL_MARGIN = 5;
         function _wmOverlapArea(a, b) {
-            const ox = Math.max(0, (a.w + b.w) / 2 - Math.abs(a.cx - b.cx));
-            const oy = Math.max(0, (a.h + b.h) / 2 - Math.abs(a.cy - b.cy));
+            const ox = Math.max(0, (a.w + b.w) / 2 + _WM_LABEL_MARGIN - Math.abs(a.cx - b.cx));
+            const oy = Math.max(0, (a.h + b.h) / 2 + _WM_LABEL_MARGIN - Math.abs(a.cy - b.cy));
             return ox * oy;
         }
 

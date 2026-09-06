@@ -395,7 +395,7 @@ WORDS.bird = {
     arc: ["ܨܦܪܐ", "sˤefraː"],
     aii: ["ܛܲܝܪܵܐ", "tˤajra"],
     sux: ["𒄷", "muʃen"],
-    akk: ["iṣṣūru", "isˤsˤuːru"],
+    akk: ["𒅖𒍪𒊒", "isˤsˤuːru"],
     nci: ["tōtōtl", "toːtoːtɬ"],
     nhx: ["tototl", "tototɬ"],
     nch: ["tototl", "tototɬ"],

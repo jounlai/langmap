@@ -357,7 +357,7 @@ WORDS.sleep = {
     cop: ["ⲛⲕⲟⲧ", "ənkot"],
     arc: ["ܕܡܟ", "dmeχ"],
     sux: ["𒅇𒆪", "u.ku"],
-    akk: ["ṣalālu", "sˤalaːlu"],
+    akk: ["𒍝𒆷𒇻", "sˤalaːlu"],
     hit: ["𒊺𒌍𒍣", "ʃeʃtsi"],
     nci: ["cochi", "kotʃi"],
     nhx: ["cochi", "kotʃi"],

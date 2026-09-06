@@ -573,7 +573,7 @@ WORDS.ear = {
     sog: ["γwš", "ɣoːʃ"],
     elx: ["𒋛𒊑", "siɾi"],
     xhu: ["𒉡𒄿 / 𒉡𒄭", "nuːi / nuɣi"],
-    otk: ["qulqaq", "qulqaq"],
+    otk: ["𐰸𐰆𐰞𐰴𐰴", "qulqaq"],
     hy_grab: ["ականջ", "ɑkɑndʒ"],
     qwc: ["rinri", "ɾinri"],
     p_dra: ["*kewi", "kewi"],

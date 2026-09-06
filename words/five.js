@@ -434,7 +434,7 @@ WORDS.five = {
     aii: ["ܚܡܫܐ", "χamʃa"],
     tru: ["ܚܡܫܐ", "ħamʃo"],
     sux: ["𒐊", "ja"],
-    akk: ["ḫamiš", "χamiʃ"],
+    akk: ["𒄩𒈩", "χamiʃ"],
     nci: ["mācuīlli", "maːˈkʷiːlːi"],
     nhx: ["mācuīlli", "maːˈkʷiːlːi"],
     nch: ["makuilli", "maːˈkʷilːi"],

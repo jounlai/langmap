@@ -518,7 +518,7 @@ WORDS.egg = {
     her: ["eyi", "eˈji"],
     xal: ["өндгн", "ɔndɡən"],
     ave: ["𐬀𐬉𐬨", "aem"],
-    pal: ["xāyag", "xaːjaɡ"],
+    pal: ["𐭧𐭠𐭣𐭪", "xaːjaɡ"],
     fa_clas: ["خایه", "xaːja"],
     syc: ["ܒܥܬܐ", "beːʕtɔ"],
     fro: ["uef", "œf"],

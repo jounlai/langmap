@@ -92,7 +92,7 @@ WORDS.wheel = {
     osx: ["rath", "rat"],
 
     // --- Ancient Near East ---------------------------------------------
-    akk: ["magarru", "maɡarru"],
+    akk: ["𒈠𒃻𒊒", "maɡarru"],
     arc: ["ܓܝܓܠܐ", "ɡiɡlaː"],
     hbo: ["גלגל", "ɡalˈɡal"],
     ar_qur: ["عجلة", "ʕadʒala"],

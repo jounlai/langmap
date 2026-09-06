@@ -96,7 +96,7 @@ WORDS.salt = {
     eu: ["gatz", "ɡats̻"],
 
     // --- Ancient Near East and Egypt ----------------------------------
-    akk: ["ṭābtu", "tˤaːbtu"],
+    akk: ["𒋰𒌅", "tˤaːbtu"],
     psem: ["*milḥ-", "milħ"],
     hbo: ["מלח", "ˈmelaħ"],
     he_mis: ["מלח", "ˈmelaħ"],

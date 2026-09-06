@@ -449,7 +449,7 @@ WORDS.wind = {
     chr: ["ᎤᏃᎴ", "unole"],
     iu: ["ᐊᓄᕆ", "anuri"],
     kl: ["anori", "anoʁi"],
-    sux: ["líl", "liːl"],
+    sux: ["𒆤", "liːl"],
     hit: ["𒄷𒌋𒉿𒀭𒍝", "xuwants"],
     uga: ["𐎗𐎈", "riːħu"],
     phn: ["𐤓𐤇", "riːħ"],

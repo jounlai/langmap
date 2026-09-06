@@ -100,7 +100,7 @@ WORDS.honey = {
     // (as the drink) Germanic mead. Both are PIE; the branches split them.
     p_ine: ["*mélit", "mélit"],
     p_toc: ["*ḿətə", "mʲətə"],   // Meier & Peyrot 2017 (ZDMG 167.1); form after Wiktionary's PT reconstruction, also written *ḿət(ə)
-    hit: ["milit", "milit"],          // cuneiform mi-li-it: IT sign not in the subset font
+    hit: ["𒈪𒇷𒀉", "milit"],
     la: ["mel", "mel"],
     gmy: ["𐀕𐀪", "meli"],              // Linear B me-ri
     el_grc: ["μέλι", "méli"],
@@ -190,7 +190,7 @@ WORDS.honey = {
     os: ["мыд", "mɨd"],
 
     // --- Iranian: angubēn, then the Arabic loan ------------------------
-    pal: ["angubēn", "aŋɡubeːn"],
+    pal: ["𐭠𐭭𐭢𐭯𐭩𐭭", "aŋɡubeːn"],
     fa_clas: ["انگبین", "aŋɡubiːn"],
     fa: ["عسل", "æsæl"],
     prs: ["عسل", "asal"],
@@ -255,7 +255,7 @@ WORDS.honey = {
     // --- Semitic *dibš- and *ʕasal- ------------------------------------
     psem: ["*dibš-", "dibʃ"],
     uga: ["𐎐𐎁𐎚", "nubtu"],
-    akk: ["dišpu", "diʃpu"],
+    akk: ["𒁲𒅖𒁍", "diʃpu"],
     hbo: ["דבש", "dəvaʃ"],
     he_mis: ["דבש", "dəvaʃ"],
     arc: ["ܕܒܫܐ", "deβʃaː"],
@@ -264,8 +264,8 @@ WORDS.honey = {
     mt: ["għasel", "ˈaːsel"],
 
     // --- Egypt, Sumer, Ethiopia, Berber --------------------------------
-    sux: ["làl", "lal"],
-    egy: ["bj.t", "ˈbijat"],          // bee-sign L2 not in the subset font
+    sux: ["𒋭", "lal"],
+    egy: ["𓆤𓏏", "ˈbijat"],
     cop: ["ⲉⲃⲓⲱ", "ebioː"],
     gez: ["መዓር", "maʕaːr"],
     am: ["ማር", "mar"],

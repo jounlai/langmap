@@ -385,7 +385,7 @@ WORDS.nose = {
     arc: ["ܢܚܝܪܐ", "nħiːraː"],
     aii: ["ܢܚܝܪܐ", "nxira"],
     sux: ["𒅗", "kiri"],
-    akk: ["appu", "appu"],
+    akk: ["𒀊𒁍", "appu"],
     nci: ["yacatl", "jakatɬ"],
     nhx: ["yacatl", "jakatɬ"],
     nch: ["yacatl", "ˈjakatɬ"],

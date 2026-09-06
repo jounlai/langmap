@@ -106,7 +106,7 @@ WORDS.milk = {
     lv: ["piens", "piens"],
 
     // --- Ancient Near East ---------------------------------------------
-    akk: ["šizbu", "ʃizbu"],
+    akk: ["𒅆𒅖𒁍", "ʃizbu"],
     hbo: ["חלב", "ħaːˈlaːv"],
     he_mis: ["חלב", "ħaˈlav"],
     arc: ["ܚܠܒܐ", "ħalbaː"],

@@ -623,7 +623,7 @@ WORDS.black = {
     hbo: ["שָׁחֹר", "ʃaːˈħoːr"],
     he_mis: ["שחור", "ʃaˈħor"],
     gez: ["ጸሊም", "sˤalːim"],
-    akk: ["ṣalmu", "sˤalmu"],
+    akk: ["𒍝𒀠𒈬", "sˤalmu"],
     egy: ["𓆎𓅓", "kem"],
 
     // --- Pluricentric rows: same word, each row's own phonology ------

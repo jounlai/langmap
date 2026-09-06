@@ -96,9 +96,10 @@ WORDS.iron = {
 
     // --- Sky-metal, and a word the Hittites borrowed -------------------
     sux: ["𒀭𒁇", "anbar"],
-    akk: ["parzillu", "parzillu"],
+    akk: ["𒁇𒍣𒅋𒇻", "parzillu"],
     hit: ["𒄩𒉺𒀠𒆠", "xapalki"],
     cop: ["ⲃⲉⲛⲓⲡⲉ", "benipe"],
+    egy: ["𓃀𓇋𓄿𓈖𓊪𓏏𓇯", "bia-en-pet"],
     arc: ["ܦܪܙܠܐ", "parzlaː"],
     hbo: ["ברזל", "barˈzel"],
     he_mis: ["ברזל", "barˈzel"],

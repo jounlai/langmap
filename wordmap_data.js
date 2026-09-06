@@ -2782,7 +2782,7 @@ const LANG_DATA = {
   // Independent / regional Sinitic
   czh: { name: 'Hui Chinese', native: '徽州话', lat: 29.71, lng: 118.32, // Tunxi (Huangshan)
 },
-  cnp: { name: 'Pinghua', native: '平话', lat: 22.82, lng: 108.32, // Nanning
+  cnp: { name: 'Pinghua', native: '平话', lat: 22.82, lng: 108.26, // Nanning (W; separated from yue_nn Nanning Baihua which shares the city — both were at 108.32 and collided)
 },
   // Mandarin sub-varieties
   zh_jh: { name: 'Jianghuai Mandarin', native: '江淮官话', lat: 32.06, lng: 118.80, // Nanjing
@@ -5160,7 +5160,7 @@ const LANG_DATA = {
 },
   yue_dg: { name: 'Dongguan Yue', native: '莞寶粵語', lat: 23.02, lng: 113.75,
 },
-  yue_nn: { name: 'Nanning Yue', native: '南宁白话', lat: 22.82, lng: 108.32,
+  yue_nn: { name: 'Nanning Yue', native: '南宁白话', lat: 22.82, lng: 108.38, // Nanning (E; separated from cnp Pinghua, both were at 108.32)
 },
   zh_cq: { name: 'Chinese (Chongqing)', native: '重庆话', lat: 29.56, lng: 106.55,
 },

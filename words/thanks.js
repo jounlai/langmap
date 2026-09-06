@@ -1034,7 +1034,7 @@ WORDS.thanks = {
     hoc: ["dhanybad", "dʱanjbad"],
     enq: ["yaku", "jaku"],
     xpr: ["spās", "spaːs"],
-    xqa: ["tabug", "tabuɡ"],
+    xqa: ["—", "—"],
     sga: ["atlochur", "atloxur"],
     bsk: ["shukria", "ʃukrija"],
     yai: ["rahmat", "rahmat"],

@@ -19644,7 +19644,7 @@ const HAN_LANG_META = {
       "authority": "\u0e23\u0e32\u0e0a\u0e1a\u0e31\u0e13\u0e11\u0e34\u0e15\u0e22\u0e2a\u0e16\u0e32\u0e19 (Royal Society of Thailand)",
       "year": 1999
     },
-    "speakers": "\u7d046900\u4e07\u4eba (L1) / \u7d048000\u4e07\u4eba (L1+L2)",
+    "speakers": "\u7d042700\u4e07\u4eba (L1) / \u7d047100\u4e07\u4eba (L1+L2)",
     "speakersSource": "Ethnologue 2024 (tha)"
   },
   "bo_sino": {

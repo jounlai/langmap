@@ -100,7 +100,7 @@ WORDS.hundred = {
     sa_edu: ["शतम्", "ʃətəm"],
     h_vedic: ["शतम्", "ɕɐtɐ́m"],
     pi: ["सतं", "sɐtɐ̃"],
-    pmh: ["सद", "sada"],
+    pmh: ["साअ", "saa"],
     pi_edu: ["sataṃ", "sətəŋ"],
     cu: ["съто", "sŭto"],
     orv: ["съто", "sŭto"],

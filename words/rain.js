@@ -307,7 +307,7 @@ WORDS.rain = {
     mn_cn: ["ᠪᠣᠷᠣᠭᠠ", "bɔrɔːɢɑ"],
     xal: ["хур", "xur"],
     bxr: ["бороо", "bɔrɔː"],
-    ptrk: ["*yag-", "jaɣ"],
+    ptrk: ["*jag-", "jaɣ"],
     xqa: ["yağmur", "jaɣmur"],
     pmng: ["*boro", "boro"],
     ar: ["مطر", "mɑtˤɑr"],

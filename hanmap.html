@@ -7369,14 +7369,9 @@
         const _HM_SA_CACHE_MAX = 64;  // LRU cap to avoid unbounded growth
 
         // Pairwise overlap area between two AABBs centered at (cx,cy).
-        // _HM_LABEL_MARGIN inflates each box by a few px so the de-overlap solver
-        // keeps a visible gap between labels instead of letting them just touch —
-        // near-co-located variants (e.g. Meixian Hakka hak_mz vs generic Hakka
-        // hak_cn, or Nanning Pinghua/Baihua) were rendering with edges kissing.
-        const _HM_LABEL_MARGIN = 5;
         function _hmOverlapArea(a, b) {
-            const ox = Math.max(0, (a.w + b.w) / 2 + _HM_LABEL_MARGIN - Math.abs(a.cx - b.cx));
-            const oy = Math.max(0, (a.h + b.h) / 2 + _HM_LABEL_MARGIN - Math.abs(a.cy - b.cy));
+            const ox = Math.max(0, (a.w + b.w) / 2 - Math.abs(a.cx - b.cx));
+            const oy = Math.max(0, (a.h + b.h) / 2 - Math.abs(a.cy - b.cy));
             return ox * oy;
         }
 
@@ -7471,45 +7466,6 @@
             }
         }
 
-        // Deterministic overlap-resolution pass (physics-style). SA gets labels
-        // near-optimal but its energy is soft, so pairs can still end up touching
-        // or overlapping a few px. This finalizes the layout to the owner's rule:
-        //   (1) label boxes must NOT overlap (a MARGIN gap is enforced);
-        //   (2) each label is tethered to its anchor and moves the LEAST needed —
-        //       we start from the SA result (already near the anchors) and only
-        //       push overlapping pairs apart along their axis of least penetration,
-        //       so tethers stay as short as possible.
-        // Runs until a full sweep finds no overlap (converged) or maxIters.
-        function _hmResolveOverlaps(labels, margin, maxIters) {
-            const n = labels.length;
-            if (n < 2) return;
-            for (let it = 0; it < maxIters; it++) {
-                let moved = false;
-                for (let i = 0; i < n; i++) {
-                    const a = labels[i];
-                    for (let j = i + 1; j < n; j++) {
-                        const b = labels[j];
-                        let dx = b.cx - a.cx, dy = b.cy - a.cy;
-                        const ox = (a.w + b.w) / 2 + margin - Math.abs(dx);
-                        const oy = (a.h + b.h) / 2 + margin - Math.abs(dy);
-                        if (ox <= 0 || oy <= 0) continue;   // not overlapping (with margin)
-                        moved = true;
-                        if (ox < oy) {
-                            // Separate on X (least penetration): split the push.
-                            if (dx === 0) dx = (i + j) % 2 ? 1 : -1;  // deterministic tie-break
-                            const push = (dx > 0 ? 1 : -1) * ox / 2;
-                            a.cx -= push; b.cx += push;
-                        } else {
-                            if (dy === 0) dy = 1;
-                            const push = (dy > 0 ? 1 : -1) * oy / 2;
-                            a.cy -= push; b.cy += push;
-                        }
-                    }
-                }
-                if (!moved) break;   // no overlaps remain
-            }
-        }
-
         // Build the per-(word,zoom,codes) cache key.
         function _hmOffsetCacheKey(word, zoom, codes, labelW, labelH) {
             // codes is small (<200) and sorted strings; join is cheap.
@@ -7581,9 +7537,6 @@
             // Seed the SA RNG from the cache key so different page loads
             // of the same (word, zoom, codes) produce IDENTICAL layouts.
             _hmAnnealLabels(labels, sweeps, alpha, _hmMakeRng(_hmHashStr(cacheKey)));
-            // Finalize: deterministically push apart any pairs the soft SA left
-            // touching/overlapping, so no two label boxes overlap (owner's rule).
-            _hmResolveOverlaps(labels, _HM_LABEL_MARGIN, 200);
             // Write back offsets + populate cache.
             const cacheEntry = new Map();
             for (const lbl of labels) {
@@ -7693,13 +7646,13 @@
             const _hhOf = (code) => {
                 let h = _heightByCode[code];
                 if (h === undefined) { h = _labelHeightPx(code); _heightByCode[code] = h; }
-                // 0.4 rather than 0.5 lets ordinary labels overlap by up to a
-                // fifth of their estimated height — deliberate packing slack.
-                // A period row cannot take it: the date is the BOTTOM line, so
-                // any downward slack is spent printing a red date through the
-                // reading of the label beneath (owner 2026-09-04, 宋明文語 over
-                // 元代官話). Reserve those in full.
-                return h * ((showName && _hasPeriod(code)) ? 0.5 : 0.4) + 1;
+                // Full half-height (0.5) so the final placement (pull-home pass)
+                // enforces genuinely non-overlapping label boxes — owner's rule:
+                // "言語表示の div 領域がかぶらないこと". (Was 0.4, a deliberate
+                // 20%-overlap packing slack, which left co-located pairs — e.g.
+                // 客家語/梅縣客家語 — touching by a few px.) The +1 adds a small
+                // gap on top. Period rows were already reserved in full at 0.5.
+                return h * 0.5 + 1;
             };
 
             // When a filter is active, only ACTIVE labels compete for cell

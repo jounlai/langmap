@@ -760,7 +760,7 @@ WORDS.wine = {
     // --- UI languages -------------------------------------------------
     en: ["wine", "waɪn"],
     ja: ["ワイン", "waiɴ"],
-    ojp: ["酒", "sake"],
+    ojp: ["酒", "sakey"],
     ko: ["포도주", "pododʑu"],
     zh: ["葡萄酒", "pʰu˧˥ tʰɑʊ˧˥ tɕjoʊ˨˩˦"],
     yue: ["葡萄酒", "pʰou˨˩ tʰou˨˩ tsɐu˧˥"],

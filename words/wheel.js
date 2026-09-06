@@ -147,7 +147,7 @@ WORDS.wheel = {
     ml: ["ചക്രം", "tʃakram"],
     kn: ["ಚಕ್ರ", "tʃakra"],
     my: ["ဘီး", "bí"],
-    xct: ["འཁོར་ལོ", "kʰorlo"],
+    xct: ["འཁོར་ལོ", "kʰor lo"],
     km: ["កង់", "kɑŋ"],
     okz: ["ចក្រ", "cak"],
     tr: ["tekerlek", "tekeɾˈlek"],

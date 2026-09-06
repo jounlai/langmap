@@ -1034,7 +1034,7 @@ WORDS.cat = {
     hoc: ["pusi", "pusi"],
     enq: ["pusi", "pusi"],
     xpr: ["—", "—"],
-    xqa: ["piši", "piʃi"],
+    xqa: ["čätük", "tʃætyk"],
     sga: ["cat", "kat"],
     bsk: ["bushi", "buʂi"],
     yai: ["pišak", "piˈʃak"],

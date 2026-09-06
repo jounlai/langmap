@@ -197,6 +197,7 @@ WORDS.bear = {
     syc: "inherited",
     ar_qur: "inherited",
     gez: "inherited",
+    cop: "inherited",
     am: "inherited",
     ti: "inherited",
     fi: "taboo",
@@ -298,6 +299,7 @@ WORDS.bear = {
     ko_kp: "inherited",
     bo: "inherited",
     xct: "inherited",
+    kaw: "inherited",
     xct_litpr: "inherited",
     dz: "inherited",
     my: "inherited",
@@ -811,6 +813,7 @@ WORDS.bear = {
     akk: ["𒊍", "asu"],
     uga: ["𐎄𐎁", "dubbu"],
     hbo: ["דֹּב", "doːv"],
+    cop: ["ⲗⲁⲃⲟⲓ", "laβɔj"],
     he_mis: ["דוב", "dov"],
     arc: ["ܕܒܐ", "debaː"],
     syc: ["ܕܒܐ", "debaː"],
@@ -944,6 +947,7 @@ WORDS.bear = {
     lo: ["ໝີ", "miː˩˧"],
     sukh: ["หมี", "miː"],
     ms: ["beruang", "bəruaŋ"],
+    kaw: ["ꦧꦂꦮꦁ", "barwaŋ"],
     tl: ["oso", "ˈʔoso"],
 
     // --- The Americas ---------------------------------------------------

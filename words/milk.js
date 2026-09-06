@@ -673,6 +673,7 @@ WORDS.milk = {
     chr: ["ᎤᏅᏗ", "unə̃di"],
     tzo: ["lech", "letʃ"],
     ay: ["millk'i", "miʎkʼi"],
+    qwc: ["ñukñu", "ɲukɲu"],
     agr: ["muntsu", "muntsu"],
     pbb: ["leche", "letʃe"],
     arn: ["lichi", "litʃi"],

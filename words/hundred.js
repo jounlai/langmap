@@ -485,6 +485,7 @@ WORDS.hundred = {
     omy: ["ratus", "ratus"],
     ms: ["seratus", "səratus"],
     jv: ["satus", "satus"],
+    kaw: ["ꦱꦠꦸꦱ꧀", "satus"],
     su: ["saratus", "saratus"],
     ban: ["satus", "satus"],
     tl: ["sandaan", "sanˈdaʔan"],

@@ -143,6 +143,7 @@ WORDS.honey = {
 
     // --- Germanic: a third word for the substance ----------------------
     goh: ["honag", "ˈhonaɡ"],
+    osx: ["huneg", "ˈhunɛɣ"],
     ang: ["hunig", "ˈhunij"],
     enm: ["hony", "ˈhɔni"],
     en_em: ["honey", "ˈhʊni"],
@@ -291,8 +292,10 @@ WORDS.honey = {
     km: ["ទឹកឃ្មុំ", "tɨk kʰmum"],
     my: ["ပျားရည်", "pjá jè"],
     bo: ["སྦྲང་རྩི", "ʈʂaŋ tsi"],
+    xct: ["སྦྲང་རྩི", "sbraŋ rtsi"],
     ms: ["madu", "ˈmadu"],
     jv: ["madu", "madu"],
+    kaw: ["ꦩꦣꦸ", "madu"],
     su: ["madu", "madu"],
     tl: ["pulot", "puˈlot"],
 
@@ -616,6 +619,7 @@ WORDS.honey = {
     fra_jer: ["myi", "mji"],
     pnb: ["ماکھی", "maːkʰiː"],
     qu: ["miskʼi", "miskʼi"],
+    qwc: ["misk'i", "miskʼi"],
     rar: ["meri", "meri"],
     rhg: ["moudu", "moudu"],
     cjs: ["пал", "pal"],

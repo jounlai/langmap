@@ -6349,7 +6349,18 @@
         // the structured speakerCount overlay (Task 220) → prose parsing
         // → 0. Used by getVisibleLangs() to gate display by zoom level.
         function langSpeakerCount(code) {
-            const m = LANG_DATA[code] && LANG_DATA[code].meta;
+            let m = LANG_DATA[code] && LANG_DATA[code].meta;
+            // Hanmap stubs out wordmap_meta.js (see loadMeta), so wordmap-
+            // sourced rows (zh_tw, zh, ko, ja, nan, wuu, yue …) carry NO .meta
+            // here and this used to return 0 for them — collapsing the whole
+            // speaker-priority sort to an alphabetical tie-break, so 台湾華語
+            // (23M) lost its Taipei spot to 海陸客家語 (0.3M). Every HAN code's
+            // speaker figure lives in HAN_LANG_META, so fall back to it whenever
+            // the row meta lacks a usable speaker field.
+            if ((!m || (m.speakerCount == null && m.speakers == null)) &&
+                typeof HAN_LANG_META !== 'undefined' && HAN_LANG_META[code]) {
+                m = HAN_LANG_META[code];
+            }
             if (!m) return 0;
             const sc = m.speakerCount;
             if (sc) {
@@ -6358,9 +6369,17 @@
                 if (typeof sc.rangeMax === 'number')  return sc.rangeMax;
                 if (typeof sc.l1RangeMax === 'number') return sc.l1RangeMax;
             }
-            // Light prose fallback: pull the leading numeric magnitude.
+            // Prose fallback. HAN_LANG_META.speakers is Japanese prose like
+            // "約2300万人" / "約9.4億人", so read the FIRST number and its
+            // magnitude word (億 = 1e8, 万 = 1e4) BEFORE the K/M/B and bare-
+            // digit paths — otherwise "2300万" parsed as 2300 and "9.4億"
+            // (no 4-digit run) parsed as 0, mis-ordering the largest languages.
             const s = m.speakers;
             if (typeof s !== 'string') return 0;
+            const jp = s.match(/(\d+(?:\.\d+)?)\s*(億|万)/);
+            if (jp) {
+                return Math.round(parseFloat(jp[1]) * (jp[2] === '億' ? 1e8 : 1e4));
+            }
             const mat = s.match(/(\d+(?:[.,]\d+)?)\s*([KMB])\b/i);
             if (mat) {
                 const n = parseFloat(mat[1].replace(',', '.'));

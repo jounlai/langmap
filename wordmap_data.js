@@ -369,7 +369,7 @@ const LANG_DATA = {
     } },
   yue: { name: 'Cantonese', native: '廣東話', lat: 22.28, lng: 114.16, // Hong Kong
 },
-  nan: { name: 'Taiwanese', native: '台語', lat: 25.03, lng: 121.57, // Taipei
+  nan: { name: 'Taiwanese', native: '台語', lat: 23.00, lng: 120.21, // Tainan — Hokkien heartland; moved off Taipei so it no longer overlaps zh_tw (Taiwan Mandarin) there
 },
   zh_tw: { name: 'Taiwan Mandarin', native: '國語', lat: 25.10, lng: 121.52, // Taipei
 },

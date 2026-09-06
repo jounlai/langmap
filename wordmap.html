@@ -5602,6 +5602,40 @@
             }
         }
 
+        // Deterministic overlap-resolution pass (physics-style). SA gets labels
+        // near-optimal but its energy is soft, so pairs can still end up touching.
+        // This finalizes to: (1) no label box overlaps (a MARGIN gap enforced);
+        // (2) minimal movement from the SA result, so each label stays tethered
+        // close to its anchor. Runs until a sweep finds no overlap or maxIters.
+        function _wmResolveOverlaps(labels, margin, maxIters) {
+            const n = labels.length;
+            if (n < 2) return;
+            for (let it = 0; it < maxIters; it++) {
+                let moved = false;
+                for (let i = 0; i < n; i++) {
+                    const a = labels[i];
+                    for (let j = i + 1; j < n; j++) {
+                        const b = labels[j];
+                        let dx = b.cx - a.cx, dy = b.cy - a.cy;
+                        const ox = (a.w + b.w) / 2 + margin - Math.abs(dx);
+                        const oy = (a.h + b.h) / 2 + margin - Math.abs(dy);
+                        if (ox <= 0 || oy <= 0) continue;
+                        moved = true;
+                        if (ox < oy) {
+                            if (dx === 0) dx = (i + j) % 2 ? 1 : -1;
+                            const push = (dx > 0 ? 1 : -1) * ox / 2;
+                            a.cx -= push; b.cx += push;
+                        } else {
+                            if (dy === 0) dy = 1;
+                            const push = (dy > 0 ? 1 : -1) * oy / 2;
+                            a.cy -= push; b.cy += push;
+                        }
+                    }
+                }
+                if (!moved) break;
+            }
+        }
+
         // Build the per-(word,zoom,codes) cache key.
         function _wmOffsetCacheKey(word, zoom, codes, labelW, labelH) {
             // codes is small (<200) and sorted strings; join is cheap.
@@ -5663,6 +5697,9 @@
             // Seed the SA RNG from the cache key so different page loads
             // of the same (word, zoom, codes) produce IDENTICAL layouts.
             _wmAnnealLabels(labels, sweeps, alpha, _wmMakeRng(_wmHashStr(cacheKey)));
+            // Finalize: deterministically de-overlap any pairs the soft SA left
+            // touching, so no two label boxes overlap (owner's rule).
+            _wmResolveOverlaps(labels, _WM_LABEL_MARGIN, 200);
             // Write back offsets + populate cache.
             const cacheEntry = new Map();
             for (const lbl of labels) {

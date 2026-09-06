@@ -8073,22 +8073,19 @@
             if (_saMs > 0 && typeof window !== 'undefined' && window._hmSaLogTiming) {
                 console.log('[hanmap SA]', _saCodes.length, 'labels in', _saMs.toFixed(1), 'ms');
             }
-            // 2026-05-31: re-evaluate hiddenCodes based on the FINAL
-            // post-SA offset magnitudes. Earlier we populated hiddenCodes
-            // in the greedy pass using viewport-dependent cellGroups, so
-            // the same label could be hidden at one pan offset and shown
-            // at another — visually it blinked on every pan. Now hide is
-            // determined purely from the offset distance: stable across
-            // pans because the SA output is deterministic given
-            // (word, zoom, codes). Threshold matches the greedy MAX_PUSH.
+            // 2026-09-06: DROP the SA-offset-magnitude hide gate. It ran
+            // BEFORE the speaker-priority pull-home and was blind to speaker
+            // count, so when SA happened to push a high-speaker label far from
+            // its anchor (common for a label buried in a dense cluster like the
+            // Yangtze-delta Wu variants) this gate hid it — e.g. 上海呉語 (wuu,
+            // ~80M, the clear winner) got eliminated while 嘉興呉語/温州呉語
+            // (4-5M) survived, the exact inverse of the win/lose rule. Pull-home
+            // below is the sole, correct hide authority: it re-places EVERY
+            // rendered label from its true anchor in speaker order and hides
+            // only the losers that can't fit within the geographic cap. Its
+            // relative geometry (anchor diffs) and _maxR (world px) are pan-
+            // invariant, so hiding stays stable across pans without this gate.
             hiddenCodes.clear();
-            for (const code of _saCodes) {
-                const off = offsets[code];
-                if (!off) continue;
-                if (Math.abs(off.x) + Math.abs(off.y) > MAX_PUSH * 2.2) {
-                    hiddenCodes.add(code);
-                }
-            }
 
             // Priority pull-home pass (mirrors wordmap). SA optimizes over the
             // FULL visible set (incl. speaker-thinned labels never drawn) and

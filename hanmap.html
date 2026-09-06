@@ -8130,15 +8130,22 @@
                     }
                     return true;
                 };
-                // Keep labels NEAR their true location: a label that can't be
-                // placed within this radius of its anchor is HIDDEN rather than
-                // flung far (owner: at low zoom some labels drifted way off; the
-                // lower-speaker "loser" of a collision should be hidden, not
-                // displaced). Tight cap (was *2.2); _pushZoomFactor already
-                // shrinks MAX_PUSH further as you zoom out, so low zoom hides
-                // more aggressively. Since _rendered is processed in speaker-
-                // count order, the higher-speaker label keeps the spot.
-                const _maxR = MAX_PUSH * 1.1;
+                // Keep labels NEAR their true location. Cap the displacement by
+                // a fixed GEOGRAPHIC distance, not a pixel count: a pixel budget
+                // that looks fine at high zoom becomes hundreds of km at low
+                // zoom, which is why 蘇州呉語 etc. were flung out to sea. Convert
+                // a max-degrees budget to pixels at the current zoom (Mercator x
+                // is linear in longitude, so px-per-degree is a stable scale).
+                // A label that can't fit within this radius of its anchor is
+                // HIDDEN; since _rendered is in speaker-count order, the higher-
+                // speaker label keeps the spot and the loser drops out.
+                const _MAX_GEO_DEG = 0.6;   // ~65 km max drift from true location
+                const _pxPerDeg = Math.abs(map.project([0, 1], zoom).x - map.project([0, 0], zoom).x) || 1;
+                // Pure geographic cap (tiny px floor just lets an exact overlap
+                // nudge apart). No MAX_PUSH floor: at low zoom even one label-
+                // height of push is ~100 km, so the floor would re-introduce the
+                // sea-drift. Colliding losers that don't fit within ~0.6° hide.
+                const _maxR = Math.max(8, _pxPerDeg * _MAX_GEO_DEG);
                 // PASS 1 — only TRULY co-located labels (anchors within a few px)
                 // straddle their shared point, so the marker dots sit BETWEEN the
                 // stacked labels (owner: "赤い点2つは2つの言語の間に", "一つは客家語、

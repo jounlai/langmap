@@ -100,6 +100,7 @@ WORDS.hundred = {
     sa_edu: ["शतम्", "ʃətəm"],
     h_vedic: ["शतम्", "ɕɐtɐ́m"],
     pi: ["सतं", "sɐtɐ̃"],
+    pmh: ["सद", "sada"],
     pi_edu: ["sataṃ", "sətəŋ"],
     cu: ["съто", "sŭto"],
     orv: ["съто", "sŭto"],
@@ -188,6 +189,7 @@ WORDS.hundred = {
     syc: ["ܡܐܐ", "maː"],
     oar: ["מאה", "maː"],
     phn: ["𐤌𐤀𐤕", "miʔat"],
+    uga: ["𐎎𐎛𐎚", "miʔatu"],
     xpu: ["𐤌𐤀𐤕", "miʔat"],
     gez: ["ምእት", "məʔət"],
     ti: ["ሚእቲ", "miʔti"],
@@ -201,6 +203,7 @@ WORDS.hundred = {
     // --- Turkic ------------------------------------------------------------
     ptrk: ["*jǖz", "jyːz"],
     xqa: ["yüz", "jyz"],
+    otk: ["𐰘𐰇𐰕", "jyz"],
     ota: ["يوز", "jyz"],
     tr: ["yüz", "jyz"],
     az: ["yüz", "jyz"],

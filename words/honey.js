@@ -493,6 +493,7 @@ WORDS.honey = {
     xal: ["бал", "bal"],
     mn_cn: ["ᠪᠠᠯ", "bal"],
     cmg: ["ᠪᠠᠯ", "bal"],
+    pmng: ["*bal", "bal"],
     mnc: ["ᡥᡳᠪᠰᡠ", "xibsu"],
 
     // --- The Caucasus, where every valley has its own root -----------------

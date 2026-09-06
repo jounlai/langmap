@@ -149,6 +149,7 @@ WORDS.wheel = {
     my: ["ဘီး", "bí"],
     xct: ["འཁོར་ལོ", "kʰorlo"],
     km: ["កង់", "kɑŋ"],
+    okz: ["ចក្រ", "cak"],
     tr: ["tekerlek", "tekeɾˈlek"],
     az: ["təkər", "tækæɾ"],
     kk: ["дөңгелек", "døŋɡelek"],

@@ -91,6 +91,7 @@ WORDS.iron = {
     sa: ["अयस्", "ˈajas"],
     h_vedic: ["अयस्", "ˈajas"],
     pi: ["अयो", "ajo"],
+    pmh: ["लोह", "loha"],
     pi_edu: ["ayo", "ajo"],
 
     // --- Sky-metal, and a word the Hittites borrowed -------------------

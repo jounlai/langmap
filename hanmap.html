@@ -8143,68 +8143,98 @@
                 // height of push is ~100 km, so the floor would re-introduce the
                 // sea-drift. Colliding losers that don't fit within ~0.6° hide.
                 const _maxR = Math.max(8, _pxPerDeg * _MAX_GEO_DEG);
-                // PASS 1 — only TRULY co-located labels (anchors within a few px)
-                // straddle their shared point, so the marker dots sit BETWEEN the
-                // stacked labels (owner: "赤い点2つは2つの言語の間に", "一つは客家語、
-                // もう一つは梅縣客家語"). This must NOT grab merely-nearby cities:
-                // an earlier version keyed off cellGroups (which merges adjacent
-                // cells), so a whole Fujian Min-Nan cluster got collapsed onto one
-                // centroid and 漳州閩南語 landed on 閩中語(永安) ~130px away. Cluster
-                // strictly by world-pixel proximity (pan-invariant) with a tight
-                // epsilon: coincident variants (客家語/梅縣客家語) group; distinct
-                // cities do not and fall through to the solo spiral below.
+                // Single priority pass over PLACEMENT UNITS. A unit is either a
+                // cluster of TRULY co-located labels (anchors within a few world
+                // px — coincident variants like 客家語/梅縣客家語 or 江淮官話/南京話,
+                // which must straddle their shared point so the marker dots sit
+                // BETWEEN the stacked labels) or a lone label. Earlier this was
+                // two passes: PASS 1 stacked EVERY cluster centred on its own
+                // centroid WITHOUT checking the others, so two nearby clusters —
+                // e.g. 江淮官話/南京話 (32°N) over 徽州話/績溪話 (30°N) — each grew
+                // ~100px tall and overlapped in the middle even though their
+                // anchors were ~90px apart. Now every unit, cluster or solo, is
+                // placed in speaker-priority order and checks _free against all
+                // already-placed boxes; the winner keeps its spot and losers
+                // shift or hide. Clustering stays strict world-px proximity so a
+                // Min-Nan cluster never collapses distinct cities onto a centroid.
                 const _CO_EPS = 16;  // world px; ~"same point on screen" at this zoom
                 const _wp = {};
                 for (const c of _rendered) { const L = LANG_DATA[c]; if (L) _wp[c] = map.project([L.lat, L.lng], zoom); }
-                const _straddled = new Set();
+                const _clusterOf = {};
+                const _units = [];
                 for (const c of _rendered) {
-                    if (_straddled.has(c) || !_wp[c]) continue;
-                    const cluster = [c];
+                    if (_clusterOf[c] != null || !_wp[c]) continue;
+                    const members = [c];
                     for (const d of _rendered) {
-                        if (d === c || _straddled.has(d) || !_wp[d]) continue;
+                        if (d === c || _clusterOf[d] != null || !_wp[d]) continue;
                         const dx = _wp[d].x - _wp[c].x, dy = _wp[d].y - _wp[c].y;
-                        if (dx * dx + dy * dy <= _CO_EPS * _CO_EPS) cluster.push(d);
+                        if (dx * dx + dy * dy <= _CO_EPS * _CO_EPS) members.push(d);
                     }
-                    if (cluster.length < 2) continue;
-                    cluster.sort((a, b) => ppx[a].y - ppx[b].y);  // N→S
-                    let sumX = 0, sumY = 0;
-                    for (const m of cluster) { sumX += ppx[m].x; sumY += ppx[m].y; }
-                    const cxG = sumX / cluster.length, cyG = sumY / cluster.length;
-                    const hhs = cluster.map(m => _hhOf(m));
-                    let tot = 0; for (const hh of hhs) tot += 2 * hh;
-                    let y = cyG - tot / 2;
-                    for (let i = 0; i < cluster.length; i++) {
-                        y += hhs[i];
-                        offsets[cluster[i]] = { x: cxG - ppx[cluster[i]].x, y: y - ppx[cluster[i]].y };
-                        _placed.push({ x: cxG, y, hh: hhs[i] });
-                        _straddled.add(cluster[i]);
-                        y += hhs[i];
-                    }
+                    const id = _units.length;
+                    let prio = -Infinity;
+                    for (const m of members) { _clusterOf[m] = id; prio = Math.max(prio, langSpeakerCount(m) || 0); }
+                    _units.push({ members, prio });
                 }
-                // PASS 2 — solo labels: spiral from the anchor to the nearest
-                // free spot (shortest tether), avoiding the grouped stacks above.
-                for (const c of _rendered) {
-                    if (_straddled.has(c)) continue;
-                    const ax = ppx[c].x, ay = ppx[c].y;
-                    const hh = _hhOf(c);
+                // Highest-priority unit places first (focus / spotlight override,
+                // then speaker count) so it keeps its spot; lower units shift or,
+                // if they can't fit within the geographic cap, hide.
+                _units.sort((a, b) => {
+                    if (_focusedCode) {
+                        const af = a.members.includes(_focusedCode) ? 0 : 1;
+                        const bf = b.members.includes(_focusedCode) ? 0 : 1;
+                        if (af !== bf) return af - bf;
+                    }
+                    if (_spotlight) {
+                        const as = a.members.some(m => _spotlight.has(m)) ? 0 : 1;
+                        const bs = b.members.some(m => _spotlight.has(m)) ? 0 : 1;
+                        if (as !== bs) return as - bs;
+                    }
+                    return b.prio - a.prio;
+                });
+                const _placeSolo = (c) => {
+                    const ax = ppx[c].x, ay = ppx[c].y, hh = _hhOf(c);
                     const _ringStep = Math.max(4, hh * 0.26);   // ~0.13 * full height
-                    let chosen = null;
-                    if (_free(ax, ay, hh)) {
-                        chosen = { x: ax, y: ay };
-                    } else {
-                        outer:
-                        for (let r = _ringStep; r <= _maxR; r += _ringStep) {
-                            const n = Math.max(8, Math.round((2 * Math.PI * r) / _ringStep));
-                            for (let k = 0; k < n; k++) {
-                                const rad = (2 * Math.PI * k) / n;
-                                const x = ax + Math.cos(rad) * r, y = ay + Math.sin(rad) * r;
-                                if (_free(x, y, hh)) { chosen = { x, y }; break outer; }
-                            }
+                    if (_free(ax, ay, hh)) { _placed.push({ x: ax, y: ay, hh }); offsets[c] = { x: 0, y: 0 }; return; }
+                    for (let r = _ringStep; r <= _maxR; r += _ringStep) {
+                        const n = Math.max(8, Math.round((2 * Math.PI * r) / _ringStep));
+                        for (let k = 0; k < n; k++) {
+                            const rad = (2 * Math.PI * k) / n;
+                            const x = ax + Math.cos(rad) * r, y = ay + Math.sin(rad) * r;
+                            if (_free(x, y, hh)) { _placed.push({ x, y, hh }); offsets[c] = { x: x - ax, y: y - ay }; return; }
                         }
                     }
-                    if (!chosen) { hiddenCodes.add(c); continue; }
-                    _placed.push({ x: chosen.x, y: chosen.y, hh });
-                    offsets[c] = { x: chosen.x - ax, y: chosen.y - ay };
+                    hiddenCodes.add(c);
+                };
+                for (const unit of _units) {
+                    const members = unit.members;
+                    if (members.length === 1) { _placeSolo(members[0]); continue; }
+                    // Cluster: build the centred vertical stack (dots between the
+                    // labels), then shift the WHOLE stack to the nearest free
+                    // vertical band so it clears other units. If even the shifted
+                    // block won't fit within the cap, drop back to placing members
+                    // one at a time by speaker priority (lowest may then hide).
+                    members.sort((a, b) => ppx[a].y - ppx[b].y);  // N→S
+                    let sumX = 0, sumY = 0;
+                    for (const m of members) { sumX += ppx[m].x; sumY += ppx[m].y; }
+                    const cxG = sumX / members.length, cyG = sumY / members.length;
+                    const hhs = members.map(m => _hhOf(m));
+                    let tot = 0; for (const hh of hhs) tot += 2 * hh;
+                    const relY = []; { let y = -tot / 2; for (let i = 0; i < members.length; i++) { y += hhs[i]; relY.push(y); y += hhs[i]; } }
+                    const _blockFree = (dy) => relY.every((ry, i) => _free(cxG, cyG + ry + dy, hhs[i]));
+                    const _step = Math.max(4, hhs[0] * 0.26);
+                    let dy = null;
+                    if (_blockFree(0)) dy = 0;
+                    else { for (let s = _step; s <= _maxR; s += _step) { if (_blockFree(s)) { dy = s; break; } if (_blockFree(-s)) { dy = -s; break; } } }
+                    if (dy == null) {
+                        const bySpk = members.slice().sort((a, b) => (langSpeakerCount(b) || 0) - (langSpeakerCount(a) || 0));
+                        for (const m of bySpk) _placeSolo(m);
+                        continue;
+                    }
+                    for (let i = 0; i < members.length; i++) {
+                        const y = cyG + relY[i] + dy;
+                        offsets[members[i]] = { x: cxG - ppx[members[i]].x, y: y - ppx[members[i]].y };
+                        _placed.push({ x: cxG, y, hh: hhs[i] });
+                    }
                 }
             }
 

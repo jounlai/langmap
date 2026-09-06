@@ -23,7 +23,7 @@ const SCRIPT = {
   ja: 'Kana', ja_kgs: 'Kana', ja_okn: 'Kana', ja_thk: 'Kana', ja_ojp: 'Kana', ja_kun: 'Kana',
   zh_phagspa: 'Phagspa', txg: 'Tangut', mnc: 'Mongolian', sjo: 'Mongolian',
   juc: 'Mongolian', zkt: 'Khitan',           // both mostly "—" placeholder
-  vi_nom: 'CJK', dng: 'Cyrillic', bo_sino: 'Tibetan',
+  vi_nom: 'CJK', dng: 'Cyrillic', bo_sino: 'Tibetan', th: 'Thai',
   yue_gz: 'CJK', yue_ts: 'CJK', yue_dg: 'CJK', yue_nn: 'CJK', yue_zs: 'CJK',
 };
 function blockOf(cp) {
@@ -35,6 +35,7 @@ function blockOf(cp) {
   if (cp >= 0x18B00 && cp <= 0x18CFF) return 'Khitan';
   if (cp >= 0x0400 && cp <= 0x04FF) return 'Cyrillic';
   if (cp >= 0x0F00 && cp <= 0x0FFF) return 'Tibetan';
+  if (cp >= 0x0E00 && cp <= 0x0E7F) return 'Thai';
   if ((cp >= 0x4E00 && cp <= 0x9FFF) || (cp >= 0x3400 && cp <= 0x4DBF) || (cp >= 0x20000 && cp <= 0x2FFFF) || (cp >= 0xF900 && cp <= 0xFAFF)) return 'CJK';
   if ((cp >= 0x41 && cp <= 0x5A) || (cp >= 0x61 && cp <= 0x7A) || (cp >= 0xC0 && cp <= 0x24F) || (cp >= 0x1E00 && cp <= 0x1EFF)) return 'Latin';
   return null; // punctuation / marks / unknown

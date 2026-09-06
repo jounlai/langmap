@@ -7771,7 +7771,16 @@
                 if (!isActive(code)) continue;  // dimmed labels don't compete
                 const pt = ppx[code];
                 if (!pt) continue;
-                const cellKey = Math.floor(pt.x / labelW) + ',' + Math.floor(pt.y / labelH);
+                // Bucket by WORLD pixel (map.project), not container pixel: the
+                // container position shifts with every pan, so floor(px/labelW)
+                // flipped which cell a marker fell into as you dragged the map —
+                // and since the pull-home straddle now keys off these groups, the
+                // labels jumped on pan (regression of a long-ago fix). World
+                // pixels are fixed per zoom, so group membership is pan-invariant;
+                // placement still uses container px (offsets stay relative).
+                const lang = LANG_DATA[code];
+                const wpt = map.project([lang.lat, lang.lng], zoom);
+                const cellKey = Math.floor(wpt.x / labelW) + ',' + Math.floor(wpt.y / labelH);
                 if (!cellGroups[cellKey]) cellGroups[cellKey] = [];
                 cellGroups[cellKey].push(code);
                 codeToCell[code] = cellKey;

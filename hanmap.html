@@ -8122,7 +8122,39 @@
                     return true;
                 };
                 const _maxR = MAX_PUSH * 2.2;
+                // PASS 1 — co-located groups: stack the members as a single
+                // column CENTERED on the group centroid, so the marker dots
+                // (which sit at the members' true, ~coincident anchors ≈ the
+                // centroid) land BETWEEN the stacked labels rather than on top of
+                // the first one. Owner's rule: "赤い点2つは2つの言語の間に". Members
+                // are already N→S sorted. Spacing is the sum of adjacent half-
+                // heights (+gap via _hhOf's +4) so nothing overlaps.
+                const _straddled = new Set();
+                const _seenGroup = new Set();
                 for (const c of _rendered) {
+                    const key = codeToCell[c];
+                    if (key == null || _seenGroup.has(key)) continue;
+                    const g = cellGroups[key];
+                    if (!g || g.length < 2) continue;
+                    _seenGroup.add(key);
+                    const mem = g.filter(m => _rendered.includes(m));
+                    if (mem.length < 2) continue;
+                    const cxG = groupMeanX[key], cyG = groupMeanY[key];
+                    const hhs = mem.map(m => _hhOf(m));
+                    let tot = 0; for (const hh of hhs) tot += 2 * hh;
+                    let y = cyG - tot / 2;
+                    for (let i = 0; i < mem.length; i++) {
+                        y += hhs[i];
+                        offsets[mem[i]] = { x: cxG - ppx[mem[i]].x, y: y - ppx[mem[i]].y };
+                        _placed.push({ x: cxG, y, hh: hhs[i] });
+                        _straddled.add(mem[i]);
+                        y += hhs[i];
+                    }
+                }
+                // PASS 2 — solo labels: spiral from the anchor to the nearest
+                // free spot (shortest tether), avoiding the grouped stacks above.
+                for (const c of _rendered) {
+                    if (_straddled.has(c)) continue;
                     const ax = ppx[c].x, ay = ppx[c].y;
                     const hh = _hhOf(c);
                     const _ringStep = Math.max(4, hh * 0.26);   // ~0.13 * full height

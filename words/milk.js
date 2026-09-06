@@ -173,7 +173,7 @@ WORDS.milk = {
     ms: ["susu", "susu"],
     tl: ["gatas", "ˈɡatas"],
     ceb: ["gatas", "ˈɡatas"],
-    haw: ["waiū", "wɐiˈʔuː"],
+    haw: ["waiū", "wɐiˈuː"],
     mi: ["miraka", "miɾaka"],
     ha: ["madara", "madara"],
     yo: ["wàrà", "wara"],

@@ -858,7 +858,7 @@ WORDS.fire = {
     rue: ["огень", "ˈohenʲ"],
     fur: ["fûc", "fuːk"],
     ast: ["fueu", "ˈfweu"],
-    ext: ["huegu", "ˈweɣu"],
+    ext: ["huegu", "ˈhweɣu"],
     fax: ["lume", "ˈlume"],
     an: ["fuego", "ˈfweɣo"],
     rup: ["foc", "fok"],

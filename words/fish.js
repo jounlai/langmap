@@ -282,7 +282,7 @@ WORDS.fish = {
     aiw: ["toila", "toila"],
     sgw: ["አሳ", "asa"],
     mg: ["fia", "ˈfia"],
-    ain: ["チェㇷ゚", "tsep"],
+    ain: ["チェㇷ゚", "tɕep"],
     fi: ["kala", "ˈkɑlɑ"],
     hu: ["hal", "hɒl"],
     ohu: ["hal", "hɒl"],

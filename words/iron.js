@@ -122,7 +122,7 @@ WORDS.iron = {
     hr: ["željezo", "ʒeʎezo"],
     sr: ["гвожђе", "ɡvoʒdʑe"],
     bg: ["желязо", "ʒɛˈlʲazo"],
-    mk: ["железо", "ʒɛˈlɛzo"],
+    mk: ["железо", "ˈʒɛlɛzɔ"],
     be: ["жалеза", "ʒaˈlʲeza"],
     ro: ["fier", "fjer"],
     ca: ["ferro", "ˈfɛru"],

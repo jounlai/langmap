@@ -543,7 +543,7 @@ WORDS.five = {
     abe: ["nôlan", "nõlan"],
     crk: ["ᓂᔮᓇᐣ", "niːjaːnan"],
     lkt: ["záptaŋ", "záptã"],
-    kl: ["tallimat", "tatːlimat"],
+    kl: ["tallimat", "taɬːimat"],
     ce: ["пхиъ", "pxiʔ"],
     inh: ["пхиъ", "pxiʔ"],
     av: ["щуго", "ʃːugo"],

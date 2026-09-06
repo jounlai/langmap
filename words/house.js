@@ -686,7 +686,7 @@ WORDS.house = {
     ada: ["we", "we"],
     gaa: ["shia", "ʃia"],
     nzi: ["suakɛ", "suakɛ"],
-    mk: ["куќа", "ˈkutɕa"],
+    mk: ["куќа", "ˈkuca"],
     lg: ["ennyumba", "eɲɲumba"],
     zne: ["bambu", "bambu"],
     myx: ["nzu", "nzu"],

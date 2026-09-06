@@ -297,7 +297,7 @@ WORDS.night = {
     sv: ["natt", "natː"],
     no: ["natt", "nɑtː"],
     da: ["nat", "nad"],
-    ro: ["noapte", "ˈnwapte"],
+    ro: ["noapte", "ˈno̯apte"],
     ga: ["oíche", "ˈiːçə"],
     eu: ["gau", "ɡau"],
     cy: ["nos", "nɔs"],

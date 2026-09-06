@@ -499,7 +499,7 @@ WORDS.snow = {
     umu: ["koon", "koːn"],
     crk: ["ᑰᓇ", "koːna"],
     yur: ["roreer", "ɹɔɹiɹ"],
-    lkt: ["wá", "wã"],
+    lkt: ["wá", "wá"],
     kl: ["aput", "aput"],
     ce: ["ло", "lo"],
     inh: ["лоа", "loə"],

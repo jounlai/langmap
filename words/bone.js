@@ -450,7 +450,7 @@ WORDS.bone = {
     tcs: ["bon", "bon"],
     pis: ["bon", "bon"],
     hwc: ["bone", "boʊn"],
-    se: ["dákti", "dakti"],
+    se: ["dákti", "ˈdaːkti"],
     sma: ["måaroe", "mɔɑrɵ"],
     smj: ["dákte", "daktɛ"],
     smn: ["tähti", "tæhti"],

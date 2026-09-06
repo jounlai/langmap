@@ -759,7 +759,7 @@ WORDS.blood = {
     kde: ["myasi", "mjasi"],
     seh: ["malopa", "malopa"],
     ngl: ["ephome", "epʰome"],
-    din: ["riɛm", "rièm"],
+    din: ["riɛm", "riɛm"],
     nus: ["riɛm", "riɛm"],
     anu: ["remoʼ", "rɛmoʔ"],
     luo: ["remo", "rɛmo"],

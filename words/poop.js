@@ -194,7 +194,7 @@ WORDS.poop = {
     su: ["taiʔ", "taiʔ"],
     ceb: ["tae", "taʔe"],
     ilo: ["tai", "taʔi"],
-    sm: ["tae", "taʔe"],
+    sm: ["tae", "tae"],
     to: ["taʻe", "taʔe"],
     pa: ["ਟੱਟੀ", "ʈəʈːiː"],
     pnb: ["ٹٹی", "ʈəʈːiː"],

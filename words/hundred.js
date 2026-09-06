@@ -622,7 +622,7 @@ WORDS.hundred = {
     khq: ["jongu", "dʒoŋɡu"],
     bej: ["shee", "ʃeː"],
     ssy: ["bool", "boːl"],
-    aa: ["bool", "boːlu"],
+    aa: ["bool", "boːl"],
     drs: ["dhibba", "ɗibba"],
     kxc: ["dhippa", "ɗipːa"],
     aiw: ["mato", "mato"],   // beside a vigesimal circumlocution, edonq-baab its, five persons eaten
@@ -746,7 +746,7 @@ WORDS.hundred = {
     kim: ["чүс", "tʃys"],
     ude: ["таӈгу", "taŋɡu"],   // the Tungusic *taŋgū that Manchu writes ᡨᠠᠩᡤᡡ
     gld: ["таӈгу", "taŋɡu"],
-    sjo: ["ᡨᠠᠩᡤᡡ", "taŋ"],
+    sjo: ["ᡨᠠᠩᡤᡡ", "taŋɡuː"],
     eve: ["няма", "ɲama"],
     evn: ["нама", "nama"],
     yrk: ["юрˮ", "jurʔ"],

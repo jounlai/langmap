@@ -3635,8 +3635,12 @@
             { id: 'mongolic',
               modern: [],
               historical: ['pmgl','zkt'] },
+            // th is Thai's Chinese LOAN layer (二三四五六七八九十馬), so unlike
+            // za and ptai it is NOT in KUN_CODES: those rows carry the native
+            // Tai word for the concept, this one carries the borrowed one. It
+            // therefore behaves like bo_sino and is on by default.
             { id: 'tai_kadai',
-              modern: ['za'],
+              modern: ['za','th'],
               historical: ['ptai'] },
             { id: 'hmong_mien',
               modern: [],

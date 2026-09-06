@@ -3311,8 +3311,8 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=299"></script>
-    <script src="hanmap_data.js?v=117"></script>
+    <script src="wordmap_data.js?v=301"></script>
+    <script src="hanmap_data.js?v=119"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -7650,9 +7650,10 @@
                 // enforces genuinely non-overlapping label boxes — owner's rule:
                 // "言語表示の div 領域がかぶらないこと". (Was 0.4, a deliberate
                 // 20%-overlap packing slack, which left co-located pairs — e.g.
-                // 客家語/梅縣客家語 — touching by a few px.) The +1 adds a small
-                // gap on top. Period rows were already reserved in full at 0.5.
-                return h * 0.5 + 1;
+                // 客家語/梅縣客家語 — touching.) +4 leaves a visible ~8px gap
+                // between stacked labels (owner: "もう少しマージンが必要"). Solved
+                // by placement only — co-located coordinates are NOT moved.
+                return h * 0.5 + 4;
             };
 
             // When a filter is active, only ACTIVE labels compete for cell

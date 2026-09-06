@@ -4710,6 +4710,14 @@
             updateEraHelp();
             window.dispatchEvent(new CustomEvent('langmap:erachange', { detail: { historical } }));
             updateMarkers(currentWord);
+            // The historical view ranks labels by attestation coverage
+            // (langPriority) so the best-attested ancient languages survive
+            // zoom-out; that proxy needs every concept's data, but words load
+            // lazily — pull them all in and repaint once complete so Ancient
+            // Egyptian / Sumerian outrank obscure fragments (owner 2026-09-07).
+            if (historical && typeof window.__wmEnsureAllWords === 'function') {
+                window.__wmEnsureAllWords().then(() => { if (showHistorical) updateMarkers(currentWord); });
+            }
             updateHash();
         }
         // Audit Task 112: refresh the era-help tooltip whenever era or UI lang changes.
@@ -5136,6 +5144,41 @@
             }
             const bare = s.match(/^\D*(\d{4,})/);
             return bare ? parseInt(bare[1], 10) : 0;
+        }
+
+        // Placement priority for the collision passes. Living languages rank by
+        // speaker count, but every extinct/historical language has speakerCount 0,
+        // so in the historical map they all tied and the collision thinning
+        // dropped them in alphabetical order — Ancient Egyptian / Sumerian
+        // vanished on zoom-out as readily as an obscure fragment (owner
+        // 2026-09-07). Fall back to how many concepts the language actually
+        // attests — an objective, data-derived proxy for corpus weight — so the
+        // best-attested ancient languages survive longest. The fallback maxes at
+        // the concept count (~67), far below one living speaker, so a living
+        // language always outranks any historical one.
+        var _covGen = -1, _coverageCache = null;
+        function langCoverageCount(code) {
+            // Word data loads lazily (per concept), so recompute whenever more
+            // concepts have arrived — a once-only cache computed at first paint
+            // would count ~1 concept and tie every language at coverage 1.
+            // Historical mode force-loads all words (see the era toggle) so the
+            // proxy is complete there, where it matters.
+            var loaded = 0;
+            if (typeof WORDS !== 'undefined') for (var k in WORDS) { if (WORDS[k] && WORDS[k].data) loaded++; }
+            if (_covGen !== loaded) {
+                _covGen = loaded; _coverageCache = Object.create(null);
+                for (const [c, lang] of Object.entries(LANG_DATA)) {
+                    if (!lang || !lang.words) continue;
+                    let n = 0;
+                    for (const w in lang.words) { if (!isUnattestedEntry(lang.words[w])) n++; }
+                    _coverageCache[c] = n;
+                }
+            }
+            return _coverageCache[code] || 0;
+        }
+        function langPriority(code) {
+            const s = langSpeakerCount(code);
+            return s > 0 ? s : langCoverageCount(code);
         }
 
         // Priority-based greedy thinning for the modern map (user request
@@ -6053,8 +6096,8 @@
                 if (aUna !== bUna) return aUna - bUna;
                 const aPro = _isProtoKind(a) ? 0 : 1, bPro = _isProtoKind(b) ? 0 : 1;
                 if (aPro !== bPro) return aPro - bPro;
-                const sa = langSpeakerCount(a) || 0;
-                const sb = langSpeakerCount(b) || 0;
+                const sa = langPriority(a) || 0;
+                const sb = langPriority(b) || 0;
                 if (sb !== sa) return sb - sa;
                 return a < b ? -1 : a > b ? 1 : 0;
             });
@@ -6169,11 +6212,22 @@
             // the SA output is deterministic given (word, zoom, codes).
             // Threshold matches the greedy MAX_PUSH.
             hiddenCodes.clear();
-            for (const code of _saCodes) {
-                const off = offsets[code];
-                if (!off) continue;
-                if (Math.abs(off.x) + Math.abs(off.y) > MAX_PUSH * 2.2) {
-                    hiddenCodes.add(code);
+            // Skip this SA-offset hide gate in the historical map and in
+            // compare-only mode, where the pull-home pass below must be the sole
+            // hide authority: (a) historical languages all tie at speaker 0, so a
+            // gate that hides by raw offset magnitude (not priority) dropped
+            // Ancient Egyptian / Sumerian as readily as an obscure fragment on
+            // zoom-out; (b) compare-only mode must show every picked language and
+            // never hide one just for colliding when zoomed out
+            // (owner 2026-09-07). In the modern map the gate still keeps
+            // far-pushed labels off the map.
+            if (!showHistorical && !onlyCompare) {
+                for (const code of _saCodes) {
+                    const off = offsets[code];
+                    if (!off) continue;
+                    if (Math.abs(off.x) + Math.abs(off.y) > MAX_PUSH * 2.2) {
+                        hiddenCodes.add(code);
+                    }
                 }
             }
 
@@ -6207,7 +6261,7 @@
                     }
                     const aPro = _isProtoKind(a) ? 0 : 1, bPro = _isProtoKind(b) ? 0 : 1;
                     if (aPro !== bPro) return aPro - bPro;
-                    const sa = langSpeakerCount(a) || 0, sb = langSpeakerCount(b) || 0;
+                    const sa = langPriority(a) || 0, sb = langPriority(b) || 0;
                     if (sb !== sa) return sb - sa;
                     return a < b ? -1 : a > b ? 1 : 0;
                 });
@@ -6245,7 +6299,14 @@
                             }
                         }
                     }
-                    if (!chosen) { hiddenCodes.add(c); continue; }
+                    if (!chosen) {
+                        // Compare-only mode must never hide a picked language: if
+                        // nothing is free within the budget, place it at its true
+                        // anchor (may overlap a neighbour) rather than drop it
+                        // (owner 2026-09-07: "比較言語のみ表示だと必ず全言語を表示").
+                        if (onlyCompare) { offsets[c] = { x: 0, y: 0 }; _placed.push({ x: ax, y: ay }); continue; }
+                        hiddenCodes.add(c); continue;
+                    }
                     _placed.push(chosen);
                     offsets[c] = { x: chosen.x - ax, y: chosen.y - ay };
                 }

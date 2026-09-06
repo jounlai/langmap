@@ -8130,7 +8130,15 @@
                     }
                     return true;
                 };
-                const _maxR = MAX_PUSH * 2.2;
+                // Keep labels NEAR their true location: a label that can't be
+                // placed within this radius of its anchor is HIDDEN rather than
+                // flung far (owner: at low zoom some labels drifted way off; the
+                // lower-speaker "loser" of a collision should be hidden, not
+                // displaced). Tight cap (was *2.2); _pushZoomFactor already
+                // shrinks MAX_PUSH further as you zoom out, so low zoom hides
+                // more aggressively. Since _rendered is processed in speaker-
+                // count order, the higher-speaker label keeps the spot.
+                const _maxR = MAX_PUSH * 1.1;
                 // PASS 1 — only TRULY co-located labels (anchors within a few px)
                 // straddle their shared point, so the marker dots sit BETWEEN the
                 // stacked labels (owner: "赤い点2つは2つの言語の間に", "一つは客家語、

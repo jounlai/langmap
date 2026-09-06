@@ -1225,5 +1225,6 @@ WORDS.father = {
     lun: ["tata", "tata"],
     tsj: ["apa", "apa"],
     lep: ["ᰣᰦᰓᰨ", "ʔabo"],
+    mhy: ["amah", "amah"],
   },
 };

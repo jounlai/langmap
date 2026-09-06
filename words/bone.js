@@ -1219,5 +1219,6 @@ WORDS.bone = {
     lun: ["ifwaha", "ifwaha"],
     tsj: ["khang", "kʰaŋ"],
     lep: ["ᰣᰛᰳ", "ʔarat"],
+    mhy: ["taʔulaŋ", "taʔulaŋ"],
   },
 };

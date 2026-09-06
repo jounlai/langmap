@@ -1236,5 +1236,6 @@ WORDS.sun = {
     lun: ["itaŋwa", "itaŋwa"],
     tsj: ["ngam", "ŋam"],
     lep: ["ᰠᰗᰪᰭ", "sətsɯk"],
+    mhy: ["mate andrau", "mate andrau"],
   },
 };

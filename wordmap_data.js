@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1165 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1166 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -5009,6 +5009,10 @@ const LANG_DATA = {
       good:   { evidence: 'direct', source: 'Brassett & Brassett (2005) — ngaq/ŋaʔ˧˥ "good"; rising tone with final glottal stop', formType: 'free-word' },
     }},
   nij: { name: 'Ngaju', native: 'Basa Ngaju', lat: -2.21, lng: 113.92, // Palangka Raya
+},
+  // Ma'anyan — Austronesian (Malayo-Polynesian, East Barito — the closest documented relative of Malagasy; the East Barito homeland of the Austronesian seafarers who settled Madagascar), ~150K, Indonesia (Central Kalimantan — Barito Timur / East Barito Regency around Tamiang Layang; some communities in South Kalimantan).
+  // Sources: Ethnologue 27 'mhy'; Glottolog maan1238; Gudai (1985) A Grammar of Maanyan; ABVD Ma'anyan wordlist (id 215).
+  mhy: { name: "Ma'anyan", native: "Ma'anyan", lat: -2.16, lng: 115.03, // Tamiang Layang, East Barito Regency, Central Kalimantan
 },
   sda: { name: "Toraja-Sa'dan", native: "Basa Toraya", lat: -2.97, lng: 119.90, // Rantepao
 },

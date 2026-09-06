@@ -1113,5 +1113,6 @@ WORDS.white = {
     lun: ["chitooka", "tʃitoːka"],
     tsj: ["balingmu", "baliŋmu"],
     lep: ["ᰣᰦᰌᰫᰮ", "ʔadum"],
+    mhy: ["mahilak", "mahilak"],
   },
 };

@@ -1231,5 +1231,6 @@ WORDS.mother = {
     lun: ["mama", "mama"],
     tsj: ["ama", "ama"],
     lep: ["ᰣᰦᰕᰫ", "ʔamu"],
+    mhy: ["ineh", "ineh"],
   },
 };

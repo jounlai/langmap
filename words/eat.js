@@ -1219,5 +1219,6 @@ WORDS.eat = {
     lun: ["kudya", "kudja"],
     tsj: ["zale", "zale"],
     lep: ["ᰙᰨ", "dzo"],
+    mhy: ["kuman", "kuman"],
   },
 };

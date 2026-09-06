@@ -865,5 +865,6 @@ WORDS.egg = {
     ers: ["tsɛ", "tsɛ"],
     lis: ["e-fu", "e˥˥fu˦˦"],
     atb: ["au", "a˨˩u˥˥"],
+    mhy: ["ateluy", "ateluy"],
   },
 };

@@ -1233,5 +1233,6 @@ WORDS.fish = {
     lun: ["mushi", "muʃi"],
     tsj: ["nga", "ŋa"],
     lep: ["ᰋᰨ", "ŋo"],
+    mhy: ["kenah", "kenah"],
   },
 };

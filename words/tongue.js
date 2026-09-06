@@ -1231,5 +1231,6 @@ WORDS.tongue = {
     lun: ["ludimi", "ludimi"],
     tsj: ["le", "le"],
     lep: ["ᰣᰜᰧ", "ali"],
+    mhy: ["lelaʔ", "lelaʔ"],
   },
 };

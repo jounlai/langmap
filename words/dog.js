@@ -1231,5 +1231,6 @@ WORDS.dog = {
     lun: ["kawa", "kawa"],
     tsj: ["khu", "kʰu"],
     lep: ["ᰀᰈᰫ", "kəʒu"],
+    mhy: ["antahuʔ", "antahuʔ"],
   },
 };

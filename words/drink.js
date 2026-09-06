@@ -1219,5 +1219,6 @@ WORDS.drink = {
     lun: ["kunwa", "kunwa"],
     tsj: ["jame", "dʑame"],
     lep: ["ᰋᰩᰵ", "tʰɔŋ"],
+    mhy: ["ŋoʔot", "ŋoʔot"],
   },
 };

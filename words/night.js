@@ -1230,5 +1230,6 @@ WORDS.night = {
     lun: ["wufuku", "wufuku"],
     tsj: ["binang", "binaŋ"],
     lep: ["ᰍᰱ", "nap"],
+    mhy: ["kamalem", "kamalem"],
   },
 };

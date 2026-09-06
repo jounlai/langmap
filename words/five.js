@@ -1089,5 +1089,6 @@ WORDS.five = {
     blk: ["ငါး", "ŋa"],
     tsj: ["nga", "ŋa"],
     lif: ["ᤅ", "ŋa"],
+    mhy: ["dime", "dime"],
   },
 };

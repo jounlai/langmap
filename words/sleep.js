@@ -913,5 +913,6 @@ WORDS.sleep = {
     luz: ["xawsidan", "xawsiˈdan"],
     p_jpn: ["*ne-", "ne"],
     pura: ["*oδa-", "oða"],
+    mhy: ["manreʔ", "manreʔ"],
   },
 };

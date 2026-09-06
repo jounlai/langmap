@@ -1226,5 +1226,6 @@ WORDS.tree = {
     lun: ["mutondu", "mutondu"],
     tsj: ["shing", "ɕiŋ"],
     lep: ["ᰀᰫᰵ", "kuŋ"],
+    mhy: ["kakaw", "kakaw"],
   },
 };

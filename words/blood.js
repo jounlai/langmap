@@ -1229,5 +1229,6 @@ WORDS.blood = {
     lun: ["mashi", "maʃi"],
     tsj: ["yi", "ji"],
     lep: ["ᰟᰧ", "vi"],
+    mhy: ["iraʔ", "iraʔ"],
   },
 };

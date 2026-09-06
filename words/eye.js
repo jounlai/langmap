@@ -1225,5 +1225,6 @@ WORDS.eye = {
     lun: ["disu", "disu"],
     tsj: ["ming", "miŋ"],
     lep: ["ᰣᰦᰕᰧᰭᰶ", "ʔamik"],
+    mhy: ["mate", "mate"],
   },
 };

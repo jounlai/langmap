@@ -1219,5 +1219,6 @@ WORDS.i = {
     lun: ["ami", "ami"],
     tsj: ["jang", "dʑaŋ"],
     lep: ["ᰃᰨ", "go"],
+    mhy: ["aku", "aku"],
   },
 };

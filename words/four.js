@@ -1075,5 +1075,6 @@ WORDS.four = {
     tiw: ["yatapinti", "jatapinti"],
     bru: ["pôn", "põːn"],
     wbp: ["jirrama-kari-jirrama-kari", "ɟiɾamakaɾiɟiɾamakaɾi"],
+    mhy: ["epat", "epat"],
   },
 };

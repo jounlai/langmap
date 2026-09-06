@@ -880,5 +880,6 @@ WORDS.wind = {
     sog: ["wāt", "waːt"],
     xpr: ["wād", "waːd"],
     kho: ["𑀩𑀸𑀢", "baːtæ"],
+    mhy: ["riwut", "riwut"],
   },
 };

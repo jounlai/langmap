@@ -1225,5 +1225,6 @@ WORDS.hand = {
     lun: ["chikasa", "tʃikasa"],
     tsj: ["gadang", "gadaŋ"],
     lep: ["ᰣᰦᰀᰶ", "ʔakə"],
+    mhy: ["taŋan", "taŋan"],
   },
 };

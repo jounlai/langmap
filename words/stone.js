@@ -915,5 +915,6 @@ WORDS.stone = {
     zh_xa: ["石头", "ʂɿ˨˦ tʰou"],
     zh_hf: ["石头", "ʂəʔ˦ tʰəu"],
     zh_nj: ["石头", "ʂʅʔ˥ tʰəɯ"],
+    mhy: ["watu", "watu"],
   },
 };

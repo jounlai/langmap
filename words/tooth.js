@@ -1249,5 +1249,6 @@ WORDS.tooth = {
     lun: ["izewu", "izewu"],
     tsj: ["sha", "ʃa"],
     lep: ["ᰣᰑᰨ", "afo"],
+    mhy: ["dipen", "dipen"],
   },
 };

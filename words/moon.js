@@ -1231,5 +1231,6 @@ WORDS.moon = {
     lun: ["kakweji", "kakwedʒi"],
     tsj: ["lanyingam", "laɲiŋam"],
     lep: ["ᰜᰦᰟᰨ", "lavo"],
+    mhy: ["wulan", "wulan"],
   },
 };

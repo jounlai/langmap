@@ -1219,5 +1219,6 @@ WORDS.name = {
     lun: ["ijina", "idʒina"],
     tsj: ["ming", "miŋ"],
     lep: ["ᰣᰦᰓᰥᰤᰦᰵ", "ʔabrjaŋ"],
+    mhy: ["ŋaran", "ŋaran"],
   },
 };

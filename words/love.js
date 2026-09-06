@@ -1226,5 +1226,6 @@ WORDS.love = {
     lun: ["kukeŋa", "kukeŋa"],
     tsj: ["phangpe", "pʰaŋpe"],
     lep: ["ᰣᰦᰆᰬ", "ʔace"],
+    mhy: ["hamen", "hamen"],
   },
 };

@@ -1219,5 +1219,6 @@ WORDS.hello = {
     lun: ["mwani", "mwani"],
     tsj: ["kuzuzangpo", "kuzuzaŋpo"],
     lep: ["ᰂᰦᰮᰛᰧᰶ", "kʰamri"],
+    mhy: ["tabe", "tabe"],
   },
 };

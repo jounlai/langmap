@@ -1237,5 +1237,6 @@ WORDS.one = {
     lun: ["wumu", "wumu"],
     tsj: ["thur", "tʰuɾ"],
     lep: ["ᰀᰦᰳ", "kat"],
+    mhy: ["isaʔ", "isaʔ"],
   },
 };

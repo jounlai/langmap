@@ -1219,5 +1219,6 @@ WORDS.star = {
     lun: ["katumbwa", "katumbwa"],
     tsj: ["karmamindu", "kaɾmamindu"],
     lep: ["ᰠᰝᰩᰲ", "səhɔr"],
+    mhy: ["wawahiaŋ", "wawahiaŋ"],
   },
 };

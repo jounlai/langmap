@@ -946,5 +946,6 @@ WORDS.nose = {
     // --- Ryukyuan — 鼻 keeps the old p- that mainland Japanese lost -----
     ja_mvi: ["鼻", "pana"],
     ja_rys: ["鼻", "pana"],
+    mhy: ["uruŋ", "uruŋ"],
   },
 };

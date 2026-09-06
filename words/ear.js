@@ -1028,5 +1028,6 @@ WORDS.ear = {
     otq: ["gu", "ɡu"],
     kgg: ["iyu", "iju"],
     naq: ["ǃgaes", "ǃɡaes"],
+    mhy: ["siluʔ", "siluʔ"],
   },
 };

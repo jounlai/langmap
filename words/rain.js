@@ -936,5 +936,6 @@ WORDS.rain = {
     p_sit: ["*r-wa", "r-wa"],
     puaz: ["*yuku", "juku"],
     gsw_w: ["Räge", "rɛɡə"],
+    mhy: ["uran", "uran"],
   },
 };

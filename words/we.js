@@ -72,6 +72,7 @@ WORDS.we = {
     gan_ja: "single",
     cjy_lv: "single",
     cjy_xz: "clusive",
+    mhy: "clusive",
     hsn_hy: "single",
     hsn_yz: "single",
     bla: "clusive",
@@ -2342,5 +2343,6 @@ WORDS.we = {
     lun: ["etu", "etu"],
     tsj: ["ai", "ai"],
     lep: ["ᰀᰦᰚᰫ", "kaju"],
+    mhy: ["takam", "takam"],
   },
 };

@@ -1226,5 +1226,6 @@ WORDS.house = {
     lun: ["itala", "itala"],
     tsj: ["phai", "pʰai"],
     lep: ["ᰜᰧᰶ", "li"],
+    mhy: ["lewuʔ", "lewuʔ"],
   },
 };

@@ -1017,5 +1017,6 @@ WORDS.earth = {
     // because Andvik calls Tshangla unwritten and this row is Latin throughout
     // (ri, lung, shing, nga) — the Tibetan ས་ would be an inferred spelling.
     tsj: ["sa", "sa"],
+    mhy: ["taneʔ", "taneʔ"],
   },
 };

@@ -1219,5 +1219,6 @@ WORDS.thanks = {
     lun: ["nasakalili", "nasakalili"],
     tsj: ["kadrinche", "kaɖintɕʰe"],
     lep: ["ᰀ᰷ᰥᰩᰭᰇᰧᰶ", "ʈɔkcʰi"],
+    mhy: ["tarima kasih", "tarima kasih"],
   },
 };

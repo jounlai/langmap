@@ -1226,5 +1226,6 @@ WORDS.red = {
     lun: ["chinana", "tʃinana"],
     tsj: ["tsalo", "tsalo"],
     lep: ["ᰠᰦᰵ", "saŋ"],
+    mhy: ["mariaŋ", "mariaŋ"],
   },
 };

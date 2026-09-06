@@ -1231,5 +1231,6 @@ WORDS.fire = {
     lun: ["kesi", "kesi"],
     tsj: ["mi", "mi"],
     lep: ["ᰕᰧ", "mi"],
+    mhy: ["apuy", "apuy"],
   },
 };

@@ -2738,4 +2738,21 @@ const LANG_NAMES = {
             }
         }
     }
+
+    // Pass 110: Ma'anyan (mhy) — East Barito Austronesian of Central Kalimantan,
+    // the closest documented relative of Malagasy.
+    const ADDED110 = {
+        mhy: { en: "Ma'anyan", ja: 'マアニャン語', ko: '마아냔어', zh: '玛阿尼安语', yue: '馬安延語',
+               vi: "Tiếng Ma'anyan", th: 'ภาษามาอันยัน', id: "Ma'anyan", hi: 'मानयान',
+               de: "Ma'anyan", fr: "Ma'anyan", it: "Ma'anyan",
+               es: "Ma'anyan", pt: "Ma'anyan",
+               ru: 'Маанянский', uk: 'Маанянська', ar: 'المأنيانية', he: 'מאאניאן', sw: 'Kimaanyan' },
+    };
+    for (const code of Object.keys(ADDED110)) {
+        for (const ui of Object.keys(ADDED110[code])) {
+            if (LANG_NAMES[ui] && LANG_NAMES[ui][code] === undefined) {
+                LANG_NAMES[ui][code] = ADDED110[code][ui];
+            }
+        }
+    }
 })();

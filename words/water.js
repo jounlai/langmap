@@ -1232,5 +1232,6 @@ WORDS.water = {
     lun: ["meji", "medʒi"],
     tsj: ["ri", "ɾi"],
     lep: ["ᰣᰫᰵ", "ʔuŋ"],
+    mhy: ["ranuʔ", "ranuʔ"],
   },
 };

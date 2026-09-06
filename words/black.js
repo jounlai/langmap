@@ -696,5 +696,6 @@ WORDS.black = {
     en_yk: ["black", "blak"],
     en_ck: ["black", "blæk"],
     vi_nom: ["顛", "ɗɛn˧˧"],
+    mhy: ["maʔintem", "maʔintem"],
   },
 };

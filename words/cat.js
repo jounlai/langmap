@@ -1219,5 +1219,6 @@ WORDS.cat = {
     lun: ["—", "—"],
     tsj: ["danyi", "daɲi"],
     lep: ["ᰣᰦᰜᰤᰫ", "ʔalju"],
+    mhy: ["using", "using"],
   },
 };

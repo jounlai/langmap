@@ -890,5 +890,6 @@ WORDS.bird = {
     ruq: ["pul'", "pulʲ"],
     fra_jer: ["ouaîsé", "wɛˈze"],
     nrf_gg: ["mouissaon", "muiˈsɔ̃"],
+    mhy: ["wuruŋ", "wuruŋ"],
   },
 };

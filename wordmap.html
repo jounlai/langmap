@@ -5287,12 +5287,16 @@
                 // because the gate removed the language before that
                 // (owner 2026-08-07, "Zoom率の問題で言語自体が表示されない").
                 const _panel = document.getElementById('lang-info');
-                const _forced = (_panel && _panel.classList.contains('visible'))
-                    ? _panel.dataset.code : null;
+                // Zoom-tier exemption set: the open lang-info modal's code, PLUS
+                // every language in the compare list — the compare picks must be
+                // visible at ANY zoom, not just when they clear the speaker gate
+                // (owner 2026-09-07: "Zoom率関係なく、比較に選べられた言語は表示").
+                const _exempt = new Set(window.__compareList || []);
+                if (_panel && _panel.classList.contains('visible') && _panel.dataset.code) _exempt.add(_panel.dataset.code);
                 for (const [code, lang] of Object.entries(LANG_DATA)) {
                     if (EXCLUDED_CODES.has(code)) continue;
                     if (!lang.words || !lang.words[wordId]) continue;
-                    if (tierMin > 0 && code !== _forced && langSpeakerCount(code) < tierMin) continue;
+                    if (tierMin > 0 && !_exempt.has(code) && langSpeakerCount(code) < tierMin) continue;
                     if (isUnattestedEntry(lang.words[wordId])) {
                         unattestedLangs.push(code);
                     } else {
@@ -5862,6 +5866,16 @@
                 if (_fc && visibleLangs.includes(_fc)
                     && !renderLangs.includes(_fc) && ppx[_fc]) {
                     renderLangs = renderLangs.concat([_fc]);
+                }
+                // Same guarantee for every compare-list language: survive the
+                // density thinning at every zoom so the compare picks always draw
+                // (owner 2026-09-07). getVisibleLangs already exempts them from the
+                // speaker-tier gate, so they're in visibleLangs; re-add any the
+                // priority pass dropped (viewport + projected only, like _fc).
+                for (const _cc of (window.__compareList || [])) {
+                    if (visibleLangs.includes(_cc) && !renderLangs.includes(_cc) && ppx[_cc]) {
+                        renderLangs = renderLangs.concat([_cc]);
+                    }
                 }
             }
 

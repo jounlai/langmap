@@ -876,6 +876,38 @@ Proto-Ryukyuan `pry`, Proto-Japonic-Koreanic `pjk`):
 - Validator `[#164]` enforces the surface-only rule for Latin-script
   reconstructions.
 
+#### Native-script surface — never fall back to Latin transliteration
+
+A language whose row is written in its own script must keep **every** cell in
+that script. Never seed a newly-added concept in Latin transliteration while
+the sibling cells of the same language carry the native script. This bit several
+recently-added cells — `honey egy "bj.t"`, `iron egy` (missing entirely),
+`honey/wind sux "làl"/"líl"`, `honey hit "milit"`, `white ave "spaēta"`,
+`i kho "aä"`, `ear/nose otk "qulqaq"/"burun"` — each a lone Latin outlier in a
+row whose other 30–50 cells were hieroglyphs / cuneiform / Avestan / Brahmi /
+Old Turkic runiform.
+
+- The affected set is the `native-script` codes in `wordmap_meta.js`. For these
+  the **surface** column must be the native script; the transliteration/IPA goes
+  in the **IPA** column only.
+- **Not** a defect: Latin-official modern languages (Uzbek `uz`, Karakalpak
+  `kaa`, Crimean Tatar `crh`) whose standard orthography IS Latin; and the
+  ancient rows that are transliteration **by uniform convention** across the
+  whole row (`akk`, `sog`, `xlu`, `pal`, `xqa`). The rule targets rows that are
+  MIXED — mostly native script with a stray Latin cell.
+- Audit command:
+  `grep the native-script codes for surfaces containing an ASCII letter and no
+  non-Latin script char`; a row that is otherwise native-script with 1–2 Latin
+  cells is the signal.
+- If the glyph is missing from a self-hosted font subset (the egy bee-sign was
+  left as `bj.t` for exactly this reason), add its codepoint to the subset
+  (`tools/build_historic_font_subsets.js` + the `unicode-range` list) rather
+  than leaving Latin. Most historic scripts (Egyptian, Cuneiform, Avestan, Old
+  Turkic…) load the full Noto font from Google Fonts and have no subset limit;
+  only Nôm Ext-B and the Brahmic subset (kho/txb/xto) are gated.
+- **Never invent glyphs.** If the native form cannot be sourced, leave `—`, not
+  a Latin stand-in.
+
 #### Verb forms (eat / drink / love)
 
 - **Default**: use the language's normal dictionary citation form.

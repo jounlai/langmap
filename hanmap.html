@@ -8131,32 +8131,41 @@
                     return true;
                 };
                 const _maxR = MAX_PUSH * 2.2;
-                // PASS 1 — co-located groups: stack the members as a single
-                // column CENTERED on the group centroid, so the marker dots
-                // (which sit at the members' true, ~coincident anchors ≈ the
-                // centroid) land BETWEEN the stacked labels rather than on top of
-                // the first one. Owner's rule: "赤い点2つは2つの言語の間に". Members
-                // are already N→S sorted. Spacing is the sum of adjacent half-
-                // heights (+gap via _hhOf's +4) so nothing overlaps.
+                // PASS 1 — only TRULY co-located labels (anchors within a few px)
+                // straddle their shared point, so the marker dots sit BETWEEN the
+                // stacked labels (owner: "赤い点2つは2つの言語の間に", "一つは客家語、
+                // もう一つは梅縣客家語"). This must NOT grab merely-nearby cities:
+                // an earlier version keyed off cellGroups (which merges adjacent
+                // cells), so a whole Fujian Min-Nan cluster got collapsed onto one
+                // centroid and 漳州閩南語 landed on 閩中語(永安) ~130px away. Cluster
+                // strictly by world-pixel proximity (pan-invariant) with a tight
+                // epsilon: coincident variants (客家語/梅縣客家語) group; distinct
+                // cities do not and fall through to the solo spiral below.
+                const _CO_EPS = 16;  // world px; ~"same point on screen" at this zoom
+                const _wp = {};
+                for (const c of _rendered) { const L = LANG_DATA[c]; if (L) _wp[c] = map.project([L.lat, L.lng], zoom); }
                 const _straddled = new Set();
-                const _seenGroup = new Set();
                 for (const c of _rendered) {
-                    const key = codeToCell[c];
-                    if (key == null || _seenGroup.has(key)) continue;
-                    const g = cellGroups[key];
-                    if (!g || g.length < 2) continue;
-                    _seenGroup.add(key);
-                    const mem = g.filter(m => _rendered.includes(m));
-                    if (mem.length < 2) continue;
-                    const cxG = groupMeanX[key], cyG = groupMeanY[key];
-                    const hhs = mem.map(m => _hhOf(m));
+                    if (_straddled.has(c) || !_wp[c]) continue;
+                    const cluster = [c];
+                    for (const d of _rendered) {
+                        if (d === c || _straddled.has(d) || !_wp[d]) continue;
+                        const dx = _wp[d].x - _wp[c].x, dy = _wp[d].y - _wp[c].y;
+                        if (dx * dx + dy * dy <= _CO_EPS * _CO_EPS) cluster.push(d);
+                    }
+                    if (cluster.length < 2) continue;
+                    cluster.sort((a, b) => ppx[a].y - ppx[b].y);  // N→S
+                    let sumX = 0, sumY = 0;
+                    for (const m of cluster) { sumX += ppx[m].x; sumY += ppx[m].y; }
+                    const cxG = sumX / cluster.length, cyG = sumY / cluster.length;
+                    const hhs = cluster.map(m => _hhOf(m));
                     let tot = 0; for (const hh of hhs) tot += 2 * hh;
                     let y = cyG - tot / 2;
-                    for (let i = 0; i < mem.length; i++) {
+                    for (let i = 0; i < cluster.length; i++) {
                         y += hhs[i];
-                        offsets[mem[i]] = { x: cxG - ppx[mem[i]].x, y: y - ppx[mem[i]].y };
+                        offsets[cluster[i]] = { x: cxG - ppx[cluster[i]].x, y: y - ppx[cluster[i]].y };
                         _placed.push({ x: cxG, y, hh: hhs[i] });
-                        _straddled.add(mem[i]);
+                        _straddled.add(cluster[i]);
                         y += hhs[i];
                     }
                 }

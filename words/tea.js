@@ -3,8 +3,16 @@
  *
  * PARTIAL WORD (🧪): almost every language's word for tea descends from one
  * of two routes out of China — overland "chá" (Silk Road) or seaborne "tê"
- * (Dutch trade) — with a rare third Latin-derived root (Polish herbata).
- * Each entry carries a `family` (cha | te | other) used for the route marker.
+ * (Dutch trade) — with a rare third Latin-derived root: Polish herbata, from
+ * a Dutch trading name where New Latin herba met thee, and Lithuanian arbata
+ * borrowed from the Polish.
+ * Burmese is a fourth case and was wrongly filed under the Latin one until a
+ * reader pointed it out. လက်ဖက်ရည် is လက်ဖက် "tea plant" + ရည် "liquid", and
+ * လက်ဖက် goes back to Proto-Sino-Tibetan *s-la 'leaf; tea' — the same etymon
+ * behind 茶 itself. Burma did not import a word for tea along either trade
+ * route; it kept the leaf's own name, which is why the row's fourth route is
+ * "neither route · the leaf itself" rather than "other".
+ * Each entry carries a `family` (cha | te | other | leaf) used for the route marker.
  * Forms verified + IPA via workflow; classification per Wikipedia "Etymology of tea".
  */
 WORDS.tea = {
@@ -326,7 +334,7 @@ WORDS.tea = {
     yo: "te",
     zu: "te",
     lt: "other",
-    my: "other",
+    my: "leaf",
     pl: "other",
   },
   // Route marker shown on each tea label (this concept only): which trade
@@ -335,6 +343,7 @@ WORDS.tea = {
     cha: { color: "#b45309", emoji: "🐫", en: "overland · Silk Road", ja: "陸路・シルクロード", ko: "육로 · 실크로드", zh: "陆路・丝绸之路", yue: "陸路 · 絲綢之路", vi: "đường bộ · Con đường Tơ lụa", th: "ทางบก · เส้นทางสายไหม", id: "jalur darat · Jalur Sutra", hi: "स्थल मार्ग · रेशम मार्ग", de: "Landweg · Seidenstraße", fr: "voie terrestre · route de la soie", it: "via terrestre · Via della Seta", es: "ruta terrestre · Ruta de la Seda", pt: "rota terrestre · Rota da Seda", ru: "по суше · Шёлковый путь", uk: "суходолом · Шовковий шлях", ar: "برًا · طريق الحرير", he: "ביבשה · דרך המשי", sw: "nchi kavu · Njia ya Hariri" },
     te: { color: "#0e7490", emoji: "⛵", en: "by sea · Dutch trade", ja: "海路・オランダ交易", ko: "해로 · 네덜란드 교역", zh: "海路・荷兰贸易", yue: "海路 · 荷蘭貿易", vi: "đường biển · thương mại Hà Lan", th: "ทางเรือ · การค้าดัตช์", id: "jalur laut · perdagangan Belanda", hi: "समुद्री मार्ग · डच व्यापार", de: "Seeweg · niederländischer Handel", fr: "voie maritime · commerce néerlandais", it: "via marittima · commercio olandese", es: "ruta marítima · comercio neerlandés", pt: "rota marítima · comércio holandês", ru: "по морю · голландская торговля", uk: "морем · голландська торгівля", ar: "بحرًا · التجارة الهولندية", he: "בים · הסחר ההולנדי", sw: "baharini · biashara ya Kiholanzi" },
     other: { color: "#6b7280", emoji: "🌿", en: "from Latin herba", ja: "ラテン語 herba 由来", ko: "라틴어 herba 유래", zh: "源自拉丁语 herba", yue: "源自拉丁文 herba", vi: "từ tiếng Latin herba", th: "จากภาษาละติน herba", id: "dari bahasa Latin herba", hi: "लैटिन herba से", de: "vom lateinischen herba", fr: "du latin herba", it: "dal latino herba", es: "del latín herba", pt: "do latim herba", ru: "от лат. herba", uk: "від лат. herba", ar: "من اللاتينية herba", he: "מלטינית herba", sw: "kutoka Kilatini herba" },
+    leaf: { color: "#4d7c0f", emoji: "🍃", en: "neither route · the leaf itself", ja: "どちらの経路でもない・葉そのもの", ko: "두 경로 어느 쪽도 아님 · 잎 그 자체", zh: "两条路线都不是・叶子本身", yue: "兩條路線都唔係・葉本身", vi: "không theo đường nào · chính là chiếc lá", th: "ไม่ใช่ทั้งสองเส้นทาง · ตัวใบเอง", id: "bukan salah satu jalur · daunnya sendiri", hi: "किसी मार्ग से नहीं · पत्ता ही", de: "keine der Routen · das Blatt selbst", fr: "ni l'une ni l'autre route · la feuille même", it: "nessuna delle due rotte · la foglia stessa", es: "ninguna de las dos rutas · la hoja misma", pt: "nenhuma das rotas · a própria folha", ru: "ни один из путей · сам лист", uk: "жоден із шляхів · сам листок", ar: "لا هذا الطريق ولا ذاك · الورقة نفسها", he: "לא זה ולא זה · העלה עצמו", sw: "si njia yoyote kati ya hizo · jani lenyewe" },
   },
   data: {
       kwa: ["—","—"],

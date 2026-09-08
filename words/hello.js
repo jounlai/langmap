@@ -324,6 +324,7 @@ WORDS.hello = {
     th_s: ["สวัสดี", "sa˨˩wat˨˩diː˥"],
     za: ["mwngz ndei", "mɯŋ˧˥dei˨˦"],
     kmc: ["—", "—"],
+    giq: ["—", "—"],
     hmn: ["nyob zoo", "ɲɔ˥˥ʒɔ˧"],
     jv: ["halo", "halo"],
     jvn: ["halo", "halo"],

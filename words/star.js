@@ -324,6 +324,7 @@ WORDS.star = {
       th_s: ["ดาว", "daːw˧"],
       za: ["ndaundeiq", "ɗaːu˨˦ɗei˧˥"],
       kmc: ["ɕət55", "ɕət˥˥"],
+      giq: ["lei31 tsu33", "lei˧˩ tsu˧˧"],
       hmn: ["hnub qub", "n̥u˥ qu˥"],
       jv: ["lintang", "lintaŋ"],
       jvn: ["lintang", "lintaŋ"],

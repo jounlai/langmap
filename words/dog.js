@@ -324,6 +324,7 @@ WORDS.dog = {
     th_s: ["หมา", "maː˩˧"],
     za: ["ma", "maː˨˦"],
     kmc: ["ŋwa35", "ŋwa˧˥"],
+    giq: ["mpau33", "mpau˧˧"],
     hmn: ["dev", "tɛ˨˦"],
     jv: ["asu", "asu"],
     jvn: ["asu", "asu"],

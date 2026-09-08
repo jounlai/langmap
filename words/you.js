@@ -324,6 +324,7 @@ WORDS.you = {
       th_s: ["สู", "suː˩"],
       za: ["mwngz", "mɯŋ˧˩"],
       kmc: ["ɲa212", "ɲa˨˩˨"],
+      giq: ["mu31", "mu˧˩"],
       hmn: ["koj", "kɔ˥˧"],
       jv: ["kowe", "kowe"],
       jvn: ["kowe", "kɔwe"],

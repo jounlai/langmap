@@ -125,6 +125,10 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // áːmã́ (Uchihara, A Reference Grammar of Oklahoma Cherokee, p. 57, via
 // en.wiktionary's two etymologies at ᎠᎹ). The IPA fields differ; only the
 // surfaces collide, which is the honest state of the writing system.
+// giq blood = red = plɒ24. Gelao builds 'red' on the word for blood: the
+// Zhenfeng list writes it as the compound pja42 ɕi35 on the same root, and the
+// Wanzi list this row uses gives the bare root for both. The language's, not
+// the transcription's.
 // itb five = hand = lima. Not an error and not a writing-system accident:
 // Austronesian *lima is 'five' AND 'hand', and Itbayaten keeps both senses
 // on the one form (Reid 1971 gives limaʔ for each). agt carries the same

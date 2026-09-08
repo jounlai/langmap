@@ -324,6 +324,7 @@ WORDS.good = {
     th_s: ["ดี", "diː˥"],
     za: ["ndei", "dei˨˦"],
     kmc: ["lai55", "lai˥˥"],
+    giq: ["ɒ33", "ɒ˧˧"],
     hmn: ["zoo", "ʒɔ̃˧"],
     jv: ["apik", "apik"],
     jvn: ["apik", "apik"],

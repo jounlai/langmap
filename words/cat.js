@@ -324,6 +324,7 @@ WORDS.cat = {
     th_s: ["แมว", "mɛːw˥"],
     za: ["meuz", "meu˧˩"],
     kmc: ["—", "—"],
+    giq: ["—", "—"],
     hmn: ["miv", "mi˨˦"],
     jv: ["kucing", "kutʃiŋ"],
     jvn: ["kucing", "kutʃiŋ"],

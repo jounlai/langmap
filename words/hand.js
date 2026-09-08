@@ -324,6 +324,7 @@ WORDS.hand = {
     th_s: ["มือ", "mɯː˥"],
     za: ["fwngz", "fɯŋ˧˩"],
     kmc: ["mja212", "mja˨˩˨"],
+    giq: ["mpau44", "mpau˦˦"],
     hmn: ["tes", "tɛ˨˩"],
     jv: ["tangan", "taŋan"],
     jvn: ["tangan", "taŋan"],

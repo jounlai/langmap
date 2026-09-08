@@ -324,6 +324,7 @@ WORDS.thanks = {
     th_s: ["ขอบคุณ", "kʰɔːp˨˩kʰun˥"],
     za: ["dwgrengz mwngz", "tɯk˧ɣeŋ˧˥mɯŋ˧˥"],
     kmc: ["—", "—"],
+    giq: ["—", "—"],
     hmn: ["ua tsaug", "ua˧tɕɑu˦˨ʱ"],
     jv: ["matur nuwun", "matur nuwun"],
     jvn: ["matur nuwun", "matur nuwun"],

@@ -330,6 +330,7 @@ WORDS.tongue = {
     th_s: ["ลิ้น", "lin˦˥"],
     za: ["linx", "lin˦˨"],
     kmc: ["ma212", "ma˨˩˨"],
+    giq: ["p'i55 te24", "p'i˥˥ te˨˦"],
     hmn: ["nplaig", "mplai˧˩"],
     jv: ["ilat", "ilat"],
     jvn: ["ilat", "ilat"],

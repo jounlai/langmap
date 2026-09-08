@@ -324,6 +324,7 @@ WORDS.eat = {
     th_s: ["กิน", "kin˥"],
     za: ["gwn", "kɯn˨˦"],
     kmc: ["tɕan55", "tɕan˥˥"],
+    giq: ["xɒ33", "xɒ˧˧"],
     hmn: ["noj", "nɔ˥˨"],
     jv: ["mangan", "maŋan"],
     jvn: ["mangan", "maŋan"],

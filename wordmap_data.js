@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1169 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1170 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1068,6 +1068,12 @@ const LANG_DATA = {
   // 2.9M-strong Dong nationality; the 1958 Latin orthography is built on
   // the Rongjiang (Zhanglu) speech, which is this branch.
   kmc: { name: 'Southern Dong (Kam)', native: 'Gaeml', lat: 25.89, lng: 109.22, // Rongjiang, Qiandongnan, Guizhou
+},
+  // Gelao — the Kra branch of Kra-Dai, the family's most divergent arm and
+  // sister to Tai and Kam-Sui. ~550K Gelao nationality, but only a few
+  // thousand speakers of the language; the lects differ so much they are
+  // often counted separately (Green / Red / White Gelao).
+  giq: { name: 'Green Gelao', native: 'Hagei', lat: 26.25, lng: 105.95, // Wanzi, Anshun, Guizhou
 },
   jv: { name: 'Javanese', native: 'ꦧꦱꦗꦮ', lat: -7.25, lng: 112.75,
 },

@@ -324,6 +324,7 @@ WORDS.father = {
     th_s: ["พ่อ", "pʰɔː˥˩"],
     za: ["boh", "po˧"],
     kmc: ["pu31", "pu˧˩"],
+    giq: ["mɒ13", "mɒ˩˧"],
     hmn: ["txiv", "tɕi˨˦"],
     jv: ["bapak", "bapak"],
     jvn: ["pak", "paʔ"],

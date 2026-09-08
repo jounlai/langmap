@@ -249,6 +249,7 @@ WORDS.five = {
     th_s: ["ห้า", "haː˥˩"],
     za: ["haj", "haː˧"],
     kmc: ["ŋo31", "ŋo˧˩"],
+    giq: ["mpu44", "mpu˦˦"],
     hmn: ["tsib", "tsi˦"],
     jv: ["lima", "lɪmɔ"],
     jvn: ["lima", "lima"],

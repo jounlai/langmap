@@ -348,6 +348,7 @@ WORDS.tooth = {
     th_s: ["ฟัน", "fan˧"],
     za: ["heuj", "hɐu˧˥"],
     kmc: ["pjɐn55", "pjɐn˥˥"],
+    giq: ["pan33", "pan˧˧"],
     hmn: ["hniav", "n̥ia˨˦"],
     jv: ["untu", "untu"],
     jvn: ["untu", "untu"],

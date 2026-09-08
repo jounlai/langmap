@@ -325,6 +325,7 @@ WORDS.red = {
     th_s: ["แดง", "dɛːŋ˧"],
     za: ["nding", "ndiŋ˨˦"],
     kmc: ["ja453", "ja˦˥˧"],
+    giq: ["plɒ24", "plɒ˨˦"],
     hmn: ["liab", "liə˥"],
     jv: ["abang", "abaŋ"],
     jvn: ["abang", "abaŋ"],

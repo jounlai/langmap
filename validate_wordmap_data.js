@@ -908,8 +908,16 @@ for (const code of codes) {
             //   entries), Glosbe, and the Kam Wikipedia article's vocabulary
             //   tables. Needs Long Yaohong & Zheng Guoqiao's Dong-Chinese
             //   dictionary, print-only.
+            //   giq.{cat,heart,love,hello,thanks,tree} — Green Gelao, same
+            //   Swadesh-shaped gap as kmc, plus 'tree': the Wanzi list this row
+            //   uses has no stick/wood entry. The Zhenfeng and Sanchong lists do,
+            //   but they are different lects — Gelao varieties diverge enough to
+            //   be counted as separate languages — so borrowing one cell across
+            //   them would make the row's correspondences unreadable. Needs a
+            //   Gelao dictionary; the language is unwritten and has ~3K speakers.
             const MODERN_UNSOURCED_ALLOW = {
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
+                giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ker: new Set(['red']),

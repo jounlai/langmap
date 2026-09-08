@@ -290,6 +290,7 @@ WORDS.white = {
     th_s: ["ขาว", "kʰaːw"],
     za: ["hau", "haːu"],
     kmc: ["pak31", "pak˧˩"],
+    giq: ["zu24", "zu˨˦"],
     hmn: ["dawb", "taɨ"],
     jv: ["putih", "putɪh"],
     jvn: ["putih", "putih"],

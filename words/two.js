@@ -324,6 +324,7 @@ WORDS.two = {
       th_s: ["สอง", "sɔːŋ˩"],
       za: ["song", "θoːŋ˨˦"],
       kmc: ["ja323", "ja˧˨˧"],
+      giq: ["su33", "su˧˧"],
       hmn: ["ob", "ʔɔ˥"],
       jv: ["loro", "loro"],
       jvn: ["loro", "lɔrɔ"],

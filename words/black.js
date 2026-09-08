@@ -379,6 +379,7 @@ WORDS.black = {
     sukh: ["ดำ", "dam"],
     za: ["ndaem", "ndam˧"],
     kmc: ["nɐm55", "nɐm˥˥"],
+    giq: ["lan33", "lan˧˧"],
     tyz: ["đăm", "dam˧"],
     nut: ["đăm", "dam˧"],
     mas: ["narok", "narok"],

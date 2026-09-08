@@ -67,6 +67,7 @@ WORDS.hundred = {
     vi: ["trăm", "tɕam˧"],
     th: ["ร้อย", "rɔːj˦˥"],
     kmc: ["pek323", "pek˧˨˧"],
+    giq: ["tɕin33", "tɕin˧˧"],
     id: ["seratus", "səratus"],
     hi: ["सौ", "sɔː"],
     de: ["hundert", "ˈhʊndɐt"],

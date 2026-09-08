@@ -324,6 +324,7 @@ WORDS.heart = {
     th_s: ["ใจ", "tɕaj˥"],
     za: ["sim", "sim˨˦"],
     kmc: ["—", "—"],
+    giq: ["—", "—"],
     hmn: ["siab", "ɕia˥˥"],
     jv: ["ati", "ati"],
     jvn: ["ati", "ati"],

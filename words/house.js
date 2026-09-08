@@ -1055,6 +1055,7 @@ WORDS.house = {
     sad: ["ge", "ɡe"],
     pcc: ["ranz", "raŋ˩˩"],
     kmc: ["jan212", "jan˨˩˨"],
+    giq: ["qə33", "qə˧˧"],
     ium: ["biauv", "biau˦"],
     hui: ["anda", "anda"],
     tkl: ["fale", "fale"],

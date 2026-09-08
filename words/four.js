@@ -946,6 +946,7 @@ WORDS.four = {
     soa: ["สี่", "siː"],
     za: ["seiq", "θei˧˥"],
     kmc: ["si453", "si˦˥˧"],
+    giq: ["pu33", "pu˧˧"],
     hmn: ["plaub", "plau˥"],
     mn_cn: ["ᠳᠥᠷᠪᠡ", "dørwə"],
     xng: ["ᠳᠥᠷᠪᠡᠨ", "dørben"],

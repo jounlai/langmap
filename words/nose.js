@@ -211,6 +211,7 @@ WORDS.nose = {
     th_n: ["ดัง", "daŋ"],
     th_s: ["จมูก", "tɕamùːk"],
     za: ["ndaeng", "ɗaːŋ"],
+    kmc: ["mɐŋ55", "mɐŋ˥˥"],
     hmn: ["ntswg", "ⁿʈʂɨ"],
     jv: ["irung", "iruŋ"],
     jvn: ["irung", "iruŋ"],

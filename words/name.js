@@ -323,6 +323,7 @@ WORDS.name = {
       th_n: ["จื้อ", "tɕɯː˧"],
       th_s: ["ชื่อ", "tɕʰɯː˧"],
       za: ["coh", "ɕo˧"],
+      kmc: ["kwan55", "kwan˥˥"],
       hmn: ["npe", "mbe˧"],
       jv: ["jeneng", "dʒənəŋ"],
       jvn: ["jeneng", "dʒənəŋ"],

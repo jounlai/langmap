@@ -945,6 +945,7 @@ WORDS.four = {
     ko_jeju: ["늿", "nit̚"],
     soa: ["สี่", "siː"],
     za: ["seiq", "θei˧˥"],
+    kmc: ["si453", "si˦˥˧"],
     hmn: ["plaub", "plau˥"],
     mn_cn: ["ᠳᠥᠷᠪᠡ", "dørwə"],
     xng: ["ᠳᠥᠷᠪᠡᠨ", "dørben"],

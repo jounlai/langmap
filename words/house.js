@@ -1054,6 +1054,7 @@ WORDS.house = {
     blc: ["—", "—"],
     sad: ["ge", "ɡe"],
     pcc: ["ranz", "raŋ˩˩"],
+    kmc: ["jan212", "jan˨˩˨"],
     ium: ["biauv", "biau˦"],
     hui: ["anda", "anda"],
     tkl: ["fale", "fale"],

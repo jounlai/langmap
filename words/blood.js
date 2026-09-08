@@ -327,6 +327,7 @@ WORDS.blood = {
     th_n: ["เลือด", "lɯat˥˧"],
     th_s: ["เลือด", "lɯat˥˩"],
     za: ["lwed", "luət˧˧"],
+    kmc: ["phat13", "phat˩˧"],
     hmn: ["ntshav", "ntsʰa˨˩"],
     jv: ["getih", "ɡətih"],
     jvn: ["getih", "ɡətih"],

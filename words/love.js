@@ -1054,6 +1054,7 @@ WORDS.love = {
     blc: ["—", "—"],
     sad: ["kalokisi", "kalokisi"],
     pcc: ["gaais", "ɡaːi˥˧"],
+    kmc: ["—", "—"],
     ium: ["hnamv", "hnam˦"],
     hui: ["hando", "hando"],
     tkl: ["alofa", "alofa"],

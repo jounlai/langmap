@@ -325,6 +325,7 @@ WORDS.fish = {
     th_n: ["ปลา", "paː˧"],
     th_s: ["ปลา", "plaː˧"],
     za: ["bya", "pjaː˨˦"],
+    kmc: ["pa55", "pa˥˥"],
     hmn: ["ntses", "ntses˨˩"],
     jv: ["iwak", "ˈiwaʔ"],
     jvn: ["iwak", "ˈiwaʔ"],

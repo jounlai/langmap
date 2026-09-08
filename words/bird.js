@@ -215,6 +215,7 @@ WORDS.bird = {
     th_n: ["นก", "nók"],
     th_s: ["นก", "nók"],
     za: ["roeg", "ɣok"],
+    kmc: ["mok21", "mok˨˩"],
     hmn: ["noog", "nɔ̃ŋ"],
     jv: ["manuk", "manʊʔ"],
     jvn: ["manuk", "manʊʔ"],

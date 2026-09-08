@@ -24,8 +24,8 @@
     "hash": "59c80d2e11243e21"
   },
   "lang_names/en.js": {
-    "version": 157,
-    "hash": "b47e760eda172f44"
+    "version": 158,
+    "hash": "5c1868b0d8329abf"
   },
   "lang_names_shim.js": {
     "version": 2,
@@ -80,11 +80,11 @@
     "hash": "b786b089502dc1fe"
   },
   "word_manifest.js": {
-    "version": 400,
+    "version": 402,
     "hash": "911fd1b40a6f80ea"
   },
   "wordmap_data.js": {
-    "version": 303,
-    "hash": "f7f09c42027cac85"
+    "version": 304,
+    "hash": "f799276c5e000022"
   }
 }

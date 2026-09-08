@@ -900,7 +900,16 @@ for (const code of codes) {
             //   Itbayaten and no cat), and Webonary (403). Settling them needs
             //   Yamada, Itbayat-English Dictionary (1998) and an Ivatan
             //   dictionary (Hidalgo & Hidalgo 1971), both print-only.
+            //   kmc.{cat,heart,love,hello,thanks} — Southern Dong. Same shape
+            //   as ivv/itb: the row comes from a comparative wordlist (ABVD's
+            //   210 Swadesh-style concepts via Long & Zheng), which carries no
+            //   CAT, no HEART — it has LIVER, a different organ — no LOVE and
+            //   no greetings. Checked besides: English Wiktionary (no Dong
+            //   entries), Glosbe, and the Kam Wikipedia article's vocabulary
+            //   tables. Needs Long Yaohong & Zheng Guoqiao's Dong-Chinese
+            //   dictionary, print-only.
             const MODERN_UNSOURCED_ALLOW = {
+                kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ker: new Set(['red']),

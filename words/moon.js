@@ -1053,6 +1053,7 @@ WORDS.moon = {
     blc: ["tlʼuk", "tɬʼuk"],
     sad: ["tsoa", "tsoa"],
     pcc: ["ronh", "roːn˧˩"],
+    kmc: ["kwaŋ55 ɲan55", "kwaŋ˥˥ ɲan˥˥"],
     ium: ["hlaax", "hlaː˨˧"],
     hui: ["hina", "hina"],
     tkl: ["malama", "malama"],

@@ -527,6 +527,7 @@ WORDS.rain = {
     sd: ["مینھن", "miːɦən"],
     ks: ["رُود", "ruːd"],
     za: ["fwn", "fɯn˥"],
+    kmc: ["pjən55", "pjən˥˥"],
     iu: ["ᓯᐊᓗᒃ", "sialuk"],
     kl: ["sialuk", "sialuk"],
     pap: ["yobida", "jobida"],

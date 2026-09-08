@@ -1054,6 +1054,7 @@ WORDS.water = {
     blc: ["qla", "qla"],
     sad: ["tsʼa", "tsʼa"],
     pcc: ["raamx", "raːm˧˩"],
+    kmc: ["nɐm31", "nɐm˧˩"],
     ium: ["wuom", "wuom˧"],
     hui: ["iba", "iba"],
     tkl: ["vai", "vai"],

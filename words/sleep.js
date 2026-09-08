@@ -196,6 +196,7 @@ WORDS.sleep = {
     bo: ["ཉལ", "ɲäː"],
     th_isan: ["นอน", "nɔːn"],
     za: ["ninz", "nin˧"],
+    kmc: ["nun212", "nun˨˩˨"],
     hmn: ["pw", "pɨ˧"],
     jv: ["turu", "turu"],
     jvn: ["turu", "turu"],

@@ -323,6 +323,7 @@ WORDS.i = {
       th_n: ["ตู", "tuː˩"],
       th_s: ["ฉาน", "tɕʰaːn˦"],
       za: ["gou", "kou˨˦"],
+      kmc: ["jau212", "jau˨˩˨"],
       hmn: ["kuv", "ku˨˦"],
       jv: ["aku", "aku"],
       jvn: ["aku", "aku"],

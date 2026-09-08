@@ -323,6 +323,7 @@ WORDS.eye = {
     th_n: ["ต๋า", "taː˩˧"],
     th_s: ["ตา", "taː˥"],
     za: ["da", "taː˨˦"],
+    kmc: ["ta55", "ta˥˥"],
     hmn: ["qhov muag", "qʰɔ˨˦mua˦˨ʱ"],
     jv: ["mripat", "mripat"],
     jvn: ["mripat", "mripat"],

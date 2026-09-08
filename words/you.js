@@ -323,6 +323,7 @@ WORDS.you = {
       th_n: ["ตั๋ว", "tua˩˩˦"],
       th_s: ["สู", "suː˩"],
       za: ["mwngz", "mɯŋ˧˩"],
+      kmc: ["ɲa212", "ɲa˨˩˨"],
       hmn: ["koj", "kɔ˥˧"],
       jv: ["kowe", "kowe"],
       jvn: ["kowe", "kɔwe"],

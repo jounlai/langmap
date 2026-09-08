@@ -1053,6 +1053,7 @@ WORDS.mother = {
     blc: ["—", "—"],
     sad: ["yei", "jei"],
     pcc: ["meeh", "meː˧˩"],
+    kmc: ["nɐi31", "nɐi˧˩"],
     ium: ["maa", "maː˧"],
     hui: ["ainya", "aiɲa"],
     tkl: ["mātua", "maːtua"],

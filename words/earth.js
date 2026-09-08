@@ -590,6 +590,7 @@ WORDS.earth = {
     alt: ["јер", "dʒer"],
     krc: ["топракъ", "topɾaq"],
     za: ["doem", "tɤm"],
+    kmc: ["nam33", "nam˧˧"],
     ab: ["анышә", "anəʃʷ"],
     vi_nom: ["𡐙", "ɗət˧˥"],
     de_lu: ["Äerd", "eːrt"],

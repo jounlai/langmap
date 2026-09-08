@@ -224,6 +224,7 @@ WORDS.stone = {
     th_n: ["หิน", "hin˨˦"],
     th_s: ["หิน", "hin˩˩˦"],
     za: ["rin", "ɣin˨˦"],
+    kmc: ["pja55", "pja˥˥"],
     hmn: ["pob zeb", "pɔ˥ ʒɛ˥"],
     jv: ["watu", "ˈwatu"],
     jvn: ["watu", "watu"],

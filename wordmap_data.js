@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1168 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1169 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1063,6 +1063,11 @@ const LANG_DATA = {
       good:   { evidence: 'inferred', source: 'Sawcuengh Latin "ndei" retained — no specific Sawndip glyph confidently sourced from za.wikipedia.org Ndei article (which renders content in Sawcuengh romanization only).' },
     } },
   hmn: { name: 'Hmong', native: 'Hmoob', lat: 26.65, lng: 104.25,
+},
+  // Southern Dong (Kam) — Kra-Dai > Tai-Kadai > Kam-Sui, ~1.5M of the
+  // 2.9M-strong Dong nationality; the 1958 Latin orthography is built on
+  // the Rongjiang (Zhanglu) speech, which is this branch.
+  kmc: { name: 'Southern Dong (Kam)', native: 'Gaeml', lat: 25.89, lng: 109.22, // Rongjiang, Qiandongnan, Guizhou
 },
   jv: { name: 'Javanese', native: 'ꦧꦱꦗꦮ', lat: -7.25, lng: 112.75,
 },

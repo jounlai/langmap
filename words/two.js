@@ -258,6 +258,7 @@ WORDS.two = {
       bxr: ["хоёр", "xɔˈjɔr"],
       mvf: ["ghoor", "ʁoːr"],
       evn: ["дюр", "dʒuːr"],
+      orh: ["dʒuur", "dʒuur"],
       eve: ["дёр", "dʲoːr"],
       gld: ["дюэр", "dʒuˈər"],
       ude: ["дюэ", "dʒuˈə"],

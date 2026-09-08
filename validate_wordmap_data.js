@@ -923,11 +923,17 @@ for (const code of codes) {
             //   peh.{cat,heart,love,hello,thanks} — Bonan, the same five, from
             //   the same cause: Liu Zhaoxiong's 保安语简志 wordlist is Swadesh-
             //   shaped. Unwritten language, ~6K speakers, no online lexicon.
+            //   orh.{cat,father,mother,love,hello,thanks} — Oroqen. father and
+            //   mother are unusual entries on this list, and the reason is the
+            //   source: the only dataset that carries Oroqen is a sound-symbolism
+            //   survey, which has BIG/SMALL/ROUND but no kinship terms at all.
+            //   ~1.2K speakers, unwritten. Needs 鄂伦春语简志 (Hu Zengyi 1986).
             const MODERN_UNSOURCED_ALLOW = {
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
+                orh: new Set(['cat', 'father', 'mother', 'love', 'hello', 'thanks']),
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ker: new Set(['red']),

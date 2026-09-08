@@ -198,6 +198,7 @@ WORDS.five = {
     bxr: ["таба", "taba"],
     mvf: ["tawun", "tawuŋ"],
     evn: ["тунӈа", "tunŋa"],
+    orh: ["tʊŋŋa", "tʊŋŋa"],
     eve: ["тунӈан", "tunŋan"],
     gld: ["тойнга", "toɪŋa"],
     yrk: ["самляӈг", "samlʲaŋ"],

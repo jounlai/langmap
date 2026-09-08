@@ -258,6 +258,7 @@ WORDS.moon = {
     bxr: ["һара", "hara"],
     mvf: ["sara", "sara"],
     evn: ["бега", "beɡa"],
+    orh: ["bɛga", "bɛga"],
     eve: ["бяг", "bjaɡ"],
     gld: ["биа", "bia"],
     ude: ["биа", "bia"],

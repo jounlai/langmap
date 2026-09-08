@@ -258,6 +258,7 @@ WORDS.good = {
     bxr: ["һайн", "hajn"],
     mvf: ["sain", "sain"],
     evn: ["ая", "aja"],
+    orh: ["aja", "aja"],
     eve: ["ай", "aj"],
     gld: ["ая", "aja"],
     ude: ["ая", "aja"],

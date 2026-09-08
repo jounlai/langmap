@@ -258,6 +258,7 @@ WORDS.mother = {
     bxr: ["эхэ", "exe"],
     mvf: ["ana", "ana"],
     evn: ["эни", "eni"],
+    orh: ["—", "—"],
     eve: ["эньэн", "eɲen"],
     gld: ["энин", "enin"],
     ude: ["энэ", "ene"],

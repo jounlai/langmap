@@ -258,6 +258,7 @@ WORDS.star = {
       bxr: ["одон", "oˈdõ"],
       mvf: ["hodi", "xoˈdi"],
       evn: ["осикта", "oˈsikta"],
+      orh: ["ɔʃɪkta", "ɔʃɪkta"],
       eve: ["осикат", "oˈsikat"],
       gld: ["хосякта", "xoˈsʲakta"],
       ude: ["ваикта", "ˈwaikta"],

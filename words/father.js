@@ -258,6 +258,7 @@ WORDS.father = {
     bxr: ["эсэгэ", "eseɡe"],
     mvf: ["ada", "ada"],
     evn: ["амин", "amin"],
+    orh: ["—", "—"],
     eve: ["аман", "aman"],
     gld: ["ама", "ama"],
     ude: ["амэ", "amə"],

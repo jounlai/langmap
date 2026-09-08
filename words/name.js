@@ -258,6 +258,7 @@ WORDS.name = {
       bxr: ["нэрэ", "nere"],
       mvf: ["nere", "nərə"],
       evn: ["гэрбӣ", "gərˈbiː"],
+      orh: ["gərbi", "gərbi"],
       eve: ["гэрбэ", "gərˈbə"],
       gld: ["гэрбу", "gərˈbu"],
       ude: ["гэгбэ", "gəgˈbə"],

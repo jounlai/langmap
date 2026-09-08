@@ -258,6 +258,7 @@ WORDS.i = {
       bxr: ["би", "bi"],
       mvf: ["bu", "bu"],
       evn: ["би", "bi"],
+      orh: ["bii", "bii"],
       eve: ["би", "bi"],
       gld: ["ми", "mi"],
       ude: ["би", "bi"],

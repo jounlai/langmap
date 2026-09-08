@@ -258,6 +258,7 @@ WORDS.eye = {
     bxr: ["нюдэн", "nʲuden"],
     mvf: ["nidu", "nidu"],
     evn: ["эса", "esa"],
+    orh: ["jɛɛʃa", "jɛɛʃa"],
     eve: ["яса", "jasa"],
     gld: ["насал", "nasal"],
     ude: ["яа", "jaː"],

@@ -258,6 +258,7 @@ WORDS.dog = {
     bxr: ["нохой", "noxoj"],
     mvf: ["noghui", "noʁui"],
     evn: ["нгинакин", "ŋinakin"],
+    orh: ["ŋanakin", "ŋanakin"],
     eve: ["нгин", "ŋin"],
     gld: ["инда", "inda"],
     ude: ["инай", "inaj"],

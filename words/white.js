@@ -231,6 +231,7 @@ WORDS.white = {
     bxr: ["сагаан", "saɡaːŋ"],
     mvf: ["qighaan", "tɕiʁaːn"],
     evn: ["багдарин", "baɡdarin"],
+    orh: ["bagdarɪn", "bagdarɪn"],
     eve: ["нё̄бати", "ɲoːbati"],
     gld: ["ча̄гдян", "tʃaːɡdʲan"],
     ude: ["чалиги", "tʃaliɡi"],

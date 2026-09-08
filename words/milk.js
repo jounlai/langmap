@@ -634,6 +634,7 @@ WORDS.milk = {
     zh_kf: ["牛奶", "niou˦˨ nai˥˧"],
     zh_nj: ["牛奶", "liəɯ˨˦ lɛ˨˩˨"],
     evn: ["укумни", "ukumni"],
+    orh: ["ukun", "ukun"],
     eve: ["өкэнь", "økəɲ"],
     yrk: ["молока", "molaka"],
     enf: ["molka", "molka"],

@@ -264,6 +264,7 @@ WORDS.tongue = {
     bxr: ["хэлэн", "xelen"],
     mvf: ["khel", "xəl"],
     evn: ["инни", "inni"],
+    orh: ["iŋi", "iŋi"],
     eve: ["сиӈэ", "siŋə"],
     gld: ["сиӈму", "siŋmu"],
     ude: ["иӈи", "iŋi"],

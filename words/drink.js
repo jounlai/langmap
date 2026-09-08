@@ -258,6 +258,7 @@ WORDS.drink = {
     bxr: ["ууха", "uːxa"],
     mvf: ["uu-", "uː"],
     evn: ["умӣ", "umiː"],
+    orh: ["um", "um"],
     eve: ["ум", "um"],
     gld: ["омичи", "omitʃi"],
     ude: ["омимэ", "omimə"],

@@ -258,6 +258,7 @@ WORDS.cat = {
     bxr: ["миисгэй", "miːsɡej"],
     mvf: ["mau", "mau"],
     evn: ["кошка", "koʂka"],
+    orh: ["—", "—"],
     eve: ["кошка", "koʂka"],
     gld: ["коси", "kosi"],
     ude: ["кошк", "koʃk"],

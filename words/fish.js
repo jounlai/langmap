@@ -260,6 +260,7 @@ WORDS.fish = {
     bxr: ["загаһан", "zaɡaˈhaŋ"],
     mvf: ["jiagas", "dʒiaɡas"],
     evn: ["олло", "ollo"],
+    orh: ["ɔlɔ", "ɔlɔ"],
     eve: ["олра", "olra"],
     gld: ["согдата", "sɔɡdata"],
     ude: ["сугдя", "suɡdʑa"],

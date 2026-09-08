@@ -259,6 +259,7 @@ WORDS.red = {
     bxr: ["улаан", "ʊˈlaːŋ"],
     mvf: ["ulaan", "ulaːn"],
     evn: ["хо̄лбама", "xoːlbama"],
+    orh: ["ʊlaarɪn", "ʊlaarɪn"],
     eve: ["хуларин", "xularin"],
     gld: ["сэ̄гден", "səːɡdʲən"],
     ude: ["фулиэ", "fuliə"],

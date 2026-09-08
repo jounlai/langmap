@@ -258,6 +258,7 @@ WORDS.hello = {
     bxr: ["сайн байна", "sajn bajna"],
     mvf: ["amur sain", "amur sain"],
     evn: ["дорообо", "doroːbo"],
+    orh: ["—", "—"],
     eve: ["дорова", "dorova"],
     gld: ["банди-банди", "bandi bandi"],
     ude: ["бандиба", "bandiba"],

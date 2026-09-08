@@ -258,6 +258,7 @@ WORDS.eat = {
     bxr: ["эдеэлхэ", "edeːlxe"],
     mvf: ["idi-", "idi"],
     evn: ["дептэ", "depte"],
+    orh: ["dʒəb", "dʒəb"],
     eve: ["дьэб", "dʒeb"],
     gld: ["депу", "depu"],
     ude: ["джевэ", "dʒevə"],

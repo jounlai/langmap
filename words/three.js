@@ -260,6 +260,7 @@ WORDS.three = {
     bxr: ["гурбан", "ɡurban"],
     mvf: ["ghuran", "ʁuran"],
     evn: ["илан", "ilan"],
+    orh: ["ɪlan", "ɪlan"],
     eve: ["илан", "ilan"],
     gld: ["илан", "ilan"],
     ude: ["ила", "ila"],

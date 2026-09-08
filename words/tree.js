@@ -258,6 +258,7 @@ WORDS.tree = {
     bxr: ["модон", "modon"],
     mvf: ["modu", "modu"],
     evn: ["мо", "mo"],
+    orh: ["mɔɔ", "mɔɔ"],
     eve: ["мо", "mo"],
     gld: ["мо", "mo"],
     ude: ["мо", "mo"],

@@ -258,6 +258,7 @@ WORDS.hand = {
     bxr: ["гар", "ɡar"],
     mvf: ["ghar", "ʁar"],
     evn: ["нгалэ", "ŋale"],
+    orh: ["ŋaala", "ŋaala"],
     eve: ["нгал", "ŋal"],
     gld: ["нгала", "ŋala"],
     ude: ["нала", "nala"],

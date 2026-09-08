@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1172 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1173 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1082,6 +1082,10 @@ const LANG_DATA = {
   // Bonan — Mongolic, but reshaped by the Gansu-Qinghai (Amdo) Sprachbund it
   // shares with Monguor, Dongxiang, Santa and Eastern Yugur.
   peh: { name: 'Bonan', native: 'Manegacha', lat: 35.72, lng: 102.88, // Jishishan, Linxia, Gansu
+},
+  // Oroqen — Northern Tungusic, close to Evenki (evn); hunters of the Greater
+  // Khingan. ~9K nationality, ~1.2K speakers, unwritten.
+  orh: { name: 'Oroqen', native: 'Orochen', lat: 50.58, lng: 123.72, // Oroqen Autonomous Banner, Hulunbuir, Inner Mongolia
 },
   jv: { name: 'Javanese', native: 'ꦧꦱꦗꦮ', lat: -7.25, lng: 112.75,
 },

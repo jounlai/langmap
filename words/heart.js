@@ -258,6 +258,7 @@ WORDS.heart = {
     bxr: ["зүрхэн", "zyrxen"],
     mvf: ["jürige", "dʒyriɡe"],
     evn: ["меван", "mevan"],
+    orh: ["mɛɣan", "mɛɣan"],
     eve: ["мяван", "mjavan"],
     gld: ["миаван", "miavan"],
     ude: ["миаван", "miavan"],

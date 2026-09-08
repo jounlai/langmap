@@ -258,6 +258,7 @@ WORDS.water = {
     bxr: ["уһан", "uhan"],
     mvf: ["usu", "usu"],
     evn: ["мӯ", "muː"],
+    orh: ["muu", "muu"],
     eve: ["мӯ", "muː"],
     gld: ["муэ", "mue"],
     ude: ["уй", "uj"],

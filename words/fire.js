@@ -258,6 +258,7 @@ WORDS.fire = {
     bxr: ["гал", "ɡal"],
     mvf: ["ghal", "ʁal"],
     evn: ["того", "toɡo"],
+    orh: ["tɔɣɔ", "tɔɣɔ"],
     eve: ["тоог", "toːɡ"],
     gld: ["това", "tova"],
     ude: ["тогбо", "toɡbo"],

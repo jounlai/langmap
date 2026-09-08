@@ -258,6 +258,7 @@ WORDS.one = {
     bxr: ["нэгэн", "neɡen"],
     mvf: ["nige", "niɡe"],
     evn: ["умун", "umun"],
+    orh: ["umun", "umun"],
     eve: ["омэн", "omen"],
     gld: ["эмун", "emun"],
     ude: ["омо", "omo"],

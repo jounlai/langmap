@@ -258,6 +258,7 @@ WORDS.you = {
       bxr: ["ши", "ʃi"],
       mvf: ["chi", "tɕi"],
       evn: ["си", "si"],
+      orh: ["ʃii", "ʃii"],
       eve: ["хи", "hiː"],
       gld: ["си", "si"],
       ude: ["си", "si"],

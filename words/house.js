@@ -258,6 +258,7 @@ WORDS.house = {
     bxr: ["гэр", "ɡer"],
     mvf: ["ger", "ɡer"],
     evn: ["дю", "dʒu"],
+    orh: ["dʒuu", "dʒuu"],
     eve: ["дьу", "dʒu"],
     gld: ["дё", "dʒo"],
     ude: ["дзугди", "dzuɡdi"],

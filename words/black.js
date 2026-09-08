@@ -314,6 +314,10 @@ WORDS.black = {
     evn: ["коӈномо", "koŋnomo"],
     orh: ["kɔŋnɔrɪn", "kɔŋnɔrɪn"],
     acn: ["lɔk55", "lɔk˥˥"],
+    jiu: ["a33na42", "a˧˧na˦˨"],
+    pmi: ["ȵɛ35mə53", "ȵɛ˧˥mə˥˧"],
+    twm: ["plɛː13kᴀn55", "plɛː˩˧kᴀn˥˥"],
+    dta: ["xar", "xar"],
 
     // --- Caucasian -----------------------------------------------------
     ce: ["ӏаьржа", "ʕærʒa"],
@@ -380,6 +384,9 @@ WORDS.black = {
     soa: ["ดำ", "dam˧"],
     sukh: ["ดำ", "dam"],
     za: ["ndaem", "ndam˧"],
+    mmd: ["nam1", "nam˦˨"],
+    swi: ["ʔnam1", "ʔnam˩˩"],
+    lic: ["dom3", "dom˩˩"],
     kmc: ["nɐm55", "nɐm˥˥"],
     giq: ["lan33", "lan˧˧"],
     shx: ["kiaŋ22", "kiaŋ˨˨"],

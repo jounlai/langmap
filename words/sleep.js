@@ -196,6 +196,9 @@ WORDS.sleep = {
     bo: ["ཉལ", "ɲäː"],
     th_isan: ["นอน", "nɔːn"],
     za: ["ninz", "nin˧"],
+    mmd: ["nu:n2", "nu:n˨˧˩"],
+    swi: ["n̥ak7", "n̥ak˥˥"],
+    lic: ["kau2", "kau˥˥"],
     kmc: ["nun212", "nun˨˩˨"],
     giq: ["ŋka31", "ŋka˧˩"],
     shx: ["ŋiŋ35", "ŋiŋ˧˥"],
@@ -831,6 +834,10 @@ WORDS.sleep = {
     evn: ["а̄демӣ", "aːdemiː"],
     orh: ["aaʃɪn", "aaʃɪn"],
     acn: ["e31", "e˧˩"],
+    jiu: ["ji44", "ji˦˦"],
+    pmi: ["khə35ʑi35", "khə˧˥ʑi˧˥"],
+    twm: ["ȵɛː13", "ȵɛː˩˧"],
+    dta: ["wante-", "wante"],
     gld: ["а̄ори", "aːori"],
 
     // --- Caucasus, second pass

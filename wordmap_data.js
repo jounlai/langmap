@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1174 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1181 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1069,6 +1069,10 @@ const LANG_DATA = {
   // the Rongjiang (Zhanglu) speech, which is this branch.
   kmc: { name: 'Southern Dong (Kam)', native: 'Gaeml', lat: 25.89, lng: 109.22, // Rongjiang, Qiandongnan, Guizhou
 },
+  swi: { name: 'Sui', native: 'Aiʳ Sui³', lat: 25.83, lng: 107.88, // Sandong, Sandu, Qiannan, Guizhou
+},
+  mmd: { name: 'Maonan', native: 'Anaam', lat: 25.06, lng: 107.86, // Xiananu, Huanjiang, Guangxi
+},
   // Gelao — the Kra branch of Kra-Dai, the family's most divergent arm and
   // sister to Tai and Kam-Sui. ~550K Gelao nationality, but only a few
   // thousand speakers of the language; the lects differ so much they are
@@ -1078,6 +1082,8 @@ const LANG_DATA = {
   // She (Ho Ne) — Hmong-Mien. The nationality numbers ~710K but almost all of
   // them speak She Chinese, a Sinitic variety; this language has ~1K speakers.
   shx: { name: 'She (Ho Ne)', native: 'Ho Ne', lat: 22.97, lng: 115.34, // Haifeng, eastern Guangdong
+},
+  lic: { name: 'Hlai (Ha)', native: 'Hlai', lat: 18.78, lng: 109.52, // Baoding, Baoting, Hainan
 },
   // Bonan — Mongolic, but reshaped by the Gansu-Qinghai (Amdo) Sprachbund it
   // shares with Monguor, Dongxiang, Santa and Eastern Yugur.
@@ -1090,6 +1096,23 @@ const LANG_DATA = {
   // Achang — Burmish, one of the closest living relatives of Burmese itself.
   // ~40K nationality, ~30K speakers, unwritten; also in Myanmar as Maingtha.
   acn: { name: 'Achang', native: 'Ngac\u02bcang', lat: 24.35, lng: 97.79, // Husa, Longchuan, Dehong, Yunnan
+},
+  // Jino — Loloish; the last of the 56 nationalities to be recognised (1979).
+  jiu: { name: 'Jino', native: 'Kino', lat: 22.06, lng: 100.98, // Jinuo Mountain, Jinghong, Xishuangbanna, Yunnan
+},
+  // Northern Pumi (Prinmi) — Qiangic. Many Sichuan Pumi are administratively
+  // classed as Tibetan, so nationality figure and community do not line up.
+  pmi: { name: 'Northern Pumi', native: 'Prinmi', lat: 27.93, lng: 101.27, // Taoba, Muli, Sichuan
+},
+  // Tshona Monpa (Dakpa) — East Bodish, a cousin of Tibetan rather than a
+  // dialect. 'Monpa' in Chinese usage covers this and Tshangla, which are not
+  // mutually intelligible.
+  twm: { name: 'Tshona Monpa (Dakpa)', native: 'Dakpa', lat: 27.99, lng: 91.95, // Cuona (Tsona), Shannan, Tibet
+},
+  // Daur — the most divergent Mongolic language; one community sits in
+  // Tacheng, Xinjiang, 2,000 km west of the rest after an 18th-century
+  // military resettlement.
+  dta: { name: 'Daur', native: 'Daur', lat: 47.98, lng: 124.12, // Morin Dawa Daur Autonomous Banner, Hulunbuir
 },
   jv: { name: 'Javanese', native: 'ꦧꦱꦗꦮ', lat: -7.25, lng: 112.75,
 },

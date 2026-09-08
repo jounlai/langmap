@@ -934,7 +934,36 @@ for (const code of codes) {
             //   but it is a different doculect — its 'black' is nɔɂ³¹ where this
             //   one has lɔk⁵⁵ — so borrowing two cells across them would make
             //   the row's correspondences unreadable. Needs 阿昌语简志 (1985).
+            //   jiu/pmi/twm.{bone,we,hello,thanks} — Jino, Northern Pumi and
+            //   Tshona Monpa. All three come from Sun Hongkai (1991) 藏缅语音和词汇,
+            //   whose wordlist has no BONE concept and no first-person-plural
+            //   pronoun at all, so there is nothing to read off rather than a
+            //   gap in this row. Needs the 简志 volumes: 基诺语简志 (1986),
+            //   普米语简志 (1991), 门巴语简志 (1986).
+            //   dta.{cat,love,hello,thanks} — Daur. The Robbeets et al. (2021)
+            //   Transeurasian list is Swadesh-shaped and carries none of the
+            //   four. Needs 达斡尔语简志 (Zhong Suchun 1982) or Tsumagari's
+            //   Dagur materials.
+            //   lic/swi/mmd.{heart,we,cat,love,hello,thanks} (+ swi.tree,
+            //   mmd.drink) — Hlai, Sui and Maonan, all from the ABVD Kra-Dai
+            //   lists. ABVD is Swadesh-shaped: no cat, no verb 'to love', no
+            //   greeting or thanks formula. Its HEART slot is filled from the
+            //   LIVER entry in these three lists, so heart is not reported at
+            //   second hand. Its single 1PL form carries no inclusive/exclusive
+            //   label, and clusivity is what the WE row is about, so we is not
+            //   asserted to be undifferentiated. swi.tree is printed as mai52,
+            //   a Chao value where the rest of the row is tone categories, and
+            //   mmd.drink is printed with the same form as EAT (na4), which
+            //   cannot both be right. Needs 黎语简志 (1984), 水语简志 (1980),
+            //   毛南语简志 (1980).
             const MODERN_UNSOURCED_ALLOW = {
+                jiu: new Set(['bone', 'we', 'hello', 'thanks']),
+                pmi: new Set(['bone', 'we', 'hello', 'thanks']),
+                twm: new Set(['bone', 'we', 'hello', 'thanks']),
+                dta: new Set(['cat', 'love', 'hello', 'thanks']),
+                lic: new Set(['heart', 'we', 'cat', 'love', 'hello', 'thanks']),
+                swi: new Set(['heart', 'we', 'tree', 'cat', 'love', 'hello', 'thanks']),
+                mmd: new Set(['heart', 'we', 'drink', 'cat', 'love', 'hello', 'thanks']),
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),

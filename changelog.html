@@ -137,10 +137,33 @@
                 <li><span class="count">1,000</span> languages <span class="when">— 2026-05-28 (<code>33e63ca</code> 🎉; official count settled 2026-06-09, <code>ac794b0</code>)</span></li>
                 <li><span class="count">1,111</span> languages <span class="when">— 2026-06-21 (multithreaded fill of thin regions — west China, zero-dot Africa/ME, South America — plus pluricentric and 中国语言地图集 dialect points; settled at 1,112 after a five-round QA pass) — current</span></li>
             </ul>
-            <p class="lead" style="margin-top:8px">The Word Map carries 1,151 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 119 languages and variants across 61 characters.</p>
+            <p class="lead" style="margin-top:8px">The Word Map carries 1,181 languages; the sentence / word-order map (Lang Map) covers 242, and the Han Map 119 languages and variants across 61 characters.</p>
         </div>
 
         <nav class="month-nav">Months: <strong>2026-09</strong> · <a href="changelog-202608.html">2026-08</a> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-09-08 — Seven more of China's nationalities, and the tone tables that were holding four of them up 🎚️</div>
+            <ul>
+                <li><strong>Li, Sui and Maonan are in.</strong> Two days ago these three were written up as ready except for one thing: their wordlists give tone as a category number, 1 to 8, and a category number is not a pitch. Turning 7 into a sound needs a published table for that exact lect, and until one is found the honest thing is to leave the row out rather than guess. The tables were found — Norquest for Baoding Li, the Routledge Tai-Kadai volume together with Castro for Sandong Sui, and Lu Tian Qiao's grammar for Maonan — so all three rows are now built on printed pitch values, and each row names the table it used.</li>
+                <li><strong>Sui's tones 7 and 8 are not one value each but two</strong>, a short one and a long one, and which you get depends on the vowel. The same is true of Maonan. The converter picks by vowel length rather than flattening the pair, so <em>paak8</em> and <em>nok8</em> come out with different pitches, as they should.</li>
+                <li>Four more nationalities join them: <strong>Jino</strong>, <strong>Pumi</strong>, <strong>Monpa</strong> and <strong>Daur</strong>. Monpa is the awkward one — the nationality covers two languages that cannot understand each other, and this row is the East Bodish one of Cuona county; the Motuo Monpa of the same nationality is Tshangla, which the map already carried under its own name. That leaves 49 of China's 56 recognised nationalities with a language on the map, up from 36 a week ago.</li>
+                <li><strong>Where a source contradicts itself, the row says so instead of picking a winner.</strong> The Maonan list prints the same form for “drink” and “eat”, which cannot both be right, so “drink” is left unattested. The Sui list gives “tree” as a pitch value where every other cell in the row is a category, so it cannot be converted on the same footing and is left out too.</li>
+                <li>Where a source is merely unordered, a sister language settles it. The Maonan entry lists both parent words under both “father” and “mother”; Sui has <em>ni4</em> for “mother”, which fixes the pair. Three other cells were chosen the same way, and the row's note lists all four so a reader can disagree with them.</li>
+                <li><strong>The “we” column stays empty for Li, Sui and Maonan on purpose.</strong> That column is about whether a language splits “we” into one that includes you and one that does not. These lists give a single first-person-plural form and no label saying which it is — so filling the cell in would have quietly asserted the very thing the column exists to record.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-06 — Six of China's 56 nationalities had no language on the map 🇨🇳</div>
+            <ul>
+                <li><strong>Asked how the atlas covers China's 56 recognised nationalities, the honest answer was 36 of them.</strong> Four more were covered only by a stand-in — the row for China's Tajiks is the Tajik of Tajikistan, a different language from the Sarikoli they actually speak — and sixteen had no row at all. Six of those sixteen are now in: <strong>Dong</strong> (2.9 million people, the largest of them), <strong>Gelao</strong>, <strong>She</strong>, <strong>Bonan</strong>, <strong>Oroqen</strong> and <strong>Achang</strong>.</li>
+                <li>The map now holds <strong>all three arms of the Kra-Dai family</strong> — Tai, Kam-Sui and Kra — for the first time. Gelao is the Kra arm: it is not a member of the Tai or Kam-Sui branches but their sister, the family's earliest split, which is why a language with a few thousand speakers matters as much as one with millions.</li>
+                <li><strong>She is the case worth reading twice.</strong> The She nationality numbers 710,000 people. The She language has about a thousand speakers. Almost all She speak She Chinese, a Sinitic variety close to Hakka; the language the nationality is named after is Hmong-Mien, on a branch of its own, and survives in a few villages in Guangdong.</li>
+                <li>Bonan brings the map to four languages of the Gansu-Qinghai Sprachbund — with Dongxiang, Monguor and Eastern Yugur already there — so what centuries of contact did to a group of Mongolic languages can now be read off four rows side by side.</li>
+                <li><strong>What is not filled in is stated rather than guessed.</strong> Each of these rows comes from a comparative wordlist, and a wordlist of that kind carries no word for cat, love or thank you, and for heart carries only liver. Those cells are marked unattested, with a note naming the printed dictionary that would settle each one. Four more nationalities — Li, Sui, Maonan and Mulam — are ready except for one thing: their sources give tone as category numbers rather than pitch values, and inventing the values would put silent errors into 1,174 rows.</li>
+            </ul>
+        </div>
 
         <div class="entry">
             <div class="date">2026-09-06 — Thai joins the Han Map, for the words it took from Chinese 🇹🇭</div>

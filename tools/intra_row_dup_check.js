@@ -125,6 +125,8 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // áːmã́ (Uchihara, A Reference Grammar of Oklahoma Cherokee, p. 57, via
 // en.wiktionary's two etymologies at ᎠᎹ). The IPA fields differ; only the
 // surfaces collide, which is the honest state of the writing system.
+// jiu fish = five = ŋɔ33. Sun Hongkai's Jino list records the same form for
+// both; Loloish 'fish' and 'five' are distinct roots that fall together here.
 // shx four = tongue = pi35. The Haifeng list records the same form for both.
 // Left as the source has it: the other She list is a different lect and this
 // file does not mix them to break a tie.
@@ -136,6 +138,11 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // Austronesian *lima is 'five' AND 'hand', and Itbayaten keeps both senses
 // on the one form (Reid 1971 gives limaʔ for each). agt carries the same
 // pair and the validator has always reported it as informational.
+// lic dog = five = pa1, and lic hand = you = meɯ1. Two genuine homophone
+// pairs in Baoding Hlai, not one transcription slip repeated: Proto-Hlai keeps
+// *pʰa 'dog' and *pʰa 'five' apart only in a few lects, and the 'hand' noun
+// and the 2sg pronoun likewise fall together in Ha Hlai. Both pairs are
+// printed as such in the ABVD list this row uses.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

@@ -259,6 +259,7 @@ WORDS.tree = {
     mvf: ["modu", "modu"],
     evn: ["мо", "mo"],
     orh: ["mɔɔ", "mɔɔ"],
+    acn: ["saŋ31 tseŋ55", "saŋ˧˩ tseŋ˥˥"],
     eve: ["мо", "mo"],
     gld: ["мо", "mo"],
     ude: ["мо", "mo"],

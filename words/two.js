@@ -259,6 +259,7 @@ WORDS.two = {
       mvf: ["ghoor", "ʁoːr"],
       evn: ["дюр", "dʒuːr"],
       orh: ["dʒuur", "dʒuur"],
+      acn: ["sək55", "sək˥˥"],
       eve: ["дёр", "dʲoːr"],
       gld: ["дюэр", "dʒuˈər"],
       ude: ["дюэ", "dʒuˈə"],

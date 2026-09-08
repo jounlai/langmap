@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1173 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1174 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1086,6 +1086,10 @@ const LANG_DATA = {
   // Oroqen — Northern Tungusic, close to Evenki (evn); hunters of the Greater
   // Khingan. ~9K nationality, ~1.2K speakers, unwritten.
   orh: { name: 'Oroqen', native: 'Orochen', lat: 50.58, lng: 123.72, // Oroqen Autonomous Banner, Hulunbuir, Inner Mongolia
+},
+  // Achang — Burmish, one of the closest living relatives of Burmese itself.
+  // ~40K nationality, ~30K speakers, unwritten; also in Myanmar as Maingtha.
+  acn: { name: 'Achang', native: 'Ngac\u02bcang', lat: 24.35, lng: 97.79, // Husa, Longchuan, Dehong, Yunnan
 },
   jv: { name: 'Javanese', native: 'ꦧꦱꦗꦮ', lat: -7.25, lng: 112.75,
 },

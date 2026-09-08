@@ -259,6 +259,7 @@ WORDS.father = {
     mvf: ["ada", "ada"],
     evn: ["амин", "amin"],
     orh: ["—", "—"],
+    acn: ["teʔ55", "teʔ˥˥"],
     eve: ["аман", "aman"],
     gld: ["ама", "ama"],
     ude: ["амэ", "amə"],

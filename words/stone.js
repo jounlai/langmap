@@ -180,6 +180,7 @@ WORDS.stone = {
     bxr: ["шулуун", "ʃuluːŋ"],
     evn: ["дёло", "dʲolo"],
     orh: ["dʒɔlɔ", "dʒɔlɔ"],
+    acn: ["laŋ31kɔʔ55", "laŋ˧˩kɔʔ˥˥"],
     gld: ["джоло", "dʒolo"],
     yrk: ["пэ", "pɛ"],
     kca: ["кев", "kew"],

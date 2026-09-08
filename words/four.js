@@ -598,6 +598,7 @@ WORDS.four = {
     nio: ["четэ", "tʃetə"],
     evn: ["дыгин", "diɡin"],
     orh: ["dijin", "dijin"],
+    acn: ["mi31", "mi˧˩"],
     kln: ["angwan", "aŋwan"],
     an: ["cuatro", "ˈkwatro"],
     ast: ["cuatro", "ˈkwatɾo"],

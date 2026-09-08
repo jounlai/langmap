@@ -259,6 +259,7 @@ WORDS.you = {
       mvf: ["chi", "tɕi"],
       evn: ["си", "si"],
       orh: ["ʃii", "ʃii"],
+      acn: ["nuaŋ55", "nuaŋ˥˥"],
       eve: ["хи", "hiː"],
       gld: ["си", "si"],
       ude: ["си", "si"],

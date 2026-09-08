@@ -258,6 +258,7 @@ WORDS.sun = {
     mvf: ["nara", "nara"],
     evn: ["дылача", "dɯlatɕa"],
     orh: ["dɪlatʃa", "dɪlatʃa"],
+    acn: ["ni31 mɔ31", "ni˧˩ mɔ˧˩"],
     eve: ["нөлтэн", "nølten"],
     gld: ["сиун", "siun"],
     ude: ["даигаси", "daiɡasi"],

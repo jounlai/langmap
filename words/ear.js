@@ -657,6 +657,7 @@ WORDS.ear = {
     lkt: ["núŋǧe", "nũɣe"],
     evn: ["се̄н", "seːn"],
     orh: ["ʃɛɛn", "ʃɛɛn"],
+    acn: ["ni31 ʈʂʰua31", "ni˧˩ ʈʂʰua˧˩"],
     gld: ["сиан", "sian"],
     mns: ["паль", "palʲ"],
     sva: ["შდიმ", "ʃdim"],

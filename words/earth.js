@@ -606,6 +606,7 @@ WORDS.earth = {
     eve: ["төр", "tɵːr"],
     evn: ["дуннэ", "dunːə"],
     orh: ["tʊkala", "tʊkala"],
+    acn: ["mi55", "mi˥˥"],
     gld: ["на", "na"],
     tab: ["жил", "ʒil"],
     kjh: ["чир", "tʃir"],

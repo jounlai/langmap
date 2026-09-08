@@ -259,6 +259,7 @@ WORDS.love = {
     mvf: ["durala-", "durala"],
     evn: ["аявдави", "ajavdavi"],
     orh: ["—", "—"],
+    acn: ["—", "—"],
     eve: ["аякан", "ajakan"],
     gld: ["эйини", "ejini"],
     ude: ["чисанай", "tʃisanaj"],

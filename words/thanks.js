@@ -259,6 +259,7 @@ WORDS.thanks = {
     mvf: ["bayarla-", "bajarla"],
     evn: ["пасиба", "pasiba"],
     orh: ["—", "—"],
+    acn: ["—", "—"],
     eve: ["пасиба", "pasiba"],
     gld: ["банихан", "banihan"],
     ude: ["нюхча", "ɲuxtʃa"],

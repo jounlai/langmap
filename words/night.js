@@ -264,6 +264,7 @@ WORDS.night = {
     mvf: ["süni", "synə"],
     evn: ["долбо", "dolbo"],
     orh: ["dɔlbɔ", "dɔlbɔ"],
+    acn: ["—", "—"],
     eve: ["долбони", "dolboni"],
     gld: ["долбо", "dolbo"],
     ude: ["догбо", "doɡbo"],

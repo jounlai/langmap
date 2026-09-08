@@ -259,6 +259,7 @@ WORDS.eye = {
     mvf: ["nidu", "nidu"],
     evn: ["эса", "esa"],
     orh: ["jɛɛʃa", "jɛɛʃa"],
+    acn: ["—", "—"],
     eve: ["яса", "jasa"],
     gld: ["насал", "nasal"],
     ude: ["яа", "jaː"],

@@ -617,6 +617,7 @@ WORDS.egg = {
     // --- Tungusic — Proto-Tungusic *umu-kta survives right across the family
     evn: ["умукта", "umukta"],
     orh: ["ʊmʊkta", "ʊmʊkta"],
+    acn: ["uʔ31", "uʔ˧˩"],
     eve: ["умта", "umta"],
     gld: ["омокта", "ɔmɔkta"],
     mnc: ["ᡠᠮᡥᠠᠨ", "umxan"],

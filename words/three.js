@@ -261,6 +261,7 @@ WORDS.three = {
     mvf: ["ghuran", "ʁuran"],
     evn: ["илан", "ilan"],
     orh: ["ɪlan", "ɪlan"],
+    acn: ["sum31", "sum˧˩"],
     eve: ["илан", "ilan"],
     gld: ["илан", "ilan"],
     ude: ["ила", "ila"],

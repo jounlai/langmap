@@ -70,6 +70,7 @@ WORDS.hundred = {
     giq: ["tɕin33", "tɕin˧˧"],
     shx: ["i35 pa11", "i˧˥ pa˩˩"],
     peh: ["ʥyŋ", "ʥyŋ"],
+    acn: ["pak35", "pak˧˥"],
     id: ["seratus", "səratus"],
     hi: ["सौ", "sɔː"],
     de: ["hundert", "ˈhʊndɐt"],

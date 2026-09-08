@@ -283,6 +283,7 @@ WORDS.tooth = {
     mvf: ["shid", "ʃid"],
     evn: ["иктэ", "iktə"],
     orh: ["iktə", "iktə"],
+    acn: ["tɕoi55", "tɕoi˥˥"],
     eve: ["ит", "it"],
     gld: ["хуктэ", "xuktə"],
     ude: ["икте", "ikte"],

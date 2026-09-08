@@ -259,6 +259,7 @@ WORDS.mother = {
     mvf: ["ana", "ana"],
     evn: ["эни", "eni"],
     orh: ["—", "—"],
+    acn: ["mauʔ51", "mauʔ˥˩"],
     eve: ["эньэн", "eɲen"],
     gld: ["энин", "enin"],
     ude: ["энэ", "ene"],

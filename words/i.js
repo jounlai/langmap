@@ -259,6 +259,7 @@ WORDS.i = {
       mvf: ["bu", "bu"],
       evn: ["би", "bi"],
       orh: ["bii", "bii"],
+      acn: ["ŋɔ55", "ŋɔ˥˥"],
       eve: ["би", "bi"],
       gld: ["ми", "mi"],
       ude: ["би", "bi"],

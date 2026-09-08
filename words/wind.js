@@ -553,6 +553,7 @@ WORDS.wind = {
     wuu_nb: ["风", "foŋ˥˧"],
     evn: ["эдын", "ədin"],
     orh: ["ədin", "ədin"],
+    acn: ["l̥i55", "l̥i˥˥"],
     eve: ["эдэн", "ədən"],
     mnc: ["ᡝᡩᡠᠨ", "ədun"],
     sjo: ["ᡝᡩᡠᠨ", "ədun"],

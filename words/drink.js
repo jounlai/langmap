@@ -259,6 +259,7 @@ WORDS.drink = {
     mvf: ["uu-", "uː"],
     evn: ["умӣ", "umiː"],
     orh: ["um", "um"],
+    acn: ["ʂoʔ55", "ʂoʔ˥˥"],
     eve: ["ум", "um"],
     gld: ["омичи", "omitʃi"],
     ude: ["омимэ", "omimə"],

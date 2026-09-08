@@ -162,6 +162,7 @@ WORDS.daughter = {
     ml: ["മകൾ", "maɡaɭ"],
     kn: ["ಮಗಳು", "maɡaɭu"],
     my: ["သမီး", "θəmí"],
+    acn: ["tsaŋ31 ʑi31", "tsaŋ˧˩ ʑi˧˩"],
     km: ["កូនស្រី", "koːn srəj"],
     lo: ["ລູກສາວ", "luːk̚ saːw"],
     tr: ["kız", "kɯz"],

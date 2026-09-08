@@ -263,6 +263,7 @@ WORDS.blood = {
     mvf: ["chis", "tʃis"],
     evn: ["сэксэ", "səksə"],
     orh: ["ʃəəkʃə", "ʃəəkʃə"],
+    acn: ["sui31", "sui˧˩"],
     eve: ["хуӈэл", "huŋəl"],
     gld: ["сэксэ", "səksə"],
     ude: ["сакиа", "sakia"],

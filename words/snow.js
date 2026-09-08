@@ -218,6 +218,7 @@ WORDS.snow = {
     niv: ["ӈаӄр", "ŋaqr"],
     ket: ["тик", "tik"],
     my: ["နှင်း", "n̥ɪ́ɴ"],
+    acn: ["xan31 ʑai55", "xan˧˩ ʑai˥˥"],
     km: ["ព្រិល", "priːl"],
     lo: ["ຫິມະ", "himaʔ"],
     yo: ["yìnyín", "jĩ̀jĩ́"],

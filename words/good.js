@@ -259,6 +259,7 @@ WORDS.good = {
     mvf: ["sain", "sain"],
     evn: ["ая", "aja"],
     orh: ["aja", "aja"],
+    acn: ["tɕi55", "tɕi˥˥"],
     eve: ["ай", "aj"],
     gld: ["ая", "aja"],
     ude: ["ая", "aja"],

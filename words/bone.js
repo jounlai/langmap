@@ -240,6 +240,7 @@ WORDS.bone = {
     mvf: ["yas", "jas"],
     evn: ["гирамна", "ɡiramna"],
     orh: ["gɪramna", "gɪramna"],
+    acn: ["a31ʐau31", "a˧˩ʐau˧˩"],
     eve: ["икири", "ikiri"],
     gld: ["гирмакса", "ɡirmaksa"],
     ude: ["гиама", "ɡiama"],

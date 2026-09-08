@@ -259,6 +259,7 @@ WORDS.water = {
     mvf: ["usu", "usu"],
     evn: ["мӯ", "muː"],
     orh: ["muu", "muu"],
+    acn: ["ti55", "ti˥˥"],
     eve: ["мӯ", "muː"],
     gld: ["муэ", "mue"],
     ude: ["уй", "uj"],

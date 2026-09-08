@@ -928,12 +928,19 @@ for (const code of codes) {
             //   source: the only dataset that carries Oroqen is a sound-symbolism
             //   survey, which has BIG/SMALL/ROUND but no kinship terms at all.
             //   ~1.2K speakers, unwritten. Needs 鄂伦春语简志 (Hu Zengyi 1986).
+            //   acn.{cat,eye,night,love,hello,thanks} — Achang. eye and night
+            //   are absent from the Sagart Sino-Tibetan list this row uses. The
+            //   other dataset carrying Achang (Mann's Burmish list) has them,
+            //   but it is a different doculect — its 'black' is nɔɂ³¹ where this
+            //   one has lɔk⁵⁵ — so borrowing two cells across them would make
+            //   the row's correspondences unreadable. Needs 阿昌语简志 (1985).
             const MODERN_UNSOURCED_ALLOW = {
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 orh: new Set(['cat', 'father', 'mother', 'love', 'hello', 'thanks']),
+                acn: new Set(['cat', 'eye', 'night', 'love', 'hello', 'thanks']),
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ker: new Set(['red']),

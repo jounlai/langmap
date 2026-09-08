@@ -830,6 +830,7 @@ WORDS.sleep = {
     ess: ["ӄаваӷаӄуӄ", "qavaʁaquq"],
     evn: ["а̄демӣ", "aːdemiː"],
     orh: ["aaʃɪn", "aaʃɪn"],
+    acn: ["e31", "e˧˩"],
     gld: ["а̄ори", "aːori"],
 
     // --- Caucasus, second pass

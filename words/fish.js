@@ -333,6 +333,7 @@ WORDS.fish = {
     th_s: ["ปลา", "plaː˧"],
     za: ["bya", "pjaː˨˦"],
     mmd: ["ᵐbjai3", "ᵐbjai˥˩"],
+    mlm: ["məm6", "məm˩˩"],
     swi: ["mom6", "mom˨˦"],
     lic: ["ɬa1", "ɬa˥˧"],
     kmc: ["pa55", "pa˥˥"],

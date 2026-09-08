@@ -331,6 +331,7 @@ WORDS.star = {
       th_s: ["ดาว", "daːw˧"],
       za: ["ndaundeiq", "ɗaːu˨˦ɗei˧˥"],
       mmd: ["zət7", "zət˥˥"],
+      mlm: ["la:k8 m̥ət7", "la:k˩˩ m̥ət˥˥"],
       swi: ["zət7", "zət˥˥"],
       lic: ["ra:u1", "ra:u˥˧"],
       kmc: ["ɕət55", "ɕət˥˥"],

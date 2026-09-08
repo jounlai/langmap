@@ -331,6 +331,7 @@ WORDS.tree = {
     th_s: ["ต้นไม้", "ton˧˥maj˧˥"],
     za: ["faex", "fai˦˨"],
     mmd: ["mai4", "mai˨˦"],
+    mlm: ["—", "—"],
     swi: ["—", "—"],
     lic: ["tshai1", "tshai˥˧"],
     kmc: ["mɐi31", "mɐi˧˩"],

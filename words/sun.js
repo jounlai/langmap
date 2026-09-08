@@ -1060,6 +1060,7 @@ WORDS.sun = {
     sad: ["kʼɔɔ", "kʼɔː"],
     pcc: ["ngonzbyaaiz", "ŋon˩˩pjaːi˩˩"],
     mmd: ["van1", "van˦˨"],
+    mlm: ["—", "—"],
     swi: ["van1", "van˩˩"],
     lic: ["hwan1", "hwan˥˧"],
     kmc: ["mɐn55", "mɐn˥˥"],

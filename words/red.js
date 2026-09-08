@@ -332,6 +332,7 @@ WORDS.red = {
     th_s: ["แดง", "dɛːŋ˧"],
     za: ["nding", "ndiŋ˨˦"],
     mmd: ["la:n3", "la:n˥˩"],
+    mlm: ["l̥a:n3", "l̥a:n˥˧"],
     swi: ["haan3", "haan˧˧"],
     lic: ["de:ŋ3", "de:ŋ˩˩"],
     kmc: ["ja453", "ja˦˥˧"],

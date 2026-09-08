@@ -231,6 +231,7 @@ WORDS.stone = {
     th_s: ["หิน", "hin˩˩˦"],
     za: ["rin", "ɣin˨˦"],
     mmd: ["tu:i2", "tu:i˨˧˩"],
+    mlm: ["tui2", "tui˩˨˩"],
     swi: ["pja1", "pja˩˩"],
     lic: ["tshi:n1", "tshi:n˥˧"],
     kmc: ["pja55", "pja˥˥"],

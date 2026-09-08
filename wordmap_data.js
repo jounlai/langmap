@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1181 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1182 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1069,9 +1069,11 @@ const LANG_DATA = {
   // the Rongjiang (Zhanglu) speech, which is this branch.
   kmc: { name: 'Southern Dong (Kam)', native: 'Gaeml', lat: 25.89, lng: 109.22, // Rongjiang, Qiandongnan, Guizhou
 },
-  swi: { name: 'Sui', native: 'Aiʳ Sui³', lat: 25.83, lng: 107.88, // Sandong, Sandu, Qiannan, Guizhou
+  swi: { name: 'Sui', native: 'Aiʳ Sui³', lat: 25.98, lng: 107.87, // Miaocao, Sandu, Qiannan, Guizhou
 },
   mmd: { name: 'Maonan', native: 'Anaam', lat: 25.06, lng: 107.86, // Xiananu, Huanjiang, Guangxi
+},
+  mlm: { name: 'Mulam', native: 'Mulam', lat: 24.82, lng: 108.93, // Dongmen, Luocheng, Hechi, Guangxi
 },
   // Gelao — the Kra branch of Kra-Dai, the family's most divergent arm and
   // sister to Tai and Kam-Sui. ~550K Gelao nationality, but only a few

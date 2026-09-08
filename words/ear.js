@@ -632,6 +632,7 @@ WORDS.ear = {
     nio: ["коу", "kou̯"],
     za: ["rwz", "ɣɯ˧˩"],
     mmd: ["kha1", "kha˦˨"],
+    mlm: ["khɣa1", "khɣa˦˨"],
     swi: ["qha1", "qha˩˩"],
     lic: ["zai1", "zai˥˧"],
     kmc: ["kha35", "kha˧˥"],

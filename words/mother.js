@@ -1061,6 +1061,7 @@ WORDS.mother = {
     sad: ["yei", "jei"],
     pcc: ["meeh", "meː˧˩"],
     mmd: ["ni4", "ni˨˦"],
+    mlm: ["ni4", "ni˨˦"],
     swi: ["ni4", "ni˥˩"],
     lic: ["pai3", "pai˩˩"],
     kmc: ["nɐi31", "nɐi˧˩"],

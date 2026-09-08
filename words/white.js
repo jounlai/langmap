@@ -297,6 +297,7 @@ WORDS.white = {
     th_s: ["ขาว", "kʰaːw"],
     za: ["hau", "haːu"],
     mmd: ["pok8", "pok˨˧"],
+    mlm: ["pa:k8", "pa:k˩˩"],
     swi: ["paak8", "paak˦˨"],
     lic: ["kha:u1", "kha:u˥˧"],
     kmc: ["pak31", "pak˧˩"],

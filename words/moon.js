@@ -1061,6 +1061,7 @@ WORDS.moon = {
     sad: ["tsoa", "tsoa"],
     pcc: ["ronh", "roːn˧˩"],
     mmd: ["ni4 njen2", "ni˨˦ njen˨˧˩"],
+    mlm: ["mɣa:n2", "mɣa:n˩˨˩"],
     swi: ["njen2", "njen˧˩"],
     lic: ["ȵa:n1", "ȵa:n˥˧"],
     kmc: ["kwaŋ55 ɲan55", "kwaŋ˥˥ ɲan˥˥"],

@@ -312,6 +312,7 @@ WORDS.bone = {
     th_s: ["ดูก", "duːk˨˩"],
     za: ["ndok", "ɗok˥˥"],
     mmd: ["da:k8", "da:k˨˦"],
+    mlm: ["hɣa:k7", "hɣa:k˦˨"],
     swi: ["laak7", "laak˧˥"],
     lic: ["vɯ:k7", "vɯ:k˥˥"],
     kmc: ["lak323", "lak˧˨˧"],

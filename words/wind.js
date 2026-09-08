@@ -495,6 +495,7 @@ WORDS.wind = {
     mh: ["an̄", "aŋ"],
     za: ["rumz", "ɣum˨"],
     mmd: ["ləm1", "ləm˦˨"],
+    mlm: ["ləm2", "ləm˩˨˩"],
     swi: ["lum1", "lum˩˩"],
     lic: ["hwo:t7", "hwo:t˥˥"],
     kmc: ["ləm212", "ləm˨˩˨"],

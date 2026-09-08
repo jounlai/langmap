@@ -528,6 +528,7 @@ WORDS.rain = {
     ks: ["رُود", "ruːd"],
     za: ["fwn", "fɯn˥"],
     mmd: ["fin1", "fin˦˨"],
+    mlm: ["kwən1", "kwən˦˨"],
     swi: ["fən1", "fən˩˩"],
     lic: ["fun1", "fun˥˧"],
     kmc: ["pjən55", "pjən˥˥"],

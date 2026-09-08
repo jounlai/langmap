@@ -331,6 +331,7 @@ WORDS.name = {
       th_s: ["ชื่อ", "tɕʰɯː˧"],
       za: ["coh", "ɕo˧"],
       mmd: ["da:n2", "da:n˨˧˩"],
+      mlm: ["ʔɣa:n1", "ʔɣa:n˦˨"],
       swi: ["ʔdaan1", "ʔdaan˩˩"],
       lic: ["phe:ŋ1", "phe:ŋ˥˧"],
       kmc: ["kwan55", "kwan˥˥"],

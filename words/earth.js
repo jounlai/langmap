@@ -591,6 +591,7 @@ WORDS.earth = {
     krc: ["топракъ", "topɾaq"],
     za: ["doem", "tɤm"],
     mmd: ["khəm5", "khəm˦˦"],
+    mlm: ["na:m6", "na:m˩˩"],
     swi: ["hum5", "hum˧˥"],
     lic: ["van1", "van˥˧"],
     kmc: ["nam33", "nam˧˧"],

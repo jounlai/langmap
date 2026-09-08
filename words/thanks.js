@@ -331,6 +331,7 @@ WORDS.thanks = {
     th_s: ["ขอบคุณ", "kʰɔːp˨˩kʰun˥"],
     za: ["dwgrengz mwngz", "tɯk˧ɣeŋ˧˥mɯŋ˧˥"],
     mmd: ["—", "—"],
+    mlm: ["—", "—"],
     swi: ["—", "—"],
     lic: ["—", "—"],
     kmc: ["—", "—"],

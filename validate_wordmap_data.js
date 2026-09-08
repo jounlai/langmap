@@ -956,6 +956,11 @@ for (const code of codes) {
             //   mmd.drink is printed with the same form as EAT (na4), which
             //   cannot both be right. Needs 黎语简志 (1984), 水语简志 (1980),
             //   毛南语简志 (1980).
+            //   mlm.{heart,sun,tree,we,cat,love,hello,thanks} — Mulam, same
+            //   ABVD situation, and its Dongmen list additionally has no SUN
+            //   and no TREE concept at all. Needs 仫佬语简志 (Wang & Zheng 1980)
+            //   for those two, which is the sketch the wordlist itself comes
+            //   from but which ABVD only excerpts.
             const MODERN_UNSOURCED_ALLOW = {
                 jiu: new Set(['bone', 'we', 'hello', 'thanks']),
                 pmi: new Set(['bone', 'we', 'hello', 'thanks']),
@@ -964,6 +969,7 @@ for (const code of codes) {
                 lic: new Set(['heart', 'we', 'cat', 'love', 'hello', 'thanks']),
                 swi: new Set(['heart', 'we', 'tree', 'cat', 'love', 'hello', 'thanks']),
                 mmd: new Set(['heart', 'we', 'drink', 'cat', 'love', 'hello', 'thanks']),
+                mlm: new Set(['heart', 'sun', 'tree', 'we', 'cat', 'love', 'hello', 'thanks']),
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),

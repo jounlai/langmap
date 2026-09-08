@@ -198,6 +198,7 @@ WORDS.egg = {
     th_s: ["ไข่", "kʰaj˨˩"],
     za: ["gyaeq", "kʲai"],
     mmd: ["kai5", "kai˦˦"],
+    mlm: ["kɣəi5", "kɣəi˦˦"],
     swi: ["kai5", "kai˧˥"],
     lic: ["zɯ:m1", "zɯ:m˥˧"],
     kmc: ["kɐi53", "kɐi˥˧"],

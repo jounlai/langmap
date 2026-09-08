@@ -777,6 +777,7 @@ WORDS.salt = {
     th_s: ["เกลือ", "klɯa˥"],
     za: ["gyu", "kju˨˦"],
     mmd: ["kwo1", "kwo˦˨"],
+    mlm: ["cwa1", "cwa˦˨"],
     swi: ["ʔdwə1", "ʔdwə˩˩"],
     lic: ["ȵa:u3", "ȵa:u˩˩"],
     kmc: ["jim212", "jim˨˩˨"],

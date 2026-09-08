@@ -1062,6 +1062,7 @@ WORDS.water = {
     sad: ["tsʼa", "tsʼa"],
     pcc: ["raamx", "raːm˧˩"],
     mmd: ["nam3", "nam˥˩"],
+    mlm: ["nəm4", "nəm˨˦"],
     swi: ["nam3", "nam˧˧"],
     lic: ["nom3", "nom˩˩"],
     kmc: ["nɐm31", "nɐm˧˩"],

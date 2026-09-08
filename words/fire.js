@@ -1061,6 +1061,7 @@ WORDS.fire = {
     sad: ["tsʼoo", "tsʼoː"],
     pcc: ["feih", "fei˧˩"],
     mmd: ["vi1", "vi˦˨"],
+    mlm: ["fi1", "fi˦˨"],
     swi: ["vi1", "vi˩˩"],
     lic: ["fei1", "fei˥˧"],
     kmc: ["pui55", "pui˥˥"],

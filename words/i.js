@@ -331,6 +331,7 @@ WORDS.i = {
       th_s: ["ฉาน", "tɕʰaːn˦"],
       za: ["gou", "kou˨˦"],
       mmd: ["ɦe2", "ɦe˨˧˩"],
+      mlm: ["həi2", "həi˩˨˩"],
       swi: ["ʔai2", "ʔai˧˩"],
       lic: ["hou1", "hou˥˧"],
       kmc: ["jau212", "jau˨˩˨"],

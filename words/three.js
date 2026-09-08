@@ -333,6 +333,7 @@ WORDS.three = {
     th_s: ["สาม", "saːm˨˦"],
     za: ["sam", "θaːm˨˦"],
     mmd: ["sa:m1", "sa:m˦˨"],
+    mlm: ["ta:m1", "ta:m˦˨"],
     swi: ["haam1", "haam˩˩"],
     lic: ["fu3", "fu˩˩"],
     kmc: ["sam35", "sam˧˥"],

@@ -331,6 +331,7 @@ WORDS.hello = {
     th_s: ["สวัสดี", "sa˨˩wat˨˩diː˥"],
     za: ["mwngz ndei", "mɯŋ˧˥dei˨˦"],
     mmd: ["—", "—"],
+    mlm: ["—", "—"],
     swi: ["—", "—"],
     lic: ["—", "—"],
     kmc: ["—", "—"],

@@ -385,6 +385,7 @@ WORDS.black = {
     sukh: ["ดำ", "dam"],
     za: ["ndaem", "ndam˧"],
     mmd: ["nam1", "nam˦˨"],
+    mlm: ["nam1", "nam˦˨"],
     swi: ["ʔnam1", "ʔnam˩˩"],
     lic: ["dom3", "dom˩˩"],
     kmc: ["nɐm55", "nɐm˥˥"],

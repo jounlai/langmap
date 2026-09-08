@@ -1445,6 +1445,7 @@ WORDS.we = {
     th_s: ["เรา", "raw˥"],
     za: ["raeuz / dou", "ɣau˧˩ / tou˨˦"],
     mmd: ["—", "—"],
+    mlm: ["—", "—"],
     swi: ["—", "—"],
     lic: ["—", "—"],
     kmc: ["tau55 / tɕiu55", "tau˥˥ / tɕiu˥˥"],

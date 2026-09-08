@@ -336,6 +336,7 @@ WORDS.night = {
     th_s: ["คืน", "kʰɯːn˧"],
     za: ["haemh", "ham˧˩"],
     mmd: ["ʔȵam5", "ʔȵam˦˦"],
+    mlm: ["mu2", "mu˩˨˩"],
     swi: ["saan2", "saan˧˩"],
     lic: ["tshop7", "tshop˥˥"],
     kmc: ["ɲɐm53", "ɲɐm˥˧"],

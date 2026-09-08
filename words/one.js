@@ -1061,6 +1061,7 @@ WORDS.one = {
     sad: ["tsʼekʼe", "tsʼekʼe"],
     pcc: ["ndeeul", "ndeːu˧˥"],
     mmd: ["tɔ2", "tɔ˨˧˩"],
+    mlm: ["n̥a:u3", "n̥a:u˥˧"],
     swi: ["to2", "to˧˩"],
     lic: ["tsheɯ3", "tsheɯ˩˩"],
     kmc: ["ʔi55", "ʔi˥˥"],

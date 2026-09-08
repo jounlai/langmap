@@ -331,6 +331,7 @@ WORDS.good = {
     th_s: ["ดี", "diː˥"],
     za: ["ndei", "dei˨˦"],
     mmd: ["da:i2", "da:i˨˧˩"],
+    mlm: ["i1", "i˦˨"],
     swi: ["ʔdaai1", "ʔdaai˩˩"],
     lic: ["ɬeȵ1", "ɬeȵ˥˧"],
     kmc: ["lai55", "lai˥˥"],

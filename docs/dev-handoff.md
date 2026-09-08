@@ -6,7 +6,7 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 ---
 
 ## Current state
-- Dataset: **1165 languages** (`wordmap_data.js` header must match — it's validated).
+- Dataset: **1181 languages** (`wordmap_data.js` header must match — it's validated).
 - Branch `main`, working tree clean. Last commit `8ab7ce9`.
 - `node tools/check_all.js` is **green**; keep it green before every commit.
 
@@ -72,6 +72,52 @@ Source: **UT Austin Hunter-Gatherer Language Database** `https://huntergatherer.
 Scripts used this session live in the session scratchpad (not committed); the pattern above is enough to reproduce them.
 
 ---
+
+## China's 56 nationalities — coverage as of 2026-09-08
+
+**49 of 56 have a language row.** Thirteen were added in the 2026-09-06/08 batch:
+`kmc` Dong, `giq` Green Gelao, `shx` She, `peh` Bonan, `orh` Oroqen, `acn` Achang,
+then `lic` Hlai, `swi` Sui, `mmd` Maonan, `jiu` Jino, `pmi` Northern Pumi,
+`twm` Tshona Monpa, `dta` Daur.
+
+**Still missing a row (3):**
+- **仫佬 Mulam (`mlm`)** — HELD, not skipped. ABVD has the Dongmen lect and it
+  converts cleanly *except* that no citable tone-value table for Dongmen Mulam
+  could be found; the only one located is Baidu Baike, uncited. Needs 仫佬语简志
+  (1980) or Wang & Zheng's Mulam grammar. Everything else is ready: the 19-UI
+  description is drafted at `~/langmap-work/cn/desc_mlm.py`.
+- **布朗 Blang (`blr`)** — the obvious proxy is wrong. `peirosaustroasiatic`
+  labels its Blang doculect "Wa", and the map already carries Wa (`wbm`) and
+  Parauk (`prk`); using it would duplicate an existing row under a new name.
+- **怒 Nu** — the nationality covers four unrelated languages (Nusu, Zauzou,
+  Anong, and a Derung-like variety). `duu` Drung is already on the map and is
+  *not* one of them. Pick a specific one before sourcing.
+
+**Covered only by a stand-in (4)** — the row exists but is a different language
+from the one the nationality speaks:
+- **回 Hui** — speaks Chinese; `dng` Dungan is the diaspora variety, not the
+  domestic one. Arguably already covered by `zh_*`; a judgement call, not a gap.
+- **塔吉克 Tajik** — the map has `tg` (Tajik of Tajikistan, Persian). China's
+  Tajiks speak **Sarikoli** (`srh`), an Eastern Iranian language. Different
+  branch, not mutually intelligible.
+- **德昂 De'ang** — the map has `pll` Shwe Palaung, which is Burmese/Thai
+  Palaung. China's De'ang are `rbb` / `pce`. `deepadungpalaung` covers the
+  former, not the latter.
+- **珞巴 Lhoba** — the map has `adi` Adi, which is the Indian side. The Chinese
+  Lhoba varieties (Bokar, Yidu, Bengni) are not in it.
+
+**Deliberately skipped:** `tdd` Tai Nuea. Three rival tone-numbering conventions
+in the literature and no way to tell which one a given wordlist uses; the 傣族
+nationality is already covered by `khb` Tai Lue.
+
+**Recipe that worked** (see also §"Adding a language" and §"Filling a word from
+the comparative datasets"): one doculect per row, never mixed to fill a gap;
+tone digits stay in the surface and are converted to Chao letters in the IPA
+only when a *published per-lect table* exists; Swadesh-shaped gaps (cat, love,
+hello, thanks, and heart where the list only has liver) become `—` plus a
+`MODERN_UNSOURCED_ALLOW` entry naming the 简志 volume that would settle it.
+Scripts live in `~/langmap-work/cn/` (`build.py`, `kamsui.py`, `suntb.py`,
+`write_meta.py`, `metas.py`, `desc_*.py`).
 
 ## Outstanding / queued work
 1. **Tier-2 AR/BR languages** (if desired): Kadiwéu, Apinajé, Xerénte, Krahô, Paresí, Wapishana… (many NOT in HG DB → need Wiktionary/grammars).

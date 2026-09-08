@@ -7590,6 +7590,16 @@
             markers.length = 0;
             const zoom = map.getZoom();
             const labelScale = parseInt(fontSizeSlider.value, 10) / 100;
+            // Every fixed-pixel pad in the collision boxes below used to be a
+            // CONSTANT, so it did not shrink when the user shrank the font.
+            // At fs=50 the ~12px of per-pair padding was 60% of the 20px the
+            // text actually paints, so halving the font bought far less than
+            // half the pitch — owner: "フォントを小さくするともっとたくさんの
+            // 言語が入るはずだが、言語と言語の間が広くて詰められていない".
+            // Scaling them with the label makes the pitch proportional; the
+            // /1.4 normalises to the slider default, so a reader who never
+            // touches the slider sees exactly the spacing they saw before.
+            const padScale = labelScale / 1.4;
 
             const { visibleLangs, unattestedLangs, descendantCodes } = getVisibleLangs(wordId, zoom);
 
@@ -7603,7 +7613,7 @@
             if (showWord) baseLineH += (zoom <= 3 ? 13 : zoom <= 5 ? 15 : 17);
             if (showIpa)  baseLineH += (zoom <= 3 ? 10 : zoom <= 5 ? 11 : 12);
             if (showName) baseLineH += (zoom <= 3 ? 9  : zoom <= 5 ? 10 : 11);
-            const labelH = (baseLineH * labelScale) + 4;
+            const labelH = (baseLineH * labelScale) + 4 * padScale;
             const labelW = (zoom <= 3 ? 60 : zoom <= 5 ? 80 : 100) * labelScale;
             // Search budget for collision avoidance: how far a label is
             // allowed to be pushed from its anchor before we give up and
@@ -7617,7 +7627,7 @@
             // current row". labelW (toggle-independent) also gives a
             // sensible floor for narrow-row layouts.
             const _fullH_z = (zoom <= 3 ? 32 : zoom <= 5 ? 36 : 40);
-            const labelHFull = (_fullH_z * labelScale) + 4;
+            const labelHFull = (_fullH_z * labelScale) + 4 * padScale;
             const collisionBudgetH = Math.max(labelHFull, labelW * 0.55);
 
             // PER-LABEL height (px). The uniform labelH above counts ONE
@@ -7659,7 +7669,7 @@
                 // Rows carrying a period get a little extra air as well: the
                 // date sits tight under the name and reads as part of the label
                 // below when the two only just fail to overlap.
-                return (h * labelScale) + ((showName && _hasPeriod(code)) ? 8 : 4);
+                return (h * labelScale) + ((showName && _hasPeriod(code)) ? 8 : 4) * padScale;
             };
             const _heightByCode = {};
             const _hhOf = (code) => {
@@ -7672,7 +7682,7 @@
                 // 客家語/梅縣客家語 — touching.) +4 leaves a visible ~8px gap
                 // between stacked labels (owner: "もう少しマージンが必要"). Solved
                 // by placement only — co-located coordinates are NOT moved.
-                return h * 0.5 + 4;
+                return h * 0.5 + 4 * padScale;
             };
 
             // When a filter is active, only ACTIVE labels compete for cell
@@ -7811,7 +7821,7 @@
             // with them. Pull those adjacent labels into the same stack.
             // (User report 2026-05-22: "2つがもっと離れていますが、離れた
             // 後にその場所にある別の言語と表示が被ってしまっているケース".)
-            const STACK_UNIT = labelH + 6;
+            const STACK_UNIT = labelH + 6 * padScale;
             let _mergeChanged = true;
             let _mergeIter = 0;
             while (_mergeChanged && _mergeIter < 5) {
@@ -7970,7 +7980,7 @@
             // text is usually 50-60% of labelW. Height was 0.5+2 (labelH+4);
             // reduced to 0.4+1 (~0.8*labelH+2) for tighter vertical packing.
             const _bbHalfW = labelW * 0.3;
-            const _bbHalfH = labelH * 0.4 + 1;
+            const _bbHalfH = labelH * 0.4 + 1 * padScale;
             // Cap on how far the collision pass can push a label from its
             // cellGroups-assigned target. Beyond this the label is hidden
             // (kept off the map) rather than visually relocated to a
@@ -8012,7 +8022,7 @@
                     }
                     if (!collided) return y;
                     if (dir > 0) {
-                        y = collided.cy + (collided.hh + curHH) + 4;
+                        y = collided.cy + (collided.hh + curHH) + 4 * padScale;
                     } else {
                         y = collided.cy - (collided.hh + curHH) - 4;
                     }

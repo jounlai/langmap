@@ -1,439 +1,143 @@
-# Review B — jiu / pmi / twm (suntb) and dta (Robbeets), commit 6a333f7b
+# Wordmap review #101 — Arabic dialect continuum & Maltese round-2 auditor
 
-Method: every cell in `/home/jounlai/langmap/words/*.js` was matched back to
-`/home/jounlai/langmap-work/lb2/{suntb,rob}_forms.csv` by exact `Value` string;
-the digit→Chao-letter conversion was recomputed from scratch (`5→˥ 4→˦ 3→˧ 2→˨ 1→˩`)
-without using `build.TONE`; the dta Latin→IPA mapping was checked against the CLDF's
-own `Segments` column (its orthography profile).
+## Reviewer self-introduction (ペルソナ自己紹介)
+
+I am a dialectologist of the Arabic continuum (Mashriq–Maghreb–Sahara) and of Maltese, returning for the round-2 audit of the columns first surveyed in review #34 and partially re-touched by the Maghrebi/Berber audit #99. My working references are Watson (2002) *The Phonology and Morphology of Arabic* for emphatics and syllable structure, Holes (2004) *Modern Arabic* for the qāf/jīm isoglosses, Harrell (1962/1966) for Moroccan, Singer (1984) for Tunis Arabic, Taine-Cheikh (Cohen-school, LACITO) for Ḥassāniyya, and Borg & Azzopardi-Alexander (1997) *Maltese* plus Aquilina for the `mt` column. Before writing a single line I grepped the live `words/*.js` to fix the actual remit: the codes present are `ar`, `ar_qur`, `ar_eg`, `ar_lev`, `ar_gulf`, `ar_iq`, `ar_ma`, `ar_tn`, `ar_sd`, `arq` (Algerian), `mey` (Hassaniya) and `mt` — there is no `ar_sa`. I re-read `docs/words/CONTRIBUTING.md` ("Use IPA notation, not the language's native romanization") and the closed adjudications of #34 and #99, and I deliberately do **not** re-open anything held there (Levantine `majj`, the `ar_tn`/`arq` possessive-lemma items, the arq perfective-vs-imperfective convention, `sˤəħħa`, the Moroccan fire article, the Iraqi gilit scope items, the `ar_ma` q/g lexeme split, the `ar_tn` schwa audit). Two columns are effectively *new since wave 10* — the `mey` rows did not exist when #99 was filed — and that freshly added material, plus residual vowel-length omissions in the `arq` column and one Maltese length error that survived three orthography passes, is where the sharp findings below come from. Every Current value was verified verbatim against the live file on the review date.
 
 ---
 
-## 1. Extraction fidelity — mechanically clean
+## Issues found
 
-**NOTE.** No extraction error found. All 47 jiu, 48 pmi, 48 twm and 44 dta real
-cells match the source `Value` for the right `Parameter_ID` and the right
-doculect, character for character. The superscript→digit conversion is exact
-(0 mismatches over 143 cells). The digit→Chao conversion is exact
-(0 mismatches over 143 cells) on an independent recompute. dta's
-č→tʃ / ǯ→dʒ / y→j / ā ō ū→aː oː uː / ':'→ː / hyphen-drop agrees with the CLDF
-`Segments` column on every cell. Defects below are all in what was *carried over*
-or *left out*, not in the copying.
+### 1. mt — cat — `qattus` is missing its long stressed vowel: /ʔatˈtuːs/
+- **File:** words/cat.js line 247
+- **Current:** ["qattus", "ʔattus"]
+- **Expected:** ["qattus", "ʔattuːs"]
+- **Why:** Maltese *qattus* is [ʔatˈtuːs] with a long /uː/ in the stressed final syllable (Borg & Azzopardi-Alexander 1997; Aquilina s.v. *qattus*; Wiktionary gives /ʔatˈtuːs/). The dataset itself proves the length: the cognate Tunisian row in the same file, line 244 `ar_tn: ["قطّوس", "qatˤtˤuːs"]`, carries `uː` — both descend from the same Romance etymon (Sicilian *gattus*-type) with a long final vowel. The `mt` column otherwise marks length faithfully (`id`→`iːt` hand.js:247, `dar`→`daːɾ` house.js:254, `nar`→`naːɾ` fire.js:253), so `ʔattus` is an isolated omission, not a convention.
 
 ---
 
-## 2. BLOCKER — "no first-person-plural pronoun at all" is false; `we` is wrongly dashed in all three suntb rows
-
-**Claim (identical in the `coverageNote` of jiu, pmi and twm):**
-"That wordlist has no BONE concept and no first-person-plural pronoun at all, so
-bone and we are left unattested here rather than filled from a second doculect."
-Backed by `unattestedReason:{...we:'unsourced'...}` and `we: ["—","—"]` in
-`/home/jounlai/langmap/words/we.js` (lines with jiu/pmi/twm).
-
-**What is wrong.** The BONE half is true — I enumerated all 1004 rows of
-`suntb_parameters.csv` and there is no bone/骨 concept (body-part block runs
-255_finger…288_malaria with no bone). The 1PL half is false. The list has **two**
-1PL parameters, and both are filled for all three doculects:
-
-| param | gloss | Jinuo | TaobaPumi | MamaTshona |
-|---|---|---|---|---|
-| `971_we` | we / 我们 (Concepticon WE (EXCLUSIVE)) | `ŋa³³jo³¹` | `a³⁵rə⁵³` | `ŋᴀ¹³rᴀʔ⁵³` |
-| `972_weinclusive` | we (inclusive) / 咱们 | `a³³ŋ̊o³³` | `ɛ̃³⁵rə⁵³` | `ŋᴀ¹³tᴀŋ⁵³` |
-
-(also `970_wetwo` and `975_youpl`, likewise filled.)
-
-**What it should be.** Three `we` cells filled from the same doculect, and —
-since the source itself separates 我们 from 咱们 — all three plausibly routed
-`clusive` the way `dta` is, inclusive first:
-
-- `jiu: ["a33ŋ̊o33 / ŋa33jo31", "a˧˧ŋ̊o˧˧ / ŋa˧˧jo˧˩"]`
-- `pmi: ["ɛ̃35rə53 / a35rə53", "ɛ̃˧˥rə˥˧ / a˧˥rə˥˧"]`
-- `twm: ["ŋᴀ13tᴀŋ53 / ŋᴀ13rᴀʔ53", "ŋᴀ˩˧tᴀŋ˥˧ / ŋᴀ˩˧rᴀʔ˥˧"]`
-
-and the sentence in all three coverageNotes cut back to the BONE claim only.
-(If the map does not want to assert clusivity on Sun's 我们/咱们 pairing, the
-exclusive `971_we` form alone still beats a dash.)
-
-**Verified against:** `/home/jounlai/langmap-work/lb2/suntb_parameters.csv`
-rows `969_i, 970_wetwo, 971_we, 972_weinclusive, 973_yousg, 974_youtwo, 975_youpl`;
-`suntb_forms.csv` filtered on those `Parameter_ID`s for `Jinuo`, `TaobaPumi`,
-`MamaTshona`. Source dataset: https://github.com/lexibank/suntb
+### 2. ar_tn — hello — `أسلامة`/`ʔasleːma`: wrong initial consonant — it is ʕayn, not hamza
+- **File:** words/hello.js line 244
+- **Current:** ["أسلامة", "ʔasleːma"]
+- **Expected:** ["عسلامة", "ʕasleːma"]
+- **Why:** This closes the verification request left open by review #99 (item 19, skipped as "verify against a Tunisian source"). The greeting is a univerbation of على السلامة *ʕa-s-slāma* "(may you be) upon well-being" (Singer 1984 for Tunis; Tunisian learner sources uniformly romanize it *3aslema* — the chat-alphabet ⟨3⟩ is precisely /ʕ/ — and write it عسلامة in Arabic script). Both the surface hamza-alif أ and the IPA `ʔ` are therefore wrong: the initial segment is the voiced pharyngeal /ʕ/ inherited from the preposition على. The fix touches surface and IPA together, keeping them aligned.
 
 ---
 
-## 3. BLOCKER — the pmi `coverageNote` names the wrong doculect, and names the doculect of the language it says it is excluding
-
-**Claim:** `pmi.coverageNote`: "The Pumi doculect is Sun's Northern (Lanping/兰坪)
-form. Southern Pumi (pmj) is a separate ISO code and is not mixed in here."
-
-**What is wrong.** Two things.
-
-(a) The row's data is `TaobaPumi` (Taoba 桃巴, Muli County, Sichuan), not
-anything from Lanping. Proof: `suntb_languages.csv` offers only two Pumi
-doculects, `QinghuaPumi` (qing1238) and `TaobaPumi` (taob1238). Matching the 48
-pmi cells against both gives TaobaPumi 48/48 and QinghuaPumi 0/48. The
-discriminating cells are `i` (`969_i`: Taoba `a³⁵` = the row; Qinghua `ɛ⁵⁵`) and
-`you` (`973_yousg`: Taoba `ȵi³⁵` = the row; Qinghua `nɛ¹³`).
-
-(b) Lanping is not Northern Pumi at all — it is where **Southern** Pumi (pmj) is
-spoken, and Qinghua 箐花 (the doculect the row did *not* use) is a village in
-Hexi township, Lanping. Lu Shaozun's (2001) split: **Northern** 北部方言 (~55,000)
-= Taoba village, Muli, Sichuan + Tuoqi, Ninglang, Yunnan; **Southern** 南部方言
-(~22,000) = Qinghua village, Lanping + Ludian + Xinying, Ninglang. Ethnologue
-agrees: pmi = Muli, Yanyuan, Jiulong (Sichuan) and Ninglang (Yunnan); pmj =
-Lanping, Ludian, Ninglang (Yunnan).
-
-So the ISO code, the coordinates (27.93 / 101.27, Muli) and the English
-`description` ("Northern Pumi as recorded at Taoba in Muli, Sichuan") are all
-**correct**; only the coverageNote is wrong, and it contradicts the row's own
-description.
-
-**What it should be.** "The Pumi doculect is Sun's Taoba (桃巴) form, Muli
-county, Sichuan — the northern dialect. Southern Pumi (pmj), which Sun records
-separately at Qinghua (箐花) in Lanping, is a separate ISO code and is not mixed
-in here."
-
-**Verified against:** https://www.ethnologue.com/language/pmi and
-https://www.ethnologue.com/language/pmj ; 普米语, zh.wikipedia.org
-(https://zh.wikipedia.org/zh-hans/普米语), citing 陆绍尊 2001 dialect split;
-`suntb_languages.csv` lines `QinghuaPumi`/`TaobaPumi`.
+### 3. mey — hello — non-IPA ⟨y⟩ in `ʕalaykum`
+- **File:** words/hello.js line 243
+- **Current:** ["السلام عليكم", "əssalaːm ʕalaykum"]
+- **Expected:** ["السلام عليكم", "əssalaːm ʕalajkum"]
+- **Why:** ⟨y⟩ is a romanization letter, not IPA — in IPA [y] is the front rounded vowel of French *tu*. `docs/words/CONTRIBUTING.md` is explicit: "Use IPA notation, not the language's native romanization." The dataset's own sibling spells the same phrase correctly with the palatal glide /j/: `ar_qur: ["السلام عليكم", "as.salaːmu ʕalajkum"]` (hello.js:102), and every other Arabic row uses /j/ for yāʾ (`ʕajn`, `majːa`, `jaːkəl`). A grep confirms this is the only ⟨y⟩-for-yāʾ in the Arabic columns; it slipped in with the recently added `mey` rows.
 
 ---
 
-## 4. FIX — pmi `countries` lists Lanping, which is pmj territory
-
-**Claim:** `countries:'China (Yunnan: Lanping, Ninglang; Sichuan: Muli)'`.
-
-**What is wrong.** Lanping is Southern Pumi (pmj). Listing it first under pmi
-attributes the other ISO code's home county to this row.
-
-**What it should be.** `China (Sichuan: Muli, Yanyuan, Jiulong; Yunnan: Ninglang)`.
-
-**Verified against:** Ethnologue pmi (Muli, Yanyuan, Jiulong / Ninglang);
-same sources as §3.
+### 4. mey — fire — `ənnar` drops the long /aː/ of *nār*
+- **File:** words/fire.js line 249
+- **Current:** ["النار", "ənnar"]
+- **Expected:** ["النار", "ənnaːr"]
+- **Why:** The ā of نار is etymologically and synchronically long in every Arabic variety — Hassaniya included; Taine-Cheikh's Ḥassāniyya descriptions keep the long-vowel system /aː iː uː/ intact even where short vowels collapse to ə. All nine sibling rows in the same file carry the length: `ar/ar_qur naːr` (102–103), `ar_eg`–`ar_sd` `naːɾ` (243–251), and even Maltese `nar`→`naːɾ` (253). The `mey` column itself marks length elsewhere (`əssalaːm` hello.js:243, `daːr` house.js:250, `waːħəd` one.js:249), so this is an internal slip, not a column convention.
 
 ---
 
-## 5. FIX — `bor` in dta bird and tooth is a borrowing marker, not part of the lexeme
-
-**Claim:** `dta.coverageNote`: "Two entries, bird and tooth, are printed with a
-second element bor whose function the source does not gloss; they are kept as
-printed rather than trimmed." Cells: `bird: ["degi bor","degi bor"]`,
-`tooth: ["sídə bor","sidə bor"]`.
-
-**What is wrong.** `bor` is `bor.` = *borrowing*, a dataset-wide annotation, and
-it is trivially identifiable from the data itself. It occurs in **643 rows across
-~90 languages of all five families** in `rob_forms.csv`, and every single one of
-them is a transparent loanword:
-
-- Korean `lophu bor.` 'rope' (로프 < English *rope*) — note this one still carries
-  the full stop, which is what `bor` is an abbreviation of
-- Korean `san bor` 산 'mountain', `kang bor` 강 'river', `hoswu bor` 호수 'lake',
-  `simcang bor` 심장 'heart', `noy bor` 뇌 'brain' — all Sino-Korean
-- Japanese `namae bor`, `niku bor` 肉, `taiyou bor` 太陽, `nou bor` 脳, `hontou bor` 本当
-- Turkish `ateš bor` (Persian), `kalp bor` (Arabic), `rüzgâr bor` (Persian),
-  `beyaz bor` (Arabic), `tohum bor` (Persian)
-- Dagur itself: `degi bor` 'bird' — and Daur *degii* 'bird' is explicitly a
-  **loan from Ewenki** (Tsumagari, "Dagur", in Janhunen ed., *The Mongolic
-  Languages*), which is exactly why it is flagged.
-
-Nothing lexical can be a shared element of 'bird', 'tooth', 'sky', 'flower',
-'branch', 'throat', 'stick', 'wood', 'fly (n.)' and 'fly (v.)' — which is the
-full set of Dagur rows carrying it. The `Loan` column in the CLDF is empty for
-all of them, i.e. the flag never got parsed out of `Value`; that is a Lexibank
-extraction artefact, not a Daur word.
-
-**What it should be.**
-- `dta bird: ["degi", "degi"]`
-- `dta tooth: ["sídə", "ʃidə"]` (see §11 for the `í`)
-and the coverageNote sentence replaced by a note that the source's `bor.`
-borrowing flag was trimmed.
-
-**Verified against:** `rob_forms.csv` (`Language_ID=Dagur`, `Form` containing
-`bor`: params 20, 30, 80, 93, 109, 128, 156, 208, 233, 238); cross-language
-scan of the same file; Tsumagari, *Dagur*, ch. 6 of Janhunen (ed.) 2003,
-*The Mongolic Languages* (Routledge) — `degii` < Ewenki; Wikipedia
-https://en.wikipedia.org/wiki/Dagur_language.
+### 5. mey — heart — `ɡaɫb` uses ⟨ɫ⟩ instead of the dataset's emphatic notation ⟨lˤ⟩
+- **File:** words/heart.js line 243
+- **Current:** ["قلب", "ɡaɫb"]
+- **Expected:** ["قلب", "ɡalˤb"]
+- **Why:** The /ɡ/ for qāf is correct (Hassaniya is a g-dialect), and an emphatic lateral in this word is defensible — Ḥassāniyya is noted (Taine-Cheikh; cf. Wikipedia's summary of her work) for granting /lˤ/ and /rˤ/ phonemic status. But the dataset transcribes Arabic-type emphasis exclusively with the pharyngealization diacritic ⟨ˤ⟩: `qitˤː` (cat.js:102), `qatˤtˤuːs` (cat.js:244), `ɡutˤː` (cat.js:245), `sˤəħħa` (thanks.js:242), `tˤajjib` (good.js:102). The velarized-l glyph ⟨ɫ⟩ appears nowhere else in any Semitic row (its only uses are Russian, Chukotkan, Scots Gaelic, Venetian, Bavarian — languages where it is the conventional symbol). One-off symbol choices break cross-row comparability; normalize to `lˤ`.
 
 ---
 
-## 6. FIX — twm `five` carries a stray table-rule character `|` into both surface and IPA
-
-**Cell:** `words/five.js` → `twm: ["le31ŋe53|", "le˧˩ŋe˥˧|"]`.
-
-**What is wrong.** The source `Value` for `MamaTshona / 915_five` is
-`le³¹ŋe⁵³|`. The `|` is a digitisation artefact — it appears on 257 rows across
-the whole suntb dataset (e.g. `Anong 130_wolf 'i³¹dzɯŋ⁵⁵|'`,
-`Trung 917_seven 'sɯ³¹ɲĭt⁵⁵|'`, `MamaTshona 919_nine 'tu³¹ku⁵³|'`) and the
-dataset's own `Segments` for this form is `l e ³¹ + ŋ e ⁵³` — no `|`. It is a
-vertical rule / morpheme separator, never a phone. The map is now printing a
-pipe inside an IPA string.
-
-**What it should be.** `twm: ["le31ŋe53", "le˧˩ŋe˥˧"]`.
-
-**Verified against:** `suntb_forms.csv`, `MamaTshona / 915_five`, columns
-`Value` vs `Segments`.
+### 6. mey — drink — surface اشرب and IPA `ʃraːb` encode two different words
+- **File:** words/drink.js line 243
+- **Current:** ["اشرب", "ʃraːb"]
+- **Expected:** ["يشرب", "jəʃrab"]
+- **Why:** The pair is internally incoherent: the surface اشرب (with initial alif) reads as the imperative *išrab* "drink!", while the IPA `ʃraːb` — with no initial vowel and a long /aː/ — is the shape of the **noun** šarāb "beverage", not any finite form of the verb (the Hassaniya perfective is *šṛab* with a short vowel; Taine-Cheikh). Contrast the same column's eat row `mey: ["اكل", "aːkəl"]` (eat.js:243), where the initial alif *is* transcribed — the two mey verb rows treat the same orthographic configuration in opposite ways. Since all nine `ar_*` dialect siblings in drink.js (lines 237–245) use the imperfective 3sg.m (`jiʃɾab`/`jiʃɾəb`), the column-conformant repair is imperfective يشرب /jəʃrab/. (I am not re-opening the held arq perfective-convention item #34-15 — whichever convention wins, the current mey pair is wrong because its two halves disagree with *each other*.)
 
 ---
 
-## 7. FIX — twm `egg` carries a Latin capital `A` into the IPA column
-
-**Cell:** `words/egg.js` → `twm: ["khAʔ53lum53", "khAʔ˥˧lum˥˧"]`.
-
-**What is wrong.** The source `Value` is `khAʔ⁵³lum⁵³` with U+0041 LATIN CAPITAL
-A, a typo for the small-capital `ᴀ` (U+1D00) Sun uses everywhere else in this
-doculect — the row itself has `ᴀ` in 20 other twm cells. The CLDF `Segments`
-normalises it: `kʰ a ʔ ⁵³ + l u m ⁵³`. `A` is not an IPA symbol under any
-reading, and the row's own coverageNote defence ("The source's small-capital ᴀ
-is its own vowel symbol and is kept as printed") does not cover a capital A.
-
-**What it should be.** `twm: ["khᴀʔ53lum53", "kʰᴀʔ˥˧lum˥˧"]` (with §8 applied).
-
-**Verified against:** `suntb_forms.csv`, `MamaTshona / 170_egg`.
+### 7. arq — house — `dar` missing /aː/: Algerian *dār* has a long vowel
+- **File:** words/house.js line 249
+- **Current:** ["دار", "dar"]
+- **Expected:** ["دار", "daːr"]
+- **Why:** Maghrebi short-vowel reduction deletes *short* vowels; the long vowels /aː iː uː/ survive intact (Holes 2004; Harrell 1962 for the sister variety). دار has etymological ā, and every sibling row in the same file marks it: `ar_ma: daːɾ` (248), `mey: daːr` (250), `ar_tn: daːɾ` (251), even Maltese `daːɾ` (254). This is part of a systematic authoring gap: the `arq` column carries **no length mark anywhere**, which also affects `lʕafja` (fire.js:248, vs `ar_ma ʕaːfja` fire.js:247 — the ā of عافية) and arguably `mliħ` (good.js:242, usually *mlīḥ*); issues 8–10 itemize the other clear-cut cases.
 
 ---
 
-## 8. FIX — aspiration is left as bare digraphs in the IPA column of all three suntb rows, against the map's own convention and against the sibling row `acn` in the same commit
-
-**Cells:** 27 of them — jiu 10, pmi 6, twm 11:
-
-- jiu `thi˧˧`, `khɯ˧˧jo˧˧`, `na˧˧kho˥˥`, `mø˧˧khɹa˧˧`, `a˧˧phɹo˧˧`,
-  `li˧˩phjɐ˧˧`, `mi˧˩tsha˧˧`, `tsha˥˥kha˧˩`, `mi˧˧tɕhø˧˧`, `ji˧˩tʃho˥˥`
-- pmi `khɯ˧˥dʐa˧˥`, `khə˧˥ʑi˧˥`, `thiẽ˥˧`, `phʐã˥˥mə˥˧`, `tshi˥˥`, `tɕhyi˥˥mə˥˧`
-- twm `chi˥˧`, `chem˥˧`, `cher˥˥po˥˧`, `chɛʔ˥˧le˧˩ŋe˥˧`, `khᴀ˥˥ru˥˧`,
-  `khAʔ˥˧lum˥˧`, `li˩˧khu˧˩`, `lɛː˥˥thøn˥˥`, `theʔ˥˧`, `tshi˥˧`, `tshᴀ˥˧`
-
-**What is wrong.** In the IPA column `thi` reads as [t]+[h], not [tʰ]. The source's
-digraphs are unambiguously aspirates — the CLDF `Segments` spell every one of
-them out: `911_one theʔ⁵³ → tʰ e ʔ ⁵³`; `119_dog chi⁵³ → cʰ i ⁵³`;
-`348_house chem⁵³ → cʰ e m ⁵³`; `840_white phʐã⁵⁵mə⁵³ → pʰ ʐ ã ⁵⁵ + m ə ⁵³`;
-`10_water ji³¹tʃho⁵⁵ → j i ³¹ + tʃʰ o ⁵⁵`; `860_good tɕhyi⁵⁵mə⁵³ → tɕʰ y i ⁵⁵ …`.
-Note also that Sun himself writes `ʰ` elsewhere in the same doculects
-(`Jinuo 402_liquor tɕɛ⁴²pʰɯ³³`), so the digraph is not even a consistent source
-convention.
-
-Across `/home/jounlai/langmap/words/`, **338 rows / 1889 occurrences** use `ʰ`;
-only 10 rows anywhere carry a bare `Ch`+vowel digraph in the IPA column, and
-jiu/pmi/twm are three of the four worst. **`acn`, added from the same suntb CLDF
-in the immediately preceding commit, converts to `ʰ` (5 cells) and has zero
-digraphs.** So this batch is internally inconsistent with itself.
-
-**What it should be.** `ph th kh ch tsh tʃh tɕh` → `pʰ tʰ kʰ cʰ tsʰ tʃʰ tɕʰ` in
-the IPA column only (surfaces keep the source spelling), e.g.
-jiu one `tʰi˧˧`, twm dog `cʰi˥˧`, pmi good `tɕʰyi˥˥mə˥˧`.
-
-**Verified against:** `suntb_forms.csv` `Segments` column for each cell listed;
-`grep` census over `/home/jounlai/langmap/words/*.js`.
+### 8. arq — hello — `ssalam` missing /aː/: *salām*
+- **File:** words/hello.js line 242
+- **Current:** ["السلام", "ssalam"]
+- **Expected:** ["السلام", "ssalaːm"]
+- **Why:** Same word, same file, two transcriptions: `ar_ma: ["السلام", "ssalaːm"]` (hello.js:241) marks the ā of سلام, the Algerian row does not; `mey: əssalaːm` (243) and `ar_sd: salaːm` (245) also carry it. The ā of *salām* is long in all Maghrebi varieties — Algerian vowel reduction targets the short vowels only (Holes 2004). Part of the systematic arq length gap documented in issue 7.
 
 ---
 
-## 9. FIX — pmi keeps two non-IPA source graphs in the IPA column
-
-**Cells:** `sun pmi ["bu̵53","bu̵˥˧"]`, `snow pmi ["pu̵53","pu̵˥˧"]`,
-`tooth pmi ["ʂu̵53","ʂu̵˥˧"]`, `iron pmi ["ɕī55","ɕī˥˥"]`.
-
-**What is wrong.** `u̵` is u + U+0335 COMBINING SHORT STROKE OVERLAY, a Chinese
-typographic stand-in for the close central unrounded vowel; the IPA letter is
-`ʉ` (U+0289), and the CLDF profile says so: `2_sun bu̵⁵³ → b ʉ ⁵³`,
-`9_snow → p ʉ ⁵³`, `244_tooth → ʂ ʉ ⁵³`. `ī` (i + macron) is not IPA either —
-a macron is not a length or quality mark in IPA; the profile maps it to plain i
-(`38_iron ɕī⁵⁵ → ɕ ī/i ⁵⁵`). Unlike twm's `ᴀ`, neither is declared in the
-coverageNote, so there is no "kept as printed" policy covering them.
-
-**What it should be.** IPA column: `bʉ˥˧`, `pʉ˥˧`, `ʂʉ˥˧`, `ɕi˥˥`
-(surfaces may keep `u̵` / `ī`). Same call would apply to `ɣiã` in pmi `nose`,
-which the profile reads `ɣ j ã`.
-
-**Verified against:** `suntb_forms.csv` `Segments`/`Graphemes` for
-`TaobaPumi 2_sun, 9_snow, 38_iron, 244_tooth, 240_nose`.
+### 9. arq — father — `baba` missing /aː/: *bābā* vs sibling `ar_tn baːba`
+- **File:** words/father.js line 242
+- **Current:** ["بابا", "baba"]
+- **Expected:** ["بابا", "baːba"]
+- **Why:** Direct sibling contradiction in the same file: the Tunisian row gives the identical Maghrebi kinship word as `ar_tn: ["بابا", "baːba"]` (father.js:244) with the long first vowel, the Algerian row strips it. بابا is written with two alifs precisely because the vowels are long; the stressed first syllable is [baː] across Maghrebi (Harrell 1962 s.v. *bba/baba*). (Distinct from the *held* Neo-Aramaic `aii baba` case in review #36, where both quantities are attested — here the in-file Maghrebi sibling fixes the convention.) Part of the arq length gap (issue 7).
 
 ---
 
-## 10. FIX — twm `speakers:'~10K in China'` is roughly an order of magnitude too high, and contradicts the row's own note
-
-**Claim:** `speakers:'~10K in China (Monpa nationality ~11K)'`.
-
-**What is wrong.** The nationality figure (~11K; 10,561 at the 2010 census) is
-right, but the row's own coverageNote says that nationality "covers two mutually
-unintelligible languages", of which this row is one — so assigning ~10K of the
-~11K to twm alone leaves essentially nothing for the Motuo Tshangla half, which
-is in fact the larger of the two. Chinese sources put 墨脱门巴语 (Motuo, Tshangla)
-at ~5,000 speakers alone. Ethnologue gives **1,300 in China (2000 census)** for
-twm. Bodt & Hyslop, working from Lu (2002) on precisely this Mama doculect,
-report 612 Monpa in the census and 527 Monpa speakers in Tshona/Cuona county.
-Nearly all twm speakers are on the Indian side: ~9,100 in India (2006) per
-Ethnologue, with Chinese sources quoting 3万多 for 错那门巴语 counting Tawang.
-
-**What it should be.** Something like
-`speakers:'~1.3K in China (2000 census); ~10K worldwide, mostly Tawang, India'`,
-with the Monpa-nationality figure kept as the separate parenthetical it already
-is. The English `description`'s "The Monpa nationality of China numbers about
-11,000" is fine as written and should stay.
-
-**Verified against:** https://www.ethnologue.com/language/twm/ ;
-门巴族 (2010 census 10,561) https://zh.wikipedia.org/zh-cn/门巴族 ;
-门巴语 (墨脱门巴语 ~5,000; 错那门巴语 ~3万多 incl. Tawang)
-https://baike.baidu.com/item/门巴语 ; Bodt & Hyslop, "East Bodish revisited"
-supplement (Zenodo 6559622) and Hyslop, "Dzala and Dakpa form a coherent
-subgroup within East Bodish".
+### 10. arq — one — `waħəd` missing /aː/: *wāḥəd*
+- **File:** words/one.js line 248
+- **Current:** ["واحد", "waħəd"]
+- **Expected:** ["واحد", "waːħəd"]
+- **Why:** Three Maghrebi/Saharan siblings in the same file transcribe the same lexeme with the long ā of واحد: `ar_ma: waːħəd` (247), `mey: waːħəd` (249), `ar_tn: waːħəd` (250). The Algerian form is likewise *wāḥəd* — the first-syllable ā derives from the CāCiC active-participle template and is not subject to Maghrebi short-vowel reduction (Holes 2004; Harrell 1962). The schwa in the second syllable is already correct; only the length mark is missing. Part of the arq length gap (issue 7).
 
 ---
 
-## 11. FIX — dta `you` loses the acute that marks the postalveolar; the IPA `si` is the wrong word
-
-**Cells:** `you dta: ["sí","si"]`, and consequentially `tooth dta: ["sídə bor","sidə bor"]`.
-
-**What is wrong.** The Daur 2SG pronoun is **[ʃiː]** — Cyrillic ший *xii*,
-Latin *šii*. Robbeets' Altaicist Latin marks the postalveolar with an acute
-(it also writes `śinken` 'new' = *šinken*, `ḿagə` 'meat'); the row's `TR` table
-maps `í→i` and so prints `si`, which is a different syllable. The CLDF
-`Segments` does the same collapse (`s í/i`), so the row is faithfully copying a
-lossy profile — but the map's IPA column is supposed to be pronounceable, and
-`si` is not how Daur says 'you'.
-
-**What it should be.** `you dta: ["sí", "ʃiː"]` (or `ʃi` if length is not being
-carried), `tooth dta: ["sídə", "ʃidə"]`. If the acute is instead treated as
-uninterpretable, the honest move is to say so in the coverageNote rather than
-silently drop it — the current note lists the whole mapping rule and omits `í`.
-
-**Verified against:** https://en.wikipedia.org/wiki/Dagur_language personal
-pronoun table (1SG бий *bii*, 2SG ший *xii*, 1PL incl. Бид *bid*, excl. Баа
-*baa*, 2PL Таа *taa*); Tsumagari, *Dagur*, in Janhunen (ed.) 2003.
+### 11. ar_ma (and ar_tn) — moon — `qmɐɾ` uses the one-off vowel symbol ⟨ɐ⟩
+- **File:** words/moon.js line 247
+- **Current:** ["قمر", "qmɐɾ"]
+- **Expected:** ["قمر", "qməɾ"]
+- **Why:** A grep over all Arabic rows shows ⟨ɐ⟩ occurs **only** in these two moon entries (moon.js:247 `ar_ma`, moon.js:250 `ar_tn`); everywhere else it belongs to the Bavarian column, where it is conventional. For `ar_ma` the reduced reflex of short *a* is consistently written ə throughout the dataset — `ʃəms` (sun.js:247), `qəlb` (heart.js:241), `kəlb` (dog.js:241), `ʃəʒɾa` (tree.js:241) — and Harrell (1962, *A Short Reference Grammar of Moroccan Arabic*; dictionary form *qmeṛ*) confirms /qmər/ for Moroccan "moon", so `qməɾ` is both source-accurate and internally consistent. The parallel `ar_tn` row at moon.js line 250 should be normalized in the same edit to `["قمر", "qmaɾ"]`, since the Tunis short *a* is kept as ⟨a⟩ in this dataset (`qalb` heart.js:244, `kalb` dog.js:244, `ʃams` sun.js:250; Singer 1984 *qmar*). Note this is purely a symbol-normalization finding; it does not re-open the held #99-11 (q vs g lexeme realization) or #99-20 (ar_tn schwa audit) items.
 
 ---
 
-## 12. FIX — dta `script` field contradicts the row's own description and omits the script Daur was actually written in
-
-**Claim:** `script:'Unwritten (Latin and Cyrillic schemes proposed)'`.
-
-**What is wrong.** Daur was written with the **Manchu script** through the Qing
-— an actual historical orthography, not a proposal — and the row's own English
-description says exactly that ("Manchu script, Cyrillic and Latin schemes have
-all been tried"). The `script` field drops the Manchu script and downgrades the
-rest to "proposed".
-
-**What it should be.** `script:'No standard orthography (Manchu script
-historically; Latin and Cyrillic schemes tried)'`.
-
-**Verified against:** https://en.wikipedia.org/wiki/Dagur_language ("During the
-time of the Qing dynasty, Dagur was written with the Manchu alphabet");
-https://www.omniglot.com/writing/daur.htm .
+*All line numbers reference the state of the files as of the review date (2026-06-11). No data files were modified.*
 
 ---
 
-## 13. FIX — `rain` is in both sources for all four rows and was left empty
+## Worker round-1 response (作業者round-1)
 
-**Cells:** `words/rain.js` has no jiu / pmi / twm / dta entry. `rain` is one of
-the better-covered concepts on the map (880 rows).
+All 11 findings are clear data errors, internal inconsistencies, or symbol normalizations with strong in-file sibling evidence and cited sources (Borg & Azzopardi-Alexander, Holes, Harrell, Singer, Taine-Cheikh). None re-open held cross-school convention items. All applied.
 
-**What is wrong.** Nothing in the coverageNotes explains the gap, and the concept
-is present and filled in both sources:
+- **101-1** mt cat: `ʔattus` → `ʔattuːs` (long stressed /uː/; sibling ar_tn `qatˤtˤuːs`). Applied by orchestrator this round.
+- **101-2** ar_tn hello: `["أسلامة","ʔasleːma"]` → `["عسلامة","ʕasleːma"]` (univerbation of على السلامة *ʕa-s-slāma*; initial /ʕ/, chat-alphabet ⟨3⟩; Singer 1984). Surface + IPA. Applied by orchestrator this round.
+- **101-3** mey hello: non-IPA ⟨y⟩ → /j/ `ʕalajkum` (CONTRIBUTING: IPA not romanization; sibling ar_qur `ʕalajkum`). Applied by orchestrator this round.
+- **101-4** mey fire: `ənnar` → `ənnaːr` (long ā of نار; all nine siblings carry length). Applied by orchestrator this round.
+- **101-5** mey heart: `ɡaɫb` → `ɡalˤb` (normalize ⟨ɫ⟩ to dataset emphatic ⟨lˤ⟩; ⟨ɫ⟩ used nowhere else in Semitic rows). Applied by orchestrator this round.
+- **101-6** mey drink: `["اشرب","ʃraːb"]` → `["يشرب","jəʃrab"]` (current pair internally incoherent — surface imperative vs noun-shape IPA; all dialect siblings use imperfective 3sg.m يشرب; Hassaniya perfective is short *šṛab*, Taine-Cheikh). Surface + IPA. Applied by orchestrator this round.
+- **101-7** arq house: `dar` → `daːr` (long ā survives Maghrebi reduction; siblings ar_ma/mey/ar_tn/mt all `daːr`). Applied by orchestrator this round.
+- **101-8** arq hello: `ssalam` → `ssalaːm` (sibling ar_ma `ssalaːm`). Applied by orchestrator this round.
+- **101-9** arq father: `baba` → `baːba` (sibling ar_tn `baːba`; Harrell). Applied by orchestrator this round.
+- **101-10** arq one: `waħəd` → `waːħəd` (CāCiC template ā; siblings ar_ma/mey/ar_tn `waːħəd`). Applied by orchestrator this round.
+- **101-11** moon: ar_ma `qmɐɾ` → `qməɾ` and ar_tn `qmɐɾ` → `qmaɾ` (one-off ⟨ɐ⟩ normalized; ar_ma reduces short a to ə, ar_tn keeps a; Harrell, Singer). Applied by orchestrator this round.
 
-| row | source param | value | cell would be |
-|---|---|---|---|
-| jiu | `8_rain` | `mi³¹tha⁵⁵` | `["mi31tha55","mi˧˩tʰa˥˥"]` |
-| pmi | `8_rain` | `gui⁵³` | `["gui53","gui˥˧"]` |
-| twm | `8_rain` | `nᴀm¹³` | `["nᴀm13","nᴀm˩˧"]` |
-| dta | `13_rainn` | `huar` | `["huar","huar"]` |
-
-Three further map concepts are likewise available and unused in suntb for all
-three rows — `125_bear` (jiu `a³³ø⁴⁴`, pmi `guẽ⁵⁵`, twm `ɔm¹³`), `402_liquor`
-= wine (jiu `tɕɛ⁴²pʰɯ³³`, pmi `tɕɛ⁵⁵tɕhi³⁵`, twm `tɕhᴀŋ⁵³`) and `282_excrement`
-= poop (jiu `ɑ³³khɹi³³`, pmi `xe⁵³`, twm `ȵin¹³`). `snow` is genuinely absent
-for Jinuo only (`9_snow` has no Jinuo row) — that omission is correct.
-
-**Verified against:** `suntb_forms.csv` / `rob_forms.csv` for the params listed.
+Open items left for reviewer: none.
 
 ---
 
-## 14. NOTE — the dta WE cell is correct
+## Reviewer round-2 response (再評価 round-2)
 
-`we dta: ["bide / ba:", "bide / baː"]`, routed `clusive`. Verified, not assumed:
-Daur is the one modern Mongolic language that keeps the Proto-Mongolic
-inclusive/exclusive opposition intact — *bide* / *bid* is the **inclusive**
-(< \*bi+ta 'I and you' > \*bida) and *baː* / *baa* the **exclusive** (< \*ba : \*man-).
-Wikipedia's Dagur pronoun table gives 1PL incl. Бид *bid*, excl. Баа *baa*, and
-states "Dagur has a pronominal system that distinguishes between first person
-plural inclusive /bed/ and exclusive /baː/". Janhunen, *Proto-Mongolic*
-(Janhunen ed. 2003, ch. 1): "\*ba : \*man- was restricted to the exclusive
-function… The only modern language preserving the original set is Dagur."
-Inclusive-first ordering matches `words/we.js`'s stated convention. No change.
+I re-grepped every cited file on the live tree (2026-06-11). All 11 fixes are present verbatim in the data. Per-item adjudication:
 
-One wording quibble: the coverageNote says "WE is printed exclusive-first as
-`ba: / bide`". The source does not print it as one string — `249_1plpronoun`
-has two separate unlabelled form rows, and it never marks either as inclusive
-or exclusive. The clusivity assignment is the row's own (correct) inference and
-the note reads as if the source supplied it.
+- **101-1** ✓ `words/cat.js:247` now `mt: ["qattus", "ʔattuːs"]` — long /uː/ restored, matches sibling `ar_tn qatˤtˤuːs`.
+- **101-2** ✓ `words/hello.js:244` now `ar_tn: ["عسلامة", "ʕasleːma"]` — surface ʕayn + IPA /ʕ/ both corrected from the hamza forms.
+- **101-3** ✓ `words/hello.js:243` now `mey: ["السلام عليكم", "əssalaːm ʕalajkum"]` — non-IPA ⟨y⟩ → /j/; confirmed no remaining `ʕalaykum` in file.
+- **101-4** ✓ `words/fire.js:249` now `mey: ["النار", "ənnaːr"]` — long ā restored.
+- **101-5** ✓ `words/heart.js:243` now `mey: ["قلب", "ɡalˤb"]` — ⟨ɫ⟩ normalized to ⟨lˤ⟩. Grep confirms residual ⟨ɫ⟩ survives only in Chukotkan (ckt/kpy) and Kurdish (ckb/sdh) rows, where it is conventional — no Semitic row uses it now.
+- **101-6** ✓ `words/drink.js:243` now `mey: ["يشرب", "jəʃrab"]` — surface+IPA both repaired to imperfective 3sg.m, consistent with all nine `ar_*` siblings.
+- **101-7** ✓ `words/house.js:249` now `arq: ["دار", "daːr"]`.
+- **101-8** ✓ `words/hello.js:242` now `arq: ["السلام", "ssalaːm"]`.
+- **101-9** ✓ `words/father.js:242` now `arq: ["بابا", "baːba"]`, matching sibling `ar_tn baːba` (father.js:244).
+- **101-10** ✓ `words/one.js:248` now `arq: ["واحد", "waːħəd"]`.
+- **101-11** ✓ `words/moon.js:247` now `ar_ma: ["قمر", "qməɾ"]` and `words/moon.js:250` `ar_tn: ["قمر", "qmaɾ"]` — one-off ⟨ɐ⟩ removed. Grep confirms residual ⟨ɐ⟩ survives only in pt/haw/zh_tang rows, not in any Arabic row.
 
-**Sources:** https://en.wikipedia.org/wiki/Dagur_language ;
-Janhunen (ed.) 2003, *The Mongolic Languages*, ch. 1 (Proto-Mongolic) and ch. 6
-(Dagur, Tsumagari), pp. 1ff / 129ff.
+New issues raised this round: none. Verification surfaced no new errors in the touched columns.
 
----
+Scorecard: 11 accepted (✓), 0 partial, 0 rejected. All clear errors fixed and verified in live data.
 
-## 15. NOTE — an existing row contradicts §14 and one of the two must be wrong
-
-`words/we.js` line ~1259: `sce: ["matan / bijien", "matan / pitɕiən"]`, routed
-`clusive`, i.e. Santa/Dongxian *matan* = inclusive, *bijien* = exclusive. Those
-are the same two Mongolic pronoun sets as Daur's, assigned the opposite way:
-`rob_forms.csv` gives Dongxian `249_1plpronoun` = `matan` (the \*ma-/\*ba-
-exclusive set) and `biʥiən` (the \*bida inclusive set). Under the Proto-Mongolic
-correspondence in §14, `sce` looks reversed. Out of scope for this review, but
-it is directly comparable and should not be left contradicting the new dta row.
-
----
-
-## 16. NOTE — the twm doculect identification is right, despite Glottolog
-
-`suntb_languages.csv` tags the source doculect `MamaTshona` with Glottocode
-`dzal1238` / ISO `dzl` (Dzalakha), not `twm`. The row overrides that, and is
-correct to: Bodt & Hyslop's East Bodish work lists **DkM = Dakpa Mámǎ** among
-the Dakpa varieties and states that "there are two descriptions of the Mama
-dialect, termed Cuònà Ménbà, one a wordlist in Sūn et al. (1991)" — i.e. this
-exact wordlist — with Lu's Wenlang dialect and van Driem's Dakpa as the other
-Dakpa dialects. Glottolog's `dzal1238` itself sits under `dakp1241`, so the two
-tags are not in real conflict. Worth one clause in the coverageNote so the next
-reviewer does not re-open it.
-
-**Sources:** Hyslop, "Dzala and Dakpa form a coherent subgroup within East
-Bodish, and some related thoughts"
-(https://www.researchgate.net/publication/265006711); Bodt & Hyslop, supplement
-to "East Bodish revisited", Zenodo 6559622; https://glottolog.org/resource/languoid/id/dzal1238 .
-
----
-
-## 17. NOTE — twm `hundred` is faithful but will look like an error
-
-`twm hundred: ["chɛʔ53le31ŋe53", …]` literally contains the word for 'five'.
-That is correct: Mama Dakpa counts vigesimally on `chɛʔ` 'score' — `933_forty`
-`chɛʔ⁵³nᴀi¹³` (score×2), `935_sixty` `chɛʔ⁵³sum⁵³` (score×3), `937_eighty`
-`chɛʔ⁵³pli⁵³` (score×4), `939_hundred` `chɛʔ⁵³le³¹ŋe⁵³` (score×5), with
-`930_twenty` `khᴀ⁵⁵li⁵³` < Tibetan ཁལ *khal*. No change; a half-sentence in the
-coverageNote would pre-empt the next reviewer flagging it.
-
----
-
-## 18. NOTE — smaller things, no action required unless convenient
-
-- **jiu `native:'Kino'`.** Sun's own autonym entry (`Jinuo 316_autonym`) is
-  `tɕy³³no³³`, i.e. Jino/Jinuo. "Kino" is an Ethnologue alternate name rather
-  than an endonym rendering; `Jino` would match the source better. Everything
-  else in the jiu row checks out: Youle (攸乐) doculect confirmed
-  (`suntb_languages.csv`: `Jinuo, youl1235, Youle Jinuo, jiu`), ~21K speakers,
-  1979 recognition as the 56th nationality, Loloish/Ngwi classification.
-- **`pmi` autonym.** `TaobaPumi 316_autonym` is `phʐã⁵⁵mə⁵³` — the same word as
-  the row's `white` cell, i.e. Prinmi 'white (people)'. `native:'Prinmi'` is right.
-- **dta `three` `guarwe`.** CLDF `Segments` reads it `g u/w a r w e`, i.e.
-  [gwarwe]; the row keeps `guarwe` in the IPA. Cosmetic.
-- **pmi `dog` `dʐa`** — profile reads `ɖʐ` (voiced retroflex affricate). Cosmetic.
-- **`—` vs absent.** All four rows dash the concepts they declare unattested but
-  are simply absent from concepts they never looked at (`rain`, `bear`, `wine`,
-  `poop`, and `snow` for jiu). Fine as long as §13 is acted on, but the two
-  states currently mean the same thing to a reader.
-- **Book title.** All three suntb coverageNotes cite 《藏缅语语音和词汇》 (Sun
-  Hongkai 1991). That matches the book and matches lexibank/suntb's own
-  attribution ("Sūn's *Tibeto-Burman Phonology and Lexicon*", 1991, Chinese
-  Social Sciences Press). Correct as printed.
-- **jiu/pmi/twm/dta speaker and country figures otherwise check out:** jiu ~21K
-  (Ethnologue), pmi ~54K vs nationality ~43K (2010 census 42,861 — and the
-  description's explanation of the mismatch via Muli Tibetan classification is
-  right), dta ~96K in a nationality of ~132K (2010 census 131,992).
+**File status: CLOSED** — nothing left to address.

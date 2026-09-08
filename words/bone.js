@@ -242,6 +242,8 @@ WORDS.bone = {
     orh: ["gɪramna", "gɪramna"],
     acn: ["a31ʐau31", "a˧˩ʐau˧˩"],
     jiu: ["—", "—"],
+    clk: ["—", "—"],
+    nuf: ["—", "—"],
     pmi: ["—", "—"],
     twm: ["—", "—"],
     dta: ["yas", "jas"],

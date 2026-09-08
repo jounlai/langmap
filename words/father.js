@@ -261,6 +261,8 @@ WORDS.father = {
     orh: ["—", "—"],
     acn: ["teʔ55", "teʔ˥˥"],
     jiu: ["a33pu33", "a˧˧pu˧˧"],
+    clk: ["nɑ55ba55", "nɑ˥˥ba˥˥"],
+    nuf: ["iɑ55bɑ31", "iɑ˥˥bɑ˧˩"],
     pmi: ["suɛ̃33", "suɛ̃˧˧"],
     twm: ["ʔaᴀ55pᴀ53", "ʔaᴀ˥˥pᴀ˥˧"],
     dta: ["ečige", "etʃige"],

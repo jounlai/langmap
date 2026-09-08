@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1182 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1184 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1071,7 +1071,7 @@ const LANG_DATA = {
 },
   swi: { name: 'Sui', native: 'Aiʳ Sui³', lat: 25.98, lng: 107.87, // Miaocao, Sandu, Qiannan, Guizhou
 },
-  mmd: { name: 'Maonan', native: 'Anaam', lat: 25.06, lng: 107.86, // Xiananu, Huanjiang, Guangxi
+  mmd: { name: 'Maonan', native: 'Anaam', lat: 25.06, lng: 107.86, // Xianan (下南), Huanjiang, Guangxi
 },
   mlm: { name: 'Mulam', native: 'Mulam', lat: 24.82, lng: 108.93, // Dongmen, Luocheng, Hechi, Guangxi
 },
@@ -1085,7 +1085,7 @@ const LANG_DATA = {
   // them speak She Chinese, a Sinitic variety; this language has ~1K speakers.
   shx: { name: 'She (Ho Ne)', native: 'Ho Ne', lat: 22.97, lng: 115.34, // Haifeng, eastern Guangdong
 },
-  lic: { name: 'Hlai (Ha)', native: 'Hlai', lat: 18.78, lng: 109.52, // Baoding, Baoting, Hainan
+  lic: { name: 'Hlai (Ha)', native: 'Hlai', lat: 18.75, lng: 109.29, // Baoding village, Baoyou, Ledong, Hainan
 },
   // Bonan — Mongolic, but reshaped by the Gansu-Qinghai (Amdo) Sprachbund it
   // shares with Monguor, Dongxiang, Santa and Eastern Yugur.
@@ -1110,6 +1110,10 @@ const LANG_DATA = {
   // dialect. 'Monpa' in Chinese usage covers this and Tshangla, which are not
   // mutually intelligible.
   twm: { name: 'Tshona Monpa (Dakpa)', native: 'Dakpa', lat: 27.99, lng: 91.95, // Mama, Cuona (Tsona), Shannan, Tibet
+},
+  nuf: { name: 'Nusu', native: 'Nusu', lat: 26.90, lng: 98.87, // Bijiang (now Fugong), Nujiang, Yunnan
+},
+  clk: { name: 'Idu Mishmi', native: 'Idu', lat: 28.66, lng: 97.47, // Zayü (Chayu), Nyingchi, Tibet
 },
   // Daur — the most divergent Mongolic language; one community sits in
   // Tacheng, Xinjiang, 2,000 km west of the rest after an 18th-century

@@ -261,6 +261,8 @@ WORDS.name = {
       orh: ["gərbi", "gərbi"],
       acn: ["a31 nʲiŋ55", "a˧˩ nʲiŋ˥˥"],
       jiu: ["a33mi33", "a˧˧mi˧˧"],
+      clk: ["ɑ55mu55", "ɑ˥˥mu˥˥"],
+      nuf: ["m̥ə̃ʴ35", "m̥ə̃ʴ˧˥"],
       pmi: ["mɛ̃55", "mɛ̃˥˥"],
       twm: ["meŋ13", "meŋ˩˧"],
       dta: ["nera", "nera"],

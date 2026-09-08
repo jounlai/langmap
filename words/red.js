@@ -262,6 +262,8 @@ WORDS.red = {
     orh: ["ʊlaarɪn", "ʊlaarɪn"],
     acn: ["na55", "na˥˥"],
     jiu: ["a33nɯ44", "a˧˧nɯ˦˦"],
+    clk: ["ɕi55nɑ53", "ɕi˥˥nɑ˥˧"],
+    nuf: ["xɹi35ɑ55", "xɹi˧˥ɑ˥˥"],
     pmi: ["ȵɛ55mə53", "ȵɛ˥˥mə˥˧"],
     twm: ["leu55", "leu˥˥"],
     dta: ["ulān", "ulaːn"],

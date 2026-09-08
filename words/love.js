@@ -261,6 +261,8 @@ WORDS.love = {
     orh: ["—", "—"],
     acn: ["—", "—"],
     jiu: ["mo44e33", "mo˦˦e˧˧"],
+    clk: ["we55thu55", "we˥˥tʰu˥˥"],
+    nuf: ["mi35", "mi˧˥"],
     pmi: ["ɣiɛ35", "ɣiɛ˧˥"],
     twm: ["ce55po53", "ce˥˥po˥˧"],
     dta: ["—", "—"],

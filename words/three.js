@@ -263,6 +263,8 @@ WORDS.three = {
     orh: ["ɪlan", "ɪlan"],
     acn: ["sum31", "sum˧˩"],
     jiu: ["sø33", "sø˧˧"],
+    clk: ["kɑ31soŋ55", "kɑ˧˩soŋ˥˥"],
+    nuf: ["sɔ35", "sɔ˧˥"],
     pmi: ["sõ35", "sõ˧˥"],
     twm: ["sum53", "sum˥˧"],
     dta: ["guarwe", "guarwe"],

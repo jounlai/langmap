@@ -265,6 +265,8 @@ WORDS.blood = {
     orh: ["ʃəəkʃə", "ʃəəkʃə"],
     acn: ["sui31", "sui˧˩"],
     jiu: ["a33ɕi44", "a˧˧ɕi˦˦"],
+    clk: ["i55ɹu55", "i˥˥ɹu˥˥"],
+    nuf: ["sui55", "sui˥˥"],
     pmi: ["se35", "se˧˥"],
     twm: ["ceʔ53", "ceʔ˥˧"],
     dta: ["čos", "tʃos"],

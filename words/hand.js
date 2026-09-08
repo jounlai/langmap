@@ -261,6 +261,8 @@ WORDS.hand = {
     orh: ["ŋaala", "ŋaala"],
     acn: ["lɔʔ55", "lɔʔ˥˥"],
     jiu: ["la33pu33", "la˧˧pu˧˧"],
+    clk: ["kɑ31tio53", "kɑ˧˩tio˥˧"],
+    nuf: ["ʔlɑ53", "ʔlɑ˥˧"],
     pmi: ["ʑɛ35", "ʑɛ˧˥"],
     twm: ["lᴀʔ53", "lᴀʔ˥˧"],
     dta: ["gari", "gari"],

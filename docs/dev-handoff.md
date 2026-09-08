@@ -75,49 +75,96 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
 ## China's 56 nationalities — coverage as of 2026-09-08
 
-**49 of 56 have a language row.** Thirteen were added in the 2026-09-06/08 batch:
+**52 of 56 have a language row.** Sixteen were added on 2026-09-06/08:
 `kmc` Dong, `giq` Green Gelao, `shx` She, `peh` Bonan, `orh` Oroqen, `acn` Achang,
-then `lic` Hlai, `swi` Sui, `mmd` Maonan, `jiu` Jino, `pmi` Northern Pumi,
-`twm` Tshona Monpa, `dta` Daur.
+`lic` Hlai, `swi` Sui, `mmd` Maonan, `jiu` Jino, `pmi` Northern Pumi,
+`twm` Tshona Monpa, `dta` Daur, `mlm` Mulam, `nuf` Nusu, `clk` Idu Mishmi.
 
-**Still missing a row (3):**
-- **仫佬 Mulam (`mlm`)** — HELD, not skipped. ABVD has the Dongmen lect and it
-  converts cleanly *except* that no citable tone-value table for Dongmen Mulam
-  could be found; the only one located is Baidu Baike, uncited. Needs 仫佬语简志
-  (1980) or Wang & Zheng's Mulam grammar. Everything else is ready: the 19-UI
-  description is drafted at `~/langmap-work/cn/desc_mlm.py`.
+**Still missing a row (2):**
 - **布朗 Blang (`blr`)** — the obvious proxy is wrong. `peirosaustroasiatic`
   labels its Blang doculect "Wa", and the map already carries Wa (`wbm`) and
   Parauk (`prk`); using it would duplicate an existing row under a new name.
-- **怒 Nu** — the nationality covers four unrelated languages (Nusu, Zauzou,
-  Anong, and a Derung-like variety). `duu` Drung is already on the map and is
-  *not* one of them. Pick a specific one before sourcing.
+- **德昂 De'ang** — the map has `pll` Shwe Palaung, which is Burmese/Thai
+  Palaung. China's De'ang are `rbb` / `pce`, and `deepadungpalaung` covers the
+  former, not the latter.
 
-**Covered only by a stand-in (4)** — the row exists but is a different language
-from the one the nationality speaks:
+**Covered only by a stand-in (2):**
 - **回 Hui** — speaks Chinese; `dng` Dungan is the diaspora variety, not the
   domestic one. Arguably already covered by `zh_*`; a judgement call, not a gap.
 - **塔吉克 Tajik** — the map has `tg` (Tajik of Tajikistan, Persian). China's
-  Tajiks speak **Sarikoli** (`srh`), an Eastern Iranian language. Different
-  branch, not mutually intelligible.
-- **德昂 De'ang** — the map has `pll` Shwe Palaung, which is Burmese/Thai
-  Palaung. China's De'ang are `rbb` / `pce`. `deepadungpalaung` covers the
-  former, not the latter.
-- **珞巴 Lhoba** — the map has `adi` Adi, which is the Indian side. The Chinese
-  Lhoba varieties (Bokar, Yidu, Bengni) are not in it.
+  Tajiks speak **Sarikoli** (`srh`), Eastern Iranian. Different branch, not
+  mutually intelligible. Not in suntb (Tibeto-Burman only); needs another source.
+
+**Resolved since the first pass:** 怒 is now `nuf` Nusu (the nationality covers
+four unrelated languages — Nusu, Anong, Zauzou and a Derung-like variety — so the
+row is Nusu, not "the Nu language"), and 珞巴 is now `clk` Idu Mishmi (same
+situation: Idu, Bokar, Sulong and Tagin are different branches, and the map's
+`adi` is the Indian side of Bokar's language).
 
 **Deliberately skipped:** `tdd` Tai Nuea. Three rival tone-numbering conventions
 in the literature and no way to tell which one a given wordlist uses; the 傣族
 nationality is already covered by `khb` Tai Lue.
 
-**Recipe that worked** (see also §"Adding a language" and §"Filling a word from
-the comparative datasets"): one doculect per row, never mixed to fill a gap;
-tone digits stay in the surface and are converted to Chao letters in the IPA
-only when a *published per-lect table* exists; Swadesh-shaped gaps (cat, love,
-hello, thanks, and heart where the list only has liver) become `—` plus a
+### Two traps this batch hit, worth not re-learning
+
+1. **The tone tables were inside the ABVD language records.** ABVD prints, in
+   each doculect's own record, the tone table from the sketch the wordlist was
+   transcribed from. Two days were spent hunting Norquest, the Routledge volume
+   and Castro for values that were sitting in `abvd_languages.csv`'s `notes`
+   column all along — and they match. **Read that column first.** Mulam had been
+   held back for want of exactly this.
+2. **suntb has two 1PL parameters.** `971_we` (我们) and `972_weinclusive`
+   (咱们). An early read of the parameter list missed both, and three rows were
+   published claiming the wordlist "has no first-person-plural pronoun at all".
+   It has two, and where they differ the row is clusive. BONE really is absent.
+   Related: `bor` in the Robbeets/Transeurasian data is a **borrowing marker**
+   (643 rows, ~90 languages), not part of the lexeme — strip it.
+
+**Recipe** (see also §"Adding a language" and §"Filling a word from the
+comparative datasets"): one doculect per row, never mixed to fill a gap; tone
+digits stay in the surface and are converted to Chao letters in the IPA only
+when a published per-lect table exists; Swadesh-shaped gaps become `—` plus a
 `MODERN_UNSOURCED_ALLOW` entry naming the 简志 volume that would settle it.
-Scripts live in `~/langmap-work/cn/` (`build.py`, `kamsui.py`, `suntb.py`,
-`write_meta.py`, `metas.py`, `desc_*.py`).
+Scripts live in `~/langmap-work/cn/` (`build.py`, `kamsui.py`, `mulam.py`,
+`suntb.py`, `write_meta.py`, `metas*.py`, `desc_*.py`). Rally findings for this
+batch are in `~/langmap-work/rally/`.
+
+**Left on the table, deliberately.** The suntb lists also carry `125_bear` and
+`282_excrement` for all five of jiu/pmi/twm/nuf/clk. `bear` is not added because
+its route needs each cell classified inherited / loan / **taboo**, and the taboo
+call is an etymological judgement no wordlist supplies. `poop` is not added
+because the atlas concept is the informal/childish word and the source glosses
+only neutral 屎; for a language with one word that is probably the same word,
+but "probably" is not a source. Both are one line each if someone settles them.
+
+**Open questions the 2026-09-08 rally raised and did not settle** (all recorded
+here rather than guessed at in the rows):
+- **swi / mmd `one` = `to2` / `tɔ2`.** Possibly the general classifier rather
+  than the numeral — the same Sui list uses `to2` as a classifier at item 97
+  ("bird | to2 nok8"), and ABVD's second-listed Maonan form `dɛu2` is what Lu
+  Tianqiao's own texts use for 'one' (orthographic `dreuz`). Kept because the
+  two languages agree and every alternative in both lists is annotated as a
+  Chinese loan. Worth a look with 水语简志 / 毛南语简志 in hand.
+- **mmd `bird` = `nɔk8`.** The row's tone table is Lu Tianqiao's but the form is
+  Liang Min's via ABVD, and the two disagree on the tone category: Lu writes
+  `nok7`, ABVD `nɔk8`. The row follows ABVD, as its policy says, but this is a
+  live source conflict inside one cell.
+- **mmd `white` = `kwa3`.** The ABVD entry is internally inconsistent — the loan
+  flag sits on `kwa3` while the "Chinese" annotation sits on `pok8`. The row
+  takes the first-listed form and says so; a Maonan dictionary would settle it.
+- **The `LONG` regex in `kamsui.py` and `mulam.py` silently defaults to "short"**
+  on any length notation it does not recognise. It is correct for these four
+  rows only because Sui doubles vowels throughout and Maonan/Mulam use `:`
+  throughout. Make it an assert before reusing it on a fifth list.
+- **Page references not verified:** Routledge *Tai-Kadai* p. 590 and Lu (2008)
+  Table 28 pp. 90–91. The numbers are independently confirmed (Castro JSEALS 4.2
+  Table 1; Lu's own published tone table on maonan.org); only the page numbers
+  are unchecked.
+
+**Note for a future reviewer:** `dta` WE is `bide / ba:` (inclusive first) and
+`sce` Santa WE is `matan / bijien` (also inclusive first). These look like they
+contradict each other on Mongolic *bide, and they do — Santa has reanalysed the
+pair. Both are checked and correct; do not "fix" one to match the other.
 
 ## Outstanding / queued work
 1. **Tier-2 AR/BR languages** (if desired): Kadiwéu, Apinajé, Xerénte, Krahô, Paresí, Wapishana… (many NOT in HG DB → need Wiktionary/grammars).

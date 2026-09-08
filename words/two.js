@@ -261,6 +261,8 @@ WORDS.two = {
       orh: ["dʒuur", "dʒuur"],
       acn: ["sək55", "sək˥˥"],
       jiu: ["ni55", "ni˥˥"],
+      clk: ["kɑ31ni55", "kɑ˧˩ni˥˥"],
+      nuf: ["m̩55", "m̩˥˥"],
       pmi: ["nə35", "nə˧˥"],
       twm: ["nᴀi13", "nᴀi˩˧"],
       dta: ["hoira", "hoira"],

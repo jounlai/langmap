@@ -261,6 +261,8 @@ WORDS.mother = {
     orh: ["—", "—"],
     acn: ["mauʔ51", "mauʔ˥˩"],
     jiu: ["a33mɔ44", "a˧˧mɔ˦˦"],
+    clk: ["nɑ55ni55", "nɑ˥˥ni˥˥"],
+    nuf: ["iɑ55m̩31", "iɑ˥˥m̩˧˩"],
     pmi: ["ma55", "ma˥˥"],
     twm: ["ʔᴀ55mᴀ53", "ʔᴀ˥˥mᴀ˥˧"],
     dta: ["ewe:", "eweː"],

@@ -315,6 +315,8 @@ WORDS.black = {
     orh: ["kɔŋnɔrɪn", "kɔŋnɔrɪn"],
     acn: ["lɔk55", "lɔk˥˥"],
     jiu: ["a33na42", "a˧˧na˦˨"],
+    clk: ["mɑ55", "mɑ˥˥"],
+    nuf: ["nɑ35nɑ53", "nɑ˧˥nɑ˥˧"],
     pmi: ["ȵɛ35mə53", "ȵɛ˧˥mə˥˧"],
     twm: ["plɛː13kᴀn55", "plɛː˩˧kᴀn˥˥"],
     dta: ["xar", "xar"],

@@ -261,6 +261,8 @@ WORDS.fire = {
     orh: ["tɔɣɔ", "tɔɣɔ"],
     acn: ["poi31", "poi˧˩"],
     jiu: ["mi33", "mi˧˧"],
+    clk: ["mɑ55mɹu55", "mɑ˥˥mɹu˥˥"],
+    nuf: ["mi55", "mi˥˥"],
     pmi: ["mɐ35", "mɐ˧˥"],
     twm: ["me13", "me˩˧"],
     dta: ["gali", "gali"],

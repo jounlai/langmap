@@ -600,6 +600,8 @@ WORDS.four = {
     orh: ["dijin", "dijin"],
     acn: ["mi31", "mi˧˩"],
     jiu: ["li33", "li˧˧"],
+    clk: ["kɑ31prɯi55", "kɑ˧˩prɯi˥˥"],
+    nuf: ["vɹi35", "vɹi˧˥"],
     pmi: ["ʐɐ55", "ʐɐ˥˥"],
     twm: ["pli53", "pli˥˧"],
     dta: ["durwe", "durwe"],

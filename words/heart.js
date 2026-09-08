@@ -261,6 +261,8 @@ WORDS.heart = {
     orh: ["mɛɣan", "mɛɣan"],
     acn: ["n̥ʲa55 lum31", "n̥ʲa˥˥ lum˧˩"],
     jiu: ["pe33sɯ33", "pe˧˧sɯ˧˧"],
+    clk: ["ɑ55po55bɹɑ35", "ɑ˥˥po˥˥bɹɑ˧˥"],
+    nuf: ["ʔĩ31lɔ55", "ʔĩ˧˩lɔ˥˥"],
     pmi: ["xuɐ53", "xuɐ˥˧"],
     twm: ["niŋ53", "niŋ˥˧"],
     dta: ["ǯurəgə", "dʒurəgə"],

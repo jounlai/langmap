@@ -261,6 +261,8 @@ WORDS.star = {
       orh: ["ɔʃɪkta", "ɔʃɪkta"],
       acn: ["kʰʐə55", "kʰʐə˥˥"],
       jiu: ["pu33ke33", "pu˧˧ke˧˧"],
+      clk: ["ɑ55nde55kɹu55", "ɑ˥˥nde˥˥kɹu˥˥"],
+      nuf: ["kɹe31lɔ35", "kɹe˧˩lɔ˧˥"],
       pmi: ["dʐə35", "dʐə˧˥"],
       twm: ["kᴀr55mᴀ53", "kᴀr˥˥mᴀ˥˧"],
       dta: ["odə", "odə"],

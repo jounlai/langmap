@@ -246,6 +246,8 @@ WORDS.thanks = {
     asu: ["mwasanga", "mwasaŋɡa"],
     tl: ["salamat", "salamat"],
     agt: ["salamat", "salamat"],
+    itb: ["—", "—"],
+    ivv: ["Dios mamajes", "dios mamahes"],
     mn: ["баярлалаа", "bajarlalaː"],
     sah: ["махтал", "maxtal"],
     tyv: ["четтирдим", "tɕetːirdim"],

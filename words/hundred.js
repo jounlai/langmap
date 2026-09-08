@@ -558,6 +558,8 @@ WORDS.hundred = {
     mdh: ["magatus", "maɡatus"],
     mrw: ["magatos", "maɡatos"],
     agt: ["magatut", "maɡatut"],
+    itb: ["omyatos", "omjatos"],
+    ivv: ["omyatos", "omjatos"],
     ilo: ["sangagasut", "saŋaɡaˈsut"],
     pam: ["dinalan", "dinaːˈlan"],
     pag: ["sanlasos", "sanlaˈsos"],

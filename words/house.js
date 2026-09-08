@@ -246,6 +246,8 @@ WORDS.house = {
     asu: ["nyumba", "ɲumba"],
     tl: ["bahay", "bahaj"],
     agt: ["balay", "balaj"],
+    itb: ["vaxay", "vaɣaj"],
+    ivv: ["vahay", "vahaj"],
     mn: ["гэр", "ɡer"],
     sah: ["дьиэ", "dʒie"],
     tyv: ["бажың", "baʒɯŋ"],

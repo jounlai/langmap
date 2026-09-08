@@ -246,6 +246,8 @@ WORDS.water = {
     asu: ["mende", "mende"],
     tl: ["tubig", "tubiɡ"],
     agt: ["danum", "danum"],
+    itb: ["ranom", "ranom"],
+    ivv: ["danom", "danom"],
     mn: ["ус", "us"],
     sah: ["уу", "uː"],
     tyv: ["суг", "suɣ"],

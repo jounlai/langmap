@@ -252,6 +252,8 @@ WORDS.tongue = {
     asu: ["ulimi", "ulimi"],
     tl: ["dila", "diˈlaʔ"],
     agt: ["hilo", "hilo"],
+    itb: ["rila", "rila"],
+    ivv: ["rida", "rida"],
     mn: ["хэл", "xel"],
     sah: ["тыл", "tɯl"],
     tyv: ["дыл", "dɯl"],

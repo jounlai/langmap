@@ -246,6 +246,8 @@ WORDS.eye = {
     asu: ["iiso", "iːso"],
     tl: ["mata", "mata"],
     agt: ["mata", "mata"],
+    itb: ["mata", "mata"],
+    ivv: ["mata", "mata"],
     mn: ["нүд", "nyd"],
     sah: ["харах", "xarax"],
     tyv: ["карак", "karak"],

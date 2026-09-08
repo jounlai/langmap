@@ -246,6 +246,8 @@ WORDS.love = {
     asu: ["lumba", "lumba"],
     tl: ["pag-ibig", "paɡʔibiɡ"],
     agt: ["ayat", "ʔaˈjat"],
+    itb: ["—", "—"],
+    ivv: ["addaw", "addaw"],
     mn: ["хайр", "xajr"],
     sah: ["таптал", "taptal"],
     tyv: ["ынакшыл", "ɯnakʃɯl"],

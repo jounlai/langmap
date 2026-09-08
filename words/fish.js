@@ -248,6 +248,8 @@ WORDS.fish = {
     asu: ["samaki", "samaki"],
     tl: ["isda", "ʔisˈdaʔ"],
     agt: ["ikan", "ʔiˈkan"],
+    itb: ["among", "amoŋ"],
+    ivv: ["among", "amoŋ"],
     mn: ["загас", "ˈtsaɡas"],
     sah: ["балык", "bɑˈlɯk"],
     tyv: ["балык", "bɑˈlɯq"],

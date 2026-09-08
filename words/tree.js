@@ -246,6 +246,8 @@ WORDS.tree = {
     asu: ["mti", "mti"],
     tl: ["puno", "puno"],
     agt: ["kayo", "kajo"],
+    itb: ["kayoh", "kajoh"],
+    ivv: ["kayo", "kajo"],
     mn: ["мод", "mod"],
     sah: ["мас", "mas"],
     tyv: ["ыяш", "ɯjaʃ"],

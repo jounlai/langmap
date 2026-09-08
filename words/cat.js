@@ -246,6 +246,8 @@ WORDS.cat = {
     asu: ["paka", "paka"],
     tl: ["pusa", "pusa"],
     agt: ["kuti", "kuti"],
+    itb: ["—", "—"],
+    ivv: ["—", "—"],
     mn: ["муур", "muːr"],
     sah: ["куоска", "kuoska"],
     tyv: ["диис", "diːs"],

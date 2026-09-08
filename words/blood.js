@@ -250,6 +250,8 @@ WORDS.blood = {
     asu: ["sakame", "sakame"],
     tl: ["dugo", "duˈɡoʔ"],
     agt: ["dogo", "doɡo"],
+    itb: ["raya", "raja"],
+    ivv: ["raya", "raja"],
     mn: ["цус", "tsus"],
     sah: ["хаан", "xaːn"],
     tyv: ["хан", "χan"],

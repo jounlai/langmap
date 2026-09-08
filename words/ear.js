@@ -636,6 +636,8 @@ WORDS.ear = {
     eve: ["корит", "korit"],
     lzz: ["უჯი", "udʒi"],
     agt: ["talinga", "taˈliŋa"],
+    itb: ["talinya", "taliɲa"],
+    ivv: ["tadinya", "tadiɲa"],
     woe: ["talinga", "taˈliŋa"],
     pkp: ["talinga", "taˈliŋa"],
     tkl: ["taliga", "taˈliŋa"],

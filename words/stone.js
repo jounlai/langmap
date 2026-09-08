@@ -169,6 +169,8 @@ WORDS.stone = {
     sw: ["jiwe", "ˈdʒiwe"],
     tl: ["bato", "baˈtoʔ"],
     agt: ["batu", "batu"],
+    itb: ["vato", "vato"],
+    ivv: ["bato", "bato"],
     mn: ["чулуу", "tʃuluː"],
     sah: ["таас", "taːs"],
     tyv: ["даш", "daʃ"],

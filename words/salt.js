@@ -940,6 +940,8 @@ WORDS.salt = {
     ckv: ["zemiyan", "zəmijan"],
     bzg: ["sassi", "sasi"],
     agt: ["asin", "ʔaˈsin"],
+    itb: ["asin", "asin"],
+    ivv: ["asin", "asin"],
     mrw: ["asin", "asin"],
     mdh: ["timus", "ˈtimus"],
     gor: ["watingo", "waˈtiŋo"],

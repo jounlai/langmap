@@ -245,6 +245,8 @@ WORDS.sun = {
     sbp: ["liluga", "liluɡa"],
     rwk: ["mlao", "mlao"],    tl: ["araw", "ˈʔaɾaw"],
     agt: ["agew", "ˈʔaɡew"],
+    itb: ["araw", "araw"],
+    ivv: ["araw", "araw"],
     mn: ["нар", "nar"],
     sah: ["күн", "kyn"],
     tyv: ["хүн", "xyn"],

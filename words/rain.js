@@ -829,6 +829,8 @@ WORDS.rain = {
     // Africana, TransNewGuinea.org, Sino-Tibetan (suntb / lam), WOLD ---
     ab: ["ақәа", "akʷʰa"],
     agt: ["udan", "ʔuˈdan"],
+    itb: ["timoy", "timoj"],
+    ivv: ["timoy", "timoj"],
     agu: ["abʼal", "aɓal"],
     ale: ["кимдух̆", "kimdux"],
     atb: ["mau21", "mau˨˩"],

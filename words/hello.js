@@ -246,6 +246,8 @@ WORDS.hello = {
     asu: ["shiloi", "ʃiloi"],
     tl: ["kamusta", "kamusta"],
     agt: ["kumusta", "kumusta"],
+    itb: ["—", "—"],
+    ivv: ["Kapian capa nu dios", "kapian tʃapa nu dios"],
     mn: ["сайн уу", "sajn uː"],
     sah: ["дорообо", "doroːbo"],
     tyv: ["экии", "ekiː"],

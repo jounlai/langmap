@@ -247,6 +247,8 @@ WORDS.red = {
     asu: ["nkundu", "nkundu"],
     tl: ["pula", "puˈlaʔ"],
     agt: ["malabbaga", "malabˈbaɡa"],
+    itb: ["mavayah", "mavajah"],
+    ivv: ["mavaya", "mavaja"],
     mn: ["улаан", "ʊˈɮaːŋ"],
     sah: ["кыһыл", "qɯˈhɯl"],
     tyv: ["кызыл", "qɯˈzɯl"],

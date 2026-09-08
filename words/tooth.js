@@ -270,6 +270,8 @@ WORDS.tooth = {
     asu: ["jino", "dʒino"],
     tl: ["ngipin", "ŋiˈpin"],
     agt: ["ngipon", "ŋipon"],
+    itb: ["nyipen", "ɲipɨn"],
+    ivv: ["nyipen", "ɲipɨn"],
     mn: ["шүд", "ʃyd"],
     sah: ["тиис", "tiːs"],
     tyv: ["диш", "diʃ"],

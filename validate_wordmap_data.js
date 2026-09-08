@@ -887,7 +887,22 @@ for (const code of codes) {
             //   Dictionary, print only; ASJP's 'hun' could not be corroborated
             //   and the curriculum workbook yields only the possessive prefix.
             //   yiz.we — Azhe. No ASJP, Grambank, WALS or LaPolla datum exists.
+            //   ivv.cat, itb.{cat,heart,love,hello,thanks} — Ivatan and
+            //   Itbayaten (Batanes). Both rows come from the two published
+            //   Batanic wordlists (Tsuchida/Yamada/Moriguchi 1987 for the
+            //   spelling, Reid 1971 for the phonemic check), and a comparative
+            //   wordlist is Swadesh-shaped: ABVD's 210 concepts contain no CAT,
+            //   HEART, LOVE, and no greetings at all. Also checked: English
+            //   Wiktionary (Ivatan has 120 lemmas, none of these; Itbayaten has
+            //   ZERO entries), Wiktionary's translation tables for cat/heart/
+            //   love (no ivv), the en.wikipedia Ivatan article (its phrase list
+            //   gives hello/thanks for Ivatan, which are used, but nothing for
+            //   Itbayaten and no cat), and Webonary (403). Settling them needs
+            //   Yamada, Itbayat-English Dictionary (1998) and an Ivatan
+            //   dictionary (Hidalgo & Hidalgo 1971), both print-only.
             const MODERN_UNSOURCED_ALLOW = {
+                ivv: new Set(['cat']),
+                itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ker: new Set(['red']),
                 kmu: new Set(['tongue']),
                 nlc: new Set(['tongue']),

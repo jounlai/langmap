@@ -246,6 +246,8 @@ WORDS.moon = {
     asu: ["mwezi", "mwezi"],
     tl: ["buwan", "buwan"],
     agt: ["bulan", "bulan"],
+    itb: ["voxan", "voɣan"],
+    ivv: ["vohan", "vohan"],
     mn: ["сар", "sar"],
     sah: ["ый", "ɯj"],
     tyv: ["ай", "aj"],

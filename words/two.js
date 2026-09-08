@@ -246,6 +246,8 @@ WORDS.two = {
       asu: ["avili", "aβili"],
       tl: ["dalawa", "dalaˈwa"],
       agt: ["duwa", "ˈduwa"],
+      itb: ["doha", "doha"],
+      ivv: ["dadwa", "dadwa"],
       mn: ["хоёр", "xɔˈjɔr"],
       sah: ["икки", "ikˈki"],
       tyv: ["ийи", "iˈji"],

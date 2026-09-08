@@ -186,6 +186,8 @@ WORDS.five = {
     nym: ["taano", "taːno"],
     tl: ["lima", "lima"],
     agt: ["lima", "lima"],
+    itb: ["lima", "lima"],
+    ivv: ["lima", "lima"],
     mn: ["таван", "tʰawaŋ"],
     sah: ["биэс", "bies"],
     tyv: ["беш", "beʃ"],

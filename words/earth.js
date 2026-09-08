@@ -934,6 +934,8 @@ WORDS.earth = {
     emi: ["kosa", "kosa"],
     yap: ["buut'", "buːtʼ"],
     agt: ["lutak", "lutak"],
+    itb: ["tana", "tana"],
+    ivv: ["tana", "tana"],
     pmt: ["repo", "repo"],
     hot: ["yalak", "jalak"],
     hop: ["tutskwa", "ˈtɨtskʷa"],

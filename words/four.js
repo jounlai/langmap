@@ -740,6 +740,8 @@ WORDS.four = {
     tum: ["tunayi", "tunaji"],
     bej: ["fadhig", "faɖiɡ"],
     agt: ["appat", "apːaːt"],
+    itb: ["a'pat", "aʔpat"],
+    ivv: ["a'pat", "aʔpat"],
     spp: ["sicyɛɛre", "sitʃɛːre"],
     cay: ["kéih", "keih"],
     nbl: ["kune", "kunɛ"],

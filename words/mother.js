@@ -246,6 +246,8 @@ WORDS.mother = {
     asu: ["mama", "mama"],
     tl: ["ina", "ʔiˈna"],
     agt: ["ina", "ʔiˈna"],
+    itb: ["ina", "ina"],
+    ivv: ["ina", "ina"],
     mn: ["ээж", "eːdʒ"],
     sah: ["ийэ", "ije"],
     tyv: ["ава", "ava"],

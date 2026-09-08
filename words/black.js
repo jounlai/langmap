@@ -216,6 +216,8 @@ WORDS.black = {
     jv: ["ireng", "irəŋ"],
     su: ["hideung", "hidəuŋ"],
     tl: ["itim", "ʔiˈtim"],
+    itb: ["mavaeng", "mavaɨŋ"],
+    ivv: ["mavaheng", "mavahɨŋ"],
     ceb: ["itom", "iˈtom"],
     mg: ["mainty", "ˈmaintɨ"],
     haw: ["ʻeleʻele", "ʔeleˈʔele"],

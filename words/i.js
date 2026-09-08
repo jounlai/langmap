@@ -246,6 +246,8 @@ WORDS.i = {
       asu: ["mine", "mine"],
       tl: ["ako", "ʔaˈko"],
       agt: ["sikán", "siˈkan"],
+      itb: ["yaken", "jakɨn"],
+      ivv: ["yaken", "jakɨn"],
       mn: ["би", "bi"],
       sah: ["мин", "min"],
       tyv: ["мен", "men"],

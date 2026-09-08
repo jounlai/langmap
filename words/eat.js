@@ -246,6 +246,8 @@ WORDS.eat = {
     asu: ["kurya", "kuɾja"],
     tl: ["kumain", "kumaˈʔin"],
     agt: ["mangan", "maŋan"],
+    itb: ["koman", "koman"],
+    ivv: ["koman", "koman"],
     mn: ["идэх", "idex"],
     sah: ["сиэ", "sie"],
     tyv: ["чиир", "tɕiːr"],

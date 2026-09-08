@@ -156,6 +156,8 @@ WORDS.sleep = {
     prs: ["خوابیدن", "xɑbiˈdan"],
     sw: ["kulala", "kulala"],
     tl: ["matulog", "mɐˈtuloɡ"],
+    itb: ["makahicex", "makahitʃɨɣ"],
+    ivv: ["makayceh", "makajtʃɨh"],
     mn: ["унтах", "ʊntaχ"],
     sah: ["утуй", "uˈtuj"],
     tyv: ["удуур", "uˈduːr"],

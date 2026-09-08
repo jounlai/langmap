@@ -219,6 +219,8 @@ WORDS.white = {
     asu: ["jewa", "dʒewa"],
     tl: ["puti", "puˈtɪʔ"],
     agt: ["puhaw", "puhaw"],
+    itb: ["mahilak", "mahilak"],
+    ivv: ["maydak", "majdak"],
     mn: ["цагаан", "tsʰaɡaːn"],
     sah: ["үрүҥ", "yryŋ"],
     tyv: ["ак", "ɑq"],

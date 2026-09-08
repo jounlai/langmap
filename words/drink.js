@@ -246,6 +246,8 @@ WORDS.drink = {
     asu: ["kunwa", "kunwa"],
     tl: ["uminom", "ʔumiˈnom"],
     agt: ["uminom", "ʔumiˈnom"],
+    itb: ["ominom", "ominom"],
+    ivv: ["ominom", "ominom"],
     mn: ["уух", "uːx"],
     sah: ["ис", "is"],
     tyv: ["ижер", "iʒer"],

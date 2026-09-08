@@ -246,6 +246,8 @@ WORDS.father = {
     asu: ["baba", "baba"],
     tl: ["ama", "ʔaˈma"],
     agt: ["ama", "ʔaˈma"],
+    itb: ["ama", "ama"],
+    ivv: ["ama", "ama"],
     mn: ["аав", "aːw"],
     sah: ["аҕа", "aʁa"],
     tyv: ["ача", "atɕa"],

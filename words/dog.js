@@ -246,6 +246,8 @@ WORDS.dog = {
     asu: ["mbwa", "mbwa"],
     tl: ["aso", "ˈʔaso"],
     agt: ["atu", "ˈʔatu"],
+    itb: ["tito", "tito"],
+    ivv: ["cito", "tʃito"],
     mn: ["нохой", "nɔxɔj"],
     sah: ["ыт", "ɯt"],
     tyv: ["ыт", "ɯt"],

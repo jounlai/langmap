@@ -246,6 +246,8 @@ WORDS.one = {
     asu: ["imwe", "imwe"],
     tl: ["isa", "ʔiˈsa"],
     agt: ["isa", "ʔiˈsa"],
+    itb: ["a'sa", "aʔsa"],
+    ivv: ["asa", "asa"],
     mn: ["нэг", "neɡ"],
     sah: ["биир", "biːr"],
     tyv: ["бир", "bir"],

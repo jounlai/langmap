@@ -246,6 +246,8 @@ WORDS.hand = {
     asu: ["mkono", "mkono"],
     tl: ["kamay", "kamaj"],
     agt: ["lima", "lima"],
+    itb: ["lima", "lima"],
+    ivv: ["tanoro", "tanoro"],
     mn: ["гар", "ɡar"],
     sah: ["илии", "iliː"],
     tyv: ["хол", "xol"],

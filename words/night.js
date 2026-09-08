@@ -251,6 +251,8 @@ WORDS.night = {
     asu: ["usiku", "usiku"],
     tl: ["gabi", "ɡaˈbi"],
     agt: ["hiklom", "hiklom"],
+    itb: ["a'xep", "aʔɣɨp"],
+    ivv: ["ma'hep", "maʔhɨp"],
     mn: ["шөнө", "ʃønø"],
     sah: ["түүн", "tyːn"],
     tyv: ["дүне", "dyne"],

@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1166 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1168 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -584,6 +584,15 @@ const LANG_DATA = {
   // Central Cagayan Agta — Austronesian (Malayo-Polynesian, Northern Philippine — Negrito-associated speech of Cagayan/Isabela hunter-gatherer communities; one of the small Northern Luzon Agta languages), ~600 (UNESCO: severely endangered), Philippines (Northern Luzon — Cagayan Valley, Isabela Province, Sierra Madre foothills).
   // Sources: Ethnologue 27 'agt'; Glottolog cent2079; Mayfield (1972) Central Cagayan Agta texts (SIL); Reid (2013) Negrito linguistic prehistory.
   agt: { name: 'Central Cagayan Agta', native: 'Agta', lat: 17.70, lng: 121.72, // Cagayan Valley, Isabela Province, Northern Luzon
+},
+  // Batanes — the Batanic (Bashiic) languages. The branch straddles the Bashi
+  // Channel: Ivatan and Itbayaten's closest relative is Yami/Tao on Orchid
+  // Island, Taiwan, so the family boundary here is not the national one.
+  // Sources: Tsuchida, Yamada & Moriguchi (1987) Lists of Selected Words of Batanic Languages (Univ. of Tokyo);
+  //          Reid (1971) Philippine Minor Languages (Oceanic Linguistics Special Publication 8); Glottolog ivat1242.
+  ivv: { name: 'Ivatan', native: 'Chirin nu Ivatan', lat: 20.45, lng: 121.97, // Basco, Batan Island, Batanes
+},
+  itb: { name: 'Itbayaten', native: 'Chirin nu Itbayaten', lat: 20.78, lng: 121.85, // Itbayat Island, Batanes
 },
   mn: { name: 'Mongolian', native: 'Монгол', lat: 47.91, lng: 106.91, // Ulaanbaatar
 },

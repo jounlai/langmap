@@ -801,6 +801,8 @@ WORDS.bird = {
     // reduplication where the bare stem narrowed to 'chicken' (Maguindanao mánuk
     // 'chicken' beside papanúk 'bird'); burung took over in the Malay orbit.
     agt: ["mamanuk", "maˈmanuk"],
+    itb: ["kangkang", "kaŋkaŋ"],
+    ivv: ["manomanok", "manomanok"],
     mdh: ["papanuk", "papaˈnuk"],
     mrw: ["papanok", "papanok"],
     tsg: ["manuk-manuk", "manukmanuk"],

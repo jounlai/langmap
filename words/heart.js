@@ -246,6 +246,8 @@ WORDS.heart = {
     asu: ["ngiti", "ŋɡiti"],
     tl: ["puso", "puˈsoʔ"],
     agt: ["poso", "poso"],
+    itb: ["—", "—"],
+    ivv: ["taul", "taul"],
     mn: ["зүрх", "dzyrx"],
     sah: ["сүрэх", "syrex"],
     tyv: ["чүрек", "tɕyrek"],

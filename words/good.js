@@ -246,6 +246,8 @@ WORDS.good = {
     asu: ["mwamba", "mwamba"],
     tl: ["mabuti", "mabuti"],
     agt: ["napya", "napja"],
+    itb: ["mapia", "mapia"],
+    ivv: ["mapia", "mapia"],
     mn: ["сайн", "sajn"],
     sah: ["үчүгэй", "ytʃyɡej"],
     tyv: ["эки", "eki"],

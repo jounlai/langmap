@@ -246,6 +246,8 @@ WORDS.you = {
       asu: ["uwe", "uwe"],
       tl: ["ikaw", "ʔiˈkaw"],
       agt: ["sikaw", "siˈkaw"],
+      itb: ["'imo", "ʔimo"],
+      ivv: ["'imo", "ʔimo"],
       mn: ["чи", "tʃʰi"],
       sah: ["эн", "en"],
       tyv: ["сен", "sen"],

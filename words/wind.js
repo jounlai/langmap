@@ -314,6 +314,8 @@ WORDS.wind = {
     id: ["angin", "ˈaŋin"],
     ms: ["angin", "ˈaŋin"],
     tl: ["hangin", "haˈŋin"],
+    itb: ["sarawsaw", "sarawsaw"],
+    ivv: ["salawsaw", "salawsaw"],
     h_tagalog: ["ᜑᜅᜒᜈ᜔", "haˈŋin"],
     ceb: ["hangin", "haˈŋin"],
     jv: ["angin", "aŋin"],

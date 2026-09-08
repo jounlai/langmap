@@ -246,6 +246,8 @@ WORDS.star = {
       asu: ["nyenyeri", "ɲeɲeri"],
       tl: ["bituin", "bɪtuˈʔin"],
       agt: ["bituen", "biˈtuʔen"],
+      itb: ["vitoen", "vitoɨn"],
+      ivv: ["vitohen", "vitohɨn"],
       mn: ["од", "ɔt"],
       sah: ["сулус", "suˈlus"],
       tyv: ["сылдыс", "sɯlˈdɯs"],

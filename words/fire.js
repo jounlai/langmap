@@ -246,6 +246,8 @@ WORDS.fire = {
     asu: ["mshika", "mʃika"],
     tl: ["apoy", "ʔaˈpoj"],
     agt: ["apuy", "ʔaˈpuj"],
+    itb: ["hapoy", "hapoj"],
+    ivv: ["apoy", "apoj"],
     mn: ["гал", "ɡal"],
     sah: ["уот", "uot"],
     tyv: ["от", "ot"],

@@ -227,6 +227,8 @@ WORDS.bone = {
     asu: ["ivindi", "ivindi"],
     tl: ["buto", "buˈtoʔ"],
     agt: ["tulang", "tuˈlaŋ"],
+    itb: ["to'xang", "toʔɣaŋ"],
+    ivv: ["tohang", "tohaŋ"],
     mn: ["яс", "jas"],
     sah: ["уҥуох", "uŋuox"],
     tyv: ["сөөк", "søːk"],

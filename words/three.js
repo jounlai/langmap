@@ -248,6 +248,8 @@ WORDS.three = {
     asu: ["adatu", "adatu"],
     tl: ["tatlo", "tatˈloʔ"],
     agt: ["tallu", "talːu"],
+    itb: ["atlo", "atlo"],
+    ivv: ["tatdo", "tatdo"],
     mn: ["гурав", "ɡurav"],
     sah: ["үс", "ys"],
     tyv: ["үш", "yʃ"],

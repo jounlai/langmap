@@ -707,6 +707,8 @@ WORDS.nose = {
     nzm: ["mineu", "mineu"],
     // --- Austronesian — PMP *ijuŋ in the west, *ŋusuq in Taiwan ----------
     agt: ["igung", "iɡuŋ"],
+    itb: ["mohdan", "mohdan"],
+    ivv: ["mohed", "mohɨd"],
     gay: ["iung", "iuŋ"],
     bts: ["igung", "iɡuŋ"],
     akb: ["igung", "iɡuŋ"],

@@ -155,6 +155,8 @@ WORDS.egg = {
     prs: ["تخم‌مرغ", "toxme morɣ"],
     sw: ["yai", "ˈjai"],
     tl: ["itlog", "ʔɪtˈloɡ"],
+    itb: ["ittiiyoy", "ittiijoj"],
+    ivv: ["ottioy", "ottioj"],
     mn: ["өндөг", "ɔndɔɡ"],
     sah: ["сымыыт", "sɨmɨːt"],
     alt: ["јымыртка", "dʒɯmɯrtka"],

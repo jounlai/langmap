@@ -987,7 +987,14 @@
             position: absolute; left: 50%; top: 50%;
             text-align: center; white-space: nowrap; cursor: pointer;
             pointer-events: auto;
-            text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 6px rgba(255,255,255,0.5);
+            /* Halo scales with the type: at 3px constant it was as thick as the
+               glyphs themselves once the font slider went below ~80, so labels
+               smeared into each other even where their boxes were clear. */
+            text-shadow:
+                0 0 calc(3px * var(--label-scale, 1)) #fff,
+                0 0 calc(3px * var(--label-scale, 1)) #fff,
+                0 0 calc(3px * var(--label-scale, 1)) #fff,
+                0 0 calc(6px * var(--label-scale, 1)) rgba(255,255,255,0.5);
             width: auto; min-width: 0; margin-right: 0; flex-shrink: unset;
         }
         .lang-label:hover { background: rgba(255,255,255,0.7); border-radius: 4px; }
@@ -5790,15 +5797,27 @@
             // historical view, where the taller two-line name block sits closer
             // to its neighbours) so labels keep clear air between them rather
             // than merely not overlapping (owner 2026-07-19).
-            const _boxPad = showHistorical ? 12 : 8;
-            // Density floor (owner request 2026-08-19): below the DEFAULT font
-            // (140% → scale 1.4) the collision geometry stops shrinking, so a
-            // smaller font no longer admits MORE labels — it renders the same
-            // comfortable, non-overlapping label set at smaller text. The text
-            // still scales via CSS --label-scale; only the placement/thinning
-            // boxes are clamped here. Above the default the box grows normally,
-            // so a larger font shows fewer, bigger labels as before.
-            const _geomScale = Math.max(labelScale, 1.40);
+            // Every length in the placement geometry is scaled by the SAME
+            // factor, so the layout below the default font is the layout at
+            // the default, photographically reduced. That is what makes the
+            // font slider work as readers expect: halve the type, halve the
+            // pitch, fit twice as many.
+            //
+            // 2026-08-19 this was a density FLOOR — `Math.max(labelScale, 1.40)`
+            // — added because a small font made labels overlap, plus _boxPad
+            // deliberately left unscaled for the same reason. Between them a
+            // font below 140 admitted no extra labels at all, which is the
+            // symptom the owner reported 2026-09-06: "フォントを小さくすると
+            // もっとたくさんの言語が入るはずだが、言語と言語の間が広くて
+            // 詰められていない". Removing the floor alone would have brought
+            // the overlap back; removing it while making EVERY pad scale by the
+            // same padScale cannot, because a uniform reduction of a
+            // non-overlapping layout is still non-overlapping. The /1.4
+            // normalises to the slider default, so the default is unchanged to
+            // the pixel.
+            const padScale = labelScale / 1.4;
+            const _boxPad = (showHistorical ? 12 : 8) * padScale;
+            const _geomScale = labelScale;
             const labelH = (baseLineH * _geomScale) + _boxPad;
             // labelW carries the same _boxPad as labelH: the box needs horizontal
             // clear air too, not just vertical. Because the pad is an unscaled
@@ -5945,7 +5964,7 @@
             // with them. Pull those adjacent labels into the same stack.
             // (User report 2026-05-22: "2つがもっと離れていますが、離れた
             // 後にその場所にある別の言語と表示が被ってしまっているケース".)
-            const STACK_UNIT = labelH + 6;
+            const STACK_UNIT = labelH + 6 * padScale;
             let _mergeChanged = true;
             let _mergeIter = 0;
             while (_mergeChanged && _mergeIter < 5) {
@@ -6108,7 +6127,7 @@
             // text is usually 50-60% of labelW. Height was 0.5+2 (labelH+4);
             // reduced to 0.4+1 (~0.8*labelH+2) for tighter vertical packing.
             const _bbHalfW = labelW * 0.3;
-            const _bbHalfH = labelH * 0.4 + 1;
+            const _bbHalfH = labelH * 0.4 + 1 * padScale;
             // Cap on how far the collision pass can push a label from its
             // cellGroups-assigned target. Beyond this the label is hidden
             // (kept off the map) rather than visually relocated to a
@@ -6146,9 +6165,9 @@
                     }
                     if (!collided) return y;
                     if (dir > 0) {
-                        y = collided.cy + _bbHalfH * 2 + 4;
+                        y = collided.cy + _bbHalfH * 2 + 4 * padScale;
                     } else {
-                        y = collided.cy - _bbHalfH * 2 - 4;
+                        y = collided.cy - _bbHalfH * 2 - 4 * padScale;
                     }
                     if (Math.abs(y - startY) > MAX_PUSH) return Infinity;
                 }
@@ -6393,7 +6412,11 @@
             // 0.4 → 0.5 base and 0.3 → 0.34 per line: the globe stacks labels by
             // latitude, so the same "give them clear air" bump as the 2D box
             // padding (owner 2026-07-19).
-            const baseSpacingDeg = (0.5 + lines * 0.34) * Math.max(labelScale, 1.40) * altScale;
+            // Same density floor as the 2D map carried, and removed for the same
+            // reason (2026-09-06): below 140 the spacing stopped shrinking, so the
+            // globe ignored the font slider too. The 0.5/0.34 base stays — that is
+            // the 2026-07-19 clear-air bump, and it scales with the type now.
+            const baseSpacingDeg = (0.5 + lines * 0.34) * labelScale * altScale;
             const cellSizeDeg = baseSpacingDeg * 1.2;
 
             // When a filter is active, only ACTIVE labels compete for cell

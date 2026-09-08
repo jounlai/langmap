@@ -1109,7 +1109,7 @@ const LANG_DATA = {
   // Tshona Monpa (Dakpa) — East Bodish, a cousin of Tibetan rather than a
   // dialect. 'Monpa' in Chinese usage covers this and Tshangla, which are not
   // mutually intelligible.
-  twm: { name: 'Tshona Monpa (Dakpa)', native: 'Dakpa', lat: 27.99, lng: 91.95, // Cuona (Tsona), Shannan, Tibet
+  twm: { name: 'Tshona Monpa (Dakpa)', native: 'Dakpa', lat: 27.99, lng: 91.95, // Mama, Cuona (Tsona), Shannan, Tibet
 },
   // Daur — the most divergent Mongolic language; one community sits in
   // Tacheng, Xinjiang, 2,000 km west of the rest after an 18th-century

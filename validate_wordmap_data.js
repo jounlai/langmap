@@ -936,9 +936,8 @@ for (const code of codes) {
             //   the row's correspondences unreadable. Needs 阿昌语简志 (1985).
             //   jiu/pmi/twm.{bone,we,hello,thanks} — Jino, Northern Pumi and
             //   Tshona Monpa. All three come from Sun Hongkai (1991) 藏缅语音和词汇,
-            //   whose wordlist has no BONE concept and no first-person-plural
-            //   pronoun at all, so there is nothing to read off rather than a
-            //   gap in this row. Needs the 简志 volumes: 基诺语简志 (1986),
+            //   whose wordlist has no BONE concept at all, so there is nothing
+            //   to read off rather than a gap in this row. Needs the 简志 volumes: 基诺语简志 (1986),
             //   普米语简志 (1991), 门巴语简志 (1986).
             //   dta.{cat,love,hello,thanks} — Daur. The Robbeets et al. (2021)
             //   Transeurasian list is Swadesh-shaped and carries none of the
@@ -962,9 +961,9 @@ for (const code of codes) {
             //   for those two, which is the sketch the wordlist itself comes
             //   from but which ABVD only excerpts.
             const MODERN_UNSOURCED_ALLOW = {
-                jiu: new Set(['bone', 'we', 'hello', 'thanks']),
-                pmi: new Set(['bone', 'we', 'hello', 'thanks']),
-                twm: new Set(['bone', 'we', 'hello', 'thanks']),
+                jiu: new Set(['bone', 'hello', 'thanks']),
+                pmi: new Set(['bone', 'hello', 'thanks']),
+                twm: new Set(['bone', 'hello', 'thanks']),
                 dta: new Set(['cat', 'love', 'hello', 'thanks']),
                 lic: new Set(['heart', 'we', 'cat', 'love', 'hello', 'thanks']),
                 swi: new Set(['heart', 'we', 'tree', 'cat', 'love', 'hello', 'thanks']),

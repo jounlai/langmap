@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1184 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1187 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1074,6 +1074,12 @@ const LANG_DATA = {
   mmd: { name: 'Maonan', native: 'Anaam', lat: 25.06, lng: 107.86, // Xianan (下南), Huanjiang, Guangxi
 },
   mlm: { name: 'Mulam', native: 'Mulam', lat: 24.82, lng: 108.93, // Dongmen, Luocheng, Hechi, Guangxi
+},
+  blr: { name: 'Blang', native: 'Plang', lat: 21.96, lng: 100.45, // Menghai, Xishuangbanna, Yunnan
+},
+  rbb: { name: "De'ang (Rumai)", native: 'Rumai', lat: 24.02, lng: 97.82, // Nan Sang, Ruili, Dehong, Yunnan
+},
+  srh: { name: 'Sarikoli', native: 'Sarikoli', lat: 37.77, lng: 75.23, // Tashkurgan, Kashgar, Xinjiang
 },
   // Gelao — the Kra branch of Kra-Dai, the family's most divergent arm and
   // sister to Tai and Kam-Sui. ~550K Gelao nationality, but only a few

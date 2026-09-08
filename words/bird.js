@@ -887,6 +887,9 @@ WORDS.bird = {
     // --- South and Southeast Asia — Austroasiatic *ciim is the sim/sem set
     pll: ["sim", "sim"],
     wbm: ["sim", "sim"],
+    srh: ["qeesh", "qɵɕ"],
+    rbb: ["siːm", "siːm"],
+    blr: ["sim33", "sim˧˧"],
     kjg: ["sim", "sim"],
     bdq: ["sem", "səm"],
     sat: ["ᱪᱮᱺᱬᱮᱹ", "tʃẽɽeʔ"],

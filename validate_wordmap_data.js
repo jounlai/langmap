@@ -943,6 +943,18 @@ for (const code of codes) {
             //   珞巴族语言简志 (1986). The nuf and clk lists do carry cat, love,
             //   heart, iron, milk, snow and daughter, so they are dashed only
             //   where the list really is empty.
+            //   blr/rbb/srh — Blang, De'ang and Sarikoli, the last three
+            //   nationalities. All three come from strict Swadesh-style
+            //   comparative lists, which carry no kinship terms beyond 'child',
+            //   no cat, no verb 'to love' and no greeting or thanks formula.
+            //   Peiros's Austroasiatic 100 has no THREE and no HOUSE; the
+            //   Deepadung Palaung list has no GOOD and no RED; iecor has no
+            //   pronouns at all. WE is dashed in all three: the lists give at
+            //   most one 1PL form with no inclusive/exclusive label, and
+            //   Palaungic marks clusivity (the map's own pll row is clusive),
+            //   so a single form is an incomplete record rather than evidence
+            //   of no distinction. Needs 布朗语简志 (1986), 德昂语简志 (1986)
+            //   and 塔吉克语简志 (1962) / Kim's Sarikoli grammar (2014).
             //   dta.{cat,love,hello,thanks} — Daur. The Robbeets et al. (2021)
             //   Transeurasian list is Swadesh-shaped and carries none of the
             //   four. Needs 达斡尔语简志 (Zhong Suchun 1982) or Tsumagari's
@@ -963,6 +975,9 @@ for (const code of codes) {
                 twm: new Set(['bone', 'hello', 'thanks']),
                 nuf: new Set(['bone', 'hello', 'thanks']),
                 clk: new Set(['bone', 'hello', 'thanks']),
+                blr: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'three', 'hello', 'thanks']),
+                rbb: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'good', 'red', 'hello', 'thanks']),
+                srh: new Set(['mother', 'father', 'i', 'you', 'we', 'love', 'cat', 'hello', 'thanks']),
                 dta: new Set(['cat', 'love', 'hello', 'thanks']),
                 lic: new Set(['heart', 'cat', 'love', 'hello', 'thanks']),
                 swi: new Set(['heart', 'sun', 'cat', 'love', 'hello', 'thanks']),

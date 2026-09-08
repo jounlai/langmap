@@ -105,6 +105,7 @@ WORDS.snow = {
     bca: ["suix", "sui˦˦"],
     atb: ["kyoq", "kjoʔ˨˩"],
     prk: ["rawm rha", "rɔm r̥a"],
+    srh: ["zmun", "zmun"],
     slr: ["qar", "qɑr"],
     ybe: ["qar", "qar"],
     yuy: ["часан", "tʃasan"],

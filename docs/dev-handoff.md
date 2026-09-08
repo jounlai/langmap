@@ -73,33 +73,31 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 
 ---
 
-## China's 56 nationalities — coverage as of 2026-09-08
+## China's 56 nationalities — coverage as of 2026-09-09
 
-**52 of 56 have a language row.** Sixteen were added on 2026-09-06/08:
+**All 56 now have a language row.** Nineteen were added on 2026-09-06/09:
 `kmc` Dong, `giq` Green Gelao, `shx` She, `peh` Bonan, `orh` Oroqen, `acn` Achang,
 `lic` Hlai, `swi` Sui, `mmd` Maonan, `jiu` Jino, `pmi` Northern Pumi,
-`twm` Tshona Monpa, `dta` Daur, `mlm` Mulam, `nuf` Nusu, `clk` Idu Mishmi.
+`twm` Tshona Monpa, `dta` Daur, `mlm` Mulam, `nuf` Nusu, `clk` Idu Mishmi,
+`blr` Blang, `rbb` De'ang (Rumai), `srh` Sarikoli.
 
-**Still missing a row (2):**
-- **布朗 Blang (`blr`)** — the obvious proxy is wrong. `peirosaustroasiatic`
-  labels its Blang doculect "Wa", and the map already carries Wa (`wbm`) and
-  Parauk (`prk`); using it would duplicate an existing row under a new name.
-- **德昂 De'ang** — the map has `pll` Shwe Palaung, which is Burmese/Thai
-  Palaung. China's De'ang are `rbb` / `pce`, and `deepadungpalaung` covers the
-  former, not the latter.
+**Two of my own earlier notes here were wrong; corrected:**
+- I wrote that `deepadungpalaung` "covers Thai/Burmese Palaung, not China's
+  De'ang". It covers **both** — six of its sixteen doculects are in Dehong,
+  Yunnan, including three Rumai villages. `rbb` uses Nan Sang (Ruili).
+- I wrote that Blang was unusable because `peirosaustroasiatic` "labels its
+  Blang doculect Wa". The dataset has a **separate** `Plang` doculect, which is
+  the Blang list. The one named `Wa` is what the curators tagged blan1242/blr,
+  but its forms match this atlas's existing `wbm` Wa row almost cell for cell,
+  so the curator tag is the error, not the name.
 
-**Covered only by a stand-in (2):**
-- **回 Hui** — speaks Chinese; `dng` Dungan is the diaspora variety, not the
-  domestic one. Arguably already covered by `zh_*`; a judgement call, not a gap.
-- **塔吉克 Tajik** — the map has `tg` (Tajik of Tajikistan, Persian). China's
-  Tajiks speak **Sarikoli** (`srh`), Eastern Iranian. Different branch, not
-  mutually intelligible. Not in suntb (Tibeto-Burman only); needs another source.
+**回 Hui** remains the one judgement call rather than a gap: Hui people speak
+Chinese, which the map carries under `zh` and its variants, plus `dng` Dungan
+for the Central Asian diaspora. There is no separate Hui language to add.
 
-**Resolved since the first pass:** 怒 is now `nuf` Nusu (the nationality covers
-four unrelated languages — Nusu, Anong, Zauzou and a Derung-like variety — so the
-row is Nusu, not "the Nu language"), and 珞巴 is now `clk` Idu Mishmi (same
-situation: Idu, Bokar, Sulong and Tagin are different branches, and the map's
-`adi` is the Indian side of Bokar's language).
+**塔吉克 Tajik** is now `srh` Sarikoli, an Eastern Iranian language of
+Tashkurgan — not the `tg` Tajik of Tajikistan, which is Western Iranian and not
+mutually intelligible with it. Both rows are on the map and each says so.
 
 **Deliberately skipped:** `tdd` Tai Nuea. Three rival tone-numbering conventions
 in the literature and no way to tell which one a given wordlist uses; the 傣族

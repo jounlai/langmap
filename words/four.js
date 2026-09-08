@@ -641,6 +641,8 @@ WORDS.four = {
     udi: ["бипӀ", "bipʼ"],
     wa: ["cwate", "kwat"],
     wbm: ["pon", "pon"],
+    srh: ["cavur", "tsavuɾ"],
+    rbb: ["phon", "pʰon"],
     yo: ["ẹẹ́rin", "ɛːrĩ"],
     bsk: ["wálto", "ˈwalto"],
     cgg: ["ina", "ina"],

@@ -887,6 +887,9 @@ WORDS.sleep = {
     unr: ["durum", "durum"],
     hoc: ["durum", "durum"],
     wbm: ["it", "ʔit"],
+    srh: ["khuvd", "xuvd"],
+    rbb: ["ɁiɁ", "ʔiʔ"],
+    blr: ["ʔit33", "ʔit˧˧"],
 
     // --- Indo-Aryan and Dravidian, second pass
     kfr: ["સુમણું", "sumɳũ"],

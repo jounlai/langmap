@@ -897,6 +897,9 @@ WORDS.nose = {
     // --- Kra-Dai --------------------------------------------------------
     shn: ["ၶူႈလင်", "kʰuː laŋ"],
     khb: ["ᦡᧂ", "daŋ"],
+    srh: ["nodz", "nodz"],
+    rbb: ["kaduŋmuh", "kaduŋmuh"],
+    blr: ["mɨh33", "mɨh˧˧"],
     tyz: ["đang", "ʔdaŋ˧˧"],
     pll: ["kɔŋmuh", "kɔŋmuh"],
     // --- Pama-Nyungan — mulya across the Western Desert, ŋurru in Arnhem

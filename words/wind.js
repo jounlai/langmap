@@ -614,6 +614,8 @@ WORDS.wind = {
     huz: ["за̇лІе", "zɑƛe"],
     kca: ["wot", "wot"],
     khb: ["lum", "lum"],
+    srh: ["shamul", "ɕamul"],
+    rbb: ["khuː", "kʰuː"],
     khv: ["лъаца", "ɬaca"],
     kjj: ["кулак", "kulak"],
     kry: ["кулак", "kulak"],

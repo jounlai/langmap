@@ -761,6 +761,7 @@ WORDS.salt = {
     // --- Austroasiatic *ɓɔːh, Tai *klwɯə, Hmong-Mien *ntsjəuX — almost no borrowing ---
     prk: ["kih", "kih"],
     wbm: ["kih", "kih"],
+    srh: ["namodhj", "namoðdʑ"],
     lwl: ["kih", "kih"],
     kdt: ["phɑ̤ːh", "pʰɑːh"],
     srb: ["basid", "bəsɨd"],

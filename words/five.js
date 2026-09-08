@@ -989,6 +989,7 @@ WORDS.five = {
     tji: ["ong", "oŋ˥"],
     prk: ["phuan", "pʰuan"],
     wbm: ["phuan", "pʰuan"],
+    srh: ["pindz", "pindz"],
     lwl: ["phuan", "pʰuan"],
     mra: ["tʰəŋ", "tʰəŋ"],
     bdq: ["pơđăm", "pəʔɗam"],

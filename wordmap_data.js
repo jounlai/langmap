@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1170 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1171 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1074,6 +1074,10 @@ const LANG_DATA = {
   // thousand speakers of the language; the lects differ so much they are
   // often counted separately (Green / Red / White Gelao).
   giq: { name: 'Green Gelao', native: 'Hagei', lat: 26.25, lng: 105.95, // Wanzi, Anshun, Guizhou
+},
+  // She (Ho Ne) — Hmong-Mien. The nationality numbers ~710K but almost all of
+  // them speak She Chinese, a Sinitic variety; this language has ~1K speakers.
+  shx: { name: 'She (Ho Ne)', native: 'Ho Ne', lat: 22.97, lng: 115.34, // Haifeng, eastern Guangdong
 },
   jv: { name: 'Javanese', native: 'ꦧꦱꦗꦮ', lat: -7.25, lng: 112.75,
 },

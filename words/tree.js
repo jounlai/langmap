@@ -325,6 +325,7 @@ WORDS.tree = {
     za: ["faex", "fai˦˨"],
     kmc: ["mɐi31", "mɐi˧˩"],
     giq: ["—", "—"],
+    shx: ["—", "—"],
     hmn: ["ntoo", "ⁿtɔː˧"],
     jv: ["wit", "wit"],
     jvn: ["wit", "wit"],

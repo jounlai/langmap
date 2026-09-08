@@ -1055,6 +1055,7 @@ WORDS.one = {
     pcc: ["ndeeul", "ndeːu˧˥"],
     kmc: ["ʔi55", "ʔi˥˥"],
     giq: ["si33", "si˧˧"],
+    shx: ["i35", "i˧˥"],
     ium: ["yietc", "jiet˨˩"],
     hui: ["mendene", "mendene"],
     tkl: ["tahi", "tahi"],

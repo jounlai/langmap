@@ -1056,6 +1056,7 @@ WORDS.water = {
     pcc: ["raamx", "raːm˧˩"],
     kmc: ["nɐm31", "nɐm˧˩"],
     giq: ["əɯ55", "əɯ˥˥"],
+    shx: ["ɔŋ31", "ɔŋ˧˩"],
     ium: ["wuom", "wuom˧"],
     hui: ["iba", "iba"],
     tkl: ["vai", "vai"],

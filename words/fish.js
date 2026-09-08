@@ -327,6 +327,7 @@ WORDS.fish = {
     za: ["bya", "pjaː˨˦"],
     kmc: ["pa55", "pa˥˥"],
     giq: ["ɒ55 lau44", "ɒ˥˥ lau˦˦"],
+    shx: ["pia54", "pia˥˦"],
     hmn: ["ntses", "ntses˨˩"],
     jv: ["iwak", "ˈiwaʔ"],
     jvn: ["iwak", "ˈiwaʔ"],

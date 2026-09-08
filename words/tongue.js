@@ -331,6 +331,7 @@ WORDS.tongue = {
     za: ["linx", "lin˦˨"],
     kmc: ["ma212", "ma˨˩˨"],
     giq: ["p'i55 te24", "p'i˥˥ te˨˦"],
+    shx: ["pi35", "pi˧˥"],
     hmn: ["nplaig", "mplai˧˩"],
     jv: ["ilat", "ilat"],
     jvn: ["ilat", "ilat"],

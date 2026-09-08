@@ -325,6 +325,7 @@ WORDS.cat = {
     za: ["meuz", "meu˧˩"],
     kmc: ["—", "—"],
     giq: ["—", "—"],
+    shx: ["—", "—"],
     hmn: ["miv", "mi˨˦"],
     jv: ["kucing", "kutʃiŋ"],
     jvn: ["kucing", "kutʃiŋ"],

@@ -198,6 +198,7 @@ WORDS.sleep = {
     za: ["ninz", "nin˧"],
     kmc: ["nun212", "nun˨˩˨"],
     giq: ["ŋka31", "ŋka˧˩"],
+    shx: ["ŋiŋ35", "ŋiŋ˧˥"],
     hmn: ["pw", "pɨ˧"],
     jv: ["turu", "turu"],
     jvn: ["turu", "turu"],

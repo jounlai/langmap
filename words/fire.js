@@ -1055,6 +1055,7 @@ WORDS.fire = {
     pcc: ["feih", "fei˧˩"],
     kmc: ["pui55", "pui˥˥"],
     giq: ["pai33", "pai˧˧"],
+    shx: ["tʰɔ54", "tʰɔ˥˦"],
     ium: ["douz", "dou˨˧"],
     hui: ["tia", "tia"],
     tkl: ["afi", "afi"],

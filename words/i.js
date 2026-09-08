@@ -325,6 +325,7 @@ WORDS.i = {
       za: ["gou", "kou˨˦"],
       kmc: ["jau212", "jau˨˩˨"],
       giq: ["i33", "i˧˧"],
+      shx: ["vaŋ54", "vaŋ˥˦"],
       hmn: ["kuv", "ku˨˦"],
       jv: ["aku", "aku"],
       jvn: ["aku", "aku"],

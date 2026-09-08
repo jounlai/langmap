@@ -1054,6 +1054,7 @@ WORDS.sun = {
     pcc: ["ngonzbyaaiz", "ŋon˩˩pjaːi˩˩"],
     kmc: ["mɐn55", "mɐn˥˥"],
     giq: ["sen44", "sen˦˦"],
+    shx: ["lɔ22", "lɔ˨˨"],
     ium: ["hnoi", "hnoi˧"],
     hui: ["nogo", "noɡo"],
     tkl: ["la", "la"],

@@ -199,6 +199,7 @@ WORDS.egg = {
     za: ["gyaeq", "kʲai"],
     kmc: ["kɐi53", "kɐi˥˧"],
     giq: ["tan33", "tan˧˧"],
+    shx: ["ka11", "ka˩˩"],
     hmn: ["qe", "qe"],
     jv: ["endhog", "ənɖʰɔɡ"],
     jvn: ["endhog", "əndʰɔɡ"],

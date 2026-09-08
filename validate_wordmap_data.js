@@ -915,9 +915,15 @@ for (const code of codes) {
             //   be counted as separate languages — so borrowing one cell across
             //   them would make the row's correspondences unreadable. Needs a
             //   Gelao dictionary; the language is unwritten and has ~3K speakers.
+            //   shx.{cat,heart,love,hello,thanks,tree} — She / Ho Ne, same
+            //   shape again. ~1K speakers, unwritten, and the search that would
+            //   settle these words runs into the nationality's name: nearly
+            //   everything published as 'She' vocabulary is She Chinese, a
+            //   Sinitic variety, not this Hmong-Mien language.
             const MODERN_UNSOURCED_ALLOW = {
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
+                shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ker: new Set(['red']),

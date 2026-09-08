@@ -529,6 +529,7 @@ WORDS.rain = {
     za: ["fwn", "fɯn˥"],
     kmc: ["pjən55", "pjən˥˥"],
     giq: ["mei44 zau44", "mei˦˦ zau˦˦"],
+    shx: ["lɤŋ44", "lɤŋ˦˦"],
     iu: ["ᓯᐊᓗᒃ", "sialuk"],
     kl: ["sialuk", "sialuk"],
     pap: ["yobida", "jobida"],

@@ -213,6 +213,7 @@ WORDS.nose = {
     za: ["ndaeng", "ɗaːŋ"],
     kmc: ["mɐŋ55", "mɐŋ˥˥"],
     giq: ["ȵtɕe24", "ȵtɕe˨˦"],
+    shx: ["kʰɤŋ44 piu54", "kʰɤŋ˦˦ piu˥˦"],
     hmn: ["ntswg", "ⁿʈʂɨ"],
     jv: ["irung", "iruŋ"],
     jvn: ["irung", "iruŋ"],

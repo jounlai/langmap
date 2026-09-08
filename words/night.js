@@ -330,6 +330,7 @@ WORDS.night = {
     za: ["haemh", "ham˧˩"],
     kmc: ["ɲɐm53", "ɲɐm˥˧"],
     giq: ["men33 si44", "men˧˧ si˦˦"],
+    shx: ["mɤŋ11 kaŋ54", "mɤŋ˩˩ kaŋ˥˦"],
     hmn: ["hmo", "m̥ɔ˧"],
     jv: ["bengi", "bəŋi"],
     jvn: ["bengi", "bəŋi"],

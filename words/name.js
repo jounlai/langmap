@@ -325,6 +325,7 @@ WORDS.name = {
       za: ["coh", "ɕo˧"],
       kmc: ["kwan55", "kwan˥˥"],
       giq: ["ntsai44", "ntsai˦˦"],
+      shx: ["mui31", "mui˧˩"],
       hmn: ["npe", "mbe˧"],
       jv: ["jeneng", "dʒənəŋ"],
       jvn: ["jeneng", "dʒənəŋ"],

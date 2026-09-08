@@ -327,6 +327,7 @@ WORDS.three = {
     za: ["sam", "θaːm˨˦"],
     kmc: ["sam35", "sam˧˥"],
     giq: ["ta33", "ta˧˧"],
+    shx: ["pa22", "pa˨˨"],
     hmn: ["peb", "pe˥"],
     jv: ["telu", "təlu"],
     jvn: ["telu", "təlu"],

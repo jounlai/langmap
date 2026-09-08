@@ -1055,6 +1055,7 @@ WORDS.mother = {
     pcc: ["meeh", "meː˧˩"],
     kmc: ["nɐi31", "nɐi˧˩"],
     giq: ["p'ɒ44", "p'ɒ˦˦"],
+    shx: ["a22 me35", "a˨˨ me˧˥"],
     ium: ["maa", "maː˧"],
     hui: ["ainya", "aiɲa"],
     tkl: ["mātua", "maːtua"],

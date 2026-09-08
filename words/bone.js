@@ -306,6 +306,7 @@ WORDS.bone = {
     za: ["ndok", "ɗok˥˥"],
     kmc: ["lak323", "lak˧˨˧"],
     giq: ["taŋ31", "taŋ˧˩"],
+    shx: ["sɤŋ44", "sɤŋ˦˦"],
     hmn: ["pob txha", "pɔ˥ tsʰa˧"],
     jv: ["balung", "baluŋ"],
     jvn: ["balung", "baluŋ"],

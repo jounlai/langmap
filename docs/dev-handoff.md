@@ -1,4 +1,4 @@
-# LangMap — development handoff (2026-08-24)
+# LangMap — development handoff (2026-09-08)
 
 For continuing on another machine. Everything below is committed to git (`main`); pull to get it.
 Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) and does NOT transfer between machines — the essentials are duplicated here.
@@ -6,8 +6,8 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 ---
 
 ## Current state
-- Dataset: **1181 languages** (`wordmap_data.js` header must match — it's validated).
-- Branch `main`, working tree clean. Last commit `8ab7ce9`.
+- Dataset: **1184 languages** (`wordmap_data.js` header must match — it's validated).
+- Branch `main`, working tree clean. Last commit `f02125eb`.
 - `node tools/check_all.js` is **green**; keep it green before every commit.
 
 ## What shipped this session (newest → oldest, all on `main`)
@@ -126,8 +126,13 @@ digits stay in the surface and are converted to Chao letters in the IPA only
 when a published per-lect table exists; Swadesh-shaped gaps become `—` plus a
 `MODERN_UNSOURCED_ALLOW` entry naming the 简志 volume that would settle it.
 Scripts live in `~/langmap-work/cn/` (`build.py`, `kamsui.py`, `mulam.py`,
-`suntb.py`, `write_meta.py`, `metas*.py`, `desc_*.py`). Rally findings for this
-batch are in `~/langmap-work/rally/`.
+`suntb.py`, `write_meta.py`, `metas*.py`, `desc_*.py`). This batch's rally is
+filed as `wordmap_reviews/review_502..504_closed.md`.
+
+**Filing a review:** `ls wordmap_reviews | tail` sorts LEXICOGRAPHICALLY, so
+review_99 looks like the highest number when the directory runs past 500. Get
+the next number with `ls wordmap_reviews | grep -oP 'review_\K\d+' | sort -n |
+tail -1`. Filing on top of an existing number silently overwrites it.
 
 **Left on the table, deliberately.** The suntb lists also carry `125_bear` and
 `282_excrement` for all five of jiu/pmi/twm/nuf/clk. `bear` is not added because

@@ -841,6 +841,7 @@ WORDS.egg = {
     // --- Asia
     dz: ["སྒཽང་རྡོག", "ɡoŋdo"],
     sce: ["endegvei", "əndəɣəi"],
+    peh: ["əndəgi", "əndəgi"],
     kim: ["нюмурһа", "ɲumurha"],
     dng: ["җидан", "tɕi˨˦tan˥˩"],
     khb: ["ᦺᦃᧈ", "xaj"],

@@ -137,6 +137,7 @@ WORDS.sun = {
       yuy: ["нар", "nar"],
       mjg: ["naran", "ˈnɑrɑn"],
       sce: ["naran", "nɑrən"],
+      peh: ["udər", "udər"],
       cjs: ["кӱн", "kʉn"],
       dlg: ["күн", "kyn"],
       kdt: ["tʰaj", "tʰaj"],

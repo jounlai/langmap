@@ -137,6 +137,7 @@ WORDS.thanks = {
       yuy: ["баярлалаа", "bajarlalaː"],
       mjg: ["bayarlaa", "bɑjɑrˈlaː"],
       sce: ["baiarla", "bɑjɑrlə"],
+      peh: ["—", "—"],
       cjs: ["рахмат", "rɑxmɑt"],
       dlg: ["махсибыт", "mɑχsɪbət"],
       kdt: ["khɔp", "kʰɔp"],

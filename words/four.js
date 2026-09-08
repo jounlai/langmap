@@ -948,6 +948,7 @@ WORDS.four = {
     kmc: ["si453", "si˦˥˧"],
     giq: ["pu33", "pu˧˧"],
     shx: ["pi35", "pi˧˥"],
+    peh: ["deraŋ", "deraŋ"],
     hmn: ["plaub", "plau˥"],
     mn_cn: ["ᠳᠥᠷᠪᠡ", "dørwə"],
     xng: ["ᠳᠥᠷᠪᠡᠨ", "dørben"],

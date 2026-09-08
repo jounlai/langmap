@@ -682,6 +682,7 @@ WORDS.ear = {
     agr: ["kuwiš", "kuwiʃ"],
     aer: ["arlpe", "aɭpə"],
     sce: ["chighin", "tʃiʁin"],
+    peh: ["ʨiχaŋ", "ʨiχaŋ"],
     dng: ["эрдуә", "ərduə"],
     lij_t: ["oegia", "ˈweːdʒa"],
     gan_ja: ["耳", "ɵ˥˧"],

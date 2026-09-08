@@ -137,6 +137,7 @@ WORDS.father = {
       yuy: ["аава", "ɑːva"],
       mjg: ["aav", "aːv"],
       sce: ["ebuge", "ɛbuɡɛ"],
+      peh: ["abo", "abo"],
       cjs: ["ада", "ɑdɑ"],
       dlg: ["ага", "aʁa"],
       kdt: ["pə", "pə"],

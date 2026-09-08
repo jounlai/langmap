@@ -137,6 +137,7 @@ WORDS.hand = {
       yuy: ["гар", "ɡar"],
       mjg: ["gar", "ɡɑr"],
       sce: ["qa", "qɑ"],
+      peh: ["χar", "χar"],
       cjs: ["қол", "qol"],
       dlg: ["илии", "iliː"],
       kdt: ["təy", "təj"],

@@ -69,6 +69,7 @@ WORDS.hundred = {
     kmc: ["pek323", "pek˧˨˧"],
     giq: ["tɕin33", "tɕin˧˧"],
     shx: ["i35 pa11", "i˧˥ pa˩˩"],
+    peh: ["ʥyŋ", "ʥyŋ"],
     id: ["seratus", "səratus"],
     hi: ["सौ", "sɔː"],
     de: ["hundert", "ˈhʊndɐt"],

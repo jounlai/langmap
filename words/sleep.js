@@ -653,6 +653,7 @@ WORDS.sleep = {
     qxq: ["yatmaq", "jatˈmaq"],
     yuy: ["унтаха", "untaχa"],
     mjg: ["unda", "ˈunda"],
+    peh: ["təra", "təra"],
     mvf: ["unda-", "unda"],
     yrk: ["хонась", "xonasʲ"],
 

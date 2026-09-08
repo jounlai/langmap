@@ -137,6 +137,7 @@ WORDS.name = {
       yuy: ["нэрэ", "nere"],
       mjg: ["nere", "nerə"],
       sce: ["niere", "niərə"],
+      peh: ["narə", "narə"],
       cjs: ["ат", "at"],
       dlg: ["аат", "aːt"],
       kdt: ["ngaan", "ŋaːn"],

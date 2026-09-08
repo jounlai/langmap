@@ -896,6 +896,7 @@ WORDS.earth = {
     p_aav: ["*tiʔ", "tiʔ"],
     mjg: ["ghajar", "ɢadʑar"],
     sce: ["ghazha", "ɢadʐa"],
+    peh: ["saʨiə", "saʨiə"],
     aoz: ["afu", "afu"],
     jio: ["kɯ leːn", "kɯ leːn"],
     aau: ["ki", "ki"],

@@ -104,6 +104,7 @@ WORDS.five = {
     yuy: ["tawun", "tawuŋ"],
     mjg: ["tawun", "tawuŋ"],
     sce: ["tawun", "tawuŋ"],
+    peh: ["tawuŋ", "tawuŋ"],
     cjs: ["пеш", "peʃ"],
     dlg: ["биэс", "bies"],
     es_pr: ["cinco", "ˈsinko"],

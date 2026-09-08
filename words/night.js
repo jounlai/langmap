@@ -148,6 +148,7 @@ WORDS.night = {
     yuy: ["сүни", "syni"],
     mjg: ["süni", "syni"],
     sce: ["süni", "syni"],
+    peh: ["sonə", "sonə"],
     cjs: ["тӱн", "tyn"],
     dlg: ["түүн", "tyːn"],
     kdt: ["sadaw", "sədaw"],

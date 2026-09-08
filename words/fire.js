@@ -137,6 +137,7 @@ WORDS.fire = {
       yuy: ["гал", "ɡal"],
       mjg: ["gal", "ɡɑl"],
       sce: ["qan", "qɑn"],
+      peh: ["χal", "χal"],
       cjs: ["от", "ot"],
       dlg: ["уот", "uot"],
       kdt: ["fəj", "fəj"],

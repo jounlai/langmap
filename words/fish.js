@@ -145,6 +145,7 @@ WORDS.fish = {
     yuy: ["загас", "zaʁas"],
     mjg: ["jiagasi", "dʒiaɡasɿ"],
     sce: ["ʐukasə", "ʐukasə"],
+    peh: ["ʥilɣasuŋ", "ʥilɣasuŋ"],
     cjs: ["палых", "pɑˈlɯx"],
     dlg: ["балык", "bɑˈɫɯk"],
     kdt: ["ka", "kaː"],

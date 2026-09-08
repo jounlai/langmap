@@ -137,6 +137,7 @@ WORDS.star = {
       yuy: ["ходэн", "χoden"],
       mjg: ["hudun", "xudun"],
       sce: ["hodun", "hodun"],
+      peh: ["hotuŋ", "hotuŋ"],
       cjs: ["чылтыс", "tʃɯltɯs"],
       dlg: ["сулус", "sulus"],
       kdt: ["simʔaang", "simʔaːŋ"],

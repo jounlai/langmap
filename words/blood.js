@@ -147,6 +147,7 @@ WORDS.blood = {
     yuy: ["чусун", "tʃusun"],
     mjg: ["chusi", "tʂusɿ"],
     sce: ["chusun", "tʂusun"],
+    peh: ["ʨisuŋ", "ʨisuŋ"],
     cjs: ["қан", "qan"],
     dlg: ["каан", "kaːn"],
     kdt: ["hnaːm", "n̥aːm"],

@@ -137,6 +137,7 @@ WORDS.i = {
       yuy: ["би", "bi"],
       mjg: ["bu", "pu"],
       sce: ["bi", "pi"],
+      peh: ["bǔ", "bǔ"],
       cjs: ["мен", "men"],
       dlg: ["мин", "min"],
       kdt: ["aɲ", "ʔaɲ"],

@@ -167,6 +167,7 @@ WORDS.tooth = {
     yuy: ["шудун", "ʃudun"],
     mjg: ["shidi", "ʂidi"],
     sce: ["shidun", "ʂidun"],
+    peh: ["duŋ", "duŋ"],
     cjs: ["тіс", "tis"],
     dlg: ["тиис", "tiːs"],
     kdt: ["kaneːŋ", "kəneːŋ"],

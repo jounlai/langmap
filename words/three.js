@@ -145,6 +145,7 @@ WORDS.three = {
     yuy: ["гурван", "ɣurwan"],
     mjg: ["ghuran", "ɣuran"],
     sce: ["ghuran", "ʁuran"],
+    peh: ["ɢuraŋ", "ɢuraŋ"],
     cjs: ["ӱш", "yʃ"],
     dlg: ["үс", "ys"],
     kdt: ["pei", "pəj"],

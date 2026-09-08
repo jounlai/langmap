@@ -144,6 +144,7 @@ WORDS.red = {
     yuy: ["улаан", "ulaːn"],
     mjg: ["ulaan", "ʊˈlɑːn"],
     sce: ["ulan", "ʊlan"],
+    peh: ["fulaŋ", "fulaŋ"],
     cjs: ["қызыл", "qɯˈzɯl"],
     dlg: ["кыһыл", "qɯˈhɯl"],
     kdt: ["kʰmaːŋ", "kʰmaːŋ"],

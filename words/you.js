@@ -137,6 +137,7 @@ WORDS.you = {
       yuy: ["чи", "tʃi"],
       mjg: ["chi", "tɕi"],
       sce: ["chi", "tɕi"],
+      peh: ["ʨǐ", "ʨǐ"],
       cjs: ["сен", "sen"],
       dlg: ["эн", "en"],
       kdt: ["may", "mɛː"],

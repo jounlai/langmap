@@ -137,6 +137,7 @@ WORDS.eye = {
       yuy: ["нүдэ", "nʏde"],
       mjg: ["nüd", "nʏd"],
       sce: ["udun", "udun"],
+      peh: ["nəduŋ", "nəduŋ"],
       cjs: ["қарақ", "qɑrɑq"],
       dlg: ["харах", "χɑrɑχ"],
       kdt: ["mɜ̤t", "mɜt"],

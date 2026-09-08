@@ -137,6 +137,7 @@ WORDS.two = {
       yuy: ["гоор", "ɣoːr"],
       mjg: ["ghoor", "ɣoːr"],
       sce: ["ghua", "ʁua"],
+      peh: ["ɢuar", "ɢuar"],
       cjs: ["ийги", "ijɡi"],
       dlg: ["икки", "ikːi"],
       kdt: ["bar", "ɓaːr"],

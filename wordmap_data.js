@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1171 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1172 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -1078,6 +1078,10 @@ const LANG_DATA = {
   // She (Ho Ne) — Hmong-Mien. The nationality numbers ~710K but almost all of
   // them speak She Chinese, a Sinitic variety; this language has ~1K speakers.
   shx: { name: 'She (Ho Ne)', native: 'Ho Ne', lat: 22.97, lng: 115.34, // Haifeng, eastern Guangdong
+},
+  // Bonan — Mongolic, but reshaped by the Gansu-Qinghai (Amdo) Sprachbund it
+  // shares with Monguor, Dongxiang, Santa and Eastern Yugur.
+  peh: { name: 'Bonan', native: 'Manegacha', lat: 35.72, lng: 102.88, // Jishishan, Linxia, Gansu
 },
   jv: { name: 'Javanese', native: 'ꦧꦱꦗꦮ', lat: -7.25, lng: 112.75,
 },

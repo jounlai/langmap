@@ -137,6 +137,7 @@ WORDS.heart = {
       yuy: ["зүрх", "zʏrχ"],
       mjg: ["zürkh", "zʏrkx"],
       sce: ["selme", "sɛlmɛ"],
+      peh: ["—", "—"],
       cjs: ["чӱрек", "tʃʉrek"],
       dlg: ["сүрэх", "syrex"],
       kdt: ["chlaj", "tʂlaj"],

@@ -149,6 +149,7 @@ WORDS.tongue = {
     yuy: ["хэлэн", "xelen"],
     mjg: ["kile", "kile"],
     sce: ["kielie", "kiəliə"],
+    peh: ["kalaŋ", "kalaŋ"],
     cjs: ["тил", "til"],
     dlg: ["тыл", "tɯl"],
     kdt: ["ntaːk", "ntaːk"],

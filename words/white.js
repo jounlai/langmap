@@ -122,6 +122,7 @@ WORDS.white = {
     yuy: ["чагаан", "tʃaʁaːn"],
     mjg: ["qighaan", "tɕiʁaːn"],
     sce: ["chighan", "tʂiɢan"],
+    peh: ["ʨiɢaŋ", "ʨiɢaŋ"],
     cjs: ["ақ", "aq"],
     dlg: ["үрүҥ", "yryŋ"],
     kdt: ["buaʔ", "buaʔ"],

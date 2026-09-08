@@ -137,6 +137,7 @@ WORDS.love = {
       yuy: ["хайрлаха", "χajrlaχa"],
       mjg: ["khairakh", "xaɪˈrɑx"],
       sce: ["khotula-", "xoːtulə"],
+      peh: ["—", "—"],
       cjs: ["сӱве", "sʉve"],
       dlg: ["ынай", "ənɑj"],
       kdt: ["phɯ", "pʰɯ"],

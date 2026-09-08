@@ -124,6 +124,7 @@ WORDS.bone = {
     yuy: ["ясан", "jasan"],
     mjg: ["yasi", "jasɿ"],
     sce: ["yasun", "jasun"],
+    peh: ["iasuŋ", "iasuŋ"],
     cjs: ["сӧӧк", "søːk"],
     dlg: ["уҥуох", "uŋuoχ"],
     kdt: ["hŋaːŋ", "ŋ̊aːŋ"],

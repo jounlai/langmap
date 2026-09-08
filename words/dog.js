@@ -137,6 +137,7 @@ WORDS.dog = {
       yuy: ["нохай", "noχaj"],
       mjg: ["noxoi", "ˈnɔxɔɪ"],
       sce: ["noghoi", "noɣəi"],
+      peh: ["noɢoi", "noɢoi"],
       cjs: ["адай", "ɑdɑj"],
       dlg: ["ыт", "ət"],
       kdt: ["sŋaːʔ", "ŋaʔ"],

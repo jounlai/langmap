@@ -871,6 +871,7 @@ WORDS.wind = {
     ess: ["ануӄа", "anuqa"],
     bsk: ["hawá", "haˈwaː"],
     mjg: ["kii", "kiː"],
+    peh: ["ki", "ki"],
     chb: ["fiba", "fiba"],
     car: ["pepeito", "pepeito"],
     srm: ["véntu", "vɛ́ntu"],

@@ -920,10 +920,14 @@ for (const code of codes) {
             //   settle these words runs into the nationality's name: nearly
             //   everything published as 'She' vocabulary is She Chinese, a
             //   Sinitic variety, not this Hmong-Mien language.
+            //   peh.{cat,heart,love,hello,thanks} — Bonan, the same five, from
+            //   the same cause: Liu Zhaoxiong's 保安语简志 wordlist is Swadesh-
+            //   shaped. Unwritten language, ~6K speakers, no online lexicon.
             const MODERN_UNSOURCED_ALLOW = {
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
+                peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 ker: new Set(['red']),

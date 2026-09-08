@@ -137,6 +137,7 @@ WORDS.moon = {
       yuy: ["сар", "sar"],
       mjg: ["sar", "sɑr"],
       sce: ["sara", "sɑrə"],
+      peh: ["sarə", "sarə"],
       cjs: ["ай", "aj"],
       dlg: ["ый", "ɯj"],
       kdt: ["luəŋ", "luəŋ"],

@@ -137,6 +137,7 @@ WORDS.one = {
       yuy: ["нэг", "neɡ"],
       mjg: ["nige", "ˈniɡe"],
       sce: ["nie", "niə"],
+      peh: ["nəgə", "nəgə"],
       cjs: ["пир", "pir"],
       dlg: ["биир", "biːr"],
       kdt: ["mṳːy", "muj"],

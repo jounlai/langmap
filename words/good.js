@@ -137,6 +137,7 @@ WORDS.good = {
       yuy: ["сайн", "sajn"],
       mjg: ["sain", "ˈsaɪn"],
       sce: ["sain", "sain"],
+      peh: ["saŋ", "saŋ"],
       cjs: ["чақшы", "tʃɑqʃɯ"],
       dlg: ["үчүгэй", "ytʃyɡej"],
       kdt: ["ɟɔ", "dʑɔ"],

@@ -137,6 +137,7 @@ WORDS.eat = {
       yuy: ["идэхэ", "ɪdeχe"],
       mjg: ["ide", "ˈide"],
       sce: ["ijie-", "iʥiə"],
+      peh: ["nda", "nda"],
       cjs: ["чии", "tʃiː"],
       dlg: ["аһаа", "ahaː"],
       kdt: ["sap", "sap"],

@@ -842,6 +842,7 @@ WORDS.nose = {
     eve: ["оӈат", "oŋat"],
     gld: ["опоро", "oporo"],
     sce: ["khawa", "kʰawa"],
+    peh: ["χor", "χor"],
     cjs: ["пурун", "purun"],
     qxq: ["burun", "buˈrun"],
     kim: ["хаай", "xaːj"],

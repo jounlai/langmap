@@ -137,6 +137,7 @@ WORDS.mother = {
       yuy: ["ээж", "eːʒ"],
       mjg: ["eej", "eːʒ"],
       sce: ["ana", "ɑnə"],
+      peh: ["amə", "amə"],
       cjs: ["эне", "ene"],
       dlg: ["ие", "ijɛ"],
       kdt: ["mə", "mə"],

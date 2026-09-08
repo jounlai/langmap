@@ -137,6 +137,7 @@ WORDS.house = {
       yuy: ["гэр", "ɡer"],
       mjg: ["ger", "ɡer"],
       sce: ["ger", "ɡɛr"],
+      peh: ["gər", "gər"],
       cjs: ["ӧй", "øj"],
       dlg: ["дьүһэ", "dʲəsɛ"],
       kdt: ["pno", "pno"],

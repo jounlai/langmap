@@ -885,6 +885,7 @@ WORDS.rain = {
     pzh: ["udan", "u.dan"],
     rim: ["mbura", "mbura"],
     sce: ["ghura", "ɢura"],
+    peh: ["ɢura", "ɢura"],
     sg: ["ngunzapa", "ŋɡunzapa"],
     sjd: ["аббьр", "abːr"],
     slr: ["yağmur", "jɑʁmur"],

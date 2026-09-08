@@ -678,6 +678,7 @@ WORDS.salt = {
     slr: ["duz", "duz"],
     ybe: ["duz", "duz"],
     sce: ["dansun", "dansun"],
+    peh: ["dabsuŋ", "dabsuŋ"],
     mjg: ["dabusi", "dabusɿ"],
     mnc: ["ᡩᠠᠪᠰᡠᠨ", "dabsun"],
     evn: ["турукэ̄", "turukeː"],

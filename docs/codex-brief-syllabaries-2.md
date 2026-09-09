@@ -1,115 +1,126 @@
-# Follow-up brief — five targeted questions
+# Follow-up brief — what is left after two independent passes
 
-Read `codex-brief-syllabaries.md` (corrected) and your own
-`codex-brief-syllabaries-response.md` first. Both of your objections to the
-first brief were right and are fixed there: the character list was written from
-memory and was wrong in both directions, and treating the Word Map inventory as
-a veto was overreach. Thank you — that is exactly the kind of pushback worth
-having.
+Read `codex-brief-syllabaries.md` (corrected) first. Your response to it is at
+`codex-brief-syllabaries-response.md`.
 
-Your response narrowed six open lects to three sourced tables, three
-acquisition targets, and one problem I had not seen. These five questions follow
-from that. **Q1 and Q2 are the ones I would most like answered**; the rest are
-worth doing only if they are cheap.
+**Both of your objections to the first brief were right and are fixed.** The
+61-character list had been written from memory rather than read from the data —
+it gave 67 characters, of which 百千万川金大小多少長短雨風雲雪虫父母子女 are not
+in the map at all and 海羊貓頭肉央左右聞走坐立 were missing. And describing the
+Word Map inventory as a veto on published sources was overreach. Thank you for
+both; the corrected brief carries the real list and the softened framing.
 
----
+**A second pass ran in parallel and found a source you did not have.** Academia
+Sinica's 小學堂 · 漢字古今音資料庫 ships downloadable per-dialect-point files
+(`ccrdata`) giving 聲母 / 韻母 / 調值 / 調類 for every character, and its dialect
+files share a `字號` key with its 廣韻 file — so the 調類 → Middle Chinese
+mapping can be read off the data with counts rather than inferred. It has points
+for five of the six lects. That closed more than half of this brief before you
+saw it, and two of your three provisional readings turned out to need revising:
 
-## Q1. One table, one clean reading
+| lect | first pass (yours) | second pass | note |
+|---|---|---|---|
+| 衡陽 | 6: 45/11/33/24/213/22 | **same**, corroborated in three presentations | agrees |
+| 長治 | unresolved | **6**: 213/24/535/44/53/ʔ54 | 侯精一 1985 p.18 + 山西方言調查研究報告 1993 |
+| 呂梁/離石 | unresolved | 6: 214/44/312/53/ʔ4/ʔ214~ʔ312 | 沈明・秋谷裕幸《中國語文》2018(4) §4.1 |
+| 桂林平話 | 歐家村 6: 53/13/33/35/21/5 | 朝陽 6: 43/22/23/35/21/55, **all 61 readings** | different point — see Q2 |
+| 撫州/臨川 | 7: 31/24/35/41/23/3/5 | 7: 22/24/35/42/11/2/5 | two published readings differ; see Q3 |
+| 吉安 | unresolved (OCR corrupt) | **4**: 334/11/53/214, **no 入聲 at all** | not 7 |
 
-谢留文, 2006, 《赣语的分区（稿）》, 《方言》3:264–271, **table 6, the 吉安市 row**.
-
-You located it and said the OCR corrupts both the digits and the column
-alignment, and rightly refused to convert that into asserted values. I want that
-one row read correctly: the tone categories across the top and 吉安市's values
-under them.
-
-Any of these settles it — a clean scan or page image of table 6; the same table
-reproduced in another paper that cites it (謝留文's 贛語 work is widely cited, and
-the 分區 tables get redrawn); or 吉安's tone system from a different source that
-you can cite, in which case say it is a different source rather than table 6.
-
-If the answer is "the image is not reachable", say so plainly. That closes the
-question as well as an answer would.
-
-## Q2. Which locality is each of my rows?
-
-This is the problem your response surfaced and it now blocks everything else.
-
-You found that for 衡陽 the published table (陰平45 陽平11 上聲33 陰去24 陽去213
-入聲22) contains no ˥˩, while my Word Map row for the same code is built on ˥˩;
-and that for 臨川 Dai's inventory does not explain my row either. You were right
-not to resolve that. So:
-
-**(a) 衡陽.** Is there a documented Hengyang variety — a different town in the
-county, an older or younger generation, a different fieldworker's transcription
-— whose tone system does include a high falling 51? Or is 51 characteristic of a
-neighbouring Xiang lect that my row might actually be? My row's full inventory
-is ˥˩ ˧˧ ˨˦ ˨˩ ˩˧ ˩˩.
-
-**(b) 桂林平話.** Your thesis source gives four villages: 歐家村, 上楊家村,
-愛山塘 (six categories each) and 紅光 (seven). When a reference work says
-"桂林平話" without qualification — 《廣西通志·漢語方言志》, the 平話 chapter of a
-survey, a dialect dictionary — which point does it mean? Is there a conventional
-representative locality, the way 離石 serves for 呂梁?
-
-**(c) 呂梁.** Same question. You said to identify the survey point before
-choosing a system. Does 呂梁 have a conventional representative point in the
-Jin literature, and is it 離石?
-
-## Q3. 長治 — the table inside a book you have already found
-
-侯精一, 1985, 《長治方言志》, 北京：語文出版社. You confirmed the book and could
-not reach its tone table.
-
-侯精一 reproduced his own material widely — 《晉語的分區》, the 山西方言 survey
-volumes, 《現代晉語的研究》, and the 現代漢語方言大詞典 series. If the 長治
-single-character tone table appears in any of those, that is as good as the 1985
-volume. What I need is the number of tones, their values, and the 調類 mapping —
-including how 次濁入 groups, which your Changzhi city source says is a regional
-diagnostic.
-
-Please keep the city's own caution in view: urban vs suburban, older vs younger,
-and do not substitute 壺關 or another point just because it is administratively
-within Changzhi.
-
-## Q4. The three sourced tables — how far do they actually reach?
-
-For 衡陽 (Huang 2022), 桂林平話歐家村 (陳海婷 2022) and 臨川 (Dai 2018), you gave
-modern category-and-value tables and flagged that the historical
-清/次濁/全濁 redistribution is incomplete in each.
-
-For any of the three, can you complete the historical side — which Middle
-Chinese categories, under which initial conditions, land in each modern tone,
-and where the documented lexical exceptions are? 陳海婷's pp. 81–83 apparently
-does this for Guilin already; the question is whether the equivalent exists for
-the other two.
-
-Without that side, a table cannot be applied to 61 characters, because the
-characters are picked to spread across exactly those categories.
-
-## Q5. The three small ones, if any source turns up
-
-Unchanged from the first brief, all still open, none urgent:
-
-- `nan_th` Thai Hokkien, the character 行 — two cells read ˥˥ where the row's
-  tone digit 5 is ˧˥ everywhere else. Sandhi, a literary/colloquial split, or an
-  error?
-- `dds` Donno So (Dogon) — 'dog' `gɛɛ` and 'tree' `ti`. Every Dogon variety I
-  can reach gives an i-/n- initial for dog and a tim- form for tree. Kervran's
-  *Dictionnaire dogon–français: donno sɔ* (1982) would settle it.
-- `atb` Zaiwa — the row mixes two romanizations, 20 cells with a numeral tone
-  suffix (`tsa51`) and 16 with orthographic tone letters (`kyoq`, `sui`). What
-  is the standard Zaiwa orthography, and is there a source giving these words in
-  it consistently?
+So please **do not re-research the tone tables**. Four questions remain, and
+they are not the ones the first brief asked.
 
 ---
 
-## Same rules as before
+## Q1. Where did my own rows come from? (the blocking question)
 
-Sources over confidence. Mark anything recalled rather than pointed at. If two
-sources disagree, give both and say so. A documented "could not reach it" is a
-real answer and I will record it as one — the atlas leaves cells empty rather
-than filling them by analogy, so a gap costs nothing and a wrong value costs a
-great deal.
+This is what neither pass could settle, and nothing can be repaired until it is.
 
-Format as before: LECT / TONES / SOURCE / CONFIDENCE / NOTES.
+**(a) 衡陽.** All three published tables agree on six tones and **none contains a
+˥˩**. My Word Map row for `hsn_hy` is built on ˥˩ (full inventory ˥˩ ˧˧ ˨˦ ˨˩ ˩˧
+˩˩), and the ˥˩ cuts across four different 調類 and clusters on second syllables.
+Is there a documented Hengyang variety — another town in the county, a different
+generation, another fieldworker — whose citation tones include a high falling 51?
+Or is 51 characteristic of a **neighbouring Xiang lect** that my row might
+actually be? 衡山, 衡東, 祁東, 耒陽, 常寧 are the candidates I would check first.
+
+**(b) 呂梁.** The second pass found that my Word Map inventory {11, 53, 45, 3, 2,
+213, 1, 54} is **exactly 太原 / 并州片** — 平聲 11, 上聲 53, 去聲 45, 陰入 ʔ2,
+陽入 ʔ54. If that is right, the Word Map row is carrying Taiyuan data too, i.e.
+the same copy problem as the Han Map row, and is not an independent check at all.
+Does that identification hold? Is there any 呂梁片 point with 54 / 45 / 11?
+
+**(c) 桂林平話.** Your source gives 歐家村 (53/13/33/35/21/5); the second pass
+found 朝陽 (43/22/23/35/21/55) with all 61 readings. Both are Guilin. When a
+reference work says 桂林平話 without qualification — 《廣西通志·漢語方言志》
+(廣西人民出版社 1998), 謝建猷《廣西漢語方言研究》(2007), a dialect dictionary —
+**which point does it mean?** Is there a conventional representative locality,
+the way 離石 serves for 呂梁?
+
+## Q2. 撫州/臨川 — two published readings, and I cannot tell which book
+
+Two pitch readings are now in hand for the same seven categories:
+
+```
+          陰平  陽平  上聲  陰去  陽去  陰入  陽入
+Dai 2018   31    24    35    41    23     3     5
+小學堂      22    24    35    42    11     2     5
+```
+
+Same shape, different values on 陰平, 陽去 and the 入聲 pair. 小學堂 does not say
+which book its 臨川 point is from. Is it 李如龍・張雙慶《客贛方言調查報告》(1992),
+劉綸鑫《客贛方言比較研究》(1999), or 羅常培《臨川音系》? And is either reading
+the one a 江西省志·方言志 or 《臨川方言研究》 would print?
+
+Same question for **吉安**, whose 小學堂 point has the same unattributed problem.
+
+## Q3. The historical side of the three tables
+
+For 衡陽, 桂林 and 臨川 the modern category-and-value tables are settled; what is
+missing in each is the **historical redistribution** — which Middle Chinese
+categories, under which initial conditions (清 / 次濁 / 全濁), land in each modern
+tone, and where the documented lexical exceptions are. 陳海婷 2022 pp. 81–83 does
+this for Guilin; is there an equivalent for the other two?
+
+Without that side a table cannot be applied to 61 characters, because the
+characters are chosen to spread across exactly those categories.
+
+Two specific gaps: **where 次濁入 goes in 呂梁**, and whether 長治's 入聲 really
+does not split (the second pass argues it does not, from homophone groups that
+put 失室式色 (清入), 攝涉 (次濁入) and 十實石舌食 (全濁入) in one class — which
+would refute the 7-tone table that circulates on zh.wikipedia).
+
+## Q4. Readings, where they are cheap
+
+The second pass got 61/61 for both Guilin points, 49/61 for 臨川 and 吉安 (the
+same 12 absent from the source list), 21/61 for 長治, 22/61 for 離石 (all 舒聲,
+no 入聲 at all), 0 for 衡陽.
+
+The gaps that matter are the **入聲 readings for 長治 and 離石** — those are
+exactly the characters where a copied row is most visibly wrong. 侯精一 1985's
+同音字表 and 《山西方言調查研究報告》(1993) 離石 同音字表 are the targets.
+
+---
+
+## Withdrawn
+
+The three lower-priority questions at the end of the first brief are **answered
+and closed** — no need to spend anything on them:
+
+- `nan_th` 行: not sandhi. 行 is 陽平 in every Hokkien reading and Hokkien 陽平
+  sandhi is uniformly low; ˥˥ is the **Teochew** 陽平 value, and Thailand's
+  Chinese community is largely Teochew. Fixed to ˧˥.
+- `dds` Donno So: `gɛɛ` and `ti` are not the words for dog and tree — they are a
+  gloss mis-mapping ('say' and 'one'). Every Dogon variety gives an i-/n- initial
+  for dog and a tim- form for tree. Both cells dashed pending Kervran (1982).
+- `atb` Zaiwa: the two notations are two **systems**, not two spellings. PRC
+  載瓦文 writes no tone and its final -q is the glottal coda, not a tone letter.
+
+## Same rules
+
+Sources over confidence; mark anything recalled rather than pointed at; give
+both when two sources disagree. A documented "could not reach it" is a real
+answer and gets recorded as one — the atlas leaves cells empty rather than
+filling them by analogy, so a gap costs nothing and a wrong value costs a lot.
+
+Format: LECT / TONES / SOURCE / CONFIDENCE / NOTES.

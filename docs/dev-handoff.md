@@ -6,8 +6,8 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 ---
 
 ## Current state
-- Dataset: **1184 languages** (`wordmap_data.js` header must match — it's validated).
-- Branch `main`, working tree clean. Last commit `f02125eb`.
+- Dataset: **1187 languages** (`wordmap_data.js` header must match — it's validated).
+- Branch `main`, working tree clean. Last commit `1c8ccbb7`.
 - `node tools/check_all.js` is **green**; keep it green before every commit.
 
 ## What shipped this session (newest → oldest, all on `main`)
@@ -103,7 +103,16 @@ mutually intelligible with it. Both rows are on the map and each says so.
 in the literature and no way to tell which one a given wordlist uses; the 傣族
 nationality is already covered by `khb` Tai Lue.
 
-### Two traps this batch hit, worth not re-learning
+### Traps this batch hit, worth not re-learning
+
+0. **A CLDF field can be truncated.** `peirosaustroasiatic` hard-caps its form
+   field at **15 characters** — 78 of its 10,706 rows sit at exactly 15, several
+   cut mid-token. Two Blang cells lost their final tone that way, and the note
+   explained the result as a property of the language. Before writing any note
+   that explains a *shape* in the data, check the length distribution:
+   `Counter(len(x['Value']) for x in rows)`. A flat ceiling is an export limit.
+
+### Two more traps this batch hit, worth not re-learning
 
 1. **The tone tables were inside the ABVD language records.** ABVD prints, in
    each doculect's own record, the tone table from the sketch the wordlist was
@@ -163,6 +172,22 @@ here rather than guessed at in the rows):
   Table 28 pp. 90–91. The numbers are independently confirmed (Castro JSEALS 4.2
   Table 1; Lu's own published tone table on maonan.org); only the page numbers
   are unchecked.
+
+**The `we` column is a claim, not a word.** Its colour says whether a language
+distinguishes an inclusive from an exclusive "we". Routing a row `single`
+because a wordlist happened to give one form asserts the distinction is absent;
+that is a finding, and a silent source has not made it. ABVD annotates the item
+where the answer is known — the Haifeng She entry reads "Haifeng She does not
+distinguish between the two", Mulam's two forms are marked inclusive and
+exclusive — so an unannotated entry is silence. Use `unknown`, which shows the
+word and says undecided. The ratchet in `tools/route_coverage_check.js` is
+allowed to rise for exactly this reason and its own comment says so; it went
+33 -> 37 on 2026-09-09.
+
+**Follow the annotation, not the listing order.** ABVD's per-form `Comment`
+column carries `sun` vs `day` under item 168, `inclusive`/`exclusive` under 185,
+and dialect labels. Four wrong-concept cells across this batch came from taking
+the first-listed form when the source had labelled a different one.
 
 **Note for a future reviewer:** `dta` WE is `bide / ba:` (inclusive first) and
 `sce` Santa WE is `matan / bijien` (also inclusive first). These look like they

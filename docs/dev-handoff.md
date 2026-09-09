@@ -7,7 +7,7 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 
 ## Current state
 - Dataset: **1187 languages** (`wordmap_data.js` header must match — it's validated).
-- Branch `main`, working tree clean. Last commit `ff65db7b`.
+- Branch `main`, working tree clean. Last commit `ff3e7f96`.
 - `node tools/check_all.js` is **green**; keep it green before every commit.
 
 ## What shipped this session (newest → oldest, all on `main`)
@@ -148,6 +148,24 @@ call is an etymological judgement no wordlist supplies. `poop` is not added
 because the atlas concept is the informal/childish word and the source glosses
 only neutral 屎; for a language with one word that is probably the same word,
 but "probably" is not a source. Both are one line each if someone settles them.
+
+**RESOLVED 2026-09-09, from the ten review rounds.**
+- **`gqu` father/mother were swapped, and are now unswapped.** ABVD list 699 put
+  mɒ13 under father and p'ɒ44 under mother; all twenty other Gelao and Kra lects
+  in the same database run m- mother / p-b- father, and Chinese sources put
+  Wanzi in the same 土语 as Dagouchang, whose forms are exactly these two the
+  right way round. An ABVD data-entry swap. The departure is stated in the note.
+- **`meta.unattestedReason` is finally rendered.** The field had been carried
+  since the first wordlist rows and reached 106 entries without `wordmap.html`
+  referencing it once — every reason written, none visible. The popup now shows
+  it for the selected concept, in 19 UI languages, only when that cell is dashed.
+- `swi` native `Aiʳ Sui³` → `Ai Sui` (the only superscript in any `native`
+  string; the ʳ was a corrupted ³, and no other tonal row writes tone there).
+- Six `nuf`/`pmi` IPA cells still had source-only diacritics the CLDF
+  segmentation resolves (u̵→ʉ, u̱→u, ɔ̱→ɔ).
+- NameMap Hausa separators and stress marks: already gone, item closed.
+- The NameMap `br` collision with Breton (item 10) and the same-pitch tone
+  respellings, 292 → 80 cells (item 15c).
 
 **Open questions the 2026-09-08 rally raised and did not settle** (all recorded
 here rather than guessed at in the rows):

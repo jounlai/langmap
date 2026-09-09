@@ -1627,7 +1627,7 @@
         .compare-add-btn:hover { background: #e8f0fe; }
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
         /* Custom-goods hand-off CTA: "make a T-shirt in this language".
-           Deep-links to Makoto Gadgets (makoto-gadget.com) via the generic
+           Deep-links to Makoto Gadgets (makoto-gadgets.com) via the generic
            goods hand-off contract; see docs/custom_goods_handoff.md. */
         .tshirt-cta-btn {
             display: inline-flex; align-items: center; gap: 6px;
@@ -7686,7 +7686,7 @@
                 const label = tmpl.replace('{lang}', displayName);
                 // ja/ko/zh/... UIs → Makoto ja storefront; everything else → en.
                 const mkLocale = ['ja'].indexOf(uiLang.split('_')[0]) !== -1 ? 'ja' : 'en';
-                const u = new URL('https://makoto-gadget.com/' + mkLocale + '/goods/langmap');
+                const u = new URL('https://makoto-gadgets.com/' + mkLocale + '/goods/langmap');
                 u.searchParams.set('src', 'langmap');
                 u.searchParams.set('map', 'wordmap');
                 u.searchParams.set('lang', code);

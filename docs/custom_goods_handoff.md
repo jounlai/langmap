@@ -1,7 +1,7 @@
 # カスタムグッズ・ハンドオフ設計書 / 制作指示書
 
 **バージョン:** 1.0（2026-09-09）
-**対象:** Makoto Gadgets（`makoto-gadget.com` / ローカルは `../japan-to-go`）開発担当・グッズ制作会社
+**対象:** Makoto Gadgets（`makoto-gadgets.com` / ローカルは `../japan-to-go`）開発担当・グッズ制作会社
 **発端:** LangMap（WordMap）→ 「特定言語の単語でTシャツを作る」サービス
 
 このドキュメントは 2 層構成です。
@@ -20,7 +20,7 @@
    │  言語モーダル / SEO ページの「👕 〇〇語のTシャツを作る」ボタン
    │
    │  ① ディープリンク（GET / クエリだけ、本文なし）
-   │     https://makoto-gadget.com/{locale}/goods/langmap
+   │     https://makoto-gadgets.com/{locale}/goods/langmap
    │        ?src=langmap&map=wordmap&lang=ja&name=日本語&native=日本語&ui=ja
    ▼
  Makoto Gadgets（Next.js 14 / 特設ページ /[locale]/goods/langmap）
@@ -43,7 +43,7 @@
 ## 1. ディープリンク URL 仕様
 
 ```
-https://makoto-gadget.com/{locale}/goods/{product}?{params}
+https://makoto-gadgets.com/{locale}/goods/{product}?{params}
 ```
 
 | 位置 | 名前 | 説明 | 例 |
@@ -79,7 +79,7 @@ const GOODS_SOURCES = {
 ```
 
 - 取得先オリジンは Makoto のコードに固定。クエリの `src` はこのテーブルのキー参照のみ。
-- **CORS:** 送り出し側 JSON は `Access-Control-Allow-Origin`（`makoto-gadget.com`、または `*`）を返す必要がある。難しければ Makoto の API ルートでサーバー側 fetch → 中継（キャッシュ付き）。**推奨は後者**（後述 §II-4）。JSON は数百 KB〜級なのでサーバーキャッシュ必須。
+- **CORS:** 送り出し側 JSON は `Access-Control-Allow-Origin`（`makoto-gadgets.com`、または `*`）を返す必要がある。難しければ Makoto の API ルートでサーバー側 fetch → 中継（キャッシュ付き）。**推奨は後者**（後述 §II-4）。JSON は数百 KB〜級なのでサーバーキャッシュ必須。
 
 ## 3. 送り出し側の実装（薄い層）
 
@@ -112,7 +112,7 @@ const GOODS_SOURCES = {
 - ラベルは 19 UI 言語対応（`{lang}` に表示名を差し込み）。
 - リンク組み立て（`URL`/`searchParams` で安全にエンコード）:
   ```
-  https://makoto-gadget.com/{ja|en}/goods/langmap
+  https://makoto-gadgets.com/{ja|en}/goods/langmap
      ?src=langmap&map=wordmap&lang={code}&name={displayName}&native={native}&ui={uiLang}
   ```
   ロケールは UI が `ja` 系なら `ja`、他は `en`。

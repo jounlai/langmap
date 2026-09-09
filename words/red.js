@@ -338,7 +338,7 @@ WORDS.red = {
     swi: ["haan3", "haːn˧˧"],
     lic: ["de:ŋ3", "deːŋ˩˩"],
     kmc: ["ja453", "ja˦˥˧"],
-    giq: ["plɒ24", "plɒ˨˦"],
+    gqu: ["plɒ24", "plɒ˨˦"],
     shx: ["si11", "si˩˩"],
     hmn: ["liab", "liə˥"],
     jv: ["abang", "abaŋ"],

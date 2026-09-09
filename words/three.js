@@ -339,7 +339,7 @@ WORDS.three = {
     swi: ["haam1", "haːm˩˩"],
     lic: ["fu3", "fu˩˩"],
     kmc: ["sam35", "sam˧˥"],
-    giq: ["ta33", "ta˧˧"],
+    gqu: ["ta33", "ta˧˧"],
     shx: ["pa22", "pa˨˨"],
     hmn: ["peb", "pe˥"],
     jv: ["telu", "təlu"],

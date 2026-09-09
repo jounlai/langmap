@@ -1071,7 +1071,7 @@ WORDS.love = {
     swi: ["—", "—"],
     lic: ["—", "—"],
     kmc: ["—", "—"],
-    giq: ["—", "—"],
+    gqu: ["—", "—"],
     shx: ["—", "—"],
     ium: ["hnamv", "hnam˦"],
     hui: ["hando", "hando"],

@@ -337,7 +337,7 @@ WORDS.two = {
       swi: ["ɣa2", "ɣa˧˩"],
       lic: ["ɬau3", "ɬau˩˩"],
       kmc: ["ja323", "ja˧˨˧"],
-      giq: ["su33", "su˧˧"],
+      gqu: ["su33", "su˧˧"],
       shx: ["u22", "u˨˨"],
       hmn: ["ob", "ʔɔ˥"],
       jv: ["loro", "loro"],

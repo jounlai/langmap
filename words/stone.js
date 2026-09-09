@@ -240,7 +240,7 @@ WORDS.stone = {
     swi: ["pja1", "pja˩˩"],
     lic: ["tshi:n1", "tsʰiːn˥˧"],
     kmc: ["pja55", "pja˥˥"],
-    giq: ["əɯ33", "əɯ˧˧"],
+    gqu: ["əɯ33", "əɯ˧˧"],
     shx: ["ŋa22", "ŋa˨˨"],
     hmn: ["pob zeb", "pɔ˥ ʒɛ˥"],
     jv: ["watu", "ˈwatu"],

@@ -1068,7 +1068,7 @@ WORDS.water = {
     swi: ["nam3", "nam˧˧"],
     lic: ["nom3", "nom˩˩"],
     kmc: ["nɐm31", "nɐm˧˩"],
-    giq: ["əɯ55", "əɯ˥˥"],
+    gqu: ["əɯ55", "əɯ˥˥"],
     shx: ["ɔŋ31", "ɔŋ˧˩"],
     ium: ["wuom", "wuom˧"],
     hui: ["iba", "iba"],

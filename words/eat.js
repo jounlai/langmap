@@ -337,7 +337,7 @@ WORDS.eat = {
     swi: ["ʔman3", "ʔman˧˧"],
     lic: ["la2", "la˥˥"],
     kmc: ["tɕan55", "tɕan˥˥"],
-    giq: ["xɒ33", "xɒ˧˧"],
+    gqu: ["xɒ33", "xɒ˧˧"],
     shx: ["lɤŋ31", "lɤŋ˧˩"],
     hmn: ["noj", "nɔ˥˨"],
     jv: ["mangan", "maŋan"],

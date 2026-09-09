@@ -1067,7 +1067,7 @@ WORDS.one = {
     swi: ["to2", "to˧˩"],
     lic: ["tsheɯ3", "tsʰeɯ˩˩"],
     kmc: ["ʔi55", "ʔi˥˥"],
-    giq: ["si33", "si˧˧"],
+    gqu: ["si33", "si˧˧"],
     shx: ["i35", "i˧˥"],
     ium: ["yietc", "jiet˨˩"],
     hui: ["mendene", "mendene"],

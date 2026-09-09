@@ -1085,7 +1085,7 @@ const LANG_DATA = {
   // sister to Tai and Kam-Sui. ~550K Gelao nationality, but only a few
   // thousand speakers of the language; the lects differ so much they are
   // often counted separately (Green / Red / White Gelao).
-  giq: { name: 'Green Gelao', native: 'Hagei', lat: 26.25, lng: 105.95, // Wanzi, Anshun, Guizhou
+  gqu: { name: 'Central Gelao (Qau)', native: 'Klau', lat: 26.25, lng: 105.95, // Wanzi village, Anshun, Guizhou
 },
   // She (Ho Ne) — Hmong-Mien. The nationality numbers ~710K but almost all of
   // them speak She Chinese, a Sinitic variety; this language has ~1K speakers.

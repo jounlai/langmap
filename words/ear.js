@@ -639,7 +639,7 @@ WORDS.ear = {
     swi: ["qha1", "qʰa˩˩"],
     lic: ["zai1", "zai˥˧"],
     kmc: ["kha35", "kʰa˧˥"],
-    giq: ["zau44", "zau˦˦"],
+    gqu: ["zau44", "zau˦˦"],
     shx: ["ka31 kʰɤŋ44", "ka˧˩ kʰɤŋ˦˦"],
     egl: ["uraccia", "uˈratʃa"],
     hmn: ["pob ntseg", "pɒ˥ ᶯdʐe˧˩̤"],

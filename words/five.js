@@ -262,7 +262,7 @@ WORDS.five = {
     swi: ["ŋo4", "ŋo˥˩"],
     lic: ["pa1", "pa˥˧"],
     kmc: ["ŋo31", "ŋo˧˩"],
-    giq: ["mpu44", "mpu˦˦"],
+    gqu: ["mpu44", "mpu˦˦"],
     shx: ["pi22", "pi˨˨"],
     hmn: ["tsib", "tsi˦"],
     jv: ["lima", "lɪmɔ"],

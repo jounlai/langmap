@@ -2251,7 +2251,7 @@ const LANG_NAMES = {
                es: 'She (ho ne)', es_eu: 'She (ho ne)', es_mx: 'She (ho ne)',
                pt: 'She (ho ne)', pt_eu: 'She (ho ne)', pt_br: 'She (ho ne)',
                ru: 'Шэский (хо не)', uk: 'Шеська (хо не)', ar: 'الشيه (هو ني)', he: 'שה (הו נה)', sw: 'Kishe (Ho Ne)' },
-        giq: { en: 'Green Gelao', ja: '緑仡佬語', ko: '녹거라오어', zh: '绿仡佬语', yue: '綠仡佬語',
+        gqu: { en: 'Green Gelao', ja: '緑仡佬語', ko: '녹거라오어', zh: '绿仡佬语', yue: '綠仡佬語',
                vi: 'Tiếng Cờ Lao Xanh', th: 'ภาษาเกอลาวเขียว', id: 'Bahasa Gelao Hijau', hi: 'हरी गेलाओ',
                de: 'Grün-Gelao', fr: 'Gelao vert', it: 'Gelao verde',
                es: 'Gelao verde', es_eu: 'Gelao verde', es_mx: 'Gelao verde',

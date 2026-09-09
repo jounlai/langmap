@@ -181,7 +181,7 @@ Total: 1187 codes.
 | `ckb` | Kurdish (Sorani) | クルド語(ソラニー) | Iranian | ~8M |
 | `ckt` | Chukchi | チュクチ語 | Chukotko-Kamchatkan (Chukotian / Northern branch) | ~5K |
 | `ckv` | Kavalan | カバラン語 | Austronesian (East Formosan) | ~24 (critically endangered, revival underway) |
-| `clk` | Idu Mishmi | イドゥ・ミシュミ語 | Sino-Tibetan (Mishmi) | ~1K in China, ~11K in India |
+| `clk` | Idu Mishmi | イドゥ・ミシュミ語 | Sino-Tibetan (Digarish, Mishmi group) | ~1K in China, ~11K in India |
 | `cmg` | Classical Mongolian | 古典モンゴル語 | Mongolic | Extinct as living register (~17-20c. literary) |
 | `cms` | Messapic | メッサピア語 | Indo-European | Extinct (~1st c. BCE; ~600 documented inscriptions) |
 | `cng` | Northern Qiang | 北部チャン語 | Sino-Tibetan | ~57K (~52K Mao County + ~5K dispersed) |
@@ -374,7 +374,6 @@ Total: 1187 codes.
 | `gej` | Gen (Mina) | ゲン語 | Niger-Congo | ~400–500K |
 | `gez` | Ge'ez | ゲエズ語 | Afro-Asiatic (Semitic, South, Ethio-Semitic, Northern) | Liturgical |
 | `gil` | Gilbertese | キリバス語 | Austronesian (Micronesian) | ~120K |
-| `giq` | Green Gelao | 緑仡佬語 | Kra-Dai (Kra) | ~3K (Gelao nationality ~550K) |
 | `gl` | Galician | ガリシア語 | Romance | ~2.4M |
 | `gld` | Nanai | ナナイ語 | Tungusic (Southern, Manchu-Nanai) | ~1.5K |
 | `glk` | Gilaki | ギラキ語 | Iranian (Northwestern, Caspian) | ~3.5M |
@@ -385,6 +384,7 @@ Total: 1187 codes.
 | `gon` | Gondi | ゴンド語 | Dravidian (South-Central) | ~2.7–3M L1 (highly endangered) |
 | `gor` | Gorontalo | ゴロンタロ語 | Austronesian (Philippine, Gorontalo-Mongondow) | ~1M |
 | `got` | Gothic | ゴート語 | Indo-European (Germanic, East) | Extinct |
+| `gqu` | Green Gelao | 緑仡佬語 | Kra-Dai (Kra) | ~3K (Gelao nationality ~550K) |
 | `grt` | Garo | ガロ語 | Sino-Tibetan (Tibeto-Burman, Bodo-Garo) | ~1M |
 | `gsw` | Swiss German | スイス・ドイツ語 | Indo-European (Germanic, West, High German, Alemannic) | ~5M |
 | `gsw_w` | Walliser German | ヴァリス・ドイツ語 | Indo-European (Germanic, West, High German, Alemannic, Höchstalemannisch) | ~80K |
@@ -663,7 +663,7 @@ Total: 1187 codes.
 | `mk` | Macedonian | マケドニア語 | Slavic | ~2M |
 | `mkz` | Makasae | マカサエ語 | Trans-New Guinea (Timor-Alor-Pantar, Eastern Timor) | ~100K |
 | `ml` | Malayalam | マラヤーラム語 | Dravidian | ~38M |
-| `mlm` | Mulam | 仫佬語 | Kra-Dai (Kam-Sui) | ~90K (Mulam nationality ~220K) |
+| `mlm` | Mulam | 仫佬語 | Kra-Dai (Kam-Sui) | ~90K (Mulam nationality ~220K, 2010) |
 | `mlq` | Western Maninkakan | 西部マニンカ語 | Niger-Congo | ~0.75–1M |
 | `mmd` | Maonan | 毛南語 | Kra-Dai (Kam-Sui) | ~30K (Maonan nationality ~124K) |
 | `mn` | Mongolian | モンゴル語 | Mongolic | ~5.7M |
@@ -881,7 +881,7 @@ Total: 1187 codes.
 | `qxs` | Southern Qiang | 南川チャン語 | Sino-Tibetan (Qiangic) | ~80–100K |
 | `rap` | Rapanui | ラパ・ヌイ語 | Austronesian (Polynesian, Eastern) | ~3.5K |
 | `rar` | Cook Islands Māori | クック諸島マオリ語 | Austronesian (Polynesian, Tahitic) | ~13K |
-| `rbb` | De'ang (Rumai) | ドアン語（汝買） | Austroasiatic (Palaungic) | ~20K in China, ~139K in Myanmar |
+| `rbb` | De'ang (Rumai) | ドアン語（汝買） | Austroasiatic (Palaungic) | ~20K in China (Rumai variety) |
 | `rcf` | Réunion Creole | レユニオン・クレオール | French-based creole | ~600K |
 | `rgn` | Romagnol | ロマーニョ語 | Indo-European (Italic, Romance, Italo-Western, Gallo-Italic) | ~1.1M |
 | `rhg` | Rohingya | ロヒンギャ語 | Indo-Aryan (Eastern) | ~1.8M |
@@ -958,7 +958,7 @@ Total: 1187 codes.
 | `squ` | Squamish | スクワミッシュ語 | Salishan (Central Salish / Coast Salish) | few elderly L1 + growing L2 (critically endangered) |
 | `sr` | Serbian | セルビア語 | Slavic | ~9M |
 | `srb` | Sora language | ソラ語 | Austroasiatic (Munda) | ~300–410K (UNESCO: vulnerable) |
-| `srh` | Sarikoli | サリコル語 | Indo-European (Eastern Iranian, Shughni-Yazgulami) | ~30K |
+| `srh` | Sarikoli | サリコル語 | Indo-European (Iranian, Eastern Iranian, Shughni-Yazgulami) | ~30K |
 | `srm` | Saramaccan | サラマッカ語 | English-based creole (mixed English/Portuguese lexicon, Akan/Gbe substrate) | ~26K |
 | `srn` | Sranan Tongo | スリナム・トンゴ語 | English-based creole | ~600K |
 | `srr` | Serer | セレル語 | Niger-Congo | ~1.4M |

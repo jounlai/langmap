@@ -201,7 +201,7 @@ WORDS.sleep = {
     swi: ["n̥ak7", "n̥ak˥˥"],
     lic: ["kau2", "kau˥˥"],
     kmc: ["nun212", "nun˨˩˨"],
-    giq: ["ŋka31", "ŋka˧˩"],
+    gqu: ["ŋka31", "ŋka˧˩"],
     shx: ["ŋiŋ35", "ŋiŋ˧˥"],
     hmn: ["pw", "pɨ˧"],
     jv: ["turu", "turu"],

@@ -318,7 +318,7 @@ WORDS.bone = {
     swi: ["laak7", "laːk˧˥"],
     lic: ["vɯ:k7", "vɯːk˥˥"],
     kmc: ["lak323", "lak˧˨˧"],
-    giq: ["taŋ31", "taŋ˧˩"],
+    gqu: ["taŋ31", "taŋ˧˩"],
     shx: ["sɤŋ44", "sɤŋ˦˦"],
     hmn: ["pob txha", "pɔ˥ tsʰa˧"],
     jv: ["balung", "baluŋ"],

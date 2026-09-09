@@ -337,7 +337,7 @@ WORDS.tree = {
     swi: ["mai4", "mai˥˩"],
     lic: ["tshai1", "tsʰai˥˧"],
     kmc: ["mɐi31", "mɐi˧˩"],
-    giq: ["—", "—"],
+    gqu: ["—", "—"],
     shx: ["—", "—"],
     hmn: ["ntoo", "ⁿtɔː˧"],
     jv: ["wit", "wit"],

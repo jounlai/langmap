@@ -303,7 +303,7 @@ WORDS.white = {
     swi: ["paak8", "paːk˦˨"],
     lic: ["kha:u1", "kʰaːu˥˧"],
     kmc: ["pak31", "pak˧˩"],
-    giq: ["zu24", "zu˨˦"],
+    gqu: ["zu24", "zu˨˦"],
     shx: ["kiɔ22", "kiɔ˨˨"],
     hmn: ["dawb", "taɨ"],
     jv: ["putih", "putɪh"],

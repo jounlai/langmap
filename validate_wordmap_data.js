@@ -908,7 +908,7 @@ for (const code of codes) {
             //   entries), Glosbe, and the Kam Wikipedia article's vocabulary
             //   tables. Needs Long Yaohong & Zheng Guoqiao's Dong-Chinese
             //   dictionary, print-only.
-            //   giq.{cat,heart,love,hello,thanks,tree} — Green Gelao, same
+            //   gqu.{cat,heart,love,hello,thanks,tree} — Green Gelao, same
             //   Swadesh-shaped gap as kmc, plus 'tree': the Wanzi list this row
             //   uses has no stick/wood entry. The Zhenfeng and Sanchong lists do,
             //   but they are different lects — Gelao varieties diverge enough to
@@ -995,7 +995,7 @@ for (const code of codes) {
                 mmd: new Set(['heart', 'cat', 'love', 'hello', 'thanks']),
                 mlm: new Set(['heart', 'tree', 'cat', 'love', 'hello', 'thanks']),
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
-                giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
+                gqu: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'sun']),
                 orh: new Set(['cat', 'love', 'hello', 'thanks']),

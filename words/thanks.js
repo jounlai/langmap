@@ -340,7 +340,7 @@ WORDS.thanks = {
     swi: ["—", "—"],
     lic: ["—", "—"],
     kmc: ["—", "—"],
-    giq: ["—", "—"],
+    gqu: ["—", "—"],
     shx: ["—", "—"],
     hmn: ["ua tsaug", "ua˧tɕɑu˦˨ʱ"],
     jv: ["matur nuwun", "matur nuwun"],

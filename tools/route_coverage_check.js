@@ -68,7 +68,7 @@ const DEBT = {};
 // and the tone from Standard Mandarin. Returned to `unknown`. A ratchet that only
 // ever falls is a ratchet that rewards claiming things.
 // 33 -> 37 on 2026-09-09, for the same reason, after a review of the nineteen
-// China-nationality rows. kmc, giq and peh had been routed `clusive`/`single` on
+// China-nationality rows. kmc, gqu and peh had been routed `clusive`/`single` on
 // wordlists that give one or two 1PL forms and label neither; blr had been dashed
 // on the same evidence, which hid an attested word. ABVD annotates its WE item
 // where the distinction is known — She (Haifeng) carries the note "Haifeng She

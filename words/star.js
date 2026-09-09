@@ -337,7 +337,7 @@ WORDS.star = {
       swi: ["zət7", "zət˥˥"],
       lic: ["ra:u1", "raːu˥˧"],
       kmc: ["ɕət55", "ɕət˥˥"],
-      giq: ["lei31 tsu33", "lei˧˩ tsu˧˧"],
+      gqu: ["lei31 tsu33", "lei˧˩ tsu˧˧"],
       shx: ["le11 taŋ22", "le˩˩ taŋ˨˨"],
       hmn: ["hnub qub", "n̥u˥ qu˥"],
       jv: ["lintang", "lintaŋ"],

@@ -337,7 +337,7 @@ WORDS.hand = {
     swi: ["mjə1", "mjə˩˩"],
     lic: ["meɯ1", "meɯ˥˧"],
     kmc: ["mja212", "mja˨˩˨"],
-    giq: ["mpau44", "mpau˦˦"],
+    gqu: ["mpau44", "mpau˦˦"],
     shx: ["kʰua54", "kʰua˥˦"],
     hmn: ["tes", "tɛ˨˩"],
     jv: ["tangan", "taŋan"],

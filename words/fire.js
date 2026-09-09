@@ -1067,7 +1067,7 @@ WORDS.fire = {
     swi: ["vi1", "vi˩˩"],
     lic: ["fei1", "fei˥˧"],
     kmc: ["pui55", "pui˥˥"],
-    giq: ["pai33", "pai˧˧"],
+    gqu: ["pai33", "pai˧˧"],
     shx: ["tʰɔ54", "tʰɔ˥˦"],
     ium: ["douz", "dou˨˧"],
     hui: ["tia", "tia"],

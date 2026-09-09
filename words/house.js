@@ -1068,7 +1068,7 @@ WORDS.house = {
     swi: ["ɣaan2", "ɣaːn˧˩"],
     lic: ["ploŋ3", "ploŋ˩˩"],
     kmc: ["jan212", "jan˨˩˨"],
-    giq: ["qə33", "qə˧˧"],
+    gqu: ["qə33", "qə˧˧"],
     shx: ["liu31 tɤŋ35", "liu˧˩ tɤŋ˧˥"],
     ium: ["biauv", "biau˦"],
     hui: ["anda", "anda"],

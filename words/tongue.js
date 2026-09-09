@@ -343,7 +343,7 @@ WORDS.tongue = {
     swi: ["ʔu1 ma2", "ʔu˩˩ ma˧˩"],
     lic: ["ɬi:n3", "ɬiːn˩˩"],
     kmc: ["ma212", "ma˨˩˨"],
-    giq: ["p'i55 te24", "pʰi˥˥ te˨˦"],
+    gqu: ["p'i55 te24", "pʰi˥˥ te˨˦"],
     shx: ["pi35", "pi˧˥"],
     hmn: ["nplaig", "mplai˧˩"],
     jv: ["ilat", "ilat"],

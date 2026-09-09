@@ -499,7 +499,7 @@ WORDS.wind = {
     swi: ["lum1", "lum˩˩"],
     lic: ["hwo:t7", "hwoːt˥˥"],
     kmc: ["ləm212", "ləm˨˩˨"],
-    giq: ["ven44", "ven˦˦"],
+    gqu: ["ven44", "ven˦˦"],
     shx: ["ki22", "ki˨˨"],
     sat: ["ᱦᱚᱭ", "hɔj"],
     kok: ["वारो", "ʋaːɾo"],

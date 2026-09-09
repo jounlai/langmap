@@ -71,7 +71,7 @@ WORDS.hundred = {
     mlm: ["fɛ:k7", "fɛːk˦˨"],
     swi: ["pek7", "pek˥˥"],
     lic: ["gwa:n1", "gwaːn˥˧"],
-    giq: ["tɕin33", "tɕin˧˧"],
+    gqu: ["tɕin33", "tɕin˧˧"],
     shx: ["i35 pa11", "i˧˥ pa˩˩"],
     peh: ["ʥyŋ", "dʑyŋ"],
     acn: ["pak35", "pak˧˥"],

@@ -342,7 +342,7 @@ WORDS.night = {
     swi: ["saan2", "saːn˧˩"],
     lic: ["tshop7", "tsʰop˥˥"],
     kmc: ["ɲɐm53", "ɲɐm˥˧"],
-    giq: ["men33 si44", "men˧˧ si˦˦"],
+    gqu: ["men33 si44", "men˧˧ si˦˦"],
     shx: ["mɤŋ11 kaŋ54", "mɤŋ˩˩ kaŋ˥˦"],
     hmn: ["hmo", "m̥ɔ˧"],
     jv: ["bengi", "bəŋi"],

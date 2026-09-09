@@ -224,7 +224,7 @@ WORDS.nose = {
     swi: ["ʔnaŋ1", "ʔnaŋ˩˩"],
     lic: ["khat7", "kʰat˥˥"],
     kmc: ["mɐŋ55", "mɐŋ˥˥"],
-    giq: ["ȵtɕe24", "ȵtɕe˨˦"],
+    gqu: ["ȵtɕe24", "ȵtɕe˨˦"],
     shx: ["kʰɤŋ44 piu54", "kʰɤŋ˦˦ piu˥˦"],
     hmn: ["ntswg", "ⁿʈʂɨ"],
     jv: ["irung", "iruŋ"],

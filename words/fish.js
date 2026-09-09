@@ -339,7 +339,7 @@ WORDS.fish = {
     swi: ["mom6", "mom˨˦"],
     lic: ["ɬa1", "ɬa˥˧"],
     kmc: ["pa55", "pa˥˥"],
-    giq: ["ɒ55 lau44", "ɒ˥˥ lau˦˦"],
+    gqu: ["ɒ55 lau44", "ɒ˥˥ lau˦˦"],
     shx: ["pia54", "pia˥˦"],
     hmn: ["ntses", "ntses˨˩"],
     jv: ["iwak", "ˈiwaʔ"],

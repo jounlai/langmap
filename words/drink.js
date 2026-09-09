@@ -337,7 +337,7 @@ WORDS.drink = {
     swi: ["ɣəm4", "ɣəm˥˩"],
     lic: ["hja:u1", "hjaːu˥˧"],
     kmc: ["wum31", "wum˧˩"],
-    giq: ["han55", "han˥˥"],
+    gqu: ["han55", "han˥˥"],
     shx: ["hɔ35", "hɔ˧˥"],
     hmn: ["haus", "hɑu˨˩"],
     jv: ["ngombe", "ŋombe"],

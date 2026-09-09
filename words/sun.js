@@ -1066,7 +1066,7 @@ WORDS.sun = {
     swi: ["—", "—"],
     lic: ["tsha1 hwan1", "tsʰa˥˧ hwan˥˧"],
     kmc: ["mɐn55", "mɐn˥˥"],
-    giq: ["sen44", "sen˦˦"],
+    gqu: ["sen44", "sen˦˦"],
     shx: ["lɔk22 kɔ44", "lɔk˨˨ kɔ˦˦"],
     ium: ["hnoi", "hnoi˧"],
     hui: ["nogo", "noɡo"],

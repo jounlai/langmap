@@ -337,7 +337,7 @@ WORDS.name = {
       swi: ["ʔdaan1", "ʔdaːn˩˩"],
       lic: ["phe:ŋ1", "pʰeːŋ˥˧"],
       kmc: ["kwan55", "kwan˥˥"],
-      giq: ["ntsai44", "ntsai˦˦"],
+      gqu: ["ntsai44", "ntsai˦˦"],
       shx: ["mui31", "mui˧˩"],
       hmn: ["npe", "mbe˧"],
       jv: ["jeneng", "dʒənəŋ"],

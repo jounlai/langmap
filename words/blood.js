@@ -341,7 +341,7 @@ WORDS.blood = {
     swi: ["phjaat7", "pʰjaːt˧˥"],
     lic: ["ɬa:ȶ7", "ɬaːȶ˥˥"],
     kmc: ["phat13", "pʰat˩˧"],
-    giq: ["plɒ24", "plɒ˨˦"],
+    gqu: ["plɒ24", "plɒ˨˦"],
     shx: ["si44", "si˦˦"],
     hmn: ["ntshav", "ntsʰa˨˩"],
     jv: ["getih", "ɡətih"],

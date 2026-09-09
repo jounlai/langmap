@@ -394,7 +394,7 @@ WORDS.black = {
     swi: ["ʔnam1", "ʔnam˩˩"],
     lic: ["dom3", "dom˩˩"],
     kmc: ["nɐm55", "nɐm˥˥"],
-    giq: ["lan33", "lan˧˧"],
+    gqu: ["lan33", "lan˧˧"],
     shx: ["kiaŋ22", "kiaŋ˨˨"],
     peh: ["χəra", "χəra"],
     tyz: ["đăm", "dam˧"],

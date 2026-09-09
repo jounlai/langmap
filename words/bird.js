@@ -228,7 +228,7 @@ WORDS.bird = {
     swi: ["nok8", "nok˧˩"],
     lic: ["taȶ7", "taȶ˥˥"],
     kmc: ["mok21", "mok˨˩"],
-    giq: ["ntau31", "ntau˧˩"],
+    gqu: ["ntau31", "ntau˧˩"],
     shx: ["lɔ54", "lɔ˥˦"],
     hmn: ["noog", "nɔ̃ŋ"],
     jv: ["manuk", "manʊʔ"],

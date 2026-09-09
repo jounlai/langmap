@@ -595,7 +595,7 @@ WORDS.earth = {
     swi: ["hum5", "hum˧˥"],
     lic: ["van1", "van˥˧"],
     kmc: ["nam33", "nam˧˧"],
-    giq: ["nta44", "nta˦˦"],
+    gqu: ["nta44", "nta˦˦"],
     shx: ["ta22", "ta˨˨"],
     ab: ["анышә", "anəʃʷ"],
     vi_nom: ["𡐙", "ɗət˧˥"],

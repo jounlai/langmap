@@ -960,7 +960,7 @@ WORDS.four = {
     swi: ["hi5", "hi˧˥"],
     lic: ["tshau3", "tsʰau˩˩"],
     kmc: ["si453", "si˦˥˧"],
-    giq: ["pu33", "pu˧˧"],
+    gqu: ["pu33", "pu˧˧"],
     shx: ["pi35", "pi˧˥"],
     peh: ["deraŋ", "deraŋ"],
     hmn: ["plaub", "plau˥"],

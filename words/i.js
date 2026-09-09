@@ -337,7 +337,7 @@ WORDS.i = {
       swi: ["ʔai2", "ʔai˧˩"],
       lic: ["hou1", "hou˥˧"],
       kmc: ["jau212", "jau˨˩˨"],
-      giq: ["i33", "i˧˧"],
+      gqu: ["i33", "i˧˧"],
       shx: ["vaŋ54", "vaŋ˥˦"],
       hmn: ["kuv", "ku˨˦"],
       jv: ["aku", "aku"],

@@ -7,7 +7,7 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 
 ## Current state
 - Dataset: **1187 languages** (`wordmap_data.js` header must match — it's validated).
-- Branch `main`, working tree clean. Last commit `1c8ccbb7`.
+- Branch `main`, working tree clean. Last commit `ff65db7b`.
 - `node tools/check_all.js` is **green**; keep it green before every commit.
 
 ## What shipped this session (newest → oldest, all on `main`)
@@ -76,7 +76,7 @@ Scripts used this session live in the session scratchpad (not committed); the pa
 ## China's 56 nationalities — coverage as of 2026-09-09
 
 **All 56 now have a language row.** Nineteen were added on 2026-09-06/09:
-`kmc` Dong, `giq` Green Gelao, `shx` She, `peh` Bonan, `orh` Oroqen, `acn` Achang,
+`kmc` Dong, `gqu` Central Gelao (Qau), `shx` She, `peh` Bonan, `orh` Oroqen, `acn` Achang,
 `lic` Hlai, `swi` Sui, `mmd` Maonan, `jiu` Jino, `pmi` Northern Pumi,
 `twm` Tshona Monpa, `dta` Daur, `mlm` Mulam, `nuf` Nusu, `clk` Idu Mishmi,
 `blr` Blang, `rbb` De'ang (Rumai), `srh` Sarikoli.
@@ -188,6 +188,20 @@ allowed to rise for exactly this reason and its own comment says so; it went
 column carries `sun` vs `day` under item 168, `inclusive`/`exclusive` under 185,
 and dialect labels. Four wrong-concept cells across this batch came from taking
 the first-listed form when the source had labelled a different one.
+
+**The Gelao row is `gqu`, not `giq`, and that took three rallies to catch.**
+ABVD tags its Wanzi list `giq` (Green Gelao) while the same record's prose reads
+"This Central Gelao dialect is spoken in Wanzi village (弯子寨), Anshun" and gives
+the autonym as klau55. Green Gelao is the Sanchong and Zhenfeng material, autonym
+ha53 kej53 / ha42 ke42. The data was kept and the row re-coded to `gqu` (Qau,
+Central Gelao) on 2026-09-09. Same failure as the Blang/Wa mix-up: the tag was
+wrong, the prose was right. Read the record, not the tag.
+
+**Notation is a property of the doculect, not of the database.** Six rows are
+Kra-Dai languages from ABVD and the notes used to generalise about "ABVD's
+Kra-Dai section" in two incompatible directions — kmc/gqu said it writes Chao
+values, lic/swi/mmd/mlm said it writes tone categories. Neither is true of the
+database; each list follows its own source sketch. All six now say so.
 
 **Note for a future reviewer:** `dta` WE is `bide / ba:` (inclusive first) and
 `sce` Santa WE is `matan / bijien` (also inclusive first). These look like they

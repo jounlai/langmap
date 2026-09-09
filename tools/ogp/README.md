@@ -11,6 +11,30 @@ example chips); the right bleeds into the actual map view for that page.
 Each page has its own theme colour (index=teal, wordmap=amber, hanmap=vermilion,
 namemap=purple, tree=green).
 
+## Fonts the renderer needs
+
+The card design assumes **Inter** (titles, sub-line, stat pill) and a **CJK-KR**
+face (the Han Map chip `일 il`). Neither ships with a bare Linux box. Without
+Inter the titles fall back to a lighter system sans and stop matching the
+design; without a Korean face the Hangul chip renders as a tofu box. Install
+both into `~/.fonts` and `fc-cache -f` before rendering:
+
+- Inter 4.1 (`extras/otf/Inter-{Regular,Medium,SemiBold,Bold,ExtraBold,Black}.otf`)
+- Noto Serif CJK KR (Regular + Bold)
+
+Check with `fc-match 'serif:charset=ac00'` — it must not fall through to
+DejaVu Serif.
+
+A headless Chromium is enough; the Playwright cache
+(`~/.cache/ms-playwright/chromium-*/chrome-linux64/chrome`) works:
+
+```
+chrome --headless --disable-gpu --no-sandbox --hide-scrollbars \
+  --force-device-scale-factor=1 --allow-file-access-from-files \
+  --window-size=1200,630 --screenshot=../../ogp-<page>.png \
+  "file://$PWD/ogp_template.html?p=<page>"
+```
+
 ## Rebuild
 
 The overlay lives in `ogp_template.html` (all five cards' text/colour/chips are
@@ -24,6 +48,11 @@ in its `CFG` object; `?p=<page>` selects one). It reads a cleaned map crop
    - hanmap → `hanmap.html` (character 一)
    - namemap→ `namemap.html#n=john&l=ja&s=110&c=50,14&z=4`
    - tree   → `tree.html`
+   The tree page needs `?ui=ja` (the UI-language param is `ui`, not `l`) and a
+   tall window — `--window-size=760,1220 --force-device-scale-factor=2` — so
+   that 28 family rows fit above the footer. Scale the 2x capture to 0.625 of
+   1x, crop 308x560 from (x=7, y=87), and paste at (822, 40) on a 1200x630
+   canvas filled #e9f5ee. That reproduces the existing composition.
 2. **Crop** out the UI chrome (top nav, right map controls, credits, and the
    NameMap left info panel) with Pillow; for `tree`, paste the family list onto
    the right of a tinted 1200×630 canvas. (See the crop boxes used to make the

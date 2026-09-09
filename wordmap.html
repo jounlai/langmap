@@ -7499,7 +7499,7 @@
         // meta.unattestedReason since the first comparative-wordlist rows, and
         // nothing rendered it: 106 written reasons that no reader could see.
         const UNATTESTED_HEADER = { en:'This word', ja:'この語について', ko:'이 단어', zh:'该词', yue:'呢個詞', vi:'Từ này', th:'คำนี้', id:'Kata ini', hi:'यह शब्द', de:'Dieses Wort', fr:'Ce mot', it:'Questa parola', es:'Esta palabra', pt:'Esta palavra', ru:'Это слово', uk:'Це слово', ar:'هذه الكلمة', he:'המילה הזאת', sw:'Neno hili' };
-        const UNATTESTED_LABEL = {
+        const UNATTESTED_REASON_LABEL = {
             'unsourced':         { en:'not recorded in the source this row uses', ja:'この行が用いる資料に記録がない', ko:'이 행이 쓰는 자료에 기록이 없음', zh:'本行所用材料没有记录', yue:'呢一行用嘅材料冇記錄', vi:'không có trong nguồn của hàng này', th:'ไม่มีบันทึกในแหล่งข้อมูลของแถวนี้', id:'tidak tercatat dalam sumber baris ini', hi:'इस पंक्ति के स्रोत में दर्ज नहीं', de:'in der Quelle dieser Zeile nicht verzeichnet', fr:'non attesté dans la source de cette ligne', it:'non attestato nella fonte di questa riga', es:'no consta en la fuente de esta fila', pt:'não consta na fonte desta linha', ru:'в источнике этой строки не зафиксировано', uk:'у джерелі цього рядка не зафіксовано', ar:'غير مسجَّل في مصدر هذا الصف', he:'לא נרשם במקור של שורה זו', sw:'halijaandikwa katika chanzo cha safu hii' },
             'cultural-absence':  { en:'the language has no word for this', ja:'この語に当たる語がない', ko:'이에 해당하는 낱말이 없음', zh:'这门语言没有对应的词', yue:'呢種話冇對應嘅詞', vi:'ngôn ngữ này không có từ tương ứng', th:'ภาษานี้ไม่มีคำนี้', id:'bahasa ini tidak punya katanya', hi:'इस भाषा में इसके लिए शब्द नहीं', de:'die Sprache hat kein Wort dafür', fr:'la langue n\u2019a pas de mot pour cela', it:'la lingua non ha una parola per questo', es:'la lengua no tiene palabra para esto', pt:'a língua não tem palavra para isto', ru:'в языке нет такого слова', uk:'у мові немає такого слова', ar:'لا توجد كلمة لهذا في اللغة', he:'אין בשפה מילה לכך', sw:'lugha hii haina neno la hili' }
         };
@@ -7932,8 +7932,8 @@
             // Show why the current concept's cell is '—', if it is.
             try {
                 const _ur = m.unattestedReason && currentWord ? m.unattestedReason[currentWord] : null;
-                if (_ur && UNATTESTED_LABEL[_ur]) {
-                    const uObj = UNATTESTED_LABEL[_ur];
+                if (_ur && UNATTESTED_REASON_LABEL[_ur]) {
+                    const uObj = UNATTESTED_REASON_LABEL[_ur];
                     const uLabel = uObj[uiLang] || uObj[uiLang.split('_')[0]] || uObj.en;
                     const uHeader = UNATTESTED_HEADER[uiLang] || UNATTESTED_HEADER[uiLang.split('_')[0]] || UNATTESTED_HEADER.en;
                     html += `<div style="margin:2px 0 -2px;font-size:10px;color:#a04020"><b>${escapeHtml(uHeader)}:</b> ${escapeHtml(uLabel)}</div>`;

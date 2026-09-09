@@ -1626,6 +1626,20 @@
         }
         .compare-add-btn:hover { background: #e8f0fe; }
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
+        /* Custom-goods hand-off CTA: "make a T-shirt in this language".
+           Deep-links to Makoto Gadgets (makoto-gadget.com) via the generic
+           goods hand-off contract; see docs/custom_goods_handoff.md. */
+        .tshirt-cta-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            margin: 4px 0 10px; padding: 6px 12px;
+            font-size: 12px; font-weight: 600; text-decoration: none;
+            border: 1px solid #b5651d; border-radius: 6px;
+            background: linear-gradient(#ffb347, #ff8c1a); color: #4a2200;
+            cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,.15);
+        }
+        .tshirt-cta-btn:hover { background: linear-gradient(#ffbe5c, #ff9a33); }
+        .tshirt-cta-btn:focus-visible { outline: 2px solid #b5651d; outline-offset: 2px; }
+        .tshirt-cta-btn .tshirt-cta-ico { font-size: 14px; line-height: 1; }
         /* Audit Task 216: header positioning removed; button now flows inline
          * under the native-name line via standard .compare-add-btn rule. */
         /* Compare-table column headers are draggable for reorder — the
@@ -7654,6 +7668,32 @@
                 const lbl = inCmp ? lObj.remove : lObj.add;
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
+            })();
+            // Custom-goods hand-off: "make a T-shirt in <language>". Deep-links
+            // to Makoto Gadgets, which fetches this language's word list from our
+            // public data/wordmap_seo.json and drives its own design/order flow.
+            // Generic contract documented in docs/custom_goods_handoff.md.
+            (() => {
+                const tI18n = {
+                    en: '{lang} T-shirt', ja: '{lang}のTシャツを作る', ko: '{lang} 티셔츠 만들기',
+                    zh: '制作{lang}T恤', yue: '整{lang}T恤', vi: 'Làm áo {lang}',
+                    th: 'ทำเสื้อ{lang}', id: 'Buat kaus {lang}', hi: '{lang} टी-शर्ट बनाएं',
+                    de: '{lang}-T-Shirt', fr: 'T-shirt {lang}', it: 'T-shirt {lang}',
+                    es: 'Camiseta {lang}', pt: 'Camiseta {lang}', ru: 'Футболка: {lang}',
+                    uk: 'Футболка: {lang}', ar: 'قميص {lang}', he: 'חולצת {lang}', sw: 'Fulana ya {lang}',
+                };
+                const tmpl = tI18n[uiLang] || tI18n[uiLang.split('_')[0]] || tI18n.en;
+                const label = tmpl.replace('{lang}', displayName);
+                // ja/ko/zh/... UIs → Makoto ja storefront; everything else → en.
+                const mkLocale = ['ja'].indexOf(uiLang.split('_')[0]) !== -1 ? 'ja' : 'en';
+                const u = new URL('https://makoto-gadget.com/' + mkLocale + '/goods/langmap');
+                u.searchParams.set('src', 'langmap');
+                u.searchParams.set('map', 'wordmap');
+                u.searchParams.set('lang', code);
+                u.searchParams.set('name', displayName);
+                u.searchParams.set('native', lang.native || '');
+                u.searchParams.set('ui', uiLang);
+                html += `<a class="tshirt-cta-btn" href="${escapeHtml(u.href)}" target="_blank" rel="noopener"><span class="tshirt-cta-ico" aria-hidden="true">👕</span>${escapeHtml(label)}</a>`;
             })();
             // Audit Task 115: disambiguator for rows that share a display
             // or native name with another row (e.g. mn_cn/xng both show

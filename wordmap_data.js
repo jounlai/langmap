@@ -1069,7 +1069,7 @@ const LANG_DATA = {
   // the Rongjiang (Zhanglu) speech, which is this branch.
   kmc: { name: 'Southern Dong (Kam)', native: 'Gaeml', lat: 25.93, lng: 108.52, // Rongjiang, Qiandongnan, Guizhou
 },
-  swi: { name: 'Sui', native: 'Aiʳ Sui³', lat: 25.98, lng: 107.87, // Miaocao, Sandu, Qiannan, Guizhou
+  swi: { name: 'Sui', native: 'Ai Sui', lat: 25.98, lng: 107.87, // Miaocao, Sandu, Qiannan, Guizhou
 },
   mmd: { name: 'Maonan', native: 'Anaam', lat: 25.06, lng: 107.86, // Xianan (下南), Huanjiang, Guangxi
 },

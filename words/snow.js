@@ -220,7 +220,7 @@ WORDS.snow = {
     ket: ["тик", "tik"],
     my: ["နှင်း", "n̥ɪ́ɴ"],
     acn: ["xan31 ʑai55", "xan˧˩ ʑai˥˥"],
-    pmi: ["pu̵53", "pu̵˥˧"],
+    pmi: ["pu̵53", "pʉ˥˧"],
     clk: ["poŋ35", "poŋ˧˥"],
     nuf: ["vɑ55", "vɑ˥˥"],
     twm: ["khᴀ55ru53", "kʰᴀ˥˥ru˥˧"],

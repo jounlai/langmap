@@ -183,7 +183,7 @@ WORDS.stone = {
     acn: ["laŋ31kɔʔ55", "laŋ˧˩kɔʔ˥˥"],
     jiu: ["lo42mɔ44", "lo˦˨mɔ˦˦"],
     clk: ["ɑ31lɑŋ55", "ɑ˧˩lɑŋ˥˥"],
-    nuf: ["lu̱53", "lu̱˥˧"],
+    nuf: ["lu̱53", "lu˥˧"],
     pmi: ["jã35ba53", "jã˧˥ba˥˧"],
     twm: ["kɔr13", "kɔr˩˧"],
     dta: ["čolō", "tʃoloː"],

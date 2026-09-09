@@ -137,7 +137,7 @@ WORDS.drink = {
       yuy: ["ухаха", "uχaχa"],
       mjg: ["uu", "uː"],
       sce: ["otsu-", "otʂɯ"],
-      peh: ["u", "u"],
+      peh: ["u-", "u"],
       cjs: ["иш", "iʃ"],
       dlg: ["ис", "is"],
       kdt: ["suəm", "suəm"],

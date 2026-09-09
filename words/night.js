@@ -269,7 +269,7 @@ WORDS.night = {
     clk: ["ɑ31boŋ55tioŋ55", "ɑ˧˩boŋ˥˥tioŋ˥˥"],
     nuf: ["suɑʴ35nɑ35", "suɑʴ˧˥nɑ˧˥"],
     pmi: ["ɕyɛ55", "ɕyɛ˥˥"],
-    twm: ["ȵen13ne31", "ȵen˩˧ne˧˩"],
+    twm: ["ȵen13ne31", "ɲen˩˧ne˧˩"],
     dta: ["suni", "suni"],
     eve: ["долбони", "dolboni"],
     gld: ["долбо", "dolbo"],

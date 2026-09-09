@@ -591,6 +591,7 @@ WORDS.rain = {
     alt: ["јаҥмыр", "dʒaŋˈmɯr"],
     evn: ["тыгдэ", "tigdə"],
     orh: ["tigdə", "tigdə"],
+    dta: ["huar", "huar"],
     acn: ["mau31 ʐo55", "mau˧˩ ʐo˥˥"],
     jiu: ["mi31tha55", "mi˧˩tʰa˥˥"],
     pmi: ["gui53", "gui˥˧"],

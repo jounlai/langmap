@@ -263,7 +263,7 @@ WORDS.eye = {
     jiu: ["mja42tsi44", "mja˦˨tsi˦˦"],
     clk: ["e55lo55bɹɑ55", "e˥˥lo˥˥bɹɑ˥˥"],
     nuf: ["miɑ53dʑi31", "miɑ˥˧dʑi˧˩"],
-    pmi: ["ȵɛ53", "ȵɛ˥˧"],
+    pmi: ["ȵɛ53", "ɲɛ˥˧"],
     twm: ["meʔ53", "meʔ˥˧"],
     dta: ["nid", "nid"],
     eve: ["яса", "jasa"],

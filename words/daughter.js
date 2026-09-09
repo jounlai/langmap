@@ -163,6 +163,7 @@ WORDS.daughter = {
     kn: ["ಮಗಳು", "maɡaɭu"],
     my: ["သမီး", "θəmí"],
     acn: ["tsaŋ31 ʑi31", "tsaŋ˧˩ ʑi˧˩"],
+    orh: ["axakan utə", "axakan utə"],
     jiu: ["zɔ33mi33", "zɔ˧˧mi˧˧"],
     clk: ["ʔɑ55jɑŋ55", "ʔɑ˥˥jɑŋ˥˥"],
     nuf: ["mi31ɑ31zɑ55", "mi˧˩ɑ˧˩zɑ˥˥"],

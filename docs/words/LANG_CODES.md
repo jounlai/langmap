@@ -181,7 +181,7 @@ Total: 1187 codes.
 | `ckb` | Kurdish (Sorani) | クルド語(ソラニー) | Iranian | ~8M |
 | `ckt` | Chukchi | チュクチ語 | Chukotko-Kamchatkan (Chukotian / Northern branch) | ~5K |
 | `ckv` | Kavalan | カバラン語 | Austronesian (East Formosan) | ~24 (critically endangered, revival underway) |
-| `clk` | Idu Mishmi | イドゥ・ミシュミ語 | Sino-Tibetan (Digarish, Mishmi group) | ~1K in China, ~11K in India |
+| `clk` | Idu Mishmi | イドゥ・ミシュミ語 | Sino-Tibetan (Digarish; "Mishmi" is areal) | ~1K in China, ~11K in India |
 | `cmg` | Classical Mongolian | 古典モンゴル語 | Mongolic | Extinct as living register (~17-20c. literary) |
 | `cms` | Messapic | メッサピア語 | Indo-European | Extinct (~1st c. BCE; ~600 documented inscriptions) |
 | `cng` | Northern Qiang | 北部チャン語 | Sino-Tibetan | ~57K (~52K Mao County + ~5K dispersed) |

@@ -636,7 +636,7 @@ WORDS.milk = {
     evn: ["укумни", "ukumni"],
     orh: ["ukun", "ukun"],
     jiu: ["mɛ44ji33", "mɛ˦˦ji˧˧"],
-    clk: ["ȵo55bɹɑ55", "ȵo˥˥bɹɑ˥˥"],
+    clk: ["ȵo55bɹɑ55", "ɲo˥˥bɹɑ˥˥"],
     nuf: ["nɯ55nɯ31", "nɯ˥˥nɯ˧˩"],
     pmi: ["nɛ35", "nɛ˧˥"],
     twm: ["jo13", "jo˩˧"],

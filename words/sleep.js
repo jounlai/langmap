@@ -657,7 +657,7 @@ WORDS.sleep = {
     qxq: ["yatmaq", "jatˈmaq"],
     yuy: ["унтаха", "untaχa"],
     mjg: ["unda", "ˈunda"],
-    peh: ["təra", "təra"],
+    peh: ["təra-", "təra"],
     mvf: ["unda-", "unda"],
     yrk: ["хонась", "xonasʲ"],
 
@@ -839,7 +839,7 @@ WORDS.sleep = {
     clk: ["dʑi55", "dʑi˥˥"],
     nuf: ["iɔ̱53ɔ31", "iɔ̱˥˧ɔ˧˩"],
     pmi: ["khə35ʑi35", "kʰə˧˥ʑi˧˥"],
-    twm: ["ȵɛː13", "ȵɛː˩˧"],
+    twm: ["ȵɛː13", "ɲɛː˩˧"],
     dta: ["wante-", "wante"],
     gld: ["а̄ори", "aːori"],
 

@@ -7693,6 +7693,10 @@
                 u.searchParams.set('name', displayName);
                 u.searchParams.set('native', lang.native || '');
                 u.searchParams.set('ui', uiLang);
+                // Point Makoto at THIS language's word file (~2KB) so it fetches
+                // only what's needed and always sees fresh data. Prefix is fixed
+                // and validated on the Makoto side — see docs/makoto-goods-link.md.
+                u.searchParams.set('words', 'https://langmap.heuron.com/lang_words/' + code + '.js');
                 html += `<a class="tshirt-cta-btn" href="${escapeHtml(u.href)}" target="_blank" rel="noopener"><span class="tshirt-cta-ico" aria-hidden="true">👕</span>${escapeHtml(label)}</a>`;
             })();
             // Audit Task 115: disambiguator for rows that share a display

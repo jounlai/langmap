@@ -1,8 +1,14 @@
 # カスタムグッズ・ハンドオフ設計書 / 制作指示書
 
-**バージョン:** 1.0（2026-09-09）
+**バージョン:** 1.1（2026-09-09）
 **対象:** Makoto Gadgets（`makoto-gadgets.com` / ローカルは `../japan-to-go`）開発担当・グッズ制作会社
 **発端:** LangMap（WordMap）→ 「特定言語の単語でTシャツを作る」サービス
+
+> **v1.1 更新（Makoto 側の実装レビュー反映）** — データ受け渡しを「全言語まとめた
+> `wordmap_seo.json` を Makoto が取得」から、**リンクに載せた言語別ファイル
+> `lang_words/<code>.js`（各約 2KB）を Makoto がサーバー側で取得**に変更。これに伴い
+> CORS 有効化・全 JSON 中継 API の宿題は不要になった。詳細と正本は
+> [`docs/makoto-goods-link.md`](makoto-goods-link.md)。食い違う箇所はそちらを正とする。
 
 このドキュメントは 2 層構成です。
 
@@ -24,8 +30,9 @@
    │        ?src=langmap&map=wordmap&lang=ja&name=日本語&native=日本語&ui=ja
    ▼
  Makoto Gadgets（Next.js 14 / 特設ページ /[locale]/goods/langmap）
-   │  ② 元サイトの公開データ契約を fetch（言語別の単語リスト）
-   │     https://<langmap-origin>/data/wordmap_seo.json  →  langs[lang].words
+   │  ② リンクの words= が指す言語別ファイル（約2KB）をサーバー側で fetch
+   │     https://langmap.heuron.com/lang_words/<code>.js
+   │        → window.__wmLangWordsAdd("<code>",{concept:[form,ipa]})
    │
    │  ③ 単語選択 UI（リストから選ぶ / ランダム5「うまい感じ」）
    │  ④ プレビュー（背面=単語グリッド、前面=胸マーク）
@@ -53,6 +60,7 @@ https://makoto-gadgets.com/{locale}/goods/{product}?{params}
 | query | `src` | **必須。** 送り出しアプリ識別子。Makoto がデータ取得先・レイアウトを分岐する鍵。 | `langmap` |
 | query | `map` | 任意。src 内のサブ種別。 | `wordmap` / `hanmap` / `namemap` |
 | query | `ui` | 任意。送り出し側 UI 言語（フル。`ja` / `en` / `zh_tw` 等）。プレビュー既定言語などに利用。 | `ja` |
+| query | `words` | **推奨。** その選択に必要なデータファイルの URL（1 件分）。Makoto はこの URL をサーバー側で取得する。**接頭辞は Makoto 側で検証**（allowlist）。 | `https://langmap.heuron.com/lang_words/ja.js` |
 | query | `v` | 任意。契約バージョン。省略時は `1`。 | `1` |
 | query | 企画固有 | `product` ごとに追加（後述の LangMap は `lang` / `name` / `native`）。 | `lang=ja` |
 
@@ -65,21 +73,17 @@ https://makoto-gadgets.com/{locale}/goods/{product}?{params}
 
 ## 2. データ契約（Makoto が取得する側）
 
-各 `src` は「公開 JSON の場所」と「言語→アイテム配列の形」を Makoto に約束する。Makoto 側は `src` ごとに固定の取得先を持つ（クエリで fetch 先 URL を渡さない＝SSRF 防止）。
+送り出し側は **選択に必要な最小単位のデータファイル**を公開し、その URL を `words=` に載せる。Makoto はその 1 件だけをサーバー側で取得する（全部入りの巨大 JSON は取得しない）。
 
-```ts
-// Makoto: src ごとの取得先を allowlist で固定
-const GOODS_SOURCES = {
-  langmap: {
-    dataUrl: 'https://<langmap-origin>/data/wordmap_seo.json',
-    // langs[code].words = { concept: [form, ipa] }
-  },
-  // 将来: hanmap / namemap / ... を追加
-} as const;
-```
-
-- 取得先オリジンは Makoto のコードに固定。クエリの `src` はこのテーブルのキー参照のみ。
-- **CORS:** 送り出し側 JSON は `Access-Control-Allow-Origin`（`makoto-gadgets.com`、または `*`）を返す必要がある。難しければ Makoto の API ルートでサーバー側 fetch → 中継（キャッシュ付き）。**推奨は後者**（後述 §II-4）。JSON は数百 KB〜級なのでサーバーキャッシュ必須。
+- **SSRF 防止:** Makoto は `words=` を丸呑みしない。**`src` ごとに許可された URL 接頭辞**を持ち、それに前方一致する URL しか取得しない。
+  ```ts
+  const GOODS_SOURCES = {
+    langmap: { urlPrefix: 'https://langmap.heuron.com/lang_words/' },
+    // 将来: hanmap / namemap / ... を接頭辞ごと追加
+  } as const;
+  ```
+- **CORS 不要:** Makoto はサーバー側から取得するのでブラウザ CORS は関係ない。送り出し側は認証なしで 200 を返せばよい。
+- **軽量:** 1 ファイル数 KB 級。都度取得＋短時間キャッシュで足りる（全言語 JSON を持たないので、送り出し側のデータ更新がそのまま反映される）。
 
 ## 3. 送り出し側の実装（薄い層）
 
@@ -114,35 +118,35 @@ const GOODS_SOURCES = {
   ```
   https://makoto-gadgets.com/{ja|en}/goods/langmap
      ?src=langmap&map=wordmap&lang={code}&name={displayName}&native={native}&ui={uiLang}
+     &words=https://langmap.heuron.com/lang_words/{code}.js
   ```
-  ロケールは UI が `ja` 系なら `ja`、他は `en`。
+  ロケールは UI が `ja` 系なら `ja`、他は `en`。`words=` はその言語の単語ファイル
+  （約 2KB）を指す。**接頭辞 `https://langmap.heuron.com/lang_words/` は固定**で、
+  Makoto 側が検証する（[`makoto-goods-link.md`](makoto-goods-link.md) §2）。
 - CSS クラス `.tshirt-cta-btn`（オレンジのグッズ色。比較ボタンと視覚的に区別）。
 
 > **SEO ページ版（今後）:** 言語別 SEO ページ（`docs/` の big-text pages 企画）にも同じリンクを置くだけ。ボタン文言・URL 生成ロジックは上と共通化しておくと良い。現状の静的モーダルとは別テンプレートなので、生成関数を 1 つ切り出して両方から呼ぶ想定。
 
 ## 2. データ契約（LangMap の具体形）
 
-`data/wordmap_seo.json`（このリポジトリが公開・生成）:
+`words=` が指す言語別ファイル `lang_words/<code>.js`（このリポジトリが `tools/build_lang_words.js` で生成・公開、全 1187 言語）:
 
-```jsonc
-{
-  "langs": {
-    "ja": {
-      "code": "ja", "name": "Japanese", "native": "日本語",
-      "words": {                 // ← Makoto はここだけ使う
-        "water": ["水", "mizɯ"],
-        "fire":  ["火", "hi"],
-        "moon":  ["月", "tsɯki"]
-        // concept: [form, ipa]
-      }
-    }
-  }
-}
+```js
+/* GENERATED — do not edit */
+window.__wmLangWordsAdd("ja", {
+  "water": ["水", "mizɯ"],
+  "fire":  ["火", "hi"],
+  "moon":  ["月", "tsɯki"]
+  // concept: [form, ipa]
+});
 ```
 
-- 言語コードは 1187 件。1 言語あたり単語は概ね 30〜67 個（`ja` は 67）。
+- Makoto はサーバー側でこのファイルを取得し、**第 2 引数のオブジェクト**を取り出して JSON として読む（JS の実行はしない）。
+- 1 言語あたり単語は概ね 30〜67 個（`ja` は 67）。1 ファイル約 2KB。
 - concept キーは英語スラッグ（`water`/`fire`/…）。表示は `form`（現地表記）を使う。`ipa` は補助（背面に小さく併記するか選択可、既定オフ）。
-- `words` が空 or 極少（< 1）の言語は特設ページで「この言語はまだ単語が足りません」を出す（ボタン自体は出るが、Makoto 側でガード）。
+- 単語が極少（< 1）の言語は特設ページで「この言語はまだ単語が足りません」を出す（ボタン自体は出るが、Makoto 側でガード）。
+- `lang` クエリと `words=` のコードは必ず一致（実コードで担保）。
+- フォントは Makoto 側が LangMap のフォントスタックをそのまま複製して使う。**リンクにフォント情報は載せない**（[`makoto-goods-link.md`](makoto-goods-link.md) §3）。
 
 ## 3. Makoto 特設ページ `/[locale]/goods/langmap`
 
@@ -195,18 +199,21 @@ const uiHint = qs.ui, nameHint = qs.name; // 表示初期値のみ（正はデ�
   ```
   `words` の `form` を正とし、`dataGenerated` を残すことで後日の再現・差分検証ができる。
 
-## 4. 推奨: Makoto 側データ中継 API
+## 4. Makoto 側のデータ取得
 
-CORS とキャッシュのため、直 fetch ではなく Makoto の API ルートを噛ませる。
+`words=` の URL（言語別ファイル 1 件）を **Makoto がサーバー側で取得**する。CORS も全 JSON 中継も不要。
 
 ```
-GET /api/goods/langmap/words?lang=ja
-  → サーバーで GOODS_SOURCES.langmap.dataUrl を fetch（60〜1440 分キャッシュ）
-  → { code, name, native, words:[{concept,form,ipa}] } を返す
+特設ページ（サーバー）:
+  1. words= の接頭辞が GOODS_SOURCES.langmap.urlPrefix に前方一致するか検証
+  2. 一致すれば fetch（短時間キャッシュ）
+  3. window.__wmLangWordsAdd("<code>", <OBJ>) の <OBJ> を取り出す
+     → { concept: [form, ipa] } を [{concept, form, ipa}] に整形
+  4. 選択 UI へ
 ```
 
-- 全 JSON（1187 言語）を都度クライアントに渡さない。言語ごとに切り出して返す。
-- `lang` は正規表現/allowlist で検証（`^[a-z]{2,3}(_[a-z0-9]+)?$` 程度）。
+- JS は実行せず、第 2 引数のオブジェクトだけをパースする（安全側）。
+- `words=` が接頭辞に一致しない／取得失敗時は、`lang` から接頭辞＋`<code>.js` を自前で組み立ててフォールバックしてよい。
 
 ## 5. Tシャツ・レイアウト仕様（印刷）
 
@@ -259,7 +266,9 @@ GET /api/goods/langmap/words?lang=ja
 - [x] `.tshirt-cta-btn` CSS
 - [x] 胸マーク SVG（`assets/tshirt/langmap-chest-mark.svg`）
 - [x] 本設計書
-- [ ] `data/wordmap_seo.json` の CORS 有効化 **or** Makoto 中継 API 採用の決定
+- [x] `words=`（言語別 `lang_words/<code>.js` の URL）をリンクに追加（v1.1）
+- [ ] `lang_words/<code>.js` が全 1187 言語で認証なし 200 を返すことを確認
+- [ ] `lang_words/` のパス・形式・ホスト名／フォントスタック／concept ID を変える時は Makoto へ事前連絡（[`makoto-goods-link.md`](makoto-goods-link.md) §7）
 - [ ] （今後）SEO ページ版ボタン。URL 生成関数を共通化
 
 **Makoto 側（`../japan-to-go`・要）**

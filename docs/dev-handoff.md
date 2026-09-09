@@ -7,7 +7,7 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 
 ## Current state
 - Dataset: **1187 languages** (`wordmap_data.js` header must match — it's validated).
-- Branch `main`, working tree clean. Last commit `ff3e7f96`.
+- Branch `main`, working tree clean. Last commit `4fd07347`.
 - `node tools/check_all.js` is **green**; keep it green before every commit.
 
 ## What shipped this session (newest → oldest, all on `main`)
@@ -166,6 +166,18 @@ but "probably" is not a source. Both are one line each if someone settles them.
 - NameMap Hausa separators and stress marks: already gone, item closed.
 - The NameMap `br` collision with Breton (item 10) and the same-pitch tone
   respellings, 292 → 80 cells (item 15c).
+
+**The ten review rounds are fully applied as of 2026-09-09.** Everything the
+five+five passes found is either in the data or listed below as needing a source.
+Three of their findings were REJECTED after checking, and the reasons matter:
+- Hindi स्वराघात → तान: refused. The app's own UI strings use स्वराघातिक /
+  गैर-स्वराघातिक and the corpus has 134 more; the "fix" had floated fifteen rows
+  free of both, and they were put back.
+- Spanish spaced em-dashes: RAE sets them unspaced, but 71 Spanish rows outside
+  this batch use the spaced form. It is house punctuation, not a batch defect.
+- Vietnamese pinyin for Taoba and Zhanglu: left. I do not know which characters
+  those names are, and a guessed Sino-Vietnamese reading is worse than the
+  inconsistency.
 
 **Open questions the 2026-09-08 rally raised and did not settle** (all recorded
 here rather than guessed at in the rows):

@@ -857,7 +857,7 @@ WORDS.egg = {
     kim: ["нюмурһа", "ɲumurha"],
     dng: ["җидан", "tɕi˨˦tan˥˩"],
     khb: ["ᦺᦃᧈ", "xaj"],
-    srh: ["kako", "kako"],
+    srh: ["tqheem", "tχɵm"],
     rbb: ["bəːn", "bəːn"],
     blr: ["ka31 tɔm33", "ka˧˩ tɔm˧˧"],
     blt: ["ꪼꪎ꪿", "saj"],

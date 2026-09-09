@@ -958,7 +958,7 @@ WORDS.four = {
     mmd: ["si5", "si˦˦"],
     mlm: ["ti5", "ti˦˦"],
     swi: ["hi5", "hi˧˥"],
-    lic: ["tshau3", "tshau˩˩"],
+    lic: ["tshau3", "tsʰau˩˩"],
     kmc: ["si453", "si˦˥˧"],
     giq: ["pu33", "pu˧˧"],
     shx: ["pi35", "pi˧˥"],

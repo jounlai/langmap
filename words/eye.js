@@ -335,7 +335,7 @@ WORDS.eye = {
     mmd: ["ⁿda1", "ⁿda˦˨"],
     mlm: ["l̥a1", "l̥a˦˨"],
     swi: ["ⁿda1", "ⁿda˩˩"],
-    lic: ["tsha1", "tsha˥˧"],
+    lic: ["tsha1", "tsʰa˥˧"],
     kmc: ["ta55", "ta˥˥"],
     giq: ["ləɯ13 tau33", "ləɯ˩˧ tau˧˧"],
     shx: ["ka22 kʰɔ44", "ka˨˨ kʰɔ˦˦"],

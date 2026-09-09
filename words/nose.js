@@ -222,7 +222,7 @@ WORDS.nose = {
     mmd: ["ʔnaŋ1", "ʔnaŋ˦˨"],
     mlm: ["kə5 naŋ1", "kə˦˦ naŋ˦˨"],
     swi: ["ʔnaŋ1", "ʔnaŋ˩˩"],
-    lic: ["khat7", "khat˥˥"],
+    lic: ["khat7", "kʰat˥˥"],
     kmc: ["mɐŋ55", "mɐŋ˥˥"],
     giq: ["ȵtɕe24", "ȵtɕe˨˦"],
     shx: ["kʰɤŋ44 piu54", "kʰɤŋ˦˦ piu˥˦"],

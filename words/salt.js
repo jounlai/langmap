@@ -782,7 +782,7 @@ WORDS.salt = {
     mmd: ["kwo1", "kwo˦˨"],
     mlm: ["cwa1", "cwa˦˨"],
     swi: ["ʔdwə1", "ʔdwə˩˩"],
-    lic: ["ȵa:u3", "ȵa:u˩˩"],
+    lic: ["ȵa:u3", "ȵaːu˩˩"],
     kmc: ["jim212", "jim˨˩˨"],
     giq: ["ȵtɕəɯ44", "ȵtɕəɯ˦˦"],
     shx: ["tsa44", "tsa˦˦"],

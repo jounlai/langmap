@@ -333,7 +333,7 @@ WORDS.eat = {
     th_s: ["กิน", "kin˥"],
     za: ["gwn", "kɯn˨˦"],
     mmd: ["na4", "na˨˦"],
-    mlm: ["tsa:n1", "tsa:n˦˨"],
+    mlm: ["tsa:n1", "tsaːn˦˨"],
     swi: ["ʔman3", "ʔman˧˧"],
     lic: ["la2", "la˥˥"],
     kmc: ["tɕan55", "tɕan˥˥"],

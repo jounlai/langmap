@@ -200,7 +200,7 @@ WORDS.egg = {
     mmd: ["kai5", "kai˦˦"],
     mlm: ["kɣəi5", "kɣəi˦˦"],
     swi: ["kai5", "kai˧˥"],
-    lic: ["zɯ:m1", "zɯ:m˥˧"],
+    lic: ["zɯ:m1", "zɯːm˥˧"],
     kmc: ["kɐi53", "kɐi˥˧"],
     giq: ["tan33", "tan˧˧"],
     shx: ["ka11", "ka˩˩"],

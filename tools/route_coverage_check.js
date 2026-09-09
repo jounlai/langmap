@@ -67,7 +67,15 @@ const DEBT = {};
 // attested for those two lects: the form came from "Northern Mandarin generally"
 // and the tone from Standard Mandarin. Returned to `unknown`. A ratchet that only
 // ever falls is a ratchet that rewards claiming things.
-const UNDECIDED = { we: { route: 'unknown', max: 33 }, bear: { route: 'unknown', max: 4 } };
+// 33 -> 37 on 2026-09-09, for the same reason, after a review of the nineteen
+// China-nationality rows. kmc, giq and peh had been routed `clusive`/`single` on
+// wordlists that give one or two 1PL forms and label neither; blr had been dashed
+// on the same evidence, which hid an attested word. ABVD annotates its WE item
+// where the distinction is known — She (Haifeng) carries the note "Haifeng She
+// does not distinguish between the two", and Mulam's two forms are marked
+// inclusive and exclusive — so silence there is silence, not a finding. Those
+// four are now `unknown` with the word shown.
+const UNDECIDED = { we: { route: 'unknown', max: 37 }, bear: { route: 'unknown', max: 4 } };
 
 let violations = 0;
 const notes = [];

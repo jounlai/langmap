@@ -923,11 +923,17 @@ for (const code of codes) {
             //   peh.{cat,heart,love,hello,thanks} — Bonan, the same five, from
             //   the same cause: Liu Zhaoxiong's 保安语简志 wordlist is Swadesh-
             //   shaped. Unwritten language, ~6K speakers, no online lexicon.
-            //   orh.{cat,father,mother,love,hello,thanks} — Oroqen. father and
-            //   mother are unusual entries on this list, and the reason is the
-            //   source: the only dataset that carries Oroqen is a sound-symbolism
-            //   survey, which has BIG/SMALL/ROUND but no kinship terms at all.
-            //   ~1.2K speakers, unwritten. Needs 鄂伦春语简志 (Hu Zengyi 1986).
+            //   orh.{cat,love,hello,thanks} — Oroqen, from Johansson's
+            //   sound-symbolism survey. CORRECTION 2026-09-09: father and
+            //   mother were dashed here on the claim that the survey "has no
+            //   kinship terms at all". It has about sixty of them, split by
+            //   the sex of the speaker, and Oroqen gives amɪn and ənin. Both
+            //   cells are filled now. Needs 鄂伦春语简志 (Hu Zengyi 1986) for
+            //   the four that really are absent.
+            //   peh.sun — Bonan. ABVD has no SUN item; its 168 'day' entry is
+            //   udər, the Proto-Mongolic *ödür reflex, and every other Mongolic
+            //   row in the atlas has the *naran reflex for sun. Dashed rather
+            //   than published as the day word. Needs 保安语简志 (1982).
             //   acn.{cat,eye,night,love,hello,thanks} — Achang. eye and night
             //   are absent from the Sagart Sino-Tibetan list this row uses. The
             //   other dataset carrying Achang (Mann's Burmish list) has them,
@@ -955,6 +961,11 @@ for (const code of codes) {
             //   so a single form is an incomplete record rather than evidence
             //   of no distinction. Needs 布朗语简志 (1986), 德昂语简志 (1986)
             //   and 塔吉克语简志 (1962) / Kim's Sarikoli grammar (2014).
+            //   blr.{stone,sun} additionally: the peirosaustroasiatic CLDF
+            //   hard-caps its form field at 15 characters across all 10,706
+            //   rows, and these two Plang forms hit the cap and lost the tone
+            //   of their final syllable. Truncated data, not toneless
+            //   syllables — do not restore them from the CLDF.
             //   dta.{cat,love,hello,thanks} — Daur. The Robbeets et al. (2021)
             //   Transeurasian list is Swadesh-shaped and carries none of the
             //   four. Needs 达斡尔语简志 (Zhong Suchun 1982) or Tsumagari's
@@ -975,7 +986,7 @@ for (const code of codes) {
                 twm: new Set(['bone', 'hello', 'thanks']),
                 nuf: new Set(['bone', 'hello', 'thanks']),
                 clk: new Set(['bone', 'hello', 'thanks']),
-                blr: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'three', 'hello', 'thanks']),
+                blr: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'three', 'hello', 'thanks', 'stone', 'sun']),
                 rbb: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'good', 'red', 'hello', 'thanks']),
                 srh: new Set(['mother', 'father', 'i', 'you', 'we', 'love', 'cat', 'hello', 'thanks']),
                 dta: new Set(['cat', 'love', 'hello', 'thanks']),
@@ -986,8 +997,8 @@ for (const code of codes) {
                 kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
                 giq: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
-                peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
-                orh: new Set(['cat', 'father', 'mother', 'love', 'hello', 'thanks']),
+                peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'sun']),
+                orh: new Set(['cat', 'love', 'hello', 'thanks']),
                 acn: new Set(['cat', 'eye', 'night', 'love', 'hello', 'thanks']),
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),

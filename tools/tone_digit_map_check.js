@@ -38,8 +38,11 @@ const STRICT = 0.95;       // at or above, the row HAS a map and a stray is an e
 // Outliers inside a strict row that are not settled yet. Reported as debt, not
 // as failure, so the tree stays green and the gap stays in view.
 const DEBT = new Map([
-    ['nan_th|行:1', 'Thai-Chinese Hokkien 行 ˥˥ against the row\'s ˧˥ for digit 5 — sandhi or a real value, needs a native check'],
-    ['nan_th|行:2', 'same cell, literary reading'],
+    // RESOLVED 2026-09-09: 行 is 陽平 in every Hokkien reading (kiâⁿ / hâng /
+    // hîng), and Hokkien 陽平 sandhi is uniformly low; ˥˥ is the TEOCHEW 陽平
+    // value, and Thailand's Chinese community is largely Teochew, so a Teochew
+    // value had leaked into a Hokkien row. Both cells are ˧˥, which is what the
+    // row's own digit-5 map gives in its other seven cells.
 ]);
 
 const ctx = vm.createContext({});

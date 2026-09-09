@@ -718,7 +718,7 @@ WORDS.dog = {
     tll: ["mbwa", "mbwa"],
     ff: ["rawandu", "ɾawandu"],
     bm: ["wulu", "wulu"],
-    dds: ["gɛɛ", "ɡɛː"],
+    dds: ["—", "—"],
     emk: ["wuli", "wuli"],
     kao: ["wulu", "wulu"],
     snk: ["wulle", "wulːe"],

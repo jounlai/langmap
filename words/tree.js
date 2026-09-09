@@ -718,7 +718,7 @@ WORDS.tree = {
     tll: ["etamba", "etamba"],
     ff: ["lekki", "lekːi"],
     bm: ["jiri", "dʒiɾi"],
-    dds: ["ti", "ti"],
+    dds: ["—", "—"],
     emk: ["yiri", "jiɾi"],
     kao: ["yiri", "jiɾi"],
     snk: ["yiribirinde", "jiɾibiɾinde"],

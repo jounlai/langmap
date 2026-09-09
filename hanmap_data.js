@@ -12832,7 +12832,7 @@ const HAN_DATA = {
       "dng": "ɕin˨˦",
       "yue_us": "hɑŋ˨",
       "zh_us": "ɕiŋ˧˥",
-      "nan_th": "kiã˥˥",
+      "nan_th": "kiã˧˥",
       "zh_th": "ɕiŋ˧˥",
       "nan_pera": "kiã˨˦",
       "zh_jiao": "ɕiŋ˦˨",
@@ -13093,7 +13093,7 @@ const HAN_DATA = {
       "zh_tw": "xaŋ˧˥",
       "nan_sg": "haŋ˨˦",
       "nan_id": "haŋ˨˦",
-      "nan_th": "haŋ˥˥",
+      "nan_th": "haŋ˧˥",
       "nan_pera": "haŋ˨˦",
       "ko_hun": "haŋnjʌl"
     },

@@ -980,6 +980,15 @@ for (const code of codes) {
             //   no entry at item 168 as 'sun' — only the day word. mlm.tree
             //   has no item. Needs 黎语简志 (1980), 水语简志 (1980),
             //   毛南语简志 (1980), 仫佬语简志 (1980).
+            //   dds.{dog,tree} — Donno So. The row read dog gɛɛ and tree ti,
+            //   and neither is the word: every Dogon variety in Heath's
+            //   comparative lexicon gives an i-/n- initial for dog (ìjú, ìnjɛ̌,
+            //   ìzú, ìšú, nènú) and a tim- form for tree, while gɛ́ appears in
+            //   the SAY entry and ti in ONE. A gloss mis-mapping, not a
+            //   transcription difference. Dashed rather than replaced from
+            //   ASJP, whose transcription is a different system — mixing the
+            //   two is the error undone in och and ptai. Needs Kervran,
+            //   Dictionnaire dogon-francais: donno sɔ (1982).
             const MODERN_UNSOURCED_ALLOW = {
                 jiu: new Set(['bone', 'hello', 'thanks']),
                 pmi: new Set(['bone', 'hello', 'thanks']),
@@ -1002,6 +1011,7 @@ for (const code of codes) {
                 acn: new Set(['cat', 'eye', 'night', 'love', 'hello', 'thanks']),
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
+                dds: new Set(['dog', 'tree']),
                 ker: new Set(['red']),
                 kmu: new Set(['tongue']),
                 nlc: new Set(['tongue']),

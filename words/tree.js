@@ -262,7 +262,7 @@ WORDS.tree = {
     acn: ["saŋ31 tseŋ55", "saŋ˧˩ tseŋ˥˥"],
     jiu: ["a33tsɯ33", "a˧˧tsɯ˧˧"],
     clk: ["mɑ55seŋ55boŋ35", "mɑ˥˥seŋ˥˥boŋ˧˥"],
-    nuf: ["si53dzə̃ʴ35", "si˥˧dzə̃ʴ˧˥"],
+    nuf: ["si53dzə̃ʴ35", "si˥˧dzə̃˞˧˥"],
     pmi: ["sẽ35bõ35", "sẽ˧˥bõ˧˥"],
     twm: ["ɕeŋ55mᴀ53", "ɕeŋ˥˥mᴀ˥˧"],
     dta: ["mo:də", "moːdə"],

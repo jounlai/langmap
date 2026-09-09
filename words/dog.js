@@ -263,7 +263,7 @@ WORDS.dog = {
     jiu: ["khɯ33jo33", "kʰɯ˧˧jo˧˧"],
     clk: ["mi55ku55", "mi˥˥ku˥˥"],
     nuf: ["khui55", "kʰui˥˥"],
-    pmi: ["khɯ35dʐa35", "kʰɯ˧˥dʐa˧˥"],
+    pmi: ["khɯ35dʐa35", "kʰɯ˧˥ɖʐa˧˥"],
     twm: ["chi53", "cʰi˥˧"],
     dta: ["nogə", "nogə"],
     eve: ["нгин", "ŋin"],

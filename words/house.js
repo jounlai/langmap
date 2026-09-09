@@ -262,7 +262,7 @@ WORDS.house = {
     acn: ["in55", "in˥˥"],
     jiu: ["tso31", "tso˧˩"],
     clk: ["oŋ35", "oŋ˧˥"],
-    nuf: ["iɔ35kɑʴ35", "iɔ˧˥kɑʴ˧˥"],
+    nuf: ["iɔ35kɑʴ35", "iɔ˧˥kɑ˞˧˥"],
     pmi: ["tɕø̃55", "tɕø̃˥˥"],
     twm: ["chem53", "cʰem˥˧"],
     dta: ["geri", "geri"],

@@ -340,7 +340,7 @@ WORDS.father = {
     swi: ["pu4", "pu˥˩"],
     lic: ["pha3", "pʰa˩˩"],
     kmc: ["pu31", "pu˧˩"],
-    gqu: ["mɒ13", "mɒ˩˧"],
+    gqu: ["pʰɒ44", "pʰɒ˦˦"],
     shx: ["a22 pa44", "a˨˨ pa˦˦"],
     hmn: ["txiv", "tɕi˨˦"],
     jv: ["bapak", "bapak"],

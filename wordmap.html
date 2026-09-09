@@ -3291,7 +3291,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=316"></script>
-    <script src="word_manifest.js?v=420"></script>
+    <script src="word_manifest.js?v=421"></script>
     <script src="word_labels.js?v=51"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -3768,11 +3768,11 @@
             metaI18n:  16,
             filter:    45,
             names:   171,
-            meta:     341,
+            meta:     343,
             trivia:   41,
             triviaI18n: 23,
-            words:      420,
-            langWords:    178,
+            words:      421,
+            langWords:    179,
             labels:      51,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
@@ -7481,6 +7481,14 @@
             'mixed':                 { en:'mixed / needs review', ja:'混在/要確認', ko:'혼합/재검토 필요', zh:'混合/待修订', yue:'混合／待修訂', vi:'hỗn hợp / cần xem xét', th:'ผสม / ต้องตรวจสอบ', id:'campuran / perlu ditinjau', hi:'मिश्रित / समीक्षा आवश्यक', de:'gemischt / zu prüfen', fr:'mixte / à revoir', it:'misto / da rivedere', es:'mixto / requiere revisión', pt:'misto / precisa revisão', ru:'смешано / требует проверки', uk:'змішано / потребує перевірки', ar:'مختلط / يتطلب مراجعة', he:'מעורב / דורש סקירה', sw:'mchanganyiko / linahitaji ukaguzi' },
             'unknown':               { en:'not yet reviewed', ja:'未確認', ko:'미검토', zh:'未审核', yue:'未審核', vi:'chưa xem xét', th:'ยังไม่ตรวจสอบ', id:'belum ditinjau', hi:'समीक्षा नहीं हुई', de:'nicht geprüft', fr:'non vérifié', it:'non rivisto', es:'sin revisar', pt:'não revisado', ru:'не проверено', uk:'не перевірено', ar:'لم تُراجع', he:'לא נסקר', sw:'haijakaguliwa' },
         };
+        // Why the current concept's cell is '—'. The data has carried
+        // meta.unattestedReason since the first comparative-wordlist rows, and
+        // nothing rendered it: 106 written reasons that no reader could see.
+        const UNATTESTED_HEADER = { en:'This word', ja:'この語について', ko:'이 단어', zh:'该词', yue:'呢個詞', vi:'Từ này', th:'คำนี้', id:'Kata ini', hi:'यह शब्द', de:'Dieses Wort', fr:'Ce mot', it:'Questa parola', es:'Esta palabra', pt:'Esta palavra', ru:'Это слово', uk:'Це слово', ar:'هذه الكلمة', he:'המילה הזאת', sw:'Neno hili' };
+        const UNATTESTED_LABEL = {
+            'unsourced':         { en:'not recorded in the source this row uses', ja:'この行が用いる資料に記録がない', ko:'이 행이 쓰는 자료에 기록이 없음', zh:'本行所用材料没有记录', yue:'呢一行用嘅材料冇記錄', vi:'không có trong nguồn của hàng này', th:'ไม่มีบันทึกในแหล่งข้อมูลของแถวนี้', id:'tidak tercatat dalam sumber baris ini', hi:'इस पंक्ति के स्रोत में दर्ज नहीं', de:'in der Quelle dieser Zeile nicht verzeichnet', fr:'non attesté dans la source de cette ligne', it:'non attestato nella fonte di questa riga', es:'no consta en la fuente de esta fila', pt:'não consta na fonte desta linha', ru:'в источнике этой строки не зафиксировано', uk:'у джерелі цього рядка не зафіксовано', ar:'غير مسجَّل في مصدر هذا الصف', he:'לא נרשם במקור של שורה זו', sw:'halijaandikwa katika chanzo cha safu hii' },
+            'cultural-absence':  { en:'the language has no word for this', ja:'この語に当たる語がない', ko:'이에 해당하는 낱말이 없음', zh:'这门语言没有对应的词', yue:'呢種話冇對應嘅詞', vi:'ngôn ngữ này không có từ tương ứng', th:'ภาษานี้ไม่มีคำนี้', id:'bahasa ini tidak punya katanya', hi:'इस भाषा में इसके लिए शब्द नहीं', de:'die Sprache hat kein Wort dafür', fr:'la langue n\u2019a pas de mot pour cela', it:'la lingua non ha una parola per questo', es:'la lengua no tiene palabra para esto', pt:'a língua não tem palavra para isto', ru:'в языке нет такого слова', uk:'у мові немає такого слова', ar:'لا توجد كلمة لهذا في اللغة', he:'אין בשפה מילה לכך', sw:'lugha hii haina neno la hili' }
+        };
         const SURFACE_TYPE_HEADER = { en:'Surface', ja:'表記体系', ko:'표기 체계', zh:'表记体系', yue:'表記體系', vi:'Hệ chữ', th:'ระบบการเขียน', id:'Sistem Tulisan', hi:'लेखन प्रणाली', de:'Schriftform', fr:'Forme écrite', it:'Forma scritta', es:'Forma escrita', pt:'Forma escrita', ru:'Запись', uk:'Запис', ar:'النظام الكتابي', he:'מערכת כתב', sw:'Mfumo wa Kuandika' };
 
         // Audit Task 79: coverage flag for regional variant rows
@@ -7877,6 +7885,16 @@
                 const tone = (m.surfaceType === 'mixed' || m.surfaceType === 'unknown' || m.surfaceType === 'phonetic') ? '#a04020' : '#888';
                 html += `<div style="margin:2px 0 -2px;font-size:10px;color:${tone}"><b>${escapeHtml(stHeader)}:</b> ${escapeHtml(stLabel)}</div>`;
             }
+            // Show why the current concept's cell is '—', if it is.
+            try {
+                const _ur = m.unattestedReason && currentWord ? m.unattestedReason[currentWord] : null;
+                if (_ur && UNATTESTED_LABEL[_ur]) {
+                    const uObj = UNATTESTED_LABEL[_ur];
+                    const uLabel = uObj[uiLang] || uObj[uiLang.split('_')[0]] || uObj.en;
+                    const uHeader = UNATTESTED_HEADER[uiLang] || UNATTESTED_HEADER[uiLang.split('_')[0]] || UNATTESTED_HEADER.en;
+                    html += `<div style="margin:2px 0 -2px;font-size:10px;color:#a04020"><b>${escapeHtml(uHeader)}:</b> ${escapeHtml(uLabel)}</div>`;
+                }
+            } catch (_) {}
             // Audit Task 99: locationBasis — representative-point semantics.
             // Read from meta.locationBasis (canonical) or lang.locationBasis (legacy).
             const locBasis = m.locationBasis || lang.locationBasis;

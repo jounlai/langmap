@@ -1070,7 +1070,7 @@ WORDS.mother = {
     swi: ["ni4", "ni˥˩"],
     lic: ["pai3", "pai˩˩"],
     kmc: ["nɐi31", "nɐi˧˩"],
-    gqu: ["pʰɒ44", "pʰɒ˦˦"],
+    gqu: ["mɒ13", "mɒ˩˧"],
     shx: ["a22 me35", "a˨˨ me˧˥"],
     ium: ["maa", "maː˧"],
     hui: ["ainya", "aiɲa"],

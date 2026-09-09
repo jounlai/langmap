@@ -908,7 +908,7 @@ for (const code of codes) {
             //   entries), Glosbe, and the Kam Wikipedia article's vocabulary
             //   tables. Needs Long Yaohong & Zheng Guoqiao's Dong-Chinese
             //   dictionary, print-only.
-            //   gqu.{cat,heart,love,hello,thanks,tree} — Green Gelao, same
+            //   gqu.{cat,heart,love,hello,thanks,tree} — Central Gelao (Qau), same
             //   Swadesh-shaped gap as kmc, plus 'tree': the Wanzi list this row
             //   uses has no stick/wood entry. The Zhenfeng and Sanchong lists do,
             //   but they are different lects — Gelao varieties diverge enough to
@@ -942,7 +942,7 @@ for (const code of codes) {
             //   the row's correspondences unreadable. Needs 阿昌语简志 (1985).
             //   jiu/pmi/twm/nuf/clk.{bone,hello,thanks} — Jino, Northern Pumi,
             //   Tshona Monpa, Nusu and Idu. All five come from Sun Hongkai (1991)
-            //   藏缅语音和词汇,
+            //   藏缅语语音和词汇,
             //   whose wordlist has no BONE concept at all, so there is nothing
             //   to read off rather than a gap in this row. Needs the 简志 volumes: 基诺语简志 (1986),
             //   普米语简志 (1991), 门巴语简志 (1986), 怒族语言简志 (1986) and
@@ -994,10 +994,10 @@ for (const code of codes) {
                 swi: new Set(['heart', 'sun', 'cat', 'love', 'hello', 'thanks']),
                 mmd: new Set(['heart', 'cat', 'love', 'hello', 'thanks']),
                 mlm: new Set(['heart', 'tree', 'cat', 'love', 'hello', 'thanks']),
-                kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
-                gqu: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
+                kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'sun']),
+                gqu: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree', 'sun']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
-                peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'sun']),
+                peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'sun', 'tree']),
                 orh: new Set(['cat', 'love', 'hello', 'thanks']),
                 acn: new Set(['cat', 'eye', 'night', 'love', 'hello', 'thanks']),
                 ivv: new Set(['cat']),

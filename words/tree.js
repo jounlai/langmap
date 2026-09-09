@@ -137,7 +137,7 @@ WORDS.tree = {
       yuy: ["мод", "mod"],
       mjg: ["mod", "mɔd"],
       sce: ["mutun", "mutun"],
-      peh: ["guaiguŋ", "guaiguŋ"],
+      peh: ["—", "—"],
       cjs: ["ағаш", "ɑɣɑʃ"],
       dlg: ["мас", "mas"],
       kdt: ["ʔəŋ", "ʔəŋ"],

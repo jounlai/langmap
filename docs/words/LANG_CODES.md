@@ -384,7 +384,7 @@ Total: 1187 codes.
 | `gon` | Gondi | ゴンド語 | Dravidian (South-Central) | ~2.7–3M L1 (highly endangered) |
 | `gor` | Gorontalo | ゴロンタロ語 | Austronesian (Philippine, Gorontalo-Mongondow) | ~1M |
 | `got` | Gothic | ゴート語 | Indo-European (Germanic, East) | Extinct |
-| `gqu` | Green Gelao | 緑仡佬語 | Kra-Dai (Kra) | ~3K (Gelao nationality ~550K) |
+| `gqu` | Central Gelao (Qau) | 中部仡佬語 | Kra-Dai (Kra) | ~3K (Gelao nationality ~550K) |
 | `grt` | Garo | ガロ語 | Sino-Tibetan (Tibeto-Burman, Bodo-Garo) | ~1M |
 | `gsw` | Swiss German | スイス・ドイツ語 | Indo-European (Germanic, West, High German, Alemannic) | ~5M |
 | `gsw_w` | Walliser German | ヴァリス・ドイツ語 | Indo-European (Germanic, West, High German, Alemannic, Höchstalemannisch) | ~80K |
@@ -881,7 +881,7 @@ Total: 1187 codes.
 | `qxs` | Southern Qiang | 南川チャン語 | Sino-Tibetan (Qiangic) | ~80–100K |
 | `rap` | Rapanui | ラパ・ヌイ語 | Austronesian (Polynesian, Eastern) | ~3.5K |
 | `rar` | Cook Islands Māori | クック諸島マオリ語 | Austronesian (Polynesian, Tahitic) | ~13K |
-| `rbb` | De'ang (Rumai) | ドアン語（汝買） | Austroasiatic (Palaungic) | ~20K in China (Rumai variety) |
+| `rbb` | De'ang (Rumai) | ドアン語（汝買） | Austroasiatic (Palaungic) | ~20K De'ang nationality in China |
 | `rcf` | Réunion Creole | レユニオン・クレオール | French-based creole | ~600K |
 | `rgn` | Romagnol | ロマーニョ語 | Indo-European (Italic, Romance, Italo-Western, Gallo-Italic) | ~1.1M |
 | `rhg` | Rohingya | ロヒンギャ語 | Indo-Aryan (Eastern) | ~1.8M |

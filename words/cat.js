@@ -496,7 +496,7 @@ WORDS.cat = {
     wuu_jh: ['猫', 'mau˨˨˦'],
     wuu_jx: ['猫', 'mɔ˨˨˧'],
     yue_zs: ['貓', 'maːu˥˧'],
-    zh_cd: ['猫', 'mau˥'],
+    zh_cd: ['猫', 'mau˥˥'],
     zh_hf: ['猫', 'mau˥˥'],
     zh_kf: ['猫', 'mau˨˦'],
     zh_nj: ['猫', 'mɔ˧˩'],

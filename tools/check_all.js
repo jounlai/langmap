@@ -471,7 +471,16 @@ s = run('sinitic_tone_outlier_check.js --check');
 // the row was pasted from somewhere else. Exempts the genuine short-checked vs
 // long-open contrast. Needs no source to fix; ratcheted because a few rows are
 // near-ties where picking a side is house style, not a correction.
-const CHAO_NOTATION_DEBT = 292;
+// 292 -> 80 on 2026-09-09. Every row whose majority spelling is at least 1.5x
+// its minority was normalised to its own majority — 204 cells across 45 rows,
+// no source needed, exactly as the docstring says. What is left is the two
+// cases that docstring reserves: near-tie rows where picking a side is house
+// style (cjy ˩x15/˩˩x13, cjy_lv 11/11, gan 1/1, hni 2/2, yue_zs 4/4, hak_tw,
+// hak_cn, yue_gz, atb, zh_sc, hsn), and minority spellings that sit on a
+// CHECKED syllable, where the short/long contrast is real and doubling it
+// would be wrong (yue_nn/yue_dg ʊk˥ jɐt˥, hak_hl kut˥, cnp θit˨˨, gan_fz
+// ɕyɛʔ˥˥, za ɗok˥˥, gan_yc ŋɔk̚˥˥, zh_jh kuʔ˦ and the rest).
+const CHAO_NOTATION_DEBT = 80;
 s = run('chao_level_notation_check.js --check');
 {
     const n = num(s, /minority-notation cells: (\d+)/);

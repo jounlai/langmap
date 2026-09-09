@@ -720,7 +720,7 @@ WORDS.snow = {
     hak_hl: ["雪", "siet˨˨"],
     cpx: ["雪", "syɔʔ˥˥"],
     hne: ["बरफ", "bəɾəf"],
-    nut: ["nai", "nai˧"],
+    nut: ["nai", "nai˧˧"],
     tji: ["susu", "su˧˥su˥˥"],
     lld: ["nëif", "nəif"],
     stq: ["Snee", "sneː"],
@@ -800,7 +800,7 @@ WORDS.snow = {
     pzh: ["hahela", "ha.he.la"],
     lhm: ["ཁ་བ", "kʰawa"],
     lis: ["wa", "wɑ˧˩"], // Fraser 1922 — distinct from frost ni and ice ni hpya
-    nxq: ["bbei", "be˧˧"],
+    nxq: ["bbei", "be˧"],
     sat: ["ᱦᱤᱢ", "him"], // Sanskrit hima
     amw: ["ܬܠܟܐ", "ˈθelka"], // Spitaler/Bergsträsser — inherited Aramaic talgā
     tig: ["ዕጥብ በረድ", "ʕətʼəb barad"], // lit. cotton-ice; bare bäräd alone is hail — Littmann & Höfner

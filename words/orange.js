@@ -526,7 +526,7 @@ WORDS.orange = {
     ko_yb: ["오렌지", "oɾendʑi"],
     zh: ["橙", "tʂʰɤŋ˧˥"],
     yue: ["橙", "tsʰaːŋ˩˧"],
-    nan: ["柑仔", "kam˥˥ma˥˧"],
+    nan: ["柑仔", "kam˥ma˥˧"],
     zh_tw: ["柳丁", "ljoʊ̯˧˩˧tiŋ"],
     wuu: ["橙", "zaŋ˨˧"],
     hak_cn: ["柑仔", "kam˨˦e˧˩"],

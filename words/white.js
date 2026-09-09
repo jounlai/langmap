@@ -1019,7 +1019,7 @@ WORDS.white = {
     bdq: ["kok", "kɔːk"],
     lwl: ["piŋ", "piŋ"],
     grt: ["gipok", "ɡipok"],
-    nut: ["khao", "kʰaːw˧"],
+    nut: ["khao", "kʰaːw˧˧"],
     quc: ["saq", "saq"],
     cak: ["saq", "saq"],
     kek: ["saq", "saq"],

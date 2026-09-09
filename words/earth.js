@@ -552,7 +552,7 @@ WORDS.earth = {
     ki: ["tĩĩri", "tiːɾi"],
     kam: ["muthanga", "muθaŋɡa"],
     nso: ["mobu", "moβu"],
-    bo: ["ས", "sa˥˥"],
+    bo: ["ས", "sa˥"],
     xct: ["ས", "sa"],
     dz: ["ས", "sɑ˥"],
     mnw: ["တိ", "tɑeʔ"],

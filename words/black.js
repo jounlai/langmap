@@ -81,7 +81,7 @@ WORDS.black = {
     ko: ["까맣다", "k͈amatʰa"],
     zh: ["黑", "xei˥"],
     yue: ["黑", "hɐk̚˥"],
-    vi: ["đen", "ɗɛn˧˧"],
+    vi: ["đen", "ɗɛn˧"],
     th: ["ดำ", "dam˧"],
     id: ["hitam", "ˈhitam"],
     hi: ["काला", "kaːlaː"],
@@ -397,8 +397,8 @@ WORDS.black = {
     gqu: ["lan33", "lan˧˧"],
     shx: ["kiaŋ22", "kiaŋ˨˨"],
     peh: ["χəra", "χəra"],
-    tyz: ["đăm", "dam˧"],
-    nut: ["đăm", "dam˧"],
+    tyz: ["đăm", "dam˧˧"],
+    nut: ["đăm", "dam˧˧"],
     mas: ["narok", "narok"],
     din: ["col", "tʃol"],
 
@@ -529,9 +529,9 @@ WORDS.black = {
     // and Hakka say 烏, not 黑. Every tone below is the row's own value for
     // the right tone class, read off its 三 (陰平) or 一 (陰入) cell — 黑 is
     // 陰入, 烏 is 陰平, and no value was carried across rows.
-    nan: ["烏", "ɔ˥˥"],
+    nan: ["烏", "ɔ˥"],
     nan_xm: ["烏", "ɔ˥˥"],
-    nan_zz: ["烏", "ɔ˦˦"],
+    nan_zz: ["烏", "ɔ˦"],
     nan_qz: ["烏", "ɔ˧˧"],
     nan_te: ["乌", "ou˧˧"],
     cpx: ["乌", "ɔ˥˧"],
@@ -540,8 +540,8 @@ WORDS.black = {
     hak_tw: ["烏", "vu˨˦"],
     yue_gz: ["黑", "hɐk̚˥˥"],
     wuu: ["黑", "həʔ˥"],
-    zh_tw: ["黑", "xei˥˥"],
-    zh_db: ["黑", "xei˥˥"],
+    zh_tw: ["黑", "xei˥"],
+    zh_db: ["黑", "xei˥"],
     och: ["黑", "*m̥ˤək"],
     zh_tang: ["黑", "xək"],
 
@@ -716,7 +716,7 @@ WORDS.black = {
     en_wls: ["black", "blak"],
     en_yk: ["black", "blak"],
     en_ck: ["black", "blæk"],
-    vi_nom: ["顛", "ɗɛn˧˧"],
+    vi_nom: ["顛", "ɗɛn˧"],
     mhy: ["maʔintem", "maʔintem"],
   },
 };

@@ -863,7 +863,7 @@ WORDS.moon = {
     zh_jh: ["月亮", "yeʔ˥˥liaŋ˦˦"],
     zh_tj: ["月亮", "ɥɛ˥˩ljaŋ"],
     zh_lz: ["月亮", "yɛ˩˧ljaŋ"],
-    dng: ["йүәлён", "yə˨˦liɑŋ˦˦"],
+    dng: ["йүәлён", "yə˨˦liɑŋ˦"],
     hsb: ["měsac", "ˈmʲɛsats"],
     csb: ["ksãżëc", "ˈksɔ̃ʐɨts"],
     rue: ["місяць", "ˈmʲisʲatsʲ"],

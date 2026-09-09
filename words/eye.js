@@ -493,7 +493,7 @@ WORDS.eye = {
     wuu_jh: ['眼睛', 'ŋa˥˧˥tɕiŋ˧˧'],
     wuu_jx: ['眼睛', 'ŋæ˨˨˧tsiŋ˦˦'],
     yue_zs: ['眼', 'ŋaːn˩˧'],
-    zh_cd: ['眼睛', 'ŋan˥˧tɕin˥'],
+    zh_cd: ['眼睛', 'ŋan˥˧tɕin˥˥'],
     zh_hf: ['眼', 'ian˨˦'],
     zh_kf: ['眼', 'iɛn˥˧'],
     zh_nj: ['眼睛', 'iɛn˨˩˨tɕin˧˩'],

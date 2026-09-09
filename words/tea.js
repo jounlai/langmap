@@ -378,7 +378,7 @@ WORDS.tea = {
     crh: ["çay", "tʃaj"],
     cs: ["čaj", "tʃaj"],
     cv: ["чей", "tɕej"],
-    czh: ["茶", "tsʰo˦"],
+    czh: ["茶", "tsʰo˦˦"],
     dv: ["ސައި", "saːi"],
     dz: ["ཇ", "tɕɑ"],
     el: ["τσάι", "ˈtsai"],

@@ -338,7 +338,7 @@ WORDS.one = {
         { form: "it", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
       ],
     },
-    hmn: ["ib", "i˥˥"],
+    hmn: ["ib", "i˥"],
     jv: ["siji", "sidʒi"],
     jvn: ["siji", "sidʒi"],
     su: ["hiji", "hidʒi"],

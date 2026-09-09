@@ -715,7 +715,7 @@ WORDS.hundred = {
     kac: ["tsa", "tsa˧"],
     tsj: ["gya", "ɡʲa"],   // the Tibetan བརྒྱ carried east into Tshangla
     jya: ["pərjɐ", "pərjɐ"],   // the same Tibetan brgya, behind a Gyalrong prefix
-    yiz: ["xo", "xo˧"],
+    yiz: ["xo", "xo˧˧"],
     nxq: ["xi", "ɕi˧"],
     mtq: ["tlăm", "tlam˥"],   // the cluster Vietnamese trăm lost
     mra: ["rɔy", "rɔj"],   // the Thai ร้อย, borrowed

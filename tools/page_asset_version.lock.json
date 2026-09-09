@@ -36,8 +36,8 @@
     "hash": "bd89bb4afdbd771e"
   },
   "namemap_data.js": {
-    "version": 3,
-    "hash": "0d5f21a62c86ceb0"
+    "version": 4,
+    "hash": "0ff653016ab47182"
   },
   "namemap_i18n.js": {
     "version": 1,
@@ -80,7 +80,7 @@
     "hash": "b786b089502dc1fe"
   },
   "word_manifest.js": {
-    "version": 417,
+    "version": 418,
     "hash": "911fd1b40a6f80ea"
   },
   "wordmap_data.js": {

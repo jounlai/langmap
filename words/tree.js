@@ -1178,7 +1178,7 @@ WORDS.tree = {
     zh_wh: ["树", "ɕy˧˥"],
     zh_zz: ["树", "ʂu˧˩˨"],
     hak_hl: ["樹仔", "ʃu˨˨e˨˦"],
-    cpx: ["树", "tsʰiu˩"],
+    cpx: ["树", "tsʰiu˩˩"],
     mfa: ["pokok", "pokoʔ"],
     mtq: ["cẳl", "kal"],
     tyz: ["mạy", "maːj˨˩"],

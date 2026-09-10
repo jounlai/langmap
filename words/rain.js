@@ -802,7 +802,7 @@ WORDS.rain = {
     mdh: ["uran", "uran"],
     trv: ["quyux", "qujux"],
     cnh: ["ruah", "rua"],
-    blt: ["fon", "fon"],
+    blt: ["ꪶꪠꪙ", "fon"],
     mwr: ["मेह", "meɦ"],
     kmb: ["mvula", "mvula"],
     kde: ["vula", "vula"],

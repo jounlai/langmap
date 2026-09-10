@@ -290,6 +290,31 @@ s = run('latin_cyrillic_fusion_check.js --check');
         un ? un + ' unresolved, need an orthography source' : '');
 }
 
+// Script consistency, the row-level sibling of the two fusion checks above:
+// a whole surface written in a script that is not its row's. It existed since
+// 2026-08 and was never wired in here, so nothing enforced it — and it was
+// blind twice over. Its block table stopped at Canadian Syllabics, so a row
+// written in Tai Viet, Tifinagh, Vai, Cham, cuneiform or Anatolian
+// hieroglyphs had NO recognised script at all, and its untransliterated Latin
+// cells became the majority: Tai Dam was reported as "Latin×9" with one Lao
+// outlier, the nine defects standing in as the baseline. And it dropped any
+// minority of 4+ cells outright, on the theory that a leak that big must be
+// deliberate — which is exactly backwards. Both are fixed; Japonic kanji/kana
+// mixing is exempt by rule, being orthography rather than a defect.
+// Ratcheted at today's debt, not gated at 0: several of these rows need an
+// orthography source before the cells can be converted rather than deleted.
+const STRAY_SCRIPT_DEBT = 54;      // <=3 foreign cells in a row
+const PARTIAL_SCRIPT_DEBT = 109;   // 4+ — a row that never finished converting
+s = run('script_consistency_check.js --check');
+{
+    const stray = num(s, /stray-script surfaces: (\d+)/);
+    const part = num(s, /partially-converted rows: \d+ \((\d+) cells\)/);
+    line('stray-script surfaces', Math.max(0, stray - STRAY_SCRIPT_DEBT),
+        stray + ' cells, budget ' + STRAY_SCRIPT_DEBT);
+    line('partially-converted rows', Math.max(0, part - PARTIAL_SCRIPT_DEBT),
+        part + ' cells, budget ' + PARTIAL_SCRIPT_DEBT);
+}
+
 // Simplified/traditional consistency per language code. Was scoped to the two
 // words it was written for (sushi, computer) and so missed six traditional-
 // script cuckoo cells in mainland rows (review 432). --all checks every word

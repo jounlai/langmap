@@ -1099,7 +1099,7 @@ WORDS.name = {
       wuu_nb: ["名字", "miɲ˩˧ zz̩"],
       yue_gz: ["名", "mɛŋ˩˧"],
       khb: ["ᦋᦹᧈ", "tɕɯ˧"],
-      blt: ["chư", "tɕɯ˧˩"],
+      blt: ["ꪋꪳ꪿", "tɕɯ˧˩"],
       pam: ["lagyu", "lagjuʔ"],
       pag: ["ngaran", "ŋaran"],
       mdh: ["ngala", "ŋala"],

@@ -832,7 +832,7 @@ WORDS.earth = {
     ach: ["ngom", "ŋom"],
     rki: ["မြေ", "mrɛ"],
     kxm: ["ដី", "dəj"],
-    blt: ["din", "din"],
+    blt: ["ꪒꪲꪙ", "din"],
     pam: ["gabun", "ɡabun"],
     pag: ["dalin", "dalin"],
     mdh: ["lupa", "lupaʔ"],

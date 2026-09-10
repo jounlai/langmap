@@ -7686,7 +7686,14 @@
                 const label = tmpl.replace('{lang}', displayName);
                 // ja/ko/zh/... UIs → Makoto ja storefront; everything else → en.
                 const mkLocale = ['ja'].indexOf(uiLang.split('_')[0]) !== -1 ? 'ja' : 'en';
-                const u = new URL('https://makoto-gadgets.com/' + mkLocale + '/goods/langmap');
+                // Local dev: when this page is served from localhost, hand off to
+                // the local Makoto dev server (:3001) and point words= at this same
+                // local origin, so the whole loop stays local. In production both
+                // go to the real hosts. See docs/makoto-goods-link.md.
+                const _isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+                const mkBase = _isLocal ? 'http://localhost:3001' : 'https://makoto-gadgets.com';
+                const wordsBase = _isLocal ? location.origin : 'https://langmap.heuron.com';
+                const u = new URL(mkBase + '/' + mkLocale + '/goods/langmap');
                 u.searchParams.set('src', 'langmap');
                 u.searchParams.set('map', 'wordmap');
                 u.searchParams.set('lang', code);
@@ -7696,7 +7703,7 @@
                 // Point Makoto at THIS language's word file (~2KB) so it fetches
                 // only what's needed and always sees fresh data. Prefix is fixed
                 // and validated on the Makoto side — see docs/makoto-goods-link.md.
-                u.searchParams.set('words', 'https://langmap.heuron.com/lang_words/' + code + '.js');
+                u.searchParams.set('words', wordsBase + '/lang_words/' + code + '.js');
                 html += `<a class="tshirt-cta-btn" href="${escapeHtml(u.href)}" target="_blank" rel="noopener"><span class="tshirt-cta-ico" aria-hidden="true">👕</span>${escapeHtml(label)}</a>`;
             })();
             // Audit Task 115: disambiguator for rows that share a display

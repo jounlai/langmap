@@ -115,9 +115,11 @@ https://makoto-gadgets.com/{locale}/goods/{product}?{params}
 
 - **公開ゲート:** `tshirtEnabled()`。※現在ローカルテストのため一時的に常時 true。
   本番限定に戻すときは `location.hostname === 'langmap.heuron.com'` を復帰。
-- **見た目:** サムネ 1 枚（`assets/tshirts/tshirt-0.jpg` を 88px 角）＋
-  一言（タイトル「Makoto GadgetsでTシャツ作ろう！」／サブ「{言語名}の単語で、
-  自分だけの一着を」）。淡い温色の帯、全体が Makoto へのリンク（矢印記号は使わない）。
+- **見た目:** 88px 角のサムネが横**スライドショー**で巡回（`.tshirt-nudge-track`、
+  CSS アニメ 12s、`prefers-reduced-motion` で停止）。1 枚目は文字が読める
+  ズーム画像 `assets/tshirts/tshirt-thumb.jpg`、続いて着用/平置き
+  （`tshirt-2.jpg` / `tshirt-0.jpg`）＋一言。淡い温色の帯、全体が Makoto への
+  リンク（矢印記号は使わない）。
 - **文言:** ja/en/ko/zh/yue（他は en フォールバック）。
 - **リンク組み立て** は共通ヘルパー `buildTshirtHref({mode:'single', codes:[code], names, natives, uiLang})`（`URL`/`searchParams` で安全にエンコード）:
   ```

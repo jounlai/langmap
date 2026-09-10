@@ -72,3 +72,6 @@ if (CHECK) {
 console.log(`inline script syntax — ${blocks} block(s) across ${pages.length} page(s)\n`);
 if (!errors.length) { console.log('clean — every inline script parses.'); }
 for (const e of errors) console.log(`  ${e.page}:${e.line}  [${e.type}]  ${e.msg}`);
+// Non-zero without --check so CI can call this directly. --check is the
+// check_all.js contract: print a count, exit 0, let the caller gate.
+if (errors.length) process.exit(1);

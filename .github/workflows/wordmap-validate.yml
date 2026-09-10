@@ -129,37 +129,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Parse inline scripts and data files
+      # Inline scripts: tools/page_script_syntax_check.js, the same tool the
+      # pre-commit guard suite runs, so a duplicate top-level const cannot
+      # reach a push in the first place. It replaced an inline copy here that
+      # covered only wordmap/tree/index — hanmap.html, the second-largest page,
+      # was never checked — and that did not strip HTML comments, so widening
+      # its file list made it report a parse error inside hanmap.html's own
+      # prose about "a plain <script> tag". One implementation, 14 pages.
+      - name: Parse every page's inline scripts
+        run: node tools/page_script_syntax_check.js
+
+      - name: Parse the standalone data files
         run: |
           node -e "
             const fs = require('fs');
-            const htmlFiles = ['wordmap.html', 'tree.html', 'index.html'];
-            for (const f of htmlFiles) {
-              if (!fs.existsSync(f)) continue;
-              const html = fs.readFileSync(f, 'utf-8');
-              const blocks = html.match(/<script(?![^>]*src)[^>]*>([\\s\\S]*?)<\\/script>/g) || [];
-              let i = 0, skipped = 0;
-              for (const b of blocks) {
-                // Skip non-JS script blocks (e.g. type=\"application/ld+json\"
-                // for SEO structured data, type=\"module\" payloads we don't
-                // own, type=\"text/template\"). Only check default-type and
-                // explicit text/javascript or application/javascript.
-                const openTag = b.match(/<script[^>]*>/)[0];
-                const typeMatch = openTag.match(/type=[\"']([^\"']+)[\"']/i);
-                if (typeMatch) {
-                  const t = typeMatch[1].toLowerCase();
-                  if (t !== 'text/javascript' && t !== 'application/javascript') {
-                    skipped++;
-                    continue;
-                  }
-                }
-                i++;
-                const code = b.replace(/<script[^>]*>/, '').replace(/<\\/script>/, '');
-                try { new Function(code); }
-                catch (e) { console.error(f, 'inline script', i, 'syntax error:', e.message); process.exit(1); }
-              }
-              console.log(f, '— all', i, 'inline scripts parse OK', skipped ? '(skipped ' + skipped + ' non-JS)' : '');
-            }
             const jsFiles = ['wordmap_data.js', 'wordmap_meta.js', 'lang-filter.js', 'lang_names.js', 'meta_i18n_ext.js', 'meta_i18n_coverage.js', 'data.js'];
             for (const f of jsFiles) {
               if (!fs.existsSync(f)) continue;

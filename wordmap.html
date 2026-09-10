@@ -1641,31 +1641,20 @@
         .tshirt-cta-btn .tshirt-cta-ico { font-size: 14px; line-height: 1; }
         /* Compact variant living in the compare panel header (flex row). */
         .compare-tshirt { margin: 0; padding: 5px 12px; flex: 0 0 auto; white-space: nowrap; }
-        /* Product promo card — the bottom-of-modal hand-off (production host only). */
-        .tshirt-promo {
-            display: block; margin: 18px 0 4px; text-decoration: none; color: inherit;
-            border: 1px solid #e6e0d5; border-radius: 12px; overflow: hidden;
-            background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.06);
-            transition: box-shadow .16s ease, transform .16s ease;
+        /* Low-key "make a tee of this" nudge at the bottom of the modal — a
+           friendly one-liner, not an ad. Small thumbnail + casual invite. */
+        .tshirt-nudge {
+            display: flex; align-items: center; gap: 13px;
+            margin: 16px 0 2px; padding: 11px 13px; text-decoration: none; color: inherit;
+            border: 1px solid #e6e0d5; border-radius: 10px; background: #faf7f2;
+            transition: background .15s ease, border-color .15s ease;
         }
-        .tshirt-promo:hover { box-shadow: 0 6px 18px rgba(27,42,68,.18); transform: translateY(-1px); }
-        .tshirt-promo:focus-visible { outline: 2px solid #1b2a44; outline-offset: 2px; }
-        .tshirt-promo-gallery {
-            display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr;
-            gap: 2px; background: #e6e0d5;
-        }
-        .tshirt-promo-gallery img { width: 100%; height: 100%; object-fit: cover; display: block; }
-        .tshirt-promo-gallery .g-hero { grid-column: 1; grid-row: 1 / span 2; }
-        .tshirt-promo-body { padding: 12px 14px 14px; background: #1b2a44; color: #f4efe6; }
-        .tshirt-promo-kicker { display: block; font-size: 10px; letter-spacing: .07em; text-transform: uppercase; color: #c9b98f; font-weight: 700; }
-        .tshirt-promo-title { display: block; font-size: 15px; font-weight: 800; margin: 4px 0 3px; line-height: 1.25; }
-        .tshirt-promo-sub { display: block; font-size: 11px; line-height: 1.5; color: #cdd4df; margin-bottom: 11px; }
-        .tshirt-promo-cta {
-            display: inline-flex; align-items: center; gap: 6px;
-            font-size: 12px; font-weight: 800; color: #1b2a44;
-            background: #f4c66a; padding: 7px 15px; border-radius: 999px;
-        }
-        .tshirt-promo:hover .tshirt-promo-cta { background: #ffd684; }
+        .tshirt-nudge:hover { background: #f2ebdf; border-color: #dccdb0; }
+        .tshirt-nudge:focus-visible { outline: 2px solid #b5651d; outline-offset: 2px; }
+        .tshirt-nudge-thumb { width: 88px; height: 88px; flex: 0 0 auto; border-radius: 8px; object-fit: cover; display: block; }
+        .tshirt-nudge-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+        .tshirt-nudge-title { font-size: 12.5px; font-weight: 700; color: #3a2a12; }
+        .tshirt-nudge-sub { font-size: 11px; color: #8a7f6f; }
         /* Audit Task 216: header positioning removed; button now flows inline
          * under the native-name line via standard .compare-add-btn rule. */
         /* Compare-table column headers are draggable for reorder — the
@@ -7712,6 +7701,28 @@
             return u.href;
         }
 
+        // Rotating nudge copy, tuned to five linguistics-lover personas (see
+        // docs/tshirt_copy_personas.md). One is shown per modal open, cycling
+        // so a reader browsing several languages sees the range. {lang} → name.
+        const TSHIRT_MSGS = [
+            { // #1 polyglot / general — "wear your favourite language"
+              title: { en: 'Wear your favorite language', ja: '推し言語を、着る。', ko: '최애 언어를 입다', zh: '把心爱的语言穿上身', yue: '將心水語言著上身' },
+              sub:   { en: 'An original tee from {lang} words', ja: '{lang}の単語で作るオリジナルTシャツ', ko: '{lang} 단어로 만드는 나만의 티셔츠', zh: '用{lang}的单词做原创T恤', yue: '用{lang}嘅詞整原創T恤' } },
+            { // #2 phonology / IPA nerd
+              title: { en: 'Wear it, IPA and all', ja: '発音記号ごと、まとう。', ko: '발음기호까지, 입다', zh: '连音标一起穿上身', yue: '連音標一齊著上身' },
+              sub:   { en: '{lang} words with their pronunciation', ja: '{lang}の単語とIPAをデザイン', ko: '{lang} 단어와 IPA를 디자인', zh: '把{lang}的单词和音标做成设计', yue: '將{lang}嘅詞同音標整成設計' } },
+            { // #3 historical / etymology romantic
+              title: { en: 'Carry the words on your back', ja: 'その言葉を、背負って歩く。', ko: '그 말들을 등에 지고', zh: '把这些词背在身上', yue: '將呢啲詞揹喺身上' },
+              sub:   { en: 'A tee lined with {lang} words', ja: '{lang}の単語を並べた一着', ko: '{lang} 단어를 늘어놓은 한 벌', zh: '背后排满{lang}的单词', yue: '背脊排滿{lang}嘅詞' } },
+            { // #4 fieldwork / rare-language lover
+              title: { en: 'A one-of-a-kind word tee', ja: '世界にひとつの言葉Tシャツ。', ko: '세상에 하나뿐인 단어 티셔츠', zh: '世上唯一的单词T恤', yue: '世上唯一嘅詞語T恤' },
+              sub:   { en: 'Your own, made from {lang} words', ja: '{lang}の単語で、自分だけの一着を', ko: '{lang} 단어로 만드는 나만의 한 벌', zh: '用{lang}的单词，做专属的一件', yue: '用{lang}嘅詞，整專屬嘅一件' } },
+            { // #5 brand / casual — Makoto Gadgets
+              title: { en: 'Make a tee with Makoto Gadgets!', ja: 'Makoto GadgetsでTシャツ作ろう！', ko: 'Makoto Gadgets에서 티셔츠 만들기!', zh: '来 Makoto Gadgets 做件T恤！', yue: '嚟 Makoto Gadgets 整件T恤啦！' },
+              sub:   { en: 'Design & order it in {lang}', ja: '{lang}の言葉をデザインして注文', ko: '{lang}의 단어를 디자인해 주문', zh: '把{lang}的单词设计成商品', yue: '將{lang}嘅詞設計成商品' } },
+        ];
+        let _tshirtMsgRot = Math.floor(Math.random() * TSHIRT_MSGS.length);
+
         function renderLangInfo(code) {
             const lang = LANG_DATA[code];
             if (!lang) return;
@@ -8215,28 +8226,20 @@
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#4a6cf7;text-decoration:none;font-weight:600">` +
                     `📄 デカ文字版ページ / Big-text page →</a></div>`;
             })();
-            // Custom-goods promo card at the very bottom of the modal — a real
-            // product hand-off to Makoto Gadgets. Production host only.
+            // Low-key hand-off at the very bottom of the modal — a friendly
+            // "make a tee of this" nudge to Makoto Gadgets, not an ad. Prod host.
             if (tshirtEnabled()) {
-                const P = {
-                    kicker: { en: 'LangMap Goods · Custom tee', ja: '世界言語マップ × オーダーT' },
-                    title:  { en: 'Make a {lang} T-shirt', ja: '{lang}のTシャツを作る', ko: '{lang} 티셔츠 만들기', zh: '制作{lang}T恤', yue: '整{lang}T恤', vi: 'Làm áo thun {lang}', th: 'ทำเสื้อยืด{lang}', id: 'Buat kaus {lang}', hi: '{lang} टी-शर्ट बनाएं', de: '{lang}-T-Shirt gestalten', fr: 'Créer un t-shirt {lang}', it: 'Crea una t-shirt {lang}', es: 'Crea una camiseta {lang}', pt: 'Crie uma camiseta {lang}', ru: 'Создать футболку: {lang}', uk: 'Створити футболку: {lang}', ar: 'صمّم قميص {lang}', he: 'עצב חולצת {lang}', sw: 'Tengeneza fulana ya {lang}' },
-                    sub:    { en: 'Your chosen words, printed down the back — a one-of-a-kind tee.', ja: '選んだ単語が背中に並ぶ、世界にひとつの一着。' },
-                    cta:    { en: 'Design yours →', ja: 'デザインを作る →', ko: '디자인 만들기 →', zh: '开始设计 →', yue: '開始設計 →', vi: 'Bắt đầu thiết kế →', th: 'เริ่มออกแบบ →', id: 'Mulai desain →', hi: 'डिज़ाइन बनाएं →', de: 'Jetzt gestalten →', fr: 'Créer le mien →', it: 'Crea la tua →', es: 'Diséñala →', pt: 'Crie a sua →', ru: 'Оформить →', uk: 'Оформити →', ar: 'صمّم الآن →', he: 'לעיצוב →', sw: 'Anza kubuni →' },
-                };
-                const pk = k => (P[k][uiLang] || P[k][uiLang.split('_')[0]] || P[k].en);
+                const msg = TSHIRT_MSGS[_tshirtMsgRot % TSHIRT_MSGS.length];
+                _tshirtMsgRot++;
+                const pick = o => (o[uiLang] || o[uiLang.split('_')[0]] || o.en);
+                const title = pick(msg.title);
+                const sub = pick(msg.sub).replace('{lang}', displayName);
                 const href = buildTshirtHref({ mode: 'single', codes: [code], names: [displayName], natives: [lang.native || ''], uiLang });
-                html += `<a class="tshirt-promo" href="${escapeHtml(href)}" target="_blank" rel="noopener">`
-                     + `<span class="tshirt-promo-gallery" aria-hidden="true">`
-                     + `<img class="g-hero" src="assets/tshirts/tshirt-2.jpg" alt="" loading="lazy">`
-                     + `<img src="assets/tshirts/tshirt-0.jpg" alt="" loading="lazy">`
-                     + `<img src="assets/tshirts/tshirt-1.jpg" alt="" loading="lazy">`
-                     + `</span>`
-                     + `<span class="tshirt-promo-body">`
-                     + `<span class="tshirt-promo-kicker">${escapeHtml(pk('kicker'))}</span>`
-                     + `<span class="tshirt-promo-title">${escapeHtml(pk('title').replace('{lang}', displayName))}</span>`
-                     + `<span class="tshirt-promo-sub">${escapeHtml(pk('sub'))}</span>`
-                     + `<span class="tshirt-promo-cta">${escapeHtml(pk('cta'))}</span>`
+                html += `<a class="tshirt-nudge" href="${escapeHtml(href)}" target="_blank" rel="noopener">`
+                     + `<img class="tshirt-nudge-thumb" src="assets/tshirts/tshirt-0.jpg" alt="" loading="lazy">`
+                     + `<span class="tshirt-nudge-text">`
+                     + `<span class="tshirt-nudge-title">${escapeHtml(title)}</span>`
+                     + `<span class="tshirt-nudge-sub">${escapeHtml(sub)}</span>`
                      + `</span></a>`;
             }
             infoContent.innerHTML = html;

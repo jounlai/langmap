@@ -110,15 +110,15 @@ https://makoto-gadgets.com/{locale}/goods/{product}?{params}
 
 ## 1. LangMap 側（実装済み・このワークツリー）
 
-言語詳細モーダル `renderLangInfo(code)` の**最下部**に、実際の商品写真を使った
-**プロモカード `.tshirt-promo`** を差し込む（小さなボタンは廃止）。
+言語詳細モーダル `renderLangInfo(code)` の**最下部**に、控えめな**導線 `.tshirt-nudge`**
+を差し込む（広告っぽさを避けた軽いノリ。旧・大型プロモカードは廃止）。
 
-- **公開ゲート:** `tshirtEnabled()`（`location.hostname === 'langmap.heuron.com'`）。
-  本番の正規ホストでのみ表示。ミラー・ステージング・localhost では出さない。
-- **見た目:** 商品モックアップ 3 枚（`assets/tshirts/tshirt-{0,1,2}.jpg`、~70–80KB/枚）の
-  ギャラリー ＋ 製品色に合わせた濃紺 #1b2a44 のボディ（キッカー / タイトル / サブ /
-  金色 CTA）。カード全体が Makoto へのリンク。
-- **文言:** タイトル「{言語名}のTシャツを作る」ほか 19 UI 言語対応。
+- **公開ゲート:** `tshirtEnabled()`。※現在ローカルテストのため一時的に常時 true。
+  本番限定に戻すときは `location.hostname === 'langmap.heuron.com'` を復帰。
+- **見た目:** サムネ 1 枚（`assets/tshirts/tshirt-0.jpg` を 88px 角）＋
+  一言（タイトル「Makoto GadgetsでTシャツ作ろう！」／サブ「{言語名}の単語で、
+  自分だけの一着を」）。淡い温色の帯、全体が Makoto へのリンク（矢印記号は使わない）。
+- **文言:** ja/en/ko/zh/yue（他は en フォールバック）。
 - **リンク組み立て** は共通ヘルパー `buildTshirtHref({mode:'single', codes:[code], names, natives, uiLang})`（`URL`/`searchParams` で安全にエンコード）:
   ```
   https://makoto-gadgets.com/{ja|en}/goods/langmap

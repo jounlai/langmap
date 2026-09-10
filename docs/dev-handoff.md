@@ -2099,5 +2099,74 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     because the anchor string I matched on included that line. Caught by reading the diff before
     committing. Read the diff, not just the tests.
 
+84. **Three meta fields nothing read, and the gap one of them hid.** Owner: 「不要なパラメータは
+    ないか？」 I checked all 36 `meta` fields for a property-access reader in a page, exporter,
+    validator or checker. Three had none: `extinct` (boolean, 4 rows), `extinctionDate` and
+    `lastSpeaker` (1 row each, both `uby`).
+
+    `extinctionDate`/`lastSpeaker` were pure duplication — `uby`'s rendered description already
+    says "the death of the last fully fluent speaker, Tevfik Esenç, on 7 October 1992". Dropped.
+
+    `extinct` was the one that mattered. `uby` and `lbz_damin` carried it *beside*
+    `vitality:'extinct'`; **`bzg` and `osc` carried it *instead*** — no vitality at all — so the
+    field nobody read said extinct and the field everybody reads said nothing, and the SEO
+    vitality chip and every vitality filter skipped both. Pulling it exposed 14 rows in the same
+    shape (speakers string reads Extinct/Dormant/0, no vitality). Every other ancient language
+    carries `vitality:'extinct'`, so those were gaps: 13 set to `extinct`, `kqz` to
+    `critically-endangered` (~10–20 speakers, not zero).
+
+    New guard `tools/meta_field_usage_check.js`, gated at 0. `build_meta_split.js`'s field list is
+    excluded from the reader search on purpose — naming a field in a registry is what let this
+    class hide. It also reports without failing the two fields only a guard reads (`scriptTags`,
+    `textDirection`), which are genuine inputs rather than display data.
+
+85. **`script_consistency_check.js` was blind three ways, and reported Tai Dam backwards.** Owner:
+    「タイ・ダム語に、雪、白い　がローマ字になってる。このような問題は解決したはずだが。。」
+
+    (a) It was never wired into `check_all.js` — written in August, diagnostic-only, 38 outliers
+    standing, nothing enforcing it. (b) Its block table stopped at Canadian Syllabics, and **a
+    script it cannot name counts as no script at all**, so `blt`'s 35 Tai Viet surfaces were
+    invisible, its 9 untransliterated Latin cells became the majority, and the row printed as
+    `blt / ear = ຫູ (Lao among Latin×9)` — the nine defects as the baseline. Tifinagh, Vai, Cham,
+    Meetei Mayek, Tai Tham, New Tai Lue, Syriac, Thaana, Coptic, Runic, Cherokee, Mongolian,
+    Phags-pa and every astral script had the same shape. 47 blocks added; 38 → 62 outliers.
+    (c) `if (n > 3) continue;` dropped any minority of 4+ cells, on the theory a big leak must be
+    deliberate — backwards. Now its own tier (18 rows, 109 cells), with Japonic kanji/kana mixing
+    exempt **by rule**, not by list.
+
+    Both tiers ratcheted in `check_all.js` at today's debt (54 stray / 109 partial), not 0:
+    several rows need an orthography source before their cells can be converted rather than
+    deleted. **The partial tier is the backlog to work down** — `sel cr shi rif tzm vai cja cjm
+    oar bbl kry luz qxq zkt xlu iru za` plus `blt`'s remaining six.
+
+    Four `blt` cells fixed from Wiktionary's 255 Tai Dam lemmas, which cite Baccam Don, Baccam
+    Faluang, Baccam Hung & Fippinger (1989) — the SIL vocabulary the row already leaned on through
+    Fippinger 1971: ear ꪬꪴ (replacing the Lao ຫູ), earth ꪒꪲꪙ, name ꪋꪳ꪿, rain ꪶꪠꪙ. The other six
+    (i, we, snow, stone, wheel, white) stay Latin with a `coverageNote` saying why — none of the
+    255 glosses them, and the pronoun table gives ꪀꪴ / ꪄ꫁ꪮꪥ for 'I', not this row's `kau`.
+
+    **Lift script strings from the source, do not retype them.** My first pass typed U+AAEC for
+    U+AAAC and U+AAD6 for U+AAB6 — two of four cells wrong. The second pass matched the source
+    entry by its English gloss and copied the title verbatim.
+
+86. **vi_nom's native name was in the orthography that replaced Nôm.** Owner: 「Tiếng Việt (Chữ
+    Nôm)　が元の言語名になっているが、これこそチュノムで書くべきではないか？」 Right — every other
+    script-defined row writes its own name in its own script (`ko_mid` 中世韓國語, `zh_wenyan_edu`
+    文言文(粵音), `vi_han` Hán văn (漢文), `ug` ئۇيغۇرچە). Now 㗂越 (字喃).
+
+    㗂 (U+35C2) is CJK Ext A — not in Google's CJK web subsets, not in iOS Hiragino. The
+    NomNaTong subset was rebuilt from Nôm Na Tống v5.18 (`nomfoundation/font` GitHub releases,
+    SIL OFL; source cached at `~/langmap-work/NomNaTong-Regular.ttf`) and now carries 40
+    codepoints. Verified by rendering the string with **no fallback in the stack**.
+
+    Second added codepoint: 㹥 (U+3E65), which the word data has always used and no subset
+    covered. `validate_wordmap_data.js`'s coverage guard scans **Ext B and above only** — Ext A is
+    assumed to come from system fonts, which is the assumption 㗂 breaks. Worth extending if
+    another Ext A character enters the data.
+
+    `tree.html` prints `native` and had no Nôm face at all; it now carries the same `@font-face`
+    plus `'Nom Serif Subset'` in the `.node.leaf .native` chain. `namemap.html` and `poster.html`
+    render `native` but never load `wordmap_data.js`, so they never see this row.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

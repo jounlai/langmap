@@ -1652,13 +1652,14 @@
         .tshirt-nudge:hover { background: #f2ebdf; border-color: #dccdb0; }
         .tshirt-nudge:focus-visible { outline: 2px solid #b5651d; outline-offset: 2px; }
         .tshirt-nudge-thumb { width: 88px; height: 88px; flex: 0 0 auto; border-radius: 8px; overflow: hidden; position: relative; }
-        .tshirt-nudge-track { display: flex; width: 400%; height: 100%; animation: tshirtNudgeSlide 12s infinite; }
-        .tshirt-nudge-track img { width: 25%; height: 100%; object-fit: cover; display: block; }
+        .tshirt-nudge-track { display: flex; width: 500%; height: 100%; animation: tshirtNudgeSlide 15s infinite; }
+        .tshirt-nudge-track img { width: 20%; height: 100%; object-fit: cover; display: block; }
         @keyframes tshirtNudgeSlide {
-            0%, 22%   { transform: translateX(0); }
-            25%, 47%  { transform: translateX(-25%); }
-            50%, 72%  { transform: translateX(-50%); }
-            75%, 100% { transform: translateX(-75%); }
+            0%, 18%   { transform: translateX(0); }
+            20%, 38%  { transform: translateX(-20%); }
+            40%, 58%  { transform: translateX(-40%); }
+            60%, 78%  { transform: translateX(-60%); }
+            80%, 100% { transform: translateX(-80%); }
         }
         @media (prefers-reduced-motion: reduce) { .tshirt-nudge-track { animation: none; } }
         .tshirt-nudge-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
@@ -8248,6 +8249,7 @@
                      + `<span class="tshirt-nudge-thumb"><span class="tshirt-nudge-track">`
                      + `<img src="assets/tshirts/tshirt-thumb.jpg" alt="" loading="lazy">`
                      + `<img src="assets/tshirts/tshirt-2.jpg" alt="" loading="lazy">`
+                     + `<img src="assets/tshirts/tshirt-1.jpg" alt="" loading="lazy">`
                      + `<img src="assets/tshirts/tshirt-0.jpg" alt="" loading="lazy">`
                      + `<img src="assets/tshirts/tshirt-thumb.jpg" alt="" loading="lazy">`
                      + `</span></span>`

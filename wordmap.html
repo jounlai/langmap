@@ -1640,6 +1640,8 @@
         .tshirt-cta-btn:hover { background: linear-gradient(#ffbe5c, #ff9a33); }
         .tshirt-cta-btn:focus-visible { outline: 2px solid #b5651d; outline-offset: 2px; }
         .tshirt-cta-btn .tshirt-cta-ico { font-size: 14px; line-height: 1; }
+        /* Compact variant living in the compare panel header (flex row). */
+        .compare-tshirt { margin: 0; padding: 4px 10px; flex: 0 0 auto; white-space: nowrap; }
         /* Audit Task 216: header positioning removed; button now flows inline
          * under the native-name line via standard .compare-add-btn rule. */
         /* Compare-table column headers are draggable for reorder — the
@@ -3239,6 +3241,7 @@
     <div id="compare-panel" class="compare-panel" role="dialog" aria-labelledby="compare-heading" aria-modal="false" tabindex="-1">
         <div class="compare-header">
             <h3 id="compare-heading" class="compare-title">Language comparison</h3>
+            <a class="tshirt-cta-btn compare-tshirt" id="compare-tshirt" target="_blank" rel="noopener" hidden><span class="tshirt-cta-ico" aria-hidden="true">👕</span><span class="compare-tshirt-label">T-shirt</span></a>
             <button class="compare-clear" id="compare-clear" type="button">Clear</button>
             <button class="compare-close" id="compare-close" type="button" aria-label="Close comparison">&times;</button>
         </div>
@@ -8773,6 +8776,53 @@
             renderCompare();
         }
 
+        // Custom-goods hand-off for the MULTI-language compare panel. Hands the
+        // whole compare set to Makoto (mode=compare), which fetches each
+        // language's word file and drives the polyglot-shirt design. Generic
+        // contract documented in docs/custom_goods_handoff.md.
+        function updateCompareTshirtBtn() {
+            const btn = document.getElementById('compare-tshirt');
+            if (!btn) return;
+            const codes = (_compareList || []).filter(c => LANG_DATA[c]);
+            // A comparison shirt needs at least two languages; below that the
+            // single-language button in the modal already covers it.
+            if (codes.length < 2) { btn.hidden = true; return; }
+            const names = (typeof LANG_NAMES !== 'undefined' && LANG_NAMES[uiLang]) || (typeof LANG_NAMES !== 'undefined' && LANG_NAMES.en) || {};
+            const tI18n = {
+                en: 'Make a {n}-language T-shirt', ja: '{n}言語のTシャツを作る', ko: '{n}개 언어 티셔츠 만들기',
+                zh: '制作{n}种语言T恤', yue: '整{n}種語言T恤', vi: 'Làm áo {n} ngôn ngữ',
+                th: 'ทำเสื้อ {n} ภาษา', id: 'Buat kaus {n} bahasa', hi: '{n} भाषाओं की टी-शर्ट बनाएं',
+                de: '{n}-Sprachen-T-Shirt', fr: 'T-shirt en {n} langues', it: 'T-shirt in {n} lingue',
+                es: 'Camiseta de {n} idiomas', pt: 'Camiseta de {n} idiomas', ru: 'Футболка на {n} языках',
+                uk: 'Футболка на {n} мовах', ar: 'قميص بـ{n} لغات', he: 'חולצה ב-{n} שפות', sw: 'Fulana ya lugha {n}',
+            };
+            const tmpl = tI18n[uiLang] || tI18n[uiLang.split('_')[0]] || tI18n.en;
+            const label = tmpl.replace('{n}', String(codes.length));
+            const lblSpan = btn.querySelector('.compare-tshirt-label');
+            if (lblSpan) lblSpan.textContent = label;
+            btn.setAttribute('aria-label', label);
+            btn.setAttribute('title', label);
+            const mkLocale = ['ja'].indexOf(uiLang.split('_')[0]) !== -1 ? 'ja' : 'en';
+            const _isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+            const mkBase = _isLocal ? 'http://localhost:3001' : 'https://makoto-gadgets.com';
+            // words= is the base DIRECTORY here (ends with /); Makoto appends
+            // <code>.js per language. It still matches the validated prefix.
+            const wordsBase = (_isLocal ? location.origin : 'https://langmap.heuron.com') + '/lang_words/';
+            const u = new URL(mkBase + '/' + mkLocale + '/goods/langmap');
+            u.searchParams.set('src', 'langmap');
+            u.searchParams.set('map', 'wordmap');
+            u.searchParams.set('mode', 'compare');
+            u.searchParams.set('langs', codes.join(','));
+            u.searchParams.set('ui', uiLang);
+            u.searchParams.set('words', wordsBase);
+            // Display names aren't in the per-language word files — send them as
+            // JSON arrays (comma-safe) aligned with the langs order.
+            u.searchParams.set('names', JSON.stringify(codes.map(c => names[c] || (LANG_DATA[c] && LANG_DATA[c].name) || c)));
+            u.searchParams.set('natives', JSON.stringify(codes.map(c => (LANG_DATA[c] && LANG_DATA[c].native) || '')));
+            btn.href = u.href;
+            btn.hidden = false;
+        }
+
         function renderCompare() {
             // Same shape as showLangInfo: the table is every concept for the
             // handful of languages in the compare list (COMPARE_MAX of them),
@@ -8786,6 +8836,7 @@
             }
             const body = document.getElementById('compare-body');
             if (!body) return;
+            updateCompareTshirtBtn();
             if (_compareList.length === 0) { body.innerHTML = ''; return; }
             const names = (typeof LANG_NAMES !== 'undefined' && LANG_NAMES[uiLang]) || (typeof LANG_NAMES !== 'undefined' && LANG_NAMES.en) || {};
             const conceptLangFb = uiLang.split('_')[0];

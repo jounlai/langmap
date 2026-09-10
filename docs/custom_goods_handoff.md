@@ -125,6 +125,27 @@ https://makoto-gadgets.com/{locale}/goods/{product}?{params}
   Makoto 側が検証する（[`makoto-goods-link.md`](makoto-goods-link.md) §2）。
 - CSS クラス `.tshirt-cta-btn`（オレンジのグッズ色。比較ボタンと視覚的に区別）。
 
+### 1b. 複数言語（比較モーダル）版 — `mode=compare`
+
+比較パネル（`renderCompare()` / `#compare-panel`）のヘッダーにも同じ `.tshirt-cta-btn`（`.compare-tshirt`）を追加済み。**比較中の言語が 2 つ以上**のときだけ表示（1 つ以下は単一言語版でカバー）。ラベルは「👕 {N}言語のTシャツを作る」（19 UI 言語対応、`updateCompareTshirtBtn()`）。
+
+- リンク組み立て:
+  ```
+  https://makoto-gadgets.com/{ja|en}/goods/langmap
+     ?src=langmap&map=wordmap&mode=compare
+     &langs={code1,code2,...}         # 比較リストの順（2〜8件）
+     &ui={uiLang}
+     &words=https://langmap.heuron.com/lang_words/    # 末尾スラッシュの「ディレクトリ」
+     &names={JSON配列}                # 表示名（langs順）
+     &natives={JSON配列}             # 現地表記名（langs順）
+  ```
+- **単一言語版との差分:**
+  - `mode=compare`（単一版は `mode` 無し＝暗黙の single）。
+  - `lang`（単数）の代わりに `langs`（カンマ区切り）。
+  - `words=` は**ファイルではなくディレクトリ**（末尾 `/`）。Makoto は各コードについて `words + <code> + '.js'` を組み立てて取得する。**同じ検証接頭辞** `https://langmap.heuron.com/lang_words/` に前方一致するので allowlist はそのまま通る。
+  - 表示名は言語数が可変なので `name`/`native`（単数）ではなく **`names`/`natives`（`JSON.stringify` した配列、langs と同順）**。カンマや多スクリプトを含んでも安全。Makoto は `JSON.parse` して使う。
+- **Makoto 側の想定:** 受け取った 2〜8 言語の単語を使い、たとえば「1 概念を全言語で並べる（多言語＝ポリグロット・シャツ）」等をデザインさせる。具体的なレイアウトは Makoto 側の企画に委ねる（LangMap 側はハンドオフのみ）。
+
 > **SEO ページ版（今後）:** 言語別 SEO ページ（`docs/` の big-text pages 企画）にも同じリンクを置くだけ。ボタン文言・URL 生成ロジックは上と共通化しておくと良い。現状の静的モーダルとは別テンプレートなので、生成関数を 1 つ切り出して両方から呼ぶ想定。
 
 ## 2. データ契約（LangMap の具体形）
@@ -262,8 +283,9 @@ const uiHint = qs.ui, nameHint = qs.name; // 表示初期値のみ（正はデ�
 ## 8. 実装フェーズ / チェックリスト
 
 **LangMap 側（このワークツリー・済/要）**
-- [x] `renderLangInfo` に CTA ボタン（19 UI 言語）
-- [x] `.tshirt-cta-btn` CSS
+- [x] `renderLangInfo` に単一言語 CTA ボタン（19 UI 言語）
+- [x] 比較パネルに複数言語 CTA ボタン `mode=compare`（`updateCompareTshirtBtn`、2言語以上で表示、19 UI 言語）
+- [x] `.tshirt-cta-btn` / `.compare-tshirt` CSS
 - [x] 胸マーク SVG（`assets/tshirt/langmap-chest-mark.svg`）
 - [x] 本設計書
 - [x] `words=`（言語別 `lang_words/<code>.js` の URL）をリンクに追加（v1.1）
@@ -272,7 +294,8 @@ const uiHint = qs.ui, nameHint = qs.name; // 表示初期値のみ（正はデ�
 - [ ] （今後）SEO ページ版ボタン。URL 生成関数を共通化
 
 **Makoto 側（`../japan-to-go`・要）**
-- [ ] `/[locale]/goods/langmap/page.tsx` 特設ページ
+- [ ] `/[locale]/goods/langmap/page.tsx` 特設ページ（`mode` で single / compare を分岐）
+- [ ] `mode=compare`: `langs` を分割し `words`(ディレクトリ)＋各コードで単語ファイルを取得、`names`/`natives` は `JSON.parse`。ポリグロット・シャツをデザイン（§1b）
 - [ ] `GOODS_SOURCES` allowlist + `/api/goods/langmap/words`（中継・キャッシュ）
 - [ ] 単語選択 UI（リスト選択 / ランダム5 / シャッフル / 数→列数）
 - [ ] 背面グリッド + 前面マークのプレビュー（既存 FramePreview 流用）

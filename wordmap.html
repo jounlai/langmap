@@ -91,7 +91,7 @@
            Preservation Foundation's NomNaTong v5.18 (incl. 𠄩 two, 𠸜 name,
            𣋀 star for vi_nom and 𠊎 ngai for hak_cn). Two were added
            2026-09-10: 㗂 (U+35C2) for the vi_nom NATIVE NAME, which is now
-           written 㗂越 (字喃) in Nôm rather than in quốc ngữ, and 㹥 (U+3E65),
+           written 字喃㗂越 in Nôm rather than in quốc ngữ, and 㹥 (U+3E65),
            which the word data has always used and no subset covered — the
            coverage guard only scans Ext B and above, so an Ext A gap is
            invisible to it.
@@ -107,13 +107,15 @@
             font-display: swap;
             src: url('fonts/NomNaTong-subset.woff2') format('woff2');
             unicode-range:
+                
                 U+3575, U+35C2, U+3E65, U+5352, U+5400, U+5632,
                 U+6069, U+611F, U+6E03, U+732B, U+8339, U+20027,
-                U+20129, U+2028E, U+20B20, U+20E1C, U+21419, U+215B5,
-                U+215F6, U+21795, U+21B36, U+21CDB, U+22051, U+22782,
-                U+22785, U+232C0, U+23603, U+243EC, U+2475E, U+2512B,
-                U+265BB, U+269DC, U+275B1, U+27E65, U+2910E, U+29218,
-                U+2964B, U+29D5C, U+2A635, U+2B5D2;
+                U+20129, U+2028E, U+2029B, U+20B20, U+20E1C, U+21419,
+                U+215B5, U+215F6, U+21795, U+21A38, U+21B36, U+21CDB,
+                U+22051, U+22782, U+22785, U+232C0, U+23603, U+23D13,
+                U+243EC, U+2475E, U+2512B, U+265BB, U+269DC, U+275B1,
+                U+27E65, U+2910E, U+29218, U+2964B, U+29D5C, U+2A635,
+                U+2B5D2;
         }
         @font-face {
             font-family: 'Nom Serif Subset';
@@ -130,10 +132,11 @@
                𣳪 sữa (milk), 𡥵𡛔 con gái (daughter), 𥹘 bánh (wheel).
                Those six had been left blank precisely because this font
                did not carry them. 18 glyphs, 5.3 KB. */
-            unicode-range: U+200E9, U+2013C, U+20A21, U+216D4, U+21975, U+2204B,
+            unicode-range: 
+                U+200E9, U+2013C, U+20A21, U+216D4, U+21975, U+2204B,
                 U+2266D, U+22B23, U+23CEA, U+24830, U+24F78, U+24F93,
                 U+2512C, U+254A5, U+25E58, U+2629A, U+28492, U+29A6B,
-                U+2A004, U+2A5AB;
+                U+2A004, U+2A5AB, U+2D46B;
         }
         /* Rare-CJK glyphs common device fonts lack — Zhuang Sawndip (古壮字) in
            CJK Ext-B/E/F (𭓨 house, 𭝚 love, 𫱆 mother, owner 2026-07-15), plus
@@ -3295,7 +3298,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=318"></script>
+    <script src="wordmap_data.js?v=319"></script>
     <script src="word_manifest.js?v=427"></script>
     <script src="word_labels.js?v=51"></script>
     <script>
@@ -3769,7 +3772,7 @@
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:   130,
-            data:      318,
+            data:      319,
             metaI18n:  16,
             filter:    45,
             names:   171,

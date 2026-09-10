@@ -2840,7 +2840,46 @@ console.log('');
             }
         }
     }
-    infos.push(`subset-font coverage: scanned ${scanned} Nôm/Old-Hangul codepoints in word surfaces, ${uncovered} uncovered`);
+
+    // Surfaces are not the only place these characters appear. 2026-09-10:
+    // vi_nom's description opens "Chữ Nôm (𡨸喃) is the historical Sinographic
+    // vernacular script…" and rendered as "Chữ Nôm (□□)", because 𡨸 (U+21A38)
+    // is Ext B and no subset carried it — this guard had only ever looked at
+    // word surfaces. Three more were hiding the same way: 𠊛 (U+2029B) in the
+    // same description, 𣴓 (U+23D13) in tyz's, and 𭑫 (U+2D46B) in a Sawndip
+    // source citation. Prose, native names, translated names and source lines
+    // all render on the page, so all of them are scanned now.
+    const textFields = [];
+    const LD = ctx.LANG_DATA || {};
+    for (const code of Object.keys(LD)) {
+        const L = LD[code]; if (!L) continue;
+        if (typeof L.native === 'string') textFields.push([`${code}.native`, L.native]);
+        if (typeof L.name === 'string') textFields.push([`${code}.name`, L.name]);
+        const m = L.meta || {};
+        for (const f of ['family', 'speakers', 'countries', 'official', 'script', 'coverageNote', 'disambiguator'])
+            if (typeof m[f] === 'string') textFields.push([`${code}.meta.${f}`, m[f]]);
+        if (m.description && typeof m.description === 'object')
+            for (const ui of Object.keys(m.description))
+                if (typeof m.description[ui] === 'string') textFields.push([`${code}.description.${ui}`, m.description[ui]]);
+        if (Array.isArray(m.sources))
+            for (const src of m.sources)
+                for (const f of ['title', 'note'])
+                    if (src && typeof src[f] === 'string') textFields.push([`${code}.sources.${f}`, src[f]]);
+        if (Array.isArray(m.aliases))
+            for (const a of m.aliases) if (typeof a === 'string') textFields.push([`${code}.aliases`, a]);
+    }
+    let textScanned = 0, textUncovered = 0;
+    for (const [where, str] of textFields) {
+        for (const ch of str) {
+            const cp = ch.codePointAt(0);
+            if (cp < 0x20000) continue;          // Ext B and above only, as above
+            textScanned++;
+            if (inDeclared(cp)) continue;
+            textUncovered++;
+            E(`subset-font coverage: Chữ Nôm (CJK Ext B+) U+${cp.toString(16).toUpperCase()} "${ch}" in ${where} is NOT in the self-hosted subset font → tofu on iPhone. Regenerate the fonts/ subset and its @font-face unicode-range (wordmap.html + hanmap.html) to include it.`);
+        }
+    }
+    infos.push(`subset-font coverage: scanned ${scanned} Nôm/Old-Hangul codepoints in word surfaces and ${textScanned} in names, prose and citations, ${uncovered + textUncovered} uncovered`);
 })();
 console.log(`ERRORS (${errors.length}):`);
 for (const m of errors) console.log('  ✗ ' + m);

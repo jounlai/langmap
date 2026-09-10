@@ -2158,8 +2158,9 @@ const LANG_DATA = {
   // native was 'Tiếng Việt (Chữ Nôm)' — the name of the Nôm row written in quốc ngữ,
   // the very orthography that replaced it. Every other script-defined row writes its
   // own name in its own script (ko_mid 中世韓國語, zh_wenyan_edu 文言文(粤音), ug
-  // ئۇيغۇرچە), so this one now does too. 㗂 (U+35C2) needed a subset-font entry.
-  vi_nom: { name: 'Vietnamese Chữ Nôm', native: '㗂越 (字喃)', lat: 21.03, lng: 105.85,
+  // ئۇيغۇرچە), so this one now does too. No parentheses: they are not a mark
+  // Nôm used. 㗂 (U+35C2) needed a subset-font entry.
+  vi_nom: { name: 'Vietnamese Chữ Nôm', native: '字喃㗂越', lat: 21.03, lng: 105.85,
 },
   // === Constructed Languages ===
   eo: { name: 'Esperanto', native: 'Esperanto', lat: 53.13, lng: 23.16, // Białystok, Poland (L. L. Zamenhof's birthplace)

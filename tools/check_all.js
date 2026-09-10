@@ -215,6 +215,16 @@ line('vitality field contradictions', num(s, /vitality contradictions: (\d+)/),
 s = run('meta_field_usage_check.js --check');
 line('meta fields with no reader', num(s, /meta fields with no reader: (\d+)/));
 
+// The pages' own JavaScript has to PARSE. On 2026-09-10 wordmap.html shipped
+// `Uncaught SyntaxError: Identifier 'UNATTESTED_LABEL' has already been
+// declared` — a block added for meta.unattestedReason reusing a name a flat
+// ui->string map 46 lines below already had. A duplicate top-level const is a
+// parse error, not a runtime one, so the ENTIRE script block never ran and the
+// map was dead. Every guard here was green, because none of them had ever
+// asked whether the JavaScript compiles. vm.Script compiles without running.
+s = run('page_script_syntax_check.js --check');
+line('inline page scripts parse', num(s, /inline script blocks that do not parse: (\d+)/));
+
 // meta.description translation integrity: a missing / empty / untranslated
 // (same-as-English) UI-language description, or a run of English left inside a
 // translation, ships a broken info panel. Length outliers and source-* notes

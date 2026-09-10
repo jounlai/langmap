@@ -56,8 +56,7 @@ const LITE_FIELDS = new Set(['family', 'speakers', 'countries', 'official', 'scr
   'speakerCount', 'parentCode', 'speakerBasis', 'speakerSource', 'speakerYear',
   'glottocode', 'locationBasis', 'pronunciationType', 'surfaceType', 'aliases',
   'reviewStatus', 'coverage', 'baseLang', 'varietyRole', 'languageKind', 'period',
-  'disambiguator', 'coverageNote', 'unattestedReason', 'wordsNote', 'extinct',
-  'extinctionDate', 'lastSpeaker']);
+  'disambiguator', 'coverageNote', 'unattestedReason', 'wordsNote']);
 const DESC_FIELDS = ['description', 'sources']; // the big ones → per-language
 
 const ctx = { window: {}, console };

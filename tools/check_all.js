@@ -207,6 +207,14 @@ s = run('vitality_consistency_check.js --check');
 line('vitality field contradictions', num(s, /vitality contradictions: (\d+)/),
      `${num(s, /informational\): (\d+)/)} meta-vs-count informational`);
 
+// The third sibling: a meta field nothing reads. `extinct` was a boolean four
+// rows carried beside vitality — and on bzg and osc *instead* of it, so the
+// unread field said extinct while the read one said nothing. extinctionDate
+// and lastSpeaker existed on uby alone and duplicated its own description.
+// All three are gone; this keeps the class from coming back.
+s = run('meta_field_usage_check.js --check');
+line('meta fields with no reader', num(s, /meta fields with no reader: (\d+)/));
+
 // meta.description translation integrity: a missing / empty / untranslated
 // (same-as-English) UI-language description, or a run of English left inside a
 // translation, ships a broken info panel. Length outliers and source-* notes

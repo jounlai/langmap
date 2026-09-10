@@ -26,8 +26,11 @@
  *
  * Also not an invariant: extinct rows do not all carry a period.
  * vitality 'extinct' covers languages that died last century (mnc, lbz, nny)
- * as well as ancient ones, and only two rows in the atlas have extinctionDate
- * or lastSpeaker at all, so there is nothing to require yet.
+ * as well as ancient ones, and the atlas records no death date for any of
+ * them. It used to, for one: uby carried extinctionDate and lastSpeaker,
+ * which nothing read and which its own description already said in prose.
+ * Both fields are gone, along with the boolean `extinct` that four rows
+ * carried beside (or instead of) vitality.
  *
  * Usage: node tools/meta_invariant_check.js [--check]
  */

@@ -7676,15 +7676,23 @@
         // Surfaced ONLY on the canonical production host — hidden on mirrors,
         // staging and localhost. Generic contract in docs/custom_goods_handoff.md.
         const TSHIRT_HOST = 'langmap.heuron.com';
-        function tshirtEnabled() { return location.hostname === TSHIRT_HOST; }
+        // TEMP: host gate disabled for local testing — shows the T-shirt UI on
+        // every host. Restore `return location.hostname === TSHIRT_HOST;` to
+        // limit it to the production host again.
+        function tshirtEnabled() { return true; }
         // Build the Makoto deep-link. opts: { mode:'single'|'compare', codes:[],
         // names:[], natives:[], uiLang }. Single uses codes[0]; compare sends the
         // whole set. words= always points at the fixed, Makoto-validated prefix.
         function buildTshirtHref(opts) {
             const uiL = opts.uiLang || uiLang;
             const mkLocale = ['ja'].indexOf(uiL.split('_')[0]) !== -1 ? 'ja' : 'en';
-            const WORDS_DIR = 'https://langmap.heuron.com/lang_words/';
-            const u = new URL('https://makoto-gadgets.com/' + mkLocale + '/goods/langmap');
+            // Local dev: on localhost, hand off to the local Makoto dev server
+            // (:3001) and point words= at this same local origin, so the whole
+            // loop stays local. In production both go to the real hosts.
+            const _isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+            const MK_BASE = _isLocal ? 'http://localhost:3001' : 'https://makoto-gadgets.com';
+            const WORDS_DIR = (_isLocal ? location.origin : 'https://langmap.heuron.com') + '/lang_words/';
+            const u = new URL(MK_BASE + '/' + mkLocale + '/goods/langmap');
             u.searchParams.set('src', 'langmap');
             u.searchParams.set('map', 'wordmap');
             u.searchParams.set('ui', uiL);

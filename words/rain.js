@@ -678,7 +678,7 @@ WORDS.rain = {
     tsi: ["waas", "waas"],
     tue: ["o'ko", "o'ko"],
     udi: ["агъала", "aɣala"],
-    ain: ["apto", "apto"],
+    ain: ["アㇷ゚ト", "apto"],
     kha: ["slap", "slap"],
     aa: ["rob", "rob"],
     zh_db: ["雨", "y˨˩˦"],

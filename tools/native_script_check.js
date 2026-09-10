@@ -21,9 +21,11 @@ const SCRIPT = {
   vi: 'Latin', vi_c: 'Latin', vi_s: 'Latin',
   ko: 'Hangul', ko_kp: 'Hangul', ko_zai: 'Hangul', ko_bus: 'Hangul', ko_hun: 'Hangul', ko_mid: 'Hangul',
   ja: 'Kana', ja_kgs: 'Kana', ja_okn: 'Kana', ja_thk: 'Kana', ja_ojp: 'Kana', ja_kun: 'Kana',
+  ain: 'Kana',   // Ainu is written in katakana here; the row was 53 kana cells to one stray Latin
+
   zh_phagspa: 'Phagspa', txg: 'Tangut', mnc: 'Mongolian', sjo: 'Mongolian',
   juc: 'Mongolian', zkt: 'Khitan',           // both mostly "—" placeholder
-  vi_nom: 'CJK', dng: 'Cyrillic', bo_sino: 'Tibetan', th: 'Thai',
+  vi_nom: 'CJK', dng: 'Cyrillic', bo_sino: 'Tibetan', th: 'Thai', th_n: 'Thai', th_s: 'Thai', th_isan: 'Thai',
   yue_gz: 'CJK', yue_ts: 'CJK', yue_dg: 'CJK', yue_nn: 'CJK', yue_zs: 'CJK',
 };
 function blockOf(cp) {

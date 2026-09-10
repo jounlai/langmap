@@ -179,6 +179,36 @@ Three of their findings were REJECTED after checking, and the reasons matter:
   those names are, and a guessed Sino-Vietnamese reading is worse than the
   inconsistency.
 
+**A script-outlier class, found 2026-09-10 from a reader report (アイヌ語にapto).**
+`ain` rain read `apto` in Latin where the row's other 53 cells are katakana. The
+row survived every guard because `native_script_check.js` only knows ~30 codes
+and `ain` was not one of them — and its meta legitimately says
+`script: 'Latin, Katakana'`, so nothing contradicted it. Fixed to アㇷ゚ト and the
+guard extended.
+
+Sweeping all 1,187 rows for the same shape — a surface column ≥90% one script
+with ≤3 cells in another — found **18 rows**. Four groups:
+
+- **FIXED**: `ain` rain; `th_n` and `th_s` ear, which read `hu:` (an ad-hoc
+  romanization with an ASCII colon) where every other cell in both rows is Thai
+  script and the parent `th` and `th_isan` both give หู.
+- **LEGITIMATE, do not "fix"**: `ojp` cuckoo/five/n99, `ja_chu` cuckoo/hello/poop,
+  `ja_kanbun` eat — kana in an otherwise-Han row, which is correct for
+  onomatopoeia and kana-only words. `yue` atsign `at` likewise.
+- **REAL DEFECTS, need a source per language**: Cyrillic rows carrying an
+  untransliterated Latin cell — `kca` ear/rain/wind (pal, yer̃t, wot), `mns`
+  wind (wot), `myv` wind (var̃ma), `yrk` earth (ya), `yuy` five (tawun),
+  `ale` ear/five (tutusix, chaang). Do not guess the Cyrillic spellings.
+- **BI-SCRIPT ROWS, a consistency call rather than an error**: `kaa` tea (шай),
+  `yai` ear/nose (ғуш, нес), `unr` ear (लुतुर), `pi_edu` rain (वुट्ठि),
+  `xsr` we (दाक्पु), `enf` earth (дя). Each of these languages genuinely uses
+  two scripts; the row should still pick one for the surface column.
+
+The guard now covers `ain`, `th_n`, `th_s`, `th_isan`. It still checks only ~35
+of the 160 rows whose meta declares a non-Latin script — extending it row by row
+is the way to close the rest, and each addition needs the row's own cells
+checked first, as these four were.
+
 **Open questions the 2026-09-08 rally raised and did not settle** (all recorded
 here rather than guessed at in the rows):
 - **swi / mmd `one` = `to2` / `tɔ2`.** Possibly the general classifier rather

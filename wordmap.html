@@ -1626,22 +1626,46 @@
         }
         .compare-add-btn:hover { background: #e8f0fe; }
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
-        /* Custom-goods hand-off CTA: "make a T-shirt in this language".
-           Deep-links to Makoto Gadgets (makoto-gadgets.com) via the generic
-           goods hand-off contract; see docs/custom_goods_handoff.md. */
+        /* Custom-goods hand-off to Makoto Gadgets; see docs/custom_goods_handoff.md.
+           Refined navy pill (matches the product), used by the compare panel. */
         .tshirt-cta-btn {
             display: inline-flex; align-items: center; gap: 6px;
-            margin: 4px 0 10px; padding: 6px 12px;
-            font-size: 12px; font-weight: 600; text-decoration: none;
-            border: 1px solid #b5651d; border-radius: 6px;
-            background: linear-gradient(#ffb347, #ff8c1a); color: #4a2200;
-            cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,.15);
+            margin: 4px 0 10px; padding: 6px 14px;
+            font-size: 12px; font-weight: 700; text-decoration: none;
+            border: 1px solid #1b2a44; border-radius: 999px;
+            background: #1b2a44; color: #f4efe6;
+            cursor: pointer; transition: background .15s;
         }
-        .tshirt-cta-btn:hover { background: linear-gradient(#ffbe5c, #ff9a33); }
-        .tshirt-cta-btn:focus-visible { outline: 2px solid #b5651d; outline-offset: 2px; }
+        .tshirt-cta-btn:hover { background: #26385a; }
+        .tshirt-cta-btn:focus-visible { outline: 2px solid #1b2a44; outline-offset: 2px; }
         .tshirt-cta-btn .tshirt-cta-ico { font-size: 14px; line-height: 1; }
         /* Compact variant living in the compare panel header (flex row). */
-        .compare-tshirt { margin: 0; padding: 4px 10px; flex: 0 0 auto; white-space: nowrap; }
+        .compare-tshirt { margin: 0; padding: 5px 12px; flex: 0 0 auto; white-space: nowrap; }
+        /* Product promo card — the bottom-of-modal hand-off (production host only). */
+        .tshirt-promo {
+            display: block; margin: 18px 0 4px; text-decoration: none; color: inherit;
+            border: 1px solid #e6e0d5; border-radius: 12px; overflow: hidden;
+            background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.06);
+            transition: box-shadow .16s ease, transform .16s ease;
+        }
+        .tshirt-promo:hover { box-shadow: 0 6px 18px rgba(27,42,68,.18); transform: translateY(-1px); }
+        .tshirt-promo:focus-visible { outline: 2px solid #1b2a44; outline-offset: 2px; }
+        .tshirt-promo-gallery {
+            display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: 1fr 1fr;
+            gap: 2px; background: #e6e0d5;
+        }
+        .tshirt-promo-gallery img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .tshirt-promo-gallery .g-hero { grid-column: 1; grid-row: 1 / span 2; }
+        .tshirt-promo-body { padding: 12px 14px 14px; background: #1b2a44; color: #f4efe6; }
+        .tshirt-promo-kicker { display: block; font-size: 10px; letter-spacing: .07em; text-transform: uppercase; color: #c9b98f; font-weight: 700; }
+        .tshirt-promo-title { display: block; font-size: 15px; font-weight: 800; margin: 4px 0 3px; line-height: 1.25; }
+        .tshirt-promo-sub { display: block; font-size: 11px; line-height: 1.5; color: #cdd4df; margin-bottom: 11px; }
+        .tshirt-promo-cta {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: 12px; font-weight: 800; color: #1b2a44;
+            background: #f4c66a; padding: 7px 15px; border-radius: 999px;
+        }
+        .tshirt-promo:hover .tshirt-promo-cta { background: #ffd684; }
         /* Audit Task 216: header positioning removed; button now flows inline
          * under the native-name line via standard .compare-add-btn rule. */
         /* Compare-table column headers are draggable for reorder — the
@@ -7648,6 +7672,38 @@
             return label + formNote + split + src + note + url;
         }
 
+        // === Custom-goods (T-shirt) hand-off to Makoto Gadgets ================
+        // Surfaced ONLY on the canonical production host — hidden on mirrors,
+        // staging and localhost. Generic contract in docs/custom_goods_handoff.md.
+        const TSHIRT_HOST = 'langmap.heuron.com';
+        function tshirtEnabled() { return location.hostname === TSHIRT_HOST; }
+        // Build the Makoto deep-link. opts: { mode:'single'|'compare', codes:[],
+        // names:[], natives:[], uiLang }. Single uses codes[0]; compare sends the
+        // whole set. words= always points at the fixed, Makoto-validated prefix.
+        function buildTshirtHref(opts) {
+            const uiL = opts.uiLang || uiLang;
+            const mkLocale = ['ja'].indexOf(uiL.split('_')[0]) !== -1 ? 'ja' : 'en';
+            const WORDS_DIR = 'https://langmap.heuron.com/lang_words/';
+            const u = new URL('https://makoto-gadgets.com/' + mkLocale + '/goods/langmap');
+            u.searchParams.set('src', 'langmap');
+            u.searchParams.set('map', 'wordmap');
+            u.searchParams.set('ui', uiL);
+            if (opts.mode === 'compare') {
+                u.searchParams.set('mode', 'compare');
+                u.searchParams.set('langs', opts.codes.join(','));
+                u.searchParams.set('words', WORDS_DIR);
+                u.searchParams.set('names', JSON.stringify(opts.names));
+                u.searchParams.set('natives', JSON.stringify(opts.natives));
+            } else {
+                const code = opts.codes[0];
+                u.searchParams.set('lang', code);
+                u.searchParams.set('name', opts.names[0] || code);
+                u.searchParams.set('native', opts.natives[0] || '');
+                u.searchParams.set('words', WORDS_DIR + code + '.js');
+            }
+            return u.href;
+        }
+
         function renderLangInfo(code) {
             const lang = LANG_DATA[code];
             if (!lang) return;
@@ -7672,43 +7728,11 @@
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
-            // Custom-goods hand-off: "make a T-shirt in <language>". Deep-links
-            // to Makoto Gadgets, which fetches this language's word list from our
-            // public data/wordmap_seo.json and drives its own design/order flow.
-            // Generic contract documented in docs/custom_goods_handoff.md.
-            (() => {
-                const tI18n = {
-                    en: '{lang} T-shirt', ja: '{lang}のTシャツを作る', ko: '{lang} 티셔츠 만들기',
-                    zh: '制作{lang}T恤', yue: '整{lang}T恤', vi: 'Làm áo {lang}',
-                    th: 'ทำเสื้อ{lang}', id: 'Buat kaus {lang}', hi: '{lang} टी-शर्ट बनाएं',
-                    de: '{lang}-T-Shirt', fr: 'T-shirt {lang}', it: 'T-shirt {lang}',
-                    es: 'Camiseta {lang}', pt: 'Camiseta {lang}', ru: 'Футболка: {lang}',
-                    uk: 'Футболка: {lang}', ar: 'قميص {lang}', he: 'חולצת {lang}', sw: 'Fulana ya {lang}',
-                };
-                const tmpl = tI18n[uiLang] || tI18n[uiLang.split('_')[0]] || tI18n.en;
-                const label = tmpl.replace('{lang}', displayName);
-                // ja/ko/zh/... UIs → Makoto ja storefront; everything else → en.
-                const mkLocale = ['ja'].indexOf(uiLang.split('_')[0]) !== -1 ? 'ja' : 'en';
-                // Local dev: when this page is served from localhost, hand off to
-                // the local Makoto dev server (:3001) and point words= at this same
-                // local origin, so the whole loop stays local. In production both
-                // go to the real hosts. See docs/makoto-goods-link.md.
-                const _isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
-                const mkBase = _isLocal ? 'http://localhost:3001' : 'https://makoto-gadgets.com';
-                const wordsBase = _isLocal ? location.origin : 'https://langmap.heuron.com';
-                const u = new URL(mkBase + '/' + mkLocale + '/goods/langmap');
-                u.searchParams.set('src', 'langmap');
-                u.searchParams.set('map', 'wordmap');
-                u.searchParams.set('lang', code);
-                u.searchParams.set('name', displayName);
-                u.searchParams.set('native', lang.native || '');
-                u.searchParams.set('ui', uiLang);
-                // Point Makoto at THIS language's word file (~2KB) so it fetches
-                // only what's needed and always sees fresh data. Prefix is fixed
-                // and validated on the Makoto side — see docs/makoto-goods-link.md.
-                u.searchParams.set('words', wordsBase + '/lang_words/' + code + '.js');
-                html += `<a class="tshirt-cta-btn" href="${escapeHtml(u.href)}" target="_blank" rel="noopener"><span class="tshirt-cta-ico" aria-hidden="true">👕</span>${escapeHtml(label)}</a>`;
-            })();
+            // (The custom-goods "make a T-shirt" hand-off is no longer a small
+            // button here — it's an image promo card appended at the BOTTOM of
+            // the modal, and only on the canonical production host. See the
+            // tshirtEnabled()/buildTshirtHref() helpers and the promo block just
+            // before infoContent.innerHTML.)
             // Audit Task 115: disambiguator for rows that share a display
             // or native name with another row (e.g. mn_cn/xng both show
             // ᠮᠣᠩᠭᠣᠯ; omx/mnw both show ဘာသာ မန်).
@@ -8183,6 +8207,30 @@
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#4a6cf7;text-decoration:none;font-weight:600">` +
                     `📄 デカ文字版ページ / Big-text page →</a></div>`;
             })();
+            // Custom-goods promo card at the very bottom of the modal — a real
+            // product hand-off to Makoto Gadgets. Production host only.
+            if (tshirtEnabled()) {
+                const P = {
+                    kicker: { en: 'LangMap Goods · Custom tee', ja: '世界言語マップ × オーダーT' },
+                    title:  { en: 'Make a {lang} T-shirt', ja: '{lang}のTシャツを作る', ko: '{lang} 티셔츠 만들기', zh: '制作{lang}T恤', yue: '整{lang}T恤', vi: 'Làm áo thun {lang}', th: 'ทำเสื้อยืด{lang}', id: 'Buat kaus {lang}', hi: '{lang} टी-शर्ट बनाएं', de: '{lang}-T-Shirt gestalten', fr: 'Créer un t-shirt {lang}', it: 'Crea una t-shirt {lang}', es: 'Crea una camiseta {lang}', pt: 'Crie uma camiseta {lang}', ru: 'Создать футболку: {lang}', uk: 'Створити футболку: {lang}', ar: 'صمّم قميص {lang}', he: 'עצב חולצת {lang}', sw: 'Tengeneza fulana ya {lang}' },
+                    sub:    { en: 'Your chosen words, printed down the back — a one-of-a-kind tee.', ja: '選んだ単語が背中に並ぶ、世界にひとつの一着。' },
+                    cta:    { en: 'Design yours →', ja: 'デザインを作る →', ko: '디자인 만들기 →', zh: '开始设计 →', yue: '開始設計 →', vi: 'Bắt đầu thiết kế →', th: 'เริ่มออกแบบ →', id: 'Mulai desain →', hi: 'डिज़ाइन बनाएं →', de: 'Jetzt gestalten →', fr: 'Créer le mien →', it: 'Crea la tua →', es: 'Diséñala →', pt: 'Crie a sua →', ru: 'Оформить →', uk: 'Оформити →', ar: 'صمّم الآن →', he: 'לעיצוב →', sw: 'Anza kubuni →' },
+                };
+                const pk = k => (P[k][uiLang] || P[k][uiLang.split('_')[0]] || P[k].en);
+                const href = buildTshirtHref({ mode: 'single', codes: [code], names: [displayName], natives: [lang.native || ''], uiLang });
+                html += `<a class="tshirt-promo" href="${escapeHtml(href)}" target="_blank" rel="noopener">`
+                     + `<span class="tshirt-promo-gallery" aria-hidden="true">`
+                     + `<img class="g-hero" src="assets/tshirts/tshirt-2.jpg" alt="" loading="lazy">`
+                     + `<img src="assets/tshirts/tshirt-0.jpg" alt="" loading="lazy">`
+                     + `<img src="assets/tshirts/tshirt-1.jpg" alt="" loading="lazy">`
+                     + `</span>`
+                     + `<span class="tshirt-promo-body">`
+                     + `<span class="tshirt-promo-kicker">${escapeHtml(pk('kicker'))}</span>`
+                     + `<span class="tshirt-promo-title">${escapeHtml(pk('title').replace('{lang}', displayName))}</span>`
+                     + `<span class="tshirt-promo-sub">${escapeHtml(pk('sub'))}</span>`
+                     + `<span class="tshirt-promo-cta">${escapeHtml(pk('cta'))}</span>`
+                     + `</span></a>`;
+            }
             infoContent.innerHTML = html;
         }
 
@@ -8784,9 +8832,9 @@
             const btn = document.getElementById('compare-tshirt');
             if (!btn) return;
             const codes = (_compareList || []).filter(c => LANG_DATA[c]);
-            // A comparison shirt needs at least two languages; below that the
-            // single-language button in the modal already covers it.
-            if (codes.length < 2) { btn.hidden = true; return; }
+            // Production host only, and a comparison shirt needs at least two
+            // languages (below that the modal's own promo covers it).
+            if (!tshirtEnabled() || codes.length < 2) { btn.hidden = true; return; }
             const names = (typeof LANG_NAMES !== 'undefined' && LANG_NAMES[uiLang]) || (typeof LANG_NAMES !== 'undefined' && LANG_NAMES.en) || {};
             const tI18n = {
                 en: 'Make a {n}-language T-shirt', ja: '{n}言語のTシャツを作る', ko: '{n}개 언어 티셔츠 만들기',
@@ -8802,24 +8850,13 @@
             if (lblSpan) lblSpan.textContent = label;
             btn.setAttribute('aria-label', label);
             btn.setAttribute('title', label);
-            const mkLocale = ['ja'].indexOf(uiLang.split('_')[0]) !== -1 ? 'ja' : 'en';
-            const _isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
-            const mkBase = _isLocal ? 'http://localhost:3001' : 'https://makoto-gadgets.com';
-            // words= is the base DIRECTORY here (ends with /); Makoto appends
-            // <code>.js per language. It still matches the validated prefix.
-            const wordsBase = (_isLocal ? location.origin : 'https://langmap.heuron.com') + '/lang_words/';
-            const u = new URL(mkBase + '/' + mkLocale + '/goods/langmap');
-            u.searchParams.set('src', 'langmap');
-            u.searchParams.set('map', 'wordmap');
-            u.searchParams.set('mode', 'compare');
-            u.searchParams.set('langs', codes.join(','));
-            u.searchParams.set('ui', uiLang);
-            u.searchParams.set('words', wordsBase);
-            // Display names aren't in the per-language word files — send them as
-            // JSON arrays (comma-safe) aligned with the langs order.
-            u.searchParams.set('names', JSON.stringify(codes.map(c => names[c] || (LANG_DATA[c] && LANG_DATA[c].name) || c)));
-            u.searchParams.set('natives', JSON.stringify(codes.map(c => (LANG_DATA[c] && LANG_DATA[c].native) || '')));
-            btn.href = u.href;
+            btn.href = buildTshirtHref({
+                mode: 'compare',
+                codes,
+                names: codes.map(c => names[c] || (LANG_DATA[c] && LANG_DATA[c].name) || c),
+                natives: codes.map(c => (LANG_DATA[c] && LANG_DATA[c].native) || ''),
+                uiLang,
+            });
             btn.hidden = false;
         }
 

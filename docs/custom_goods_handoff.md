@@ -110,11 +110,16 @@ https://makoto-gadgets.com/{locale}/goods/{product}?{params}
 
 ## 1. LangMap 側（実装済み・このワークツリー）
 
-`wordmap.html` の言語詳細モーダル `renderLangInfo(code)` に、「比較に追加」ボタンの直後、CTA ボタンを追加済み。
+言語詳細モーダル `renderLangInfo(code)` の**最下部**に、実際の商品写真を使った
+**プロモカード `.tshirt-promo`** を差し込む（小さなボタンは廃止）。
 
-- ボタン: `<a class="tshirt-cta-btn" target="_blank" rel="noopener">👕 {言語名}のTシャツを作る</a>`
-- ラベルは 19 UI 言語対応（`{lang}` に表示名を差し込み）。
-- リンク組み立て（`URL`/`searchParams` で安全にエンコード）:
+- **公開ゲート:** `tshirtEnabled()`（`location.hostname === 'langmap.heuron.com'`）。
+  本番の正規ホストでのみ表示。ミラー・ステージング・localhost では出さない。
+- **見た目:** 商品モックアップ 3 枚（`assets/tshirts/tshirt-{0,1,2}.jpg`、~70–80KB/枚）の
+  ギャラリー ＋ 製品色に合わせた濃紺 #1b2a44 のボディ（キッカー / タイトル / サブ /
+  金色 CTA）。カード全体が Makoto へのリンク。
+- **文言:** タイトル「{言語名}のTシャツを作る」ほか 19 UI 言語対応。
+- **リンク組み立て** は共通ヘルパー `buildTshirtHref({mode:'single', codes:[code], names, natives, uiLang})`（`URL`/`searchParams` で安全にエンコード）:
   ```
   https://makoto-gadgets.com/{ja|en}/goods/langmap
      ?src=langmap&map=wordmap&lang={code}&name={displayName}&native={native}&ui={uiLang}
@@ -123,11 +128,10 @@ https://makoto-gadgets.com/{locale}/goods/{product}?{params}
   ロケールは UI が `ja` 系なら `ja`、他は `en`。`words=` はその言語の単語ファイル
   （約 2KB）を指す。**接頭辞 `https://langmap.heuron.com/lang_words/` は固定**で、
   Makoto 側が検証する（[`makoto-goods-link.md`](makoto-goods-link.md) §2）。
-- CSS クラス `.tshirt-cta-btn`（オレンジのグッズ色。比較ボタンと視覚的に区別）。
 
 ### 1b. 複数言語（比較モーダル）版 — `mode=compare`
 
-比較パネル（`renderCompare()` / `#compare-panel`）のヘッダーにも同じ `.tshirt-cta-btn`（`.compare-tshirt`）を追加済み。**比較中の言語が 2 つ以上**のときだけ表示（1 つ以下は単一言語版でカバー）。ラベルは「👕 {N}言語のTシャツを作る」（19 UI 言語対応、`updateCompareTshirtBtn()`）。
+比較パネル（`renderCompare()` / `#compare-panel`）のヘッダーにも `.tshirt-cta-btn`（`.compare-tshirt`、濃紺の丸ピル。旧オレンジは廃止）を追加済み。**本番ホスト（`tshirtEnabled()`）かつ比較中の言語が 2 つ以上**のときだけ表示（1 つ以下は単一言語のプロモカードでカバー）。ラベルは「👕 {N}言語のTシャツを作る」（19 UI 言語対応、`updateCompareTshirtBtn()`）。URL は共通ヘルパー `buildTshirtHref({mode:'compare', ...})`。
 
 - リンク組み立て:
   ```
@@ -283,9 +287,10 @@ const uiHint = qs.ui, nameHint = qs.name; // 表示初期値のみ（正はデ�
 ## 8. 実装フェーズ / チェックリスト
 
 **LangMap 側（このワークツリー・済/要）**
-- [x] `renderLangInfo` に単一言語 CTA ボタン（19 UI 言語）
-- [x] 比較パネルに複数言語 CTA ボタン `mode=compare`（`updateCompareTshirtBtn`、2言語以上で表示、19 UI 言語）
-- [x] `.tshirt-cta-btn` / `.compare-tshirt` CSS
+- [x] `renderLangInfo` 最下部に単一言語プロモカード `.tshirt-promo`（商品写真3枚＋濃紺CTA、19 UI 言語）
+- [x] 比較パネルに複数言語 CTA `mode=compare`（`updateCompareTshirtBtn`、2言語以上で表示、19 UI 言語）
+- [x] 本番ホストゲート `tshirtEnabled()`（`langmap.heuron.com` のみ）／共通ヘルパー `buildTshirtHref()`
+- [x] 商品写真 `assets/tshirts/tshirt-{0,1,2}.jpg`（web最適化）＋ `.tshirt-promo` / `.tshirt-cta-btn` CSS
 - [x] 胸マーク SVG（`assets/tshirt/langmap-chest-mark.svg`）
 - [x] 本設計書
 - [x] `words=`（言語別 `lang_words/<code>.js` の URL）をリンクに追加（v1.1）

@@ -4,7 +4,7 @@
 **1 回の表示につき 1 つ、順番にローテーション**する（`TSHIRT_MSGS` / `_tshirtMsgRot`）。
 語を見て回るうちに違う一言が出るので、押し付けがましくならず、いろんな刺さり方を狙える。
 
-`{lang}` は表示中の言語名に置換。ja / en / ko / zh / yue を用意（他 UI は en フォールバック）。
+`{lang}` は表示中の言語名に置換。**全 19 UI 言語**を用意（en/ja/ko/zh/yue/vi/th/id/hi/de/fr/it/es/pt/ru/uk/ar/he/sw）。比較版は `{n}`＝言語数。
 
 ---
 

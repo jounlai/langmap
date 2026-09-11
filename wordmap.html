@@ -1664,6 +1664,9 @@
         .tshirt-nudge-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
         .tshirt-nudge-title { font-size: 12.5px; font-weight: 700; color: #3a2a12; }
         .tshirt-nudge-sub { font-size: 11px; color: #8a7f6f; }
+        /* Compare-panel nudge sits under the table, kept to a sane width. */
+        .compare-tshirt-wrap { padding: 4px 12px 14px; }
+        .compare-tshirt-wrap .tshirt-nudge { max-width: 440px; margin: 8px 0 0; }
         /* Audit Task 216: header positioning removed; button now flows inline
          * under the native-name line via standard .compare-add-btn rule. */
         /* Compare-table column headers are draggable for reorder — the
@@ -3263,7 +3266,6 @@
     <div id="compare-panel" class="compare-panel" role="dialog" aria-labelledby="compare-heading" aria-modal="false" tabindex="-1">
         <div class="compare-header">
             <h3 id="compare-heading" class="compare-title">Language comparison</h3>
-            <a class="tshirt-cta-btn compare-tshirt" id="compare-tshirt" target="_blank" rel="noopener" hidden><span class="tshirt-cta-ico" aria-hidden="true">👕</span><span class="compare-tshirt-label">T-shirt</span></a>
             <button class="compare-clear" id="compare-clear" type="button">Clear</button>
             <button class="compare-close" id="compare-close" type="button" aria-label="Close comparison">&times;</button>
         </div>
@@ -7732,6 +7734,33 @@
         ];
         let _tshirtMsgRot = Math.floor(Math.random() * TSHIRT_MSGS.length);
 
+        // Multi-language (compare) copy — different angle: it's about lining up
+        // several languages on one tee. {n} → count. Rotates like the single one.
+        const TSHIRT_MSGS_CMP = [
+            { title: { en: 'All on one tee', ja: '全部、一枚に。', ko: '전부 한 벌에', zh: '全部，一件搞定', yue: '全部，一件搞掂' },
+              sub:   { en: 'Your {n} compared languages, side by side', ja: '比べた{n}言語を並べたTシャツ', ko: '비교한 {n}개 언어를 나란히', zh: '把对比的{n}种语言排在一起', yue: '將對比嘅{n}種語言排埋一齊' } },
+            { title: { en: 'Wear the comparison', ja: '言葉くらべを、着る。', ko: '언어 비교를 입다', zh: '把语言对比穿上身', yue: '將語言對比著上身' },
+              sub:   { en: '{n} languages, one design', ja: '{n}言語をひとつのデザインに', ko: '{n}개 언어를 하나의 디자인으로', zh: '{n}种语言，一个设计', yue: '{n}種語言，一個設計' } },
+            { title: { en: 'Make a polyglot tee', ja: '多言語Tシャツを作ろう。', ko: '다국어 티셔츠 만들기', zh: '做件多语言T恤', yue: '整件多語言T恤' },
+              sub:   { en: 'An original from your {n} languages', ja: '比較中の{n}言語でオリジナルT', ko: '비교 중인 {n}개 언어로 오리지널 티셔츠', zh: '用对比中的{n}种语言做原创T恤', yue: '用對比緊嘅{n}種語言整原創T恤' } },
+        ];
+        let _tshirtCmpRot = Math.floor(Math.random() * TSHIRT_MSGS_CMP.length);
+
+        // Shared markup for the low-key nudge (slideshow thumb + one-liner).
+        function tshirtNudgeHtml(href, title, sub) {
+            return `<a class="tshirt-nudge" href="${escapeHtml(href)}" target="_blank" rel="noopener">`
+                 + `<span class="tshirt-nudge-thumb"><span class="tshirt-nudge-track">`
+                 + `<img src="assets/tshirts/tshirt-thumb.jpg" alt="" loading="lazy">`
+                 + `<img src="assets/tshirts/tshirt-2.jpg" alt="" loading="lazy">`
+                 + `<img src="assets/tshirts/tshirt-0.jpg" alt="" loading="lazy">`
+                 + `<img src="assets/tshirts/tshirt-thumb.jpg" alt="" loading="lazy">`
+                 + `</span></span>`
+                 + `<span class="tshirt-nudge-text">`
+                 + `<span class="tshirt-nudge-title">${escapeHtml(title)}</span>`
+                 + `<span class="tshirt-nudge-sub">${escapeHtml(sub)}</span>`
+                 + `</span></a>`;
+        }
+
         function renderLangInfo(code) {
             const lang = LANG_DATA[code];
             if (!lang) return;
@@ -8244,17 +8273,7 @@
                 const title = pick(msg.title);
                 const sub = pick(msg.sub).replace('{lang}', displayName);
                 const href = buildTshirtHref({ mode: 'single', codes: [code], names: [displayName], natives: [lang.native || ''], uiLang });
-                html += `<a class="tshirt-nudge" href="${escapeHtml(href)}" target="_blank" rel="noopener">`
-                     + `<span class="tshirt-nudge-thumb"><span class="tshirt-nudge-track">`
-                     + `<img src="assets/tshirts/tshirt-thumb.jpg" alt="" loading="lazy">`
-                     + `<img src="assets/tshirts/tshirt-2.jpg" alt="" loading="lazy">`
-                     + `<img src="assets/tshirts/tshirt-0.jpg" alt="" loading="lazy">`
-                     + `<img src="assets/tshirts/tshirt-thumb.jpg" alt="" loading="lazy">`
-                     + `</span></span>`
-                     + `<span class="tshirt-nudge-text">`
-                     + `<span class="tshirt-nudge-title">${escapeHtml(title)}</span>`
-                     + `<span class="tshirt-nudge-sub">${escapeHtml(sub)}</span>`
-                     + `</span></a>`;
+                html += tshirtNudgeHtml(href, title, sub);
             }
             infoContent.innerHTML = html;
         }
@@ -8853,36 +8872,27 @@
         // whole compare set to Makoto (mode=compare), which fetches each
         // language's word file and drives the polyglot-shirt design. Generic
         // contract documented in docs/custom_goods_handoff.md.
-        function updateCompareTshirtBtn() {
-            const btn = document.getElementById('compare-tshirt');
-            if (!btn) return;
+        // Build the compare-panel's T-shirt nudge (same style as the modal's,
+        // multi-language copy). Returns '' when it shouldn't show. Production
+        // host only, and needs 2+ languages (below that the modal covers it).
+        function compareTshirtNudgeHtml() {
             const codes = (_compareList || []).filter(c => LANG_DATA[c]);
-            // Production host only, and a comparison shirt needs at least two
-            // languages (below that the modal's own promo covers it).
-            if (!tshirtEnabled() || codes.length < 2) { btn.hidden = true; return; }
+            if (!tshirtEnabled() || codes.length < 2) return '';
             const names = (typeof LANG_NAMES !== 'undefined' && LANG_NAMES[uiLang]) || (typeof LANG_NAMES !== 'undefined' && LANG_NAMES.en) || {};
-            const tI18n = {
-                en: 'Make a {n}-language T-shirt', ja: '{n}言語のTシャツを作る', ko: '{n}개 언어 티셔츠 만들기',
-                zh: '制作{n}种语言T恤', yue: '整{n}種語言T恤', vi: 'Làm áo {n} ngôn ngữ',
-                th: 'ทำเสื้อ {n} ภาษา', id: 'Buat kaus {n} bahasa', hi: '{n} भाषाओं की टी-शर्ट बनाएं',
-                de: '{n}-Sprachen-T-Shirt', fr: 'T-shirt en {n} langues', it: 'T-shirt in {n} lingue',
-                es: 'Camiseta de {n} idiomas', pt: 'Camiseta de {n} idiomas', ru: 'Футболка на {n} языках',
-                uk: 'Футболка на {n} мовах', ar: 'قميص بـ{n} لغات', he: 'חולצה ב-{n} שפות', sw: 'Fulana ya lugha {n}',
-            };
-            const tmpl = tI18n[uiLang] || tI18n[uiLang.split('_')[0]] || tI18n.en;
-            const label = tmpl.replace('{n}', String(codes.length));
-            const lblSpan = btn.querySelector('.compare-tshirt-label');
-            if (lblSpan) lblSpan.textContent = label;
-            btn.setAttribute('aria-label', label);
-            btn.setAttribute('title', label);
-            btn.href = buildTshirtHref({
+            const msg = TSHIRT_MSGS_CMP[_tshirtCmpRot % TSHIRT_MSGS_CMP.length];
+            _tshirtCmpRot++;
+            const pick = o => (o[uiLang] || o[uiLang.split('_')[0]] || o.en);
+            const n = String(codes.length);
+            const title = pick(msg.title).replace('{n}', n);
+            const sub = pick(msg.sub).replace('{n}', n);
+            const href = buildTshirtHref({
                 mode: 'compare',
                 codes,
                 names: codes.map(c => names[c] || (LANG_DATA[c] && LANG_DATA[c].name) || c),
                 natives: codes.map(c => (LANG_DATA[c] && LANG_DATA[c].native) || ''),
                 uiLang,
             });
-            btn.hidden = false;
+            return '<div class="compare-tshirt-wrap">' + tshirtNudgeHtml(href, title, sub) + '</div>';
         }
 
         function renderCompare() {
@@ -8898,7 +8908,6 @@
             }
             const body = document.getElementById('compare-body');
             if (!body) return;
-            updateCompareTshirtBtn();
             if (_compareList.length === 0) { body.innerHTML = ''; return; }
             const names = (typeof LANG_NAMES !== 'undefined' && LANG_NAMES[uiLang]) || (typeof LANG_NAMES !== 'undefined' && LANG_NAMES.en) || {};
             const conceptLangFb = uiLang.split('_')[0];
@@ -8945,6 +8954,7 @@
             }
             html += '</tr>';
             html += '</tbody></table>';
+            html += compareTshirtNudgeHtml();
             body.innerHTML = html;
             // Wire interactions
             body.querySelectorAll('.remove-col').forEach(btn => {

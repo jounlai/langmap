@@ -133,7 +133,7 @@ https://makoto-gadgets.com/{locale}/goods/{product}?{params}
 
 ### 1b. 複数言語（比較モーダル）版 — `mode=compare`
 
-比較パネル（`renderCompare()` / `#compare-panel`）のヘッダーにも `.tshirt-cta-btn`（`.compare-tshirt`、濃紺の丸ピル。旧オレンジは廃止）を追加済み。**本番ホスト（`tshirtEnabled()`）かつ比較中の言語が 2 つ以上**のときだけ表示（1 つ以下は単一言語のプロモカードでカバー）。ラベルは「👕 {N}言語のTシャツを作る」（19 UI 言語対応、`updateCompareTshirtBtn()`）。URL は共通ヘルパー `buildTshirtHref({mode:'compare', ...})`。
+比較パネル（`renderCompare()` / `#compare-panel`）の**表の下**に、単一言語版と同じ `.tshirt-nudge`（スライドショー＋一言、共通の `tshirtNudgeHtml()`）を追加（`compareTshirtNudgeHtml()`）。旧ヘッダーのピルボタンは廃止。**本番ホスト（`tshirtEnabled()`）かつ比較中 2 言語以上**のときだけ表示。文言は**複数言語向けに別立て**（`TSHIRT_MSGS_CMP`、{n}＝言語数、3種ローテーション、ja/en/ko/zh/yue）：「全部、一枚に。」「言葉くらべを、着る。」「多言語Tシャツを作ろう。」。URL は共通ヘルパー `buildTshirtHref({mode:'compare', ...})`。
 
 - リンク組み立て:
   ```
@@ -290,7 +290,7 @@ const uiHint = qs.ui, nameHint = qs.name; // 表示初期値のみ（正はデ�
 
 **LangMap 側（このワークツリー・済/要）**
 - [x] `renderLangInfo` 最下部に単一言語プロモカード `.tshirt-promo`（商品写真3枚＋濃紺CTA、19 UI 言語）
-- [x] 比較パネルに複数言語 CTA `mode=compare`（`updateCompareTshirtBtn`、2言語以上で表示、19 UI 言語）
+- [x] 比較パネルの表の下に複数言語 nudge `mode=compare`（`compareTshirtNudgeHtml`、スライドショー＋複数言語文言、2言語以上で表示）
 - [x] 本番ホストゲート `tshirtEnabled()`（`langmap.heuron.com` のみ）／共通ヘルパー `buildTshirtHref()`
 - [x] 商品写真 `assets/tshirts/tshirt-{0,1,2}.jpg`（web最適化）＋ `.tshirt-promo` / `.tshirt-cta-btn` CSS
 - [x] 胸マーク SVG（`assets/tshirt/langmap-chest-mark.svg`）

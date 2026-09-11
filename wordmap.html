@@ -10557,7 +10557,7 @@
                 if (!w || !w.data || !w.data[code]) continue;
                 const surf = w.data[code][0];
                 if (!surf || surf === '—') continue;
-                const lbl = (w.label && (w.label[ui()] || w.label.en)) || concept;
+                const lbl = (w.label && (w.label[ui()] || w.label[ui().split('_')[0]] || w.label.en)) || concept;
                 return pk(T.shFact).replace('{lang}', nameOf(code)).replace('{word}', lbl).replace('{val}', surf);
             }
             return '';
@@ -10592,7 +10592,7 @@
                 if (shown >= 4) break;
                 const w = words[concept]; if (!w || !w.data || !w.data[t]) continue;
                 const cell = w.data[t]; if (!cell[0] || cell[0] === '—') continue;
-                const lbl = (w.label && (w.label[ui()] || w.label.en)) || concept;
+                const lbl = (w.label && (w.label[ui()] || w.label[ui().split('_')[0]] || w.label.en)) || concept;
                 rows += `<div style="display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px solid #f0f1f4"><span style="color:#888;font-size:12px">${lbl}</span><span style="font-weight:600">${cell[0]} <span style="color:#9aa;font-weight:400;font-size:12px">/${cell[1]}/</span></span></div>`;
                 shown++;
             }

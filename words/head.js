@@ -1,8 +1,7 @@
 /**
- * The head has two competing sources almost everywhere. PIE *ḱap-ut- gives Latin caput (→ Italian capo, Spanish cabeza, Romanian cap) and English head, German Haupt; but the everyday word in much of Romance and German comes instead from a container: Latin testa 'pot' → French tête, Italian testa, and German Kopf, originally 'cup'. Greek kephalḗ and Sanskrit śiras stand apart, and Semitic uses *raʔš (Arabic raʔs, Hebrew roʔš), a root that also means 'beginning' and 'chief'. Sino-Tibetan points to *lu / 頭 and 首, Turkic to baš, Uralic to *päŋe (Finnish pää, Hungarian fej), Austronesian to *qulu (Malay hulu 'upstream, head of') beside the innovation kepala, and Bantu to *-tʊ́e.
+ * The head has two competing sources almost everywhere. PIE *kaput- gives Latin caput (→ Italian capo, Spanish cabeza, Romanian cap) and, through a correspondence irregular enough to be famous, Germanic *haubudą — English head, German Haupt. But the everyday word in much of Romance and in German comes from a vessel instead, and twice over independently: Latin testa 'pot' displaced caput in French tête and Italian testa, while German Kopf is Old High German kopf 'drinking cup' (Proto-Germanic *kuppaz), a separate shift that arrived at the same place. Greek kephalḗ and Sanskrit śiras stand apart, and Semitic uses *raʔš (Arabic raʔs, Hebrew roʔš), a root that also means 'beginning' and 'chief'. Sinitic has two etyma, 首 (Old Chinese *l̥uʔ) and 頭 (*[m-t]ˤo), the second having displaced the first. Turkic points to baš, Uralic to *päŋe (Finnish pää, Hungarian fej), Bantu to *-tʊ́e. Austronesian *qulu survives in Malay hulu 'upstream, head of' — but the ordinary Malay word kepala is a Sanskrit loan, कपाल kapāla 'skull, bowl', which is the same PIE root as the caput at the top of this paragraph, arriving in Malay from the other direction.
  */
 WORDS.head = {
-  emoji: "\u{1F464}",
   label: {
     en: "Head",
     ja: "頭",
@@ -33,7 +32,7 @@ WORDS.head = {
     ja: "頭 — 目・耳・鼻・口のある体の最上部。身体部位のみで、「長」「首領」や物の先端、動詞は含まない。",
     ko: "머리 — 눈·귀·코·입이 있는 몸의 가장 윗부분. 신체 부위만을 가리키며 '우두머리'나 사물의 끝, 동사는 제외.",
     zh: "头 — 长有眼、耳、鼻、口的身体最上部。仅指身体部位，不指“首领”、物体的顶端，也不是动词。",
-    yue: "頭 — 長有眼、耳、鼻、口嘅身體最上部。只係身體部位，唔係「首領」或者對象嘅頂端，也唔係動詞。",
+    yue: "頭 — 生有眼、耳、鼻、口嘅身體最上部。凈係指身體部位，唔係「首領」，唔係物件嘅頂端，亦唔係動詞。",
     vi: "Đầu — phần trên cùng của cơ thể, mang mắt, tai, mũi và miệng. Chỉ bộ phận cơ thể: không phải 'thủ lĩnh', không phải đầu của vật, cũng không phải động từ.",
     th: "หัว — ส่วนบนสุดของร่างกาย ที่มีตา หู จมูก และปาก หมายถึงอวัยวะเท่านั้น ไม่ใช่ 'หัวหน้า' ส่วนปลายของสิ่งของ หรือคำกริยา",
     id: "Kepala — bagian paling atas tubuh, tempat mata, telinga, hidung, dan mulut. Hanya bagian tubuh: bukan 'pemimpin', bukan ujung suatu benda, dan bukan kata kerja.",
@@ -47,7 +46,7 @@ WORDS.head = {
     pt: "Cabeça — a parte superior do corpo, onde ficam os olhos, as orelhas, o nariz e a boca. Apenas a parte do corpo: não 'chefe', nem a extremidade de um objeto, nem um verbo.",
     pt_eu: "Cabeça — a parte superior do corpo, onde ficam os olhos, as orelhas, o nariz e a boca. Apenas a parte do corpo: não 'chefe', nem a extremidade de um objeto, nem um verbo.",
     pt_br: "Cabeça — a parte superior do corpo, onde ficam os olhos, as orelhas, o nariz e a boca. Apenas a parte do corpo: não 'chefe', nem a extremidade de um objeto, nem um verbo.",
-    ru: "Голова — верхняя часть тела, несущая глаза, уши, нос и рот. Только часть тела: не 'глава', не верхний конец предмета и не глагол.",
+    ru: "Голова — верхняя часть тела, где находятся глаза, уши, нос и рот. Только часть тела: не 'глава', не верхний конец предмета и не глагол.",
     uk: "Голова — верхня частина тіла, де очі, вуха, ніс і рот. Лише частина тіла: не 'очільник', не верхній кінець речі й не дієслово.",
     ar: "الرأس — أعلى جزء من الجسد، وفيه العينان والأذنان والأنف والفم. عضو الجسد فقط: لا بمعنى 'زعيم' ولا طرف الشيء ولا فعلًا.",
     he: "ראש — החלק העליון של הגוף, שבו העיניים, האוזניים, האף והפה. איבר בלבד: לא 'מנהיג', לא קצה של חפץ ולא פועל.",
@@ -63,7 +62,7 @@ WORDS.head = {
     fr_lu: ["tête", "tɛt"],
     fr_cm: ["tête", "tɛt"],
     en_ng2: ["head", "hɛd"],
-    pt_mo: ["cabeça", "kɐˈbesɐ"],
+    pt_mo: ["cabeça", "kɐˈβesɐ"],
     lb: ["Kapp", "kɑp"],
     es_bo: ["cabeza", "kaˈβesa"],
     es_py: ["cabeza", "kaˈβesa"],
@@ -168,7 +167,7 @@ WORDS.head = {
     nl: ["hoofd", "ɦoːft"],
     pl: ["głowa", "ˈɡwɔva"],
     uk: ["голова", "ɦoloˈva"],
-    sv: ["huvud", "ˈhʉːvʉd"],
+    sv: ["huvud", "ˈhʉːvɵd"],
     no: ["hode", "ˈhuːdə"],
     da: ["hoved", "ˈhoːəð"],
     ro: ["cap", "kap"],
@@ -321,7 +320,7 @@ WORDS.head = {
     eo: ["kapo", "ˈkapo"],
     ia: ["capite", "ˈkapite"],
     sat: ["ᱵᱚᱦᱚᱜ", "bohoʔ"],
-    mad: ["cèthak", "tʃɛʈaʔ"],
+    mad: ["cèthak", "tʃɛʈʰaʔ"],
     hil: ["ulo", "ˈʔulo"],
     mk: ["глава", "ˈɡlava"],
     kam: ["mũtwe", "mutwe"],

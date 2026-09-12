@@ -495,7 +495,7 @@ WORDS.egg = {
     esu: ["kayangaq", "kajaˈŋaq"],
     dak: ["witka", "witˈka"],
     lmo: ["öv", "øf"],
-    pms: ["euv", "ø"],
+    pms: ["euv", "øw"],
     hno: ["آنڈا", "ɑːɳɖɑ"],
     meu: ["gatoi", "ɡatoi"],
     dsb: ["jajo", "ˈjajo"],

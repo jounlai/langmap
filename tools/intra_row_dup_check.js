@@ -94,6 +94,16 @@ for (const h of hits) {
 const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 
 // ---- ratchet ----
+// 2026-09-13: accepts mns пуӈк = head + tooth, and the agent that raised it had
+// the opposite theory. It reported that Mansi 'tooth' should be пуньк /puɲk/
+// with a palatal ń and that the EXISTING tooth cell therefore looked wrong.
+// It does not. Northern Mansi (Sosva) пуӈк is the regular reflex of TWO
+// distinct Proto-Uralic etyma that fell together: *päŋe 'head' (cf. Finnish
+// pää, Hungarian fej) and *piŋi 'tooth' (cf. Finnish pii, Erzya пей). The
+// merger is a fact about Northern Mansi, and both cells are right. Checked
+// against Wiktionary's Proto-Uralic reconstructions for both roots before
+// touching anything — which is the whole reason this guard reports a
+// collision for judgement instead of rewriting one side of it.
 // 2026-08-29, second update: accepts li veer = four + we. South Limburgish has
 // a set of pronouns ending in -r that no other Dutch variety has — heer, veer,
 // geer — so its 'we' is veer, and its 'four' is veer as well (Dutch vier with

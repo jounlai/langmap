@@ -11,21 +11,40 @@
  *     koffie, кофе, kávé, kahvi, kopi, コーヒー, 커피, 咖啡. Where tea split
  *     into cha and te, coffee did not split at all.
  *   bunna — and then there is the homeland. Coffea arabica is Ethiopian, and
- *     the languages around it kept their own word: Amharic ቡና, Tigrinya and
- *     Tigre ቡን, Oromo and Afar buna, Saho buun, Sidamo buna, Harari bun,
- *     Somali bun, and Konso punitta — which is the same word behind a regular
- *     sound change (Konso p- for *b-, cf. pishaa 'water' ~ Oromo bishaan).
+ *     the languages of the highlands kept their own word: Amharic ቡና, Tigrinya
+ *     and Tigre ቡን, Oromo and Afar buna, Sidamo buna, Harari bun, and Konso
+ *     punitta — the same word behind a regular sound change (Konso p- for *b-,
+ *     cf. pishaa 'water' ~ Oromo bishaan).
  *
- *     The first draft of this note said those languages "never borrowed the
- *     Arabic word". That is too strong, and the correction is the more
- *     interesting fact: **the split is between the BEAN and the DRINK, and it
- *     runs along the Red Sea coast.** Reinisch's 19th-century dictionaries are
- *     explicit — his Blin index reads "Kafe → qahuä, Kafebone → bun" and his
- *     Beja index "Kafe → kāhuā, Kafebone → būn". In both, bun is the bean and
- *     the drink is on the Arabic route. Saho had the same split in Reinisch's
- *     day ("qahwā, wofür auch bün gebraucht wird") and has since gone over to
- *     buun for the drink. So the homeland is not uniform, and the coast leans
- *     Arabic. Blin and Beja are left empty here rather than guessed.
+ *     This note has been wrong twice, in the same direction both times, and the
+ *     corrections are more interesting than the claim was. It first said these
+ *     languages "never borrowed the Arabic word", which is too strong. The real
+ *     pattern is that **the split is between the BEAN and the DRINK, and it
+ *     runs down the Red Sea coast and out to the Horn.** Where a language keeps
+ *     both words, bun is the bean and the cup is qahwa:
+ *
+ *       Blin (Reinisch) — "Kafe → qahuä, Kafebone → bun"
+ *       Beja (Reinisch) — "Kafe → kāhuā, Kafebone → būn"
+ *       Saho (Vergari, current) — "buun nm coffee" beside "qaxwa nf coffee
+ *         (beverage)". The note's second error was to say Saho had since gone
+ *         over to buun; the dictionary still carries the split.
+ *       Somali (Qaamuuska Af-Soomaaliga) — bun is 1. the tree, 2. the fruit
+ *         "from which qaxwo/kafee is made", 3. the fruit fried in oil; qaxwe is
+ *         "made from roasted bun, drunk like tea". Three senses, named apart,
+ *         and the cup is qaxwo. Somali Wikipedia titles its article Bun and
+ *         Wikidata gives so=bun, so the loose usage is real — but only the
+ *         dictionary actually distinguishes them.
+ *
+ *     So the highlands keep bunna and the coast and the Horn take qahwa. Blin
+ *     and Beja are left empty rather than guessed, and Afar is the next cell at
+ *     risk: Parker & Hayward give bún/búna with no split, but Reinisch's German
+ *     index separates "Kaffee" from "Kaffeebohnen: bun" and the OCR of the first
+ *     word is unreadable.
+ *
+ *     One trap that looks like a flip and is not: Leslau's Harari qahwa is
+ *     glossed "drink made from the beans, leaves or husk of the coffee tree OR
+ *     FROM THE TEA LEAVES" — it is the generic word for a hot infusion, so
+ *     Harari bun qahwa is 'bean-brew' and not evidence of an Arabic route.
  *   other — a native coinage or a different root. Armenian սուրճ is the one
  *     row outside the Horn that never took the Arabic word: attested since
  *     1769, etymology unknown, with կոֆե only a Russian-route doublet.
@@ -235,7 +254,7 @@ WORDS.coffee = {
     ar_sd: "qahwa",
     ti: "bunna",
     mt: "qahwa",
-    so: "bunna",
+    so: "qahwa",
     om: "bunna",
     kxc: "bunna",
     xh: "qahwa",
@@ -315,7 +334,7 @@ WORDS.coffee = {
     bs: "qahwa",
     ach: "qahwa",
     tig: "bunna",
-    ssy: "bunna",
+    ssy: "qahwa",
     hak_tw: "qahwa",
     nan_qz: "qahwa",
     wal: "other",
@@ -468,7 +487,7 @@ WORDS.coffee = {
     ar_sd: ["قهوة", "ˈɡahwa"],
     ti: ["ቡን", "bun"],
     mt: ["kafè", "kaˈfɛ"],
-    so: ["bun", "bun"],
+    so: ["qaxwo", "qaħwo"],
     om: ["buna", "buna"],
     kxc: ["punitta", "punitːa"],
     xh: ["ikofu", "iˈkoːfu"],
@@ -548,7 +567,7 @@ WORDS.coffee = {
     bs: ["kahva", "ˈkaxʋa"],
     ach: ["kawa", "kawa"],
     tig: ["ቡን", "bun"],
-    ssy: ["buun", "buːn"],
+    ssy: ["qaxwa", "qaħwa"],
     hak_tw: ["咖啡", "ka˨˦ pi˨˦"],
     nan_qz: ["咖啡", "ko˧˧ pi˧˧"],
     wal: ["tukkiya", "tukːija"],

@@ -11,10 +11,34 @@
  *     koffie, кофе, kávé, kahvi, kopi, コーヒー, 커피, 咖啡. Where tea split
  *     into cha and te, coffee did not split at all.
  *   bunna — and then there is the homeland. Coffea arabica is Ethiopian, and
- *     Ethiopian and Eritrean languages never borrowed the Arabic word: Amharic
- *     and Tigrinya ቡና bunna, Oromo buna. The Arabic word travelled the world
- *     and did not travel the last few hundred kilometres back to the plant.
- *   other — a native coinage or a different root.
+ *     the languages around it kept their own word: Amharic ቡና, Tigrinya and
+ *     Tigre ቡን, Oromo and Afar buna, Saho buun, Sidamo buna, Harari bun,
+ *     Somali bun, and Konso punitta — which is the same word behind a regular
+ *     sound change (Konso p- for *b-, cf. pishaa 'water' ~ Oromo bishaan).
+ *
+ *     The first draft of this note said those languages "never borrowed the
+ *     Arabic word". That is too strong, and the correction is the more
+ *     interesting fact: **the split is between the BEAN and the DRINK, and it
+ *     runs along the Red Sea coast.** Reinisch's 19th-century dictionaries are
+ *     explicit — his Blin index reads "Kafe → qahuä, Kafebone → bun" and his
+ *     Beja index "Kafe → kāhuā, Kafebone → būn". In both, bun is the bean and
+ *     the drink is on the Arabic route. Saho had the same split in Reinisch's
+ *     day ("qahwā, wofür auch bün gebraucht wird") and has since gone over to
+ *     buun for the drink. So the homeland is not uniform, and the coast leans
+ *     Arabic. Blin and Beja are left empty here rather than guessed.
+ *   other — a native coinage or a different root. Armenian սուրճ is the one
+ *     row outside the Horn that never took the Arabic word: attested since
+ *     1769, etymology unknown, with կոֆե only a Russian-route doublet.
+ *     Wolaytta tukkiya appears to be neither route, in a coffee-growing
+ *     Omotic language.
+ *
+ * Two false friends worth knowing. In Urdu, Punjabi and Pashto قہوہ qahva
+ * means GREEN TEA, not coffee, so those rows take کافی / ਕੌਫ਼ੀ / کافي;
+ * Iranian Persian قهوه does mean coffee. And Sudanese Arabic جبنة jabana
+ * (< Ge'ez ጀበና 'coffee pot') is a second Ethiopian-route word hiding inside an
+ * Arabic dialect — it names the clay-pot spiced preparation and its ritual,
+ * while قهوة is the unmarked word for coffee as substance and as any cup, so
+ * the cell is قهوة.
  *
  * Note for fillers: many languages have BOTH an everyday word and a calque
  * ("black water", "bean drink"). This concept wants the everyday one.
@@ -92,6 +116,7 @@ WORDS.coffee = {
     abv: "qahwa",
     afb: "qahwa",
     acw: "qahwa",
+    har: "bunna",
     es_pr: "qahwa",
     es_do: "qahwa",
     es_gt: "qahwa",
@@ -208,7 +233,11 @@ WORDS.coffee = {
     arq: "qahwa",
     ar_tn: "qahwa",
     ar_sd: "qahwa",
+    ti: "bunna",
     mt: "qahwa",
+    so: "bunna",
+    om: "bunna",
+    kxc: "bunna",
     xh: "qahwa",
     en_aave: "qahwa",
     en_nz: "qahwa",
@@ -275,6 +304,7 @@ WORDS.coffee = {
     ia: "qahwa",
     mk: "qahwa",
     ban: "qahwa",
+    aa: "bunna",
     ast: "qahwa",
     an: "qahwa",
     tt: "qahwa",
@@ -283,8 +313,13 @@ WORDS.coffee = {
     kw: "qahwa",
     hr: "qahwa",
     bs: "qahwa",
+    ach: "qahwa",
+    tig: "bunna",
+    ssy: "bunna",
     hak_tw: "qahwa",
     nan_qz: "qahwa",
+    wal: "other",
+    sid: "bunna",
     zh_km: "qahwa",
     nan_xm: "qahwa",
     io: "qahwa",
@@ -314,6 +349,7 @@ WORDS.coffee = {
     abv: ["قهوة", "ˈqahwa"],
     afb: ["قهوة", "ˈɡahwa"],
     acw: ["قهوة", "ˈɡahwa"],
+    har: ["bun", "bun"],
     es_pr: ["café", "kaˈfe"],
     es_do: ["café", "kaˈfe"],
     es_gt: ["café", "kaˈfe"],
@@ -430,7 +466,11 @@ WORDS.coffee = {
     arq: ["قهوة", "qahwa"],
     ar_tn: ["قهوة", "qahwa"],
     ar_sd: ["قهوة", "ˈɡahwa"],
+    ti: ["ቡን", "bun"],
     mt: ["kafè", "kaˈfɛ"],
+    so: ["bun", "bun"],
+    om: ["buna", "buna"],
+    kxc: ["punitta", "punitːa"],
     xh: ["ikofu", "iˈkoːfu"],
     en_aave: ["coffee", "ˈkɔfi"],
     en_nz: ["coffee", "ˈkɒfi"],
@@ -497,6 +537,7 @@ WORDS.coffee = {
     ia: ["caffe", "ˈkafe"],
     mk: ["кафе", "kaˈfɛ"],
     ban: ["kopi", "kopi"],
+    aa: ["buna", "buna"],
     ast: ["café", "kaˈfe"],
     an: ["café", "kaˈfe"],
     tt: ["каһвә", "qæhˈwæ"],
@@ -505,8 +546,13 @@ WORDS.coffee = {
     kw: ["koffi", "ˈkɔfi"],
     hr: ["kava", "ˈkaːʋa"],
     bs: ["kahva", "ˈkaxʋa"],
+    ach: ["kawa", "kawa"],
+    tig: ["ቡን", "bun"],
+    ssy: ["buun", "buːn"],
     hak_tw: ["咖啡", "ka˨˦ pi˨˦"],
     nan_qz: ["咖啡", "ko˧˧ pi˧˧"],
+    wal: ["tukkiya", "tukːija"],
+    sid: ["buna", "buna"],
     zh_km: ["咖啡", "kʰa˦˦ fei˦˦"],
     nan_xm: ["咖啡", "ko˥˥ pi˥˥"],
     io: ["kafeo", "kaˈfeo"],

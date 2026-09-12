@@ -847,7 +847,7 @@ WORDS.salt = {
 
     // --- Caucasian Albanian and Umbrian ------------------------------
     xag: ["el", "el"],
-    xum: ["salu", "ˈsa.lu"],
+    xum: ["salu", "ˈsalu"],
 
 
     // --- Mesoamerica and South America: pM *aʔtzʼaam, Tupi *ĵukɨr, and the Iberian sal inland ---

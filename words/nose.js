@@ -666,7 +666,7 @@ WORDS.nose = {
     nan_xm: ["鼻", "pʰĩ˨˨"],
     nan_zz: ["鼻", "pʰĩ˨˨"],
     pmy: ["idong", "idoŋ"],
-    pzh: ["muzing", "mu.ziŋ"],
+    pzh: ["muzing", "muziŋ"],
     bew: ["idung", "iduŋ"],
     ie: ["nase", "ˈnazə"],
     io: ["nazo", "ˈnazo"],

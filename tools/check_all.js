@@ -234,6 +234,14 @@ line('inline page scripts parse', num(s, /inline script blocks that do not parse
 s = run('bangjeom_notation_check.js --check');
 line('방점 notation', num(s, /instead of the ·\/: prefix: (\d+)/));
 
+// The atlas marks stress with ˈ but never writes syllable boundaries. One cell
+// the owner pointed at — gun 'drink' i.ˈnum.bo beside gun 'blood' tuɣɨ — opened
+// a class of 212 dotted cells in 68 rows, and in NOT ONE of those rows was the
+// dot the majority spelling. A dot inside a reconstruction is exempt by rule:
+// Old Chinese *C.nəʔ is a Baxter-Sagart preinitial, not a syllable break.
+s = run('ipa_syllable_dot_check.js --check');
+line('IPA syllable dots', num(s, /IPA syllable dots: (\d+)/));
+
 // meta.description translation integrity: a missing / empty / untranslated
 // (same-as-English) UI-language description, or a run of English left inside a
 // translation, ships a broken info panel. Length outliers and source-* notes

@@ -686,7 +686,7 @@ WORDS.black = {
     pt_ao: ["preto", "ˈpɾetu"],
     pt_mz: ["preto", "ˈpɾetu"],
     pt_mo: ["preto", "ˈpɾetu"],
-    pt_cv: ["preto", "ˈpɾe.tu"],
+    pt_cv: ["preto", "ˈpɾetu"],
 
     // English: the vowel is read off each row's own cat/hand, not assumed.
     en_us: ["black", "blæk"],

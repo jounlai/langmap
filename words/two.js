@@ -946,7 +946,7 @@ WORDS.two = {
       lmo: ["duu", "dy"],
       pms: ["doi", "dui"],
       mwl: ["dous", "dows"],
-      pnt: ["δύο", "ˈði.o"],
+      pnt: ["δύο", "ˈðio"],
       hno: ["دو", "d̪oː"],
       bhb: ["बे", "be"],
       cja: ["ڎوا", "ɗuə"],

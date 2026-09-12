@@ -35,6 +35,7 @@ const WORD_ORDER = [
     "we",
     "name",
     // body & feeling
+    "head",
     "eye",
     "ear",
     "nose",
@@ -77,6 +78,7 @@ const WORD_ORDER = [
     "hello",
     "thanks",
     "good",
+    "new",
     // colour
     "red",
     "white",

@@ -596,7 +596,7 @@ WORDS.tongue = {
     paus: ["*Sema", "Sema"],
     zh_song: ["舌", "ʃiɛt"],
     zh_wenyan_edu: ["舌", "siːt˨"],
-    zh_han: ["舌", "mə.lat"],
+    zh_han: ["舌", "məlat"],
     zh_tang: ["舌", "dʑiɛt"],
     ja_edo: ["舌", "ɕita"],
     ja_kanbun: ["舌", "ɕita"],

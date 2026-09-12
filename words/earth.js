@@ -944,7 +944,7 @@ WORDS.earth = {
     ssf: ["pruq", "pruq"],
     szy: ["lala'", "ɾaɾaʔ"],
     ckv: ["melanay", "məɾaˈnaj"],
-    pzh: ["daxe", "da.xəʔ"],
+    pzh: ["daxe", "daxəʔ"],
     cia: ["vuta", "βuta"],
     chk: ["pwúl", "pʷɨl"],
     woe: ["tal", "tal"],

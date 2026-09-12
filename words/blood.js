@@ -307,7 +307,7 @@ WORDS.blood = {
     sv: ["blod", "bluːd"],
     no: ["blod", "bluː"],
     da: ["blod", "ploðˀ"],
-    ro: ["sânge", "ˈsɨn.dʒe"],
+    ro: ["sânge", "ˈsɨndʒe"],
     ga: ["fuil", "fˠɪlʲ"],
     eu: ["odol", "odol"],
     cy: ["gwaed", "ɡwaɨd"],

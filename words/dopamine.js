@@ -118,7 +118,7 @@ WORDS.dopamine = {
     "azb": ["دوپامین", "dopɑˈmin"],
     "ban": ["dopamin", "dopaˈmin"],
     "be": ["дафамін", "dafaˈmʲin"],
-    "bo": ["ཌོ་པ་མིན", "to.pa.min"],
+    "bo": ["ཌོ་པ་མིན", "topamin"],
     "br": ["dopamin", "doˈpamin"],
     "bs": ["Dopamin", "dôpamiːn"],
     "ckb": ["دۆپامین", "doːpaːˈmiːn"],

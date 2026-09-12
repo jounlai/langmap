@@ -863,7 +863,7 @@ WORDS.bone = {
     hno: ["ہڈی", "həɖːiː"],
     bhb: ["हाड़कुं", "haːɖkũ"],
     cja: ["تلڠ", "talaŋ"],
-    cjm: ["ꨓꨤꩃ", "ta.laŋ"],
+    cjm: ["ꨓꨤꩃ", "talaŋ"],
     meu: ["turia", "turia"],
     pon: ["tih", "tiː"],
     kos: ["sri", "ʂi"],

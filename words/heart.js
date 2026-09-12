@@ -987,7 +987,7 @@ WORDS.heart = {
     sas: ["ate", "ate"],
     kha: ["ka jingmut", "ka dʒiŋmut"],
     mns: ["сым", "sɨm"],
-    mrw: ["pusoʔ", "pusoʔ"],
+    mrw: ["puso'", "pusoʔ"],
     tsg: ["pusuꞌ", "pusuʔ"],
     yap: ["gam", "ɡam"],
     chk: ["letip", "letip"],

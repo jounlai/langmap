@@ -134,12 +134,24 @@ for (const w of Object.keys(WORDS)) {
 // was missed. Each chain must carry every font.
 const CHAINS = ['.lang-label, .globe-label', '.wm-form', '.lang-info-panel .native-name', '.compare-table thead .native-name'];
 function chainBodies() {
-    // Grab each selector's declaration block.
+    // Grab each selector's declaration block. The selector may head a LIST —
+    // `.wm-form,\n        .compare-table .surface {` — so `sel + ' {'` alone
+    // stops finding it the moment a second selector is added to share the
+    // chain. That is not hypothetical: sharing .wm-form's chain with the
+    // compare panel (2026-09-12) made this checker report all 28 scripts as
+    // fontless, because it could no longer locate the block it was reading.
+    // Accept `sel` followed by either '{' or ',' and scan on to the brace.
     return CHAINS.map(sel => {
-        const i = html.indexOf(sel + ' {');
+        let i = -1;
+        for (const probe of [sel + ' {', sel + ',', sel + '\n']) {
+            const at = html.indexOf(probe);
+            if (at >= 0 && (i < 0 || at < i)) i = at;
+        }
         if (i < 0) return { sel, body: null };
-        const end = html.indexOf('\n        }', i);
-        return { sel, body: html.slice(i, end < 0 ? i + 4000 : end) };
+        const open = html.indexOf('{', i);
+        if (open < 0) return { sel, body: null };
+        const end = html.indexOf('\n        }', open);
+        return { sel, body: html.slice(open, end < 0 ? open + 4000 : end) };
     });
 }
 const chains = chainBodies();

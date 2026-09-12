@@ -578,7 +578,7 @@ WORDS.bone = {
     ja_heian: ["骨", "ɸone"],
     ja_chu: ["骨", "ɸone"],
     p_ryu: ["*poni", "poni"],
-    ko_mid: ["ᄲᅧ〮", "spjə"],
+    ko_mid: ["·ᄲᅧ", "spjə"],
     oko: ["—", "—"],
     h_goguryeo: ["—", "—"],
     ko_gor: ["—", "—"],

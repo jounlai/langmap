@@ -565,7 +565,7 @@ WORDS.wheel = {
     moh: ["okakwenta", "okakʷenta"],
     och: ["輪", "*[r]u[n]"],
     kaw: ["ꦕꦏꦿ", "tʃakra"],
-    ko_mid: ["바회〮", "pahoj"],
+    ko_mid: ["바·회", "pahoj"],
     zh_tang: ["輪", "liuɪn"],
     hit: ["𒄷𒌨𒆠𒅖", "ħurkiʃ"],
     uga: ["𐎀𐎔𐎐", "ʔaːpanu"],

@@ -225,6 +225,15 @@ line('meta fields with no reader', num(s, /meta fields with no reader: (\d+)/));
 s = run('page_script_syntax_check.js --check');
 line('inline page scripts parse', num(s, /inline script blocks that do not parse: (\d+)/));
 
+// One notation for the Middle Korean 방점. Three word cells wrote it as the
+// combining U+302E after the syllable where 16 others — and all 183 ko_mid
+// entries in hanmap_data.js — use the '·' / ':' prefix. That is not cosmetic:
+// font fallback runs per grapheme cluster, so 회 + U+302E had to come from
+// one font carrying both, and on iOS that was a Myeongjo while the 바 beside
+// it stayed in the body face. One word, two typefaces (owner, 2026-09-12).
+s = run('bangjeom_notation_check.js --check');
+line('방점 notation', num(s, /instead of the ·\/: prefix: (\d+)/));
+
 // meta.description translation integrity: a missing / empty / untranslated
 // (same-as-English) UI-language description, or a run of English left inside a
 // translation, ships a broken info panel. Length outliers and source-* notes

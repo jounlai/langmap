@@ -461,7 +461,7 @@ WORDS.daughter = {
     // conjoining-jamo range. Arae-a is /ʌ/ throughout this row (ᄇᆞ름 pʌɾɯm,
     // ᄒᆞ다 hʌda), and ko_em ᄯᆞᆯ is the same word.
     ko_jeju: ["ᄄᆞᆯ", "t͈ʌl"],
-    ko_mid: ["ᄯᆞᆯ〮", "stʌl"],
+    ko_mid: ["·ᄯᆞᆯ", "stʌl"],
     ko_em: ["ᄯᆞᆯ", "t͈ʌl"],
     ain: ["マッネポ", "matnepo"],
 

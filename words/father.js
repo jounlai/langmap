@@ -92,7 +92,7 @@ WORDS.father = {
       bla: ["apó", "apo"],
       hop: ["na'at", "nɑʔɑt"],
       com: ["ahpʉ", "ahpɨ"],
-      one: ["haʔnih", "haʔnih"],
+      one: ["haʼnih", "haʔnih"],
       ono: ["hak'no:ha'", "hakʔnoːhaʔ"],
       win: ["jází", "ˈdʒaːzi"],
       cro: ["appé", "appe"],

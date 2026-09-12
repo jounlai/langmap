@@ -92,7 +92,7 @@ WORDS.fire = {
       bla: ["kówa", "kowa"],
       hop: ["kukvay", "kukvɑj"],
       com: ["kohtopʉ", "kohtopɨ"],
-      one: ["onaʔ", "onaʔ"],
+      one: ["onaʼ", "onaʔ"],
       ono: ["oji:staʼ", "odʒiːstaʔ"],
       win: ["—", "—"],
       cro: ["asxé", "asχe"],

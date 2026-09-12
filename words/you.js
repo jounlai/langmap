@@ -572,7 +572,7 @@ WORDS.you = {
       yrl: ["indé", "ĩˈde"],
       chr: ["ᏂᎯ", "niˈhi"],
       cay: ["iːs", "iːs"],
-      tus: ["íːsaʔ", "iːsaʔ"],
+      tus: ["íːsaʼ", "iːsaʔ"],
       as: ["তুমি", "tumi"],
       or: ["ତୁମେ", "tume"],
       bho: ["तू", "tu"],

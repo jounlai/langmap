@@ -92,7 +92,7 @@ WORDS.hand = {
       bla: ["aksí", "aksi"],
       hop: ["maa't", "mɑːʔt"],
       com: ["mo'o", "moʔo"],
-      one: ["okaʔ", "okaʔ"],
+      one: ["okaʼ", "okaʔ"],
       ono: ["onénǫhsa'", "onenõhsaʔ"],
       win: ["—", "—"],
       cro: ["basúa", "basua"],

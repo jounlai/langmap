@@ -92,7 +92,7 @@ WORDS.one = {
       bla: ["niʼtokska", "niʔtokska"],
       hop: ["suukya'", "suːkjɑʔ"],
       com: ["sʉmʉ", "sɨmɨ"],
-      one: ["skaʔkoh", "skaʔkoh"],
+      one: ["skaʼkoh", "skaʔkoh"],
       ono: ["ska:t", "skaːt"],
       win: ["hijâkíra", "hiˈdʒɐkiɾa"],
       cro: ["asxuúa", "asχua"],

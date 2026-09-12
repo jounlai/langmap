@@ -92,7 +92,7 @@ WORDS.good = {
       bla: ["otstapé", "otstape"],
       hop: ["hopii", "hopiː"],
       com: ["tsaatʉ", "tsaːtɨ"],
-      one: ["kaʔuh", "kaʔuh"],
+      one: ["kaʼuh", "kaʔuh"],
       ono: ["oyá:nre", "ojaːnre"],
       win: ["—", "—"],
       cro: ["aleé", "ale"],

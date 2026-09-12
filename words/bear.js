@@ -1248,7 +1248,7 @@ WORDS.bear = {
     hai: ["táan", "tʰɑːn"],
     one: ["ohkwa:lí", "ohkwaːli"],
     cay: ["hnyagwái:", "hɲaɡwaːi"],
-    tus: ["uhčíhręʔ", "əhtʃihɾə̃ʔ"],
+    tus: ["uhčíhręʼ", "əhtʃihɾə̃ʔ"],
     chp: ["sas", "sas"],
     crx: ["sus", "sus"],
     koy: ["sis", "sis"],

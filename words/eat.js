@@ -92,7 +92,7 @@ WORDS.eat = {
       bla: ["íta", "ita"],
       hop: ["—", "—"],
       com: ["tʉhkarʉ", "tɨhkarɨ"],
-      one: ["ohkaʔ", "ohkaʔ"],
+      one: ["ohkaʼ", "ohkaʔ"],
       ono: ["ekho:ne'", "ekʰoːneʔ"],
       win: ["waruc", "waˈɾutʃ"],
       cro: ["bua", "bua"],

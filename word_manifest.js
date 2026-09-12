@@ -87,9 +87,12 @@ const WORD_ORDER = [
     // exists, so they are grouped last, after the full-coverage core words.
     "cuckoo",
     "woof",
+    "cockcrow",
     "computer",
     "sushi",
     "tea",
+    "coffee",
+    "sugar",
     "orange",
     "n99",
     "dopamine",

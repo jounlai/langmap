@@ -106,7 +106,7 @@ WORDS.hello = {
       en_my: ["hello", "həˈlo"],
       pt_gw: ["oi", "oj"],
       tsz: ["—", "—"],
-      nez: ["ʔehé", "ʔehe"],
+      nez: ["'ehé", "ʔehe"],
       woe: ["—", "—"],
       pmt: ["—", "—"],
       bin: ["kóyo", "kojo"],

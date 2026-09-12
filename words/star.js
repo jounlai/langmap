@@ -500,7 +500,7 @@ WORDS.star = {
       bbl: ["სედა", "seda"],
       bzg: ["botto", "botːo"],
       dru: ["tariaw", "taɾiaw"],
-      hup: ["sʼeʔ", "sʼeʔ"],
+      hup: ["sʼeʼ", "sʼeʔ"],
       kfa: ["ನಕ್ಷತ್ರ", "nakʂat̪ra"],
       kfr: ["તારો", "taːro"],
       kry: ["xed", "xed"],

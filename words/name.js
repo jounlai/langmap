@@ -500,7 +500,7 @@ WORDS.name = {
       bbl: ["ცʼე", "tsʼe"],
       bzg: ["naan", "naːn"],
       dru: ["ngadhalj", "ŋaðaɭ"],
-      hup: ["-ooziʔ", "oːzɪʔ"],
+      hup: ["-ooziʼ", "oːzɪʔ"],
       kfa: ["ಪೆದ", "peda"],
       kfr: ["નાલો", "naːlo"],
       kry: ["tʼʷar", "tʼʷar"],

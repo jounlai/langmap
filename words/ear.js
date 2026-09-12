@@ -708,7 +708,7 @@ WORDS.ear = {
     aqc: ["ой", "oy"],
     ddo: ["ахІа", "aħa"],
     emp: ["kɨuɨ'rɨ", "kɨuɨ'rɨ"],
-    guc: ["ta-čeʔe", "ta-čeʔe"],
+    guc: ["ta-čeʼe", "ta-čeʔe"],
     huz: ["аᴴгъа", "aⁿɣa"],
     jam: ["ɛɩz", "ɛɩz"],
     kca: ["pal", "pal"],

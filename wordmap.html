@@ -1643,6 +1643,47 @@
         }
         .compare-add-btn:hover { background: #e8f0fe; }
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
+        /* Custom-goods hand-off to Makoto Gadgets; see docs/custom_goods_handoff.md.
+           Refined navy pill (matches the product), used by the compare panel. */
+        .tshirt-cta-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            margin: 4px 0 10px; padding: 6px 14px;
+            font-size: 12px; font-weight: 700; text-decoration: none;
+            border: 1px solid #1b2a44; border-radius: 999px;
+            background: #1b2a44; color: #f4efe6;
+            cursor: pointer; transition: background .15s;
+        }
+        .tshirt-cta-btn:hover { background: #26385a; }
+        .tshirt-cta-btn:focus-visible { outline: 2px solid #1b2a44; outline-offset: 2px; }
+        .tshirt-cta-btn .tshirt-cta-ico { font-size: 14px; line-height: 1; }
+        /* Compact variant living in the compare panel header (flex row). */
+        .compare-tshirt { margin: 0; padding: 5px 12px; flex: 0 0 auto; white-space: nowrap; }
+        /* Low-key "make a tee of this" nudge at the bottom of the modal — a
+           friendly one-liner, not an ad. Small thumbnail + casual invite. */
+        .tshirt-nudge {
+            display: flex; align-items: center; gap: 13px;
+            margin: 16px 0 2px; padding: 11px 13px; text-decoration: none; color: inherit;
+            border: 1px solid #e6e0d5; border-radius: 10px; background: #faf7f2;
+            transition: background .15s ease, border-color .15s ease;
+        }
+        .tshirt-nudge:hover { background: #f2ebdf; border-color: #dccdb0; }
+        .tshirt-nudge:focus-visible { outline: 2px solid #b5651d; outline-offset: 2px; }
+        .tshirt-nudge-thumb { width: 88px; height: 88px; flex: 0 0 auto; border-radius: 8px; overflow: hidden; position: relative; }
+        .tshirt-nudge-track { display: flex; width: 400%; height: 100%; animation: tshirtNudgeSlide 12s infinite; }
+        .tshirt-nudge-track img { width: 25%; height: 100%; object-fit: cover; display: block; }
+        @keyframes tshirtNudgeSlide {
+            0%, 22%   { transform: translateX(0); }
+            25%, 47%  { transform: translateX(-25%); }
+            50%, 72%  { transform: translateX(-50%); }
+            75%, 100% { transform: translateX(-75%); }
+        }
+        @media (prefers-reduced-motion: reduce) { .tshirt-nudge-track { animation: none; } }
+        .tshirt-nudge-text { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+        .tshirt-nudge-title { font-size: 12.5px; font-weight: 700; color: #3a2a12; }
+        .tshirt-nudge-sub { font-size: 11px; color: #8a7f6f; }
+        /* Compare-panel nudge sits under the table, kept to a sane width. */
+        .compare-tshirt-wrap { padding: 4px 12px 14px; }
+        .compare-tshirt-wrap .tshirt-nudge { max-width: 440px; margin: 8px 0 0; }
         /* Audit Task 216: header positioning removed; button now flows inline
          * under the native-name line via standard .compare-add-btn rule. */
         /* Compare-table column headers are draggable for reorder — the
@@ -4428,6 +4469,14 @@
                 window.__ensureLangNames(uiLang).then(() => {
                     try { applyUILang(); } catch (_) {}
                     try { updateMarkers(currentWord); } catch (_) {}
+                    // Names arrived after the immediate repaint below — re-render
+                    // the open modal/compare so language names (and the T-shirt
+                    // hand-off's name= param) switch to the new UI language.
+                    try {
+                        const _p = document.getElementById('lang-info');
+                        if (_p && _p.classList.contains('visible') && _p.dataset.code) renderLangInfo(_p.dataset.code);
+                    } catch (_) {}
+                    try { if (typeof renderCompare === 'function' && (_compareList || []).length) renderCompare(); } catch (_) {}
                 });
             }
             window.dispatchEvent(new CustomEvent('langmap:uichange', { detail: { uiLang } }));
@@ -6710,6 +6759,20 @@
                 window.__langmap.uiLang = uiLang;
                 window.dispatchEvent(new CustomEvent('langmap:uichange', { detail: { uiLang } }));
                 applyUILang();
+                // Deep-link (?ui=xx) must also fetch this UI's language-name table;
+                // otherwise names (and the T-shirt hand-off's name= param) stay in
+                // the English fallback. Repaint the open modal once it lands.
+                if (window.__ensureLangNames && !(window.LANG_NAMES || {})[uiLang]) {
+                    window.__ensureLangNames(uiLang).then(() => {
+                        try { applyUILang(); } catch (_) {}
+                        try { updateMarkers(currentWord); } catch (_) {}
+                        try {
+                            const _p = document.getElementById('lang-info');
+                            if (_p && _p.classList.contains('visible') && _p.dataset.code) renderLangInfo(_p.dataset.code);
+                        } catch (_) {}
+                        try { if (typeof renderCompare === 'function' && (_compareList || []).length) renderCompare(); } catch (_) {}
+                    });
+                }
             }
             // Fetch trivia translation overlay for the resolved uiLang (initial
             // load — also retriggered when the user picks a different uiLang).
@@ -7652,6 +7715,95 @@
             return label + formNote + split + src + note + url;
         }
 
+        // === Custom-goods (T-shirt) hand-off to Makoto Gadgets ================
+        // Surfaced ONLY on the canonical production host — hidden on mirrors,
+        // staging and localhost. Generic contract in docs/custom_goods_handoff.md.
+        const TSHIRT_HOST = 'langmap.heuron.com';
+        // Surface the T-shirt UI only on the canonical production host (hidden on
+        // mirrors, staging and localhost). For local testing, temporarily return
+        // true here.
+        function tshirtEnabled() { return location.hostname === TSHIRT_HOST; }
+        // Build the Makoto deep-link. opts: { mode:'single'|'compare', codes:[],
+        // names:[], natives:[], uiLang }. Single uses codes[0]; compare sends the
+        // whole set. words= always points at the fixed, Makoto-validated prefix.
+        function buildTshirtHref(opts) {
+            const uiL = opts.uiLang || uiLang;
+            const mkLocale = ['ja'].indexOf(uiL.split('_')[0]) !== -1 ? 'ja' : 'en';
+            // Local dev: on localhost, hand off to the local Makoto dev server
+            // (:3001) and point words= at this same local origin, so the whole
+            // loop stays local. In production both go to the real hosts.
+            const _isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+            const MK_BASE = _isLocal ? 'http://localhost:3001' : 'https://makoto-gadgets.com';
+            const WORDS_DIR = (_isLocal ? location.origin : 'https://langmap.heuron.com') + '/lang_words/';
+            const u = new URL(MK_BASE + '/' + mkLocale + '/goods/langmap');
+            u.searchParams.set('src', 'langmap');
+            u.searchParams.set('map', 'wordmap');
+            u.searchParams.set('ui', uiL);
+            if (opts.mode === 'compare') {
+                u.searchParams.set('mode', 'compare');
+                u.searchParams.set('langs', opts.codes.join(','));
+                u.searchParams.set('words', WORDS_DIR);
+                u.searchParams.set('names', JSON.stringify(opts.names));
+                u.searchParams.set('natives', JSON.stringify(opts.natives));
+            } else {
+                const code = opts.codes[0];
+                u.searchParams.set('lang', code);
+                u.searchParams.set('name', opts.names[0] || code);
+                u.searchParams.set('native', opts.natives[0] || '');
+                u.searchParams.set('words', WORDS_DIR + code + '.js');
+            }
+            return u.href;
+        }
+
+        // Rotating nudge copy, tuned to five linguistics-lover personas (see
+        // docs/tshirt_copy_personas.md). One is shown per modal open, cycling
+        // so a reader browsing several languages sees the range. {lang} → name.
+        const TSHIRT_MSGS = [
+            { // #1 polyglot / general — "wear your favourite language"
+              title: { en: 'Wear your favorite language', ja: '推し言語を、着る。', ko: '최애 언어를 입다', zh: '把心爱的语言穿上身', yue: '將心水語言著上身', vi: 'Mặc ngôn ngữ bạn yêu thích', th: 'สวมภาษาที่คุณรัก', id: 'Kenakan bahasa favoritmu', hi: 'अपनी पसंदीदा भाषा पहनें', de: 'Trag deine Lieblingssprache', fr: 'Portez votre langue préférée', it: 'Indossa la tua lingua preferita', es: 'Lleva puesto tu idioma favorito', pt: 'Vista seu idioma favorito', ru: 'Носи любимый язык', uk: 'Носи улюблену мову', ar: 'ارتدِ لغتك المفضّلة', he: 'ללבוש את השפה האהובה', sw: 'Vaa lugha unayoipenda' },
+              sub:   { en: 'An original tee from {lang} words', ja: '{lang}の単語で作るオリジナルTシャツ', ko: '{lang} 단어로 만드는 나만의 티셔츠', zh: '用{lang}的单词做原创T恤', yue: '用{lang}嘅詞整原創T恤', vi: 'Áo thun original từ từ vựng {lang}', th: 'เสื้อยืดออริจินอลจากคำ{lang}', id: 'Kaus orisinal dari kata-kata {lang}', hi: '{lang} के शब्दों से बनी ओरिजिनल टी-शर्ट', de: 'Ein Original-Shirt aus {lang}-Wörtern', fr: 'Un t-shirt original avec des mots en {lang}', it: 'Una t-shirt originale con parole in {lang}', es: 'Una camiseta original con palabras en {lang}', pt: 'Uma camiseta original com palavras em {lang}', ru: 'Оригинальная футболка из слов на {lang}', uk: 'Оригінальна футболка зі слів мовою {lang}', ar: 'قميص أصلي من كلمات {lang}', he: 'חולצה מקורית ממילים ב{lang}', sw: 'Fulana ya kipekee kutoka maneno ya {lang}' } },
+            { // #2 phonology / IPA nerd
+              title: { en: 'Wear it, IPA and all', ja: '発音記号ごと、まとう。', ko: '발음기호까지, 입다', zh: '连音标一起穿上身', yue: '連音標一齊著上身', vi: 'Mặc luôn cả ký hiệu IPA', th: 'สวมมันพร้อมสัทอักษร', id: 'Pakai lengkap dengan IPA', hi: 'उच्चारण सहित पहनें', de: 'Trag es samt Lautschrift', fr: 'Portez-le, API compris', it: 'Indossalo, IPA compreso', es: 'Llévalo con AFI y todo', pt: 'Vista com AFI e tudo', ru: 'Носи вместе с транскрипцией', uk: 'Носи разом із транскрипцією', ar: 'ارتدِها مع النطق', he: 'ללבוש כולל תעתיק', sw: 'Ivae pamoja na matamshi' },
+              sub:   { en: '{lang} words with their pronunciation', ja: '{lang}の単語とIPAをデザイン', ko: '{lang} 단어와 IPA를 디자인', zh: '把{lang}的单词和音标做成设计', yue: '將{lang}嘅詞同音標整成設計', vi: 'Từ {lang} kèm cách phát âm', th: 'คำ{lang}พร้อมคำอ่าน', id: 'Kata {lang} beserta pelafalannya', hi: '{lang} के शब्द उनके उच्चारण के साथ', de: '{lang}-Wörter mit ihrer Aussprache', fr: 'Des mots en {lang} avec leur prononciation', it: 'Parole in {lang} con la pronuncia', es: 'Palabras en {lang} con su pronunciación', pt: 'Palavras em {lang} com a pronúncia', ru: 'Слова на {lang} с произношением', uk: 'Слова мовою {lang} з вимовою', ar: 'كلمات {lang} مع طريقة نطقها', he: 'מילים ב{lang} עם ההגייה', sw: 'Maneno ya {lang} na matamshi yake' } },
+            { // #3 historical / etymology romantic
+              title: { en: 'Carry the words on your back', ja: 'その言葉を、背負って歩く。', ko: '그 말들을 등에 지고', zh: '把这些词背在身上', yue: '將呢啲詞揹喺身上', vi: 'Mang những con chữ trên lưng', th: 'แบกถ้อยคำไว้บนหลัง', id: 'Bawa kata-katanya di punggung', hi: 'इन शब्दों को पीठ पर उठाएं', de: 'Trag die Wörter auf dem Rücken', fr: 'Portez les mots sur le dos', it: 'Porta le parole sulla schiena', es: 'Lleva las palabras a la espalda', pt: 'Leve as palavras nas costas', ru: 'Неси слова на спине', uk: 'Неси слова на спині', ar: 'احمل الكلمات على ظهرك', he: 'לשאת את המילים על הגב', sw: 'Beba maneno mgongoni' },
+              sub:   { en: 'A tee lined with {lang} words', ja: '{lang}の単語を並べた一着', ko: '{lang} 단어를 늘어놓은 한 벌', zh: '背后排满{lang}的单词', yue: '背脊排滿{lang}嘅詞', vi: 'Một chiếc áo xếp đầy từ {lang}', th: 'เสื้อที่เรียงคำ{lang}', id: 'Kaus berjajar kata {lang}', hi: '{lang} के शब्दों से सजी टी-शर्ट', de: 'Ein Shirt voller {lang}-Wörter', fr: 'Un t-shirt aligné de mots {lang}', it: 'Una t-shirt in fila di parole {lang}', es: 'Una camiseta llena de palabras en {lang}', pt: 'Uma camiseta repleta de palavras em {lang}', ru: 'Футболка, выстроенная из слов на {lang}', uk: 'Футболка, вишикувана зі слів мовою {lang}', ar: 'قميص مصفوف بكلمات {lang}', he: 'חולצה משובצת מילים ב{lang}', sw: 'Fulana iliyopangwa kwa maneno ya {lang}' } },
+            { // #4 fieldwork / rare-language lover
+              title: { en: 'A one-of-a-kind word tee', ja: '世界にひとつの言葉Tシャツ。', ko: '세상에 하나뿐인 단어 티셔츠', zh: '世上唯一的单词T恤', yue: '世上唯一嘅詞語T恤', vi: 'Chiếc áo chữ độc nhất', th: 'เสื้อถ้อยคำหนึ่งเดียวในโลก', id: 'Kaus kata satu-satunya', hi: 'अनोखी शब्द टी-शर्ट', de: 'Ein einzigartiges Wort-Shirt', fr: 'Un t-shirt de mots unique', it: 'Una t-shirt di parole unica', es: 'Una camiseta de palabras única', pt: 'Uma camiseta de palavras única', ru: 'Единственная в своём роде', uk: 'Єдина у своєму роді', ar: 'قميص كلمات فريد', he: 'חולצת מילים יחידה במינה', sw: 'Fulana ya maneno ya kipekee' },
+              sub:   { en: 'Your own, made from {lang} words', ja: '{lang}の単語で、自分だけの一着を', ko: '{lang} 단어로 만드는 나만의 한 벌', zh: '用{lang}的单词，做专属的一件', yue: '用{lang}嘅詞，整專屬嘅一件', vi: 'Của riêng bạn, từ các từ {lang}', th: 'ของคุณคนเดียว จากคำ{lang}', id: 'Milikmu sendiri, dari kata {lang}', hi: 'सिर्फ आपकी, {lang} के शब्दों से', de: 'Ganz deins, aus {lang}-Wörtern', fr: 'Rien qu’à vous, en mots {lang}', it: 'Solo tua, con parole {lang}', es: 'Solo tuya, con palabras en {lang}', pt: 'Só sua, com palavras em {lang}', ru: 'Только твоя — из слов на {lang}', uk: 'Тільки твоя — зі слів мовою {lang}', ar: 'خاص بك وحدك، من كلمات {lang}', he: 'רק שלך, ממילים ב{lang}', sw: 'Yako pekee, kutoka maneno ya {lang}' } },
+            { // #5 brand / casual — Makoto Gadgets
+              title: { en: 'Make a tee with Makoto Gadgets!', ja: 'Makoto GadgetsでTシャツ作ろう！', ko: 'Makoto Gadgets에서 티셔츠 만들기!', zh: '来 Makoto Gadgets 做件T恤！', yue: '嚟 Makoto Gadgets 整件T恤啦！', vi: 'Làm áo cùng Makoto Gadgets!', th: 'มาทำเสื้อกับ Makoto Gadgets!', id: 'Bikin kaus di Makoto Gadgets!', hi: 'Makoto Gadgets से टी-शर्ट बनाएं!', de: 'Mach ein Shirt mit Makoto Gadgets!', fr: 'Créez un t-shirt avec Makoto Gadgets !', it: 'Crea una t-shirt con Makoto Gadgets!', es: '¡Haz una camiseta con Makoto Gadgets!', pt: 'Faça uma camiseta com a Makoto Gadgets!', ru: 'Сделай футболку с Makoto Gadgets!', uk: 'Зроби футболку з Makoto Gadgets!', ar: 'اصنع قميصًا مع Makoto Gadgets!', he: 'עשו חולצה עם Makoto Gadgets!', sw: 'Tengeneza fulana na Makoto Gadgets!' },
+              sub:   { en: 'Design & order it in {lang}', ja: '{lang}の言葉をデザインして注文', ko: '{lang}의 단어를 디자인해 주문', zh: '把{lang}的单词设计成商品', yue: '將{lang}嘅詞設計成商品', vi: 'Thiết kế & đặt bằng {lang}', th: 'ออกแบบและสั่งด้วย{lang}', id: 'Desain & pesan dalam {lang}', hi: '{lang} में डिज़ाइन करें और ऑर्डर करें', de: 'Gestalten & bestellen auf {lang}', fr: 'Concevez et commandez en {lang}', it: 'Progetta e ordina in {lang}', es: 'Diséñala y pídela en {lang}', pt: 'Crie e peça em {lang}', ru: 'Оформи дизайн и заказ на {lang}', uk: 'Створи дизайн і замов мовою {lang}', ar: 'صمّم واطلب بـ{lang}', he: 'לעצב ולהזמין ב{lang}', sw: 'Buni na uagize kwa {lang}' } },
+        ];
+        let _tshirtMsgRot = Math.floor(Math.random() * TSHIRT_MSGS.length);
+
+        // Multi-language (compare) copy — different angle: it's about lining up
+        // several languages on one tee. {n} → count. Rotates like the single one.
+        const TSHIRT_MSGS_CMP = [
+            { title: { en: 'All on one tee', ja: '全部、一枚に。', ko: '전부 한 벌에', zh: '全部，一件搞定', yue: '全部，一件搞掂', vi: 'Tất cả trên một chiếc áo', th: 'ทั้งหมดบนเสื้อตัวเดียว', id: 'Semua dalam satu kaus', hi: 'सब एक ही टी-शर्ट पर', de: 'Alle auf einem Shirt', fr: 'Toutes sur un seul t-shirt', it: 'Tutte su una t-shirt', es: 'Todas en una camiseta', pt: 'Todas em uma camiseta', ru: 'Все на одной футболке', uk: 'Усі на одній футболці', ar: 'الكل على قميص واحد', he: 'הכול על חולצה אחת', sw: 'Zote kwenye fulana moja' },
+              sub:   { en: 'Your {n} compared languages, side by side', ja: '比べた{n}言語を並べたTシャツ', ko: '비교한 {n}개 언어를 나란히', zh: '把对比的{n}种语言排在一起', yue: '將對比嘅{n}種語言排埋一齊', vi: '{n} ngôn ngữ bạn so sánh, cạnh nhau', th: '{n} ภาษาที่เทียบไว้ เรียงเคียงกัน', id: '{n} bahasa yang kamu bandingkan, berdampingan', hi: 'आपकी तुलना की {n} भाषाएं, साथ-साथ', de: 'Deine {n} verglichenen Sprachen nebeneinander', fr: 'Vos {n} langues comparées, côte à côte', it: 'Le tue {n} lingue a confronto, affiancate', es: 'Tus {n} idiomas comparados, lado a lado', pt: 'Seus {n} idiomas comparados, lado a lado', ru: '{n} сравниваемых языков рядом', uk: '{n} порівнюваних мов поряд', ar: 'لغاتك الـ{n} المقارَنة جنبًا إلى جنب', he: '{n} השפות שהשוות, זו לצד זו', sw: 'Lugha {n} ulizolinganisha, bega kwa bega' } },
+            { title: { en: 'Wear the comparison', ja: '言葉くらべを、着る。', ko: '언어 비교를 입다', zh: '把语言对比穿上身', yue: '將語言對比著上身', vi: 'Mặc bản so sánh', th: 'สวมการเปรียบเทียบ', id: 'Kenakan perbandingannya', hi: 'तुलना को पहनें', de: 'Trag den Vergleich', fr: 'Portez la comparaison', it: 'Indossa il confronto', es: 'Lleva la comparación', pt: 'Vista a comparação', ru: 'Носи сравнение', uk: 'Носи порівняння', ar: 'ارتدِ المقارنة', he: 'ללבוש את ההשוואה', sw: 'Vaa ulinganisho' },
+              sub:   { en: '{n} languages, one design', ja: '{n}言語をひとつのデザインに', ko: '{n}개 언어를 하나의 디자인으로', zh: '{n}种语言，一个设计', yue: '{n}種語言，一個設計', vi: '{n} ngôn ngữ, một thiết kế', th: '{n} ภาษา ในดีไซน์เดียว', id: '{n} bahasa, satu desain', hi: '{n} भाषाएं, एक डिज़ाइन', de: '{n} Sprachen, ein Design', fr: '{n} langues, un seul design', it: '{n} lingue, un unico design', es: '{n} idiomas, un solo diseño', pt: '{n} idiomas, um só design', ru: '{n} языков — один дизайн', uk: '{n} мов — один дизайн', ar: '{n} لغات، تصميم واحد', he: '{n} שפות, עיצוב אחד', sw: 'Lugha {n}, muundo mmoja' } },
+            { title: { en: 'Make a polyglot tee', ja: '多言語Tシャツを作ろう。', ko: '다국어 티셔츠 만들기', zh: '做件多语言T恤', yue: '整件多語言T恤', vi: 'Làm áo đa ngôn ngữ', th: 'ทำเสื้อหลายภาษา', id: 'Bikin kaus multibahasa', hi: 'बहुभाषी टी-शर्ट बनाएं', de: 'Mach ein Polyglott-Shirt', fr: 'Créez un t-shirt polyglotte', it: 'Crea una t-shirt poliglotta', es: 'Haz una camiseta políglota', pt: 'Faça uma camiseta poliglota', ru: 'Сделай мультиязычную футболку', uk: 'Зроби багатомовну футболку', ar: 'اصنع قميصًا متعدد اللغات', he: 'עשו חולצה רב-לשונית', sw: 'Tengeneza fulana ya lugha nyingi' },
+              sub:   { en: 'An original from your {n} languages', ja: '比較中の{n}言語でオリジナルT', ko: '비교 중인 {n}개 언어로 오리지널 티셔츠', zh: '用对比中的{n}种语言做原创T恤', yue: '用對比緊嘅{n}種語言整原創T恤', vi: 'Bản original từ {n} ngôn ngữ của bạn', th: 'ออริจินอลจาก {n} ภาษาของคุณ', id: 'Orisinal dari {n} bahasamu', hi: 'आपकी {n} भाषाओं से ओरिजिनल', de: 'Ein Original aus deinen {n} Sprachen', fr: 'Un original à partir de vos {n} langues', it: 'Un originale dalle tue {n} lingue', es: 'Una original con tus {n} idiomas', pt: 'Uma original com seus {n} idiomas', ru: 'Оригинал из твоих {n} языков', uk: 'Оригінал із твоїх {n} мов', ar: 'تصميم أصلي من لغاتك الـ{n}', he: 'מקורית מ-{n} השפות שלך', sw: 'Ya kipekee kutoka lugha {n} zako' } },
+        ];
+        let _tshirtCmpRot = Math.floor(Math.random() * TSHIRT_MSGS_CMP.length);
+
+        // Shared markup for the low-key nudge (slideshow thumb + one-liner).
+        function tshirtNudgeHtml(href, title, sub) {
+            return `<a class="tshirt-nudge" href="${escapeHtml(href)}" target="_blank" rel="noopener">`
+                 + `<span class="tshirt-nudge-thumb"><span class="tshirt-nudge-track">`
+                 + `<img src="assets/tshirts/tshirt-thumb.jpg" alt="" loading="lazy">`
+                 + `<img src="assets/tshirts/tshirt-2.jpg" alt="" loading="lazy">`
+                 + `<img src="assets/tshirts/tshirt-0.jpg" alt="" loading="lazy">`
+                 + `<img src="assets/tshirts/tshirt-thumb.jpg" alt="" loading="lazy">`
+                 + `</span></span>`
+                 + `<span class="tshirt-nudge-text">`
+                 + `<span class="tshirt-nudge-title">${escapeHtml(title)}</span>`
+                 + `<span class="tshirt-nudge-sub">${escapeHtml(sub)}</span>`
+                 + `</span></a>`;
+        }
+
         function renderLangInfo(code) {
             const lang = LANG_DATA[code];
             if (!lang) return;
@@ -7676,6 +7828,11 @@
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
+            // (The custom-goods "make a T-shirt" hand-off is no longer a small
+            // button here — it's an image promo card appended at the BOTTOM of
+            // the modal, and only on the canonical production host. See the
+            // tshirtEnabled()/buildTshirtHref() helpers and the promo block just
+            // before infoContent.innerHTML.)
             // Audit Task 115: disambiguator for rows that share a display
             // or native name with another row (e.g. mn_cn/xng both show
             // ᠮᠣᠩᠭᠣᠯ; omx/mnw both show ဘာသာ မန်).
@@ -8150,6 +8307,17 @@
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#4a6cf7;text-decoration:none;font-weight:600">` +
                     `📄 デカ文字版ページ / Big-text page →</a></div>`;
             })();
+            // Low-key hand-off at the very bottom of the modal — a friendly
+            // "make a tee of this" nudge to Makoto Gadgets, not an ad. Prod host.
+            if (tshirtEnabled()) {
+                const msg = TSHIRT_MSGS[_tshirtMsgRot % TSHIRT_MSGS.length];
+                _tshirtMsgRot++;
+                const pick = o => (o[uiLang] || o[uiLang.split('_')[0]] || o.en);
+                const title = pick(msg.title);
+                const sub = pick(msg.sub).replace('{lang}', displayName);
+                const href = buildTshirtHref({ mode: 'single', codes: [code], names: [displayName], natives: [lang.native || ''], uiLang });
+                html += tshirtNudgeHtml(href, title, sub);
+            }
             infoContent.innerHTML = html;
         }
 
@@ -8743,6 +8911,33 @@
             renderCompare();
         }
 
+        // Custom-goods hand-off for the MULTI-language compare panel. Hands the
+        // whole compare set to Makoto (mode=compare), which fetches each
+        // language's word file and drives the polyglot-shirt design. Generic
+        // contract documented in docs/custom_goods_handoff.md.
+        // Build the compare-panel's T-shirt nudge (same style as the modal's,
+        // multi-language copy). Returns '' when it shouldn't show. Production
+        // host only, and needs 2+ languages (below that the modal covers it).
+        function compareTshirtNudgeHtml() {
+            const codes = (_compareList || []).filter(c => LANG_DATA[c]);
+            if (!tshirtEnabled() || codes.length < 2) return '';
+            const names = (typeof LANG_NAMES !== 'undefined' && LANG_NAMES[uiLang]) || (typeof LANG_NAMES !== 'undefined' && LANG_NAMES.en) || {};
+            const msg = TSHIRT_MSGS_CMP[_tshirtCmpRot % TSHIRT_MSGS_CMP.length];
+            _tshirtCmpRot++;
+            const pick = o => (o[uiLang] || o[uiLang.split('_')[0]] || o.en);
+            const n = String(codes.length);
+            const title = pick(msg.title).replace('{n}', n);
+            const sub = pick(msg.sub).replace('{n}', n);
+            const href = buildTshirtHref({
+                mode: 'compare',
+                codes,
+                names: codes.map(c => names[c] || (LANG_DATA[c] && LANG_DATA[c].name) || c),
+                natives: codes.map(c => (LANG_DATA[c] && LANG_DATA[c].native) || ''),
+                uiLang,
+            });
+            return '<div class="compare-tshirt-wrap">' + tshirtNudgeHtml(href, title, sub) + '</div>';
+        }
+
         function renderCompare() {
             // Same shape as showLangInfo: the table is every concept for the
             // handful of languages in the compare list (COMPARE_MAX of them),
@@ -8802,6 +8997,7 @@
             }
             html += '</tr>';
             html += '</tbody></table>';
+            html += compareTshirtNudgeHtml();
             body.innerHTML = html;
             // Wire interactions
             body.querySelectorAll('.remove-col').forEach(btn => {

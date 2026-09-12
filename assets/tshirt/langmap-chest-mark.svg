@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 96" role="img"
+     aria-label="世界言語マップ / LangMap">
+  <!-- Front chest mark for LangMap custom T-shirts.
+       Single-colour (currentColor). Set `color` on the parent, or replace
+       #1b2a44 below, to match the garment: dark ink on light shirts,
+       white ink on dark shirts. Keep the whole mark ~60mm wide when printed. -->
+  <g fill="none" stroke="#1b2a44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="48" cy="48" r="34"/>
+    <path d="M14 48h68"/>
+    <path d="M48 14a52 52 0 0 1 14 34 52 52 0 0 1-14 34 52 52 0 0 1-14-34 52 52 0 0 1 14-34z"/>
+    <path d="M20 30h56M20 66h56"/>
+  </g>
+  <g fill="#1b2a44">
+    <text x="104" y="44" font-family="'Yu Gothic','Hiragino Sans','Noto Sans JP',sans-serif"
+          font-size="26" font-weight="700" letter-spacing="1">世界言語マップ</text>
+    <text x="104" y="78" font-family="'Inter','Helvetica Neue',Arial,sans-serif"
+          font-size="30" font-weight="800" letter-spacing="0.5">LangMap</text>
+  </g>
+</svg>

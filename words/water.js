@@ -92,7 +92,7 @@ WORDS.water = {
       bla: ["aohkíí", "aoxkiː"],
       hop: ["paahu", "paɑhu"],
       com: ["paa", "paː"],
-      one: ["otiʔkwah", "otiʔkwah"],
+      one: ["otiʼkwah", "otiʔkwah"],
       ono: ["ohnekano:s", "ohnekanoːs"],
       win: ["nina", "ˈninə"],
       cro: ["baxúa", "baχua"],

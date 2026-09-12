@@ -79,7 +79,7 @@ WORDS.snow = {
     bla: ["kóónssko", "koːnsːko"],
     hop: ["nuva", "nuva"],
     com: ["tahkabi", "tahkabi"],
-    one: ["onyʌ́hteʔ", "onjʌhteʔ"],
+    one: ["onyʌ́hteʼ", "onjʌhteʔ"],
     ono: ["ó'gʌ:'", "oʔɡʌːʔ"],
     win: ["waa", "waː"],
     cro: ["bíia", "biːa"],

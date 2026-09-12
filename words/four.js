@@ -779,7 +779,7 @@ WORDS.four = {
     mic: ["new", "new"],
     ekp: ["bɨnọ", "ɓɨnɔ"],
     hno: ["چار", "tʃaːr"],
-    tus: ["hę́ʔtahk", "hɛ̃ʔtahk"],
+    tus: ["hę́ʼtahk", "hɛ̃ʔtahk"],
     ame: ["paʼtats", "paʔtats"],
     byn: ["ሰጃ", "sədʒa"],
     ksb: ["kane", "kaːne"],

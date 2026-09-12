@@ -92,7 +92,7 @@ WORDS.drink = {
       bla: ["oknáhsim", "oknahsim"],
       hop: ["—", "—"],
       com: ["hibi", "hibi"],
-      one: ["ohwisaʔ", "ohwisaʔ"],
+      one: ["ohwisaʼ", "ohwisaʔ"],
       ono: ["ehnega:i'ron", "ehneɡaːiʔron"],
       win: ["—", "—"],
       cro: ["—", "—"],

@@ -574,7 +574,7 @@ WORDS.cat = {
     gn: ["mbarakaja", "mbaɾakadʒa"],
     yrl: ["mariwa", "maɾiwa"],
     chr: ["ᏪᏌ", "wesa"],
-    cay: ["ditshokwáʔ", "ditʃokwaʔ"],
+    cay: ["ditshokwáʼ", "ditʃokwaʔ"],
     tus: ["takʼo:s", "takʔoːs"],
     as: ["মেকুৰী", "mekuɹi"],
     or: ["ବିଲେଇ", "bilei"],

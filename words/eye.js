@@ -92,7 +92,7 @@ WORDS.eye = {
       bla: ["istó", "isto"],
       hop: ["poosi", "poːsi"],
       com: ["puui", "puːi"],
-      one: ["oʔloh", "oʔloh"],
+      one: ["oʼloh", "oʔloh"],
       ono: ["oga:tha'", "oɡaːtʰaʔ"],
       win: ["—", "—"],
       cro: ["isúua", "isua"],

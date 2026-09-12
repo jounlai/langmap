@@ -990,7 +990,7 @@ WORDS.earth = {
     kjg: ["pteʔ", "pteʔ"],
     kdt: ["ktɛːʔ", "ktɛːʔ"],
     moh: ["ohóntsa", "ohũtsaʔ"],
-    one: ["ohwʌ́tsyaʔ", "ohwʌtsjaʔ"],
+    one: ["ohwʌ́tsyaʼ", "ohwʌtsjaʔ"],
     cay: ["ohéhdaʼ", "ohehdaʔ"],
     mic: ["maqamikew", "maxamiɡew"],
     pqm: ["ktahkomiq", "ktahkomikʷ"],

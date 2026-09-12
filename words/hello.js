@@ -117,7 +117,7 @@ WORDS.hello = {
       trn: ["pejamikpo", "pehamiho"],
       ake: ["kapon", "ka.pon"],
       aoc: ["apî", "api"],
-      gun: ["mba'éichapa", "m.ba.ˈe.i.ʃa.pa"],
+      gun: ["mba'éichapa", "mba.ˈʔe.i.ʃa.pa"],
       zdj: ["Jeje / Bariza", "dʒedʒe / baːriza"],
       ayl: ["أهلا", "ʔəhlæ"],
       abv: ["مرحبا / السلام عليكم", "mɑrħɑbæ / əs.sæːlɑːm ʕæ.læj.kəm"],

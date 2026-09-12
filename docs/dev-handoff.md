@@ -2168,5 +2168,113 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     plus `'Nom Serif Subset'` in the `.node.leaf .native` chain. `namemap.html` and `poster.html`
     render `native` but never load `wordmap_data.js`, so they never see this row.
 
+87. **`head` and `new` added (67 -> 69 concepts), ~450 cells each, five review rounds.** Owner:
+    「追加しよう！別のスレッド作業中なので、ワークツリーで、マルチスレッドで加速化」then
+    「スレッドは３本に限定してね。多すぎると落ちるから」and
+    「誤りのない言葉の生成、５回のレビューラリー（ドキュメント生成も）しっかりお願いね」.
+
+    Done on branch `feat/words-head-new` in the worktree `/home/jounlai/langmap-words`, so the
+    main worktree stayed free for the other thread.
+
+    **The pipeline, for the next word.** `~/langmap-work/align.js` was extended: `HEAD`/`NEW`
+    added to its `G2W` gloss map, `lb2/` added to the dataset scan, and `ROOT` made overridable
+    with `LANGMAP_ROOT` so it can read a worktree. It scores every CLDF doculect by how many of
+    a row's already-filled cells it reproduces, then emits the gaps it can fill — 230 rows, 450
+    candidate cells for these two words. `worksheet.js` turns that into per-row briefs.
+
+    **`align.js` cannot see the major languages, and that is structural.** It matches doculects
+    on ISO 639-3 and the atlas writes its biggest rows with two-letter codes — `en` against
+    `eng`. English, German, Russian, Chinese, Japanese, Arabic and every regional variant were
+    invisible to it. Those are the rows readers actually look up. I generated a second set of
+    worksheets for the 228 rows with >=62 filled cells and gave them to agents with no candidate
+    forms at all, to source from dictionaries. **Fix align.js's ISO matching before the next
+    word** — this is a 20-line change and it would have saved three agents.
+
+    **Agents write patches, never the files.** Nine fillers on two files is a merge conflict.
+    Each wrote `~/langmap-work/patch_*.json` as `{cells: {code: {word: [surface, ipa]}}, notes,
+    uncertain}`, and `~/langmap-work/apply_patches.js` merges them: validates the language code
+    exists and that every value is a two-element pair with both halves non-empty, reports when
+    two patches disagree about one cell (first writer kept, conflict printed), and normalises
+    the IPA on the way in. That last part earned its keep — two slices ran before the
+    syllable-dot rule reached their brief.
+
+    **Concurrency.** Owner capped it at three. Keep to that; nine at once was what prompted the
+    cap. The wave pattern — launch three, replace each as it finishes — worked well.
+
+    **Write the definitions before anyone fills a cell.** This is the single most load-bearing
+    decision of the batch. `words/<id>.js`'s `definition` block in 23 languages is the contract
+    every filler and every reviewer reads, and each line must name what the word is NOT. For
+    `new` that is the whole problem: Concepticon glosses NEW over both the new-thing and the
+    young-person senses, and a great many languages split them. The fillers rejected roughly one
+    candidate in six on those grounds, and the review round built to catch the young/new
+    confusion found **exactly one** survivor across 900 cells.
+
+88. **Five review rounds, one question each — and the separation is what made them work.**
+    `wordmap_reviews/review_519..523_closed.md`. 519 gloss fidelity, 520 row conventions, 521
+    source reality, 522 cross-family coherence, 523 the metadata blocks.
+
+    - **519's fix became 520's finding.** `zu` new went `omusha` -> `entsha` in 519 (class 1 is
+      the person class: *umuntu omusha* is 'a young person'), written `enˈtʃʰa`. 520 caught that
+      the row marks stress on the penult without exception. 522 then moved it a third time to
+      the bare stem `sha`, because `xh` cites `tsha` and the two were citing at different levels.
+      One cell, three rounds, three unrelated objections.
+    - **522 found the most real errors, and none of them is visible from inside a row.** `akb`
+      new was the Indonesian `baru` where every Batak source has `imbaru`; `nyo` had its
+      neighbour's word (Runyakitara splits `-hyaka` / `-sya` and Nyoro was on the wrong side);
+      `kjj` head was Azerbaijani `баш`, taken from an IDS cell that lists three candidates;
+      `ppl` head was the reflex that narrowed to 'skull'. Run this round on every future word.
+    - **523 found more than any data round.** Three factual errors in etymology paragraphs I had
+      written myself, one of which had propagated into `definition.ar` and was instructing
+      Arabic contributors to avoid the concept's own Semitic cognate. **The part nobody else is
+      going to check is the part written most confidently.**
+    - **521 found zero invented words** and 14 constructed *spellings* — the lexeme real, the
+      string converted from a romanisation rather than copied. Also one cell dropped for a bad
+      reason (`orh` new, rejected for want of a second source that ASJP has). A cell wrongly
+      emptied is as much a defect as a cell wrongly filled, and harder to see, because an empty
+      cell looks like diligence.
+
+    **Reviews kept finding that the NEW cell was right and an OLD one beside it was wrong:** `te`
+    wrote Telugu త as both t̪ and t (five existing cells normalised), `pms` egg was missing the
+    [w] that Piedmontese final v becomes, `hsb` had Polish spellings, `smn` head carried a
+    NorthEuraLex export apostrophe its own IPA already ignored.
+
+89. **Open after this batch.**
+
+    - **`khq` new is the one cell still empty.** ASJP's `tawo` is real but ASJP records no vowel
+      length, and that row writes Heath's long vowels throughout (nuune, laabu, boori), so
+      `tawo` and `taawo` cannot be told apart. **Heath 1998, *Dictionnaire songhay-anglais-
+      français, tome I: Koyra chiini*** would settle it.
+    - **The 21 proto-language rows have no `head` or `new` cells at all.** The etymology
+      paragraphs name \*baš, \*yaŋɨ, \*päŋe, \*wuδe, \*qulu, \*baqəRu — so the map currently says
+      less than its own prose.
+    - **Rows that need one orthography decision each**, flagged by 520 with no mechanical fix
+      offered: `bs`/`hr` (split between ˈ and Serbo-Croatian tone diacritics — `bs`'s two new
+      cells disagree with *each other* across the split), `fud` (two glottal marks), `rar`
+      (three), `tsg` (4:4 between U+A78C and ASCII apostrophe), `ta` (final ஐ four ways), `kca`
+      (5:4 x vs χ), `kac` (a third of the row untoned), `lij_t` (circumflex on the wrong vowel,
+      and the row's existing `feûgu` was the model), `wba` (7 h- vs 4 j-), `lic` (ASCII g in IPA,
+      row-wide).
+    - **`zh_cq` head** is 头 where Chengdu and Kunming have 脑壳, and its IPA is
+      character-for-character Liu 2007's *Chengdu* entry. **`zh_xa` new** has a velar rime for a
+      深臻 syllable in a dialect that keeps the distinction (row-wide: 心 too).
+    - **Single-source cells**, recorded not as defects but so a second witness can retire them:
+      `acn` head, `tkr` head, `nyo` new, `ebu` new, `plg`/`tob` head, `mkz`/`emi`/`vls`/`mbc`/
+      `kgg`/`tsj`/`khq` head, `bdk` new, `ivv` both, `dru`/`crt` new.
+    - **`pjt` new `nyuwana`** rests on Bowern 2012 alone and does look like English "new one".
+      Kept because the alternative, ASJP's `kuwaritja`, is transparently 'of now'. Goddard's
+      dictionary would settle it.
+
+90. **IPA syllable dots: 212 cells across 68 rows, removed; new guard.** Owner pointed at one
+    cell — `gun` drink `i.ˈnum.bo` beside `gun` blood `tuɣɨ`. The decisive number was that **no
+    row used the dot as its own majority spelling**: it was a minority habit everywhere it
+    appeared, which makes it a defect rather than a house style. `tools/ipa_syllable_dot_check.js`
+    gates it at 0. One exemption, by rule: a dot inside a reconstruction is structural — Old
+    Chinese Baxter-Sagart preinitials, `*C.nəʔ` 耳, `*k.rˤorʔ` 卵. Spaces are untouched (`yue`
+    moon is `jyːt˨ kʷɔːŋ˥`, two words).
+
+    **Two passes were needed**, which is the three-quote-format trap again: the first regex only
+    matched `["surface", "ipa"]` and left 38 cells written `['surface', 'ipa']` — including every
+    `pzh`, `zh_cq` and `zh_jn` cell in the class.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

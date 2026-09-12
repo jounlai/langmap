@@ -7698,10 +7698,10 @@
         // Surfaced ONLY on the canonical production host — hidden on mirrors,
         // staging and localhost. Generic contract in docs/custom_goods_handoff.md.
         const TSHIRT_HOST = 'langmap.heuron.com';
-        // TEMP: host gate disabled for local testing — shows the T-shirt UI on
-        // every host. Restore `return location.hostname === TSHIRT_HOST;` to
-        // limit it to the production host again.
-        function tshirtEnabled() { return true; }
+        // Surface the T-shirt UI only on the canonical production host (hidden on
+        // mirrors, staging and localhost). For local testing, temporarily return
+        // true here.
+        function tshirtEnabled() { return location.hostname === TSHIRT_HOST; }
         // Build the Makoto deep-link. opts: { mode:'single'|'compare', codes:[],
         // names:[], natives:[], uiLang }. Single uses codes[0]; compare sends the
         // whole set. words= always points at the fixed, Makoto-validated prefix.

@@ -94,6 +94,15 @@ for (const h of hits) {
 const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 
 // ---- ratchet ----
+// 2026-09-13: accepts ko 새 = bird + new. Korean really does have two 새. The
+// noun 새 'bird' is native (Middle Korean 새), and the adnominal 새 'new' is a
+// separate 관형사 that only ever modifies a following noun — 새 집 'a new
+// house'. They are homophones, not one word. The agent chose 새 over 새롭다
+// deliberately: 새롭다 is 'novel, fresh', which this concept's definition
+// excludes. Four more collisions arrived the same day from Sinitic rows where
+// 新 matches 心 'heart' (zh, zh_tw, zh_db, zh_cq, wuu) and, in the rows with a
+// completed -in/-ing merger, 星 'star' as well (zh_xa, wuu, zh_cq) — all
+// genuine, and already covered by the lock's earlier Sinitic entries.
 // 2026-09-13: accepts mns пуӈк = head + tooth, and the agent that raised it had
 // the opposite theory. It reported that Mansi 'tooth' should be пуньк /puɲk/
 // with a palatal ń and that the EXISTING tooth cell therefore looked wrong.

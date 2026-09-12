@@ -325,7 +325,7 @@ WORDS.white = {
     gu: ["સફેદ", "səpʰeːd"],
     si: ["සුදු", "sudu"],
     dv: ["ހުދު", "hudu"],
-    te: ["తెలుపు", "telupu"],
+    te: ["తెలుపు", "t̪elupu"],
     kn: ["ಬಿಳಿ", "biɭi"],
     ml: ["വെളുപ്പ്", "ʋeɭuppɨ"],
     tg: ["сафед", "safed"],

@@ -82,7 +82,7 @@ WORDS.four = {
     xto: ["𑀰𑁆𑀢𑁆𑀯𑀭𑁆", "ɕtwar"],
     p_toc: ["*ćätwerä", "tɕətwerə"],   // Wiktionary PT (Adams 2013); A śtwar, B śtwer
     la: ["quattuor", "ˈkʷattuor"],
-    el_grc: ["τέσσαρες", "tés.sa.res"],
+    el_grc: ["τέσσαρες", "téssares"],
     el_kath: ["τέσσαρες", "ˈtesares"],
     el: ["τέσσερα", "ˈtesera"],
     cy: ["pedwar", "ˈpɛdwar"],
@@ -238,7 +238,7 @@ WORDS.four = {
     pt_ao: ["quatro", "ˈkwatɾu"],
     pt_mz: ["quatro", "ˈkwatɾu"],
     pt_mo: ["quatro", "ˈkwatɾu"],
-    pt_cv: ["quatro", "ˈkwa.tɾu"],
+    pt_cv: ["quatro", "ˈkwatɾu"],
 
     // Maghrebi drops the ʔa- prefix its eastern siblings keep.
     ar_sy: ["أربعة", "ˈʔarbaʕa"],

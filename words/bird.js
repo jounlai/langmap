@@ -745,7 +745,7 @@ WORDS.bird = {
     tpn: ["gûyrá", "ɡʷɨˈɾa"],
     uln: ["Vogel", "ˈfoːɡl̩"],
     wuu_hz: ["鸟", "ɲiɔ˥˧"],
-    xum: ["auif", "ˈa.wif"],
+    xum: ["auif", "ˈawif"],
     yue_dg: ["鸟", "niu˧˥"],
     yue_nn: ["鸟", "niu˨˦"],
     zh_cq: ["鸟", "niau˦˨"],
@@ -834,7 +834,7 @@ WORDS.bird = {
     yap: ["qarcheaq", "ʔartʃəʔ"],
     // Formosan keeps *qayam, the stem Malayo-Polynesian lost
     pyu: ["ayam", "ajam"],
-    pzh: ["ayam", "a.jam"],
+    pzh: ["ayam", "ajam"],
     pwn: ["qayaqayam", "qajaqajam"],
     ckv: ["alam", "aˈɬam"],
     ssf: ["rumfaz", "ɾumfað"],

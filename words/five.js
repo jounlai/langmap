@@ -433,7 +433,7 @@ WORDS.five = {
     sc: ["chimbe", "ˈkimbe"],
     iu: ["ᑕᓪᓕᒪᑦ", "tallimat"],
     la: ["quinque", "kʷiːnkʷe"],
-    el_grc: ["πέντε", "pén.te"],
+    el_grc: ["πέντε", "pénte"],
     el_kath: ["πέντε", "pende"],
     egy: ["𓏾", "ˈdiːjaw"],
     enm: ["fyve", "fiːvə"],

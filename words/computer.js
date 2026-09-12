@@ -485,14 +485,14 @@ WORDS.computer = {
     es_py: ["computadora", "komputaˈðoɾa"],
     es_pa: ["computadora", "komputaˈðoɾa"],
 
-    fr_lu: ["ordinateur", "ɔʁ.di.na.tœʁ"],
-    fr_cm: ["ordinateur", "ɔʁ.di.na.tœʁ"],
+    fr_lu: ["ordinateur", "ɔʁdinatœʁ"],
+    fr_cm: ["ordinateur", "ɔʁdinatœʁ"],
 
     pt_mo: ["computador", "kõputɐˈdoɾ"],
 
-    ar_ma: ["حاسوب", "ħaː.suːb"],
-    ar_tn: ["حاسوب", "ħaː.suːb"],
-    arq: ["حاسوب", "ħaː.suːb"],
+    ar_ma: ["حاسوب", "ħaːsuːb"],
+    ar_tn: ["حاسوب", "ħaːsuːb"],
+    arq: ["حاسوب", "ħaːsuːb"],
 
     en_scouse: ["computer", "kəmˈpjuːtə"],
     en_geordie: ["computer", "kəmˈpjuːtə"],

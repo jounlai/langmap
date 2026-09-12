@@ -950,7 +950,7 @@ WORDS.i = {
       hno: ["میں", "mɛ̃ː"],
       bhb: ["हूं", "hũ"],
       cja: ["كاو", "kɔw"],
-      cjm: ["ꨕꨨꨵꩀ", "ɗah.laʔ"],
+      cjm: ["ꨕꨨꨵꩀ", "ɗahlaʔ"],
       meu: ["lau", "lau"],
       pon: ["ngehi", "ŋɛhi"],
       kos: ["nga", "ŋa"],

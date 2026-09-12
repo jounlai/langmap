@@ -949,7 +949,7 @@ WORDS.mother = {
     hno: ["ماں", "mãː"],
     bhb: ["माय", "maːj"],
     cja: ["ماي", "mai"],
-    cjm: ["ꨀꨟꨰꩀ", "a.meʔ"],
+    cjm: ["ꨀꨟꨰꩀ", "ameʔ"],
     meu: ["sinana", "sinana"],
     pon: ["nohno", "nohno"],
     kos: ["nina", "nina"],

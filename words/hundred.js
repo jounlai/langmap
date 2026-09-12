@@ -101,7 +101,7 @@ WORDS.hundred = {
     ave: ["𐬯𐬀𐬙𐬆𐬨", "satəm"],            // satəm, the label for the /s/ side
     txb: ["𑀓𑀦𑁆𑀢𑁂", "kante"],            // centum at the far east — the counterexample
     xto: ["𑀓𑀦𑁆𑀢𑁆", "kænt"],
-    el_grc: ["ἑκατόν", "he.ka.tón"],
+    el_grc: ["ἑκατόν", "hekatón"],
     el_kath: ["ἑκατόν", "ekaˈton"],
     el: ["εκατό", "ekaˈto"],
     sga: ["cét", "kʲeːd"],

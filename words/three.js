@@ -592,7 +592,7 @@ WORDS.three = {
     paus: ["*telu", "telu"],
     zh_song: ["三", "sam˩˧"],
     zh_wenyan_edu: ["三", "saːm˥"],
-    zh_han: ["三", "s.rum"],
+    zh_han: ["三", "srum"],
     zh_tang: ["三", "sam"],
     ja_edo: ["三", "saɴ"],
     ja_kanbun: ["三", "mitsu"],

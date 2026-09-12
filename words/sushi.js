@@ -309,7 +309,7 @@ WORDS.sushi = {
     "pt_ao": ["sushi", "ˈsuʃi"],
     "pt_br": ["sushi", "suˈʃi"],
     "pt_cv": ["sushi", "ˈsuʃi"],
-    pt: ["sushi", "ˈsu.ʃi"],
+    pt: ["sushi", "ˈsuʃi"],
     "pt_mz": ["sushi", "ˈsuʃi"],
     "rgn": ["sushi", "ˈsuʃi"],
     "rm": ["sushi", "ˈsuʃi"],
@@ -430,12 +430,12 @@ WORDS.sushi = {
     es_py: ["sushi", "ˈsusi"],
     es_pa: ["sushi", "ˈsusi"],
 
-    fr_lu: ["sushi", "su.ʃi"],
-    fr_cm: ["sushi", "su.ʃi"],
+    fr_lu: ["sushi", "suʃi"],
+    fr_cm: ["sushi", "suʃi"],
 
-    pt_mo: ["sushi", "ˈsu.ʃi"],
+    pt_mo: ["sushi", "ˈsuʃi"],
 
-    ayl: ["سوشي", "suː.ʃiː"],
+    ayl: ["سوشي", "suːʃiː"],
 
     en_scouse: ["sushi", "ˈsuːʃi"],
     en_geordie: ["sushi", "ˈsuːʃi"],

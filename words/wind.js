@@ -357,7 +357,7 @@ WORDS.wind = {
     ay: ["thaya", "ˈtʰaja"],
     gn: ["yvytu", "ɨvɨˈtu"],
     nci: ["ehecatl", "eˈhekatɬ"],
-    jbo: ["brife", "ˈbri.fe"],
+    jbo: ["brife", "ˈbrife"],
     tlh: ["SuS", "ʂuʂ"],
     tok: ["kon", "kon"],
     hy: ["քամի", "kʰɑˈmi"],

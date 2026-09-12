@@ -797,7 +797,7 @@ WORDS.snow = {
     kho: ["𑀩𑀅𑀼𑀭", "baura"], // Bailey, Dictionary of Khotan Saka 305-306
     txg: ["𗎆", "ʔwji˧"], // Li Fanwen 4091
     ckv: ["suRna", "suʁna"], // PAn *SuReNa; verb s<m>uRna to snow
-    pzh: ["hahela", "ha.he.la"],
+    pzh: ["hahela", "hahela"],
     lhm: ["ཁ་བ", "kʰawa"],
     lis: ["wa", "wɑ˧˩"], // Fraser 1922 — distinct from frost ni and ice ni hpya
     nxq: ["bbei", "be˧"],

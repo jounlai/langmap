@@ -950,7 +950,7 @@ WORDS.name = {
       hno: ["ناں", "nãː"],
       bhb: ["नाम", "naːm"],
       cja: ["أڠن", "aŋan"],
-      cjm: ["ꨀꨋꩆ", "a.ŋan"],
+      cjm: ["ꨀꨋꩆ", "aŋan"],
       meu: ["ladana", "ladana"],
       pon: ["ede", "ɛdɛ"],
       kos: ["ine", "ine"],

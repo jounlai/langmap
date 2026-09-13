@@ -738,10 +738,10 @@ WORDS.red = {
     wbp: ["yalyu-yalyu", "jaʎujaʎu"],
     piu: ["yulpa", "julpa"],
     aer: ["arrempele", "aɻempele"],
-    nha: ["marniwidi", "maɳiwiɖi"],
+    nha: ["marniwidi", "maɳiwidi"],
     olk: ["mangkarr", "maŋkaɻ"],
     adt: ["yalhthaji", "jaɭt̪aɟi"],
-    nys: ["yurnin", "juɳin"],
+    nys: ["mirda", "miɖa"],  // Whitehurst 1992 "mirda | red ochre"; the CurtinX glossary and the Noongar learner's guide agree. yurnin is in none of four Noongar sources.
     xul: ["dhiram-dhiram", "d̪iɾamd̪iɾam"],
     wbt: ["martarr", "maʈaɻ"],
     mni: ["ꯑꯉꯥꯡꯕ", "aŋaːŋba"],
@@ -997,7 +997,7 @@ WORDS.red = {
     sad: ["tsʼalakʼa", "tsʼalakʼa"],
     pcc: ["ndeengz", "ndɛŋ˨˦"],
     ium: ["siqv", "si˥˥"],
-    hui: ["taramapi", "taɾamapi"],
+    hui: ["daramabi", "daɾamabi"],  // Lomas 1988 Appendix D: "darama | blood", "daramabi | red", consecutive. The row already spells this root darama in its blood cell.
     tkl: ["kūkula", "kuːkula"],
     squ: ["kʷəlqʷ", "kʷəlqʷ"],
     mga: ["derg", "dʲerɡ"],
@@ -1006,7 +1006,7 @@ WORDS.red = {
     hy_grab: ["կարմիր", "kaɾmiɾ"],
     mpt: ["ilem", "ilem"],
     ygr: ["gola'", "ɡolaʔ"],
-    roo: ["kakaea", "kakaea"],
+    roo: ["revasia", "ɾeβasia"],  // Firchow 1973 and 2008 both: "revasia adj. red color". The cell held kakaea; kakae is 'small, little' and kakaea is in neither book.
     quz: ["puka", "puka"],
     quy: ["puka", "puka"],
     shp: ["joshin", "hoʃin"],
@@ -1153,7 +1153,7 @@ WORDS.red = {
     cms: ["—", "—"],
     xht: ["—", "—"],
     txr: ["—", "—"],
-    aau: ["o", "o"],
+    aau: ["oupuey", "oupuej"],  // SIL Abau Dictionary (Lock 2020): "oupuey ADJ red". The cell held o, which that dictionary lists only as a negator, a conjunction and an emphasis marker.
     ani: ["гьири", "ɦiri"],
     bdk: ["ал", "al"],
     sdo: ["mirah", "miɾah"],
@@ -1171,7 +1171,7 @@ WORDS.red = {
     lhm: ["དམར་པོ", "mar˥pu˩"],
     lij_t: ["rossu", "ˈrusu"],
     mcf: ["ushcada", "uʃkada"],
-    mkz: ["mimiri", "mimiri"],
+    mkz: ["imiri", "imiri"],  // ABVD 462 Makasae (Sarmento): "149 red imiri" — the same list that supplied this row's white cell.
     mpj: ["miji-miji", "miɟimiɟi"],
     oar: ["סמק", "summaːq"],
     pao: ["angi", "aŋi"],

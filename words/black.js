@@ -75,6 +75,7 @@ WORDS.black = {
     sw: "Nyeusi — rangi iliyo giza zaidi, rangi ya mkaa au usiku usio na mwezi; neno la msingi la rangi, si jina la rangi ya ngozi.",
   },
   data: {
+    mkz: ["metana", "metana"],  // ABVD 462 Makasae (Sarmento): "147 black metana" — the same wordlist that settles this row's red and white.
     // --- UI languages -------------------------------------------------
     en: ["black", "blæk"],
     ja: ["黒い", "kɯɾoi"],

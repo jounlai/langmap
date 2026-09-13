@@ -1069,7 +1069,7 @@ WORDS.sun = {
     gqu: ["—", "—"],
     shx: ["lɔk22 kɔ44", "lɔk˨˨ kɔ˦˦"],
     ium: ["hnoi", "hnoi˧"],
-    hui: ["nogo", "noɡo"],
+    hui: ["ni", "ni"],  // Lomas 1988 Appendix D: "ni | sun". The cell held nogo, which the same glossary lists as 'pig'.
     tkl: ["la", "la"],
     squ: ["snexwílh", "snexʷiɬ"],
     mga: ["grían", "ɡrian"],

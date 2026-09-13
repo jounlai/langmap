@@ -669,9 +669,9 @@ WORDS.white = {
     wbp: ["kardirri", "kaɖiɾi"],
     piu: ["piranpa", "piɾanpa"],
     aer: ["mperlkere", "mpeɭkeɾe"],
-    nha: ["wiliri", "wiliɻi"],
+    nha: ["wilidi", "wilidi"],  // CHIRILA, Nhanda rows keyed to Blevins: wilidi 'white'. wiliri is in CHIRILA but in Payungu/Thalanyji/Jiwarli, meaning 'wide' — cross-language contamination.
     adt: ["upanha", "upan̪a"],
-    nys: ["tel", "tel"],
+    nys: ["djardak", "dʒaɖak"],  // Whitehurst 1992, the CurtinX CAS1x glossary, the Noongar learner's guide and mayakeniny all give djardak/djaadak. The cell held tel, which is in none of them.
     xul: ["daguru-gurag", "daɡuɾuɡuɾaɡ"],
     wbt: ["mirtamirta", "miʈamiʈa"],
     mni: ["ꯑꯉꯧꯕ", "aŋouba"],
@@ -909,7 +909,7 @@ WORDS.white = {
     hy_grab: ["սպիտակ", "spitɑk"],
     mpt: ["nama", "nama"],
     ygr: ["efe'", "efeʔ"],
-    roo: ["popotea", "popotea"],
+    roo: ["popote", "popote"],  // Firchow 2008: "popote adj. white"; the 1973 English-Rotokas list gives "white | pogara, popote". popotea is in neither.
     quz: ["yuraq", "ˈjuɾaq"],
     quy: ["yuraq", "ˈjuɾaq"],
     shp: ["joxo", "hoʃo"],
@@ -1044,7 +1044,7 @@ WORDS.white = {
     kgg: ["kasi", "kasi"],
     ota: ["بیاض", "beˈjaz"],
     cmg: ["ᠴᠠᠭᠠᠨ", "tʃaɣan"],
-    aau: ["weyspey", "wejspej"],
+    aau: ["weys", "wejs"],  // SIL Abau Dictionary: "weys ADJ white"; weyspaweys is 'very white'. weyspey returns no matches.
     ani: ["гьацӏа", "hatsʼa"],
     bdk: ["лузу", "luzu"],
     nrf_gg: ["blianc", "bljɑ̃"],

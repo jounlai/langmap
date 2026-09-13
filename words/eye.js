@@ -1064,7 +1064,7 @@ WORDS.eye = {
     sad: ["gaa", "ɡaː"],
     pcc: ["daa", "daː˨˦"],
     ium: ["m'zing", "m̩ziŋ˧"],
-    hui: ["ta", "ta"],
+    hui: ["de", "tɛː"],  // Lomas 1988: "de | eye", phonetic [tɛː]. The cell held ta. Huli /d/ is voiceless word-initially, which is why the surface is d- and the IPA t-.
     tkl: ["mata", "mata"],
     squ: ["kwíkw", "kʷikʷ"],
     mga: ["súil", "suːlʲ"],

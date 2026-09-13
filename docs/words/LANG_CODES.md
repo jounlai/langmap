@@ -1170,7 +1170,7 @@ Total: 1187 codes.
 | `zh_cd` | Chengdu Mandarin | 成都官話 | Sinitic (Mandarin, Southwestern — Cheng-Yu) | ~20M (Chengdu city + plain) |
 | `zh_cq` | Chongqing Mandarin | 重慶官話 | Sinitic (Mandarin, Southwestern / Cheng-Yu cluster) | ~30M (Chongqing + eastern Sichuan) |
 | `zh_db` | Northeastern Mandarin | 東北官話 | Sinitic (Mandarin, Northeastern) | ~85M |
-| `zh_han` | Han-dynasty Classical Chinese | 漢代漢文 | Sinitic (Old/Eastern Han Chinese) | Extinct |
+| `zh_han` | Han Chinese | 漢代漢語 | Sinitic (Old/Eastern Han Chinese) | Extinct |
 | `zh_hf` | Hefei Mandarin | 合肥官話 | Sinitic (Mandarin, Jianghuai / Hongchao 洪巢片) | ~5M |
 | `zh_jh` | Jianghuai Mandarin | 江淮官話 | Sinitic (Mandarin, Jianghuai) | ~60M |
 | `zh_jn` | Jinan Mandarin | 済南官話 | Sinitic (Mandarin, Ji-Lu / Shandong) | ~7M (urban Jinan and surrounding Lu prefectures) |
@@ -1179,11 +1179,11 @@ Total: 1187 codes.
 | `zh_lz` | Lanyin Mandarin | 蘭銀官話 | Sinitic (Mandarin, Lan-Yin) | ~17M |
 | `zh_nj` | Nanjing Mandarin | 南京官話 | Sinitic (Mandarin, Jianghuai — Hong-Chao) | ~6M (Nanjing city + Jiangning, Liuhe) |
 | `zh_sc` | Sichuan Mandarin | 四川官話 | Sinitic (Mandarin, Southwestern) | ~120M |
-| `zh_song` | Song-Ming Literary Chinese | 宋明文言 | Sinitic (Late Middle Chinese) | Extinct |
-| `zh_tang` | Tang-dynasty Classical Chinese | 唐代漢文 | Sinitic (Early Middle Chinese) | Extinct |
+| `zh_song` | Late Middle Chinese | 近古漢語 | Sinitic (Late Middle Chinese) | Extinct |
+| `zh_tang` | Middle Chinese | 中古漢語 | Sinitic (Early Middle Chinese) | Extinct |
 | `zh_tj` | Tianjin Mandarin | 天津官話 | Sinitic (Mandarin, Ji-Lu / Tianjin) | ~10M |
 | `zh_tw` | Taiwan Mandarin | 台灣華語 | Sinitic (Mandarin) | ~23M |
-| `zh_wenyan_edu` | Cantonese-read Classical Chinese | 粤音文言文 | Sinitic (Yue, Cantonese pedagogical reading of Literary Chinese) | Active pedagogical use (~7M HK 文言文 curriculum) |
+| `zh_wenyan_edu` | Cantonese Classical Chinese | 粤音文言文 | Sinitic (Yue, Cantonese pedagogical reading of Literary Chinese) | Active pedagogical use (~7M HK 文言文 curriculum) |
 | `zh_wh` | Wuhan Mandarin | 武漢官話 | Sinitic (Mandarin, Southwestern) | ~10M |
 | `zh_xa` | Xi'an Mandarin | 西安官話 | Sinitic (Mandarin, Zhongyuan) | ~10M |
 | `zh_zz` | Zhongyuan Mandarin | 中原官話 | Sinitic (Mandarin, Zhongyuan) | ~10M (Zhengzhou) + ~190M total Zhongyuan Mandarin |

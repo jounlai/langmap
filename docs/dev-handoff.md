@@ -2704,7 +2704,36 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     already that row's house cell. Tashelhit was skipped outright because Destaing records that
     *ferfettu* — the pan-Berber butterfly word — means **swallow, the bird**, in that variety.
 
-99. **OPEN: seven existing colour cells that a blue batch says are wrong.** Flagged with specific
+99. **CLOSED: all seven were wrong, and six more with them.** The claims were verified against the
+    sources themselves — Webonary through a rendering proxy, the Rotokas dictionary through the
+    Wayback Machine, CHIRILA and ABVD as data files — and **every one was confirmed.**
+
+    - **`red`/`aau` was "o", and the SIL Abau Dictionary lists `o` only as a negator, a conjunction
+      and an emphasis marker.** Red is `oupuey`. **The map published a negator as a colour.**
+    - **`red`/`roo` was "kakaea", and Firchow 1973 and 2008 both gloss `kakae` as 'small, little'.**
+      `kakaea` is in neither book. Red is `revasia` (or `turuea`, equally attested).
+    - `white`/`aau` "weyspey" returns no matches; the entry is `weys`.
+    - `white`/`nha` "wiliri" — `wilidi` is Blevins's form. **`wiliri` IS in CHIRILA, in Payungu,
+      Thalanyji and Jiwarli, meaning 'wide'** — cross-language contamination, not a typo.
+    - `red`/`mkz` "mimiri" → `imiri`, from the same ABVD list that supplied this row's white cell.
+    - `red`/`hui` "taramapi" → `daramabi`: Lomas prints "darama | blood" and "daramabi | red"
+      consecutively, and the row already spells that root `darama` in its own blood cell.
+    - `red`/`nys` "yurnin" → `mirda`. The only `yurnin` in CHIRILA's 230,000 rows is Kukatja, where
+      it means 'seed', 'bald head' or 'shave'.
+
+    **Six more fell out of the same books**, which is the argument for checking a row rather than a
+    cell: `white`/`roo` popotea → popote; **`sun`/`hui` was `nogo`, which Lomas glosses 'pig'** →
+    `ni`; `eye`/`hui` ta → de; `red`/`nha` and `two`/`nha` wrote a retroflex ɖ where ⟨rd⟩ is the
+    retroflex digraph and plain ⟨d⟩ is alveolar; `white`/`nys` "tel" is in none of four Noongar
+    sources, which all give djardak; and `black`/`mkz` was empty although the ABVD list had metana
+    all along.
+
+    **What these have in common is a dataset read without its dictionary.** Four of the thirteen are
+    a real word of the right language meaning something else, and two are a word of a DIFFERENT
+    language. Nothing in the atlas could have caught them: each cell was well-formed, in the right
+    script, and unique in its row.
+
+100. **OPEN (superseded): the original report of the seven.** Flagged with specific
     counter-forms, **not changed**, because one report should not overwrite a prior cell and the
     sources (webonary, sil.org) returned 403 when checked. Two are severe enough to look at first.
 

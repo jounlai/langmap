@@ -8,8 +8,8 @@
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 123,
-    "hash": "b3b60cf6ec1bf734"
+    "version": 124,
+    "hash": "b79037c89a6a4ef2"
   },
   "hanmap_trivia.js": {
     "version": 75,
@@ -24,8 +24,8 @@
     "hash": "59c80d2e11243e21"
   },
   "lang_names/en.js": {
-    "version": 186,
-    "hash": "2fab4f65adfe53ed"
+    "version": 187,
+    "hash": "9053b37f4f83b865"
   },
   "lang_names_shim.js": {
     "version": 3,
@@ -80,7 +80,7 @@
     "hash": "e2d2ee7166921426"
   },
   "word_manifest.js": {
-    "version": 474,
+    "version": 475,
     "hash": "e05fbc5d997873e5"
   },
   "wordmap_data.js": {

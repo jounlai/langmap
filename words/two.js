@@ -805,7 +805,7 @@ WORDS.two = {
       wbp: ["jirrama", "ɟiɾama"],
       piu: ["kutjarra", "kucaɾa"],
       aer: ["atherre", "aˈt̪ərə"],
-      nha: ["wuthada", "wut̪aɖa"],
+      nha: ["wuthada", "wut̪ada"],
       olk: ["uchir", "utʃir"],
       adt: ["arlpili", "aɭpili"],
       nys: ["koodjal", "kuɟal"],

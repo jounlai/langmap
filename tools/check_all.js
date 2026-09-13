@@ -142,6 +142,13 @@ line('paired codes name alike', num(s, /violations: (\d+)/),
 s = run('description_duplicate_check.js --check');
 line('no two rows share a description', num(s, /violations: (\d+)/));
 
+// zh is written simplified and yue traditional. zh_script_convention.js has
+// enforced that for the WORD data for a long time; nothing checked the language
+// NAMES, and four yue names were simplified while nine zh names were
+// traditional. Owner: 「粤語の名称が簡体字になってる」.
+s = run('lang_name_script_check.js --check');
+line('zh/yue names in their own script', num(s, /violations: (\d+)/));
+
 // A localized name starts with a capital in every cased UI — the file's own
 // convention in ~1,100 of its ~1,150 names. This guard had existed unwired,
 // failing at 53, since before the rename.

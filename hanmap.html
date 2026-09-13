@@ -2944,6 +2944,12 @@
                  language's true lat/lng so an offset label can be related back
                  to its real position. -->
             <button class="toggle-btn" id="toggle-pins" aria-pressed="false" aria-label="Toggle location pins"><span class="pin-label-row"><span class="pin-swatch" aria-hidden="true"></span><span class="label">Pins</span></span><span class="onoff">OFF</span></button>
+            <!-- Owner 2026-09-13: the Word Map's "Only" toggle, brought over.
+                 Restricts the map to the languages in the comparison list.
+                 Disabled while that list is empty, because "only" would then
+                 mean "none" and a blank map reads as a bug rather than a
+                 filter. -->
+            <button class="toggle-btn" id="toggle-only-compare" aria-pressed="false" disabled aria-label="Show only the languages in the comparison list"><span class="label">Only</span><span class="onoff">OFF</span></button>
             <div class="radio-switch radio-switch-v" id="name-switch" role="radiogroup" aria-label="Name display (native / translated)">
                 <button class="radio-opt" id="name-native" role="radio" aria-checked="false"></button>
                 <button class="radio-opt active" id="name-translated" role="radio" aria-checked="true"></button>
@@ -3357,8 +3363,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=3"></script>
-    <script src="lang_names/en.js?v=185"></script>
-    <script>window.__langNamesVersion(185); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=186"></script>
+    <script>window.__langNamesVersion(186); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // lang_names.js carries the WordMap/LangMap-canonical name (e.g. ko_mid =
@@ -5351,8 +5357,8 @@
             setNavText(document.getElementById('nav-name'), NAV_NAME[uiLang] || NAV_NAME.en);
             const sizeEl = document.getElementById('size-label');
             if (sizeEl) sizeEl.textContent = wt('size') || 'Font Size';
-            ['toggle-word','toggle-ipa','toggle-name','toggle-pins'].forEach(id => {
-                const key = id.replace('toggle-','');
+            ['toggle-word','toggle-ipa','toggle-name','toggle-pins','toggle-only-compare'].forEach(id => {
+                const key = id === 'toggle-only-compare' ? 'onlyCompare' : id.replace('toggle-','');
                 const el = document.getElementById(id);
                 if (!el) return;
                 const text = wt(key);
@@ -5364,6 +5370,7 @@
                 // toggle-pins isn't in the ariaTargets table below — localize
                 // its aria-label off the same short label here.
                 if (id === 'toggle-pins') el.setAttribute('aria-label', text);
+                if (id === 'toggle-only-compare') el.setAttribute('aria-label', wt('onlyCompareCol') || text);
                 // Refresh the ON/OFF text in the user's UI language.
                 if (typeof updateOnOff === 'function') {
                     updateOnOff(el, el.classList.contains('active'));
@@ -5950,6 +5957,13 @@
         const btnIpa = document.getElementById('toggle-ipa');
         const btnName = document.getElementById('toggle-name');
         const btnPins = document.getElementById('toggle-pins');
+        const btnOnlyCompare = document.getElementById('toggle-only-compare');
+        let onlyCompare = false;
+        // Drives the same CSS hook the Word Map uses, so a label that is not
+        // in the comparison list can be dimmed rather than only removed.
+        function applyOnlyCompareClass() {
+            document.body.classList.toggle('only-compare', !!onlyCompare);
+        }
         const nameNative = document.getElementById('name-native');
         const nameTranslated = document.getElementById('name-translated');
         const eraModern = document.getElementById('era-modern');
@@ -6016,6 +6030,13 @@
         setupToggle(btnIpa, () => showIpa, v => showIpa = v);
         setupToggle(btnName, () => showName, v => showName = v);
         if (btnPins) setupToggle(btnPins, () => showPins, v => showPins = v);
+        if (btnOnlyCompare) setupToggle(btnOnlyCompare, () => onlyCompare, v => { onlyCompare = v; applyOnlyCompareClass(); });
+        // loadCompareList() runs before this point, so its own sync call lands
+        // while `onlyCompare` is still in its temporal dead zone and is swallowed
+        // by the try/catch. Sync once more here, where everything exists, or a
+        // reader arriving with a saved comparison list would find the button
+        // still disabled.
+        try { syncOnlyCompareBtn(); } catch (_) {}
         // Persist the pin toggle in the URL hash (setupToggle flips showPins
         // first, so this listener serializes the new value).
         if (btnPins) btnPins.addEventListener('click', () => updateHash());
@@ -6471,6 +6492,19 @@
                 const visibleLangs = [];
                 const unattestedLangs = [];
                 const descendantCodes = new Set();
+                // "Only": restrict to the comparison list. Runs first so an
+                // explicit toggle wins rather than intersecting with anything
+                // else, and iterates the list itself so the order the reader
+                // built is the order they get.
+                if (onlyCompare && (window.__compareList || []).length) {
+                    for (const code of window.__compareList) {
+                        const lang = LANG_DATA[code];
+                        if (!lang || !lang.words || !lang.words[wordId]) continue;
+                        if (isUnattestedEntry(lang.words[wordId])) unattestedLangs.push(code);
+                        else visibleLangs.push(code);
+                    }
+                    return { visibleLangs, unattestedLangs, descendantCodes };
+                }
                 for (const code of HAN_LANGS) {
                     const lang = LANG_DATA[code];
                     if (!lang || !lang.words || !lang.words[wordId]) continue;
@@ -8516,6 +8550,7 @@
             if (!showIpa)    params.set('w_ipa', '0');
             if (!showName)   params.set('w_name', '0');
             if (showPins)    params.set('pin', '1');   // default OFF — emit only when on
+            if (onlyCompare) params.set('only', '1');  // default OFF — same as the Word Map
             if (document.body.classList.contains('chrome-hidden'))
                 params.set('simple', '1');             // default: off
             if (uiLang !== detectBrowserLang()) params.set('ui', uiLang);  // default: the viewer's own browser language
@@ -8639,6 +8674,17 @@
                 btnPins.classList.add('active');
                 btnPins.setAttribute('aria-pressed', 'true');
                 if (typeof updateOnOff === 'function') updateOnOff(btnPins, true);
+            }
+            // "Only" restores only if the shared link also carried a comparison
+            // list — otherwise it would open on a blank map with nothing to
+            // explain it, which is the same reason the button is disabled when
+            // the list is empty.
+            if (params.get('only') === '1' && btnOnlyCompare && (window.__compareList || []).length > 0) {
+                onlyCompare = true;
+                btnOnlyCompare.classList.add('active');
+                btnOnlyCompare.setAttribute('aria-pressed', 'true');
+                if (typeof updateOnOff === 'function') updateOnOff(btnOnlyCompare, true);
+                applyOnlyCompareClass();
             }
             // Re-evaluate all-OFF state for top-left visibility.
             if (typeof updateTopLeftVisibility === 'function') updateTopLeftVisibility();
@@ -10828,6 +10874,25 @@
             renderCompareIfOpen();
         }
 
+        // The Only toggle is meaningless with an empty comparison list, so it is
+        // disabled there and forced off if the reader empties the list while it
+        // is on — otherwise Clear blanks the map with no visible cause.
+        function syncOnlyCompareBtn() {
+            const btn = document.getElementById('toggle-only-compare');
+            if (!btn) return;
+            const n = (window.__compareList || []).length;
+            btn.disabled = n === 0;
+            if (n === 0 && typeof onlyCompare !== 'undefined' && onlyCompare) {
+                onlyCompare = false;
+                btn.classList.remove('active');
+                btn.setAttribute('aria-pressed', 'false');
+                if (typeof updateOnOff === 'function') updateOnOff(btn, false);
+                applyOnlyCompareClass();
+                try { updateMarkers(currentWord); } catch (_) {}
+                try { updateHash(); } catch (_) {}
+            }
+        }
+
         function loadCompareList() {
             // Priority: URL hash → localStorage
             const params = new URLSearchParams(location.hash.slice(1));
@@ -10841,9 +10906,11 @@
                 } catch (e) {}
             }
             window.__compareList = _compareList;
+            try { syncOnlyCompareBtn(); } catch (_) {}
         }
         function saveCompareList() {
             window.__compareList = _compareList;
+            try { syncOnlyCompareBtn(); } catch (_) {}
             try { localStorage.setItem(COMPARE_STORAGE_KEY, JSON.stringify(_compareList)); } catch (e) {}
             try { updateHash(); } catch (e) {}
         }

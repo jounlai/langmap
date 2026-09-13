@@ -3368,39 +3368,48 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=3"></script>
-    <script src="lang_names/en.js?v=188"></script>
-    <script>window.__langNamesVersion(188); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=190"></script>
+    <script>window.__langNamesVersion(190); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
-    // lang_names.js carries the WordMap/LangMap-canonical name (e.g. ko_mid =
-    // "中世韓国語" — Middle Korean LANGUAGE for sentence/word data). HanMap's
-    // ko_mid column is the Sino-Korean reading layer (Donggukjeongun), so we
-    // re-suffix the language name on this page only via a monkey-patch of
-    // LANG_NAMES right after it loads. Add additional ko_mid-style "this-code-
-    // means-something-different-on-HanMap" entries here.
+    // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
+    // carries the Word Map's name — ko_mid there is 中世韓国語, the Middle Korean
+    // LANGUAGE, whose cells are ·믈 and :셓 — while the Han Map's ko_mid column is
+    // a Sino-Korean reading layer. This table overrides the name on this page
+    // only. Handoff 103 lists three more codes with the same problem (vi_han,
+    // zh_han, zh_jiao/zh_gl) and said they would need new codes; they do not,
+    // they need entries here.
+    //
+    // Rewritten 2026-09-13 (owner: 「中世韓国語漢字音 (東国正韻) は、略称として本当に
+    // 頑張りましたか？」). It read 中世韓国語漢字音 (東国正韻) — brackets, 14 characters,
+    // and it named the PERIOD plus a generic "Sino-reading" when what makes this
+    // row worth a pin is that it is the 東國正韻 prescriptive reading specifically,
+    // the one nobody actually used. Four UIs were also lowercase-initial and de
+    // read "mittelkoreanisch (Sino)". It is now named after the work itself.
     (function applyHanmapNameOverrides() {
       if (typeof LANG_NAMES !== 'object' || !LANG_NAMES) return;
       const OV = {
-        ja:   { ko_mid: '中世韓国語漢字音 (東国正韻)' },
-        en:   { ko_mid: 'Middle Korean Sino-reading' },
-        ko:   { ko_mid: '중세 한국 한자음 (동국정운)' },
-        zh:   { ko_mid: '中世韩国汉字音 (东国正韵)' },
-        fr:   { ko_mid: 'sino-coréen moyen' },
-        de:   { ko_mid: 'mittelkoreanisch (Sino)' },
-        es:   { ko_mid: 'sino-coreano medio' },
-        ru:   { ko_mid: 'Среднекорейское сино-чтение' },
-        ar:   { ko_mid: 'السينو-كورية الوسطى' },
-        he:   { ko_mid: 'סינו-קוריאנית ביניימית' },
-        sw:   { ko_mid: 'Sinokoria cha Kati' },
-        'zh-hant': { ko_mid: '中世韓國漢字音 (東國正韻)' },
-        yue:  { ko_mid: '中世韓國漢字音 (東國正韻)' },
-        vi:   { ko_mid: 'Hán âm Triều Tiên trung đại' },
-        th:   { ko_mid: 'อักษรจีนเกาหลีกลาง' },
-        id:   { ko_mid: 'Sino-Korea Pertengahan' },
-        ms:   { ko_mid: 'Sino-Korea Pertengahan' },
-        hi:   { ko_mid: 'मध्य-कोरियाई सिनो' },
-        pt:   { ko_mid: 'sino-coreano médio' },
-        uk:   { ko_mid: 'Середньокорейське сіно-читання' },
+        ja:        { ko_mid: '東国正韻音', zh_han: '上古漢語' },
+        ko:        { ko_mid: '동국정운음', zh_han: '상고한어' },
+        zh:        { ko_mid: '东国正韵音', zh_han: '上古汉语' },
+        'zh-hant': { ko_mid: '東國正韻音', zh_han: '上古漢語' },
+        yue:       { ko_mid: '東國正韻音', zh_han: '上古漢語' },
+        en:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Old Chinese' },
+        fr:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Chinois archaïque' },
+        de:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Altchinesisch' },
+        es:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Chino arcaico' },
+        pt:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Chinês arcaico' },
+        it:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Cinese arcaico' },
+        id:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Tionghoa Kuno' },
+        ms:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Tionghoa Kuno' },
+        sw:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Kichina cha Kale' },
+        vi:        { ko_mid: 'Đông Quốc Chính Vận', zh_han: 'Thượng cổ Hán ngữ' },
+        ru:        { ko_mid: 'Тонгук чонун', zh_han: 'Древнекитайский' },
+        uk:        { ko_mid: 'Тонгук чонун', zh_han: 'Давньокитайська' },
+        ar:        { ko_mid: 'دونغوك جونغون', zh_han: 'الصينية القديمة' },
+        he:        { ko_mid: 'דונגוק ג׳ונגון', zh_han: 'סינית עתיקה' },
+        th:        { ko_mid: 'ทงกุกจองอุน', zh_han: 'ภาษาจีนโบราณ' },
+        hi:        { ko_mid: 'तोंगुक चोंगुन', zh_han: 'प्राचीन चीनी' },
       };
       for (const [ui, m] of Object.entries(OV)) {
         if (!LANG_NAMES[ui]) LANG_NAMES[ui] = {};

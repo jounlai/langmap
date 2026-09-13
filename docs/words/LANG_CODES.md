@@ -804,7 +804,7 @@ Total: 1187 codes.
 | `p_jpn` | Proto-Japonic | 日琉祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_kor` | Proto-Koreanic | 朝鮮祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_ryu` | Proto-Ryukyuan | 琉球祖語 | Japonic (Ryukyuan) | Reconstructed proto-language (no speakers; split from Japonic ~7–8c. CE) |
-| `p_sit` | Proto-Sino-Tibetan | シナ・チベット祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
+| `p_sit` | Proto-Sino-Tibetan | 漢蔵祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_toc` | Proto-Tocharian | トカラ祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `p_tun` | Proto-Tungusic | ツングース祖語 | Proto-language (reconstructed) | Extinct (hypothetical) |
 | `pa` | Punjabi | パンジャーブ語 | Indo-Aryan | ~150M |

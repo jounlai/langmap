@@ -105,7 +105,7 @@ Total: 1187 codes.
 | `bej` | Beja | ベジャ語 | Afro-Asiatic (Cushitic, North) | ~3M |
 | `bem` | Bemba | ベンバ語 | Atlantic-Congo (Bantu) | ~4M |
 | `bew` | Betawi | ブタウィ語 | Austronesian (Malayo-Polynesian, Malayic — Malay-based, heavily restructured) | ~5M (Ethnologue 6b, threatened) |
-| `bfa` | Bari | カロ・バリ語 | Nilo-Saharan | ~600K |
+| `bfa` | Bari | 南スーダン・バリ語 | Nilo-Saharan | ~600K |
 | `bfq` | Badaga | バダガ語 | Dravidian (Southern) | ~134–206K (shifting) |
 | `bft` | Balti | バルティ語 | Sino-Tibetan (Tibeto-Burman, Bodish, Tibetic, Western — Ladakhi-Balti subgroup) | ~440K (Pakistan ~400K + India ~40K) |
 | `bg` | Bulgarian | ブルガリア語 | Indo-European (Slavic, South) | ~7M |

@@ -1084,7 +1084,7 @@ WORDS.three = {
     ojp: ["三", "mitu"],
     p_jpk: ["—", "—"],
     h_vedic: ["त्रयः", "trajaɦ"],
-    txg: ["𗌭", "so˩"],
+    txg: ["—", "—"], // emptied: 𗌭 is *ku¹ 'then', and the cell also carries ˩, outside this row's two-tone system (Tangut pass, 2026-09-13)
     sog: ["ʾδry", "ðrē"],
     otk: ["𐰇𐰲", "ytʃ"],
     ami: ["tolo", "tolo"],

@@ -3416,7 +3416,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=320"></script>
-    <script src="word_manifest.js?v=463"></script>
+    <script src="word_manifest.js?v=464"></script>
     <script src="word_labels.js?v=55"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -3547,8 +3547,8 @@
          will actually see (~12 KB gzipped). tools/build_lang_names.js
          generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=3"></script>
-    <script src="lang_names/en.js?v=184"></script>
-    <script>window.__langNamesVersion(184); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=185"></script>
+    <script>window.__langNamesVersion(185); window.__langNamesBoot();</script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
          map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
          guard with `|| []`, and the blinks refresh once it lands. -->
@@ -3892,12 +3892,12 @@
             data:      320,
             metaI18n:  16,
             filter:    45,
-            names:   184,
-            meta:     350,
+            names:   185,
+            meta:     351,
             trivia:   41,
             triviaI18n: 23,
-            words:      463,
-            langWords:    218,
+            words:      464,
+            langWords:    219,
             labels:      55,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
@@ -3975,6 +3975,7 @@
             window.__ensureLangNames(uiLang).then(() => {
                 try { if (typeof applyUILang === 'function') applyUILang(); } catch (_) {}
                 try { if (typeof updateMarkers === 'function') updateMarkers(currentWord); } catch (_) {}
+                try { if (typeof updateNameSwitch === 'function') updateNameSwitch(); } catch (_) {}
             });
         }
         const uiLangSelect = document.getElementById('header-ui-lang');
@@ -4098,7 +4099,7 @@
             ariaToggleForm:    { en:'Toggle form display', ja:'表記の表示切替', ko:'표기 표시 전환', zh:'切换写法显示', yue:'切換寫法顯示', vi:'Bật/tắt hiển thị chữ viết', th:'สลับการแสดงรูปคำ', id:'Alih tampilan bentuk', hi:'रूप प्रदर्शन बदलें', de:'Schreibung umschalten', fr:'Basculer l\'affichage des graphies', it:'Alterna la grafia', es:'Alternar grafía', pt:'Alternar grafia', ru:'Переключить отображение записи', uk:'Перемкнути показ написання', ar:'تبديل عرض الشكل', he:'החלף תצוגת כתיב', sw:'Badilisha tabia ya kuandika' },
             ariaTogglePron:    { en:'Toggle pronunciation display', ja:'発音表示切替', ko:'발음 표시 전환', zh:'切换发音显示', yue:'切換發音顯示', vi:'Bật/tắt phát âm', th:'สลับการแสดงการออกเสียง', id:'Alih tampilan pelafalan', hi:'उच्चारण प्रदर्शन बदलें', de:'Aussprache umschalten', fr:'Basculer la prononciation', it:'Alterna la pronuncia', es:'Alternar pronunciación', pt:'Alternar pronúncia', ru:'Переключить произношение', uk:'Перемкнути вимову', ar:'تبديل عرض النطق', he:'החלף תצוגת הגייה', sw:'Badilisha matamshi' },
             ariaToggleName:    { en:'Toggle language-name display', ja:'言語名表示切替', ko:'언어명 표시 전환', zh:'切换语言名显示', yue:'切換語言名顯示', vi:'Bật/tắt tên ngôn ngữ', th:'สลับการแสดงชื่อภาษา', id:'Alih tampilan nama bahasa', hi:'भाषा नाम बदलें', de:'Sprachnamen umschalten', fr:'Basculer le nom de langue', it:'Alterna nome lingua', es:'Alternar nombre del idioma', pt:'Alternar nome do idioma', ru:'Переключить название языка', uk:'Перемкнути назву мови', ar:'تبديل عرض اسم اللغة', he:'החלף תצוגת שם השפה', sw:'Badilisha jina la lugha' },
-            ariaNameGroup:     { en:'Name display (native / translated)', ja:'言語名表示（現地名/翻訳）', ko:'언어명 표시 (현지/번역)', zh:'语言名显示（本名/翻译）', yue:'語言名顯示（本名／翻譯）', vi:'Hiển thị tên (bản địa / dịch)', th:'การแสดงชื่อ (พื้นเมือง / แปล)', id:'Tampilan nama (asli / diterjemahkan)', hi:'नाम प्रदर्शन (मूल / अनुवादित)', de:'Namensanzeige (nativ / übersetzt)', fr:'Affichage du nom (natif / traduit)', it:'Visualizzazione nome (nativo / tradotto)', es:'Mostrar nombre (nativo / traducido)', pt:'Exibição de nome (nativo / traduzido)', ru:'Отображение названия (родное / перевод)', uk:'Відображення назви (рідна / переклад)', ar:'عرض الاسم (الأصلي / المُترجم)', he:'תצוגת שם (מקורי / מתורגם)', sw:'Onyesho la jina (asili / iliyotafsiriwa)' },
+            ariaNameGroup:     { en:'Name display (native / translated / short)', ja:'言語名表示（現地名/翻訳/略称）', ko:'언어명 표시 (현지/번역/약칭)', zh:'语言名显示（本名/翻译/简称）', yue:'語言名顯示（本名／翻譯／簡稱）', vi:'Hiển thị tên (bản địa / dịch / tắt)', th:'การแสดงชื่อ (พื้นเมือง / แปล / ชื่อย่อ)', id:'Tampilan nama (asli / diterjemahkan / pendek)', hi:'नाम प्रदर्शन (मूल / अनुवादित / संक्षिप्त)', de:'Namensanzeige (nativ / übersetzt / Kurzform)', fr:'Affichage du nom (natif / traduit / court)', it:'Visualizzazione nome (nativo / tradotto / breve)', es:'Mostrar nombre (nativo / traducido / corto)', pt:'Exibição de nome (nativo / traduzido / curto)', ru:'Отображение названия (родное / перевод / кратко)', uk:'Відображення назви (рідна / переклад / коротко)', ar:'عرض الاسم (الأصلي / المُترجم / المختصر)', he:'תצוגת שם (מקורי / מתורגם / מקוצר)', sw:'Onyesho la jina (asili / iliyotafsiriwa / fupi)' },
             ariaFontSize:      { en:'Label font size', ja:'ラベル文字サイズ', ko:'라벨 글꼴 크기', zh:'标签字体大小', yue:'標籤字體大小', vi:'Cỡ chữ nhãn', th:'ขนาดอักษรของป้าย', id:'Ukuran huruf label', hi:'लेबल फ़ॉन्ट आकार', de:'Beschriftungs-Schriftgröße', fr:'Taille de police d\'étiquette', it:'Dimensione carattere etichetta', es:'Tamaño de fuente de etiqueta', pt:'Tamanho da fonte do rótulo', ru:'Размер шрифта подписей', uk:'Розмір шрифту підпису', ar:'حجم خط التسمية', he:'גודל גופן תווית', sw:'Saizi ya fonti ya lebo' },
             ariaCloseInfo:     { en:'Close language info', ja:'言語情報を閉じる', ko:'언어 정보 닫기', zh:'关闭语言信息', yue:'關閉語言資訊', vi:'Đóng thông tin ngôn ngữ', th:'ปิดข้อมูลภาษา', id:'Tutup info bahasa', hi:'भाषा जानकारी बंद करें', de:'Sprachinformationen schließen', fr:'Fermer les infos de la langue', it:'Chiudi info lingua', es:'Cerrar info del idioma', pt:'Fechar info do idioma', ru:'Закрыть инфо языка', uk:'Закрити інфо мови', ar:'إغلاق معلومات اللغة', he:'סגור מידע שפה', sw:'Funga taarifa ya lugha' },
             ariaEraGroup:      { en:'Era (modern / historical)', ja:'時代（現代/歴史）', ko:'시대 (현대/역사)', zh:'时代（现代/历史）', yue:'時代（現代／歷史）', vi:'Thời kỳ (hiện đại / lịch sử)', th:'ยุค (สมัยใหม่ / ประวัติศาสตร์)', id:'Era (modern / historis)', hi:'युग (आधुनिक / ऐतिहासिक)', de:'Epoche (modern / historisch)', fr:'Époque (moderne / historique)', it:'Epoca (moderna / storica)', es:'Época (moderna / histórica)', pt:'Era (moderna / histórica)', ru:'Эпоха (современная / историческая)', uk:'Епоха (сучасна / історична)', ar:'الحقبة (حديثة / تاريخية)', he:'תקופה (מודרני / היסטורי)', sw:'Enzi (kisasa / kihistoria)' },
@@ -4536,6 +4537,7 @@
                 window.__ensureLangNames(uiLang).then(() => {
                     try { applyUILang(); } catch (_) {}
                     try { updateMarkers(currentWord); } catch (_) {}
+                    try { updateNameSwitch(); } catch (_) {}
                     // Names arrived after the immediate repaint below — re-render
                     // the open modal/compare so language names (and the T-shirt
                     // hand-off's name= param) switch to the new UI language.
@@ -4907,12 +4909,25 @@
         if (btnPins) btnPins.addEventListener('click', () => updateHash());
 
         function updateNameSwitch() {
-            const mode = showNative ? 'native' : nameStyle;   // native | formal | short
+            let mode = showNative ? 'native' : nameStyle;   // native | formal | short
             const on = (btn, is) => {
                 if (!btn) return;
                 btn.classList.toggle('active', is);
                 btn.setAttribute('aria-checked', String(is));
             };
+            // Round 535: for 17 of the 19 UI languages LANG_NICKNAMES is empty,
+            // so the third button rendered, labelled, clicked, wrote abbr=1 to
+            // a shared URL — and produced a byte-identical map. Two of three
+            // positions indistinguishable. Hide it unless this UI actually has
+            // nicknames; re-run from the __ensureLangNames() blocks, because
+            // the table arrives with the slice.
+            if (nameShort) {
+                const NN = window.LANG_NICKNAMES || {};
+                const base = String(uiLang || '').split('_')[0];
+                const has = Object.keys(NN[uiLang] || NN[base] || {}).length > 0;
+                nameShort.hidden = !has;
+                if (!has && nameStyle === 'short') { nameStyle = 'formal'; mode = 'formal'; }
+            }
             on(nameNative, mode === 'native');
             on(nameTranslated, mode === 'formal');
             on(nameShort, mode === 'short');
@@ -5679,7 +5694,10 @@
         function getDisplayName(code, lang) {
             if (showNative) return lang.native;
             if (window.__langNameFor) return window.__langNameFor(uiLang, code, nameStyle, lang.name);
-            const names = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
+            // Only reachable if the shim failed to load. It used to read a bare
+            // LANG_NAMES, which this page does not declare, so the "fallback"
+            // threw a ReferenceError instead of falling back (round 535).
+            const names = (window.LANG_NAMES || {})[uiLang] || (window.LANG_NAMES || {}).en || {};
             return names[code] || lang.name;
         }
         // The goods hand-off always prints the nickname where one exists, no
@@ -5687,7 +5705,7 @@
         // name for an atlas and "Singlish" is the right name for a chest.
         function getNicknameOrName(code, lang) {
             if (window.__langNameFor) return window.__langNameFor(uiLang, code, 'short', (lang && lang.name) || code);
-            const names = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
+            const names = (window.LANG_NAMES || {})[uiLang] || (window.LANG_NAMES || {}).en || {};
             return names[code] || (lang && lang.name) || code;
         }
 
@@ -6860,6 +6878,8 @@
                     window.__ensureLangNames(uiLang).then(() => {
                         try { applyUILang(); } catch (_) {}
                         try { updateMarkers(currentWord); } catch (_) {}
+                        try { updateNameSwitch(); } catch (_) {}
+                    try { updateNameSwitch(); } catch (_) {}
                         try {
                             const _p = document.getElementById('lang-info');
                             if (_p && _p.classList.contains('visible') && _p.dataset.code) renderLangInfo(_p.dataset.code);
@@ -9064,7 +9084,11 @@
             for (let idx = 0; idx < len; idx++) {
                 const code = _compareList[idx];
                 const lang = LANG_DATA[code]; if (!lang) continue;
-                const display = names[code] || lang.name || code;
+                // Round 535: this header ignored the name switch while the pin
+                // labels and the trivia compare table followed it, so one
+                // table said Singlish and the other Singapore English at the
+                // same moment. Compare surfaces follow the map.
+                const display = getDisplayName(code, lang);
                 html += '<th draggable="true" data-code="' + escapeHtml(code) + '" data-idx="' + idx + '" title="Drag to reorder">'
                      + '<span class="lang-name" data-code="' + escapeHtml(code) + '">' + escapeHtml(display) + '</span>'
                      + (lang.native ? '<span class="native-name" dir="auto">' + escapeHtml(lang.native) + '</span>' : '')
@@ -9372,6 +9396,7 @@
                     if (typeof updateOnOff === 'function') updateOnOff(btn, want);
                     applyOnlyCompareClass();
                     try { updateMarkers(currentWord); } catch (_) {}
+                    try { updateNameSwitch(); } catch (_) {}
                 }
             }
         }

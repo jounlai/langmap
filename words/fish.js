@@ -1090,7 +1090,7 @@ WORDS.fish = {
     ojp: ["魚", "uwo"],
     p_jpk: ["—", "—"],
     h_vedic: ["मत्स्यः", "matsjaɦ"],
-    txg: ["𗼑", "ʑju˨"],
+    txg: ["—", "—"], // emptied: 𗼑 is *lhjị² 'month', and the cell also carries ˨, outside this row's two-tone system (Tangut pass, 2026-09-13)
     sog: ["mʾšy", "maːʃi"],
     otk: ["𐰉𐰞𐰶", "balɯq"],
     ami: ["futing", "futiŋ"],

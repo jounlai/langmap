@@ -135,6 +135,13 @@ s = run('paired_code_name_check.js --check');
 line('paired codes name alike', num(s, /violations: (\d+)/),
     (s.match(/note: (\d+) pair/) || [])[1] ? ((s.match(/note: (\d+) pair/))[1] + ' ISO aliases') : '');
 
+// Two languages may not share one description. meta_desc/txg.js was a
+// byte-for-byte copy of meta_desc/p_jpk.js, so the Tangut pin displayed an
+// essay on Proto-Japonic-Koreanic; every other guard on these files checks a
+// description against ITSELF, and a copied body passes all of them.
+s = run('description_duplicate_check.js --check');
+line('no two rows share a description', num(s, /violations: (\d+)/));
+
 // A localized name starts with a capital in every cased UI — the file's own
 // convention in ~1,100 of its ~1,150 names. This guard had existed unwired,
 // failing at 53, since before the rename.

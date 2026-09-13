@@ -135,6 +135,24 @@ s = run('paired_code_name_check.js --check');
 line('paired codes name alike', num(s, /violations: (\d+)/),
     (s.match(/note: (\d+) pair/) || [])[1] ? ((s.match(/note: (\d+) pair/))[1] + ' ISO aliases') : '');
 
+// A localized name starts with a capital in every cased UI — the file's own
+// convention in ~1,100 of its ~1,150 names. This guard had existed unwired,
+// failing at 53, since before the rename.
+s = run('lang_name_case_check.js --check');
+line('language names capitalised', num(s, /violations: (\d+)/));
+
+// Two different languages may not print the same label. Derived, not listed:
+// codes that legitimately share a name share their ENGLISH name, so the nine
+// twin-coded languages are exempt automatically. The three that cannot be
+// fixed by naming — the UI has no name for one of the two — are named in the
+// guard's UNNAMEABLE map with the reason, and go stale on their own.
+s = run('lang_name_collision_check.js --check');
+{
+  const listed = num(s, /listed unnameable: (\d+)/);
+  line('one label, two languages', num(s, /violations: (\d+)/),
+      listed ? `${listed} listed unnameable` : '');
+}
+
 // The nickname layer (lang_nicknames.js) is opt-in on the map and DEFAULT on
 // the goods hand-off, so an entry here can end up printed on a shirt. Every
 // nickname must be a name people really use, be unambiguous among 1,187 pins,

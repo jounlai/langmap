@@ -2495,5 +2495,53 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     first. It is also a genuine homophone of `p_ryu` eye \*mii, which is why the intra-row
     duplicate guard did not object.
 
+96. **"One label, two languages" is a defect class, and nothing was checking it. 25 found, 22
+    fixed, 3 named.** The rename in 92 introduced several of these and every existing guard was
+    blind to them, because each name was individually plausible — the defect only exists in the
+    relationship between two rows.
+
+    `mjg` Monguor printed as モンゴル語 **beside `mn` Mongolian**. `xve` Venetic and `vec` Venetian
+    collapsed into one string in Japanese, German, Russian, Swahili AND Ukrainian. `bfa` Bari
+    became バリ語 beside `ban` Balinese. Each row's own `native` field disproved the merge —
+    Mongghul, Venetkens, Karo Bari — but nothing compared them. Older ones were there too: Chinese
+    called Ladin 拉丁语, which is **Latin**; Italian called Ladino and Ladin both *Ladino*; Arabic
+    used one string for Romanian and Romani, another for Pali and Balinese, another for Tuvan and
+    Tofa, another for Awadhi and Udi, another for **Luo and Luwian**.
+
+    **`tools/lang_name_collision_check.js` derives its exemption instead of listing it.** Some codes
+    SHOULD read alike — the nine languages the atlas carries twice under different codes, which
+    `paired_code_name_check.js` keeps in sync. Those are exactly the codes whose ENGLISH names are
+    identical, so the rule is: *two codes sharing a label in some UI, but not sharing their English
+    name, are a collision.* No allowlist, and it cannot go stale.
+
+    **Three cannot be fixed by naming, and they are listed by name with the reason** (handoff 91's
+    shape, not a budget): Arabic has no name for Tao/Yami or Thao at all; Hebrew has none for Mru,
+    and Glottolog lists no alternative name to transliterate; Thai has none for Munsee — and worse,
+    th.wikipedia's own article ภาษามันซี is a **third** language, Mantsi/Black Lolo of northern
+    Vietnam, so that string is doing triple duty. An entry that stops colliding is reported as
+    stale.
+
+    **The pair that is not a naming problem at all: `mjg` and `mvf` are the same language.**
+    `meta_desc/mjg.js` opens "Mongghul (Huzhu Monguor, ISO 639-3 mjg)…" and `meta_desc/mvf.js`
+    opens "Mongghul (also Mangghuer or Tu)…". Both rows carry the identical native field
+    `Mongghul`, and ISO `mvf` is not even a code for it — it is Peripheral/Southern Mongolian. The
+    labels are honest now (ja 土族語 / モングォル語, de Monguor / Mongghul) but **the rows should be
+    merged**, and until they are the collision guard's twin exemption will never cover them.
+
+    **A second guard turned out to have been failing, unwired, for months.**
+    `tools/lang_name_case_check.js` requires an uppercase initial in the 11 cased UIs — the file's
+    own convention in ~1,100 of its names — and it had been sitting at 53 failures with no caller,
+    exactly like `script_consistency_check.js` before handoff 85. 24 codes fixed (fr 24, es 11, it
+    9, pt 9 cells) and the guard is now in `check_all.js` at 0. **Look for the unwired guard: this
+    is the second one this week, and both were failing the whole time.**
+
+    Open, from the same pass: Swahili uses *cha Kale* for both "Classical" and "Old" in ~45 rows
+    (Classical Armenian, Maya, Nahuatl, Syriac, Mongolian, Tibetan). Only French and Persian
+    collided, because only they have an "Old X" twin on this map, so only those two were changed to
+    *cha Klasiki* — which leaves Swahili internally inconsistent and worth a systematic pass.
+    `bfa` ja カロ・バリ語 is still a katakana coinage from the row's native field: Japanese calls the
+    Nilotic Bari バリ語 identically to Balinese, Glottolog's only alternative name for bfa is *Beri*,
+    and no attested Japanese disambiguation exists.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

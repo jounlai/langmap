@@ -659,7 +659,7 @@ Total: 1187 codes.
 | `min` | Minangkabau | ミナンカバウ語 | Austronesian (Malayo-Polynesian, Malayic) | ~5.5M |
 | `mix` | Mixtepec Mixtec | ミクステペック・ミクステコ語 | Oto-Manguean (Mixtecan) | ~7–15K |
 | `mixtec` | Mixtec | ミステコ語 | Oto-Manguean (Mixtecan) | ~500K (cover row for dozens of varieties) |
-| `mjg` | Monguor | モングォル語 | Mongolic | ~50–100K active |
+| `mjg` | Monguor | 土族語 | Mongolic | ~50–100K active |
 | `mk` | Macedonian | マケドニア語 | Slavic | ~2M |
 | `mkz` | Makasae | マカサエ語 | Trans-New Guinea (Timor-Alor-Pantar, Eastern Timor) | ~100K |
 | `ml` | Malayalam | マラヤーラム語 | Dravidian | ~38M |
@@ -1136,7 +1136,7 @@ Total: 1187 codes.
 | `xto` | Tocharian A | トカラ語A | Indo-European (Tocharian) | Extinct (~5th-9th c. CE) |
 | `xul` | Ngunnawal | ングンナワル語 | Pama-Nyungan | ~5K heritage learners |
 | `xum` | Umbrian | ウンブリア語 | Indo-European (Italic, Sabellic, Osco-Umbrian) | 0 (extinct ~1st c. CE) |
-| `xve` | Venetic | ヴェネティ語 | Indo-European (Italic, or an independent IE branch — debated) | 0 (extinct ~1st c. BCE) |
+| `xve` | Venetic | ウェネティ語 | Indo-European (Italic, or an independent IE branch — debated) | 0 (extinct ~1st c. BCE) |
 | `yai` | Yaghnobi | ヤグノビ語 | Iranian (Eastern) | ~13K |
 | `yan` | Sumo | スモ語 | Misumalpan | ~10K (Nicaragua ~8K + Honduras ~2K) |
 | `yao` | Yao | ヤオ語 | Atlantic-Congo (Bantu, Yao-Makonde) | ~3M |

@@ -16,10 +16,16 @@ for(const ui of Object.keys(N)){
     else if(CASED.includes(ui)&&/^\p{Ll}/u.test(name))bad.push(ui+"."+code+" = "+JSON.stringify(name)+"  (lowercase first letter)");
   }
 }
-if(bad.length){
-  console.error("✗ lang-name-case: "+bad.length+" issue(s):");
-  for(const b of bad.slice(0,40))console.error("  "+b);
-  if(bad.length>40)console.error("  …and "+(bad.length-40)+" more");
-  process.exit(1);
+const CHECK=process.argv.includes("--check");
+if(!CHECK){
+  if(bad.length){
+    console.error("✗ lang-name-case: "+bad.length+" issue(s):");
+    for(const b of bad.slice(0,40))console.error("  "+b);
+    if(bad.length>40)console.error("  …and "+(bad.length-40)+" more");
+  } else console.log("✓ lang-name-case: all localized names uppercase-first, no 'undefined'");
 }
-console.log("✓ lang-name-case: all localized names uppercase-first, no 'undefined'");
+// Printed unconditionally so check_all.js can read it. This guard existed for
+// months without being wired in, and sat at 53 failures the whole time — the
+// same way script_consistency_check.js did (handoff 85).
+console.log("violations: "+bad.length);
+process.exit(CHECK?0:(bad.length?1:0));

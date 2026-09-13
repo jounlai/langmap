@@ -99,14 +99,14 @@ const LANG_DATA = {
   "lb": { "name": "Luxembourgish", "native": "Lëtzebuergesch", "lat": 49.61, "lng": 6.13 },
   "gcr": { "name": "Guianese Creole", "native": "Kriyòl", "lat": 4.92, "lng": -52.33 },
   "acf": { "name": "Saint Lucian Creole", "native": "Kwéyòl", "lat": 14.01, "lng": -60.99 },
-  "gan_yc": { "name": "Gan Chinese (Yichun)", "native": "宜春話", "lat": 27.81, "lng": 114.42 },
-  "gan_ja": { "name": "Gan Chinese (Jiʼan)", "native": "吉安贛語", "lat": 27.11, "lng": 114.99 },
-  "gan_fz": { "name": "Gan Chinese (Fuzhou)", "native": "Gan Chinese (Fuzhou)", "lat": 27.95, "lng": 116.36 },
-  "cjy_lv": { "name": "Jin Chinese (Lishi/Lüliang)", "native": "吕梁晋语", "lat": 37.52, "lng": 111.13 },
-  "cjy_xz": { "name": "Jin Chinese (Xinzhou)", "native": "Jin Chinese (Xinzhou)", "lat": 38.42, "lng": 112.73 },
-  "hsn_hy": { "name": "Xiang Chinese (Hengyang)", "native": "衡州話 / 衡陽湘語", "lat": 26.89, "lng": 112.57 },
-  "hsn_yz": { "name": "Xiang Chinese (Yongzhou)", "native": "Xiang Chinese (Yongzhou)", "lat": 26.42, "lng": 111.61 },
-  "czh_wy": { "name": "Hui Chinese (Wuyuan)", "native": "徽州话（婺源）", "lat": 29.25, "lng": 117.86 },
+  "gan_yc": { "name": "Yichun Gan", "native": "宜春話", "lat": 27.81, "lng": 114.42 },
+  "gan_ja": { "name": "Jiʼan Gan", "native": "吉安贛語", "lat": 27.11, "lng": 114.99 },
+  "gan_fz": { "name": "Fuzhou Gan", "native": "抚州话", "lat": 27.95, "lng": 116.36 },
+  "cjy_lv": { "name": "Lüliang Jin", "native": "吕梁晋语", "lat": 37.52, "lng": 111.13 },
+  "cjy_xz": { "name": "Xinzhou Jin", "native": "忻州话", "lat": 38.42, "lng": 112.73 },
+  "hsn_hy": { "name": "Hengyang Xiang", "native": "衡州話 / 衡陽湘語", "lat": 26.89, "lng": 112.57 },
+  "hsn_yz": { "name": "Yongzhou Xiang", "native": "永州话", "lat": 26.42, "lng": 111.61 },
+  "czh_wy": { "name": "Wuyuan Hui", "native": "婺源话", "lat": 29.25, "lng": 117.86 },
   "bla": { "name": "Blackfoot", "native": "Siksiká Iʼksistamiʼkssin", "lat": 49, "lng": -112 },
   "hop": { "name": "Hopi", "native": "Hopílavayi", "lat": 35.907, "lng": -110.6093,
     "wordEvidence": {
@@ -135,7 +135,7 @@ const LANG_DATA = {
     } },
   "one": { "name": "Oneida", "native": "Onʌyota'káhkahʌ", "lat": 43, "lng": -75.5 },
   "ono": { "name": "Onondaga", "native": "Onoñdaʼgegáʼ nigaweñoʼdeñʼ", "lat": 42.95, "lng": -76.2 },
-  "win": { "name": "Ho-Chunk (Winnebago)", "native": "Ho-Chunk (Winnebago)", "lat": 44.31, "lng": -90.8 },
+  "win": { "name": "Ho-Chunk", "native": "Hoocąk", "lat": 44.31, "lng": -90.8 },
   "cro": { "name": "Crow", "native": "Apsáalooke", "lat": 45.6, "lng": -107.5 },
   "hai": { "name": "Haida", "native": "Haidax", "lat": 54, "lng": -132.5 },
   "cic": { "name": "Chickasaw", "native": "Chikashshanompa'", "lat": 34.774, "lng": -96.678 },
@@ -150,7 +150,7 @@ const LANG_DATA = {
   "nez": { "name": "Nez Perce", "native": "Nimipuutímt", "lat": 46.4, "lng": -116.8 },
   "woe": { "name": "Woleaian", "native": "Woleaian", "lat": 7.3667, "lng": 143.9 },
   "pmt": { "name": "Tuamotuan", "native": "Reʻo Paʻumotu", "lat": -18.7963, "lng": -141.584 },
-  "bin": { "name": "Edo (Bini)", "native": "Ẹ̀dó", "lat": 6.34, "lng": 5.62 },
+  "bin": { "name": "Edo", "native": "Ẹ̀dó", "lat": 6.34, "lng": 5.62 },
   "khw": { "name": "Khowar", "native": "کھوار", "lat": 35.85, "lng": 71.8 },
   "xav": { "name": "Xavante", "native": "A'ũwe", "lat": -14.5, "lng": -52.5 },
   "ter": { "name": "Terena", "native": "Terêna", "lat": -20.32, "lng": -55.5 },
@@ -159,34 +159,34 @@ const LANG_DATA = {
   "ake": { "name": "Akawaio", "native": "Akawaio", "lat": 6.16, "lng": -60.86 },
   "aoc": { "name": "Pemón", "native": "Pemon", "lat": 4.5, "lng": -62 },
   "gun": { "name": "Mbyá Guaraní", "native": "Mbyá Guaraní", "lat": -25.5, "lng": -54.5 },
-  "zdj": { "name": "Comorian (Shikomori)", "native": "Comorian (Shikomori)", "lat": -11.7, "lng": 43.26 },
+  "zdj": { "name": "Ngazidja Comorian", "native": "Shingazidja", "lat": -11.7, "lng": 43.26 },
   "ayl": { "name": "Libyan Arabic", "native": "اللهجة الليبية", "lat": 32.89, "lng": 13.19 },
   "abv": { "name": "Bahrani Arabic", "native": "العربية البحرانية / Baħrāni", "lat": 26.22, "lng": 50.58 },
   "afb": { "name": "Qatari Arabic", "native": "خليجي", "lat": 25.29, "lng": 51.53 },
   "acw": { "name": "Hijazi Arabic", "native": "الحجازية", "lat": 21.49, "lng": 39.19 },
-  "swb": { "name": "Maore Comorian (Mahorais)", "native": "Shimaore", "lat": -12.78, "lng": 45.23 },
+  "swb": { "name": "Maore Comorian", "native": "Shimaore", "lat": -12.78, "lng": 45.23 },
   "adx": { "name": "Amdo Tibetan", "native": "ཨ་མདོའི་སྐད་", "lat": 36.62, "lng": 101.76 },
   "qxs": { "name": "Southern Qiang", "native": "Southern Qiang", "lat": 32.8, "lng": 103.6 },
-  "duu": { "name": "Drung (Dulong)", "native": "Tvrung kvt", "lat": 27.741, "lng": 98.666 },
+  "duu": { "name": "Drung", "native": "Tvrung kvt", "lat": 27.741, "lng": 98.666 },
   "jya": { "name": "Situ rGyalrong", "native": "Situ", "lat": 32, "lng": 102 },
   "ers": { "name": "Ersu", "native": "ěrsū / 尔苏", "lat": 28.976, "lng": 102.7745 },
   "bca": { "name": "Central Bai", "native": "白语", "lat": 25.92, "lng": 100.31 },
-  "atb": { "name": "Zaiwa (Atsi)", "native": "tsau³¹va⁵¹", "lat": 24.43, "lng": 98.58 },
+  "atb": { "name": "Zaiwa", "native": "tsau³¹va⁵¹", "lat": 24.43, "lng": 98.58 },
   "prk": { "name": "Parauk Wa", "native": "pa̠rauk", "lat": 23.5, "lng": 99.5 },
   "slr": { "name": "Salar", "native": "salırça", "lat": 35.8512, "lng": 102.4891 },
   "ybe": { "name": "Western Yugur", "native": "Western Yugur", "lat": 37.9, "lng": 100.5 },
   "yuy": { "name": "Eastern Yugur", "native": "ئۇيغۇر", "lat": 39.3, "lng": 99.7 },
-  "mjg": { "name": "Monguor (Tu)", "native": "Mongghul", "lat": 36.32, "lng": 102.83 },
-  "sce": { "name": "Dongxiang (Santa)", "native": "Santa", "lat": 35.6, "lng": 103.2 },
+  "mjg": { "name": "Monguor", "native": "Mongghul", "lat": 36.32, "lng": 102.83 },
+  "sce": { "name": "Dongxiang", "native": "Santa", "lat": 35.6, "lng": 103.2 },
   "cjs": { "name": "Shor", "native": "Шор тили", "lat": 53.26, "lng": 88.54 },
   "dlg": { "name": "Dolgan", "native": "Долган тили", "lat": 71, "lng": 102.3 },
   "kdt": { "name": "Kuy", "native": "Kuy", "lat": 13.75, "lng": 105 },
   "blk": { "name": "Pa’O", "native": "ပအိုဝ်ႏဘာႏသာႏ", "lat": 19, "lng": 97.15 },
-  "njo": { "name": "Ao Naga", "native": "Ao (Chungli Ao: Ao, Mongsen Ao: Aa)", "lat": 26.17, "lng": 94.51 },
+  "njo": { "name": "Ao Naga", "native": "Ao", "lat": 26.17, "lng": 94.51 },
   "srb": { "name": "Sora", "native": "Sora", "lat": 19, "lng": 84 },
   "kjg": { "name": "Khmu", "native": "Kmhmu'", "lat": 19.89, "lng": 102.13 },
-  "mro": { "name": "Mru", "native": "Mru (ꯃꯔꯨ in Mru script)", "lat": 21.775, "lng": 92.2 },
-  "gon": { "name": "Gondi", "native": "गोंडी / కోయం (Gōṇḍī / Koitur)", "lat": 20.5, "lng": 79 },
+  "mro": { "name": "Mru", "native": "Mru", "lat": 21.775, "lng": 92.2 },
+  "gon": { "name": "Gondi", "native": "गोंडी / కోయం", "lat": 20.5, "lng": 79 },
   "bfq": { "name": "Badaga", "native": "Badaga", "lat": 11.417, "lng": 76.683 },
   "har": { "name": "Harari", "native": "Gēy Sinan", "lat": 9.3126, "lng": 42.1227 },
   "es_pr": { "name": "Puerto Rican Spanish", "native": "Español puertorriqueño", "lat": 18.47, "lng": -66.11 },
@@ -198,20 +198,20 @@ const LANG_DATA = {
   "ar_ye": { "name": "Yemeni Arabic", "native": "اللهجة اليمنية", "lat": 15.35, "lng": 44.21 },
   "ar_sa": { "name": "Najdi Arabic", "native": "اللهجة النجدية", "lat": 24.71, "lng": 46.68 },
   "ar_lb": { "name": "Lebanese Arabic", "native": "اللهجة اللبنانية", "lat": 33.89, "lng": 35.5 },
-  "en_wls": { "name": "Welsh English", "native": "English (Welsh)", "lat": 51.48, "lng": -3.18 },
-  "en_jam": { "name": "Jamaican English", "native": "English (Jamaican)", "lat": 18.01, "lng": -76.79 },
-  "en_ng": { "name": "Nigerian English", "native": "English (Nigerian)", "lat": 6.52, "lng": 3.38 },
-  "en_ph": { "name": "Philippine English", "native": "English (Philippine)", "lat": 14.6, "lng": 120.98 },
-  "en_ke": { "name": "Kenyan English", "native": "English (Kenyan)", "lat": -1.29, "lng": 36.82 },
+  "en_wls": { "name": "Welsh English", "native": "Welsh English", "lat": 51.48, "lng": -3.18 },
+  "en_jam": { "name": "Jamaican English", "native": "Jamaican English", "lat": 18.01, "lng": -76.79 },
+  "en_ng": { "name": "Nigerian English", "native": "Nigerian English", "lat": 6.52, "lng": 3.38 },
+  "en_ph": { "name": "Philippine English", "native": "Philippine English", "lat": 14.6, "lng": 120.98 },
+  "en_ke": { "name": "Kenyan English", "native": "Kenyan English", "lat": -1.29, "lng": 36.82 },
   "fr_sn": { "name": "Senegalese French", "native": "Français sénégalais", "lat": 14.69, "lng": -17.44 },
   "fr_ci": { "name": "Ivorian French", "native": "Français ivoirien", "lat": 5.36, "lng": -4.01 },
   "fr_ht": { "name": "Haitian French", "native": "Français haïtien", "lat": 18.59, "lng": -72.31 },
   "pt_mz": { "name": "Mozambican Portuguese", "native": "Português moçambicano", "lat": -25.97, "lng": 32.58 },
   "pt_cv": { "name": "Cape Verdean Portuguese", "native": "Português cabo-verdiano", "lat": 14.93, "lng": -23.51 },
-  "nl_be": { "name": "Belgian Dutch (Flemish)", "native": "Vlaams", "lat": 51.22, "lng": 4.4 },
-  "en_us": { "name": "General American English", "native": "English (American)", "lat": 39.1, "lng": -94.6 },
-  "en_ca": { "name": "Canadian English", "native": "English (Canadian)", "lat": 43.65, "lng": -79.38 },
-  "en_za": { "name": "South African English", "native": "English (South African)", "lat": -26.2, "lng": 28.05 },
+  "nl_be": { "name": "Belgian Dutch", "native": "Vlaams", "lat": 51.22, "lng": 4.4 },
+  "en_us": { "name": "General American English", "native": "American English", "lat": 39.1, "lng": -94.6 },
+  "en_ca": { "name": "Canadian English", "native": "Canadian English", "lat": 43.65, "lng": -79.38 },
+  "en_za": { "name": "South African English", "native": "South African English", "lat": -26.2, "lng": 28.05 },
   "de_ch": { "name": "Swiss Standard German", "native": "Schweizer Hochdeutsch", "lat": 47.37, "lng": 8.54 },
   "pt_ao": { "name": "Angolan Portuguese", "native": "Português angolano", "lat": -8.84, "lng": 13.23 },
   "es_ve": { "name": "Venezuelan Spanish", "native": "Español venezolano", "lat": 10.49, "lng": -66.88 },
@@ -247,13 +247,13 @@ const LANG_DATA = {
       one:    { evidence: 'direct', source: 'NHK 2016 — 一 ichi (Sino-Japanese counter); native ひとつ hitotsu is the noun-classifier form', note: 'numeral citation per WORD_LIST.definition: cardinal/default form. Sino-Japanese 一 ichi chosen over native ひとつ hitotsu as the dictionary citation' },
       good:   { evidence: 'direct', source: 'NHK 2016 — 良い yoi (literary) / いい ii (colloquial); attributive citation form per WORD_LIST.definition.good' },
     } },
-  ja_osa: { name: 'Japanese (Osaka)', native: '日本語(大阪)', lat: 34.69, lng: 135.50,
+  ja_osa: { name: "Osaka Japanese", native: "大阪弁", lat: 34.69, lng: 135.50,
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — Kansai dialect; 〜て form. 食べる→食べて, 飲む→飲んで (撥音便), ええ/良え→良うて (ウ音便)', formType: 'connective-te', note: 'citation: 食べる; connective 〜て per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — Kansai dialect; 〜て form. 食べる→食べて, 飲む→飲んで (撥音便), ええ/良え→良うて (ウ音便)', formType: 'connective-te', note: 'citation: 飲む; connective 〜て per regional-variety policy' },
       good:  { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — Kansai dialect; 〜て form. 食べる→食べて, 飲む→飲んで (撥音便), ええ/良え→良うて (ウ音便)', formType: 'connective-te', note: 'citation form ええ/良え; connective 〜て (ウ音便) per regional-variety policy' },
     } },
-  ja_aom: { name: 'Japanese (Aomori)', native: '日本語(青森)', lat: 40.82, lng: 140.74,
+  ja_aom: { name: "Aomori Japanese", native: "青森弁", lat: 40.82, lng: 140.74,
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 津軽弁; 〜て form. 食う→食って (促音便), 飲む→飲んで (撥音便), 良い→良くて', formType: 'connective-te', note: 'citation: 食べる; connective 〜て per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 津軽弁; 〜て form. 食う→食って (促音便), 飲む→飲んで (撥音便), 良い→良くて', formType: 'connective-te', note: 'citation: 飲む; connective 〜て per regional-variety policy' },
@@ -267,19 +267,19 @@ const LANG_DATA = {
       love:  { evidence: 'direct', source: 'native-speaker attestation — @Soda_Limer (X), 2026-08, who reports 情き nasaki as the form they use. 国立国語研究所『沖縄語辞典』corroborates it as a word for 情/愛: nasaki 名「1.〔文〕情。あわれむ心。2.愛のしるし。男女間の贈り物」, and its 「なさけ〔情〕」index lists nasaki first; the 「あいじょう〔愛情〕」index heads with sinasaki「なさけ。思いやり。また,男女の愛情。情愛」and cross-references なさけ', note: 'replaces 愛 eː, which was simply wrong — the dictionary lists ?ee as an interjection「おい。もし」, as「うち(のうち)」and as「藍」(indigo). This cell briefly displayed しなさき sinasaki after the 愛情 index, but that overrode the speaker on the strength of a 1976 headword and was inconsistent with ja_rys, where the same reporter\'s 情き nasaki had been accepted. Speaker attestation wins per the CONTRIBUTING section on native-speaker sources; sinasaki is kept here as the dictionary\'s 愛情 headword' },
       good:  { evidence: 'direct', source: '国立国語研究所『沖縄語辞典』(首里方言) — ゆたしゃん (dictionary romanization \'jutasjaN) 形「1.よい。いい。よろしい。良好である。善良である」', note: 'kana reading ユタサン is confirmed in BOTH directions of 大琉球語辞典: the 和琉 search (いい / 良い) returns 首里 ユタサン, and the reverse 琉和 search on ユタサン returns exactly one hit, 首里 — while 琉和 on ユタシャン returns only 与論 entries. So ユタサン is Okinawan and ユタシャン is Yoron. The 沖縄語辞典 romanization field reads \'jutasjaN, which invites the reading ゆたしゃん; that is a trap — the kana headword wins. (The 連用形 ゆたしく has ɕ only before /i/, where it is automatic, so it does not argue for ɕ before /a/.) Replaces まし maɕi, which that same dictionary lists as a NOUN — masi ①名「まし。一方よりまさること。一方よりよいこと」— i.e. "better/preferable", not the general adjective "good". Citation form: adjectives are outside the Ryukyuan connective extension (verbs only).' },
     } },
-  ja_hak: { name: 'Japanese (Hakata)', native: '日本語(博多)', lat: 33.59, lng: 130.40,
+  ja_hak: { name: "Hakata Japanese", native: "博多弁", lat: 33.59, lng: 130.40,
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 博多弁; 〜て form with 九州ウ音便. 食う→食うて, 飲む→飲うで, 良か→良かって', formType: 'connective-te', note: 'citation: 食べる; connective 〜て per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 博多弁; 〜て form with 九州ウ音便. 食う→食うて, 飲む→飲うで, 良か→良かって', formType: 'connective-te', note: 'citation: 飲む; connective 〜て per regional-variety policy' },
       good:  { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 博多弁; 〜て form with 九州ウ音便. 食う→食うて, 飲む→飲うで, 良か→良かって', formType: 'connective-te', note: 'citation form 良か; connective 〜かって per regional-variety policy' },
     } },
-  ja_kyo: { name: 'Japanese (Kyoto)', native: '日本語(京都)', lat: 35.01, lng: 135.77,
+  ja_kyo: { name: "Kyoto Japanese", native: "京都弁", lat: 35.01, lng: 135.77,
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 京言葉; 〜て form. 食べる→食べて, 飲む→飲んで, ええ→良うて (replaces pre-existing 宜し)', formType: 'connective-te', note: 'citation: 食べる; connective 〜て per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 京言葉; 〜て form. 食べる→食べて, 飲む→飲んで, ええ→良うて (replaces pre-existing 宜し)', formType: 'connective-te', note: 'citation: 飲む; connective 〜て per regional-variety policy' },
       good:  { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 京言葉; 〜て form. 食べる→食べて, 飲む→飲んで, ええ→良うて (replaces pre-existing 宜し)', formType: 'connective-te', note: 'citation form ええ (previous 宜し was incorrect Kyoto form); connective 〜て (ウ音便) per regional-variety policy' },
     } },
-  ja_hir: { name: 'Japanese (Hiroshima)', native: '日本語(広島)', lat: 34.39, lng: 132.46,
+  ja_hir: { name: "Hiroshima Japanese", native: "広島弁", lat: 34.39, lng: 132.46,
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 広島弁 (Kansai-adjacent); 〜て form. 食べる→食べて, 飲む→飲んで, 良え→良うて (ウ音便)', formType: 'connective-te', note: 'citation: 食べる; connective 〜て per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 広島弁 (Kansai-adjacent); 〜て form. 食べる→食べて, 飲む→飲んで, 良え→良うて (ウ音便)', formType: 'connective-te', note: 'citation: 飲む; connective 〜て per regional-variety policy' },
@@ -311,13 +311,13 @@ const LANG_DATA = {
     } },
   ko: { name: 'Korean', native: '한국어', lat: 37.57, lng: 126.98, // Seoul
 },
-  ko_kp: { name: 'Korean (DPRK)', native: '조선말', lat: 39.02, lng: 125.75, // Pyongyang
+  ko_kp: { name: "North Korean", native: '조선말', lat: 39.02, lng: 125.75, // Pyongyang
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 평양/문화어; 〜아/어 form. 먹다→먹어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 먹다; connective 〜아/어 per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 평양/문화어; 〜아/어 form. 먹다→먹어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 마시다; connective 〜아/어 (마시+어 縮約) per regional-variety policy' },
       good:  { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 평양/문화어; 〜아/어 form. 먹다→먹어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 좋다; connective 〜아/어 per regional-variety policy' },
     } },
-  ko_bus: { name: 'Korean (Busan)', native: '한국어(부산)', lat: 35.18, lng: 129.08,
+  ko_bus: { name: "Busan Korean", native: "부산 방언", lat: 35.18, lng: 129.08,
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 부산/경상도 방언; 〜아/어 form with stem variant 묵 for 먹. 묵다→묵어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 묵다 (Busan stem variant of 먹다); connective 묵 + 〜어 per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 부산/경상도 방언; 〜아/어 form with stem variant 묵 for 먹. 묵다→묵어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 마시다; connective 〜아/어 (마시+어 縮約) per regional-variety policy' },
@@ -335,7 +335,7 @@ const LANG_DATA = {
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 연변 조선어; 〜아/어 form. 먹다→먹어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 마시다; connective 〜아/어 (마시+어 縮約) per regional-variety policy' },
       good:  { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 연변 조선어; 〜아/어 form. 먹다→먹어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 좋다; connective 〜아/어 per regional-variety policy' },
     } },
-  zh: { name: 'Chinese (Mandarin)', native: '中文', lat: 39.90, lng: 116.40, // Beijing
+  zh: { name: "Mandarin Chinese", native: '中文', lat: 39.90, lng: 116.40, // Beijing
 
     // Audit Task 200: full per-cell wordEvidence for source-checked
     // row. Sources: 现代汉语词典 第7版 (Modern Chinese Dictionary 7th
@@ -406,9 +406,9 @@ const LANG_DATA = {
 },
   vi: { name: 'Vietnamese', native: 'Tiếng Việt', lat: 21.03, lng: 105.85, // Hanoi (Northern)
 },
-  vi_c: { name: 'Vietnamese (Central)', native: 'Tiếng Việt (Miền Trung)', lat: 16.46, lng: 107.60, // Huế
+  vi_c: { name: "Central Vietnamese", native: "Tiếng Việt Trung bộ", lat: 16.46, lng: 107.60, // Huế
 },
-  vi_s: { name: 'Vietnamese (Southern)', native: 'Tiếng Việt (Miền Nam)', lat: 10.82, lng: 106.63, // Ho Chi Minh
+  vi_s: { name: "Southern Vietnamese", native: "Tiếng Việt Nam bộ", lat: 10.82, lng: 106.63, // Ho Chi Minh
 },
   th: { name: 'Thai', native: 'ไทย', lat: 13.76, lng: 100.50, // Bangkok
 },
@@ -502,11 +502,11 @@ const LANG_DATA = {
 },
   es: { name: 'Spanish', native: 'Español', lat: 40.42, lng: -3.70, // Madrid
 },
-  es_mx: { name: 'Spanish (Mexico)', native: 'Español (México)', lat: 19.43, lng: -99.13, // Mexico City
+  es_mx: { name: "Mexican Spanish", native: "Español mexicano", lat: 19.43, lng: -99.13, // Mexico City
 },
   pt: { name: 'Portuguese', native: 'Português', lat: 38.72, lng: -9.14, // Lisbon
 },
-  pt_br: { name: 'Portuguese (Brazil)', native: 'Português (Brasil)', lat: -23.55, lng: -46.63, // São Paulo
+  pt_br: { name: "Brazilian Portuguese", native: "Português brasileiro", lat: -23.55, lng: -46.63, // São Paulo
 },
   ru: { name: 'Russian', native: 'Русский', lat: 55.76, lng: 37.62, // Moscow
 },
@@ -520,7 +520,7 @@ const LANG_DATA = {
   // revelation and the linguistic prestige center.
   ar_qur: { name: 'Quranic Arabic', native: 'العربية الفصحى التراثية', lat: 21.42, lng: 39.83,
 },
-  ar: { name: 'Arabic (MSA)', native: 'العربية الفصحى', lat: 24.71, lng: 46.68, // Riyadh (MSA centroid)
+  ar: { name: "Modern Standard Arabic", native: 'العربية الفصحى', lat: 24.71, lng: 46.68, // Riyadh (MSA centroid)
 
     wordEvidence: {
       eat:   { evidence: 'direct', note: 'Arabic dictionary citation form: 3rd person masculine singular perfective (akala "he ate"); MSA has no infinitive equivalent' },
@@ -930,9 +930,9 @@ const LANG_DATA = {
 },
   qu: { name: 'Quechua', native: 'Runasimi', lat: -13.52, lng: -71.97, // Cusco
 },
-  zh_db: { name: 'Chinese (Dongbei)', native: '东北话', lat: 41.80, lng: 123.43,
+  zh_db: { name: "Northeastern Mandarin", native: '东北话', lat: 41.80, lng: 123.43,
 },
-  zh_sc: { name: 'Chinese (Sichuan)', native: '四川话', lat: 30.57, lng: 104.07,
+  zh_sc: { name: "Sichuan Mandarin", native: '四川话', lat: 30.57, lng: 104.07,
 },
   cdo: { name: 'Min Dong', native: '闽东语', lat: 26.07, lng: 119.30,
 },
@@ -986,7 +986,7 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'cng'/'cng'; Glottolog nort2722; LaPolla & Huang (2003) A Grammar of Qiang.
   cng: { name: 'Northern Qiang', native: 'Rrmea', lat: 31.68, lng: 103.82, // Mao County, Aba Tibetan-Qiang AP, Sichuan
 },
-  ii: { name: 'Yi (Nuosu)', native: 'ꆈꌠꉙ', lat: 27.90, lng: 102.26,
+  ii: { name: "Yi", native: 'ꆈꌠꉙ', lat: 27.90, lng: 102.26,
 },
   // Azhe — Sino-Tibetan (Tibeto-Burman, Loloish, Southeastern), ~50K, China (Yunnan — Mile and Yiliang counties around Honghe Hani-Yi Autonomous Prefecture).
   // Sources: Ethnologue 27 'yiz'; Glottolog azhe1239; Wang & Yu (1994) Yi/Lolo-Burmese phonology.
@@ -996,11 +996,11 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'hni'; Glottolog hani1247; Lewis (1989) Akha-English Dictionary (Hani context).
   hni: { name: 'Hani', native: 'Haqniqdoq', lat: 23.37, lng: 102.42, // Honghe County, Yunnan (Hani heartland)
 },
-  th_isan: { name: 'Thai (Isan)', native: 'ภาษาอีสาน', lat: 16.43, lng: 102.83,
+  th_isan: { name: "Isan", native: 'ภาษาอีสาน', lat: 16.43, lng: 102.83,
 },
-  th_n: { name: 'Thai (Northern)', native: 'คำเมือง', lat: 18.79, lng: 98.98,
+  th_n: { name: "Northern Thai", native: 'คำเมือง', lat: 18.79, lng: 98.98,
 },
-  th_s: { name: 'Thai (Southern)', native: 'ภาษาใต้', lat: 7.88, lng: 98.39,
+  th_s: { name: "Southern Thai", native: 'ภาษาใต้', lat: 7.88, lng: 98.39,
 },
   za: { name: 'Zhuang', native: 'Vahcuengh', lat: 23.16, lng: 108.27, // Wuming (western Guangxi Zhuang heartland)
     // scriptDisplayPolicy — Zhuang has two living orthographies:
@@ -1067,7 +1067,7 @@ const LANG_DATA = {
   // Southern Dong (Kam) — Kra-Dai > Tai-Kadai > Kam-Sui, ~1.5M of the
   // 2.9M-strong Dong nationality; the 1958 Latin orthography is built on
   // the Rongjiang (Zhanglu) speech, which is this branch.
-  kmc: { name: 'Southern Dong (Kam)', native: 'Gaeml', lat: 25.93, lng: 108.52, // Rongjiang, Qiandongnan, Guizhou
+  kmc: { name: "Southern Dong", native: 'Gaeml', lat: 25.93, lng: 108.52, // Rongjiang, Qiandongnan, Guizhou
 },
   swi: { name: 'Sui', native: 'Ai Sui', lat: 25.98, lng: 107.87, // Miaocao, Sandu, Qiannan, Guizhou
 },
@@ -1077,7 +1077,7 @@ const LANG_DATA = {
 },
   blr: { name: 'Blang', native: 'Plang', lat: 21.96, lng: 100.45, // Menghai, Xishuangbanna, Yunnan
 },
-  rbb: { name: "De'ang (Rumai)", native: 'Rumai', lat: 24.02, lng: 97.82, // Nan Sang, Ruili, Dehong, Yunnan
+  rbb: { name: "Rumai De'ang", native: 'Rumai', lat: 24.02, lng: 97.82, // Nan Sang, Ruili, Dehong, Yunnan
 },
   srh: { name: 'Sarikoli', native: 'Sarikoli', lat: 37.77, lng: 75.23, // Tashkurgan, Kashgar, Xinjiang
 },
@@ -1085,13 +1085,13 @@ const LANG_DATA = {
   // sister to Tai and Kam-Sui. ~550K Gelao nationality, but only a few
   // thousand speakers of the language; the lects differ so much they are
   // often counted separately (Green / Red / White Gelao).
-  gqu: { name: 'Central Gelao (Qau)', native: 'Klau', lat: 26.25, lng: 105.95, // Wanzi village, Anshun, Guizhou
+  gqu: { name: "Central Gelao", native: 'Klau', lat: 26.25, lng: 105.95, // Wanzi village, Anshun, Guizhou
 },
   // She (Ho Ne) — Hmong-Mien. The nationality numbers ~710K but almost all of
   // them speak She Chinese, a Sinitic variety; this language has ~1K speakers.
-  shx: { name: 'She (Ho Ne)', native: 'Ho Ne', lat: 22.97, lng: 115.34, // Haifeng, eastern Guangdong
+  shx: { name: "Ho Ne She", native: 'Ho Ne', lat: 22.97, lng: 115.34, // Haifeng, eastern Guangdong
 },
-  lic: { name: 'Hlai (Ha)', native: 'Hlai', lat: 18.75, lng: 109.29, // Baoding village, Baoyou, Ledong, Hainan
+  lic: { name: "Ha Hlai", native: 'Hlai', lat: 18.75, lng: 109.29, // Baoding village, Baoyou, Ledong, Hainan
 },
   // Bonan — Mongolic, but reshaped by the Gansu-Qinghai (Amdo) Sprachbund it
   // shares with Monguor, Dongxiang, Santa and Eastern Yugur.
@@ -1115,7 +1115,7 @@ const LANG_DATA = {
   // Tshona Monpa (Dakpa) — East Bodish, a cousin of Tibetan rather than a
   // dialect. 'Monpa' in Chinese usage covers this and Tshangla, which are not
   // mutually intelligible.
-  twm: { name: 'Tshona Monpa (Dakpa)', native: 'Dakpa', lat: 27.99, lng: 91.95, // Mama, Cuona (Tsona), Shannan, Tibet
+  twm: { name: "Dakpa Monpa", native: 'Dakpa', lat: 27.99, lng: 91.95, // Mama, Cuona (Tsona), Shannan, Tibet
 },
   nuf: { name: 'Nusu', native: 'Nusu', lat: 26.90, lng: 98.87, // Bijiang (now Fugong), Nujiang, Yunnan
 },
@@ -1195,7 +1195,7 @@ const LANG_DATA = {
 },
   ku: { name: 'Kurdish', native: 'Kurmancî', lat: 37.22, lng: 43.00,
 },
-  ckb: { name: 'Kurdish (Sorani)', native: 'سۆرانی', lat: 36.19, lng: 44.01,
+  ckb: { name: "Sorani Kurdish", native: 'سۆرانی', lat: 36.19, lng: 44.01,
 },
   // Southern Kurdish (Kermashani / Pehlewani / Kelhori / Lekî) — Iranian (Northwest), ~3M, western Iran (Kermanshah, Ilam) + Iraqi border.
   // Sources: Ethnologue 27 'sdh'; Glottolog sout2664; Fattah (2000) Les Dialectes Kurdes Méridionaux.
@@ -1219,7 +1219,7 @@ const LANG_DATA = {
 },
   tk: { name: 'Turkmen', native: 'Türkmençe', lat: 37.95, lng: 58.38,
 },
-  mn_cn: { name: 'Mongolian (Inner)', native: 'ᠮᠣᠩᠭᠣᠯ', lat: 40.84, lng: 111.75,
+  mn_cn: { name: "Inner Mongolian", native: 'ᠮᠣᠩᠭᠣᠯ', lat: 40.84, lng: 111.75,
 },
   mnc: { name: 'Manchu', native: 'ᠮᠠᠨᠵᡠ', lat: 45.75, lng: 126.65,
 },
@@ -1228,23 +1228,23 @@ const LANG_DATA = {
   sjo: { name: 'Xibe', native: 'ᠰᡞᠪᡝ ᡤᡞᠰᡠᠨ', lat: 43.93, lng: 81.32, // Qapqal Xibe AP, Yili, Xinjiang
 },
 
-  ar_eg: { name: 'Arabic (Egyptian)', native: 'مصري', lat: 30.04, lng: 31.24,
+  ar_eg: { name: "Egyptian Arabic", native: 'مصري', lat: 30.04, lng: 31.24,
 },
-  ar_lev: { name: 'Arabic (Levantine)', native: 'شامي', lat: 33.89, lng: 35.50,
+  ar_lev: { name: "Levantine Arabic", native: 'شامي', lat: 33.89, lng: 35.50,
 },
-  ar_gulf: { name: 'Arabic (Gulf)', native: 'خليجي', lat: 25.28, lng: 55.30,
+  ar_gulf: { name: "Gulf Arabic", native: 'خليجي', lat: 25.28, lng: 55.30,
 },
-  ar_iq: { name: 'Arabic (Iraqi)', native: 'عراقي', lat: 33.31, lng: 44.37,
+  ar_iq: { name: "Iraqi Arabic", native: 'عراقي', lat: 33.31, lng: 44.37,
 },
-  ar_ma: { name: 'Arabic (Moroccan)', native: 'دارجة', lat: 33.97, lng: -6.85,
+  ar_ma: { name: "Moroccan Arabic", native: 'دارجة', lat: 33.97, lng: -6.85,
 },
-  arq: { name: 'Arabic (Algerian)', native: 'الدارجة الجزائرية', lat: 36.75, lng: 3.06, // Algiers
+  arq: { name: "Algerian Arabic", native: 'الدارجة الجزائرية', lat: 36.75, lng: 3.06, // Algiers
 },
   mey: { name: 'Hassaniya Arabic', native: 'حسانية', lat: 18.08, lng: -15.98, // Nouakchott
 },
-  ar_tn: { name: 'Arabic (Tunisian)', native: 'تونسي', lat: 36.81, lng: 10.18,
+  ar_tn: { name: "Tunisian Arabic", native: 'تونسي', lat: 36.81, lng: 10.18,
 },
-  ar_sd: { name: 'Arabic (Sudanese)', native: 'سوداني', lat: 15.59, lng: 32.53,
+  ar_sd: { name: "Sudanese Arabic", native: 'سوداني', lat: 15.59, lng: 32.53,
 },
   ti: { name: 'Tigrinya', native: 'ትግርኛ', lat: 15.34, lng: 38.93,
 },
@@ -1386,12 +1386,12 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'yao'; Glottolog yao1252; Sanderson (1922) Yao Grammar.
   yao: { name: 'Yao', native: 'Chiyao', lat: -15.07, lng: 35.71, // Zomba/Mangochi border (Yao heartland)
 },
-  en_aave: { name: 'English (AAVE)', native: 'English (AAVE)', lat: 33.75, lng: -84.39,
+  en_aave: { name: "African American English", native: "African American English", lat: 33.75, lng: -84.39,
 },
   // New Zealand English (Audit Task 149) — distinctive front-vowel raising
-  en_nz: { name: 'English (New Zealand)', native: 'English (NZ) / Reo Pākehā', lat: -36.85, lng: 174.76, // Auckland
+  en_nz: { name: "New Zealand English", native: "New Zealand English / Reo Pākehā", lat: -36.85, lng: 174.76, // Auckland
 },
-  en_au: { name: 'English (Australian)', native: 'English (Australian)', lat: -33.87, lng: 151.21,
+  en_au: { name: "Australian English", native: "Australian English", lat: -33.87, lng: 151.21,
 },
   sco: { name: 'Scots', native: 'Scots', lat: 55.86, lng: -4.25,
 },
@@ -1531,7 +1531,7 @@ const LANG_DATA = {
 },
   // Vlax Romani — most-spoken Romani dialect (Audit Task 141), Kalderash
   // base. Distinct from the macro `rom` row (which uses pan-Romani forms).
-  rmy: { name: 'Vlax Romani', native: 'romani čhib (Kalderash)', lat: 44.43, lng: 26.10, // Bucharest area
+  rmy: { name: 'Vlax Romani', native: "romani čhib", lat: 44.43, lng: 26.10, // Bucharest area
 },
   // Finnish Romani (Kaale) — Northern Romani (Romanichal-Kaale subgroup), ~10K speakers, Finland (largest concentration in Europe of NorthRomani branch).
   // Sources: Ethnologue 27 'rmf'; Glottolog kalo1259; Granqvist (2007) Suomen romanit ja heidän kielensä.
@@ -1629,36 +1629,36 @@ const LANG_DATA = {
 },
   bho: { name: 'Bhojpuri', native: 'भोजपुरी', lat: 25.32, lng: 83.01,
 },
-  en_south: { name: 'English (Southern US)', native: 'English (Southern)', lat: 33.52, lng: -86.81,
+  en_south: { name: "Southern American English", native: "Southern American English", lat: 33.52, lng: -86.81,
 },
-  en_app: { name: 'English (Appalachian)', native: 'English (Appalachian)', lat: 37.78, lng: -81.19,
+  en_app: { name: "Appalachian English", native: "Appalachian English", lat: 37.78, lng: -81.19,
 },
-  en_in: { name: 'English (Indian)', native: 'English (Indian)', lat: 28.61, lng: 77.21, // New Delhi (national-administrative center — distinct from mr Mumbai anchor for [#14] coord cluster)
+  en_in: { name: "Indian English", native: "Indian English", lat: 28.61, lng: 77.21, // New Delhi (national-administrative center — distinct from mr Mumbai anchor for [#14] coord cluster)
 },
-  en_ie: { name: 'English (Irish)', native: 'English (Irish)', lat: 53.35, lng: -6.26,
+  en_ie: { name: "Irish English", native: "Irish English", lat: 53.35, lng: -6.26,
 },
-  en_sco: { name: 'English (Scottish)', native: 'English (Scottish)', lat: 55.86, lng: -4.25,
+  en_sco: { name: "Scottish English", native: "Scottish English", lat: 55.86, lng: -4.25,
 },
-  en_yk: { name: 'English (Yorkshire)', native: 'English (Yorkshire)', lat: 53.80, lng: -1.55,
+  en_yk: { name: "Yorkshire English", native: "Yorkshire English", lat: 53.80, lng: -1.55,
 },
   // Audit Task 161: shifted from London center to Bow / East End — the
   // working-class East London where Cockney is anchored.
-  en_ck: { name: 'English (Cockney)', native: 'English (Cockney)', lat: 51.53, lng: -0.02,
+  en_ck: { name: "Cockney", native: "Cockney", lat: 51.53, lng: -0.02,
 },
   // British regional accents (owner 2026-07-21, "subdivide British English").
   // Base `en` already carries Received Pronunciation; these are the major
   // distinct regional accents anchored to their home cities.
-  en_scouse:  { name: 'English (Scouse)',        native: 'English (Scouse)',        lat: 53.41, lng: -2.99, // Liverpool
+  en_scouse:  { name: "Scouse",        native: "Scouse",        lat: 53.41, lng: -2.99, // Liverpool
 },
-  en_geordie: { name: 'English (Geordie)',       native: 'English (Geordie)',       lat: 54.97, lng: -1.61, // Newcastle upon Tyne
+  en_geordie: { name: "Geordie",       native: "Geordie",       lat: 54.97, lng: -1.61, // Newcastle upon Tyne
 },
-  en_brum:    { name: 'English (Brummie)',       native: 'English (Brummie)',       lat: 52.48, lng: -1.90, // Birmingham
+  en_brum:    { name: "Brummie",       native: "Brummie",       lat: 52.48, lng: -1.90, // Birmingham
 },
-  en_manc:    { name: 'English (Mancunian)',     native: 'English (Mancunian)',     lat: 53.48, lng: -2.24, // Manchester
+  en_manc:    { name: "Mancunian English",     native: "Mancunian English",     lat: 53.48, lng: -2.24, // Manchester
 },
-  en_wc:      { name: 'English (West Country)',  native: 'English (West Country)',  lat: 51.45, lng: -2.59, // Bristol
+  en_wc:      { name: "West Country English",  native: "West Country English",  lat: 51.45, lng: -2.59, // Bristol
 },
-  en_est:     { name: 'English (Estuary)',       native: 'English (Estuary)',       lat: 51.54, lng: 0.71, // Thames Estuary (Southend)
+  en_est:     { name: "Estuary English",       native: "Estuary English",       lat: 51.54, lng: 0.71, // Thames Estuary (Southend)
 },
   en_sg: { name: 'Singapore English', native: 'Singlish', lat: 1.35, lng: 103.82,
 },
@@ -1672,7 +1672,7 @@ const LANG_DATA = {
   // group), a variety of frr distinct from the mainland Mooring form. Forms
   // sourced from Wiktionary (Föhr-Amrum tags), frr.wikipedia (Öömrang), and the
   // Fering-Öömrang Wurdenbök. Contributed via @avzaagzonunaada.
-  frr_amr: { name: 'North Frisian (Öömrang)', native: 'Öömrang', lat: 54.63, lng: 8.34, // Amrum island (Nebel)
+  frr_amr: { name: "Öömrang North Frisian", native: 'Öömrang', lat: 54.63, lng: 8.34, // Amrum island (Nebel)
 },
   // Limburgish — West Germanic, ~1.3M, NL Limburg + Belgium + Germany.
   // Tonal (uniquely among major Germanic varieties — pitch accent like
@@ -1782,7 +1782,7 @@ const LANG_DATA = {
   // Slavic loans). Polytonic script until 1982 monotonic reform. Pedagogical
   // stage: the form taught for reading 19c.-20c. Greek lit (Roidis, Papadia-
   // mantis), official documents, and ecclesiastical Greek.
-  el_kath: { name: 'Greek (Katharevousa)', native: 'Καθαρεύουσα', lat: 37.98, lng: 23.73, // Athens (state administration center)
+  el_kath: { name: "Katharevousa Greek", native: 'Καθαρεύουσα', lat: 37.98, lng: 23.73, // Athens (state administration center)
 },
   egy: { name: 'Ancient Egyptian', native: '𓂋 𓈖 𓆎𓅓𓏏', lat: 25.69, lng: 32.64,
     wordEvidence: {
@@ -1862,7 +1862,7 @@ const LANG_DATA = {
   // Pali, Thai-Pali). Anchored at Anuradhapura, Sri Lanka — the historical
   // center of Theravada scholasticism where Buddhaghosa compiled the
   // Visuddhimagga commentary tradition.
-  pi_edu: { name: 'Pedagogical Pali', native: 'Pāli (Theravāda)', lat: 8.31, lng: 80.40,
+  pi_edu: { name: 'Pedagogical Pali', native: "Pāli", lat: 8.31, lng: 80.40,
 },
   // Maharastri Prakrit — Indo-European Indo-Aryan (Middle Indic, ~1st BCE-13th CE; main literary Prakrit alongside Pali pi). Reconstructed from Jain Agamas, Jaina Maharashtri texts.
   // Sources: Ethnologue 27 'pmh'; Glottolog maha1305; Pischel (1900) Grammatik der Prakrit-Sprachen.
@@ -1991,7 +1991,7 @@ const LANG_DATA = {
 },
   paus: { name: 'Proto-Austronesian', native: 'Proto-Austronesian', lat: 23.70, lng: 121.00,
 },
-  zh_song: { name: 'Classical Chinese (Song)', native: '文言(宋)', lat: 34.80, lng: 114.31,
+  zh_song: { name: "Song-Ming Literary Chinese", native: "宋明文言", lat: 34.80, lng: 114.31,
 },
   // Classroom Classical Chinese (Cantonese pedagogical reading) — the
   // standard Cantonese reading of 文言文 (Literary Chinese) as taught in
@@ -2003,13 +2003,13 @@ const LANG_DATA = {
   // reading is the canonical Sinitic pedagogical reading tradition outside
   // Mandarin and preserves more Middle Chinese-derived phonological
   // distinctions than Mandarin (tonal contrasts, final consonants -k/-t/-p).
-  zh_wenyan_edu: { name: 'Classical Chinese (Cantonese pedagogical)', native: '文言文(粵音)', lat: 22.32, lng: 114.17, // Hong Kong
+  zh_wenyan_edu: { name: "Cantonese-read Classical Chinese", native: "粵音文言文", lat: 22.32, lng: 114.17, // Hong Kong
 },
-  zh_han: { name: 'Han Chinese', native: '漢語(漢代)', lat: 34.26, lng: 108.94,
+  zh_han: { name: 'Han Chinese', native: "漢代漢語", lat: 34.26, lng: 108.94,
 },
-  zh_tang: { name: 'Tang Chinese', native: '漢語(唐代)', lat: 34.26, lng: 108.94,
+  zh_tang: { name: 'Tang Chinese', native: "唐代漢語", lat: 34.26, lng: 108.94,
 },
-  ja_edo: { name: 'Japanese (Edo)', native: '江戸言葉', lat: 35.68, lng: 139.69,
+  ja_edo: { name: "Edo-period Japanese", native: '江戸言葉', lat: 35.68, lng: 139.69,
 },
   // Japanese Kanbun Reading (漢文訓読) — Japanese pedagogical reading tradition
   // for Classical Chinese texts (文言文) via kun-yomi (semantic readings),
@@ -2026,7 +2026,7 @@ const LANG_DATA = {
   // Audit Task 148: shifted from Kyoto Gosho (35.01, 135.77) to Heian-kyō
   // historical western palace area so ja_heian / ja_kyo / ja_chu no longer
   // cluster on a single coordinate. Heian-jingū / former 平安宮 site.
-  ja_heian: { name: 'Japanese (Heian)', native: '平安京言葉', lat: 35.05, lng: 135.74,
+  ja_heian: { name: "Heian-period Japanese", native: '平安京言葉', lat: 35.05, lng: 135.74,
     wordEvidence: {
       n99: { evidence: 'direct',
              source: "ja.wiktionary 九十九 lists つくも as its 和語 reading and glosses the number as 「百より一少ない数。99」, 'the number one less than a hundred'; つくもがみ is glossed 「老女のしらが」, an old woman's white hair. Locus classicus: 伊勢物語 63段, 「百年に一年たらぬつくも髪」 — hair one year short of a hundred years",
@@ -2082,7 +2082,7 @@ const LANG_DATA = {
   // in Samguk Sagi. Hyangchal used Chinese characters for both
   // semantic and phonetic readings; reconstruction follows Lee KM
   // (1993, 2003), Sohn (1999), Whitman (2015).
-  oko: { name: 'Old Korean (Silla)', native: '古代韓國語', lat: 35.85, lng: 129.22, // Gyeongju (Silla capital)
+  oko: { name: "Old Korean", native: '古代韓國語', lat: 35.85, lng: 129.22, // Gyeongju (Silla capital)
     // Surface uses Hyangchal/Idu 当て字 (phonetic borrowings) where attested
     // in idu/hyangga corpus; semantic borrowings + phonetic suffix where the
     // hybrid pattern is well-documented (e.g. 一等 for hʌnah). Pure semantic
@@ -2122,7 +2122,7 @@ const LANG_DATA = {
   // the same source every other cell in this row comes from. They had been
   // sitting on the Silla row under invented graphs (阿米 / 阿比); reported by
   // @Gutascii (X).
-  ko_gor: { name: 'Goryeo Korean (Early Middle)', native: '高麗時代韓國語', lat: 37.97, lng: 126.55, // Kaesong (Goryeo capital)
+  ko_gor: { name: "Goryeo Korean", native: '高麗時代韓國語', lat: 37.97, lng: 126.55, // Kaesong (Goryeo capital)
     wordEvidence: {
       n99:    { evidence: 'inferred',
                 source: "鷄林類事 (1103) 九曰鴉好 ahop 'nine' and 九十曰鴉訓 ahon 'ninety', in a decade run reading 十曰噎, 二十曰戌沒, 三十曰實漢 … 八十曰逸頓, 九十曰鴉訓, 百曰醞",
@@ -2153,7 +2153,7 @@ const LANG_DATA = {
   // Confucian education at Văn Miếu Quốc Tử Giám (Temple of Literature,
   // Hanoi) from the 11th c. to 1919 abolition; survives in modern
   // Vietnamese historical-Confucian curriculum.
-  vi_han: { name: 'Vietnamese Hán văn (Sino-reading)', native: 'Hán văn (漢文)', lat: 21.03, lng: 105.84, // Văn Miếu, Hanoi
+  vi_han: { name: "Vietnamese Hán văn", native: "Hán văn", lat: 21.03, lng: 105.84, // Văn Miếu, Hanoi
 },
   // native was 'Tiếng Việt (Chữ Nôm)' — the name of the Nôm row written in quốc ngữ,
   // the very orthography that replaced it. Every other script-defined row writes its
@@ -2179,11 +2179,11 @@ const LANG_DATA = {
 },
   // === Phase 2: high-population missing languages ===
   // Sinitic (Chinese varieties)
-  cjy: { name: 'Jin (Shanxi)', native: '晋语', lat: 37.87, lng: 112.55, // Taiyuan
+  cjy: { name: "Jin", native: '晋语', lat: 37.87, lng: 112.55, // Taiyuan
 },
-  hsn: { name: 'Xiang (Hunan)', native: '湘语', lat: 28.20, lng: 112.97, // Changsha
+  hsn: { name: "Xiang", native: '湘语', lat: 28.20, lng: 112.97, // Changsha
 },
-  gan: { name: 'Gan (Jiangxi)', native: '赣语', lat: 28.68, lng: 115.86, // Nanchang
+  gan: { name: "Gan", native: '赣语', lat: 28.68, lng: 115.86, // Nanchang
 },
   // Indo-Aryan (large missing)
   mai: { name: 'Maithili', native: 'मैथिली', lat: 26.15, lng: 85.90, // Darbhanga
@@ -2224,7 +2224,7 @@ const LANG_DATA = {
   bal: { name: 'Balochi', native: 'بلوچی', lat: 30.18, lng: 67.00, // Quetta
 },
   // Niger-Congo (West African)
-  ak: { name: 'Akan (Twi)', native: 'Akan', lat: 6.69, lng: -1.62, // Kumasi
+  ak: { name: "Akan", native: 'Akan', lat: 6.69, lng: -1.62, // Kumasi
 },
   // Adangme — Niger-Congo Kwa (Ga-Adangme), ~1M speakers, southeastern Ghana coastal plain.
   // Sources: Ethnologue 27 'ada'; Glottolog adan1247; Kropp Dakubu (1987) Adangme grammar.
@@ -2846,7 +2846,7 @@ const LANG_DATA = {
 },
   // === Phase 3H: Sinitic (Chinese) varieties ===
   // Min branch
-  mnp: { name: 'Min Bei (Northern Min)', native: '建瓯话', lat: 27.04, lng: 118.30, // Jian'ou
+  mnp: { name: "Min Bei", native: '建瓯话', lat: 27.04, lng: 118.30, // Jian'ou
 },
   // (cpx Pu-Xian Min moved to later block — see end of LANG_DATA, audit §6.28 dedup Session 4)
   nan_te: { name: 'Teochew', native: '潮州话', lat: 23.35, lng: 116.68, // Shantou
@@ -3116,7 +3116,7 @@ const LANG_DATA = {
   fan: { name: 'Fang', native: 'Fang', lat: 0.39, lng: 9.45, // Libreville
 },
   // Khoisan (with click consonants)
-  naq: { name: 'Nama (Khoekhoe)', native: 'Khoekhoegowab', lat: -22.55, lng: 17.08, // Windhoek
+  naq: { name: "Nama", native: 'Khoekhoegowab', lat: -22.55, lng: 17.08, // Windhoek
 },
   hts: { name: 'Hadza', native: 'Hadzane', lat: -3.65, lng: 35.05, // Lake Eyasi
 },
@@ -3215,7 +3215,7 @@ const LANG_DATA = {
 },
   // Muscogee (Creek) — Muskogean, ~4K speakers, Oklahoma + Florida (Seminole). Sister to Choctaw (cho).
   // Sources: Ethnologue 27 'mus'; Glottolog cree1271; Martin (2011) Grammar of Creek (Muskogee).
-  mus: { name: 'Muscogee (Creek)', native: 'Mvskoke', lat: 35.85, lng: -95.94, // Okmulgee, OK (Muscogee Nation HQ)
+  mus: { name: "Muscogee", native: 'Mvskoke', lat: 35.85, lng: -95.94, // Okmulgee, OK (Muscogee Nation HQ)
 },
   // Eskimo-Aleut (Yupik + Inupiaq)
   esu: { name: 'Central Alaskan Yupik', native: 'Yugtun', lat: 60.79, lng: -161.76, // Bethel
@@ -3625,7 +3625,7 @@ const LANG_DATA = {
   // Berber (Morocco standard)
   tzm: { name: 'Central Atlas Tamazight', native: 'ⵜⴰⵎⴰⵣⵉⵖⵜ', lat: 32.93, lng: -5.66, // Khenifra
 },
-  tmh: { name: 'Tamasheq (Tuareg)', native: 'Tamaceq', lat: 22.78, lng: 5.52, // Tamanrasset (Tahaggart)
+  tmh: { name: "Tamasheq", native: 'Tamaceq', lat: 22.78, lng: 5.52, // Tamanrasset (Tahaggart)
 },
   // Bantu (Namibia/Angola)
   ng: { name: 'Ndonga', native: 'Oshindonga', lat: -17.78, lng: 15.69, // Oshakati
@@ -3651,7 +3651,7 @@ const LANG_DATA = {
   sg: { name: 'Sango', native: 'Sängö', lat: 4.39, lng: 18.55, // Bangui
 },
   // Bantu (Zambia)
-  toi: { name: 'Tonga (Zambia)', native: 'Chitonga', lat: -16.81, lng: 26.99, // Choma
+  toi: { name: "Zambian Tonga", native: 'Chitonga', lat: -16.81, lng: 26.99, // Choma
 },
   // === Phase 4: Historical / Ancient Languages ===
   // Indo-European (Old Iranian)
@@ -3702,7 +3702,7 @@ const LANG_DATA = {
   // (honnête "decent" still had full positive valence). Anchored at
   // Versailles — Louis XIV's court, where "le bel usage" was the
   // linguistic norm of cultured French.
-  fr_class: { name: 'Classical French (17c., Bel Usage)', native: 'Français classique', lat: 48.80, lng: 2.13, // Versailles
+  fr_class: { name: "Classical French", native: 'Français classique', lat: 48.80, lng: 2.13, // Versailles
 },
   // Old Italian (Italiano antico) / Dantesque Tuscan — the literary Florentine
   // of Dante's Divine Comedy (~1308–1320), Petrarch's Canzoniere (~1350),
@@ -3711,7 +3711,7 @@ const LANG_DATA = {
   // (1525) standardized modern Italian. Pedagogical distinctives vs Modern
   // Italian: foco (vs fuoco), bevere (vs bere), core (vs cuore), mercede
   // (vs grazie), passato remoto-heavy syntax, archaic articles (lo, li). Coordinate: Florence (Firenze), Dante's birthplace and Tuscan literary center.
-  it_dan: { name: 'Old Italian (Dantesque)', native: 'volgare illustre', lat: 43.77, lng: 11.25,
+  it_dan: { name: "Dante-era Italian", native: 'volgare illustre', lat: 43.77, lng: 11.25,
 },
   goh: { name: 'Old High German', native: 'diutisk', lat: 49.99, lng: 8.27, // Mainz
 },
@@ -3887,7 +3887,7 @@ const LANG_DATA = {
   xsa: { name: 'Sabaean', native: '𐩪𐩨𐩱', lat: 15.45, lng: 45.35, // Marib
 },
   // Old Javanese
-  kaw: { name: 'Old Javanese (Kawi)', native: 'ꦨꦴꦰꦏꦮꦶ', lat: -7.79, lng: 110.36 },
+  kaw: { name: "Old Javanese", native: 'ꦨꦴꦰꦏꦮꦶ', lat: -7.79, lng: 110.36 },
   kho: { name: 'Khotanese', native: '𑀳𑁆𑀯𑀢𑀦𑀽', lat: 37.11, lng: 79.93 },
   // Early New High German / Luther-era German (Frühneuhochdeutsch, ENHG,
   // ~1350-1650) — the German of Luther's Bible (1522 NT, 1534 complete,
@@ -3901,7 +3901,7 @@ const LANG_DATA = {
   // Bawm) and pre-standard regional variation. Anchored at Wittenberg —
   // Luther's home, posting of the 95 Theses (1517), center of the
   // Reformation and ENHG literary prestige.
-  de_lut: { name: 'Early New High German (Luther-era)', native: 'Frühneuhochdeutsch (Luthers Sprache)', lat: 51.87, lng: 12.65, // Wittenberg
+  de_lut: { name: "Luther-era German", native: "Lutherdeutsch", lat: 51.87, lng: 12.65, // Wittenberg
 },
   gmh: { name: 'Middle High German', native: 'diutsch', lat: 50.00, lng: 8.27, // Mainz / Rhine
 },
@@ -3916,7 +3916,7 @@ const LANG_DATA = {
   // with /ʃ/ for j/x); active formal usted etymon "vuestra merced" still
   // in transition. Anchored at Madrid, Habsburg court center of the
   // Siglo de Oro literary world.
-  es_sgl: { name: 'Golden Age Spanish (Siglo de Oro)', native: 'Castellano del Siglo de Oro', lat: 40.42, lng: -3.70, // Madrid (Habsburg court)
+  es_sgl: { name: "Golden Age Spanish", native: 'Castellano del Siglo de Oro', lat: 40.42, lng: -3.70, // Madrid (Habsburg court)
 },
   osp: { name: 'Old Spanish', native: 'castellano', lat: 42.34, lng: -3.70, // Burgos
 },
@@ -4041,7 +4041,7 @@ const LANG_DATA = {
 },
   // Aukan / Ndyuka — English-based maroon creole, ~30K, Suriname (Tapanahony River) + French Guiana. Distinct from Sranan; main maroon language.
   // Sources: Ethnologue 27 'djk'; Glottolog ndyu1242; Huttar & Huttar (1994) Ndyuka grammar.
-  djk: { name: 'Aukan (Ndyuka)', native: 'Okanisi tongo', lat: 4.20, lng: -54.45, // Drietabbetje, upper Tapanahony River
+  djk: { name: "Aukan", native: 'Okanisi tongo', lat: 4.20, lng: -54.45, // Drietabbetje, upper Tapanahony River
 },
   // Saramaccan — English-/Portuguese-based maroon creole (~50% English / ~35% Portuguese / ~15% African substrate), ~26K, Suriname (Suriname River) + French Guiana.
   // Sources: Ethnologue 27 'srm'; Glottolog sara1340; Smith (1987) The Genesis of the Creole Languages of Surinam; Aboh & Smith (2009).
@@ -4224,7 +4224,7 @@ const LANG_DATA = {
   // Western (hyw) Modern Armenian. Coordinate: Vagharshapat (Etchmiadzin),
   // seat of the Armenian Catholicos and where Mashtots's Bible was first
   // read aloud.
-  hy_grab: { name: 'Classical Armenian (Grabar)', native: 'Գրաբար', lat: 40.16, lng: 44.30,
+  hy_grab: { name: "Classical Armenian", native: 'Գրաբար', lat: 40.16, lng: 44.30,
 },
   // === Phase 7: regional gap-fillers ===
   // Trans-New Guinea (Papuan)
@@ -4326,7 +4326,7 @@ const LANG_DATA = {
   cnh: { name: 'Hakha Chin', native: 'Lai Holh', lat: 22.65, lng: 93.61, // Hakha, Chin State, Myanmar
 },
   // Khmer variety (Thailand-Cambodia border)
-  kxm: { name: 'Northern Khmer', native: 'ភាសាខ្មែរ (Surin)', lat: 14.88, lng: 103.49, // Surin
+  kxm: { name: 'Northern Khmer', native: "ភាសាខ្មែរសុរិន្ទ", lat: 14.88, lng: 103.49, // Surin
 },
   // Mongolian (historical)
   // Middle Mongolian. Co-located with Old Turkic at the Orkhon valley
@@ -4337,26 +4337,26 @@ const LANG_DATA = {
   xng: { name: 'Middle Mongolian', native: 'ᠮᠣᠩᠭᠣᠯ', lat: 47.20, lng: 102.83, // Karakorum / Orkhon valley
 },
   // Japanese dialects (additional)
-  ja_kg: { name: 'Japanese (Kagoshima)', native: '日本語(鹿児島)', lat: 31.59, lng: 130.55, // Kagoshima
+  ja_kg: { name: "Kagoshima Japanese", native: "鹿児島弁", lat: 31.59, lng: 130.55, // Kagoshima
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 鹿児島弁; 〜て form with 九州ウ音便. 食う→食うて, 飲む→飲うで, 良か→良かって', formType: 'connective-te', note: 'citation: 食べる; connective 〜て per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 鹿児島弁; 〜て form with 九州ウ音便. 食う→食うて, 飲む→飲うで, 良か→良かって', formType: 'connective-te', note: 'citation: 飲む; connective 〜て per regional-variety policy' },
       good:  { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 鹿児島弁; 〜て form with 九州ウ音便. 食う→食うて, 飲む→飲うで, 良か→良かって', formType: 'connective-te', note: 'citation form 良か; connective 〜かって per regional-variety policy' },
     } },
-  ja_sd: { name: 'Japanese (Sendai)', native: '日本語(仙台)', lat: 38.27, lng: 140.87, // Sendai
+  ja_sd: { name: "Sendai Japanese", native: "仙台弁", lat: 38.27, lng: 140.87, // Sendai
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 仙台弁 (Tohoku); 〜て form. 食う→食って (促音便), 飲む→飲んで (撥音便), いい→良くて', formType: 'connective-te', note: 'citation: 食べる; connective 〜て per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 仙台弁 (Tohoku); 〜て form. 食う→食って (促音便), 飲む→飲んで (撥音便), いい→良くて', formType: 'connective-te', note: 'citation: 飲む; connective 〜て per regional-variety policy' },
       good:  { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 仙台弁 (Tohoku); 〜て form. 食う→食って (促音便), 飲む→飲んで (撥音便), いい→良くて', formType: 'connective-te', note: 'citation form 良い/いい; connective 〜くて per regional-variety policy' },
     } },
   // Korean dialects (additional)
-  ko_hg: { name: 'Korean (Hamgyong)', native: '함경방언', lat: 39.92, lng: 127.54, // Hamhung
+  ko_hg: { name: "Hamgyong Korean", native: '함경방언', lat: 39.92, lng: 127.54, // Hamhung
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 함경도 방언; 〜아/어 form. 먹다→먹어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 먹다; connective 〜아/어 per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 함경도 방언; 〜아/어 form. 먹다→먹어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 마시다; connective 〜아/어 (마시+어 縮約) per regional-variety policy' },
       good:  { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 함경도 방언; 〜아/어 form. 먹다→먹어, 마시다→마셔, 좋다→좋아', formType: 'connective-eo-a', note: 'citation: 좋다; connective 〜아/어 per regional-variety policy' },
     } },
-  ko_jl: { name: 'Korean (Jeolla)', native: '전라방언', lat: 35.16, lng: 126.85, // Gwangju
+  ko_jl: { name: "Jeolla Korean", native: '전라방언', lat: 35.16, lng: 126.85, // Gwangju
     wordEvidence: {
       eat:   { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 전라도 방언; 〜아/어 form with 보조용언 부러 (완료강조). 묵어 (stem 묵), 마셔 (마시+어 縮約), 좋아부러 (좋아 + 부러)', formType: 'connective-eo-a', note: 'citation: 묵다 (Jeolla stem variant of 먹다); connective 묵 + 〜어 per regional-variety policy' },
       drink: { evidence: 'direct', source: 'regional-variety policy (CONTRIBUTING C3) — 전라도 방언; 〜아/어 form with 보조용언 부러 (완료강조). 묵어 (stem 묵), 마셔 (마시+어 縮約), 좋아부러 (좋아 + 부러)', formType: 'connective-eo-a', note: 'citation: 마시다; connective 〜아/어 (마시+어 縮約) per regional-variety policy' },
@@ -4486,7 +4486,7 @@ const LANG_DATA = {
   // Old Thai (Sukhothai era) — 13c. Ramkhamhaeng inscription (1283), the earliest
   // attested Thai. Sukhothai script, ancestor of modern Thai. Many words cognate
   // with modern Thai.
-  sukh: { name: 'Old Thai (Sukhothai)', native: 'ภาสาไทย (สุโขทัย)', lat: 17.02, lng: 99.82,
+  sukh: { name: "Sukhothai Thai", native: "ภาสาไทยสุโขทัย", lat: 17.02, lng: 99.82,
 
     wordEvidence: {
       eat:   { evidence: 'inferred', note: 'Old Thai "กิน" broad consume verb covers eat/drink in Sukhothai-era texts; pending detailed source verification (Audit Task 120)' },
@@ -4870,7 +4870,7 @@ const LANG_DATA = {
       one:    { evidence: 'direct', source: 'Nojima (1996) — tasa "one"; basic numeral (Bunun has unusual numeral system without simple PAn reflexes)', formType: 'free-word' },
       good:   { evidence: 'direct', source: 'Nojima (1996) — masial "good"; ma- stative prefix on root sial', formType: 'free-word' },
     } },
-  trv: { name: 'Truku (Seediq)', native: 'Seediq Truku', lat: 24.16, lng: 121.62, // Hualien (Taroko)
+  trv: { name: "Truku/Seediq", native: 'Seediq Truku', lat: 24.16, lng: 121.62, // Hualien (Taroko)
 
     // Audit Task 200/173: full per-cell wordEvidence for source-checked
     // Truku (Seediq) row. Sources: Sakuma, Pei-Ling (2004) Seediq
@@ -4906,7 +4906,7 @@ const LANG_DATA = {
     } },
   tsu: { name: 'Tsou', native: 'Cou', lat: 23.51, lng: 120.80, // Alishan
 },
-  tao: { name: 'Tao (Yami)', native: 'Tao', lat: 22.04, lng: 121.55, // Orchid Island (Lanyu)
+  tao: { name: "Tao", native: 'Tao', lat: 22.04, lng: 121.55, // Orchid Island (Lanyu)
 },
   // Puyuma (Pinuyumayan) — Austronesian Formosan (one of the 9 primary Austronesian branches; Puyuma is one of the most divergent), ~3K, Taiwan (East Coast — Taitung County, Beinan Township).
   // Sources: Ethnologue 27 'pyu'; Glottolog puyu1239; Cauquelin (2004) The Aborigines of Taiwan: The Puyuma.
@@ -4920,7 +4920,7 @@ const LANG_DATA = {
   // Sources: Ethnologue 27 'ssf'; Glottolog thao1240; Blust (2003) Thao Dictionary.
   ssf: { name: 'Thao', native: 'Thaw a tnaw', lat: 23.85, lng: 120.92, // Sun Moon Lake (Lake Candidius), Nantou
 },
-  hak_tw: { name: 'Taiwanese Hakka (Sixian)', native: '台灣客家話 (四縣腔)', lat: 24.55, lng: 120.93, // Miaoli (Sixian heartland)
+  hak_tw: { name: "Taiwanese Hakka", native: "台灣客家話四縣腔", lat: 24.55, lng: 120.93, // Miaoli (Sixian heartland)
 },
 
   // === Phase 15: more Chinese dialects ===
@@ -4929,21 +4929,21 @@ const LANG_DATA = {
   // groups), Hailu Taiwanese Hakka, and Pu-Xian Min. Tones use Chao numbers
   // converted to Chao tone letters where standard; some sources differ on
   // narrow tone values for these underdocumented varieties.
-  wuu_sz: { name: 'Wu (Suzhou)', native: '苏州话', lat: 31.30, lng: 120.59, // Suzhou
+  wuu_sz: { name: "Suzhou Wu", native: '苏州话', lat: 31.30, lng: 120.59, // Suzhou
 },
-  wuu_wz: { name: 'Wu (Wenzhou)', native: '温州话', lat: 27.99, lng: 120.66, // Wenzhou
+  wuu_wz: { name: "Wenzhou Wu", native: '温州话', lat: 27.99, lng: 120.66, // Wenzhou
 },
-  nan_qz: { name: 'Min Nan (Quanzhou)', native: '泉州話', lat: 24.87, lng: 118.68, // Quanzhou
+  nan_qz: { name: "Quanzhou Hokkien", native: '泉州話', lat: 24.87, lng: 118.68, // Quanzhou
 },
   nan_hai: { name: 'Hainanese', native: '海南话', lat: 20.04, lng: 110.32, // Haikou
 },
-  zh_wh: { name: 'Mandarin (Wuhan)', native: '武汉话', lat: 30.59, lng: 114.30, // Wuhan
+  zh_wh: { name: "Wuhan Mandarin", native: '武汉话', lat: 30.59, lng: 114.30, // Wuhan
 },
-  zh_zz: { name: 'Mandarin (Zhongyuan)', native: '郑州话', lat: 34.75, lng: 113.62, // Zhengzhou
+  zh_zz: { name: "Zhongyuan Mandarin", native: '郑州话', lat: 34.75, lng: 113.62, // Zhengzhou
 },
-  hak_hl: { name: 'Taiwanese Hakka (Hailu)', native: '台灣客家話 (海陸腔)', lat: 24.81, lng: 120.97, // Hsinchu (Hailu heartland)
+  hak_hl: { name: "Hailu Hakka", native: "台灣客家話海陸腔", lat: 24.81, lng: 120.97, // Hsinchu (Hailu heartland)
 },
-  cpx: { name: 'Pu-Xian Min (Hinghwa)', native: '莆仙话', lat: 25.43, lng: 119.00, // Putian
+  cpx: { name: "Pu-Xian Min", native: '莆仙话', lat: 25.43, lng: 119.00, // Putian
 },
 
   // === Phase 16: SE Asian high-population minority languages ===
@@ -4961,7 +4961,7 @@ const LANG_DATA = {
 },
   kjp: { name: 'Pwo Karen', native: 'ဖျိၣ်', lat: 16.71, lng: 98.57, // Mae Sot area (Pwo communities)
 },
-  kac: { name: 'Jingpo (Kachin)', native: 'Jinghpaw', lat: 25.38, lng: 97.40, // Myitkyina
+  kac: { name: "Jingpo", native: 'Jinghpaw', lat: 25.38, lng: 97.40, // Myitkyina
 },
   wbm: { name: 'Wa', native: 'Vāx', lat: 22.07, lng: 99.21, // Pangsang/Wa State
 },
@@ -5242,9 +5242,9 @@ const LANG_DATA = {
 },
   yue_nn: { name: 'Nanning Yue', native: '南宁白话', lat: 22.82, lng: 108.38, // Nanning (E; separated from cnp Pinghua, both were at 108.32)
 },
-  zh_cq: { name: 'Chinese (Chongqing)', native: '重庆话', lat: 29.56, lng: 106.55,
+  zh_cq: { name: "Chongqing Mandarin", native: '重庆话', lat: 29.56, lng: 106.55,
 },
-  zh_jn: { name: 'Chinese (Jinan)', native: '济南话', lat: 36.65, lng: 117,
+  zh_jn: { name: "Jinan Mandarin", native: '济南话', lat: 36.65, lng: 117,
 },
   zh_km: { name: 'Kunming Mandarin', native: '昆明话', lat: 25.04, lng: 102.72,
 },
@@ -5273,7 +5273,7 @@ const LANG_DATA = {
 },
   pkp: { name: 'Pukapukan', native: 'Te Reo Pukapuka', lat: -10.88, lng: -165.83,
 },
-  qxq: { name: 'Qashqai', native: 'Qašqāyī (قشقایی)', lat: 29.62, lng: 52.54,
+  qxq: { name: 'Qashqai', native: "قشقایی", lat: 29.62, lng: 52.54,
 },
   wls: { name: 'Wallisian', native: 'Faka\'uvea', lat: -13.28, lng: -176.18,
 },

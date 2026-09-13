@@ -85,6 +85,7 @@ const WORD_ORDER = [
     "black",
     // experimental / partial words (🧪) — mapped only where a sourced form
     // exists, so they are grouped last, after the full-coverage core words.
+    "blue",
     "butterfly",
     "foot",
     "cuckoo",

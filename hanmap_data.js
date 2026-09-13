@@ -18152,7 +18152,7 @@ const HAN_LANG_META = {
     "speakersSource": "後期中古漢語 (Late Middle Chinese, Pulleyblank 1991再構)"
   },
   "ko": {
-    "name": "Korean Hanja reading",
+    "name": "Korean",
     "native": "한국 한자음",
     "family": "Koreanic",
     "reading_type": {
@@ -19371,7 +19371,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Xibe language」, 2026-05-30閲覧) / Ethnologue (sjo)"
   },
   "ko_mid": {
-    "name": "Middle Korean Sino-reading",
+    "name": "Middle Korean",
     "period": "10–16c",
     "native": "동국정운식 한자음",
     "lat": 37.57,
@@ -19434,7 +19434,7 @@ const HAN_LANG_META = {
     "speakersSource": "中期朝鮮語 (15-16世紀、訓民正音以後)"
   },
   "ja_ojp": {
-    "name": "Old Japanese on-yomi",
+    "name": "Old Japanese Go-on",
     "period": "5–8c",
     "native": "上代日本語呉音",
     "lat": 34.68,
@@ -19566,7 +19566,7 @@ const HAN_LANG_META = {
     "speakersSource": "古漢越語 (Old Sino-Vietnamese, 唐代借音層)"
   },
   "th": {
-    "name": "Thai Chinese loan layer",
+    "name": "Thai",
     "native": "ไทย",
     "lat": 15.87,
     "lng": 100.99,
@@ -19628,7 +19628,7 @@ const HAN_LANG_META = {
     "speakersSource": "Ethnologue 2024 (tha)"
   },
   "bo_sino": {
-    "name": "Modern Tibetan Sino-reading",
+    "name": "Lhasa Tibetan",
     "native": "ལྷ་སའི་སྐད",
     "lat": 29.65,
     "lng": 91.13,
@@ -19701,7 +19701,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Standard Tibetan」, 2026-05-30閲覧) / Ethnologue (bod)"
   },
   "ko_kp": {
-    "name": "DPRK Sino-Korean",
+    "name": "North Korean",
     "native": "문화어 한자음",
     "lat": 39.04,
     "lng": 125.76,
@@ -19780,7 +19780,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Demographics of North Korea」, 2026-05-30閲覧)"
   },
   "ko_zai": {
-    "name": "Zainichi Korean Sino-reading",
+    "name": "Zainichi Korean",
     "native": "재일 한국・조선인 한자음",
     "lat": 34.92,
     "lng": 135.5,
@@ -21092,7 +21092,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Gyeongsang dialect」, 2026-05-30閲覧)"
   },
   "ja_kgs": {
-    "name": "Kagoshima Sino-Japanese",
+    "name": "Kagoshima Japanese",
     "native": "薩隅方言",
     "lat": 31.59,
     "lng": 130.56,
@@ -21122,7 +21122,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (日本語版「薩隅方言」, 2026-05-30閲覧)"
   },
   "ja_okn": {
-    "name": "Okinawan Sino-Japanese",
+    "name": "Okinawan Japanese",
     "native": "ウチナーヤマトゥグチ",
     "lat": 26.21,
     "lng": 127.68,
@@ -21152,7 +21152,7 @@ const HAN_LANG_META = {
     "speakersSource": "Wikipedia (英語版「Okinawan Japanese」, 2026-05-30閲覧)"
   },
   "ja_thk": {
-    "name": "Tōhoku Sino-Japanese",
+    "name": "Tōhoku Japanese",
     "native": "東北方言",
     "lat": 38.27,
     "lng": 140.87,

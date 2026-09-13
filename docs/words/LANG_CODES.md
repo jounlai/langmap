@@ -18,7 +18,7 @@ Total: 1187 codes.
 | `ach` | Acholi | アチョリ語 | Nilo-Saharan (Eastern Sudanic, Nilotic, Western Nilotic, Southern Luo) | ~1.5M |
 | `acn` | Achang | アチャン語 | Sino-Tibetan (Lolo-Burmese, Burmish) | ~30K (Achang nationality ~40K) |
 | `acu` | Achuar | アチュアル語 | Jivaroan | ~5K (Peru ~3K + Ecuador ~2K) |
-| `acw` | Omani Arabic | オマーンアラビア語 | Afro-Asiatic (Semitic) | ~11M (Hejaz, Saudi Arabia) |
+| `acw` | Hijazi Arabic | ヒジャーズ・アラビア語 | Afro-Asiatic (Semitic) | ~11M (Hejaz, Saudi Arabia) |
 | `ada` | Adangme | アダンメ語 | Atlantic-Congo (Volta-Niger, Kwa, Ga-Adangme) | ~1M |
 | `adi` | Adi | アディ語 | Sino-Tibetan (Tibeto-Burman, Tani, Western) | ~250K |
 | `adt` | Adnyamathanha | アドニャマザンハ語 | Pama-Nyungan | ~10 fluent + ~150 partial speakers |
@@ -68,7 +68,7 @@ Total: 1187 codes.
 | `ar_ma` | Moroccan Arabic | モロッコ・アラビア語 | Semitic | ~30M |
 | `ar_ps` | Palestinian Arabic | パレスチナ・アラビア語 | Afro-Asiatic (Semitic) | ~4–5M (Palestinian territories + diaspora) |
 | `ar_qur` | Quranic Arabic | クルアーン・アラビア語 | Afro-Asiatic (Semitic, Central, Arabic, Classical) | Active liturgical/pedagogical use (no L1 community) |
-| `ar_sa` | Saudi Arabic | サウジ・アラビア語 | Semitic | ~14–19M |
+| `ar_sa` | Najdi Arabic | ナジュド・アラビア語 | Semitic | ~14–19M |
 | `ar_sd` | Sudanese Arabic | スーダン・アラビア語 | Semitic | ~32M |
 | `ar_sy` | Syrian Arabic | シリア・アラビア語 | Semitic | ~5M |
 | `ar_tn` | Tunisian Arabic | チュニジア・アラビア語 | Semitic | ~12M |
@@ -827,7 +827,7 @@ Total: 1187 codes.
 | `peo` | Old Persian | 古ペルシア語 | Indo-European (Iranian, Old, Southwestern) | Extinct (~6th-4th c. BCE; royal Achaemenid) |
 | `phn` | Phoenician | フェニキア語 | Afro-Asiatic (Northwest Semitic, Canaanite) | Extinct (~1500 BCE-3rd c. CE) |
 | `pi` | Pali | パーリ語 | Indo-European (Indo-Aryan, Middle) | Extinct (liturgical) |
-| `pi_edu` | Theravada Pali | 上座部パーリ語 | Indo-European (Indo-Aryan, Middle; Theravada monastic pedagogy) | Active monastic/lay pedagogical use (Theravada) |
+| `pi_edu` | Pedagogical Pali | 教学パーリ語 | Indo-European (Indo-Aryan, Middle; Theravada monastic pedagogy) | Active monastic/lay pedagogical use (Theravada) |
 | `pis` | Pijin | ピジン語 | English-based creole (Melanesian Pijin) | ~370K |
 | `piu` | Pintupi-Luritja | ピントゥピ・ルリチャ語 | Pama-Nyungan | ~1K (vulnerable) |
 | `pjt` | Pitjantjatjara | ピチャンチャチャラ語 | Pama-Nyungan (Wati, Western Desert) | ~3K |
@@ -1099,7 +1099,7 @@ Total: 1187 codes.
 | `wo` | Wolof | ウォロフ語 | Atlantic (Niger-Congo) | ~12M (~5M L1 + ~7M L2) |
 | `woe` | Woleaian | ウォレアイ語 | Austronesian (Micronesian) | ~1.7–5K L1 |
 | `wrh` | Wiradjuri | ウィラジュリ語 | Pama-Nyungan (Central New South Wales, Wiradhuric) | ~1.5K (revival, no first-language speakers) |
-| `wuu` | Shanghainese | 上海呉語 | Sinitic (Wu) | ~80M (Wu family total) |
+| `wuu` | Shanghai Wu | 上海呉語 | Sinitic (Wu) | ~80M (Wu family total) |
 | `wuu_hz` | Hangzhou Wu | 杭州呉語 | Sinitic (Wu, Taihu) | ~1.4M |
 | `wuu_jh` | Jinhua Wu | 金華呉語 | Sinitic (Wu, Wuzhou 婺州片) | ~2M |
 | `wuu_jx` | Jiaxing Wu | 嘉興呉語 | Sinitic (Wu, Taihu / Suhujia 苏沪嘉) | ~4.5M |

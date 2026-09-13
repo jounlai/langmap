@@ -1,5 +1,5 @@
 /**
- * The head has two competing sources almost everywhere. Latin caput and Germanic *haubudą go back to one word, but NOT to PIE: it is shared by Italic and Germanic and nothing else, which is why Kroonen files *káput as West-European and Mallory & Adams leave it out of their PIE words for 'head'. Caput gives Latin caput (→ Italian capo, Spanish cabeza, Romanian cap) and, through a correspondence irregular enough to be famous, English head and German Haupt. The etymon that DOES reconstruct to PIE is the s-stem *ḱérh₂os, Greek kárā and Sanskrit śiras — though even its root, *ḱerh₂-, is glossed 'head, top' AND 'horn' in the same entry, which is how Latin cornū belongs to it too. But the everyday word in much of Romance and in German comes from a vessel instead, and twice over independently: Latin testa 'pot' displaced caput in French tête and Italian testa, while German Kopf is Old High German kopf 'drinking cup' (Proto-Germanic *kuppaz), a separate shift that arrived at the same place. Greek kephalḗ and Sanskrit śiras stand apart, and Semitic uses *raʔš (Arabic raʔs, Hebrew roʔš), a root that also means 'beginning' and 'chief'. Sinitic has two etyma, 首 (Old Chinese *l̥uʔ) and 頭 (*[m-t]ˤo), the second having displaced the first. Turkic points to baš, Uralic to *päŋe (Finnish pää, Hungarian fej), Bantu to *-tʊ́è. Austronesian *quluh survives in Malay hulu 'upstream, head of' — but the ordinary Malay word kepala is a Sanskrit loan, कपाल kapāla 'skull, bowl', long compared with the caput at the top of this paragraph though the connection is not secure, arriving in Malay from the other direction.
+ * The head has two competing sources almost everywhere. Latin caput and Germanic *haubudą go back to one word — but only Italic and Germanic have it, and Beekes treats it as an Ancient European loanword rather than an inherited PIE etymon. Caput gives Latin caput (→ Italian capo, Spanish cabeza, Romanian cap) and, through a correspondence irregular enough to be famous, English head and German Haupt. What does reconstruct is the ROOT *ḱerh₂- — and it is glossed 'head, top' and 'horn' together, which is how Latin cornū belongs to it too. Its daughters take their word for 'head' from different derivatives of it: Greek kárā from *ḱŕ̥h₂esnh₂, Sanskrit śiras from *ḱŕ̥h₂os, Hittite ḫaršar from *ḱróur. So PIE has a root here, not a noun. But the everyday word in much of Romance and in German comes from a vessel instead, and twice over independently: Latin testa 'pot' displaced caput in French tête and Italian testa, while German Kopf is Old High German kopf 'drinking cup' — from Proto-Germanic *kuppaz, or borrowed from Late Latin cuppa 'cup', which is what Pfeifer prefers; either way it is a vessel, and a second, independent arrival at the same place. Greek kephalḗ stands outside that root altogether, and Semitic uses *raʔš- (Arabic raʔs, Hebrew roʔš), a root that also means 'beginning' and 'chief'. Sinitic has two etyma, 首 (Old Chinese *l̥uʔ) and 頭 (*[m-t]ˤo), the second having displaced the first. Turkic points to *baĺč (Turkish baş), Uralic to *päŋe (Finnish pää, Hungarian fej), Bantu to *-tʊ́è. Austronesian *quluh survives in Malay hulu 'upstream, head of' — but the ordinary Malay word kepala is a Sanskrit loan, कपाल kapāla 'skull, bowl', long compared with the caput at the top of this paragraph though the connection is not secure, arriving in Malay from the other direction.
  */
 WORDS.head = {
   label: {
@@ -86,10 +86,14 @@ WORDS.head = {
     // From a mainland-only database: no Ryukyuan reflex means 'head'
     // (Okinawan chiburu; Ryukyuan かしら is 'chief'). Round 528.
     p_jpn: ["*kasira", "kasira"],
-    // Round 531/528: the string first shipped here, *ḱr̥rēh₂, is printed by no
-    // source. The root is *ḱerh₂- "head, top; horn"; the s-stem derived from it
-    // is the 'head' noun — Greek kárā, Sanskrit śiras-.
-    p_ine: ["*ḱérh₂os", "ḱérh₂os"],
+    // Three strings in three days, and round 532 is why. *ḱr̥rēh₂ (shipped
+    // first) is printed by no source. *ḱérh₂os (round 528) is a real derivative
+    // but bundles reflexes that do not belong to it: Greek kárā is from
+    // *ḱŕ̥h₂esnh₂, Sanskrit śiras from *ḱŕ̥h₂os, Hittite ḫaršar from *ḱróur —
+    // three different derivatives of one root. PIE has a ROOT here, not a noun,
+    // so the cell carries the root, the way eye carries *h₃ékʷ-. It is glossed
+    // 'head, top' AND 'horn' in the same entry.
+    p_ine: ["*ḱerh₂-", "ḱerh₂"],
     vi_han: ["首", "tʰu˧˩˧"],
     es_cr: ["cabeza", "kaˈβesa"],
     es_hn: ["cabeza", "kaˈβesa"],

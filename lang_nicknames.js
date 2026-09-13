@@ -76,6 +76,7 @@ const LANG_NICKNAMES = {
         ja_oki: "うちなーぐち",
         pal: "パフラヴィー語",
         sa: "梵語",
+        wuu: "上海語",
     },
 };
 

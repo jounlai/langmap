@@ -40,6 +40,7 @@ row is simply absent for that UI and the formal name shows in its place.
 | ja | ja_oki | うちなーぐち | 国立国語研究所『うちなーぐち活用辞典』(2021)、国立国会図書館サーチ https://iss.ndl.go.jp/books/R100000002-I031348734-00 — 国研の刊行物名に採用。RULE 6: 沖縄語より長いが、話者自身の呼称。表記ゆれ（ウチナーグチ／沖縄口）あり、国研の書名に合わせ平仮名 |
 | ja | pal | パフラヴィー語 | 山川出版社『世界史小辞典』改訂新版「パフラヴィー語」項：「中期ペルシア語の通称。」 https://kotobank.jp/word/ぱふらゔいー語-3131467 — 辞典が明示的に「通称」と記載。RULE 6: 字数はほぼ同じだが、一般的な認知度はこちらが高い |
 | ja | sa | 梵語 | デジタル大辞泉「サンスクリット語の異称。」／精選版 日本国語大辞典「サンスクリット語の別称。…中国および日本でいう称。」 https://kotobank.jp/word/梵語-133217 — 三辞典すべてに立項。最も堅い一件 |
+| ja | wuu | 上海語 | 改訂新版 世界大百科事典「上海語」項：「中国の上海市で使用される呉語中国語（呉方言）のなかの代表的方言の一つ。〈上海話〉，あるいは〈滬語（こご）〉という。」 https://kotobank.jp/word/上海語-287740 — 辞典の見出し語。地図側の「上海呉語」は呉語諸行との体系的な区別のための命名 . Round 527 suspended this entry because wordmap_data.js called the row "Wu Chinese" while lang_names.js called it Shanghainese; round 533 settled it — the row's own cells are Shanghai (姆妈 m̩ma, 水 sz̩˧˥) and 18 of the 19 UIs already said Shanghai Wu, so English was the outlier and was aligned |
 
 ## Rejected, and why
 

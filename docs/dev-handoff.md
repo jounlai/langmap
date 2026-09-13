@@ -2543,5 +2543,113 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     Nilotic Bari バリ語 identically to Balinese, Glottolog's only alternative name for bfa is *Beri*,
     and no attested Japanese disambiguation exists.
 
+97. **Rally 527-536: ten rounds, one question each, over the nickname layer, the proto cells and
+    the 2,937 renamed strings.** The split is what makes a rally work, and this one is the strongest
+    evidence yet: **every round found something no other round would have.**
+
+    **The rounds removed as much as they added, in both directions.** Seven nicknames dropped (32 →
+    25), four cells emptied, two cells filled that had been wrongly skipped, and one form deleted
+    that no source prints. A rally that only adds is not reviewing.
+
+    **528 — two cells were wrongly EMPTY, and the recorded reasons were false.** `puaz` new was
+    skipped as "no Stubbs set is glossed 'new'"; Stubbs has a section headed **NEW, YOUNG**, and set
+    1523 spans six branches across both primary divisions — broader support than the `puaz` **head**
+    cell that shipped, which is [SUA] only. `psem` new was held back for being an unvocalised root;
+    StarLing prints \*ḥad(i)t̠-, a vocalised adjectival stem with reflexes in five branches. **A
+    skip reason is a claim, and nobody had been checking those.**
+
+    **531/532 — the same string was wrong three times, because the prose and the cell agreed with
+    each other.** `p_ine` head shipped as \*ḱr̥rēh₂, which no source prints and which is not a
+    well-formed PIE shape. Round 528 replaced it with \*ḱérh₂os — a real derivative, but the three
+    reflexes the prose bundles under it come from three *different* ones: Greek κάρᾱ from
+    \*ḱŕ̥h₂esnh₂, Sanskrit śiras from \*ḱŕ̥h₂os, Hittite ḫaršar from \*ḱróur. PIE has a **root**
+    here, not a noun. The cell carries \*ḱerh₂- now, and the note at the cell records all three so a
+    fourth pass does not start over. **Both of my authorities for "not PIE" were also
+    misattributed** — Wiktionary cites Mallory & Adams *for* \*káput, and the substrate framing is
+    Beekes', not Kroonen's.
+
+    **The `head` paragraph has now been corrected in five separate passes in four days**, every one
+    of them a pass looking at something else. That is the strongest argument in this repo for the
+    single-question rally: nobody sets out to check prose.
+
+    **530 — a shirt leaves the browser.** Rule 2 (a nickname never crosses UI languages) is a
+    property of the *session*; a printed object has no UI. アングロサクソン語 was kept for Japanese
+    and rejected for English on reasoning that was right — the dog-whistle is anglophone-political,
+    and ISSEME renamed over use "in public discourse", which is what a garment is. But asked what
+    the shirt says, the answer is "Anglo-Saxon", in English. Now rule 6 in the file header.
+
+    **Not one of the 32 nicknames was a slur.** The failures were subtler: `mame-loshn` names a
+    *relationship* ("a mother tongue"), so printed alone it is a first-person claim by the wearer;
+    `Lallans` excludes Doric and Insular Scots; `Twi` excludes Fante; `Manc` standing alone means a
+    person from Manchester. And two nicknames are **better** than the formal name beside them —
+    `pcm` Naijá was adopted to escape a slur, and `nds` inverts the direction entirely, since
+    Oldenburg records that "the term *Low German* has been used pejoratively for centuries".
+
+    **533/536 — half of the `iso6393` field is an assumption.** `wordmap_meta.js` backfills "a
+    three-letter row code is its own ISO 639-3", supplying **547 of 1,187 rows**. 536 audited all
+    546 others: **537 clean, nine wrong**, five of them a code that denotes a different language —
+    `asu` is Tanzanian but ISO asu is Brazilian (9,718 km), `aja` is Beninese but ISO aja is South
+    Sudanese, `zts` is a Zapotec 19 km from the one it claims, `bik` is an individual language
+    wearing its own macrolanguage's code. `ISO_IDENTITY_EXCEPT` now lets a row opt out with a
+    reason, `ISO_CORRECTED` sets the five right codes — **and the corrections immediately exposed
+    five Ethnologue links pointing at the wrong language's page**, which `source_link_check.js`
+    caught the moment the field changed.
+
+    **534 overturned more of my own calls than any other round.** `bfa` ja カロ・バリ語 was a
+    coinage and two attested Japanese disambiguations exist; `sg` he — I moved the wrong side, giving
+    he.wikipedia's actual **Sango** string to the obscure Tanzanian language; the Chinese Ladin fix
+    never reached Cantonese, where 拉丁語 *is* Latin; Swahili had Ladin and Judeo-Spanish reversed.
+    It also vindicated the capitalisation pass for a better reason than I had: **CLDR encodes this
+    exact case** — es/it/pt declare `contextTransformUsage type="languages"` with `stand-alone` and
+    `uiListOrMenu` → `titlecase-firstword`, first word only, which is what was done.
+
+    **535 exercised 91 states of the name switch and found the state machine sound** — two-active
+    and none-active unreachable, all four states surviving a hash round trip, pre-feature `nat=1`
+    links restoring unchanged. What it found instead: **the third option did nothing in 17 of the 19
+    UI languages**, rendering and clicking and writing `abbr=1` into a shareable URL while producing
+    a byte-identical map. It also corrected this repo's own commit message: the es_mx/pt_br bug
+    `bcc2dc80` claims to have fixed **is not reachable**, because `_normalizeUiLang` collapses the
+    regional codes at every entry point. The base-language step is correct defence, not a fix.
+
+    **The Tangut pin was displaying another language.** `meta_desc/txg.js` was a byte-for-byte copy
+    of `p_jpk`'s description. Every guard on these files checks a description against *itself* —
+    translation parity, length, no added figures — and a copied body passes all of them.
+    `description_duplicate_check.js` hashes the English body and fails on any claimed by two codes;
+    wired at 0.
+
+    **And the repair found worse than the description: five of the 33 Tangut cells carry a character
+    that means something else.** `good` uses 𗏁, which is FIVE — the same graph the `five` cell
+    correctly uses — `three` uses 'then', `fish` uses 'month', `eat` uses 'not', `drink` uses a
+    verbal agreement suffix. The romanisations are mostly right, so it is a character-lookup error.
+    All five emptied: a wrong character is worse than an empty cell. Two of them also carried tone
+    letters outside the two-tone system the row's own header defines.
+
+    **Three guards were added and one third of a defect class closed by each:**
+    `lang_name_collision_check.js` (one label, two languages — 25 found),
+    `description_duplicate_check.js`, and `lang_name_case_check.js` wired in at last, having sat
+    unwired and failing at 53 for months. **That is three unwired or missing guards in one week;
+    look for the next one.**
+
+    **Open after this rally**, in rough order of cost if left:
+
+    - **Duplicate rows wearing a naming costume.** `mjg`/`mvf` are the same language, and 534
+      settled the merge direction from the word data, not the names: `mvf` holds conservative
+      Mongghul, `mjg` holds several plainly Khalkha forms left over from when it was labelled
+      モンゴル語 — so merge **onto `mjg` with `mvf`'s content**. 57 files outside `lang_names/`
+      mention mvf. `cr`/`crk` and `afb`/`ar_gulf` are the same shape.
+    - **`itb`'s description asserts the opposite of the fact** in all 19 languages — "counted
+      separately from Ivatan by ISO and Ethnologue", when ISO has no code for it at all.
+    - **`wuu`'s record still says "Wu Chinese"** while its cells, its pin and all 19 display names
+      are Shanghai. One of the two is wrong.
+    - **The ISO checker 536 designed and did not build**: fail any row whose `iso6393` shares no name
+      token with `iso-639-3.tab`'s `Ref_Name`, or whose coordinate is >300 km from Glottolog's. Both
+      signals independently caught every hard error in that round. Needs the two tables vendored.
+    - `pban` new's tone is contested and **BLR3 is no longer queryable online**; `p_sit` head drops
+      STEDT's `/s` prefix alternation; `p_hmx` and `p_dra` leave cover symbols in the IPA field.
+    - Four French names are English-shaped (Nivaclé → nivakié, Makushi → macuxi, Hup → hupda);
+      `vec` sw Kiveneto is unattested; Swahili uses *cha kale* for both "Classical" and "Old" across
+      ~45 rows.
+    - **`ja.my` is the owner's call**: ビルマ語 vs ミャンマー語 is a position, not a nickname.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

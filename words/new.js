@@ -54,18 +54,44 @@ WORDS.new = {
     sw: "Mpya — kilichotengenezwa, kilichonunuliwa au kilichoanzishwa hivi karibuni; kinyume cha kuukuu. Huelezea vitu, si 'changa' kwa watu au wanyama, wala si 'wa kisasa', 'kibichi' au 'kingine'.",
   },
   data: {
+    // Stubbs 1523 *pïtuC / *pïtuwa 'new', six branches across BOTH primary
+    // divisions [NUA: Num, Hp, Tb; SUA: Tep, Cah, CrC] — broader support than
+    // the puaz head cell. Round 528 refuted the skip reason recorded in handoff
+    // 95 ("no Stubbs set is glossed 'new'"): the section is headed NEW, YOUNG.
+    // ï normalised to ɨ, which is this row's own majority spelling.
+    puaz: ["*pɨtuwa", "pɨtuwa"],
+    // StarLing prints *ḥad(i)t̠- "new" — a vocalised adjectival stem, not the
+    // bare root the cell was held back for, with adjectival reflexes in Akkadian
+    // ešš-, Ugaritic ḥdt̠, Hebrew ḥādāš, Geʕez ḥäddis, Mehri ḥeydīn. The optional
+    // vowel is kept in the surface the way pmay new keeps *ʔa(a)kʼ.
+    psem: ["*ḥad(i)ṯ-", "ħadiθ"],
     p_ryu: ["*mii-", "miː"],
     paus: ["*baqeRuh", "baqeRuh"],
     p_dra: ["*putV-", "putV"],
-    pura: ["*wuδ̕e", "wuð̕e"],
+    // UEW 1173, level FU — no Samoyedic cognate, unlike *päŋe 'head' which is
+    // level U. Surface is byte-identical to uralonet; the IPA field resolves
+    // the palatalisation mark the way the row resolves *śata -> ɕata. 531.
+    pura: ["*wuδ̕e", "wuðʲe"],
     p_sit: ["*g-sar", "g-sar"],
+    // BLR3 2495, status DER, derived from 2491 *-pɪ́ 'be burnt; be hot; be
+    // ripe'. OPEN: BLR3 is no longer queryable online, and Schadeberg 2003
+    // prints 'new' as *=pɪ́-a (HH?) — High-High, not the H-L here. His own ?
+    // marks it uncertain, so this is flagged, not decided. Round 531.
     pban: ["*-pɪ́à", "-pɪ́à"],
-    pmay: ["*ʔa(a)kʼ", "ʔaakʼ"],
+    pmay: ["*ʔa(a)kʼ", "ʔakʼ"],
+    // Ratliff's gloss and level are clean. 清 is her COMPARANDUM, not her
+    // etymology — that appendix's header says "not all Chinese comparanda
+    // listed are necessarily cognates or related forms". Round 528.
     p_hmx: ["*tshji̯əŋ", "tsʰji̯əŋ"],
     ptai: ["*ʰmɤːl", "ʰmɤːl"],
     p_aav: ["*tmeːʔ", "tmeːʔ"],
-    pmng: ["*sine", "sine"],
-    ptrk: ["*jaŋɨ", "jaŋɯ"],
+    // Nugteren 2011 heads it *sini (?~ *sine); the row is Nugteren-based
+    // (*sibaɣun, *čilaɣun, *hulaɣan), so his headword wins over EDAL's. 531.
+    pmng: ["*sini", "sini"],
+    // EDAL prints *jaŋɨ; ï is this row's own spelling of that vowel in all
+    // eight other cells (*adïg, *balïk, *tïl, *ït), which EDAL also prints
+    // with ɨ. Round 531.
+    ptrk: ["*jaŋï", "jaŋɯ"],
     p_kor: ["*sai", "sai"],
     p_jpn: ["*nipi-", "nipi"],
     p_toc: ["*ñäwe", "ɲəwe"],

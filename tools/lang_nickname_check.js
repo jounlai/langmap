@@ -76,6 +76,10 @@ try {
     if (!m) continue;
     if (m[1] === 'ui') continue; // header
     if (/^-+$/.test(m[3])) continue; // separator row
+    // The doc also carries a REJECTIONS table in the same pipe format, whose
+    // first column is a candidate name rather than a UI code. Only rows whose
+    // first cell is a real UI language are source rows.
+    if (!NAMES[m[1]]) continue;
     sourced.set(m[1] + '\t' + m[2], { nick: m[3], source: m[4] });
   }
 } catch (e) { /* reported below as every entry being unsourced */ }

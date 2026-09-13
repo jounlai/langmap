@@ -1295,7 +1295,7 @@ WORDS.bear = {
     trv: ["sumay", "sumai"],
     ssf: ["cumay", "θumai"],
     bzg: ["choma", "tʃoma"],
-    ptai: ["*hmwɯj", "hmwɯj"],
+    ptai: ["*ʰmwɯj", "ʰmwɯj"],
     och: ["熊", "*C.[ɢ]ʷ(r)əm"],
     zh_tang: ["熊", "hjuwng"],
     aii: ["ܕܒܐ", "dɪbba"],

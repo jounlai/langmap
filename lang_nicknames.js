@@ -29,9 +29,19 @@
  *    equal another row's formal name, and no two rows may share one. Enforced
  *    by tools/lang_nickname_check.js, gated at 0.
  * 4. **No brackets**, same as the formal names (handoff item 92).
- * 5. **Not a slur.** Several English varieties have a colloquial name that is
- *    used as an insult at least as often as a label. Those are left out; the
- *    test is whether speakers use it of themselves.
+ * 5. **Not a slur, and not a claim the wearer cannot make.** Several varieties
+ *    have a colloquial name used as an insult at least as often as a label;
+ *    the test is whether speakers use it of themselves. Two softer failures
+ *    count too: a name that belongs to one variety inside the row (Lallans
+ *    excludes Doric and Insular Scots), and a name that denotes a
+ *    RELATIONSHIP rather than a language (mame-loshn is 'a mother tongue', so
+ *    printed alone it is a first-person claim, not a label).
+ * 6. **It has to survive leaving the browser.** Rule 2's per-UI firewall is a
+ *    property of the session; a printed object has no UI. Before keeping a
+ *    nickname in one UI that transliterates a term rejected in another, ask
+ *    what it says to a reader of the other language. アングロサクソン語 was kept
+ *    for Japanese and then dropped on exactly this: asked what the shirt says,
+ *    the answer is "Anglo-Saxon", in English, to an English reader.
  *
  * Sources for every entry: docs/lang-nickname-sources.md.
  * Consumed via lang_names/<ui>.js (built by tools/build_lang_names.js) and
@@ -39,13 +49,11 @@
  */
 const LANG_NICKNAMES = {
     en: {
-        ak: "Twi",
         ar: "Fusha",
         ar_gulf: "Khaleeji",
         ar_ma: "Darija",
         cu: "OCS",
         en_aave: "AAVE",
-        en_manc: "Manc",
         en_my: "Manglish",
         en_sg: "Singlish",
         en_wls: "Wenglish",
@@ -60,19 +68,14 @@ const LANG_NICKNAMES = {
         p_ine: "PIE",
         pal: "Pahlavi",
         pcm: "Naijá",
-        sco: "Lallans",
-        yi: "mame-loshn",
     },
     ja: {
-        ang: "アングロサクソン語",
         ar: "フスハー",
         en_sg: "シングリッシュ",
         ja_mvi: "ミャークフツ",
         ja_oki: "うちなーぐち",
-        my: "ビルマ語",
         pal: "パフラヴィー語",
         sa: "梵語",
-        wuu: "上海語",
     },
 };
 

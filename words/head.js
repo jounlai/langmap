@@ -1,5 +1,5 @@
 /**
- * The head has two competing sources almost everywhere. Latin caput and Germanic *haubudą go back to one word, but NOT to PIE: it is shared by Italic and Germanic and nothing else, which is why Kroonen files *káput as West-European and Mallory & Adams leave it out of their PIE words for 'head'. Caput gives Latin caput (→ Italian capo, Spanish cabeza, Romanian cap) and, through a correspondence irregular enough to be famous, English head and German Haupt. The etymon that DOES reconstruct to PIE is *ḱr̥rēh₂ (Greek kárā, Sanskrit śiras, Hittite ḫaršar), which is the cell this map now carries. But the everyday word in much of Romance and in German comes from a vessel instead, and twice over independently: Latin testa 'pot' displaced caput in French tête and Italian testa, while German Kopf is Old High German kopf 'drinking cup' (Proto-Germanic *kuppaz), a separate shift that arrived at the same place. Greek kephalḗ and Sanskrit śiras stand apart, and Semitic uses *raʔš (Arabic raʔs, Hebrew roʔš), a root that also means 'beginning' and 'chief'. Sinitic has two etyma, 首 (Old Chinese *l̥uʔ) and 頭 (*[m-t]ˤo), the second having displaced the first. Turkic points to baš, Uralic to *päŋe (Finnish pää, Hungarian fej), Bantu to *-tʊ́è. Austronesian *quluh survives in Malay hulu 'upstream, head of' — but the ordinary Malay word kepala is a Sanskrit loan, कपाल kapāla 'skull, bowl', long compared with the caput at the top of this paragraph though the connection is not secure, arriving in Malay from the other direction.
+ * The head has two competing sources almost everywhere. Latin caput and Germanic *haubudą go back to one word, but NOT to PIE: it is shared by Italic and Germanic and nothing else, which is why Kroonen files *káput as West-European and Mallory & Adams leave it out of their PIE words for 'head'. Caput gives Latin caput (→ Italian capo, Spanish cabeza, Romanian cap) and, through a correspondence irregular enough to be famous, English head and German Haupt. The etymon that DOES reconstruct to PIE is the s-stem *ḱérh₂os, Greek kárā and Sanskrit śiras — though even its root, *ḱerh₂-, is glossed 'head, top' AND 'horn' in the same entry, which is how Latin cornū belongs to it too. But the everyday word in much of Romance and in German comes from a vessel instead, and twice over independently: Latin testa 'pot' displaced caput in French tête and Italian testa, while German Kopf is Old High German kopf 'drinking cup' (Proto-Germanic *kuppaz), a separate shift that arrived at the same place. Greek kephalḗ and Sanskrit śiras stand apart, and Semitic uses *raʔš (Arabic raʔs, Hebrew roʔš), a root that also means 'beginning' and 'chief'. Sinitic has two etyma, 首 (Old Chinese *l̥uʔ) and 頭 (*[m-t]ˤo), the second having displaced the first. Turkic points to baš, Uralic to *päŋe (Finnish pää, Hungarian fej), Bantu to *-tʊ́è. Austronesian *quluh survives in Malay hulu 'upstream, head of' — but the ordinary Malay word kepala is a Sanskrit loan, कपाल kapāla 'skull, bowl', long compared with the caput at the top of this paragraph though the connection is not secure, arriving in Malay from the other direction.
  */
 WORDS.head = {
   label: {
@@ -57,19 +57,39 @@ WORDS.head = {
     p_dra: ["*talay", "talay"],
     pura: ["*päŋe", "päŋe"],
     psem: ["*raʔš-", "raʔš"],
+    // STEDT #386 prints PTB *m/s-gaw; the alternating prefix is simplified
+    // here because no other cell in this row carries a slash. OPEN: check
+    // whether other p_sit cells silently simplified the same way. Round 531.
     p_sit: ["*m-gaw", "m-gaw"],
     pban: ["*-tʊ́è", "-tʊ́è"],
+    // Stubbs 1153, but tagged [SUA] only — Northern Uto-Aztecan uses a
+    // different etymon in every branch, and Stubbs notes "even though Yq
+    // itself does not have *mo'o for 'head'". Narrower than the new cell in
+    // new.js, which spans both divisions. Round 528.
     puaz: ["*moʔo", "moʔo"],
     pkar: ["*taw-", "taw"],
     p_hmx: ["*S-phreiX", "S-pʰrei"],
+    // Pittayaporn 2009 App. B note 2 goes further than "compare 頭": "This
+    // etymon is not found in NT, and might in fact be a post-PT loanword."
+    // His other 'head' entry *krawC is disqualified by his note 1 as really
+    // 'hair knot'. Round 528.
     ptai: ["*truə", "truə"],
     p_aav: ["*ɓoːkʔ", "ɓoːkʔ"],
     p_tun: ["*dili", "dili"],
-    pmng: ["*tolugai", "tolugai"],
+    // Nugteren 2011 (LOT 289) prints *tolagaï; WM is toluɣai. The string
+    // first shipped here, *tolugai, matched neither, and used ASCII g where
+    // this row writes ɣ in every back-vowel gamma (*sibaɣun, *ɣajar,
+    // *hulaɣan, *čilaɣun). Round 531.
+    pmng: ["*tolagaï", "tolagaï"],
     ptrk: ["*baĺč", "baʎtʃ"],
     p_kor: ["*məri", "məri"],
+    // From a mainland-only database: no Ryukyuan reflex means 'head'
+    // (Okinawan chiburu; Ryukyuan かしら is 'chief'). Round 528.
     p_jpn: ["*kasira", "kasira"],
-    p_ine: ["*ḱr̥rēh₂", "ḱr̩rēh₂"],
+    // Round 531/528: the string first shipped here, *ḱr̥rēh₂, is printed by no
+    // source. The root is *ḱerh₂- "head, top; horn"; the s-stem derived from it
+    // is the 'head' noun — Greek kárā, Sanskrit śiras-.
+    p_ine: ["*ḱérh₂os", "ḱérh₂os"],
     vi_han: ["首", "tʰu˧˩˧"],
     es_cr: ["cabeza", "kaˈβesa"],
     es_hn: ["cabeza", "kaˈβesa"],

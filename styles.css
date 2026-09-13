@@ -225,6 +225,18 @@ body {
         position: absolute; top: 100%; left: 0; right: 0;
         flex-direction: column; align-items: stretch; gap: 14px;
         padding: 18px 18px;
+        /* A menu taller than the window used to run off the bottom with no
+           way to reach its last items — the UI-language select and the site
+           links sit at the end, and on a landscape phone they were simply
+           unreachable. Cap the drawer at the space below the header and let
+           it scroll. --wm-header-h carries the header bar's real measured
+           height (set in wordmap.html); 64px is the usual mobile value and
+           the fallback if the script has not run. overscroll-behavior stops
+           the scroll chaining into the map behind it. */
+        max-height: calc(100dvh - var(--wm-header-h, 64px));
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
         background: #fff;
         border-bottom: 1px solid #e0e0e0;
         box-shadow: 0 4px 12px rgba(0,0,0,0.12);

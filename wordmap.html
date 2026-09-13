@@ -65,7 +65,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=130">
+    <link rel="stylesheet" href="styles.css?v=131">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3044,11 +3044,71 @@
             if (!fab || !drawer) return;
             const r = fab.getBoundingClientRect();
             if (r.height === 0) return; // not yet rendered
-            drawer.style.top   = (r.bottom + 6) + 'px';
             drawer.style.right = Math.max(8, window.innerWidth - r.right) + 'px';
+            // Keep the drawer clear of the 比較 button. Both are position:fixed
+            // at z-index 1015, so on a short window the drawer's lower controls
+            // ended up underneath the compare FAB and could not be tapped
+            // (owner, 2026-09-13). The static CSS max-height (100dvh - 180px)
+            // leaves ~28px at the bottom and the FAB wants ~50.
+            //
+            // Hanging below the gear is only the PREFERRED position. On a
+            // short window there is genuinely no room there — a 343px-tall
+            // viewport puts the gear at y=258 — so clamping the height alone
+            // just produces an unusable 17px slot. When the space below the
+            // gear is too small, the drawer rises instead and sits on top of
+            // the compare button, which is what "above the 比較 button" has to
+            // mean when the two cannot both fit below.
+            const GAP = 6, MIN_USABLE = 140, CEILING = 8;
+            const cmp = document.getElementById('compare-fab');
+            const cmpR = cmp && cmp.classList.contains('visible') ? cmp.getBoundingClientRect() : null;
+            const floor = (cmpR && cmpR.height > 0) ? cmpR.top - 8 : window.innerHeight - 12;
+            let top = r.bottom + GAP;
+            let avail = floor - top;
+            if (avail < MIN_USABLE) {
+                const wanted = Math.min(MIN_USABLE, floor - CEILING);
+                top = Math.max(CEILING, floor - wanted);
+                avail = floor - top;
+            }
+            drawer.style.top = top + 'px';
+            drawer.style.maxHeight = Math.max(80, avail) + 'px';
+        }
+        // The header's real height drives the mobile menu's max-height
+        // (--wm-header-h in styles.css). It varies with the UI language and
+        // with whether the trivia button has been hoisted into the bar.
+        function syncHeaderHeightVar() {
+            const bar = document.querySelector('.site-header-bar');
+            if (!bar) return;
+            const h = bar.getBoundingClientRect().height;
+            if (h > 0) document.documentElement.style.setProperty('--wm-header-h', h + 'px');
+        }
+        syncHeaderHeightVar();
+        window.addEventListener('resize', syncHeaderHeightVar);
+        if (typeof ResizeObserver !== 'undefined') {
+            const _hb = document.querySelector('.site-header-bar');
+            if (_hb) new ResizeObserver(syncHeaderHeightVar).observe(_hb);
         }
         positionSettingsDrawer();
         window.addEventListener('resize', positionSettingsDrawer);
+        // The compare FAB is shown and hidden as languages enter and leave the
+        // comparison, which changes the drawer's floor. Watch its class.
+        //
+        // Deferred to DOMContentLoaded on purpose: this script block sits at
+        // ~line 3019 and #compare-fab is declared at ~3328, so at parse time
+        // getElementById returns null and the observer would never attach.
+        // That is exactly what happened on the first attempt at this fix — the
+        // drawer kept measuring `floor` from window.innerHeight because cmpR
+        // was always null.
+        function watchCompareFab() {
+            if (typeof MutationObserver === 'undefined') return;
+            const cf = document.getElementById('compare-fab');
+            if (!cf) return;
+            new MutationObserver(positionSettingsDrawer)
+                .observe(cf, { attributes: true, attributeFilter: ['class'] });
+            positionSettingsDrawer();
+        }
+        if (document.readyState === 'loading')
+            document.addEventListener('DOMContentLoaded', watchCompareFab);
+        else watchCompareFab();
         const _stCb = document.getElementById('settings-toggle');
         if (_stCb) _stCb.addEventListener('change',
             () => requestAnimationFrame(positionSettingsDrawer));
@@ -3822,7 +3882,7 @@
         // caught at validation time. The dynamic wordmap_meta.js load
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
-            styles:   130,
+            styles:   131,
             data:      319,
             metaI18n:  16,
             filter:    45,

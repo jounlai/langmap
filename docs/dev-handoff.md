@@ -2651,5 +2651,77 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
       ~45 rows.
     - **`ja.my` is the owner's call**: ビルマ語 vs ミャンマー語 is a position, not a nickname.
 
+98. **Three concepts added — butterfly, foot, blue — and 72 → 75.** Owner: 「まだ単語が足りない件、
+    追加しよう」. Each was chosen for what it shows rather than for coverage: butterfly for a word that
+    refuses to travel, foot and blue for a typological split the map can colour by.
+
+    | concept | cells | what it colours by |
+    |---|---|---|
+    | butterfly | 340 | nothing — it is the "everyone invents their own" word, like cockcrow |
+    | foot | 265 | distinct 104 / **leg+foot 155** / compound 6 |
+    | blue | 365 | distinct 201 / **grue 110** / borrowed 42 / dark 9 |
+
+    **Both classified words use the existing route machinery** (`family` + `routes`), so the colouring
+    is data and touched no CSS — the same mechanism tea and sugar use for trade routes, applied to a
+    typological variable instead.
+
+    **A fourth `foot` class was designed and then deleted because nothing filled it.** "hand-like"
+    was to cover languages building the foot on the hand or arm word; comparing the foot and hand
+    translation tables across 133 shared languages gave **zero** form overlap. The nearest thing is
+    the 'palm of the leg' compound (Hebrew כף רגל, Chuvash ура лаппи, Hill Mari ял лапа, Wolof
+    láḥāp tànk) where the modifier is 'palm' or 'blade', never 'hand'. **A legend entry nothing
+    fills is a claim of its own.**
+
+    **The class had to be read, not judged.** foot came from IDS 4-370 against 4-350, NorthEuraLex
+    34_foot against 38_leg, WOLD 4-37 against 4-35, and for Sinitic the dialectal-synonym tables for
+    腳 and 腿 compared point by point; blue from the same datasets plus WALS 134A and the World Color
+    Survey. **Where a source returns the identical string for both concepts, that is the evidence** —
+    Kalmyk and Ossetian do so for blue/green in two independent datasets.
+
+    **The guards took a heavy toll on arrival, and every hit was a new cell meeting a convention it
+    had not been written to**: 17 affricate tie-bars (this atlas writes them bare), 17 stress marks
+    on monosyllables, 4 level tones spelled the other way from their own row, 1 Latin transliteration
+    in a cuneiform row (`hit` foot, emptied — a transliteration cannot be converted back without
+    inventing a spelling).
+
+    **And three times the new cell was right and an old one beside it was wrong.** `smn` foot exposed
+    four existing cells writing the glide as `y`, which is a vowel. `intra_row_dup_check` caught foot
+    and wheel sharing a word in two rows: **Fijian yava genuinely means both** and its IPA is now
+    aligned with the wheel cell, but **Hausa ƙafa is the FOOT word** — Hausa's wheel is *dabaran* —
+    so the unsourced wheel cell was the wrong half and is gone. `gan` butterfly came in as fu˥˥ where
+    that row writes a level 5 as ˥ in all 16 of its other cells.
+
+    **Cells refused rather than guessed**, which is the part worth keeping: 18 `recalled` cells
+    dropped across the three words; `lo` blue dropped because ຟ້າ arrived with **no Chao tone letter
+    in a row that marks tone on every other cell** and nothing consulted settled the Vientiane tone;
+    and most butterfly skips are script mismatches — a dataset offering a romanisation where the row
+    is written in Manchu, Tibetan, Javanese, Meetei Mayek, Shan or Tai Tham.
+
+    **The traps were worth more than the cells.** Mapudungun: IDS gives *t̯on̯-t̯on̯* for butterfly and
+    Augusta 1916 shows *tontón* is "mariposa **nocturna**" — the moth. Tajik **шабпарак**, which every
+    wordlist on the web glosses 'butterfly', is **'bat'** in both the Tajik-Russian and the Tajik
+    explanatory dictionary. Motu: transnewguinea.org gives *ruma*, which is Motu for **house** and is
+    already that row's house cell. Tashelhit was skipped outright because Destaing records that
+    *ferfettu* — the pan-Berber butterfly word — means **swallow, the bird**, in that variety.
+
+99. **OPEN: seven existing colour cells that a blue batch says are wrong.** Flagged with specific
+    counter-forms, **not changed**, because one report should not overwrite a prior cell and the
+    sources (webonary, sil.org) returned 403 when checked. Two are severe enough to look at first.
+
+    - **`red`/`aau` = "o"** — the SIL Abau dictionary is said to list `o` only as a negator and
+      conjunction, and to give **oupuey** for 'red'. A negator published as a colour.
+    - **`red`/`roo` = "kakaea"** — in both Firchow sources **kakae** is said to be 'small, little';
+      red is **revasia / turuea**.
+    - `white`/`aau` = "weyspey" → the dictionary is said to have **weys** / weyspaweys.
+    - `white`/`nha` = "wiliri" → Blevins is said to print **wilidi**.
+    - `red`/`mkz` = "mimiri" → LexiRumah/Klamer and ABVD are said to print **imiri**.
+    - `red`/`hui` = "taramapi" → Lomas prints **daramabi**; the same word, since Huli /d/ is
+      voiceless word-initially, so this one is a transcription choice rather than an error.
+    - `red`/`nys` = "yurnin" → not in the Noongar dictionaries opened, which give **mirda** 'red'
+      and **moorn** 'black'.
+
+    The Rotokas and Abau ones matter most: if they hold, the atlas has been publishing 'small' and a
+    negator as the word for red.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

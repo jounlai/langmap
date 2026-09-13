@@ -55,6 +55,15 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    aau: "distinct",
+    adt: "distinct",
+    hui: "dark",
+    kpf: "grue",
+    mkz: "borrowed",
+    mpt: "distinct",
+    pjt: "borrowed",
+    roo: "distinct",
+    wrh: "distinct",
     ab: "distinct",
     acn: "distinct",
     ady: "grue",
@@ -231,7 +240,6 @@ WORDS.blue = {
     liv: "distinct",
     lkt: "grue",
     ln: "borrowed",
-    lo: "distinct",
     lt: "distinct",
     lua: "grue",
     lv: "distinct",
@@ -420,6 +428,15 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    aau: ["orohior", "orohior"],  // Blue and green are separate adjectives, and green is transparently derived ('like the wey bird') while orohior is not, so this is not a grue system. The dictionary gives no etymology and no Tok Pisin source for orohior. Other colour adjectives in the same dictionary: weys 'white', oupuey 'red', or 'charcoal, ashes of the fire, black'. Note that the row's existing red 'o' and white 'weyspey' do not match this dictionary, which has oupuey for red and weys / weyspaweys for white — worth checking separately.
+    adt: ["unarru", "unaru"],  // Not a grue term: green is the separate aRarri /aɾari/ (with the verb aRarra virta-i- 'to turn green'). A second entry with the same form, unarru 'bluebush Maireana', shows the colour word is named from the bluebush. Other colour vocabulary from the same dictionary: varlkaRa 'white, bright, shiny', upa 'white', yalhdhatyi 'red', wawura 'black', uki- 'to be very dark, pitch-black', ngayirri 'sky'. Caveat: CHIRILA's McEntee orthography differs from the row's in places (yalhdhatyi vs the row's yalhthaji, upa vs upanha), though unarru contains no segment affected by that difference; the printed dictionary could not be opened directly. Do not confuse it with urarrunha 'blue-coloured individuals of Red Kangaroo'.
+    hui: ["mindibi", "mindibi"],  // Huli has no separate blue word in this source: the same adnominal covers black and blue, which is why Lomas glosses it 'black/blue'. Huli colour adnominals are all derived with -bi from a culturally salient referent of that colour, so a dedicated blue term would have nothing to be built on. Honest limit: Lomas's glossary is explicitly only 'Huli items that appear in the thesis', not a full dictionary, so its silence on a dedicated blue term is suggestive rather than conclusive; no full Huli dictionary was reachable. The row's red 'taramapi' is Lomas's daramabi (Huli /d/ is pronounced voiceless word-initially).
+    kpf: ["gwolâ gwolâ", "ɡwolɐ ɡwolɐ"],  // A single reduplicated noun covering green and light blue, derived from the adjective gwolâ 'raw, green (timber)' — the classic grue shape. The 43-page dictionary has no entry for 'blue' alone; the only other blue-ish item is kâmbum 'blue/purple, [flower] used to dye string', a dye plant rather than a colour term. sumun is 'dark colour, brown, black'. The row's kuring 'red' and kâukâu 'white' match the same Huon comparative material (kuriŋ, kau kau).
+    mkz: ["azul", "azul"],  // Portuguese azul. The same Klamer 2016 survey records native blue words for neighbouring non-Lusophone lects (Bunak kɔsɔ, Blagar koakoˈa, Abui walaŋai), so azul is specifically the Timor-Leste Portuguese loan, not a general Papuan form. The inherited colour vocabulary in the same session is native: green guˈʔuru, white buˈtiri (matching the row exactly), black mɛˈtana, red imiri. Stress is unmarked on azul in the source, so it is left unmarked here even though the row's butiri carries buˈtiri. Note the row's red 'mimiri' — both LexiRumah/Klamer and ABVD (Makasae, id 462) print imiri; worth checking separately.
+    mpt: ["mokim", "mokim"],  // Blue is one of Mian's five basic monomorphemic colour terms and is not the green word: green is the separate, morphologically opaque itanasǐt, which Fedden explicitly sets apart from the basic five. Fedden gives etymologies for ilem 'red' (< ilem 'blood') and kosmale 'orange' but proposes none for mokim, and marks no loan source. Fedden writes the row's white as namâ with a circumflex (tone); written without diacritics here, as the row's ilem/nama are.
+    pjt: ["puluwana", "puluwana"],  // From English 'blue one', the same -wana loan series as rituwana 'red one' and yalawana 'yellow one' in the same verse, and as Pintupi-Luritja puluuwana / kuriinwana / iluwuwana. The scripture gloss anchors it to this concept exactly — ilkaṟi puṟunypa 'like the sky'. Marked uncertain because the attestation is a Bible translation (only two tokens in the corpus) and Goddard's Pitjantjatjara/Yankunytjatjara to English Dictionary is not digitised anywhere reachable, so everyday currency could not be confirmed. The inherited alternative would be maru 'black, dark': in the sister Western Desert variety Martu Wangka the focal-blue World Color Survey chips are named with the black term maru-maru, so a future check could well move this row to class 'dark'.
+    roo: ["kuuva", "kuːβa"],  // Blue is a separate word from green (uriko, kokovara); the very existence of the compound kuuva uriko 'blue-green' shows kuuva alone does not cover green. Not a loan — the Tok Pisin equivalent given alongside it is blupela, phonologically unrelated. The orthography note in the same 1973 volume gives 'v as in bat (the lips are not completely closed)', i.e. a bilabial fricative, and 'the long vowels aa, ee, ii, oo and uu are pronounced as single vowels but are held over a longer period of time' — hence kuːβa.
+    wrh: ["ngurrumirgang", "ŋurumiɻɡaŋ"],  // Glossed 'blue as the sky' in both the modern dictionary and Günther's 1830s-40s vocabulary, which is exactly this concept. Not a grue term — green is gabargabar 'green like grass' (Günther also has gabbargabbar 'green; grass' and danbang 'green, alive (said of plants)'). Purple is built on it as a compound, warrugangngurrumirrgangdhuray, i.e. red + blue + 'having', which presupposes ngurrumirgang as a basic term. The row's girri-girri 'red' and barrabarra 'white' are confirmed by the same dictionary (girri, girrigirri; barrang, gaban).
     ab: ["аҽҵәа", "ɑʈʂʰtsʼʷɑ"],  // Abkhaz аҽҵәа vs ашьацԥшҭәала / аеҵәа.
     acn: ["səm31", "səm˧˩"],  // Achang (Longchuan) səm³¹ against ȵau⁵⁵ 'green'.
     ady: ["шхъуантӏэ", "ʃχʷaːnˈtʼa"],  // Adyghe шхъуантӏэ is given by NorthEuraLex for BOTH blue and green — the standard West Caucasian single cool-range term.

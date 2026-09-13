@@ -135,6 +135,13 @@ s = run('paired_code_name_check.js --check');
 line('paired codes name alike', num(s, /violations: (\d+)/),
     (s.match(/note: (\d+) pair/) || [])[1] ? ((s.match(/note: (\d+) pair/))[1] + ' ISO aliases') : '');
 
+// The nickname layer (lang_nicknames.js) is opt-in on the map and DEFAULT on
+// the goods hand-off, so an entry here can end up printed on a shirt. Every
+// nickname must be a name people really use, be unambiguous among 1,187 pins,
+// and carry a source in docs/lang-nickname-sources.md.
+s = run('lang_nickname_check.js --check');
+line('nicknames sourced and unique', num(s, /violations: (\d+)/));
+
 s = run('script_declaration_check.js --check');
 line('script declared matches data', num(s, /violations: (\d+)/),
     (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' overstated') : '');

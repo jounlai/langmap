@@ -2982,9 +2982,15 @@
             <button class="toggle-btn active" id="toggle-word" aria-pressed="true" aria-label="Toggle form display"><span class="label">Form</span><span class="onoff">ON</span></button>
             <button class="toggle-btn active" id="toggle-ipa" aria-pressed="true" aria-label="Toggle pronunciation / IPA / transcription display"><span class="label">Pron.</span><span class="onoff">ON</span></button>
             <button class="toggle-btn active" id="toggle-name" aria-pressed="true" aria-label="Toggle language-name display"><span class="label">Name</span><span class="onoff">ON</span></button>
-            <div class="radio-switch radio-switch-v" id="name-switch" role="radiogroup" aria-label="Name display (native / translated)">
+            <!-- Three ways to label a pin: the language's own name for itself,
+                 the formal name in the reader's UI language (the default), and
+                 the nickname it is really called by — Singlish for Singapore
+                 English. The nickname is sparse, so that option falls back to
+                 the formal name for every row that has none. -->
+            <div class="radio-switch radio-switch-v" id="name-switch" role="radiogroup" aria-label="Name display (native / translated / short)">
                 <button class="radio-opt" id="name-native" role="radio" aria-checked="false"></button>
                 <button class="radio-opt active" id="name-translated" role="radio" aria-checked="true"></button>
+                <button class="radio-opt" id="name-short" role="radio" aria-checked="false"></button>
             </div>
             <!-- Red location pins: default OFF. When ON, a small red dot is
                  drawn at each language's true lat/lng so the de-cluttered
@@ -3409,8 +3415,8 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=319"></script>
-    <script src="word_manifest.js?v=458"></script>
+    <script src="wordmap_data.js?v=320"></script>
+    <script src="word_manifest.js?v=459"></script>
     <script src="word_labels.js?v=55"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
@@ -3540,9 +3546,9 @@
          Load the shim, then English, then whichever UI language this visitor
          will actually see (~12 KB gzipped). tools/build_lang_names.js
          generates lang_names/<ui>.js from lang_names.js. -->
-    <script src="lang_names_shim.js?v=2"></script>
-    <script src="lang_names/en.js?v=177"></script>
-    <script>window.__langNamesVersion(177); window.__langNamesBoot();</script>
+    <script src="lang_names_shim.js?v=3"></script>
+    <script src="lang_names/en.js?v=178"></script>
+    <script>window.__langNamesVersion(178); window.__langNamesBoot();</script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
          map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
          guard with `|| []`, and the blinks refresh once it lands. -->
@@ -3883,15 +3889,15 @@
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:   131,
-            data:      319,
+            data:      320,
             metaI18n:  16,
             filter:    45,
-            names:   177,
+            names:   178,
             meta:     349,
             trivia:   41,
             triviaI18n: 23,
-            words:      458,
-            langWords:    213,
+            words:      459,
+            langWords:    214,
             labels:      55,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
@@ -4809,6 +4815,10 @@
 
         // --- Toggle buttons ---
         let showWord = true, showIpa = true, showName = true, showNative = false;
+        // 'formal' (default) | 'short'. Orthogonal to showNative, which wins:
+        // the native name has no nickname layer. Persisted in the hash as
+        // abbr=1 so a shared link keeps whichever the sender was looking at.
+        let nameStyle = 'formal';
         let showPins = false;
         // "Only": restrict the map to the comparison list. Off by default, and
         // force-off whenever that list is empty — see syncOnlyCompareBtn.
@@ -4826,6 +4836,7 @@
         const btnOnlyCompare = document.getElementById('toggle-only-compare');
         const nameNative = document.getElementById('name-native');
         const nameTranslated = document.getElementById('name-translated');
+        const nameShort = document.getElementById('name-short');
         const eraModern = document.getElementById('era-modern');
         const eraHistorical = document.getElementById('era-historical');
 
@@ -4896,28 +4907,35 @@
         if (btnPins) btnPins.addEventListener('click', () => updateHash());
 
         function updateNameSwitch() {
-            nameNative.classList.toggle('active', showNative);
-            nameTranslated.classList.toggle('active', !showNative);
-            nameNative.setAttribute('aria-checked', String(showNative));
-            nameTranslated.setAttribute('aria-checked', String(!showNative));
+            const mode = showNative ? 'native' : nameStyle;   // native | formal | short
+            const on = (btn, is) => {
+                if (!btn) return;
+                btn.classList.toggle('active', is);
+                btn.setAttribute('aria-checked', String(is));
+            };
+            on(nameNative, mode === 'native');
+            on(nameTranslated, mode === 'formal');
+            on(nameShort, mode === 'short');
             nameNative.textContent = wt('native') || 'Native';
             const uiName = WM_UI_LABELS[uiLang] || 'English';
             nameTranslated.textContent = uiName;
+            if (nameShort) nameShort.textContent = wt('shortName') || 'Short';
         }
-        nameNative.addEventListener('click', () => {
-            if (showNative) return;
-            showNative = true;
+        function setNameMode(mode) {
+            const was = showNative ? 'native' : nameStyle;
+            if (was === mode) return;
+            showNative = (mode === 'native');
+            // Leaving 'short' for 'native' keeps the nickname selected
+            // underneath, so coming back to the translated side returns you to
+            // the nickname rather than silently resetting to the formal name.
+            if (mode !== 'native') nameStyle = mode;
             updateNameSwitch();
             updateMarkers(currentWord);
             updateHash();
-        });
-        nameTranslated.addEventListener('click', () => {
-            if (!showNative) return;
-            showNative = false;
-            updateNameSwitch();
-            updateMarkers(currentWord);
-            updateHash();
-        });
+        }
+        nameNative.addEventListener('click', () => setNameMode('native'));
+        nameTranslated.addEventListener('click', () => setNameMode('formal'));
+        if (nameShort) nameShort.addEventListener('click', () => setNameMode('short'));
         updateNameSwitch();
 
         const fontSizeSlider = document.getElementById('font-size');
@@ -5660,8 +5678,17 @@
 
         function getDisplayName(code, lang) {
             if (showNative) return lang.native;
+            if (window.__langNameFor) return window.__langNameFor(uiLang, code, nameStyle, lang.name);
             const names = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
             return names[code] || lang.name;
+        }
+        // The goods hand-off always prints the nickname where one exists, no
+        // matter what the map is showing — "Singapore English" is the right
+        // name for an atlas and "Singlish" is the right name for a chest.
+        function getNicknameOrName(code, lang) {
+            if (window.__langNameFor) return window.__langNameFor(uiLang, code, 'short', (lang && lang.name) || code);
+            const names = LANG_NAMES[uiLang] || LANG_NAMES.en || {};
+            return names[code] || (lang && lang.name) || code;
         }
 
         // ---------------------------------------------------------------
@@ -6669,6 +6696,10 @@
                 params.set('p', lat.toFixed(2) + ',' + lng.toFixed(2) + ',' + z);
             }
             if (showNative)     params.set('nat', '1');   // default: off
+            // Nickname mode rides alongside nat= rather than replacing it, so
+            // links shared before the nickname switch existed still restore
+            // exactly as they did.
+            if (nameStyle === 'short') params.set('abbr', '1'); // default: off
             if (showHistorical) params.set('hist', '1');  // default: off
             if (showPins)       params.set('pin', '1');   // default: off
             if (onlyCompare)    params.set('only', '1');  // default: off
@@ -6751,8 +6782,10 @@
                 map.setView([lat, lng], z);
             }
             const nat = params.get('nat');
-            if (nat === '0' || nat === '1') {
-                showNative = nat === '1';
+            const abbr = params.get('abbr');
+            if (nat === '0' || nat === '1' || abbr === '0' || abbr === '1') {
+                if (nat === '0' || nat === '1') showNative = nat === '1';
+                if (abbr === '0' || abbr === '1') nameStyle = abbr === '1' ? 'short' : 'formal';
                 updateNameSwitch();
             }
             const hist = params.get('hist');
@@ -7785,8 +7818,16 @@
         // `return location.hostname === TSHIRT_HOST;` to limit it to production.
         function tshirtEnabled() { return true; }
         // Build the Makoto deep-link. opts: { mode:'single'|'compare', codes:[],
-        // names:[], natives:[], uiLang }. Single uses codes[0]; compare sends the
-        // whole set. words= always points at the fixed, Makoto-validated prefix.
+        // names:[], natives:[], formals:[], uiLang }. Single uses codes[0];
+        // compare sends the whole set. words= always points at the fixed,
+        // Makoto-validated prefix.
+        //
+        // names[] carries the NICKNAME where the language has one — Singlish
+        // rather than Singapore English — because that is what a reader wants
+        // across a chest, and it is what the owner asked for. The formal name
+        // travels alongside in formal=/formals= so nothing is lost and Makoto
+        // can print either; it is additive, so their existing name= handling
+        // keeps working. Where a language has no nickname the two are equal.
         function buildTshirtHref(opts) {
             const uiL = opts.uiLang || uiLang;
             const mkLocale = ['ja'].indexOf(uiL.split('_')[0]) !== -1 ? 'ja' : 'en';
@@ -7806,11 +7847,13 @@
                 u.searchParams.set('words', WORDS_DIR);
                 u.searchParams.set('names', JSON.stringify(opts.names));
                 u.searchParams.set('natives', JSON.stringify(opts.natives));
+                if (opts.formals) u.searchParams.set('formals', JSON.stringify(opts.formals));
             } else {
                 const code = opts.codes[0];
                 u.searchParams.set('lang', code);
                 u.searchParams.set('name', opts.names[0] || code);
                 u.searchParams.set('native', opts.natives[0] || '');
+                if (opts.formals && opts.formals[0]) u.searchParams.set('formal', opts.formals[0]);
                 u.searchParams.set('words', WORDS_DIR + code + '.js');
             }
             return u.href;
@@ -8376,7 +8419,7 @@
                 const pick = o => (o[uiLang] || o[uiLang.split('_')[0]] || o.en);
                 const title = pick(msg.title);
                 const sub = pick(msg.sub).replace('{lang}', displayName);
-                const href = buildTshirtHref({ mode: 'single', codes: [code], names: [displayName], natives: [lang.native || ''], uiLang });
+                const href = buildTshirtHref({ mode: 'single', codes: [code], names: [getNicknameOrName(code, lang)], natives: [lang.native || ''], formals: [displayName], uiLang });
                 html += tshirtNudgeHtml(href, title, sub);
             }
             infoContent.innerHTML = html;
@@ -8992,8 +9035,9 @@
             const href = buildTshirtHref({
                 mode: 'compare',
                 codes,
-                names: codes.map(c => names[c] || (LANG_DATA[c] && LANG_DATA[c].name) || c),
+                names: codes.map(c => getNicknameOrName(c, LANG_DATA[c])),
                 natives: codes.map(c => (LANG_DATA[c] && LANG_DATA[c].native) || ''),
+                formals: codes.map(c => names[c] || (LANG_DATA[c] && LANG_DATA[c].name) || c),
                 uiLang,
             });
             return '<div class="compare-tshirt-wrap">' + tshirtNudgeHtml(href, title, sub) + '</div>';

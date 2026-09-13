@@ -950,7 +950,7 @@ WORDS.three = {
     phn: ["𐤔𐤋𐤔", "ʃaloʃ"],
     uga: ["𐎘𐎍𐎘", "θalaːθu"],
     xlu: ["—", "—"],
-    pal: ["𐭮𐭤", "seː"],
+    pal: ["𐭮𐭧", "seː"],
     fa_clas: ["سه", "sih"],
     syc: ["ܬܠܬ", "tlaːt"],
     fro: ["treis", "trejs"],

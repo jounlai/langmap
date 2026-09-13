@@ -9,6 +9,12 @@
  * Everything that reads names does so lazily (`LANG_NAMES[ui][code]`), so a UI
  * language that has not arrived yet simply falls through to English. Call
  * window.__ensureLangNames(ui) before re-rendering after a UI-language change.
+ *
+ * The same slice also carries the NICKNAMES for that UI (lang_nicknames.js) —
+ * the short colloquial name, sparse, no extra request. It is a separate table
+ * rather than an overlay because both names have to be reachable at once: the
+ * map can be showing "Singapore English" while the goods link sends
+ * "Singlish".
  */
 (function () {
     var LN = window.LANG_NAMES = window.LANG_NAMES || {};
@@ -21,6 +27,33 @@
         var cur = LN[ui];
         if (!cur) { LN[ui] = table; return; }
         for (var k in table) if (!(k in cur)) cur[k] = table[k];
+    };
+
+    // Nicknames: LANG_NICKNAMES[ui][code], sparse. Same merge rule as above —
+    // whatever a page put there deliberately wins.
+    var NN = window.LANG_NICKNAMES = window.LANG_NICKNAMES || {};
+    window.__langNicknamesAdd = function (ui, table) {
+        var cur = NN[ui];
+        if (!cur) { NN[ui] = table; return; }
+        for (var k in table) if (!(k in cur)) cur[k] = table[k];
+    };
+
+    // The one place that decides which name a caller gets. style is 'short' or
+    // anything else; a missing nickname falls back to the formal name IN THE
+    // SAME UI, never to the English nickname — "Singlish" inside a Russian
+    // label would be a different kind of wrong from a long name.
+    window.__langNameFor = function (ui, code, style, fallback) {
+        // es_mx and pt_br are UI languages here but not in lang_names.js, which
+        // carries one Spanish and one Portuguese table. Try the exact UI, then
+        // its base, then English — without the base step a Mexican reader got
+        // the English name for every language.
+        var base = ui ? String(ui).split('_')[0] : '';
+        var pick = function (tbl) {
+            return (ui && (tbl[ui] || {})[code]) || (base && (tbl[base] || {})[code]) || null;
+        };
+        var f = pick(LN) || (LN.en || {})[code] || fallback || code;
+        if (style !== 'short') return f;
+        return pick(NN) || f;
     };
 
     var pending = Object.create(null);

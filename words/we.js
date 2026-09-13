@@ -2085,7 +2085,7 @@ WORDS.we = {
     phn: ["𐤀𐤍𐤇𐤍", "ʔanaħnu"],
     uga: ["—", "—"],
     xlu: ["anzāš", "ˈantsaːs"],
-    pal: ["𐭠𐭬𐭠𐭤", "amaːh"],
+    pal: ["𐭠𐭬𐭠𐭧", "amaːh"],
     fa_clas: ["ما", "maː"],
     syc: ["ܚܢܢ", "ħnan"],
     fro: ["nos", "nɔs"],

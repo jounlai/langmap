@@ -956,7 +956,7 @@ WORDS.fish = {
     phn: ["𐤃𐤂", "daɡ"],
     uga: ["𐎄𐎂", "daɡu"],
     xlu: ["—", "—"],
-    pal: ["𐭬𐭠𐭤𐭩𐭪", "maːhiːɡ"],
+    pal: ["𐭬𐭠𐭧𐭩𐭪", "maːhiːɡ"],
     fa_clas: ["ماهی", "maːˈhiː"],
     syc: ["ܢܘܢܐ", "nuːnaː"],
     fro: ["poisson", "pwɛˈsõn"],

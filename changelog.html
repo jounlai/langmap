@@ -143,6 +143,17 @@
         <nav class="month-nav">Months: <strong>2026-09</strong> · <a href="changelog-202608.html">2026-08</a> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-09-13 — The name a language is actually called by 🏷️</div>
+            <ul>
+                <li><strong>Languages now carry two names, and you can choose which one the map shows.</strong> “Singapore English” is the right name for an atlas. “Singlish” is what people actually say. Both are true, so both are kept: the formal name stays the default, and the gear menu’s name switch has a third setting — native / language name / <strong>short</strong> — that swaps in the nickname wherever one exists.</li>
+                <li><strong>A nickname has to be a name people really use.</strong> Not an abbreviation invented to save space on a label, not a translation of the formal name. If a language has no nickname it simply keeps its formal one, and that is the normal case — most of the atlas has no second name. Every nickname that does go in carries a source, and a check refuses to build the site if one does not.</li>
+                <li><strong>And it never crosses languages.</strong> Japanese readers say シングリッシュ and German readers say Singlish; neither is a translation of the other, and both are real. Where a language has no nickname of its own for something, its readers get the formal name rather than an English nickname dropped into the middle of their sentence.</li>
+                <li><strong>Two pairs of pins that read identically have been told apart.</strong> Cree and Plains Cree were both labelled “Plains Cree”, although the atlas’s own notes say one is the whole dialect continuum and the other is a specific variety — and in Swahili the label for the plains variety actually said <em>coastal</em>. And the two Gulf Arabic pins, one in Doha and one in Dubai, had the same name; the Doha one is now Qatari Arabic, which is what its own record always said it was.</li>
+                <li><strong>A bug that had been hiding in plain sight for Mexican and Brazilian readers.</strong> The atlas keeps one Spanish list of language names and one Portuguese one. A reader whose interface was set to Mexican Spanish or Brazilian Portuguese matched neither, and silently fell all the way through to English — so every language name on their map was in English. Fixed while consolidating the name lookup into one place.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-09-13 — Every language name on the map, rewritten ✏️</div>
             <ul>
                 <li><strong>The brackets are gone.</strong> A label under a map pin that read “ペルシャ語（古典）” now reads “古典ペルシャ語”, and “English (Cockney)” is simply “Cockney”. With thousands of these printed at once, a bracket is a lot of ink for a word that was doing nothing. Nearly 2,800 names were rewritten, and no language name in any of the 19 interface languages contains brackets any more.</li>

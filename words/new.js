@@ -54,6 +54,7 @@ WORDS.new = {
     sw: "Mpya — kilichotengenezwa, kilichonunuliwa au kilichoanzishwa hivi karibuni; kinyume cha kuukuu. Huelezea vitu, si 'changa' kwa watu au wanyama, wala si 'wa kisasa', 'kibichi' au 'kingine'.",
   },
   data: {
+    khq: ["taawo", "taːwo"],
     vi_han: ["新", "tən˧˧"],
     emp: ["jiwidi", "hiwidi"],
     yao: ["mpya", "mpja"],

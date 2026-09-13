@@ -26,7 +26,7 @@ Total: 1187 codes.
 | `ady` | Adyghe | アディゲ語 | NW Caucasian (Circassian) | ~600K |
 | `aer` | Eastern Arrernte | 東部アレンテ語 | Pama-Nyungan | ~4K (vulnerable) |
 | `af` | Afrikaans | アフリカーンス語 | Germanic | ~17M |
-| `afb` | Gulf Arabic | 湾岸アラビア語 | Afro-Asiatic (Semitic) | ~36M (Gulf Arabic) |
+| `afb` | Qatari Arabic | カタール・アラビア語 | Afro-Asiatic (Semitic) | ~36M (Gulf Arabic) |
 | `agq` | Aghem | アゲム語 | Atlantic-Congo (Bantu, Grassfields, Ring) | ~30K |
 | `agr` | Aguaruna | アグアルナ語 | Jivaroan | ~55K (Peru ~50K + Ecuador ~5K) |
 | `agt` | Central Cagayan Agta | 中部カガヤン・アグタ語 | Austronesian | ~600 (UNESCO: severely endangered) |
@@ -105,8 +105,8 @@ Total: 1187 codes.
 | `bej` | Beja | ベジャ語 | Afro-Asiatic (Cushitic, North) | ~3M |
 | `bem` | Bemba | ベンバ語 | Atlantic-Congo (Bantu) | ~4M |
 | `bew` | Betawi | ブタウィ語 | Austronesian (Malayo-Polynesian, Malayic — Malay-based, heavily restructured) | ~5M (Ethnologue 6b, threatened) |
-| `bfa` | Bari | バリ語 | Nilo-Saharan | ~600K |
-| `bfq` | Badaga language | バダガ語 | Dravidian (Southern) | ~134–206K (shifting) |
+| `bfa` | Bari | カロ・バリ語 | Nilo-Saharan | ~600K |
+| `bfq` | Badaga | バダガ語 | Dravidian (Southern) | ~134–206K (shifting) |
 | `bft` | Balti | バルティ語 | Sino-Tibetan (Tibeto-Burman, Bodish, Tibetic, Western — Ladakhi-Balti subgroup) | ~440K (Pakistan ~400K + India ~40K) |
 | `bg` | Bulgarian | ブルガリア語 | Indo-European (Slavic, South) | ~7M |
 | `bgc` | Haryanvi | ハリヤーンビー語 | Indo-Aryan (Western) | ~13M |
@@ -115,11 +115,11 @@ Total: 1187 codes.
 | `bho` | Bhojpuri | ボージュプリー語 | Indo-European (Indo-Aryan, Eastern) | ~52M |
 | `bi` | Bislama | ビスラマ語 | English-based creole | ~10K (L1) / ~200K total |
 | `bik` | Bikol Central | 中部ビコル語 | Austronesian (Central Philippine, Bikol) | ~4.5M |
-| `bin` | Edo language | エド語 | Niger-Congo (Edoid) | ~2–2.3M L1 (Nigeria) |
+| `bin` | Edo | エド語 | Niger-Congo (Edoid) | ~2–2.3M L1 (Nigeria) |
 | `bjn` | Banjar | バンジャル語 | Austronesian (Malayo-Polynesian, Malayic) | ~3.5M |
 | `bla` | Blackfoot | ブラックフット語 | Algonquian | ~14–15K (L1 + L2) |
 | `blc` | Nuxalk | ヌハルク語 | Salishan | ~17 fluent (critically endangered) |
-| `blk` | Pa'O language | パアオ語 | Sino-Tibetan (Karenic) | ~860K |
+| `blk` | Pa'O | パアオ語 | Sino-Tibetan (Karenic) | ~860K |
 | `blr` | Blang | ブラン語 | Austroasiatic (Palaungic, Waic) | ~68K (Blang nationality ~120K) |
 | `blt` | Tai Dam | タイ・ダム語 | Kra-Dai (Tai, Southwestern, Northwestern) | ~750K |
 | `bm` | Bambara | バンバラ語 | Niger-Congo (Mande, Western Mande, Central Mande, Manding) | ~4–5M native (~14M with L2) |
@@ -192,7 +192,7 @@ Total: 1187 codes.
 | `com` | Comanche | コマンチ語 | Uto-Aztecan | ~0.6–2K fluent (critically endangered) |
 | `cop` | Coptic | コプト語 | Afro-Asiatic (Egyptian) | Extinct (liturgical) |
 | `cpx` | Pu-Xian Min | 莆仙語 | Sinitic (Pu-Xian Min) | ~3M |
-| `cr` | Plains Cree | 平原クリー語 | Algic (Algonquian) | ~95K (all varieties) |
+| `cr` | Cree | クリー語 | Algic (Algonquian) | ~95K (all varieties) |
 | `crh` | Crimean Tatar | クリミア・タタール語 | Turkic (Kipchak) | ~480K |
 | `crk` | Plains Cree | 平原クリー語 | Algic (Algonquian, Central, Cree-Montagnais-Naskapi) | ~26K Plains Cree (~96K all Cree dialects) |
 | `crn` | Cora | コラ語 | Uto-Aztecan | ~17K (severely endangered for some dialects) |
@@ -659,7 +659,7 @@ Total: 1187 codes.
 | `min` | Minangkabau | ミナンカバウ語 | Austronesian (Malayo-Polynesian, Malayic) | ~5.5M |
 | `mix` | Mixtepec Mixtec | ミクステペック・ミクステコ語 | Oto-Manguean (Mixtecan) | ~7–15K |
 | `mixtec` | Mixtec | ミステコ語 | Oto-Manguean (Mixtecan) | ~500K (cover row for dozens of varieties) |
-| `mjg` | Monguor language | モンゴル語 | Mongolic | ~50–100K active |
+| `mjg` | Monguor | モングォル語 | Mongolic | ~50–100K active |
 | `mk` | Macedonian | マケドニア語 | Slavic | ~2M |
 | `mkz` | Makasae | マカサエ語 | Trans-New Guinea (Timor-Alor-Pantar, Eastern Timor) | ~100K |
 | `ml` | Malayalam | マラヤーラム語 | Dravidian | ~38M |
@@ -914,7 +914,7 @@ Total: 1187 codes.
 | `sat` | Santali | サンタル語 | Austroasiatic (Munda) | ~7M |
 | `sbp` | Sangu | サング語 | Atlantic-Congo (Bantu, Western Tanzania) | ~75K |
 | `sc` | Sardinian | サルデーニャ語 | Romance | ~1M |
-| `sce` | Dongxiang language | ドンシャン語 | Mongolic | ~250K |
+| `sce` | Dongxiang | ドンシャン語 | Mongolic | ~250K |
 | `scn` | Sicilian | シチリア語 | Indo-European (Romance, Italo-Romance) | ~5M |
 | `sco` | Scots | スコットランド語 | Germanic | ~1.5M |
 | `sd` | Sindhi | シンド語 | Indo-Aryan | ~32M |
@@ -957,7 +957,7 @@ Total: 1187 codes.
 | `sq` | Albanian | アルバニア語 | Indo-European (Albanian) | ~7.5M |
 | `squ` | Squamish | スクワミッシュ語 | Salishan (Central Salish / Coast Salish) | few elderly L1 + growing L2 (critically endangered) |
 | `sr` | Serbian | セルビア語 | Slavic | ~9M |
-| `srb` | Sora language | ソラ語 | Austroasiatic (Munda) | ~300–410K (UNESCO: vulnerable) |
+| `srb` | Sora | ソラ語 | Austroasiatic (Munda) | ~300–410K (UNESCO: vulnerable) |
 | `srh` | Sarikoli | サリコル語 | Indo-European (Iranian, Eastern Iranian, Shughni-Yazgulami) | ~30K |
 | `srm` | Saramaccan | サラマッカ語 | English-based creole (mixed English/Portuguese lexicon, Akan/Gbe substrate) | ~26K |
 | `srn` | Sranan Tongo | スリナム・トンゴ語 | English-based creole | ~600K |
@@ -1136,7 +1136,7 @@ Total: 1187 codes.
 | `xto` | Tocharian A | トカラ語A | Indo-European (Tocharian) | Extinct (~5th-9th c. CE) |
 | `xul` | Ngunnawal | ングンナワル語 | Pama-Nyungan | ~5K heritage learners |
 | `xum` | Umbrian | ウンブリア語 | Indo-European (Italic, Sabellic, Osco-Umbrian) | 0 (extinct ~1st c. CE) |
-| `xve` | Venetic | ヴェネト語 | Indo-European (Italic, or an independent IE branch — debated) | 0 (extinct ~1st c. BCE) |
+| `xve` | Venetic | ヴェネティ語 | Indo-European (Italic, or an independent IE branch — debated) | 0 (extinct ~1st c. BCE) |
 | `yai` | Yaghnobi | ヤグノビ語 | Iranian (Eastern) | ~13K |
 | `yan` | Sumo | スモ語 | Misumalpan | ~10K (Nicaragua ~8K + Honduras ~2K) |
 | `yao` | Yao | ヤオ語 | Atlantic-Congo (Bantu, Yao-Makonde) | ~3M |

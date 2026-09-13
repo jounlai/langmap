@@ -2357,5 +2357,84 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     each show two pins with an identical label; they are the same language at two points, which is
     the atlas convention, but a reader cannot tell them apart.
 
+93. **Nicknames: a second name per language, separate from the formal one.** Owner: 「地図やT
+    シャツへの描画のためにはSinglishのような俗称・簡略化した名称もいいね。既存の正式名称とは
+    別で、略称を追加してください。地図には今まで通り正式名称をデフォルトにするが、選択できる
+    スイッチを追加して。」
+
+    "Singapore English" is the right name for an atlas; "Singlish" is the right name for a chest.
+    Both are true, so both are kept. `lang_names.js` stays the formal layer and the map default;
+    `lang_nicknames.js` is the new one, sparse, and a row with no nickname simply shows its formal
+    name.
+
+    **The switch is the existing native/translated radio with a third option**, not a new control:
+    現地名 / 言語名 / 略称. `WM_UI.shortName` carries the label in all 21 UI codes. The mode rides
+    in the hash as `abbr=1` *alongside* `nat=`, not replacing it, so links shared before this
+    existed restore exactly as they did. Choosing 現地名 keeps the nickname selected underneath, so
+    coming back does not silently reset to the formal name.
+
+    **`window.__langNameFor(ui, code, style, fallback)` in lang_names_shim.js is the one place that
+    decides**, and it fixed a pre-existing bug on the way: the old inline `LANG_NAMES[uiLang] ||
+    LANG_NAMES.en` skipped the base-language step, so an `es_mx` or `pt_br` reader got the ENGLISH
+    name for every language — lang_names.js carries one Spanish and one Portuguese table, keyed
+    `es` and `pt`. The resolver now tries the exact UI, then its base, then English.
+
+    **A nickname never crosses UI languages.** Where Japanese has no attested nickname the Japanese
+    formal name shows — never シングリッシュ transliterated by us, and never "Singlish" sitting
+    inside a Russian label. That is rule 2 of five in the file header.
+
+    **The guard is the interesting part** (`tools/lang_nickname_check.js`, gated at 0). This layer
+    is the default on the goods hand-off, so an entry can end up printed on a shirt, which makes an
+    invented nickname much worse than a missing one. So: the code must exist on some map; the
+    nickname must differ from the formal name; no brackets; it must be unambiguous among 1,187 pins
+    (it may not be another row's formal name, and no two rows may share one); **and it must have a
+    row in `docs/lang-nickname-sources.md` with a source**, with stale rows reported so the table
+    cannot drift from the data. Nicknames longer than the formal name are reported, not failed —
+    パフラヴィー語 beats 中世ペルシア語 for recognisability, not for width.
+
+    Not covered: slurs. Several English varieties have a colloquial name used as an insult at least
+    as often as a label; the test applied is whether speakers use it of themselves.
+
+    **`en_sg`'s `name` field is resolved by this.** It said "Singlish" while all 19 UI names said
+    "Singapore English" — flagged in handoff 92 as an inconsistency. The row is now formally
+    Singapore English, natively Singlish (which is what speakers call it), and nicknamed Singlish.
+    Its data is the accent, not the lexicon: `three` is tɹiː and `one` is wan, but the words are
+    standard English.
+
+94. **Two debts from handoff 89 closed: `khq` new, and the last three Pahlavi HE cells.**
+
+    **`khq` new = taawo /taːwo/.** ASJP's `tawo` was the same lexeme minus the length ASJP does not
+    record, and the row writes Heath's long vowels throughout, so the two could not be told apart
+    from ASJP alone. Settled from Heath 1999, *A Grammar of Koyra Chiini* — p. 79 lists
+    "**taawo**-terey 'youth, newness'" and p. 365 glosses it in an interlinear as *be-new*, said of
+    a floodplain. The decisive number is a count, not a reading: `taawo` 3 hits / `tawo` 0 in the
+    grammar, `taawo` 6 hits / `tawo` 0 in the 1998 dictionary. It is a stative verb, like the row's
+    `boori` 'be good', which is this row's normal shape for a property word, and it carries no tone
+    mark because Koyra Chiini is the toneless Songhay variety. **Not read: the 1998 dictionary's own
+    entry** — that volume is snippet-suppressed on Google Books and lending-restricted on
+    Archive.org. The headword brackets to pp. 230–231.
+
+    **The three `pal` cells were HE (U+10B64) where the row's 14 other /h/ cells are HETH
+    (U+10B67).** MacKenzie's Introduction p. xii settles it outright, and more strongly than the
+    brief assumed: "*h* and *H* for Aramaic ḥ … There are three letters which occur only in
+    ideograms: *Q*, *E*, and *O*. *E* stands for the Aramaic hē". So Aramaic hē is transliterated
+    *E* and appears ONLY inside ideograms — HE has no place in a phonetic spelling in this row at
+    all. Applied as a pure U+10B64 → U+10B67 substitution on the repo's own strings; nothing was
+    retyped.
+
+    **Only `fish` is attested; `we` and `three` are internal consistency, and that distinction is
+    recorded on purpose.** fish 𐭬𐭠𐭧𐭩𐭪 comes from MacKenzie p. 53 māhīg [mʾhykʾ], whose *h* is the
+    same letter as in māh 'moon', which the row already writes 𐭬𐭠𐭧 — an exact parallel. But
+    MacKenzie gives no Book Pahlavi letter-spelling for either 'we' (ideogram LNE) or 'three'
+    (numeral 3 / ideogram TLTA); the row's `ʾmʾh` and `sh` are his **Manichaean** citations, where
+    the *h* is Manichaean hē. The row has chosen phonetic spelling over ideogram before — 'I' is
+    𐭠𐭭 `an` where MacKenzie has man [L] — so HETH is the consistent rendering inside a letter
+    inventory with exactly one /h/. **If a later pass would rather empty those two than spell them
+    from a Manichaean citation, that is defensible and this is the note that says so.**
+
+    One more open thread: MacKenzie's headword is **amā**, no final h, while the row transcribes
+    `amaːh`. Durkin-Meisterernst's Manichaean dictionary s.v. ʾmʾh would settle whether the h is
+    pronounced.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

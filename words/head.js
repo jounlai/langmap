@@ -1,5 +1,5 @@
 /**
- * The head has two competing sources almost everywhere. PIE *kaput- gives Latin caput (→ Italian capo, Spanish cabeza, Romanian cap) and, through a correspondence irregular enough to be famous, Germanic *haubudą — English head, German Haupt. But the everyday word in much of Romance and in German comes from a vessel instead, and twice over independently: Latin testa 'pot' displaced caput in French tête and Italian testa, while German Kopf is Old High German kopf 'drinking cup' (Proto-Germanic *kuppaz), a separate shift that arrived at the same place. Greek kephalḗ and Sanskrit śiras stand apart, and Semitic uses *raʔš (Arabic raʔs, Hebrew roʔš), a root that also means 'beginning' and 'chief'. Sinitic has two etyma, 首 (Old Chinese *l̥uʔ) and 頭 (*[m-t]ˤo), the second having displaced the first. Turkic points to baš, Uralic to *päŋe (Finnish pää, Hungarian fej), Bantu to *-tʊ́e. Austronesian *qulu survives in Malay hulu 'upstream, head of' — but the ordinary Malay word kepala is a Sanskrit loan, कपाल kapāla 'skull, bowl', which is the same PIE root as the caput at the top of this paragraph, arriving in Malay from the other direction.
+ * The head has two competing sources almost everywhere. Latin caput and Germanic *haubudą go back to one word, but NOT to PIE: it is shared by Italic and Germanic and nothing else, which is why Kroonen files *káput as West-European and Mallory & Adams leave it out of their PIE words for 'head'. Caput gives Latin caput (→ Italian capo, Spanish cabeza, Romanian cap) and, through a correspondence irregular enough to be famous, English head and German Haupt. The etymon that DOES reconstruct to PIE is *ḱr̥rēh₂ (Greek kárā, Sanskrit śiras, Hittite ḫaršar), which is the cell this map now carries. But the everyday word in much of Romance and in German comes from a vessel instead, and twice over independently: Latin testa 'pot' displaced caput in French tête and Italian testa, while German Kopf is Old High German kopf 'drinking cup' (Proto-Germanic *kuppaz), a separate shift that arrived at the same place. Greek kephalḗ and Sanskrit śiras stand apart, and Semitic uses *raʔš (Arabic raʔs, Hebrew roʔš), a root that also means 'beginning' and 'chief'. Sinitic has two etyma, 首 (Old Chinese *l̥uʔ) and 頭 (*[m-t]ˤo), the second having displaced the first. Turkic points to baš, Uralic to *päŋe (Finnish pää, Hungarian fej), Bantu to *-tʊ́è. Austronesian *quluh survives in Malay hulu 'upstream, head of' — but the ordinary Malay word kepala is a Sanskrit loan, कपाल kapāla 'skull, bowl', long compared with the caput at the top of this paragraph though the connection is not secure, arriving in Malay from the other direction.
  */
 WORDS.head = {
   label: {
@@ -53,6 +53,23 @@ WORDS.head = {
     sw: "Kichwa — sehemu ya juu kabisa ya mwili, yenye macho, masikio, pua na mdomo. Kiungo cha mwili tu: si 'kiongozi', si ncha ya kitu, wala si kitenzi.",
   },
   data: {
+    paus: ["*quluh", "quluh"],
+    p_dra: ["*talay", "talay"],
+    pura: ["*päŋe", "päŋe"],
+    psem: ["*raʔš-", "raʔš"],
+    p_sit: ["*m-gaw", "m-gaw"],
+    pban: ["*-tʊ́è", "-tʊ́è"],
+    puaz: ["*moʔo", "moʔo"],
+    pkar: ["*taw-", "taw"],
+    p_hmx: ["*S-phreiX", "S-pʰrei"],
+    ptai: ["*truə", "truə"],
+    p_aav: ["*ɓoːkʔ", "ɓoːkʔ"],
+    p_tun: ["*dili", "dili"],
+    pmng: ["*tolugai", "tolugai"],
+    ptrk: ["*baĺč", "baʎtʃ"],
+    p_kor: ["*məri", "məri"],
+    p_jpn: ["*kasira", "kasira"],
+    p_ine: ["*ḱr̥rēh₂", "ḱr̩rēh₂"],
     vi_han: ["首", "tʰu˧˩˧"],
     es_cr: ["cabeza", "kaˈβesa"],
     es_hn: ["cabeza", "kaˈβesa"],

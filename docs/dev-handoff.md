@@ -2436,5 +2436,64 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     `amaːh`. Durkin-Meisterernst's Manichaean dictionary s.v. ʾmʾh would settle whether the h is
     pronounced.
 
+95. **The 21 proto rows have head and new now — and the sourcing pass corrected the atlas's own
+    prose six times.** Handoff 89 recorded that the proto rows had no cells for either concept
+    while the etymology paragraphs already named \*baš, \*yaŋɨ, \*päŋe, \*wuδe, \*qulu, \*baqəRu —
+    the map saying less than its own text. 33 cells added, 11 combinations skipped with a reason.
+
+    **The rows do not share one convention and were not made to.** Each follows whichever authority
+    it already followed: `p_aav` is Sidwell's length colon, not Shorto's doubled vowels; `ptai` is
+    Pittayaporn minus the tone letter and the pre-syllable dot; `p_jpn`/`p_kor`/`p_ryu` are
+    Wiktionary/EDAL with Martin's tone marks stripped; `pban` is a bare BLR3 stem. The IPA field is
+    the surface minus the asterisk and any trailing hyphen, which is what the existing cells do.
+
+    **`head`'s prose said "PIE \*kaput-" and it is not PIE.** Kroonen files \*káput as West-European;
+    Mallory & Adams exclude it from their PIE words for 'head'; it is shared by Italic and Germanic
+    and nothing else. The prose now says so, and names \*ḱr̥rēh₂ (Greek kárā, Sanskrit śiras,
+    Hittite ḫaršar) as the etymon that does reconstruct — which is the cell `p_ine` now carries.
+    The Malay kepala sentence was softened with it: kapāla is "long compared with" caput, not "the
+    same PIE root as" it. **This paragraph has now been corrected twice in four days** (see 88),
+    both times by a pass that was looking at something else.
+
+    Four more prose fixes, all of the same kind — the prose was quoting a source from memory:
+    UEW prints \*wuδ̕e with a palatalised delta and files it as **Finno-Ugric, not Uralic** (no
+    Samoyedic cognate, unlike \*päŋe which really is level U); BLR3 3023 is \*-tʊ́è, tone H-**L**;
+    BLR3 2495 is \*-pɪ́à, H-L not L-H and with ɪ rather than the glide; ACD writes PAN \*quluh and
+    \*baqeRuh with final -h and a plain e for schwa (\*qulu and \*baqəRu are the PMP forms), and EDAL
+    spells Turkic \*jaŋɨ with j-, matching \*jultuz and \*jürek in the same row.
+
+    **Two cells were held back on shape, not on sourcing.** `psem` new \*ḥdṯ- is an unvocalised
+    consonantal root, while every other psem cell is a vocalised stem (\*māʔ-, \*ṯalāṯ-, \*ʕayn-,
+    \*yad-); no named source reconstructs the adjective, and \*ḥadaṯ- would need Kogan 2015 read
+    first. `pafa` new \*may/ʔ- carries StarLing's "or" slash, two printings disagree (HSED 1778 has
+    \*moʔ-), and HSED was read from an OCR scan with unreliable laryngeals.
+
+    **The gloss trap caught more than the cells it blocked.** The three obvious `p_aav` 'head'
+    candidates are all disqualified — Khmer *kbaal* is Sanskrit kapāla, the very loan the prose
+    traces into Malay; Vietnamese *đầu* is Sino-Vietnamese 頭; Mon *kənɛp* is Shorto's \*ɗəp 'to
+    cover'. And Telugu *kotta*, already on the map for 'new', is **not** in DEDR 4275 — it sits in
+    DEDR 2149 under Tamil *koḻuntu* 'tender shoot, anything young', which is exactly the young/new
+    split this concept was written to show.
+
+    Skipped with reasons worth keeping: `p_toc` head (A *lap* and B *āśce* are not cognate; TB
+    *śpālu* is an adjective 'excellent', and Wiktionary's TA *āśāṃ* does not exist); `pafa` head
+    (HSED's only multi-branch candidate is glossed 'head; **skull**'); `pmay` head (Kaufman
+    reconstructs none — printing \*joolom would promote an Eastern Mayan form); `p_tun` new
+    (Manchu *ice* is from \*xir- "'newborn animal' > 'new'"); `pkar` new (Georgian *axali* is from
+    \*xal- 'to be near'); `puaz` new (all 2,703 Stubbs sets checked, none glossed 'new'); `p_jpk`
+    both (Francis-Ratte's \*sarə rests on OJ *sara* 'anew, again', an adverb).
+
+    Two cells are flagged as loans in their own sources and shipped anyway, with precedent —
+    `pura` \*śata is already on the map flagged as Indo-Iranian: `p_hmx` new \*tshji̯əŋ is from
+    Chinese 清 per Ratliff, and `ptai` head \*truə may be from 頭 per Pittayaporn. **Shorto and
+    Pittayaporn contradict each other on 'new'**: Shorto has Thai *mài* borrowed FROM Austroasiatic
+    \*t₁miʔ, Pittayaporn reconstructs it as native Tai \*ʰmɤːlᴮ. Both cells are filled and each
+    note points at the other.
+
+    `p_ryu` new \*mii- rests on Wiktionary pages that carry no references at all. It is in because
+    the whole `p_ryu` row is sourced that way; if that standard is ever raised, this cell goes
+    first. It is also a genuine homophone of `p_ryu` eye \*mii, which is why the intra-row
+    duplicate guard did not object.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

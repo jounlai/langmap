@@ -1,5 +1,5 @@
 /**
- * 'New' is one of the most stable roots Indo-European has: PIE *néwos survives almost unchanged in Latin novus (→ Italian nuovo, French nouveau, Spanish nuevo), Greek néos, Sanskrit náva (→ Hindi nayā), Slavic novъ (Russian новый), Celtic *nouiios (Irish nua) and Germanic *neuja- (English new, German neu). Sinitic has 新, Old Chinese *s.tsʰi[n], borrowed across the Sinosphere. Austronesian points to *baqəRu (Malay baru, Tagalog bago, Māori hou), Semitic to two roots that have swapped duties: ḥ-d-ṯ gives Hebrew ḥadaš, while Arabic's everyday jadīd is from j-d-d 'renew' — Arabic's own reflex of ḥ-d-ṯ is ḥadīth, which drifted to 'recent, modern', Turkic to *yaŋɨ, Uralic to *wuδe (Finnish uusi, Hungarian új), and Bantu to *-pyá. Watch for the split many languages make and English does not: a word for a NEW THING is often not the word for a YOUNG PERSON or ANIMAL.
+ * 'New' is one of the most stable roots Indo-European has: PIE *néwos survives almost unchanged in Latin novus (→ Italian nuovo, French nouveau, Spanish nuevo), Greek néos, Sanskrit náva (→ Hindi nayā), Slavic novъ (Russian новый), Celtic *nouiios (Irish nua) and Germanic *neuja- (English new, German neu). Sinitic has 新, Old Chinese *s.tsʰi[n], borrowed across the Sinosphere. Austronesian points to *baqeRuh (Malay baru, Tagalog bago, Māori hou), Semitic to two roots that have swapped duties: ḥ-d-ṯ gives Hebrew ḥadaš, while Arabic's everyday jadīd is from j-d-d 'renew' — Arabic's own reflex of ḥ-d-ṯ is ḥadīth, which drifted to 'recent, modern', Turkic to *jaŋɨ, Uralic to *wuδ̕e (Finnish uusi, Hungarian új) — Finno-Ugric rather than Uralic proper, with no Samoyedic cognate, unlike *päŋe 'head', and Bantu to *-pɪ́à. Watch for the split many languages make and English does not: a word for a NEW THING is often not the word for a YOUNG PERSON or ANIMAL.
  */
 WORDS.new = {
   emoji: "✨",
@@ -54,6 +54,22 @@ WORDS.new = {
     sw: "Mpya — kilichotengenezwa, kilichonunuliwa au kilichoanzishwa hivi karibuni; kinyume cha kuukuu. Huelezea vitu, si 'changa' kwa watu au wanyama, wala si 'wa kisasa', 'kibichi' au 'kingine'.",
   },
   data: {
+    p_ryu: ["*mii-", "miː"],
+    paus: ["*baqeRuh", "baqeRuh"],
+    p_dra: ["*putV-", "putV"],
+    pura: ["*wuδ̕e", "wuð̕e"],
+    p_sit: ["*g-sar", "g-sar"],
+    pban: ["*-pɪ́à", "-pɪ́à"],
+    pmay: ["*ʔa(a)kʼ", "ʔaakʼ"],
+    p_hmx: ["*tshji̯əŋ", "tsʰji̯əŋ"],
+    ptai: ["*ʰmɤːl", "ʰmɤːl"],
+    p_aav: ["*tmeːʔ", "tmeːʔ"],
+    pmng: ["*sine", "sine"],
+    ptrk: ["*jaŋɨ", "jaŋɯ"],
+    p_kor: ["*sai", "sai"],
+    p_jpn: ["*nipi-", "nipi"],
+    p_toc: ["*ñäwe", "ɲəwe"],
+    p_ine: ["*néwos", "néwos"],
     khq: ["taawo", "taːwo"],
     vi_han: ["新", "tən˧˧"],
     emp: ["jiwidi", "hiwidi"],

@@ -46,6 +46,44 @@ if (!function_exists('mb_strrpos')) {
 const SEO_SITE = 'https://langmap.heuron.com';
 
 /**
+ * seo_goods_href — the Makoto Gadgets hand-off, the same one wordmap.html
+ * builds in buildTshirtHref(). docs/makoto-goods-link.md asked for this: "今後の
+ * 言語別SEOページにも同じリンクを置きます。URL生成を関数に切り出し、モーダルと
+ * SEOページの両方から呼ぶ形にしてください。"
+ *
+ * The two sides cannot literally share code — one is JS in the browser, the
+ * other PHP on the server — so what is shared is the CONTRACT, and this
+ * function is written to mirror the JS one parameter for parameter. If one
+ * changes, change both; docs/makoto-nickname-note.md is what Makoto holds.
+ *
+ * name= carries the NICKNAME where the language has one (Singlish rather than
+ * Singapore English), because that is what a reader wants printed across a
+ * chest; the formal name travels alongside in formal= so nothing is lost.
+ */
+function seo_goods_href(string $code, array $lang, string $ui): string
+{
+    $names = $lang['names'] ?? [];
+    $nicks = $lang['nicknames'] ?? [];
+    $formal = seo_pick($names, $ui) ?: ($lang['name'] ?? $code);
+    // A nickname never crosses UI languages: if this UI has none, the formal
+    // name is printed rather than another language's nickname.
+    $short = $nicks[$ui] ?? $formal;
+    // Makoto's storefront is ja or en; everything else reads the English shop.
+    $locale = (strpos($ui, 'ja') === 0) ? 'ja' : 'en';
+    $q = [
+        'src'    => 'langmap',
+        'map'    => 'wordmap',
+        'lang'   => $code,
+        'name'   => $short,
+        'formal' => $formal,
+        'native' => $lang['native'] ?? '',
+        'ui'     => $ui,
+        'words'  => SEO_SITE . '/lang_words/' . rawurlencode($code) . '.js',
+    ];
+    return 'https://makoto-gadgets.com/' . $locale . '/goods/langmap?' . http_build_query($q, '', '&', PHP_QUERY_RFC3986);
+}
+
+/**
  * Language codes that moved, old => new. index.php 301s the old URL.
  *
  * Each of these rows was sitting on an ISO 639-3 code that denotes a
@@ -198,6 +236,8 @@ const SEO_T = [
         'th_char' => 'Character', 'th_gloss' => 'Meaning', 'th_read' => 'Reading', 'th_form' => 'Form',
         'where' => 'Where it is spoken',
         'open_app' => 'Open {name} in the interactive map →',
+        'goods_title' => 'Wear this language',
+        'goods_sub' => 'Make a T-shirt from {name} words →',
         'open_app_wm' => 'Open the interactive Word Map →',
         'open_app_hm' => 'Open the interactive Han Map →',
         'related' => 'Related languages & comparisons',
@@ -253,6 +293,8 @@ const SEO_T = [
         'th_char' => '漢字', 'th_gloss' => '意味', 'th_read' => '発音区分', 'th_form' => '表記',
         'where' => '話される地域',
         'open_app' => '{name}をインタラクティブマップで開く →',
+        'goods_title' => 'この言語を、着る。',
+        'goods_sub' => '{name}の単語でTシャツを作る →',
         'open_app_wm' => 'インタラクティブな Word Map を開く →',
         'open_app_hm' => 'インタラクティブな Han Map を開く →',
         'related' => '関連言語・比較',
@@ -308,6 +350,8 @@ const SEO_T = [
         'th_char' => '한자', 'th_gloss' => '뜻', 'th_read' => '독음', 'th_form' => '표기',
         'where' => '사용 지역',
         'open_app' => '{name}을(를) 인터랙티브 지도에서 열기 →',
+        'goods_title' => '이 언어를 입다',
+        'goods_sub' => '{name} 단어로 티셔츠 만들기 →',
         'open_app_wm' => '인터랙티브 Word Map 열기 →',
         'open_app_hm' => '인터랙티브 Han Map 열기 →',
         'related' => '관련 언어 및 비교',
@@ -363,6 +407,8 @@ const SEO_T = [
         'th_char' => '汉字', 'th_gloss' => '含义', 'th_read' => '读音', 'th_form' => '写法',
         'where' => '使用地区',
         'open_app' => '在交互式地图中打开{name} →',
+        'goods_title' => '把这门语言穿上身',
+        'goods_sub' => '用{name}的单词做T恤 →',
         'open_app_wm' => '打开交互式 Word Map →',
         'open_app_hm' => '打开交互式 Han Map →',
         'related' => '相关语言与比较',
@@ -418,6 +464,8 @@ const SEO_T = [
         'th_char' => '漢字', 'th_gloss' => '意思', 'th_read' => '讀音', 'th_form' => '寫法',
         'where' => '使用地區',
         'open_app' => '喺互動地圖打開{name} →',
+        'goods_title' => '將呢種語言著上身',
+        'goods_sub' => '用{name}嘅詞整T恤 →',
         'open_app_wm' => '打開互動 Word Map →',
         'open_app_hm' => '打開互動 Han Map →',
         'related' => '相關語言同比較',
@@ -473,6 +521,8 @@ const SEO_T = [
         'th_char' => 'Chữ Hán', 'th_gloss' => 'Nghĩa', 'th_read' => 'Âm đọc', 'th_form' => 'Dạng viết',
         'where' => 'Nơi được sử dụng',
         'open_app' => 'Mở {name} trong bản đồ tương tác →',
+        'goods_title' => 'Mặc ngôn ngữ này',
+        'goods_sub' => 'Làm áo thun từ từ vựng {name} →',
         'open_app_wm' => 'Mở Word Map tương tác →',
         'open_app_hm' => 'Mở Han Map tương tác →',
         'related' => 'Ngôn ngữ liên quan & so sánh',
@@ -528,6 +578,8 @@ const SEO_T = [
         'th_char' => 'อักษร', 'th_gloss' => 'ความหมาย', 'th_read' => 'การอ่าน', 'th_form' => 'รูปเขียน',
         'where' => 'พื้นที่ที่ใช้',
         'open_app' => 'เปิด {name} ในแผนที่แบบโต้ตอบ →',
+        'goods_title' => 'สวมภาษานี้',
+        'goods_sub' => 'ทำเสื้อยืดจากคำ{name} →',
         'open_app_wm' => 'เปิด Word Map แบบโต้ตอบ →',
         'open_app_hm' => 'เปิด Han Map แบบโต้ตอบ →',
         'related' => 'ภาษาที่เกี่ยวข้องและการเปรียบเทียบ',
@@ -583,6 +635,8 @@ const SEO_T = [
         'th_char' => 'Aksara', 'th_gloss' => 'Arti', 'th_read' => 'Bacaan', 'th_form' => 'Bentuk',
         'where' => 'Tempat dituturkan',
         'open_app' => 'Buka {name} di peta interaktif →',
+        'goods_title' => 'Kenakan bahasa ini',
+        'goods_sub' => 'Bikin kaus dari kata-kata {name} →',
         'open_app_wm' => 'Buka Word Map interaktif →',
         'open_app_hm' => 'Buka Han Map interaktif →',
         'related' => 'Bahasa terkait & perbandingan',
@@ -638,6 +692,8 @@ const SEO_T = [
         'th_char' => 'अक्षर', 'th_gloss' => 'अर्थ', 'th_read' => 'उच्चारण', 'th_form' => 'रूप',
         'where' => 'कहाँ बोली जाती है',
         'open_app' => '{name} को इंटरैक्टिव मानचित्र में खोलें →',
+        'goods_title' => 'इस भाषा को पहनें',
+        'goods_sub' => '{name} के शब्दों से टी-शर्ट बनाएं →',
         'open_app_wm' => 'इंटरैक्टिव Word Map खोलें →',
         'open_app_hm' => 'इंटरैक्टिव Han Map खोलें →',
         'related' => 'संबंधित भाषाएँ और तुलना',
@@ -693,6 +749,8 @@ const SEO_T = [
         'th_char' => 'Schriftzeichen', 'th_gloss' => 'Bedeutung', 'th_read' => 'Lesung', 'th_form' => 'Form',
         'where' => 'Wo es gesprochen wird',
         'open_app' => '{name} in der interaktiven Karte öffnen →',
+        'goods_title' => 'Trag diese Sprache',
+        'goods_sub' => 'Ein T-Shirt aus {name}-Wörtern machen →',
         'open_app_wm' => 'Interaktive Word Map öffnen →',
         'open_app_hm' => 'Interaktive Han Map öffnen →',
         'related' => 'Verwandte Sprachen & Vergleiche',
@@ -748,6 +806,8 @@ const SEO_T = [
         'th_char' => 'Caractère', 'th_gloss' => 'Sens', 'th_read' => 'Lecture', 'th_form' => 'Forme',
         'where' => 'Où elle est parlée',
         'open_app' => 'Ouvrir {name} dans la carte interactive →',
+        'goods_title' => 'Portez cette langue',
+        'goods_sub' => 'Créer un t-shirt avec des mots en {name} →',
         'open_app_wm' => 'Ouvrir la Word Map interactive →',
         'open_app_hm' => 'Ouvrir la Han Map interactive →',
         'related' => 'Langues apparentées & comparaisons',
@@ -803,6 +863,8 @@ const SEO_T = [
         'th_char' => 'Carattere', 'th_gloss' => 'Significato', 'th_read' => 'Lettura', 'th_form' => 'Forma',
         'where' => 'Dove si parla',
         'open_app' => 'Apri {name} nella mappa interattiva →',
+        'goods_title' => 'Indossa questa lingua',
+        'goods_sub' => 'Crea una t-shirt con parole in {name} →',
         'open_app_wm' => 'Apri la Word Map interattiva →',
         'open_app_hm' => 'Apri la Han Map interattiva →',
         'related' => 'Lingue correlate & confronti',
@@ -858,6 +920,8 @@ const SEO_T = [
         'th_char' => 'Carácter', 'th_gloss' => 'Significado', 'th_read' => 'Lectura', 'th_form' => 'Forma',
         'where' => 'Dónde se habla',
         'open_app' => 'Abrir {name} en el mapa interactivo →',
+        'goods_title' => 'Lleva puesto este idioma',
+        'goods_sub' => 'Haz una camiseta con palabras en {name} →',
         'open_app_wm' => 'Abrir el Word Map interactivo →',
         'open_app_hm' => 'Abrir el Han Map interactivo →',
         'related' => 'Lenguas relacionadas y comparaciones',
@@ -913,6 +977,8 @@ const SEO_T = [
         'th_char' => 'Caractere', 'th_gloss' => 'Significado', 'th_read' => 'Leitura', 'th_form' => 'Forma',
         'where' => 'Onde é falada',
         'open_app' => 'Abrir {name} no mapa interativo →',
+        'goods_title' => 'Vista este idioma',
+        'goods_sub' => 'Faça uma camiseta com palavras em {name} →',
         'open_app_wm' => 'Abrir o Word Map interativo →',
         'open_app_hm' => 'Abrir o Han Map interativo →',
         'related' => 'Línguas relacionadas e comparações',
@@ -968,6 +1034,8 @@ const SEO_T = [
         'th_char' => 'Иероглиф', 'th_gloss' => 'Значение', 'th_read' => 'Чтение', 'th_form' => 'Форма',
         'where' => 'Где на нём говорят',
         'open_app' => 'Открыть {name} на интерактивной карте →',
+        'goods_title' => 'Носи этот язык',
+        'goods_sub' => 'Сделать футболку из слов на {name} →',
         'open_app_wm' => 'Открыть интерактивную Word Map →',
         'open_app_hm' => 'Открыть интерактивную Han Map →',
         'related' => 'Родственные языки и сравнения',
@@ -1023,6 +1091,8 @@ const SEO_T = [
         'th_char' => 'Ієрогліф', 'th_gloss' => 'Значення', 'th_read' => 'Читання', 'th_form' => 'Форма',
         'where' => 'Де нею розмовляють',
         'open_app' => 'Відкрити {name} на інтерактивній карті →',
+        'goods_title' => 'Носи цю мову',
+        'goods_sub' => 'Зробити футболку зі слів мовою {name} →',
         'open_app_wm' => 'Відкрити інтерактивну Word Map →',
         'open_app_hm' => 'Відкрити інтерактивну Han Map →',
         'related' => 'Споріднені мови та порівняння',
@@ -1078,6 +1148,8 @@ const SEO_T = [
         'th_char' => 'الحرف', 'th_gloss' => 'المعنى', 'th_read' => 'القراءة', 'th_form' => 'الشكل',
         'where' => 'أين تُستخدم',
         'open_app' => 'فتح {name} في الخريطة التفاعلية →',
+        'goods_title' => 'ارتدِ هذه اللغة',
+        'goods_sub' => 'اصنع قميصًا من كلمات {name} ←',
         'open_app_wm' => 'فتح Word Map التفاعلية →',
         'open_app_hm' => 'فتح Han Map التفاعلية →',
         'related' => 'لغات ذات صلة ومقارنات',
@@ -1133,6 +1205,8 @@ const SEO_T = [
         'th_char' => 'תו', 'th_gloss' => 'משמעות', 'th_read' => 'קריאה', 'th_form' => 'צורה',
         'where' => 'היכן מדוברת',
         'open_app' => 'פתח את {name} במפה האינטראקטיבית →',
+        'goods_title' => 'ללבוש את השפה הזאת',
+        'goods_sub' => 'להכין חולצה ממילים ב{name} ←',
         'open_app_wm' => 'פתח את Word Map האינטראקטיבית →',
         'open_app_hm' => 'פתח את Han Map האינטראקטיבית →',
         'related' => 'שפות קשורות והשוואות',
@@ -1188,6 +1262,8 @@ const SEO_T = [
         'th_char' => 'Herufi', 'th_gloss' => 'Maana', 'th_read' => 'Usomaji', 'th_form' => 'Umbo',
         'where' => 'Inakozungumzwa',
         'open_app' => 'Fungua {name} kwenye ramani shirikishi →',
+        'goods_title' => 'Vaa lugha hii',
+        'goods_sub' => 'Tengeneza fulana kutoka maneno ya {name} →',
         'open_app_wm' => 'Fungua Word Map shirikishi →',
         'open_app_hm' => 'Fungua Han Map shirikishi →',
         'related' => 'Lugha zinazohusiana & kulinganisha',
@@ -1630,6 +1706,17 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-applink { margin: 2rem 0; }
 .seo-applink a { display: inline-block; background: var(--accent); color: #fff;
   padding: .7rem 1.3rem; border-radius: .6rem; text-decoration: none; font-weight: 600; }
+/* Goods hand-off. Deliberately quieter than .seo-applink: the primary action
+   on a language page is to open the map, and this sits under it as an offer,
+   not as a second call to action competing with the first. */
+.seo-goods { margin: 1.2rem 0 2.4rem; }
+.seo-goods a { display: inline-block; padding: .7rem 1.1rem; border-radius: .6rem;
+  border: 1px solid var(--line); text-decoration: none; color: inherit;
+  transition: border-color .15s ease, background .15s ease; }
+.seo-goods a:hover { border-color: var(--accent); background: rgba(0,0,0,.02); }
+.seo-goods-title { display: block; font-weight: 600; }
+.seo-goods-sub { display: block; margin-top: .15rem; font-size: .9rem; color: var(--muted); }
+
 .seo-foot { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
   color: var(--muted); font-size: .9rem; }
 .seo-foot a { color: var(--accent); }

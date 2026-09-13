@@ -174,6 +174,16 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 <div class="seo-applink">
   <a href="/wordmap.html#lang=<?= e(rawurlencode($code)) ?>"><?= e(seo_t($ui, 'open_app', ['name' => $name])) ?></a>
 </div>
+
+<?php /* The goods hand-off, the same one the app's language modal carries.
+         docs/makoto-goods-link.md asked for it here too. rel=nofollow because
+         it is an outbound commercial link on an indexed page. */ ?>
+<div class="seo-goods">
+  <a href="<?= e(seo_goods_href($code, $lang, $ui)) ?>" rel="nofollow noopener" target="_blank">
+    <span class="seo-goods-title"><?= e(seo_t($ui, 'goods_title')) ?></span>
+    <span class="seo-goods-sub"><?= e(seo_t($ui, 'goods_sub', ['name' => $name])) ?></span>
+  </a>
+</div>
 <?php
     $hm = seo_data('hanmap');
     seo_comparisons(

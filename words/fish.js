@@ -492,7 +492,7 @@ WORDS.fish = {
     se: ["guolli", "ˈkuɔlːi"],
     sma: ["guelie", "ˈkʉɛliɛ"],
     smj: ["guolle", "ˈkuɔlːɛ"],
-    smn: ["kyeli", "ˈkyeli"],
+    smn: ["kyeli", "ˈkjeli"],
     sms: ["kueʹll", "ˈkuɛlːʲ"],
     sjd: ["кӯлль", "ˈkuːʎː"],
     vro: ["kala", "ˈkɑlɑ"],

@@ -55,6 +55,45 @@ WORDS.butterfly = {
     sw: "Kipepeo — mdudu mzima anayeruka, neno la kila siku. Si kiwavi wala buu, si jina la spishi fulani, wala si mtindo wa kuogelea. Pale lugha inapotumia neno moja kwa vipepeo wa mchana na wa usiku, neno hilo ndilo linaloandikwa.",
   },
   data: {
+    azb: ["کپه‌نک", "kæpænæk"],  // from Proto-Turkic *kepelek; variant kelebek; the Arabic-script spelling varies (also written without the he)
+    bar: ["Waifåita", "vaifɔitɐ"],  // reflex of Old High German zwifaltra 'papilio', literally 'two-folder'; regional variants Faifoita, Pfaifolter, Zwifoita and Summafogi ('summer bird')
+    ht: ["papiyon", "papijɔ̃"],  // from French papillon; covers moths as well
+    ilo: ["kulibangbang", "kulibaŋbaŋ"],  // PMP *baŋbaŋ2 'butterfly, moth' (itself reduplicated) with the *qali-/*kali- prefix that Austronesian animal names carry; covers moths
+    ny: ["gulugufe", "ɡuluˈɡufe"],  // class 1a, pl. a-; Paas also lists peperu, which Scott's Dictionary of the Nyanja Language (1929) derives from ku pepa 'to flutter'
+    prs: ["پروانه", "parwɑːna"],  // covers moths too; Sakaria's Concise English-Afghan Dari Dictionary (Kabul 1967) gives the rival Dari word shauparak, glossed there as 'night-flier' and also used for moths
+    rn: ["ikinyugunyugu", "ikiɲuɡuɲuɡu"],  // reduplicated stem -nyugu-nyugu; covers moths as well; variant ikinyungunyungu
+    rw: ["ikinyugunyugu", "ikiɲuɡuɲuɡu"],  // class 7 iki-/ibi-; the stem is a reduplication, -nyugu-nyugu
+    sn: ["shaveshave", "ʃaveʃave"],  // reduplication of shave; variant shavishavi; the dictionary also lists bembenene, bemha, betepesu, fufura, nharira as synonyms
+    st: ["serurubele", "seruruˈbele"],  // class 7, pl. dirurubele; same word as Tswana and Northern Sotho serurubele
+    tn: ["serurubele", "seruruˈbele"],  // class 7, pl. dirurubele; also covers moths
+    ts: ["phapharhati", "pʰapʰaˈrati"],  // class 5; built on a reduplicated phapha- (cf. Ronga phaphalati 'papillon', Junod 1896, Grammaire ronga); the same dictionary gives xivuva 7 as 'any butterfly, (gen.) moth'
+    ug: ["كېپىنەك", "kepinɛk"],  // Schwarz glosses it as Lepidoptera, i.e. it covers moths too; same Turkic root as Kazakh kepelek, Uzbek kapalak, Turkish kelebek
+    wo: ["lëpp-lëpp", "ləpləp"],  // a reduplication; the older Holy Ghost Fathers dictionary glosses 'Phalene' (moth) as lepalepa u gudi, literally 'butterfly of the night'
+    bem: ["icipelebesha", "itʃipelebeːʃa"],  // class 7 ici-; the dictionary glosses it 'butterfly (gen.)', i.e. the generic term
+    bo: ["ཕྱེ་མ་ལེབ་", "tɕʰemalep"],  // three morphemes phye 'open' + ma (linker) + leb 'flat', i.e. 'open-or-flat' for the wing movement (Suzuki); Lhasa colloquial also has ཅེམ་ཅེ་ལྷ་མོ་ cem ce lha mo
+    dag: ["kahimpiɛɣu", "kahimpiɛɣu"],  // the dictionary glosses it 'a butterfly, moth' — one word covers moths as well
+    dnj: ["dheŋdheŋkpaadhe", "ɗeŋɗeŋkpaːɗe"],  // reduplicated dheŋ-dheŋ- before kpaadhe; the moth is a separate word, te̋te̋kpȁadhȅ 'papillon de nuit'
+    fan: ["evulabeba", "evulabeba"],  // 'moth' is derived from it — Lejeune's evoulabéba alouse, literally 'night butterfly'
+    gsw: ["Summervogel", "ˈsʊmərfoːɡl̩"],  // literally 'summer bird', the most widespread Swiss German form, a transparent replacement of older Pfifolter < OHG fifaltra; now yielding to Standard German Schmetterling
+    ibb: ["mkpufiopufiop", "m̩kpufiopufiop"],  // reduplicated (-fiop-u-fiop); the dictionary's two sides disagree on the spelling and flag the entry as doubtful; tones dropped to match this row
+    kab: ["aferṭeṭṭu", "afərtˤətˤːu"],  // reduplicated Berber root FRṬ, cognate with Tarifit afarttu; Dallet's At Mangellat dictionary restricts aferṭeṭṭu to night-moths and gives abucriḍa for 'papillon'
+    ky: ["көпөлөк", "køpøˈløk"],  // < Proto-Turkic *kepelek, cognate with Turkish kelebek and Kazakh көбелек; Yudakhin notes калдыркан is used for large butterflies
+    lg: ["ekiwojjolo", "etʃiwodʒːolo"],  // class 7 eki-
+    loz: ["sipulumuki", "sipulumuki"],  // class 7 si-; the same dictionary lists an identical sipulumuki 'a mad or insane person', beside the verb -pulumuka 'become mad, rabid'
+    lua: ["tshibiyibiyi", "tʃibijibiji"],  // reduplicated stem -biyi-biyi in class 7; also covers moths; respelt from Morrison's c to the row's tsh (his muci = the row's mutshi)
+    luy: ["likuyukuyu", "likujukuju"],  // reduplication -kuyu-kuyu in class 5 li-; the same word covers moths
+    min: ["ramo-ramo", "ramo ramo"],  // reduplication, cognate with Malay rama-rama
+    mos: ["pilimpiuku", "pilimpiuku"],  // SIL's Mooré dictionary also lists the variant pilimpiku and plural pilimpigdu; no etymology given
+    nap: ["palomma", "paˈlommə"],  // the same word means 'dove' (< Latin palumba); 'palomma 'e notte' is the moth
+    nds: ["Sommervagel", "ˈzɔmɐfaːɣəl"],  // literally 'summer bird', the same formation as Swiss German Summervogel; SASS marks it the oldest and commonest form
+    nyn: ["ekihuguuhugu", "ekihuɡuːhuɡu"],  // reduplicated stem huguu-hugu; glossed 'moth; butterfly', so the word covers moths too
+    rif: ["afarttu", "afaɾtːu"],  // same Berber root as Kabyle aferṭeṭṭu; Serhoual keeps the emphatic root FRṬ (afarṭeṭṭu) separate, for 'horsefly'
+    scn: ["parpagghiuni", "parpaɟˈɟuni"],  // < Old Italian parpaglione / Latin papilio; Traina's gloss also covers the moth that circles the lamp
+    suk: ["ibalabapu", "ibalabapu"],  // partial reduplication bala-bapu; cited by the dictionary as stem BALABAPU with sg. i- / pl. ma-
+    tiv: ["kokombo", "kokombo"],  // corpus evidence only; Abraham's 1940 Dictionary of the Tiv Language was not available to check
+    umb: ["ocimbiambiulu", "otʃimbiambiulu"],  // class 7 oci-; the stem is reduplicative in shape (-mbia-mbi-), but the source gives no etymology
+    vmf: ["Schmetterling", "ʃmɛdɐliŋ"],  // the WBF attestations of this lexeme are recorded under the derived sense 'bow tie', so the insect sense is not directly documented there; the only WBF entry glossed 'Schmetterling' is the local Fliegeule (Neubrunn HAS)
+    vmw: ["nikuruthu", "nikuɾutʰu"],  // class 5 ni-; the same SIL vocabulary gives maasi, nooce, ehopa as in this row, so the variety matches
     ak: ["afofantɔ", "afofantɔ"],  // Christaller 1881 records the three vowel-harmony variants afafantɔ / afefantɔ / afofantɔ side by side; afafranto is a further modern spelling
     arq: ["فرططو", "fərtˤətˤtˤu"],  // the Maghrebi fertettu word; a bu- 'father-of' compound bou fertettou is also recorded, and the French loan babiyu (< papillon) competes with it
     cdo: ["蝴蝶", "hu˧˧ lieʔ˥"],  // Sinitic 蝴蝶; IPA is the realised sandhi form (蝴 53→33, and 蝶 t- lenites to l- between vowels), not the citation tones

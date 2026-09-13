@@ -564,7 +564,7 @@ WORDS.good = {
     se: ["buorre", "puɔrːe"],
     sma: ["hijven", "hijven"],
     smj: ["buorre", "puɔrːe"],
-    smn: ["pyere", "pyere"],
+    smn: ["pyere", "pjere"],
     sms: ["šiõǥǥ", "ʃiɵɣː"],
     sjd: ["шӣгг", "ʃiːɡː"],
     vro: ["hää", "hæː"],

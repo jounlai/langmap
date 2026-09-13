@@ -158,7 +158,11 @@ WORDS.wheel = {
     ms: ["roda", "roda"],
     tl: ["gulong", "ɡuˈloŋ"],
     am: ["ጎማ", "ɡoma"],
-    ha: ["ƙafa", "kʼafa"],
+    // Emptied 2026-09-13: ƙafa is Hausa for FOOT/leg — it duplicated this row's
+    // new foot cell, and the two were found by intra_row_dup_check. Hausa's word
+    // for a wheel is dabaran (taya is the tyre); refill needs a dictionary for
+    // the tone and vowel length, which this row marks.
+    // (no ha cell until then)
     zu: ["isondo", "iˈsondo"],
 
     // --- Pluricentric rows ----------------------------------------------

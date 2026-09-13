@@ -564,7 +564,7 @@ WORDS.two = {
       se: ["guokte", "ˈkuokte"],
       sma: ["göökte", "ˈkøːkte"],
       smj: ["guokta", "ˈkuoktɑ"],
-      smn: ["kyehti", "ˈkyehti"],
+      smn: ["kyehti", "ˈkjehti"],
       sms: ["kuõˊhtt", "kuõhtː"],
       sjd: ["кӯхьть", "kuːxʲtʲ"],
       vro: ["katś", "kɑtsʲ"],

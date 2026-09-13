@@ -80,6 +80,25 @@ function buildNameIndex(LN) {
   return idx;
 }
 
+// The nickname layer, same shape, sparse. The big-text SEO pages carry the same
+// goods hand-off as the app, and that hand-off prints the nickname where one
+// exists — Singlish rather than Singapore English. Without this the SEO pages
+// would send a different string than the map does for the same language.
+let _nickIndex = null;
+function buildNicknameIndex() {
+  if (_nickIndex) return _nickIndex;
+  let NN = {};
+  try { NN = require(path.join(ROOT, 'lang_nicknames.js')); } catch (e) { return {}; }
+  const idx = {};
+  for (const ui of Object.keys(NN)) {
+    if (!UI_LANGS.includes(ui)) continue;
+    for (const [code, name] of Object.entries(NN[ui] || {})) {
+      (idx[code] || (idx[code] = {}))[ui] = name;
+    }
+  }
+  return (_nickIndex = idx);
+}
+
 // ---------------------------------------------------------------------------
 // Word order (sentences) — data.js declares `const SENTENCES = [...]`.
 // For each lang code we emit its available sentences as
@@ -209,6 +228,7 @@ function buildWordMapJSON(nameIndex) {
       lat: typeof ld.lat === 'number' ? ld.lat : null,
       lng: typeof ld.lng === 'number' ? ld.lng : null,
       names: nameIndex[code] || {},
+      nicknames: buildNicknameIndex()[code] || {},
       excluded: EXCLUDED.has(code),
       words: entries,
       altWords: altEntries,
@@ -429,6 +449,7 @@ function buildHanMapJSON(nameIndex) {
       romanization: (m.romanization && m.romanization.name) ? m.romanization.name : '',
       lat, lng,
       names: nameIndex[code] || {},
+      nicknames: buildNicknameIndex()[code] || {},
       readingType: pickLangs(m.reading_type),
       description: pickLangs(m.description),
       sources: Array.isArray(m.sources)

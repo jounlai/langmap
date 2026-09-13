@@ -2276,5 +2276,86 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     matched `["surface", "ipa"]` and left 38 cells written `['surface', 'ipa']` — including every
     `pzh`, `zh_cq` and `zh_jn` cell in the class.
 
+91. **Script mixing is a named list now, not a budget — and the list closed its first row the
+    same day.** Owner: 「中世ペルシア語(パフラヴィー)にローマ字表記の単語が残ってます。これは、
+    何度も指摘してるので、ルール化してもらえますか？」
+
+    `pal` had three Latin cells — iron, nose, sleep — among 51 Inscriptional Pahlavi, and
+    `script_consistency_check.js` had been printing them for weeks. They were passing because
+    they sat inside `STRAY_SCRIPT_DEBT = 54` / `PARTIAL_SCRIPT_DEBT = 110`.
+
+    **A number cannot be read, which is why repeated reports never fixed it.** `54` does not say
+    which rows are in it, why, or what would close one, so nothing ever dropped out and a new
+    offender could slip in while the total stayed under budget. Both budgets are replaced by
+    `MIXED_OK`: a map from row code to the *sentence* explaining why that row mixes. A row not in
+    the map fails at 0. 51 rows are listed, each with what is actually wrong — 3 Latin among 55
+    cuneiform in Akkadian, 8 Anatolian Hieroglyphs among 10 Latin in Luwian, 8 Han among 48 Latin
+    in Zhuang (Sawndip beside the Latin orthography), 2 Hebrew among 54 Syriac in Aramaic.
+
+    The guard also reports entries that have gone **stale**, so the list shrinks by itself. It
+    earned that twice in one day: on its first run it told me to delete the `och` entry I had just
+    written (Old Chinese does not mix — the Latin is inside the reconstruction field, which the
+    checker already exempts), and after the Pahlavi cells were sourced it told me to delete `pal`.
+    Verified by breaking it on purpose: `voda` into the Russian row takes it from 0 to 1.
+
+    **The `pal` repair is also the row's convention written down for the first time.** Its 51
+    existing cells are not Inscriptional Pahlavi orthography — they are MacKenzie's *Book* Pahlavi
+    transliteration transcoded letter-for-letter into Inscriptional codepoints (LAMEDH stands for
+    /r/ throughout: pidar <pytl>, wafr <wpl>), so the MacKenzie→script route IS the convention and
+    the three new cells follow it. MacKenzie's merged `h` resolves to HETH for /h/ and /x/ alike
+    (Introduction p. xii; the scan drops underdots, confirmed against a control word). **Still
+    open: `fish` 𐭬𐭠𐭤𐭩𐭪, `we` 𐭠𐭬𐭠𐭤 and `three` 𐭮𐭤 use HE where that rule requires HETH**, against
+    11 cells that use HETH. Pre-existing, and outside the scope of that task.
+
+92. **Language names: brackets gone from all 19 UIs, 2,780 strings rewritten.** Owner: 「一部の
+    言語名ですが、地図上の表示が長すぎる。後、（）を使うと見栄えが悪い。「ペルシャ語（古典）」より
+    「古典ペルシャ語」などが良くないか？」 and then 「日本語だけじゃなく、他の言語でも」.
+
+    These print under every marker on a world map, thousands at a time, so the rule is: no
+    brackets, modifier wherever that language naturally puts it, compact — but accurate first.
+    Japanese went first (158 names, 416 characters saved), then the same convention in the other
+    18 UIs. `lang_names.js` now has **zero** parenthesised values in any UI.
+
+    **The rule is "no brackets and natural word order for THIS language", not "modifier first".**
+    ja/de/ru/ko/zh/hi put it in front (アメリカ英語, Ägyptisches Arabisch, Египетский арабский);
+    fr/es/pt/it/vi/th/id/ar/he put it after (Arabe égyptien, العربية المصرية); Swahili builds it
+    with Ki… cha …. Forcing Japanese order onto French would have been worse than the brackets.
+    Four shapes: the bracket held the only informative part (日本語(大阪弁) -> 大阪弁), a modifier
+    (ペルシャ語(古典) -> 古典ペルシャ語), a place (英語(アメリカ) -> アメリカ英語), or an alternative
+    name (シベ語 (錫伯語) -> シベ語). **One name got longer on purpose** — 英語(AAVE) ->
+    アフリカ系アメリカ英語 — because AAVE is opaque to a Japanese reader.
+
+    **The pass found defects that had nothing to do with brackets**, which is the reason to do a
+    sweep by hand rather than by regex. Swahili had four wrong rows (es_ec read "Spanish (English
+    of Ecuador)"; four French varieties used Kifaranga, which means "chick"). Chinese en_us was
+    英语(米国) — 米国 is the *Japanese* word for the USA. Three Vietnamese Sino-readings named the
+    wrong city outright: 撫州 as Phúc Châu, which is 福州 and a separate Min variety **on this same
+    map**. Hebrew ar_ye used ימנית where the adjective from תימן is תימנית. Italian fr_ci had a
+    stray backslash escape inside the string. Japanese gan_fz was 抚州ガン語 — a simplified
+    character and a katakana rendering where the other 70 rows write 贛語. Russian czh_wy is its
+    own story: the straightforward adjective from "Hui" is an obscenity in Russian and the old
+    Хуийский was dodging it; it now uses the established хуэйчжоуский, with Вуюань -> Уюань
+    (it had been transliterated via English rather than by Palladius).
+
+    **The paired-code guard turned my own error into a constraint, and nearly froze it in.**
+    `paired_code_name_check.js` derives its pairs from an *identical English name*. Renaming half
+    of afb/ar_gulf, de_ch/gsw and cr/crk produced 20 violations, and I closed them by copying the
+    better name across — which was right for two pairs and **wrong for de_ch/gsw, because they are
+    not the same language**: `de_ch` is Swiss Standard German (its own row says name "Swiss
+    Standard German", native Schweizer Hochdeutsch) and `gsw` is Schwiizerdütsch. Naming both
+    "Swiss German" satisfied the guard by making a false pair true. Fixed: de_ch is Swiss Standard
+    German / スイス標準ドイツ語 in all 19, which un-pairs them. **A guard that derives its own input
+    from the data can be satisfied by corrupting the data — check the row, not the guard.**
+
+    Two more where a plain bracket-drop was wrong: `ii` losing "(Nuosu)" leaves ru/uk as the single
+    letter И / І, so those two take Носу; `umu` "Манси (делавар)" cannot become Манси, which is the
+    Russian name of **a different row on the same map**, so ru/uk get Мунси / Мунсі.
+
+    **Still open:** `wordmap_data.js`'s `en_sg` `name` field says "Singlish" while all 19 UI names
+    now say "Singapore English" — the row's own description covers both registers, so the field
+    should follow. `afb`/`ar_gulf` (Doha and Dubai) and `cr`/`crk` (Saskatoon and Edmonton) now
+    each show two pins with an identical label; they are the same language at two points, which is
+    the atlas convention, but a reader cannot tell them apart.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

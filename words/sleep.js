@@ -542,7 +542,7 @@ WORDS.sleep = {
     sg: ["lango", "laŋɡo"],
     ave: ["𐬑𐬬𐬀𐬞", "xwap"],
     uga: ["𐎊𐎌𐎐", "jaʃin"],
-    pal: ["xuftan", "xuftan"],
+    pal: ["𐭧𐭥𐭯𐭲𐭭", "xuftan"],
     fa_clas: ["خفتن", "xuftan"],
     syc: ["ܕܡܟ", "dmeχ"],
     fro: ["dormir", "dorˈmir"],

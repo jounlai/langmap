@@ -589,7 +589,7 @@ WORDS.nose = {
     xto: ["𑀫𑀮𑁆", "mal"],
     txb: ["𑀫𑁂𑀮𑀺", "meli"],
     uga: ["𐎀𐎔", "ʔappu"],
-    pal: ["wēnīg", "weːniːɡ"],
+    pal: ["𐭥𐭩𐭭𐭩𐭪", "weːniːɡ"],
     fa_clas: ["بینی", "biːniː"],
     syc: ["ܢܚܝܪܐ", "nħiːrɔ"],
     fro: ["nes", "nes"],

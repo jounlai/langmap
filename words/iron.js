@@ -350,7 +350,7 @@ WORDS.iron = {
 
     // --- Iranian — āhan in the east, āsin in the west, one root ----------
     fa_clas: ["آهن", "aːhan"],
-    pal: ["āhan", "aːhan"],
+    pal: ["𐭠𐭧𐭭", "aːhan"],
     prs: ["آهن", "ɑːhan"],
     haz: ["آهن", "ɑːhan"],
     ku: ["hesin", "hɛˈsɪn"],

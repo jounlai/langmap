@@ -111,7 +111,9 @@ const MIXED_OK = {
   cjm: "Eastern Cham genuinely mixes Cham script and Latin in this row's sources; `new` baruw has no reachable akhar-thrah spelling and matches the row's existing Latin batuw.",
 
   // --- needs an orthography source before the Latin cells can be converted ---
-  pal: "3 Latin cells (iron, nose, sleep) among 51 Inscriptional Pahlavi. Pahlavi orthography is historical and partly heterographic, so a spelling cannot be derived from the reading — needs MacKenzie's Concise Pahlavi Dictionary or Nyberg's Manual vol. II.",
+  // (pal was here and is gone: its three Latin cells were converted from
+  //  MacKenzie's Concise Pahlavi Dictionary, pp. 6, 90, 94, on 2026-09-13 —
+  //  the first row the list moved off by naming what it needed.)
   blt: "Tai Dam: 6 Latin cells (i, we, snow, stone, wheel, white) among 39 Tai Viet. None of Wiktionary's 255 Tai Dam lemmas, which cite Baccam et al. 1989, glosses them.",
   vai: "Vai: 11 Latin among 28 Vai syllabary.",
   cja: "Western Cham: 7 Latin among 32 Arabic script.",

@@ -89,6 +89,80 @@ function script(ch){const cp=ch.codePointAt(0);
 function surfScript(s){const cnt={};for(const ch of String(s)){const sc=script(ch);if(sc)cnt[sc]=(cnt[sc]||0)+1;}let best=null,bn=0;for(const[k,v] of Object.entries(cnt)){if(v>bn){bn=v;best=k;}}return best;}
 const CHECK=process.argv.includes("--check");
 
+// ---- the rule ----
+// A row writes in ONE script. Every row that does not must be listed here, by
+// name, with the reason. That is the whole rule, and it replaced a pair of
+// numeric budgets (54 stray cells, 110 partial) on 2026-09-13 because the
+// owner had reported the same row — pal, three Latin cells among 51 in
+// Inscriptional Pahlavi — more than once and it kept not getting fixed.
+//
+// It kept not getting fixed because a number cannot be read. `54` does not say
+// which rows, why they are there, or what would close them, so nothing ever
+// dropped out of it and a new offender could slip in while the total stayed
+// under budget. A list has to be argued with: to add a row you have to write
+// the sentence, and a row whose sentence is "needs an orthography source"
+// stays visible until someone finds one.
+//
+// Each entry says what is actually wrong, so the next person can pick one up
+// without re-deriving it. Delete an entry when the row is clean; the guard
+// will tell you if you deleted one too early.
+const MIXED_OK = {
+  // --- deliberate: the row's orthography really is mixed ---
+  cjm: "Eastern Cham genuinely mixes Cham script and Latin in this row's sources; `new` baruw has no reachable akhar-thrah spelling and matches the row's existing Latin batuw.",
+
+  // --- needs an orthography source before the Latin cells can be converted ---
+  pal: "3 Latin cells (iron, nose, sleep) among 51 Inscriptional Pahlavi. Pahlavi orthography is historical and partly heterographic, so a spelling cannot be derived from the reading — needs MacKenzie's Concise Pahlavi Dictionary or Nyberg's Manual vol. II.",
+  blt: "Tai Dam: 6 Latin cells (i, we, snow, stone, wheel, white) among 39 Tai Viet. None of Wiktionary's 255 Tai Dam lemmas, which cite Baccam et al. 1989, glosses them.",
+  vai: "Vai: 11 Latin among 28 Vai syllabary.",
+  cja: "Western Cham: 7 Latin among 32 Arabic script.",
+  shi: "Tashelhit: 7 Latin among 47 Tifinagh.",
+  rif: "Tarifit: 8 Latin among 46 Tifinagh.",
+  tzm: "Central Atlas Tamazight: 7 Latin among 44 Tifinagh.",
+  tmh: "Tamasheq: 3 Latin among 38 Tifinagh.",
+  zgh: "Standard Moroccan Tamazight: 2 Latin among 51 Tifinagh.",
+  cr:  "Plains Cree: 4 Latin among 47 Canadian Syllabics.",
+  crk: "Plains Cree (crk): 1 Latin among 49 Canadian Syllabics.",
+  iu:  "Inuktitut: 1 Latin among 54 Canadian Syllabics.",
+  sel: "Selkup: 4 Latin among 47 Cyrillic.",
+  kca: "Khanty: 3 Latin among 53 Cyrillic.",
+  mns: "Mansi: 1 Latin among 54 Cyrillic.",
+  myv: "Erzya: 1 Latin among 59 Cyrillic.",
+  yrk: "Nenets: 1 Latin among 53 Cyrillic.",
+  yuy: "East Yugur: 1 Latin among 39 Cyrillic.",
+  ale: "Aleut: 2 Latin among 40 Cyrillic.",
+  huz: "Hunzib: 1 Latin among 46 Cyrillic — and see the EXCEPTIONS entry below; the palochka case is separate.",
+  lzz: "Laz: 3 Latin among 48 Georgian.",
+  bbl: "Bats: 4 Cyrillic among 44 Georgian.",
+  kxm: "Northern Khmer: 1 Latin among 49 Khmer.",
+  khb: "Lü: 3 Latin among 47 New Tai Lue.",
+  kho: "Khotanese: 1 Latin among 30 Brahmi.",
+  otk: "Old Turkic: 1 Latin among 47 Old Turkic runes.",
+  sux: "Sumerian: 1 Latin among 52 cuneiform.",
+  akk: "Akkadian: 3 Latin among 55 cuneiform.",
+  cop: "Coptic: 3 Greek letters among 55 Coptic — ϭ ϣ are Demotic-derived and may belong; needs a Coptic orthography ruling.",
+  onw: "Old Nubian: 1 Greek among 34 Coptic — same question as cop.",
+  arc: "Aramaic: 2 Hebrew among 54 Syriac. Scholarly practice prints Aramaic in Hebrew square script, so this may be correct rather than mixed.",
+  oar: "Old Aramaic: 5 Imperial Aramaic among 48 Hebrew — the mirror of arc, and the two rows should be settled together.",
+  zkt: "Khitan: 4 Khitan among 19 Latin — the row is mostly Latin transcription because the script is undeciphered.",
+  xlu: "Luwian: 8 Anatolian Hieroglyphs among 10 Latin — same shape as zkt.",
+  za:  "Zhuang: 8 Han among 48 Latin — Sawndip beside the Latin orthography.",
+  iru: "Irula: 5 Tamil among 37 Latin.",
+  bfq: "Badaga: 3 Tamil among 41 Latin.",
+  rhg: "Rohingya: 1 Bengali among 49 Latin.",
+  haj: "Hajong: 2 Bengali among 38 Latin.",
+  unr: "Mundari: 1 Devanagari among 45 Latin.",
+  pi_edu: "Pali (pedagogical): 1 Devanagari among 58 Latin.",
+  xsr: "Sherpa: 1 Devanagari among 50 Tibetan.",
+  kry: "Kryts: 6 Cyrillic among 42 Latin.",
+  yai: "Yaghnobi: 2 Cyrillic among 43 Latin.",
+  kaa: "Karakalpak: 1 Cyrillic among 59 Latin.",
+  enf: "Forest Enets: 1 Cyrillic among 48 Latin.",
+  luz: "Southern Luri: 5 Arabic among 41 Latin.",
+  qxq: "Qashqai: 6 Arabic among 45 Latin.",
+  mn_cn: "Inner Mongolian: 1 Cyrillic among 54 Mongolian script.",
+  yue: "Cantonese: 1 Latin among 66 Han — the atsign cell.",
+};
+
 // Two tiers, one defect. A minority script in a row is either a stray cell
 // (<=3) or a row that never finished being converted (4+). The old code
 // dropped the second silently — `if(n>3)continue;` — on the theory that more
@@ -129,7 +203,17 @@ for(const[code,d] of Object.entries(LD)){
 }
 const partialCells=partial.reduce((a,p)=>a+p.words.length,0);
 
+// The rule, applied: a row not in MIXED_OK may not mix scripts at all.
+const offenders = new Map();
+for (const f of flags) offenders.set(f.code, (offenders.get(f.code) || 0) + 1);
+for (const p of partial) offenders.set(p.code, (offenders.get(p.code) || 0) + p.words.length);
+const unlisted = [...offenders.entries()].filter(([c]) => !(c in MIXED_OK));
+const stale = Object.keys(MIXED_OK).filter(c => !offenders.has(c));
+
 if(CHECK){
+  console.log("rows mixing scripts without a MIXED_OK entry: "+unlisted.length);
+  for (const [c, n] of unlisted) console.log("  "+c+"  "+n+" cell(s) — add a MIXED_OK entry saying why, or convert them");
+  for (const c of stale) console.log("  note: MIXED_OK entry '"+c+"' is clean now — delete it");
   console.log("stray-script surfaces: "+flags.length);
   console.log("partially-converted rows: "+partial.length+" ("+partialCells+" cells)");
   for(const f of flags)console.log("  "+f.code+" / "+f.word+" = "+JSON.stringify(f.surface)+"  ("+f.outlier+" among "+f.dom+"×"+f.domN+")");

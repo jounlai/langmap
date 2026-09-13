@@ -317,36 +317,26 @@ s = run('latin_cyrillic_fusion_check.js --check');
         un ? un + ' unresolved, need an orthography source' : '');
 }
 
-// Script consistency, the row-level sibling of the two fusion checks above:
-// a whole surface written in a script that is not its row's. It existed since
-// 2026-08 and was never wired in here, so nothing enforced it — and it was
-// blind twice over. Its block table stopped at Canadian Syllabics, so a row
-// written in Tai Viet, Tifinagh, Vai, Cham, cuneiform or Anatolian
-// hieroglyphs had NO recognised script at all, and its untransliterated Latin
-// cells became the majority: Tai Dam was reported as "Latin×9" with one Lao
-// outlier, the nine defects standing in as the baseline. And it dropped any
-// minority of 4+ cells outright, on the theory that a leak that big must be
-// deliberate — which is exactly backwards. Both are fixed; Japonic kanji/kana
-// mixing is exempt by rule, being orthography rather than a defect.
-// Ratcheted at today's debt, not gated at 0: several of these rows need an
-// orthography source before the cells can be converted rather than deleted.
-const STRAY_SCRIPT_DEBT = 54;      // <=3 foreign cells in a row
-const PARTIAL_SCRIPT_DEBT = 110;   // 4+ — a row that never finished converting
-// 109 -> 110 on 2026-09-13: cjm (Eastern Cham) gained a Latin `new`. Its `head`
-// went in as ꨀꨆꨯꨱꩀ, verified against a Cham dictionary, but no source reachable
-// so far spells 'new' in akhar thrah — the row's own existing cells write the
-// same shape in Latin (batuw), so baruw matches what is there. Deleting a
-// correctly sourced cell to hold a counter at 109 would be the failure mode
-// this project has already named once in intra_row_dup_check.js.
+// Script consistency: a row writes in ONE script, and every row that does not
+// must be named in script_consistency_check.js's MIXED_OK with the reason.
+//
+// This replaced a pair of numeric budgets (54 stray cells, 110 partial) on
+// 2026-09-13. The owner had reported the same row more than once — pal, three
+// Latin cells among 51 in Inscriptional Pahlavi — and it kept not getting
+// fixed, because a number cannot be read. `54` does not say which rows, why
+// they are there, or what would close them, so nothing dropped out of it and a
+// new offender could slip in while the total stayed under budget.
+//
+// A list has to be argued with. Adding a row means writing the sentence, and a
+// row whose sentence is "needs an orthography source" stays visible until
+// someone finds one. The guard also reports entries that have gone stale, so
+// the list shrinks on its own as rows are cleaned — it told us to delete `och`
+// the first time it ran.
 s = run('script_consistency_check.js --check');
-{
-    const stray = num(s, /stray-script surfaces: (\d+)/);
-    const part = num(s, /partially-converted rows: \d+ \((\d+) cells\)/);
-    line('stray-script surfaces', Math.max(0, stray - STRAY_SCRIPT_DEBT),
-        stray + ' cells, budget ' + STRAY_SCRIPT_DEBT);
-    line('partially-converted rows', Math.max(0, part - PARTIAL_SCRIPT_DEBT),
-        part + ' cells, budget ' + PARTIAL_SCRIPT_DEBT);
-}
+line('rows mixing scripts unlisted', num(s, /rows mixing scripts without a MIXED_OK entry: (\d+)/),
+     num(s, /stray-script surfaces: (\d+)/) + ' + ' +
+     num(s, /partially-converted rows: \d+ \((\d+) cells\)/) + ' cells in listed rows');
+
 
 // Simplified/traditional consistency per language code. Was scoped to the two
 // words it was written for (sushi, computer) and so missed six traditional-

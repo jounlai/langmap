@@ -19567,7 +19567,7 @@ const HAN_LANG_META = {
   },
   "th": {
     "name": "Thai Chinese loan layer",
-    "native": "\u0e04\u0e33\u0e22\u0e37\u0e21\u0e08\u0e32\u0e01\u0e20\u0e32\u0e29\u0e32\u0e08\u0e35\u0e19\u0e43\u0e19\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22",
+    "native": "ไทย",
     "lat": 15.87,
     "lng": 100.99,
     "family": "Kra-Dai > Tai > Southwestern Tai",
@@ -19629,7 +19629,7 @@ const HAN_LANG_META = {
   },
   "bo_sino": {
     "name": "Modern Tibetan Sino-reading",
-    "native": "ལྷ་སའི་སྐད་ནང་གི་ཀྲུང་གོའི་ཡི་གེའི་ཀློག་སྟངས།",
+    "native": "ལྷ་སའི་སྐད",
     "lat": 29.65,
     "lng": 91.13,
     "family": "Sino-Tibetan > Tibetic > Standard Tibetan",
@@ -21093,7 +21093,7 @@ const HAN_LANG_META = {
   },
   "ja_kgs": {
     "name": "Kagoshima Sino-Japanese",
-    "native": "鹿児島弁・薩隅方言の漢字音",
+    "native": "薩隅方言",
     "lat": 31.59,
     "lng": 130.56,
     "family": "Japonic > Japanese > Kyūshū > Satsugū",
@@ -21123,7 +21123,7 @@ const HAN_LANG_META = {
   },
   "ja_okn": {
     "name": "Okinawan Sino-Japanese",
-    "native": "ウチナーヤマトゥグチの漢字音",
+    "native": "ウチナーヤマトゥグチ",
     "lat": 26.21,
     "lng": 127.68,
     "family": "Japonic > Japanese (Okinawan-substrate variety)",
@@ -21153,7 +21153,7 @@ const HAN_LANG_META = {
   },
   "ja_thk": {
     "name": "Tōhoku Sino-Japanese",
-    "native": "東北方言の漢字音",
+    "native": "東北方言",
     "lat": 38.27,
     "lng": 140.87,
     "family": "Japonic > Japanese > Tōhoku (Northeastern)",

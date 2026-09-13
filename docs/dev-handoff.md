@@ -2752,5 +2752,68 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
     The Rotokas and Abau ones matter most: if they hold, the atlas has been publishing 'small' and a
     negator as the word for red.
 
+101. **The Han Map's short-name table was 741 entries of the formal name with letters chopped out.
+     37 survived.** Owner: 「略語なのにまだ長い」. The length was the symptom; the cause was that
+     `HAN_SHORT_NAMES` predates `lang_nicknames.js` and never went through its rules.
+
+     Its entries were things like `ja_ojp` es "Sino-jap. antiguo", `ko_zai` es "Sino-coreano
+     zainichi", `ko_mid` fr "SC moy. coréen" — **nobody calls them that.** They are the formal
+     descriptor truncated, which is exactly what rule 1 forbids: a short name must be a name people
+     really use, not an abbreviation invented to save space. Where a language has no real short
+     name, it now gets **no entry** and the formal name shows, which is the same sparse-with-
+     fallback design the Word Map uses.
+
+     **Three defects underneath the padding, each worse than the padding:**
+
+     - **83 entries were character-identical to the formal name in the same UI.** They could never
+       change a label. A third of the table was inert.
+     - **`ja_heian` and `ja_edo` are codes the Han Map never draws.** They appear nowhere in
+       `hanmap.html` outside this table, and carried 38 entries between them.
+     - **The whole `zh` column was TRADITIONAL while `LANG_NAMES.zh` is simplified** — 上代日語音
+       against 上代日本汉字音, 泰國華僑音 against 泰国华人普通话. Picking 略称 silently flipped the
+       script, which is the same defect class the owner reported for the yue names two days ago,
+       hiding in the switch instead of in the table.
+
+     What survived: 呉音 / Go-on, kun-yomi in four languages, Hán-Việt, Chữ Nôm in 13, Phags-pa in
+     5, Shanghainese in 11. Five UIs — uk, ar, he, sw, hi — ended with **none at all**, which is the
+     honest outcome rather than a gap.
+
+     Sourced and still dropped, so they are not re-proposed: `ko_hun` ko 새김 (off the map it reads
+     "a carving" — rule 6, the shirt leaves the browser); `ja_ojp` zh 吳音 (a homograph of 五音, and
+     this map carries eight Wu rows); the proto rows' PST and PTB (attested by STEDT, but off the
+     map they read as Pacific Standard Time and pulmonary tuberculosis); `nan_pera` "Peranakan"
+     (names the community, the mame-loshn failure); `zh_tw` zh 國語.
+
+102. **`native` was holding descriptions of what a row CONTAINS, not names.** Owner, on
+     `ja_okn`: 「沖縄方言の漢字音（ウチナーヤマトゥグチ）も ウチナーヤマトゥグチ だけで良いのでは？」
+     — right, and the same shape was in four more rows. `ja_okn` ウチナーヤマトゥグチの漢字音 →
+     ウチナーヤマトゥグチ; `ja_kgs` 鹿児島弁・薩隅方言の漢字音 → 薩隅方言; `ja_thk` 東北方言の漢字音
+     → 東北方言; `bo_sino` ལྷ་སའི་སྐད་ནང་གི་ཀྲུང་གོའི་ཡི་གེའི་ཀློག་སྟངས། ("the way Chinese letters are
+     read in the Lhasa language") → ལྷ་སའི་སྐད; `th` คำยืมจากภาษาจีนในภาษาไทย ("Chinese loanwords in
+     Thai") → ไทย. **The row says what it contains in `reading_type`; `native` says what the
+     language is called.**
+
+103. **OPEN: three more codes where the two maps hold different things under one name.** This is the
+     `zh_han` shape (handoff 99) and it now has company. The shared `lang_names` table cannot say
+     both, so each needs either a second code or a per-map name.
+
+     - **`vi_han`** — named "Vietnamese Hán văn" / ベトナム漢文, i.e. Literary Chinese as a corpus.
+       But the Word Map cells are 水 tʰwi, 三 tam, 首 tʰu: the **Sino-Vietnamese reading layer**, and
+       `hanmap.html` calls them "Hán-Việt readings" in its own code. The name is at the wrong
+       altitude in both maps. Renaming it risks colliding with the `vi` Han Map row, which also
+       gives Sino-Vietnamese readings — decide what distinguishes the two rows first.
+     - **`ko_mid`** — `lang_names` says "Middle Korean", which is right for the **Word Map**, whose
+       cells are ·믈 and :셓, native Middle Korean words with 방점. The **Han Map** row under the
+       same code is 동국정운식 한자음, a prescriptive 1448 rime-dictionary reading abandoned by the
+       16th century. Two different objects, one code.
+     - **`zh_jiao` / `zh_gl`** — `lang_names` names the city (Qingdao Mandarin, Liuzhou Mandarin)
+       while `hanmap_data.js` names the group (膠遼官話, 桂柳官話) and `reading_type` splits the
+       difference ("Jiao-Liao Mandarin (Qingdao)"). Someone has to decide whether these rows are the
+       group or the point, and then make all three fields say it.
+
+     `ja_ojp` was the one of this set that its own data settled: its `native` says 上代日本語呉音 and
+     its `reading_type` says "pre-Heian Wu reading", so the formal name now says Go-on too, and the
+     short name 呉音 stays distinct from it.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

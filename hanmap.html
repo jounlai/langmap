@@ -3333,7 +3333,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=321"></script>
-    <script src="hanmap_data.js?v=124"></script>
+    <script src="hanmap_data.js?v=125"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3368,8 +3368,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=3"></script>
-    <script src="lang_names/en.js?v=187"></script>
-    <script>window.__langNamesVersion(187); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=188"></script>
+    <script>window.__langNamesVersion(188); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // lang_names.js carries the WordMap/LangMap-canonical name (e.g. ko_mid =
@@ -7208,169 +7208,27 @@
 
         // Hanmap-specific short display names for codes whose canonical
         // lang_names entries are too long for map labels (e.g. ja_ojp
-        // 上代日本語漢字音 → 上代日本音). Other UI langs already use
-        // reasonably compact forms ("Old Japanese on-yomi", "Zainichi
-        // Korean Sino-reading"), so we only override Japanese and a few
-        // other east-asian UIs where the canonical form runs long.
+        // Rebuilt 2026-09-13 (owner: 「略語なのにまだ長い」). It used to hold 741
+        // entries that were the FORMAL name with letters chopped out of it —
+        // "Sino-jap. antiguo", "Sino-coreano zainichi" — which is precisely
+        // what lang_nicknames.js's rule 1 forbids: a short name must be a name
+        // people really use, not an abbreviation invented to save space. 37
+        // survived. Everything else falls through to the formal name, which is
+        // the correct behaviour and not a gap.
+        //
+        // Three things the old table was doing wrong beyond the padding: 83 of
+        // its entries were CHARACTER-IDENTICAL to the formal name and so could
+        // never change a label; ja_heian and ja_edo are codes the Han Map never
+        // draws, carrying 38 entries between them; and its whole `zh` column
+        // was TRADITIONAL while LANG_NAMES.zh is simplified, so picking 略称
+        // silently flipped the script.
         const HAN_SHORT_NAMES = {
-            ja_ojp:     { ja:'上代日本音', ko:'고대 일본음', zh:'上代日語音', yue:'上代日語音',
-                          en:'Old Japanese SX', fr:'Vieux jap. SX', de:'Altjap. SJ', es:'Sino-jap. antiguo', pt:'Sino-jap. antigo', it:'Sino-giapp. antico',
-                          ru:'Др.-яп. СЯ', uk:'Давньояп. СЯ', ar:'يابانية قديمة SX', he:'יפנית עתיקה SX', sw:'Sino-Kijapani cha kale',
-                          vi:'Hán-Nhật cổ', th:'จีน-ญี่ปุ่นเก่า', id:'Sino-Jepang Kuno', hi:'पुरानी सिनो-जापानी' },
-            ko_zai:     { ja:'在日韓国音', ko:'재일 한국음', zh:'在日韓國音', yue:'在日韓國音',
-                          en:'Zainichi SK', fr:'SC zainichi', de:'Zainichi-SK', es:'Sino-coreano zainichi', pt:'Sino-coreano zainichi', it:'Sino-coreano zainichi',
-                          ru:'Дзайнити СК', uk:'Дзайнічі СК', ar:'سينو-كورية زاينيتشي', he:'סינו-קוריאנית זאיניצ׳י', sw:'Kikorea cha Zainichi',
-                          vi:'Hán-Hàn Zainichi', th:'จีน-เกาหลีไซนิจิ', id:'Sino-Korea Zainichi', hi:'जैनिची सिनो-कोरियाई' },
-            ko_mid:     { ja:'中世韓国音', ko:'중세 한국음', zh:'中世韓國音', yue:'中世韓國音',
-                          en:'M. Korean SK', fr:'SC moy. coréen', de:'M.-Kor. SK', es:'Sino-cor. medio', pt:'Sino-cor. médio', it:'Sino-cor. medio',
-                          ru:'Ср.-кор. СК', uk:'Сер.-кор. СК', ar:'سينو-كورية وسطى', he:'סינו-קוריאנית תיכונה', sw:'Sino-Kikorea cha kati',
-                          vi:'Hán-Hàn trung cổ', th:'จีน-เกาหลีกลาง', id:'Sino-Korea Pertengahan', hi:'मध्य सिनो-कोरियाई' },
-            ko_hun:     { ja:'韓国固有訓', ko:'한국 훈독', zh:'韓國訓讀', yue:'韓國訓讀',
-                          en:'Korean kun', fr:'Kun coréen', de:'Kor. Kun-Lesung', es:'Lectura kun coreana', pt:'Leitura kun coreana', it:'Lettura kun cor.',
-                          ru:'Кор. кун', uk:'Кор. кун', ar:'قراءة كون كورية', he:'קריאת קוּן קוריאנית', sw:'Kun ya Kikorea',
-                          vi:'Huấn đọc Hàn', th:'อ่านคุนเกาหลี', id:'Kun Korea', hi:'कोरियाई कुन' },
-            ja_kun:     { ja:'訓読み', ko:'일본 훈독', zh:'日語訓讀', yue:'日語訓讀',
-                          en:'Kun-yomi', fr:'Kun-yomi', de:'Kun-Lesung', es:'Lectura kun', pt:'Leitura kun', it:'Lettura kun',
-                          ru:'Кунъёми', uk:'Кунйомі', ar:'كون-يومي', he:'קוּן-יוֹמי', sw:'Kun-yomi',
-                          vi:'Kun-yomi', th:'คุนโยมิ', id:'Kun-yomi', hi:'कुन-योमी' },
-            ja_kgs:     { ja:'鹿児島漢字音', ko:'가고시마 한자음', zh:'鹿兒島漢字音', yue:'鹿兒島漢字音',
-                          en:'Kagoshima SJ', fr:'SJ Kagoshima', de:'SJ Kagoshima', es:'SJ Kagoshima', pt:'SJ Kagoshima', it:'SJ Kagoshima',
-                          ru:'СЯ Кагосима', uk:'СЯ Каґосіма', ar:'سينو-يابانية كاغوشيما', he:'סינו-יפנית קאגושימה', sw:'SJ Kagoshima',
-                          vi:'Hán-Nhật Kagoshima', th:'จีน-ญี่ปุ่นคาโงชิมะ', id:'SJ Kagoshima', hi:'सिनो-जा. कागोशिमा' },
-            ja_okn:     { ja:'沖縄漢字音', ko:'오키나와 한자음', zh:'沖繩漢字音', yue:'沖繩漢字音',
-                          en:'Okinawa SJ', fr:'SJ Okinawa', de:'SJ Okinawa', es:'SJ Okinawa', pt:'SJ Okinawa', it:'SJ Okinawa',
-                          ru:'СЯ Окинава', uk:'СЯ Окінава', ar:'سينو-يابانية أوكيناوا', he:'סינו-יפנית אוקינאווה', sw:'SJ Okinawa',
-                          vi:'Hán-Nhật Okinawa', th:'จีน-ญี่ปุ่นโอกินาวะ', id:'SJ Okinawa', hi:'सिनो-जा. ओकिनावा' },
-            ja_thk:     { ja:'東北漢字音', ko:'도호쿠 한자음', zh:'東北漢字音', yue:'東北漢字音',
-                          en:'Tōhoku SJ', fr:'SJ Tōhoku', de:'SJ Tōhoku', es:'SJ Tōhoku', pt:'SJ Tōhoku', it:'SJ Tōhoku',
-                          ru:'СЯ Тохоку', uk:'СЯ Тохоку', ar:'سينو-يابانية توهوكو', he:'סינו-יפנית טוהוקו', sw:'SJ Tōhoku',
-                          vi:'Hán-Nhật Tōhoku', th:'จีน-ญี่ปุ่นโทโฮกุ', id:'SJ Tōhoku', hi:'सिनो-जा. तोहोकु' },
-            vi_ohan:    { ja:'古漢越音', ko:'고대 한월음', zh:'古漢越音', yue:'古漢越音',
-                          en:'Old SV', fr:'Sino-V. anc.', de:'Alt-Sino-V.', es:'Sino-viet. ant.', pt:'Sino-viet. ant.', it:'Sino-viet. ant.',
-                          ru:'Др. сино-вьет.', uk:'Давн. сино-в\'єт.', ar:'سينو-فيتنامية قديمة', he:'סינו-וייטנאמית עתיקה', sw:'Sino-Viet ya kale',
-                          vi:'Cổ Hán-Việt', th:'จีน-เวียดเก่า', id:'Sino-Viet Kuno', hi:'पुरानी सिनो-वियतनामी' },
-            vi_han:     { ja:'漢越音', ko:'한월음', zh:'漢越音', yue:'漢越音',
-                          en:'Sino-Viet', fr:'Sino-V.', de:'Sino-V.', es:'Sino-viet.', pt:'Sino-viet.', it:'Sino-viet.',
-                          ru:'Сино-вьет.', uk:'Сино-в\'єт.', ar:'سينو-فيتنامية', he:'סינו-וייטנאמית', sw:'Sino-Kivietinamu',
-                          vi:'Hán-Việt', th:'จีน-เวียด', id:'Sino-Viet', hi:'सिनो-वियतनामी' },
-            vi_nom:     { ja:'字喃', ko:'쯔놈', zh:'喃字', yue:'喃字',
-                          en:'Chữ Nôm', fr:'Chữ Nôm', de:'Chữ Nôm', es:'Chữ Nôm', pt:'Chữ Nôm', it:'Chữ Nôm',
-                          ru:'Тьы-ном', uk:'Тьи-ном', ar:'تشو نوم', he:'צ׳ו נום', sw:'Chữ Nôm',
-                          vi:'Chữ Nôm', th:'จื๋อโนม', id:'Chữ Nôm', hi:'चु नोम' },
-            bo_sino:    { ja:'現代蔵音', ko:'현대 티베트음', zh:'現代藏音', yue:'現代藏音',
-                          en:'Mod. Tibetan', fr:'Tibét. mod.', de:'Mod. Tib.', es:'Tibet. mod.', pt:'Tibet. mod.', it:'Tibet. mod.',
-                          ru:'Совр. тибет.', uk:'Суч. тибет.', ar:'تبتية حديثة', he:'טיבטית מודרנית', sw:'Kitibeti cha kisasa',
-                          vi:'Tạng hiện đại', th:'ทิเบตสมัยใหม่', id:'Tibet Modern', hi:'आधुनिक तिब्बती' },
-            zh_phagspa: { ja:'八思巴字音', ko:'파스파 음', zh:'八思巴字音', yue:'八思巴字音',
-                          en:'Phags-pa', fr:'Phags-pa', de:'Phags-pa', es:'Phags-pa', pt:'Phags-pa', it:'Phags-pa',
-                          ru:'Пагба', uk:'Паґба', ar:'فاكس-با', he:'פאגס-פא', sw:'Phags-pa',
-                          vi:'Phags-pa', th:'พักปา', id:'Phags-pa', hi:'फग्स-पा' },
-            zh_yuan:    { ja:'元代官話', ko:'원대 관화', zh:'元代官話', yue:'元代官話',
-                          en:'Yuan Mand.', fr:'Mand. Yuan', de:'Yuan-Mand.', es:'Mandarín Yuan', pt:'Mandarim Yuan', it:'Mandarino Yuan',
-                          ru:'Юаньский кит.', uk:'Юанський кит.', ar:'ماندرين يوان', he:'מנדרינית יואן', sw:'Mandarin ya Yuan',
-                          vi:'Quan thoại Nguyên', th:'แมนดารินหยวน', id:'Mandarin Yuan', hi:'युआन मंदारिन' },
-            zh_th:      { ja:'タイ華僑音', ko:'태국 화교음', zh:'泰國華僑音', yue:'泰國華僑音',
-                          en:'TH Mandarin', fr:'Mand. TH', de:'TH-Mandarin', es:'Mandarín TH', pt:'Mandarim TH', it:'Mandarino TH',
-                          ru:'Тайск. кит.', uk:'Тайськ. кит.', ar:'ماندرين تايلاند', he:'מנדרינית תאי', sw:'Mandarin ya TH',
-                          vi:'Quan thoại Thái', th:'แมนดารินไทย', id:'Mandarin TH', hi:'थाई मंदारिन' },
-            zh_tw:      { ja:'台灣華語', ko:'타이완 국어', zh:'台灣華語', yue:'台灣華語',
-                          en:'Taiwan Mand.', fr:'Mand. Taïwan', de:'Mand. TW', es:'Mandarín TW', pt:'Mandarim TW', it:'Mandarino TW',
-                          ru:'Тайв. кит.', uk:'Тайв. кит.', ar:'ماندرين تايوان', he:'מנדרינית טייוואן', sw:'Mandarin ya Taiwan',
-                          vi:'Quan thoại Đài', th:'แมนดารินไต้หวัน', id:'Mandarin TW', hi:'ताइवानी मंदारिन' },
-            zh_us:      { ja:'北米華僑音', ko:'북미 화교음', zh:'北美華僑音', yue:'北美華僑音',
-                          en:'US Chinese', fr:'Sino-USA', de:'US-Chinesisch', es:'Chino EE.UU.', pt:'Chinês EUA', it:'Cinese USA',
-                          ru:'Амер. кит.', uk:'Амер. кит.', ar:'صينية أمريكية', he:'סינית אמריקאית', sw:'Kichina cha Marekani',
-                          vi:'Hoa kiều Mỹ', th:'จีนอเมริกัน', id:'Mandarin AS', hi:'अमेरिकी चीनी' },
-            yue_us:     { ja:'北米広東語', ko:'북미 광동어', zh:'北美粵語', yue:'北美粵語',
-                          en:'US Cantonese', fr:'Cant. USA', de:'US-Kantones.', es:'Cantonés EE.UU.', pt:'Cantonês EUA', it:'Cantonese USA',
-                          ru:'Амер. кантон.', uk:'Амер. кантон.', ar:'كانتونية أمريكية', he:'קנטונזית אמריקאית', sw:'Kikanton cha Marekani',
-                          vi:'Quảng Đông Mỹ', th:'กวางตุ้งอเมริกัน', id:'Kanton AS', hi:'अमेरिकी कैंटोनी' },
-            nan_pera:   { ja:'プラナカン福建語', ko:'프라나칸 민남어', zh:'娘惹福建話', yue:'娘惹福建話',
-                          en:'Peranakan', fr:'Peranakan', de:'Peranakan', es:'Peranakan', pt:'Peranakan', it:'Peranakan',
-                          ru:'Перанаканский', uk:'Перанаканський', ar:'بيرانكان', he:'פרנקאן', sw:'Peranakan',
-                          vi:'Peranakan', th:'เปอรานากัน', id:'Peranakan', hi:'पेरानाकन' },
-            nan_id:     { ja:'インドネシア福建語', ko:'인도네시아 민남어', zh:'印尼福建話', yue:'印尼福建話',
-                          en:'ID Hokkien', fr:'Hokkien ID', de:'ID-Hokkien', es:'Hokkien ID', pt:'Hoquien ID', it:'Hokkien ID',
-                          ru:'Индонез. хоккиен', uk:'Індонез. хоккієн', ar:'هوكين إندونيسيا', he:'הוקין אינדונזיה', sw:'Hokkien ya ID',
-                          vi:'Hokkien ID', th:'ฮกเกี้ยน ID', id:'Hokkien ID', hi:'इंडोनेशियाई होक्किएन' },
-            nan_my:     { ja:'マレーシア福建語', ko:'말레이시아 민남어', zh:'馬來西亞福建話', yue:'馬來西亞福建話',
-                          en:'MY Hokkien', fr:'Hokkien MY', de:'MY-Hokkien', es:'Hokkien MY', pt:'Hoquien MY', it:'Hokkien MY',
-                          ru:'Малайз. хоккиен', uk:'Малайз. хоккієн', ar:'هوكين ماليزيا', he:'הוקין מלזיה', sw:'Hokkien ya MY',
-                          vi:'Hokkien MY', th:'ฮกเกี้ยน MY', id:'Hokkien MY', hi:'मलेशियाई होक्किएन' },
-            nan_sg:     { ja:'シンガポール福建語', ko:'싱가포르 민남어', zh:'新加坡福建話', yue:'新加坡福建話',
-                          en:'SG Hokkien', fr:'Hokkien SG', de:'SG-Hokkien', es:'Hokkien SG', pt:'Hoquien SG', it:'Hokkien SG',
-                          ru:'Сингап. хоккиен', uk:'Сингап. хоккієн', ar:'هوكين سنغافورة', he:'הוקין סינגפור', sw:'Hokkien ya SG',
-                          vi:'Hokkien SG', th:'ฮกเกี้ยน SG', id:'Hokkien SG', hi:'सिंगापुरी होक्किएन' },
-            nan_th:     { ja:'タイ華僑潮州語', ko:'태국 화교 조주어', zh:'泰國華僑潮州話', yue:'泰國華僑潮州話',
-                          en:'TH Teochew', fr:'Teochew TH', de:'TH-Teochew', es:'Teochew TH', pt:'Teochew TH', it:'Teochew TH',
-                          ru:'Тайск. теочиу', uk:'Тайськ. теочіу', ar:'تيوتشيو تايلاند', he:'צ׳אוצ׳ו תאי', sw:'Teochew ya TH',
-                          vi:'Triều Châu TH', th:'แต้จิ๋วไทย', id:'Teochew TH', hi:'थाई तेओचेव' },
-            sjo:        { ja:'シベ語', ko:'시버어', zh:'錫伯語', yue:'錫伯語',
-                          en:'Xibe', fr:'Xibé', de:'Sibe', es:'Sibe', pt:'Sibe', it:'Sibe',
-                          ru:'Сибо', uk:'Сібо', ar:'الشيبية', he:'שיבה', sw:'Kixibe',
-                          vi:'Tiếng Tích Bá', th:'ภาษาสีโป', id:'Bahasa Xibe', hi:'शिबे' },
-            ja_heian:   { ja:'平安日本語', ko:'헤이안 일본어', zh:'平安日語', yue:'平安日語',
-                          en:'Heian J.', fr:'Jap. Heian', de:'Heian-Jap.', es:'Japonés Heian', pt:'Jap. Heian', it:'Giapp. Heian',
-                          ru:'Хэйанский яп.', uk:'Хейанська яп.', ar:'يابانية هيآن', he:'יפנית הייאן', sw:'Kijapani cha Heian',
-                          vi:'Nhật Heian', th:'ญี่ปุ่นเฮอัน', id:'Jepang Heian', hi:'हेइआन जापानी' },
-            ja_edo:     { ja:'江戸日本語', ko:'에도 일본어', zh:'江戶日語', yue:'江戶日語',
-                          en:'Edo J.', fr:'Jap. Edo', de:'Edo-Jap.', es:'Japonés Edo', pt:'Jap. Edo', it:'Giapp. Edo',
-                          ru:'Эдоский яп.', uk:'Едоська яп.', ar:'يابانية إيدو', he:'יפנית אדו', sw:'Kijapani cha Edo',
-                          vi:'Nhật Edo', th:'ญี่ปุ่นเอโดะ', id:'Jepang Edo', hi:'एदो जापानी' },
-            wuu:        { ja:'上海語', ko:'상하이어', zh:'上海話', yue:'上海話',
-                          en:'Shanghainese', fr:'Shanghaïen', de:'Shanghaiisch', es:'Shanghainés', pt:'Xangainês', it:'Shanghainese',
-                          ru:'Шанхайский', uk:'Шанхайська', ar:'الشانغهاينية', he:'שנגחאית', sw:'Kishanghai',
-                          vi:'Tiếng Thượng Hải', th:'ภาษาเซี่ยงไฮ้', id:'Shanghai', hi:'शंघाईनी' },
-            zh_jiao:    { ja:'膠遼官話', ko:'자오랴오 관화', zh:'膠遼官話', yue:'膠遼官話',
-                          en:'Jiao-Liao M.', fr:'Mand. Jiao-Liao', de:'Jiao-Liao-M.', es:'Mand. Jiao-Liao', pt:'Mand. Jiao-Liao', it:'Mand. Jiao-Liao',
-                          ru:'Цзяо-ляоский', uk:'Цзяо-ляоський', ar:'ماندرين جياو-لياو', he:'מנדרינית ג׳יאו-ליאו', sw:'Mandarin ya Jiao-Liao',
-                          vi:'Giao-Liêu', th:'แมนดารินเจียวเหลียว', id:'Mandarin Jiao-Liao', hi:'जिआओ-लियाओ' },
-            hak_mz:     { ja:'梅縣客家語', ko:'메이셴 객가어', zh:'梅縣客家話', yue:'梅縣客家話',
-                          en:'Meixian Hakka', fr:'Hakka Meixian', de:'Meixian-Hakka', es:'Hakka Meixian', pt:'Hakka Meixian', it:'Hakka Meixian',
-                          ru:'Мэйсяньский хакка', uk:'Мейсяньський хакка', ar:'هكّا ميشيان', he:'האקה מייסיאן', sw:'Hakka ya Meixian',
-                          vi:'Khách Gia Mai', th:'แคะเหมยเซี่ยน', id:'Hakka Meixian', hi:'मेइसिएन हक्का' },
-            zh_gl:      { ja:'桂柳官話', ko:'구이류 관화', zh:'桂柳官話', yue:'桂柳官話',
-                          en:'Guiliu Mand.', fr:'Mand. Guiliu', de:'Guiliu-Mand.', es:'Mand. Guiliu', pt:'Mand. Guiliu', it:'Mand. Guiliu',
-                          ru:'Гуй-лючжоуский', uk:'Гуй-лючжоуський', ar:'ماندرين غوي-ليو', he:'מנדרינית גוּי-ליוּ', sw:'Mandarin ya Gui-Liu',
-                          vi:'Quế-Liễu', th:'แมนดารินกุ้ย-หลิว', id:'Mandarin Gui-Liu', hi:'गुई-लियू' },
-            // Proto languages — shorten "祖語" to "祖" suffix for compactness.
-            // Non-CJK UIs use "Proto-XX" style shorthand.
-            pst:  { ja:'漢蔵祖', ko:'한장조어', zh:'漢藏祖', yue:'漢藏祖',
-                    en:'Proto-ST', fr:'Proto-ST', de:'Proto-ST', es:'Proto-ST', pt:'Proto-ST', it:'Proto-ST',
-                    ru:'Прасино-тибет.', uk:'Прасино-тибет.', ar:'صينو-تبتية أصلية', he:'פרוטו-סינו-טיבטית', sw:'Proto-ST',
-                    vi:'Hán-Tạng nguyên', th:'โปรโต-จีน-ทิเบต', id:'Proto-Sino-Tibet', hi:'प्रोटो-सिनो-तिब्बती' },
-            ptb:  { ja:'蔵緬祖', ko:'장면조어', zh:'藏緬祖', yue:'藏緬祖',
-                    en:'Proto-TB', fr:'Proto-TB', de:'Proto-TB', es:'Proto-TB', pt:'Proto-TB', it:'Proto-TB',
-                    ru:'Пратибето-бирм.', uk:'Пратибето-бірм.', ar:'تبتو-بورمية أصلية', he:'פרוטו-טיבטו-בורמית', sw:'Proto-TB',
-                    vi:'Tạng-Miến nguyên', th:'โปรโต-ทิเบต-พม่า', id:'Proto-Tibet-Burma', hi:'प्रोटो-तिब्बती-बर्मी' },
-            pko:  { ja:'朝鮮祖', ko:'조선조어', zh:'朝鮮祖', yue:'朝鮮祖',
-                    en:'Proto-K', fr:'Proto-K', de:'Proto-K', es:'Proto-K', pt:'Proto-K', it:'Proto-K',
-                    ru:'Пракорейский', uk:'Пракорейська', ar:'كورية أصلية', he:'פרוטו-קוריאנית', sw:'Proto-K',
-                    vi:'Hàn nguyên', th:'โปรโต-เกาหลี', id:'Proto-Korea', hi:'प्रोटो-कोरियाई' },
-            pja:  { ja:'日本祖', ko:'일본조어', zh:'日本祖', yue:'日本祖',
-                    en:'Proto-J', fr:'Proto-J', de:'Proto-J', es:'Proto-J', pt:'Proto-J', it:'Proto-J',
-                    ru:'Праяпонский', uk:'Праяпонська', ar:'يابانية أصلية', he:'פרוטו-יפנית', sw:'Proto-J',
-                    vi:'Nhật nguyên', th:'โปรโต-ญี่ปุ่น', id:'Proto-Jepang', hi:'प्रोटो-जापानी' },
-            ptung:{ ja:'通古斯祖', ko:'퉁구스조어', zh:'通古斯祖', yue:'通古斯祖',
-                    en:'Proto-T', fr:'Proto-T', de:'Proto-T', es:'Proto-T', pt:'Proto-T', it:'Proto-T',
-                    ru:'Пратунгус.', uk:'Пратунгус.', ar:'تونغوسية أصلية', he:'פרוטו-טונגוסית', sw:'Proto-T',
-                    vi:'Tungus nguyên', th:'โปรโต-ตุงกุส', id:'Proto-Tungus', hi:'प्रोटो-तुंगुसी' },
-            paa:  { ja:'南亜祖', ko:'남아시아조어', zh:'南亞祖', yue:'南亞祖',
-                    en:'Proto-AA', fr:'Proto-AA', de:'Proto-AA', es:'Proto-AA', pt:'Proto-AA', it:'Proto-AA',
-                    ru:'Праавстроаз.', uk:'Праавстроаз.', ar:'أسترو-آسيوية أصلية', he:'פרוטו-אוסטרו-אסיאתית', sw:'Proto-AA',
-                    vi:'Nam Á nguyên', th:'โปรโต-ออสโตรเอเชียติก', id:'Proto-Austroasia', hi:'प्रोटो-ऑस्ट्रोएशियाई' },
-            ptai: { ja:'タイ祖', ko:'타이조어', zh:'壯侗祖', yue:'壯侗祖',
-                    en:'Proto-Tai', fr:'Proto-Tai', de:'Proto-Tai', es:'Proto-Tai', pt:'Proto-Tai', it:'Proto-Tai',
-                    ru:'Пратайский', uk:'Пратайська', ar:'تاي أصلية', he:'פרוטו-טאי', sw:'Proto-Tai',
-                    vi:'Tai nguyên', th:'โปรโต-ไท', id:'Proto-Tai', hi:'प्रोटो-ताई' },
-            pmgl: { ja:'蒙古祖', ko:'몽골조어', zh:'蒙古祖', yue:'蒙古祖',
-                    en:'Proto-Mong.', fr:'Proto-Mong.', de:'Proto-Mong.', es:'Proto-Mong.', pt:'Proto-Mong.', it:'Proto-Mong.',
-                    ru:'Прамонгольский', uk:'Прамонгольська', ar:'منغولية أصلية', he:'פרוטו-מונגולית', sw:'Proto-Mongol',
-                    vi:'Mông Cổ nguyên', th:'โปรโต-มองโกล', id:'Proto-Mongol', hi:'प्रोटो-मंगोल' },
-            phm:  { ja:'苗瑶祖', ko:'먀오야오조어', zh:'苗瑤祖', yue:'苗瑤祖',
-                    en:'Proto-HM', fr:'Proto-HM', de:'Proto-HM', es:'Proto-HM', pt:'Proto-HM', it:'Proto-HM',
-                    ru:'Прамяо-яо', uk:'Прамяо-яо', ar:'همونغ-مين أصلية', he:'פרוטו-המונג-מיין', sw:'Proto-HM',
-                    vi:'Miêu-Dao nguyên', th:'โปรโต-ม้ง-เมี่ยน', id:'Proto-Hmong-Mien', hi:'प्रोटो-म्यांग-मियेन' },
+            ja_ojp: { ja: "呉音", en: "Go-on", fr: "Go-on" },
+            ja_kun: { en: "Kun-yomi", fr: "Kun'yomi", de: "Kun-Lesung", ru: "Кунъёми" },
+            vi_han: { vi: "Hán-Việt" },
+            vi_nom: { ja: "字喃", ko: "쯔놈", zh: "喃字", yue: "喃字", en: "Chữ Nôm", fr: "Chữ Nôm", de: "Chữ Nôm", es: "Chữ Nôm", pt: "Chữ Nôm", it: "Chữ Nôm", id: "Chữ Nôm", vi: "Chữ Nôm", th: "จื๋อโนม" },
+            zh_phagspa: { en: "Phags-pa", es: "Phags-pa", pt: "Phags-pa", it: "Phags-pa", th: "พักปา" },
+            wuu: { ja: "上海語", ko: "상하이어", zh: "上海话", yue: "上海話", en: "Shanghainese", fr: "Shanghaïen", de: "Shanghaiisch", es: "Shanghainés", pt: "Xangainês", vi: "Tiếng Thượng Hải", th: "ภาษาเซี่ยงไฮ้" },
         };
         // Localized NAME for a HanMap-only variety (one not present in the Word
         // Map's LANG_NAMES). Such varieties store their name-in-19-languages in

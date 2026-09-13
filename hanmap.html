@@ -3368,8 +3368,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=3"></script>
-    <script src="lang_names/en.js?v=190"></script>
-    <script>window.__langNamesVersion(190); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=191"></script>
+    <script>window.__langNamesVersion(191); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js
@@ -3389,27 +3389,27 @@
     (function applyHanmapNameOverrides() {
       if (typeof LANG_NAMES !== 'object' || !LANG_NAMES) return;
       const OV = {
-        ja:        { ko_mid: '東国正韻音', zh_han: '上古漢語' },
-        ko:        { ko_mid: '동국정운음', zh_han: '상고한어' },
-        zh:        { ko_mid: '东国正韵音', zh_han: '上古汉语' },
-        'zh-hant': { ko_mid: '東國正韻音', zh_han: '上古漢語' },
-        yue:       { ko_mid: '東國正韻音', zh_han: '上古漢語' },
-        en:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Old Chinese' },
-        fr:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Chinois archaïque' },
-        de:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Altchinesisch' },
-        es:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Chino arcaico' },
-        pt:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Chinês arcaico' },
-        it:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Cinese arcaico' },
-        id:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Tionghoa Kuno' },
-        ms:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Tionghoa Kuno' },
-        sw:        { ko_mid: 'Dongguk Jeongun', zh_han: 'Kichina cha Kale' },
-        vi:        { ko_mid: 'Đông Quốc Chính Vận', zh_han: 'Thượng cổ Hán ngữ' },
-        ru:        { ko_mid: 'Тонгук чонун', zh_han: 'Древнекитайский' },
-        uk:        { ko_mid: 'Тонгук чонун', zh_han: 'Давньокитайська' },
-        ar:        { ko_mid: 'دونغوك جونغون', zh_han: 'الصينية القديمة' },
-        he:        { ko_mid: 'דונגוק ג׳ונגון', zh_han: 'סינית עתיקה' },
-        th:        { ko_mid: 'ทงกุกจองอุน', zh_han: 'ภาษาจีนโบราณ' },
-        hi:        { ko_mid: 'तोंगुक चोंगुन', zh_han: 'प्राचीन चीनी' },
+        ja:        { zh_han: '上古漢語' },
+        ko:        { zh_han: '상고한어' },
+        zh:        { zh_han: '上古汉语' },
+        'zh-hant': { zh_han: '上古漢語' },
+        yue:       { zh_han: '上古漢語' },
+        en:        { zh_han: 'Old Chinese' },
+        fr:        { zh_han: 'Chinois archaïque' },
+        de:        { zh_han: 'Altchinesisch' },
+        es:        { zh_han: 'Chino arcaico' },
+        pt:        { zh_han: 'Chinês arcaico' },
+        it:        { zh_han: 'Cinese arcaico' },
+        id:        { zh_han: 'Tionghoa Kuno' },
+        ms:        { zh_han: 'Tionghoa Kuno' },
+        sw:        { zh_han: 'Kichina cha Kale' },
+        vi:        { zh_han: 'Thượng cổ Hán ngữ' },
+        ru:        { zh_han: 'Древнекитайский' },
+        uk:        { zh_han: 'Давньокитайська' },
+        ar:        { zh_han: 'الصينية القديمة' },
+        he:        { zh_han: 'סינית עתיקה' },
+        th:        { zh_han: 'ภาษาจีนโบราณ' },
+        hi:        { zh_han: 'प्राचीन चीनी' },
       };
       for (const [ui, m] of Object.entries(OV)) {
         if (!LANG_NAMES[ui]) LANG_NAMES[ui] = {};

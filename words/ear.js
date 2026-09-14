@@ -711,7 +711,7 @@ WORDS.ear = {
     guc: ["ta-čeʼe", "ta-čeʔe"],
     huz: ["аᴴгъа", "aⁿɣa"],
     jam: ["ɛɩz", "ɛɩz"],
-    kca: ["pal", "pal"],
+    kca: ["пал", "pal"],
     khv: ["агьи", "ahi"],
     kjj: ["тІоп", "tʼop"],
     kry: ["сибел", "sibel"],

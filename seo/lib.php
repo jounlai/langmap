@@ -352,7 +352,7 @@ const SEO_T = [
         'th_char' => '한자', 'th_gloss' => '뜻', 'th_read' => '독음', 'th_form' => '표기',
         'where' => '사용 지역',
         'open_app' => '인터랙티브 지도에서 {name} 열기 →',
-        'goods_title' => '이 언어를 입다',
+        'goods_title' => '이 언어로 나만의 티셔츠를',
         'goods_sub' => '{name} 단어로 티셔츠 만들기 →',
         'goods_lede' => '마음에 드는 단어를 고르기만 하면 끝. 지도와 똑같은 글씨체로 프린트해 드려요.',
         'open_app_wm' => '인터랙티브 Word Map 열기 →',

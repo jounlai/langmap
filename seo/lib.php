@@ -1328,6 +1328,101 @@ const SEO_T = [
 ];
 
 /** Look up a SEO_T string with {placeholder} substitution; falls back to en. */
+/**
+ * seo_inline_name — a language name that has been dropped into the middle of a
+ * sentence, cased the way that language writes it there.
+ *
+ * The name tables ship display forms, capitalised: "Birmano", "Giapponese",
+ * "Bahasa Jepang", "Tiếng Nhật". As a heading or a link that is right. Inside a
+ * sentence it is wrong in Romance ("palabras en Birmano") and it puts a stray
+ * capital mid-clause in Indonesian and Vietnamese, whose names begin with a
+ * common noun. Five native panels reported it independently.
+ *
+ * It is NOT a general rule and must never be applied by default. The Swahili
+ * panel was explicit: Ki- in Kiswahili/Kijapani is a bound class prefix of the
+ * name itself and is always capitalised, so lowercasing there would be an
+ * error, not a fix. German capitalises all nouns. CJK, Thai, Arabic, Hebrew,
+ * Devanagari and Korean have no case at all.
+ *
+ * Hence a per-UI table, and only the languages whose own panel asked for it.
+ */
+const SEO_INLINE_LC = [
+    // Lowercase the initial. The panels verified their whole name table:
+    // Italian all 1,242, Portuguese all 1,241 (PHP's lcfirst is byte-based and
+    // leaves the 21 "Á…" names untouched, hence the multibyte version below),
+    // Spanish all 1,231 bar the proper nouns listed under SEO_INLINE_KEEP.
+    'es' => 'first',
+    // fr / it / pt are NOT enabled yet. Their panels each reported the whole
+    // table safe; rendering it falsified that within a minute — French printed
+    // "en nez-Percé", "en pieds-Noirs" and "en toki Pona", Italian "in toki
+    // Pona". Proper-noun-headed names need the same explicit KEEP list Spanish
+    // has, and guessing which names those are is how this class of bug is made,
+    // not fixed. Enable each one when its panel returns its list.
+    // Lowercase only the classifier the name begins with, never a later word:
+    // "Bahasa Jepang" -> "bahasa Jepang", "Tiếng Nhật" -> "tiếng Nhật". Names
+    // without the prefix (Inuktitut, Jepang Kuno) are left alone.
+    'id' => ['Bahasa '],
+    'vi' => ['Tiếng ', 'Ngôn ngữ '],
+];
+
+/** Names whose first word is a proper noun, so the initial stays. */
+const SEO_INLINE_KEEP = [
+    'es' => ['Pie Negro', 'Nez Perce', 'Donno So', 'Sebat Bet gurage', 'Toki Pona'],
+];
+
+/** Keys where the name must keep its display casing even mid-string. */
+const SEO_INLINE_DENY = [
+    // "¿Cambiar a {name}?" names the entry exactly as the picker shows it.
+    'es' => ['switch_to'],
+];
+
+function seo_inline_name(string $ui, string $key, string $name): string
+{
+    $rule = SEO_INLINE_LC[$ui] ?? null;
+    if ($rule === null || $name === '') {
+        return $name;
+    }
+    if (in_array($key, SEO_INLINE_DENY[$ui] ?? [], true)) {
+        return $name;
+    }
+    if (in_array($name, SEO_INLINE_KEEP[$ui] ?? [], true)) {
+        return $name;
+    }
+    if (is_array($rule)) {
+        foreach ($rule as $prefix) {
+            if (strncmp($name, $prefix, strlen($prefix)) === 0) {
+                return mb_strtolower(mb_substr($name, 0, 1)) . mb_substr($name, 1);
+            }
+        }
+        return $name;
+    }
+    return mb_strtolower(mb_substr($name, 0, 1)) . mb_substr($name, 1);
+}
+
+/**
+ * Spanish only: the 46 names that lead with a classifier need an article after
+ * the preposition — "palabras en el idioma hup", not "palabras en idioma hup".
+ * Every other name takes none ("en birmano"), and a blanket "el" would be wrong
+ * for the feminine ones, so the article is keyed on the classifier itself.
+ *
+ * Applied only where the template really does put "en " in front of the slot;
+ * in object position ("Ver {name} en el Word Map") the classifier already
+ * supplies its own noun and an article would be wrong.
+ */
+function seo_inline_article(string $ui, string $before, string $name): string
+{
+    if ($ui !== 'es' || !preg_match('/\ben\s$/u', $before)) {
+        return $name;
+    }
+    static $art = ['idioma ' => 'el ', 'dialecto ' => 'el ', 'lengua ' => 'la ', 'lectura ' => 'la '];
+    foreach ($art as $head => $a) {
+        if (strncmp($name, $head, strlen($head)) === 0) {
+            return $a . $name;
+        }
+    }
+    return $name;
+}
+
 function seo_t(string $ui, string $key, array $vars = []): string
 {
     $s = SEO_T[$ui][$key] ?? (SEO_T['en'][$key] ?? $key);
@@ -1335,6 +1430,25 @@ function seo_t(string $ui, string $key, array $vars = []): string
     // receive an explicit 'w' (e.g. the hub / Han Map cross-nav links).
     if (!isset($vars['w']) && strpos($s, '{w}') !== false) {
         $vars['w'] = (string) SEO_WM_WORDS;
+    }
+    // A language name sitting inside a sentence is cased differently from one
+    // standing on its own — but only in some languages, and never when the
+    // slot is sentence-initial or sits after a colon, where the display form
+    // is the correct one. Decided on the TEMPLATE, before substitution, so the
+    // value's own content cannot change the answer.
+    foreach (['name', 'lang'] as $nk) {
+        if (!isset($vars[$nk]) || $vars[$nk] === '') {
+            continue;
+        }
+        $at = strpos($s, '{' . $nk . '}');
+        if ($at === false || $at === 0) {
+            continue;
+        }
+        if (preg_match('/[:：]\s*$/u', substr($s, 0, $at))) {
+            continue;
+        }
+        $vars[$nk] = seo_inline_name($ui, $key, (string) $vars[$nk]);
+        $vars[$nk] = seo_inline_article($ui, substr($s, 0, $at), (string) $vars[$nk]);
     }
     if ($vars) {
         $repl = [];
@@ -1390,6 +1504,35 @@ function seo_data(string $which): array
  * Anything with no translation falls back to English, which is what the page
  * did for every value before.
  */
+/**
+ * seo_family_line — a caption whose {family} slot holds a data value, wrapped
+ * in <bdi>.
+ *
+ * The family values are the most typographically hostile strings on the site:
+ * up to ~120 characters, 63% of them parenthesised, and they mix Latin, CJK and
+ * the UI's own script ("Sino-Tibetan (Sinitic, Gan — 宜浏片)"). On an RTL page
+ * that run reorders unpredictably against the Hebrew or Arabic around it. <bdi>
+ * isolates it: dir=auto resolves the value on its own content and the clause
+ * keeps the paragraph's direction. Harmless in LTR, so every UI gets it.
+ *
+ * Returns HTML, already escaped — do NOT wrap the result in e().
+ *
+ * U+FFFC (object replacement character) is the split marker because it cannot
+ * occur in a translation table or in the data; a marker that could occur would
+ * cut the string in the wrong place on exactly the rows nobody tests.
+ */
+function seo_family_line(string $ui, string $key, string $family): string
+{
+    $mark = "\u{FFFC}";
+    $s = seo_t($ui, $key, ['family' => $mark]);
+    $i = strpos($s, $mark);
+    if ($i === false) {
+        return e($s);
+    }
+    return e(substr($s, 0, $i)) . '<bdi>' . e($family) . '</bdi>'
+         . e(substr($s, $i + strlen($mark)));
+}
+
 function seo_meta_value(string $ui, string $value): string
 {
     if ($ui === 'en' || $value === '') {
@@ -2140,7 +2283,7 @@ function seo_related_links(string $map, string $code, string $name, array $langs
     <?php if ($siblings):
         $sibCmp = array_slice($siblings, 0, 3);
     ?>
-    <a href="/<?= e($appPage) ?>#cmp=<?= e(rawurlencode($code . ',' . implode(',', $sibCmp))) ?>"><?= e(seo_t($ui, 'cmp_related', ['family' => seo_meta_value($ui, $family)])) ?></a>
+    <a href="/<?= e($appPage) ?>#cmp=<?= e(rawurlencode($code . ',' . implode(',', $sibCmp))) ?>"><?= seo_family_line($ui, 'cmp_related', seo_meta_value($ui, $family)) ?></a>
     <?php endif; ?>
     <span class="note"><?= e(seo_t($ui, 'cmp_note')) ?></span>
   </div>
@@ -2151,7 +2294,7 @@ function seo_related_links(string $map, string $code, string $name, array $langs
   <?php /* Same bug as the three cmp_ captions: $family is the raw data value,
            so this h2 printed the English family name into a translated page —
            and it sat eight lines below a link that translated it correctly. */ ?>
-  <h2><?= e(seo_t($ui, 'same_family')) ?>: <?= e(seo_meta_value($ui, $family)) ?></h2>
+  <h2><?= e(seo_t($ui, 'same_family')) ?>: <bdi><?= e(seo_meta_value($ui, $family)) ?></bdi></h2>
   <ul class="seo-siblings">
     <?php foreach ($sibList as $sc): ?>
       <li><a href="<?= e(seo_path($ui, $map, $sc)) ?>"><?= e(seo_lang_name($langs, $sc, $ui)) ?></a>
@@ -2477,7 +2620,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     ?>
 <section class="seo-ex" data-ex="words" data-uid="<?= e($uid) ?>" data-pages="<?= $np ?>">
   <h2><?= e(seo_t($ui, 'ex_words')) ?></h2>
-  <?php if ($wFamily !== ''): ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption', ['family' => seo_meta_value($ui, $wFamily)])) ?></p><?php endif; ?>
+  <?php if ($wFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_meta_value($ui, $wFamily)) ?></p><?php endif; ?>
   <div class="seo-cmp-wrap">
   <table class="seo-cmp-tbl">
     <thead>
@@ -2660,7 +2803,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     ?>
 <section class="seo-ex" data-ex="han" data-uid="<?= e($uid) ?>" data-pages="<?= $np ?>">
   <h2><?= e(seo_t($ui, 'ex_han')) ?></h2>
-  <?php if ($hFamily !== ''): ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption', ['family' => seo_meta_value($ui, $hFamily)])) ?></p><?php endif; ?>
+  <?php if ($hFamily !== ''): ?><p class="ex-note"><?= seo_family_line($ui, 'cmp_caption', seo_meta_value($ui, $hFamily)) ?></p><?php endif; ?>
   <div class="seo-cmp-wrap">
   <table class="seo-cmp-tbl">
     <thead>

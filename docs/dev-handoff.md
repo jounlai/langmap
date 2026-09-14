@@ -2815,5 +2815,36 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
      its `reading_type` says "pre-Heian Wu reading", so the formal name now says Go-on too, and the
      short name 呉音 stays distinct from it.
 
+104. **The 略称 switch position is gone. The nicknames are not.** Owner, after seeing the numbers:
+     「翻訳名称と略称がほとんど一緒なので、略称に統一した方がいいのでは？」 then 「スイッチを取り
+     ましょう」.
+
+     The measurement that settled it: **98% of labels were byte-identical in the two positions** —
+     Word Map 1,168 of 1,187 rows in English, 1,180 in Japanese, **all 1,187 in German and French**;
+     Han Map 2,263 of 2,299. A reader could press the third button, watch nothing change, and share
+     a URL carrying `abbr=1` that changed nothing for the recipient either.
+
+     **That is not a defect in the data — it is what rule 1 requires.** A nickname must be a name
+     people really use, so most rows have none, so the layer is sparse, so the two positions agree
+     almost everywhere. The control promised a difference the rule forbids it from delivering.
+
+     **What went:** the third radio on both maps, `nameStyle`, the `abbr=1` hash parameter (a link
+     that still carries it opens on the formal name, which is what it was showing anyway),
+     `WM_UI.shortName` in 21 UI codes, and `HAN_SHORT_NAMES` — 37 entries that had no other reader,
+     since the Han Map has no goods hand-off. `git log -S HAN_SHORT_NAMES` recovers it.
+
+     **What stayed, and why the work was not wasted:** `lang_nicknames.js`, its 26 entries, its
+     source table and `lang_nickname_check.js`. **The goods hand-off still sends the nickname** —
+     `name=Singlish` with `formal=Singapore English` alongside — which is what the layer was
+     collected for in the first place: 「地図には今まで通り正式名称をデフォルトにする…Tシャツには
+     俗称を使う」. The map half of that request is now served by the default alone.
+
+     **The general lesson, which is the same one three times this week.** A control that cannot
+     change anything is worse than no control: 741 Han Map short names were the formal name with
+     letters removed, 83 of them character-identical to it; the 略称 button was dead for 17 of 19
+     UI languages before it was hidden for those; and now it is dead for 98% of rows in the two
+     that remain. Each time the fix was to delete, not to fill. **Ask what fraction of the rows a
+     new display mode actually changes before building the switch for it.**
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

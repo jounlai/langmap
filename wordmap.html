@@ -2982,15 +2982,19 @@
             <button class="toggle-btn active" id="toggle-word" aria-pressed="true" aria-label="Toggle form display"><span class="label">Form</span><span class="onoff">ON</span></button>
             <button class="toggle-btn active" id="toggle-ipa" aria-pressed="true" aria-label="Toggle pronunciation / IPA / transcription display"><span class="label">Pron.</span><span class="onoff">ON</span></button>
             <button class="toggle-btn active" id="toggle-name" aria-pressed="true" aria-label="Toggle language-name display"><span class="label">Name</span><span class="onoff">ON</span></button>
-            <!-- Three ways to label a pin: the language's own name for itself,
-                 the formal name in the reader's UI language (the default), and
-                 the nickname it is really called by — Singlish for Singapore
-                 English. The nickname is sparse, so that option falls back to
-                 the formal name for every row that has none. -->
-            <div class="radio-switch radio-switch-v" id="name-switch" role="radiogroup" aria-label="Name display (native / translated / short)">
+            <!-- Two ways to label a pin: the language's own name for itself, and
+                 the formal name in the reader's UI language (the default).
+                 There was a third, 略称, showing the nickname where a language
+                 has one — but the nickname layer is sparse by rule (a nickname
+                 must be a name people really use, so most rows have none), and
+                 the button therefore produced a byte-identical map for 98% of
+                 rows while still writing abbr=1 into a shared URL. Removed
+                 2026-09-14 at the owner's decision. The nicknames themselves
+                 stay in lang_nicknames.js and still reach the goods hand-off,
+                 which is what they were collected for. -->
+            <div class="radio-switch radio-switch-v" id="name-switch" role="radiogroup" aria-label="Name display (native / translated)">
                 <button class="radio-opt" id="name-native" role="radio" aria-checked="false"></button>
                 <button class="radio-opt active" id="name-translated" role="radio" aria-checked="true"></button>
-                <button class="radio-opt" id="name-short" role="radio" aria-checked="false"></button>
             </div>
             <!-- Red location pins: default OFF. When ON, a small red dot is
                  drawn at each language's true lat/lng so the de-cluttered
@@ -3415,7 +3419,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=321"></script>
+    <script src="wordmap_data.js?v=322"></script>
     <script src="word_manifest.js?v=475"></script>
     <script src="word_labels.js?v=58"></script>
     <script>
@@ -3889,7 +3893,7 @@
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
             styles:   131,
-            data:      321,
+            data:      322,
             metaI18n:  16,
             filter:    45,
             names:   192,
@@ -4099,7 +4103,7 @@
             ariaToggleForm:    { en:'Toggle form display', ja:'表記の表示切替', ko:'표기 표시 전환', zh:'切换写法显示', yue:'切換寫法顯示', vi:'Bật/tắt hiển thị chữ viết', th:'สลับการแสดงรูปคำ', id:'Alih tampilan bentuk', hi:'रूप प्रदर्शन बदलें', de:'Schreibung umschalten', fr:'Basculer l\'affichage des graphies', it:'Alterna la grafia', es:'Alternar grafía', pt:'Alternar grafia', ru:'Переключить отображение записи', uk:'Перемкнути показ написання', ar:'تبديل عرض الشكل', he:'החלף תצוגת כתיב', sw:'Badilisha tabia ya kuandika' },
             ariaTogglePron:    { en:'Toggle pronunciation display', ja:'発音表示切替', ko:'발음 표시 전환', zh:'切换发音显示', yue:'切換發音顯示', vi:'Bật/tắt phát âm', th:'สลับการแสดงการออกเสียง', id:'Alih tampilan pelafalan', hi:'उच्चारण प्रदर्शन बदलें', de:'Aussprache umschalten', fr:'Basculer la prononciation', it:'Alterna la pronuncia', es:'Alternar pronunciación', pt:'Alternar pronúncia', ru:'Переключить произношение', uk:'Перемкнути вимову', ar:'تبديل عرض النطق', he:'החלף תצוגת הגייה', sw:'Badilisha matamshi' },
             ariaToggleName:    { en:'Toggle language-name display', ja:'言語名表示切替', ko:'언어명 표시 전환', zh:'切换语言名显示', yue:'切換語言名顯示', vi:'Bật/tắt tên ngôn ngữ', th:'สลับการแสดงชื่อภาษา', id:'Alih tampilan nama bahasa', hi:'भाषा नाम बदलें', de:'Sprachnamen umschalten', fr:'Basculer le nom de langue', it:'Alterna nome lingua', es:'Alternar nombre del idioma', pt:'Alternar nome do idioma', ru:'Переключить название языка', uk:'Перемкнути назву мови', ar:'تبديل عرض اسم اللغة', he:'החלף תצוגת שם השפה', sw:'Badilisha jina la lugha' },
-            ariaNameGroup:     { en:'Name display (native / translated / short)', ja:'言語名表示（現地名/翻訳/略称）', ko:'언어명 표시 (현지/번역/약칭)', zh:'语言名显示（本名/翻译/简称）', yue:'語言名顯示（本名／翻譯／簡稱）', vi:'Hiển thị tên (bản địa / dịch / tắt)', th:'การแสดงชื่อ (พื้นเมือง / แปล / ชื่อย่อ)', id:'Tampilan nama (asli / diterjemahkan / pendek)', hi:'नाम प्रदर्शन (मूल / अनुवादित / संक्षिप्त)', de:'Namensanzeige (nativ / übersetzt / Kurzform)', fr:'Affichage du nom (natif / traduit / court)', it:'Visualizzazione nome (nativo / tradotto / breve)', es:'Mostrar nombre (nativo / traducido / corto)', pt:'Exibição de nome (nativo / traduzido / curto)', ru:'Отображение названия (родное / перевод / кратко)', uk:'Відображення назви (рідна / переклад / коротко)', ar:'عرض الاسم (الأصلي / المُترجم / المختصر)', he:'תצוגת שם (מקורי / מתורגם / מקוצר)', sw:'Onyesho la jina (asili / iliyotafsiriwa / fupi)' },
+            ariaNameGroup:     { en:'Name display (native / translated)', ja:'言語名表示（現地名/翻訳）', ko:'언어명 표시 (현지/번역)', zh:'语言名显示（本名/翻译）', yue:'語言名顯示（本名／翻譯）', vi:'Hiển thị tên (bản địa / dịch)', th:'การแสดงชื่อ (พื้นเมือง / แปล)', id:'Tampilan nama (asli / diterjemahkan)', hi:'नाम प्रदर्शन (मूल / अनुवादित)', de:'Namensanzeige (nativ / übersetzt)', fr:'Affichage du nom (natif / traduit)', it:'Visualizzazione nome (nativo / tradotto)', es:'Mostrar nombre (nativo / traducido)', pt:'Exibição de nome (nativo / traduzido)', ru:'Отображение названия (родное / перевод)', uk:'Відображення назви (рідна / переклад)', ar:'عرض الاسم (الأصلي / المُترجم)', he:'תצוגת שם (מקורי / מתורגם)', sw:'Onyesho la jina (asili / iliyotafsiriwa)' },
             ariaFontSize:      { en:'Label font size', ja:'ラベル文字サイズ', ko:'라벨 글꼴 크기', zh:'标签字体大小', yue:'標籤字體大小', vi:'Cỡ chữ nhãn', th:'ขนาดอักษรของป้าย', id:'Ukuran huruf label', hi:'लेबल फ़ॉन्ट आकार', de:'Beschriftungs-Schriftgröße', fr:'Taille de police d\'étiquette', it:'Dimensione carattere etichetta', es:'Tamaño de fuente de etiqueta', pt:'Tamanho da fonte do rótulo', ru:'Размер шрифта подписей', uk:'Розмір шрифту підпису', ar:'حجم خط التسمية', he:'גודל גופן תווית', sw:'Saizi ya fonti ya lebo' },
             ariaCloseInfo:     { en:'Close language info', ja:'言語情報を閉じる', ko:'언어 정보 닫기', zh:'关闭语言信息', yue:'關閉語言資訊', vi:'Đóng thông tin ngôn ngữ', th:'ปิดข้อมูลภาษา', id:'Tutup info bahasa', hi:'भाषा जानकारी बंद करें', de:'Sprachinformationen schließen', fr:'Fermer les infos de la langue', it:'Chiudi info lingua', es:'Cerrar info del idioma', pt:'Fechar info do idioma', ru:'Закрыть инфо языка', uk:'Закрити інфо мови', ar:'إغلاق معلومات اللغة', he:'סגור מידע שפה', sw:'Funga taarifa ya lugha' },
             ariaEraGroup:      { en:'Era (modern / historical)', ja:'時代（現代/歴史）', ko:'시대 (현대/역사)', zh:'时代（现代/历史）', yue:'時代（現代／歷史）', vi:'Thời kỳ (hiện đại / lịch sử)', th:'ยุค (สมัยใหม่ / ประวัติศาสตร์)', id:'Era (modern / historis)', hi:'युग (आधुनिक / ऐतिहासिक)', de:'Epoche (modern / historisch)', fr:'Époque (moderne / historique)', it:'Epoca (moderna / storica)', es:'Época (moderna / histórica)', pt:'Era (moderna / histórica)', ru:'Эпоха (современная / историческая)', uk:'Епоха (сучасна / історична)', ar:'الحقبة (حديثة / تاريخية)', he:'תקופה (מודרני / היסטורי)', sw:'Enzi (kisasa / kihistoria)' },
@@ -4817,10 +4821,6 @@
 
         // --- Toggle buttons ---
         let showWord = true, showIpa = true, showName = true, showNative = false;
-        // 'formal' (default) | 'short'. Orthogonal to showNative, which wins:
-        // the native name has no nickname layer. Persisted in the hash as
-        // abbr=1 so a shared link keeps whichever the sender was looking at.
-        let nameStyle = 'formal';
         let showPins = false;
         // "Only": restrict the map to the comparison list. Off by default, and
         // force-off whenever that list is empty — see syncOnlyCompareBtn.
@@ -4838,7 +4838,6 @@
         const btnOnlyCompare = document.getElementById('toggle-only-compare');
         const nameNative = document.getElementById('name-native');
         const nameTranslated = document.getElementById('name-translated');
-        const nameShort = document.getElementById('name-short');
         const eraModern = document.getElementById('era-modern');
         const eraHistorical = document.getElementById('era-historical');
 
@@ -4909,48 +4908,27 @@
         if (btnPins) btnPins.addEventListener('click', () => updateHash());
 
         function updateNameSwitch() {
-            let mode = showNative ? 'native' : nameStyle;   // native | formal | short
             const on = (btn, is) => {
                 if (!btn) return;
                 btn.classList.toggle('active', is);
                 btn.setAttribute('aria-checked', String(is));
             };
-            // Round 535: for 17 of the 19 UI languages LANG_NICKNAMES is empty,
-            // so the third button rendered, labelled, clicked, wrote abbr=1 to
-            // a shared URL — and produced a byte-identical map. Two of three
-            // positions indistinguishable. Hide it unless this UI actually has
-            // nicknames; re-run from the __ensureLangNames() blocks, because
-            // the table arrives with the slice.
-            if (nameShort) {
-                const NN = window.LANG_NICKNAMES || {};
-                const base = String(uiLang || '').split('_')[0];
-                const has = Object.keys(NN[uiLang] || NN[base] || {}).length > 0;
-                nameShort.hidden = !has;
-                if (!has && nameStyle === 'short') { nameStyle = 'formal'; mode = 'formal'; }
-            }
-            on(nameNative, mode === 'native');
-            on(nameTranslated, mode === 'formal');
-            on(nameShort, mode === 'short');
+            on(nameNative, showNative);
+            on(nameTranslated, !showNative);
             nameNative.textContent = wt('native') || 'Native';
             const uiName = WM_UI_LABELS[uiLang] || 'English';
             nameTranslated.textContent = uiName;
-            if (nameShort) nameShort.textContent = wt('shortName') || 'Short';
         }
         function setNameMode(mode) {
-            const was = showNative ? 'native' : nameStyle;
+            const was = showNative ? 'native' : 'formal';
             if (was === mode) return;
             showNative = (mode === 'native');
-            // Leaving 'short' for 'native' keeps the nickname selected
-            // underneath, so coming back to the translated side returns you to
-            // the nickname rather than silently resetting to the formal name.
-            if (mode !== 'native') nameStyle = mode;
             updateNameSwitch();
             updateMarkers(currentWord);
             updateHash();
         }
         nameNative.addEventListener('click', () => setNameMode('native'));
         nameTranslated.addEventListener('click', () => setNameMode('formal'));
-        if (nameShort) nameShort.addEventListener('click', () => setNameMode('short'));
         updateNameSwitch();
 
         const fontSizeSlider = document.getElementById('font-size');
@@ -5693,7 +5671,7 @@
 
         function getDisplayName(code, lang) {
             if (showNative) return lang.native;
-            if (window.__langNameFor) return window.__langNameFor(uiLang, code, nameStyle, lang.name);
+            if (window.__langNameFor) return window.__langNameFor(uiLang, code, 'formal', lang.name);
             // Only reachable if the shim failed to load. It used to read a bare
             // LANG_NAMES, which this page does not declare, so the "fallback"
             // threw a ReferenceError instead of falling back (round 535).
@@ -6714,10 +6692,6 @@
                 params.set('p', lat.toFixed(2) + ',' + lng.toFixed(2) + ',' + z);
             }
             if (showNative)     params.set('nat', '1');   // default: off
-            // Nickname mode rides alongside nat= rather than replacing it, so
-            // links shared before the nickname switch existed still restore
-            // exactly as they did.
-            if (nameStyle === 'short') params.set('abbr', '1'); // default: off
             if (showHistorical) params.set('hist', '1');  // default: off
             if (showPins)       params.set('pin', '1');   // default: off
             if (onlyCompare)    params.set('only', '1');  // default: off
@@ -6800,12 +6774,13 @@
                 map.setView([lat, lng], z);
             }
             const nat = params.get('nat');
-            const abbr = params.get('abbr');
-            if (nat === '0' || nat === '1' || abbr === '0' || abbr === '1') {
-                if (nat === '0' || nat === '1') showNative = nat === '1';
-                if (abbr === '0' || abbr === '1') nameStyle = abbr === '1' ? 'short' : 'formal';
+            if (nat === '0' || nat === '1') {
+                showNative = nat === '1';
                 updateNameSwitch();
             }
+            // abbr=1 was the short-name position, removed 2026-09-14. A link
+            // that still carries it simply opens on the formal name, which is
+            // what those links were showing for 98% of rows anyway.
             const hist = params.get('hist');
             if (hist === '0' || hist === '1') {
                 showHistorical = hist === '1';
@@ -6879,7 +6854,6 @@
                         try { applyUILang(); } catch (_) {}
                         try { updateMarkers(currentWord); } catch (_) {}
                         try { updateNameSwitch(); } catch (_) {}
-                    try { updateNameSwitch(); } catch (_) {}
                         try {
                             const _p = document.getElementById('lang-info');
                             if (_p && _p.classList.contains('visible') && _p.dataset.code) renderLangInfo(_p.dataset.code);

@@ -1706,15 +1706,23 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-applink { margin: 2rem 0; }
 .seo-applink a { display: inline-block; background: var(--accent); color: #fff;
   padding: .7rem 1.3rem; border-radius: .6rem; text-decoration: none; font-weight: 600; }
-/* Goods hand-off. Deliberately quieter than .seo-applink: the primary action
-   on a language page is to open the map, and this sits under it as an offer,
-   not as a second call to action competing with the first. */
-.seo-goods { margin: 1.2rem 0 2.4rem; }
-.seo-goods a { display: inline-block; padding: .7rem 1.1rem; border-radius: .6rem;
-  border: 1px solid var(--line); text-decoration: none; color: inherit;
-  transition: border-color .15s ease, background .15s ease; }
-.seo-goods a:hover { border-color: var(--accent); background: rgba(0,0,0,.02); }
-.seo-goods-title { display: block; font-weight: 600; }
+/* Goods hand-off. The first version was a var(--line) outline sitting under
+   the filled .seo-applink button, on the theory that opening the map is the
+   primary action and this is a quieter offer. In practice the owner went to
+   /ja/wordmap/my looking for it and reported it missing: next to a solid
+   accent button, an outlined box three sections further down reads as page
+   furniture. It now sits directly under the word grid — those words are what
+   goes on the shirt — and carries enough contrast to be seen. */
+.seo-goods { margin: 1.5rem 0 0; }
+.seo-goods a { display: flex; align-items: center; gap: .9rem;
+  padding: .95rem 1.2rem; border-radius: .7rem;
+  border: 1px solid var(--accent); background: #eef4fb;
+  text-decoration: none; color: inherit;
+  transition: box-shadow .15s ease, background .15s ease; }
+.seo-goods a:hover { background: #e3edf9; box-shadow: 0 1px 6px rgba(65,120,188,.22); }
+.seo-goods-mark { flex: none; font-size: 1.5rem; line-height: 1; }
+.seo-goods-text { min-width: 0; }
+.seo-goods-title { display: block; font-weight: 700; color: var(--accent); }
 .seo-goods-sub { display: block; margin-top: .15rem; font-size: .9rem; color: var(--muted); }
 
 .seo-foot { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line);

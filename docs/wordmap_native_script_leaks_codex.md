@@ -78,6 +78,16 @@
 1. **`yrk`(Nenets) `drink="я" /ja/`** が既存にある。`earth="ya"` を `я` にすると drink と同形衝突。
    Nenets で drink=earth が同綴りは不自然 → **既存 drink="я" が誤りの疑い**。要辞書確認。
 2. **`vai` `dog="ꕝꖣ"`** — Unicode 名 DHHA+VU が IPA /dɛni/ と不一致 → **誤りの疑い**。
+3. **`blt`(Tai Dam) の既存 Tai Viet セルに字母↔IPA不一致が多数（要専門家）** — 全39セルを
+   Unicode 名でデコードすると、30 は頭子音が IPA と一致するが、**8 セルは字母名と IPA 頭子音が
+   食い違う**:
+   - `cat ꪵꪙꪺ`(字母 NO)↔/mɛːu/、`eye ꪁꪎ`(KO)↔/taː/、`hand ꪐꪮ`(NYO)↔/mɯ/、
+     `heart ꪈꪲꪒ`(NGO)↔/tɕai/、`house ꪙꪮꪙ`(NO)↔/hɯan/、`love ꪥꪮꪀ`(YO)↔/hak/、
+     `mother ꪵꪶꪀ`(KO)↔/mɛː/、`thanks ꪒꪲ…`(DO)↔/tɕai/
+   - **断定はしない**: Vai と同じく **Tai Viet の Unicode 文字名が Tai Dam の実音価と対応しない
+     可能性**があり（歴史的音変化で説明できる例もありうる）、誤りとは限らない。
+   - いずれにせよ **Unicode 名ベースの機械変換は不可**。これが漏れ6語（i/we/snow/stone/wheel/
+     white）を安全に組めない理由でもある。**Tai Viet↔Tai Dam の一次資料／専門家**が要る。
 
 ## 5. ビルド／検証ワークフロー（毎回）
 

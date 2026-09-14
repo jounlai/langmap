@@ -2140,7 +2140,7 @@ function seo_related_links(string $map, string $code, string $name, array $langs
     <?php if ($siblings):
         $sibCmp = array_slice($siblings, 0, 3);
     ?>
-    <a href="/<?= e($appPage) ?>#cmp=<?= e(rawurlencode($code . ',' . implode(',', $sibCmp))) ?>"><?= e(seo_t($ui, 'cmp_related', ['family' => $family])) ?></a>
+    <a href="/<?= e($appPage) ?>#cmp=<?= e(rawurlencode($code . ',' . implode(',', $sibCmp))) ?>"><?= e(seo_t($ui, 'cmp_related', ['family' => seo_meta_value($ui, $family)])) ?></a>
     <?php endif; ?>
     <span class="note"><?= e(seo_t($ui, 'cmp_note')) ?></span>
   </div>
@@ -2474,7 +2474,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     ?>
 <section class="seo-ex" data-ex="words" data-uid="<?= e($uid) ?>" data-pages="<?= $np ?>">
   <h2><?= e(seo_t($ui, 'ex_words')) ?></h2>
-  <?php if ($wFamily !== ''): ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption', ['family' => $wFamily])) ?></p><?php endif; ?>
+  <?php if ($wFamily !== ''): ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption', ['family' => seo_meta_value($ui, $wFamily)])) ?></p><?php endif; ?>
   <div class="seo-cmp-wrap">
   <table class="seo-cmp-tbl">
     <thead>
@@ -2657,7 +2657,7 @@ function seo_comparisons(string $map, string $code, string $ui,
     ?>
 <section class="seo-ex" data-ex="han" data-uid="<?= e($uid) ?>" data-pages="<?= $np ?>">
   <h2><?= e(seo_t($ui, 'ex_han')) ?></h2>
-  <?php if ($hFamily !== ''): ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption', ['family' => $hFamily])) ?></p><?php endif; ?>
+  <?php if ($hFamily !== ''): ?><p class="ex-note"><?= e(seo_t($ui, 'cmp_caption', ['family' => seo_meta_value($ui, $hFamily)])) ?></p><?php endif; ?>
   <div class="seo-cmp-wrap">
   <table class="seo-cmp-tbl">
     <thead>

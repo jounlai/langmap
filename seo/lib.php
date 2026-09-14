@@ -1347,33 +1347,90 @@ const SEO_T = [
  * Hence a per-UI table, and only the languages whose own panel asked for it.
  */
 const SEO_INLINE_LC = [
-    // Lowercase the initial. The panels verified their whole name table:
-    // Italian all 1,242, Portuguese all 1,241 (PHP's lcfirst is byte-based and
-    // leaves the 21 "Á…" names untouched, hence the multibyte version below),
-    // Spanish all 1,231 bar the proper nouns listed under SEO_INLINE_KEEP.
+    // Lowercase the initial. French and Italian each went through their whole
+    // table and arrived at the SAME mechanical test (below), from opposite
+    // directions, so it is the test and not a hand list that ships here — a
+    // list would silently stop covering names added later.
     'es' => 'first',
-    // fr / it / pt are NOT enabled yet. Their panels each reported the whole
-    // table safe; rendering it falsified that within a minute — French printed
-    // "en nez-Percé", "en pieds-Noirs" and "en toki Pona", Italian "in toki
-    // Pona". Proper-noun-headed names need the same explicit KEEP list Spanish
-    // has, and guessing which names those are is how this class of bug is made,
-    // not fixed. Enable each one when its panel returns its list.
+    'fr' => 'first',
+    'it' => 'first',
+    'pt' => 'first',
     // Lowercase only the classifier the name begins with, never a later word:
-    // "Bahasa Jepang" -> "bahasa Jepang", "Tiếng Nhật" -> "tiếng Nhật". Names
-    // without the prefix (Inuktitut, Jepang Kuno) are left alone.
+    // "Bahasa Jepang" -> "bahasa Jepang", "Tiếng Nhật" -> "tiếng Nhật".
     'id' => ['Bahasa '],
     'vi' => ['Tiếng ', 'Ngôn ngữ '],
 ];
 
-/** Names whose first word is a proper noun, so the initial stays. */
-const SEO_INLINE_KEEP = [
-    'es' => ['Pie Negro', 'Nez Perce', 'Donno So', 'Sebat Bet gurage', 'Toki Pona'],
+/**
+ * Keep the initial capital when the SECOND token is capitalised.
+ *
+ * Lowercasing only the first letter of a two-word proper name produces a
+ * hybrid that is wrong under any spelling — "toki Pona", "pieds-Noirs",
+ * "nez-Percé" — so the safe output is always to leave it alone. The French
+ * panel measured 20 matches in 1,242 names with no misses; the Italian panel
+ * reached the same rule independently and measured 33, and warned against the
+ * looser "a capital anywhere after the first word", which also catches the 121
+ * "Mandarino di Wuhan" names that lowercase correctly. The lowercase connector
+ * (de/du/des/d'/di/del) is what separates the two, and this test respects it.
+ *
+ * It over-captures a handful of common-noun heads ("Tocario A" stays capital
+ * where "tocario A" would be ideal). That is the harmless direction: a stray
+ * capital reads as a style choice, a lowercased proper noun reads as a bug.
+ */
+function seo_inline_keeps_capital(string $ui, string $name): bool
+{
+    // A classifier head is the one case where the second word's capital means
+    // nothing: the head itself is the common noun being lowercased, and the
+    // capital belongs to the language after it — "na língua Ho-Chunk".
+    foreach (SEO_INLINE_CLASSIFIER[$ui] ?? [] as $head) {
+        if (strncmp($name, $head, strlen($head)) === 0) {
+            return false;
+        }
+    }
+    // Portuguese glottonyms that are homographs of everyday words. Lowercased,
+    // "palavras em venda" reads "words for sale" and "em vai" reads as a verb.
+    // No mechanical signal exists for these — they are single words — so the
+    // list is the only instrument, and its absence is a wrong reading, not a
+    // style slip.
+    if (in_array($name, SEO_INLINE_KEEP[$ui] ?? [], true)) {
+        return true;
+    }
+    if (!preg_match('/^\S+[ \-\/](\p{Lu}\S*)/u', $name, $m)) {
+        return false;
+    }
+    // "Tocario A" / "Tokharien A": a bare letter or numeral is a branch label,
+    // not a second name, so the head still lowercases. All three Romance
+    // panels called this the ideal reading; only their tests could not see it.
+    if (preg_match('/^(\p{Lu}|\d+)$/u', $m[1])) {
+        return false;
+    }
+    return true;
+}
+
+/** Heads that ARE the common noun being lowercased (never proper names). */
+const SEO_INLINE_CLASSIFIER = [
+    'pt' => ['Língua ', 'Dialeto ', 'Leitura ', 'Crioulo '],
 ];
 
-/** Keys where the name must keep its display casing even mid-string. */
+/** Names with no mechanical signal that must keep their capital anyway. */
+const SEO_INLINE_KEEP = [
+    // Portuguese: English anthroponyms used as glottonyms, plus glottonyms
+    // homographic with common words, where the capital is what prevents a
+    // wrong reading. Supplied and measured by the Portuguese panel.
+    'pt' => [
+        'Thompson', 'Carrier', 'Ao naga', 'Vai', 'Venda', 'Fala', 'Sumo',
+        'Mano', 'Cita', 'Salar', 'Ido', 'Cora', 'Sena', 'Tao', 'Parta', "Meta'",
+    ],
+];
+
+/**
+ * Keys where the name keeps its display casing even mid-string, because the
+ * string is naming the entry rather than talking about it.
+ */
 const SEO_INLINE_DENY = [
-    // "¿Cambiar a {name}?" names the entry exactly as the picker shows it.
-    'es' => ['switch_to'],
+    'es' => ['switch_to'],   // «¿Cambiar a {name}?» — the picker's own label
+    'fr' => ['switch_to'],
+    'it' => ['switch_to'],
 ];
 
 function seo_inline_name(string $ui, string $key, string $name): string
@@ -1385,9 +1442,6 @@ function seo_inline_name(string $ui, string $key, string $name): string
     if (in_array($key, SEO_INLINE_DENY[$ui] ?? [], true)) {
         return $name;
     }
-    if (in_array($name, SEO_INLINE_KEEP[$ui] ?? [], true)) {
-        return $name;
-    }
     if (is_array($rule)) {
         foreach ($rule as $prefix) {
             if (strncmp($name, $prefix, strlen($prefix)) === 0) {
@@ -1396,31 +1450,71 @@ function seo_inline_name(string $ui, string $key, string $name): string
         }
         return $name;
     }
+    if (seo_inline_keeps_capital($ui, $name)) {
+        return $name;
+    }
     return mb_strtolower(mb_substr($name, 0, 1)) . mb_substr($name, 1);
 }
 
 /**
- * Spanish only: the 46 names that lead with a classifier need an article after
- * the preposition — "palabras en el idioma hup", not "palabras en idioma hup".
- * Every other name takes none ("en birmano"), and a blanket "el" would be wrong
- * for the feminine ones, so the article is keyed on the classifier itself.
+ * The classifier-headed names need the preposition changed, not just the case.
  *
- * Applied only where the template really does put "en " in front of the slot;
- * in object position ("Ver {name} en el Word Map") the classifier already
- * supplies its own noun and an article would be wrong.
+ * ~25-46 names per language lead with a classifier — "idioma hup", "dialecte de
+ * Kyoto", "lettura kanbun" — and the bare preposition in front of them is wrong
+ * in a different way in each language. Spanish adds an article ("en el idioma
+ * hup"); French cannot, because "en le" is impossible, so the preposition
+ * itself becomes "dans le/la"; Italian needs nothing for "in lingua X", which
+ * is an established formula, but does need it for the reading traditions.
+ *
+ * The rewrite is done on the TEMPLATE, so the preposition and the placeholder
+ * stay one unit and a template that does not use the preposition is untouched.
+ * Heads are matched on the already-lowercased value.
  */
-function seo_inline_article(string $ui, string $before, string $name): string
+const SEO_INLINE_PREP = [
+    'es' => ['prep' => 'en', 'heads' => [
+        'idioma '   => 'en el ',
+        'dialecto ' => 'en el ',
+        'lengua '   => 'en la ',
+        'lectura '  => 'en la ',
+    ]],
+    'fr' => ['prep' => 'en', 'heads' => [
+        'dialecte ' => 'dans le ',
+        'lecture '  => 'dans la ',
+        'langue '   => 'dans la ',
+        'patois '   => 'dans le ',
+    ]],
+    // "in lingua sarda" is idiomatic Italian and needs no article; only the
+    // reading traditions do, and hanja-hun elides because Italian h is mute.
+    // "em língua hup" reads like a telegram: the classifier wants a determiner,
+    // the bare glottonym does not. Crioulo behaves as a glottonym, so it takes
+    // none.
+    'pt' => ['prep' => 'em', 'heads' => [
+        'língua '  => 'na ',
+        'leitura ' => 'na ',
+        'dialeto ' => 'no ',
+    ]],
+    'it' => ['prep' => 'in', 'heads' => [
+        'lettura '   => 'nella ',
+        'go-on '     => 'nel ',
+        'kun-yomi '  => 'nel ',
+        'hanja-hun ' => "nell'",
+    ]],
+];
+
+function seo_inline_prep(string $ui, string $tpl, string $ph, string $name): string
 {
-    if ($ui !== 'es' || !preg_match('/\ben\s$/u', $before)) {
-        return $name;
+    $rule = SEO_INLINE_PREP[$ui] ?? null;
+    if ($rule === null) {
+        return $tpl;
     }
-    static $art = ['idioma ' => 'el ', 'dialecto ' => 'el ', 'lengua ' => 'la ', 'lectura ' => 'la '];
-    foreach ($art as $head => $a) {
-        if (strncmp($name, $head, strlen($head)) === 0) {
-            return $a . $name;
+    foreach ($rule['heads'] as $head => $rep) {
+        if (strncmp($name, $head, strlen($head)) !== 0) {
+            continue;
         }
+        $re = '/\b' . preg_quote($rule['prep'], '/') . '\s' . preg_quote($ph, '/') . '/u';
+        return preg_replace($re, str_replace('$', '\\$', $rep) . $ph, $tpl, 1);
     }
-    return $name;
+    return $tpl;
 }
 
 function seo_t(string $ui, string $key, array $vars = []): string
@@ -1448,7 +1542,7 @@ function seo_t(string $ui, string $key, array $vars = []): string
             continue;
         }
         $vars[$nk] = seo_inline_name($ui, $key, (string) $vars[$nk]);
-        $vars[$nk] = seo_inline_article($ui, substr($s, 0, $at), (string) $vars[$nk]);
+        $s = seo_inline_prep($ui, $s, '{' . $nk . '}', (string) $vars[$nk]);
     }
     if ($vars) {
         $repl = [];

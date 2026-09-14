@@ -622,7 +622,7 @@ WORDS.white = {
     pbb: ["çxihme", "tʃihme"],
     gum: ["pulɵ", "pulə"],
     arn: ["liq", "liq"],
-    cr: ["wâpiskâw", "waːpiskaːw"],
+    cr: ["ᐚᐱᐢᑳᐤ", "waːpiskaːw"],
     chp: ["delgai", "tèlɡai"],
     oj: ["waabishkaa", "waːbɪʃkaː"],
     atj: ["wapaw", "wapaw"],

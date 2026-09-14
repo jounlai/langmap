@@ -418,7 +418,7 @@ WORDS.egg = {
     mixtec: ["ndivi", "ndiβi"],
     ay: ["k'awna", "kʼawna"],
     arn: ["kuram", "kuɾam"],
-    cr: ["wâwi", "waːwi"],
+    cr: ["ᐚᐎ", "waːwi"],
     oj: ["waawan", "waːwan"],
     mic: ["waw", "waw"],
     crk: ["ᐚᐏ", "waːwi"],

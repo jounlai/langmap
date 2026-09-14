@@ -1092,7 +1092,7 @@ WORDS.five = {
     mkz: ["lima", "lima"],
     sdo: ["rimah", "riməh"],
     bzg: ["nachab", "natʃab"],
-    cja: ["lamư", "lamɨː"],
+    cja: ["لاماۛ", "lamɨː"],
     cjm: ["ꨤꨪꨟꨩ", "limɨ"],
     tiw: ["pinginingita", "piŋiniŋita"],
     ja_mvi: ["五つ", "itsɨtsɨ"],

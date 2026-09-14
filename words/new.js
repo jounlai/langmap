@@ -436,7 +436,7 @@ WORDS.new = {
     nyo: ["ekihyaka", "ekihjaka"],
     lmo: ["nœuv", "nøf"],
     pms: ["neuv", "nøw"],
-    cjm: ["baruw", "ɓaruw"],
+    cjm: ["ꨝꨣꨭꨥ", "ɓaruw"],
     meu: ["matamata", "matamata"],
     pon: ["kapw", "kapʷ"],
     kos: ["sasuh", "sasʌ"],

@@ -843,7 +843,7 @@ WORDS.wind = {
     wym: ["wynd", "vɪnt"],
     aoz: ["anin", "anin"],
     sda: ["angin", "aŋin"],
-    cja: ["angin", "aŋin"],
+    cja: ["أڠين", "aŋin"],
     czh_wy: ["风", "fəŋ˧˧"],
     mic: ["wju'sn", "utʃuʔsn"],
     new: ["फय्", "pʰai"],

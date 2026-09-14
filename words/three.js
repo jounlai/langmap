@@ -883,7 +883,7 @@ WORDS.three = {
     pnt: ["τρία", "ˈtria"],
     hno: ["تن", "t̪in"],
     bhb: ["तीन", "t̪iːn"],
-    cja: ["klaw", "klaw"],
+    cja: ["كلاو", "klaw"],
     cjm: ["ꨆꨵꨯꨱ", "klɔw"],
     meu: ["toi", "toi"],
     pon: ["siluh", "siluː"],

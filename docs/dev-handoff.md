@@ -2846,5 +2846,28 @@ The datasets themselves are ~105 MB under `~/langmap-work/lb/` plus the older `b
      that remain. Each time the fix was to delete, not to fill. **Ask what fraction of the rows a
      new display mode actually changes before building the switch for it.**
 
+105. **The SEO page's T-shirt hand-off — three attempts before it was visible** — 2026-09-14.
+     The owner asked for the goods link on the big-text pages, then twice reported
+     /ja/wordmap/my as having none. It was rendering the whole time, on all 1,187 pages in all
+     19 UI languages. **Attempt 1** was a 1px `var(--line)` outline placed after the word grid,
+     after the sources, directly under the filled accent app button — with a code comment saying
+     it was "deliberately quieter" so as not to compete. **Attempt 2** moved it above the sources
+     and gave it an accent border; still a notice, not a thing to click. **Attempt 3, current:**
+     a card between the map and the word list, carrying one of the three product photos
+     (`assets/tshirts/tshirt-{0,1,2}.jpg`, chosen `crc32($code) % 3` so the pages are not all the
+     same picture), a headline, a one-line lede (`goods_lede`, new in all 19 UI blocks) and a
+     navy pill. Palette taken from the app's `.tshirt-nudge` — cream and the shirt's own navy —
+     which both matches the offer's other home and stands out from this page's cool grey.
+
+     Left undone deliberately: the app rotates five message sets (`TSHIRT_MSGS` in wordmap.html,
+     19 languages each); the SEO page has one. Porting the pool to PHP would duplicate 190
+     strings and invite drift. If the copy should rotate here too, generate the PHP table from
+     wordmap.html rather than copying it.
+
+     **The lesson: "deliberately quiet" and "cannot be found" are one step apart, and only the
+     second is visible from outside.** A restraint decision needs the same after-the-fact check
+     as a feature — render the page and look at it. Both failed versions were verified by
+     grepping the markup, which is exactly the test that cannot detect this class of defect.
+
 ## Perf (Phase 9) — done, for reference
 countries.geojson self-hosted+simplified (14.6→1.9MB); wordmap_meta.js 19MB split → lite (~1MB, structured + base META_I18N) + `meta_desc/<code>.js` per-language + `meta_i18n/<ui>.js` per-UI; wordmap/tree/hanmap rewired to load only the current UI; gzip enabled on prod. Verified byte-identical translation output. Details + the production runbook: `docs/perf-optimization-handoff.md`.

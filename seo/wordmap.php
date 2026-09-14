@@ -128,6 +128,28 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 </section>
 <?php endif; ?>
 
+
+<?php /* The goods hand-off, the same link the app's language modal carries.
+         It sits between the map and the word list, not below them: the words
+         are what goes on the shirt, and two earlier placements further down
+         the page were reported as "no link here" by the person who asked for
+         the feature. The photo is picked per language so 1,187 pages are not
+         the same picture; all three show the same product.
+         rel=nofollow because it is an outbound commercial link on an indexed
+         page, and the image is alt="" because the link's own text already
+         says where it goes. */
+$goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
+<div class="seo-goods">
+  <a href="<?= e(seo_goods_href($code, $lang, $ui)) ?>" rel="nofollow noopener" target="_blank">
+    <img src="<?= e($goods_photo) ?>" alt="" width="760" height="744" loading="lazy" decoding="async">
+    <span class="seo-goods-text">
+      <span class="seo-goods-title"><?= e(seo_t($ui, 'goods_title')) ?></span>
+      <span class="seo-goods-lede"><?= e(seo_t($ui, 'goods_lede')) ?></span>
+      <span class="seo-goods-btn"><?= e(seo_t($ui, 'goods_sub', ['name' => $name])) ?></span>
+    </span>
+  </a>
+</div>
+
 <section class="seo-section">
   <h2><?= e(seo_t($ui, 'words_heading', ['name' => $name, 'w' => (string) count($words)])) ?></h2>
   <div class="seo-words">
@@ -157,21 +179,6 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
   <?php endforeach; ?>
   </div>
 
-<?php /* The goods hand-off, the same one the app's language modal carries.
-         docs/makoto-goods-link.md asked for it here too. It sits immediately
-         under the word grid rather than after the sources and the app button:
-         the grid IS the shirt's content, and down there nobody found it.
-         rel=nofollow because it is an outbound commercial link on an indexed
-         page. */ ?>
-<div class="seo-goods">
-  <a href="<?= e(seo_goods_href($code, $lang, $ui)) ?>" rel="nofollow noopener" target="_blank">
-    <span class="seo-goods-mark" aria-hidden="true">👕</span>
-    <span class="seo-goods-text">
-      <span class="seo-goods-title"><?= e(seo_t($ui, 'goods_title')) ?></span>
-      <span class="seo-goods-sub"><?= e(seo_t($ui, 'goods_sub', ['name' => $name])) ?></span>
-    </span>
-  </a>
-</div>
 </section>
 
 <?php $sources = $meta['sources'] ?? []; if ($sources): ?>

@@ -581,7 +581,7 @@ WORDS.nose = {
     hr: ["nos", "nôːs"],
     bs: ["nos", "nôːs"],
     iba: ["idung", "iduŋ"],
-    tzm: ["tinzert", "tinzərt"],
+    tzm: ["ⵜⵉⵏⵣⵔⵜ", "tinzərt"],
     xal: ["хамр", "xamr"],
     sg: ["hôn", "hõ"],
     peo: ["𐎴𐎠𐏃𐎶", "naːham"],
@@ -674,7 +674,7 @@ WORDS.nose = {
     fkv: ["nenä", "ˈnenæ"],
     fit: ["nenä", "ˈnenæ"],
     hif: ["naak", "naːk"],
-    zgh: ["tinzert", "tinzərt"],
+    zgh: ["ⵜⵉⵏⵣⵔⵜ", "tinzərt"],
     aln: ["hundë", "ˈhundə"],
     fud: ["isu", "isu"],
 

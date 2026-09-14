@@ -87,7 +87,7 @@ WORDS.butterfly = {
     nap: ["palomma", "paˈlommə"],  // the same word means 'dove' (< Latin palumba); 'palomma 'e notte' is the moth
     nds: ["Sommervagel", "ˈzɔmɐfaːɣəl"],  // literally 'summer bird', the same formation as Swiss German Summervogel; SASS marks it the oldest and commonest form
     nyn: ["ekihuguuhugu", "ekihuɡuːhuɡu"],  // reduplicated stem huguu-hugu; glossed 'moth; butterfly', so the word covers moths too
-    rif: ["afarttu", "afaɾtːu"],  // same Berber root as Kabyle aferṭeṭṭu; Serhoual keeps the emphatic root FRṬ (afarṭeṭṭu) separate, for 'horsefly'
+    rif: ["ⴰⴼⴰⵔⵜⵜⵓ", "afaɾtːu"],  // same Berber root as Kabyle aferṭeṭṭu; Serhoual keeps the emphatic root FRṬ (afarṭeṭṭu) separate, for 'horsefly'
     scn: ["parpagghiuni", "parpaɟˈɟuni"],  // < Old Italian parpaglione / Latin papilio; Traina's gloss also covers the moth that circles the lamp
     suk: ["ibalabapu", "ibalabapu"],  // partial reduplication bala-bapu; cited by the dictionary as stem BALABAPU with sg. i- / pl. ma-
     tiv: ["kokombo", "kokombo"],  // corpus evidence only; Abraham's 1940 Dictionary of the Tiv Language was not available to check
@@ -354,7 +354,7 @@ WORDS.butterfly = {
     pmay: ["*pehpen", "pehpen"],  // a reduplication; reflexes run from Yukatek pepen and Tzeltal pehpen to K'iche' peepeh
     paus: ["*baŋbaŋ", "baŋbaŋ"],  // a reduplication *baŋ-baŋ; ACD glosses it 'butterfly, moth', so it covers moths, and many daughters add the *qali-/kali- prefix (Cebuano ali-baŋbaŋ, Ilokano kuli-baŋbaŋ)
     mixtec: ["tikuva", "tikuβa"],  // other Mixtec varieties use unrelated words: Jamiltepec xicula (which also covers moths), San Juan Colorado tica
-    tzm: ["iberbillu", "ibərbilːu"],  // masculine iberbillu beside a feminine/diminutive tiberbillutt; written in the Latin orthography this row already uses for agḍiḍ and tamellalt
+    tzm: ["ⵉⴱⵔⴱⵉⵍⵍⵓ", "ibərbilːu"],  // masculine iberbillu beside a feminine/diminutive tiberbillutt; written in the Latin orthography this row already uses for agḍiḍ and tamellalt
     cr: ["ᑲᒫᒪᐠ", "kamaːmak"],  // the diminutive kamâmakos ᑲᒫᒪᑯᐢ is 'small butterfly, moth', so this word is the butterfly proper
     oj: ["memengwaa", "memeŋɡwaː"],
     chr: ["ᎧᎹᎹ", "kamama"],  // the same word also means 'elephant'; final syllable is repeated (ka-ma-ma)

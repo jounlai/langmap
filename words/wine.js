@@ -813,7 +813,7 @@ WORDS.wine = {
     arc: ["ܚܡܪܐ", "ħamraː"],
     ar_qur: ["خمر", "xamr"],
     gez: ["ወይን", "wɐjn"],
-    akk: ["karānu", "karaːnu"],
+    akk: ["𒅗𒊏𒉡", "karaːnu"],
     cop: ["ⲏⲣⲡ", "eːrp"],
 
     // --- Kartvelian ɣvino ----------------------------------------------

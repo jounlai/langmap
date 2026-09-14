@@ -365,7 +365,7 @@ WORDS.egg = {
     arc: ["ביעתא", "beːʕtaː"],
     aii: ["ܒܥܬܐ", "beːta"],
     sux: ["𒉭", "nunuz"],
-    akk: ["pēlu", "peːlu"],
+    akk: ["𒉭", "peːlu"],
     nci: ["tōtoltetl", "toːtoltetɬ"],
     p_ine: ["*h₂ōwyóm", "hoːwjom"],
     ptrk: ["*jumurtka", "jumurtqa"],

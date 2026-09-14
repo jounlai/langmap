@@ -855,7 +855,7 @@ WORDS.three = {
     nmn: ["ǁaeˀe", "ǁaeʔe"],
     kr: ["yasge", "jasɡe"],
     men: ["sawa", "sawa"],
-    vai: ["sakpa", "sakpa"],
+    vai: ["ꕢꕔ", "sakpa"],
     tem: ["pə-sas", "pəsas"],
     dyu: ["saba", "saba"],
     bbo: ["sa", "sǎ"],

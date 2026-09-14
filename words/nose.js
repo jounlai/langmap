@@ -646,7 +646,7 @@ WORDS.nose = {
     ojp: ["鼻", "pana"],
     h_vedic: ["नासा", "naːsaː"],
     txg: ["𗮮", "nji˧˥"],
-    otk: ["burun", "burun"],
+    otk: ["𐰉𐰆𐰺𐰣", "burun"],
     hak_tw: ["鼻", "pʰi˥˥"],
     nan_qz: ["鼻", "pʰĩ˦˩"],
     hne: ["नाक", "naːk"],

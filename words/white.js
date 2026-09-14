@@ -510,7 +510,7 @@ WORDS.white = {
     aii: ["ܚܘܵܪܵܐ", "χwaːra"],
     tru: ["ܚܘܪܐ", "ħwara"],
     sux: ["𒌓", "babbar"],
-    akk: ["peṣû", "pesˤuː"],
+    akk: ["𒌓", "pesˤuː"],
     hit: ["𒄯𒆠𒅖", "xarkiʃ"],
     nci: ["iztāc", "istaːk"],
     nhx: ["istak", "istak"],

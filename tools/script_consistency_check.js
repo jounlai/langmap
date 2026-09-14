@@ -108,39 +108,21 @@ const CHECK=process.argv.includes("--check");
 // will tell you if you deleted one too early.
 const MIXED_OK = {
   // --- deliberate: the row's orthography really is mixed ---
-  cjm: "Eastern Cham genuinely mixes Cham script and Latin in this row's sources; `new` baruw has no reachable akhar-thrah spelling and matches the row's existing Latin batuw.",
-
   // --- needs an orthography source before the Latin cells can be converted ---
   // (pal was here and is gone: its three Latin cells were converted from
   //  MacKenzie's Concise Pahlavi Dictionary, pp. 6, 90, 94, on 2026-09-13 —
   //  the first row the list moved off by naming what it needed.)
   blt: "Tai Dam: 6 Latin cells (i, we, snow, stone, wheel, white) among 39 Tai Viet. None of Wiktionary's 255 Tai Dam lemmas, which cite Baccam et al. 1989, glosses them.",
-  vai: "Vai: 11 Latin among 28 Vai syllabary.",
-  cja: "Western Cham: 7 Latin among 32 Arabic script.",
-  shi: "Tashelhit: 7 Latin among 47 Tifinagh.",
-  rif: "Tarifit: 8 Latin among 46 Tifinagh.",
-  tzm: "Central Atlas Tamazight: 7 Latin among 44 Tifinagh.",
-  tmh: "Tamasheq: 3 Latin among 38 Tifinagh.",
-  zgh: "Standard Moroccan Tamazight: 2 Latin among 51 Tifinagh.",
-  cr:  "Plains Cree: 4 Latin among 47 Canadian Syllabics.",
-  crk: "Plains Cree (crk): 1 Latin among 49 Canadian Syllabics.",
-  iu:  "Inuktitut: 1 Latin among 54 Canadian Syllabics.",
+  vai: "Vai: 11 Latin among 29 Vai syllabary; only `three` had an exact sourced spelling in this pass.",
   sel: "Selkup: 4 Latin among 47 Cyrillic.",
-  kca: "Khanty: 3 Latin among 53 Cyrillic.",
-  mns: "Mansi: 1 Latin among 54 Cyrillic.",
-  myv: "Erzya: 1 Latin among 59 Cyrillic.",
-  yrk: "Nenets: 1 Latin among 53 Cyrillic.",
+  yrk: "Nenets: `earth` remains Latin because native `я` would collide with the row's suspect `drink=я`; repairing that cell also requires an IPA correction outside this surface-only pass.",
   yuy: "East Yugur: 1 Latin among 39 Cyrillic.",
   ale: "Aleut: 2 Latin among 40 Cyrillic.",
   huz: "Hunzib: 1 Latin among 46 Cyrillic — and see the EXCEPTIONS entry below; the palochka case is separate.",
   lzz: "Laz: 3 Latin among 48 Georgian.",
   bbl: "Bats: 4 Cyrillic among 44 Georgian.",
-  kxm: "Northern Khmer: 1 Latin among 49 Khmer.",
-  khb: "Lü: 3 Latin among 47 New Tai Lue.",
+  khb: "Lü: `i` remains Latin among 49 New Tai Lue cells; `rain` and `wind` were source-matched on 2026-09-14.",
   kho: "Khotanese: 1 Latin among 30 Brahmi.",
-  otk: "Old Turkic: 1 Latin among 47 Old Turkic runes.",
-  sux: "Sumerian: 1 Latin among 52 cuneiform.",
-  akk: "Akkadian: 3 Latin among 55 cuneiform.",
   cop: "Coptic: 3 Greek letters among 55 Coptic — ϭ ϣ are Demotic-derived and may belong; needs a Coptic orthography ruling.",
   onw: "Old Nubian: 1 Greek among 34 Coptic — same question as cop.",
   arc: "Aramaic: 2 Hebrew among 54 Syriac. Scholarly practice prints Aramaic in Hebrew square script, so this may be correct rather than mixed.",

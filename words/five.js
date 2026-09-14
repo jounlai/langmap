@@ -804,7 +804,7 @@ WORDS.five = {
     ach: ["abic", "abitʃ"],
     rki: ["ငါး", "ŋá"],
     cnh: ["panga", "paŋa"],
-    kxm: ["pram", "pram"],
+    kxm: ["ប្រាំ", "pram"],
     xng: ["ᠲᠠᠪᠤᠨ", "tabun"],
     ja_kg: ["五", "ɡo"],
     ja_sd: ["五", "ɡo"],

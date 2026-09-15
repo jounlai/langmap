@@ -26,6 +26,8 @@ const WORD_ORDER = [
     "wind",
     "earth",
     "stone",
+    "mountain",
+    "sea",
     // people
     "mother",
     "father",
@@ -34,6 +36,7 @@ const WORD_ORDER = [
     "you",
     "we",
     "name",
+    "person",
     // body & feeling
     "head",
     "eye",
@@ -55,15 +58,20 @@ const WORD_ORDER = [
     "bird",
     "egg",
     "bear",
+    "horse",
     // home, food & drink
     "house",
     "milk",
     "honey",
     "salt",
     "wine",
+    "rice",
+    "chocolate",
     // things people made
     "iron",
     "wheel",
+    "silk",
+    "book",
     // actions
     "eat",
     "drink",
@@ -84,6 +92,7 @@ const WORD_ORDER = [
     "red",
     "white",
     "black",
+    "green",
     // experimental / partial words (🧪) — mapped only where a sourced form
     // exists, so they are grouped last, after the full-coverage core words.
     "blue",

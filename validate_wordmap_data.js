@@ -224,7 +224,7 @@ const I = m => infos.push(m);
 // Pinned deliberately: adding a concept means touching word_manifest.js,
 // words/<id>.js, word_labels.js and lang_words/, and this is the check that
 // fails if the manifest was edited without the rest following.
-const EXPECTED_WORDS = 76;
+const EXPECTED_WORDS = 85;
 if (!Array.isArray(ctx.WORD_LIST) || ctx.WORD_LIST.length !== EXPECTED_WORDS) {
     E(`WORD_LIST length ${ctx.WORD_LIST?.length} (expected ${EXPECTED_WORDS})`);
 }
@@ -242,7 +242,7 @@ const PARTIAL_WORD_IDS = new Set(WORD_IDS.filter(id => ctx.WORDS && ctx.WORDS[id
 // block the pre-commit guard. Remove an id from this set once it is fully
 // covered; a later coverage regression is then a hard error again.
 const FILLING_IN = new Set(['ear', 'rain', 'wind', 'earth', 'snow', 'stone', 'nose', 'bird', 'egg', 'sleep', 'white', 'five', 'black', 'four', 'daughter', 'iron', 'wheel', 'salt', 'milk', 'wine', 'hundred', 'honey', 'bear',
-    'head', 'new', 'mouth']);   // mouth added 2026-09-15 (WIP core word)
+    'head', 'new', 'mouth', 'person', 'mountain', 'sea', 'green', 'rice', 'silk', 'horse', 'chocolate', 'book']);   // +mouth & 8 new concepts 2026-09-15 (WIP core words, seed only)
 const fillingMissing = {};
 
 // ---- 2-4. Per-language word-entry checks --------------------------------

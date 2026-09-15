@@ -274,7 +274,7 @@ WORDS.computer = {
     "mdr": ["komputer", "komˈputər"],
     "mg": ["solosaina", "suluˈsajna"],
     "mhr": ["компьютер", "kɐmˈpjuter"],
-    "mi": ["rorohiko", "ˈɾɔɾɔhiko"],
+    "mi": ["rorohiko", "ˈɾoɾohiko"],
     "min": ["komputer", "komˈputər"],
     "mk": ["компјутер", "kɔmˈpjutɛr"],
     "ml": ["കമ്പ്യൂട്ടർ", "kampjuːʈːar"],

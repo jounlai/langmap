@@ -21,8 +21,12 @@ const fs = require('fs'), vm = require('vm'), path = require('path');
 // ʈ ɖ were missing until 2026-07: Qʼanjobʼal star carried ʈ͡ʂʼ and slipped past.
 const STOP = 'pbtdʈɖcɟkgqɢ';
 const FRIC = 'ɸβfvszʃʒɕʑʂʐɬɮçʝxɣχʁθð';
-const AFFRICATE_TIE = new RegExp(`([${STOP}])͡([${FRIC}])`);
-const AFFRICATE_TIE_G = new RegExp(`([${STOP}])͡([${FRIC}])`, 'g');
+// Both tie bars count. Until 2026-09 only U+0361 (above) was matched, so the
+// Armenian ձուկ d͜zuk sat in fish.js unseen — U+035C (below) is the same
+// notation written under the line.
+const TIE = '[\u0361\u035C]';
+const AFFRICATE_TIE = new RegExp(`([${STOP}])${TIE}([${FRIC}])`);
+const AFFRICATE_TIE_G = new RegExp(`([${STOP}])${TIE}([${FRIC}])`, 'g');
 
 const root = path.join(__dirname, '..');
 const hits = [];

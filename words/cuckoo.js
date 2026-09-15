@@ -179,7 +179,7 @@ WORDS.cuckoo = {
     hy: ["կկու", "kəˈku"],
     hyw: ["կկու", "gəˈgu"],
     nv: ["naatsédlózii", "naːtséˈtɬózìː"],
-    mi: ["koekoeā", "kɔɛkɔɛˈaː"],
+    mi: ["koekoeā", "koekoeˈaː"],
     qu: ["chikwan", "ˈtʃikwan"],
     zh_db: ["喀咕", "kʰa˦ku˦"],
     bo: ["ཁུ་བྱུག", "kʰú tɕúʔ"],

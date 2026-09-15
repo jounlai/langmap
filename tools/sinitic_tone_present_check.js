@@ -45,7 +45,7 @@ const LANG_DATA = vm.runInContext('LANG_DATA', c);
 
 // Reconstructions, which legitimately carry no Chao letters.
 const RECONSTRUCTED = new Set(['och', 'zh_tang', 'zh_han', 'zh_song', 'zh_wenyan_edu']);
-const HAN = /^[一-鿿]$/u;
+const HAN = /^[一-鿿]+$/u;
 const TONE = /[˥-˩]/u;
 
 const rows = Object.keys(LANG_DATA).filter((k) =>

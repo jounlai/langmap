@@ -360,7 +360,7 @@ WORDS.milk = {
     luz: ["šir", "ʃir"],
     jpr: ["שיר", "ʃir"],
     zza: ["şit", "ʃit"],
-    os: ["æхсыр", "əxsɨr"],
+    os: ["ӕхсыр", "əxsɨr"],
 
     // --- Turkic — süt, unbroken from Old Turkic --------------------------
     slr: ["süt", "syt"],

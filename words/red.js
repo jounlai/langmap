@@ -316,7 +316,7 @@ WORDS.red = {
     nv: ["łichííʼ", "ɬitʃʰiːʔ"],
     koy: ["nełtseeyh", "neɬtseːjh"],  // Suspect. Both Koyukon sources reachable give red as daalakkʼas / daatakkʼazee ("Kkʼas daalakkʼas", the alder is red), and tseeyh is the Central Koyukon junior dictionary's word for ochre. Both are 1970s-90s microfiche OCR and the two dialects disagree elsewhere, so this wants Jetté & Jones before anyone moves it.
     haw: ["ʻulaʻula", "ʔulaˈʔula"],
-    mi: ["whero", "ɸɛɾɔ"],
+    mi: ["whero", "ɸeɾo"],
     qu: ["puka", "puka"],
     zh_db: ["红", "xʊŋ˧˥"],
     zh_sc: ["红", "xoŋ˨˩"],

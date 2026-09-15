@@ -448,7 +448,7 @@ WORDS.blue = {
     ami: ["langdaway", "laŋdawaj"],  // One root langdaw ~ kangdaw covers blue and green across Amis. In the Xiuguluan variety documented by the official dictionary langdaw(ay) is glossed 'blue' and kangdaw(ay) 'green'; in Nanshi Amis langdaway is the word for green. The Amis Moedict dictionary glosses langdaw outright as 青色，綠色，藍色 'cyan, green, blue'. Row red/white (kahengangay, fohecalay) are the 秀姑巒阿美語 學習詞表 forms, so the -ay adjectival form langdaway matches. Green-specific alternative: kangdaway.
     an: ["azul", "aˈθul"],  // Aragonese azul against verde.
     ang: ["hǣwen", "hæːwen"],  // Old English had no reflex of blue; hǣwen (also blǣwen) is the blue term, alongside grēne. IDS gives hǣwen for Old English. The modern word blue is a later Anglo-Norman loan.
-    ani: ["решинкьелIи", "reʃinkʼeˈlːi"],  // Andi (Muni) решинкьелӏи vs ххочи. The main IDS Andi entry lists хочи for both blue and green, so the cool range is only partly split in Andic.
+    ani: ["решинкьелӏи", "reʃinkʼeˈlːi"],  // Andi (Muni) решинкьелӏи vs ххочи. The main IDS Andi entry lists хочи for both blue and green, so the cool range is only partly split in Andic.
     aqc: ["наӏгъдут", "naʕɬˈdut"],  // Archi наӏгъдут vs оӏловттут. WOLD analyses the blue term as naˤɮ-du-t 'milk-ADJZR' and scores it as showing no evidence of borrowing.
     ar: ["أزرق", "ˈʔazraq"],  // MSA أزرق against أخضر. The root z-r-q is the same one that in Aramaic covers both ends of the cool range, but Arabic separates them.
     ar_lev: ["أزرق", "ˈʔazraʔ"],  // Levantine Arabic أزرق against أخضر, the MSA pair with the qaf realised as a glottal stop. WALS 134A codes Lebanese Arabic as 'Green and blue', i.e. two separate basic terms.
@@ -630,7 +630,7 @@ WORDS.blue = {
     mdf: ["сенем", "ˈsʲeɲem"],  // Moksha сенем vs пиже / сянгяря.
     mdh: ["biru", "ˈbiru"],  // Form, the blue/green contrast and the 'sky blue' sense are all from Juanmartí (1892). The 'borrowed' class is an inference: the form is identical to Malay biru and to Maranao biro / Tausug bilu, which the ACD and Wiktionary do flag as Malay loans — but I found no Maguindanaon-specific etymological statement, so this is marked uncertain. Stress unmarked in the source; Juanmartí accents irregular stress and leaves 'Biru' unaccented, implying penultimate. A modern Maguindanaon dictionary should be preferred if one can be reached.
     men: ["bulu", "bulu"],  // Blue and green are separate terms in Migeod's list, which also supplies this row's kpou 'red'. The attributive form is bulungo. The word looks like the same wandering English 'blue' found in Mampruli bulu and Wolof bulô, but Migeod gives no etymology, so the class is left distinct rather than borrowed. OCR renders the citation form 'Bulw.'; 'bulu' is read from the attributive bulungo.
-    meu: ["gadogagadoga", "ɡadoɡaɡadoɡa"],  // Lawes' colour list keeps gadogagadoga for blue+green and gives separate terms for the dark end: korema korema 'black, also dark brown', dahuludahulu 'dark blue, also violet', uriuri 'brown'. Karukaru is 'green (unripe)' only.
+    meu: ["gadokagadoka", "ɡadoɡaɡadoɡa"],  // Lawes' colour list keeps gadogagadoga for blue+green and gives separate terms for the dark end: korema korema 'black, also dark brown', dahuludahulu 'dark blue, also violet', uriuri 'brown'. Karukaru is 'green (unripe)' only.
     mg: ["manga", "ˈmaŋɡa"],  // Malagasy manga against maitso 'green'. WOLD scores manga as showing no evidence of borrowing.
     mh: ["būļu", "bʲɯlʲɯ"],  // Marshallese būļu is an English loan (blue); the inherited term maroro covers green and blue-green.
     mhr: ["канде", "ˈkande"],  // Meadow Mari канде vs ужар. NorthEuraLex writes the stress-marked ка́нде; the plain orthographic form is given here to match the row's йошкар/ошо.
@@ -676,7 +676,7 @@ WORDS.blue = {
     olo: ["sinine", "ˈsinine"],  // Livvi sinine vs vihandu / heinänkarvaine 'hay-coloured'.
     or: ["ନେଳି", "neɭi"],  // Odia ନେଳି against ସବୁଜ.
     orh: ["tʃaŋgɛ:n", "tʃaŋɡɛːn"],  // WOLD gives Oroqen tʃaŋgɛ:n and ʃɪ:la for blue, both scored as showing no evidence of borrowing. WOLD supplies no orthography and the row's other colour cells are in a phonemic Latin transcription, so the surface repeats the transcription.
-    os: ["цъæх", "tsʼəχ"],  // Ossetian цъæх is given for BOTH blue and green in IDS and in NorthEuraLex — one term across the cool range; кæрдæгхуыз 'grass-coloured' is the descriptive green.
+    os: ["цъӕх", "tsʼəχ"],  // Ossetian цъæх is given for BOTH blue and green in IDS and in NorthEuraLex — one term across the cool range; кæрдæгхуыз 'grass-coloured' is the descriptive green.
     osa: ["htóho", "htoho"],  // The CSD's Osage entry itself is glossed simply 'blue'; the class comes from the cognate set, whose other Dhegiha members are glossed 'blue, green'.
     otq: ["k'angi", "kʼaŋi"],  // CROSS-VARIETY: WOLD's Otomi is Mezquital Otomi (ote), not Querétaro Otomi (otq). k'angi is pan-Otomian (cf. Mazahua canga in the WCS). Recorded as distinct, not grue, because WOLD gives a separate green lexeme k'ants'i for the same variety.
     pa: ["ਨੀਲਾ", "niːlaː"],  // Punjabi ਨੀਲਾ against ਹਰਾ, the same Indo-Aryan nīla-/harita- pair as Hindi.

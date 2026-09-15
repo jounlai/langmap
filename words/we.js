@@ -1951,7 +1951,7 @@ WORDS.we = {
     tt: ["без", "bez"],
     ba: ["беҙ", "beð"],
     krc: ["биз", "biz"],
-    ksw: ["ပှၤ", "pɣa˨˩"],
+    ksw: ["ပှၤ", "pɣa˨˩"],  // Suspect, flagged not changed. ပှၤ is Sgaw Karen for 'person' — it is now the person cell too, sourced from Wiktionary — and the row's own pronouns are ယၤ 'I' and နၤ 'you', neither of which this resembles. A plural built on 'person' is possible, but the clusivity class above is recorded as "single" on this form, and one unlabelled form is not evidence for that.
     pwo: ["ပ", "pə"],
     lhu: ["ngà hɨ", "ŋà hɨ"],
     lis: ["ngua nu", "ŋwa˧˧nu˧˩"],

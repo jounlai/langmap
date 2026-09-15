@@ -329,5 +329,77 @@ WORDS.green = {
     krl: ["vihanta", "ˈvihanta"],
     ks: ["سَبٕز", "sabɨz"],
     ksh: ["jröön", "jʁøːn"],
+    kum: ["яшыл", "jaˈʃɯl"],
+    kw: ["gwyrdh", "ɡwɪrð"],   // The artificial-green term, and the one a Cornish colour chart gives for green; glas (already this row's 'blue') is what covers plants and the sea, so Cornish is grue on the natural side and lexicalised on the made side.
+    la: ["viridis", "ˈwɪrɪdɪs"],
+    lad: ["vedre", "ˈveðɾe"],
+    lbe: ["щюлисса", "ɕːjulisːa"],
+    lez: ["къацу", "qatsu"],
+    lic: ["khi:u1", "kʰiːu˥˧"],   // Grue: IDS gives khi:u.1 for both blue and green in Baoting Hlai, which is why this repeats the cell already in 'blue'.
+    lij: ["vèrde", "ˈvɛrde"],
+    liv: ["ǭļaz", "ˈoːʎaz"],   // Wiktionary lemmatises it at ǭļaz; NorthEuraLex writes the same word ōļaz, without the ogonek that Livonian orthography needs.
+    lkt: ["tȟózi", "ˈtxozi"],   // Literally tȟó 'blue' + zí 'yellow'. Lakota can also say plain tȟó of green things, so this is the specific term inside a grue system, not a separate basic colour.
+    lld: ["vërt", "vərt"],
+    lmo: ["verd", "vert"],
+    lo: ["ຂຽວ", "kʰiːəw˩"],
+    ltg: ["zaļš", "zaʎʃ"],
+    lus: ["hring", "hriŋ"],
+    mad: ["bhiru", "bʰiru"],   // Grue, and the same cell as this row's 'blue'. ABVD records Madurese green as biru, without the aspiration mark that distinguishes bh from b — the aspirated spelling is the dictionary one.
+    mak: ["moncong bulo", "moɲtʃoŋ bulo"],   // Literally 'bamboo colour', but lemmatised as the colour noun by Wiktionary and elicited as green by ABVD.
+    max: ["ijo", "idʒo"],
+    mbc: ["rora", "rora"],   // Grue: IDS gives rora for both blue and green in Macushi, matching the cell already in 'blue'.
+    mdf: ["пиже", "ˈpiʒe"],
+    mdh: ["gadung", "ˈɡaduŋ"],
+    meu: ["gadokagadoka", "ɡadokaɡadoka"],
+    mfe: ["ver", "vɛr"],
+    mh: ["maroro", "mʲɑːrˠɔːrˠɔ"],   // The native term; kūriin is the English loan, used of one flat shade. MEOD glosses maroro as the green of patterned or mottled things, which is what Marshallese reaches for of vegetation.
+    mhr: ["ужар", "uˈʒar"],
+    min: ["ijau", "idʒau"],
+    ml: ["പച്ച", "patʃːə"],
+    mlm: ["śau1", "ɕau˦˨"],
+    mmd: ["ju1", "ju˦˨"],
+    mn: ["ногоон", "nɔɡɔːŋ"],
+    mnc: ["ᠨᡳᠣᠸᠠᠩᡤᡳᠶᠠᠨ", "niowaŋɡijan"],
+    mns: ["няртпумоспа", "ˈɲartpumospa"],   // 'Fresh-grass-coloured', but both IDS and NorthEuraLex elicit it as the green term and Mansi dictionaries lemmatise it as an adjective — the same reading that lets Kabardian удзыфэ in above.
+    mrj: ["ыжар", "əˈʒar"],
+    mrw: ["gadong", "ˈɡadoŋ"],
+    mwl: ["berde", "ˈbeɾðɨ"],
+    my: ["စိမ်း", "séɪɴ"],
+    myv: ["пиже", "ˈpiʒe"],
+    mzh: ["watsan", "watsan"],   // Grue: IDS and WOLD both give wa'c̷an / w'atshan for blue and green alike in Wichí, so this repeats the 'blue' cell.
+    nan: ["綠", "liɪk˦"],
+    nan_pn: ["綠", "lek˥˥"],
+    nan_qz: ["綠", "liak˨˦"],
+    nan_te: ["绿", "lek˥˥"],
+    nan_zz: ["綠", "liɪk̚˩˨˩"],
+    nap: ["verde", "ˈverdə"],
+    naq: ["ǃgam", "ǃɡam"],
+    nbl: ["hlaza", "ɬaːza"],   // Nguni luhlaza covers green and blue together; the cell is the same as this row's 'blue', as it is for zu and xh already.
+    nci: ["xoxoctic", "ʃoʃoktik"],
+    nd: ["luhlaza", "luɬaːza"],
+    nds: ["gröön", "ɡrøːn"],
+    nij: ["bahijau", "bahidʒau"],
+    nn: ["grøn", "ɡrøːn"],
+    non: ["grǿnn", "ɡrøːnː"],
+    nrf: ["vèrt", "vɛr"],   // Jersey. Guernésiais has its own vaert, left out because no source gives the value of its ⟨ae⟩.
+    nso: ["tala", "tala"],   // Grue, same cell as 'blue'.
+    nv: ["dootłʼizh", "tòːtɬʼìʒ"],   // Grue: one term across blue, green and turquoise, so the same cell as 'blue'.
+    oar: ["ירק", "jraːq"],
+    ofs: ["grēne", "ˈɡreːne"],
+    oj: ["ozhaawashkwaa", "oʒaːwaʃkwaː"],   // Grue: the inanimate verb 'it is blue/green', identical to this row's 'blue'.
+    olo: ["vihandu", "ˈvihandu"],
+    om: ["magariisa", "maɡariːsa"],   // Wiktionary files the commoner spelling magarisa as a misspelling of this one.
+    orh: ["tʃuturin", "tʃuturin"],
+    os: ["цъӕх", "tsʼəχ"],   // Grue: IDS and NorthEuraLex both give цъӕх for blue and green alike; кӕрдӕгхуыз 'grass-coloured' is the descriptive green, not the basic term.
+    osx: ["grōni", "ˈɡroːni"],
+    ota: ["یشیل", "jeˈʃil"],
+    pam: ["aluntian", "ʔaluntiˈan"],
+    pap: ["bèrdè", "ˈbɛrdɛ"],
+    pdc: ["grie", "ɡriː"],
+    pdt: ["jreen", "jreːn"],
+    pkp: ["yengayenga", "jeŋajeŋa"],   // Grue: ABVD elicits it for green and it is already this row's 'blue'.
+    pms: ["verd", "vɛrt"],
+    pnb: ["ہرا", "ɦəraː"],
+    pon: ["pohndipw", "poːndipʷ"],
   }
 };

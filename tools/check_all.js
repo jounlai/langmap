@@ -545,7 +545,10 @@ line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale:
 // script convention behaving correctly. It cannot decide which side is wrong —
 // `nan` you 你 against six siblings' 汝 is on the list and is CORRECT — so this
 // is a shortlist, ratcheted.
-const LEXICAL_IMPORT_DEBT = 9;
+// 10 since 2026-09: book/nan_te 书 against five Hokkien siblings' 冊 is a real
+// Teochew/Hokkien lexical split, not an import — Wiktionary gives Teochew 書 ze1,
+// and the cell's /tsɯ˧˧/ is exactly that reading, not Mandarin shū.
+const LEXICAL_IMPORT_DEBT = 10;
 s = run('sinitic_lexical_import_check.js --check');
 {
     const n = num(s, /mandarin-shaped cells: (\d+)/);

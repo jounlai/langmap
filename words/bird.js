@@ -148,7 +148,7 @@ WORDS.bird = {
     rkt: ["পাখি", "pakʰi"],
     ur: ["پرندہ", "parɪndaː"],
     ta: ["பறவை", "paɾavai"],
-    en: ["bird", "bɜːrd"],
+    en: ["bird", "bɜːɹd"],
     de: ["Vogel", "ˈfoːɡl̩"],
     fr: ["oiseau", "wazo"],
     it: ["uccello", "utˈtʃɛllo"],

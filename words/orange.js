@@ -540,7 +540,7 @@ WORDS.orange = {
     bn: ["কমলা", "komla"],
     ur: ["سنگترہ", "səŋɡˈtəɾa"],
     ta: ["ஆரஞ்சு", "aːɾaɲtʃu"],
-    en: ["orange", "ˈɒrɪndʒ"],
+    en: ["orange", "ˈɒɹɪndʒ"],
     de: ["Orange", "oˈʁãːʒə"],
     fr: ["orange", "ɔʁɑ̃ʒ"],
     pcd: ["orinje", "ɔʁɛ̃ʒ"],

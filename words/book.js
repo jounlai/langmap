@@ -218,6 +218,96 @@ WORDS.book = {
     chr: ["ᎪᏪᎵ", "ɡoweli"],
     apw: ["nałtsoos", "naɬtsoːs"],
     cr: ["ᒪᓯᓇᐦᐃᑲᐣ", "masinahikan"],
-    crk: ["ᒪᓯᓇᐦᐃᑲᐣ", "masinahikan"]
+    crk: ["ᒪᓯᓇᐦᐃᑲᐣ", "masinahikan"],
+    gan: ["书", "ɕy˦˨"],
+    hsn: ["书", "ɕy˧˧"],
+    hak_cn: ["书", "su˦˦"],
+    hak_tw: ["書", "su˨˦"],
+    hak_hl: ["書", "ʃu˥˧"],
+    ja_oki: ["書物", "sumutɕi"],
+    ko_jeju: ["첵", "tɕʰek"],
+    enm: ["bok", "boːk"],
+    fro: ["livre", "ˈlivrə"],
+    frp: ["lévro", "ˈlevro"],
+    fur: ["libri", "ˈlibri"],
+    ext: ["libru", "ˈliβɾu"],
+    ia: ["libro", "ˈlibro"],
+    ie: ["libre", "ˈlibre"],
+    io: ["libro", "ˈlibro"],
+    jbo: ["cukta", "ˈʃukta"],
+    gcf: ["liv", "liv"],
+    gcr: ["liv", "liv"],
+    jam: ["buk", "bʊk"],
+    fo: ["bók", "pɔuːk"],
+    frr: ["bök", "bøk"],
+    frr_amr: ["buk", "buk"],
+    goh: ["buoh", "buox"],
+    gmh: ["buoch", "buox"],
+    gsw: ["Buech", "buəx"],
+    ksh: ["Booch", "boːx"],
+    got: ["𐌱𐍉𐌺𐍉𐍃", "ˈboːkoːs"],
+    ga: ["leabhar", "ˈlʲauəɾ"],
+    gd: ["leabhar", "ˈʎɔəɾ"],
+    gv: ["lioar", "lʲoːr"],
+    hsb: ["kniha", "ˈkniɦa"],
+    fit: ["kirja", "ˈkirjɑ"],
+    fkv: ["kirja", "ˈkirjɑ"],
+    kpv: ["небӧг", "ˈnʲebɘɡ"],
+    gag: ["kitap", "kiˈtap"],
+    kaa: ["kitap", "kiˈtap"],
+    krc: ["китап", "kiˈtap"],
+    inh: ["китаб", "kitab"],  // Contested, kept pending a better source. In Nakh languages китаб usually names a religious book (cf. Chechen жайна/китаб), and inh.wikipedia's article for the book concept is titled Дешарг, listing дешарг first of five synonyms and using it in institution names (book publisher, Red Book). That case is good but was reported as moderate confidence, which is not enough to overwrite a standing cell.
+    kbd: ["тхылъ", "txəɬ"],
+    gld: ["даӈса", "daŋsa"],
+    kl: ["atuagaq", "atuaɡaq"],
+    // Siberia and the Russian north. NorthEuraLex 0.9 (parameter 408_book) elicits
+    // the Russian loan for all six of these; the rows already take кошка for 'cat',
+    // so the borrowing is the established pattern, not an artefact. Stress is left
+    // unmarked because NorthEuraLex transcribes these without it and these rows
+    // almost never mark it (enf and itl: not once in 50+ cells).
+    enf: ["книга", "kniɡa"],
+    eve: ["книга", "kniɡa"],   // Wiktionary's Even entry confirms the loan and lists native дукон/дукун alongside it; which is the everyday one is unsettled.
+    evn: ["книга", "kɲiɣa"],   // NorthEuraLex's other Evenki form, дукӯвӯн, is 'letter/writing', not a book.
+    kca: ["книга", "kniɣa"],   // Its other kca form, ӆуӈатти нэпек 'reading paper', is a phrase.
+    ket: ["книга", "kɲiɡa"],
+    itl: ["книга", "kniɡa"],
+    koi: ["небӧг", "ˈnʲebɘɡ"],  // NorthEuraLex gives Komi-Permyak книга, but koi.wikipedia writes небӧг in running prose ("Коми небӧг лэдзанін", a book publisher). Taking the native literary word, which also matches the kpv cell — the two standards share it.
+    kjh: ["кинде", "kinˈde"],   // Wiktionary's кинде page has no Khakas section and does have an Eastern Mari one where it means 'bread', which is why this looked unsafe; the Russian–Khakas school dictionary settles it ("Книга ж. 1. кинде; книга для чтения хығырҷаӊ кинде"). The Mari homograph is a coincidence.
+    esu: ["naaqerkaq", "naːqəʁkaq"],  // Jacobson glosses naaqerkaq only 'book', against kalikat 'book; magazine; papers' — so this is the one that stays on the right side of the paper-word line. IPA from the orthography, not quoted.
+    ik: ["makpiġaat", "makpiʁaːt"],   // MacLean glosses it 'book, sheets of paper', with a separate makpiġaaq 'piece of paper' — the split is what supports the book reading. IPA from the orthography.
+    iu: ["ᕿᒥᕐᕈᐊᑦ", "qimiʁːuat"],   // iu.wikipedia's title for the book article, and Wiktionary's translation. IPA from the orthography (rr = ʁː).
+    hyw: ["գիրք", "kiɾk"],
+    hbo: ["סֵפֶר", "ˈseːfɛr"],
+    gez: ["መጽሐፍ", "mɐtsʼħɐf"],
+    fa_clas: ["کتاب", "kiˈtaːb"],
+    ks: ["کِتاب", "kitaːb"],
+    gbm: ["किताब", "kɪˈtɑb"],
+    kru: ["किताब", "kitaːb"],
+    kok: ["पुस्तक", "ˈpustək"],
+    kha: ["kot", "kot"],
+    grt: ["ki·tap", "kiʔtap"],
+    ium: ["sou", "səu˧"],
+    iba: ["bup", "bup"],
+    ilo: ["libro", "ˈlibɾo"],
+    ff: ["deftere", "deftere"],
+    fon: ["wémà", "wémà"],
+    gej: ["wémà", "wémà"],
+    gaa: ["wolo", "wolo"],
+    ig: ["akwụkwọ", "akʷʊkʷɔ"],  // On the same leaf→paper→book line this concept declines elsewhere (Yup'ik kalikaq, Hmong ntawv), and kept only because the evidence is stronger: Wiktionary's Igbo entry is a stub glossing just 'leaf', but ig.wikipedia's Akwụkwọ article is the book article — illustrated with a dictionary (akwụkwọ ọkọwa okwu) and a library (ọba akwụkwọ) — and Igbo builds ụlọ akwụkwọ 'school' on it. Its own opening gloss, "a thing used for writing", still leans paper. A dedicated Igbo dictionary would settle it.
+    iso: ["ụbị", "ʊbɪ"],
+    kab: ["adlis", "adlis"],
+    kbp: ["takayaɣ", "takajaɣ"],
+    kg: ["búku", "buku"],  // mukanda stood here from the Kongo Wikipedia title, but its root nkanda is glossed 'skin, paper, letter, document' in Kongo, and mukanda itself is Kituba 'letter' — the paper-word line this concept declines to cross. búku has its own Kongo entry glossed 'book'. IPA drops the tone mark, as this row does throughout (mboté /mbote/, kûlu /kulu/).
+    ki: ["ibuku", "iβuku"],
+    kj: ["embo", "ˈembo"],
+    her: ["embo", "ˈembo"],
+    gn: ["aranduka", "aɾanduˈka"],
+    gil: ["boki", "ˈboki"],
+    fj: ["ivola", "iˈvola"],
+    fud: ["tosi", "ˈtosi"],
+    ho: ["buka", "ˈbuka"],
+    kos: ["puk", "puk"],    // "Puk ac Mwe rit" heads the Kosraean publications section on jw.org, and the 1902 Kosraean NT spells it buk ("BUK LUN RUT"); modern Lee orthography does not write voiced stops. Not to be confused with puhk 'sand'. Same English loan as Chuukese and Mokilese puk.
+    itz: ["Juʼumilxok", "huʔumilʃok"],  // ALMG's Vocabulario Itzaʼ keeps a clean three-way split: juʼum 'paper', juʼumilxok 'paper-of-reading' = libro, juʼumiltzʼiibʼ 'paper-of-writing' = cuaderno. Not in ALMG's own neologism list, so it is not a coinage.
+    enq: ["buku", "buku"]   // SIL's Enga Dictionary on Webonary, which keeps pepa 'paper' and yoko 'leaf, leaf of paper' as separate entries — so this is not a written-thing catch-all. The source writes a tone mark (búku); this row marks neither tone nor, usually, stress.
   }
 };

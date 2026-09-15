@@ -938,7 +938,7 @@ WORDS.dog = {
     esu: ["qimugta", "qimuɣta"],
     ess: ["кагилхак", "kaɡilxak"],
     ale: ["сабаакаах̆", "sabaːkaːχ"],
-    apw: ["łį́į́ʼ", "ɬĩːʔ"],
+    apw: ["góshé", "ɡóʃé"],  // łį́į́ʼ, which stood here, is 'horse': the Athabaskan 'dog' word was transferred to the horse after contact, and a new dog word took its place (as Navajo łį́į́ʼ 'horse' vs łééchąąʼí 'dog'). Surface from Wiktionary's apw entry, corroborated by the Dilzhe'e Apache Dictionary (gosé/goshé). Wiktionary prints [kótʃɛ́]; the IPA here instead follows this row's own mapping, sh→ʃ and g→ɡ, as in shash /ʃaʃ/ and łóg /ɬóɡ/.
     dak: ["šúŋka", "ʃúŋka"],
     chy: ["oeškeso", "oːʃkeso"],
     arp: ["héʼ", "héʔ"],

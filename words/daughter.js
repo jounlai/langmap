@@ -629,7 +629,7 @@ WORDS.daughter = {
     zh_xa: ["女", "ny˥˧"],
     zh_jn: ["闺女", "kuei˨˩˧ ny"],
     zh_zz: ["闺女", "kuei˨˦ ny"],
-    cjy: ["闺女", "kuei˩˩ ny"],
+    cjy: ["闺女", "kuei˩ ny"],
     cjy_xz: ["闺女", "kuei˩˩ ny"],
     zh_tj: ["女儿", "ny˨˩˧ ɚ˦˥"],
     zh_lz: ["女儿", "ny˦˦˨ ɚ˥˧"],

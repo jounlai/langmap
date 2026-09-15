@@ -113,7 +113,7 @@ WORDS.sushi = {
     "ca_va": ["sushi", "ˈsuʃi"],
     "cdo": ["寿司", "siɛu˨˦˨sy˥˥"],
     "ceb": ["sushi", "ˈsuʃi"],
-    "cjy": ["寿司", "səu˦˥sz̩˩˩"],
+    "cjy": ["寿司", "səu˦˥sz̩˩"],
     "ckb": ["سووشی", "suːʃi"],
     "co": ["sushi", "ˈsuʃi"],
     "cop": ["ⲧⲁⲣⲓⲭⲓⲟⲛ", "taˈrixion"],

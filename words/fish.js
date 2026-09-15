@@ -618,7 +618,7 @@ WORDS.fish = {
     tok: ["kala", "ˈkala"],
     tlh: ["ghotIʼ", "ɣotɪʔ"],
     jbo: ["finpe", "finpe"],
-    cjy: ["鱼", "y˩˩"],
+    cjy: ["鱼", "y˩"],
     hsn: ["鱼", "y˩˧"],
     gan: ["鱼", "y˨˦"],
     mai: ["माछ", "maːtʃʰ"],

@@ -90,6 +90,7 @@ WORDS.blue = {
     bg: "distinct",
     bik: "borrowed",
     bjn: "distinct",
+    bla: "distinct",
     bm: "borrowed",
     bn: "distinct",
     bnn: "grue",
@@ -463,6 +464,7 @@ WORDS.blue = {
     bg: ["син", "sin"],  // син vs зелен.
     bik: ["asul", "aˈsul"],  // Spanish loan (azul), and the everyday sky term: bcl.wikipedia's article is titled 'Asul' and opens 'An asul saro sa mga kolor kan balangaw... Asul an kolor kan kalangitan kun mayo nin dampog'. Wiktionary gives bughaw as a synonym, but Mintz's dictionary has no bughaw entry. Blue and green (berde) are separate.
     bjn: ["biru", "biru"],  // Class uncertain: the evidence is a native-language encyclopaedia article (partly translated from English), not a statement about Banjar colour semantics. Form is safe — biru is the ordinary Banjar word and Banjar keeps the Malayic inherited stock (habang, hirang) elsewhere in this row.
+    bla: ["ótssko", "otsːko"],  // Class disputed, so filed as distinct on the narrower reading: Galt Museum lists Otsskoinaattsi 'blue' against a separate Saiaaksimokoinaattsi 'green', while native-languages.org glosses the bare stem ótssko "green or blue". Both agree on blue, so only blue carries the cell; green is left unmapped until the dispute is settled. This stem sat in red until now — red is máóhk.
     bm: ["bulaman", "bulamaɲ"],  // Delafosse marks bula as a loan from French 'bleu'. The inherited system has no blue-specific term: fi/fin-ma is 'noir' ou 'bleu foncé' (Delafosse PAG_232-233) and firisi / f'ri-si is 'bleu clair ou vert clair' (PAG_239). Green today is binkɛnɛman 'grass-coloured'. Final -n written ɲ in the IPA to match this row's bilen/bileɲ, fin/fiɲ.
     bn: ["নীল", "nil"],  // নীল vs সবুজ.
     bnn: ["masanglav", "masaŋlav"],  // Isbukun (郡群) Bunun, the variety whose madanghas/maduhlas the row already uses. The bare root sanglav also means 'vegetables, greens'. A blue-specific malaingas 藍 exists in the same dictionary but masanglav is the basic term and is what the dictionary uses of the sky.

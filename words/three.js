@@ -612,7 +612,7 @@ WORDS.three = {
     tok: ["tu wan", "tu wan"],
     tlh: ["wej", "wɛdʒ"],
     jbo: ["ci", "ʃi"],
-    cjy: ["三", "sæ̃˩˩"],
+    cjy: ["三", "sæ̃˩"],
     hsn: ["三", "san˧˧"],
     gan: ["三", "san˦˨"],
     mai: ["तीन", "t̪iːn"],

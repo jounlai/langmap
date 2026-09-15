@@ -634,7 +634,7 @@ WORDS.tooth = {
     tok: ["kiwen uta", "kiwen uta"],
     tlh: ["Hoʼ", "hoʔ"],
     jbo: ["denci", "denʃi"],
-    cjy: ["牙", "ia˩˩"],
+    cjy: ["牙", "ia˩"],
     hsn: ["牙", "ŋo˩˧"],
     gan: ["牙", "ŋa˨˦"],
     mai: ["दाँत", "d̪ãːt̪"],

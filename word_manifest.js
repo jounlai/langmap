@@ -39,6 +39,7 @@ const WORD_ORDER = [
     "eye",
     "ear",
     "nose",
+    "mouth",
     "tooth",
     "tongue",
     "hand",

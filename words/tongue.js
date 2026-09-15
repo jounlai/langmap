@@ -582,6 +582,7 @@ WORDS.tongue = {
     pmng: ["*kelen", "kelen"],
     p_tun: ["*ilŋu", "ilŋu"],
     p_aav: ["*lntaːk", "lntaːk"],
+    p_viet: ["*laːs", "laːs"],
     ptai: ["*liːn", "liːn"],
     p_hmx: ["*mblet", "mblet"],
     pafa: ["*lis-", "lis"],

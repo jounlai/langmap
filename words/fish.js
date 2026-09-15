@@ -584,6 +584,7 @@ WORDS.fish = {
     pmng: ["*ǰigasu", "dʒiɡasu"],
     p_tun: ["*ollo", "ollo"],
     p_aav: ["*kaʔ", "kaʔ"],
+    p_viet: ["*ʔa-kaːʔ", "ʔa-kaːʔ"],
     ptai: ["*plaː", "plaː"],
     p_hmx: ["*mbrəuX", "mbrəu"],
     pafa: ["—", "—"],

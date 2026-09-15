@@ -577,6 +577,7 @@ WORDS.red = {
     pmng: ["*hulaɣan", "hulaɣan"],
     p_tun: ["*pula", "pula"],
     p_aav: ["—", "—"],
+    p_viet: ["*tɔh", "tɔh"],
     ptai: ["—", "—"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

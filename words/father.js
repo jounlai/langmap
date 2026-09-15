@@ -647,6 +647,7 @@ WORDS.father = {
     pmng: ["*ečige", "ečige"],
     p_tun: ["*ama", "ama"],
     p_aav: ["—", "—"],
+    p_viet: ["*bɔːʔ", "bɔːʔ"],
     ptai: ["—", "—"],
     p_hmx: ["—", "—"],
     pafa: ["*ʔab-", "ʔab"],

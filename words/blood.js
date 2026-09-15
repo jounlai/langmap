@@ -580,6 +580,7 @@ WORDS.blood = {
     pmng: ["*čisun", "tʃisun"],
     p_tun: ["*sekse", "sekse"],
     p_aav: ["*mham", "mham"],
+    p_viet: ["*t-muːʔ", "t-muːʔ"],
     ptai: ["*lɯət", "lɯət"],
     p_hmx: ["*ntshjamX", "ntsʰjam"],
     pafa: ["*dam-", "dam"],

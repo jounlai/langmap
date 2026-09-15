@@ -1700,6 +1700,7 @@ WORDS.we = {
     pmng: ["*bida / *ba", "bida / ba"],
     p_tun: ["*münti / *büe", "mynti / bye"],
     p_aav: ["—", "—"],
+    p_viet: ["—", "—"],
     ptai: ["—", "—"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

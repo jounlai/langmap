@@ -300,6 +300,7 @@ WORDS.foot = {
     uz: "leg+foot",
     vep: "leg+foot",
     vi: "leg+foot",
+    p_viet: "leg+foot",
     vo: "distinct",
     wa: "distinct",
     wal: "distinct",
@@ -327,6 +328,7 @@ WORDS.foot = {
     "compound": {"color": "#16a34a", "emoji": "🧩", "en": "built from the leg word", "ja": "脚の語からの複合", "ko": "다리 낱말에서 만든 합성어", "zh": "由腿的词合成", "yue": "由腿嘅詞合成", "vi": "ghép từ từ 'chân'", "th": "สร้างจากคำว่าขา", "id": "bentukan dari kata tungkai", "hi": "टाँग के शब्द से बना", "de": "aus dem Bein-Wort gebildet", "fr": "formé sur le mot « jambe »", "it": "formato dalla parola per gamba", "es": "formado sobre la palabra pierna", "pt": "formado a partir da palavra perna", "ru": "образовано от слова «нога»", "uk": "утворене від слова «нога»", "ar": "مركّب من كلمة الساق", "he": "נגזר ממילת הרגל", "sw": "limeundwa kutoka neno la mguu"},
   },
   data: {
+    p_viet: ["*ciɲ", "ciɲ"],
     aa: ["iba", "ˈiba"],  // One word for the limb.
     ab: ["ашьапы", "ɑʃɑpʼɨ"],  // ашьапы covers both; the compound is the foot-specific form.
     ace: ["gaki", "ɡaki"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes jaroe as dʒaɾoe.

@@ -644,6 +644,7 @@ WORDS.hand = {
     pmng: ["*gar", "gar"],
     p_tun: ["*ŋāla", "ŋāla"],
     p_aav: ["*tiːʔ", "tiːʔ"],
+    p_viet: ["*siː", "siː"],
     ptai: ["*mwɯː", "mwɯː"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

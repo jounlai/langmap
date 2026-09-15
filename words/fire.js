@@ -643,6 +643,7 @@ WORDS.fire = {
     pmng: ["*gal", "gal"],
     p_tun: ["*tawa", "tawa"],
     p_aav: ["*ʔuːs", "ʔuːs"],
+    p_viet: ["*-laːs", "-laːs"],
     ptai: ["*wɤj", "wɤj"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

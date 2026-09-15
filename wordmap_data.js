@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1187 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 20 key words × 1188 languages/varieties (incl. ~80 historical)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -15,7 +15,7 @@
 // some have small modern speaker communities (e.g. Manchu, Aramaic dialects,
 // liturgical Sanskrit). The shared property is "hidden from the modern view by default".
 const EXCLUDED_CODES = new Set([
-  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','emy','p_ine','p_toc','p_jpn','p_kor','ptrk','pmng','p_tun','p_aav','ptai','p_hmx','pafa','pkar','pmay','puaz','pban','p_sit','psem','pura','p_dra','paus',
+  'ja_edo','ja_heian','ja_kanbun','ko_mid','ko_em','la','egy','sux','akk','hit','nci','emy','p_ine','p_toc','p_jpn','p_kor','ptrk','pmng','p_tun','p_aav','p_viet','ptai','p_hmx','pafa','pkar','pmay','puaz','pban','p_sit','psem','pura','p_dra','paus',
   'non','enm','en_em','got','cu','pi','pi_edu','cop','arc','el_grc','el_kath','zh_song','zh_han','zh_tang','zh_wenyan_edu',
   'vi_nom','vi_han','sa','sa_edu','ar_qur',
   'de_lut','es_sgl','fr_class',
@@ -1960,6 +1960,8 @@ const LANG_DATA = {
   p_tun: { name: 'Proto-Tungusic', native: 'Proto-Tungusic', lat: 48.00, lng: 128.00,
 },
   p_aav: { name: 'Proto-Austroasiatic', native: 'Proto-Austroasiatic', lat: 17.00, lng: 105.00,
+},
+  p_viet: { name: 'Proto-Vietic', native: 'Proto-Vietic', lat: 18.30, lng: 105.50,
 },
   // Relabelled from Proto-Kra-Dai on 2026-08-26. The cells were Pittayaporn
   // (2009) Proto-Tai throughout except for five that were Ostapirat's Proto-
@@ -5373,6 +5375,7 @@ const DATA_STATUS_OVERRIDES = {
     pmng: 'reconstructed',  // Proto-Mongolic
     p_tun: 'reconstructed',  // Proto-Tungusic
     p_aav: 'reconstructed',  // Proto-Austroasiatic
+    p_viet: 'reconstructed',  // Proto-Vietic
     ptai: 'reconstructed',  // Proto-Tai
     p_hmx: 'reconstructed',  // Proto-Hmong-Mien
     pafa: 'reconstructed',  // Proto-Afroasiatic
@@ -5571,7 +5574,7 @@ const HIST_DESCENDANT = {
     la:'it', el_grc:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
     got:'de', cu:'bg', pi:'si', cop:null, arc:'he',
     sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', emy:'es_mx',
-    p_ine:null, p_toc:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
+    p_ine:null, p_toc:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, p_viet:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
     ar_qur:'ar', sa_edu:'hi', pi_edu:'si', xct_litpr:'bo', zh_wenyan_edu:'yue',
     vi_han:'vi', de_lut:'de', es_sgl:'es', fr_class:'fr',

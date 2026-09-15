@@ -557,6 +557,7 @@ WORDS.bone = {
     pmng: ["*yasun", "jasun"],
     p_tun: ["*giramsa", "ɡiramsa"],
     p_aav: ["*cʔaːŋ", "cʔaːŋ"],
+    p_viet: ["*ɟaːŋ", "ɟaːŋ"],
     ptai: ["*duk", "duk"],
     p_hmx: ["*tshuŋX", "tsʰuŋ"],
     pafa: ["—", "—"],

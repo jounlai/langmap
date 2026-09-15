@@ -129,6 +129,7 @@ WORDS.four = {
     pmng: ["*dörben", "dørben"],
     p_tun: ["*dügin", "dyɡin"],
     p_aav: ["*punʔ", "punʔ"],
+    p_viet: ["*poːnʔ", "poːnʔ"],
     ptai: ["*siː", "siː"],
     p_hmx: ["*plei", "plei"],
     pkar: ["*otxo-", "otxo"],

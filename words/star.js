@@ -644,6 +644,7 @@ WORDS.star = {
       pmng: ["*hodun", "hodun"],
       p_tun: ["—", "—"],
       p_aav: ["—", "—"],
+    p_viet: ["*k-raːw", "k-raːw"],
       ptai: ["—", "—"],
       p_hmx: ["—", "—"],
       pafa: ["—", "—"],

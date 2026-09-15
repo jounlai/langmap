@@ -891,6 +891,7 @@ WORDS.rain = {
     nio: ["соруа", "sorʷa"],
     nzm: ["tingrui", "tiŋrui"],
     p_aav: ["*gmaʔ", "ɡmaʔ"],
+    p_viet: ["*k-maː", "k-maː"],
     poh: ["jabʼ", "haɓ"],
     pwn: ["qudjalj", "quɖaɭ"],
     pyu: ["ʼudal", "ʔudal"],

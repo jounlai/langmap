@@ -643,6 +643,7 @@ WORDS.one = {
     pmng: ["*nigen", "nigen"],
     p_tun: ["*emun", "emun"],
     p_aav: ["*muːj", "muːj"],
+    p_viet: ["*moːc", "moːc"],
     ptai: ["*nɯːŋ", "nɯːŋ"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

@@ -644,6 +644,7 @@ WORDS.eye = {
     pmng: ["*nidün", "nidün"],
     p_tun: ["*ńāsa", "ńāsa"],
     p_aav: ["*mat", "mat"],
+    p_viet: ["*mat", "mat"],
     ptai: ["*taː", "taː"],
     p_hmx: ["—", "—"],
     pafa: ["*ʕayn-", "ʕayn"],

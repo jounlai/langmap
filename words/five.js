@@ -469,6 +469,7 @@ WORDS.five = {
     pmng: ["*tabun", "tabun"],
     p_tun: ["*tuńga", "tuńga"],
     p_aav: ["*pɗam", "pɗam"],
+    p_viet: ["*ɗam", "ɗam"],
     ptai: ["*haː", "haː"],
     p_hmx: ["*prja", "prja"],
     pkar: ["*xut-", "xut"],

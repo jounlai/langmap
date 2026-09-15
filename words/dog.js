@@ -644,6 +644,7 @@ WORDS.dog = {
     pmng: ["*nokai", "nokai"],
     p_tun: ["*ŋinda", "ŋinda"],
     p_aav: ["*cɔː", "cɔː"],
+    p_viet: ["*ʔa-cɔːʔ", "ʔa-cɔːʔ"],
     ptai: ["*ʰmaː", "ʰmaː"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

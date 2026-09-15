@@ -578,6 +578,7 @@ WORDS.three = {
     pmng: ["*gurban", "ɡurban"],
     p_tun: ["*ilan", "ilan"],
     p_aav: ["*peʔ", "peʔ"],
+    p_viet: ["*paː", "paː"],
     ptai: ["*saːm", "saːm"],
     p_hmx: ["*pjɔu", "pjɔu"],
     pafa: ["—", "—"],

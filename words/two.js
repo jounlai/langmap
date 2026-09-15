@@ -644,6 +644,7 @@ WORDS.two = {
       pmng: ["*koyar", "kojar"],
       p_tun: ["*ǰör", "ǰör"],
       p_aav: ["*ɓaːr", "ɓaːr"],
+    p_viet: ["*haːr", "haːr"],
       ptai: ["*soːŋ", "soːŋ"],
       p_hmx: ["*ʔwei", "ʔwei"],
       pafa: ["*sin-", "sin"],

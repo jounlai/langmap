@@ -536,6 +536,7 @@ WORDS.white = {
     psem: ["*laban-", "laban"],
     p_dra: ["*veḷ-", "veḷ"],
     paus: ["*ma-putiq", "maputiq"],
+    p_viet: ["*k-laŋʔ", "k-laŋʔ"],
     zh_song: ["白", "bæk"],
     zh_wenyan_edu: ["白", "paːk˨"],
     zh_han: ["白", "bɐk"],

@@ -644,6 +644,7 @@ WORDS.house = {
     pmng: ["*ger", "ger"],
     p_tun: ["—", "—"],
     p_aav: ["—", "—"],
+    p_viet: ["*ɲaː", "ɲaː"],
     ptai: ["*rɤːn", "rɤːn"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

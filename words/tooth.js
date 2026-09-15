@@ -600,6 +600,7 @@ WORDS.tooth = {
     pmng: ["*sidün", "sidyn"],
     p_tun: ["*iːkte", "iːkte"],
     p_aav: ["*lmVɲ", "lməɲ"],
+    p_viet: ["*k-saŋ", "k-saŋ"],
     ptai: ["*wan", "wan"],
     p_hmx: ["*hmjinX", "m̥jin"],
     pafa: ["—", "—"],

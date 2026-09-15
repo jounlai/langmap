@@ -643,6 +643,7 @@ WORDS.mother = {
     pmng: ["*eke", "eke"],
     p_tun: ["*eńi", "eńi"],
     p_aav: ["*maʔ", "maʔ"],
+    p_viet: ["*meːʔ", "meːʔ"],
     ptai: ["—", "—"],
     p_hmx: ["—", "—"],
     pafa: ["*ʔim-", "ʔim"],

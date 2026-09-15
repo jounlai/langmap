@@ -66,6 +66,7 @@ WORDS.bear = {
     zh: "inherited",
     yue: "inherited",
     vi: "inherited",
+    p_viet: "inherited",
     th: "inherited",
     id: "loan",
     hi: "inherited",
@@ -1290,6 +1291,7 @@ WORDS.bear = {
 
     // --- 2026-08-31 bear pass 2: Formosan/PAn, ancient languages, creoles and misc (out_misc.tsv)
     paus: ["*Cumay", "Cumay"],
+    p_viet: ["*c-guːʔ", "c-guːʔ"],
     bnn: ["tumaz", "tumað"],
     tsu: ["cmoi", "tsmoi"],
     trv: ["sumay", "sumai"],

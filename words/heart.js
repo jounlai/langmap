@@ -644,6 +644,7 @@ WORDS.heart = {
     pmng: ["*ǰirüken", "ǰirüken"],
     p_tun: ["*mēwan", "mēwan"],
     p_aav: ["—", "—"],
+    p_viet: ["—", "—"],
     ptai: ["*cɤɰ", "cɤɰ"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

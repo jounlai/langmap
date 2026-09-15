@@ -415,6 +415,7 @@ WORDS.nose = {
     ptrk: ["*burun", "burun"],
     pmng: ["*kamar", "kamar"],
     p_aav: ["*muh", "muh"],
+    p_viet: ["*muːs", "muːs"],
     ptai: ["*ɗaŋ", "ɗaŋ"],
     p_hmx: ["*mbru̯iᴴ", "mbru̯i"],
     pkar: ["*cxwir-", "tsxwir"],

@@ -429,6 +429,7 @@ WORDS.person = {
     pap: ["hende", "ˈhende"],
     pau: ["chad", "ʔad"],
     paus: ["*Cau", "tsau"],
+    p_viet: ["*ŋaːj", "ŋaːj"],
     pban: ["*-ntʊ̀", "-ntʊ̀"],
     pbb: ["nasa", "nasa"],
     pcm: ["pesin", "pɛsin"],

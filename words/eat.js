@@ -644,6 +644,7 @@ WORDS.eat = {
     pmng: ["*ide-", "ide"],
     p_tun: ["*ǰep-", "ǰep"],
     p_aav: ["*ɟaː", "ɟaː"],
+    p_viet: ["*ʔan", "ʔan"],
     ptai: ["—", "—"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

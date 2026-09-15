@@ -644,6 +644,7 @@ WORDS.good = {
     pmng: ["*sajin", "sajin"],
     p_tun: ["—", "—"],
     p_aav: ["—", "—"],
+    p_viet: ["—", "—"],
     ptai: ["*ɗɤj", "ɗɤj"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],

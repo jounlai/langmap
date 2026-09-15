@@ -644,6 +644,7 @@ WORDS.you = {
       pmng: ["*či", "či"],
       p_tun: ["*si", "si"],
       p_aav: ["—", "—"],
+    p_viet: ["*miː", "miː"],
       ptai: ["—", "—"],
       p_hmx: ["—", "—"],
       pafa: ["—", "—"],

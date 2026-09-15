@@ -581,6 +581,7 @@ WORDS.night = {
     pmng: ["*söni", "søni"],
     p_tun: ["*dolbo", "dolbo"],
     p_aav: ["*cəːm", "cəːm"],
+    p_viet: ["*teːm", "teːm"],
     ptai: ["*ɣɯːn", "ɣɯːn"],
     p_hmx: ["*hməŋH", "hməŋ"],
     pafa: ["—", "—"],

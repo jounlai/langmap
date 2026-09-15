@@ -644,6 +644,7 @@ WORDS.i = {
       pmng: ["*bi", "bi"],
       p_tun: ["*bi", "bi"],
       p_aav: ["*ʔaɲ", "ʔaɲ"],
+    p_viet: ["*soː", "soː"],
       ptai: ["*kuː", "kuː"],
       p_hmx: ["—", "—"],
       pafa: ["*ʔan-", "ʔan"],

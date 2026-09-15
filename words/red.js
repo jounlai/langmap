@@ -103,7 +103,7 @@ WORDS.red = {
     ono: ["otkwʌ́ˀtaˀ", "otkwʌʔtaʔ"],
     win: ["šuuc", "ʃuːtʃ"],
     cro: ["hisshíi", "hiʃːiː"],
-    hai: ["sgíw", "sɡíw"],
+    hai: ["sgíw", "sɡíw"],  // Suspect. Lachler's Dictionary of Alaskan Haida — the source this row's white ǥadáang comes from — has sǥid 'to be red' and gives sǥíw as the noun 'black seaweed, laver'. The plain sg here against ǥ elsewhere in the row is a second hint it came from somewhere else. Read off a PDF with a remapped font, so left standing until someone can check the book.
     cic: ["homma", "homːa"],
     ik: ["kavisiq", "kavisiq"],
     na: ["ȯmwirara", "omʷiɾaɾa"],
@@ -314,7 +314,7 @@ WORDS.red = {
     hy: ["կարմիր", "kɑɾˈmiɾ"],
     hyw: ["կարմիր", "ɡɑɾˈmiɾ"],
     nv: ["łichííʼ", "ɬitʃʰiːʔ"],
-    koy: ["nełtseeyh", "neɬtseːjh"],
+    koy: ["nełtseeyh", "neɬtseːjh"],  // Suspect. Both Koyukon sources reachable give red as daalakkʼas / daatakkʼazee ("Kkʼas daalakkʼas", the alder is red), and tseeyh is the Central Koyukon junior dictionary's word for ochre. Both are 1970s-90s microfiche OCR and the two dialects disagree elsewhere, so this wants Jetté & Jones before anyone moves it.
     haw: ["ʻulaʻula", "ʔulaˈʔula"],
     mi: ["whero", "ɸɛɾɔ"],
     qu: ["puka", "puka"],

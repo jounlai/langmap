@@ -27,8 +27,15 @@ const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 const ROOT = path.join(__dirname, '..');
-const FONT = 'fonts/NotoSerifKR-OldHangul.woff2';
-const FAMILY = 'Noto Serif KR Old Jamo';
+/* Two cuts of the same blocks, because the pages are not all set in the same
+ * typeface. A serif page that used the sans face — or a sans page the serif —
+ * renders one word in two typefaces, which is what a reader actually sees and
+ * what no coverage check would have caught. A page passes on EITHER face, and
+ * the face it names is the one checked for coverage. */
+const FACES = [
+    { font: 'fonts/NotoSerifKR-OldHangul.woff2', family: 'Noto Serif KR Old Jamo' },
+    { font: 'fonts/NotoSansKR-OldHangul.woff2',  family: 'Noto Sans KR Old Jamo'  },
+];
 
 const isKorHist = cp =>
     (cp >= 0x1100 && cp <= 0x11FF) || (cp >= 0x302E && cp <= 0x302F) ||
@@ -108,7 +115,7 @@ function fontCmap(file) {
 }
 
 /* Codepoints claimed by the @font-face whose src is our font file. */
-function declaredRange(css) {
+function declaredRange(css, FONT) {
     const covered = new Set(), rngs = [];
     for (const blk of css.match(/@font-face\s*{[^}]*}/g) || []) {
         if (!blk.includes(path.basename(FONT))) continue;
@@ -128,8 +135,12 @@ function declaredRange(css) {
 const hex = cp => 'U+' + cp.toString(16).toUpperCase().padStart(4, '0') + ' ' + String.fromCodePoint(cp);
 const problems = [];
 
-const cmap = fontCmap(FONT);
-if (!cmap) problems.push(`${FONT}: could not read its cmap`);
+const cmaps = new Map();
+for (const f of FACES) {
+    const cm = fontCmap(f.font);
+    if (!cm) problems.push(`${f.font}: could not read its cmap`);
+    cmaps.set(f.font, cm);
+}
 
 const styles = fs.readFileSync(path.join(ROOT, 'styles.css'), 'utf8');
 for (const page of Object.keys(PAGES)) {
@@ -140,16 +151,22 @@ for (const page of Object.keys(PAGES)) {
     const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
     const css = SHARED_CSS.has(page) ? html + '\n' + styles : html;
 
-    const inRange = declaredRange(css);
-    if (!inRange) { problems.push(`${page}: renders ${need.size} Korean historical codepoints but declares no @font-face for ${FONT}`); continue; }
     // The family name inside the @font-face block itself does not install
     // anything — strip the declarations before looking for a real chain.
     const chains = css.replace(/@font-face\s*{[^}]*}/g, '');
-    if (!chains.includes(FAMILY)) { problems.push(`${page}: declares the @font-face but never names '${FAMILY}' in a font-family chain, so the browser will never use it`); continue; }
-
-    for (const cp of [...need].sort((a, b) => a - b)) {
-        if (cmap && !cmap.has(cp)) problems.push(`${page}: ${hex(cp)} is in its data but NOT in ${FONT}`);
-        else if (!inRange(cp)) problems.push(`${page}: ${hex(cp)} is in its data but outside the @font-face unicode-range`);
+    const used = FACES.filter(f => chains.includes(f.family));
+    if (!used.length) {
+        problems.push(`${page}: renders ${need.size} Korean historical codepoints but names neither ${FACES.map(f => `'${f.family}'`).join(' nor ')} in a font-family chain`);
+        continue;
+    }
+    for (const face of used) {
+        const inRange = declaredRange(css, face.font);
+        if (!inRange) { problems.push(`${page}: names '${face.family}' in a chain but declares no @font-face for ${face.font}`); continue; }
+        const cmap = cmaps.get(face.font);
+        for (const cp of [...need].sort((a, b) => a - b)) {
+            if (cmap && !cmap.has(cp)) problems.push(`${page}: ${hex(cp)} is in its data but NOT in ${face.font}`);
+            else if (!inRange(cp)) problems.push(`${page}: ${hex(cp)} is in its data but outside ${face.font}'s @font-face unicode-range`);
+        }
     }
 }
 

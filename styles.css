@@ -26,6 +26,28 @@
     unicode-range: U+1100-11FF, U+302E-302F, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
 }
 
+/* The SANS cut, for the pages whose own text is sans — the Word Order map,
+ * the tree and the name map. Reported 2026-09-15: Middle Korean 나ᄂᆞᆫ was
+ * coming out with 나 in the UI sans and ᄂᆞᆫ in the serif face above — one
+ * word, two typefaces, directly under a modern Korean row that was uniformly
+ * sans.
+ *
+ * The range is long because it has to be. It carries the conjoining jamo AND
+ * every precomposed syllable the data uses, because a font at the front of the
+ * chain that lacks the syllable makes HarfBuzz DECOMPOSE it into jamo and then
+ * fail to recompose them across a font boundary: 나 renders as ㄴ ㅏ side by
+ * side. Claiming a syllable the file does not contain would tofu it, so the
+ * range is generated from the file — `node tools/build_korean_hist_font.js`
+ * prints both, and they must be pasted together. */
+@font-face {
+    font-family: 'Noto Sans KR Old Jamo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('fonts/NotoSansKR-OldHangul.woff2') format('woff2');
+    unicode-range: U+1100-11FF, U+302E-302F, U+3130-318F, U+A960-A97F, U+D7B0-D7FF, U+AC00, U+AC01, U+AC04, U+AC10, U+AC11, U+AC12, U+AC13, U+AC14, U+AC15, U+AC1C, U+AC54, U+AC70, U+AC74, U+AC78, U+AC83, U+AC8C, U+ACA0, U+ACA8, U+ACAF, U+ACB0, U+ACBD, U+ACC1, U+ACC4, U+ACE0, U+ACE1, U+ACE7, U+ACF1, U+ACF3, U+ACF5, U+ACFC, U+AD00, U+AD2D, U+AD34, U+AD50, U+AD6C, U+AD6D, U+AD70, U+ADC0, U+ADF8, U+ADFC, U+AE00, U+AE08, U+AE14, U+AE30, U+AE34, U+AE38, U+AE4C, U+AE68, U+AF43, U+AF48, U+AF9C, U+AFB8, U+B057, U+B05D, U+B07C, U+B080, U+B098, U+B09C, U+B0A0, U+B0A8, U+B0AB, U+B0AD, U+B0AE, U+B0B4, U+B108, U+B124, U+B140, U+B141, U+B144, U+B150, U+B178, U+B180, U+B18B, U+B193, U+B1E8, U+B204, U+B208, U+B274, U+B290, U+B294, U+B298, U+B2A5, U+B2A6, U+B2C8, U+B2CC, U+B2D0, U+B2D1, U+B2D8, U+B2D9, U+B2E4, U+B2E8, U+B2EB, U+B2EC, U+B2F4, U+B2F5, U+B2F9, U+B300, U+B354, U+B35C, U+B35F, U+B36E, U+B370, U+B394, U+B3C4, U+B3C8, U+B3CC, U+B3D9, U+B418, U+B41C, U+B420, U+B428, U+B434, U+B450, U+B4A4, U+B4DC, U+B4E0, U+B4E3, U+B4E4, U+B4EC, U+B4ED, U+B4F8, U+B514, U+B54C, U+B611, U+B730, U+B77C, U+B780, U+B78C, U+B78F, U+B790, U+B791, U+B798, U+B7C9, U+B7EC, U+B7F0, U+B808, U+B80C, U+B81B, U+B824, U+B825, U+B82C, U+B837, U+B838, U+B85C, U+B85D, U+B86F, U+B8CC, U+B8E8, U+B958, U+B974, U+B978, U+B97C, U+B984, U+B987, U+B9AC, U+B9B0, U+B9BC, U+B9C8, U+B9C9, U+B9CC, U+B9CE, U+B9D0, U+B9D1, U+B9D9, U+B9DB, U+B9DD, U+B9DE, U+B9E4, U+B9E8, U+BA38, U+BA39, U+BA3C, U+BA4D, U+BA54, U+BA83, U+BA85, U+BA87, U+BAA8, U+BAA9, U+BABB, U+BAFC, U+BB34, U+BB35, U+BB38, U+BB3C, U+BB47, U+BBC0, U+BBC4, U+BBC8, U+BBF8, U+BBFC, U+BBFF, U+BC00, U+BC0B, U+BC0C, U+BC0D, U+BC14, U+BC18, U+BC1C, U+BC1D, U+BC24, U+BC25, U+BC29, U+BC30, U+BC84, U+BC88, U+BC95, U+BC97, U+BC9A, U+BCC0, U+BCD1, U+BCF4, U+BCF5, U+BCF8, U+BD10, U+BD24, U+BD48, U+BD80, U+BD84, U+BD88, U+BD89, U+BE0C, U+BE10, U+BE14, U+BE44, U+BE60, U+BE68, U+BED0, U+BFCC, U+C058, U+C05C, U+C0AC, U+C0B0, U+C0C0, U+C0C1, U+C0C8, U+C0DD, U+C11C, U+C11D, U+C120, U+C124, U+C12F, U+C131, U+C138, U+C14B, U+C154, U+C158, U+C170, U+C18C, U+C18D, U+C190, U+C1E0, U+C1FC, U+C218, U+C220, U+C26C, U+C288, U+C2A4, U+C2AC, U+C2B4, U+C2B5, U+C2B9, U+C2DC, U+C2DD, U+C2E0, U+C2E4, U+C2EC, U+C2ED, U+C2F6, U+C2F8, U+C308, U+C309, U+C37B, U+C37C, U+C4F0, U+C4F4, U+C500, U+C528, U+C544, U+C545, U+C548, U+C549, U+C54C, U+C557, U+C559, U+C560, U+C571, U+C57C, U+C57D, U+C591, U+C598, U+C5B4, U+C5B5, U+C5B8, U+C5BC, U+C5C4, U+C5C5, U+C5C6, U+C5C7, U+C5C8, U+C5D0, U+C5D4, U+C5EC, U+C5ED, U+C5F4, U+C5FC, U+C600, U+C601, U+C606, U+C608, U+C624, U+C628, U+C62C, U+C62E, U+C634, U+C635, U+C637, U+C640, U+C653, U+C654, U+C678, U+C694, U+C6A9, U+C6B0, U+C6B4, U+C6B8, U+C6C0, U+C6CC, U+C6D0, U+C6D4, U+C6DF, U+C6E0, U+C6FB, U+C704, U+C720, U+C721, U+C73C, U+C740, U+C744, U+C74C, U+C751, U+C758, U+C774, U+C778, U+C77C, U+C77D, U+C783, U+C784, U+C785, U+C787, U+C788, U+C78A, U+C790, U+C791, U+C794, U+C798, U+C7A0, U+C7A5, U+C7AC, U+C800, U+C801, U+C804, U+C808, U+C810, U+C815, U+C81C, U+C824, U+C82F, U+C838, U+C83C, U+C870, U+C880, U+C88B, U+C8FC, U+C900, U+C904, U+C90C, U+C90D, U+C90F, U+C911, U+C92C, U+C96C, U+C989, U+C990, U+C9C0, U+C9C1, U+C9C4, U+C9D0, U+C9D1, U+C9D3, U+C9F8, U+CABD, U+CC0D, U+CC28, U+CC38, U+CC3D, U+CC3E, U+CC45, U+CC9C, U+CCA0, U+CCAB, U+CCB4, U+CCD0, U+CD08, U+CD2C, U+CD94, U+CD95, U+CD98, U+CDA9, U+CE58, U+CE5C, U+CE60, U+CE68, U+CE74, U+CEE4, U+CF13, U+CF1C, U+CF54, U+CF58, U+CFC4, U+CFE0, U+D070, U+D0A4, U+D0C8, U+D130, U+D134, U+D14C, U+D154, U+D168, U+D1B5, U+D2B8, U+D310, U+D37C, U+D38C, U+D3B8, U+D3F0, U+D480, U+D488, U+D48D, U+D504, U+D514, U+D53C, U+D558, U+D559, U+D55C, U+D560, U+D568, U+D569, U+D56D, U+D574, U+D578, U+D588, U+D589, U+D5A5, U+D5C8, U+D5D0, U+D5D8, U+D5E4, U+D5EC, U+D5F7, U+D615, U+D61C, U+D638, U+D63C, U+D640, U+D648, U+D649, U+D654, U+D655, U+D658, U+D68C, U+D68D, U+D6C4, U+D754, U+D765, U+D788, U+D798;
+}
+
 /* Single accent colour for all interactive UI (links, buttons, focus,
    selected states). Consolidated from several near-duplicate blues so the
    interface reads as deliberately designed rather than assembled. */
@@ -49,7 +71,7 @@ body {
        body font-family extension). Tibetan fallback is now scoped to
        the elements that actually contain Tibetan codepoints
        (.segment, .node.leaf .native) below. */
-    font-family: 'Noto Serif KR Old Jamo', 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
+    font-family: 'Noto Sans KR Old Jamo', 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
     background: #f0f2f5;
     min-height: 100vh;
     padding: 20px;
@@ -786,7 +808,7 @@ select:focus { border-color: var(--accent); outline: none; }
        while Greek/Cyrillic (not in Noto Serif Tibetan) dropped to the system
        sans. Inserting -apple-system etc. here keeps all alphabetic scripts
        uniformly sans-serif; only Tibetan reaches the serif Tibetan fallback. */
-    font-family: 'Noto Serif KR Old Jamo',
+    font-family: 'Noto Sans KR Old Jamo',
         'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai',
         -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', 'Arial',
         'Noto Serif Tibetan', 'Kailasa', 'Microsoft Himalaya', 'Jomolhari', 'Tibetan Machine Uni',

@@ -12,8 +12,8 @@
 <meta property="og:title" content="Language Family Tree: 1,187 Languages by Genealogical Classification">
 <meta property="og:description" content="Browse 1,187 world languages organized by their genealogical family tree — Indo-European, Sino-Tibetan, Afro-Asiatic, and many more.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://langmap.heuron.com/tree.html">
-<meta property="og:image" content="https://langmap.heuron.com/ogp-tree.png">
+<meta property="og:url" content="https://langmaps.com/tree.html">
+<meta property="og:image" content="https://langmaps.com/ogp-tree.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="LangMap language family tree tracing 1,187 languages through the world's major genealogical families">
@@ -25,9 +25,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Language Family Tree: 1,187 Languages">
 <meta name="twitter:description" content="Browse 1,187 world languages organized by their genealogical family tree.">
-<meta name="twitter:image" content="https://langmap.heuron.com/ogp-tree.png">
+<meta name="twitter:image" content="https://langmaps.com/ogp-tree.png">
 <meta name="twitter:creator" content="@jounlai">
-<link rel="canonical" href="https://langmap.heuron.com/tree.html">
+<link rel="canonical" href="https://langmaps.com/tree.html">
 <link rel="icon" type="image/png" href="/langmap.png">
 <link rel="apple-touch-icon" href="/langmap.png">
     <link rel="manifest" href="/manifest.json">
@@ -37,9 +37,9 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Language Family Tree: 1,187 Languages",
-    "url": "https://langmap.heuron.com/tree.html",
+    "url": "https://langmaps.com/tree.html",
     "description": "Browse 1,187 world languages organized by their genealogical family tree — Indo-European, Sino-Tibetan, Afro-Asiatic, and more.",
-    "isPartOf": {"@id": "https://langmap.heuron.com/#website"},
+    "isPartOf": {"@id": "https://langmaps.com/#website"},
     "inLanguage": ["en", "ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"]
 }
 </script>
@@ -47,7 +47,8 @@
 <script>
     // Production-only GA firing: hostname-gated so dev/local/staging
     // traffic doesn't pollute the analytics property.
-    if (location.hostname === 'langmap.heuron.com') {
+    if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {   // both hosts while the old one still 301s
         const s = document.createElement('script');
         s.async = true;
         s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
@@ -58,7 +59,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=132">
+<link rel="stylesheet" href="styles.css?v=133">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -293,7 +294,7 @@
             <span class="header-nav-current" id="nav-tree"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg>Tree</span>
         </nav>
         <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
-        <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
+        <a class="header-url" href="https://langmaps.com">langmaps.com</a>
     </div>
 </div>
 <!-- Backdrop lives OUTSIDE the header bar so backdrop-filter on the
@@ -374,7 +375,7 @@
 })();
 </script>
 
-<script src="wordmap_data.js?v=325"></script>
+<script src="wordmap_data.js?v=326"></script>
 <!-- The meta-i18n layer (engine + the current UI's slice only) is loaded
      dynamically below, next to the meta file — see loadMetaI18nForUi(). The old
      eager meta_i18n_ext + coverage{,2,3} tags pulled ~5 MB of ALL 22 UIs. -->
@@ -1189,6 +1190,6 @@ generates lang_names/<ui>.js from lang_names.js. -->
 </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=1"></script>
-    <script src="lang-picker.js?v=2"></script>
+    <script src="lang-picker.js?v=3"></script>
 </body>
 </html>

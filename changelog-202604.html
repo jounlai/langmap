@@ -10,14 +10,15 @@
     <!-- Internal documentation page — kept out of search-engine indexes
          (canonical content lives on index.html / wordmap.html / tree.html). -->
     <meta name="robots" content="noindex, follow">
-    <link rel="canonical" href="https://langmap.heuron.com/changelog.html">
+    <link rel="canonical" href="https://langmaps.com/changelog.html">
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
     <meta name="google-site-verification" content="bv4ffQGbDc_Grf1Ioc8NCotrXWc2mY34wEmL-5yHJyM" />
     <script>
         // Production-only GA firing: hostname-gated so dev/local/staging
         // traffic doesn't pollute the analytics property.
-        if (location.hostname === 'langmap.heuron.com') {
+        if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {   // both hosts while the old one still 301s
             const s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
@@ -28,8 +29,8 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=132">
-    <link rel="stylesheet" href="styles.css?v=132">
+    <link rel="stylesheet" href="styles.css?v=133">
+    <link rel="stylesheet" href="styles.css?v=133">
     <style>
         .changelog {
             max-width: 760px;
@@ -201,7 +202,7 @@
                 <li>Sentence 13 ("Please give me a glass of water"): marked single-word "give me" forms across 26 languages/dialects as <code>B|D</code> compound segments — Japanese <em>ください</em>, Korean <em>주세요</em>, Arabic <em>أعطني</em> (and all dialectal variants), Spanish <em>deme/dame/regáleme</em> (all variants), Portuguese <em>dê-me / me dê</em>, Galician <em>déame</em>, Ladino, Venetian, Maltese, Neapolitan, Sicilian. Also fixed Japanese/Korean mis-segmentation where "一杯" / "한 잔" were wrongly mapped to A (Please) instead of C (a glass of water).</li>
                 <li>PNG/SVG export: compound segments (e.g. <code>B|D</code>) now render with a linearGradient fill instead of invisible transparent text. Fixed a <code>ReferenceError</code> that made the Save PNG / Save SVG buttons completely unresponsive.</li>
                 <li>PNG/SVG export: Hist/Exp badges now render as bordered rounded rects with gray text, matching the on-screen style inside <code>.lang-label</code> (previously they used the modal-style filled purple/orange backgrounds).</li>
-                <li>PNG/SVG export: site URL watermark (<code>https://langmap.heuron.com</code>) added to the bottom-right corner of exported images.</li>
+                <li>PNG/SVG export: site URL watermark (<code>https://langmaps.com</code>) added to the bottom-right corner of exported images.</li>
                 <li>Site header: added a small <code>langmap.heuron.com</code> link in the top-right corner.</li>
                 <li>Added OGP and Twitter Card meta tags with localized title and description for all 21 UI languages. <code>document.title</code> and all meta tags update dynamically when the UI language changes.</li>
                 <li>Language selector: clicking a group header (e.g. "Japanese", "Romance") now toggles all selectable languages in that group — all ON if any are OFF, all OFF if all are already ON.</li>

@@ -926,7 +926,7 @@
 
         // ---- brand footer ----
         g.textBaseline = 'alphabetic';
-        var brand = 'LangMap', dom = 'langmap.heuron.com';
+        var brand = 'LangMap', dom = 'langmaps.com';
         g.font = '800 30px ' + CARD_FONT; var bw = g.measureText(brand).width;
         g.font = '500 26px ' + CARD_FONT; var dw = g.measureText(dom).width;
         var totalW = 30 + 12 + bw + 26 + dw, startX = (CARD_W - totalW) / 2, byy = Math.min(CARD_H - 46, fy + fh + 56);

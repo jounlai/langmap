@@ -43,7 +43,7 @@ if (!function_exists('mb_strrpos')) {
     }
 }
 
-const SEO_SITE = 'https://langmap.heuron.com';
+const SEO_SITE = 'https://langmaps.com';
 
 /**
  * seo_goods_href — the Makoto Gadgets hand-off, the same one wordmap.html
@@ -2141,7 +2141,8 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 <?php /* Production-only GA4 firing: hostname-gated so dev/local/staging traffic
          doesn't pollute the analytics property (same config as the interactive maps). */ ?>
 <script>
-  if (location.hostname === 'langmap.heuron.com') {
+  if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+      .includes(location.hostname)) {   // both hosts while the old one still 301s
     var s = document.createElement('script');
     s.async = true;
     s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';

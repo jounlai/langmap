@@ -10,14 +10,15 @@
     <!-- Internal documentation page — kept out of search-engine indexes
          (canonical content lives on index.html / wordmap.html / tree.html). -->
     <meta name="robots" content="noindex, follow">
-    <link rel="canonical" href="https://langmap.heuron.com/changelog-202607.html">
+    <link rel="canonical" href="https://langmaps.com/changelog-202607.html">
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
     <meta name="google-site-verification" content="bv4ffQGbDc_Grf1Ioc8NCotrXWc2mY34wEmL-5yHJyM" />
     <script>
         // Production-only GA firing: hostname-gated so dev/local/staging
         // traffic doesn't pollute the analytics property.
-        if (location.hostname === 'langmap.heuron.com') {
+        if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {   // both hosts while the old one still 301s
             const s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
@@ -28,8 +29,8 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=132">
-    <link rel="stylesheet" href="styles.css?v=132">
+    <link rel="stylesheet" href="styles.css?v=133">
+    <link rel="stylesheet" href="styles.css?v=133">
     <style>
         .changelog {
             max-width: 760px;

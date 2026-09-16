@@ -1880,7 +1880,7 @@ async function buildExportSVG() {
     });
 
     // Watermark: site URL in the bottom-right corner
-    const watermark = 'https://langmap.heuron.com';
+    const watermark = 'https://langmaps.com';
     svgContent += `<text x="${w - 12}" y="${h - 12}" font-family="sans-serif" font-size="12" font-weight="500" fill="#999" text-anchor="end">${watermark}</text>`;
 
     svgContent += `</svg>`;

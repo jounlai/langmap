@@ -79,7 +79,7 @@
         wrap.appendChild(btn);
         wrap.appendChild(menu);
 
-        // Place the picker immediately to the LEFT of the langmap.heuron.com link.
+        // Place the picker immediately to the LEFT of the langmaps.com link.
         var url = document.querySelector('.site-header-bar .header-url');
         if (url && url.parentNode) {
             url.parentNode.insertBefore(wrap, url);

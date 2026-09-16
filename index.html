@@ -12,8 +12,8 @@
     <meta property="og:title" id="ogTitle" content="LangMap — Multilingual Word Order Map: 223 Languages">
     <meta property="og:description" id="ogDesc" content="Compare word order (SOV / SVO / VSO / etc.) across 223 languages, dialects, and historical stages — side-by-side sentence alignment with color-coded syntactic roles.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://langmap.heuron.com/">
-    <meta property="og:image" content="https://langmap.heuron.com/ogp-index.png">
+    <meta property="og:url" content="https://langmaps.com/">
+    <meta property="og:image" content="https://langmaps.com/ogp-index.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="LangMap word order map comparing SOV, SVO, VSO, and other patterns across 223 languages">
@@ -25,9 +25,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" id="twTitle" content="LangMap — Multilingual Word Order Map: 223 Languages">
     <meta name="twitter:description" id="twDesc" content="Compare word order (SOV / SVO / VSO / etc.) across 223 languages, dialects, and historical stages — side-by-side sentence alignment with color-coded syntactic roles.">
-    <meta name="twitter:image" content="https://langmap.heuron.com/ogp-index.png">
+    <meta name="twitter:image" content="https://langmaps.com/ogp-index.png">
     <meta name="twitter:creator" content="@jounlai">
-    <link rel="canonical" href="https://langmap.heuron.com/">
+    <link rel="canonical" href="https://langmaps.com/">
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
     <link rel="manifest" href="/manifest.json">
@@ -41,27 +41,27 @@
         "@graph": [
             {
                 "@type": "WebSite",
-                "@id": "https://langmap.heuron.com/#website",
-                "url": "https://langmap.heuron.com/",
+                "@id": "https://langmaps.com/#website",
+                "url": "https://langmaps.com/",
                 "name": "LangMap",
                 "description": "Interactive comparison of word order, vocabulary, and family classification across 1,187 languages.",
                 "inLanguage": ["en", "ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"],
-                "publisher": {"@id": "https://langmap.heuron.com/#org"}
+                "publisher": {"@id": "https://langmaps.com/#org"}
             },
             {
                 "@type": "Organization",
-                "@id": "https://langmap.heuron.com/#org",
+                "@id": "https://langmaps.com/#org",
                 "name": "LangMap",
-                "url": "https://langmap.heuron.com/",
-                "logo": "https://langmap.heuron.com/langmap.png",
+                "url": "https://langmaps.com/",
+                "logo": "https://langmaps.com/langmap.png",
                 "parentOrganization": {"@type": "Organization", "name": "Heuron Inc.", "url": "https://heuron.com"},
                 "founder": {"@type": "Person", "name": "Jounlai Cho", "sameAs": ["https://x.com/jounlai", "https://github.com/jounlai"]}
             }
         ]
     }
     </script>
-    <link rel="stylesheet" href="styles.css?v=132">
-    <link rel="stylesheet" href="styles.css?v=132">
+    <link rel="stylesheet" href="styles.css?v=133">
+    <link rel="stylesheet" href="styles.css?v=133">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Gentium Plus / Charis SIL carry the Egyptological alef ꜣ (U+A723) and
@@ -74,7 +74,8 @@
         // Production-only GA firing: hostname-gated so dev/local/staging
         // traffic doesn't pollute the analytics property. Branches (develop
         // and main) stay identical — no per-branch divergence to maintain.
-        if (location.hostname === 'langmap.heuron.com') {
+        if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {   // both hosts while the old one still 301s
             const s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
@@ -105,7 +106,7 @@
                 <a href="tree.html" class="header-nav-link" id="navToTree"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg>系統樹</a>
             </nav>
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
-            <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
+            <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
     </div>
     <!-- Backdrop lives OUTSIDE the header bar so backdrop-filter on the
@@ -267,9 +268,9 @@
     <script src="lang_names_shim.js?v=3"></script>
     <script src="lang_names/en.js?v=194"></script>
     <script>window.__langNamesVersion(194); window.__langNamesBoot();</script>
-    <script src="app.js?v=80"></script>
+    <script src="app.js?v=81"></script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=1"></script>
-    <script src="lang-picker.js?v=2"></script>
+    <script src="lang-picker.js?v=3"></script>
 </body>
 </html>

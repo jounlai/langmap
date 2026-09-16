@@ -12,8 +12,8 @@
     <meta property="og:title" content="HanMap — Han Character Pronunciation Atlas (61 chars × 121 languages)">
     <meta property="og:description" content="61 Han characters × 121 languages and variants — Mandarin, Cantonese, Min, Hakka, Wu, Japanese on/kun, Korean, Vietnamese, plus Old Chinese, Middle Chinese, Tang and Song reconstructions.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://langmap.heuron.com/hanmap.html">
-    <meta property="og:image" content="https://langmap.heuron.com/ogp-hanmap.png">
+    <meta property="og:url" content="https://langmaps.com/hanmap.html">
+    <meta property="og:image" content="https://langmaps.com/ogp-hanmap.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="HanMap showing regional readings of the character for mountain across 121 languages and variants">
@@ -25,9 +25,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HanMap — Han Character Pronunciation Atlas">
     <meta name="twitter:description" content="61 Han characters × 121 languages and variants across the Sinosphere — IPA, Pinyin, Jyutping, POJ, Hangul, Hán-Việt, on/kun yomi.">
-    <meta name="twitter:image" content="https://langmap.heuron.com/ogp-hanmap.png">
+    <meta name="twitter:image" content="https://langmaps.com/ogp-hanmap.png">
     <meta name="twitter:creator" content="@jounlai">
-    <link rel="canonical" href="https://langmap.heuron.com/hanmap.html">
+    <link rel="canonical" href="https://langmaps.com/hanmap.html">
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
     <link rel="manifest" href="/manifest.json">
@@ -43,9 +43,9 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "HanMap: Han Character Pronunciation Atlas",
-        "url": "https://langmap.heuron.com/hanmap.html",
+        "url": "https://langmaps.com/hanmap.html",
         "description": "61 Han characters in 121 Sinosphere language and variant pronunciations — IPA, Pinyin, Jyutping, Sino-Korean, Sino-Vietnamese, Old and Middle Chinese reconstructions.",
-        "isPartOf": {"@id": "https://langmap.heuron.com/#website"},
+        "isPartOf": {"@id": "https://langmaps.com/#website"},
         "inLanguage": ["ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "en", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"]
     }
     </script>
@@ -54,7 +54,8 @@
         // Production-only GA firing: hostname-gated so dev/local/staging
         // traffic doesn't pollute the analytics property. Branches (develop
         // and main) stay identical — no per-branch divergence to maintain.
-        if (location.hostname === 'langmap.heuron.com') {
+        if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {   // both hosts while the old one still 301s
             const s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
@@ -65,7 +66,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=132">
+    <link rel="stylesheet" href="styles.css?v=133">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2752,7 +2753,7 @@
                  — same markup as index/tree. The old .ui-lang-footer bottom pill
                  is retired (was already display:none; superseded by picker). -->
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
-            <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
+            <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
     </div>
 
@@ -3333,7 +3334,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=325"></script>
+    <script src="wordmap_data.js?v=326"></script>
     <script src="hanmap_data.js?v=126"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
@@ -12610,6 +12611,6 @@
     })();
     </script>
     <script src="share-button.js?v=1"></script>
-    <script src="lang-picker.js?v=2"></script>
+    <script src="lang-picker.js?v=3"></script>
 </body>
 </html>

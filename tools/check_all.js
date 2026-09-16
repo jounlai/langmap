@@ -502,7 +502,7 @@ line('language-name coverage', num(s, /violations: (\d+)/));
 
 // data/*_seo.json is what index.php serves for /{ui}/wordmap/{code} at request
 // time. Nothing in the browser reads it, so a forgotten export is invisible
-// locally — localhost shows the new data while langmap.heuron.com serves the
+// locally — localhost shows the new data while langmaps.com serves the
 // old. Adding this is what a session that shipped 11 new concepts to the map
 // and none of them to the site cost (owner 2026-08-26).
 // One 調類, one contour, within one row. Written 2026-08-29 after two real

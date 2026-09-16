@@ -1517,7 +1517,7 @@ html[data-wm-chrome="hidden"] body .right-secondary-controls {
     display: none !important;
 }
 /* .header-collapse: on PC (display:contents = always-inline) hide most
-   children when chrome is off, BUT keep .header-url (langmap.heuron.com)
+   children when chrome is off, BUT keep .header-url (langmaps.com)
    visible — per user 2026-05-26 it anchors the right side of the header
    when chrome-toggle is in the right-controls column, so the header
    doesn't look bare with just LangMap on the left. On mobile, leave
@@ -1681,7 +1681,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 
 /* ---------------------------------------------------------------------------
  * Unified UI-language picker (lang-picker.js) — a globe + current CODE button
- * to the left of the langmap.heuron.com link, opening a "CODE  NativeName"
+ * to the left of the langmaps.com link, opening a "CODE  NativeName"
  * dropdown. Replaces the old .ui-lang-footer pill and the bare header select.
  * ------------------------------------------------------------------------- */
 /* The native <select id="header-ui-lang"> is ONLY a data source for the

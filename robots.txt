@@ -21,4 +21,4 @@ Disallow: /_cardtest.html
 # at /sitemap-seo.xml if ever needed; since 2026-09-04 that URL is a sitemap
 # INDEX pointing at /sitemap-seo-1.xml … -5.xml, so declaring it here would
 # still be one line.
-Sitemap: https://langmap.heuron.com/sitemap.xml
+Sitemap: https://langmaps.com/sitemap.xml

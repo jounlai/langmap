@@ -12,8 +12,8 @@
     <meta property="og:title" content="LangMap — Name Map: One Name Across the World">
     <meta property="og:description" content="John, Jean, Juan, Giovanni, Ivan — see how one name spread and changed across the world's languages, with origins, meanings and family trees.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://langmap.heuron.com/namemap.html">
-    <meta property="og:image" content="https://langmap.heuron.com/ogp-namemap.png">
+    <meta property="og:url" content="https://langmaps.com/namemap.html">
+    <meta property="og:image" content="https://langmaps.com/ogp-namemap.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="LangMap name map tracing John, Jean, Juan, Giovanni, Ivan, and related forms around the world">
@@ -23,8 +23,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LangMap — Name Map: One Name Across the World">
     <meta name="twitter:description" content="See how one given name spread and changed across the world's languages.">
-    <meta name="twitter:image" content="https://langmap.heuron.com/ogp-namemap.png">
-    <link rel="canonical" href="https://langmap.heuron.com/namemap.html">
+    <meta name="twitter:image" content="https://langmaps.com/ogp-namemap.png">
+    <link rel="canonical" href="https://langmaps.com/namemap.html">
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
     <link rel="manifest" href="/manifest.json">
@@ -40,16 +40,17 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Name Map: One Name Across the World's Languages",
-        "url": "https://langmap.heuron.com/namemap.html",
+        "url": "https://langmaps.com/namemap.html",
         "description": "Interactive world map of given names with origins, meanings, family trees, pronunciation and notable people.",
-        "isPartOf": {"@id": "https://langmap.heuron.com/#website"},
+        "isPartOf": {"@id": "https://langmaps.com/#website"},
         "inLanguage": ["en", "ja"]
     }
     </script>
     <script>
         // Production-only GA firing: hostname-gated so dev/local traffic
         // doesn't pollute analytics. Same pattern as the other pages.
-        if (location.hostname === 'langmap.heuron.com') {
+        if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {   // both hosts while the old one still 301s
             const s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
@@ -60,7 +61,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=132">
+    <link rel="stylesheet" href="styles.css?v=133">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -516,7 +517,7 @@
                 <a href="tree.html" class="header-nav-link" id="nav-tree-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg>Tree</a>
             </nav>
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
-            <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
+            <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
     </div>
     <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
@@ -1129,6 +1130,6 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=1"></script>
-    <script src="lang-picker.js?v=2"></script>
+    <script src="lang-picker.js?v=3"></script>
 </body>
 </html>

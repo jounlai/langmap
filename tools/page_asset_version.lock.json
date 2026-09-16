@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 80,
-    "hash": "437a02eb9d4114e7"
+    "version": 81,
+    "hash": "5e990ca17dac64af"
   },
   "data.js": {
     "version": 92,
@@ -20,8 +20,8 @@
     "hash": "a6782663f036dc44"
   },
   "lang-picker.js": {
-    "version": 2,
-    "hash": "59c80d2e11243e21"
+    "version": 3,
+    "hash": "174148bca06739b8"
   },
   "lang_names/en.js": {
     "version": 194,
@@ -32,8 +32,8 @@
     "hash": "f432bf4317c25936"
   },
   "my-languages.js": {
-    "version": 23,
-    "hash": "bd89bb4afdbd771e"
+    "version": 24,
+    "hash": "1c480d5fcb8ec9b9"
   },
   "namemap_data.js": {
     "version": 4,
@@ -72,8 +72,8 @@
     "hash": "24c807781aa6c6d0"
   },
   "styles.css": {
-    "version": 132,
-    "hash": "b8a27f995de7a64b"
+    "version": 133,
+    "hash": "bd4b3a8a48b4474d"
   },
   "word_labels.js": {
     "version": 60,
@@ -84,7 +84,7 @@
     "hash": "5ca4d57086283b20"
   },
   "wordmap_data.js": {
-    "version": 325,
-    "hash": "e5a4008e41e91c40"
+    "version": 326,
+    "hash": "da0c7b477ed42842"
   }
 }

@@ -259,7 +259,7 @@ function buildWordMapJSON(nameIndex) {
 
   return {
     generated: new Date().toISOString(),
-    site: 'https://langmap.heuron.com',
+    site: 'https://langmaps.com',
     words,
     langs,
   };
@@ -462,7 +462,7 @@ function buildHanMapJSON(nameIndex) {
 
   return {
     generated: new Date().toISOString(),
-    site: 'https://langmap.heuron.com',
+    site: 'https://langmaps.com',
     chars,
     categories: HAN_CATEGORIES,
     langs,
@@ -475,7 +475,7 @@ function buildHanMapJSON(nameIndex) {
 // `--check` reports whether data/*_seo.json still matches the JS sources, the
 // way the other build steps do. It exists because the SSR pages are served from
 // these files at request time, so forgetting the export is invisible locally —
-// the map shows the new data and only langmap.heuron.com stays behind. That is
+// the map shows the new data and only langmaps.com stays behind. That is
 // exactly what happened over 2026-08-24..26: a whole session of Word Map work
 // (n99 and 10 other concepts) never reached the site. The `generated` stamp is
 // ignored, or the file would read stale on every run.

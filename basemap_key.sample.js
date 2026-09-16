@@ -9,7 +9,7 @@
  * tiles, so the key is visible to every visitor in the network tab — keeping
  * it out of the repository keeps it off public GitHub, not out of the world.
  * The real control is CARTO's own domain restriction, if they offer one for
- * this key; ask them to limit it to langmap.heuron.com.
+ * this key; ask them to limit it to langmaps.com.
  *
  * If the file is missing the pages still work: CARTO_BASEMAP_KEY is undefined,
  * no ?key= is appended, and the only difference is the watermark. So a fresh

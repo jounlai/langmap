@@ -7,7 +7,7 @@ popups and article modals in JavaScript, which search engines don't index well;
 these PHP pages publish the same data as real, localized, crawlable text plus
 rich internal linking.
 
-**Live example:** `https://langmap.heuron.com/en/wordmap/ja`
+**Live example:** `https://langmaps.com/en/wordmap/ja`
 
 ---
 

@@ -12,8 +12,8 @@
     <meta property="og:title" content="LangMap — Word Map: 1,187 Languages with Pronunciation">
     <meta property="og:description" content="67 key words in 1,187 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view and a compare panel.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://langmap.heuron.com/wordmap.html">
-    <meta property="og:image" content="https://langmap.heuron.com/ogp-wordmap.png">
+    <meta property="og:url" content="https://langmaps.com/wordmap.html">
+    <meta property="og:image" content="https://langmaps.com/ogp-wordmap.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="LangMap word map showing the word tea across 1,187 languages with pronunciation">
@@ -25,9 +25,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LangMap — Word Map: 1,187 Languages with Pronunciation">
     <meta name="twitter:description" content="67 key words in 1,187 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view.">
-    <meta name="twitter:image" content="https://langmap.heuron.com/ogp-wordmap.png">
+    <meta name="twitter:image" content="https://langmaps.com/ogp-wordmap.png">
     <meta name="twitter:creator" content="@jounlai">
-    <link rel="canonical" href="https://langmap.heuron.com/wordmap.html">
+    <link rel="canonical" href="https://langmaps.com/wordmap.html">
     <link rel="icon" type="image/png" href="/langmap.png">
     <link rel="apple-touch-icon" href="/langmap.png">
     <link rel="manifest" href="/manifest.json">
@@ -43,9 +43,9 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "Word Map: 1,187 Languages with Pronunciation",
-        "url": "https://langmap.heuron.com/wordmap.html",
+        "url": "https://langmaps.com/wordmap.html",
         "description": "Interactive world map of 67 key words in 1,187 languages with IPA, broad transcription, and romanization.",
-        "isPartOf": {"@id": "https://langmap.heuron.com/#website"},
+        "isPartOf": {"@id": "https://langmaps.com/#website"},
         "inLanguage": ["en", "ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"]
     }
     </script>
@@ -54,7 +54,8 @@
         // Production-only GA firing: hostname-gated so dev/local/staging
         // traffic doesn't pollute the analytics property. Branches (develop
         // and main) stay identical — no per-branch divergence to maintain.
-        if (location.hostname === 'langmap.heuron.com') {
+        if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {   // both hosts while the old one still 301s
             const s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
@@ -65,7 +66,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=132">
+    <link rel="stylesheet" href="styles.css?v=133">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -2835,7 +2836,7 @@
                  The old .ui-lang-footer bottom pill is retired (was already
                  display:none; superseded by the header lang-picker). -->
             <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
-            <a class="header-url" href="https://langmap.heuron.com">langmap.heuron.com</a>
+            <a class="header-url" href="https://langmaps.com">langmaps.com</a>
         </div>
     </div>
 
@@ -3422,7 +3423,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=325"></script>
+    <script src="wordmap_data.js?v=326"></script>
     <script src="word_manifest.js?v=499"></script>
     <script src="word_labels.js?v=60"></script>
     <script>
@@ -3895,8 +3896,8 @@
         // caught at validation time. The dynamic wordmap_meta.js load
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
-            styles:   132,
-            data:      325,
+            styles:   133,
+            data:      326,
             metaI18n:  16,
             filter:    45,
             names:   194,
@@ -7809,10 +7810,11 @@
         // === Custom-goods (T-shirt) hand-off to Makoto Gadgets ================
         // Surfaced ONLY on the canonical production host — hidden on mirrors,
         // staging and localhost. Generic contract in docs/custom_goods_handoff.md.
-        const TSHIRT_HOST = 'langmap.heuron.com';
+        const TSHIRT_HOSTS = ['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com'];
         // TEMP: host gate disabled — shows the T-shirt UI on every host (for
         // testing on localhost/mirrors). Restore
-        // `return location.hostname === TSHIRT_HOST;` to limit it to production.
+        // `return TSHIRT_HOSTS.includes(location.hostname);` to limit it to
+        // production. The list carries the old host too, while it still 301s.
         function tshirtEnabled() { return true; }
         // Build the Makoto deep-link. opts: { mode:'single'|'compare', codes:[],
         // names:[], natives:[], formals:[], uiLang }. Single uses codes[0];
@@ -7833,6 +7835,11 @@
             // loop stays local. In production both go to the real hosts.
             const _isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
             const MK_BASE = _isLocal ? 'http://localhost:3001' : 'https://makoto-gadgets.com';
+            // DELIBERATELY still the OLD host, and not an oversight. Makoto
+            // Gadgets validates this exact prefix server-side
+            // (docs/makoto-goods-link.md §2), so moving it before they are
+            // told blanks every goods page. The old host keeps serving
+            // /lang_words/ for that reason — docs/domain-migration-runbook.md §0-3.
             const WORDS_DIR = (_isLocal ? location.origin : 'https://langmap.heuron.com') + '/lang_words/';
             const u = new URL(MK_BASE + '/' + mkLocale + '/goods/langmap');
             u.searchParams.set('src', 'langmap');
@@ -10831,7 +10838,7 @@
         }
         function curStreak() { const s = load(); return (s.streakDay === day() || s.streakDay === day() - 1) ? (s.streak || 0) : 0; }
         // ---- share text ----
-        const SHARE_URL = 'https://langmap.heuron.com/wordmap.html?play=langle';
+        const SHARE_URL = 'https://langmaps.com/wordmap.html?play=langle';
         // A fun linguistic tidbit — "In <language>, <word> is <form>" — never about
         // today's answer, so it teases the quiz without spoiling it.
         //
@@ -11369,10 +11376,10 @@
 
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=1"></script>
-    <script src="lang-picker.js?v=2"></script>
+    <script src="lang-picker.js?v=3"></script>
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=23"></script>
+    <script src="my-languages.js?v=24"></script>
 </body>
 </html>

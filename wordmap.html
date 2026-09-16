@@ -8232,6 +8232,22 @@
                     html += `<div style="margin:10px 0 -2px;padding:8px 10px;background:#fff8e1;border-left:3px solid #d4a017;border-radius:3px;font-size:11px;line-height:1.5;color:#5b4a18">${escapeHtml(wn)}</div>`;
                 }
             }
+            // The goods nudge, built once and shown twice: above the word
+            // table and again at the foot of the modal. Those are the two
+            // places a reader stops — the words are what goes on the shirt,
+            // and the foot is where they leave. ONE message for both: calling
+            // the builder twice would advance _tshirtMsgRot and put two
+            // different pitches in one panel, which reads as two ads rather
+            // than one offer.
+            let tshirtNudge = '';
+            if (tshirtEnabled()) {
+                const _msg = TSHIRT_MSGS[_tshirtMsgRot % TSHIRT_MSGS.length];
+                _tshirtMsgRot++;
+                const _pick = o => (o[uiLang] || o[uiLang.split('_')[0]] || o.en);
+                const _href = buildTshirtHref({ mode: 'single', codes: [code], names: [getNicknameOrName(code, lang)], natives: [lang.native || ''], formals: [displayName], uiLang });
+                tshirtNudge = tshirtNudgeHtml(_href, _pick(_msg.title), _pick(_msg.sub).replace('{lang}', displayName));
+            }
+            html += tshirtNudge;
             html += '<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px">';
             html += `<thead><tr style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;
             // Session 31: italic IPA for reconstructed/partly-understood/pedagogical/fragmentary
@@ -8415,17 +8431,9 @@
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#4a6cf7;text-decoration:none;font-weight:600">` +
                     `📄 デカ文字版ページ / Big-text page →</a></div>`;
             })();
-            // Low-key hand-off at the very bottom of the modal — a friendly
-            // "make a tee of this" nudge to Makoto Gadgets, not an ad. Prod host.
-            if (tshirtEnabled()) {
-                const msg = TSHIRT_MSGS[_tshirtMsgRot % TSHIRT_MSGS.length];
-                _tshirtMsgRot++;
-                const pick = o => (o[uiLang] || o[uiLang.split('_')[0]] || o.en);
-                const title = pick(msg.title);
-                const sub = pick(msg.sub).replace('{lang}', displayName);
-                const href = buildTshirtHref({ mode: 'single', codes: [code], names: [getNicknameOrName(code, lang)], natives: [lang.native || ''], formals: [displayName], uiLang });
-                html += tshirtNudgeHtml(href, title, sub);
-            }
+            // Same nudge again at the very bottom — built above, not rebuilt,
+            // so both carry the same message.
+            html += tshirtNudge;
             infoContent.innerHTML = html;
         }
 

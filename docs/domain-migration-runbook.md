@@ -219,20 +219,38 @@ Makoto 側が 301 を追う確認が取れるまでは、旧ドメインでも�
 
 ## 3. 見落としやすい副作用
 
-### 3-1. Service Worker — 旧オリジンに residue が残る
+### 3-1. Service Worker — 301 を入れただけでは旧オリジンから出られない
 
-`sw.js` が旧オリジンで登録済みのブラウザは、**301 より先に SW のキャッシュが応答する**ことがある。
-旧ドメインに、自分を登録解除するだけの SW を置いてから 301 に切り替えるのが安全:
+**2026-09-16、実際に踏んだ。** 301 は curl では完璧に効いているのに、ブラウザは旧サイトを
+表示し続ける。原因は2つあり、両方ともサーバ側で手当てが要る。
 
-```js
-self.addEventListener('install', () => self.skipWaiting());
-self.addEventListener('activate', async () => {
-  await caches.keys().then(ks => Promise.all(ks.map(k => caches.delete(k))));
-  await self.registration.unregister();
-  const cs = await self.clients.matchAll({ type: 'window' });
-  cs.forEach(c => c.navigate(c.url));
-});
+**(a) SW の network-first が、リダイレクトで cache-fallback に化ける。**
+`sw.js` はナビゲーションを `fetch()` → 失敗したら `caches.match()` の順で処理する。
+旧オリジンの `fetch()` は 301 でクロスオリジンになり、**CORS ヘッダがないので reject** する。
+結果、catch 節に落ちて**旧オリジンのキャッシュが返る**。利用者から見れば「転送が効かない」。
+
+**(b) `/sw.js` を 301 すると、その SW は二度と消せない。**
+仕様上、Service Worker スクリプトの取得中にリダイレクトが起きると**更新が失敗**する。
+更新できない＝置き換えも削除もできない。そのブラウザは**永久に旧サイトに固定される**。
+
+したがって、旧 vhost では **`/sw.js` を 301 から除外して実体で返す**こと。中身は
+`deploy/old-origin-sw.js`（このリポジトリにある。自分を unregister し、キャッシュを消し、
+クライアントを同一オリジンで再読込 → 今度は SW がいないので 301 が効く）。
+
+```nginx
+location = /sw.js {
+    root /srv/www/langmap.heuron.com;
+    try_files /deploy/old-origin-sw.js =404;
+    add_header Cache-Control "no-cache, must-revalidate" always;
+    expires off;
+}
 ```
+
+**301 を出している間はこのファイルを置き続ける。** 更新チェックは1端末あたり最大24時間に
+1回、数か月ぶりに来る利用者もいる。
+
+利用者自身の端末で今すぐ直すには: DevTools → Application → Service Workers → Unregister、
+または Clear site data。シークレットウィンドウなら最初から影響を受けない。
 
 ### 3-2. localStorage / cookie は**オリジン単位なので全部リセットされる**
 

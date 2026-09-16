@@ -264,6 +264,15 @@ line('meta fields with no reader', num(s, /meta fields with no reader: (\d+)/));
 s = run('page_script_syntax_check.js --check');
 line('inline page scripts parse', num(s, /inline script blocks that do not parse: (\d+)/));
 
+// …and the layer under that: a call to a function that does not exist parses
+// perfectly. hanmapStripChineseWrapper() was deleted on 2026-09-14 with the
+// table it sat beside; its one call site stayed, getDisplayName() threw
+// ReferenceError on the first Sinitic code of every render, and an empty
+// catch around updateMarkers() ate the throw. The Han Map served a blank map
+// for two days with a clean console and every guard green.
+s = run('inline_call_target_check.js');
+line('page calls a function that exists', num(s, /inline call targets — problems: (\d+)/));
+
 // One notation for the Middle Korean 방점. Three word cells wrote it as the
 // combining U+302E after the syllable where 16 others — and all 183 ko_mid
 // entries in hanmap_data.js — use the '·' / ':' prefix. That is not cosmetic:

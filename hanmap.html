@@ -5649,8 +5649,13 @@
         // user toggles chips, re-render markers + update URL hash so the
         // filter state survives reload / sharing.
         window.addEventListener('langmap:filterchange', () => {
-            try { updateMarkers(select.value); } catch (_) {}
-            try { updateHash(); } catch (_) {}
+            // NOT an empty catch. On 2026-09-14 a deleted helper left a
+            // ReferenceError inside updateMarkers(); the empty catch here ate
+            // it and the Han Map came up blank for two days with a clean
+            // console. Swallow the exception — a filter toggle must not break
+            // the page — but say so.
+            try { updateMarkers(select.value); } catch (e) { console.error('updateMarkers failed:', e); }
+            try { updateHash(); } catch (e) { console.error('updateHash failed:', e); }
         });
 
         // ============================================================
@@ -7190,6 +7195,22 @@
 
         // Codes whose name should drop the "Chinese (...)" wrapper — in
         // Hanmap the parent is already implicit, so e.g. "中国語(贛語)" → "贛語".
+        // Sinitic labels drop the "Chinese (…)" wrapper: LANG_NAMES gives
+        // "Chinese (Hakka)" / 「中国語（客家語）」 and the Han Map, being all
+        // Chinese, only needs the part in brackets.
+        //
+        // RESTORED 2026-09-16. Deleting HAN_SHORT_NAMES on 2026-09-14 took
+        // this four-line helper with it and left its only call site standing,
+        // so getDisplayName() threw ReferenceError on the first Sinitic code
+        // of every render. The throw was swallowed by the empty catch around
+        // updateMarkers() in the filterchange listener, and the map came up
+        // blank with nothing in the console. Two days in production.
+        function hanmapStripChineseWrapper(name) {
+            if (!name) return name;
+            const m = /^[^()（）]+[\s]*[(（]([^()（）]+)[)）]\s*$/.exec(name);
+            return m ? m[1].trim() : name;
+        }
+
         function hanmapIsSinitic(code) {
             return code === 'zh' || code.startsWith('zh_')
                 || code === 'yue' || code.startsWith('yue_')

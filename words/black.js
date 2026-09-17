@@ -343,7 +343,7 @@ WORDS.black = {
     ban: ["selem", "sələm"],
     ace: ["itam", "itam"],
     bug: ["lotong", "lotoŋ"],
-    mak: ["le'leng", "leʔleŋ"],
+    mak: ["leʼleng", "leʔleŋ"],
     mad: ["celleng", "tʃəllɛŋ"],
     jvn: ["ireng", "irəŋ"],
     bjn: ["hirang", "hiraŋ"],
@@ -590,7 +590,7 @@ WORDS.black = {
     iu: ["ᕿᕐᓂᖅᑐᖅ", "qiɾniqtuq"],
     chr: ["ᎬᎾᎨ", "ɡʌ̃naɡe"],
     oj: ["makadewaa", "makadewaː"],
-    mic: ["maqtewe’k", "maxteweːɡ"],
+    mic: ["maqteweʼk", "maxteweːɡ"],
 
     // --- Turkic — one word from the Orkhon runes to Qashqai -----------
     otk: ["𐰴𐰺𐰀", "qara"],

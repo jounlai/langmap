@@ -588,7 +588,7 @@ WORDS.honey = {
     // --- The Americas -------------------------------------------------------
     guc: ["mapa", "mapa"],
     car: ["wano", "wano"],
-    ote: ["t'afi", "tʼafi"],
+    ote: ["tʼafi", "tʼafi"],
 
     // --- Africa — Bantu *-jókì again, and Manding li -----------------------
     rn: ["ubuki", "ubuki"],
@@ -620,7 +620,7 @@ WORDS.honey = {
     fra_jer: ["myi", "mji"],
     pnb: ["ماکھی", "maːkʰiː"],
     qu: ["miskʼi", "miskʼi"],
-    qwc: ["misk'i", "miskʼi"],
+    qwc: ["miskʼi", "miskʼi"],
     rar: ["meri", "meri"],
     rhg: ["moudu", "moudu"],
     cjs: ["пал", "pal"],

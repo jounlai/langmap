@@ -462,7 +462,7 @@ WORDS.bird = {
     anp: ["चिरई", "tʃirəi"],
     awa: ["चिरई", "tʃirai"],
     bra: ["पंछी", "pəntʃʰi"],
-    mad: ["mano'", "manoʔ"],
+    mad: ["manoʼ", "manoʔ"],
     hil: ["pispis", "pisˈpis"],
     cbk: ["pajaro", "paxaɾo"],
     bal: ["مرغ", "murɡ"],
@@ -592,7 +592,7 @@ WORDS.bird = {
     cho: ["hushi", "hoʃiʔ"],
     esu: ["tengmiaq", "təŋmiaq"],
     dak: ["zitkána", "zitˈkana"],
-    chy: ["vé'kése", "veʔkese"],
+    chy: ["véʼkése", "veʔkese"],
     lmo: ["usèll", "yzɛl"],
     pms: ["osel", "uˈzɛl"],
     mwl: ["páixaro", "ˈpajʃaɾu"],
@@ -849,12 +849,12 @@ WORDS.bird = {
     mam: ["chʼit", "tʃʼit"],
 
     // --- Americas
-    cic: ["foshi'", "foʃiʔ"],
+    cic: ["foshiʼ", "foʃiʔ"],
     mus: ["fuswv", "foswa"],
     osa: ["wažį́ka", "waʒĩ́ka"],
     pot: ["bnéshi", "bneʃi"],
     com: ["huutsuu", "huːtsuː"],
-    crn: ["pina'a", "ˈpinaʔa"],
+    crn: ["pinaʼa", "ˈpinaʔa"],
     tar: ["chulugí", "tʃuluɡi"],
     wba: ["domu", "domu"],
 

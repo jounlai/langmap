@@ -714,14 +714,14 @@ WORDS.wheel = {
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
     gez: ["መንኰራኵር", "mankʷaraːkʷər"],
     tig: ["ዕንክሎሎ", "ʕənkəlolo"],
-    bla: ["o'takáínaka'si", "oʔtakáínakaʔsi"],
+    bla: ["oʼtakáínakaʼsi", "oʔtakáínakaʔsi"],
     cro: ["baaiihuli", "baːiːhuli"],
     win: ["hogís", "hoˈɡis"],
     cay: ["ęˀníhsga:ˀ", "ẽʔnihsɡaːʔ"],
     cr: ["ᐅᑎᐦᑎᐱᐸᔨᐤ", "otihtipipajiw"],
     oj: ["detibised", "detibised"],
     pqm: ["wahkaliqs", "wahkalikʷs"],
-    mic: ["kiwto'qiaq", "kiwdoːɡiax"],
+    mic: ["kiwtoʼqiaq", "kiwdoːɡiax"],
     nv: ["bąąs", "pɑ̃ːs"],
     chr: ["ᎦᏆᏘᏗ", "ɡakʷatdi"],
     iu: ["ᐊᒃᓴᓗᐊᖅ", "aksaluaq"],
@@ -788,7 +788,7 @@ WORDS.wheel = {
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
-    dtp: ["ruda'", "rudaʔ"],
+    dtp: ["rudaʼ", "rudaʔ"],
     akb: ["roda", "roda"],
     nij: ["roda", "roda"],
     tkl: ["uili", "uili"],
@@ -805,7 +805,7 @@ WORDS.wheel = {
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
     hop: ["ngöla", "ŋøla"],
-    tus: ["uka'neh", "ukaʔneh"],
+    tus: ["ukaʼneh", "ukaʔneh"],
 
   },
 };

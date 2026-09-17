@@ -363,7 +363,7 @@ WORDS.book = {
     lo: ["ປຶ້ມ", "pɯm˥˩"],     // Written ˥˩ to match this row's own spelling of that falling tone (ເບື້ອ bɨa˥˩, ເລືອດ lɯat˥˩).
     mtq: ["khách", "kʰac"],    // Mường Bi, cognate with Vietnamese sách. The source writes a tone digit; this row marks no tone anywhere (45 of 46 cells).
     // Island Southeast Asia and the Philippines.
-    mak: ["bo'bo'", "ˈboʔboʔ"],  // Makassarese buku is 'bone', not 'book' — the analogy with id/ms would be a defect here. lontara' was declined: Matthes 1885 glosses it "een lontarblad; v. d. een geschrift, een boek, een brief", the leaf-to-writing line this concept does not cross.
+    mak: ["boʼboʼ", "ˈboʔboʔ"],  // Makassarese buku is 'bone', not 'book' — the analogy with id/ms would be a defect here. lontara' was declined: Matthes 1885 glosses it "een lontarblad; v. d. een geschrift, een boek, een brief", the leaf-to-writing line this concept does not cross.
     mdh: ["libru", "ˈlibɾu"],  // The Wiktionary lemma, with kitab listed as its synonym. A real two-way choice: in the closest relative, Maranao, cognate kitab has narrowed to 'law, rule' while the Spanish loan is the book word.
     mrw: ["ribro", "ribro"],   // McKaughan & Macaraya, A Maranao Dictionary (1967), whose example sentences use it throughout ("leke na ngka so ribro" — close the book). Maranao kitab means 'law, rule'.
     pag: ["libro", "ˈlibɾo"],

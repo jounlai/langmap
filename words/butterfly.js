@@ -210,7 +210,7 @@ WORDS.butterfly = {
     niv: ["тап", "tæp"],
     ket: ["ӄумлей", "qʊmʎɛj"],
     ykg: ["самналдьэгэй", "samnaldʲeɡej"],
-    ckt: ["к’опалготкочьын", "qopaɬɣotkotɕʔən"],
+    ckt: ["кʼопалготкочьын", "qopaɬɣotkotɕʔən"],
     itl: ["вэвэчҳ", "βeβetʃχ"],  // Reduplicated ve-ve-.
     ess: ["яӄылъыӈытаӄ", "jaqɨtɬɨŋɡɨtaq"],
     ce: ["полла", "polːə"],
@@ -304,7 +304,7 @@ WORDS.butterfly = {
     kek: ["peepem", "peːpem"],  // Reduplicated pee-pem. WOLD cites Sam Juárez et al. (1997).
     tzo: ["pepen", "pepen"],  // Reduplicated pe-pen, like Qʼeqchiʼ peepem. WOLD's entry is the Zinacantán variety.
     car: ["palanpalan", "palanpalan"],  // Fully reduplicated palan-palan.
-    jup: ["b’eb’ěp", "b’eb’ěp"],  // WOLD glosses the formation simply as 'Reduplication'.
+    jup: ["bʼebʼěp", "b’eb’ěp"],  // WOLD glosses the formation simply as 'Reduplication'.
     ote: ["tu̲xu̲mu", "tuxumu"],
     crs: ["papiyon", "papijɔ̃"],  // From French papillon.
     dsb: ["mjatel", "ˈmʲatɛl"],  // The Slavic *motylь root, as in Polish motyl and Czech motýl.
@@ -358,7 +358,7 @@ WORDS.butterfly = {
     cr: ["ᑲᒫᒪᐠ", "kamaːmak"],  // the diminutive kamâmakos ᑲᒫᒪᑯᐢ is 'small butterfly, moth', so this word is the butterfly proper
     oj: ["memengwaa", "memeŋɡwaː"],
     chr: ["ᎧᎹᎹ", "kamama"],  // the same word also means 'elephant'; final syllable is repeated (ka-ma-ma)
-    moh: ["tsi'ktsinén:nawen", "tsiʔktsineːnawen"],  // its first element tsi'k- is shared with tsi'ks 'fly' and tsi'kskó:wa 'horse fly' in the same list; IPA is my reading of the orthography, not from the source
+    moh: ["tsiʼktsinén:nawen", "tsiʔktsineːnawen"],  // its first element tsi'k- is shared with tsi'ks 'fly' and tsi'kskó:wa 'horse fly' in the same list; IPA is my reading of the orthography, not from the source
     yua: ["péepen", "peːpen"],  // reduplication, from proto-Mayan *pehpen (Kaufman & Justeson 2003)
     quc: ["pepe", "pepe"],  // reduplication, from proto-Mayan *pehpen; the ALMG vocabulary lists penpen as a second reduplicated variant
     cak: ["palamax", "palamaʃ"],  // Kaqchikel has dropped the pan-Mayan *pehpen word (Kaufman's PMED still records pepe for the Itzapa variety); variants malax / amalax

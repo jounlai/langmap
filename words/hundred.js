@@ -561,7 +561,7 @@ WORDS.hundred = {
     min: ["saratuih", "saratuih"],
     sda: ["saratu", "saratu"],
     mdr: ["sangatus", "saŋatus"],
-    bug: ["saratu'", "saraˈtuʔ"],
+    bug: ["saratuʼ", "saraˈtuʔ"],
     mad: ["saratos", "saratos"],
     sas: ["satus", "satus"],
     nia: ["ötu", "øtu"],
@@ -599,7 +599,7 @@ WORDS.hundred = {
     rap: ["rau", "rau"],   // native rau, beside the English loan hanere
     ty: ["hānere", "haːnere"],   // from English hundred; the older native rau survives beside it
     pmt: ["hānere", "haːnere"],   // from English hundred
-    rar: ["'ānere", "ʔaːnere"],   // from English hundred
+    rar: ["ʻānere", "ʔaːnere"],   // from English hundred
     ch: ["sientu", "sjentu"],   // Spanish loan, like this row's own dos and tres
     cab: ["san", "saŋ"],   // from French cent, like Haitian san
     // --- Africa — Bantu, Nilotic, Cushitic, Mande, Kwa ---------------------
@@ -684,7 +684,7 @@ WORDS.hundred = {
     quc: ["jokʼal", "xokʼal"],   // five twenties, on the Mayan vigesimal count
     cak: ["wokʼal", "wokʼal"],   // five twenties
     kjb: ["okʼal", "okʼal"],   // five twenties
-    tzh: ["jo' winik", "hoʔ winik"],   // five twenties — winik is the score, literally man
+    tzh: ["joʼ winik", "hoʔ winik"],   // five twenties — winik is the score, literally man
     tsz: ["yumu ekuatsi", "jumu ekwatsi"],   // five twenties — yumu is this row's own five
     tar: ["siénto", "ˈsjento"],   // Spanish loan
     emp: ["cien", "sjen"],   // Spanish loan

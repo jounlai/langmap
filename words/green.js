@@ -165,7 +165,7 @@ WORDS.green = {
     so: ["cagaar", "ʕaɡaːr"],
     mg: ["maitso", "maˈitsu"],
     rw: ["icyatsi", "iˈtʃaːtsi"],
-    qu: ["q'omer", "qʼomeɾ"],
+    qu: ["qʼomer", "qʼomeɾ"],
     gn: ["hovyũ", "hoʋɨˈʔũ"],
     // South America, sourced from CLDF datasets and from Bible translations that
     // pin the sense in context. The first three are grue.

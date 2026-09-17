@@ -282,7 +282,7 @@ WORDS.sea = {
     ln: ["mbu", "ᵐbu"],
     lo: ["ທະເລ", "tʰa˧leː˧˥"],
     lzz: ["ზუღა", "zuɣa"],
-    mad: ["tase'", "taseʔ"],
+    mad: ["taseʼ", "taseʔ"],
     mag: ["समुन्दर", "səmundər"],
     mak: ["tamparang", "tamˈparaŋ"],
     mdf: ["моря", "ˈmorʲa"],

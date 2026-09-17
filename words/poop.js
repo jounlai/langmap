@@ -333,7 +333,7 @@ WORDS.poop = {
     kl: ["anaq", "anaq"],
     ty: ["tūtae", "tuːtae"],
     niu: ["tae", "taʔe"],
-    ch: ["tåke'", "ˈtɑkɛʔ"],
+    ch: ["tåkeʼ", "ˈtɑkɛʔ"],
     bi: ["kaka", "kaka"],
     pjt: ["kuna", "kuna"],
     wbp: ["kuna", "kuna"],

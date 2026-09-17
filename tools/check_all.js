@@ -514,6 +514,12 @@ line('stress mark on monosyllables', num(s, /violations: (\d+)/));
 s = run('ipa_ascii_g_check.js --check');
 line('ASCII g in IPA', num(s, /violations: (\d+)/));
 
+// Same shape, in the surface: the glottal stop had four codepoints. U+02BC is
+// a Letter, so word selection and search treat the word as one word; ASCII
+// U+0027 is punctuation and breaks both. 97 mixed rows -> 4.
+s = run('apostrophe_consistency_check.js --check');
+line('one row, one apostrophe', num(s, /violations: (\d+)/));
+
 // namemap_i18n/<ui>.js is the per-UI split of namemap_content_i18n.js, which
 // namemap.html no longer loads. Edit a country name or a background paragraph
 // in the source without rebuilding and the page keeps showing the old text.

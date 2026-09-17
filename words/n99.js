@@ -573,7 +573,7 @@ WORDS.n99 = {
     zh:    ["九十九", "tɕiou̯˨˩˦ ʂʐ̩˧˥ tɕiou̯˨˩˦"],
     vi:    ["chín mươi chín", "tɕin˧˥ mɨəj˧ tɕin˧˥"],
     ar:    ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
-    tl:    ["siyamnapu't siyam", "ʃamnaˈput ʃam"],
+    tl:    ["siyamnapuʼt siyam", "ʃamnaˈput ʃam"],
     ru:    ["девяносто девять", "dʲɪvʲɪˈnostə ˈdʲevʲɪtʲ"],
     pl:    ["dziewięćdziesiąt dziewięć", "dʑɛvʲɛɲˈdʑɛɕɔnt ˈdʑɛvʲɛɲtɕ"],
     tr:    ["doksan dokuz", "dokˈsan doˈkuz"],

@@ -358,7 +358,7 @@ WORDS.person = {
     lua: ["muntu", "muntu"],
     luo: ["dhano", "ðano"],
     lus: ["mi", "mi"],
-    lzz: ["k'oçi", "kʼotʃi"],
+    lzz: ["kʼoçi", "kʼotʃi"],
     mad: ["oreng", "ɔrɛŋ"],
     mak: ["tau", "tau"],
     mam: ["xjaal", "ʃxaːl"],

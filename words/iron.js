@@ -473,7 +473,7 @@ WORDS.iron = {
 
     // --- The Americas — a word that arrived with the ships ----------------
     chr: ["ᏔᎷᎩᏍᎩ", "taluɡisɡi"],
-    chy: ["ma'aata", "maʔaːta"],
+    chy: ["maʼaata", "maʔaːta"],
     cr: ["ᐱᐚᐰᐢᐠ", "piwaːpeːsk"],
     oj: ["biiwaabik", "biːˈwaːbik"],
     nv: ["béésh", "péːʃ"],
@@ -489,7 +489,7 @@ WORDS.iron = {
 
     // --- Austronesian — *bəsi west, unrelated words out in the Pacific ----
     mad: ["bessè", "bəsːɛ"],
-    nia: ["si'öli", "siˈʔøli"],
+    nia: ["siʼöli", "siˈʔøli"],
     ace: ["beusoe", "bɯˈsɔə"],
     bts: ["bosi", "bosi"],
     akb: ["bosi", "bosi"],
@@ -796,7 +796,7 @@ WORDS.iron = {
     // nothing: Amis marad, Atayal baliq, Paiwan vatjuljayan, Truku xiluy,
     // Rukai adreme, Kavalan and Thao balis, Puyuma batulrayaw.
     bik: ["batbat", "ˈbatbat"],
-    tsg: ["basi'", "basiʔ"],
+    tsg: ["basiꞌ", "basiʔ"],
     pam: ["bakal", "ˈbakal"],
     gor: ["wuwate", "wuˈwate"],
     h_tagalog: ["ᜊᜃᜎ᜔", "ˈbakal"],

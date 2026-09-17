@@ -144,7 +144,8 @@ const MIXED_OK = {
   luz: "Southern Luri: 5 Arabic among 41 Latin.",
   qxq: "Qashqai: 6 Arabic among 45 Latin.",
   mn_cn: "Inner Mongolian: 1 Cyrillic among 54 Mongolian script.",
-  yue: "Cantonese: 1 Latin among 66 Han — the atsign cell.",
+  yue: "Cantonese: 2 Latin among 66 Han — atsign (at) and the Wi-Fi loan, both written in Latin in Cantonese text.",
+  zh: "Mandarin: 1 Latin among 85 Han — the Wi-Fi loan, written in Latin in Chinese text (read wāi-fài).",
 };
 
 // Two tiers, one defect. A minority script in a row is either a stray cell

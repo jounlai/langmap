@@ -7,9 +7,10 @@
  * "wai-fai" (kept by the early borrowers and by scripts that spell the
  * diphthongs out), and a "wee-fee" reading, where a language just voices the
  * letters w-i-f-i by its own rules. Spanish splits down the middle — wifi in
- * Spain, wái-fái across Latin America. Plotted where a form is sourced or the
- * reading follows the language's regular letter values; Mandarin/Cantonese are
- * left out, since there Wi-Fi is said as English letters, not a toned word.
+ * Spain, wái-fái across Latin America. Sinitic makes a third pattern: the
+ * letters keep English-ish diphthongs but pick up citation tones — Mandarin
+ * wāi-fài (high, then falling), Cantonese waai¹ faai¹. Plotted where a form is
+ * sourced or the reading follows the language's regular letter values.
  */
 WORDS.wifi = {
   partial: true,
@@ -81,6 +82,8 @@ WORDS.wifi = {
     uk: ["вайфай", "ʋɐjˈfɑj"],
     ar: ["واي فاي", "waːjfaːj"],
     he: ["ואי-פיי", "vajfaj"],
+    zh: ["Wi-Fi", "waɪ̯˥ faɪ̯˥˩"],   // Mandarin wāi-fài (Wiktionary zh-pron m=wāifài, /waɪ̯⁵⁵ faɪ̯⁵¹/)
+    yue: ["Wi-Fi", "waːi˥ faːi˥"],   // Cantonese waai1 faai1 (Wiktionary zh-pron c=waai1 faai1)
 
     // "wee-fee" — w-i-f-i read by the language's own letter values.
     fr: ["wifi", "wifi"],          // Wiktionary /wi.fi/

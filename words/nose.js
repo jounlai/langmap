@@ -690,7 +690,7 @@ WORDS.nose = {
     zh_km: ["鼻子", "pi˧˩ tsɨ"],
     zh_xa: ["鼻子", "pi˨˦ tsɨ"],
     zh_kf: ["鼻子", "pi˦˨ tsɨ"],
-    dng: ["бизы", "pi tsɨ"],
+    dng: ["бизы", "pi˨˦tsɨ"],
     hsn: ["鼻子", "pi˩˧ tsɿ"],
     cjy: ["鼻子", "piəʔ˥˦ tsəʔ"],
     // Wu builds it with 頭, and reads 鼻 in the 陽入 class the *-t coda left
@@ -901,7 +901,7 @@ WORDS.nose = {
     srh: ["nodz", "nodz"],
     rbb: ["kaduŋmuh", "kaduŋmuh"],
     blr: ["mɨh33", "mɨh˧˧"],
-    tyz: ["đang", "ʔdaŋ˧˧"],
+    tyz: ["đăng", "ɗaŋ˧˧"],
     pll: ["kɔŋmuh", "kɔŋmuh"],
     // --- Pama-Nyungan — mulya across the Western Desert, ŋurru in Arnhem
     wbp: ["mulyu", "muʎu"],

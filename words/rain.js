@@ -121,7 +121,7 @@ WORDS.rain = {
     my: ["မိုး", "mó"],
     kac: ["marang", "maˈraŋ"],
     bo: ["ཆར་པ", "tɕʰɑrpa"],
-    dz: ["ཆརཔ", "tɕʰɑrp"],
+    dz: ["ཆརཔ", "tɕʰarp"],
     xct: ["ཆར་པ", "tɕʰɑrpa"],
     xct_litpr: ["ཆར་པ", "tɕʰɑrpa"],
     hi: ["बारिश", "ˈbaːrɪʃ"],

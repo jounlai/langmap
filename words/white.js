@@ -109,7 +109,7 @@ WORDS.white = {
     afb: ["أبيض", "ʔabjadˤ"],
     acw: ["أبيض", "ʔabjadˤ"],
     swb: ["ndjeu", "ndʒeu"],
-    adx: ["དཀར་པོ", "karpo"],
+    adx: ["དཀར་པོ", "hkaɾo"],
     qxs: ["pʰʐi", "pʰʐi"],
     duu: ["mɔŋ", "mɔŋ"],
     jya: ["kəpram", "kəpram"],

@@ -646,7 +646,7 @@ WORDS.salt = {
     lis: ["tsha-bo", "tsʰɑ˧˩bo˧˧"],
     nxq: ["ce", "tsʰe˧"],
     tji: ["lapu", "la˧˥pu˥˥"],
-    qxs: ["tshɿ", "tsʰɿ"],
+    qxs: ["tsʰɿ", "tsʰɿ"],
     ers: ["tshɿ", "tsʰɿ"],
     cng: ["tshə", "tsʰə"],
     duu: ["svla", "sɯlaʔ"],

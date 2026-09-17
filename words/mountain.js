@@ -218,7 +218,7 @@ WORDS.mountain = {
     cv: ["ту", "tu"],
     dag: ["zoli", "zoli"],
     dar: ["дубура", "dubura"],
-    dng: ["шан", "ʂan"],
+    dng: ["сан", "sæ̃˨˦"],
     dv: ["ފަރުބަދަ", "faɾubadə"],
     dyu: ["kulu", "kulu"],
     dz: ["རི", "ri"],

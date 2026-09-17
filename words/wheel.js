@@ -650,7 +650,7 @@ WORDS.wheel = {
     srb: ["sakkaɖin", "sakkaɖin"],
     sat: ["ᱪᱚᱠ", "tʃɔk"],
     vi_c: ["bánh xe", "ɓajŋ˩˧ sɛ˥"],
-    tyz: ["bảnh", "ɓajŋ˨˩˧"],
+    tyz: ["bảnh", "ɓaŋ˨˩˧"],
     blt: ["ꞌcuống", "kuəŋ"],
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output

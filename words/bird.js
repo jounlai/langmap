@@ -437,7 +437,7 @@ WORDS.bird = {
     p_dra: ["*puḷ", "puɭ"],
     paus: ["*manuk", "manuk"],
     zh_song: ["鳥", "teu"],
-    zh_wenyan_edu: ["鳥", "niːu˨˧"],
+    zh_wenyan_edu: ["鳥", "niːu˩˧"],
     zh_han: ["鳥", "teuʔ"],
     zh_tang: ["鳥", "teu"],
     ja_edo: ["鳥", "toɾi"],

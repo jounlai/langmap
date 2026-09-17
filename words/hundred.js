@@ -748,7 +748,7 @@ WORDS.hundred = {
     sgw: ["በቅር", "bəkʼɨr"],
     bo: ["བརྒྱ", "ca˩˧"],
     lbj: ["བརྒྱ", "rɡʲa"],
-    dz: ["བརྒྱ", "dʐa"],
+    dz: ["བརྒྱ", "dʑa"],
     khg: ["བརྒྱ", "dʑa˥˧"],
     sip: ["བརྒྱ", "ɡʲɛ"],
     ce: ["бӏе", "bæː"],
@@ -770,7 +770,7 @@ WORDS.hundred = {
     sel: ["тоон", "toːn"],
     chr: ["ᏍᎪᎯᏥᏆ", "sɡohitsɡwa"],   // ten-something: ᏍᎪᎯ is this row's own ten
     ain: ["アシㇰネ ホㇳネ", "aʃikne hotne"],   // five twenties — hotne is twenty, ashikne this row's own five
-    blk: ["ရာ", "ja"],
+    blk: ["ရျာ᪻", "rja˧˧"],
     // --- Sinitic — 百 is 陰入; each tone is that row's own, read off its 骨 ----
     zh_tj: ["百", "pai˩˧"],
     zh_jn: ["百", "pei˨˩˧"],

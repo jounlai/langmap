@@ -1199,7 +1199,7 @@ WORDS.bear = {
     rki: ["ဝက်ဝံ", "wɛˀwʊ̀ɴ"],
     atb: ["wàm", "vam˥˩"],
     kac: ["tsap", "tsap˥˥"],
-    ers: ["xaʴ", "xaʴ˥˥"],
+    ers: ["xaʴ", "xa˞́"],
     cng: ["ti", "ti"],
     qxs: ["ti", "ti"],
     ii: ["ꊈ", "ɣo˧˧"],

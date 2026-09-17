@@ -98,7 +98,7 @@ WORDS.five = {
     afb: ["خمسة", "xamsa"],
     acw: ["خمسة", "xamsa"],
     swb: ["tsano", "tsano"],
-    adx: ["ལྔ", "ŋa"],
+    adx: ["ལྔ", "ɦŋa"],
     slr: ["beş", "beʃ"],
     ybe: ["pes", "pes"],
     yuy: ["tawun", "tawuŋ"],
@@ -1106,7 +1106,7 @@ WORDS.five = {
     // bare stem because that row's one/two/three are bare too (ᤌᤡᤰ, ᤏᤧᤳᤇᤡ, ᤛᤢᤶ),
     // not the -si counting forms.
     lis: ["ngua", "ŋua"],
-    blk: ["ငါး", "ŋa"],
+    blk: ["ငတ်᪻", "ŋat˦˥"],
     tsj: ["nga", "ŋa"],
     lif: ["ᤅ", "ŋa"],
     mhy: ["dime", "dime"],

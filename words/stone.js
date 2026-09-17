@@ -84,7 +84,7 @@ WORDS.stone = {
     abv: ["حجر", "ħadʒar"],
     afb: ["حجر", "ˈħadʒar"],
     acw: ["حجر", "ħadʒar"],
-    adx: ["རྡོ", "rdo"],
+    adx: ["རྡོ", "ɦdo"],
     cjs: ["таш", "taʃ"],
     dlg: ["таас", "taːs"],
     bfq: ["கல்லு", "kallu"],

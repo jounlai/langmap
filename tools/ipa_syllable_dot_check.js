@@ -18,6 +18,12 @@
  * `*[r.ŋ]a` 魚 — where the dot marks a loosely attached preinitial consonant
  * and removing it would change the reconstruction.
  *
+ * ONE exception by list, added 2026-09-17: `pyx` (Pyu). Miyake writes the Pyu
+ * preinitial with exactly the same dot — `r.miŋ` 'name', `n.ho(m)H` 'three',
+ * `t.du(j)` 'water' — and the rule above does not reach it because the Pyu
+ * cells are cited from an inscriptional corpus and carry no `*`. It is the
+ * same notation for the same thing, so it gets the same exemption.
+ *
  * Spaces are a different question and are left alone: `yue` moon is
  * `jyːt˨ kʷɔːŋ˥`, two words, and that is deliberate.
  *
@@ -47,7 +53,9 @@ for (const id of Object.keys(W)) {
   for (const [code, e] of Object.entries(d)) {
     const ipa = Array.isArray(e) ? e[1] : (e && e.ipa);
     if (typeof ipa !== 'string' || !DOT.test(ipa)) continue;
-    if (ipa.includes('*')) continue;          // reconstruction notation — see header
+    if (ipa.includes('*')) continue;
+    // Pyu preinitials, same notation, no asterisk to key off. See the header.
+    if (code === 'pyx') continue;          // reconstruction notation — see header
     hits.push({ id, code, ipa });
   }
 }

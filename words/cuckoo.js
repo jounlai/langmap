@@ -379,7 +379,7 @@ WORDS.cuckoo = {
     zh_jh: ["布谷鸟", "pu˥˥ kuʔ˦ niau˦˨"],
     zh_tj: ["喀咕", "kʰa˨˩ ku˨˩"],
     zh_lz: ["布谷鸟", "pu˩˧ ku˩˧ niau˦˦˨"],
-    dng: ["җунгўчўр", "tʂuŋ˦ku˨˦tʂʰuɻ˨˦"],
+    dng: ["җунгучур", "tʂuŋ˦ku˨˦tʂʰuɻ˨˦"],
     hsb: ["kokula", "ˈkɔkula"],
     csb: ["kùkówka", "kuˈkovka"],
     rue: ["зозуля", "zoˈzulʲa"],

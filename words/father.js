@@ -142,7 +142,7 @@ WORDS.father = {
       dlg: ["ага", "aʁa"],
       kdt: ["pə", "pə"],
       blk: ["အဖ", "ʔə pʰə"],
-      njo: ["apa", "ʌpʰʌ"],
+      njo: ["apa", "ʌpʌ"],
       srb: ["aba", "aba"],
       kjg: ["ʔaaʔ", "ʔaːʔ"],
       mro: ["pa", "pə"],

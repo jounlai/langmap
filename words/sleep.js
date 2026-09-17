@@ -746,14 +746,14 @@ WORDS.sleep = {
     lbj: ["ཉལ", "ɲal"],
     xsr: ["ཉལ", "ɲal"],
     sip: ["ཉལ", "ɲal"],
-    dz: ["ཉལ", "ɲäː"],
+    dz: ["ཉལ", "ɲɛː"],
     obr: ["အိပ်", "ʔip"],
     grt: ["tu·a", "tua"],
 
     // --- Tai — นอน, as in Thai
     soa: ["นอน", "nɔːn˧"],
     th_n: ["นอน", "nɔːn˧"],
-    th_s: ["นอน", "nɔːn˧"],
+    th_s: ["นอน", "nɔːn˥"],
     shn: ["ၼွၼ်း", "nɔn˥˧"],
     tyz: ["nòn", "nɔn˨˩"],
     nut: ["nòn", "nɔn˨˩"],
@@ -916,7 +916,7 @@ WORDS.sleep = {
     cng: ["nɤ", "nɤ"],
     mra: ["nɔn", "nɔn"],
     bdq: ["têp", "tɛp"],
-    dng: ["фи", "fi"],
+    dng: ["фи", "fi˦"],
     ks: ["شۄنٛگُن", "ʃɔnɡun"],
     // --- Fourth pass, from the comparative datasets
     efi: ["de", "dɛ"],

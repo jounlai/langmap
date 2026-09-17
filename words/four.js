@@ -5,9 +5,12 @@
  * kept it (quattuor), Welsh turned it into p (pedwar) while Irish turned it into k (ceathair), which
  * is the p-Celtic / q-Celtic split in a single word. Greek went further still, to téssares. In the
  * east the story is not sound but avoidance: Sino-Japanese 四 shi and Sino-Korean 사 sa are
- * homophones of 死 'death', so Japanese counts with the native yon and Korean with net, and hospitals
- * and lifts across the region skip the fourth floor. The two halves of the map are doing completely
- * different things with the same number.
+ * homophones of 死 'death'. Japanese leans on the native yon to sidestep shi; Korean, by contrast, keeps
+ * 넷 and 사 in parallel by grammatical function — native numerals for counting things, Sino-Korean 사 used
+ * freely for floors, dates and phone numbers — so its tetraphobia surfaces not in the word but on the
+ * button, where the fourth floor is labelled F rather than renamed. Hospitals and lifts across the region
+ * skip that floor either way. The two halves of the map are doing completely different things with the
+ * same number.
  *
  * No vi_nom cell: Vietnamese writes four as 𦊚 (U+2629A) in Chữ Nôm, but that codepoint is not in the
  * self-hosted NomNaTong subset and the source font is not in the repo, so it would render as tofu on

@@ -1,5 +1,5 @@
 /**
- * Five reconstructs to PIE *pénkʷe, still legible in Latin quinque, Greek pénte, Sanskrit páñca and Slavic pętь, and — through Grimm's Law — in English five (from *fimf) and German fünf. But five is also where the body shows through the arithmetic: across Proto-Bantu, many Amerindian languages (Nahuatl mācuīlli, Guaraní po, Toki Pona luka all literally 'hand') and Papuan counting systems, the word for five is the word for a hand — a fossil of counting on fingers. Austronesian *lima carries the same double life, meaning both 'five' and 'hand' from Malagasy dimy to Hawaiian ʻelima.
+ * Five reconstructs to PIE *pénkʷe, still legible in Latin quinque, Greek pénte, Sanskrit páñca and Slavic pętь, and — through Grimm's Law — in English five (from *fimf) and German fünf. But five is also where the body shows through the arithmetic: across Proto-Bantu, many Amerindian languages (Guaraní po and Toki Pona luka are literally 'hand'; Nahuatl mācuīlli is 'taken with the hand', from mā(itl) 'hand' + cui 'take') and Papuan counting systems, the word for five grows out of the hand — a fossil of counting on fingers. Austronesian *lima carries the same double life, meaning both 'five' and 'hand' from Malagasy dimy to Hawaiian ʻelima.
  */
 WORDS.five = {
   emoji: "5️⃣",

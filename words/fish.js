@@ -1,8 +1,9 @@
 /**
  * fish — the animal, and one of the cleanest cognate maps in the atlas.
  *
- * Indo-European lost its own word: *dʰǵʰuHs survives only in Greek ἰχθύς and
- * Armenian ձուկ. The west runs instead on *peysk- (Latin piscis → poisson,
+ * Indo-European lost its own word: *dʰǵʰuHs survives in Greek ἰχθύς, Armenian
+ * ձուկ and Baltic (Lithuanian žuvìs, Latvian zivs) — and almost nowhere else.
+ * The west runs instead on *peysk- (Latin piscis → poisson,
  * pesce, peix; Germanic *fiskaz → fish, Fisch, vis, fisk), and Slavic replaced
  * everything with рыба. Uralic keeps *kala almost unchanged from
  * Finland to the Taimyr (kala, guolli, кол, кал, хуӆ, халя). Turkic keeps

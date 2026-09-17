@@ -3,7 +3,7 @@
  *
  * Berlin & Kay's colour hierarchy: a language with only two basic colour terms
  * splits dark/cool from light/warm; the very next term it adds is always RED.
- * That makes red the one colour word that can carry a full 1151-language map.
+ * That makes red the one colour word that can carry a map of more than 1,100 languages.
  * The map shows PIE *h₁rudʰrós across the west (red, rot, rouge, rosso), the
  * Slavic switch to *čьrvь "kermes worm" (czerwony, червоний), Russian's own
  * красный (originally "beautiful"), Semitic red built on "blood" (אדום ← דם),

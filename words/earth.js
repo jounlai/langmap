@@ -3,8 +3,9 @@
  * dirt-as-filth). PIE *dʰéǵʰōm gives Hittite tekan, Greek χθών, and (via a
  * separate root) Latin humus — though "terra" won out across Romance.
  * Germanic *erþō → English earth / German Erde; Slavic *zemja → земля;
- * Semitic *ʔarṣ̂- → Arabic تراب / Hebrew ארץ~אדמה; Sino-Tibetan 土;
- * Japanese 土 tsuchi; Korean 흙 heurk. Note the soil-vs-planet split that
+ * Semitic *ʔarṣ̂- gives Arabic أرض and Hebrew ארץ, but the everyday word for
+ * soil comes from other roots again — Arabic تراب (t-r-b), Hebrew אדמה (ʔ-d-m);
+ * Sino-Tibetan 土; Japanese 土 tsuchi; Korean 흙 heurk. Note the soil-vs-planet split that
  * many languages make explicitly (e.g. Albanian dhé vs tokë).
  */
 WORDS.earth = {

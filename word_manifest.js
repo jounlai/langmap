@@ -102,6 +102,7 @@ const WORD_ORDER = [
     "woof",
     "cockcrow",
     "computer",
+    "wifi",
     "sushi",
     "tea",
     "coffee",

@@ -139,7 +139,7 @@ WORDS.heart = {
       sce: ["selme", "sɛlmɛ"],
       peh: ["—", "—"],
       cjs: ["чӱрек", "tʃʉrek"],
-      dlg: ["сүрэх", "syrex"],
+      dlg: ["һүрэх", "hyrex"],
       kdt: ["chlaj", "tʂlaj"],
       blk: ["စိတ်", "sɐt"],
       njo: ["thamar", "tʰʌmʌɹ"],

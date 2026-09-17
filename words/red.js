@@ -143,7 +143,7 @@ WORDS.red = {
     ybe: ["qïzïl", "qɯˈzɯl"],
     yuy: ["улаан", "ulaːn"],
     mjg: ["ulaan", "ʊˈlɑːn"],
-    sce: ["ulan", "ʊlan"],
+    sce: ["hulan", "xulan"],
     peh: ["fulaŋ", "fulaŋ"],
     cjs: ["қызыл", "qɯˈzɯl"],
     dlg: ["кыһыл", "qɯˈhɯl"],

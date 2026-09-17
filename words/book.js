@@ -297,7 +297,7 @@ WORDS.book = {
     iso: ["ụbị", "ʊbɪ"],
     kab: ["adlis", "adlis"],
     kbp: ["takayaɣ", "takajaɣ"],
-    kg: ["búku", "buku"],  // mukanda stood here from the Kongo Wikipedia title, but its root nkanda is glossed 'skin, paper, letter, document' in Kongo, and mukanda itself is Kituba 'letter' — the paper-word line this concept declines to cross. búku has its own Kongo entry glossed 'book'. IPA drops the tone mark, as this row does throughout (mboté /mbote/, kûlu /kulu/).
+    kg: ["buku", "buku"],  // mukanda stood here from the Kongo Wikipedia title, but its root nkanda is glossed 'skin, paper, letter, document' in Kongo, and mukanda itself is Kituba 'letter' — the paper-word line this concept declines to cross. búku has its own Kongo entry glossed 'book'. IPA drops the tone mark, as this row does throughout (mboté /mbote/, kûlu /kulu/).
     ki: ["ibuku", "iβuku"],
     kj: ["embo", "ˈembo"],
     her: ["embo", "ˈembo"],

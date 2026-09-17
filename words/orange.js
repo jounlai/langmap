@@ -468,7 +468,7 @@ WORDS.orange = {
     es_ni: ["naranja", "naˈɾaŋha"],
     es_sv: ["naranja", "naˈɾaŋha"],
     ar_jo: ["برتقال", "burtuˈqaːl"],
-    ar_ps: ["برتقال", "burtuˈqaːl"],
+    ar_ps: ["برتقان", "burduˈʔaːn"],
     fr_lu: ["orange", "ɔʁɑ̃ʒ"],
     fr_cm: ["orange", "ɔʁɑ̃ʒ"],
     de_lu: ["Orange", "oˈʁãːʒə"],

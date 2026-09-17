@@ -122,7 +122,7 @@ WORDS.cat = {
       ayl: ["قطوس", "ɡatˤːuːs"],
       abv: ["قطة / قِط", "qɪtːə / qɪt"],
       afb: ["قطة", "gɪtːa"],
-      acw: ["قِطّة / قط", "ɡɪtˤːa"],
+      acw: ["بسة", "bisːa"],
       swb: ["paka", "paka"],
       adx: ["ཀུ་ཕ་", "kufa"],
       qxs: ["maː", "maː"],

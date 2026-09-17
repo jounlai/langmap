@@ -327,7 +327,7 @@ WORDS.salt = {
     alt: ["тус", "tus"],
     tyv: ["дус", "dus"],
     sah: ["туус", "tuːs"],
-    dlg: ["туус", "tuːs"],
+    dlg: ["түүс", "tyːs"],
     ba: ["тоҙ", "toð"],
     tk: ["duz", "duz"],
     kaa: ["duz", "duz"],

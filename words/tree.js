@@ -143,7 +143,7 @@ WORDS.tree = {
       kdt: ["ʔəŋ", "ʔəŋ"],
       blk: ["သစ်", "θɐt"],
       njo: ["kesethi", "keseːtʰi"],
-      srb: ["dar", "dar"],
+      srb: ["ara", "ara"],
       kjg: ["cmuul", "tʃmuːl"],
       mro: ["tshing", "tsʰɪŋ"],
       gon: ["मर", "mara"],

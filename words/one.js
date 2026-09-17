@@ -837,7 +837,7 @@ WORDS.one = {
     war: ["usa", "ʔusa"],
     bik: ["saro", "saɾo"],
     bto: ["əsad", "əsad"],
-    tum: ["cimoza", "tʃimoza"],
+    tum: ["chimoza", "tʃimoza"],
     kde: ["nimo", "nimo"],
     seh: ["posi", "posi"],
     ngl: ["mosaa", "mosaː"],

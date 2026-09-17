@@ -442,7 +442,7 @@ WORDS.foot = {
     kea: ["pé", "pɛ"],  // Follows Portuguese. IPA is the plain reading of the orthography, following how this row's own hand cell writes mon as mɔ̃.
     kek: ["oq", "oq"],  // WOLD splits them, though the Tzotzil cognate okol covers both. IPA is the plain reading of the orthography, following how this row's own hand cell writes ruqʼ as ruqʼ.
     ket: ["киʼсь", "kʲiʔɕ"],  // киʼсь answers both concepts in NorthEuraLex; буль is the other leg word.
-    kg: ["kûlu", "kulu"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes koko as koko.
+    kg: ["kulu", "kulu"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes koko as koko.
     kk: ["аяқ-басы", "ɑjɑqbɑsə"],  // Kazakh builds the foot word as аяқ-басы, literally 'leg's head', on the leg word — the compound pattern.
     kl: ["isigak", "isiɣak"],  // Greenlandic keeps them apart.
     km: ["ជើង", "cəːŋ"],  // One word for the lower limb.

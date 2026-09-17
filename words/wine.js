@@ -916,17 +916,17 @@ WORDS.wine = {
     pt_cv: ["vinho", "ˈviɲu"],
 
     // Arabic dialects take نبيذ, not the *wayn- the ancient rows show.
-    ar_sy: ["نبيذ", "nabiːð"],
-    ar_lb: ["نبيذ", "nabiːð"],
-    ar_jo: ["نبيذ", "nabiːð"],
-    ar_ps: ["نبيذ", "nabiːð"],
+    ar_sy: ["نبيد", "nbiːd"],
+    ar_lb: ["نبيد", "nbiːd"],
+    ar_jo: ["نبيد", "nbiːd"],
+    ar_ps: ["نبيد", "nbiːd"],
     ar_ye: ["نبيذ", "nabiːð"],
     ar_sa: ["نبيذ", "nabiːð"],
     ar_iq: ["نبيذ", "nabiːð"],
     ar_gulf: ["نبيذ", "nabiːð"],
     abv: ["نبيذ", "nabiːð"],
     afb: ["نبيذ", "nabiːð"],
-    acw: ["نبيذ", "nabiːð"],
+    acw: ["نبيد", "nibiːd"],
     ar_eg: ["نبيذ", "nabiːð"],
 
     crh: ["şarap", "ʃaˈrap"],

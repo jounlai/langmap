@@ -1110,7 +1110,7 @@ WORDS.name = {
       kri: ["nem", "nɛm"],
       dag: ["yuli", "juli"],
       xog: ["erinnya", "erinɲa"],
-      teo: ["ekiror", "ekiror"],
+      teo: ["ekirore", "ekirore"],
       dyo: ["eriñ", "eriɲ"],
       bci: ["dunman", "dũmã"],
       tcy: ["ಪುದರ್", "pudarɯ"],

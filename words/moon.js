@@ -143,7 +143,7 @@ WORDS.moon = {
       kdt: ["luəŋ", "luəŋ"],
       blk: ["လ", "lə"],
       njo: ["meishim", "mei̯ʃim"],
-      srb: ["dian", "dian"],
+      srb: ["angai", "aŋɡai"],
       kjg: ["kee", "keː"],
       mro: ["la", "lə"],
       gon: ["नेलेंज", "nelːeːndʒ"],

@@ -71,7 +71,7 @@ WORDS.hello = {
       es_hn: ["hola", "ola"],
       es_ni: ["hola", "ola"],
       es_sv: ["hola", "ola"],
-      ar_jo: ["كيف حالك", "kɪf ħaːlak"],
+      ar_jo: ["مرحبا", "marħaba"],
       ar_ps: ["مرحبا", "marħaba"],
       fr_lu: ["bonjour", "bɔ̃ʒuʁ"],
       fr_cm: ["bonjour", "bɔ̃ʒuʁ"],

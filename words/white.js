@@ -506,7 +506,7 @@ WORDS.white = {
     pi_edu: ["seta", "setɐ"],
     pmh: ["सुक्क", "sukka"],
     cop: ["ⲟⲩⲟⲃϣ", "uobʃ"],
-    arc: ["חִוָּר", "ħiwwaːr"],
+    arc: ["ܚܘܪܐ", "ħewwaːraː"],
     aii: ["ܚܘܵܪܵܐ", "χwaːra"],
     tru: ["ܚܘܪܐ", "ħwara"],
     sux: ["𒌓", "babbar"],

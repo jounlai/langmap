@@ -329,7 +329,7 @@ WORDS.foot = {
   },
   data: {
     p_viet: ["*ciɲ", "ciɲ"],
-    aa: ["iba", "ˈiba"],  // One word for the limb.
+    aa: ["iba", "iba"],  // One word for the limb.
     ab: ["ашьапы", "ɑʃɑpʼɨ"],  // ашьапы covers both; the compound is the foot-specific form.
     ace: ["gaki", "ɡaki"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes jaroe as dʒaɾoe.
     acw: ["رجل", "ridʒil"],  // As Egyptian.
@@ -478,7 +478,7 @@ WORDS.foot = {
     mn: ["хөл", "xɵl"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes гар as ɡar.
     mnc: ["ᠪᡝᡨᡥᡝ", "pɤtʰxɤ"],  // bethe covers both. IPA is NorthEuraLex's transcription, which is narrower than this row's existing cells.
     mns: ["ла̄гыл", "laːɣɪl"],  // ла̄гыл covers both.
-    mos: ["karga", "kárɡá"],  // The modern entry gives one word for the limb.
+    mos: ["karga", "karɡa"],  // The modern entry gives one word for the limb.
     mpt: ["sikir", "sikir"],  // Mian keeps them apart. The source form is already a phonetic transcription.
     mr: ["पाय", "paj"],  // पाय covers the whole limb, like Bengali পা and unlike Hindi.
     mrj: ["ял лапа", "jal lɑpɑ"],  // Hill Mari builds the foot word as ял лапа, literally 'leg-palm', on the bare leg word ял — the third pattern.
@@ -526,7 +526,7 @@ WORDS.foot = {
     ro: ["picior", "piˈtʃor"],  // Romanian is the Romance outlier: one word picior for the whole lower limb, where every other big Romance language splits pie/pierna. labă (WOLD) is 'paw', not the everyday foot word.
     rtm: ["lā", "laː"],  // One word for the limb, with a compound available for the leg. IPA is the plain reading of the orthography, following how this row's own hand cell writes si'u as siʔu.
     ru: ["нога", "nɐˈɡa"],  // Everyday Russian нога is the whole lower limb; ступня/стопа are the anatomical foot-only words NorthEuraLex picked for 'foot'.
-    rup: ["cicior", "tʃitʃor"],  // As Romanian picior: one word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes mânâ as ˈmɨnɨ.
+    rup: ["cicior", "tʃiˈtʃor"],  // As Romanian picior: one word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes mânâ as ˈmɨnɨ.
     ruq: ["picior", "pitʃor"],  // Class inferred from the other Eastern Romance languages. IPA is the plain reading of the orthography, following how this row's own hand cell writes mâna as ˈmɨna.
     rw: ["ikirenge", "ikirenɡe"],  // Kinyarwanda splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes ikiganza as ikiɡanza.
     sa: ["पाद", "pɑːdɐ"],  // pāda- 'foot' vs jaṅghā- 'leg (shank)'.

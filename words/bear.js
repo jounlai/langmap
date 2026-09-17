@@ -769,7 +769,7 @@ WORDS.bear = {
     pms: ["ors", "urs"],
     fur: ["ors", "ors"],
     lld: ["lors", "lors"],
-    rup: ["ursã", "ˈursɨ"],
+    rup: ["ursã", "ˈursə"],
     mwl: ["urso", "ˈursu"],
     // Ladino and Ladin fused the article onto the noun: l' + onso.
     lad: ["lonso", "ˈlonso"],
@@ -891,7 +891,7 @@ WORDS.bear = {
     // --- Northeast Asia and the Arctic --------------------------------
     // Ainu: iso is the everyday word, but hunters said kamuy 'god' instead.
     ain: ["イソ", "iso"],
-    niv: ["чхыф", "cʰxɤf"],
+    niv: ["чхыф", "tʃʰxɤf"],
     ket: ["ӄой", "qoj"],
     ckt: ["кэйӈын", "kejŋɯn"],
     kpy: ["кайӈын", "kajŋɯn"],
@@ -1218,7 +1218,7 @@ WORDS.bear = {
     vi_s: ["gấu", "ɣəw˧˥"],
     mtq: ["củ", "kuː"],
     bru: ["sacâu", "sakəw"],
-    khw: ["اوہڅ", "ɔxts"],
+    khw: ["اوہڅ", "ɔhts"],
     zza: ["heş", "hɛʃ"],
     mzn: ["اش", "æʃ"],
     bal: ["مم", "mamm"],

@@ -281,7 +281,7 @@ WORDS.book = {
     gez: ["መጽሐፍ", "mɐtsʼħɐf"],
     fa_clas: ["کتاب", "kiˈtaːb"],
     ks: ["کِتاب", "kitaːb"],
-    gbm: ["किताब", "kɪˈtɑb"],
+    gbm: ["किताब", "kɪˈtaːb"],
     kru: ["किताब", "kitaːb"],
     kok: ["पुस्तक", "ˈpustək"],
     kha: ["kot", "kot"],

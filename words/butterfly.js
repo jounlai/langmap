@@ -175,7 +175,7 @@ WORDS.butterfly = {
     az: ["kəpənək", "cæpæˈnæc"],  // Shared Turkic root with Turkish kelebek.
     kk: ["көбелек", "købeˈlek"],  // Shared Turkic root with Turkish kelebek.
     uz: ["kapalak", "kapaˈlak"],  // Shared Turkic root with Turkish kelebek.
-    tt: ["күбәләк", "kʉbæˈlæk"],  // Shared Turkic root with Turkish kelebek.
+    tt: ["күбәләк", "kybæˈlæk"],  // Shared Turkic root with Turkish kelebek.
     ba: ["күбәләк", "kybæˈlæk"],  // Shared Turkic root with Turkish kelebek.
     cv: ["лӗпӗш", "ˈlɘpɘʂ"],
     mn: ["эрвээхэй", "erweːxej"],
@@ -221,7 +221,7 @@ WORDS.butterfly = {
     lbe: ["чӏимучӏали", "tʃʼimutʃʼali"],  // Reduplicative tʃʼi-...-tʃʼa-.
     ady: ["хьампӏырашъу", "ħaːmpʼəˈraːʂʷə"],
     ab: ["аҧарҧалыкь", "ɑpʰɑrpʰɑlɨkʼʲ"],  // Reduplicated pʰar-pʰal-.
-    bsk: ["hoólalas", "hoˈoːlalas"],
+    bsk: ["hoólalas", "ˈhoːlalas"],
     kl: ["pakkaluaq", "pakːaluaq"],  // the ordinary word; Ordbogen (2003) gives pakkalugaq unnuarsiooq 'night butterfly' for moth, and Kleinschmidt (1871) marks utsuppaluaq as provincial with paluaq as a short form
     agt: ["lollo", "lolːo"],  // Reduplicated lol-lo.
     jv: ["kupu", "kupu"],  // Simplex kupu; the reduplicated kupu-kupu is the Malay/Indonesian shape.
@@ -288,7 +288,7 @@ WORDS.butterfly = {
     kpj: ["otʃiʃa", "otʃiʃa"],
     kmh: ["gogaŋ", "ɡoɡaŋ"],  // reduplicative go-gaŋ; the database also records a variant gugaŋ
     th: ["ผีเสื้อ", "pʰiː˩˧sɯa̯˥˩"],  // Compound ผี 'ghost, spirit' + เสื้อ; WOLD glosses it phǐi-sʉ̂a '[ghost-garment]'. The same word still means 'tutelary spirit'.
-    sah: ["үрүмэччи", "yrymetɕːi"],  // the general word; NorthEuraLex also lists лыах, which the Sakha dictionary defines as a larger kind of butterfly (NEL writes чч as cː, rewritten here as the row-style affricate tɕː)
+    sah: ["үрүмэччи", "yrymetʃːi"],  // the general word; NorthEuraLex also lists лыах, which the Sakha dictionary defines as a larger kind of butterfly (NEL writes чч as cː, rewritten here as the row-style affricate tɕː)
     acn: ["phă31ʐam35tʂam55", "pʰă˧˩ʐam˧˥tʂam˥˥"],
     atb: ["phĕ55la̱m51", "pʰĕ˥˥la̱m˥˩"],
     clk: ["e55phi31ɦuŋ̩55gɑ55", "e˥˥pʰi˧˩ɦuŋ̩˥˥ɡɑ˥˥"],

@@ -152,7 +152,7 @@ WORDS.milk = {
     mr: ["दूध", "d̪uːd̪ʱ"],
     gu: ["દૂધ", "d̪uːd̪ʱ"],
     pa: ["ਦੁੱਧ", "d̪ʊd̪ʱː"],
-    ne: ["दूध", "d̪ud̪ʱ"],
+    ne: ["दूध", "d̪uːd̪ʱ"],
     si: ["කිරි", "kiri"],
     ta: ["பால்", "paːl"],
     te: ["పాలు", "paːlu"],
@@ -305,7 +305,7 @@ WORDS.milk = {
     pnt: ["γάλαν", "ˈɣalan"],
 
     // --- Indo-Aryan — dūdh from Sanskrit dugdha -------------------------
-    as: ["গাখীৰ", "ɡakʰir"],
+    as: ["গাখীৰ", "ɡakʰiɹ"],
     bho: ["दूध", "d̪uːd̪ʱ"],
     anp: ["दूध", "d̪uːd̪ʱ"],
     awa: ["दूध", "d̪uːd̪ʱ"],
@@ -331,7 +331,7 @@ WORDS.milk = {
     ctg: ["দুধ", "d̪ud̪ʱ"],
     bpy: ["দুধ", "d̪ud̪ʱ"],
     pnb: ["دُدھ", "d̪ʊd̪ʱː"],
-    hno: ["دُدھ", "d̪ʊd̪ʱː"],
+    hno: ["دُدھ", "d̪ʊd̪ʱ"],
     skr: ["دُدھ", "d̪ʊd̪ʱː"],
     sd: ["کير", "kʰiːru"],
     dv: ["ކިރު", "kiru"],
@@ -350,7 +350,7 @@ WORDS.milk = {
     fa_clas: ["شیر", "ʃiːr"],
     haz: ["شیر", "ʃiːr"],
     ku: ["şîr", "ʃiːr"],
-    ckb: ["شیر", "ʃiːr"],
+    ckb: ["شیر", "ʃiːɾ"],
     sdh: ["شیر", "ʃiːr"],
     bal: ["شیر", "ʃiːr"],
     glk: ["شیر", "ʃir"],
@@ -360,7 +360,7 @@ WORDS.milk = {
     luz: ["šir", "ʃir"],
     jpr: ["שיר", "ʃir"],
     zza: ["şit", "ʃit"],
-    os: ["ӕхсыр", "əxsɨr"],
+    os: ["ӕхсыр", "æxsər"],
 
     // --- Turkic — süt, unbroken from Old Turkic --------------------------
     slr: ["süt", "syt"],
@@ -454,7 +454,7 @@ WORDS.milk = {
     nso: ["maswi", "maswi"],
     ts: ["masi", "masi"],
     ve: ["mafhi", "maɸi"],
-    ssw: ["lubisi", "luˈbisi"],
+    ssw: ["lubisi", "luˈɓisi"],
     nd: ["uchago", "uˈtʃaɡo"],
     sn: ["mukaka", "mukaka"],
     mxc: ["mukaka", "mukaka"],

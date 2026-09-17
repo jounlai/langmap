@@ -801,7 +801,7 @@ WORDS.wine = {
     cu: ["вино", "vino"],
     fro: ["vin", "vin"],
     osp: ["vino", "ˈbino"],
-    sga: ["fín", "fiːn"],
+    sga: ["fín", "fʲiːn"],
     cy: ["gwin", "ɡwiːn"],
     ga: ["fíon", "ˈfʲiːn̪ˠ"],
 
@@ -1356,7 +1356,7 @@ WORDS.wine = {
     uby: ["baqʼəsma", "baqʼəsma"],
     kum: ["чагъыр", "tʃaʁɨr"],
     nog: ["шагыр", "ʃaɡɨr"],
-    krc: ["чагъыр", "tʃaʁɨr"],
+    krc: ["чагъыр", "tʃaʁɯr"],
     cv: ["эрех", "eˈrex"],
     sah: ["вино", "vino"],
     alt: ["вино", "vino"],

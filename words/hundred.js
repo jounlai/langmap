@@ -407,7 +407,7 @@ WORDS.hundred = {
     csb: ["sto", "stɔ"],
     dsb: ["sto", "stɔ"],
     rue: ["сто", "sto"],
-    ltg: ["symts", "simts"],
+    ltg: ["symts", "sɨmts"],
 
     // --- Turkic — *jǖz, and Siberian Turkic's ǰ- ------------------------
     slr: ["yüz", "jyz"],
@@ -435,7 +435,7 @@ WORDS.hundred = {
     dty: ["सय", "səj"],
     bho: ["सौ", "sɔː"],
     sd: ["سؤ", "soː"],
-    as: ["এশ", "eʃ"],
+    as: ["এশ", "ex"],
     or: ["ଶହେ", "ʃɔɦe"],
     rmy: ["šel", "ʃel"],
     rmf: ["šel", "ʃel"],
@@ -632,7 +632,7 @@ WORDS.hundred = {
     ach: ["miya", "mija"],   // Swahili loan
     laj: ["mia", "miə"],   // Swahili loan
     anu: ["dipa", "dipa"],
-    teo: ["akwatat", "akwatat"],
+    teo: ["akwatat", "akʷatat"],
     srr: ["teemeed", "teːmeːd"],   // the same word as Wolof téeméer
     dje: ["zangu", "zaŋɡu"],
     khq: ["jongu", "dʒoŋɡu"],

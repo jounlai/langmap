@@ -559,7 +559,7 @@ WORDS.coffee = {
     aa: ["buna", "buna"],
     ast: ["café", "kaˈfe"],
     an: ["café", "kaˈfe"],
-    tt: ["каһвә", "qæhˈwæ"],
+    tt: ["кофе", "ˈkofe"],
     ba: ["ҡәһүә", "qæhˈwæ"],
     lmo: ["cafè", "kaˈfɛ"],
     kw: ["koffi", "ˈkɔfi"],

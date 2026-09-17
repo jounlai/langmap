@@ -208,7 +208,7 @@ WORDS.black = {
     tt: ["кара", "qɑˈrɑ"],
     ba: ["ҡара", "qɑˈrɑ"],
     ug: ["قارا", "qɑˈrɑ"],
-    sah: ["хара", "xɑˈra"],
+    sah: ["хара", "xaˈra"],
     tyv: ["кара", "qɑˈrɑ"],
     cv: ["хура", "xuˈra"],
 
@@ -230,7 +230,7 @@ WORDS.black = {
     // --- Bantu --------------------------------------------------------
     ln: ["moindo", "moindo"],
     kg: ["ndombe", "ndombe"],
-    lg: ["ddugavu", "ddugavu"],
+    lg: ["ddugavu", "dduɡavu"],
     rw: ["umukara", "umukara"],
     rn: ["umukara", "umukara"],
     ny: ["chakuda", "tʃakuda"],
@@ -246,8 +246,8 @@ WORDS.black = {
     ak: ["tuntum", "tuntum"],
     wo: ["ñuul", "ɲuːl"],
     ff: ["ɓaleejo", "ɓaleːdʒo"],
-    bm: ["fin", "fiɲ"],
-    dyu: ["fin", "fiɲ"],
+    bm: ["fin", "fin"],
+    dyu: ["fin", "fin"],
     sg: ["vukö", "vukɔ"],
     mos: ["sablga", "sablɡa"],
     luo: ["ratengʼ", "ratɛŋ"],
@@ -282,7 +282,7 @@ WORDS.black = {
 
     // --- Indo-Aryan / Indo-Iranian -------------------------------------
     as: ["ক’লা", "kɔla"],
-    or: ["କଳା", "kɔɭa"],
+    or: ["କଳା", "kɔɭaː"],
     sd: ["ڪارو", "kaːro"],
     kok: ["काळो", "kaːɭo"],
     bho: ["करिया", "kərijaː"],
@@ -600,7 +600,7 @@ WORDS.black = {
     kaa: ["qara", "qɑˈrɑ"],
     nog: ["кара", "qɑˈrɑ"],
     kum: ["къара", "qɑˈrɑ"],
-    krc: ["къара", "qɑˈrɑ"],
+    krc: ["къара", "qaˈra"],
     gag: ["kara", "kɑˈrɑ"],
     alt: ["кара", "qɑˈrɑ"],
     kjh: ["хара", "xɑˈrɑ"],

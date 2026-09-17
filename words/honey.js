@@ -272,7 +272,7 @@ WORDS.honey = {
     ti: ["መዓር", "mɐʕar"],
     kab: ["tament", "θamənt"],
     shi: ["ⵜⴰⵎⵎⵏⵜ", "tamːnt"],
-    zgh: ["ⵜⴰⵎⵎⵏⵜ", "tamːnt"],
+    zgh: ["ⵜⴰⵎⵎⵏⵜ", "tamːənt"],
 
     // --- Caucasus and Basque -------------------------------------------
     ka: ["თაფლი", "tʰapʰli"],
@@ -752,7 +752,7 @@ WORDS.honey = {
     yue_dg: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
     yue_nn: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
     yue_zs: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
-    kxm: ["ទឹកឃ្មុំ", "tɨʔ kʰmum"],
+    kxm: ["ទឹកឃ្មុំ", "tɨk kʰmum"],
     guu: ["puu", "puu"],
     za: ["dangzrwi", "taːŋ˧˩ɣɯi˨˦"],
     wbm: ["rom hia", "rɔm hia"],

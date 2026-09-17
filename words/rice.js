@@ -289,7 +289,7 @@ WORDS.rice = {
     lmo: ["ris", "ris"],
     ln: ["lɔ́sɔ", "lɔsɔ"],
     lus: ["buh", "buh"],
-    mad: ["bherrâs", "bʰərrɤs"],
+    mad: ["bherrâs", "bʱərrɤs"],
     mai: ["चाउर", "tʃaːur"],
     max: ["baras", "baˈras"],
     mdh: ["begas", "bəˈɡas"],

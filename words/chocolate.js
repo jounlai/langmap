@@ -156,7 +156,7 @@ WORDS.chocolate = {
     acw: ["شكلاطة", "ʃukuˈlaːtˤa"],
     ar_ma: ["شكلاط", "ʃuklaːtˤ"],
     ar_lev: ["شكلاة", "ʃukuˈlaː"],
-    as: ["চক্লেট", "sɔklɛt"],
+    as: ["চক্লেট", "sɔklɛʈ"],
     dv: ["ޗޮކްލެޓް", "tʃokleʈ"],
     bjn: ["suklat", "ˈsuklat"],
     bik: ["tsokolate", "tʃokoˈlate"],

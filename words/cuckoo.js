@@ -422,7 +422,7 @@ WORDS.cuckoo = {
     dsb: ["kukawa", "ˈkukawa"],
     gv: ["cooag", "ˈkuːaɡ"],
     kw: ["koukou", "ˈkukuː"],
-    zza: ["Phepug", "pʰɛˈpuɡ"],
+    zza: ["phepug", "pʰɛˈpuɡ"],
     mzh: ["hotsenʼi", "hotsenˈʔi"],
     kgp: ["—", "—"],
     tob: ["—", "—"],

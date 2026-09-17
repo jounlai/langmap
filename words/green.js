@@ -134,7 +134,7 @@ WORDS.green = {
     tt: ["яшел", "jɑˈʃel"],
     ku: ["kesk", "kɛsk"],
     tg: ["сабз", "sabz"],
-    ps: ["شين", "ʃin"],
+    ps: ["شین", "ʃin"],
     pa: ["ਹਰਾ", "ɦəˈɾaː"],
     gu: ["લીલો", "ˈliːlo"],
     mr: ["हिरवा", "ɦiɾʋaː"],
@@ -344,7 +344,7 @@ WORDS.green = {
     lo: ["ຂຽວ", "kʰiːəw˩"],
     ltg: ["zaļš", "zaʎʃ"],
     lus: ["hring", "hriŋ"],
-    mad: ["bhiru", "bʰiru"],   // Grue, and the same cell as this row's 'blue'. ABVD records Madurese green as biru, without the aspiration mark that distinguishes bh from b — the aspirated spelling is the dictionary one.
+    mad: ["bhiru", "bʱiru"],   // Grue, and the same cell as this row's 'blue'. ABVD records Madurese green as biru, without the aspiration mark that distinguishes bh from b — the aspirated spelling is the dictionary one.
     mak: ["moncong bulo", "moɲtʃoŋ bulo"],   // Literally 'bamboo colour', but lemmatised as the colour noun by Wiktionary and elicited as green by ABVD.
     max: ["ijo", "idʒo"],
     mbc: ["rora", "rora"],   // Grue: IDS gives rora for both blue and green in Macushi, matching the cell already in 'blue'.
@@ -390,7 +390,7 @@ WORDS.green = {
     olo: ["vihandu", "ˈvihandu"],
     om: ["magariisa", "maɡariːsa"],   // Wiktionary files the commoner spelling magarisa as a misspelling of this one.
     orh: ["tʃuturin", "tʃuturin"],
-    os: ["цъӕх", "tsʼəχ"],   // Grue: IDS and NorthEuraLex both give цъӕх for blue and green alike; кӕрдӕгхуыз 'grass-coloured' is the descriptive green, not the basic term.
+    os: ["цъӕх", "tsʼæx"],   // Grue: IDS and NorthEuraLex both give цъӕх for blue and green alike; кӕрдӕгхуыз 'grass-coloured' is the descriptive green, not the basic term.
     osx: ["grōni", "ˈɡroːni"],
     ota: ["یشیل", "jeˈʃil"],
     pam: ["aluntian", "ʔaluntiˈan"],

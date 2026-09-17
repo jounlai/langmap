@@ -574,7 +574,7 @@ WORDS.salt = {
     ssw: ["lusawoti", "lusawoti"],
     ln: ["mongwa", "moŋɡwa"],
     kg: ["mungwa", "muŋɡwa"],
-    tum: ["mchere", "mtʃere"],
+    tum: ["mchere", "m̩tʃere"],
 
     // --- The Americas ------------------------------------------------------
     qu: ["kachi", "ˈkatʃi"],
@@ -764,8 +764,8 @@ WORDS.salt = {
     srh: ["namodhj", "namoðdʑ"],
     lwl: ["kih", "kih"],
     kdt: ["phɑ̤ːh", "pʰɑːh"],
-    srb: ["basid", "bəsɨd"],
-    kjg: ["hmaar", "ʰmaːr"],
+    srb: ["basid", "basid"],
+    kjg: ["hmaar", "hmaːr"],
     kha: ["ka mluh", "ka mluʔ"],
     mra: ["chuʌk", "tʃuʌk"],
     mnw: ["ၜဵု", "ɓɜ"],

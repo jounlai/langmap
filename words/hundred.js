@@ -509,9 +509,9 @@ WORDS.hundred = {
     ceb: ["gatos", "ɡaˈtos"],
     mg: ["zato", "ˈzatu"],
     mi: ["rau", "ɾau"],
-    haw: ["haneli", "haˈneli"],
-    sm: ["selau", "seˈlau"],
-    to: ["teau", "teˈau"],
+    haw: ["haneli", "haneli"],
+    sm: ["selau", "selau"],
+    to: ["teau", "teau"],
 
     // --- Dravidian and Indo-Aryan -------------------------------------------
     p_dra: ["*nūṟu", "nuːru"],
@@ -673,7 +673,7 @@ WORDS.hundred = {
     lkt: ["opáwiŋǧe", "opáwĩʁe"],
     dak: ["opáwiŋǧe", "opáwĩɣe"],
     win: ["hogihí", "hoɡihi"],
-    cro: ["pilakisée", "pilakiseː"],
+    cro: ["pilakisée", "pilakiséː"],
     cic: ["talhipa", "taɬipa"],
     mus: ["cokpe", "tʃokpi"],
     bla: ["kiipippo", "kiːpipːo"],
@@ -805,7 +805,7 @@ WORDS.hundred = {
     mnp: ["百", "pa˨˦"],
     cpx: ["百", "paʔ˥˥"],
     // --- Late additions ----------------------------------------------------
-    lo: ["ຮ້ອຍ", "hɔːj˥˩"],
+    lo: ["ຮ້ອຍ", "hɔːj˥˨"],
     gd: ["ceud", "kʰʲiət"],   // the Goidelic céad again
     ab: ["шәкы", "ʃʷkʼə"],
     av: ["нусго", "nusɡo"],

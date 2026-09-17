@@ -183,7 +183,7 @@ WORDS.silk = {
     hak_cn: ["丝", "sɹ̩˦˦"],
     hak_hl: ["絲", "sɨ˥˧"],
     hak_tw: ["絲", "sɨ˨˦"],
-    haw: ["kilika", "kiˈlika"],
+    haw: ["kilika", "kilika"],
     haz: ["ابریشم", "abreːˈʃam"],
     hbo: ["מֶשִׁי", "ˈmɛːʃiː"],
     hsn: ["丝", "sɹ̩˧˧"],

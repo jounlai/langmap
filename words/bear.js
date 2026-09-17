@@ -924,7 +924,7 @@ WORDS.bear = {
     vi_han: ["熊", "huŋ˨˩"],
     zh_tw: ["熊", "ɕiʊŋ˧˥"],
     nan: ["熊", "him˨˦"],
-    dng: ["щүн", "ɕyn"],
+    dng: ["щүн", "ɕyn˨˦"],
     p_jpn: ["*kuma", "kuma"],
     ojp: ["熊", "kuma"],
     ja_heian: ["熊", "kuma"],
@@ -1286,8 +1286,8 @@ WORDS.bear = {
     dru: ["cumay", "tsuˈmai"],
     szy: ["tumay", "tumai"],
     ckv: ["tumay", "tuˈmai"],
-    haw: ["pea", "ˈpea"],
-    mi: ["pea", "ˈpea"],
+    haw: ["pea", "pea"],
+    mi: ["pea", "pea"],
 
     // --- 2026-08-31 bear pass 2: Formosan/PAn, ancient languages, creoles and misc (out_misc.tsv)
     paus: ["*Cumay", "Cumay"],

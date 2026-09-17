@@ -160,7 +160,7 @@ WORDS.milk = {
     kn: ["ಹಾಲು", "haːlu"],
     my: ["နို့", "nòʊʔ"],
     km: ["ទឹកដោះគោ", "tɨk ɗɑh koː"],
-    lo: ["ນົມ", "nom˧"],
+    lo: ["ນົມ", "nom˧˥"],
     tr: ["süt", "syt"],
     az: ["süd", "syd"],
     kk: ["сүт", "syt"],
@@ -173,7 +173,7 @@ WORDS.milk = {
     ms: ["susu", "susu"],
     tl: ["gatas", "ˈɡatas"],
     ceb: ["gatas", "ˈɡatas"],
-    haw: ["waiū", "waiˈuː"],
+    haw: ["waiū", "waiuː"],
     mi: ["miraka", "miɾaka"],
     ha: ["madara", "madara"],
     yo: ["wàrà", "wàrà"],
@@ -548,7 +548,7 @@ WORDS.milk = {
     // Polynesian names it from the breast — Tahitian ū, Hawaiian waiū 'breast water'.
     ty: ["ū", "uː"],
     rar: ["ū", "uː"],
-    to: ["huʻakau", "huʔaˈkau"],
+    to: ["huʻakau", "huʔakau"],
     ch: ["leche", "ˈletʃe"],
 
     // --- Creoles and constructed languages ----------------------------------

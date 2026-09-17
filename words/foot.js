@@ -413,7 +413,7 @@ WORDS.foot = {
     hak_cn: ["脚", "kiɔk̚˩"],  // Hakka 腳 covers the lower limb.
     hak_hl: ["腳", "kiok˥˥"],  // As mainland Hakka.
     hak_tw: ["腳", "ki̯ok̚˨"],  // As mainland Hakka.
-    haw: ["wāwae", "ˈwaːwae"],  // One word for the whole lower limb, the Polynesian norm. IPA is the plain reading of the orthography, following how this row's own hand cell writes lima as ˈlima.
+    haw: ["wāwae", "waːwae"],  // One word for the whole lower limb, the Polynesian norm. IPA is the plain reading of the orthography, following how this row's own hand cell writes lima as ˈlima.
     he: ["רגל", "ʁɛɡɛl"],  // Hebrew רגל is the whole lower limb; כף רגל ('palm of the leg') is the foot-specific expression — the compound pattern used as a specifier.
     hi: ["पैर", "pɛːɾ"],  // पैर/पाँव vs टाँग. The hand row is likewise हाथ vs बाँह.
     // Emptied on arrival: the cell came in as the Latin transliteration pata,
@@ -462,7 +462,7 @@ WORDS.foot = {
     liv: ["jālga", "jɑːlɡɑ"],  // One word for the whole lower limb, the Uralic norm.
     lmo: ["pè", "pɛ"],  // As Italian. IPA is the plain reading of the orthography, following how this row's own hand cell writes man as maŋ.
     ln: ["lokolo", "lokolo"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes lobɔ́kɔ as lobɔkɔ.
-    lo: ["ຕີນ", "tiːn˩˨"],  // The Tai tin/kha split.
+    lo: ["ຕີນ", "tiːn˩˧"],  // The Tai tin/kha split.
     lol: ["lokolo", "lokolo"],  // Class inferred from the Lingala cognate. IPA is the plain reading of the orthography, following how this row's own hand cell writes lokáko as lokáko.
     lt: ["pėda", "pʲeːˈdɐ"],  // Classed distinct on Wiktionary and NorthEuraLex, but IDS returns kója for BOTH foot and leg — the everyday word reaches the foot, so this row sits on the boundary.
     ltg: ["pāds", "paːds"],  // Parallel to Latvian pēda/kāja. IPA is the plain reading of the orthography, following how this row's own hand cell writes rūka as ˈruːka.

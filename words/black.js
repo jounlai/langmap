@@ -151,7 +151,7 @@ WORDS.black = {
 
     // --- Mainland Southeast Asia --------------------------------------
     km: ["ខ្មៅ", "kmaw"],
-    lo: ["ດຳ", "dam˧"],
+    lo: ["ດຳ", "dam˩˧"],
 
     // --- Caucasus -----------------------------------------------------
     ka: ["შავი", "ʃavi"],
@@ -221,10 +221,10 @@ WORDS.black = {
     ivv: ["mavaheng", "mavahɨŋ"],
     ceb: ["itom", "iˈtom"],
     mg: ["mainty", "ˈmaintɨ"],
-    haw: ["ʻeleʻele", "ʔeleˈʔele"],
-    mi: ["mangu", "ˈmaŋu"],
-    sm: ["uliuli", "uliˈuli"],
-    to: ["ʻuliʻuli", "ʔuliˈʔuli"],
+    haw: ["ʻeleʻele", "ʔeleʔele"],
+    mi: ["mangu", "maŋu"],
+    sm: ["uliuli", "uliuli"],
+    to: ["ʻuliʻuli", "ʔuliʔuli"],
     fj: ["loaloa", "loaˈloa"],
 
     // --- Bantu --------------------------------------------------------

@@ -300,7 +300,7 @@ WORDS.honey = {
     tl: ["pulot", "puˈlot"],
 
     // --- Pacific and Madagascar -------------------------------------------
-    haw: ["meli", "ˈmeli"],           // μέλι again, by way of the missionary Bible
+    haw: ["meli", "meli"],           // μέλι again, by way of the missionary Bible
     sm: ["meli", "meli"],
     mg: ["tantely", "tanˈtelʲ"],
 
@@ -569,7 +569,7 @@ WORDS.honey = {
     ko_jeju: ["꿀", "k͈ul"],
 
     // --- Mainland Southeast Asia — the water of the bee --------------------
-    lo: ["ນ້ຳເຜິ້ງ", "naːm˥˩ pʰɤŋ˥˩"],
+    lo: ["ນ້ຳເຜິ້ງ", "naːm˥˨ pʰɤŋ˧˩"],
     th_n: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
     th_s: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
     th_isan: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
@@ -578,7 +578,7 @@ WORDS.honey = {
     // --- Pacific and the Philippines ---------------------------------------
     // Two more Pacific reflexes of the mel/méli family, carried in by mission
     // contact, beside Tongan hone straight from English.
-    mi: ["miere", "ˈmieɾe"],
+    mi: ["miere", "mieɾe"],
     rap: ["meri", "meɾi"],
     to: ["hone", "hone"],
     ceb: ["dugos", "duˈɡos"],

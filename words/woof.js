@@ -84,7 +84,7 @@ WORDS.woof = {
     "ga": ["bhuf bhuf", "wʊf wʊf"],
     "gd": ["af af", "af af"],
     "gl": ["guau guau", "ɡwaw ɡwaw"],
-    "haw": ["ʻaoa", "ʔaˈoa"],
+    "haw": ["ʻaoa", "ʔaoa"],
     "he": ["הַב הַב", "hav hav"],
     "hi": ["भौं भौं", "bʱɔ̃ː bʱɔ̃ː"],
     "hr": ["vau vau", "ʋau ʋau"],

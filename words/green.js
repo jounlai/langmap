@@ -341,7 +341,7 @@ WORDS.green = {
     lkt: ["tȟózi", "ˈtxozi"],   // Literally tȟó 'blue' + zí 'yellow'. Lakota can also say plain tȟó of green things, so this is the specific term inside a grue system, not a separate basic colour.
     lld: ["vërt", "vərt"],
     lmo: ["verd", "vert"],
-    lo: ["ຂຽວ", "kʰiːəw˩"],
+    lo: ["ຂຽວ", "kʰiːəw˩˧"],
     ltg: ["zaļš", "zaʎʃ"],
     lus: ["hring", "hriŋ"],
     mad: ["bhiru", "bʱiru"],   // Grue, and the same cell as this row's 'blue'. ABVD records Madurese green as biru, without the aspiration mark that distinguishes bh from b — the aspirated spelling is the dictionary one.

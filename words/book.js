@@ -160,10 +160,10 @@ WORDS.book = {
     jv: ["buku", "ˈbuku"],
     su: ["buku", "ˈbuku"],
     ceb: ["libro", "ˈlibɾo"],
-    haw: ["puke", "ˈpuke"],
-    mi: ["pukapuka", "ˈpukapuka"],
-    sm: ["tusi", "ˈtusi"],
-    to: ["tohi", "ˈtohi"],
+    haw: ["puke", "puke"],
+    mi: ["pukapuka", "pukapuka"],
+    sm: ["tusi", "tusi"],
+    to: ["tohi", "tohi"],
     km: ["សៀវភៅ", "siəwpʰɨw"],
     my: ["စာအုပ်", "sàʔoʊʔ"],
     kn: ["ಪುಸ್ತಕ", "ˈpustəka"],
@@ -360,7 +360,7 @@ WORDS.book = {
     nan_te: ["书", "tsɯ˧˧"],   // Teochew takes 書, not 冊. Simplified, as this row is throughout (鸟, 头, 鱼).
     mnp: ["书", "sy˥˦"],       // Jian'ou sṳ́; this row already uses the /y/ vowel (水 sy˨˩).
     mn_cn: ["ᠨᠣᠮ", "nɔm"],     // Traditional-script surface as cmg has, with the Chakhar vowel this row uses against cmg throughout (fire ᠭᠠᠯ ɡɑl vs cmg ɡal).
-    lo: ["ປຶ້ມ", "pɯm˥˩"],     // Written ˥˩ to match this row's own spelling of that falling tone (ເບື້ອ bɨa˥˩, ເລືອດ lɯat˥˩).
+    lo: ["ປຶ້ມ", "pɯm˥˨"],     // Written ˥˩ to match this row's own spelling of that falling tone (ເບື້ອ bɨa˥˩, ເລືອດ lɯat˥˩).
     mtq: ["khách", "kʰac"],    // Mường Bi, cognate with Vietnamese sách. The source writes a tone digit; this row marks no tone anywhere (45 of 46 cells).
     // Island Southeast Asia and the Philippines.
     mak: ["boʼboʼ", "ˈboʔboʔ"],  // Makassarese buku is 'bone', not 'book' — the analogy with id/ms would be a defect here. lontara' was declined: Matthes 1885 glosses it "een lontarblad; v. d. een geschrift, een boek, een brief", the leaf-to-writing line this concept does not cross.

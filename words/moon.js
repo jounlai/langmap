@@ -314,7 +314,7 @@ WORDS.moon = {
     hyw: ["լուսին", "lusin"],
     nv: ["tłʼéhonaaʼéí", "tɬʼéhonɑːʔéːí"],
     koy: ["ooltsʼenh", "ooltsʼenh"],
-    haw: ["mahina", "maˈhina"],
+    haw: ["mahina", "mahina"],
     mi: ["marama", "maɾama"],
     qu: ["killa", "kiʎa"],
     zh_db: ["月亮", "ɥɛ˥˩ ljɑŋ˩"],

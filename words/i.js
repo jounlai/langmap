@@ -1177,7 +1177,7 @@ WORDS.i = {
       mtq: ["tôi", "toj"],
       tyz: ["khỏi", "kʰɔj˨˩˧"],
       kjp: ["ယ", "jə̀"],
-      kac: ["ngai", "ŋai"],
+      kac: ["ngai", "ŋai˧"],
       wbm: ["ex", "ʔɤʔ"],
       rbb: ["Ɂaw", "ʔaw"],
       blr: ["ʔɨt33", "ʔɨt˧˧"],

@@ -146,7 +146,7 @@ WORDS.dopamine = {
     "kw": ["Dopamin", "dɔˈpamɪn"],
     "ky": ["дофамин", "dofaˈmin"],
     "lb": ["Dopamin", "dopaˈmiːn"],
-    "lo": ["ໂດປາມີນ", "doː˧paː˧miːn˦"],
+    "lo": ["ໂດປາມີນ", "doː˩˧paː˩˧miːn˧˥"],
     "lt": ["dopaminas", "dɔpaˈmʲinas"],
     "lv": ["dofamīns", "ˈdɔfamiːns"],
     "mk": ["допамин", "ˈdopamin"],

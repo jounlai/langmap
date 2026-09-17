@@ -107,7 +107,7 @@ WORDS.butterfly = {
     kg: ["lumbembambemba", "lumbembambemba"],  // reduplicated stem -bemba-bemba with class 10 lu- prefix
     ki: ["kĩĩhuruta", "kiːhuruːta"],  // class 7 noun (pl. ciĩhuruta); covers moths as well as butterflies
     kwk: ["ha̱mumu", "həmumu"],  // reduplicative in shape (ha̱-mu-mu)
-    lo: ["ແມງກະເບື້ອ", "mɛːŋ˥ ka˥ bɨa˥˩"],  // compound of ແມງ 'insect' + ກະເບື້ອ, which on its own means 'moth'; the whole word covers butterflies and moths
+    lo: ["ແມງກະເບື້ອ", "mɛːŋ˧˥ ka˧˥ bɨa˥˨"],  // compound of ແມງ 'insect' + ກະເບື້ອ, which on its own means 'moth'; the whole word covers butterflies and moths
     luo: ["oguyo", "oɡujo"],  // Odaga gives oguyo for 'moth' and defines 'larva' as an insect that grows and turns into an oguyo; no separate butterfly word is listed
     mas: ["ɔsampurimpuri", "ɔsampurimpuri"],  // reduplicated (sampúri-mpúri); the northern/Samburu form sampíripíri is likewise reduplicated
     mr: ["फुलपाखरू", "pʰulpaːkʰɾuː"],  // a compound of फूल 'flower' + पाखरू 'bird' (पाखरू < Sanskrit पक्षिरूप, Turner CDIAL 7637) - literally 'flower-bird'
@@ -239,8 +239,8 @@ WORDS.butterfly = {
     chk: ["nipwisipwis", "nipʷisipʷis"],  // Reduplicated -pwis-pwis.
     emi: ["kaubebe", "kaubebe"],  // kau- + reduplicated bebe; the same compound appears in Motu kaubebe.
     meu: ["kaubebe", "kaubebe"],  // kau- + reduplicated bebe, identical in shape to Mussau-Emira kaubebe; bebe is the Oceanic root behind Fijian bēbē and Polynesian pepe.
-    haw: ["pulelehua", "puleleˈhua"],  // IDS also records lepe-lepe-o-hina, a reduplicated form.
-    mi: ["pūrerehua", "ˈpuːɾeɾehua"],  // Te Aka: 'butterfly, moth', and also the name of the bullroarer; cognate with Hawaiian pulelehua. The older dictionaries' pepe/pēpepe (Williams 1971) is the Proto-Oceanic *bebe word and is listed as a synonym.
+    haw: ["pulelehua", "pulelehua"],  // IDS also records lepe-lepe-o-hina, a reduplicated form.
+    mi: ["pūrerehua", "puːɾeɾehua"],  // Te Aka: 'butterfly, moth', and also the name of the bullroarer; cognate with Hawaiian pulelehua. The older dictionaries' pepe/pēpepe (Williams 1971) is the Proto-Oceanic *bebe word and is listed as a synonym.
     gor: ["alinguwa", "ʔaliˈŋuwa"],  // ACD files it under the PAN prefix *qali-, used for words with a reference to the spirit world
     pwn: ["pepe", "pəpə"],  // a reduplication, and the dictionary glosses it 'moth; butterfly' — it covers both; Ferrell's older kaliduŋuduŋulʸ (ACD) is not the e-dictionary's word
     ami: ["ʼadipangpang", "ʔaðipaŋpaŋ"],  // reduplicated -pangpang after ʼadi- < PAN *qaNi-/*qali-, the prefix for words touching on the spirit world (ACD)
@@ -320,7 +320,7 @@ WORDS.butterfly = {
     gun: ["popo", "popo"],  // Fully reduplicated po-po.
     tpn: ["panam", "paˈnam"],  // The etymon behind Nheengatu panapana, which reduplicates it.
     yrl: ["panapana", "panapana"],  // Fully reduplicated pana-pana, from the Tupinambá panam this row's neighbour still has unreduplicated.
-    kac: ["palamla", "palamla"],  // Sun (1991) records the same word as pă̱⁵⁵lam⁵¹laʔ⁵⁵.
+    kac: ["palamla", "palam˥˩laʔ˥˥"],  // Sun (1991) records the same word as pă̱⁵⁵lam⁵¹laʔ⁵⁵.
     lus: ["phengphehlep", "pʰeŋpʰehlep"],  // Reduplicative pheng-phe-; Marrison writes the morpheme break as pheng◦phehlep.
     nmf: ["konghang", "koŋhaŋ"],
     nzm: ["timpiangbe", "timpiaŋbe"],

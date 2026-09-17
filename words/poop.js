@@ -158,7 +158,7 @@ WORDS.poop = {
     cv: ["пӑх", "pəx"],
     my: ["ချေး", "tɕʰé"],
     km: ["អាចម៍", "ʔacam"],
-    lo: ["ຂີ້", "kʰiː˥˩"],
+    lo: ["ຂີ້", "kʰiː˧˩"],
     yo: ["igbe", "iɡbɛ"],
     zu: ["amasimba", "amasimba"],
     am: ["ኩስ", "kus"],

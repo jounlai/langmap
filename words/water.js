@@ -283,7 +283,7 @@ WORDS.water = {
     ket: ["уьл", "ulʲ"],
     my: ["ရေ", "jè"],
     km: ["ទឹក", "tɨk"],
-    lo: ["ນ້ຳ", "naːm˥˩"],
+    lo: ["ນ້ຳ", "naːm˥˨"],
     soa: ["น้ำ", "nam˧˩"],
     yo: ["omi", "omi"],
     zu: ["amanzi", "amanzi"],

@@ -1124,10 +1124,10 @@ WORDS.wine = {
     ko_yb: ["포도주", "pododʑu"],
 
     // --- Austronesian ---------------------------------------------------------
-    haw: ["waina", "ˈwaina"],
+    haw: ["waina", "waina"],
     mi: ["wāina", "waːina"],
     sm: ["uaina", "uaina"],
-    to: ["uaine", "uaˈine"],
+    to: ["uaine", "uaine"],
     fj: ["waini", "waini"],
     ceb: ["bino", "ˈbino"],
     jv: ["anggur", "aŋɡur"],

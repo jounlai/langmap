@@ -200,7 +200,7 @@ WORDS.sea = {
     cmg: ["ᠳᠠᠯᠠᠢ", "dalai"],
     co: ["mare", "ˈmare"],
     cop: ["ⲉⲓⲟⲙ", "ejom"],
-    cr: ["ᑭᐦᒋᑲᒥᕀ", "kihtsikamij"],
+    cr: ["ᑭᐦᒋᑲᒥᕀ", "kihtʃikamij"],
     crh: ["deñiz", "deˈŋiz"],
     crs: ["lanmer", "lãmɛr"],
     csb: ["mòrze", "ˈmwɛʒɛ"],

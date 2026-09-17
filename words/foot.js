@@ -364,7 +364,7 @@ WORDS.foot = {
     ce: ["ког", "koɡ"],  // ког covers the lower limb.
     cjy: ["脚", "tɕyəʔ˨"],  // Jin keeps them apart.
     ckb: ["پێ", "peː"],  // Sorani splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes دەست as dɛst.
-    ckt: ["гыткалгын", "ɣətkaɬɣən"],  // One word for the lower limb.
+    ckt: ["гыткаԓгын", "ɣətkaɬɣən"],  // One word for the lower limb.
     crh: ["ayaq", "ajaq"],  // ayaq covers the limb, with the Turkish-style bacaq also available. IPA is the plain reading of the orthography, following how this row's own hand cell writes el as el.
     crs: ["lipye", "lipje"],  // Follows French. IPA is the plain reading of the orthography, following how this row's own hand cell writes lanmen as lãmɛ̃.
     cs: ["noha", "ˈnoɦa"],  // Czech noha covers both; chodidlo is the anatomical foot.
@@ -380,14 +380,14 @@ WORDS.foot = {
     ee: ["afɔ", "àfɔ̀"],  // afɔ covers the limb. Its Gbe neighbour Fon builds a foot word áfọ̄-gúdo on the same root (Polyglotta Africana).
     el: ["πόδι", "ˈpoði"],  // Modern Greek πόδι covers the whole lower limb — a change from Ancient Greek, which split πούς from σκέλος.
     el_grc: ["πούς", "pǔːs"],  // πούς vs σκέλος; the split modern πόδι lost.
-    emp: ["hẽʼrũ", "hẽʔrũ"],  // One word for the lower limb. IPA is IDS's own transcription with the apostrophe written ʔ.
+    emp: ["hẽrũ", "hẽˈrũ"],  // One word for the lower limb. IPA is IDS's own transcription with the apostrophe written ʔ.
     en: ["foot", "fʊt"],  // English keeps foot and leg apart, and its hand cell behaves the same way (hand vs arm).
     enf: ["ӈо", "ŋɔ"],  // Samoyedic: one word for the lower limb.
     enm: ["fot", "foːt"],  // fot vs leg — the Norse loan leg is already in place by Middle English.
     eo: ["piedo", "piˈedo"],  // Esperanto copies the western European split.
     es: ["pie", "pje"],  // pie vs pierna. pata is the animal limb, covering both.
     ess: ["итыӷаӄ", "itɨɣaq"],  // Yupik keeps them apart.
-    esu: ["itʼgaq", "itʼɡaq"],  // As Siberian Yupik. IPA is the plain reading of the orthography, following how this row's own hand cell writes unirak as unirak.
+    esu: ["itʼgaq", "itʼɣaq"],  // As Siberian Yupik. IPA is the plain reading of the orthography, following how this row's own hand cell writes unirak as unirak.
     et: ["jalg", "jalɡ"],  // As Finnish. IPA is the plain reading of the orthography, following how this row's own hand cell writes käsi as kæsi.
     eu: ["oin", "ɔjn"],  // Basque splits oin from hanka/zango; its hand cell esku likewise stands against beso 'arm'.
     evn: ["халган", "xalɣan"],  // халган covers both.
@@ -437,7 +437,7 @@ WORDS.foot = {
     jam: ["fʊt", "fʊt"],  // Both English words survive, but IDS lists fʊt under 'leg' too, so the boundary is soft.
     jv: ["sikil", "sikil"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes tangan as taŋan.
     ka: ["ფეხი", "pʰɛxi"],  // Georgian ფეხი covers the whole lower limb; ტერფი is the foot proper. The hand row ხელი likewise covers hand and arm.
-    kbd: ["лъакъуэ", "ɬaːqʷa"],  // Class inferred from the Adyghe parallel.
+    kbd: ["лъакъуэ", "ɬaqʷa"],  // Class inferred from the Adyghe parallel.
     kca: ["кур", "kur"],  // кур covers both.
     kea: ["pé", "pɛ"],  // Follows Portuguese. IPA is the plain reading of the orthography, following how this row's own hand cell writes mon as mɔ̃.
     kek: ["oq", "oq"],  // WOLD splits them, though the Tzotzil cognate okol covers both. IPA is the plain reading of the orthography, following how this row's own hand cell writes ruqʼ as ruqʼ.
@@ -569,7 +569,7 @@ WORDS.foot = {
     tsg: ["siki", "siki"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes lima as lima.
     tt: ["аяк", "ajak"],  // аяк covers both.
     tzm: ["ⴰⴹⴰⵔ", "adˤar"],  // Berber aḍar covers foot and leg; the Tarifit cognate is explicitly glossed for both.
-    tzo: ["okol", "ˈʔɔkʰɔl"],  // Mayan languages commonly use one term (cf. Q'eqchi' oq); Tzotzil okol covers the limb.
+    tzo: ["okol", "ʔokol"],  // Mayan languages commonly use one term (cf. Q'eqchi' oq); Tzotzil okol covers the limb.
     udi: ["тур", "tur"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes кул as kul.
     udm: ["пыд", "pɨd"],  // пыд covers both.
     ug: ["پۇت", "put"],  // پۇت covers both; پاچاق is a separate leg word.

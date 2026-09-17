@@ -472,7 +472,7 @@ WORDS.wheel = {
     pap: ["wiel", "wil"],
     srn: ["wiel", "wil"],
     srm: ["wágífútu", "wáɡífútu"],
-    arn: ["chüngküll", "tʃɨŋkɨlʲ"],
+    arn: ["chüngküll", "tʃɨŋkɨʎ"],
     gcr: ["rou", "ʁu"],
     rcf: ["rou", "ru"],
     niv: ["кулкус", "kulkus"],
@@ -714,7 +714,7 @@ WORDS.wheel = {
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
     gez: ["መንኰራኵር", "mankʷaraːkʷər"],
     tig: ["ዕንክሎሎ", "ʕənkəlolo"],
-    bla: ["oʼtakáínakaʼsi", "oʔtakáínakaʔsi"],
+    bla: ["oʼtakáínakaʼsi", "oʔtakaːinakaʔsi"],
     cro: ["baaiihuli", "baːiːhuli"],
     win: ["hogís", "hoˈɡis"],
     cay: ["ęˀníhsga:ˀ", "ẽʔnihsɡaːʔ"],

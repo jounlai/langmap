@@ -210,7 +210,7 @@ WORDS.butterfly = {
     niv: ["тап", "tæp"],
     ket: ["ӄумлей", "qʊmʎɛj"],
     ykg: ["самналдьэгэй", "samnaldʲeɡej"],
-    ckt: ["кʼопалготкочьын", "qopaɬɣotkotɕʔən"],
+    ckt: ["кʼопаԓготкочьын", "qopaɬɣotkotɕʔən"],
     itl: ["вэвэчҳ", "βeβetʃχ"],  // Reduplicated ve-ve-.
     ess: ["яӄылъыӈытаӄ", "jaqɨtɬɨŋɡɨtaq"],
     ce: ["полла", "polːə"],
@@ -373,7 +373,7 @@ WORDS.butterfly = {
     kwa: ["mem", "mem"],
     quy: ["pillpintu", "piʎpintu"],  // The same Central Andean word as Aymara pilpintu; reduplicative pil-pin-.
     wmt: ["pirrpirntipirnti", "pirpiɳʈipiɳʈi"],  // Reduplicated pirrpirnti-pirnti.
-    com: ["ueyahcoró", "uejahkoɾo"],  // The database gives the form in a Spanish-influenced orthography.
+    com: ["ueyahkorooʼ", "uejahkoɾo"],  // The database gives the form in a Spanish-influenced orthography.
     mcf: ["podochued", "podotʃued"],  // The database also records tucudu.
     nij: ["kakupu", "kakupuʔ"],  // Reduplicative ka-kupu — the same kupu root that Javanese and Indonesian reduplicate as kupu-kupu.
     dtp: ["kuhibambang", "kuhibambaŋ"],  // Contains the reduplicative bam-bang also seen in Acehnese bambang. Smith writes kuhibambaŋ; respelled ng, as in the row's own tombolog/bohuang orthography.

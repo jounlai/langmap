@@ -444,7 +444,7 @@ WORDS.computer = {
     "ce": ["компьютер", "kɐmˈpjuter"],
     "ch": ["kompiuta", "komˈpiuta"],
     "qwc": ["yupana", "juˈpana"],
-    "dsb": ["computer", "ˈkɔmpjutɛr"],
+    "dsb": ["kompjuter", "ˈkɔmpjutɛr"],
     "dv": ["ކޮމްޕިއުޓަރު", "kompiuʈaɾu"],
     "dz": ["གློག་རིག", "lòʔ rìʔ"],
     "hsb": ["kompjuter", "ˈkɔmpjutɛr"],

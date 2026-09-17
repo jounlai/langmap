@@ -699,7 +699,7 @@ WORDS.honey = {
     crt: ["wonateʔ", "wonateʔ"],
     jup: ["nǽŋ", "nǽŋ"],
     kr: ["kəmagən", "kəmaɡən"],
-    arn: ["müski", "mɯski"],
+    arn: ["müski", "mɨski"],
     srm: ["höniwata", "hɔniwata"],
     djk: ["oniki", "oniki"],
     ter: ["mópo", "ˈmopo"],

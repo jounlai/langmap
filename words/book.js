@@ -81,7 +81,7 @@ WORDS.book = {
     pl: ["książka", "ˈkɕɔ̃ʂka"],
     cs: ["kniha", "ˈkɲɪɦa"],
     sk: ["kniha", "ˈkɲiɦa"],
-    sl: ["knjiga", "ˈknjiːɡa"],
+    sl: ["knjiga", "ˈkɲiːɡa"],
     bg: ["книга", "ˈkniɡɐ"],
     sr: ["књига", "ˈkɲiɡa"],
     hr: ["knjiga", "ˈkɲiɡa"],

@@ -171,7 +171,7 @@ WORDS.mountain = {
     alt: ["туу", "tuː"],
     ami: ["lutuk", "lutuk"],
     ang: ["beorg", "beorɡ"],
-    apw: ["dził", "tsɪɬ"],
+    apw: ["dził", "tsiɬ"],
     ar_eg: ["جبل", "ˈɡabal"],
     ar_lb: ["جبل", "ˈʒabal"],
     ar_lev: ["جبل", "ˈʒabal"],

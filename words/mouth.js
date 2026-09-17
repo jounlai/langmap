@@ -279,7 +279,7 @@ WORDS.mouth = {
     goh: ["mund", "munt"],
     got: ["𐌼𐌿𐌽𐌸𐍃", "munθs"],
     gsw: ["Muul", "muːl"],
-    gun: ["juru", "dʒuˈɾu"],
+    gun: ["juru", "ʒuˈɾu"],
     gv: ["beeal", "biːl"],
     h_vedic: ["मुख", "mukʰɐ"],
     ha: ["baki", "baːkiː"],

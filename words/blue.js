@@ -482,7 +482,7 @@ WORDS.blue = {
     chr: ["ᏌᎪᏂᎨ", "saɡoniɡe"],  // CLASS NOT FIRMLY SOURCED. Form is solid. Cherokee green ᎢᏤᏳᏍᏗ is transparently 'new/fresh thing', which is the profile of a derived rather than basic green, so ᏌᎪᏂᎨ may well be a grue term; I found no WCS/Berlin-Kay statement for Cherokee. Short form ᏌᎪᏂᎨ chosen to match the row's ᎩᎦᎨ rather than ᎩᎦᎨᎢ.
     cic: ["okchamali", "oktʃamali"],  // Kay & Maffi 2013 (WALS 134A) independently code the related Muskogean language Mikasuki as 'Green/blue'.
     ckb: ["شین", "ʃiːn"],  // Sorani شین is the same word as Kurmanji şîn and covers the same blue/green range; سەوز carries narrow green.
-    ckt: ["нылилилкʼин", "nəɬiɬiɬˈqin"],  // Chukchi нылилилк'ин vs нывытэчгытрык'эн (the green built on вытвыт 'leaf, grass').
+    ckt: ["ныԓиԓиԓкʼин", "nəɬiɬiɬˈqin"],  // Chukchi нылилилк'ин vs нывытэчгытрык'эн (the green built on вытвыт 'leaf, grass').
     ckv: ["puli", "puli"],  // Kavalan has a single basic term for blue+green. The row's red/white (tebari, busar) are this dictionary's tebaRi / busaR with R lower-cased, so puli needs no adaptation. Reduplicated Rapupuli = 'pale green / pale blue'.
     clk: ["pɹu55", "pɹu˥˥"],  // Idu pɹu⁵⁵ against tiŋ⁵⁵kɹiɑ⁵⁵ 'green'.
     cng: ["phiɑʴwa", "pʰiɑʴwa"],  // Northern Qiang (Mawo) phiɑʴwa against ʐɑn ku 'green'.
@@ -557,9 +557,9 @@ WORDS.blue = {
     hy: ["կապույտ", "kɑˈpujt"],  // Eastern Armenian կապույտ against կանաչ 'green'.
     iba: ["biru", "biɾu"],  // Class uncertain: Wiktionary and Wikipedia give two separate lexemes (biru 'blue', gadung 'green') but neither addresses whether one covers the other in real usage; Richards' An Iban-English Dictionary was not available to check. IPA uses ɾ to match this row's existing mirah/miɾah.
     id: ["biru", "ˈbiru"],  // Indonesian biru against hijau. WOLD scores biru as showing very little evidence of borrowing. The word descends from Old Javanese birū, which WAS a grue term (pale blue through greenish blue to turquoise) — the split is an Indonesian innovation.
-    ik: ["suŋauraaq", "suŋauɹaːq"],  // North Alaskan Iñupiaq: blue is suŋauraaq and green suŋaaqtaaq — the same suŋa- root with different derivational suffixes, so the cool range is one root specified two ways rather than two colour words.
+    ik: ["suŋauraaq", "suŋauʁaːq"],  // North Alaskan Iñupiaq: blue is suŋauraaq and green suŋaaqtaaq — the same suŋa- root with different derivational suffixes, so the cool range is one root specified two ways rather than two colour words.
     ilo: ["asul", "aˈsul"],  // The archive.org OCR of Rubino's page renders acute-accented vowels as digraphs — 'asiil' = asúl, 'nalabfiga' = nalabága, 'puriw' = puraw, 'kol6r' = kolór, 'b6rde' = bérde. The red/white/black forms in that list (nalabága, puraw, nangisit) are exactly this row's existing cells, so the list is the right register. asúl is from Spanish azul; green is the separate Spanish loan bérde.
-    inh: ["сийна", "ˈsiːna"],  // Ingush сийна vs баьццара, matching Chechen.
+    inh: ["сийна", "ˈsijna"],  // Ingush сийна vs баьццара, matching Chechen.
     is: ["blár", "plauːr̥"],  // blár vs grænn. NorthEuraLex gives plɑur̥; written here in the row's own style (cf. hvítur/kʰviːtʏr).
     it: ["blu", "blu"],  // Italian has two current blues: blu (dark) and azzurro (the sky's blue). IDS gives azzurro, NorthEuraLex gives both. blu is the unmarked basic term; azzurro is the sky-blue counterpart, so the row is worth reading alongside Russian.
     itb: ["asol", "asol"],  // Spanish loan (azul). The same source's item 725 'red' gives Itbayat 'vayah (mavayah)', 729 'white' 'hilak (mahilak)', 730 'black' 'vaeng (mavaeng)' — exactly this row's existing cells, so the Itbayat column is the right one. The loan does not take ma-. Yamada's own *Itbayaten-English Dictionary* is available only as an image PDF, so it could not be grepped.
@@ -605,10 +605,10 @@ WORDS.blue = {
     ku: ["şîn", "ʃiːn"],  // Kurmanji: NorthEuraLex gives the identical form şîn for BOTH blue and green — a single cool-range term.
     kum: ["гёк", "ɡœk"],  // Kumyk гёк against яшыл. Most IDS Kumyk dialects give ачыкъ гёк 'light gök' for blue specifically, which is exactly what a grue term needs a modifier for.
     kw: ["glas", "ɡlaːz"],  // Cornish glas covers blue, the green of growing things and grey, exactly as Welsh glas and Breton glaz do; Wiktionary lists glas first and the English loan blou second.
-    ky: ["көк", "kœk"],  // Kyrgyz көк, like Kazakh көк, is the inherited Turkic 'sky/blue' term and covers the green of growing things; жашыл is the narrow green.
+    ky: ["көк", "køk"],  // Kyrgyz көк, like Kazakh көк, is the inherited Turkic 'sky/blue' term and covers the green of growing things; жашыл is the narrow green.
     la: ["caeruleus", "kaeˈruleus"],  // Latin caeruleus (< caelum 'sky') against viridis. Latin's blue vocabulary is notoriously unstable (caeruleus, lividus, caesius, glaucus) and this is the sky term.
     lb: ["blo", "bloː"],  // Luxembourgish blo against gréng. Wiktionary cites the capitalised noun Blo; the row's other colour cells are adjectives, so the lower-case adjective is given.
-    lbe: ["някӏсса", "ɲakʼˈsːa"],  // Lak някӏсса vs щюлисса; хьхьинякӏсса in the Shali dialect adds 'dark'. Palochka matched to the row.
+    lbe: ["някӏсса", "ˈɲakʼsːa"],  // Lak някӏсса vs щюлисса; хьхьинякӏсса in the Shali dialect adds 'dark'. Palochka matched to the row.
     lez: ["вили", "ˈʋili"],  // Lezgian вили vs къацу; all three IDS Lezgian dialects agree.
     lg: ["bululu", "bululu"],  // Loan from English 'blue'. Luganda's inherited green is kiragala. Spelling: the dictionary prints bululu; as a class-5 noun it is commonly written bbululu (cf. this row's -ddugavu), so the gemination may need checking against a scholarly Luganda dictionary.
     lic: ["khi:u1", "kʰiːu˥˧"],  // Hlai (Baoting): IDS gives khi:u.1 for BOTH blue and green.
@@ -653,7 +653,7 @@ WORDS.blue = {
     ms: ["biru", "ˈbiru"],  // Malay biru against hijau, the same word and split as Indonesian.
     mt: ["blu", "bluː"],  // Maltese blu is an Italian loan and is the everyday blue. Maltese also keeps two Semitic cool-range adjectives: iżraq (the Arabic z-r-q blue) and ikħal (the k-ħ-l 'kohl' dark blue), both now narrower and more literary. Green is aħdar.
     my: ["ပြာ", "pjà"],  // Burmese ပြာ (the bare verb root, matching the row's နီ/ဖြူ) against စိမ်း 'green'. Sun's Written Burmese wordlist gives prɑ² for blue and sim³ for green.
-    myp: ["ʔahoasai", "ʔahoasai"],  // Pirahã: the same form is given for blue and for green, consistent with Everett's account of a two-term (light/dark) colour system. The surface repeats the source's transcription and is NOT the practical orthography the row's other cells use.
+    myp: ["xahoasai", "ʔahoasai"],  // Pirahã: the same form is given for blue and for green, consistent with Everett's account of a two-term (light/dark) colour system. The surface repeats the source's transcription and is NOT the practical orthography the row's other cells use.
     myv: ["сэнь", "seɲ"],  // Erzya сэнь vs пиже.
     mzh: ["watsan", "watsan"],  // IDS c̷ = /ts/. Stress mark dropped and č→ch/tʃ mapping follows this row's own IDS-derived cells (čot → chot/tʃot, pe'lah → pelaj/pelax).
     naq: ["ǃhoa", "ǃhoa"],  // Weak evidence: the Wiktionary entry carries no reference, and ǃhoa is also the ordinary verb 'to speak'. The class is inferred only from ǃgam being listed as a separate 'green' in the same (equally unreferenced) set. Haacke & Eiseb's Khoekhoegowab dictionary was not reachable to check. Treat as provisional; this is exactly the small-inventory system that most needs a real source.

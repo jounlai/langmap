@@ -77,10 +77,10 @@ WORDS.snow = {
     hsn_yz: ["雪", "ɕye˥˦"],
     czh_wy: ["雪", "ɕyə"],
     bla: ["kóónssko", "koːnsːko"],
-    hop: ["nuva", "nuva"],
+    hop: ["nuva", "nɨva"],
     com: ["tahkabi", "tahkabi"],
-    one: ["onyʌ́hteʼ", "onjʌhteʔ"],
-    ono: ["óʼgʌ:ʼ", "oʔɡʌːʔ"],
+    one: ["onyʌ́hteʼ", "onjʌ̃hteʔ"],
+    ono: ["óʼgęʼ", "oʔɡɛ̃ːʔ"],
     win: ["waa", "waː"],
     cro: ["bíia", "biːa"],
     hai: ["tʼaʼáaw", "tʼaʔɑːw"],
@@ -112,7 +112,7 @@ WORDS.snow = {
     mjg: ["qasi", "tɕasɿ"],
     sce: ["chasun", "tʂasun"],
     cjs: ["қар", "qar"],
-    dlg: ["хаар", "haːr"],
+    dlg: ["хаар", "xaːr"],
     blk: ["ဝထီ", "wa tʰi"],
     njo: ["rürjeb", "ɹɯtʃɯp"],
     es_pr: ["nieve", "njeβe"],
@@ -211,7 +211,7 @@ WORDS.snow = {
     nio: ["сирү", "sʲiry"],
     sel: ["сыры", "sɨrɨ"],
     kca: ["ӆоньсь", "ɬoɲsʲ"],
-    ckt: ["ыʼльыл", "əʔɬʔəɬ"],
+    ckt: ["ыʼԓьыԓ", "əʔɬəɬ"],
     kpy: ["гʼылгʼыл", "ʕəlʕəl"],
     itl: ["ӄәллал", "qəllal"],
     ykg: ["эримэ", "erime"],
@@ -523,7 +523,7 @@ WORDS.snow = {
     kum: ["къар", "qar"],
     nog: ["кар", "qar"],
     ady: ["осы", "wəsə"],
-    kbd: ["уэс", "wɛs"],
+    kbd: ["уэс", "was"],
     ab: ["асы", "asə"],
     abq: ["сы", "sə"],
     uby: ["źʷadzə", "ʑʷadzə"],
@@ -558,7 +558,7 @@ WORDS.snow = {
     zh_tj: ["雪", "ɕye˨˩"],
     zh_lz: ["雪", "ɕyɛ˩˧"],
     dng: ["щүә", "ɕyə˨˦"],
-    hsb: ["sněh", "snʲiːx"],
+    hsb: ["sněh", "ˈsnʲɛx"],
     csb: ["sniég", "sɲik"],
     rue: ["сніг", "snʲiɡ"],
     fur: ["nêf", "neːf"],
@@ -673,7 +673,7 @@ WORDS.snow = {
     he_mis: ["שלג", "ˈʃeleɡ"],
     hy_grab: ["ձիւն", "dziwn"],
     quz: ["ritʼi", "ritʼi"],
-    quy: ["ritʼi", "ritʼi"],
+    quy: ["rasu", "rasu"],
     crx: ["yus̲", "jus"],
     tsi: ["maadm", "maːdm̩"],
     thp: ["swúxwt", "swuxʷt"],
@@ -839,7 +839,7 @@ WORDS.snow = {
     pao: ["nɨbabi", "nɨpapi"], // UACV 2075 *nɨpa; the harvested pɨpa-pi was an n/p misreading
     ale: ["каниих̆", "qaniːχ"], // Comparative Eskimo Dictionary, PE *qaniɣ
     ess: ["анигу", "aniɣu"], // snow on the ground; falling snow is qanik
-    quc: ["saqtew", "saqteːw"], // ALMG — saq white + tew cold; granizo is saqbʼach
+    quc: ["saqtew", "saqtew"], // ALMG — saq white + tew cold; granizo is saqbʼach
     kjb: ["chew", "tʃew"], // ALMG — Nieve, hielo
     tzo: ["taiv", "taiv"], // frost/snowfall polyseme; ta xyal taiv it is snowing
     toj: ["sakal kʼinal", "sakal kʼinal"], // lit. white land — Lenkersdorf

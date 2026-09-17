@@ -411,15 +411,15 @@ WORDS.hundred = {
 
     // --- Turkic — *jǖz, and Siberian Turkic's ǰ- ------------------------
     slr: ["yüz", "jyz"],
-    ybe: ["yüz", "jyz"],
+    ybe: ["jüz", "jyz"],
     qxq: ["yüz", "jyz"],
     gag: ["üz", "yz"],
     kum: ["юз", "juz"],
     nog: ["юз", "juz"],
     krc: ["жюз", "ʒyz"],
     dlg: ["сүүс", "syːs"],
-    tyv: ["чүс", "tʃys"],
-    kjh: ["чӱс", "tʃys"],
+    tyv: ["чүс", "tɕys"],
+    kjh: ["чӱс", "tɕys"],
     cjs: ["чӱс", "tʃys"],
     alt: ["јӱс", "dʒys"],
 
@@ -679,7 +679,7 @@ WORDS.hundred = {
     bla: ["kiipippo", "kiːpipːo"],
     pot: ["ngotwak", "ŋɡʊdwɑk"],
     nv: ["neeznádiin", "neːznáːtiːn"],   // ten tens — neeznáá is this row's ten, -diin the decade suffix
-    esu: ["yuinaak talliman", "juinaːk talːiman"],   // five twenties: yuinaq is twenty, talliman this row's own five
+    esu: ["yuinaak talliman", "juinaːk taɬiman"],   // five twenties: yuinaq is twenty, talliman this row's own five
     cuk: ["dulatar", "dulataɾ"],   // five persons — dula twenty, atar this row's own five
     quc: ["jokʼal", "xokʼal"],   // five twenties, on the Mayan vigesimal count
     cak: ["wokʼal", "wokʼal"],   // five twenties
@@ -752,7 +752,7 @@ WORDS.hundred = {
     khg: ["བརྒྱ", "dʑa˥˧"],
     sip: ["བརྒྱ", "ɡʲɛ"],
     ce: ["бӏе", "bæː"],
-    inh: ["бӏаь", "bʕe"],
+    inh: ["бӏаь", "bʕæ"],
     lez: ["виш", "wiʃ"],
     agx: ["верш", "werʃ"],
     ddo: ["бишон", "biʃon"],

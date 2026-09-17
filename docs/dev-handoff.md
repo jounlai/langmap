@@ -269,6 +269,64 @@ contradict each other on Mongolic *bide, and they do — Santa has reanalysed th
 pair. Both are checked and correct; do not "fix" one to match the other.
 
 ## Outstanding / queued work
+
+### Review rally — paused after round 6 (2026-09-17), owner's call
+
+Rounds 3-6 applied **1,929 cells across 259 rows** and are logged as reviews 541-544. Rounds run
+**5 concurrent audit agents** (owner raised it from 3 on 2026-09-17). Resume by picking slices
+below; the machinery is all in place.
+
+**Use `tools/apply_rally_patch.mjs`.** It exists because five rounds rewrote the applier from
+scratch and each rewrite reintroduced a bug an earlier one had fixed. It refuses a drifted prior
+value, prose or an arrow in an IPA field, and a one-sided change that would leave a cell's surface
+and IPA holding two different words. All three refusals have caught real damage.
+
+**The brief that works**, refined over four rounds and worth copying verbatim:
+
+1. Run the structural tests *before* opening a source. They produced most of every round's volume.
+   The biggest single producer is **"a feature the row applies to only SOME of the cells that
+   qualify"** — the row is its own witness, no source needed.
+2. **The IPA field byte-identical to the surface** means the cell was never transcribed, it was
+   copied. One grep, highest-yield two minutes available.
+3. **Byte-identity across rows, inverted.** High identity between close varieties is EXPECTED; the
+   defect is identity where the sources say they differ, or a cell holding its *neighbouring
+   concept's* word — which ASJP or IDS named every single time it happened.
+4. **Duplicates one non-letter character apart** — an accent, a different apostrophe, a homoglyph.
+   The checker structurally cannot see these; rounds 4-6 found fifteen.
+5. **A writing system as its own witness.** Where the script encodes phonology, the Unicode
+   character names are a free deterministic checker: the Yi syllabary, Devanagari, New Tai Lue and
+   Pa'o all yielded to this. Require the deliverable to be **Unicode character names, not
+   characters** — one round's Yi patch arrived mangled into Buginese and had to be discarded.
+6. Require `current` as the exact string `surface /ipa/` and re-verify it from disk after writing.
+   Rounds 4-6 managed 2,687 of 2,687 exact.
+
+**Queued, in rough order of yield:**
+
+- **442 tone cells** carried by `tools/tone_policy_check.js`. 266 need no source — rule B is
+  "the surface already records the tone and the IPA dropped it". See review 544 for the split.
+- **10 rows whose Latin orthography marks tone in 9-28 cells while their IPA marks it nowhere**
+  (bla 28, umu 23, ker 21, bom 19, alq 16, ono 16, one 15, cay 15, jmc 14, cab 9 — 176 cells).
+  Rule B stays silent on them by design; **one fact per row** — what the acute means in that
+  orthography — decides all 176.
+- **301 rows still have no `meta.sources`.** The remaining un-audited ones are the ~26 Romance
+  national varieties (audited in review 539 but the citations were never recorded) and the ~40
+  other national varieties.
+- **A cross-row provenance scan.** The recurring failure across rounds 3-6 is provenance, not
+  typos: cjy_lv←Taiyuan, zh_zz←Jinan, xpu←phn, kxm←km, Pa'o←Burmese, Pyu←proto-forms,
+  Situ←Written Tibetan, S. Qiang←N. Qiang, Bodo←a misread vowel sign, ady←kbd. Cheap
+  deterministically, expensive one rally at a time.
+- **`meta.official` has a second import cap at exactly 130 characters, 17 rows**, cut mid-word.
+  `meta_import_cap_check.js` only ratchets CAP=70.
+- **`meta.coverage` enum drift**: CONTRIBUTING.md documents 7 values, the validator allows 4.
+
+**Owner decisions waiting** (each recorded with its evidence in reviews 541-544, none blocking):
+`meta.toneNotation` as a schema addition, 375 rows one word each; the Indo-Aryan dental diacritic
+(~90 cells, every row marks it in a minority *including* the well-sourced hi/bn/pa); rows that
+record nothing their parent does not (`de_lu`, `en_ke`, `es_uy`, `zkt`, `yuy`); rows coded as the
+wrong language (`en_ng2` is Ghanaian English, `pt_gw` is Guinea-Bissau Kriol, `afb`/`ar_gulf`
+share an ISO code); and five `we` routes reading `single` on a single unlabelled form, which the
+atlas's own rule forbids.
+
 1. **Tier-2 AR/BR languages** (if desired): Kadiwéu, Apinajé, Xerénte, Krahô, Paresí, Wapishana… (many NOT in HG DB → need Wiktionary/grammars).
 
    **Four of the five "un-sourceable" ones are sourceable after all** (found 2026-08-27). The checklist above records that the Hunter-Gatherer DB blocked Sateré-Mawé #464 and Mundurukú #455 — but the Tupían Lexical Database is cached locally at `~/langmap-work/lb/tuled_*.csv` and carries them richly, in a phonemic transcription, from Harrison (2013) and the other standard dictionaries:

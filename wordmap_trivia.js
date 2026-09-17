@@ -38,7 +38,7 @@ const TRIVIA_ARTICLES = [
     },
     body: {
       en: `
-<p>Deep in the Brazilian Amazon, fewer than 800 people speak <strong>Pirahã</strong> (pronounced roughly <em>pee-da-HAN</em>). It is a language isolate with no proven relatives, and its reported grammatical properties are debated in modern linguistics.</p>
+<p>Deep in the Brazilian Amazon, a few hundred people speak <strong>Pirahã</strong> (pronounced roughly <em>pee-da-HAN</em>). It is a language isolate with no proven relatives, and its reported grammatical properties are debated in modern linguistics.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="myp" data-zoom="6">📍 Show Pirahã on the map</button>
@@ -48,7 +48,7 @@ const TRIVIA_ARTICLES = [
 <p>The fieldworker who triggered the storm is <strong>Daniel Everett</strong>, a missionary-turned-linguist who lived with the Pirahã for years. According to his reports, the language is missing several things that 20th-century linguists had argued were universal in human language:</p>
 
 <ul>
-  <li><strong>No exact number words.</strong> The community uses only <em>hói</em> ("a small amount") and <em>hoí</em> ("a larger amount") — a contrast of quantity, not of count. In experiments, Pirahã speakers can lay out a matching row of objects one-for-one, up to ten, almost without error, but they fail as soon as the set has to be carried across space or time: hidden behind a screen, turned at right angles, or dropped one by one into a can.</li>
+  <li><strong>No exact number words.</strong> The community uses only <em>hói</em> ("a small amount"), <em>hoí</em> ("a larger amount") and <em>baágiso</em> ("many") — a contrast of quantity, not of count. In experiments, Pirahã speakers can lay out a matching row of objects one-for-one, up to ten, almost without error, but they fail as soon as the set has to be carried across space or time: hidden behind a screen, turned at right angles, or dropped one by one into a can.</li>
   <li><strong>No basic colour vocabulary.</strong> Colours are described compositionally — "like blood", "unripe", "dirty" — rather than with fixed labels like "red" or "green".</li>
   <li><strong>No grammatical recursion.</strong> Sentences cannot be embedded inside other sentences. This directly challenges <strong>Noam Chomsky's</strong> claim that recursion is <em>the</em> defining feature that separates human language from animal communication. If Everett is right, Pirahã breaks the theory.</li>
   <li><strong>No creation myths, no fiction, no stories about ancestors no living person knew.</strong> A strong cultural norm — Everett calls it the "immediacy of experience" principle — restricts speech to what the speaker or a living interlocutor has personally witnessed.</li>
@@ -68,7 +68,7 @@ const TRIVIA_ARTICLES = [
 <p>The cultural norm restricting speech to directly experienced events, and communication by whistling, humming, singing, and shouting, are less contested but still studied. Whatever the outcome of the recursion debate, Pirahã has kept an older question in view: how do language, culture, and thought shape one another?</p>
       `,
       ja: `
-<p>ブラジル・アマゾンの奥地で、700〜800人ほどが<strong>ピダハン語（Pirahã）</strong>を話す。親縁関係が証明されていない孤立言語で、数詞や再帰構造をめぐる記述は現在も議論されている。</p>
+<p>ブラジル・アマゾンの奥地で、数百人ほどが<strong>ピダハン語（Pirahã）</strong>を話す。親縁関係が証明されていない孤立言語で、数詞や再帰構造をめぐる記述は現在も議論されている。</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="myp" data-zoom="6">📍 地図でピダハン語を見る</button>
@@ -78,7 +78,7 @@ const TRIVIA_ARTICLES = [
 <p>論争に火をつけたのは、伝道師から言語学者に転じ、長年ピダハン社会に住み込んだ<strong>ダニエル・エヴェレット</strong>である。彼の報告によれば、ピダハン語には、20世紀の言語学が「人類言語の普遍要素」と考えてきたものがいくつも欠けているという。</p>
 
 <ul>
-  <li><strong>正確な数詞がない。</strong> 使われるのは <em>hói</em>（少し）と <em>hoí</em>（多め）の二語だけで、これは数ではなく<strong>量の対比</strong>にすぎない。実験では、ピダハン語話者は目の前に並んだ品物を10個までほぼ誤りなく一対一で並べ直せる。つまずくのは、衝立で隠されたり、直角に置き換えられたり、缶に一つずつ落とし込まれたりして、量を空間や時間をまたいで運ばなければならなくなったときだ。</li>
+  <li><strong>正確な数詞がない。</strong> 使われるのは <em>hói</em>（少し）、<em>hoí</em>（多め）、<em>baágiso</em>（たくさん）の三語だけで、これは数ではなく<strong>量の対比</strong>にすぎない。実験では、ピダハン語話者は目の前に並んだ品物を10個までほぼ誤りなく一対一で並べ直せる。つまずくのは、衝立で隠されたり、直角に置き換えられたり、缶に一つずつ落とし込まれたりして、量を空間や時間をまたいで運ばなければならなくなったときだ。</li>
   <li><strong>基本色名がない。</strong> 色は「血のような」「熟れていない」「汚れた」などと比喩的に説明されるだけで、「赤」「緑」のような固定ラベルは存在しない。</li>
   <li><strong>再帰がない。</strong> 文を文の中に埋め込む構造を持たない。これは<strong>ノーム・チョムスキー</strong>の主張──「再帰こそが人間言語を動物の伝達と隔てる唯一にして本質的特徴である」──を真っ向から揺さぶる発見だった。エヴェレットが正しければ、チョムスキー理論はピダハン語ひとつで崩れることになる。</li>
   <li><strong>創世神話も、虚構も、誰も会ったことのない祖先の物語もない。</strong> エヴェレットが「経験の直接性」原理と呼ぶ強い文化規範があり、話し手か、あるいは生きている誰かが実際に見た出来事しか語ってはならない、とされる。</li>
@@ -142,7 +142,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="compare" data-codes="es,kab,shi">🗣 Compare Spanish, Berber and Kabyle</button>
   </div>
   
-  <p>By the 1980s Silbo was nearly extinct: emigration, paved roads and telephones had hollowed out the shepherding economy that sustained it. The Cabildo Insular de La Gomera responded with a radical move — in 1999 they made <strong>Silbo Gomero a compulsory subject in every public primary school on the island</strong>. Children now spend roughly 25 minutes a week learning to whistle, and tens of thousands of pupils have passed through the programme.</p>
+  <p>By the 1980s Silbo was nearly extinct: emigration, paved roads and telephones had hollowed out the shepherding economy that sustained it. The Cabildo Insular de La Gomera responded with a radical move — in 1999 they made <strong>Silbo Gomero a compulsory subject in every public primary school on the island</strong>. Children now spend roughly 25 minutes a week learning to whistle, and thousands of pupils have passed through the programme.</p>
   
   <blockquote>"It is the only whistled language fully developed and practised by a sizeable community… an exceptional example of the cultural creativity of humanity." — UNESCO inscription text, 2009</blockquote>
   
@@ -406,7 +406,7 @@ const TRIVIA_ARTICLES = [
   <p>Ubykh is especially well known for its phoneme inventory:</p>
   
   <ul>
-    <li><strong>84 phonemic consonants.</strong> Pharyngealised, labialised, palatalised, ejective — every parameter that can multiply a consonant series, Ubykh used. Some published counts go as high as 81, others 83 or 84; even the lowest figure is higher than any non-Khoisan language.</li>
+    <li><strong>84 phonemic consonants.</strong> Pharyngealised, labialised, palatalised, ejective — every parameter that can multiply a consonant series, Ubykh used. Published counts range from about 80 to 84, depending on whether a handful of consonants confined to loanwords are included; even the lowest figure is higher than any non-Khoisan language.</li>
     <li><strong>Two phonemic vowels.</strong> Just <em>/ə/</em> and <em>/a/</em>, sometimes analysed as a single underlying vowel whose colour is determined by surrounding consonants. The contrast between vowels essentially does no work; the consonants do everything.</li>
     <li><strong>Polypersonal verb morphology.</strong> A single Ubykh verb can encode subject, direct object, indirect object, location, direction, instrument and benefactive arguments in one tightly stacked word — a structural feature shared with its Northwest Caucasian cousins.</li>
   </ul>
@@ -594,7 +594,7 @@ const TRIVIA_ARTICLES = [
     <li><strong>Kx'a</strong> — a small family containing Juǀ'hoan and ǂHoan, with elaborate click inventories of their own.</li>
   </ul>
   
-  <p>To these three families one usually adds <strong>two isolates of East Africa</strong>: <strong>Hadza</strong>, spoken by perhaps a thousand hunter-gatherers around Lake Eyasi in Tanzania, and <strong>Sandawe</strong>, about 150 km to the south in the rocky uplands of Dodoma Region. Both have clicks, but they sit differently: <strong>Hadza</strong> has no demonstrated relatives anywhere, while <strong>Sandawe</strong> may be a distant relative of the Khoe family — a link Tom Güldemann and Edward Elderkin have argued on lexical and pronominal evidence is promising, though short of proven. The old umbrella term "Khoisan" lumped all five together, but Güldemann and others have spent the last twenty years arguing — convincingly — that <strong>Khoisan is an areal grouping, not a genetic family</strong>.</p>
+  <p>To these three families one usually adds <strong>two isolates of East Africa</strong>: <strong>Hadza</strong>, spoken by perhaps a thousand hunter-gatherers around Lake Eyasi in Tanzania, and <strong>Sandawe</strong>, about 150 km to the south in the rocky uplands of Dodoma Region. Both have clicks, but they sit differently: <strong>Hadza</strong> has no demonstrated relatives anywhere, while <strong>Sandawe</strong> may be a distant relative of the Khoe family — a link Tom Güldemann and Edward Elderkin have argued on lexical and pronominal evidence is promising, though short of proven. The old umbrella term "Khoisan" lumped all five together, but Güldemann and others have argued — convincingly — that <strong>Khoisan is an areal grouping, not a genetic family</strong>.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="compare" data-codes="hts,sad,naq,xh,zu">🗣 Compare Hadza, Sandawe, Khoekhoe, Xhosa, Zulu</button>
@@ -618,7 +618,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The most striking sociolinguistic fact about clicks is that they <strong>jumped families</strong>. The Bantu languages <strong>Zulu</strong>, <strong>Xhosa</strong>, <strong>Southern Sotho</strong> and <strong>Swati</strong> all have phonemic clicks — three click types in Zulu and Xhosa, a single one in Southern Sotho and Swati — even though their nearest Bantu relatives further north have none whatsoever. The explanation, worked out in detail by historians and linguists from <strong>Anthony Traill</strong> to <strong>Rainer Vossen</strong>, runs roughly as follows: as Bantu-speaking farmers moved south of the Limpopo in the second millennium CE, they encountered, intermarried with and partly absorbed Khoe and San communities. The bilingual generations who grew up in mixed households brought clicks across the family boundary, especially in respectful and ritual vocabulary. The name <em>isiXhosa</em> carries one itself: straight after the noun-class prefix, the <em>xh</em> is an aspirated lateral click.</p>
 
-  <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">If you click <strong>Compare</strong> above, you'll notice that not one of this map's everyday basic words actually <em>contains</em> a click in Xhosa or Zulu. That's the second half of the story: clicks in Bantu live almost entirely in <strong>cultural and respectful vocabulary</strong> — names (<em>iXhosa</em>, <em>uXamu</em>), animals (<em>iqaqa</em> "polecat", <em>ixoxo</em> "frog"), greetings, taboo replacements in <em>hlonipha</em> avoidance speech, and Khoekhoe loans (<em>iCawa</em> "Sunday"). Inherited Bantu words for water / fire / sun / hand / eye remain click-free.</p>
+  <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">If you click <strong>Compare</strong> above, you'll notice how rarely one of this map's everyday basic words actually <em>contains</em> a click in Xhosa or Zulu. That's the second half of the story: clicks in Bantu live almost entirely in <strong>cultural and respectful vocabulary</strong> — names (<em>iXhosa</em>, <em>uXamu</em>), animals (<em>iqaqa</em> "polecat", <em>ixoxo</em> "frog"), greetings, taboo replacements in <em>hlonipha</em> avoidance speech, and Khoekhoe loans (<em>iCawa</em> "Sunday"). Inherited Bantu words for water / fire / sun / hand / eye remain click-free — though <em>iqanda</em> "egg" carries one in both languages, and so does Zulu <em>iqhwa</em> "snow".</p>
 
   <p>The mechanism is now reasonably well reconstructed. Pakendorf, Gunnink, Sands and Bostoen (2017), combining linguistic and genetic evidence, conclude that the copying of clicks accompanied large-scale inmarriage of Khoisan-speaking women into Bantu-speaking communities, with part of the effect attributable to language shift by Khoisan speakers themselves. On that account clicks did not arrive the way a casual loanword arrives: they came through households in which children grew up hearing both languages, and once a generation had them, they were simply native consonants.</p>
   
@@ -669,7 +669,7 @@ const TRIVIA_ARTICLES = [
   
   <p>社会言語学的にもっとも興味深いのは、吸着音が<strong>語族を飛び越えた</strong>事実だ。バントゥー諸語の<strong>ズールー語</strong>、<strong>コサ語</strong>、<strong>南ソト語</strong>、<strong>スワティ語</strong>も吸着音を音素として持つ。ズールー語とコサ語は3種、南ソト語とスワティ語は1種だけだが、北方の近縁バントゥー諸語にはまったくない。歴史言語学者ら（アンソニー・トレイル、ライナー・フォッセンほか）の説明はこうだ──第二千年紀、バントゥー系農耕民がリンポポ川以南に進出する過程でコエ系・サン系の人々と混血・統合し、混合家庭で育ったバイリンガル世代が、敬語や儀礼語彙を中心に吸着音を持ち込んだのである。民族名 <em>isiXhosa</em> にもそれは残っている──接頭辞のすぐあとの <em>xh</em> が有気の側面吸着音である。</p>
 
-  <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">上の「比較」ボタンを押すと、コサ語・ズールー語では、この地図の基本語彙のどれ一つとして吸着音を含んでいないことに気づくはずだ。これがもう一つのポイント。バントゥー語族における吸着音は<strong>文化・敬語・儀礼の語彙</strong>にほぼ集中している──民族名（<em>iXhosa</em>、<em>uXamu</em>）、動物名（<em>iqaqa</em>「ケナガイタチ」、<em>ixoxo</em>「カエル」）、挨拶、義母などへの婉曲語（<em>hlonipha</em> 回避語法）、コエコエ語からの借用語（<em>iCawa</em>「日曜日」）など。「水・火・太陽・手・目」といったバントゥー祖語から継承された基本語彙には吸着音は出てこない。</p>
+  <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">上の「比較」ボタンを押すと、コサ語・ズールー語では、この地図の基本語彙で吸着音を含む語はごくわずかしかないことに気づくはずだ──両語の「卵」<em>iqanda</em>、そしてズールー語の「雪」<em>iqhwa</em>、ほぼそれだけである。これがもう一つのポイント。バントゥー語族における吸着音は<strong>文化・敬語・儀礼の語彙</strong>にほぼ集中している──民族名（<em>iXhosa</em>、<em>uXamu</em>）、動物名（<em>iqaqa</em>「ケナガイタチ」、<em>ixoxo</em>「カエル」）、挨拶、義母などへの婉曲語（<em>hlonipha</em> 回避語法）、コエコエ語からの借用語（<em>iCawa</em>「日曜日」）など。「水・火・太陽・手・目」といったバントゥー祖語から継承された基本語彙には吸着音は出てこない。</p>
 
   <p>この移入の経路は、いまではかなり明確に再構されている。Pakendorf・Gunnink・Sands・Bostoen (2017) は言語学と遺伝学の証拠を突き合わせ、吸着音の取り込みはコイサン系の女性がバントゥー系共同体へ大規模に嫁入りした過程に伴うものであり、一部はコイサン系話者自身の言語交替によるものだと結論づけている。つまり吸着音は、ふつうの借用語のように入ってきたのではない。二つの言語が飛び交う家庭で子どもが育ち、その世代が身につけてしまえば、それはもう外来の音ではなく母語の子音だった、ということである。</p>
   
@@ -1051,7 +1051,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The single person most associated with the revival is <strong>Eliezer Ben-Yehuda</strong> (1858–1922), a Lithuanian-born Jewish scholar who emigrated to Ottoman Palestine in 1881 with one obsession: that Jews would only become a nation again if they spoke Hebrew. He made his own household the first laboratory. His son <strong>Itamar Ben-Avi</strong>, born in Jerusalem in 1882, is generally regarded as the <strong>first native speaker of Modern Hebrew in roughly 1,700 years</strong>. Ben-Yehuda forbade any other language in the home; his wife, who didn't speak Hebrew when they married, learned it on the job. Itamar reportedly spoke no language at all until he was around four, and worried family members urged Ben-Yehuda to relent. He didn't.</p>
   
-  <p>Ben-Yehuda also waged a vocabulary war. Biblical and Mishnaic Hebrew between them have perhaps 8,000 lemmas — fine for prayer, hopeless for buying a newspaper. So Ben-Yehuda invented words. Some are still everyday Israeli speech:</p>
+  <p>Ben-Yehuda also waged a vocabulary war. Biblical Hebrew has perhaps 8,000 lemmas — fine for prayer, hopeless for buying a newspaper. So Ben-Yehuda invented words. Some are still everyday Israeli speech:</p>
   
   <ul>
     <li><strong>milon</strong> (מילון) — "dictionary", from <em>milah</em> "word".</li>
@@ -1255,9 +1255,9 @@ const TRIVIA_ARTICLES = [
   
   <p>Twentieth-century history was cruel to Esperantists. Hitler condemned the language in <em>Mein Kampf</em> as a Jewish conspiracy; Zamenhof's three children were murdered in the Holocaust. Stalin imprisoned and executed Soviet Esperantists in the 1937–38 purges as "cosmopolitan spies". The movement survived both.</p>
   
-  <p>Today Esperanto has perhaps <strong>two million speakers</strong> at varying levels, and around <strong>a thousand native speakers</strong> known as <em>denaskuloj</em>, raised in bilingual households where Esperanto is one of the home languages. Duolingo's Esperanto course alone has enrolled over a million learners. Its sustained community, extensive literature and native speakers distinguish it from most other constructed languages.</p>
+  <p>Today Esperanto has perhaps <strong>two million speakers</strong> at varying levels — only a fraction of them, perhaps a hundred thousand, use it fluently — and around <strong>a thousand native speakers</strong> known as <em>denaskuloj</em>, raised in bilingual households where Esperanto is one of the home languages. Duolingo's Esperanto course alone has enrolled over a million learners. Its sustained community, extensive literature and native speakers distinguish it from most other constructed languages.</p>
   
-  <p>Zamenhof never claimed Esperanto would replace anyone's mother tongue. He wanted a <em>dua lingvo</em> — a second language — equally foreign to everyone, so that no native speaker would ever have the upper hand at the negotiating table. A century and a half later, the project is small, but it is still alive, still neutral, and still hopeful — exactly as its founder, <em>Doktoro Esperanto</em>, signed his name.</p>
+  <p>Zamenhof never claimed Esperanto would replace anyone's mother tongue. He wanted a <em>dua lingvo</em> — a second language — equally foreign to everyone, so that no native speaker would ever have the upper hand at the negotiating table. Nearly a century and a half later, the project is small, but it is still alive, still neutral, and still hopeful — exactly as its founder, <em>Doktoro Esperanto</em>, signed his name.</p>
         `,
         ja: `
   <p>1887年7月、ワルシャワに住む若い眼科医が、自費で40ページの小冊子を出した。ペンネームは<em>Doktoro Esperanto</em>──「希望する者という名の博士」。書名は<strong>Lingvo Internacia</strong>（国際語）。やがてこのペンネームは言語そのものの名となり、<strong>L・L・ザメンホフ</strong>は、それまで誰も成し遂げられず今も誰も並ぶことのない偉業を達成した。普通の人々が「実際に話したい」と思う人工言語を作り上げたのだ。</p>
@@ -1364,7 +1364,7 @@ const TRIVIA_ARTICLES = [
   
   <p>Critics call it impractical: you cannot do tax law in Toki Pona, and even basic arithmetic is awkward (the language famously had no native words for numbers above two; later the system <em>wan, tu, luka, mute, ale</em> gave 1, 2, 5, 20, 100/many, in a tally-stick style).</p>
   
-  <p>Yet the community keeps growing. Today there are estimated to be <strong>several thousand active speakers</strong>, a dedicated subreddit, a <em>ma pona pi toki pona</em> Discord with tens of thousands of members, original poetry, music albums, and even a constructed script — <em>sitelen pona</em> — where each glyph is a tiny pictogram of one core word. Whether Toki Pona makes you wiser is debatable; that it makes its speakers <em>think harder about what they actually mean</em> is not.</p>
+  <p>Yet the community keeps growing. Today there are estimated to be <strong>several thousand active speakers</strong>, a dedicated subreddit, a <em>ma pona pi toki pona</em> Discord that is the largest gathering of Toki Pona speakers anywhere, original poetry, music albums, and even a constructed script — <em>sitelen pona</em> — where each glyph is a tiny pictogram of one core word. Whether Toki Pona makes you wiser is debatable; that it makes its speakers <em>think harder about what they actually mean</em> is not.</p>
         `,
         ja: `
   <p>2001年、カナダの言語学者・翻訳家<strong>ソーニャ・ラング</strong>（Sonja Elen Kisa）は鬱に苦しんでいた。回復の過程で、彼女は「本当に必要なものだけで表現を強いる」極小設計の言語を考案しはじめる。それが<strong>トキポナ（toki pona）</strong>──「良い言葉／単純な言葉」だった。</p>
@@ -1663,7 +1663,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The triumph was followed by tragedy. In 1838–1839, despite the Cherokee Nation's literate, constitutional, newspaper-publishing modern state, President Martin Van Buren's administration — executing the removal treaty Andrew Jackson had secured — forced them westward on the <strong>Trail of Tears</strong>; an estimated 4,000 of 16,000 Cherokee died. The syllabary went with them. Sequoyah himself died in 1843 in Mexico, searching for a rumoured separated band of Cherokee.</p>
   
-  <p>Today the Cherokee syllabary is taught in immersion schools in Tahlequah, Oklahoma and Cherokee, North Carolina. It is in Unicode (U+13A0–U+13FF), supported by Apple and Google operating systems, and has been used to write everything from translations of the Bible to modern social-media posts. The California coast redwood <em>Sequoia sempervirens</em> is traditionally said to be named after him, though how Endlicher arrived at the name in 1847 is still argued over. The man could not read. He gave a nation a script.</p>
+  <p>Today the Cherokee syllabary is taught in immersion schools in Tahlequah, Oklahoma and Cherokee, North Carolina. It is in Unicode — the original block at U+13A0–U+13FF, joined in 2015 by a Cherokee Supplement block for the lowercase letters — supported by Apple and Google operating systems, and has been used to write everything from translations of the Bible to modern social-media posts. The California coast redwood <em>Sequoia sempervirens</em> is traditionally said to be named after him, though how Endlicher arrived at the name in 1847 is still argued over. The man could not read. He gave a nation a script.</p>
         `,
         ja: `
 <p><strong>シクウォイア</strong>（ᏍᏏᏉᏯ、英語名 George Guess、約1770〜1843）は、他言語の読み書きを身につける前にチェロキー語の音節文字を作った。19世紀には借用説も唱えられたが、音節文字の成立過程とチェロキー共同体による採用は記録に残っている。</p>
@@ -1933,7 +1933,7 @@ const TRIVIA_ARTICLES = [
 
 <p>Compare the situation with the still-undeciphered <strong>Cypro-Minoan</strong> script of Bronze Age Cyprus, or the even older <strong>Cretan hieroglyphs</strong> on which Linear A itself appears to be based. Bronze Age Aegean writing is a small forest of related scripts encoding at least two and possibly three or four different languages, and only one of them, the latecomer Linear B, has yielded.</p>
   
-  <p>The hope is that excavations at sites like Zominthos or Petras will eventually yield a long bilingual inscription — perhaps Minoan paired with Egyptian or Akkadian — or simply a Linear A tablet long enough for statistical and morphological analysis to gain traction. Until then, Linear A remains the great unread book of European prehistory, hiding in plain sight on clay tablets we have been holding for a hundred years.</p>
+  <p>The hope is that excavations at sites like Zominthos or Petras will eventually yield a long bilingual inscription — perhaps Minoan paired with Egyptian or Akkadian — or simply a Linear A tablet long enough for statistical and morphological analysis to gain traction. Until then, Linear A remains the great unread book of European prehistory, hiding in plain sight on clay tablets we have been holding for more than a century.</p>
         `,
         ja: `
   <p>紀元前<strong>1800〜1450年</strong>頃、クレタ島のミノア文明は宮殿の会計記録や奉納銘文を音節文字で残した。これを<strong>線文字A（Linear A）</strong>と呼ぶ。クノッソス、ファイストス、アギア・トリアダ、ザクロスなどから出土した<strong>約1400点</strong>の刻文が現存し、その大半は粘土板に刻まれた短い帳簿や奉納銘である。</p>
@@ -2110,7 +2110,7 @@ const TRIVIA_ARTICLES = [
     <button type="button" class="trivia-action" data-action="setword" data-word="eye" data-code="tue">👁️ See Tuyuca "Eye"</button>
   </div>
   
-  <p>Tuyuca is not unique. <strong>Evidentiality</strong> as a grammatical category is found across the Tukanoan family, in Quechua, Aymara, Turkish (the famous <em>-miş</em>), Bulgarian, Korean, many Tibeto-Burman languages, and across Amazonia. <strong>Alexandra Aikhenvald</strong>'s typological survey (2004) collected nearly 500 languages with grammaticalised evidentials. But Tuyuca stands out for the <em>granularity</em> of its system — five distinctions where most languages make two or three — and for being among the very first to be carefully described.</p>
+  <p>Tuyuca is not unique. <strong>Evidentiality</strong> as a grammatical category is found across the Tukanoan family, in Quechua, Aymara, Turkish (the famous <em>-miş</em>), Bulgarian, Korean, many Tibeto-Burman languages, and across Amazonia. <strong>Alexandra Aikhenvald</strong>'s typological survey (2004) drew on grammars of more than 500 languages, and found that roughly a quarter of the world's languages mark information source obligatorily. But Tuyuca stands out for the <em>granularity</em> of its system — five distinctions where most languages make two or three — and for being among the very first to be carefully described.</p>
   
 
 <p>The implications for cognition are debated. Some researchers, including Lev Vygotsky's intellectual heirs and Aikhenvald herself, argue that habitually marking the source of information cultivates a different orientation to evidence and rumour. Others note that English speakers can express the same distinctions — they just are not <em>forced</em> to. The current consensus is somewhere in between: obligatory grammaticalisation makes a category cognitively salient, but does not make speakers of other languages incapable of the same distinctions.</p>

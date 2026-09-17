@@ -5,7 +5,7 @@ window.TRIVIA_I18N['zh'] = {
     title: '皮拉罕语——据说没有数词的语言',
     summary: '亚马逊深处的孤立语言。据称没有数词、基本颜色词,也没有语法上的递归——它动摇了60年来的语言学理论。',
     body: `
-<p>在巴西亚马逊深处,约700到800人讲<strong>皮拉罕语(Pirahã)</strong>(大致读作 <em>pee-da-HAN</em>)。它是一种孤立语言——地球上没有任何已被证实的亲属语言——也是现代语言学中争议最激烈的语言之一。</p>
+<p>在巴西亚马逊深处,只有几百人讲<strong>皮拉罕语(Pirahã)</strong>(大致读作 <em>pee-da-HAN</em>)。它是一种孤立语言——地球上没有任何已被证实的亲属语言——也是现代语言学中争议最激烈的语言之一。</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="myp" data-zoom="6">📍 在地图上查看皮拉罕语</button>
@@ -267,7 +267,7 @@ window.TRIVIA_I18N['zh'] = {
 
 <p>关于搭嘴音最引人注目的社会语言学事实是它们<strong>跨越了语系</strong>。班图诸语<strong>祖鲁语</strong>、<strong>科萨语</strong>、<strong>南索托语</strong>和<strong>斯瓦蒂语</strong>都有音位搭嘴音——祖鲁语和科萨语有三种,南索托语和斯瓦蒂语只有一种——尽管更北边的近亲班图语完全没有。从<strong>安东尼·特赖尔</strong>到<strong>赖纳·福森</strong>的历史学家和语言学家详细论证的解释大致是:讲班图语的农人在公元第二千年向林波波河以南迁移时,接触、通婚并部分吸收了科伊和桑共同体。在混合家庭中成长的双语世代将搭嘴音带过了语系边界,尤其是在敬辞和仪式词汇中。族名 <em>isiXhosa</em> 自己就带着一个:名词类别前缀之后的 <em>xh</em>,正是一个送气舌侧搭嘴音。</p>
 
-<p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">如果你点击上面的<strong>比较</strong>,会发现在科萨语和祖鲁语里,本地图的日常基本词汇没有一个<em>含有</em>搭嘴音。这是故事的另一半:班图语中的搭嘴音几乎完全存在于<strong>文化与敬辞词汇</strong>中——名称(<em>iXhosa</em>、<em>uXamu</em>)、动物(<em>iqaqa</em>"臭鼬"、<em>ixoxo</em>"青蛙")、问候、<em>hlonipha</em>避讳语中的禁忌替换,以及科伊科伊借词(<em>iCawa</em>"星期日")。继承自原始班图的"水/火/太阳/手/眼"等词依然无搭嘴音。</p>
+<p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">如果你点击上面的<strong>比较</strong>,会发现在科萨语和祖鲁语里,本地图的日常基本词汇几乎没有一个<em>含有</em>搭嘴音。这是故事的另一半:班图语中的搭嘴音几乎完全存在于<strong>文化与敬辞词汇</strong>中——名称(<em>iXhosa</em>、<em>uXamu</em>)、动物(<em>iqaqa</em>"臭鼬"、<em>ixoxo</em>"青蛙")、问候、<em>hlonipha</em>避讳语中的禁忌替换,以及科伊科伊借词(<em>iCawa</em>"星期日")。继承自原始班图的"水/火/太阳/手/眼"等词依然无搭嘴音。</p>
 
 <p>这一过程如今已大致重建清楚。帕肯多夫、古宁克、桑兹与博斯特恩(2017)结合语言学与遗传学的证据得出结论:搭嘴音的移入伴随着大批讲科伊桑语的女性嫁入班图语社群,其中一部分则来自科伊桑语使用者自身的语言转用。照此说来,搭嘴音并不是像普通借词那样进来的:它们经由孩子从小同时听着两种语言的家庭而来,一旦某一代人掌握了它们,它们就只是母语的辅音而已。</p>
 

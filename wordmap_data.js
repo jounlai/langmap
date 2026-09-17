@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 20 key words × 1188 languages/varieties (incl. ~80 historical)
+ * Word Map Data — 86 word concepts × 1188 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 

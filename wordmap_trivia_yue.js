@@ -8,7 +8,7 @@ window.TRIVIA_I18N['yue'] = {
     title: '皮拉哈語 —— 一種據講冇數字嘅語言',
     summary: '亞馬遜深處嘅孤立語言,話冇數詞、冇基本顏色詞、冇語法遞歸,動搖咗六十年嚟嘅語言學理論。',
     body: `
-<p>喺巴西亞馬遜深處,唔夠800人講<strong>皮拉哈語</strong>(Pirahã,大致讀作<em>pee-da-HAN</em>)。佢係一種孤立語言——喺地球上搵唔到任何已證實嘅親屬語言——而且係現代語言學中爭議最激烈嘅個案之一。</p>
+<p>喺巴西亞馬遜深處,得幾百人講<strong>皮拉哈語</strong>(Pirahã,大致讀作<em>pee-da-HAN</em>)。佢係一種孤立語言——喺地球上搵唔到任何已證實嘅親屬語言——而且係現代語言學中爭議最激烈嘅個案之一。</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="myp" data-zoom="6">📍 喺地圖上顯示皮拉哈語</button>
@@ -270,7 +270,7 @@ window.TRIVIA_I18N['yue'] = {
 
   <p>關於吸氣音最驚人嘅社會語言學事實,係佢哋<strong>跳越咗語族</strong>。班圖語族嘅<strong>祖魯語</strong>、<strong>科薩語</strong>、<strong>南索托語</strong>同<strong>斯瓦蒂語</strong>都有音位吸氣音——祖魯語同科薩語有三種,南索托語同斯瓦蒂語就得一種——即使佢哋更北嘅最近班圖親戚完全冇。呢個解釋由<strong>安東尼·特雷爾</strong>到<strong>賴納·福森</strong>嘅歷史學家同語言學家詳細闡述過,大致係:當講班圖嘅農民喺公元第二千年向南遷越過林波波河時,佢哋遇到、通婚同部分吸收咗科埃同桑社區。喺混合家庭長大嘅雙語世代將吸氣音帶過語族邊界,尤其係喺敬語同儀式詞彙入面。族名 <em>isiXhosa</em> 自己就有一個:名詞類別前綴之後嘅 <em>xh</em>,正正就係一個送氣舌側吸氣音。</p>
 
-  <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">如果你㩒上面個「比較」掣,就會留意到科薩語同祖魯語入面,呢幅地圖嘅日常基本詞彙冇一個<em>含有</em>吸氣音。呢個係故事嘅另一半:班圖語族嘅吸氣音幾乎完全存在於<strong>文化同敬語詞彙</strong>:名稱(<em>iXhosa</em>、<em>uXamu</em>)、動物名(<em>iqaqa</em>「臭鼬」、<em>ixoxo</em>「青蛙」)、問候語、<em>hlonipha</em>避諱語中嘅禁忌替代詞,以及科伊科伊語借詞(<em>iCawa</em>「星期日」)。繼承自班圖祖語嘅水/火/太陽/手/眼仍然係冇吸氣音嘅。</p>
+  <p style="background:rgba(255,237,190,0.55);border-left:3px solid #b8860b;padding:10px 14px;font-style:italic;border-radius:0 6px 6px 0">如果你㩒上面個「比較」掣,就會留意到科薩語同祖魯語入面,呢幅地圖嘅日常基本詞彙幾乎冇一個<em>含有</em>吸氣音。呢個係故事嘅另一半:班圖語族嘅吸氣音幾乎完全存在於<strong>文化同敬語詞彙</strong>:名稱(<em>iXhosa</em>、<em>uXamu</em>)、動物名(<em>iqaqa</em>「臭鼬」、<em>ixoxo</em>「青蛙」)、問候語、<em>hlonipha</em>避諱語中嘅禁忌替代詞,以及科伊科伊語借詞(<em>iCawa</em>「星期日」)。繼承自班圖祖語嘅水/火/太陽/手/眼仍然係冇吸氣音嘅。</p>
 
   <p>呢個移植過程,而家已經重建得相當清楚。帕肯多夫、古寧克、桑茲同博斯特恩(2017)綜合語言學同遺傳學嘅證據,認為吸氣音嘅移入伴隨住大批講科伊桑語嘅女性嫁入班圖語社群,當中一部分亦來自科伊桑語使用者自己嘅語言轉用。咁樣睇,吸氣音唔係好似普通借詞噉入嚟:佢哋係經由細路自細同時聽兩種語言嘅家庭入面傳落,一旦有一代人學識咗,佢哋就只係母語嘅輔音啫。</p>
 

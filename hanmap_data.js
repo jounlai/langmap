@@ -1,5 +1,5 @@
 /**
- * Hanmap data — 59 Han characters × 98 language/variant pronunciations.
+ * Hanmap data — 61 Han characters × more than 120 language/variant pronunciations.
  */
 
 

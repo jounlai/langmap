@@ -2941,16 +2941,6 @@
             <button class="toggle-btn active" id="toggle-script" aria-pressed="true" aria-label="Toggle native script display"><span class="label">字</span><span class="onoff">ON</span></button>
             <button class="toggle-btn active" id="toggle-ipa" aria-pressed="true" aria-label="Toggle pronunciation / IPA / transcription display"><span class="label">Pron.</span><span class="onoff">ON</span></button>
             <button class="toggle-btn active" id="toggle-name" aria-pressed="true" aria-label="Toggle language-name display"><span class="label">Name</span><span class="onoff">ON</span></button>
-            <!-- Red location pins: default OFF. When ON, a red dot marks each
-                 language's true lat/lng so an offset label can be related back
-                 to its real position. -->
-            <button class="toggle-btn" id="toggle-pins" aria-pressed="false" aria-label="Toggle location pins"><span class="pin-label-row"><span class="pin-swatch" aria-hidden="true"></span><span class="label">Pins</span></span><span class="onoff">OFF</span></button>
-            <!-- Owner 2026-09-13: the Word Map's "Only" toggle, brought over.
-                 Restricts the map to the languages in the comparison list.
-                 Disabled while that list is empty, because "only" would then
-                 mean "none" and a blank map reads as a bug rather than a
-                 filter. -->
-            <button class="toggle-btn" id="toggle-only-compare" aria-pressed="false" disabled aria-label="Show only the languages in the comparison list"><span class="label">Only</span><span class="onoff">OFF</span></button>
             <!-- HAN_SHORT_NAMES used to win unconditionally here, so the Han Map
                  could not show a language's full name at all. It became a third
                  switch position on 2026-09-13 and the position was removed on
@@ -2961,6 +2951,16 @@
                 <button class="radio-opt" id="name-native" role="radio" aria-checked="false"></button>
                 <button class="radio-opt active" id="name-translated" role="radio" aria-checked="true"></button>
             </div>
+            <!-- Red location pins: default OFF. When ON, a red dot marks each
+                 language's true lat/lng so an offset label can be related back
+                 to its real position. -->
+            <button class="toggle-btn" id="toggle-pins" aria-pressed="false" aria-label="Toggle location pins"><span class="pin-label-row"><span class="pin-swatch" aria-hidden="true"></span><span class="label">Pins</span></span><span class="onoff">OFF</span></button>
+            <!-- Owner 2026-09-13: the Word Map's "Only" toggle, brought over.
+                 Restricts the map to the languages in the comparison list.
+                 Disabled while that list is empty, because "only" would then
+                 mean "none" and a blank map reads as a bug rather than a
+                 filter. -->
+            <button class="toggle-btn" id="toggle-only-compare" aria-pressed="false" disabled aria-label="Show only the languages in the comparison list"><span class="label">Only</span><span class="onoff">OFF</span></button>
             <div class="size-slider-wrap">
                 <!-- + on top, − on bottom; the hidden range input keeps the
                      existing JS surface (fontSizeSlider.value, input/change
@@ -7914,7 +7914,10 @@
             const MAX_PUSH = collisionBudgetH * 1.5 * _pushZoomFactor;
             const _placedBoxes = [];
             const hiddenCodes = new Set();
-            // Labels placed beyond the honest radius; each gets a leader line.
+            // Labels placed beyond the honest radius. Kept as a set because the
+            // placement pass needs to know which ones took the second chance;
+            // nothing is drawn for them — the owner tried the leader lines on
+            // 2026-09-17 and they made the map look worse than the gap did.
             const _leadered = new Set();
             const _findFreeY = (cx, startY, _placed, dir, curHH) => {
                 // Walk dir=+1 (down) or dir=-1 (up) until we find a y with
@@ -8075,9 +8078,9 @@
                 // zoom, which is why 蘇州呉語 etc. were flung out to sea. Convert
                 // a max-degrees budget to pixels at the current zoom (Mercator x
                 // is linear in longitude, so px-per-degree is a stable scale).
-                // A label that can't fit within this radius of its anchor is
-                // HIDDEN; since _rendered is in speaker-count order, the higher-
-                // speaker label keeps the spot and the loser drops out.
+                // A label that can't fit within this radius of its anchor gets
+                // one more try further out (see _rescueR) and is hidden only if
+                // that fails too.
                 // 0.6° (~65 km) is the right cap at z>=6 and the wrong one below it.
                 // px-per-degree halves with every zoom step out, so a constant
                 // degree budget shrinks on screen exactly when labels crowd
@@ -8090,10 +8093,7 @@
                 // zoom-out step keeps the allowed drift roughly constant in
                 // pixels; the 2.2° ceiling stops a label wandering somewhere
                 // visibly wrong (at z=3 that is ~26 px, at z=4 ~53 px).
-                // Anything that drifts past the original 0.6° gets a leader
-                // line back to its anchor — see LEADER below.
                 const _MAX_GEO_DEG = Math.min(2.2, 0.6 * Math.pow(2, Math.max(0, 6 - zoom)));
-                const _HONEST_DEG = 0.6;    // beyond this, draw the leader
                 const _pxPerDeg = Math.abs(map.project([0, 1], zoom).x - map.project([0, 0], zoom).x) || 1;
                 // Pure geographic cap (tiny px floor just lets an exact overlap
                 // nudge apart). No MAX_PUSH floor: at low zoom even one label-
@@ -8157,11 +8157,17 @@
                 // away and the honest radius only 25 px wide (owner, 2026-09-17,
                 // on Middle Korean: 「周りに十分な余裕があるにも関わらず」).
                 //
-                // So: try again, much further out, and draw a leader line from
-                // the label back to its point. A label on a leader is honest —
-                // it is how atlases have always handled a crowded coastline —
-                // whereas a hidden label is simply missing. The tuned placement
-                // is untouched: nothing that fits inside the honest radius moves.
+                // So: try again, further out. The tuned placement is untouched
+                // — nothing that fits inside the honest radius moves — and only
+                // the labels that would otherwise have been deleted go looking
+                // for space.
+                //
+                // Tried at 150 px when the leader lines came out (they looked
+                // worse than the gap), on the theory that an unlabelled label
+                // should stay closer to its dot. That put Middle Korean back in
+                // the bin at z=4 — the exact thing being fixed — so the radius
+                // is 260 px and the drift is accepted. Turning the Pins toggle
+                // on marks every true location if a reader wants to check.
                 const _rescueR = Math.max(_maxR, Math.min(260, _pxPerDeg * 10));
                 const _placeSolo = (c) => {
                     const ax = ppx[c].x, ay = ppx[c].y, hh = _hhOf(c);
@@ -8256,19 +8262,6 @@
                 marker.on('click', (e) => activateLabel(code, e && e.originalEvent));
                 marker.addTo(map);
                 markers.push(marker);
-
-                // ---- LEADER ----
-                // A label pushed further than _HONEST_DEG from its point stops
-                // being self-evidently attached to it, so tie it back with a
-                // hairline. Only drawn when the drift has actually earned it,
-                // which at z>=6 is never.
-                if (_leadered.has(code)) {
-                    const _truePt = map.latLngToContainerPoint([lang.lat, lang.lng]);
-                    const _lblLL = map.containerPointToLatLng(_truePt.add(L.point(off.x, off.y)));
-                    markers.push(L.polyline([[lang.lat, lang.lng], _lblLL], {
-                        color: '#9aa4b2', weight: 1, opacity: 0.5, interactive: false,
-                    }).addTo(map));
-                }
 
                 // ---- Offset debug overlay ----
                 // Red dot at true (lat, lng); thin connector to offset label

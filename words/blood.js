@@ -94,7 +94,7 @@ WORDS.blood = {
     gan_yc: ["血", "ɕyɛt̚˨˦"],
     gan_ja: ["血", "ɕyɛt˥"],
     gan_fz: ["血", "ɕyɛt˥"],
-    cjy_lv: ["血", "ɕyəʔ˨"],
+    cjy_lv: ["血", "ɕyəʔ˦"],
     cjy_xz: ["血", "ɕyəʔ˨˩"],
     hsn_hy: ["血", "ɕye˨˦"],
     hsn_yz: ["血", "ɕye˨˦"],

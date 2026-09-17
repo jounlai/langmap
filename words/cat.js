@@ -84,7 +84,7 @@ WORDS.cat = {
       gan_yc: ["猫", "mau̯˧˩"],
       gan_ja: ["猫", "mau˦˨"],
       gan_fz: ["—", "—"],
-      cjy_lv: ["猫", "mau˩"],
+      cjy_lv: ["猫", "mou˦˦"],
       cjy_xz: ["猫", "miau˥˧"],
       hsn_hy: ["猫", "mau˥˩"],
       hsn_yz: ["猫", "mau˨˩˧"],

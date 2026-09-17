@@ -84,7 +84,7 @@ WORDS.house = {
       gan_yc: ["屋", "u̯ok̚˧˩"],
       gan_ja: ["屋", "uk˥"],
       gan_fz: ["屋", "u˧"],
-      cjy_lv: ["家", "tɕia˩"],
+      cjy_lv: ["家", "tɕia˨˦"],
       cjy_xz: ["房", "fɑŋ˥˧"],
       hsn_hy: ["屋里", "u˨˩ li˥˩"],
       hsn_yz: ["屋", "uʔ˥"],

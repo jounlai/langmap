@@ -84,7 +84,7 @@ WORDS.love = {
       gan_yc: ["爱", "ɛ˨˩˥"],
       gan_ja: ["爱", "ŋoi˨˩"],
       gan_fz: ["爱", "ɔi˧˨"],
-      cjy_lv: ["爱", "ai˧"],
+      cjy_lv: ["爱", "ŋɐɪ˥˨"],
       cjy_xz: ["爱", "ɣai˦˥"],
       hsn_hy: ["爱", "ŋai˥˩"],
       hsn_yz: ["爱", "oi˧˥"],

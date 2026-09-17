@@ -95,7 +95,7 @@ WORDS.night = {
     gan_yc: ["夜里", "ia˨˩li˨˩˥"],
     gan_ja: ["夜里", "ia˨˩li˨˩˧"],
     gan_fz: ["夜里", "ia˨˩li˧˨"],
-    cjy_lv: ["夜里", "ia˥˧li˥˧"],
+    cjy_lv: ["夜里", "iɛ˥˨liɪ˧˩˨"],
     cjy_xz: ["夜里", "ia˥˧li˥˧"],
     hsn_hy: ["夜里", "ia˨˩li˥˩"],
     hsn_yz: ["夜里", "ia˨˩li˨˩"],

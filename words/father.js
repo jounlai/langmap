@@ -84,7 +84,7 @@ WORDS.father = {
       gan_yc: ["爸", "pa˥"],
       gan_ja: ["爸爸", "pa˥pa˥"],
       gan_fz: ["父", "bu˥"],
-      cjy_lv: ["爹爹", "tie˩tie"],
+      cjy_lv: ["爹爹", "tiɛ˨˦tiɛ"],
       cjy_xz: ["爹", "tiɛ̃˩˩"],
       hsn_hy: ["爸爸", "pa˨˩ pa˥˩"],
       hsn_yz: ["爸", "pa˧˥"],

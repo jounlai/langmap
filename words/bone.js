@@ -71,7 +71,7 @@ WORDS.bone = {
     gan_yc: ["骨头", "kut̚˨˦tʰəu˥"],
     gan_ja: ["骨头", "kut˥tʰeu˦˥"],
     gan_fz: ["骨头", "kut˥tʰeu˦˥"],
-    cjy_lv: ["骨头", "kuəʔ˨tʰəu˩"],
+    cjy_lv: ["骨头", "kuəʔ˦tʰʌu˦˦"],
     cjy_xz: ["骨头", "kuəʔ˨˩tʰəu˩˩"],
     hsn_hy: ["骨头", "ku˨˦tʰəu˩˧"],
     hsn_yz: ["骨头", "ku˨˦tʰəu˩˧"],

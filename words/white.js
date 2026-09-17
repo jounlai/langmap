@@ -71,7 +71,7 @@ WORDS.white = {
     gan_yc: ["白", "pʰak̚˧˩"],
     gan_ja: ["白", "pʰa˨˩"],
     gan_fz: ["白", "paʔ˥˥"],
-    cjy_lv: ["白", "paʔ"],
+    cjy_lv: ["白", "pʰiəʔ˨˧"],
     cjy_xz: ["白", "paʔ"],
     hsn_hy: ["白", "pɛ˩˧"],
     hsn_yz: ["白", "pʰa˧˥"],

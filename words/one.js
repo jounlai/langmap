@@ -84,7 +84,7 @@ WORDS.one = {
       gan_yc: ["一", "ɪ˧˧"],
       gan_ja: ["一", "it˥"],
       gan_fz: ["一", "it˥"],
-      cjy_lv: ["一", "iəʔ˨"],
+      cjy_lv: ["一", "iəʔ˦"],
       cjy_xz: ["一", "ieʔ˨"],
       hsn_hy: ["一", "i˨˩"],
       hsn_yz: ["一", "it˥˦"],

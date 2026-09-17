@@ -96,7 +96,7 @@ WORDS.tongue = {
     gan_yc: ["舌", "sɛt̚˥"],
     gan_ja: ["舌", "sɛt˥"],
     gan_fz: ["舌", "sɛt˥"],
-    cjy_lv: ["舌头", "səʔ˥˦tʰəu˩"],
+    cjy_lv: ["舌头", "səʔ˨˧tʰʌu˦˦"],
     cjy_xz: ["舌头", "səʔ˥˦tʰəu˩˩"],
     hsn_hy: ["舌头", "sə˨˦tʰəu˩˧"],
     hsn_yz: ["舌头", "sə˨˦tʰəu˩˧"],

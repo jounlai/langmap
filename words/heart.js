@@ -84,7 +84,7 @@ WORDS.heart = {
       gan_yc: ["心", "tɕɪn˥"],
       gan_ja: ["心", "ɕin˦˨"],
       gan_fz: ["—", "—"],
-      cjy_lv: ["心", "ɕiŋ˩"],
+      cjy_lv: ["心", "ɕiʌŋ˨˦"],
       cjy_xz: ["心", "ɕiəŋ˩˩"],
       hsn_hy: ["心", "sin˧˧"],
       hsn_yz: ["心", "sim˧˧"],

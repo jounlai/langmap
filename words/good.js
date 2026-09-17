@@ -84,7 +84,7 @@ WORDS.good = {
       gan_yc: ["好", "hau̯˨˩˥"],
       gan_ja: ["好", "hau˨˩˧"],
       gan_fz: ["好", "hau˧˥"],
-      cjy_lv: ["好", "xau˥˧"],
+      cjy_lv: ["好", "xou˧˩˨"],
       cjy_xz: ["好", "xau˥˧"],
       hsn_hy: ["好", "xau˧˧"],
       hsn_yz: ["好", "hau˨˩"],

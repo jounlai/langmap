@@ -84,7 +84,7 @@ WORDS.star = {
       gan_yc: ["星", "ɕiaŋ˦˨"],
       gan_ja: ["星", "ɕiaŋ˧˧"],
       gan_fz: ["星", "ɕiaŋ˦˨"],
-      cjy_lv: ["星", "ɕiŋ˩˩"],
+      cjy_lv: ["星", "ɕiʌŋ˨˦"],
       cjy_xz: ["星", "ɕiŋ˧˩"],
       hsn_hy: ["星", "ɕin˧˧"],
       hsn_yz: ["星", "ɕin˧˧"],

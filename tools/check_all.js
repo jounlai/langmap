@@ -604,7 +604,7 @@ s = run('sinitic_tone_system_share_check.js --check');
 {
     const known = num(s, /known debt: (\d+)/);
     line('Sinitic rows sharing a tone system', num(s, /shared tone systems: (\d+)/),
-        known ? known + ' known (cjy_lv carries Taiyuan\'s system)' : '');
+        known ? known + ' known' : '');
 }
 
 s = run('sinitic_tone_class_check.js --check');

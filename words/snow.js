@@ -71,7 +71,7 @@ WORDS.snow = {
     gan_yc: ["雪", "sieʔ˧˧"],
     gan_ja: ["雪", "ɕyɛt˥"],
     gan_fz: ["雪", "ɕyɛʔ˥˥"],
-    cjy_lv: ["雪", "ɕyəʔ˨"],
+    cjy_lv: ["雪", "ɕyəʔ˦"],
     cjy_xz: ["雪", "ɕyəʔ"],
     hsn_hy: ["雪", "ɕye˨˩"],
     hsn_yz: ["雪", "ɕye˥˦"],

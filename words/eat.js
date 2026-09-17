@@ -84,7 +84,7 @@ WORDS.eat = {
       gan_yc: ["食", "tɕɪk̚˧˩"],
       gan_ja: ["吃", "tɕʰiat˥"],
       gan_fz: ["食", "ʃɪʔ˥"],
-      cjy_lv: ["吃", "tsʰəʔ˨"],
+      cjy_lv: ["吃", "tsʰəʔ˦"],
       cjy_xz: ["吃", "tsʰəʔ˨"],
       hsn_hy: ["吃", "tɕʰi˨˩"],
       hsn_yz: ["食", "tshɪ̚˧˥"],

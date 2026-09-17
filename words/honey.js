@@ -736,7 +736,7 @@ WORDS.honey = {
     wuu_jx: ["蜂蜜", "foŋ˥˧ miɪʔ˩˨"],
     wuu_jh: ["蜂蜜", "foŋ˧˧˦ miɪʔ˩˨"],
     cjy: ["蜂蜜", "fəŋ˩ miəʔ˥˦"],
-    cjy_lv: ["蜂蜜", "xuəŋ˩˩ miəʔ˥˦"],
+    cjy_lv: ["蜂蜜", "xuʌŋ˨˦ miəʔ˨˧"],
     hsn: ["蜂蜜", "fəŋ˧˧ mi˨˦"],
     hsn_hy: ["蜂蜜", "xɤŋ˧˧ mi˩˧"],
     hsn_yz: ["蜂蜜", "xoŋ˧˧ mi˩˧"],

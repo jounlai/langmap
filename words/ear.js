@@ -702,7 +702,7 @@ WORDS.ear = {
     lij_t: ["oegia", "ˈweːdʒa"],
     gan_ja: ["耳", "ɵ˥˧"],
     gan_fz: ["耳", "ɵ˧˥"],
-    cjy_lv: ["耳", "ər˥˧"],
+    cjy_lv: ["耳", "ɐr˧˩˨"],
     cjy_xz: ["耳", "ər˥˧"],
     agx: ["ибур", "ibur"],
     aqc: ["ой", "oy"],

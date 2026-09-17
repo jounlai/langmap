@@ -74,7 +74,7 @@ WORDS.poop = {
     gan_yc: ["屎", "ʂɨ˨˩˥"],
     gan_ja: ["屎", "sɨ˨˩˧"],
     gan_fz: ["屎", "ʂɨ˧˨"],
-    cjy_lv: ["屎", "sz̩˥˧"],
+    cjy_lv: ["屎", "sɿ˧˩˨"],
     cjy_xz: ["屎", "sz̩˥˧"],
     hsn_hy: ["屎", "sz̩˧˧"],
     hsn_yz: ["屎", "tsʰz̩˨˩"],

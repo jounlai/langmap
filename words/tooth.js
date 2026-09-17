@@ -114,7 +114,7 @@ WORDS.tooth = {
     gan_yc: ["牙", "ŋa˥"],
     gan_ja: ["牙", "ŋa˦˥"],
     gan_fz: ["牙", "ŋa˦˥"],
-    cjy_lv: ["牙", "ia˩˩"],
+    cjy_lv: ["牙", "nia˦˦"],
     cjy_xz: ["牙", "ia˩˩"],
     hsn_hy: ["牙", "ŋo˩˧"],
     hsn_yz: ["牙", "ŋo˩˧"],

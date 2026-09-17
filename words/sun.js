@@ -84,7 +84,7 @@ WORDS.sun = {
       gan_yc: ["日", "ɲɪk̚˧˩"],
       gan_ja: ["日头", "ɲit˥tʰɛu˨"],
       gan_fz: ["日头", "ɲɪʔ˥ tʰɔu˥"],
-      cjy_lv: ["日头", "ʐəʔ˥˦tʰəu˩"],
+      cjy_lv: ["日头", "zəʔ˨˧tʰʌu˦˦"],
       cjy_xz: ["太阳", "tʰai˦˥ iɒ̃˩˩"],
       hsn_hy: ["太阳", "tʰai˥˩ iaŋ˥˩"],
       hsn_yz: ["日", "nit˥˦"],

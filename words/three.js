@@ -92,7 +92,7 @@ WORDS.three = {
     gan_yc: ["三", "san˧˩"],
     gan_ja: ["三", "san˦˨"],
     gan_fz: ["三", "san˦˨"],
-    cjy_lv: ["三", "sæ̃˩˩"],
+    cjy_lv: ["三", "sæ˨˦"],
     cjy_xz: ["三", "sæ̃˩˩"],
     hsn_hy: ["三", "san˧˧"],
     hsn_yz: ["三", "san˧˧"],

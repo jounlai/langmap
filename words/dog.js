@@ -84,7 +84,7 @@ WORDS.dog = {
       gan_yc: ["狗", "kəu̯˥"],
       gan_ja: ["狗", "keu˨˩˧"],
       gan_fz: ["—", "—"],
-      cjy_lv: ["狗", "kəu˥˧"],
+      cjy_lv: ["狗", "kʌu˧˩˨"],
       cjy_xz: ["狗", "kəu˥˧"],
       hsn_hy: ["狗", "kəu˧˧"],
       hsn_yz: ["狗", "kau˧˥"],

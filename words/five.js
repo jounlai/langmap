@@ -71,7 +71,7 @@ WORDS.five = {
     gan_yc: ["五", "ŋ̍˨˩˧"],
     gan_ja: ["五", "ŋ̍˥˧"],
     gan_fz: ["五", "ŋ̍˧˥"],
-    cjy_lv: ["五", "u˥˧"],
+    cjy_lv: ["五", "uəʔ˨˧"],
     cjy_xz: ["五", "u˥˧"],
     czh_wy: ["五", "u˧˩"],
     hop: ["tsivot", "tsivot"],

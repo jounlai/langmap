@@ -646,7 +646,7 @@ WORDS.sleep = {
     zh_nj: ["睡觉", "ʂwei˦ tɕjɔ˦"],
     zh_jh: ["睡觉", "ʂwei˦˦ tɕjɔ˦˦"],
     cjy: ["睡觉", "swei˦˥ tɕjɔ˦˥"],
-    cjy_lv: ["睡觉", "swei˦˥ tɕjɔ˦˥"],
+    cjy_lv: ["睡觉", "su˥˨ tɕiou˥˨"],
     cjy_xz: ["睡觉", "swei˦˥ tɕjɔ˦˥"],
     wuu_sz: ["睏", "kʰuən˥˩˧"],
 

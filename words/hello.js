@@ -84,7 +84,7 @@ WORDS.hello = {
       gan_yc: ["你好", "ni˥ hau̯˨˩˥"],
       gan_ja: ["你好", "n̩˨˩hau˨˩˧"],
       gan_fz: ["你好", "ni˥ hau˧˥"],
-      cjy_lv: ["你好", "ni˨˩˧xau˨˩˧"],
+      cjy_lv: ["你好", "nɿ˧˩˨xou˧˩˨"],
       cjy_xz: ["你好", "ni˥˧ xau˥˧"],
       hsn_hy: ["你好", "nɪ˥˩ xau˥˩"],
       hsn_yz: ["你好", "ni˨˩ hau˨˩"],

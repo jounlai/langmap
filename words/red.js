@@ -91,7 +91,7 @@ WORDS.red = {
     gan_yc: ["红", "fuŋ˥"],
     gan_ja: ["红", "fuŋ˦˥"],
     gan_fz: ["红", "fuŋ˦˥"],
-    cjy_lv: ["红", "xuŋ˩˩"],
+    cjy_lv: ["红", "xuʌŋ˦˦"],
     cjy_xz: ["红", "xuŋ˩˩"],
     hsn_hy: ["红", "xoŋ˩˧"],
     hsn_yz: ["红", "xoŋ˩˧"],

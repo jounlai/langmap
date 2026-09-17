@@ -84,7 +84,7 @@ WORDS.hand = {
       gan_yc: ["手", "ʂəu̯˧˧"],
       gan_ja: ["手", "ɕeu˨˩˧"],
       gan_fz: ["—", "—"],
-      cjy_lv: ["手", "səu˥˧"],
+      cjy_lv: ["手", "sʌu˧˩˨"],
       cjy_xz: ["手", "səu˥˧"],
       hsn_hy: ["手", "ɕəu˧˧"],
       hsn_yz: ["手", "tʂu˨˩˧"],

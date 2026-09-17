@@ -84,7 +84,7 @@ WORDS.drink = {
       gan_yc: ["喝", "ɬak̚˥"],
       gan_ja: ["喝", "hot˥"],
       gan_fz: ["—", "—"],
-      cjy_lv: ["喝", "xəʔ˨"],
+      cjy_lv: ["喝", "xəʔ˦"],
       cjy_xz: ["喝", "xaʔ˨"],
       hsn_hy: ["喝", "xo˨˩"],
       hsn_yz: ["饮", "ĩ˨˩"],

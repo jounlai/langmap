@@ -84,7 +84,7 @@ WORDS.eye = {
       gan_yc: ["眼", "ŋan˧˩"],
       gan_ja: ["眼睛", "ŋan˨˩tsin˦˨"],
       gan_fz: ["眼", "ŋan˧˥"],
-      cjy_lv: ["眼睛", "niæ˨˩˧tɕiŋ˩"],
+      cjy_lv: ["眼睛", "niæ˧˩˨tsɿ˨˦"],
       cjy_xz: ["眼", "nie˥˧"],
       hsn_hy: ["眼睛", "ŋan˥˩ tɕin˥˩"],
       hsn_yz: ["眼", "ŋã˨˩"],

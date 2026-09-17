@@ -582,7 +582,7 @@ WORDS.wind = {
     mn_cn: ["ᠰᠠᠯᠬᠢ", "salxi"],
     gan_ja: ["风", "fuŋ˧˧˦"],
     gan_fz: ["风", "fuŋ˦˨"],
-    cjy_lv: ["风", "xuəŋ˩˩"],
+    cjy_lv: ["风", "xuʌŋ˨˦"],
     cjy_xz: ["风", "fəŋ˧˩˧"],
     hsn_hy: ["风", "xɤŋ˧˧"],
     zh_sc: ["风", "foŋ˥˥"],

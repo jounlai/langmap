@@ -835,7 +835,7 @@ WORDS.rain = {
     fkv: ["sae", "sae"],
     lrc: ["بارون", "bɑːrun"],
     hno: ["مینہ", "mĩː"],
-    cjy_lv: ["雨", "y˥˧"],
+    cjy_lv: ["雨", "zu˧˩˨"],
     cjy_xz: ["雨", "y˥˧"],
     czh_wy: ["雨", "y˧˩"],
     nan_hai: ["雨", "ho˨˩"],

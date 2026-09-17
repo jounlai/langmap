@@ -84,7 +84,7 @@ WORDS.moon = {
       gan_yc: ["月", "ŋɔk̚˥˥"],
       gan_ja: ["月光", "ŋyot˥kuɔŋ˦˨"],
       gan_fz: ["月光", "ŋuəʔ˥ kuaŋ˥"],
-      cjy_lv: ["月亮", "yəʔ˥˦liɔ̃˩"],
+      cjy_lv: ["月亮", "yəʔ˨˧liɔ˥˨"],
       cjy_xz: ["月", "yəʔ˨"],
       hsn_hy: ["月亮", "ye˨˩ liaŋ˥˩"],
       hsn_yz: ["月", "ŋɔ̃˥˦"],

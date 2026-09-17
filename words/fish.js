@@ -92,7 +92,7 @@ WORDS.fish = {
     gan_yc: ["鱼", "y˥"],
     gan_ja: ["鱼", "y˦˥"],
     gan_fz: ["鱼", "y˦˥"],
-    cjy_lv: ["鱼", "y˩˩"],
+    cjy_lv: ["鱼", "nu˦˦"],
     cjy_xz: ["鱼", "y˩˩"],
     hsn_hy: ["鱼", "y˩˧"],
     hsn_yz: ["鱼", "y˩˧"],

@@ -84,7 +84,7 @@ WORDS.tree = {
       gan_yc: ["树", "tʂu˨˩˥"],
       gan_ja: ["树", "ɕu˨˩"],
       gan_fz: ["—", "—"],
-      cjy_lv: ["树", "su˦˥"],
+      cjy_lv: ["树", "su˥˨"],
       cjy_xz: ["树", "su˦˥"],
       hsn_hy: ["树", "ɕy˥˩"],
       hsn_yz: ["树", "tshɯ˧˥˩"],

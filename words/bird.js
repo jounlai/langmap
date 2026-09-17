@@ -69,7 +69,7 @@ WORDS.bird = {
     gcr: ["zwazo", "zwazo"],
     acf: ["zwezo", "zwezo"],
     gan_fz: ["鸟", "ȵiɛu"],
-    cjy_lv: ["鸟", "niau˥˧"],
+    cjy_lv: ["鸟", "niou˧˩˨"],
     cjy_xz: ["鸟", "niau˥˧"],
     czh_wy: ["鸟", "ȵiɔ˥˧"],
     hop: ["tsiro", "tsiro"],

@@ -84,7 +84,7 @@ WORDS.thanks = {
       gan_yc: ["多谢", "to˥ ʂɛ˥˦"],
       gan_ja: ["谢谢", "ɕia˨˩ɕia"],
       gan_fz: ["谢谢", "tʰɛ˧˨ tʰɛ˧˨"],
-      cjy_lv: ["谢谢", "ɕie˨ɕie"],
+      cjy_lv: ["谢谢", "ɕiɛ˥˨ɕiɛ"],
       cjy_xz: ["谢", "ɕie˦˥"],
       hsn_hy: ["谢谢", "ɕie˥˩ ɕie˥˩"],
       hsn_yz: ["谢谢", "tshia˧˥ tshia˧˥"],

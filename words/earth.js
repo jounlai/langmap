@@ -654,7 +654,7 @@ WORDS.earth = {
     lkt: ["makȟá", "maˈkʰa"],
     gan_ja: ["土", "tʰu˨˩˧"],
     gan_fz: ["土", "tʰu˧˥"],
-    cjy_lv: ["土", "tʰu˥˧"],
+    cjy_lv: ["土", "tʰu˧˩˨"],
     cjy_xz: ["土", "tʰu˥˧"],
     hsn_hy: ["土", "tʰu˧˧"],
     czh: ["土", "tʰu˨˩˧"],

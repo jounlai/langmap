@@ -66,10 +66,12 @@ const ALLOW = {
 // Known debt: real, cannot be fixed without a source. Counted separately so the
 // gate can sit at 0 for anything NEW.
 const DEBT = {
-    'cjy|cjy_lv': 'Lishi carries Taiyuan\'s tone system. 呂梁片 splits 平聲; '
-        + '并州片 merges it. Needs published Lishi (離石) Chao values — Wikipedia\'s '
-        + 'Jin tone table omits the point, and borrowing 臨縣\'s or 汾陽\'s would '
-        + 'repeat the error. See handoff 23.',
+    // PAID 2026-09-17, review 538. The Lishi values arrived from 李小平 2004
+    // 《山西離石方言音系》 via the MCPDict 離石 syllabary (3,426 characters,
+    // tone key 24/44/312/52/ʔ4/ʔ23), corroborated at 8 readings by 小學堂's
+    // 離石 point. All 51 cells were re-cut to that one reading. Leave the table
+    // here and empty: a shared tone system between two Sinitic rows is the
+    // single most reliable sign that one of them was copied from the other.
 };
 
 const GROUPS = {

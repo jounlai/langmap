@@ -84,7 +84,7 @@ WORDS.fire = {
       gan_yc: ["火", "hu̯o˨˩˥"],
       gan_ja: ["火", "fo˨˩˧"],
       gan_fz: ["火", "huo˧"],
-      cjy_lv: ["火", "xuo˥˧"],
+      cjy_lv: ["火", "xuo˧˩˨"],
       cjy_xz: ["火", "xuɤ˥˧"],
       hsn_hy: ["火", "xo˧˧"],
       hsn_yz: ["火", "fu˨˩"],

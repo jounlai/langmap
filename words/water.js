@@ -84,7 +84,7 @@ WORDS.water = {
       gan_yc: ["水", "ʂui̯˨˩˥"],
       gan_ja: ["水", "sui˨˩˧"],
       gan_fz: ["水", "ʂui˧˨"],
-      cjy_lv: ["水", "fei˥˧"],
+      cjy_lv: ["水", "su˧˩˨"],
       cjy_xz: ["水", "suei˥˧"],
       hsn_hy: ["水", "ɕyei˧˧"],
       hsn_yz: ["水", "tshui˨˩"],

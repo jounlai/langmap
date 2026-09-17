@@ -1007,7 +1007,7 @@ WORDS.night = {
     squ: ["nat", "nat"],
     mga: ["adaig", "aðəɣʲ"],
     hbo: ["לילה", "ˈlajlaː"],
-    he_mis: ["לילה", "lajla"],
+    he_mis: ["לילה", "ˈlajla"],
     hy_grab: ["գիշեր", "ɡiʃer"],
     mpt: ["kutimibo", "kutimibo"],
     ygr: ["hanena", "hanena"],

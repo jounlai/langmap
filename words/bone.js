@@ -239,7 +239,7 @@ WORDS.bone = {
     bxr: ["яһан", "jahaŋ"],
     mvf: ["yas", "jas"],
     evn: ["гирамна", "ɡiramna"],
-    orh: ["gɪramna", "gɪramna"],
+    orh: ["gɪramna", "ɡɪramna"],
     acn: ["a31ʐau31", "a˧˩ʐau˧˩"],
     jiu: ["—", "—"],
     clk: ["—", "—"],

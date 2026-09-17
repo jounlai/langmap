@@ -238,13 +238,13 @@ WORDS.daughter = {
     fo: ["dóttir", "ˈdœhtɪɹ"],
 
     // --- Romance — the fīlia side, plus the rows that lost the l ---------
-    es_ar: ["hija", "ixa"],
-    es_co: ["hija", "ixa"],
-    es_pe: ["hija", "ixa"],
-    es_ec: ["hija", "ixa"],
-    es_uy: ["hija", "ixa"],
+    es_ar: ["hija", "ˈixa"],
+    es_co: ["hija", "ˈixa"],
+    es_pe: ["hija", "ˈixa"],
+    es_ec: ["hija", "ˈixa"],
+    es_uy: ["hija", "ˈixa"],
     es_ni: ["hija", "iha"],
-    es_bo: ["hija", "ixa"],
+    es_bo: ["hija", "ˈixa"],
     es_do: ["hija", "iha"],
     es_py: ["hija", "ˈixa"],
     // Caribbean, Andalusian and Central American rows have /x/ > [h], read off their own "ojo".
@@ -429,7 +429,7 @@ WORDS.daughter = {
     // --- Greek and Italic, the two ancient outliers ----------------------
     // Mycenaean still writes the inherited word; Oscan keeps it where Latin
     // had already gone over to fīlia.
-    gmy: ["𐀶𐀏𐀳", "tʰugatɛːr"],
+    gmy: ["𐀶𐀏𐀳", "tʰuɡatɛːr"],
     osc: ["futír", "futiːr"],
 
     // --- East Asia -------------------------------------------------------
@@ -699,7 +699,7 @@ WORDS.daughter = {
     sn: ["mwanasikana", "mwanasikana"],
     mxc: ["mukunda", "mukunda"],
     ny: ["mwana wamkazi", "mwana wamkazi"],
-    yao: ["mwanache jwamkongwe", "mwanatʃe dʒwamkoŋgwe"],
+    yao: ["mwanache jwamkongwe", "mwanatʃe dʒwamkoŋɡwe"],
     ada: ["biyo", "bijo"],
     gaa: ["biyoo", "bijoː"],
     nzi: ["ra raalɛ", "ra raːlɛ"],

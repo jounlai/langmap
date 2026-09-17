@@ -497,6 +497,11 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 s = run('stress_mark_check.js --check');
 line('stress mark on monosyllables', num(s, /violations: (\d+)/));
 
+// ASCII g standing in for IPA ɡ. Reported only where the cell proves it is
+// IPA, because Wylie, Sumerological transcription and PIE all write ASCII g.
+s = run('ipa_ascii_g_check.js --check');
+line('ASCII g in IPA', num(s, /violations: (\d+)/));
+
 // namemap_i18n/<ui>.js is the per-UI split of namemap_content_i18n.js, which
 // namemap.html no longer loads. Edit a country name or a background paragraph
 // in the source without rebuilding and the page keeps showing the old text.

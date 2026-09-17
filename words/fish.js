@@ -267,7 +267,7 @@ WORDS.fish = {
     nuf: ["ŋɑ55", "ŋɑ˥˥"],
     pmi: ["dʑɨ53", "dʑɨ˥˧"],
     twm: ["ȵᴀ13", "ɲᴀ˩˧"],
-    dta: ["ǯagusa", "dʒagusa"],
+    dta: ["ǯagusa", "dʒaɡusa"],
     eve: ["олра", "olra"],
     gld: ["согдата", "sɔɡdata"],
     ude: ["сугдя", "suɡdʑa"],

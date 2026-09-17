@@ -75,7 +75,7 @@ WORDS.blood = {
       mbc: ["mɨ́ŋ","mɨ́ŋ"],
       moc: ["lewoʔ","lewoʔ"],
       plg: ["letawoʔ","letawoʔ"],
-      tob: ["ltagoʔq","ltagoʔq"],
+      tob: ["ltagoʔq","ltaɡoʔq"],
       kgp: ["kyvènh","kɨwɛɲ"],
     es_cr: ["sangre", "ˈsaŋɡɾe"],
     es_hn: ["sangre", "ˈsaŋɡɾe"],

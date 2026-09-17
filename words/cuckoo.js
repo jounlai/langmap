@@ -177,7 +177,7 @@ WORDS.cuckoo = {
     ka: ["გუგული", "ɡuɡuli"],
     lzz: ["გუგული", "ɡuɡuli"],
     hy: ["կկու", "kəˈku"],
-    hyw: ["կկու", "gəˈgu"],
+    hyw: ["կկու", "ɡəˈɡu"],
     nv: ["naatsédlózii", "naːtséˈtɬózìː"],
     mi: ["koekoeā", "koekoeˈaː"],
     qu: ["chikwan", "ˈtʃikwan"],

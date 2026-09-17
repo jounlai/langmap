@@ -455,7 +455,7 @@ WORDS.wheel = {
     syc: ["ܓܝܓܠܐ", "ɡiːɡlaː"],
     aii: ["ܓܝܓܠܐ", "ɡiɡla"],
     tru: ["ܓܝܓܠܐ", "ɡiɡlo"],
-    he_mis: ["גלגל", "ɡalɡal"],
+    he_mis: ["גלגל", "ɡalˈɡal"],
     vi_nom: ["𥹘車", "ɓajŋ˧˥ sɛ˧"],
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there

@@ -246,7 +246,7 @@ WORDS.person = {
     dtp: ["tulun", "tulun"],
     dtp_kzj: ["tuhun", "tuhun"],
     dv: ["މީހާ", "miːhaː"],
-    dyu: ["mɔgɔ", "mɔ̀gɔ"],
+    dyu: ["mɔgɔ", "mɔ̀ɡɔ"],
     dz: ["མི", "mi"],
     ebu: ["mũndũ", "mʊndʊ"],
     ee: ["ame", "ame"],

@@ -777,7 +777,7 @@ WORDS.stone = {
     tpn: ["itá", "iˈta"],
     bzg: ["bato", "bato"],
     kfa: ["ಕಲ್ಲ್", "kall"],
-    luz: ["سنگ", "sæng"],
+    luz: ["سنگ", "sænɡ"],
     qxq: ["daş", "dɑʃ"],
     wls: ["maka", "maka"],
     alq: ["asin", "asin"],

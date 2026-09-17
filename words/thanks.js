@@ -102,7 +102,7 @@ WORDS.thanks = {
       na: ["tubwa kor", "tubwa kor"],
       es_bo: ["gracias", "ɡɾasjas"],
       es_py: ["gracias", "ˈɡɾasjas"],
-      es_pa: ["gracias", "ɡɾasjas"],
+      es_pa: ["gracias", "ɡɾasjah"],
       en_my: ["thanks", "tɛŋks"],
       pt_gw: ["obrigádu", "obriɡadu"],
       tsz: ["diosï meyamu", "diosɨ meˈjamu"],

@@ -9,8 +9,18 @@
  * letters w-i-f-i by its own rules. Spanish splits down the middle — wifi in
  * Spain, wái-fái across Latin America. Sinitic makes a third pattern: the
  * letters keep English-ish diphthongs but pick up citation tones — Mandarin
- * wāi-fài (high, then falling), Cantonese waai¹ faai¹. Plotted where a form is
- * sourced or the reading follows the language's regular letter values.
+ * wāi-fài (high, then falling), Cantonese waai¹ faai¹. South Asia is a fourth:
+ * the languages there write it in their own scripts (वाई-फ़ाई, ওয়াই-ফাই,
+ * வைஃபை…), which spell the wai-fai reading straight out — Tamil even lacks w
+ * and f, so it comes out "oy-fai".
+ *
+ * On the surface field: it holds the everyday WRITTEN form, which for most
+ * languages is the Latin "Wi-Fi" even where the reading is native (Japanese
+ * writes Wi-Fi, says wai-fai; likewise Russian, Ukrainian, Hebrew). Native
+ * script is used only where that is what the language actually writes —
+ * Korean 와이파이, Thai ไวไฟ, Arabic واي فاي, and the South-Asian scripts —
+ * each taken from that language's own Wikipedia article title. Plotted where a
+ * form is sourced or the reading follows the language's regular letter values.
  */
 WORDS.wifi = {
   partial: true,
@@ -33,10 +43,10 @@ WORDS.wifi = {
     pt: "Wi-Fi",
     pt_eu: "Wi-Fi",
     pt_br: "Wi-Fi",
-    ru: "Вайфай",
-    uk: "Вайфай",
+    ru: "Wi-Fi",
+    uk: "Wi-Fi",
     ar: "واي فاي",
-    he: "ואי-פיי",
+    he: "Wi-Fi",
     sw: "Wi-Fi",
   },
   definition: {
@@ -74,16 +84,34 @@ WORDS.wifi = {
     pt: ["Wi-Fi", "ˈwajfaj"],      // Wiktionary pt-IPA "wáifái"
     pt_br: ["Wi-Fi", "ˈwajfaj"],
     de: ["Wi-Fi", "ˈvaɪfaɪ"],      // w → /v/; the thing itself is usually "WLAN" in German
-    ja: ["ワイファイ", "ɰaiɸai"],
+    ja: ["Wi-Fi", "ɰaiɸai"],       // written "Wi-Fi" in Japanese text, read ワイファイ
     ko: ["와이파이", "waipʰai"],     // Wiktionary [wa̠ipʰa̠i]
     th: ["ไวไฟ", "waj˧faj˧"],   // ไว-ไฟ, both mid tone (Wiktionary th-pron)        // ไว-ไฟ (Wiktionary th-pron)
     hi: ["वाई-फ़ाई", "ʋaːiːfaːiː"],
-    ru: ["вайфай", "vɐjˈfaj"],     // Wiktionary ru-IPA вайфа́й
-    uk: ["вайфай", "ʋɐjˈfɑj"],
+    ru: ["Wi-Fi", "vɐjˈfaj"],      // usually written "Wi-Fi"; вайфай is the informal spelling (Wiktionary ru-IPA вайфа́й)
+    uk: ["Wi-Fi", "ʋɐjˈfɑj"],      // written "Wi-Fi"; вайфай informal
     ar: ["واي فاي", "waːjfaːj"],
-    he: ["ואי-פיי", "vajfaj"],
+    he: ["Wi-Fi", "vajfaj"],       // written "Wi-Fi" in Hebrew text
     zh: ["Wi-Fi", "waɪ̯˥ faɪ̯˥˩"],   // Mandarin wāi-fài (Wiktionary zh-pron m=wāifài, /waɪ̯⁵⁵ faɪ̯⁵¹/)
     yue: ["Wi-Fi", "waːi˥ faːi˥"],   // Cantonese waai1 faai1 (Wiktionary zh-pron c=waai1 faai1)
+    tl: ["Wi-Fi", "ˈwaɪfaɪ"],       // Filipino writes it in Latin, says wai-fai
+
+    // South Asia — here the native spelling itself is the everyday written
+    // form (each is the title of that language's Wikipedia "Wi-Fi" article),
+    // and it spells the "wai-fai" reading straight out.
+    bn: ["ওয়াই-ফাই", "waːifaːi"],
+    ur: ["وائی فائی", "ʋaːiːfaːiː"],
+    pa: ["ਵਾਈ-ਫ਼ਾਈ", "ʋaːiːfaːiː"],
+    mr: ["वाय-फाय", "ʋaːjfaːj"],
+    ta: ["ஒய்-ஃபை", "ojfaj"],        // Tamil, lacking native w/f, renders it "oy-fai"
+    te: ["వై-ఫై", "ʋaifai"],
+    kn: ["ವೈ-ಫೈ", "ʋaifai"],
+    ml: ["വൈ-ഫൈ", "ʋaifai"],
+    si: ["වයි-ෆයි", "ʋajifaji"],
+
+    // Middle East — Persian and Sorani Kurdish, native spelling = written form.
+    fa: ["وای‌فای", "vɒːjfɒːj"],
+    ckb: ["وای-فای", "wajfaj"],
 
     // "wee-fee" — w-i-f-i read by the language's own letter values.
     fr: ["wifi", "wifi"],          // Wiktionary /wi.fi/

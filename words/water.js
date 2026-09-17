@@ -104,7 +104,7 @@ WORDS.water = {
       es_py: ["agua", "ˈaɣwa"],
       es_pa: ["agua", "aɣwa"],
       en_my: ["water", "ˈwɔːtə"],
-      pt_gw: ["ágwa", "aɡwa"],
+      pt_gw: ["yagu", "ˈjaɡu"],
       tsz: ["itsï", "iˈtsɨ"],
       nez: ["kuus", "kus"],
       woe: ["shalú", "ʃaːlu"],

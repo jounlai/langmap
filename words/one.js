@@ -73,7 +73,7 @@ WORDS.one = {
       es_sv: ["uno", "uno"],
       ar_jo: ["واحد", "waːħid"],
       ar_ps: ["واحد", "waːħad"],
-      fr_lu: ["un", "ɛ̃"],
+      fr_lu: ["un", "œ̃"],
       fr_cm: ["un", "œ̃"],
       de_lu: ["eins", "aɪ̯ns"],
       en_ng2: ["one", "wʌn"],

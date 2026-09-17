@@ -243,9 +243,9 @@ WORDS.daughter = {
     es_pe: ["hija", "ixa"],
     es_ec: ["hija", "ixa"],
     es_uy: ["hija", "ixa"],
-    es_ni: ["hija", "ixa"],
+    es_ni: ["hija", "iha"],
     es_bo: ["hija", "ixa"],
-    es_do: ["hija", "ixa"],
+    es_do: ["hija", "iha"],
     es_py: ["hija", "ˈixa"],
     // Caribbean, Andalusian and Central American rows have /x/ > [h], read off their own "ojo".
     es_pr: ["hija", "iha"],

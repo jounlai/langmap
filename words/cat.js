@@ -175,7 +175,7 @@ WORDS.cat = {
       de_ch: ["Katze", "ˈkɑtːsə"],
       pt_ao: ["gato", "ɡatu"],
       es_ve: ["gato", "ɡato"],
-      ca_va: ["gat", "ɣat"],
+      ca_va: ["gat", "ɡat"],
     ja: ["猫", "neko"],
     ja_osa: ["猫", "neko"],
     ja_aom: ["ねご", "neɡo"],

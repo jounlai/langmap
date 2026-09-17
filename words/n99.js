@@ -262,7 +262,7 @@ WORDS.n99 = {
     en_ck: "dec",
     fr_ch: "dec",
     fr_qc: "vig",
-    fr_lu: "vig",
+    fr_lu: "dec",       // review 539: Luxembourg says nonante, like fr_be/fr_ch
     fr_af: "vig",
     fr_sn: "vig",
     fr_ci: "vig",
@@ -722,7 +722,7 @@ WORDS.n99 = {
     es_py: ["noventa y nueve", "noˈβenta i ˈnweβe"],
     es_pa: ["noventa y nueve", "noˈβenta i ˈnweβe"],
     fr_qc: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
-    fr_lu: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
+    fr_lu: ["nonante-neuf", "nɔnɑ̃tnœf"],
     fr_af: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
     fr_sn: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
     fr_ci: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],

@@ -964,7 +964,7 @@ WORDS.water = {
     brh: ["دیر", "diːɾ"],
     mrq: ["vai", "vai"],
     tiw: ["kukuni", "kukuni"],
-    lbz: ["kantha", "kanθa"],
+    lbz: ["nguka", "ŋuka"],
     lbz_damin: ["—", "—"],
     nny: ["ngogo", "ŋoɡo"],
     kky: ["buurraay", "buːraːj"],

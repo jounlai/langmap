@@ -724,7 +724,7 @@ WORDS.fire = {
     snk: ["ñaaxe", "ɲaːxe"],
     mwk: ["tasuma", "tasuma"],
     mlq: ["tasuma", "tasuma"],
-    mev: ["kɔ", "kɔ"],
+    mev: ["tíé", "ti˥e˥"],
     dnj: ["siŋ", "siŋ"],
     ses: ["nuune", "nuːne"],
     khq: ["nuune", "nuːne"],

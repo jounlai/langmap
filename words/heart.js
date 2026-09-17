@@ -725,7 +725,7 @@ WORDS.heart = {
     snk: ["sondome", "sondome"],
     mwk: ["dusu", "dusu"],
     mlq: ["dusu", "dusu"],
-    mev: ["gba", "ɡba"],
+    mev: ["zò", "zo˩"],
     dnj: ["gbɔɔ", "ɡbɔː"],
     ses: ["bine", "bine"],
     khq: ["bine", "bine"],

@@ -1072,7 +1072,7 @@ WORDS.eat = {
     hbo: ["אכל", "ʔɔːxal"],
     he_mis: ["אוכל", "ʔoχel"],
     hy_grab: ["ուտեմ", "utem"],
-    mpt: ["naka", "naka"],
+    mpt: ["dowon", "dowon"],
     ygr: ["na", "na"],
     roo: ["aio", "aio"],
     quz: ["mikhuy", "mikʰuj"],

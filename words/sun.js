@@ -723,7 +723,7 @@ WORDS.sun = {
     snk: ["kiye", "kije"],
     mwk: ["tle", "tle"],
     mlq: ["tile", "tile"],
-    mev: ["lɛ", "lɛ"],
+    mev: ["ɲɛ́nɛ́", "ɲɛ˥nɛ˥"],
     dnj: ["lai", "lai"],
     ses: ["wayna", "wajna"],
     khq: ["wari", "wari"],

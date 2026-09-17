@@ -725,7 +725,7 @@ WORDS.tree = {
     snk: ["yiribirinde", "jiɾibiɾinde"],
     mwk: ["yiri", "jiɾi"],
     mlq: ["yiri", "jiɾi"],
-    mev: ["ka", "ka"],
+    mev: ["yílí", "ji˥li˥"],
     dnj: ["gbe", "ɡbe"],
     ses: ["tuuri", "tuːri"],
     khq: ["tuuri", "tuːri"],

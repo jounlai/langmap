@@ -1072,7 +1072,7 @@ WORDS.i = {
       hbo: ["אֲנִי", "ʔaˈniː"],
       he_mis: ["אֲנִי", "ʔaˈni"],
       hy_grab: ["ես", "es"],
-      mpt: ["naka", "naka"],
+      mpt: ["né", "ne"],
       ygr: ["dgai", "dɡai"],
       roo: ["ragai", "raɡai"],
       quz: ["ñuqa", "ˈɲoqa"],

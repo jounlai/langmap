@@ -920,7 +920,7 @@ WORDS.tooth = {
     brh: ["دندان", "dandaːn"],
     mrq: ["niho", "niho"],
     tiw: ["yingkana", "jiŋkana"],
-    lbz: ["kadmu", "kadmu"],
+    lbz: ["kadmu reman", "kadmu ɾeman"],
     lbz_damin: ["—", "—"],
     nny: ["kadmu", "kadmu"],
     kky: ["mulir", "mulir"],

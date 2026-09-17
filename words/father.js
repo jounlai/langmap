@@ -967,7 +967,7 @@ WORDS.father = {
     brh: ["باوا", "baːwaː"],
     mrq: ["motua", "motua"],
     tiw: ["rringani", "ɾiŋani"],
-    lbz: ["—", "—"],
+    lbz: ["kantha", "kan̪t̪a"],
     lbz_damin: ["—", "—"],
     nny: ["kanda", "kanda"],
     kky: ["biiba", "biːba"],

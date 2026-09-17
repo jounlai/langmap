@@ -947,7 +947,7 @@ WORDS.heart = {
     lmo: ["cör", "kør"],
     pms: ["cheur", "kør"],
     mwl: ["coraçon", "koɾaˈtsoŋ"],
-    pnt: ["καρδί", "karˈði"],
+    pnt: ["καρδί", "kaɾˈði"],
     hno: ["دل", "dil"],
     bhb: ["हिर्दय", "hiɾdəj"],
     cja: ["هتاي", "hatai"],

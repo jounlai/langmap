@@ -620,7 +620,7 @@ WORDS.black = {
     vo: ["blägik", "ˈblɛɡik"],
     tok: ["pimeja", "ˈpimeja"],
     tlh: ["qIj", "qɪdʒ"],
-    jbo: ["xekri", "xekri"],
+    jbo: ["xekri", "ˈxekri"],
 
     // --- Arabic dialects; Maghrebi uses a different root entirely -------
     ar_sy: ["أسود", "ˈʔaswad"],

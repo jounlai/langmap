@@ -788,7 +788,7 @@ WORDS.iron = {
     io: ["fero", "ˈfero"],
     ia: ["ferro", "ˈfɛrro"],
     vo: ["lel", "lel"],
-    jbo: ["tirse", "tirse"],
+    jbo: ["tirse", "ˈtirse"],
     tlh: ["baS", "baʂ"],
 
     // --- Philippine and Formosan — sourced per row, not extrapolated -----

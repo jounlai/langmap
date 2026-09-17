@@ -119,7 +119,16 @@ for (const [concept, entries] of Object.entries(byFile)) {
         const sChanged = x.newS !== x.oldS, iChanged = x.newI !== x.oldI;
         if (sChanged !== iChanged && !x.oneSidedOk) {
             const how = sChanged ? moved(x.oldS, x.newS) : moved(x.oldI, x.newI);
-            if (how >= 0.6) {
+            // A one-sided change that moves the pair CLOSER together is the
+            // repair, not the defect: `hui eye` had the surface `de` against an
+            // IPA of /tɛː/, and rewriting the IPA to `de` fixes exactly the
+            // thing this gate exists to protect. Only comparable when both
+            // fields are in the same script, which the distance itself reports:
+            // across scripts it stays near 1 whatever you do, so nothing passes.
+            const before = moved(x.oldS, x.oldI), after = moved(x.newS, x.newI);
+            if (how >= 0.6 && after < before - 0.2) {
+                /* converging — allowed */
+            } else if (how >= 0.6) {
                 refused.push(`${concept} ${x.code}: one-sided \u2014 the ${sChanged ? 'surface' : 'IPA'} moves `
                     + `${Math.round(how * 100)}% and the other field is unchanged, so the cell would hold two `
                     + `different words. Supply both halves, or set oneSidedOk after checking.`);

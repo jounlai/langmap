@@ -596,7 +596,7 @@ WORDS.bird = {
     lmo: ["usèll", "yzɛl"],
     pms: ["osel", "uˈzɛl"],
     mwl: ["páixaro", "ˈpajʃaɾu"],
-    pnt: ["πουλίν", "pulin"],
+    pnt: ["πουλίν", "puˈlin"],
     meu: ["manu", "ˈmanu"],
     pon: ["menpihr", "menˈpiːr"],
     kos: ["won", "won"],

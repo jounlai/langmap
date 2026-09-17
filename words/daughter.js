@@ -878,7 +878,7 @@ WORDS.daughter = {
     kmh: ["pañ", "paɲ"],
     kmu: ["muna", "muna"],
     fai: ["mun", "mun"],
-    enq: ["wanenge", "waneŋe"],
+    enq: ["wanenge", "waneŋɡe"],
     hui: ["wane", "wane"],
     mpt: ["moon", "moːn"],
     ygr: ["abade", "abade"],

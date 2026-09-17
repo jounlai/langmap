@@ -482,7 +482,7 @@ WORDS.new = {
     osx: ["niuwi", "ˈniuwi"],
     mnk: ["kuta", "kuta"],
     unr: ["nawa", "nawa"],
-    enq: ["enenge", "eneŋe"],
+    enq: ["enenge", "eneŋɡe"],
     xpr: ["nawāg", "nawaːɡ"],
     sga: ["núae", "ˈnuːe"],
     bsk: ["thoṣ", "tʰoʂ"],

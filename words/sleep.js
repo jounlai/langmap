@@ -405,7 +405,7 @@ WORDS.sleep = {
     ia: ["dormir", "dorˈmir"],
     tok: ["lape", "lape"],
     tlh: ["Qong", "qʰoŋ"],
-    jbo: ["sipna", "sipna"],
+    jbo: ["sipna", "ˈsipna"],
     mai: ["सुतब", "sutəb"],
     mad: ["tedhung", "təɖʱuŋ"],
     hil: ["matulog", "matuˈloɡ"],

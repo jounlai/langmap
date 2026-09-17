@@ -348,7 +348,7 @@ WORDS.mountain = {
     nrf: ["montangne", "mɔ̃ˈtaɲ"],
     nso: ["thaba", "ˈtʰaba"],
     nv: ["dził", "tsɪɬ"],
-    ny: ["phiri", "ˈpʰiɽi"],
+    ny: ["phiri", "ˈpʰiɾi"],
     olo: ["mägi", "ˈmæɡi"],
     om: ["tulluu", "tʊlːuː"],
     or: ["ପର୍ବତ", "pɔrbɔtɔ"],

@@ -915,7 +915,7 @@ WORDS.sun = {
     nd: ["ilanga", "ilaŋɡa"],
     nso: ["letšatši", "letʃatʃi"],
     fan: ["zòp", "zop"],
-    naq: ["sores", "soɾes"],
+    naq: ["sores", "sores"],
     hts: ["ʼisha", "ʔiʃa"],
     nmn: ["ǁʼân", "ǁʼã"],
     kr: ["kiŋal", "kiŋal"],

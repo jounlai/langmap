@@ -146,7 +146,7 @@ WORDS.you = {
       srb: ["am", "am"],
       kjg: ["meʔ", "meʔ"],
       mro: ["nang", "naŋ"],
-      gon: ["निम्मा", "nimːaː"],
+      gon: ["निम्मा", "nimma"],
       bfq: ["niinu", "niːnu"],
       har: ["akhākh", "aχaːχ"],
       es_pr: ["tú", "tu"],

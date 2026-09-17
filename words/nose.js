@@ -910,7 +910,7 @@ WORDS.nose = {
     mpj: ["mulya", "muʎa"],
     aer: ["alhe", "al̪ə"],
     djr: ["ŋurru", "ŋuru"],
-    wrh: ["muurruu", "muːruː"],
+    wrh: ["muurruu", "ˈmuːruː"],
     nys: ["moolya", "muːʎa"],
     nha: ["muttha", "mut̪a"],
     wmt: ["punul", "ˈpunul"],

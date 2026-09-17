@@ -315,7 +315,7 @@ WORDS.butterfly = {
     piu: ["pintapinta", "pintapinta"],  // Fully reduplicated pinta-pinta.
     wbt: ["wirripintapinta", "wiripintapinta"],  // Contains the same reduplicated pintapinta as the neighbouring Pintupi-Luritja row, with wirri- prefixed.
     nys: ["bindibindi", "bindibindi"],  // Fully reduplicated bindi-bindi. The database tags the form (N).
-    wrh: ["buuja-buuja", "buːdʒabuːdʒa"],  // Fully reduplicated buuja-buuja.
+    wrh: ["buuja-buuja", "ˈbuːɟabuːɟa"],  // Fully reduplicated buuja-buuja.
     nha: ["ngaabeera", "ŋaːbeːra"],  // The database gives the form in angle brackets, i.e. in its source's own orthography.
     gun: ["popo", "popo"],  // Fully reduplicated po-po.
     tpn: ["panam", "paˈnam"],  // The etymon behind Nheengatu panapana, which reduplicates it.

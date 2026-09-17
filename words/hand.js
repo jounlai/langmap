@@ -416,7 +416,7 @@ WORDS.hand = {
     rw: ["ikiganza", "ikiɡanza"],
     rn: ["ikiganza", "ikiɡanza"],
     xh: ["isandla", "isandɮa"],
-    sn: ["ruoko", "ɾwoko"],
+    sn: ["ruoko", "rwoko"],
     mxc: ["ruoko", "ɾwoko"],
     ln: ["lobɔ́kɔ", "lobɔkɔ"],
     ny: ["dzanja", "dzandʒa"],

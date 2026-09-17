@@ -591,7 +591,7 @@ WORDS.bone = {
     ia: ["osso", "ˈosso"],
     tok: ["kiwen sijelo", "kiwen sijelo"],
     tlh: ["Hom", "xom"],
-    jbo: ["bongu", "boŋɡu"],
+    jbo: ["bongu", "ˈboŋɡu"],
     cjy: ["骨头", "kuəʔ˨ tʰəu˩"],
     hsn: ["骨头", "ku˨˦ tʰəu˩˧"],
     gan: ["骨头", "kut˥ tʰɛu˦˥"],

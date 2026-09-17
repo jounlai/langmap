@@ -511,6 +511,21 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 // ˈ on a monosyllable marks a contrast that is not there. Half the stress
 // policy is checkable; the other half — whether a polysyllable SHOULD carry it
 // — depends on the language and stays a judgement call.
+// The tone question rounds 3, 4 and 5 each held, cut along NOTATION rather than
+// language. Of the 114 rows using Chao letters 70 are complete; of the 95 using
+// diacritics NOT ONE is, because Chao letters are exhaustive and diacritics are
+// usually privative — Navajo marks high only and Yoruba leaves mid bare, so an
+// all-or-none rule would require 95 rows to be wrong. Rule A asks Chao rows for
+// completeness; rule B asks any row not to drop a tone its own SURFACE records.
+// 442 carried as debt: 205 + 237. 266 of them need no source, only the cell.
+const TONE_POLICY_DEBT = 442;
+s = run('tone_policy_check.js --check');
+{
+    const n = num(s, /violations: (\d+)/);
+    line('tone marked where the row says it is', n > TONE_POLICY_DEBT ? n - TONE_POLICY_DEBT : 0,
+        n + ' cells, budget ' + TONE_POLICY_DEBT);
+}
+
 s = run('stress_mark_check.js --check');
 line('stress mark on monosyllables', num(s, /violations: (\d+)/));
 

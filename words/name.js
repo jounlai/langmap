@@ -1051,7 +1051,7 @@ WORDS.name = {
       bqi: ["نوم", "num"],
       unr: ["nutum", "nutum"],
       hoc: ["nutum", "nutum"],
-      enq: ["ingi", "iŋi"],
+      enq: ["ingi", "iŋɡi"],
       xpr: ["nām", "naːm"],
       xqa: ["at", "at"],
       sga: ["ainm", "anʲmʲ"],

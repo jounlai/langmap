@@ -419,7 +419,7 @@ WORDS.hello = {
     rw: ["muraho", "muɾaːho"],
     rn: ["amahoro", "amahoɾo"],
     xh: ["molo", "molo"],
-    sn: ["mhoro", "mhoɾo"],
+    sn: ["mhoro", "mʱoro"],
     mxc: ["makadii", "makadiː"],
     ln: ["mbóte", "mbote"],
     ny: ["moni", "moni"],

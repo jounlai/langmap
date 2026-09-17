@@ -685,12 +685,12 @@ WORDS.bear = {
     // --- Indo-European: the inherited word, kept ----------------------
     // *h₂ŕ̥tḱos survives here. English keeps it only in "Arctic".
     p_ine: ["*h₂ŕ̥tḱos", "h₂ŕ̥tḱos"],
-    hit: ["𒄯𒁖𒂵𒀸", "ħartaɡːaʃ"],
+    hit: ["𒄯𒁖𒂵𒀸", "xartaɡːaʃ"],
     la: ["ursus", "ˈursus"],
     el_grc: ["ἄρκτος", "árktos"],
     el_kath: ["ἄρκτος", "ˈarktos"],
     el: ["αρκούδα", "arˈkuða"],
-    pnt: ["άρκον", "ˈarkon"],
+    pnt: ["άρκον", "ˈaɾkon"],
     sa: ["ऋक्षः", "r̥kʂɐɦ"],
     h_vedic: ["ऋक्षः", "ŕ̥kʂaɦ"],
     sa_edu: ["ऋक्षः", "rikʃəɦ"],

@@ -146,7 +146,7 @@ WORDS.i = {
       srb: ["ɲen", "ɲɛn"],
       kjg: ["oʔ", "ʔoʔ"],
       mro: ["nga", "ŋa"],
-      gon: ["नन्ना", "nanːaː"],
+      gon: ["नन्ना", "nanna"],
       bfq: ["naanu", "naːnu"],
       har: ["ān", "aːn"],
       es_pr: ["yo", "ʝo"],

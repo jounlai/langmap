@@ -681,7 +681,7 @@ WORDS.thanks = {
     ia: ["gratias", "ɡratias"],
     tok: ["pona", "pona"],
     tlh: ["qatlho'", "qʰɑtɬʰoʔ"],
-    jbo: ["ki'e", "kiʔe"],
+    jbo: ["ki'e", "kihe"],
     cjy: ["谢谢", "ɕie˨ ɕie"],
     hsn: ["谢谢", "ɕie˩˧ ɕie"],
     gan: ["谢谢", "ɕia˨˩ ɕia"],

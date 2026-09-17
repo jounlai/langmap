@@ -147,7 +147,7 @@ WORDS.house = {
       kjg: ["kaaŋ", "kaːŋ"],
       mro: ["khim", "kʲɪm"],
       gon: ["लॊन", "loːn"],
-      bfq: ["mane", "mɑneː"],
+      bfq: ["mane", "mɑne"],
       har: ["gar", "ɡɑːr"],
       es_pr: ["casa", "ˈkasa"],
       es_do: ["casa", "ˈkasa"],

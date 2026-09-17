@@ -664,7 +664,7 @@ WORDS.hundred = {
     zne: ["ngbangbu", "ŋɡbaŋɡbu"],
     fan: ["ntɛt", "ntɛ̀t"],
     ewo: ["ntɛt", "ntɛ̀d"],
-    naq: ["kaidisi", "kaitisi"],   // literally big ten — disi is this row's own ten
+    naq: ["kaidisi", "kaidisi"],   // literally big ten — disi is this row's own ten
     sad: ["kom kom", "kom kom"],   // ten ten; the Swahili mia is the alternative
     // --- Americas — Quechuan, Siouan, Algonquian, Mayan and the vigesimal count ----
     arn: ["pataka", "pataka"],

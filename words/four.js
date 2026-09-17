@@ -1074,7 +1074,7 @@ WORDS.four = {
     izz: ["anọ", "anɔ"],
     jiv: ["aintiuk", "aintʲuk"],
     acu: ["aintiuk", "aintʲuk"],
-    enq: ["kitomende", "kitoˈmende"],
+    enq: ["kitomende", "kitomende"],
     ker: ["waaɗe", "waːɗe"],
     xed: ["fwaɗ", "fwaɗ"],
     dbq: ["faɗ", "faɗ"],

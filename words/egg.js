@@ -393,7 +393,7 @@ WORDS.egg = {
     eo: ["ovo", "ˈovo"],
     ia: ["ovo", "ˈovo"],
     tlh: ["QIm", "qɪm"],
-    jbo: ["sovda", "sovda"],
+    jbo: ["sovda", "ˈsovda"],
     mai: ["अंडा", "əɳɖa"],
     anp: ["अंडा", "əɳɖa"],
     awa: ["अंडा", "əɳɖaː"],
@@ -661,7 +661,7 @@ WORDS.egg = {
     mpj: ["ngampu", "ŋampu"],
     wmt: ["kampiny", "kampiɲ"],
     djr: ["mapu", "mapu"],
-    wrh: ["gabuuga", "ɡabuːɡa"],
+    wrh: ["gabuuga", "ˈɡabuːɡa"],
     dbl: ["bambu", "bambu"],
     kky: ["gundil", "ɡundil"],
     // --- Austronesian — Proto-Austronesian *qateluR behind telur, tenaruh, adulo, tontolu

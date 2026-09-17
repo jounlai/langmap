@@ -70,7 +70,7 @@ WORDS.stone = {
     acf: ["wòch", "wɔʃ"],
     bla: ["oohkotok", "oːxkotok"],
     hop: ["owa", "ˈʔowa"],
-    one: ["onʌ́ya", "onʌ̃ja"],
+    one: ["onʌ́ya", "onʌ̃́ja"],
     cic: ["taliʼ", "taliʔ"],
     ik: ["ujaġak", "ujaʁak"],
     es_bo: ["piedra", "ˈpjeðɾa"],

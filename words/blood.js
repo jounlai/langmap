@@ -102,7 +102,7 @@ WORDS.blood = {
     bla: ["aapan", "aːpan"],
     hop: ["ungwa", "ʔuŋʷa"],
     com: ["pʉhʉ", "pɨhɨ"],
-    one: ["onekwʌ́hsaʼ", "onekwʌ̃hsaʔ"],
+    one: ["onekwʌ́hsaʼ", "onekwʌ̃́hsaʔ"],
     ono: ["otkwęhsaʼ", "otkwɛ̃hsaʔ"],
     win: ["waʼį", "waʔĩ"],
     cro: ["íre", "iɾe"],

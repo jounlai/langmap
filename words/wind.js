@@ -767,7 +767,7 @@ WORDS.wind = {
     mus: ["hotvle", "hoˈtalɪ"],
     oj: ["noodin", "noːdin"],
     atj: ["notin", "notin"],
-    alq: ["nòdin", "nɔdin"],
+    alq: ["nòdin", "nɔːdin"],
     ab: ["аԥша", "apʂa"],
     ik: ["anuġi", "anuʁi"],
     esu: ["anuqa", "anuqa"],

@@ -714,10 +714,10 @@ WORDS.wheel = {
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
     gez: ["መንኰራኵር", "mankʷaraːkʷər"],
     tig: ["ዕንክሎሎ", "ʕənkəlolo"],
-    bla: ["oʼtakáínakaʼsi", "oʔtakaːinakaʔsi"],
+    bla: ["oʼtakáínakaʼsi", "oʔtakáːínakaʔsi"],
     cro: ["baaiihuli", "baːiːhuli"],
     win: ["hogís", "hoˈɡis"],
-    cay: ["ęˀníhsga:ˀ", "ẽʔnihsɡaːʔ"],
+    cay: ["ęˀníhsga:ˀ", "ẽʔníhsɡaːʔ"],
     cr: ["ᐅᑎᐦᑎᐱᐸᔨᐤ", "otihtipipajiw"],
     oj: ["detibised", "detibised"],
     pqm: ["wahkaliqs", "wahkalikʷs"],

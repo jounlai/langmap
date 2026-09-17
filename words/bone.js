@@ -79,7 +79,7 @@ WORDS.bone = {
     bla: ["ohkin", "oxkin"],
     hop: ["öqa", "ʔøqa"],
     com: ["tsuhnipʉ", "tsuhnipɨ"],
-    one: ["ostyʌ́ʼtaʼ", "ostjʌ̃ʔtaʔ"],
+    one: ["ostyʌ́ʼtaʼ", "ostjʌ̃́ʔtaʔ"],
     ono: ["ostyęʼtaʼ", "ostjɛ̃ʔtaʔ"],
     win: ["huušerek", "huːʃerek"],
     cro: ["—", "—"],

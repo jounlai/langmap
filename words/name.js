@@ -92,7 +92,7 @@ WORDS.name = {
       bla: ["inihkaʼsini", "inixkaʔsini"],
       hop: ["tungwni", "tɨŋʷni"],
       com: ["nahnia", "nahnia"],
-      one: ["yukyáts", "juˈɡjats"],
+      one: ["yukyáts", "juɡjáts"],
       ono: ["yaʼts", "jaʔts"],
       win: ["raš", "raʃ"],
       cro: ["iláshe", "iláʃe"],

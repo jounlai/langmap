@@ -96,11 +96,11 @@ WORDS.red = {
     hsn_hy: ["红", "xəŋ˩˧"],
     hsn_yz: ["红", "xoŋ˩˧"],
     czh_wy: ["红", "ɦoŋ˨˩˧"],
-    bla: ["máóhk", "maoxk"],  // ótssko, which stood here, is Blackfoot's grue term (native-languages.org glosses it "green or blue"; Galt Museum has Otsskoinaattsi = blue), so it has moved to green/blue. Red is máóhk / Maohksinaattsi. Bare stems from the same native-languages.org list the row's white ksikk comes from.
+    bla: ["máóhk", "máóxk"],  // ótssko, which stood here, is Blackfoot's grue term (native-languages.org glosses it "green or blue"; Galt Museum has Otsskoinaattsi = blue), so it has moved to green/blue. Red is máóhk / Maohksinaattsi. Bare stems from the same native-languages.org list the row's white ksikk comes from.
     hop: ["palani", "palani"],
     com: ["ekapi", "ekapi"],
-    one: ["onikwʌ́tal", "onikwʌ̃tal"],
-    ono: ["otkwę́ʼtaʼ", "otkwɛ̃ʔtaʔ"],
+    one: ["onikwʌ́tal", "onikwʌ̃́tal"],
+    ono: ["otkwę́ʼtaʼ", "otkwɛ̃́ʔtaʔ"],
     win: ["šuuc", "ʃuːtʃ"],
     cro: ["hisshíi", "hiʃːiː"],
     hai: ["sgíw", "sɡíw"],  // Suspect. Lachler's Dictionary of Alaskan Haida — the source this row's white ǥadáang comes from — has sǥid 'to be red' and gives sǥíw as the noun 'black seaweed, laver'. The plain sg here against ǥ elsewhere in the row is a second hint it came from somewhere else. Read off a PDF with a remapped font, so left standing until someone can check the book.
@@ -498,7 +498,7 @@ WORDS.red = {
     gn: ["pytã", "pɨtã"],
     yrl: ["piranga", "piˈɾaŋa"],
     chr: ["ᎩᎦᎨ", "ɡiɡaɡe"],
-    cay: ["otgwę́:daʼ", "otɡwẽːdaʔ"],
+    cay: ["otgwę́:daʼ", "otɡwẽ́ːdaʔ"],
     tus: ["utkwatar", "utkwatar"],
     as: ["ৰঙা", "ɹɔŋa"],
     or: ["ନାଲି", "naːli"],

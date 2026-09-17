@@ -50,11 +50,19 @@ const CAP = 70;
  * because sorting those from the truncations needs a human and the length is
  * the only thing a machine can see. */
 const DEBT = new Set([
-    'script|es_pa', 'script|tsz', 'script|woe', 'script|pmt', 'script|trn',
-    'script|gun', 'script|ayl', 'script|jya', 'script|ers', 'script|atb',
-    'script|slr', 'script|yuy', 'script|mjg', 'script|sce', 'script|kdt',
-    'script|srb', 'script|bfq', 'script|har', 'script|rcf',
-    'script|kry', 'script|fia',
+    // PAID 2026-09-17, review 544. All 21 were rewritten from sources, and six
+    // of the inherited claims turned out to be WRONG rather than merely short:
+    // har's "official orthography since 1999" traces to one diaspora school's
+    // recollection on Omniglot against a peer-reviewed 1986; gun's "33-letter
+    // Achegety" is Paraguayan Guarani's alphabet, not Mbya's; bfq's Tamil-script
+    // claim describes a script Unicode L2/22220 records as separate and
+    // unadopted; sce's "official romanization since 2003" is neither official
+    // nor 2003; mjg's "31 letters", slr's "TB5000" and jya's "Situ Pinyin"
+    // exist in no source; rcf's "SudEL standard" is unsourceable.
+    //
+    // Leave the table here and empty. The class is an import artefact and the
+    // next one will look exactly like these: a finished-sounding sentence that
+    // happens to stop at 70 characters.
 ]);
 
 /* A field that ends here was finished, not cut. */

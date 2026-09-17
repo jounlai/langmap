@@ -142,3 +142,29 @@ provenance, not typos** — Pa'o←Burmese, Pyu←proto-forms, Situ←Written Ti
 Qiang←Northern Qiang, Eastern Pwo←S'gaw letter values, Bodo←a misread vowel sign, and in earlier
 rounds cjy_lv←Taiyuan and zh_zz←Jinan. That is cheap to catch with a deterministic cross-row
 identity scan and expensive to catch one rally at a time.
+
+## Correction — `unattestedReason` does exist, and round 5 looked in the wrong place
+
+Round 5's Tibeto-Burman thread reported that **"`unattestedReason` does not exist anywhere in
+`words/*.js` — I grepped; there is no convention to follow yet"**, and this review repeated it. It
+is wrong, and round 6's metadata thread caught it.
+
+The convention is fully live. 84 rows set it statically in `wordmap_meta.js`, a runtime loop at
+`wordmap_meta.js:4656` backfills the rest, `wordmap.html:8176` renders it in the language panel
+under the selected concept, `validate_wordmap_data.js` Task 162 validates it and gates the
+modern-dash ERROR on it, and `tools/build_meta_split.js:59` carries it into the lite build.
+Coverage is 1,260 of 1,673 dashed cells. `xht` and `pyx`, named in this review as having no reason
+recorded, are in fact 28 of 28 and 12 of 12 covered.
+
+**It is absent from `words/*.js` because a cell there is a bare `[surface, ipa]` tuple with nowhere
+to hang a reason** — the field lives on the row, not the cell. The grep was scoped to the one file
+set where the field could not appear.
+
+What is genuinely broken is smaller and worth recording as the real finding: three of five enum
+values have no entry in `UNATTESTED_REASON_LABEL`, so 297 cells reading `unknown` store and
+validate correctly and render nothing; seven rows already tried to write `undeciphered` (17 cells,
+all Iberian) and `unattested` (20 cells, all Liburnian), which are exactly the two words the
+vocabulary lacks, and both were silently discarded as WARNs; and the runtime default table is a
+per-concept template rather than a per-language fact, so `xht`, `ncs`, `txr`, `cms`, `h_goguryeo`,
+`xmr`, `p_jpk` and `pyx` all receive byte-identical maps, each publishing "the language has no word
+for this" about *hello* and *thanks*.

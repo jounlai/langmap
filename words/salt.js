@@ -1044,7 +1044,7 @@ WORDS.salt = {
     bla: ["isttsiksipoko", "istːsiksipoko"],
     hop: ["öönga", "ʔøːŋa"],
     win: ["nįįsgú", "nĩːsˈɡu"],
-    cro: ["awaxóosa", "awaχoːsa"],
+    cro: ["awaxóosa", "awaχóːsa"],
     hai: ["tang", "taŋ"],
     cic: ["hapiʼ", "hapiʔ"],
     ik: ["taġiuq", "taʁiuq"],

@@ -78,7 +78,7 @@ WORDS.honey = {
     zh: ["蜂蜜", "fɤŋ˥ mi˥˩"],
     yue: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
     vi: ["mật ong", "mət˨˩ ɔŋ˧"],
-    th: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
+    th: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
     id: ["madu", "ˈmadu"],
     hi: ["शहद", "ʃəɦəd"],
     de: ["Honig", "ˈhoːnɪç"],
@@ -235,7 +235,7 @@ WORDS.honey = {
     ptrk: ["*bal", "bal"],
     xqa: ["bal", "bal"],
     ota: ["بال", "bal"],
-    tr: ["bal", "bal"],
+    tr: ["bal", "baɫ"],
     az: ["bal", "bɑl"],
     azb: ["بال", "bɑl"],
     tk: ["bal", "bal"],
@@ -291,7 +291,7 @@ WORDS.honey = {
     // --- Mainland and island Southeast Asia -------------------------------
     km: ["ទឹកឃ្មុំ", "tɨk kʰmum"],
     my: ["ပျားရည်", "pjá jè"],
-    bo: ["སྦྲང་རྩི", "ʈʂaŋ tsi"],
+    bo: ["སྦྲང་རྩི", "ʈʂaŋ˩˧ tsi˥"],
     xct: ["སྦྲང་རྩི", "sbraŋ rtsi"],
     ms: ["madu", "ˈmadu"],
     jv: ["madu", "madu"],
@@ -570,15 +570,15 @@ WORDS.honey = {
 
     // --- Mainland Southeast Asia — the water of the bee --------------------
     lo: ["ນ້ຳເຜິ້ງ", "naːm˥˩ pʰɤŋ˥˩"],
-    th_n: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
+    th_n: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
     th_s: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
-    th_isan: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
+    th_isan: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
     vi_s: ["mật ong", "mək˨˩˨ ɔŋ˧"],
 
     // --- Pacific and the Philippines ---------------------------------------
     // Two more Pacific reflexes of the mel/méli family, carried in by mission
     // contact, beside Tongan hone straight from English.
-    mi: ["miere", "ˈmiere"],
+    mi: ["miere", "ˈmieɾe"],
     rap: ["meri", "meɾi"],
     to: ["hone", "hone"],
     ceb: ["dugos", "duˈɡos"],

@@ -470,7 +470,7 @@ WORDS.blue = {
     bnn: ["masanglav", "masaŋlav"],  // Isbukun (郡群) Bunun, the variety whose madanghas/maduhlas the row already uses. The bare root sanglav also means 'vegetables, greens'. A blue-specific malaingas 藍 exists in the same dictionary but masanglav is the basic term and is what the dictionary uses of the sky.
     bo: ["སྔོན་པོ", "ŋom˥po˥"],  // སྔོན་པོ is the classic Tibetan grue: it is the word for the colour of the sky AND of grass. Sun's Lhasa wordlist gives ŋom⁵⁵po⁵³ for blue against tɕaŋ¹⁵ku¹³ for green; the tone letters here are reduced to the row's single-mark style.
     br: ["glas", "ɡlɑːs"],  // Breton glas covers blue and the green of natural growing things; gwer is used for artificial green. IDS lists glaz for blue and gwer, ver, glaz for green.
-    bsk: ["diṅ", "ʂiˈqam"],  // Burushaski: NorthEuraLex gives the identical pair diṅ and ṣiqám for blue AND for green — a single cool-range vocabulary.
+    bsk: ["diṅ", "ʂiˈqam"],  // Burushaski: NorthEuraLex gives the identical pair diṅ and ṣiqám for blue AND for green — a single cool-range vocabulary.
     bxr: ["хүхэ", "xyˈxe"],  // Buryat хүхэ, the cognate of Mongolian хөх, against ногоон.
     ca: ["blau", "blaw"],  // blau vs verd.
     cag: ["jaka", "jaka"],  // IDS y written j here, exactly as this row's red yuk → juk/juk. Green in Nivaclé is a descriptive phrase, so the blue term is the basic one.
@@ -488,7 +488,7 @@ WORDS.blue = {
     cng: ["phiɑʴwa", "pʰiɑʴwa"],  // Northern Qiang (Mawo) phiɑʴwa against ʐɑn ku 'green'.
     cr: ["ᓰᐱᐦᒁᐤ", "siːpihkwaːw"],  // Same form as the crk row; the cr row is the Cree macrolanguage and its other cells are the Plains Cree forms.
     crk: ["ᓰᐱᐦᒁᐤ", "siːpihkwaːw"],  // Syllabics copied from the itwêwina page source. Cree does also have askihtakwâw 'it is blue, it is blue-green', but sîpihkwâw is the blue-specific term and blue is separately encoded in the Cree colour system.
-    cro: ["shúa", "ʃua"],  // CSD gives šúa; written shúa in the Crow orthography this row uses (cf. hisshíi 'red'). One term for blue and green across Siouan.
+    cro: ["shúa", "ʃúa"],  // CSD gives šúa; written shúa in the Crow orthography this row uses (cf. hisshíi 'red'). One term for blue and green across Siouan.
     crs: ["ble", "ble"],  // Seychellois ble from French bleu; WOLD scores it as showing no evidence of borrowing, i.e. inherited from the lexifier rather than taken in later.
     crt: ["lasa", "lasa"],  // Same IDS list that supplies this row's isyet→isjet and lemiʔ. Note the contrast with Wichí in the same family, where one term covers both.
     cs: ["modrý", "ˈmodriː"],  // modrý vs zelený.
@@ -497,7 +497,7 @@ WORDS.blue = {
     cv: ["кӑвак", "kəˈʋak"],  // Chuvash кӑвак vs симӗс. Chuvash кӑвак also covers grey (of hair), the Oghur branch's own extension.
     cy: ["glas", "ɡlaːs"],  // Welsh glas is the classic grue: traditionally blue, the green of growing things, and grey (glaswellt 'grass'). gwyrdd (< Lat. viridis) now carries much of green, but glas is still the sky's colour and still reaches into green.
     da: ["blå", "blɔːˀ"],  // blå vs grøn; stød as in the row's rød/ʁœðˀ.
-    dak: ["tȟó", "txo"],  // CSD writes the Dakota reflex thó; tȟó is the spelling used in the Dakota/Lakota orthography this row's šá and ska belong to, but I could not source the Dakota orthographic form directly.
+    dak: ["tȟó", "txó"],  // CSD writes the Dakota reflex thó; tȟó is the spelling used in the Dakota/Lakota orthography this row's šá and ska belong to, but I could not source the Dakota orthographic form directly.
     dar: ["хьанцӏа", "ħanˈtsʼa"],  // Dargwa хьанцӏа vs шиниша. Sixteen Dargwa dialects in IDS agree on the хьанцӏ-/шиниш- pair, several adding шала- 'light' to the blue. Palochka written U+04C0 to match this row's existing хӏунтӏена.
     ddo: ["нига", "ˈniɡa"],  // Tsez нига: the Mokok dialect in IDS gives нига for blue AND нига, цӏицӏира for green — one term reaching across both. NorthEuraLex gives нига vs эчйаси.
     de: ["blau", "blaʊ̯"],  // blau vs grün; inherited Germanic *blēwaz.
@@ -613,7 +613,7 @@ WORDS.blue = {
     lg: ["bululu", "bululu"],  // Loan from English 'blue'. Luganda's inherited green is kiragala. Spelling: the dictionary prints bululu; as a class-5 noun it is commonly written bbululu (cf. this row's -ddugavu), so the gemination may need checking against a scholarly Luganda dictionary.
     lic: ["khi:u1", "kʰiːu˥˧"],  // Hlai (Baoting): IDS gives khi:u.1 for BOTH blue and green.
     liv: ["siņņi", "ˈsiɲːi"],  // Livonian siņņi vs ōļaz / mõltsi.
-    lkt: ["tȟó", "txo"],  // Wiktionary flags modern Lakota tȟó as narrowing to 'blue' with tȟózi available for green, but the basic term still covers both and the CSD glosses it 'green, blue'.
+    lkt: ["tȟó", "txó"],  // Wiktionary flags modern Lakota tȟó as narrowing to 'blue' with tȟózi available for green, but the basic term still covers both and the CSD glosses it 'green, blue'.
     ln: ["bule", "bule"],  // Etymology stated on the entry. The same loan is shared with Kituba and Kikongo. Lingala's inherited colour adjectives are the three-term set motane / pembe / moindo.
     // No lo cell: ຟ້າ is right for the surface, but the IPA arrived without a
     // Chao tone letter in a row that marks tone on every other cell, and no
@@ -677,7 +677,7 @@ WORDS.blue = {
     or: ["ନେଳି", "neɭi"],  // Odia ନେଳି against ସବୁଜ.
     orh: ["tʃaŋgɛ:n", "tʃaŋɡɛːn"],  // WOLD gives Oroqen tʃaŋgɛ:n and ʃɪ:la for blue, both scored as showing no evidence of borrowing. WOLD supplies no orthography and the row's other colour cells are in a phonemic Latin transcription, so the surface repeats the transcription.
     os: ["цъӕх", "tsʼæx"],  // Ossetian цъæх is given for BOTH blue and green in IDS and in NorthEuraLex — one term across the cool range; кæрдæгхуыз 'grass-coloured' is the descriptive green.
-    osa: ["htóho", "htoho"],  // The CSD's Osage entry itself is glossed simply 'blue'; the class comes from the cognate set, whose other Dhegiha members are glossed 'blue, green'.
+    osa: ["htóho", "htóho"],  // The CSD's Osage entry itself is glossed simply 'blue'; the class comes from the cognate set, whose other Dhegiha members are glossed 'blue, green'.
     otq: ["kꞌangi", "kʼaŋi"],  // CROSS-VARIETY: WOLD's Otomi is Mezquital Otomi (ote), not Querétaro Otomi (otq). k'angi is pan-Otomian (cf. Mazahua canga in the WCS). Recorded as distinct, not grue, because WOLD gives a separate green lexeme k'ants'i for the same variety.
     pa: ["ਨੀਲਾ", "niːlaː"],  // Punjabi ਨੀਲਾ against ਹਰਾ, the same Indo-Aryan nīla-/harita- pair as Hindi.
     pag: ["asul", "ʔaˈsul"],  // Spanish loan (azul). Benton's red/white/black (ambalañgá, amputí, andekét) match this row's existing cells, so asúl is from the same source and register. Wiktionary's pag 'pasiseng' is green, not blue. The older Diccionario pangasinan-español (Fernández Cosgaya 1865) has 'Color azul — Inanágan', an inherited term Benton no longer lists.
@@ -707,7 +707,7 @@ WORDS.blue = {
     rmy: ["vuneto", "vuˈneto"],  // Vlax Romani takes both cool-range terms from the surrounding languages: vuneto 'blue' and zeleno 'green' are Slavic/Romanian loans. IDS brackets both, marking them as such.
     rn: ["ubururu", "ubururu"],  // Same form and same loan chain as Kinyarwanda. Flagged: the source is a shared Rwanda-Rundi entry, not a Kirundi-specific dictionary.
     ro: ["albastru", "alˈbastru"],  // albastru vs verde. WOLD: no evidence for borrowing — albastru continues Latin albaster, a rare case of a blue term from a 'whitish' root.
-    rtm: ["čarava", "tʃarava"],  // Rotuman: IDS gives the identical form čarava for BOTH blue and green — one term over the whole cool range.
+    rtm: ["čarava", "tʃarava"],  // Rotuman: IDS gives the identical form čarava for BOTH blue and green — one term over the whole cool range.
     ru: ["синий", "ˈsʲinʲɪj"],  // Russian is the textbook two-blue language: синий (dark blue) and голубой (light/sky blue) are both basic terms — IDS lists both for the concept. синий is the unmarked member and is given here; голубой is the literal colour of a clear sky.
     rut: ["хьылынды", "ħɨlɨnˈdɨ"],  // Rutul хьылынды vs шилды; all four IDS Rutul dialects agree.
     rw: ["ubururu", "ubururu"],  // Loan chain English blue > Swahili buluu > Kinyarwanda ubururu. Inherited green is icyatsi (icyatsi kibisi), a noun from 'grass/weed'; there is no inherited basic blue term.
@@ -718,7 +718,7 @@ WORDS.blue = {
     se: ["alit", "ˈalit"],  // Northern Sámi alit vs ruoná.
     sel: ["норяй", "ˈnorʲaj"],  // Selkup норяй vs патый.
     sga: ["glas", "ɡlas"],  // Old Irish glass runs across blue, green and grey; IDS lists gorm; glass for blue and glass; uaine for green, showing the overlap directly.
-    shp: ["yãkõ", "jãkõ"],  // Shipibo-Conibo yãkõ is the blue term, and IDS gives green as yãkõ paṣ̌na — the same word plus a modifier — beside šɨpa. WALS 134A codes Shipibo-Konibo as Green-or-blue.
+    shp: ["yãkõ", "jãkõ"],  // Shipibo-Conibo yãkõ is the blue term, and IDS gives green as yãkõ paṣ̌na — the same word plus a modifier — beside šɨpa. WALS 134A codes Shipibo-Konibo as Green-or-blue.
     si: ["නිල්", "nil"],  // Sinhala නිල් against කොළ 'green'.
     sjd: ["алехь", "ˈaʎeç"],  // Kildin Sámi алехь vs руэнн. WOLD scores it as no evidence for borrowing — the inherited Saami blue root, unlike Southern Sámi's Scandinavian loan.
     sk: ["modrý", "ˈmɔdriː"],  // modrý vs zelený; belasý is the lighter sky-blue.

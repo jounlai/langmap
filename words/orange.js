@@ -553,7 +553,7 @@ WORDS.orange = {
     ru: ["апельсин", "ɐpʲɪlʲˈsʲin"],
     ar: ["برتقال", "burtuqaːl"],
     he: ["תפוז", "taˈpuz"],
-    tr: ["portakal", "poɾtaˈkal"],
+    tr: ["portakal", "poɾtaˈkaɫ"],
     fa: ["پرتقال", "poɾteɣɒːl"],
     prs: ["پرتقال", "poɾtaɣɒl"],
     sw: ["chungwa", "tʃuŋɡwa"],

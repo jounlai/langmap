@@ -518,7 +518,12 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 // all-or-none rule would require 95 rows to be wrong. Rule A asks Chao rows for
 // completeness; rule B asks any row not to drop a tone its own SURFACE records.
 // 442 carried as debt: 205 + 237. 266 of them need no source, only the cell.
-const TONE_POLICY_DEBT = 442;
+// 442 -> 95 on 2026-09-17 (review 545). Rule B was mechanical once the vowel
+// alignment was right, and rule A1 turned out far less source-hungry than 205
+// suggested: a large block of it is orthographies that write tone in a LETTER
+// rather than a diacritic — Hmong RPA finals, Hani -l/-q, Zhuang tone letters —
+// which become row-internal once the letter-to-Chao table is read off the row.
+const TONE_POLICY_DEBT = 95;
 s = run('tone_policy_check.js --check');
 {
     const n = num(s, /violations: (\d+)/);

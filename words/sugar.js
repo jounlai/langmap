@@ -376,7 +376,7 @@ WORDS.sugar = {
     hak_cn: ["糖", "tʰoŋ˩˩"],
     vi: ["đường", "ɗɨəŋ˨˩"],
     vi_s: ["đường", "ɗɨəŋ˨˩"],
-    th: ["น้ำตาล", "nam˧˥ taːn˧"],
+    th: ["น้ำตาล", "nam˦˥ taːn˧"],
     id: ["gula", "ˈɡula"],
     ms: ["gula", "ˈɡula"],
     hi: ["चीनी", "tʃiːniː"],

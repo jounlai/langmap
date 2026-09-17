@@ -70,7 +70,7 @@ WORDS.butterfly = {
     ug: ["كېپىنەك", "kepinɛk"],  // Schwarz glosses it as Lepidoptera, i.e. it covers moths too; same Turkic root as Kazakh kepelek, Uzbek kapalak, Turkish kelebek
     wo: ["lëpp-lëpp", "ləpləp"],  // a reduplication; the older Holy Ghost Fathers dictionary glosses 'Phalene' (moth) as lepalepa u gudi, literally 'butterfly of the night'
     bem: ["icipelebesha", "itʃipelebeːʃa"],  // class 7 ici-; the dictionary glosses it 'butterfly (gen.)', i.e. the generic term
-    bo: ["ཕྱེ་མ་ལེབ་", "tɕʰemalep"],  // three morphemes phye 'open' + ma (linker) + leb 'flat', i.e. 'open-or-flat' for the wing movement (Suzuki); Lhasa colloquial also has ཅེམ་ཅེ་ལྷ་མོ་ cem ce lha mo
+    bo: ["ཕྱེ་མ་ལེབ་", "tɕʰemalep˥"],  // three morphemes phye 'open' + ma (linker) + leb 'flat', i.e. 'open-or-flat' for the wing movement (Suzuki); Lhasa colloquial also has ཅེམ་ཅེ་ལྷ་མོ་ cem ce lha mo
     dag: ["kahimpiɛɣu", "kahimpiɛɣu"],  // the dictionary glosses it 'a butterfly, moth' — one word covers moths as well
     dnj: ["dheŋdheŋkpaadhe", "ɗeŋɗeŋkpaːɗe"],  // reduplicated dheŋ-dheŋ- before kpaadhe; the moth is a separate word, te̋te̋kpȁadhȅ 'papillon de nuit'
     fan: ["evulabeba", "evulabeba"],  // 'moth' is derived from it — Lejeune's evoulabéba alouse, literally 'night butterfly'
@@ -98,7 +98,7 @@ WORDS.butterfly = {
     arq: ["فرططو", "fərtˤətˤtˤu"],  // the Maghrebi fertettu word; a bu- 'father-of' compound bou fertettou is also recorded, and the French loan babiyu (< papillon) competes with it
     cdo: ["蝴蝶", "hu˧˧ lieʔ˥"],  // Sinitic 蝴蝶; IPA is the realised sandhi form (蝴 53→33, and 蝶 t- lenites to l- between vowels), not the citation tones
     cho: ["hatapushik", "hatapoʃik"],  // Byington also records haahtapushik and hatapushi; the Choctaw Nation of Oklahoma dictionary spells the word hʋtapushik (reached via Wiktionary, which cites it)
-    chp: ["yágoli", "jaɡoli"],  // formation not stated in the source
+    chp: ["yágoli", "jáɡoli"],  // formation not stated in the source
     cjy: ["蝴蝶", "xu˩ tiəʔ˥˦"],  // the general Chinese word; earlier written 胡蝶. Taiyuan also has the diminutive 蝴蝶兒
     ckb: ["پەپوولە", "pɛpuːlɛ"],  // a reduplicated pe-pû-le, matching Kurmanji p'irp'irok, Zazaki filfilik and Hebrew parpar; Sorani keeps it distinct from پەروانە perwane 'moth'
     dak: ["kímama", "kímama"],  // reduplicative in shape; Riggs also records the diminutive kimamana, Williamson a variant kimimana
@@ -144,7 +144,7 @@ WORDS.butterfly = {
     pt: ["borboleta", "buɾbuˈletɐ"],  // From a Latin reduplicated diminutive of bellus 'pretty' (belbellita).
     ca: ["papallona", "pəpəˈʎonə"],  // From Latin papilio, like French papillon.
     ro: ["fluture", "ˈfluture"],  // WOLD rates fluture 'perhaps borrowed'; it is cognate with Albanian flutur.
-    la: ["pāpiliō", "paːˈpɪlioː"],  // Reduplicative *pal-pal- shape; ancestor of French papillon and Catalan papallona.
+    la: ["pāpiliō", "paːˈpɪlioː"],  // Reduplicative *pal-pal- shape; ancestor of French papillon and Catalan papallona.
     ru: ["бабочка", "ˈbabətɕkə"],  // Diminutive of баба 'old woman'; Vasmer links it to a belief that the dead return as butterflies.
     uk: ["метелик", "meˈtelɪk"],  // East/West Slavic *motylь root, unlike Russian бабочка.
     be: ["матыль", "maˈtɨlʲ"],  // Slavic *motylь.
@@ -251,7 +251,7 @@ WORDS.butterfly = {
     ang: ["butorflēoge", "ˈbutorfleːoɣe"],  // Ancestor of Modern English butterfly. IDS also records fīfalde — the reduplicated *pVl-pVl- word that survives as Icelandic fiðrildi and Swedish fjäril.
     enm: ["buterflie", "ˈbutərfliː"],  // continues Old English butorflēoge, 'butter' + 'fly'
     goh: ["fifaltra", "ˈfifaltra"],  // glosses Latin papilio; from Germanic *fifaldōn, a reduplicated *fi-fald- (Köbler), whence MHG vīvalter and modern German Falter
-    gmh: ["vīvalter", "ˈfiːfalter"],  // Continues Old High German vīvaltra, the reduplicated *pVl-pVl- root later ousted by Schmetterling.
+    gmh: ["vīvalter", "ˈfiːfalter"],  // Continues Old High German vīvaltra, the reduplicated *pVl-pVl- root later ousted by Schmetterling.
     os: ["гӕлӕбу", "ɡælæbu"],
     kum: ["гёбелек", "ɡøbelek"],  // Shared Turkic root with Turkish kelebek.
     nog: ["куьпелек", "kypelek"],  // Shared Turkic root with Turkish kelebek.
@@ -287,7 +287,7 @@ WORDS.butterfly = {
     tsi: ["ba̱xbog̱mgyemk", "baxboɢm̩ɡʲemk"],  // compound ending in gyemk 'sun/moon/heat' (so stated in the dictionary); Kitkatla dialect has wa̱xwog̱mgyemk, and adabiis 'beautiful' is also used
     kpj: ["otʃiʃa", "otʃiʃa"],
     kmh: ["gogaŋ", "ɡoɡaŋ"],  // reduplicative go-gaŋ; the database also records a variant gugaŋ
-    th: ["ผีเสื้อ", "pʰiː˩˧sɯa̯˥˩"],  // Compound ผี 'ghost, spirit' + เสื้อ; WOLD glosses it phǐi-sʉ̂a '[ghost-garment]'. The same word still means 'tutelary spirit'.
+    th: ["ผีเสื้อ", "pʰiː˩˩˦sɯa̯˥˩"],  // Compound ผี 'ghost, spirit' + เสื้อ; WOLD glosses it phǐi-sʉ̂a '[ghost-garment]'. The same word still means 'tutelary spirit'.
     sah: ["үрүмэччи", "yrymetʃːi"],  // the general word; NorthEuraLex also lists лыах, which the Sakha dictionary defines as a larger kind of butterfly (NEL writes чч as cː, rewritten here as the row-style affricate tɕː)
     acn: ["phă31ʐam35tʂam55", "pʰă˧˩ʐam˧˥tʂam˥˥"],
     atb: ["phĕ55la̱m51", "pʰĕ˥˥la̱m˥˩"],
@@ -304,7 +304,7 @@ WORDS.butterfly = {
     kek: ["peepem", "peːpem"],  // Reduplicated pee-pem. WOLD cites Sam Juárez et al. (1997).
     tzo: ["pepen", "pepen"],  // Reduplicated pe-pen, like Qʼeqchiʼ peepem. WOLD's entry is the Zinacantán variety.
     car: ["palanpalan", "palanpalan"],  // Fully reduplicated palan-palan.
-    jup: ["bʼebʼěp", "b’eb’ěp"],  // WOLD glosses the formation simply as 'Reduplication'.
+    jup: ["bʼebʼěp", "bʼebʼěp"],  // WOLD glosses the formation simply as 'Reduplication'.
     ote: ["tu̲xu̲mu", "tuxumu"],
     crs: ["papiyon", "papijɔ̃"],  // From French papillon.
     dsb: ["mjatel", "ˈmʲatɛl"],  // The Slavic *motylь root, as in Polish motyl and Czech motýl.
@@ -358,7 +358,7 @@ WORDS.butterfly = {
     cr: ["ᑲᒫᒪᐠ", "kamaːmak"],  // the diminutive kamâmakos ᑲᒫᒪᑯᐢ is 'small butterfly, moth', so this word is the butterfly proper
     oj: ["memengwaa", "memeŋɡwaː"],
     chr: ["ᎧᎹᎹ", "kamama"],  // the same word also means 'elephant'; final syllable is repeated (ka-ma-ma)
-    moh: ["tsiʼktsinén:nawen", "tsiʔktsineːnawen"],  // its first element tsi'k- is shared with tsi'ks 'fly' and tsi'kskó:wa 'horse fly' in the same list; IPA is my reading of the orthography, not from the source
+    moh: ["tsiʼktsinén:nawen", "tsiʔktsinéːnawen"],  // its first element tsi'k- is shared with tsi'ks 'fly' and tsi'kskó:wa 'horse fly' in the same list; IPA is my reading of the orthography, not from the source
     yua: ["péepen", "peːpen"],  // reduplication, from proto-Mayan *pehpen (Kaufman & Justeson 2003)
     quc: ["pepe", "pepe"],  // reduplication, from proto-Mayan *pehpen; the ALMG vocabulary lists penpen as a second reduplicated variant
     cak: ["palamax", "palamaʃ"],  // Kaqchikel has dropped the pan-Mayan *pehpen word (Kaufman's PMED still records pepe for the Itzapa variety); variants malax / amalax

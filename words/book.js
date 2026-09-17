@@ -199,7 +199,7 @@ WORDS.book = {
     bm: ["gafɛ", "ɡafɛ"],
     ee: ["agbalẽ", "aɡbalẽ"],
     bem: ["icitabo", "itʃitabo"],
-    bo: ["དེབ", "tʰep"],
+    bo: ["དེབ", "tʰep˩˧"],
     dv: ["ފޮތް", "fot̪"],
     cdo: ["书", "tsy˥˥"],
     cjy: ["书", "su˩"],
@@ -405,7 +405,7 @@ WORDS.book = {
     lg: ["ekitabo", "etʃitabo"],  // Snoxall 1967 p.143, Murphy 1972 p.209. ki → tʃi as this row does throughout (ekiro → etʃiro), and the source's tone marks are dropped, also as this row does.
     nyn: ["ekitabo", "ekitabo"],  // Runyankore keeps ki as ki, unlike Luganda (ekihuguuhugu → ekihuɡuːhuɡu), and takes plain intervocalic b (izooba, webare) rather than the β of the nyo row.
     nyo: ["ekitabu", "ekitaβu"],  // Maddox, An Elementary Lunyoro Grammar (1902): "Book, s., ekitabu", "ha nsiya kitabu, underneath the book", with "Leaf of book, s., orupapura" kept separate. β per this row's ibara → iβara.
-    ln: ["búku", "buku"],      // ln.wikipedia's book article is Búku, illustrated with a dictionary. Its synonym mokanda is glossed only 'letter' and is itself borrowed from Kongo nkanda — the same split that put búku in the kg cell rather than mukanda. Tone kept in the surface, dropped in the IPA, as this row does (mɔ́tɔ → mɔtɔ).
+    ln: ["búku", "búku"],      // ln.wikipedia's book article is Búku, illustrated with a dictionary. Its synonym mokanda is glossed only 'letter' and is itself borrowed from Kongo nkanda — the same split that put búku in the kg cell rather than mukanda. Tone kept in the surface, dropped in the IPA, as this row does (mɔ́tɔ → mɔtɔ).
     loz: ["buka", "buka"],
     nso: ["puku", "puku"],     // Borrowed from English book; nso.wikipedia's Puku article discusses dipuku tša go gatišitšwego 'printed books'.
     luo: ["buk", "buk"],       // English–Dholuo Dictionary (1997) splits three ways in one source: "book (n) buk", "paper (n) kalatas", "letter (n) oboke, barua, nyukta".

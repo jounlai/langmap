@@ -345,7 +345,7 @@ WORDS.foot = {
     ar_eg: ["رجل", "riɡil"],  // Colloquial Arabic collapses what MSA splits.
     ar_lev: ["إجر", "ʔiʒr"],  // As Egyptian.
     ar_sd: ["كراع", "kuraːʕ"],  // Sudanese uses the kurāʕ root for the whole limb.
-    arn: ["ṉamuṉ", "n̪amun̪"],  // Mapudungun splits them. Surface is WOLD's orthography, IPA follows IDS's n̯amun̯.
+    arn: ["ṉamuṉ", "n̪amun̪"],  // Mapudungun splits them. Surface is WOLD's orthography, IPA follows IDS's n̯amun̯.
     as: ["ভৰি", "bʱoɹi"],  // ভৰি is the human lower limb as a whole; ঠেং is used of animals.
     ast: ["pie", "pje"],  // pie vs pierna.
     av: ["хӏетӏе", "ħjetʼje"],  // Avar has separate words, though the dialect material shows хӏетӏе reaching the leg too.
@@ -358,7 +358,7 @@ WORDS.foot = {
     bik: ["bitis", "biˈtis"],  // As Tagalog.
     bn: ["পা", "pa"],  // Bengali পা covers the whole lower limb — a split from Hindi, which has पैर vs टाँग. ঠেং is a colloquial leg word.
     bo: ["རྐང་པ", "kaŋ˥pa˥"],  // One word for the lower limb; ཞབས is the honorific.
-    bsk: ["-úṭ", "uʈ"],  // Burushaski keeps them apart. Both are obligatorily possessed, hence the hyphen, matching the row's hand cell -rin.
+    bsk: ["-úṭ", "uʈ"],  // Burushaski keeps them apart. Both are obligatorily possessed, hence the hyphen, matching the row's hand cell -rin.
     ca: ["peu", "pɛw"],  // peu vs cama.
     cdo: ["跤", "kʰa˥˥"],  // Eastern Min patterns with Southern Min: 跤 covers the limb, 跤腿 specifies the leg.
     ce: ["ког", "koɡ"],  // ког covers the lower limb.
@@ -512,11 +512,11 @@ WORDS.foot = {
     otk: ["𐰑𐰴", "adaq"],  // The inherited Turkic one-word pattern. IPA is the plain reading of the orthography, following how this row's own hand cell writes 𐰘𐰠𐰏 as eliɡ.
     pa: ["ਪੈਰ", "pɛːɾ"],  // As Hindi/Urdu.
     pap: ["pia", "pia"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes man as man.
-    pbb: ["čida", "tʃida"],  // One word for the lower limb. IPA is IDS's own transcription with č written t͡ʃ.
+    pbb: ["čida", "tʃida"],  // One word for the lower limb. IPA is IDS's own transcription with č written t͡ʃ.
     pdc: ["Fuuss", "fuːs"],  // As German. IPA is the plain reading of the orthography, following how this row's own hand cell writes Hand as hant.
     pdt: ["Foot", "foːt"],  // As German. IPA is the plain reading of the orthography, following how this row's own hand cell writes Haunt as haʊnt.
     pl: ["stopa", "ˈstɔpa"],  // Polish is the West Slavic outlier: stopa is the ordinary word for the foot, against Czech/Slovak noha for both.
-    prg: ["nagē", "naɡeː"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes rancko as ranko.
+    prg: ["nagē", "naɡeː"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes rancko as ranko.
     pt: ["pé", "pɛ"],  // pé vs perna.
     qu: ["chaki", "tʃaki"],  // chaki covers foot and leg. IPA is the plain reading of the Quechua orthography, as in this row's hand cell maki.
     rap: ["vaʻe", "vaʔe"],  // Cognate with Tongan vaʻe and used the same way. IPA is the plain reading of the orthography, following how this row's own hand cell writes rima as ɾima.
@@ -524,7 +524,7 @@ WORDS.foot = {
     rgn: ["pè", "pɛ"],  // pè vs gâmba.
     rm: ["pe", "pe"],  // As Italian. IPA is the plain reading of the orthography, following how this row's own hand cell writes maun as mawn.
     ro: ["picior", "piˈtʃor"],  // Romanian is the Romance outlier: one word picior for the whole lower limb, where every other big Romance language splits pie/pierna. labă (WOLD) is 'paw', not the everyday foot word.
-    rtm: ["lā", "laː"],  // One word for the limb, with a compound available for the leg. IPA is the plain reading of the orthography, following how this row's own hand cell writes si'u as siʔu.
+    rtm: ["lā", "laː"],  // One word for the limb, with a compound available for the leg. IPA is the plain reading of the orthography, following how this row's own hand cell writes si'u as siʔu.
     ru: ["нога", "nɐˈɡa"],  // Everyday Russian нога is the whole lower limb; ступня/стопа are the anatomical foot-only words NorthEuraLex picked for 'foot'.
     rup: ["cicior", "tʃiˈtʃor"],  // As Romanian picior: one word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes mânâ as ˈmɨnɨ.
     ruq: ["picior", "pitʃor"],  // Class inferred from the other Eastern Romance languages. IPA is the plain reading of the orthography, following how this row's own hand cell writes mâna as ˈmɨna.

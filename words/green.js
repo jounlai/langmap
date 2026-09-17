@@ -64,7 +64,7 @@ WORDS.green = {
     nl: ["groen", "ɣrun"],
     sv: ["grön", "ɡrøːn"],
     no: ["grønn", "ɡrœnː"],
-    da: ["grøn", "ɡʁɶˀn"],
+    da: ["grøn", "ɡʁœˀn"],
     fr: ["vert", "vɛʁ"],
     es: ["verde", "ˈbeɾðe"],
     it: ["verde", "ˈverde"],
@@ -145,7 +145,7 @@ WORDS.green = {
     jv: ["ijo", "ˈidʒo"],
     su: ["héjo", "ˈhedʒo"],
     ceb: ["berde", "ˈbɛrde"],
-    mi: ["kākāriki", "kaːkaːriki"],
+    mi: ["kākāriki", "kaːkaːɾiki"],
     haw: ["ʻōmaʻomaʻo", "ʔoːmaʔomaʔo"],
     mt: ["aħdar", "ˈaħdar"],
     sq: ["jeshil", "jɛˈʃil"],
@@ -210,7 +210,7 @@ WORDS.green = {
     bi: ["grin", "ɡrin"],
     bik: ["berde", "ˈbɛrde"],
     blt: ["ꪵꪄꪫ", "kʰiaw"],
-    bo: ["ལྗང་ཁུ", "tɕəŋ˩˨ku˥"],
+    bo: ["ལྗང་ཁུ", "tɕəŋ˩˧ku˥"],
     brx: ["गोथां", "ɡotʰaŋ"],
     bug: ["kudara", "kudara"],
     bxr: ["ногоон", "noˈɡoːŋ"],
@@ -299,7 +299,7 @@ WORDS.green = {
     jam: ["griin", "ɡɹiːn"],  // Was grin, which in Cassidy-JLU spells /ɡrɪn/ — a different word. jam.wikipedia has griin 20 times and grin not once ("Yelo a di kola bitwiin griin ah arinj"); Cassidy writes /iː/ as ⟨ii⟩, as in chrii 'three'.
     gcf: ["vè", "vɛ"],        // Guadeloupe is vè, not the Haitian/St Lucian vèt: the colour table this comes from also gives wouj/blan/nwè/blé, which match this row exactly. Weaker than the others here — Ludwig/Telchid and Tourneux & Barbotin were out of reach.
     gcr: ["vèrt", "vɛʁt"],    // fr.wiktionary's Guianese entry, with Lingua Libre recordings by Cayenne speakers; gcr.wikipedia uses it 33 times (té vèrt, bwa vèrt). Genuinely not a copy of gcf's vè.
-    hai: ["sǥinuwáa", "sɢinuwɑː"],  // Lachler's Dictionary of Alaskan Haida, the same source as this row's ǥadáang, lists it first under 'green' and glosses it green only. Held with a caveat: Haida also has kʼánhlahl 'yellow, green, yellow-green', which carries all the dictionary's green example sentences, so the system may really be a grellow term plus this vivid-green one, which is transparently derived from sǥináaw 'green algae'.
+    hai: ["sǥinuwáa", "sɢinuwɑ́ː"],  // Lachler's Dictionary of Alaskan Haida, the same source as this row's ǥadáang, lists it first under 'green' and glosses it green only. Held with a caveat: Haida also has kʼánhlahl 'yellow, green, yellow-green', which carries all the dictionary's green example sentences, so the system may really be a grellow term plus this vivid-green one, which is transparently derived from sǥináaw 'green algae'.
     hup: ["łitsow", "ɬitsow"],  // Grue, and the compounds prove it: tłʼoh-łitsow 'grass' is literally grass-łitsow and miqʼos-łitsow 'mallard' is its-neck-is-łitsow.
     jbo: ["crino", "ˈʃrino"],
     kaa: ["jasıl", "ʒɑˈsɯl"],

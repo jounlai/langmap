@@ -625,7 +625,7 @@ WORDS.iron = {
     urh: ["ogba", "oɡba"],
     ekp: ["uci", "utʃi"],
     deg: ["ikulele", "ikulele"],
-    kbp: ["ñɩɣtʋ", "ɲɩɣtʋ"],
+    kbp: ["ñɩɣtʋ", "ɲɪɣtʋ"],
 
     // --- Bantu — *-uma and *-tale, each with its own class prefix ---------
     suk: ["jisinza", "dʒisinza"],

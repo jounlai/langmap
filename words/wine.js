@@ -1144,7 +1144,7 @@ WORDS.wine = {
     sn: ["waini", "waini"],
     ny: ["vinyo", "viɲo"],
     rw: ["divayi", "divaji"],
-    yo: ["wáìnì", "waini"],
+    yo: ["wáìnì", "wáìnì"],
 
     // --- Constructed ----------------------------------------------------------
     vo: ["vin", "vin"],
@@ -1470,7 +1470,7 @@ WORDS.wine = {
     mnk: ["wayinoo", "wajinoː"],
     dyo: ["wayin", "wajin"],
     tem: ["mawain", "mawain"],
-    bsq: ["wã́ìn", "wãin"],
+    bsq: ["wã́ìn", "wã́ìn"],
     sus: ["wɛni", "wɛni"],
     sg: ["vin", "vin"],
     ewo: ["wayn", "wajn"],

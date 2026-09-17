@@ -105,7 +105,7 @@ WORDS.computer = {
     "bjn": ["komputer", "komˈputər"],
     "bm": ["ɔridinatɛri", "ɔridinatɛri"],
     "bn": ["কম্পিউটার", "kɔmpiu̯ʈaɾ"],
-    "bo": ["གློག་ཀླད", "lòʔ lɛ́ʔ"],
+    "bo": ["གློག་ཀླད", "loʔ˩˧ lɛʔ˥˧"],
     "br": ["urzhiataer", "yrzjaˈtaɛːr"],
     "bs": ["računar", "ˈratʃunaːr"],
     "bto": ["kompyuter", "komˈpjutɛr"],

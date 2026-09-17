@@ -18,7 +18,14 @@
  * none in the surface.
  *
  * Scope is deliberately narrow — a surface of two or more characters, every one
- * of them Han. Anything with Latin, punctuation or a slash is left alone.
+ * of them Han. Anything with Latin or punctuation is left alone.
+ *
+ * ONE EXCEPTION, and it was a hole rather than a design choice. A `we` cell in a
+ * clusivity row is written `inclusive / exclusive` in ONE cell, so its surface
+ * carries a slash and failed the all-Han test — which exempted all 63 Sinitic
+ * rows at that one concept and hid seven real defects, `zh 咱们 / 我们` among
+ * them. Found 2026-09-17 by a thread looking for exactly this kind of seam.
+ * Both fields are now split on `" / "` and each half tested on its own.
  *
  * `ja_kanbun` is EXEMPT, and it is the exception that proves the rule: its
  * readings are jukujikun, where the whole compound maps to a native Japanese
@@ -65,11 +72,16 @@ for (const [id, w] of Object.entries(WORDS)) {
         const surface = Array.isArray(e) ? e[0] : (e && e.form);
         const ipa = Array.isArray(e) ? e[1] : (e && e.ipa);
         if (!surface || surface === '—' || !ipa) continue;
-        const chars = [...surface];
-        if (chars.length < 2 || !chars.every((c) => HAN.test(c))) continue;
-        const pieces = ipa.trim().split(/\s+/).length;
-        if (pieces >= chars.length) continue;
-        violations.push({ code, id, surface, ipa, chars: chars.length, pieces });
+        // A clusivity `we` cell holds two words in one field, `incl / excl`.
+        const sParts = surface.split(' / '), iParts = ipa.split(' / ');
+        if (sParts.length !== iParts.length) continue;
+        for (let k = 0; k < sParts.length; k++) {
+            const chars = [...sParts[k]];
+            if (chars.length < 2 || !chars.every((c) => HAN.test(c))) continue;
+            const pieces = iParts[k].trim().split(/\s+/).length;
+            if (pieces >= chars.length) continue;
+            violations.push({ code, id, surface, ipa, chars: chars.length, pieces });
+        }
     }
 }
 

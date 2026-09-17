@@ -191,7 +191,7 @@ WORDS.chocolate = {
     lb: ["Schockela", "ˈʃokəlaː"],
     lez: ["шкалат", "ʃkaˈlat"],
     li: ["sjoekelaat", "ʃukəˈlaːt"],
-    ln: ["sokolá", "sokola"],
+    ln: ["sokolá", "sokolá"],
     mad: ["cokklat", "tʃɔkklat"],
     mfe: ["sokola", "sokola"],
     mg: ["sôkôla", "soˈkola"],

@@ -157,7 +157,7 @@ WORDS.silk = {
     ban: ["sutra", "sutra"],
     bho: ["रेशम", "ˈreːʃam"],
     bik: ["seda", "ˈseda"],
-    bo: ["དར", "tʰaː˩˨"],
+    bo: ["དར", "tʰaː˩˧"],
     bug: ["sabbe", "sabːe"],
     ca_va: ["seda", "ˈseða"],
     cbk: ["seda", "ˈseda"],

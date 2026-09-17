@@ -298,7 +298,7 @@ WORDS.black = {
     bo: ["ནག་པོ", "naʔpo˩˧"],
     xct: ["ནག་པོ", "nag po"],
     xct_litpr: ["ནག་པོ", "naɡpo"],
-    bft: ["ནག་པོ", "nagpo"],
+    bft: ["ནག་པོ", "naɡpo"],
     dz: ["ནགཔ", "naːp"],
     my: ["မည်း", "mɛ́"],
     new: ["हाकु", "haku"],

@@ -192,7 +192,7 @@ WORDS.sea = {
     cab: ["barana", "ˈbarana"],
     cbk: ["mar", "maɾ"],
     cdo: ["海", "hai˧˧"],
-    ce: ["хӀорд", "hord"],
+    ce: ["хӏорд", "hord"],
     ch: ["tasi", "ˈtasi"],
     cjy: ["海", "xai˥˧"],
     ckb: ["دەریا", "dɛɾˈjaː"],

@@ -642,7 +642,7 @@ const LANG_DATA = {
 },
   // Selkup — Uralic (Samoyedic, Southern), ~1K, Russia (Tomsk/Krasnoyarsk Krai/Yamalo-Nenets — Taz/Yenisei river basins).
   // Sources: Ethnologue 27 'sel'; Glottolog selk1253; Helimski (1998) Selkup; Kazakevich (2002) Selkup descriptive sketch.
-  sel: { name: 'Selkup', native: 'Шöльӄумыт әты', lat: 65.40, lng: 80.50, // Krasnoselkup (Yamalo-Nenets, Taz River — northern Selkup)
+  sel: { name: 'Selkup', native: 'Шӧльӄумыт әты', lat: 65.40, lng: 80.50, // Krasnoselkup (Yamalo-Nenets, Taz River — northern Selkup)
 },
   kca: { name: 'Khanty', native: 'Ханты ясаӈ', lat: 61.00, lng: 69.00, // Khanty-Mansiysk
 },
@@ -2519,7 +2519,7 @@ const LANG_DATA = {
 },
   inh: { name: 'Ingush', native: 'Гӏалгӏай мотт', lat: 43.16, lng: 44.81, // Magas
 },
-  av: { name: 'Avar', native: 'Авар мацӀ', lat: 42.98, lng: 47.50, // Makhachkala
+  av: { name: 'Avar', native: 'Авар мацӏ', lat: 42.98, lng: 47.50, // Makhachkala
 },
   lez: { name: 'Lezgian', native: 'Лезги чӏал', lat: 41.79, lng: 48.16, // Derbent area
 },
@@ -2535,11 +2535,11 @@ const LANG_DATA = {
 },
   lbe: { name: 'Lak', native: 'Лакку маз', lat: 42.10, lng: 47.13, // Kumukh
 },
-  tab: { name: 'Tabasaran', native: 'Табасаран чӀал', lat: 41.93, lng: 48.04, // Khiv
+  tab: { name: 'Tabasaran', native: 'Табасаран чӏал', lat: 41.93, lng: 48.04, // Khiv
 },
   // Archi — NE Caucasian (Lezgic, isolated within Lezgic), ~1K, Russia (Daghestan — Charoda District, Archi village). One of world's most morphologically complex languages: ~1.5M possible verb forms.
   // Sources: Ethnologue 27 'aqc'; Glottolog arch1244; Kibrik (1977) Archi: Phonology & Morphology; Chumakina (2008).
-  aqc: { name: 'Archi', native: 'Аршаттен чӀат', lat: 42.18, lng: 46.73, // Archi village, Charoda District, Daghestan
+  aqc: { name: 'Archi', native: 'Аршаттен чӏат', lat: 42.18, lng: 46.73, // Archi village, Charoda District, Daghestan
 },
   // Udi — NE Caucasian (Lezgic), ~6K, Azerbaijan (Niž village, Qabala) + Georgia. Linear descendant of Caucasian Albanian (5th c. literary language).
   // Sources: Ethnologue 27 'udi'; Glottolog udii1243; Schulze (1982) Die Sprache der Uden; Maisak (2008).
@@ -2547,7 +2547,7 @@ const LANG_DATA = {
 },
   // Tsakhur (Yiqby) — NE Caucasian (Lezgic, Aghul-Tabasaran-Tsakhur subgroup), ~13K, Russia (Daghestan southern villages) + Azerbaijan (Zaqatala/Qax raions).
   // Sources: Ethnologue 27 'tkr'; Glottolog tsak1249; Schulze-Fürhoff (1994); Kibrik & Kodzasov (1990).
-  tkr: { name: 'Tsakhur', native: 'ЦӀаIхна миз', lat: 41.49, lng: 47.05, // Tsakhur village, Rutul District, Daghestan
+  tkr: { name: 'Tsakhur', native: 'Цӏаӏхна миз', lat: 41.49, lng: 47.05, // Tsakhur village, Rutul District, Daghestan
 },
   // Kumyk — Kipchak Turkic, ~440K, Daghestan Russia. Northern lingua franca historically.
   // Sources: Ethnologue 27 'kum'; Glottolog kumy1244; Bammatov (1969) Kumyk-Russian Dictionary.
@@ -5188,7 +5188,7 @@ const LANG_DATA = {
 },
   khv: { name: 'Khvarshi', native: 'аорсилъи мец', lat: 42.3, lng: 46.18,
 },
-  kjj: { name: 'Khinalug', native: 'Кетш мицI', lat: 41.18, lng: 48.07,
+  kjj: { name: 'Khinalug', native: 'Кетш мицӏ', lat: 41.18, lng: 48.07,
 },
   kpf: { name: 'Komba', native: 'Komba', lat: -6.14, lng: 147.28,
 },
@@ -5212,7 +5212,7 @@ const LANG_DATA = {
 },
   pao: { name: 'Northern Paiute', native: 'Numu', lat: 39.53, lng: -119.81,
 },
-  rut: { name: 'Rutul', native: 'МыхӀабишды чӀел', lat: 41.55, lng: 47.3,
+  rut: { name: 'Rutul', native: 'Мыхӏабишды чӏел', lat: 41.55, lng: 47.3,
 },
   kim: { name: 'Tofa', native: 'тоъфа дыл', lat: 54.3, lng: 99.1,
 },
@@ -5267,7 +5267,7 @@ const LANG_DATA = {
 },
   kfr: { name: 'Kachhi', native: 'કચ્છી', lat: 23.25, lng: 69.66,
 },
-  kry: { name: 'Kryts', native: 'кърыцӀаз кьеланджи', lat: 41.19, lng: 48.27,
+  kry: { name: 'Kryts', native: 'кърыцӏаз кьеланджи', lat: 41.19, lng: 48.27,
 },
   luz: { name: 'Southern Luri', native: 'لوری جنوبی', lat: 30.4, lng: 51.55,
 },

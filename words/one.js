@@ -770,7 +770,7 @@ WORDS.one = {
     lkt: ["waŋží", "waŋʒí"],
     kl: ["ataaseq", "ataːseq"],
     ce: ["цхьа", "tsʜa"],
-    inh: ["цаӀ", "tsaʔ"],
+    inh: ["цаӏ", "tsaʔ"],
     av: ["цо", "tso"],
     lez: ["сад", "sad"],
     dar: ["ца", "tsa"],

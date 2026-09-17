@@ -636,7 +636,7 @@ WORDS.white = {
     lkt: ["ská", "ska"],
     kl: ["qaqortoq", "qaqoχtoq"],
     ce: ["кӏайн", "kʼajn"],
-    inh: ["кӀай", "kʼaj"],
+    inh: ["кӏай", "kʼaj"],
     av: ["хъахӏаб", "qːaħab"],
     lez: ["лацу", "latsu"],
     dar: ["цӏуба", "tsʼuba"],

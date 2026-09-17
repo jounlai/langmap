@@ -64,18 +64,22 @@ const legitimate = (t) =>
 
 // Known and unresolved: a native-name field whose correct spelling needs a
 // source rather than a majority vote. Counted separately so the gate is 0.
-const UNRESOLVED = {
-    'Шöльӄумыт': 'Selkup autonym. Selkup Cyrillic has ӧ (U+04E7); this is a Latin ö. '
-        + 'It is quoted as the autonym in the English description and in wordmap_data.js, '
-        + 'so it needs a Selkup orthography source, not a guess.',
-    'мāʼ': 'Nganasan `house`. Latin ā where Cyrillic а with a combining macron may belong. '
-        + 'Needs a Nganasan orthography source.',
-    'ЦӀаIхна': 'Tsakhur autonym, and it uses BOTH palochka forms in one word — Ӏ (U+04C0) '
-        + 'and ASCII I. One of them is wrong; which one is a house-convention call.',
-    'цIə': 'Hunzib `fire`. Palochka plus a Latin ə where Cyrillic ә (U+04D9) may belong — '
-        + 'its Khvarshi neighbour writes цIа with a Cyrillic а. Hunzib is largely unwritten, '
-        + 'so this needs a source on which alphabet the corpus is following.',
-};
+/* Empty, and that is the finding.
+ *
+ * All four entries were settled on 2026-09-17 (review 537) and the strings
+ * they described no longer exist:
+ *   Шöльӄумыт  Latin ö -> Cyrillic ӧ U+04E7 (Selkup alphabet has it; 4 files)
+ *   мāʼ        the Nganasan alphabet has no macron letter at all -> маˮ
+ *   ЦӀаIхна    both palochkas are REAL letters (ЦӀ and АӀ); only the codepoint
+ *              was inconsistent -> Цӏаӏхна, U+04CF twice
+ *   цIə        the Latin ə stays: ə appears in 10 of 59 Hunzib forms and
+ *              Cyrillic ә in none, Hunzib is unwritten, and there is nothing
+ *              to normalise TO. Only the ASCII I moved.
+ *
+ * Leave this table here, empty. The next mixed-script word should have to be
+ * argued for in writing before it is allowed to sit in the data. */
+const UNRESOLVED = {};
+
 
 const files = ['wordmap_meta.js', 'wordmap_data.js', 'lang_names.js',
     'hanmap_trivia.js', 'wordmap_trivia.js']

@@ -611,7 +611,7 @@ WORDS.wind = {
     ddo: ["лъаци", "ɬaci"],
     emp: ["nãũ", "nãũ"],
     guc: ["houtai", "houtai"],
-    huz: ["за̇лӀе", "zɑƛe"],
+    huz: ["за̇лӏе", "zɑƛe"],
     kca: ["вот", "wot"],
     khb: ["ᦟᦳᧄ", "lum"],
     srh: ["shamul", "ɕamul"],

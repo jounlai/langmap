@@ -850,7 +850,7 @@ WORDS.sleep = {
     ani: ["кьихинну", "tɬʼiχinːu"],
     bdk: ["архар", "arxar"],
     ddo: ["кеца", "ketsʼa"],
-    huz: ["бутӀа", "butʼa"],
+    huz: ["бутӏа", "butʼa"],
     khv: ["лӏеса", "ɬesa"],
     kjj: ["мишкири", "miʃkiri"],
     rut: ["сахын", "saxɨn"],

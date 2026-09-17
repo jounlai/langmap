@@ -519,7 +519,7 @@ WORDS.eat = {
     fra_jer: ['mangi', 'mɑ̃ˈʒi'],
     gsw_w: ['ässu', 'ˈæsːʊ'],
     huz: ['мухъа', 'muqχa'],
-    khv: ['лацIа', 'latsʼa'],
+    khv: ['лацӏа', 'latsʼa'],
     kjj: ['кьанды', 'qʼandæ'],
     kpf: ['ni-', 'ni'],
     kqz: ['ǂʼũ', 'ǂʼũ'],

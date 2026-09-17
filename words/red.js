@@ -707,7 +707,7 @@ WORDS.red = {
     inh: ["цӏе", "tsʼe"],
     av: ["багӏараб", "baʕarab"],
     lez: ["яру", "jaru"],
-    dar: ["хӀунтӀена", "ʜuntʼena"],
+    dar: ["хӏунтӏена", "ʜuntʼena"],
     agx: ["иреф", "iref"],
     ddo: ["цӏуда", "tsʼuda"],
     lbe: ["ятӏулсса", "jatʼulsːa"],

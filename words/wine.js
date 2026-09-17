@@ -1350,7 +1350,7 @@ WORDS.wine = {
     ddo: ["ша", "ʃa"],
     bbl: ["ვეჼ", "vẽ"],
     ab: ["аҩы", "aɥˤə"],
-    abq: ["чагӀыр", "tʃaʁər"],
+    abq: ["чагӏыр", "tʃaʁər"],
     ady: ["санэ", "saːna"],
     kbd: ["санэ", "saːna"],
     uby: ["baqʼəsma", "baqʼəsma"],

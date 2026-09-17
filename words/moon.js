@@ -519,7 +519,7 @@ WORDS.moon = {
     gsw_w: ['Mánu', 'ˈmaːnʊ'],
     huz: ['боцо', 'botso'],
     khv: ['буца', 'butsa'],
-    kjj: ['вацI', 'vatsʼ'],
+    kjj: ['вацӏ', 'vatsʼ'],
     kpf: ['kain', 'kain'],
     kqz: ['ǁkhab', 'ǁkʰab'],
     ktz: ['nǁháí', 'ᵑǁʰáí'],

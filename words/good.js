@@ -518,7 +518,7 @@ WORDS.good = {
     nrf_gg: ['boan', 'bwɑ̃'],
     fra_jer: ['bouôn', 'bwɔ̃'],
     gsw_w: ['güet', 'ɡyə̯t'],
-    huz: ['кIотIу', 'kʼotʼu'],
+    huz: ['кӏотӏу', 'kʼotʼu'],
     khv: ['логу', 'loɡu'],
     kjj: ['ксан', 'ksan'],
     kpf: ['âlipŋâ', 'ɐlipŋɐ'],

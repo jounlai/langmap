@@ -782,7 +782,7 @@ WORDS.wine = {
     sw: ["mvinyo", "mˈviɲo"],
 
     // --- Indo-European *wóyh₁nom --------------------------------------
-    p_ine: ["*wóyh₁nom", "wójhnom"],
+    p_ine: ["*wóyh₁nom", "wójh₁nom"],
     la: ["vīnum", "ˈwiːnum"],
     el_grc: ["οἶνος", "óînos"],
     el_kath: ["οἶνος", "ˈinos"],

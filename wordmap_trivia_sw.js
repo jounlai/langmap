@@ -330,7 +330,7 @@ window.TRIVIA_I18N['sw'] = {
     title: 'Kisumerian — miongoni mwa lugha za awali kabisa kuwahi kuandikwa',
     summary: 'Mojawapo ya lugha za awali kabisa zilizoshuhudiwa kwa wingi kwa maandishi: lugha pekee ya Mesopotamia, iliyorekodiwa kwenye udongo tangu ~3200 KK, na kuhifadhiwa hai kama lugha ya kitaaluma kwa miaka 2,000 baada ya mzungumzaji wa mwisho wa asili kufa.',
     body: `
-  <p>Karibu 3200 KK, katika mji wa kusini wa Mesopotamia wa <strong>Uruk</strong>, mtu fulani alishinikiza mwisho wa kalamu ya mwanzi katika udongo wenye unyevu na kuandika kiasi cha shayiri. Kibao hicho cha udongo, na maelfu kama hicho, ni miongoni mwa wakati wa awali kabisa ambapo lugha ya binadamu ilitoroka pumzi iliyoibeba — sambamba na maendeleo ya kufanana katika Misri ya nasaba za mwanzo, na baadaye kidogo katika Bonde la Indus na China. Lugha iliyokuwa ikirekodiwa ilikuwa <strong>Kisumerian</strong> (<em>eme-gir</em>, "lugha ya asili") — na miaka 5,200 baadaye bado tunaisoma.</p>
+  <p>Karibu 3200 KK, katika mji wa kusini wa Mesopotamia wa <strong>Uruk</strong>, mtu fulani alishinikiza mwisho wa kalamu ya mwanzi katika udongo wenye unyevu na kuandika kiasi cha shayiri. Kibao hicho cha udongo, na maelfu kama hicho, ni miongoni mwa wakati wa awali kabisa ambapo lugha ya binadamu ilitoroka pumzi iliyoibeba — sambamba na maendeleo ya kufanana katika Misri ya nasaba za mwanzo, na baadaye kidogo katika Bonde la Indus na China. Lugha iliyokuwa ikirekodiwa ilikuwa <strong>Kisumerian</strong> (<em>eme-gir</em>, "lugha ya asili") — na zaidi ya miaka elfu tano baadaye bado tunaisoma.</p>
 
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="sux" data-zoom="6">🌍 Onyesha Kisumerian kwenye ramani</button>
@@ -679,7 +679,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Wachifu wa Kikonfyushasi wa Kikorea walichukia. Msomi wa Hall of Worthies Choe Manri aliwasilisha kumbukumbu maarufu ya 1444 akiita Hangul "kama ya Wamongolia au washenzi" na kuonya kwamba kupitisha hati ya kawaida kungekata Korea kutoka kwa kusoma kistaarabu (yaani Kichina). Sejong alimkataa. Hata hivyo, baada ya kifo cha Sejong mwaka 1450, Hangul ilipuuziliwa mbali; Mfalme Yeonsangun aliipiga marufuku moja kwa moja mwaka 1504 baada ya vipeperushi vya Hangul vya jina hazifahamiki kumkosoa. Kwa zaidi ya karne nne zilizofuata ilinusurika kama "hati ya wanawake" (<em>amkeul</em>) na chombo cha fasihi ya kawaida, wakati usomi wa kiwango cha juu uliendelea katika Hanja.</p>
 
-  <p>Urejesho wa kweli wa Hangul ulikuja mwishoni mwa karne ya 19 na mrekebishaji Ju Si-gyeong, ambaye alipanga jina lake (<em>han-geul</em>, "hati kuu") na orthografia yake ya kisasa. Baada ya kipindi cha kikoloni cha Kijapani — wakati ambapo Hangul ilipigwa marufuku tena, wakati huu na nguvu ya nje — Korea Kusini ilitangaza Siku ya Hangul (한글날) kuwa likizo ya kitaifa. Korea Kaskazini huiita <em>Chosŏn'gŭl</em> na huadhimisha likizo yake mwenyewe tarehe 15 Januari. Kusoma na kuandika kwa Kikorea cha kisasa ni 100% kwa utendaji.</p>
+  <p>Urejesho wa kweli wa Hangul ulikuja mwishoni mwa karne ya 19 na mrekebishaji Ju Si-gyeong, ambaye alipanga jina lake (<em>han-geul</em>, "hati kuu") na orthografia yake ya kisasa. Baada ya kipindi cha kikoloni cha Kijapani — wakati ambapo Hangul ilipigwa marufuku tena, wakati huu na nguvu ya nje — Korea Kusini ilitangaza Siku ya Hangul (한글날) kuwa likizo ya kitaifa. Korea Kaskazini huiita <em>Chosŏn'gŭl</em> na huadhimisha likizo yake mwenyewe tarehe 15 Januari. Kiwango cha watu wazima wanaojua kusoma na kuandika nchini Korea Kusini leo ni miongoni mwa vya juu zaidi duniani.</p>
 
   <p>Mwanaisimu Geoffrey Sampson alielezea Hangul mwaka 1985 kama "labda mfumo wa kisayansi zaidi wa kuandika unaotumika kwa jumla katika nchi yoyote". Maumbo ya msingi ya herufi yanajulikana sana kwa kuwa rahisi kukariri — watoto wa Korea wanaweza kuelewa alfabeti katika kikao kimoja, ingawa ufasaha kamili wa kusoma na kuandika unahitaji miaka kadhaa kama hati nyingine yoyote. Ni hati pekee kuu ya dunia yenye mbunifu anayejulikana na mantiki ya muundo iliyoandikwa — jaribio la maabara la miaka 600 lililofanya kazi.</p>
     `
@@ -1038,7 +1038,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Athari zinaenda mbali zaidi ya Nuxalk. Iwapo lugha inaweza kujenga maneno kutoka kwa mfululizo wa obstruent safi, basi madai ya ulimwengu wote kwamba <em>kila silabi inahitaji vokali</em> haiwezi kusimama katika fomu yake yenye nguvu zaidi. Wanafonolojia sasa wanatofautisha kwa makini zaidi kati ya <strong>sonority</strong> (sifa ya kifononi) na <strong>kiini</strong> (jukumu la kimuundo) — na Nuxalk ni mfano kila mtu hufundisha.</p>
 
-  <p>Leo wasemaji wa kwanza wa lugha wenye ufasaha chini ya 20 wa Nuxalk wanabaki, karibu wote ni wazee huko Bella Coola. Taifa la Nuxalk huendesha mipango ya kuzama na hatua ya nyumba ya lugha; rekodi zilizofanywa na Nater katika miaka ya 1970, na kazi ya hivi karibuni zaidi ya uwekaji kumbukumbu inayosaidiwa na Baraza la Utamaduni la Watu wa Kwanza, vinakimbia kuandika fonolojia isiyo na nyingine yoyote.</p>
+  <p>Leo wasemaji wa kwanza wa lugha wenye ufasaha wapatao ishirini wa Nuxalk wanabaki, karibu wote ni wazee huko Bella Coola. Taifa la Nuxalk huendesha mipango ya kuzama na hatua ya nyumba ya lugha; rekodi zilizofanywa na Nater katika miaka ya 1970, na kazi ya hivi karibuni zaidi ya uwekaji kumbukumbu inayosaidiwa na Baraza la Utamaduni la Watu wa Kwanza, vinakimbia kuandika fonolojia isiyo na nyingine yoyote.</p>
     `
   },
 
@@ -1096,7 +1096,7 @@ window.TRIVIA_I18N['sw'] = {
 
   <p>Hii ni msaada wa moja kwa moja wa kihalisi kwa wazo kwamba <strong>lugha ni tokeo la ubunifu la akili ya mtoto</strong>, si tu kurekodi kwa upole kwa mchango. Watoto katika makundi yanayofuatana kwa kujitegemea walibuni vipengele — kama kuvunja matukio ya mwendo katika vipengele vya "njia" na "namna" — ambavyo hakuna mtu mzima alikuwa amewapa, na ambavyo vinaonekana kwa kushangaza kama vipengele vilivyoandikwa katika lugha zingine za ishara zilizoanzishwa.</p>
 
-  <p>Leo ISN ina labda watu 3,000 wanaofanya ishara na jamii ya Viziwi yenye nguvu inayoandaliwa kupitia <em>Asociación Nacional de Sordos de Nicaragua</em>. Ni mojawapo ya lugha changa zaidi duniani, na hakuna lugha nyingine ambayo sarufi yake imefuatiliwa kwa ukaribu kiasi hicho ilipokuwa bado inaundwa: miaka ya pidgin ya kundi la kwanza ililazimika kujengwa upya kutokana na ishara za watu hao wakiwa watu wazima, lakini tangu 1986 kila kundi limerekodiwa kwenye kamera, kwenye karatasi, na kwenye kumbukumbu za shamba za kiisimu.</p>
+  <p>Leo ISN ina maelfu kadhaa ya watu wanaofanya ishara na jamii ya Viziwi yenye nguvu inayoandaliwa kupitia <em>Asociación Nacional de Sordos de Nicaragua</em>. Ni mojawapo ya lugha changa zaidi duniani, na hakuna lugha nyingine ambayo sarufi yake imefuatiliwa kwa ukaribu kiasi hicho ilipokuwa bado inaundwa: miaka ya pidgin ya kundi la kwanza ililazimika kujengwa upya kutokana na ishara za watu hao wakiwa watu wazima, lakini tangu 1986 kila kundi limerekodiwa kwenye kamera, kwenye karatasi, na kwenye kumbukumbu za shamba za kiisimu.</p>
     `
   },
 

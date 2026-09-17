@@ -104,7 +104,7 @@ const TRIVIA_ARTICLES = [
       'Nevins, Andrew; Pesetsky, David; Rodrigues, Cilene (2009). "Pirahã Exceptionality: A Reassessment." Language 85(2): 355–404.',
       'Frank, Michael C.; Everett, Daniel L.; Fedorenko, Evelina; Gibson, Edward (2008). "Number as a cognitive technology: Evidence from Pirahã language and cognition." Cognition 108(3): 819–824.',
       { text: 'Glottolog: Pirahã (pira1253)', url: 'https://glottolog.org/resource/languoid/id/pira1253' },
-      { text: 'WALS Online: Pirahã', url: 'https://wals.info/languoid/lect/wals_code_pir' },
+      { text: 'WALS Online: Pirahã', url: 'https://wals.info/languoid/lect/wals_code_prh' },
     ],
   },
 
@@ -562,8 +562,8 @@ const TRIVIA_ARTICLES = [
         'McKnight, David (1999). People, Countries, and the Rainbow Serpent: Systems of Classification among the Lardil of Mornington Island. Oxford University Press.',
         'Evans, Nicholas (1995). A Grammar of Kayardild, with Historical-Comparative Notes on Tangkic. Mouton de Gruyter.',
         'Hale, Kenneth (1971). "A note on a Walbiri tradition of antonymy." In D. Steinberg & L. Jakobovits (eds.), Semantics. Cambridge University Press, pp. 472–482.',
-        { text: 'Glottolog: Lardil (lard1244)', url: 'https://glottolog.org/resource/languoid/id/lard1244' },
-        { text: 'AIATSIS: Lardil collection', url: 'https://collection.aiatsis.gov.au/austlang/language/g34' },
+        { text: 'Glottolog: Lardil (lard1243)', url: 'https://glottolog.org/resource/languoid/id/lard1243' },
+        { text: 'AIATSIS: Lardil collection', url: 'https://collection.aiatsis.gov.au/austlang/language/g38' },
       ],
     },
     {
@@ -791,7 +791,7 @@ const TRIVIA_ARTICLES = [
       },
       body: {
         en: `
-  <p>Around 3200 BCE, in the southern Mesopotamian city of <strong>Uruk</strong>, somebody pressed the end of a reed stylus into wet clay and wrote down a quantity of barley. That clay tablet, and thousands like it, are among the earliest moments human language escaped the breath that carried it — alongside parallel developments in early dynastic Egypt and, somewhat later, in the Indus Valley and China. The language being recorded was <strong>Sumerian</strong> (<em>eme-gir</em>, "the native tongue"), and 5,200 years later we are still reading it.</p>
+  <p>Around 3200 BCE, in the southern Mesopotamian city of <strong>Uruk</strong>, somebody pressed the end of a reed stylus into wet clay and wrote down a quantity of barley. That clay tablet, and thousands like it, are among the earliest moments human language escaped the breath that carried it — alongside parallel developments in early dynastic Egypt and, somewhat later, in the Indus Valley and China. The language being recorded was <strong>Sumerian</strong> (<em>eme-gir</em>, "the native tongue"), and more than five thousand years later we are still reading it.</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="sux" data-zoom="6">🌍 Show Sumerian on the map</button>
@@ -823,7 +823,7 @@ const TRIVIA_ARTICLES = [
   <p>Today the <strong>Pennsylvania Sumerian Dictionary</strong> and the <strong>Electronic Text Corpus of Sumerian Literature</strong> (ETCSL, Oxford) make it possible to read the world's oldest poetry on a phone. The <strong>Epic of Gilgamesh</strong>, in its Sumerian-language predecessors like "Gilgamesh and the Bull of Heaven", is among the oldest stories humanity ever wrote down, and it is still being translated.</p>
         `,
         ja: `
-  <p>紀元前3200年頃、メソポタミア南部の都市<strong>ウルク</strong>で、誰かが葦のスタイラスの先を湿った粘土に押しつけ、大麦の数量を記録した。その粘土板と、それに続く何千枚もの板は、人類の言語が「息」から解放されて物質に刻まれた最初期の瞬間のひとつである──初期王朝期のエジプト、やや遅れてインダスや中国でも、並行して同じことが起きた。記録された言語は<strong>シュメール語</strong>（<em>eme-gir</em>「土地の言葉」）──5200年後の今も読み続けられている。</p>
+  <p>紀元前3200年頃、メソポタミア南部の都市<strong>ウルク</strong>で、誰かが葦のスタイラスの先を湿った粘土に押しつけ、大麦の数量を記録した。その粘土板と、それに続く何千枚もの板は、人類の言語が「息」から解放されて物質に刻まれた最初期の瞬間のひとつである──初期王朝期のエジプト、やや遅れてインダスや中国でも、並行して同じことが起きた。記録された言語は<strong>シュメール語</strong>（<em>eme-gir</em>「土地の言葉」）──5000年以上を経た今も読み続けられている。</p>
   
   <div class="trivia-actions">
     <button type="button" class="trivia-action" data-action="focus" data-code="sux" data-zoom="6">🌍 地図でシュメール語を見る</button>
@@ -1560,7 +1560,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The Korean Confucian elite hated it. The Hall of Worthies scholar Choe Manri submitted a famous 1444 memorial calling Hangul "Mongol- or barbarian-like" and warning that adopting a vernacular script would sever Korea from civilized (i.e. Chinese) learning. Sejong overruled him. Even so, after Sejong's death in 1450, Hangul was sidelined; King Yeonsangun banned it outright in 1504 after anonymous Hangul leaflets criticized him. For most of the next four centuries it survived as a "women's script" (<em>amkeul</em>) and a tool of popular literature, while serious scholarship continued in Hanja.</p>
   
-  <p>Hangul's true rehabilitation came at the end of the 19th century with reformer Ju Si-gyeong, who systematized its name (<em>han-geul</em>, "great script") and its modern orthography. After the Japanese colonial period — during which Hangul was again banned, this time by an outside power — South Korea declared Hangul Day (한글날) a national holiday. North Korea calls it <em>Chosŏn'gŭl</em> and observes its own holiday on 15 January. Modern Korean literacy is functionally 100%.</p>
+  <p>Hangul's true rehabilitation came at the end of the 19th century with reformer Ju Si-gyeong, who systematized its name (<em>han-geul</em>, "great script") and its modern orthography. After the Japanese colonial period — during which Hangul was again banned, this time by an outside power — South Korea declared Hangul Day (한글날) a national holiday. North Korea calls it <em>Chosŏn'gŭl</em> and observes its own holiday on 15 January. Adult literacy in South Korea is now among the highest in the world.</p>
   
   <p>The linguist Geoffrey Sampson described Hangul in 1985 as "perhaps the most scientific system of writing in general use in any country". Its basic letter shapes can be learned quickly, although full reading and writing fluency still takes years. The <em>Hunminjeongeum Haerye</em> preserves an unusually detailed contemporary account of the script's design principles and intended use.</p>
         `,
@@ -1599,7 +1599,7 @@ const TRIVIA_ARTICLES = [
   
   <p>儒教官僚はこれを嫌った。集賢殿の崔萬里は1444年、有名な反対上疏で「ハングルはモンゴル・夷狄の文字に似ており、これを採用すれば中華の学問から遠ざかる」と警告した。世宗は退けたが、1450年の死後ハングルは冷遇され、1504年には燕山君が、自らを批判する匿名のハングルの貼り紙を理由に正式に禁止する。以後400年近く、ハングルは<em>암클</em>（女文字）、または民衆文学の道具として生き延びる一方、正格の学問は漢字で続いた。</p>
   
-  <p>本格的な復権は19世紀末、改革者・周時経によってもたらされた。彼が<em>han-geul</em>（偉大な文字）という名を定め、現代正書法を整えたのである。日本統治期にハングルは再び禁止されるが、解放後の韓国は10月9日を「ハングルの日（한글날）」として国民の祝日にした。北朝鮮は<em>チョソングル</em>と呼び、1月15日に祝う。今日の朝鮮語識字率は事実上100%である。</p>
+  <p>本格的な復権は19世紀末、改革者・周時経によってもたらされた。彼が<em>han-geul</em>（偉大な文字）という名を定め、現代正書法を整えたのである。日本統治期にハングルは再び禁止されるが、解放後の韓国は10月9日を「ハングルの日（한글날）」として国民の祝日にした。北朝鮮は<em>チョソングル</em>と呼び、1月15日に祝う。今日の韓国の成人識字率は世界でも最高水準にある。</p>
   
 <p>言語学者ジェフリー・サンプソンは1985年、ハングルを「世界で使われている文字体系のうち、おそらく最も科学的なもの」と評した。基本字母は比較的短期間で覚えられるが、読み書きの習熟には他の文字と同じく時間がかかる。『訓民正音解例』には字形の設計原理と使用目的が同時代の資料として詳しく残されている。</p>
         `,
@@ -2375,7 +2375,7 @@ const TRIVIA_ARTICLES = [
         'Bonvillain, Nancy (1973). A Grammar of Akwesasne Mohawk. National Museum of Man, Mercury Series, Ethnology Division Paper No. 8.',
         'Deering, Nora; Delisle, Helga Harries (1976). Mohawk: A Teaching Grammar. Kahnawake: Thunderbird Press.',
         { text: 'Glottolog: Mohawk (moha1258)', url: 'https://glottolog.org/resource/languoid/id/moha1258' },
-        { text: 'Kanien\'kéha at Kanehsatà:ke', url: 'https://www.kanehsatake.com/language/' },
+        { text: 'Kanien\'kéha at Kanehsatà:ke', url: 'https://www.kanehsatakevoices.com/' },
       ],
     },
     {
@@ -2421,7 +2421,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The implications go far beyond Nuxalk. If a language can build words from pure obstruent strings, then the universal claim that <em>every syllable needs a vowel</em> cannot stand in its strongest form. Phonologists now distinguish more carefully between <strong>sonority</strong> (the acoustic property) and <strong>nucleus-hood</strong> (the structural role), and Nuxalk is the example everyone teaches.</p>
   
-  <p>Today fewer than 20 fluent first-language speakers of Nuxalk remain, almost all elders in Bella Coola. The Nuxalk Nation runs immersion programs and a language-house initiative; recordings made by Nater in the 1970s, and more recent documentation supported by the First Peoples' Cultural Council, are racing to record a phonology unlike any other.</p>
+  <p>Today about twenty fluent first-language speakers of Nuxalk remain, almost all elders in Bella Coola. The Nuxalk Nation runs immersion programs and a language-house initiative; recordings made by Nater in the 1970s, and more recent documentation supported by the First Peoples' Cultural Council, are racing to record a phonology unlike any other.</p>
         `,
         ja: `
   <p>カナダ・ブリティッシュコロンビア州中央部では、数十人が<strong>ヌハルク語（Nuxalk、別名 Bella Coola）</strong>を使用している。サリシュ語族に属し、<strong>母音を含まないと分析される単語</strong>があることで音韻論の研究対象となってきた。</p>
@@ -2462,7 +2462,7 @@ const TRIVIA_ARTICLES = [
         'Newman, Stanley (1947). "Bella Coola I: Phonology." International Journal of American Linguistics 13(3): 129–134.',
         'Hoard, James E. (1978). "Obstruent clusters in Bella Coola." In Mohammad Ali Jazayery et al. (eds.), Linguistic and Literary Studies in Honor of Archibald A. Hill, Vol. 2: 113–117. Mouton.',
         { text: 'Glottolog: Bella Coola (bell1243)', url: 'https://glottolog.org/resource/languoid/id/bell1243' },
-        { text: 'First Peoples\' Cultural Council: Nuxalk', url: 'https://fpcc.ca/language/nuxalk/' },
+        { text: 'First Peoples\' Cultural Council: Nuxalk', url: 'https://maps.fpcc.ca/languages/nuxalk' },
       ],
     },
     {
@@ -2574,7 +2574,7 @@ const TRIVIA_ARTICLES = [
   
   <p>The study documents how children in successive cohorts introduced features such as decomposing motion events into "path" and "manner" components, despite those features not being provided by adult signers. These patterns are also documented in other established sign languages.</p>
   
-  <p>Today ISN has perhaps 3,000 signers and a Deaf community organised through <em>Asociación Nacional de Sordos de Nicaragua</em>. The first cohort's early signing had to be reconstructed from those signers as adults, but from 1986 onward successive cohorts were recorded on camera and described in linguistic fieldnotes. Those records make changes in the language observable across generations.</p>
+  <p>ISN is now used by a few thousand signers and a Deaf community organised through <em>Asociación Nacional de Sordos de Nicaragua</em>. The first cohort's early signing had to be reconstructed from those signers as adults, but from 1986 onward successive cohorts were recorded on camera and described in linguistic fieldnotes. Those records make changes in the language observable across generations.</p>
         `,
         ja: `
 <p>1977年以降、ニカラグアの首都マナグアで、それまで家庭ごとのホームサインを使っていたろう児たちが学校に集まった。子どもたちの交流から共有の手話が形成され、1980年代以降に入学した世代が語彙と文法を発達させた。この言語が<strong>Idioma de Señas de Nicaragua（ISN、ニカラグア手話）</strong>である。1986年以降の記録により、世代ごとの変化を比較できる。</p>
@@ -2596,7 +2596,7 @@ const TRIVIA_ARTICLES = [
   
   <p>後続世代では、移動事象を「経路」と「様態」に分けて表す構造など、先行世代の入力には一貫して見られなかった特徴が広がった。同様の構造は他の自然手話にも記録されており、子ども同士の伝達が文法の形成に果たす役割を検討する資料となっている。</p>
   
-<p>現在、ISNの話者は約3,000人で、<em>Asociación Nacional de Sordos de Nicaragua</em>を中心にろうコミュニティが形成されている。最初の世代の初期段階は成人後の手話から遡って再構する必要があるが、1986年以降は各世代が映像・論文・フィールドノートに記録されている。</p>
+<p>現在、ISNは数千人の手話者に使われており、<em>Asociación Nacional de Sordos de Nicaragua</em>を中心にろうコミュニティが形成されている。最初の世代の初期段階は成人後の手話から遡って再構する必要があるが、1986年以降は各世代が映像・論文・フィールドノートに記録されている。</p>
         `,
       },
       sources: [

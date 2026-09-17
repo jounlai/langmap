@@ -921,7 +921,7 @@ WORDS.mother = {
     nmn: ["qáe", "qae"],
     kr: ["ya", "ja"],
     men: ["nje", "ndʒe"],
-    vai: ["ꖣ", "na"],
+    vai: ["ꕒ", "ɓa"],
     tem: ["ya", "ja"],
     dyu: ["ba", "ba"],
     bbo: ["ba", "ba"],

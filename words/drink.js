@@ -922,7 +922,7 @@ WORDS.drink = {
     nmn: ["kxʼāhã", "kxʼaːhã"],
     kr: ["simem", "simem"],
     men: ["ngu", "ŋɡu"],
-    vai: ["ꕇ", "mi"],
+    vai: ["ꕆ", "mi"],
     tem: ["di", "di"],
     dyu: ["min", "min"],
     bbo: ["min", "min"],

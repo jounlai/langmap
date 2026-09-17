@@ -921,7 +921,7 @@ WORDS.one = {
     nmn: ["ǂʼûã", "ǂʼũã"],
     kr: ["tilo", "tilo"],
     men: ["yila", "jila"],
-    vai: ["ꕴꖝ", "do"],
+    vai: ["ꗏꗒ", "lɔnɗɔ"],
     tem: ["piɲ", "piɲ"],
     dyu: ["kelen", "kelen"],
     bbo: ["talɩ", "tálɪ̄"],

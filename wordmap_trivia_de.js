@@ -331,7 +331,7 @@ window.TRIVIA_I18N['de'] = {
     title: 'Sumerisch — zu den frühesten je niedergeschriebenen Sprachen',
     summary: 'Eine der frühesten umfangreich bezeugten Schriftsprachen: ein mesopotamisches Isolat, auf Ton aufgezeichnet ab etwa 3200 v. Chr. und 2.000 Jahre nach dem Tod seines letzten Muttersprachlers als Gelehrtensprache am Leben gehalten.',
     body: `
-<p>Um 3200 v. Chr. drückte in der südmesopotamischen Stadt <strong>Uruk</strong> jemand das Ende eines Schilfstifts in feuchten Ton und notierte eine Menge Gerste. Diese Tontafel und Tausende andere wie sie zählen zu den frühesten Momenten, in denen die menschliche Sprache dem Atem entkam, der sie trug — neben parallelen Entwicklungen im frühdynastischen Ägypten und, etwas später, im Industal und in China. Die aufgezeichnete Sprache war <strong>Sumerisch</strong> (<em>eme-gir</em>, "die einheimische Zunge") — und 5.200 Jahre später lesen wir sie immer noch.</p>
+<p>Um 3200 v. Chr. drückte in der südmesopotamischen Stadt <strong>Uruk</strong> jemand das Ende eines Schilfstifts in feuchten Ton und notierte eine Menge Gerste. Diese Tontafel und Tausende andere wie sie zählen zu den frühesten Momenten, in denen die menschliche Sprache dem Atem entkam, der sie trug — neben parallelen Entwicklungen im frühdynastischen Ägypten und, etwas später, im Industal und in China. Die aufgezeichnete Sprache war <strong>Sumerisch</strong> (<em>eme-gir</em>, "die einheimische Zunge") — und mehr als fünftausend Jahre später lesen wir sie immer noch.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="sux" data-zoom="6">🌍 Sumerisch auf der Karte zeigen</button>
@@ -677,7 +677,7 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Die koreanische konfuzianische Elite hasste es. Der Gelehrte der Halle der Würdigen Choe Manri reichte 1444 ein berühmtes Memorial ein, das Hangul "mongolisch- oder barbarenhaft" nannte und warnte, dass die Übernahme einer volkstümlichen Schrift Korea von der zivilisierten (d. h. chinesischen) Bildung trennen würde. Sejong überstimmte ihn. Trotzdem wurde Hangul nach Sejongs Tod 1450 verdrängt; König Yeonsangun verbot es 1504 direkt, nachdem anonyme Hangul-Flugblätter ihn kritisiert hatten. Für die meiste Zeit der nächsten vier Jahrhunderte überlebte es als "Frauenschrift" (<em>amkeul</em>) und Werkzeug der Volksliteratur, während die ernsthafte Gelehrsamkeit in Hanja weiterging.</p>
 
-<p>Die wahre Rehabilitation von Hangul kam Ende des 19. Jahrhunderts mit dem Reformer Ju Si-gyeong, der seinen Namen (<em>han-geul</em>, "große Schrift") und seine moderne Orthographie systematisierte. Nach der japanischen Kolonialzeit — in der Hangul wiederum verboten war, diesmal durch eine fremde Macht — erklärte Südkorea den Hangul-Tag (한글날) zum Nationalfeiertag. Nordkorea nennt es <em>Chosŏn'gŭl</em> und hält seinen eigenen Feiertag am 15. Januar ab. Die moderne koreanische Alphabetisierung ist funktional zu 100 %.</p>
+<p>Die wahre Rehabilitation von Hangul kam Ende des 19. Jahrhunderts mit dem Reformer Ju Si-gyeong, der seinen Namen (<em>han-geul</em>, "große Schrift") und seine moderne Orthographie systematisierte. Nach der japanischen Kolonialzeit — in der Hangul wiederum verboten war, diesmal durch eine fremde Macht — erklärte Südkorea den Hangul-Tag (한글날) zum Nationalfeiertag. Nordkorea nennt es <em>Chosŏn'gŭl</em> und hält seinen eigenen Feiertag am 15. Januar ab. Die Alphabetisierungsrate unter Erwachsenen in Südkorea gehört heute zu den höchsten der Welt.</p>
 
 <p>Der Linguist Geoffrey Sampson bezeichnete Hangul 1985 als "vielleicht das wissenschaftlichste in einem Land allgemein verwendete Schriftsystem". Die Grundbuchstabenformen sind bekanntlich schnell einzuprägen — koreanische Kinder können das Alphabet in einer einzigen Sitzung erfassen, auch wenn voll entwickelte Lese- und Schreibkompetenz wie bei jeder Schrift Jahre braucht. Es ist die einzige bedeutende Schrift der Welt mit sowohl einem bekannten Designer als auch einer dokumentierten Designbegründung — ein 600 Jahre altes Laborexperiment, das funktioniert hat.</p>
     `,
@@ -1033,7 +1033,7 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Die Implikationen gehen weit über Nuxalk hinaus. Wenn eine Sprache Wörter aus reinen Obstruenten-Strings bauen kann, dann kann die universelle Behauptung, dass <em>jede Silbe einen Vokal braucht</em>, in ihrer stärksten Form nicht aufrechterhalten werden. Phonologen unterscheiden jetzt sorgfältiger zwischen <strong>Sonorität</strong> (der akustischen Eigenschaft) und <strong>Kernhaftigkeit</strong> (der strukturellen Rolle) — und Nuxalk ist das Beispiel, das jeder lehrt.</p>
 
-<p>Heute bleiben weniger als 20 fließende Erstsprachsprecher des Nuxalk, fast alle Älteste in Bella Coola. Die Nuxalk Nation betreibt Immersionsprogramme und eine Sprachhaus-Initiative; von Nater in den 1970er Jahren gemachte Aufnahmen sowie neuere, vom First Peoples' Cultural Council unterstützte Dokumentationsarbeiten eilen, eine Phonologie zu dokumentieren, die wie keine andere ist.</p>
+<p>Heute bleiben rund zwanzig fließende Erstsprachsprecher des Nuxalk, fast alle Älteste in Bella Coola. Die Nuxalk Nation betreibt Immersionsprogramme und eine Sprachhaus-Initiative; von Nater in den 1970er Jahren gemachte Aufnahmen sowie neuere, vom First Peoples' Cultural Council unterstützte Dokumentationsarbeiten eilen, eine Phonologie zu dokumentieren, die wie keine andere ist.</p>
     `,
   },
 
@@ -1091,7 +1091,7 @@ window.TRIVIA_I18N['de'] = {
 
 <p>Das ist direkte empirische Unterstützung für die Idee, dass <strong>Sprache eine kreative Ausgabe des kindlichen Geistes ist</strong>, nicht nur eine passive Aufzeichnung des Inputs. Kinder in aufeinanderfolgenden Kohorten erfanden unabhängig Merkmale — wie das Zerlegen von Bewegungsereignissen in "Pfad"- und "Art-und-Weise"-Komponenten —, die ihnen kein Erwachsener gegeben hatte und die bemerkenswert wie Merkmale anderer etablierter Gebärdensprachen aussehen.</p>
 
-<p>Heute hat ISN vielleicht 3.000 Gebärdende und eine robuste Gehörlosengemeinschaft, organisiert durch die <em>Asociación Nacional de Sordos de Nicaragua</em>. Sie ist eine der jüngsten Sprachen der Erde, und bei keiner anderen Sprache wurde die Grammatik so genau beobachtet, während sie noch entstand: Die Pidgin-Jahre der ersten Kohorte ließen sich nur aus dem Gebärden dieser Kohorte im Erwachsenenalter rekonstruieren, doch seit 1986 wurde jede Kohorte mit Kamera, Papier und linguistischen Feldnotizen festgehalten.</p>
+<p>Heute hat ISN einige tausend Gebärdende und eine robuste Gehörlosengemeinschaft, organisiert durch die <em>Asociación Nacional de Sordos de Nicaragua</em>. Sie ist eine der jüngsten Sprachen der Erde, und bei keiner anderen Sprache wurde die Grammatik so genau beobachtet, während sie noch entstand: Die Pidgin-Jahre der ersten Kohorte ließen sich nur aus dem Gebärden dieser Kohorte im Erwachsenenalter rekonstruieren, doch seit 1986 wurde jede Kohorte mit Kamera, Papier und linguistischen Feldnotizen festgehalten.</p>
     `,
   },
 

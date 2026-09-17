@@ -424,7 +424,7 @@ WORDS.sugar = {
     cy: ["siwgr", "ˈʃʊɡʊr"],
     ka: ["შაქარი", "ʃakʰari"],
     hy: ["շաքար", "ʃɑˈkʰɑɾ"],
-    haw: ["kōpaʻa", "koːˈpɐʔɐ"],
+    haw: ["kōpaʻa", "koːˈpaʔa"],
     mi: ["huka", "huka"],
     zh_db: ["糖", "tʰɑŋ˧˥"],
     jv: ["gula", "ˈɡulɔ"],

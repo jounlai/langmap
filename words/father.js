@@ -925,7 +925,7 @@ WORDS.father = {
     nmn: ["a̰a", "a̰a"],
     kr: ["aba", "aba"],
     men: ["kɛkɛ", "kɛkɛ"],
-    vai: ["ꕝ", "dɛ"],
+    vai: ["ꕘ", "fa"],
     tem: ["pa", "pa"],
     dyu: ["fa", "fa"],
     bbo: ["fa", "fa"],

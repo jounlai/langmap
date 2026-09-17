@@ -65,7 +65,7 @@ const WORDS = ctx.WORDS;
 
 /* Same three tests as ipa_is_not_prose_check.js, and for the same reason. */
 const PROSE = /[,;—–]/;
-const ARROW = /[\u2190-\u21ff\u27f0-\u27ff\u2900-\u297f]|\.\.\.|\u2026/;
+const ARROW = /[\u2190-\u2190\u2192-\u2192\u2194-\u21ff\u27f0-\u27ff\u2900-\u297f]|\.\.\.|\u2026/;
 function notIpa(v) {
     if (PROSE.test(v)) return 'sentence punctuation';
     if (ARROW.test(v)) return 'an arrow or ellipsis — a description, not a value';

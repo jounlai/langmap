@@ -321,7 +321,7 @@ window.TRIVIA_I18N['id'] = {
     title: 'Sumeria — salah satu bahasa paling awal yang pernah ditulis',
     summary: 'Salah satu bahasa tertulis yang dibuktikan secara luas paling awal: isolat Mesopotamia, direkam pada tanah liat dari ~3200 SM, dan dipertahankan sebagai bahasa ilmiah selama 2.000 tahun setelah penutur asli terakhirnya meninggal.',
     body: `
-<p>Sekitar 3200 SM, di kota Mesopotamia selatan <strong>Uruk</strong>, seseorang menekan ujung stilus buluh ke tanah liat basah dan menulis sejumlah jelai. Tablet tanah liat itu, dan ribuan seperti itu, termasuk di antara saat-saat paling awal bahasa manusia lolos dari napas yang membawanya — sejajar dengan perkembangan paralel di Mesir periode Dinasti Awal dan, agak kemudian, di Lembah Indus dan Tiongkok. Bahasa yang direkam adalah <strong>Sumeria</strong> (<em>eme-gir</em>, "lidah asli") — dan 5.200 tahun kemudian kita masih membacanya.</p>
+<p>Sekitar 3200 SM, di kota Mesopotamia selatan <strong>Uruk</strong>, seseorang menekan ujung stilus buluh ke tanah liat basah dan menulis sejumlah jelai. Tablet tanah liat itu, dan ribuan seperti itu, termasuk di antara saat-saat paling awal bahasa manusia lolos dari napas yang membawanya — sejajar dengan perkembangan paralel di Mesir periode Dinasti Awal dan, agak kemudian, di Lembah Indus dan Tiongkok. Bahasa yang direkam adalah <strong>Sumeria</strong> (<em>eme-gir</em>, "lidah asli") — dan lebih dari lima ribu tahun kemudian kita masih membacanya.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="sux" data-zoom="6">🌍 Tampilkan Sumeria di peta</button>
@@ -659,7 +659,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Elit Konfusianis Korea membencinya. Sarjana Hall of Worthies, Choe Manri, menyerahkan memorial terkenal tahun 1444 yang menyebut Hangul "mirip Mongol atau barbar" dan memperingatkan bahwa mengadopsi aksara vernakular akan memutuskan Korea dari pembelajaran beradab (yaitu Tionghoa). Sejong mengesampingkannya. Meski demikian, setelah kematian Sejong pada 1450, Hangul disampingkan; Raja Yeonsangun melarangnya langsung pada 1504 setelah selebaran Hangul anonim mengkritiknya. Selama sebagian besar empat abad berikutnya ia bertahan sebagai "aksara perempuan" (<em>amkeul</em>) dan alat sastra populer, sementara kesarjanaan serius berlanjut dalam Hanja.</p>
 
-<p>Rehabilitasi sejati Hangul datang pada akhir abad ke-19 dengan reformator Ju Si-gyeong, yang mensistematiskan namanya (<em>han-geul</em>, "aksara besar") dan ortografi modernnya. Setelah periode kolonial Jepang — di mana Hangul kembali dilarang, kali ini oleh kekuatan luar — Korea Selatan menyatakan Hari Hangul (한글날) sebagai hari libur nasional. Korea Utara menyebutnya <em>Chosŏn'gŭl</em> dan merayakan hari liburnya sendiri pada 15 Januari. Literasi Korea modern secara fungsional 100%.</p>
+<p>Rehabilitasi sejati Hangul datang pada akhir abad ke-19 dengan reformator Ju Si-gyeong, yang mensistematiskan namanya (<em>han-geul</em>, "aksara besar") dan ortografi modernnya. Setelah periode kolonial Jepang — di mana Hangul kembali dilarang, kali ini oleh kekuatan luar — Korea Selatan menyatakan Hari Hangul (한글날) sebagai hari libur nasional. Korea Utara menyebutnya <em>Chosŏn'gŭl</em> dan merayakan hari liburnya sendiri pada 15 Januari. Tingkat literasi orang dewasa di Korea Selatan kini termasuk yang tertinggi di dunia.</p>
 
 <p>Linguis Geoffrey Sampson mendeskripsikan Hangul pada 1985 sebagai "mungkin sistem penulisan paling ilmiah yang umum digunakan di negara mana pun". Bentuk huruf dasarnya terkenal mudah dihafal — anak-anak Korea dapat menguasai alfabet dalam sekali duduk, meskipun kefasihan membaca dan menulis penuh tetap memerlukan waktu bertahun-tahun seperti aksara mana pun. Ini adalah satu-satunya aksara utama dunia dengan baik perancang yang dikenal dan dasar pemikiran desain yang terdokumentasi — eksperimen laboratorium berusia 600 tahun yang berhasil.</p>
     `
@@ -1006,7 +1006,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Implikasinya melampaui Nuxalk. Jika sebuah bahasa dapat membangun kata-kata dari rangkaian obstruen murni, maka klaim universal bahwa <em>setiap suku kata membutuhkan vokal</em> tidak dapat bertahan dalam bentuk terkuatnya. Para ahli fonologi sekarang membedakan lebih hati-hati antara <strong>sonoritas</strong> (properti akustik) dan <strong>ke-inti-an</strong> (peran struktural) — dan Nuxalk adalah contoh yang diajarkan setiap orang.</p>
 
-<p>Hari ini kurang dari 20 penutur fasih bahasa pertama Nuxalk tersisa, hampir semua sesepuh di Bella Coola. Bangsa Nuxalk menjalankan program imersi dan inisiatif rumah bahasa; rekaman yang dibuat oleh Nater pada 1970-an, dan dokumentasi lebih baru yang didukung First Peoples' Cultural Council, berpacu untuk mendokumentasikan fonologi yang tidak seperti yang lain.</p>
+<p>Hari ini sekitar dua puluh penutur fasih bahasa pertama Nuxalk tersisa, hampir semua sesepuh di Bella Coola. Bangsa Nuxalk menjalankan program imersi dan inisiatif rumah bahasa; rekaman yang dibuat oleh Nater pada 1970-an, dan dokumentasi lebih baru yang didukung First Peoples' Cultural Council, berpacu untuk mendokumentasikan fonologi yang tidak seperti yang lain.</p>
     `
   },
   'hawaiian-13-phonemes': {
@@ -1062,7 +1062,7 @@ window.TRIVIA_I18N['id'] = {
 
 <p>Ini adalah dukungan empiris langsung untuk gagasan bahwa <strong>bahasa adalah keluaran kreatif dari pikiran anak</strong>, bukan sekadar perekaman pasif dari masukan. Anak-anak dalam kohort berturut-turut secara independen menemukan fitur — seperti mendekomposisi peristiwa gerakan menjadi komponen "jalur" dan "cara" — yang tidak diberikan orang dewasa kepada mereka, dan yang tampak luar biasa mirip dengan fitur yang didokumentasikan dalam bahasa isyarat mapan lainnya.</p>
 
-<p>Hari ini ISN mungkin memiliki 3.000 penanda dan komunitas Tuli yang kokoh yang terorganisir melalui <em>Asociación Nacional de Sordos de Nicaragua</em>. Ia adalah salah satu bahasa termuda di Bumi, dan tidak ada bahasa lain yang tata bahasanya diamati sedekat itu ketika masih terbentuk: tahun-tahun pidgin kohort pertama harus direkonstruksi dari para penanda itu setelah mereka dewasa, tetapi sejak 1986 setiap kohort terekam di kamera, di atas kertas, dan dalam catatan lapangan linguistik.</p>
+<p>Hari ini ISN digunakan oleh beberapa ribu penanda dan komunitas Tuli yang kokoh yang terorganisir melalui <em>Asociación Nacional de Sordos de Nicaragua</em>. Ia adalah salah satu bahasa termuda di Bumi, dan tidak ada bahasa lain yang tata bahasanya diamati sedekat itu ketika masih terbentuk: tahun-tahun pidgin kohort pertama harus direkonstruksi dari para penanda itu setelah mereka dewasa, tetapi sejak 1986 setiap kohort terekam di kamera, di atas kertas, dan dalam catatan lapangan linguistik.</p>
     `
   },
   'mama-papa-universals': {

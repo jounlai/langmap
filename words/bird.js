@@ -491,7 +491,7 @@ WORDS.bird = {
     mixtec: ["saa", "saː"],
     mix: ["saa", "saa"],
     mxv: ["saa", "saa"],
-    ay: ["jamachʼi", "hamatʃʼi"],
+    ay: ["jamachʼi", "xamatʃʼi"],
     jiv: ["chinki", "tʃiŋki"],
     acu: ["chinki", "tʃiŋki"],
     arn: ["üñüm", "ɨɲɨm"],

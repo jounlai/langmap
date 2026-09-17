@@ -409,7 +409,7 @@ WORDS.nose = {
     ngu: ["yacatl", "jakatɬ"],
     ppl: ["yak", "jak"],
     emy: ["niʼ", "niʔ"],
-    p_ine: ["*néh₂s", "neħs"],
+    p_ine: ["*néh₂s", "néh₂s"],
     p_jpn: ["*pana", "pana"],
     p_kor: ["*koh", "koh"],
     ptrk: ["*burun", "burun"],

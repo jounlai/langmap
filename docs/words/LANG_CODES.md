@@ -1007,7 +1007,7 @@ Total: 1188 codes.
 | `ti` | Tigrinya | ティグリニャ語 | Semitic | ~9M |
 | `tig` | Tigre | ティグレ語 | Afro-Asiatic (Semitic, Ethiopian) | ~1.5M |
 | `tiv` | Tiv | ティブ語 | Niger-Congo | ~5M |
-| `tiw` | Tiwi | ティウィ語 | Iwaidjan or unclassified | ~2K |
+| `tiw` | Tiwi | ティウィ語 | Language isolate | ~2K |
 | `tji` | Tujia | 土家語 | Sino-Tibetan (Tibeto-Burman, Tujia) | ~830K speakers |
 | `tk` | Turkmen | トルクメン語 | Turkic | ~7M |
 | `tkl` | Tokelauan | トケラウ語 | Austronesian (Polynesian, Ellicean) | ~2K |

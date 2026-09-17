@@ -922,7 +922,7 @@ WORDS.eat = {
     nmn: ["ʼâã", "ʔãː"],
     kr: ["bayem", "bajem"],
     men: ["mɛ", "mɛ"],
-    vai: ["ꕒ", "fa"],
+    vai: ["ꗏꘋ", "lɔŋ"],
     tem: ["ði", "ði"],
     dyu: ["dun", "dun"],
     bbo: ["don", "don"],

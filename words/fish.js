@@ -1015,7 +1015,7 @@ WORDS.fish = {
     hy_grab: ["ձուկն", "dzukn"],
     mpt: ["aning", "aniŋ"],
     ygr: ["fayana", "fajana"],
-    roo: ["etedito", "etedito"],
+    roo: ["eterito", "eteɾito"],
     quz: ["challwa", "tʃaʎwa"],
     quy: ["challwa", "tʃaʎwa"],
     shp: ["yapa", "japa"],

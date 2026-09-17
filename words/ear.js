@@ -725,7 +725,7 @@ WORDS.ear = {
     th_n: ["หู", "huː˩˧"],
     th_s: ["หู", "huː˩˧"],
     tkr: ["кӏыры", "kʼɨrɨ"],
-    tue: ["kãbõʼpe-ro", "kãbõʔpe-ɾo"],
+    tue: ["kãbõʼpero", "kãbõʔpeɾo"],
     udi: ["уъмуъх", "uˤmuˤx"],
     vo: ["lil", "lil"],
     ik: ["siun", "siun"],

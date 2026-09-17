@@ -149,7 +149,7 @@ WORDS.mountain = {
     my: ["တောင်", "tàʊɰ̃"],
     km: ["ភ្នំ", "pʰnum"],
     jv: ["gunung", "ɡunuŋ"],
-    haw: ["mauna", "ˈmɐuna"],
+    haw: ["mauna", "ˈmauna"],
     mi: ["maunga", "ˈmaʊŋa"],
     sm: ["mauga", "maˈuŋa"],
     to: ["moʻunga", "moˈʔuŋa"],

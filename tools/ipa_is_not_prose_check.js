@@ -44,8 +44,16 @@ const PUNCT = /[,;—–]/;
 /* An arrow or an ellipsis means the field is describing a change rather than
  * recording a value: `ʒaˈʒɨ → taˈʒɨ` and `anaˈtapu → aŋaˈtapu` both reached a commit
  * that way. Angle brackets are NOT tested: Baxter-Sagart writes the Old Chinese
- * infix as `*m-ɢˠ<r>a`, and that string carries its own `*`. */
-const ARROW = /[\u2190-\u21ff\u27f0-\u27ff\u2900-\u297f]|\.\.\.|\u2026/;
+ * infix as `*m-ɢˠ<r>a`, and that string carries its own `*`.
+ *
+ * The vertical arrows are NOT tested. ↑ U+2191 and ↓ U+2193 are IPA
+ * suprasegmentals — upstep and downstep, and in some traditions ↓ marks an
+ * ingressive airstream, which is exactly what `lbz_damin star` needs. Blocking
+ * them was this guard being over-broad: it was written to catch a prose arrow
+ * in `ʒaˈʒɨ → taˈʒɨ`, and a horizontal arrow is the only shape that means that.
+ */
+
+const ARROW = /[\u2190-\u2190\u2192-\u2192\u2194-\u21ff\u27f0-\u27ff\u2900-\u297f]|\.\.\.|\u2026/;
 
 const ctx = vm.createContext({});
 vm.runInContext('this.window = this; this.WORDS = window.WORDS = {};', ctx);

@@ -610,7 +610,7 @@ WORDS.white = {
     mix: ["kwitsi", "kʷitsi"],
     toc: ["snapapa", "snapapa"],
     huv: ["raan", "ɾaːn"],
-    ay: ["janqʼu", "ˈhaɴqʼu"],
+    ay: ["janqʼu", "ˈxaɴqʼu"],
     jqr: ["janqʼu", "χanqʼu"],
     cni: ["kitamaari", "kitamaːɾi"],
     ame: ["huallamaʼt̃", "waʎamaʔtʲ"],

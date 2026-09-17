@@ -922,7 +922,7 @@ WORDS.dog = {
     nmn: ["ǂqhài", "ǂqʰai"],
     kr: ["keri", "keri"],
     men: ["nguje", "ŋɡudʒe"],
-    vai: ["ꕝꖣ", "dɛni"],
+    vai: ["ꖙꖨ", "wulu"],
     tem: ["kabul", "kabul"],
     dyu: ["wulu", "wulu"],
     bbo: ["fugo", "fuɡo"],

@@ -1000,7 +1000,7 @@ WORDS.bone = {
     hy_grab: ["ոսկր", "oskr"],
     mpt: ["on", "on"],
     ygr: ["apova", "apova"],
-    roo: ["kedue", "kedue"],
+    roo: ["kerue", "keɾue"],
     quz: ["tullu", "tuʎu"],
     quy: ["tullu", "tuʎu"],
     shp: ["xao", "ʂao"],

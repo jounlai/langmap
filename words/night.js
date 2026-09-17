@@ -1011,7 +1011,7 @@ WORDS.night = {
     hy_grab: ["գիշեր", "ɡiʃer"],
     mpt: ["kutimibo", "kutimibo"],
     ygr: ["hanena", "hanena"],
-    roo: ["dupe", "dupe"],
+    roo: ["rupe", "ɾupe"],
     quz: ["tuta", "tuta"],
     quy: ["tuta", "tuta"],
     shp: ["yamë", "jamɨ"],

@@ -929,7 +929,7 @@ WORDS.tree = {
     nmn: ["ʼʘnàje", "ʔʘnaje"],
     kr: ["kasua", "kasua"],
     men: ["ngulu", "ŋɡulu"],
-    vai: ["ꕘ", "wuɾu"],
+    vai: ["ꗛꘋ", "kɔŋ"],
     tem: ["kʌ-ant", "kʌant"],
     dyu: ["yiri", "jiri"],
     bbo: ["yiri", "jiri"],

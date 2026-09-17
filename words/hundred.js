@@ -584,7 +584,7 @@ WORDS.hundred = {
     trv: ["kbekuy", "kbəkuj"],
     tay: ["kbhul", "kβhul"],
     tao: ["ranaw", "ranaw"],
-    roo: ["voboto", "βoβoto"],
+    roo: ["vovoto", "βoβoto"],
     mkz: ["rasa", "rasa"],
     aoz: ["natun", "natun"],   // one hundred is natun=es, with the metathesis Meto puts on a phrase-final noun
     meu: ["sinahu", "sinahu"],

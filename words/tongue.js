@@ -1012,7 +1012,7 @@ WORDS.tongue = {
     hy_grab: ["լեզու", "lezu"],
     mpt: ["haang", "haːŋ"],
     ygr: ["nevoda", "nevoda"],
-    roo: ["edebuoto", "edeβuoto"],
+    roo: ["erevuoto", "eɾeβuoto"],
     quz: ["qallu", "qaʎu"],
     quy: ["qallu", "qaʎu"],
     shp: ["hana", "hana"],

@@ -922,7 +922,7 @@ WORDS.good = {
     nmn: ["—", "—"],
     kr: ["ngewu", "ŋɡewu"],
     men: ["nyande", "ɲande"],
-    vai: ["ꖝꖢ", "sue"],
+    vai: ["ꕈ", "ɲi"],
     tem: ["lɔŋ", "lɔŋ"],
     dyu: ["ɲuman", "ɲuman"],
     bbo: ["ɲuman", "ɲuman"],

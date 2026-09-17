@@ -12,8 +12,8 @@
     "hash": "061d8fd377ff7c5c"
   },
   "hanmap_trivia.js": {
-    "version": 76,
-    "hash": "909c318255885de7"
+    "version": 77,
+    "hash": "9b981450f60272c9"
   },
   "lang-filter.js": {
     "version": 45,
@@ -80,11 +80,11 @@
     "hash": "ea7aeb8645381e11"
   },
   "word_manifest.js": {
-    "version": 530,
+    "version": 531,
     "hash": "4023dfd0974cfe7c"
   },
   "wordmap_data.js": {
-    "version": 328,
-    "hash": "d00b40af579a9c86"
+    "version": 329,
+    "hash": "68971ddd59763d74"
   }
 }

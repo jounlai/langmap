@@ -521,7 +521,7 @@ WORDS.four = {
     rar: ["ʻā", "ʔaː"],
     rim: ["inne", "inːe"],
     rmy: ["štar", "ʃtar"],
-    roo: ["voresiura", "βoresiura"],
+    roo: ["voresiura", "βoɾesiuɾa"],
     rtm: ["häke", "hæke"],
     rup: ["patru", "ˈpatru"],
     shn: ["သီႇ", "siː"],

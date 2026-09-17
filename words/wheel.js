@@ -68,7 +68,7 @@ WORDS.wheel = {
     sw: ["gurudumu", "ɡuruˈdumu"],
 
     // --- *kʷekʷlós, the word that puts a floor under the family --------
-    p_ine: ["*kʷekʷlós", "kʷekʷlós"],
+    p_ine: ["*kʷékʷlos", "kʷékʷlos"],
     sa: ["चक्र", "tɕɐkrɐ"],
     h_vedic: ["चक्र", "tɕɐkrɐ"],
     pi: ["चक्क", "tʃakka"],

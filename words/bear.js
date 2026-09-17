@@ -970,7 +970,7 @@ WORDS.bear = {
     osa: ["wasápe", "wasápe"],
     qwc: ["ukumari", "ukumaɾi"],
     qu: ["ukumari", "ukumaɾi"],
-    ay: ["jukumari", "hukumaɾi"],
+    ay: ["jukumari", "xukumaɾi"],
 
     // --- Africa: established loans only ----------------------------------
     xh: ["ibhere", "ibʱere"],

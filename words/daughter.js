@@ -180,7 +180,7 @@ WORDS.daughter = {
     mn: ["охин", "oxin"],
     ms: ["anak perempuan", "anak pərəmpuan"],
     tl: ["anak na babae", "ˈʔanak na baˈbaʔe"],
-    haw: ["kaikamahine", "kɐikɐmɐˈhine"],
+    haw: ["kaikamahine", "kaikamaˈhine"],
     mi: ["tamāhine", "tamaːhine"],
     sm: ["afafine", "afafine"],
     zu: ["indodakazi", "indodaˈkazi"],

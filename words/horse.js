@@ -440,7 +440,7 @@ WORDS.horse = {
     osa: ["káwa", "káwa"],
     ota: ["آت", "at"],
     otk: ["𐱃", "at"],
-    p_ine: ["*h₁éḱwos", "ˈhekʲwos"],
+    p_ine: ["*h₁éḱwos", "h₁ékʲwos"],
     p_viet: ["*m-ŋəːʔ", "m-ŋəːʔ"],
     p_jpn: ["*uma", "uma"],
     p_tun: ["*murin", "murin"],

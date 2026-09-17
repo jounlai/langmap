@@ -283,7 +283,7 @@ window.TRIVIA_I18N['vi'] = {
     title: 'Sumerian — một trong những ngôn ngữ được viết ra sớm nhất',
     summary: 'Một trong những ngôn ngữ viết được chứng thực sớm và rộng rãi nhất: một biệt lập Lưỡng Hà, được ghi trên đất sét từ ~3200 TCN, và được giữ sống như một tiếng nói học thuật trong 2.000 năm sau khi người nói bản ngữ cuối cùng của nó qua đời.',
     body: `
-<p>Vào khoảng năm 3200 TCN, ở thành phố Lưỡng Hà phía nam <strong>Uruk</strong>, ai đó đã ấn đầu một bút lông sậy vào đất sét ướt và viết xuống một số lượng lúa mạch. Tấm đất sét đó, và hàng nghìn cái tương tự, nằm trong số những khoảnh khắc sớm nhất ngôn ngữ loài người thoát khỏi hơi thở mang nó — song hành với những phát triển song song ở Ai Cập thời sơ vương triều và, muộn hơn một chút, ở thung lũng Indus và Trung Quốc. Ngôn ngữ được ghi lại là <strong>Sumerian</strong> (<em>eme-gir</em>, "tiếng nói bản địa") — và 5.200 năm sau chúng ta vẫn đang đọc nó.</p>
+<p>Vào khoảng năm 3200 TCN, ở thành phố Lưỡng Hà phía nam <strong>Uruk</strong>, ai đó đã ấn đầu một bút lông sậy vào đất sét ướt và viết xuống một số lượng lúa mạch. Tấm đất sét đó, và hàng nghìn cái tương tự, nằm trong số những khoảnh khắc sớm nhất ngôn ngữ loài người thoát khỏi hơi thở mang nó — song hành với những phát triển song song ở Ai Cập thời sơ vương triều và, muộn hơn một chút, ở thung lũng Indus và Trung Quốc. Ngôn ngữ được ghi lại là <strong>Sumerian</strong> (<em>eme-gir</em>, "tiếng nói bản địa") — và hơn năm nghìn năm sau chúng ta vẫn đang đọc nó.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="sux" data-zoom="6">🌍 Hiển thị Sumerian trên bản đồ</button>
@@ -659,7 +659,7 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Tầng lớp Nho giáo Hàn Quốc ghét nó. Học giả Sảnh Hiền Tài Choe Manri đã đệ trình một bản tấu nổi tiếng năm 1444 gọi Hangul là "giống Mông Cổ hay man di" và cảnh báo rằng việc áp dụng một chữ viết bản ngữ sẽ cắt đứt Hàn Quốc khỏi việc học văn minh (tức là Trung Quốc). Sejong bác bỏ ông ta. Tuy nhiên, sau khi Sejong qua đời vào năm 1450, Hangul đã bị gạt sang một bên; Vua Yeonsangun đã cấm hoàn toàn vào năm 1504 sau khi các tờ rơi Hangul ẩn danh chỉ trích ông. Trong phần lớn bốn thế kỷ tiếp theo, nó tồn tại như một "chữ viết của phụ nữ" (<em>amkeul</em>) và là công cụ của văn học bình dân, trong khi học thuật nghiêm túc tiếp tục bằng Hanja.</p>
 
-<p>Sự phục hồi thực sự của Hangul đến vào cuối thế kỷ 19 với nhà cải cách Ju Si-gyeong, người đã hệ thống hóa tên của nó (<em>han-geul</em>, "chữ viết vĩ đại") và chính tả hiện đại của nó. Sau thời kỳ thuộc địa Nhật Bản — trong đó Hangul lại bị cấm, lần này bởi một cường quốc bên ngoài — Hàn Quốc đã tuyên bố Ngày Hangul (한글날) là một ngày lễ quốc gia. Bắc Triều Tiên gọi nó là <em>Chosŏn'gŭl</em> và quan sát ngày lễ riêng vào ngày 15 tháng 1. Tỷ lệ biết chữ Hàn Quốc hiện đại về mặt chức năng là 100%.</p>
+<p>Sự phục hồi thực sự của Hangul đến vào cuối thế kỷ 19 với nhà cải cách Ju Si-gyeong, người đã hệ thống hóa tên của nó (<em>han-geul</em>, "chữ viết vĩ đại") và chính tả hiện đại của nó. Sau thời kỳ thuộc địa Nhật Bản — trong đó Hangul lại bị cấm, lần này bởi một cường quốc bên ngoài — Hàn Quốc đã tuyên bố Ngày Hangul (한글날) là một ngày lễ quốc gia. Bắc Triều Tiên gọi nó là <em>Chosŏn'gŭl</em> và quan sát ngày lễ riêng vào ngày 15 tháng 1. Tỷ lệ biết chữ ở người trưởng thành tại Hàn Quốc ngày nay thuộc hàng cao nhất thế giới.</p>
 
 <p>Năm 1985, nhà ngôn ngữ học Geoffrey Sampson mô tả Hangul là “có lẽ là hệ thống chữ viết khoa học nhất đang được sử dụng phổ biến ở bất kỳ quốc gia nào”. Các chữ cơ bản có thể được học tương đối nhanh, nhưng để đọc viết thành thạo vẫn cần nhiều năm như với các hệ chữ khác. Niên đại, những người tham gia và cơ sở thiết kế của Hangul đều được ghi lại trong tư liệu cùng thời, một trường hợp không phổ biến trong lịch sử chữ viết.</p>
     `,
@@ -1064,7 +1064,7 @@ window.TRIVIA_I18N['vi'] = {
 
 <p>Đây là sự hỗ trợ thực nghiệm trực tiếp cho ý tưởng rằng <strong>ngôn ngữ là một đầu ra sáng tạo của tâm trí trẻ em</strong>, không chỉ là một bản ghi thụ động của đầu vào. Trẻ em trong các lứa kế tiếp đã độc lập phát minh ra các đặc điểm — như phân hủy các sự kiện chuyển động thành các thành phần "đường đi" và "cách thức" — mà không có người lớn nào đã cho chúng, và trông giống đáng kể như các đặc điểm được ghi chép trong các ngôn ngữ ký hiệu được thiết lập khác.</p>
 
-<p>Ngày nay ISN có khoảng 3.000 người sử dụng và một cộng đồng người Điếc được tổ chức qua <em>Asociación Nacional de Sordos de Nicaragua</em>. Giai đoạn đầu của nhóm thứ nhất phải được tái dựng từ cách ký của họ khi trưởng thành; từ năm 1986, nhiều nhóm tuổi đã được ghi lại bằng video và ghi chép thực địa. Nguồn dữ liệu này được dùng để nghiên cứu cách ngữ pháp phát triển qua truyền đạt giữa các thế hệ.</p>
+<p>Ngày nay ISN có vài nghìn người sử dụng và một cộng đồng người Điếc được tổ chức qua <em>Asociación Nacional de Sordos de Nicaragua</em>. Giai đoạn đầu của nhóm thứ nhất phải được tái dựng từ cách ký của họ khi trưởng thành; từ năm 1986, nhiều nhóm tuổi đã được ghi lại bằng video và ghi chép thực địa. Nguồn dữ liệu này được dùng để nghiên cứu cách ngữ pháp phát triển qua truyền đạt giữa các thế hệ.</p>
     `,
   },
   'mama-papa-universals': {

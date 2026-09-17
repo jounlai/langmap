@@ -1030,7 +1030,7 @@ WORDS.tooth = {
     hy_grab: ["ատամն", "atamn"],
     mpt: ["sit", "sit"],
     ygr: ["haemota", "haemota"],
-    roo: ["deuri", "deuri"],
+    roo: ["reuri", "ɾeuɾi"],
     quz: ["kiru", "kiɾu"],
     quy: ["kiru", "kiɾu"],
     shp: ["sheta", "ʃeta"],

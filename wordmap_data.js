@@ -5572,7 +5572,7 @@ const DATA_STATUS_OVERRIDES = {
 // to regex-scrape JS source. The browser also reads this constant.
 const HIST_DESCENDANT = {
     la:'it', el_grc:'el', el_kath:'el', egy:'ar_eg', enm:'en', en_em:'en', non:'is',
-    got:'de', cu:'bg', pi:'si', cop:null, arc:'he',
+    got:'de', cu:'bg', pi:'si', cop:null, arc:'aii',
     sa:'hi', sux:null, akk:null, hit:'tr', nci:'es_mx', emy:'es_mx',
     p_ine:null, p_toc:null, p_jpk:null, p_jpn:null, p_kor:null, ptrk:null, pmng:null, p_tun:null, p_aav:null, p_viet:null, ptai:null, p_hmx:null, pafa:null, pkar:null, pmay:null, puaz:null, pban:null, p_sit:null, psem:null, pura:null, p_dra:null, paus:null, zh_song:'zh', zh_han:'zh', zh_tang:'zh',
     ja_edo:'ja', ja_heian:'ja', ja_kanbun:'ja', ko_mid:'ko', ko_em:'ko', vi_nom:'vi',
@@ -5581,7 +5581,7 @@ const HIST_DESCENDANT = {
     oko:'ko', h_goguryeo:null, ko_gor:'ko', ja_chu:'ja', p_ryu:'ja_oki',
     // Phase 4: historical
     peo:'fa', ave:'fa', xto:null, txb:null, phn:'he', uga:'he',
-    xlu:null, pal:'fa', fa_clas:'fa', syc:'syr', fro:'fr', it_dan:'it', goh:'de', gez:'am',
+    xlu:null, pal:'fa', fa_clas:'fa', syc:'aii', fro:'fr', it_dan:'it', goh:'de', gez:'am',
     he_mis:'he', hy_grab:'hy',
     // Phase 4B: more historical
     gmy:'el', xct:'bo', xpu:'ar', xhu:null, elx:null, xsa:'ar',

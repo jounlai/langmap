@@ -420,7 +420,7 @@ WORDS.rain = {
     qu: ["para", "ˈpara"],
     quz: ["para", "ˈpara"],
     quy: ["para", "ˈpaɾa"],
-    ay: ["jallu", "ˈhaʎu"],
+    ay: ["jallu", "ˈxaʎu"],
     gn: ["ama", "ˈama"],
     nci: ["quiyahuitl", "kiˈjawitɬ"],
     nch: ["kiyawit", "kiˈjawit"],

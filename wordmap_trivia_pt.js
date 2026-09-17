@@ -322,7 +322,7 @@ window.TRIVIA_I18N['pt'] = {
     title: 'Sumério — entre as primeiras línguas jamais registradas por escrito',
     summary: 'Uma das línguas escritas amplamente atestadas mais antigas: uma isolada mesopotâmica, registrada em argila por volta de 3200 AEC, e mantida viva como língua erudita por 2.000 anos após a morte de seu último falante nativo.',
     body: `
-<p>Por volta de 3200 AEC, na cidade mesopotâmica meridional de <strong>Uruk</strong>, alguém pressionou a ponta de um estilete de cana em argila úmida e registrou uma quantidade de cevada. Aquela tábua de argila, e milhares como ela, estão entre os primeiros momentos em que a linguagem humana escapou do sopro que a transportava — ao lado de desenvolvimentos paralelos no Egito protodinástico e, um pouco depois, no Vale do Indo e na China. A língua sendo registrada era o <strong>sumério</strong> (<em>eme-gir</em>, "a língua nativa") — e 5.200 anos depois ainda a lemos.</p>
+<p>Por volta de 3200 AEC, na cidade mesopotâmica meridional de <strong>Uruk</strong>, alguém pressionou a ponta de um estilete de cana em argila úmida e registrou uma quantidade de cevada. Aquela tábua de argila, e milhares como ela, estão entre os primeiros momentos em que a linguagem humana escapou do sopro que a transportava — ao lado de desenvolvimentos paralelos no Egito protodinástico e, um pouco depois, no Vale do Indo e na China. A língua sendo registrada era o <strong>sumério</strong> (<em>eme-gir</em>, "a língua nativa") — e mais de cinco mil anos depois ainda a lemos.</p>
 
 <div class="trivia-actions">
   <button type="button" class="trivia-action" data-action="focus" data-code="sux" data-zoom="6">🌍 Mostrar sumério no mapa</button>
@@ -660,7 +660,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>A elite confuciana coreana odiou-o. O erudito do Salão dos Dignos Choe Manri submeteu um famoso memorial de 1444 chamando o Hangul de "semelhante ao mongol ou ao bárbaro" e alertando que adotar uma escrita vernácula iria afastar a Coreia do aprendizado civilizado (isto é, chinês). Sejong o rejeitou. Mesmo assim, após a morte de Sejong em 1450, o Hangul foi marginalizado; o Rei Yeonsangun o proibiu de vez em 1504 depois que panfletos anônimos em Hangul o criticaram. Durante a maior parte dos quatro séculos seguintes, sobreviveu como uma "escrita feminina" (<em>amkeul</em>) e uma ferramenta da literatura popular, enquanto a erudição séria continuava em Hanja.</p>
 
-<p>A verdadeira reabilitação do Hangul veio no final do século XIX com o reformista Ju Si-gyeong, que sistematizou seu nome (<em>han-geul</em>, "grande escrita") e sua ortografia moderna. Após o período colonial japonês — durante o qual o Hangul foi novamente proibido, desta vez por uma potência externa — a Coreia do Sul declarou o Dia do Hangul (한글날) feriado nacional. A Coreia do Norte o chama de <em>Chosŏn'gŭl</em> e observa seu próprio feriado em 15 de janeiro. A alfabetização coreana moderna é funcionalmente de 100%.</p>
+<p>A verdadeira reabilitação do Hangul veio no final do século XIX com o reformista Ju Si-gyeong, que sistematizou seu nome (<em>han-geul</em>, "grande escrita") e sua ortografia moderna. Após o período colonial japonês — durante o qual o Hangul foi novamente proibido, desta vez por uma potência externa — a Coreia do Sul declarou o Dia do Hangul (한글날) feriado nacional. A Coreia do Norte o chama de <em>Chosŏn'gŭl</em> e observa seu próprio feriado em 15 de janeiro. A alfabetização de adultos na Coreia do Sul está hoje entre as mais altas do mundo.</p>
 
 <p>O linguista Geoffrey Sampson descreveu o Hangul em 1985 como "talvez o sistema mais científico de escrita em uso geral em qualquer país". As formas básicas das letras são famosas pela rapidez com que se memorizam — as crianças coreanas conseguem assimilar o alfabeto em uma única sessão, embora a plena fluência em leitura e escrita demande, como em qualquer escrita, vários anos. É a única grande escrita do mundo com tanto um designer conhecido quanto uma justificativa de design documentada — um experimento de laboratório de 600 anos que deu certo.</p>
     `,
@@ -1006,7 +1006,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>As implicações vão muito além do Nuxalk. Se uma língua pode construir palavras a partir de cadeias de obstruintes puras, então a afirmação universal de que <em>cada sílaba precisa de uma vogal</em> não pode se manter em sua forma mais forte. Os fonólogos agora distinguem mais cuidadosamente entre <strong>sonoridade</strong> (a propriedade acústica) e <strong>caráter de núcleo</strong> (o papel estrutural) — e o Nuxalk é o exemplo que todo mundo ensina.</p>
 
-<p>Hoje restam menos de 20 falantes fluentes de Nuxalk como primeira língua, quase todos anciãos em Bella Coola. A Nação Nuxalk administra programas de imersão e uma iniciativa de casa-da-língua; as gravações feitas por Nater nos anos 1970, e o trabalho de documentação mais recente apoiado pelo First Peoples' Cultural Council, correm para documentar uma fonologia diferente de qualquer outra.</p>
+<p>Hoje restam cerca de vinte falantes fluentes de Nuxalk como primeira língua, quase todos anciãos em Bella Coola. A Nação Nuxalk administra programas de imersão e uma iniciativa de casa-da-língua; as gravações feitas por Nater nos anos 1970, e o trabalho de documentação mais recente apoiado pelo First Peoples' Cultural Council, correm para documentar uma fonologia diferente de qualquer outra.</p>
     `,
   },
   'hawaiian-13-phonemes': {
@@ -1062,7 +1062,7 @@ window.TRIVIA_I18N['pt'] = {
 
 <p>Esse é apoio empírico direto à ideia de que <strong>a língua é uma saída criativa da mente da criança</strong>, não apenas uma gravação passiva da entrada. As crianças em coortes sucessivas inventaram independentemente características — como decompor eventos de movimento em componentes de "trajeto" e "modo" — que nenhum adulto lhes havia dado, e que se assemelham notavelmente a características documentadas em outras línguas de sinais estabelecidas.</p>
 
-<p>Hoje, a ISN tem talvez 3.000 sinalizadores e uma robusta comunidade surda organizada através da <em>Asociación Nacional de Sordos de Nicaragua</em>. É uma das línguas mais jovens da Terra, e a gramática de nenhuma outra língua foi acompanhada tão de perto enquanto ainda se formava: os anos de pidgin da primeira coorte tiveram de ser reconstruídos a partir da sinalização desses mesmos sinalizadores já adultos, mas de 1986 em diante cada coorte foi registrada em câmera, no papel e em notas de campo linguístico.</p>
+<p>Hoje, a ISN tem alguns milhares de sinalizadores e uma robusta comunidade surda organizada através da <em>Asociación Nacional de Sordos de Nicaragua</em>. É uma das línguas mais jovens da Terra, e a gramática de nenhuma outra língua foi acompanhada tão de perto enquanto ainda se formava: os anos de pidgin da primeira coorte tiveram de ser reconstruídos a partir da sinalização desses mesmos sinalizadores já adultos, mas de 1986 em diante cada coorte foi registrada em câmera, no papel e em notas de campo linguístico.</p>
     `,
   },
   'mama-papa-universals': {

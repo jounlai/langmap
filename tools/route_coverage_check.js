@@ -75,7 +75,15 @@ const DEBT = {};
 // does not distinguish between the two", and Mulam's two forms are marked
 // inclusive and exclusive — so silence there is silence, not a finding. Those
 // four are now `unknown` with the word shown.
-const UNDECIDED = { we: { route: 'unknown', max: 37 }, bear: { route: 'unknown', max: 4 } };
+// 37 -> 38 on 2026-09-18. `hui` moved from 'single' to 'unknown', which is the
+// ratchet running backwards and is the one case where that is right: its
+// 'single' was an UNSOURCED assertion, and six sources were tried without
+// settling it. The ratchet exists to stop 'unknown' growing through laziness,
+// not to keep an unsourced claim standing because it is more specific. In the
+// same pass `enq` and `ygr` became positively sourced as verb-marked-only
+// (Lang 1973, Renck 1975), so their 'single' is now a fact rather than a
+// default, and `tiw` and `wrh` moved to 'clusive' on WALS 39A and Mathews 1904.
+const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 } };
 
 let violations = 0;
 const notes = [];

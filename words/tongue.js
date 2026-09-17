@@ -331,7 +331,7 @@ WORDS.tongue = {
     lbj: ["ལྕེ", "ltʃe"],
     khg: ["ལྕེ", "tɕe˥˧"],
     cng: ["zəq", "zəq"],
-    ii: ["ꉼꆧ", "ha˧˧nɯ˧˧"],
+    ii: ["ꉐꆂ", "ha˧˧nɛ˧˧"],
     yiz: ["la", "la˧˧"],
     hni: ["lama", "la˧˩ma˥˥"],
     th_isan: ["ลิ้น", "lin˦˥"],

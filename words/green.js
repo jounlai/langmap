@@ -198,7 +198,7 @@ WORDS.green = {
     as: ["সেউজীয়া", "xeuzia"],
     ast: ["verde", "ˈbeɾðe"],
     ay: ["chʼuxña", "tʃʼuxɲa"],
-    ayl: ["أخضر", "ˈaxdˤar"],
+    ayl: ["أخضر", "ˈʔaxdˤar"],
     azb: ["یاشیل", "jaˈʃɯl"],
     ba: ["йәшел", "jæˈʃel"],
     ban: ["gadang", "ɡadaŋ"],

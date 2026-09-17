@@ -633,7 +633,7 @@ WORDS.black = {
     afb: ["أسود", "ˈʔaswad"],
     acw: ["أسود", "ˈʔaswad"],
     ar_sd: ["أسود", "ˈaswad"],
-    ayl: ["أسود", "ˈaswad"],
+    ayl: ["أسود", "ˈʔaswad"],
     ar_tn: ["أكحل", "akħal"],
     arq: ["كحل", "kħal"],
     ar_qur: ["أسود", "ʔaswadu"],

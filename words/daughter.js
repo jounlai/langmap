@@ -892,7 +892,7 @@ WORDS.daughter = {
     bca: ["yvn", "jṽ˧"],
     atb: ["mji21ve21tso21", "mji˨˩ve˨˩tso˨˩"],
     cng: ["tsi", "tsi"],
-    ii: ["ꀋꂰ", "a˨˩mi˧˧"],
+    ii: ["ꀋꃋ", "a˨˩mɿ˧˧"],
     yiz: ["nɯ", "nɯ˧˧"],
     hni: ["ssaqmiq", "za˧˩mi˧˩"],
     mni: ["ꯏꯆꯥꯅꯨꯄꯤ", "itʃanupi"],

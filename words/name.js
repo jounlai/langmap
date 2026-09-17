@@ -325,7 +325,7 @@ WORDS.name = {
       lbj: ["མིང", "miŋ"],
       khg: ["མིང", "miŋ"],
       cng: ["mi", "mi"],
-      ii: ["ꂷ", "ma˧˧"],
+      ii: ["ꂓ", "m̥i˧˧"],
       yiz: ["mo", "mo˧˧"],
       hni: ["milq", "mi˥˥"],
       th_isan: ["ซื่อ", "sɨː˧"],

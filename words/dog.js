@@ -120,7 +120,7 @@ WORDS.dog = {
       gun: ["jaguá", "dʒaɡuˈa"],
       zdj: ["mbwa", "ᵐbwa"],
       ayl: ["كلب", "kalb"],
-      abv: ["كلب / چلب", "kalb / tʃælb"],
+      abv: ["چلب", "tʃælb"],
       afb: ["كلب", "kalb"],
       acw: ["كلب", "kalb"],
       swb: ["mbwa", "ᵐbwa"],

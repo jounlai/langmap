@@ -349,7 +349,7 @@ WORDS.tooth = {
     lbj: ["སོ", "so"],
     khg: ["སོ", "su˥˧"],
     cng: ["shə", "ʂə"],
-    ii: ["ꌦꂷ", "sɿ˧˧ma˧˧"],
+    ii: ["ꎐꂷ", "dʐɿ˧˧ma˧˧"],
     yiz: ["sɿ", "sɿ˧˧"],
     hni: ["so", "so˥˥"],
     th_isan: ["ฟัน", "fan˧"],

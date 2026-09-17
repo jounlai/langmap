@@ -120,7 +120,7 @@ WORDS.one = {
       gun: ["peteĩ", "peteˈĩ"],
       zdj: ["moja", "modʒa"],
       ayl: ["واحد", "wɑːħɛd"],
-      abv: ["واحد / وحدة", "wɑːħɪd / wɑħdə"],
+      abv: ["واحد", "wɑːħɪd"],
       afb: ["واحد", "wɑːħɪd"],
       acw: ["واحد", "waːħid"],
       swb: ["moja", "modʒa"],

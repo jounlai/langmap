@@ -120,7 +120,7 @@ WORDS.eat = {
       gun: ["jepota", "ʒeˈpota"],
       zdj: ["kula", "kula"],
       ayl: ["أكل", "ʔakɛl"],
-      abv: ["أكل / يأكل", "ʔəkɑl / jəʔkəl"],
+      abv: ["أكل", "ʔəkɑl"],
       afb: ["أكل", "ʔɑkɑl"],
       acw: ["ياكل", "jaːkil"],
       swb: ["kula", "kula"],

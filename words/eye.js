@@ -148,7 +148,7 @@ WORDS.eye = {
       mro: ["mik", "mɪk"],
       gon: ["कन्न", "kaɳ"],
       bfq: ["kannu", "kɑnːu"],
-      har: ["ʿäyin", "ʕæjin"],
+      har: ["in", "iːn"],
       es_pr: ["ojo", "oho"],
       es_do: ["ojo", "oho"],
       es_gt: ["ojo", "oho"],

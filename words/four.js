@@ -258,7 +258,7 @@ WORDS.four = {
     acw: ["أربعة", "ˈʔarbaʕa"],
     ar_eg: ["أربعة", "ˈʔarbaʕa"],
     ar_sd: ["أربعة", "ˈarbaʕa"],
-    ayl: ["أربعة", "ˈarbaʕa"],
+    ayl: ["أربعة", "ˈʔarbaʕa"],
     ar_ma: ["أربعة", "rəbʕa"],
     ar_tn: ["أربعة", "ˈarbʕa"],
     arq: ["أربعة", "ˈrəbʕa"],

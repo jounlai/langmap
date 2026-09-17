@@ -376,7 +376,7 @@ WORDS.coffee = {
     es_uy: ["café", "kaˈfe"],
     ar_sy: ["قهوة", "ˈʔahwe"],
     ar_ye: ["قهوة", "ˈɡahwa"],
-    ar_sa: ["قهوة", "ˈɡahwa"],
+    ar_sa: ["قهوة", "ɡaˈhawa"],
     ar_lb: ["قهوة", "ˈʔahwe"],
     en_wls: ["coffee", "ˈkɒfi"],
     en_jam: ["coffee", "ˈkɒfi"],

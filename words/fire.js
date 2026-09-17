@@ -385,7 +385,7 @@ WORDS.fire = {
     ar_iq: ["نار", "naːɾ"],
     ar_ma: ["عافية", "ʕaːfja"],
     arq: ["العافية", "lʕafja"],
-    mey: ["النار", "ənnaːr"],
+    mey: ["نار", "naːr"],
     ar_tn: ["نار", "naːɾ"],
     ar_sd: ["نار", "naːɾ"],
     ti: ["ሓዊ", "ħawi"],

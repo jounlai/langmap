@@ -330,7 +330,7 @@ WORDS.night = {
     lbj: ["མཚན", "tsʰen"],
     khg: ["མཚན་མོ", "tsʰɛ̃˥˧mo"],
     cng: ["asha", "aʃa"],
-    ii: ["ꈬꃀ", "kʰu˧˧mo˧˧"],
+    ii: ["ꃅꌋ", "mu˧˧si˧˧"],
     yiz: ["kumo", "kʰu˧˧mo˧˧"],
     hni: ["ochi", "o˧tɕi˧"],
     th_isan: ["คืน", "kʰɯːn˧"],

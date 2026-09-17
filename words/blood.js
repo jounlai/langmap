@@ -154,7 +154,7 @@ WORDS.blood = {
     blk: ["သွီ", "θwi"],
     njo: ["azü", "azɯ"],
     srb: ["minyam", "miɲam"],
-    kjg: ["mham", "hmam or m̥am — one notation, not three"],
+    kjg: ["mham", "mham"],
     mro: ["thi", "tʰi"],
     gon: ["नेतुर", "netur"],
     bfq: ["netta", "netːa"],

@@ -129,3 +129,31 @@ metadata defect, not a lexical gap. Nothing was reconstructed into a cell.
 including `egy`, whose IPA column is a reconstruction that nothing labels as one; and `wbm` says
 `surfaceType: native-script` while its script is Latin. `kdt`, `slr` and `srb` are three of the 21
 rows already carried by `meta_import_cap_check.js`.
+
+## Addendum — three cells this round got wrong, and what they were trying to say
+
+The owner found `kjg blood` reading `["mham", "hmam or m̥am — one notation, not three"]`. Two more
+were the same: `egy ear` and `tca white`. All three came from the third thread, and the shape of
+the mistake is worth recording because it is not a linguistic one.
+
+**In each case the auditor had found a real notation problem, could not decide the value, and wrote
+its reasoning into the `ipa` slot instead of leaving it null and filing the item under `held`.** The
+applier took the string literally. All three are reverted to their prior values.
+
+The three findings underneath are good and stand as held items:
+
+- **`kjg` writes one feature three ways.** Preaspiration/voicelessness is `mham` (blood), `hmɔh`
+  (name), `hraŋ` (tooth) and `ʰmaːr` (salt) — four cells, three notations. ASJP KHMU gives *mam*
+  for blood.
+- **`egy` splits ḏ six-to-three inside one row** — ɟ in green, white and mountain; dʒ in ear, fire,
+  hand, nose, sleep and n99. The row also carries no `meta.pronunciationType`, so nothing tells the
+  reader its IPA column is a reconstruction at all.
+- **`tca white` is the row's only cell marking tone with an acute accent**; the other 27 use Chao
+  letters. The repair needs Anderson's Ticuna tone description, which the thread could not reach —
+  which is exactly why it should have been held rather than half-written.
+
+Two guards came out of it. `tools/ipa_is_not_prose_check.js` rejects an IPA field containing a
+comma, semicolon, em dash or en dash, or `" or "`, or more than 50 characters — thresholds measured
+against the corpus rather than assumed, since it contains none of the first two and its longest
+legitimate field is 44 characters. And `tools/apply_rally_patch.mjs` now runs the same three tests
+*before* writing, because a guard that catches prose afterwards has already let it reach a commit.

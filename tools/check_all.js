@@ -287,6 +287,11 @@ line('방점 notation', num(s, /instead of the ·\/: prefix: (\d+)/));
 // a class of 212 dotted cells in 68 rows, and in NOT ONE of those rows was the
 // dot the majority spelling. A dot inside a reconstruction is exempt by rule:
 // Old Chinese *C.nəʔ is a Baxter-Sagart preinitial, not a syllable break.
+// An IPA field must hold a transcription, not a note. Three rally cells
+// arrived carrying the auditor's reasoning instead of a value.
+s = run('ipa_is_not_prose_check.js --check');
+line('IPA field is not prose', num(s, /violations: (\d+)/));
+
 s = run('ipa_syllable_dot_check.js --check');
 line('IPA syllable dots', num(s, /IPA syllable dots: (\d+)/));
 

@@ -1130,7 +1130,7 @@ WORDS.white = {
     fia: ["nuluu", "nuluː"],
     fvr: ["fata", "fata"],
     fud: ["tea", "ˈtea"],
-    tca: ["cómüxü̃", "ko˥mɨʔ˧ɨ̃˦ (tone letters, not an acute)"],
+    tca: ["cómüxü̃", "kómɨʔɨ̃"],
     wrh: ["barrabarra", "barabara"],
     lun: ["chitooka", "tʃitoːka"],
     tsj: ["balingmu", "baliŋmu"],

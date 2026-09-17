@@ -523,7 +523,12 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 // suggested: a large block of it is orthographies that write tone in a LETTER
 // rather than a diacritic — Hmong RPA finals, Hani -l/-q, Zhuang tone letters —
 // which become row-internal once the letter-to-Chao table is read off the row.
-const TONE_POLICY_DEBT = 95;
+// 95 -> 32 on 2026-09-18 (review 546). Two of the 95 holds turned out to be
+// wrong in the atlas's favour: dng's 陰平/陽平 merger is correct Gansu Dungan
+// and the conflicting figures were a rowspan artefact in a Wikipedia table,
+// and th_isan's apparent tie was provenance — every ˧ cell is byte-identical
+// to its parent `th` cell and was never a vote.
+const TONE_POLICY_DEBT = 32;
 s = run('tone_policy_check.js --check');
 {
     const n = num(s, /violations: (\d+)/);

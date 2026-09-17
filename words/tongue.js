@@ -555,7 +555,7 @@ WORDS.tongue = {
     cu: ["ѩзꙑкъ", "jɛ̃zɨkŭ"],
     pi: ["जिव्हा", "dʒivhaː"],
     pi_edu: ["jivhā", "dʒivhaː"],
-    pmh: ["जिब्भा", "dʒibbʱaː"],
+    pmh: ["जिब्भा", "dʒibːʱaː"],
     cop: ["ⲗⲁⲥ", "las"],
     arc: ["ܠܫܢܐ", "liʃːaːnaː"],
     amw: ["ܠܫܢܐ", "liʃona"],

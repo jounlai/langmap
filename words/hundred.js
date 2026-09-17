@@ -739,7 +739,7 @@ WORDS.hundred = {
     bqi: ["صد", "sæd"],
     lrc: ["صد", "sʌd"],
     wbl: ["сад", "sad"],   // the Persian loan; the inherited count is panz bist, five twenties
-    dv: ["ސަތޭކަ", "sat̪eːka"],
+    dv: ["ސަތޭކަ", "sateːka"],
     tcy: ["ನೂದು", "nuːdu"],   // Dravidian *nūṟu, as in Tamil நூறு
     kfa: ["ನೂರ್", "nuːɾə"],
     sat: ["ᱥᱟᱭ", "sae"],   // an Indo-Aryan loan; the inherited count is mɔɽɛ gɛl, five tens

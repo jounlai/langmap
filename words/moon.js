@@ -1241,7 +1241,7 @@ WORDS.moon = {
     vls: ["moane", "ˈmɔːnə"],
     fkv: ["kuu", "kuː"],
     fit: ["kuu", "kuː"],
-    hif: ["chaand", "tʃãːd̪"],
+    hif: ["chaand", "tʃãːd"],
     zgh: ["ⴰⵢⵢⵓⵔ", "ajːur"],
     aln: ["hânë", "hɑ̃ːn"],
     rmt: ["qamar", "qamar"],

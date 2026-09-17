@@ -460,7 +460,7 @@ WORDS.four = {
     drs: ["shoole", "ʃoːle"],
     dsb: ["styri", "ˈstɨrʲi"],
     dtp: ["apat", "apat"],
-    dv: ["ހަތަރެއް", "hat̪areʔ"],
+    dv: ["ހަތަރެއް", "hatareʔ"],
     efi: ["inaŋ", "inaŋ"],
     emp: ["kimarẽ", "kimaɾẽ"],
     fia: ["kémsó", "kémsó"],

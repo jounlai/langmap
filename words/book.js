@@ -97,8 +97,8 @@ WORDS.book = {
     id: ["buku", "ˈbuku"],
     ms: ["buku", "ˈbuku"],
     tl: ["aklat", "ʔakˈlat"],
-    hi: ["किताब", "kɪˈt̪aːb"],
-    ur: ["کتاب", "kɪˈt̪aːb"],
+    hi: ["किताब", "kɪˈtaːb"],
+    ur: ["کتاب", "kɪˈtaːb"],
     bn: ["বই", "boi"],
     ta: ["புத்தகம்", "ˈput̪t̪aɡam"],
     te: ["పుస్తకం", "ˈpustakam"],
@@ -200,7 +200,7 @@ WORDS.book = {
     ee: ["agbalẽ", "aɡbalẽ"],
     bem: ["icitabo", "itʃitabo"],
     bo: ["དེབ", "tʰep˩˧"],
-    dv: ["ފޮތް", "fot̪"],
+    dv: ["ފޮތް", "fot"],
     cdo: ["书", "tsy˥˥"],
     cjy: ["书", "su˩"],
     dng: ["фу", "fu˨˦"],
@@ -395,7 +395,7 @@ WORDS.book = {
     kxv: ["pati", "pati"],     // Kuvi NT: "ଈ ପତିତା ରା଼ସ୍‌କି ଆ଼ହାହିଲାଉ" 'not written in this book' (Jn 20:30), against ଆ଼କୁ āku 'paper' in 2 Jn 12 "with paper and ink". Romanised because this row is romanised throughout (nānu, rīndi, īnu); the source and Wiktionary both write Kuvi in Odia script, so a reviewer standardising the row should move this cell with it.
     lus: ["lehkhabu", "leʔkʰabu"],  // The case the paper-word rule was aimed at, and it passes: Lorrain's Dictionary of the Lushai Language gives lehkha-bu its own headword, "n. a book", on the same page as leh-kha "1. a letter; paper; reading and writing". Compound, but book-specific — the Itzáʼ juʼumilxok pattern. Syllable-final h read as ʔ per this row's pahnih → pahniʔ.
     nag: ["kitab", "kitab"],   // Nagamese NT, 62 occurrences, with kagos 'paper' kept separate ("kagos te aru siyahi pora" 'with paper and ink', 2 Jn 12). The translators use it in ordinary prose too, not only for scripture.
-    pnb: ["کتاب", "kɪt̪aːb"],   // Shahmukhi with keheh U+06A9, as the fa/ur/ps/ks cells use.
+    pnb: ["کتاب", "kɪtaːb"],   // Shahmukhi with keheh U+06A9, as the fa/ur/ps/ks cells use.
     prs: ["کتاب", "kiˈtɑːb"],   // Surface duplicates fa, which is this row's standing practice (خون، پدر، آب all do); the Dari vowels differ, per Bulkin's Dari Practical Dictionary.
     pi: ["पोत्थक", "potːʰaka"],  // PTS Pali–English Dictionary p.475, "Potthaka 1 … 1. a book J i.2 … VvA 117" — not the Potthaka 2 that is hemp cloth. Stem form, as this row uses (अग्गि, चक्खु); pi.wikipedia titles the article with the nominative पोत्थकं.
     pi_edu: ["potthaka", "potːʰaka"],  // Same word; this row is the romanised counterpart of pi by design, not a copy of it.

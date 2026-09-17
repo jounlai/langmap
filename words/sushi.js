@@ -315,7 +315,7 @@ WORDS.sushi = {
     "rm": ["sushi", "ˈsuʃi"],
     "ro": ["sushi", "ˈsuʃi"],
     "ru": ["суши", "ˈsuʂɨ"],
-    "sa": ["शुष्कमत्स्य", "ɕuʂkɐmɐt̪sjɐ"],
+    "sa": ["शुष्कमत्स्य", "ɕuʂkɐmɐtsjɐ"],
     "sa_edu": ["शुष्कमत्स्य", "ɕuʂkɐ ˈmɐtsjɐ"],
     "sah": ["суши", "suˈʃi"],
     "sas": ["sushi", "ˈsuʃi"],

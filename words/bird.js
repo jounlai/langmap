@@ -356,7 +356,7 @@ WORDS.bird = {
     yrl: ["wirá", "wiˈɾa"],
     chr: ["ᏥᏍᏆ", "tʃisɡʷa"],
     as: ["চৰাই", "sɔɹai"],
-    or: ["ପକ୍ଷୀ", "pɔkʰːiː"],
+    or: ["ପକ୍ଷୀ", "pɔkːʰiː"],
     bho: ["चिरई", "tʃirɛi"],
     en_south: ["bird", "bɝd"],
     en_app: ["bird", "bɝd"],

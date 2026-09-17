@@ -115,7 +115,7 @@ WORDS.butterfly = {
     mus: ["tvffolupv", "təfːolopa"],  // formation not stated in the source
     nan: ["尾蝶", "bue˥˧ iaʔ˦"],  // native Hokkien word on the root ia̍h; the first syllable is also written 美/尾, so its morpheme is unsettled. Northern Taiwan often says 蝶仔 ia̍h-á, and the literary 蝴蝶 ôo-tia̍p also exists
     or: ["ପ୍ରଜାପତି", "pɾɔdʒaːpɔti"],  // the Sanskrit divine name prajāpati 'lord of creatures' used for the insect; Bengali প্রজাপতি is the same
-    pa: ["ਤਿਤਲੀ", "t̪ɪt̪liː"],  // same word as Hindi-Urdu titlī, from Prakrit tittiri- (Turner CDIAL p. 331)
+    pa: ["ਤਿਤਲੀ", "tɪtliː"],  // same word as Hindi-Urdu titlī, from Prakrit tittiri- (Turner CDIAL p. 331)
     pjt: ["pinta-pinta", "pintapinta"],  // reduplicated; the dictionary glosses it 'butterfly, moth', so it covers moths too
     qu: ["pillpintu", "piʎpintu"],  // covers Lepidoptera generally, i.e. moths as well
     sat: ["ᱯᱤᱯᱤᱲᱤᱭᱟᱹᱝ", "pipiɽijɔŋ"],  // Ol Chiki spelling varies across sources (ᱯᱤᱯᱲᱤᱚᱝ is also attested); Campbell's 1899 example 'the moth was burnt' shows the word covers moths too
@@ -125,7 +125,7 @@ WORDS.butterfly = {
     ti: ["ጽምብላሊዕ", "tsʼɨmbɨlaliʕ"],  // belongs to a Semitic reduplicative ṣ-n-b-l-l stem; Leslau groups it with Tigre tambale and compares Hebrew parpar
     tk: ["kebelek", "kebelek"],  // the pan-Turkic butterfly word (Turkish kelebek, Uzbek kapalak, Kazakh köbelek); Clauson notes the forms vary so widely that it is probably a loanword into Turkic
     tl: ["paruparo", "paɾupaˈɾo"],  // a reduplication, paru-paró; stress on the final syllable
-    ur: ["تتلی", "t̪ɪt̪liː"],  // the pan-Indo-Aryan titlī; Platts also records the figurative sense 'a grandly dressed woman'
+    ur: ["تتلی", "tɪtliː"],  // the pan-Indo-Aryan titlī; Platts also records the figurative sense 'a grandly dressed woman'
     wbp: ["pinta-pinta", "pintapinta"],  // reduplicated; the entry glosses it 'butterfly, moth', so it covers moths too, and sense 2 of the same word is 'aeroplane'
     yo: ["labalábá", "labalábá"],  // a reduplication, laba-laba
     ja: ["蝶", "tɕoː"],  // Sino-Japanese 蝶 chō — WOLD classes it as clearly borrowed (from Chinese); the colloquial 蝶々 chōchō reduplicates it. Moth is a separate word, 蛾 ga.

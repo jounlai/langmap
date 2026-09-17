@@ -1024,7 +1024,7 @@ WORDS.earth = {
     dag: ["tiŋa", "tiŋa"],
     kfa: ["ಮಣ್ಣ್", "maɳɳ"],
     kxv: ["irā", "iɾaː"],
-    kfx: ["धरती", "d̪ʱərt̪iː"],
+    kfx: ["धरती", "dʱərtiː"],
 
     // --- Late additions, each from a named primary source ------------------
     // slr and ybe: yer survives in both as 'place/land', but the ordinary soil

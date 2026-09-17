@@ -686,7 +686,7 @@ WORDS.mother = {
     awa: ["मइया", "məjjaː"],
     thr: ["माई", "maːiː"],
     bra: ["मैया", "məjjaː"],
-    skr: ["ماں", "maːŋ"],
+    skr: ["ماں", "mãː"],
     sat: ["ᱟᱭᱳ", "ajo"],
     kru: ["अयो", "ajoː"],
     mad: ["embuʼ", "əmbuʔ"],

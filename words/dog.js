@@ -1241,7 +1241,7 @@ WORDS.dog = {
     vls: ["hound", "hont"],
     fkv: ["koira", "ˈkoirɑ"],
     fit: ["koira", "ˈkoirɑ"],
-    hif: ["kutta", "kʊt̪t̪aː"],
+    hif: ["kutta", "kʊttaː"],
     zgh: ["ⴰⵢⴷⵉ", "ajdi"],
     aln: ["qen", "cen"],
     rmt: ["ṣnoṭa", "sˤnotˤa"],

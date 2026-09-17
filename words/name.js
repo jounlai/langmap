@@ -687,7 +687,7 @@ WORDS.name = {
       awa: ["नाम", "naːm"],
       thr: ["नाम", "naːm"],
       bra: ["नाम", "naːm"],
-      skr: ["ناں", "naːⁿ"],
+      skr: ["ناں", "nãː"],
       sat: ["ᱧᱩᱛᱩᱢ", "ɲutum"],
       kru: ["नाम", "naːm"],
       mad: ["nyama", "ɲama"],

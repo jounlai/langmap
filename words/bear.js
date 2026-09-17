@@ -706,7 +706,7 @@ WORDS.bear = {
     hy_grab: ["արջ", "ɑrdʒ"],
     // Punjabi and Gujarati keep the ṛkṣa reflex where Hindi prefers भालू.
     pa: ["ਰਿੱਛ", "rɪtʃʰ"],
-    gu: ["રીંછ", "riːtʃʰ"],
+    gu: ["રીંછ", "ríiːtʃʰ"],
     mr: ["अस्वल", "əsʋəl"],
 
     // --- Indo-European: the euphemisms --------------------------------
@@ -1231,7 +1231,7 @@ WORDS.bear = {
     gbm: ["रिख", "rikʰ"],
     mag: ["रीछ", "riːtʃʰ"],
     tcy: ["ಕರಡಿ", "karaɖi"],
-    dv: ["ސާރިދޯޅު", "saːɾid̪oːɭu"],
+    dv: ["ސާރިދޯޅު", "saːɾidoːɭu"],
     rmy: ["riči", "ritʃi"],
     azb: ["آیی", "ajɯ"],
     cjs: ["апшақ", "apʃaq"],

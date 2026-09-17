@@ -547,7 +547,7 @@ WORDS.new = {
     io: ["nova", "ˈnova"],
     vls: ["nieuw", "niːw"],
     aln: ["i ri", "i ɾi"],
-    fud: ["fo'ou", "foˈʔou"],
+    fud: ["foʻou", "foˈʔou"],
     tsj: ["singma", "siŋma"],
   },
 };

@@ -190,7 +190,7 @@ WORDS.butterfly = {
     kpv: ["бобув", "bobuv"],  // Reduplicated bo-buv; cf. Komi-Permyak бабыв and Udmurt бубыли.
     koi: ["бабыв", "babɨv"],  // Reduplicated ba-bɨv.
     udm: ["бубыли", "bubɨlʲi"],  // Reduplicated bu-bɨ-.
-    mhr: ["лыве", "lɤve"],
+    mhr: ["лыве", "ləve"],
     mrj: ["лӹпӹ", "lɯpɯ"],  // Reduplicative lɨ-pɨ shape.
     myv: ["нимиляв", "ɲimʲilʲav"],
     mdf: ["мелав", "mʲelav"],
@@ -204,7 +204,7 @@ WORDS.butterfly = {
     kca: ["ӆапата", "ɬapata"],
     sel: ["лөнтыра", "løntɨra"],
     nio: ["кәуз̌иай", "kəuðʲiɐj"],
-    yrk: ["ламбӑрё", "lɑmbərʲoː"],
+    yrk: ["ламбӑрё", "lambərʲo"],
     evn: ["лэрэдэ", "lərədə"],
     gld: ["ко̄ко̄ни", "kɔːkɔːni"],  // Reduplicated kō-kō-.
     niv: ["тап", "tæp"],
@@ -235,7 +235,7 @@ WORDS.butterfly = {
     tvl: ["pepe", "pepe"],  // Reduplicated pe-pe; Proto-Polynesian *pepe.
     rtm: ["pepe", "pepe"],  // Reduplicated pe-pe.
     rap: ["pepa", "pepa"],  // Reduplicated pe-pa.
-    gil: ["bwebwe", "bwebwe"],  // Reduplicated bwe-bwe — the same Oceanic *bebe root as Fijian bēbē.
+    gil: ["bwebwe", "bʷebʷe"],  // Reduplicated bwe-bwe — the same Oceanic *bebe root as Fijian bēbē.
     chk: ["nipwisipwis", "nipʷisipʷis"],  // Reduplicated -pwis-pwis.
     emi: ["kaubebe", "kaubebe"],  // kau- + reduplicated bebe; the same compound appears in Motu kaubebe.
     meu: ["kaubebe", "kaubebe"],  // kau- + reduplicated bebe, identical in shape to Mussau-Emira kaubebe; bebe is the Oceanic root behind Fijian bēbē and Polynesian pepe.

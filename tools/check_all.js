@@ -570,7 +570,10 @@ s = run('sinitic_lexical_import_check.js --check');
         n + ' to review, budget ' + LEXICAL_IMPORT_DEBT);
 }
 
-const TONE_OUTLIER_DEBT = 114;
+// 114 -> 80 on 2026-09-17 (review 541). Round 3 re-cut 31 Sinitic rows against
+// their own MCPDict syllabaries and paid 22 outliers; the budget follows the
+// count down so the class cannot silently regrow.
+const TONE_OUTLIER_DEBT = 80;
 s = run('sinitic_tone_outlier_check.js --check');
 {
     const n = num(s, /tone outliers: (\d+)/);
@@ -592,7 +595,8 @@ s = run('sinitic_tone_outlier_check.js --check');
 // CHECKED syllable, where the short/long contrast is real and doubling it
 // would be wrong (yue_nn/yue_dg ʊk˥ jɐt˥, hak_hl kut˥, cnp θit˨˨, gan_fz
 // ɕyɛʔ˥˥, za ɗok˥˥, gan_yc ŋɔk̚˥˥, zh_jh kuʔ˦ and the rest).
-const CHAO_NOTATION_DEBT = 80;
+// 80 -> 59 on 2026-09-17 (review 541), the same pass.
+const CHAO_NOTATION_DEBT = 59;
 s = run('chao_level_notation_check.js --check');
 {
     const n = num(s, /minority-notation cells: (\d+)/);

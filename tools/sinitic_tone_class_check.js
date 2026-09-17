@@ -144,26 +144,21 @@ const ALLOW = [
 //
 // Already fixed and therefore absent: the 15 `orange` cells that carried
 // Beijing's 陽平 ˧˥ into rows whose own 陽平 is something else, and nan 紅.
+// PAID 2026-09-17, review 541: gan_yc/gan_ja 陰平, cjy_xz 陰平+陽平, zh_jh 陽平,
+// wuu_jh 陰平+陽平 and wuu_jx 陰平 were re-cut against their own MCPDict
+// syllabaries (宜春, 吉安, 忻州秀容, 南京, 金華, 嘉興) and no longer disagree.
 const DEBT = [
   { code: 'zh_song', cls: '陽平' },
   { code: 'zh_song', cls: '陰平' },
   { code: 'cpx', cls: '陰平' },
-  { code: 'gan_yc', cls: '陰平' },
-  { code: 'gan_ja', cls: '陰平' },
-  { code: 'cjy_xz', cls: '陽平' },
-  { code: 'cjy_xz', cls: '陰平' },
   { code: 'czh_wy', cls: '陰平' },
   { code: 'czh', cls: '陽平' },
   { code: 'cnp', cls: '陰平' },
-  { code: 'zh_jh', cls: '陽平' },
   { code: 'zh_jh', cls: '陰平' },
   { code: 'nan_pn', cls: '陽平' },
   { code: 'nan_pn', cls: '陰平' },
   { code: 'wuu_nb', cls: '陽平' },
   { code: 'wuu_hz', cls: '陽平' },
-  { code: 'wuu_jh', cls: '陽平' },
-  { code: 'wuu_jh', cls: '陰平' },
-  { code: 'wuu_jx', cls: '陰平' },
 ];
 
 const wc = vm.createContext({});

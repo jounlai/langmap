@@ -364,7 +364,7 @@ WORDS.black = {
     mdh: ["maitem", "maˈʔitəm"],
     tsg: ["itum", "ʔiˈtum"],
     bto: ["itom", "iˈtom"],
-    gor: ["moitomo", "moʔitomo"],
+    gor: ["moyitomo", "mojiˈtomo"],
     bbc: ["birong", "biroŋ"],
     akb: ["birong", "biroŋ"],
     bts: ["birong", "biroŋ"],

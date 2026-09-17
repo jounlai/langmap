@@ -519,7 +519,7 @@ WORDS.foot = {
     prg: ["nagē", "naɡeː"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes rancko as ranko.
     pt: ["pé", "pɛ"],  // pé vs perna.
     qu: ["chaki", "tʃaki"],  // chaki covers foot and leg. IPA is the plain reading of the Quechua orthography, as in this row's hand cell maki.
-    rap: ["va'e", "vaʔe"],  // Cognate with Tongan vaʻe and used the same way. IPA is the plain reading of the orthography, following how this row's own hand cell writes rima as ɾima.
+    rap: ["vaʻe", "vaʔe"],  // Cognate with Tongan vaʻe and used the same way. IPA is the plain reading of the orthography, following how this row's own hand cell writes rima as ɾima.
     rcf: ["pié", "pje"],  // Follows French. IPA is the plain reading of the orthography, following how this row's own hand cell writes lamin as lamɛ̃.
     rgn: ["pè", "pɛ"],  // pè vs gâmba.
     rm: ["pe", "pe"],  // As Italian. IPA is the plain reading of the orthography, following how this row's own hand cell writes maun as mawn.
@@ -535,7 +535,7 @@ WORDS.foot = {
     sc: ["pei", "pei"],  // As Italian. IPA is the plain reading of the orthography, following how this row's own hand cell writes manu as manu.
     scn: ["pedi", "ˈpɛdi"],  // pedi vs jamma/gamma.
     sco: ["fit", "fɪt"],  // As English. IPA is the plain reading of the orthography, following how this row's own hand cell writes haund as hɑːnd.
-    se: ["juolgi", "jʊ̯ɔlɛki"],  // One word for the whole lower limb, the Uralic norm.
+    se: ["juolgi", "ˈjuolki"],  // One word for the whole lower limb, the Uralic norm.
     sel: ["топы", "topɨ"],  // Samoyedic: one word for the lower limb.
     sga: ["cos", "kos"],  // The Irish leg+foot pattern is already Old Irish; traig is the foot-specific word.
     si: ["කකුල", "kəkulə"],  // කකුල covers both.
@@ -588,7 +588,7 @@ WORDS.foot = {
     yi: ["פֿוס", "fʊs"],  // Unlike German Fuß, Yiddish פֿוס covers the whole lower limb — a genuine split from the German pattern.
     ykg: ["аримэ", "arime"],  // Tundra Yukaghir keeps them apart.
     yo: ["ẹsẹ̀", "ɛsɛ̀"],  // ẹsẹ̀ covers the lower limb; the older foot word is a compound on it. IPA is the plain reading of the orthography, following how this row's own hand cell writes ọwọ́ as ɔwɔ́.
-    yrk: ["ӈэ", "ŋæ"],  // Samoyedic: one word for the lower limb.
+    yrk: ["ӈэ", "ŋɛ"],  // Samoyedic: one word for the lower limb.
     yua: ["ook", "oːk"],  // Class inferred from the Mayan cognates. IPA is the plain reading of the orthography, following how this row's own hand cell writes kʼabʼ as kʼaɓ.
     yue: ["腳", "kœːk̚˧"],  // Cantonese 腳 goek3 runs the whole way up the limb; 髀 is the thigh. This is the southern-Sinitic pattern against Mandarin's 脚/腿 split.
     yue_ts: ["脚", "kiak̚˧˧"],  // Taken to follow Cantonese.

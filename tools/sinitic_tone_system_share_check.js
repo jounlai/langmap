@@ -61,6 +61,14 @@ const ALLOW = {
     // One standard language, one set of tone categories. The rows differ where
     // they should: 41 of 66 surfaces.
     'zh|zh_tw': true,
+    // 鄭開片 is named after these two cities. Zhengzhou and Kaifeng are the
+    // subgroup's defining pair and share 陰平 24 / 陽平 42 / 上聲 53 / 去聲 312;
+    // the rows part company where they should — 19 of 60 cells differ, in the
+    // segments (熊 ɕyəŋ vs ɕyŋ, 百 pɛ vs pai) and in word choice (爹 vs 爸爸,
+    // 屋 vs 屋里). Allowed 2026-09-17 in review 541, when zh_zz's nine
+    // Jinan-toned cells (上 55 / 去 21) were re-cut to the Kaifeng layer they
+    // had been half-pasted over.
+    'zh_kf|zh_zz': true,
 };
 
 // Known debt: real, cannot be fixed without a source. Counted separately so the

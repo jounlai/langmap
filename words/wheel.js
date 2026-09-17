@@ -254,7 +254,7 @@ WORDS.wheel = {
     en_jam: ["wheel", "wiːl"],
     en_em: ["wheel", "ʍiːl"],
     sco: ["wheel", "ʍiːl"],
-    nl_be: ["wiel", "ʋiːl"],
+    nl_be: ["wiel", "wiːl"],
     vls: ["wiel", "wiːl"],
     li: ["wiel", "ʋiːl"],
     fy: ["tsjil", "tsjɪl"],

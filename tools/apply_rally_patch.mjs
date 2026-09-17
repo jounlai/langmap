@@ -16,6 +16,19 @@
  * already fixed it — the entry is refused and named, never merged blind. Across
  * rounds 3 and 4 that gate refused 11 entries and every one was right to refuse.
  *
+ * It will not write a one-sided change that breaks the pair. A cell's surface
+ * and its IPA are the same word said two ways; a patch that rewrites one and
+ * leaves the other makes them two different words. Both directions happened on
+ * 2026-09-17 and the owner found them: `duu moon` kept the surface `məŋ` and
+ * took the IPA of a different word, /sɨ˧˩lɑ˥˥/, and `tyz moon` took the surface
+ * `hai` and kept `bɨən˧˧`, the reading of the `bươn` it replaced. Thirty cells
+ * had to be reverted. So a change to exactly one field whose skeleton moves 60%
+ * or more is refused and named, and the patch must either supply both halves or
+ * mark the entry `oneSidedOk: true` — which is a human saying they looked. The
+ * threshold cannot separate the two cases by itself: a re-transcription of the
+ * same word reached 0.8 (`adx hand /læɡ hɑ/` to /lɐχwa/) and a replacement word
+ * started at 0.75. The point is not to judge, it is to stop the silent half.
+ *
  * It will not write prose into an IPA field. On 2026-09-17 an auditor that had
  * found a real notation problem but could not decide the value wrote its
  * reasoning into the `ipa` slot — "hmam or m̥am — one notation, not three" —
@@ -52,11 +65,27 @@ const WORDS = ctx.WORDS;
 
 /* Same three tests as ipa_is_not_prose_check.js, and for the same reason. */
 const PROSE = /[,;—–]/;
+const ARROW = /[\u2190-\u21ff\u27f0-\u27ff\u2900-\u297f]|\.\.\.|\u2026/;
 function notIpa(v) {
     if (PROSE.test(v)) return 'sentence punctuation';
+    if (ARROW.test(v)) return 'an arrow or ellipsis — a description, not a value';
     if (/ or /.test(v)) return 'the word "or"';
     if ([...v].length > 50) return `${[...v].length} characters, cap 50`;
     return null;
+}
+
+/* How far did a field move? Tone letters, diacritics, length and stress are
+ * notation; what is left is the word's skeleton. */
+const SKEL = /[\u02e5-\u02e9\u0300-\u036f\u02c8\u02cc\u02d0\u207a-\u207f\u2080-\u208e\s\-.\u0361\u035c]/g;
+function moved(a, b) {
+    const x = a.normalize('NFD').replace(SKEL, '').toLowerCase();
+    const y = b.normalize('NFD').replace(SKEL, '').toLowerCase();
+    const m = x.length, n = y.length;
+    const d = Array.from({ length: m + 1 }, (_, i) => [i, ...Array(n).fill(0)]);
+    for (let j = 0; j <= n; j++) d[0][j] = j;
+    for (let i = 1; i <= m; i++) for (let j = 1; j <= n; j++)
+        d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (x[i - 1] === y[j - 1] ? 0 : 1));
+    return d[m][n] / Math.max(m, n, 1);
 }
 
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -87,6 +116,16 @@ for (const [concept, entries] of Object.entries(byFile)) {
         const bad = notIpa(x.newI);
         if (bad) { refused.push(`${concept} ${x.code}: proposed IPA is ${bad} — /${x.newI}/`); continue; }
         if (!x.newS || !x.newS.trim()) { refused.push(`${concept} ${x.code}: empty surface`); continue; }
+        const sChanged = x.newS !== x.oldS, iChanged = x.newI !== x.oldI;
+        if (sChanged !== iChanged && !x.oneSidedOk) {
+            const how = sChanged ? moved(x.oldS, x.newS) : moved(x.oldI, x.newI);
+            if (how >= 0.6) {
+                refused.push(`${concept} ${x.code}: one-sided \u2014 the ${sChanged ? 'surface' : 'IPA'} moves `
+                    + `${Math.round(how * 100)}% and the other field is unchanged, so the cell would hold two `
+                    + `different words. Supply both halves, or set oneSidedOk after checking.`);
+                continue;
+            }
+        }
         // The key may be bare, "double" or 'single'-quoted; the left boundary
         // stops `ki` matching the tail of `ja_oki`.
         const re = new RegExp(

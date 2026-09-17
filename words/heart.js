@@ -125,7 +125,7 @@ WORDS.heart = {
       acw: ["قلب", "ɡalb"],
       swb: ["moyo", "mojo"],
       adx: ["སེམས་", "sɛm"],
-      qxs: ["ɲit", "χtie˥˥mə˥˥"],
+      qxs: ["ɲit", "ɲit"],
       duu: ["ʃəŋ", "ɕəŋ"],
       jya: ["tʰoŋ", "tʰɔŋ"],
       ers: ["tʂʰɑ", "tʂʰɑ"],

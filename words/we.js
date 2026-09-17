@@ -2201,7 +2201,7 @@ WORDS.we = {
     tar: ["tamujé", "tamuhe"],
     orv: ["мꙑ", "mɨ"],
     xsc: ["—", "—"],
-    sukh: ["ตู", "raw"],
+    sukh: ["เรา", "raw"],
     xmr: ["—", "—"],
     onw: ["ⲉⲣ", "er"],
     qwc: ["ñuqanchik / ñuqayku", "ɲoqantʃik / ɲoqajku"],

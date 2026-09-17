@@ -1175,7 +1175,7 @@ WORDS.name = {
       cpx: ["名", "miã˩˧"],
       mfa: ["namo", "namɔ"],
       mtq: ["tên", "ten"],
-      tyz: ["ten", "ɕɯ"],
+      tyz: ["chứ", "ɕɯ"],
       kjp: ["မံ", "mi˨˩"],
       kac: ["mying", "mjiŋ"],
       wbm: ["yum", "jɔm"],

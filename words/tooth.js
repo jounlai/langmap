@@ -172,7 +172,7 @@ WORDS.tooth = {
     dlg: ["тиис", "tiːs"],
     kdt: ["kaneːŋ", "kəneːŋ"],
     blk: ["မဲ", "mɛ"],
-    njo: ["tepu", "wa"],
+    njo: ["wa", "wa"],
     srb: ["jiʼi", "dʒiʔi"],
     kjg: ["hraŋ", "hraŋ"],
     mro: ["ha", "ha"],

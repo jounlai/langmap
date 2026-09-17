@@ -126,7 +126,7 @@ WORDS.eat = {
       swb: ["kula", "kula"],
       adx: ["ཟ་", "zɑ"],
       qxs: ["tʃʰə", "tʃʰə"],
-      duu: ["ʃə", "kɑi˥˥"],
+      duu: ["ʃə", "ʃə"],
       jya: ["mə-za", "məzɑ"],
       ers: ["tʂʰə", "tʂʰə"],
       bca: ["tshje", "tʃʰje"],

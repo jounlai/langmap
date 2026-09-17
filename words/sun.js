@@ -125,7 +125,7 @@ WORDS.sun = {
       acw: ["شمس", "ʃams"],
       swb: ["jua", "dʒua"],
       adx: ["ཉི་མ་", "ɲəmɑ"],
-      qxs: ["ɲit", "ma˧˧sɿ˥˥"],
+      qxs: ["ɲit", "ɲit"],
       duu: ["nɯ", "nɯ"],
       jya: ["kə-jam", "kəjam"],
       ers: ["ɲɔma", "ɲɔma"],

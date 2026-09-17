@@ -141,7 +141,7 @@ WORDS.hello = {
       cjs: ["сәләм", "sæləm"],
       dlg: ["дорообо", "doroːbo"],
       kdt: ["sabaaj", "sabaːj"],
-      blk: ["ခွဲးဟဝ်ဒျာႏ", "hə jɛ̃ lo"],
+      blk: ["ဟယ်လို", "hə jɛ̃ lo"],
       njo: ["alile", "ʌlile"],
       srb: ["limtam", "limtam"],
       kjg: ["lɔh", "lɔh"],

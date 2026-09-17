@@ -41,6 +41,11 @@ const vm = require('vm');
 const ROOT = path.resolve(__dirname, '..');
 const MAX = 50;
 const PUNCT = /[,;—–]/;
+/* An arrow or an ellipsis means the field is describing a change rather than
+ * recording a value: `ʒaˈʒɨ → taˈʒɨ` and `anaˈtapu → aŋaˈtapu` both reached a commit
+ * that way. Angle brackets are NOT tested: Baxter-Sagart writes the Old Chinese
+ * infix as `*m-ɢˠ<r>a`, and that string carries its own `*`. */
+const ARROW = /[\u2190-\u21ff\u27f0-\u27ff\u2900-\u297f]|\.\.\.|\u2026/;
 
 const ctx = vm.createContext({});
 vm.runInContext('this.window = this; this.WORDS = window.WORDS = {};', ctx);
@@ -56,6 +61,7 @@ for (const [id, w] of Object.entries(WORDS)) {
         const ipa = Array.isArray(e) ? e[1] : (e && e.ipa);
         if (!surface || surface === '—' || !ipa) continue;
         const why = PUNCT.test(ipa) ? 'sentence punctuation'
+            : ARROW.test(ipa) ? 'an arrow or ellipsis — a description, not a value'
             : / or /.test(ipa) ? 'the word "or"'
             : [...ipa].length > MAX ? `${[...ipa].length} characters, cap ${MAX}`
             : null;

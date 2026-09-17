@@ -128,7 +128,7 @@ WORDS.star = {
       qxs: ["zɡɿ", "zɡɿ"],
       duu: ["əkɯr", "əkɯr"],
       jya: ["zgrɯ", "zɡrɯ"],
-      ers: ["ʁmɯ", "ʈɽź̩"],
+      ers: ["ʁmɯ", "ʁmɯ"],
       bca: ["gɯsɿ", "ɡɯ˧sɿ˧"],
       atb: ["kyoi", "kjoi˥˥"],
       prk: ["simʼuing", "simʔuiŋ"],

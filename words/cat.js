@@ -1179,7 +1179,7 @@ WORDS.cat = {
     mfa: ["kuche", "kutʃeʔ"],
     mtq: ["meo", "meo"],
     tyz: ["meo", "meo˧˧"],
-    kjp: ["ဖၣ်", "mìjɔ̀"],
+    kjp: ["ဖၣ်", "pə˧"],
     kac: ["nyaung", "ɲauŋ˧"],
     wbm: ["meo", "meo"],
     pll: ["mioʔ", "mioʔ"],

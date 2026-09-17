@@ -129,7 +129,7 @@ WORDS.good = {
       duu: ["la", "la"],
       jya: ["tʰuŋ", "tʰʊŋ"],
       ers: ["zə", "zə"],
-      bca: ["no", "xu˧˧"],
+      bca: ["no", "no"],
       atb: ["ngaw51", "ŋɔ˥˩"],
       prk: ["jɔː", "jɔː"],
       slr: ["yakhshi", "jɑxʃi"],

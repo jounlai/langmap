@@ -128,7 +128,7 @@ WORDS.two = {
       qxs: ["ɣnə", "ɣnə"],
       duu: ["əni", "əni"],
       jya: ["kə-nəs", "kənəs"],
-      ers: ["ɲi", "nɛ́"],
+      ers: ["ɲi", "ɲi"],
       bca: ["ko", "ko˧"],
       atb: ["ngiq", "ŋiʔ˥˥"],
       prk: ["ra", "ra"],

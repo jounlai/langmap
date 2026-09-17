@@ -729,7 +729,7 @@ WORDS.daughter = {
     ter: ["ihíne", "iˈhine"],
     ake: ["ensi", "ensi"],
     aoc: ["ensi", "ensi"],
-    gun: ["tajy", "ʒaˈʒɨ → taˈʒɨ"],
+    gun: ["tajy", "taˈʒɨ"],
     gn: ["tajýra", "taˈdʒɨɾa"],
     yrl: ["tayera", "tajeˈɾa"],
     cni: ["noshinto", "noʃinto"],

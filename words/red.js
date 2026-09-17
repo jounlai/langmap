@@ -148,7 +148,7 @@ WORDS.red = {
     cjs: ["қызыл", "qɯˈzɯl"],
     dlg: ["кыһыл", "qɯˈhɯl"],
     kdt: ["kʰmaːŋ", "kʰmaːŋ"],
-    blk: ["တနျာႏ", "ni"],
+    blk: ["နီ", "ni"],
     njo: ["temerem", "temeɾem"],
     srb: ["jʼe", "dʒʔe"],
     kjg: ["jim", "jim"],

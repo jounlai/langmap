@@ -1174,7 +1174,7 @@ WORDS.cat = {
     nan_hai: ["猫", "niau˨˦"],
     zh_wh: ["猫", "mau˥˥"],
     zh_zz: ["猫", "mau˨˦"],
-    hak_hl: ["貓仔", "meu˥˥e˨˦"],
+    hak_hl: ["貓仔", "meu˥˥ e˨˦"],
     cpx: ["猫", "ŋiau˧˧"],
     mfa: ["kuche", "kutʃeʔ"],
     mtq: ["meo", "meo"],

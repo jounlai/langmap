@@ -48,7 +48,7 @@ WORDS.wheel = {
     en: ["wheel", "wiːl"],
     ja: ["車輪", "ɕaɾiɴ"],
     ko: ["바퀴", "pakʰwi"],
-    zh: ["轮子", "lwən˧˥tsɨ"],
+    zh: ["轮子", "lwən˧˥ tsɨ"],
     yue: ["輪", "lɵn˨˩"],
     vi: ["bánh xe", "ɓajŋ˧˥ sɛ˧"],
     th: ["ล้อ", "lɔː˦˥"],

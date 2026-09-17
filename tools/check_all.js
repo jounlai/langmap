@@ -290,6 +290,12 @@ line('방점 notation', num(s, /instead of the ·\/: prefix: (\d+)/));
 s = run('ipa_syllable_dot_check.js --check');
 line('IPA syllable dots', num(s, /IPA syllable dots: (\d+)/));
 
+// The other half of the same question. The dot check leaves spaces alone;
+// this one requires them between Sinitic syllables, one per Han character.
+// Owner call 2026-09-17 — the 輕聲 has no tone letter to split on.
+s = run('sinitic_syllable_space_check.js --check');
+line('Sinitic syllables separated', num(s, /violations: (\d+)/));
+
 // meta.description translation integrity: a missing / empty / untranslated
 // (same-as-English) UI-language description, or a run of English left inside a
 // translation, ships a broken info panel. Length outliers and source-* notes

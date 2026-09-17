@@ -845,7 +845,7 @@ WORDS.hand = {
     din: ["cin", "tʃin"],
     nus: ["tet", "tet"],
     anu: ["cing", "tʃiŋ"],
-    luo: ["lwedo", "lwedo"],
+    luo: ["lwedo", "lwɛdo"],
     mas: ["ɛŋaina", "ɛŋaina"],
     bfa: ["kindiyo", "kindijo"],
     saq: ["nkaina", "ŋkaina"],

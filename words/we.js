@@ -1980,7 +1980,7 @@ WORDS.we = {
     men: ["mu", "mu"],
     vai: ["ꖷ", "mù"],
     tem: ["sa", "sa"],
-    dyu: ["án", "án"],
+    dyu: ["an", "án"],
     bbo: ["mà", "mà"],
     spp: ["wuu", "wùː"],
     sus: ["won / muxu", "wɔn / muxu"],

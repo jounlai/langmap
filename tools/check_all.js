@@ -319,6 +319,12 @@ line('description translation integrity', num(s, /blocking: (\d+)/));
 s = run('meta_truncation_check.js --check');
 line('meta string truncation', num(s, /truncated: (\d+)/));
 
+// The sibling case that one cannot see: a field cut at exactly 70 characters
+// by whatever imported it. A truncated sentence closes no brackets, so the
+// check above passes it. 21 rows carried as debt.
+s = run('meta_import_cap_check.js --check');
+line('meta string cut at the import cap', num(s, /violations: (\d+)/));
+
 // Cache-version drift: wordmap.html serves data as `?v=WM_ASSET_VERSION[key]`.
 // Editing the data without bumping the key ships nothing — browsers keep the
 // old copy, and every other guard still passes. A whole day of Chữ Nôm /

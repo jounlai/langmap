@@ -77,7 +77,6 @@ WORDS.foot = {
     ar_qur: "leg+foot",
     ar_sd: "leg+foot",
     ar_sy: "leg+foot",
-    ar_tn: "leg+foot",
     ar_ye: "leg+foot",
     arc: "leg+foot",
     arn: "distinct",
@@ -502,6 +501,7 @@ WORDS.foot = {
     yua: "leg+foot",
     yue: "leg+foot",
     yue_gz: "leg+foot",
+    yue_nn: "leg+foot",
     yue_ts: "leg+foot",
     za: "distinct",
     zh: "distinct",
@@ -549,15 +549,14 @@ WORDS.foot = {
     ang: ["fōt", "foːt"],  // fōt vs sċanca/scīa. Wiktionary carries the pronunciation at the unmacronned spelling.
     ar: ["قدم", "qadam"],  // Written Standard Arabic splits قدم from ساق; the colloquial رجل, which every spoken dialect row below uses, covers both. The hand row يد likewise stands against ذراع.
     ar_eg: ["رجل", "riɡil"],  // Colloquial Arabic collapses what MSA splits.
-    ar_iq: ["رجل", "ridʒil"],  // Baghdad breaks final clusters with a copy vowel — قلب ɡalub and ملح miliħ in this row — so the colloquial رجل comes out ridʒil rather than the ar_eg row's riɡil.
+    ar_iq: ["رجل", "ˈrɪdʒɪl"],  // Baghdad breaks final clusters with a copy vowel — قلب ɡalub and ملح miliħ in this row — so the colloquial رجل comes out ridʒil rather than the ar_eg row's riɡil.
     ar_lb: ["إجر", "ʔiʒr"],  // Beirut and the generic Levantine row write the short i the same way — بنت bint, منيح mniːħ — so this cell lands on the parent's value while the Damascus row beside it does not.
     ar_lev: ["إجر", "ʔiʒr"],  // As Egyptian.
     ar_ma: ["رجل", "rʒəl"],  // Moroccan reduces the short vowels to schwa — this row does it in كحل kħəl and جبل ʒbəl — so the colloquial رجل is rʒəl and nothing like the parent's qadam.
     ar_qur: ["رجل", "ridʒl"],  // Militarev item 31; Lane. Qurʾānic Arabic takes رجل for the whole limb where the atlas's Modern Standard ar row takes قدم and is distinct — a real split inside one row-family.
     ar_sd: ["كراع", "kuraːʕ"],  // Sudanese uses the kurāʕ root for the whole limb.
     ar_sy: ["إجر", "ʔɪʒr"],  // Damascus writes this vowel ɪ where the generic Levantine row writes i — five cells in this row say so — though its own اسم ˈʔɪsem leaves open whether the final cluster takes an epenthetic vowel here too.
-    ar_tn: ["رجل", "rʒəl"],  // Tunisian collapses the short vowels to schwa, as this row's عسل ʕsəl and ملح məlħ show, so the colloquial رجل is rʒəl rather than the parent's قدم.
-    ar_ye: ["رجل", "ridʒil"],  // Sanaani uses the colloquial رجل, not the parent's قدم, and this row's own أذن ʔuðun and خشم xaʃim show the copy vowel that breaks the final cluster.
+    ar_ye: ["رجل", "ˈrɪdʒɪl"],  // Sanaani uses the colloquial رجل, not the parent's قدم, and this row's own أذن ʔuðun and خشم xaʃim show the copy vowel that breaks the final cluster.
     arc: ["ܪܓܠܐ", "reɡlaː"],  // Sokoloff 1434a-b glosses ܪܓܠܐ 'leg, foot' in one entry.
     arn: ["ṉamuṉ", "n̪amun̪"],  // Mapudungun splits them. Surface is WOLD's orthography, IPA follows IDS's n̯amun̯.
     as: ["ভৰি", "bʱoɹi"],  // ভৰি is the human lower limb as a whole; ঠেং is used of animals.
@@ -980,6 +979,7 @@ WORDS.foot = {
     yua: ["ook", "oːk"],  // Class inferred from the Mayan cognates. IPA is the plain reading of the orthography, following how this row's own hand cell writes kʼabʼ as kʼaɓ.
     yue: ["腳", "kœːk̚˧"],  // Cantonese 腳 goek3 runs the whole way up the limb; 髀 is the thigh. This is the southern-Sinitic pattern against Mandarin's 脚/腿 split.
     yue_gz: ["脚", "kiak̚˧"],  // Gaozhou kept the old ek rime in this very word — the source names 脚 as one of the hold-outs against Guangzhou's œk — so the cell is kiak̚ and not the parent's kœːk̚.
+    yue_nn: ["脚", "kœːk̚˧"],  // The Nanning romanisation's own rime table uses 腳 as the exemplar defining oek [œːk̚] at 下陰入 [33], so this cell is sourced on the character itself. The row's preserved ek in 食 ʃek˨ is a different rime — the ik [ek̚/ɪk̚] of 激, 曾攝 — and does not reach 宕攝. Simplified per this row's convention.
     yue_ts: ["脚", "kiak̚˧˧"],  // Taken to follow Cantonese.
     za: ["din", "tin˨˦"],  // The Tai tin/kha split.
     zh: ["脚", "tɕi̯ɑʊ̯˨˩˦"],  // Mandarin keeps 脚 (foot) apart from 腿 (leg). Script per this row's simplified convention.

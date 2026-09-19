@@ -638,13 +638,21 @@ s = run('sinitic_tone_outlier_check.js --check');
 // its minority was normalised to its own majority — 204 cells across 45 rows,
 // no source needed, exactly as the docstring says. What is left is the two
 // cases that docstring reserves: near-tie rows where picking a side is house
-// style (cjy ˩x15/˩˩x13, cjy_lv 11/11, gan 1/1, hni 2/2, yue_zs 4/4, hak_tw,
-// hak_cn, yue_gz, atb, zh_sc, hsn), and minority spellings that sit on a
+// style (cjy ˩x15/˩˩x13, cjy_lv 11/11, gan 1/1, hni 2/2, hak_tw, hak_cn,
+// yue_gz, atb, zh_sc, hsn), and minority spellings that sit on a
 // CHECKED syllable, where the short/long contrast is real and doubling it
 // would be wrong (yue_nn/yue_dg ʊk˥ jɐt˥, hak_hl kut˥, cnp θit˨˨, gan_fz
 // ɕyɛʔ˥˥, za ɗok˥˥, gan_yc ŋɔk̚˥˥, zh_jh kuʔ˦ and the rest).
 // 80 -> 59 on 2026-09-17 (review 541), the same pass.
-const CHAO_NOTATION_DEBT = 59;
+// 59 -> 50 on 2026-09-20 (review 545). yue_zs left the list rather than being
+// waived: it was reserved above as a 4/4 tie, and it is not one. Three of its
+// four ˥ sit on CHECKED syllables (骨 kʷɐt, 屋 ʊk, 一 jɐt), which the second
+// clause of this same comment says are correct. Only 星 sɪŋ˥ is unchecked, so
+// the real count is one ˥ against four unchecked ˥˥ (心 三 風 鼻哥) — a 1-vs-4
+// minority that the tie-breaker was hiding. A row can satisfy an exemption for
+// one reason and be counted for another; check which cells the tie is made of
+// before reserving it.
+const CHAO_NOTATION_DEBT = 50;
 s = run('chao_level_notation_check.js --check');
 {
     const n = num(s, /minority-notation cells: (\d+)/);

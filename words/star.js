@@ -492,7 +492,7 @@ WORDS.star = {
       wic: ["hokʼwahriʔ", "hokʼʷahriʔ"],
       wuu_jh: ["星", "siŋ˧˧"],
       wuu_jx: ["星", "ɕiŋ˥˧"],
-      yue_zs: ["星", "sɪŋ˥"],
+      yue_zs: ["星", "sɪŋ˥˥"],
       zh_cd: ["星", "ɕin˥˥"],
       zh_hf: ["星", "ɕiən˨˩˨"],
       zh_kf: ["星", "ɕiəŋ˨˦"],

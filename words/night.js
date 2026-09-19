@@ -1219,7 +1219,7 @@ WORDS.night = {
     dtp_kzj: ["sodop", "sodop"],
     mez: ["tepāhkeh", "tepaːhkeh"],
     nan_xm: ["暗暝", "am˩˩ mĩ˨˦"],
-    nan_zz: ["暗暝", "am˩˩ mĩ˨˦"],
+    nan_zz: ["暗暝", "am˩˩ mĩ˩˧"],
     osa: ["hą́", "hã́"],
     pmy: ["malam", "malam"],
     pot: ["pkonyak", "pkoɲak"],

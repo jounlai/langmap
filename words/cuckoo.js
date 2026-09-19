@@ -186,7 +186,7 @@ WORDS.cuckoo = {
     hni: ["xú bū", "xú bū"],
     th_isan: ["นกคัคคู", "nok˦˥ kʰak˦˥kʰuː˧"],
     th_n: ["นกคัคคู", "nok˦˥ kʰak˦˥kʰuː˧"],
-    th_s: ["นกคัคคู", "nok˦˥ kʰak˦˥kʰuː˧"],
+    th_s: ["นกคัคคู", "nok˧˥ kʰak˧˥kʰuː˧"],
     za: ["roegdinghgeng", "ɣok˧ tiŋ˧ keːŋ˨˦"],
     jv: ["kedhasih", "kəˈɖasih"],
     su: ["manuk uncuing", "manʊk uɲˈtʃuiŋ"],

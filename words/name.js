@@ -83,7 +83,7 @@ WORDS.name = {
       acf: ["non", "nõ"],
       gan_yc: ["名字", "miaŋ˨˦ sɿ"],
       gan_ja: ["名字", "miaŋ˩˧ sɿ"],
-      gan_fz: ["名字", "miaŋ˨˦ sɿ"],
+      gan_fz: ["名字", "miaŋ˦˥ sɿ"],
       cjy_lv: ["名字", "miʌŋ˦˦ tsɿ˥˨"],
       cjy_xz: ["名字", "miŋ˩˩ tsz̩"],
       hsn_hy: ["名字", "min˩˧ tsɿ"],

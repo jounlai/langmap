@@ -83,7 +83,7 @@ WORDS.you = {
       acf: ["ou", "u"],
       gan_yc: ["你", "ȵi˨˩˧"],
       gan_ja: ["你", "ȵi˧˩"],
-      gan_fz: ["你", "ȵi˨˩˧"],
+      gan_fz: ["你", "ȵi˧˥"],
       cjy_lv: ["你", "nɿ˧˩˨"],
       cjy_xz: ["你", "ni˧˩"],
       hsn_hy: ["你", "n̩˨˩"],

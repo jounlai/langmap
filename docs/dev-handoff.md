@@ -6,9 +6,12 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 ---
 
 ## Current state
-- Dataset: **1187 languages** (`wordmap_data.js` header must match — it's validated).
-- Branch `main`, working tree clean. Last commit `4fd07347`.
-- `node tools/check_all.js` is **green**; keep it green before every commit.
+- Dataset: **1188 languages** (`wordmap_data.js` header must match — it's validated).
+- Branch `main`. Last commit `554970f5` (2026-09-20, round 9).
+- `node tools/check_all.js` is **green** — 86 guards; keep it green before every commit.
+- ⚠️ **One item is blocked on the owner, not on work: the three row recodes.** See
+  "Recodes — audited, planned, NOT applied" below. Do not apply them without reading it.
+- This tree is shared with another session. **Never `git add -A`** — stage explicit paths.
 
 ## What shipped this session (newest → oldest, all on `main`)
 1. **Argentina/Brazil indigenous expansion — 13 languages added** (1151→1164):
@@ -269,6 +272,70 @@ contradict each other on Mongolic *bide, and they do — Santa has reanalysed th
 pair. Both are checked and correct; do not "fix" one to match the other.
 
 ## Outstanding / queued work
+
+### ⚠️ Recodes — audited, planned, NOT applied (blocked on the owner, 2026-09-20)
+
+`pt_gw`→`pov`, `en_ng2`→`en_gh`, and merging `afb` into `ar_gulf`. The plan is complete and
+runnable: `~/langmap-work/rally/r9/recode_plan.json`, with `rc_apply.mjs` and a 13-step
+`rc_run.sh`. It was **applied to a byte copy of the tree and measured** — `check_all.js` output
+byte-identical to baseline, validator warnings 244 → 237, strict mode exit 0, `validate_data.py`
+unchanged, `php -l seo/lib.php` clean.
+
+**Why it is stopped.** `docs/domain-migration-runbook.md` §0-3 and `docs/makoto-goods-link.md`
+record that **Makoto Gadgets validates the `https://langmap.heuron.com/lang_words/<code>.js`
+prefix on its order pages**, and say in bold that format changes need advance notice. These
+recodes rename two of those files and delete a third. `SEO_RENAMED_CODES` covers `/lang/` URLs,
+**not** `/lang_words/`, and no guard checks it. Applying this needs a server-side 301 on the
+heuron host plus a note to Makoto. That is the owner's call, not a code change.
+
+Two steps the obvious plan misses, both mandatory and both in the same commit:
+- `wordmap_data.js` **line 2 says "1188 languages"** — the validator hard-ERRORs the moment
+  `afb` goes.
+- `tools/slice_version_check.js` fails with 4 violations until `__langNamesVersion(N)` is
+  hand-bumped in index/tree/wordmap/hanmap.html **after** `bump_versions.js`, which does not do
+  it. Then re-bump.
+
+Silent failure modes found while auditing, worth knowing independently of the recode:
+- `build_meta_split.js` prunes `meta_i18n/` but **not** `meta_desc/`, so orphan slices survive
+  every rebuild and get hashed into the meta cache-buster (1190 files for 1187 codes).
+- `words/*.js` mixes bare, `"double"` and `'single'` quoted keys. Two `afb` entries (sushi,
+  computer) use quoted keys, and the per-batch gate's detector regex only matches unquoted ones,
+  so it would not have fired.
+- `[#188]` and `[#193]` cap output at 5 messages, so clearing one row **reveals** others that
+  look like new defects and are not.
+
+### Round 9 (2026-09-20) — the `foot` historical fill
+
+Reviews 545. Six threads. Commits `a4f4e142` `c68a82e8` `9e5de2da` `e5d42112` `7bbe14dc`
+`7301c9b7` `554970f5`. See `wordmap_reviews/review_545_closed.md` for the full account.
+
+**`foot` is still `partial: true` and here is the real reason.** The fill took historical
+coverage 20 → 93 of 145 rows, but the ancient languages were the visible gap, not the big one:
+**`foot` is missing from 781 modern rows that already have `hand`** (modern coverage 251/1043 =
+24%). Do not expect to drop the `partial` flag without that work.
+
+**`foot` gained a fourth route, `unknown`**, for 13 rows with a solid foot word and no attested
+leg word at all. Ratcheted in `route_coverage_check.js`; it may only shrink. Use it only where
+the corpus cannot settle the question — not where you failed to find a source, which is `held`.
+
+New tool: `~/langmap-work/rally/r9/seed_foot.mjs` inserts absent cells **and** their routes into
+`words/foot.js` alphabetically. `tools/apply_rally_patch.mjs` only rewrites cells that already
+exist, and four threads in a row hit that wall — a patch for an absent row is refused with "no
+such cell". Worth folding the insert path into the real applier.
+
+Follow-ups this round created, none of them started:
+- **`zh_tang` mixes three transcription systems** — Baxter (`hjuwng`, `nrjoX`), Zhengzhang
+  (`mʉɐt`, `bˠæk`) and bare Chao letters on 五 我 二 名 星. That row wants re-cutting.
+- **`p_hmx` mixes tone notations** — plain `X`/`H` and superscript `ˣ`/`ᴴ`, none of them
+  Ratliff's own A/B/C/D.
+- **`omc` eye may be wrong** — Eloranta 2020 p.389 gives Mochica `<lecɥ>` as HEAD and
+  `<locɥ>~<lucɥ>` as EYE; the row's eye cell reads `lecɥ`. Check Carrera 1644 first.
+- **`font_coverage_check` blind spot** — it sees astral-plane SCRIPTS, so a missing glyph inside
+  a script it already knows is invisible. That is how the Tangut subset lacked U+17B52. Re-run
+  `tools/build_historic_font_subsets.js` after adding any astral cell.
+- **Row policy, unanswered**: may a row take a form from a sister language as a proxy? `xsc`'s
+  existing `hand` cell is Avestan `zasta`, not Scythian, and nothing tells the reader.
+
 
 ### Review rally — paused after round 6 (2026-09-17), owner's call
 

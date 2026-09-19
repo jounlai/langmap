@@ -99,7 +99,7 @@ const DEBT = {};
 // the WORD onto the map. 11 -> 13 with uga and xhu, where the same thing is
 // true of Ugaritic and Hurrian. All 13 arrivals are first cells, not
 // reclassifications: nothing moved INTO this category from a decided route.
-const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 13 } };
+const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 17 } };
 
 let violations = 0;
 const notes = [];

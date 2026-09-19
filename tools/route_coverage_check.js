@@ -83,7 +83,16 @@ const DEBT = {};
 // same pass `enq` and `ygr` became positively sourced as verb-marked-only
 // (Lang 1973, Renck 1975), so their 'single' is now a fact rather than a
 // default, and `tiw` and `wrh` moved to 'clusive' on WALS 39A and Mathews 1904.
-const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 } };
+// `foot` joined on 2026-09-20 (review 545) with 7. Its undecided case is not
+// a missing source but a corpus that cannot hold one: the route says whether
+// the language keeps foot and leg apart, and got, peo, xto, xlu, xpr, gmy and
+// p_ine each have a solid, well-glossed foot word and no attested leg word at
+// all. Gothic is the clearest — fōtus renders Greek πούς and nothing else, and
+// σκέλος falls outside the preserved text, so IDS leaves Gothic 4-350 blank.
+// Routing those `distinct` would assert a second lexeme the corpus does not
+// have; routing them `leg+foot` asserts the opposite just as baselessly. A
+// fragmentary corpus is exactly the case this category is for.
+const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 7 } };
 
 let violations = 0;
 const notes = [];

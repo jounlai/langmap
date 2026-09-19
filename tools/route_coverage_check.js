@@ -92,7 +92,12 @@ const DEBT = {};
 // Routing those `distinct` would assert a second lexeme the corpus does not
 // have; routing them `leg+foot` asserts the opposite just as baselessly. A
 // fragmentary corpus is exactly the case this category is for.
-const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 7 } };
+// 7 -> 11 the same day, when the proto/remainder thread reached xum, xmr, lbz
+// and omc. The category earned its keep immediately: lbz had been held back
+// with no cell at all, because no source prints a Lardil word for 'leg' to
+// compare its jaa with. Having somewhere honest to put the route is what let
+// the WORD onto the map.
+const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 11 } };
 
 let violations = 0;
 const notes = [];

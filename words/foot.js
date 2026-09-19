@@ -1,5 +1,5 @@
 /**
- * Foot is on the map for what it does not always have: a word. **175 of the 317 languages here use ONE word for the whole lower limb** and 129 keep foot and leg apart, and which languages fall where is a real typological division rather than an accident of translation. Japanese 足 covers both; Korean splits 발 from 다리 — neighbours on opposite sides, and each language's word for HAND agrees with its own foot (Japanese 手 takes in the arm; Korean splits 손 from 팔). Romanian is the Romance outlier with one picior where its siblings all split pie/pierna; Polish stopa breaks the noha/noga pattern Czech, Slovak, Sorbian and Kashubian keep; Turkish borrowed Persian bacak for the leg while sixteen other Turkic rows manage with one word. Southern Sinitic divides from Mandarin on exactly this line: 脚/腿 are distinct in Mandarin, Jin and Wu, while 腳 covers the whole limb in Cantonese, Hakka and both Mins. Icelandic and Faroese invert the compound — fótur is the limb and it is the LEG that needs fótleggur, as in Min (跤 basic, 跤腿 for leg) and Yoruba. And a third pattern builds the foot from the leg: Hill Mari ял лапа, Chuvash ура лаппи, Komi-Permyak кокпыдӧс, Kazakh аяқ-басы, Malayalam കാൽപ്പാദം, all of them some version of 'the palm of the leg'. That modifier is 'palm' or 'blade', never 'hand' — a comparison of the foot and hand words across 133 languages found no shared form at all, so that pattern gets no colour of its own. The fourth colour on the legend is for something else: seven ancient languages — Gothic, Old Persian, Parthian, Tocharian A, Cuneiform Luwian, Mycenaean Greek and Proto-Indo-European — have a solid word for the foot and no attested word for the leg to compare it with, and a corpus that breaks off is not evidence either way.
+ * Foot is on the map for what it does not always have: a word. **192 of the 344 languages here use ONE word for the whole lower limb** and 135 keep foot and leg apart, and which languages fall where is a real typological division rather than an accident of translation. Japanese 足 covers both; Korean splits 발 from 다리 — neighbours on opposite sides, and each language's word for HAND agrees with its own foot (Japanese 手 takes in the arm; Korean splits 손 from 팔). Romanian is the Romance outlier with one picior where its siblings all split pie/pierna; Polish stopa breaks the noha/noga pattern Czech, Slovak, Sorbian and Kashubian keep; Turkish borrowed Persian bacak for the leg while sixteen other Turkic rows manage with one word. Southern Sinitic divides from Mandarin on exactly this line: 脚/腿 are distinct in Mandarin, Jin and Wu, while 腳 covers the whole limb in Cantonese, Hakka and both Mins. Icelandic and Faroese invert the compound — fótur is the limb and it is the LEG that needs fótleggur, as in Min (跤 basic, 跤腿 for leg) and Yoruba. And a third pattern builds the foot from the leg: Hill Mari ял лапа, Chuvash ура лаппи, Komi-Permyak кокпыдӧс, Kazakh аяқ-басы, Malayalam കാൽപ്പാദം, all of them some version of 'the palm of the leg'. That modifier is 'palm' or 'blade', never 'hand' — a comparison of the foot and hand words across 133 languages found no shared form at all, so that pattern gets no colour of its own. The fourth colour on the legend is for something else: eleven languages — Gothic, Old Persian, Parthian, Tocharian A, Cuneiform Luwian, Mycenaean Greek, Proto-Indo-European, Umbrian, Meroitic, Lardil and Mochica — have a solid word for the foot and no attested word for the leg to compare it with, and a corpus that breaks off is not evidence either way.
  */
 WORDS.foot = {
   partial: true,
@@ -89,6 +89,7 @@ WORDS.foot = {
     ca: "distinct",
     cdo: "leg+foot",
     ce: "leg+foot",
+    chb: "distinct",
     cjy: "distinct",
     ckb: "distinct",
     ckt: "leg+foot",
@@ -112,6 +113,7 @@ WORDS.foot = {
     el_grc: "distinct",
     el_kath: "distinct",
     emp: "leg+foot",
+    emy: "leg+foot",
     en: "distinct",
     en_em: "distinct",
     enf: "leg+foot",
@@ -146,6 +148,7 @@ WORDS.foot = {
     got: "unknown",
     gqu: "leg+foot",
     gu: "leg+foot",
+    h_tagalog: "leg+foot",
     h_vedic: "distinct",
     ha: "leg+foot",
     hak_cn: "leg+foot",
@@ -185,6 +188,7 @@ WORDS.foot = {
     ket: "leg+foot",
     kg: "leg+foot",
     kk: "compound",
+    kky: "distinct",
     kl: "distinct",
     km: "leg+foot",
     kmc: "distinct",
@@ -201,6 +205,7 @@ WORDS.foot = {
     lad: "distinct",
     lb: "distinct",
     lbe: "compound",
+    lbz: "unknown",
     lez: "leg+foot",
     lij: "distinct",
     liv: "leg+foot",
@@ -241,25 +246,34 @@ WORDS.foot = {
     nio: "leg+foot",
     niv: "leg+foot",
     nl: "distinct",
+    nmn: "distinct",
     nn: "distinct",
     no: "distinct",
     non: "leg+foot",
     nv: "distinct",
     ny: "distinct",
+    obr: "leg+foot",
     oc: "distinct",
     och: "distinct",
+    ocm: "leg+foot",
     ofs: "distinct",
     oj: "distinct",
     ojp: "leg+foot",
     olo: "leg+foot",
     om: "distinct",
+    omc: "unknown",
+    omx: "leg+foot",
     or: "leg+foot",
     orv: "leg+foot",
+    osn: "leg+foot",
     osp: "distinct",
     osx: "distinct",
     ota: "leg+foot",
     ote: "distinct",
     otk: "leg+foot",
+    p_aav: "leg+foot",
+    p_dra: "leg+foot",
+    p_hmx: "distinct",
     p_ine: "unknown",
     p_jpn: "leg+foot",
     p_kor: "distinct",
@@ -268,17 +282,27 @@ WORDS.foot = {
     pa: "distinct",
     pal: "leg+foot",
     pap: "leg+foot",
+    paus: "leg+foot",
+    pban: "leg+foot",
     pbb: "leg+foot",
     pdc: "distinct",
     pdt: "distinct",
     peo: "unknown",
     pi: "distinct",
     pi_edu: "distinct",
+    pkar: "leg+foot",
     pl: "distinct",
+    pmay: "distinct",
     pmh: "distinct",
+    pmng: "leg+foot",
     prg: "leg+foot",
+    psem: "leg+foot",
     pt: "distinct",
+    ptai: "distinct",
+    ptrk: "leg+foot",
+    pura: "leg+foot",
     qu: "leg+foot",
+    qwc: "leg+foot",
     rap: "leg+foot",
     rcf: "distinct",
     rgn: "distinct",
@@ -333,6 +357,7 @@ WORDS.foot = {
     txg: "leg+foot",
     tzm: "leg+foot",
     tzo: "leg+foot",
+    uby: "leg+foot",
     udi: "leg+foot",
     udm: "leg+foot",
     ug: "leg+foot",
@@ -352,9 +377,11 @@ WORDS.foot = {
     xal: "leg+foot",
     xlu: "unknown",
     xmf: "leg+foot",
+    xmr: "unknown",
     xng: "leg+foot",
     xpr: "unknown",
     xto: "unknown",
+    xum: "unknown",
     yi: "leg+foot",
     ykg: "distinct",
     yo: "leg+foot",
@@ -415,6 +442,7 @@ WORDS.foot = {
     ca: ["peu", "pɛw"],  // peu vs cama.
     cdo: ["跤", "kʰa˥˥"],  // Eastern Min patterns with Southern Min: 跤 covers the limb, 跤腿 specifies the leg.
     ce: ["ког", "koɡ"],  // ког covers the lower limb.
+    chb: ["quihicha", "kihitʃa"],  // Muisca quihicha 'foot', separate from the leg word.
     cjy: ["脚", "tɕyəʔ˨"],  // Jin keeps them apart.
     ckb: ["پێ", "peː"],  // Sorani splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes دەست as dɛst.
     ckt: ["гыткаԓгын", "ɣətkaɬɣən"],  // One word for the lower limb.
@@ -438,6 +466,7 @@ WORDS.foot = {
     el_grc: ["πούς", "pǔːs"],  // πούς vs σκέλος; the split modern πόδι lost.
     el_kath: ["πούς", "pus"],  // Katharevousa keeps the ancient πούς against σκέλος (LSJ; IDS 4-350/4-370), as the el_grc row does.
     emp: ["hẽrũ", "hẽˈrũ"],  // One word for the lower limb. IPA is IDS's own transcription with the apostrophe written ʔ.
+    emy: ["ook", "oːk"],  // Classic Maya ook, the ancestor of the yua row's ook on this map.
     en: ["foot", "fʊt"],  // English keeps foot and leg apart, and its hand cell behaves the same way (hand vs arm).
     en_em: ["foot", "fʊt"],  // OED s.v. foot n.; leg is in English from c1300. ME /oː/ shortened before /t/ (Dobson §31), as this row's tooth /tʊθ/ has it.
     enf: ["ӈо", "ŋɔ"],  // Samoyedic: one word for the lower limb.
@@ -472,6 +501,7 @@ WORDS.foot = {
     got: ["𐍆𐍉𐍄𐌿𐍃", "foːtus"],  // Wright's Glossary and Lehmann s.v. fōtus, which renders Greek πούς alone. Route unknown: σκέλος falls outside the preserved text, so IDS leaves Gothic 4-350 blank.
     gqu: ["pu31 ko35", "pu˧˩ko˧˥"],  // Gelao uses one expression for the whole lower limb, against the tin/kha split of its Tai neighbours.
     gu: ["પગ", "pəɡ"],  // પગ covers both.
+    h_tagalog: ["ᜉᜀ", "paˈʔa"],  // Baybayin ᜉᜀ paa, one word for the limb — the Tagalog reflex of Austronesian *qaqay.
     h_vedic: ["पात्", "paːt"],  // Mayrhofer EWAia II s.v. pád- (RV+), nom. sg. pā́t as the row writes consonant-stem nominatives. jaṅghā- is the shank.
     ha: ["ƙafa", "kʼáfàː"],  // Hausa ƙafa is the whole lower limb; hannu likewise covers hand and arm, so this row's hand cell behaves the same way.
     hak_cn: ["脚", "kiɔk̚˩"],  // Hakka 腳 covers the lower limb.
@@ -515,6 +545,7 @@ WORDS.foot = {
     ket: ["киʼсь", "kʲiʔɕ"],  // киʼсь answers both concepts in NorthEuraLex; буль is the other leg word.
     kg: ["kulu", "kulu"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes koko as koko.
     kk: ["аяқ-басы", "ɑjɑqbɑsə"],  // Kazakh builds the foot word as аяқ-басы, literally 'leg's head', on the leg word — the compound pattern.
+    kky: ["dhamal", "d̪amal"],  // Guugu Yimidhirr dhamal 'foot', distinct from the leg word.
     kl: ["isigak", "isiɣak"],  // Greenlandic keeps them apart.
     km: ["ជើង", "cəːŋ"],  // One word for the lower limb.
     kmc: ["tin55", "tin˥˥"],  // Kam keeps tin apart from pa. Surface and IPA follow this row's own convention of writing the IDS tone number as digits and as tone letters.
@@ -531,6 +562,7 @@ WORDS.foot = {
     lad: ["pie", "pje"],  // As Spanish. IPA is the plain reading of the orthography, following how this row's own hand cell writes mano as mano.
     lb: ["Fouss", "fou̯s"],  // Fouss vs Been, as in German.
     lbe: ["чӏанччан", "tʃʼantʃːan"],  // Lak builds the foot word on the leg word ччан.
+    lbz: ["jaa", "dʒaː"],  // Lardil jaa. Route unknown: no source prints a Lardil word for 'leg' to compare it with.
     lez: ["кӏвач", "kʼa̹tʃ"],  // кӏвач covers both; дабан (IDS's 'foot') is the heel/sole.
     lij: ["pê", "peː"],  // pê vs gamba.
     liv: ["jālga", "jɑːlɡɑ"],  // One word for the whole lower limb, the Uralic norm.
@@ -571,25 +603,34 @@ WORDS.foot = {
     nio: ["ӈой", "ŋoj"],  // Samoyedic: one word for the lower limb.
     niv: ["ӈатьх", "ŋæcx"],  // One word for the lower limb.
     nl: ["voet", "vut"],  // voet vs been. Note poot covers an animal's whole limb.
+    nmn: ["ǂnùũ", "ǂnũũ"],  // ǂHoan keeps the foot word apart from the leg.
     nn: ["fot", "fuːt"],  // fot vs bein.
     no: ["fot", "fuːt"],  // fot vs bein; the Bokmål and Nynorsk forms are identical here.
     non: ["fótr", "foːtr"],  // fótr is explicitly glossed as covering the leg including the foot; leggr is the shank-specific word. IPA is the standard normalised Old Norse reading of the spelling.
     nv: ["akeeʼ", "ʔɑ̀kʰèːʔ"],  // Navajo splits them; both are obligatorily possessed, matching the row's hand cell álaʼ.
     ny: ["phazi", "ˈpʰazí"],  // Chichewa splits them.
+    obr: ["ခြိယ်", "kʰrij"],  // Old Burmese ခြိယ်, the ancestor of Burmese ခြေ — one word for the limb.
     oc: ["pè", "pɛ"],  // pè vs camba.
     och: ["足", "*[ts]ok"],  // Baxter-Sagart 足 *[ts]ok 'foot' against 脛 *m-kʰˤeŋ-s 'shank' and 股 *kʷˤaʔ 'thigh'.
+    ocm: ["takai", "takai"],  // Old Cham takai, one word for the limb, as its Austronesian ancestor *qaqay was.
     ofs: ["fōt", "foːt"],  // Hofmann & Popkema s.v. fōt; OED s.v. shank cites Old Frisian skunka 'leg'.
     oj: ["nizid", "nizid"],  // Ojibwe splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes ninij as ninidʒ.
     ojp: ["足", "asi"],  // PJ *asi runs the whole limb (日本国語大辞典: 股関節から足先まで), as the compounds 足占 a-ura and 足結 a-yupi show.
     olo: ["jalgu", "jɑlɡʊ"],  // One word for the whole lower limb, the Uralic norm.
     om: ["miilla", "miːlːa"],  // Oromo splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes harka as haɾka.
+    omc: ["loc", "lok"],  // Mochica loc. Route unknown: Eloranta's body-part table gives no Mochica word for the leg.
+    omx: ["ဇုၚ်", "ɟɯŋ"],  // Old Mon ဇုၚ် for the lower limb.
     or: ["ଗୋଡ଼", "ɡoɽɔ"],  // The everyday word ଗୋଡ଼ covers the lower limb; the foot-specific ପଦ is a learned Sanskrit form, so this is classed leg+foot rather than distinct.
     orv: ["нога", "noɡa"],  // As cu: Common Slavic *nogà 'foot, leg' (Derksen), continued by the ru and uk rows, which are leg+foot here.
+    osn: ["suku", "suku"],  // Old Sundanese suku covers the whole lower limb, as modern Sundanese does.
     osp: ["pie", "pje"],  // pie vs pierna.
     osx: ["fōt", "foːt"],  // Tiefenbach s.v. fōt; Old Saxon scinka glosses Latin tibia (OED s.v. shank).
     ota: ["آیاق", "ajak"],  // Ottoman ayak still covered the limb; modern Turkish bacak took the leg. IPA is the plain reading of the orthography, following how this row's own hand cell writes ال as el.
     ote: ["wa", "wa"],  // Otomi splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes 'ye as ʔje.
     otk: ["𐰑𐰴", "adaq"],  // The inherited Turkic one-word pattern. IPA is the plain reading of the orthography, following how this row's own hand cell writes 𐰘𐰠𐰏 as eliɡ.
+    p_aav: ["*ɟəːŋ", "ɟəːŋ"],  // Sidwell's Proto-Austroasiatic *ɟəːŋ 'leg, foot'.
+    p_dra: ["*kāl", "kaːl"],  // Proto-Dravidian *kāl 'leg, foot' (DEDR 1479); the Malayalam compound കാൽപ്പാദം on this map is built on it.
+    p_hmx: ["*towC", "tow"],  // Ratliff (2010) pp. 245-272 reconstructs 'foot' *towC and 'leg/branch' *ɟæwB as two etyma, which is the proto-level finding even though the reflexes do not all keep the split. Tone category in the surface, stripped from the IPA, as this row does throughout.
     p_ine: ["*pṓds", "póːds"],  // *pṓds, oblique *ped- (LIV/NIL; Mallory & Adams). Route unknown: no word for 'leg' is securely reconstructible for PIE, so the map cannot say which way it went.
     p_jpn: ["*asi", "asi"],  // PJ *asi 'foot, leg', reflected by OJ 足/脚 asi and Proto-Ryukyuan *asi.
     p_kor: ["*par", "par"],  // pK *par, the liquid-final foot word behind MK 발 (Francis-Ratte 2016:306).
@@ -598,17 +639,27 @@ WORDS.foot = {
     pa: ["ਪੈਰ", "pɛːɾ"],  // As Hindi/Urdu.
     pal: ["𐭯𐭠𐭣𐭩", "paːj"],  // MacKenzie CPD 65 glosses pāy 'foot, leg; foot (12 in.)' outright — one lexeme for the limb, with padistān as the marked 'leg'.
     pap: ["pia", "pia"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes man as man.
+    paus: ["*qaqay", "qaqay"],  // Blust's ACD *qaqay 'leg, foot' — one etymon for the limb across Austronesian.
+    pban: ["*-gʊ̀dʊ̀", "ɡʊdʊ"],  // Proto-Bantu *-gʊ̀dʊ̀ (BLR3) covers foot and leg alike, which is why the Swahili pattern on this map is one word.
     pbb: ["čida", "tʃida"],  // One word for the lower limb. IPA is IDS's own transcription with č written t͡ʃ.
     pdc: ["Fuuss", "fuːs"],  // As German. IPA is the plain reading of the orthography, following how this row's own hand cell writes Hand as hant.
     pdt: ["Foot", "foːt"],  // As German. IPA is the plain reading of the orthography, following how this row's own hand cell writes Haunt as haʊnt.
     peo: ["𐎱𐎠𐎭", "paːda"],  // Kent, Old Persian s.v. pāda-. Route unknown: the royal corpus attests no word for 'leg' at all, which is a gap in the inscriptions rather than in the language.
     pi: ["पाद", "paːda"],  // PED s.v. pāda 'foot' against jaṅghā 'lower leg'; the measure and mountain-foot senses are listed separately there.
     pi_edu: ["pāda", "paːda"],  // As pi, transliterated per this teaching row's IAST convention.
+    pkar: ["*berq-", "berq"],  // Proto-Karen *berq- for the lower limb.
     pl: ["stopa", "ˈstɔpa"],  // Polish is the West Slavic outlier: stopa is the ordinary word for the foot, against Czech/Slovak noha for both.
+    pmay: ["*ʔooq", "ʔoːq"],  // Proto-Mayan *ʔooq 'foot', distinct from the leg — the split the modern Mayan rows keep.
     pmh: ["पाअ", "paːa"],  // CDIAL 8056 pā́da- > Pk. pāa-, with the intervocalic -d- lost (Pischel §187). The OIA pāda/jaṅghā split is inherited unchanged.
+    pmng: ["*köl", "køl"],  // Nugteren's comparative lexicon: *köl 'foot', often also 'leg'.
     prg: ["nagē", "naɡeː"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes rancko as ranko.
+    psem: ["*rigl-", "rigl"],  // Proto-Semitic *rigl- covers the whole lower limb, as its Arabic, Hebrew and Geʿez reflexes do.
     pt: ["pé", "pɛ"],  // pé vs perna.
+    ptai: ["*tiːn", "tiːn"],  // Pittayaporn's Proto-Tai *tiːn 'foot' against *xaː 'leg' — the tin/kha split the za row still shows.
+    ptrk: ["*adak", "adak"],  // Proto-Turkic *adak 'foot, leg'; sixteen Turkic rows on this map still manage with one word.
+    pura: ["*jalka", "jalka"],  // Proto-Uralic *jalka 'foot, leg' — the Finnic and Samoyedic reflexes run the whole limb.
     qu: ["chaki", "tʃaki"],  // chaki covers foot and leg. IPA is the plain reading of the Quechua orthography, as in this row's hand cell maki.
+    qwc: ["chaki", "tʃaki"],  // Classical Quechua chaki, one word for the limb.
     rap: ["vaʻe", "vaʔe"],  // Cognate with Tongan vaʻe and used the same way. IPA is the plain reading of the orthography, following how this row's own hand cell writes rima as ɾima.
     rcf: ["pié", "pje"],  // Follows French. IPA is the plain reading of the orthography, following how this row's own hand cell writes lamin as lamɛ̃.
     rgn: ["pè", "pɛ"],  // pè vs gâmba.
@@ -663,6 +714,7 @@ WORDS.foot = {
     txg: ["𗭒", "kʰjɨ˧"],  // Li Fanwen (2008) *khjɨ¹, corroborated by Gong 2001:25 via HPTB; < PST *krəj 'foot, leg'.
     tzm: ["ⴰⴹⴰⵔ", "adˤar"],  // Berber aḍar covers foot and leg; the Tarifit cognate is explicitly glossed for both.
     tzo: ["okol", "ʔokol"],  // Mayan languages commonly use one term (cf. Q'eqchi' oq); Tzotzil okol covers the limb.
+    uby: ["ła:pʼa", "ɬaːpʼa"],  // Vogt, Dictionnaire de la langue oubykh, entry 996, glossed 'jambe, pied' — his French index sends both words to the same entry. The colon is Vogt's own length mark, kept as this row keeps his transcription.
     udi: ["тур", "tur"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes кул as kul.
     udm: ["пыд", "pɨd"],  // пыд covers both.
     ug: ["پۇت", "put"],  // پۇت covers both; پاچاق is a separate leg word.
@@ -681,9 +733,11 @@ WORDS.foot = {
     xal: ["көл", "kœɮ"],  // көл covers both, as Mongolian хөл does.
     xlu: ["pāta-", "ˈpaːta"],  // Melchert, Cuneiform Luwian Lexicon s.v. pāta-. Route unknown: the GLD names talla- as a candidate 'human leg' for Hittite and only guesses at Luwian.
     xmf: ["კუჩხი", "kʼutʃxi"],  // Class inferred from Georgian and from the Svan cognate ჭიშხ 'foot, leg'. IPA is the plain reading of the orthography, following how this row's own hand cell writes ხე as xe.
+    xmr: ["𐦯𐦴", "ˈsata"],  // Rilly's glossary p. 184, 'st — foot, feet', read with the inherent vowel as this row's 𐦨𐦯 masa and 𐦠𐦶 ato are. Route unknown: no Meroitic leg word is attested.
     xng: ["ᠬᠥᠯ", "køl"],  // Nugteren's comparative lexicon gives *köl 'foot, often also leg', with MMo Secret History kol (H103) and 華夷譯語 köl (M72).
     xpr: ["pʾd", "paːð"],  // Durkin-Meisterernst s.v. pʾd = pāδ. Route unknown: no leg word located in the Parthian corpus.
     xto: ["𑀧𑁂", "pe"],  // IDS 4-370 Tocharian A pe. Route unknown: IDS leaves 4-350 LEG empty for A while giving B ckācko, so the gap is the A corpus, not the language.
+    xum: ["persi", "ˈpersi"],  // Umbrian persi, the locative in the Iguvine Tables. Route unknown: no Umbrian word for the leg is attested.
     yi: ["פֿוס", "fʊs"],  // Unlike German Fuß, Yiddish פֿוס covers the whole lower limb — a genuine split from the German pattern.
     ykg: ["аримэ", "arime"],  // Tundra Yukaghir keeps them apart.
     yo: ["ẹsẹ̀", "ɛsɛ̀"],  // ẹsẹ̀ covers the lower limb; the older foot word is a compound on it. IPA is the plain reading of the orthography, following how this row's own hand cell writes ọwọ́ as ɔwɔ́.

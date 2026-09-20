@@ -366,12 +366,41 @@ Chipewyan word. **Build the checker** — compare each cell against its row's
 other cells AND against the same concept in its relatives. See
 [[hanmap-deterministic-checkers]] for why this beats another LLM rally.
 
-**4. `pyx`, 5 cells.** `lak` hand, `mik` eye, `vyaŋ` fire, `ño` sun declare
-`evidence:"direct"` with `source:"Miyake 2024"` and occur in none of Miyake
-2024, BEFEO 2017 or Miyake 2018 — while the row's `one`, `three`, `five`,
-`name`, `water` and `bone` match published data exactly. The innocent
-explanation is Luce 1985, the one Pyu glossary nobody could reach. The row's
-`meta.sources` is `null` and its `reviewStatus` is `human-reviewed`.
+**4. `pyx` — CLOSED 2026-09-20, review 546, commit `d0cd2107`.** Worse than
+the five cells it was raised as. "Miyake 2024" does not exist; it was on
+thirteen cells. Against the complete corpus (Zenodo 5111390, 7303 tokens) the
+forms on eleven of them occur zero times, so those are now dashed; `two nit`
+was corrected to `kni` (13 occurrences, glosses Sanskrit *dvaya* in inscription
+016, and the urn formula `rla kni` 'month two' independently corroborates the
+`moon` cell). Real sources written per cell; `name` and `i` promoted to
+`direct`; a `coverageNote` added. `eat`, `you` and `star` stay `inferred` —
+see the open policy question below. The "Luce 1985 I:66-69" lead was refuted:
+it traces to Wikipedia, whose own footnote says volume 2, and whose Luce
+column contains none of the six forms.
+
+**OPEN POLICY QUESTION left by that review.** `pyx eat cyaʔ`, `pyx you naŋ`
+and `pyx star kar` are Tibeto-Burman comparanda published in a surface-form
+column, and they declare themselves `inferred`, which is why they were not
+emptied. Whether a reconstruction may stand in that column when it says it is
+one has never been decided, and other ancient rows will turn on the same
+answer. `tools/proto_form_leak_check.js` prints these two as `leak` every run
+so the question stays visible.
+
+**4b. Checker built, and it generalises the above:
+`tools/proto_form_leak_check.js`** (commit `7f9d0c97`, wired into
+`check_all.js`, 87 guards now). Flags any cell byte-identical to a proto row
+of its own family with the `*` and prefix stripped, gated to
+`languageKind: 'historical-attested'` rows. 129 hits, all ruled in
+`tools/proto_form_leak.lock.json` as `inherited` / `circular` / `leak`; an
+unruled match is an error. **16 are open, on four rows, and `omx` is a real
+lead**: Old Mon has no `wordEvidence` at all, its row comment calls an
+inscriptionally attested language "reconstructions", and its water IPA is the
+implosive `ɗaːk` — Proto-Austroasiatic house notation for inscriptional
+`ḍāk`. Shorto's *Dictionary of the Mon Inscriptions* should settle all four
+cells. Then `juc` (five Tungusic-shaped cells with no evidence entry, on a row
+that elsewhere declares Manchu substitutions honestly as `proxy`), `zkt`
+(Khitan, only partially deciphered) and `emy` (Mayan forms in modern
+orthography, and two Mayan priors have already been wrong here).
 
 **5. Gaps, which are not false claims and go last.** `foot`'s remaining 56
 (each with a named next step, in the thread JSONs under
@@ -392,14 +421,39 @@ Before this, all eleven cells containing 儿/兒 were 女儿-shaped and the rule
 made the honest spelling unwritable, which left `zh_cd tongue` holding 舌头 —
 the word minus its suffix, i.e. the defect the concept was being repaired for.
 
-**This is a convention, so it now has to be applied consistently.** The known
-outstanding cases: `zh_sc tongue` (語保 makes 舌頭兒 the Sichuan majority, 60
-points against 19, but no IPA has been derived for that row yet — do not copy
-Chengdu's), and `star`, where the survey found Chengdu 星宿兒/星星兒. The
-erhua-heavy rows to sweep are the northern and southwestern Mandarin ones:
-zh, zh_tj, zh_cd, zh_cq, zh_sc, zh_xa, zh_kf, zh_jn, zh_lz, zh_db. Writing
-erhua on some words and not others would be the same "a feature applied to
-only SOME qualifying cells" defect that this whole line of work is about.
+**Sweep DONE 2026-09-20, commit `6a01394e`:** 16 rows x 86 concepts against
+語保 and all 42 volumes of 《現代漢語方言大詞典》. Two changes — `zh_sc tongue`
+舌头 → 舌头儿 /se˨˩ tʰəɹ˨˩/ (tones from zh_sc's own 陽平 witnesses, NOT copied
+from Chengdu; the result is byte-identical to zh_cd by coincidence) and
+`cjy_xz fish` 鱼 → 鱼儿 /yɚ˩˩/.
+
+Declined, with reasons that are the rule for next time:
+- **`star`** — 《成都方言詞典》 heads 星星（兒）with the 兒 **in parentheses**,
+  where it heads 舌頭兒 and 貓兒 without them. Parenthesised = optional = write
+  the bare form.
+- **`bird`** — looked like the largest find (語保 has 鳥兒 nearly everywhere)
+  and collapses twice: the 語保 questionnaire item is itself spelled 鳥兒, and
+  both 綜合本 and the 忻州 volume gloss 鳥兒 as 指較小的能飛行的鳥, a diminutive,
+  in the same volume that glosses 魚兒 as plain 魚.
+- **`zh_cq tongue`** — 語保 records 重慶渝中 twice, once 舌頭兒 and once bare, so
+  zh_cq now differs from zh_sc/zh_cd on purpose.
+- Flagged, not changed: `zh_tj name` (three inner Tianjin points say 名兒 and
+  none says 名字, but nine outer points do and there is no 天津 volume; ready
+  value 名儿 /miɛɻ˦˥/) and `zh_db name` (settled against erhua by the 哈爾濱
+  stroke index).
+
+**Two traps for the next sweeper.** 太原 and 蘭州 write their 兒 as a full
+separate syllable with NO rhotic; they pass the syllable-space checker
+untested and must not be "fixed" into fused rhymes. 洛陽 does the opposite — a
+fused rhyme with no r at all (綜合本 p.1497 【名兒】miuɯ) — which the exemption
+would refuse; harmless today because no 洛陽 row exists.
+
+**Method worth keeping.** `POST kaom.net/book_fangyandacidian8.php` with
+`word=X&bianti=yes` is a substring search over the headwords of all 42 volumes
+at once, so an empty result is a one-query proof of absence across the set.
+`GET kaom.net/si_ci88.php?word=X&yuyan=全部漢語` returns every attested 詞形 for
+a 語保 詞條 with point counts. Both over plain HTTP; kaom.net is down over
+HTTPS.
 
 ### The 🧪 flag does not mean one thing (2026-09-20, owner spotted it via `silk`)
 

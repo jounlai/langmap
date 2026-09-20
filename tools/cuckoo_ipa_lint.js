@@ -60,6 +60,17 @@ function lint(entries) {
 // Lint every partial word (WORDS.<id>.partial) — cuckoo, woof, and any future
 // one. That is where the onomatopoeic/topolect cells live and where the rallies
 // keep introducing digit/accent tones.
+//
+// EXTRA is for a word that has LEFT the partial set but whose cells were all
+// written to this gate and should keep it. `foot` went from 265 cells to 1,132
+// on 2026-09-20 and then dropped `partial: true`; without this line its 1,132
+// cells would silently fall out of scope (the lint went 5,363 -> 4,403 in the
+// dry run that found this). The gate is worth keeping because it is STRICTER
+// than tone_policy_check by design: that tool deliberately exempts a row whose
+// Chao coverage is under 60%, which is how khb sat at 14 of 52 cells for a
+// long time, and this one refuses a bare cell in a tonal language outright.
+const EXTRA = new Set(['foot']);
+
 function loadPartialWords() {
   global.WORDS = {};
   const dir = path.join(ROOT, 'words');
@@ -68,8 +79,8 @@ function loadPartialWords() {
     eval(fs.readFileSync(path.join(dir, f), 'utf8'));
   }
   const out = [];
-  for (const [, w] of Object.entries(WORDS)) {
-    if (w && w.partial === true && w.data) out.push(...Object.entries(w.data));
+  for (const [id, w] of Object.entries(WORDS)) {
+    if (w && w.data && (w.partial === true || EXTRA.has(id))) out.push(...Object.entries(w.data));
   }
   return out;
 }

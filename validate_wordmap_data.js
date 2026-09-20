@@ -241,8 +241,18 @@ const PARTIAL_WORD_IDS = new Set(WORD_IDS.filter(id => ctx.WORDS && ctx.WORDS[id
 // per word) rather than a hard error, so a work-in-progress core word does not
 // block the pre-commit guard. Remove an id from this set once it is fully
 // covered; a later coverage regression is then a hard error again.
-const FILLING_IN = new Set(['ear', 'rain', 'wind', 'earth', 'snow', 'stone', 'nose', 'bird', 'egg', 'sleep', 'white', 'five', 'black', 'four', 'daughter', 'iron', 'wheel', 'salt', 'milk', 'wine', 'hundred', 'honey', 'bear',
+const FILLING_IN = new Set(['foot', 'ear', 'rain', 'wind', 'earth', 'snow', 'stone', 'nose', 'bird', 'egg', 'sleep', 'white', 'five', 'black', 'four', 'daughter', 'iron', 'wheel', 'salt', 'milk', 'wine', 'hundred', 'honey', 'bear',
     'head', 'new', 'mouth', 'person', 'mountain', 'sea', 'green', 'rice', 'silk', 'horse', 'chocolate', 'book']);   // +mouth & 8 new concepts 2026-09-15 (WIP core words, seed only)
+// +foot 2026-09-20. It came off `partial: true` the same day, having gone 265
+// -> 1,132 cells (95.3%, against hand's 97.8%). FILLING_IN rather than an
+// em-dash cell for each of the 56 that remain, because those 56 are not one
+// thing: pafa has seven competing roots and ett, cms, xht, txr, xfa, xib, xli
+// and xve are fragmentary corpora with no attested foot word — but kwk and squ
+// are only behind a JavaScript shell, itz wants Hofling & Tesucún 1997, bah
+// wants Holm & Shilling, and mwk and mlq want one dialect-labelled Manding
+// source. An em dash on those would assert an absence nobody has established.
+// Drop them to em-dash cells individually as each is genuinely exhausted, then
+// take foot out of this set.
 const fillingMissing = {};
 
 // ---- 2-4. Per-language word-entry checks --------------------------------

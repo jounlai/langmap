@@ -7,7 +7,7 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
 
 ## Current state
 - Dataset: **1188 languages** (`wordmap_data.js` header must match — it's validated).
-- Branch `main`. Last commit `554970f5` (2026-09-20, round 9).
+- Branch `main`. Last commit `693f1781` (2026-09-20, rounds 9-11 + the selector modal).
 - `node tools/check_all.js` is **green** — 86 guards; keep it green before every commit.
 - ⚠️ **One item is blocked on the owner, not on work: the three row recodes.** See
   "Recodes — audited, planned, NOT applied" below. Do not apply them without reading it.
@@ -273,6 +273,72 @@ pair. Both are checked and correct; do not "fix" one to match the other.
 
 ## Outstanding / queued work
 
+### Priority order — by what the map tells a reader that is FALSE, not by discovery order
+
+`foot` went 265 -> 1,132 cells on 2026-09-20 (95.3%, against hand's 97.8%) and
+dropped `partial: true`. Reviews 545 and the commit messages from `a4f4e142`
+to `693f1781` carry the detail. What is left, ordered:
+
+**1. Wu, 6 rows + a sentence in the docstring.** `wuu`, `wuu_nb`, `wuu_sz`,
+`wuu_wz`, `wuu_hz`, `wuu_jh` are all routed `distinct` and five Wu dictionaries
+that describe the local sense say 脚 covers the whole lower limb — including
+海寧硤石, inside Jiaxing prefecture, and **宁波方言词典, which is `wuu_nb`'s own
+volume contradicting `wuu_nb`'s own route**. The two that look narrow (苏州,
+杭州) copy the 現代漢語詞典 definition word for word and neither has a 腿
+headword. In all of them 腿 survives only bound (大腿, 小腿, 绑腿). This also
+indicts the opening paragraph of `words/foot.js`, which states as a headline
+claim that "脚/腿 are distinct in Mandarin, Jin and Wu". `wuu_jx` is held with
+its cell finished (脚 tɕiɑʔ˥, 俞光中 1988) waiting on this.
+
+**2. Quechua, 3 rows.** `qu`, `quz`, `quy` are `leg+foot`; Heggarty's
+crossandean elicits FOOT and LEG separately and returns a distinct leg word in
+EVERY modern variety (Cuzco čaki/čaka, Ayacucho chaki/chanka, Huallaga, Huanca,
+Jauja, Imbabura). Only Santo Tomás `qwc` merges.
+
+**3. One defect class, one deterministic checker — not twelve separate fixes.**
+A cell holding its NEIGHBOURING CONCEPT's word. Confirmed instances found by
+accident in one day: `nmf` hand held the foot word (fixed, `cc709081`); four
+Vai cells held mother/meat/child (fixed 2026-09-18); `mey` wheel is almost
+certainly the leg word (every other Arabic row writes عجلة, `mey` alone كراع);
+`crn` bone is the same morpheme as its foot word; `kio` bone is Watkins's bare
+LEG root; `toc` name is 'leaf'; `yur` hand is a particle; `koy` hand is the
+Chipewyan word. **Build the checker** — compare each cell against its row's
+other cells AND against the same concept in its relatives. See
+[[hanmap-deterministic-checkers]] for why this beats another LLM rally.
+
+**4. `pyx`, 5 cells.** `lak` hand, `mik` eye, `vyaŋ` fire, `ño` sun declare
+`evidence:"direct"` with `source:"Miyake 2024"` and occur in none of Miyake
+2024, BEFEO 2017 or Miyake 2018 — while the row's `one`, `three`, `five`,
+`name`, `water` and `bone` match published data exactly. The innocent
+explanation is Luce 1985, the one Pyu glossary nobody could reach. The row's
+`meta.sources` is `null` and its `reviewStatus` is `human-reviewed`.
+
+**5. Gaps, which are not false claims and go last.** `foot`'s remaining 56
+(each with a named next step, in the thread JSONs under
+`~/langmap-work/rally/r9..r11/`); the 12 Polynesian rows still in the mixed
+stress state (fud 42/62, wls 30/55, pkp 29/57, fj 20/68 …) after the earlier
+strip did only mi/sm/to/haw; `zh_tang`'s three transcription systems in one
+row; 301 rows with no `meta.sources`.
+
+### The 🧪 flag does not mean one thing (2026-09-20, owner spotted it via `silk`)
+
+`silk` at 172 cells is FILLING_IN while `atsign` at 164 and `dopamine` at 184
+are 🧪 — the two states are fully interleaved by coverage, so coverage is not
+the criterion. The 16 🧪 words are actually three groups:
+
+- **route-coloured** (blue, coffee, n99, orange, sugar, tea) — but `bear`,
+  `wine`, `we` and `foot` are route-coloured WITHOUT the flag, so this is not
+  the criterion either;
+- **the concept is genuinely not universal** (wifi, atsign, dopamine,
+  computer, sushi, cockcrow, woof, cuckoo) — this IS what
+  `validate_wordmap_data.js` says the flag means: "plotted only where a real,
+  sourced form exists … the cuckoo, whose range is Eurasia/Africa";
+- **ordinary core words that are merely thin** — `butterfly` (340) and `poop`
+  (346), which is exactly `silk`'s situation at better coverage.
+
+Recommendation: 🧪 should mean only the second. Move `butterfly` and `poop` to
+FILLING_IN; leave `silk` alone. The route-coloured six want their own decision.
+
 ### ⚠️ Recodes — audited, planned, NOT applied (blocked on the owner, 2026-09-20)
 
 `pt_gw`→`pov`, `en_ng2`→`en_gh`, and merging `afb` into `ar_gulf`. The plan is complete and
@@ -303,6 +369,19 @@ Silent failure modes found while auditing, worth knowing independently of the re
   so it would not have fired.
 - `[#188]` and `[#193]` cap output at 5 messages, so clearing one row **reveals** others that
   look like new defects and are not.
+
+### A correction to a claim in commit 80fa53cc
+
+That message says `cuckoo_ipa_lint` "found something bigger" when it flagged
+`khb`'s untoned Tai Lue cell, and that the row's 38 bare cells were
+"invisible". Not so: `tone_policy_check.js` prints `khb  Chao 13/51  38 bare`
+in its own report and **names khb in its header** among the rows below its 60%
+floor ("lis 43%, shn 35%, khb 25%, duu 14%, qxs 5%"), which it excludes from
+Rule A deliberately because below that floor the marking is no longer the
+row's own evidence. Its header also carries the whole census — 375 tonal rows,
+12,091 bare cells — and says filling them would invite invented tone values.
+So it is a measured, deliberate exemption, not a blind spot. Pulling the khb
+cell was still right, because the partial-word lint gates at 0.
 
 ### Round 9 (2026-09-20) — the `foot` historical fill
 

@@ -320,6 +320,27 @@ stress state (fud 42/62, wls 30/55, pkp 29/57, fj 20/68 …) after the earlier
 strip did only mi/sm/to/haw; `zh_tang`'s three transcription systems in one
 row; 301 rows with no `meta.sources`.
 
+### Convention settled: the atlas WRITES erhua (owner, 2026-09-20)
+
+A trailing 儿/兒 may be non-syllabic, so Chengdu 舌頭兒 is three characters in
+two syllables. `sinitic_syllable_space_check.js` now allows it, but only when
+the IPA SHOWS the erhua — the final syllable must carry a rhotic (ɚ, ɹ, ɻ, ˞)
+— so 女儿 still cannot be written with one syllable. The full reasoning is in
+that tool's header.
+
+Before this, all eleven cells containing 儿/兒 were 女儿-shaped and the rule
+made the honest spelling unwritable, which left `zh_cd tongue` holding 舌头 —
+the word minus its suffix, i.e. the defect the concept was being repaired for.
+
+**This is a convention, so it now has to be applied consistently.** The known
+outstanding cases: `zh_sc tongue` (語保 makes 舌頭兒 the Sichuan majority, 60
+points against 19, but no IPA has been derived for that row yet — do not copy
+Chengdu's), and `star`, where the survey found Chengdu 星宿兒/星星兒. The
+erhua-heavy rows to sweep are the northern and southwestern Mandarin ones:
+zh, zh_tj, zh_cd, zh_cq, zh_sc, zh_xa, zh_kf, zh_jn, zh_lz, zh_db. Writing
+erhua on some words and not others would be the same "a feature applied to
+only SOME qualifying cells" defect that this whole line of work is about.
+
 ### The 🧪 flag does not mean one thing (2026-09-20, owner spotted it via `silk`)
 
 `silk` at 172 cells is FILLING_IN while `atsign` at 164 and `dopamine` at 184

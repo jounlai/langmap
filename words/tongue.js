@@ -1229,7 +1229,7 @@ WORDS.tongue = {
     wuu_jh: ["口舌", "kʰiu˥˧˥ dʑyɤ˨˨"],
     wuu_jx: ["舌头", "zøʔ˩˨ dɤu˨˨˧"],
     yue_zs: ["脷", "lei˨"],
-    zh_cd: ["舌头", "se˨˩ tʰəu˨˩"],
+    zh_cd: ["舌头儿", "se˨˩ tʰəɹ˨˩"],  // 《成都方言詞典》 p.150 heads 舌頭兒 se tʻəɹ and its 義類索引 lists neither plain 舌頭 nor bare 舌; 大詞典 p.1431 omits 成都 from 【舌頭】 and puts it under 【舌頭兒】 on p.1432; 語保 錦江 se32thər33, with ten more Chengdu-municipality points agreeing. 頭兒 fuses, so three characters and two syllables.
     zh_hf: ["舌头", "ʂɐʔ˦ tʰəu˥˥"],
     zh_kf: ["舌头", "ʂɛ˦˨ tʰəu˦˨"],
     zh_nj: ["舌头", "ʂəʔ˥ tʰəu˨˦"],

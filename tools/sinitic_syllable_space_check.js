@@ -27,6 +27,19 @@
  * them. Found 2026-09-17 by a thread looking for exactly this kind of seam.
  * Both fields are now split on `" / "` and each half tested on its own.
  *
+ * ERHUA, added 2026-09-20 (owner's call). A trailing 儿/兒 can be a suffix that
+ * colours the preceding rhyme instead of standing as its own syllable, so
+ * Chengdu 舌頭兒 is three characters in TWO syllables, se tʻəɹ. Before this the
+ * corpus had no such cell — all eleven cells containing 儿/兒 were 女儿-shaped,
+ * two characters and two syllables — and the rule as written made the honest
+ * spelling unwritable, which left the cell holding 舌头 instead: the word minus
+ * its suffix, i.e. the very defect this concept was being repaired for.
+ *
+ * The allowance is deliberately not "a trailing 儿 may be silent", because that
+ * would also let 女儿 be written with one syllable. The IPA has to SHOW the
+ * erhua: the last syllable must carry a rhotic (ɚ, ɹ, ɻ or ˞). So a cell only
+ * gets the exemption when both fields agree that erhua is what happened.
+ *
  * `ja_kanbun` is EXEMPT, and it is the exception that proves the rule: its
  * readings are jukujikun, where the whole compound maps to a native Japanese
  * word rather than character by character. 杜鵑 is ほととぎす, five syllables
@@ -80,6 +93,12 @@ for (const [id, w] of Object.entries(WORDS)) {
             if (chars.length < 2 || !chars.every((c) => HAN.test(c))) continue;
             const pieces = iParts[k].trim().split(/\s+/).length;
             if (pieces >= chars.length) continue;
+            // Erhua: a trailing 儿/兒 may be non-syllabic, but only when the
+            // IPA shows it — the final syllable has to carry the rhotic.
+            if (/[儿兒]$/.test(sParts[k]) && pieces === chars.length - 1) {
+                const last = iParts[k].trim().split(/\s+/).pop() || '';
+                if (/[\u025A\u0279\u027B\u02DE]/.test(last)) continue;
+            }
             violations.push({ code, id, surface, ipa, chars: chars.length, pieces });
         }
     }

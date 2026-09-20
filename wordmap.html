@@ -66,7 +66,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=133">
+    <link rel="stylesheet" href="styles.css?v=134">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -501,6 +501,130 @@
         .top-left-controls .word-select-row {
             display: flex; align-items: center; gap: 5px;
         }
+        /* The word selector is a BUTTON, not a pulldown (owner 2026-09-20).
+           86 concepts in a flat <select> could not be scanned, so the list
+           moved into a categorised modal and this button is the way in. It
+           keeps the <select>'s footprint and reads as pressable: raised
+           surface, hover, and a chevron. The <select> itself stays in the DOM
+           as the source of truth — see the modal JS — but is never shown. */
+        .top-left-controls #word-select { display: none !important; }
+        .top-left-controls #word-current-btn {
+            display: flex; align-items: center; gap: 6px;
+            width: 240px; max-width: 100%; box-sizing: border-box;
+            padding: 5px 9px;
+            border: 1px solid #c9c9d4; border-radius: 7px;
+            background: #fff;
+            font: inherit; font-size: 13px; color: #1a1a2e;
+            text-align: left; cursor: pointer;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+            transition: background .12s, border-color .12s, box-shadow .12s;
+        }
+        .top-left-controls #word-current-btn:hover {
+            background: #f6f6fa; border-color: #a9a9bb;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+        }
+        .top-left-controls #word-current-btn:active { transform: translateY(1px); box-shadow: none; }
+        .top-left-controls #word-current-btn:focus-visible {
+            outline: 2px solid #4a4ae0; outline-offset: 1px;
+        }
+        .top-left-controls #word-current-btn .wcb-name {
+            flex: 1 1 auto; min-width: 0;
+            overflow-wrap: anywhere;
+        }
+        /* Chevron, so the control is read as "opens something" rather than as
+           a label that happens to have a border. */
+        .top-left-controls #word-current-btn .wcb-caret {
+            flex: 0 0 auto; font-size: 10px; color: #8a8a99;
+        }
+        body.chrome-hidden .top-left-controls #word-current-btn,
+        html[data-wm-chrome="hidden"] .top-left-controls #word-current-btn { display: none; }
+
+        /* --- Word selector modal --- */
+        /* The scroll lives on the BODY, not on the dialog. Scrolling the
+           dialog itself put the scrollbar inside the rounded box and squared
+           off the right-hand corners, and it carried the title and the search
+           field away with the list (owner 2026-09-20). So: the dialog is a
+           flex column that clips, the head is fixed, the body scrolls. */
+        #word-modal-backdrop.visible { display: block !important; }
+        #word-modal.visible { display: flex !important; }
+        #word-modal {
+            flex-direction: column;
+            overflow: hidden;          /* keeps the 14px radius on all four corners */
+        }
+        #word-modal #word-modal-head {
+            flex: 0 0 auto;
+            padding: 20px 22px 0;
+            background: #fff;
+        }
+        #word-modal #word-modal-title {
+            font-size: 18px; margin: 0 0 12px; color: #1a1a2e; font-weight: 700;
+            padding-right: 28px;       /* clear of the close button */
+        }
+        #word-modal #word-modal-body {
+            flex: 1 1 auto; min-height: 0;
+            overflow-y: auto; overscroll-behavior: contain;
+            padding: 0 22px 16px;
+        }
+        #word-modal .wm-cat { margin-bottom: 14px; }
+        #word-modal .wm-cat h3 {
+            font-size: 12px; font-weight: 700; letter-spacing: .04em;
+            text-transform: uppercase; color: #8a8a99;
+            margin: 0 0 7px; padding-bottom: 4px; border-bottom: 1px solid #ececf2;
+        }
+        /* One line under the 🧪 heading saying what the group IS. The marker
+           alone told the reader a word was special but not how (owner). */
+        #word-modal .wm-cat-note {
+            font-size: 11px; color: #8a8a99; line-height: 1.4;
+            margin: -3px 0 7px; font-weight: 400; text-transform: none;
+            letter-spacing: 0;
+        }
+        #word-modal .wm-grid {
+            display: grid; gap: 6px;
+            grid-template-columns: repeat(auto-fill, minmax(116px, 1fr));
+        }
+        /* A tile grows to fit its word. It must never clip: these are the
+           reader's own language and several are long (コンピューター,
+           Computador, ありがとう), and an elided word is unreadable in a
+           picker whose whole job is to be scanned (owner 2026-09-20). */
+        #word-modal .wm-tile {
+            display: flex; flex-wrap: wrap; align-items: baseline;
+            column-gap: 5px; row-gap: 1px;
+            border: 1px solid #e2e2e8; border-radius: 8px; background: #fff;
+            padding: 7px 9px; cursor: pointer; text-align: left;
+            font-size: 13px; color: #1a1a2e; line-height: 1.3;
+            min-width: 0;
+        }
+        #word-modal .wm-tile:hover { background: #f4f4f8; border-color: #c9c9d4; }
+        #word-modal .wm-tile.active {
+            background: #1a1a2e; border-color: #1a1a2e; color: #fff;
+        }
+        #word-modal .wm-tile .wm-name {
+            flex: 1 1 auto; min-width: 0;
+            overflow-wrap: anywhere; word-break: normal;
+        }
+        #word-modal .wm-tile .wm-en {
+            flex: 0 0 auto; font-size: 10px; color: #9a9aa8;
+            overflow-wrap: anywhere;
+        }
+        #word-modal .wm-tile.active .wm-en { color: #b9b9c8; }
+        #word-modal #word-modal-search {
+            width: 100%; box-sizing: border-box; margin: 0 0 12px;
+            padding: 7px 10px; font-size: 13px;
+            border: 1px solid #d8d8d8; border-radius: 8px;
+        }
+        #word-modal .wm-empty { color: #8a8a99; font-size: 13px; padding: 6px 2px; }
+        @media (max-width: 640px) {
+            /* Wider minimum than the desktop grid would suggest: the tiles
+               wrap rather than clip, and 96px columns turned ordinary words
+               into three stacked fragments. */
+            #word-modal .wm-grid { grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); }
+            #word-modal .wm-tile { font-size: 12px; padding: 6px 8px; }
+            /* Put the English gloss on its own line so it never competes with
+               the reader's own word for the same row. */
+            #word-modal .wm-tile .wm-name { flex: 1 1 100%; }
+            #word-modal .wm-tile .wm-en { flex: 1 1 100%; }
+        }
+
         /* Matches #era-help exactly — same 18px circle, same grey, same "?" —
            because they are the same affordance one row apart, and two
            different help icons in one column read as two different things. */
@@ -2904,6 +3028,20 @@
          header doesn't trap it inside the header's stacking context. -->
     <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
 
+    <!-- Word selector modal: the 11 WORD_CATEGORIES as labelled sections. -->
+    <div id="word-modal-backdrop" aria-hidden="true"
+         style="position:fixed;inset:0;background:rgba(20,25,40,0.55);backdrop-filter:blur(2px);z-index:2000;display:none"></div>
+    <div id="word-modal" role="dialog" aria-modal="true" aria-labelledby="word-modal-title"
+         style="position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);background:#fff;border-radius:14px;box-shadow:0 12px 48px rgba(0,0,0,0.35);width:min(720px,calc(100vw - 32px));max-height:calc(100vh - 64px);z-index:2001;display:none">
+        <button id="word-modal-close" type="button" aria-label="Close"
+                style="position:absolute;top:10px;right:14px;background:none;border:none;font-size:24px;color:#888;cursor:pointer;line-height:1;padding:4px 8px;z-index:1">&times;</button>
+        <div id="word-modal-head">
+            <h2 id="word-modal-title">Select a word</h2>
+            <input id="word-modal-search" type="search" autocomplete="off" placeholder="Search">
+        </div>
+        <div id="word-modal-body"></div>
+    </div>
+
     <!-- Top-left controls (below header): word select + era + lang search -->
     <div class="top-left-controls">
         <div class="word-select-row">
@@ -2913,6 +3051,12 @@
              which word is mapped without the interactive pulldown (owner
              2026-07-12). Populated + kept in sync by updateWordSelectLabel(). -->
         <div id="word-select-label" aria-hidden="true"></div>
+        <!-- Opens the categorised word modal. The <select> above stays the
+             source of truth; this button only ever sets its value and fires a
+             change event, so every existing listener is unaffected. -->
+        <button id="word-current-btn" type="button" aria-haspopup="dialog"
+                aria-controls="word-modal" aria-label="Select word"
+                ><span class="wcb-name"></span><span class="wcb-caret" aria-hidden="true">▾</span></button>
         <!-- The definition is collapsed by default and opened from here.
              Styled and placed to match #era-help: a small "?" at the right
              end of its own row. It overlaid the map when always-on; see the
@@ -3897,7 +4041,7 @@
         // caught at validation time. The dynamic wordmap_meta.js load
         // below uses assetUrl() so its version is always read from here.
         const WM_ASSET_VERSION = {
-            styles:   133,
+            styles:   134,
             data:      329,
             metaI18n:  16,
             filter:    45,
@@ -4620,6 +4764,7 @@
             });
             if (curVal) select.value = curVal;
             updateWordSelectLabel();
+            try { window.__wmSyncWordButton && window.__wmSyncWordButton(); } catch (_) {}
         }
         // Mirror the selected word's option text into the read-only
         // #word-select-label shown in simple-display mode (where #word-select
@@ -4632,6 +4777,173 @@
             lbl.textContent = opt ? opt.textContent : '';
         }
         rebuildWordSelect();
+
+        // --- Categorised word modal -------------------------------------
+        // 86 concepts in one flat pulldown is hard to scan even ordered by
+        // theme, so WORD_CATEGORIES (word_manifest.js) is rendered as labelled
+        // sections. The <select> above stays the source of truth: a tile only
+        // sets select.value and fires `change`, so every existing listener,
+        // the hash sync and Langle all keep working untouched.
+        (function wordModal() {
+            var btn = document.getElementById('word-current-btn');
+            var modal = document.getElementById('word-modal');
+            var backdrop = document.getElementById('word-modal-backdrop');
+            var closeBtn = document.getElementById('word-modal-close');
+            var body = document.getElementById('word-modal-body');
+            var search = document.getElementById('word-modal-search');
+            if (!btn || !modal || !backdrop || !body || !search) return;
+            if (typeof WORD_CATEGORIES === 'undefined') { btn.hidden = true; return; }
+
+            var T = {
+                en: ['Select a word', 'Search'], ja: ['単語を選択', '検索'],
+                ko: ['낱말 선택', '검색'], zh: ['选择词语', '搜索'],
+                yue: ['揀個詞', '搜尋'], vi: ['Chọn từ', 'Tìm kiếm'],
+                th: ['เลือกคำ', 'ค้นหา'],
+                id: ['Pilih kata', 'Cari'], hi: ['शब्द चुनें', 'खोजें'],
+                de: ['Wort wählen', 'Suchen'], fr: ['Choisir un mot', 'Rechercher'],
+                it: ['Scegli una parola', 'Cerca'], es: ['Elegir una palabra', 'Buscar'],
+                pt: ['Escolher uma palavra', 'Pesquisar'], ru: ['Выберите слово', 'Поиск'],
+                uk: ['Виберіть слово', 'Пошук'],
+                ar: ['اختر كلمة', 'بحث'],
+                he: ['בחרו מילה', 'חיפוש'],
+                sw: ['Chagua neno', 'Tafuta']
+            };
+            // What the 🧪 group is: shown only where a sourced form exists,
+            // so a blank is honest rather than missing data.
+            // What the 🧪 group is. Kept to one short clause: it sits under
+            // every heading render, so it has to read as a caption, not a note.
+            var EXP_NOTE = {
+                en: "Only where a sourced word was found.",
+                ja: "出典のある語が見つかった言語だけ。",
+                ko: "출처가 있는 말이 확인된 언어만.",
+                zh: "仅显示有出处的词。",
+                yue: "淨係顯示有出處嘅詞。",
+                vi: "Chỉ nơi tìm được từ có nguồn.",
+                th: "เฉพาะที่พบคำที่มีแหล่งอ้างอิง",
+                id: "Hanya bila ada kata bersumber.",
+                hi: "केवल जहाँ स्रोतयुक्त शब्द मिला।",
+                de: "Nur wo ein belegtes Wort vorliegt.",
+                fr: "Seulement là où un mot sourcé existe.",
+                it: "Solo dove esiste una parola documentata.",
+                es: "Solo donde hay una palabra con fuente.",
+                pt: "Só onde há uma palavra com fonte.",
+                ru: "Только там, где есть слово с источником.",
+                uk: "Лише там, де є слово з джерелом.",
+                ar: "فقط حيث توجد كلمة موثّقة.",
+                he: "רק היכן שנמצאה מילה עם מקור.",
+                sw: "Pale tu neno lenye chanzo lilipopatikana."
+            };
+            function baseLang() { return (typeof uiLang === 'string' ? uiLang : 'en').split('_')[0]; }
+            function tr(i) { return (T[baseLang()] || T.en)[i]; }
+            function nameOf(w) { return w.label[uiLang] || w.label[baseLang()] || w.label.en; }
+
+            var byId = {};
+            (window.WORD_LIST || []).forEach(function (w) { byId[w.id] = w; });
+            var lastFocus = null;
+
+            function render(filter) {
+                var q = (filter || '').trim().toLowerCase();
+                body.innerHTML = '';
+                var shown = 0;
+                WORD_CATEGORIES.forEach(function (cat) {
+                    var hits = cat.words.filter(function (id) {
+                        var w = byId[id];
+                        if (!w) return false;
+                        if (!q) return true;
+                        return (nameOf(w) + ' ' + w.label.en + ' ' + id).toLowerCase().indexOf(q) !== -1;
+                    });
+                    if (!hits.length) return;
+                    var wrap = document.createElement('div');
+                    wrap.className = 'wm-cat';
+                    var h3 = document.createElement('h3');
+                    var L = cat.label || {};
+                    // The 🧪 marks the experimental SET, so it belongs on the
+                    // heading. It used to ride on every tile in the group,
+                    // which repeated one fact sixteen times (owner).
+                    h3.textContent = (cat.key === 'experimental' ? '🧪 ' : '')
+                        + (L[baseLang()] || L.en || cat.key);
+                    wrap.appendChild(h3);
+                    if (cat.key === 'experimental') {
+                        var note = document.createElement('p');
+                        note.className = 'wm-cat-note';
+                        note.textContent = (EXP_NOTE[baseLang()] || EXP_NOTE.en);
+                        wrap.appendChild(note);
+                    }
+                    var grid = document.createElement('div');
+                    grid.className = 'wm-grid';
+                    hits.forEach(function (id) {
+                        var w = byId[id];
+                        shown++;
+                        var t = document.createElement('button');
+                        t.type = 'button';
+                        t.className = 'wm-tile' + (id === select.value ? ' active' : '');
+                        t.dataset.word = id;
+                        // No per-word emoji: only 36 of 86 concepts have one, so
+                        // the column read as arbitrary — in `body` just ear,
+                        // nose, foot and bone carried one (owner).
+                        var n = document.createElement('span');
+                        n.className = 'wm-name'; n.textContent = nameOf(w); t.appendChild(n);
+                        if (baseLang() !== 'en') {
+                            var en = document.createElement('span');
+                            en.className = 'wm-en'; en.textContent = w.label.en; t.appendChild(en);
+                        }
+                        t.addEventListener('click', function () {
+                            if (select.value !== id) {
+                                select.value = id;
+                                select.dispatchEvent(new Event('change', { bubbles: true }));
+                            }
+                            close();
+                        });
+                        grid.appendChild(t);
+                    });
+                    wrap.appendChild(grid);
+                    body.appendChild(wrap);
+                });
+                if (!shown) {
+                    var e = document.createElement('div');
+                    e.className = 'wm-empty'; e.textContent = '—';
+                    body.appendChild(e);
+                }
+            }
+
+            function open() {
+                lastFocus = document.activeElement;
+                document.getElementById('word-modal-title').textContent = tr(0);
+                search.placeholder = tr(1);
+                search.value = '';
+                render('');
+                backdrop.classList.add('visible');
+                modal.classList.add('visible');
+                backdrop.setAttribute('aria-hidden', 'false');
+                search.focus();
+            }
+            function close() {
+                backdrop.classList.remove('visible');
+                modal.classList.remove('visible');
+                backdrop.setAttribute('aria-hidden', 'true');
+                if (lastFocus && lastFocus.focus) lastFocus.focus();
+            }
+
+            btn.addEventListener('click', open);
+            closeBtn.addEventListener('click', close);
+            backdrop.addEventListener('click', close);
+            search.addEventListener('input', function () { render(search.value); });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && modal.classList.contains('visible')) close();
+            });
+            function syncBtn() {
+                var w = byId[select.value];
+                var el = btn.querySelector('.wcb-name');
+                if (el) el.textContent = w ? nameOf(w) : (select.value || '');
+            }
+            syncBtn();
+            window.__wmSyncWordButton = syncBtn;
+            select.addEventListener('change', function () {
+                syncBtn();
+                if (modal.classList.contains('visible')) render(search.value);
+            });
+        })();
+
 
         // A partial word (WORDS.<id>.partial) is not filled for every language.
         // The note under the definition explains why. It is keyed by word id so

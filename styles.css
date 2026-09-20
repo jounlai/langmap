@@ -1699,6 +1699,12 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 /* Unified Share — an icon only, no button chrome (share-button.js). */
 .share-icon-btn {
     display: inline-flex; align-items: center; justify-content: center;
+    /* flex-shrink:0 — .site-header-bar is a flex row, and a flex item shrinks
+       below its declared width by default. On tablet widths the bar is full
+       (nav + game buttons + share + lang picker + URL) and the 30px square was
+       being squeezed to a sliver, which is what the reader saw on an iPad
+       (owner 2026-09-20). The square is the hit target, so it must not give. */
+    flex: 0 0 auto;
     width: 30px; height: 30px; padding: 0;
     background: transparent; border: 1px solid #d0d3dc; border-radius: 6px;
     color: #444; cursor: pointer;
@@ -1726,6 +1732,7 @@ body.chrome-hidden.is-3d .site-header-bar .logo {
 }
 .lang-picker-btn {
     display: inline-flex; align-items: center; gap: 5px;
+    flex: 0 0 auto;                  /* same reason as .share-icon-btn above */
     height: 30px; padding: 0 10px;   /* same height as the Share icon button */
     background: transparent;
     border: 1px solid #d0d3dc; border-radius: 6px;

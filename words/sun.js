@@ -1161,7 +1161,7 @@ WORDS.sun = {
       ],
     },
     omx: ["တ္ၚဲ", "tŋai"],
-    pyx: ["ño", "ɲo"],
+    pyx: ["—", "—"],
     obr: ["နိ", "niy"],
     ocm: ["adaw", "ʔadaw"],
     och: ["日", "*C.nik"],

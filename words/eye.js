@@ -1150,7 +1150,7 @@ WORDS.eye = {
       ],
     },
     omx: ["မတ်", "mat"],
-    pyx: ["mik", "mik"],
+    pyx: ["—", "—"],
     obr: ["မ္ယက်", "mlak"],
     ocm: ["mata", "mata"],
     och: ["目", "*C.m(r)[u]k"],

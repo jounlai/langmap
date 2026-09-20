@@ -1151,7 +1151,7 @@ WORDS.house = {
     zkt: ["boo", "boː"],
     juc: ["boo", "boː"],
     omx: ["သ္ၚိ", "sŋiʔ"],
-    pyx: ["vaiŋ", "waiŋ"],
+    pyx: ["—", "—"],
     obr: ["အိမ်", "ʔim"],
     ocm: ["sɔŋ", "sɔŋ"],
     och: ["室", "*s.ti[t]"],

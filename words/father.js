@@ -1153,7 +1153,7 @@ WORDS.father = {
       ],
     },
     omx: ["ဖ", "pʰɛʔ"],
-    pyx: ["paʔ", "paʔ"],
+    pyx: ["—", "—"],
     obr: ["အဖ", "ʔap"],
     ocm: ["amaŋ", "amaŋ"],
     och: ["父", "*[N-p](r)aʔ"],

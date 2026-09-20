@@ -1156,7 +1156,7 @@ WORDS.dog = {
       ],
     },
     omx: ["ခၠဵု", "kʰlou"],
-    pyx: ["kwiy", "kwij"],
+    pyx: ["—", "—"],
     obr: ["ခုယ်း", "kʰuj"],
     ocm: ["asɔ", "asɔ"],
     och: ["犬", "*[k]ʷʰˤ[e][n]ʔ"],

@@ -1150,7 +1150,7 @@ WORDS.hand = {
       ],
     },
     omx: ["တၟုိ", "toi"],
-    pyx: ["lak", "lak"],
+    pyx: ["—", "—"],
     obr: ["လက်", "lak"],
     ocm: ["taŋin", "taŋin"],
     och: ["手", "*n̥uʔ"],

@@ -1151,7 +1151,7 @@ WORDS.tree = {
     zkt: ["mau", "mau"],
     juc: ["mo", "mo"],
     omx: ["ဆု", "tɕu"],
-    pyx: ["siŋ", "siŋ"],
+    pyx: ["—", "—"],
     obr: ["သစ်", "sit"],
     ocm: ["phuəŋ", "pʰuəŋ"],
     och: ["木", "*C.mˤok"],

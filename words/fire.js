@@ -1156,7 +1156,7 @@ WORDS.fire = {
       ],
     },
     omx: ["ပ်ၟ", "pmaʔ"],
-    pyx: ["vyaŋ", "wjaŋ"],
+    pyx: ["—", "—"],
     obr: ["မိး", "miːʔ"],
     ocm: ["apuy", "ʔapuj"],
     och: ["火", "*[qʷʰ]ˤəjʔ"],

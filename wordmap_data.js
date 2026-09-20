@@ -4698,26 +4698,48 @@ const LANG_DATA = {
   omx: { name: 'Old Mon', native: 'ဘာသာ မန်', lat: 16.92, lng: 97.36, // Thaton
 },
   // Pyu — ancient Burma (4-12c.), Sino-Tibetan. Pyu script (Brahmic-derived,
-  // incompletely deciphered). Most words tentative; many entries marked '—'.
-  // pyx Pyu wordEvidence: 13 cells filled. Per Codex 4: Myazedi (1113) inscription
-  // is the key Pyu-decipherment source. Concrete nouns mostly direct via Myazedi/
-  // Luce/Blagden. Some verbal/abstract cells inferred via Tibeto-Burman comparison.
+  // incompletely deciphered); this row writes the standard Latin transliteration.
+  //
+  // Eleven cells were emptied on 2026-09-20 (review 546) and the reason is worth
+  // keeping. Thirteen of them cited "Miyake 2024" — a work that does not exist.
+  // No Pyu vocabulary of that year is published; the string was invented and then
+  // copied down the block. Checked against the Griffiths–Miyake–Wheatley plaintext
+  // edition of the whole corpus (Zenodo 5111390, 7303 tokens), the forms it was
+  // attached to do not occur at all: lak, vyaṅ, ño, ətso, vaiṅ, kwiy, siṅ and pa
+  // are zero-occurrence, and mik appears only inside mik·ṁ, which Miyake 2018
+  // glosses '?'. Most are LangMap's own p_sit proto-forms with the asterisk and
+  // prefix stripped — *lak, *siṅ, *s-mik, *naṅ, *s-kar match byte for byte — so
+  // the row was reconstructions relabelled as attestations.
+  //
+  // `two` was the clearest case: it read nit (zero occurrences, and hnit·ṁ is
+  // 'seven'), where Pyu 'two' is kni, 13 occurrences including inscription 016
+  // glossing Sanskrit dvaya and the urn formula rla kni 'month two'.
+  //
+  // What survives is attested in the Myazedi (1113) and the Sri Ksetra urns, and
+  // the sources are named per cell below. eat, you and star stay as `inferred`:
+  // they are Tibeto-Burman comparanda and they say so, which is a different thing
+  // from a false citation. The Pyu lexicon is small — roughly 60 glossed words —
+  // so a dash on this row is usually the correct answer.
   pyx: { name: 'Pyu', native: 'Pyu', lat: 18.81, lng: 95.21, // Sri Ksetra (Pyay)
 
+    coverageNote: 'The Pyu lexicon is about sixty securely glossed words, from the '
+      + 'Myazedi quadrilingual (1113) and the Sri Ksetra urn inscriptions. Most of '
+      + 'this row is dashed because the word is simply not in the corpus, not '
+      + 'because it was not looked for.',
     wordEvidence: {
-      water:  { evidence: 'direct', source: 'Miyake 2024 / Luce / Myazedi inscription' },
-      fire:   { evidence: 'direct', source: 'Miyake 2024 / Myazedi' },
-      sun:    { evidence: 'direct', source: 'Miyake 2024 / Myazedi' },
-      moon:   { evidence: 'direct', source: 'Miyake 2024' },
-      mother: { evidence: 'direct', source: 'Miyake 2024 (basic kinship)' },
-      father: { evidence: 'direct', source: 'Miyake 2024' },
-      eat:    { evidence: 'inferred', source: 'Tibeto-Burman comparative' },
-      tree:   { evidence: 'direct', source: 'Miyake 2024' },
-      house:  { evidence: 'direct', source: 'Miyake 2024 / Myazedi' },
-      dog:    { evidence: 'direct', source: 'Miyake 2024' },
-      hand:   { evidence: 'direct', source: 'Miyake 2024' },
-      eye:    { evidence: 'direct', source: 'Miyake 2024' },
-      one:    { evidence: 'direct', source: 'Miyake 2024 numerals (Myazedi)' },
+      water:  { evidence: 'direct', source: 'Myazedi 007/008 tduṃ; Shafer 1943 tdụ̄ "water"; Luce 1985 II "tdu-"' },
+      moon:   { evidence: 'direct', source: 'Sri Ksetra urns 003-006, rla in the calendrical formula (9x)', note: 'The published gloss is "month"; the moon sense is the ordinary month/moon colexification, not separately attested.' },
+      bone:   { evidence: 'direct', source: 'Sri Ksetra urns 003-006 "°o ru kleḥ yaṁ"; Luce 1985 II "bone, relic: ru"' },
+      good:   { evidence: 'direct', source: 'Griffiths et al., BEFEO 103 (2017) §3.2.2 s.v. hak· "good, well"; Blagden 1919' },
+      name:   { evidence: 'direct', source: 'Myazedi 008 rmiṅ·; inscription 016, glossing Sanskrit -āhvayam-' },
+      one:    { evidence: 'direct', source: 'Myazedi 007.20-21, 008.21 taṁ; inscription 016 tak·ṁ glossing Sanskrit eka' },
+      two:    { evidence: 'direct', source: 'Inscription 016 kni, glossing Sanskrit dvaya; urn formula "rla kni" (month two)' },
+      three:  { evidence: 'direct', source: 'Myazedi "traḥ kra nhoḥ"; Miyake 2018 on hoḥ / nhoḥ' },
+      five:   { evidence: 'direct', source: 'Miyake 2021 /pəŋa/; Miyake 2018 "Pyu piṁṅa /pï ŋa/ five"' },
+      i:      { evidence: 'direct', source: 'Luce 1985 II "I: ga°:" = gaṁḥ; Griffiths et al., BEFEO 103 (2017) §3.2.2' },
+      eat:    { evidence: 'inferred', source: 'Tibeto-Burman comparative (*dzya); not attested in the Pyu corpus' },
+      you:    { evidence: 'inferred', source: 'Tibeto-Burman comparative (*naŋ); naṅ· occurs once (inscription 178), unglossed' },
+      star:   { evidence: 'inferred', source: 'Tibeto-Burman comparative (*s-kar); kar· occurs twice (inscription 027), unglossed' },
     } },
   // Old Burmese — Pagan period (11-16c.). Pagan-era Burmese script, ancestor
   // of modern Burmese script.

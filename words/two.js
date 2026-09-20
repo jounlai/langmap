@@ -1144,7 +1144,7 @@ WORDS.two = {
       zkt: ["jur", "dʒuːr"],
       juc: ["juwe", "dʑuwə"],
       omx: ["ၜါ", "ɓa"],
-      pyx: ["nit", "nit"],
+      pyx: ["kni", "kni"],
       obr: ["နှစ်", "n̥ik"],
       ocm: ["dua", "dua"],
       och: ["二", "*ni[j]-s"],

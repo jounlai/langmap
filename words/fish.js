@@ -1085,7 +1085,7 @@ WORDS.fish = {
     zkt: ["—", "—"],
     juc: ["imaha", "imaxa"],
     omx: ["က", "kaʔ"],
-    pyx: ["ətso", "ətso"],
+    pyx: ["—", "—"],
     obr: ["ငါး", "ŋaːh"],
     ocm: ["ikan", "ikan"],
     och: ["魚", "*[r.ŋ]a"],

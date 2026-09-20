@@ -1159,7 +1159,7 @@ WORDS.mother = {
       ],
     },
     omx: ["မိ", "mi"],
-    pyx: ["na", "na"],
+    pyx: ["—", "—"],
     obr: ["အမိ", "ʔamiy"],
     ocm: ["amɛ", "amɛ"],
     och: ["母", "*məʔ"],

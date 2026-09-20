@@ -1149,7 +1149,7 @@ WORDS.eye = {
         { form: "牙撒", script: "Chinese-character transliteration", source: "女真譯語; 牙撒 = yasa" },
       ],
     },
-    omx: ["မတ်", "mat"],
+    omx: ["မတ်", "mɔt"],  // Shorto 1971 entry 285.9.1: Old Mon ⟨mat²⟩ reads /mɔt/. The cell had read the spelling letter by letter, which is also Proto-Austroasiatic *mat.
     pyx: ["—", "—"],
     obr: ["မ္ယက်", "mlak"],
     ocm: ["mata", "mata"],

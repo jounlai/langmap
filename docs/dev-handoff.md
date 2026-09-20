@@ -402,6 +402,92 @@ that elsewhere declares Manchu substitutions honestly as `proxy`), `zkt`
 (Khitan, only partially deciphered) and `emy` (Mayan forms in modern
 orthography, and two Mayan priors have already been wrong here).
 
+**4c. The four unruled rows from 4b are now settled (2026-09-20).** All 126
+gated matches are ruled; `UNRULED` is empty. What came out of it:
+
+- **`omx` (Old Mon) — 2 of 4 were real, and my counter-argument was half
+  wrong.** The implosive WAS right (Indic ⟨ḍ⟩ = /ɗ/, Jenny & McCormick), but
+  the rime was the tell. Shorto 1971 via SEAlang reads ⟨ḍāk, ḍek⟩ as /ɗaik/
+  (134.2.1) and ⟨mat²⟩ as /mɔt/ (285.9.1); both verified directly, both fixed.
+  The row already read ⟨ā⟩+C as -ai- in white bətaiŋ and tongue kətaik, so
+  water was the one cell that dropped its own rule — in favour of the proto
+  row's vowel. fish /kaˀ/ and stone /tmɔˀ/ are genuine and ruled `circular`.
+- **`emy` (Classic Maya) — all five flags were FALSE POSITIVES, and the
+  orthographic suspicion in my brief was simply wrong.** `utz` and `jun` are
+  the epigraphic spellings, not ALMG, and the h/j split (haʼ, hoʼ vs jun) is
+  the Classic convention. Boot 2009 and Kettunen & Helmke 2019 attest all
+  five. The row IS Classic, proved by its pronouns hiin and hat, which exist
+  only in the glyphic corpus and match none of the atlas's yua/quc/ctu/itz.
+- **`zkt` (Khitan) — both flags real, and the row is far worse than two
+  cells.** See the audit below.
+- **`juc` (Jurchen) — closed by commit `46573360`.** iron and three attested
+  in Grube (#574, #638); i and you are Manchu proxies and now say so.
+
+**THREE ROW AUDITS ARE QUEUED AND NOT APPLIED.** Each is a row-level rewrite
+with per-cell sourcing, and each is well specified. JSON in
+`~/langmap-work/rally/r14/`.
+
+- **`zkt` Khitan — the biggest. `omx_audit`-scale, but worse.** Twelve cells
+  are attributed in `wordEvidence` to "Kane 2009 Latin reading" and are not in
+  Kane. `water muri` is the alarm: Kane's `mo.ri` (glossary #99) is **HORSE**,
+  and Kane has no 'water' entry — a wrong gloss, not merely unsourced. `love
+  nasun` is Mongolic 'age, lifespan'. mother `eme`, house `boo`, drink `umi`,
+  heart `niyàmen` are Manchu/Jurchen, and the atlas's own `juc` row carries
+  each of them labelled a Manchu proxy. eat `idi`, hand `ɣar`, eye `nït`, tree
+  `mau`, fire `niár` are Mongolic projections (and `niár` looks like a
+  corruption of `nair` 'day', which this same row already uses for sun). Only
+  5 of 20 cells are actually Kane's: father `ai`, five `tau`, sun `nair`, moon
+  `sair`, dog `ńi.qo`. Also: `one`'s romanization `omsu` is unsourced (Kane's
+  Index #026 gives the gloss ONE with no phonetic value), `dog`'s IPA `niaqan`
+  is not Kane's reading, and `father`'s note says Kane reads "mai" while the
+  cell reads `ai` — the cell is right and the note is wrong. **This is the pyx
+  defect at row scale: a real standard reference cited for forms it does not
+  contain.** Kane's glossary is Liao titles, kin terms, calendar, animals and
+  numerals; it has no Swadesh vocabulary, and a dash is the correct answer for
+  most of this row.
+- **`omx` Old Mon — a LAYERING problem, not a leak problem.** About fifteen
+  surfaces are byte-identical to the `mnw` (Modern Mon) row — modern
+  orthography on a 6–11c row — while water's ⟨ဍာက်⟩ is the one cell rendered
+  in Shorto's inscriptional spelling. Surface and IPA in the same cell can
+  come from different centuries. ~20 further defects found against Shorto,
+  worst first: **moon `klɔŋ`** (Shorto 38.6 is ⟨kintu'⟩ /kəntuˀ/; klɔŋ is not
+  a Mon word for moon in any period), **love `cʰan`** (Shorto 124.3 is
+  ⟨j(i)rhān⟩; /chan/ at 116.2 means **'name'**), **two `ɓa`** (the MIDDLE Mon
+  form, 405.11; Old Mon is ⟨ḅār⟩ /ɓar/), **night `birtam`** (Shorto's
+  romanised orthography with ṁ flattened, not a reading — /bərtɔm/). Plus
+  four, three, I, good, heart, drink, eat, father, mother, you, sun, bird,
+  dog, tree, bone, hand, we. tongue, tooth, star, cat and one have no
+  retrievable Shorto gloss and carry the mnw surface — flag, do not empty, the
+  SEAlang extract may be partial. The row comment "Reconstructions follow
+  Shorto (1971) and Diffloth" is wrong twice: Shorto 1971 is a dictionary of
+  attested inscriptions with no reconstructions, and Diffloth reconstructs
+  ancestors OF Old Mon — citing him as the row's authority is exactly what
+  licensed *ɗaak landing in a cell labelled attested.
+- **`emy` Classic Maya — ~8 cells are modern Yucatec filler** on an otherwise
+  sound Classic row. `hello` **bix a beel** (the modern Yucatec greeting,
+  flatly anachronistic), `thanks` **nibʼoolal** (modern, and spelled with the
+  ALMG implosive bʼ), `cat` **miis** (Yucatec; K&H's Classic `mis` is the verb
+  'to sweep', and there were no domestic cats), `dog` **peekʼ** (Classic has
+  tzʼiʼ, tzul, ok — none of them this), `heart` **pixan** (Yucatec 'soul';
+  Classic is o[h]l), `eye` **ich** (in K&H's Classic dictionary `ich` is
+  'chile'; Classic eye/face is ut/hut/wut), `tongue` **akʼ** and `love`
+  **yaah** (unattested in either source). The `bʼ` spelling is itself the
+  diagnostic: the only two cells using ALMG bʼ (akʼabʼ, nibʼoolal) are the
+  Yucatec-sourced ones, while the rest of the row writes plain b (kʼab, baak).
+  The native-name string 'Maaya Tzij' is Kʼicheʼan (*tzij* 'word') and wrong
+  for a Chʼoltiʼan row.
+
+**Method notes from that pass, both cheap and reusable.** SEAlang's MKCD
+carries Shorto 1971, Shorto 2006, Diffloth 1984 and Theraphan 1984 as
+separately tagged, entry-numbered records — effectively a searchable Shorto.
+HTTPS fails on an expired cert; use `curl -k` over plain HTTP against
+`sealang.net/monkhmer/dictionary/search.pl` with
+`dict=mkcd&caller=dictionary&def=<gloss>&language=Old Mon&searchCitations=1&searchReconstructions=1&matchLength=part`.
+That makes every ancient Austroasiatic row auditable. For Tibeto-Burman,
+STEDT moved: `https://stedtdb.johnblowe.com/gnis?t=<gloss>&lg=<lang>` for
+gloss search and `?f=<form>&lg=<lang>` for FORM search — the form search is
+what proved "mie is never eye" in Tujia.
+
 **5. Gaps, which are not false claims and go last.** `foot`'s remaining 56
 (each with a named next step, in the thread JSONs under
 `~/langmap-work/rally/r9..r11/`); `zh_tang`'s three transcription systems in

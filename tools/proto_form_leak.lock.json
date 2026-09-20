@@ -86,32 +86,32 @@
   "emy|five": {
     "form": "hoʔ",
     "proto": "pmay",
-    "ruling": "UNRULED",
-    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+    "ruling": "inherited",
+    "note": "Boot 2009 '» 5 > hoʼ \"five\"' and the syllabic '» ho-ho-ho > hoʼ'; Kettunen & Helmke numeral table '5 hoʼ'. Hieroglyphically attested. Row confirmed Classic Maya, not a mislabelled modern wordlist: its pronouns hiin and hat exist only in the glyphic corpus and match none of the atlas's yua/quc/ctu/itz rows."
   },
   "emy|good": {
     "form": "utz",
     "proto": "pmay",
-    "ruling": "UNRULED",
-    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+    "ruling": "inherited",
+    "note": "Boot 2009 '» ʼu-tzi > utz \"good\"'; K&H 'utz | yu-tzi | y-utz | adj'. utz is the EPIGRAPHIC spelling, not modern ALMG — the orthographic suspicion that raised this flag was wrong. Row confirmed Classic Maya, not a mislabelled modern wordlist: its pronouns hiin and hat exist only in the glyphic corpus and match none of the atlas's yua/quc/ctu/itz rows."
   },
   "emy|mother": {
     "form": "naʔ",
     "proto": "pmay",
-    "ruling": "UNRULED",
-    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+    "ruling": "inherited",
+    "note": "Kettunen & Helmke 'naʼ | na | na[ʼ] | n | \"lady, mother\"'. Attested. Row confirmed Classic Maya, not a mislabelled modern wordlist: its pronouns hiin and hat exist only in the glyphic corpus and match none of the atlas's yua/quc/ctu/itz rows."
   },
   "emy|one": {
     "form": "jun",
     "proto": "pmay",
-    "ruling": "UNRULED",
-    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+    "ruling": "inherited",
+    "note": "Boot 2009 '» 1 > jun \"one\"' with his n.91 on the later jun>hun merger; K&H numeral table '1 jun'. Attested. Row confirmed Classic Maya, not a mislabelled modern wordlist: its pronouns hiin and hat exist only in the glyphic corpus and match none of the atlas's yua/quc/ctu/itz rows."
   },
   "emy|water": {
     "form": "haʔ",
     "proto": "pmay",
-    "ruling": "UNRULED",
-    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+    "ruling": "inherited",
+    "note": "Boot 2009 'ta HAʼ > ta haʼ \"in water\"', 'SAK-HAʼ'; K&H 'haʼ | ha-a | n'. The h/j split this row shows (haʼ, hoʼ vs jun) IS the Classic convention; Boot and K&H both print haʼ, not jaʼ. Row confirmed Classic Maya, not a mislabelled modern wordlist: its pronouns hiin and hat exist only in the glyphic corpus and match none of the atlas's yua/quc/ctu/itz rows."
   },
   "gez|you": {
     "form": "ʔanta",
@@ -137,12 +137,6 @@
     "ruling": "inherited",
     "note": "ama, ina, isa are ordinary Tagalog, unchanged from Proto-Austronesian *ama, *ina, *esa; nothing here needs a proto row to explain it."
   },
-  "juc|blood": {
-    "form": "sekse",
-    "proto": "p_tun",
-    "ruling": "UNRULED",
-    "note": "UNRULED. No wordEvidence entry. sekse, sele, ilan, bi and si are all plausible 女真訳語 forms, but this row ALREADY declares twelve cells as evidence: proxy, source \"Manchu X\" — so its own convention is to substitute Manchu where Jurchen is unattested, and these five make that claim silently instead. Needs a 女真訳語 check: attested Jurchen, or Manchu that should say so."
-  },
   "juc|father": {
     "form": "ama",
     "proto": "p_tun",
@@ -152,26 +146,26 @@
   "juc|i": {
     "form": "bi",
     "proto": "p_tun",
-    "ruling": "UNRULED",
-    "note": "UNRULED. See juc|blood — same five undeclared cells."
+    "ruling": "inherited",
+    "note": "Manchu proxy, now declared as such in wordEvidence. Grube's pronoun sketch gives the corpus's COMPLETE inventory — mini (1sg gen./poss.), two demonstratives, one indefinite — and there is no bi. Verified: no entry in Grube is glossed 'ich'. The agreement with p_tun *bi is because Proto-Tungusic is built on Manchu, not because the cell was copied from the proto row. Unchecked against Kane 1989 (JurchenB), which is not reachable online."
   },
   "juc|iron": {
     "form": "sele",
     "proto": "p_tun",
-    "ruling": "UNRULED",
-    "note": "UNRULED. See juc|blood."
+    "ruling": "inherited",
+    "note": "Grube 1896 glossary #574: 'seh-leh, Eisen. 574. m. sele.' Attested in the 女真譯語, and this row writes Grube's Manchu column by convention. Verified in Grube's own text 2026-09-20."
   },
   "juc|three": {
     "form": "ilan",
     "proto": "p_tun",
-    "ruling": "UNRULED",
-    "note": "UNRULED. See juc|blood."
+    "ruling": "inherited",
+    "note": "Grube 1896 #638: 'i-lan, drei. 638. m. ilan.' Attested. Same convention as juc|iron."
   },
   "juc|you": {
     "form": "si",
     "proto": "p_tun",
-    "ruling": "UNRULED",
-    "note": "UNRULED. See juc|blood."
+    "ruling": "inherited",
+    "note": "Manchu proxy, declared. See juc|i: no 2sg pronoun in Grube's corpus, and no entry glossed 'du'."
   },
   "kaw|bird": {
     "form": "manuk",
@@ -383,29 +377,17 @@
     "ruling": "inherited",
     "note": "Old Khmer aññ, securely attested in the inscriptions; ʔaɲ is the only sensible IPA for it, so the agreement with PAA *ʔaɲ carries no information."
   },
-  "omx|eye": {
-    "form": "mat",
-    "proto": "p_aav,p_viet",
-    "ruling": "UNRULED",
-    "note": "UNRULED, and the likeliest remaining leak. Old Mon has NO wordEvidence at all and the row comment says \"Reconstructions follow Shorto (1971) and Diffloth\" — the word \"reconstructions\" on a language attested in dated inscriptions. Shorto's Dictionary of the Mon Inscriptions should give the inscriptional form directly."
-  },
   "omx|fish": {
     "form": "kaʔ",
     "proto": "p_aav",
-    "ruling": "UNRULED",
-    "note": "UNRULED. See omx|eye."
+    "ruling": "circular",
+    "note": "Shorto 1971 entry 27.6: Old Mon ⟨ka¹, ka'¹⟩ reads /kaˀ/, confirmed via SEAlang's MKCD record of Shorto. Shorto's own PMK *kaʔ is built on this form, so the agreement is circular. Verified 2026-09-20 in the same pass that CAUGHT omx eye and water, which were real and are now fixed."
   },
   "omx|stone": {
     "form": "tmɔʔ",
     "proto": "p_aav",
-    "ruling": "UNRULED",
-    "note": "UNRULED. See omx|eye."
-  },
-  "omx|water": {
-    "form": "ɗaːk",
-    "proto": "p_aav,p_viet",
-    "ruling": "UNRULED",
-    "note": "UNRULED, and the clearest tell in the group: the IPA writes the implosive ɗaːk, which is Proto-Austroasiatic house notation. Old Mon orthography is ḍāk / dāk. An implosive in an attested language's IPA, matching the proto row byte for byte, is what a copied reconstruction looks like."
+    "ruling": "circular",
+    "note": "Shorto 1971 entry 170.10: Old Mon ⟨tmo'⟩ reads /tmɔˀ/. Circular for the same reason as omx|fish. Note p_aav drops Shorto's register subscript in *t₂mɔʔ, which is the only reason the strings match byte for byte."
   },
   "omy|five": {
     "form": "lima",
@@ -764,13 +746,13 @@
   "zkt|good": {
     "form": "sajin",
     "proto": "pmng",
-    "ruling": "UNRULED",
-    "note": "UNRULED, and genuinely doubtful. Khitan is only PARTIALLY deciphered — the large script especially — so a Khitan cell agreeing byte for byte with Proto-Mongolic is not obviously inheritance. sajin/sain and bi are Mongolic shapes, which is exactly what someone reaching for the proto row would produce. Needs a reading from the Khitan epigraphic literature (Kane, Wu & Janhunen) per cell."
+    "ruling": "leak",
+    "note": "LEAK. Kane 2009's glossary entry 86 is 'good, goodness || ś.ia, ś.iá.ah'. Wikipedia's Khitan table gives s.ia/s.en and says it CORRESPONDS TO Mongolian sayin — the comparandum printed beside the Khitan word was taken for the word. Byte-identical to pmng *sajin. Not yet fixed; see the zkt row audit in dev-handoff."
   },
   "zkt|i": {
     "form": "bi",
     "proto": "pmng",
-    "ruling": "UNRULED",
-    "note": "UNRULED, and genuinely doubtful. Khitan is only PARTIALLY deciphered — the large script especially — so a Khitan cell agreeing byte for byte with Proto-Mongolic is not obviously inheritance. sajin/sain and bi are Mongolic shapes, which is exactly what someone reaching for the proto row would produce. Needs a reading from the Khitan epigraphic literature (Kane, Wu & Janhunen) per cell."
+    "ruling": "leak",
+    "note": "LEAK, and the cell should be EMPTY. Khitan personal pronouns are essentially unread: Kane's glossary has none, and Wu & Róna-Tas 2019 (AOH 72/1: 58) say glyph <bi> (225) 'is used only in transcription of Chinese' per Kane K62. The only pronoun the field has is <bod> 'body, oneself', tentatively 3sg, identified in 2017. Not yet emptied; see the zkt row audit in dev-handoff."
   }
 }

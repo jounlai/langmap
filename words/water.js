@@ -1156,7 +1156,7 @@ WORDS.water = {
         { form: "木克", script: "Chinese-character transliteration", source: "女真譯語 / Jin 1984; 木克 = muke" },
       ],
     },
-    omx: ["ဍာက်", "ɗaːk"],
+    omx: ["ဍာက်", "ɗaik"],  // Shorto 1971 entry 134.2.1: Old Mon ⟨ḍāk, ḍek⟩ reads /ɗaik/, the ⟨ḍek⟩ spelling being the tell. The implosive was right; the rime was Proto-Austroasiatic *ɗaːk. This row already reads ⟨ā⟩+C as -ai- in white bətaiŋ and tongue kətaik — water was the one cell that dropped its own rule.
     pyx: ["tduṃ", "t.du(j)"],
     obr: ["ရိ", "riy"],
     ocm: ["ie", "ʔiə"],

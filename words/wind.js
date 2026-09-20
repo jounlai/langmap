@@ -326,7 +326,7 @@ WORDS.wind = {
     mi: ["hau", "hau"],
     sm: ["matagi", "mataŋi"],
     to: ["matangi", "mataŋi"],
-    fj: ["cagi", "ˈðaŋi"],
+    fj: ["cagi", "ðaŋi"],
     ty: ["mataʻi", "mataʔi"],
     niu: ["matagi", "mataŋi"],
     tvl: ["matagi", "mataŋi"],

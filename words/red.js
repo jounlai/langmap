@@ -346,7 +346,7 @@ WORDS.red = {
     su: ["beureum", "bərəum"],
     ceb: ["pula", "puˈla"],
     ilo: ["nalabaga", "nalaˈbaɡa"],
-    fj: ["damudamu", "ndamuˈndamu"],  // Was ðamuˈðamu, reading ⟨d⟩ as if it were ⟨c⟩. Fijian ⟨d⟩ is prenasalised /nd/ and ⟨c⟩ is /ð/; the rest of this row has both right (dra /ndra/, daliga /ndaliŋa/ against sucu /suðu/, cagi /ˈðaŋi/), so this was an isolated slip, not a systemic one.
+    fj: ["damudamu", "ndamundamu"],  // Was ðamuˈðamu, reading ⟨d⟩ as if it were ⟨c⟩. Fijian ⟨d⟩ is prenasalised /nd/ and ⟨c⟩ is /ð/; the rest of this row has both right (dra /ndra/, daliga /ndaliŋa/ against sucu /suðu/, cagi /ˈðaŋi/), so this was an isolated slip, not a systemic one.
     rtm: ["miʻa", "miʔa"],
     sm: ["mūmū", "muːmuː"],
     to: ["kulokula", "kulokula"],

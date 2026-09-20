@@ -262,7 +262,7 @@ WORDS.person = {
     ess: ["юк", "juk"],
     esu: ["yuk", "juk"],
     ff: ["neɗɗo", "neɗːo"],
-    fj: ["tamata", "taˈmata"],
+    fj: ["tamata", "tamata"],
     fo: ["menniskja", "ˈmɛnːɪʃa"],
     fon: ["mɛ̀", "mɛ̀"],
     fro: ["persone", "perˈsonə"],

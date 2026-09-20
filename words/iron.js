@@ -499,7 +499,7 @@ WORDS.iron = {
     cjm: ["ꨝꨪꨧꨬ", "bisei"],
     pmy: ["besi", "ˈbesi"],
     bew: ["besi", "bəˈsi"],
-    fj: ["kaukamea", "kaukaˈmea"],
+    fj: ["kaukamea", "kaukamea"],
     tkl: ["ukamea", "ukamea"],
     fud: ["ukamea", "ukamea"],
     ty: ["ʻāuri", "ʔaːuɾi"],

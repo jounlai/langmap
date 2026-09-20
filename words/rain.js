@@ -403,7 +403,7 @@ WORDS.rain = {
     haw: ["ua", "ua"],
     sm: ["ua", "ua"],
     to: ["ʻuha", "ʔuha"],
-    fj: ["uca", "ˈuða"],
+    fj: ["uca", "uða"],
     ty: ["ua", "ua"],
     rar: ["ua", "ua"],
     niu: ["ua", "ua"],

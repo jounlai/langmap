@@ -261,7 +261,7 @@ WORDS.mouth = {
     fa_clas: ["دهان", "dahɑːn"],
     ff: ["hunuko", "hunuko"],
     fit: ["suu", "suː"],
-    fj: ["gusu", "ˈŋusu"],
+    fj: ["gusu", "ŋusu"],
     fkv: ["suu", "suː"],
     fo: ["munnur", "ˈmʊnːʊɹ"],
     fon: ["nu", "nu"],

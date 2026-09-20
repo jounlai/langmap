@@ -248,7 +248,7 @@ WORDS.stone = {
     su: ["batu", "ˈbatu"],
     ceb: ["bato", "baˈto"],
     ilo: ["bato", "baˈto"],
-    fj: ["vatu", "ˈvatu"],
+    fj: ["vatu", "vatu"],
     sm: ["maʻa", "maʔa"],
     to: ["maka", "maka"],
     pau: ["bad", "baːd"],

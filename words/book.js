@@ -303,7 +303,7 @@ WORDS.book = {
     her: ["embo", "ˈembo"],
     gn: ["aranduka", "aɾanduˈka"],
     gil: ["boki", "ˈboki"],
-    fj: ["ivola", "iˈvola"],
+    fj: ["ivola", "ivola"],
     fud: ["tosi", "tosi"],
     ho: ["buka", "ˈbuka"],
     kos: ["puk", "puk"],    // "Puk ac Mwe rit" heads the Kosraean publications section on jw.org, and the 1902 Kosraean NT spells it buk ("BUK LUN RUT"); modern Lee orthography does not write voiced stops. Not to be confused with puhk 'sand'. Same English loan as Chuukese and Mokilese puk.

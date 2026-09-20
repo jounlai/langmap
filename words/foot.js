@@ -1508,7 +1508,7 @@ WORDS.foot = {
     fi: ["jalka", "jɑlkɑ"],  // Finnish jalka is the whole lower limb; jalkaterä ('leg-blade') is the foot-specific compound. Its hand cell käsi behaves the same way against käsivarsi 'arm'.
     fia: ["óóy", "óːj"],  // Werner's Nobiin grammar 372 carries foot and leg on the one entry — the polysemy the Old Nubian cell names but cannot attest for Old Nubian itself.
     fit: ["jalka", "ˈjɑlkɑ"],  // Meänkielen sanakirja glosses jalka as ben and fot alike; Meänkieli keeps the Finnish pattern.
-    fj: ["yava", "ˈjava"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes liga as liŋa.
+    fj: ["yava", "java"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes liga as liŋa.
     fkv: ["jalka", "ˈjɑlkɑ"],  // The Kven dictionary gives jalka both Norwegian words, bein and fot; jalkaterä ('leg-blade') is the foot-specific compound, as in Finnish.
     fo: ["fótur", "ˈfɔuːtʊɹ"],  // Like Icelandic: one word for the whole lower limb.
     fon: ["afɔ", "afɔ"],  // afɔ covers the limb and the older foot word áfọ̄-gúdo is a compound on it, the pair this map's Ewe cell already names.

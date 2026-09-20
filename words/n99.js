@@ -629,7 +629,7 @@ WORDS.n99 = {
     az:     ["doxsan doqquz", "doxˈsɑn doɡˈɡuz"],
     cv:     ["тӑхӑрвуннӑ тӑхӑр", "təxərʋunːə ˈtəxər"],
     to:     ["hivangofulu mā hiva", "hivaŋofulu maː hiva"],
-    fj:     ["ciwasagavulu ka ciwa", "ðiwasaŋaˈvulu ka ˈðiwa"],
+    fj:     ["ciwasagavulu ka ciwa", "ðiwasaŋavulu ka ðiwa"],
     sm:     ["ivasefulu ma le iva", "ivasefulu ma le iva"],
     quz:    ["isqun chunka isqunniyuq", "ˈisqun ˈtʃunka isqunniˈjuq"],
     ig:     ["iri itoolu na itoolu", "iɾi itoːlu na itoːlu"],

@@ -539,7 +539,7 @@ WORDS.salt = {
     h_tagalog: ["ᜀᜐᜒᜈ᜔", "aˈsin"],
     ch: ["asiga", "aˈsiɡa"],
     tet: ["masin", "ˈmasin"],
-    fj: ["masima", "ˈmasima"],
+    fj: ["masima", "masima"],
     to: ["māsima", "maːsima"],
     niu: ["masima", "masima"],
     tvl: ["masima", "masima"],

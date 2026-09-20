@@ -678,7 +678,7 @@ WORDS.wheel = {
     bbc: ["roda", "roda"],
     sda: ["lentenan", "lentenan"],
     iba: ["peruda", "pəˈruda"],
-    fj: ["yava", "ˈjava"],
+    fj: ["yava", "java"],
     to: ["veʻeteka", "veʔeteka"],
     tvl: ["teka", "teka"],
     rap: ["tutu", "tutu"],

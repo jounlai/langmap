@@ -220,7 +220,7 @@ WORDS.sea = {
     fa_clas: ["دریا", "daɾˈjɑː"],
     fax: ["mar", "maɾ"],
     fit: ["meri", "ˈmeri"],
-    fj: ["wasawasa", "wasaˈwasa"],  // Three words compete: waitui (wai 'water' + tui 'king', the salt water round the islands), the inherited wasa (< Proto-Central Pacific *wasa, which is Wiktionary's lemma), and this reduplication, which is the headword in Gatty's 2009 dictionary and what Wiktionary's own reference points at. Taken on the dictionary headword; the other two are live alternatives, not errors.
+    fj: ["wasawasa", "wasawasa"],  // Three words compete: waitui (wai 'water' + tui 'king', the salt water round the islands), the inherited wasa (< Proto-Central Pacific *wasa, which is Wiktionary's lemma), and this reduplication, which is the headword in Gatty's 2009 dictionary and what Wiktionary's own reference points at. Taken on the dictionary headword; the other two are live alternatives, not errors.
     fkv: ["meri", "ˈmeri"],
     fo: ["hav", "hɛaːv"],
     fro: ["mer", "mɛr"],

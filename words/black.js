@@ -225,7 +225,7 @@ WORDS.black = {
     mi: ["mangu", "maŋu"],
     sm: ["uliuli", "uliuli"],
     to: ["ʻuliʻuli", "ʔuliʔuli"],
-    fj: ["loaloa", "loaˈloa"],
+    fj: ["loaloa", "loaloa"],
 
     // --- Bantu --------------------------------------------------------
     ln: ["moindo", "moindo"],

@@ -404,10 +404,33 @@ orthography, and two Mayan priors have already been wrong here).
 
 **5. Gaps, which are not false claims and go last.** `foot`'s remaining 56
 (each with a named next step, in the thread JSONs under
-`~/langmap-work/rally/r9..r11/`); the 12 Polynesian rows still in the mixed
-stress state (fud 42/62, wls 30/55, pkp 29/57, fj 20/68 …) after the earlier
-strip did only mi/sm/to/haw; `zh_tang`'s three transcription systems in one
-row; 301 rows with no `meta.sources`.
+`~/langmap-work/rally/r9..r11/`); `zh_tang`'s three transcription systems in
+one row; 301 rows with no `meta.sources`.
+
+**Polynesian stress DONE 2026-09-20, commit `59566866`** (+ `fj` in the
+follow-up). 198 marks removed across twelve rows — fud 42, wls 30, pkp 29,
+fj 20, ty 16, rar 11, rap 11, niu 9, pmt 9, tvl 8, mrq 7, tkl 6 — finishing
+what `1ee1e3f5` started on mi/sm/to/haw. tkl, niu and tvl were also mistyped
+`pronunciationType: 'orthography'` and are now `'broad'`.
+
+Two things from that pass worth keeping. **The argument in `1ee1e3f5` does not
+actually hold for these rows**: it said the mark tracks the CONCEPT, and across
+the eleven it does not — of 54 polysyllabic concepts in six or more rows, 2 are
+marked everywhere and 41 are mixed, with per-row rates from 11% to 69%. The
+marks are simply incoherent. **The argument that does hold is the rule**:
+Polynesian (and Fijian) stress falls on the penultimate mora, so 180 of the 198
+were rule-derivable, 8 sat on multi-word phrases where the policy says not to
+mark, and the remaining 10 were errors rather than lexical exceptions — among
+them `ˈmasima` in niu, tvl AND fj, where the rule and every description give
+maˈsima, so one wrong form had propagated across three Pacific rows.
+
+If another family's stress marks come up, run that test first: strip is right
+when the marks are rule-derivable, and a mark that is NOT rule-derivable is
+more likely an error than a discovery.
+
+Still open on these rows: `fud`, `wls` and `pkp` have no `meta` object at all,
+so they have no `pronunciationType` to correct. That belongs to the
+sourceless-row debt above, not here.
 
 ### Convention settled: the atlas WRITES erhua (owner, 2026-09-20)
 

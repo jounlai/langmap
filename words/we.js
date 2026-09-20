@@ -1474,7 +1474,7 @@ WORDS.we = {
     su: ["urang", "uraŋ"],
     ceb: ["kita / kami", "kiˈta / kaˈmi"],
     ilo: ["datayo / dakami", "dataˈjo / dakaˈmi"],
-    fj: ["keda / keimami", "kenda / kejˈmami"],
+    fj: ["keda / keimami", "kenda / kejmami"],
     rtm: ["ʻis / ʻạmis", "ʔis / ʔɔmis"],
     sm: ["tātou / mātou", "taːtou / maːtou"],
     to: ["kitautolu / kimautolu", "kitautolu / kimautolu"],

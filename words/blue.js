@@ -522,7 +522,7 @@ WORDS.blue = {
     evn: ["диктэмэ", "dʒiktəˈmə"],  // Evenki диктэмэ vs чуларин.
     fa: ["آبی", "ʔɒːˈbi"],  // آبی (< آب 'water') vs سبز 'green'.
     fi: ["sininen", "ˈsininen"],  // sininen vs vihreä.
-    fj: ["karakarawa", "karakaˈrawa"],  // One term covers blue and green; POc *kara-karawa 'blue-green'. Fijian drokadroka 'green' (< droka 'unripe') is the later narrowing.
+    fj: ["karakarawa", "karakarawa"],  // One term covers blue and green; POc *kara-karawa 'blue-green'. Fijian drokadroka 'green' (< droka 'unripe') is the later narrowing.
     fo: ["bláur", "ˈblɔaːɹʊɹ"],  // Faroese bláur against grønur.
     fon: ["fefe", "fefe"],  // fefe fits this row's reduplicated colour adjectives (vɔvɔ, wéwé, wiwi). Delafosse's gloss runs 'bleu, azuré, violet' with no green sense, and 'vert' is a separate word (vlivè, also 'unripe'), so the term is treated as blue-specific — but he makes no explicit statement about the blue-green boundary, so the class is an inference from the two entries.
     fr: ["bleu", "blø"],  // bleu vs vert; bleu is itself a Frankish loan into Gallo-Romance, long nativised.

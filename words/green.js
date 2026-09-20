@@ -254,7 +254,7 @@ WORDS.green = {
     ext: ["verdi", "ˈbeɾði"],
     fa_clas: ["سبز", "sabz"],
     fia: ["bessi", "besːi"],
-    fj: ["drokadroka", "ndrokaˈndroka"],
+    fj: ["drokadroka", "ndrokandroka"],
     fro: ["vert", "vɛrt"],
     frr_amr: ["green", "ɡreːn"],
     gaa: ["ŋoli", "ŋoli"],

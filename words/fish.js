@@ -348,7 +348,7 @@ WORDS.fish = {
     su: ["lauk", "ˈlauk"],
     ceb: ["isda", "ʔisˈdaʔ"],
     ilo: ["ikan", "ʔiˈkan"],
-    fj: ["ika", "ˈika"],
+    fj: ["ika", "ika"],
     rtm: ["iʻa", "iʔa"],
     sm: ["iʻa", "iʔa"],
     to: ["ika", "ika"],

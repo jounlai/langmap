@@ -209,7 +209,7 @@ WORDS.sleep = {
     su: ["saré", "sare"],
     ceb: ["matulog", "maˈtuloɡ"],
     ilo: ["maturog", "maˈturoɡ"],
-    fj: ["moce", "ˈmoðe"],
+    fj: ["moce", "moðe"],
     rtm: ["mose", "ˈmose"],
     sm: ["moe", "moe"],
     to: ["mohe", "mohe"],

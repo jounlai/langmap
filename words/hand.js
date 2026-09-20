@@ -821,7 +821,7 @@ WORDS.hand = {
     adi: ["ali", "ali"],
     nag: ["hath", "haːtʰ"],
     nzm: ["hak", "hak"],
-    nmf: ["phei", "pʰei"],
+    nmf: ["pang", "paŋ"],  // Marrison 1967 gives Tangkhul hand = pang and arm = pang◦thei, against foot = leg = phei. The cell had been holding the foot word.
     lus: ["kut", "kut"],
     dz: ["ལག་པ", "laːp"],
     xsr: ["ལག་པ", "lakpa"],

@@ -725,7 +725,7 @@ WORDS.moon = {
     mwk: ["kalo", "kalo"],
     mlq: ["kalo", "kalo"],
     mev: ["lɔ", "lɔ"],
-    dnj: ["siŋ", "siŋ"],
+    dnj: ["su", "su"],  // Eastern Dan sű, Western Dan 'su. The cell had held this row's FIRE word. Written untoned because 38 of this row's 42 cells are: the four that carry a mark are the sky block, which is itself unsourceable — see the dev-handoff.
     ses: ["handu", "handu"],
     khq: ["handu", "handu"],
     dje: ["handu", "handu"],

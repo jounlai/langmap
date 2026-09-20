@@ -313,7 +313,7 @@ WORDS.hand = {
     hy: ["ձեռք", "dzeɾkʰ"],
     hyw: ["ձեռք", "tsɛɾkʰ"],
     nv: ["álaʼ", "ʔálaʔ"],
-    koy: ["ela", "ela"],
+    koy: ["-loʼ", "loʔ"],  // Eliza Jones, Koyukon Junior Dictionary p.76: "hand — his hand biloʼ", with kʼiloʼ, bilotłʼugha, binlotʼotsʼina. Koyukon reflects Proto-Athabaskan *-laʔ as -loʼ and Chipewyan as -lá, so the previous `ela` — byte-identical to the chp cell, where it is a correct indefinite-possessor form beside that row's own etá and eke — could only have been pasted. Hyphenated like this row's foot -kkaaʼ.
     haw: ["lima", "lima"],
     mi: ["ringa", "ɾiŋa"],
     qu: ["maki", "maki"],

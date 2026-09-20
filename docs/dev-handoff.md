@@ -488,6 +488,37 @@ STEDT moved: `https://stedtdb.johnblowe.com/gnis?t=<gloss>&lg=<lang>` for
 gloss search and `?f=<form>&lg=<lang>` for FORM search — the form search is
 what proved "mie is never eye" in Tujia.
 
+**4d. neighbour_concept_check.js triage worked through, 19 -> 11
+(2026-09-20, commits `5e30c291` and the follow-up).** Nine cells fixed, one
+confirmed genuine. The nine: nxq name held MOTHER, yiz heart held BLOOD, yiz
+hand held TONGUE, tji eye held BLOOD (+ its blood tone corrected mie˥˥ ->
+mie˥˧), dnj moon held FIRE, deg name held the 1PL PRONOUN, koy star held SUN,
+gun cat held DOG, and koy hand was a paste of the chp cell. Confirmed genuine
+and already in `intra_row_dup.lock.json`: **niu bone = foot `hui`** —
+POLLEX-Online's Niue entry under MP.HUI reads "Hui — Leg, foot; bone (Sph)",
+one Sperlich entry carrying all three glosses, with the whole lower limb
+built on it (Ponahui ankle, Tulihui knee, Muihui heel). The *waqe reflex sits
+separately as a respectful term. **Do not overwrite that cell.**
+
+Two priors of mine died here and both are worth remembering. Guaraní `jaguá`
+does NOT cover 'cat' in Mbyá — Dooley's lexicon has xiviʼi, with the minimal
+pair "jagua okororõ xiviʼi re" — so the family-resemblance argument was just
+wrong. And koy star/sun was not a protected near-homophony: Koyukon replaced
+the Proto-Athabaskan *sǫʔ etymon that gives Chipewyan thën, so the two words
+were never alike.
+
+**TWO MORE ROW AUDITS QUEUED**, and the checker found the door rather than
+the size of the room:
+- **`deg` Degema.** Five further cells contradict both standard sources: star
+  `esi`, fire `ọmạrị`, dog `ifụnị`, sun `ọvịnị`, hand `ọnẹ`. `esi` is Degema
+  for **'place'** (Thomas & Williamson p.77) and their p.91 gives star
+  `ụsẹ́mẹ́sẹ` — a second harvest slip in the same row.
+- **`dnj` Dan.** The entire sky block is unsourceable: sun `lai` (Eastern Dan
+  yʌ́nŋ̏, Western NT lan, ASJP la*), star `céé` (Eastern sűsʌ̄nŋ́, Western
+  'susongga — **and Dan orthographies have no ⟨c⟩**), and even fire `siŋ`
+  (si̋ɤ / 'siö / siu). Those four cells are also the only four of this row's 42
+  that carry a tone mark, which is why the new moon cell is written untoned.
+
 **5. Gaps, which are not false claims and go last.** `foot`'s remaining 56
 (each with a named next step, in the thread JSONs under
 `~/langmap-work/rally/r9..r11/`); `zh_tang`'s three transcription systems in

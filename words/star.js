@@ -313,7 +313,7 @@ WORDS.star = {
       hy: ["աստղ", "astʁ"],
       hyw: ["աստղ", "asdʁ"],
       nv: ["sǫʼ", "sṍʔ"],
-      koy: ["so", "sɔ"],
+      koy: ["tłoonʼ", "tɬoːnʔ"],  // Eliza Jones, Koyukon Junior Dictionary (ANLC 1978) p.160 "star tłoonʼ" against p.165 "sun so"; ASJP agrees. The cell had held the sun word, and there was never a near-homophony to protect: Koyukon replaced the Proto-Athabaskan *sǫʔ etymon that gives Chipewyan thën.
       haw: ["hōkū", "hoːkuː"],
       mi: ["whetū", "ɸetuː"],
       qu: ["quyllur", "ˈqojʎʊr"],

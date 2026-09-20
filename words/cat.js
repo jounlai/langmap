@@ -117,7 +117,7 @@ WORDS.cat = {
       trn: ["ojchi", "otʃi"],
       ake: ["mïta", "mɨta"],
       aoc: ["kïrïmï", "kɨɾɨmɨ"],
-      gun: ["jaguá", "ʒaɡuˈa"],
+      gun: ["xiviʼi", "ʃiviˈʔi"],  // Dooley's Mbyá lexicon: xiviʼi "1. Gato-do-mato 2. Gato doméstico", with the minimal pair under kororõ — "jagua okororõ xiviʼi re", the dog growled at the cat. mbarakaja, the Paraguayan Guaraní cat word, appears nowhere in Mbyá; the cell had held the dog word.
       zdj: ["paka", "paka"],
       ayl: ["قطوس", "ɡatˤːuːs"],
       abv: ["قطة", "qɪtːə"],

@@ -99,7 +99,16 @@ const DEBT = {};
 // the WORD onto the map. 11 -> 13 with uga and xhu, where the same thing is
 // true of Ugaritic and Hurrian. All 13 arrivals are first cells, not
 // reclassifications: nothing moved INTO this category from a decided route.
-const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 17 } };
+// 17 -> 18 on 2026-09-20 for `elx`, and the distinction it turns on is the one
+// to keep. Both volumes of Hinz & Koch's Elamisches Wörterbuch were searched
+// for Bein, Schenkel, Knie and Wade and no Elamite lemma is glossed 'leg'. A
+// LEXICON of the whole corpus with no such entry is a documented absence, the
+// Gothic case. Refused in the same pass: `yiz`, whose evidence is that
+// lamanisoic has no LEG, THIGH, KNEE or CALF PARAMETER at all — that is a hole
+// in the instrument, not a fact about Azhe, and it is the same reason Karajá
+// was refused. The ratchet is against growth through laziness, not against
+// growth.
+const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 18 } };
 
 let violations = 0;
 const notes = [];

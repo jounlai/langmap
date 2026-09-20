@@ -1,0 +1,776 @@
+{
+  "cmg|eat": {
+    "form": "ide-",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|five": {
+    "form": "tabun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|good": {
+    "form": "sajin",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|honey": {
+    "form": "bal",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|i": {
+    "form": "bi",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|moon": {
+    "form": "sara",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|mother": {
+    "form": "eke",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|mouth": {
+    "form": "aman",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|name": {
+    "form": "nere",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|salt": {
+    "form": "dabusun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|sleep": {
+    "form": "unta-",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|sun": {
+    "form": "naran",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|tongue": {
+    "form": "kelen",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "cmg|water": {
+    "form": "usun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Row-level ruling on the structural relationship."
+  },
+  "emy|five": {
+    "form": "hoʔ",
+    "proto": "pmay",
+    "ruling": "UNRULED",
+    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+  },
+  "emy|good": {
+    "form": "utz",
+    "proto": "pmay",
+    "ruling": "UNRULED",
+    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+  },
+  "emy|mother": {
+    "form": "naʔ",
+    "proto": "pmay",
+    "ruling": "UNRULED",
+    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+  },
+  "emy|one": {
+    "form": "jun",
+    "proto": "pmay",
+    "ruling": "UNRULED",
+    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+  },
+  "emy|water": {
+    "form": "haʔ",
+    "proto": "pmay",
+    "ruling": "UNRULED",
+    "note": "UNRULED. The forms are written in MODERN Mayan orthography (utz, jun) rather than in a Classic-period transliteration, which is the shape a comparative wordlist has, not an epigraphic one. Two Mayan priors have already been wrong in this atlas, so these want a check against a hieroglyphic lexicon (Boot, Kettunen & Helmke) rather than a ruling from the shape."
+  },
+  "gez|you": {
+    "form": "ʔanta",
+    "proto": "psem",
+    "ruling": "inherited",
+    "note": "Ge'ez 'anta 'you (m.sg)', attested throughout the Ge'ez Bible and the classical literature."
+  },
+  "h_tagalog|father": {
+    "form": "ama",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "ama, ina, isa are ordinary Tagalog, unchanged from Proto-Austronesian *ama, *ina, *esa; nothing here needs a proto row to explain it."
+  },
+  "h_tagalog|mother": {
+    "form": "ina",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "ama, ina, isa are ordinary Tagalog, unchanged from Proto-Austronesian *ama, *ina, *esa; nothing here needs a proto row to explain it."
+  },
+  "h_tagalog|one": {
+    "form": "isa",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "ama, ina, isa are ordinary Tagalog, unchanged from Proto-Austronesian *ama, *ina, *esa; nothing here needs a proto row to explain it."
+  },
+  "juc|blood": {
+    "form": "sekse",
+    "proto": "p_tun",
+    "ruling": "UNRULED",
+    "note": "UNRULED. No wordEvidence entry. sekse, sele, ilan, bi and si are all plausible 女真訳語 forms, but this row ALREADY declares twelve cells as evidence: proxy, source \"Manchu X\" — so its own convention is to substitute Manchu where Jurchen is unattested, and these five make that claim silently instead. Needs a 女真訳語 check: attested Jurchen, or Manchu that should say so."
+  },
+  "juc|father": {
+    "form": "ama",
+    "proto": "p_tun",
+    "ruling": "inherited",
+    "note": "Declared direct in juc.wordEvidence: 女真訳語 漢字音訳「阿瑪」(a-ma), with the Manchu cognate ama. Attested, not taken from the proto row."
+  },
+  "juc|i": {
+    "form": "bi",
+    "proto": "p_tun",
+    "ruling": "UNRULED",
+    "note": "UNRULED. See juc|blood — same five undeclared cells."
+  },
+  "juc|iron": {
+    "form": "sele",
+    "proto": "p_tun",
+    "ruling": "UNRULED",
+    "note": "UNRULED. See juc|blood."
+  },
+  "juc|three": {
+    "form": "ilan",
+    "proto": "p_tun",
+    "ruling": "UNRULED",
+    "note": "UNRULED. See juc|blood."
+  },
+  "juc|you": {
+    "form": "si",
+    "proto": "p_tun",
+    "ruling": "UNRULED",
+    "note": "UNRULED. See juc|blood."
+  },
+  "kaw|bird": {
+    "form": "manuk",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Kawi / Old Javanese is attested in a large inscriptional and literary corpus; manuk, asu, lima, aku are its ordinary words. Row-level ruling."
+  },
+  "kaw|dog": {
+    "form": "asu",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Kawi / Old Javanese is attested in a large inscriptional and literary corpus; manuk, asu, lima, aku are its ordinary words. Row-level ruling."
+  },
+  "kaw|five": {
+    "form": "lima",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Kawi / Old Javanese is attested in a large inscriptional and literary corpus; manuk, asu, lima, aku are its ordinary words. Row-level ruling."
+  },
+  "kaw|i": {
+    "form": "aku",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Kawi / Old Javanese is attested in a large inscriptional and literary corpus; manuk, asu, lima, aku are its ordinary words. Row-level ruling."
+  },
+  "obr|hand": {
+    "form": "lak",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Old Burmese လက် lak, Pagan inscriptions, continued as modern Burmese လက်. Genuinely attested; the agreement with PST *lak is inheritance. NOTE it is byte-identical to what pyx hand held before review 546 emptied it, and obr is the likelier place the pyx form was copied FROM."
+  },
+  "obr|moon": {
+    "form": "la",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Old Burmese လ la, attested, continued as modern လ."
+  },
+  "obr|you": {
+    "form": "naŋ",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Old Burmese နင် naṅ, attested, continued as modern နင်. Also byte-identical to the pyx you cell, which is still flagged as a leak."
+  },
+  "ocm|five": {
+    "form": "lima",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Cham lima 'five', attested; unchanged into modern Cham."
+  },
+  "ojp|bear": {
+    "form": "kuma",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|blood": {
+    "form": "ti",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|bone": {
+    "form": "pone",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|dog": {
+    "form": "inu",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|ear": {
+    "form": "mimi",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|earth": {
+    "form": "tuti",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|father": {
+    "form": "titi",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|five": {
+    "form": "itu",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|foot": {
+    "form": "asi",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|head": {
+    "form": "kasira",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|heart": {
+    "form": "kəkərə",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|hundred": {
+    "form": "momo",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|i": {
+    "form": "wa",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|mother": {
+    "form": "papa",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|name": {
+    "form": "na",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|nose": {
+    "form": "pana",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|poop": {
+    "form": "kuso",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|salt": {
+    "form": "sipo",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|star": {
+    "form": "posi",
+    "proto": "p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|stone": {
+    "form": "isi",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|sun": {
+    "form": "pi",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|tongue": {
+    "form": "sita",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|tooth": {
+    "form": "pa",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|two": {
+    "form": "puta",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|water": {
+    "form": "midu",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "ojp|you": {
+    "form": "na",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
+  },
+  "okz|i": {
+    "form": "ʔaɲ",
+    "proto": "p_aav",
+    "ruling": "inherited",
+    "note": "Old Khmer aññ, securely attested in the inscriptions; ʔaɲ is the only sensible IPA for it, so the agreement with PAA *ʔaɲ carries no information."
+  },
+  "omx|eye": {
+    "form": "mat",
+    "proto": "p_aav,p_viet",
+    "ruling": "UNRULED",
+    "note": "UNRULED, and the likeliest remaining leak. Old Mon has NO wordEvidence at all and the row comment says \"Reconstructions follow Shorto (1971) and Diffloth\" — the word \"reconstructions\" on a language attested in dated inscriptions. Shorto's Dictionary of the Mon Inscriptions should give the inscriptional form directly."
+  },
+  "omx|fish": {
+    "form": "kaʔ",
+    "proto": "p_aav",
+    "ruling": "UNRULED",
+    "note": "UNRULED. See omx|eye."
+  },
+  "omx|stone": {
+    "form": "tmɔʔ",
+    "proto": "p_aav",
+    "ruling": "UNRULED",
+    "note": "UNRULED. See omx|eye."
+  },
+  "omx|water": {
+    "form": "ɗaːk",
+    "proto": "p_aav,p_viet",
+    "ruling": "UNRULED",
+    "note": "UNRULED, and the clearest tell in the group: the IPA writes the implosive ɗaːk, which is Proto-Austroasiatic house notation. Old Mon orthography is ḍāk / dāk. An implosive in an attested language's IPA, matching the proto row byte for byte, is what a copied reconstruction looks like."
+  },
+  "omy|five": {
+    "form": "lima",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Malay is attested in the Srivijaya inscriptions; lima, aku, batu are ordinary and continue into modern Malay unchanged. Row-level ruling."
+  },
+  "omy|i": {
+    "form": "aku",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Malay is attested in the Srivijaya inscriptions; lima, aku, batu are ordinary and continue into modern Malay unchanged. Row-level ruling."
+  },
+  "omy|stone": {
+    "form": "batu",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Malay is attested in the Srivijaya inscriptions; lima, aku, batu are ordinary and continue into modern Malay unchanged. Row-level ruling."
+  },
+  "osn|bird": {
+    "form": "manuk",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Sundanese is attested in inscriptions and in Carita Parahyangan; manuk, lima, batu are ordinary. Row-level ruling."
+  },
+  "osn|five": {
+    "form": "lima",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Sundanese is attested in inscriptions and in Carita Parahyangan; manuk, lima, batu are ordinary. Row-level ruling."
+  },
+  "osn|stone": {
+    "form": "batu",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Sundanese is attested in inscriptions and in Carita Parahyangan; manuk, lima, batu are ordinary. Row-level ruling."
+  },
+  "ota|honey": {
+    "form": "bal",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Ottoman Turkish is documented in centuries of printed and manuscript material; bal, ben, sen are its ordinary words and survive unchanged in modern Turkish. Row-level ruling."
+  },
+  "ota|i": {
+    "form": "ben",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Ottoman Turkish is documented in centuries of printed and manuscript material; bal, ben, sen are its ordinary words and survive unchanged in modern Turkish. Row-level ruling."
+  },
+  "ota|you": {
+    "form": "sen",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Ottoman Turkish is documented in centuries of printed and manuscript material; bal, ben, sen are its ordinary words and survive unchanged in modern Turkish. Row-level ruling."
+  },
+  "otk|earth": {
+    "form": "jer",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "otk|i": {
+    "form": "ben",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "otk|nose": {
+    "form": "burun",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "otk|star": {
+    "form": "jultuz",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "otk|two": {
+    "form": "eki",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "otk|water": {
+    "form": "sub",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "otk|you": {
+    "form": "sen",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
+  },
+  "pyx|star": {
+    "form": "kar",
+    "proto": "p_sit",
+    "ruling": "leak",
+    "note": "leak, known and accepted for now. Declared evidence: inferred, source Tibeto-Burman comparative (*s-kar) — the cell says what it is, which is why review 546 left it standing while emptying the eleven that claimed direct attestation. kar· does occur twice in the corpus (inscription 027) but no source glosses it. OPEN POLICY QUESTION: whether a comparandum belongs in a surface-form column at all."
+  },
+  "pyx|you": {
+    "form": "naŋ",
+    "proto": "p_sit",
+    "ruling": "leak",
+    "note": "leak, known and accepted for now. Declared evidence: inferred, source Tibeto-Burman comparative (*naŋ). naṅ· occurs once (inscription 178), unglossed. Same open policy question as pyx|star. Note obr|you holds the identical form and IS attested."
+  },
+  "sukh|bird": {
+    "form": "nok",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|eye": {
+    "form": "taː",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|fish": {
+    "form": "plaː",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|five": {
+    "form": "haː",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|foot": {
+    "form": "tiːn",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|four": {
+    "form": "siː",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|hundred": {
+    "form": "rɔːj",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|i": {
+    "form": "kuː",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "sukh|three": {
+    "form": "saːm",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai; nok, taa, plaa, haa, sii, rooy, saam are ordinary Thai words that have not changed since the inscriptions, and Proto-Tai is reconstructed from the modern languages rather than from Sukhothai. Row-level ruling."
+  },
+  "txb|dog": {
+    "form": "ku",
+    "proto": "p_toc",
+    "ruling": "circular",
+    "note": "Tocharian B ku, in Adams, A Dictionary of Tocharian B; Proto-Tocharian is reconstructed from A and B, so it agrees by construction."
+  },
+  "txb|tooth": {
+    "form": "keme",
+    "proto": "p_toc",
+    "ruling": "circular",
+    "note": "Tocharian B keme, in Adams; same construction."
+  },
+  "xct|eye": {
+    "form": "mik",
+    "proto": "p_sit",
+    "ruling": "circular",
+    "note": "Classical Tibetan མིག mig, in Jaschke and Das; PST *s-mik is reconstructed partly from it."
+  },
+  "xct|i": {
+    "form": "ŋa",
+    "proto": "p_sit",
+    "ruling": "circular",
+    "note": "Classical Tibetan ང nga; PST *ŋa rests on Tibetan among others."
+  },
+  "xct|name": {
+    "form": "miŋ",
+    "proto": "p_sit",
+    "ruling": "circular",
+    "note": "Classical Tibetan མིང ming; PST *r-miŋ rests on Tibetan among others."
+  },
+  "xct|nose": {
+    "form": "na",
+    "proto": "p_sit",
+    "ruling": "circular",
+    "note": "Classical Tibetan སྣ sna; PST *s-na rests on it. SEPARATE ISSUE, not a leak: the IPA writes na and drops the s- prescript, which Classical Tibetan pronounced. Worth a transcription pass, not a provenance one."
+  },
+  "xng|five": {
+    "form": "tabun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|i": {
+    "form": "bi",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|moon": {
+    "form": "sara",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|mother": {
+    "form": "eke",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|name": {
+    "form": "nere",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|salt": {
+    "form": "dabusun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|star": {
+    "form": "hodun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|sun": {
+    "form": "naran",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|tongue": {
+    "form": "kelen",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|tree": {
+    "form": "modun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xng|water": {
+    "form": "usun",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol (the Secret History, hP'ags-pa material) is the primary witness FOR Proto-Mongolic. Row-level ruling on the structural relationship."
+  },
+  "xqa|bone": {
+    "form": "süŋük",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|eye": {
+    "form": "köz",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|father": {
+    "form": "ata",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|honey": {
+    "form": "bal",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|iron": {
+    "form": "temür",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|mother": {
+    "form": "ana",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|night": {
+    "form": "tün",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|nose": {
+    "form": "burun",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|star": {
+    "form": "jultuz",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|stone": {
+    "form": "taš",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|sun": {
+    "form": "kün",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|three": {
+    "form": "üč",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xqa|you": {
+    "form": "sen",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
+  },
+  "xsa|you": {
+    "form": "ʔanta",
+    "proto": "psem",
+    "ruling": "inherited",
+    "note": "Ancient South Arabian 'nt, attested; the agreement with Proto-Semitic *'anta is ordinary Semitic conservatism."
+  },
+  "xto|dog": {
+    "form": "ku",
+    "proto": "p_toc",
+    "ruling": "circular",
+    "note": "Tocharian A ku, attested; same construction."
+  },
+  "zkt|good": {
+    "form": "sajin",
+    "proto": "pmng",
+    "ruling": "UNRULED",
+    "note": "UNRULED, and genuinely doubtful. Khitan is only PARTIALLY deciphered — the large script especially — so a Khitan cell agreeing byte for byte with Proto-Mongolic is not obviously inheritance. sajin/sain and bi are Mongolic shapes, which is exactly what someone reaching for the proto row would produce. Needs a reading from the Khitan epigraphic literature (Kane, Wu & Janhunen) per cell."
+  },
+  "zkt|i": {
+    "form": "bi",
+    "proto": "pmng",
+    "ruling": "UNRULED",
+    "note": "UNRULED, and genuinely doubtful. Khitan is only PARTIALLY deciphered — the large script especially — so a Khitan cell agreeing byte for byte with Proto-Mongolic is not obviously inheritance. sajin/sain and bi are Mongolic shapes, which is exactly what someone reaching for the proto row would produce. Needs a reading from the Khitan epigraphic literature (Kane, Wu & Janhunen) per cell."
+  }
+}

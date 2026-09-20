@@ -588,6 +588,16 @@ line('no new intra-row duplicate', num(s, /violations: (\d+)/), num(s, /stale: (
 s = run('route_coverage_check.js --check');
 line('route colouring complete', num(s, /violations: (\d+)/));
 
+// A reconstruction published as an attested word. pyx held eleven of these,
+// five of them LangMap's own p_sit forms with the * and prefix filed off, all
+// citing a work that does not exist. Only gates corpus-only rows
+// (languageKind historical-attested), because a LIVING language agreeing with
+// its reconstruction is the reconstruction working. Everything found is ruled
+// on once in proto_form_leak.lock.json — inherited / circular / leak — and a
+// match that is not in the lock is the error.
+s = run('proto_form_leak_check.js --check');
+line('proto form published as attested', num(s, /violations: (\d+)/));
+
 // A tonal row must not drop its Chao letters. 145 single-character cells had
 // none — 五 in half the Min rows, 雪 across a dozen, 鳥 and 风 the same — which
 // no other guard could see, because a missing tone is not a wrong tone. 79 were

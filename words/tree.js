@@ -548,7 +548,7 @@ WORDS.tree = {
     yle: ['yi', 'ji'],
     yue_dg: ['树', 'syː˨'],
     yue_nn: ['树', 'ʃy˨'],
-    zh_cq: ['树', 'su˨˩˧'],
+    zh_cq: ['树子', 'su˨˩˧ tsɿ˦˨'],
     zh_jn: ['树', 'ʂu˨˩'],
     zh_km: ['树', 'su˨˩˨'],
     zh_xa: ['树', 'fu˥˥'],

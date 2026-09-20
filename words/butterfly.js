@@ -3,7 +3,6 @@
  */
 WORDS.butterfly = {
   emoji: "🦋",
-  partial: true,
   label: {
     en: "Butterfly",
     ja: "蝶",

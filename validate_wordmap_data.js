@@ -241,7 +241,7 @@ const PARTIAL_WORD_IDS = new Set(WORD_IDS.filter(id => ctx.WORDS && ctx.WORDS[id
 // per word) rather than a hard error, so a work-in-progress core word does not
 // block the pre-commit guard. Remove an id from this set once it is fully
 // covered; a later coverage regression is then a hard error again.
-const FILLING_IN = new Set(['foot', 'ear', 'rain', 'wind', 'earth', 'snow', 'stone', 'nose', 'bird', 'egg', 'sleep', 'white', 'five', 'black', 'four', 'daughter', 'iron', 'wheel', 'salt', 'milk', 'wine', 'hundred', 'honey', 'bear',
+const FILLING_IN = new Set(['foot', 'butterfly', 'poop', 'ear', 'rain', 'wind', 'earth', 'snow', 'stone', 'nose', 'bird', 'egg', 'sleep', 'white', 'five', 'black', 'four', 'daughter', 'iron', 'wheel', 'salt', 'milk', 'wine', 'hundred', 'honey', 'bear',
     'head', 'new', 'mouth', 'person', 'mountain', 'sea', 'green', 'rice', 'silk', 'horse', 'chocolate', 'book']);   // +mouth & 8 new concepts 2026-09-15 (WIP core words, seed only)
 // +foot 2026-09-20. It came off `partial: true` the same day, having gone 265
 // -> 1,132 cells (95.3%, against hand's 97.8%). FILLING_IN rather than an
@@ -253,6 +253,14 @@ const FILLING_IN = new Set(['foot', 'ear', 'rain', 'wind', 'earth', 'snow', 'sto
 // source. An em dash on those would assert an absence nobody has established.
 // Drop them to em-dash cells individually as each is genuinely exhausted, then
 // take foot out of this set.
+// +butterfly, +poop 2026-09-20. Both dropped `partial: true` the same day, and
+// the reason is the one that makes the 🧪 flag mean something again. Coverage
+// was never the criterion — silk sits at 172 cells in THIS set while atsign
+// (164) and dopamine (184) carry the flag — and route-colouring is not it
+// either, since bear, wine, we and foot are route-coloured without it. The
+// flag means what the comment above PARTIAL_WORD_IDS says: the concept itself
+// is not universal. butterfly and poop are universal concepts that were merely
+// thin, at 340 and 346 cells, i.e. better covered than silk.
 const fillingMissing = {};
 
 // ---- 2-4. Per-language word-entry checks --------------------------------

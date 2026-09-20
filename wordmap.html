@@ -3569,8 +3569,8 @@
     })();
     </script>
     <script src="wordmap_data.js?v=329"></script>
-    <script src="word_manifest.js?v=560"></script>
-    <script src="word_labels.js?v=65"></script>
+    <script src="word_manifest.js?v=561"></script>
+    <script src="word_labels.js?v=66"></script>
     <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
         // does `WORDS.<id> = {...}` and would ReferenceError otherwise.
@@ -4049,9 +4049,9 @@
             meta:     359,
             trivia:   43,
             triviaI18n: 25,
-            words:      560,
-            langWords:    306,
-            labels:      65,
+            words:      561,
+            langWords:    307,
+            labels:      66,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
             metaI18nCoverage3: 3,
@@ -4812,26 +4812,30 @@
             // so a blank is honest rather than missing data.
             // What the 🧪 group is. Kept to one short clause: it sits under
             // every heading render, so it has to read as a caption, not a note.
+            // What the 🧪 group is, in the reader's terms. The first draft
+            // said "only where a sourced word was found", which answers a
+            // question about our method rather than the one a reader asks,
+            // namely why some of these are blank (owner).
             var EXP_NOTE = {
-                en: "Only where a sourced word was found.",
-                ja: "出典のある語が見つかった言語だけ。",
-                ko: "출처가 있는 말이 확인된 언어만.",
-                zh: "仅显示有出处的词。",
-                yue: "淨係顯示有出處嘅詞。",
-                vi: "Chỉ nơi tìm được từ có nguồn.",
-                th: "เฉพาะที่พบคำที่มีแหล่งอ้างอิง",
-                id: "Hanya bila ada kata bersumber.",
-                hi: "केवल जहाँ स्रोतयुक्त शब्द मिला।",
-                de: "Nur wo ein belegtes Wort vorliegt.",
-                fr: "Seulement là où un mot sourcé existe.",
-                it: "Solo dove esiste una parola documentata.",
-                es: "Solo donde hay una palabra con fuente.",
-                pt: "Só onde há uma palavra com fonte.",
-                ru: "Только там, где есть слово с источником.",
-                uk: "Лише там, де є слово з джерелом.",
-                ar: "فقط حيث توجد كلمة موثّقة.",
-                he: "רק היכן שנמצאה מילה עם מקור.",
-                sw: "Pale tu neno lenye chanzo lilipopatikana."
+                en: "Some languages have no word for these.",
+                ja: "この言葉自体がない言語もあります。",
+                ko: "이 말 자체가 없는 언어도 있습니다.",
+                zh: "有些语言没有这些词。",
+                yue: "有啲語言根本冇呢啲詞。",
+                vi: "Một số ngôn ngữ không có từ cho những thứ này.",
+                th: "บางภาษาไม่มีคำเหล่านี้",
+                id: "Sebagian bahasa tidak punya kata untuk ini.",
+                hi: "कुछ भाषाओं में इनके लिए शब्द ही नहीं है।",
+                de: "Manche Sprachen haben dafür kein Wort.",
+                fr: "Certaines langues n’ont pas de mot pour cela.",
+                it: "Alcune lingue non hanno una parola per questi.",
+                es: "Algunas lenguas no tienen palabra para esto.",
+                pt: "Algumas línguas não têm palavra para isto.",
+                ru: "В некоторых языках таких слов просто нет.",
+                uk: "У деяких мовах таких слів просто немає.",
+                ar: "بعض اللغات لا تملك كلمة لهذه الأشياء.",
+                he: "בחלק מהשפות אין מילה לדברים האלה.",
+                sw: "Baadhi ya lugha hazina neno la hivi."
             };
             function baseLang() { return (typeof uiLang === 'string' ? uiLang : 'en').split('_')[0]; }
             function tr(i) { return (T[baseLang()] || T.en)[i]; }

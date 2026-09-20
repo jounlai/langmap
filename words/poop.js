@@ -9,7 +9,6 @@
  * *kakka- "to void excrement", likely onomatopoeic for the grunt of straining.
  */
 WORDS.poop = {
-  partial: true,
   emoji: "💩",
   label: {
     en: "Poop",

@@ -66,10 +66,12 @@ function lint(entries) {
 // on 2026-09-20 and then dropped `partial: true`; without this line its 1,132
 // cells would silently fall out of scope (the lint went 5,363 -> 4,403 in the
 // dry run that found this). The gate is worth keeping because it is STRICTER
-// than tone_policy_check by design: that tool deliberately exempts a row whose
+// than tone_policy_check by design (butterfly and poop joined foot here on
+// the same day and for the same reason — they left the partial set, and their
+// cells were all written under this gate): that tool deliberately exempts a row whose
 // Chao coverage is under 60%, which is how khb sat at 14 of 52 cells for a
 // long time, and this one refuses a bare cell in a tonal language outright.
-const EXTRA = new Set(['foot']);
+const EXTRA = new Set(['foot', 'butterfly', 'poop']);
 
 function loadPartialWords() {
   global.WORDS = {};

@@ -43,14 +43,14 @@ const WORD_CATEGORIES = [
         label: {
             en: "Body & feeling", ja: "からだと心", ko: "몸과 마음", zh: "身体与情感", yue: "身體同感情", vi: "Cơ thể và cảm xúc", th: "ร่างกายและความรู้สึก", id: "Tubuh & perasaan", hi: "शरीर और भाव", de: "Körper & Gefühl", fr: "Corps et sentiment", it: "Corpo e sentimento", es: "Cuerpo y sentimiento", pt: "Corpo e sentimento", ru: "Тело и чувства", uk: "Тіло і почуття", ar: "الجسد والشعور", he: "גוף ורגש", sw: "Mwili na hisia"
         },
-        words: ["head", "eye", "ear", "nose", "mouth", "tooth", "tongue", "hand", "foot", "heart", "bone", "blood", "love"],
+        words: ["head", "eye", "ear", "nose", "mouth", "tooth", "tongue", "hand", "foot", "heart", "bone", "blood", "poop", "love"],
     },
     {
         key: "nature",
         label: {
             en: "Animals & plants", ja: "動物と植物", ko: "동물과 식물", zh: "动物与植物", yue: "動物同植物", vi: "Động vật và thực vật", th: "สัตว์และพืช", id: "Hewan & tumbuhan", hi: "जानवर और पौधे", de: "Tiere & Pflanzen", fr: "Animaux et plantes", it: "Animali e piante", es: "Animales y plantas", pt: "Animais e plantas", ru: "Животные и растения", uk: "Тварини і рослини", ar: "الحيوانات والنباتات", he: "בעלי חיים וצמחים", sw: "Wanyama na mimea"
         },
-        words: ["tree", "dog", "cat", "fish", "bird", "egg", "bear", "horse"],
+        words: ["tree", "dog", "cat", "fish", "bird", "butterfly", "egg", "bear", "horse"],
     },
     {
         key: "home",
@@ -99,7 +99,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Experimental", ja: "実験中", ko: "실험 중", zh: "实验中", yue: "實驗中", vi: "Thử nghiệm", th: "ทดลอง", id: "Eksperimental", hi: "प्रयोगात्मक", de: "Experimentell", fr: "Expérimental", it: "Sperimentale", es: "Experimental", pt: "Experimental", ru: "Экспериментальные", uk: "Експериментальні", ar: "تجريبي", he: "ניסיוני", sw: "Majaribio"
         },
-        words: ["blue", "butterfly", "cuckoo", "woof", "cockcrow", "computer", "wifi", "sushi", "tea", "coffee", "sugar", "orange", "n99", "dopamine", "atsign", "poop"],
+        words: ["blue", "cuckoo", "woof", "cockcrow", "computer", "wifi", "sushi", "tea", "coffee", "sugar", "orange", "n99", "dopamine", "atsign"],
     },
 ];
 

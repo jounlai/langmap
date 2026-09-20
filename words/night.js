@@ -1159,7 +1159,7 @@ WORDS.night = {
     xht: ["—", "—"],
     txr: ["—", "—"],
     aau: ["nayr", "najr"],
-    ani: ["релъо", "reɬo"],  // Suspect, kept pending a source. Wiktionary's Andi релъо is glossed 'sea' only, cognate with Avar ралъад 'sea', and that is what this row's new sea cell now carries. No night sense is attested there, but Wiktionary's Andi coverage is a handful of stubs, so absence is not proof — and no Andi 'night' could be sourced to replace this (сори is 'fox', суни 'yesterday'). Left in place, flagged, rather than deleted on a stub's silence.
+    ani: ["релъо", "reɬo"],  // Settled 2026-09-20: the source this was waiting for exists. The Online Dictionary of Zilo Andi (Moroz, Zenodo 13952725) gives ночь = релъо AND море = релъо, with different oblique stems — so the sea sense Wiktionary shows is real and does not exclude the night sense. The suspicion came from a stub's silence, which is what the note itself said not to trust.
     bdk: ["йудженджидж", "judʒendʒidʒ"],
     sdo: ["bengaru", "bəŋaru"],
     dbl: ["jagun", "ɟaɡun"],

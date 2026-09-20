@@ -318,11 +318,48 @@ again — **the same artefact that decided the IDS 'under of the leg' phrases
 in 80fa53cc.** This is now the second time that instrument has produced a
 false split, and it is worth assuming it will do so again.
 
-**3. One defect class, one deterministic checker — not twelve separate fixes.**
+**3. CLOSED as a queue, replaced by a triage tool — `tools/neighbour_concept_check.js`.**
+Built 2026-09-20. Rule: two concepts in one row hold a byte-identical surface,
+the two sit in the same `WORD_CATEGORIES` category, at least three other base
+languages in the coarse family fill both and none merges them, and at most one
+other family anywhere shows the same merger. 19 findings. **Precision measured
+on a 100% sample against outside dictionaries: 9 genuine polysemy, 8 probable
+defects, 2 undecidable — 42.1%.** That is triage, like `provenance_scan.js` at
+22.5%, and it is deliberately NOT wired into `check_all`.
+
+The useful number from it: reading the same 19 from inside the repo alone,
+before opening any source, got **six wrong in both directions**. An IPA
+difference is a weak defence and not an alibi — `tji` blood/eye and `yiz`
+blood/heart both looked exculpated by tone or rime and are both wrong.
+
+**The ten wheel/foot rows are CLOSED and I was wrong about `mey`.** All ten are
+genuine and every one now has a source: Jalla gives Lozi *lihutu* sense 2
+"wheel"; Payne & Ole-Kotikash give Maa *ɛn-kɛjʉ́* sense 2 "wheel or tyre";
+SIL's Wayuunaiki dictionary gives *ooʼui* sense 4 *llanta* with no *rueda*
+headword at all; the Bari and Gĩkũyũ Bibles render Ezekiel 1:15 with *moköt*
+and *kũgũrũ*. And **Elhoussein's Basic English–Hassaniya Dictionary — the very
+source `mey`'s foot cell already cites — has "Wheel: Kraaᶜ (wata)" p.93 and
+"Tire: Kraaᶜ" p.83**, while the Arabic dialect atlas gives عجلة for Egypt and
+Tunisia and nothing at all for Mauritania. My "every other Arabic row writes
+عجلة" argument was about the wrong dialects.
+
+Still open from its findings, eight probable defects each needing its own
+sourcing: `nxq` name, `koy` star, `deg` name, `gun` cat, `tji` eye, `dnj`
+fire+moon, `yiz` blood/heart, `yiz` hand/tongue (the hand cell holds the FIRST
+SYLLABLE of the tongue word). Separately, `koy` hand is byte-identical to
+`chp` hand and is the ONLY match among the 37 concepts those two rows share —
+a `provenance_scan.js` shape rather than this one's.
+
+What the rule cannot reach, measured and stated: a slip before a collision
+exists (nmf's hand held phei while foot was EMPTY); cross-category slips
+(`--wide`, 125 findings); near-misses (`--near`, ~3% precision); and the
+Sinitic bare-morpheme class, which has zero internal mismatches and is
+invisible to any intra-row test.
+
+**3b. The original list, now mostly closed.**
 A cell holding its NEIGHBOURING CONCEPT's word. Confirmed instances found by
 accident in one day: `nmf` hand held the foot word (fixed, `cc709081`); four
-Vai cells held mother/meat/child (fixed 2026-09-18); `mey` wheel is almost
-certainly the leg word (every other Arabic row writes عجلة, `mey` alone كراع);
+Vai cells held mother/meat/child (fixed 2026-09-18);
 `crn` bone is the same morpheme as its foot word; `kio` bone is Watkins's bare
 LEG root; `toc` name is 'leaf'; `yur` hand is a particle; `koy` hand is the
 Chipewyan word. **Build the checker** — compare each cell against its row's

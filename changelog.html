@@ -29,8 +29,8 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=133">
-    <link rel="stylesheet" href="styles.css?v=133">
+    <link rel="stylesheet" href="styles.css?v=134">
+    <link rel="stylesheet" href="styles.css?v=134">
     <style>
         .changelog {
             max-width: 760px;
@@ -156,6 +156,26 @@
                 <li><strong>Separately, nine languages were found to be carrying a neighbour’s pronunciation.</strong> Tone is a property of a particular variety, so when a tone appears in one entry of a language and nowhere else in it, while being identical to a neighbouring language’s entry, it was copied rather than recorded. Twenty-three entries were re-derived from each language’s own tone system, across Isan and Southern Thai, Saigon and central Vietnamese, and five Chinese varieties.</li>
                 <li><strong>And then the experimental label came off.</strong> The ancient languages were the visible gap, not the big one — the word was still missing from 781 modern languages that already had “hand”. Those were filled the same day, in three further passes: foot went from 265 entries to <strong>1,132</strong>, which is 95% of the map against “hand”’s 98%. Fifty-six languages still have no entry, and each one has a reason on record rather than a blank.</li>
                 <li><strong>What finally worked was reading scripture.</strong> A wordlist gives a language’s everyday word and almost never gives the contrast, so for hundreds of languages there was no way to tell which system they had. Parallel Bible verses give both at once: John 13 washes feet, John 19 breaks legs, and Daniel 2 names thighs, legs and feet in a single sentence. Read together they answer the question for any language with a translation — and there are far more translations than dictionaries. Two false leads had to be controlled for: Revelation 10:1 is feet in the Greek, not legs, and several languages say “break their bones” where the English says “break their legs”, which would have invented a leg word for languages that have none.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-18 — Four notation decisions, and the word for “father” turned out to mean “child” ✍️</div>
+            <ul>
+                <li><strong>A pronunciation mark was removed from 255 entries, which is the opposite of what was expected.</strong> Indian languages were being written with a small tooth-shaped mark under t and d, and the plan was to finish the job. Counting first changed the answer: only 79 of 1,179 languages use the mark at all, it appears on 458 sounds against 24,735 without, and every other language on the map with the same sound — Russian, Czech, Polish, Italian, Spanish, French, Dutch, Finnish and eight more — uses it exactly zero times. It survives where it does real work, in Australian languages that distinguish three positions of the tongue rather than two. In Indian languages the contrast is with the retroflex series, which the map already shows a different way. So the mark came off.</li>
+                <li><strong>Bantu verbs are now given the way a dictionary gives them.</strong> Forty-two of sixty Bantu languages already wrote “to eat” rather than a bare stem; seven wrote stems and eleven did both inside one language. Every other family on the map already uses its own citation form — <em>manger</em>, <em>yemek</em>, 먹다 — so Bantu now does too.</li>
+                <li><strong>Two uncited numbers from Wikipedia nearly overwrote good data, in two different languages.</strong> Dungan, a Chinese language written in Cyrillic in Central Asia, appeared to have its tones wrong. It did not: the table that contradicted it had one column spanning two rows, and reading it naively shifted every value by one. And a set of Lao tone numbers was credited to a paper that is not about Lao at all — it is the standard reference description of <em>Thai</em>. Both entries were right and the sources were wrong.</li>
+                <li><strong>In the Vai language, four entries held a different word than the one they claimed.</strong> “Eat” held the word for <em>mother</em>. “Good” held the word for <em>meat</em>. “Father” held the word for <em>child</em> — which the same language’s entry for “daughter” already spelled out. They were not typos; each was a real Vai word filed under the wrong meaning. Thirteen entries were rebuilt, every character checked against its official Unicode name.</li>
+                <li><strong>And the map was telling readers “this language has no word for that” 138 times without anyone having decided so.</strong> Of 159 such claims, 138 came from a fallback rule in the software rather than from a person or a source — including for a sign language whose own notes say the blanks are a limitation of the format, not a fact about the language. Worse, that automatic value was switching off a safety check meant to require a named human source. Found, measured and written down.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-17 — 488 corrections, and most of the tone marks were already in the data 🔍</div>
+            <ul>
+                <li><strong>A backlog of 442 missing tone marks came down to 95, and the surprise was where the answers were.</strong> Not in the literature — in the same language’s other entries. Thai “bird” had no tone written, but the same language’s word for “cuckoo” already contains that exact syllable with its tone; Tibetan “I” is inside its own word for “we”. Where a language writes tone with a <em>letter</em> instead of an accent — Hmong, Hani, Naxi, Zhuang — the whole block became answerable once that letter’s meaning was read off the language’s own entries.</li>
+                <li><strong>Twelve new kinds of error were defined and searched for, rather than looking at more rows one by one.</strong> The most productive test needs no outside source at all: find a feature a language applies to <em>some</em> of the entries it should apply to and not others. A convention followed 92% of the time is a convention; one followed 30% of the time is a leak.</li>
+                <li><strong>Ninety-five were left alone on purpose, with the reason recorded for each.</strong> An entry that cannot be settled is more useful marked unsettled than quietly filled in.</li>
             </ul>
         </div>
 

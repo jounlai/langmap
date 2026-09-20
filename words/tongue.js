@@ -900,7 +900,7 @@ WORDS.tongue = {
     kw: ["taves", "ˈtavəs"],
     zza: ["ziwan", "ziwaːn"],
     brh: ["دوی", "doiː"],
-    mrq: ["ʻeʻo", "ʔeˈʔo"],
+    mrq: ["ʻeʻo", "ʔeʔo"],
     tiw: ["yimitarla", "jimitaɭa"],
     lbz: ["jalreman", "ɟalreman"],
     lbz_damin: ["—", "—"],

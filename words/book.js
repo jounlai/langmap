@@ -304,7 +304,7 @@ WORDS.book = {
     gn: ["aranduka", "aɾanduˈka"],
     gil: ["boki", "ˈboki"],
     fj: ["ivola", "iˈvola"],
-    fud: ["tosi", "ˈtosi"],
+    fud: ["tosi", "tosi"],
     ho: ["buka", "ˈbuka"],
     kos: ["puk", "puk"],    // "Puk ac Mwe rit" heads the Kosraean publications section on jw.org, and the 1902 Kosraean NT spells it buk ("BUK LUN RUT"); modern Lee orthography does not write voiced stops. Not to be confused with puhk 'sand'. Same English loan as Chuukese and Mokilese puk.
     itz: ["Juʼumilxok", "huʔumilʃok"],  // ALMG's Vocabulario Itzaʼ keeps a clean three-way split: juʼum 'paper', juʼumilxok 'paper-of-reading' = libro, juʼumiltzʼiibʼ 'paper-of-writing' = cuaderno. Not in ALMG's own neologism list, so it is not a coinage.

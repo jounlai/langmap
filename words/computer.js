@@ -378,7 +378,7 @@ WORDS.computer = {
     "tr": ["bilgisayar", "bilɟisaˈjaɾ"],
     "tsg": ["kompyuter", "komˈpjutɛr"],
     "tt": ["компьютер", "kɐmˈpjuter"],
-    "ty": ["roro uira", "ˌɾoɾo ˈuiɾa"],
+    "ty": ["roro uira", "ɾoɾo uiɾa"],
     "tyv": ["компьютер", "komˈpjuter"],
     "udm": ["компьютер", "kɐmˈpjuter"],
     "ug": ["كومپيۇتېر", "kompjuˈter"],
@@ -474,7 +474,7 @@ WORDS.computer = {
     hif: ["computer", "kəmpjuːʈər"],
     zgh: ["ⴰⵎⵙⵙⵓⴷⵙ", "amsːuds"],
     aln: ["kompjuter", "kompjuˈteɾ"],
-    fud: ["masini", "maˈsini"],
+    fud: ["masini", "masini"],
 
     // --- Pluricentric rows — each reads its own row's vowel where one differs
     es_bo: ["computadora", "komputaˈðoɾa"],

@@ -314,7 +314,7 @@ WORDS.sea = {
     nd: ["ulwandle", "ulwandɮe"],
     nds: ["See", "zeː"],
     nia: ["asi", "asi"],
-    niu: ["tahi", "ˈtahi"],
+    niu: ["tahi", "tahi"],
     niv: ["ӄерҏӄ", "qer̥q"],
     nn: ["hav", "hɑːʋ"],
     nog: ["тенъиз", "teŋiz"],

@@ -355,7 +355,7 @@ WORDS.horse = {
     gor: ["wadala", "waˈdala"],
     kaw: ["ꦏꦸꦢ", "kuda"],
     fj: ["ose", "ose"],
-    fud: ["ōsi", "ˈoːsi"],
+    fud: ["ōsi", "oːsi"],
     ff: ["puccu", "putʃːu"],
     ig: ["ịnyịnya", "ɪɲɪɲa"],
     kr: ["dər", "dər"],

@@ -823,12 +823,12 @@ WORDS.snow = {
     pam: ["niebe", "ˈnjebe"], // Spanish nieve
     ch: ["niebe", "ˈnjebe"], // Spanish nieve
     tet: ["neve", "ˈnɛvɛ"], // Portuguese neve
-    rar: ["kiona", "kiˈona"], // Greek khiōn via the LMS Bible
+    rar: ["kiona", "kiona"], // Greek khiōn via the LMS Bible
     tkl: ["kiona", "kiona"], // Greek khiōn via the Bible
     tvl: ["kiona", "kiona"], // Greek khiōn via the Bible
     pkp: ["kīona", "kiːona"], // Greek khiōn via the Bible
-    wls: ["nive", "ˈnive"], // French neige via the Marist Bible
-    fud: ["nive", "ˈnive"], // French neige via the Marist Bible
+    wls: ["nive", "nive"], // French neige via the Marist Bible
+    fud: ["nive", "nive"], // French neige via the Marist Bible
     gil: ["tinoo", "siˈnoː"], // English snow
     pon: ["sinoh", "sinoː"], // English snow
     ho: ["sinou", "sinou"], // English snow

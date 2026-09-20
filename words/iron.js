@@ -500,10 +500,10 @@ WORDS.iron = {
     pmy: ["besi", "ˈbesi"],
     bew: ["besi", "bəˈsi"],
     fj: ["kaukamea", "kaukaˈmea"],
-    tkl: ["ukamea", "ukaˈmea"],
-    fud: ["ukamea", "ukaˈmea"],
-    ty: ["ʻāuri", "ˈʔaːuɾi"],
-    rar: ["ʻāuri", "ˈʔaːuri"],
+    tkl: ["ukamea", "ukamea"],
+    fud: ["ukamea", "ukamea"],
+    ty: ["ʻāuri", "ʔaːuɾi"],
+    rar: ["ʻāuri", "ʔaːuri"],
     woe: ["paarang", "paːɾaŋ"],
     mh: ["māāl", "mʲaːlʲ"],
     pon: ["mete", "ˈmete"],
@@ -538,7 +538,7 @@ WORDS.iron = {
     sm: ["uʻamea", "uʔamea"],
     to: ["ukamea", "ukamea"],
     gil: ["biti", "ˈpisi"],
-    rap: ["auri", "auˈɾi"],
+    rap: ["auri", "auɾi"],
 
     // --- Uralic — Baltic *rauda in the west, *kertä in the east ----------
     smn: ["ryevdi", "ˈrjevdi"],

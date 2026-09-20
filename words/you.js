@@ -1235,7 +1235,7 @@ WORDS.you = {
     rmt: ["atu", "atu"],
     fia: ["ìr", "ìr"],
     fvr: ["jɨ́", "ɟɪ́"],
-    fud: ["koe", "ˈkoe"],
+    fud: ["koe", "koe"],
     tca: ["cumax", "ku˩maʔ˨"],
     wrh: ["ngindhu", "ˈŋind̪u"],
     lun: ["eyi", "eji"],

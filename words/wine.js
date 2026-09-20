@@ -1299,7 +1299,7 @@ WORDS.wine = {
     hil: ["bino", "ˈbino"],
     ty: ["uaina", "uaina"],
     tvl: ["uaina", "uaina"],
-    rap: ["vino", "ˈvino"],
+    rap: ["vino", "vino"],
     rar: ["uaina", "uaina"],
     mh: ["wain", "wɑin"],
     gil: ["wain", "wain"],
@@ -1330,8 +1330,8 @@ WORDS.wine = {
     dtp: ["waig dot anggur", "waiɡ dot aŋɡur"],
     nij: ["anggor", "aŋɡor"],
     sda: ["uai anggoroʼ", "uai aŋɡoroʔ"],
-    wls: ["vino", "ˈvino"],
-    fud: ["vino", "ˈvino"],
+    wls: ["vino", "vino"],
+    fud: ["vino", "vino"],
 
     // --- Caucasus, Volga-Ural, Siberia, Semitic and the Horn ---
     dar: ["чягъир", "tʃaˤʁir"],

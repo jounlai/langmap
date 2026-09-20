@@ -364,8 +364,8 @@ WORDS.cuckoo = {
     uby: ["kʷəgʷ", "kʷəɡʷ"],
     xmf: ["გუგული", "ɡuɡuli"],
     os: ["гӕкког", "ɡækˈkoɡ"],
-    ty: ["ʻārevareva", "ʔaːɾevaˈɾeva"],
-    rar: ["karavia", "kaɾaˈvia"],
+    ty: ["ʻārevareva", "ʔaːɾevaɾeva"],
+    rar: ["karavia", "kaɾavia"],
     mni: ["ꯀꯣꯀꯤꯜ", "kɔkil"],
     nag: ["Kuli Sorai", "kuli sɔrai"],
     dz: ["ཁུ་བྱུག", "kʰú tɕǔʔ"],
@@ -519,7 +519,7 @@ WORDS.cuckoo = {
     fkv: ["käki", "ˈkæki"],
     fit: ["käki", "ˈkæki"],
     aln: ["qyqe", "ˈcyce"],
-    fud: ["kāleva", "kaːˈleva"],
+    fud: ["kāleva", "kaːleva"],
     lep: ["ᰀᰀᰪᰑᰨ", "kəkɯfo"],
 
     // --- Pluricentric rows — each reads its own row's vowel where one differs

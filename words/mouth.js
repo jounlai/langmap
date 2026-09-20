@@ -267,7 +267,7 @@ WORDS.mouth = {
     fon: ["nu", "nu"],
     fr_qc: ["bouche", "bʊʃ"],
     fro: ["bouche", "ˈbutʃə"],
-    fud: ["gutu", "ˈŋutu"],
+    fud: ["gutu", "ŋutu"],
     fur: ["bocje", "ˈbɔce"],
     fy: ["mûle", "ˈmuːlə"],
     gcf: ["bouch", "buʃ"],
@@ -402,7 +402,7 @@ WORDS.mouth = {
     pi_edu: ["mukha", "mukʰa"],
     piu: ["tjaa", "caː"],
     pjt: ["tjaa", "caː"],
-    pkp: ["ngutu", "ˈŋutu"],
+    pkp: ["ngutu", "ŋutu"],
     pmng: ["*aman", "aman"],
     pmt: ["vaha", "vaha"]
   }

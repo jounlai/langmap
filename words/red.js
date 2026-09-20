@@ -724,7 +724,7 @@ WORDS.red = {
     uby: ["pɬaʒʲa", "pɬaʒʲa"],
     xmf: ["ჭითა", "tʃʼitʰa"],
     os: ["сырх", "sɨrx"],
-    ty: ["ʻuteʻute", "ʔuteˈʔute"],
+    ty: ["ʻuteʻute", "ʔuteʔute"],
     niu: ["kula", "kula"],
     tvl: ["kula", "kula"],
     rap: ["mea mea", "mea mea"],

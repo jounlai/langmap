@@ -650,7 +650,7 @@ WORDS.earth = {
     pau: ["chutem", "ˈʔutɛm"],
     lus: ["lei", "ˈlei̯"],
     sat: ["ᱚᱛ", "ɔt"],
-    ty: ["repo", "ˈrepo"],
+    ty: ["repo", "repo"],
     tet: ["rai", "ˈrai"],
     lkt: ["makȟá", "maˈkʰa"],
     gan_ja: ["土", "tʰu˨˩˧"],

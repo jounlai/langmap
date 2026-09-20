@@ -348,7 +348,7 @@ WORDS.black = {
     jvn: ["ireng", "irəŋ"],
     bjn: ["hirang", "hiraŋ"],
     tet: ["metan", "metan"],
-    ty: ["ʻereʻere", "ʔereˈʔere"],
+    ty: ["ʻereʻere", "ʔereʔere"],
     niu: ["uli", "uli"],
     rar: ["kerekere", "keɾekeɾe"],
     rap: ["uri", "uɾi"],

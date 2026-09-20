@@ -324,7 +324,7 @@ WORDS.tongue = {
     mi: ["arero", "aɾeɾo"],
     qu: ["qallu", "qaʎu"],
     zh_db: ["舌头", "ʂɤ˧˥ tʰou"],
-    zh_sc: ["舌头", "se˨˩ tʰəu˨˩"],
+    zh_sc: ["舌头儿", "se˨˩ tʰəɹ˨˩"],
     cdo: ["喙舌", "tsʰui˨˩˧ siɛʔ˨˦"],
     bo: ["ལྕེ", "tɕe˥"],
     bft: ["ལྕེ", "ltʃe"],

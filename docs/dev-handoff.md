@@ -290,10 +290,33 @@ indicts the opening paragraph of `words/foot.js`, which states as a headline
 claim that "脚/腿 are distinct in Mandarin, Jin and Wu". `wuu_jx` is held with
 its cell finished (脚 tɕiɑʔ˥, 俞光中 1988) waiting on this.
 
-**2. Quechua, 3 rows.** `qu`, `quz`, `quy` are `leg+foot`; Heggarty's
-crossandean elicits FOOT and LEG separately and returns a distinct leg word in
-EVERY modern variety (Cuzco čaki/čaka, Ayacucho chaki/chanka, Huallaga, Huanca,
-Jauja, Imbabura). Only Santo Tomás `qwc` merges.
+**2. Quechua — CLOSED 2026-09-20, no change. The flag was wrong.**
+It said crossandean returns a distinct leg word in every modern variety with
+only Santo Tomás merging. Reading the dataset's own columns: **eleven
+doculects answer LEG with the FOOT form**, and of the six southern points
+Heggarty elicited himself, **five merge** — Cuzco is the outlier inside its
+own branch. Ayacucho's `chanka` is not field data at all, its Source being
+`soto1976`, a dictionary lookup; the one Chanka-area point Heggarty did
+elicit, Atalla, answered with the Spanish loan `perna`. The two colonial rows
+carry the dataset's own Comment, "pierna de animal."
+
+The positive account: **southern Quechua divides the lower limb at the KNEE**
+— `chaki` from the knee down, `chanka`/`chaka` above it. González Holguín
+1608 heads "Chaqui. Pie o la pierna" and builds every leg expression on it;
+AMLQ glosses `chaka` as the limb "que comprende el muslo, la pierna y el
+pie", i.e. a whole-limb word that CONTAINS the foot and so cannot be the
+other half of a split; Parker 1964 gives SHIN in both Cuzco and Ayacucho as
+`čaki sinqa`, the shank named off the foot word. Eleven New Testaments pass
+the bone control (19:36 = `tullu` everywhere) and no Cusco-Collao translation
+uses `chaka` or `chanka` for a leg; Ayacucho's whole Bible uses `chanka` once,
+at Exodus 20:26, for nakedness, and paraphrases Daniel 2:33's iron legs as
+"moqonmanta chakinkama", from the knee to the chaki.
+
+So a questionnaire with separate FOOT and LEG slots has nothing clean to put
+in the narrow one and returns the thigh word, a Spanish loan, or `chaki`
+again — **the same artefact that decided the IDS 'under of the leg' phrases
+in 80fa53cc.** This is now the second time that instrument has produced a
+false split, and it is worth assuming it will do so again.
 
 **3. One defect class, one deterministic checker — not twelve separate fixes.**
 A cell holding its NEIGHBOURING CONCEPT's word. Confirmed instances found by

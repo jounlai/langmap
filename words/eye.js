@@ -1213,7 +1213,7 @@ WORDS.eye = {
     mam: ["witz", "wits"],
     wal: ["ayfee", "ajfeː"],
     sid: ["ille", "ilːe"],
-    tji: ["mie", "mie˨˩"],
+    tji: ["luobu", "lo˧˥pu˥˥"],  // Brassett & Brassett (2005) luo2bu1, ZMYYC 238.38, TBL 0079.49, 土家语简志 — five independent records. The cell had held the blood word; a STEDT form search on 'mie' across all five Tujia sources returns only blood, blow, angry and folk song.
     nij: ["mate", "mate"],
     sda: ["mata", "mata"],
     lld: ["uedl", "ˈwəːdl"],

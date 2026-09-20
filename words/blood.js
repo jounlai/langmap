@@ -1143,7 +1143,7 @@ WORDS.blood = {
     mam: ["chikʼ", "tʃikʼ"],
     wal: ["suutta", "suːtːa"],
     sid: ["munde", "munde"],
-    tji: ["mie", "mie˥˥"],
+    tji: ["mie", "mie˥˧"],  // Tone corrected: ZMYYC 268.38 and TBL 0129.49 give mie53, and Brassett writes mie4 (his tone 4 = high falling). The ˥˥ was invented.
     nij: ["daha", "dahaʔ"],
     sda: ["rara", "rara"],
     lld: ["sanch", "saŋk"],

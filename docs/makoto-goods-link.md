@@ -26,7 +26,7 @@ LangMap側の作業は **§1 のパラメータ1個の追加だけ**です。
 （`u.searchParams.set('ui', uiLang);` の直後）に1行足してください。
 
 ```js
-u.searchParams.set('words', 'https://langmap.heuron.com/lang_words/' + code + '.js');
+u.searchParams.set('words', 'https://langmaps.com/lang_words/' + code + '.js');
 ```
 
 これで完成形は次のとおりです。
@@ -39,7 +39,7 @@ https://makoto-gadgets.com/ja/goods/langmap
   &name=Japanese
   &native=日本語
   &ui=ja
-  &words=https%3A%2F%2Flangmap.heuron.com%2Flang_words%2Fja.js
+  &words=https%3A%2F%2Flangmaps.com%2Flang_words%2Fja.js
 ```
 
 ### 言語は2つ別ものです
@@ -76,7 +76,7 @@ URL生成を関数に切り出し、モーダルとSEOページの両方から�
 
 | 項目 | 現在の値 | 備考 |
 |---|---|---|
-| データURLの形 | `https://langmap.heuron.com/lang_words/<code>.js` | Makotoはこの**接頭辞を検証**します。別ホスト・別パスに移す場合は事前連絡が必要 |
+| データURLの形 | `https://langmaps.com/lang_words/<code>.js` | Makotoはこの**接頭辞を検証**します。別ホスト・別パスに移す場合は事前連絡が必要。2026-09-21 に `langmap.heuron.com` から移行（オーナー確認済み） |
 | ファイルの中身 | `window.__wmLangWordsAdd("<code>",{ "<concept>": ["表記","IPA"], ... })` | Makotoはサーバー側で第2引数を取り出してJSONとして読みます |
 | 公開設定 | 認証なしで200を返すこと | CORSヘッダは**不要**（Makotoはサーバー側から取得） |
 | 言語コード | `ja` `ja_osa` `es_cr` など | `lang` と `words` のコードは必ず一致させる |

@@ -623,11 +623,19 @@ byte-identical to baseline, validator warnings 244 → 237, strict mode exit 0, 
 unchanged, `php -l seo/lib.php` clean.
 
 **Why it is stopped.** `docs/domain-migration-runbook.md` §0-3 and `docs/makoto-goods-link.md`
-record that **Makoto Gadgets validates the `https://langmap.heuron.com/lang_words/<code>.js`
-prefix on its order pages**, and say in bold that format changes need advance notice. These
-recodes rename two of those files and delete a third. `SEO_RENAMED_CODES` covers `/lang/` URLs,
-**not** `/lang_words/`, and no guard checks it. Applying this needs a server-side 301 on the
-heuron host plus a note to Makoto. That is the owner's call, not a code change.
+record that **Makoto Gadgets validates the `/lang_words/<code>.js` prefix on its order pages**,
+and say in bold that format changes need advance notice. These recodes rename two of those
+files and delete a third. `SEO_RENAMED_CODES` covers `/lang/` URLs, **not** `/lang_words/`, and
+no guard checks it.
+
+**PARTIALLY UNBLOCKED 2026-09-21, but not by enough to proceed.** The HOST half is done: the
+owner confirmed Makoto now validates `langmaps.com`, and `wordmap.html` WORDS_DIR plus the
+three references in `docs/makoto-goods-link.md` were moved off `langmap.heuron.com`
+(commit below). That does NOT unblock the recodes — the remaining risk was never the host, it
+is the FILENAMES. `lang_words/pt_gw.js` and `lang_words/en_ng2.js` disappear and
+`lang_words/afb.js` is deleted outright, so any goods page already built against those three
+URLs breaks whatever host it points at. Still the owner's call: either Makoto is told the three
+codes are changing, or the old filenames stay as redirects/copies.
 
 Two steps the obvious plan misses, both mandatory and both in the same commit:
 - `wordmap_data.js` **line 2 says "1188 languages"** — the validator hard-ERRORs the moment

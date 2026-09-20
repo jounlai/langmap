@@ -8141,12 +8141,14 @@
             // loop stays local. In production both go to the real hosts.
             const _isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
             const MK_BASE = _isLocal ? 'http://localhost:3001' : 'https://makoto-gadgets.com';
-            // DELIBERATELY still the OLD host, and not an oversight. Makoto
-            // Gadgets validates this exact prefix server-side
-            // (docs/makoto-goods-link.md §2), so moving it before they are
-            // told blanks every goods page. The old host keeps serving
-            // /lang_words/ for that reason — docs/domain-migration-runbook.md §0-3.
-            const WORDS_DIR = (_isLocal ? location.origin : 'https://langmap.heuron.com') + '/lang_words/';
+            // Moved to langmaps.com on 2026-09-21, at the owner's confirmation
+            // that Makoto's server-side prefix check (docs/makoto-goods-link.md
+            // §2) now accepts the new host. It was deliberately pinned to
+            // langmap.heuron.com until then, because changing it first blanks
+            // every goods page — if goods pages ever go blank again, this line
+            // and Makoto's validator have drifted apart, and that is the first
+            // place to look.
+            const WORDS_DIR = (_isLocal ? location.origin : 'https://langmaps.com') + '/lang_words/';
             const u = new URL(MK_BASE + '/' + mkLocale + '/goods/langmap');
             u.searchParams.set('src', 'langmap');
             u.searchParams.set('map', 'wordmap');

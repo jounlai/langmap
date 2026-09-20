@@ -46,6 +46,7 @@ const WORD_ORDER = [
     "tooth",
     "tongue",
     "hand",
+    "foot",
     "heart",
     "bone",
     "blood",
@@ -97,7 +98,6 @@ const WORD_ORDER = [
     // exists, so they are grouped last, after the full-coverage core words.
     "blue",
     "butterfly",
-    "foot",
     "cuckoo",
     "woof",
     "cockcrow",

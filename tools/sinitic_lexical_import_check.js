@@ -77,6 +77,14 @@ const ALLOW = {
     // counted against a budget.
     'foot|hak_cn': true,
 
+    // tongue: gan (Nanchang) writes 舌头 where gan_yc, gan_ja and gan_fz write
+    // bare 舌. That is a real split inside Gan, not an import — 《南昌方言詞典》
+    // p.257 heads 舌頭, and 語保 gives 舌頭 at the Ji'an and Fuzhou CITY points
+    // while every surrounding point in the same subgroup keeps bare 舌
+    // (Lichuan is a 大詞典 headword for it). The check compares a row against
+    // its siblings and cannot see that the siblings are the countryside.
+    'tongue|gan': true,
+
     // --- tooth. NOT allowed, and listed here only to say why: `nan_pn` and
     // `nan_hai` are the two Min rows still on 牙 after Teochew and Puxian moved
     // to 齒 on 2026-09-05. Haikou IS 齒 in the dialect tables, so `nan_hai` is

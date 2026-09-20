@@ -610,7 +610,14 @@ line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale:
 // 10 since 2026-09: book/nan_te 书 against five Hokkien siblings' 冊 is a real
 // Teochew/Hokkien lexical split, not an import — Wiktionary gives Teochew 書 ze1,
 // and the cell's /tsɯ˧˧/ is exactly that reading, not Mandarin shū.
-const LEXICAL_IMPORT_DEBT = 10;
+// 10 -> 11 on 2026-09-20. The new entry is `tongue|hsn_yz`, and it is counted
+// rather than ALLOWed because it is a real finding, not a false positive:
+// hsn_yz writes 舌头 where hsn and hsn_hy write 舌子, and its whole tongue and
+// bone cells are Changsha's. It cannot be repaired by derivation — the row's
+// 陽入 cells give five different contours — so it sits here, visible, until
+// someone re-cuts the row. `tongue|gan` went into the tool's ALLOW block
+// instead, because that one IS a genuine Gan city/countryside split.
+const LEXICAL_IMPORT_DEBT = 11;
 s = run('sinitic_lexical_import_check.js --check');
 {
     const n = num(s, /mandarin-shaped cells: (\d+)/);

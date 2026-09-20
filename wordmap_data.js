@@ -4658,26 +4658,65 @@ const LANG_DATA = {
       one:    { evidence: 'direct', source: 'Kane 2009 Index of Graphs #026 (glyph 𘬣 U+18B23, glossed ONE) per BabelStone Kane2009List transcription. Latin reading "omsu" follows Kane (2009).' },
       good:   { evidence: 'disputed', source: 'Kane 2009; semantic boundary unclear; no Khitan Small Script glyph mapping — surface left as Latin transliteration.' },
     } },
-  // Jurchen — Jin dynasty (1115-1234), ancestor of Manchu. Jurchen script is
-  // not in Unicode; Latin transliteration after Kane (1989), Jin (1984).
-  // juc Jurchen wordEvidence: per Codex review 4, all 18 cells are essentially
-  // Manchu projection. Direct Jurchen attestation requires Kane 1989 Sino-Jurchen
-  // vocabulary verification (not done online). All cells marked proxy from Manchu.
+  // Jurchen — Jin dynasty (1115-1234), ancestor of Manchu.
+  //
+  // WHAT THIS ROW WRITES, established by measurement on 2026-09-20 (review
+  // 547). Grube 1896, the edition of the Jurchen 女真譯語 this row's `foot`
+  // cell already cites by entry number, prints TWO columns per entry: the
+  // Chinese-character transcription of the Jurchen word, and the Manchu
+  // cognate after "m.". This row copies the SECOND column. Seven clean cases
+  // settle it — foot bethe (#505 vs Jurchen püuh-th-hei), fire tuwa (#21 vs
+  // Föh-wei), hand gala (#504 vs häh-lah), house boo (#2153 vs püh-kuö),
+  // night dobori (#78 vs to-lö-wöh), tree mo (#117 vs möh), star usiha (#12
+  // vs wöh-sih-häh). That convention is defensible and it is now written
+  // down, because without it the row looks like Manchu contamination when
+  // most of it is a documented cognate column.
+  //
+  // Four cells were in NEITHER column and are corrected: blood sekse ->
+  // senggi (#512), tooth iktele -> weihe (#495), stone jolo -> wehe (#52),
+  // fish imaha -> nimaha (#163, an initial n- dropped). The first three are
+  // Proto-Tungusic — *sekse, *iːkte, *ǯolo — which is the pyx defect again.
+  // Note that proto_form_leak_check.js caught only sekse: jolo differs from
+  // *ǯolo by one byte, so a haček is all that hid it.
+  //
+  // sun was šun, the Manchu sun word; Grube #3 glosses one Jurchen word
+  // 'Sonne, Tag' and gives m. inenggi, so inenggi is what the source
+  // licenses. we was beti, which is in neither column, is not Manchu (be /
+  // muse) and has no 'wir' entry in Grube at all — dashed, and its clusivity
+  // route removed rather than left asserting 'single' with no source.
+  //
+  // THE 漢字音訳 STRINGS WERE PARTLY INVENTED. father claimed 「阿馬」 and
+  // mother 「厄默」; Grube reads those entries ’a-min (#282) and ’öh-ning
+  // (#283). sun claimed 「順」 where Grube has yih-nöng-kih. The forms were
+  // right (they are the Manchu column) but the transliterations were
+  // manufactured to match them — the same shape of defect as pyx's
+  // "Miyake 2024". Those alt blocks are removed; the remaining 漢字音訳
+  // claims have NOT been re-checked entry by entry and should be.
+  //
+  // JurchenA vs JurchenB, unresolved. Hölzl 2017 (JSFOu 96: 97-99) splits
+  // Ming Jurchen into the Bureau of Translators corpus (Grube 1896, Kiyose
+  // 1977, Jurchen script) and the Bureau of Interpreters corpus (Kane 1989,
+  // Chinese transcription only), and they differ systematically. The row
+  // header cites Kane 1989 while everything verifiable here is Grube's
+  // corpus. Kane 1989 is not reachable online, and it is the one place the
+  // pronouns and the 漢字音訳 strings could still be right.
+  //
+  // Jurchen script IS in Unicode as of 18.0.0, released 2026-09-16: U+18E00
+  // Jurchen and U+191A0 Jurchen Radicals (verified against
+  // unicode.org/Public/UNIDATA/Blocks.txt, header Blocks-18.0.0.txt). The
+  // old comments saying otherwise were true when written and are not now,
+  // so the Latin-only choice needs a reason other than encoding — the same
+  // way the Khitan row carries U+18B23.
   juc: { name: 'Jurchen', native: 'jušen gisun', lat: 45.55, lng: 126.97,
-    // altWordForms: 女真譯語 (Hua-Yi Yiyu, c. 1500 Ming-era Chinese-character
-    // transliterations of Jurchen). Coverage is partial — only those entries
-    // widely cited in standard secondary sources. The Jurchen script proper
-    // is not yet in Unicode; these Chinese-character renderings are the
-    // primary written record for most basic vocabulary.
 
 
     wordEvidence: {
       water:  { evidence: 'direct', source: '女真訳語 (1380s 四夷館編) 漢字音訳「沒可」 (mu-ke); + Manchu cognate muke' },
       fire:   { evidence: 'direct', source: '女真訳語 漢字音訳「脱瓦」 (to-wa); + Manchu cognate tuwa' },
-      sun:    { evidence: 'direct', source: '女真訳語 漢字音訳「順」 (šun); + Manchu cognate šun' },
+      sun:    { evidence: 'direct', source: 'Grube 1896 #3 "Sonne, Tag" = yih-nöng-kih, m. inenggi. One Jurchen word covers sun and day.' },
       moon:   { evidence: 'direct', source: '女真訳語 漢字音訳「必牙」 (bi-ya); + Manchu cognate biya' },
-      mother: { evidence: 'direct', source: '女真訳語 漢字音訳「額墨」 (e-me); + Manchu cognate eme' },
-      father: { evidence: 'direct', source: '女真訳語 漢字音訳「阿瑪」 (a-ma); + Manchu cognate ama' },
+      mother: { evidence: 'proxy',  source: 'Grube 1896 #283 "Mutter" reads ’öh-ning and gives m. eniye, not eme. Manchu has both; the form is unresolved pending Kane 1989.' },
+      father: { evidence: 'direct', source: 'Grube 1896 #282 "Vater", m. ama. The Jurchen transcription is ’a-min; the 阿瑪 previously cited here is not in Grube.' },
       eat:    { evidence: 'proxy', source: 'Manchu jefu (basic verb stem; Jurchen-script transcription not directly attested in 女真訳語 lexical sample)' },
       drink:  { evidence: 'proxy', source: 'Manchu omi' },
       love:   { evidence: 'proxy', source: 'Manchu gosi' },
@@ -4690,6 +4729,16 @@ const LANG_DATA = {
       eye:    { evidence: 'proxy', source: 'Manchu yasa' },
       hello:  { evidence: 'disputed', note: 'no Jurchen greeting formula attested in 女真譯語 (1380s); Manchu equivalent saiyūn "are you well?" is not a reconstructed Jurchen ancestral form — surface "—" indicates lacuna in the Ming-era Hua-Yi Yiyu lexical sample' },
       thanks: { evidence: 'disputed', note: 'no Jurchen thanks formula attested in 女真譯語; Manchu baniha "thanks" is a later Sino-Manchu Qing-period formation (probably from Mongolian) — surface "—" indicates the absence in the Ming Jurchen corpus' },
+      blood:  { evidence: 'direct', source: 'Grube 1896 #512 "Blut" = seh-kih, m. senggi. The earlier sekse is Proto-Tungusic *sekse and is in no Jurchen source.' },
+      tooth:  { evidence: 'direct', source: 'Grube 1896 #495 "Zahn" = wei-höi, m. weihe. The earlier iktele is Proto-Tungusic *iːkte.' },
+      stone:  { evidence: 'direct', source: 'Grube 1896 #52 "Stein" = wöh-hei, m. wehe. The earlier jolo is Proto-Tungusic *ǯolo.' },
+      fish:   { evidence: 'direct', source: 'Grube 1896 #163 "Fisch" = ni-mang-ku, m. nimaha. The earlier imaha had lost the initial n-.' },
+      iron:   { evidence: 'direct', source: 'Grube 1896 #574 "Eisen" = seh-leh, m. sele.' },
+      three:  { evidence: 'direct', source: 'Grube 1896 #638 "drei" = i-lan, m. ilan.' },
+      star:   { evidence: 'direct', source: 'Grube 1896 #12 "Stern" = wöh-sih-häh, m. usiha.' },
+      i:      { evidence: 'proxy',  source: 'Manchu bi. Grube\'s pronoun sketch gives the corpus\'s COMPLETE inventory — mini (1sg gen./poss.), the demonstratives, one indefinite — and it contains no bi and no si. Unchecked against Kane 1989.' },
+      you:    { evidence: 'proxy',  source: 'Manchu si. See `i`: no 2sg pronoun in Grube\'s corpus.' },
+      we:     { evidence: 'disputed', note: 'Dashed 2026-09-20. The earlier beti is in no column of Grube, is not Manchu (be / muse), and Grube has no "wir" entry at all.' },
       one:    { evidence: 'proxy', source: 'Manchu emu' },
       good:   { evidence: 'proxy', source: 'Manchu sain' },
     } },

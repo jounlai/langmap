@@ -1145,13 +1145,7 @@ WORDS.father = {
     osn: ["bapa", "bapa"],
     h_tagalog: ["ᜀᜋ", "ama"],
     zkt: ["ai", "ai"],
-    juc: {
-      form: "ama",
-      ipa:  "ama",
-      alt: [
-        { form: "阿馬", script: "Chinese-character transliteration", source: "女真譯語; 阿馬 = ama" },
-      ],
-    },
+    juc: ["ama", "ama"],  // Grube 1896 #282 'Vater', m. ama. The 漢字音訳 is NOT 阿馬: Grube reads it ’a-min. Form kept, invented transliteration removed.
     omx: ["ဖ", "pʰɛʔ"],
     pyx: ["—", "—"],
     obr: ["အဖ", "ʔap"],

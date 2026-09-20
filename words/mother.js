@@ -1151,13 +1151,7 @@ WORDS.mother = {
     osn: ["indung", "induŋ"],
     h_tagalog: ["ᜁᜈ", "ina"],
     zkt: ["eme", "eme"],
-    juc: {
-      form: "eme",
-      ipa:  "eme",
-      alt: [
-        { form: "厄默", script: "Chinese-character transliteration", source: "女真譯語; 厄默 = eme" },
-      ],
-    },
+    juc: ["eme", "eme"],  // Grube 1896 #283 'Mutter' reads ’öh-ning and gives m. eniye, not 厄默/eme. Manchu has both eme and eniye; the form is left pending a Kane 1989 check, the invented transliteration is removed.
     omx: ["မိ", "mi"],
     pyx: ["—", "—"],
     obr: ["အမိ", "ʔamiy"],

@@ -1083,7 +1083,7 @@ WORDS.fish = {
     osn: ["lauk", "lauk"],
     h_tagalog: ["ᜁᜐ᜔ᜇ", "ʔisˈdaʔ"],
     zkt: ["—", "—"],
-    juc: ["imaha", "imaxa"],
+    juc: ["nimaha", "nimaxa"],
     omx: ["က", "kaʔ"],
     pyx: ["—", "—"],
     obr: ["ငါး", "ŋaːh"],

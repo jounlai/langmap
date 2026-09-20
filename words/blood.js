@@ -1078,7 +1078,7 @@ WORDS.blood = {
     osn: ["getih", "ɡətih"],
     h_tagalog: ["ᜇᜓᜄᜓ", "duˈɡoʔ"],
     zkt: ["—", "—"],
-    juc: ["sekse", "səksə"],
+    juc: ["senggi", "səŋɡi"],
     omx: ["ဆိမ်", "cʰim"],
     pyx: ["—", "—"],
     obr: ["သွေး", "swajh"],

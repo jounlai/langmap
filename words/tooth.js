@@ -1098,7 +1098,7 @@ WORDS.tooth = {
     osn: ["huntu", "huntu"],
     h_tagalog: ["ᜅᜒᜉᜒᜈ᜔", "ŋiˈpin"],
     zkt: ["—", "—"],
-    juc: ["iktele", "iktələ"],
+    juc: ["weihe", "wəixə"],
     omx: ["ငေက်", "ŋiak"],
     pyx: ["—", "—"],
     obr: ["သွား", "swaːh"],

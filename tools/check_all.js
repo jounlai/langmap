@@ -353,6 +353,20 @@ line('asset cache-version freshness', num(s, /violations: (\d+)/));
 s = run('page_asset_version_check.js --check');
 line('page ?v= cache-buster freshness', num(s, /violations: (\d+)/));
 
+// Pre-compressed .br siblings for the seven biggest shipped files. nginx has
+// `brotli_static on`, and it serves <file>.br WITHOUT checking that it is
+// newer than <file> — a stale one would serve the previous version of the
+// page to every visitor who accepts brotli, silently, and no other guard
+// would see it. Same shape as the ?v=1 freeze, which is why it gets a guard
+// on the day the mechanism is introduced rather than after it bites.
+//
+// The check decompresses each .br and compares the bytes, so it also catches
+// a truncated file, not only an out-of-date one. Note the ORDER: these must
+// be rebuilt AFTER bump_versions.js, which rewrites ?v= inside wordmap.html
+// and hanmap.html.
+s = run('build_br.js --check');
+line('pre-compressed .br freshness', num(s, /stale: (\d+)/));
+
 // Trivia article buttons whose target does not exist: a data-char that is not
 // one of the 61 characters, a data-code that is not a language row, a data-word
 // with no cell. The click silently does nothing, and because every article body

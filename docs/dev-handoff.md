@@ -54,6 +54,12 @@ Note: this repo's Claude auto-memory lives outside the repo (`~/.claude/…`) an
   - `__langNamesVersion(N)` in wordmap.html must equal `WM_ASSET_VERSION.names`.
 - Bump the language-count in the `wordmap_data.js` header comment when adding languages (it's validated).
 
+### Pre-compressed `.br` — run LAST, after `bump_versions.js`
+- `node tools/build_br.js` → `wordmap.html.br`, `hanmap.html.br`, `wordmap_data.js.br`, `word_labels.js.br`, `wordmap_meta_lite.js.br`, `lang-filter.js.br`, `my-languages.js.br`.
+- Brotli quality 11, which nginx cannot afford per request (1.2 s for wordmap.html); `brotli_static on` serves these instead and falls back to its own quality-5 pass for everything else. 867 KB of `.br` against 4.08 MB of source, and about 137 KB off a first visit on top of dynamic brotli.
+- **It must run after `bump_versions.js`**, which rewrites `?v=` inside `wordmap.html` and `hanmap.html`. A `.br` built before it is stale the moment the bump lands.
+- The `.br` files are **committed**, because deployment is a bare `git pull` and nginx serves `<file>.br` without checking it is newer than `<file>` — a forgotten regeneration would serve the previous page to every brotli client, silently. `check_all`'s `pre-compressed .br freshness` guard decompresses each one and compares the bytes, so a stale *or truncated* `.br` cannot be committed. Rebuilds are incremental; a full rebuild is ~6 s.
+
 ### Data integrity (the owner is emphatic)
 - **Never fabricate.** IPA is the binding constraint. Fill a cell only from a real source; leave `—` otherwise.
 - `surface===ipa` is an accepted convention where the orthography is phonemic.

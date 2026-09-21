@@ -2431,6 +2431,27 @@ const SEO_COUNTRY_ISO = [
  * seo_country_flag_img() below. */
 
 /**
+ * A class naming the script of a surface form, for the scripts the page has
+ * to do something about. Empty for everything else.
+ *
+ * Only Tibetan so far. Two things were wrong with it and only one was the
+ * size: these pages load no Tibetan face at all, so Windows fell back to
+ * Microsoft Himalaya, which is hairline-thin and sits low and small inside
+ * the em. The interactive map has loaded Noto Serif Tibetan from the start,
+ * which is why the same word looks right there and small here. Reported
+ * 2026-09-22.
+ *
+ * Detected from the characters rather than from the row's script metadata,
+ * so a Tibetan form on a row tagged as something else still gets the font.
+ * Eleven rows write in it: Tibetan, Classical and Liturgical Tibetan, Amdo,
+ * Khams, Dzongkha, Ladakhi, Balti, Sherpa, Sikkimese and Lhomi.
+ */
+function seo_script_class(string $s): string
+{
+    return preg_match('/[\x{0F00}-\x{0FFF}]/u', $s) ? ' s-tibt' : '';
+}
+
+/**
  * The first century a historical row covers, as a signed number: BCE
  * negative, CE positive. Null when meta.period is missing or unparseable.
  *
@@ -2899,7 +2920,7 @@ function seo_head(array $opts): void
          diacritics (POJ tone marks, ǔ) and Han glyphs render cleanly everywhere. */ ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Mongolian&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Mongolian&display=swap">
 <title><?= e($title) ?></title>
 <meta name="description" content="<?= e(seo_clip($desc)) ?>">
 <meta name="robots" content="<?= e($robots) ?>">
@@ -2965,6 +2986,13 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .wcard-era { font-size: .74rem; color: var(--muted); opacity: .8;
   font-variant-numeric: tabular-nums; margin: -.25rem 0 .3rem; }
 .wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word; }
+/* Tibetan needs its own face and a little more room. Noto Serif Tibetan is
+   loaded above; the rest of the chain is the one the interactive map uses.
+   The size bump is small and the leading is not: Tibetan stacks subjoined
+   letters below the base letter, and 1.2 crops them against the line under. */
+.s-tibt { font-family: "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya",
+  "Jomolhari", "Tibetan Machine Uni", serif; }
+.wcard > .surface.s-tibt { font-size: 2.15rem; line-height: 1.5; }
 .wcard > .ipa { font-size: .92rem; color: var(--muted); margin: .1rem 0 0; }
 .wcard-where { margin: .3rem 0 0; font-size: .86rem; line-height: 1.75; }
 /* The flag and the name it belongs to must never be split across a line.
@@ -3003,6 +3031,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   border-radius: .25rem; }
 .wcard-more .wcard-form { margin-top: .6rem; padding-top: .6rem; border-top: 1px dashed var(--line); }
 .wcard-more .surface { font-size: 1.15rem; margin: 0; }
+.wcard-more .surface.s-tibt { font-size: 1.45rem; line-height: 1.5; }
 .wcard-more .ipa { font-size: .85rem; color: var(--muted); margin: 0; }
 @media (max-width: 480px) { .wgrid { grid-template-columns: 1fr; } }
 
@@ -3069,6 +3098,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-word .label { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em;
   color: var(--muted); margin: 0 0 .25rem; }
 .seo-word .surface { font-size: 2rem; line-height: 1.15; margin: 0; word-break: break-word; }
+.seo-word .surface.s-tibt { font-size: 2.45rem; line-height: 1.5; }
 /* The word index inverts the card: the word is the target and the count is
    the annotation, the opposite way round from a language page's word card. */
 .widx .widx-word { font-size: 1.35rem; margin: 0; line-height: 1.25; }

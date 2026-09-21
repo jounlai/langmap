@@ -175,7 +175,7 @@ $goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
                into the word pages; without it they were reachable from the
                hub and the sitemap and nothing else. */ ?>
       <p class="label"><a href="<?= e(seo_path($ui, 'word', $id)) ?>"><?= e($label) ?></a></p>
-      <p class="surface" lang="<?= e($code) ?>"><?= e($surface !== '' ? $surface : '—') ?></p>
+      <p class="surface<?= seo_script_class($surface) ?>" lang="<?= e($code) ?>"><?= e($surface !== '' ? $surface : '—') ?></p>
       <?php if ($ipa !== ''): ?><p class="ipa"><?= e($ipa) ?></p><?php endif; ?>
       <?php foreach ($alts as $a):
           $af = $a['form'] ?? ''; if ($af === '') continue;

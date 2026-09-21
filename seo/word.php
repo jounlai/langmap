@@ -369,7 +369,8 @@ function seo_render_word(array $data, array $word, string $ui): void
         echo '<article class="wcard"><h3 class="wcard-lang">' . $head . '</h3>'
            . (($g['period'] !== '' && ($g['region'] ?? '') === 'ancient')
                ? '<p class="wcard-era">' . e($g['period']) . '</p>' : '')
-           . '<p class="surface"' . ($lm['bcp47'] !== '' ? ' lang="' . e($lm['bcp47']) . '"' : '')
+           . '<p class="surface' . seo_script_class($lead['surface']) . '"'
+             . ($lm['bcp47'] !== '' ? ' lang="' . e($lm['bcp47']) . '"' : '')
              . '>' . e($lead['surface']) . '</p>'
            . ($lead['ipa'] !== '' ? '<p class="ipa">/' . e($lead['ipa']) . '/</p>' : '');
 
@@ -402,7 +403,8 @@ function seo_render_word(array $data, array $word, string $ui): void
             $b = $sp['reads'][0]['members'][0]['bcp47'];
             echo '<div class="wcard-form' . ($oneSpelling ? '' : ' is-multi') . '">';
             if (!$oneSpelling) {
-                echo '<p class="surface"' . ($b !== '' ? ' lang="' . e($b) . '"' : '')
+                echo '<p class="surface' . seo_script_class($sp['surface']) . '"'
+                   . ($b !== '' ? ' lang="' . e($b) . '"' : '')
                    . '>' . e($sp['surface']) . '</p>';
             }
             foreach ($sp['reads'] as $rd) {

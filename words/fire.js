@@ -151,7 +151,7 @@ WORDS.fire = {
       har: ["isat", "isɑt"],
       es_pr: ["fuego", "ˈfweɣo"],
       es_do: ["fuego", "ˈfweɣo"],
-      es_gt: ["fuego", "fweɣ̞o"],
+      es_gt: ["fuego", "ˈfweɣo"],
       es_ec: ["fuego", "ˈfweɣo"],
       es_uy: ["fuego", "ˈfweɣo"],
       ar_sy: ["نار", "naːr"],

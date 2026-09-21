@@ -151,7 +151,7 @@ WORDS.water = {
       har: ["miy", "miːj"],
       es_pr: ["agua", "ˈaɣwa"],
       es_do: ["agua", "ˈaɣwa"],
-      es_gt: ["agua", "aɣ̞wa"],
+      es_gt: ["agua", "ˈaɣwa"],
       es_ec: ["agua", "ˈaɣwa"],
       es_uy: ["agua", "ˈaɣwa"],
       ar_sy: ["ميّ", "majj"],

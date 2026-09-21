@@ -151,7 +151,7 @@ WORDS.drink = {
       har: ["šatäya", "ʃɑtəjɑ"],
       es_pr: ["beber", "beβel"],
       es_do: ["beber", "beβe"],
-      es_gt: ["beber", "beβ̞eɾ"],
+      es_gt: ["beber", "beˈβeɾ"],
       es_ec: ["beber", "beˈβeɾ"],
       es_uy: ["beber", "beˈβeɾ"],
       ar_sy: ["يشرب", "jɪʃɾab"],

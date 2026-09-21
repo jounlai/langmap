@@ -302,7 +302,7 @@ WORDS.bird = {
     gsw: ["Vogel", "ˈfoːɡl̩"],
     swg: ["Vogel", "foːɡl̩"],
     bar: ["Vogl", "foːɡl̩"],
-    vmf: ["Vogel", "foːɡl̩"],
+    vmf: ["Vogel", "ˈfoːɡl̩"],
     nds: ["Vagel", "ˈfaːɣəl"],
     ksh: ["Vugel", "fʊɡəl"],
     pdc: ["Voggel", "fɔɡəl"],

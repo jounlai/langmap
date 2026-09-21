@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Neutral stand-in for a row that belongs to no single country: Esperanto
+     and the other constructed languages, Romani "Europe-wide", Fula "across
+     the Sahel", African French, Old Prussian. Drawn here rather than taken
+     from flag-icons, which has no such mark, so that these rows keep the
+     same 4:3 box as a real flag and the column of names stays aligned.
+     Deliberately quiet — it must not read as a flag of anywhere. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img">
+  <rect width="640" height="480" fill="#eceef2"/>
+  <g fill="none" stroke="#8b93a3" stroke-width="22">
+    <circle cx="320" cy="240" r="150"/>
+    <path d="M170 240h300M320 90v300M320 90c-70 40-70 260 0 300M320 90c70 40 70 260 0 300"/>
+  </g>
+</svg>

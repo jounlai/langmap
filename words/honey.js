@@ -355,7 +355,7 @@ WORDS.honey = {
     pt_mo: ["mel", "mɛl"],
     pt_cv: ["mel", "mɛl"],
     ca_va: ["mel", "mel"],
-    ext: ["miel", "ˈmjel"],
+    ext: ["miel", "mjel"],
     nap: ["mèle", "ˈmɛːlə"],
     rgn: ["mél", "meːl"],
 

@@ -386,7 +386,7 @@ WORDS.tongue = {
     mn_cn: ["ᠬᠡᠯᠡ", "xel"],
     mnc: ["ᡳᠯᡝᠩᡤᡠ", "ilɤŋɡu"],
     sjo: ["ᡳᠯᡝᠩᡤᡠ", "iliŋɡu"],
-    ar_eg: ["لسان", "liˈsaːn"],
+    ar_eg: ["لسان", "lisaːn"],
     ar_lev: ["لسان", "lsaːn"],
     ar_gulf: ["لسان", "lisaːn"],
     ar_iq: ["لسان", "lisaːn"],

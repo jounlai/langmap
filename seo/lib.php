@@ -2443,13 +2443,19 @@ const SEO_COUNTRY_ISO = [
 function seo_country_flag_img(array $lang): string
 {
     $name = seo_country_name($lang);
+    // Two rows name something real that is not an ISO country, and both have
+    // a proper flag in the set. Everything else that names no single country
+    // — Esperanto and the constructed languages, Romani "Europe-wide", Fula
+    // "across the Sahel", African French, Old Prussian — takes the neutral
+    // mark, so the box is always filled and the names below stay in a column.
     $iso = SEO_COUNTRY_ISO[$name] ?? null;
-    if ($iso === null || $iso === 'GB-WLS') {
-        // Wales has no ISO 3166-1 file in the set; it shows no flag rather
-        // than the wrong one.
-        return '';
-    }
-    return '<img class="fl" src="/assets/flags/' . strtolower($iso) . '.svg" alt=""'
+    $file = match (true) {
+        $iso === 'GB-WLS'          => 'gb-wls',
+        $name === '22 Arab League states' => 'arab',
+        $iso !== null              => strtolower($iso),
+        default                    => '_intl',
+    };
+    return '<img class="fl" src="/assets/flags/' . $file . '.svg" alt=""'
         . ' width="21" height="16" loading="lazy" decoding="async">';
 }
 
@@ -2737,15 +2743,24 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word; }
 .wcard > .ipa { font-size: .92rem; color: var(--muted); margin: .1rem 0 0; }
 .wcard-where { margin: .3rem 0 0; font-size: .86rem; line-height: 1.75; }
-.wcard-where a { color: var(--muted); text-decoration: none; }
+/* The flag and the name it belongs to must never be split across a line.
+   inline-flex rather than nowrap: nowrap would keep them together but push a
+   long name (マリシート＝パッサマクオディ語) out of the card. As a flex row the
+   flag is a non-shrinking item pinned at the start and the name wraps INSIDE
+   the link, so the flag can never end up alone at the end of a line. */
+.wcard-where a { color: var(--muted); text-decoration: none;
+  display: inline-flex; align-items: baseline; max-width: 100%;
+  vertical-align: top; }
 .wcard-where a:hover, .wcard-where a:focus-visible { color: var(--fg); text-decoration: none;
   box-shadow: 0 1px 0 currentColor; }
 /* Flags are SVG files, not emoji — emoji flags do not render on Windows. The
    1px ring keeps a white flag (Japan) from dissolving into a white card. */
 .fl { width: 1.3em; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
   border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,.14); vertical-align: -.18em;
-  margin-right: .38em; }
-.wcard-lang .fl { vertical-align: -.22em; margin-right: .45em; }
+  margin-right: .38em; flex: 0 0 auto; }
+.wcard-lang { display: flex; align-items: baseline; }
+.wcard-lang .fl { margin-right: .45em; }
+.wcard-lang a { min-width: 0; overflow-wrap: anywhere; }
 
 /* "35 readings of the same spelling" — the variation stated, then unfolded on
    request. This is the line that replaced a wall of flags and names. */

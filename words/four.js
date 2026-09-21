@@ -71,7 +71,7 @@ WORDS.four = {
     pt_br: ["quatro", "ˈkwatɾu"],
     ru: ["четыре", "tɕɪˈtɨrʲɪ"],
     uk: ["чотири", "tʃoˈtɪrɪ"],
-    ar: ["أربعة", "ʔarbaʕa"],
+    ar: ["أربعة", "ˈʔarbaʕa"],
     he: ["ארבע", "ˈarba"],
     sw: ["nne", "nːe"],
 
@@ -1010,7 +1010,7 @@ WORDS.four = {
     uga: ["𐎀𐎗𐎁𐎓", "ʔarbaʕu"],
     xsa: ["𐩱𐩧𐩨𐩲", "ʔarbaʕ"],
     oar: ["ארבע", "ʔarbaʕ"],
-    ar_lev: ["أربعة", "ʔarbaʕa"],
+    ar_lev: ["أربعة", "ˈʔarbaʕa"],
     rif: ["ⴰⵕⴱⵄⴰ", "arˤbˤa"],
     shy: ["kkuẓ", "kːuzˤ"],
     tmh: ["ⵓⴽⴽⵓⵥ", "okːozˤ"],

@@ -151,7 +151,7 @@ WORDS.tree = {
       har: ["lafu", "laˈfu"],
       es_pr: ["árbol", "ˈaɾβol"],
       es_do: ["árbol", "ˈaɾβol"],
-      es_gt: ["árbol", "aɾβ̞ol"],
+      es_gt: ["árbol", "ˈaɾβol"],
       es_ec: ["árbol", "ˈaɾβol"],
       es_uy: ["árbol", "ˈaɾβol"],
       ar_sy: ["شجرة", "ʃaʒara"],

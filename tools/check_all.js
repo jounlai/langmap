@@ -598,6 +598,15 @@ line('route colouring complete', num(s, /violations: (\d+)/));
 s = run('proto_form_leak_check.js --check');
 line('proto form published as attested', num(s, /violations: (\d+)/));
 
+// One variety notating a shared form differently from its siblings — a
+// missing stress mark, a diacritic nobody else in the family uses. Guatemalan
+// Spanish wrote water aɣ̞wa against fourteen siblings' ˈaɣwa and nothing saw
+// it until the word pages started merging identical forms. Only fires when
+// the phones agree once stress and combining marks are stripped, so real
+// differences (German ä, Portuguese ã) never reach it.
+s = run('variety_notation_check.js --check');
+line('variety notation matches its siblings', num(s, /violations: (\d+)/));
+
 // A tonal row must not drop its Chao letters. 145 single-character cells had
 // none — 五 in half the Min rows, 雪 across a dozen, 鳥 and 风 the same — which
 // no other guard could see, because a missing tone is not a wrong tone. 79 were

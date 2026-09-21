@@ -1811,6 +1811,47 @@ function seo_family_line(string $ui, string $key, string $family): string
          . e(substr($s, $i + strlen($mark)));
 }
 
+/**
+ * Label for a COARSE family heading — "Sinitic", "Constructed" — in the UI
+ * language.
+ *
+ * The meta translation table is keyed on the FULL family string as the data
+ * writes it ("Constructed (a posteriori)", "Sinitic (Min Nan, Hokkien)"), and
+ * it covers those almost completely: 643 of 647. The coarse forms are a
+ * different matter — 37 of 107 have no entry, so a page that groups by coarse
+ * family and then asks for a translation gets English back. That is what
+ * happened when the word pages shipped: a Japanese reader saw "Constructed",
+ * "Tungusic" and 35 others untranslated.
+ *
+ * Rather than hand-translate 37 names into 19 languages, derive them from the
+ * translations that already exist and are already checked: translate a full
+ * string from the same group, then drop its trailing parenthetical. That
+ * fixes 32 of the 37 and needs no new copy.
+ *
+ * The four that remain — Guaicuruan, Yanomaman, Matacoan, Nadahup — have no
+ * entry in either form; they fall back to English, exactly as they already do
+ * on the language pages. It also quietly improves Ticuna-Yuri, whose entry is
+ * half-translated (a Japanese comma inside an English parenthetical).
+ *
+ * @param string $full any full family string belonging to this coarse group
+ */
+function seo_family_coarse_label(string $ui, string $coarse, string $full = ''): string
+{
+    $direct = seo_meta_value($ui, $coarse);
+    if ($direct !== $coarse) {
+        return $direct;                    // the coarse form is in the table
+    }
+    if ($full === '' || $full === $coarse) {
+        return $coarse;
+    }
+    // Trailing parenthetical, ASCII or fullwidth. Escaped rather than written
+    // literally so the fullwidth pair stays legible in a diff.
+    $re = '/\s*[(\x{FF08}][^)\x{FF09}]*[)\x{FF09}]\s*$/u';
+    $t = trim((string) preg_replace($re, '', seo_meta_value($ui, $full)));
+    return $t !== '' ? $t : $coarse;
+}
+
+
 function seo_meta_value(string $ui, string $value): string
 {
     if ($ui === 'en' || $value === '') {

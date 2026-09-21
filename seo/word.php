@@ -62,11 +62,12 @@ seo_render_word($data, $byId[$seo_id], $seo_ui);
  * but it is not a form, and a page called "chocolate in 164 languages" must
  * not count them.
  *
- * @return array{0:array<string,array<int,array{code:string,name:string,surface:string,ipa:string}>>,1:int}
+ * @return array{0:array<string,array<int,array{code:string,name:string,surface:string,ipa:string}>>,1:int,2:array<string,string>}
  */
 function seo_word_rows(array $data, string $id, string $ui): array
 {
     $groups = [];
+    $famEx = [];
     $n = 0;
     foreach ($data['langs'] as $code => $l) {
         if (!empty($l['excluded'])) {
@@ -81,12 +82,18 @@ function seo_word_rows(array $data, string $id, string $ui): array
         if ($surface === '' || preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $surface)) {
             continue;
         }
-        $fam = (string) ($l['meta']['family'] ?? '');
+        $famFull = (string) ($l['meta']['family'] ?? '');
         // Coarse family: "Sinitic (Min Nan, Hokkien)" and "Sinitic (Hakka)"
         // belong on one heading, the way the map's own legend groups them.
-        $fam = trim(explode(' (', $fam)[0]);
+        $fam = trim(explode(' (', $famFull)[0]);
         if ($fam === '') {
             $fam = '—';
+        }
+        // Keep one full string per group. The translation table is keyed on
+        // the full form, so the heading is built from that — see
+        // seo_family_coarse_label().
+        if (!isset($famEx[$fam])) {
+            $famEx[$fam] = $famFull;
         }
         $groups[$fam][] = [
             'code'    => (string) $code,
@@ -102,7 +109,7 @@ function seo_word_rows(array $data, string $id, string $ui): array
         usort($g, fn($a, $b) => strcoll($a['name'], $b['name']));
     }
     unset($g);
-    return [$groups, $n];
+    return [$groups, $n, $famEx];
 }
 
 
@@ -112,7 +119,7 @@ function seo_render_word(array $data, array $word, string $ui): void
     $label = seo_pick($word['label'] ?? [], $ui) ?: $id;
     $def = seo_pick($word['definition'] ?? [], $ui);
 
-    [$groups, $n] = seo_word_rows($data, $id, $ui);
+    [$groups, $n, $famEx] = seo_word_rows($data, $id, $ui);
     $nStr = (string) $n;
 
     $canonical = SEO_SITE . seo_path($ui, 'word', $id);
@@ -147,7 +154,7 @@ function seo_render_word(array $data, array $word, string $ui): void
 
 <?php foreach ($groups as $fam => $rows): ?>
 <section class="seo-section">
-  <h2><?= e($fam === '—' ? '—' : seo_meta_value($ui, $fam)) ?> <span class="sub">(<?= e((string) count($rows)) ?>)</span></h2>
+  <h2><?= e($fam === '—' ? '—' : seo_family_coarse_label($ui, $fam, $famEx[$fam] ?? '')) ?> <span class="sub">(<?= e((string) count($rows)) ?>)</span></h2>
   <div class="seo-words">
     <?php foreach ($rows as $r): ?>
     <div class="seo-word">
@@ -200,7 +207,7 @@ function seo_render_word_index(array $data, array $byId, string $ui): void
         $wid = (string) ($w['id'] ?? '');
         if ($wid === '') continue;
         $wl = seo_pick($w['label'] ?? [], $ui) ?: $wid;
-        [, $n] = seo_word_rows($data, $wid, $ui); ?>
+        [, $n, ] = seo_word_rows($data, $wid, $ui); ?>
     <div class="seo-word">
       <p class="label"><a href="<?= e(seo_path($ui, 'word', $wid)) ?>"><?= e($wl) ?></a></p>
       <p class="ipa"><?= e(seo_t($ui, 'wd_forms', ['n' => (string) $n])) ?></p>

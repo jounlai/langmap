@@ -140,10 +140,18 @@ function seo_word_rows(array $data, string $id, string $ui = 'en'): array
                 'country'=> seo_country_label($ui, $anchor),
                 'flag'   => seo_country_flag_img($anchor),
                 'size'   => 0,
+                'era'    => null,
+                'period' => '',
                 'forms'  => [],
             ];
         }
         $groups[$g]['size'] = max($groups[$g]['size'], (int) ($l['meta']['speakerCount'] ?? 0));
+        $period = trim((string) ($l['meta']['period'] ?? ''));
+        $era = seo_period_start($period);
+        if ($era !== null && ($groups[$g]['era'] === null || $era < $groups[$g]['era'])) {
+            $groups[$g]['era'] = $era;
+            $groups[$g]['period'] = $period;
+        }
         // Keyed on spelling AND sound. Spelling alone was wrong and hid the
         // best fact on the page: 45 Sinitic lects write water 水 and say it 35
         // different ways, and the first cut of this collapsed all 45 into one
@@ -221,6 +229,20 @@ function seo_word_rows(array $data, string $id, string $ui = 'en'): array
     $regions = [];
     foreach (SEO_REGION_ORDER as $k) {
         if (empty($rest[$k])) {
+            continue;
+        }
+        // The ancient section sorts by date, oldest first, not by country.
+        // Nothing in it has a speaker count, so country-then-size left every
+        // countryless row tied and sitting in file order — 「とてもランダム」,
+        // reported 2026-09-22. Chronology is the one axis these rows all
+        // carry, and it reads as a timeline instead of a list.
+        if ($k === 'ancient') {
+            uasort($rest[$k], static function (array $a, array $b): int {
+                $ae = $a['era'] ?? PHP_INT_MAX;
+                $be = $b['era'] ?? PHP_INT_MAX;
+                return ($ae <=> $be) ?: strcoll($a['label'], $b['label']);
+            });
+            $regions[$k] = $rest[$k];
             continue;
         }
         uasort($rest[$k], static function (array $a, array $b): int {
@@ -314,7 +336,14 @@ function seo_render_word(array $data, array $word, string $ui): void
         $head = ($g['flag'] ?? '') . ($members === 1
             ? '<a href="' . e(seo_path($ui, 'wordmap', $lm['code'])) . '">' . e($label) . '</a>'
             : e($label));
+        // The date, on the historical cards only. The section is sorted by it
+        // and that order is invisible without it — a reader has no way to know
+        // Sumerian precedes Hittite, so the timeline just looked like another
+        // arbitrary list. Printed raw, the way the map already prints it on a
+        // historical label.
         echo '<article class="wcard"><h3 class="wcard-lang">' . $head . '</h3>'
+           . (($g['period'] !== '' && ($g['region'] ?? '') === 'ancient')
+               ? '<p class="wcard-era">' . e($g['period']) . '</p>' : '')
            . '<p class="surface"' . ($lm['bcp47'] !== '' ? ' lang="' . e($lm['bcp47']) . '"' : '')
              . '>' . e($lead['surface']) . '</p>'
            . ($lead['ipa'] !== '' ? '<p class="ipa">/' . e($lead['ipa']) . '/</p>' : '');

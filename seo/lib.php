@@ -2431,6 +2431,144 @@ const SEO_COUNTRY_ISO = [
  * seo_country_flag_img() below. */
 
 /**
+ * The first century a historical row covers, as a signed number: BCE
+ * negative, CE positive. Null when meta.period is missing or unparseable.
+ *
+ * The field is a range written the way a reader writes one — "32cBCE-4cCE",
+ * "30-20cBCE", "6-1cBCE", "5-10c", "20-21c" — and the era can sit on either
+ * end. In "30-20cBCE" the 30 is bare and BCE, borrowed from the far end of
+ * the range; in "8cBCE-6cCE" each end carries its own. So: read the era off
+ * the first token when it has one, and off the second when it does not.
+ *
+ * This exists to sort the 古代語 section. The rows have no speaker counts, so
+ * every other sort key on the page ties at zero and leaves them in file
+ * order, which is how they came to read as random. Chronology is the axis
+ * they actually have, and it turns the section into a timeline: Egyptian and
+ * Sumerian at 32 and 30 centuries BCE, Edo Japanese and Luther's German near
+ * the end.
+ */
+function seo_period_start(string $period): ?int
+{
+    $parts = preg_split('/[\x{2013}\x{2014}-]/u', trim($period), 2);
+    if (!$parts || $parts[0] === '') {
+        return null;
+    }
+    $head = $parts[0];
+    $tail = $parts[1] ?? '';
+    if (!preg_match('/(\d+)/', $head, $m)) {
+        return null;
+    }
+    $n = (int) $m[1];
+    $bce = stripos($head, 'BCE') !== false
+        || (stripos($head, 'CE') === false && stripos($tail, 'BCE') !== false);
+    return $bce ? -$n : $n;
+}
+
+/**
+ * Historical rows whose flag the prose of meta.countries cannot decide.
+ *
+ * Two kinds of entry, and both are corrections to seo_sole_country():
+ *
+ *   an ISO code — the territory sits inside one modern country but the field
+ *   names a region or a polity, not a state: "Hatti (central Anatolia)",
+ *   "Java (Mataram, Kediri...)", "Historical: Friesland", "Jin Dynasty".
+ *
+ *   an empty string — the field names exactly one modern country and means
+ *   something wider. Old Norse reads "Scandinavia, Iceland, settlements" and
+ *   would take the Icelandic flag off the only word in it that is a state;
+ *   Luwian's "(Anatolia, north Syria)" names Syria and means Anatolia;
+ *   Avestan's homeland is Bactria and Margiana, which is Afghanistan and
+ *   Turkmenistan, whatever the word "Iran" is doing in the line.
+ *
+ * Everything absent from here is decided by the prose. Empires and spreads
+ * stay on the neutral mark on purpose — Rome, the Achaemenids, the Mongols,
+ * Classical Persian, Classical Maya, Kievan Rus' — because the owner drew the
+ * line at "fairly confined to one country's territory today", and a flag is a
+ * modern state making a claim on an ancient one.
+ */
+const SEO_ANCIENT_ISO = [
+    // A region or a polity, one modern country.
+    'hit'       => 'TR',  // Hatti, central Anatolia
+    'xpg'       => 'TR',  // Phrygia: Gordion, Midas City, Pessinus
+    'xlu'       => 'TR',  // Luwian — Anatolia, "north Syria" is the edge
+    'elx'       => 'IR',  // Elam: Khuzestan and Fars
+    'pyx'       => 'MM',  // Pyu city-states, central Burma
+    'obr'       => 'MM',  // Pagan Empire
+    'txg'       => 'CN',  // Western Xia
+    'juc'       => 'CN',  // Jin Dynasty
+    'kho'       => 'CN',  // Khotan, Tarim Basin
+    'txb'       => 'CN',  // Tocharian B, Tarim Basin
+    'kaw'       => 'ID',  // Java, "also Bali"
+    'osn'       => 'ID',  // Sunda kingdoms, West Java
+    'okz'       => 'KH',  // Khmer Empire — the rest is "parts of"
+    'oko'       => 'KR',  // Silla
+    'ko_gor'    => 'KR',  // Goryeo
+    'ko_mid'    => 'KR',  // Goryeo / early Joseon
+    'ko_em'     => 'KR',  // Joseon
+    'h_tagalog' => 'PH',  // Manila, Tondo, Cavite, Laguna
+    'ofs'       => 'NL',  // Friesland
+    'it_dan'    => 'IT',  // Tuscany, Florence
+    'de_lut'    => 'DE',  // Saxony, Wittenberg
+    'ang'       => 'GB',  // England
+    'enm'       => 'GB',  // Medieval England
+
+    // Named one country, meant more than one.
+    'non'       => '',    // Scandinavia, Iceland, settlements
+    'ave'       => '',    // Bactria and Margiana, not modern Iran
+    'cmg'       => '',    // Inner Mongolia and Mongolia, two states
+];
+
+/**
+ * The one modern country a row sits in, or null when it sits in more than
+ * one — read out of the prose of meta.countries.
+ *
+ * For the historical rows the field is a description, not a country list:
+ * "Ancient Sumer (southern Iraq)", "Kingdom of Kush / Meroe (modern Sudan)",
+ * "Roman Empire", "Kievan Rus' (modern Russia, Ukraine, Belarus)". The first
+ * two name exactly one modern state and should carry its flag; the last two
+ * should not, and the owner drew that line — a flag "where the territory is
+ * fairly confined to one country today".
+ *
+ * So: scan the whole string for country names, and answer only when exactly
+ * one distinct country is named. Sumerian gets Iraq, Meroitic gets Sudan,
+ * Hattic gets Türkiye, Classical Nahuatl gets Mexico; Classical Maya
+ * (Guatemala, Mexico, Belize, Honduras), Classical Persian (Iran,
+ * Afghanistan, Tajikistan, Uzbekistan) and Kievan Rus' name several and get
+ * the neutral mark, and Roman Empire and Gothic kingdoms name none.
+ *
+ * Word boundaries are not decoration here: "Roman Empire" contains the
+ * letters of Oman.
+ */
+function seo_sole_country(array $lang, string $code = ''): ?string
+{
+    $s = trim((string) ($lang['meta']['countries'] ?? ''));
+    if ($s === '') {
+        return null;
+    }
+    if (isset(SEO_ANCIENT_ISO[$code])) {
+        return SEO_ANCIENT_ISO[$code] ?: null;
+    }
+    // A reconstruction is not spoken anywhere, and its homeland is an argument
+    // rather than a place. The rows say so themselves — every one of them ends
+    // "(hypothetical)" — so a flag on Proto-Turkic would put the Mongolian
+    // state behind a 2,000-year-old inference nobody can check.
+    if (stripos($s, 'hypothetical') !== false) {
+        return null;
+    }
+    $found = [];
+    foreach (SEO_COUNTRY_ISO as $needle => $iso) {
+        // Skip the compound keys — they are phrases, not country names.
+        if (str_contains($needle, ';') || str_contains($needle, '/')) {
+            continue;
+        }
+        if (preg_match('/(?<![\p{L}])' . preg_quote($needle, '/') . '(?![\p{L}])/u', $s)) {
+            $found[$iso] = true;
+        }
+    }
+    return count($found) === 1 ? array_key_first($found) : null;
+}
+
+/**
  * A legal BCP-47 tag for a row, for the lang="" attribute.
  *
  * The internal code is NOT one. This atlas keys rows as es_cr, ar_eg, zh_sc,
@@ -2474,7 +2612,17 @@ function seo_country_flag_img(array $lang): string
     // — Esperanto and the constructed languages, Romani "Europe-wide", Fula
     // "across the Sahel", African French, Old Prussian — takes the neutral
     // mark, so the box is always filled and the names below stay in a column.
+    // No reconstruction carries a flag, whatever its homeland line says.
+    // Proto-Austronesian reads "Taiwan (Formosan homeland, hypothetical)" and
+    // was the one proto row to get one, which made the rule look arbitrary
+    // next to Proto-Turkic and Proto-Indo-European on the same page.
+    if (stripos((string) ($lang['meta']['countries'] ?? ''), 'hypothetical') !== false) {
+        $name = '';
+    }
     $iso = SEO_COUNTRY_ISO[$name] ?? null;
+    if ($iso === null && $name !== '22 Arab League states') {
+        $iso = seo_sole_country($lang, (string) ($lang['code'] ?? ''));
+    }
     $file = match (true) {
         $iso === 'GB-WLS'          => 'gb-wls',
         $name === '22 Arab League states' => 'arab',
@@ -2812,6 +2960,10 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .wcard-lang a:hover, .wcard-lang a:focus-visible { color: var(--fg); box-shadow: 0 1px 0 currentColor; }
 .wcard-lang { font-size: .78rem; font-weight: 600; letter-spacing: .05em;
   text-transform: uppercase; color: var(--muted); margin: 0 0 .35rem; }
+/* The date on a historical card. Quiet — it is the sort key made visible, not
+   a second heading — and tabular so a column of centuries lines up. */
+.wcard-era { font-size: .74rem; color: var(--muted); opacity: .8;
+  font-variant-numeric: tabular-nums; margin: -.25rem 0 .3rem; }
 .wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word; }
 .wcard > .ipa { font-size: .92rem; color: var(--muted); margin: .1rem 0 0; }
 .wcard-where { margin: .3rem 0 0; font-size: .86rem; line-height: 1.75; }

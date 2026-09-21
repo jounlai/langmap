@@ -86,7 +86,7 @@ seo_render_word($data, $byId[$seo_id], $seo_ui);
  * Blank cells are skipped. An empty cell is a real answer here but it is not
  * a form, and a page whose title is a count must not count them.
  */
-function seo_word_rows(array $data, string $id): array
+function seo_word_rows(array $data, string $id, string $ui = 'en'): array
 {
     $langs = $data['langs'];
     $root = static function (string $c) use ($langs): string {
@@ -122,7 +122,7 @@ function seo_word_rows(array $data, string $id): array
                 'label'  => $g === '__zh' ? '' : (string) ($anchor['name'] ?? $g),
                 'names'  => $g === '__zh' ? [] : ($anchor['names'] ?? []),
                 'region' => seo_world_region($anchor),
-                'country'=> seo_country_name($anchor),
+                'country'=> seo_country_label($ui, $anchor),
                 'flag'   => seo_country_flag_img($anchor),
                 'size'   => 0,
                 'forms'  => [],
@@ -143,7 +143,8 @@ function seo_word_rows(array $data, string $id): array
             'names'    => $l['names'] ?? [],
             'fallback' => (string) ($l['name'] ?? $code),
             'flag'     => seo_country_flag_img($l),
-            'country'  => seo_country_name($l),
+            'country'  => seo_country_label($ui, $l),
+            'bcp47'    => seo_bcp47((string) $code, $l),
             'size'     => (int) ($l['meta']['speakerCount'] ?? 0),
         ];
         unset($f);
@@ -207,7 +208,7 @@ function seo_render_word(array $data, array $word, string $ui): void
     $label = seo_pick($word['label'] ?? [], $ui) ?: $id;
     $def = seo_pick($word['definition'] ?? [], $ui);
 
-    $r = seo_word_rows($data, $id);
+    $r = seo_word_rows($data, $id, $ui);
     $nStr = (string) $r['n'];
 
     $canonical = SEO_SITE . seo_path($ui, 'word', $id);
@@ -278,7 +279,8 @@ function seo_render_word(array $data, array $word, string $ui): void
             ? '<a href="' . e(seo_path($ui, 'wordmap', $lm['code'])) . '">' . e($label) . '</a>'
             : e($label));
         echo '<article class="wcard"><h3 class="wcard-lang">' . $head . '</h3>'
-           . '<p class="surface" lang="' . e($lm['code']) . '">' . e($lead['surface']) . '</p>'
+           . '<p class="surface"' . ($lm['bcp47'] !== '' ? ' lang="' . e($lm['bcp47']) . '"' : '')
+             . '>' . e($lead['surface']) . '</p>'
            . ($lead['ipa'] !== '' ? '<p class="ipa">' . e($lead['ipa']) . '</p>' : '');
 
         if ($members === 1) {
@@ -301,8 +303,9 @@ function seo_render_word(array $data, array $word, string $ui): void
         }
         echo '<details class="wcard-more"><summary>' . e($summary) . '</summary><div>';
         foreach ($g['forms'] as $f) {
-            echo '<div class="wcard-form"><p class="surface" lang="' . e($f['members'][0]['code']) . '">'
-               . e($f['surface']) . '</p>'
+            $b = $f['members'][0]['bcp47'];
+            echo '<div class="wcard-form"><p class="surface"' . ($b !== '' ? ' lang="' . e($b) . '"' : '')
+               . '>' . e($f['surface']) . '</p>'
                . ($f['ipa'] !== '' ? '<p class="ipa">' . e($f['ipa']) . '</p>' : '')
                . '<p class="wcard-where">';
             foreach ($f['members'] as $m) {
@@ -377,10 +380,14 @@ function seo_render_word_index(array $data, array $byId, string $ui): void
         $wid = (string) ($w['id'] ?? '');
         if ($wid === '') continue;
         $wl = seo_pick($w['label'] ?? [], $ui) ?: $wid;
-        $n = seo_word_rows($data, $wid)['n']; ?>
-    <div class="seo-word">
-      <p class="label"><a href="<?= e(seo_path($ui, 'word', $wid)) ?>"><?= e($wl) ?></a></p>
-      <p class="ipa"><?= e(seo_t($ui, 'wd_forms', ['n' => (string) $n])) ?></p>
+        $n = seo_word_rows($data, $wid, $ui)['n']; ?>
+    <div class="seo-word widx">
+      <?php /* The word is the thing you click, so it is the big line. It used
+               to borrow .label (0.8rem, grey, uppercase) while the language
+               count borrowed .ipa (1.1rem, accent) — the target was the
+               smallest text on its own card. Caught in the persona review. */ ?>
+      <p class="widx-word"><a href="<?= e(seo_path($ui, 'word', $wid)) ?>"><?= e($wl) ?></a></p>
+      <p class="widx-count"><?= e(seo_t($ui, 'wd_forms', ['n' => (string) $n])) ?></p>
     </div>
     <?php endforeach; ?>
   </div>

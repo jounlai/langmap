@@ -229,7 +229,7 @@ function seo_ui_endonym(array $data, string $ui): string
 // seo_t() merges the two once, on first call.
 const SEO_T_WORD = [
     'en' => [
-        'wd_forms_n' => '{n} different forms',
+        'wd_forms_n' => '{n} different spellings',
         'wd_readings' => '{n} readings of the same spelling',
         'wd_same_in' => 'said the same in {n} places',
         'wd_more' => 'and {n} more',
@@ -256,9 +256,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'See {name} on the map',
     ],
     'ja' => [
-        'wd_forms_n' => '{n}通りの言い方',
+        'wd_forms_n' => '{n}通りの綴り',
         'wd_readings' => '同じ表記で{n}通りの読み',
-        'wd_same_in' => '{n}の言語・地域で同じ',
+        'wd_same_in' => '{n}つの言語・地域で同じ',
         'wd_more' => 'ほか{n}',
         'wd_zh_group' => '中国語',
         'wd_major' => '主要な言語',
@@ -283,7 +283,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '地図で「{name}」を見る',
     ],
     'ko' => [
-        'wd_forms_n' => '{n}가지 형태',
+        'wd_forms_n' => '{n}가지 표기',
         'wd_readings' => '같은 표기로 {n}가지 발음',
         'wd_same_in' => '{n}개 지역에서 동일',
         'wd_more' => '외 {n}개',
@@ -310,7 +310,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '지도에서 「{name}」 보기',
     ],
     'zh' => [
-        'wd_forms_n' => '{n} 种不同说法',
+        'wd_forms_n' => '{n} 种不同写法',
         'wd_readings' => '同样的写法有 {n} 种读音',
         'wd_same_in' => '{n} 个地区读法相同',
         'wd_more' => '另有 {n} 个',
@@ -337,7 +337,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '在地图上看「{name}」',
     ],
     'yue' => [
-        'wd_forms_n' => '{n} 種唔同講法',
+        'wd_forms_n' => '{n} 種唔同寫法',
         'wd_readings' => '同樣寫法有 {n} 種讀音',
         'wd_same_in' => '{n} 個地區讀法相同',
         'wd_more' => '另有 {n} 個',
@@ -364,7 +364,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '喺地圖上面睇「{name}」',
     ],
     'vi' => [
-        'wd_forms_n' => '{n} cách nói khác nhau',
+        'wd_forms_n' => '{n} cách viết khác nhau',
         'wd_readings' => '{n} cách đọc cùng một chữ',
         'wd_same_in' => 'giống nhau ở {n} nơi',
         'wd_more' => 'và {n} nơi nữa',
@@ -391,7 +391,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Xem “{name}” trên bản đồ',
     ],
     'th' => [
-        'wd_forms_n' => '{n} รูปแบบต่างกัน',
+        'wd_forms_n' => '{n} วิธีสะกด',
         'wd_readings' => 'เขียนเหมือนกันแต่อ่าน {n} แบบ',
         'wd_same_in' => 'อ่านเหมือนกันใน {n} แห่ง',
         'wd_more' => 'และอีก {n}',
@@ -418,7 +418,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'ดู “{name}” บนแผนที่',
     ],
     'id' => [
-        'wd_forms_n' => '{n} bentuk berbeda',
+        'wd_forms_n' => '{n} ejaan berbeda',
         'wd_readings' => '{n} cara baca untuk ejaan yang sama',
         'wd_same_in' => 'sama di {n} wilayah',
         'wd_more' => 'dan {n} lainnya',
@@ -445,7 +445,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Lihat “{name}” di peta',
     ],
     'hi' => [
-        'wd_forms_n' => '{n} अलग-अलग रूप',
+        'wd_forms_n' => '{n} अलग-अलग वर्तनी',
         'wd_readings' => 'एक ही वर्तनी के {n} उच्चारण',
         'wd_same_in' => '{n} जगहों पर एक जैसा',
         'wd_more' => 'और {n}',
@@ -472,7 +472,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'मानचित्र पर “{name}” देखें',
     ],
     'de' => [
-        'wd_forms_n' => '{n} verschiedene Formen',
+        'wd_forms_n' => '{n} verschiedene Schreibweisen',
         'wd_readings' => '{n} Aussprachen derselben Schreibung',
         'wd_same_in' => 'in {n} Gebieten gleich',
         'wd_more' => 'und {n} weitere',
@@ -499,7 +499,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '„{name}“ auf der Karte ansehen',
     ],
     'fr' => [
-        'wd_forms_n' => '{n} formes différentes',
+        'wd_forms_n' => '{n} graphies différentes',
         'wd_readings' => '{n} prononciations pour la même graphie',
         'wd_same_in' => 'identique dans {n} régions',
         'wd_more' => 'et {n} autres',
@@ -526,7 +526,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Voir « {name} » sur la carte',
     ],
     'it' => [
-        'wd_forms_n' => '{n} forme diverse',
+        'wd_forms_n' => '{n} grafie diverse',
         'wd_readings' => '{n} pronunce della stessa grafia',
         'wd_same_in' => 'uguale in {n} aree',
         'wd_more' => 'e altre {n}',
@@ -553,7 +553,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Vedi «{name}» sulla mappa',
     ],
     'es' => [
-        'wd_forms_n' => '{n} formas distintas',
+        'wd_forms_n' => '{n} grafías distintas',
         'wd_readings' => '{n} pronunciaciones de la misma grafía',
         'wd_same_in' => 'igual en {n} zonas',
         'wd_more' => 'y {n} más',
@@ -580,7 +580,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» en el mapa',
     ],
     'pt' => [
-        'wd_forms_n' => '{n} formas diferentes',
+        'wd_forms_n' => '{n} grafias diferentes',
         'wd_readings' => '{n} pronúncias da mesma grafia',
         'wd_same_in' => 'igual em {n} regiões',
         'wd_more' => 'e mais {n}',
@@ -607,7 +607,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» no mapa',
     ],
     'ru' => [
-        'wd_forms_n' => '{n} разных форм',
+        'wd_forms_n' => '{n} разных написаний',
         'wd_readings' => '{n} чтений одного написания',
         'wd_same_in' => 'одинаково в {n} местах',
         'wd_more' => 'и ещё {n}',
@@ -634,7 +634,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Посмотреть «{name}» на карте',
     ],
     'uk' => [
-        'wd_forms_n' => '{n} різних форм',
+        'wd_forms_n' => '{n} різних написань',
         'wd_readings' => '{n} читань того самого написання',
         'wd_same_in' => 'однаково у {n} місцях',
         'wd_more' => 'і ще {n}',
@@ -661,7 +661,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Подивитися «{name}» на карті',
     ],
     'ar' => [
-        'wd_forms_n' => '{n} صيغ مختلفة',
+        'wd_forms_n' => '{n} طرق كتابة مختلفة',
         'wd_readings' => '{n} نطقًا لنفس الكتابة',
         'wd_same_in' => 'متطابق في {n} مناطق',
         'wd_more' => 'و{n} أخرى',
@@ -688,7 +688,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'شاهد «{name}» على الخريطة',
     ],
     'he' => [
-        'wd_forms_n' => '{n} צורות שונות',
+        'wd_forms_n' => '{n} כתיבים שונים',
         'wd_readings' => '{n} הגיות לאותו כתיב',
         'wd_same_in' => 'זהה ב-{n} מקומות',
         'wd_more' => 'ועוד {n}',
@@ -715,7 +715,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'לראות «{name}» על המפה',
     ],
     'sw' => [
-        'wd_forms_n' => 'maumbo {n} tofauti',
+        'wd_forms_n' => 'tahajia {n} tofauti',
         'wd_readings' => 'matamshi {n} ya tahajia moja',
         'wd_same_in' => 'sawa katika maeneo {n}',
         'wd_more' => 'na mengine {n}',
@@ -2431,6 +2431,32 @@ const SEO_COUNTRY_ISO = [
  * seo_country_flag_img() below. */
 
 /**
+ * A legal BCP-47 tag for a row, for the lang="" attribute.
+ *
+ * The internal code is NOT one. This atlas keys rows as es_cr, ar_eg, zh_sc,
+ * ko_jeju, ja_heian, p_ine — an underscore is not a BCP-47 separator, so 95
+ * lang attributes on one word page were invalid and a screen reader fell
+ * back to the page language, reading Vietnamese with a Japanese voice.
+ * Found in the persona review, 2026-09-22.
+ *
+ * The base language is what the attribute is FOR — picking a voice and a
+ * font — so that is what it returns. The suffix is deliberately dropped
+ * rather than turned into a region: es_cr really is es-CR, but zh_sc is
+ * Sichuan and not Seychelles, and there is no way to tell the two shapes
+ * apart from the code alone. iso6393 is preferred where the row carries it.
+ *
+ * Returns '' when nothing valid can be derived (p_ine, p_sit), and the
+ * caller then omits the attribute, which is better than asserting a wrong
+ * one.
+ */
+function seo_bcp47(string $code, array $lang): string
+{
+    $iso = (string) ($lang['meta']['iso6393'] ?? '');
+    $tag = $iso !== '' ? $iso : explode('_', $code)[0];
+    return preg_match('/^[a-z]{2,3}$/', $tag) ? $tag : '';
+}
+
+/**
  * <img> for a row's flag, or '' when the row names no single country.
  *
  * SVG files from flag-icons (MIT, assets/flags/README.md), not emoji: emoji
@@ -2459,7 +2485,7 @@ function seo_country_flag_img(array $lang): string
         . ' width="21" height="16" loading="lazy" decoding="async">';
 }
 
-/** The country a flag stands for, for the title attribute and screen readers. */
+/** The country a flag stands for, as the DATA spells it. Raw — see below. */
 function seo_country_name(array $lang): string
 {
     $s = trim((string) ($lang['meta']['countries'] ?? ''));
@@ -2467,6 +2493,35 @@ function seo_country_name(array $lang): string
         return '';
     }
     return trim(preg_replace('/\s*\(.*$/u', '', explode(',', $s)[0]));
+}
+
+/**
+ * The country for a reader: one spelling per country, in the UI language.
+ *
+ * Two faults this fixes, both from the persona review. Eleven countries
+ * reach the same flag under more than one spelling, so one document showed
+ * the US flag titled "US", "USA" and "United States"; and the title was
+ * English on all nineteen UIs, so an Arabic page said title="China".
+ *
+ * Both go away by routing through the ISO code — one canonical spelling per
+ * country — and then through seo_meta_value(), which already translates
+ * country names for the language pages.
+ */
+const SEO_ISO_CANON = [
+    'US' => 'United States', 'GB' => 'United Kingdom', 'FM' => 'Micronesia',
+    'CV' => 'Cabo Verde',    'IL' => 'Israel',         'TR' => 'Türkiye',
+    'KH' => 'Cambodia',      'SD' => 'Sudan',          'CD' => 'DR Congo',
+    'LR' => 'Liberia',       'WF' => 'Wallis and Futuna',
+];
+function seo_country_label(string $ui, array $lang): string
+{
+    $raw = seo_country_name($lang);
+    if ($raw === '') {
+        return '';
+    }
+    $iso = SEO_COUNTRY_ISO[$raw] ?? null;
+    $name = ($iso !== null && isset(SEO_ISO_CANON[$iso])) ? SEO_ISO_CANON[$iso] : $raw;
+    return seo_meta_value($ui, $name);
 }
 
 
@@ -2782,6 +2837,34 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .wcard-more .ipa { font-size: .85rem; color: var(--muted); margin: 0; }
 @media (max-width: 480px) { .wgrid { grid-template-columns: 1fr; } }
 
+/* A card with 35 pronunciations in it unfolds to a few thousand pixels and
+   leaves its grid neighbours staring at empty space. Capping the panel keeps
+   the row a sane height; align-items:start already stops the neighbours
+   being stretched to match. */
+.wcard-more[open] > div { max-height: 60vh; overflow-y: auto; }
+
+/* PRINT. Without this a printout is the heading, 24 cards and eleven empty
+   section titles: every region is a closed <details>, and closed content is
+   display:none in every browser. A teacher printing a handout would get a
+   page that says アフリカ (173) with nothing under it. Force everything open,
+   drop the chrome, and stop cards breaking across pages. */
+@media print {
+  .seo-region, .wcard-more { display: block; }
+  .seo-region > summary, .wcard-more > summary { list-style: none; }
+  .seo-region > summary::after, .wcard-more > summary::after { content: none; }
+  /* display:block on the child is not enough — a closed <details> hides its
+     content via the UA's own rule on the element, so the children are forced
+     visible explicitly. */
+  details > div, details > .wgrid { display: block !important; visibility: visible !important; }
+  details:not([open]) > *:not(summary) { display: block !important; }
+  .wcard-more[open] > div, .wcard-more > div { max-height: none; overflow: visible; }
+  .wgrid { display: block; columns: 3 auto; column-gap: 1rem; }
+  .wcard { break-inside: avoid; border: 0; padding: 0 0 .5rem; background: none; }
+  .seo-applink, .seo-goods, .seo-otherwords { display: none; }
+  a { color: inherit; text-decoration: none; }
+  .fl { box-shadow: none; }
+}
+
 /* Regional groups on a word page collapse. The <summary> carries the same
    h2 as an open section, so the heading looks identical either way; only the
    marker and the pointer differ. Content stays in the DOM. */
@@ -2801,6 +2884,12 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-word .label { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em;
   color: var(--muted); margin: 0 0 .25rem; }
 .seo-word .surface { font-size: 2rem; line-height: 1.15; margin: 0; word-break: break-word; }
+/* The word index inverts the card: the word is the target and the count is
+   the annotation, the opposite way round from a language page's word card. */
+.widx .widx-word { font-size: 1.35rem; margin: 0; line-height: 1.25; }
+.widx .widx-word a { color: inherit; text-decoration: none; }
+.widx .widx-word a:hover, .widx .widx-word a:focus-visible { box-shadow: 0 1px 0 currentColor; }
+.widx .widx-count { font-size: .82rem; color: var(--muted); margin: .25rem 0 0; }
 .seo-word .ipa { font-size: 1.1rem; color: var(--accent); margin: .2rem 0 0; }
 .seo-word .alt { font-size: .95rem; color: var(--muted); margin: .3rem 0 0;
   word-break: break-word; }

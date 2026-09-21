@@ -2557,9 +2557,12 @@ function seo_world_region(array $lang): string
 }
 
 /** Display order: the biggest groups of the atlas, then the odds and ends. */
+/* Ancient last, after everything living and after the leftovers — it is the
+   one section a reader browsing for a modern language never wants in the
+   way, and it is 128 cards on a big word. */
 const SEO_REGION_ORDER = ['east_asia', 'se_asia', 'south_asia', 'mideast_ca',
     'europe', 'africa', 'north_america', 'latin_america', 'oceania',
-    'north_asia', 'ancient', 'other'];
+    'north_asia', 'other', 'ancient'];
 
 
 function seo_family_coarse_label(string $ui, string $coarse, string $full = ''): string

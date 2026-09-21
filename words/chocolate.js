@@ -94,7 +94,7 @@ WORDS.chocolate = {
     yue: ["朱古力", "tsyː˥ kuː˥ lɪk˥"],
     vi: ["sô-cô-la", "so˧ko˧laː˧"],
     th: ["ช็อกโกแลต", "tɕʰɔk˦˥koːlɛːt˦˥"],
-    id: ["cokelat", "tʃoˈkəlat"],
+    id: ["coklat", "ˈtʃoklat"],  // Everyday spelling, matching ms and jv. KBBI prescribes cokelat and lists coklat as tidak baku, but this atlas writes the mainstream form, and coklat is what Indonesian is actually written with.
     ms: ["coklat", "ˈtʃoklat"],
     hi: ["चॉकलेट", "ˈtʃɔːkleːʈ"],
     ar: ["شوكولاتة", "ʃuːkuːˈlaːta"],

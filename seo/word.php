@@ -101,9 +101,18 @@ function seo_word_rows(array $data, string $id, string $ui = 'en'): array
     $groups = [];
     $n = 0;
     foreach ($langs as $code => $l) {
-        if (!empty($l['excluded'])) {
-            continue;
-        }
+        // `excluded` is NOT a quality flag. It means "hidden from the modern
+        // map, shown under the Historical toggle" — EXCLUDED_CODES in
+        // wordmap.html — and skipping it here dropped 141 languages from
+        // every word page: Latin aqua, Sumerian 𒀀, Gothic 𐍅𐌰𐍄𐍉,
+        // Proto-Indo-European *wódr̥. It also left the 古代語 section with
+        // five obscure survivors, which is how it was noticed. They are kept
+        // and land in that section via meta.period, which is exactly the
+        // separation the historical toggle makes on the map.
+        //
+        // This does not index them: their own language pages stay noindex and
+        // out of the sitemap. It only stops a word page pretending they do
+        // not exist.
         $entry = $l['words'][$id] ?? null;
         if (!$entry) {
             continue;
@@ -113,8 +122,14 @@ function seo_word_rows(array $data, string $id, string $ui = 'en'): array
             continue;
         }
         $n++;
-        $fam = trim(explode(' (', (string) ($l['meta']['family'] ?? ''))[0]);
-        $g = ($fam === 'Sinitic') ? '__zh' : $root((string) $code);
+        // Sinitic is written two ways in this data — "Sinitic (Yue)" on 51
+        // rows and "Sino-Tibetan (Sinitic, Yue, Yuehai)" on 12 — so cutting
+        // at the first bracket and comparing to 'Sinitic' missed a dozen of
+        // them, and 衡陽湘語, 漳州閩南語 and 中山白話 each got a card of their
+        // own outside the Chinese group. Reported 2026-09-22. Match the word
+        // wherever it sits.
+        $famRaw = (string) ($l['meta']['family'] ?? '');
+        $g = preg_match('/\bSinitic\b/', $famRaw) ? '__zh' : $root((string) $code);
         if (!isset($groups[$g])) {
             $anchor = ($g === '__zh') ? ($langs['zh'] ?? $l) : ($langs[$g] ?? $l);
             $groups[$g] = [
@@ -166,6 +181,27 @@ function seo_word_rows(array $data, string $id, string $ui = 'en'): array
         uasort($g['forms'], static fn(array $a, array $b): int =>
             ($b['members'][0]['size'] <=> $a['members'][0]['size'])
             ?: strcoll($a['members'][0]['fallback'], $b['members'][0]['fallback']));
+    }
+    unset($g);
+
+    // Fold the flat spelling+sound list into two levels: a spelling, and the
+        // readings under it. Reported 2026-09-22 — the Arabic star card
+        // announced 「2通りの綴り」 and then printed نجم three times in a row,
+        // once per pronunciation, because the list was flat.
+    foreach ($groups as &$g) {
+        $sp = [];
+        foreach ($g['forms'] as $f) {
+            $k = $f['surface'];
+            if (!isset($sp[$k])) {
+                $sp[$k] = ['surface' => $k, 'reads' => [], 'size' => 0];
+            }
+            $sp[$k]['reads'][] = ['ipa' => $f['ipa'], 'members' => $f['members']];
+            $sp[$k]['size'] = max($sp[$k]['size'], $f['members'][0]['size']);
+        }
+        uasort($sp, static fn(array $a, array $b): int =>
+            ($b['size'] <=> $a['size'])
+            ?: strcoll($a['reads'][0]['members'][0]['fallback'], $b['reads'][0]['members'][0]['fallback']));
+        $g['spellings'] = $sp;
     }
     unset($g);
 
@@ -281,7 +317,7 @@ function seo_render_word(array $data, array $word, string $ui): void
         echo '<article class="wcard"><h3 class="wcard-lang">' . $head . '</h3>'
            . '<p class="surface"' . ($lm['bcp47'] !== '' ? ' lang="' . e($lm['bcp47']) . '"' : '')
              . '>' . e($lead['surface']) . '</p>'
-           . ($lead['ipa'] !== '' ? '<p class="ipa">' . e($lead['ipa']) . '</p>' : '');
+           . ($lead['ipa'] !== '' ? '<p class="ipa">/' . e($lead['ipa']) . '/</p>' : '');
 
         if ($members === 1) {
             echo '</article>' . "\n";
@@ -302,18 +338,33 @@ function seo_render_word(array $data, array $word, string $ui): void
             $summary = seo_t($ui, 'wd_forms_n', ['n' => (string) $spellings]);
         }
         echo '<details class="wcard-more"><summary>' . e($summary) . '</summary><div>';
-        foreach ($g['forms'] as $f) {
-            $b = $f['members'][0]['bcp47'];
-            echo '<div class="wcard-form"><p class="surface"' . ($b !== '' ? ' lang="' . e($b) . '"' : '')
-               . '>' . e($f['surface']) . '</p>'
-               . ($f['ipa'] !== '' ? '<p class="ipa">' . e($f['ipa']) . '</p>' : '')
-               . '<p class="wcard-where">';
-            foreach ($f['members'] as $m) {
-                echo '<a href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '"'
-                   . ($m['country'] !== '' ? ' title="' . e($m['country']) . '"' : '') . '>'
-                   . $m['flag'] . e(seo_pick($m['names'], $ui) ?: $m['fallback']) . '</a> ';
+        // When the whole group shares one spelling, that spelling is already
+        // the big line at the top of the card and repeating it above every
+        // reading is noise — 「同じ表記で35通りの読み」 followed by 水 thirty-five
+        // times. Print it only when there is more than one. Reported
+        // 2026-09-22, right after the same fault was fixed one level up.
+        $oneSpelling = count($g['spellings']) === 1;
+        foreach ($g['spellings'] as $sp) {
+            $b = $sp['reads'][0]['members'][0]['bcp47'];
+            echo '<div class="wcard-form">';
+            if (!$oneSpelling) {
+                echo '<p class="surface"' . ($b !== '' ? ' lang="' . e($b) . '"' : '')
+                   . '>' . e($sp['surface']) . '</p>';
             }
-            echo '</p></div>';
+            foreach ($sp['reads'] as $rd) {
+                // The spelling is printed once; each reading under it is just
+                // its sound and who says it.
+                echo '<div class="wcard-read">'
+                   . ($rd['ipa'] !== '' ? '<p class="ipa">/' . e($rd['ipa']) . '/</p>' : '')
+                   . '<p class="wcard-where">';
+                foreach ($rd['members'] as $m) {
+                    echo '<a href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '"'
+                       . ($m['country'] !== '' ? ' title="' . e($m['country']) . '"' : '') . '>'
+                       . $m['flag'] . e(seo_pick($m['names'], $ui) ?: $m['fallback']) . '</a> ';
+                }
+                echo '</p></div>';
+            }
+            echo '</div>';
         }
         echo '</div></details></article>' . "\n";
     };

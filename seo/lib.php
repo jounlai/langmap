@@ -2533,7 +2533,16 @@ function seo_world_region(array $lang): string
     $la = (float) ($lang['lat'] ?? 0);
     $ln = (float) ($lang['lng'] ?? 0);
     if ($ln <= -128 && $la >= 50) return 'north_america';
-    if ($ln >= 60 && $la >= 50) return 'north_asia';
+    // Siberia in two boxes, because one "east of 60, north of 50" put
+    // KAZAKHSTAN there — Astana is 51.2N 71.4E, north of both Tuva and Altai.
+    // The eastern box starts at 84E (Altai 86, Shor 88.5, Tuva 94, Buryat
+    // 107); the western one needs 55N to reach Khanty and Mansi at 69E while
+    // leaving Kazakhstan underneath it.
+    if (($la >= 50 && $ln >= 84) || ($la >= 55 && $ln >= 60)) return 'north_asia';
+    // Central Asia, and it has to be tested BEFORE South Asia: that box runs
+    // 60-92E and was swallowing Kyrgyzstan, Uzbekistan, Tajikistan and
+    // Xinjiang. Reported 2026-09-22 — "isn't Kyrgyzstan Central Asia?".
+    if ($la >= 36 && $la < 53 && $ln >= 46 && $ln < 96) return 'mideast_ca';
     if ($ln >= 100 && $ln <= 150 && $la >= 20 && $la < 50) return 'east_asia';
     if ($la < -10 && $ln >= 110 && $ln <= 156) return 'oceania';
     if ($ln <= -140 || ($ln >= 130 && $la < 20) || ($ln >= 150 && $la < 30)) return 'oceania';
@@ -2836,6 +2845,15 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .wcard-more .surface { font-size: 1.15rem; margin: 0; }
 .wcard-more .ipa { font-size: .85rem; color: var(--muted); margin: 0; }
 @media (max-width: 480px) { .wgrid { grid-template-columns: 1fr; } }
+
+/* A reading nested under its spelling: the spelling is printed once and each
+   pronunciation sits beneath it. Before this the fold repeated نجم once per
+   reading, under a summary that said "2 spellings". */
+.wcard-read { margin: .3rem 0 0; padding-left: .55rem; border-left: 2px solid var(--line); }
+/* With the spelling printed once at the top, a single-spelling fold is just a
+   list of readings and needs no rule down its side. */
+.wcard-form > .wcard-read:first-child { padding-left: 0; border-left: 0; }
+.wcard-read + .wcard-read { margin-top: .4rem; }
 
 /* A card with 35 pronunciations in it unfolds to a few thousand pixels and
    leaves its grid neighbours staring at empty space. Capping the panel keeps

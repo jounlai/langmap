@@ -3538,15 +3538,24 @@
     </svg>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://unpkg.com/globe.gl@2.35.1/dist/globe.gl.min.js"></script>
-    <!-- Audit Task 125: graceful CDN fallback. If Leaflet fails to load,
-         show a clear error panel instead of leaving a blank map. If only
-         Globe.gl fails, the 2D map still works; the 3D toggle is disabled. -->
+    <!-- globe.gl is NOT loaded here. It is 404 KB gzipped — 48% of this page's
+         839 KB of eager JavaScript — and it draws a 3D globe that nothing
+         shows until the reader presses the 3D button. It is fetched on demand
+         by ensureGlobeLib() instead; see initGlobe(). Measured 2026-09-21. -->
+    <!-- Audit Task 125: graceful CDN fallback. If Leaflet fails to load, show
+         a clear error panel instead of leaving a blank map. Globe.gl is no
+         longer part of this check — it is fetched on demand, so its failure is
+         handled at the point of use (ensureGlobeLib → fallBackTo2D). -->
     <script>
     (function () {
         const missingDeps = [];
         if (typeof L === 'undefined') missingDeps.push('Leaflet');
-        if (typeof Globe === 'undefined') missingDeps.push('Globe.gl');
+        // Globe.gl is deliberately NOT checked here any more. It is no longer
+        // loaded eagerly (see the note where its <script> tag used to be), so
+        // `Globe` is ALWAYS undefined at this point and this test would have
+        // disabled the 3D button on every single page load. Its absence is now
+        // handled where it is actually needed: ensureGlobeLib() rejects and
+        // fallBackTo2D() puts the reader back on the map.
         if (missingDeps.length === 0) return;
         // Defer the rest of init so we can show a friendly message.
         window.__langmapMissingDeps = missingDeps;
@@ -3562,19 +3571,6 @@
             });
             // Stop further init — Leaflet is required for both 2D and 3D paths.
             throw new Error('Leaflet not loaded; halting wordmap init');
-        }
-        if (missingDeps.includes('Globe.gl')) {
-            // Globe missing: 2D works fine; we'll disable the 3D toggle once it exists.
-            window.addEventListener('DOMContentLoaded', () => {
-                const btn3D = document.getElementById('toggle-3d');
-                if (btn3D) {
-                    btn3D.disabled = true;
-                    btn3D.style.opacity = '0.4';
-                    btn3D.style.cursor = 'not-allowed';
-                    btn3D.title = '3D globe unavailable (Globe.gl CDN failed to load)';
-                    btn3D.setAttribute('aria-disabled', 'true');
-                }
-            });
         }
     })();
     </script>
@@ -5318,6 +5314,35 @@
         const mapEl = document.getElementById('map');
         let globe = null;
 
+        // globe.gl on demand. Every caller must go through this; `Globe` does
+        // not exist at parse time any more. On failure we fall back to 2D
+        // rather than leaving the reader on a blank black pane.
+        let _globeLibP = null;
+        function ensureGlobeLib() {
+            if (window.Globe) return Promise.resolve();
+            if (_globeLibP) return _globeLibP;
+            _globeLibP = new Promise((resolve, reject) => {
+                const el = document.createElement('script');
+                el.src = 'https://unpkg.com/globe.gl@2.35.1/dist/globe.gl.min.js';
+                el.onload = () => resolve();
+                el.onerror = () => { _globeLibP = null; reject(new Error('globe.gl failed to load')); };
+                document.head.appendChild(el);
+            });
+            return _globeLibP;
+        }
+        // Put the map back on screen when the library cannot be fetched.
+        function fallBackTo2D() {
+            is3D = false;
+            document.body.classList.remove('is-3d');
+            globeEl.style.display = 'none';
+            mapEl.style.display = 'block';
+            if (btn3D) {
+                btn3D.classList.remove('active');
+                btn3D.setAttribute('aria-pressed', 'false');
+                btn3D.textContent = '2D';
+            }
+            try { map.invalidateSize(); } catch (e) {}
+        }
         function initGlobe() {
             if (globe) return;
             globe = Globe()(globeEl)
@@ -5448,8 +5473,11 @@
 
         const btn3D = document.getElementById('toggle-3d');
         btn3D.addEventListener('click', () => {
-            // Audit Task 125: refuse if Globe.gl CDN failed to load.
-            if (typeof Globe === 'undefined') return;
+            // Audit Task 125 used to bail here when Globe was undefined. Since
+            // globe.gl became an on-demand load `Globe` is undefined until the
+            // first press, so that test made this button do nothing at all,
+            // forever. The CDN-failure case it guarded is now handled after the
+            // fetch, by the .catch(fallBackTo2D) below.
             is3D = !is3D;
             btn3D.classList.toggle('active', is3D);
             btn3D.setAttribute('aria-pressed', String(is3D));
@@ -5460,9 +5488,11 @@
             if (is3D) {
                 mapEl.style.display = 'none';
                 globeEl.style.display = 'block';
-                initGlobe();
                 const c = map.getCenter();
-                globe.pointOfView({ lat: c.lat, lng: c.lng, altitude: zoomToAltitude(map.getZoom()) });
+                ensureGlobeLib().then(() => {
+                    initGlobe();
+                    globe.pointOfView({ lat: c.lat, lng: c.lng, altitude: zoomToAltitude(map.getZoom()) });
+                }).catch(fallBackTo2D);
             } else {
                 globeEl.style.display = 'none';
                 mapEl.style.display = 'block';
@@ -7231,12 +7261,14 @@
                 document.body.classList.add('is-3d');
                 mapEl.style.display = 'none';
                 globeEl.style.display = 'block';
-                initGlobe();
-                if (Number.isFinite(lat) && Number.isFinite(lng)) {
-                    const altParam = parseFloat(params.get('alt'));
-                    const alt = Number.isFinite(altParam) ? altParam : zoomToAltitude(Number.isFinite(z) ? z : 3);
-                    globe.pointOfView({ lat, lng, altitude: alt });
-                }
+                const _altParam = parseFloat(params.get('alt'));
+                ensureGlobeLib().then(() => {
+                    initGlobe();
+                    if (Number.isFinite(lat) && Number.isFinite(lng)) {
+                        const alt = Number.isFinite(_altParam) ? _altParam : zoomToAltitude(Number.isFinite(z) ? z : 3);
+                        globe.pointOfView({ lat, lng, altitude: alt });
+                    }
+                }).catch(fallBackTo2D);
             }
             // Restore open language modal (after everything else is loaded so
             // map markers exist by the time we look up the label DOM).

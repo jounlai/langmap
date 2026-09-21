@@ -147,7 +147,65 @@ const ALLOW = [
 // PAID 2026-09-17, review 541: gan_yc/gan_ja 陰平, cjy_xz 陰平+陽平, zh_jh 陽平,
 // wuu_jh 陰平+陽平 and wuu_jx 陰平 were re-cut against their own MCPDict
 // syllabaries (宜春, 吉安, 忻州秀容, 南京, 金華, 嘉興) and no longer disagree.
+// === 入聲, opened 2026-09-21 =================================================
+// The 入聲 half of this guard had never run: the coda test required the IPA to
+// END in a stop, and every modern row ends in a tone letter, so `checked` never
+// filled. Fixing the regex turned up 23 findings at once. They are parked here
+// rather than "fixed", because MOST OF THEM ARE NOT ERRORS — this table maps a
+// character to its Middle Chinese class, and several lects split that class.
+// Do not go and flatten these rows to one value each; that would destroy real
+// data. What each group needs:
+//
+//   THE YUE SPLIT IS REAL AND THE DATA IS RIGHT — 6 rows.
+//   yue, yue_gz, yue_dg, yue_nn, yue_zs, zh_wenyan_edu (Cantonese-read) all put
+//   一 骨 屋 黑 high and 血 百 鐵 雪 mid. That is 上陰入 against 中入, the standard
+//   Cantonese split of 陰入 into two tones; it is lexical and every description
+//   has it. The fix belongs in the CLASS TABLE above — 陰入 needs to be two
+//   classes for these rows — not in the data.
+//
+//   THE MIN SPLIT TRACKS THE CODA — 7 rows.
+//   nan, nan_te, nan_pn, nan_qz, nan_zz, nan_hai, cdo, plus hak_cn, all write
+//   白 (-ʔ final) differently from 食 目 (-p/-t/-k final). A glottal-final 入聲
+//   syllable really does behave differently from a stopped one in Min, so this
+//   may be correct too — but unlike the Yue case nobody has checked it against
+//   a source, and nan_zz's values (˩˨˩ against ˦˦) look too far apart to be the
+//   same phenomenon. Needs one pass with a Min phonology to hand.
+//
+//   hak_cn IS PROBABLY A REAL ERROR and is the one to look at first. It writes
+//   陰入 ˧ throughout, and 陽入 ˧ in 食 目 but ˥ in 白. Writing 陽入 as ˧ merges it
+//   with 陰入, which Meixian distinguishes, and both descendant rows (hak_tw ˥,
+//   hak_hl ˥˥) have the high value. 食 and 目 look wrong. The 力 of 朱古力 added
+//   on 2026-09-21 was written ˥ for this reason.
+//
+//   UNEXAMINED — gan_yc, gan_fz, czh, czh_wy, cjy_xz, hsn_yz, yue_ts.
+//   yue_ts is already reported by --wide for a self-contradictory 陰上 and is
+//   blocking a 朱古力 cell; fixing that row settles both at once.
 const DEBT = [
+  // 入聲 — see the block above before touching any of these.
+  { code: 'yue', cls: '陰入' },
+  { code: 'yue_gz', cls: '陰入' },
+  { code: 'yue_dg', cls: '陰入' },
+  { code: 'yue_nn', cls: '陰入' },
+  { code: 'yue_zs', cls: '陰入' },
+  { code: 'zh_wenyan_edu', cls: '陰入' },
+  { code: 'nan', cls: '陰入' },
+  { code: 'nan_zz', cls: '陰入' },
+  { code: 'nan_zz', cls: '陽入' },
+  { code: 'nan_te', cls: '陽入' },
+  { code: 'nan_pn', cls: '陽入' },
+  { code: 'nan_qz', cls: '陽入' },
+  { code: 'nan_hai', cls: '陽入' },
+  { code: 'cdo', cls: '陽入' },
+  { code: 'hak_cn', cls: '陽入' },
+  { code: 'gan_yc', cls: '陰入' },
+  { code: 'gan_fz', cls: '陰入' },
+  { code: 'czh', cls: '陽入' },
+  { code: 'czh_wy', cls: '陰入' },
+  { code: 'cjy_xz', cls: '陽入' },
+  { code: 'hsn_yz', cls: '陰入' },
+  { code: 'hsn_yz', cls: '陽入' },
+  { code: 'yue_ts', cls: '陽入' },
+  // 平聲 — the original list.
   { code: 'zh_song', cls: '陽平' },
   { code: 'zh_song', cls: '陰平' },
   { code: 'cpx', cls: '陰平' },
@@ -203,7 +261,17 @@ for (const id of Object.keys(W)) {
     if (ALLOW.some((a) => a.code.test(code) && a.ch === surf)) continue;
     const t = norm(toneOf(ipa));
     if (!t) continue;
-    if (/入$/.test(cls) && /[ptkʔ]̚?$/.test(String(surf ? ipa : ''))) checked.add(code);
+    // The coda test has to allow the TONE LETTERS that follow it. Written
+    // without them this required the IPA to end in the stop itself, which
+    // only the rows that write no tone at all ever do — och, zh_tang,
+    // zh_song, zh_han, oko. Measured before the fix: of 1048 入-class cells
+    // just 61 matched, so `checked` never filled for any of the 58 modern
+    // Sinitic rows and the 入聲 guard below skipped every one of them,
+    // silently, while this file's header advertised that it checks 平 and 入.
+    // Found 2026-09-21 while adding 力 to hak_cn. Ranges are \u-escaped with
+    // the /u flag on purpose: tone letters are U+02E5..U+02E9 and a literal
+    // range of them is unreadable and easy to mis-copy.
+    if (/入$/.test(cls) && /[ptk\u0294]\u031A?[\u02E5-\u02E9]*$/u.test(String(surf ? ipa : ''))) checked.add(code);
     const store = isWide ? wide : seen;
     ((store[code] = store[code] || {})[cls] = store[code][cls] || {});
     (store[code][cls][t] = store[code][cls][t] || []).push(`${id} ${surf}`);

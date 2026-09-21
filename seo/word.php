@@ -123,6 +123,7 @@ function seo_word_rows(array $data, string $id): array
                 'names'  => $g === '__zh' ? [] : ($anchor['names'] ?? []),
                 'region' => seo_world_region($anchor),
                 'country'=> seo_country_name($anchor),
+                'flag'   => seo_country_flag_img($anchor),
                 'size'   => 0,
                 'forms'  => [],
             ];
@@ -139,6 +140,8 @@ function seo_word_rows(array $data, string $id): array
         }
         $f['members'][] = [
             'code'     => (string) $code,
+            'flag'     => seo_country_flag_img($l),
+            'country'  => seo_country_name($l),
             'names'    => $l['names'] ?? [],
             'fallback' => (string) ($l['name'] ?? $code),
             'flag'     => seo_country_flag($l),
@@ -262,9 +265,12 @@ function seo_render_word(array $data, array $word, string $ui): void
         // language, so the heading carries the link and there is no list
         // underneath — printing the name twice was the first thing that
         // looked wrong on screen.
-        $head = $members === 1
+        // The heading carries the flag of the group's anchor. On a one-member
+        // card that is simply its country; on a group it is the language's
+        // home, and the members' own flags appear inside the fold.
+        $head = ($g['flag'] ?? '') . ($members === 1
             ? '<a href="' . e(seo_path($ui, 'wordmap', $lm['code'])) . '">' . e($label) . '</a>'
-            : e($label);
+            : e($label));
         echo '<article class="wcard"><h3 class="wcard-lang">' . $head . '</h3>'
            . '<p class="surface" lang="' . e($lm['code']) . '">' . e($lead['surface']) . '</p>'
            . ($lead['ipa'] !== '' ? '<p class="ipa">' . e($lead['ipa']) . '</p>' : '');
@@ -284,8 +290,9 @@ function seo_render_word(array $data, array $word, string $ui): void
                . ($f['ipa'] !== '' ? '<p class="ipa">' . e($f['ipa']) . '</p>' : '')
                . '<p class="wcard-where">';
             foreach ($f['members'] as $m) {
-                echo '<a href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '">'
-                   . e(seo_pick($m['names'], $ui) ?: $m['fallback']) . '</a> ';
+                echo '<a href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '"'
+                   . ($m['country'] !== '' ? ' title="' . e($m['country']) . '"' : '') . '>'
+                   . $m['flag'] . e(seo_pick($m['names'], $ui) ?: $m['fallback']) . '</a> ';
             }
             echo '</p></div>';
         }

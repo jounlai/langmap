@@ -2435,6 +2435,29 @@ function seo_country_flag(array $lang): string
     return $out;
 }
 
+/**
+ * <img> for a row's flag, or '' when the row names no single country.
+ *
+ * SVG files from flag-icons (MIT, assets/flags/README.md), not emoji: emoji
+ * flags were tried first and do not render on Windows, which is where the
+ * owner looked at the page. Lazy and sized, so the ~500 of these on a big
+ * word page cost nothing until their <details> is opened — a closed one is
+ * never fetched. alt is empty because the country name sits in the link text
+ * or its title; a screen reader should not hear the country twice.
+ */
+function seo_country_flag_img(array $lang): string
+{
+    $name = seo_country_name($lang);
+    $iso = SEO_COUNTRY_ISO[$name] ?? null;
+    if ($iso === null || $iso === 'GB-WLS') {
+        // Wales has no ISO 3166-1 file in the set; it shows no flag rather
+        // than the wrong one.
+        return '';
+    }
+    return '<img class="fl" src="/assets/flags/' . strtolower($iso) . '.svg" alt=""'
+        . ' width="21" height="16" loading="lazy" decoding="async">';
+}
+
 /** The country a flag stands for, for the title attribute and screen readers. */
 function seo_country_name(array $lang): string
 {
@@ -2722,6 +2745,12 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .wcard-where a { color: var(--muted); text-decoration: none; }
 .wcard-where a:hover, .wcard-where a:focus-visible { color: var(--fg); text-decoration: none;
   box-shadow: 0 1px 0 currentColor; }
+/* Flags are SVG files, not emoji — emoji flags do not render on Windows. The
+   1px ring keeps a white flag (Japan) from dissolving into a white card. */
+.fl { width: 1.3em; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
+  border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,.14); vertical-align: -.18em;
+  margin-right: .38em; }
+.wcard-lang .fl { vertical-align: -.22em; margin-right: .45em; }
 
 /* "35 readings of the same spelling" — the variation stated, then unfolded on
    request. This is the line that replaced a wall of flags and names. */

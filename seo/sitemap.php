@@ -43,9 +43,20 @@ $today = date('Y-m-d');
 $pages = [
     ['/', '0.7'],
     ['/wordmap/', '0.8'],
+    ['/word/', '0.8'],
     ['/hanmap/', '0.8'],
     ['/trivia/', '0.8'],
 ];
+// One page per WORD. Higher priority than a single language page: "chocolate
+// in 163 languages" is a query people actually type, and each of these pages
+// links to every language that has the word, so they carry the crawl into the
+// 1,188 language pages from 86 directions.
+foreach (($wm['words'] ?? []) as $w) {
+    if (empty($w['id'])) {
+        continue;
+    }
+    $pages[] = ['/word/' . rawurlencode($w['id']), '0.7'];
+}
 foreach (($wm['langs'] ?? []) as $code => $l) {
     if (!empty($l['excluded'])) {
         continue; // noindex'd; keep out of the sitemap

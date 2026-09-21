@@ -5,6 +5,8 @@
  * Canonical URLs (UI prefix always required):
  *     /{ui}/                    -> per-UI hub
  *     /{ui}/wordmap/            -> Word Map index
+ *     /{ui}/word/               -> word index (one page per word)
+ *     /{ui}/word/{wordID}       -> e.g. /en/word/chocolate
  *     /{ui}/wordmap/{langID}    -> Word Map language page
  *     /{ui}/hanmap/             -> Han Map index
  *     /{ui}/hanmap/{langID}     -> Han Map language page
@@ -103,6 +105,24 @@ if ($map === 'trivia') {
     return;
 }
 
+// /{ui}/word[/{id}] — one page per WORD, the other slice of the same data.
+// Word ids are the concept keys in words/*.js: lowercase, digits, underscore
+// (n99, zh_tang has none here but the class is the same as word_manifest's).
+if ($map === 'word') {
+    $seo_id = isset($rest[1]) ? rawurldecode($rest[1]) : '';
+    if (count($rest) > 2) {
+        seo_404('Page not found', $seo_ui);
+        return;
+    }
+    if ($seo_id !== '' && !preg_match('#^[a-z0-9_]+$#', $seo_id)) {
+        seo_404('Invalid word id.', $seo_ui);
+        return;
+    }
+    header('Content-Type: text/html; charset=utf-8');
+    require __DIR__ . '/seo/word.php';
+    return;
+}
+
 if ($map === 'wordmap' || $map === 'hanmap') {
     $seo_id = isset($rest[1]) ? rawurldecode($rest[1]) : '';
     // Reject deeper paths (/{ui}/wordmap/x/y).
@@ -141,6 +161,10 @@ function seo_render_hub(string $ui): void
         . '<p class="sub">' . e(seo_t($ui, 'hub_sub')) . '</p></header>';
     echo '<section class="seo-section"><h2>' . e(seo_t($ui, 'maps')) . '</h2><ul class="seo-index-list">'
         . '<li><a href="' . e(seo_path($ui, 'wordmap')) . '">' . e(seo_t($ui, 'wm_link')) . '</a></li>'
+        // The word index. It is the crawl entry point for /{ui}/word/*, which
+        // in turn links out to every language page — so this one line is what
+        // makes 86 x 19 pages reachable without touching robots.txt.
+        . '<li><a href="' . e(seo_path($ui, 'word')) . '">' . e(seo_t($ui, 'wd_link')) . '</a></li>'
         . '<li><a href="' . e(seo_path($ui, 'hanmap')) . '">' . e(seo_t($ui, 'hm_link')) . '</a></li>'
         . '<li><a href="' . e(seo_path($ui, 'trivia')) . '">' . e(seo_t($ui, 'tri_link')) . '</a></li>'
         . '</ul></section>';

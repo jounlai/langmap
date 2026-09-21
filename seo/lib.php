@@ -222,6 +222,185 @@ function seo_ui_endonym(array $data, string $ui): string
  * user may refine. Falls back to 'en' per-key via seo_t().
  * Placeholders: {name}, {family}, {map}.
  */
+
+// Strings for the per-WORD pages (/{ui}/word/{id}), added 2026-09-22. Kept in
+// their own table rather than spliced into the 19 blocks of SEO_T above: that
+// edit would have touched every one of them, and these belong together.
+// seo_t() merges the two once, on first call.
+const SEO_T_WORD = [
+    'en' => [
+        'wd_link' => 'Words',
+        'wd_index_h1' => 'All {w} words',
+        'wd_index_meta' => 'Every word on the Word Map — {w} concepts across 1,188 languages, with pronunciation.',
+        'wd_title' => '{name} in {n} languages',
+        'wd_meta' => 'How to say {name} in {n} languages, with pronunciation and native script.',
+        'wd_forms' => '{n} languages',
+        'wd_open_app' => 'See {name} on the map',
+    ],
+    'ja' => [
+        'wd_link' => '単語',
+        'wd_index_h1' => '{w}語すべて',
+        'wd_index_meta' => 'ワードマップに載っている全{w}語を、1,188言語の発音つきで。',
+        'wd_title' => '「{name}」を{n}言語で',
+        'wd_meta' => '「{name}」を{n}言語でどう言うか。発音と現地表記つき。',
+        'wd_forms' => '{n}言語',
+        'wd_open_app' => '地図で「{name}」を見る',
+    ],
+    'ko' => [
+        'wd_link' => '단어',
+        'wd_index_h1' => '전체 {w}개 단어',
+        'wd_index_meta' => '워드맵의 모든 단어 — 1,188개 언어의 {w}개 개념을 발음과 함께.',
+        'wd_title' => '{n}개 언어로 보는 「{name}」',
+        'wd_meta' => '「{name}」을 {n}개 언어로 어떻게 말하는지, 발음과 현지 문자로.',
+        'wd_forms' => '{n}개 언어',
+        'wd_open_app' => '지도에서 「{name}」 보기',
+    ],
+    'zh' => [
+        'wd_link' => '词语',
+        'wd_index_h1' => '全部 {w} 个词',
+        'wd_index_meta' => '词语地图收录的全部 {w} 个词，涵盖 1,188 种语言，附发音。',
+        'wd_title' => '{n} 种语言里的「{name}」',
+        'wd_meta' => '「{name}」在 {n} 种语言中怎么说，附发音与当地文字。',
+        'wd_forms' => '{n} 种语言',
+        'wd_open_app' => '在地图上看「{name}」',
+    ],
+    'yue' => [
+        'wd_link' => '詞語',
+        'wd_index_h1' => '全部 {w} 個詞',
+        'wd_index_meta' => '詞語地圖收錄嘅全部 {w} 個詞，涵蓋 1,188 種語言，附發音。',
+        'wd_title' => '{n} 種語言入面嘅「{name}」',
+        'wd_meta' => '「{name}」喺 {n} 種語言點講，附發音同當地文字。',
+        'wd_forms' => '{n} 種語言',
+        'wd_open_app' => '喺地圖上面睇「{name}」',
+    ],
+    'vi' => [
+        'wd_link' => 'Từ vựng',
+        'wd_index_h1' => 'Tất cả {w} từ',
+        'wd_index_meta' => 'Mọi từ trên Bản đồ Từ vựng — {w} khái niệm trong 1.188 ngôn ngữ, kèm phát âm.',
+        'wd_title' => '“{name}” trong {n} ngôn ngữ',
+        'wd_meta' => 'Cách nói “{name}” trong {n} ngôn ngữ, kèm phát âm và chữ viết bản địa.',
+        'wd_forms' => '{n} ngôn ngữ',
+        'wd_open_app' => 'Xem “{name}” trên bản đồ',
+    ],
+    'th' => [
+        'wd_link' => 'คำศัพท์',
+        'wd_index_h1' => 'คำทั้งหมด {w} คำ',
+        'wd_index_meta' => 'ทุกคำในแผนที่คำศัพท์ — {w} มโนทัศน์ใน 1,188 ภาษา พร้อมคำอ่าน',
+        'wd_title' => '“{name}” ใน {n} ภาษา',
+        'wd_meta' => '“{name}” พูดอย่างไรใน {n} ภาษา พร้อมคำอ่านและอักษรท้องถิ่น',
+        'wd_forms' => '{n} ภาษา',
+        'wd_open_app' => 'ดู “{name}” บนแผนที่',
+    ],
+    'id' => [
+        'wd_link' => 'Kata',
+        'wd_index_h1' => 'Semua {w} kata',
+        'wd_index_meta' => 'Setiap kata di Peta Kata — {w} konsep dalam 1.188 bahasa, lengkap dengan pelafalan.',
+        'wd_title' => '“{name}” dalam {n} bahasa',
+        'wd_meta' => 'Cara mengucapkan “{name}” dalam {n} bahasa, dengan pelafalan dan aksara asli.',
+        'wd_forms' => '{n} bahasa',
+        'wd_open_app' => 'Lihat “{name}” di peta',
+    ],
+    'hi' => [
+        'wd_link' => 'शब्द',
+        'wd_index_h1' => 'सभी {w} शब्द',
+        'wd_index_meta' => 'वर्ड मैप के सभी शब्द — 1,188 भाषाओं में {w} अवधारणाएँ, उच्चारण सहित।',
+        'wd_title' => '{n} भाषाओं में “{name}”',
+        'wd_meta' => '{n} भाषाओं में “{name}” कैसे कहते हैं — उच्चारण और मूल लिपि के साथ।',
+        'wd_forms' => '{n} भाषाएँ',
+        'wd_open_app' => 'मानचित्र पर “{name}” देखें',
+    ],
+    'de' => [
+        'wd_link' => 'Wörter',
+        'wd_index_h1' => 'Alle {w} Wörter',
+        'wd_index_meta' => 'Jedes Wort der Wortkarte — {w} Begriffe in 1.188 Sprachen, mit Aussprache.',
+        'wd_title' => '„{name}“ in {n} Sprachen',
+        'wd_meta' => 'Wie man „{name}“ in {n} Sprachen sagt – mit Aussprache und Originalschrift.',
+        'wd_forms' => '{n} Sprachen',
+        'wd_open_app' => '„{name}“ auf der Karte ansehen',
+    ],
+    'fr' => [
+        'wd_link' => 'Mots',
+        'wd_index_h1' => 'Les {w} mots',
+        'wd_index_meta' => 'Tous les mots de la Carte des mots — {w} notions dans 1 188 langues, avec la prononciation.',
+        'wd_title' => '« {name} » en {n} langues',
+        'wd_meta' => 'Comment dire « {name} » en {n} langues, avec la prononciation et l’écriture d’origine.',
+        'wd_forms' => '{n} langues',
+        'wd_open_app' => 'Voir « {name} » sur la carte',
+    ],
+    'it' => [
+        'wd_link' => 'Parole',
+        'wd_index_h1' => 'Tutte le {w} parole',
+        'wd_index_meta' => 'Ogni parola della Mappa delle parole — {w} concetti in 1.188 lingue, con la pronuncia.',
+        'wd_title' => '«{name}» in {n} lingue',
+        'wd_meta' => 'Come si dice «{name}» in {n} lingue, con pronuncia e scrittura originale.',
+        'wd_forms' => '{n} lingue',
+        'wd_open_app' => 'Vedi «{name}» sulla mappa',
+    ],
+    'es' => [
+        'wd_link' => 'Palabras',
+        'wd_index_h1' => 'Las {w} palabras',
+        'wd_index_meta' => 'Todas las palabras del Mapa de palabras: {w} conceptos en 1188 lenguas, con pronunciación.',
+        'wd_title' => '«{name}» en {n} lenguas',
+        'wd_meta' => 'Cómo se dice «{name}» en {n} lenguas, con pronunciación y escritura original.',
+        'wd_forms' => '{n} lenguas',
+        'wd_open_app' => 'Ver «{name}» en el mapa',
+    ],
+    'pt' => [
+        'wd_link' => 'Palavras',
+        'wd_index_h1' => 'Todas as {w} palavras',
+        'wd_index_meta' => 'Cada palavra do Mapa de Palavras — {w} conceitos em 1188 línguas, com pronúncia.',
+        'wd_title' => '«{name}» em {n} línguas',
+        'wd_meta' => 'Como se diz «{name}» em {n} línguas, com pronúncia e escrita original.',
+        'wd_forms' => '{n} línguas',
+        'wd_open_app' => 'Ver «{name}» no mapa',
+    ],
+    'ru' => [
+        'wd_link' => 'Слова',
+        'wd_index_h1' => 'Все {w} слов',
+        'wd_index_meta' => 'Каждое слово Карты слов — {w} понятий на 1188 языках, с произношением.',
+        'wd_title' => '«{name}» на {n} языках',
+        'wd_meta' => 'Как сказать «{name}» на {n} языках — с произношением и родным письмом.',
+        'wd_forms' => '{n} языков',
+        'wd_open_app' => 'Посмотреть «{name}» на карте',
+    ],
+    'uk' => [
+        'wd_link' => 'Слова',
+        'wd_index_h1' => 'Усі {w} слів',
+        'wd_index_meta' => 'Кожне слово Карти слів — {w} понять у 1188 мовах, із вимовою.',
+        'wd_title' => '«{name}» {n} мовами',
+        'wd_meta' => 'Як сказати «{name}» {n} мовами — з вимовою та рідним письмом.',
+        'wd_forms' => '{n} мов',
+        'wd_open_app' => 'Подивитися «{name}» на карті',
+    ],
+    'ar' => [
+        'wd_link' => 'الكلمات',
+        'wd_index_h1' => 'كل الكلمات الـ{w}',
+        'wd_index_meta' => 'كل كلمة في خريطة الكلمات — {w} مفهومًا في 1188 لغة، مع النطق.',
+        'wd_title' => '«{name}» في {n} لغة',
+        'wd_meta' => 'كيف تقول «{name}» في {n} لغة، مع النطق والكتابة الأصلية.',
+        'wd_forms' => '{n} لغة',
+        'wd_open_app' => 'شاهد «{name}» على الخريطة',
+    ],
+    'he' => [
+        'wd_link' => 'מילים',
+        'wd_index_h1' => 'כל {w} המילים',
+        'wd_index_meta' => 'כל מילה במפת המילים — {w} מושגים ב-1,188 שפות, עם הגייה.',
+        'wd_title' => '«{name}» ב-{n} שפות',
+        'wd_meta' => 'איך אומרים «{name}» ב-{n} שפות, עם הגייה וכתב מקורי.',
+        'wd_forms' => '{n} שפות',
+        'wd_open_app' => 'לראות «{name}» על המפה',
+    ],
+    'sw' => [
+        'wd_link' => 'Maneno',
+        'wd_index_h1' => 'Maneno yote {w}',
+        'wd_index_meta' => 'Kila neno kwenye Ramani ya Maneno — dhana {w} katika lugha 1,188, pamoja na matamshi.',
+        'wd_title' => '“{name}” katika lugha {n}',
+        'wd_meta' => 'Jinsi ya kusema “{name}” katika lugha {n}, pamoja na matamshi na maandishi asilia.',
+        'wd_forms' => 'lugha {n}',
+        'wd_open_app' => 'Tazama “{name}” kwenye ramani',
+    ],
+];
+
 const SEO_T = [
     'en' => [
         'family' => 'Family', 'speakers' => 'Speakers', 'script' => 'Script',
@@ -1519,7 +1698,12 @@ function seo_inline_prep(string $ui, string $tpl, string $ph, string $name): str
 
 function seo_t(string $ui, string $key, array $vars = []): string
 {
-    $s = SEO_T[$ui][$key] ?? (SEO_T['en'][$key] ?? $key);
+    static $T = null;
+    if ($T === null) {
+        $T = SEO_T;
+        foreach (SEO_T_WORD as $l => $kv) { $T[$l] = ($T[$l] ?? []) + $kv; }
+    }
+    $s = $T[$ui][$key] ?? ($T['en'][$key] ?? $key);
     // Auto-fill the Word Map word count for any label using {w} that didn't
     // receive an explicit 'w' (e.g. the hub / Han Map cross-nav links).
     if (!isset($vars['w']) && strpos($s, '{w}') !== false) {

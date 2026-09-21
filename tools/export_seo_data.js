@@ -239,6 +239,28 @@ function buildWordMapJSON(nameIndex) {
         official: meta.official || '',
         script: meta.script || '',
         region: meta.region || '',
+        // period marks a historical/extinct row and is what puts Latin, Gothic
+        // and Sumerian under one reader-facing heading instead of scattering
+        // them across Europe and the Middle East. speakerCount is the only
+        // structured size figure — meta.speakers is prose ("~380M L1 + ~1.5B
+        // total") and cannot be sorted on. Both added 2026-09-22 for the word
+        // pages, which lead with the biggest languages and group the rest.
+        period: meta.period || '',
+        speakerCount: (function () {
+          const s = meta.speakerCount;
+          if (!s || typeof s !== 'object') return null;
+          // One comparable number per row: L1 where it is given, otherwise the
+          // midpoint of the published range. Ordering only — never displayed.
+          // Three shapes live in this field and a ranking that reads only one
+          // of them is visibly wrong: `en` carries total 1.5B and no l1 at
+          // all, `fr` and `ar` the same, while `ru` is a range. Take the
+          // largest figure the row actually publishes.
+          const c = [s.l1, s.total,
+            (Number.isFinite(s.rangeMin) && Number.isFinite(s.rangeMax))
+              ? Math.round((s.rangeMin + s.rangeMax) / 2) : null,
+            s.rangeMin].filter(Number.isFinite);
+          return c.length ? Math.max(...c) : null;
+        })(),
         iso6393: meta.iso6393 || '',
         glottocode: meta.glottocode || '',
         vitality: meta.vitality || '',

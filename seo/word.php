@@ -24,6 +24,11 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/lib.php';
 
+/** How many languages lead the page before the regional groups start.
+ *  Declared up here and not beside the function that uses it: this file
+ *  dispatches at the top level, so a const further down has not run yet. */
+const SEO_WORD_MAJOR = 24;
+
 /** @var string $seo_id */
 /** @var string $seo_ui */
 $seo_id = $seo_id ?? '';
@@ -57,18 +62,21 @@ seo_render_word($data, $byId[$seo_id], $seo_ui);
 
 
 /**
- * Collect every language that has this word, grouped by coarse family.
- * Blank cells ("—") are skipped: an empty cell is a real answer on this atlas
- * but it is not a form, and a page called "chocolate in 164 languages" must
- * not count them.
+ * Every language that has this word, split into the biggest languages and
+ * then the rest by part of the world.
  *
- * @return array{0:array<string,array<int,array{code:string,name:string,surface:string,ipa:string}>>,1:int,2:array<string,string>}
+ * Grouping used to be by language family, which is the wrong axis for the
+ * reader this page is for: "Atlantic-Congo" is not a category anyone outside
+ * linguistics thinks in. Owner's call, 2026-09-22.
+ *
+ * Blank cells are skipped. An empty cell is a real answer on this atlas but
+ * it is not a form, and a page whose title is a count must not count them.
+ *
+ * @return array{major:array,regions:array<string,array>,n:int}
  */
-function seo_word_rows(array $data, string $id, string $ui): array
+function seo_word_rows(array $data, string $id): array
 {
-    $groups = [];
-    $famEx = [];
-    $n = 0;
+    $rows = [];
     foreach ($data['langs'] as $code => $l) {
         if (!empty($l['excluded'])) {
             continue;                       // noindex'd rows stay off the page
@@ -78,38 +86,51 @@ function seo_word_rows(array $data, string $id, string $ui): array
             continue;
         }
         $surface = (string) ($entry[0] ?? '');
-        $ipa = (string) ($entry[1] ?? '');
         if ($surface === '' || preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $surface)) {
             continue;
         }
-        $famFull = (string) ($l['meta']['family'] ?? '');
-        // Coarse family: "Sinitic (Min Nan, Hokkien)" and "Sinitic (Hakka)"
-        // belong on one heading, the way the map's own legend groups them.
-        $fam = trim(explode(' (', $famFull)[0]);
-        if ($fam === '') {
-            $fam = '—';
-        }
-        // Keep one full string per group. The translation table is keyed on
-        // the full form, so the heading is built from that — see
-        // seo_family_coarse_label().
-        if (!isset($famEx[$fam])) {
-            $famEx[$fam] = $famFull;
-        }
-        $groups[$fam][] = [
-            'code'    => (string) $code,
-            'name'    => seo_pick($l['names'] ?? [], $ui) ?: ($l['name'] ?? $code),
-            'surface' => $surface,
-            'ipa'     => $ipa,
+        $rows[] = [
+            'code'     => (string) $code,
+            'names'    => $l['names'] ?? [],
+            'fallback' => (string) ($l['name'] ?? $code),
+            'surface'  => $surface,
+            'ipa'      => (string) ($entry[1] ?? ''),
+            'region'   => seo_world_region($l),
+            'size'     => (int) ($l['meta']['speakerCount'] ?? 0),
         ];
-        $n++;
     }
-    // Biggest families first, then alphabetical inside each.
-    uasort($groups, fn($a, $b) => count($b) <=> count($a));
-    foreach ($groups as &$g) {
-        usort($g, fn($a, $b) => strcoll($a['name'], $b['name']));
+    $n = count($rows);
+
+    // The biggest languages first, by the row's own published speaker figure.
+    // SEO_WORD_MAJOR of them, and only ones that actually have a figure — 394
+    // rows do not, and they are small or ancient, so they lose nothing here.
+    usort($rows, fn($a, $b) => $b['size'] <=> $a['size']);
+    $major = [];
+    foreach ($rows as $r) {
+        if ($r['size'] <= 0 || count($major) >= SEO_WORD_MAJOR) {
+            break;
+        }
+        $major[] = $r;
     }
-    unset($g);
-    return [$groups, $n, $famEx];
+    $inMajor = array_flip(array_column($major, 'code'));
+
+    $regions = [];
+    foreach ($rows as $r) {
+        if (isset($inMajor[$r['code']])) {
+            continue;                       // shown above; not repeated
+        }
+        $regions[$r['region']][] = $r;
+    }
+    // Fixed display order, and inside a region the biggest languages first so
+    // a reader meets Swahili before Sukuma.
+    $ordered = [];
+    foreach (SEO_REGION_ORDER as $k) {
+        if (!empty($regions[$k])) {
+            usort($regions[$k], fn($a, $b) => $b['size'] <=> $a['size']);
+            $ordered[$k] = $regions[$k];
+        }
+    }
+    return ['major' => $major, 'regions' => $ordered, 'n' => $n];
 }
 
 
@@ -119,8 +140,8 @@ function seo_render_word(array $data, array $word, string $ui): void
     $label = seo_pick($word['label'] ?? [], $ui) ?: $id;
     $def = seo_pick($word['definition'] ?? [], $ui);
 
-    [$groups, $n, $famEx] = seo_word_rows($data, $id, $ui);
-    $nStr = (string) $n;
+    $r = seo_word_rows($data, $id);
+    $nStr = (string) $r['n'];
 
     $canonical = SEO_SITE . seo_path($ui, 'word', $id);
     $altPath = '/word/' . rawurlencode($id);
@@ -152,19 +173,35 @@ function seo_render_word(array $data, array $word, string $ui): void
   <a href="/wordmap.html?w=<?= e(rawurlencode($id)) ?>"><?= e(seo_t($ui, 'wd_open_app', ['name' => $label])) ?></a>
 </div>
 
-<?php foreach ($groups as $fam => $rows): ?>
-<section class="seo-section">
-  <h2><?= e($fam === '—' ? '—' : seo_family_coarse_label($ui, $fam, $famEx[$fam] ?? '')) ?> <span class="sub">(<?= e((string) count($rows)) ?>)</span></h2>
-  <div class="seo-words">
-    <?php foreach ($rows as $r): ?>
+<?php
+    /* One row of the grid. */
+    $cell = function (array $x) use ($ui): void { ?>
     <div class="seo-word">
-      <p class="label"><a href="<?= e(seo_path($ui, 'wordmap', $r['code'])) ?>"><?= e($r['name']) ?></a></p>
-      <p class="surface" lang="<?= e($r['code']) ?>"><?= e($r['surface']) ?></p>
-      <?php if ($r['ipa'] !== ''): ?><p class="ipa"><?= e($r['ipa']) ?></p><?php endif; ?>
+      <p class="label"><a href="<?= e(seo_path($ui, 'wordmap', $x['code'])) ?>"><?= e(seo_pick($x['names'], $ui) ?: $x['fallback']) ?></a></p>
+      <p class="surface" lang="<?= e($x['code']) ?>"><?= e($x['surface']) ?></p>
+      <?php if ($x['ipa'] !== ''): ?><p class="ipa"><?= e($x['ipa']) ?></p><?php endif; ?>
     </div>
-    <?php endforeach; ?>
+<?php }; ?>
+
+<?php if ($r['major']): ?>
+<section class="seo-section">
+  <h2><?= e(seo_t($ui, 'wd_major')) ?></h2>
+  <div class="seo-words">
+    <?php foreach ($r['major'] as $x) $cell($x); ?>
   </div>
 </section>
+<?php endif; ?>
+
+<?php /* The rest by part of the world, collapsed. The markup is all in the
+         DOM — a crawler reads a closed <details> exactly as an open one — but
+         a reader is not handed 1,045 entries in one column. */ ?>
+<?php foreach ($r['regions'] as $key => $rows): ?>
+<details class="seo-section seo-region">
+  <summary><h2><?= e(seo_t($ui, 'wd_' . $key)) ?> <span class="sub">(<?= e((string) count($rows)) ?>)</span></h2></summary>
+  <div class="seo-words">
+    <?php foreach ($rows as $x) $cell($x); ?>
+  </div>
+</details>
 <?php endforeach; ?>
 
 <nav class="seo-section">
@@ -207,7 +244,7 @@ function seo_render_word_index(array $data, array $byId, string $ui): void
         $wid = (string) ($w['id'] ?? '');
         if ($wid === '') continue;
         $wl = seo_pick($w['label'] ?? [], $ui) ?: $wid;
-        [, $n, ] = seo_word_rows($data, $wid, $ui); ?>
+        $n = seo_word_rows($data, $wid)['n']; ?>
     <div class="seo-word">
       <p class="label"><a href="<?= e(seo_path($ui, 'word', $wid)) ?>"><?= e($wl) ?></a></p>
       <p class="ipa"><?= e(seo_t($ui, 'wd_forms', ['n' => (string) $n])) ?></p>

@@ -229,6 +229,19 @@ function seo_ui_endonym(array $data, string $ui): string
 // seo_t() merges the two once, on first call.
 const SEO_T_WORD = [
     'en' => [
+        'wd_major' => 'Major languages',
+        'wd_east_asia' => 'East Asia',
+        'wd_se_asia' => 'Southeast Asia',
+        'wd_south_asia' => 'South Asia',
+        'wd_mideast_ca' => 'Middle East & Central Asia',
+        'wd_north_asia' => 'Siberia & North Asia',
+        'wd_europe' => 'Europe',
+        'wd_africa' => 'Africa',
+        'wd_north_america' => 'North America',
+        'wd_latin_america' => 'Latin America',
+        'wd_oceania' => 'Oceania & the Pacific',
+        'wd_ancient' => 'Ancient & historical',
+        'wd_other' => 'Elsewhere',
         'wd_link' => 'Words',
         'wd_index_h1' => 'All {w} words',
         'wd_index_meta' => 'Every word on the Word Map — {w} concepts across 1,188 languages, with pronunciation.',
@@ -238,6 +251,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'See {name} on the map',
     ],
     'ja' => [
+        'wd_major' => '主要な言語',
+        'wd_east_asia' => '東アジア',
+        'wd_se_asia' => '東南アジア',
+        'wd_south_asia' => '南アジア',
+        'wd_mideast_ca' => '中東・中央アジア',
+        'wd_north_asia' => 'シベリア・北アジア',
+        'wd_europe' => 'ヨーロッパ',
+        'wd_africa' => 'アフリカ',
+        'wd_north_america' => '北アメリカ',
+        'wd_latin_america' => 'ラテンアメリカ',
+        'wd_oceania' => 'オセアニア・太平洋',
+        'wd_ancient' => '古代語・歴史上の言語',
+        'wd_other' => 'その他',
         'wd_link' => '単語',
         'wd_index_h1' => '{w}語すべて',
         'wd_index_meta' => 'ワードマップに載っている全{w}語を、1,188言語の発音つきで。',
@@ -247,6 +273,19 @@ const SEO_T_WORD = [
         'wd_open_app' => '地図で「{name}」を見る',
     ],
     'ko' => [
+        'wd_major' => '주요 언어',
+        'wd_east_asia' => '동아시아',
+        'wd_se_asia' => '동남아시아',
+        'wd_south_asia' => '남아시아',
+        'wd_mideast_ca' => '중동·중앙아시아',
+        'wd_north_asia' => '시베리아·북아시아',
+        'wd_europe' => '유럽',
+        'wd_africa' => '아프리카',
+        'wd_north_america' => '북아메리카',
+        'wd_latin_america' => '라틴아메리카',
+        'wd_oceania' => '오세아니아·태평양',
+        'wd_ancient' => '고대어·역사 속 언어',
+        'wd_other' => '기타',
         'wd_link' => '단어',
         'wd_index_h1' => '전체 {w}개 단어',
         'wd_index_meta' => '워드맵의 모든 단어 — 1,188개 언어의 {w}개 개념을 발음과 함께.',
@@ -256,6 +295,19 @@ const SEO_T_WORD = [
         'wd_open_app' => '지도에서 「{name}」 보기',
     ],
     'zh' => [
+        'wd_major' => '主要语言',
+        'wd_east_asia' => '东亚',
+        'wd_se_asia' => '东南亚',
+        'wd_south_asia' => '南亚',
+        'wd_mideast_ca' => '中东与中亚',
+        'wd_north_asia' => '西伯利亚与北亚',
+        'wd_europe' => '欧洲',
+        'wd_africa' => '非洲',
+        'wd_north_america' => '北美洲',
+        'wd_latin_america' => '拉丁美洲',
+        'wd_oceania' => '大洋洲与太平洋',
+        'wd_ancient' => '古代语言',
+        'wd_other' => '其他',
         'wd_link' => '词语',
         'wd_index_h1' => '全部 {w} 个词',
         'wd_index_meta' => '词语地图收录的全部 {w} 个词，涵盖 1,188 种语言，附发音。',
@@ -265,6 +317,19 @@ const SEO_T_WORD = [
         'wd_open_app' => '在地图上看「{name}」',
     ],
     'yue' => [
+        'wd_major' => '主要語言',
+        'wd_east_asia' => '東亞',
+        'wd_se_asia' => '東南亞',
+        'wd_south_asia' => '南亞',
+        'wd_mideast_ca' => '中東同中亞',
+        'wd_north_asia' => '西伯利亞同北亞',
+        'wd_europe' => '歐洲',
+        'wd_africa' => '非洲',
+        'wd_north_america' => '北美洲',
+        'wd_latin_america' => '拉丁美洲',
+        'wd_oceania' => '大洋洲同太平洋',
+        'wd_ancient' => '古代語言',
+        'wd_other' => '其他',
         'wd_link' => '詞語',
         'wd_index_h1' => '全部 {w} 個詞',
         'wd_index_meta' => '詞語地圖收錄嘅全部 {w} 個詞，涵蓋 1,188 種語言，附發音。',
@@ -274,6 +339,19 @@ const SEO_T_WORD = [
         'wd_open_app' => '喺地圖上面睇「{name}」',
     ],
     'vi' => [
+        'wd_major' => 'Ngôn ngữ lớn',
+        'wd_east_asia' => 'Đông Á',
+        'wd_se_asia' => 'Đông Nam Á',
+        'wd_south_asia' => 'Nam Á',
+        'wd_mideast_ca' => 'Trung Đông và Trung Á',
+        'wd_north_asia' => 'Siberia và Bắc Á',
+        'wd_europe' => 'Châu Âu',
+        'wd_africa' => 'Châu Phi',
+        'wd_north_america' => 'Bắc Mỹ',
+        'wd_latin_america' => 'Mỹ Latinh',
+        'wd_oceania' => 'Châu Đại Dương và Thái Bình Dương',
+        'wd_ancient' => 'Ngôn ngữ cổ',
+        'wd_other' => 'Nơi khác',
         'wd_link' => 'Từ vựng',
         'wd_index_h1' => 'Tất cả {w} từ',
         'wd_index_meta' => 'Mọi từ trên Bản đồ Từ vựng — {w} khái niệm trong 1.188 ngôn ngữ, kèm phát âm.',
@@ -283,6 +361,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Xem “{name}” trên bản đồ',
     ],
     'th' => [
+        'wd_major' => 'ภาษาหลัก',
+        'wd_east_asia' => 'เอเชียตะวันออก',
+        'wd_se_asia' => 'เอเชียตะวันออกเฉียงใต้',
+        'wd_south_asia' => 'เอเชียใต้',
+        'wd_mideast_ca' => 'ตะวันออกกลางและเอเชียกลาง',
+        'wd_north_asia' => 'ไซบีเรียและเอเชียเหนือ',
+        'wd_europe' => 'ยุโรป',
+        'wd_africa' => 'แอฟริกา',
+        'wd_north_america' => 'อเมริกาเหนือ',
+        'wd_latin_america' => 'ละตินอเมริกา',
+        'wd_oceania' => 'โอเชียเนียและแปซิฟิก',
+        'wd_ancient' => 'ภาษาโบราณ',
+        'wd_other' => 'อื่น ๆ',
         'wd_link' => 'คำศัพท์',
         'wd_index_h1' => 'คำทั้งหมด {w} คำ',
         'wd_index_meta' => 'ทุกคำในแผนที่คำศัพท์ — {w} มโนทัศน์ใน 1,188 ภาษา พร้อมคำอ่าน',
@@ -292,6 +383,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'ดู “{name}” บนแผนที่',
     ],
     'id' => [
+        'wd_major' => 'Bahasa utama',
+        'wd_east_asia' => 'Asia Timur',
+        'wd_se_asia' => 'Asia Tenggara',
+        'wd_south_asia' => 'Asia Selatan',
+        'wd_mideast_ca' => 'Timur Tengah & Asia Tengah',
+        'wd_north_asia' => 'Siberia & Asia Utara',
+        'wd_europe' => 'Eropa',
+        'wd_africa' => 'Afrika',
+        'wd_north_america' => 'Amerika Utara',
+        'wd_latin_america' => 'Amerika Latin',
+        'wd_oceania' => 'Oseania & Pasifik',
+        'wd_ancient' => 'Bahasa kuno',
+        'wd_other' => 'Lainnya',
         'wd_link' => 'Kata',
         'wd_index_h1' => 'Semua {w} kata',
         'wd_index_meta' => 'Setiap kata di Peta Kata — {w} konsep dalam 1.188 bahasa, lengkap dengan pelafalan.',
@@ -301,6 +405,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Lihat “{name}” di peta',
     ],
     'hi' => [
+        'wd_major' => 'प्रमुख भाषाएँ',
+        'wd_east_asia' => 'पूर्वी एशिया',
+        'wd_se_asia' => 'दक्षिण-पूर्व एशिया',
+        'wd_south_asia' => 'दक्षिण एशिया',
+        'wd_mideast_ca' => 'मध्य पूर्व और मध्य एशिया',
+        'wd_north_asia' => 'साइबेरिया और उत्तरी एशिया',
+        'wd_europe' => 'यूरोप',
+        'wd_africa' => 'अफ़्रीका',
+        'wd_north_america' => 'उत्तरी अमेरिका',
+        'wd_latin_america' => 'लैटिन अमेरिका',
+        'wd_oceania' => 'ओशिआनिया और प्रशांत',
+        'wd_ancient' => 'प्राचीन भाषाएँ',
+        'wd_other' => 'अन्य',
         'wd_link' => 'शब्द',
         'wd_index_h1' => 'सभी {w} शब्द',
         'wd_index_meta' => 'वर्ड मैप के सभी शब्द — 1,188 भाषाओं में {w} अवधारणाएँ, उच्चारण सहित।',
@@ -310,6 +427,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'मानचित्र पर “{name}” देखें',
     ],
     'de' => [
+        'wd_major' => 'Große Sprachen',
+        'wd_east_asia' => 'Ostasien',
+        'wd_se_asia' => 'Südostasien',
+        'wd_south_asia' => 'Südasien',
+        'wd_mideast_ca' => 'Naher Osten & Zentralasien',
+        'wd_north_asia' => 'Sibirien & Nordasien',
+        'wd_europe' => 'Europa',
+        'wd_africa' => 'Afrika',
+        'wd_north_america' => 'Nordamerika',
+        'wd_latin_america' => 'Lateinamerika',
+        'wd_oceania' => 'Ozeanien & Pazifik',
+        'wd_ancient' => 'Alte Sprachen',
+        'wd_other' => 'Sonstige',
         'wd_link' => 'Wörter',
         'wd_index_h1' => 'Alle {w} Wörter',
         'wd_index_meta' => 'Jedes Wort der Wortkarte — {w} Begriffe in 1.188 Sprachen, mit Aussprache.',
@@ -319,6 +449,19 @@ const SEO_T_WORD = [
         'wd_open_app' => '„{name}“ auf der Karte ansehen',
     ],
     'fr' => [
+        'wd_major' => 'Grandes langues',
+        'wd_east_asia' => 'Asie de l’Est',
+        'wd_se_asia' => 'Asie du Sud-Est',
+        'wd_south_asia' => 'Asie du Sud',
+        'wd_mideast_ca' => 'Moyen-Orient et Asie centrale',
+        'wd_north_asia' => 'Sibérie et Asie du Nord',
+        'wd_europe' => 'Europe',
+        'wd_africa' => 'Afrique',
+        'wd_north_america' => 'Amérique du Nord',
+        'wd_latin_america' => 'Amérique latine',
+        'wd_oceania' => 'Océanie et Pacifique',
+        'wd_ancient' => 'Langues anciennes',
+        'wd_other' => 'Ailleurs',
         'wd_link' => 'Mots',
         'wd_index_h1' => 'Les {w} mots',
         'wd_index_meta' => 'Tous les mots de la Carte des mots — {w} notions dans 1 188 langues, avec la prononciation.',
@@ -328,6 +471,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Voir « {name} » sur la carte',
     ],
     'it' => [
+        'wd_major' => 'Lingue principali',
+        'wd_east_asia' => 'Asia orientale',
+        'wd_se_asia' => 'Sud-est asiatico',
+        'wd_south_asia' => 'Asia meridionale',
+        'wd_mideast_ca' => 'Medio Oriente e Asia centrale',
+        'wd_north_asia' => 'Siberia e Asia settentrionale',
+        'wd_europe' => 'Europa',
+        'wd_africa' => 'Africa',
+        'wd_north_america' => 'America del Nord',
+        'wd_latin_america' => 'America Latina',
+        'wd_oceania' => 'Oceania e Pacifico',
+        'wd_ancient' => 'Lingue antiche',
+        'wd_other' => 'Altrove',
         'wd_link' => 'Parole',
         'wd_index_h1' => 'Tutte le {w} parole',
         'wd_index_meta' => 'Ogni parola della Mappa delle parole — {w} concetti in 1.188 lingue, con la pronuncia.',
@@ -337,6 +493,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Vedi «{name}» sulla mappa',
     ],
     'es' => [
+        'wd_major' => 'Lenguas principales',
+        'wd_east_asia' => 'Asia Oriental',
+        'wd_se_asia' => 'Sudeste Asiático',
+        'wd_south_asia' => 'Asia del Sur',
+        'wd_mideast_ca' => 'Oriente Medio y Asia Central',
+        'wd_north_asia' => 'Siberia y Asia del Norte',
+        'wd_europe' => 'Europa',
+        'wd_africa' => 'África',
+        'wd_north_america' => 'América del Norte',
+        'wd_latin_america' => 'América Latina',
+        'wd_oceania' => 'Oceanía y el Pacífico',
+        'wd_ancient' => 'Lenguas antiguas',
+        'wd_other' => 'Otros',
         'wd_link' => 'Palabras',
         'wd_index_h1' => 'Las {w} palabras',
         'wd_index_meta' => 'Todas las palabras del Mapa de palabras: {w} conceptos en 1188 lenguas, con pronunciación.',
@@ -346,6 +515,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» en el mapa',
     ],
     'pt' => [
+        'wd_major' => 'Línguas principais',
+        'wd_east_asia' => 'Ásia Oriental',
+        'wd_se_asia' => 'Sudeste Asiático',
+        'wd_south_asia' => 'Ásia do Sul',
+        'wd_mideast_ca' => 'Médio Oriente e Ásia Central',
+        'wd_north_asia' => 'Sibéria e Ásia do Norte',
+        'wd_europe' => 'Europa',
+        'wd_africa' => 'África',
+        'wd_north_america' => 'América do Norte',
+        'wd_latin_america' => 'América Latina',
+        'wd_oceania' => 'Oceania e Pacífico',
+        'wd_ancient' => 'Línguas antigas',
+        'wd_other' => 'Outras',
         'wd_link' => 'Palavras',
         'wd_index_h1' => 'Todas as {w} palavras',
         'wd_index_meta' => 'Cada palavra do Mapa de Palavras — {w} conceitos em 1188 línguas, com pronúncia.',
@@ -355,6 +537,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» no mapa',
     ],
     'ru' => [
+        'wd_major' => 'Основные языки',
+        'wd_east_asia' => 'Восточная Азия',
+        'wd_se_asia' => 'Юго-Восточная Азия',
+        'wd_south_asia' => 'Южная Азия',
+        'wd_mideast_ca' => 'Ближний Восток и Центральная Азия',
+        'wd_north_asia' => 'Сибирь и Северная Азия',
+        'wd_europe' => 'Европа',
+        'wd_africa' => 'Африка',
+        'wd_north_america' => 'Северная Америка',
+        'wd_latin_america' => 'Латинская Америка',
+        'wd_oceania' => 'Океания и Тихий океан',
+        'wd_ancient' => 'Древние языки',
+        'wd_other' => 'Прочее',
         'wd_link' => 'Слова',
         'wd_index_h1' => 'Все {w} слов',
         'wd_index_meta' => 'Каждое слово Карты слов — {w} понятий на 1188 языках, с произношением.',
@@ -364,6 +559,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Посмотреть «{name}» на карте',
     ],
     'uk' => [
+        'wd_major' => 'Основні мови',
+        'wd_east_asia' => 'Східна Азія',
+        'wd_se_asia' => 'Південно-Східна Азія',
+        'wd_south_asia' => 'Південна Азія',
+        'wd_mideast_ca' => 'Близький Схід і Центральна Азія',
+        'wd_north_asia' => 'Сибір і Північна Азія',
+        'wd_europe' => 'Європа',
+        'wd_africa' => 'Африка',
+        'wd_north_america' => 'Північна Америка',
+        'wd_latin_america' => 'Латинська Америка',
+        'wd_oceania' => 'Океанія і Тихий океан',
+        'wd_ancient' => 'Давні мови',
+        'wd_other' => 'Інше',
         'wd_link' => 'Слова',
         'wd_index_h1' => 'Усі {w} слів',
         'wd_index_meta' => 'Кожне слово Карти слів — {w} понять у 1188 мовах, із вимовою.',
@@ -373,6 +581,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Подивитися «{name}» на карті',
     ],
     'ar' => [
+        'wd_major' => 'اللغات الكبرى',
+        'wd_east_asia' => 'شرق آسيا',
+        'wd_se_asia' => 'جنوب شرق آسيا',
+        'wd_south_asia' => 'جنوب آسيا',
+        'wd_mideast_ca' => 'الشرق الأوسط وآسيا الوسطى',
+        'wd_north_asia' => 'سيبيريا وشمال آسيا',
+        'wd_europe' => 'أوروبا',
+        'wd_africa' => 'أفريقيا',
+        'wd_north_america' => 'أمريكا الشمالية',
+        'wd_latin_america' => 'أمريكا اللاتينية',
+        'wd_oceania' => 'أوقيانوسيا والمحيط الهادئ',
+        'wd_ancient' => 'اللغات القديمة',
+        'wd_other' => 'أخرى',
         'wd_link' => 'الكلمات',
         'wd_index_h1' => 'كل الكلمات الـ{w}',
         'wd_index_meta' => 'كل كلمة في خريطة الكلمات — {w} مفهومًا في 1188 لغة، مع النطق.',
@@ -382,6 +603,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'شاهد «{name}» على الخريطة',
     ],
     'he' => [
+        'wd_major' => 'שפות מרכזיות',
+        'wd_east_asia' => 'מזרח אסיה',
+        'wd_se_asia' => 'דרום-מזרח אסיה',
+        'wd_south_asia' => 'דרום אסיה',
+        'wd_mideast_ca' => 'המזרח התיכון ומרכז אסיה',
+        'wd_north_asia' => 'סיביר וצפון אסיה',
+        'wd_europe' => 'אירופה',
+        'wd_africa' => 'אפריקה',
+        'wd_north_america' => 'צפון אמריקה',
+        'wd_latin_america' => 'אמריקה הלטינית',
+        'wd_oceania' => 'אוקיאניה והאוקיינוס השקט',
+        'wd_ancient' => 'שפות עתיקות',
+        'wd_other' => 'אחר',
         'wd_link' => 'מילים',
         'wd_index_h1' => 'כל {w} המילים',
         'wd_index_meta' => 'כל מילה במפת המילים — {w} מושגים ב-1,188 שפות, עם הגייה.',
@@ -391,6 +625,19 @@ const SEO_T_WORD = [
         'wd_open_app' => 'לראות «{name}» על המפה',
     ],
     'sw' => [
+        'wd_major' => 'Lugha kuu',
+        'wd_east_asia' => 'Asia ya Mashariki',
+        'wd_se_asia' => 'Asia ya Kusini-Mashariki',
+        'wd_south_asia' => 'Asia ya Kusini',
+        'wd_mideast_ca' => 'Mashariki ya Kati na Asia ya Kati',
+        'wd_north_asia' => 'Siberia na Asia ya Kaskazini',
+        'wd_europe' => 'Ulaya',
+        'wd_africa' => 'Afrika',
+        'wd_north_america' => 'Amerika Kaskazini',
+        'wd_latin_america' => 'Amerika Kusini',
+        'wd_oceania' => 'Oceania na Pasifiki',
+        'wd_ancient' => 'Lugha za kale',
+        'wd_other' => 'Nyingine',
         'wd_link' => 'Maneno',
         'wd_index_h1' => 'Maneno yote {w}',
         'wd_index_meta' => 'Kila neno kwenye Ramani ya Maneno — dhana {w} katika lugha 1,188, pamoja na matamshi.',
@@ -1835,6 +2082,57 @@ function seo_family_line(string $ui, string $key, string $family): string
  *
  * @param string $full any full family string belonging to this coarse group
  */
+/**
+ * Which part of the world a row belongs to, for a reader who does not know
+ * what a language family is.
+ *
+ * The word pages used to group by family, which is the right axis for a
+ * linguist and useless to everyone else — "Atlantic-Congo" and "Kra-Dai" tell
+ * a general reader nothing. Geography does. Derived from the row's own pin,
+ * which every one of the 1,188 rows has; meta.region is empty across the
+ * board and meta.countries is prose too free to parse.
+ *
+ * The boxes are deliberately coarse and the order matters. Audited against
+ * the full row set until nothing landed in 'other':
+ *   - Alaska and the Yukon are tested first, or lng <= -140 sends Iñupiaq and
+ *     Koyukon to the Pacific.
+ *   - Europe stops before Türkiye and the Caucasus: east of 28 degrees it has
+ *     to be north of 45, which keeps Greece, Bulgaria, Romania, Ukraine and
+ *     Russia in while putting Turkish, Georgian, Armenian, Azerbaijani and
+ *     Kurdish into the Middle East group where a reader expects them.
+ *   - Australia needs its own line; its west coast is at 115E, short of the
+ *     130E the Pacific test uses.
+ * Historical rows are pulled out by meta.period before any of this runs, so
+ * Latin, Gothic and Sumerian sit together instead of scattering.
+ */
+function seo_world_region(array $lang): string
+{
+    if (!empty($lang['meta']['period'])) {
+        return 'ancient';
+    }
+    $la = (float) ($lang['lat'] ?? 0);
+    $ln = (float) ($lang['lng'] ?? 0);
+    if ($ln <= -128 && $la >= 50) return 'north_america';
+    if ($ln >= 60 && $la >= 50) return 'north_asia';
+    if ($ln >= 100 && $ln <= 150 && $la >= 20 && $la < 50) return 'east_asia';
+    if ($la < -10 && $ln >= 110 && $ln <= 156) return 'oceania';
+    if ($ln <= -140 || ($ln >= 130 && $la < 20) || ($ln >= 150 && $la < 30)) return 'oceania';
+    if ($ln >= 92 && $ln < 141 && $la >= -11 && $la < 30) return 'se_asia';
+    if ($ln >= 60 && $ln < 92 && $la >= 3 && $la < 50) return 'south_asia';
+    if ($ln >= -26 && $ln < 62 && $la >= 36 && $la <= 75 && ($ln < 28 || $la >= 45)) return 'europe';
+    if ($ln >= 25 && $ln < 100 && $la >= 10 && $la < 50) return 'mideast_ca';
+    if ($ln >= -26 && $ln < 60 && $la >= -36 && $la < 38) return 'africa';
+    if ($ln >= -170 && $ln < -30 && $la >= 14) return 'north_america';
+    if ($ln >= -120 && $ln < -30 && $la < 14) return 'latin_america';
+    return 'other';
+}
+
+/** Display order: the biggest groups of the atlas, then the odds and ends. */
+const SEO_REGION_ORDER = ['east_asia', 'se_asia', 'south_asia', 'mideast_ca',
+    'europe', 'africa', 'north_america', 'latin_america', 'oceania',
+    'north_asia', 'ancient', 'other'];
+
+
 function seo_family_coarse_label(string $ui, string $coarse, string $full = ''): string
 {
     $direct = seo_meta_value($ui, $coarse);
@@ -2061,6 +2359,16 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   border-radius: 999px; padding: .3rem .85rem; font-size: .95rem; }
 .seo-meta .chip b { color: var(--muted); font-weight: 600; margin-right: .35rem; }
 .seo-desc { font-size: 1.15rem; max-width: 50rem; margin: 0 0 2rem; }
+/* Regional groups on a word page collapse. The <summary> carries the same
+   h2 as an open section, so the heading looks identical either way; only the
+   marker and the pointer differ. Content stays in the DOM. */
+.seo-region > summary { list-style: none; cursor: pointer; }
+.seo-region > summary::-webkit-details-marker { display: none; }
+.seo-region > summary h2 { display: inline-block; width: calc(100% - 1.4em); }
+.seo-region > summary::after { content: '\25BE'; float: right; color: var(--muted);
+  font-size: 1.2rem; margin-top: 2.9rem; transition: transform .15s; }
+.seo-region[open] > summary::after { transform: rotate(180deg); }
+.seo-region > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .seo-section h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-bottom: 2px solid var(--line);
   padding-bottom: .35rem; }
 .seo-words { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));

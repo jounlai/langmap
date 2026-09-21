@@ -623,7 +623,7 @@ WORDS.orange = {
     ky: ["апельсин", "apelʲˈsin"],
     uz: ["apelsin", "apelˈsin"],
     tk: ["pyrtykal", "pɯrtɯˈkal"],
-    mn_cn: ["жүрж", "dʒyrdʒ"],
+    mn_cn: ["ᠵᠦᠷᠵᠢ", "dʒʉrdʒ"],
     ar_eg: ["برتقان", "burtuˈʔaːn"],
     ar_lev: ["برتقان", "burtuˈʔaːn"],
     ar_gulf: ["برتقال", "burtuˈɡaːl"],

@@ -89,9 +89,34 @@ seo_render_word($data, $byId[$seo_id], $seo_ui);
 function seo_word_rows(array $data, string $id, string $ui = 'en'): array
 {
     $langs = $data['langs'];
+    // A row folds into its parent only if its code is a LangMap variety code —
+    // one with an underscore, like de_at or es_mx. A row with a standard
+    // language code of its own (an ISO 639-1 or 639-3 code, no underscore)
+    // always gets its own card, however close its nearest relative is.
+    //
+    // WHY THE TEST IS THE CODE AND NOT parentCode. Following parentCode alone
+    // was inconsistent in a way a reader noticed straight away: the Italian
+    // varieties each had a card — Neapolitan, Sicilian, Venetian, Lombard,
+    // Piedmontese, Ligurian, Romagnol — and the German ones did not, because
+    // gsw, ksh and vmf carry a hand-written parentCode 'de' even though each
+    // has its own ISO 639-3 code. It was not even consistent inside German:
+    // Low German, Limburgish, Pennsylvania German and Walliser German stood
+    // alone while Kölsch was folded in. Reported 2026-09-22.
+    //
+    // It also swallowed eight rows the atlas explicitly marks as NOT dialects.
+    // varietyRole 'sibling-language' exists so the data does not have to
+    // assert "child of" (wordmap_meta.js, VARIETY_REL, Audit Task 126), and
+    // the fold ignored it: Moksha landed inside the ERZYA card with its form
+    // on top, Lule and Skolt Sámi inside Northern Sámi, Plains Cree inside
+    // Cree, Lango inside Acholi, Western Armenian inside Armenian.
+    //
+    // The underscore test settles both at once and matches what ISO 639-3,
+    // Glottolog and Ethnologue already say. Sinitic is the deliberate
+    // exception and is handled above, at the owner's request.
     $root = static function (string $c) use ($langs): string {
         $seen = [];
-        while (!empty($langs[$c]['meta']['parentCode']) && !isset($seen[$c])) {
+        while (str_contains($c, '_') && !isset($seen[$c])
+            && !empty($langs[$c]['meta']['parentCode'])) {
             $seen[$c] = true;
             $c = (string) $langs[$c]['meta']['parentCode'];
         }

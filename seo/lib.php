@@ -229,6 +229,9 @@ function seo_ui_endonym(array $data, string $ui): string
 // seo_t() merges the two once, on first call.
 const SEO_T_WORD = [
     'en' => [
+        'wd_readings' => '{n} readings of the same spelling',
+        'wd_same_in' => 'said the same in {n} places',
+        'wd_more' => 'and {n} more',
         'wd_zh_group' => 'Chinese',
         'wd_major' => 'Major languages',
         'wd_east_asia' => 'East Asia',
@@ -252,6 +255,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'See {name} on the map',
     ],
     'ja' => [
+        'wd_readings' => '同じ表記で{n}通りの読み',
+        'wd_same_in' => '{n}の言語・地域で同じ',
+        'wd_more' => 'ほか{n}',
         'wd_zh_group' => '中国語',
         'wd_major' => '主要な言語',
         'wd_east_asia' => '東アジア',
@@ -275,6 +281,9 @@ const SEO_T_WORD = [
         'wd_open_app' => '地図で「{name}」を見る',
     ],
     'ko' => [
+        'wd_readings' => '같은 표기로 {n}가지 발음',
+        'wd_same_in' => '{n}개 지역에서 동일',
+        'wd_more' => '외 {n}개',
         'wd_zh_group' => '중국어',
         'wd_major' => '주요 언어',
         'wd_east_asia' => '동아시아',
@@ -298,6 +307,9 @@ const SEO_T_WORD = [
         'wd_open_app' => '지도에서 「{name}」 보기',
     ],
     'zh' => [
+        'wd_readings' => '同样的写法有 {n} 种读音',
+        'wd_same_in' => '{n} 个地区读法相同',
+        'wd_more' => '另有 {n} 个',
         'wd_zh_group' => '汉语',
         'wd_major' => '主要语言',
         'wd_east_asia' => '东亚',
@@ -321,6 +333,9 @@ const SEO_T_WORD = [
         'wd_open_app' => '在地图上看「{name}」',
     ],
     'yue' => [
+        'wd_readings' => '同樣寫法有 {n} 種讀音',
+        'wd_same_in' => '{n} 個地區讀法相同',
+        'wd_more' => '另有 {n} 個',
         'wd_zh_group' => '漢語',
         'wd_major' => '主要語言',
         'wd_east_asia' => '東亞',
@@ -344,6 +359,9 @@ const SEO_T_WORD = [
         'wd_open_app' => '喺地圖上面睇「{name}」',
     ],
     'vi' => [
+        'wd_readings' => '{n} cách đọc cùng một chữ',
+        'wd_same_in' => 'giống nhau ở {n} nơi',
+        'wd_more' => 'và {n} nơi nữa',
         'wd_zh_group' => 'Tiếng Trung',
         'wd_major' => 'Ngôn ngữ lớn',
         'wd_east_asia' => 'Đông Á',
@@ -367,6 +385,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Xem “{name}” trên bản đồ',
     ],
     'th' => [
+        'wd_readings' => 'เขียนเหมือนกันแต่อ่าน {n} แบบ',
+        'wd_same_in' => 'อ่านเหมือนกันใน {n} แห่ง',
+        'wd_more' => 'และอีก {n}',
         'wd_zh_group' => 'ภาษาจีน',
         'wd_major' => 'ภาษาหลัก',
         'wd_east_asia' => 'เอเชียตะวันออก',
@@ -390,6 +411,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'ดู “{name}” บนแผนที่',
     ],
     'id' => [
+        'wd_readings' => '{n} cara baca untuk ejaan yang sama',
+        'wd_same_in' => 'sama di {n} wilayah',
+        'wd_more' => 'dan {n} lainnya',
         'wd_zh_group' => 'Bahasa Tionghoa',
         'wd_major' => 'Bahasa utama',
         'wd_east_asia' => 'Asia Timur',
@@ -413,6 +437,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Lihat “{name}” di peta',
     ],
     'hi' => [
+        'wd_readings' => 'एक ही वर्तनी के {n} उच्चारण',
+        'wd_same_in' => '{n} जगहों पर एक जैसा',
+        'wd_more' => 'और {n}',
         'wd_zh_group' => 'चीनी',
         'wd_major' => 'प्रमुख भाषाएँ',
         'wd_east_asia' => 'पूर्वी एशिया',
@@ -436,6 +463,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'मानचित्र पर “{name}” देखें',
     ],
     'de' => [
+        'wd_readings' => '{n} Aussprachen derselben Schreibung',
+        'wd_same_in' => 'in {n} Gebieten gleich',
+        'wd_more' => 'und {n} weitere',
         'wd_zh_group' => 'Chinesisch',
         'wd_major' => 'Große Sprachen',
         'wd_east_asia' => 'Ostasien',
@@ -459,6 +489,9 @@ const SEO_T_WORD = [
         'wd_open_app' => '„{name}“ auf der Karte ansehen',
     ],
     'fr' => [
+        'wd_readings' => '{n} prononciations pour la même graphie',
+        'wd_same_in' => 'identique dans {n} régions',
+        'wd_more' => 'et {n} autres',
         'wd_zh_group' => 'Chinois',
         'wd_major' => 'Grandes langues',
         'wd_east_asia' => 'Asie de l’Est',
@@ -482,6 +515,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Voir « {name} » sur la carte',
     ],
     'it' => [
+        'wd_readings' => '{n} pronunce della stessa grafia',
+        'wd_same_in' => 'uguale in {n} aree',
+        'wd_more' => 'e altre {n}',
         'wd_zh_group' => 'Cinese',
         'wd_major' => 'Lingue principali',
         'wd_east_asia' => 'Asia orientale',
@@ -505,6 +541,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Vedi «{name}» sulla mappa',
     ],
     'es' => [
+        'wd_readings' => '{n} pronunciaciones de la misma grafía',
+        'wd_same_in' => 'igual en {n} zonas',
+        'wd_more' => 'y {n} más',
         'wd_zh_group' => 'Chino',
         'wd_major' => 'Lenguas principales',
         'wd_east_asia' => 'Asia Oriental',
@@ -528,6 +567,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» en el mapa',
     ],
     'pt' => [
+        'wd_readings' => '{n} pronúncias da mesma grafia',
+        'wd_same_in' => 'igual em {n} regiões',
+        'wd_more' => 'e mais {n}',
         'wd_zh_group' => 'Chinês',
         'wd_major' => 'Línguas principais',
         'wd_east_asia' => 'Ásia Oriental',
@@ -551,6 +593,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» no mapa',
     ],
     'ru' => [
+        'wd_readings' => '{n} чтений одного написания',
+        'wd_same_in' => 'одинаково в {n} местах',
+        'wd_more' => 'и ещё {n}',
         'wd_zh_group' => 'Китайский',
         'wd_major' => 'Основные языки',
         'wd_east_asia' => 'Восточная Азия',
@@ -574,6 +619,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Посмотреть «{name}» на карте',
     ],
     'uk' => [
+        'wd_readings' => '{n} читань того самого написання',
+        'wd_same_in' => 'однаково у {n} місцях',
+        'wd_more' => 'і ще {n}',
         'wd_zh_group' => 'Китайська',
         'wd_major' => 'Основні мови',
         'wd_east_asia' => 'Східна Азія',
@@ -597,6 +645,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Подивитися «{name}» на карті',
     ],
     'ar' => [
+        'wd_readings' => '{n} نطقًا لنفس الكتابة',
+        'wd_same_in' => 'متطابق في {n} مناطق',
+        'wd_more' => 'و{n} أخرى',
         'wd_zh_group' => 'الصينية',
         'wd_major' => 'اللغات الكبرى',
         'wd_east_asia' => 'شرق آسيا',
@@ -620,6 +671,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'شاهد «{name}» على الخريطة',
     ],
     'he' => [
+        'wd_readings' => '{n} הגיות לאותו כתיב',
+        'wd_same_in' => 'זהה ב-{n} מקומות',
+        'wd_more' => 'ועוד {n}',
         'wd_zh_group' => 'סינית',
         'wd_major' => 'שפות מרכזיות',
         'wd_east_asia' => 'מזרח אסיה',
@@ -643,6 +697,9 @@ const SEO_T_WORD = [
         'wd_open_app' => 'לראות «{name}» על המפה',
     ],
     'sw' => [
+        'wd_readings' => 'matamshi {n} ya tahajia moja',
+        'wd_same_in' => 'sawa katika maeneo {n}',
+        'wd_more' => 'na mengine {n}',
         'wd_zh_group' => 'Kichina',
         'wd_major' => 'Lugha kuu',
         'wd_east_asia' => 'Asia ya Mashariki',
@@ -2644,38 +2701,42 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-meta .chip b { color: var(--muted); font-weight: 600; margin-right: .35rem; }
 .seo-desc { font-size: 1.15rem; max-width: 50rem; margin: 0 0 2rem; }
 /* --- word page: one card per language group ------------------------------
-   The reader this page is for does not know what a language family is, so the
-   card leads with the language name, then the form, then who says it. Flags
-   carry the country because a flag is read faster than a name and a child can
-   read it at all. Links are NOT underlined: at 1,000 entries an underline per
-   link turns the page into a grid of rules — the colour and the hover carry
-   the affordance instead. */
-.wgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-  gap: .9rem; align-items: start; }
-.wcard { background: var(--card); border: 1px solid var(--line); border-radius: .8rem;
-  padding: .85rem 1rem 1rem; }
-.wcard-lang { font-size: .82rem; font-weight: 600; letter-spacing: .04em;
-  text-transform: uppercase; color: var(--muted); margin: 0 0 .5rem; }
-.wcard-form + .wcard-form { margin-top: .85rem; padding-top: .85rem;
-  border-top: 1px dashed var(--line); }
-.wcard .surface { font-size: 1.7rem; line-height: 1.25; margin: 0; word-break: break-word; }
-.wcard .ipa { font-size: .92rem; color: var(--muted); margin: .15rem 0 0; }
-.wcard-where { margin: .45rem 0 0; font-size: .86rem; line-height: 1.7; }
-.wcard-where a { color: var(--muted); text-decoration: none;
-  border-radius: .35rem; padding: .05rem .25rem; margin: 0 .1rem 0 -.25rem;
-  display: inline-block; }
-.wcard-where a:hover, .wcard-where a:focus-visible { color: var(--fg); background: var(--line); }
-.wcard-where .flag { margin-right: .3rem; font-size: 1.05em;
-  /* Windows has no colour flag glyphs and falls back to the two-letter code,
-     which still says which country it is. */
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
-/* A group with one form and one member is most of the atlas, so the whole
-   card is the link and the language name is not printed twice. */
-a.wcard.is-single { display: block; text-decoration: none; color: inherit; }
-a.wcard.is-single:hover, a.wcard.is-single:focus-visible { border-color: var(--accent); }
-a.wcard.is-single .wcard-lang, a.wcard.is-single .surface, a.wcard.is-single .ipa { display: block; }
-a.wcard.is-single .wcard-lang { margin-bottom: .35rem; }
-@media (max-width: 480px) { .wgrid { grid-template-columns: 1fr; } }
+   Packed with CSS columns, not grid. A grid row is as tall as its tallest
+   card, so one card with six pronunciations in it left holes beside every
+   short neighbour — reported from a PC. Columns flow vertically and close
+   them. break-inside keeps a card whole across the column break.
+
+   Links are not underlined: at a thousand entries an underline apiece turns
+   the page into a grid of rules. Colour and hover carry the affordance. */
+.wgrid { columns: 16rem auto; column-gap: .9rem; }
+.wcard { break-inside: avoid; -webkit-column-break-inside: avoid;
+  background: var(--card); border: 1px solid var(--line); border-radius: .8rem;
+  padding: .8rem 1rem .9rem; margin: 0 0 .9rem; }
+.wcard-lang a { color: inherit; text-decoration: none; }
+.wcard-lang a:hover, .wcard-lang a:focus-visible { color: var(--fg); box-shadow: 0 1px 0 currentColor; }
+.wcard-lang { font-size: .78rem; font-weight: 600; letter-spacing: .05em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 .35rem; }
+.wcard > .surface { font-size: 1.75rem; line-height: 1.2; margin: 0; word-break: break-word; }
+.wcard > .ipa { font-size: .92rem; color: var(--muted); margin: .1rem 0 0; }
+.wcard-where { margin: .3rem 0 0; font-size: .86rem; line-height: 1.75; }
+.wcard-where a { color: var(--muted); text-decoration: none; }
+.wcard-where a:hover, .wcard-where a:focus-visible { color: var(--fg); text-decoration: none;
+  box-shadow: 0 1px 0 currentColor; }
+
+/* "35 readings of the same spelling" — the variation stated, then unfolded on
+   request. This is the line that replaced a wall of flags and names. */
+.wcard-more { margin: .45rem 0 0; }
+.wcard-more > summary { cursor: pointer; font-size: .82rem; color: var(--accent);
+  list-style: none; }
+.wcard-more > summary::-webkit-details-marker { display: none; }
+.wcard-more > summary::after { content: ' \203A'; display: inline-block; transition: transform .15s; }
+.wcard-more[open] > summary::after { transform: rotate(90deg); }
+.wcard-more > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px;
+  border-radius: .25rem; }
+.wcard-more .wcard-form { margin-top: .6rem; padding-top: .6rem; border-top: 1px dashed var(--line); }
+.wcard-more .surface { font-size: 1.15rem; margin: 0; }
+.wcard-more .ipa { font-size: .85rem; color: var(--muted); margin: 0; }
+@media (max-width: 480px) { .wgrid { columns: 1; } }
 
 /* Regional groups on a word page collapse. The <summary> carries the same
    h2 as an open section, so the heading looks identical either way; only the

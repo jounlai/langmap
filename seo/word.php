@@ -122,14 +122,20 @@ function seo_word_rows(array $data, string $id): array
                 'label'  => $g === '__zh' ? '' : (string) ($anchor['name'] ?? $g),
                 'names'  => $g === '__zh' ? [] : ($anchor['names'] ?? []),
                 'region' => seo_world_region($anchor),
+                'country'=> seo_country_name($anchor),
                 'size'   => 0,
                 'forms'  => [],
             ];
         }
         $groups[$g]['size'] = max($groups[$g]['size'], (int) ($l['meta']['speakerCount'] ?? 0));
-        $f = &$groups[$g]['forms'][$surface];
+        // Keyed on spelling AND sound. Spelling alone was wrong and hid the
+        // best fact on the page: 45 Sinitic lects write water 水 and say it 35
+        // different ways, and the first cut of this collapsed all 45 into one
+        // line. Reported from a PC, 2026-09-22.
+        $ipa = (string) ($entry[1] ?? '');
+        $f = &$groups[$g]['forms'][$surface . "\x00" . $ipa];
         if ($f === null) {
-            $f = ['surface' => $surface, 'ipa' => (string) ($entry[1] ?? ''), 'members' => []];
+            $f = ['surface' => $surface, 'ipa' => $ipa, 'members' => []];
         }
         $f['members'][] = [
             'code'     => (string) $code,
@@ -163,11 +169,24 @@ function seo_word_rows(array $data, string $id): array
             $rest[$g['region']][$k] = $g;
         }
     }
+    // Inside a region, sort by country first so the languages of one place sit
+    // together — all of China, then all of India — and only then by size.
+    // Asked for after reading a region that jumped country every line.
     $regions = [];
     foreach (SEO_REGION_ORDER as $k) {
-        if (!empty($rest[$k])) {
-            $regions[$k] = $rest[$k];
+        if (empty($rest[$k])) {
+            continue;
         }
+        uasort($rest[$k], static function (array $a, array $b): int {
+            // A group with no country ("Worldwide", the constructed languages)
+            // goes last rather than sorting under an empty string.
+            $ac = $a['country'] === '' ? 1 : 0;
+            $bc = $b['country'] === '' ? 1 : 0;
+            return $ac <=> $bc
+                ?: strcoll($a['country'], $b['country'])
+                ?: ($b['size'] <=> $a['size']);
+        });
+        $regions[$k] = $rest[$k];
     }
     return ['major' => $major, 'regions' => $regions, 'n' => $n];
 }
@@ -213,48 +232,64 @@ function seo_render_word(array $data, array $word, string $ui): void
 </div>
 
 <?php
-    /* Two shapes, because most of the atlas is one language saying one thing
-       and it should not be dressed as a container with one item in it.
+    /* A card leads with the biggest member's form and sound, then says in one
+       line what the rest of the group does, and only unfolds if asked.
 
-       SINGLE  the whole card is the link: flag + name, the form, the IPA.
-       GROUP   the language name heads the card, then a line per distinct form
-               carrying the flags of everyone who writes it that way.
+       Three things were wrong with the first attempt, all found on a PC:
+       flag-plus-name repeated down a long row, the 35 Chinese readings of 水
+       collapsed into one line, and a grid full of holes.
 
-       The group shape is what the reader came for: French water is eight
-       varieties and one `eau`; Arabic water is twelve and six words. */
+       So the variation is now the HEADLINE rather than a list. A group whose
+       members all agree says "said the same in 8 places"; one that does not
+       says "35 readings of the same spelling", which is the interesting case
+       and was previously invisible. Either way the card is three lines tall
+       until the reader opens it, so the grid packs.
+
+       No flag emoji. They were asked for and tried, and they do not render on
+       the owner's PC — a row of tofu is worse than no decoration. Country
+       names carry it instead, inside the fold, where they always render. */
     $groupBlock = function (array $g) use ($ui): void {
         $label = $g['key'] === '__zh'
             ? seo_t($ui, 'wd_zh_group')
             : (seo_pick($g['names'], $ui) ?: $g['label']);
-        $one = reset($g['forms']);
-        if (count($g['forms']) === 1 && count($one['members']) === 1) {
-            $m = $one['members'][0];
-            $nm = seo_pick($m['names'], $ui) ?: $m['fallback'];
-            echo '<a class="wcard is-single" href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '">'
-               . '<span class="wcard-lang">'
-               . ($m['flag'] !== '' ? '<span class="flag" aria-hidden="true">' . $m['flag'] . '</span>' : '')
-               . e($nm) . '</span>'
-               . '<span class="surface" lang="' . e($m['code']) . '">' . e($one['surface']) . '</span>'
-               . ($one['ipa'] !== '' ? '<span class="ipa">' . e($one['ipa']) . '</span>' : '')
-               . "</a>\n";
+        $lead = reset($g['forms']);
+        $lm = $lead['members'][0];
+        $members = 0;
+        foreach ($g['forms'] as $f) { $members += count($f['members']); }
+        $readings = count($g['forms']);
+
+        // A one-member group is most of the atlas. Its heading IS its only
+        // language, so the heading carries the link and there is no list
+        // underneath — printing the name twice was the first thing that
+        // looked wrong on screen.
+        $head = $members === 1
+            ? '<a href="' . e(seo_path($ui, 'wordmap', $lm['code'])) . '">' . e($label) . '</a>'
+            : e($label);
+        echo '<article class="wcard"><h3 class="wcard-lang">' . $head . '</h3>'
+           . '<p class="surface" lang="' . e($lm['code']) . '">' . e($lead['surface']) . '</p>'
+           . ($lead['ipa'] !== '' ? '<p class="ipa">' . e($lead['ipa']) . '</p>' : '');
+
+        if ($members === 1) {
+            echo '</article>' . "\n";
             return;
         }
-        echo '<article class="wcard"><h3 class="wcard-lang">' . e($label) . '</h3>';
+
+        $summary = $readings > 1
+            ? seo_t($ui, 'wd_readings', ['n' => (string) $readings])
+            : seo_t($ui, 'wd_same_in', ['n' => (string) $members]);
+        echo '<details class="wcard-more"><summary>' . e($summary) . '</summary><div>';
         foreach ($g['forms'] as $f) {
             echo '<div class="wcard-form"><p class="surface" lang="' . e($f['members'][0]['code']) . '">'
-               . e($f['surface']) . '</p>';
-            if ($f['ipa'] !== '') {
-                echo '<p class="ipa">' . e($f['ipa']) . '</p>';
-            }
-            echo '<p class="wcard-where">';
+               . e($f['surface']) . '</p>'
+               . ($f['ipa'] !== '' ? '<p class="ipa">' . e($f['ipa']) . '</p>' : '')
+               . '<p class="wcard-where">';
             foreach ($f['members'] as $m) {
                 echo '<a href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '">'
-                   . ($m['flag'] !== '' ? '<span class="flag" aria-hidden="true">' . $m['flag'] . '</span>' : '')
                    . e(seo_pick($m['names'], $ui) ?: $m['fallback']) . '</a> ';
             }
-            echo "</p></div>";
+            echo '</p></div>';
         }
-        echo "</article>\n";
+        echo '</div></details></article>' . "\n";
     };
 ?>
 

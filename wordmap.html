@@ -12,7 +12,17 @@
     <meta property="og:title" content="LangMap — Word Map: 1,187 Languages with Pronunciation">
     <meta property="og:description" content="67 key words in 1,187 languages on an interactive world map — IPA, broad transcription, romanization, plus 3D globe view and a compare panel.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://langmaps.com/wordmap.html">
+    <!-- No og:url, deliberately. This page's content is chosen by ?w=<word>,
+         and a fixed og:url made Facebook replace every shared link with the
+         bare page: a share of "chocolate" opened water, because with no word
+         the map falls back to WORD_ORDER[0]. Facebook uses og:url as the
+         post's link target, so a static one on a parameterised page silently
+         discards what the sharer chose. Removed 2026-09-21 at the owner's
+         call; <link rel="canonical"> below still gives search engines the
+         canonical, so only Facebook's cross-share deduplication is lost —
+         and that deduplication is what was breaking the links. If this page
+         ever gets per-word server-rendered share pages, give THEM an og:url
+         and leave this one without. -->
     <meta property="og:image" content="https://langmaps.com/ogp-wordmap.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -3604,7 +3614,11 @@
                 // such word, and fell back to WORD_ORDER[0] — so the page loaded
                 // the wrong data file and #w=n99 opened blank on reload while
                 // switching words by hand worked fine.
-                var m = /[#&]w=([a-z0-9_]+)/.exec(window.location.hash || '');
+                // Hash first, then the query string — a shared ?w= must pick the
+                // right data file here, or the page paints the default word
+                // before loadHash() ever runs.
+                var m = /[#&]w=([a-z0-9_]+)/.exec(window.location.hash || '')
+                     || /[?&]w=([a-z0-9_]+)/.exec(window.location.search || '');
                 if (m && WORD_ORDER.indexOf(m[1]) !== -1) initial = m[1];
             } catch (_) {}
             window.__wmInitialWord = initial;
@@ -7063,8 +7077,23 @@
             } catch (e) { location.hash = hash; }
         }
 
+        // Share state lives in the hash, but a fragment is client-side only: it
+        // never reaches the server, Facebook replaces a shared URL with the
+        // page's fragment-less og:url, and several chat clients drop it. A
+        // link shared as #w=chocolate therefore arrived with no word at all
+        // and the page fell back to WORD_ORDER[0] — water. Reported
+        // 2026-09-21 on a Facebook share.
+        //
+        // So the query string is read as a fallback for every key. The hash
+        // still wins where both are present, which keeps in-page navigation
+        // and back/forward exactly as they were.
+        function hashOrQuery() {
+            const h = new URLSearchParams(location.hash.slice(1));
+            const q = new URLSearchParams(location.search);
+            return { get: (k) => { const v = h.get(k); return v === null ? q.get(k) : v; } };
+        }
         function loadHash() {
-            const params = new URLSearchParams(location.hash.slice(1));
+            const params = hashOrQuery();
             const w = params.get('w');
             if (w && WORD_LIST.find(item => item.id === w)) {
                 select.value = w;
@@ -10854,8 +10883,28 @@
             document.body.appendChild(back);
         }
 
+        // A shared link must not depend on the fragment. location.href carries
+        // the whole view in the hash, which is right for this tab's history
+        // and wrong for anyone else: the server never sees it, Facebook swaps
+        // the URL for the fragment-less og:url, and a #w= share therefore
+        // opened water — WORD_ORDER[0] — for every word anyone posted.
+        // Re-emit the same state as a QUERY string; loadHash() reads either.
+        function shareHref() {
+            try {
+                const h = new URLSearchParams(location.hash.slice(1));
+                if (!h.has('w')) h.set('w', currentWord);
+                const q = new URLSearchParams(location.search);
+                // Keep anything the page itself put in the query (?play=…),
+                // but let the live view win where the two disagree.
+                for (const [k, v] of h) q.set(k, v);
+                return location.origin + location.pathname + '?' + q.toString();
+            } catch (e) {
+                return location.href;
+            }
+        }
+
         function doShare() {
-            const url = location.href;
+            const url = shareHref();
             const text = tpl()(curWordLabel());
             if (navigator.share) {
                 navigator.share({ title: 'LangMap', text, url }).catch(() => {});

@@ -245,6 +245,10 @@ function buildWordMapJSON(nameIndex) {
         // structured size figure — meta.speakers is prose ("~380M L1 + ~1.5B
         // total") and cannot be sorted on. Both added 2026-09-22 for the word
         // pages, which lead with the biggest languages and group the rest.
+        // parentCode ties a variety to the language it is a variety OF, which
+        // is what lets the word pages put Canadian, Swiss and Belgian French
+        // beside French instead of scattering them by speaker count.
+        parentCode: meta.parentCode || '',
         period: meta.period || '',
         speakerCount: (function () {
           const s = meta.speakerCount;

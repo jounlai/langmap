@@ -229,6 +229,7 @@ function seo_ui_endonym(array $data, string $ui): string
 // seo_t() merges the two once, on first call.
 const SEO_T_WORD = [
     'en' => [
+        'wd_zh_group' => 'Chinese',
         'wd_major' => 'Major languages',
         'wd_east_asia' => 'East Asia',
         'wd_se_asia' => 'Southeast Asia',
@@ -251,6 +252,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'See {name} on the map',
     ],
     'ja' => [
+        'wd_zh_group' => '中国語',
         'wd_major' => '主要な言語',
         'wd_east_asia' => '東アジア',
         'wd_se_asia' => '東南アジア',
@@ -273,6 +275,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '地図で「{name}」を見る',
     ],
     'ko' => [
+        'wd_zh_group' => '중국어',
         'wd_major' => '주요 언어',
         'wd_east_asia' => '동아시아',
         'wd_se_asia' => '동남아시아',
@@ -295,6 +298,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '지도에서 「{name}」 보기',
     ],
     'zh' => [
+        'wd_zh_group' => '汉语',
         'wd_major' => '主要语言',
         'wd_east_asia' => '东亚',
         'wd_se_asia' => '东南亚',
@@ -317,6 +321,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '在地图上看「{name}」',
     ],
     'yue' => [
+        'wd_zh_group' => '漢語',
         'wd_major' => '主要語言',
         'wd_east_asia' => '東亞',
         'wd_se_asia' => '東南亞',
@@ -339,6 +344,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '喺地圖上面睇「{name}」',
     ],
     'vi' => [
+        'wd_zh_group' => 'Tiếng Trung',
         'wd_major' => 'Ngôn ngữ lớn',
         'wd_east_asia' => 'Đông Á',
         'wd_se_asia' => 'Đông Nam Á',
@@ -361,6 +367,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Xem “{name}” trên bản đồ',
     ],
     'th' => [
+        'wd_zh_group' => 'ภาษาจีน',
         'wd_major' => 'ภาษาหลัก',
         'wd_east_asia' => 'เอเชียตะวันออก',
         'wd_se_asia' => 'เอเชียตะวันออกเฉียงใต้',
@@ -383,6 +390,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'ดู “{name}” บนแผนที่',
     ],
     'id' => [
+        'wd_zh_group' => 'Bahasa Tionghoa',
         'wd_major' => 'Bahasa utama',
         'wd_east_asia' => 'Asia Timur',
         'wd_se_asia' => 'Asia Tenggara',
@@ -405,6 +413,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Lihat “{name}” di peta',
     ],
     'hi' => [
+        'wd_zh_group' => 'चीनी',
         'wd_major' => 'प्रमुख भाषाएँ',
         'wd_east_asia' => 'पूर्वी एशिया',
         'wd_se_asia' => 'दक्षिण-पूर्व एशिया',
@@ -427,6 +436,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'मानचित्र पर “{name}” देखें',
     ],
     'de' => [
+        'wd_zh_group' => 'Chinesisch',
         'wd_major' => 'Große Sprachen',
         'wd_east_asia' => 'Ostasien',
         'wd_se_asia' => 'Südostasien',
@@ -449,6 +459,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '„{name}“ auf der Karte ansehen',
     ],
     'fr' => [
+        'wd_zh_group' => 'Chinois',
         'wd_major' => 'Grandes langues',
         'wd_east_asia' => 'Asie de l’Est',
         'wd_se_asia' => 'Asie du Sud-Est',
@@ -471,6 +482,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Voir « {name} » sur la carte',
     ],
     'it' => [
+        'wd_zh_group' => 'Cinese',
         'wd_major' => 'Lingue principali',
         'wd_east_asia' => 'Asia orientale',
         'wd_se_asia' => 'Sud-est asiatico',
@@ -493,6 +505,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Vedi «{name}» sulla mappa',
     ],
     'es' => [
+        'wd_zh_group' => 'Chino',
         'wd_major' => 'Lenguas principales',
         'wd_east_asia' => 'Asia Oriental',
         'wd_se_asia' => 'Sudeste Asiático',
@@ -515,6 +528,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» en el mapa',
     ],
     'pt' => [
+        'wd_zh_group' => 'Chinês',
         'wd_major' => 'Línguas principais',
         'wd_east_asia' => 'Ásia Oriental',
         'wd_se_asia' => 'Sudeste Asiático',
@@ -537,6 +551,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» no mapa',
     ],
     'ru' => [
+        'wd_zh_group' => 'Китайский',
         'wd_major' => 'Основные языки',
         'wd_east_asia' => 'Восточная Азия',
         'wd_se_asia' => 'Юго-Восточная Азия',
@@ -559,6 +574,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Посмотреть «{name}» на карте',
     ],
     'uk' => [
+        'wd_zh_group' => 'Китайська',
         'wd_major' => 'Основні мови',
         'wd_east_asia' => 'Східна Азія',
         'wd_se_asia' => 'Південно-Східна Азія',
@@ -581,6 +597,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Подивитися «{name}» на карті',
     ],
     'ar' => [
+        'wd_zh_group' => 'الصينية',
         'wd_major' => 'اللغات الكبرى',
         'wd_east_asia' => 'شرق آسيا',
         'wd_se_asia' => 'جنوب شرق آسيا',
@@ -603,6 +620,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'شاهد «{name}» على الخريطة',
     ],
     'he' => [
+        'wd_zh_group' => 'סינית',
         'wd_major' => 'שפות מרכזיות',
         'wd_east_asia' => 'מזרח אסיה',
         'wd_se_asia' => 'דרום-מזרח אסיה',
@@ -625,6 +643,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'לראות «{name}» על המפה',
     ],
     'sw' => [
+        'wd_zh_group' => 'Kichina',
         'wd_major' => 'Lugha kuu',
         'wd_east_asia' => 'Asia ya Mashariki',
         'wd_se_asia' => 'Asia ya Kusini-Mashariki',
@@ -2105,6 +2124,271 @@ function seo_family_line(string $ui, string $key, string $family): string
  * Historical rows are pulled out by meta.period before any of this runs, so
  * Latin, Gothic and Sumerian sit together instead of scattering.
  */
+/**
+ * Country name -> ISO 3166-1 alpha-2, for the flag on a language card.
+ *
+ * Built from the 211 distinct first-countries the data actually writes, not
+ * from a general country list, so it is complete for this atlas and no larger
+ * than it needs to be. It has to carry the aliases the data uses in parallel
+ * — USA / United States / US, UK / United Kingdom, Türkiye / Turkey, DR Congo
+ * / DRC, Cabo Verde / Cape Verde — and the compound strings a few rows carry
+ * ("Cambodia; Vietnam", "Israel/Palestine"), which resolve to the first.
+ *
+ * Deliberately absent: "Worldwide", "Europe-wide", "22 Arab League states",
+ * "Across the Sahel" and four rows with no country at all. Those get no flag
+ * rather than a wrong one.
+ */
+const SEO_COUNTRY_ISO = [
+    'Afghanistan' => 'AF',
+    'Albania' => 'AL',
+    'Algeria' => 'DZ',
+    'Angola' => 'AO',
+    'Argentina' => 'AR',
+    'Armenia' => 'AM',
+    'Aruba' => 'AW',
+    'Australia' => 'AU',
+    'Austria' => 'AT',
+    'Azerbaijan' => 'AZ',
+    'Bahamas' => 'BS',
+    'Bahrain' => 'BH',
+    'Bangladesh' => 'BD',
+    'Belarus' => 'BY',
+    'Belgium' => 'BE',
+    'Belize' => 'BZ',
+    'Benin' => 'BJ',
+    'Bhutan' => 'BT',
+    'Bolivia' => 'BO',
+    'Bosnia and Herzegovina' => 'BA',
+    'Bosnia and Herzegovina; Serbia' => 'BA',
+    'Botswana' => 'BW',
+    'Brazil' => 'BR',
+    'Bulgaria' => 'BG',
+    'Burkina Faso' => 'BF',
+    'Burundi' => 'BI',
+    'Cabo Verde' => 'CV',
+    'Cabo Verde; diaspora in USA' => 'CV',
+    'Cambodia' => 'KH',
+    'Cambodia; Vietnam' => 'KH',
+    'Cameroon' => 'CM',
+    'Canada' => 'CA',
+    'Cape Verde' => 'CV',
+    'Central African Republic' => 'CF',
+    'Central African Republic; pockets in Chad' => 'CF',
+    'Chad' => 'TD',
+    'Chile' => 'CL',
+    'China' => 'CN',
+    'Colombia' => 'CO',
+    'Comoros' => 'KM',
+    'Cook Islands' => 'CK',
+    'Costa Rica' => 'CR',
+    'Croatia' => 'HR',
+    'Cuba' => 'CU',
+    'Czech Republic' => 'CZ',
+    'Côte d\'Ivoire' => 'CI',
+    'DR Congo' => 'CD',
+    'DRC' => 'CD',
+    'Denmark' => 'DK',
+    'Dominican Republic' => 'DO',
+    'Ecuador' => 'EC',
+    'Egypt' => 'EG',
+    'El Salvador' => 'SV',
+    'Equatorial Guinea' => 'GQ',
+    'Eritrea' => 'ER',
+    'Estonia' => 'EE',
+    'Eswatini' => 'SZ',
+    'Ethiopia' => 'ET',
+    'Faroe Islands' => 'FO',
+    'Federated States of Micronesia' => 'FM',
+    'Fiji' => 'FJ',
+    'Finland' => 'FI',
+    'France' => 'FR',
+    'French Guiana' => 'GF',
+    'French Polynesia' => 'PF',
+    'Georgia' => 'GE',
+    'Germany' => 'DE',
+    'Ghana' => 'GH',
+    'Greece' => 'GR',
+    'Greenland' => 'GL',
+    'Guadeloupe' => 'GP',
+    'Guam' => 'GU',
+    'Guatemala' => 'GT',
+    'Guinea' => 'GN',
+    'Guinea-Bissau' => 'GW',
+    'Guyana' => 'GY',
+    'Haiti' => 'HT',
+    'Honduras' => 'HN',
+    'Hungary' => 'HU',
+    'Iceland' => 'IS',
+    'India' => 'IN',
+    'Indonesia' => 'ID',
+    'Iran' => 'IR',
+    'Iraq' => 'IQ',
+    'Ireland' => 'IE',
+    'Isle of Man' => 'IM',
+    'Israel' => 'IL',
+    'Israel/Palestine' => 'IL',
+    'Italy' => 'IT',
+    'Jamaica' => 'JM',
+    'Japan' => 'JP',
+    'Jordan' => 'JO',
+    'Kazakhstan' => 'KZ',
+    'Kenya' => 'KE',
+    'Kiribati' => 'KI',
+    'Kyrgyzstan' => 'KG',
+    'Laos' => 'LA',
+    'Latvia' => 'LV',
+    'Lebanon' => 'LB',
+    'Lesotho' => 'LS',
+    'Liberia' => 'LR',
+    'Liberia/Guinea' => 'LR',
+    'Libya' => 'LY',
+    'Lithuania' => 'LT',
+    'Luxembourg' => 'LU',
+    'Macau' => 'MO',
+    'Madagascar' => 'MG',
+    'Malawi' => 'MW',
+    'Malaysia' => 'MY',
+    'Maldives' => 'MV',
+    'Mali' => 'ML',
+    'Malta' => 'MT',
+    'Marshall Islands' => 'MH',
+    'Mauritania' => 'MR',
+    'Mauritius' => 'MU',
+    'Mayotte' => 'YT',
+    'Mexico' => 'MX',
+    'Micronesia' => 'FM',
+    'Moldova' => 'MD',
+    'Mongolia' => 'MN',
+    'Morocco' => 'MA',
+    'Mozambique' => 'MZ',
+    'Myanmar' => 'MM',
+    'Namibia' => 'NA',
+    'Nauru' => 'NR',
+    'Nepal' => 'NP',
+    'Netherlands' => 'NL',
+    'New Zealand' => 'NZ',
+    'Nicaragua' => 'NI',
+    'Niger' => 'NE',
+    'Nigeria' => 'NG',
+    'Niue' => 'NU',
+    'North Korea' => 'KP',
+    'North Macedonia' => 'MK',
+    'Norway' => 'NO',
+    'Pakistan' => 'PK',
+    'Palau' => 'PW',
+    'Palestine' => 'PS',
+    'Panama' => 'PA',
+    'Papua New Guinea' => 'PG',
+    'Paraguay' => 'PY',
+    'Peru' => 'PE',
+    'Philippines' => 'PH',
+    'Poland' => 'PL',
+    'Portugal' => 'PT',
+    'Puerto Rico' => 'PR',
+    'Qatar' => 'QA',
+    'Romania' => 'RO',
+    'Russia' => 'RU',
+    'Rwanda' => 'RW',
+    'Réunion' => 'RE',
+    'Saint Lucia' => 'LC',
+    'Samoa' => 'WS',
+    'Saudi Arabia' => 'SA',
+    'Senegal' => 'SN',
+    'Serbia' => 'RS',
+    'Seychelles' => 'SC',
+    'Sierra Leone' => 'SL',
+    'Singapore' => 'SG',
+    'Slovakia' => 'SK',
+    'Slovenia' => 'SI',
+    'Solomon Islands' => 'SB',
+    'Somalia' => 'SO',
+    'South Africa' => 'ZA',
+    'South Korea' => 'KR',
+    'South Sudan' => 'SS',
+    'Spain' => 'ES',
+    'Sri Lanka' => 'LK',
+    'Sudan' => 'SD',
+    'Sudan and Egypt' => 'SD',
+    'Suriname' => 'SR',
+    'Sweden' => 'SE',
+    'Switzerland' => 'CH',
+    'Syria' => 'SY',
+    'Taiwan' => 'TW',
+    'Tajikistan' => 'TJ',
+    'Tanzania' => 'TZ',
+    'Thailand' => 'TH',
+    'Timor-Leste' => 'TL',
+    'Togo' => 'TG',
+    'Tokelau' => 'TK',
+    'Tonga' => 'TO',
+    'Tunisia' => 'TN',
+    'Turkey' => 'TR',
+    'Turkmenistan' => 'TM',
+    'Tuvalu' => 'TV',
+    'Türkiye' => 'TR',
+    'UK' => 'GB',
+    'UK Channel Islands' => 'JE',
+    'US' => 'US',
+    'USA' => 'US',
+    'Uganda' => 'UG',
+    'Ukraine' => 'UA',
+    'United Kingdom' => 'GB',
+    'United States' => 'US',
+    'Uruguay' => 'UY',
+    'Uzbekistan' => 'UZ',
+    'Vanuatu' => 'VU',
+    'Venezuela' => 'VE',
+    'Vietnam' => 'VN',
+    'Wales' => 'GB-WLS',
+    'Wallis & Futuna' => 'WF',
+    'Wallis and Futuna' => 'WF',
+    'Yemen' => 'YE',
+    'Zambia' => 'ZM',
+    'Zimbabwe' => 'ZW',
+];
+
+/**
+ * Flag for a row, from the FIRST country it lists. Returns '' when the row
+ * names no country or names something that is not one.
+ *
+ * Emoji, not images: 1,045 flag files on one page would cost more than the
+ * page. The known trade is Windows, which ships no colour flag glyphs and
+ * renders the pair as the two letters "JP" — still informative, which is why
+ * this is acceptable, and why the country name stays in the title attribute.
+ * Wales is a tag sequence rather than a regional-indicator pair.
+ */
+function seo_country_flag(array $lang): string
+{
+    $s = trim((string) ($lang['meta']['countries'] ?? ''));
+    if ($s === '') {
+        return '';
+    }
+    $first = trim(preg_replace('/\s*\(.*$/u', '', explode(',', $s)[0]));
+    $iso = SEO_COUNTRY_ISO[$first] ?? null;
+    if ($iso === null) {
+        return '';
+    }
+    if ($iso === 'GB-WLS') {
+        return "\u{1F3F4}\u{E0067}\u{E0062}\u{E0077}\u{E006C}\u{E0073}\u{E007F}";
+    }
+    $out = '';
+    foreach (str_split($iso) as $ch) {
+        $out .= mb_chr(0x1F1E6 + (ord($ch) - 65), 'UTF-8');
+    }
+    return $out;
+}
+
+/** The country a flag stands for, for the title attribute and screen readers. */
+function seo_country_name(array $lang): string
+{
+    $s = trim((string) ($lang['meta']['countries'] ?? ''));
+    if ($s === '') {
+        return '';
+    }
+    return trim(preg_replace('/\s*\(.*$/u', '', explode(',', $s)[0]));
+}
+
+
 function seo_world_region(array $lang): string
 {
     if (!empty($lang['meta']['period'])) {
@@ -2359,6 +2643,40 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   border-radius: 999px; padding: .3rem .85rem; font-size: .95rem; }
 .seo-meta .chip b { color: var(--muted); font-weight: 600; margin-right: .35rem; }
 .seo-desc { font-size: 1.15rem; max-width: 50rem; margin: 0 0 2rem; }
+/* --- word page: one card per language group ------------------------------
+   The reader this page is for does not know what a language family is, so the
+   card leads with the language name, then the form, then who says it. Flags
+   carry the country because a flag is read faster than a name and a child can
+   read it at all. Links are NOT underlined: at 1,000 entries an underline per
+   link turns the page into a grid of rules — the colour and the hover carry
+   the affordance instead. */
+.wgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: .9rem; align-items: start; }
+.wcard { background: var(--card); border: 1px solid var(--line); border-radius: .8rem;
+  padding: .85rem 1rem 1rem; }
+.wcard-lang { font-size: .82rem; font-weight: 600; letter-spacing: .04em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 .5rem; }
+.wcard-form + .wcard-form { margin-top: .85rem; padding-top: .85rem;
+  border-top: 1px dashed var(--line); }
+.wcard .surface { font-size: 1.7rem; line-height: 1.25; margin: 0; word-break: break-word; }
+.wcard .ipa { font-size: .92rem; color: var(--muted); margin: .15rem 0 0; }
+.wcard-where { margin: .45rem 0 0; font-size: .86rem; line-height: 1.7; }
+.wcard-where a { color: var(--muted); text-decoration: none;
+  border-radius: .35rem; padding: .05rem .25rem; margin: 0 .1rem 0 -.25rem;
+  display: inline-block; }
+.wcard-where a:hover, .wcard-where a:focus-visible { color: var(--fg); background: var(--line); }
+.wcard-where .flag { margin-right: .3rem; font-size: 1.05em;
+  /* Windows has no colour flag glyphs and falls back to the two-letter code,
+     which still says which country it is. */
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
+/* A group with one form and one member is most of the atlas, so the whole
+   card is the link and the language name is not printed twice. */
+a.wcard.is-single { display: block; text-decoration: none; color: inherit; }
+a.wcard.is-single:hover, a.wcard.is-single:focus-visible { border-color: var(--accent); }
+a.wcard.is-single .wcard-lang, a.wcard.is-single .surface, a.wcard.is-single .ipa { display: block; }
+a.wcard.is-single .wcard-lang { margin-bottom: .35rem; }
+@media (max-width: 480px) { .wgrid { grid-template-columns: 1fr; } }
+
 /* Regional groups on a word page collapse. The <summary> carries the same
    h2 as an open section, so the heading looks identical either way; only the
    marker and the pointer differ. Content stays in the DOM. */

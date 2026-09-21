@@ -62,24 +62,47 @@ seo_render_word($data, $byId[$seo_id], $seo_ui);
 
 
 /**
- * Every language that has this word, split into the biggest languages and
- * then the rest by part of the world.
+ * Every language that has this word, as GROUPS of related languages, split
+ * into the biggest and then by part of the world.
  *
- * Grouping used to be by language family, which is the wrong axis for the
- * reader this page is for: "Atlantic-Congo" is not a category anyone outside
- * linguistics thinks in. Owner's call, 2026-09-22.
+ * Three decisions shape this, all from the owner:
  *
- * Blank cells are skipped. An empty cell is a real answer on this atlas but
- * it is not a form, and a page whose title is a count must not count them.
+ * 1. NOT BY FAMILY. "Atlantic-Congo" is the right axis for a linguist and
+ *    means nothing to the reader this page is for. Geography does.
+ * 2. VARIETIES TRAVEL WITH THEIR LANGUAGE. Canadian, Swiss and Belgian French
+ *    belong beside French, not scattered down a list sorted by speaker count.
+ *    parentCode gives that, resolved to the root.
+ * 3. SAME FORM, ONE LINE. Inside a group, members that write the word
+ *    identically merge into a single line carrying all their flags. French
+ *    water is eight varieties and one `eau`; Arabic water is twelve and six
+ *    different words. Sameness compresses, difference shows — which is the
+ *    whole point of the page, and cuts the biggest pages roughly in half.
  *
- * @return array{major:array,regions:array<string,array>,n:int}
+ * Sinitic is forced into one group ("Chinese") at the owner's request. That
+ * is a reader-facing simplification and NOT the atlas's position: Cantonese,
+ * Wu and Min have their own rows and their own language pages, which is where
+ * the linguistic account lives.
+ *
+ * Blank cells are skipped. An empty cell is a real answer here but it is not
+ * a form, and a page whose title is a count must not count them.
  */
 function seo_word_rows(array $data, string $id): array
 {
-    $rows = [];
-    foreach ($data['langs'] as $code => $l) {
+    $langs = $data['langs'];
+    $root = static function (string $c) use ($langs): string {
+        $seen = [];
+        while (!empty($langs[$c]['meta']['parentCode']) && !isset($seen[$c])) {
+            $seen[$c] = true;
+            $c = (string) $langs[$c]['meta']['parentCode'];
+        }
+        return $c;
+    };
+
+    $groups = [];
+    $n = 0;
+    foreach ($langs as $code => $l) {
         if (!empty($l['excluded'])) {
-            continue;                       // noindex'd rows stay off the page
+            continue;
         }
         $entry = $l['words'][$id] ?? null;
         if (!$entry) {
@@ -89,48 +112,64 @@ function seo_word_rows(array $data, string $id): array
         if ($surface === '' || preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $surface)) {
             continue;
         }
-        $rows[] = [
+        $n++;
+        $fam = trim(explode(' (', (string) ($l['meta']['family'] ?? ''))[0]);
+        $g = ($fam === 'Sinitic') ? '__zh' : $root((string) $code);
+        if (!isset($groups[$g])) {
+            $anchor = ($g === '__zh') ? ($langs['zh'] ?? $l) : ($langs[$g] ?? $l);
+            $groups[$g] = [
+                'key'    => $g,
+                'label'  => $g === '__zh' ? '' : (string) ($anchor['name'] ?? $g),
+                'names'  => $g === '__zh' ? [] : ($anchor['names'] ?? []),
+                'region' => seo_world_region($anchor),
+                'size'   => 0,
+                'forms'  => [],
+            ];
+        }
+        $groups[$g]['size'] = max($groups[$g]['size'], (int) ($l['meta']['speakerCount'] ?? 0));
+        $f = &$groups[$g]['forms'][$surface];
+        if ($f === null) {
+            $f = ['surface' => $surface, 'ipa' => (string) ($entry[1] ?? ''), 'members' => []];
+        }
+        $f['members'][] = [
             'code'     => (string) $code,
             'names'    => $l['names'] ?? [],
             'fallback' => (string) ($l['name'] ?? $code),
-            'surface'  => $surface,
-            'ipa'      => (string) ($entry[1] ?? ''),
-            'region'   => seo_world_region($l),
+            'flag'     => seo_country_flag($l),
+            'country'  => seo_country_name($l),
             'size'     => (int) ($l['meta']['speakerCount'] ?? 0),
         ];
+        unset($f);
     }
-    $n = count($rows);
 
-    // The biggest languages first, by the row's own published speaker figure.
-    // SEO_WORD_MAJOR of them, and only ones that actually have a figure — 394
-    // rows do not, and they are small or ancient, so they lose nothing here.
-    usort($rows, fn($a, $b) => $b['size'] <=> $a['size']);
+    // Inside a group: the most-spoken form first, and inside a form the
+    // most-spoken language first, so a reader meets French before Haitian.
+    foreach ($groups as &$g) {
+        foreach ($g['forms'] as &$f) {
+            usort($f['members'], fn($a, $b) => $b['size'] <=> $a['size']);
+        }
+        unset($f);
+        uasort($g['forms'], fn($a, $b) => $b['members'][0]['size'] <=> $a['members'][0]['size']);
+    }
+    unset($g);
+
+    uasort($groups, fn($a, $b) => $b['size'] <=> $a['size']);
     $major = [];
-    foreach ($rows as $r) {
-        if ($r['size'] <= 0 || count($major) >= SEO_WORD_MAJOR) {
-            break;
+    $rest = [];
+    foreach ($groups as $k => $g) {
+        if ($g['size'] > 0 && count($major) < SEO_WORD_MAJOR) {
+            $major[$k] = $g;
+        } else {
+            $rest[$g['region']][$k] = $g;
         }
-        $major[] = $r;
     }
-    $inMajor = array_flip(array_column($major, 'code'));
-
     $regions = [];
-    foreach ($rows as $r) {
-        if (isset($inMajor[$r['code']])) {
-            continue;                       // shown above; not repeated
-        }
-        $regions[$r['region']][] = $r;
-    }
-    // Fixed display order, and inside a region the biggest languages first so
-    // a reader meets Swahili before Sukuma.
-    $ordered = [];
     foreach (SEO_REGION_ORDER as $k) {
-        if (!empty($regions[$k])) {
-            usort($regions[$k], fn($a, $b) => $b['size'] <=> $a['size']);
-            $ordered[$k] = $regions[$k];
+        if (!empty($rest[$k])) {
+            $regions[$k] = $rest[$k];
         }
     }
-    return ['major' => $major, 'regions' => $ordered, 'n' => $n];
+    return ['major' => $major, 'regions' => $regions, 'n' => $n];
 }
 
 
@@ -174,32 +213,68 @@ function seo_render_word(array $data, array $word, string $ui): void
 </div>
 
 <?php
-    /* One row of the grid. */
-    $cell = function (array $x) use ($ui): void { ?>
-    <div class="seo-word">
-      <p class="label"><a href="<?= e(seo_path($ui, 'wordmap', $x['code'])) ?>"><?= e(seo_pick($x['names'], $ui) ?: $x['fallback']) ?></a></p>
-      <p class="surface" lang="<?= e($x['code']) ?>"><?= e($x['surface']) ?></p>
-      <?php if ($x['ipa'] !== ''): ?><p class="ipa"><?= e($x['ipa']) ?></p><?php endif; ?>
-    </div>
-<?php }; ?>
+    /* Two shapes, because most of the atlas is one language saying one thing
+       and it should not be dressed as a container with one item in it.
+
+       SINGLE  the whole card is the link: flag + name, the form, the IPA.
+       GROUP   the language name heads the card, then a line per distinct form
+               carrying the flags of everyone who writes it that way.
+
+       The group shape is what the reader came for: French water is eight
+       varieties and one `eau`; Arabic water is twelve and six words. */
+    $groupBlock = function (array $g) use ($ui): void {
+        $label = $g['key'] === '__zh'
+            ? seo_t($ui, 'wd_zh_group')
+            : (seo_pick($g['names'], $ui) ?: $g['label']);
+        $one = reset($g['forms']);
+        if (count($g['forms']) === 1 && count($one['members']) === 1) {
+            $m = $one['members'][0];
+            $nm = seo_pick($m['names'], $ui) ?: $m['fallback'];
+            echo '<a class="wcard is-single" href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '">'
+               . '<span class="wcard-lang">'
+               . ($m['flag'] !== '' ? '<span class="flag" aria-hidden="true">' . $m['flag'] . '</span>' : '')
+               . e($nm) . '</span>'
+               . '<span class="surface" lang="' . e($m['code']) . '">' . e($one['surface']) . '</span>'
+               . ($one['ipa'] !== '' ? '<span class="ipa">' . e($one['ipa']) . '</span>' : '')
+               . "</a>\n";
+            return;
+        }
+        echo '<article class="wcard"><h3 class="wcard-lang">' . e($label) . '</h3>';
+        foreach ($g['forms'] as $f) {
+            echo '<div class="wcard-form"><p class="surface" lang="' . e($f['members'][0]['code']) . '">'
+               . e($f['surface']) . '</p>';
+            if ($f['ipa'] !== '') {
+                echo '<p class="ipa">' . e($f['ipa']) . '</p>';
+            }
+            echo '<p class="wcard-where">';
+            foreach ($f['members'] as $m) {
+                echo '<a href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '">'
+                   . ($m['flag'] !== '' ? '<span class="flag" aria-hidden="true">' . $m['flag'] . '</span>' : '')
+                   . e(seo_pick($m['names'], $ui) ?: $m['fallback']) . '</a> ';
+            }
+            echo "</p></div>";
+        }
+        echo "</article>\n";
+    };
+?>
 
 <?php if ($r['major']): ?>
 <section class="seo-section">
   <h2><?= e(seo_t($ui, 'wd_major')) ?></h2>
-  <div class="seo-words">
-    <?php foreach ($r['major'] as $x) $cell($x); ?>
+  <div class="wgrid">
+    <?php foreach ($r['major'] as $g) $groupBlock($g); ?>
   </div>
 </section>
 <?php endif; ?>
 
-<?php /* The rest by part of the world, collapsed. The markup is all in the
-         DOM — a crawler reads a closed <details> exactly as an open one — but
-         a reader is not handed 1,045 entries in one column. */ ?>
-<?php foreach ($r['regions'] as $key => $rows): ?>
+<?php /* The rest by part of the world, collapsed. All of it stays in the DOM —
+         a crawler reads a closed <details> exactly as an open one — but a
+         reader is not handed a thousand entries in one column. */ ?>
+<?php foreach ($r['regions'] as $key => $gs): ?>
 <details class="seo-section seo-region">
-  <summary><h2><?= e(seo_t($ui, 'wd_' . $key)) ?> <span class="sub">(<?= e((string) count($rows)) ?>)</span></h2></summary>
-  <div class="seo-words">
-    <?php foreach ($rows as $x) $cell($x); ?>
+  <summary><h2><?= e(seo_t($ui, 'wd_' . $key)) ?> <span class="sub">(<?= e((string) count($gs)) ?>)</span></h2></summary>
+  <div class="wgrid">
+    <?php foreach ($gs as $g) $groupBlock($g); ?>
   </div>
 </details>
 <?php endforeach; ?>

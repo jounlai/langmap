@@ -229,6 +229,7 @@ function seo_ui_endonym(array $data, string $ui): string
 // seo_t() merges the two once, on first call.
 const SEO_T_WORD = [
     'en' => [
+        'wd_forms_n' => '{n} different forms',
         'wd_readings' => '{n} readings of the same spelling',
         'wd_same_in' => 'said the same in {n} places',
         'wd_more' => 'and {n} more',
@@ -255,6 +256,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'See {name} on the map',
     ],
     'ja' => [
+        'wd_forms_n' => '{n}通りの言い方',
         'wd_readings' => '同じ表記で{n}通りの読み',
         'wd_same_in' => '{n}の言語・地域で同じ',
         'wd_more' => 'ほか{n}',
@@ -281,6 +283,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '地図で「{name}」を見る',
     ],
     'ko' => [
+        'wd_forms_n' => '{n}가지 형태',
         'wd_readings' => '같은 표기로 {n}가지 발음',
         'wd_same_in' => '{n}개 지역에서 동일',
         'wd_more' => '외 {n}개',
@@ -307,6 +310,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '지도에서 「{name}」 보기',
     ],
     'zh' => [
+        'wd_forms_n' => '{n} 种不同说法',
         'wd_readings' => '同样的写法有 {n} 种读音',
         'wd_same_in' => '{n} 个地区读法相同',
         'wd_more' => '另有 {n} 个',
@@ -333,6 +337,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '在地图上看「{name}」',
     ],
     'yue' => [
+        'wd_forms_n' => '{n} 種唔同講法',
         'wd_readings' => '同樣寫法有 {n} 種讀音',
         'wd_same_in' => '{n} 個地區讀法相同',
         'wd_more' => '另有 {n} 個',
@@ -359,6 +364,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '喺地圖上面睇「{name}」',
     ],
     'vi' => [
+        'wd_forms_n' => '{n} cách nói khác nhau',
         'wd_readings' => '{n} cách đọc cùng một chữ',
         'wd_same_in' => 'giống nhau ở {n} nơi',
         'wd_more' => 'và {n} nơi nữa',
@@ -385,6 +391,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Xem “{name}” trên bản đồ',
     ],
     'th' => [
+        'wd_forms_n' => '{n} รูปแบบต่างกัน',
         'wd_readings' => 'เขียนเหมือนกันแต่อ่าน {n} แบบ',
         'wd_same_in' => 'อ่านเหมือนกันใน {n} แห่ง',
         'wd_more' => 'และอีก {n}',
@@ -411,6 +418,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'ดู “{name}” บนแผนที่',
     ],
     'id' => [
+        'wd_forms_n' => '{n} bentuk berbeda',
         'wd_readings' => '{n} cara baca untuk ejaan yang sama',
         'wd_same_in' => 'sama di {n} wilayah',
         'wd_more' => 'dan {n} lainnya',
@@ -437,6 +445,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Lihat “{name}” di peta',
     ],
     'hi' => [
+        'wd_forms_n' => '{n} अलग-अलग रूप',
         'wd_readings' => 'एक ही वर्तनी के {n} उच्चारण',
         'wd_same_in' => '{n} जगहों पर एक जैसा',
         'wd_more' => 'और {n}',
@@ -463,6 +472,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'मानचित्र पर “{name}” देखें',
     ],
     'de' => [
+        'wd_forms_n' => '{n} verschiedene Formen',
         'wd_readings' => '{n} Aussprachen derselben Schreibung',
         'wd_same_in' => 'in {n} Gebieten gleich',
         'wd_more' => 'und {n} weitere',
@@ -489,6 +499,7 @@ const SEO_T_WORD = [
         'wd_open_app' => '„{name}“ auf der Karte ansehen',
     ],
     'fr' => [
+        'wd_forms_n' => '{n} formes différentes',
         'wd_readings' => '{n} prononciations pour la même graphie',
         'wd_same_in' => 'identique dans {n} régions',
         'wd_more' => 'et {n} autres',
@@ -515,6 +526,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Voir « {name} » sur la carte',
     ],
     'it' => [
+        'wd_forms_n' => '{n} forme diverse',
         'wd_readings' => '{n} pronunce della stessa grafia',
         'wd_same_in' => 'uguale in {n} aree',
         'wd_more' => 'e altre {n}',
@@ -541,6 +553,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Vedi «{name}» sulla mappa',
     ],
     'es' => [
+        'wd_forms_n' => '{n} formas distintas',
         'wd_readings' => '{n} pronunciaciones de la misma grafía',
         'wd_same_in' => 'igual en {n} zonas',
         'wd_more' => 'y {n} más',
@@ -567,6 +580,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» en el mapa',
     ],
     'pt' => [
+        'wd_forms_n' => '{n} formas diferentes',
         'wd_readings' => '{n} pronúncias da mesma grafia',
         'wd_same_in' => 'igual em {n} regiões',
         'wd_more' => 'e mais {n}',
@@ -593,6 +607,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Ver «{name}» no mapa',
     ],
     'ru' => [
+        'wd_forms_n' => '{n} разных форм',
         'wd_readings' => '{n} чтений одного написания',
         'wd_same_in' => 'одинаково в {n} местах',
         'wd_more' => 'и ещё {n}',
@@ -619,6 +634,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Посмотреть «{name}» на карте',
     ],
     'uk' => [
+        'wd_forms_n' => '{n} різних форм',
         'wd_readings' => '{n} читань того самого написання',
         'wd_same_in' => 'однаково у {n} місцях',
         'wd_more' => 'і ще {n}',
@@ -645,6 +661,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'Подивитися «{name}» на карті',
     ],
     'ar' => [
+        'wd_forms_n' => '{n} صيغ مختلفة',
         'wd_readings' => '{n} نطقًا لنفس الكتابة',
         'wd_same_in' => 'متطابق في {n} مناطق',
         'wd_more' => 'و{n} أخرى',
@@ -671,6 +688,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'شاهد «{name}» على الخريطة',
     ],
     'he' => [
+        'wd_forms_n' => '{n} צורות שונות',
         'wd_readings' => '{n} הגיות לאותו כתיב',
         'wd_same_in' => 'זהה ב-{n} מקומות',
         'wd_more' => 'ועוד {n}',
@@ -697,6 +715,7 @@ const SEO_T_WORD = [
         'wd_open_app' => 'לראות «{name}» על המפה',
     ],
     'sw' => [
+        'wd_forms_n' => 'maumbo {n} tofauti',
         'wd_readings' => 'matamshi {n} ya tahajia moja',
         'wd_same_in' => 'sawa katika maeneo {n}',
         'wd_more' => 'na mengine {n}',

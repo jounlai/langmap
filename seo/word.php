@@ -154,11 +154,19 @@ function seo_word_rows(array $data, string $id): array
     // Inside a group: the most-spoken form first, and inside a form the
     // most-spoken language first, so a reader meets French before Haitian.
     foreach ($groups as &$g) {
+        // Biggest first, then by name. The tiebreak matters more than it
+        // looks: 253 rows publish no speaker figure at all, so without it a
+        // quarter of the atlas sits in whatever order the data file happens
+        // to use, which reads as unsorted.
+        $bySize = static fn(array $a, array $b): int =>
+            ($b['size'] <=> $a['size']) ?: strcoll($a['fallback'], $b['fallback']);
         foreach ($g['forms'] as &$f) {
-            usort($f['members'], fn($a, $b) => $b['size'] <=> $a['size']);
+            usort($f['members'], $bySize);
         }
         unset($f);
-        uasort($g['forms'], fn($a, $b) => $b['members'][0]['size'] <=> $a['members'][0]['size']);
+        uasort($g['forms'], static fn(array $a, array $b): int =>
+            ($b['members'][0]['size'] <=> $a['members'][0]['size'])
+            ?: strcoll($a['members'][0]['fallback'], $b['members'][0]['fallback']));
     }
     unset($g);
 
@@ -280,9 +288,19 @@ function seo_render_word(array $data, array $word, string $ui): void
             return;
         }
 
-        $summary = $readings > 1
-            ? seo_t($ui, 'wd_readings', ['n' => (string) $readings])
-            : seo_t($ui, 'wd_same_in', ['n' => (string) $members]);
+        // Three different facts, and saying the wrong one is a lie the reader
+        // can see. Arabic water is five SPELLINGS and eight spelling+sound
+        // pairs, and the first cut announced "8 readings of the same
+        // spelling" over a card whose spellings plainly differ.
+        $spellings = count(array_unique(array_map(
+            static fn(array $f): string => $f['surface'], $g['forms'])));
+        if ($readings === 1) {
+            $summary = seo_t($ui, 'wd_same_in', ['n' => (string) $members]);
+        } elseif ($spellings === 1) {
+            $summary = seo_t($ui, 'wd_readings', ['n' => (string) $readings]);
+        } else {
+            $summary = seo_t($ui, 'wd_forms_n', ['n' => (string) $spellings]);
+        }
         echo '<details class="wcard-more"><summary>' . e($summary) . '</summary><div>';
         foreach ($g['forms'] as $f) {
             echo '<div class="wcard-form"><p class="surface" lang="' . e($f['members'][0]['code']) . '">'

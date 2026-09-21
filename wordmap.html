@@ -9387,9 +9387,20 @@
                 // table said Singlish and the other Singapore English at the
                 // same moment. Compare surfaces follow the map.
                 const display = getDisplayName(code, lang);
+                // Do not print the native name twice. getDisplayName returns
+                // lang.native while the native-name switch is on, so with
+                // `nat=1` every header cell rendered the same string on both
+                // lines — reported 2026-09-21 on a `cmp=` deep link, where all
+                // eight columns were doubled. The comparison is also true
+                // without the switch: a row whose translated name IS its native
+                // name (日本語, 大阪弁, and 186 rows in the English UI) would
+                // double the same way.
+                const nativeLine = (lang.native && lang.native !== display)
+                    ? '<span class="native-name" dir="auto">' + escapeHtml(lang.native) + '</span>'
+                    : '';
                 html += '<th draggable="true" data-code="' + escapeHtml(code) + '" data-idx="' + idx + '" title="Drag to reorder">'
                      + '<span class="lang-name" data-code="' + escapeHtml(code) + '">' + escapeHtml(display) + '</span>'
-                     + (lang.native ? '<span class="native-name" dir="auto">' + escapeHtml(lang.native) + '</span>' : '')
+                     + nativeLine
                      + '</th>';
             }
             html += '</tr></thead><tbody>';

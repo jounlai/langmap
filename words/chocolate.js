@@ -132,6 +132,19 @@ WORDS.chocolate = {
     // Japanese チョコレート displaced it. 教育部臺灣台語常用詞辭典 entry 20528
     // gives only this form, "借自日語「チョコレート」", with no 漢字 field at all.
     nan: ["chio͘-kó͘-lè-tò͘", "tsiɔ˥ kɔ˥˧ le˩˩ tɔ˩˩"],
+    // Meixian runs the OTHER way from Taiwan Hakka: Wiktionary's dial-syn puts
+    // 朱古力 at Meixian and 惠州, against 巧克力 at Miaoli, Liudui, Hsinchu,
+    // Dongshi, Raoping and Yunlin. Mainland Hakka took the Cantonese word, Taiwan
+    // Hakka the Mandarin one — and Teochew above did the same as Meixian.
+    // 教育部臺灣客語辭典 has NO chocolate entry at all, in any of its six accents,
+    // so hak_tw and hak_hl get no cell rather than a Mandarin reading.
+    hak_cn: ["朱古力", "tsu˦ ku˧˩ lit˥"],
+    // Shanghainese is the one non-Min row where 巧克力 is not an import:
+    // Wiktionary's etymology says the spelling was "originally used in
+    // Shanghainese". Reading from dial-syn w=sh:5chiau kheq7 liq8, mapped through
+    // this row's own contours — the same method its 咖啡 kʰa˥˧ fi˥˧ already uses.
+    wuu: ["巧克力", "tɕʰiɔ˧˥ kʰəʔ˥ liɪʔ˩˨"],
+    zh_tw: ["巧克力", "tɕʰjɑʊ˧˩˧ kʰɤ˥˩ li˥˩"],
     vi: ["sô-cô-la", "so˧ko˧laː˧"],
     th: ["ช็อกโกแลต", "tɕʰɔk˦˥koːlɛːt˦˥"],
     id: ["coklat", "ˈtʃoklat"],  // Everyday spelling, matching ms and jv. KBBI prescribes cokelat and lists coklat as tidak baku, but this atlas writes the mainstream form, and coklat is what Indonesian is actually written with.

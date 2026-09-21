@@ -15,6 +15,17 @@ Disallow: /changelog.html
 Disallow: /_buildertest.html
 Disallow: /_cardtest.html
 
+# Pre-compressed siblings (tools/build_br.js). nginx serves these through
+# brotli_static when a client accepts br, in response to a request for the
+# ORIGINAL path — but they also sit on disk under their own names, so
+# /wordmap.html.br is fetchable and returns 191 KB of application/octet-stream
+# with no Content-Encoding: binary noise that is a duplicate of a real page.
+# Nothing links to them, so this is insurance, the same as the two lines
+# above. The stronger fix is on the server (`location ~ \.br$ { return 404; }`),
+# which does not affect brotli_static because a request for wordmap.html never
+# carries .br in its URI.
+Disallow: /*.br$
+
 # SEO big-text pages (sitemap-seo.xml) are intentionally NOT declared here —
 # discovery is left to organic internal-link crawling (footer → /en/wordmap/
 # index → hreflang) rather than bulk-submitting 18k URLs. The file still exists

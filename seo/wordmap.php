@@ -167,7 +167,14 @@ $goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
       $alts = $lang['altWords'][$id] ?? [];
   ?>
     <div class="seo-word">
-      <p class="label"><?= e($label) ?></p>
+      <?php /* The label links to that word across every language. This is the
+               return direction of the link /{ui}/word/{id} already makes, and
+               it is the move a reader actually wants to make from here:
+               "Japanese says 水 for water — what does everyone else say?".
+               It is also the only path from the 1,188 indexed language pages
+               into the word pages; without it they were reachable from the
+               hub and the sitemap and nothing else. */ ?>
+      <p class="label"><a href="<?= e(seo_path($ui, 'word', $id)) ?>"><?= e($label) ?></a></p>
       <p class="surface" lang="<?= e($code) ?>"><?= e($surface !== '' ? $surface : '—') ?></p>
       <?php if ($ipa !== ''): ?><p class="ipa"><?= e($ipa) ?></p><?php endif; ?>
       <?php foreach ($alts as $a):

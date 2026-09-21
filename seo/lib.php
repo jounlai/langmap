@@ -2441,14 +2441,27 @@ const SEO_COUNTRY_ISO = [
  * which is why the same word looks right there and small here. Reported
  * 2026-09-22.
  *
+ * Traditional Mongolian and the Manchu script derived from it are the other
+ * case, and there the problem is not the size: they are written in columns,
+ * top to bottom, the columns running left to right. Laid out horizontally
+ * they come out on their side. The map has rotated them since the start
+ * (VERTICAL_LANGS in wordmap.html) and these pages never did. Five rows,
+ * 290 cells: Inner Mongolian, Classical and Middle Mongolian, Manchu, Xibe.
+ *
  * Detected from the characters rather than from the row's script metadata,
  * so a Tibetan form on a row tagged as something else still gets the font.
- * Eleven rows write in it: Tibetan, Classical and Liturgical Tibetan, Amdo,
- * Khams, Dzongkha, Ladakhi, Balti, Sherpa, Sikkimese and Lhomi.
+ * Eleven rows write in Tibetan: Tibetan, Classical and Liturgical Tibetan,
+ * Amdo, Khams, Dzongkha, Ladakhi, Balti, Sherpa, Sikkimese and Lhomi.
  */
 function seo_script_class(string $s): string
 {
-    return preg_match('/[\x{0F00}-\x{0FFF}]/u', $s) ? ' s-tibt' : '';
+    if (preg_match('/[\x{0F00}-\x{0FFF}]/u', $s)) {
+        return ' s-tibt';
+    }
+    if (preg_match('/[\x{1800}-\x{18AF}]/u', $s)) {
+        return ' s-mong';
+    }
+    return '';
 }
 
 /**
@@ -2993,6 +3006,15 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .s-tibt { font-family: "Noto Serif Tibetan", "Kailasa", "Microsoft Himalaya",
   "Jomolhari", "Tibetan Machine Uni", serif; }
 .wcard > .surface.s-tibt { font-size: 2.15rem; line-height: 1.5; }
+/* Traditional Mongolian / Manchu: columns, top to bottom, running left to
+   right. Same chain and the same rotation the map uses. max-height so that
+   the one long form in the data — Inner Mongolian hello, 11 characters —
+   wraps into a second column instead of making a card three times the
+   height of its neighbours. */
+.s-mong { font-family: "Noto Serif Mongolian", "Mongolian Baiti",
+  "Noto Sans Mongolian", sans-serif;
+  writing-mode: vertical-lr; text-orientation: mixed;
+  display: inline-block; line-height: 1.4; max-height: 6.5em; }
 .wcard > .ipa { font-size: .92rem; color: var(--muted); margin: .1rem 0 0; }
 .wcard-where { margin: .3rem 0 0; font-size: .86rem; line-height: 1.75; }
 /* The flag and the name it belongs to must never be split across a line.

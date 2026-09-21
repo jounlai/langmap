@@ -1,12 +1,36 @@
 /**
- * chocolate — a Nahuatl word that conquered the world.
+ * chocolate — a Nahuatl word that conquered the world, but not its own.
  *
- * From Nahuatl xocolātl, carried out of Mesoamerica by Spanish and then
- * relayed language to language until it is very nearly one word everywhere:
- * chocolate, chocolat, Schokolade, cioccolato, шоколад, שוקולד, चॉकलेट,
- * チョコ(レート), 초콜릿. Even the two Sinitic renderings are borrowings —
- * Mandarin sounds it out as 巧克力, Cantonese as 朱古力. A handful of
- * languages clipped it hard: Finnish suklaa, colloquial Japanese チョコ.
+ * Carried out of Mesoamerica by Spanish and then relayed language to
+ * language until it is very nearly one word everywhere: chocolate, chocolat,
+ * Schokolade, cioccolato, шоколад, שוקולד, चॉकलेट, チョコ(レート), 초콜릿. Even
+ * the two Sinitic renderings are borrowings — Mandarin sounds it out as
+ * 巧克力, Cantonese as 朱古力. A handful of languages clipped it hard:
+ * Finnish suklaa, colloquial Japanese チョコ.
+ *
+ * WHICH Nahuatl word is not settled, and this docstring used to say it was.
+ * `xocolātl` — the form every popular account gives, from xococ 'bitter' plus
+ * ātl 'water' — is not attested anywhere. Dakin & Wichmann (2000) argue the
+ * source is `chicolātl`, from chicol(li), the stick the drink was beaten
+ * with, plus ā and the absolutive -tl; their case against xocolātl is that
+ * Nahuatl does not turn /ʃ/ into /tʃ/ in this environment. `chocolatl`
+ * itself does not appear in Nahuatl until the mid-18th century.
+ *
+ * Which settles a gap that looks like an oversight and is not. `nci`
+ * (Classical Nahuatl, 16–17c) has 70 cells in this atlas and NO cell here,
+ * and should not be given one: the word is two centuries too late for that
+ * row. What 16th-century Mesoamerica had was the drink, and this concept is
+ * the food — see the definition, which excludes hot chocolate, the bean and
+ * the tree. The origin language is the one language that cannot have it.
+ *
+ * Not route-coloured, and that was checked rather than assumed (2026-09-21).
+ * All 154 cells descend from one etymon through Spanish, so unlike tea,
+ * orange, sugar or coffee there is nothing to split at the root — only a
+ * chain of who handed it on. Colouring the chain breaks the legend: eight
+ * rows write `chocolate` identically (en, en_us, en_ca, es, pt, pt_br, gl,
+ * ast), so the same-form rule would paint Britain and Brazil with Spain
+ * while India was painted "via English". 34 of 154 would land in `unknown`,
+ * with the sources contradicting each other across the European core.
  */
 WORDS.chocolate = {
   label: {
@@ -92,6 +116,22 @@ WORDS.chocolate = {
     ko: ["초콜릿", "tɕʰokʰolːit"],
     zh: ["巧克力", "tɕʰjɑʊ˧˩˧ kʰɤ˥˩ li˥˩"],
     yue: ["朱古力", "tsyː˥ kuː˥ lɪk˥"],
+    // Min took this word off the NANYANG TRADE, not off Mandarin. 李如龍
+    // 〈閩南方言和印尼語的相互借詞〉《中國語文研究》10 (1992) p.141 lists it in
+    // the table of Indonesian loanwords INTO Hokkien: Indonesian cokelat →
+    // Southern Min tsik-ku-lat. So the mainland Hokkien cities agree with
+    // Penang and Singapore, and disagree with 巧克力 next door.
+    nan_xm: ["芝居力", "tsi˥˥ ku˥˥ lat˦"],
+    nan_qz: ["芝居力", "tsiak˥ ku˧˧ laʔ˨˦"],   // Quanzhou and the Philippines say chiak-ku-la̍h
+    nan_zz: ["芝居力", "tsi˦ ku˦ lat̚˩˨˩"],
+    nan_te: ["朱古力", "tsu˧˧ kou˥˧ lak˥˥"],   // Teochew follows Cantonese here, not its Hokkien neighbours
+    nan_pn: ["coklat", "tsɔk˥˥ lat˥˥"],       // Penang keeps the Malay spelling and clips it to two syllables
+    // Taiwanese REPLACED the Nanyang word rather than never having it:
+    // 芝居力茶 chi-ku-la̍t-tê is in 實用日台新語集 (1898) and 芝車力 in 臺灣語典
+    // (1922), and en.wiktionary now marks 芝居力 "dated in Taiwanese Hokkien".
+    // Japanese チョコレート displaced it. 教育部臺灣台語常用詞辭典 entry 20528
+    // gives only this form, "借自日語「チョコレート」", with no 漢字 field at all.
+    nan: ["chio͘-kó͘-lè-tò͘", "tsiɔ˥ kɔ˥˧ le˩˩ tɔ˩˩"],
     vi: ["sô-cô-la", "so˧ko˧laː˧"],
     th: ["ช็อกโกแลต", "tɕʰɔk˦˥koːlɛːt˦˥"],
     id: ["coklat", "ˈtʃoklat"],  // Everyday spelling, matching ms and jv. KBBI prescribes cokelat and lists coklat as tidak baku, but this atlas writes the mainstream form, and coklat is what Indonesian is actually written with.

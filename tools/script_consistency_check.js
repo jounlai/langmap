@@ -108,6 +108,20 @@ const CHECK=process.argv.includes("--check");
 // will tell you if you deleted one too early.
 const MIXED_OK = {
   // --- deliberate: the row's orthography really is mixed ---
+  // These two are NOT waiting to be converted, unlike everything below the
+  // next divider. Both rows declare romanisation in meta.script, and the one
+  // word involved has no Han spelling in the source at all — so there is
+  // nothing to convert them TO, and a Han cell would have to be invented.
+  nan: "Taiwanese: 1 Latin cell, `chocolate` = chio͘-kó͘-lè-tò͘ (POJ), among 77 Han. " +
+       "meta.script is already 'Traditional Chinese / Pe̍h-ōe-jī (POJ)'. 教育部臺灣台語常用詞辭典 " +
+       "entry 20528 has NO 漢字 field — it prints the romanisation alone and glosses it " +
+       "\u501f\u81ea\u65e5\u8a9e\u300c\u30c1\u30e7\u30b3\u30ec\u30fc\u30c8\u300d. The Han form 芝居力 exists but en.wiktionary marks it " +
+       "'dated in Taiwanese Hokkien', and writing 巧克力 instead would silently convert a " +
+       "Japanese borrowing into a Mandarin one. Do not convert; the alternative is an empty cell.",
+  nan_pn: "Penang Hokkien: 1 Latin cell, `chocolate` = coklat, among 64 Han. meta.script is " +
+       "already 'Han characters / Latin (mixed)'. The word is the Malay one taken whole; " +
+       "en.wiktionary lemmatises it at `coklat` and its own Penang example sentences embed " +
+       "the Latin inside Han text (我較合意食烏 coklat). There is no Han candidate, not even a dated one.",
   // --- needs an orthography source before the Latin cells can be converted ---
   // (pal was here and is gone: its three Latin cells were converted from
   //  MacKenzie's Concise Pahlavi Dictionary, pp. 6, 90, 94, on 2026-09-13 —

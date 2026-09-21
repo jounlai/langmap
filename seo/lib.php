@@ -2423,36 +2423,12 @@ const SEO_COUNTRY_ISO = [
     'Zimbabwe' => 'ZW',
 ];
 
-/**
- * Flag for a row, from the FIRST country it lists. Returns '' when the row
- * names no country or names something that is not one.
- *
- * Emoji, not images: 1,045 flag files on one page would cost more than the
- * page. The known trade is Windows, which ships no colour flag glyphs and
- * renders the pair as the two letters "JP" — still informative, which is why
- * this is acceptable, and why the country name stays in the title attribute.
- * Wales is a tag sequence rather than a regional-indicator pair.
- */
-function seo_country_flag(array $lang): string
-{
-    $s = trim((string) ($lang['meta']['countries'] ?? ''));
-    if ($s === '') {
-        return '';
-    }
-    $first = trim(preg_replace('/\s*\(.*$/u', '', explode(',', $s)[0]));
-    $iso = SEO_COUNTRY_ISO[$first] ?? null;
-    if ($iso === null) {
-        return '';
-    }
-    if ($iso === 'GB-WLS') {
-        return "\u{1F3F4}\u{E0067}\u{E0062}\u{E0077}\u{E006C}\u{E0073}\u{E007F}";
-    }
-    $out = '';
-    foreach (str_split($iso) as $ch) {
-        $out .= mb_chr(0x1F1E6 + (ord($ch) - 65), 'UTF-8');
-    }
-    return $out;
-}
+/* seo_country_flag() — the emoji version — was deleted on 2026-09-22 rather
+ * than left unused. Emoji flags do not render on Windows, which is where the
+ * owner reads this site, and the function outliving its replacement is how it
+ * came back: a duplicate 'flag' key in one array literal quietly overwrote
+ * the <img> with the emoji, and PHP takes the last one without a word. Use
+ * seo_country_flag_img() below. */
 
 /**
  * <img> for a row's flag, or '' when the row names no single country.

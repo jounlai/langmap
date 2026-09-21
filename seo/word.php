@@ -140,11 +140,9 @@ function seo_word_rows(array $data, string $id): array
         }
         $f['members'][] = [
             'code'     => (string) $code,
-            'flag'     => seo_country_flag_img($l),
-            'country'  => seo_country_name($l),
             'names'    => $l['names'] ?? [],
             'fallback' => (string) ($l['name'] ?? $code),
-            'flag'     => seo_country_flag($l),
+            'flag'     => seo_country_flag_img($l),
             'country'  => seo_country_name($l),
             'size'     => (int) ($l['meta']['speakerCount'] ?? 0),
         ];

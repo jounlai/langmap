@@ -147,6 +147,16 @@ WORDS.chocolate = {
     zh_tw: ["巧克力", "tɕʰjɑʊ˧˩˧ kʰɤ˥˩ li˥˩"],
     vi: ["sô-cô-la", "so˧ko˧laː˧"],
     th: ["ช็อกโกแลต", "tɕʰɔk˦˥koːlɛːt˦˥"],
+    // Laos changed carrier with its prestige language. Kerr (1972) and Patterson
+    // (1995) both give ໂຊໂກລາ and both label it FRENCH; modern Lao replaced that
+    // with this English/Thai-shaped form. Spelling settled on evidence, not a
+    // coin flip: ຊັອກໂກແລັດ is the Lao Wikipedia article title (interwiki target
+    // of en:Chocolate) and is used 12x with no variant in a 2020 Lao Phattana
+    // News piece; Lao Wikipedia full-text gives it 7 hits against 0 for
+    // ຊ໋ອກໂກແລດ, which survives only in the NAFRI AGROVOC thesaurus. Tones are
+    // this row's own: low-class dead-short ˧ from ນົກ nok˧ and ຮັກ hak˧,
+    // mid-class live ˩˧ from ໂດປາມີນ and ເຕີ.
+    lo: ["ຊັອກໂກແລັດ", "sɔk˧koː˩˧lɛt˧"],
     id: ["coklat", "ˈtʃoklat"],  // Everyday spelling, matching ms and jv. KBBI prescribes cokelat and lists coklat as tidak baku, but this atlas writes the mainstream form, and coklat is what Indonesian is actually written with.
     ms: ["coklat", "ˈtʃoklat"],
     hi: ["चॉकलेट", "ˈtʃɔːkleːʈ"],

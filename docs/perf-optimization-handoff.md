@@ -14,7 +14,7 @@
 
 ---
 
-## 0b. Brotli on nginx — runbook (measured 2026-09-22, NOT yet applied)
+## 0b. Brotli on nginx — ✅ DONE 2026-09-22 (dynamic + pre-compressed)
 
 The owner asked whether the comments in the shipped source are wasted bytes.
 They are not free, but they are also not the first thing to fix, and they
@@ -94,12 +94,72 @@ Expect `content-encoding: br` and roughly 222 KB / 165 KB. Also re-check a
 client that sends only gzip still gets gzip, and that `/ja/word/water` and
 `/en/wordmap/ja` still return 200.
 
-### Expected result
+### Result — applied and verified on the live site
 
-About **−11% on every text asset**, no code change, no build step, no
-staleness risk. On the first word-map visit that is roughly 695 KB → 620 KB.
+`libnginx-mod-http-brotli-filter` + `-static` installed from universe, the
+block above added to `http { }`, reloaded. Then the pre-compressed files
+landed and `brotli_static` took over for the seven biggest.
 
-### Deferred: pre-compressed .br (the other −12%)
+| | gzip (before) | dynamic br5 | **static br11 (now)** |
+|---|---|---|---|
+| wordmap.html | 246,875 | 221,863 | **191,214** |
+| hanmap.html | 235,512 | 213,482 | **184,156** |
+| wordmap_data.js | 179,382 | 165,291 | **141,966** |
+| word_labels.js | 171,229 | 155,635 | **132,847** |
+| wordmap_meta_lite.js | 217,071 | 179,145 | **156,085** |
+| lang-filter.js | 37,981 | 35,759 | **31,502** |
+| my-languages.js | 34,997 | 33,863 | **29,820** |
+
+**A first visit to the word map: 698 KB → 556 KB, −20%.** The PHP-rendered
+SEO pages gained most of all, because they are mostly repeated markup:
+`/ja/word/water` 379,833 raw → **41,706**, `/en/wordmap/ja` 574,190 →
+**63,910**.
+
+Compatibility checked, not assumed: a client sending only `gzip` still gets
+246,875; a client advertising nothing still gets 825,879 uncompressed; and
+`/ja/`, `/ja/word/`, `/ja/word/chocolate`, `/en/wordmap/`, `/en/wordmap/ja`,
+`/ja/hanmap/ja`, `/en/hanmap/ko`, `/sitemap-seo.xml` all still return 200.
+
+One side effect: the `.br` files sit on disk under their own names, so
+`/wordmap.html.br` is fetchable and returns 191 KB of
+`application/octet-stream` with no `Content-Encoding` — a binary duplicate
+of a real page. `robots.txt` now carries `Disallow: /*.br$`. The stronger
+fix is on the server and is **not yet applied**:
+
+```nginx
+location ~ \.br$ { return 404; }
+```
+
+It cannot affect `brotli_static`, because a request for `wordmap.html` never
+carries `.br` in its URI, so the regex location is never the one that
+matches.
+
+### Pre-compressed .br — how it works here
+
+`tools/build_br.js` writes quality-11 siblings for the seven files above,
+selected by "quality 11 beats quality 5 by at least ~4 KB". It **must run
+after `bump_versions.js`**, which rewrites `?v=` inside wordmap.html and
+hanmap.html. Full rebuild ~6 s; incremental is instant.
+
+The files are **committed**. Deployment is a bare `git pull`, so the repo is
+what the server serves, and nginx serves `<file>.br` without checking that
+it is newer than `<file>` — a forgotten regeneration would serve the
+previous page to every brotli client, silently, with every other guard
+green. Generating on the server would move the forgetting somewhere nobody
+can check.
+
+`check_all`'s **`pre-compressed .br freshness`** guard decompresses each one
+and compares the bytes to the source, so a stale *or truncated* `.br` cannot
+be committed. A lock keyed on the source hash could not catch the truncated
+case, because the source would still match. Verified both directions:
+appending a byte to wordmap.html reports `stale: 1`, truncating
+hanmap.html.br reports `stale: 2`, restoring reports `0`.
+
+Cost: 867 KB of binary in the tree, rewritten whenever a source changes.
+The `.git` directory was already 792 MB, and the alternative was a silent
+staleness class the guards could not see.
+
+### Originally deferred: pre-compressed .br (the other −12%)
 
 `brotli_static on` is already in the config above and does nothing until
 `.br` files exist next to the originals. Level 11 offline would take

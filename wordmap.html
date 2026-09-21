@@ -3582,6 +3582,44 @@
     <script src="word_manifest.js?v=579"></script>
     <script src="word_labels.js?v=66"></script>
     <script>
+        /* Cache-buster registry. It MUST be declared here, above the per-word
+           loader below, and not beside assetUrl() where it used to live.
+           
+           The loader synthesises <script src="words/<id>.js?v=N"> at parse
+           time and reads window.WM_ASSET_VERSION for N. That assignment used
+           to sit ~450 lines FURTHER DOWN, so at the moment the loader ran the
+           global was undefined and N fell through to the `|| 1` default. Every
+           visitor therefore fetched words/<id>.js?v=1 and lang_words/<code>.js
+           ?v=1 — URLs that never change — while the server sends those paths
+           `Cache-Control: public, max-age=31536000, immutable`. A phone that
+           had loaded a word once kept it for a year and never revalidated, so
+           NO word-data correction ever reached a returning mobile visitor.
+           Found 2026-09-21 from "the Indonesian chocolate fix isn't showing on
+           my phone"; the fix was live and correct, the URL simply never moved.
+           The old comment down there said this object was exposed "so the
+           per-word loader can read it", which was the intent all along — only
+           the order was wrong. */
+        const WM_ASSET_VERSION = {
+            styles:   134,
+            data:      331,
+            metaI18n:  16,
+            filter:    45,
+            names:   194,
+            meta:     361,
+            trivia:   43,
+            triviaI18n: 25,
+            words:      579,
+            langWords:    323,
+            labels:      66,
+            metaI18nCoverage: 10,
+            metaI18nCoverage2: 2,
+            metaI18nCoverage3: 3,
+            metaI18nEngine: 1,
+            metaI18nUi: 2,
+        };
+        window.WM_ASSET_VERSION = WM_ASSET_VERSION;
+    </script>
+    <script>
         // Reserve the WORDS global BEFORE any words/<id>.js loads, since each
         // does `WORDS.<id> = {...}` and would ReferenceError otherwise.
         var WORDS = window.WORDS = window.WORDS || {};
@@ -4054,31 +4092,12 @@
         // checks that the HTML versions match these values, so drift is
         // caught at validation time. The dynamic wordmap_meta.js load
         // below uses assetUrl() so its version is always read from here.
-        const WM_ASSET_VERSION = {
-            styles:   134,
-            data:      331,
-            metaI18n:  16,
-            filter:    45,
-            names:   194,
-            meta:     361,
-            trivia:   43,
-            triviaI18n: 25,
-            words:      579,
-            langWords:    323,
-            labels:      66,
-            metaI18nCoverage: 10,
-            metaI18nCoverage2: 2,
-            metaI18nCoverage3: 3,
-            metaI18nEngine: 1,
-            metaI18nUi: 2,
-        };
         function assetUrl(path, key) {
             return `${path}?v=${WM_ASSET_VERSION[key]}`;
         }
-        // Expose so the per-word loader (inserted earlier in this file,
-        // OUTSIDE this IIFE) can read the cache-version it should use
-        // when synthesizing <script src="words/<id>.js?v=…"> tags.
-        window.WM_ASSET_VERSION = WM_ASSET_VERSION;
+        // WM_ASSET_VERSION is declared far ABOVE, before the per-word loader,
+        // and deliberately so — see the comment on it. Do not move it back
+        // down here: the loader runs at parse time and would read undefined.
         // Merge the per-word files' WORDS global into the legacy
         // LANG_DATA[code].words / .altWordForms shape consumers expect.
         // Also rebuilds WORD_LIST for any reader that still uses it.

@@ -2725,17 +2725,22 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-meta .chip b { color: var(--muted); font-weight: 600; margin-right: .35rem; }
 .seo-desc { font-size: 1.15rem; max-width: 50rem; margin: 0 0 2rem; }
 /* --- word page: one card per language group ------------------------------
-   Packed with CSS columns, not grid. A grid row is as tall as its tallest
-   card, so one card with six pronunciations in it left holes beside every
-   short neighbour — reported from a PC. Columns flow vertically and close
-   them. break-inside keeps a card whole across the column break.
+   Grid, and NOT CSS columns. Columns were tried and had to be undone: they
+   pack beautifully, but opening one card re-flows the whole list and throws
+   cards across column boundaries, so the reader loses the place they were
+   looking at. A grid only pushes what is BELOW the card being opened, and
+   never moves what is above it.
+
+   The holes that drove the move to columns are gone anyway: every closed
+   card is now the same three or four lines — name, form, sound, and one
+   summary line — where the old ones ran from one line to twenty.
 
    Links are not underlined: at a thousand entries an underline apiece turns
    the page into a grid of rules. Colour and hover carry the affordance. */
-.wgrid { columns: 16rem auto; column-gap: .9rem; }
-.wcard { break-inside: avoid; -webkit-column-break-inside: avoid;
-  background: var(--card); border: 1px solid var(--line); border-radius: .8rem;
-  padding: .8rem 1rem .9rem; margin: 0 0 .9rem; }
+.wgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: .9rem; align-items: start; }
+.wcard { background: var(--card); border: 1px solid var(--line); border-radius: .8rem;
+  padding: .8rem 1rem .9rem; margin: 0; }
 .wcard-lang a { color: inherit; text-decoration: none; }
 .wcard-lang a:hover, .wcard-lang a:focus-visible { color: var(--fg); box-shadow: 0 1px 0 currentColor; }
 .wcard-lang { font-size: .78rem; font-weight: 600; letter-spacing: .05em;
@@ -2775,7 +2780,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .wcard-more .wcard-form { margin-top: .6rem; padding-top: .6rem; border-top: 1px dashed var(--line); }
 .wcard-more .surface { font-size: 1.15rem; margin: 0; }
 .wcard-more .ipa { font-size: .85rem; color: var(--muted); margin: 0; }
-@media (max-width: 480px) { .wgrid { columns: 1; } }
+@media (max-width: 480px) { .wgrid { grid-template-columns: 1fr; } }
 
 /* Regional groups on a word page collapse. The <summary> carries the same
    h2 as an open section, so the heading looks identical either way; only the

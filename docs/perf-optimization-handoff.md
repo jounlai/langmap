@@ -14,6 +14,123 @@
 
 ---
 
+## 0b. Brotli on nginx — runbook (measured 2026-09-22, NOT yet applied)
+
+The owner asked whether the comments in the shipped source are wasted bytes.
+They are not free, but they are also not the first thing to fix, and they
+must not be deleted from the source — this repo's comments carry the reasons
+for decisions and are read constantly.
+
+### What the server does today
+
+`server: nginx/1.24.0 (Ubuntu)`, so **`.htaccess` in this repo is dead**. The
+SEO rewrites work because nginx does them; the file is documentation of
+intent, nothing more. Do not edit it expecting an effect.
+
+gzip is on and is at about level 6 — the bytes on the wire match a local
+`gzip -6` to within 0.3%, and `gzip -9` would buy 0.7%, which is not worth a
+config change. Brotli is **not** enabled: a request with `Accept-Encoding: br`
+alone comes back **uncompressed**, all 825,879 bytes of it.
+
+```
+                    served    gzip-6    br 5      br 11
+wordmap.html        246,875   246,534   221,863   191,214
+wordmap_data.js     179,382   179,822   165,291   141,966
+word_labels.js      171,229   171,333   155,635   132,847
+```
+
+A first visit to the word map is ~695 KB gzipped across 13 files.
+
+### Install
+
+Ubuntu 24.04 (noble) ships the module in universe, built against this exact
+nginx. No compiling, no PPA.
+
+```sh
+sudo apt update
+sudo apt install libnginx-mod-http-brotli-filter libnginx-mod-http-brotli-static
+ls /etc/nginx/modules-enabled/ | grep -i brotli     # the packages wire load_module themselves
+```
+
+### Config
+
+In the `http { }` block (`/etc/nginx/nginx.conf`), beside the existing gzip
+settings. **Leave gzip on** — it is the fallback for anything that does not
+send `br`.
+
+```nginx
+brotli              on;
+brotli_comp_level   5;
+brotli_min_length   1024;
+brotli_static       on;   # serves a pre-built .br when one exists; see below
+brotli_types        text/css
+                    application/javascript
+                    text/javascript
+                    application/json
+                    application/geo+json
+                    application/manifest+json
+                    image/svg+xml
+                    application/xml
+                    text/xml;
+```
+
+`text/html` is deliberately absent: nginx always compresses it and warns
+about a duplicate if you list it. `brotli_comp_level 5` is the working point
+— level 11 is for files compressed ahead of time, not per request (1.2 s of
+CPU for wordmap.html against 22 ms at level 5).
+
+```sh
+sudo nginx -t && sudo systemctl reload nginx
+```
+
+### Verify
+
+```sh
+curl -sI -H 'Accept-Encoding: br' https://langmaps.com/wordmap.html | grep -i 'content-encoding\|content-length'
+curl -s  -H 'Accept-Encoding: br' -o /dev/null -w '%{size_download}\n' https://langmaps.com/wordmap_data.js
+```
+
+Expect `content-encoding: br` and roughly 222 KB / 165 KB. Also re-check a
+client that sends only gzip still gets gzip, and that `/ja/word/water` and
+`/en/wordmap/ja` still return 200.
+
+### Expected result
+
+About **−11% on every text asset**, no code change, no build step, no
+staleness risk. On the first word-map visit that is roughly 695 KB → 620 KB.
+
+### Deferred: pre-compressed .br (the other −12%)
+
+`brotli_static on` is already in the config above and does nothing until
+`.br` files exist next to the originals. Level 11 offline would take
+wordmap.html to 191 KB and wordmap_data.js to 142 KB — another 12 points on
+top of dynamic brotli, and zero CPU per request, which suits assets served
+`immutable` behind `?v=`.
+
+It is deferred because **deployment is a bare `git pull`** and nginx serves
+`file.br` without checking that it is newer than `file`. A stale `.br` would
+serve the previous version of the page to everyone, silently — the same
+shape of bug as the `?v=1` freeze. Doing it properly needs a generator, a
+`check_all` freshness guard in the style of the existing `?v=` locks, and a
+decision about whether ~190 KB of binary churn per deploy belongs in git
+history. Worth doing, but as its own piece of work.
+
+### Not the answer: stripping comments
+
+Removing every comment from the shipped files would save more than brotli —
+85 KB gzipped off `wordmap.html`, 85 KB off `wordmap_data.js`, 283 KB across
+the bundle, about 29%. Measured with a scanner that tracks strings, template
+literals and regex literals, and checked by confirming `wordmap_data.js`
+evaluates to identical data afterwards.
+
+Do not do it in the source. The comments are where this project keeps its
+reasoning, and they have paid for themselves repeatedly. If the saving is
+wanted, it belongs in the same deploy-time step as the `.br` files, applied
+to a copy — and it carries real risk, because 826 KB of hand-written inline
+JavaScript has to survive the strip and there is no browser here to test in.
+
+---
+
 ## 1. Background — what is already shipped (context)
 
 Recent commits already did (all on `main`, `check_all` clean):

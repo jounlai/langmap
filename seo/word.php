@@ -346,7 +346,7 @@ function seo_render_word(array $data, array $word, string $ui): void
         $oneSpelling = count($g['spellings']) === 1;
         foreach ($g['spellings'] as $sp) {
             $b = $sp['reads'][0]['members'][0]['bcp47'];
-            echo '<div class="wcard-form">';
+            echo '<div class="wcard-form' . ($oneSpelling ? '' : ' is-multi') . '">';
             if (!$oneSpelling) {
                 echo '<p class="surface"' . ($b !== '' ? ' lang="' . e($b) . '"' : '')
                    . '>' . e($sp['surface']) . '</p>';

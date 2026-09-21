@@ -2819,7 +2819,12 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    the link, so the flag can never end up alone at the end of a line. */
 .wcard-where a { color: var(--muted); text-decoration: none;
   display: inline-flex; align-items: baseline; max-width: 100%;
-  vertical-align: top; }
+  vertical-align: top;
+  /* Gap on the RIGHT, not between the flag and its own name: the space that
+     was missing is the one between a name and the NEXT language's flag, which
+     ran them together into one run of text. */
+  margin-right: .7em; }
+.wcard-where a:last-child { margin-right: 0; }
 .wcard-where a:hover, .wcard-where a:focus-visible { color: var(--fg); text-decoration: none;
   box-shadow: 0 1px 0 currentColor; }
 /* Flags are SVG files, not emoji — emoji flags do not render on Windows. The
@@ -2849,11 +2854,18 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 /* A reading nested under its spelling: the spelling is printed once and each
    pronunciation sits beneath it. Before this the fold repeated نجم once per
    reading, under a summary that said "2 spellings". */
-.wcard-read { margin: .3rem 0 0; padding-left: .55rem; border-left: 2px solid var(--line); }
-/* With the spelling printed once at the top, a single-spelling fold is just a
-   list of readings and needs no rule down its side. */
-.wcard-form > .wcard-read:first-child { padding-left: 0; border-left: 0; }
+/* Readings are siblings and must look it. An earlier :first-child exception
+   stripped the rule from the first one only, so a two-reading card had a line
+   beside the second and nothing beside the first — reported as "the second one
+   has a line coming out of it, they should all be equal".
+
+   The rule now depends on the CARD, not on position: it appears when the fold
+   has more than one spelling, where it shows which spelling a reading belongs
+   to, and is absent when there is only one, where it would point at nothing.
+   Either way every reading in a card is treated the same. */
+.wcard-read { margin: .3rem 0 0; }
 .wcard-read + .wcard-read { margin-top: .4rem; }
+.wcard-form.is-multi .wcard-read { padding-left: .55rem; border-left: 2px solid var(--line); }
 
 /* A card with 35 pronunciations in it unfolds to a few thousand pixels and
    leaves its grid neighbours staring at empty space. Capping the panel keeps

@@ -290,10 +290,31 @@
  *       look up, and it needs the dictionary itself.
  *   ko  国立国語院's 우리말샘 sorts every entry into 일반어 / 북한어 /
  *       지역어(방언) / 옛말. 꼬끼오 「부사」 수탉의 우는 소리 returns
- *       일반어 1, 북한어 0, 지역어(방언) 0, 옛말 0. A dictionary that does
- *       record dialect forms records none here, so ko_bus, ko_jl, ko_hg,
- *       ko_yb and ko_kp have nothing to be given. (구구탁 矩矩托, Silla, is
+ *       일반어 1, 북한어 0, 지역어(방언) 0, 옛말 0 — a dictionary that does
+ *       record dialect forms records none here. (구구탁 矩矩托, Silla, is
  *       diachronic like the Japanese set.)
+ *       ko_bus IS filled, though, and not from that absence: 『釜山口述文化
+ *       叢書』 has 꼬끼오 in recorded Busan speech, in a passage that
+ *       separates it from 장닭, the cock, and 꼬꼬댁, the hen after laying —
+ *       the distinction this whole word keeps turning on. So Busan is
+ *       positively attested as using the standard form, which is a result
+ *       and not a blank. The IPA is identical because that is this row
+ *       group's rule: where ko_bus shares a spelling with ko it shares the
+ *       transcription, 50 cells to 0. ko_kp, ko_jl, ko_hg and ko_yb stay
+ *       empty — for them there is only the dictionary's silence. Codex.
+ *   ja  Two Ryukyuan leads, neither usable yet. 西原町『町史だより』No.22
+ *       records ケッケレーケー／コッコロー at 嘉手苅 and コックロー／コイ at
+ *       棚原 — two hamlets of ONE TOWN, and it says the pitch differs by
+ *       hamlet too. That is real regional variation and far below the
+ *       granularity of ja_oki, which is Okinawan entire; the same shape as
+ *       the 門樓下鄉 Hakka lead. Its gloss is 「にわとりの鳴き声」, the
+ *       chicken, not the cock.
+ *       竹田晃子's NINJAL survey of 喜界町 has コケコッコー [kokekokkoː]
+ *       glossed 「朝、時を告げる鳴き声。共通語的」 — the dawn crow, named,
+ *       and recorded as having arrived from the standard language. A clean
+ *       result with nowhere to put it: there is no Kikai or Amami row.
+ *       (Its クークー・クークー is glossed only 「鳴き声」 and is not a
+ *       candidate.) Codex.
  *   vi  CORRECTED 2026-09-23. The first pass looked for a different FORM
  *       and found none, which was the wrong question: these rows differ by
  *       READING, and 67 cells across vi / vi_c / vi_s already share a
@@ -413,6 +434,7 @@ WORDS.cockcrow = {
     es_ve: ["quiquiriquí", "kikiɾiˈki"],
     ja: ["コケコッコー", "kokekokːoː"],
     ko: ["꼬끼오", "k͈ok͈io"],
+    ko_bus: ["꼼끼오", "k͈ok͈io"],
     zh: ["喔喔", "wo˥ wo˥"],
     yue: ["喔喔", "aːk˥ aːk˥"],
     nan: ["咯喈咯喔咯", "kɔk˦ ke˥ kɔ˧˧ ɔʔ˦ kɔʔ˦"],

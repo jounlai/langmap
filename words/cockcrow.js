@@ -51,6 +51,27 @@
  *        lesson plan, labelled the cock — weaker than the dictionary above
  *        and with no tones, so unused.
  *        https://r10.ntct.edu.tw/var/file/10/1010/img/5485/662084925.pdf p.20
+ *
+ * THREE MORE LEADS, all checked and all rejected — recorded because they are
+ * findable and look authoritative, so someone will turn them up again:
+ *   Bodomo (2006), "The Structure of Ideophones in African and Asian
+ *   Languages", ACAL 35, p.204, states the Cantonese cock's crow is
+ *   gok4-gok1-gok3-gok6. The same sentence lists 「cookoo (English)」 as a
+ *   cock's crow, next to 「cock-a-doodle-do (American English)」 — cookoo is
+ *   the cuckoo, a different bird, and this file has a whole separate word
+ *   for it. A one-line illustrative list in the introduction of a paper
+ *   whose data is Dagaare, with no characters, no source and no tones, and
+ *   with a visible error in it, does not overturn a dictionary that splits
+ *   讀音 from 語音 and prints the reduplication.
+ *   夏逸慧 (2023), 现代语言学 (Hans, pay-to-publish), gives 叽叽啼 in a
+ *   nursery rhyme as a cock. 叽叽 is standardly the CHICK's peep, the PDF is
+ *   CID-encoded so the passage could not be read directly, and one rhyme is
+ *   not a convention. Not used.
+ *   吕梁新闻网 (2023) has 圪圪明—圪—— for the cock in 臨県話, distinguished
+ *   from the hen. Good find, unusable: 臨県 is one county of 晋语吕梁片 and
+ *   the row is cjy, all 64 million speakers of Jin, and no pronunciation is
+ *   given. Same shape as the 門樓下鄉 Hakka lead above.
+ *
  *   wuu  NOT FILLED. No Wu-specific source found; the Mandarin split
  *        (喔喔 rooster / 咯嗒 hen / 叽叽 chick) is written Mandarin and does
  *        not transfer to a Wu row on its own.

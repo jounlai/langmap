@@ -7,6 +7,35 @@
  *
  * Seed set only — the long tail is drafted per source; empty cells are simply
  * not yet mapped, not claims of absence.
+ *
+ * FILLING THE TAIL. 843 rows were empty on 2026-09-23 and searching for them
+ * one language at a time buys about one cell per round. The cached CLDF
+ * datasets reach 270 of those rows at once: run
+ *
+ *     node tools/cldf_candidates.js mouth
+ *
+ * which prints each candidate beside that row's own water/fire/stone/tree/
+ * sun/one/two, so the form can be converted against cells whose
+ * transcription is already settled. There is no bulk apply and there cannot
+ * be — the datasets hold one phonetic transcription, this atlas holds a
+ * surface and an IPA in each row's conventions. The tool's header says why
+ * the two obvious shortcuts do not work.
+ *
+ * Triage rules that emerged on the first 60, worth not re-deriving:
+ *   - a form ending in "-" or containing one (Atoni fɛfa-, Yapese l'ugu-n)
+ *     is a BOUND form needing a possessive; it cannot stand in a cell.
+ *   - a form starting "*" is a reconstruction that leaked into the forms
+ *     table (Tsou *ŋuθuʔu). Never a cell.
+ *   - several candidates for one row means the dataset holds several
+ *     doculects (Marquesan haha / fafa / nutu is the North–South split plus
+ *     a different word). Resolve the doculect first.
+ *   - run check_all BEFORE believing a batch. Gilbertese wi was in the first
+ *     one and the intra-row duplicate guard caught it: this row already has
+ *     wi for TOOTH. Either ABVD's MOUTH gloss is loose there or Gilbertese
+ *     uses one word for both, and nothing in the dataset decides which.
+ *   - and the trap this word has of its own: check the form is not the LIPS.
+ *     Sasak biwih was dropped from the first batch for looking like Malay
+ *     bibir, which the definition above excludes.
  */
 WORDS.mouth = {
   label: {
@@ -80,6 +109,16 @@ WORDS.mouth = {
     he: ["פה", "pe"],
     hi: ["मुँह", "mʊ̃ɦ"],
     id: ["mulut", "ˈmulut"],
+    gay: ["awah", "awah"],
+    gor: ["ngango", "ˈŋaŋo"],
+    bjn: ["muntung", "muntuŋ"],
+    mak: ["bawa", "ˈbawa"],
+    su: ["sungut", "suŋut"],
+    max: ["mulut", "mulut"],
+    tet: ["ibun", "ˈibun"],
+    tsg: ["simud", "simud"],
+    tvl: ["gutu", "ŋutu"],
+    ja_oki: ["口", "kutɕi"],
     tr: ["ağız", "aˈɯz"],
     fa: ["دهان", "dæˈhɒn"],
     sw: ["mdomo", "mˈɗomo"],  // Kept over kinywa, which Wiktionary glosses 'mouth' and nothing else, while mdomo is 'lip, mouth; beak'. mdomo is the everyday word and it does cover the mouth, so it does not fall foul of this concept's "not the lips alone" — but kinywa is the unambiguous body-part term, and it is the one to switch to if the everyday reading is ever disputed. The sw label and definition here use mdomo too, so the three move together.

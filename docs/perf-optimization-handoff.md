@@ -123,16 +123,24 @@ Compatibility checked, not assumed: a client sending only `gzip` still gets
 One side effect: the `.br` files sit on disk under their own names, so
 `/wordmap.html.br` is fetchable and returns 191 KB of
 `application/octet-stream` with no `Content-Encoding` — a binary duplicate
-of a real page. `robots.txt` now carries `Disallow: /*.br$`. The stronger
-fix is on the server and is **not yet applied**:
+of a real page. `robots.txt` carries `Disallow: /*.br$`, and the
+server now returns 404 for them outright — applied 2026-09-22, inside the
+`server { }` block, above the other regex locations:
 
 ```nginx
 location ~ \.br$ { return 404; }
 ```
 
-It cannot affect `brotli_static`, because a request for `wordmap.html` never
-carries `.br` in its URI, so the regex location is never the one that
-matches.
+It does not affect `brotli_static`, and that was checked rather than
+argued: all seven still arrive at their quality-11 sizes while all seven
+`.br` URLs return 404. The reason it is safe is that a request for
+`wordmap.html` never carries `.br` in its URI — `brotli_static` looks for
+the file internally inside `location /` and does not re-run location
+matching — so the regex location only ever sees a request that asked for
+the raw file by name.
+
+Note it belongs in `server { }`, not `http { }`; `location` is not valid at
+`http` level and `nginx -t` rejects it there.
 
 ### Pre-compressed .br — how it works here
 

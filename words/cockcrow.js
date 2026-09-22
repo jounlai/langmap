@@ -40,17 +40,42 @@
  *        against this row — ɔ for o͘ (五 ɡɔ˧˧), ʔ for -h (血 hueʔ˦), 陰平 ˥
  *        (貓 niau˥), 陽去 ˧˧ (雨 hɔ˧˧), and ˦ for the entering tones, which
  *        is what this row writes in 血/鐵/冊/一/百 whatever their class.
- *   hak  STILL NOT FILLED, but not for the reason first written here. The
- *        MOE 常用狀聲字表 has only 咯 gog2 with 「雞嫲生卵咯咯跳」, the hen —
- *        yet a 客委會 field survey of 門樓下鄉 records ku55 ku55 ki21 ku55
- *        for the cock, explicitly against the hen's form. One village's
- *        phonetic survey is not a conventional written form and is not
- *        hak_tw or hak_cn, so it stays a lead.
+ *   hak  STILL NOT FILLED, and this is the closest miss in the whole word.
+ *        Three sources, three different things:
+ *          《咕咕咕》, a Hakka picture book from 臺北市政府客家事務委員會,
+ *          animated in 2023 and described as 雞公啼聲 — a children's book
+ *          about the cock's crow, which is exactly what the rule asks for.
+ *          It prints no romanization.
+ *          A 客委會 field survey of 門樓下鄉 has ku55 ku55 ki21 ku55 for the
+ *          cock, explicitly against the hen's — four syllables, one village.
+ *          MOE Hakka has 咕 as a general 狀聲詞 「通常用來形容動物的叫聲或
+ *          說話聲」, 四縣 gu11 — any animal, not the cock. Its 咕咕咕咕 is a
+ *          different word entirely, 「私下低聲說話」, the 嘀嘀咕咕 sense,
+ *          四縣 gu11gu11gu55gu55. There is no 咕咕咕 entry.
+ *        So the surface is well supported and the TONES are not: the book
+ *        gives none, the survey is a different form from a different place,
+ *        and the dictionary's tones belong to other senses. This row is
+ *        fully toned, so it stays empty until a toned source for 咕咕咕
+ *        turns up. (An earlier version of this note said MOE has only the
+ *        hen. That was the 常用狀聲字表; the dictionary proper has more.)
  *        https://cloud.hakka.gov.tw/site/hakka/public/attachment/421817562371.pdf p.179
  *        A second nan lead, ku-ku-kuh, is in a Taichung school's Minnan
  *        lesson plan, labelled the cock — weaker than the dictionary above
  *        and with no tones, so unused.
  *        https://r10.ntct.edu.tw/var/file/10/1010/img/5485/662084925.pdf p.20
+ *   cdo  NOT FILLED, and the dictionary says why itself. Maclay & Baldwin,
+ *        Dictionary of the Foochow Dialect (1929), has 喔 「the crowing of a
+ *        cock」, 喔喔 áuk-áuk 「the sound of crowing」 and 咿喔 ĭ-áuk 「the
+ *        crowing of a cock」 — but both head characters carry 文, the
+ *        literary tag, and the same page tags colloquial items 俗
+ *        (齷齪計 俗, 齷齪天 俗). 咿's other compounds give the register away:
+ *        咿唔 is schoolboys humming, classical vocabulary.
+ *        This is the rule that decides the whole Sinitic block. Fill when a
+ *        source documents a fact about the VARIETY — yue earns its cell
+ *        because 粵語同音字典 gives the reduplication a specifically
+ *        Cantonese colloquial reading, aak1, and labels it 語音. Do not fill
+ *        when the source is written Chinese read aloud, which is what a 文
+ *        tag means and what copying 喔喔 into twenty Mandarin rows would be.
  *
  * THREE MORE LEADS, all checked and all rejected — recorded because they are
  * findable and look authoritative, so someone will turn them up again:

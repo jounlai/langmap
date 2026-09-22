@@ -140,18 +140,53 @@
  *       (TDK has no entry for it at all; the sözlük.gov.tr API returns
  *       "Sonuç bulunamadı" for every spelling.)
  *
- * CANDIDATES, not yet good enough — all from en.wikipedia's
- * Cross-linguistic_onomatopoeias table, which is the same tier as the
- * Wiktionary table that got Hindi wrong, so none of them is filled on that
- * alone. Each needs one native source:
- *   bn  কক্কড়ো / কক্কড়ক / কুক্কুরুক্কু / খুক্কুরুক্কু — four variants and
- *       no way to pick. bn.wiktionary's মোরগ has no onomatopoeia.
- *   ml  കൊക്കരക്കോ — would agree with the ta cell கொக்கரக்கோ, but a
- *       Dravidian cognate of a cell already here is not a second witness,
- *       and ml.wiktionary has no entry (the page 404s).
- *   mr  कुकूच कू — the Marathi children's song that carries "ku kuch ku" is
- *       कोंबडीचं पिल्लू, the HEN's chick. Same trap as the Sinitic block;
- *       needs a source that names कोंबडा.
+ * The 2026-09-22 wide pass. Every one of these names the bird in its own
+ * source, which is the bar this word needs and the one the Sinitic block
+ * kept failing:
+ *   bn  কোঁকর কোঁ — Dash, "Onomatopoeia in Bengali", the cock at dawn;
+ *       independently in শরদিন্দু বন্দ্যোপাধ্যায়'s কালো মোরগ. This replaces the
+ *       four-way guess (কক্কড়ো / কক্কড়ক / কুক্কুরুক্কু / খুক্কুরুক্কু) that
+ *       en.wikipedia's table offered and nothing could choose between.
+ *   te  కొక్కొరోకో — a children's story, sounded by a కోడిపుంజు.
+ *   ml  കൊക്കരക്കോ — sounded by a പൂവൻകോഴി in a Malayalam novel. It agrees
+ *       with the ta cell கொக்கரக்கோ, but this time on its own evidence: a
+ *       Dravidian cognate of a cell already in this file is not a witness.
+ *   sw  kokoriko — Mosha & Omari's study of Swahili children's rhymes
+ *       p.188, of a jogoo (kuku dume). They print kokoliko; Swahili l and r
+ *       alternate freely and both are in the dictionaries, and kokoriko is
+ *       what this file's own sw LABEL already said, so the cell follows the
+ *       label rather than splitting the page in two.
+ *   jv  kukuruyuk / su kongkorongok — Seno Gumira Ajidarma, contrasting the
+ *       two languages' words for the same ayam jantan in one article, which
+ *       is why they can both be trusted here. Not the verb berkokok.
+ *   et  kukeleegu — EKSS, the Estonian Language Institute's dictionary:
+ *       ‹interj› 「annab edasi kuke kiremist」, with two literary citations.
+ *   zu  kikilígi in van der Spuy & Mjiyako, named as the cock. The acute is
+ *       the linguists' tone mark, not Zulu orthography, so the surface here
+ *       is plain and the IPA carries the row's penultimate stress instead —
+ *       this row marks no tone anywhere (ikati, iˈɲoni).
+ *
+ * HELD from the same pass, with what each still needs:
+ *   ha  kukùr̃ūkù (Zając) and ig kòkòrokòoò (Egenti), both in Onomatopoeia
+ *       in the World's Languages (2024) and both explicitly the cock. Their
+ *       tone systems are stated — unmarked high, grave low, macron long or
+ *       downstep — so the tones are recoverable, but the ha row marks tone
+ *       in only one cell of five (tsúntsúː against kʲanwa, ɾuwaː, sanːu,
+ *       huɗu) and the ig row marks none. Decide the row convention first.
+ *   yo  Kùkùrúùkuù (Leeds) against Kukurúùkúù (British Academy), same
+ *       author. Two spellings of one claim, not two witnesses.
+ *   mr  कुकुकु in a transcription of Molesworth 1857, "Imit. of the crow of
+ *       the cock", against कुकूच कू from en.wikipedia — and the Marathi
+ *       children's song that sings "ku kuch ku" is कोंबडीचं पिल्लू, the
+ *       HEN's chick. Needs a modern source that names कोंबडा.
+ *   gu  કૂકડે…કૂક in Raksha Dave's children's story. The ellipsis is the
+ *       story's, and normalising it would be inventing the form.
+ *   uz  qu-qu-qu-quv. Filled and then pulled the same day: the only source
+ *       is a pronunciation-teaching text, where a run of qu- syllables is
+ *       as likely to be a /q/ drill as an onomatopoeia, and nothing else
+ *       prints it. It also transcribed to the spelling with the hyphens
+ *       turned into spaces, which is what a cell looks like when there is
+ *       no phonetic fact behind it — the owner spotted that first.
  *
  * NOT FILLED, and these are checked, not skipped:
  *   ar  no settled written form. The sources are children's hymns and they
@@ -264,6 +299,14 @@ WORDS.cockcrow = {
     ur: ["ککڑوں کوں", "kʊkɽũː kũː"],
     tr: ["üürü üü", "yːry yː"],
     ne: ["कुखुरी काँ", "kukʰuri kãː"],
+    bn: ["কোঁকর কোঁ", "kõːkɔr kõː"],
+    te: ["కొక్కొరోకో", "kokːoroːkoː"],
+    ml: ["കൊക്കരക്കോ", "kokːarakːoː"],
+    sw: ["kokoriko", "kokoˈriko"],
+    jv: ["kukuruyuk", "kukuruˈjʊʔ"],
+    su: ["kongkorongok", "kɔŋkoroŋɔk"],
+    et: ["kukeleegu", "ˈkukeleːɡu"],
+    zu: ["kikiligi", "kikiˈliɡi"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],
     vi: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
     th: ["เอ้กอี๊เอ้กเอ้ก", "ʔeːk˥˩ ʔiː˦˥ ʔeːk˥˩ ʔeːk˥˩"],

@@ -52,11 +52,24 @@
  *          說話聲」, 四縣 gu11 — any animal, not the cock. Its 咕咕咕咕 is a
  *          different word entirely, 「私下低聲說話」, the 嘀嘀咕咕 sense,
  *          四縣 gu11gu11gu55gu55. There is no 咕咕咕 entry.
+ *        The publisher's own podcast 哈哈糖 settles the BIRD beyond doubt:
+ *        「繪本故事 咕咕咕02-相片裡的公雞叫聲」, 公雞 in the title, read in
+ *        四縣腔 (2022-09-30) and again in 海陸腔 (2022-10-21), three episodes
+ *        each. Feed: feeds.soundon.fm/podcasts/d6df38da-5a24-4278-a60b-
+ *        2ec69c34c87a.xml — it 403s without a browser User-Agent. Not one of
+ *        the nine descriptions carries romanization.
  *        So the surface is well supported and the TONES are not: the book
- *        gives none, the survey is a different form from a different place,
- *        and the dictionary's tones belong to other senses. This row is
+ *        gives none, the podcast gives none, the survey is a different form
+ *        from a different place, and the dictionary's tones belong to other
+ *        senses. Nor can the base tone simply be repeated — MOE's own
+ *        reduplication of this character is gu11gu11gu55gu55, so 咕咕咕 is
+ *        not gu11 three times just because 咕 alone is gu11. This row is
  *        fully toned, so it stays empty until a toned source for 咕咕咕
- *        turns up. (An earlier version of this note said MOE has only the
+ *        turns up.
+ *        Two places left to look: 臺灣客語語料庫 (corpus.hakka.gov.tw, a JS
+ *        app with no API found yet) and 《咕咕：嬰幼兒客語童謠選集》
+ *        (桃園市客家事務局 2015, GPN 1010402567), which prints 四縣 and 海陸
+ *        pinyin for twelve rhymes including 雞公仔 but is not online. (An earlier version of this note said MOE has only the
  *        hen. That was the 常用狀聲字表; the dictionary proper has more.)
  *        https://cloud.hakka.gov.tw/site/hakka/public/attachment/421817562371.pdf p.179
  *        A second nan lead, ku-ku-kuh, is in a Taichung school's Minnan

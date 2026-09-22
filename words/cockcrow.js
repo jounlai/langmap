@@ -18,6 +18,40 @@
  * Fillers: take the CONVENTIONAL written form — the one a children's book or
  * a dictionary of onomatopoeia prints — not a phonetic impression. Where a
  * language writes it in a non-Latin script, use that script.
+ *
+ * SINITIC — searched 2026-09-22, and the answer is mostly "there isn't one".
+ * 61 Sinitic rows, and only zh, zh_tw and yue can be filled. The reason is
+ * consistent across the dictionaries: they record the HEN, not the rooster.
+ *
+ *   yue  喔喔 ɐk˥ ɐk˥. 喔 is ak1 in ten sources; 廣州話正音字典 glosses that
+ *        reading 「雞啼聲」 and 粵語同音字典(增訂本) has the reduplication
+ *        outright, 「喔喔，雞聲」. 啼 is specifically the cock's crow, so this
+ *        one is the right bird. (A second reading aak1 carries the same
+ *        gloss in five sources; ak1 is the majority and the standard-
+ *        pronunciation dictionary's.)
+ *   nan  NOT FILLED. 教育部臺灣台語常用詞辭典 has exactly one chicken
+ *        onomatopoeia, 咯 ko̍k 「指雞叫聲」, and its example is 雞仔咯咯叫
+ *        with the related entry 拍咯雞 — a hen after laying. That is the
+ *        cluck, not the crow. 啼 thî is in the dictionary too but it is the
+ *        VERB, which the definition above rules out.
+ *   hak  NOT FILLED, same shape. 教育部臺灣客語辭典's 常用狀聲字表 lists
+ *        咯 gog2 「形容雞叫聲」 and 咯咯跳, glossed 「雞嫲生卵咯咯跳」 —
+ *        the hen again, said out loud.
+ *   wuu  NOT FILLED. No Wu-specific source found; the Mandarin split
+ *        (喔喔 rooster / 咯嗒 hen / 叽叽 chick) is written Mandarin and does
+ *        not transfer to a Wu row on its own.
+ *
+ * Do not fill the remaining Mandarin rows (zh_sc, zh_db, zh_wh …) by copying
+ * 喔喔 from zh. 喔喔 is the standard WRITTEN form, so every one of them would
+ * of course write it; that is a fact about written Chinese, not about the
+ * variety, and it would make 20 rows say the same thing for no reason.
+ *
+ * A native-speaker report is a LEAD, not a source. 平江贛語 ke21 ke55 ke33
+ * o21 was offered on 2026-09-22 (@pianggong) and is genuinely striking —
+ * essentially コケコッコー, nothing like 喔喔 — but the row does not exist,
+ * 55 is not in Pingjiang's documented tone inventory (44, 12, 313, 21, 33,
+ * 53, 4), and an imitation is not a written form. Same handling as the
+ * Hokkien chocolate reports: chase it to a publication or leave it out.
  */
 WORDS.cockcrow = {
   partial: true,
@@ -108,6 +142,7 @@ WORDS.cockcrow = {
     ja: ["コケコッコー", "kokekokːoː"],
     ko: ["꼬끼오", "k͈ok͈io"],
     zh: ["喔喔", "wo˥ wo˥"],
+    yue: ["喔喔", "ɐk˥ ɐk˥"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],
     vi: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
     th: ["เอ้กอี๊เอ้กเอ้ก", "ʔeːk˥˩ ʔiː˦˥ ʔeːk˥˩ ʔeːk˥˩"],

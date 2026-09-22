@@ -118,12 +118,27 @@
  *       out against what is already here (kykyryký, kukeleku, kukkokiekuu,
  *       κικιρίκου, kukurikú, kukuryku, kuckeliku), so it is usable, but not
  *       for the languages nobody watches.
+ *   ne  कुखुरी काँ. "Kukhuri Ka" is a standard Nepali बालगीत, the one every
+ *       child learns, which is this word's rule met exactly.
  *   tr  üürü üü, from Yalvaç Ural's animal-sounds column in Milliyet — a
  *       children's author, which is exactly what the rule above asks for.
  *       The same column writes the dog hav hav, which is character-for-
  *       character the atlas's tr woof cell, so its conventions are ours.
  *       (TDK has no entry for it at all; the sözlük.gov.tr API returns
  *       "Sonuç bulunamadı" for every spelling.)
+ *
+ * CANDIDATES, not yet good enough — all from en.wikipedia's
+ * Cross-linguistic_onomatopoeias table, which is the same tier as the
+ * Wiktionary table that got Hindi wrong, so none of them is filled on that
+ * alone. Each needs one native source:
+ *   bn  কক্কড়ো / কক্কড়ক / কুক্কুরুক্কু / খুক্কুরুক্কু — four variants and
+ *       no way to pick. bn.wiktionary's মোরগ has no onomatopoeia.
+ *   ml  കൊക്കരക്കോ — would agree with the ta cell கொக்கரக்கோ, but a
+ *       Dravidian cognate of a cell already here is not a second witness,
+ *       and ml.wiktionary has no entry (the page 404s).
+ *   mr  कुकूच कू — the Marathi children's song that carries "ku kuch ku" is
+ *       कोंबडीचं पिल्लू, the HEN's chick. Same trap as the Sinitic block;
+ *       needs a source that names कोंबडा.
  *
  * NOT FILLED, and these are checked, not skipped:
  *   ar  no settled written form. The sources are children's hymns and they
@@ -235,6 +250,7 @@ WORDS.cockcrow = {
     hi: ["कुकड़ूँ कूँ", "kʊkɽũː kũː"],
     ur: ["ککڑوں کوں", "kʊkɽũː kũː"],
     tr: ["üürü üü", "yːry yː"],
+    ne: ["कुखुरी काँ", "kukʰuri kãː"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],
     vi: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
     th: ["เอ้กอี๊เอ้กเอ้ก", "ʔeːk˥˩ ʔiː˦˥ ʔeːk˥˩ ʔeːk˥˩"],

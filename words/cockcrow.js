@@ -213,6 +213,39 @@
  * The 日国 語誌 states the shape of the whole series: カ行 early, タ行 in the
  * early modern period, and コケコッコー only after the Meiji primer.
  *
+ * 喈喈, from 詩經·鄭風·風雨 (11–7cBCE): 「風雨淒淒，雞鳴喈喈」, and 膠膠 in the
+ * next stanza, 「風雨瀟瀟，雞鳴膠膠」 — the commentary reads the first as the
+ * cock's early soft calls and the second as the fuller ones. 雞鳴 names the
+ * bird, which is the bar this word keeps failing elsewhere.
+ *   zh_tang        喈喈 keaj keaj — Baxter's Middle Chinese, which is what
+ *                  this row writes (cuckoo 布穀 puoH kuwk).
+ *   zh_wenyan_edu  喈喈 kaːi˥ kaːi˥ — 喈 is gaai1, /kaːi̯⁵⁵/, and this row
+ *                  reads Classical Chinese in Cantonese (布穀 pou˧ kʊk˥).
+ *   och            NOT FILLED, for a checkable reason: this row writes
+ *                  Baxter–Sagart (水 *s.turʔ, 火 *[qʷʰ]ˤəjʔ) and B–S has no
+ *                  entry for 喈. Its phonetic series neighbours 皆 and 階 do.
+ *                  Zhengzhang gives *kriːl, but putting Zhengzhang in a B–S
+ *                  row is the notation mismatch this atlas keeps catching.
+ *   zh_han, zh_song, vi_han, vi_nom are open. The first two write their
+ *                  readings inconsistently (zh_song has Baxter MC for cuckoo
+ *                  and tone letters for woof), and the Vietnamese pair needs
+ *                  the Sino-Vietnamese reading of 喈. Decide, then fill.
+ *
+ * en_em cockadidle-dowe — Shakespeare, The Tempest I.ii (1610-11), 「Hark,
+ * hark, I heare, the ſtraine of ſtrutting Chanticlere cry cockadidle-dowe」.
+ * That is the EARLIEST attestation of the English word, so ang and enm have
+ * nothing to be given: there is no Old or Middle English form, and the
+ * claim that Middle English said "kok a doodle doo" traces to an SEO page,
+ * not to the OED. The First Folio spelling is used rather than an editor's
+ * "Cock-a-diddle-dow", because this row spells its period (fyre, sunne,
+ * moone). Bow-wow is in the same song, two lines up, and the en_em woof
+ * cell is empty — worth a look.
+ *
+ * sa NOT FILLED: कुक्कुट kukkuṭa is onomatopoeic in ORIGIN but it is the
+ * NOUN, the bird, which this word's definition excludes as squarely as the
+ * verb. fro NOT FILLED: Chantecler is a NAME, chante + cler, sung clearly.
+ * nci: nothing found in Molina 1571 from here.
+ *
  * la and el_grc NOT FILLED, and the reason is a fact about the tradition
  * rather than a gap. The classical voces animantium catalogues list animal
  * sounds as VERBS: Suetonius, De Naturis Animantium, 「gallorum cucurrire
@@ -365,6 +398,9 @@ WORDS.cockcrow = {
     ja_heian: ["かけろ", "kakero"],
     ja_chu: ["かげんろ", "kaɡeɴro"],
     ja_edo: ["とうてんこう", "toːteɴkoː"],
+    zh_tang: ["喈喈", "keaj keaj"],
+    zh_wenyan_edu: ["喈喈", "kaːi˥ kaːi˥"],
+    en_em: ["cockadidle-dowe", "kɒk ə ˈdɪdəl doː"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],
     vi: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
     th: ["เอ้กอี๊เอ้กเอ้ก", "ʔeːk˥˩ ʔiː˦˥ ʔeːk˥˩ ʔeːk˥˩"],

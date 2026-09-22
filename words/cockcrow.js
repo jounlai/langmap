@@ -19,24 +19,38 @@
  * a dictionary of onomatopoeia prints — not a phonetic impression. Where a
  * language writes it in a non-Latin script, use that script.
  *
- * SINITIC — searched 2026-09-22, and the answer is mostly "there isn't one".
- * 61 Sinitic rows, and only zh, zh_tw and yue can be filled. The reason is
- * consistent across the dictionaries: they record the HEN, not the rooster.
+ * SINITIC — searched 2026-09-22. 61 rows; zh, zh_tw, yue and nan are filled.
+ * The trap throughout is that the dictionaries mostly record the HEN, and a
+ * gloss like 「雞叫聲」 does not say which bird. Check for a source that
+ * names 公雞 or 啼 before believing a chicken entry is this one.
  *
- *   yue  喔喔 ɐk˥ ɐk˥. 喔 is ak1 in ten sources; 廣州話正音字典 glosses that
- *        reading 「雞啼聲」 and 粵語同音字典(增訂本) has the reduplication
- *        outright, 「喔喔，雞聲」. 啼 is specifically the cock's crow, so this
- *        one is the right bird. (A second reading aak1 carries the same
- *        gloss in five sources; ak1 is the majority and the standard-
- *        pronunciation dictionary's.)
- *   nan  NOT FILLED. 教育部臺灣台語常用詞辭典 has exactly one chicken
- *        onomatopoeia, 咯 ko̍k 「指雞叫聲」, and its example is 雞仔咯咯叫
- *        with the related entry 拍咯雞 — a hen after laying. That is the
- *        cluck, not the crow. 啼 thî is in the dictionary too but it is the
- *        VERB, which the definition above rules out.
- *   hak  NOT FILLED, same shape. 教育部臺灣客語辭典's 常用狀聲字表 lists
- *        咯 gog2 「形容雞叫聲」 and 咯咯跳, glossed 「雞嫲生卵咯咯跳」 —
- *        the hen again, said out loud.
+ *   yue  喔喔 aːk˥ aːk˥ — aak1, NOT ak1. 粵語同音字典 splits the character:
+ *        ak1 is the 讀音, glossed 「雞啼」, and aak1 is the 語音, glossed
+ *        「喔喔，雞聲」 — the colloquial reading, and the one the dictionary
+ *        attaches the REDUPLICATION to. An onomatopoeia is something said,
+ *        not something read, so the 語音 is the one this cell wants. (This
+ *        was ak1 when first filled; corrected 2026-09-22 after Codex spotted
+ *        the 讀音/語音 labels, which the source carries and I had skipped.)
+ *   nan  咯喈咯喔咯 kɔk˦ ke˥ kɔ˧˧ ɔʔ˦ kɔʔ˦, from 國臺對照活用辭典 (楊青矗),
+ *        which separates the birds explicitly and in one paragraph:
+ *          公雞啼曉聲 → 咯喈咯喔咯   (this cell — the crow at dawn)
+ *          雞公聲     → 咯喈
+ *          雞母呼囝聲 → 咯咯
+ *        Printed in 方音符號: ㄍㆦㆶ／ㄍㆤ／ㄍㆦ˫／ㆦㆷ͘／ㄍㆦㆷ, converted
+ *        against this row — ɔ for o͘ (五 ɡɔ˧˧), ʔ for -h (血 hueʔ˦), 陰平 ˥
+ *        (貓 niau˥), 陽去 ˧˧ (雨 hɔ˧˧), and ˦ for the entering tones, which
+ *        is what this row writes in 血/鐵/冊/一/百 whatever their class.
+ *   hak  STILL NOT FILLED, but not for the reason first written here. The
+ *        MOE 常用狀聲字表 has only 咯 gog2 with 「雞嫲生卵咯咯跳」, the hen —
+ *        yet a 客委會 field survey of 門樓下鄉 records ku55 ku55 ki21 ku55
+ *        for the cock, explicitly against the hen's form. One village's
+ *        phonetic survey is not a conventional written form and is not
+ *        hak_tw or hak_cn, so it stays a lead.
+ *        https://cloud.hakka.gov.tw/site/hakka/public/attachment/421817562371.pdf p.179
+ *        A second nan lead, ku-ku-kuh, is in a Taichung school's Minnan
+ *        lesson plan, labelled the cock — weaker than the dictionary above
+ *        and with no tones, so unused.
+ *        https://r10.ntct.edu.tw/var/file/10/1010/img/5485/662084925.pdf p.20
  *   wuu  NOT FILLED. No Wu-specific source found; the Mandarin split
  *        (喔喔 rooster / 咯嗒 hen / 叽叽 chick) is written Mandarin and does
  *        not transfer to a Wu row on its own.
@@ -45,6 +59,34 @@
  * 喔喔 from zh. 喔喔 is the standard WRITTEN form, so every one of them would
  * of course write it; that is a fact about written Chinese, not about the
  * variety, and it would make 20 rows say the same thing for no reason.
+ *
+ * ELSEWHERE — searched 2026-09-22 after the Sinitic pass, because the gap is
+ * mostly NOT Sinitic: 936 modern rows have no cell. Europe turned out to be
+ * largely done already; South Asia, Southeast Asia and Africa are the hole.
+ *
+ *   hi  कुकड़ूँ कूँ, ur ککڑوں کوں. The same spoken word in both scripts,
+ *       which is why they corroborate each other. NOTE: en.wiktionary's
+ *       cock-a-doodle-doo translation table gives Hindi कुक्रूकु, and that
+ *       is wrong — no entry stands behind it, and every Hindi animal-sound
+ *       source prints कुकड़ूँ कूँ. The table's European entries all check
+ *       out against what is already here (kykyryký, kukeleku, kukkokiekuu,
+ *       κικιρίκου, kukurikú, kukuryku, kuckeliku), so it is usable, but not
+ *       for the languages nobody watches.
+ *   tr  üürü üü, from Yalvaç Ural's animal-sounds column in Milliyet — a
+ *       children's author, which is exactly what the rule above asks for.
+ *       The same column writes the dog hav hav, which is character-for-
+ *       character the atlas's tr woof cell, so its conventions are ours.
+ *       (TDK has no entry for it at all; the sözlük.gov.tr API returns
+ *       "Sonuç bulunamadı" for every spelling.)
+ *
+ * NOT FILLED, and these are checked, not skipped:
+ *   ar  no settled written form. The sources are children's hymns and they
+ *       disagree — كوكو كيك, كوكو ريكو, كوكوكوكو — and no dictionary has it.
+ *   ms  Malay Wikipedia's Senarai bunyi haiwan, whose gonggong the atlas's
+ *       ms woof already follows, gives only "kokok", which is the VERB (ayam
+ *       berkokok). Indonesian kukuruyuk is already on the id row and is not
+ *       Malaysian. Same category error as Taiwanese 啼 thî.
+ *   sw  Swahili has the verb wika and no imitation that any source prints.
  *
  * A native-speaker report is a LEAD, not a source. 平江贛語 ke21 ke55 ke33
  * o21 was offered on 2026-09-22 (@pianggong) and is genuinely striking —
@@ -142,7 +184,11 @@ WORDS.cockcrow = {
     ja: ["コケコッコー", "kokekokːoː"],
     ko: ["꼬끼오", "k͈ok͈io"],
     zh: ["喔喔", "wo˥ wo˥"],
-    yue: ["喔喔", "ɐk˥ ɐk˥"],
+    yue: ["喔喔", "aːk˥ aːk˥"],
+    nan: ["咯喈咯喔咯", "kɔk˦ ke˥ kɔ˧˧ ɔʔ˦ kɔʔ˦"],
+    hi: ["कुकड़ूँ कूँ", "kʊkɽũː kũː"],
+    ur: ["ککڑوں کوں", "kʊkɽũː kũː"],
+    tr: ["üürü üü", "yːry yː"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],
     vi: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
     th: ["เอ้กอี๊เอ้กเอ้ก", "ʔeːk˥˩ ʔiː˦˥ ʔeːk˥˩ ʔeːk˥˩"],

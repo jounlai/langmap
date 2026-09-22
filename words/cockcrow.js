@@ -294,7 +294,24 @@
  *       record dialect forms records none here, so ko_bus, ko_jl, ko_hg,
  *       ko_yb and ko_kp have nothing to be given. (구구탁 矩矩托, Silla, is
  *       diachronic like the Japanese set.)
- *   vi  Nothing found in either direction for vi_c or vi_s.
+ *   vi  CORRECTED 2026-09-23. The first pass looked for a different FORM
+ *       and found none, which was the wrong question: these rows differ by
+ *       READING, and 67 cells across vi / vi_c / vi_s already share a
+ *       spelling while carrying different IPA (lửa lɨə˧˩˧ / lɨə˧˩ /
+ *       lɨə˨˩˥). Re-transcribing one spelling per dialect is this row
+ *       group's established convention, not an inference.
+ *       The tone mapping each row actually uses, counted off its own cells:
+ *         ngang   vi ˧ (40)   vi_c ˧ (23)   vi_s ˧ (27)
+ *         huyền   vi ˨˩ (11)  vi_c ˧˨ (4)   vi_s ˨˩ (7)
+ *         sắc     vi ˧˥ (26)  vi_c ˧˥ (11)  vi_s ˧˥ (17)
+ *       ò is huyền, ó is sắc, o is ngang, so vi_c genuinely differs and
+ *       vi_s comes out identical to vi — this word has no consonant for
+ *       Southern's ʂ / ʈ / j to act on. Both are filled: an identical
+ *       variety cell is already how 53 other cells in these rows read, and
+ *       "the same here" is an answer.
+ *       Alves (SEALS 12, p.6) measures Huế huyền 33 and Saigon sắc 45 where
+ *       this atlas writes ˧˨ and ˧˥; the cells follow the atlas, because a
+ *       cell has to be readable against its own row. Raised by Codex.
  *
  * And the structural reason this is the right shape: cuckoo IS filled on
  * every one of these rows, because カッコウ / 뻐꾸기 / cu cu is a BIRD NAME,
@@ -420,6 +437,8 @@ WORDS.cockcrow = {
     en_em: ["cockadidle-dowe", "kɒk ə ˈdɪdəl doː"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],
     vi: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
+    vi_c: ["ò ó o", "ɔ˧˨ ɔ˧˥ ɔ˧"],
+    vi_s: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
     th: ["เอ้กอี๊เอ้กเอ้ก", "ʔeːk˥˩ ʔiː˦˥ ʔeːk˥˩ ʔeːk˥˩"],
     id: ["kukuruyuk", "kukuˈrujuʔ"],
     ta: ["கொக்கரக்கோ", "kokkarakkoː"],

@@ -166,13 +166,29 @@
  *       is plain and the IPA carries the row's penultimate stress instead —
  *       this row marks no tone anywhere (ikati, iˈɲoni).
  *
+ *   ha  kukuruku kúkùrúːkù — Zając in Onomatopoeia in the World's
+ *       Languages (De Gruyter 2024). Held one round for the tone, then
+ *       released: the chapter states the pattern outright, 「H-L-H-L in
+ *       kukùr̃ūkù 'sound of a rooster'」, as part of its argument that Hausa
+ *       onomatopoeic tone tracks the pitch of the real sound. The row is
+ *       partially toned — 4 of 71 cells, kʼáfàː, dʒìníː, tsúntsúː, ʔúkù,
+ *       each fully marked — so a fully marked cell belongs with them. The
+ *       surface is plain because Hausa orthography writes neither tone nor
+ *       length; r̃ is the trill, which this row already distinguishes from
+ *       plain r by writing the latter ɾ (ruwa ɾuwaː).
+ *
  * HELD from the same pass, with what each still needs:
- *   ha  kukùr̃ūkù (Zając) and ig kòkòrokòoò (Egenti), both in Onomatopoeia
- *       in the World's Languages (2024) and both explicitly the cock. Their
- *       tone systems are stated — unmarked high, grave low, macron long or
- *       downstep — so the tones are recoverable, but the ha row marks tone
- *       in only one cell of five (tsúntsúː against kʲanwa, ɾuwaː, sanːu,
- *       huɗu) and the ig row marks none. Decide the row convention first.
+ *   ig  kòkòrokòoò (Egenti, same handbook), explicitly the cock, with its
+ *       tone system stated. Unlike ha this row marks no tone at all, and
+ *       Igbo orthography writes none either, so the cell would be
+ *       "kokorokooo" with everything the source contributes thrown away.
+ *       Decide the row convention first.
+ *   ar_ma ququːʕʕuː (Ech-Charfi, same handbook), with an example sentence,
+ *       l-fərʕrʕuʒ ka-j-gul ququ:ʕʕu:, and the note that adults say the
+ *       derived verb instead — child-directed, which is what this word
+ *       wants. NOT FILLED because this row writes Arabic script (لما, عافية,
+ *       شمس) and no Arabic spelling of this onomatopoeia is attested
+ *       anywhere; writing one would be inventing the orthography.
  *   yo  Kùkùrúùkuù (Leeds) against Kukurúùkúù (British Academy), same
  *       author. Two spellings of one claim, not two witnesses.
  *   mr  कुकुकु in a transcription of Molesworth 1857, "Imit. of the crow of
@@ -395,6 +411,7 @@ WORDS.cockcrow = {
     su: ["kongkorongok", "kɔŋkoroŋɔk"],
     et: ["kukeleegu", "ˈkukeleːɡu"],
     zu: ["kikiligi", "kikiˈliɡi"],
+    ha: ["kukuruku", "kúkùrúːkù"],
     ja_heian: ["かけろ", "kakero"],
     ja_chu: ["かげんろ", "kaɡeɴro"],
     ja_edo: ["とうてんこう", "toːteɴkoː"],

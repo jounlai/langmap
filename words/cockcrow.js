@@ -197,6 +197,34 @@
  *       Malaysian. Same category error as Taiwanese 啼 thî.
  *   sw  Swahili has the verb wika and no imitation that any source prints.
  *
+ * THE ja / ko / vi VARIETY ROWS STAY EMPTY, asked 2026-09-22 and checked.
+ * Twenty-one rows across the three, and only the three parents are filled.
+ * That is not an oversight in any of them:
+ *
+ *   ja  The variation is DIACHRONIC, not regional. 日本国語大辞典 has かけろ
+ *       (神楽歌, 9c, 「鶏はかけろと鳴きぬなり」), かげんろ (運歩色葉集 1548,
+ *       「可見路 カゲンロ 鶏鳴音」), トッテコー (醒睡笑 1628) and トーテンコー
+ *       (書言字考節用集 1717) — old forms in カ行, early modern ones in タ行.
+ *       コケコッコー is none of these: it was written for a Meiji 尋常小学校
+ *       katakana primer and spread by the national textbook, which is
+ *       precisely WHY the modern language has no regional spread to record.
+ *       今野真二 says as much — 「ニワトリに関しては『聞きなし』の共有度が
+ *       高そうだ」. 日国 labels exactly one form 方言, こけこおろ 「雄鶏の
+ *       鳴き声」, and gives no region for it; that is the one thing left to
+ *       look up, and it needs the dictionary itself.
+ *   ko  国立国語院's 우리말샘 sorts every entry into 일반어 / 북한어 /
+ *       지역어(방언) / 옛말. 꼬끼오 「부사」 수탉의 우는 소리 returns
+ *       일반어 1, 북한어 0, 지역어(방언) 0, 옛말 0. A dictionary that does
+ *       record dialect forms records none here, so ko_bus, ko_jl, ko_hg,
+ *       ko_yb and ko_kp have nothing to be given. (구구탁 矩矩托, Silla, is
+ *       diachronic like the Japanese set.)
+ *   vi  Nothing found in either direction for vi_c or vi_s.
+ *
+ * And the structural reason this is the right shape: cuckoo IS filled on
+ * every one of these rows, because カッコウ / 뻐꾸기 / cu cu is a BIRD NAME,
+ * a noun every variety has. woof — the real analogue, a pure animal sound —
+ * is filled on ja, ko and vi and nowhere else. cockcrow follows woof.
+ *
  * A native-speaker report is a LEAD, not a source. 平江贛語 ke21 ke55 ke33
  * o21 was offered on 2026-09-22 (@pianggong) and is genuinely striking —
  * essentially コケコッコー, nothing like 喔喔 — but the row does not exist,

@@ -197,6 +197,33 @@
  *       Malaysian. Same category error as Taiwanese 啼 thî.
  *   sw  Swahili has the verb wika and no imitation that any source prints.
  *
+ * HISTORICAL ROWS, asked 2026-09-23. The Japanese series found while
+ * checking regional variation turns out to BE the historical series, and
+ * each form lands inside its row's period:
+ *   ja_heian (8–12c)  かけろ   — 神楽歌, 9c, 「鶏はかけろと鳴きぬなり」
+ *   ja_chu   (12–16c) かげんろ — 運歩色葉集 1548, 「可見路 カゲンロ 鶏鳴音」
+ *   ja_edo   (17–19c) とうてんこう — 書言字考節用集 1717. 日国 heads it
+ *            とうてんこう【東天紅・東天光】〔副〕「暁に鳴くニワトリの声を
+ *            表わす」 and says the kanji were ASSIGNED for their meaning
+ *            (east sky reddening at daybreak), so the word is the kana and
+ *            東天紅 is its ateji — which is why the cell is kana, like this
+ *            row's sibling onomatopoeia ja_heian woof びよびよ. 醒睡笑 1628
+ *            has トッテコー from the same タ行 period; 東天紅 is the one with
+ *            its own headword.
+ * The 日国 語誌 states the shape of the whole series: カ行 early, タ行 in the
+ * early modern period, and コケコッコー only after the Meiji primer.
+ *
+ * la and el_grc NOT FILLED, and the reason is a fact about the tradition
+ * rather than a gap. The classical voces animantium catalogues list animal
+ * sounds as VERBS: Suetonius, De Naturis Animantium, 「gallorum cucurrire
+ * vel cantare」; Cratinus fr. 311 「κοκκύζειν τὸν ἀλεκτρυόν' οὐκ ἀνέχονται」;
+ * Aristophanes the Grammarian 「Καὶ κοκκύζειν ἐπὶ τοῦ ἀλεκτρυόνος」. cucurrire
+ * and κοκκύζειν are exactly the 啼 / berkokok / wika that this word's
+ * definition excludes. (Both rows DO have woof — la bau bau, el_grc αὖ αὖ —
+ * because for the dog the ancients left an imitation, not just a verb.)
+ * Greek has a further problem: κόκκυ belongs to the cuckoo, which is already
+ * the el_grc cuckoo cell κόκκυξ.
+ *
  * THE ja / ko / vi VARIETY ROWS STAY EMPTY, asked 2026-09-22 and checked.
  * Twenty-one rows across the three, and only the three parents are filled.
  * That is not an oversight in any of them:
@@ -335,6 +362,9 @@ WORDS.cockcrow = {
     su: ["kongkorongok", "kɔŋkoroŋɔk"],
     et: ["kukeleegu", "ˈkukeleːɡu"],
     zu: ["kikiligi", "kikiˈliɡi"],
+    ja_heian: ["かけろ", "kakero"],
+    ja_chu: ["かげんろ", "kaɡeɴro"],
+    ja_edo: ["とうてんこう", "toːteɴkoː"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],
     vi: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
     th: ["เอ้กอี๊เอ้กเอ้ก", "ʔeːk˥˩ ʔiː˦˥ ʔeːk˥˩ ʔeːk˥˩"],

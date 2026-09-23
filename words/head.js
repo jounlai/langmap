@@ -554,6 +554,8 @@ WORDS.head = {
     nmf: ["kui", "kui"],
     xul: ["guddagong", "ɡuddaɡoŋ"],
     naq: ["danas", "danas"],
-    ko_bus: ["머리", "mʌɾi"]
+    ko_bus: ["머리", "mʌɾi"],
+    ty: ["upoʻo", "upoʔo"],
+    kde: ["mutwe", "mutwe"]
   },
 };

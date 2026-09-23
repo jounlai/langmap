@@ -553,6 +553,8 @@ WORDS.new = {
     hot: ["lumut", "lumut"],
     kjg: ["həmmeʔ", "həmmeʔ"],
     kxv: ["puni", "puni"],
-    naq: ["kawa", "kawa"]
+    naq: ["kawa", "kawa"],
+    ty: ["ʻāpī", "ʔaːpiː"],
+    pbb: ["uʼse", "uʔse"]
   },
 };

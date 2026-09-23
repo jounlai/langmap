@@ -129,7 +129,13 @@ function marksStress(lang) {
         total++;
         if (/[\u02C8\u02CC]/.test(e[1])) withMark++;
     }
-    return total > 0 && withMark > 0;
+    /* A ratio, not a flag. The first version refused a row for a single ˈ
+       anywhere, and rows carrying one mark in fifty cells — Tooro 1/57,
+       Kamba 1/54, Misak 1/47, Martu Wangka 1/47 — plainly do not mark
+       stress as a convention. Refusing them cost real cells across every
+       slice. The Chao test below had the ratio right from the start; this
+       now matches it. */
+    return total >= 10 && withMark / total >= 0.15;
 }
 
 /* A row that writes Chao tone letters will not take a toneless candidate:

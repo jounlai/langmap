@@ -454,6 +454,8 @@ WORDS.horse = {
     ppl: ["cahuayoh", "kaˈwajuh"],
     prs: ["اسپ", "asp"],
     myx: ["ifarasi", "ifarasi"],
-    sbp: ["ifarasi", "ifarasi"]
+    sbp: ["ifarasi", "ifarasi"],
+    kam: ["mbalasi", "mbalasi"],
+    zh_cq: ["马", "ma˦˨"]
   }
 };

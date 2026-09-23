@@ -387,6 +387,9 @@ WORDS.mountain = {
     ja_sd: ["山", "jama"],
     es_co: ["montaña", "monˈtaɲa"],
     es_an: ["montaña", "monˈtaɲa"],
-    vi_s: ["núi", "nui˧˥"]
+    vi_s: ["núi", "nui˧˥"],
+    ttj: ["orusozi", "orusozi"],
+    rbb: ["kɔŋ", "kɔŋ"],
+    zh_cq: ["山", "san˥"]
   }
 };

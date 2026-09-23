@@ -1103,6 +1103,7 @@ WORDS.four = {
     myx: ["tsine", "tsine"],
     sbp: ["sina", "sina"],
     osc: ["pettiur", "pettiur"],
-    jmc: ["fiina", "fiina"]
+    jmc: ["fiina", "fiina"],
+    pbb: ["pahz", "paʰts"]
   },
 };

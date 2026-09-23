@@ -461,6 +461,11 @@ WORDS.person = {
     peh: ["kuŋ", "kuŋ"],
     pzh: ["saw", "saw"],
     ko_bus: ["사람", "saɾam"],
-    vi_s: ["người", "ŋɨəj˨˩"]
+    vi_s: ["người", "ŋɨəj˨˩"],
+    rap: ["tagata", "taŋata"],
+    ttj: ["omuntu", "omuntu"],
+    ty: ["taʻata", "taʔata"],
+    rbb: ["taɁiː", "taʔiː"],
+    zh_cq: ["人", "zən˨˩"]
   }
 };

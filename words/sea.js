@@ -357,6 +357,7 @@ WORDS.sea = {
     ko_bus: ["바다", "pada"],
     ja_sd: ["海", "umi"],
     en_ie: ["sea", "siː"],
-    es_co: ["mar", "maɾ"]
+    es_co: ["mar", "maɾ"],
+    zh_cq: ["海", "xai˦˨"]
   }
 };

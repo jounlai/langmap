@@ -527,6 +527,8 @@ WORDS.mouth = {
     ko_bus: ["입", "ip"],
     en_ie: ["mouth", "maʊθ"],
     es_co: ["boca", "ˈboka"],
-    es_an: ["boca", "ˈboka"]
+    es_an: ["boca", "ˈboka"],
+    kam: ["kanywa", "kaɲwa"],
+    rbb: ["mojɁ", "mojʔ"]
   }
 };

@@ -907,6 +907,8 @@ WORDS.wind = {
     hot: ["lovak", "lovak"],
     nha: ["uudinu", "uudinu"],
     naq: ["ǂoab", "ǂoab"],
-    nmf: ["masi", "masi"]
+    nmf: ["masi", "masi"],
+    gum: ["isik", "isik"],
+    yao: ["mbungo", "mbuŋɡo"]
   },
 };

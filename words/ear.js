@@ -1054,6 +1054,7 @@ WORDS.ear = {
     kjg: ["rəməj", "rəməj"],
     kos: ["srwac", "ʂwɛ"],
     ksb: ["shikio", "ʃikio"],
-    tsi: ["muk", "muk"]
+    tsi: ["muk", "muk"],
+    yao: ["liwiwi", "liwiwi"]
   },
 };

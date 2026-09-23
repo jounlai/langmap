@@ -493,6 +493,13 @@ WORDS.green = {
     wo: ["wert", "wɛrt"],
     sn: ["girini", "ɡirini"],
     ts: ["rihlaza", "riɬaza"],
-    dyu: ["binkɛnɛman", "binkɛnɛman"]
+    dyu: ["binkɛnɛman", "binkɛnɛman"],
+    ar_sy: ["أخضر", "ˈʔaxdˤar"],
+    ar_lb: ["أخضر", "ˈʔaxdˤar"],
+    nl_be: ["groen", "ɣrun"],
+    ja_hak: ["緑", "midoɾi"],
+    ja_hir: ["緑", "midoɾi"],
+    wuu_hz: ["绿", "loʔ˩˨"],
+    wuu_jx: ["绿", "loʔ˩˨"]
   }
 };

@@ -783,6 +783,10 @@ WORDS.black = {
     bal: ["سیاہ", "sjaːh"],
     syl: ["কালা", "xala"],
     ctg: ["হালা", "hala"],
-    bhb: ["काळु", "kaːɭu"]
+    bhb: ["काळु", "kaːɭu"],
+    nl_be: ["zwart", "zwɑrt"],
+    zh_jn: ["黑", "xei˨˩˧"],
+    zh_xa: ["黑", "xei˨˩"],
+    zh_kf: ["黑", "xei˨˦"]
   },
 };

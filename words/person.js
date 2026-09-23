@@ -559,6 +559,15 @@ WORDS.person = {
     st: ["motho", "motʰo"],
     wo: ["nit", "nit"],
     rw: ["umuntu", "umuntu"],
-    ts: ["munhu", "munʱu"]
+    ts: ["munhu", "munʱu"],
+    ar_sy: ["شخص", "ʃaxsˤ"],
+    ar_lb: ["شخص", "ʃaxsˤ"],
+    nl_be: ["mens", "mɛns"],
+    de_ch: ["Mensch", "mɛnʃ"],
+    jvn: ["wong", "wɔŋ"],
+    en_yk: ["person", "ˈpɜːsən"],
+    en_ck: ["person", "ˈpɜːsən"],
+    en_scouse: ["person", "ˈpɜːsən"],
+    nan_pn: ["人", "laŋ˨˨"]
   }
 };

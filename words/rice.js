@@ -379,6 +379,20 @@ WORDS.rice = {
     wo: ["ceeb", "tʃeːb"],
     sn: ["mupunga", "mupuŋɡa"],
     rn: ["umuceri", "umutʃeri"],
-    ts: ["rhayisi", "rajisi"]
+    ts: ["rhayisi", "rajisi"],
+    nl_be: ["rijst", "rɛist"],
+    ja_hak: ["米", "kome"],
+    ja_kyo: ["米", "kome"],
+    ja_hir: ["米", "kome"],
+    ko_yb: ["쌀", "s͈al"],
+    jvn: ["beras", "bəras"],
+    nan_pn: ["米", "bi˥˧"],
+    zh_cq: ["米", "mi˦˨"],
+    zh_jn: ["米", "mi˥˥"],
+    zh_km: ["米", "mi˥˧"],
+    zh_xa: ["米", "mi˥˧"],
+    wuu_jx: ["米", "mi˨˧"],
+    zh_cd: ["米", "mi˥˧"],
+    zh_kf: ["米", "mi˥˧"]
   }
 };

@@ -309,6 +309,9 @@ WORDS.chocolate = {
     rw: ["shokora", "ʃokora"],
     sn: ["chokoreti", "tʃokoreti"],
     ts: ["chokoleti", "tʃokoleti"],
-    dyu: ["sokola", "sokola"]
+    dyu: ["sokola", "sokola"],
+    es_uy: ["chocolate", "tʃokoˈlate"],
+    ar_sy: ["شكلاة", "ʃukuˈlaː"],
+    es_cu: ["chocolate", "tʃokoˈlate"]
   }
 };

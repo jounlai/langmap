@@ -813,6 +813,7 @@ WORDS.wheel = {
     cjy: ["轮子", "luŋ˩ tsəʔ"],
     bal: ["پرگ", "parraɡ"],
     rkt: ["চাকা", "tʃaka"],
-    dyu: ["mɔbilisen", "mɔbilisen"]
+    dyu: ["mɔbilisen", "mɔbilisen"],
+    jvn: ["rodha", "rɔɖɔ"]
   },
 };

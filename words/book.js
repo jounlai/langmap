@@ -491,6 +491,22 @@ WORDS.book = {
     rw: ["igitabo", "iɡitabo"],
     rn: ["igitabo", "iɡitabo"],
     ts: ["buku", "buku"],
-    dyu: ["gafe", "ɡafe"]
+    dyu: ["gafe", "ɡafe"],
+    es_ec: ["libro", "ˈliβɾo"],
+    ar_sy: ["كتاب", "ktaːb"],
+    en_wls: ["book", "bʊk"],
+    pt_mz: ["livro", "ˈlivɾu"],
+    pt_cv: ["livro", "ˈlivɾu"],
+    nl_be: ["boek", "buk"],
+    de_ch: ["Buch", "buːx"],
+    ja_hak: ["本", "hoɴ"],
+    ja_kyo: ["本", "hoɴ"],
+    ja_hir: ["本", "hoɴ"],
+    ko_yb: ["책", "tɕʰɛk"],
+    de_at: ["Buch", "buːx"],
+    en_yk: ["book", "bʊk"],
+    en_ck: ["book", "bʊk"],
+    ko_hg: ["책", "tɕʰɛk"],
+    wuu_jx: ["书", "sz̩˥˧"]
   }
 };

@@ -626,6 +626,12 @@ WORDS.mouth = {
     st: ["molomo", "molomo"],
     wo: ["gémmiñ", "ɡemːiɲ"],
     rw: ["akanwa", "akanwa"],
-    ts: ["nomu", "nomu"]
+    ts: ["nomu", "nomu"],
+    en_wls: ["mouth", "maʊθ"],
+    nl_be: ["mond", "mɔnt"],
+    de_ch: ["Mund", "mʊnt"],
+    en_yk: ["mouth", "maʊθ"],
+    en_scouse: ["mouth", "maʊθ"],
+    wuu_jx: ["嘴", "tsz̩˧˩˧"]
   }
 };

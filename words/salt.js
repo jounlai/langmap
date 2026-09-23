@@ -1124,6 +1124,7 @@ WORDS.salt = {
     uby: ["ǯʲə", "dʒʲə"],
     ets: ["umeri", "umeri"],
     kry: ["qʼel", "qʼel"],
-    bhb: ["लूण", "luːɳ"]
+    bhb: ["लूण", "luːɳ"],
+    wuu_jx: ["盐", "ɦi˨˧"]
   },
 };

@@ -296,6 +296,14 @@ WORDS.silk = {
     rw: ["hariri", "hariri"],
     sn: ["sirika", "sirika"],
     rn: ["ihariri", "ihariri"],
-    ts: ["silika", "silika"]
+    ts: ["silika", "silika"],
+    es_ec: ["seda", "ˈseða"],
+    es_uy: ["seda", "ˈseða"],
+    en_wls: ["silk", "sɪlk"],
+    nl_be: ["zijde", "ˈzɛidə"],
+    ko_yb: ["비단", "pidan"],
+    en_yk: ["silk", "sɪlk"],
+    ko_hg: ["비단", "pidan"],
+    wuu_jx: ["丝", "sz̩˥˧"]
   }
 };

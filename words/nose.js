@@ -992,6 +992,7 @@ WORDS.nose = {
     guc: ["eʼichi", "eʔitʃi"],
     mch: ["önna", "ənna"],
     zh_jh: ["鼻子", "piʔ˥˥ tsɿ"],
-    mnp: ["鼻", "pʰi˥˥"]
+    mnp: ["鼻", "pʰi˥˥"],
+    zh_nj: ["鼻子", "pi˧˥ tsɿ"]
   },
 };

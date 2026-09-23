@@ -357,5 +357,8 @@ WORDS.atsign = {
     en_wls: ["at", "at"],
     en_yk: ["at", "at"],
     en_ck: ["at", "æt"],
+    nl_be: ["apenstaartje", "ˈaːpənstaːrtjə"],
+    ko_kp: ["골뱅이", "kolbɛŋi"],
+    vi_s: ["a còng", "aː˧ kɔŋ˨˩"]
   },
 };

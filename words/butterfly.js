@@ -436,6 +436,15 @@ WORDS.butterfly = {
     rkt: ["চিতি", "tʃiti"],
     ln: ["lipekápeka", "lipekápeka"],
     bm: ["nfirinfirinin", "nfirinfirinin"],
-    dyu: ["firinfirin", "firinfirin"]
+    dyu: ["firinfirin", "firinfirin"],
+    es_gt: ["mariposa", "maɾiˈposa"],
+    es_ec: ["mariposa", "maɾiˈposa"],
+    es_uy: ["mariposa", "maɾiˈposa"],
+    en_wls: ["butterfly", "ˈbʌtəflaɪ"],
+    nl_be: ["vlinder", "ˈvlɪndər"],
+    ja_hak: ["蝶", "tɕoː"],
+    ja_kyo: ["蝶", "tɕoː"],
+    ja_hir: ["蝶", "tɕoː"],
+    jvn: ["kupu", "kupu"]
   },
 };

@@ -629,6 +629,13 @@ WORDS.head = {
     rw: ["umutwe", "umutwe"],
     sn: ["musoro", "musoro"],
     ts: ["nhloko", "nɬoko"],
-    dyu: ["kunkolo", "kunkolo"]
+    dyu: ["kunkolo", "kunkolo"],
+    nl_be: ["hoofd", "ɦoːft"],
+    ca_va: ["cap", "kap"],
+    ja_hak: ["頭", "atama"],
+    ja_hir: ["頭", "atama"],
+    jvn: ["sirah", "sirah"],
+    hak_hl: ["頭那", "tʰeu˥˥ na˥˥"],
+    wuu_hz: ["头", "dei˩˧"]
   },
 };

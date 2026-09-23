@@ -621,6 +621,10 @@ WORDS.new = {
     sn: ["itsva", "itsva"],
     rn: ["nshasha", "nʃaʃa"],
     ts: ["ntshwa", "ntsʰwa"],
-    dyu: ["kura", "kura"]
+    dyu: ["kura", "kura"],
+    nl_be: ["nieuw", "niːw"],
+    hyw: ["նոր", "noɾ"],
+    jvn: ["anyar", "aɲar"],
+    zh_nj: ["新", "ɕin˧˩"]
   },
 };

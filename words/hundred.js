@@ -852,6 +852,8 @@ WORDS.hundred = {
     ctg: ["একশ", "ekʃɔ"],
     bhb: ["सो", "soː"],
     rkt: ["একশ", "ekso"],
-    ff: ["teemedere", "teːmedeɾe"]
+    ff: ["teemedere", "teːmedeɾe"],
+    ko_yb: ["백", "pɛk̚"],
+    ko_hg: ["백", "pɛk̚"]
   },
 };

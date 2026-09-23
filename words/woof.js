@@ -230,5 +230,16 @@ WORDS.woof = {
     en_wls: ["woof", "wʊf"],
     en_yk: ["woof", "wʊf"],
     en_ck: ["woof", "wʊf"],
+    nl_be: ["waf waf", "wɑf wɑf"],
+    ja_hak: ["ワンワン", "waɴwaɴ"],
+    ja_kyo: ["ワンワン", "waɴwaɴ"],
+    ja_hir: ["ワンワン", "waɴwaɴ"],
+    ko_kp: ["멍멍", "mʌŋmʌŋ"],
+    ko_yb: ["멍멍", "mʌŋmʌŋ"],
+    vi_s: ["gâu gâu", "ɣəw˧ ɣəw˧"],
+    zh_sc: ["汪汪", "wan˥ wan˥"],
+    zh_cq: ["汪汪", "waŋ˥ waŋ˥"],
+    zh_xa: ["汪汪", "vaɣ̃˨˩ vaɣ̃˨˩"],
+    zh_cd: ["汪汪", "wan˥˥ wan˥˥"]
   },
 };

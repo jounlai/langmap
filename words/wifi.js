@@ -137,6 +137,15 @@ WORDS.wifi = {
     es_co: ["wifi", "ˈwifi"],
     es_cl: ["wifi", "ˈwifi"],
     es_ar: ["wifi", "ˈwifi"],
-    es_pe: ["wifi", "ˈwifi"]
+    es_pe: ["wifi", "ˈwifi"],
+    es_uy: ["wifi", "ˈwifi"],
+    en_wls: ["Wi-Fi", "ˈwaɪfaɪ"],
+    nl_be: ["wifi", "ˈwifi"],
+    ko_kp: ["와이파이", "waipʰai"],
+    ko_yb: ["와이파이", "waipʰai"],
+    zh_db: ["Wi-Fi", "waɪ̯˥ faɪ̯˥˩"],
+    en_yk: ["Wi-Fi", "ˈwaɪfaɪ"],
+    en_scouse: ["Wi-Fi", "ˈwaɪfaɪ"],
+    ko_hg: ["와이파이", "waipʰai"]
   }
 };

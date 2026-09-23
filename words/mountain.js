@@ -474,6 +474,18 @@ WORDS.mountain = {
     st: ["thaba", "tʰaba"],
     wo: ["tangor", "taŋɡor"],
     rw: ["umusozi", "umusozi"],
-    ts: ["ntshava", "ntsʰava"]
+    ts: ["ntshava", "ntsʰava"],
+    en_wls: ["mountain", "ˈmaʊntɪn"],
+    nl_be: ["berg", "bɛrx"],
+    de_ch: ["Berg", "bɛrk"],
+    ja_hak: ["山", "jama"],
+    ja_hir: ["山", "jama"],
+    hyw: ["սար", "sɑr"],
+    jvn: ["gunung", "ɡunuŋ"],
+    en_yk: ["mountain", "ˈmaʊntɪn"],
+    zh_jn: ["山", "ʂan˨˩˧"],
+    wuu_jx: ["山", "sɛ˥˧"],
+    zh_cd: ["山", "san˥˥"],
+    zh_nj: ["山", "ʂan˧˩"]
   }
 };

@@ -160,6 +160,7 @@ const MIXED_OK = {
   mn_cn: "Inner Mongolian: 1 Cyrillic among 54 Mongolian script.",
   yue: "Cantonese: 2 Latin among 66 Han — atsign (at) and the Wi-Fi loan, both written in Latin in Cantonese text.",
   zh: "Mandarin: 1 Latin among 85 Han — the Wi-Fi loan, written in Latin in Chinese text (read wāi-fài).",
+  zh_db: "Northeastern Mandarin: 1 Latin among 76 Han — the same Wi-Fi loan as `zh`, and\n         for the same reason. The row only started reporting when round 9 filled nine of\n         its Han cells and settled which script it is in; the Latin cell was always there.",
   // These four write the Wi-Fi loan in Latin even though the row is otherwise
   // native-script and the reading is native (Japanese wai-fai, Russian vajfaj,
   // etc.). The everyday written form really is "Wi-Fi"; see words/wifi.js.

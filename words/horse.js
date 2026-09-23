@@ -528,6 +528,11 @@ WORDS.horse = {
     wo: ["fas", "fas"],
     sn: ["bhiza", "biza"],
     rn: ["ifarashi", "ifaraʃi"],
-    ts: ["hanci", "hantʃi"]
+    ts: ["hanci", "hantʃi"],
+    nl_be: ["paard", "paːrt"],
+    ko_yb: ["말", "mal"],
+    jvn: ["jaran", "dʒaran"],
+    en_scouse: ["horse", "hɔːs"],
+    ko_hg: ["말", "mal"]
   }
 };

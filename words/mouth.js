@@ -545,6 +545,17 @@ WORDS.mouth = {
     es_pe: ["boca", "ˈboka"],
     es_ar: ["boca", "ˈboka"],
     es_cl: ["boca", "ˈboka"],
-    es_cu: ["boca", "ˈboka"]
+    es_cu: ["boca", "ˈboka"],
+    es_do: ["boca", "ˈboka"],
+    es_gt: ["boca", "ˈboka"],
+    es_ec: ["boca", "ˈboka"],
+    es_uy: ["boca", "ˈboka"],
+    fr_sn: ["bouche", "buʃ"],
+    fr_ci: ["bouche", "buʃ"],
+    fr_ht: ["bouche", "buʃ"],
+    en_us: ["mouth", "maʊθ"],
+    de_at: ["Mund", "mʊnt"],
+    en_manc: ["mouth", "maʊθ"],
+    fr_af: ["bouche", "buʃ"]
   }
 };

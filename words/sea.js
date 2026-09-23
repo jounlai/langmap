@@ -382,6 +382,16 @@ WORDS.sea = {
     es_pe: ["mar", "maɾ"],
     es_ar: ["mar", "maɾ"],
     es_cl: ["mar", "maɾ"],
-    es_cu: ["mar", "maɾ"]
+    es_cu: ["mar", "maɾ"],
+    kmc: ["hɐi13", "hɐi˩˧"],
+    es_gt: ["mar", "maɾ"],
+    es_ec: ["mar", "maɾ"],
+    es_uy: ["mar", "maɾ"],
+    en_wls: ["sea", "siː"],
+    fr_sn: ["mer", "mɛʁ"],
+    fr_ci: ["mer", "mɛʁ"],
+    fr_ht: ["mer", "mɛʁ"],
+    en_est: ["sea", "siː"],
+    fr_af: ["mer", "mɛʁ"]
   }
 };

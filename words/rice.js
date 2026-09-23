@@ -330,5 +330,9 @@ WORDS.rice = {
     pon: ["rais", "rais"],
     prs: ["برنج", "birindʒ"],
     ps: ["وريژې", "wriʒe"],
+    fr_sn: ["riz", "ʁi"],
+    fr_ci: ["riz", "ʁi"],
+    fr_ht: ["riz", "ʁi"],
+    fr_af: ["riz", "ʁi"]
   }
 };

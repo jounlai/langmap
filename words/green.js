@@ -434,6 +434,13 @@ WORDS.green = {
     es_cl: ["verde", "ˈbeɾðe"],
     es_cu: ["verde", "ˈbeɾðe"],
     fr_be: ["vert", "vɛʁ"],
-    fr_ch: ["vert", "vɛʁ"]
+    fr_ch: ["vert", "vɛʁ"],
+    es_gt: ["verde", "ˈbeɾðe"],
+    es_ec: ["verde", "ˈbeɾðe"],
+    es_uy: ["verde", "ˈbeɾðe"],
+    fr_sn: ["vert", "vɛʁ"],
+    fr_ci: ["vert", "vɛʁ"],
+    fr_ht: ["vert", "vɛʁ"],
+    fr_af: ["vert", "vɛʁ"]
   }
 };

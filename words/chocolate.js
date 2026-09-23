@@ -276,6 +276,18 @@ WORDS.chocolate = {
     ota: ["چوقولاته", "tʃokoɫata"],
     pam: ["suklati", "sukˈlati"],
     pap: ["chukulati", "tʃukuˈlati"],
-    pdt: ["Schaklitz", "ˈʃaklɪts"]
+    pdt: ["Schaklitz", "ˈʃaklɪts"],
+    ar_lb: ["شكلاة", "ʃukuˈlaː"],
+    en_wls: ["chocolate", "ˈtʃɒklət"],
+    fr_sn: ["chocolat", "ʃɔkɔˈla"],
+    fr_ci: ["chocolat", "ʃɔkɔˈla"],
+    fr_ht: ["chocolat", "ʃɔkɔˈla"],
+    es_mx: ["chocolate", "tʃokoˈlate"],
+    en_yk: ["chocolate", "ˈtʃɒklət"],
+    fr_af: ["chocolat", "ʃɔkɔˈla"],
+    es_co: ["chocolate", "tʃokoˈlate"],
+    es_cl: ["chocolate", "tʃokoˈlate"],
+    es_ar: ["chocolate", "tʃokoˈlate"],
+    es_pe: ["chocolate", "tʃokoˈlate"]
   }
 };

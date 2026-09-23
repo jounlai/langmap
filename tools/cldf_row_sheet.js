@@ -20,6 +20,15 @@
  *   node tools/cldf_row_sheet.js --top 40     rows ranked by how many
  *                                             concepts are reachable at once
  *   node tools/cldf_row_sheet.js orh          the sheet for one row
+ *   node tools/cldf_row_sheet.js --sheets DIR --top 60
+ *                                             the top 60 sheets, one file per
+ *                                             row, from a SINGLE scan
+ *
+ * The last form exists because the scan is the whole cost: reading 48 datasets
+ * takes about six seconds and is identical no matter which row is being asked
+ * about, so sixty rows one at a time is six minutes of re-reading the same
+ * CSVs. Written out as files they can also be handed to parallel reviewers,
+ * which is the only way the 2,039 reachable pairs get looked at this decade.
  *
  * The sheet prints, per concept: the candidate(s), and the cell the row
  * already holds for a NEIGHBOURING concept so the conversion can be read off
@@ -76,6 +85,7 @@ function main() {
     const args = process.argv.slice(2);
     const one = args.find((a) => !a.startsWith('--'));
     const top = args.includes('--top') ? Number(args[args.indexOf('--top') + 1]) || 40 : 0;
+    const sheetDir = args.includes('--sheets') ? args[args.indexOf('--sheets') + 1] : null;
 
     const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/wordmap_seo.json'), 'utf8'));
     const concepts = fillingIn();
@@ -136,6 +146,42 @@ function main() {
                 byF.get(form).add(ds);
             }
         }
+    }
+
+    /** One row's sheet as text. Shared by the single-row path and --sheets so
+     *  a reviewer reading a file and a reviewer reading a terminal are looking
+     *  at exactly the same thing. */
+    const render = (code) => {
+        const lang = data.langs[code];
+        const byC = sheet.get(code);
+        const out = [`${code}  ${lang.name}`,
+            `family  ${(lang.meta && lang.meta.family) || ''}`];
+        const held = Object.entries(lang.words || {})
+            .filter(([, e]) => e && e[0] && e[0] !== '\u2014' && e[1])
+            .slice(0, 18)
+            .map(([k, e]) => `${k}=${e[0]}/${e[1]}`);
+        out.push('', 'THE ROW ALREADY WRITES', `  ${held.join('\n  ')}`);
+        if (!byC || !byC.size) { out.push('', 'no candidates'); return out.join('\n'); }
+        out.push('', `CANDIDATES (${byC.size} concepts)`);
+        for (const [concept, forms] of [...byC].sort()) {
+            const list = [...forms].map(([f, ds]) =>
+                `${f}${ds.size >= 2 ? ' **' : ''} [${[...ds].join(',')}]`).join('   ');
+            out.push(`  ${concept.padEnd(11)}${list}`);
+        }
+        return out.join('\n');
+    };
+
+    if (sheetDir) {
+        fs.mkdirSync(sheetDir, { recursive: true });
+        const ranked = [...sheet.entries()]
+            .map(([code, byC]) => [byC.size, code])
+            .sort((a, b) => b[0] - a[0])
+            .slice(0, top || sheet.size);
+        for (const [, code] of ranked) {
+            fs.writeFileSync(path.join(sheetDir, `${code}.txt`), `${render(code)}\n`);
+        }
+        console.log(`${ranked.length} sheets written to ${sheetDir}`);
+        return;
     }
 
     if (top) {

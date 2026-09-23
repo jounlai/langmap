@@ -567,6 +567,7 @@ WORDS.head = {
     ko_yb: ["머리", "mʌɾi"],
     ko_hg: ["머리", "məri"],
     ko_jl: ["머리", "məri"],
-    ja_kyo: ["頭", "atama"]
+    ja_kyo: ["頭", "atama"],
+    de_at: ["Kopf", "kɔpf"]
   },
 };

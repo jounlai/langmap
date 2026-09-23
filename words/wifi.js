@@ -126,5 +126,17 @@ WORDS.wifi = {
     id: ["Wi-Fi", "ˈwifi"],
     ms: ["Wi-Fi", "ˈwifi"],
     sw: ["Wi-Fi", "ˈwifi"],
+    es_do: ["wifi", "ˈwajfaj"],
+    es_gt: ["wifi", "ˈwajfaj"],
+    es_ec: ["wifi", "ˈwajfaj"],
+    fr_sn: ["wifi", "wifi"],
+    fr_ci: ["wifi", "wifi"],
+    fr_ht: ["wifi", "wifi"],
+    en_manc: ["Wi-Fi", "ˈwaɪfaɪ"],
+    fr_af: ["wifi", "wifi"],
+    es_co: ["wifi", "ˈwifi"],
+    es_cl: ["wifi", "ˈwifi"],
+    es_ar: ["wifi", "ˈwifi"],
+    es_pe: ["wifi", "ˈwifi"]
   }
 };

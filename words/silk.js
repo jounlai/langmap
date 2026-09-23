@@ -232,5 +232,14 @@ WORDS.silk = {
     pi: ["कोसिय", "kosija"],
     pi_edu: ["kosiya", "kosija"],
     pms: ["seda", "ˈseda"],
+    fr_sn: ["soie", "swa"],
+    fr_ci: ["soie", "swa"],
+    fr_ht: ["soie", "swa"],
+    en_ca: ["silk", "sɪlk"],
+    en_brum: ["silk", "sɪlk"],
+    en_manc: ["silk", "sɪlk"],
+    fr_af: ["soie", "swa"],
+    es_co: ["seda", "ˈseða"],
+    es_pe: ["seda", "ˈseða"]
   }
 };

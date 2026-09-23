@@ -833,6 +833,7 @@ WORDS.hundred = {
     bjn: ["saratus", "saratus"],
     nij: ["saratus", "saratus"],
     xog: ["kikumi", "kikumi"],
-    ja_kyo: ["百", "hʲaku"]
+    ja_kyo: ["百", "hʲaku"],
+    mhy: ["jatuh", "jatuh"]
   },
 };

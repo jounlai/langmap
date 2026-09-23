@@ -393,6 +393,12 @@ WORDS.butterfly = {
     mfe: ["papiyon", "papijɔ̃"],  // from French papillon
     tiw: ["kwarikwaringa", "kʷaɾikʷaɾiŋa"],  // a reduplication (kwari-kwari-), and the same word covers moths
     roo: ["kokopuoto", "kokopuoto"],  // also covers moths; the dictionary keeps separate words for a large butterfly (torouke) and for the larva (opesoto) and pupa (varuvuakoto)
-    cbk: ["mariposa", "maɾiˈposa"],  // from Spanish mariposa; the same dictionary records it for Zamboanga and Cavite, with Ternate partly using paruparu (from Tagalog)
+    cbk: ["mariposa", "maɾiˈposa"],  // from Spanish mariposa; the same dictionary records it for Zamboanga and Cavite, with Ternate partly using paruparu (from Tagalog),
+    fr_sn: ["papillon", "papijɔ̃"],
+    fr_ci: ["papillon", "papijɔ̃"],
+    fr_ht: ["papillon", "papijɔ̃"],
+    fr_af: ["papillon", "papijɔ̃"],
+    es_co: ["mariposa", "maɾiˈposa"],
+    es_pe: ["mariposa", "maɾiˈposa"]
   },
 };

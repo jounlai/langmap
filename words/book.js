@@ -416,6 +416,20 @@ WORDS.book = {
     nd: ["incwadi", "iŋǀʷadi"],   // Wiktionary's Northern Ndebele entry glosses it only 'book'; see the nbl note for the rest.
     pcm: ["buk", "buk"],
     nmf: ["lairik", "lairik"],
-    nzm: ["leisi", "leisi"]
+    nzm: ["leisi", "leisi"],
+    ar_lb: ["كتاب", "ktaːb"],
+    fr_sn: ["livre", "livʁ"],
+    fr_ci: ["livre", "livʁ"],
+    fr_ht: ["livre", "livʁ"],
+    en_us: ["book", "bʊk"],
+    en_ca: ["book", "bʊk"],
+    en_brum: ["book", "bʊk"],
+    en_manc: ["book", "bʊk"],
+    en_est: ["book", "bʊk"],
+    fr_af: ["livre", "livʁ"],
+    es_co: ["libro", "ˈliβɾo"],
+    es_cl: ["libro", "ˈliβɾo"],
+    es_ar: ["libro", "ˈliβɾo"],
+    es_pe: ["libro", "ˈliβɾo"]
   }
 };

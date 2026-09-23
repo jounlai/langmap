@@ -484,6 +484,15 @@ WORDS.person = {
     ko_yb: ["사람", "saɾam"],
     ko_hg: ["사람", "saram"],
     ko_jl: ["사람", "saram"],
-    ja_kyo: ["人", "çito"]
+    ja_kyo: ["人", "çito"],
+    kmc: ["ɲən212", "ɲən˨˩˨"],
+    en_wls: ["person", "ˈpɜːsən"],
+    fr_sn: ["personne", "pɛʁsɔn"],
+    fr_ci: ["personne", "pɛʁsɔn"],
+    fr_ht: ["personne", "pɛʁsɔn"],
+    de_at: ["Mensch", "mɛnʃ"],
+    fr_af: ["personne", "pɛʁsɔn"],
+    es_co: ["persona", "peɾˈsona"],
+    es_pe: ["persona", "peɾˈsona"]
   }
 };

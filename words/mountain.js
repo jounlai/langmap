@@ -408,6 +408,14 @@ WORDS.mountain = {
     es_pe: ["montaña", "monˈtaɲa"],
     es_ar: ["montaña", "monˈtaɲa"],
     es_cl: ["montaña", "monˈtaɲa"],
-    es_cu: ["montaña", "monˈtaɲa"]
+    es_cu: ["montaña", "monˈtaɲa"],
+    es_gt: ["montaña", "monˈtaɲa"],
+    es_ec: ["montaña", "monˈtaɲa"],
+    es_uy: ["montaña", "monˈtaɲa"],
+    fr_sn: ["montagne", "mɔ̃taɲ"],
+    fr_ci: ["montagne", "mɔ̃taɲ"],
+    fr_ht: ["montagne", "mɔ̃taɲ"],
+    en_manc: ["mountain", "ˈmaʊntɪn"],
+    fr_af: ["montagne", "mɔ̃taɲ"]
   }
 };

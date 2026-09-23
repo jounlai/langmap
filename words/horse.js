@@ -458,6 +458,12 @@ WORDS.horse = {
     kam: ["mbalasi", "mbalasi"],
     zh_cq: ["马", "ma˦˨"],
     xct: ["རྤ", "ta"],
-    xog: ["embalaasi", "embalaːsi"]
+    xog: ["embalaasi", "embalaːsi"],
+    es_ec: ["caballo", "kaˈβaʝo"],
+    en_wls: ["horse", "hɔːs"],
+    fr_sn: ["cheval", "ʃəˈval"],
+    fr_ht: ["cheval", "ʃəˈval"],
+    en_est: ["horse", "hɔːs"],
+    fr_af: ["cheval", "ʃəˈval"]
   }
 };

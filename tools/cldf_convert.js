@@ -37,6 +37,7 @@
  *
  *   node tools/cldf_convert.js myx            what the row's table looks like
  *   node tools/cldf_convert.js myx --apply    print cells ready to paste
+ *   node tools/cldf_convert.js myx --tsv      the same, as apply_cells.js input
  *   node tools/cldf_convert.js --scan 60      rows ranked by convertible count
  */
 
@@ -151,6 +152,43 @@ function writesChaoTone(lang) {
         if (/[\u02E5-\u02E9]/.test(e[1])) withTone++;
     }
     return total >= 10 && withTone / total >= 0.15;
+}
+
+/* A row that records NO TONE ANYWHERE cannot use the tone marks a dataset
+   writes, and they are the single commonest reason a candidate is blocked.
+   Asu is the case that forced this: the row has 39 cells, not one of which
+   carries a combining mark in either field and not one a Chao letter, while
+   the dataset offers black írù, four nè, mouth òmò, person ntù — every one
+   rejected for "no rule for ì", a rule the row will never have because the
+   row does not write tone.
+   The marks are therefore information this row does not keep, exactly as the
+   dataset's stress or length marks would be, and dropping them is the same
+   act as dropping any other unrecorded detail.
+   Measured, not assumed, and measured on BOTH fields: a row whose IPA carries
+   tone is keeping it and must not have it stripped, and the surface threshold
+   is a ratio for the reason marksStress() is — Central Cagayan Agta writes one
+   mark in 49 cells, Misak one in 49, Hadza one in 38, and one is a loan or a
+   proper name, not a convention. Twenty cells is the floor for saying a row
+   has a convention at all. */
+function recordsNoTone(lang) {
+    const MARK = /[\u0300\u0301\u0302\u0303\u0304\u030C\u0308]/;
+    let total = 0, ipaMark = 0, ipaChao = 0, surfMark = 0;
+    for (const e of Object.values(lang.words || {})) {
+        if (!e || !e[0] || e[0] === '—' || !e[1]) continue;
+        total++;
+        if (MARK.test(e[1].normalize('NFD'))) ipaMark++;
+        if (/[\u02E5-\u02E9]/.test(e[1])) ipaChao++;
+        if (MARK.test(e[0].normalize('NFD'))) surfMark++;
+    }
+    return total >= 20 && ipaMark === 0 && ipaChao === 0 && surfMark / total < 0.05;
+}
+
+/** Drop the combining marks recordsNoTone() licensed dropping. NFD first, so
+ *  a precomposed à and an a plus U+0300 are the same thing here. */
+function stripTone(form) {
+    return form.normalize('NFD')
+        .replace(/[\u0300\u0301\u0302\u0303\u0304\u030C\u0308]/g, '')
+        .normalize('NFC');
 }
 
 function learn(lang) {
@@ -365,10 +403,11 @@ function main() {
             const { table } = learn(lang);
             if (table.size < 8) continue;
             const known = bigrams(lang); const chao = writesChaoTone(lang);
+            const prep = recordsNoTone(lang) ? stripTone : (f) => f;
             let ok = 0;
             for (const [, forms] of sheetFor(code, data)) {
                 if (forms.length !== 1) continue;
-                const r = convert(forms[0], table, known, chao);
+                const r = convert(prep(forms[0]), table, known, chao);
                 if (r.ipa) ok++;
             }
             if (ok) out.push([ok, code, lang.name]);
@@ -405,15 +444,27 @@ function main() {
         }
     }
 
-    console.log(`${args.includes('--apply') ? '' : '\n'}CANDIDATES`);
+    /* --tsv emits what apply_cells.js reads, so a reviewed sheet goes into
+       the tree without a hand-transcription step in between. --apply keeps
+       printing the JS line, which is what a person pasting one cell wants. */
+    const tsv = args.includes('--tsv');
+    const quiet = tsv || args.includes('--apply');
+    const prep = recordsNoTone(lang) ? stripTone : (f) => f;
+    if (!quiet && recordsNoTone(lang)) {
+        console.log('\nThis row records no tone in either field, so combining marks'
+            + ' are stripped from candidates before conversion — see recordsNoTone().');
+    }
+    console.log(`${quiet ? '' : '\n'}CANDIDATES`);
     for (const [concept, forms] of sheetFor(code, data)) {
         if (forms.length !== 1) {
-            if (!args.includes('--apply')) console.log(`  ${concept.padEnd(11)}(${forms.length} candidates — resolve by hand)`);
+            if (!quiet) console.log(`  ${concept.padEnd(11)}(${forms.length} candidates — resolve by hand)`);
             continue;
         }
-        const r = convert(forms[0], table, bigrams(lang), writesChaoTone(lang));
-        if (r.ipa) console.log(`    ${code}: ["${forms[0]}", "${r.ipa}"],   // ${concept}`);
-        else if (!args.includes('--apply')) console.log(`  ${concept.padEnd(11)}BLOCKED ${forms[0]} — no rule for ${r.blocked.join(' ')}`);
+        const surface = prep(forms[0]);
+        const r = convert(surface, table, bigrams(lang), writesChaoTone(lang));
+        if (r.ipa && tsv) console.log(`${concept}\t${code}\t${surface}\t${r.ipa}`);
+        else if (r.ipa) console.log(`    ${code}: ["${surface}", "${r.ipa}"],   // ${concept}`);
+        else if (!quiet) console.log(`  ${concept.padEnd(11)}BLOCKED ${forms[0]} — no rule for ${r.blocked.join(' ')}`);
     }
 }
 

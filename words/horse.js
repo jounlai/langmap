@@ -491,6 +491,13 @@ WORDS.horse = {
     shp: ["kabayo", "kabajo"],
     clk: ["mɑ55ɹoŋ53", "mɑ˥˥ɹoŋ˥˧"],
     jam: ["aas", "aːs"],
-    se: ["heasta", "ˈheɑsta"]
+    se: ["heasta", "ˈheɑsta"],
+    swi: ["ma4", "ma˥˩"],
+    enf: ["dyuda", "dʲuda"],
+    jiu: ["mjo33", "mjo˧˧"],
+    rtm: ["hạsu", "hɔsu"],
+    agr: ["kawayu", "kawaju"],
+    kek: ["kawaay", "kawaːj"],
+    acu: ["kawai", "kawai"]
   }
 };

@@ -405,6 +405,7 @@ WORDS.butterfly = {
     es_sgl: ["mariposa", "maɾiˈposa"],
     tem: ["atatka", "atatka"],
     fr_class: ["papillon", "papiˈʎɔ̃"],
-    cni: ["tsampi", "tsampi"]
+    cni: ["tsampi", "tsampi"],
+    enf: ["leblyuku", "ʎɛbʎuku"]
   },
 };

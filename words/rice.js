@@ -340,6 +340,9 @@ WORDS.rice = {
     mmd: ["u5", "u˦˦"],
     fr_class: ["riz", "ri"],
     orh: ["kandu", "kandu"],
-    tzo: ["aros", "aros"]
+    tzo: ["aros", "aros"],
+    swi: ["ʔau4", "ʔau˥˩"],
+    rtm: ["raisi", "raisi"],
+    kek: ["aros", "aros"]
   }
 };

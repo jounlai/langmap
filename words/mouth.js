@@ -589,6 +589,8 @@ WORDS.mouth = {
     shp: ["këxa", "kɨʂa"],
     clk: ["e55ko55be53", "e˥˥ko˥˥be˥˧"],
     prg: ["austo", "au̯sto"],
-    se: ["njálbmi", "ˈɲaːlpmi"]
+    se: ["njálbmi", "ˈɲaːlpmi"],
+    jiu: ["mø33mø33", "mø˧˧mø˧˧"],
+    rtm: ["nuju", "nutʃu"]
   }
 };

@@ -994,6 +994,6 @@ WORDS.daughter = {
     otq: ["tꞌinxu", "tʼinʃu"],
     toc: ["tsumát", "tsuˈmat"],
     tar: ["mará", "maˈɾa"],
-
+    swi: ["laak8 ʔbjaak7", "laːk˦˨ ʔbjaːk˧˥"]
   },
 };

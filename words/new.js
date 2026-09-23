@@ -577,6 +577,9 @@ WORDS.new = {
     yiz: ["ɕi", "ɕi˨˩"],
     rmf: ["neevo", "neːvo"],
     tzo: ["achʼ", "atʃʼ"],
-    clk: ["me55eŋ55", "me˥˥eŋ˥˥"]
+    clk: ["me55eŋ55", "me˥˥eŋ˥˥"],
+    sog: ["nawē", "naweː"],
+    chk: ["ffé", "fːe"],
+    acu: ["yamaram", "jamaɾam"]
   },
 };

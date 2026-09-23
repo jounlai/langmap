@@ -438,6 +438,8 @@ WORDS.mountain = {
     shp: ["mana", "mana"],
     clk: ["mɑ31jɒ35", "mɑ˧˩jɒ˧˥"],
     prg: ["grabis", "ɡrabis"],
-    se: ["várri", "ˈvaːrːi"]
+    se: ["várri", "ˈvaːrːi"],
+    jiu: ["ɣɯ31tha55", "ɣɯ˧˩tʰa˥˥"],
+    trv: ["dgiyaq", "dɡijaq"]
   }
 };

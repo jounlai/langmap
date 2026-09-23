@@ -840,6 +840,9 @@ WORDS.hundred = {
     cng: ["khiʴ", "kʰiʴ"],
     ote: ["nthebe", "ntʰebe"],
     orh: ["ɲamaadʒɪ", "ɲamaadʒɪ"],
-    jam: ["ondred", "ɔndrɛd"]
+    jam: ["ondred", "ɔndrɛd"],
+    enf: ["dyur", "dʲur"],
+    kek: ["oʼkʼaal", "oʔkʼaːl"],
+    chk: ["ipwúkú", "ipʷɨkɨ"]
   },
 };

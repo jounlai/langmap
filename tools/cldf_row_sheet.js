@@ -49,6 +49,29 @@
  * The sheet cannot decide any of that. It can refuse to hide it, so it prints
  * the source's own wording whenever it differs from the concept.
  *
+ * `**` MEANS TWO INDEPENDENT SOURCES AGREE, AND INDEPENDENCE IS MEASURED,
+ * NOT ASSUMED. Two dataset names are not two sources. Measured by comparing
+ * every (ISO, concept) pair the two hold in common:
+ *
+ *     sabor / wold              7,028 shared, 7,028 byte-identical   100.0%
+ *     diacl / iecor             5,323 shared, 2,178 byte-identical    40.9%
+ *     huntergatherer / ids      6,491 shared, 2,006 byte-identical    30.9%
+ *
+ * sabor is WOLD repackaged — not overlapping, IDENTICAL, down to the curly
+ * apostrophe in Q'eqchi' xchu’i_keh. It is therefore treated as the same
+ * source and can never raise a `**` with wold. diacl/iecor and
+ * huntergatherer/ids are partly derivative rather than wholly, so a `**`
+ * between them is printed with a warning instead of being suppressed: a
+ * reviewer found huntergatherer:258 prints "(IDS)" in its Value column
+ * against every form because it reprints ids:174.
+ *
+ * Two lects inside ONE dataset were never corroboration either, and the tag
+ * already carries the dataset name so that case is handled by construction.
+ * For the extinct rows the whole idea inverts: Old Prussian's `**` pairs are
+ * two normalisations agreeing while the lone iecor:108 carries the attested
+ * Elbing spellings, so there `**` is a reason for suspicion. Agreement
+ * between two reconstructions is not attestation.
+ *
  * A FORM IS SHOWN WITH ITS RAW Value WHEN THE TWO DISAGREE. CLDF carries the
  * cleaned `Form` and the source's original `Value`, and some exports cut the
  * Form at an apostrophe. huntergatherer does it to 7,412 of its 64,607 forms
@@ -93,6 +116,29 @@ const path = require('path');
 
 const { datasets, parseCsv } = require('./cldf_cache');
 const ROOT = path.join(__dirname, '..');
+
+/** Datasets that are the same source under two names, so they can never
+ *  corroborate each other. See the measurement in the docstring. */
+const SAME_SOURCE = [['sabor', 'wold']];
+
+/** Datasets that partly reprint each other: a `**` between them is printed
+ *  with a warning rather than suppressed. */
+const PARTLY_DERIVED = [['diacl', 'iecor'], ['huntergatherer', 'ids']];
+
+/** Collapse a set of dataset names to one name per independent source. */
+function independent(dss) {
+    const out = new Set(dss);
+    for (const group of SAME_SOURCE) {
+        const hit = group.filter((g) => out.has(g));
+        if (hit.length > 1) for (const g of hit.slice(1)) out.delete(g);
+    }
+    return out;
+}
+
+/** Is this `**` between two datasets known to reprint each other in part? */
+function suspectPair(dss) {
+    return PARTLY_DERIVED.some((g) => g.every((x) => dss.has(x)));
+}
 
 /** The WIP core words. Read from the validator so the two cannot drift. */
 function fillingIn() {
@@ -235,7 +281,7 @@ function main() {
             const list = [...forms].map(([f, ds]) => {
                 /* ** means two INDEPENDENT datasets agree. Two lects inside one
                    dataset are one source and must not read as corroboration. */
-                const indep = new Set([...ds].map((t) => t.split(':')[0]));
+                const indep = independent([...ds].map((t) => t.split(':')[0]));
                 /* If any source's raw Value is longer than the cleaned Form,
                    show it: the Form may be an amputated word. */
                 const raws = new Set();
@@ -244,7 +290,8 @@ function main() {
                     if (v) raws.add(v);
                 }
                 const shown = raws.size ? `${f} ⟨${[...raws].join(' / ')}⟩` : f;
-                return `${shown}${indep.size >= 2 ? ' **' : ''} [${[...ds].join(',')}]`;
+                const mark = indep.size >= 2 ? (suspectPair(indep) ? ' **?' : ' **') : '';
+                return `${shown}${mark} [${[...ds].join(',')}]`;
             }).join('   ');
             out.push(`  ${concept.padEnd(11)}${list}`);
         }

@@ -445,6 +445,11 @@ WORDS.book = {
     pwn: ["sapitj", "sapitʲ"],
     tzo: ["vun", "vun"],
     clk: ["kɑ31ko55", "kɑ˧˩ko˥˥"],
-    se: ["girji", "ˈkirji"]
+    se: ["girji", "ˈkirji"],
+    swi: ["le1", "le˩˩"],
+    jiu: ["a33pjo33", "a˧˧pjo˧˧"],
+    rtm: ["puku", "puku"],
+    agr: ["papi", "papi"],
+    kek: ["hu", "hu"]
   }
 };

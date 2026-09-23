@@ -848,6 +848,7 @@ WORDS.snow = {
     gun: ["yroʼy api", "ɨɾoʔɨ api"], // Dooley, Léxico Guarani Mbyá — Neve, granizo fino
     gn: ["yrypyʼa veve", "ɨɾɨpɨʔa veve"], // neologism, lit. flying ice; yrypyʼa alone is hielo,
     nmf: ["horam", "horam"],
-    orh: ["ɪmana", "ɪmana"]
+    orh: ["ɪmana", "ɪmana"],
+    swi: ["ʔnui1", "ʔnui˩˩"]
   },
 };

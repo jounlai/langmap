@@ -409,6 +409,12 @@ WORDS.sea = {
     sga: ["muir", "murʲ"],
     mlm: ["hai3", "hai˥˧"],
     jam: ["si", "si"],
-    se: ["mearra", "ˈmeɑrːa"]
+    se: ["mearra", "ˈmeɑrːa"],
+    swi: ["haai3", "haːi˧˧"],
+    enf: ["more", "mɔrʲɛ"],
+    jiu: ["lɐ31mɔ33", "lɐ˧˩mɔ˧˧"],
+    agr: ["nayants", "najants"],
+    chk: ["sáát", "saːt"],
+    trv: ["gsilung", "ɡsiluŋ"]
   }
 };

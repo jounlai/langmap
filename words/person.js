@@ -507,6 +507,11 @@ WORDS.person = {
     mlm: ["śən1", "ɕən˦˨"],
     shp: ["joni", "honi"],
     tao: ["tao", "tao"],
-    se: ["olmmoš", "ˈolmːoʃ"]
+    se: ["olmmoš", "ˈolmːoʃ"],
+    swi: ["zən1", "zən˩˩"],
+    enf: ["enchi", "ɛntʃi"],
+    jiu: ["tshɐ35", "tsʰɐ˧˥"],
+    rtm: ["famori", "famori"],
+    kek: ["poyanam", "pojanam"]
   }
 };

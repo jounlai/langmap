@@ -453,6 +453,10 @@ WORDS.green = {
     srm: ["guúun", "ɡúːun"],
     clk: ["tiŋ55kɹiɑ55", "tiŋ˥˥kɹiɑ˥˥"],
     prg: ["saligan", "saliɡan"],
-    se: ["ruonas", "ˈruonas"]
+    se: ["ruonas", "ˈruonas"],
+    jiu: ["a33ny55", "a˧˧ny˥˥"],
+    sog: ["zarγōnē", "zarɣoːneː"],
+    trv: ["msama", "msama"],
+    acu: ["samek", "samek"]
   }
 };

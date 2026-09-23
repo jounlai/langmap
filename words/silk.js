@@ -248,6 +248,8 @@ WORDS.silk = {
     fr_class: ["soie", "swɛ"],
     clk: ["tʂhu35tsi53", "tʂʰu˧˥tsi˥˧"],
     jam: ["silk", "sɪlk"],
-    se: ["silki", "ˈsilki"]
+    se: ["silki", "ˈsilki"],
+    rtm: ["silika", "silika"],
+    kek: ["seda", "seda"]
   }
 };

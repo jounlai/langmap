@@ -824,6 +824,11 @@ WORDS.iron = {
     lic: ["go:i1", "ɡoːi˥˧"],
     yiz: ["xɯ", "xɯ˨˨"],
     orh: ["ʃələ", "ʃələ"],
-    blr: ["ʔa31 ŋak33", "ʔa˧˩ ŋak˧˧"]
+    blr: ["ʔa31 ŋak33", "ʔa˧˩ ŋak˧˧"],
+    swi: ["śət7", "ɕət˥˥"],
+    enf: ["byasi", "bʲasi"],
+    rtm: ["ʻia", "ʔia"],
+    kek: ["chʼiichʼ", "tʃʼiːtʃʼ"],
+    chk: ["mecha", "metʃa"]
   },
 };

@@ -1111,6 +1111,7 @@ WORDS.four = {
     bzg: ["naspat", "naspat"],
     pll: ["phon", "pʰon"],
     dru: ["səpatə", "səpatə"],
-    tsu: ["sʉptʉ", "səptə"]
+    tsu: ["sʉptʉ", "səptə"],
+    chk: ["fáán", "faːn"]
   },
 };

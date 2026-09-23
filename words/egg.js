@@ -902,6 +902,7 @@ WORDS.egg = {
     pll: ["kadam", "kaɗam"],
     agt: ["iklug", "ʔikluɡ"],
     ote: ["mädo", "mãdo"],
-    rmf: ["jaaro", "jaːro"]
+    rmf: ["jaaro", "jaːro"],
+    acu: ["nujin", "nuhin"]
   },
 };

@@ -589,6 +589,8 @@ WORDS.head = {
     fon: ["ta", "ta"],
     xlu: ["ḫarmaḫi-", "ˈxarmaxi"],
     tzo: ["jolol", "holol"],
-    clk: ["e55ko55ɹɑ55", "e˥˥ko˥˥ɹɑ˥˥"]
+    clk: ["e55ko55ɹɑ55", "e˥˥ko˥˥ɹɑ˥˥"],
+    jiu: ["vu33khɛ33", "vu˧˧kʰɛ˧˧"],
+    acu: ["muuk", "muːk"]
   },
 };

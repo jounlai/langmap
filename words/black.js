@@ -762,6 +762,10 @@ WORDS.black = {
     mch: ["hudumato", "hudumato"],
     tao: ["mavaheng", "mavahəŋ"],
     wmt: ["kurnkurn", "kuɳkuɳ"],
-    aae: ["i zi", "i zi"]
+    aae: ["i zi", "i zi"],
+    enf: ["polzeda", "pɔɫzʲɛda"],
+    sog: ["šāw", "ʃaːw"],
+    trv: ["mqalux", "mqalux"],
+    acu: ["shuwin", "ʃuwin"]
   },
 };

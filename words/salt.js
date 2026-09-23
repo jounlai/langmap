@@ -1123,6 +1123,7 @@ WORDS.salt = {
     yai: ["namak", "naˈmak"],
     uby: ["ǯʲə", "dʒʲə"],
     ets: ["umeri", "umeri"],
-    kry: ["qʼel", "qʼel"]
+    kry: ["qʼel", "qʼel"],
+    bhb: ["लूण", "luːɳ"]
   },
 };

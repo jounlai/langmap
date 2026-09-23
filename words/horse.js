@@ -516,6 +516,18 @@ WORDS.horse = {
     vi_c: ["ngựa", "ŋɨə˨˨"],
     th_isan: ["ม้า", "maː˦˥"],
     za: ["max", "maː˦˨"],
-    ug: ["ئات", "ɑt"]
+    ug: ["ئات", "ɑt"],
+    mag: ["घोड़ा", "ɡʱoːɽaː"],
+    hne: ["घोड़ा", "ɡʱoːɽaː"],
+    syl: ["ঘুড়া", "ɡuɾa"],
+    ctg: ["ঘোড়া", "ɡʱoɽa"],
+    bhb: ["घोड़ो", "ɡʱoːɽo"],
+    rkt: ["ঘোড়া", "ɡʱoɽa"],
+    tn: ["pitse", "pitse"],
+    st: ["pere", "pere"],
+    wo: ["fas", "fas"],
+    sn: ["bhiza", "biza"],
+    rn: ["ifarashi", "ifaraʃi"],
+    ts: ["hanci", "hantʃi"]
   }
 };

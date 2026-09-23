@@ -850,6 +850,12 @@ WORDS.snow = {
     nmf: ["horam", "horam"],
     orh: ["ɪmana", "ɪmana"],
     swi: ["ʔnui1", "ʔnui˩˩"],
-    om: ["cabbii", "tʃabːiː"]
+    om: ["cabbii", "tʃabːiː"],
+    ctg: ["বরফ", "bɔrɔf"],
+    bhb: ["बरफ", "bəɾəpʰ"],
+    ln: ["neje", "neʒe"],
+    bm: ["nɛzi", "nɛzi"],
+    sn: ["sinoo", "sinoː"],
+    dyu: ["nɛzi", "nɛzi"]
   },
 };

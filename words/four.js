@@ -1113,6 +1113,9 @@ WORDS.four = {
     dru: ["səpatə", "səpatə"],
     tsu: ["sʉptʉ", "səptə"],
     chk: ["fáán", "faːn"],
-    zh_jh: ["四", "sɿ˦˦"]
+    zh_jh: ["四", "sɿ˦˦"],
+    syl: ["চাইর", "sair"],
+    ctg: ["চাইর", "tʃaːir"],
+    rkt: ["চাইর", "tʃaiɾ"]
   },
 };

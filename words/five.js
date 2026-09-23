@@ -1111,6 +1111,7 @@ WORDS.five = {
     lif: ["ᤅ", "ŋa"],
     mhy: ["dime", "dime"],
     myx: ["tsirano", "tsirano"],
-    sbp: ["sisanu", "sisanu"]
+    sbp: ["sisanu", "sisanu"],
+    ctg: ["ফাঁচ", "fãtʃ"]
   },
 };

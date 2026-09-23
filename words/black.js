@@ -775,6 +775,14 @@ WORDS.black = {
     mnp: ["黑", "xɛ˨˦"],
     zh_tj: ["黑", "xei˨˩"],
     zh_wh: ["黑", "xɤ˨˩˧"],
-    zh_zz: ["黑", "xei˨˦"]
+    zh_zz: ["黑", "xei˨˦"],
+    prs: ["سیاه", "sijɑːh"],
+    mag: ["करिया", "kərijaː"],
+    hne: ["करिया", "kərijaː"],
+    bgc: ["काळा", "kaːɭaː"],
+    bal: ["سیاہ", "sjaːh"],
+    syl: ["কালা", "xala"],
+    ctg: ["হালা", "hala"],
+    bhb: ["काळु", "kaːɭu"]
   },
 };

@@ -995,6 +995,11 @@ WORDS.daughter = {
     toc: ["tsumát", "tsuˈmat"],
     tar: ["mará", "maˈɾa"],
     swi: ["laak8 ʔbjaak7", "laːk˦˨ ʔbjaːk˧˥"],
-    zh_jh: ["女儿", "ny˨˩˦ ɚ˧˥"]
+    zh_jh: ["女儿", "ny˨˩˦ ɚ˧˥"],
+    as: ["জীয়াৰী", "zijaɹi"],
+    bal: ["جنک", "dʒanikk"],
+    syl: ["ফুড়ি", "fuɽi"],
+    bhb: ["छोरी", "tʃʰoːɾiː"],
+    rkt: ["বেটি", "beʈi"]
   },
 };

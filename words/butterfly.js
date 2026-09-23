@@ -429,6 +429,13 @@ WORDS.butterfly = {
     ko_kp: ["나비", "nabi"],
     vi_c: ["bươm bướm", "ɓɨəm˧ ɓɨəm˧˥"],
     th_isan: ["แมงกะเบื้อ", "mɛːŋ˥ ka˨˩ bɯa˧"],
-    en_in: ["butterfly", "ˈbʌʈɚflaɪ"]
+    en_in: ["butterfly", "ˈbʌʈɚflaɪ"],
+    as: ["পখিলা", "pɔkʰila"],
+    bal: ["پاتۆ", "paːtoː"],
+    syl: ["চকর", "sɔxɔɾ"],
+    rkt: ["চিতি", "tʃiti"],
+    ln: ["lipekápeka", "lipekápeka"],
+    bm: ["nfirinfirinin", "nfirinfirinin"],
+    dyu: ["firinfirin", "firinfirin"]
   },
 };

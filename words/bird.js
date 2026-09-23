@@ -936,6 +936,7 @@ WORDS.bird = {
     tao: ["laciw", "latsiw"],
     enf: ["chida sama", "tʃida sama"],
     agr: ["pishak", "piʃak"],
-    trv: ["qbhni", "qbhəni"]
+    trv: ["qbhni", "qbhəni"],
+    ctg: ["ফাকি", "faki"]
   },
 };

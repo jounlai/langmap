@@ -923,6 +923,9 @@ WORDS.wind = {
     yai: ["šamol", "ʃaˈmol"],
     dru: ["sasəvəranə", "sasəvəɾanə"],
     cng: ["mu ʁu", "mu ʁu"],
-    dbq: ["mit", "mit"]
+    dbq: ["mit", "mit"],
+    ctg: ["বাতাস", "batas"],
+    bhb: ["वायरो", "ʋaːjɾo"],
+    rkt: ["বাতাস", "batas"]
   },
 };

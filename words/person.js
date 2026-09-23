@@ -543,6 +543,22 @@ WORDS.person = {
     ug: ["ئادەم", "ɑdɛm"],
     en_in: ["person", "ˈpɝsən"],
     en_au: ["person", "ˈpɜːsən"],
-    en_south: ["person", "ˈpɝsən"]
+    en_south: ["person", "ˈpɝsən"],
+    prs: ["انسان", "insɑːn"],
+    si: ["මිනිසා", "minisaː"],
+    mag: ["मानुख", "maːnukʰ"],
+    hne: ["मनखे", "mənkʰe"],
+    bgc: ["माणस", "maːɳəs"],
+    bal: ["مردم", "mardum"],
+    syl: ["মানুষ", "manuʃ"],
+    ctg: ["মানুষ", "manuʃ"],
+    bhb: ["माणस", "maːɳəs"],
+    rkt: ["মানুষ", "manus"],
+    yo: ["ènìyàn", "ènìjã̀"],
+    tn: ["motho", "motʰo"],
+    st: ["motho", "motʰo"],
+    wo: ["nit", "nit"],
+    rw: ["umuntu", "umuntu"],
+    ts: ["munhu", "munʱu"]
   }
 };

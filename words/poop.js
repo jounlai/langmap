@@ -423,6 +423,20 @@ WORDS.poop = {
     ayl: ["كاكا", "kaːka"],
     arq: ["كاكا", "kaːka"],
     or: ["ଗୁ", "ɡu"],
-    mwr: ["गू", "ɡuː"]
+    mwr: ["गू", "ɡuː"],
+    si: ["ගූ", "ɡuː"],
+    hne: ["टट्टी", "ʈəʈːiː"],
+    bal: ["گوت", "ɡutt"],
+    syl: ["গু", "ɡu"],
+    ctg: ["আগি", "aɡi"],
+    rkt: ["গু", "ɡu"],
+    ln: ["nyeí", "ɲeí"],
+    ff: ["kuudi", "kuːdi"],
+    ny: ["matuvi", "matuvi"],
+    tn: ["masepa", "masepa"],
+    st: ["masepa", "masepa"],
+    bm: ["bo", "bo"],
+    sn: ["tsvina", "tsvina"],
+    dyu: ["bo", "bo"]
   },
 };

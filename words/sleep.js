@@ -949,6 +949,10 @@ WORDS.sleep = {
     dbq: ["wan", "wan"],
     bnn: ["masabah", "masabah"],
     hsn: ["睏", "kʰuən˦˥"],
-    skr: ["سمھݨ", "sʊmːʱəɳ"]
+    skr: ["سمھݨ", "sʊmːʱəɳ"],
+    syl: ["ঘুমাইন", "ɡumain"],
+    ctg: ["গুম যন", "ɡum dʒɔn"],
+    bhb: ["सोनु", "soːnu"],
+    rkt: ["শুতা", "suta"]
   },
 };

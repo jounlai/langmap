@@ -443,6 +443,25 @@ WORDS.sea = {
     en_in: ["sea", "siː"],
     en_au: ["sea", "siː"],
     en_south: ["sea", "siː"],
-    en_aave: ["sea", "siː"]
+    en_aave: ["sea", "siː"],
+    prs: ["بحر", "bahr"],
+    hne: ["समुंदर", "səmundər"],
+    bgc: ["समुंदर", "səmundəɾ"],
+    bal: ["زر", "zir"],
+    syl: ["সাগর", "ʃaɡɔr"],
+    ctg: ["সাগর", "saɡɔr"],
+    bhb: ["समंदर", "səmundəɾ"],
+    rkt: ["সাগর", "saɡoɾ"],
+    yo: ["òkun", "òkũ"],
+    ig: ["oke osimiri", "oke osimiɾi"],
+    ff: ["geec", "ɡeːtʃ"],
+    tn: ["lewatle", "lewatɬe"],
+    st: ["lewatle", "lewatɬe"],
+    bm: ["kɔgɔji", "kɔɡɔdʒi"],
+    wo: ["géej", "ɡeːj"],
+    rw: ["inyanja", "iɲandʒa"],
+    sn: ["gungwa", "ɡuŋɡwa"],
+    ts: ["lwandle", "lwandɮe"],
+    dyu: ["kɔgɔji", "kɔɡɔdʒi"]
   }
 };

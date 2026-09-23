@@ -810,6 +810,9 @@ WORDS.wheel = {
     lic: ["pai3 tshia1", "pai˩˩ tsʰia˥˧"],
     orh: ["kurdu", "kurdu"],
     zh_jh: ["轮盘", "lwən˧˥ pʰaŋ˧˥"],
-    cjy: ["轮子", "luŋ˩ tsəʔ"]
+    cjy: ["轮子", "luŋ˩ tsəʔ"],
+    bal: ["پرگ", "parraɡ"],
+    rkt: ["চাকা", "tʃaka"],
+    dyu: ["mɔbilisen", "mɔbilisen"]
   },
 };

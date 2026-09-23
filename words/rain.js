@@ -959,5 +959,11 @@ WORDS.rain = {
     puaz: ["*yuku", "juku"],
     gsw_w: ["Räge", "rɛɡə"],
     mhy: ["uran", "uran"],
+    hne: ["बारिस", "baːris"],
+    bal: ["ہؤر", "hawr"],
+    syl: ["মেঘ", "mɛɡ"],
+    ctg: ["ঝর", "dʒɔr"],
+    bhb: ["वरसाद", "ʋəɾsaːd"],
+    rkt: ["ঝড়ি", "dʒʱoɽi"]
   },
 };

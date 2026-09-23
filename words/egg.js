@@ -904,6 +904,11 @@ WORDS.egg = {
     ote: ["mädo", "mãdo"],
     rmf: ["jaaro", "jaːro"],
     acu: ["nujin", "nuhin"],
-    gan: ["蛋", "tʰan˨˩"]
+    gan: ["蛋", "tʰan˨˩"],
+    bal: ["ہئیک", "hajk"],
+    ctg: ["আন্ডা", "anɖa"],
+    bhb: ["इंडुं", "inɖũ"],
+    rkt: ["ডিমা", "ɖima"],
+    dyu: ["sisɛfan", "sisɛfã"]
   },
 };

@@ -279,6 +279,23 @@ WORDS.silk = {
     ko_kp: ["비단", "pidan"],
     vi_c: ["lụa", "luə˨˨"],
     th_isan: ["ไหม", "maj˩˧"],
-    za: ["seicouz", "θei˨˦ɕou˧˩"]
+    za: ["seicouz", "θei˨˦ɕou˧˩"],
+    prs: ["ابریشم", "abreːʃam"],
+    si: ["සේද", "seːdə"],
+    hne: ["रेसम", "reːsəm"],
+    bgc: ["रेशम", "reːʃəm"],
+    bal: ["آبریشم", "aːbreːʃum"],
+    syl: ["রেশম", "reʃɔm"],
+    ctg: ["রেশম", "reʃom"],
+    yo: ["ṣẹ́dà", "ʃɛ́dà"],
+    zu: ["usilika", "usiˈliːka"],
+    xh: ["isilika", "isiˈliːka"],
+    ny: ["silika", "silika"],
+    tn: ["silika", "silika"],
+    st: ["silika", "silika"],
+    rw: ["hariri", "hariri"],
+    sn: ["sirika", "sirika"],
+    rn: ["ihariri", "ihariri"],
+    ts: ["silika", "silika"]
   }
 };

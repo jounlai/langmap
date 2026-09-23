@@ -41,37 +41,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const LB = process.env.CLDF_DIR
-    || path.join(process.env.HOME || '', 'langmap-work', 'lb');
+const { LB, datasets, parseCsv } = require('./cldf_cache');
 const ROOT = path.join(__dirname, '..');
 
 /** Cells shown from the row itself, so the candidate can be read against
  *  forms whose transcription is already decided. Short, concrete, and
  *  unlikely to be missing: if a row has anything it has these. */
 const WITNESS = ['water', 'fire', 'stone', 'tree', 'sun', 'one', 'two'];
-
-/** RFC4180-ish: the datasets quote commas inside forms and double their
- *  quotes, and a naive split silently truncates those rows. */
-function parseCsv(file) {
-    const text = fs.readFileSync(file, 'utf8');
-    const rows = [];
-    let cur = [], val = '', inQuote = false;
-    for (let i = 0; i < text.length; i++) {
-        const c = text[i];
-        if (inQuote) {
-            if (c === '"') {
-                if (text[i + 1] === '"') { val += '"'; i++; } else { inQuote = false; }
-            } else { val += c; }
-        } else if (c === '"') { inQuote = true; }
-        else if (c === ',') { cur.push(val); val = ''; }
-        else if (c === '\n') { cur.push(val); rows.push(cur); cur = []; val = ''; }
-        else if (c !== '\r') { val += c; }
-    }
-    if (val !== '' || cur.length) { cur.push(val); rows.push(cur); }
-    const head = rows.shift() || [];
-    return rows.filter((r) => r.length > 1)
-        .map((r) => Object.fromEntries(head.map((k, j) => [k, r[j]])));
-}
 
 function main() {
     const args = process.argv.slice(2);
@@ -108,13 +84,14 @@ function main() {
 
     const found = new Map();   // atlas code -> Map(form -> Set(dataset))
     let scanned = 0;
-    for (const file of fs.readdirSync(LB).filter((f) => f.endsWith('_parameters.csv'))) {
-        const ds = file.replace('_parameters.csv', '');
+    const cache = datasets();
+    for (const entry of cache.datasets) {
+        const ds = entry.ds;
         let params, langs, forms;
         try {
-            params = parseCsv(path.join(LB, file));
-            langs = parseCsv(path.join(LB, `${ds}_languages.csv`));
-            forms = parseCsv(path.join(LB, `${ds}_forms.csv`));
+            params = parseCsv(entry.parameters);
+            langs = parseCsv(entry.languages);
+            forms = parseCsv(entry.forms);
         } catch { continue; }
 
         // Match on Concepticon gloss first — it is the normalised one — and
@@ -148,8 +125,9 @@ function main() {
         }
     }
 
-    console.log(`${concept}: ${missing} rows missing it, ${scanned} datasets carry the concept, `
-        + `${found.size} rows reachable\n`);
+    console.log(`${concept}: ${missing} rows missing it, ${scanned} of `
+        + `${cache.datasets.length} datasets carry the concept, ${found.size} rows reachable`
+        + `${cache.incomplete.length ? `  (${cache.incomplete.length} cached datasets unreadable)` : ''}\n`);
 
     let n = 0;
     for (const [code, forms] of found) {

@@ -316,13 +316,13 @@ function buildIndex(data) {
         isoTo.get(iso).push(code);
     }
     const sheet = new Map();
-    for (const file of fs.readdirSync(LB).filter((f) => f.endsWith('_parameters.csv'))) {
-        const ds = file.replace('_parameters.csv', '');
+    for (const entry of datasets().datasets) {
+        const ds = entry.ds;
         let params, langs, forms;
         try {
-            params = parseCsv(path.join(LB, file));
-            langs = parseCsv(path.join(LB, `${ds}_languages.csv`));
-            forms = parseCsv(path.join(LB, `${ds}_forms.csv`));
+            params = parseCsv(entry.parameters);
+            langs = parseCsv(entry.languages);
+            forms = parseCsv(entry.forms);
         } catch { continue; }
         const pidTo = new Map();
         for (const p of params) {
@@ -361,28 +361,7 @@ function sheetFor(code, data) {
     return [...byC].sort().map(([concept, forms]) => [concept, [...forms]]);
 }
 
-const LB = process.env.CLDF_DIR
-    || path.join(process.env.HOME || '', 'langmap-work', 'lb');
-
-function parseCsv(file) {
-    const text = fs.readFileSync(file, 'utf8');
-    const rows = [];
-    let cur = [], val = '', inQuote = false;
-    for (let i = 0; i < text.length; i++) {
-        const c = text[i];
-        if (inQuote) {
-            if (c === '"') { if (text[i + 1] === '"') { val += '"'; i++; } else { inQuote = false; } }
-            else { val += c; }
-        } else if (c === '"') { inQuote = true; }
-        else if (c === ',') { cur.push(val); val = ''; }
-        else if (c === '\n') { cur.push(val); rows.push(cur); cur = []; val = ''; }
-        else if (c !== '\r') { val += c; }
-    }
-    if (val !== '' || cur.length) { cur.push(val); rows.push(cur); }
-    const head = rows.shift() || [];
-    return rows.filter((r) => r.length > 1)
-        .map((r) => Object.fromEntries(head.map((k, j) => [k, r[j]])));
-}
+const { datasets, parseCsv } = require('./cldf_cache');
 
 function fillingIn() {
     const src = fs.readFileSync(path.join(ROOT, 'validate_wordmap_data.js'), 'utf8');

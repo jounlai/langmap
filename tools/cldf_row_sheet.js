@@ -49,30 +49,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const LB = process.env.CLDF_DIR
-    || path.join(process.env.HOME || '', 'langmap-work', 'lb');
+const { datasets, parseCsv } = require('./cldf_cache');
 const ROOT = path.join(__dirname, '..');
-
-function parseCsv(file) {
-    const text = fs.readFileSync(file, 'utf8');
-    const rows = [];
-    let cur = [], val = '', inQuote = false;
-    for (let i = 0; i < text.length; i++) {
-        const c = text[i];
-        if (inQuote) {
-            if (c === '"') {
-                if (text[i + 1] === '"') { val += '"'; i++; } else { inQuote = false; }
-            } else { val += c; }
-        } else if (c === '"') { inQuote = true; }
-        else if (c === ',') { cur.push(val); val = ''; }
-        else if (c === '\n') { cur.push(val); rows.push(cur); cur = []; val = ''; }
-        else if (c !== '\r') { val += c; }
-    }
-    if (val !== '' || cur.length) { cur.push(val); rows.push(cur); }
-    const head = rows.shift() || [];
-    return rows.filter((r) => r.length > 1)
-        .map((r) => Object.fromEntries(head.map((k, j) => [k, r[j]])));
-}
 
 /** The WIP core words. Read from the validator so the two cannot drift. */
 function fillingIn() {
@@ -108,13 +86,14 @@ function main() {
 
     // code -> concept -> Map(form -> Set(dataset))
     const sheet = new Map();
-    for (const file of fs.readdirSync(LB).filter((f) => f.endsWith('_parameters.csv'))) {
-        const ds = file.replace('_parameters.csv', '');
+    const cache = datasets();
+    for (const entry of cache.datasets) {
+        const ds = entry.ds;
         let params, langs, forms;
         try {
-            params = parseCsv(path.join(LB, file));
-            langs = parseCsv(path.join(LB, `${ds}_languages.csv`));
-            forms = parseCsv(path.join(LB, `${ds}_forms.csv`));
+            params = parseCsv(entry.parameters);
+            langs = parseCsv(entry.languages);
+            forms = parseCsv(entry.forms);
         } catch { continue; }
 
         const pidTo = new Map();
@@ -189,6 +168,9 @@ function main() {
             .map(([code, byC]) => [byC.size, code])
             .sort((a, b) => b[0] - a[0]);
         const total = ranked.reduce((s, r) => s + r[0], 0);
+        console.log(`${cache.datasets.length} datasets read`
+            + `${cache.incomplete.length ? `, ${cache.incomplete.length} in the cache unreadable `
+                + `(${cache.incomplete.join(' ')})` : ''}`);
         console.log(`${sheet.size} rows reachable, ${total} (row, concept) pairs offered\n`);
         for (const [n, code] of ranked.slice(0, top)) {
             const lang = data.langs[code];

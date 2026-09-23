@@ -888,6 +888,7 @@ WORDS.egg = {
     lis: ["e-fu", "e˥˥fu˦˦"],
     atb: ["au", "a˨˩u˥˥"],
     mhy: ["ateluy", "ateluy"],
-    myx: ["liiki", "liːki"]
+    myx: ["liiki", "liːki"],
+    yap: ["faak", "faːk"]
   },
 };

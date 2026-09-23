@@ -1101,6 +1101,7 @@ WORDS.four = {
     wbp: ["jirrama-kari-jirrama-kari", "ɟiɾamakaɾiɟiɾamakaɾi"],
     mhy: ["epat", "epat"],
     myx: ["tsine", "tsine"],
-    sbp: ["sina", "sina"]
+    sbp: ["sina", "sina"],
+    osc: ["pettiur", "pettiur"]
   },
 };

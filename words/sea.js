@@ -345,6 +345,9 @@ WORDS.sea = {
     pms: ["mar", "mar"],
     pmt: ["tai", "tai"],
     pnb: ["سمندر", "səmʊndəɾ"],
-    pon: ["sehd", "sɛːd"]
+    pon: ["sehd", "sɛːd"],
+    ssf: ["wazakan", "waðakan"],
+    tkl: ["moana", "moana"],
+    orh: ["dalaj", "dalaj"]
   }
 };

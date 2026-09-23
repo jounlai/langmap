@@ -445,6 +445,13 @@ WORDS.person = {
     pmy: ["orang", "oraŋ"],
     pon: ["aramas", "aramas"],
     myx: ["umundu", "umundu"],
-    sbp: ["umunu", "umunu"]
+    sbp: ["umunu", "umunu"],
+    ssf: ["caw", "θaw"],
+    tkl: ["tagata", "taŋata"],
+    rar: ["tangata", "taŋata"],
+    wls: ["tagata", "taŋata"],
+    orh: ["bəjə", "bəjə"],
+    wbt: ["kirta", "kiʈa"],
+    mra: ["mla", "mla"]
   }
 };

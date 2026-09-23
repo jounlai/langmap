@@ -520,6 +520,7 @@ WORDS.mouth = {
     pjt: ["tjaa", "caː"],
     pkp: ["ngutu", "ŋutu"],
     pmng: ["*aman", "aman"],
-    pmt: ["vaha", "vaha"]
+    pmt: ["vaha", "vaha"],
+    wbt: ["jawa", "ɟawa"]
   }
 };

@@ -935,5 +935,7 @@ WORDS.sleep = {
     p_jpn: ["*ne-", "ne"],
     pura: ["*oδa-", "oða"],
     mhy: ["manreʔ", "manreʔ"],
+    wbt: ["kunyalajuwa", "kuɲalaɟuwa"],
+    tiw: ["mili", "mili"]
   },
 };

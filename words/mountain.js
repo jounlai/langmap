@@ -369,6 +369,10 @@ WORDS.mountain = {
     pms: ["montagna", "muŋˈtaɲa"],
     pnb: ["پہاڑ", "pəˈɦaːɽ"],
     ppl: ["tepet", "ˈtepet"],
-    sbp: ["ishidunda", "iʃidunda"]
+    sbp: ["ishidunda", "iʃidunda"],
+    sog: ["γari", "ɣari"],
+    yao: ["litumbi", "litumbi"],
+    roo: ["pukui", "pukui"],
+    sad: ["gawa", "ɡawa"]
   }
 };

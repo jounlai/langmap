@@ -401,5 +401,6 @@ WORDS.green = {
     pms: ["verd", "vɛrt"],
     pnb: ["ہرا", "ɦəraː"],
     pon: ["pohndipw", "poːndipʷ"],
+    mhy: ["kakuriŋ", "kakuriŋ"]
   }
 };

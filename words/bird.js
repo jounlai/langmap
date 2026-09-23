@@ -913,6 +913,8 @@ WORDS.bird = {
     nrf_gg: ["mouissaon", "muiˈsɔ̃"],
     mhy: ["wuruŋ", "wuruŋ"],
     myx: ["khanywinywi", "kʰaɲwiɲwi"],
-    sbp: ["indege", "indeɡe"]
+    sbp: ["indege", "indeɡe"],
+    wbt: ["limpi", "limpi"],
+    mra: ["ʔat", "ʔat"]
   },
 };

@@ -725,6 +725,8 @@ WORDS.black = {
     kjg: ["hiəŋ", "hiəŋ"],
     kpf: ["sumun sumun", "sumun sumun"],
     kxv: ["kadia", "kadia"],
-    nzm: ["ketikbe", "ketikbe"]
+    nzm: ["ketikbe", "ketikbe"],
+    gsw_w: ["schwarz", "ʃvarts"],
+    ja_sd: ["黒い", "kɯɾoi"]
   },
 };

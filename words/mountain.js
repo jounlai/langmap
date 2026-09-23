@@ -380,6 +380,13 @@ WORDS.mountain = {
     srh: ["qir", "qiɾ"],
     ksb: ["muima", "muima"],
     nzm: ["peloa", "peloa"],
-    unr: ["buru", "buru"]
+    unr: ["buru", "buru"],
+    aln: ["mal", "mal"],
+    nyo: ["omusozi", "omusozi"],
+    ko_bus: ["산", "san"],
+    ja_sd: ["山", "jama"],
+    es_co: ["montaña", "monˈtaɲa"],
+    es_an: ["montaña", "monˈtaɲa"],
+    vi_s: ["núi", "nui˧˥"]
   }
 };

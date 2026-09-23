@@ -412,6 +412,11 @@ WORDS.green = {
     srh: ["sovdz", "sovdz"],
     swi: ["ࡶhu1", "ࡶhu˩˩"],
     wls: ["moto", "moto"],
-    yap: ["giriin", "ɡiriːn"]
+    yap: ["giriin", "ɡiriːn"],
+    ko_bus: ["초록", "tɕʰoɾok"],
+    ja_sd: ["緑", "midoɾi"],
+    en_ie: ["green", "ɡɹiːn"],
+    es_co: ["verde", "ˈbeɾðe"],
+    es_an: ["verde", "ˈbeɾðe"]
   }
 };

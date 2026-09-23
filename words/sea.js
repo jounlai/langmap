@@ -352,6 +352,11 @@ WORDS.sea = {
     dje: ["teeku", "teːku"],
     mmd: ["hai3", "hai˥˩"],
     peh: ["χai", "χai"],
-    nmf: ["ngayi", "ŋaji"]
+    nmf: ["ngayi", "ŋaji"],
+    gsw_w: ["Meer", "meːr"],
+    ko_bus: ["바다", "pada"],
+    ja_sd: ["海", "umi"],
+    en_ie: ["sea", "siː"],
+    es_co: ["mar", "maɾ"]
   }
 };

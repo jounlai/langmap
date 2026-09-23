@@ -460,5 +460,7 @@ WORDS.person = {
     nha: ["arnmanu", "aɳmanu"],
     peh: ["kuŋ", "kuŋ"],
     pzh: ["saw", "saw"],
+    ko_bus: ["사람", "saɾam"],
+    vi_s: ["người", "ŋɨəj˨˩"]
   }
 };

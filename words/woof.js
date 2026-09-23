@@ -240,6 +240,8 @@ WORDS.woof = {
     zh_sc: ["汪汪", "wan˥ wan˥"],
     zh_cq: ["汪汪", "waŋ˥ waŋ˥"],
     zh_xa: ["汪汪", "vaɣ̃˨˩ vaɣ̃˨˩"],
-    zh_cd: ["汪汪", "wan˥˥ wan˥˥"]
+    zh_cd: ["汪汪", "wan˥˥ wan˥˥"],
+    ja_osa: ["ワンワン", "waɴwaɴ"],
+    ko_bus: ["멍멍", "mʌŋmʌŋ"]
   },
 };

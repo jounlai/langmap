@@ -535,6 +535,8 @@ WORDS.cockcrow = {
     ja_hir: ["コケコッコー", "kokekokːoː"],
     ko_kp: ["꼬끼오", "k͈ok͈io"],
     ko_yb: ["꼬끼오", "k͈ok͈io"],
-    ko_hg: ["꼬끼오", "k͈ok͈io"]
+    ko_hg: ["꼬끼오", "k͈ok͈io"],
+    ja_osa: ["コケコッコー", "kokekokːoː"],
+    ko_jl: ["꼬끼오", "k͈ok͈io"]
   },
 };

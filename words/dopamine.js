@@ -264,6 +264,8 @@ WORDS.dopamine = {
     en_yk: ["dopamine", "ˈdəʊpəmiːn"],
     en_ck: ["dopamine", "ˈdəʊpəmiːn"],
     ko_yb: ["도파민", "topʰamin"],
-    ko_hg: ["도파민", "topʰamin"]
+    ko_hg: ["도파민", "topʰamin"],
+    ko_bus: ["도파민", "topʰamin"],
+    ko_jl: ["도파민", "topʰamin"]
   },
 };

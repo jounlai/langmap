@@ -359,6 +359,8 @@ WORDS.atsign = {
     en_ck: ["at", "æt"],
     nl_be: ["apenstaartje", "ˈaːpənstaːrtjə"],
     ko_kp: ["골뱅이", "kolbɛŋi"],
-    vi_s: ["a còng", "aː˧ kɔŋ˨˩"]
+    vi_s: ["a còng", "aː˧ kɔŋ˨˩"],
+    ko_bus: ["골뱅이", "kolbɛŋi"],
+    ko_jl: ["골뱅이", "kolbɛŋi"]
   },
 };

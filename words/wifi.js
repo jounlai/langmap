@@ -146,6 +146,8 @@ WORDS.wifi = {
     zh_db: ["Wi-Fi", "waɪ̯˥ faɪ̯˥˩"],
     en_yk: ["Wi-Fi", "ˈwaɪfaɪ"],
     en_scouse: ["Wi-Fi", "ˈwaɪfaɪ"],
-    ko_hg: ["와이파이", "waipʰai"]
+    ko_hg: ["와이파이", "waipʰai"],
+    ko_bus: ["와이파이", "waipʰai"],
+    ko_jl: ["와이파이", "waipʰai"]
   }
 };

@@ -727,6 +727,15 @@ WORDS.black = {
     kxv: ["kadia", "kadia"],
     nzm: ["ketikbe", "ketikbe"],
     gsw_w: ["schwarz", "ʃvarts"],
-    ja_sd: ["黒い", "kɯɾoi"]
+    ja_sd: ["黒い", "kɯɾoi"],
+    agr: ["bukusɨa", "bukusɨa"],
+    dtp: ["oitom", "oitom"],
+    kky: ["munyi", "muɲi"],
+    myp: ["kopaiai", "kopaiai"],
+    nys: ["kumma", "kumma"],
+    pon: ["toantoal", "toːntoːl"],
+    rtm: ["kele", "kele"],
+    wba: ["ana", "ana"],
+    wbp: ["kirdily", "kiɖiʎ"]
   },
 };

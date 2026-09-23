@@ -1104,6 +1104,8 @@ WORDS.four = {
     sbp: ["sina", "sina"],
     osc: ["pettiur", "pettiur"],
     jmc: ["fiina", "fiina"],
-    pbb: ["pahz", "paʰts"]
+    pbb: ["pahz", "paʰts"],
+    wba: ["oɾabakaja", "oɾabakaha"],
+    xpr: ["čafār", "tʃafaːr"]
   },
 };

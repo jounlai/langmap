@@ -939,6 +939,9 @@ WORDS.stone = {
     sbp: ["liganga", "liɡaŋɡa"],
     jmc: ["iwe", "iwe"],
     xul: ["wullung", "wuluŋ"],
-    naq: ["ǀuib", "ǀuib"]
+    naq: ["ǀuib", "ǀuib"],
+    myp: ["ʔaʔai", "ʔaʔai"],
+    wba: ["hojo", "hoho"],
+    xog: ["eibaale", "eibaːle"]
   },
 };

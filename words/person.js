@@ -469,6 +469,16 @@ WORDS.person = {
     zh_cq: ["人", "zən˨˩"],
     shx: ["le31", "le˧˩"],
     pyu: ["trau", "ʈau"],
-    pwn: ["caucau", "tsautsau"]
+    pwn: ["caucau", "tsautsau"],
+    mpj: ["martu", "maʈu"],
+    mvf: ["kun", "kun"],
+    pao: ["nɨmɨ", "nɨmɨ"],
+    piu: ["yanangu", "janaŋu"],
+    rim: ["muntu", "muntu"],
+    rn: ["umuntu", "umuntu"],
+    sda: ["tau", "tau"],
+    tue: ["basokɨ", "basokɨ"],
+    wba: ["aɾao", "aɾao"],
+    wbp: ["yapa", "japa"]
   }
 };

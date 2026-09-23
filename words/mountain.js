@@ -392,6 +392,12 @@ WORDS.mountain = {
     rbb: ["kɔŋ", "kɔŋ"],
     zh_cq: ["山", "san˥"],
     xct: ["རི", "ri"],
-    xct_litpr: ["རི", "ri"]
+    xct_litpr: ["རི", "ri"],
+    agr: ["nain", "nain"],
+    cgg: ["omusozi", "omusozi"],
+    rim: ["gitanto", "ɡitanto"],
+    rn: ["umusozi", "umusozi"],
+    wba: ["inebe", "inebe"],
+    xog: ["olusozzi", "olusozzi"]
   }
 };

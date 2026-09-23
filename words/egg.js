@@ -891,6 +891,8 @@ WORDS.egg = {
     myx: ["liiki", "liːki"],
     yap: ["faak", "faːk"],
     xul: ["gubbong", "ɡubboŋ"],
-    kgg: ["gwa", "ɡwa"]
+    kgg: ["gwa", "ɡwa"],
+    rim: ["ighe", "iɣe"],
+    wba: ["ahi", "ahi"]
   },
 };

@@ -1112,6 +1112,9 @@ WORDS.salt = {
     sbp: ["umunyu", "umuɲu"],
     ksb: ["munyu", "muɲu"],
     pzh: ["pahah", "pahah"],
-    jmc: ["shumbi", "ʃumbi"]
+    jmc: ["shumbi", "ʃumbi"],
+    mvf: ["dabsə", "dabsə"],
+    rim: ["munyu", "muɲu"],
+    tar: ["koná", "kona"]
   },
 };

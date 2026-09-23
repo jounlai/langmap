@@ -829,6 +829,9 @@ WORDS.hundred = {
     myx: ["sitondo", "sitondo"],
     sbp: ["imiya", "imija"],
     jmc: ["iyana", "ijana"],
-    mrq: ["ʻau", "ʔau"]
+    mrq: ["ʻau", "ʔau"],
+    bjn: ["saratus", "saratus"],
+    nij: ["saratus", "saratus"],
+    xog: ["kikumi", "kikumi"]
   },
 };

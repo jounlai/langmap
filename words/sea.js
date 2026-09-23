@@ -359,6 +359,19 @@ WORDS.sea = {
     en_ie: ["sea", "siː"],
     es_co: ["mar", "maɾ"],
     zh_cq: ["海", "xai˦˨"],
-    shx: ["fui44", "fui˦˦"]
+    shx: ["fui44", "fui˦˦"],
+    abs: ["lau", "lau"],
+    akb: ["laut", "laut"],
+    dtp: ["rahat", "rahat"],
+    fr_be: ["mer", "mɛʁ"],
+    fr_ch: ["mer", "mɛʁ"],
+    fr_class: ["mer", "mɛʁ"],
+    lus: ["tuipui", "tuipui"],
+    max: ["lao", "lao"],
+    mvf: ["dalii", "dalii"],
+    rtm: ["sạsi", "sɔsi"],
+    sda: ["tasik", "tasik"],
+    wba: ["nabautu", "nabautu"],
+    xpr: ["zrēh", "zreːh"]
   }
 };

@@ -938,6 +938,11 @@ WORDS.sleep = {
     wbt: ["kunyalajuwa", "kuɲalaɟuwa"],
     tiw: ["mili", "mili"],
     kjg: ["sih", "sih"],
-    nmf: ["pi", "pi"]
+    nmf: ["pi", "pi"],
+    adt: ["miya", "mija"],
+    agr: ["kanut", "kanut"],
+    emi: ["asekanue", "asekanue"],
+    piu: ["kunkunpa", "kunkunpa"],
+    wba: ["uba", "uba"]
   },
 };

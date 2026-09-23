@@ -418,6 +418,10 @@ WORDS.green = {
     en_ie: ["green", "ɡɹiːn"],
     es_co: ["verde", "ˈbeɾðe"],
     es_an: ["verde", "ˈbeɾðe"],
-    shx: ["ka35 pʰɤ54 kʰun31", "ka˧˥ pʰɤ˥˦ kʰun˧˩"]
+    shx: ["ka35 pʰɤ54 kʰun31", "ka˧˥ pʰɤ˥˦ kʰun˧˩"],
+    agr: ["samɨkbau", "samɨkbau"],
+    bjn: ["hijau", "hidʒau"],
+    fr_class: ["vert", "vɛʁt"],
+    myp: ["ʔahoasai", "ʔahoasai"],
   }
 };

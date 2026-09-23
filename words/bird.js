@@ -919,6 +919,8 @@ WORDS.bird = {
     dje: ["curoize", "tʃuroize"],
     jmc: ["ndeye", "ndeje"],
     kxv: ["minu", "minu"],
-    srb: ["ontid", "ontid"]
+    srb: ["ontid", "ontid"],
+    akb: ["unggas", "uŋɡas"],
+    myp: ["piibigi", "piibiɡi"]
   },
 };

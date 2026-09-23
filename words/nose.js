@@ -973,6 +973,8 @@ WORDS.nose = {
     sog: ["nas", "nas"],
     kde: ["imula", "imula"],
     gum: ["kimtsik", "kimtsik"],
-    kos: ["fwac", "fwɛ"]
+    kos: ["fwac", "fwɛ"],
+    myp: ["ʔitaoi", "ʔitaoi"],
+    wba: ["kaɾi", "kaɾi"]
   },
 };

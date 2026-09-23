@@ -909,6 +909,12 @@ WORDS.wind = {
     naq: ["ǂoab", "ǂoab"],
     nmf: ["masi", "masi"],
     gum: ["isik", "isik"],
-    yao: ["mbungo", "mbuŋɡo"]
+    yao: ["mbungo", "mbuŋɡo"],
+    emi: ["kuukuu", "kuukuu"],
+    mvf: ["kii", "kii"],
+    myp: ["ʔohoi", "ʔohoi"],
+    nys: ["marra", "maɾa"],
+    rim: ["mpefo", "mpefo"],
+    wba: ["ahaka", "ahaka"]
   },
 };

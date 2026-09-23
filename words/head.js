@@ -558,6 +558,10 @@ WORDS.head = {
     ty: ["upoʻo", "upoʔo"],
     kde: ["mutwe", "mutwe"],
     xct: ["མགོ", "mɡo"],
-    xct_litpr: ["མགོ", "mɡo"]
+    xct_litpr: ["མགོ", "mɡo"],
+    myp: ["ʔapapai", "ʔapapai"],
+    rim: ["itwe", "itwe"],
+    rn: ["umutwe", "umutwe"],
+    xog: ["omutwe", "omutwe"]
   },
 };

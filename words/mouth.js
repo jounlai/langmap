@@ -533,6 +533,9 @@ WORDS.mouth = {
     shx: ["tiɔ31", "tiɔ˧˩"],
     jmc: ["kana", "kana"],
     xct: ["ཁ", "kʰa"],
-    xct_litpr: ["ཁ", "kʰa"]
+    xct_litpr: ["ཁ", "kʰa"],
+    agr: ["wɨnu", "wɨnu"],
+    myp: ["kao", "kao"],
+    nys: ["taminyi", "tamiɲi"]
   }
 };

@@ -555,6 +555,9 @@ WORDS.new = {
     kxv: ["puni", "puni"],
     naq: ["kawa", "kawa"],
     ty: ["ʻāpī", "ʔaːpiː"],
-    pbb: ["uʼse", "uʔse"]
+    pbb: ["uʼse", "uʔse"],
+    adt: ["marra", "maɻɻa"],
+    nys: ["yinyang", "jiɲaŋ"],
+    xog: ["iyaka", "ijaka"]
   },
 };

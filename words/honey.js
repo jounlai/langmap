@@ -809,6 +809,8 @@ WORDS.honey = {
     zdj: ["ndjizi ya nyoshi", "ndʒizi ja ɲoʃi"],
     myx: ["bubuukhi", "bubuːkʰi"],
     sbp: ["uwushi", "uwuʃi"],
-    xul: ["kawangkal", "kawaŋkal"]
+    xul: ["kawangkal", "kawaŋkal"],
+    kky: ["mula", "mula"],
+    xog: ["omuzinga", "omuziŋɡa"]
   },
 };

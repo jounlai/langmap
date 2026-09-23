@@ -835,6 +835,8 @@ WORDS.milk = {
     pban: ["*-bɪ́cɪ̀", "-bɪ́cɪ̀"],
     ak: ["nufusu", "nufusu"],
     trv: ["nunuh", "nunuh"],
-    naq: ["bis", "bis"]
+    naq: ["bis", "bis"],
+    piu: ["mimi", "mimi"],
+    wba: ["amiho", "amiho"]
   },
 };

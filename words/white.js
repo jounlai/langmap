@@ -1136,5 +1136,7 @@ WORDS.white = {
     tsj: ["balingmu", "baliŋmu"],
     lep: ["ᰣᰦᰌᰫᰮ", "ʔadum"],
     mhy: ["mahilak", "mahilak"],
+    kky: ["bilbin", "bilbin"],
+    wba: ["hoko", "hoko"]
   },
 };

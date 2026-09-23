@@ -28,7 +28,16 @@
  *     table (Tsou *ŋuθuʔu). Never a cell.
  *   - several candidates for one row means the dataset holds several
  *     doculects (Marquesan haha / fafa / nutu is the North–South split plus
- *     a different word). Resolve the doculect first.
+ *     a different word). Resolve the doculect first — but check whether
+ *     exactly ONE of them is backed by two datasets, because then it is
+ *     resolved already. That test picked vaʻa out of vaʻa/vaà, vaha out of
+ *     vaha/ewauh, and quwaq out of four Seediq spellings.
+ *   - before filling a VARIETY row, look at what its siblings already do
+ *     with the neighbouring concepts. The eight Japanese variety rows carry
+ *     目/me, 耳/mimi, 鼻/hana, 手/te identical to ja, every one of them:
+ *     this row group records that Japanese body-part words do not vary by
+ *     region, so 口/kɯtɕi belongs in all eight and is not a lazy copy. It is
+ *     the same reasoning that filled ko_bus and vi_s in cockcrow.
  *   - run check_all BEFORE believing a batch. Gilbertese wi was in the first
  *     one and the intra-row duplicate guard caught it: this row already has
  *     wi for TOOTH. Either ABVD's MOUTH gloss is loose there or Gilbertese
@@ -166,6 +175,18 @@ WORDS.mouth = {
     xog: ["omunwa", "omunwa"],
     yrl: ["juru", "juɾu"],
     kxv: ["guti", "ɡuʈi"],
+    mvf: ["ama", "ama"],
+    ja_kyo: ["口", "kɯtɕi"],
+    ja_osa: ["口", "kɯtɕi"],
+    ja_hak: ["口", "kɯtɕi"],
+    ja_hir: ["口", "kɯtɕi"],
+    ja_kg: ["口", "kɯtɕi"],
+    ja_aom: ["口", "kɯtɕi"],
+    ja_sd: ["口", "kɯtɕi"],
+    ja_kanbun: ["口", "kɯtɕi"],
+    rar: ["vaʻa", "vaʔa"],
+    ty: ["vaha", "vaha"],
+    trv: ["quwaq", "quwaq"],
     tr: ["ağız", "aˈɯz"],
     fa: ["دهان", "dæˈhɒn"],
     sw: ["mdomo", "mˈɗomo"],  // Kept over kinywa, which Wiktionary glosses 'mouth' and nothing else, while mdomo is 'lip, mouth; beak'. mdomo is the everyday word and it does cover the mouth, so it does not fall foul of this concept's "not the lips alone" — but kinywa is the unambiguous body-part term, and it is the one to switch to if the everyday reading is ever disputed. The sw label and definition here use mdomo too, so the three move together.

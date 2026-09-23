@@ -339,6 +339,9 @@ WORDS.chocolate = {
     ja_kyo: ["チョコレート", "tɕokoɾeːto"],
     sco: ["chocolate", "ˈtʃɔkəlɪt"],
     sc: ["ciculata", "tʃikuˈlata"],
-    kbd: ["шоколад", "ʃokolad"]
+    kbd: ["шоколад", "ʃokolad"],
+    sm: ["sukalati", "sukalati"],
+    kaa: ["shokolad", "ʃokoˈlad"],
+    yua: ["chukwaʼ", "tʃukwaʔ"]
   }
 };

@@ -970,6 +970,10 @@ WORDS.wind = {
     ada: ["kɔɔhiɔ", "kɔːhiɔ"],
     bom: ["gul", "ɡul"],
     ngl: ["echeku", "etʃʰeku"],
-    srr: ["ngeñ", "ŋɡeɲ"]
+    srr: ["ngeñ", "ŋɡeɲ"],
+    lhu: ["mû-hɔ", "mûhɔ"],
+    tji: ["ziesu", "zie˧˥su˥˥"],
+    mam: ["kyqʼiqʼ", "kʲqʼiqʼ"],
+    psi: ["واغن", "waːʁan"]
   },
 };

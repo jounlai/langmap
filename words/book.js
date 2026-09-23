@@ -633,6 +633,25 @@ WORDS.book = {
     ja_kg: ["本", "hoɴ"],
     ada: ["womi", "womi"],
     bom: ["takada", "takada"],
-    ngl: ["liivuru", "liːvuɾu"]
+    ngl: ["liivuru", "liːvuɾu"],
+    tet: ["livru", "livɾu"],
+    aoz: ["sulat", "sulat"],
+    dz: ["དེབ", "dep"],
+    nia: ["buku", "buku"],
+    lhu: ["lìʼ", "lìʔ"],
+    akb: ["buku", "buku"],
+    khb: ["ᦗᦸᧇ", "pɔp˧"],
+    kac: ["laika", "lai˧˩ka˧"],
+    pll: ["boʔok", "boʔok"],
+    tji: ["cipu", "tsʰi˥˥pʰu˥˥"],
+    nij: ["buku", "buku"],
+    sda: ["suraʼ", "suraʔ"],
+    yua: ["juʼun", "huʔun"],
+    tzh: ["libro", "libro"],
+    mam: ["uʼjbʼil", "uʔxɓil"],
+    mixtec: ["tutu", "tutu"],
+    quy: ["libru", "libɾu"],
+    dty: ["किताब", "kitaːb"],
+    tly: ["kitob", "kitob"]
   }
 };

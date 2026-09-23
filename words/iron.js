@@ -895,6 +895,16 @@ WORDS.iron = {
     tyz: ["lếch", "lek˥"],
     nut: ["lích", "lik˥"],
     ada: ["dade", "dade"],
-    bom: ["dyam", "dʲam"]
+    bom: ["dyam", "dʲam"],
+    aoz: ["besi", "besi"],
+    lhu: ["so", "so"],
+    kac: ["hpri", "pʰʒi˧˩"],
+    ahk: ["shm", "ʃm̩˥"],
+    dtp: ["basiʼ", "basiʔ"],
+    tji: ["xie", "ɕie˥˧"],
+    tzh: ["takʼin", "takʼin"],
+    mixtec: ["kaa", "kaː"],
+    quy: ["fierro", "ˈfjeɾo"],
+    dty: ["फलाम", "pʰalaːm"]
   },
 };

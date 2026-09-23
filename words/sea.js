@@ -602,6 +602,24 @@ WORDS.sea = {
     nut: ["hải", "haːj˨˩˧"],
     ja_kg: ["海", "ɯmi"],
     ada: ["wo", "wo"],
-    ngl: ["ephareya", "epʰaɾeja"]
+    ngl: ["ephareya", "epʰaɾeja"],
+    tet: ["tasi", "tasi"],
+    aoz: ["tasi", "tasi"],
+    new: ["समुद्र", "sʌmudrʌ"],
+    dz: ["རྒྱ་མཚོ", "dʑatsʰo"],
+    lhu: ["lâ-chɨ̂-g̈ɨ̂", "lâtsʰɯ̂ɣɯ̂"],
+    khb: ["ᦉᦖᦳᧆ", "samut˧˥"],
+    kac: ["panglai", "paŋ˧lai˧"],
+    tji: ["hai", "xai˥˧"],
+    nij: ["tasik", "tasik"],
+    yua: ["kʼáaʼnáab", "kʼaːʔnaːb"],
+    tzh: ["mar", "mar"],
+    mam: ["plow", "plow"],
+    mixtec: ["nducha mar", "ndutʃa mar"],
+    quy: ["lamar qucha", "lamaɾ qutʃa"],
+    dty: ["समुद्र", "səmudɾə"],
+    bra: ["सागर", "saːɡar"],
+    tly: ["dıyo", "dɨjo"],
+    hak_hl: ["海", "hoi˨˦"]
   }
 };

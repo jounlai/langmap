@@ -878,6 +878,10 @@ WORDS.snow = {
     pwo: ["မူၭခိၪဖီၫ", "mouʔ kʰo pʰau"],
     hni: ["haqju", "xa˧˩dʑu˧˧"],
     nbl: ["igabhogo", "iɡaˈboɡo"],
-    gor: ["salju", "ˈsaldʒu"]
+    gor: ["salju", "ˈsaldʒu"],
+    nia: ["teu asio", "tɛu asio"],
+    kac: ["hkyen", "kʰjen˧"],
+    yua: ["nieve", "njebe"],
+    mam: ["txa cheʼw", "tʃa tʃeʔw"]
   },
 };

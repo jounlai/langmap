@@ -991,6 +991,13 @@ WORDS.sleep = {
     mnw: ["သ္တိက်", "toik"],
     kjp: ["မီ့", "mî"],
     ada: ["hwɔ mahe", "hwɔ mahe"],
-    ngl: ["orupa", "oɾupa"]
+    ngl: ["orupa", "oɾupa"],
+    aoz: ["tup", "tup"],
+    new: ["द्यने", "djane"],
+    lhu: ["yɨ̀ʼ", "jɯ̀ʔ"],
+    kaa: ["uyqılaw", "ujqɯlaw"],
+    pll: ["ʔit", "ʔit"],
+    ahk: ["yuq", "jṵ˨˩"],
+    tly: ["hıte", "hɨte"]
   },
 };

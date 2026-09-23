@@ -1148,6 +1148,10 @@ WORDS.salt = {
     ada: ["ŋo", "ŋo"],
     bom: ["nevwashe", "nevwaʃe"],
     ngl: ["maakha", "maːkʰa"],
-    srr: ["jem", "dʒem"]
+    srr: ["jem", "dʒem"],
+    nia: ["asio", "asio"],
+    pll: ["sɔʔ", "sɔʔ"],
+    bra: ["लौन", "laʊn"],
+    psi: ["لوڼ", "loːɳ"]
   },
 };

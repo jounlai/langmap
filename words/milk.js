@@ -909,6 +909,21 @@ WORDS.milk = {
     nut: ["nùm", "num˨˩"],
     ada: ["nyɔ nyu", "ɲɔ ɲu"],
     bom: ["nevasal", "nevasal"],
-    ngl: ["eleiti", "eleiti"]
+    ngl: ["eleiti", "eleiti"],
+    aoz: ["susu", "susu"],
+    lus: ["hnute tui", "hnute tui"],
+    nia: ["susu", "susu"],
+    lhu: ["cú-g̈ɨ̀", "tsúɣɯ̀"],
+    akb: ["susu", "susu"],
+    pll: ["ʔom bu", "ʔom bu"],
+    tji: ["mangcie", "man˨˩tsʰie˨˩"],
+    nij: ["susu", "susu"],
+    sda: ["bumbungan", "bumbuŋan"],
+    yua: ["leche", "letʃe"],
+    tzh: ["lech", "letʃ"],
+    mam: ["taʼl imaj", "taʔl imax"],
+    mixtec: ["lechu", "letʃu"],
+    quy: ["lichi", "litʃi"],
+    tly: ["şıt", "ʃɨt"]
   },
 };

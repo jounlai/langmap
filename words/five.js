@@ -1120,6 +1120,7 @@ WORDS.five = {
     dnj: ["sɔɔdhu", "sɔːɗu"],
     nag: ["pans", "pans"],
     unr: ["morea", "moɽea"],
-    kjp: ["ယာဲ", "jɛ̄"]
+    kjp: ["ယာဲ", "jɛ̄"],
+    pll: ["phən", "pʰən"]
   },
 };

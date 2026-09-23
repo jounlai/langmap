@@ -923,6 +923,19 @@ WORDS.hundred = {
     kjp: ["က်ုယာ", "kəjà"],
     ja_kg: ["百", "çakɯ"],
     bom: ["naga", "naɡa"],
-    ngl: ["nsana", "nsana"]
+    ngl: ["nsana", "nsana"],
+    new: ["सछि", "sʌtʃʰi"],
+    lhu: ["ha", "ha"],
+    akb: ["saratus", "saratus"],
+    khb: ["ᦣᦾᧉ", "hɔj˩"],
+    pll: ["pəriah", "pəriah"],
+    ahk: ["ya", "ja˥"],
+    tji: ["be", "pɯe˨˩"],
+    yua: ["joʼokʼáal", "hoʔokʼaːl"],
+    mam: ["jokʼal", "xokʼal"],
+    mixtec: ["iin cientu", "ĩː sjentu"],
+    quy: ["pachak", "patʃak"],
+    bra: ["सौ", "saʊ"],
+    psi: ["شای", "ʃaːi"]
   },
 };

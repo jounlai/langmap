@@ -998,6 +998,14 @@ WORDS.stone = {
     kjp: ["လုံႋ", "lōʊɴ"],
     mtq: ["khũ", "kʰu"],
     bom: ["fwa", "fwa"],
-    ngl: ["nluku", "nluku"]
+    ngl: ["nluku", "nluku"],
+    new: ["ल्वहं", "lwahã"],
+    lhu: ["há", "há"],
+    khb: ["ᦠᦲᧃ", "hin˥"],
+    pll: ["mo", "mo"],
+    tji: ["aba", "a˨˩pa˨˩"],
+    mam: ["abʼaj", "aɓax"],
+    tly: ["sığ", "sɨʁ"],
+    nan_pn: ["石頭", "tsioʔ˥˥ tʰau˨˦"]
   },
 };

@@ -1153,6 +1153,7 @@ WORDS.white = {
     drs: ["golalo", "ɡolalo"],
     ljp: ["handak", "handak"],
     ada: ["hiɔ", "hiɔ"],
-    bom: ["pɛŋ", "pɛŋ"]
+    bom: ["pɛŋ", "pɛŋ"],
+    mixtec: ["kuijin", "kʷihĩ"]
   },
 };

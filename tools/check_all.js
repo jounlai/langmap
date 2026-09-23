@@ -678,7 +678,12 @@ line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale:
 // 陽入 cells give five different contours — so it sits here, visible, until
 // someone re-cuts the row. `tongue|gan` went into the tool's ALLOW block
 // instead, because that one IS a genuine Gan city/countryside split.
-const LEXICAL_IMPORT_DEBT = 11;
+// 11 -> 12 on 2026-09-24. The new entry is hak_cn butterfly 蝴蝶, which is an
+// OLD cell: it only became visible when round 13 gave hak_hl a butterfly
+// (蝶仔) and hak_tw already had 揚蝶仔, so the row finally had siblings to be
+// measured against. Third time this week that filling a row exposed a defect
+// somewhere else rather than creating one.
+const LEXICAL_IMPORT_DEBT = 12;
 s = run('sinitic_lexical_import_check.js --check');
 {
     const n = num(s, /mandarin-shaped cells: (\d+)/);

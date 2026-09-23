@@ -412,6 +412,26 @@ WORDS.silk = {
     tyz: ["phải lụa", "faːj˨˩˧ luə˨˩"],
     ja_kg: ["絹", "kiɴ"],
     ada: ["seda", "seda"],
-    bom: ["silikyi", "silikʲi"]
+    bom: ["silikyi", "silikʲi"],
+    sm: ["silika", "silika"],
+    new: ["रेसम", "resʌm"],
+    lus: ["maimaw", "maimɔ"],
+    dz: ["འབུ་རས", "burɛː"],
+    nia: ["sotöra", "sotøɾa"],
+    lhu: ["pu-pha", "pupʰa"],
+    akb: ["surto", "surto"],
+    kaa: ["jipek", "ʒipek"],
+    kac: ["lai", "lai˧"],
+    dtp: ["sutaraʼ", "sutaraʔ"],
+    tji: ["sacie", "sa˥˥tsʰie˨˩"],
+    nij: ["sutra", "sutra"],
+    sda: ["saʼbe", "saʔbe"],
+    yua: ["seda", "seda"],
+    tzh: ["seda", "seda"],
+    mam: ["seda", "seda"],
+    quy: ["seda", "seda"],
+    aii: ["ܐܒܪܝܣܡ", "abriːsim"],
+    dty: ["रेशम", "ɾeʃam"],
+    tly: ["avşim", "avʃim"]
   }
 };

@@ -979,6 +979,11 @@ WORDS.bird = {
     ada: ["lohwe pɛlitsɛ", "lohwe pɛlitsɛ"],
     bom: ["non", "non"],
     ngl: ["epalame", "epalame"],
-    srr: ["ndid", "ndid"]
+    srr: ["ndid", "ndid"],
+    new: ["झंगः", "dʑʱãɡʌ"],
+    lhu: ["ngâʼ", "ŋâʔ"],
+    tji: ["niebi", "ȵie˧˥pi˥˥"],
+    dty: ["चरा", "tʃəɾa"],
+    tly: ["pərəndə", "pəɾəndə"]
   },
 };

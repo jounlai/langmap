@@ -1066,6 +1066,7 @@ WORDS.earth = {
     dnj: ["sɛ", "sɛ"],
     kjp: ["ၯင်းခေါဟ်", "ɣáɴkʰʊ́"],
     ada: ["zugba", "zuɡba"],
-    bom: ["vwel", "vwel"]
+    bom: ["vwel", "vwel"],
+    ahk: ["mi", "mi˥"]
   },
 };

@@ -1029,6 +1029,12 @@ WORDS.nose = {
     ndc: ["miro", "miro"],
     tmh: ["ⵜⵉⵏⵛⴰⵔ", "tinʃar"],
     grt: ["gingting", "ɡiŋtiŋ"],
-    ngl: ["ephula", "epʰula"]
+    ngl: ["ephula", "epʰula"],
+    new: ["न्हास", "nʱaːsʌ"],
+    lhu: ["nā-qhɔ̂", "nȁqʰɔ̂"],
+    ahk: ["na meh", "na˥mɤ˥"],
+    tji: ["engqi", "ən˧˥tɕʰi˥˥"],
+    mam: ["txaʼn", "tʃaʔn"],
+    mixtec: ["yuxijni", "juʃihni"]
   },
 };

@@ -1083,6 +1083,13 @@ WORDS.ear = {
     zne: ["tue", "tue"],
     mnw: ["က္တောဝ်", "kəto"],
     bom: ["fwoŋ", "fwoŋ"],
-    ngl: ["naaru", "naːɾu"]
+    ngl: ["naaru", "naːɾu"],
+    aoz: ["luken", "luken"],
+    new: ["न्हाय्पं", "nʱæːpã"],
+    lhu: ["nā-pɔ", "nȁpɔ"],
+    pll: ["hjɔʔ", "hjɔʔ"],
+    ahk: ["na baw", "na˨˩bɔ˥"],
+    tji: ["engqie", "ən˨˩tɕʰie˧˥"],
+    psi: ["کن", "kan"]
   },
 };

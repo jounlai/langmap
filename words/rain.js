@@ -992,6 +992,12 @@ WORDS.rain = {
     tig: ["ዝለም", "zaləm"],
     hoc: ["gama", "ɡama"],
     ada: ["hiɔmi", "hiɔmi"],
-    bom: ["rwak", "rwak"]
+    bom: ["rwak", "rwak"],
+    lhu: ["mû-yè", "mûjè"],
+    pll: ["ɟuŋ", "ɟuŋ"],
+    tji: ["mezie", "mɯe˧˥tsie˨˩"],
+    dty: ["वर्षा", "waɾʃaː"],
+    psi: ["واښ", "waːʂ"],
+    tly: ["voş", "voʃ"]
   },
 };

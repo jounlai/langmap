@@ -685,6 +685,19 @@ WORDS.person = {
     ja_kg: ["人", "çito"],
     ada: ["nɔmlɔ", "nɔmlɔ"],
     bom: ["mwat", "mwat"],
-    ngl: ["muchu", "mutʃʰu"]
+    ngl: ["muchu", "mutʃʰu"],
+    tet: ["ema", "ema"],
+    lhu: ["chɔ", "tsʰɔ"],
+    khb: ["ᦅᦳᧃ", "kun˥˩"],
+    pll: ["bi", "bi"],
+    ahk: ["tsaw", "tsʰɔ˥"],
+    tji: ["luo", "lo˥˧"],
+    yua: ["máak", "maːk"],
+    tzh: ["ants winik", "ants winik"],
+    mixtec: ["yivi", "jiβi"],
+    quy: ["runa", "ɾuna"],
+    dty: ["मान्सु", "maːnsu"],
+    bra: ["मानुष", "maːnuʃ"],
+    tly: ["odəm", "odəm"]
   }
 };

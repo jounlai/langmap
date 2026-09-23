@@ -958,6 +958,11 @@ WORDS.egg = {
     tyz: ["xáy", "saj˧˥"],
     nut: ["xáy", "saj˧˥"],
     ngl: ["nooce", "noːtʃe"],
-    srr: ["ɓoof", "ɓoːf"]
+    srr: ["ɓoof", "ɓoːf"],
+    aoz: ["teko", "teko"],
+    lhu: ["ɔ̀-u", "ɔ̀u"],
+    ahk: ["uq", "ṵ˧"],
+    tji: ["alie", "a˥˥lie˥˥"],
+    psi: ["اڼا", "aɳaː"]
   },
 };

@@ -1031,6 +1031,13 @@ WORDS.daughter = {
     mnw: ["ကောန်ဗြဴ", "kon prɛ̤a"],
     mtq: ["con cải", "kɔn kaːj"],
     tyz: ["lục nhình", "luk˥˩ ɲiŋ˨˩"],
-    ja_kg: ["おご", "oɡo"]
+    ja_kg: ["おご", "oɡo"],
+    aoz: ["anfeto", "anfeto"],
+    akb: ["boru", "boru"],
+    nij: ["anak bawi", "anak bawi"],
+    sda: ["anak baine", "anak baine"],
+    psi: ["اوی", "oːj"],
+    tly: ["kinə", "kinə"],
+    nan_pn: ["查某囝", "tsa˧˧ bɔ˥˧ kiã˥˧"]
   },
 };

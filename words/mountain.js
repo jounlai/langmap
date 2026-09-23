@@ -398,6 +398,16 @@ WORDS.mountain = {
     rim: ["gitanto", "ɡitanto"],
     rn: ["umusozi", "umusozi"],
     wba: ["inebe", "inebe"],
-    xog: ["olusozzi", "olusozzi"]
+    xog: ["olusozzi", "olusozzi"],
+    ko_kp: ["산", "san"],
+    ko_yb: ["산", "san"],
+    ko_hg: ["산", "san"],
+    ko_jl: ["산", "san"],
+    ja_kyo: ["山", "jama"],
+    es_mx: ["montaña", "monˈtaɲa"],
+    es_pe: ["montaña", "monˈtaɲa"],
+    es_ar: ["montaña", "monˈtaɲa"],
+    es_cl: ["montaña", "monˈtaɲa"],
+    es_cu: ["montaña", "monˈtaɲa"]
   }
 };

@@ -423,5 +423,17 @@ WORDS.green = {
     bjn: ["hijau", "hidʒau"],
     fr_class: ["vert", "vɛʁt"],
     myp: ["ʔahoasai", "ʔahoasai"],
+    ko_kp: ["초록", "tɕʰoɾok"],
+    ko_yb: ["초록", "tɕʰoɾok"],
+    ko_hg: ["초록", "tɕʰorok"],
+    ko_jl: ["초록", "tɕʰorok"],
+    ja_kyo: ["緑", "midoɾi"],
+    es_mx: ["verde", "ˈbeɾðe"],
+    es_pe: ["verde", "ˈbeɾðe"],
+    es_ar: ["verde", "ˈbeɾðe"],
+    es_cl: ["verde", "ˈbeɾðe"],
+    es_cu: ["verde", "ˈbeɾðe"],
+    fr_be: ["vert", "vɛʁ"],
+    fr_ch: ["vert", "vɛʁ"]
   }
 };

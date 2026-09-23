@@ -558,6 +558,7 @@ WORDS.new = {
     pbb: ["uʼse", "uʔse"],
     adt: ["marra", "maɻɻa"],
     nys: ["yinyang", "jiɲaŋ"],
-    xog: ["iyaka", "ijaka"]
+    xog: ["iyaka", "ijaka"],
+    ja_kyo: ["新しい", "ataɾaɕiː"]
   },
 };

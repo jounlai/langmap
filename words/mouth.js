@@ -536,6 +536,15 @@ WORDS.mouth = {
     xct_litpr: ["ཁ", "kʰa"],
     agr: ["wɨnu", "wɨnu"],
     myp: ["kao", "kao"],
-    nys: ["taminyi", "tamiɲi"]
+    nys: ["taminyi", "tamiɲi"],
+    ko_kp: ["입", "ip"],
+    ko_yb: ["입", "ip"],
+    ko_hg: ["입", "ip"],
+    ko_jl: ["입", "ip"],
+    es_mx: ["boca", "ˈboka"],
+    es_pe: ["boca", "ˈboka"],
+    es_ar: ["boca", "ˈboka"],
+    es_cl: ["boca", "ˈboka"],
+    es_cu: ["boca", "ˈboka"]
   }
 };

@@ -372,6 +372,16 @@ WORDS.sea = {
     rtm: ["sạsi", "sɔsi"],
     sda: ["tasik", "tasik"],
     wba: ["nabautu", "nabautu"],
-    xpr: ["zrēh", "zreːh"]
+    xpr: ["zrēh", "zreːh"],
+    ko_kp: ["바다", "pada"],
+    ko_yb: ["바다", "pada"],
+    ko_hg: ["바다", "pada"],
+    ko_jl: ["바다", "pada"],
+    ja_kyo: ["海", "umi"],
+    es_mx: ["mar", "maɾ"],
+    es_pe: ["mar", "maɾ"],
+    es_ar: ["mar", "maɾ"],
+    es_cl: ["mar", "maɾ"],
+    es_cu: ["mar", "maɾ"]
   }
 };

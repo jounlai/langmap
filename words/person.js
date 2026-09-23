@@ -479,6 +479,11 @@ WORDS.person = {
     sda: ["tau", "tau"],
     tue: ["basokɨ", "basokɨ"],
     wba: ["aɾao", "aɾao"],
-    wbp: ["yapa", "japa"]
+    wbp: ["yapa", "japa"],
+    ko_kp: ["사람", "saɾam"],
+    ko_yb: ["사람", "saɾam"],
+    ko_hg: ["사람", "saram"],
+    ko_jl: ["사람", "saram"],
+    ja_kyo: ["人", "çito"]
   }
 };

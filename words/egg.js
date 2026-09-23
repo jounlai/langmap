@@ -893,6 +893,8 @@ WORDS.egg = {
     xul: ["gubbong", "ɡubboŋ"],
     kgg: ["gwa", "ɡwa"],
     rim: ["ighe", "iɣe"],
-    wba: ["ahi", "ahi"]
+    wba: ["ahi", "ahi"],
+    ko_hg: ["달걀", "talɡjal"],
+    ko_jl: ["달걀", "talɡjal"]
   },
 };

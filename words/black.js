@@ -736,6 +736,8 @@ WORDS.black = {
     pon: ["toantoal", "toːntoːl"],
     rtm: ["kele", "kele"],
     wba: ["ana", "ana"],
-    wbp: ["kirdily", "kiɖiʎ"]
+    wbp: ["kirdily", "kiɖiʎ"],
+    ko_hg: ["까맣다", "k͈amatʰa"],
+    ko_jl: ["까맣다", "k͈amatʰa"]
   },
 };

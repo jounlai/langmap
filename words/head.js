@@ -562,6 +562,11 @@ WORDS.head = {
     myp: ["ʔapapai", "ʔapapai"],
     rim: ["itwe", "itwe"],
     rn: ["umutwe", "umutwe"],
-    xog: ["omutwe", "omutwe"]
+    xog: ["omutwe", "omutwe"],
+    ko_kp: ["머리", "mʌɾi"],
+    ko_yb: ["머리", "mʌɾi"],
+    ko_hg: ["머리", "məri"],
+    ko_jl: ["머리", "məri"],
+    ja_kyo: ["頭", "atama"]
   },
 };

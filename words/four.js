@@ -1106,6 +1106,7 @@ WORDS.four = {
     jmc: ["fiina", "fiina"],
     pbb: ["pahz", "paʰts"],
     wba: ["oɾabakaja", "oɾabakaha"],
-    xpr: ["čafār", "tʃafaːr"]
+    xpr: ["čafār", "tʃafaːr"],
+    ko_jl: ["넷", "net̚"]
   },
 };

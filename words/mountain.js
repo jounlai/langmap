@@ -440,6 +440,7 @@ WORDS.mountain = {
     prg: ["grabis", "ɡrabis"],
     se: ["várri", "ˈvaːrːi"],
     jiu: ["ɣɯ31tha55", "ɣɯ˧˩tʰa˥˥"],
-    trv: ["dgiyaq", "dɡijaq"]
+    trv: ["dgiyaq", "dɡijaq"],
+    pt_br: ["montanha", "mõˈtaɲɐ"]
   }
 };

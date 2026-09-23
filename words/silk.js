@@ -250,6 +250,12 @@ WORDS.silk = {
     jam: ["silk", "sɪlk"],
     se: ["silki", "ˈsilki"],
     rtm: ["silika", "silika"],
-    kek: ["seda", "seda"]
+    kek: ["seda", "seda"],
+    es_mx: ["seda", "ˈseða"],
+    es_ar: ["seda", "ˈseða"],
+    es_cl: ["seda", "ˈseða"],
+    es_cu: ["seda", "ˈseða"],
+    es_an: ["seda", "ˈseða"],
+    pt_br: ["seda", "ˈsedɐ"]
   }
 };

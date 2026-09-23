@@ -415,6 +415,7 @@ WORDS.sea = {
     jiu: ["lɐ31mɔ33", "lɐ˧˩mɔ˧˧"],
     agr: ["nayants", "najants"],
     chk: ["sáát", "saːt"],
-    trv: ["gsilung", "ɡsiluŋ"]
+    trv: ["gsilung", "ɡsiluŋ"],
+    pt_br: ["mar", "maɾ"]
   }
 };

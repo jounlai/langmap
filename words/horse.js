@@ -498,6 +498,7 @@ WORDS.horse = {
     rtm: ["hạsu", "hɔsu"],
     agr: ["kawayu", "kawaju"],
     kek: ["kawaay", "kawaːj"],
-    acu: ["kawai", "kawai"]
+    acu: ["kawai", "kawai"],
+    pt_br: ["cavalo", "kaˈvalu"]
   }
 };

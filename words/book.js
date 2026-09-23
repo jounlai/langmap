@@ -450,6 +450,11 @@ WORDS.book = {
     jiu: ["a33pjo33", "a˧˧pjo˧˧"],
     rtm: ["puku", "puku"],
     agr: ["papi", "papi"],
-    kek: ["hu", "hu"]
+    kek: ["hu", "hu"],
+    es_mx: ["libro", "ˈliβɾo"],
+    es_cu: ["libro", "ˈliβɾo"],
+    es_an: ["libro", "ˈliβɾo"],
+    es_uy: ["libro", "ˈliβɾo"],
+    pt_br: ["livro", "ˈlivɾu"]
   }
 };

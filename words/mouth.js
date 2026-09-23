@@ -591,6 +591,7 @@ WORDS.mouth = {
     prg: ["austo", "au̯sto"],
     se: ["njálbmi", "ˈɲaːlpmi"],
     jiu: ["mø33mø33", "mø˧˧mø˧˧"],
-    rtm: ["nuju", "nutʃu"]
+    rtm: ["nuju", "nutʃu"],
+    pt_br: ["boca", "ˈbokɐ"]
   }
 };

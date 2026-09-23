@@ -512,6 +512,11 @@ WORDS.person = {
     enf: ["enchi", "ɛntʃi"],
     jiu: ["tshɐ35", "tsʰɐ˧˥"],
     rtm: ["famori", "famori"],
-    kek: ["poyanam", "pojanam"]
+    kek: ["poyanam", "pojanam"],
+    es_mx: ["persona", "peɾˈsona"],
+    es_ar: ["persona", "peɾˈsona"],
+    es_cl: ["persona", "peɾˈsona"],
+    es_cu: ["persona", "peɾˈsona"],
+    es_an: ["persona", "peɾˈsona"]
   }
 };

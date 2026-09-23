@@ -390,7 +390,7 @@ WORDS.moon = {
     ar_sd: ["قمر", "ɡamaɾ"],
     ti: ["ወርሒ", "wərħi"],
     mt: ["qamar", "ʔamaɾ"],
-    ig: ["ọnwa", "ɔŋwa"],
+    ig: ["ọnwa", "ɔŋʷa"],
     bom: ["cwèl", "tʃwèl"],
     tiv: ["uwer", "uwɛɾ"],
     efi: ["ọfiọñ", "ɔfiɔŋ"],

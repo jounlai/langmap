@@ -1084,7 +1084,7 @@ WORDS.salt = {
     ess: ["таӷьюӄ", "taɣjuq"],
     iu: ["ᑕᕆᐅᖅ", "tariuq"],
     kl: ["taratsut", "taratsut"],
-    tsz: ["itúkua", "iˈtukwa"],
+    tsz: ["itúkua", "iˈtukʷa"],
 
 
     // --- Romance and Germanic minority languages, second pass --------

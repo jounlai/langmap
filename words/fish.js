@@ -272,7 +272,7 @@ WORDS.fish = {
     eve: ["олра", "olra"],
     gld: ["согдата", "sɔɡdata"],
     ude: ["сугдя", "suɡdʑa"],
-    yrk: ["халя", "xaʎa"],
+    yrk: ["халя", "xalʲa"],
     enf: ["kari", "kari"],
     nio: ["колы", "kolɨ"],
     sel: ["ӄэлы", "qælɨ"],

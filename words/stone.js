@@ -330,7 +330,7 @@ WORDS.stone = {
     lij: ["prîa", "ˈpriːa"],
     rgn: ["sas", "sas"],
     egl: ["sas", "sas"],
-    frp: ["pierra", "ˈpjɛɾɔ"],
+    frp: ["pierra", "ˈpjɛrɔ"],
     ca: ["pedra", "ˈpeðɾə"],
     gl: ["pedra", "ˈpeðɾa"],
     oc: ["pèira", "ˈpɛjɾo"],

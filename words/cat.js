@@ -394,7 +394,7 @@ WORDS.cat = {
     ar_sd: ["قطّ", "ɡutˤtˤ"],
     ti: ["ድሙ", "dɨmmu"],
     mt: ["qattus", "ʔattus"],
-    ig: ["nwamba", "ŋwamba"],
+    ig: ["nwamba", "ŋʷamba"],
     bom: ["mìshí", "mìʃí"],
     tiv: ["anyam", "aɲam"],
     efi: ["nyabudaha", "ɲabudaha"],

@@ -105,7 +105,7 @@ WORDS.eye = {
       es_pa: ["ojo", "oho"],
       en_my: ["eye", "aɪ"],
       pt_gw: ["ólhu", "ɔlʎu"],
-      tsz: ["éskua", "ˈeskwa"],
+      tsz: ["éskua", "ˈeskʷa"],
       nez: ["—", "—"],
       woe: ["maate", "maːte"],
       pmt: ["mata", "mata"],

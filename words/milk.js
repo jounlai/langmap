@@ -714,7 +714,7 @@ WORDS.milk = {
     cng: ["cəp", "tsəp"],
     za: ["cij", "ɕi˥"],
     bar: ["Muich", "muɪx"],
-    pdt: ["Malkj", "malkʲ"],
+    pdt: ["Malkj", "malc"],
     rgn: ["làt", "lat"],
     sgs: ["pėins", "pʲeːins"],
     aae: ["klëmsh", "kləmʃ"],

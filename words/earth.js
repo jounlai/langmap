@@ -399,7 +399,7 @@ WORDS.earth = {
     ln: ["mabele", "mabele"],
     mos: ["tẽŋgã", "tẽŋɡã"],
     nv: ["łeezh", "ɬeːʒ"],
-    qu: ["allpa", "alʲpa"],
+    qu: ["allpa", "aʎpa"],
     quz: ["allpa", "alʲpa"],
     quy: ["allpa", "aʎpa"],
     qwc: ["allpa", "alʲpa"],

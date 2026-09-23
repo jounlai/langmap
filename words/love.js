@@ -105,7 +105,7 @@ WORDS.love = {
       es_pa: ["amor", "aˈmoɾ"],
       en_my: ["love", "laf"],
       pt_gw: ["amur", "amur"],
-      tsz: ["uémbekua", "weˈmbekwa"],
+      tsz: ["uémbekua", "weˈmbekʷa"],
       nez: ["—", "—"],
       woe: ["—", "—"],
       pmt: ["aroha", "aroha"],

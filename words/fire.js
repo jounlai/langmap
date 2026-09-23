@@ -437,7 +437,7 @@ WORDS.fire = {
     pdt: ["Fia", "fia"],
     yi: ["פֿײַער", "fajər"],
     is: ["eldur", "ɛltʏɹ"],
-    gd: ["teine", "ˈtʲɛnʲə"],
+    gd: ["teine", "ˈtʲɛɲə"],
     br: ["tan", "tɑ̃ːn"],
     nap: ["fuoco", "fwɔkə"],
     scn: ["focu", "fɔku"],

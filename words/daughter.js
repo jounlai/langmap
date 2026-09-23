@@ -686,7 +686,7 @@ WORDS.daughter = {
     sbp: ["mwali", "mwali"],
     rwk: ["mwana wa kika", "mwana wa kika"],
     asu: ["mwana wa kibora", "mwana wa kibora"],
-    ig: ["nwa nwaanyị", "ŋwa ŋwaːɲɪ"],
+    ig: ["nwa nwaanyị", "ŋʷa ŋʷaːɲɪ"],
     bom: ["hwóng", "hwóŋ"],
     tiv: ["wan u kwase", "wan u kwase"],
     efi: ["eyen an̄wan", "ejɛn aŋwan"],

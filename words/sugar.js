@@ -471,7 +471,7 @@ WORDS.sugar = {
     nds: ["Sucker", "ˈzʊkɐ"],
     yi: ["צוקער", "ˈtsukər"],
     is: ["sykur", "ˈsɪːkʏr"],
-    gd: ["siùcar", "ˈʃuːxkər"],
+    gd: ["siùcar", "ˈʃuːxkəɾ"],
     br: ["sukr", "sykɾ"],
     nap: ["zùccaro", "ˈtsukkərə"],
     scn: ["zuccuru", "ˈtsukkuru"],

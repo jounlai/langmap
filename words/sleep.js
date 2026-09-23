@@ -208,7 +208,7 @@ WORDS.sleep = {
     jvn: ["turu", "turu"],
     su: ["saré", "sare"],
     ceb: ["matulog", "maˈtuloɡ"],
-    ilo: ["maturog", "maˈturoɡ"],
+    ilo: ["maturog", "maˈtuɾoɡ"],
     fj: ["moce", "moðe"],
     rtm: ["mose", "ˈmose"],
     sm: ["moe", "moe"],

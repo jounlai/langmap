@@ -429,7 +429,7 @@ WORDS.drink = {
     de_at: ["trinken", "ˈtrɪŋkn̩"],
     gsw: ["trinke", "trɪŋkə"],
     swg: ["drengga", "dɾɛŋɡə"],
-    bar: ["dringa", "dɾɪŋɡɐ"],
+    bar: ["dringa", "drɪŋɡɐ"],
     vmf: ["trinke", "trɪŋkə"],
     wae: ["trinke", "trɪŋkə"],
     nds: ["drinken", "drɪŋkn̩"],

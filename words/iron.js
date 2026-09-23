@@ -620,7 +620,7 @@ WORDS.iron = {
     gaa: ["dade", "dade"],
     ee: ["ga", "ɡa"],
     fon: ["gan", "ɡã"],
-    ig: ["igwe", "iɡwe"],
+    ig: ["igwe", "iɡʷe"],
     bin: ["ematọn", "ematɔ̃"],
     urh: ["ogba", "oɡba"],
     ekp: ["uci", "utʃi"],

@@ -654,7 +654,7 @@ WORDS.honey = {
     ses: ["yuu", "juː"],
     wal: ["eessaa", "eːsːaː"],
     hui: ["mone ibane", "mone ibane"],
-    ilo: ["diro", "diˈro"],
+    ilo: ["diro", "diˈɾo"],
     djr: ["guku", "ɡuku"],
     pjt: ["tjuratja", "ˈcuɾaca"],
     wbp: ["ngarlu", "ŋaɭu"],

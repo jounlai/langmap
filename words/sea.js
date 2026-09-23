@@ -123,7 +123,7 @@ WORDS.sea = {
     lv: ["jūra", "ˈjuːra"],
     et: ["meri", "ˈmeri"],
     mt: ["baħar", "ˈbaħar"],
-    gd: ["muir", "murʲ"],
+    gd: ["muir", "muɾʲ"],
     br: ["mor", "moːr"],
     mn: ["далай", "taˈɮaj"],
     az: ["dəniz", "dæˈniz"],

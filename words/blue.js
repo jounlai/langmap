@@ -793,7 +793,7 @@ WORDS.blue = {
     yi: ["בלוי", "blɔj"],  // Yiddish בלוי against גרין, both from the German stock.
     ykg: ["хомоньэй", "xomoˈnʲej"],  // Tundra Yukaghir: NorthEuraLex gives хомоньэ- for blue and хомоньэй for green — the same stem. The finite/attributive хомоньэй is used here.
     yo: ["dúdú", "dúdú"],  // Three-term system (funfun / pupa / dúdú), all three already in this row; dúdú is the dark/cool term and the blue cell is deliberately identical to the black cell. Modern blue-specific expressions exist beside it: búlùú (< English 'blue'), àwọ̀ aró 'colour of dye', and aró / ayinrin (indigo, light blue) — Crowther (1843) Vocabulary of the Yoruba Language already has "Ayinrin, s. light blue".
-    yrk: ["тӑнзинена", "tənzʲiˈɲeːna"],  // Tundra Nenets тӑнзинена vs илебей; IDS also records numlaxa 'sky-like'.
+    yrk: ["тӑнзинена", "tənzʲiˈnʲeːna"],  // Tundra Nenets тӑнзинена vs илебей; IDS also records numlaxa 'sky-like'.
     yua: ["yaʼax", "jaʔaʃ"],  // Form copied from https://en.wiktionary.org/wiki/ya%CA%BCax (Yucatec Maya). The Wiktionary gloss is only 'green', but both sources above show the term covers the sky's blue as well.
     yue: ["藍", "laːm˨˩"],  // Cantonese 藍 laam4, 陽平 like 紅 hung4, hence the same ˨˩ contour as the row's red cell. Green is 綠 luk6.
     zh: ["蓝", "lan˧˥"],  // Modern Mandarin 蓝 lán against 绿 lǜ. The older grue term is 青 qīng, which ran from yellow-green through deep blue to black and survives in 青草, 青天, 青丝 — Chinese split the range historically rather than lexically.

@@ -685,7 +685,7 @@ WORDS.hundred = {
     cak: ["wokʼal", "wokʼal"],   // five twenties
     kjb: ["okʼal", "okʼal"],   // five twenties
     tzh: ["joʼ winik", "hoʔ winik"],   // five twenties — winik is the score, literally man
-    tsz: ["yumu ekuatsi", "jumu ekwatsi"],   // five twenties — yumu is this row's own five
+    tsz: ["yumu ekuatsi", "jumu ekʷatsi"],   // five twenties — yumu is this row's own five
     tar: ["siénto", "ˈsjento"],   // Spanish loan
     emp: ["cien", "sjen"],   // Spanish loan
     // --- Europe, the Caucasus rim and mainland Asia ------------------------

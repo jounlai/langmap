@@ -389,7 +389,7 @@ WORDS.sun = {
     ar_sd: ["شمس", "ʃams"],
     ti: ["ጸሓይ", "tsʼəħaj"],
     mt: ["xemx", "ʃɛmʃ"],
-    ig: ["anyanwụ", "aɲaŋwʊ"],
+    ig: ["anyanwụ", "aɲaŋʷʊ"],
     bom: ["kọs", "kɔs"],
     tiv: ["iyange", "ijaŋɡe"],
     efi: ["utin", "utin"],

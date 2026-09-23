@@ -1896,7 +1896,7 @@ WORDS.foot = {
     nij: ["pai", "pai"],  // Wiktionary glosses Ngaju pai 'foot, leg' in one entry, and buntis is the shank, not a rival.
     nio: ["ӈой", "ŋoj"],  // Samoyedic: one word for the lower limb.
     niu: ["hui", "hui"],  // Niuean takes hui, not the *waqe reflex: POLLEX marks vee 'leg, foot' as the respectful term, and the ACD glosses hui 'foot, leg; bone' in one entry.
-    niv: ["ӈатьх", "ŋæcx"],  // One word for the lower limb.
+    niv: ["ӈатьх", "ŋætʲx"],  // One word for the lower limb.
     njo: ["tetsüng", "tətsəŋ"],  // Marrison's Chungli list answers both FOOT and LEG with tetsüng and Coupe glosses the Mongsen cognate tətʃaŋ 'leg, foot'; temopo is the dorsum only.
     nl: ["voet", "vut"],  // voet vs been. Note poot covers an animal's whole limb.
     nl_be: ["voet", "vut"],  // The row's one systematic phonetic departure is the initial approximant, absent from voet, and its own moeder /mudər/ shows the same /u/ this cell takes.

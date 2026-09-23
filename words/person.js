@@ -123,7 +123,7 @@ WORDS.person = {
     lv: ["cilvēks", "ˈtsilvɛːks"],
     et: ["inimene", "ˈinimene"],
     mt: ["bniedem", "ˈbniɛdɛm"],
-    gd: ["duine", "ˈt̪ɯnʲə"],
+    gd: ["duine", "ˈt̪ɯɲə"],
     br: ["den", "deːn"],
     mn: ["хүн", "xuŋ"],
     az: ["insan", "inˈsan"],

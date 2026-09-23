@@ -416,7 +416,7 @@ WORDS.water = {
     rw: ["amazi", "amaːzi"],
     rn: ["amazi", "amaːzi"],
     xh: ["amanzi", "amaːnzi"],
-    sn: ["mvura", "mvuɾa"],
+    sn: ["mvura", "mvura"],
     mxc: ["mvura", "mvuɾa"],
     ln: ["máí", "máí"],
     ny: ["madzi", "madzi"],

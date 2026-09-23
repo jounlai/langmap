@@ -45,13 +45,23 @@ function fillingIn() {
     return new Set([...m[1].matchAll(/'([a-z0-9_]+)'/g)].map((x) => x[1]));
 }
 
-/** `partial: true` lives in the word's own file, which is where a reader
- *  looking at the concept would go for it. */
+/**
+ * `partial: true` lives in the word's own file, which is where a reader
+ * looking at the concept would go for it.
+ *
+ * Read the WHOLE file and anchor on the two-space indent of a top-level
+ * field. The first version read the first 4 KB and matched any indent, which
+ * got both ends of that wrong: cockcrow declares the flag on line 350 and n99
+ * on line 162, both past 4 KB behind long docstrings, so the two most
+ * conspicuously partial words on the map were labelled `core` and the page
+ * showed cockcrow as a core word sitting at 8%. A page that mislabels the
+ * tier is worse than no page, because the tier is the whole reason a low
+ * percentage is or is not a gap.
+ */
 function isPartial(id) {
     const p = path.join(ROOT, 'words', `${id}.js`);
     if (!fs.existsSync(p)) return false;
-    const head = fs.readFileSync(p, 'utf8').slice(0, 4000);
-    return /\n\s*partial:\s*true/.test(head);
+    return /^ {2}partial:\s*true\s*,?\s*$/m.test(fs.readFileSync(p, 'utf8'));
 }
 
 function main() {

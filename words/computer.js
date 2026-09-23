@@ -194,7 +194,7 @@ WORDS.computer = {
     "gag": ["kompyuter", "kompjuˈter"],
     "gan": ["电脑", "tiɛn˩˩ lau˨˩˧"],
     "gay": ["komputer", "komˈputər"],
-    "gd": ["coimpiutair", "ˈkʰɔimpjutɪrʲ"],
+    "gd": ["coimpiutair", "ˈkʰɔimpjutɪɾʲ"],
     "gl": ["ordenador", "oɾðenaˈðoɾ"],
     "gn": ["mohendaha", "mohendaˈha"],
     "gsw": ["Computer", "komˈpjuːtər"],

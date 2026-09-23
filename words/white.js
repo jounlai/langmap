@@ -310,7 +310,7 @@ WORDS.white = {
     jvn: ["putih", "ˈputɪh"],
     su: ["bodas", "bodas"],
     ceb: ["puti", "puˈti"],
-    ilo: ["puraw", "puˈraw"],
+    ilo: ["puraw", "puˈɾaw"],
     fj: ["vulavula", "βulaβula"],
     rtm: ["fisi", "fisi"],
     sm: ["paʻepaʻe", "paʔepaʔe"],

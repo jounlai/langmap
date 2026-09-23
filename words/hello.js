@@ -278,7 +278,7 @@ WORDS.hello = {
     kpy: ["эймэӄ", "ejmeq"],
     itl: ["—", "—"],
     ykg: ["—", "—"],
-    yux: ["льуоркэн", "lʲuorken"],
+    yux: ["льуоркэн", "ʎuorken"],
     niv: ["ӈафӄа", "ŋafqa"],
     ket: ["торова", "torova"],
     my: ["မင်္ဂလာပါ", "mìɴɡəlà bà"],

@@ -85,7 +85,7 @@ WORDS.green = {
     th: ["เขียว", "kʰiaw˩˩˦"],
     id: ["hijau", "ˈhidʒau"],
     ms: ["hijau", "ˈhidʒau"],
-    tl: ["berde", "ˈbɛrde"],
+    tl: ["berde", "ˈbɛɾde"],
     hi: ["हरा", "ɦəˈraː"],
     bn: ["সবুজ", "ʃobudʒ"],
     ta: ["பச்சை", "patːɕai"],
@@ -396,7 +396,7 @@ WORDS.green = {
     pam: ["aluntian", "ʔaluntiˈan"],
     pap: ["bèrdè", "ˈbɛrdɛ"],
     pdc: ["grie", "ɡriː"],
-    pdt: ["jreen", "jreːn"],
+    pdt: ["jreen", "jɾeːn"],
     pkp: ["yengayenga", "jeŋajeŋa"],   // Grue: ABVD elicits it for green and it is already this row's 'blue'.
     pms: ["verd", "vɛrt"],
     pnb: ["ہرا", "ɦəraː"],

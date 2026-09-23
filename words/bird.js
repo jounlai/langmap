@@ -79,7 +79,7 @@ WORDS.bird = {
     es_py: ["pájaro", "ˈpaxaɾo"],
     es_pa: ["pájaro", "ˈpahaɾo"],
     en_my: ["bird", "bɜːd"],
-    tsz: ["kuini", "kwini"],
+    tsz: ["kuini", "kʷini"],
     pmt: ["manu", "manu"],
     bin: ["ahianmwen", "ahjãmwɛ̃"],
     gun: ["guyra", "ɡɨˈɾa"],

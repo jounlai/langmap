@@ -1001,6 +1001,8 @@ WORDS.daughter = {
     syl: ["ফুড়ি", "fuɽi"],
     bhb: ["छोरी", "tʃʰoːɾiː"],
     rkt: ["বেটি", "beʈi"],
-    sat: ["ᱦᱚᱯᱚᱱ ᱮᱨᱟ", "hɔpɔn era"]
+    sat: ["ᱦᱚᱯᱚᱱ ᱮᱨᱟ", "hɔpɔn era"],
+    bgq: ["बेटी", "beːʈiː"],
+    kg: ["mwana ya nkento", "mwana ja nkento"]
   },
 };

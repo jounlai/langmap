@@ -455,6 +455,11 @@ WORDS.butterfly = {
     ko_bus: ["나비", "nabi"],
     ko_jl: ["나비", "nabi"],
     mn_cn: ["ᠡᠷᠪᠡᠬᠡᠢ", "erweːxei"],
-    mad: ["ghâpper", "ɡʱɤppər"]
+    mad: ["ghâpper", "ɡʱɤppər"],
+    ks: ["پَنہٕ پونٛپُر", "panɨpõːpur"],
+    bgq: ["तितली", "titliː"],
+    ee: ["kpakpaluʋui", "kpakpaluʋui"],
+    nso: ["serurubele", "seruruˈbele"],
+    sg: ["püpülenge", "pupulenɡe"]
   },
 };

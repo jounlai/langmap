@@ -858,6 +858,14 @@ WORDS.snow = {
     sn: ["sinoo", "sinoː"],
     dyu: ["nɛzi", "nɛzi"],
     kln: ["teluchi", "telutʃi"],
-    kri: ["sno", "sno"]
+    kri: ["sno", "sno"],
+    bgq: ["बरफ", "bərəf"],
+    ti: ["ውርጪ", "wɨrtʃʼi"],
+    suk: ["seluji", "seludʒi"],
+    tiv: ["senou", "senou"],
+    ibb: ["sino", "sino"],
+    lg: ["omuzira", "omuzira"],
+    mos: ["sa-ko-gĩsdim", "sakoɡĩsdim"],
+    vmw: ["nxotte", "nʃotːe"]
   },
 };

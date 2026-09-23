@@ -1041,6 +1041,11 @@ WORDS.earth = {
     tsj: ["sa", "sa"],
     mhy: ["taneʔ", "taneʔ"],
     nan_hai: ["土", "hɔu˨˩"],
-    kln: ["ng'ung'unyek", "ŋuŋuɲek"]
+    kln: ["ng'ung'unyek", "ŋuŋuɲek"],
+    ks: ["زٔمیٖن", "zəmiːn"],
+    suk: ["malongo", "maloŋɡo"],
+    umb: ["eve", "eve"],
+    luy: ["liloba", "liloba"],
+    vmw: ["etthaya", "etʰːaja"]
   },
 };

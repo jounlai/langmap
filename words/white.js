@@ -1141,6 +1141,7 @@ WORDS.white = {
     cng: ["phi", "pʰi"],
     mch: ["töʼkeʼne", "təʔkeʔne"],
     bhb: ["धोळु", "dʱoːɭu"],
-    rkt: ["সাদা", "sada"]
+    rkt: ["সাদা", "sada"],
+    vmw: ["otteela", "otːeːla"]
   },
 };

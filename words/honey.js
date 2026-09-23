@@ -835,6 +835,13 @@ WORDS.honey = {
     kln: ["kumyat", "kumjat"],
     sat: ["ᱧᱮᱞᱮ ᱨᱟᱥᱟ", "ɲele rasa"],
     anp: ["शहद", "ʃəɦəd"],
-    kri: ["ɔni", "ˈɔni"]
+    kri: ["ɔni", "ˈɔni"],
+    suk: ["buuki", "buːki"],
+    tiv: ["iyough", "ijouɣ"],
+    lua: ["buitshi", "buitʃi"],
+    kg: ["bwiki", "bwiki"],
+    nso: ["todi", "todi"],
+    luy: ["obushi", "obuʃi"],
+    vmw: ["oravo", "oɾavo"]
   },
 };

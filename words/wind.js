@@ -929,6 +929,10 @@ WORDS.wind = {
     rkt: ["বাতাস", "batas"],
     kln: ["usoonet", "usoːnet"],
     anp: ["हवा", "ɦəʋaː"],
-    kri: ["briz", "briz"]
+    kri: ["briz", "briz"],
+    suk: ["nyaga", "ɲaɡa"],
+    mos: ["sobgo", "sobɡo"],
+    luy: ["omuyeka", "omujeka"],
+    vmw: ["epheyo", "epʰejo"]
   },
 };

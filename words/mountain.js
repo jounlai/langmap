@@ -501,6 +501,21 @@ WORDS.mountain = {
     sat: ["ᱵᱩᱨᱩ", "buru"],
     anp: ["पहाड़", "pəɦaːɽ"],
     kri: ["mawnten", "ˈmawnten"],
-    qu: ["urqu", "ˈuɾqu"]
+    qu: ["urqu", "ˈuɾqu"],
+    bgq: ["डूंगर", "ɖũːɡər"],
+    mey: ["جبل", "ʒbal"],
+    ti: ["እምባ", "ʔɨmba"],
+    shi: ["ⴰⴷⵔⴰⵔ", "adrar"],
+    rif: ["ⴰⴷⵔⴰⵔ", "adrar"],
+    tzm: ["ⴰⴷⵔⴰⵔ", "adrar"],
+    suk: ["lugulu", "luɡulu"],
+    tiv: ["uwo", "uwo"],
+    ibb: ["obot", "obot"],
+    lua: ["mukuna", "mukuna"],
+    sg: ["hoto", "hoto"],
+    umb: ["omunda", "omunda"],
+    mos: ["tãnga", "tãŋɡa"],
+    luy: ["eshikulu", "eʃikulu"],
+    vmw: ["mwaako", "mwaːko"]
   }
 };

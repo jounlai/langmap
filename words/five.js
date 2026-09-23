@@ -1112,6 +1112,8 @@ WORDS.five = {
     mhy: ["dime", "dime"],
     myx: ["tsirano", "tsirano"],
     sbp: ["sisanu", "sisanu"],
-    ctg: ["ফাঁচ", "fãtʃ"]
+    ctg: ["ফাঁচ", "fãtʃ"],
+    ks: ["پانٛژھ", "pãːtsʰ"],
+    luy: ["tsirano", "tsirano"]
   },
 };

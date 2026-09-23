@@ -853,6 +853,14 @@ WORDS.milk = {
     kln: ["chego", "tʃeɡo"],
     mn_cn: ["ᠰᠦᠨ", "syː"],
     mad: ["susu", "susu"],
-    qu: ["lichi", "ˈlitʃi"]
+    qu: ["lichi", "ˈlitʃi"],
+    tzm: ["ⴰⵖⵓ", "aɣu"],
+    suk: ["mabeele", "mabeːle"],
+    ibb: ["mmọñ eba", "m̩mɔŋ eba"],
+    sg: ["ngû tî mê", "ŋɡu ti mɛ"],
+    umb: ["asenjele", "asendʒele"],
+    mos: ["bĩisim", "bĩːsim"],
+    luy: ["amabeere", "amabeːre"],
+    vmw: ["eleeti", "eleːti"]
   },
 };

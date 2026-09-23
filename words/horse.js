@@ -546,6 +546,24 @@ WORDS.horse = {
     th_s: ["ม้า", "maː˧˥"],
     mad: ["jhârân", "dʒʱɤrɤn"],
     sat: ["ᱥᱟᱫᱚᱢ", "sadɔm"],
-    kri: ["ɔs", "ɔs"]
+    kri: ["ɔs", "ɔs"],
+    bgq: ["घोड़ो", "ɡʱoːɽo"],
+    ti: ["ፈረስ", "fɐrɐs"],
+    kab: ["aɛewdiw", "aʕəwdiw"],
+    shi: ["ⴰⵢⵢⵉⵙ", "ajːis"],
+    rif: ["ⵢⵉⵙ", "jis"],
+    tzm: ["ⴰⵢⵉⵙ", "ajis"],
+    suk: ["falasa", "falasa"],
+    tiv: ["nyinya", "ɲiɲa"],
+    ibb: ["enañ mbakara", "enaŋ mbakara"],
+    lg: ["embalaasi", "embalaːsi"],
+    lua: ["kabalu", "kabalu"],
+    kg: ["mpunda", "mpunda"],
+    ee: ["sɔ", "sɔ"],
+    sg: ["mbärätä", "mbarata"],
+    umb: ["okavalu", "okavalu"],
+    mos: ["wed-moaaga", "wedmoaːɡa"],
+    luy: ["ifarasi", "ifarasi"],
+    vmw: ["ekhavalo", "ekʰavalo"]
   }
 };

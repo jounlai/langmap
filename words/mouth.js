@@ -645,6 +645,22 @@ WORDS.mouth = {
     sat: ["ᱢᱚᱪᱟ", "mɔtʃa"],
     anp: ["मुँह", "mũːɦ"],
     kri: ["mɔt", "mɔt"],
-    qu: ["simi", "ˈsimi"]
+    qu: ["simi", "ˈsimi"],
+    ks: ["ٲس", "əːs"],
+    bgq: ["मूंडो", "mũːɖo"],
+    ti: ["ኣፍ", "ʔaf"],
+    shi: ["ⵉⵎⵉ", "imi"],
+    rif: ["ⴰⵇⴻⵎⵎⵓⵎ", "aqəmːum"],
+    tzm: ["ⵉⵎⵉ", "imi"],
+    tiv: ["zwa", "zwa"],
+    lg: ["akamwa", "akamwa"],
+    lua: ["mukana", "mukana"],
+    kg: ["munoko", "munoko"],
+    kr: ["ci", "tʃi"],
+    sg: ["yângâ", "jaŋɡa"],
+    umb: ["omẽla", "omẽla"],
+    mos: ["noore", "noːre"],
+    luy: ["omunwa", "omunwa"],
+    vmw: ["eyano", "ejano"]
   }
 };

@@ -954,6 +954,9 @@ WORDS.sleep = {
     ctg: ["গুম যন", "ɡum dʒɔn"],
     bhb: ["सोनु", "soːnu"],
     rkt: ["শুতা", "suta"],
-    kln: ["ru", "ru"]
+    kln: ["ru", "ru"],
+    tiv: ["yav", "jav"],
+    kr: ["lettə", "letːə"],
+    mos: ["gũsi", "ɡũsi"]
   },
 };

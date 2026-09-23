@@ -995,6 +995,11 @@ WORDS.nose = {
     mnp: ["鼻", "pʰi˥˥"],
     zh_nj: ["鼻子", "pi˧˥ tsɿ"],
     wuu_wz: ["鼻", "bi˨˩˧"],
-    kln: ["serut", "serut"]
+    kln: ["serut", "serut"],
+    ibb: ["ibuo", "ibuo"],
+    lua: ["diulu", "diulu"],
+    umb: ["enyulu", "eɲulu"],
+    luy: ["amolu", "amolu"],
+    vmw: ["ephula", "epʰula"]
   },
 };

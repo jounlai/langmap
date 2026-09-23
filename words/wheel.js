@@ -815,6 +815,9 @@ WORDS.wheel = {
     rkt: ["চাকা", "tʃaka"],
     dyu: ["mɔbilisen", "mɔbilisen"],
     jvn: ["rodha", "rɔɖɔ"],
-    bo: ["འཁོར་ལོ", "kʰorlo˥"]
+    bo: ["འཁོར་ལོ", "kʰorlo˥"],
+    bgq: ["चक्को", "tʃəkːo"],
+    suk: ["idandali", "idandali"],
+    ibb: ["wiil", "wiːl"]
   },
 };

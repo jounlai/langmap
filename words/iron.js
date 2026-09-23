@@ -849,6 +849,11 @@ WORDS.iron = {
     th_s: ["เหล็ก", "lek˨˩"],
     kri: ["ayɛn", "ˈajɛn"],
     gn: ["itakandua", "itakanˈdua"],
-    qu: ["qʼillay", "ˈqʼiʎaj"]
+    qu: ["qʼillay", "ˈqʼiʎaj"],
+    ks: ["شیٚستٕر", "ʃestɨr"],
+    tiv: ["iyôgh", "ijɔɣ"],
+    ibb: ["ukwak", "ukwak"],
+    lua: ["tshiamu", "tʃiamu"],
+    vmw: ["eyuuma", "ejuːma"]
   },
 };

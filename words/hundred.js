@@ -867,6 +867,14 @@ WORDS.hundred = {
     th_s: ["ร้อย", "rɔːj˧˥"],
     anp: ["सौ", "sɔː"],
     kri: ["ɔndrɛd", "ˈɔndrɛd"],
-    gn: ["sa", "sa"]
+    gn: ["sa", "sa"],
+    kab: ["meyya", "məjːa"],
+    shi: ["ⵎⵢⴰ", "mja"],
+    rif: ["ⵎⵢⴰ", "mja"],
+    tzm: ["ⵎⵢⴰ", "mja"],
+    tiv: ["deri", "dɛɾi"],
+    kg: ["nkama", "nkama"],
+    kr: ["miya", "mija"],
+    sg: ["ngbangbo oko", "ŋɡbaŋɡbɔ oko"]
   },
 };

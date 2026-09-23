@@ -965,6 +965,10 @@ WORDS.stone = {
     wuu_nb: ["石头", "zɐʔ˩˨ dɤu"],
     wuu_sz: ["石头", "zɐʔ˧ dɤ˨˨˧"],
     wuu_wz: ["石头", "zei˨˩˧ dau˧˩"],
-    kln: ["koita", "koita"]
+    kln: ["koita", "koita"],
+    bgq: ["पाथर", "paːtʰər"],
+    kr: ["kau", "kau"],
+    luy: ["lichina", "litʃina"],
+    vmw: ["nluku", "nluku"]
   },
 };

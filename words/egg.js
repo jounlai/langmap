@@ -911,6 +911,10 @@ WORDS.egg = {
     rkt: ["ডিমা", "ɖima"],
     dyu: ["sisɛfan", "sisɛfã"],
     cnp: ["鸡蛋", "kɐi˥˦ tan˨"],
-    kln: ["mayaiyat", "majaijat"]
+    kln: ["mayaiyat", "majaijat"],
+    bgq: ["अंडो", "aɳɖo"],
+    tiv: ["ijikegh", "idʒikeɣ"],
+    kr: ["ngəwəl", "ŋɡəwəl"],
+    sg: ["para", "para"]
   },
 };

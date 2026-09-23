@@ -938,6 +938,11 @@ WORDS.bird = {
     agr: ["pishak", "piʃak"],
     trv: ["qbhni", "qbhəni"],
     ctg: ["ফাকি", "faki"],
-    kln: ["taritiet", "taritiet"]
+    kln: ["taritiet", "taritiet"],
+    ks: ["جاناوار", "dʒaːnaːvar"],
+    lua: ["nyunyu", "ɲuɲu"],
+    mos: ["liuula", "liuːla"],
+    luy: ["linyonyi", "liɲoɲi"],
+    vmw: ["mwaanuni", "mwaːnuni"]
   },
 };

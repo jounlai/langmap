@@ -325,6 +325,22 @@ WORDS.silk = {
     anp: ["रेशम", "reːʃəm"],
     kri: ["silk", "sɪlk"],
     gn: ["séda", "ˈseda"],
-    qu: ["seda", "ˈseda"]
+    qu: ["seda", "ˈseda"],
+    bgq: ["रेसम", "reːsəm"],
+    mey: ["حرير", "ħariːr"],
+    ti: ["ሃሪ", "hari"],
+    kab: ["lḥrir", "lħriɾ"],
+    shi: ["ⵍⵃⵔⵉⵔ", "lħriɾ"],
+    rif: ["ⵔⴻⵃⵔⵉⵔ", "rəħriɾ"],
+    tzm: ["ⵍⵃⵔⵉⵔ", "lħriɾ"],
+    suk: ["halili", "halili"],
+    tiv: ["shiliti", "ʃiliti"],
+    ak: ["serekye", "seretɕe"],
+    lg: ["liiri", "liːri"],
+    ki: ["hariri", "haɾiɾi"],
+    kg: ["seda", "seda"],
+    ee: ["seda", "seda"],
+    nso: ["silika", "silika"],
+    umb: ["oseta", "oseta"]
   }
 };

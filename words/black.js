@@ -796,6 +796,21 @@ WORDS.black = {
     nan_hai: ["乌", "ɔu˨˦"],
     kln: ["tuui", "tuːi"],
     mn_cn: ["ᠬᠠᠷ᠎ᠠ", "xar"],
-    anp: ["करिया", "kərijaː"]
+    anp: ["करिया", "kərijaː"],
+    ks: ["کرُٛہُن", "kruhun"],
+    bgq: ["काळो", "kaːɭo"],
+    mey: ["أكحل", "ˈakħal"],
+    kab: ["aberkan", "abərkan"],
+    shi: ["ⴰⵙⴳⴳⴰⵏ", "asɡːan"],
+    rif: ["ⴰⴱⴰⵔⵔⵛⴰⵏ", "abarːʃan"],
+    tzm: ["ⴰⴱⵔⴽⴰⵏ", "abərkan"],
+    suk: ["api", "api"],
+    tiv: ["il", "il"],
+    ki: ["ũirũ", "uiru"],
+    lua: ["fike", "fike"],
+    kr: ["sələm", "sələm"],
+    umb: ["kutekava", "kutekava"],
+    luy: ["eshimali", "eʃimali"],
+    vmw: ["oriipa", "oɾiːpa"]
   },
 };

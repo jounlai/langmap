@@ -320,6 +320,7 @@ WORDS.chocolate = {
     tt: ["шоколад", "ʃokoˈlad"],
     sat: ["ᱪᱚᱠᱞᱮᱴ", "tʃɔkleʈ"],
     gn: ["chokora", "ʃokoˈɾa"],
-    qu: ["chukulati", "tʃukuˈlati"]
+    qu: ["chukulati", "tʃukuˈlati"],
+    ti: ["ችኮላታ", "tʃɨkolata"]
   }
 };

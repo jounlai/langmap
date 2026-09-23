@@ -524,6 +524,22 @@ WORDS.book = {
     sat: ["ᱯᱩᱛᱷᱤ", "putʰi"],
     anp: ["किताब", "kitaːb"],
     kri: ["buk", "buk"],
-    qu: ["liwru", "ˈliwɾu"]
+    qu: ["liwru", "ˈliwɾu"],
+    bgq: ["किताब", "kitaːb"],
+    mey: ["كتاب", "ktaːb"],
+    ti: ["መጽሓፍ", "mɐtsʼħaf"],
+    shi: ["ⵍⴽⵜⴰⴱ", "lktab"],
+    rif: ["ⵔⴽⵉⵜⴰⴱ", "rkitab"],
+    tzm: ["ⵍⴽⵜⴰⴱ", "lktab"],
+    suk: ["shitabo", "ʃitabo"],
+    tiv: ["takerada", "takerada"],
+    ibb: ["ñwed", "ŋwed"],
+    lua: ["mukanda", "mukanda"],
+    kr: ["kitawu", "kitawu"],
+    sg: ["bûku", "buku"],
+    umb: ["elivulu", "elivulu"],
+    mos: ["sebre", "sebre"],
+    luy: ["eshitabu", "eʃitabu"],
+    vmw: ["eliivuru", "eliːvuɾu"]
   }
 };

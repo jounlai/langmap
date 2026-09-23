@@ -1010,6 +1010,7 @@ WORDS.stone = {
     rim: ["igwe", "iɡwe"],
     bfa: ["ŋurupit", "ŋurupit"],
     ttj: ["ibaale", "iβaːle"],
-    spp: ["kafaa", "kafaː"]
+    spp: ["kafaa", "kafaː"],
+    hwc: ["stone", "stoʊn"]
   },
 };

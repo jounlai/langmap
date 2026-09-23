@@ -1094,6 +1094,7 @@ WORDS.ear = {
     asu: ["isikio", "isikio"],
     bfa: ["swot", "swot"],
     aja: ["eto", "eto"],
-    lue: ["litwitwi", "litwitwi"]
+    lue: ["litwitwi", "litwitwi"],
+    pcd: ["eureille", "œʁɛj"]
   },
 };

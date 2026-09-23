@@ -909,6 +909,10 @@ WORDS.iron = {
     asu: ["kighera", "kiɣera"],
     izz: ["igwe", "iɡwe"],
     aja: ["ega", "eɡa"],
-    spp: ["tɔɔnnɔ", "tɔːnːɔ"]
+    spp: ["tɔɔnnɔ", "tɔːnːɔ"],
+    pnt: ["σίδερον", "ˈsiðeron"],
+    swg: ["Eisa", "ˈaɪsa"],
+    kea: ["féru", "ˈfɛɾu"],
+    hwc: ["iron", "aɪən"]
   },
 };

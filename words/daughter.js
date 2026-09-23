@@ -1041,6 +1041,9 @@ WORDS.daughter = {
     nan_pn: ["查某囝", "tsa˧˧ bɔ˥˧ kiã˥˧"],
     tll: ["ona umuntu", "ona umuntu"],
     bfa: ["ŋuro nakwan", "ŋuro nakʷan"],
-    aja: ["vi nyɔnuvi", "vi ɲɔnuvi"]
+    aja: ["vi nyɔnuvi", "vi ɲɔnuvi"],
+    rcf: ["fiy", "fij"],
+    xmf: ["ცირასქუა", "tsiraskua"],
+    kea: ["fidja", "ˈfidʒɐ"]
   },
 };

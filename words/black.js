@@ -905,6 +905,12 @@ WORDS.black = {
     loz: ["nsu", "nsu"],
     ng: ["luudhe", "luːðe"],
     lue: ["chilava", "tʃilava"],
-    ewo: ["evindi", "evindi"]
+    ewo: ["evindi", "evindi"],
+    pcd: ["noér", "nwɛʁ"],
+    wa: ["noer", "nwɛːʁ"],
+    pnt: ["μαύρον", "ˈmavron"],
+    sgs: ["jouds", "jɔuds"],
+    dar: ["цӏудара", "tsʼudara"],
+    swg: ["schwarz", "ʃvarts"]
   },
 };

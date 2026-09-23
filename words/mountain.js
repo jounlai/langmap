@@ -635,6 +635,19 @@ WORDS.mountain = {
     bfa: ["mere", "mere"],
     loz: ["lilundu", "lilundu"],
     ng: ["ondundu", "ondundu"],
-    lue: ["pili", "pili"]
+    lue: ["pili", "pili"],
+    pcd: ["montanne", "mɔ̃tan"],
+    wa: ["montinne", "mɔ̃tɛ̃n"],
+    rcf: ["montagn", "mɔ̃taɲ"],
+    lij: ["montàgna", "muŋˈtaɲːa"],
+    pnt: ["ραχίν", "raˈçin"],
+    cbk: ["monte", "ˈmonte"],
+    szl: ["gōra", "ˈɡora"],
+    sgs: ["kalns", "kalns"],
+    rue: ["гора", "ˈhora"],
+    xmf: ["გვალა", "ɡvala"],
+    swg: ["Berg", "bɛrɡ"],
+    kea: ["monti", "ˈmõti"],
+    hwc: ["mountain", "maʊntən"]
   }
 };

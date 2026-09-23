@@ -1040,6 +1040,7 @@ WORDS.nose = {
     urh: ["uwen", "uwẽ"],
     gaa: ["gugɔŋ", "ɡuɡɔŋ"],
     tll: ["ohembe", "ohembe"],
-    lue: ["lizulu", "lizulu"]
+    lue: ["lizulu", "lizulu"],
+    dar: ["къянкъ", "qːjanqː"]
   },
 };

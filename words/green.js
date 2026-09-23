@@ -612,6 +612,15 @@ WORDS.green = {
     hak_hl: ["青", "tsʰiaŋ˥˧"],
     ksb: ["manimani", "manimani"],
     bfa: ["loŋem", "loŋem"],
-    loz: ["tala", "tala"]
+    loz: ["tala", "tala"],
+    pcd: ["vert", "vɛʁ"],
+    wa: ["vert", "vɛʁ"],
+    szl: ["zielōny", "ʑɛˈlonɨ"],
+    sgs: ["žalis", "ʒalʲɪs"],
+    rue: ["зеленый", "zeˈlenɨj"],
+    dar: ["шиниша", "ʃiniʃa"],
+    xmf: ["წვანე", "tsʼvane"],
+    swg: ["grea", "ɡreə̯"],
+    hwc: ["green", "ɡɹiːn"]
   }
 };

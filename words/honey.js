@@ -929,6 +929,10 @@ WORDS.honey = {
     loz: ["linosi", "linosi"],
     ng: ["omagadhi goonyushi", "omaɡaði ɡoːɲuʃi"],
     lue: ["uchi", "utʃi"],
-    ewo: ["woe", "woe"]
+    ewo: ["woe", "woe"],
+    rcf: ["domiel", "domjɛl"],
+    pnt: ["μέλ", "mel"],
+    swg: ["Honig", "ˈhoːnɪɡ"],
+    hwc: ["honey", "hʌni"]
   },
 };

@@ -56,6 +56,14 @@ const EXPECTED = new Set([
     'heart|love',
 ]);
 
+// The lookup below builds its key with .sort(), so an entry written in the
+// other order never matched anything. Four of the eight above were dead that
+// way from the day they were written — love|good, sun|moon, tree|hand and
+// sun|fire — which is why moon = sun and good = love still showed up in the
+// report the set was meant to quiet. Normalise here rather than re-typing the
+// list, so the next entry cannot be dead on arrival.
+const EXPECTED_KEYS = new Set([...EXPECTED].map(k => k.split('|').sort().join('|')));
+
 const norm = s => String(s || '').trim().toLowerCase().normalize('NFC');
 const SHOW_ALL = process.argv.includes('--all');
 
@@ -78,7 +86,7 @@ for (const code of CODES) {
         for (let i = 0; i < words.length; i++) {
             for (let j = i + 1; j < words.length; j++) {
                 const key = [words[i], words[j]].sort().join('|');
-                if (!SHOW_ALL && EXPECTED.has(key)) continue;
+                if (!SHOW_ALL && EXPECTED_KEYS.has(key)) continue;
                 hits.push({ code, form, a: words[i], b: words[j] });
             }
         }

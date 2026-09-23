@@ -585,6 +585,18 @@ WORDS.poop = {
     bfa: ["kin", "kin"],
     ttj: ["amazi", "amazi"],
     loz: ["ñanda", "ɲanda"],
-    lue: ["tuji", "tudʒi"]
+    lue: ["tuji", "tudʒi"],
+    nn: ["bæsj", "bæʃ"],
+    pcd: ["brin", "bʁɛ̃"],
+    wa: ["caca", "kaˈka"],
+    lij: ["cacà", "kaˈka"],
+    fur: ["cacan", "kaˈkaŋ"],
+    oc: ["cacà", "kaˈka"],
+    pnt: ["κακά", "kaˈka"],
+    dar: ["дек", "dek"],
+    swg: ["Schdingr", "ˈʃdɪŋɐ"],
+    fy: ["kak", "kɑk"],
+    kea: ["kaka", "ˈkakɐ"],
+    hwc: ["doodoo", "dudu"]
   },
 };

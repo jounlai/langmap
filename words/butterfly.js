@@ -561,6 +561,20 @@ WORDS.butterfly = {
     urh: ["erhi", "eɾi"],
     gaa: ["abei", "abei"],
     tll: ["lumbudi", "lumbudi"],
-    ttj: ["ekihoiholya", "ekihoiholja"]
+    ttj: ["ekihoiholya", "ekihoiholja"],
+    nn: ["sommarfugl", "ˈsɔmɑrfʉːl"],
+    pcd: ["paviole", "pavjɔl"],
+    wa: ["påwion", "pɔːwjɔ̃"],
+    lij: ["farfàlla", "farˈfalːa"],
+    fur: ["pavee", "paˈvee"],
+    oc: ["parpalhòl", "paɾpaˈʎɔl"],
+    pnt: ["πεταλήτρα", "petaˈlitra"],
+    szl: ["szmaterlŏk", "ʂmaˈtɛrlɔk"],
+    sgs: ["petelėškė", "pʲɛtʲɛlʲeːʃkʲeː"],
+    rue: ["мотыль", "ˈmotɨlʲ"],
+    xmf: ["ფარფალია", "pʰarpʰalia"],
+    swg: ["Schmeddrleng", "ˈʃmɛdɐlɛŋ"],
+    fy: ["flinter", "ˈflɪntər"],
+    kea: ["borboléta", "boɾboˈlɛtɐ"]
   },
 };

@@ -993,6 +993,8 @@ WORDS.bird = {
     bfa: ["kwenti", "kʷenti"],
     aja: ["xevi", "xevi"],
     ng: ["ondhila", "onðila"],
-    lue: ["kajila", "kadʒila"]
+    lue: ["kajila", "kadʒila"],
+    pcd: ["oizo", "wazo"],
+    xmf: ["ჩიტი", "tʃitʼi"]
   },
 };

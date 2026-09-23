@@ -631,6 +631,16 @@ WORDS.sea = {
     aja: ["axu", "axu"],
     loz: ["liwate", "liwate"],
     ng: ["efuta", "efuta"],
-    lue: ["kalungalwiji", "kaluŋɡalwidʒi"]
+    lue: ["kalungalwiji", "kaluŋɡalwidʒi"],
+    pcd: ["mèr", "mɛʁ"],
+    rcf: ["lamer", "lamɛr"],
+    pnt: ["θάλασσα", "ˈθalasa"],
+    szl: ["morze", "ˈmɔʒɛ"],
+    sgs: ["jūra", "juːra"],
+    rue: ["море", "ˈmore"],
+    dar: ["урхьу", "urxu"],
+    xmf: ["ზღვა", "zɣva"],
+    swg: ["Meer", "meːr"],
+    hwc: ["ocean", "oʊʃən"]
   }
 };

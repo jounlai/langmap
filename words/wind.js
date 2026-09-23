@@ -983,6 +983,8 @@ WORDS.wind = {
     tll: ["lopepe", "lopepe"],
     bfa: ["köbuŋöt", "kɔbuŋɔt"],
     aja: ["aya", "aja"],
-    lue: ["peho", "peho"]
+    lue: ["peho", "peho"],
+    sgs: ["vies", "vʲieːs"],
+    xmf: ["ბორია", "boria"]
   },
 };

@@ -796,6 +796,19 @@ WORDS.new = {
     loz: ["nca", "ntʃa"],
     ng: ["pe", "pe"],
     lue: ["chihya", "tʃihja"],
-    ewo: ["mkpaman", "mkpaman"]
+    ewo: ["mkpaman", "mkpaman"],
+    nn: ["ny", "nyː"],
+    pcd: ["nouvieu", "nuvjø"],
+    wa: ["noû", "nuː"],
+    rcf: ["nouvo", "nuvo"],
+    pnt: ["καινούρ", "ceˈnur"],
+    cbk: ["nuevo", "ˈnwebo"],
+    szl: ["nowy", "ˈnɔvɨ"],
+    sgs: ["naus", "nɐʊs"],
+    rue: ["новый", "ˈnovɨj"],
+    xmf: ["ახალი", "axali"],
+    swg: ["nei", "naɪ"],
+    kea: ["novu", "ˈnovu"],
+    hwc: ["new", "nu"]
   },
 };

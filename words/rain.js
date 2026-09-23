@@ -1003,6 +1003,7 @@ WORDS.rain = {
     asu: ["mvua", "mvua"],
     tll: ["mvula", "mvula"],
     bfa: ["kudu", "kudu"],
-    spp: ["zanha", "zanha"]
+    spp: ["zanha", "zanha"],
+    cbk: ["ulan", "uˈlan"]
   },
 };

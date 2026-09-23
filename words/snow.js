@@ -882,6 +882,7 @@ WORDS.snow = {
     nia: ["teu asio", "tɛu asio"],
     kac: ["hkyen", "kʰjen˧"],
     yua: ["nieve", "njebe"],
-    mam: ["txa cheʼw", "tʃa tʃeʔw"]
+    mam: ["txa cheʼw", "tʃa tʃeʔw"],
+    rcf: ["nèj", "nɛʒ"]
   },
 };

@@ -436,6 +436,16 @@ WORDS.silk = {
     rim: ["hariri", "haɾiɾi"],
     gaa: ["seda", "seda"],
     loz: ["siliki", "siliki"],
-    ng: ["ofeyi", "ofeji"]
+    ng: ["ofeyi", "ofeji"],
+    pcd: ["soé", "swɛ"],
+    wa: ["soye", "sõj"],
+    szl: ["jedwŏb", "ˈjɛdvɔp"],
+    sgs: ["šėlks", "ʃʲeːlks"],
+    rue: ["шовк", "ʃou̯k"],
+    lez: ["пек", "pek"],
+    dar: ["архӏя", "arħa"],
+    xmf: ["აბრეშუმი", "abreʃumi"],
+    kea: ["seda", "ˈsedɐ"],
+    hwc: ["silk", "sɪlk"]
   }
 };

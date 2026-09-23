@@ -943,6 +943,12 @@ WORDS.hundred = {
     urh: ["ujorin", "udʒoɾĩ"],
     gaa: ["oha", "oha"],
     ng: ["ethele", "etele"],
-    lue: ["likulukaji", "likulukadʒi"]
+    lue: ["likulukaji", "likulukadʒi"],
+    nn: ["hundre", "ˈhʉndrə"],
+    pnt: ["εκατόν", "ekaˈton"],
+    sgs: ["šimts", "ʃʲɪmts"],
+    dar: ["даршал", "darʃal"],
+    ady: ["шъэ", "ʂa"],
+    swg: ["hondrd", "ˈhondɐd"]
   },
 };

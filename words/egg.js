@@ -970,6 +970,7 @@ WORDS.egg = {
     bfa: ["katulukuti", "katulukuti"],
     spp: ["nɔngyaa", "nɔŋɡʲaː"],
     ng: ["eyi", "eji"],
-    lue: ["liulu", "liulu"]
+    lue: ["liulu", "liulu"],
+    pcd: ["uë", "y"]
   },
 };

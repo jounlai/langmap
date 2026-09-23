@@ -342,6 +342,14 @@ WORDS.chocolate = {
     kbd: ["шоколад", "ʃokolad"],
     sm: ["sukalati", "sukalati"],
     kaa: ["shokolad", "ʃokoˈlad"],
-    yua: ["chukwaʼ", "tʃukwaʔ"]
+    yua: ["chukwaʼ", "tʃukwaʔ"],
+    wa: ["tchocolåt", "tʃokoˈlɔː"],
+    lij: ["cicolâta", "tʃikuˈlaːta"],
+    cbk: ["chocolate", "tʃokoˈlate"],
+    szl: ["szekulada", "ʂɛkuˈlada"],
+    sgs: ["čėkuolads", "tʃʲeːkuoˈlads"],
+    rue: ["чоколада", "tʃokoˈlada"],
+    dar: ["шоколад", "ʃokoˈlad"],
+    swg: ["Schoklad", "ʃoˈklaːd"]
   }
 };

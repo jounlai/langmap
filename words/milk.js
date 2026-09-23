@@ -935,6 +935,10 @@ WORDS.milk = {
     loz: ["mabisi", "mabisi"],
     ng: ["omahini", "omahini"],
     lue: ["mavele", "mavele"],
-    ewo: ["menyan", "meɲan"]
+    ewo: ["menyan", "meɲan"],
+    pcd: ["lait", "lɛ"],
+    wa: ["laecea", "lɛˈsja"],
+    rcf: ["dolé", "dole"],
+    swg: ["Millich", "ˈmɪlɪç"]
   },
 };

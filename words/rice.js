@@ -523,6 +523,14 @@ WORDS.rice = {
     ksb: ["muhunga", "muhuŋɡa"],
     urh: ["irosu", "iɾosu"],
     gaa: ["omɔ", "omɔ"],
-    ewo: ["oles", "oles"]
+    ewo: ["oles", "oles"],
+    pcd: ["riz", "ʁi"],
+    wa: ["riz", "ri"],
+    rcf: ["diri", "diʁi"],
+    szl: ["ryż", "rɨʂ"],
+    sgs: ["rīžā", "riːʒaː"],
+    dar: ["биринж", "birinʒ"],
+    xmf: ["ორზა", "orza"],
+    kea: ["arôs", "ɐˈɾos"]
   }
 };

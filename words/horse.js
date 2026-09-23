@@ -695,6 +695,17 @@ WORDS.horse = {
     spp: ["shɔngɔ", "ʃɔŋɡɔ"],
     loz: ["pizi", "pizi"],
     lue: ["kavalu", "kavalu"],
-    ewo: ["ekabeli", "ekabeli"]
+    ewo: ["ekabeli", "ekabeli"],
+    pcd: ["kvau", "kvo"],
+    wa: ["tchivå", "tʃiˈvɔː"],
+    rcf: ["soval", "soval"],
+    pnt: ["άλογον", "ˈaloɣon"],
+    szl: ["kōń", "koɲ"],
+    sgs: ["arklīs", "ɐrˈkliːs"],
+    rue: ["кінь", "kinʲ"],
+    xmf: ["ცხენი", "tsxeni"],
+    swg: ["Gaul", "ɡaul"],
+    kea: ["kabalu", "kaˈbalu"],
+    hwc: ["horse", "hɔɹs"]
   }
 };

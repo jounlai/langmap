@@ -769,6 +769,16 @@ WORDS.mouth = {
     aja: ["aglan", "aɡlã"],
     loz: ["mulomo", "mulomo"],
     lue: ["kanwa", "kanwa"],
-    ewo: ["anyu", "aɲu"]
+    ewo: ["anyu", "aɲu"],
+    nn: ["munn", "mʉnː"],
+    rcf: ["labous", "labus"],
+    lij: ["bócca", "ˈbuka"],
+    pnt: ["στόμαν", "ˈstoman"],
+    szl: ["gymba", "ˈɡɨmba"],
+    sgs: ["borna", "bɔrna"],
+    rue: ["рот", "rot"],
+    dar: ["мухӏли", "muħli"],
+    xmf: ["პიჯი", "pʼidʒi"],
+    hwc: ["mout", "maʊt"]
   }
 };

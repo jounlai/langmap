@@ -801,6 +801,18 @@ WORDS.head = {
     loz: ["toho", "toho"],
     ng: ["omutse", "omutse"],
     lue: ["mutwe", "mutwe"],
-    ewo: ["nlo", "nlo"]
+    ewo: ["nlo", "nlo"],
+    nn: ["hovud", "ˈhuːvʉ"],
+    pcd: ["tiête", "tjɛt"],
+    rcf: ["latèt", "latɛt"],
+    pnt: ["κιφάλ", "ciˈfal"],
+    cbk: ["cabeza", "kaˈbesa"],
+    szl: ["gowa", "ˈɡɔva"],
+    sgs: ["galva", "ɡalva"],
+    rue: ["голова", "hoˈlova"],
+    xmf: ["დუდი", "dudi"],
+    swg: ["Kopf", "kɔpf"],
+    kea: ["kabésa", "kaˈbɛsɐ"],
+    hwc: ["head", "hɛd"]
   },
 };

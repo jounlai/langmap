@@ -664,6 +664,16 @@ WORDS.book = {
     ttj: ["ekitabu", "ekitaβu"],
     ng: ["embo", "embo"],
     lue: ["mukanda", "mukanda"],
-    ewo: ["kalara", "kalara"]
+    ewo: ["kalara", "kalara"],
+    wa: ["live", "liːf"],
+    rcf: ["liv", "liv"],
+    szl: ["ksiōnżka", "ˈkɕɔ̃ʂka"],
+    sgs: ["knīga", "kniːɡa"],
+    rue: ["книга", "ˈknɪha"],
+    dar: ["жуз", "ʒuz"],
+    xmf: ["წინგი", "tsʼinɡi"],
+    swg: ["Buach", "buax"],
+    kea: ["livru", "ˈlivɾu"],
+    hwc: ["book", "buk"]
   }
 };

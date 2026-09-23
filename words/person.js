@@ -710,6 +710,18 @@ WORDS.person = {
     spp: ["supya", "supja"],
     loz: ["mutu", "mutu"],
     lue: ["mutu", "mutu"],
-    ewo: ["môt", "mɔt"]
+    ewo: ["môt", "mɔt"],
+    nn: ["menneske", "ˈmɛnːəskə"],
+    pcd: ["personne", "pɛʁsɔn"],
+    wa: ["djin", "dʒɛ̃"],
+    rcf: ["moun", "mun"],
+    lij: ["persónn-a", "perˈsuŋːa"],
+    pnt: ["άθρωπος", "ˈaθropos"],
+    szl: ["czowiek", "ˈtʂɔvjɛk"],
+    sgs: ["žmuogos", "ʒmuoɡos"],
+    rue: ["чоловік", "tʃoˈlovik"],
+    xmf: ["ადამიერი", "adamieri"],
+    swg: ["Mensch", "mɛnʃ"],
+    kea: ["algen", "alˈɡen"]
   }
 };

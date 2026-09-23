@@ -1123,6 +1123,8 @@ WORDS.five = {
     kjp: ["ယာဲ", "jɛ̄"],
     pll: ["phən", "pʰən"],
     izz: ["ise", "ise"],
-    aja: ["atɔ̃", "atɔ̃"]
+    aja: ["atɔ̃", "atɔ̃"],
+    pcd: ["chinq", "ʃɛ̃k"],
+    swg: ["femf", "fɛmf"]
   },
 };

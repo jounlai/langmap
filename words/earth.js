@@ -1046,6 +1046,17 @@ WORDS.earth = {
     suk: ["malongo", "maloŋɡo"],
     umb: ["eve", "eve"],
     luy: ["liloba", "liloba"],
-    vmw: ["etthaya", "etʰːaja"]
+    vmw: ["etthaya", "etʰːaja"],
+    emk: ["duukolo", "duːkolo"],
+    snk: ["ñiiñe", "ɲiːɲe"],
+    yao: ["litaka", "litaka"],
+    kde: ["ulongo", "uloŋɡo"],
+    myx: ["liloba", "liloba"],
+    mer: ["mũthetũ", "muðetu"],
+    kmb: ["ixi", "iʃi"],
+    teo: ["alup", "alup"],
+    ii: ["ꊖ", "tsa˧˧"],
+    lmn: ["माटी", "maːʈiː"],
+    bej: ["buur", "buːr"]
   },
 };

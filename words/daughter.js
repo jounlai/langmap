@@ -1003,6 +1003,15 @@ WORDS.daughter = {
     rkt: ["বেটি", "beʈi"],
     sat: ["ᱦᱚᱯᱚᱱ ᱮᱨᱟ", "hɔpɔn era"],
     bgq: ["बेटी", "beːʈiː"],
-    kg: ["mwana ya nkento", "mwana ja nkento"]
+    kg: ["mwana ya nkento", "mwana ja nkento"],
+    snk: ["renyaxare", "renjaxare"],
+    cpx: ["婶娘囝", "ɬiŋ˦˥˧ niau˩˧ kyɒ˦˥˧"],
+    bug: ["anaʼ makkunrai", "anaʔ makːunrai"],
+    hmn: ["ntxhais", "ntsʰai˨˩"],
+    wbm: ["kawn bun", "kɔn bun"],
+    doi: ["धीऽ", "dʱiː"],
+    gbm: ["धिया", "dʱijaː"],
+    kfy: ["धी", "dʱiː"],
+    brh: ["مسڑ", "masiɽ"]
   },
 };

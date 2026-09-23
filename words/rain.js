@@ -966,6 +966,14 @@ WORDS.rain = {
     bhb: ["वरसाद", "ʋəɾsaːd"],
     rkt: ["ঝড়ি", "dʒʱoɽi"],
     sat: ["ᱡᱟᱹᱲᱤ", "dʒəɽi"],
-    bgq: ["मेह", "meːh"]
+    bgq: ["मेह", "meːh"],
+    snk: ["kanme", "kanme"],
+    teo: ["akiru", "akiru"],
+    mfa: ["hujae", "hudʒɛ"],
+    ii: ["ꂷꉐ", "ma˧˧ha˧˧"],
+    mzn: ["وارش", "vɒːˈɾeʃ"],
+    sid: ["xeena", "tʼeːna"],
+    thr: ["मेंहें", "mẽɦẽ"],
+    bej: ["biri", "biri"]
   },
 };

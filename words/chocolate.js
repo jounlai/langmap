@@ -321,6 +321,20 @@ WORDS.chocolate = {
     sat: ["ᱪᱚᱠᱞᱮᱴ", "tʃɔkleʈ"],
     gn: ["chokora", "ʃokoˈɾa"],
     qu: ["chukulati", "tʃukuˈlati"],
-    ti: ["ችኮላታ", "tʃɨkolata"]
+    ti: ["ችኮላታ", "tʃɨkolata"],
+    ja_hak: ["チョコレート", "tɕokoɾeːto"],
+    ja_hir: ["チョコレート", "tɕokoɾeːto"],
+    ban: ["coklat", "tʃoklat"],
+    bug: ["sikolaʼ", "sikolaʔ"],
+    mui: ["coklat", "tʃoklat"],
+    en_sg: ["chocolate", "ˈtʃɔklət"],
+    fr_be: ["chocolat", "ʃɔkɔˈla"],
+    fr_ch: ["chocolat", "ʃɔkɔˈla"],
+    vec: ["ciocolata", "tʃokoˈlata"],
+    lmo: ["cicolat", "tʃikuˈlat"],
+    pms: ["cicolata", "tʃikuˈlata"],
+    jam: ["chaklit", "tʃaklɪt"],
+    tpi: ["soklet", "soklet"],
+    srn: ["syokola", "ʃokola"]
   }
 };

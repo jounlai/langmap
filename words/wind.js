@@ -933,6 +933,20 @@ WORDS.wind = {
     suk: ["nyaga", "ɲaɡa"],
     mos: ["sobgo", "sobɡo"],
     luy: ["omuyeka", "omujeka"],
-    vmw: ["epheyo", "epʰejo"]
+    vmw: ["epheyo", "epʰejo"],
+    snk: ["fanke", "faŋke"],
+    mer: ["rũũo", "ɾuːo"],
+    kam: ["kĩseve", "kiseve"],
+    xog: ["empewo", "empewo"],
+    bci: ["aunngban", "aũŋɡbã"],
+    kmb: ["kitembu", "kitembu"],
+    teo: ["ekwam", "ekʷam"],
+    ii: ["ꃅꆳ", "mu˧˧ɬɿ˧˧"],
+    pcc: ["rumz", "rum˩˩"],
+    wbm: ["bhaung", "bʰaɯŋ"],
+    kru: ["ताका", "taːkaː"],
+    sid: ["bubbe", "bubːe"],
+    thr: ["ब्यार", "bjaːr"],
+    dje: ["haw", "haw"]
   },
 };

@@ -1000,6 +1000,19 @@ WORDS.nose = {
     lua: ["diulu", "diulu"],
     umb: ["enyulu", "eɲulu"],
     luy: ["amolu", "amolu"],
-    vmw: ["ephula", "epʰula"]
+    vmw: ["ephula", "epʰula"],
+    efi: ["ibuo", "ibuo"],
+    mer: ["nyiũrũ", "ɲiuɾu"],
+    kam: ["inyũũ", "iɲuː"],
+    yue_ts: ["鼻", "pi˧˨"],
+    czh: ["鼻", "pʰɿ˨˩"],
+    xog: ["ennhindo", "eɲːindo"],
+    fon: ["awɔntín", "awɔ̃tĩ́"],
+    bci: ["bue", "bue"],
+    kmb: ["dizunu", "dizunu"],
+    ii: ["ꅲ", "n̥a˧˧"],
+    pcc: ["ndangl", "ndɐŋ˨˦"],
+    wbm: ["meeih", "mɯih"],
+    shy: ["axenfuf", "axənfuf"]
   },
 };

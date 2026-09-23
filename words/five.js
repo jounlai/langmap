@@ -1114,6 +1114,7 @@ WORDS.five = {
     sbp: ["sisanu", "sisanu"],
     ctg: ["ফাঁচ", "fãtʃ"],
     ks: ["پانٛژھ", "pãːtsʰ"],
-    luy: ["tsirano", "tsirano"]
+    luy: ["tsirano", "tsirano"],
+    egl: ["sînch", "siːŋk"]
   },
 };

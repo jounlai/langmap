@@ -1069,6 +1069,12 @@ WORDS.ear = {
     kln: ["itit", "itit"],
     tiv: ["togh", "toɣ"],
     luy: ["eshirwi", "eʃirwi"],
-    vmw: ["niyaru", "nijaɾu"]
+    vmw: ["niyaru", "nijaɾu"],
+    snk: ["toro", "toro"],
+    myx: ["khukhuru", "kʰukʰuru"],
+    mfa: ["telingo", "təliŋɔ"],
+    ii: ["ꅻ", "n̥ɯ˨˩"],
+    pcc: ["riez", "riə˩˩"],
+    wbm: ["yhaok", "j̊auk"]
   },
 };

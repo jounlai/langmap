@@ -818,6 +818,15 @@ WORDS.wheel = {
     bo: ["འཁོར་ལོ", "kʰorlo˥"],
     bgq: ["चक्को", "tʃəkːo"],
     suk: ["idandali", "idandali"],
-    ibb: ["wiil", "wiːl"]
+    ibb: ["wiil", "wiːl"],
+    rki: ["ဘီး", "béiɴ"],
+    mxc: ["vhiri", "βiri"],
+    yue_ts: ["车辘", "tsʰia˧˧ lɵk̚˥˥"],
+    din: ["köl", "kɔl"],
+    luo: ["nyange", "ɲaŋe"],
+    hmn: ["log", "lɔ˧˩"],
+    sdh: ["چەرخ", "tʃæɾx"],
+    brh: ["چرخ", "tʃarx"],
+    sid: ["qale", "kʼale"]
   },
 };

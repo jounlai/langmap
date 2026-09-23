@@ -181,6 +181,21 @@ const ALLOW = [
 //   yue_ts is already reported by --wide for a self-contradictory 陰上 and is
 //   blocking a 朱古力 cell; fixing that row settles both at once.
 const DEBT = [
+  // Added 2026-09-24, and these two are a different shape from the rest of the
+  // 入聲 list: here the NEW cells are the correct ones and the row is wrong.
+  //
+  // yue_ts 陰入 — the row writes ˥˥ for black, blood, bone, house, one and
+  //   snow, but the reviewer's source puts Taishanese 陰入 at 33 and the
+  //   dictionary's own tone chart uses 口 as its exemplar of 55 and 頭 of 22.
+  //   hundred and iron came in at ˧˧ from that source. Degrading them to the
+  //   row's ˥˥ would make two right cells wrong to spare a guard; the row has
+  //   to be re-based as a whole.
+  // cpx 陰入 — the same, stated by the reviewer up front: "the cpx row writes
+  //   every 入聲 as ˥˥, right for 陽入 but wrong for 陰入". Puxian 陰入 is a low
+  //   contour, and the new iron cell is ˩˩ accordingly.
+  { code: 'yue_ts', cls: '陰入' },
+  { code: 'cpx', cls: '陰入' },
+
   // 入聲 — see the block above before touching any of these.
   { code: 'yue', cls: '陰入' },
   { code: 'yue_gz', cls: '陰入' },

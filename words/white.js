@@ -1142,6 +1142,11 @@ WORDS.white = {
     mch: ["töʼkeʼne", "təʔkeʔne"],
     bhb: ["धोळु", "dʱoːɭu"],
     rkt: ["সাদা", "sada"],
-    vmw: ["otteela", "otːeːla"]
+    vmw: ["otteela", "otːeːla"],
+    myx: ["iwanga", "iwaŋɡa"],
+    ii: ["ꀊꐎ", "a˧˧tɕʰu˧˧"],
+    kfy: ["धौलो", "dʱɔulo"],
+    brh: ["پیون", "piuːn"],
+    lmn: ["धोलो", "dʱolo"]
   },
 };

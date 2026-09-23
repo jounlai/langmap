@@ -1119,6 +1119,8 @@ WORDS.four = {
     rkt: ["চাইর", "tʃaiɾ"],
     cnp: ["四", "si˦˦"],
     zh_lz: ["四", "sz̩˩˧"],
-    luy: ["tsine", "tsine"]
+    luy: ["tsine", "tsine"],
+    ii: ["ꇖ", "lɿ˧˧"],
+    pcc: ["sis", "si˧˥"]
   },
 };

@@ -1128,6 +1128,16 @@ WORDS.salt = {
     wuu_jx: ["盐", "ɦi˨˧"],
     zh_lz: ["盐", "jɛn˥˧"],
     luy: ["omunyu", "omuɲu"],
-    vmw: ["maakha", "maːkʰa"]
+    vmw: ["maakha", "maːkʰa"],
+    bem: ["umucele", "umutʃele"],
+    mer: ["chumbĩ", "tʃumbi"],
+    czh: ["盐", "iẽi˨˩˧"],
+    xog: ["omuunhu", "omuːɲu"],
+    bci: ["njin", "ndʒĩ"],
+    pcc: ["guel", "ɡuə˨˦"],
+    kru: ["बेक", "beːk"],
+    kfy: ["लूण", "luːɳ"],
+    brh: ["نمک", "nimik"],
+    egl: ["sèl", "sɛl"]
   },
 };

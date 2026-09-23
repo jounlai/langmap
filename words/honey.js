@@ -904,6 +904,8 @@ WORDS.honey = {
     tyz: ["thương phjẩng", "tʰɨəŋ˧˧ fjəŋ˨˩˧"],
     ja_kg: ["蜂蜜", "hatɕimitsɯ"],
     ada: ["hwo", "hwo"],
-    bom: ["shok", "ʃok"]
+    bom: ["shok", "ʃok"],
+    ngl: ["enuwi", "enuwi"],
+    srr: ["suum", "suːm"]
   },
 };

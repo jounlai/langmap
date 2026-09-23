@@ -503,6 +503,7 @@ WORDS.rice = {
     mnw: ["သ္ၚု", "haoʔ"],
     tyz: ["khẩu", "kʰəw˨˩˧"],
     nut: ["khảu", "kʰaːw˨˩˧"],
-    ja_kg: ["米", "kome"]
+    ja_kg: ["米", "kome"],
+    srr: ["maalo", "maːlo"]
   }
 };

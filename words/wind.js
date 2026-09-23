@@ -968,6 +968,8 @@ WORDS.wind = {
     hoc: ["hoyo", "hojo"],
     mtq: ["xỏ", "sɔ"],
     ada: ["kɔɔhiɔ", "kɔːhiɔ"],
-    bom: ["gul", "ɡul"]
+    bom: ["gul", "ɡul"],
+    ngl: ["echeku", "etʃʰeku"],
+    srr: ["ngeñ", "ŋɡeɲ"]
   },
 };

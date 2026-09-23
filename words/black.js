@@ -875,6 +875,8 @@ WORDS.black = {
     mnw: ["လ္စံက်", "kəcɔk"],
     ja_kg: ["黒か", "kɯɾoka"],
     ada: ["yumu", "jumu"],
-    bom: ["si", "si"]
+    bom: ["si", "si"],
+    ngl: ["ooripa", "oːɾipa"],
+    srr: ["ɓaal", "ɓaːl"]
   },
 };

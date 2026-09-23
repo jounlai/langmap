@@ -922,6 +922,7 @@ WORDS.hundred = {
     mnw: ["ကၠံ", "klɔm"],
     kjp: ["က်ုယာ", "kəjà"],
     ja_kg: ["百", "çakɯ"],
-    bom: ["naga", "naɡa"]
+    bom: ["naga", "naɡa"],
+    ngl: ["nsana", "nsana"]
   },
 };

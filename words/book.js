@@ -632,6 +632,7 @@ WORDS.book = {
     nut: ["xéc", "sɛk˥"],
     ja_kg: ["本", "hoɴ"],
     ada: ["womi", "womi"],
-    bom: ["takada", "takada"]
+    bom: ["takada", "takada"],
+    ngl: ["liivuru", "liːvuɾu"]
   }
 };

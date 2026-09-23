@@ -601,6 +601,7 @@ WORDS.sea = {
     tyz: ["pé", "pɛ˧˥"],
     nut: ["hải", "haːj˨˩˧"],
     ja_kg: ["海", "ɯmi"],
-    ada: ["wo", "wo"]
+    ada: ["wo", "wo"],
+    ngl: ["ephareya", "epʰaɾeja"]
   }
 };

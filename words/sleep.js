@@ -983,13 +983,14 @@ WORDS.sleep = {
     hni: ["yiuvq", "ju˧˩"],
     lis: ["e-ta", "e˧˩tɑ˥˥"],
     mas: ["airura", "airʊra"],
-    srr: ["ɗan", "ɗan"],
+    srr: ["ɗaan", "ɗaːn"],
     nag: ["ghum", "ɡʱum"],
     rhg: ["gúmza", "ɡumza"],
     drs: ["diipha", "diːpʼa"],
     tmh: ["ⴻⴹⵙ", "edˤəs"],
     mnw: ["သ္တိက်", "toik"],
     kjp: ["မီ့", "mî"],
-    ada: ["hwɔ mahe", "hwɔ mahe"]
+    ada: ["hwɔ mahe", "hwɔ mahe"],
+    ngl: ["orupa", "oɾupa"]
   },
 };

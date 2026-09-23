@@ -1028,6 +1028,7 @@ WORDS.nose = {
     fan: ["dzu", "dzu"],
     ndc: ["miro", "miro"],
     tmh: ["ⵜⵉⵏⵛⴰⵔ", "tinʃar"],
-    grt: ["gingting", "ɡiŋtiŋ"]
+    grt: ["gingting", "ɡiŋtiŋ"],
+    ngl: ["ephula", "epʰula"]
   },
 };

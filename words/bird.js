@@ -977,6 +977,8 @@ WORDS.bird = {
     kjp: ["ထောဟ်", "tʰʊ́"],
     nut: ["nục", "nuk˥˩"],
     ada: ["lohwe pɛlitsɛ", "lohwe pɛlitsɛ"],
-    bom: ["non", "non"]
+    bom: ["non", "non"],
+    ngl: ["epalame", "epalame"],
+    srr: ["ndid", "ndid"]
   },
 };

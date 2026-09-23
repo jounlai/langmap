@@ -741,7 +741,7 @@ WORDS.new = {
     seh: ["ipsa", "ipsa"],
     zne: ["vovo", "vovo"],
     dnj: ["dee", "deː"],
-    srr: ["qas", "qas"],
+    srr: ["xas", "xas"],
     tem: ["fu", "fu"],
     ach: ["manyen", "maɲɛn"],
     nag: ["notun", "notun"],
@@ -765,6 +765,7 @@ WORDS.new = {
     nut: ["máư", "maɯ˧˥"],
     ja_kg: ["にか", "nika"],
     ada: ["he", "he"],
-    bom: ["pas", "pas"]
+    bom: ["pas", "pas"],
+    ngl: ["evyaani", "evjaːni"]
   },
 };

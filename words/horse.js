@@ -660,6 +660,8 @@ WORDS.horse = {
     nut: ["mạ", "maː˨˩"],
     ja_kg: ["馬", "ɯma"],
     ada: ["okpɔŋɔ", "okpɔŋɔ"],
-    bom: ["dwa", "dwa"]
+    bom: ["dwa", "dwa"],
+    ngl: ["kavalo", "kavalo"],
+    srr: ["pis", "pis"]
   }
 };

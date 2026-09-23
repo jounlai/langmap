@@ -741,7 +741,7 @@ WORDS.head = {
     bxk: ["kumurwe", "kumurwe"],
     dnj: ["gɔ", "ɡɔ"],
     nus: ["wic", "witʃ"],
-    srr: ["hox", "hɔx"],
+    srr: ["xoox", "xoːx"],
     tem: ["ra-bomp", "rabomp"],
     fan: ["nlo", "nlɔ"],
     ach: ["wic", "witʃ"],
@@ -768,6 +768,7 @@ WORDS.head = {
     nut: ["hu", "hu˧˧"],
     ja_kg: ["びんた", "biɴta"],
     ada: ["yi", "ji"],
-    bom: ["rato", "rato"]
+    bom: ["rato", "rato"],
+    ngl: ["muru", "muɾu"]
   },
 };

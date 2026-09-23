@@ -908,6 +908,7 @@ WORDS.milk = {
     tyz: ["nặm nồm", "naːm˨˩ nom˨˩"],
     nut: ["nùm", "num˨˩"],
     ada: ["nyɔ nyu", "ɲɔ ɲu"],
-    bom: ["nevasal", "nevasal"]
+    bom: ["nevasal", "nevasal"],
+    ngl: ["eleiti", "eleiti"]
   },
 };

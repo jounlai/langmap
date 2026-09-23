@@ -997,6 +997,7 @@ WORDS.stone = {
     grt: ["ro·ong", "roʔoŋ"],
     kjp: ["လုံႋ", "lōʊɴ"],
     mtq: ["khũ", "kʰu"],
-    bom: ["fwa", "fwa"]
+    bom: ["fwa", "fwa"],
+    ngl: ["nluku", "nluku"]
   },
 };

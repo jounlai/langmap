@@ -739,6 +739,7 @@ WORDS.mouth = {
     tyz: ["pác", "paːk˥"],
     nut: ["pác", "paːk˥"],
     ada: ["nya", "ɲa"],
-    bom: ["nu", "nu"]
+    bom: ["nu", "nu"],
+    ngl: ["mwaano", "mwaːno"]
   }
 };

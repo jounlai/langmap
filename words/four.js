@@ -1122,6 +1122,7 @@ WORDS.four = {
     luy: ["tsine", "tsine"],
     ii: ["ꇖ", "lɿ˧˧"],
     pcc: ["sis", "si˧˥"],
-    mtq: ["pổn", "pon"]
+    mtq: ["pổn", "pon"],
+    ngl: ["xexe", "ʃeʃe"]
   },
 };

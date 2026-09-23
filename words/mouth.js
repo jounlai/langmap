@@ -41,7 +41,13 @@
  *     BOTH fields (kòrò/kòrò, dʉlé/dʊ̀lé) and the dataset's uto has none.
  *   - Bantu prefixes are fine when the row keeps them, and these rows do:
  *     Masaaba has kamaatsi and kumusaala, so kumunwa goes in whole.
+ *   - IPA g must be ɡ (U+0261). The ASCII-g guard caught Kuvi ɡuʈi, and it
+ *     will catch every candidate pasted straight out of a dataset.
  *   - and the trap this word has of its own: check the form is not the LIPS.
+ *     Three were caught by it, not one: Sasak biwih (Malay bibir), Sangu
+ *     umutomo and Tswana lòmʊ̀, both on Bantu *-domo, which is the lips
+ *     root. When a Bantu candidate is -nwa or -omo it is the mouth; when it
+ *     is -domo / -lomo / -tomo, stop and check.
  *     Sasak biwih was dropped from the first batch for looking like Malay
  *     bibir, which the definition above excludes.
  */
@@ -145,6 +151,21 @@ WORDS.mouth = {
     unr: ["moca", "motʃa"],
     wba: ["doko", "doko"],
     myx: ["kumunwa", "kumunwa"],
+    ttj: ["omunwa", "omunwa"],
+    rn: ["umunwa", "umunwa"],
+    yao: ["kang'wa", "kaŋwa"],
+    suk: ["nomo", "nomo"],
+    rim: ["momo", "momo"],
+    naq: ["am-s", "ams"],
+    hch: ["téni", "teni"],
+    hot: ["abolek", "abolek"],
+    pzh: ["ahan", "ahan"],
+    kjg: ["tənɔh", "tənɔh"],
+    srb: ["tʼod", "tʔod"],
+    kek: ["e", "e"],
+    xog: ["omunwa", "omunwa"],
+    yrl: ["juru", "juɾu"],
+    kxv: ["guti", "ɡuʈi"],
     tr: ["ağız", "aˈɯz"],
     fa: ["دهان", "dæˈhɒn"],
     sw: ["mdomo", "mˈɗomo"],  // Kept over kinywa, which Wiktionary glosses 'mouth' and nothing else, while mdomo is 'lip, mouth; beak'. mdomo is the everyday word and it does cover the mouth, so it does not fall foul of this concept's "not the lips alone" — but kinywa is the unambiguous body-part term, and it is the one to switch to if the everyday reading is ever disputed. The sw label and definition here use mdomo too, so the three move together.

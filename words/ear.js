@@ -1057,6 +1057,13 @@ WORDS.ear = {
     tsi: ["muk", "muk"],
     yao: ["liwiwi", "liwiwi"],
     myp: ["ʔaooi", "ʔaooi"],
-    rim: ["ikutwi", "ikutwi"]
+    rim: ["ikutwi", "ikutwi"],
+    kde: ["likutu", "likutu"],
+    tyz: ["su", "su˧˧"],
+    srb: ["lʼud", "lʔud"],
+    tsj: ["na", "na"],
+    kdt: ["katɔr", "kətɔr"],
+    dbl: ["munga", "ˈmuŋa"],
+    yap: ["teel", "teːl"]
   },
 };

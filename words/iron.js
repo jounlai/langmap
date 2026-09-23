@@ -814,6 +814,7 @@ WORDS.iron = {
     ch: ["lulok", "ˈlulok"],
     pau: ["deel", "dɛːl"],
     yap: ["waasëy", "waːsəj"],
-    nzm: ["hegei", "heɡei"]
+    nzm: ["hegei", "heɡei"],
+    nmf: ["mari", "mari"]
   },
 };

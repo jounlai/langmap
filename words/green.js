@@ -441,6 +441,11 @@ WORDS.green = {
     fr_sn: ["vert", "vɛʁ"],
     fr_ci: ["vert", "vɛʁ"],
     fr_ht: ["vert", "vɛʁ"],
-    fr_af: ["vert", "vɛʁ"]
+    fr_af: ["vert", "vɛʁ"],
+    nzm: ["kanzaibe", "kanzaibe"],
+    tsj: ["jangkhu", "dʑaŋkʰu"],
+    acn: ["nʲau55", "nʲau˥˥"],
+    yai: ["sabz", "sabz"],
+    it_dan: ["verde", "ˈverde"]
   }
 };

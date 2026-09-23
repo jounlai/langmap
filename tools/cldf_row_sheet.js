@@ -30,6 +30,16 @@
  * CSVs. Written out as files they can also be handed to parallel reviewers,
  * which is the only way the 2,039 reachable pairs get looked at this decade.
  *
+ * EACH FORM IS LABELLED WITH ITS DOCULECT, not just its dataset, because a
+ * row is matched to CLDF by ISO code and an ISO code is not a doculect. ABVD
+ * files FOURTEEN Lampung wordlists under `ljp` and none of them is the atlas
+ * row; its only `nut` list is Lungchow, a Guangxi lect, not Vietnamese Nùng;
+ * `acn` has two sources sharing a glottocode of which exactly one is the row.
+ * Pooling them under one ISO makes a form from the wrong lect look like
+ * corroboration for a form from the right one — five blocks of a five-way
+ * review died on this, and the reviewer had to re-open the raw CSVs by hand to
+ * see it. The label is `dataset:Language_ID`, which is what you grep for.
+ *
  * The sheet prints, per concept: the candidate(s), and the cell the row
  * already holds for a NEIGHBOURING concept so the conversion can be read off
  * settled material. Everything cldf_candidates.js says about there being no
@@ -84,8 +94,9 @@ function main() {
         isoTo.get(iso).push(code);
     }
 
-    // code -> concept -> Map(form -> Set(dataset))
+    // code -> concept -> Map(form -> Set('dataset:Language_ID'))
     const sheet = new Map();
+    const doculect = new Map();     // 'dataset:Language_ID' -> its Name
     const cache = datasets();
     for (const entry of cache.datasets) {
         const ds = entry.ds;
@@ -103,10 +114,11 @@ function main() {
         }
         if (!pidTo.size) continue;
 
-        const isoOf = new Map();
+        const isoOf = new Map(), nameOf = new Map();
         for (const l of langs) {
             const iso = (l.ISO639P3code || l.Iso || '').trim();
             if (iso) isoOf.set(l.ID, iso);
+            nameOf.set(l.ID, (l.Name || l.ID || '').trim());
         }
         for (const f of forms) {
             const concept = pidTo.get(f.Parameter_ID);
@@ -115,6 +127,10 @@ function main() {
             if (!iso || !isoTo.has(iso)) continue;
             const form = (f.Form || f.Value || '').trim();
             if (!form) continue;
+            /* dataset:Language_ID, not just the dataset. See the docstring:
+               an ISO code pools doculects and hides the one that matters. */
+            const tag = `${ds}:${f.Language_ID}`;
+            doculect.set(tag, nameOf.get(f.Language_ID) || '');
             for (const code of isoTo.get(iso)) {
                 if (!needs.get(code).has(concept)) continue;   // already filled
                 if (!sheet.has(code)) sheet.set(code, new Map());
@@ -122,7 +138,7 @@ function main() {
                 if (!byC.has(concept)) byC.set(concept, new Map());
                 const byF = byC.get(concept);
                 if (!byF.has(form)) byF.set(form, new Set());
-                byF.get(form).add(ds);
+                byF.get(form).add(tag);
             }
         }
     }
@@ -141,10 +157,22 @@ function main() {
             .map(([k, e]) => `${k}=${e[0]}/${e[1]}`);
         out.push('', 'THE ROW ALREADY WRITES', `  ${held.join('\n  ')}`);
         if (!byC || !byC.size) { out.push('', 'no candidates'); return out.join('\n'); }
+
+        /* Every doculect this sheet draws on, named. Compare its OTHER forms
+           against cells the row already holds before trusting any of them. */
+        const tags = new Set();
+        for (const forms of byC.values()) for (const ds of forms.values()) for (const t of ds) tags.add(t);
+        out.push('', `DOCULECTS (${tags.size}) — an ISO code is not a doculect; check each one`);
+        for (const t of [...tags].sort()) out.push(`  ${t.padEnd(34)}${doculect.get(t) || ''}`);
+
         out.push('', `CANDIDATES (${byC.size} concepts)`);
         for (const [concept, forms] of [...byC].sort()) {
-            const list = [...forms].map(([f, ds]) =>
-                `${f}${ds.size >= 2 ? ' **' : ''} [${[...ds].join(',')}]`).join('   ');
+            const list = [...forms].map(([f, ds]) => {
+                /* ** means two INDEPENDENT datasets agree. Two lects inside one
+                   dataset are one source and must not read as corroboration. */
+                const indep = new Set([...ds].map((t) => t.split(':')[0]));
+                return `${f}${indep.size >= 2 ? ' **' : ''} [${[...ds].join(',')}]`;
+            }).join('   ');
             out.push(`  ${concept.padEnd(11)}${list}`);
         }
         return out.join('\n');
@@ -185,26 +213,8 @@ function main() {
         console.error('usage: node tools/cldf_row_sheet.js <code> | --top N');
         process.exit(2);
     }
-    const lang = data.langs[one];
-    if (!lang) { console.error(`no row ${one}`); process.exit(1); }
-    const byC = sheet.get(one);
-    console.log(`${one}  ${lang.name}`);
-    console.log(`family  ${(lang.meta && lang.meta.family) || ''}`);
-
-    // What the row already writes, so the conventions are visible once.
-    const held = Object.entries(lang.words || {})
-        .filter(([, e]) => e && e[0] && e[0] !== '—' && e[1])
-        .slice(0, 18)
-        .map(([k, e]) => `${k}=${e[0]}/${e[1]}`);
-    console.log(`\nTHE ROW ALREADY WRITES\n  ${held.join('\n  ')}`);
-
-    if (!byC || !byC.size) { console.log('\nno candidates'); return; }
-    console.log(`\nCANDIDATES (${byC.size} concepts)`);
-    for (const [concept, forms] of [...byC].sort()) {
-        const list = [...forms].map(([f, ds]) =>
-            `${f}${ds.size >= 2 ? ' **' : ''} [${[...ds].join(',')}]`).join('   ');
-        console.log(`  ${concept.padEnd(11)}${list}`);
-    }
+    if (!data.langs[one]) { console.error(`no row ${one}`); process.exit(1); }
+    console.log(render(one));
 }
 
 main();

@@ -568,6 +568,13 @@ WORDS.head = {
     ko_hg: ["머리", "məri"],
     ko_jl: ["머리", "məri"],
     ja_kyo: ["頭", "atama"],
-    de_at: ["Kopf", "kɔpf"]
+    de_at: ["Kopf", "kɔpf"],
+    nym: ["mtwe", "mtwe"],
+    srb: ["bʼob", "bʔob"],
+    nzm: ["mipei", "mipei"],
+    grt: ["sko", "sko"],
+    agt: ["ulu", "ʔulu"],
+    wrh: ["balang", "ˈbalaŋ"],
+    it_dan: ["testa", "ˈtɛsta"]
   },
 };

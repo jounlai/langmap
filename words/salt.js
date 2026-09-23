@@ -1115,6 +1115,11 @@ WORDS.salt = {
     jmc: ["shumbi", "ʃumbi"],
     mvf: ["dabsə", "dabsə"],
     rim: ["munyu", "muɲu"],
-    tar: ["koná", "kona"]
+    tar: ["koná", "kona"],
+    ebu: ["cumbĩ", "tʃumbi"],
+    nym: ["munu", "munu"],
+    nmf: ["machi", "matʃi"],
+    nzm: ["nehai", "nehai"],
+    yai: ["namak", "naˈmak"]
   },
 };

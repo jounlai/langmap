@@ -837,6 +837,9 @@ WORDS.milk = {
     trv: ["nunuh", "nunuh"],
     naq: ["bis", "bis"],
     piu: ["mimi", "mimi"],
-    wba: ["amiho", "amiho"]
+    wba: ["amiho", "amiho"],
+    jmc: ["malela", "malela"],
+    nym: ["mabeele", "maβeːle"],
+    nzm: ["tungdui", "tuŋdui"]
   },
 };

@@ -975,6 +975,14 @@ WORDS.nose = {
     gum: ["kimtsik", "kimtsik"],
     kos: ["fwac", "fwɛ"],
     myp: ["ʔitaoi", "ʔitaoi"],
-    wba: ["kaɾi", "kaɾi"]
+    wba: ["kaɾi", "kaɾi"],
+    ebu: ["ĩniũrũ", "iniuɾu"],
+    bzg: ["not", "not"],
+    srb: ["mʼu", "mʔu"],
+    hni: ["nalmeil", "na˥˥me˥˥"],
+    kdt: ["muh", "muh"],
+    dru: ["ngongoanə", "ŋoŋoanə"],
+    pyu: ["tingran", "tiŋɾan"],
+    tsu: ["ngʉcʉ", "ŋətsə"]
   },
 };

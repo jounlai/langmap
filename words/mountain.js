@@ -416,6 +416,17 @@ WORDS.mountain = {
     fr_ci: ["montagne", "mɔ̃taɲ"],
     fr_ht: ["montagne", "mɔ̃taɲ"],
     en_manc: ["mountain", "ˈmaʊntɪn"],
-    fr_af: ["montagne", "mɔ̃taɲ"]
+    fr_af: ["montagne", "mɔ̃taɲ"],
+    ebu: ["kĩrĩma", "kiɾima"],
+    nym: ["lugulu", "luɡulu"],
+    kde: ["lichinga", "litʃiŋɡa"],
+    nmf: ["kaphung", "kapʰuŋ"],
+    grt: ["ha·bri", "haʔbri"],
+    shx: ["hɔ22", "hɔ˨˨"],
+    tsj: ["riwu", "ɾiwu"],
+    kdt: ["bru", "bru"],
+    acn: ["pum55", "pum˥˥"],
+    yai: ["ġar", "ʁar"],
+    it_dan: ["montagna", "monˈtaɲɲa"]
   }
 };

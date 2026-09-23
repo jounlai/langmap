@@ -811,6 +811,12 @@ WORDS.honey = {
     sbp: ["uwushi", "uwuʃi"],
     xul: ["kawangkal", "kawaŋkal"],
     kky: ["mula", "mula"],
-    xog: ["omuzinga", "omuziŋɡa"]
+    xog: ["omuzinga", "omuziŋɡa"],
+    ebu: ["ũkĩ", "uki"],
+    jmc: ["uki", "uki"],
+    nym: ["buuki", "buːki"],
+    nmf: ["khuira", "kʰuira"],
+    nzm: ["ngkuidi", "ŋkuidi"],
+    wrh: ["ngarruu", "ˈŋaruː"]
   },
 };

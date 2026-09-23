@@ -556,6 +556,18 @@ WORDS.mouth = {
     en_us: ["mouth", "maʊθ"],
     de_at: ["Mund", "mʊnt"],
     en_manc: ["mouth", "maʊθ"],
-    fr_af: ["bouche", "buʃ"]
+    fr_af: ["bouche", "buʃ"],
+    kde: ["kanya", "kaɲa"],
+    nmf: ["khamor", "kʰamor"],
+    nzm: ["mimui", "mimui"],
+    grt: ["ku·sik", "kuʔsik"],
+    tsj: ["nowang", "nowaŋ"],
+    acn: ["n̥ʲot53", "n̥ʲot˥˧"],
+    yai: ["rax", "rax"],
+    pbb: ["yuwe", "juwe"],
+    dru: ["ngodoy", "ŋoˈdoi"],
+    pyu: ["indan", "indan"],
+    mh: ["lọñi", "lɑŋi"],
+    it_dan: ["bocca", "ˈbokka"]
   }
 };

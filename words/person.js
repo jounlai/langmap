@@ -493,6 +493,11 @@ WORDS.person = {
     de_at: ["Mensch", "mɛnʃ"],
     fr_af: ["personne", "pɛʁsɔn"],
     es_co: ["persona", "peɾˈsona"],
-    es_pe: ["persona", "peɾˈsona"]
+    es_pe: ["persona", "peɾˈsona"],
+    srb: ["mandra", "mandra"],
+    kdt: ["kuj", "kuj"],
+    yai: ["odam", "oˈdam"],
+    tsu: ["cou", "tsou"],
+    mh: ["armej", "arˠmʲetʲ"]
   }
 };

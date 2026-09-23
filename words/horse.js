@@ -464,6 +464,14 @@ WORDS.horse = {
     fr_sn: ["cheval", "ʃəˈval"],
     fr_ht: ["cheval", "ʃəˈval"],
     en_est: ["horse", "hɔːs"],
-    fr_af: ["cheval", "ʃəˈval"]
+    fr_af: ["cheval", "ʃəˈval"],
+    nym: ["falasi", "falasi"],
+    kde: ["fulasi", "fulasi"],
+    hni: ["moq", "mo˧˩"],
+    nmf: ["sigui", "siɡui"],
+    nzm: ["hekun", "hekun"],
+    grt: ["gora", "ɡora"],
+    tsj: ["kurta", "kuɾta"],
+    acn: ["m̥ʐaŋ31", "m̥ʐaŋ˧˩"]
   }
 };

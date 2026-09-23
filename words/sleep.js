@@ -943,6 +943,7 @@ WORDS.sleep = {
     agr: ["kanut", "kanut"],
     emi: ["asekanue", "asekanue"],
     piu: ["kunkunpa", "kunkunpa"],
-    wba: ["uba", "uba"]
+    wba: ["uba", "uba"],
+    dru: ["waapəcə", "waːpətsə"]
   },
 };

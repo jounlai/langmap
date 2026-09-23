@@ -559,6 +559,14 @@ WORDS.new = {
     adt: ["marra", "maɻɻa"],
     nys: ["yinyang", "jiɲaŋ"],
     xog: ["iyaka", "ijaka"],
-    ja_kyo: ["新しい", "ataɾaɕiː"]
+    ja_kyo: ["新しい", "ataɾaɕiː"],
+    nym: ["pya", "pja"],
+    nmf: ["kathar", "katʰar"],
+    grt: ["gital", "ɡital"],
+    kdt: ["tamaj", "təmaj"],
+    agt: ["bagu", "baɡ"],
+    pyu: ["bekal", "bəkaɭ"],
+    yap: ["biqech", "biʔetʃ"],
+    mh: ["kāāl", "kʲaːlʲ"]
   },
 };

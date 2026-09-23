@@ -738,6 +738,16 @@ WORDS.black = {
     wba: ["ana", "ana"],
     wbp: ["kirdily", "kiɖiʎ"],
     ko_hg: ["까맣다", "k͈amatʰa"],
-    ko_jl: ["까맣다", "k͈amatʰa"]
+    ko_jl: ["까맣다", "k͈amatʰa"],
+    nym: ["pi", "pi"],
+    nmf: ["kachik", "katʃik"],
+    tsj: ["changlu", "tɕʰaŋlu"],
+    agt: ["ngisit", "ŋisit"],
+    dru: ["maicəlrəngə", "maitsəɭəŋə"],
+    pyu: ["udedem", "uɖəɖəm"],
+    tsu: ["kuaʼonga", "kuaʔoŋa"],
+    wrh: ["buudhang", "ˈbuːd̪aŋ"],
+    yap: ["rungduq", "ruŋduʔ"],
+    it_dan: ["nero", "ˈnero"]
   },
 };

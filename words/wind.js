@@ -915,6 +915,12 @@ WORDS.wind = {
     myp: ["ʔohoi", "ʔohoi"],
     nys: ["marra", "maɾa"],
     rim: ["mpefo", "mpefo"],
-    wba: ["ahaka", "ahaka"]
+    wba: ["ahaka", "ahaka"],
+    ebu: ["rũkũngi", "ɾukuŋɡi"],
+    nym: ["myaga", "mjaɡa"],
+    kde: ["imepo", "imepo"],
+    nzm: ["tingkai", "tiŋkai"],
+    yai: ["šamol", "ʃaˈmol"],
+    dru: ["sasəvəranə", "sasəvəɾanə"]
   },
 };

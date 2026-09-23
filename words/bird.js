@@ -921,6 +921,13 @@ WORDS.bird = {
     kxv: ["minu", "minu"],
     srb: ["ontid", "ontid"],
     akb: ["unggas", "uŋɡas"],
-    myp: ["piibigi", "piibiɡi"]
+    myp: ["piibigi", "piibiɡi"],
+    kde: ["chuni", "tʃuni"],
+    nzm: ["nruine", "nruine"],
+    tsj: ["kha", "kʰa"],
+    dru: ["adhadhamə", "aðaðamə"],
+    tsu: ["zomʉ", "zomə"],
+    dbl: ["dundu", "ˈdundu"],
+    wrh: ["buujaan", "ˈbuːɟaːn"]
   },
 };

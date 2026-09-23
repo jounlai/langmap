@@ -1107,6 +1107,10 @@ WORDS.four = {
     pbb: ["pahz", "paʰts"],
     wba: ["oɾabakaja", "oɾabakaha"],
     xpr: ["čafār", "tʃafaːr"],
-    ko_jl: ["넷", "net̚"]
+    ko_jl: ["넷", "net̚"],
+    bzg: ["naspat", "naspat"],
+    pll: ["phon", "pʰon"],
+    dru: ["səpatə", "səpatə"],
+    tsu: ["sʉptʉ", "səptə"]
   },
 };

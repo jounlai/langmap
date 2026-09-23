@@ -942,6 +942,12 @@ WORDS.stone = {
     naq: ["ǀuib", "ǀuib"],
     myp: ["ʔaʔai", "ʔaʔai"],
     wba: ["hojo", "hoho"],
-    xog: ["eibaale", "eibaːle"]
+    xog: ["eibaale", "eibaːle"],
+    ebu: ["ĩthiga", "iðiɡa"],
+    kde: ["liyanga", "lijaŋɡa"],
+    srb: ["areng", "areŋ"],
+    kdt: ["tamaw", "təmaw"],
+    dru: ["lrənəgə", "ɭənəɡə"],
+    yap: ["malaang", "malaːŋ"]
   },
 };

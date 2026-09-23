@@ -392,6 +392,13 @@ WORDS.sea = {
     fr_ci: ["mer", "mɛʁ"],
     fr_ht: ["mer", "mɛʁ"],
     en_est: ["sea", "siː"],
-    fr_af: ["mer", "mɛʁ"]
+    fr_af: ["mer", "mɛʁ"],
+    bzg: ["abas", "abas"],
+    nzm: ["sungkeling", "suŋkeliŋ"],
+    tsj: ["jamtsho", "dʑamtsʰo"],
+    acn: ["nam31 tɕu31", "nam˧˩ tɕu˧˩"],
+    tsu: ["tʉpʉ", "təpə"],
+    mh: ["lọjet", "lɑzʲet"],
+    it_dan: ["mare", "ˈmare"]
   }
 };

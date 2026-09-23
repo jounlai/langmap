@@ -169,26 +169,57 @@ function writesChaoTone(lang) {
    is a ratio for the reason marksStress() is — Central Cagayan Agta writes one
    mark in 49 cells, Misak one in 49, Hadza one in 38, and one is a loan or a
    proper name, not a convention. Twenty cells is the floor for saying a row
-   has a convention at all. */
+   has a convention at all.
+
+   TWO CORRECTIONS, both from cells this rule produced and a reviewer caught:
+
+   Only marks that are TONE in some orthography may be stripped at all. The
+   first version also stripped the diaeresis, the macron and the tilde, which
+   are not tone anywhere — they are vowel quality, length and nasalisation,
+   and dropping one destroys a phonemic contrast rather than an unrecorded
+   detail. Northern Paiute head woö came out woo, which then matched the row's
+   learned oo -> oː and produced woː, a long vowel the language does not have
+   in that word.
+
+   And the check is PER MARK, not aggregate. pao writes ü in exactly two cells
+   of 47 — tiipü tiːpɨ, pühü pɨhɨ — which is under any sensible ratio, and yet
+   ü is plainly a letter of that orthography: the row's own learned table
+   contains ü -> ɨ. An aggregate ratio lets a rare letter be deleted by the
+   frequency of marks it has nothing to do with. Each mark now stands or falls
+   on whether the row writes THAT mark. */
+/** Marks that write TONE somewhere. Deliberately excludes U+0303 tilde
+ *  (nasalisation), U+0304 macron (length) and U+0308 diaeresis (vowel
+ *  quality): those are segmental everywhere they appear and are never this
+ *  row's missing tone. */
+const TONE_MARKS = ['\u0300', '\u0301', '\u0302', '\u030B', '\u030C', '\u030F'];
+
 function recordsNoTone(lang) {
-    const MARK = /[\u0300\u0301\u0302\u0303\u0304\u030C\u0308]/;
-    let total = 0, ipaMark = 0, ipaChao = 0, surfMark = 0;
+    let total = 0, ipaChao = 0;
+    const ipaHas = new Set(), surfCount = new Map();
     for (const e of Object.values(lang.words || {})) {
         if (!e || !e[0] || e[0] === '—' || !e[1]) continue;
         total++;
-        if (MARK.test(e[1].normalize('NFD'))) ipaMark++;
         if (/[\u02E5-\u02E9]/.test(e[1])) ipaChao++;
-        if (MARK.test(e[0].normalize('NFD'))) surfMark++;
+        const ipa = e[1].normalize('NFD'), surf = e[0].normalize('NFD');
+        for (const m of TONE_MARKS) {
+            if (ipa.includes(m)) ipaHas.add(m);
+            if (surf.includes(m)) surfCount.set(m, (surfCount.get(m) || 0) + 1);
+        }
     }
-    return total >= 20 && ipaMark === 0 && ipaChao === 0 && surfMark / total < 0.05;
+    if (total < 20 || ipaChao) return null;
+    /* Per mark: strippable only if this row's IPA never carries it and its
+       surfaces essentially never do. See the second correction above. */
+    const drop = TONE_MARKS.filter((m) =>
+        !ipaHas.has(m) && (surfCount.get(m) || 0) / total < 0.05);
+    return drop.length ? drop : null;
 }
 
-/** Drop the combining marks recordsNoTone() licensed dropping. NFD first, so
- *  a precomposed à and an a plus U+0300 are the same thing here. */
-function stripTone(form) {
-    return form.normalize('NFD')
-        .replace(/[\u0300\u0301\u0302\u0303\u0304\u030C\u0308]/g, '')
-        .normalize('NFC');
+/** Drop exactly the marks recordsNoTone() licensed dropping. NFD first, so a
+ *  precomposed à and an a plus U+0300 are the same thing here. */
+function stripTone(form, drop) {
+    let s = form.normalize('NFD');
+    for (const m of drop) s = s.split(m).join('');
+    return s.normalize('NFC');
 }
 
 function learn(lang) {
@@ -382,7 +413,8 @@ function main() {
             const { table } = learn(lang);
             if (table.size < 8) continue;
             const known = bigrams(lang); const chao = writesChaoTone(lang);
-            const prep = recordsNoTone(lang) ? stripTone : (f) => f;
+            const drop = recordsNoTone(lang);
+            const prep = drop ? (f) => stripTone(f, drop) : (f) => f;
             let ok = 0;
             for (const [, forms] of sheetFor(code, data)) {
                 if (forms.length !== 1) continue;
@@ -428,10 +460,12 @@ function main() {
        printing the JS line, which is what a person pasting one cell wants. */
     const tsv = args.includes('--tsv');
     const quiet = tsv || args.includes('--apply');
-    const prep = recordsNoTone(lang) ? stripTone : (f) => f;
-    if (!quiet && recordsNoTone(lang)) {
-        console.log('\nThis row records no tone in either field, so combining marks'
-            + ' are stripped from candidates before conversion — see recordsNoTone().');
+    const drop = recordsNoTone(lang);
+    const prep = drop ? (f) => stripTone(f, drop) : (f) => f;
+    if (!quiet && drop) {
+        console.log(`\nThis row records no tone in either field, so ${drop.length} combining`
+            + ' mark(s) are stripped from candidates before conversion — see recordsNoTone().'
+            + ' Marks the row DOES write are kept.');
     }
     console.log(`${quiet ? '' : '\n'}CANDIDATES`);
     for (const [concept, forms] of sheetFor(code, data)) {

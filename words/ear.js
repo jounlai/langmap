@@ -826,7 +826,7 @@ WORDS.ear = {
     ndc: ["nzeve", "nzeve"],
     tar: ["naká", "naka"],
     ami: ["tangila", "taŋila"],
-    trv: ["birat", "birat"],
+    trv: ["birat", "biɾat"],
     kac: ["na", "na˧"],
     nij: ["pinding", "pindiŋ"],
     sda: ["talinga", "taliŋa"],

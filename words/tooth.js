@@ -1114,7 +1114,7 @@ WORDS.tooth = {
     pwn: ["alis", "aɭis"],
     tay: ["apenux", "apənux"],
     bnn: ["nipun", "nipun"],
-    trv: ["rupun", "rupun"],
+    trv: ["rupun", "ɾupun"],
     tsu: ["hisi", "hisi"],
     tao: ["nepen", "nəpən"],
     pyu: ["wali", "wali"],

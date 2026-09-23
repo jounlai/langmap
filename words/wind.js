@@ -800,7 +800,7 @@ WORDS.wind = {
     pnt: ["άνεμον", "ˈanemon"],
     ace: ["angén", "aŋen"],
     mdr: ["angin", "aŋin"],
-    trv: ["bgihur", "bɡihur"],
+    trv: ["bgihur", "bɡihuɾ"],
     quc: ["iqʼ", "iqʼ"],
     nch: ["ejecatl", "ehekatɬ"],
     nhe: ["ejecatl", "ehekatɬ"],

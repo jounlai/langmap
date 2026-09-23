@@ -1158,7 +1158,7 @@ WORDS.star = {
       pwn: ["vituqan", "vituqan"],
       tay: ["pintuxan", "pintuxan"],
       bnn: ["bintuhan", "bintuhan"],
-      trv: ["pngrah", "pŋərah"],
+      trv: ["pngrah", "pŋəɾah"],
       tsu: ["congroha", "tsoŋroxa"],
       tao: ["vituen", "vituən"],
       pyu: ["vituwan", "vituwan"],

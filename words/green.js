@@ -410,7 +410,7 @@ WORDS.green = {
     peh: ["noɢoŋ", "noɢoŋ"],
     pzh: ["tululik", "tululik"],
     srh: ["sovdz", "sovdz"],
-    swi: ["ࡶhu1", "ࡶhu˩˩"],
+    swi: ["ȶhu1", "ȶhu˩˩"],
     wls: ["moto", "moto"],
     yap: ["giriin", "ɡiriːn"],
     ko_bus: ["초록", "tɕʰoɾok"],

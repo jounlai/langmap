@@ -1094,7 +1094,7 @@ WORDS.blood = {
     pwn: ["djamuq", "ɖamuq"],
     tay: ["ramuʼ", "ramuʔ"],
     bnn: ["haidang", "haidaŋ"],
-    trv: ["dara", "dara"],
+    trv: ["dara", "daɾa"],
     tsu: ["hmuru", "m̥uɾu"],
     tao: ["rala", "ralaʔ"],
     pyu: ["damuk", "damuk"],

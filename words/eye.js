@@ -1164,7 +1164,7 @@ WORDS.eye = {
     pwn: ["maca", "matsa"],
     tay: ["roziq", "roziq"],
     bnn: ["mata", "mata"],
-    trv: ["dowriq", "dowriq"],
+    trv: ["dowriq", "dowɾiq"],
     tsu: ["mcoo", "mtsoo"],
     tao: ["mata", "mata"],
     pyu: ["mata", "mata"],

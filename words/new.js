@@ -501,7 +501,7 @@ WORDS.new = {
     pwn: ["vaquan", "vaquan"],
     tay: ["geqas", "ɡəqas"],
     bnn: ["bahlu", "baɬu"],
-    trv: ["bgurah", "bɡurah"],
+    trv: ["bgurah", "bɡuɾah"],
     tsu: ["faeva", "faeva"],
     tao: ["vayo", "vajo"],
     ssf: ["faqlhu", "faqɬu"],

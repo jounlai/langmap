@@ -697,7 +697,7 @@ WORDS.wheel = {
     ami: ["fiher", "fiher"],
     pwn: ["tjukutjuku", "tʲukutʲuku"],
     bnn: ["tauntaun", "tauntaun"],
-    trv: ["ribaw", "ribaw"],
+    trv: ["ribaw", "ɾibaw"],
     szy: ["bihel", "bihel"],
     pyu: ["mutralatralaw", "muʈalaʈalaw"],
     ckv: ["krizeng", "kriˈzəŋ"],

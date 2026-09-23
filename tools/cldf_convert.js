@@ -518,4 +518,13 @@ function main() {
     }
 }
 
-main();
+/* Exported so ipa_outlier_check.js can hold a row to its OWN table. The
+   learning machinery is the same question asked in the other direction:
+   instead of "what would this row write for a new word", "does this row
+   already write something it would not write." */
+module.exports = {
+    surfaceTokens, ipaTokens, align, learn, bigrams, convert, convertInner,
+    marksStress, writesChaoTone, recordsNoTone, stripTone,
+};
+
+if (require.main === module) main();

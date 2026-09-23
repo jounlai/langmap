@@ -758,7 +758,7 @@ WORDS.blue = {
     tob: ["malaʁadaik", "malaʁadaik"],  // Hyphens dropped and ḳ→q following this row's own IDS-derived cells (IDS y-apagaḳ appears in the row as japagaq).
     tr: ["mavi", "maːˈvi"],  // Turkish mavi is an Arabic loan (māʾī 'watery'). It sits on top of inherited gök 'sky', which is still the blue/grue term in older and dialectal usage (gök gözlü, göğermek) and remains the blue word in most other Turkic languages.
     trn: ["-ripu", "-ripu"],  // CONVENTION MISMATCH, DELIBERATE: IDS cites the bound stem. This row's other cells prefix it (IDS -hopu 'white' appears in the row as tjopu), so the row form is probably tiripu, but I did not want to invent the prefixed shape. Class (distinct) is firm: separate blue and green lexemes in the same elicitation.
-    trv: ["mgkarats", "mŋ̩karats"],  // Truku (Seediq) mgkarats against mgsama 'green'.
+    trv: ["mgkarats", "mŋ̩kaɾats"],  // Truku (Seediq) mgkarats against mgsama 'green'.
     ts: ["rihlaza", "riɬaza"],  // Cuenod's English-Tsonga entries: 'blue, (n.) rihlaza 11' and, under 'colour', 'green and blue --s, rihlaza'. So one term covers both, as in Nguni (cognate of -luhlaza). Beside it Tsonga has the specific blue words wasi 9 and the English loan blue 1, marked '(n., Eng.)' under 'blue colour'; nkuxe is dark green.
     tsg: ["bilu", "biˈlu"],  // Borrowed from Malay biru. The dictionary's own subentry 'bilu awan' = 'sky blue' settles that this is the sky-colour word. gaddung 'green' (itself a Brunei Malay loan) is sometimes glossed 'green, blue' in other sources, but the Tausug dictionary keeps them apart. IPA [bɪˈlu] from Wiktionary's tsg-pr; final stress matches this row's puˈla / ʔiˈtum.
     tsj: ["jenglo", "jeŋlo"],  // Tshangla (Motuo) jeŋlo against dʑaŋkhu 'green'.

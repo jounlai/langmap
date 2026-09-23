@@ -860,7 +860,7 @@ WORDS.five = {
     pwn: ["lima", "lima"],
     tay: ["magal", "maɣal"],
     bnn: ["hima", "hima"],
-    trv: ["rima", "rima"],
+    trv: ["rima", "ɾima"],
     tsu: ["eimo", "eimo"],
     tao: ["lima", "lima"],
     pyu: ["lima", "lima"],

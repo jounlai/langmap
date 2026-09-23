@@ -428,6 +428,7 @@ WORDS.butterfly = {
     vi_s: ["bươm bướm", "ɓɨəm˧ ɓɨəm˧˥"],
     ko_kp: ["나비", "nabi"],
     vi_c: ["bươm bướm", "ɓɨəm˧ ɓɨəm˧˥"],
-    th_isan: ["แมงกะเบื้อ", "mɛːŋ˥ ka˨˩ bɯa˧"]
+    th_isan: ["แมงกะเบื้อ", "mɛːŋ˥ ka˨˩ bɯa˧"],
+    en_in: ["butterfly", "ˈbʌʈɚflaɪ"]
   },
 };

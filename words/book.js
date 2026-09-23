@@ -473,6 +473,8 @@ WORDS.book = {
     vi_c: ["sách", "sajk˧˥"],
     th_isan: ["หนังสือ", "naŋ˩˧sɯː˩˧"],
     za: ["saw", "θaɯ˨˦"],
-    azb: ["کیتاب", "kiˈtab"]
+    azb: ["کیتاب", "kiˈtab"],
+    en_south: ["book", "bʊk"],
+    en_aave: ["book", "bʊk"]
   }
 };

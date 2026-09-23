@@ -540,6 +540,9 @@ WORDS.person = {
     vi_c: ["người", "ŋɨəj˧˨"],
     th_isan: ["คน", "kʰon˥"],
     za: ["vunz", "vun˧˩"],
-    ug: ["ئادەم", "ɑdɛm"]
+    ug: ["ئادەم", "ɑdɛm"],
+    en_in: ["person", "ˈpɝsən"],
+    en_au: ["person", "ˈpɜːsən"],
+    en_south: ["person", "ˈpɝsən"]
   }
 };

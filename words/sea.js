@@ -439,6 +439,10 @@ WORDS.sea = {
     vi_c: ["biển", "biəŋ˧˩"],
     th_isan: ["ทะเล", "tʰa˦˥leː˥"],
     za: ["haij", "haːi˥"],
-    ug: ["دېڭىز", "deŋiz"]
+    ug: ["دېڭىز", "deŋiz"],
+    en_in: ["sea", "siː"],
+    en_au: ["sea", "siː"],
+    en_south: ["sea", "siː"],
+    en_aave: ["sea", "siː"]
   }
 };

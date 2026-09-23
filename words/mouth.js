@@ -32,6 +32,10 @@
  *     exactly ONE of them is backed by two datasets, because then it is
  *     resolved already. That test picked vaʻa out of vaʻa/vaà, vaha out of
  *     vaha/ewauh, and quwaq out of four Seediq spellings.
+ *   - a Formosan multi-candidate set often contains the ORTHOGRAPHY and the
+ *     IPA of one word, which is both halves of a cell: Bunun ngurus / ŋulus
+ *     / ŋúluṣ / *ŋulus is ngulus + ŋulus with a second doculect and a proto
+ *     alongside. Take the pair, drop the rest.
  *   - before filling a VARIETY row, look at what its siblings already do
  *     with the neighbouring concepts. The eight Japanese variety rows carry
  *     目/me, 耳/mimi, 鼻/hana, 手/te identical to ja, every one of them:
@@ -187,6 +191,11 @@ WORDS.mouth = {
     rar: ["vaʻa", "vaʔa"],
     ty: ["vaha", "vaha"],
     trv: ["quwaq", "quwaq"],
+    bnn: ["ngulus", "ŋulus"],
+    ami: ["ngoyos", "ŋojos"],
+    tao: ["ngongoy", "ŋoŋoj"],
+    vi_c: ["miệng", "miəŋ˨˨"],
+    vi_s: ["miệng", "miəŋ˨˩˨"],
     tr: ["ağız", "aˈɯz"],
     fa: ["دهان", "dæˈhɒn"],
     sw: ["mdomo", "mˈɗomo"],  // Kept over kinywa, which Wiktionary glosses 'mouth' and nothing else, while mdomo is 'lip, mouth; beak'. mdomo is the everyday word and it does cover the mouth, so it does not fall foul of this concept's "not the lips alone" — but kinywa is the unambiguous body-part term, and it is the one to switch to if the everyday reading is ever disputed. The sw label and definition here use mdomo too, so the three move together.

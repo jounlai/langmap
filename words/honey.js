@@ -71,6 +71,8 @@ WORDS.honey = {
     sw: "Asali — chakula kizito na kitamu ambacho nyuki hutengeneza kutokana na nekta ya maua. Lugha ya Proto-Indo-Ulaya ilikuwa na maneno mawili kwa ajili yake: moja likatoa mel ya Kilatini, jingine madhu ya Kisanskrit na mead ya Kiingereza.",
   },
   data: {
+    sbp: ["uwushi", "uwuʃi"],
+    myx: ["bubuukhi", "bubuːkʰi"],
     // --- UI languages -------------------------------------------------
     en: ["honey", "ˈhʌni"],
     ja: ["蜂蜜", "hatɕimitsɯ"],

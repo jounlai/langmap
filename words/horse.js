@@ -62,6 +62,8 @@ WORDS.horse = {
     sw: "Farasi wa kufugwa (Equus caballus), neno la jumla la spishi — si neno la jinsia au umri (dume, jike, mwana-farasi), wala mnyama mwingine wa jamii ya farasi kama punda, nyumbu au punda-milia.",
   },
   data: {
+    sbp: ["ifarasi", "ifarasi"],
+    myx: ["ifarasi", "ifarasi"],
     en: ["horse", "hɔːs"],
     de: ["Pferd", "pfeːɐ̯t"],
     nl: ["paard", "paːrt"],

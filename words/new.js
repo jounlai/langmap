@@ -54,6 +54,7 @@ WORDS.new = {
     sw: "Mpya — kilichotengenezwa, kilichonunuliwa au kilichoanzishwa hivi karibuni; kinyume cha kuukuu. Huelezea vitu, si 'changa' kwa watu au wanyama, wala si 'wa kisasa', 'kibichi' au 'kingine'.",
   },
   data: {
+    sbp: ["ishipya", "iʃipja"],
     // Stubbs 1523 *pïtuC / *pïtuwa 'new', six branches across BOTH primary
     // divisions [NUA: Num, Hp, Tb; SUA: Tep, Cah, CrC] — broader support than
     // the puaz head cell. Round 528 refuted the skip reason recorded in handoff

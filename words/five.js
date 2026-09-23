@@ -54,6 +54,8 @@ WORDS.five = {
     sw: "Tano — nambari kamili 5, moja zaidi ya nne.",
   },
   data: {
+    sbp: ["sisanu", "sisanu"],
+    myx: ["tsirano", "tsirano"],
     es_cr: ["cinco", "ˈsinko"],
     es_hn: ["cinco", "ˈsinko"],
     es_ni: ["cinco", "ˈsinko"],

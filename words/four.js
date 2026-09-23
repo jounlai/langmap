@@ -50,6 +50,8 @@ WORDS.four = {
     sw: "Nne — namba 4. Katika sehemu kubwa ya Asia ya Mashariki matamshi yake ya Kichina yanafanana na neno la 'kifo', hivyo huepukwa.",
   },
   data: {
+    sbp: ["sina", "sina"],
+    myx: ["tsine", "tsine"],
     // --- UI languages -------------------------------------------------
     // ja takes よん, not し: し is the sequence-reciting form, but よん is what
     // a speaker says when actually counting, precisely because し is 死.

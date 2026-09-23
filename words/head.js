@@ -53,6 +53,8 @@ WORDS.head = {
     sw: "Kichwa — sehemu ya juu kabisa ya mwili, yenye macho, masikio, pua na mdomo. Kiungo cha mwili tu: si 'kiongozi', si ncha ya kitu, wala si kitenzi.",
   },
   data: {
+    sbp: ["umutwe", "umutwe"],
+    myx: ["kumurwe", "kumurwe"],
     paus: ["*quluh", "quluh"],
     p_dra: ["*talay", "talay"],
     pura: ["*päŋe", "päŋe"],

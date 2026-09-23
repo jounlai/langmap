@@ -61,6 +61,7 @@ WORDS.mountain = {
     sw: "Mlima kama muinuko mkubwa wa asili wa ardhi kwa ujumla — si kilima kidogo tu, wala kilele fulani chenye jina.",
   },
   data: {
+    sbp: ["ishidunda", "iʃidunda"],
     en: ["mountain", "ˈmaʊntɪn"],
     de: ["Berg", "bɛʁk"],
     nl: ["berg", "bɛrx"],

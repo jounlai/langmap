@@ -6,7 +6,7 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LangMap - Word coverage</title>
-    <meta name="description" content="How many of LangMap's 1,188 languages have each of the 86 words, and which languages are still missing.">
+    <meta name="description" content="How many of LangMap's 1,188 languages have each of the 86 words, counted separately for living and historical languages, and which languages are still missing.">
     <!-- Project-status page, like changelog.html — publicly reachable but kept
          out of search indexes; the canonical content is the maps themselves. -->
     <meta name="robots" content="noindex, follow">
@@ -30,18 +30,22 @@
     </script>
     <link rel="stylesheet" href="styles.css?v=134">
     <style>
-        .prog { max-width: 1000px; margin: 0 auto; padding: 24px 20px 60px; }
+        .prog { max-width: 1080px; margin: 0 auto; padding: 24px 20px 60px; }
         .prog h1 { font-size: 24px; margin: 0 0 4px; }
         .prog .lead { color: #666; font-size: 14px; line-height: 1.7; margin: 0 0 20px; }
 
-        /* Summary ------------------------------------------------------- */
+        /* Living and historical always side by side. A single blended number
+           hides both: the living figure is dragged down by corpora nobody can
+           add to, and the historical one is flattered by living languages. */
         .sum { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
         .sum div {
-            flex: 1 1 150px; border: 1px solid #e3e3e3; border-radius: 8px;
+            flex: 1 1 165px; border: 1px solid #e3e3e3; border-radius: 8px;
             padding: 10px 14px; background: #fafafa;
         }
+        .sum div.hist { background: #faf8f3; border-color: #e8e0d0; }
         .sum b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
         .sum span { font-size: 12px; color: #666; }
+        .sum em { font-style: normal; color: #999; font-size: 11px; display: block; }
 
         /* The tier legend is not decoration: a low percentage on a 🧪 word is
            the right answer, not a gap, and the page misleads without it. */
@@ -49,7 +53,6 @@
                  border-left: 3px solid #e0e0e0; padding: 2px 0 2px 14px; }
         .tiers b { color: #333; }
 
-        /* Controls ------------------------------------------------------ */
         .ctl { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center;
                margin-bottom: 14px; font-size: 13px; }
         .ctl .grp { display: flex; gap: 6px; align-items: center; }
@@ -61,31 +64,37 @@
         .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
         .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
-        /* Table --------------------------------------------------------- */
         table.wp { width: 100%; border-collapse: collapse; font-size: 13.5px; }
         table.wp th {
             text-align: left; font-weight: 600; color: #666; font-size: 12px;
             border-bottom: 1px solid #e0e0e0; padding: 6px 8px; white-space: nowrap;
         }
         table.wp th.num { text-align: right; }
+        table.wp th.hist, table.wp td.hist { background: #fcfaf6; }
         table.wp td { border-bottom: 1px solid #f0f0f0; padding: 7px 8px; vertical-align: middle; }
         table.wp tr.row { cursor: pointer; }
         table.wp tr.row:hover td { background: var(--accent-tint); }
+        table.wp tr.row:hover td.hist { background: #f3ece0; }
         .wname { font-weight: 600; }
         .wja { color: #888; font-weight: 400; margin-left: 6px; font-size: 12.5px; }
         .badge { font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid; white-space: nowrap; }
         .b-core    { color: #2a7a4b; border-color: #b6ddc5; background: #f0faf4; }
         .b-filling { color: #9a6508; border-color: #ecd7a6; background: #fdf7ea; }
         .b-partial { color: #6b5aa8; border-color: #d3cbea; background: #f5f3fc; }
-        .bar { position: relative; height: 9px; border-radius: 5px; background: #eee; min-width: 90px; }
+
+        /* A bar plus its own number, so the two coverage columns can be read
+           against each other without looking back up at the header. */
+        .cell { display: flex; align-items: center; gap: 8px; }
+        .bar { position: relative; height: 9px; border-radius: 5px; background: #eee;
+               flex: 1 1 auto; min-width: 54px; }
         .bar i { position: absolute; inset: 0 auto 0 0; border-radius: 5px; background: var(--accent); }
-        .bar.t-partial i { background: #8c7bc7; }
-        .bar.t-filling i { background: #d9a23b; }
+        .bar.h i { background: #a98a55; }
+        .cell u { text-decoration: none; font-variant-numeric: tabular-nums; color: #555;
+                  font-size: 12.5px; width: 34px; text-align: right; flex: 0 0 auto; }
+        .cell.zero u { color: #bbb; }
         .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-        .pct { text-align: right; font-variant-numeric: tabular-nums; color: #555; width: 48px; }
         .gaps { color: #777; font-size: 12.5px; }
 
-        /* Expanded missing-language panel ------------------------------- */
         tr.det > td { background: #fbfbfb; padding: 10px 14px 14px; }
         /* A label, not a document heading: these sit inside table rows, and
            emitting an h2 per expanded word would wreck the heading outline. */
@@ -95,26 +104,25 @@
             border: 1px solid #e0e0e0; border-radius: 5px; padding: 2px 8px;
             font-size: 12.5px; background: #fff; color: #333; text-decoration: none;
         }
+        .mlist a.h { background: #faf7f1; border-color: #e6dcc8; }
         .mlist a:hover { border-color: var(--accent); color: var(--accent); }
         .mlist a small { color: #999; margin-left: 5px; }
         .more { color: #888; font-size: 12.5px; align-self: center; }
-        .none { color: #2a7a4b; font-size: 12.5px; }
+        .done { color: #2a7a4b; font-size: 12.5px; }
 
-        @media (max-width: 680px) {
+        @media (max-width: 760px) {
             .prog { padding: 16px 14px 48px; }
             table.wp .hide-s { display: none; }
-            .bar { min-width: 56px; }
+            .bar { min-width: 34px; }
         }
     </style>
 </head>
 <body>
     <div class="prog">
         <h1>Word coverage</h1>
-        <p class="lead">
-            Which of the 86 words are still thin, and which languages are missing them.
-            Sorted with the biggest gaps first. Click any row to see the missing
-            languages, largest first.
-        </p>
+        <!-- The counts are written by the script, not typed here: hard-coding
+             them is how a page ends up quoting a figure the data left behind. -->
+        <p class="lead" id="intro"></p>
 
         <div class="sum" id="sum"></div>
 
@@ -125,24 +133,27 @@
             is a real gap, and this is where the work is.<br>
             <b>Partial 🧪</b> — the concept itself is not universal. A language that does
             not conventionalise a rooster's crow has no word for it, so an empty cell is
-            the correct answer and a low percentage is not a gap.
+            the correct answer and a low percentage is not a gap.<br>
+            <b>Historical languages are counted apart</b>, because a gap there often is not
+            one. Old Irish has no word for Wi-Fi, and Sumerian's vocabulary is only as
+            complete as its surviving corpus — so an empty cell can mean “not attested”,
+            which is never what it means for a living language.
         </div>
 
         <div class="ctl">
             <div class="grp"><span>Show</span>
-                <button class="chip" data-tier="all" aria-pressed="true">All</button>
+                <button class="chip" data-tier="all" aria-pressed="true">All words</button>
                 <button class="chip" data-tier="filling" aria-pressed="false">Filling in</button>
                 <button class="chip" data-tier="core" aria-pressed="false">Core</button>
                 <button class="chip" data-tier="partial" aria-pressed="false">Partial</button>
             </div>
-            <div class="grp"><span>Count</span>
-                <button class="chip" data-scope="all" aria-pressed="true">All 1,188</button>
-                <button class="chip" data-scope="main" aria-pressed="false">Main languages only</button>
+            <div class="grp"><span>Rank &amp; list by</span>
+                <button class="chip" data-scope="living" aria-pressed="true">Living</button>
+                <button class="chip" data-scope="hist" aria-pressed="false">Historical</button>
+                <button class="chip" data-scope="all" aria-pressed="false">Both</button>
             </div>
-            <div class="grp"><span>Sort</span>
-                <button class="chip" data-sort="gap" aria-pressed="true">Biggest gap</button>
-                <button class="chip" data-sort="name" aria-pressed="false">Name</button>
-                <button class="chip" data-sort="order" aria-pressed="false">Map order</button>
+            <div class="grp">
+                <button class="chip" data-novar="1" aria-pressed="false">Exclude regional varieties</button>
             </div>
         </div>
 
@@ -150,8 +161,8 @@
             <thead><tr>
                 <th>Word</th>
                 <th class="hide-s">Tier</th>
-                <th>Coverage</th>
-                <th class="num">Have</th>
+                <th>Living</th>
+                <th class="hist">Historical</th>
                 <th class="num">Missing</th>
                 <th class="hide-s">Biggest missing</th>
             </tr></thead>
@@ -179,37 +190,48 @@
         for (var i = 0; i < bin.length; i++) bits[i] = bin.charCodeAt(i);
         function has(w, l) { var n = w * L + l; return (bits[n >> 3] >> (n & 7)) & 1; }
 
-        /* "Main languages" excludes the regional varieties of another row and the
-           historical ones. A word missing from 300 variety rows is a different
-           problem from a word missing from Hindi, and averaging them together
-           hides both. */
-        var mainIdx = [], allIdx = [];
-        for (var j = 0; j < L; j++) {
-            allIdx.push(j);
-            if (!LANGS[j][4] && !LANGS[j][5]) mainIdx.push(j);
+        var state = { tier: 'all', scope: 'living', novar: false, open: -1 };
+
+        /* The two populations, kept apart everywhere rather than blended,
+           because an empty cell means a different thing in each: in a living
+           language it is work not yet done, in a historical one it may be a
+           word the surviving corpus does not contain and never will. */
+        function pools() {
+            var living = [], hist = [];
+            for (var j = 0; j < L; j++) {
+                if (state.novar && LANGS[j][4]) continue;
+                (LANGS[j][5] ? hist : living).push(j);
+            }
+            return { living: living, hist: hist };
         }
 
-        var state = { tier: 'all', scope: 'all', sort: 'gap', open: -1 };
+        function scopeIdx(p) {
+            if (state.scope === 'hist') return p.hist;
+            if (state.scope === 'all') return p.living.concat(p.hist);
+            return p.living;
+        }
 
-        function scopeIdx() { return state.scope === 'main' ? mainIdx : allIdx; }
+        function count(w, idx) {
+            var n = 0;
+            for (var k = 0; k < idx.length; k++) if (has(w, idx[k])) n++;
+            return n;
+        }
 
-        /* Missing languages for a word, biggest first. Speaker count is the only
-           ordering that answers "does this gap matter": an unfilled Hindi is not
-           the same size of hole as an unfilled Tangkhul Naga. */
-        function missing(w) {
-            var idx = scopeIdx(), out = [];
+        /* Missing languages, biggest first. Speaker count is the only ordering
+           that answers "does this gap matter": an unfilled Hindi is not the
+           same size of hole as an unfilled Tangkhul Naga. Historical rows have
+           no speakers, so among them it falls back to the name. */
+        function missing(w, idx) {
+            var out = [];
             for (var k = 0; k < idx.length; k++) if (!has(w, idx[k])) out.push(idx[k]);
-            out.sort(function (a, b) { return LANGS[b][2] - LANGS[a][2]; });
+            out.sort(function (a, b) {
+                return (LANGS[b][2] - LANGS[a][2]) || LANGS[a][1].localeCompare(LANGS[b][1]);
+            });
             return out;
         }
 
-        function stats(w) {
-            var idx = scopeIdx(), n = 0;
-            for (var k = 0; k < idx.length; k++) if (has(w, idx[k])) n++;
-            return { have: n, total: idx.length };
-        }
-
         function fmt(n) { return n.toLocaleString('en-US'); }
+        function pct(a, b) { return b ? (100 * a / b) : 0; }
         function speakers(n) {
             if (!n) return '';
             if (n >= 1e9) return (n / 1e9).toFixed(1).replace('.0', '') + 'B';
@@ -218,48 +240,66 @@
             return String(n);
         }
 
-        function drawSummary() {
-            var idx = scopeIdx(), filled = 0, total = W * idx.length;
-            for (var w = 0; w < W; w++) for (var k = 0; k < idx.length; k++) if (has(w, idx[k])) filled++;
-            var gapWords = 0;
-            for (var w2 = 0; w2 < W; w2++) {
-                if (WORDS[w2][3] === 'partial') continue;
-                var s = stats(w2);
-                if (s.have < s.total) gapWords++;
-            }
-            document.getElementById('sum').innerHTML =
-                  '<div><b>' + fmt(filled) + '</b><span>of ' + fmt(total) + ' cells filled</span></div>'
-                + '<div><b>' + (100 * filled / total).toFixed(1) + '%</b><span>overall coverage</span></div>'
-                + '<div><b>' + fmt(total - filled) + '</b><span>cells still empty</span></div>'
-                + '<div><b>' + gapWords + '</b><span>of ' + W + ' words not yet complete</span></div>';
+        function drawIntro(p) {
+            document.getElementById('intro').innerHTML =
+                'Which of the ' + W + ' words are still thin, counted separately for the '
+                + '<strong>' + fmt(p.living.length) + ' living languages</strong> and the '
+                + '<strong>' + fmt(p.hist.length) + ' historical ones</strong>. Sorted with '
+                + 'the biggest gaps first. Click any row to see which languages are missing '
+                + 'it, largest first.';
         }
 
-        function rowsToShow() {
+        function drawSummary(p) {
+            function tot(idx) {
+                var f = 0;
+                for (var w = 0; w < W; w++) f += count(w, idx);
+                return [f, W * idx.length];
+            }
+            var lv = tot(p.living), hs = tot(p.hist);
+            var all = [lv[0] + hs[0], lv[1] + hs[1]];
+            document.getElementById('sum').innerHTML =
+                  '<div><b>' + pct(all[0], all[1]).toFixed(1) + '%</b>'
+                    + '<span>overall</span><em>' + fmt(all[0]) + ' of ' + fmt(all[1]) + ' cells</em></div>'
+                + '<div><b>' + pct(lv[0], lv[1]).toFixed(1) + '%</b>'
+                    + '<span>living languages</span><em>' + fmt(lv[0]) + ' of ' + fmt(lv[1])
+                    + ' &middot; ' + fmt(p.living.length) + ' rows</em></div>'
+                + '<div class="hist"><b>' + pct(hs[0], hs[1]).toFixed(1) + '%</b>'
+                    + '<span>historical languages</span><em>' + fmt(hs[0]) + ' of ' + fmt(hs[1])
+                    + ' &middot; ' + fmt(p.hist.length) + ' rows</em></div>'
+                + '<div><b>' + fmt(all[1] - all[0]) + '</b><span>cells still empty</span>'
+                    + '<em>' + fmt(lv[1] - lv[0]) + ' living, ' + fmt(hs[1] - hs[0]) + ' historical</em></div>';
+        }
+
+        var TIER_LABEL = { core: 'Core', filling: 'Filling in', partial: 'Partial &#x1F9EA;' };
+
+        function barCell(n, total, isHist) {
+            return '<div class="cell' + (n ? '' : ' zero') + '">'
+                + '<div class="bar' + (isHist ? ' h' : '') + '">'
+                + '<i style="width:' + pct(n, total).toFixed(1) + '%"></i></div>'
+                + '<u>' + (total ? pct(n, total).toFixed(0) + '%' : '—') + '</u></div>';
+        }
+
+        function draw() {
+            var p = pools();
+            drawIntro(p);
+            drawSummary(p);
+            var idx = scopeIdx(p);
+
             var list = [];
             for (var w = 0; w < W; w++) {
                 if (state.tier !== 'all' && WORDS[w][3] !== state.tier) continue;
-                var s = stats(w);
-                list.push({ w: w, have: s.have, total: s.total, pct: s.have / s.total });
+                list.push({ w: w, have: count(w, idx) });
             }
-            if (state.sort === 'gap') list.sort(function (a, b) { return a.pct - b.pct; });
-            else if (state.sort === 'name') list.sort(function (a, b) {
-                return WORDS[a.w][1].localeCompare(WORDS[b.w][1]);
-            });
-            return list;
-        }
+            list.sort(function (a, b) { return a.have - b.have; });
 
-        var TIER_LABEL = { core: 'Core', filling: 'Filling in', partial: 'Partial 🧪' };
-
-        function draw() {
-            drawSummary();
             var tb = document.getElementById('rows');
             tb.textContent = '';
-            var list = rowsToShow();
 
             list.forEach(function (r) {
                 var w = r.w, tier = WORDS[w][3];
-                var miss = r.total - r.have;
-                var top = miss ? missing(w).slice(0, 3).map(function (j) { return LANGS[j][1]; }) : [];
+                var lv = count(w, p.living), hs = count(w, p.hist);
+                var miss = idx.length - r.have;
+                var top = miss ? missing(w, idx).slice(0, 3).map(function (j) { return LANGS[j][1]; }) : [];
 
                 var tr = document.createElement('tr');
                 tr.className = 'row';
@@ -269,8 +309,8 @@
                       '<td><span class="wname">' + WORDS[w][1] + '</span>'
                         + (WORDS[w][2] ? '<span class="wja">' + WORDS[w][2] + '</span>' : '') + '</td>'
                     + '<td class="hide-s"><span class="badge b-' + tier + '">' + TIER_LABEL[tier] + '</span></td>'
-                    + '<td><div class="bar t-' + tier + '"><i style="width:' + (100 * r.pct).toFixed(1) + '%"></i></div></td>'
-                    + '<td class="num">' + fmt(r.have) + '</td>'
+                    + '<td>' + barCell(lv, p.living.length, false) + '</td>'
+                    + '<td class="hist">' + barCell(hs, p.hist.length, true) + '</td>'
                     + '<td class="num">' + (miss ? fmt(miss) : '—') + '</td>'
                     + '<td class="hide-s gaps">' + (top.length ? top.join(', ') : 'complete') + '</td>';
 
@@ -288,12 +328,12 @@
                 var td = document.createElement('td');
                 td.colSpan = 6;
                 if (!miss) {
-                    td.innerHTML = '<span class="none">Every language in this scope has it.</span>';
+                    td.innerHTML = '<span class="done">Every language in this population has it.</span>';
                 } else {
-                    var m = missing(w), CAP = 120;
+                    var m = missing(w, idx), CAP = 120;
                     var links = m.slice(0, CAP).map(function (j) {
-                        return '<a href="wordmap.html?word=' + encodeURIComponent(WORDS[w][0])
-                            + '&lang=' + encodeURIComponent(LANGS[j][0]) + '">' + LANGS[j][1]
+                        return '<a class="' + (LANGS[j][5] ? 'h' : '') + '" href="wordmap.html?w='
+                            + encodeURIComponent(WORDS[w][0]) + '">' + LANGS[j][1]
                             + (LANGS[j][2] ? '<small>' + speakers(LANGS[j][2]) + '</small>' : '') + '</a>';
                     }).join('');
                     td.innerHTML = '<div class="mhdr" id="mh' + w + '">' + fmt(miss)
@@ -307,17 +347,24 @@
             });
 
             document.getElementById('foot').textContent =
-                'Counts are rebuilt from the data on every deploy — generated ' + P.generated + '.';
+                'The ranking and the missing lists follow the selected population; the two '
+                + 'coverage columns always show both. Rebuilt from the data on every deploy — '
+                + 'generated ' + P.generated + '.';
         }
 
         document.querySelectorAll('.chip').forEach(function (b) {
             b.addEventListener('click', function () {
-                var key = b.dataset.tier ? 'tier' : b.dataset.scope ? 'scope' : 'sort';
-                state[key] = b.dataset[key];
+                if (b.dataset.novar) {
+                    state.novar = !state.novar;
+                    b.setAttribute('aria-pressed', state.novar ? 'true' : 'false');
+                } else {
+                    var key = b.dataset.tier ? 'tier' : 'scope';
+                    state[key] = b.dataset[key];
+                    document.querySelectorAll('.chip[data-' + key + ']').forEach(function (o) {
+                        o.setAttribute('aria-pressed', o === b ? 'true' : 'false');
+                    });
+                }
                 state.open = -1;
-                document.querySelectorAll('.chip[data-' + key + ']').forEach(function (o) {
-                    o.setAttribute('aria-pressed', o === b ? 'true' : 'false');
-                });
                 draw();
             });
         });

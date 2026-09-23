@@ -900,6 +900,8 @@ WORDS.egg = {
     nmf: ["harra", "harra"],
     nzm: ["nruibum", "nruibum"],
     pll: ["kadam", "kaɗam"],
-    agt: ["iklug", "ʔikluɡ"]
+    agt: ["iklug", "ʔikluɡ"],
+    ote: ["mädo", "mãdo"],
+    rmf: ["jaaro", "jaːro"]
   },
 };

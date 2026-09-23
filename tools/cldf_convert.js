@@ -186,12 +186,38 @@ function writesChaoTone(lang) {
    ü is plainly a letter of that orthography: the row's own learned table
    contains ü -> ɨ. An aggregate ratio lets a rare letter be deleted by the
    frequency of marks it has nothing to do with. Each mark now stands or falls
-   on whether the row writes THAT mark. */
+   on whether the row writes THAT mark.
+
+   THIRD CORRECTION, same family, found the same way. Per-mark was still not
+   enough, because the caron is tone in pinyin and a LETTER almost everywhere
+   else: š č ž ǯ. Daba writes a caron in one cell of 44 and Ubykh in one of
+   41, so the ratio let it through, and the tool emitted pilis for pìliš,
+   swanə for šwanə, məswa for məšwa, and ʒʲə for ǯʲə — which is not a
+   respelling, it is a different consonant.
+
+   So a mark is stripped only when it sits ON A VOWEL. That is what makes a
+   mark tonal: tone is carried by the syllable nucleus, and a diacritic on s,
+   c, z or j is building a letter, never writing a pitch. The rule also
+   protects Polish ś ć ź ń and Esperanto ŝ ĝ, which the per-mark test would
+   have deleted in any row that happens not to write them. */
 /** Marks that write TONE somewhere. Deliberately excludes U+0303 tilde
  *  (nasalisation), U+0304 macron (length) and U+0308 diaeresis (vowel
  *  quality): those are segmental everywhere they appear and are never this
  *  row's missing tone. */
 const TONE_MARKS = ['\u0300', '\u0301', '\u0302', '\u030B', '\u030C', '\u030F'];
+
+/** Bases a tone mark may sit on. Tone is carried by the syllable nucleus, so
+ *  a mark on anything else is building a letter. See the third correction. */
+const VOWEL = /[aeiouyAEIOUY\u00E6\u00F8\u0153\u0251\u0250\u0252\u0259\u025B\u025C\u0254\u026A\u028A\u028C\u0268\u0289\u026F\u025A\u025E\u0264\u0276\u0275\u0258\u026E]/;
+
+/** Does this mark sit on a vowel at this position in an NFD string? */
+function onVowel(nfd, i) {
+    for (let j = i - 1; j >= 0; j--) {
+        if (TONE_MARKS.includes(nfd[j]) || /[\u0300-\u036F]/.test(nfd[j])) continue;
+        return VOWEL.test(nfd[j]);
+    }
+    return false;
+}
 
 function recordsNoTone(lang) {
     let total = 0, ipaChao = 0;
@@ -202,8 +228,15 @@ function recordsNoTone(lang) {
         if (/[\u02E5-\u02E9]/.test(e[1])) ipaChao++;
         const ipa = e[1].normalize('NFD'), surf = e[0].normalize('NFD');
         for (const m of TONE_MARKS) {
-            if (ipa.includes(m)) ipaHas.add(m);
-            if (surf.includes(m)) surfCount.set(m, (surfCount.get(m) || 0) + 1);
+            /* Only an occurrence ON A VOWEL counts as the row writing tone;
+               a caron on š is the row writing a letter. */
+            for (let i = 0; i < ipa.length; i++) if (ipa[i] === m && onVowel(ipa, i)) ipaHas.add(m);
+            for (let i = 0; i < surf.length; i++) {
+                if (surf[i] === m && onVowel(surf, i)) {
+                    surfCount.set(m, (surfCount.get(m) || 0) + 1);
+                    break;
+                }
+            }
         }
     }
     if (total < 20 || ipaChao) return null;
@@ -217,9 +250,13 @@ function recordsNoTone(lang) {
 /** Drop exactly the marks recordsNoTone() licensed dropping. NFD first, so a
  *  precomposed à and an a plus U+0300 are the same thing here. */
 function stripTone(form, drop) {
-    let s = form.normalize('NFD');
-    for (const m of drop) s = s.split(m).join('');
-    return s.normalize('NFC');
+    const nfd = form.normalize('NFD');
+    let out = '';
+    for (let i = 0; i < nfd.length; i++) {
+        if (drop.includes(nfd[i]) && onVowel(nfd, i)) continue;
+        out += nfd[i];
+    }
+    return out.normalize('NFC');
 }
 
 function learn(lang) {

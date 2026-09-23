@@ -948,6 +948,9 @@ WORDS.stone = {
     srb: ["areng", "areŋ"],
     kdt: ["tamaw", "təmaw"],
     dru: ["lrənəgə", "ɭənəɡə"],
-    yap: ["malaang", "malaːŋ"]
+    yap: ["malaang", "malaːŋ"],
+    cng: ["ʁlu pi", "ʁlu pi"],
+    uby: ["laqa", "laqa"],
+    mch: ["töʼhu", "təʔhu"]
   },
 };

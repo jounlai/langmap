@@ -498,6 +498,15 @@ WORDS.person = {
     kdt: ["kuj", "kuj"],
     yai: ["odam", "oˈdam"],
     tsu: ["cou", "tsou"],
-    mh: ["armej", "arˠmʲetʲ"]
+    mh: ["armej", "arˠmʲetʲ"],
+    ote: ["jäʼi", "hãʔi"],
+    nuf: ["su35", "su˧˥"],
+    es_sgl: ["persona", "peɾˈsona"],
+    srm: ["sëmbë", "sɛmbɛ"],
+    sga: ["duine", "ˈdunʲe"],
+    mlm: ["śən1", "ɕən˦˨"],
+    shp: ["joni", "honi"],
+    tao: ["tao", "tao"],
+    se: ["olmmoš", "ˈolmːoʃ"]
   }
 };

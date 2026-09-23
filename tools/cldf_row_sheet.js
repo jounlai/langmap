@@ -30,6 +30,38 @@
  * CSVs. Written out as files they can also be handed to parallel reviewers,
  * which is the only way the 2,039 reachable pairs get looked at this decade.
  *
+ * EVERY SHEET WARNS WHERE THE SOURCE'S OWN GLOSS IS NOT THE CONCEPT. CLDF
+ * datasets carry two names per parameter: the Concepticon gloss, which is
+ * normalised and is what this tool matches on, and the dataset's own Name,
+ * which is what the fieldworker actually elicited. They are frequently not
+ * the same question, and the gap is invisible once the gloss has done its
+ * job. amazonianvoices parameter 170 is named "fabric" and is mapped to
+ * SILK — so every Amazonian row in this atlas was being offered a CLOTH word
+ * for its silk cell, and two of them nearly went in. It is not an isolated
+ * case: barlowlote maps "mountain; temple (of the head)" to MOUNTAIN,
+ * ideobank maps "very black" and "A blackness that stands out from its
+ * surroundings" to BLACK, mcelhanonhuon maps "(its) head" to HEAD — a
+ * possessed form — and robinsonap maps "new (house)" to NEW. Several
+ * datasets map "pounded rice" or "husked rice" to RICE, which is the grain
+ * and not the plant, and several map "(be) black" and "(be) new", which are
+ * stative verbs that may carry a verbal prefix.
+ *
+ * The sheet cannot decide any of that. It can refuse to hide it, so it prints
+ * the source's own wording whenever it differs from the concept.
+ *
+ * A FORM IS SHOWN WITH ITS RAW Value WHEN THE TWO DISAGREE. CLDF carries the
+ * cleaned `Form` and the source's original `Value`, and some exports cut the
+ * Form at an apostrophe. huntergatherer does it to 7,412 of its 64,607 forms
+ * — 11.5%: Galibi Carib person is exported as `kari` where the Value reads
+ * `kari'nja`, head as `upu` for `upu'po`, sleep as `o` for `o'ny`, one as `o`
+ * for `o'win`. Five candidates in one row were amputated words that look
+ * perfectly pronounceable. robinsonap does it to 3.2% and zhoubizic to 5.0%.
+ * The Value is also where several datasets keep the practical orthography a
+ * row actually writes, and where a variant the Form column dropped survives —
+ * a Romagnol `mownt` turned out to be `mownt {mônt} ~ munt-ˈãɲ-a {muntâgna}`.
+ * So the sheet prints it and lets the reviewer decide. See the export-artefact
+ * note in docs/dev-handoff.md: an export artefact is not a language fact.
+ *
  * EACH FORM IS LABELLED WITH ITS DOCULECT, not just its dataset, because a
  * row is matched to CLDF by ISO code and an ISO code is not a doculect. ABVD
  * files FOURTEEN Lampung wordlists under `ljp` and none of them is the atlas
@@ -97,6 +129,8 @@ function main() {
     // code -> concept -> Map(form -> Set('dataset:Language_ID'))
     const sheet = new Map();
     const doculect = new Map();     // 'dataset:Language_ID' -> its Name
+    const glossOdd = new Map();     // 'dataset\0concept' -> Set(the source's own wording)
+    const rawValue = new Map();     // 'dataset\0form' -> the uncleaned Value
     const cache = datasets();
     for (const entry of cache.datasets) {
         const ds = entry.ds;
@@ -110,7 +144,17 @@ function main() {
         const pidTo = new Map();
         for (const p of params) {
             const gloss = ((p.Concepticon_Gloss || p.Name || '').trim()).toLowerCase();
-            if (concepts.has(gloss)) pidTo.set(p.ID, gloss);
+            if (!concepts.has(gloss)) continue;
+            pidTo.set(p.ID, gloss);
+            /* Record the source's OWN wording when it is not the concept.
+               See the warning note in the docstring. */
+            const own = (p.Name || '').trim();
+            const norm = own.toLowerCase().replace(/^(the|a) /, '').replace(/[^a-z ]/g, '').trim();
+            if (own && norm !== gloss) {
+                const k = `${ds}\u0000${gloss}`;
+                if (!glossOdd.has(k)) glossOdd.set(k, new Set());
+                glossOdd.get(k).add(own);
+            }
         }
         if (!pidTo.size) continue;
 
@@ -127,6 +171,12 @@ function main() {
             if (!iso || !isoTo.has(iso)) continue;
             const form = (f.Form || f.Value || '').trim();
             if (!form) continue;
+            /* Keep the source's own string when the export cleaned it into
+               something shorter. See the Value note in the docstring. */
+            const value = (f.Value || '').trim();
+            if (value && value !== form && value.length > form.length) {
+                rawValue.set(`${ds}\u0000${form}`, value);
+            }
             /* dataset:Language_ID, not just the dataset. See the docstring:
                an ISO code pools doculects and hides the one that matters. */
             const tag = `${ds}:${f.Language_ID}`;
@@ -165,13 +215,36 @@ function main() {
         out.push('', `DOCULECTS (${tags.size}) — an ISO code is not a doculect; check each one`);
         for (const t of [...tags].sort()) out.push(`  ${t.padEnd(34)}${doculect.get(t) || ''}`);
 
+        /* Where the source asked a different question from the concept. */
+        const warn = [];
+        for (const [concept, forms] of [...byC].sort()) {
+            const dss = new Set();
+            for (const tags of forms.values()) for (const t of tags) dss.add(t.split(':')[0]);
+            for (const ds of dss) {
+                const own = glossOdd.get(`${ds}\u0000${concept}`);
+                if (own) warn.push(`  ${concept.padEnd(11)}${ds} calls it "${[...own].join('" / "')}"`);
+            }
+        }
+        if (warn.length) {
+            out.push('', 'THE SOURCE\'S OWN GLOSS IS NOT THE CONCEPT — read these before trusting the form');
+            out.push(...warn);
+        }
+
         out.push('', `CANDIDATES (${byC.size} concepts)`);
         for (const [concept, forms] of [...byC].sort()) {
             const list = [...forms].map(([f, ds]) => {
                 /* ** means two INDEPENDENT datasets agree. Two lects inside one
                    dataset are one source and must not read as corroboration. */
                 const indep = new Set([...ds].map((t) => t.split(':')[0]));
-                return `${f}${indep.size >= 2 ? ' **' : ''} [${[...ds].join(',')}]`;
+                /* If any source's raw Value is longer than the cleaned Form,
+                   show it: the Form may be an amputated word. */
+                const raws = new Set();
+                for (const t of indep) {
+                    const v = rawValue.get(`${t}\u0000${f}`);
+                    if (v) raws.add(v);
+                }
+                const shown = raws.size ? `${f} ⟨${[...raws].join(' / ')}⟩` : f;
+                return `${shown}${indep.size >= 2 ? ' **' : ''} [${[...ds].join(',')}]`;
             }).join('   ');
             out.push(`  ${concept.padEnd(11)}${list}`);
         }

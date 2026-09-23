@@ -333,6 +333,13 @@ WORDS.rice = {
     fr_sn: ["riz", "ʁi"],
     fr_ci: ["riz", "ʁi"],
     fr_ht: ["riz", "ʁi"],
-    fr_af: ["riz", "ʁi"]
+    fr_af: ["riz", "ʁi"],
+    es_sgl: ["arroz", "aˈrodz"],
+    srm: ["alísi", "alísi"],
+    lic: ["tha2", "tʰa˥˥"],
+    mmd: ["u5", "u˦˦"],
+    fr_class: ["riz", "ri"],
+    orh: ["kandu", "kandu"],
+    tzo: ["aros", "aros"]
   }
 };

@@ -1120,6 +1120,9 @@ WORDS.salt = {
     nym: ["munu", "munu"],
     nmf: ["machi", "matʃi"],
     nzm: ["nehai", "nehai"],
-    yai: ["namak", "naˈmak"]
+    yai: ["namak", "naˈmak"],
+    uby: ["ǯʲə", "dʒʲə"],
+    ets: ["umeri", "umeri"],
+    kry: ["qʼel", "qʼel"]
   },
 };

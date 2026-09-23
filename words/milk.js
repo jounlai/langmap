@@ -840,6 +840,9 @@ WORDS.milk = {
     wba: ["amiho", "amiho"],
     jmc: ["malela", "malela"],
     nym: ["mabeele", "maβeːle"],
-    nzm: ["tungdui", "tuŋdui"]
+    nzm: ["tungdui", "tuŋdui"],
+    uby: ["čʰʲa", "tʃʰʲa"],
+    rap: ["ū", "uː"],
+    tiv: ["atumba", "atumba"]
   },
 };

@@ -567,6 +567,16 @@ WORDS.new = {
     agt: ["bagu", "baɡ"],
     pyu: ["bekal", "bəkaɭ"],
     yap: ["biqech", "biʔetʃ"],
-    mh: ["kāāl", "kʲaːlʲ"]
+    mh: ["kāāl", "kʲaːlʲ"],
+    cng: ["khsə", "kʰsə"],
+    ote: ["ʼraʼyo", "ʔɾaʔjo"],
+    dbq: ["yìwun", "jìwun"],
+    nuf: ["dʑɔ53", "dʑɔ˥˧"],
+    es_sgl: ["nuevo", "ˈnweβo"],
+    srm: ["njúnjun", "ɲúɲun"],
+    yiz: ["ɕi", "ɕi˨˩"],
+    rmf: ["neevo", "neːvo"],
+    tzo: ["achʼ", "atʃʼ"],
+    clk: ["me55eŋ55", "me˥˥eŋ˥˥"]
   },
 };

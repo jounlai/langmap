@@ -446,6 +446,13 @@ WORDS.green = {
     tsj: ["jangkhu", "dʑaŋkʰu"],
     acn: ["nʲau55", "nʲau˥˥"],
     yai: ["sabz", "sabz"],
-    it_dan: ["verde", "ˈverde"]
+    it_dan: ["verde", "ˈverde"],
+    cng: ["ʐɑn ku", "ʐɑn ku"],
+    vep: ["vihand", "ˈvihand"],
+    es_sgl: ["verde", "ˈbeɾðe"],
+    srm: ["guúun", "ɡúːun"],
+    clk: ["tiŋ55kɹiɑ55", "tiŋ˥˥kɹiɑ˥˥"],
+    prg: ["saligan", "saliɡan"],
+    se: ["ruonas", "ˈruonas"]
   }
 };

@@ -817,6 +817,8 @@ WORDS.honey = {
     nym: ["buuki", "buːki"],
     nmf: ["khuira", "kʰuira"],
     nzm: ["ngkuidi", "ŋkuidi"],
-    wrh: ["ngarruu", "ˈŋaruː"]
+    wrh: ["ngarruu", "ˈŋaruː"],
+    uby: ["šwanə", "ʃʷanə"],
+    lic: ["nom3 ko:i1", "nom˩˩ koːi˥˧"]
   },
 };

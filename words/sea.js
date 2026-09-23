@@ -399,6 +399,16 @@ WORDS.sea = {
     acn: ["nam31 tɕu31", "nam˧˩ tɕu˧˩"],
     tsu: ["tʉpʉ", "təpə"],
     mh: ["lọjet", "lɑzʲet"],
-    it_dan: ["mare", "ˈmare"]
+    it_dan: ["mare", "ˈmare"],
+    ote: ["däzabi", "dãzabi"],
+    rap: ["tai", "tai"],
+    vep: ["meri", "ˈmeri"],
+    es_sgl: ["mar", "maɾ"],
+    srm: ["zé", "zé"],
+    wa: ["mér", "meːʁ"],
+    sga: ["muir", "murʲ"],
+    mlm: ["hai3", "hai˥˧"],
+    jam: ["si", "si"],
+    se: ["mearra", "ˈmeɑrːa"]
   }
 };

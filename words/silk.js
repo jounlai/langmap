@@ -240,6 +240,14 @@ WORDS.silk = {
     en_manc: ["silk", "sɪlk"],
     fr_af: ["soie", "swa"],
     es_co: ["seda", "ˈseða"],
-    es_pe: ["seda", "ˈseða"]
+    es_pe: ["seda", "ˈseða"],
+    ote: ["seda", "seda"],
+    nuf: ["ɑ55ɕi31tɕhe53ɑ31", "ɑ˥˥ɕi˧˩tɕʰe˥˧ɑ˧˩"],
+    es_sgl: ["seda", "ˈseða"],
+    lic: ["diu3", "diu˩˩"],
+    fr_class: ["soie", "swɛ"],
+    clk: ["tʂhu35tsi53", "tʂʰu˧˥tsi˥˧"],
+    jam: ["silk", "sɪlk"],
+    se: ["silki", "ˈsilki"]
   }
 };

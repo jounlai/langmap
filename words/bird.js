@@ -928,6 +928,11 @@ WORDS.bird = {
     dru: ["adhadhamə", "aðaðamə"],
     tsu: ["zomʉ", "zomə"],
     dbl: ["dundu", "ˈdundu"],
-    wrh: ["buujaan", "ˈbuːɟaːn"]
+    wrh: ["buujaan", "ˈbuːɟaːn"],
+    cng: ["wə", "wə"],
+    ote: ["tsʼintsʼu̲", "tsʼintsʼu"],
+    ets: ["apfiami", "apfiami"],
+    tem: ["abamp", "abamp"],
+    tao: ["laciw", "latsiw"]
   },
 };

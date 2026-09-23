@@ -400,6 +400,11 @@ WORDS.butterfly = {
     fr_af: ["papillon", "papijɔ̃"],
     es_co: ["mariposa", "maɾiˈposa"],
     es_pe: ["mariposa", "maɾiˈposa"],
-    yai: ["šaparak", "ʃapaˈrak"]
+    yai: ["šaparak", "ʃapaˈrak"],
+    ets: ["aviẹviẹ", "aviɛviɛ"],
+    es_sgl: ["mariposa", "maɾiˈposa"],
+    tem: ["atatka", "atatka"],
+    fr_class: ["papillon", "papiˈʎɔ̃"],
+    cni: ["tsampi", "tsampi"]
   },
 };

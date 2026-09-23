@@ -806,6 +806,8 @@ WORDS.wheel = {
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
     hop: ["ngöla", "ŋøla"],
     tus: ["ukaʼneh", "ukaʔneh"],
-
+    uby: ["čʰarx", "tʃʰarχ"],
+    lic: ["pai3 tshia1", "pai˩˩ tsʰia˥˧"],
+    orh: ["kurdu", "kurdu"]
   },
 };

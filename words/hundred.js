@@ -836,6 +836,10 @@ WORDS.hundred = {
     ja_kyo: ["百", "hʲaku"],
     mhy: ["jatuh", "jatuh"],
     hni: ["yal", "ja˥˥"],
-    pyu: ["saleman", "saɭəman"]
+    pyu: ["saleman", "saɭəman"],
+    cng: ["khiʴ", "kʰiʴ"],
+    ote: ["nthebe", "ntʰebe"],
+    orh: ["ɲamaadʒɪ", "ɲamaadʒɪ"],
+    jam: ["ondred", "ɔndrɛd"]
   },
 };

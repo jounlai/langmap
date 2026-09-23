@@ -748,6 +748,20 @@ WORDS.black = {
     tsu: ["kuaʼonga", "kuaʔoŋa"],
     wrh: ["buudhang", "ˈbuːd̪aŋ"],
     yap: ["rungduq", "ruŋduʔ"],
-    it_dan: ["nero", "ˈnero"]
+    it_dan: ["nero", "ˈnero"],
+    ote: ["ʼbo", "ʔbo"],
+    dbq: ["mimìliŋ", "mimìliŋ"],
+    bnn: ["matahdung", "matahduŋ"],
+    vep: ["must", "must"],
+    ets: ["wisi", "wisi"],
+    es_sgl: ["negro", "ˈneɣɾo"],
+    tem: ["bi", "bi"],
+    fr_class: ["noir", "nweːr"],
+    rgn: ["nìgar", "ˈniɡar"],
+    guc: ["mütsiiasü", "mɨtsiːasɨ"],
+    mch: ["hudumato", "hudumato"],
+    tao: ["mavaheng", "mavahəŋ"],
+    wmt: ["kurnkurn", "kuɳkuɳ"],
+    aae: ["i zi", "i zi"]
   },
 };

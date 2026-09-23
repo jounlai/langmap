@@ -983,6 +983,13 @@ WORDS.nose = {
     kdt: ["muh", "muh"],
     dru: ["ngongoanə", "ŋoŋoanə"],
     pyu: ["tingran", "tiŋɾan"],
-    tsu: ["ngʉcʉ", "ŋətsə"]
+    tsu: ["ngʉcʉ", "ŋətsə"],
+    cng: ["stɤq", "stɤq"],
+    ote: ["xiñu", "ʃiɲu"],
+    hui: ["gui", "ɡui"],
+    srm: ["núsu", "núsu"],
+    kmh: ["mluk", "mluk"],
+    guc: ["eʼichi", "eʔitʃi"],
+    mch: ["önna", "ənna"]
   },
 };

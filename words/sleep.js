@@ -944,6 +944,9 @@ WORDS.sleep = {
     emi: ["asekanue", "asekanue"],
     piu: ["kunkunpa", "kunkunpa"],
     wba: ["uba", "uba"],
-    dru: ["waapəcə", "waːpətsə"]
+    dru: ["waapəcə", "waːpətsə"],
+    ote: ["ähä", "ãhã"],
+    dbq: ["wan", "wan"],
+    bnn: ["masabah", "masabah"]
   },
 };

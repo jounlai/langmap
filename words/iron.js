@@ -815,6 +815,15 @@ WORDS.iron = {
     pau: ["deel", "dɛːl"],
     yap: ["waasëy", "waːsəj"],
     nzm: ["hegei", "heɡei"],
-    nmf: ["mari", "mari"]
+    nmf: ["mari", "mari"],
+    cng: ["suʴ mu", "suʴ mu"],
+    ote: ["bo̲jä", "bohã"],
+    uby: ["wəcʼwa", "wətsʼʷa"],
+    ets: ["akure", "akuɾe"],
+    srm: ["félu", "félu"],
+    lic: ["go:i1", "ɡoːi˥˧"],
+    yiz: ["xɯ", "xɯ˨˨"],
+    orh: ["ʃələ", "ʃələ"],
+    blr: ["ʔa31 ŋak33", "ʔa˧˩ ŋak˧˧"]
   },
 };

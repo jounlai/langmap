@@ -921,6 +921,8 @@ WORDS.wind = {
     kde: ["imepo", "imepo"],
     nzm: ["tingkai", "tiŋkai"],
     yai: ["šamol", "ʃaˈmol"],
-    dru: ["sasəvəranə", "sasəvəɾanə"]
+    dru: ["sasəvəranə", "sasəvəɾanə"],
+    cng: ["mu ʁu", "mu ʁu"],
+    dbq: ["mit", "mit"]
   },
 };

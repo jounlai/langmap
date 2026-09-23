@@ -33,6 +33,14 @@
  *     one and the intra-row duplicate guard caught it: this row already has
  *     wi for TOOTH. Either ABVD's MOUTH gloss is loose there or Gilbertese
  *     uses one word for both, and nothing in the dataset decides which.
+ *   - a Turkic candidate ending -i or -ı is probably POSSESSED: Salar ɑʁzi
+ *     is ağız + 3sg, "his mouth", not the citation form.
+ *   - a form carrying "◦", "_" or "/" (Zeme Naga mi◦mui, Shambala muomo_,
+ *     Hakha Chin k.âa/a) is an export artifact or an unresolved alternation.
+ *   - in a tonal row, an untoned candidate is not usable: Fur writes tone in
+ *     BOTH fields (kòrò/kòrò, dʉlé/dʊ̀lé) and the dataset's uto has none.
+ *   - Bantu prefixes are fine when the row keeps them, and these rows do:
+ *     Masaaba has kamaatsi and kumusaala, so kumunwa goes in whole.
  *   - and the trap this word has of its own: check the form is not the LIPS.
  *     Sasak biwih was dropped from the first batch for looking like Malay
  *     bibir, which the definition above excludes.
@@ -119,6 +127,24 @@ WORDS.mouth = {
     tsg: ["simud", "simud"],
     tvl: ["gutu", "ŋutu"],
     ja_oki: ["口", "kutɕi"],
+    abs: ["mulu", "mulu"],
+    pwn: ["angal", "aŋaɬ"],
+    sda: ["sadang", "sadaŋ"],
+    agt: ["simuk", "simuk"],
+    mkz: ["turukai", "turuˈkai"],
+    dtp: ["kabang", "kabaŋ"],
+    dtp_kzj: ["kabang", "kaˈbaŋ"],
+    kmc: ["ʔəp55", "ʔəp˥˥"],
+    swi: ["paak7", "paːk˧˥"],
+    bto: ["ngangá", "ŋaˈŋa"],
+    akb: ["baba", "baba"],
+    ug: ["ئېغىز", "eʁiz"],
+    ssf: ["ruzic", "ɺuðiθ"],
+    orh: ["amŋa", "amŋa"],
+    mas: ["enkutuk", "ɛŋkʊtʊk"],
+    unr: ["moca", "motʃa"],
+    wba: ["doko", "doko"],
+    myx: ["kumunwa", "kumunwa"],
     tr: ["ağız", "aˈɯz"],
     fa: ["دهان", "dæˈhɒn"],
     sw: ["mdomo", "mˈɗomo"],  // Kept over kinywa, which Wiktionary glosses 'mouth' and nothing else, while mdomo is 'lip, mouth; beak'. mdomo is the everyday word and it does cover the mouth, so it does not fall foul of this concept's "not the lips alone" — but kinywa is the unambiguous body-part term, and it is the one to switch to if the everyday reading is ever disputed. The sw label and definition here use mdomo too, so the three move together.

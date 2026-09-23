@@ -71,8 +71,6 @@ WORDS.honey = {
     sw: "Asali — chakula kizito na kitamu ambacho nyuki hutengeneza kutokana na nekta ya maua. Lugha ya Proto-Indo-Ulaya ilikuwa na maneno mawili kwa ajili yake: moja likatoa mel ya Kilatini, jingine madhu ya Kisanskrit na mead ya Kiingereza.",
   },
   data: {
-    sbp: ["uwushi", "uwuʃi"],
-    myx: ["bubuukhi", "bubuːkʰi"],
     // --- UI languages -------------------------------------------------
     en: ["honey", "ˈhʌni"],
     ja: ["蜂蜜", "hatɕimitsɯ"],
@@ -809,6 +807,7 @@ WORDS.honey = {
     // Held back by the agent until zdj's `heart` IPA stopped writing the glide
     // as y; that is fixed, so this goes in (en + fr Wiktionary, "bee juice").
     zdj: ["ndjizi ya nyoshi", "ndʒizi ja ɲoʃi"],
-
+    myx: ["bubuukhi", "bubuːkʰi"],
+    sbp: ["uwushi", "uwuʃi"]
   },
 };

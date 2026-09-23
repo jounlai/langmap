@@ -58,8 +58,6 @@ WORDS.hundred = {
     sw: "Mia — namba 100. Sauti yake ya kwanza inagawa familia ya lugha za Kihindi-Kiulaya mara mbili: Kilatini centum kilihifadhi k, na Kiavesta satəm kikaigeuza kuwa s.",
   },
   data: {
-    sbp: ["imiya", "imija"],
-    myx: ["sitondo", "sitondo"],
     // --- UI languages -------------------------------------------------
     en: ["hundred", "ˈhʌndɹəd"],
     ja: ["百", "hʲaku"],
@@ -827,6 +825,8 @@ WORDS.hundred = {
     nyo: ["kikumi", "tʃikumi"],   // Runyoro palatalises k before i, as Tooro and Ganda do
     xnr: ["सौ", "sɔ"],
     cho: ["talhepa", "taːɬiːpə"],
-    xkz: ["gya", "ɟɑ"],   // the Tibetan བརྒྱ once more
+    xkz: ["gya", "ɟɑ"],   // the Tibetan བརྒྱ once more,
+    myx: ["sitondo", "sitondo"],
+    sbp: ["imiya", "imija"]
   },
 };

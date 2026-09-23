@@ -54,7 +54,6 @@ WORDS.stone = {
     sw: "Jiwe — kipande kidogo hadi cha wastani cha mwamba au madini magumu; si johari wala muziki wa rock.",
   },
   data: {
-    sbp: ["liganga", "liɡaŋɡa"],
     es_cr: ["piedra", "ˈpjeðɾa"],
     es_hn: ["piedra", "ˈpjeðɾa"],
     es_ni: ["piedra", "ˈpjeðɾa"],
@@ -937,5 +936,6 @@ WORDS.stone = {
     zh_hf: ["石头", "ʂəʔ˦ tʰəu"],
     zh_nj: ["石头", "ʂʅʔ˥ tʰəɯ"],
     mhy: ["watu", "watu"],
+    sbp: ["liganga", "liɡaŋɡa"]
   },
 };

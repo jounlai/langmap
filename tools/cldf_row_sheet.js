@@ -25,6 +25,14 @@
  * already holds for a NEIGHBOURING concept so the conversion can be read off
  * settled material. Everything cldf_candidates.js says about there being no
  * --apply holds here too, and the triage rules live in words/mouth.js.
+ *
+ * WHERE TO PUT THE CELL once you have it: at the END of that word's `data`
+ * block. The first run of this pattern inserted at the top, which put two
+ * Bantu rows ahead of `en` in eleven files before the owner spotted it. The
+ * files are not ordered by family — horse.js runs en, de, nl, sv … fa, ta,
+ * ar, he, tr, sw — so there is no family slot to aim for, and new work goes
+ * last. Two closers exist, `  },` and `  }`, and the last entry may carry no
+ * comma; both need handling by anything that appends.
  */
 
 'use strict';

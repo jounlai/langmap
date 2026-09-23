@@ -60,8 +60,6 @@ WORDS.person = {
     sw: "Umbo la kamusi kwa binadamu mmoja — neno la jumla kwa mtu mmoja wa jinsia au umri wowote. Si \"mwanamume\" kwa maana ya kiume, wala \"watu\" kwa maana ya wingi.",
   },
   data: {
-    sbp: ["umunu", "umunu"],
-    myx: ["umundu", "umundu"],
     en: ["person", "ˈpɜːsən"],
     de: ["Mensch", "mɛnʃ"],
     nl: ["mens", "mɛns"],
@@ -445,6 +443,8 @@ WORDS.person = {
     pmng: ["*kümün", "kymyn"],
     pmt: ["tangata", "taŋata"],
     pmy: ["orang", "oraŋ"],
-    pon: ["aramas", "aramas"]
+    pon: ["aramas", "aramas"],
+    myx: ["umundu", "umundu"],
+    sbp: ["umunu", "umunu"]
   }
 };

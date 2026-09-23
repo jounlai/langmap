@@ -44,8 +44,6 @@ WORDS.salt = {
     sw: "Chumvi — madini yanayokoleza na kuhifadhi chakula. Neno la Kilatini sal lililipwa kwa askari wa Kirumi, ndiyo maana mshahara kwa Kiingereza ni salary.",
   },
   data: {
-    sbp: ["umunyu", "umuɲu"],
-    myx: ["kyumbi", "kjumbi"],
     // --- UI languages -------------------------------------------------
     en: ["salt", "sɔːlt"],
     ja: ["塩", "ɕio"],
@@ -1110,5 +1108,7 @@ WORDS.salt = {
     lbe: ["цӏву", "tsʼʷu"],
 
     mhy: ["raŋi", "raŋi"],
+    myx: ["kyumbi", "kjumbi"],
+    sbp: ["umunyu", "umuɲu"]
   },
 };

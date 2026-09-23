@@ -552,6 +552,7 @@ WORDS.new = {
     sbp: ["ishipya", "iʃipja"],
     hot: ["lumut", "lumut"],
     kjg: ["həmmeʔ", "həmmeʔ"],
-    kxv: ["puni", "puni"]
+    kxv: ["puni", "puni"],
+    naq: ["kawa", "kawa"]
   },
 };

@@ -905,6 +905,8 @@ WORDS.wind = {
     sbp: ["ilipepo", "ilipepo"],
     djr: ["wäŋi", "waːŋi"],
     hot: ["lovak", "lovak"],
-    nha: ["uudinu", "uudinu"]
+    nha: ["uudinu", "uudinu"],
+    naq: ["ǂoab", "ǂoab"],
+    nmf: ["masi", "masi"]
   },
 };

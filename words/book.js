@@ -414,6 +414,8 @@ WORDS.book = {
     om: ["kitaaba", "kitaːba"],  // om.wikipedia's book article says outright that kitaaba is the widely known and used word, against barroo/barreeffa as technical and macaafa as religious.
     nbl: ["incwadi", "iŋǀʷadi"],  // Nguni incwadi does also cover 'letter' and 'document', but it is genuinely the ordinary word for a book — there is no other — so it falls under the concept's "unless" clause rather than the paper-word rule. nr.wikipedia's Iincwadi opens "Incwadi kulibuthelelo lamaphepha ahlanganisweko" (a collection of bound pages) and keeps amaphepha 'paper' distinct. nc is the nasalised dental click, ncw labialised; U+01C0, the same click family as this map's iǃanda.
     nd: ["incwadi", "iŋǀʷadi"],   // Wiktionary's Northern Ndebele entry glosses it only 'book'; see the nbl note for the rest.
-    pcm: ["buk", "buk"]
+    pcm: ["buk", "buk"],
+    nmf: ["lairik", "lairik"],
+    nzm: ["leisi", "leisi"]
   }
 };

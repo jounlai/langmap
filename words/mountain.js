@@ -377,6 +377,9 @@ WORDS.mountain = {
     kjg: ["mok", "mok"],
     kpf: ["bakŋa", "bakŋa"],
     srb: ["baru", "baru"],
-    srh: ["qir", "qiɾ"]
+    srh: ["qir", "qiɾ"],
+    ksb: ["muima", "muima"],
+    nzm: ["peloa", "peloa"],
+    unr: ["buru", "buru"]
   }
 };

@@ -1330,6 +1330,5 @@ WORDS.bear = {
     wbm: ["krih", "krih"],
     to: ["pea", "pea"],
     rtm: ["pea", "pea"],
-
   },
 };

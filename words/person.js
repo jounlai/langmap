@@ -459,6 +459,6 @@ WORDS.person = {
     mmd: ["zən1", "zən˦˨"],
     nha: ["arnmanu", "aɳmanu"],
     peh: ["kuŋ", "kuŋ"],
-    pzh: ["saw", "saw"]
+    pzh: ["saw", "saw"],
   }
 };

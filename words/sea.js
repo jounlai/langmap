@@ -351,6 +351,7 @@ WORDS.sea = {
     orh: ["dalaj", "dalaj"],
     dje: ["teeku", "teːku"],
     mmd: ["hai3", "hai˥˩"],
-    peh: ["χai", "χai"]
+    peh: ["χai", "χai"],
+    nmf: ["ngayi", "ŋaji"]
   }
 };

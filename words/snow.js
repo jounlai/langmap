@@ -846,6 +846,7 @@ WORDS.snow = {
     nch: ["sital set", "sital set"], // lit. star-ice; contrasted with tesihuit hail at Job 38:22
     nhw: ["sitlal setl", "sitɬal setɬ"], // lit. star-ice; contrasted with tesihuitl hail
     gun: ["yroʼy api", "ɨɾoʔɨ api"], // Dooley, Léxico Guarani Mbyá — Neve, granizo fino
-    gn: ["yrypyʼa veve", "ɨɾɨpɨʔa veve"], // neologism, lit. flying ice; yrypyʼa alone is hielo
+    gn: ["yrypyʼa veve", "ɨɾɨpɨʔa veve"], // neologism, lit. flying ice; yrypyʼa alone is hielo,
+    nmf: ["horam", "horam"]
   },
 };

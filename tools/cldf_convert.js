@@ -22,6 +22,14 @@
  * blocked, with the offending characters named. There is no guessing step and
  * no fallback: the tool would rather return nothing than a plausible cell.
  *
+ * THREE THINGS check_all WILL CATCH THAT THIS TOOL DOES NOT, so run it:
+ *   - a duplicate inside the row. Tangkhul person mi went in and the
+ *     intra-row guard found mi already sitting in eye.
+ *   - a route-coloured word. bear, wine, we, foot, tea, orange, sugar,
+ *     coffee, blue and n99 need a `family` value per cell, and the tool has
+ *     no idea whether a Zeme Naga bear is taboo or inherited.
+ *   - a Chao row given a toneless form, which is why writesChaoTone exists.
+ *
  * WHAT IT STILL WILL NOT DO. It cannot know that Sasak biwih is the lips, or
  * that Salar ɑʁzi is possessed, or that a Bantu -domo is the wrong body part.
  * The semantic triage in words/mouth.js is still a person's job; this only
@@ -154,11 +162,22 @@ function learn(lang) {
             m.set(y, (m.get(y) || 0) + 1);
         }
     }
+    /* Unanimity alone is too strict. A row of fifty cells will contain a
+       typo or a genuine one-off, and one of them should not veto a letter
+       the row has written forty times the same way. Tangkhul's a is a×40
+       against aː×1 and ə×1 — that is a rule with two exceptions, not an
+       ambiguity. Ngunnawal's r is ɻ×5, ɾ×4, r×3, which is a row that has
+       never decided, and no threshold should rescue it.
+       So: unanimous, or a clear majority with enough evidence behind it. */
+    const DOMINANT = 0.9, ENOUGH = 10;
     const table = new Map();
     const ambiguous = new Map();
     for (const [x, m] of seen) {
-        if (m.size === 1) table.set(x, [...m.keys()][0]);
-        else ambiguous.set(x, [...m.entries()].sort((a, b) => b[1] - a[1]));
+        if (m.size === 1) { table.set(x, [...m.keys()][0]); continue; }
+        const ranked = [...m.entries()].sort((a, b) => b[1] - a[1]);
+        const total = ranked.reduce((t, r) => t + r[1], 0);
+        if (ranked[0][1] >= ENOUGH && ranked[0][1] / total >= DOMINANT) table.set(x, ranked[0][0]);
+        else ambiguous.set(x, ranked);
     }
     return { table, ambiguous };
 }

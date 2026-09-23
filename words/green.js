@@ -411,6 +411,7 @@ WORDS.green = {
     pzh: ["tululik", "tululik"],
     srh: ["sovdz", "sovdz"],
     swi: ["ࡶhu1", "ࡶhu˩˩"],
-    wls: ["moto", "moto"]
+    wls: ["moto", "moto"],
+    yap: ["giriin", "ɡiriːn"]
   }
 };

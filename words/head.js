@@ -552,6 +552,7 @@ WORDS.head = {
     hot: ["ukaduk", "ukaduk"],
     kjg: ["kəmpoŋ", "kəmpoŋ"],
     nmf: ["kui", "kui"],
-    xul: ["guddagong", "ɡuddaɡoŋ"]
+    xul: ["guddagong", "ɡuddaɡoŋ"],
+    naq: ["danas", "danas"]
   },
 };

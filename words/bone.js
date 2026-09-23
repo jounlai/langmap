@@ -178,7 +178,7 @@ WORDS.bone = {
     ko_jeju: ["꽝", "k͈waŋ"],
     ko_yb: ["뼈", "p͈jʌ"],
     zh: ["骨头", "ku˨˩˦ tʰou"],
-    yue: ["骨", "kwɐt˥"],
+    yue: ["骨", "kʷɐt˥"],
     nan: ["骨頭", "kut˦ tʰau˨˦"],
     zh_tw: ["骨頭", "ku˨˩˦ tʰou"],
     wuu: ["骨头", "kuəʔ˥ dɤ˩˧"],

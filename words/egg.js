@@ -182,7 +182,7 @@ WORDS.egg = {
     no: ["egg", "æɡ"],
     da: ["æg", "ɛːɡ"],
     ro: ["ou", "ow"],
-    ga: ["ubh", "ʊv"],
+    ga: ["ubh", "ʊvˠ"],
     eu: ["arrautza", "araʊtsa"],
     cy: ["wy", "uːɨ"],
     ka: ["კვერცხი", "kʼvɛrtsxi"],

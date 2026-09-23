@@ -304,7 +304,7 @@ WORDS.moon = {
     no: ["måne", "moːnə"],
     da: ["måne", "mɔːnə"],
     ro: ["lună", "lunə"],
-    ga: ["gealach", "ɟalax"],
+    ga: ["gealach", "ɟalˠax"],
     eu: ["ilargi", "ilaɾɣi"],
     cy: ["lleuad", "ɬɛɨ̯ad"],
     ka: ["მთვარე", "mtʰvare"],

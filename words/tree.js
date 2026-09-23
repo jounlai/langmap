@@ -304,7 +304,7 @@ WORDS.tree = {
     no: ["tre", "treː"],
     da: ["træ", "tʁɛːˀ"],
     ro: ["copac", "kopak"],
-    ga: ["crann", "kɾɑːn"],
+    ga: ["crann", "kɾˠɑːn̪ˠ"],
     eu: ["zuhaitz", "suaits"],
     cy: ["coeden", "kɔɨdɛn"],
     ka: ["ხე", "xe"],

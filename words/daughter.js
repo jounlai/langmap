@@ -140,7 +140,7 @@ WORDS.daughter = {
     fi: ["tytär", "ˈtytær"],
     et: ["tütar", "ˈtytar"],
     eu: ["alaba", "alaba"],
-    ga: ["iníon", "ɪˈnʲiːn"],
+    ga: ["iníon", "ɪˈnʲiːn̪ˠ"],
     cy: ["merch", "mɛrx"],
     gv: ["inneen", "iˈneːn"],
     ka: ["ქალიშვილი", "kʰaliʃvili"],

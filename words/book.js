@@ -246,7 +246,7 @@ WORDS.book = {
     gsw: ["Buech", "buəx"],
     ksh: ["Booch", "boːx"],
     got: ["𐌱𐍉𐌺𐍉𐍃", "ˈboːkoːs"],
-    ga: ["leabhar", "ˈlʲauəɾ"],
+    ga: ["leabhar", "ˈlʲauəɾˠ"],
     gd: ["leabhar", "ˈʎɔəɾ"],
     gv: ["lioar", "lʲoːr"],
     hsb: ["kniha", "ˈkniɦa"],

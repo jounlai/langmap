@@ -304,7 +304,7 @@ WORDS.cat = {
     no: ["katt", "kɑtː"],
     da: ["kat", "kʰæd̥"],
     ro: ["pisică", "pisikə"],
-    ga: ["cat", "kɑt"],
+    ga: ["cat", "kɑt̪ˠ"],
     eu: ["katu", "katu"],
     cy: ["cath", "kɑːθ"],
     ka: ["კატა", "kʼatʼa"],

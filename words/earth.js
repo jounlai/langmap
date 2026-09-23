@@ -300,7 +300,7 @@ WORDS.earth = {
     enm: ["erthe", "ɛrθə"],
     en_em: ["earth", "ɛːrθ"],
     de_lut: ["Erde", "ˈeːrdə"],
-    ga: ["cré", "kʲɾʲeː"],
+    ga: ["cré", "cɾʲeː"],
     gd: ["talamh", "ˈtal̪ˠəv"],
     gv: ["thalloo", "ˈtalu"],
     cy: ["gweryd", "ˈɡwɛrɨd"],

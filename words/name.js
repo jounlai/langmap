@@ -271,7 +271,7 @@ WORDS.name = {
       ude: ["гэгбэ", "ɡəɡˈbə"],
       yrk: ["нюм", "nʲum"],
       enf: ["nii", "niː"],
-      nio: ["ним", "nʲim"],
+      nio: ["ним", "ɲim"],
       sel: ["ним", "nim"],
       kca: ["нэм", "nem"],
       ckt: ["нынны", "nənnə"],

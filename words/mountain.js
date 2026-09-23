@@ -106,7 +106,7 @@ WORDS.mountain = {
     fi: ["vuori", "ˈvuori"],
     hu: ["hegy", "hɛɟ"],
     eu: ["mendi", "ˈmendi"],
-    ga: ["sliabh", "ʃlʲiəv"],
+    ga: ["sliabh", "ʃlʲiəvˠ"],
     cy: ["mynydd", "ˈmənɨð"],
     hy: ["սար", "sɑr"],
     ka: ["მთა", "mtʰa"],

@@ -304,7 +304,7 @@ WORDS.hello = {
     no: ["hei", "hɛɪ"],
     da: ["hej", "haj"],
     ro: ["salut", "salut"],
-    ga: ["dia duit", "dʲiə dɪtʲ"],
+    ga: ["dia duit", "dʲiə d̪ˠɪtʲ"],
     eu: ["kaixo", "kaiʃo"],
     cy: ["helô", "hɛˈloː"],
     ka: ["გამარჯობა", "ɡamardʒoba"],

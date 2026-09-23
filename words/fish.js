@@ -307,7 +307,7 @@ WORDS.fish = {
     no: ["fisk", "fɪsk"],
     da: ["fisk", "fesk"],
     ro: ["pește", "ˈpeʃte"],
-    ga: ["iasc", "iəsk"],
+    ga: ["iasc", "iəsˠk"],
     eu: ["arrain", "aˈrajn"],
     cy: ["pysgodyn", "pəsˈɡɔdɨn"],
     ka: ["თევზი", "ˈtʰevzi"],

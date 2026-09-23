@@ -304,7 +304,7 @@ WORDS.mother = {
     no: ["mor", "muːr"],
     da: ["mor", "moɐ̯ˀ"],
     ro: ["mamă", "mamə"],
-    ga: ["máthair", "mɑːhəɾʲ"],
+    ga: ["máthair", "mˠɑːhəɾʲ"],
     eu: ["ama", "ama"],
     cy: ["mam", "mam"],
     ka: ["დედა", "deda"],

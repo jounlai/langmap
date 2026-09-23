@@ -1873,7 +1873,7 @@ WORDS.foot = {
     nan_te: ["跤", "kʰa˧˧"],  // Teochew keeps the Min 骹 kha but writes 陰平 ˧˧, which is this row's own value in 心 sim˧˧ and 三 sam˧˧ rather than the parent's ˥.
     nan_xm: ["跤", "kʰa˥˥"],  // As the Taiwanese row; tone written ˥˥ to match this row's other tone-1 cells (心 sim˥˥).
     nan_zz: ["跤", "kʰa˦"],  // Zhangzhou is one of the points where both sides are recorded: 跤 for the foot, 跤腿 and 跤骨 for the leg, 大跤腿 for the thigh. MCPDict 漳州 骹 kʰa1; tone ˦ to match this row's other 陰平 cells (心 sim˦, 三 sã˦).
-    nap: ["pere", "ˈpɛːɾə"],  // The translation table spells it pere; Wiktionary's lemma pede carries the IPA.
+    nap: ["pere", "ˈpɛːrə"],  // The translation table spells it pere; Wiktionary's lemma pede carries the IPA.
     naq: ["ǂaidi", "ǂaidi"],  // Khoekhoe splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes ǃom-mi as ǃomːi.
     nbl: ["inyawo", "iɲawo"],  // Southern Ndebele splits them as the Nguni rows do but keeps the foot word in class 5 — inyawo lakho at Mark 9:45, against the imilenze broken in John 19.
     nch: ["icxitl", "ikʃitɬ"],  // The Huasteca NT opposes moicxi to mometz and breaks ininmetzomiyo, 'their leg-bones', so icxitl is the foot as in Classical Nahuatl.

@@ -135,7 +135,7 @@ WORDS.iron = {
     fi: ["rauta", "ˈrauta"],
     et: ["raud", "raud"],
     eu: ["burdina", "burdina"],
-    ga: ["iarann", "ˈiəɾən"],
+    ga: ["iarann", "ˈiəɾˠən"],
     gv: ["yiarn", "jaːrn"],
     ka: ["რკინა", "rkʼina"],
 

@@ -303,7 +303,7 @@ WORDS.sun = {
     no: ["sol", "suːl"],
     da: ["sol", "soːˀl"],
     ro: ["soare", "so̯are"],
-    ga: ["grian", "ɡɾʲiən"],
+    ga: ["grian", "ɟɾʲiən̪ˠ"],
     eu: ["eguzki", "eɣuski"],
     cy: ["haul", "haɨl"],
     ka: ["მზე", "mze"],

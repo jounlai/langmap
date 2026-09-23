@@ -304,7 +304,7 @@ WORDS.heart = {
     no: ["hjerte", "jæɾtə"],
     da: ["hjerte", "jæɐ̯d̥ə"],
     ro: ["inimă", "inimə"],
-    ga: ["croí", "kɾiː"],
+    ga: ["croí", "kɾˠiː"],
     eu: ["bihotz", "biots"],
     cy: ["calon", "kalɔn"],
     ka: ["გული", "ɡuli"],

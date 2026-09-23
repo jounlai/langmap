@@ -520,7 +520,7 @@ WORDS.black = {
     gv: ["doo", "duː"],
     kw: ["du", "dyː"],
     bs: ["crn", "tsrn"],
-    ga: ["dubh", "dˠʊvˠ"],
+    ga: ["dubh", "d̪ˠʊvˠ"],
     da: ["sort", "sɒːˀd"],
 
     p_sit: ["*nək", "nək"],

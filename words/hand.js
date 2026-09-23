@@ -304,7 +304,7 @@ WORDS.hand = {
     no: ["hånd", "hɔnː"],
     da: ["hånd", "hɔnˀ"],
     ro: ["mână", "mɨnə"],
-    ga: ["lámh", "lɑːv"],
+    ga: ["lámh", "l̪ˠɑːvˠ"],
     eu: ["esku", "esku"],
     cy: ["llaw", "ɬaʊ"],
     ka: ["ხელი", "xeli"],

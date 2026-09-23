@@ -304,7 +304,7 @@ WORDS.eye = {
     no: ["øye", "øjə"],
     da: ["øje", "ʌjə"],
     ro: ["ochi", "okʲ"],
-    ga: ["súil", "suːlʲ"],
+    ga: ["súil", "sˠuːlʲ"],
     eu: ["begi", "beɣi"],
     cy: ["llygad", "ɬəɡad"],
     ka: ["თვალი", "tʰvali"],

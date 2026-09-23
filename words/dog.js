@@ -304,7 +304,7 @@ WORDS.dog = {
     no: ["hund", "hʉnː"],
     da: ["hund", "hunˀ"],
     ro: ["câine", "kɨine"],
-    ga: ["madra", "mɑdɾə"],
+    ga: ["madra", "mˠɑd̪ˠɾˠə"],
     eu: ["txakur", "tʃakur"],
     cy: ["ci", "kiː"],
     ka: ["ძაღლი", "dzaɣli"],

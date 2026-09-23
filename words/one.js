@@ -304,7 +304,7 @@ WORDS.one = {
     no: ["en", "eːn"],
     da: ["en", "eːˀn"],
     ro: ["unu", "unu"],
-    ga: ["aon", "eːn"],
+    ga: ["aon", "eːn̪ˠ"],
     eu: ["bat", "bat"],
     cy: ["un", "ɨːn"],
     ka: ["ერთი", "ertʰi"],

@@ -98,7 +98,7 @@ WORDS.silk = {
     fi: ["silkki", "ˈsilkːi"],
     hu: ["selyem", "ˈʃɛjɛm"],
     eu: ["zeta", "ˈset̪a"],
-    ga: ["síoda", "ˈʃiːdˠə"],
+    ga: ["síoda", "ˈʃiːd̪ˠə"],
     cy: ["sidan", "ˈsɪdan"],
     mn: ["торго", "ˈtɔrɡɔ"],
     af: ["sy", "səi"],

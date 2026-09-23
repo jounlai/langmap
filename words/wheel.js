@@ -739,7 +739,7 @@ WORDS.wheel = {
     qu: ["rueda", "ɾweda"],
     ay: ["rueda", "ɾweda"],
     gn: ["rruéda", "ruˈeda"],
-    gun: ["ruéda", "ruˈeda"],
+    gun: ["ruéda", "ɾuˈeda"],
     agr: ["rueda", "rueda"],
     trn: ["karetacho", "kaˈretatʃo"],
     slr: ["gulu", "kulu"],

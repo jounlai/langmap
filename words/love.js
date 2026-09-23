@@ -304,7 +304,7 @@ WORDS.love = {
     no: ["kjærlighet", "çæːɾliheːt"],
     da: ["kærlighed", "kʰæɐ̯liheð̠ˀ"],
     ro: ["iubire", "jubire"],
-    ga: ["grá", "ɡɾɑː"],
+    ga: ["grá", "ɡɾˠɑː"],
     eu: ["maitasun", "maitasun"],
     cy: ["cariad", "karjad"],
     ka: ["სიყვარული", "siqʼvaruli"],

@@ -304,7 +304,7 @@ WORDS.good = {
     no: ["bra", "brɑː"],
     da: ["god", "ɡoːˀ"],
     ro: ["bun", "bun"],
-    ga: ["maith", "mah"],
+    ga: ["maith", "mˠah"],
     eu: ["on", "on"],
     cy: ["da", "dɑː"],
     ka: ["კარგი", "kʼarɡi"],

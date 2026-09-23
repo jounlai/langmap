@@ -105,7 +105,7 @@ WORDS.sea = {
     fi: ["meri", "ˈmeri"],
     hu: ["tenger", "ˈtɛŋɡɛr"],
     eu: ["itsaso", "iˈts̻aso"],
-    ga: ["farraige", "ˈfaɾɪɟə"],
+    ga: ["farraige", "ˈfˠaɾˠɪɟə"],
     cy: ["môr", "moːr"],
     hy: ["ծով", "tsov"],
     ka: ["ზღვა", "zɣva"],

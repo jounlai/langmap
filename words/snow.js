@@ -244,7 +244,7 @@ WORDS.snow = {
     no: ["snø", "snøː"],
     da: ["sne", "sneːˀ"],
     ro: ["zăpadă", "zəpadə"],
-    ga: ["sneachta", "ʃnʲaxtə"],
+    ga: ["sneachta", "ʃnʲaxt̪ˠə"],
     eu: ["elur", "elur"],
     cy: ["eira", "əɨra"],
     ka: ["თოვლი", "tʰovli"],

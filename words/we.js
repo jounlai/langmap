@@ -1260,7 +1260,7 @@ WORDS.we = {
     swb: ["wasi", "wasi"],
     adx: ["ང་ཚོ", "ŋatsʰo"],
     qxs: ["—", "—"],
-    duu: ["rvng / ing", "rɯŋ / iŋ"],
+    duu: ["rvng / ing", "ɹɯŋ / iŋ"],
     jya: ["ŋəɲe", "ŋəɲe"],
     ers: ["—", "—"],
     bca: ["nga", "ŋa"],

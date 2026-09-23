@@ -275,7 +275,7 @@ WORDS.father = {
     sel: ["ача", "atʃa"],
     kca: ["ащи", "aːsʲi"],
     ckt: ["атԓёӄ", "atɬjoq"],
-    kpy: ["элёӄ", "eljoq"],
+    kpy: ["элёӄ", "eʎoq"],
     itl: ["—", "—"],
     ykg: ["эчэ", "etʃe"],
     yux: ["эчиэ", "etʃiə"],

@@ -126,7 +126,7 @@ WORDS.star = {
       swb: ["nyora", "ɲora"],
       adx: ["སྐར་མ", "hkarma"],
       qxs: ["zɡɿ", "zɡɿ"],
-      duu: ["əkɯr", "əkɯr"],
+      duu: ["əkɯr", "əkɯɹ"],
       jya: ["zgrɯ", "zɡrɯ"],
       ers: ["ʁmɯ", "ʁmɯ"],
       bca: ["gɯsɿ", "ɡɯ˧sɿ˧"],

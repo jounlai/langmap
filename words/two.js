@@ -107,7 +107,7 @@ WORDS.two = {
       pt_gw: ["dus", "dus"],
       tsz: ["tsimani", "tsiˈmani"],
       nez: ["lepít", "lepít"],
-      woe: ["rúúwe", "rɨːwe"],
+      woe: ["rúúwe", "ɻɨːwe"],
       pmt: ["rua", "rua"],
       bin: ["eva", "èʋà"],
       khw: ["جو", "dʒu"],

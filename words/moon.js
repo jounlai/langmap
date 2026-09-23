@@ -107,7 +107,7 @@ WORDS.moon = {
       pt_gw: ["lúa", "lua"],
       tsz: ["kutsi", "ˈkutsi"],
       nez: ["—", "—"],
-      woe: ["me-rame", "meraːme"],
+      woe: ["me-rame", "meɻaːme"],
       pmt: ["marama", "marama"],
       bin: ["uki", "uki"],
       khw: ["مَس", "mas"],

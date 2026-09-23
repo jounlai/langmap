@@ -244,7 +244,7 @@ WORDS.eat = {
     jmc: ["ìlya", "iʎa"],
     sbp: ["kulya", "kuʎa"],
     rwk: ["kuria", "kuria"],
-    asu: ["kurya", "kuɾja"],
+    asu: ["kurya", "kurja"],
     tl: ["kumain", "kumaˈʔin"],
     agt: ["mangan", "maŋan"],
     itb: ["koman", "koman"],

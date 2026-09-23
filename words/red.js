@@ -114,7 +114,7 @@ WORDS.red = {
     pt_gw: ["burmedju", "buɾˈmɛdʒu"],
     tsz: ["charhápiti", "tʃaˈɽapiti"],
     nez: ["ilpʼílp", "ilpʼílp"],
-    woe: ["paare", "paːre"],
+    woe: ["paare", "paːɻe"],
     pmt: ["kura", "kuɾa"],
     bin: ["baba", "baba"],
     khw: ["لال", "laːl"],

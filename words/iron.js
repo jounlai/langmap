@@ -504,7 +504,7 @@ WORDS.iron = {
     fud: ["ukamea", "ukamea"],
     ty: ["ʻāuri", "ʔaːuɾi"],
     rar: ["ʻāuri", "ʔaːuri"],
-    woe: ["paarang", "paːɾaŋ"],
+    woe: ["paarang", "paːɻaŋ"],
     mh: ["māāl", "mʲaːlʲ"],
     pon: ["mete", "ˈmete"],
     kos: ["osra", "oʂa"],

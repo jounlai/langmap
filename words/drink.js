@@ -434,7 +434,7 @@ WORDS.drink = {
     wae: ["trinke", "trɪŋkə"],
     nds: ["drinken", "drɪŋkn̩"],
     ksh: ["drinke", "dʁɪŋkə"],
-    pdc: ["drinke", "dɾɪŋkə"],
+    pdc: ["drinke", "drɪŋkə"],
     pdt: ["drinken", "dɾɪŋkən"],
     yi: ["טרינקען", "trɪŋkən"],
     is: ["drekka", "trɛhka"],

@@ -128,7 +128,7 @@ WORDS.salt = {
     kw: ["holan", "ˈhɔlan"],
     pl: ["sól", "sul"],
     cs: ["sůl", "suːl"],
-    sk: ["soľ", "solʲ"],
+    sk: ["soľ", "soʎ"],
     sl: ["sol", "soːl"],
     hr: ["sol", "sol"],
     sr: ["со", "so"],

@@ -932,7 +932,7 @@ WORDS.daughter = {
     rif: ["ⵢⴻⴵⵉ", "jədʒːi"],
     din: ["nyan", "ɲan"],
     luo: ["nyar", "ɲar"],
-    xed: ["makwa", "makwa"],
+    xed: ["makwa", "makʷa"],
     kr: ["fero", "fero"],
     ses: ["ize woy", "ize woj"],
     dje: ["ize way", "ize waj"],

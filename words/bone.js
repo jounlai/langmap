@@ -113,7 +113,7 @@ WORDS.bone = {
     swb: ["shiɓa", "ʃiɓa"],
     adx: ["རུས་པ", "rəpa"],
     qxs: ["rɑkɑ", "rɑkɑ"],
-    duu: ["angru", "aŋru"],
+    duu: ["angru", "aŋɹu"],
     jya: ["ʃa-rə", "ɕarə̂"],
     ers: ["ɚkʰuo", "ɚkʰuo"],
     bca: ["kuatu", "kua˧tu˧"],

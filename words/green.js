@@ -457,6 +457,24 @@ WORDS.green = {
     jiu: ["a33ny55", "a˧˧ny˥˥"],
     sog: ["zarγōnē", "zarɣoːneː"],
     trv: ["msama", "msama"],
-    acu: ["samek", "samek"]
+    acu: ["samek", "samek"],
+    zh_sc: ["绿", "nu˨˩"],
+    wuu: ["绿", "loʔ˩˨"],
+    zh_jh: ["绿", "luʔ˥˥"],
+    zh_db: ["绿", "ly˥˩"],
+    mnp: ["绿", "ly˦˨"],
+    zh_tj: ["绿", "ly˥˧"],
+    zh_wh: ["绿", "nəu˨˩˧"],
+    zh_zz: ["绿", "ly˨˦"],
+    sd: ["سائو", "saːio"],
+    mwr: ["हरियो", "ɦərijo"],
+    ar_iq: ["أخضر", "ˈʔaxðˤar"],
+    ar_lev: ["أخضر", "ˈʔaxdˤar"],
+    ar_gulf: ["أخضر", "ˈʔaxðˤar"],
+    vi_s: ["xanh lá", "saŋ˧ laː˧˥"],
+    vi_c: ["xanh lá", "sajŋ˧ laː˧˥"],
+    th_isan: ["เขียว", "kʰiaw˩˧"],
+    za: ["heu", "heu˨˦"],
+    ug: ["يېشىل", "jeˈʃil"]
   }
 };

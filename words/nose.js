@@ -990,6 +990,8 @@ WORDS.nose = {
     srm: ["núsu", "núsu"],
     kmh: ["mluk", "mluk"],
     guc: ["eʼichi", "eʔitʃi"],
-    mch: ["önna", "ənna"]
+    mch: ["önna", "ənna"],
+    zh_jh: ["鼻子", "piʔ˥˥ tsɿ"],
+    mnp: ["鼻", "pʰi˥˥"]
   },
 };

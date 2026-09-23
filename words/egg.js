@@ -903,6 +903,7 @@ WORDS.egg = {
     agt: ["iklug", "ʔikluɡ"],
     ote: ["mädo", "mãdo"],
     rmf: ["jaaro", "jaːro"],
-    acu: ["nujin", "nuhin"]
+    acu: ["nujin", "nuhin"],
+    gan: ["蛋", "tʰan˨˩"]
   },
 };

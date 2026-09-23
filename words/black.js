@@ -766,6 +766,15 @@ WORDS.black = {
     enf: ["polzeda", "pɔɫzʲɛda"],
     sog: ["šāw", "ʃaːw"],
     trv: ["mqalux", "mqalux"],
-    acu: ["shuwin", "ʃuwin"]
+    acu: ["shuwin", "ʃuwin"],
+    zh_sc: ["黑", "xe˨˩"],
+    zh_jh: ["黑", "xəʔ˥˥"],
+    cjy: ["黑", "xəʔ˨"],
+    hsn: ["黑", "xə˨˦"],
+    gan: ["黑", "hɛʔ˥"],
+    mnp: ["黑", "xɛ˨˦"],
+    zh_tj: ["黑", "xei˨˩"],
+    zh_wh: ["黑", "xɤ˨˩˧"],
+    zh_zz: ["黑", "xei˨˦"]
   },
 };

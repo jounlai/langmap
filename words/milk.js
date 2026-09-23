@@ -843,6 +843,7 @@ WORDS.milk = {
     nzm: ["tungdui", "tuŋdui"],
     uby: ["čʰʲa", "tʃʰʲa"],
     rap: ["ū", "uː"],
-    tiv: ["atumba", "atumba"]
+    tiv: ["atumba", "atumba"],
+    zh_jh: ["牛奶", "liəɯ˧˥ lɛ˨˩˦"]
   },
 };

@@ -829,6 +829,12 @@ WORDS.iron = {
     enf: ["byasi", "bʲasi"],
     rtm: ["ʻia", "ʔia"],
     kek: ["chʼiichʼ", "tʃʼiːtʃʼ"],
-    chk: ["mecha", "metʃa"]
+    chk: ["mecha", "metʃa"],
+    mnp: ["铁", "tʰiɛ˨˦"],
+    sd: ["لوهه", "loːɦu"],
+    om: ["sibiila", "sibiːla"],
+    so: ["bir", "bir"],
+    th_isan: ["เหล็ก", "lek˨˩"],
+    za: ["diet", "tiət˧"]
   },
 };

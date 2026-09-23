@@ -843,6 +843,9 @@ WORDS.hundred = {
     jam: ["ondred", "ɔndrɛd"],
     enf: ["dyur", "dʲur"],
     kek: ["oʼkʼaal", "oʔkʼaːl"],
-    chk: ["ipwúkú", "ipʷɨkɨ"]
+    chk: ["ipwúkú", "ipʷɨkɨ"],
+    zh_jh: ["百", "pəʔ˥˥"],
+    ko_kp: ["백", "pɛk̚"],
+    th_isan: ["ฮ้อย", "hɔːj˦˥"]
   },
 };

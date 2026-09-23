@@ -455,6 +455,24 @@ WORDS.book = {
     es_cu: ["libro", "ˈliβɾo"],
     es_an: ["libro", "ˈliβɾo"],
     es_uy: ["libro", "ˈliβɾo"],
-    pt_br: ["livro", "ˈlivɾu"]
+    pt_br: ["livro", "ˈlivɾu"],
+    zh_sc: ["书", "su˥"],
+    wuu: ["书", "sz̩˥˧"],
+    zh_jh: ["书", "ʂu˧˩"],
+    zh_db: ["书", "ʂu˥"],
+    zh_tj: ["书", "ʂu˨˩"],
+    zh_wh: ["书", "ɕy˥˥"],
+    zh_zz: ["书", "ʂu˨˦"],
+    bho: ["किताब", "kitaːb"],
+    skr: ["کتاب", "kɪtaːb"],
+    ar_iq: ["كتاب", "kiˈtaːb"],
+    ar_sd: ["كتاب", "kiˈtaːb"],
+    ar_gulf: ["كتاب", "kiˈtaːb"],
+    vi_s: ["sách", "ʂak˧˥"],
+    ko_kp: ["책", "tɕʰɛk"],
+    vi_c: ["sách", "sajk˧˥"],
+    th_isan: ["หนังสือ", "naŋ˩˧sɯː˩˧"],
+    za: ["saw", "θaɯ˨˦"],
+    azb: ["کیتاب", "kiˈtab"]
   }
 };

@@ -1112,6 +1112,7 @@ WORDS.four = {
     pll: ["phon", "pʰon"],
     dru: ["səpatə", "səpatə"],
     tsu: ["sʉptʉ", "səptə"],
-    chk: ["fáán", "faːn"]
+    chk: ["fáán", "faːn"],
+    zh_jh: ["四", "sɿ˦˦"]
   },
 };

@@ -592,6 +592,26 @@ WORDS.mouth = {
     se: ["njálbmi", "ˈɲaːlpmi"],
     jiu: ["mø33mø33", "mø˧˧mø˧˧"],
     rtm: ["nuju", "nutʃu"],
-    pt_br: ["boca", "ˈbokɐ"]
+    pt_br: ["boca", "ˈbokɐ"],
+    zh_sc: ["嘴巴", "tsuei˥˧ pa˥"],
+    wuu: ["嘴", "tsz̩˧˥"],
+    zh_jh: ["嘴", "tsuei˨˩˦"],
+    hak_cn: ["嘴", "tsoi˥˧"],
+    hsn: ["嘴巴", "tsei˦˩ pa˧˧"],
+    gan: ["嘴", "tsui˨˩˧"],
+    zh_db: ["嘴", "tsweɪ̯˧˩˧"],
+    zh_tj: ["嘴", "tsuei˩˧"],
+    zh_wh: ["嘴", "tsuei˦˨"],
+    zh_zz: ["嘴", "tsuei˥˧"],
+    bho: ["मुँह", "mũːɦ"],
+    mai: ["मुँह", "mũːɦ"],
+    awa: ["मुँह", "mũːɦ"],
+    sd: ["وات", "vaːtu"],
+    mwr: ["मूंडो", "muːɳɖo"],
+    ar_iq: ["حلگ", "ˈħaliɡ"],
+    ar_tn: ["فم", "fomː"],
+    ar_gulf: ["حلج", "ħalj"],
+    th_isan: ["ปาก", "paːk˨˩"],
+    za: ["bak", "paːk˥"]
   }
 };

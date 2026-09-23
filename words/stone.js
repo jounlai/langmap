@@ -951,6 +951,12 @@ WORDS.stone = {
     yap: ["malaang", "malaːŋ"],
     cng: ["ʁlu pi", "ʁlu pi"],
     uby: ["laqa", "laqa"],
-    mch: ["töʼhu", "təʔhu"]
+    mch: ["töʼhu", "təʔhu"],
+    zh_jh: ["石头", "ʂʅʔ˥˥ tʰəu˧˥"],
+    cjy: ["石头", "səʔ˥˦ tʰəu˩"],
+    hsn: ["石头", "sɹ̩˨˦ tʰəu˩˧"],
+    gan: ["石头", "sɑʔ˨ tʰɛu"],
+    cdo: ["石", "suoʔ˥"],
+    mnp: ["石", "tsiɔ˥˥"]
   },
 };

@@ -947,6 +947,8 @@ WORDS.sleep = {
     dru: ["waapəcə", "waːpətsə"],
     ote: ["ähä", "ãhã"],
     dbq: ["wan", "wan"],
-    bnn: ["masabah", "masabah"]
+    bnn: ["masabah", "masabah"],
+    hsn: ["睏", "kʰuən˦˥"],
+    skr: ["سمھݨ", "sʊmːʱəɳ"]
   },
 };

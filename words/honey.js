@@ -822,6 +822,9 @@ WORDS.honey = {
     lic: ["nom3 ko:i1", "nom˩˩ koːi˥˧"],
     swi: ["taaŋ2 luk8", "taːŋ˧˩ luk˧˩"],
     rtm: ["hanē", "haneː"],
-    acu: ["wapasa yumiri", "wapasa jumiɾi"]
+    acu: ["wapasa yumiri", "wapasa jumiɾi"],
+    nan_te: ["蜂蜜", "pʰaŋ˧˧ bik˥˥"],
+    ar_lev: ["عسل", "ʕasal"],
+    vi_c: ["mật ong", "mət˨˨ ɔŋ˧"]
   },
 };

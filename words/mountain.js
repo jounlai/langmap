@@ -441,6 +441,26 @@ WORDS.mountain = {
     se: ["várri", "ˈvaːrːi"],
     jiu: ["ɣɯ31tha55", "ɣɯ˧˩tʰa˥˥"],
     trv: ["dgiyaq", "dɡijaq"],
-    pt_br: ["montanha", "mõˈtaɲɐ"]
+    pt_br: ["montanha", "mõˈtaɲɐ"],
+    zh_sc: ["山", "san˥"],
+    wuu: ["山", "sɛ˥˧"],
+    zh_jh: ["山", "ʂã˧˩"],
+    zh_db: ["山", "ʂan˥"],
+    zh_tj: ["山", "san˨˩"],
+    zh_wh: ["山", "san˥˥"],
+    zh_zz: ["山", "ʂan˨˦"],
+    bho: ["पहाड़", "pəɦaːɽ"],
+    mai: ["पहाड़", "pəɦaːɽ"],
+    awa: ["पहाड़", "pəɦaːɽ"],
+    sd: ["جبل", "dʒəbəlu"],
+    mwr: ["डूंगर", "ɖuːŋɡər"],
+    skr: ["پہاڑ", "pəɦaːɽ"],
+    ar_iq: ["جبل", "ˈdʒabal"],
+    ar_sd: ["جبل", "ˈdʒabal"],
+    ar_gulf: ["جبل", "ˈdʒabal"],
+    su: ["gunung", "ɡunuŋ"],
+    vi_c: ["núi", "nui˧˥"],
+    th_isan: ["ภูเขา", "pʰuː˥ kʰaw˩˧"],
+    ug: ["تاغ", "tɑʁ"]
   }
 };

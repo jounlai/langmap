@@ -288,6 +288,14 @@ WORDS.chocolate = {
     es_co: ["chocolate", "tʃokoˈlate"],
     es_cl: ["chocolate", "tʃokoˈlate"],
     es_ar: ["chocolate", "tʃokoˈlate"],
-    es_pe: ["chocolate", "tʃokoˈlate"]
+    es_pe: ["chocolate", "tʃokoˈlate"],
+    bho: ["चॉकलेट", "tʃɔːkleːʈ"],
+    sd: ["چاڪليٽ", "tʃaːkleːʈ"],
+    ar_eg: ["شيكولاتة", "ʃikoˈlaːta"],
+    ha: ["cakulan", "tʃakulan"],
+    so: ["shukulaato", "ʃukulaːto"],
+    ar_gulf: ["ككاو", "kakˈkaːw"],
+    vi_s: ["sô-cô-la", "ʂo˧ ko˧ laː˧"],
+    ug: ["شاكىلات", "ʃakiˈlat"]
   }
 };

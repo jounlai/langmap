@@ -849,6 +849,7 @@ WORDS.snow = {
     gn: ["yrypyʼa veve", "ɨɾɨpɨʔa veve"], // neologism, lit. flying ice; yrypyʼa alone is hielo,
     nmf: ["horam", "horam"],
     orh: ["ɪmana", "ɪmana"],
-    swi: ["ʔnui1", "ʔnui˩˩"]
+    swi: ["ʔnui1", "ʔnui˩˩"],
+    om: ["cabbii", "tʃabːiː"]
   },
 };

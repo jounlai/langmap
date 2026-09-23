@@ -936,6 +936,7 @@ WORDS.sleep = {
     pura: ["*oδa-", "oða"],
     mhy: ["manreʔ", "manreʔ"],
     wbt: ["kunyalajuwa", "kuɲalaɟuwa"],
-    tiw: ["mili", "mili"]
+    tiw: ["mili", "mili"],
+    kjg: ["sih", "sih"]
   },
 };

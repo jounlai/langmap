@@ -549,6 +549,9 @@ WORDS.new = {
     aln: ["i ri", "i ɾi"],
     fud: ["foʻou", "foʔou"],
     tsj: ["singma", "siŋma"],
-    sbp: ["ishipya", "iʃipja"]
+    sbp: ["ishipya", "iʃipja"],
+    hot: ["lumut", "lumut"],
+    kjg: ["həmmeʔ", "həmmeʔ"],
+    kxv: ["puni", "puni"]
   },
 };

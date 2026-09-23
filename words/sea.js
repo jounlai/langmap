@@ -348,6 +348,9 @@ WORDS.sea = {
     pon: ["sehd", "sɛːd"],
     ssf: ["wazakan", "waðakan"],
     tkl: ["moana", "moana"],
-    orh: ["dalaj", "dalaj"]
+    orh: ["dalaj", "dalaj"],
+    dje: ["teeku", "teːku"],
+    mmd: ["hai3", "hai˥˩"],
+    peh: ["χai", "χai"]
   }
 };

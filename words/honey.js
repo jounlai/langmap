@@ -808,6 +808,7 @@ WORDS.honey = {
     // as y; that is fixed, so this goes in (en + fr Wiktionary, "bee juice").
     zdj: ["ndjizi ya nyoshi", "ndʒizi ja ɲoʃi"],
     myx: ["bubuukhi", "bubuːkʰi"],
-    sbp: ["uwushi", "uwuʃi"]
+    sbp: ["uwushi", "uwuʃi"],
+    xul: ["kawangkal", "kawaŋkal"]
   },
 };

@@ -936,6 +936,8 @@ WORDS.stone = {
     zh_hf: ["石头", "ʂəʔ˦ tʰəu"],
     zh_nj: ["石头", "ʂʅʔ˥ tʰəɯ"],
     mhy: ["watu", "watu"],
-    sbp: ["liganga", "liɡaŋɡa"]
+    sbp: ["liganga", "liɡaŋɡa"],
+    jmc: ["iwe", "iwe"],
+    xul: ["wullung", "wuluŋ"]
   },
 };

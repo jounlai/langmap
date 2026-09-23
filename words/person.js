@@ -452,6 +452,13 @@ WORDS.person = {
     wls: ["tagata", "taŋata"],
     orh: ["bəjə", "bəjə"],
     wbt: ["kirta", "kiʈa"],
-    mra: ["mla", "mla"]
+    mra: ["mla", "mla"],
+    kde: ["munu", "munu"],
+    ksb: ["mntu", "mntu"],
+    lic: ["u2 a:u1", "u˥˥ aːu˥˧"],
+    mmd: ["zən1", "zən˦˨"],
+    nha: ["arnmanu", "aɳmanu"],
+    peh: ["kuŋ", "kuŋ"],
+    pzh: ["saw", "saw"]
   }
 };

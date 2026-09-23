@@ -719,6 +719,11 @@ WORDS.black = {
     en_ck: ["black", "blæk"],
     vi_nom: ["顛", "ɗɛn˧"],
     mhy: ["maʔintem", "maʔintem"],
-    naq: ["ǂnu", "ǂnu"]
+    naq: ["ǂnu", "ǂnu"],
+    dje: ["bi", "bi"],
+    djr: ["gurrŋan", "ɡurŋan"],
+    kjg: ["hiəŋ", "hiəŋ"],
+    kpf: ["sumun sumun", "sumun sumun"],
+    kxv: ["kadia", "kadia"]
   },
 };

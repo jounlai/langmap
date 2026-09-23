@@ -124,6 +124,21 @@ function marksStress(lang) {
     return total > 0 && withMark > 0;
 }
 
+/* A row that writes Chao tone letters will not take a toneless candidate:
+   check_all's tone-policy guard counts that as a violation and it is right
+   to. Blang was the case — a Chao row, and the dataset's klai and kaiŋ carry
+   no tone at all, so two cells went in and had to come straight back out.
+   The dataset simply does not hold what that row needs. */
+function writesChaoTone(lang) {
+    let withTone = 0, total = 0;
+    for (const e of Object.values(lang.words || {})) {
+        if (!e || !e[1]) continue;
+        total++;
+        if (/[\u02E5-\u02E9]/.test(e[1])) withTone++;
+    }
+    return total >= 10 && withTone / total >= 0.15;
+}
+
 function learn(lang) {
     const seen = new Map();          // surface segment -> Map(ipa segment -> count)
     for (const e of Object.values(lang.words || {})) {
@@ -148,8 +163,48 @@ function learn(lang) {
     return { table, ambiguous };
 }
 
+/* Every two-letter sequence in a candidate must be one the row has actually
+   written. Without this, a row that happens to know k and h separately will
+   silently accept an unknown kh: Sangu has no kh anywhere and still converted
+   ilikhakha as identity, because the greedy match fell back to single
+   letters. An unattested bigram means the row has never had to decide what
+   that sequence sounds like, so the tool has no business deciding either. */
+/* Only sequences that a language might treat as ONE sound are worth this
+   check. Requiring every bigram to be attested was far too strict — a row
+   holds fifty words, so most legitimate pairs have simply never come up, and
+   it cut the automatic slice from 115 cells to 35. These are the shapes that
+   actually hide a digraph: a consonant plus h, n plus g or y, and a
+   consonant plus y. */
+const DIGRAPH_RISK = /^(?:[bcdfghjklmnpqrstvwxz]h|n[gy]|[bdfgklmnpstvz]y|ts|dz|tl|kw|gw|ph|ng|qh|xh)$/;
+
+function bigrams(lang) {
+    const set = new Set();
+    for (const e of Object.values(lang.words || {})) {
+        if (!e || !e[0] || e[0] === '\u2014') continue;
+        const s = e[0].toLowerCase();
+        for (let i = 0; i + 1 < s.length; i++) set.add(s.slice(i, i + 2));
+    }
+    return set;
+}
+
 /** Greedy longest-match. Returns the IPA, or null plus the blocking chars. */
-function convert(form, table) {
+function convert(form, table, known, chaoRow) {
+    if (chaoRow && !/[\u02E5-\u02E9]/.test(form) && !/[0-9]/.test(form)) {
+        return { ipa: null, blocked: ['no tone, and this row writes Chao'] };
+    }
+    if (known) {
+        const f = form.toLowerCase();
+        const bad = [];
+        for (let i = 0; i + 1 < f.length; i++) {
+            const bg = f.slice(i, i + 2);
+            if (DIGRAPH_RISK.test(bg) && !known.has(bg)) bad.push(bg);
+        }
+        if (bad.length) return { ipa: null, blocked: [...new Set(bad)] };
+    }
+    return convertInner(form, table);
+}
+
+function convertInner(form, table) {
     const keys = [...table.keys()].sort((a, b) => b.length - a.length);
     let out = '', i = 0;
     const blocked = new Set();
@@ -271,10 +326,11 @@ function main() {
             if (marksStress(lang)) continue;
             const { table } = learn(lang);
             if (table.size < 8) continue;
+            const known = bigrams(lang); const chao = writesChaoTone(lang);
             let ok = 0;
             for (const [, forms] of sheetFor(code, data)) {
                 if (forms.length !== 1) continue;
-                const r = convert(forms[0], table);
+                const r = convert(forms[0], table, known, chao);
                 if (r.ipa) ok++;
             }
             if (ok) out.push([ok, code, lang.name]);
@@ -317,7 +373,7 @@ function main() {
             if (!args.includes('--apply')) console.log(`  ${concept.padEnd(11)}(${forms.length} candidates — resolve by hand)`);
             continue;
         }
-        const r = convert(forms[0], table);
+        const r = convert(forms[0], table, bigrams(lang), writesChaoTone(lang));
         if (r.ipa) console.log(`    ${code}: ["${forms[0]}", "${r.ipa}"],   // ${concept}`);
         else if (!args.includes('--apply')) console.log(`  ${concept.padEnd(11)}BLOCKED ${forms[0]} — no rule for ${r.blocked.join(' ')}`);
     }

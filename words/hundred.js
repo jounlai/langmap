@@ -827,6 +827,7 @@ WORDS.hundred = {
     cho: ["talhepa", "taːɬiːpə"],
     xkz: ["gya", "ɟɑ"],   // the Tibetan བརྒྱ once more,
     myx: ["sitondo", "sitondo"],
-    sbp: ["imiya", "imija"]
+    sbp: ["imiya", "imija"],
+    jmc: ["iyana", "ijana"]
   },
 };

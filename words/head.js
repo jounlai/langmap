@@ -547,6 +547,11 @@ WORDS.head = {
     tsj: ["sharang", "ɕaɾaŋ"],
     myx: ["kumurwe", "kumurwe"],
     sbp: ["umutwe", "umutwe"],
-    sog: ["sari", "sari"]
+    sog: ["sari", "sari"],
+    bzh: ["ulu", "ulu"],
+    hot: ["ukaduk", "ukaduk"],
+    kjg: ["kəmpoŋ", "kəmpoŋ"],
+    nmf: ["kui", "kui"],
+    xul: ["guddagong", "ɡuddaɡoŋ"]
   },
 };

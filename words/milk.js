@@ -834,5 +834,6 @@ WORDS.milk = {
     xkz: ["ju", "ɟu"],
     pban: ["*-bɪ́cɪ̀", "-bɪ́cɪ̀"],
     ak: ["nufusu", "nufusu"],
+    trv: ["nunuh", "nunuh"]
   },
 };

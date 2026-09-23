@@ -373,6 +373,10 @@ WORDS.mountain = {
     sog: ["γari", "ɣari"],
     yao: ["litumbi", "litumbi"],
     roo: ["pukui", "pukui"],
-    sad: ["gawa", "ɡawa"]
+    sad: ["gawa", "ɡawa"],
+    kjg: ["mok", "mok"],
+    kpf: ["bakŋa", "bakŋa"],
+    srb: ["baru", "baru"],
+    srh: ["qir", "qiɾ"]
   }
 };

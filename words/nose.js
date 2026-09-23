@@ -970,6 +970,7 @@ WORDS.nose = {
     ja_rys: ["鼻", "pana"],
     mhy: ["uruŋ", "uruŋ"],
     sbp: ["imula", "imula"],
-    sog: ["nas", "nas"]
+    sog: ["nas", "nas"],
+    kde: ["imula", "imula"]
   },
 };

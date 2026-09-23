@@ -902,6 +902,9 @@ WORDS.wind = {
     kho: ["𑀩𑀸𑀢", "baːtæ"],
     mhy: ["riwut", "riwut"],
     myx: ["imbewo", "imbewo"],
-    sbp: ["ilipepo", "ilipepo"]
+    sbp: ["ilipepo", "ilipepo"],
+    djr: ["wäŋi", "waːŋi"],
+    hot: ["lovak", "lovak"],
+    nha: ["uudinu", "uudinu"]
   },
 };

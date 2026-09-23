@@ -401,6 +401,16 @@ WORDS.green = {
     pms: ["verd", "vɛrt"],
     pnb: ["ہرا", "ɦəraː"],
     pon: ["pohndipw", "poːndipʷ"],
-    mhy: ["kakuriŋ", "kakuriŋ"]
+    mhy: ["kakuriŋ", "kakuriŋ"],
+    dje: ["bogu", "boɡu"],
+    fud: ["moto", "moto"],
+    kjg: ["siw", "siw"],
+    kos: ["folfol sra", "folfol ʂa"],
+    niu: ["lanu laukou", "lanu laukou"],
+    peh: ["noɢoŋ", "noɢoŋ"],
+    pzh: ["tululik", "tululik"],
+    srh: ["sovdz", "sovdz"],
+    swi: ["ࡶhu1", "ࡶhu˩˩"],
+    wls: ["moto", "moto"]
   }
 };

@@ -915,6 +915,10 @@ WORDS.bird = {
     myx: ["khanywinywi", "kʰaɲwiɲwi"],
     sbp: ["indege", "indeɡe"],
     wbt: ["limpi", "limpi"],
-    mra: ["ʔat", "ʔat"]
+    mra: ["ʔat", "ʔat"],
+    dje: ["curoize", "tʃuroize"],
+    jmc: ["ndeye", "ndeje"],
+    kxv: ["minu", "minu"],
+    srb: ["ontid", "ontid"]
   },
 };

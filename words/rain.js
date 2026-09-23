@@ -974,6 +974,22 @@ WORDS.rain = {
     mzn: ["وارش", "vɒːˈɾeʃ"],
     sid: ["xeena", "tʼeːna"],
     thr: ["मेंहें", "mẽɦẽ"],
-    bej: ["biri", "biri"]
+    bej: ["biri", "biri"],
+    sus: ["tunɛ", "tunɛ"],
+    ksw: ["တၢ်စူၤ", "tasu"],
+    pwo: ["ဆၧဆၧၩ့", "sʰə sʰəɴ"],
+    brx: ["अखा", "ɔkʰa"],
+    mas: ["ɛnchan", "ɛntʃan"],
+    dnj: ["dha", "ɗa"],
+    srr: ["teɓ", "teɓ"],
+    tem: ["kʌ-ɔm", "kʌɔm"],
+    fan: ["mveng", "mveŋ"],
+    nag: ["borkhon", "boɾkʰon"],
+    rhg: ["zór", "zɔr"],
+    xnr: ["बरखा", "bərkʰaː"],
+    drs: ["xeena", "tʼeːna"],
+    tmh: ["ⴰⴽⵙⴰ", "akəsa"],
+    tig: ["ዝለም", "zaləm"],
+    hoc: ["gama", "ɡama"]
   },
 };

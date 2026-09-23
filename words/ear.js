@@ -1075,6 +1075,12 @@ WORDS.ear = {
     mfa: ["telingo", "təliŋɔ"],
     ii: ["ꅻ", "n̥ɯ˨˩"],
     pcc: ["riez", "riə˩˩"],
-    wbm: ["yhaok", "j̊auk"]
+    wbm: ["yhaok", "j̊auk"],
+    kbp: ["naŋgbaŋʋʋ", "naŋɡbaŋʊː"],
+    ksw: ["နၢ်", "na"],
+    lis: ["na-po", "nɑ˦˦po˦˦"],
+    bxk: ["liiru", "liːru"],
+    zne: ["tue", "tue"],
+    mnw: ["က္တောဝ်", "kəto"]
   },
 };

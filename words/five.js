@@ -1115,6 +1115,11 @@ WORDS.five = {
     ctg: ["ফাঁচ", "fãtʃ"],
     ks: ["پانٛژھ", "pãːtsʰ"],
     luy: ["tsirano", "tsirano"],
-    egl: ["sînch", "siːŋk"]
+    egl: ["sînch", "siːŋk"],
+    pwo: ["ယဲ", "jai"],
+    dnj: ["sɔɔdhu", "sɔːɗu"],
+    nag: ["pans", "pans"],
+    unr: ["morea", "moɽea"],
+    kjp: ["ယာဲ", "jɛ̄"]
   },
 };

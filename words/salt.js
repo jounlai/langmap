@@ -1138,6 +1138,12 @@ WORDS.salt = {
     kru: ["बेक", "beːk"],
     kfy: ["लूण", "luːɳ"],
     brh: ["نمک", "nimik"],
-    egl: ["sèl", "sɛl"]
+    egl: ["sèl", "sɛl"],
+    ksw: ["အံသၣ်", "ʔiθa"],
+    pwo: ["ထံၫလၪ", "tʰi la"],
+    bxk: ["kumunyu", "kumuɲu"],
+    dnj: ["wee", "weː"],
+    toi: ["munyo", "muɲo"],
+    grt: ["kari", "kari"]
   },
 };

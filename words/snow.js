@@ -872,6 +872,12 @@ WORDS.snow = {
     bug: ["salejju", "salədʒːu"],
     ace: ["salju", "saldʒu"],
     wbm: ["rhax", "r̥aʔ"],
-    wal: ["shachcha", "ʃatʃːa"]
+    wal: ["shachcha", "ʃatʃːa"],
+    nd: ["iliqhwa", "iliǃʰwa"],
+    ksw: ["မူခိၣ်ဖီ", "mukʰopʰɔ"],
+    pwo: ["မူၭခိၪဖီၫ", "mouʔ kʰo pʰau"],
+    hni: ["haqju", "xa˧˩dʑu˧˧"],
+    nbl: ["igabhogo", "iɡaˈboɡo"],
+    gor: ["salju", "ˈsaldʒu"]
   },
 };

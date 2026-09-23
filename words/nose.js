@@ -1013,6 +1013,21 @@ WORDS.nose = {
     ii: ["ꅲ", "n̥a˧˧"],
     pcc: ["ndangl", "ndɐŋ˨˦"],
     wbm: ["meeih", "mɯih"],
-    shy: ["axenfuf", "axənfuf"]
+    shy: ["axenfuf", "axənfuf"],
+    kbp: ["mɔɔʋ", "mɔːʊ"],
+    nbl: ["ipumulo", "ipuˈmulo"],
+    sus: ["ɲɔɛ", "ɲɔɛ"],
+    dag: ["nyee", "ɲeː"],
+    ksw: ["နါဒ့", "nade"],
+    pwo: ["နၫ", "na"],
+    lis: ["na-khu", "nɑ˦˦kʰu˦˦"],
+    brx: ["गन्थं", "ɡontʰoŋ"],
+    ve: ["ningo", "niŋo"],
+    zne: ["ho", "ho"],
+    dnj: ["yun", "jun"],
+    fan: ["dzu", "dzu"],
+    ndc: ["miro", "miro"],
+    tmh: ["ⵜⵉⵏⵛⴰⵔ", "tinʃar"],
+    grt: ["gingting", "ɡiŋtiŋ"]
   },
 };

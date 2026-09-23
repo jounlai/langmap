@@ -982,6 +982,20 @@ WORDS.stone = {
     ii: ["ꇓ", "lu˧˧"],
     wbm: ["simaox", "simauʔ"],
     sid: ["kincho", "kintʃo"],
-    aa: ["xáa", "ɖaː"]
+    aa: ["xáa", "ɖaː"],
+    dag: ["kuɣili", "kuɣili"],
+    ksw: ["လၢၢ်", "lɛ"],
+    pwo: ["လိး", "loɴ"],
+    hni: ["haqluv", "xa˧˩lu˧˧"],
+    lis: ["lo-tshi", "lo˦˦tsʰɿ˧˥"],
+    brx: ["अन्थाइ", "ontʰai"],
+    dnj: ["gwʌ", "ɡwʌ"],
+    srr: ["ɓil", "ɓil"],
+    rhg: ["fattór", "fatːɔr"],
+    drs: ["kinjo", "kindʒo"],
+    tmh: ["ⵜⵀⵓⵏⵜ", "təhunt"],
+    grt: ["ro·ong", "roʔoŋ"],
+    kjp: ["လုံႋ", "lōʊɴ"],
+    mtq: ["khũ", "kʰu"]
   },
 };

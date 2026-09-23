@@ -1147,6 +1147,10 @@ WORDS.white = {
     ii: ["ꀊꐎ", "a˧˧tɕʰu˧˧"],
     kfy: ["धौलो", "dʱɔulo"],
     brh: ["پیون", "piuːn"],
-    lmn: ["धोलो", "dʱolo"]
+    lmn: ["धोलो", "dʱolo"],
+    hni: ["piul", "pʰju˥˥"],
+    lis: ["phu", "pʰu˦˦"],
+    drs: ["golalo", "ɡolalo"],
+    ljp: ["handak", "handak"]
   },
 };

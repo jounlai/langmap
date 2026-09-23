@@ -335,6 +335,10 @@ WORDS.chocolate = {
     pms: ["cicolata", "tʃikuˈlata"],
     jam: ["chaklit", "tʃaklɪt"],
     tpi: ["soklet", "soklet"],
-    srn: ["syokola", "ʃokola"]
+    srn: ["syokola", "ʃokola"],
+    ja_kyo: ["チョコレート", "tɕokoɾeːto"],
+    sco: ["chocolate", "ˈtʃɔkəlɪt"],
+    sc: ["ciculata", "tʃikuˈlata"],
+    kbd: ["шоколад", "ʃokolad"]
   }
 };

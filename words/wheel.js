@@ -827,6 +827,15 @@ WORDS.wheel = {
     hmn: ["log", "lɔ˧˩"],
     sdh: ["چەرخ", "tʃæɾx"],
     brh: ["چرخ", "tʃarx"],
-    sid: ["qale", "kʼale"]
+    sid: ["qale", "kʼale"],
+    ksw: ["လ့ၣ်ဖံဘၣ်", "lepʰiba"],
+    pwo: ["လဲၪ့ပၪ", "laiɴ pa"],
+    khg: ["འཁོར་ལོ", "kʰorlo"],
+    mni: ["ꯀꯥꯡꯈꯣꯡ", "kaŋkʰoŋ"],
+    brx: ["साखा", "sakʰa"],
+    kbp: ["pɔbɔɖɛ", "pɔbɔɖɛ"],
+    rgn: ["rôda", "ˈroːda"],
+    ljp: ["ruda", "ʁuda"],
+    grt: ["chaka", "tʃaka"]
   },
 };

@@ -1000,6 +1000,7 @@ WORDS.daughter = {
     bal: ["جنک", "dʒanikk"],
     syl: ["ফুড়ি", "fuɽi"],
     bhb: ["छोरी", "tʃʰoːɾiː"],
-    rkt: ["বেটি", "beʈi"]
+    rkt: ["বেটি", "beʈi"],
+    sat: ["ᱦᱚᱯᱚᱱ ᱮᱨᱟ", "hɔpɔn era"]
   },
 };

@@ -445,6 +445,16 @@ WORDS.butterfly = {
     ja_hak: ["蝶", "tɕoː"],
     ja_kyo: ["蝶", "tɕoː"],
     ja_hir: ["蝶", "tɕoː"],
-    jvn: ["kupu", "kupu"]
+    jvn: ["kupu", "kupu"],
+    zh_lz: ["叶蝶子", "jə˩˧ tiɛ˥˧ tsɨ"],
+    wuu_nb: ["蝴蝶", "ɦu˨˩˧ diɪʔ˩˨"],
+    wuu_sz: ["蝴蝶", "ɦəu˨˨˧ diɪʔ˧"],
+    nan_qz: ["尾蝶", "bə˥˥ iaʔ˨˦"],
+    kln: ["taburburiet", "taburburiet"],
+    ja_osa: ["蝶", "tɕoː"],
+    ko_bus: ["나비", "nabi"],
+    ko_jl: ["나비", "nabi"],
+    mn_cn: ["ᠡᠷᠪᠡᠬᠡᠢ", "erweːxei"],
+    mad: ["ghâpper", "ɡʱɤppər"]
   },
 };

@@ -1040,5 +1040,7 @@ WORDS.earth = {
     // (ri, lung, shing, nga) — the Tibetan ས་ would be an inferred spelling.
     tsj: ["sa", "sa"],
     mhy: ["taneʔ", "taneʔ"],
+    nan_hai: ["土", "hɔu˨˩"],
+    kln: ["ng'ung'unyek", "ŋuŋuɲek"]
   },
 };

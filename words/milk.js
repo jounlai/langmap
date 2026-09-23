@@ -844,6 +844,15 @@ WORDS.milk = {
     uby: ["čʰʲa", "tʃʰʲa"],
     rap: ["ū", "uː"],
     tiv: ["atumba", "atumba"],
-    zh_jh: ["牛奶", "liəɯ˧˥ lɛ˨˩˦"]
+    zh_jh: ["牛奶", "liəɯ˧˥ lɛ˨˩˦"],
+    cnp: ["牛奶", "ȵɐu˨˩ nai˨˦"],
+    wuu_nb: ["牛奶", "ȵiʏ˨˩˧ na˩˩˧"],
+    wuu_sz: ["牛奶", "ȵiʏ˨˨˧ na˨˧˩"],
+    wuu_wz: ["牛奶", "ŋau˧˩ na˧˦"],
+    nan_hai: ["牛奶", "ku˨˩ nai˨˩˧"],
+    kln: ["chego", "tʃeɡo"],
+    mn_cn: ["ᠰᠦᠨ", "syː"],
+    mad: ["susu", "susu"],
+    qu: ["lichi", "ˈlitʃi"]
   },
 };

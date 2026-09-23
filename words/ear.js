@@ -1065,6 +1065,7 @@ WORDS.ear = {
     kdt: ["katɔr", "kətɔr"],
     dbl: ["munga", "ˈmuŋa"],
     yap: ["teel", "teːl"],
-    kmh: ["tmd", "təməd"]
+    kmh: ["tmd", "təməd"],
+    kln: ["itit", "itit"]
   },
 };

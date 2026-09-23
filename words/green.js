@@ -500,6 +500,17 @@ WORDS.green = {
     ja_hak: ["緑", "midoɾi"],
     ja_hir: ["緑", "midoɾi"],
     wuu_hz: ["绿", "loʔ˩˨"],
-    wuu_jx: ["绿", "loʔ˩˨"]
+    wuu_jx: ["绿", "loʔ˩˨"],
+    zh_lz: ["绿", "lu˩˧"],
+    wuu_nb: ["绿", "loʔ˩˨"],
+    wuu_sz: ["绿", "loʔ˧"],
+    wuu_wz: ["绿", "lo˨˩˧"],
+    nan_hai: ["绿", "liak˨˨"],
+    ja_osa: ["緑", "midoɾi"],
+    tk: ["ýaşyl", "jɑːˈʃɯl"],
+    mn_cn: ["ᠨᠣᠭᠤᠭᠠᠨ", "nɔɡɔːŋ"],
+    th_n: ["เขียว", "kʰiaw˩˧"],
+    th_s: ["เขียว", "kʰiaw˩˧"],
+    sat: ["ᱦᱟᱹᱨᱭᱟᱹᱲ", "hərijəɽ"]
   }
 };

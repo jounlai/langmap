@@ -937,6 +937,7 @@ WORDS.bird = {
     enf: ["chida sama", "tʃida sama"],
     agr: ["pishak", "piʃak"],
     trv: ["qbhni", "qbhəni"],
-    ctg: ["ফাকি", "faki"]
+    ctg: ["ফাকি", "faki"],
+    kln: ["taritiet", "taritiet"]
   },
 };

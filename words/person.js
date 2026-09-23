@@ -568,6 +568,21 @@ WORDS.person = {
     en_yk: ["person", "ˈpɜːsən"],
     en_ck: ["person", "ˈpɜːsən"],
     en_scouse: ["person", "ˈpɜːsən"],
-    nan_pn: ["人", "laŋ˨˨"]
+    nan_pn: ["人", "laŋ˨˨"],
+    zh_lz: ["人", "ʐən˥˧"],
+    wuu_nb: ["人", "ȵin˨˩˧"],
+    wuu_sz: ["人", "ȵin˨˨˧"],
+    wuu_wz: ["侬", "naŋ˧˩"],
+    nan_qz: ["人", "laŋ˨˦"],
+    nan_hai: ["侬", "naŋ˨˩"],
+    kln: ["chiito", "tʃiːto"],
+    ja_osa: ["人", "çito"],
+    mn_cn: ["ᠬᠦᠮᠦᠨ", "xuŋ"],
+    th_n: ["คน", "kʰon˧"],
+    th_s: ["คน", "kʰon˥"],
+    sat: ["ᱦᱚᱲ", "hɔɽ"],
+    anp: ["आदमी", "aːdmiː"],
+    gn: ["yvypóra", "ɨʋɨˈpoɾa"],
+    qu: ["runa", "ˈɾuna"]
   }
 };

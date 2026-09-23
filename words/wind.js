@@ -926,6 +926,9 @@ WORDS.wind = {
     dbq: ["mit", "mit"],
     ctg: ["বাতাস", "batas"],
     bhb: ["वायरो", "ʋaːjɾo"],
-    rkt: ["বাতাস", "batas"]
+    rkt: ["বাতাস", "batas"],
+    kln: ["usoonet", "usoːnet"],
+    anp: ["हवा", "ɦəʋaː"],
+    kri: ["briz", "briz"]
   },
 };

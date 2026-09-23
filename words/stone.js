@@ -959,6 +959,12 @@ WORDS.stone = {
     cdo: ["石", "suoʔ˥"],
     mnp: ["石", "tsiɔ˥˥"],
     ctg: ["ফাত্যোর", "fatːɔr"],
-    bhb: ["भाटो", "bʱaːʈo"]
+    bhb: ["भाटो", "bʱaːʈo"],
+    cnp: ["石头", "siɐk˨ tɐu˨˩"],
+    zh_lz: ["石头", "ʂɨ˥˧ tʰəu˥˧"],
+    wuu_nb: ["石头", "zɐʔ˩˨ dɤu"],
+    wuu_sz: ["石头", "zɐʔ˧ dɤ˨˨˧"],
+    wuu_wz: ["石头", "zei˨˩˧ dau˧˩"],
+    kln: ["koita", "koita"]
   },
 };

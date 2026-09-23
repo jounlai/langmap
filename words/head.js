@@ -636,6 +636,19 @@ WORDS.head = {
     ja_hir: ["頭", "atama"],
     jvn: ["sirah", "sirah"],
     hak_hl: ["頭那", "tʰeu˥˥ na˥˥"],
-    wuu_hz: ["头", "dei˩˧"]
+    wuu_hz: ["头", "dei˩˧"],
+    cnp: ["头", "tɐu˨˩"],
+    zh_lz: ["头", "tʰəu˥˧"],
+    wuu_nb: ["头", "dɤu˨˩˧"],
+    wuu_sz: ["头", "dɤ˨˨˧"],
+    kln: ["metit", "metit"],
+    ja_osa: ["頭", "atama"],
+    mn_cn: ["ᠲᠣᠯᠤᠭᠠᠢ", "tɔlɡɔi"],
+    th_n: ["หัว", "hua˩˧"],
+    th_s: ["หัว", "hua˩˧"],
+    anp: ["माथा", "maːtʰaː"],
+    kri: ["ed", "ed"],
+    gn: ["akã", "aˈkã"],
+    qu: ["uma", "ˈuma"]
   },
 };

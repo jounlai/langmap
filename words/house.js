@@ -1114,7 +1114,7 @@ WORDS.house = {
     gor: ["bele", "ˈbele"],
     mak: ["ballaʼ", "ˈballaʔ"],
     fon: ["xwé", "xʷé"],
-    kri: ["os", "ɔs"],
+    kri: ["os", "os"],
     dag: ["yili", "jili"],
     xog: ["enju", "eɲɟu"],
     teo: ["etogo", "etoɡo"],

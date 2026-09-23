@@ -632,6 +632,19 @@ WORDS.mouth = {
     de_ch: ["Mund", "mʊnt"],
     en_yk: ["mouth", "maʊθ"],
     en_scouse: ["mouth", "maʊθ"],
-    wuu_jx: ["嘴", "tsz̩˧˩˧"]
+    wuu_jx: ["嘴", "tsz̩˧˩˧"],
+    cnp: ["口", "hɐu˧˧"],
+    zh_lz: ["嘴", "tswei˦˦˨"],
+    wuu_sz: ["嘴", "tsʮ˥˩"],
+    wuu_wz: ["嘴", "tsɿ˧˥"],
+    nan_hai: ["喙", "sui˨˩"],
+    kln: ["kutit", "kutit"],
+    mn_cn: ["ᠠᠮᠠ", "am"],
+    th_n: ["ปาก", "paːk˨˩"],
+    th_s: ["ปาก", "paːk˨˩"],
+    sat: ["ᱢᱚᱪᱟ", "mɔtʃa"],
+    anp: ["मुँह", "mũːɦ"],
+    kri: ["mɔt", "mɔt"],
+    qu: ["simi", "ˈsimi"]
   }
 };

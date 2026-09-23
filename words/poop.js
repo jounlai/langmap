@@ -437,6 +437,15 @@ WORDS.poop = {
     st: ["masepa", "masepa"],
     bm: ["bo", "bo"],
     sn: ["tsvina", "tsvina"],
-    dyu: ["bo", "bo"]
+    dyu: ["bo", "bo"],
+    cnp: ["屎", "si˧˧"],
+    kln: ["ng'atatek", "ŋatatek"],
+    tt: ["тизәк", "tiˈzæk"],
+    mn_cn: ["ᠪᠠᠭᠠᠰᠤ", "paːs"],
+    mad: ["taè", "taɛ"],
+    min: ["cirik", "tʃiɾiʔ"],
+    sat: ["ᱤᱡ", "iʔ"],
+    anp: ["पखाना", "pəkʰaːnaː"],
+    kri: ["kaka", "kaˈka"]
   },
 };

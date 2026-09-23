@@ -787,6 +787,15 @@ WORDS.black = {
     nl_be: ["zwart", "zwɑrt"],
     zh_jn: ["黑", "xei˨˩˧"],
     zh_xa: ["黑", "xei˨˩"],
-    zh_kf: ["黑", "xei˨˦"]
+    zh_kf: ["黑", "xei˨˦"],
+    cnp: ["黑", "hɐk˨"],
+    zh_lz: ["黑", "xə˩˧"],
+    wuu_nb: ["黑", "hɐʔ˥˥"],
+    wuu_sz: ["黑", "həʔ˥"],
+    wuu_wz: ["黑", "he˧˩˧"],
+    nan_hai: ["乌", "ɔu˨˦"],
+    kln: ["tuui", "tuːi"],
+    mn_cn: ["ᠬᠠᠷ᠎ᠠ", "xar"],
+    anp: ["करिया", "kərijaː"]
   },
 };

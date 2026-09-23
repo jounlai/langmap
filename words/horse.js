@@ -533,6 +533,19 @@ WORDS.horse = {
     ko_yb: ["말", "mal"],
     jvn: ["jaran", "dʒaran"],
     en_scouse: ["horse", "hɔːs"],
-    ko_hg: ["말", "mal"]
+    ko_hg: ["말", "mal"],
+    cnp: ["马", "ma˨˦"],
+    zh_lz: ["马", "ma˦˦˨"],
+    wuu_nb: ["马", "ma˩˩˧"],
+    wuu_sz: ["马", "mo˨˧˩"],
+    kln: ["mbartanyit", "mbartaɲit"],
+    ja_osa: ["馬", "ɯma"],
+    ko_bus: ["말", "mal"],
+    ko_jl: ["말", "mal"],
+    th_n: ["ม้า", "maː˦˥"],
+    th_s: ["ม้า", "maː˧˥"],
+    mad: ["jhârân", "dʒʱɤrɤn"],
+    sat: ["ᱥᱟᱫᱚᱢ", "sadɔm"],
+    kri: ["ɔs", "ɔs"]
   }
 };

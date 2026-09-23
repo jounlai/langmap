@@ -909,6 +909,8 @@ WORDS.egg = {
     ctg: ["আন্ডা", "anɖa"],
     bhb: ["इंडुं", "inɖũ"],
     rkt: ["ডিমা", "ɖima"],
-    dyu: ["sisɛfan", "sisɛfã"]
+    dyu: ["sisɛfan", "sisɛfã"],
+    cnp: ["鸡蛋", "kɐi˥˦ tan˨"],
+    kln: ["mayaiyat", "majaijat"]
   },
 };

@@ -841,6 +841,14 @@ WORDS.iron = {
     bhb: ["लोहा", "loːhaː"],
     rkt: ["লুহা", "luha"],
     wo: ["weñ", "weɲ"],
-    dyu: ["nɛgɛ", "nɛɡɛ"]
+    dyu: ["nɛgɛ", "nɛɡɛ"],
+    zh_lz: ["铁", "tʰiɛ˩˧"],
+    nan_qz: ["鐵", "tʰiʔ˥"],
+    kln: ["karnet", "karnet"],
+    th_n: ["เหล็ก", "lek˨˩"],
+    th_s: ["เหล็ก", "lek˨˩"],
+    kri: ["ayɛn", "ˈajɛn"],
+    gn: ["itakandua", "itakanˈdua"],
+    qu: ["qʼillay", "ˈqʼiʎaj"]
   },
 };

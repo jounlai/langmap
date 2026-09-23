@@ -856,6 +856,8 @@ WORDS.snow = {
     ln: ["neje", "neʒe"],
     bm: ["nɛzi", "nɛzi"],
     sn: ["sinoo", "sinoː"],
-    dyu: ["nɛzi", "nɛzi"]
+    dyu: ["nɛzi", "nɛzi"],
+    kln: ["teluchi", "telutʃi"],
+    kri: ["sno", "sno"]
   },
 };

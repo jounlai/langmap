@@ -830,6 +830,11 @@ WORDS.honey = {
     rkt: ["মধু", "modʱu"],
     tn: ["tswina", "tswina"],
     st: ["mahe a dinotshi", "mahe a dinotsʰi"],
-    nan_pn: ["蜂蜜", "pʰaŋ˧˧ bit˥˥"]
+    nan_pn: ["蜂蜜", "pʰaŋ˧˧ bit˥˥"],
+    cnp: ["蜂蜜", "føŋ˥˦ mɐt˨˦"],
+    kln: ["kumyat", "kumjat"],
+    sat: ["ᱧᱮᱞᱮ ᱨᱟᱥᱟ", "ɲele rasa"],
+    anp: ["शहद", "ʃəɦəd"],
+    kri: ["ɔni", "ˈɔni"]
   },
 };

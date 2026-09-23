@@ -486,6 +486,21 @@ WORDS.mountain = {
     zh_jn: ["山", "ʂan˨˩˧"],
     wuu_jx: ["山", "sɛ˥˧"],
     zh_cd: ["山", "san˥˥"],
-    zh_nj: ["山", "ʂan˧˩"]
+    zh_nj: ["山", "ʂan˧˩"],
+    cnp: ["山", "san˥˦"],
+    zh_lz: ["山", "ʂɛn˧˩"],
+    wuu_nb: ["山", "sɛ˥˧"],
+    wuu_sz: ["山", "sᴇ˦˦"],
+    wuu_wz: ["山", "sa˧˧"],
+    nan_hai: ["山", "saŋ˨˦"],
+    kln: ["tulwet", "tulwet"],
+    ja_osa: ["山", "jama"],
+    th_n: ["ดอย", "dɔːj˧"],
+    th_s: ["ภูเขา", "pʰuː˥kʰaw˩˧"],
+    mad: ["ghunong", "ɡʱunɔŋ"],
+    sat: ["ᱵᱩᱨᱩ", "buru"],
+    anp: ["पहाड़", "pəɦaːɽ"],
+    kri: ["mawnten", "ˈmawnten"],
+    qu: ["urqu", "ˈuɾqu"]
   }
 };

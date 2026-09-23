@@ -814,6 +814,7 @@ WORDS.wheel = {
     bal: ["پرگ", "parraɡ"],
     rkt: ["চাকা", "tʃaka"],
     dyu: ["mɔbilisen", "mɔbilisen"],
-    jvn: ["rodha", "rɔɖɔ"]
+    jvn: ["rodha", "rɔɖɔ"],
+    bo: ["འཁོར་ལོ", "kʰorlo˥"]
   },
 };

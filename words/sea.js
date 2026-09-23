@@ -478,6 +478,21 @@ WORDS.sea = {
     zh_km: ["海", "xai˥˧"],
     zh_xa: ["海", "xai˥˧"],
     zh_cd: ["海", "xai˥˧"],
-    zh_kf: ["海", "xai˥˧"]
+    zh_kf: ["海", "xai˥˧"],
+    cnp: ["海", "hai˧˧"],
+    zh_lz: ["海", "xɛ˦˦˨"],
+    wuu_nb: ["海", "he˧˨˥"],
+    wuu_sz: ["海", "hᴇ˥˩"],
+    wuu_wz: ["海", "he˧˥"],
+    kln: ["nyanjet", "ɲandʒet"],
+    ja_osa: ["海", "umi"],
+    mn_cn: ["ᠳᠠᠯᠠᠢ", "tɑlɑi"],
+    th_n: ["ทะเล", "tʰa˦˥leː˧"],
+    th_s: ["ทะเล", "tʰa˧˥leː˥"],
+    sat: ["ᱫᱚᱨᱭᱟ", "dɔrja"],
+    anp: ["समुन्दर", "səmundər"],
+    kri: ["si", "si"],
+    gn: ["para", "paˈɾa"],
+    qu: ["mama qucha", "mama ˈqutʃa"]
   }
 };

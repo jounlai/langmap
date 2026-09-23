@@ -854,6 +854,19 @@ WORDS.hundred = {
     rkt: ["একশ", "ekso"],
     ff: ["teemedere", "teːmedeɾe"],
     ko_yb: ["백", "pɛk̚"],
-    ko_hg: ["백", "pɛk̚"]
+    ko_hg: ["백", "pɛk̚"],
+    cnp: ["百", "pak˨"],
+    zh_lz: ["百", "pə˩˧"],
+    wuu_wz: ["百", "pa˧˩˧"],
+    kln: ["bogol", "boɡol"],
+    ja_osa: ["百", "hʲakɯ"],
+    ko_bus: ["백", "pɛk̚"],
+    ko_jl: ["백", "pɛk̚"],
+    mn_cn: ["ᠵᠠᠭᠤ", "tsuː"],
+    th_n: ["ฮ้อย", "hɔːj˦˥"],
+    th_s: ["ร้อย", "rɔːj˧˥"],
+    anp: ["सौ", "sɔː"],
+    kri: ["ɔndrɛd", "ˈɔndrɛd"],
+    gn: ["sa", "sa"]
   },
 };

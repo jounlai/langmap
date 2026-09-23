@@ -144,6 +144,47 @@
         <nav class="month-nav">Months: <strong>2026-09</strong> · <a href="changelog-202608.html">2026-08</a> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
 
         <div class="entry">
+            <div class="date">2026-09-23 — Half the reference library was on the shelf and the catalogue could not see it 📚</div>
+            <ul>
+                <li><strong>The map has 1,188 languages and 86 words, and a great many of those boxes are still empty.</strong> Filling them by hand, one web search at a time, buys about one word an hour — which is not a rate at which the gaps ever close. So the work this week has been to build something faster and then to find out, repeatedly, where it lies.</li>
+                <li><strong>A tool now learns how each language spells itself, from that language’s own entries.</strong> If a row writes <em>sh</em> where it says ʃ in six words, that is a rule, and it can be applied to a seventh. If the row spells one letter two different ways, the tool refuses to guess rather than picking the commoner one. It turned a slow manual job into a fast mechanical one — and then five reviewers checked its output and threw away nearly all of it, for reasons that had nothing to do with spelling.</li>
+                <li><strong>The reason is that a comparative database can be confident about the wrong language.</strong> A word list filed under “Meru” turns out to describe a Tanzanian language, not the Kenyan one of the same name; the only list filed under “Nùng” is from Guangxi, not Vietnam; one database holds fourteen separate Lampung word lists under a single code and none of them matches the entry here. Every one of those was caught the same way — by taking words the map already had and checking whether the source agreed about them.</li>
+                <li><strong>Some sources file one word under two meanings that cannot both be right.</strong> The same string appears under “blue” and “green” for Taa, under “tree” and “mountain” for Huave, and as “three”, “four” and “five” alike for Hadza. A Marshallese list gives the word for “head” as the word for “pillow”. A Rukai list files the word for “salt” under “sea”. None of that is visible from the word itself; it only shows up when you check it against everything else in the same row.</li>
+                <li><strong>The bigger embarrassment was our own.</strong> The library of comparative databases on this machine had been built up over months by different passes, each of which named its files slightly differently. The tools looked for one of those naming patterns and quietly ignored the other two — so 38 of 89 databases were invisible, including the Austronesian Comparative Dictionary and a large African survey. Nothing reported an error, because a file that is skipped silently looks exactly like a file that was never downloaded. Fixing it, and adding three more databases, took the reach from 328 languages to 515.</li>
+                <li><strong>One of those additions matters for a specific gap.</strong> “Silk” was the map’s second-emptiest word and no source on hand carried it at all; it is now reachable in 124 languages. “Chocolate”, the emptiest, is carried by none of the 89 — comparative word lists collect ancient vocabulary, and chocolate is a sixteenth-century arrival. That one still has to be done by hand.</li>
+                <li><strong>Where a regional variety genuinely says the same thing as its parent, it can now say so safely.</strong> Uruguayan Spanish matches Argentine Spanish in all 75 words they share; Senegalese French matches French in 73 of 73. A new check works out which sounds a variety is ever recorded as changing, and copies a word only if that word contains none of them — so Guatemalan Spanish, which turns one sound into another in all seven words containing it, gets the four words that do not contain it. Thirty-seven varieties were refused outright, including the Caribbean ones, where the change depends on where a sound falls in the word rather than on which sound it is.</li>
+                <li><strong>665 words were added today.</strong> Every one was read before it went in, and the notes on what was rejected are longer than the list of what was kept.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-22 — A page for every word, and the map got 20% lighter on the way 🔤</div>
+            <ul>
+                <li><strong>Each word now has its own page, because the word is the thing people actually share.</strong> Sending someone the whole map and telling them to find “water” was never going to work. Each page lists every language that has the word, with a flag, grouped by part of the world rather than by language family — families are what linguists sort by, and almost nobody else.</li>
+                <li><strong>Biggest languages first.</strong> A reader looking up a word wants the languages they have heard of near the top, so the pages now lead with those and put the rest in geographical order after them. Regional varieties sit beside the language they belong to instead of scattered alphabetically, and the heavy underlines are gone.</li>
+                <li><strong>Ancient languages go last, and in order.</strong> They had been appearing in no particular sequence at all; they are now placed at the end and sorted by date, so Hittite comes before Latin. Each one that belongs to a single modern country now shows that country’s flag.</li>
+                <li><strong>Tibetan had no Tibetan font, and Mongolian was lying on its side.</strong> Both are fixed. Mongolian and Manchu are written vertically and were being rendered as if they were not.</li>
+                <li><strong>A language with its own international code now gets its own card.</strong> German regional speech was being treated as dialect while Italian regional speech was treated as separate languages — the same situation handled two opposite ways. It is now consistent.</li>
+                <li><strong>The site got substantially smaller.</strong> Pages are now pre-compressed at the highest setting rather than compressed on demand at a low one: the main map went from 698 KB to 556 KB on first load, and the word pages dropped by 89%. No source code or comments were removed to achieve it — compression handles those for free.</li>
+                <li><strong>Phones had been stuck on old data.</strong> Word data was being requested with a version number that never changed, so a correction made here would never reach a device that had already loaded the page once. It now changes whenever the data does.</li>
+                <li><strong>Sharing a word to Facebook always opened “water”.</strong> Whichever word you shared, the link went to the same place.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-21 — Chocolate went east by sea, and the map was prescribing a spelling nobody uses 🍫</div>
+            <ul>
+                <li><strong>Indonesian for chocolate is <em>coklat</em>.</strong> The map had the form the official dictionary prescribes, which is not the form the country writes. The everyday word is what this atlas is for.</li>
+                <li><strong>Hokkien took the word off the Nanyang trade routes rather than from Europe.</strong> Taiwanese later swapped it for a different borrowing, so the two now differ — which is the kind of thing a map of words is supposed to show.</li>
+                <li><strong>Forty-seven languages were checked for chocolate and deliberately left empty.</strong> Having no word is a fact about a language, and guessing a plausible loan would have hidden it.</li>
+                <li><strong>Laos had a gap that turned out to be historical.</strong> The word arrived by a French route and then changed carrier, and the entry now reflects that rather than the simpler story.</li>
+                <li><strong>Half of a consistency check had never actually run.</strong> The part that tests the short, stopped tones of Chinese varieties was written but never reached. It runs now.</li>
+                <li><strong>The 3D globe is no longer sent to readers who never open it.</strong> It was being downloaded by everyone and used by few.</li>
+                <li><strong>The comparison table printed every language’s native name twice.</strong></li>
+            </ul>
+        </div>
+
+        <div class="entry">
             <div class="date">2026-09-20 — A source that does not exist, and eleven Pyu words that were never written down 📜</div>
             <ul>
                 <li><strong>Thirteen entries for Pyu — a language of ancient Burma, extinct for eight hundred years — cited a book that has never been published.</strong> The citation named a scholar who does work on Pyu and a year in which he published nothing about its vocabulary. It had been written once and then copied to twelve more entries, and every one of them was marked as directly attested.</li>

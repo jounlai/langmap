@@ -553,6 +553,22 @@ s = run('tone_policy_check.js --check');
 s = run('stress_mark_check.js --check');
 line('stress mark on monosyllables', num(s, /violations: (\d+)/));
 
+// One sound written two ways inside a single row. The IPA field has no
+// declared depth and the rows were filled by different passes from different
+// sources, so both directions happen: Truku wrote the rhotic as a trill in
+// ten cells and a tap in two (the MAJORITY was wrong — Truku /r/ is a tap),
+// and Irish writes the slender velar as c, as ɟ and as kʲ while marking broad
+// consonants in 38 of 85 cells. Budgeted rather than zeroed because each case
+// needs the literature for that language: normalising to the commoner form
+// would have made ten Truku cells wrong instead of two.
+const SPLIT_NOTATION_DEBT = 340;
+s = run('ipa_notation_check.js --check');
+{
+    const n = num(s, /violations: (\d+)/);
+    line('one sound, two notations', n > SPLIT_NOTATION_DEBT ? n - SPLIT_NOTATION_DEBT : 0,
+        n + ' rows, budget ' + SPLIT_NOTATION_DEBT);
+}
+
 // ASCII g standing in for IPA ɡ. Reported only where the cell proves it is
 // IPA, because Wylie, Sumerological transcription and PIE all write ASCII g.
 s = run('ipa_ascii_g_check.js --check');

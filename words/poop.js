@@ -552,6 +552,7 @@ WORDS.poop = {
     mnw: ["အိက်", "ʔoik"],
     kjp: ["အှ်ေ", "ʔí̱"],
     mtq: ["é", "ɛ"],
-    tyz: ["khỉ", "kʰi˨˩˧"]
+    tyz: ["khỉ", "kʰi˨˩˧"],
+    bom: ["beviŋ", "beviŋ"]
   },
 };

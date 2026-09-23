@@ -537,6 +537,7 @@ WORDS.butterfly = {
     mnw: ["ကၠော်ဂလာ", "kəlok həlɛ̀a"],
     mtq: ["pươm pưởm", "pɨəm pɨəm"],
     tyz: ["bỉ", "ɓi˨˩˧"],
-    ja_kg: ["ちょちょ", "tɕotɕo"]
+    ja_kg: ["ちょちょ", "tɕotɕo"],
+    bom: ["tangapurus", "taŋɡapurus"]
   },
 };

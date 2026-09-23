@@ -836,6 +836,7 @@ WORDS.wheel = {
     kbp: ["pɔbɔɖɛ", "pɔbɔɖɛ"],
     rgn: ["rôda", "ˈroːda"],
     ljp: ["ruda", "ʁuda"],
-    grt: ["chaka", "tʃaka"]
+    grt: ["chaka", "tʃaka"],
+    bom: ["hara", "hara"]
   },
 };

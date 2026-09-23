@@ -1081,6 +1081,7 @@ WORDS.ear = {
     lis: ["na-po", "nɑ˦˦po˦˦"],
     bxk: ["liiru", "liːru"],
     zne: ["tue", "tue"],
-    mnw: ["က္တောဝ်", "kəto"]
+    mnw: ["က္တောဝ်", "kəto"],
+    bom: ["fwoŋ", "fwoŋ"]
   },
 };

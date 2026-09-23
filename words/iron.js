@@ -893,6 +893,8 @@ WORDS.iron = {
     mnw: ["ပသဲ", "pəsoa"],
     kjp: ["ထာ", "tʰà"],
     tyz: ["lếch", "lek˥"],
-    nut: ["lích", "lik˥"]
+    nut: ["lích", "lik˥"],
+    ada: ["dade", "dade"],
+    bom: ["dyam", "dʲam"]
   },
 };

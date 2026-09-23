@@ -600,6 +600,7 @@ WORDS.sea = {
     mtq: ["pế", "pe"],
     tyz: ["pé", "pɛ˧˥"],
     nut: ["hải", "haːj˨˩˧"],
-    ja_kg: ["海", "ɯmi"]
+    ja_kg: ["海", "ɯmi"],
+    ada: ["wo", "wo"]
   }
 };

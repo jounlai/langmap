@@ -902,6 +902,8 @@ WORDS.honey = {
     mnw: ["ဍာ်သာဲ", "ɗaʔ sai"],
     mtq: ["mêch ong", "mec ɔŋ"],
     tyz: ["thương phjẩng", "tʰɨəŋ˧˧ fjəŋ˨˩˧"],
-    ja_kg: ["蜂蜜", "hatɕimitsɯ"]
+    ja_kg: ["蜂蜜", "hatɕimitsɯ"],
+    ada: ["hwo", "hwo"],
+    bom: ["shok", "ʃok"]
   },
 };

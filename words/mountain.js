@@ -606,6 +606,7 @@ WORDS.mountain = {
     mtq: ["tồl", "tol"],
     tyz: ["pù", "pu˨˩"],
     nut: ["phja", "pʰjaː˧˧"],
-    ja_kg: ["山", "jama"]
+    ja_kg: ["山", "jama"],
+    bom: ["raku", "raku"]
   }
 };

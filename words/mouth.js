@@ -737,6 +737,8 @@ WORDS.mouth = {
     sc: ["bucca", "ˈbukka"],
     ljp: ["banguk", "baŋuk"],
     tyz: ["pác", "paːk˥"],
-    nut: ["pác", "paːk˥"]
+    nut: ["pác", "paːk˥"],
+    ada: ["nya", "ɲa"],
+    bom: ["nu", "nu"]
   }
 };

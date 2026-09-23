@@ -1151,6 +1151,8 @@ WORDS.white = {
     hni: ["piul", "pʰju˥˥"],
     lis: ["phu", "pʰu˦˦"],
     drs: ["golalo", "ɡolalo"],
-    ljp: ["handak", "handak"]
+    ljp: ["handak", "handak"],
+    ada: ["hiɔ", "hiɔ"],
+    bom: ["pɛŋ", "pɛŋ"]
   },
 };

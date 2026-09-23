@@ -410,6 +410,8 @@ WORDS.silk = {
     mnw: ["သုတ်", "sɔt"],
     kjp: ["ထောဝ်ႋ", "tʰʊ̄"],
     tyz: ["phải lụa", "faːj˨˩˧ luə˨˩"],
-    ja_kg: ["絹", "kiɴ"]
+    ja_kg: ["絹", "kiɴ"],
+    ada: ["seda", "seda"],
+    bom: ["silikyi", "silikʲi"]
   }
 };

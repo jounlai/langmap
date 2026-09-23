@@ -990,6 +990,8 @@ WORDS.rain = {
     drs: ["xeena", "tʼeːna"],
     tmh: ["ⴰⴽⵙⴰ", "akəsa"],
     tig: ["ዝለም", "zaləm"],
-    hoc: ["gama", "ɡama"]
+    hoc: ["gama", "ɡama"],
+    ada: ["hiɔmi", "hiɔmi"],
+    bom: ["rwak", "rwak"]
   },
 };

@@ -989,6 +989,7 @@ WORDS.sleep = {
     drs: ["diipha", "diːpʼa"],
     tmh: ["ⴻⴹⵙ", "edˤəs"],
     mnw: ["သ္တိက်", "toik"],
-    kjp: ["မီ့", "mî"]
+    kjp: ["မီ့", "mî"],
+    ada: ["hwɔ mahe", "hwɔ mahe"]
   },
 };

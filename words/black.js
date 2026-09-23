@@ -873,6 +873,8 @@ WORDS.black = {
     iba: ["chelum", "tʃəlum"],
     ljp: ["halom", "halom"],
     mnw: ["လ္စံက်", "kəcɔk"],
-    ja_kg: ["黒か", "kɯɾoka"]
+    ja_kg: ["黒か", "kɯɾoka"],
+    ada: ["yumu", "jumu"],
+    bom: ["si", "si"]
   },
 };

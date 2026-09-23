@@ -630,6 +630,8 @@ WORDS.book = {
     kjp: ["လိက်", "lái"],
     tyz: ["xéc", "sɛk˥"],
     nut: ["xéc", "sɛk˥"],
-    ja_kg: ["本", "hoɴ"]
+    ja_kg: ["本", "hoɴ"],
+    ada: ["womi", "womi"],
+    bom: ["takada", "takada"]
   }
 };

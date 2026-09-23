@@ -658,6 +658,8 @@ WORDS.horse = {
     mtq: ["ngữa", "ŋɨə"],
     tyz: ["mạ", "maː˨˩"],
     nut: ["mạ", "maː˨˩"],
-    ja_kg: ["馬", "ɯma"]
+    ja_kg: ["馬", "ɯma"],
+    ada: ["okpɔŋɔ", "okpɔŋɔ"],
+    bom: ["dwa", "dwa"]
   }
 };

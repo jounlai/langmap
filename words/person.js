@@ -682,6 +682,8 @@ WORDS.person = {
     mtq: ["mõl", "mɔl"],
     tyz: ["cần", "kən˨˩"],
     nut: ["cần", "kən˨˩"],
-    ja_kg: ["人", "çito"]
+    ja_kg: ["人", "çito"],
+    ada: ["nɔmlɔ", "nɔmlɔ"],
+    bom: ["mwat", "mwat"]
   }
 };

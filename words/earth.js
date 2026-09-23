@@ -1064,6 +1064,8 @@ WORDS.earth = {
     lis: ["mi-nae", "mi˦˦nɛ˦˦"],
     seh: ["mataka", "mataka"],
     dnj: ["sɛ", "sɛ"],
-    kjp: ["ၯင်းခေါဟ်", "ɣáɴkʰʊ́"]
+    kjp: ["ၯင်းခေါဟ်", "ɣáɴkʰʊ́"],
+    ada: ["zugba", "zuɡba"],
+    bom: ["vwel", "vwel"]
   },
 };

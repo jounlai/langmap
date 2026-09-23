@@ -921,6 +921,7 @@ WORDS.hundred = {
     unr: ["sae", "sae"],
     mnw: ["ကၠံ", "klɔm"],
     kjp: ["က်ုယာ", "kəjà"],
-    ja_kg: ["百", "çakɯ"]
+    ja_kg: ["百", "çakɯ"],
+    bom: ["naga", "naɡa"]
   },
 };

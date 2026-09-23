@@ -763,6 +763,8 @@ WORDS.new = {
     mtq: ["mởi", "məːj"],
     tyz: ["mấư", "məɯ˧˥"],
     nut: ["máư", "maɯ˧˥"],
-    ja_kg: ["にか", "nika"]
+    ja_kg: ["にか", "nika"],
+    ada: ["he", "he"],
+    bom: ["pas", "pas"]
   },
 };

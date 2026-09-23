@@ -766,6 +766,8 @@ WORDS.head = {
     mtq: ["tlốc", "tlok"],
     tyz: ["hua", "huə˧˧"],
     nut: ["hu", "hu˧˧"],
-    ja_kg: ["びんた", "biɴta"]
+    ja_kg: ["びんた", "biɴta"],
+    ada: ["yi", "ji"],
+    bom: ["rato", "rato"]
   },
 };

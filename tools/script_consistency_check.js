@@ -123,13 +123,17 @@ const MIXED_OK = {
        "en.wiktionary lemmatises it at `coklat` and its own Penang example sentences embed " +
        "the Latin inside Han text (我較合意食烏 coklat). There is no Han candidate, not even a dated one.",
   // --- needs an orthography source before the Latin cells can be converted ---
+  // (yrk, arc, unr, yai and mn_cn were here and are gone on 2026-09-24: all
+  //  five came back clean, which is the list doing what it was built to do.
+  //  yrk's Nenets `earth`, unr's one Devanagari cell, yai's two Cyrillic and
+  //  mn_cn's one Cyrillic were all converted in the rounds since; arc simply
+  //  stopped mixing. The checker reported each as stale before it was removed.)
   // (pal was here and is gone: its three Latin cells were converted from
   //  MacKenzie's Concise Pahlavi Dictionary, pp. 6, 90, 94, on 2026-09-13 —
   //  the first row the list moved off by naming what it needed.)
   blt: "Tai Dam: 6 Latin cells (i, we, snow, stone, wheel, white) among 39 Tai Viet. None of Wiktionary's 255 Tai Dam lemmas, which cite Baccam et al. 1989, glosses them.",
   vai: "Vai: 11 Latin among 29 Vai syllabary; only `three` had an exact sourced spelling in this pass.",
   sel: "Selkup: 4 Latin among 47 Cyrillic.",
-  yrk: "Nenets: `earth` remains Latin because native `я` would collide with the row's suspect `drink=я`; repairing that cell also requires an IPA correction outside this surface-only pass.",
   yuy: "East Yugur: 1 Latin among 39 Cyrillic.",
   ale: "Aleut: 2 Latin among 40 Cyrillic.",
   huz: "Hunzib: 1 Latin among 46 Cyrillic — and see the EXCEPTIONS entry below; the palochka case is separate.",
@@ -139,7 +143,6 @@ const MIXED_OK = {
   kho: "Khotanese: 1 Latin among 30 Brahmi.",
   cop: "Coptic: 3 Greek letters among 55 Coptic — ϭ ϣ are Demotic-derived and may belong; needs a Coptic orthography ruling.",
   onw: "Old Nubian: 1 Greek among 34 Coptic — same question as cop.",
-  arc: "Aramaic: 2 Hebrew among 54 Syriac. Scholarly practice prints Aramaic in Hebrew square script, so this may be correct rather than mixed.",
   oar: "Old Aramaic: 5 Imperial Aramaic among 48 Hebrew — the mirror of arc, and the two rows should be settled together.",
   zkt: "Khitan: 4 Khitan among 19 Latin — the row is mostly Latin transcription because the script is undeciphered.",
   xlu: "Luwian: 8 Anatolian Hieroglyphs among 10 Latin — same shape as zkt.",
@@ -148,16 +151,13 @@ const MIXED_OK = {
   bfq: "Badaga: 3 Tamil among 41 Latin.",
   rhg: "Rohingya: 1 Bengali among 49 Latin.",
   haj: "Hajong: 2 Bengali among 38 Latin.",
-  unr: "Mundari: 1 Devanagari among 45 Latin.",
   pi_edu: "Pali (pedagogical): 1 Devanagari among 58 Latin.",
   xsr: "Sherpa: 1 Devanagari among 50 Tibetan.",
   kry: "Kryts: 6 Cyrillic among 42 Latin.",
-  yai: "Yaghnobi: 2 Cyrillic among 43 Latin.",
   kaa: "Karakalpak: 1 Cyrillic among 59 Latin.",
   enf: "Forest Enets: 1 Cyrillic among 48 Latin.",
   luz: "Southern Luri: 5 Arabic among 41 Latin.",
   qxq: "Qashqai: 6 Arabic among 45 Latin.",
-  mn_cn: "Inner Mongolian: 1 Cyrillic among 54 Mongolian script.",
   yue: "Cantonese: 2 Latin among 66 Han — atsign (at) and the Wi-Fi loan, both written in Latin in Cantonese text.",
   zh: "Mandarin: 1 Latin among 85 Han — the Wi-Fi loan, written in Latin in Chinese text (read wāi-fài).",
   zh_db: "Northeastern Mandarin: 1 Latin among 76 Han — the same Wi-Fi loan as `zh`, and\n         for the same reason. The row only started reporting when round 9 filled nine of\n         its Han cells and settled which script it is in; the Latin cell was always there.",

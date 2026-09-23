@@ -1067,6 +1067,16 @@ WORDS.earth = {
     kjp: ["ၯင်းခေါဟ်", "ɣáɴkʰʊ́"],
     ada: ["zugba", "zuɡba"],
     bom: ["vwel", "vwel"],
-    ahk: ["mi", "mi˥"]
+    ahk: ["mi", "mi˥"],
+    rim: ["irongo", "iɾoŋɡo"],
+    ksb: ["shanga", "ʃaŋɡa"],
+    asu: ["isanga", "isaŋɡa"],
+    izz: ["alị", "alɪ"],
+    urh: ["otọ", "ɔtɔ"],
+    iso: ["otọ", "ɔtɔ"],
+    tll: ["kete", "kete"],
+    bfa: ["kak", "kak"],
+    ng: ["evi", "evi"],
+    lue: ["mavu", "mavu"]
   },
 };

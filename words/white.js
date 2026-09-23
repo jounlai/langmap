@@ -1154,6 +1154,10 @@ WORDS.white = {
     ljp: ["handak", "handak"],
     ada: ["hiɔ", "hiɔ"],
     bom: ["pɛŋ", "pɛŋ"],
-    mixtec: ["kuijin", "kʷihĩ"]
+    mixtec: ["kuijin", "kʷihĩ"],
+    gaa: ["yɛŋ", "jɛŋ"],
+    bfa: ["lokwe", "lokwe"],
+    aja: ["ɣi", "ɣi"],
+    lue: ["chitoma", "tʃitoma"]
   },
 };

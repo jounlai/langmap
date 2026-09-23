@@ -620,6 +620,17 @@ WORDS.sea = {
     dty: ["समुद्र", "səmudɾə"],
     bra: ["सागर", "saːɡar"],
     tly: ["dıyo", "dɨjo"],
-    hak_hl: ["海", "hoi˨˦"]
+    hak_hl: ["海", "hoi˨˦"],
+    ksb: ["bahali", "bahali"],
+    asu: ["bahari", "bahari"],
+    izz: ["eze-ẹnyimu", "eze ɛɲimu"],
+    urh: ["abadi", "abadi"],
+    iso: ["abade", "abade"],
+    gaa: ["ŋshɔ", "ŋʃɔ"],
+    bfa: ["tör na balang", "tɔr na balaŋ"],
+    aja: ["axu", "axu"],
+    loz: ["liwate", "liwate"],
+    ng: ["efuta", "efuta"],
+    lue: ["kalungalwiji", "kaluŋɡalwidʒi"]
   }
 };

@@ -577,6 +577,14 @@ WORDS.poop = {
     os: ["лӕх", "læx"],
     aii: ["ܐܚܪ̈ܐ", "ʔɪxre"],
     psi: ["گوی", "ɡuːi"],
-    tly: ["qü", "ɡy"]
+    tly: ["qü", "ɡy"],
+    ksb: ["mavi", "mavi"],
+    izz: ["nshị", "nʃɪ"],
+    urh: ["isọn", "isɔ̃"],
+    tll: ["tumi", "tumi"],
+    bfa: ["kin", "kin"],
+    ttj: ["amazi", "amazi"],
+    loz: ["ñanda", "ɲanda"],
+    lue: ["tuji", "tudʒi"]
   },
 };

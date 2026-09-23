@@ -1090,6 +1090,10 @@ WORDS.ear = {
     pll: ["hjɔʔ", "hjɔʔ"],
     ahk: ["na baw", "na˨˩bɔ˥"],
     tji: ["engqie", "ən˨˩tɕʰie˧˥"],
-    psi: ["کن", "kan"]
+    psi: ["کن", "kan"],
+    asu: ["isikio", "isikio"],
+    bfa: ["swot", "swot"],
+    aja: ["eto", "eto"],
+    lue: ["litwitwi", "litwitwi"]
   },
 };

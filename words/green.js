@@ -609,6 +609,9 @@ WORDS.green = {
     quy: ["qumir", "qumiɾ"],
     bra: ["हरौ", "ɦəraʊ"],
     tly: ["kavu", "kavu"],
-    hak_hl: ["青", "tsʰiaŋ˥˧"]
+    hak_hl: ["青", "tsʰiaŋ˥˧"],
+    ksb: ["manimani", "manimani"],
+    bfa: ["loŋem", "loŋem"],
+    loz: ["tala", "tala"]
   }
 };

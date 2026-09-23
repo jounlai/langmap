@@ -963,6 +963,13 @@ WORDS.egg = {
     lhu: ["ɔ̀-u", "ɔ̀u"],
     ahk: ["uq", "ṵ˧"],
     tji: ["alie", "a˥˥lie˥˥"],
-    psi: ["اڼا", "aɳaː"]
+    psi: ["اڼا", "aɳaː"],
+    asu: ["igi", "iɡi"],
+    gaa: ["wuɔ", "wuɔ"],
+    tll: ["ukeli", "ukeli"],
+    bfa: ["katulukuti", "katulukuti"],
+    spp: ["nɔngyaa", "nɔŋɡʲaː"],
+    ng: ["eyi", "eji"],
+    lue: ["liulu", "liulu"]
   },
 };

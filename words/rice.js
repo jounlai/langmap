@@ -519,6 +519,10 @@ WORDS.rice = {
     aii: ["ܪܙܐ", "rɪzza"],
     dty: ["चामल", "tʃaːmal"],
     bra: ["चावल", "tʃaːʋal"],
-    tly: ["bırz", "bɨɾz"]
+    tly: ["bırz", "bɨɾz"],
+    ksb: ["muhunga", "muhuŋɡa"],
+    urh: ["irosu", "iɾosu"],
+    gaa: ["omɔ", "omɔ"],
+    ewo: ["oles", "oles"]
   }
 };

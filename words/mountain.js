@@ -626,6 +626,15 @@ WORDS.mountain = {
     quy: ["urqu", "uɾqu"],
     dty: ["पहाड", "pəɦaːɖ"],
     bra: ["पहाड़", "pəɦaːɽ"],
-    tly: ["band", "band"]
+    tly: ["band", "band"],
+    asu: ["ntuvi", "ntuvi"],
+    izz: ["ubvu", "ubvu"],
+    urh: ["ugbenu", "uɡbenu"],
+    gaa: ["gɔŋ", "ɡɔŋ"],
+    tll: ["ukungu", "ukuŋɡu"],
+    bfa: ["mere", "mere"],
+    loz: ["lilundu", "lilundu"],
+    ng: ["ondundu", "ondundu"],
+    lue: ["pili", "pili"]
   }
 };

@@ -984,6 +984,15 @@ WORDS.bird = {
     lhu: ["ngâʼ", "ŋâʔ"],
     tji: ["niebi", "ȵie˧˥pi˥˥"],
     dty: ["चरा", "tʃəɾa"],
-    tly: ["pərəndə", "pəɾəndə"]
+    tly: ["pərəndə", "pəɾəndə"],
+    ksb: ["ndege", "ndeɡe"],
+    asu: ["ideghe", "ideɣe"],
+    izz: ["ẹnu", "ɛnu"],
+    gaa: ["loofɔlɔ", "loːfɔlɔ"],
+    tll: ["fudu", "fudu"],
+    bfa: ["kwenti", "kʷenti"],
+    aja: ["xevi", "xevi"],
+    ng: ["ondhila", "onðila"],
+    lue: ["kajila", "kadʒila"]
   },
 };

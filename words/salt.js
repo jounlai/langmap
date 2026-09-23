@@ -1152,6 +1152,10 @@ WORDS.salt = {
     nia: ["asio", "asio"],
     pll: ["sɔʔ", "sɔʔ"],
     bra: ["लौन", "laʊn"],
-    psi: ["لوڼ", "loːɳ"]
+    psi: ["لوڼ", "loːɳ"],
+    asu: ["munyu", "muɲu"],
+    aja: ["eje", "edʒe"],
+    ng: ["omongwa", "omoŋɡwa"],
+    lue: ["mungwa", "muŋɡwa"]
   },
 };

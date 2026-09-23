@@ -1121,6 +1121,8 @@ WORDS.five = {
     nag: ["pans", "pans"],
     unr: ["morea", "moɽea"],
     kjp: ["ယာဲ", "jɛ̄"],
-    pll: ["phən", "pʰən"]
+    pll: ["phən", "pʰən"],
+    izz: ["ise", "ise"],
+    aja: ["atɔ̃", "atɔ̃"]
   },
 };

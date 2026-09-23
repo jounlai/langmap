@@ -1038,6 +1038,9 @@ WORDS.daughter = {
     sda: ["anak baine", "anak baine"],
     psi: ["اوی", "oːj"],
     tly: ["kinə", "kinə"],
-    nan_pn: ["查某囝", "tsa˧˧ bɔ˥˧ kiã˥˧"]
+    nan_pn: ["查某囝", "tsa˧˧ bɔ˥˧ kiã˥˧"],
+    tll: ["ona umuntu", "ona umuntu"],
+    bfa: ["ŋuro nakwan", "ŋuro nakʷan"],
+    aja: ["vi nyɔnuvi", "vi ɲɔnuvi"]
   },
 };

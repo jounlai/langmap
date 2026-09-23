@@ -698,6 +698,18 @@ WORDS.person = {
     quy: ["runa", "ɾuna"],
     dty: ["मान्सु", "maːnsu"],
     bra: ["मानुष", "maːnuʃ"],
-    tly: ["odəm", "odəm"]
+    tly: ["odəm", "odəm"],
+    asu: ["mntu", "mntu"],
+    izz: ["amadụ", "amadʊ"],
+    urh: ["ohwo", "ohwo"],
+    iso: ["ohwo", "ohwo"],
+    gaa: ["gbɔmɔ", "ɡbɔmɔ"],
+    tll: ["untu", "untu"],
+    bfa: ["ŋutu", "ŋutu"],
+    aja: ["amɛ", "amɛ"],
+    spp: ["supya", "supja"],
+    loz: ["mutu", "mutu"],
+    lue: ["mutu", "mutu"],
+    ewo: ["môt", "mɔt"]
   }
 };

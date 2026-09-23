@@ -784,6 +784,18 @@ WORDS.new = {
     psi: ["نوآ", "nõaː"],
     tly: ["tojə", "tojə"],
     nan_pn: ["新", "sin˧˧"],
-    hak_hl: ["新", "sin˥˧"]
+    hak_hl: ["新", "sin˥˧"],
+    rim: ["mpya", "mpja"],
+    asu: ["shaa", "ʃaː"],
+    izz: ["ọphuu", "ɔɸuː"],
+    urh: ["ọkpokpọ", "ɔkpokpɔ"],
+    gaa: ["hee", "heː"],
+    tll: ["uyuyu", "ujuju"],
+    bfa: ["ludukotyo", "ludukotjo"],
+    aja: ["yoyu", "joju"],
+    loz: ["nca", "ntʃa"],
+    ng: ["pe", "pe"],
+    lue: ["chihya", "tʃihja"],
+    ewo: ["mkpaman", "mkpaman"]
   },
 };

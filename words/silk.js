@@ -432,6 +432,10 @@ WORDS.silk = {
     quy: ["seda", "seda"],
     aii: ["ܐܒܪܝܣܡ", "abriːsim"],
     dty: ["रेशम", "ɾeʃam"],
-    tly: ["avşim", "avʃim"]
+    tly: ["avşim", "avʃim"],
+    rim: ["hariri", "haɾiɾi"],
+    gaa: ["seda", "seda"],
+    loz: ["siliki", "siliki"],
+    ng: ["ofeyi", "ofeji"]
   }
 };

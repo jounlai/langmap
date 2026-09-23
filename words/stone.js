@@ -1006,6 +1006,10 @@ WORDS.stone = {
     tji: ["aba", "a˨˩pa˨˩"],
     mam: ["abʼaj", "aɓax"],
     tly: ["sığ", "sɨʁ"],
-    nan_pn: ["石頭", "tsioʔ˥˥ tʰau˨˦"]
+    nan_pn: ["石頭", "tsioʔ˥˥ tʰau˨˦"],
+    rim: ["igwe", "iɡwe"],
+    bfa: ["ŋurupit", "ŋurupit"],
+    ttj: ["ibaale", "iβaːle"],
+    spp: ["kafaa", "kafaː"]
   },
 };

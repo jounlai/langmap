@@ -683,6 +683,18 @@ WORDS.horse = {
     dty: ["घोडा", "ɡʱoɽa"],
     bra: ["घोड़ो", "ɡʱoɽo"],
     psi: ["گوړا", "ɡoːɽaː"],
-    tly: ["asp", "asp"]
+    tly: ["asp", "asp"],
+    ksb: ["farashi", "faɾaʃi"],
+    asu: ["farasi", "farasi"],
+    izz: ["ịnya", "ɪɲa"],
+    gaa: ["okpɔŋɔ", "okpɔŋɔ"],
+    tll: ["falasa", "falasa"],
+    bfa: ["kusan", "kusan"],
+    aja: ["esɔ", "esɔ"],
+    ttj: ["embaraasi", "embaraːsi"],
+    spp: ["shɔngɔ", "ʃɔŋɡɔ"],
+    loz: ["pizi", "pizi"],
+    lue: ["kavalu", "kavalu"],
+    ewo: ["ekabeli", "ekabeli"]
   }
 };

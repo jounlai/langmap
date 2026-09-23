@@ -998,6 +998,13 @@ WORDS.sleep = {
     kaa: ["uyqılaw", "ujqɯlaw"],
     pll: ["ʔit", "ʔit"],
     ahk: ["yuq", "jṵ˨˩"],
-    tly: ["hıte", "hɨte"]
+    tly: ["hıte", "hɨte"],
+    asu: ["kushinjia", "kuʃindʒia"],
+    izz: ["ku mgbẹnya", "ku mɡbɛɲa"],
+    urh: ["vwerhẹ", "βweɾɛ"],
+    iso: ["wezẹ", "wɛzɛ"],
+    bfa: ["doto", "doto"],
+    aja: ["dɔ alɔn", "dɔ alɔ̃"],
+    lue: ["kusavala", "kusavala"]
   },
 };

@@ -787,6 +787,20 @@ WORDS.head = {
     dty: ["मुण्डो", "muɳɖo"],
     bra: ["सीस", "siːs"],
     psi: ["شیر", "ʃiːr"],
-    nan_pn: ["頭", "tʰau˨˦"]
+    nan_pn: ["頭", "tʰau˨˦"],
+    asu: ["mtwi", "mtwi"],
+    izz: ["ishi", "iʃi"],
+    urh: ["uyovwi", "ujoβwi"],
+    iso: ["uzou", "uzou"],
+    gaa: ["yitso", "jitso"],
+    tll: ["ote", "ote"],
+    mlq: ["kun", "kun"],
+    bfa: ["kwe", "kʷe"],
+    aja: ["ta", "ta"],
+    spp: ["ɲuŋɔ", "ɲuŋɔ"],
+    loz: ["toho", "toho"],
+    ng: ["omutse", "omutse"],
+    lue: ["mutwe", "mutwe"],
+    ewo: ["nlo", "nlo"]
   },
 };

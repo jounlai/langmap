@@ -891,6 +891,20 @@ WORDS.black = {
     mixtec: ["jnuu", "hnuː"],
     tly: ["siyo", "sijo"],
     nan_pn: ["烏", "ɔ˧˧"],
-    hak_hl: ["烏", "vu˥˧"]
+    hak_hl: ["烏", "vu˥˧"],
+    ksb: ["size", "size"],
+    asu: ["jiru", "dʒiru"],
+    izz: ["ojii", "odʒiː"],
+    urh: ["biebi", "biebi"],
+    gaa: ["diŋ", "diŋ"],
+    tll: ["tshudu", "tʃudu"],
+    bfa: ["lurwö", "lurwɔ"],
+    aja: ["yubɔ", "jubɔ"],
+    ttj: ["kwiragura", "kwiraɡura"],
+    nyo: ["kwiragura", "kwiraɡura"],
+    loz: ["nsu", "nsu"],
+    ng: ["luudhe", "luːðe"],
+    lue: ["chilava", "tʃilava"],
+    ewo: ["evindi", "evindi"]
   },
 };

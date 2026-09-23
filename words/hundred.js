@@ -936,6 +936,13 @@ WORDS.hundred = {
     mixtec: ["iin cientu", "ĩː sjentu"],
     quy: ["pachak", "patʃak"],
     bra: ["सौ", "saʊ"],
-    psi: ["شای", "ʃaːi"]
+    psi: ["شای", "ʃaːi"],
+    ksb: ["gana", "ɡana"],
+    asu: ["ighana", "iɣana"],
+    izz: ["ụkporo ise", "ʊkpoɾo ise"],
+    urh: ["ujorin", "udʒoɾĩ"],
+    gaa: ["oha", "oha"],
+    ng: ["ethele", "etele"],
+    lue: ["likulukaji", "likulukadʒi"]
   },
 };

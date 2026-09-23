@@ -974,6 +974,15 @@ WORDS.wind = {
     lhu: ["mû-hɔ", "mûhɔ"],
     tji: ["ziesu", "zie˧˥su˥˥"],
     mam: ["kyqʼiqʼ", "kʲqʼiqʼ"],
-    psi: ["واغن", "waːʁan"]
+    psi: ["واغن", "waːʁan"],
+    ksb: ["mpeho", "mpeho"],
+    asu: ["mpeho", "mpeho"],
+    izz: ["phẹrephere", "ɸɛɾeɸeɾe"],
+    urh: ["aphopho", "aɸoɸo"],
+    gaa: ["kɔɔyɔɔ", "kɔːjɔː"],
+    tll: ["lopepe", "lopepe"],
+    bfa: ["köbuŋöt", "kɔbuŋɔt"],
+    aja: ["aya", "aja"],
+    lue: ["peho", "peho"]
   },
 };

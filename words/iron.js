@@ -905,6 +905,10 @@ WORDS.iron = {
     tzh: ["takʼin", "takʼin"],
     mixtec: ["kaa", "kaː"],
     quy: ["fierro", "ˈfjeɾo"],
-    dty: ["फलाम", "pʰalaːm"]
+    dty: ["फलाम", "pʰalaːm"],
+    asu: ["kighera", "kiɣera"],
+    izz: ["igwe", "iɡwe"],
+    aja: ["ega", "eɡa"],
+    spp: ["tɔɔnnɔ", "tɔːnːɔ"]
   },
 };

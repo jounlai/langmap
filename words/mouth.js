@@ -758,6 +758,17 @@ WORDS.mouth = {
     bra: ["मुख", "mukʰ"],
     psi: ["گلان", "ɡilaːn"],
     tly: ["qəv", "ɡəv"],
-    hak_hl: ["嘴", "tʃoi˩˩"]
+    hak_hl: ["嘴", "tʃoi˩˩"],
+    ksb: ["kanwa", "kanwa"],
+    asu: ["momo", "momo"],
+    izz: ["ọnu", "ɔnu"],
+    gaa: ["naa", "naː"],
+    tll: ["unyo", "uɲo"],
+    mlq: ["da", "da"],
+    bfa: ["kutuk", "kutuk"],
+    aja: ["aglan", "aɡlã"],
+    loz: ["mulomo", "mulomo"],
+    lue: ["kanwa", "kanwa"],
+    ewo: ["anyu", "aɲu"]
   }
 };

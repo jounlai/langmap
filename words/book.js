@@ -652,6 +652,18 @@ WORDS.book = {
     mixtec: ["tutu", "tutu"],
     quy: ["libru", "libɾu"],
     dty: ["किताब", "kitaːb"],
-    tly: ["kitob", "kitob"]
+    tly: ["kitob", "kitob"],
+    rim: ["gitabu", "ɡitabu"],
+    ksb: ["kitabu", "kitabu"],
+    asu: ["kitabu", "kitabu"],
+    izz: ["ẹkwo", "ɛkwo"],
+    urh: ["ọbe", "ɔbe"],
+    tll: ["buku", "buku"],
+    bfa: ["buk", "buk"],
+    aja: ["wema", "wema"],
+    ttj: ["ekitabu", "ekitaβu"],
+    ng: ["embo", "embo"],
+    lue: ["mukanda", "mukanda"],
+    ewo: ["kalara", "kalara"]
   }
 };

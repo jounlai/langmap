@@ -924,6 +924,17 @@ WORDS.milk = {
     mam: ["taʼl imaj", "taʔl imax"],
     mixtec: ["lechu", "letʃu"],
     quy: ["lichi", "litʃi"],
-    tly: ["şıt", "ʃɨt"]
+    tly: ["şıt", "ʃɨt"],
+    ksb: ["mele", "mele"],
+    asu: ["mavee", "maveː"],
+    urh: ["ameivie", "ameivie"],
+    gaa: ["fufɔ", "fufɔ"],
+    tll: ["awele", "awele"],
+    bfa: ["le", "le"],
+    aja: ["anɔshu", "anɔʃu"],
+    loz: ["mabisi", "mabisi"],
+    ng: ["omahini", "omahini"],
+    lue: ["mavele", "mavele"],
+    ewo: ["menyan", "meɲan"]
   },
 };

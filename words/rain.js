@@ -998,6 +998,11 @@ WORDS.rain = {
     tji: ["mezie", "mɯe˧˥tsie˨˩"],
     dty: ["वर्षा", "waɾʃaː"],
     psi: ["واښ", "waːʂ"],
-    tly: ["voş", "voʃ"]
+    tly: ["voş", "voʃ"],
+    ksb: ["fula", "fula"],
+    asu: ["mvua", "mvua"],
+    tll: ["mvula", "mvula"],
+    bfa: ["kudu", "kudu"],
+    spp: ["zanha", "zanha"]
   },
 };

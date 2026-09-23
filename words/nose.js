@@ -1035,6 +1035,11 @@ WORDS.nose = {
     ahk: ["na meh", "na˥mɤ˥"],
     tji: ["engqi", "ən˧˥tɕʰi˥˥"],
     mam: ["txaʼn", "tʃaʔn"],
-    mixtec: ["yuxijni", "juʃihni"]
+    mixtec: ["yuxijni", "juʃihni"],
+    asu: ["fua", "fua"],
+    urh: ["uwen", "uwẽ"],
+    gaa: ["gugɔŋ", "ɡuɡɔŋ"],
+    tll: ["ohembe", "ohembe"],
+    lue: ["lizulu", "lizulu"]
   },
 };

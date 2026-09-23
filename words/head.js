@@ -556,6 +556,8 @@ WORDS.head = {
     naq: ["danas", "danas"],
     ko_bus: ["머리", "mʌɾi"],
     ty: ["upoʻo", "upoʔo"],
-    kde: ["mutwe", "mutwe"]
+    kde: ["mutwe", "mutwe"],
+    xct: ["མགོ", "mɡo"],
+    xct_litpr: ["མགོ", "mɡo"]
   },
 };

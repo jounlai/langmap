@@ -890,6 +890,7 @@ WORDS.egg = {
     mhy: ["ateluy", "ateluy"],
     myx: ["liiki", "liːki"],
     yap: ["faak", "faːk"],
-    xul: ["gubbong", "ɡubboŋ"]
+    xul: ["gubbong", "ɡubboŋ"],
+    kgg: ["gwa", "ɡwa"]
   },
 };

@@ -466,6 +466,9 @@ WORDS.person = {
     ttj: ["omuntu", "omuntu"],
     ty: ["taʻata", "taʔata"],
     rbb: ["taɁiː", "taʔiː"],
-    zh_cq: ["人", "zən˨˩"]
+    zh_cq: ["人", "zən˨˩"],
+    shx: ["le31", "le˧˩"],
+    pyu: ["trau", "ʈau"],
+    pwn: ["caucau", "tsautsau"]
   }
 };

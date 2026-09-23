@@ -358,6 +358,7 @@ WORDS.sea = {
     ja_sd: ["海", "umi"],
     en_ie: ["sea", "siː"],
     es_co: ["mar", "maɾ"],
-    zh_cq: ["海", "xai˦˨"]
+    zh_cq: ["海", "xai˦˨"],
+    shx: ["fui44", "fui˦˦"]
   }
 };

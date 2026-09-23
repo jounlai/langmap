@@ -1111,6 +1111,7 @@ WORDS.salt = {
     myx: ["kyumbi", "kjumbi"],
     sbp: ["umunyu", "umuɲu"],
     ksb: ["munyu", "muɲu"],
-    pzh: ["pahah", "pahah"]
+    pzh: ["pahah", "pahah"],
+    jmc: ["shumbi", "ʃumbi"]
   },
 };

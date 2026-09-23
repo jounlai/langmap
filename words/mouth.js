@@ -529,6 +529,10 @@ WORDS.mouth = {
     es_co: ["boca", "ˈboka"],
     es_an: ["boca", "ˈboka"],
     kam: ["kanywa", "kaɲwa"],
-    rbb: ["mojɁ", "mojʔ"]
+    rbb: ["mojɁ", "mojʔ"],
+    shx: ["tiɔ31", "tiɔ˧˩"],
+    jmc: ["kana", "kana"],
+    xct: ["ཁ", "kʰa"],
+    xct_litpr: ["ཁ", "kʰa"]
   }
 };

@@ -390,6 +390,8 @@ WORDS.mountain = {
     vi_s: ["núi", "nui˧˥"],
     ttj: ["orusozi", "orusozi"],
     rbb: ["kɔŋ", "kɔŋ"],
-    zh_cq: ["山", "san˥"]
+    zh_cq: ["山", "san˥"],
+    xct: ["རི", "ri"],
+    xct_litpr: ["རི", "ri"]
   }
 };

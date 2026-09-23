@@ -456,6 +456,7 @@ WORDS.horse = {
     myx: ["ifarasi", "ifarasi"],
     sbp: ["ifarasi", "ifarasi"],
     kam: ["mbalasi", "mbalasi"],
-    zh_cq: ["马", "ma˦˨"]
+    zh_cq: ["马", "ma˦˨"],
+    xct: ["རྤ", "ta"]
   }
 };

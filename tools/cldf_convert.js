@@ -239,6 +239,19 @@ function convertInner(form, table) {
             if (k && form.startsWith(k, i)) { hit = k; break; }
         }
         if (!hit) { blocked.add(form[i]); i++; continue; }
+        /* A digraph must never be consumed one letter at a time. Machame
+           learned shaa→ʃaː and áshà→aʃa — sh inside longer contexts — but
+           never a bare sh, so salt `shumbi` matched s and h separately, both
+           unanimous as identity, and came out shumbi instead of ʃumbi. The
+           row writes sh as ʃ in both the cells it has. When the row has only
+           ever spelled a digraph inside something longer, the bare digraph is
+           undetermined and the tool must say so. */
+        const pair = form.slice(i, i + 2).toLowerCase();
+        if (hit.length === 1 && DIGRAPH_RISK.test(pair) && !table.has(pair)) {
+            blocked.add(pair);
+            i += 2;
+            continue;
+        }
         out += table.get(hit);
         i += hit.length;
     }

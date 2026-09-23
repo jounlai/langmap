@@ -417,6 +417,7 @@ WORDS.green = {
     ja_sd: ["緑", "midoɾi"],
     en_ie: ["green", "ɡɹiːn"],
     es_co: ["verde", "ˈbeɾðe"],
-    es_an: ["verde", "ˈbeɾðe"]
+    es_an: ["verde", "ˈbeɾðe"],
+    shx: ["ka35 pʰɤ54 kʰun31", "ka˧˥ pʰɤ˥˦ kʰun˧˩"]
   }
 };

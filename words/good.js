@@ -512,7 +512,7 @@ WORDS.good = {
     yug: ['—', '—'],
     aau: ['yapre', 'japɾɛ'],
     ani: ['—', '—'],
-    bdk: ['—', '—'],
+    bdk: ["гӏари", "ʕari"],
     sdo: ['biis', 'biːs'],
     dbl: ['—', '—'],
     nrf_gg: ['boan', 'bwɑ̃'],
@@ -973,7 +973,7 @@ WORDS.good = {
     wba: ["yakera", "jakeɾa"],
     mzh: ["is", "is"],
     myp: ["aoʔaago", "aoʔaaɡo"],
-    tue: ["—", "—"],
+    tue: ["ãñu", "ãɲu"],
     emp: ["bia", "bia"],
     kpe: ["nyaŋa", "ɲaŋa"],
     bsq: ["nõ", "nõ"],
@@ -1241,6 +1241,6 @@ WORDS.good = {
     lun: ["chachiwahi", "tʃatʃiwahi"],
     tsj: ["lekpu", "lekpu"],
     lep: ["ᰣᰦᰛᰤᰫᰮ", "ʔarjum"],
-    mhy: ["maʔeh", "maʔeh"],
+    mhy: ["maʔeh", "maʔeh"]
   },
 };

@@ -238,7 +238,7 @@ WORDS.fish = {
     fa: ["ماهی", "mɒːˈhiː"],
     jpr: ["מאהי", "maːhi"],
     prs: ["ماهی", "maːˈhiː"],
-    trm: ["—", "—"],
+    trm: ["mäć", "mæts"],
     sw: ["samaki", "samaki"],
     suk: ["nshi", "nʃi"],
     nym: ["somba", "soːmba"],

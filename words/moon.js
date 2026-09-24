@@ -972,7 +972,7 @@ WORDS.moon = {
     wba: ["waniku", "waniku"],
     mzh: ["hawu", "hawu"],
     myp: ["kapiigaísao", "kapiiɡaísao"],
-    tue: ["—", "—"],
+    tue: ["ñami makʉ̃", "ɲami makɨ̃"],
     emp: ["ahuru", "ahuɾu"],
     kpe: ["kɔŋɔ", "kɔŋɔ"],
     bsq: ["hwɔɖɔ", "hʷɔɖɔ"],

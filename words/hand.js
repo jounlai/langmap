@@ -973,7 +973,7 @@ WORDS.hand = {
     wba: ["mojo", "moho"],
     mzh: ["kuwej", "kuwex"],
     myp: ["piíxai", "piíʔai"],
-    tue: ["—", "—"],
+    tue: ["wãmo", "wãmo"],
     emp: ["jua", "xua"],
     kpe: ["yee", "jeː"],
     bsq: ["kɔ", "kɔ"],

@@ -239,7 +239,7 @@ WORDS.blood = {
     fa: ["خون", "xuːn"],
     jpr: ["כון", "xun"],
     prs: ["خون", "xuːn"],
-    trm: ["—", "—"],
+    trm: ["luy", "luj"],
     sw: ["damu", "damu"],
     suk: ["mininga", "miniŋɡa"],
     nym: ["magazi", "maɡazi"],

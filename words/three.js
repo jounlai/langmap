@@ -71,7 +71,7 @@ WORDS.three = {
       guu: ["jãmi","jãmi"],
       kpj: ["inataõ","inataõ"],
       mbc: ["séúruné","séúruné"],
-      moc: ["—","—"],
+      moc: ["tres", "tres"],
       plg: ["—","—"],
       tob: ["—","—"],
       kgp: ["tãgtũ","tãŋtũ"],
@@ -1249,6 +1249,6 @@ WORDS.three = {
     lun: ["satu", "satu"],
     tsj: ["sam", "sam"],
     lep: ["ᰠᰦᰮ", "səm"],
-    mhy: ["telo", "telo"],
+    mhy: ["telo", "telo"]
   },
 };

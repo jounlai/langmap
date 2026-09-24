@@ -9,8 +9,26 @@
  *
  * Lines may carry a leading "ACCEPT<TAB>", which is stripped. Blank lines and
  * anything starting `#` are ignored, so a reviewer's notes can stay in the
- * file. A cell whose (concept, code) already exists is skipped and reported,
- * never overwritten: this tool only fills gaps.
+ * file. A cell whose (concept, code) already holds a WORD is skipped and
+ * reported, never overwritten: this tool only fills gaps.
+ *
+ * A CELL HOLDING "—" IS A GAP, and this tool used to disagree. The em-dash is
+ * the honest no-source marker — route_coverage_check calls it exactly that,
+ * and build_progress_data counts it as a hole, which is why progress.html
+ * lists those cells as missing. But the occupancy test here only asked whether
+ * the KEY existed, so every one of the 1,682 placeholder cells was reported
+ * "already there" and skipped. The harvest pipeline could not fill the cells
+ * the harvest exists for: round 16 offered 29 and 24 were refused this way.
+ * A placeholder is now REPLACED IN PLACE, keeping its position in the file,
+ * and counted separately so the difference stays visible in the run's output.
+ *
+ * The key is matched in all three formats the tree uses — 65,076 bare
+ * (`    code: [`), 8,523 deep-indented and 923 double-quoted — and the
+ * VALUES are written with either quote style, which cost one more duplicate
+ * before it was caught. Matching only
+ * the bare form, as this did, also meant a quoted key was never detected as
+ * present, so a second write would have appended a DUPLICATE key that the
+ * later one silently wins.
  *
  *   node tools/apply_cells.js proposals.tsv
  *   node tools/apply_cells.js proposals.tsv --dry
@@ -87,7 +105,7 @@ function main() {
         wanted.get(concept).push([code, surface, ipa]);
     }
 
-    let added = 0, present = 0, missingFile = 0;
+    let added = 0, replaced = 0, present = 0, missingFile = 0;
     for (const [concept, items] of wanted) {
         const p = path.join(ROOT, 'words', `${concept}.js`);
         if (!fs.existsSync(p)) {
@@ -105,29 +123,52 @@ function main() {
         const block = src.slice(start, end);
 
         const fresh = [];
+        let newBlock = block;
         for (const [code, surface, ipa] of items) {
-            if (new RegExp(`\\n    ${code.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}: \\[`).test(`\n${block}`)) {
+            const esc = code.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            // All three key formats, and capture the stored surface so a
+            // placeholder can be told apart from a real word.
+            const entry = new RegExp(
+                `(^|\\n)(\\s*)(["']?)${esc}\\3:\\s*\\[\\s*(["'])([^"']*)\\4\\s*,\\s*(["'])([^"']*)\\6\\s*\\](,?)`
+            );
+            const hit = entry.exec(newBlock);
+            if (hit) {
+                if (hit[5] === '—' || hit[5] === '-') {
+                    // The honest no-source marker. Replace it where it stands,
+                    // so the row keeps the order someone put it in.
+                    newBlock = newBlock.slice(0, hit.index)
+                        + `${hit[1]}${hit[2]}${hit[3]}${code}${hit[3]}: ["${surface}", "${ipa}"]${hit[8]}`
+                        + newBlock.slice(hit.index + hit[0].length);
+                    console.log(`  filled placeholder  ${concept} ${code}`);
+                    replaced++;
+                    continue;
+                }
                 console.log(`  already there  ${concept} ${code}`);
                 present++;
                 continue;
             }
             fresh.push(`    ${code}: ["${surface}", "${ipa}"],`);
         }
+        if (newBlock !== block && !dry) {
+            fs.writeFileSync(p, src.slice(0, start) + newBlock + src.slice(end));
+        }
         if (!fresh.length) continue;
         added += fresh.length;
         if (dry) { console.log(`  would add ${fresh.length} to ${concept}`); continue; }
 
-        const lines = block.split('\n');
+        const lines = (dry ? block : fs.readFileSync(p, 'utf8').slice(start, start + newBlock.length)).split('\n');
         while (lines.length && !lines[lines.length - 1].trim()) lines.pop();
         if (lines.length && !lines[lines.length - 1].trimEnd().endsWith(',')) {
             lines[lines.length - 1] = `${lines[lines.length - 1].trimEnd()},`;
         }
         fresh[fresh.length - 1] = fresh[fresh.length - 1].replace(/,$/, '');
         lines.push(...fresh, '');
-        fs.writeFileSync(p, src.slice(0, start) + lines.join('\n') + src.slice(end));
+        const cur = fs.readFileSync(p, 'utf8');
+        fs.writeFileSync(p, cur.slice(0, start) + lines.join('\n') + cur.slice(start + newBlock.length));
     }
 
     console.log(`\n${dry ? 'would add' : 'added'} ${added} cells`
+        + `${replaced ? `, ${dry ? 'would fill' : 'filled'} ${replaced} "—" placeholders` : ''}`
         + `${present ? `, ${present} already present` : ''}`
         + `${bad ? `, ${bad} rejected` : ''}`
         + `${missingFile ? `, ${missingFile} for unknown concepts` : ''}`);

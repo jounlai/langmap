@@ -236,7 +236,7 @@ WORDS.red = {
     fa: ["قرمز", "ɢeɾˈmez"],
     jpr: ["סורך", "suɾx"],
     prs: ["سرخ", "soɾx"],
-    trm: ["—", "—"],
+    trm: ["ḍẓatå", "ɖʐatɔ"],
     sw: ["nyekundu", "ɲekundu"],
     suk: ["ndulu", "ndulu"],
     nym: ["laluku", "laluku"],

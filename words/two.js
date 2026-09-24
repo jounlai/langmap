@@ -63,7 +63,7 @@ WORDS.two = {
       guu: ["hoɾohopɨ","hoɾohopɨ"],
       kpj: ["inatʃi","inatʃi"],
       mbc: ["sáákɨné","sáákɨné"],
-      moc: ["—","—"],
+      moc: ["dos", "dos"],
       plg: ["—","—"],
       tob: ["—","—"],
       kgp: ["règre","ɾɛŋɾe"],
@@ -1241,6 +1241,6 @@ WORDS.two = {
     lun: ["ayedi", "ajedi"],
     tsj: ["nyiktsing", "ɲiktsiŋ"],
     lep: ["ᰉᰬᰳ", "ɲet"],
-    mhy: ["rueh", "rueh"],
+    mhy: ["rueh", "rueh"]
   },
 };

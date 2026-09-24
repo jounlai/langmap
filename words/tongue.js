@@ -488,7 +488,7 @@ WORDS.tongue = {
     emi: ["ramuramutipa", "ramuramutipa"],
     hot: ["dingeng", "diŋeŋ"],
     fai: ["falang", "falaŋ"],
-    nlc: ["—", "—"],
+    nlc: ["silyum", "siljum"],
     bzh: ["ndaxen", "ndaxen"],
     tcs: ["tang", "taŋ"],
     pis: ["tang", "taŋ"],

@@ -973,7 +973,7 @@ WORDS.eat = {
     wba: ["nahoro", "nahoɾo"],
     mzh: ["lechek", "letʃek"],
     myp: ["xaxaí", "ʔaʔaí"],
-    tue: ["—", "—"],
+    tue: ["yaa", "jaː"],
     emp: ["ko", "ko"],
     kpe: ["nyii", "ɲiː"],
     bsq: ["gbɔ̃a", "ɡbɔ̃a"],

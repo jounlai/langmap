@@ -63,7 +63,7 @@ WORDS.one = {
       guu: ["tahiapɨ","tahiapɨ"],
       kpj: ["sohodʒi","sohodʒi"],
       mbc: ["tiwíŋ","tiwíŋ"],
-      moc: ["—","—"],
+      moc: ["ʔona", "ʔona"],
       plg: ["—","—"],
       tob: ["—","—"],
       kgp: ["pir","piɾ"],
@@ -1259,6 +1259,6 @@ WORDS.one = {
     lun: ["wumu", "wumu"],
     tsj: ["thur", "tʰuɾ"],
     lep: ["ᰀᰦᰳ", "kat"],
-    mhy: ["isaʔ", "isaʔ"],
+    mhy: ["isaʔ", "isaʔ"]
   },
 };

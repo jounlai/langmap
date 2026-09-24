@@ -534,7 +534,7 @@ WORDS.fire = {
     rut: ['цӏай', 'tsʼaj'],
     kim: ['от', 'ot'],
     tpn: ['tatá', 'taˈta'],
-    uln: ['—', '—'],
+    uln: ["feuer", "ˈfɔe̯ɛr"],
     wmt: ['warlu', 'ˈwaɭu'],
     wuu_hz: ['火', 'xo˥˧'],
     xag: ['ow', 'oʊ'],

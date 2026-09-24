@@ -533,7 +533,7 @@ WORDS.sun = {
     rut: ['варагъ', 'waraʁ'],
     kim: ['хүн', 'xyn'],
     tpn: ['kuarasy', 'kwaɾaˈsɨ'],
-    uln: ['—', '—'],
+    uln: ["sonne", "ˈsonɛ"],
     wmt: ['ngalyarra', 'ŋaˈʎara'],
     wuu_hz: ['日头', 'ʐəʔ˩˨ dɤɯ˨˩˧'],
     xag: ['beɣ', 'beɣ'],

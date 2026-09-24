@@ -376,7 +376,7 @@ WORDS.bird = {
     frr: ["fögel", "ˈføːɡəl"],
     frr_amr: ["fögel", "ˈføːɡəl"],
     li: ["veugel", "ˈvøːɣəl"],
-    nn: ["fugl", "fʉːɡl"],
+    nn: ["fugl", "fʉːl"],
     fo: ["fuglur", "ˈfuːlʊɹ"],
     fr_qc: ["oiseau", "wazo"],
     fr_af: ["oiseau", "wazo"],

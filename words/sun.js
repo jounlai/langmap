@@ -874,7 +874,7 @@ WORDS.sun = {
     an: ["sol", "sol"],
     rup: ["soare", "ˈso̯are"],
     ruq: ["soari", "ˈsoari"],
-    wa: ["solea", "soˈlea"],
+    wa: ["solea", "sɔˈlja"],
     kpv: ["шонді", "ʃondi"],
     koi: ["шонді", "ʃondi"],
     udm: ["шунды", "ʃundɨ"],

@@ -498,7 +498,7 @@ WORDS.blue = {
     cy: ["glas", "ɡlaːs"],  // Welsh glas is the classic grue: traditionally blue, the green of growing things, and grey (glaswellt 'grass'). gwyrdd (< Lat. viridis) now carries much of green, but glas is still the sky's colour and still reaches into green.
     da: ["blå", "blɔːˀ"],  // blå vs grøn; stød as in the row's rød/ʁœðˀ.
     dak: ["tȟó", "txó"],  // CSD writes the Dakota reflex thó; tȟó is the spelling used in the Dakota/Lakota orthography this row's šá and ska belong to, but I could not source the Dakota orthographic form directly.
-    dar: ["хьанцӏа", "ħanˈtsʼa"],  // Dargwa хьанцӏа vs шиниша. Sixteen Dargwa dialects in IDS agree on the хьанцӏ-/шиниш- pair, several adding шала- 'light' to the blue. Palochka written U+04C0 to match this row's existing хӏунтӏена.
+    dar: ["хьанцӏа", "xanˈtsʼa"],  // Dargwa хьанцӏа vs шиниша. Sixteen Dargwa dialects in IDS agree on the хьанцӏ-/шиниш- pair, several adding шала- 'light' to the blue. Palochka written U+04C0 to match this row's existing хӏунтӏена.
     ddo: ["нига", "ˈniɡa"],  // Tsez нига: the Mokok dialect in IDS gives нига for blue AND нига, цӏицӏира for green — one term reaching across both. NorthEuraLex gives нига vs эчйаси.
     de: ["blau", "blaʊ̯"],  // blau vs grün; inherited Germanic *blēwaz.
     dje: ["bula", "bula"],  // Zarma bula is a loan of English/Hausa 'blue' (compare Kanuri lìwùllá, which WOLD scores as probably borrowed); the inherited green is bogu.

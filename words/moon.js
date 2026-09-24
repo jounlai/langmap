@@ -443,7 +443,7 @@ WORDS.moon = {
     scn: ["luna", "luna"],
     vec: ["łuna", "ɫuna"],
     co: ["luna", "luna"],
-    lij: ["lùn-a", "lyna"],
+    lij: ["lùn-a", "ˈlyŋa"],
     rgn: ["lónna", "ˈlonːa"],
     egl: ["lónna", "ˈlonːa"],
     frp: ["lena", "lənə"],

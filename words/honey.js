@@ -948,6 +948,10 @@ WORDS.honey = {
     zap: ["dxiña yaga", "dʒiɲa jaɡa"],
     cab: ["maba", "maba"],
     naq: ["danis", "danis"],
-    maw: ["sikpaam", "sikpaːm"]
+    maw: ["sikpaam", "sikpaːm"],
+    nxq: ["bbai", "ba˧"],
+    ami: ["waneng no ʼodal", "waneŋ no ʔoðal"],
+    bdq: ["đak sut", "ɗaːk sut"],
+    iru: ["தேநு", "teːnu"]
   },
 };

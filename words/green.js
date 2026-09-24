@@ -631,6 +631,9 @@ WORDS.green = {
     nhw: ["xoxohuic", "ʃoˈʃowik"],
     nhe: ["xoxoctic", "ʃoˈʃoktik"],
     tzo: ["yaxal", "jaʃal"],
-    zap: ["naberde", "naberde"]
+    zap: ["naberde", "naberde"],
+    mdr: ["mekurarraq", "mekurarːaʔ"],
+    nxq: ["herq", "hɚ˨˩"],
+    bdq: ["jơk", "ɟəːk"]
   }
 };

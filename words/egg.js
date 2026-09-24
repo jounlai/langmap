@@ -979,6 +979,10 @@ WORDS.egg = {
     lol: ["bokele", "bokele"],
     zap: ["dxita bere", "dʒita bere"],
     guc: ["ashuku", "aʃuku"],
-    naq: ["ǃupus", "ǃupus"]
+    naq: ["ǃupus", "ǃupus"],
+    mdr: ["talloq", "talːɔʔ"],
+    krc: ["жумуртха", "ʒumurtxa"],
+    nxq: ["gv", "kv̩˧"],
+    bdq: ["kơtăp", "kətap"]
   },
 };

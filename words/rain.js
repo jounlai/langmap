@@ -1010,6 +1010,8 @@ WORDS.rain = {
     sgw: ["ዝራብ", "zɨrab"],
     kxc: ["roopa", "roːpa"],
     ses: ["ncirɲi", "ntʃirɲi"],
-    nzi: ["ezule", "ezule"]
+    nzi: ["ezule", "ezule"],
+    nxq: ["heeq", "hɯ˨˩"],
+    bdq: ["ʼmi", "ʔmiː"]
   },
 };

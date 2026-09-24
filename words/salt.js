@@ -1161,6 +1161,7 @@ WORDS.salt = {
     nzi: ["ngyenle", "ndʑenle"],
     mev: ["wèĩ", "wèĩ"],
     naq: ["ǂōb", "ǂoːp"],
-    maw: ["yaarim", "jaːrim"]
+    maw: ["yaarim", "jaːrim"],
+    mdr: ["sia", "sia"]
   },
 };

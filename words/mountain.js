@@ -676,6 +676,9 @@ WORDS.mountain = {
     cab: ["wǘbü", "ˈwɨbɨ"],
     ote: ["tʼøhø", "tʼøhø"],
     naq: ["ǃhommi", "ǃʰomːi"],
-    maw: ["zoori", "zoːri"]
+    maw: ["zoori", "zoːri"],
+    crh: ["dağ", "daɣ"],
+    nxq: ["jjuq", "ɟy˨˩"],
+    bdq: ["kông", "koːŋ"]
   }
 };

@@ -729,6 +729,9 @@ WORDS.horse = {
     nhw: ["cahuayoj", "kaˈwajoh"],
     cab: ["gabáyu", "ɡaˈbaju"],
     her: ["okakambe", "okakambe"],
-    maw: ["yoofu", "joːfu"]
+    maw: ["yoofu", "joːfu"],
+    nxq: ["rua", "zwɑ˧"],
+    ami: ["efa", "əfa"],
+    bdq: ["aseh", "ʔasɛh"]
   }
 };

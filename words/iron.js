@@ -926,6 +926,8 @@ WORDS.iron = {
     zap: ["guiibaʼ", "ɡiːbaʔ"],
     guc: ["kachueera", "katʃueːra"],
     cab: ["gürábu", "ɡɨˈɾabu"],
-    cak: ["chʼichʼ", "tʃʼitʃʼ"]
+    cak: ["chʼichʼ", "tʃʼitʃʼ"],
+    nxq: ["shuq", "ʂu˨˩"],
+    bdq: ["bơxey", "bəsɛːj"]
   },
 };

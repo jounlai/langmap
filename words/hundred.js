@@ -960,6 +960,7 @@ WORDS.hundred = {
     zap: ["gayuaa", "ɡajuaː"],
     guc: ["poloo shikii", "poloː ʃikiː"],
     ctu: ["joʼkʼal", "hoʔkʼal"],
-    maw: ["kɔbga", "kɔbɡa"]
+    maw: ["kɔbga", "kɔbɡa"],
+    ami: ["smoʼot", "smoʔot"]
   },
 };

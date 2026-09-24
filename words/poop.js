@@ -614,6 +614,10 @@ WORDS.poop = {
     tzo: ["tzoʼ", "tsoʔ"],
     zap: ["guiʼ", "ɡiʔ"],
     guc: ["achaʼa", "atʃaʔa"],
-    ctu: ["taʼ", "taʔ"]
+    ctu: ["taʼ", "taʔ"],
+    crh: ["bok", "bok"],
+    krc: ["бокъ", "boq"],
+    nxq: ["qer", "tɕʰɚ˧"],
+    dv: ["ގުއި", "ɡui"]
   },
 };

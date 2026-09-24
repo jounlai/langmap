@@ -746,6 +746,7 @@ WORDS.person = {
     nhe: ["tlacatl", "ˈtɬakatɬ"],
     tzo: ["krixchano", "kriʃtʃano"],
     zap: ["binni", "binːi"],
-    maw: ["nira", "nira"]
+    maw: ["nira", "nira"],
+    crh: ["adam", "aˈdam"]
   }
 };

@@ -950,6 +950,9 @@ WORDS.milk = {
     guc: ["leechi", "leːtʃi"],
     cab: ["miligi", "miliɡi"],
     her: ["omaihi", "omaihi"],
-    maw: ["bisim", "bisim"]
+    maw: ["bisim", "bisim"],
+    nxq: ["eeno", "ɰɯ˧nø˧"],
+    ami: ["hacol", "hatsol"],
+    bdq: ["đak toh", "ɗaːk tɔh"]
   },
 };

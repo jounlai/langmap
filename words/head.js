@@ -845,6 +845,10 @@ WORDS.head = {
     ctu: ["jol", "hol"],
     her: ["otjiuru", "otʃiuru"],
     kj: ["omutwe", "omutwe"],
-    maw: ["zugu", "zuɡu"]
+    maw: ["zugu", "zuɡu"],
+    mdr: ["ulu", "ulu"],
+    krc: ["баш", "baʃ"],
+    nxq: ["gu'liu", "ku˧ly˧"],
+    dv: ["ބޯ", "boː"]
   },
 };

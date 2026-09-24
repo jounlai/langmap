@@ -838,6 +838,12 @@ WORDS.new = {
     cak: ["kʼakʼaʼ", "kʼakʼaʔ"],
     ctu: ["tsijiʼ", "tsihiʔ"],
     her: ["pe", "pe"],
-    maw: ["paalli", "paːli"]
+    maw: ["paalli", "paːli"],
+    mdr: ["baru", "baru"],
+    krc: ["жангы", "ʒaŋɯ"],
+    nxq: ["sheel", "ʂʅ˥"],
+    cja: ["باهاو", "bahau"],
+    iru: ["புதிய", "pudija"],
+    dv: ["އާ", "aː"]
   },
 };

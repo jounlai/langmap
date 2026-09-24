@@ -1162,6 +1162,8 @@ WORDS.white = {
     lif: ["ᤑᤍᤠᤱᤒᤠ", "pʰadaŋba"],
     sgw: ["ነጨ", "nɐtʃʼɐ"],
     kxc: ["ata", "ata"],
-    mev: ["púlú", "púlú"]
+    mev: ["púlú", "púlú"],
+    mdr: ["mapute", "mapute"],
+    nxq: ["perq", "pʰɚ˨˩"]
   },
 };

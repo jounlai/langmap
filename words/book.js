@@ -696,6 +696,9 @@ WORDS.book = {
     guc: ["karaloukta", "karaloukta"],
     cab: ["líburu", "ˈlibuɾu"],
     ctu: ["jun", "hun"],
-    maw: ["bukku", "bukːu"]
+    maw: ["bukku", "bukːu"],
+    bto: ["libro", "ˈlibɾo"],
+    nxq: ["tei'ee", "tʰe˧ɰɯ˧"],
+    ami: ["cudad", "tsuðad"]
   }
 };

@@ -1046,6 +1046,7 @@ WORDS.nose = {
     kqn: ["moona", "moːna"],
     lol: ["jolo", "dʒolo"],
     zap: ["xii", "ʃiː"],
-    maw: ["nyoori", "ɲoːri"]
+    maw: ["nyoori", "ɲoːri"],
+    mdr: ["pudzung", "puðuŋ"]
   },
 };

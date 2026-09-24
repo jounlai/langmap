@@ -667,6 +667,9 @@ WORDS.sea = {
     zap: ["nisadoʼ", "nisadoʔ"],
     cak: ["palow", "palow"],
     ctu: ["ñajb", "ɲahɓ"],
-    maw: ["teeku", "teːku"]
+    maw: ["teeku", "teːku"],
+    mdr: ["sasiq", "sasiʔ"],
+    bto: ["dágat", "ˈdaɡat"],
+    bdq: ["đak dơsĭ", "ɗaːk dəsiʔ"]
   }
 };

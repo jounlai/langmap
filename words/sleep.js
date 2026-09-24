@@ -1007,6 +1007,8 @@ WORDS.sleep = {
     aja: ["dɔ alɔn", "dɔ alɔ̃"],
     lue: ["kusavala", "kusavala"],
     lif: ["ᤀᤡᤵᤔᤠ", "ipmaː"],
-    cab: ["arúmuga", "aˈɾumuɡa"]
+    cab: ["arúmuga", "aˈɾumuɡa"],
+    nxq: ["yil", "ji˥"],
+    iru: ["rongu", "roŋɡu"]
   },
 };

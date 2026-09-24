@@ -805,6 +805,11 @@ WORDS.mouth = {
     guc: ["aaniikii", "aːniːkiː"],
     her: ["otjinyo", "otʃiɲo"],
     kj: ["okanya", "okaɲa"],
-    maw: ["noori", "noːri"]
+    maw: ["noori", "noːri"],
+    mdr: ["nganga", "ŋaŋa"],
+    krc: ["аууз", "awuz"],
+    nxq: ["nvlda", "nv̩˥tɑ˧"],
+    bdq: ["ʼbơ̆r", "ɓər"],
+    iru: ["வாயி", "vaːji"]
   }
 };

@@ -1009,6 +1009,9 @@ WORDS.bird = {
     lol: ["ifulu", "ifulu"],
     mev: ["mɔ̀ɔ̀", "mɔ̀ː"],
     zap: ["maniʼ huiiniʼ", "maniʔ wiːniʔ"],
-    maw: ["niiŋŋa", "niːŋːa"]
+    maw: ["niiŋŋa", "niːŋːa"],
+    mdr: ["manu-manuq", "manu manuʔ"],
+    krc: ["къанатлы", "qanatlɯ"],
+    nxq: ["vlssi", "v̩˥ʑi˧"]
   },
 };

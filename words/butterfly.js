@@ -589,6 +589,8 @@ WORDS.butterfly = {
     cab: ["wurigabagaba", "wuɾiɡabaɡaba"],
     ctu: ["pejpem", "pehpem"],
     her: ["otjikaiva", "otʃikaiva"],
-    maw: ["pipibga", "pipibɡa"]
+    maw: ["pipibga", "pipibɡa"],
+    crh: ["köbelek", "købeˈlek"],
+    dv: ["ކޮކާ", "kokaː"]
   },
 };

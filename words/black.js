@@ -934,6 +934,10 @@ WORDS.black = {
     nhe: ["yayahuic", "jaˈjawik"],
     zap: ["nayaaseʼ", "najaːseʔ"],
     cab: ["wuriti", "wuɾiti"],
-    maw: ["sabilli", "sabilli"]
+    maw: ["sabilli", "sabilli"],
+    mdr: ["malotong", "malotoŋ"],
+    nxq: ["naq", "nɑ˨˩"],
+    ami: ["kohtingay", "kohtiŋaj"],
+    bdq: ["găm", "ɡam"]
   },
 };

@@ -1100,6 +1100,8 @@ WORDS.ear = {
     kxc: ["napahata", "napahata"],
     ksh: ["Uhr", "uːɐ"],
     jmc: ["kuri", "kuɾi"],
-    nzi: ["anzo", "anzo"]
+    nzi: ["anzo", "anzo"],
+    nxq: ["heizeeq", "he˧tsɿ˨˩"],
+    bdq: ["đon", "ɗɔːn"]
   },
 };

@@ -660,6 +660,13 @@ WORDS.sea = {
     ebu: ["ĩria", "iɾia"],
     kqn: ["kalunga", "kaluŋɡa"],
     lol: ["lieke jʼokwa", "lieke dʒokwa"],
-    mev: ["mɛ̀ĩ́", "mɛ̀ĩ́"]
+    mev: ["mɛ̀ĩ́", "mɛ̀ĩ́"],
+    nch: ["hueyatl", "ˈwejatɬ"],
+    nhw: ["hueyatl", "ˈwejatɬ"],
+    nhe: ["hueyiatl", "weˈjiatɬ"],
+    zap: ["nisadoʼ", "nisadoʔ"],
+    cak: ["palow", "palow"],
+    ctu: ["ñajb", "ɲahɓ"],
+    maw: ["teeku", "teːku"]
   }
 };

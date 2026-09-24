@@ -1159,6 +1159,8 @@ WORDS.salt = {
     lue: ["mungwa", "muŋɡwa"],
     sgw: ["አሶ", "aso"],
     nzi: ["ngyenle", "ndʑenle"],
-    mev: ["wèĩ", "wèĩ"]
+    mev: ["wèĩ", "wèĩ"],
+    naq: ["ǂōb", "ǂoːp"],
+    maw: ["yaarim", "jaːrim"]
   },
 };

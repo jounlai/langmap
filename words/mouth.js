@@ -797,6 +797,14 @@ WORDS.mouth = {
     nzi: ["nloa", "nloa"],
     kqn: ["kanwa", "kanwa"],
     lol: ["bomwa", "bomwa"],
-    mev: ["lé", "lé"]
+    mev: ["lé", "lé"],
+    nch: ["camactli", "kaˈmaktɬi"],
+    nhw: ["camactli", "kaˈmaktɬi"],
+    nhe: ["camactli", "kaˈmaktɬi"],
+    zap: ["ruaa", "ɾuaː"],
+    guc: ["aaniikii", "aːniːkiː"],
+    her: ["otjinyo", "otʃiɲo"],
+    kj: ["okanya", "okaɲa"],
+    maw: ["noori", "noːri"]
   }
 };

@@ -995,6 +995,7 @@ WORDS.wind = {
     nzi: ["anwoma", "anwoma"],
     kqn: ["lubesha", "lubeʃa"],
     lol: ["impempe", "impempe"],
-    mev: ["fã̀ã̀", "fã̀ː"]
+    mev: ["fã̀ã̀", "fã̀ː"],
+    maw: ["pɛsiŋŋu", "pɛsiŋːu"]
   },
 };

@@ -1006,6 +1006,7 @@ WORDS.sleep = {
     bfa: ["doto", "doto"],
     aja: ["dɔ alɔn", "dɔ alɔ̃"],
     lue: ["kusavala", "kusavala"],
-    lif: ["ᤀᤡᤵᤔᤠ", "ipmaː"]
+    lif: ["ᤀᤡᤵᤔᤠ", "ipmaː"],
+    cab: ["arúmuga", "aˈɾumuɡa"]
   },
 };

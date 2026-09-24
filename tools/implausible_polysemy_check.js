@@ -120,6 +120,63 @@ const ACCEPTED = {
     'niu:bone|foot': 'Niuean ivi is the bone word and the source gives it for '
         + 'both; Polynesian body-part terms extend this way.',
     'blc:star|sun': 'Bella Coola, one source, one form for both luminaries.',
+
+    // --- the foot = wheel class, audited 2026-09-24 ---
+    // The guard was written around these ten rows and expected most of them to
+    // be import damage. Nine were not. The bulk import that produced them
+    // happened to land on languages that really do extend the foot word to the
+    // wheel, and only Kikuyu was wrong — which is why the pair stays in CROSS
+    // and each row gets its own entry instead of one blanket exemption.
+    // (ki is not listed: its cell was corrected to kĩgaragari, so it no longer
+    // matches. Benson 1964 files the wheel sense under the class-shifted
+    // kĩgũrũ/mũgũrũ, not under kũgũrũ, and both Kikuyu Bibles say "kũgũrũ kwa
+    // ngaari", a cart's LEG, with the 1965 Union Version writing "ta kwa",
+    // "such as".)
+    'fj:foot|wheel': 'Fijian yava. Gatty, Fijian-English Dictionary (2009), '
+        + 'gives "yava-na 2. n. wheel" as its own numbered sense of the bare '
+        + 'noun, with "yava ni lori" truck wheel and "yava ni motoka" '
+        + 'motor-car wheel. Post-contact — Hazlewood 1890 has only "the feet" '
+        + 'and no Wheel headword — but lexicalised now.',
+    'loz:foot|wheel': 'Lozi lihutu. Jalla, Silozi-English Dictionary: "(ma-) '
+        + 'n. (1) foot, leg, paw; (2) wheel (wagon, car, etc...) / lihutu la '
+        + 'koloi, wagon wheel." Jalla also has the English loan "wili (li- or '
+        + 'ma-) n. Eng. wheel" — a round-13 pass proposed it as a replacement '
+        + '— but the dictionary files the concept under lihutu.',
+    'mas:foot|wheel': 'Maasai ɛnkɛjʉ́. Payne & Ole-Kotikash, Maa Dictionary, '
+        + 'sense 2: "Wheel or tyre of a vehicle, bicycle, etc."; the '
+        + 'English-Maa index gives "wheel → ɛn-kɛjʉ́" with no competitor.',
+    'saq:foot|wheel': 'Samburu nkɛjʉ́, the same entry in the same dictionary — '
+        + 'its title covers Maasai AND Samburu, and sense 2\'s second example '
+        + 'is the Samburu one, "nkɛjʉ́ ɛ́ nkárrì, tyre of a car (SN)".',
+    'guc:foot|wheel': 'Wayuu ooʼui. SIL Wayuu dictionary (2019) sense 5 "tire '
+        + '/ llanta (de carro)", English index "tire → ooʼui 5"; Captain & '
+        + 'Captain (2005) give "ooʼui ... 4. llanta" and, the other way round, '
+        + '"llanta n.f. ooʼui".',
+    'djr:foot|wheel': 'Djambarrpuyŋu ḻuku. Zorc, Yolŋu-Matha Dictionary '
+        + '(1986) p.163: "foot, feet, toe(s); footprint; [Ext] ... anchor; '
+        + 'wheel, tyre", [Ext] being the dictionary\'s own "extension of '
+        + 'meaning"; ratified in the CDU Yolŋu Matha Dictionary entry 4645. '
+        + 'The synonym djalkiri shows the same extension and the dictionary '
+        + 'has no loan for wheel at all.',
+    'bfa:foot|wheel': 'Bari moköt (pl. mokosi). No dictionary reachable — Owen '
+        + '1908 predates the wheel, Spagnolo 1960 is lending-restricted — but '
+        + 'the Bari Bible uses the bare noun at FIRST mention, not only '
+        + 'anaphorically: Ezekiel 10:9 "mokosi iŋwan ... moköt geleŋ gwon i '
+        + 'merete lo keruba", four wheels, one wheel by one cherub, no vehicle '
+        + 'named. Where a vehicle is named it is "moköt lo arabia", and arabia '
+        + 'is the Arabic loan for the CART.',
+    'mey:foot|wheel': 'Hassaniya كراع krāʕ. Elhoussein, Basic English-Hassaniya '
+        + 'Dictionary p.93: "Wheel : Kraaᶜ (wata)", the lemma being kraaʕ with '
+        + '"car" parenthesised as an optional specifier; the same book gives '
+        + 'Foot : Kraaᶜ and Leg : Gaayma, so the pair really is foot-wheel. '
+        + 'Peace Corps Mauritanian Arabic (1979) p.288: "tire → الكراع الواتة". '
+        + 'Taine-Cheikh cannot be cited here — her dictionary never published '
+        + 'the kāf volume.',
+    'hui:foot|wheel': 'Huli ge, and the weakest of the ten. No lexicon was '
+        + 'reachable; the Huli Bible uses bare ge at first mention — 1 Kings '
+        + '7:30 "gene maria", four bronze wheels with no vehicle noun; Nahum '
+        + '3:2; Exodus 14:25 — while Ezekiel\'s "garo ge" is the cart\'s wheel '
+        + '(garo = cart, Numbers 7:7-8). Revisit if a Huli dictionary surfaces.',
 };
 
 const norm = (s) => String(s || '').trim().toLowerCase().normalize('NFC');

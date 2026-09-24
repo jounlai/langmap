@@ -491,7 +491,7 @@ WORDS.wheel = {
     ak: ["ntwahonan", "ntwahonan"],
     gaa: ["shwiili", "ʃwiːli"],
     nzi: ["ehwili", "ehwili"],
-    ki: ["kũgũrũ", "kuɣuru"],
+    ki: ["kĩgaragari", "kiɣaraɣari"],
     kam: ["ndĩa", "ndia"],
     tn: ["leotwana", "leotwana"],
     ts: ["vhilwa", "vilwa"],
@@ -846,6 +846,7 @@ WORDS.wheel = {
     swg: ["Rad", "rad"],
     lif: ["ᤁᤠᤵᤗᤥ᤺ᤰ", "kaploːk"],
     jmc: ["kireto", "kiɾeto"],
-    ebu: ["nthugũ", "nðuɡu"]
+    ebu: ["nthugũ", "nðuɡu"],
+    zap: ["rueeda", "ɾweːda"]
   },
 };

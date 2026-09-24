@@ -354,6 +354,10 @@ WORDS.chocolate = {
     sah: ["сакалаат", "sakalaːt"],
     tyv: ["шоколад", "ʃokoˈlad"],
     bxr: ["шоколад", "ʃokoˈlad"],
-    ext: ["chocolati", "tʃokoˈlati"]
+    ext: ["chocolati", "tʃokoˈlati"],
+    nch: ["chocolatl", "tʃokoˈlatɬ"],
+    nhw: ["chocolatl", "tʃokoˈlatɬ"],
+    nhe: ["chocolatl", "tʃokoˈlatɬ"],
+    zap: ["dxuladi", "dʒuladi"]
   }
 };

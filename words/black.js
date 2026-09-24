@@ -928,6 +928,12 @@ WORDS.black = {
     nzi: ["bile", "bile"],
     ebu: ["mbirũ", "mbiɾu"],
     kqn: ["fiita", "fiːta"],
-    mev: ["tii", "tiː"]
+    mev: ["tii", "tiː"],
+    nch: ["yayahuic", "jaˈjawik"],
+    nhw: ["yayahuic", "jaˈjawik"],
+    nhe: ["yayahuic", "jaˈjawik"],
+    zap: ["nayaaseʼ", "najaːseʔ"],
+    cab: ["wuriti", "wuɾiti"],
+    maw: ["sabilli", "sabilli"]
   },
 };

@@ -740,6 +740,12 @@ WORDS.person = {
     jmc: ["nndu", "ndu"],
     nzi: ["sonla", "sonla"],
     kqn: ["muntu", "muntu"],
-    lol: ["bonto", "bonto"]
+    lol: ["bonto", "bonto"],
+    nch: ["masehuali", "maseˈwali"],
+    nhw: ["masehuali", "maseˈwali"],
+    nhe: ["tlacatl", "ˈtɬakatɬ"],
+    tzo: ["krixchano", "kriʃtʃano"],
+    zap: ["binni", "binːi"],
+    maw: ["nira", "nira"]
   }
 };

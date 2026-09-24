@@ -581,6 +581,14 @@ WORDS.butterfly = {
     pdt: ["Sommavoagel", "ˈzɔmafoəɡəl"],
     pis: ["bataflae", "bataflae"],
     bi: ["bataflae", "bataflae"],
-    gcf: ["papiyon", "papijɔ̃"]
+    gcf: ["papiyon", "papijɔ̃"],
+    nch: ["papalotl", "paˈpalotɬ"],
+    nhw: ["papalotl", "paˈpalotɬ"],
+    nhe: ["papalotl", "paˈpalotɬ"],
+    zap: ["biguidiʼ", "biɡidiʔ"],
+    cab: ["wurigabagaba", "wuɾiɡabaɡaba"],
+    ctu: ["pejpem", "pehpem"],
+    her: ["otjikaiva", "otʃikaiva"],
+    maw: ["pipibga", "pipibɡa"]
   },
 };

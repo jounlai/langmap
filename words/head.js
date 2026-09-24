@@ -835,6 +835,16 @@ WORDS.head = {
     nzi: ["ti", "ti"],
     kqn: ["mutwe", "mutwe"],
     lol: ["botsa", "botsa"],
-    mev: ["wũ-kèlè", "wũkèlè"]
+    mev: ["wũ-kèlè", "wũkèlè"],
+    nch: ["tzontecomitl", "tsonteˈkomitɬ"],
+    nhw: ["tzontecomitl", "tsonteˈkomitɬ"],
+    nhe: ["tzontecomitl", "tsonteˈkomitɬ"],
+    zap: ["ique", "ike"],
+    cab: ["ichǘgü", "iˈtʃɨɡɨ"],
+    cak: ["jolom", "xolom"],
+    ctu: ["jol", "hol"],
+    her: ["otjiuru", "otʃiuru"],
+    kj: ["omutwe", "omutwe"],
+    maw: ["zugu", "zuɡu"]
   },
 };

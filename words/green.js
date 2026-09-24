@@ -626,6 +626,11 @@ WORDS.green = {
     tyv: ["ногаан", "noɣaːn"],
     pis: ["grin", "ɡrin"],
     rup: ["veardi", "ˈve̯ardi"],
-    udm: ["вож", "voʒ"]
+    udm: ["вож", "voʒ"],
+    nch: ["xoxohuic", "ʃoˈʃowik"],
+    nhw: ["xoxohuic", "ʃoˈʃowik"],
+    nhe: ["xoxoctic", "ʃoˈʃoktik"],
+    tzo: ["yaxal", "jaʃal"],
+    zap: ["naberde", "naberde"]
   }
 };

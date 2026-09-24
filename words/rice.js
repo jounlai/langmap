@@ -539,6 +539,8 @@ WORDS.rice = {
     pdc: ["Reis", "raɪs"],
     pis: ["raes", "raes"],
     ext: ["arrós", "aˈros"],
-    udm: ["рис", "ris"]
+    udm: ["рис", "ris"],
+    guc: ["roo", "roː"],
+    ctu: ["arus", "aɾus"]
   }
 };

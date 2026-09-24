@@ -725,6 +725,10 @@ WORDS.horse = {
     nzi: ["ɛkpɔnwɔ", "ɛkpɔnwɔ"],
     ebu: ["mbarathi", "mbaɾaði"],
     kqn: ["mbili", "mbili"],
-    mev: ["sòo", "sòː"]
+    mev: ["sòo", "sòː"],
+    nhw: ["cahuayoj", "kaˈwajoh"],
+    cab: ["gabáyu", "ɡaˈbaju"],
+    her: ["okakambe", "okakambe"],
+    maw: ["yoofu", "joːfu"]
   }
 };

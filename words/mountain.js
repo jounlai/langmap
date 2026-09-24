@@ -668,6 +668,14 @@ WORDS.mountain = {
     nzi: ["boka", "boka"],
     kqn: ["mutumba", "mutumba"],
     lol: ["ngongo", "ŋɡoŋɡo"],
-    mev: ["tɔ̃̀ũ̀", "tɔ̃̀ũ̀"]
+    mev: ["tɔ̃̀ũ̀", "tɔ̃̀ũ̀"],
+    nhw: ["tepetl", "ˈtepeːtɬ"],
+    nhe: ["tepetl", "ˈtepeːtɬ"],
+    tzo: ["vits", "vits"],
+    zap: ["dani", "dani"],
+    cab: ["wǘbü", "ˈwɨbɨ"],
+    ote: ["tʼøhø", "tʼøhø"],
+    naq: ["ǃhommi", "ǃʰomːi"],
+    maw: ["zoori", "zoːri"]
   }
 };

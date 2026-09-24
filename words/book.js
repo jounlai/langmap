@@ -690,6 +690,12 @@ WORDS.book = {
     ebu: ["ĩvuku", "ivuku"],
     kqn: ["buku", "buku"],
     lol: ["bonkanda", "bonkanda"],
-    mev: ["kii", "kiː"]
+    mev: ["kii", "kiː"],
+    nhw: ["libro", "ˈlibro"],
+    nhe: ["amoxtli", "aˈmoʃtɬi"],
+    guc: ["karaloukta", "karaloukta"],
+    cab: ["líburu", "ˈlibuɾu"],
+    ctu: ["jun", "hun"],
+    maw: ["bukku", "bukːu"]
   }
 };

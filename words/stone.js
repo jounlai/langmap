@@ -1017,6 +1017,8 @@ WORDS.stone = {
     inh: ["кхера", "ˈqie̯ra"],
     nzi: ["bolɛ", "bolɛ"],
     lol: ["ekenje", "ekendʒe"],
-    mev: ["gɛ̀lɛ̀", "ɡɛ̀lɛ̀"]
+    mev: ["gɛ̀lɛ̀", "ɡɛ̀lɛ̀"],
+    zap: ["guie", "ɡie"],
+    ctu: ["xajlel", "ʃahlel"]
   },
 };

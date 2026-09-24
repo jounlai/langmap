@@ -635,11 +635,16 @@ line('no new intra-row duplicate', num(s, /violations: (\d+)/), num(s, /stale: (
 // of after: it looks only where a shared form is a claim (two numerals, two
 // colours, two body parts, two kin terms, two pronouns, two things in the
 // sky, plus a named list of impossible cross pairs), and everything it catches
-// needs written evidence in its ACCEPTED table. 310 becomes 10, and the 10 are
-// all the wheel class, under research.
+// needs written evidence in its ACCEPTED table. 310 became 10, all of them the
+// wheel class, and the audit of those ten on 2026-09-24 is the argument for
+// doing it this way: NINE were genuine polysemy — Fijian, Lozi, Maasai,
+// Samburu, Wayuu, Djambarrpuyngu, Bari, Hassaniya and Huli all really do
+// extend the foot word to the wheel, five of them with a dictionary sense
+// numbered for it — and only Kikuyu was wrong. A blanket exemption would have
+// hidden the one; a blanket rejection would have deleted the nine. The budget
+// is 0 and stays 0: every future hit gets read.
 s = run('implausible_polysemy_check.js --check');
-line('a shared form that is a claim', num(s, /violations: (\d+)/) > 10 ? num(s, /violations: (\d+)/) : 0,
-    `${num(s, /violations: (\d+)/)} open, budget 10 (the foot = wheel class)`);
+line('a shared form that is a claim', num(s, /violations: (\d+)/));
 
 s = run('route_coverage_check.js --check');
 line('route colouring complete', num(s, /violations: (\d+)/));

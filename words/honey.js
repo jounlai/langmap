@@ -943,6 +943,11 @@ WORDS.honey = {
     enq: ["oni", "oni"],
     nzi: ["wolɛ", "wolɛ"],
     kqn: ["buki", "buki"],
-    mev: ["zɔ́ɔ́ nyɔ́nɔ́", "zɔ́ː ɲɔ́nɔ́"]
+    mev: ["zɔ́ɔ́ nyɔ́nɔ́", "zɔ́ː ɲɔ́nɔ́"],
+    tzo: ["pom", "pom"],
+    zap: ["dxiña yaga", "dʒiɲa jaɡa"],
+    cab: ["maba", "maba"],
+    naq: ["danis", "danis"],
+    maw: ["sikpaam", "sikpaːm"]
   },
 };

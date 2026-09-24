@@ -829,6 +829,15 @@ WORDS.new = {
     jmc: ["shiiya", "ʃiːja"],
     nzi: ["fofolɛ", "fofolɛ"],
     kqn: ["kipya", "kipja"],
-    mev: ["dɛɛ", "dɛː"]
+    mev: ["dɛɛ", "dɛː"],
+    nch: ["yancuic", "ˈjankʷik"],
+    nhw: ["yancuic", "ˈjankʷik"],
+    nhe: ["yancuic", "ˈjankʷik"],
+    zap: ["nacubi", "nakubi"],
+    cab: ["iséri", "iˈseɾi"],
+    cak: ["kʼakʼaʼ", "kʼakʼaʔ"],
+    ctu: ["tsijiʼ", "tsihiʔ"],
+    her: ["pe", "pe"],
+    maw: ["paalli", "paːli"]
   },
 };

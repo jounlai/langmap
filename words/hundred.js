@@ -955,6 +955,11 @@ WORDS.hundred = {
     pis: ["handred", "handred"],
     bi: ["handred", "handred"],
     nzi: ["ɛya", "ɛja"],
-    kqn: ["kitota", "kitota"]
+    kqn: ["kitota", "kitota"],
+    tzo: ["joʼvinik", "hoʔvinik"],
+    zap: ["gayuaa", "ɡajuaː"],
+    guc: ["poloo shikii", "poloː ʃikiː"],
+    ctu: ["joʼkʼal", "hoʔkʼal"],
+    maw: ["kɔbga", "kɔbɡa"]
   },
 };

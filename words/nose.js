@@ -1044,6 +1044,8 @@ WORDS.nose = {
     dar: ["къянкъ", "qːjanqː"],
     nzi: ["bonyi", "boɲi"],
     kqn: ["moona", "moːna"],
-    lol: ["jolo", "dʒolo"]
+    lol: ["jolo", "dʒolo"],
+    zap: ["xii", "ʃiː"],
+    maw: ["nyoori", "ɲoːri"]
   },
 };

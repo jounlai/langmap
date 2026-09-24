@@ -921,6 +921,11 @@ WORDS.iron = {
     ksh: ["Ieser", "ˈiːzɐ"],
     arn: ["pañilwe", "paɲilwe"],
     enq: ["aene", "aene"],
-    nzi: ["bulalɛ", "bulalɛ"]
+    nzi: ["bulalɛ", "bulalɛ"],
+    tzo: ["tzatzal takʼin", "tsatsal takʼin"],
+    zap: ["guiibaʼ", "ɡiːbaʔ"],
+    guc: ["kachueera", "katʃueːra"],
+    cab: ["gürábu", "ɡɨˈɾabu"],
+    cak: ["chʼichʼ", "tʃʼitʃʼ"]
   },
 };

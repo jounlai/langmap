@@ -607,6 +607,13 @@ WORDS.poop = {
     udm: ["сӥть", "sitʲ"],
     jmc: ["maafi", "maːfi"],
     nzi: ["ebinli", "ebinli"],
-    lol: ["nkwa", "nkwa"]
+    lol: ["nkwa", "nkwa"],
+    nch: ["cuitlatl", "ˈkʷitɬatɬ"],
+    nhw: ["cuitlatl", "ˈkʷitɬatɬ"],
+    nhe: ["cuitlatl", "ˈkʷitɬatɬ"],
+    tzo: ["tzoʼ", "tsoʔ"],
+    zap: ["guiʼ", "ɡiʔ"],
+    guc: ["achaʼa", "atʃaʔa"],
+    ctu: ["taʼ", "taʔ"]
   },
 };

@@ -946,6 +946,10 @@ WORDS.milk = {
     nzi: ["nyɛfonzule", "ɲɛfonzule"],
     kqn: ["mukaka", "mukaka"],
     lol: ["baele", "baele"],
-    mev: ["nyɔ́-yíí", "ɲɔ́jíː"]
+    mev: ["nyɔ́-yíí", "ɲɔ́jíː"],
+    guc: ["leechi", "leːtʃi"],
+    cab: ["miligi", "miliɡi"],
+    her: ["omaihi", "omaihi"],
+    maw: ["bisim", "bisim"]
   },
 };

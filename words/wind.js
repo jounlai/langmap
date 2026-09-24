@@ -985,6 +985,16 @@ WORDS.wind = {
     aja: ["aya", "aja"],
     lue: ["peho", "peho"],
     sgs: ["vies", "vʲieːs"],
-    xmf: ["ბორია", "boria"]
+    xmf: ["ბორია", "boria"],
+    lif: ["ᤛᤢᤖᤡᤳ", "surit"],
+    sgw: ["ንፋስ", "nɨfas"],
+    kxc: ["puppeeta", "pupːeːta"],
+    ses: ["hew", "hew"],
+    enq: ["poo", "poː"],
+    jmc: ["uraato", "uɾaːto"],
+    nzi: ["anwoma", "anwoma"],
+    kqn: ["lubesha", "lubeʃa"],
+    lol: ["impempe", "impempe"],
+    mev: ["fã̀ã̀", "fã̀ː"]
   },
 };

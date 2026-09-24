@@ -1124,6 +1124,7 @@ WORDS.four = {
     pcc: ["sis", "si˧˥"],
     mtq: ["pổn", "pon"],
     ngl: ["xexe", "ʃeʃe"],
-    khb: ["ᦉᦲᧈ", "siː˧˥"]
+    khb: ["ᦉᦲᧈ", "siː˧˥"],
+    kqn: ["bana", "bana"]
   },
 };

@@ -1044,6 +1044,9 @@ WORDS.daughter = {
     aja: ["vi nyɔnuvi", "vi ɲɔnuvi"],
     rcf: ["fiy", "fij"],
     xmf: ["ცირასქუა", "tsiraskua"],
-    kea: ["fidja", "ˈfidʒɐ"]
+    kea: ["fidja", "ˈfidʒɐ"],
+    pis: ["dota", "dota"],
+    lol: ["bona owʼomoto", "bona owomoto"],
+    mev: ["lú", "lú"]
   },
 };

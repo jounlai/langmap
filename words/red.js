@@ -290,7 +290,7 @@ WORDS.red = {
     zu: ["bomvu", "ɓoːmvu"],
     am: ["ቀይ", "qɐj"],
     aiw: ["zoʼi", "zoʔi"],
-    sgw: ["ቀይ", "qɐj"],
+    sgw: ["ዳማ", "dama"],
     mg: ["mena", "ˈmena"],
     ain: ["フレ", "hure"],
     fi: ["punainen", "ˈpunɑinen"],

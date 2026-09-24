@@ -995,6 +995,18 @@ WORDS.bird = {
     ng: ["ondhila", "onðila"],
     lue: ["kajila", "kadʒila"],
     pcd: ["oizo", "wazo"],
-    xmf: ["ჩიტი", "tʃitʼi"]
+    xmf: ["ჩიტი", "tʃitʼi"],
+    lif: ["ᤐᤢᤛᤠ", "pusaː"],
+    adi: ["pettang", "pettaŋ"],
+    sgw: ["አን", "an"],
+    kxc: ["χampira", "χampira"],
+    ssy: ["kimbir", "kimbir"],
+    pis: ["bed", "bed"],
+    ses: ["ciraw", "tʃiraw"],
+    nzi: ["anloma", "anloma"],
+    ebu: ["gĩconi", "ɡitʃoni"],
+    kqn: ["ñonyi", "ɲoɲi"],
+    lol: ["ifulu", "ifulu"],
+    mev: ["mɔ̀ɔ̀", "mɔ̀ː"]
   },
 };

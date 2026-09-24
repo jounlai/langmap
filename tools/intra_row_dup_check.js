@@ -170,6 +170,15 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // *pʰa 'dog' and *pʰa 'five' apart only in a few lects, and the 'hand' noun
 // and the 2sg pronoun likewise fall together in Ha Hlai. Both pairs are
 // printed as such in the ABVD list this row uses.
+// 2026-09-24: accepts sah күөх = blue + green, and it is a decision rather
+// than a discovery. Sakha күөх is a grue term; the row already spent it on
+// blue, and the slice that filled green offered "от күөх", grass-green, from
+// the Sakha Wikipedia's colour article. That article is the argument against
+// itself: the same wiki writes халлаан күөх, sky-blue, so the language
+// modifies the one term in BOTH directions, which is what a grue system looks
+// like and not what a separate green lexeme looks like. Thirty-one rows on
+// this map already carry the shared term in both cells. Splitting Sakha alone
+// would have made it the exception for the sake of a counter.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

@@ -1095,6 +1095,11 @@ WORDS.ear = {
     bfa: ["swot", "swot"],
     aja: ["eto", "eto"],
     lue: ["litwitwi", "litwitwi"],
-    pcd: ["eureille", "œʁɛj"]
+    pcd: ["eureille", "œʁɛj"],
+    lif: ["ᤏᤧᤰᤂᤥ᤹", "nɛkkʰoʔ"],
+    kxc: ["napahata", "napahata"],
+    ksh: ["Uhr", "uːɐ"],
+    jmc: ["kuri", "kuɾi"],
+    nzi: ["anzo", "anzo"]
   },
 };

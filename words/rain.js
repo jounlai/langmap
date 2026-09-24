@@ -1004,6 +1004,12 @@ WORDS.rain = {
     tll: ["mvula", "mvula"],
     bfa: ["kudu", "kudu"],
     spp: ["zanha", "zanha"],
-    cbk: ["ulan", "uˈlan"]
+    cbk: ["ulan", "uˈlan"],
+    lif: ["ᤘᤜᤡᤳ", "wahit"],
+    adi: ["pedong", "pedoŋ"],
+    sgw: ["ዝራብ", "zɨrab"],
+    kxc: ["roopa", "roːpa"],
+    ses: ["ncirɲi", "ntʃirɲi"],
+    nzi: ["ezule", "ezule"]
   },
 };

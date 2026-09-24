@@ -949,6 +949,12 @@ WORDS.hundred = {
     sgs: ["šimts", "ʃʲɪmts"],
     dar: ["даршал", "darʃal"],
     ady: ["шъэ", "ʂa"],
-    swg: ["hondrd", "ˈhondɐd"]
+    swg: ["hondrd", "ˈhondɐd"],
+    lif: ["ᤁᤡᤵ", "kip"],
+    pdt: ["hundat", "ˈhʊndat"],
+    pis: ["handred", "handred"],
+    bi: ["handred", "handred"],
+    nzi: ["ɛya", "ɛja"],
+    kqn: ["kitota", "kitota"]
   },
 };

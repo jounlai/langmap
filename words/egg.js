@@ -971,6 +971,11 @@ WORDS.egg = {
     spp: ["nɔngyaa", "nɔŋɡʲaː"],
     ng: ["eyi", "eji"],
     lue: ["liulu", "liulu"],
-    pcd: ["uë", "y"]
+    pcd: ["uë", "y"],
+    lif: ["ᤘᤠᤎᤡ᤺", "waːdiː"],
+    kxc: ["hukuukka", "hukuːkːa"],
+    nzi: ["kolonvia", "kolonvia"],
+    kqn: ["jike", "dʒike"],
+    lol: ["bokele", "bokele"]
   },
 };

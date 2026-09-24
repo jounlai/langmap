@@ -1158,6 +1158,10 @@ WORDS.white = {
     gaa: ["yɛŋ", "jɛŋ"],
     bfa: ["lokwe", "lokwe"],
     aja: ["ɣi", "ɣi"],
-    lue: ["chitoma", "tʃitoma"]
+    lue: ["chitoma", "tʃitoma"],
+    lif: ["ᤑᤍᤠᤱᤒᤠ", "pʰadaŋba"],
+    sgw: ["ነጨ", "nɐtʃʼɐ"],
+    kxc: ["ata", "ata"],
+    mev: ["púlú", "púlú"]
   },
 };

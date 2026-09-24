@@ -1011,6 +1011,12 @@ WORDS.stone = {
     bfa: ["ŋurupit", "ŋurupit"],
     ttj: ["ibaale", "iβaːle"],
     spp: ["kafaa", "kafaː"],
-    hwc: ["stone", "stoʊn"]
+    hwc: ["stone", "stoʊn"],
+    sgw: ["እምር", "ɨmɨr"],
+    kxc: ["daka", "daka"],
+    inh: ["кхера", "ˈqie̯ra"],
+    nzi: ["bolɛ", "bolɛ"],
+    lol: ["ekenje", "ekendʒe"],
+    mev: ["gɛ̀lɛ̀", "ɡɛ̀lɛ̀"]
   },
 };

@@ -843,6 +843,9 @@ WORDS.wheel = {
     nia: ["gaolo-gaolo", "ɡaoloɡaolo"],
     tji: ["cielunzi", "tsʰie˥˥luən˨˩tsi˨˩"],
     pnt: ["ρόδα", "ˈroða"],
-    swg: ["Rad", "rad"]
+    swg: ["Rad", "rad"],
+    lif: ["ᤁᤠᤵᤗᤥ᤺ᤰ", "kaploːk"],
+    jmc: ["kireto", "kiɾeto"],
+    ebu: ["nthugũ", "nðuɡu"]
   },
 };

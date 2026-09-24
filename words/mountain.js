@@ -648,6 +648,26 @@ WORDS.mountain = {
     xmf: ["გვალა", "ɡvala"],
     swg: ["Berg", "bɛrɡ"],
     kea: ["monti", "ˈmõti"],
-    hwc: ["mountain", "maʊntən"]
+    hwc: ["mountain", "maʊntən"],
+    sah: ["хайа", "xaja"],
+    tyv: ["даг", "daɣ"],
+    lif: ["ᤁᤥ᤺ᤰᤔᤠ", "koːkmaː"],
+    xsr: ["རི", "ri"],
+    sgw: ["ቈቶ", "kʼʷɐto"],
+    kxc: ["irroota", "irːoːta"],
+    ksh: ["Berch", "bɛʁɕ"],
+    pdt: ["Boajch", "boajç"],
+    pis: ["maonden", "maonden"],
+    ses: ["tondi hondu", "tondi hondu"],
+    bi: ["maunten", "maunten"],
+    ext: ["montaña", "monˈtaɲa"],
+    rup: ["munti", "ˈmunti"],
+    udm: ["гурезь", "ɡurezʲ"],
+    enq: ["yuu manda", "juː manda"],
+    jmc: ["ifumbu", "ifumbu"],
+    nzi: ["boka", "boka"],
+    kqn: ["mutumba", "mutumba"],
+    lol: ["ngongo", "ŋɡoŋɡo"],
+    mev: ["tɔ̃̀ũ̀", "tɔ̃̀ũ̀"]
   }
 };

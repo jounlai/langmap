@@ -913,6 +913,14 @@ WORDS.iron = {
     pnt: ["σίδερον", "ˈsiðeron"],
     swg: ["Eisa", "ˈaɪsa"],
     kea: ["féru", "ˈfɛɾu"],
-    hwc: ["iron", "aɪən"]
+    hwc: ["iron", "aɪən"],
+    lif: ["ᤑᤧᤴᤈᤣ᤹", "pʰɛndʒɛʔ"],
+    sgw: ["ብረት", "bɨrɐt"],
+    kxc: ["sipla", "sipla"],
+    ssy: ["birit", "birit"],
+    ksh: ["Ieser", "ˈiːzɐ"],
+    arn: ["pañilwe", "paɲilwe"],
+    enq: ["aene", "aene"],
+    nzi: ["bulalɛ", "bulalɛ"]
   },
 };

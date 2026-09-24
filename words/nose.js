@@ -1041,6 +1041,9 @@ WORDS.nose = {
     gaa: ["gugɔŋ", "ɡuɡɔŋ"],
     tll: ["ohembe", "ohembe"],
     lue: ["lizulu", "lizulu"],
-    dar: ["къянкъ", "qːjanqː"]
+    dar: ["къянкъ", "qːjanqː"],
+    nzi: ["bonyi", "boɲi"],
+    kqn: ["moona", "moːna"],
+    lol: ["jolo", "dʒolo"]
   },
 };

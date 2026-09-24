@@ -531,6 +531,14 @@ WORDS.rice = {
     sgs: ["rīžā", "riːʒaː"],
     dar: ["биринж", "birinʒ"],
     xmf: ["ორზა", "orza"],
-    kea: ["arôs", "ɐˈɾos"]
+    kea: ["arôs", "ɐˈɾos"],
+    sah: ["рис", "ris"],
+    tyv: ["рис", "ris"],
+    bxr: ["сагаан будаа", "saɡaːn budaː"],
+    fj: ["raisi", "raisi"],
+    pdc: ["Reis", "raɪs"],
+    pis: ["raes", "raes"],
+    ext: ["arrós", "aˈros"],
+    udm: ["рис", "ris"]
   }
 };

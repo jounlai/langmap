@@ -597,6 +597,16 @@ WORDS.poop = {
     swg: ["Schdingr", "ˈʃdɪŋɐ"],
     fy: ["kak", "kɑk"],
     kea: ["kaka", "ˈkakɐ"],
-    hwc: ["doodoo", "dudu"]
+    hwc: ["doodoo", "dudu"],
+    sah: ["саах", "saːx"],
+    kum: ["покъ", "poq"],
+    fj: ["de", "nde"],
+    pdt: ["Kak", "kak"],
+    inh: ["бид", "bid"],
+    rup: ["cãcat", "kəˈkat"],
+    udm: ["сӥть", "sitʲ"],
+    jmc: ["maafi", "maːfi"],
+    nzi: ["ebinli", "ebinli"],
+    lol: ["nkwa", "nkwa"]
   },
 };

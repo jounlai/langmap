@@ -350,6 +350,10 @@ WORDS.chocolate = {
     sgs: ["čėkuolads", "tʃʲeːkuoˈlads"],
     rue: ["чоколада", "tʃokoˈlada"],
     dar: ["шоколад", "ʃokoˈlad"],
-    swg: ["Schoklad", "ʃoˈklaːd"]
+    swg: ["Schoklad", "ʃoˈklaːd"],
+    sah: ["сакалаат", "sakalaːt"],
+    tyv: ["шоколад", "ʃokoˈlad"],
+    bxr: ["шоколад", "ʃokoˈlad"],
+    ext: ["chocolati", "tʃokoˈlati"]
   }
 };

@@ -813,7 +813,7 @@ WORDS.snow = {
     ses: ["neeži", "neːʒi"], // French neige
     ig: ["snoo", "sinoː"], // English loan
     ee: ["sno", "sno"], // English loan — Westermann
-    kxc: ["apteenta", "apteːnta"],
+    kxc: ["fuuttota", "fuːtːota"],
     mg: ["oram-panala", "uramˈpanala"], // orana rain + fanala hoar-frost
     iba: ["seleju", "səledʒu"], // Malay salji < Arabic
     ilo: ["niebe", "ˈnjebe"], // Spanish nieve
@@ -883,6 +883,9 @@ WORDS.snow = {
     kac: ["hkyen", "kʰjen˧"],
     yua: ["nieve", "njebe"],
     mam: ["txa cheʼw", "tʃa tʃeʔw"],
-    rcf: ["nèj", "nɛʒ"]
+    rcf: ["nèj", "nɛʒ"],
+    fj: ["uca vulavula", "uða βulaβula"],
+    adi: ["tapam", "tapam"],
+    gcf: ["lannèj", "lanɛʒ"]
   },
 };

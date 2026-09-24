@@ -933,6 +933,16 @@ WORDS.honey = {
     rcf: ["domiel", "domjɛl"],
     pnt: ["μέλ", "mel"],
     swg: ["Honig", "ˈhoːnɪɡ"],
-    hwc: ["honey", "hʌni"]
+    hwc: ["honey", "hʌni"],
+    fj: ["oni", "oni"],
+    lif: ["ᤛᤰᤘᤠᤄᤢ", "sakwaːɡu"],
+    sgw: ["ውየ", "wɨjɐ"],
+    kxc: ["takma", "takma"],
+    ksh: ["Honnich", "ˈhɔnɪɕ"],
+    pis: ["hani", "hani"],
+    enq: ["oni", "oni"],
+    nzi: ["wolɛ", "wolɛ"],
+    kqn: ["buki", "buki"],
+    mev: ["zɔ́ɔ́ nyɔ́nɔ́", "zɔ́ː ɲɔ́nɔ́"]
   },
 };

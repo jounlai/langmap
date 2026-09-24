@@ -621,6 +621,11 @@ WORDS.green = {
     dar: ["шиниша", "ʃiniʃa"],
     xmf: ["წვანე", "tsʼvane"],
     swg: ["grea", "ɡreə̯"],
-    hwc: ["green", "ɡɹiːn"]
+    hwc: ["green", "ɡɹiːn"],
+    sah: ["күөх", "kyˈøx"],
+    tyv: ["ногаан", "noɣaːn"],
+    pis: ["grin", "ɡrin"],
+    rup: ["veardi", "ˈve̯ardi"],
+    udm: ["вож", "voʒ"]
   }
 };

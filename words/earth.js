@@ -1077,6 +1077,14 @@ WORDS.earth = {
     tll: ["kete", "kete"],
     bfa: ["kak", "kak"],
     ng: ["evi", "evi"],
-    lue: ["mavu", "mavu"]
+    lue: ["mavu", "mavu"],
+    lif: ["ᤂᤠᤶ", "kʰam"],
+    sgw: ["አፈር", "afɐr"],
+    kxc: ["piita", "piːta"],
+    jmc: ["uteri", "uteɾi"],
+    ebu: ["mũthetu", "muðetu"],
+    kqn: ["mushiji", "muʃidʒi"],
+    lol: ["bamoci", "bamotʃi"],
+    mev: ["sɛ́lɛ́", "sɛ́lɛ́"]
   },
 };

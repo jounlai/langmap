@@ -939,6 +939,13 @@ WORDS.milk = {
     pcd: ["lait", "lɛ"],
     wa: ["laecea", "lɛˈsja"],
     rcf: ["dolé", "dole"],
-    swg: ["Millich", "ˈmɪlɪç"]
+    swg: ["Millich", "ˈmɪlɪç"],
+    ssy: ["xan", "ħan"],
+    ksh: ["Milesch", "ˈmɪləʃ"],
+    bi: ["melek", "melek"],
+    nzi: ["nyɛfonzule", "ɲɛfonzule"],
+    kqn: ["mukaka", "mukaka"],
+    lol: ["baele", "baele"],
+    mev: ["nyɔ́-yíí", "ɲɔ́jíː"]
   },
 };

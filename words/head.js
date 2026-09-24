@@ -852,6 +852,22 @@ WORDS.head = {
     dv: ["ބޯ", "boː"],
     saq: ["nkue", "ŋkue"],
     bru: ["plỡ", "plɤ"],
-    cnh: ["lu", "lu"]
+    cnh: ["lu", "lu"],
+    rwk: ["nrwe", "nɾwe"],
+    bzj: ["hed", "hɛd"],
+    tly: ["sə", "sə"],
+    ja_oki: ["頭", "tɕiburu"],
+    lbj: ["མགོ", "ɡo"],
+    ho: ["kwarana", "kʷarana"],
+    adi: ["dumpo", "dumpo"],
+    nv: ["atsiitsʼiin", "atsiːtsʼiːn"],
+    ngu: ["tzontecomitl", "tsonteˈkomitɬ"],
+    gym: ["dokwä", "dokwɨ"],
+    frp: ["téta", "ˈteta"],
+    ab: ["ахы", "aχə"],
+    lzz: ["თი", "tʰi"],
+    kfx: ["मुँडी", "mũɖiː"],
+    hns: ["muri", "muːɽiː"],
+    hui: ["hagua", "haɡua"]
   },
 };

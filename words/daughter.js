@@ -1049,6 +1049,7 @@ WORDS.daughter = {
     lol: ["bona owʼomoto", "bona owomoto"],
     mev: ["lú", "lú"],
     bdq: ["kon adruh", "kɔːn ʔadruh"],
-    bru: ["con mansễm", "kɔn mənsem"]
+    bru: ["con mansễm", "kɔn mənsem"],
+    lzz: ["ბოზომოთა", "bozomotʰa"]
   },
 };

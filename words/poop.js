@@ -622,6 +622,15 @@ WORDS.poop = {
     saq: ["nkik", "ŋkik"],
     bru: ["créq", "kreʔ"],
     cnh: ["ek", "ʔek"],
-    bdq: ["ĭch", "ic"]
+    bdq: ["ĭch", "ic"],
+    iso: ["isọ", "isɔ"],
+    gaa: ["wamɔ", "wamɔ"],
+    bxr: ["бааһан", "baːhaŋ"],
+    ho: ["kukuri", "kukuri"],
+    szl: ["gōwno", "ˈɡovnɔ"],
+    co: ["caca", "ˈkaka"],
+    hui: ["time", "time"],
+    pdc: ["Mischt", "mɪʃt"],
+    mhr: ["шур", "ʃur"]
   },
 };

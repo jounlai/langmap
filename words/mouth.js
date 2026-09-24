@@ -813,6 +813,18 @@ WORDS.mouth = {
     iru: ["வாயி", "vaːji"],
     saq: ["nkutuk", "ŋkutuk"],
     bru: ["bỗq", "ɓoʔ"],
-    cnh: ["kaa", "kaː"]
+    cnh: ["kaa", "kaː"],
+    rwk: ["kana", "kana"],
+    iso: ["unu", "unu"],
+    lbj: ["ཁ", "kʰa"],
+    gag: ["aaz", "aːz"],
+    ho: ["uduna", "uduna"],
+    ngu: ["camactli", "kaˈmaktɬi"],
+    tzo: ["e", "e"],
+    gym: ["kada", "kada"],
+    frp: ["boche", "ˈbotʃe"],
+    tab: ["ушв", "uʃv"],
+    kfx: ["मुँह", "mũh"],
+    hns: ["muh", "mũːh"]
   }
 };

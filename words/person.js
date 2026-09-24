@@ -749,6 +749,15 @@ WORDS.person = {
     maw: ["nira", "nira"],
     crh: ["adam", "aˈdam"],
     saq: ["ltungani", "ltuŋani"],
-    bru: ["cũai", "kuaj"]
+    bru: ["cũai", "kuaj"],
+    rwk: ["nndu", "ndu"],
+    ja_oki: ["人", "ttɕu"],
+    ho: ["taunimanima", "taunimanima"],
+    ngu: ["tlacatl", "ˈtɬakatɬ"],
+    gym: ["ni", "ni"],
+    tab: ["инсан", "insan"],
+    kfx: ["मांहणु", "mãːɦɳuː"],
+    hns: ["manai", "mənai"],
+    myv: ["ломань", "ˈlomanʲ"]
   }
 };

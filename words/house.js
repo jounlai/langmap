@@ -749,7 +749,7 @@ WORDS.house = {
     jqr: ["uta", "uta"],
     cni: ["pankotsi", "paŋkotsi"],
     ame: ["pamoñ", "pamoɲ"],
-    gym: ["ju", "dʒu"],
+    gym: ["ju", "hu"],
     yan: ["utla", "utla"],
     jiv: ["jea", "hea"],
     agr: ["jegámu", "heɡámu"],

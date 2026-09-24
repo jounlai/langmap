@@ -889,6 +889,13 @@ WORDS.snow = {
     gcf: ["lannèj", "lanɛʒ"],
     ttj: ["ebirika", "eβirika"],
     nyo: ["ebirika", "eβirika"],
-    her: ["ovitutukende", "ovitutukende"]
+    her: ["ovitutukende", "ovitutukende"],
+    rim: ["seluji", "seludʒi"],
+    jmc: ["kyaamwi", "kjaːmwi"],
+    rwk: ["mboṛongo", "mboɾoŋɡo"],
+    ja_oki: ["雪", "jutɕi"],
+    ty: ["hiona", "hiona"],
+    ngu: ["nieve", "ˈnjebe"],
+    kfx: ["हिंऊँ", "hĩũ"]
   },
 };

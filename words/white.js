@@ -1165,6 +1165,9 @@ WORDS.white = {
     mev: ["púlú", "púlú"],
     mdr: ["mapute", "mapute"],
     nxq: ["perq", "pʰɚ˨˩"],
-    vai: ["ꗬ", "kpɛ"]
+    vai: ["ꗬ", "kpɛ"],
+    rwk: ["sheelwa", "ʃeːlwa"],
+    adi: ["yalun", "jalun"],
+    kfx: ["शेता", "ʃetaː"]
   },
 };

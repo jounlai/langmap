@@ -700,7 +700,7 @@ WORDS.hundred = {
     sms: ["čuâđ", "tʃuaʰtʲ"],
     sma: ["tjuetie", "tɕuødie"],
     yai: ["sad", "sad"],
-    tly: ["sə", "sæ"],
+    tly: ["sa", "sa"],
     luz: ["sad", "sað"],
     hif: ["sau", "səu"],
     hoc: ["sao", "sao"],   // borrowed from the Indo-Aryan neighbours, beside a native vigesimal mi hisi
@@ -963,6 +963,17 @@ WORDS.hundred = {
     maw: ["kɔbga", "kɔbɡa"],
     ami: ["smoʼot", "smoʔot"],
     vai: ["ꖽꗒ", "hɔnɗɔ"],
-    spp: ["ŋkuu", "ŋkuː"]
+    spp: ["ŋkuu", "ŋkuː"],
+    rwk: ["iyana", "ijana"],
+    bzj: ["honjrid", "hɔndʒɾɪd"],
+    nch: ["cien", "sjen"],
+    nhw: ["cien", "sjen"],
+    nhe: ["cien", "sjen"],
+    ngu: ["ciento", "ˈsjento"],
+    gym: ["gre ketarike", "ɡɾe ketaɾike"],
+    lzz: ["ოში", "oʃi"],
+    hns: ["sau", "səu"],
+    hui: ["handari", "handari"],
+    tab: ["варж", "varʒ"]
   },
 };

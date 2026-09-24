@@ -943,6 +943,18 @@ WORDS.black = {
     vai: ["ꔱꘋ", "fiŋ"],
     kj: ["laula", "laula"],
     bru: ["cũm", "kum"],
-    cnh: ["dum", "dum"]
+    cnh: ["dum", "dum"],
+    rwk: ["shuu", "ʃuː"],
+    iso: ["obiebi", "obiebi"],
+    ho: ["korema", "korema"],
+    gil: ["roro", "ɾoɾo"],
+    adi: ["yora", "jora"],
+    ngu: ["capotztic", "kaˈpotstik"],
+    gym: ["drüne", "dɾɨne"],
+    frp: ["nêr", "neːr"],
+    lzz: ["უჩა", "utʃa"],
+    kfx: ["काल़ा", "kaːɭaː"],
+    hns: ["karia", "kəriaː"],
+    tab: ["кӀару", "kʼaru"]
   },
 };

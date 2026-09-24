@@ -1021,6 +1021,10 @@ WORDS.stone = {
     zap: ["guie", "ɡie"],
     ctu: ["xajlel", "ʃahlel"],
     nyo: ["ibaale", "iβaːle"],
-    bru: ["tamáu", "təmaw"]
+    bru: ["tamáu", "təmaw"],
+    rwk: ["iwe", "iwe"],
+    ab: ["ахаҳә", "axaħʷ"],
+    tab: ["гъван", "ʁvan"],
+    hui: ["ege to̱le̱", "eɡe tɔlɛ"]
   },
 };

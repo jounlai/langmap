@@ -1103,6 +1103,9 @@ WORDS.ear = {
     nzi: ["anzo", "anzo"],
     nxq: ["heizeeq", "he˧tsɿ˨˩"],
     bdq: ["đon", "ɗɔːn"],
-    bru: ["cutũr", "kutur"]
+    bru: ["cutũr", "kutur"],
+    rwk: ["kuri", "kuɾi"],
+    iso: ["ozọ", "ozɔ"],
+    tll: ["tui", "tui"]
   },
 };

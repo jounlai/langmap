@@ -956,6 +956,11 @@ WORDS.milk = {
     bdq: ["đak toh", "ɗaːk tɔh"],
     kj: ["omashini", "omaʃini"],
     bru: ["dỡq tóh", "dɤʔ tɔh"],
-    cnh: ["hnuk", "hnuk"]
+    cnh: ["hnuk", "hnuk"],
+    rwk: ["maruva", "maɾuva"],
+    adi: ["anyun", "aɲun"],
+    ngu: ["leche", "ˈletʃe"],
+    cak: ["leche", "ˈletʃe"],
+    gym: ["kian", "kian"]
   },
 };

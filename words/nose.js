@@ -1047,6 +1047,9 @@ WORDS.nose = {
     lol: ["jolo", "dʒolo"],
     zap: ["xii", "ʃiː"],
     maw: ["nyoori", "ɲoːri"],
-    mdr: ["pudzung", "puðuŋ"]
+    mdr: ["pudzung", "puðuŋ"],
+    jmc: ["mmbwa", "mːbwa"],
+    iso: ["unwe", "unwe"],
+    ho: ["udubaubauna", "udubaubauna"]
   },
 };

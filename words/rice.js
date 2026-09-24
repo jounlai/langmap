@@ -545,6 +545,10 @@ WORDS.rice = {
     crh: ["pirinş", "piˈrinʃ"],
     nxq: ["chua", "ʈʂʰwɑ˧"],
     bdq: ["ʼba", "ɓaː"],
-    loz: ["laisi", "laisi"]
+    loz: ["laisi", "laisi"],
+    to: ["laise", "laise"],
+    ho: ["raisi", "raisi"],
+    lzz: ["ბრინჯი", "brindʒi"],
+    rue: ["рис", "rɪs"]
   }
 };

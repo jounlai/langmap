@@ -737,6 +737,21 @@ WORDS.horse = {
     nyo: ["embaraasi", "embaraːsi"],
     naq: ["hāb", "haːb"],
     vai: ["ꖇ", "sɔ"],
-    bru: ["aséh", "aseh"]
+    bru: ["aséh", "aseh"],
+    rwk: ["farasi", "faɾasi"],
+    urh: ["esi", "esi"],
+    iso: ["anyenya", "aɲeɲa"],
+    bzj: ["haas", "haːs"],
+    ja_oki: ["馬", "ʔɴma"],
+    to: ["hoosi", "hoːsi"],
+    ho: ["hosi", "hosi"],
+    gil: ["aoti", "aosi"],
+    ngu: ["caballo", "kaˈbajo"],
+    gym: ["mdä", "mdæ"],
+    frp: ["chevâl", "tʃəˈval"],
+    kfx: ["घोड़ा", "ɡʱoːɽaː"],
+    hns: ["ghora", "ɡʱoːɽaː"],
+    tab: ["гьяйван", "hæjvan"],
+    hui: ["nogo hosi", "noɡo hosi"]
   }
 };

@@ -591,6 +591,13 @@ WORDS.butterfly = {
     her: ["otjikaiva", "otʃikaiva"],
     maw: ["pipibga", "pipibɡa"],
     crh: ["köbelek", "købeˈlek"],
-    dv: ["ކޮކާ", "kokaː"]
+    dv: ["ކޮކާ", "kokaː"],
+    ty: ["pepe", "pepe"],
+    co: ["farfalla", "farˈfalla"],
+    ast: ["caparina", "kapaˈɾina"],
+    csb: ["mòtil", "ˈmwɛtil"],
+    frp: ["parpelyon", "parpəˈʎõ"],
+    lzz: ["ფარფალი", "pʰarpʰali"],
+    pdc: ["Fleddermaus", "ˈflɛdərmaʊs"]
   },
 };

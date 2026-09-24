@@ -634,6 +634,11 @@ WORDS.green = {
     zap: ["naberde", "naberde"],
     mdr: ["mekurarraq", "mekurarːaʔ"],
     nxq: ["herq", "hɚ˨˩"],
-    bdq: ["jơk", "ɟəːk"]
+    bdq: ["jơk", "ɟəːk"],
+    bzj: ["green", "ɡriːn"],
+    ty: ["matie", "matie"],
+    dz: ["ཧོནམ", "høːm"],
+    frp: ["vèrd", "vɛr"],
+    kfx: ["हौरा", "hɔraː"]
   }
 };

@@ -1001,6 +1001,14 @@ WORDS.wind = {
     spp: ["kafɛɛge", "kafɛːɡe"],
     ewo: ["evundu", "evundu"],
     ssy: ["xaaxat", "ħaːħat"],
-    bru: ["cuyal", "kujal"]
+    bru: ["cuyal", "kujal"],
+    rwk: ["mburaato", "mbuɾaːto"],
+    iso: ["ofou", "ofou"],
+    adi: ["asar", "asar"],
+    ngu: ["ajacatl", "ahakatɬ"],
+    gym: ["müre", "mɨɾe"],
+    lzz: ["იხი", "ixi"],
+    kfx: ["ब्यान", "bjaːn"],
+    hui: ["puyabu", "pujabu"]
   },
 };

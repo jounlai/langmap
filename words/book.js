@@ -704,6 +704,16 @@ WORDS.book = {
     naq: ["ǂkhanis", "ǂkʰanis"],
     spp: ["semɛ", "semɛ"],
     bru: ["tâm saráq", "tam saraʔ"],
-    cnh: ["cauk", "tsauk"]
+    cnh: ["cauk", "tsauk"],
+    rwk: ["kitabu", "kitabu"],
+    bzj: ["buk", "bʊk"],
+    bra: ["किताब", "kitaːb"],
+    nv: ["naaltsoos", "nɑːltsoːs"],
+    ngu: ["libro", "ˈlibro"],
+    gym: ["tärä", "tæɾæ"],
+    csb: ["knéga", "ˈkneɡa"],
+    tab: ["китаб", "kitab"],
+    kfx: ["कताब", "kətaːb"],
+    hui: ["mbuga", "mbuɡa"]
   }
 };

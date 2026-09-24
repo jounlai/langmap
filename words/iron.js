@@ -931,6 +931,11 @@ WORDS.iron = {
     bdq: ["bơxey", "bəsɛːj"],
     naq: ["ǀurib", "ǀurib"],
     bru: ["tac", "tak"],
-    cnh: ["thir", "tʰir"]
+    cnh: ["thir", "tʰir"],
+    rwk: ["minya", "miɲa"],
+    bzj: ["aiyan", "ajan"],
+    lbj: ["ལྕགས", "ltʃaks"],
+    frp: ["fèr", "fɛr"],
+    kfx: ["लोहा", "loɦaː"]
   },
 };

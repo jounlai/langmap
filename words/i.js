@@ -1181,7 +1181,7 @@ WORDS.i = {
       wbm: ["ex", "ʔɤʔ"],
       rbb: ["Ɂaw", "ʔaw"],
       blr: ["ʔɨt33", "ʔɨt˧˧"],
-      srh: ["—", "—"],
+      srh: ["waz", "waz"],
       pll: ["ʔɔ", "ʔɔ"],
       ahk: ["nga", "ŋa˧"],
       dtp: ["yoku", "joku"],

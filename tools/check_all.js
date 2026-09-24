@@ -11,10 +11,22 @@ const run = f => cp.execSync(`node ${path.join(__dirname, f)}`, { encoding: 'utf
 // WM_VALIDATE_STRICT=1 mirrors CI: it promotes [#19] cache-buster drift from a
 // warning to an error. Without it the hook is laxer than the pipeline and lets
 // a stale ?v=N through, which is exactly how one shipped.
-const runRoot = (f, env) => {
+// `expect` is a marker the tool always prints when it ran to completion. Under
+// memory pressure a child can be OOM-killed part-way, and then execSync throws,
+// the catch returns a TRUNCATED transcript, and the count regex finds nothing —
+// which surfaced as `FAIL wordmap_data validator NaN` on a tree whose validator
+// passes every time it is run by hand. That reads like a data error and is not
+// one. Retrying once distinguishes "the tool says N" from "the tool died", and
+// the message says which.
+const runRoot = (f, env, expect) => {
     const opts = { encoding: 'utf8', env: { ...process.env, ...env } };
-    try { return cp.execSync(`node ${path.join(__dirname, '..', f)} 2>&1`, opts); }
-    catch (e) { return String(e.stdout || '') + String(e.stderr || ''); }
+    const once = () => {
+        try { return cp.execSync(`node ${path.join(__dirname, '..', f)} 2>&1`, opts); }
+        catch (e) { return String(e.stdout || '') + String(e.stderr || ''); }
+    };
+    let out = once();
+    if (expect && !expect.test(out)) out = once();
+    return out;
 };
 
 const num = (s, re) => { const m = s.match(re); return m ? parseInt(m[1], 10) : NaN; };
@@ -774,8 +786,17 @@ line('data/*_seo.json freshness', num(s, /stale: (\d+)/));
 // This is what catches a bumped WM_ASSET_VERSION whose <script src=?v=N> was
 // left behind — a stale-cache bug that CI, not the pre-commit hook, used to
 // find. Wiring it in here means the hook finds it first.
-s = runRoot('validate_wordmap_data.js', { WM_VALIDATE_STRICT: '1' });
-line('wordmap_data validator (errors)', num(s, /^ERRORS \((\d+)\)/m));
+const ERRS = /^ERRORS \((\d+)\)/m;
+s = runRoot('validate_wordmap_data.js', { WM_VALIDATE_STRICT: '1' }, ERRS);
+if (ERRS.test(s)) {
+    line('wordmap_data validator (errors)', num(s, ERRS));
+} else {
+    // Twice in a row without the marker: the validator did not finish. Fail,
+    // because an unrun guard is not a passing one, but say so in those words.
+    line('wordmap_data validator (DID NOT RUN)', 1,
+        'no ERRORS block after two attempts — the child died, most likely out of '
+        + 'memory. Free some and re-run; this is not a data error.');
+}
 
 console.log(`\n${fail === 0 ? '✓ all guards clean' : '✗ ' + fail + ' guard(s) failing'}`);
 process.exit(fail === 0 ? 0 : 1);

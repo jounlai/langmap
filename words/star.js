@@ -55,7 +55,7 @@ WORDS.star = {
   },
   data: {
       kwa: ["mʼæ̃̌h","mʼæ̃̌h"],
-      jup: ["—","—"],
+      jup: ["wædhɔmʼæ̌h", "wædhɔmʼæ̌h"],
       tpy: ["asih","asih"],
       crt: ["kates","kates"],
       cag: ["katiʔs","katiʔs"],
@@ -545,7 +545,7 @@ WORDS.star = {
       xpg: ["—", "—"],
       xum: ["—", "—"],
       xve: ["—", "—"],
-      yle: ["—", "—"],
+      yle: ["pudu", "pudu"],
       yue_dg: ["星", "sɛŋ˥˥"],
       yue_nn: ["天星", "tʰin˥˥ ɬɛŋ˥˥"],
       zh_cq: ["星星儿", "ɕin˥ ɕiəɹ˥"],

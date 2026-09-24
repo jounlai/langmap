@@ -122,7 +122,7 @@ WORDS.blood = {
     bin: ["esagiẹn", "esaɡiɛ̃"],
     khw: ["لیل", "lel"],
     xav: ["wapru", "wapɾu"],
-    ter: ["—", "—"],
+    ter: ["íti", "ˈiti"],
     bor: ["kuwoje", "kuwoʒe"],
     trn: ["—", "—"],
     ake: ["mïnï", "mɨnɨ"],

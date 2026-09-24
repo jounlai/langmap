@@ -1181,7 +1181,7 @@ WORDS.you = {
       wbm: ["maix", "maiʔ"],
       rbb: ["maj", "maj"],
       blr: ["mit33", "mit˧˧"],
-      srh: ["—", "—"],
+      srh: ["tew", "tew"],
       pll: ["miʔ", "miʔ"],
       ahk: ["naw", "nɔ˧"],
       dtp: ["ika", "ika"],

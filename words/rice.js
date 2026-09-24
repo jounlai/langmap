@@ -544,6 +544,7 @@ WORDS.rice = {
     ctu: ["arus", "aɾus"],
     crh: ["pirinş", "piˈrinʃ"],
     nxq: ["chua", "ʈʂʰwɑ˧"],
-    bdq: ["ʼba", "ɓaː"]
+    bdq: ["ʼba", "ɓaː"],
+    loz: ["laisi", "laisi"]
   }
 };

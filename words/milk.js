@@ -953,6 +953,7 @@ WORDS.milk = {
     maw: ["bisim", "bisim"],
     nxq: ["eeno", "ɰɯ˧nø˧"],
     ami: ["hacol", "hatsol"],
-    bdq: ["đak toh", "ɗaːk tɔh"]
+    bdq: ["đak toh", "ɗaːk tɔh"],
+    kj: ["omashini", "omaʃini"]
   },
 };

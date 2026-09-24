@@ -747,6 +747,7 @@ WORDS.person = {
     tzo: ["krixchano", "kriʃtʃano"],
     zap: ["binni", "binːi"],
     maw: ["nira", "nira"],
-    crh: ["adam", "aˈdam"]
+    crh: ["adam", "aˈdam"],
+    saq: ["ltungani", "ltuŋani"]
   }
 };

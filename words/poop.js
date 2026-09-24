@@ -618,6 +618,7 @@ WORDS.poop = {
     crh: ["bok", "bok"],
     krc: ["бокъ", "boq"],
     nxq: ["qer", "tɕʰɚ˧"],
-    dv: ["ގުއި", "ɡui"]
+    dv: ["ގުއި", "ɡui"],
+    saq: ["nkik", "ŋkik"]
   },
 };

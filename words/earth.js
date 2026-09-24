@@ -1087,6 +1087,8 @@ WORDS.earth = {
     lol: ["bamoci", "bamotʃi"],
     mev: ["sɛ́lɛ́", "sɛ́lɛ́"],
     mdr: ["litaq", "litaʔ"],
-    nxq: ["zhee", "ʈʂʅ˧"]
+    nxq: ["zhee", "ʈʂʅ˧"],
+    kj: ["edu", "edu"],
+    ssy: ["baarho", "baːɽo"]
   },
 };

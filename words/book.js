@@ -699,6 +699,9 @@ WORDS.book = {
     maw: ["bukku", "bukːu"],
     bto: ["libro", "ˈlibɾo"],
     nxq: ["tei'ee", "tʰe˧ɰɯ˧"],
-    ami: ["cudad", "tsuðad"]
+    ami: ["cudad", "tsuðad"],
+    saq: ["mbuku", "mbuku"],
+    naq: ["ǂkhanis", "ǂkʰanis"],
+    spp: ["semɛ", "semɛ"]
   }
 };

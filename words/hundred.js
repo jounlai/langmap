@@ -961,6 +961,8 @@ WORDS.hundred = {
     guc: ["poloo shikii", "poloː ʃikiː"],
     ctu: ["joʼkʼal", "hoʔkʼal"],
     maw: ["kɔbga", "kɔbɡa"],
-    ami: ["smoʼot", "smoʔot"]
+    ami: ["smoʼot", "smoʔot"],
+    vai: ["ꖽꗒ", "hɔnɗɔ"],
+    spp: ["ŋkuu", "ŋkuː"]
   },
 };

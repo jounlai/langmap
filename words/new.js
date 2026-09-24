@@ -844,6 +844,9 @@ WORDS.new = {
     nxq: ["sheel", "ʂʅ˥"],
     cja: ["باهاو", "bahau"],
     iru: ["புதிய", "pudija"],
-    dv: ["އާ", "aː"]
+    dv: ["އާ", "aː"],
+    saq: ["ŋejuk", "ŋedʒuk"],
+    kj: ["pe", "pe"],
+    ssy: ["cusub", "ħusub"]
   },
 };

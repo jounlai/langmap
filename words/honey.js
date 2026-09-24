@@ -952,6 +952,9 @@ WORDS.honey = {
     nxq: ["bbai", "ba˧"],
     ami: ["waneng no ʼodal", "waneŋ no ʔoðal"],
     bdq: ["đak sut", "ɗaːk sut"],
-    iru: ["தேநு", "teːnu"]
+    iru: ["தேநு", "teːnu"],
+    vai: ["ꖴꖷ", "kumu"],
+    kj: ["omaadi eenyiki", "omaːdi eːɲiki"],
+    her: ["ouitji", "ouitʃi"]
   },
 };

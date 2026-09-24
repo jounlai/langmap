@@ -1009,6 +1009,7 @@ WORDS.sleep = {
     lif: ["ᤀᤡᤵᤔᤠ", "ipmaː"],
     cab: ["arúmuga", "aˈɾumuɡa"],
     nxq: ["yil", "ji˥"],
-    iru: ["rongu", "roŋɡu"]
+    iru: ["rongu", "roŋɡu"],
+    saq: ["airura", "airura"]
   },
 };

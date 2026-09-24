@@ -732,6 +732,10 @@ WORDS.horse = {
     maw: ["yoofu", "joːfu"],
     nxq: ["rua", "zwɑ˧"],
     ami: ["efa", "əfa"],
-    bdq: ["aseh", "ʔasɛh"]
+    bdq: ["aseh", "ʔasɛh"],
+    saq: ["mbarta", "mbarta"],
+    nyo: ["embaraasi", "embaraːsi"],
+    naq: ["hāb", "haːb"],
+    vai: ["ꖇ", "sɔ"]
   }
 };

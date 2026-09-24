@@ -670,6 +670,10 @@ WORDS.sea = {
     maw: ["teeku", "teːku"],
     mdr: ["sasiq", "sasiʔ"],
     bto: ["dágat", "ˈdaɡat"],
-    bdq: ["đak dơsĭ", "ɗaːk dəsiʔ"]
+    bdq: ["đak dơsĭ", "ɗaːk dəsiʔ"],
+    saq: ["mpaso", "mpaso"],
+    kj: ["efuta", "efuta"],
+    her: ["okuvare", "okuvare"],
+    ewo: ["maŋ", "maŋ"]
   }
 };

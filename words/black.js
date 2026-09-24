@@ -938,6 +938,9 @@ WORDS.black = {
     mdr: ["malotong", "malotoŋ"],
     nxq: ["naq", "nɑ˨˩"],
     ami: ["kohtingay", "kohtiŋaj"],
-    bdq: ["găm", "ɡam"]
+    bdq: ["găm", "ɡam"],
+    saq: ["narok", "narok"],
+    vai: ["ꔱꘋ", "fiŋ"],
+    kj: ["laula", "laula"]
   },
 };

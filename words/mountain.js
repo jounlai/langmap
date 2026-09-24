@@ -679,6 +679,10 @@ WORDS.mountain = {
     maw: ["zoori", "zoːri"],
     crh: ["dağ", "daɣ"],
     nxq: ["jjuq", "ɟy˨˩"],
-    bdq: ["kông", "koːŋ"]
+    bdq: ["kông", "koːŋ"],
+    saq: ["ldonyuo", "ldoɲuo"],
+    spp: ["ɲaŋa", "ɲaŋa"],
+    kj: ["omhunda", "om̥unda"],
+    ssy: ["kooma", "koːma"]
   }
 };

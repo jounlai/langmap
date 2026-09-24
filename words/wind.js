@@ -997,6 +997,9 @@ WORDS.wind = {
     lol: ["impempe", "impempe"],
     mev: ["fã̀ã̀", "fã̀ː"],
     maw: ["pɛsiŋŋu", "pɛsiŋːu"],
-    bdq: ["kial", "kjaːl"]
+    bdq: ["kial", "kjaːl"],
+    spp: ["kafɛɛge", "kafɛːɡe"],
+    ewo: ["evundu", "evundu"],
+    ssy: ["xaaxat", "ħaːħat"]
   },
 };

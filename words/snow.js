@@ -886,6 +886,9 @@ WORDS.snow = {
     rcf: ["nèj", "nɛʒ"],
     fj: ["uca vulavula", "uða βulaβula"],
     adi: ["tapam", "tapam"],
-    gcf: ["lannèj", "lanɛʒ"]
+    gcf: ["lannèj", "lanɛʒ"],
+    ttj: ["ebirika", "eβirika"],
+    nyo: ["ebirika", "eβirika"],
+    her: ["ovitutukende", "ovitutukende"]
   },
 };

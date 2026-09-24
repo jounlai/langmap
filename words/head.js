@@ -849,6 +849,7 @@ WORDS.head = {
     mdr: ["ulu", "ulu"],
     krc: ["баш", "baʃ"],
     nxq: ["gu'liu", "ku˧ly˧"],
-    dv: ["ބޯ", "boː"]
+    dv: ["ބޯ", "boː"],
+    saq: ["nkue", "ŋkue"]
   },
 };

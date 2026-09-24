@@ -1162,6 +1162,7 @@ WORDS.salt = {
     mev: ["wèĩ", "wèĩ"],
     naq: ["ǂōb", "ǂoːp"],
     maw: ["yaarim", "jaːrim"],
-    mdr: ["sia", "sia"]
+    mdr: ["sia", "sia"],
+    kj: ["omongwa", "omoŋɡwa"]
   },
 };

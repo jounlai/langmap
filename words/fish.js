@@ -851,7 +851,7 @@ WORDS.fish = {
     nyn: ["enyanja", "eɲaɲdʒa"],
     cgg: ["enyanja", "eɲaɲdʒa"],
     ttj: ["echu", "etʃu"],
-    nyo: ["enyanja", "eɲaɲdʒa"],
+    nyo: ["encu", "eɲtʃu"],
     luy: ["inyeni", "iɲeni"],
     ssw: ["inhlanti", "iɬanti"],
     nbl: ["ihlanzi", "iɬanzi"],

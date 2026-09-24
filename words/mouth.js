@@ -164,7 +164,7 @@ WORDS.mouth = {
     unr: ["moca", "motʃa"],
     wba: ["doko", "doko"],
     myx: ["kumunwa", "kumunwa"],
-    ttj: ["omunwa", "omunwa"],
+    ttj: ["akanwa", "akanwa"],
     rn: ["umunwa", "umunwa"],
     yao: ["kang'wa", "kaŋwa"],
     suk: ["nomo", "nomo"],
@@ -810,6 +810,7 @@ WORDS.mouth = {
     krc: ["аууз", "awuz"],
     nxq: ["nvlda", "nv̩˥tɑ˧"],
     bdq: ["ʼbơ̆r", "ɓər"],
-    iru: ["வாயி", "vaːji"]
+    iru: ["வாயி", "vaːji"],
+    saq: ["nkutuk", "ŋkutuk"]
   }
 };

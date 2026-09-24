@@ -983,6 +983,7 @@ WORDS.egg = {
     mdr: ["talloq", "talːɔʔ"],
     krc: ["жумуртха", "ʒumurtxa"],
     nxq: ["gv", "kv̩˧"],
-    bdq: ["kơtăp", "kətap"]
+    bdq: ["kơtăp", "kətap"],
+    kj: ["ei", "ei"]
   },
 };

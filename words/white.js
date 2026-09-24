@@ -1164,6 +1164,7 @@ WORDS.white = {
     kxc: ["ata", "ata"],
     mev: ["púlú", "púlú"],
     mdr: ["mapute", "mapute"],
-    nxq: ["perq", "pʰɚ˨˩"]
+    nxq: ["perq", "pʰɚ˨˩"],
+    vai: ["ꗬ", "kpɛ"]
   },
 };

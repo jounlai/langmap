@@ -460,6 +460,12 @@ WORDS.silk = {
     ebu: ["hariri", "haɾiɾi"],
     kqn: ["shilika", "ʃilika"],
     tzo: ["xela", "ʃela"],
-    dv: ["ފަށުއި", "faʃui"]
+    dv: ["ފަށުއި", "faʃui"],
+    bfa: ["kaririat", "kaririat"],
+    ttj: ["liiri", "liːri"],
+    nyo: ["liiri", "liːri"],
+    naq: ["saib", "saib"],
+    lue: ["shiliki", "ʃiliki"],
+    ewo: ["silik", "silik"]
   }
 };

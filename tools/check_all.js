@@ -627,6 +627,20 @@ line('language-name coverage', num(s, /violations: (\d+)/));
 s = run('intra_row_dup_check.js --check');
 line('no new intra-row duplicate', num(s, /violations: (\d+)/), num(s, /stale: (\d+)/) ? `${num(s, /stale: (\d+)/)} lock entries stale` : '');
 
+// The narrow half of the same question, added 2026-09-24. The lock above
+// froze 310 candidates in one --update, which is how `foot = wheel` survived
+// in ten unrelated rows — Bari, Djambarrpuyngu, Fijian, Wayuu, Huli, Kikuyu,
+// Lozi, Maasai, Hassaniya and Samburu, all from one commit — without anyone
+// ever judging it. This guard filters the population BEFORE the lock instead
+// of after: it looks only where a shared form is a claim (two numerals, two
+// colours, two body parts, two kin terms, two pronouns, two things in the
+// sky, plus a named list of impossible cross pairs), and everything it catches
+// needs written evidence in its ACCEPTED table. 310 becomes 10, and the 10 are
+// all the wheel class, under research.
+s = run('implausible_polysemy_check.js --check');
+line('a shared form that is a claim', num(s, /violations: (\d+)/) > 10 ? num(s, /violations: (\d+)/) : 0,
+    `${num(s, /violations: (\d+)/)} open, budget 10 (the foot = wheel class)`);
+
 s = run('route_coverage_check.js --check');
 line('route colouring complete', num(s, /violations: (\d+)/));
 

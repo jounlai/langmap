@@ -811,6 +811,8 @@ WORDS.mouth = {
     nxq: ["nvlda", "nv̩˥tɑ˧"],
     bdq: ["ʼbơ̆r", "ɓər"],
     iru: ["வாயி", "vaːji"],
-    saq: ["nkutuk", "ŋkutuk"]
+    saq: ["nkutuk", "ŋkutuk"],
+    bru: ["bỗq", "ɓoʔ"],
+    cnh: ["kaa", "kaː"]
   }
 };

@@ -736,6 +736,7 @@ WORDS.horse = {
     saq: ["mbarta", "mbarta"],
     nyo: ["embaraasi", "embaraːsi"],
     naq: ["hāb", "haːb"],
-    vai: ["ꖇ", "sɔ"]
+    vai: ["ꖇ", "sɔ"],
+    bru: ["aséh", "aseh"]
   }
 };

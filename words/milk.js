@@ -954,6 +954,8 @@ WORDS.milk = {
     nxq: ["eeno", "ɰɯ˧nø˧"],
     ami: ["hacol", "hatsol"],
     bdq: ["đak toh", "ɗaːk tɔh"],
-    kj: ["omashini", "omaʃini"]
+    kj: ["omashini", "omaʃini"],
+    bru: ["dỡq tóh", "dɤʔ tɔh"],
+    cnh: ["hnuk", "hnuk"]
   },
 };

@@ -929,6 +929,8 @@ WORDS.iron = {
     cak: ["chʼichʼ", "tʃʼitʃʼ"],
     nxq: ["shuq", "ʂu˨˩"],
     bdq: ["bơxey", "bəsɛːj"],
-    naq: ["ǀurib", "ǀurib"]
+    naq: ["ǀurib", "ǀurib"],
+    bru: ["tac", "tak"],
+    cnh: ["thir", "tʰir"]
   },
 };

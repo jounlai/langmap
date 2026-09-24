@@ -955,6 +955,9 @@ WORDS.honey = {
     iru: ["தேநு", "teːnu"],
     vai: ["ꖴꖷ", "kumu"],
     kj: ["omaadi eenyiki", "omaːdi eːɲiki"],
-    her: ["ouitji", "ouitʃi"]
+    her: ["ouitji", "ouitʃi"],
+    bru: ["dỡq khĩal", "dɤʔ kʰial"],
+    cnh: ["khuaihliti", "kʰuaihliti"],
+    lhu: ["pehˇ gʼuiˬ", "pɛʔɣɯ"]
   },
 };

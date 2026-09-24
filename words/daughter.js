@@ -1048,6 +1048,7 @@ WORDS.daughter = {
     pis: ["dota", "dota"],
     lol: ["bona owʼomoto", "bona owomoto"],
     mev: ["lú", "lú"],
-    bdq: ["kon adruh", "kɔːn ʔadruh"]
+    bdq: ["kon adruh", "kɔːn ʔadruh"],
+    bru: ["con mansễm", "kɔn mənsem"]
   },
 };

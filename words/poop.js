@@ -619,6 +619,9 @@ WORDS.poop = {
     krc: ["бокъ", "boq"],
     nxq: ["qer", "tɕʰɚ˧"],
     dv: ["ގުއި", "ɡui"],
-    saq: ["nkik", "ŋkik"]
+    saq: ["nkik", "ŋkik"],
+    bru: ["créq", "kreʔ"],
+    cnh: ["ek", "ʔek"],
+    bdq: ["ĭch", "ic"]
   },
 };

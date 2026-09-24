@@ -1102,6 +1102,7 @@ WORDS.ear = {
     jmc: ["kuri", "kuɾi"],
     nzi: ["anzo", "anzo"],
     nxq: ["heizeeq", "he˧tsɿ˨˩"],
-    bdq: ["đon", "ɗɔːn"]
+    bdq: ["đon", "ɗɔːn"],
+    bru: ["cutũr", "kutur"]
   },
 };

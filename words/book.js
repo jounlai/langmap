@@ -697,11 +697,13 @@ WORDS.book = {
     cab: ["líburu", "ˈlibuɾu"],
     ctu: ["jun", "hun"],
     maw: ["bukku", "bukːu"],
-    bto: ["libro", "ˈlibɾo"],
+    bto: ["libro", "libˈɾo"],
     nxq: ["tei'ee", "tʰe˧ɰɯ˧"],
     ami: ["cudad", "tsuðad"],
     saq: ["mbuku", "mbuku"],
     naq: ["ǂkhanis", "ǂkʰanis"],
-    spp: ["semɛ", "semɛ"]
+    spp: ["semɛ", "semɛ"],
+    bru: ["tâm saráq", "tam saraʔ"],
+    cnh: ["cauk", "tsauk"]
   }
 };

@@ -683,6 +683,7 @@ WORDS.mountain = {
     saq: ["ldonyuo", "ldoɲuo"],
     spp: ["ɲaŋa", "ɲaŋa"],
     kj: ["omhunda", "om̥unda"],
-    ssy: ["kooma", "koːma"]
+    ssy: ["kooma", "koːma"],
+    bru: ["cóh", "kɔh"]
   }
 };

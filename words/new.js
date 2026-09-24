@@ -847,6 +847,8 @@ WORDS.new = {
     dv: ["އާ", "aː"],
     saq: ["ŋejuk", "ŋedʒuk"],
     kj: ["pe", "pe"],
-    ssy: ["cusub", "ħusub"]
+    ssy: ["cusub", "ħusub"],
+    bru: ["tamái", "təmaj"],
+    cnh: ["thar", "tʰar"]
   },
 };

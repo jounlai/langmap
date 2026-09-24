@@ -850,6 +850,8 @@ WORDS.head = {
     krc: ["баш", "baʃ"],
     nxq: ["gu'liu", "ku˧ly˧"],
     dv: ["ބޯ", "boː"],
-    saq: ["nkue", "ŋkue"]
+    saq: ["nkue", "ŋkue"],
+    bru: ["plỡ", "plɤ"],
+    cnh: ["lu", "lu"]
   },
 };

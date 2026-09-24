@@ -984,6 +984,8 @@ WORDS.egg = {
     krc: ["жумуртха", "ʒumurtxa"],
     nxq: ["gv", "kv̩˧"],
     bdq: ["kơtăp", "kətap"],
-    kj: ["ei", "ei"]
+    kj: ["ei", "ei"],
+    bru: ["tarễl", "tərel"],
+    cnh: ["arti", "ʔarti"]
   },
 };

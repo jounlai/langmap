@@ -748,6 +748,7 @@ WORDS.person = {
     zap: ["binni", "binːi"],
     maw: ["nira", "nira"],
     crh: ["adam", "aˈdam"],
-    saq: ["ltungani", "ltuŋani"]
+    saq: ["ltungani", "ltuŋani"],
+    bru: ["cũai", "kuaj"]
   }
 };

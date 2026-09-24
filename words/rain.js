@@ -1014,6 +1014,7 @@ WORDS.rain = {
     nxq: ["heeq", "hɯ˨˩"],
     bdq: ["ʼmi", "ʔmiː"],
     saq: ["nchan", "ntʃan"],
-    ewo: ["mveŋ", "mvəŋ"]
+    ewo: ["mveŋ", "mvəŋ"],
+    bru: ["mia", "mia"]
   },
 };

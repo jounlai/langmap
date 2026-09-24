@@ -1013,6 +1013,7 @@ WORDS.bird = {
     mdr: ["manu-manuq", "manu manuʔ"],
     krc: ["къанатлы", "qanatlɯ"],
     nxq: ["vlssi", "v̩˥ʑi˧"],
-    kj: ["odila", "odila"]
+    kj: ["odila", "odila"],
+    bru: ["chớm", "tʃɤm"]
   },
 };

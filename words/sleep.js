@@ -1010,6 +1010,7 @@ WORDS.sleep = {
     cab: ["arúmuga", "aˈɾumuɡa"],
     nxq: ["yil", "ji˥"],
     iru: ["rongu", "roŋɡu"],
-    saq: ["airura", "airura"]
+    saq: ["airura", "airura"],
+    bru: ["bếq", "ɓeʔ"]
   },
 };

@@ -1125,6 +1125,7 @@ WORDS.five = {
     izz: ["ise", "ise"],
     aja: ["atɔ̃", "atɔ̃"],
     pcd: ["chinq", "ʃɛ̃k"],
-    swg: ["femf", "fɛmf"]
+    swg: ["femf", "fɛmf"],
+    bru: ["sỡng", "sɤŋ"]
   },
 };

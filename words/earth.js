@@ -1089,6 +1089,8 @@ WORDS.earth = {
     mdr: ["litaq", "litaʔ"],
     nxq: ["zhee", "ʈʂʅ˧"],
     kj: ["edu", "edu"],
-    ssy: ["baarho", "baːɽo"]
+    ssy: ["baarho", "baːɽo"],
+    bru: ["cutễq", "kuteʔ"],
+    cnh: ["vawlei", "vawlei"]
   },
 };

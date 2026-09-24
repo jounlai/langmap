@@ -1000,6 +1000,7 @@ WORDS.wind = {
     bdq: ["kial", "kjaːl"],
     spp: ["kafɛɛge", "kafɛːɡe"],
     ewo: ["evundu", "evundu"],
-    ssy: ["xaaxat", "ħaːħat"]
+    ssy: ["xaaxat", "ħaːħat"],
+    bru: ["cuyal", "kujal"]
   },
 };

@@ -847,6 +847,9 @@ WORDS.wheel = {
     lif: ["ᤁᤠᤵᤗᤥ᤺ᤰ", "kaploːk"],
     jmc: ["kireto", "kiɾeto"],
     ebu: ["nthugũ", "nðuɡu"],
-    zap: ["rueeda", "ɾweːda"]
+    zap: ["rueeda", "ɾweːda"],
+    cnh: ["kekual", "kekual"],
+    bdq: ["tang-wang", "taːŋ waːŋ"],
+    lhu: ["gaˉ yaw", "ɡa jɔ"]
   },
 };

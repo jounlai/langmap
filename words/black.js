@@ -941,6 +941,8 @@ WORDS.black = {
     bdq: ["găm", "ɡam"],
     saq: ["narok", "narok"],
     vai: ["ꔱꘋ", "fiŋ"],
-    kj: ["laula", "laula"]
+    kj: ["laula", "laula"],
+    bru: ["cũm", "kum"],
+    cnh: ["dum", "dum"]
   },
 };

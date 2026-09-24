@@ -466,6 +466,7 @@ WORDS.silk = {
     nyo: ["liiri", "liːri"],
     naq: ["saib", "saib"],
     lue: ["shiliki", "ʃiliki"],
-    ewo: ["silik", "silik"]
+    ewo: ["silik", "silik"],
+    krc: ["дарий", "daˈrij"]
   }
 };

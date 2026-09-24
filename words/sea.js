@@ -674,6 +674,8 @@ WORDS.sea = {
     saq: ["mpaso", "mpaso"],
     kj: ["efuta", "efuta"],
     her: ["okuvare", "okuvare"],
-    ewo: ["maŋ", "maŋ"]
+    ewo: ["maŋ", "maŋ"],
+    bru: ["dỡq mưt", "dɤʔ mɨt"],
+    cnh: ["rili", "rili"]
   }
 };

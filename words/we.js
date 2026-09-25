@@ -1779,7 +1779,7 @@ WORDS.we = {
     tll: ["sho", "ʃo"],
     ff: ["enen / minen", "enen / minen"],
     bm: ["an", "án"],
-    dds: ["emme", "emːe"],
+    dds: ["ɛmmɛ", "ɛmːɛ"],
     emk: ["an", "án"],
     kao: ["an", "án"],
     snk: ["o", "o"],

@@ -719,7 +719,7 @@ WORDS.house = {
     tll: ["mbongo", "mboŋɡo"],
     ff: ["suudu", "suːdu"],
     bm: ["so", "so"],
-    dds: ["gina", "ɡina"],
+    dds: ["ginɛ", "ɡinɛ"],
     emk: ["lu", "lu"],
     kao: ["so", "so"],
     snk: ["ka", "ka"],

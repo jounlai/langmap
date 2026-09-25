@@ -719,7 +719,7 @@ WORDS.eye = {
     tll: ["diso", "diso"],
     ff: ["yiitere", "jiːteɾe"],
     bm: ["ɲɛ", "ɲɛ"],
-    dds: ["giré", "ɡiɾe"],
+    dds: ["giru", "ɡiru"],
     emk: ["ɲa", "ɲa"],
     kao: ["ɲa", "ɲa"],
     snk: ["ñaa", "ɲaː"],

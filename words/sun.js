@@ -717,7 +717,7 @@ WORDS.sun = {
     tll: ["ondelo", "ondelo"],
     ff: ["naange", "naːŋɡe"],
     bm: ["tile", "tile"],
-    dds: ["naa", "naː"],
+    dds: ["naŋ", "naŋ"],
     emk: ["tile", "tile"],
     kao: ["tile", "tile"],
     snk: ["kiye", "kije"],

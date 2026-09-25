@@ -718,7 +718,7 @@ WORDS.fire = {
     tll: ["lokombu", "lokombu"],
     ff: ["yiite", "jiːte"],
     bm: ["tasuma", "tasuma"],
-    dds: ["yɔ", "jɔ"],
+    dds: ["nyaŋ", "ɲaŋ"],
     emk: ["tasuma", "tasuma"],
     kao: ["tasuma", "tasuma"],
     snk: ["ñaaxe", "ɲaːxe"],

@@ -718,7 +718,7 @@ WORDS.one = {
     tll: ["ɔtɔi", "ɔtɔi"],
     ff: ["goʼo", "ɡoʔo"],
     bm: ["kelen", "kelen"],
-    dds: ["tum", "tum"],
+    dds: ["turu", "turu"],
     emk: ["kelen", "kelen"],
     kao: ["kele", "kele"],
     snk: ["baane", "baːne"],

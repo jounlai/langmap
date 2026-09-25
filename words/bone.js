@@ -632,7 +632,7 @@ WORDS.bone = {
     tll: ["eka", "eka"],
     ff: ["ƴiʼal", "ʄiʔal"],
     bm: ["kolo", "kolo"],
-    dds: ["kɛ", "kɛ"],
+    dds: ["kee", "keː"],
     emk: ["kolo", "kolo"],
     kao: ["xulu", "xulu"],
     snk: ["xote", "xote"],

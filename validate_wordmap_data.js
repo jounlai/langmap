@@ -1008,36 +1008,51 @@ for (const code of codes) {
             //   ASJP, whose transcription is a different system — mixing the
             //   two is the error undone in och and ptai. Needs Kervran,
             //   Dictionnaire dogon-francais: donno sɔ (1982).
+            // Cells a MODERN row is allowed to leave as '—'. The marker normally
+            // belongs to historical and fragmentary rows only; these are the modern
+            // rows where the concept has been looked for and not found, and the
+            // entry is a record of that search rather than an exemption.
+            //
+            // IT GOES STALE THE MOMENT SOMEONE FILLS A CELL, and rounds 16-18 filled
+            // 27 of them — Taoba Pumi's bone, Sarikoli's four kin and pronoun cells,
+            // five rows' heart, Donno So's tree. Pruned 2026-09-25; prune it again
+            // after any harvest, because a stale entry silently licenses a marker
+            // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
                 jiu: new Set(['bone', 'hello', 'thanks']),
-                pmi: new Set(['bone', 'hello', 'thanks']),
+                pmi: new Set(['hello', 'thanks']),
                 twm: new Set(['bone', 'hello', 'thanks']),
                 nuf: new Set(['bone', 'hello', 'thanks']),
                 clk: new Set(['bone', 'hello', 'thanks']),
-                blr: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'three', 'hello', 'thanks', 'stone', 'sun']),
+                blr: new Set(['love', 'cat', 'three', 'hello', 'thanks', 'stone']),
                 rbb: new Set(['mother', 'father', 'we', 'love', 'cat', 'house', 'good', 'red', 'hello', 'thanks']),
-                srh: new Set(['mother', 'father', 'i', 'you', 'we', 'love', 'cat', 'hello', 'thanks']),
+                srh: new Set(['we', 'love', 'cat', 'hello', 'thanks']),
                 dta: new Set(['cat', 'love', 'hello', 'thanks']),
-                lic: new Set(['heart', 'cat', 'love', 'hello', 'thanks']),
-                swi: new Set(['heart', 'sun', 'cat', 'love', 'hello', 'thanks']),
-                mmd: new Set(['heart', 'cat', 'love', 'hello', 'thanks']),
-                mlm: new Set(['heart', 'tree', 'cat', 'love', 'hello', 'thanks']),
-                kmc: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'sun']),
+                lic: new Set(['cat', 'love', 'hello', 'thanks']),
+                swi: new Set(['cat', 'love', 'hello', 'thanks']),
+                mmd: new Set(['cat', 'love', 'hello', 'thanks']),
+                mlm: new Set(['heart', 'cat', 'love', 'hello', 'thanks']),
+                kmc: new Set(['cat', 'love', 'hello', 'thanks']),
                 gqu: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree', 'sun']),
                 shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
-                peh: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'sun', 'tree']),
+                peh: new Set(['cat', 'love', 'hello', 'thanks']),
                 orh: new Set(['cat', 'love', 'hello', 'thanks']),
-                acn: new Set(['cat', 'eye', 'night', 'love', 'hello', 'thanks']),
+                acn: new Set(['cat', 'love', 'hello', 'thanks']),
                 ivv: new Set(['cat']),
-                itb: new Set(['cat', 'heart', 'love', 'hello', 'thanks']),
-                dds: new Set(['dog', 'tree']),
+                itb: new Set(['cat', 'love', 'hello', 'thanks']),
+                dds: new Set(['fish']),
                 ker: new Set(['red']),
-                kmu: new Set(['tongue']),
-                nlc: new Set(['tongue']),
                 agq: new Set(['we']),
                 mgo: new Set(['we']),
                 koy: new Set(['we']),
                 yiz: new Set(['we']),
+                // dds fish: Heath and the Dogon project both give it as ídù — but
+                // Donno So 'dog' is ìdú, the same segments with the opposite tone,
+                // and this row is toneless in all 39 of its other cells. Writing
+                // the pair would make them the only two toned cells in the row,
+                // which is the mixed-notation seam rounds 17-18 spent two days
+                // removing. Fillable the day the whole row is re-cut from Heath
+                // with tone and length.
             };
             const isAllowedUnsourced = unattestedReason === 'unsourced' &&
                 MODERN_UNSOURCED_ALLOW[code]?.has(id);

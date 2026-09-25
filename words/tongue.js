@@ -118,7 +118,7 @@ WORDS.tongue = {
     en_my: ["tongue", "taŋ"],
     pt_gw: ["lingua", "ˈliŋɡwa"],
     tsz: ["nini", "nini"],
-    nez: ["péwis", "péwis"],
+    nez: ["péews", "péːws"],
     woe: ["leewe", "leːwe"],
     pmt: ["arero", "aɾeɾo"],
     bin: ["arranmwẹn", "aranmwɛ̃"],

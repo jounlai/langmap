@@ -106,7 +106,7 @@ WORDS.star = {
       en_my: ["star", "staː"],
       pt_gw: ["strela", "ˈstrɛla"],
       tsz: ["jóskua", "ˈxoskʷa"],
-      nez: ["táaqc", "táːqts"],
+      nez: ["x̣icíyu", "χitsíju"],
       woe: ["fúús", "fyːs"],
       pmt: ["fetū", "fetuː"],
       bin: ["orivbi", "oˈɾiβi"],

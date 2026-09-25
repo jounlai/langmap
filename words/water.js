@@ -106,7 +106,7 @@ WORDS.water = {
       en_my: ["water", "ˈwɔːtə"],
       pt_gw: ["yagu", "ˈjaɡu"],
       tsz: ["itsï", "iˈtsɨ"],
-      nez: ["kuus", "kuːs"],
+      nez: ["kúus", "kúːs"],
       woe: ["shalú", "ʃalu"],
       pmt: ["vai", "vai"],
       bin: ["amẹ", "amɛ̃"],

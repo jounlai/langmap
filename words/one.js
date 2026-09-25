@@ -106,7 +106,7 @@ WORDS.one = {
       en_my: ["one", "wan"],
       pt_gw: ["un", "ũ"],
       tsz: ["ma", "ma"],
-      nez: ["naqc", "naqts"],
+      nez: ["náaqc", "náːqts"],
       woe: ["yete", "jete"],
       pmt: ["tahi", "tahi"],
       bin: ["okpa", "okpa"],

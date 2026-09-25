@@ -116,7 +116,7 @@ WORDS.blood = {
     en_my: ["blood", "blad"],
     pt_gw: ["sangi", "ˈsãɡi"],
     tsz: ["iurhiri", "juɽiɽi"],
-    nez: ["kikeʼet", "kikeʔet"],
+    nez: ["kikéʼt", "kikéʔt"],
     woe: ["chchaa", "tʃːaː"],
     pmt: ["toto", "toto"],
     bin: ["esagiẹn", "esaɡiɛ̃"],

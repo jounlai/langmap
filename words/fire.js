@@ -106,7 +106,7 @@ WORDS.fire = {
       en_my: ["fire", "faɪə"],
       pt_gw: ["fogu", "fɔɡu"],
       tsz: ["chʼipiri", "tʃʰiˈpiɾi"],
-      nez: ["piqa", "piqa"],
+      nez: ["ʼáala", "ʔáːla"],
       woe: ["yaafi", "jaːfi"],
       pmt: ["afi", "afi"],
       bin: ["erhẹn", "eɾɛ̃"],

@@ -106,7 +106,7 @@ WORDS.father = {
       en_my: ["father", "ˈfadə"],
       pt_gw: ["pai", "paj"],
       tsz: ["tata", "ˈtata"],
-      nez: ["atúte", "atúːte"],
+      nez: ["píst", "píst"],
       woe: ["taame", "taːme"],
       pmt: ["metua tane", "metua tane"],
       bin: ["érhá", "eɾa"],

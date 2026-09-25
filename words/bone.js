@@ -93,7 +93,7 @@ WORDS.bone = {
     en_my: ["bone", "bon"],
     pt_gw: ["osu", "ˈosu"],
     tsz: ["úni", "ˈuni"],
-    nez: ["pipís", "pipís"],
+    nez: ["píips", "píːps"],
     woe: ["shiu", "ʃiu"],
     pmt: ["ivi", "ivi"],
     bin: ["ùgbòlòkò", "ùɡbòlòkò"],

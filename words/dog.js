@@ -106,7 +106,7 @@ WORDS.dog = {
       en_my: ["dog", "dɔk"],
       pt_gw: ["kan", "kɑ̃"],
       tsz: ["uíchu", "ˈwitʃu"],
-      nez: ["cíqʼa·mqal", "tsíqʼaːmqal"],
+      nez: ["ciqʼáamqal", "tsiqʼáːmqal"],
       woe: ["gelaagú", "ɡelaːɡu"],
       pmt: ["kuri", "kuri"],
       bin: ["awa-oshi", "awaoʃi"],

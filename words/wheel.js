@@ -726,7 +726,7 @@ WORDS.wheel = {
     chr: ["ᎦᏆᏘᏗ", "ɡakʷatdi"],
     iu: ["ᐊᒃᓴᓗᐊᖅ", "aksaluaq"],
     ik: ["aksraligaun", "akʐaliɡaun"],
-    nez: ["weyelikiliikt", "wejelikiliːkt"],
+    nez: ["weyelikilíikt", "wejelikilíːkt"],
     car: ["tarara", "tarara"],
     ket: ["илтәп", "iltəp"],
     tzo: ["karos", "karos"],

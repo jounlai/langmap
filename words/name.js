@@ -106,7 +106,7 @@ WORDS.name = {
       en_my: ["name", "neɪm"],
       pt_gw: ["nomi", "ˈnomi"],
       tsz: ["arhikua", "aɽiˈkʷa"],
-      nez: ["wéeyeʼt", "ˈweːjeʔt"],
+      nez: ["weʼníikt", "weʔníːkt"],
       woe: ["iit", "iːt"],
       pmt: ["ingoa", "iŋoa"],
       bin: ["eni", "ẽ̀nĩ̀"],

@@ -106,7 +106,7 @@ WORDS.house = {
       en_my: ["house", "haʊs"],
       pt_gw: ["kasa", "kaza"],
       tsz: ["taa", "ta"],
-      nez: ["init", "init"],
+      nez: ["ʼiníit", "ʔiníːt"],
       woe: ["iimwe", "iːmʷe"],
       pmt: ["fare", "fare"],
       bin: ["owa", "owa"],

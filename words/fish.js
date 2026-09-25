@@ -115,7 +115,7 @@ WORDS.fish = {
     en_my: ["fish", "fɪʃ"],
     pt_gw: ["pis", "pis"],
     tsz: ["kurucha", "kuɾutʃa"],
-    nez: ["lewliks", "lewliks"],
+    nez: ["cúuyʼem", "tsúːjʔem"],
     woe: ["iik", "iːk"],
     pmt: ["ika", "ika"],
     bin: ["ehẹn", "ehɛ̃"],

@@ -136,7 +136,7 @@ WORDS.tooth = {
     en_my: ["tooth", "tuːt"],
     pt_gw: ["denti", "ˈdenti"],
     tsz: ["sïni", "sɨni"],
-    nez: ["tíit", "tíːt"],
+    nez: ["tít", "tít"],
     woe: ["ngii", "ŋiː"],
     pmt: ["niho", "niho"],
     bin: ["akọn", "akɔ̃"],

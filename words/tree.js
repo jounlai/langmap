@@ -106,7 +106,7 @@ WORDS.tree = {
       en_my: ["tree", "tɹiː"],
       pt_gw: ["árfuré", "arfure"],
       tsz: ["anhatapu", "aŋaˈtapu"],
-      nez: ["siuei", "siwei"],
+      nez: ["tewlíikt", "tewlíːkt"],
       woe: ["ira", "iɻa"],
       pmt: ["rākau", "raːkau"],
       bin: ["erhan", "eɾã"],

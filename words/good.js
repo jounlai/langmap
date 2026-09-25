@@ -106,7 +106,7 @@ WORDS.good = {
       en_my: ["good", "ɡʊt"],
       pt_gw: ["bon", "bɔ̃"],
       tsz: ["sesi", "ˈsesi"],
-      nez: ["taz", "taz"],
+      nez: ["táʼc", "táʔts"],
       woe: ["gacchiu", "ɡatʃːiu"],
       pmt: ["maitaki", "maitaki"],
       bin: ["ma", "ma"],

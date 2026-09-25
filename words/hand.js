@@ -106,7 +106,7 @@ WORDS.hand = {
       en_my: ["hand", "hæn"],
       pt_gw: ["mãu", "mɑ̃u"],
       tsz: ["jájki", "ˈhaxki"],
-      nez: ["tupke", "tupke"],
+      nez: ["ʼípsus", "ʔípsus"],
       woe: ["paaú", "paːu"],
       pmt: ["rima", "rima"],
       bin: ["obo", "obo"],

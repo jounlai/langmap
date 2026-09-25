@@ -113,7 +113,7 @@ WORDS.red = {
     en_my: ["red", "ɹɛd"],
     pt_gw: ["burmedju", "buɾˈmɛdʒu"],
     tsz: ["charhápiti", "tʃaˈɽapiti"],
-    nez: ["ilpʼílp", "ilpʼílp"],
+    nez: ["ʼilpʼílp", "ʔilpʼílp"],
     woe: ["paare", "paːɻe"],
     pmt: ["kura", "kuɾa"],
     bin: ["baba", "baba"],

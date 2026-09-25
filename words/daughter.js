@@ -804,7 +804,7 @@ WORDS.daughter = {
     one: ["kheyʌ́:ha", "kʰejʌ̃́ːha"],
     ono: ["khehá·wah", "kʰeháːwah"],
     cic: ["oshiitiik", "oʃiːtiːk"],
-    nez: ["pahap", "pahap"],
+    nez: ["páhap", "páhap"],
     nv: ["shichʼéʼé", "ʃitʃʼéːʔéː"],
     chr: ["ᎤᏪᏥ ᎠᎨᏴ", "uwetsi aɡejə̃"],
     cay: ["kehá:wahk", "keháːwahk"],

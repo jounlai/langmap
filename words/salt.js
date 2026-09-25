@@ -1048,7 +1048,7 @@ WORDS.salt = {
     hai: ["tang", "taŋ"],
     cic: ["hapiʼ", "hapiʔ"],
     ik: ["taġiuq", "taʁiuq"],
-    nez: ["ketuenes", "ketuenes"],
+    nez: ["kéetwenʼes", "kéːtwenʔes"],
     cay: ["ojikeʼdaʼ", "odʒikeʔdaʔ"],
     moh: ["tyohyòtsis", "tjohjotsis"],
     chr: ["ᎠᎹ", "aːmã"],

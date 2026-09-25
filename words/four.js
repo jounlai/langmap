@@ -1045,7 +1045,7 @@ WORDS.four = {
     cro: ["shoopá", "ʃoːpá"],
     hai: ["stánsang", "stánsaŋ"],
     cic: ["oshtaʼ", "oʃtaʔ"],
-    nez: ["piʼilept", "piʔilept"],
+    nez: ["píilept", "píːlept"],
     tsz: ["tʼamu", "tʰamu"],
     poh: ["kijibʼ", "kihiɓ"],
     ixl: ["kajvaʼl", "kahʋaʔl"],

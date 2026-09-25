@@ -117,7 +117,7 @@ WORDS.night = {
     en_my: ["night", "naɪt"],
     pt_gw: ["noiti", "ˈnojti"],
     tsz: ["churikua", "tʃuɾikʷa"],
-    nez: ["cíikin", "tsíːkin"],
+    nez: ["cikʼéetin", "tsikʼéːtin"],
     woe: ["boongi", "boːŋi"],
     pmt: ["pō", "poː"],
     bin: ["asọn", "asɔ̃"],

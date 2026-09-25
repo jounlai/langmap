@@ -2972,7 +2972,13 @@
                 <button type="button" class="size-step-btn" id="size-down"
                         aria-label="Decrease label font size"
                         aria-controls="font-size">−</button>
-                <input type="range" id="font-size" min="50" max="200" value="140"
+                <!-- max 420 = 3x the default display (value 140 = scale 1.4),
+                     matching wordmap.html, so the + button can enlarge labels
+                     to three times what the map shows on load. Han characters
+                     are the reason this page wants the range as much as the
+                     Word Map does: a 9px reading with a tone letter on it is
+                     unreadable long before a Latin word of the same size is. -->
+                <input type="range" id="font-size" min="50" max="420" value="140"
                        aria-label="Label font size" class="size-input-hidden">
             </div>
         </div>
@@ -6107,13 +6113,13 @@
         function _syncSizeStepButtons() {
             const v = parseInt(fontSizeSlider.value, 10) || 100;
             const min = parseInt(fontSizeSlider.min, 10) || 50;
-            const max = parseInt(fontSizeSlider.max, 10) || 200;
+            const max = parseInt(fontSizeSlider.max, 10) || 420;
             if (_sizeUpBtn)   _sizeUpBtn.disabled   = v >= max;
             if (_sizeDownBtn) _sizeDownBtn.disabled = v <= min;
         }
         function _bumpSize(delta) {
             const min = parseInt(fontSizeSlider.min, 10) || 50;
-            const max = parseInt(fontSizeSlider.max, 10) || 200;
+            const max = parseInt(fontSizeSlider.max, 10) || 420;
             const cur = parseInt(fontSizeSlider.value, 10) || 100;
             const next = Math.max(min, Math.min(max, cur + delta));
             if (next === cur) return;

@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    shn: "mult",
     bug: "mult",
     bjn: "mult",
     rki: "mult",
@@ -722,6 +723,7 @@ WORDS.n99 = {
     }
   },
   data: {
+    shn: ["ၵဝ်ႈသိပ်းပၢႆၵဝ်ႈ", "kaw˧˨ sip˥ paːj˨˦ kaw˧˨"],
     bug: ["aséra pulona aséra", "asera pulona asera"],
     bjn: ["sambilan puluh sambilan", "sambilan puluh sambilan"],
     rki: ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"],

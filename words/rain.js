@@ -1022,6 +1022,17 @@ WORDS.rain = {
     hui: ["ta", "ta"],
     mic: ["kikpesan", "ɡikpesan"],
     bzh: ["hob", "hob"],
-    yai: ["boron", "boˈron"]
+    yai: ["boron", "boˈron"],
+    hch: ["wiyeri", "wijeri"],
+    abq: ["ква", "kʷa"],
+    bbo: ["wuro", "wuro"],
+    xul: ["garrit", "ɡaɻit"],
+    mzh: ["pelhay", "peɬaj"],
+    gum: ["sre", "ʂe"],
+    arp: ["hoosóo", "hoːsóo"],
+    tar: ["ukuí", "ukui"],
+    bzd: ["kã̀lĩ", "kãlĩ"],
+    tsu: ["tnʉyʉ", "tnəjə"],
+    cng: ["meʴ", "meʴ"]
   },
 };

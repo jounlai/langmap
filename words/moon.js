@@ -962,7 +962,7 @@ WORDS.moon = {
     zza: ["aşmî", "aʃˈmiː"],
     brh: ["ماہ", "mah"],
     mrq: ["mahina", "mahina"],
-    tiw: ["japarra", "japaɾa"],
+    tiw: ["japarra", "dʒapaɾa"],
     lbz: ["kirdikir", "kiɖikir"],
     lbz_damin: ["—", "—"],
     nny: ["waldarra", "waldaɾa"],

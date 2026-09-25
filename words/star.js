@@ -963,7 +963,7 @@ WORDS.star = {
       zza: ["astare", "asˈtaːre"],
       brh: ["استار", "isˈtaːr"],
       mrq: ["hetuʻu", "hetuʔu"],
-      tiw: ["tokwampini", "tokʷampini"],
+      tiw: ["japalinga", "dʒapaliŋa"],
       lbz: ["kuwa thungal", "kuwa θuŋal"],
       lbz_damin: ["l*i", "ɬʔi"],
       nny: ["miburlda thungalda", "mibuɭda t̪uŋalda"],

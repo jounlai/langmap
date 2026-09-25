@@ -963,6 +963,12 @@ WORDS.milk = {
     cak: ["leche", "ˈletʃe"],
     gym: ["kian", "kian"],
     ixl: ["chʼuʼ", "tʃʼuʔ"],
-    sjo: ["ᠰᡠᠨ", "sun"]
+    sjo: ["ᠰᡠᠨ", "sun"],
+    crk: ["ᑐᐦᑑᓵᐳᕀ", "tohtoːsaːpoj"],
+    otq: ["ꞌba", "ʔba"],
+    tiw: ["pularti", "pulaɾti"],
+    abq: ["хшы", "χʃə"],
+    bbo: ["ɲiɲien", "ɲiɲien"],
+    tsu: ["nunʼu", "nunʔu"]
   },
 };

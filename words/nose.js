@@ -1053,6 +1053,12 @@ WORDS.nose = {
     ho: ["udubaubauna", "udubaubauna"],
     mic: ["uksisqon", "uksisxon"],
     apw: ["bichį́h", "bitʃĩ́h"],
-    ers: ["sɿnbu", "sɿ˥˥nbu˥˥"]
+    ers: ["sɿnbu", "sɿ˥˥nbu˥˥"],
+    tiw: ["jinimuli", "dʒinimuli"],
+    ekp: ["emi", "emi"],
+    bbo: ["biin", "biːn"],
+    xul: ["nyigity", "ɲiɡiɟ"],
+    mzh: ["lenhus", "len̥us"],
+    arp: ["béʼis", "béʔis"]
   },
 };

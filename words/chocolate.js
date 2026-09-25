@@ -362,6 +362,10 @@ WORDS.chocolate = {
     rup: ["ciuculatã", "tʃukuˈlatə"],
     kpv: ["шоколад", "ʃokoˈlad"],
     ia: ["chocolate", "tʃokoˈlate"],
-    pau: ["tsiokkolet", "tsiokːolet"]
+    pau: ["tsiokkolet", "tsiokːolet"],
+    frr: ["sakelaad", "sakəˈlaːd"],
+    se: ["šuhkoláda", "ˈʃuhkolaːda"],
+    abq: ["шоколад", "ʃokolad"],
+    stq: ["Sukkeloade", "zʊkəˈlɔːdə"]
   }
 };

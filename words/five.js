@@ -1131,6 +1131,10 @@ WORDS.five = {
     usp: ["jobʼ", "hoɓ"],
     kmu: ["faefuʼa", "faefuʔa"],
     yrl: ["pú", "pu"],
-    bzh: ["nemadvahi", "nemadvahi"]
+    bzh: ["nemadvahi", "nemadvahi"],
+    ja_rys: ["五つ", "itsɨtsɨ"],
+    xkz: ["yanga", "jaŋa"],
+    agx: ["гӏифуд", "ʕifud"],
+    bzd: ["ske̱l", "skẽl"]
   },
 };

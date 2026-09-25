@@ -897,6 +897,7 @@ WORDS.snow = {
     ty: ["hiona", "hiona"],
     ngu: ["nieve", "ˈnjebe"],
     kfx: ["हिंऊँ", "hĩũ"],
-    ixl: ["txuncheʼv", "tʃuntʃeʔv"]
+    ixl: ["txuncheʼv", "tʃuntʃeʔv"],
+    jvn: ["salju", "saldʒu"]
   },
 };

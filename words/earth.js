@@ -1099,6 +1099,14 @@ WORDS.earth = {
     kmu: ["mopa", "mopa"],
     poh: ["akʼal", "akʼal"],
     bzh: ["dob", "dob"],
-    mpt: ["dabal", "dabal"]
+    mpt: ["dabal", "dabal"],
+    tiw: ["kiluwarti", "kiluwaɾti"],
+    xkz: ["sa", "sa"],
+    stq: ["Äide", "ˈɛɪ̯də"],
+    abq: ["адгьыл", "adɡʲəl"],
+    ekp: ["ele", "ɛlɛ"],
+    bbo: ["lou", "lou"],
+    xul: ["dhaura", "d̪auɻa"],
+    bzd: ["íyök", "íjøk"]
   },
 };

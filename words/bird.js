@@ -1035,6 +1035,19 @@ WORDS.bird = {
     apw: ["dlǫ́ʼ", "dlṍʔ"],
     ers: ["xuɑi", "xuɑi˥˥"],
     yai: ["parranda", "parːanˈda"],
-    ess: ["ӄау̌ак", "qawak"]
+    ess: ["ӄау̌ак", "qawak"],
+    otq: ["tsꞌintsꞌu", "tsʼintsʼu"],
+    car: ["tonoro", "tonoɾo"],
+    ja_rys: ["鳥", "turɨ"],
+    stq: ["Fugel", "ˈfuːɣəl"],
+    abq: ["пссгӏачӏвы", "psːʁatʃʼʷə"],
+    tcs: ["pizin", "pizin"],
+    bbo: ["yalaa", "jalaː"],
+    xul: ["budyan", "buɟan"],
+    mzh: ["afwenche", "afʷentʃe"],
+    gum: ["illi", "iʎi"],
+    arp: ["niiʼéíhii", "niːʔéíhiː"],
+    bzd: ["dù", "du"],
+    tiw: ["tokwampini", "tokʷampini"]
   },
 };

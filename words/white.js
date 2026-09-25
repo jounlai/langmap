@@ -1170,6 +1170,11 @@ WORDS.white = {
     adi: ["yalun", "jalun"],
     kfx: ["शेता", "ʃetaː"],
     sjo: ["ᡧᠠᠨᠶᠠᠨ", "ʃanjan"],
-    ess: ["ӄатылӷи", "qatɨlɣi"]
+    ess: ["ӄатылӷи", "qatɨlɣi"],
+    tiw: ["alanjurrukuni", "alaɲcuɾukuni"],
+    xkz: ["kharti", "kʰarti"],
+    ekp: ["usa", "usa"],
+    bbo: ["furu", "furu"],
+    arp: ["noocóó", "noːtʃóː"]
   },
 };

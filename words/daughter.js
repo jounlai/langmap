@@ -1052,6 +1052,10 @@ WORDS.daughter = {
     bru: ["con mansễm", "kɔn mənsem"],
     lzz: ["ბოზომოთა", "bozomotʰa"],
     sjo: ["ᠰᠠᡵᡤᠠᠨ ᠵᡠᡳ", "sarɢan dʒui"],
-    apw: ["shitsiʼ", "ʃitsiʔ"]
+    apw: ["shitsiʼ", "ʃitsiʔ"],
+    abq: ["пхӏа", "pħa"],
+    tcs: ["gel", "ɡel"],
+    bbo: ["nɩmadala", "nɪmadala"],
+    wba: ["ukatira", "ukatiɾa"]
   },
 };

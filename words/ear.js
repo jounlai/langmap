@@ -1111,6 +1111,12 @@ WORDS.ear = {
     kmu: ["agesa", "aɡesa"],
     sad: ["keke", "keke"],
     mic: ["uksʼtuaqan", "uksəduaxan"],
-    ers: ["nɑku", "nɑ˥˥ku˥˥"]
+    ers: ["nɑku", "nɑ˥˥ku˥˥"],
+    tiw: ["pirrakirninga", "piɾakiɾniŋa"],
+    bbo: ["turu", "turu"],
+    xul: ["guri", "ɡuɻi"],
+    mzh: ["lechʼote", "letʃʼote"],
+    arp: ["wónotónoʼ", "wónotónoʔ"],
+    bzd: ["kukuö̀", "kukuø"]
   },
 };

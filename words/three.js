@@ -897,7 +897,7 @@ WORDS.three = {
     zza: ["hirê", "hiɾeː"],
     brh: ["مسٹ", "musiʈ"],
     mrq: ["toʻu", "toʔu"],
-    tiw: ["yirrajirrima", "jiɾaɟiɾima"],
+    tiw: ["yirrajirrima", "jiɾadʒiɾima"],
     lbz: ["mungkalan", "muŋkalan"],
     lbz_damin: ["—", "—"],
     nny: ["—", "—"],

@@ -851,6 +851,7 @@ WORDS.wheel = {
     cnh: ["kekual", "kekual"],
     bdq: ["tang-wang", "taːŋ waːŋ"],
     lhu: ["gaˉ yaw", "ɡa jɔ"],
-    sip: ["འཁོར་ལོ", "kʰorlo"]
+    sip: ["འཁོར་ལོ", "kʰorlo"],
+    bbo: ["pinii", "piniː"]
   },
 };

@@ -1129,6 +1129,8 @@ WORDS.four = {
     kmu: ["foʼa", "foʔa"],
     bzh: ["lubeluu", "lubeluː"],
     ers: ["ʐo", "ʐo˧˧"],
-    ess: ["ыстамат", "ɨstamat"]
+    ess: ["ыстамат", "ɨstamat"],
+    crk: ["ᓀᐓ", "neːwo"],
+    bbo: ["nɩan", "nɪan"]
   },
 };

@@ -908,6 +908,10 @@ WORDS.mouth = {
     kjb: ["tiʼ", "tiʔ"],
     chy: ["mahtse", "mahtse"],
     ium: ["nzuih", "dzui˧˩"],
-    yap: ["lʼugun", "lʼuɡun"]
+    yap: ["lʼugun", "lʼuɡun"],
+    kpy: ["йыкыйӈын", "jəkəjŋən"],
+    aqc: ["ссоб", "sːob"],
+    ddo: ["гьахъу", "haqu"],
+    mgo: ["ɨchû", "ɨtʃû"]
   }
 };

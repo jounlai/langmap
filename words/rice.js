@@ -604,6 +604,8 @@ WORDS.rice = {
     chy: ["heʼéhesono", "heʔéhesono"],
     ium: ["mbiauh", "biau˧˩"],
     tao: ["mogis", "moɡis"],
-    yap: ["koomëy", "koːməj"]
+    yap: ["koomëy", "koːməj"],
+    aqc: ["биринж", "biɾinʒ"],
+    dbq: ["merure", "merure"]
   }
 };

@@ -1038,6 +1038,10 @@ WORDS.black = {
     fax: ["negru", "ˈneɡɾu"],
     moh: ["kahòn:tsi", "kahũːtsi"],
     chy: ["moʼȯhtávo", "moʔohtávo"],
-    ium: ["jieqv", "tɕieʔ˥˥"]
+    ium: ["jieqv", "tɕieʔ˥˥"],
+    kpy: ["луӄин", "luqin"],
+    aqc: ["беххьӏеттут", "beχːˤetːut"],
+    ddo: ["хъаӏба", "qˤaba"],
+    mgo: ["firɨ", "firɨ"]
   },
 };

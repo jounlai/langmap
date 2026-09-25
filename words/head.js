@@ -948,6 +948,9 @@ WORDS.head = {
     moh: ["onón:tsi", "onṹːtsi"],
     chy: ["meʼko", "meʔko"],
     ium: ["mʼnqorngv", "m̩ɡɔŋ˦"],
-    yap: ["llug", "lːuɡ"]
+    yap: ["llug", "lːuɡ"],
+    kpy: ["лэвʼыт", "lewət"],
+    aqc: ["картӏи", "kaɾtʼi"],
+    mgo: ["ətu", "ətu"]
   },
 };

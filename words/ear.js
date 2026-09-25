@@ -1126,6 +1126,10 @@ WORDS.ear = {
     cni: ["noyempita", "nojempita"],
     ame: ["etats", "etats"],
     moh: ["ohónhtaʼ", "ohṹhtaʔ"],
-    ium: ["mʼnormh", "m̩nɔm˧˩"]
+    ium: ["mʼnormh", "m̩nɔm˧˩"],
+    kpy: ["вэлолӈын", "velolŋən"],
+    mgo: ["ətǒŋ", "ətǒŋ"],
+    dbq: ["zlimi", "ɮimi"],
+    chy: ["mahtovóoʼȯtse", "mahtovóːʔotse"]
   },
 };

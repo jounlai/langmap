@@ -793,6 +793,11 @@ WORDS.book = {
     moh: ["kahiatónhsera", "kahjatṹhsera"],
     chy: ["hoéstonemȯxeʼėstooʼo", "hoéstonemoxeʔestoːʔo"],
     tao: ["vakong", "vakoŋ"],
-    yap: ["baabiyor", "baːbijor"]
+    yap: ["baabiyor", "baːbijor"],
+    kpy: ["каликал", "kalikal"],
+    aqc: ["къонкъ", "qʼonqʼ"],
+    ddo: ["тӏек", "tʼek"],
+    mgo: ["ə̀ŋwàʼnɨ̀", "ə̀ŋwàʔnɨ̀"],
+    dbq: ["beftere", "beftere"]
   }
 };

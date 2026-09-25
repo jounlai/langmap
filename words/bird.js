@@ -1067,6 +1067,8 @@ WORDS.bird = {
     cni: ["tsimeri", "tsimeɾi"],
     ame: ["ot̃", "otʲ"],
     moh: ["otsiʼtén:ʼa", "otsiʔtʌ̃́ːʔa"],
-    ium: ["norqc", "nɔʔ˨˩"]
+    ium: ["norqc", "nɔʔ˨˩"],
+    kpy: ["пычиӄ", "pətʃiq"],
+    mgo: ["rɨnən", "rɨnən"]
   },
 };

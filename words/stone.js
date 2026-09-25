@@ -1062,6 +1062,11 @@ WORDS.stone = {
     crx: ["t̲s̲e", "tse"],
     ame: ["mapueʼ", "mapweʔ"],
     moh: ["onén:iaʼ", "onʌ̃́ːjaʔ"],
-    ium: ["laʼbieiv", "ʔlapiei˦"]
+    ium: ["laʼbieiv", "ʔlapiei˦"],
+    kpy: ["вʼывʼвʼылӈын", "wəwːəlŋən"],
+    aqc: ["чӏеле", "tʃʼele"],
+    ddo: ["гъуӏл", "ʁˤul"],
+    mgo: ["ɨti", "ɨti"],
+    dbq: ["gugun", "ɡuɡun"]
   },
 };

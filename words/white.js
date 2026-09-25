@@ -959,7 +959,7 @@ WORDS.white = {
     ewo: ["mfum", "mfum"],
     bum: ["éfumulu", "efumulu"],
     agq: ["fə̀m", "fə̀m"],
-    mgo: ["rɨ̀fɨ", "rɨfɨ"],
+    mgo: ["rɨ̀fɨ", "rɨ̀fɨ"],
     dur: ["hèè", "hee"],
     ndc: ["chena", "tʃena"],
     ote: ["tʼaxi", "tʼaʃi"],

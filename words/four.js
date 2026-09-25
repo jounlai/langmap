@@ -1142,6 +1142,8 @@ WORDS.four = {
     shp: ["chosko", "tʃosko"],
     crn: ["muaacua", "mwaːkwa"],
     crx: ["dunghi", "dunɣi"],
-    agr: ["ipaksumat", "ipaksumat"]
+    agr: ["ipaksumat", "ipaksumat"],
+    aqc: ["ебкъ", "ebqʼ"],
+    mgo: ["kwè", "kwè"]
   },
 };

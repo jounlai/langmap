@@ -1111,6 +1111,8 @@ WORDS.earth = {
     sbp: ["ililongo", "ililoŋɡo"],
     yan: ["sau", "sau"],
     kmh: ["lum", "lum"],
-    agu: ["txʼotxʼ", "tʃʼotʃʼ"]
+    agu: ["txʼotxʼ", "tʃʼotʃʼ"],
+    mgo: ["si", "si"],
+    ame: ["pats", "pats"]
   },
 };

@@ -1007,6 +1007,8 @@ WORDS.honey = {
     ame: ["pets poʼmoñ", "pets poʔmoɲ"],
     tvl: ["hani", "hani"],
     chy: ["háhnomápanoʼėhaseoʼo", "háhnomápanoʔehaseoʔo"],
-    ium: ["mueiz-dorngh", "muei˨˧tɔŋ˧˩"]
+    ium: ["mueiz-dorngh", "muei˨˧tɔŋ˧˩"],
+    kpy: ["ёӄъямыткымыт", "joqʔjamətkəmət"],
+    mgo: ["ju", "dʒu"]
   },
 };

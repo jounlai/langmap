@@ -1057,7 +1057,7 @@ WORDS.red = {
     ewo: ["nyín", "ɲín"],
     bum: ["nyín", "ɲin"],
     agq: ["bàŋ", "bàŋ"],
-    mgo: ["bàŋ", "baŋ"],
+    mgo: ["bàŋ", "bàŋ"],
     dur: ["baŋ", "baŋ"],
     ndc: ["tsvuku", "tsvuku"],
     ote: ["theni", "tʰeni"],

@@ -1016,6 +1016,9 @@ WORDS.hundred = {
     moh: ["tewenʼniáwe", "tewʌ̃ʔnjáwe"],
     chy: ["mahtóhtȯhnóʼe", "mahtóhtohnóʔe"],
     ium: ["baeqv", "pæʔ˥˥"],
-    yap: ["raqay", "raʔaj"]
+    yap: ["raqay", "raʔaj"],
+    aqc: ["баӏш", "baˤʃ"],
+    mgo: ["ɨkɨ fibɨ̀", "ɨkɨ fibɨ̀"],
+    dbq: ["bələk", "bələk"]
   },
 };

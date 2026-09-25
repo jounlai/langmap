@@ -830,6 +830,11 @@ WORDS.horse = {
     kjb: ["chej", "tʃex"],
     moh: ["akohsá:tens", "akohsáːtʌ̃s"],
     ium: ["maaz", "maː˨˧"],
-    yap: ["qoos", "ʔoːs"]
+    yap: ["qoos", "ʔoːs"],
+    kpy: ["коня", "konja"],
+    aqc: ["ноӏш", "noˤʃ"],
+    ddo: ["гулу", "ɡulu"],
+    mgo: ["ngyi", "ŋɡji"],
+    dbq: ["pilis", "pilis"]
   }
 };

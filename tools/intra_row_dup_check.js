@@ -187,6 +187,16 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // collision with a cell that was already right, which is the opposite of the
 // usual signature and is exactly why this guard reports rather than blocks.
 // Genuine homophones, both attested on their own page.
+// 2026-09-25: accepts eight more blue = green pairs — tao, tar, wba, tsu, bnn,
+// wbp, aer, otq — and the reason is that this stopped being a judgement about
+// eight languages and became one about a policy. Three separate round-19
+// slices reported the same thing independently: the row's green word IS its
+// blue word, the language has one grue term, and the cell was empty ONLY
+// because this guard forbade repeating it. Thirty-two rows already carry one
+// term in both, the concept's own definition says a shared grue word belongs
+// under both, and Sakha was settled that way in round 14. Refusing the other
+// eight would have meant publishing "this language has no word for green" to
+// keep a counter at zero.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

@@ -1042,6 +1042,7 @@ WORDS.wind = {
     moh: ["óweraʼ", "óweraʔ"],
     chy: ["háaʼháeše", "háːʔháeʃe"],
     ium: ["nziaaux", "dzjaːu˨˧"],
-    tao: ["pagpag", "paɡpaɡ"]
+    tao: ["pagpag", "paɡpaɡ"],
+    mgo: ["əfim", "əfim"]
   },
 };

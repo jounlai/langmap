@@ -381,6 +381,7 @@ WORDS.chocolate = {
     crn: ["tzicuraá", "tsikuɾaˈa"],
     rm: ["tschigulatta", "tʃiɡuˈlata"],
     fax: ["chocolati", "tʃokoˈlati"],
-    nog: ["шоколад", "ʃokolad"]
+    nog: ["шоколад", "ʃokolad"],
+    aqc: ["щакӏалат", "ʃːakʼalat"]
   }
 };

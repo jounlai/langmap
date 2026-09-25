@@ -1076,6 +1076,8 @@ WORDS.nose = {
     moh: ["oʼniónhsaʼ", "oʔnjṹhsaʔ"],
     chy: ["maʼevo", "maʔevo"],
     ium: ["mbaʼzorng", "batsɔŋ˧"],
-    yap: ["pʼeethunguun", "pʼeːθuŋuːn"]
+    yap: ["pʼeethunguun", "pʼeːθuŋuːn"],
+    kpy: ["гʼиӈытгʼым", "ʕiŋətʕəm"],
+    aqc: ["муч", "mutʃ"]
   },
 };

@@ -1025,6 +1025,8 @@ WORDS.egg = {
     crx: ["ʼughez", "ʔuɣez"],
     cni: ["iitsoki", "iːtsoki"],
     ame: ["paʼmeʼ", "paʔmeʔ"],
-    moh: ["oʼnhónhsa", "oʔnhṹhsa"]
+    moh: ["oʼnhónhsa", "oʔnhṹhsa"],
+    kpy: ["ливʼливʼ", "liwliw"],
+    chy: ["vovȯtse", "vovotse"]
   },
 };

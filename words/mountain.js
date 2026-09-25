@@ -793,6 +793,11 @@ WORDS.mountain = {
     chy: ["hoʼhonáevose", "hoʔhonáevose"],
     ium: ["mbong", "bɔŋ˧"],
     tao: ["tokon", "tokon"],
-    yap: ["burey", "burej"]
+    yap: ["burey", "burej"],
+    kpy: ["тынуп", "tənup"],
+    aqc: ["мул", "mul"],
+    ddo: ["хӏон", "ħon"],
+    mgo: ["ɨwum", "ɨwum"],
+    dbq: ["caɗak", "tʃaɗak"]
   }
 };

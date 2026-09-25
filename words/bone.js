@@ -661,7 +661,7 @@ WORDS.bone = {
     ay: ["chʼakha", "tʃʼakʰa"],
     jqr: ["chʼaka", "tʃʼaka"],
     cni: ["tonki", "tonki"],
-    ame: ["pats", "pats"],
+    ame: ["nopats", "nopats"],
     gym: ["krö", "kɾø"],
     yan: ["wakal", "wakal"],
     jiv: ["ukunch", "ukuntʃ"],

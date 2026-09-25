@@ -702,6 +702,9 @@ WORDS.poop = {
     chy: ["matse", "matse"],
     ium: ["nqaiv", "ɡai˦"],
     tao: ["obot", "obot"],
-    yap: ["taer", "taːr"]
+    yap: ["taer", "taːr"],
+    kpy: ["гʼалэгʼал", "ʕaleʕal"],
+    aqc: ["гӏагӏа", "ʕaʕa"],
+    dbq: ["bəbah", "bəbah"]
   },
 };

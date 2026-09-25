@@ -986,6 +986,9 @@ WORDS.milk = {
     ame: ["momosats", "momosats"],
     tvl: ["susu", "susu"],
     ium: ["nyorx", "ɲɔ˨˧"],
-    tao: ["mizoko", "mizoko"]
+    tao: ["mizoko", "mizoko"],
+    kpy: ["лёӄэй", "ʎoqej"],
+    mgo: ["ɨbən", "ɨbən"],
+    dbq: ["wa", "wa"]
   },
 };

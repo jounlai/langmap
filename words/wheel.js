@@ -860,6 +860,8 @@ WORDS.wheel = {
     crx: ["nunúlgaih-i", "nunulɡaihi"],
     fax: ["roa", "ˈroa"],
     chy: ["onéstahké-mahtseʼko", "onéstahkémahtseʔko"],
-    ium: ["yienh", "jien˧˩"]
+    ium: ["yienh", "jien˧˩"],
+    kpy: ["кувʼлычгʼын", "kuwlətʃʕən"],
+    dbq: ["ngaz mota", "ŋɡaz mota"]
   },
 };

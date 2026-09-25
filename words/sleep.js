@@ -1052,6 +1052,9 @@ WORDS.sleep = {
     moh: ["wakí:taʼs", "wakíːtaʔs"],
     chy: ["naóotse", "naóːtse"],
     ium: ["mʼnjormh", "m̩ɟɔm˧˩"],
-    tao: ["mitkeh", "mitkəh"]
+    tao: ["mitkeh", "mitkəh"],
+    kpy: ["йылӄэтык", "jəlqetək"],
+    aqc: ["ахукес", "aχukes"],
+    mgo: ["gwen", "ɡwen"]
   },
 };

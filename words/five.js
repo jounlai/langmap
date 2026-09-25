@@ -1146,6 +1146,8 @@ WORDS.five = {
     emp: ["juesuma", "huesuma"],
     crn: ["ansɨbi", "ansɨbi"],
     crx: ["kwulaiʼ", "kʷulaiʔ"],
-    ame: ["amnar", "amnaɾ"]
+    ame: ["amnar", "amnaɾ"],
+    mgo: ["tân", "tân"],
+    dbq: ["jəɓin", "dʒəɓin"]
   },
 };

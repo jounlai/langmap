@@ -819,6 +819,10 @@ WORDS.person = {
     tvl: ["tino", "tino"],
     kjb: ["anima", "anima"],
     moh: ["ón:kwe", "ṹːɡwe"],
-    yap: ["girdiiq", "ɡirdiːʔ"]
+    yap: ["girdiiq", "ɡirdiːʔ"],
+    kpy: ["гʼуемтэвʼилгʼын", "ʕujemtewilʕən"],
+    ddo: ["инсан", "insan"],
+    mgo: ["wə̀d", "wə̀d"],
+    dbq: ["hidi", "hidi"]
   }
 };

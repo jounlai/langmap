@@ -765,6 +765,9 @@ WORDS.sea = {
     moh: ["kanientaraʼkehkó:wa", "kanjʌ̃taraʔkehkóːwa"],
     ium: ["koiv", "kʰoi˦"],
     tao: ["wawa", "wawa"],
-    yap: ["madaay", "madaːj"]
+    yap: ["madaay", "madaːj"],
+    kpy: ["аӈӄан", "aŋqan"],
+    ddo: ["ралъад", "raɬad"],
+    mgo: ["rɨ̀bàà", "rɨ̀bàà"]
   }
 };

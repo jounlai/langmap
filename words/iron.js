@@ -992,6 +992,9 @@ WORDS.iron = {
     ame: ["aser", "aseɾ"],
     tvl: ["fiti", "fiti"],
     moh: ["karístatsi", "karístatsi"],
-    ium: ["hlieqv", "l̥ieʔ˥˥"]
+    ium: ["hlieqv", "l̥ieʔ˥˥"],
+    kpy: ["пылвынтын", "pəlvəntən"],
+    ddo: ["гер", "ɡer"],
+    mgo: ["ətənɨ", "ətənɨ"]
   },
 };

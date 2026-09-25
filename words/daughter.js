@@ -1063,6 +1063,7 @@ WORDS.daughter = {
     djk: ["umanpikin", "umanpikin"],
     chk: ["nengin", "neŋin"],
     crx: ["oot̲s̲eʼ", "oːtseʔ"],
-    ium: ["sieqv", "sieʔ˥˥"]
+    ium: ["sieqv", "sieʔ˥˥"],
+    kpy: ["ӈавакык", "ŋavakək"]
   },
 };

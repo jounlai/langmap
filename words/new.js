@@ -931,6 +931,9 @@ WORDS.new = {
     kjb: ["akʼ", "akʼ"],
     moh: ["á:se", "áːse"],
     chy: ["mónaʼe", "mónaʔe"],
-    ium: ["siang", "siaŋ˧"]
+    ium: ["siang", "siaŋ˧"],
+    kpy: ["нытуйӄин", "nətujqin"],
+    aqc: ["мацӏаттут", "matsʼatːut"],
+    mgo: ["fi", "fi"]
   },
 };

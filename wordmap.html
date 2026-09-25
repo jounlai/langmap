@@ -3107,14 +3107,6 @@
         <button id="word-current-btn" type="button" aria-haspopup="dialog"
                 aria-controls="word-modal" aria-label="Select word"
                 ><span class="wcb-name"></span><span class="wcb-caret" aria-hidden="true">▾</span></button>
-        <!-- Roll a different word. The categorised modal is better than the old
-             flat <select> for FINDING a word and worse for simply moving to
-             another one, which is what this restores: one click, one new map.
-             Placed where the language row puts its die, so the two picker rows
-             read as the same control twice. -->
-        <button type="button" id="word-random" class="die-btn"
-                title="Random word" aria-label="Random word"
-                ><span class="die-face" aria-hidden="true">🎲</span></button>
         <!-- The definition is collapsed by default and opened from here.
              Styled and placed to match #era-help: a small "?" at the right
              end of its own row. It overlaid the map when always-on; see the
@@ -3122,6 +3114,17 @@
              wants it open gets it open on every word and every visit. -->
         <span id="word-def-toggle" tabindex="0" role="button" aria-expanded="false"
               aria-controls="word-definition" aria-label="" title="">?</span>
+        <!-- Roll a different word. The categorised modal is better than the old
+             flat <select> for FINDING a word among 86 and worse for simply
+             moving to another one, which is what this restores: one click, one
+             new map.
+             It sits AFTER the "?" on purpose (owner 2026-09-26). The "?" opens
+             the definition of the word on show, so it belongs to the button it
+             describes; the die goes somewhere else entirely, and ending the row
+             with it is also what the language row does. -->
+        <button type="button" id="word-random" class="die-btn"
+                title="Random word" aria-label="Random word"
+                ><span class="die-face" aria-hidden="true">🎲</span></button>
         </div>
         <div id="word-definition" hidden></div>
         <!-- Era switch + filter button live in the same row so the

@@ -1172,7 +1172,7 @@ WORDS.fish = {
     gsw_w: ["Fisch", "fɪʃ"],
     huz: ["бысе", "bəse"],
     khv: ["чугӏа", "tʃuʕa"],
-    kjj: ["балыгъ", "balɯʁ"],
+    kjj: ["балыгъ", "balɨʁ"],
     kpf: ["iŋan", "iŋan"],
     kqz: ["ǃau", "ǃau"],
     ktz: ["ǃʼau", "ǃʼau"],

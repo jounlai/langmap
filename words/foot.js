@@ -1700,7 +1700,7 @@ WORDS.foot = {
     kjb: ["aqan", "aqan"],  // PMED glosses QAN aqan 'pie, pierna' outright; penek is the knee, not a leg word.
     kjg: ["krwɛh", "krwɛh"],  // Suwilai's Khmu dictionary has foot krwɛh against leg plɔːŋ, and Khmu has pushed the inherited *ɟəŋ etymon onto the leg (ɟɪəŋ) — the reverse of the rest of Mon-Khmer.
     kjh: ["азах", "azax"],  // азах covers both; пут is the thigh.
-    kjj: ["анк", "ank"],  // IDS 4-350 анк answers 4-370 too; ппача, the other leg word, is never offered for the foot.
+    kjj: ["анк", "ankʰ"],  // IDS 4-350 анк answers 4-370 too; ппача, the other leg word, is never offered for the foot.
     kjp: ["ခင်း", "kʰáɴ"],  // Kato glosses Eastern Pwo ခင်း kháɴ 'leg' and Jones 1961 #44 gives Moulmein khánʔ 'foot' — the same Proto-Karen *khaŋᴮ as Sgaw and Pa'O.
     kk: ["аяқ-басы", "ɑjɑqbɑsə"],  // Kazakh builds the foot word as аяқ-басы, literally 'leg's head', on the leg word — the compound pattern.
     kky: ["dhamal", "d̪amal"],  // Guugu Yimidhirr dhamal 'foot', distinct from the leg word.

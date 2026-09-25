@@ -264,7 +264,7 @@ WORDS.butterfly = {
     huz: ["папатӏу", "papatʼu"],  // Reduplicated pa-pa-.
     khv: ["гъогъонтӏу", "ʁoʁontʼu"],  // Reduplicated ʁo-ʁo-.
     bdk: ["чуьнглеле", "tʃynɡlele"],
-    kjj: ["каьпаьнаьг", "kæpænæɡ"],  // A Turkic loan (cf. Azerbaijani kəpənək); IDS also records паьрваьнаь, from Persian parvāne.
+    kjj: ["каьпаьнаьг", "kʰæpʰænæɡ"],  // A Turkic loan (cf. Azerbaijani kəpənək); IDS also records паьрваьнаь, from Persian parvāne.
     tab: ["ппазипенди", "pːazipendi"],  // IDS's Southern Tabasaran form; the Khanag subdialect has ригъикӏракӏ and ппалагьан.
     ay: ["pilpintu", "pilpintu"],  // Reduplicative pil-pin-; shared with Quechua pillpintu.
     gn: ["panambi", "panaˈmbi"],  // IDS writes panaᵐbi; respelled mb, as in the row's own mbarakaja.

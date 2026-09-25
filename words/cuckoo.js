@@ -493,7 +493,7 @@ WORDS.cuckoo = {
     gsw_w: ["Gugger", "ˈɡʊɡər"],
     huz: ["кӏукӏутӏо", "kʼukʼutʼo"],
     khv: ["куку", "kuku"],
-    kjj: ["кокку", "kːokːu"],
+    kjj: ["кокку", "kʰokːu"],
     kxv: ["kuhu paṭa", "kuɦu paʈa"],
     pao: ["poboyoohaʼa", "poboˈjoːhaʔa"],
     rut: ["гиггу", "ɡiɡːu"],

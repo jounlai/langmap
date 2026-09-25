@@ -588,7 +588,7 @@ WORDS.wheel = {
     lez: ["чарх", "tʃarx"],
     tab: ["чарх", "tʃarx"],
     bdk: ["чарх", "tʃarx"],
-    kjj: ["чарх", "tʃarx"],
+    kjj: ["чарх", "tʃarχ"],
     rut: ["чарх", "tʃarx"],
     tkr: ["текар", "tekar"],
     udi: ["таькаьр", "tækær"],

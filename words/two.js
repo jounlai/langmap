@@ -520,7 +520,7 @@ WORDS.two = {
       gsw_w: ["zwei", "tsvɛi"],
       huz: ["къӏоно", "qˤʼono"],
       khv: ["къӏано", "qˤʼano"],
-      kjj: ["кьуь", "kʲʼy"],
+      kjj: ["кӏу", "kʼu"],
       kpf: ["yaet", "jaʔet"],
       kqz: ["ǀgam", "ǀʔam"],
       ktz: ["tsàn", "tsã̀"],

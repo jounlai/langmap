@@ -1164,7 +1164,7 @@ WORDS.red = {
     gsw_w: ["rot", "rot"],
     huz: ["цӏунду", "tsʼundu"],
     khv: ["утӏана", "utʼana"],
-    kjj: ["ал", "al"],
+    kjj: ["ццыма", "tsɨma"],
     kpf: ["kuring", "kuriŋ"],
     kqz: ["ǀawa", "ǀawa"],
     ktz: ["ǀʼhàrà", "ǀʼhàrà"],

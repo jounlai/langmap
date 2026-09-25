@@ -520,7 +520,7 @@ WORDS.drink = {
     gsw_w: ['trichu', 'ˈtrɪxʊ'],
     huz: ['хулӏа', 'χuɬa'],
     khv: ['цӏода', 'tsʼoda'],
-    kjj: ['цуври', 'tsʰuvri'],
+    kjj: ["цуври", "tsuvri"],
     kpf: ['—', '—'],
     kqz: ['xʼā', 'xʼaː'],
     ktz: ['kxʼáí', 'kxʼái'],

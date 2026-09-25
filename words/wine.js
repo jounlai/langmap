@@ -1342,7 +1342,7 @@ WORDS.wine = {
     tkr: ["чахыр", "tʃaxɨr"],
     rut: ["чахыр", "tʃaxɨr"],
     bdk: ["чахыр", "tʃaxɨr"],
-    kjj: ["чахыр", "tʃaxɨr"],
+    kjj: ["чахыр", "tʃaχɨr"],
     kry: ["çaxır", "tʃaxɨr"],
     ani: ["чагъир", "tʃaʁir"],
     khv: ["чагъир", "tʃaʁir"],

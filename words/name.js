@@ -520,7 +520,7 @@ WORDS.name = {
       gsw_w: ["Namu", "ˈnamu"],
       huz: ["цӏе", "tsʼe"],
       khv: ["цӏери", "tsʼeri"],
-      kjj: ["цӏе", "tsʼe"],
+      kjj: ["цӏу", "tsʼu"],
       kpf: ["imbi", "imbi"],
       kqz: ["ǀons", "ǀons"],
       ktz: ["ǀʼhòà", "ǀʼhòà"],

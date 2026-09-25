@@ -520,7 +520,7 @@ WORDS.tree = {
     gsw_w: ['Boum', 'bɔʊ̯m'],
     huz: ['хонхе', 'χõχe'],
     khv: ['гъван', 'ʁʷan'],
-    kjj: ['виши', 'viʃæ'],
+    kjj: ["вишаь", "viʃæ"],
     kpf: ['nak', 'nak'],
     kqz: ['hais', 'haìs'],
     ktz: ['ǃaìh', 'ǃaìh'],

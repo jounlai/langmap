@@ -1165,7 +1165,7 @@ WORDS.three = {
     gsw_w: ["drii", "driː"],
     huz: ["лъана", "ɬana"],
     khv: ["лъона", "ɬona"],
-    kjj: ["пшо", "pʃʷa"],
+    kjj: ["пшва", "pʃʷa"],
     kpf: ["karambut", "karambut"],
     kqz: ["ǃnona", "ǃnona"],
     ktz: ["nǃàní", "ᵑǃàní"],

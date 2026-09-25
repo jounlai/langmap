@@ -520,7 +520,7 @@ WORDS.star = {
       gsw_w: ["Stäru", "ˈʃtæru"],
       huz: ["цӏирис", "tsʼiris"],
       khv: ["цӏирис", "tsʼiris"],
-      kjj: ["хьар", "χar"],
+      kjj: ["пхунцӏ", "pχuntsʼ"],
       kpf: ["kumbu", "kumbu"],
       kqz: ["ǀgami", "ǀʔami"],
       ktz: ["ǀqhùbi", "ǀqʰùbí"],

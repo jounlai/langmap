@@ -522,7 +522,7 @@ WORDS.new = {
     gsw_w: ["niww", "niw"],
     huz: ["ыцӏу", "ɨtsʼu"],
     khv: ["эцӏну", "etsʼnu"],
-    kjj: ["таза", "taza"],
+    kjj: ["таза", "tʰaza"],
     kpf: ["irakŋâ", "irakŋɐ"],
     lij_t: ["neûvu", "ˈnøvu"],
     mkz: ["supa", "ˈsupa"],

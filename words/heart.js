@@ -520,7 +520,7 @@ WORDS.heart = {
     gsw_w: ['Härz', 'hærts'],
     huz: ['ракӏу', 'rakʼu'],
     khv: ['локӏва', 'lokʼʷa'],
-    kjj: ['унг', 'uŋ'],
+    kjj: ["унг", "uŋɡ"],
     kpf: ['kabiam', 'kabiam'],
     kqz: ['ǂaob', 'ǂaob'],
     ktz: ['ǂʼàn', 'ǂʼàn'],

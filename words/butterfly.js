@@ -626,6 +626,11 @@ WORDS.butterfly = {
     wba: ["warowaro", "waɾowaɾo"],
     arp: ["níhʼootéibéíhii", "níhʔoːtéibéíhiː"],
     bzd: ["kuaʼkua", "kuaʔkua"],
-    ch: ["ababang", "aˈbabaŋ"]
+    ch: ["ababang", "aˈbabaŋ"],
+    bnn: ["balikuan", "balikuan"],
+    ygr: ["gokopala", "ɡokopala"],
+    jbo: ["toldi", "ˈtoldi"],
+    hsb: ["mjetel", "ˈmjɛtɛl"],
+    ko_jeju: ["나비", "nabi"]
   },
 };

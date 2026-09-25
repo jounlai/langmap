@@ -796,6 +796,14 @@ WORDS.horse = {
     tar: ["kawé", "kawe"],
     bzd: ["kabaio", "kabaio"],
     tsu: ["ʼuma", "ʔuma"],
-    pwn: ["rigi", "ɾiɡi"]
+    pwn: ["rigi", "ɾiɡi"],
+    bnn: ["tasasikis", "tasasikis"],
+    meu: ["hosi", "hosi"],
+    hot: ["bokhos", "bokhos"],
+    emi: ["ooso", "ooso"],
+    wbp: ["nantuwu", "nantuwu"],
+    kca: ["ӆов", "ɬow"],
+    yan: ["aras", "aɾas"],
+    vro: ["hopõn", "hopɤn"]
   }
 };

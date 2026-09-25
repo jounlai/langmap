@@ -1009,6 +1009,9 @@ WORDS.egg = {
     arp: ["noon", "noːn"],
     bzd: ["sia̱ʼ", "siãʔ"],
     tsu: ["fcuyu", "ftsuju"],
-    cng: ["wəs", "wəs"]
+    cng: ["wəs", "wəs"],
+    ygr: ["amuna", "amuna"],
+    bnn: ["lububunun", "lububunun"],
+    sbp: ["ilikhankha", "ilixanxa"]
   },
 };

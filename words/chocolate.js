@@ -366,6 +366,7 @@ WORDS.chocolate = {
     frr: ["sakelaad", "sakəˈlaːd"],
     se: ["šuhkoláda", "ˈʃuhkolaːda"],
     abq: ["шоколад", "ʃokolad"],
-    stq: ["Sukkeloade", "zʊkəˈlɔːdə"]
+    stq: ["Sukkeloade", "zʊkəˈlɔːdə"],
+    hsb: ["šokolada", "ˈʃɔkɔlada"]
   }
 };

@@ -80,8 +80,12 @@ const byConcept = {};
 for (const o of ops) (byConcept[o.concept] ||= []).push(o);
 
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+// The value class must exclude only its OWN quote character, not both. Writing
+// it as [^"'] silently refuses any cell whose form contains the other quote —
+// and plenty do, because U+0027 is a real letter in a lot of orthographies.
+// Yagaria honey "uta' gabe" is the cell that found this.
 const entryRe = (code) => new RegExp(
-    `(^|\\n)(\\s*)(["']?)${esc(code)}\\3:\\s*\\[\\s*(["'])([^"']*)\\4\\s*,\\s*(["'])([^"']*)\\6\\s*\\](,?)`
+    `(^|\\n)(\\s*)(["']?)${esc(code)}\\3:\\s*\\[\\s*(?:"([^"]*)"|'([^']*)')\\s*,\\s*(?:"([^"]*)"|'([^']*)')\\s*\\](,?)`
 );
 
 let fixed = 0, deleted = 0, noop = 0, refused = 0;
@@ -110,7 +114,8 @@ for (const [concept, items] of Object.entries(byConcept)) {
             refused++;
             continue;
         }
-        const [oldSurface, oldIpa] = [hit[5], hit[7]];
+        const oldSurface = hit[4] !== undefined ? hit[4] : hit[5];
+        const oldIpa = hit[6] !== undefined ? hit[6] : hit[7];
 
         if (o.op === 'DEL') {
             if (oldSurface === '—') { console.log(`  no change  ${concept} ${o.code} is already "—"`); noop++; continue; }

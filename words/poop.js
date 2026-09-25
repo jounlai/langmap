@@ -664,6 +664,10 @@ WORDS.poop = {
     tar: ["witá", "wita"],
     tsu: ["tʼee", "tʔee"],
     pwn: ["caqi", "tsaqi"],
-    cng: ["χʂə", "χʂə"]
+    cng: ["χʂə", "χʂə"],
+    meu: ["taḡe", "taɣe"],
+    hsb: ["howno", "ˈɦɔwnɔ"],
+    mrj: ["шыр", "ʃər"],
+    kmh: ["sb", "səb"]
   },
 };

@@ -963,6 +963,12 @@ WORDS.iron = {
     wba: ["hima", "hima"],
     arp: ["béiʼcí3eʼ", "béiʔtʃíθeʔ"],
     tar: ["jiyero", "hijeɾo"],
-    tsu: ["memeno", "memeno"]
+    tsu: ["memeno", "memeno"],
+    hot: ["aeŋ", "aeŋ"],
+    fai: ["ayen", "ajen"],
+    wbp: ["yayini", "jajini"],
+    yan: ["ayan", "ajan"],
+    ygr: ["aeni", "aeni"],
+    kmh: ["ayn", "ajn"]
   },
 };

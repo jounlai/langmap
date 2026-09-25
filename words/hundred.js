@@ -993,6 +993,11 @@ WORDS.hundred = {
     tcs: ["andred", "andred"],
     arp: ["béteetósooʼ", "béteːtósoːʔ"],
     bzd: ["cien", "sjen"],
-    tsu: ["seʼconza", "seʔtsonza"]
+    tsu: ["seʼconza", "seʔtsonza"],
+    emi: ["kateva ai", "kateva ai"],
+    ygr: ["hateleti", "hateleti"],
+    tok: ["ale", "ale"],
+    jbo: ["panono", "paˈnono"],
+    ko_jeju: ["벡", "pek̚"]
   },
 };

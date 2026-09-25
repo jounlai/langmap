@@ -476,7 +476,7 @@ WORDS.house = {
     pcm: ["haus", "haʊs"],
     tpi: ["haus", "haʊs"],
     ho: ["ruma", "ɾuma"],
-    kmh: ["kab", "kab"],
+    kmh: ["kotp", "kotəp"],
     nej: ["—", "—"],
     alq: ['wàkàigan', 'waːkaːiɡan'],
     ckv: ['lepaw', 'ləˈpaw'],

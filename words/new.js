@@ -899,6 +899,13 @@ WORDS.new = {
     arp: ["wooyóó", "woːjóː"],
     tar: ["bukulíwami", "bukuliwami"],
     bzd: ["pa̱ʼa̱li̱", "pãʔãlĩ"],
-    ch: ["nuebu", "ˈnwebu"]
+    ch: ["nuebu", "ˈnwebu"],
+    fai: ["alokso", "alokso"],
+    yan: ["wisam", "wisam"],
+    tok: ["sin", "sin"],
+    jbo: ["cnino", "ˈʃnino"],
+    vro: ["vahtsõnõ", "vɑhtsɤnɤ"],
+    sva: ["მახე", "maxe"],
+    kmh: ["ksen", "ksen"]
   },
 };

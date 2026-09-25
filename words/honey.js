@@ -983,6 +983,12 @@ WORDS.honey = {
     tar: ["amoo", "amoo"],
     tsu: ["sʉhsʉ", "səxsə"],
     pwn: ["alju", "aɭu"],
-    cng: ["bəχʂ", "bəχʂ"]
+    cng: ["bəχʂ", "bəχʂ"],
+    fai: ["kin wok", "kin wok"],
+    yan: ["amak", "amak"],
+    ygr: ["utaʼ gabe", "utaʔ ɡabe"],
+    jbo: ["bicysakta", "biʃəˈsakta"],
+    bnn: ["vanu", "vanu"],
+    kmh: ["bojm magi", "bodʒim maɡi"]
   },
 };

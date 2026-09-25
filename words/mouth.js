@@ -871,6 +871,15 @@ WORDS.mouth = {
     tar: ["riní", "ɾini"],
     bzd: ["ajkö̀", "ahkø̃"],
     tsu: ["ngayo", "ŋajo"],
-    cng: ["ʂqu", "ʂqu"]
+    cng: ["ʂqu", "ʂqu"],
+    emi: ["paa", "paa"],
+    fai: ["bon", "bon"],
+    wbp: ["lirra", "liɾa"],
+    kca: ["ўӈәӆ", "uŋəɬ"],
+    sbp: ["umulomo", "umulomo"],
+    yan: ["tinpas", "tinpas"],
+    tok: ["uta", "uta"],
+    hsb: ["huba", "ˈɦuba"],
+    vro: ["suu", "suː"]
   }
 };

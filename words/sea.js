@@ -733,6 +733,12 @@ WORDS.sea = {
     jvn: ["segara", "səɡɔrɔ"],
     mzh: ["lewomekitaj", "lewomekitax"],
     arp: ["héetéc", "héːtétʃ"],
-    pwn: ["ljavek", "ɭavək"]
+    pwn: ["ljavek", "ɭavək"],
+    emi: ["paamanu", "paamanu"],
+    wbp: ["mangkuru", "maŋkuɻu"],
+    kca: ["щарәс", "ɕarəs"],
+    sbp: ["bahali", "bahali"],
+    yan: ["kuma", "kuma"],
+    vro: ["meri", "meri"]
   }
 };

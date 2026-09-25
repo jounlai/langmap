@@ -1059,6 +1059,8 @@ WORDS.nose = {
     bbo: ["biin", "biːn"],
     xul: ["nyigity", "ɲiɡiɟ"],
     mzh: ["lenhus", "len̥us"],
-    arp: ["béʼis", "béʔis"]
+    arp: ["béʼis", "béʔis"],
+    meu: ["udu-baubau", "udubaubau"],
+    ygr: ["agota", "aɡota"]
   },
 };

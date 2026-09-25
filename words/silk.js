@@ -513,6 +513,8 @@ WORDS.silk = {
     agx: ["ипак", "ipak"],
     stq: ["Siede", "ˈziːdə"],
     arp: ["niixóosooʼ", "niːxóːsoːʔ"],
-    tsu: ["kinu", "kinu"]
+    tsu: ["kinu", "kinu"],
+    hsb: ["žida", "ˈʒida"],
+    mrj: ["парсын", "parsən"]
   }
 };

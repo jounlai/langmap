@@ -665,6 +665,8 @@ WORDS.green = {
     agx: ["гъазеф", "ʁazef"],
     arp: ["cenéeteeyóó", "tʃenéːteːjóː"],
     bzd: ["tsipátsipà", "tsipátsipa"],
-    pwn: ["liljuas", "liɭuas"]
+    pwn: ["liljuas", "liɭuas"],
+    tok: ["laso", "laso"],
+    vro: ["rohilinõ", "rohilinɤ"]
   }
 };

@@ -1117,6 +1117,7 @@ WORDS.ear = {
     xul: ["guri", "ɡuɻi"],
     mzh: ["lechʼote", "letʃʼote"],
     arp: ["wónotónoʼ", "wónotónoʔ"],
-    bzd: ["kukuö̀", "kukuø"]
+    bzd: ["kukuö̀", "kukuø"],
+    yan: ["tapan", "tapan"]
   },
 };

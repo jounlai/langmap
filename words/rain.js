@@ -1033,6 +1033,10 @@ WORDS.rain = {
     tar: ["ukuí", "ukui"],
     bzd: ["kã̀lĩ", "kãlĩ"],
     tsu: ["tnʉyʉ", "tnəjə"],
-    cng: ["meʴ", "meʴ"]
+    cng: ["meʴ", "meʴ"],
+    hot: ["ôthôm", "ɔtʰɔm"],
+    emi: ["vaoo", "vaoo"],
+    fai: ["weiw", "weiw"],
+    sbp: ["inoonya", "inoːɲa"]
   },
 };

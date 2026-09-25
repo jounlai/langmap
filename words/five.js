@@ -1135,6 +1135,9 @@ WORDS.five = {
     ja_rys: ["五つ", "itsɨtsɨ"],
     xkz: ["yanga", "jaŋa"],
     agx: ["гӏифуд", "ʕifud"],
-    bzd: ["ske̱l", "skẽl"]
+    bzd: ["ske̱l", "skẽl"],
+    hot: ["baheŋvi", "baheŋvi"],
+    yan: ["singka", "siŋka"],
+    sva: ["უ̂ოხუ̂იშდ", "woxwiʃd"]
   },
 };

@@ -748,6 +748,15 @@ WORDS.mountain = {
     bzd: ["kã́bita", "kã́bita"],
     ch: ["sabåna", "saˈbɑna"],
     tsu: ["fuengu", "fueŋu"],
-    pwn: ["gadu", "ɡadu"]
+    pwn: ["gadu", "ɡadu"],
+    meu: ["ororo", "oɾoɾo"],
+    hot: ["dum", "dum"],
+    emi: ["motouru", "motouru"],
+    fai: ["amgu", "amɡu"],
+    wbp: ["pamarrpa", "pamaɾpa"],
+    yan: ["asang", "asaŋ"],
+    ygr: ["ae", "ae"],
+    vro: ["mägi", "mæɡi"],
+    ko_jeju: ["산", "san"]
   }
 };

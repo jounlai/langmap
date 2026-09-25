@@ -1048,6 +1048,11 @@ WORDS.bird = {
     gum: ["illi", "iʎi"],
     arp: ["niiʼéíhii", "niːʔéíhiː"],
     bzd: ["dù", "du"],
-    tiw: ["tokwampini", "tokʷampini"]
+    tiw: ["tokwampini", "tokʷampini"],
+    bnn: ["hazam", "hazam"],
+    emi: ["ghila", "ɣila"],
+    fai: ["awon", "awon"],
+    yan: ["di lawani", "di lawani"],
+    ygr: ["nama", "nama"]
   },
 };

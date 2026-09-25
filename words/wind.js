@@ -1024,6 +1024,11 @@ WORDS.wind = {
     ekp: ["uweele", "uweele"],
     bbo: ["puŋ", "puŋ"],
     arp: ["heséisen", "heséisen"],
-    tsu: ["poepe", "poepe"]
+    tsu: ["poepe", "poepe"],
+    fai: ["gedul", "ɡedul"],
+    yan: ["wing", "wiŋ"],
+    ygr: ["yasi", "jasi"],
+    sva: ["ბიქუ̂", "bikʰw"],
+    kmh: ["ygen", "jɨɡen"]
   },
 };

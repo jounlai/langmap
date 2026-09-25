@@ -1043,6 +1043,10 @@ WORDS.stone = {
     arp: ["hohʼonóókee", "hohʔonóːkeː"],
     tar: ["rité", "ɾite"],
     bzd: ["ák", "ák"],
-    pwn: ["qaciljai", "qatsiɭai"]
+    pwn: ["qaciljai", "qatsiɭai"],
+    fai: ["tum", "tum"],
+    yan: ["kipala", "kipala"],
+    ygr: ["yavana", "javana"],
+    kmh: ["kab", "kab"]
   },
 };

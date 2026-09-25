@@ -909,6 +909,13 @@ WORDS.head = {
     arp: ["béí3eʼee", "béíθeʔeː"],
     tar: ["moʼó", "moʔo"],
     bzd: ["wö́kir", "wɵ́kiɾ"],
-    ch: ["ulu", "ˈulu"]
+    ch: ["ulu", "ˈulu"],
+    fai: ["gebom", "ɡebom"],
+    yan: ["tuna", "tuna"],
+    ygr: ["anuna", "anuna"],
+    tok: ["lawa", "lawa"],
+    jbo: ["stedu", "ˈstedu"],
+    vro: ["pää", "pæː"],
+    kmh: ["jun", "dʒun"]
   },
 };

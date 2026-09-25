@@ -791,6 +791,11 @@ WORDS.person = {
     mzh: ["wichi", "witʃi"],
     arp: ["hinenítee", "hineníteː"],
     tar: ["pagótami", "paɡotami"],
-    bzd: ["pëʼ", "pəʔ"]
+    bzd: ["pëʼ", "pəʔ"],
+    kca: ["хойат", "xojat"],
+    yan: ["muih", "muih"],
+    tok: ["jan", "jan"],
+    vro: ["inemine", "inemine"],
+    mrj: ["эдем", "edem"]
   }
 };

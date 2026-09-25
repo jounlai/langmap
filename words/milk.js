@@ -969,6 +969,11 @@ WORDS.milk = {
     tiw: ["pularti", "pulaɾti"],
     abq: ["хшы", "χʃə"],
     bbo: ["ɲiɲien", "ɲiɲien"],
-    tsu: ["nunʼu", "nunʔu"]
+    tsu: ["nunʼu", "nunʔu"],
+    emi: ["rarumi ssu", "ɾarumi sːu"],
+    sbp: ["utupyo", "utupjo"],
+    yan: ["tāwas", "taːwas"],
+    ygr: ["duna", "duna"],
+    kmh: ["ti mk", "ti muk"]
   },
 };

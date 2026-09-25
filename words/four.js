@@ -1131,6 +1131,9 @@ WORDS.four = {
     ers: ["ʐo", "ʐo˧˧"],
     ess: ["ыстамат", "ɨstamat"],
     crk: ["ᓀᐓ", "neːwo"],
-    bbo: ["nɩan", "nɪan"]
+    bbo: ["nɩan", "nɪan"],
+    hot: ["ayova", "ajova"],
+    yan: ["arungka", "aɾuŋka"],
+    sva: ["უ̂ოშთხუ̂", "woʃtʰxw"]
   },
 };

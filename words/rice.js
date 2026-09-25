@@ -571,6 +571,13 @@ WORDS.rice = {
     bzd: ["àrros", "aros"],
     tsu: ["fʉesʉ", "fəesə"],
     pwn: ["paday", "padai"],
-    cng: ["qhəʴ", "qʰəʴ"]
+    cng: ["qhəʴ", "qʰəʴ"],
+    bnn: ["cilas", "tsilas"],
+    ygr: ["laesi", "laesi"],
+    tok: ["pan", "pan"],
+    hsb: ["rajs", "rajs"],
+    vro: ["riis", "riːs"],
+    mrj: ["рис", "ris"],
+    kmh: ["lays", "lajs"]
   }
 };

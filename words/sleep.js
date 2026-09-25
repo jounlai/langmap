@@ -1034,6 +1034,8 @@ WORDS.sleep = {
     arp: ["nókohú", "nókohú"],
     bzd: ["kapö̀k", "kapøk"],
     tsu: ["oengʉtʉ", "oeŋətə"],
-    pwn: ["qemreng", "qəmɾəŋ"]
+    pwn: ["qemreng", "qəmɾəŋ"],
+    fai: ["akál", "akɑl"],
+    wbp: ["jarda ngunami", "ɟaɖa ŋunami"]
   },
 };

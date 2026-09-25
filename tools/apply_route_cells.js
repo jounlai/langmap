@@ -96,10 +96,14 @@ for (const [concept, items] of Object.entries(byConcept)) {
     const legal = new Set(Object.keys((WORDS[concept] || {}).routes || {}));
     let src = fs.readFileSync(p, 'utf8');
 
-    // Locate the two blocks. `family:` comes before `data:` in these files.
-    const famStart = src.indexOf('\n  family: {');
-    const dataStart = src.indexOf('\n  data: {');
-    if (famStart < 0 || dataStart < 0) {
+    // Locate the two blocks. `family:` comes before `data:` in these files —
+    // which is exactly why BOTH offsets must be recomputed after every write.
+    // Writing the family half inserts a line ABOVE the data block, so a
+    // dataStart captured once before the loop is one line too early on the
+    // second cell and further out on every one after that. The first version
+    // of this tool did that and wrote entries into the middle of the routes
+    // block, producing a file that would not parse.
+    if (src.indexOf('\n  family: {') < 0 || src.indexOf('\n  data: {') < 0) {
         console.log(`  REFUSED  ${concept}: could not find both a family and a data block`);
         refused += items.length;
         continue;
@@ -121,6 +125,7 @@ for (const [concept, items] of Object.entries(byConcept)) {
             refused++;
             continue;
         }
+        const dataStart = src.indexOf('\n  data: {');
         const hit = dataRe(o.code).exec(src.slice(dataStart));
         const old = hit && (hit[4] !== undefined ? hit[4] : hit[5]);
         if (hit && old !== '—' && old !== '-') {

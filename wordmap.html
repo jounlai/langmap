@@ -518,9 +518,41 @@
            surface, hover, and a chevron. The <select> itself stays in the DOM
            as the source of truth — see the modal JS — but is never shown. */
         .top-left-controls #word-select { display: none !important; }
+        /* Round die shared by the word and language pickers. It began as 200
+           characters of inline style on #lang-random; adding a second one by
+           copying that would have made the one-off into two one-offs that
+           drift apart. Extracted here so the pair is identical by
+           construction, and so both finally get the hover and focus-visible
+           states every other control on this row already had.
+           28px squared with flex:0 0 — the first attempt used aspect-ratio
+           with align-self:stretch and came out an ELLIPSE, because a flex item
+           still shrinks while stretch holds the height. */
+        .die-btn {
+            flex: 0 0 28px; width: 28px; height: 28px; align-self: center;
+            padding: 0; box-sizing: border-box;
+            border: 1px solid #d0d0d0; border-radius: 50%;
+            background: #fff; color: #555;
+            font-size: 14px; line-height: 1; cursor: pointer;
+            display: inline-flex; align-items: center; justify-content: center;
+            transition: background .12s, border-color .12s, box-shadow .12s;
+        }
+        .die-btn:hover { background: #f6f6fa; border-color: #a9a9bb; }
+        .die-btn:active { transform: translateY(1px); }
+        .die-btn:focus-visible { outline: 2px solid #4a4ae0; outline-offset: 1px; }
+        /* The glyph rides in its own span so the roll spins the die and not
+           the frame — rotating the button turns its round border with it,
+           which reads as the whole control tumbling. */
+        .die-btn .die-face { display: inline-block; line-height: 1; }
+
         .top-left-controls #word-current-btn {
             display: flex; align-items: center; gap: 6px;
-            width: 240px; max-width: 100%; box-sizing: border-box;
+            /* 240px was the <select>'s footprint, and it left "Sun" sitting in
+               a third of a row of empty box. 150px fits the longest label in
+               every UI language on one line — English "Cock-a-doodle-doo" at
+               17 characters is the worst case, Thai and Indonesian next — and
+               it stays FIXED rather than sizing to content, so the die beside
+               it does not move out from under the cursor between rolls. */
+            width: 150px; max-width: 100%; box-sizing: border-box;
             padding: 5px 9px;
             border: 1px solid #c9c9d4; border-radius: 7px;
             background: #fff;
@@ -539,7 +571,13 @@
         }
         .top-left-controls #word-current-btn .wcb-name {
             flex: 1 1 auto; min-width: 0;
-            overflow-wrap: anywhere;
+            /* One line. Wrapping was right at 240px where nothing ever
+               overflowed; at 150px a two-line button would change the row's
+               height as the reader switches words. Nothing in the current
+               label set reaches the ellipsis — it is the graceful failure for
+               a longer label added later, and the full name is on the button's
+               title so it stays reachable. */
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
         }
         /* Chevron, so the control is read as "opens something" rather than as
            a label that happens to have a border. */
@@ -547,7 +585,9 @@
             flex: 0 0 auto; font-size: 10px; color: #8a8a99;
         }
         body.chrome-hidden .top-left-controls #word-current-btn,
-        html[data-wm-chrome="hidden"] .top-left-controls #word-current-btn { display: none; }
+        body.chrome-hidden .top-left-controls #word-random,
+        html[data-wm-chrome="hidden"] .top-left-controls #word-current-btn,
+        html[data-wm-chrome="hidden"] .top-left-controls #word-random { display: none; }
 
         /* --- Word selector modal --- */
         /* The scroll lives on the BODY, not on the dialog. Scrolling the
@@ -3067,6 +3107,14 @@
         <button id="word-current-btn" type="button" aria-haspopup="dialog"
                 aria-controls="word-modal" aria-label="Select word"
                 ><span class="wcb-name"></span><span class="wcb-caret" aria-hidden="true">▾</span></button>
+        <!-- Roll a different word. The categorised modal is better than the old
+             flat <select> for FINDING a word and worse for simply moving to
+             another one, which is what this restores: one click, one new map.
+             Placed where the language row puts its die, so the two picker rows
+             read as the same control twice. -->
+        <button type="button" id="word-random" class="die-btn"
+                title="Random word" aria-label="Random word"
+                ><span class="die-face" aria-hidden="true">🎲</span></button>
         <!-- The definition is collapsed by default and opened from here.
              Styled and placed to match #era-help: a small "?" at the right
              end of its own row. It overlaid the map when always-on; see the
@@ -3097,18 +3145,13 @@
                    role="combobox" aria-autocomplete="list" aria-expanded="false"
                    aria-controls="lang-search-results" aria-activedescendant=""
                    style="width:200px;padding:5px 9px;font-size:12px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#333">
-            <!-- Round like the Han Map's character die. The first attempt used
-                 aspect-ratio:1 + align-self:stretch to track the search input's
-                 height automatically; it came out an ELLIPSE, because a flex
-                 item still has flex-shrink:1 — the width was squeezed by the
-                 row while stretch held the height. A fixed square with
-                 flex:0 0 is the reliable circle. 28px matches the input, which
-                 renders ~26px (12px text + 5px padding + 1px border).
-                 The glyph is in its own span so the roll spins the die and not
-                 the frame. -->
-            <button type="button" id="lang-random" title="Random language"
-                    aria-label="Random language"
-                    style="padding:0;width:28px;height:28px;flex:0 0 28px;align-self:center;font-size:14px;border:1px solid #d0d0d0;border-radius:50%;background:#fff;color:#555;cursor:pointer;line-height:1;display:inline-flex;align-items:center;justify-content:center"><span class="die-face" style="display:inline-block;line-height:1">🎲</span></button>
+            <!-- Round like the Han Map's character die; sizing and states now
+                 live in .die-btn, which the word picker's die shares. 28px
+                 matches the input, which renders ~26px (12px text + 5px
+                 padding + 1px border). -->
+            <button type="button" id="lang-random" class="die-btn"
+                    title="Random language" aria-label="Random language"
+                    ><span class="die-face" aria-hidden="true">🎲</span></button>
             <div id="lang-search-results" role="listbox" style="display:none;position:absolute;top:100%;left:0;right:0;margin-top:2px;background:#fff;border:1px solid #d0d0d0;border-radius:4px;box-shadow:0 2px 10px rgba(0,0,0,0.15);max-height:280px;overflow-y:auto;z-index:1100;font-size:12px"></div>
         </div>
     </div>
@@ -4287,6 +4330,7 @@
             ariaEraGroup:      { en:'Era (modern / historical)', ja:'時代（現代/歴史）', ko:'시대 (현대/역사)', zh:'时代（现代/历史）', yue:'時代（現代／歷史）', vi:'Thời kỳ (hiện đại / lịch sử)', th:'ยุค (สมัยใหม่ / ประวัติศาสตร์)', id:'Era (modern / historis)', hi:'युग (आधुनिक / ऐतिहासिक)', de:'Epoche (modern / historisch)', fr:'Époque (moderne / historique)', it:'Epoca (moderna / storica)', es:'Época (moderna / histórica)', pt:'Era (moderna / histórica)', ru:'Эпоха (современная / историческая)', uk:'Епоха (сучасна / історична)', ar:'الحقبة (حديثة / تاريخية)', he:'תקופה (מודרני / היסטורי)', sw:'Enzi (kisasa / kihistoria)' },
             modernLangTooltip: { en:'modern lang', ja:'現代言語', ko:'현대어', zh:'现代语言', yue:'現代語言', vi:'ngôn ngữ hiện đại', th:'ภาษาสมัยใหม่', id:'bahasa modern', hi:'आधुनिक भाषा', de:'moderne Sprache', fr:'langue moderne', it:'lingua moderna', es:'idioma moderno', pt:'idioma moderno', ru:'современный язык', uk:'сучасна мова', ar:'لغة حديثة', he:'שפה מודרנית', sw:'lugha ya kisasa' },
             historicalLangTooltip: { en:'historical lang', ja:'歴史言語', ko:'역사 언어', zh:'历史语言', yue:'歷史語言', vi:'ngôn ngữ lịch sử', th:'ภาษาประวัติศาสตร์', id:'bahasa historis', hi:'ऐतिहासिक भाषा', de:'historische Sprache', fr:'langue historique', it:'lingua storica', es:'idioma histórico', pt:'idioma histórico', ru:'исторический язык', uk:'історична мова', ar:'لغة تاريخية', he:'שפה היסטורית', sw:'lugha ya kihistoria' },
+            ariaRandomWord:    { en:'Random word', ja:'ランダムな単語', ko:'무작위 단어', zh:'随机词', yue:'隨機詞', vi:'Từ ngẫu nhiên', th:'คำแบบสุ่ม', id:'Kata acak', hi:'यादृच्छिक शब्द', de:'Zufälliges Wort', fr:'Mot aléatoire', it:'Parola casuale', es:'Palabra aleatoria', pt:'Palavra aleatória', ru:'Случайное слово', uk:'Випадкове слово', ar:'كلمة عشوائية', he:'מילה אקראית', sw:'Neno la nasibu' },
             ariaRandomLang:    { en:'Random language', ja:'ランダムな言語', ko:'무작위 언어', zh:'随机语言', yue:'隨機語言', vi:'Ngôn ngữ ngẫu nhiên', th:'ภาษาแบบสุ่ม', id:'Bahasa acak', hi:'यादृच्छिक भाषा', de:'Zufällige Sprache', fr:'Langue aléatoire', it:'Lingua casuale', es:'Idioma aleatorio', pt:'Idioma aleatório', ru:'Случайный язык', uk:'Випадкова мова', ar:'لغة عشوائية', he:'שפה אקראית', sw:'Lugha ya nasibu' },
             // Audit Task 112: era legend explanation. Modern mode shows
             // only modern languages; historical mode adds historical
@@ -4603,6 +4647,8 @@
                 ['era-switch',      'ariaEraGroup',    'aria-label'],
                 ['lang-random',     'ariaRandomLang',  'aria-label'],
                 ['lang-random',     'ariaRandomLang',  'title'],
+                ['word-random',     'ariaRandomWord',  'aria-label'],
+                ['word-random',     'ariaRandomWord',  'title'],
             ];
             for (const [id, key, attr] of ariaTargets) {
                 const el = document.getElementById(id);
@@ -4955,8 +5001,13 @@
             });
             function syncBtn() {
                 var w = byId[select.value];
+                var nm = w ? nameOf(w) : (select.value || '');
                 var el = btn.querySelector('.wcb-name');
-                if (el) el.textContent = w ? nameOf(w) : (select.value || '');
+                if (el) el.textContent = nm;
+                // The name is one line and ellipsises at 150px. Nothing in the
+                // current label set gets that far, but the title is what keeps
+                // a longer one added later readable rather than cut off.
+                if (nm) btn.title = nm;
             }
             syncBtn();
             window.__wmSyncWordButton = syncBtn;
@@ -9686,7 +9737,11 @@
         // the main event and the die is the paired animation; here there is no
         // reel — the map fly is what takes the time — so the die runs for the
         // flight and stops with it.
-        function _spinDie(btn) {
+        // `ms` makes the roll self-timed instead of map-timed. The language die
+        // stops when the fly settles; the word die has no flight — the map
+        // re-renders in place — so it rolls for a fixed short beat. Called with
+        // one argument it behaves exactly as before.
+        function _spinDie(btn, ms) {
             if (!btn || btn.dataset.spinTimer) return;
             // Spin the GLYPH, not the button: rotating the button rotates its
             // round frame and border with it, which reads as the whole control
@@ -9711,8 +9766,32 @@
             // Stop when the fly settles; the timeout is the guard for a pick
             // that needs no movement (already centred) and so never fires
             // moveend, which would otherwise leave the die spinning forever.
-            try { map && map.on('moveend', stop); } catch (_) {}
-            const fallback = setTimeout(stop, 1200);
+            if (!ms) { try { map && map.on('moveend', stop); } catch (_) {} }
+            const fallback = setTimeout(stop, ms || 1200);
+        }
+
+        // --- Random word die ---
+        // The word modal reads better than the old flat <select> for finding a
+        // word and worse for simply moving to the next one; this is the second
+        // thing back. It drives the <select>, which is still the source of
+        // truth, exactly as the modal's tiles do — so every existing change
+        // listener, the URL hash and the button label all follow for free.
+        {
+            const wordDie = document.getElementById('word-random');
+            const wsel = document.getElementById('word-select');
+            if (wordDie && wsel) {
+                wordDie.addEventListener('click', () => {
+                    // Never roll the word that is already showing: a die that
+                    // can do nothing when clicked reads as broken.
+                    const pool = Array.from(wsel.options)
+                        .filter((o) => !o.disabled && o.value && o.value !== wsel.value);
+                    if (!pool.length) return;
+                    const pick = pool[Math.floor(Math.random() * pool.length)].value;
+                    _spinDie(wordDie, 360);
+                    wsel.value = pick;
+                    wsel.dispatchEvent(new Event('change', { bubbles: true }));
+                });
+            }
         }
 
         // Auto-clear the dice-button spotlight/blink when the user interacts

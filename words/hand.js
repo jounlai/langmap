@@ -112,7 +112,7 @@ WORDS.hand = {
       bin: ["obo", "obo"],
       khw: ["ہوست", "host"],
       xav: ["wahé", "waˈhe"],
-      ter: ["uoú", "woˈʔu"],
+      ter: ["vôʼu", "ˈwoːʔu"],
       bor: ["ekra", "ekɾa"],
       trn: ["wupe", "wupe"],
       ake: ["emiyaʼ", "emijaʔ"],

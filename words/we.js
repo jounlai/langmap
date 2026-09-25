@@ -1246,7 +1246,7 @@ WORDS.we = {
     bin: ["ma", "ma"],
     khw: ["اسپا", "ispa"],
     xav: ["wa norĩ", "wa noɾĩ"],
-    ter: ["ûti", "ˈuti"],
+    ter: ["ûti", "ˈuːti"],
     bor: ["pagi / cegi", "paɡi / tʃeɡi"],
     trn: ["viti", "witi"],
     ake: ["urüʼnokon / ina", "uɾɯʔnokon / ina"],

@@ -882,7 +882,7 @@ WORDS.salt = {
     cab: ["sálu", "ˈsalu"],
     guc: ["ichii", "itʃiː"],
     ter: ["yúki", "ˈjuki"],
-    trn: ["ʼchewe", "ʔtʃewe"],
+    trn: ["ʼcheve", "ʔtʃewe"],
     car: ["wajo", "wajo"],
     ake: ["waiyo", "waijo"],
     mch: ["sayu", "saju"],

@@ -100,7 +100,7 @@ WORDS.white = {
     xav: ["ĩrã", "ĩˈɾã"],
     ter: ["hopúʼiti", "hoˈpuʔiti"],
     bor: ["kigadureu", "kiɡaduɾew"],
-    trn: ["hopu", "hopu"],
+    trn: ["tjopu", "thopu"],
     ake: ["aimutun", "aimutun"],
     aoc: ["aimutun", "aimutun"],
     gun: ["morotĩ", "moɾotĩ"],

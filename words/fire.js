@@ -112,7 +112,7 @@ WORDS.fire = {
       bin: ["erhẹn", "eɾɛ̃"],
       khw: ["انگار", "aŋˈɡaːr"],
       xav: ["tsadã", "tsaˈdã"],
-      ter: ["yukú", "juˈku"],
+      ter: ["yúku", "ˈjuku"],
       bor: ["joru", "dʒoɾu"],
       trn: ["yuku", "juku"],
       ake: ["apok", "apok"],

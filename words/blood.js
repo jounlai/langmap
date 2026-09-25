@@ -997,7 +997,7 @@ WORDS.blood = {
     djk: ["buulu", "buːlu"],
     srm: ["buúu", "búːu"],
     kwk: ["elkwa", "əlkʷa"],
-    blc: ["siix", "siːx"],
+    blc: ["six", "six"],
     sad: ["ǃekʼa", "ǃekʼa"],
     pcc: ["lweed", "luət˧˧"],
     ium: ["nziaamh", "ntsjaːm˧˩"],

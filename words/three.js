@@ -120,7 +120,7 @@ WORDS.three = {
     bin: ["eha", "eha"],
     khw: ["ٹرے", "ʈroj"],
     xav: ["tsiʼubtatõ", "tsiʔubtatõ"],
-    ter: ["mopoá", "mopoˈa"],
+    ter: ["mopóʼa", "moˈpoʔa"],
     bor: ["ike", "ike"],
     trn: ["mopona", "mopona"],
     ake: ["eseurau", "eseuɾau"],

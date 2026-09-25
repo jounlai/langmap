@@ -1183,7 +1183,7 @@ WORDS.wine = {
     ixl: ["vino", "ˈbino"],
     mam: ["vino", "ˈbino"],
     shp: ["vino", "ˈbino"],
-    ter: ["víyum", "ˈvijum"],
+    ter: ["víyum", "ˈvĩjũ"],
     cab: ["diweín", "diweˈin"],
     mpt: ["waen", "waen"],
     kpf: ["waiŋ", "waiŋ"],

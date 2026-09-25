@@ -998,7 +998,7 @@ WORDS.night = {
     djk: ["neti", "neti"],
     srm: ["ndeti", "ndeti"],
     kwk: ["ganułh", "ɢanuɬ"],
-    blc: ["nlhʼ", "nɬʼ"],
+    blc: ["ʔnƛ̓", "ʔntɬʼ"],
     sad: ["tswe", "tsʷe"],
     pcc: ["haemh", "ham˧˩"],
     ium: ["muonh", "mwaŋ˧˩"],

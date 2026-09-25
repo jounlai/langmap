@@ -2141,7 +2141,7 @@ WORDS.foot = {
     te: ["కాలు", "kaːlu"],  // కాలు covers the limb.
     tem: ["ka-tək", "katək"],  // Themne splits them: the New Testament washes ȧtȧtək in John 13 but breaks ɛlənk in John 19, and Mark 9:45 gives the singular katək against Koelle's older reading.
     teo: ["akeju", "akeɟu"],  // Kitching glosses akeju, -jen 'leg, foot' and indexes it under both English headwords; the Bible breaks akeje at John 19:32 and washes akeje at John 13:5, against akoit for the bone.
-    ter: ["heve", "heve"],  // Ekdahl & Butler gloss the Terena qualifier -hheve as 'pé/perna' outright and wash 'as pernas/os pés' with the one verb, and the dictionary that heads heve 'pé' still has puyu 'joelho', xurokuna 'coxa' and kohoa 'panturrilha' but no word for the leg.
+    ter: ["hêve", "ˈheːve"],  // Ekdahl & Butler gloss the Terena qualifier -hheve as 'pé/perna' outright and wash 'as pernas/os pés' with the one verb, and the dictionary that heads heve 'pé' still has puyu 'joelho', xurokuna 'coxa' and kohoa 'panturrilha' but no word for the leg.
     tet: ["ain", "ain"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes liman as liman.
     tg: ["пой", "poj"],  // Tajik follows Persian: пой covers both; линг is the shank.
     th: ["เท้า", "tʰaːw˦˥"],  // Thai splits เท้า (colloquial ตีน) from ขา. The tin/kha split runs through the whole Tai family.

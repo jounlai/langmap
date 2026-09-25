@@ -973,7 +973,7 @@ WORDS.earth = {
     kky: ["bubu", "bubu"],
     wrh: ["dhaagun", "ˈd̪aːɡun"],
     adt: ["yarta", "jaʈa"],
-    trn: ["motehi", "motehi"],
+    trn: ["moteji", "motehi"],
     thp: ["tmíxw", "tmixʷ"],
     itl: ["ктхәм", "ktxəm"],
     kpy: ["нучельӄын", "nutʃeʎqən"],

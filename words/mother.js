@@ -112,7 +112,7 @@ WORDS.mother = {
       bin: ["iye", "ije"],
       khw: ["نَن", "nan"],
       xav: ["atéze", "aˈteze"],
-      ter: ["õ", "õ"],
+      ter: ["êno", "ˈeːno"],
       bor: ["e", "e"],
       trn: ["meme", "meme"],
       ake: ["saŋ", "sɑŋ"],

@@ -703,7 +703,7 @@ WORDS.honey = {
     srm: ["höniwata", "hɔniwata"],
     djk: ["oniki", "oniki"],
     ter: ["mópo", "ˈmopo"],
-    trn: ["mopo", "mopo"],
+    trn: ["mopomo", "moˈpomo"],
     mra: ["wək ʔjek", "wək ʔjek"],
     udi: ["уч̍", "utʃʼ"],
     bm: ["li", "li"],

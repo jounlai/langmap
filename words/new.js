@@ -234,7 +234,7 @@ WORDS.new = {
     mmd: ["mai5", "mai˦˦"],
     mlm: ["m̥ai5", "m̥ai˦˦"],
     rbb: ["tamaːj", "tamaːj"],
-    srh: ["neey", "nɵj"],
+    srh: ["neej", "nɵdʑ"],
     shx: ["tɤ35 hin22", "tɤ˧˥ hin˨˨"],
     lic: ["pa:n1", "paːn˥˧"],
     peh: ["ɕinə", "ɕinə"],

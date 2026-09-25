@@ -404,7 +404,7 @@ WORDS.heart = {
     iso: ["udu", "udu"],
     ha: ["zuciya", "zutʃija"],
     xed: ["ɓal", "ɓal"],
-    ker: ["gùm", "ɡùm"],
+    ker: ["tarmə", "taɾmə"],
     dbq: ["ɓəl", "ɓəl"],
     wo: ["xol", "xɔl"],
     srr: ["xol", "xɔl"],

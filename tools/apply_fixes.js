@@ -58,11 +58,20 @@ const file = process.argv[2];
 const dry = process.argv.includes('--dry');
 if (!file) { console.error('usage: apply_fixes.js <audit file> [--dry]'); process.exit(2); }
 
+// An audit is written for a human, so its verdict lines usually sit inside a
+// markdown code block and are indented, and the file often repeats them in a
+// summary at the end. Tolerate the indent and take each (op, concept, code)
+// once — a second copy would otherwise report as "already as asked" and make a
+// clean run look like a drifted one.
 const ops = [];
+const seenOp = new Set();
 for (const raw of fs.readFileSync(file, 'utf8').split('\n')) {
-    const f = raw.replace(/\r$/, '').split('\t');
-    if (f[0] === 'FIX' && f.length >= 5) ops.push({ op: 'FIX', concept: f[1].trim(), code: f[2].trim(), surface: f[3], ipa: f[4] });
-    else if (f[0] === 'DEL' && f.length >= 3) ops.push({ op: 'DEL', concept: f[1].trim(), code: f[2].trim() });
+    const f = raw.replace(/\r$/, '').replace(/^[ \t]*(?=(FIX|DEL)\t)/, '').split('\t');
+    if (f[0] !== 'FIX' && f[0] !== 'DEL') continue;
+    const key = `${f[0]}|${(f[1] || '').trim()}|${(f[2] || '').trim()}`;
+    if (seenOp.has(key)) continue;
+    if (f[0] === 'FIX' && f.length >= 5) { seenOp.add(key); ops.push({ op: 'FIX', concept: f[1].trim(), code: f[2].trim(), surface: f[3].trim(), ipa: f[4].trim() }); }
+    else if (f[0] === 'DEL' && f.length >= 3) { seenOp.add(key); ops.push({ op: 'DEL', concept: f[1].trim(), code: f[2].trim() }); }
 }
 if (!ops.length) { console.error('no FIX or DEL lines found'); process.exit(2); }
 

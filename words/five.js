@@ -903,7 +903,7 @@ WORDS.five = {
     oar: ["חמש", "ħamːeʃ"],
     kim: ["беш", "beʃ"],
     tpn: ["ambó", "ãˈᵐbɔ"],
-    uln: ["fünf", "fʏnf"],
+    uln: ["finf", "finf"],
     wuu_hz: ["五", "ŋ̩˨˩˧"],
     xib: ["borste", "borste"],
     yue_dg: ["五", "ŋ̍˩˧"],

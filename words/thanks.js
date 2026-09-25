@@ -407,7 +407,7 @@ WORDS.thanks = {
     iso: ["migwo", "miɡwo"],
     ha: ["na gode", "na ɡode"],
     xed: ["ʔusi", "ʔusi"],
-    ker: ["shùkūr", "ʃùkūɾ"],
+    ker: ["suuse ablaw", "suːse ablaw"],
     dbq: ["ndzaŋ", "ndzaŋ"],
     wo: ["jërëjëf", "dʒəɾədʒəf"],
     srr: ["jaaraama", "dʒaːɾaːma"],

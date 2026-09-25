@@ -404,7 +404,7 @@ WORDS.you = {
       iso: ["whẹ", "ʍɛ"],
       ha: ["kai", "kai"],
       xed: ["kà", "kà"],
-      ker: ["kə", "kə"],
+      ker: ["te", "te"],
       dbq: ["ka", "ka"],
       wo: ["yow", "jow"],
       srr: ["wo", "wo"],

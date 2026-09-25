@@ -1180,7 +1180,7 @@ WORDS.three = {
     rut: ["хьибыд", "ʜibɨd"],
     kim: ["ӱш", "yʃ"],
     tpn: ["mosapyr", "mosaˈpɨɾ"],
-    uln: ["drei", "draɪ"],
+    uln: ["drei", "drae̯"],
     wmt: ["murrkurn", "muɾkuɳ"],
     wuu_hz: ["三", "sæ̃˧˧"],
     xag: ["—", "—"],

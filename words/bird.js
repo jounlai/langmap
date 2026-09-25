@@ -744,7 +744,7 @@ WORDS.bird = {
     cmg: ["ᠰᠢᠪᠠᠭᠤ", "ʃibaɣu"],
     oar: ["צפר", "sˤippar"],
     tpn: ["gûyrá", "ɡʷɨˈɾa"],
-    uln: ["Vogel", "ˈfoːɡl̩"],
+    uln: ["Vogel", "ˈfoɡɛl"],
     wuu_hz: ["鸟", "ɲiɔ˥˧"],
     xum: ["auif", "ˈawif"],
     yue_dg: ["鸟", "niu˧˥"],

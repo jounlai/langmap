@@ -562,7 +562,7 @@ WORDS.mouth = {
     nzm: ["mimui", "mimui"],
     grt: ["ku·sik", "kuʔsik"],
     tsj: ["nowang", "nowaŋ"],
-    acn: ["n̥ʲot53", "n̥ʲot˥˧"],
+    acn: ["n̥ʲot55", "n̥ʲot˥˥"],
     yai: ["rax", "rax"],
     pbb: ["yuwe", "juwe"],
     dru: ["ngodoy", "ŋoˈdoi"],

@@ -710,7 +710,7 @@ WORDS.wind = {
     gsw_w: ["Wind", "ʋind"],
     lld: ["vent", "vɛnt"],
     vls: ["wind", "wɪnt"],
-    uln: ["Wind", "vɪnt"],
+    uln: ["Wind", "vint"],
     nrf: ["vent", "vɛ̃"],
     nrf_gg: ["vent", "vɛ̃"],
     fra_jer: ["vent", "vɛ̃"],

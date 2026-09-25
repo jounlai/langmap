@@ -665,7 +665,7 @@ WORDS.sleep = {
     vmf: ["schlafe", "ʃlaːfə"],
     wae: ["schlaafe", "ʃlaːfə"],
     gsw_w: ["schlaaffu", "ˈʃlaːfʊ"],
-    uln: ["schlafen", "ˈʃlafən"],
+    uln: ["schlafen", "ˈʃlafɛn"],
     aae: ["fjë", "fjə"],
     ruq: ["durmiri", "durˈmiri"],
     nrf_gg: ["dormi", "dɔrˈmi"],

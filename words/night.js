@@ -903,7 +903,7 @@ WORDS.night = {
     tiw: ["tapinamini", "tapinamini"],
     lbz: ["nata", "nata"],
     lbz_damin: ["—", "—"],
-    nny: ["nata", "nata"],
+    nny: ["ngimi", "ŋimi"],
     kky: ["nilawudurbe", "nilawudurbe"],
     guc: ["aiʼpaʼa", "aiʔpaʔa"],
     mch: ["chomomüdü", "tʃomomɨdɨ"],

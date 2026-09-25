@@ -404,7 +404,7 @@ WORDS.i = {
       iso: ["mẹ", "mɛ"],
       ha: ["ni", "niː"],
       xed: ["yà", "jà"],
-      ker: ["kə́ŋ", "kə́ŋ"],
+      ker: ["ten", "ten"],
       dbq: ["nə", "nə"],
       wo: ["man", "man"],
       srr: ["mi", "mi"],

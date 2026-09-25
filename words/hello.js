@@ -407,7 +407,7 @@ WORDS.hello = {
     iso: ["mavọ", "mavɔ"],
     ha: ["sannu", "sanːu"],
     xed: ["ʔaza", "ʔaza"],
-    ker: ["ásālāmā", "ásālāmā"],
+    ker: ["suuse", "suːse"],
     dbq: ["salaŋ", "salaŋ"],
     wo: ["na nga def", "na ŋɡa dɛf"],
     srr: ["nam fiyo", "nam fijo"],

@@ -1067,7 +1067,7 @@ WORDS.four = {
     rcf: ["kat", "kat"],
     crs: ["kat", "kat"],
     gcf: ["kat", "kat"],
-    uln: ["vier", "fiːɐ̯"],
+    uln: ["vier", "fir"],
     ett: ["huth", "huθ"],
     aja: ["ɛnɛ", "ɛnɛ"],
     dnj: ["yiisɛ", "jiːsɛ"],

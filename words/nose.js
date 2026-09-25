@@ -885,7 +885,7 @@ WORDS.nose = {
     wym: ["noos", "noːs"],
     lij_t: ["naso", "ˈnazu"],
     ltg: ["nuoss", "nuos"],
-    uln: ["Nase", "ˈnaːzə"],
+    uln: ["Nase", "ˈnasɛ"],
     // --- Austroasiatic — *muh straight across Munda, Mon and Bahnaric ---
     kjg: ["muh", "muh"],
     bru: ["muh", "muh"],

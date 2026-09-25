@@ -684,7 +684,7 @@ WORDS.earth = {
     guc: ["mmoo-ľuʼu", "mmoo-ľuʔu"],
     huz: ["мызə", "mɨzə"],
     khv: ["чӏида", "tʃʼida"],
-    kjj: ["инччи", "inč̄i"],
+    kjj: ["инччи", "intʃːi"],
     kry: ["ноькь", "nöqʼ"],
     lbe: ["аьрщи", "aˤrɕːi"],
     mch: ["nono", "nono"],

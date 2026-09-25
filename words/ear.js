@@ -881,7 +881,7 @@ WORDS.ear = {
     mtq: ["tai", "taj"],
     sid: ["macca", "matʃa"],
     umb: ["okutwi", "okutwi"],
-    uln: ["Ohr", "oːɐ"],
+    uln: ["Ohr", "or"],
     czh: ["耳朵", "ɚ twɔ"],
     czh_wy: ["耳朵", "ɚ twɔ"],
     zh_jh: ["耳朵", "ər˨˩˦ to"],

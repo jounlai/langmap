@@ -9742,9 +9742,15 @@
         // flight and stops with it.
         // `ms` makes the roll self-timed instead of map-timed. The language die
         // stops when the fly settles; the word die has no flight — the map
-        // re-renders in place — so it rolls for a fixed short beat. Called with
-        // one argument it behaves exactly as before.
-        function _spinDie(btn, ms) {
+        // re-renders in place — so it rolls for a fixed short beat.
+        // `onStop` fires once, when the die settles, for a caller whose result
+        // should be REVEALED by the roll rather than shown while it spins.
+        // Called with one argument it behaves exactly as before.
+        function _spinDie(btn, ms, onStop) {
+            // A die already rolling does not accept another roll, and the
+            // caller gets NO callback: firing one here would let a second
+            // click commit instantly, and then the first roll's own callback
+            // would overwrite it a moment later.
             if (!btn || btn.dataset.spinTimer) return;
             // Spin the GLYPH, not the button: rotating the button rotates its
             // round frame and border with it, which reads as the whole control
@@ -9765,6 +9771,9 @@
                 face.style.transform = 'rotate(0deg)';
                 try { map && map.off('moveend', stop); } catch (_) {}
                 clearTimeout(fallback);
+                // After the frame that clears the spin, so the result lands on
+                // a die that is already still rather than mid-rotation.
+                if (onStop) requestAnimationFrame(() => onStop());
             };
             // Stop when the fly settles; the timeout is the guard for a pick
             // that needs no movement (already centred) and so never fires
@@ -9784,15 +9793,23 @@
             const wsel = document.getElementById('word-select');
             if (wordDie && wsel) {
                 wordDie.addEventListener('click', () => {
+                    // Ignore clicks while the die is mid-roll; the roll in
+                    // flight is already going to deliver a word.
+                    if (wordDie.dataset.spinTimer) return;
                     // Never roll the word that is already showing: a die that
                     // can do nothing when clicked reads as broken.
                     const pool = Array.from(wsel.options)
                         .filter((o) => !o.disabled && o.value && o.value !== wsel.value);
                     if (!pool.length) return;
                     const pick = pool[Math.floor(Math.random() * pool.length)].value;
-                    _spinDie(wordDie, 360);
-                    wsel.value = pick;
-                    wsel.dispatchEvent(new Event('change', { bubbles: true }));
+                    // The word changes when the die SETTLES, not when it starts
+                    // (owner 2026-09-26). Showing the result while the die is
+                    // still tumbling reads as the roll being decoration played
+                    // over something that already happened — which it was.
+                    _spinDie(wordDie, 360, () => {
+                        wsel.value = pick;
+                        wsel.dispatchEvent(new Event('change', { bubbles: true }));
+                    });
                 });
             }
         }

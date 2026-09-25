@@ -982,6 +982,10 @@ WORDS.milk = {
     mix: ["xikui", "ʃikʷi"],
     rmf: ["thund", "tʰund"],
     cho: ["pishukchi", "piʃoktʃi"],
-    mus: ["pesse", "pissi"]
+    mus: ["pesse", "pissi"],
+    ame: ["momosats", "momosats"],
+    tvl: ["susu", "susu"],
+    ium: ["nyorx", "ɲɔ˨˧"],
+    tao: ["mizoko", "mizoko"]
   },
 };

@@ -1062,6 +1062,7 @@ WORDS.daughter = {
     lkt: ["čhuŋwíŋtku", "tʃʰuŋwíŋtku"],
     djk: ["umanpikin", "umanpikin"],
     chk: ["nengin", "neŋin"],
-    crx: ["oot̲s̲eʼ", "oːtseʔ"]
+    crx: ["oot̲s̲eʼ", "oːtseʔ"],
+    ium: ["sieqv", "sieʔ˥˥"]
   },
 };

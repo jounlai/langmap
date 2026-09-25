@@ -648,6 +648,15 @@ WORDS.butterfly = {
     chf: ["ajpempem", "ahpempem"],
     gv: ["foillycan", "ˈfolʲəkan"],
     crn: ["átzipaʼu", "ˈatsipaʔu"],
-    crx: ["tsanghoolhtʼah", "tsanɣoːɬtʼah"]
+    crx: ["tsanghoolhtʼah", "tsanɣoːɬtʼah"],
+    rm: ["spler", "ʃpler"],
+    ame: ["chellpuet̃", "tʃeʎpwetʲ"],
+    fax: ["maripoixha", "maɾiˈpoiʒa"],
+    kjh: ["ӧрбекей", "ørbekej"],
+    kjb: ["tzolol", "tsolol"],
+    chy: ["hevávahkema", "hevávahkema"],
+    ium: ["sopc bang", "sop˨˩ paŋ˧"],
+    tao: ["pahapahad no anito", "pahapahad no anito"],
+    yap: ["taloolbëy", "taloːlbəj"]
   },
 };

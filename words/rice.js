@@ -594,6 +594,16 @@ WORDS.rice = {
     cho: ["onush lakchi", "onoʃ laktʃi"],
     mus: ["aloso", "aloso"],
     lkt: ["psíŋ", "psíŋ"],
-    shp: ["aros", "aɾos"]
+    shp: ["aros", "aɾos"],
+    kl: ["qaqorteqqasut", "qaqoχteqːasut"],
+    cni: ["aroso", "aɾoso"],
+    acu: ["arrus", "aɾus"],
+    agr: ["ajus", "ahus"],
+    fax: ["arró", "aˈɾo"],
+    moh: ["onatsakén:ra", "onatsakʌ̃́ːra"],
+    chy: ["heʼéhesono", "heʔéhesono"],
+    ium: ["mbiauh", "biau˧˩"],
+    tao: ["mogis", "moɡis"],
+    yap: ["koomëy", "koːməj"]
   }
 };

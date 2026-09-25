@@ -1032,6 +1032,12 @@ WORDS.black = {
     olo: ["mustu", "ˈmustu"],
     chk: ["chochol", "tʃotʃol"],
     crn: ["súʼumuaraʼa", "suʔumwaɾaʔa"],
-    crx: ["dulhgus", "duɬɡus"]
+    crx: ["dulhgus", "duɬɡus"],
+    cni: ["potsitari", "potsitaɾi"],
+    ame: ["quellue", "keʎwe"],
+    fax: ["negru", "ˈneɡɾu"],
+    moh: ["kahòn:tsi", "kahũːtsi"],
+    chy: ["moʼȯhtávo", "moʔohtávo"],
+    ium: ["jieqv", "tɕieʔ˥˥"]
   },
 };

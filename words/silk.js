@@ -528,6 +528,13 @@ WORDS.silk = {
     cho: ["silik", "silik"],
     olo: ["šulku", "ˈʃulku"],
     koi: ["шёлк", "ʃolk"],
-    crx: ["luswe", "luswe"]
+    crx: ["luswe", "luswe"],
+    kl: ["siiliki", "siːliki"],
+    rm: ["saida", "ˈsai̯da"],
+    kjh: ["чібек", "tʃibek"],
+    nog: ["йибек", "jibek"],
+    moh: ["kà:nheks", "kaːnheks"],
+    chy: ["séokáéšéʼhóno", "séokáéʃéʔhóno"],
+    ium: ["fei", "fei˧"]
   }
 };

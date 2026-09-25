@@ -755,6 +755,16 @@ WORDS.sea = {
     koi: ["саридз", "ˈsaridʑ"],
     udi: ["даьниз", "dæniz"],
     crn: ["muájete", "mwaˈhete"],
-    crx: ["yatoo", "jatoː"]
+    crx: ["yatoo", "jatoː"],
+    rm: ["mar", "mar"],
+    acu: ["juun entsa", "huːn entsa"],
+    ame: ["saʼp atarr", "saʔp ataɻ"],
+    kjh: ["талай", "talaj"],
+    tvl: ["tai", "tai"],
+    kjb: ["txutxaʼ", "tʃutʃaʔ"],
+    moh: ["kanientaraʼkehkó:wa", "kanjʌ̃taraʔkehkóːwa"],
+    ium: ["koiv", "kʰoi˦"],
+    tao: ["wawa", "wawa"],
+    yap: ["madaay", "madaːj"]
   }
 };

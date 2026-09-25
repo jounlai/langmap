@@ -811,6 +811,14 @@ WORDS.person = {
     emp: ["ẽberã", "ẽbeɾã"],
     gv: ["peiagh", "pʲaːx"],
     udi: ["амдар", "amdar"],
-    crn: ["tebi", "tebi"]
+    crn: ["tebi", "tebi"],
+    rm: ["persuna", "perˈsuna"],
+    cni: ["atiri", "atiɾi"],
+    ame: ["acheñ", "atʃeɲ"],
+    fax: ["pesoa", "peˈsoa"],
+    tvl: ["tino", "tino"],
+    kjb: ["anima", "anima"],
+    moh: ["ón:kwe", "ṹːɡwe"],
+    yap: ["girdiiq", "ɡirdiːʔ"]
   }
 };

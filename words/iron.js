@@ -985,6 +985,13 @@ WORDS.iron = {
     emp: ["jiorro", "hioro"],
     iu: ["ᓴᕕᕋᔭᒃ", "saviʁajak"],
     udi: ["даьмир", "dæmir"],
-    crn: ["tepuústiʼi", "tepuːstiʔi"]
+    crn: ["tepuústiʼi", "tepuːstiʔi"],
+    cni: ["ashiro", "aʃiɾo"],
+    acu: ["jiru", "hiɾu"],
+    agr: ["jiju", "hihu"],
+    ame: ["aser", "aseɾ"],
+    tvl: ["fiti", "fiti"],
+    moh: ["karístatsi", "karístatsi"],
+    ium: ["hlieqv", "l̥ieʔ˥˥"]
   },
 };

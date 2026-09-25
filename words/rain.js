@@ -1042,6 +1042,8 @@ WORDS.rain = {
     zts: ["nyisgyia", "ɲisɡʲia"],
     deg: ["ọkpar", "ɔkpaɾ"],
     huv: ["ijchiür", "ihtʃiɨɾ"],
-    crn: ["biite", "biːte"]
+    crn: ["biite", "biːte"],
+    ame: ["oʼ", "oʔ"],
+    ium: ["mbiungc", "biuŋ˨˩"]
   },
 };

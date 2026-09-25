@@ -689,6 +689,19 @@ WORDS.poop = {
     chk: ["koiasi", "koiasi"],
     iu: ["ᐊᓇᖅ", "anaq"],
     crx: ["tsan", "tsan"],
-    tdh: ["ख्लि", "kʰli"]
+    tdh: ["ख्लि", "kʰli"],
+    rm: ["cac", "kak"],
+    cni: ["notia", "notia"],
+    acu: ["ija", "iha"],
+    agr: ["ija", "iha"],
+    ame: ["chemoñets", "tʃemoɲets"],
+    fax: ["merda", "ˈmeɾda"],
+    tvl: ["tae", "tae"],
+    kjb: ["tzaʼ", "tsaʔ"],
+    moh: ["óʼta", "óʔta"],
+    chy: ["matse", "matse"],
+    ium: ["nqaiv", "ɡai˦"],
+    tao: ["obot", "obot"],
+    yap: ["taer", "taːr"]
   },
 };

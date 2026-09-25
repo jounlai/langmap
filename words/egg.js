@@ -1022,6 +1022,9 @@ WORDS.egg = {
     huv: ["omb kit", "omb kit"],
     chf: ["säktokʼ", "sɨktokʼ"],
     crn: ["taʼu", "taʔu"],
-    crx: ["ʼughez", "ʔuɣez"]
+    crx: ["ʼughez", "ʔuɣez"],
+    cni: ["iitsoki", "iːtsoki"],
+    ame: ["paʼmeʼ", "paʔmeʔ"],
+    moh: ["oʼnhónhsa", "oʔnhṹhsa"]
   },
 };

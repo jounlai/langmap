@@ -1070,6 +1070,12 @@ WORDS.nose = {
     huv: ["oxing", "oʃiŋ"],
     shp: ["rekin", "ɾekin"],
     crn: ["tzúʼuri", "ˈtsuʔuri"],
-    crx: ["ʼunintsis", "ʔunintsis"]
+    crx: ["ʼunintsis", "ʔunintsis"],
+    cni: ["noirina", "noiɾina"],
+    ame: ["mallantats", "maʎantats"],
+    moh: ["oʼniónhsaʼ", "oʔnjṹhsaʔ"],
+    chy: ["maʼevo", "maʔevo"],
+    ium: ["mbaʼzorng", "batsɔŋ˧"],
+    yap: ["pʼeethunguun", "pʼeːθuŋuːn"]
   },
 };

@@ -922,6 +922,15 @@ WORDS.new = {
     chf: ["tzijib", "tsihib"],
     djk: ["nyun", "ɲun"],
     iu: ["ᓄᑖᖅ", "nutaːq"],
-    crn: ["jéjcua", "ˈhehkwa"]
+    crn: ["jéjcua", "ˈhehkwa"],
+    kl: ["nutaaq", "nutaːq"],
+    cni: ["iroakera", "iɾoakeɾa"],
+    ame: ["etserra", "etseɻa"],
+    fax: ["novu", "ˈnobu"],
+    kjh: ["наа", "naː"],
+    kjb: ["akʼ", "akʼ"],
+    moh: ["á:se", "áːse"],
+    chy: ["mónaʼe", "mónaʔe"],
+    ium: ["siang", "siaŋ˧"]
   },
 };

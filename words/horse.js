@@ -823,6 +823,13 @@ WORDS.horse = {
     iu: ["ᕿᒻᒥᕐᔪᐊᖅ", "qimːiʁjuaq"],
     udi: ["еък", "eˤk"],
     crn: ["cahuaáyuʼu", "kawaˈajuʔu"],
-    crx: ["yeztli", "jeztli"]
+    crx: ["yeztli", "jeztli"],
+    cni: ["kavayo", "kaβajo"],
+    ame: ["cahuall", "kawaʎ"],
+    tvl: ["solofanua", "solofanua"],
+    kjb: ["chej", "tʃex"],
+    moh: ["akohsá:tens", "akohsáːtʌ̃s"],
+    ium: ["maaz", "maː˨˧"],
+    yap: ["qoos", "ʔoːs"]
   }
 };

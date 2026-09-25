@@ -783,6 +783,16 @@ WORDS.book = {
     emp: ["karta", "kaɾta"],
     chk: ["puk", "puk"],
     udi: ["гирк", "ɡirk"],
-    crn: ["liibru", "ˈliːbɾu"]
+    crn: ["liibru", "ˈliːbɾu"],
+    cni: ["sankenarentsi", "saŋkenaɾentsi"],
+    acu: ["papi", "papi"],
+    ame: ["quelloc", "keʎok"],
+    fax: ["libru", "ˈlibɾu"],
+    tvl: ["tusi", "tusi"],
+    kjb: ["un", "un"],
+    moh: ["kahiatónhsera", "kahjatṹhsera"],
+    chy: ["hoéstonemȯxeʼėstooʼo", "hoéstonemoxeʔestoːʔo"],
+    tao: ["vakong", "vakoŋ"],
+    yap: ["baabiyor", "baːbijor"]
   }
 };

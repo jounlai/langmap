@@ -1003,6 +1003,10 @@ WORDS.honey = {
     lkt: ["tȟuȟmáǧa čhaŋháŋpi", "tʰuχmáɣa tʃʰaŋháŋpi"],
     huv: ["kün", "kɨn"],
     crn: ["sarate", "saɾate"],
-    crx: ["tsʼihna tlʼuz", "tsʼihna tɬʼuz"]
+    crx: ["tsʼihna tlʼuz", "tsʼihna tɬʼuz"],
+    ame: ["pets poʼmoñ", "pets poʔmoɲ"],
+    tvl: ["hani", "hani"],
+    chy: ["háhnomápanoʼėhaseoʼo", "háhnomápanoʔehaseoʔo"],
+    ium: ["mueiz-dorngh", "muei˨˧tɔŋ˧˩"]
   },
 };

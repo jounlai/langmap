@@ -780,6 +780,19 @@ WORDS.mountain = {
     koi: ["керӧс", "ˈkerɘs"],
     udi: ["бурух", "burux"],
     crn: ["jɨrí", "hɨˈri"],
-    crx: ["d̲z̲ulh", "dzuɬ"]
+    crx: ["d̲z̲ulh", "dzuɬ"],
+    kl: ["qaqqaq", "qaqːaq"],
+    rm: ["muntogna", "munˈtɔɲa"],
+    acu: ["mura", "muɾa"],
+    ame: ["aspenet̃", "aspenetʲ"],
+    fax: ["montaña", "monˈtaɲa"],
+    kjh: ["тағ", "taɣ"],
+    tvl: ["mauga", "mauŋa"],
+    kjb: ["witz", "wits"],
+    moh: ["onón:ta", "onṹːta"],
+    chy: ["hoʼhonáevose", "hoʔhonáevose"],
+    ium: ["mbong", "bɔŋ˧"],
+    tao: ["tokon", "tokon"],
+    yap: ["burey", "burej"]
   }
 };

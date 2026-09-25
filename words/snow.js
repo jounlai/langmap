@@ -900,6 +900,7 @@ WORDS.snow = {
     ixl: ["txuncheʼv", "tʃuntʃeʔv"],
     jvn: ["salju", "saldʒu"],
     mh: ["jiṇo", "tʲinˠo"],
-    chk: ["sno", "sno"]
+    chk: ["sno", "sno"],
+    ium: ["sorng", "sɔŋ˧"]
   },
 };

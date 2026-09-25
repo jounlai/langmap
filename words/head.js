@@ -938,6 +938,16 @@ WORDS.head = {
     chk: ["mókúr", "məkɨɾ"],
     iu: ["ᓂᐊᖁᖅ", "niaquq"],
     crn: ["muʼú", "muˈʔu"],
-    crx: ["ut̲s̲i", "utsi"]
+    crx: ["ut̲s̲i", "utsi"],
+    kl: ["niaqoq", "niaqoq"],
+    cni: ["noito", "noito"],
+    ame: ["oñets", "oɲets"],
+    fax: ["cabeza", "kaˈbeθa"],
+    kjh: ["пас", "pas"],
+    kjb: ["jolom", "xolom"],
+    moh: ["onón:tsi", "onṹːtsi"],
+    chy: ["meʼko", "meʔko"],
+    ium: ["mʼnqorngv", "m̩ɡɔŋ˦"],
+    yap: ["llug", "lːuɡ"]
   },
 };

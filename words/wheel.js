@@ -857,6 +857,9 @@ WORDS.wheel = {
     esu: ["akalria", "akaɬʁia"],
     atj: ["toro", "toɾo"],
     zts: ["rrued", "rued"],
-    crx: ["nunúlgaih-i", "nunulɡaihi"]
+    crx: ["nunúlgaih-i", "nunulɡaihi"],
+    fax: ["roa", "ˈroa"],
+    chy: ["onéstahké-mahtseʼko", "onéstahkémahtseʔko"],
+    ium: ["yienh", "jien˧˩"]
   },
 };

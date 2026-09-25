@@ -1035,6 +1035,13 @@ WORDS.wind = {
     ker: ["kaŋkaw", "kaŋkaw"],
     huv: ["iünd", "iɨnd"],
     crn: ["eeca", "eːka"],
-    crx: ["nilhtsʼi", "niɬtsʼi"]
+    crx: ["nilhtsʼi", "niɬtsʼi"],
+    cni: ["tampea", "tampea"],
+    ame: ["m̃orr", "mʲoɻ"],
+    kjb: ["kaqʼeʼ", "kaqʼeʔ"],
+    moh: ["óweraʼ", "óweraʔ"],
+    chy: ["háaʼháeše", "háːʔháeʃe"],
+    ium: ["nziaaux", "dzjaːu˨˧"],
+    tao: ["pagpag", "paɡpaɡ"]
   },
 };

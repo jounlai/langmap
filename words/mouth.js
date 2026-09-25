@@ -900,6 +900,14 @@ WORDS.mouth = {
     emp: ["ite", "ite"],
     udi: ["жӏомо", "dʒomo"],
     crn: ["teni", "teni"],
-    crx: ["ʼuẕe", "ʔuze"]
+    crx: ["ʼuẕe", "ʔuze"],
+    rm: ["bucca", "ˈbuka"],
+    cni: ["novante", "noβante"],
+    ame: ["namats", "namats"],
+    fax: ["boca", "ˈboka"],
+    kjb: ["tiʼ", "tiʔ"],
+    chy: ["mahtse", "mahtse"],
+    ium: ["nzuih", "dzui˧˩"],
+    yap: ["lʼugun", "lʼuɡun"]
   }
 };

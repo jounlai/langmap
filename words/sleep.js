@@ -1045,6 +1045,13 @@ WORDS.sleep = {
     djk: ["siibi", "siːbi"],
     emp: ["kãĩ", "kãĩ"],
     crn: ["cutzú", "kuˈtsu"],
-    crx: ["nanisti", "nanisti"]
+    crx: ["nanisti", "nanisti"],
+    cni: ["nomai", "nomai"],
+    ame: ["mueñets", "mweɲets"],
+    kjh: ["узирға", "uzirɣa"],
+    moh: ["wakí:taʼs", "wakíːtaʔs"],
+    chy: ["naóotse", "naóːtse"],
+    ium: ["mʼnjormh", "m̩ɟɔm˧˩"],
+    tao: ["mitkeh", "mitkəh"]
   },
 };

@@ -1063,6 +1063,10 @@ WORDS.bird = {
     deg: ["ẹfẹn", "ɛfɛn"],
     huv: ["kiek", "kʲek"],
     emp: ["ĩbana", "ĩbana"],
-    crx: ["dutʼai", "dutʼai"]
+    crx: ["dutʼai", "dutʼai"],
+    cni: ["tsimeri", "tsimeɾi"],
+    ame: ["ot̃", "otʲ"],
+    moh: ["otsiʼtén:ʼa", "otsiʔtʌ̃́ːʔa"],
+    ium: ["norqc", "nɔʔ˨˩"]
   },
 };

@@ -378,6 +378,9 @@ WORDS.chocolate = {
     zts: ["nax", "naʃ"],
     huv: ["chicolüt", "tʃikolɨt"],
     gv: ["shocklaid", "ˈʃoklaːdʲ"],
-    crn: ["tzicuraá", "tsikuɾaˈa"]
+    crn: ["tzicuraá", "tsikuɾaˈa"],
+    rm: ["tschigulatta", "tʃiɡuˈlata"],
+    fax: ["chocolati", "tʃokoˈlati"],
+    nog: ["шоколад", "ʃokolad"]
   }
 };

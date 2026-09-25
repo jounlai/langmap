@@ -1059,6 +1059,9 @@ WORDS.stone = {
     emp: ["mõgara", "mõɡaɾa"],
     udi: ["жӏеъ", "dʒeˤ"],
     crn: ["teté", "teˈte"],
-    crx: ["t̲s̲e", "tse"]
+    crx: ["t̲s̲e", "tse"],
+    ame: ["mapueʼ", "mapweʔ"],
+    moh: ["onén:iaʼ", "onʌ̃́ːjaʔ"],
+    ium: ["laʼbieiv", "ʔlapiei˦"]
   },
 };

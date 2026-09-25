@@ -1122,6 +1122,10 @@ WORDS.ear = {
     ker: ["koso", "koso"],
     atj: ["otokainan", "otokainan"],
     huv: ["olaag", "olaːɡ"],
-    crx: ["ʼudzo", "ʔudzo"]
+    crx: ["ʼudzo", "ʔudzo"],
+    cni: ["noyempita", "nojempita"],
+    ame: ["etats", "etats"],
+    moh: ["ohónhtaʼ", "ohṹhtaʔ"],
+    ium: ["mʼnormh", "m̩nɔm˧˩"]
   },
 };

@@ -1009,6 +1009,13 @@ WORDS.hundred = {
     zts: ["gaiyua", "ɡaijua"],
     deg: ["itany isuwon", "itaɲ isuwon"],
     huv: ["akoik miow", "akoik miow"],
-    djk: ["ondoo", "ondoː"]
+    djk: ["ondoo", "ondoː"],
+    kl: ["untritit", "untʁitit"],
+    acu: ["pachak", "patʃak"],
+    ame: ["c̈harroch c̈harraʼ", "tʂaɻotʃ tʂaɻaʔ"],
+    moh: ["tewenʼniáwe", "tewʌ̃ʔnjáwe"],
+    chy: ["mahtóhtȯhnóʼe", "mahtóhtohnóʔe"],
+    ium: ["baeqv", "pæʔ˥˥"],
+    yap: ["raqay", "raʔaj"]
   },
 };

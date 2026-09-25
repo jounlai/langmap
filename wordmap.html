@@ -432,6 +432,19 @@
         .top-left-controls {
             position: absolute; top: 52px; left: 12px; z-index: 1000;
             display: flex; flex-direction: column; gap: 6px;
+            /* The word row and the language row each END WITH A DIE, so giving
+               the two rows the same width lines the dice up in a column — and
+               keeps them lined up whatever happens to the controls in front of
+               them, which hard-coding the search field's width would not
+               (owner 2026-09-26). The width is the word row's natural sum, so
+               the arithmetic lives in one place: change --word-btn-w and both
+               rows follow. */
+            --tlc-gap: 5px;
+            --die-w: 28px;
+            --help-w: 18px;
+            --word-btn-w: 150px;
+            --tlc-row-w: calc(var(--word-btn-w) + var(--help-w) + var(--die-w)
+                              + 2 * var(--tlc-gap));
         }
         .top-left-controls select {
             font-size: 13px; padding: 5px 10px; border: 1px solid #d0d0d0;
@@ -509,7 +522,8 @@
            into the <select>'s place in chrome-hidden mode, so it lives in the
            same row. */
         .top-left-controls .word-select-row {
-            display: flex; align-items: center; gap: 5px;
+            display: flex; align-items: center; gap: var(--tlc-gap);
+            width: var(--tlc-row-w);
         }
         /* The word selector is a BUTTON, not a pulldown (owner 2026-09-20).
            86 concepts in a flat <select> could not be scanned, so the list
@@ -528,7 +542,8 @@
            with align-self:stretch and came out an ELLIPSE, because a flex item
            still shrinks while stretch holds the height. */
         .die-btn {
-            flex: 0 0 28px; width: 28px; height: 28px; align-self: center;
+            flex: 0 0 var(--die-w, 28px); width: var(--die-w, 28px);
+            height: var(--die-w, 28px); align-self: center;
             padding: 0; box-sizing: border-box;
             border: 1px solid #d0d0d0; border-radius: 50%;
             background: #fff; color: #555;
@@ -552,7 +567,8 @@
                17 characters is the worst case, Thai and Indonesian next — and
                it stays FIXED rather than sizing to content, so the die beside
                it does not move out from under the cursor between rolls. */
-            width: 150px; max-width: 100%; box-sizing: border-box;
+            flex: 0 0 var(--word-btn-w);
+            width: var(--word-btn-w); max-width: 100%; box-sizing: border-box;
             padding: 5px 9px;
             border: 1px solid #c9c9d4; border-radius: 7px;
             background: #fff;
@@ -674,7 +690,7 @@
            different help icons in one column read as two different things. */
         .top-left-controls #word-def-toggle {
             display: inline-flex; align-items: center; justify-content: center;
-            width: 18px; height: 18px;
+            flex: 0 0 var(--help-w); width: var(--help-w); height: var(--help-w);
             border-radius: 50%;
             background: #eee; color: #666;
             font-size: 11px; cursor: help; user-select: none;
@@ -3143,11 +3159,15 @@
                       title="">?</span>
             </div>
         </div>
-        <div class="lang-search-wrap" style="position:relative;display:flex;gap:4px">
+        <!-- Same width as the word row above, and both rows end with a die, so
+             the two dice sit in one column. The field takes whatever the die
+             leaves rather than carrying a width of its own — that is what keeps
+             the alignment true if the word button's width ever changes. -->
+        <div class="lang-search-wrap" style="position:relative;display:flex;gap:var(--tlc-gap);width:var(--tlc-row-w)">
             <input type="text" id="lang-search" placeholder="🔍 Search language…" autocomplete="off"
                    role="combobox" aria-autocomplete="list" aria-expanded="false"
                    aria-controls="lang-search-results" aria-activedescendant=""
-                   style="width:200px;padding:5px 9px;font-size:12px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#333">
+                   style="flex:1 1 auto;min-width:0;padding:5px 9px;font-size:12px;border:1px solid #d0d0d0;border-radius:4px;background:#fff;color:#333">
             <!-- Round like the Han Map's character die; sizing and states now
                  live in .die-btn, which the word picker's die shares. 28px
                  matches the input, which renders ~26px (12px text + 5px

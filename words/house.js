@@ -112,7 +112,7 @@ WORDS.house = {
       bin: ["owa", "owa"],
       khw: ["دُر", "dur"],
       xav: ["hoze", "ˈhoze"],
-      ter: ["ovongu", "ovoŋɡu"],
+      ter: ["óvongu", "ˈovoŋɡu"],
       bor: ["jara", "jaɾa"],
       trn: ["tano", "tano"],
       ake: ["enna", "enna"],

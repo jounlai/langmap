@@ -112,7 +112,7 @@ WORDS.heart = {
       bin: ["orhio", "oɾio"],
       khw: ["ہردی", "ˈhardi"],
       xav: ["rimé", "ɾiˈme"],
-      ter: ["pãho", "pãho"],
+      ter: ["omíxone", "oˈmiʃone"],
       bor: ["mara", "maɾa"],
       trn: ["samre", "samɾe"],
       ake: ["mïda", "mɨda"],

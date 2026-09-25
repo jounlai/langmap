@@ -112,7 +112,7 @@ WORDS.father = {
       bin: ["érhá", "eɾa"],
       khw: ["تَت", "tat"],
       xav: ["adzé", "aˈdze"],
-      ter: ["ãno", "ãno"],
+      ter: ["háʼa", "ˈhaʔa"],
       bor: ["apyge", "apɨɡe"],
       trn: ["tata", "tata"],
       ake: ["papai", "papai"],

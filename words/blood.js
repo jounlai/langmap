@@ -124,7 +124,7 @@ WORDS.blood = {
     xav: ["wapru", "wapɾu"],
     ter: ["íti", "ˈiti"],
     bor: ["kuwoje", "kuwoʒe"],
-    trn: ["—", "—"],
+    trn: ["iti", "iti"],
     ake: ["mïnï", "mɨnɨ"],
     aoc: ["mʉnʉ", "mɨnɨ"],
     gun: ["tuguy", "tuɣɨ"],

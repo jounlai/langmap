@@ -112,7 +112,7 @@ WORDS.cat = {
       bin: ["apusi", "apusi"],
       khw: ["پُشی", "ˈpuʂi"],
       xav: ["tsabizá", "tsabiˈza"],
-      ter: ["ãno", "ãno"],
+      ter: ["marakaya", "maɾaˈkaja"],
       bor: ["kuie", "kwie"],
       trn: ["ojchi", "otʃi"],
       ake: ["mïta", "mɨta"],

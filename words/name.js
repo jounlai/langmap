@@ -1061,7 +1061,7 @@ WORDS.name = {
       djk: ["nen", "nɛn"],
       srm: ["nen", "nɛ̃"],
       kwk: ["ʼLegam", "ɬəɡəm"],
-      blc: ["sunixʷ", "sunixʷ"],
+      blc: ["skʷacta", "skʷatsta"],
       sad: ["ǁwâ", "ǁʷâ"],
       pcc: ["mingz", "miŋ˩˩"],
       ium: ["mbuox", "ᵐbuɔ˧˩"],

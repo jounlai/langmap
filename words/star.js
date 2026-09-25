@@ -1061,7 +1061,7 @@ WORDS.star = {
       djk: ["sitari", "siˈtari"],
       srm: ["teteei", "teteːi"],
       kwk: ["kʼutʼala", "kʼutʼala"],
-      blc: ["snx", "snx"],
+      blc: ["mixmikʼł", "mixmikʼɬ"],
       sad: ["hĩǀáwã", "hĩ́ǀáwã̀ː"],
       pcc: ["ndaux", "ʔdaːu˧˧"],
       ium: ["hleix", "l̥ei˧"],

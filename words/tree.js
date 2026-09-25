@@ -114,7 +114,7 @@ WORDS.tree = {
       xav: ["wazá", "waˈza"],
       ter: ["yõ", "jõ"],
       bor: ["mae", "mae"],
-      trn: ["iti", "iti"],
+      trn: ["wkugi", "wkuçi"],
       ake: ["pupö", "pupɔ"],
       aoc: ["tïmö", "timɯ"],
       gun: ["yvyra", "ɨvɨˈɾa"],

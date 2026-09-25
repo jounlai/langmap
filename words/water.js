@@ -112,7 +112,7 @@ WORDS.water = {
       bin: ["amẹ", "amɛ̃"],
       khw: ["اُوغ", "uːɣ"],
       xav: ["aʼri", "aʔɾi"],
-      ter: ["une", "une"],
+      ter: ["úne", "ˈune"],
       bor: ["pobo", "pobo"],
       trn: ["une", "une"],
       ake: ["tuna", "tuna"],

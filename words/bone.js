@@ -99,7 +99,7 @@ WORDS.bone = {
     bin: ["ùgbòlòkò", "ùɡbòlòkò"],
     khw: ["کھول", "kʰoːl"],
     xav: ["hi", "hi"],
-    ter: ["ope", "ope"],
+    ter: ["ôpe", "ˈope"],
     bor: ["ra", "ɾa"],
     trn: ["opege", "opeɣe"],
     ake: ["eʼpï", "eʔpɨ"],

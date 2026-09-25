@@ -106,7 +106,7 @@ WORDS.eat = {
       en_my: ["eat", "iːt"],
       pt_gw: ["kumé", "kume"],
       tsz: ["tʼireni", "tʰiˈɾeni"],
-      nez: ["hipise", "hipise"],
+      nez: ["hipíse", "hipíse"],
       woe: ["mwongoo", "mʷoŋoː"],
       pmt: ["kai", "kai"],
       bin: ["re", "re"],

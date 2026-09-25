@@ -79,6 +79,28 @@ const BLOCKS = [
     ['Tangut',                  0x17000, 0x187FF, 'Noto Serif Tangut'],
     ['Tangut Components',       0x18800, 0x18AFF, 'Noto Serif Tangut'],
     ['Khitan Small Script',     0x18B00, 0x18CFF, 'Noto Serif Khitan Small Script'],
+    // Encoded in Unicode 18.0 and NOT YET RENDERABLE. Listed with a null font
+    // on purpose: the guard then names the script instead of printing
+    // "UNMAPPED U+18E00", so whoever trips it learns why rather than what.
+    //
+    // Checked 2026-09-26. Google Fonts returns 400 for Noto Sans Jurchen and
+    // Noto Serif Jurchen alike and notofonts has no Jurchen family. BabelStone
+    // has four Jurchen fonts scanned from the Sino-Jurchen Vocabulary, and
+    // they are PUA-mapped, not Unicode-mapped — its own page says "mapped
+    // non-contiguously to the PUA at E000..E6FA" and "Unicode-mapped versions
+    // of these fonts will be made available once Jurchen has been included to
+    // the Unicode Standard". Confirmed against the shipped file rather than
+    // the page: JurchenBerlin.ttf's cmap has 717 codepoints in E000-F8FF and
+    // ZERO in 18E00-191DF.
+    //
+    // So writing real Jurchen codepoints today produces tofu for every reader.
+    // The atlas's own juc row is 38 cells of romanisation (muke, tuwa,
+    // inenggi) although its meta declares "Jurchen script", and converting it
+    // is a research job against the Jin inscriptions and the Sino-Jurchen
+    // Vocabulary, not a transliteration. When a Unicode-mapped font ships,
+    // fill in the family name here and add the @font-face to the four chains.
+    ['Jurchen',                 0x18E00, 0x1919F, null],
+    ['Jurchen Radicals',        0x191A0, 0x191DF, null],
     ['Adlam',                   0x1E900, 0x1E95F, 'Noto Sans Adlam'],
     // The Chữ Nôm CJK extensions are served by the self-hosted subsets, which
     // are scoped by an explicit unicode-range listing every codepoint we use.
@@ -89,6 +111,11 @@ const BLOCKS = [
     // Ext F carries the Zhuang Sawndip glyphs (𭓨 house, 𭝚 love …), served by
     // the BabelStone-Han Sawndip subset added to the same family.
     ['CJK Ext F',               0x2CEB0, 0x2EBEF, 'Nom Serif Subset'],
+    // Also Unicode 18.0, also fontless, same reasoning as Jurchen above. 11,328
+    // small-seal characters — of interest to the Han Map rather than to this
+    // one, and listed here because this table is what both pages are checked
+    // against.
+    ['Small Seal',              0x3D000, 0x3FC3F, null],
 ];
 
 // The Nôm subsets are unicode-range scoped, so a codepoint they claim must
@@ -158,7 +185,19 @@ const chains = chainBodies();
 
 const missing = [];
 for (const [block, info] of found) {
-    if (!info.font) { missing.push([block, '(no font mapping in this checker)', [...info.codes]]); continue; }
+    if (!info.font) {
+        // Two different failures share this branch and they need different
+        // answers. A block the table does not know about is the checker's
+        // gap — add a row. A block the table lists with a null font is one
+        // Unicode has encoded and nobody has shipped a font for, so there is
+        // nothing to add until one exists.
+        const known = BLOCKS.some((b) => b[0] === block);
+        missing.push([block,
+            known ? '(encoded in Unicode, no font exists yet — see the table note)'
+                  : '(no font mapping in this checker — add a row to BLOCKS)',
+            [...info.codes]]);
+        continue;
+    }
     // The self-hosted Nôm subsets are only referenced from .wm-form and the
     // label chain; @font-face + one chain is enough for them.
     if (info.font === 'Nom Serif Subset') {

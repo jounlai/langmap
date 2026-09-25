@@ -96,7 +96,7 @@ WORDS.water = {
       ono: ["ohnekano:s", "ohnekanoːs"],
       win: ["nįį", "nĩː"],
       cro: ["bilé", "bilé"],
-      hai: ["xúu", "χúː"],
+      hai: ["g̱ándl", "ɢándl"],
       cic: ["okaʼ", "okaʔ"],
       ik: ["imiq", "imiq"],
       na: ["ebȯk", "ebɔk"],

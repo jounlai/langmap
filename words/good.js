@@ -96,7 +96,7 @@ WORDS.good = {
       ono: ["oyá:nre", "ojáːnre"],
       win: ["pįį", "pĩː"],
       cro: ["aleé", "aleé"],
-      hai: ["ǥúud", "ɢúːt"],
+      hai: ["ʼláa", "ʔlɑ́ː"],
       cic: ["achukma", "atʃukma"],
       ik: ["nakuuruq", "nakuːruq"],
       na: ["omo", "omo"],

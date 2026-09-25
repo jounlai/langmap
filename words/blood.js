@@ -106,7 +106,7 @@ WORDS.blood = {
     ono: ["otkwęhsaʼ", "otkwɛ̃hsaʔ"],
     win: ["waʼį", "waʔĩ"],
     cro: ["íre", "íɾe"],
-    hai: ["g̱áay", "ɢáːj"],
+    hai: ["g̱áy", "ɢáj"],
     cic: ["issish", "isːiʃ"],
     ik: ["auk", "auk"],
     na: ["ra", "ra"],

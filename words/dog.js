@@ -96,7 +96,7 @@ WORDS.dog = {
       ono: ["só:wa:s", "sóːwaːs"],
       win: ["wažą", "waʒã"],
       cro: ["bishká", "biʃká"],
-      hai: ["stʼáat", "stʼɑ́ːt"],
+      hai: ["x̱a", "χa"],
       cic: ["ofiʼ", "ofiʔ"],
       ik: ["qimmiq", "qimːiq"],
       na: ["robar", "roˈbaːr"], // from English "Rover" (a common dog name) — introduced by 19th-c. sailors; Wiktionary "robar" (Nauruan)

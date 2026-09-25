@@ -1008,7 +1008,7 @@ WORDS.earth = {
     koy: ["ninʼ", "nɪnʔ"],
     squ: ["temíxw", "təmixʷ"],
     kwk: ["a̱wiʼnak̕wa̱s", "ʔəwiʔnakʷʼəs"],
-    hai: ["tllga", "tɬʼaɡa"],
+    hai: ["tlag", "tɬaɡ"],
     osa: ["mąðį́hka", "mãðĩ́hka"],
     srr: ["lanq", "laŋɢ"],
     dds: ["tay", "taj"],

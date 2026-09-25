@@ -103,7 +103,7 @@ WORDS.red = {
     ono: ["otkwę́ʼtaʼ", "otkwɛ̃́ʔtaʔ"],
     win: ["šuuc", "ʃuːtʃ"],
     cro: ["hisshíi", "hiʃːíː"],
-    hai: ["sgíw", "sɡíw"],  // Suspect. Lachler's Dictionary of Alaskan Haida — the source this row's white ǥadáang comes from — has sǥid 'to be red' and gives sǥíw as the noun 'black seaweed, laver'. The plain sg here against ǥ elsewhere in the row is a second hint it came from somewhere else. Read off a PDF with a remapped font, so left standing until someone can check the book.
+    hai: ["sg̱id", "sɢid"],  // Suspect. Lachler's Dictionary of Alaskan Haida — the source this row's white ǥadáang comes from — has sǥid 'to be red' and gives sǥíw as the noun 'black seaweed, laver'. The plain sg here against ǥ elsewhere in the row is a second hint it came from somewhere else. Read off a PDF with a remapped font, so left standing until someone can check the book.
     cic: ["homma", "homːa"],
     ik: ["kavisiq", "kavisiq"],
     na: ["ȯmwirara", "ɔmʷirara"],

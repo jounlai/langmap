@@ -83,7 +83,7 @@ WORDS.white = {
     ono: ["owę:héʼsdaʼ", "owɛ̃ːhéʔstaʔ"],
     win: ["ska", "ska"],
     cro: ["chía", "tʃía"],
-    hai: ["ǥadáang", "ɢadɑ́ːŋ"],
+    hai: ["g̱adáang", "ɢadɑ́ːŋ"],
     cic: ["tohbi", "tohbi"],
     ik: ["qatiqtuq", "qatiqtuq"],
     es_bo: ["blanco", "ˈblaŋko"],

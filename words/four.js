@@ -1043,7 +1043,7 @@ WORDS.four = {
     bla: ["niisoo", "niːsoː"],
     win: ["joop", "dʒoːp"],
     cro: ["shoopá", "ʃoːpá"],
-    hai: ["stansang", "stansaŋ"],
+    hai: ["stánsang", "stánsaŋ"],
     cic: ["oshtaʼ", "oʃtaʔ"],
     nez: ["piʼilept", "piʔilept"],
     tsz: ["tʼamu", "tʰamu"],

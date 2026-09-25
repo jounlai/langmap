@@ -108,7 +108,7 @@ WORDS.tongue = {
     ono: ["oʼnahsaʼ", "oʔnahsaʔ"],
     win: ["reezí", "reːzi"],
     cro: ["déxshia", "déxʃia"],
-    hai: ["tʼáng̱al", "tʼáŋɢal"],
+    hai: ["tʼáangal", "tʼɑ́ːŋal"],
     cic: ["isunlash", "isunlaʃ"],
     ik: ["uqaq", "uqaq"],
     na: ["eo", "eo"],

@@ -126,7 +126,7 @@ WORDS.tooth = {
     ono: ["onóʼjaʼ", "onóʔdʒaʔ"],
     win: ["hii", "hiː"],
     cro: ["íihpe", "íːhpe"],
-    hai: ["tsʼang", "tsʼaŋ"],
+    hai: ["tsʼáng", "tsʼáŋ"],
     cic: ["notiʼ", "notiʔ"],
     ik: ["kigun", "kiɡun"],
     na: ["imwi", "imʷi"],

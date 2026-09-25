@@ -107,7 +107,7 @@ WORDS.night = {
     ono: ["ahsų́t", "ahsṹt"],
     win: ["hąąhe", "hãːhe"],
     cro: ["ochía", "otʃía"],
-    hai: ["sáng̱a", "sáŋɢa"],
+    hai: ["g̱áal", "ɢɑ́ːl"],
     cic: ["ninak", "ninak"],
     ik: ["unnuaq", "unːuaq"],
     na: ["ebům", "eˈbɨm"],

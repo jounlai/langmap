@@ -96,7 +96,7 @@ WORDS.cat = {
       ono: ["takó:s", "takóːs"],
       win: ["—", "—"],
       cro: ["—", "—"],
-      hai: ["číidii", "tʃʰíːdiː"],
+      hai: ["dúus", "dúːs"],
       cic: ["kowiʼ", "kowiʔ"],
       ik: ["pussiq", "pusːiq"],
       na: ["—", "—"],

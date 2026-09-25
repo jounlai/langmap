@@ -179,6 +179,14 @@ const pairs = Object.entries(byPair).sort((x, y) => y[1].length - x[1].length);
 // like and not what a separate green lexeme looks like. Thirty-one rows on
 // this map already carry the shared term in both cells. Splitting Sakha alone
 // would have made it the exception for the sake of a counter.
+// 2026-09-25: accepts yuc tse = water + you, and it arrived the right way
+// round. The Euchee row's `water` was published as "cha", which traces to
+// Crawford's example sentence "it went in the water || tʃhɔ(ː)ɬa (chaweɬa)"
+// with the parenthesis read as the noun; Linn 2001 p.333 gives tse for water,
+// and Linn p.198 ex.100 gives tse for 2SG. So correcting one cell CREATED a
+// collision with a cell that was already right, which is the opposite of the
+// usual signature and is exactly why this guard reports rather than blocks.
+// Genuine homophones, both attested on their own page.
 const LOCK = path.join(__dirname, 'intra_row_dup.lock.json');
 const sig = (h) => `${h.code}|${[h.a, h.b].sort().join('|')}`;
 const current = new Set(hits.map(sig));

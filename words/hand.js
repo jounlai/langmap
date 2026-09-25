@@ -489,7 +489,7 @@ WORDS.hand = {
     pmy: ['tangan', 'ˈtaŋan'],
     pot: ['nej', 'netʃ'],
     pzh: ['rima', 'ɾima'],
-    wic: ['ʔiskʔa', 'ʔiskʔa'],
+    wic: ["iskʔa", "iskʔa"],
     wuu_jh: ['手', 'ɕiu˥˧˥'],
     wuu_jx: ['手', 'se˧˩˧'],
     yue_zs: ['手', 'sɐu˧˥'],

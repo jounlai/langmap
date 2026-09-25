@@ -489,7 +489,7 @@ WORDS.i = {
       pmy: ["sa", "sa"],
       pot: ["nin", "nin"],
       pzh: ["yaku", "jaku"],
-      wic: ["náⁱʔ", "náːʔ"],
+      wic: ["nacʔih", "natsʔih"],
       wuu_jh: ["我", "ŋu˩˧"],
       wuu_jx: ["我", "ŋ̍˨˩˧"],
       yue_zs: ["我", "ŋɔ˩˧"],

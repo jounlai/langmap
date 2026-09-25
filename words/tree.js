@@ -489,7 +489,7 @@ WORDS.tree = {
     pmy: ['pohon', 'ˈpohon'],
     pot: ['mtëg', 'mtəɡ'],
     pzh: ['kahuy', 'kahuj'],
-    wic: ['tahaːriʔ', 'tahaːɾiʔ'],
+    wic: ["tiyaːhkw", "tijaːhkʷ"],
     wuu_jh: ['树', 'ʑy˨˨'],
     wuu_jx: ['树', 'zz̩˨˨˧'],
     yue_zs: ['樹', 'syː˨'],

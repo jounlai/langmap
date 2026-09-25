@@ -489,7 +489,7 @@ WORDS.you = {
       pmy: ["ko", "ko"],
       pot: ["kin", "kin"],
       pzh: ["isiu", "isiu"],
-      wic: ["áⁱʔ", "áːʔ"],
+      wic: ["nasʔih", "nasʔih"],
       wuu_jh: ["尔", "n̩˩˧"],
       wuu_jx: ["倷", "ne˨˨˧"],
       yue_zs: ["你", "ni˩˧"],

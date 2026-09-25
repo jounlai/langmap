@@ -492,7 +492,7 @@ WORDS.father = {
     pmy: ['bapa', 'ˈbapa'],
     pot: ['nos', 'nos'],
     pzh: ['aba', 'aba'],
-    wic: ['ʔaːsi', 'ʔaːsi'],
+    wic: ["taːtah", "taːtah"],
     wuu_jh: ['阿爸', 'aʔ˥ pa˧˧'],
     wuu_jx: ['爹爹', 'tia˦˦ tia˦˦'],
     yue_zs: ["老豆", "lou˩˧ tɐu˨"],

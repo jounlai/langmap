@@ -489,7 +489,7 @@ WORDS.drink = {
     pmy: ['minum', 'ˈminum'],
     pot: ['mnëkwé', 'mnəkwe'],
     pzh: ['mimaazip', 'mimaːzip'],
-    wic: ['kiːckiriʔeːhirʔa', 'kiːtskiɾiʔeːhiɾʔa'],
+    wic: ["kikʔa", "kikʔa"],
     wuu_jh: ['吃', 'tɕʰiɪʔ˥'],
     wuu_jx: ['吃', 'tɕʰiɪʔ˥'],
     yue_zs: ['飲', 'jɐm˧˥'],

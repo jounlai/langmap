@@ -489,7 +489,7 @@ WORDS.name = {
       pmy: ["nama", "nama"],
       pot: ["zhnekaswen", "ʒnɛkaswən"],
       pzh: ["ngadan", "ŋadan"],
-      wic: ["-riʔ", "riʔ"],
+      wic: ["hissaːrʔa", "hissaːɾʔa"],
       wuu_jh: ["名字", "miŋ˧˩˧ z̩˨˨"],
       wuu_jx: ["名字", "miŋ˨˧ zz̩˨˨˧"],
       yue_zs: ["名", "miaŋ˨˩"],

@@ -1095,7 +1095,7 @@ WORDS.four = {
     mkz: ["loloha", "loloha"],
     pao: ["wasugwe", "wasuɡwe"],
     hup: ["dinkʼi", "diŋkʲʼi"],
-    wic: ["taakwic", "taːkwits"],
+    wic: ["taːkwic", "taːkʷits"],
     tiw: ["yatapinti", "jatapinti"],
     bru: ["pôn", "põːn"],
     wbp: ["jirrama-kari-jirrama-kari", "ɟiɾamakaɾiɟiɾamakaɾi"],

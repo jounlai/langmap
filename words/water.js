@@ -1226,7 +1226,7 @@ WORDS.water = {
     lld: ["ega", "ˈeɡa"],
     stq: ["Woater", "ˈvɔːtɐ"],
     wym: ["woser", "ˈvɔsɐ"],
-    yuc: ["cha", "tʃa"],
+    yuc: ["tse", "tse"],
     kgg: ["tang", "tɑŋ"],
     ota: ["سو", "su"],
     cmg: ["ᠤᠰᠤᠨ", "usun"],

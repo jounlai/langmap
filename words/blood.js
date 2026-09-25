@@ -1223,7 +1223,7 @@ WORDS.blood = {
     pmy: ["dara", "dara"],
     pot: ["mskwe", "mskʷə"],
     pzh: ["—", "—"],
-    wic: ["wacʼicʼa", "watskitsʔa"],
+    wic: ["waːckicʔa", "waːtskitsʔa"],
     wuu_jh: ["血", "ɕyøʔ˥"],
     wuu_jx: ["血", "ɕyeʔ˥"],
     yue_zs: ["血", "hyːt˧"],

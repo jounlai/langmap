@@ -489,7 +489,7 @@ WORDS.heart = {
     pmy: ['hati', 'ˈhati'],
     pot: ['déh', 'deː'],
     pzh: ['baga', 'baɡa'],
-    wic: ['kaːc', 'kaːts'],
+    wic: ["sikicʔa", "sikitsʔa"],
     wuu_jh: ['心', 'ɕiŋ˧˧'],
     wuu_jx: ['心', 'ɕiŋ˥˧'],
     yue_zs: ['心', 'sɐm˥˥'],

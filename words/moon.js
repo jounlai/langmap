@@ -1225,7 +1225,7 @@ WORDS.moon = {
     lld: ["löna", "ˈløːna"],
     stq: ["Moune", "ˈmoːnə"],
     wym: ["mün", "myn"],
-    yuc: ["zethla", "zɛhla"],
+    yuc: ["shafa", "ʃafa"],
     kgg: ["pom", "pom"],
     ota: ["آی", "aj"],
     cmg: ["ᠰᠠᠷᠠ", "sara"],

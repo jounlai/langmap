@@ -1228,7 +1228,7 @@ WORDS.fish = {
     pmy: ["ikan", "ˈikaŋ"],
     pot: ["kigo", "kiɡo"],
     pzh: ["—", "—"],
-    wic: ["kots", "kots"],
+    wic: ["kaːcʔa", "kaːtsʔa"],
     wuu_jh: ["鱼", "ȵy˧˩˧"],
     wuu_jx: ["鱼", "ŋ̍˨˧"],
     yue_zs: ["魚", "ŋy˨˩"],

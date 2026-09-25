@@ -1224,7 +1224,7 @@ WORDS.night = {
     pmy: ["malam", "malam"],
     pot: ["pkonyak", "pkoɲak"],
     pzh: ["—", "—"],
-    wic: ["cikharʼa", "tsikʰarʔa"],
+    wic: ["ckhaːrʔa", "tskʰaːɾʔa"],
     wuu_jh: ["夜里", "ɦia˨˩ li˨˩"],
     wuu_jx: ["夜里", "ɦia˨˧ li˨˧"],
     yue_zs: ["夜晚", "jɛ˨ man˩˧"],

@@ -1151,7 +1151,7 @@ WORDS.tongue = {
     lld: ["lenga", "ˈlɛŋɡa"],
     stq: ["Tunge", "ˈtuŋə"],
     wym: ["cung", "tsuŋ"],
-    yuc: ["tʼeka", "tʼẽka"],
+    yuc: ["kʼẽka", "kʼẽka"],
     kgg: ["iŋdzũ", "iŋdzũ"],
     ota: ["دیل", "dil"],
     cmg: ["ᠬᠡᠯᠡᠨ", "kelen"],

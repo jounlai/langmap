@@ -492,7 +492,7 @@ WORDS.hello = {
     pmy: ['halo', 'ˈhalo'],
     pot: ['bozho', 'boʒo'],
     pzh: ['—', '—'],
-    wic: ['nakahaʔahirʔa', 'nakahaʔahiɾʔa'],
+    wic: ["—", "—"],
     wuu_jh: ['侬好', 'noŋ˨˨˦ xau˥˧˥'],
     wuu_jx: ['侬好', 'noŋ˨˨˧ hɔ˧˩˧'],
     yue_zs: ['你好', 'nei˩˧ hou˧˥'],

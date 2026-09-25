@@ -1220,7 +1220,7 @@ WORDS.red = {
     pmy: ["merah", "ˈmeɾa"],
     pot: ["mskwa", "mskwa"],
     pzh: ["—", "—"],
-    wic: ["hakwatsʔa", "hakwatsʔa"],
+    wic: ["kwhaːc", "kʷʰaːts"],
     wuu_jh: ["红", "ɦoŋ˧˩˧"],
     wuu_jx: ["红", "ɦoŋ˨˧"],
     yue_zs: ["紅", "hʊŋ˨˩"],

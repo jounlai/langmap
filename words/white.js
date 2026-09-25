@@ -1175,6 +1175,8 @@ WORDS.white = {
     xkz: ["kharti", "kʰarti"],
     ekp: ["usa", "usa"],
     bbo: ["furu", "furu"],
-    arp: ["noocóó", "noːtʃóː"]
+    arp: ["noocóó", "noːtʃóː"],
+    esu: ["qatellria", "qatəɬʁia"],
+    ker: ["birwa", "biɾwa"]
   },
 };

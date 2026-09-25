@@ -1110,6 +1110,7 @@ WORDS.earth = {
     bzd: ["íyök", "íjøk"],
     sbp: ["ililongo", "ililoŋɡo"],
     yan: ["sau", "sau"],
-    kmh: ["lum", "lum"]
+    kmh: ["lum", "lum"],
+    agu: ["txʼotxʼ", "tʃʼotʃʼ"]
   },
 };

@@ -804,6 +804,25 @@ WORDS.horse = {
     wbp: ["nantuwu", "nantuwu"],
     kca: ["ӆов", "ɬow"],
     yan: ["aras", "aɾas"],
-    vro: ["hopõn", "hopɤn"]
+    vro: ["hopõn", "hopɤn"],
+    pon: ["oahs", "ɔːs"],
+    toj: ["kawu", "kawu"],
+    agu: ["chej", "tʃeh"],
+    pbb: ["jiba", "hiba"],
+    esu: ["kuuniq", "kuːniq"],
+    ker: ["gədaamo", "ɡədaːmo"],
+    atj: ["atikw", "atikʷ"],
+    tdh: ["घोरा", "ɡʱora"],
+    zts: ["cabai", "kabai"],
+    rmf: ["grai", "ɡrai"],
+    tkr: ["балкан", "balkan"],
+    huv: ["kawüy", "kawɨj"],
+    chf: ["tzimim", "tsimim"],
+    djk: ["asi", "asi"],
+    emp: ["kawayo", "kawajo"],
+    iu: ["ᕿᒻᒥᕐᔪᐊᖅ", "qimːiʁjuaq"],
+    udi: ["еък", "eˤk"],
+    crn: ["cahuaáyuʼu", "kawaˈajuʔu"],
+    crx: ["yeztli", "jeztli"]
   }
 };

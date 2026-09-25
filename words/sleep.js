@@ -1036,6 +1036,15 @@ WORDS.sleep = {
     tsu: ["oengʉtʉ", "oeŋətə"],
     pwn: ["qemreng", "qəmɾəŋ"],
     fai: ["akál", "akɑl"],
-    wbp: ["jarda ngunami", "ɟaɖa ŋunami"]
+    wbp: ["jarda ngunami", "ɟaɖa ŋunami"],
+    agu: ["watl", "waːtl"],
+    pbb: ["dee", "deː"],
+    pyu: ["alrupeʼ", "aɭupəʔ"],
+    deg: ["mẹse", "mɛse"],
+    huv: ["ameay", "ameaj"],
+    djk: ["siibi", "siːbi"],
+    emp: ["kãĩ", "kãĩ"],
+    crn: ["cutzú", "kuˈtsu"],
+    crx: ["nanisti", "nanisti"]
   },
 };

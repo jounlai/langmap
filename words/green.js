@@ -667,6 +667,22 @@ WORDS.green = {
     bzd: ["tsipátsipà", "tsipátsipa"],
     pwn: ["liljuas", "liɭuas"],
     tok: ["laso", "laso"],
-    vro: ["rohilinõ", "rohilinɤ"]
+    vro: ["rohilinõ", "rohilinɤ"],
+    toj: ["yaʼax", "jaʔaʃ"],
+    agu: ["txaʼx", "tʃaʔʃ"],
+    pbb: ["çẽy", "çẽj"],
+    esu: ["cungagliq", "tʃuŋaɣɬiq"],
+    en_ck: ["green", "ɡɹiːn"],
+    ppl: ["shushuwik", "ʃuʃuwik"],
+    atj: ["ocawackwaw", "oʃawaʃkwaw"],
+    tdh: ["गिगिम", "ɡiɡim"],
+    zts: ["nga", "ŋa"],
+    mix: ["kuii", "kʷiji"],
+    rmf: ["grönt", "ɡrønt"],
+    mus: ["lane", "lani"],
+    chf: ["yäx", "jɨʃ"],
+    djk: ["guun", "ɡuːn"],
+    crn: ["jamuámua", "haˈmwamwa"],
+    crx: ["dultlʼuz", "dutɬʼuz"]
   }
 };

@@ -880,6 +880,26 @@ WORDS.mouth = {
     yan: ["tinpas", "tinpas"],
     tok: ["uta", "uta"],
     hsb: ["huba", "ˈɦuba"],
-    vro: ["suu", "suː"]
+    vro: ["suu", "suː"],
+    pon: ["ahu", "ahu"],
+    toj: ["tiʼ", "tiʔ"],
+    agu: ["tziʼaj", "tsiʔah"],
+    aer: ["arrakerte", "arakəʈə"],
+    ker: ["ku", "ku"],
+    ppl: ["ten", "ten"],
+    lld: ["bocia", "ˈbotʃa"],
+    atj: ["otoninan", "otoninan"],
+    tdh: ["सि", "si"],
+    zts: ["ru", "ɾu"],
+    mix: ["yuʼu", "juʔu"],
+    deg: ["enu", "enu"],
+    cho: ["iti", "iti"],
+    mus: ["cukwv", "tʃokwə"],
+    lkt: ["í", "í"],
+    huv: ["ombeay", "ombeaj"],
+    emp: ["ite", "ite"],
+    udi: ["жӏомо", "dʒomo"],
+    crn: ["teni", "teni"],
+    crx: ["ʼuẕe", "ʔuze"]
   }
 };

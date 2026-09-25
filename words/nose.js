@@ -1061,6 +1061,15 @@ WORDS.nose = {
     mzh: ["lenhus", "len̥us"],
     arp: ["béʼis", "béʔis"],
     meu: ["udu-baubau", "udubaubau"],
-    ygr: ["agota", "aɡota"]
+    ygr: ["agota", "aɡota"],
+    mh: ["bọti", "pʷɑtʲi"],
+    atj: ["okotinan", "okotinan"],
+    zts: ["zhi", "ʒi"],
+    mix: ["xichi", "ʃitʃi"],
+    deg: ["isuveny", "isuveɲ"],
+    huv: ["oxing", "oʃiŋ"],
+    shp: ["rekin", "ɾekin"],
+    crn: ["tzúʼuri", "ˈtsuʔuri"],
+    crx: ["ʼunintsis", "ʔunintsis"]
   },
 };

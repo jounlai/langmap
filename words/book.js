@@ -766,6 +766,23 @@ WORDS.book = {
     ygr: ["buku", "buku"],
     tok: ["lipu", "lipu"],
     vro: ["raamat", "rɑːmɑt"],
-    kmh: ["buk", "buk"]
+    kmh: ["buk", "buk"],
+    toj: ["juʼun", "huʔun"],
+    agu: ["liwr", "liwr"],
+    ker: ["kefter", "kefteɾ"],
+    ppl: ["amat", "amat"],
+    zts: ["liebr", "liebɾ"],
+    rmf: ["liin", "liːn"],
+    cho: ["holisso", "holisso"],
+    mus: ["nakcokv", "naktʃokə"],
+    lkt: ["wówapi", "wówapi"],
+    huv: ["nawiig", "nawiːɡ"],
+    shp: ["kirika", "kiɾika"],
+    chf: ["jun", "hun"],
+    djk: ["buku", "buku"],
+    emp: ["karta", "kaɾta"],
+    chk: ["puk", "puk"],
+    udi: ["гирк", "ɡirk"],
+    crn: ["liibru", "ˈliːbɾu"]
   }
 };

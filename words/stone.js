@@ -1047,6 +1047,18 @@ WORDS.stone = {
     fai: ["tum", "tum"],
     yan: ["kipala", "kipala"],
     ygr: ["yavana", "javana"],
-    kmh: ["kab", "kab"]
+    kmh: ["kab", "kab"],
+    agu: ["kʼubʼ", "kʼuɓ"],
+    esu: ["teggalquq", "təxalquq"],
+    ker: ["pərki", "pəɾki"],
+    zts: ["gyia", "ɡʲia"],
+    deg: ["ohin", "ohin"],
+    huv: ["piedra", "pʲedɾa"],
+    shp: ["makan", "makan"],
+    chf: ["jiʼtun", "hiʔtun"],
+    emp: ["mõgara", "mõɡaɾa"],
+    udi: ["жӏеъ", "dʒeˤ"],
+    crn: ["teté", "teˈte"],
+    crx: ["t̲s̲e", "tse"]
   },
 };

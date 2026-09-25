@@ -739,6 +739,22 @@ WORDS.sea = {
     kca: ["щарәс", "ɕarəs"],
     sbp: ["bahali", "bahali"],
     yan: ["kuma", "kuma"],
-    vro: ["meri", "meri"]
+    vro: ["meri", "meri"],
+    agu: ["pitzʼpuj aʼ", "pitsʼpuh aʔ"],
+    atj: ["kitcikami", "kitʃikami"],
+    pyu: ["lrevek", "ɭəvək"],
+    zts: ["nyisdo", "ɲisdo"],
+    cho: ["okhata", "okhata"],
+    mus: ["uehvtkv", "oihatkə"],
+    huv: ["ndek", "ndek"],
+    shp: ["aniparo", "anipaɾo"],
+    chf: ["nab", "nab"],
+    djk: ["ze", "ze"],
+    emp: ["pusa", "pusa"],
+    gv: ["faarkey", "ˈfaːrkʲə"],
+    koi: ["саридз", "ˈsaridʑ"],
+    udi: ["даьниз", "dæniz"],
+    crn: ["muájete", "mwaˈhete"],
+    crx: ["yatoo", "jatoː"]
   }
 };

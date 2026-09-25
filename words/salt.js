@@ -1173,6 +1173,11 @@ WORDS.salt = {
     xkz: ["tsha", "tsʰa"],
     bbo: ["ɲiŋ", "ɲiŋ"],
     wba: ["bamu", "bamu"],
-    ygr: ["hage", "haɡe"]
+    ygr: ["hage", "haɡe"],
+    ker: ["manta", "manta"],
+    tdh: ["यो", "jo"],
+    zts: ["zeidy", "zeidj"],
+    mix: ["iín", "ĩĩ́"],
+    rmf: ["loon", "loːn"]
   },
 };

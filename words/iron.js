@@ -969,6 +969,22 @@ WORDS.iron = {
     wbp: ["yayini", "jajini"],
     yan: ["ayan", "ajan"],
     ygr: ["aeni", "aeni"],
-    kmh: ["ayn", "ajn"]
+    kmh: ["ayn", "ajn"],
+    toj: ["takʼin", "takʼin"],
+    agu: ["chʼichʼ", "tʃʼitʃʼ"],
+    pbb: ["çam", "çam"],
+    esu: ["cavik", "tʃavik"],
+    atj: ["piwapiskw", "piwapiskʷ"],
+    zts: ["gyieb", "ɡʲieb"],
+    rmf: ["saster", "saster"],
+    lkt: ["máza", "máza"],
+    huv: ["manchiük", "mantʃiɨk"],
+    shp: ["yami", "jami"],
+    chf: ["palib", "palib"],
+    djk: ["insii", "insiː"],
+    emp: ["jiorro", "hioro"],
+    iu: ["ᓴᕕᕋᔭᒃ", "saviʁajak"],
+    udi: ["даьмир", "dæmir"],
+    crn: ["tepuústiʼi", "tepuːstiʔi"]
   },
 };

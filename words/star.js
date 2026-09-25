@@ -816,7 +816,7 @@ WORDS.star = {
       bpy: ["তারা", "taɾa"],
       new: ["नगु", "nəɡu"],
       lif: ["ᤂᤧᤛᤧᤔᤡᤰ", "kʰɛsɛmik"],
-      tdh: ["सोर्लुग", "sorluɡ"],
+      tdh: ["सोर्लुङ", "sorluŋ"],
       brx: ["हाथोरखि", "hatʰorkʰi"],
       adi: ["takar", "takar"],
       nag: ["tara", "taɾa"],

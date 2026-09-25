@@ -1012,6 +1012,16 @@ WORDS.egg = {
     cng: ["wəs", "wəs"],
     ygr: ["amuna", "amuna"],
     bnn: ["lububunun", "lububunun"],
-    sbp: ["ilikhankha", "ilixanxa"]
+    sbp: ["ilikhankha", "ilixanxa"],
+    agu: ["kʼolobʼ", "kʼoloɓ"],
+    pbb: ["ziç", "tsiç"],
+    ker: ["kiciki", "kitʃiki"],
+    ppl: ["teksisti", "teksisti"],
+    mix: ["ndivi", "ndivi"],
+    cho: ["akankushi", "akankoʃi"],
+    huv: ["omb kit", "omb kit"],
+    chf: ["säktokʼ", "sɨktokʼ"],
+    crn: ["taʼu", "taʔu"],
+    crx: ["ʼughez", "ʔuɣez"]
   },
 };

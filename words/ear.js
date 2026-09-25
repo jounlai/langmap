@@ -1118,6 +1118,10 @@ WORDS.ear = {
     mzh: ["lechʼote", "letʃʼote"],
     arp: ["wónotónoʼ", "wónotónoʔ"],
     bzd: ["kukuö̀", "kukuø"],
-    yan: ["tapan", "tapan"]
+    yan: ["tapan", "tapan"],
+    ker: ["koso", "koso"],
+    atj: ["otokainan", "otokainan"],
+    huv: ["olaag", "olaːɡ"],
+    crx: ["ʼudzo", "ʔudzo"]
   },
 };

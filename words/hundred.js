@@ -998,6 +998,17 @@ WORDS.hundred = {
     ygr: ["hateleti", "hateleti"],
     tok: ["ale", "ale"],
     jbo: ["panono", "paˈnono"],
-    ko_jeju: ["벡", "pek̚"]
+    ko_jeju: ["벡", "pek̚"],
+    mh: ["jibukwi", "tʲibukʷi"],
+    pon: ["epwiki", "epʷiki"],
+    toj: ["joʼ winkeʼ", "hoʔ winkeʔ"],
+    cr: ["ᒥᑖᑕᐦᑐᒥᑕᓇᐤ", "mitaːtahtomitanaw"],
+    ppl: ["tzunti", "tsunti"],
+    lld: ["cënt", "tʃənt"],
+    atj: ["mitato mitana", "mitato mitana"],
+    zts: ["gaiyua", "ɡaijua"],
+    deg: ["itany isuwon", "itaɲ isuwon"],
+    huv: ["akoik miow", "akoik miow"],
+    djk: ["ondoo", "ondoː"]
   },
 };

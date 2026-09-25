@@ -753,7 +753,7 @@ WORDS.night = {
     bpy: ["রাতি", "rati"],
     new: ["चा", "tsaː"],
     lif: ["ᤛᤣᤴᤍᤡᤰ", "sɛndik"],
-    tdh: ["निन्था", "nintʰa"],
+    tdh: ["सिन्था", "sintʰa"],
     brx: ["हरसि", "harsi"],
     adi: ["yoman", "jomaŋ"],
     nag: ["rati", "rati"],

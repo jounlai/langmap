@@ -1057,6 +1057,11 @@ WORDS.daughter = {
     tcs: ["gel", "ɡel"],
     bbo: ["nɩmadala", "nɪmadala"],
     wba: ["ukatira", "ukatiɾa"],
-    sva: ["ჰასუ̂იშ", "haswiʃ"]
+    sva: ["ჰასუ̂იშ", "haswiʃ"],
+    rmf: ["čai", "tʃai"],
+    lkt: ["čhuŋwíŋtku", "tʃʰuŋwíŋtku"],
+    djk: ["umanpikin", "umanpikin"],
+    chk: ["nengin", "neŋin"],
+    crx: ["oot̲s̲eʼ", "oːtseʔ"]
   },
 };

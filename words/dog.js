@@ -816,7 +816,7 @@ WORDS.dog = {
     bpy: ["কুট্টা", "kuʈːaː"],
     new: ["खिचा", "kʰitʃa"],
     lif: ["ᤁᤣᤳᤇᤡ", "keptʃi"],
-    tdh: ["ख्ली", "kʰliː"],
+    tdh: ["ख्लेअ", "kʰlea"],
     brx: ["सैमा", "sɨima"],
     adi: ["eki", "eki"],
     nag: ["kukur", "kukuɾ"],

@@ -1029,6 +1029,12 @@ WORDS.wind = {
     yan: ["wing", "wiŋ"],
     ygr: ["yasi", "jasi"],
     sva: ["ბიქუ̂", "bikʰw"],
-    kmh: ["ygen", "jɨɡen"]
+    kmh: ["ygen", "jɨɡen"],
+    agu: ["kyeqʼeqʼ", "kjeqʼeqʼ"],
+    aer: ["rlke", "ɭkə"],
+    ker: ["kaŋkaw", "kaŋkaw"],
+    huv: ["iünd", "iɨnd"],
+    crn: ["eeca", "eːka"],
+    crx: ["nilhtsʼi", "niɬtsʼi"]
   },
 };

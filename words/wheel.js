@@ -852,6 +852,11 @@ WORDS.wheel = {
     bdq: ["tang-wang", "taːŋ waːŋ"],
     lhu: ["gaˉ yaw", "ɡa jɔ"],
     sip: ["འཁོར་ལོ", "kʰorlo"],
-    bbo: ["pinii", "piniː"]
+    bbo: ["pinii", "piniː"],
+    toj: ["rweda", "rweda"],
+    esu: ["akalria", "akaɬʁia"],
+    atj: ["toro", "toɾo"],
+    zts: ["rrued", "rued"],
+    crx: ["nunúlgaih-i", "nunulɡaihi"]
   },
 };

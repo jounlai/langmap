@@ -1037,6 +1037,11 @@ WORDS.rain = {
     hot: ["ôthôm", "ɔtʰɔm"],
     emi: ["vaoo", "vaoo"],
     fai: ["weiw", "weiw"],
-    sbp: ["inoonya", "inoːɲa"]
+    sbp: ["inoonya", "inoːɲa"],
+    ker: ["ko", "ko"],
+    zts: ["nyisgyia", "ɲisɡʲia"],
+    deg: ["ọkpar", "ɔkpaɾ"],
+    huv: ["ijchiür", "ihtʃiɨɾ"],
+    crn: ["biite", "biːte"]
   },
 };

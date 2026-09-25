@@ -898,6 +898,8 @@ WORDS.snow = {
     ngu: ["nieve", "ˈnjebe"],
     kfx: ["हिंऊँ", "hĩũ"],
     ixl: ["txuncheʼv", "tʃuntʃeʔv"],
-    jvn: ["salju", "saldʒu"]
+    jvn: ["salju", "saldʒu"],
+    mh: ["jiṇo", "tʲinˠo"],
+    chk: ["sno", "sno"]
   },
 };

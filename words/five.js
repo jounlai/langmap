@@ -1138,6 +1138,13 @@ WORDS.five = {
     bzd: ["ske̱l", "skẽl"],
     hot: ["baheŋvi", "baheŋvi"],
     yan: ["singka", "siŋka"],
-    sva: ["უ̂ოხუ̂იშდ", "woxwiʃd"]
+    sva: ["უ̂ოხუ̂იშდ", "woxwiʃd"],
+    atj: ["niaran", "niaɾan"],
+    zts: ["gai", "ɡai"],
+    huv: ["akokiaw", "akokʲaw"],
+    chf: ["joʼ", "hoʔ"],
+    emp: ["juesuma", "huesuma"],
+    crn: ["ansɨbi", "ansɨbi"],
+    crx: ["kwulaiʼ", "kʷulaiʔ"]
   },
 };

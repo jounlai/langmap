@@ -974,6 +974,14 @@ WORDS.milk = {
     sbp: ["utupyo", "utupjo"],
     yan: ["tāwas", "taːwas"],
     ygr: ["duna", "duna"],
-    kmh: ["ti mk", "ti muk"]
+    kmh: ["ti mk", "ti muk"],
+    toj: ["lech", "letʃ"],
+    cr: ["ᑐᐦᑑᓵᐳᕀ", "tohtoːsaːpoj"],
+    niu: ["huhu", "huhu"],
+    pyu: ["susu", "susu"],
+    mix: ["xikui", "ʃikʷi"],
+    rmf: ["thund", "tʰund"],
+    cho: ["pishukchi", "piʃoktʃi"],
+    mus: ["pesse", "pissi"]
   },
 };

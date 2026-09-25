@@ -906,6 +906,22 @@ WORDS.new = {
     jbo: ["cnino", "ˈʃnino"],
     vro: ["vahtsõnõ", "vɑhtsɤnɤ"],
     sva: ["მახე", "maxe"],
-    kmh: ["ksen", "ksen"]
+    kmh: ["ksen", "ksen"],
+    toj: ["yajkʼachil", "jahkʼatʃil"],
+    agu: ["akʼaj", "aːkʼah"],
+    aer: ["lyetenye", "ʎətəɲə"],
+    esu: ["nutaraq", "nutaraq"],
+    cr: ["ᐅᐢᑳᔨ", "oskaːji"],
+    atj: ["ocki", "oʃki"],
+    zts: ["ncweby", "nkwebj"],
+    mix: ["tsaa", "tsaː"],
+    deg: ["ọfany", "ɔfaɲ"],
+    cho: ["himona", "himona"],
+    mus: ["mucvse", "motʃəsi"],
+    huv: ["jayats", "hajats"],
+    chf: ["tzijib", "tsihib"],
+    djk: ["nyun", "ɲun"],
+    iu: ["ᓄᑖᖅ", "nutaːq"],
+    crn: ["jéjcua", "ˈhehkwa"]
   },
 };

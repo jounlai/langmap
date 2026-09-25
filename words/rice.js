@@ -578,6 +578,22 @@ WORDS.rice = {
     hsb: ["rajs", "rajs"],
     vro: ["riis", "riːs"],
     mrj: ["рис", "ris"],
-    kmh: ["lays", "lajs"]
+    kmh: ["lays", "lajs"],
+    toj: ["ʼaros", "ʔaros"],
+    pbb: ["luus", "luːs"],
+    esu: ["kelupʼaaq", "kəlupʔaːq"],
+    cr: ["ᐚᐸᔫᒥᐣ", "waːpajoːmin"],
+    en_ck: ["rice", "ɹaɪs"],
+    vep: ["ris", "ris"],
+    lld: ["riji", "ˈriʒi"],
+    atj: ["miromin", "miɾomin"],
+    tdh: ["सोर", "sor"],
+    zts: ["rros", "ros"],
+    rmf: ["riisa", "riːsa"],
+    tkr: ["биринз", "birinz"],
+    cho: ["onush lakchi", "onoʃ laktʃi"],
+    mus: ["aloso", "aloso"],
+    lkt: ["psíŋ", "psíŋ"],
+    shp: ["aros", "aɾos"]
   }
 };

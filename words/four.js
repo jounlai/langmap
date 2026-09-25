@@ -1134,6 +1134,13 @@ WORDS.four = {
     bbo: ["nɩan", "nɪan"],
     hot: ["ayova", "ajova"],
     yan: ["arungka", "aɾuŋka"],
-    sva: ["უ̂ოშთხუ̂", "woʃtʰxw"]
+    sva: ["უ̂ოშთხუ̂", "woʃtʰxw"],
+    agu: ["kyaj", "kjah"],
+    aer: ["atherramatherre", "at̪əramat̪ərə"],
+    cr: ["ᓀᐓ", "neːwo"],
+    huv: ["apikiw", "apikiw"],
+    shp: ["chosko", "tʃosko"],
+    crn: ["muaacua", "mwaːkwa"],
+    crx: ["dunghi", "dunɣi"]
   },
 };

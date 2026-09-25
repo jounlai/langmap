@@ -1684,7 +1684,7 @@ WORDS.foot = {
     kfx: ["पैर", "peːɾ"],  // The 2008 Himachal survey fills the two slots with two words — पैर for the foot, जांग for the leg — and Kogan's Kullui list gives पैर too. Grierson heard जंघा in the foot slot in 1916, and the same survey's grammar sketch still glosses जांग both ways, so the split is young.
     kfy: ["खुट", "kʰuʈ"],  // खुट covers foot and leg alike, as Nepali खुट्टो does. IPA is the plain reading of the orthography, following how this row's own earth cell writes माटो as maːʈo.
     kg: ["kulu", "kulu"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes koko as koko.
-    kgg: ["yang", "jɑŋ"],  // The Rosetta Project Kusunda list answers both foot and leg with yaŋ, and Proto-Kusunda *i-aŋ is reconstructed ‘foot, leg’ as one entry.
+    kgg: ["yen", "jen"],  // The Rosetta Project Kusunda list answers both foot and leg with yaŋ, and Proto-Kusunda *i-aŋ is reconstructed ‘foot, leg’ as one entry.
     kgp: ["pẽn", "pɛ̃n"],  // IDS and the NT agree: Kaingang pẽn is the foot and fa is the leg, broken at John 19:32.
     kha: ["ka kjat", "ka kdʒat"],  // Nissor Singh p.42 reads 'Kjat, ka, n. a foot, a leg.', and the 1871 New Testament washes kyjat at Luke 7:38 and breaks kyjat at John 19:31; shyieng is the bone. The article follows this row's ka kti.
     khb: ["ᦎᦲᧃ", "tiːn˧"],  // The Tai tin/kha split again: ᦎᦲᧃ against ᦃᦱ, both with the HIGH series this row uses for ต in ᦎᦱ 'eye' and ข in ᦃᦱᧁ 'white', and unmarked for tone as the class requires.
@@ -2107,7 +2107,7 @@ WORDS.foot = {
     sq: ["këmbë", "kəmbə"],  // Albanian këmbë is one word for the whole lower limb.
     sr: ["нога", "ˈnoɡa"],  // As Croatian: нога covers the lower limb, стопало is the anatomical foot.
     srb: ["jeng", "dʒeŋ"],  // Ramamurti glosses ʤeːŋ-ən 'leg, foot' in one entry and builds toe, sole, heel, ankle and knee on it; ayang is the bone. Length is dropped as this row already dropped it from his si:-n.
-    srh: ["ped", "ped"],  // Shaw's Ghalchah vocabulary glosses the one word 'leg, foot' and answers the leg slots beside it with Persian lang and paichah, as Wakhi пуд does. The vowel is the row's plain e: Shaw writes ⟨ii⟩ for /ɵ/ in dhiist and riisht and ⟨e⟩ here.
+    srh: ["pedh", "peð"],  // Shaw's Ghalchah vocabulary glosses the one word 'leg, foot' and answers the leg slots beside it with Persian lang and paichah, as Wakhi пуд does. The vowel is the row's plain e: Shaw writes ⟨ii⟩ for /ɵ/ in dhiist and riisht and ⟨e⟩ here.
     srm: ["fútu", "fútu"],  // The English-derived foot covers the whole limb — the mirror image of Tok Pisin's lek.
     srn: ["futu", "futu"],  // Class inferred from Saramaccan. IPA is the plain reading of the orthography, following how this row's own hand cell writes anu as anu.
     srr: ["caf", "tʃaf"],  // Seereer caf is the whole limb — the Serer Bible washes a caf and breaks a caf — and Pozdniakov's Proto-Fula–Sereer gives caf al 'pied'.

@@ -1025,6 +1025,12 @@ WORDS.stone = {
     rwk: ["iwe", "iwe"],
     ab: ["ахаҳә", "axaħʷ"],
     tab: ["гъван", "ʁvan"],
-    hui: ["ege to̱le̱", "eɡe tɔlɛ"]
+    hui: ["ege to̱le̱", "eɡe tɔlɛ"],
+    ixl: ["kʼubʼ", "kʼuɓ"],
+    ja_mvi: ["石", "isɿ"],
+    nlc: ["kirik", "kirik"],
+    sad: ["diin", "diːn"],
+    mpt: ["tom", "tom"],
+    smj: ["giergge", "kierɡːe"]
   },
 };

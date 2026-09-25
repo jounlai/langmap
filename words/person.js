@@ -758,6 +758,20 @@ WORDS.person = {
     tab: ["инсан", "insan"],
     kfx: ["मांहणु", "mãːɦɳuː"],
     hns: ["manai", "mənai"],
-    myv: ["ломань", "ˈlomanʲ"]
+    myv: ["ломань", "ˈlomanʲ"],
+    nrf: ["pèrsonne", "pɛrsɔn"],
+    tru: ["ܢܫܐ", "noʃo"],
+    ixl: ["uxhchil", "uʃtʃil"],
+    oj: ["anishinaabe", "aniʃinaːbe"],
+    tay: ["squliq", "squliq"],
+    evn: ["бэе", "bəje"],
+    sjo: ["ᠨᡳᠶᠠᠯᠮᠠ", "nijalma"],
+    ruq: ["uom", "wom"],
+    ja_mvi: ["人", "pɨtu"],
+    sad: ["ǀnomese", "ǀⁿomese"],
+    poh: ["kʼachareel", "kʼatʃareːl"],
+    apw: ["nnee", "nːeː"],
+    smj: ["ulmusj", "ulmuʃ"],
+    ers: ["su", "su˥˥"]
   }
 };

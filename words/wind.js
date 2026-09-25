@@ -1009,6 +1009,13 @@ WORDS.wind = {
     gym: ["müre", "mɨɾe"],
     lzz: ["იხი", "ixi"],
     kfx: ["ब्यान", "bjaːn"],
-    hui: ["puyabu", "pujabu"]
+    hui: ["puyabu", "pujabu"],
+    tru: ["ܗܘܐ", "hawa"],
+    ixl: ["kajiqʼ", "kahiqʼ"],
+    usp: ["tew", "tew"],
+    poh: ["teew", "teːw"],
+    bzh: ["sanġ", "saŋ"],
+    mpt: ["glol", "ɡlol"],
+    ers: ["mɛəʴ", "mɛ˥˥əʴ˥˥"]
   },
 };

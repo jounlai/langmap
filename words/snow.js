@@ -896,6 +896,7 @@ WORDS.snow = {
     ja_oki: ["雪", "jutɕi"],
     ty: ["hiona", "hiona"],
     ngu: ["nieve", "ˈnjebe"],
-    kfx: ["हिंऊँ", "hĩũ"]
+    kfx: ["हिंऊँ", "hĩũ"],
+    ixl: ["txuncheʼv", "tʃuntʃeʔv"]
   },
 };

@@ -1019,6 +1019,9 @@ WORDS.rain = {
     rwk: ["fua", "fua"],
     kfx: ["गाश", "ɡaːʃ"],
     hns: ["barkha", "bərkʰaː"],
-    hui: ["ta", "ta"]
+    hui: ["ta", "ta"],
+    mic: ["kikpesan", "ɡikpesan"],
+    bzh: ["hob", "hob"],
+    yai: ["boron", "boˈron"]
   },
 };

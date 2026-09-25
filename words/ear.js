@@ -1106,6 +1106,11 @@ WORDS.ear = {
     bru: ["cutũr", "kutur"],
     rwk: ["kuri", "kuɾi"],
     iso: ["ozọ", "ozɔ"],
-    tll: ["tui", "tui"]
+    tll: ["tui", "tui"],
+    ixl: ["xikin", "ʃikin"],
+    kmu: ["agesa", "aɡesa"],
+    sad: ["keke", "keke"],
+    mic: ["uksʼtuaqan", "uksəduaxan"],
+    ers: ["nɑku", "nɑ˥˥ku˥˥"]
   },
 };

@@ -1094,6 +1094,11 @@ WORDS.earth = {
     cnh: ["vawlei", "vawlei"],
     rwk: ["uteri", "uteɾi"],
     nmf: ["ngalei", "ŋalei"],
-    gym: ["dobo", "dobo"]
+    gym: ["dobo", "dobo"],
+    ixl: ["txʼavaʼ", "tʃʼaʋaʔ"],
+    kmu: ["mopa", "mopa"],
+    poh: ["akʼal", "akʼal"],
+    bzh: ["dob", "dob"],
+    mpt: ["dabal", "dabal"]
   },
 };

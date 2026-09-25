@@ -714,6 +714,25 @@ WORDS.book = {
     csb: ["knéga", "ˈkneɡa"],
     tab: ["китаб", "kitab"],
     kfx: ["कताब", "kətaːb"],
-    hui: ["mbuga", "mbuɡa"]
+    hui: ["mbuga", "mbuɡa"],
+    tru: ["ܟܬܒܐ", "kθowo"],
+    ixl: ["uʼuj", "uʔuχ"],
+    usp: ["wuj", "wux"],
+    kmu: ["avo", "avo"],
+    pjt: ["nyiri", "ɲiɻi"],
+    oj: ["mazinaʼigan", "mazinaʔiɡan"],
+    yrl: ["papera", "paˈpeɾa"],
+    sjo: ["ᠪᡳᡨᡥᡝ", "bitʰə"],
+    ja_mvi: ["書物", "sɿmukusɿ"],
+    toc: ["libro", "libro"],
+    poh: ["huuj", "huːh"],
+    cuk: ["garda", "ɡaɾda"],
+    mic: ["wiʼkatikn", "wiːɡadiɡən"],
+    jiv: ["papí", "paˈpi"],
+    mpt: ["buk", "buk"],
+    sip: ["དེབ", "dep"],
+    tkl: ["tuhi", "tuhi"],
+    smj: ["girjje", "kirjːe"],
+    ess: ["игаӄ", "iɡaq"]
   }
 };

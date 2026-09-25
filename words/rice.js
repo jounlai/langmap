@@ -549,6 +549,10 @@ WORDS.rice = {
     to: ["laise", "laise"],
     ho: ["raisi", "raisi"],
     lzz: ["ბრინჯი", "brindʒi"],
-    rue: ["рис", "rɪs"]
+    rue: ["рис", "rɪs"],
+    oj: ["waabi-manoomin", "waːbi manoːmin"],
+    tay: ["bwax", "bwax"],
+    sjo: ["ᠪᡝᠯᡝ", "bələ"],
+    tru: ["ܪܙܐ", "rezo"]
   }
 };

@@ -598,6 +598,19 @@ WORDS.butterfly = {
     csb: ["mòtil", "ˈmwɛtil"],
     frp: ["parpelyon", "parpəˈʎõ"],
     lzz: ["ფარფალი", "pʰarpʰali"],
-    pdc: ["Fleddermaus", "ˈflɛdərmaʊs"]
+    pdc: ["Fleddermaus", "ˈflɛdərmaʊs"],
+    ia: ["papilion", "papiliˈon"],
+    gd: ["dealan-dè", "tʲal̪ˠan tʲeː"],
+    nrf: ["papillote", "papijɔt"],
+    sjo: ["ᡤᡝᡶᡝᡥᡝ", "ɡəfəxə"],
+    sad: ["karapupu", "karapupu"],
+    poh: ["pehpem", "pehpem"],
+    fo: ["firvaldur", "ˈfɪɹvaldʊɹ"],
+    mic: ["mimikes", "mimikes"],
+    apw: ["doolé", "doːlé"],
+    alt: ["кӧбӧлӧк", "købøløk"],
+    mwl: ["paxarina", "paʃaˈɾinɐ"],
+    pau: ["bangikoi", "baŋiˈkoi"],
+    ers: ["nomɑkɑlɛ", "no˧˧mɑ˥˥kɑ˥˥lɛ˥˥"]
   },
 };

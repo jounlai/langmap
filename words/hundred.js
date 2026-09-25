@@ -974,6 +974,16 @@ WORDS.hundred = {
     lzz: ["ოში", "oʃi"],
     hns: ["sau", "səu"],
     hui: ["handari", "handari"],
-    tab: ["варж", "varʒ"]
+    tab: ["варж", "varʒ"],
+    nrf: ["chent", "ʃɑ̃"],
+    ixl: ["oʼkʼalal", "oʔkʼalal"],
+    oj: ["ingodwaak", "inɡodwaːk"],
+    yrl: ["papasawa", "papaˈsawa"],
+    poh: ["hoʼkʼahl", "hoʔkʼahl"],
+    mic: ["kaskʼptnnaqan", "ɡaskəptənːaxan"],
+    apw: ["gonenadín", "ɡonenadín"],
+    jiv: ["sian", "sian"],
+    srm: ["höndö", "hɔndɔ"],
+    ers: ["zɑ", "zɑ˥˥"]
   },
 };

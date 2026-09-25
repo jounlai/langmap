@@ -377,7 +377,7 @@ WORDS.sun = {
     tk: ["gün", "ɡyːn"],
     mn_cn: ["ᠨᠠᠷᠠ", "nɑrɑ"],
     mnc: ["ᡧᡠᠨ", "ʃun"],
-    sjo: ["ᠰᡠᠨ", "sun"],
+    sjo: ["ᡧᡠᠨ", "ʃun"],
     ar_eg: ["شمس", "ʃams"],
     ar_lev: ["شمس", "ʃams"],
     ar_gulf: ["شمس", "ʃams"],

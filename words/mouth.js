@@ -825,6 +825,27 @@ WORDS.mouth = {
     frp: ["boche", "ˈbotʃe"],
     tab: ["ушв", "uʃv"],
     kfx: ["मुँह", "mũh"],
-    hns: ["muh", "mũːh"]
+    hns: ["muh", "mũːh"],
+    kos: ["oalu", "oalu"],
+    tru: ["ܦܡܐ", "femo"],
+    ixl: ["tziʼ", "tsiʔ"],
+    usp: ["chiʼ", "tʃiʔ"],
+    kmu: ["avaya", "avaja"],
+    oj: ["odoon", "odoːn"],
+    evn: ["амӈа", "amŋa"],
+    gld: ["аӈма", "aŋma"],
+    sjo: ["ᠠᠩᡤᠠ", "aŋɡa"],
+    ruq: ["gură", "ˈɡurə"],
+    ja_mvi: ["口", "futsɨ"],
+    poh: ["chiʼhis", "tʃiʔhis"],
+    mic: ["uktun", "uktun"],
+    apw: ["bizéʼ", "bizéʔ"],
+    chr: ["ᎠᎰᎵ", "aholi"],
+    sip: ["ཁ", "kʰa"],
+    tkl: ["gutu", "ŋutu"],
+    mwl: ["boca", "ˈbokɐ"],
+    smj: ["njálmme", "ɲaːlmːe"],
+    ers: ["sɿnphɑ", "sɿ˥˥npʰɑ˥˥"],
+    ess: ["ӄагыӄ", "qaɡɨq"]
   }
 };

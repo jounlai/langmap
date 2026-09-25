@@ -1050,6 +1050,8 @@ WORDS.daughter = {
     mev: ["lú", "lú"],
     bdq: ["kon adruh", "kɔːn ʔadruh"],
     bru: ["con mansễm", "kɔn mənsem"],
-    lzz: ["ბოზომოთა", "bozomotʰa"]
+    lzz: ["ბოზომოთა", "bozomotʰa"],
+    sjo: ["ᠰᠠᡵᡤᠠᠨ ᠵᡠᡳ", "sarɢan dʒui"],
+    apw: ["shitsiʼ", "ʃitsiʔ"]
   },
 };

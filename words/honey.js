@@ -966,6 +966,11 @@ WORDS.honey = {
     ngu: ["necutli", "neˈkutɬi"],
     gym: ["munkö", "munkø"],
     lzz: ["თოფური", "tʰopʰuri"],
-    kfx: ["मखीर", "məkʰiːr"]
+    kfx: ["मखीर", "məkʰiːr"],
+    tru: ["ܕܒܫܐ", "dawʃo"],
+    oj: ["aamoo-ziinzibaakwad", "aːmoː ziːnzibaːkwad"],
+    apw: ["gosnih", "ɡosnih"],
+    jiv: ["chinij", "tʃinih"],
+    tkl: ["meli", "meli"]
   },
 };

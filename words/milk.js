@@ -961,6 +961,8 @@ WORDS.milk = {
     adi: ["anyun", "aɲun"],
     ngu: ["leche", "ˈletʃe"],
     cak: ["leche", "ˈletʃe"],
-    gym: ["kian", "kian"]
+    gym: ["kian", "kian"],
+    ixl: ["chʼuʼ", "tʃʼuʔ"],
+    sjo: ["ᠰᡠᠨ", "sun"]
   },
 };

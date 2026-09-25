@@ -360,6 +360,8 @@ WORDS.chocolate = {
     nhe: ["chocolatl", "tʃokoˈlatɬ"],
     zap: ["dxuladi", "dʒuladi"],
     rup: ["ciuculatã", "tʃukuˈlatə"],
-    kpv: ["шоколад", "ʃokoˈlad"]
+    kpv: ["шоколад", "ʃokoˈlad"],
+    ia: ["chocolate", "tʃokoˈlate"],
+    pau: ["tsiokkolet", "tsiokːolet"]
   }
 };

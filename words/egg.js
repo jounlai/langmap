@@ -989,6 +989,14 @@ WORDS.egg = {
     cnh: ["arti", "ʔarti"],
     rwk: ["ngosho", "ŋɡoʃo"],
     izz: ["ẹkwa", "ɛkwa"],
-    urh: ["ukẹn", "ukɛ̃"]
+    urh: ["ukẹn", "ukɛ̃"],
+    nrf: ["oeu", "ø"],
+    nlc: ["doug", "douɡ"],
+    sad: ["diʼa", "diʔa"],
+    toc: ["kálhwat", "káɬwat"],
+    poh: ["miloj", "miloh"],
+    apw: ["iyęęzh", "ijẽːʒ"],
+    jiv: ["nujint", "nuhint"],
+    yai: ["taxm", "taxm"]
   },
 };

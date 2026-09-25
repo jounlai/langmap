@@ -631,6 +631,14 @@ WORDS.poop = {
     co: ["caca", "ˈkaka"],
     hui: ["time", "time"],
     pdc: ["Mischt", "mɪʃt"],
-    mhr: ["шур", "ʃur"]
+    mhr: ["шур", "ʃur"],
+    oj: ["moow", "moːw"],
+    sjo: ["ᡥᠠᠮᡠ", "xamu"],
+    poh: ["saaʼ", "saːʔ"],
+    cuk: ["saa", "saː"],
+    mic: ["miʼjan", "miːdʒan"],
+    apw: ["bichan", "bitʃʰan"],
+    alt: ["бок", "bok"],
+    sip: ["སྐྱག་ཀོ", "kʲakko"]
   },
 };

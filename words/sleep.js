@@ -1012,6 +1012,13 @@ WORDS.sleep = {
     iru: ["rongu", "roŋɡu"],
     saq: ["airura", "airura"],
     bru: ["bếq", "ɓeʔ"],
-    gym: ["kibien", "kibien"]
+    gym: ["kibien", "kibien"],
+    sad: ["ǁʼo", "ǁʔo"],
+    toc: ["lhtata", "ɬtata"],
+    cuk: ["gabe", "ɡabe"],
+    mic: ["nepat", "nebat"],
+    apw: ["iłhosh", "iɬhoʃ"],
+    chr: ["ᎦᎵᎭ", "ɡaliha"],
+    yai: ["ufs", "ufs"]
   },
 };

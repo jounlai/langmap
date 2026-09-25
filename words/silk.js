@@ -492,6 +492,13 @@ WORDS.silk = {
     kpv: ["шӧвк", "ʃɵvk"],
     myv: ["парсей", "parsej"],
     bi: ["silik", "silik"],
-    pis: ["silk", "silk"]
+    pis: ["silk", "silk"],
+    nrf: ["souaie", "swɛ"],
+    tru: ["ܫܐܪܐ", "ʃiro"],
+    oj: ["zenibaawegin", "zenibaːweɡin"],
+    sjo: ["ᠰᡳᡵᡤᡝ", "ɕirɡə"],
+    smj: ["silkki", "silkːi"],
+    tkl: ["hilika", "hilika"],
+    crs: ["laswa", "laswa"]
   }
 };

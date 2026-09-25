@@ -850,6 +850,7 @@ WORDS.wheel = {
     zap: ["rueeda", "ɾweːda"],
     cnh: ["kekual", "kekual"],
     bdq: ["tang-wang", "taːŋ waːŋ"],
-    lhu: ["gaˉ yaw", "ɡa jɔ"]
+    lhu: ["gaˉ yaw", "ɡa jɔ"],
+    sip: ["འཁོར་ལོ", "kʰorlo"]
   },
 };

@@ -1125,6 +1125,10 @@ WORDS.four = {
     mtq: ["pổn", "pon"],
     ngl: ["xexe", "ʃeʃe"],
     khb: ["ᦉᦲᧈ", "siː˧˥"],
-    kqn: ["bana", "bana"]
+    kqn: ["bana", "bana"],
+    kmu: ["foʼa", "foʔa"],
+    bzh: ["lubeluu", "lubeluː"],
+    ers: ["ʐo", "ʐo˧˧"],
+    ess: ["ыстамат", "ɨstamat"]
   },
 };

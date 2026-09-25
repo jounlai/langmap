@@ -1167,6 +1167,7 @@ WORDS.salt = {
     rwk: ["munyu", "muɲu"],
     iso: ["uwhei", "uʍei"],
     adi: ["alo", "alo"],
-    kfx: ["लूण", "luːɳ"]
+    kfx: ["लूण", "luːɳ"],
+    sjo: ["ᡩᠠᠪᠰᡠᠨ", "dabsun"]
   },
 };

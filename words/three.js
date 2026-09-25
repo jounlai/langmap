@@ -480,7 +480,7 @@ WORDS.three = {
     ho: ["toi", "toi"],
     kmh: ["omŋal nokom", "omŋal nokom"],
     nej: ["tabe", "tabe"],
-    kmu: ["kagayaʼa", "kaɡajaʔa"],
+    kmu: ["tagufa", "taɡufa"],
     emi: ["katolu", "katolu"],
     hot: ["lu", "lu"],
     fai: ["fikin", "fikin"],

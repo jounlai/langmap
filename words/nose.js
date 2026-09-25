@@ -1050,6 +1050,9 @@ WORDS.nose = {
     mdr: ["pudzung", "puðuŋ"],
     jmc: ["mmbwa", "mːbwa"],
     iso: ["unwe", "unwe"],
-    ho: ["udubaubauna", "udubaubauna"]
+    ho: ["udubaubauna", "udubaubauna"],
+    mic: ["uksisqon", "uksisxon"],
+    apw: ["bichį́h", "bitʃĩ́h"],
+    ers: ["sɿnbu", "sɿ˥˥nbu˥˥"]
   },
 };

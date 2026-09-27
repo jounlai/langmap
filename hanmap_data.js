@@ -25310,6 +25310,12 @@ const HAN_VARIANTS = {
         "surface": "me",
         "ipa": "me",
         "label": "呉音 / Go-on"
+      },
+      {
+        "native": "マ",
+        "surface": "ma",
+        "ipa": "ma",
+        "label": "唐音 / Tō-on"
       }
     ],
     "nan_pn": [

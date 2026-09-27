@@ -28242,6 +28242,12 @@ const HAN_VARIANTS = {
         "surface": "sai",
         "ipa": "sai",
         "label": "呉音 / Go-on"
+      },
+      {
+        "native": "スイ",
+        "surface": "sui",
+        "ipa": "sɯi",
+        "label": "唐音 / Tō-on"
       }
     ],
     "nan_my": [

@@ -231,6 +231,13 @@ s = run('tone_digit_map_check.js --check');
 line('tone-digit map per row', num(s, /violations: (\d+)/),
     (s.match(/debt: (\d+)/) || [])[1] ? ((s.match(/debt: (\d+)/))[1] + ' unsettled') : '');
 
+// That guard catches a row that contradicts ITSELF. A row written from a tone
+// table that is simply wrong is perfectly self-consistent, so it has to be
+// checked against the published table instead — see the guard's own header,
+// and the za row it was written for.
+s = run('tone_letter_map_check.js');
+line('tone letter matches its standard', num(s, /wrong: (\d+)/));
+
 s = run('chao_repeat_check.js --check');
 line('no repeated Chao level', num(s, /violations: (\d+)/));
 

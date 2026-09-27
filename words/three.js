@@ -333,7 +333,13 @@ WORDS.three = {
     th_isan: ["สาม", "saːm˩˧"],
     th_n: ["สาม", "saːm˨˦"],
     th_s: ["สาม", "saːm˩˧"],
-    za: ["sam", "θaːm˨˦"],
+    za: {
+      form: "三",
+      ipa:  "θaːm˨˦",
+      alt: [
+        { form: "sam", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     mmd: ["sa:m1", "saːm˦˨"],
     mlm: ["ta:m1", "taːm˦˨"],
     swi: ["haam1", "haːm˩˩"],

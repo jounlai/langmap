@@ -331,7 +331,13 @@ WORDS.heart = {
     th_isan: ["ใจ", "tɕaj˥"],
     th_n: ["ใจ๋", "tɕaj˩˧"],
     th_s: ["ใจ", "tɕaj˥"],
-    za: ["sim", "θim˨˦"],
+    za: {
+      form: "心",
+      ipa:  "θim˨˦",
+      alt: [
+        { form: "sim", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     mmd: ["sam1", "sam˦˨"],
     mlm: ["—", "—"],
     swi: ["śum1", "ɕum˩˩"],

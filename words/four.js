@@ -958,7 +958,13 @@ WORDS.four = {
     ja_oki: ["ゆーち", "juːtɕi"],
     ko_jeju: ["늿", "nit̚"],
     soa: ["สี่", "siː˩"],
-    za: ["seiq", "θei˧˥"],
+    za: {
+      form: "四",
+      ipa:  "θei˧˥",
+      alt: [
+        { form: "seiq", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     mmd: ["si5", "si˦˦"],
     mlm: ["ti5", "ti˦˦"],
     swi: ["hi5", "hi˧˥"],

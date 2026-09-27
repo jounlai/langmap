@@ -742,7 +742,13 @@ WORDS.n99 = {
     ace: ["sikureueng ploh sikureueng", "sikuɾɯəŋ plɔh sikuɾɯəŋ"],
     mad: ["sangang polo sangaʼ", "saŋaŋ pɔlɔ saŋaʔ"],
     pcc: ["guc xib guc", "ku˥˧ ɕip˧˧ ku˥˧"],
-    za: ["gouj cib gouj", "kou˥ ɕip˧ kou˥"],
+    za: {
+      form: "九十九",
+      ipa:  "kou˥ ɕip̚˧ kou˥",
+      alt: [
+        { form: "gouj cib gouj", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     tyz: ["cẩu slíp cẩu", "kəw˨˩˧ ɬip˧˥ kəw˨˩˧"],
     th_s: ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
     th_isan: ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],

@@ -1204,7 +1204,14 @@ WORDS.bear = {
     qxs: ["ti", "ti"],
     ii: ["ꊈ", "ɣo˧˧"],
     nxq: ["ggvq", "ɡv̩˨˩"],
-    za: ["mui", "muːi˨˦"],
+    za: {
+      form: "𤞦",
+      ipa:  "muːi˨˦",
+      alt: [
+        { form: "mui", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𪻄", script: "Sawndip (古壮字)", source: "attested variant glyph beside the primary form 𤞦 — Sawndip was never standardised" },
+      ],
+    },
     khb: ["ᦖᦲ", "miː"],
     shn: ["မီ", "miː"],
     blt: ["ꪢꪲ", "miː˨˦"],

@@ -844,6 +844,6 @@ WORDS.horse = {
     mgo: ["ngyi", "ŋɡji"],
     dbq: ["pilis", "pilis"],
     vi_han: ["馬", "maː˧˧ˀ˥"],
-    vi_nom: ["𢵧", "ŋɨə˧˨ʔ"]
+    vi_nom: ["馭", "ŋɨə˧˨ʔ"]
   }
 };

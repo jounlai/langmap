@@ -86,6 +86,11 @@ line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/
 s = run('font_range_overreach_check.js');
 line('subset claims only rare glyphs', num(s, /overreaching: (\d+)/));
 
+// font_coverage_check audits wordmap.html only; the Han Map loads its own
+// subsets, and 中's 𡧲 giữa was tofu there with nothing to say so.
+s = run('hanmap_glyph_served_check.js');
+line('Han Map rare glyphs served', num(s, /unserved: (\d+)/));
+
 s = run('korean_hist_font_check.js');
 line('Old Hangul font coverage', num(s, /problems: (\d+)/));
 

@@ -80,6 +80,12 @@ line('changelog contributors listed', num(s, /missing: (\d+)/));
 s = run('font_coverage_check.js');
 line('webfont coverage (astral scripts)', num(s, /scripts without a font: (\d+)/));
 
+// The opposite failure, and the quieter one: a subset that claims a character
+// device fonts already have. It sits ahead of Noto Serif, so it wins, and one
+// character silently changes typeface. The owner spotted 猫 doing it.
+s = run('font_range_overreach_check.js');
+line('subset claims only rare glyphs', num(s, /overreaching: (\d+)/));
+
 s = run('korean_hist_font_check.js');
 line('Old Hangul font coverage', num(s, /problems: (\d+)/));
 

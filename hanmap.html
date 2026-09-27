@@ -105,8 +105,8 @@
             unicode-range:
                 
                 
-                U+3575, U+35C2, U+3E65, U+5352, U+5400, U+5632,
-                U+6069, U+611F, U+6E03, U+732B, U+8339, U+20027,
+                
+                U+3575, U+35C2, U+3E65, U+5400, U+6E03, U+20027,
                 U+20129, U+2028E, U+2029B, U+20B20, U+20E1C, U+21419,
                 U+215B5, U+215F6, U+21795, U+21914, U+21A38, U+21B36,
                 U+21CDB, U+22051, U+22782, U+22785, U+232C0, U+23603,
@@ -140,7 +140,13 @@
            picks up the existing font chains. Three of the primary Sawndip
            forms are not in BabelStone Han either — 心 sim 𦙦 is dropped for
            that reason, and 火 feiz and 血 lwed take their next attested
-           variant instead. */
+           variant instead.
+           The range holds ONLY codepoints a device font is unlikely to have.
+           It briefly also claimed the 69 ordinary characters some Sawndip
+           forms use (一 九 五 六 日 月 火 馬 名 字 …) because they were
+           collected with the rest; this family sits ahead of Noto Serif in
+           every chain, so those characters silently changed typeface across
+           both maps. Never add a U+4E00–U+9FFF codepoint here. */
         @font-face {
             font-family: 'Nom Serif Subset';
             font-style: normal;
@@ -149,35 +155,24 @@
             src: url('fonts/BabelStoneHan-Sawndip-subset.woff2') format('woff2');
             unicode-range:
                 U+3564, U+3576, U+3592, U+3B51, U+449F, U+44B5,
-                U+47D3, U+485C, U+488F, U+4B7E, U+4C3E, U+4E00,
-                U+4E01, U+4E5D, U+4E91, U+4E94, U+4EC6, U+4EE4,
-                U+4F1D, U+4F48, U+4F72, U+4FA9, U+4FEA, U+516D,
-                U+5170, U+521D, U+52A9, U+535C, U+53CC, U+540D,
-                U+540E, U+541D, U+5464, U+549F, U+5543, U+5549,
-                U+5568, U+579A, U+5893, U+58AA, U+5B57, U+5DFE,
-                U+6208, U+6276, U+6307, U+65E5, U+66AE, U+6708,
-                U+677E, U+6797, U+67EB, U+680F, U+6B62, U+6C6D,
-                U+6C7E, U+6CBD, U+6D2B, U+6D57, U+6DCB, U+6DF0,
-                U+706B, U+70A9, U+711B, U+7341, U+7693, U+76DF,
-                U+7720, U+781B, U+7CC7, U+804F, U+82D2, U+840C,
-                U+96D9, U+96F0, U+9758, U+99AC, U+9A6C, U+9D66,
-                U+9ED4, U+9EEF, U+20BB9, U+20BFF, U+2139C, U+215F6,
-                U+21C4D, U+225E8, U+227CB, U+2283F, U+233E5, U+23509,
-                U+23C99, U+23F37, U+24622, U+25142, U+2546E, U+26355,
-                U+2968D, U+29D52, U+29ED0, U+2A498, U+2A4A4, U+2A751,
-                U+2AC1F, U+2AE19, U+2B1D6, U+2B1EF, U+2B8C6, U+2BA52,
-                U+2BB69, U+2BC46, U+2C32B, U+2C344, U+2C49E, U+2C599,
-                U+2C5A6, U+2C6BB, U+2CB9F, U+2CC17, U+2CD12, U+2CECA,
-                U+2CEDA, U+2CEE4, U+2CF23, U+2CF36, U+2D016, U+2D06E,
-                U+2D0A5, U+2D19B, U+2D1B8, U+2D446, U+2D4D6, U+2D4D9,
-                U+2D4E8, U+2D6CE, U+2D72F, U+2D75A, U+2D88A, U+2D953,
-                U+2DA21, U+2DA2A, U+2DA7C, U+2DC3D, U+2DD00, U+2DDD0,
-                U+2DDD1, U+2DF51, U+2DFAE, U+2E021, U+2E13E, U+2E4E7,
-                U+2E54A, U+2E560, U+2E703, U+2E744, U+2E92C, U+2E987,
-                U+2E988, U+2E9C3, U+2EA2D, U+2EAB0, U+2EAB3, U+2EAFB,
-                U+2EB2D, U+302A3, U+30317, U+305C2, U+30780, U+30823,
-                U+30918, U+309C4, U+30CE2, U+30CE8, U+30D11, U+31063,
-                U+31173, U+311A6, U+31314, U+31D24, U+3200F;
+                U+47D3, U+485C, U+488F, U+4B7E, U+4C3E, U+20BB9,
+                U+20BFF, U+2139C, U+215F6, U+21C4D, U+225E8, U+227CB,
+                U+2283F, U+233E5, U+23509, U+23C99, U+23F37, U+24622,
+                U+25142, U+2546E, U+26355, U+2968D, U+29D52, U+29ED0,
+                U+2A498, U+2A4A4, U+2A751, U+2AC1F, U+2AE19, U+2B1D6,
+                U+2B1EF, U+2B8C6, U+2BA52, U+2BB69, U+2BC46, U+2C32B,
+                U+2C344, U+2C49E, U+2C599, U+2C5A6, U+2C6BB, U+2CB9F,
+                U+2CC17, U+2CD12, U+2CECA, U+2CEDA, U+2CEE4, U+2CF23,
+                U+2CF36, U+2D016, U+2D06E, U+2D0A5, U+2D19B, U+2D1B8,
+                U+2D446, U+2D4D6, U+2D4D9, U+2D4E8, U+2D6CE, U+2D72F,
+                U+2D75A, U+2D88A, U+2D953, U+2DA21, U+2DA2A, U+2DA7C,
+                U+2DC3D, U+2DD00, U+2DDD0, U+2DDD1, U+2DF51, U+2DFAE,
+                U+2E021, U+2E13E, U+2E4E7, U+2E54A, U+2E560, U+2E703,
+                U+2E744, U+2E92C, U+2E987, U+2E988, U+2E9C3, U+2EA2D,
+                U+2EAB0, U+2EAB3, U+2EAFB, U+2EB2D, U+302A3, U+30317,
+                U+305C2, U+30780, U+30823, U+30918, U+309C4, U+30CE2,
+                U+30CE8, U+30D11, U+31063, U+31173, U+311A6, U+31314,
+                U+31D24, U+3200F;
         }
         /* Every Korean historical codepoint the site uses, in one face:
            conjoining jamo (U+1100-11FF + Ext-A/B) for Middle Korean ko_mid
@@ -226,13 +221,15 @@
             font-display: swap;
             src: url('fonts/NomNaTong-hanmap.woff2') format('woff2');
             unicode-range:
-                U+3D1C, U+5766, U+771C, U+8012, U+8710, U+8E4E, U+982D,
-                U+20027, U+20051, U+200E9, U+20129, U+2013C, U+2029B, U+204E8,
-                U+2052D, U+20AFE, U+20B20, U+20C18, U+2139C, U+213A2, U+21419,
-                U+215F6, U+21D80, U+22102, U+22D67, U+2321C, U+23603, U+2466D,
-                U+26271, U+2629A, U+26352, U+264B9, U+26591, U+265BB, U+266CC,
-                U+26744, U+2693E, U+27370, U+275B1, U+2784A, U+27CAB, U+27F0B,
-                U+281DC, U+28492, U+2856D, U+296D6, U+29D5C, U+2AB8F, U+2C0FB;
+                
+                U+3D1C, U+771C, U+8710, U+8E4E, U+20027, U+20051,
+                U+200E9, U+20129, U+2013C, U+2029B, U+204E8, U+2052D,
+                U+20AFE, U+20B20, U+20C18, U+2139C, U+213A2, U+21419,
+                U+215F6, U+21D80, U+22102, U+22D67, U+2321C, U+23603,
+                U+2466D, U+26271, U+2629A, U+26352, U+264B9, U+26591,
+                U+265BB, U+266CC, U+26744, U+2693E, U+27370, U+275B1,
+                U+2784A, U+27CAB, U+27F0B, U+281DC, U+28492, U+2856D,
+                U+296D6, U+29D5C, U+2AB8F, U+2C0FB;
         }
         @font-face {
             font-family: 'Nom Serif Hanmap Subset';

@@ -50,7 +50,7 @@ WORDS.wheel = {
     ko: ["바퀴", "pakʰwi"],
     zh: ["轮子", "lwən˧˥ tsɨ"],
     yue: ["轆", "lʊk˥"],
-    vi: ["bánh xe", "ɓajŋ˧˥ sɛ˧"],
+    vi: ["bánh xe", "ɓaɲ˧˥ sɛ˧"],
     th: ["ล้อ", "lɔː˦˥"],
     id: ["roda", "roda"],
     hi: ["पहिया", "pəɦijaː"],
@@ -456,7 +456,7 @@ WORDS.wheel = {
     aii: ["ܓܝܓܠܐ", "ɡiɡla"],
     tru: ["ܓܝܓܠܐ", "ɡiɡlo"],
     he_mis: ["גלגל", "ɡalˈɡal"],
-    vi_nom: ["𥹘車", "ɓajŋ˧˥ sɛ˧"],
+    vi_nom: ["𥹘車", "ɓaɲ˧˥ sɛ˧"],
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
     ar_lev: ["عجلة", "ʕaʒala"],

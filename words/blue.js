@@ -778,7 +778,7 @@ WORDS.blue = {
     ve: ["lutombo", "lutombo"],  // Tshivenda's basic adjectival colour inventory is only -tswuku / -tshena / -tswu; blue and green are class-11/3 nouns. Murphy's lexicon glosses lutombo (cl. 11) as 'cloudless blue sky' and murohwe (cl. 3, < muroho 'vegetables') as 'green color' — two separate words, hence not grue, but the gloss is 'blue sky' rather than 'blue' outright, so the class is an inference. Popular Venda wordlists give lutombo 'blue' vs mudala/ludala 'green', which would still be a blue/green split.
     vep: ["sinine", "ˈsinine"],  // Veps sinine vs vihand.
     vi: ["xanh", "saɲ˧"],  // xanh is one term for the whole cool range and needs a modifier to pick out either end: xanh da trời 'sky xanh' = blue, xanh lá cây 'leaf xanh' = green. WOLD scores xanh as clearly borrowed — it is Chinese 青 — so the word is a loan and the category is grue.
-    vi_s: ["xanh", "saŋ˧"],  // Southern Vietnamese, same term and same grue category.
+    vi_s: ["xanh", "san˧"],  // Southern Vietnamese, same term and same grue category.
     wa: ["bleu", "blø"],  // Walloon bleu against vert.
     war: ["asul", "aˈsul"],  // war.wikipedia's blue article is titled 'Bulhog' and offers bolhog/bulhog/muya beside asúl, citing Abuyen (2000) *Diksyunaryo Waray-Waray*, pp. 242 and 20; but Tramp glosses bulhog as 'protruding (eye). n. blue-eyed person', i.e. not a basic colour term. asúl is the everyday sky word.
     wba: ["hebuɾa", "hebuɾa"],  // Warao hebuɾa is given for BOTH blue and green.

@@ -92,7 +92,7 @@ WORDS.book = {
     ko: ["책", "tɕʰɛk"],
     zh: ["书", "ʂu˥"],
     yue: ["書", "syː˥"],
-    vi: ["sách", "sajk˧˥"],
+    vi: ["sách", "sac˧˥"],
     th: ["หนังสือ", "naŋ˩˩˦sɯː˩˩˦"],
     id: ["buku", "ˈbuku"],
     ms: ["buku", "ˈbuku"],
@@ -468,9 +468,9 @@ WORDS.book = {
     ar_iq: ["كتاب", "kiˈtaːb"],
     ar_sd: ["كتاب", "kiˈtaːb"],
     ar_gulf: ["كتاب", "kiˈtaːb"],
-    vi_s: ["sách", "ʂak˧˥"],
+    vi_s: ["sách", "ʂat˧˥"],
     ko_kp: ["책", "tɕʰɛk"],
-    vi_c: ["sách", "sajk˧˥"],
+    vi_c: ["sách", "ʂat˧˥"],
     th_isan: ["หนังสือ", "naŋ˩˧sɯː˩˧"],
     za: {
       form: "𭨡",
@@ -807,6 +807,6 @@ WORDS.book = {
     mgo: ["ə̀ŋwàʼnɨ̀", "ə̀ŋwàʔnɨ̀"],
     dbq: ["beftere", "beftere"],
     vi_han: ["書", "tʰɨ˧˧"],
-    vi_nom: ["冊", "sajk˧˥"]
+    vi_nom: ["冊", "sac˧˥"]
   }
 };

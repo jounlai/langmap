@@ -656,7 +656,7 @@ WORDS.wheel = {
     hoc: ["cakka", "tʃakka"],
     srb: ["sakkaɖin", "sakkaɖin"],
     sat: ["ᱪᱚᱠ", "tʃɔk"],
-    vi_c: ["bánh xe", "ɓajŋ˩˧ sɛ˥"],
+    vi_c: ["bánh xe", "ɓan˩˧ sɛ˥"],
     tyz: ["bảnh", "ɓaŋ˨˩˧"],
     blt: ["ꞌcuống", "kuəŋ"],
 

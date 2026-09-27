@@ -242,6 +242,7 @@ WORDS.woof = {
     zh_xa: ["汪汪", "vaɣ̃˨˩ vaɣ̃˨˩"],
     zh_cd: ["汪汪", "wan˥˥ wan˥˥"],
     ja_osa: ["ワンワン", "waɴwaɴ"],
-    ko_bus: ["멍멍", "mʌŋmʌŋ"]
+    ko_bus: ["멍멍", "mʌŋmʌŋ"],
+    vi_han: ["狺狺", "ŋən˧˧ ŋən˧˧"]
   },
 };

@@ -798,6 +798,7 @@ WORDS.mountain = {
     aqc: ["мул", "mul"],
     ddo: ["хӏон", "ħon"],
     mgo: ["ɨwum", "ɨwum"],
-    dbq: ["caɗak", "tʃaɗak"]
+    dbq: ["caɗak", "tʃaɗak"],
+    vi_han: ["山", "səːn˧˧"]
   }
 };

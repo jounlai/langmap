@@ -536,6 +536,7 @@ WORDS.silk = {
     moh: ["kà:nheks", "kaːnheks"],
     chy: ["séokáéšéʼhóno", "séokáéʃéʔhóno"],
     ium: ["fei", "fei˧"],
-    kpy: ["чолкочол", "tʃolkotʃol"]
+    kpy: ["чолкочол", "tʃolkotʃol"],
+    vi_han: ["絲", "ti˧˧"]
   }
 };

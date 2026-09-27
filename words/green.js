@@ -709,6 +709,7 @@ WORDS.green = {
     bnn: ["masanglav", "masaŋlav"],
     wbp: ["yukuri-yukuri", "jukuɻijukuɻi"],
     aer: ["atherrke", "at̪erke"],
-    otq: ["kꞌangi", "kʼaŋi"]
+    otq: ["kꞌangi", "kʼaŋi"],
+    vi_han: ["青", "tʰaɲ˧˧"]
   }
 };

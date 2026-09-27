@@ -842,6 +842,7 @@ WORDS.horse = {
     aqc: ["ноӏш", "noˤʃ"],
     ddo: ["гулу", "ɡulu"],
     mgo: ["ngyi", "ŋɡji"],
-    dbq: ["pilis", "pilis"]
+    dbq: ["pilis", "pilis"],
+    vi_han: ["馬", "maː˧˧ˀ˥"]
   }
 };

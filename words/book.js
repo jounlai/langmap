@@ -805,6 +805,7 @@ WORDS.book = {
     aqc: ["къонкъ", "qʼonqʼ"],
     ddo: ["тӏек", "tʼek"],
     mgo: ["ə̀ŋwàʼnɨ̀", "ə̀ŋwàʔnɨ̀"],
-    dbq: ["beftere", "beftere"]
+    dbq: ["beftere", "beftere"],
+    vi_han: ["書", "tʰɨ˧˧"]
   }
 };

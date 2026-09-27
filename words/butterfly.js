@@ -658,6 +658,7 @@ WORDS.butterfly = {
     ium: ["sopc bang", "sop˨˩ paŋ˧"],
     tao: ["pahapahad no anito", "pahapahad no anito"],
     yap: ["taloolbëy", "taloːlbəj"],
-    kpy: ["ӄэпалголгʼын", "qepalɣolʕən"]
+    kpy: ["ӄэпалголгʼын", "qepalɣolʕən"],
+    vi_han: ["蝴蝶", "ho˨˩ ɗiəp˨˩˨"]
   },
 };

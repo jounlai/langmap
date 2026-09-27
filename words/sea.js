@@ -768,6 +768,7 @@ WORDS.sea = {
     yap: ["madaay", "madaːj"],
     kpy: ["аӈӄан", "aŋqan"],
     ddo: ["ралъад", "raɬad"],
-    mgo: ["rɨ̀bàà", "rɨ̀bàà"]
+    mgo: ["rɨ̀bàà", "rɨ̀bàà"],
+    vi_han: ["海", "haːj˧˩˧"]
   }
 };

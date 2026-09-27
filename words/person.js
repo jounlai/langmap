@@ -830,6 +830,7 @@ WORDS.person = {
     kpy: ["гʼуемтэвʼилгʼын", "ʕujemtewilʕən"],
     ddo: ["инсан", "insan"],
     mgo: ["wə̀d", "wə̀d"],
-    dbq: ["hidi", "hidi"]
+    dbq: ["hidi", "hidi"],
+    vi_han: ["人", "ɲən˧˧"]
   }
 };

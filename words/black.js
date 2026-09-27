@@ -1049,6 +1049,7 @@ WORDS.black = {
     kpy: ["луӄин", "luqin"],
     aqc: ["беххьӏеттут", "beχːˤetːut"],
     ddo: ["хъаӏба", "qˤaba"],
-    mgo: ["firɨ", "firɨ"]
+    mgo: ["firɨ", "firɨ"],
+    vi_han: ["黑", "hak˧˥"]
   },
 };

@@ -1172,7 +1172,13 @@ WORDS.cat = {
     wuu_wz: ["猫", "mau˧˧"],
     nan_qz: ["貓", "niau˨˨"],
     nan_hai: ["猫", "niau˨˦"],
-    zh_wh: ["猫子", "mau˥˥ tsɨ"],
+    zh_wh: {
+      form: "猫子",
+      ipa:  "mau˥˥ tsɨ",
+      alt: [
+        { form: "财喜 tsʰai˨˩˧ ɕi˦˨", script: "武漢方言別稱 — Wuhan's other name for the cat", source: "現代漢語方言大詞典 via en.wiktionary dialectal synonyms for 貓, which lists Wuhan as 貓子 · 貓 · 貓伢子 · 財喜 · 阿嗚 (childish). Reported by 凪闏椧-无风山谷 on bilibili." },
+      ],
+    },
     zh_zz: ["猫", "mau˨˦"],
     hak_hl: ["貓仔", "meu˥˥ e˨˦"],
     cpx: ["猫", "ŋiau˧˧"],

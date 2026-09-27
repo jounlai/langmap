@@ -613,6 +613,7 @@ WORDS.rice = {
     tao: ["mogis", "moɡis"],
     yap: ["koomëy", "koːməj"],
     aqc: ["биринж", "biɾinʒ"],
-    dbq: ["merure", "merure"]
+    dbq: ["merure", "merure"],
+    vi_han: ["米", "me˧˧ˀ˥"]
   }
 };

@@ -131,6 +131,31 @@
                 U+2512C, U+254A5, U+25E58, U+2629A, U+28492, U+29A6B,
                 U+2A004, U+2A5AB, U+2D46B;
         }
+        /* The za_sd row writes Zhuang in Sawndip (古壮字), and 26 of its glyphs
+           are outside the common CJK block — Ext A, B, E, F and one in Ext G
+           (𰴑 U+30D11, raen 'to see'). No device font carries them, so without
+           this face the whole row is tofu. Same file the Word Map serves, a
+           subset of BabelStone Han rebuilt 2026-09-27 to hold both pages'
+           glyphs (38, ~11 KB), riding the 'Nom Serif Subset' family so it
+           picks up the existing font chains. Three of the primary Sawndip
+           forms are not in BabelStone Han either — 心 sim 𦙦 is dropped for
+           that reason, and 火 feiz and 血 lwed take their next attested
+           variant instead. */
+        @font-face {
+            font-family: 'Nom Serif Subset';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('fonts/BabelStoneHan-Sawndip-subset.woff2') format('woff2');
+            unicode-range:
+                U+3576, U+47D3, U+488F, U+4C3E, U+20BB9, U+2139C,
+                U+215F6, U+225E8, U+227CB, U+2283F, U+23509, U+23C99,
+                U+24622, U+25142, U+26355, U+29ED0, U+2AE19, U+2B8C6,
+                U+2BA52, U+2BB69, U+2BC46, U+2C32B, U+2C6BB, U+2CECA,
+                U+2CF23, U+2CF36, U+2D19B, U+2D446, U+2D4E8, U+2D72F,
+                U+2D75A, U+2D88A, U+2D953, U+2DC3D, U+2E4E7, U+2E560,
+                U+2EB2D, U+30D11;
+        }
         /* Every Korean historical codepoint the site uses, in one face:
            conjoining jamo (U+1100-11FF + Ext-A/B) for Middle Korean ko_mid
            and Early-Modern ko_em, the archaic compatibility letters ㅸ ㅭ
@@ -3341,7 +3366,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=331"></script>
-    <script src="hanmap_data.js?v=132"></script>
+    <script src="hanmap_data.js?v=133"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3376,8 +3401,8 @@
     will actually see (~12 KB gzipped). tools/build_lang_names.js
     generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=3"></script>
-    <script src="lang_names/en.js?v=194"></script>
-    <script>window.__langNamesVersion(194); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=195"></script>
+    <script>window.__langNamesVersion(195); window.__langNamesBoot();</script>
     <script>
     // HanMap-specific display-name overrides.
     // THIS IS THE MECHANISM for "one code, two maps, two meanings". lang_names.js

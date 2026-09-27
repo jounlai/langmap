@@ -25,7 +25,9 @@ const SCRIPT = {
 
   zh_phagspa: 'Phagspa', txg: 'Tangut', mnc: 'Mongolian', sjo: 'Mongolian',
   juc: 'Mongolian', zkt: 'Khitan',           // both mostly "—" placeholder
-  vi_nom: 'CJK', dng: 'Cyrillic', bo_sino: 'Tibetan', th: 'Thai', th_n: 'Thai', th_s: 'Thai', th_isan: 'Thai',
+  // za_sd writes Zhuang in Sawndip (古壯字), Han characters and Han-built
+  // characters — the same block as Chữ Nôm, and the same reason.
+  vi_nom: 'CJK', za_sd: 'CJK', dng: 'Cyrillic', bo_sino: 'Tibetan', th: 'Thai', th_n: 'Thai', th_s: 'Thai', th_isan: 'Thai',
   yue_gz: 'CJK', yue_ts: 'CJK', yue_dg: 'CJK', yue_nn: 'CJK', yue_zs: 'CJK',
 };
 function blockOf(cp) {
@@ -38,7 +40,7 @@ function blockOf(cp) {
   if (cp >= 0x0400 && cp <= 0x04FF) return 'Cyrillic';
   if (cp >= 0x0F00 && cp <= 0x0FFF) return 'Tibetan';
   if (cp >= 0x0E00 && cp <= 0x0E7F) return 'Thai';
-  if ((cp >= 0x4E00 && cp <= 0x9FFF) || (cp >= 0x3400 && cp <= 0x4DBF) || (cp >= 0x20000 && cp <= 0x2FFFF) || (cp >= 0xF900 && cp <= 0xFAFF)) return 'CJK';
+  if ((cp >= 0x4E00 && cp <= 0x9FFF) || (cp >= 0x3400 && cp <= 0x4DBF) || (cp >= 0x20000 && cp <= 0x2FFFF) || (cp >= 0x30000 && cp <= 0x323AF) || (cp >= 0xF900 && cp <= 0xFAFF)) return 'CJK';
   if ((cp >= 0x41 && cp <= 0x5A) || (cp >= 0x61 && cp <= 0x7A) || (cp >= 0xC0 && cp <= 0x24F) || (cp >= 0x1E00 && cp <= 0x1EFF)) return 'Latin';
   return null; // punctuation / marks / unknown
 }

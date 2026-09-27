@@ -155,7 +155,9 @@
            the Chữ Nôm 𩻐 (U+29ED0, mắm) used by the historical sushi cell.
            Without this they render as tofu on mobile. Subset of BabelStone Han
            plus Taiwanese Hakka 𫣆 (U+2B8C6, ên — the inclusive "we").
-           (12 glyphs), scoped by unicode-range so it only loads when
+           Extended 2026-09-27 with the 26 Sawndip glyphs the Han Map's za_sd
+           row needs, so both pages share one 38-glyph file.
+           Scoped by unicode-range so it only loads when
            one of these forms appears. Shares the 'Nom Serif Subset' family so
            it rides the same four font chains (map label / .wm-form / info-panel
            / compare header) — the family is the site's catch-all for
@@ -167,9 +169,14 @@
             font-display: swap;
             src: url('fonts/BabelStoneHan-Sawndip-subset.woff2') format('woff2');
             unicode-range:
-                U+20BB9, U+225E8, U+227CB, U+2283F, U+23C99,
-                U+2BC46, U+2D4E8, U+2D72F, U+2D75A, U+2DC3D,
-                U+29ED0, U+2B8C6;
+                U+3576, U+47D3, U+488F, U+4C3E, U+20BB9,
+                U+2139C, U+215F6, U+225E8, U+227CB, U+2283F,
+                U+23509, U+23C99, U+24622, U+25142, U+26355,
+                U+29ED0, U+2AE19, U+2B8C6, U+2BA52, U+2BB69,
+                U+2BC46, U+2C32B, U+2C6BB, U+2CECA, U+2CF23,
+                U+2CF36, U+2D19B, U+2D446, U+2D4E8, U+2D72F,
+                U+2D75A, U+2D88A, U+2D953, U+2DC3D, U+2E4E7,
+                U+2E560, U+2EB2D, U+30D11;
         }
         /* Pallava-descended Brahmic scripts (owner 2026-07-17). The font chain
            below names "Noto Sans Javanese/Brahmi/Tagalog/…", but those are
@@ -3666,7 +3673,7 @@
             data:      331,
             metaI18n:  16,
             filter:    45,
-            names:   194,
+            names:   195,
             meta:     362,
             trivia:   43,
             triviaI18n: 25,
@@ -3814,8 +3821,8 @@
          will actually see (~12 KB gzipped). tools/build_lang_names.js
          generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=3"></script>
-    <script src="lang_names/en.js?v=194"></script>
-    <script>window.__langNamesVersion(194); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=195"></script>
+    <script>window.__langNamesVersion(195); window.__langNamesBoot();</script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
          map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
          guard with `|| []`, and the blinks refresh once it lands. -->

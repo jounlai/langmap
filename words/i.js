@@ -331,7 +331,14 @@ WORDS.i = {
       th_isan: ["ข้อย", "kʰɔːj˧"],
       th_n: ["ตู", "tuː˩"],
       th_s: ["ฉาน", "tɕʰaːn˦"],
-      za: ["gou", "kou˨˦"],
+      za: {
+        form: "𭆸",
+        ipa:  "kou˨˦",
+        alt: [
+          { form: "gou", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+          { form: "九 / 戈 / 㕤", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭆸 — Sawndip was never standardised" },
+        ],
+      },
       mmd: ["ɦe2", "ɦe˨˧˩"],
       mlm: ["həi2", "həi˩˨˩"],
       swi: ["ʔai2", "ʔai˧˩"],

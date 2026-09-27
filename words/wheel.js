@@ -642,7 +642,14 @@ WORDS.wheel = {
     wbm: ["ling:", "liɲ"],
     prk: ["ling:", "liɲ"],
     kdt: ["kɑŋ", "kɑŋ"],
-    za: ["loek", "lok˥"],
+    za: {
+      form: "𮝄",
+      ipa:  "lok̚˥",
+      alt: [
+        { form: "loek", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "䡜 / 𣏥", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮝄 — Sawndip was never standardised" },
+      ],
+    },
     shn: ["မၢၵ်ႇလေႃႉ", "mak lɔ"],
     kru: ["चाका", "tʃaːkaː"],
     unr: ["cakka", "tʃakka"],

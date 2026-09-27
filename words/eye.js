@@ -331,7 +331,13 @@ WORDS.eye = {
     th_isan: ["ตา", "taː˥"],
     th_n: ["ต๋า", "taː˩˧"],
     th_s: ["ตา", "taː˥"],
-    za: ["da", "taː˨˦"],
+    za: {
+      form: "𥅂",
+      ipa:  "ta˨˦",
+      alt: [
+        { form: "da", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     mmd: ["ⁿda1", "ⁿda˦˨"],
     mlm: ["l̥a1", "l̥a˦˨"],
     swi: ["ⁿda1", "ⁿda˩˩"],

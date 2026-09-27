@@ -333,7 +333,7 @@ WORDS.house = {
     th_s: ["บ้าน", "baːn˧˥"],
     za: {
       form: "𭓨",
-      ipa:  "ɣan˧˥",
+      ipa:  "ɣaːn˧˩",
       alt: [
         { form: "ranz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "兰 / 䒟 / 苒 / 栏", script: "Sawndip (古壮字)", source: "za.wikipedia.org Ranz — regional variant glyphs alongside the primary form 𭓨 (U+2D4E8, CJK Ext-F; rendered via the embedded BabelStone-Han Sawndip subset)" },

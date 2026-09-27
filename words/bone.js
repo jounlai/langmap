@@ -312,7 +312,14 @@ WORDS.bone = {
     th_isan: ["ดูก", "duːk˨˩"],
     th_n: ["ดูก", "duːk˨˩"],
     th_s: ["ดูก", "duːk˨˩"],
-    za: ["ndok", "ɗok˥˥"],
+    za: {
+      form: "𮪳",
+      ipa:  "ɗoːk̚˧˥",
+      alt: [
+        { form: "ndok", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𮪰 / 𬴒 / 𱅳", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮪳 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["da:k8", "daːk˨˦"],
     mlm: ["hɣa:k7", "hɣaːk˦˨"],
     swi: ["laak7", "laːk˧˥"],

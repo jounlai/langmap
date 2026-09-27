@@ -331,7 +331,14 @@ WORDS.two = {
       th_isan: ["สอง", "sɔːŋ˩˧"],
       th_n: ["สอง", "sɔːŋ˩"],
       th_s: ["สอง", "sɔːŋ˩"],
-      za: ["song", "θoːŋ˨˦"],
+      za: {
+        form: "雙",
+        ipa:  "θoːŋ˨˦",
+        alt: [
+          { form: "song", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+          { form: "双 / 松", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 雙 — Sawndip was never standardised" },
+        ],
+      },
       mmd: ["ja1", "ja˦˨"],
       mlm: ["ɣa2", "ɣa˩˨˩"],
       swi: ["ɣa2", "ɣa˧˩"],

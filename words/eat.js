@@ -331,7 +331,14 @@ WORDS.eat = {
     th_isan: ["กิน", "kin˥"],
     th_n: ["กิ๋น", "kin˩˧"],
     th_s: ["กิน", "kin˥"],
-    za: ["gwn", "kɯn˨˦"],
+    za: {
+      form: "𫩒",
+      ipa:  "kɯn˨˦",
+      alt: [
+        { form: "gwn", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "啃 / 巾 / 𩚍", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𫩒 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["na4", "na˨˦"],
     mlm: ["tsa:n1", "tsaːn˦˨"],
     swi: ["ʔman3", "ʔman˧˧"],

@@ -269,7 +269,14 @@ WORDS.snow = {
     th_isan: ["หิมะ", "hi˨˩maʔ˦˥"],
     th_n: ["หิมะ", "hi˨˩maʔ˦˥"],
     th_s: ["หิมะ", "hi˨˩maʔ˧˥"],
-    za: ["nae", "nai˨˦"],
+    za: {
+      form: "𱁣",
+      ipa:  "nai˨˦",
+      alt: [
+        { form: "nae", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𮦈 / 汭 / 𭛎", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𱁣 — Sawndip was never standardised" },
+      ],
+    },
     hmn: ["daus", "dau˨˩"],
     jv: ["salju", "salɟu"],
     su: ["salju", "saldʒu"],

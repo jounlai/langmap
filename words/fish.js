@@ -334,7 +334,14 @@ WORDS.fish = {
     th_isan: ["ปลา", "paː˧"],
     th_n: ["ปลา", "paː˧"],
     th_s: ["ปลา", "plaː˥"],
-    za: ["bya", "pjaː˨˦"],
+    za: {
+      form: "䰾",
+      ipa:  "pʲa˨˦",
+      alt: [
+        { form: "bya", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𮫻 / 𱆦 / 𩵒", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 䰾 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["ᵐbjai3", "ᵐbjai˥˩"],
     mlm: ["məm6", "məm˩˩"],
     swi: ["mom6", "mom˨˦"],

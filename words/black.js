@@ -386,7 +386,14 @@ WORDS.black = {
     th_s: ["ดำ", "dam˧"],
     soa: ["ดำ", "dam˧"],
     sukh: ["ดำ", "dam"],
-    za: ["ndaem", "ndam˧"],
+    za: {
+      form: "黯",
+      ipa:  "ɗam˨˦",
+      alt: [
+        { form: "ndaem", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "黔 / 𪒘 / 𪒤", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 黯 — Sawndip was never standardised" },
+      ],
+    },
     srh: ["tor", "toɾ"],
     rbb: ["Ɂivɔŋ", "ʔivɔŋ"],
     blr: ["lhɔŋ31", "l̥ɔŋ˧˩"],

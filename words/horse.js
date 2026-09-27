@@ -515,7 +515,14 @@ WORDS.horse = {
     ko_kp: ["말", "mal"],
     vi_c: ["ngựa", "ŋɨə˨˨"],
     th_isan: ["ม้า", "maː˦˥"],
-    za: ["max", "maː˦˨"],
+    za: {
+      form: "馬",
+      ipa:  "ma˦˨",
+      alt: [
+        { form: "max", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "马 / 獁 / 𮜃", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 馬 — Sawndip was never standardised" },
+      ],
+    },
     ug: ["ئات", "ɑt"],
     mag: ["घोड़ा", "ɡʱoːɽaː"],
     hne: ["घोड़ा", "ɡʱoːɽaː"],

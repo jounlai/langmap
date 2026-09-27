@@ -111,6 +111,10 @@ const BLOCKS = [
     // Ext F carries the Zhuang Sawndip glyphs (𭓨 house, 𭝚 love …), served by
     // the BabelStone-Han Sawndip subset added to the same family.
     ['CJK Ext F',               0x2CEB0, 0x2EBEF, 'Nom Serif Subset'],
+    // Ext G and H hold Sawndip glyphs too — 𰴑 raen 'to see', 𱁣 nae 'snow',
+    // 𱌔 ndaeng 'nose' — served by the same subset.
+    ['CJK Ext G',               0x30000, 0x3134A, 'Nom Serif Subset'],
+    ['CJK Ext H',               0x31350, 0x323AF, 'Nom Serif Subset'],
     // Also Unicode 18.0, also fontless, same reasoning as Jurchen above. 11,328
     // small-seal characters — of interest to the Han Map rather than to this
     // one, and listed here because this table is what both pages are checked

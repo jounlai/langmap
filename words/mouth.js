@@ -612,7 +612,13 @@ WORDS.mouth = {
     ar_tn: ["فم", "fomː"],
     ar_gulf: ["حلج", "ħalj"],
     th_isan: ["ปาก", "paːk˨˩"],
-    za: ["bak", "paːk˥"],
+    za: {
+      form: "咟",
+      ipa:  "paːk̚˧˥",
+      alt: [
+        { form: "bak", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     prs: ["دهان", "dahɑːn"],
     mag: ["मुँह", "mũːɦ"],
     hne: ["मुहूं", "muɦũː"],

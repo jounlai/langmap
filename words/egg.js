@@ -196,7 +196,14 @@ WORDS.egg = {
     th_isan: ["ไข่", "kʰaj˨˩"],
     th_n: ["ไข่", "kʰaj˨˩"],
     th_s: ["ไข่", "kʰaj˨˩"],
-    za: ["gyaeq", "kʲai˧˥"],
+    za: {
+      form: "𮕊",
+      ipa:  "kʲai˧˥",
+      alt: [
+        { form: "gyaeq", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𰳢 / 㖒 / 𲀏", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮕊 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["kai5", "kai˦˦"],
     mlm: ["kɣəi5", "kɣəi˦˦"],
     swi: ["kai5", "kai˧˥"],

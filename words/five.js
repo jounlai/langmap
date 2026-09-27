@@ -256,7 +256,14 @@ WORDS.five = {
     th_isan: ["ห้า", "haː˥˩"],
     th_n: ["ห้า", "haː˥˩"],
     th_s: ["ห้า", "haː˥˩"],
-    za: ["haj", "haː˧"],
+    za: {
+      form: "㕶",
+      ipa:  "ha˥",
+      alt: [
+        { form: "haj", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "五", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 㕶 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["ŋɔ4", "ŋɔ˨˦"],
     mlm: ["ŋɔ4", "ŋɔ˨˦"],
     swi: ["ŋo4", "ŋo˥˩"],

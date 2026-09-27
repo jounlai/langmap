@@ -835,7 +835,7 @@ WORDS.iron = {
     om: ["sibiila", "sibiːla"],
     so: ["bir", "bir"],
     th_isan: ["เหล็ก", "lek˨˩"],
-    za: ["diet", "tiət˧"],
+    za: ["diet", "tiːt̚˧˥"],
     syl: ["লুয়া", "lua"],
     ctg: ["লোয়া", "lowa"],
     bhb: ["लोहा", "loːhaː"],

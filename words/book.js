@@ -472,7 +472,14 @@ WORDS.book = {
     ko_kp: ["책", "tɕʰɛk"],
     vi_c: ["sách", "sajk˧˥"],
     th_isan: ["หนังสือ", "naŋ˩˧sɯː˩˧"],
-    za: ["saw", "θaɯ˨˦"],
+    za: {
+      form: "𭨡",
+      ipa:  "θaɯ˨˦",
+      alt: [
+        { form: "saw", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "字 / 𰗂 / 𭓙", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭨡 — Sawndip was never standardised" },
+      ],
+    },
     azb: ["کیتاب", "kiˈtab"],
     en_south: ["book", "bʊk"],
     en_aave: ["book", "bʊk"],

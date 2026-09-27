@@ -218,7 +218,13 @@ WORDS.nose = {
     th_isan: ["ดัง", "daŋ˥"],
     th_n: ["ดัง", "daŋ˧"],
     th_s: ["จมูก", "tɕa˨˩muːk˨˩"],
-    za: ["ndaeng", "ɗaːŋ˨˦"],
+    za: {
+      form: "𱌔",
+      ipa:  "ɗaŋ˨˦",
+      alt: [
+        { form: "ndaeng", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     mmd: ["ʔnaŋ1", "ʔnaŋ˦˨"],
     mlm: ["kə5 naŋ1", "kə˦˦ naŋ˦˨"],
     swi: ["ʔnaŋ1", "ʔnaŋ˩˩"],

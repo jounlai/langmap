@@ -633,7 +633,13 @@ WORDS.ear = {
     tzo: ["chikinil", "tʃikinil"],
     yrk: ["ха", "xa"],
     nio: ["коу", "kou̯"],
-    za: ["rwz", "ɣɯ˧˩"],
+    za: {
+      form: "聏",
+      ipa:  "ɣɯ˧˩",
+      alt: [
+        { form: "rwz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     mmd: ["kha1", "kʰa˦˨"],
     mlm: ["khɣa1", "kʰɣa˦˨"],
     swi: ["qha1", "qʰa˩˩"],

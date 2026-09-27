@@ -331,7 +331,14 @@ WORDS.good = {
     th_isan: ["ดี", "diː˥"],
     th_n: ["ดี", "diː˥"],
     th_s: ["ดี", "diː˥"],
-    za: ["ndei", "dei˨˦"],
+    za: {
+      form: "𭀖",
+      ipa:  "ɗei˨˦",
+      alt: [
+        { form: "ndei", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𰌗 / 𭁮 / 俪", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭀖 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["da:i2", "daːi˨˧˩"],
     mlm: ["i1", "i˦˨"],
     swi: ["ʔdaai1", "ʔdaːi˩˩"],

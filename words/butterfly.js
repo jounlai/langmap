@@ -347,7 +347,7 @@ WORDS.butterfly = {
     km: ["មេអំបៅ", "meː ʔɑmbaw"],  // first element មេ 'mother, female head'; the same dictionary also records a reduplicated synonym ប្ល៉ាក់ប្ល៉ាត plak-plaat
     si: ["සමනලයා", "samanalajaː"],  // the -යා suffix is the animate-noun ending also seen in the row's බල්ලා, පූසා, කුරුල්ලා
     af: ["skoenlapper", "ˈskunlapər"],  // literally 'shoe-patcher, cobbler' (Dutch schoen 'shoe' + lappen 'to patch'), from the patchwork look of the wings; synonym vlinder
-    za: ["mbaj", "ɓaː˥"],  // cf. Bouyei mbax 'butterfly'; the dialectal mbungqmbaj is an alliterative two-syllable expansion of the same root
+    za: ["mbaj", "ɓa˥"],  // cf. Bouyei mbax 'butterfly'; the dialectal mbungqmbaj is an alliterative two-syllable expansion of the same root
     pmng: ["*herbekei", "herbekei"],  // Nugteren says it may contain the -kAi element found in other Mongolic animal names; Middle Mongol herbegei, Written Mongolian erbegekei ~ erbekei
     pkar: ["*perper-", "perper"],  // reduplication of Common Kartvelian *per- 'to fly' (Georgian pepel-a, Mingrelian parpal-ia); Klimov marks it as only possibly Common Kartvelian
     pmay: ["*pehpen", "pehpen"],  // a reduplication; reflexes run from Yukatek pepen and Tzeltal pehpen to K'iche' peepeh

@@ -599,7 +599,14 @@ WORDS.new = {
     mg: ["vaovao", "vawˈvaw"],
     vi_c: ["mới", "mɤːj˧˥"],
     th_isan: ["ใหม่", "maj˨˩"],
-    za: ["moq", "mo˧˥"],
+    za: {
+      form: "𮄾",
+      ipa:  "mo˧˥",
+      alt: [
+        { form: "moq", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "暮 / 𭂥 / 墓", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮄾 — Sawndip was never standardised" },
+      ],
+    },
     prs: ["نو", "naw"],
     mag: ["नावा", "naːʋaː"],
     hne: ["नवां", "nəʋãː"],

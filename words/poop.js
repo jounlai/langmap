@@ -188,7 +188,13 @@ WORDS.poop = {
     th_isan: ["อึ", "ʔɯ˨˩"],
     th_n: ["อึ", "ʔɯ˨˩"],
     th_s: ["อึ", "ʔɯ˨˩"],
-    za: ["haex", "haɯ˦"],
+    za: {
+      form: "𡱍",
+      ipa:  "hai˦˨",
+      alt: [
+        { form: "haex", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     jv: ["tai", "ˈtai"],
     su: ["taiʔ", "taiʔ"],
     ceb: ["tae", "taʔe"],

@@ -331,7 +331,14 @@ WORDS.name = {
       th_isan: ["ซื่อ", "sɨː˧"],
       th_n: ["จื้อ", "tɕɯː˧"],
       th_s: ["ชื่อ", "tɕʰɯː˧"],
-      za: ["coh", "ɕo˧"],
+      za: {
+        form: "𭓖",
+        ipa:  "ɕo˧",
+        alt: [
+          { form: "coh", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+          { form: "初 / 助", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭓖 — Sawndip was never standardised" },
+        ],
+      },
       mmd: ["da:n2", "daːn˨˧˩"],
       mlm: ["ʔɣa:n1", "ʔɣaːn˦˨"],
       swi: ["ʔdaan1", "ʔdaːn˩˩"],

@@ -331,7 +331,14 @@ WORDS.dog = {
     th_isan: ["หมา", "maː˩˧"],
     th_n: ["หมา", "maː˩˧"],
     th_s: ["หมา", "maː˩˧"],
-    za: ["ma", "maː˨˦"],
+    za: {
+      form: "𬌫",
+      ipa:  "ma˨˦",
+      alt: [
+        { form: "ma", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "獁 / 𬍄 / 䭾", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𬌫 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["ma1", "ma˦˨"],
     mlm: ["ŋ̊wa1", "ŋ̊wa˦˨"],
     swi: ["m̥a1", "m̥a˩˩"],

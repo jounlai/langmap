@@ -333,7 +333,7 @@ WORDS.one = {
     th_s: ["หนึ่ง", "nɯŋ˨˩"],
     za: {
       form: "一",
-      ipa:  "it˧",
+      ipa:  "ʔit̚˥",
       alt: [
         { form: "it", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
       ],

@@ -222,7 +222,14 @@ WORDS.bird = {
     th_isan: ["นก", "nok˦˥"],
     th_n: ["นก", "nok˦˥"],
     th_s: ["นก", "nok˧˥"],
-    za: ["roeg", "ɣok˧"],
+    za: {
+      form: "𮬭",
+      ipa:  "ɣok̚˧",
+      alt: [
+        { form: "roeg", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𠯿 / 鵦 / 六", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮬭 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["nɔk8", "nɔk˨˧"],
     mlm: ["nɔk8", "nɔk˩˨"],
     swi: ["nok8", "nok˧˩"],

@@ -333,7 +333,7 @@ WORDS.mother = {
     th_s: ["แม่", "mɛː˥˩"],
     za: {
       form: "𫱆",
-      ipa:  "me˨",
+      ipa:  "me˧",
       alt: [
         { form: "meh", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
       ],

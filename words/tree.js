@@ -331,7 +331,14 @@ WORDS.tree = {
     th_isan: ["ต้นไม้", "ton˥˩maj˦˥"],
     th_n: ["ต้นไม้", "ton˥˩maj˦˥"],
     th_s: ["ต้นไม้", "ton˧˥maj˧˥"],
-    za: ["faex", "fai˦˨"],
+    za: {
+      form: "𣔉",
+      ipa:  "fai˦˨",
+      alt: [
+        { form: "faex", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "㭑 / 𭩼 / 柫", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𣔉 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["mai4", "mai˨˦"],
     mlm: ["mai4", "mai˨˦"],
     swi: ["mai4", "mai˥˩"],

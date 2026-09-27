@@ -337,7 +337,14 @@ WORDS.tongue = {
     th_isan: ["ลิ้น", "lin˦˥"],
     th_n: ["ลิ้น", "lin˦˥"],
     th_s: ["ลิ้น", "lin˧˥"],
-    za: ["linx", "lin˦˨"],
+    za: {
+      form: "𫇖",
+      ipa:  "lin˦˨",
+      alt: [
+        { form: "linx", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "吝 / 呤 / 令", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𫇖 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["ma2", "ma˨˧˩"],
     mlm: ["ma2", "ma˩˨˩"],
     swi: ["ʔu1 ma2", "ʔu˩˩ ma˧˩"],

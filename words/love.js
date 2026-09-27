@@ -333,7 +333,7 @@ WORDS.love = {
     th_s: ["รัก", "rak˧˥"],
     za: {
       form: "𭝚",
-      ipa:  "kjai˧˥",
+      ipa:  "kʲai˧˩",
       alt: [
         { form: "gyaez", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "𠮹 / 𢟋 / 𢠿", script: "Sawndip (古壮字)", source: "za.wikipedia.org Gyaez — regional variant glyphs alongside the primary form 𭝚 (U+2D75A, CJK Ext-F; rendered via the embedded BabelStone-Han Sawndip subset)" },

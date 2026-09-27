@@ -331,7 +331,14 @@ WORDS.you = {
       th_isan: ["เจ้า", "tɕaːw˧"],
       th_n: ["ตั๋ว", "tua˩˩˦"],
       th_s: ["สู", "suː˩"],
-      za: ["mwngz", "mɯŋ˧˩"],
+      za: {
+        form: "佲",
+        ipa:  "mɯŋ˧˩",
+        alt: [
+          { form: "mwngz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+          { form: "名 / 盟 / 萌", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 佲 — Sawndip was never standardised" },
+        ],
+      },
       mmd: ["ŋ2", "ŋ˨˧˩"],
       mlm: ["ȵa2", "ȵa˩˨˩"],
       swi: ["ȵa2", "ȵa˧˩"],

@@ -2297,7 +2297,14 @@ WORDS.foot = {
     yur: ["mechkah", "metʃkah"],  // Yurok's dependent noun is me-chkah 'somebody's foot', which Georgiana Trull's book lists a few lines above meehl 'leg'.
     yux: ["нойл", "nojl"],  // The Kolyma source that gives this row its нугэн 'hand' answers both foot and leg with nojl — Tundra Yukaghir splits them, Kolyma does not.
     yuy: ["көл", "køl"],  // көл covers both, the Proto-Mongolic *köl that Mongolian хөл and Kalmyk көл continue.
-    za: ["din", "tin˨˦"],  // The Tai tin/kha split.
+    za: {
+      form: "䟓",
+      ipa:  "tin˨˦",
+      alt: [
+        { form: "din", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𬻚 / 𭴀 / 丁", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 䟓 — Sawndip was never standardised" },
+      ],
+    },  // The Tai tin/kha split.
     zap: ["ñee", "ɲeː"],  // Pickett's Vocabulario zapoteco del Istmo glosses the single entry ñee 'pie, pierna', and the Isthmus NT proves it: it washes ñee at John 13:5 and breaks the same ñee at 19:32, keeping dxita for the bone at 19:36.
     zdj: ["mndu", "ᵐndu"],  // mndu covers foot and leg together, and the Shingazidja body-part list builds komwa mndu for the ankle and nkoo ya mndu for the heel on the same word.
     zgh: ["ⴰⴹⴰⵔ", "adˤar"],  // The standard's three source varieties all take this root for the whole limb — Tashelhit ⴰⴹⴰⵔ 'foot, leg', Central Atlas ⴰⴹⴰⵕ and Tarifit ḍar, whose Bible uses one word for feet washed and legs broken — and it is written here with plain ⵔ, as the tzm row writes it.

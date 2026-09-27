@@ -526,7 +526,14 @@ WORDS.rain = {
     bem: ["imfula", "imˈfula"],
     sd: ["مينهن", "miːɦə̃"],
     ks: ["رُود", "ruːd"],
-    za: ["fwn", "fɯn˥"],
+    za: {
+      form: "雰",
+      ipa:  "fɯn˨˦",
+      alt: [
+        { form: "fwn", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "汾 / 𭑆 / 𮦇", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 雰 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["fin1", "fin˦˨"],
     mlm: ["kwən1", "kwən˦˨"],
     swi: ["fən1", "fən˩˩"],

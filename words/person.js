@@ -539,7 +539,14 @@ WORDS.person = {
     su: ["jalma", "dʒalma"],
     vi_c: ["người", "ŋɨəj˧˨"],
     th_isan: ["คน", "kʰon˥"],
-    za: ["vunz", "vun˧˩"],
+    za: {
+      form: "伝",
+      ipa:  "wun˧˩",
+      alt: [
+        { form: "vunz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "侩 / 𪝑 / 云", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 伝 — Sawndip was never standardised" },
+      ],
+    },
     ug: ["ئادەم", "ɑdɛm"],
     en_in: ["person", "ˈpɝsən"],
     en_au: ["person", "ˈpɜːsən"],

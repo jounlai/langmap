@@ -331,7 +331,13 @@ WORDS.hand = {
     th_isan: ["มือ", "mɯː˥"],
     th_n: ["มือ", "mɯː˥"],
     th_s: ["มือ", "mɯː˥"],
-    za: ["fwngz", "fɯŋ˧˩"],
+    za: {
+      form: "𭢊",
+      ipa:  "fɯŋ˧˩",
+      alt: [
+        { form: "fwngz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     mmd: ["si:m3", "siːm˥˩"],
     mlm: ["nja2", "nja˩˨˩"],
     swi: ["mjə1", "mjə˩˩"],

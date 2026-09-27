@@ -333,7 +333,7 @@ WORDS.water = {
     th_s: ["น้ำ", "nam˧˥"],
     za: {
       form: "淰",
-      ipa:  "ɣam˦",
+      ipa:  "ɣam˦˨",
       alt: [
         { form: "raemx", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "𭜯 / 淋 / 𭰽 / 𢗨 / 𣲙", script: "Sawndip (古壮字)", source: "za.wikipedia.org Raemx — regional variant glyphs alongside the primary form 淰" },

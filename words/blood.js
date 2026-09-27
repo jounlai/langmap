@@ -335,7 +335,14 @@ WORDS.blood = {
     th_isan: ["เลือด", "lɯat˥˩"],
     th_n: ["เลือด", "lɯat˥˧"],
     th_s: ["เลือด", "lɯat˥˩"],
-    za: ["lwed", "luət˧˧"],
+    za: {
+      form: "𮕠",
+      ipa:  "lɯːt̚˧",
+      alt: [
+        { form: "lwed", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "洫 / 𣼷 / 𰳨", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮕠 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["phja:t7", "pʰjaːt˦˦"],
     mlm: ["phɣa:t7", "pʰɣaːt˦˨"],
     swi: ["phjaat7", "pʰjaːt˧˥"],

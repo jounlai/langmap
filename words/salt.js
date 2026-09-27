@@ -779,7 +779,14 @@ WORDS.salt = {
     th_isan: ["เกือ", "kɯa˥"],
     th_n: ["เกื๋อ", "kɯa˩˧"],
     th_s: ["เกลือ", "klɯa˥"],
-    za: ["gyu", "kju˨˦"],
+    za: {
+      form: "𥑮",
+      ipa:  "kʲu˨˦",
+      alt: [
+        { form: "gyu", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "沽 / 浗 / 𱴤", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𥑮 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["kwo1", "kwo˦˨"],
     mlm: ["cwa1", "cwa˦˨"],
     swi: ["ʔdwə1", "ʔdwə˩˩"],

@@ -45,7 +45,11 @@ const LATIN_TONE = /[áàâǎéèêěíìîǐóòôǒúùûǔýỳỹ]|[a-z][́�
 function lint(entries) {
   const problems = [];
   for (const [code, pair] of entries) {
-    const ipa = Array.isArray(pair) ? pair[1] : pair;
+    // A rich cell ({form, ipa, alt}) carries its IPA in a field; taking the
+    // object itself stringified to "[object Object]", which has no Chao
+    // letter, so every rich tonal cell read as a violation.
+    const ipa = Array.isArray(pair) ? pair[1]
+        : (pair && typeof pair === 'object') ? pair.ipa : pair;
     if (!ipa || ipa === '—') continue;
     if (SUPER_DIGITS.test(ipa)) problems.push([code, ipa, 'superscript-digit tone (use Chao letters)']);
     if (TIE_BAR.test(ipa)) problems.push([code, ipa, 'tie-bar affricate (use bare tʃ/ts/dz)']);

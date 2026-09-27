@@ -590,7 +590,14 @@ WORDS.earth = {
     ce: ["латта", "latta"],
     alt: ["јер", "dʒer"],
     krc: ["топракъ", "topraq"],
-    za: ["doem", "tɤm˨˦"],
+    za: {
+      form: "垚",
+      ipa:  "tom˨˦",
+      alt: [
+        { form: "doem", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𮤬 / 𰊣 / 墪", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 垚 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["khəm5", "kʰəm˦˦"],
     mlm: ["na:m6", "naːm˩˩"],
     swi: ["hum5", "hum˧˥"],

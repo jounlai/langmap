@@ -297,7 +297,14 @@ WORDS.white = {
     th_isan: ["ขาว", "kʰaːw˩˧"],
     th_n: ["ขาว", "kʰaːw˩˧"],
     th_s: ["ขาว", "kʰaːw˩˧"],
-    za: ["hau", "haːu˨˦"],
+    za: {
+      form: "𭽑",
+      ipa:  "haːu˨˦",
+      alt: [
+        { form: "hau", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𰤘 / 䒵 / 皓", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭽑 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["kwa3", "kwa˥˩"],
     mlm: ["pa:k8", "paːk˩˩"],
     swi: ["paak8", "paːk˦˨"],

@@ -608,7 +608,13 @@ WORDS.head = {
     mg: ["loha", "ˈluha"],
     vi_c: ["đầu", "ɗəw˧˨"],
     th_isan: ["หัว", "hua˩˧"],
-    za: ["gyaeuj", "kʲau˥"],
+    za: {
+      form: "𬼣",
+      ipa:  "kʲau˥",
+      alt: [
+        { form: "gyaeuj", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+      ],
+    },
     prs: ["سر", "sar"],
     mag: ["माथा", "maːtʰaː"],
     hne: ["मुड़", "muɽ"],

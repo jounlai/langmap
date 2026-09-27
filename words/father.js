@@ -331,7 +331,14 @@ WORDS.father = {
     th_isan: ["พ่อ", "pʰɔː˨˩"],
     th_n: ["พ่อ", "pʰɔː˨˩"],
     th_s: ["พ่อ", "pʰɔː˥˩"],
-    za: ["boh", "po˧"],
+    za: {
+      form: "佈",
+      ipa:  "po˧",
+      alt: [
+        { form: "boh", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "扶 / 仆 / 卜", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 佈 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["tɛ2", "tɛ˨˧˩"],
     mlm: ["pu4", "pu˨˦"],
     blr: ["kɨiŋ51 ʔe51", "kɨiŋ˥˩ ʔe˥˩"],

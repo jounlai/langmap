@@ -363,7 +363,14 @@ WORDS.rice = {
     ko_kp: ["쌀", "s͈al"],
     vi_c: ["gạo", "ɣaːw˨˨"],
     th_isan: ["ข้าว", "kʰaw˧"],
-    za: ["haeux", "hau˦˨"],
+    za: {
+      form: "𬖙",
+      ipa:  "hau˦˨",
+      alt: [
+        { form: "haeux", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𬖦 / 糇 / 后", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𬖙 — Sawndip was never standardised" },
+      ],
+    },
     azb: ["دویو", "dyˈjy"],
     ug: ["گۈرۈچ", "ɡyˈrytʃ"],
     mag: ["चाउर", "tʃaːur"],

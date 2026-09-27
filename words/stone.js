@@ -231,7 +231,14 @@ WORDS.stone = {
     th_isan: ["หิน", "hin˩˧"],
     th_n: ["หิน", "hin˨˦"],
     th_s: ["หิน", "hin˩˧"],
-    za: ["rin", "ɣin˨˦"],
+    za: {
+      form: "𬒞",
+      ipa:  "ɣin˨˦",
+      alt: [
+        { form: "rin", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𰧄 / 𮀡 / 砛", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𬒞 — Sawndip was never standardised" },
+      ],
+    },
     srh: ["zher", "ʑeɾ"],
     rbb: ["maːw", "maːw"],
     blr: ["—", "—"],

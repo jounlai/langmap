@@ -331,7 +331,14 @@ WORDS.drink = {
     th_isan: ["ดื่ม", "dɯːm˨˩"],
     th_n: ["ดื่ม", "dɯːm˨˩"],
     th_s: ["ดื่ม", "dɯːm˥˩"],
-    za: ["gwn", "kɯn˨˦"],
+    za: {
+      form: "𫩒",
+      ipa:  "kɯn˨˦",
+      alt: [
+        { form: "gwn", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "啃 / 巾 / 𩚍", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𫩒 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["na4", "na˨˦"],
     mlm: ["hɣop7", "hɣop˥˥"],
     swi: ["ɣəm4", "ɣəm˥˩"],

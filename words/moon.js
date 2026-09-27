@@ -333,7 +333,7 @@ WORDS.moon = {
     th_s: ["เดือน", "dɯːan˥"],
     za: {
       form: "月",
-      ipa:  "dan˥",
+      ipa:  "ɗɯːn˨˦",
       alt: [
         { form: "ndwen", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
       ],

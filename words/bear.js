@@ -1204,7 +1204,7 @@ WORDS.bear = {
     qxs: ["ti", "ti"],
     ii: ["ꊈ", "ɣo˧˧"],
     nxq: ["ggvq", "ɡv̩˨˩"],
-    za: ["mui", "mui˨˦"],
+    za: ["mui", "muːi˨˦"],
     khb: ["ᦖᦲ", "miː"],
     shn: ["မီ", "miː"],
     blt: ["ꪢꪲ", "miː˨˦"],

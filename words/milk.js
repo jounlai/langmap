@@ -712,7 +712,14 @@ WORDS.milk = {
     nrf: ["lait", "lɛ"],
     khg: ["འོ་མ", "o˩˧ma˥˧"],
     cng: ["cəp", "tsəp"],
-    za: ["cij", "ɕi˥"],
+    za: {
+      form: "𭨪",
+      ipa:  "ɕi˥",
+      alt: [
+        { form: "cij", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𰞀 / 指 / 止", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭨪 — Sawndip was never standardised" },
+      ],
+    },
     bar: ["Muich", "muɪx"],
     pdt: ["Malkj", "malc"],
     rgn: ["làt", "lat"],

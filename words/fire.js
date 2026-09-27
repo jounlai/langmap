@@ -333,7 +333,7 @@ WORDS.fire = {
     th_s: ["ไฟ", "faj˥"],
     za: {
       form: "火",
-      ipa:  "fei˧˥",
+      ipa:  "fei˧˩",
       alt: [
         { form: "feiz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
       ],

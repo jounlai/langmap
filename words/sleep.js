@@ -195,7 +195,14 @@ WORDS.sleep = {
     cdo: ["睏", "kʰɑuŋ˨˩˧"],
     bo: ["ཉལ", "ɲäː"],
     th_isan: ["นอน", "nɔːn˥"],
-    za: ["ninz", "nin˧"],
+    za: {
+      form: "𭾮",
+      ipa:  "nin˧˩",
+      alt: [
+        { form: "ninz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "眠 / 𪰟 / 𭥓", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭾮 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["nu:n2", "nuːn˨˧˩"],
     mlm: ["nun2", "nun˩˨˩"],
     swi: ["n̥ak7", "n̥ak˥˥"],

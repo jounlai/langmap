@@ -332,7 +332,14 @@ WORDS.red = {
     th_isan: ["แดง", "dɛːŋ˧"],
     th_n: ["แดง", "dɛːŋ˧"],
     th_s: ["แดง", "dɛːŋ˥"],
-    za: ["nding", "ndiŋ˨˦"],
+    za: {
+      form: "𬻤",
+      ipa:  "ɗiŋ˨˦",
+      alt: [
+        { form: "nding", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𬮟 / 炩 / 焛", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𬻤 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["la:n3", "laːn˥˩"],
     mlm: ["l̥a:n3", "l̥aːn˥˧"],
     swi: ["haan3", "haːn˧˧"],

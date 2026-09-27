@@ -474,7 +474,14 @@ WORDS.green = {
     vi_s: ["xanh lá", "saŋ˧ laː˧˥"],
     vi_c: ["xanh lá", "sajŋ˧ laː˧˥"],
     th_isan: ["เขียว", "kʰiaw˩˧"],
-    za: ["heu", "heu˨˦"],
+    za: {
+      form: "𫇯",
+      ipa:  "heːu˨˦",
+      alt: [
+        { form: "heu", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𮧃 / 𬰗 / 靘", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𫇯 — Sawndip was never standardised" },
+      ],
+    },
     ug: ["يېشىل", "jeˈʃil"],
     prs: ["سبز", "sabz"],
     mag: ["हरियर", "ɦərijər"],

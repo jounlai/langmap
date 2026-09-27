@@ -355,7 +355,14 @@ WORDS.tooth = {
     th_isan: ["ฟัน", "fan˧"],
     th_n: ["ฟัน", "fan˧"],
     th_s: ["ฟัน", "fan˥"],
-    za: ["heuj", "hɐu˧˥"],
+    za: {
+      form: "𭷐",
+      ipa:  "heːu˥",
+      alt: [
+        { form: "heuj", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "𰠣 / 𭷑 / 啨", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𭷐 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["hi:u3", "hiːu˥˩"],
     mlm: ["fan1", "fan˦˨"],
     swi: ["vjən1", "vjən˩˩"],

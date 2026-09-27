@@ -493,7 +493,14 @@ WORDS.wind = {
     kum: ["ел", "jel"],
     hmn: ["cua", "tɕua˧"],
     mh: ["an̄", "aŋ"],
-    za: ["rumz", "ɣum˨"],
+    za: {
+      form: "𮨭",
+      ipa:  "ɣum˧˩",
+      alt: [
+        { form: "rumz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
+        { form: "林 / 淋 / 啉", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮨭 — Sawndip was never standardised" },
+      ],
+    },
     mmd: ["ləm1", "ləm˦˨"],
     mlm: ["ləm2", "ləm˩˨˩"],
     swi: ["lum1", "lum˩˩"],

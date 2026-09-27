@@ -831,6 +831,7 @@ WORDS.person = {
     ddo: ["инсан", "insan"],
     mgo: ["wə̀d", "wə̀d"],
     dbq: ["hidi", "hidi"],
-    vi_han: ["人", "ɲən˧˧"]
+    vi_han: ["人", "ɲən˧˧"],
+    vi_nom: ["𠊛", "ŋɨəi˨˩"]
   }
 };

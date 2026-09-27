@@ -806,6 +806,7 @@ WORDS.book = {
     ddo: ["тӏек", "tʼek"],
     mgo: ["ə̀ŋwàʼnɨ̀", "ə̀ŋwàʔnɨ̀"],
     dbq: ["beftere", "beftere"],
-    vi_han: ["書", "tʰɨ˧˧"]
+    vi_han: ["書", "tʰɨ˧˧"],
+    vi_nom: ["冊", "sajk˧˥"]
   }
 };

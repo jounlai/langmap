@@ -150,6 +150,19 @@
                 U+2512C, U+254A5, U+25E58, U+2629A, U+28492, U+29A6B,
                 U+2A004, U+2A5AB, U+2D46B;
         }
+        /* Four Chữ Nôm glyphs the vi_nom row needs here and the wordmap Nôm
+           subset does not carry — 𡶀 núi, 㴜 biển, 𢵧 ngựa, 𠰘 miệng. The Han
+           Map already self-hosts them in NomNaTong-hanmap.woff2, so this
+           serves that same file rather than cutting a second one, scoped to
+           exactly these four. Same family, so it rides the existing chains. */
+        @font-face {
+            font-family: 'Nom Serif Subset';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('fonts/NomNaTong-hanmap.woff2') format('woff2');
+            unicode-range: U+3D1C, U+20C18, U+21D80, U+22D67;
+        }
         /* Rare-CJK glyphs common device fonts lack — Zhuang Sawndip (古壮字) in
            CJK Ext-B/E/F (𭓨 house, 𭝚 love, 𫱆 mother, owner 2026-07-15), plus
            the Chữ Nôm 𩻐 (U+29ED0, mắm) used by the historical sushi cell.
@@ -3666,7 +3679,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=331"></script>
-    <script src="word_manifest.js?v=721"></script>
+    <script src="word_manifest.js?v=722"></script>
     <script src="word_labels.js?v=66"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -3695,8 +3708,8 @@
             meta:     362,
             trivia:   43,
             triviaI18n: 25,
-            words:      721,
-            langWords:    453,
+            words:      722,
+            langWords:    454,
             labels:      66,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,

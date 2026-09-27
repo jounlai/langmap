@@ -919,6 +919,7 @@ WORDS.mouth = {
     aqc: ["ссоб", "sːob"],
     ddo: ["гьахъу", "haqu"],
     mgo: ["ɨchû", "ɨtʃû"],
-    vi_han: ["口", "xəw˧˩˧"]
+    vi_han: ["口", "xəw˧˩˧"],
+    vi_nom: ["𠰘", "miəŋ˨ˀ"]
   }
 };

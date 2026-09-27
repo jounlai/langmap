@@ -799,6 +799,7 @@ WORDS.mountain = {
     ddo: ["хӏон", "ħon"],
     mgo: ["ɨwum", "ɨwum"],
     dbq: ["caɗak", "tʃaɗak"],
-    vi_han: ["山", "səːn˧˧"]
+    vi_han: ["山", "səːn˧˧"],
+    vi_nom: ["𡶀", "nui˧˥"]
   }
 };

@@ -358,7 +358,7 @@ Total: 1188 codes.
 | `fud` | East Futunan | 東フツナ語 | Austronesian (Polynesian, Nuclear Polynesian) | ~6.5K (endangered) |
 | `fur` | Friulian | フリウリ語 | Romance (Rhaeto-Romance) | ~600K |
 | `fvr` | Fur | フール語 | Nilo-Saharan (Fur) | ~790K |
-| `fy` | Frisian | フリジア語 | Germanic | ~500K |
+| `fy` | West Frisian | 西フリジア語 | Germanic | ~500K |
 | `ga` | Irish | アイルランド語 | Celtic | ~1.7M (L1: ~70K) |
 | `gaa` | Ga | ガー語 | Niger-Congo | ~750K |
 | `gag` | Gagauz | ガガウズ語 | Turkic (Oghuz) | ~150K |

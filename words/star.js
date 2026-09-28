@@ -1242,5 +1242,6 @@ WORDS.star = {
     tsj: ["karmamindu", "kaɾmamindu"],
     lep: ["ᰠᰝᰩᰲ", "səhɔr"],
     mhy: ["wawahiaŋ", "wawahiaŋ"],
+    gsw_als: ["Stërn", "ʃtærn"]
   },
 };

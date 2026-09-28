@@ -1247,6 +1247,7 @@ WORDS.heart = {
     lun: ["muchima", "mutʃima"],
     tsj: ["thinglom", "tʰiŋlom"],
     lep: ["ᰣᰦᰜᰪᰳ", "ʔalɯt"],
-    mhy: ["atei", "atei"]
+    mhy: ["atei", "atei"],
+    gsw_als: ["Hërz", "hærts"]
   },
 };

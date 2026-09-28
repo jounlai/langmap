@@ -1254,5 +1254,6 @@ WORDS.eye = {
     tsj: ["ming", "miŋ"],
     lep: ["ᰣᰦᰕᰧᰭᰶ", "ʔamik"],
     mhy: ["mate", "mate"],
+    gsw_als: ["Aug", "ɒik"]
   },
 };

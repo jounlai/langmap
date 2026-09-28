@@ -1249,5 +1249,6 @@ WORDS.name = {
     tsj: ["ming", "miŋ"],
     lep: ["ᰣᰦᰓᰥᰤᰦᰵ", "ʔabrjaŋ"],
     mhy: ["ŋaran", "ŋaran"],
+    gsw_als: ["Nàme", "nɒːmə"]
   },
 };

@@ -1249,5 +1249,6 @@ WORDS.love = {
     tsj: ["phangpe", "pʰaŋpe"],
     lep: ["ᰣᰦᰆᰬ", "ʔace"],
     mhy: ["hamen", "hamen"],
+    gsw_als: ["Lieb", "liəp"]
   },
 };

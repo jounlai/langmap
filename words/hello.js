@@ -1242,5 +1242,6 @@ WORDS.hello = {
     tsj: ["kuzuzangpo", "kuzuzaŋpo"],
     lep: ["ᰂᰦᰮᰛᰧᰶ", "kʰamri"],
     mhy: ["tabe", "tabe"],
+    gsw_als: ["Salü", "saly"]
   },
 };

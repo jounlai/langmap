@@ -1249,5 +1249,6 @@ WORDS.father = {
     tsj: ["apa", "apa"],
     lep: ["ᰣᰦᰓᰨ", "ʔabo"],
     mhy: ["amah", "amah"],
+    gsw_als: ["Vàtter", "fɒtər"]
   },
 };

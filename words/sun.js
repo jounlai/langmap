@@ -1253,5 +1253,6 @@ WORDS.sun = {
     tsj: ["ngam", "ŋam"],
     lep: ["ᰠᰗᰪᰭ", "sətsɯk"],
     mhy: ["mate andrau", "mate andrau"],
+    gsw_als: ["Sùnn", "sʊn"]
   },
 };

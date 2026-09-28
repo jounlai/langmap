@@ -1279,5 +1279,6 @@ WORDS.tooth = {
     tsj: ["sha", "ɕa"],
     lep: ["ᰣᰑᰨ", "afo"],
     mhy: ["dipen", "dipen"],
+    gsw_als: ["Zohn", "tsoːn"]
   },
 };

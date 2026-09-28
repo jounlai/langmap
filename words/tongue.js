@@ -1261,5 +1261,6 @@ WORDS.tongue = {
     tsj: ["le", "le"],
     lep: ["ᰣᰜᰧ", "ali"],
     mhy: ["lelaʔ", "lelaʔ"],
+    gsw_als: ["Zùng", "tsʊŋ"]
   },
 };

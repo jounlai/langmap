@@ -941,6 +941,7 @@ WORDS.new = {
     ium: ["siang", "siaŋ˧"],
     kpy: ["нытуйӄин", "nətujqin"],
     aqc: ["мацӏаттут", "matsʼatːut"],
-    mgo: ["fi", "fi"]
+    mgo: ["fi", "fi"],
+    gsw_als: ["nei", "nei"]
   },
 };

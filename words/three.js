@@ -1255,6 +1255,7 @@ WORDS.three = {
     lun: ["satu", "satu"],
     tsj: ["sam", "sam"],
     lep: ["ᰠᰦᰮ", "səm"],
-    mhy: ["telo", "telo"]
+    mhy: ["telo", "telo"],
+    gsw_als: ["drei", "drei"]
   },
 };

@@ -1249,5 +1249,6 @@ WORDS.drink = {
     tsj: ["jame", "dʑame"],
     lep: ["ᰋᰩᰵ", "tʰɔŋ"],
     mhy: ["ŋoʔot", "ŋoʔot"],
+    gsw_als: ["trìnke", "trɪŋkə"]
   },
 };

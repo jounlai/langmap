@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1188 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1189 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -5254,6 +5254,14 @@ const LANG_DATA = {
   fra_jer: { name: 'Jèrriais', native: 'Jèrriais', lat: 49.21, lng: -2.13,
 },
   gsw_w: { name: 'Walliser German', native: 'Wallisertiitsch', lat: 46.32, lng: 7.99,
+},
+  // Alsatian (Elsässisch) — Low Alemannic, Alsace (France). ISO has no code of its
+  // own (it sits under gsw with Swiss German); Glottolog files it in swis1247 (Central Alemannic).
+  // Added 2026-09-28 when the owner checked LangMap against an EU regional-
+  // languages map and it was the one of fourteen with no row. Pronunciations
+  // are one source — ASJP ALSATIAN (André Müller) — read against the
+  // Wörterbuch der elsässischen Mundarten (Martin & Lienhart 1899–1907).
+  gsw_als: { name: 'Alsatian', native: 'Elsässisch', lat: 48.58, lng: 7.75, // Strasbourg
 },
   huz: { name: 'Hunzib', native: 'гьонкьос мыц', lat: 42.16, lng: 46.17,
 },

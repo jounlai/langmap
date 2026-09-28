@@ -1249,5 +1249,6 @@ WORDS.you = {
     tsj: ["nan", "nan"],
     lep: ["ᰝᰩ", "hɔ"],
     mhy: ["hañuʔ", "haɲuʔ"],
+    gsw_als: ["dü", "dy"]
   },
 };

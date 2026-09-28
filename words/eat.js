@@ -1249,5 +1249,6 @@ WORDS.eat = {
     tsj: ["zale", "zale"],
     lep: ["ᰙᰨ", "dzo"],
     mhy: ["kuman", "kuman"],
+    gsw_als: ["ësse", "æsə"]
   },
 };

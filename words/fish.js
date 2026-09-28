@@ -1264,5 +1264,6 @@ WORDS.fish = {
     tsj: ["nga", "ŋa"],
     lep: ["ᰋᰨ", "ŋo"],
     mhy: ["kenah", "kenah"],
+    gsw_als: ["Fìsch", "fɪʃ"]
   },
 };

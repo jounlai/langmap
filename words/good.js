@@ -1248,6 +1248,7 @@ WORDS.good = {
     lun: ["chachiwahi", "tʃatʃiwahi"],
     tsj: ["lekpu", "lekpu"],
     lep: ["ᰣᰦᰛᰤᰫᰮ", "ʔarjum"],
-    mhy: ["maʔeh", "maʔeh"]
+    mhy: ["maʔeh", "maʔeh"],
+    gsw_als: ["güet", "ɡyət"]
   },
 };

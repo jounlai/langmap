@@ -1248,6 +1248,7 @@ WORDS.two = {
     lun: ["ayedi", "ajedi"],
     tsj: ["nyiktsing", "ɲiktsiŋ"],
     lep: ["ᰉᰬᰳ", "ɲet"],
-    mhy: ["rueh", "rueh"]
+    mhy: ["rueh", "rueh"],
+    gsw_als: ["zwei", "tsvei"]
   },
 };

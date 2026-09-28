@@ -1249,5 +1249,6 @@ WORDS.i = {
     tsj: ["jang", "dʑaŋ"],
     lep: ["ᰃᰨ", "go"],
     mhy: ["aku", "aku"],
+    gsw_als: ["ich", "ɪx"]
   },
 };

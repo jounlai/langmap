@@ -1136,6 +1136,7 @@ WORDS.ear = {
     kpy: ["вэлолӈын", "velolŋən"],
     mgo: ["ətǒŋ", "ətǒŋ"],
     dbq: ["zlimi", "ɮimi"],
-    chy: ["mahtovóoʼȯtse", "mahtovóːʔotse"]
+    chy: ["mahtovóoʼȯtse", "mahtovóːʔotse"],
+    gsw_als: ["Ohr", "oːr"]
   },
 };

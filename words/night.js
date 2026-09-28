@@ -1253,5 +1253,6 @@ WORDS.night = {
     tsj: ["binang", "binaŋ"],
     lep: ["ᰍᰱ", "nap"],
     mhy: ["kamalem", "kamalem"],
+    gsw_als: ["Nàcht", "nɒxt"]
   },
 };

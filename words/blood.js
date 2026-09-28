@@ -1259,5 +1259,6 @@ WORDS.blood = {
     tsj: ["yi", "ji"],
     lep: ["ᰟᰧ", "vi"],
     mhy: ["iraʔ", "iraʔ"],
+    gsw_als: ["Blüet", "blyət"]
   },
 };

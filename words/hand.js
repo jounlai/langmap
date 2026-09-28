@@ -80,7 +80,7 @@ WORDS.hand = {
       pt_mo: ["mão", "mɐ̃w̃"],
       lb: ["Hand", "hɑnt"],
       gcr: ["men", "mɛn"],
-      acf: ["lanmen", "lɑ̃mɛn"],
+      acf: ["lanmen", "lãmɛn"],
       gan_yc: ["手", "ʂəu̯˧˧"],
       gan_ja: ["手", "ɕiu˨˩˧"],
       gan_fz: ["手", "ɕiu˧˥"],

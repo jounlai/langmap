@@ -533,7 +533,7 @@ WORDS.blood = {
     li: ["blood", "bloːt"],
     nn: ["blod", "bluː"],
     fo: ["blóð", "bloːʊ"],
-    fr_qc: ["sang", "sɑ̃"],
+    fr_qc: ["sang", "sã"],
     fr_af: ["sang", "sɑ̃"],
     fr_be: ["sang", "sɑ̃"],
     fr_ch: ["sang", "sɑ̃"],

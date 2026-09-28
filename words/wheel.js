@@ -729,7 +729,7 @@ WORDS.wheel = {
     oj: ["detibised", "detibised"],
     pqm: ["wahkaliqs", "wahkalikʷs"],
     mic: ["kiwtoʼqiaq", "kiwdoːɡiax"],
-    nv: ["bąąs", "pɑ̃ːs"],
+    nv: ["bąąs", "pãːs"],
     chr: ["ᎦᏆᏘᏗ", "ɡakʷatdi"],
     iu: ["ᐊᒃᓴᓗᐊᖅ", "aksaluaq"],
     ik: ["aksraligaun", "akʐaliɡaun"],

@@ -984,7 +984,7 @@ WORDS.tooth = {
     fa_clas: ["دندان", "dandaːn"],
     syc: ["ܫܢܐ", "ʃenːaː"],
     fro: ["dent", "dent"],
-    fr_class: ["dent", "dãt"],
+    fr_class: ["dent", "dɑ̃"],
     it_dan: ["dente", "ˈdente"],
     goh: ["zand", "tsand"],
     gez: ["ስን", "sənː"],

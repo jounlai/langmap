@@ -117,7 +117,7 @@ WORDS.eye = {
       trn: ["ugʼa", "uçʔa"],
       ake: ["emïk", "emɨk"],
       aoc: ["enu", "enu"],
-      gun: ["ãg̃u", "ɑ̃ɡ̃u"],
+      gun: ["ãg̃u", "ãɡ̃u"],
       zdj: ["dzitso", "dzitso"],
       ayl: ["عين", "ʕeːn"],
       abv: ["عين", "ʕɑjn"],

@@ -328,7 +328,7 @@ WORDS.hundred = {
     es_py: ["cien", "sjen"],
     es_pa: ["cien", "sjen"],
 
-    fr_qc: ["cent", "sɑ̃"],
+    fr_qc: ["cent", "sã"],
     fr_be: ["cent", "sɑ̃"],
     fr_ch: ["cent", "sɑ̃"],
     fr_lu: ["cent", "sɑ̃"],
@@ -460,12 +460,12 @@ WORDS.hundred = {
     aii: ["ܡܐܐ", "maː"],
 
     // --- Creoles and mainland Southeast Asia --------------------------------
-    gcr: ["san", "sɑ̃"],
-    acf: ["san", "sɑ̃"],
-    gcf: ["san", "sɑ̃"],
-    mfe: ["san", "sɑ̃"],
-    rcf: ["san", "sɑ̃"],
-    crs: ["san", "sɑ̃"],
+    gcr: ["san", "sã"],
+    acf: ["san", "sã"],
+    gcf: ["san", "sã"],
+    mfe: ["san", "sã"],
+    rcf: ["san", "sã"],
+    crs: ["san", "sã"],
     bah: ["hundred", "ˈhʌndɹəd"],
     hwc: ["hundred", "ˈhʌndɹəd"],
     srn: ["hondro", "hondro"],

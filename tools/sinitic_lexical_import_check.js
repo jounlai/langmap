@@ -85,6 +85,13 @@ const ALLOW = {
     // its siblings and cannot see that the siblings are the countryside.
     'tongue|gan': true,
 
+    // orange: Manila's word is 橙 chhiâm (also siâm), not the 柑仔 of every
+    // other Hokkien row. Wiktionary's dial-syn table for 橙子 gives 橙 as the
+    // only Philippine Southern Min entry, and 橙 carries a reading tagged for
+    // Manila (ph), Malaysia and Singapore. It is a Hokkien reading of the character,
+    // not the Mandarin word borrowed in; added 2026-09-30 with the row.
+    'orange|nan_ph': true,
+
     // --- tooth. NOT allowed, and listed here only to say why: `nan_pn` and
     // `nan_hai` are the two Min rows still on 牙 after Teochew and Puxian moved
     // to 齒 on 2026-09-05. Haikou IS 齒 in the dialect tables, so `nan_hai` is

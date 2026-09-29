@@ -934,7 +934,7 @@ const LANG_DATA = {
 },
   zh_sc: { name: "Sichuan Mandarin", native: '四川话', lat: 30.57, lng: 104.07,
 },
-  cdo: { name: 'Min Dong', native: '闽东语', lat: 26.07, lng: 119.30,
+  cdo: { name: 'Eastern Min', native: '闽东语', lat: 26.07, lng: 119.30,
 },
   // Audit Task 146: Lhasa Tibetan tones added per Wiktionary (Tournadre
   // binary HIGH/LOW notation, written-initial-derived). Voiced initials
@@ -2848,7 +2848,7 @@ const LANG_DATA = {
 },
   // === Phase 3H: Sinitic (Chinese) varieties ===
   // Min branch
-  mnp: { name: "Min Bei", native: '建瓯话', lat: 27.04, lng: 118.30, // Jian'ou
+  mnp: { name: "Northern Min", native: '建瓯话', lat: 27.04, lng: 118.30, // Jian'ou
 },
   // (cpx Pu-Xian Min moved to later block — see end of LANG_DATA, audit §6.28 dedup Session 4)
   nan_te: { name: 'Teochew', native: '潮州话', lat: 23.35, lng: 116.68, // Shantou

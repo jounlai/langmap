@@ -672,7 +672,7 @@ Total: 1190 codes.
 | `mnc` | Manchu | 満州語 | Tungusic (Manchu-Tungus, Southern) | ~20 (critically endangered) |
 | `mni` | Meitei | マイテイ語 | Sino-Tibetan (Tibeto-Burman) | ~1.7M |
 | `mnk` | Mandinka | マンディンカ語 | Niger-Congo (Mande, Manding) | ~1.5M |
-| `mnp` | Min Bei | 閩北語 | Sinitic (Min Bei / Northern Min) | ~10M |
+| `mnp` | Northern Min | 閩北語 | Sinitic (Min Bei / Northern Min) | ~10M |
 | `mns` | Mansi | マンシ語 | Uralic (Ob-Ugric) | ~940 |
 | `mnw` | Mon | モン語 | Austroasiatic (Mon-Khmer, Monic) | ~1M (Myanmar) + ~50K (Thailand) |
 | `moc` | Mocoví | モコビ語 | Guaicuruan | ~4K (Chaco & Santa Fe, Argentina) |

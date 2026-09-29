@@ -921,7 +921,7 @@ WORDS.bear = {
     p_sit: ["*d-wam", "d-wam"],
     zh_song: ["熊", "ɕiʊŋ˧˥"],
     zh_wenyan_edu: ["熊", "hʊŋ˨˩"],
-    vi_han: ["熊", "huŋ˨˩"],
+    vi_han: ["熊", "huŋ͡m˨˩"],
     zh_tw: ["熊", "ɕiʊŋ˧˥"],
     nan: ["熊", "him˨˦"],
     dng: ["щүн", "ɕyn˨˦"],

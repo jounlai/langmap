@@ -671,7 +671,7 @@ WORDS.house = {
     h_goguryeo: ["—", "—"],
     ko_gor: ["集", "*tɕip"],
     ko_em: ["집", "tɕip"],
-    vi_han: ["屋", "ok˧˥"],
+    vi_han: ["屋", "ok͡p˧˥"],
     vi_nom: ["茹", "ɲaː˨˩"],
     eo: ["domo", "ˈdomo"],
     vo: ["dom", "dom"],

@@ -112,7 +112,7 @@ WORDS.wind = {
     och: ["風", "*prəm"],
     zh_tang: ["風", "pjuŋ"],
     zh_wenyan_edu: ["風", "fʊŋ˥"],
-    vi_han: ["風", "fɔŋ˧˧"],
+    vi_han: ["風", "fɔŋ͡m˧˧"],
     ja: ["風", "kaze"],
     ja_osa: ["風", "kaze"],
     ja_aom: ["風", "kadze"],

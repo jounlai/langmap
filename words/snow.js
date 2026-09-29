@@ -423,7 +423,7 @@ WORDS.snow = {
     sc: ["nie", "nie"],
     iu: ["ᐊᐳᑦ", "aput"],
     la: ["nix", "niks"],
-    el_grc: ["χιών", "kʰiɔːn"],
+    el_grc: ["χιών", "kʰiɔ̌ːn"],
     el_kath: ["χιών", "çiˈon"],
     enm: ["snow", "snɔu"],
     en_em: ["snow", "snoː"],

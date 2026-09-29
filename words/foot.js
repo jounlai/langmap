@@ -2218,7 +2218,7 @@ WORDS.foot = {
     vep: ["jaug", "jɑʊɡ"],  // One word for the whole lower limb, the Uralic norm.
     vi: ["chân", "tɕən˧"],  // chân covers the whole lower limb; bàn chân ('sole-of-chân') is the foot-specific compound. tay/cánh tay works the same way on the arm.
     vi_c: ["chân", "tɕən˧"],  // chân runs the whole limb and bàn chân is the foot; the row's own phân fɤn˧ settles the cell, since Central keeps the -n that tên teːŋ merges, and writes the ngang tone ˧ in twenty cells against ˥ in nine.
-    vi_han: ["足", "tuk˧˥"],  // Like zh_wenyan_edu this row reads Chinese with a local pronunciation, so the lexeme is Classical 足 — Từ điển Hán Nôm glosses túc 'chân người'.
+    vi_han: ["足", "tuk͡p˧˥"],  // Like zh_wenyan_edu this row reads Chinese with a local pronunciation, so the lexeme is Classical 足 — Từ điển Hán Nôm glosses túc 'chân người'.
     vi_nom: ["蹎", "tɕən˧"],  // Nôm writes the native word, so this cell is Vietnamese chân and not Sino-Vietnamese túc — the split the vi_han row exists to show. 蹎 is 足 radical + 真 phonetic. chân covers the whole limb; bàn chân is the foot proper.
     vi_s: ["chân", "cəŋ˧"],  // The same chân, but the South applies the -n to -ŋ merger to this rime - its phân is fɤŋ˧ where Central's is fɤn˧ - and the row writes the ch- of chó and chào as ɕ, so the two cells part company on both the coda and the initial.
     vls: ["voet", "vut"],  // voet vs bêen, as Dutch; poot is the animal's limb.

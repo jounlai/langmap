@@ -328,7 +328,7 @@ WORDS.cuckoo = {
     ja_chu: ["ほととぎす", "ɸototoɡisu"],
     ko_mid: ["버국새", "pəkuk̚saj"],
     ko_em: ["뻐꾹새", "p͈ʌk͈uk̚s͈ɛ"],
-    vi_han: ["布穀", "ɓo˧˥ kok̚˧˥"],
+    vi_han: ["布穀", "ɓo˧˥ kok͡p̚˧˥"],
     vi_nom: ["布穀", "ɓo˧˩ ko˧ˀ˥"],
     eo: ["kukolo", "kuˈkolo"],
     ia: ["cucu", "ˈkuku"],

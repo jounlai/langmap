@@ -37,7 +37,12 @@ const isTonal = (code, ipa) => {
 
 const SUPER_DIGITS = /[⁰¹²³⁴⁵⁶⁷⁸⁹]/;
 const CHAO = /[˥˦˧˨˩]/;          // ˥ ˦ ˧ ˨ ˩
-const TIE_BAR = /͡/;                                  // ͡ combining tie bar
+// A tie bar on an AFFRICATE (t͡ʃ, t͡s, d͡ʒ, t͡ɕ …) is against house style — the
+// atlas writes them bare. A tie bar on a DOUBLY-ARTICULATED stop is not an
+// affricate and IPA requires it: Vietnamese -ong/-oc are [ŋ͡m]/[k͡p], and
+// k͡p/ɡ͡b are ordinary West African consonants. The first version of this
+// rule flagged every tie bar and so called ŋ͡m an affricate (2026-09-29).
+const TIE_BAR = /[ptdkɡbc]͡[ʃʒsɕʑzʂʐçʝfvxɬ]/;       // affricates only
 // Latin vowels carrying acute/grave/caron/circumflex (precomposed or combining)
 // used as tone — illegal on a tonal-language cell (Chao letters required).
 const LATIN_TONE = /[áàâǎéèêěíìîǐóòôǒúùûǔýỳỹ]|[a-z][́̀̂̌]/i;

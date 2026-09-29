@@ -176,7 +176,7 @@ WORDS.atsign = {
     zh_tw: ["小老鼠", "ɕi̯ɑʊ̯˨˩˦ lɑʊ̯˨˩˦ ʂu˨˩˦"],
     yue: ["at", "ɛːt̚˥"],
     // === Southeast & South Asia ===
-    vi: ["a còng", "aː˧ kɔŋ˨˩"],
+    vi: ["a còng", "aː˧ kɔŋ͡m˨˩"],
     id: ["et", "ɛt"],
     hi: ["एट", "eːʈ"],
     // === English (all read the borrowed "at") ===
@@ -359,7 +359,7 @@ WORDS.atsign = {
     en_ck: ["at", "æt"],
     nl_be: ["apenstaartje", "ˈaːpənstaːrtjə"],
     ko_kp: ["골뱅이", "kolbɛŋi"],
-    vi_s: ["a còng", "aː˧ kɔŋ˨˩"],
+    vi_s: ["a còng", "aː˧ kɔŋ͡m˨˩"],
     ko_bus: ["골뱅이", "kolbɛŋi"],
     ko_jl: ["골뱅이", "kolbɛŋi"],
     ko_yb: ["골뱅이", "kolbɛŋi"]

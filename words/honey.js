@@ -77,7 +77,7 @@ WORDS.honey = {
     ko: ["꿀", "k͈ul"],
     zh: ["蜂蜜", "fɤŋ˥ mi˥˩"],
     yue: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
-    vi: ["mật ong", "mət˨˩ ɔŋ˧"],
+    vi: ["mật ong", "mət˨˩ ɔŋ͡m˧"],
     th: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
     id: ["madu", "ˈmadu"],
     hi: ["शहद", "ʃəɦəd"],
@@ -419,7 +419,7 @@ WORDS.honey = {
     ar_tn: ["عسل", "ʕsəl"],
     arq: ["عسل", "ʕsəl"],
     en_jam: ["honey", "ˈhɵni"],
-    vi_nom: ["蜜螉", "mət˨˩ ɔŋ˧"],
+    vi_nom: ["蜜螉", "mət˨˩ ɔŋ͡m˧"],
 
     // --- Romance and Albanian — Latin mel, and *mélit in Albanian ----------
     it_dan: ["miele", "ˈmjɛːle"],
@@ -573,7 +573,7 @@ WORDS.honey = {
     th_n: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
     th_s: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
     th_isan: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
-    vi_s: ["mật ong", "mək˨˩˨ ɔŋ˧"],
+    vi_s: ["mật ong", "mək˨˩˨ ɔŋ͡m˧"],
 
     // --- Pacific and the Philippines ---------------------------------------
     // Two more Pacific reflexes of the mel/méli family, carried in by mission
@@ -825,7 +825,7 @@ WORDS.honey = {
     acu: ["wapasa yumiri", "wapasa jumiɾi"],
     nan_te: ["蜂蜜", "pʰaŋ˧˧ bik˥˥"],
     ar_lev: ["عسل", "ʕasal"],
-    vi_c: ["mật ong", "mət˨˨ ɔŋ˧"],
+    vi_c: ["mật ong", "mət˨˨ ɔŋ͡m˧"],
     ctg: ["মধু", "mɔdʱu"],
     rkt: ["মধু", "modʱu"],
     tn: ["tswina", "tswina"],

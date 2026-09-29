@@ -677,7 +677,7 @@ WORDS.eye = {
     h_goguryeo: ["—", "—"],
     ko_gor: ["嫩", "*nwun"],
     ko_em: ["눈", "nun"],
-    vi_han: ["目", "muk˨˩"],
+    vi_han: ["目", "muk͡p˨˩"],
     vi_nom: ["眜", "mat˧˥"],
     eo: ["okulo", "oˈkulo"],
     vo: ["log", "loɡ"],

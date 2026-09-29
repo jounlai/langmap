@@ -7559,6 +7559,7 @@ const HAN_DATA = {
       "hak_hy": "ngin",
       "nan": "jîn",
       "cdo": "ìng",
+      "mnp": "nêng",
       "zh": "rén",
       "zh_tw": "rén",
       "yue": "jan4",
@@ -7648,6 +7649,7 @@ const HAN_DATA = {
     "ipa": {
       "hsn_ld": "nin˩˧",
       cdo: "iŋ˩˧",
+      mnp: "neiŋ˧˧",
       "gan_yc": "ɲin˥",
       "gan_ja": "ɲin˦˥",
       "gan_fz": "ɲin˦˥",
@@ -26324,20 +26326,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "líng",
         "ipa": "liŋ˩˧",
-        "label": "文讀"
-      }
-    ],
-    "mnp": [
-      {
-        "native": "",
-        "surface": "nông",
-        "ipa": "nœyŋ˧˧",
-        "label": "訓讀（儂）"
-      },
-      {
-        "native": "",
-        "surface": "ngi̿ng",
-        "ipa": "ŋiŋ˩˧",
         "label": "文讀"
       }
     ],

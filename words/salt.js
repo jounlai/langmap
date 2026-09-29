@@ -369,7 +369,7 @@ WORDS.salt = {
     zh_tw: ["鹽", "jɛn˧˥"],
     zh_db: ["盐", "jɛn˧˥"],
     zh_tj: ["盐", "jɛn˦˥"],
-    zh_sc: ["盐", "iɛⁿ˨˩"],
+    zh_sc: ["盐", "iɛn˨˩"],
     zh_cd: ["盐", "jɛn˨˩"],
     zh_cq: ["盐", "jɛn˨˩"],
     zh_wh: ["盐", "jɛn˨˩˧"],
@@ -660,7 +660,7 @@ WORDS.salt = {
     ja_rys: ["真塩", "maːsu"],
     ko_mid: ["소곰", "sokom"],
     ko_gor: ["蘇甘", "*swokwom"],
-    ptrk: ["*tūŕ", "tūŕ"],
+    ptrk: ["*tūŕ", "tuːŕ"],
     pmng: ["*dabusun", "dabusun"],
     p_dra: ["*cuppu", "cuppu"],
     sux: ["𒁵", "mun"],
@@ -800,7 +800,7 @@ WORDS.salt = {
     tyz: ["cưa", "kɯə˧˧"],
     nut: ["cưa", "kɯə˧˧"],
     ptai: ["*klwɯə", "klwɯə"],
-    hmn: ["ntsev", "ntse˨˦"],
+    hmn: ["ntsev", "ᶯdʐe˨˦"],
     ium: ["nzauv", "dzau˧˩"],
     p_hmx: ["*ntsjəuX", "ntsjəu"],
 
@@ -1089,8 +1089,8 @@ WORDS.salt = {
     pot: ["siwtagen", "siwtaɡen"],
     esu: ["taryuq", "taʁjuq"],
     ess: ["таӷьюӄ", "taɣjuq"],
-    iu: ["ᑕᕆᐅᖅ", "tariuq"],
-    kl: ["taratsut", "taratsut"],
+    iu: ["ᑕᕆᐅᖅ", "taʁiuq"],
+    kl: ["taratsut", "taʁatsut"],
     tsz: ["itúkua", "iˈtukʷa"],
 
 

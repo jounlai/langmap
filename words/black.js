@@ -100,7 +100,7 @@ WORDS.black = {
     // --- Germanic -----------------------------------------------------
     nl: ["zwart", "zʋɑrt"],
     sv: ["svart", "svart"],
-    no: ["svart", "svɑrt"],
+    no: ["svart", "svɑʈ"],
     is: ["svartur", "ˈsvartʏr"],
     af: ["swart", "svart"],
 
@@ -194,7 +194,7 @@ WORDS.black = {
     // --- More Slavic --------------------------------------------------
     be: ["чорны", "ˈtʂornɨ"],
     rue: ["чорный", "ˈtʃornɨj"],
-    csb: ["czôrny", "ˈtʂɔrnɨ"],
+    csb: ["czôrny", "ˈtʃɔrni"],
     szl: ["czorny", "ˈtʂɔrnɨ"],
     dsb: ["carny", "ˈtsarnɨ"],
     hsb: ["čorny", "ˈtʃɔrnɨ"],
@@ -406,7 +406,7 @@ WORDS.black = {
     shx: ["kiaŋ22", "kiaŋ˨˨"],
     peh: ["χəra", "χəra"],
     tyz: ["đăm", "ɗam˧˧"],
-    nut: ["đăm", "dam˧˧"],
+    nut: ["đăm", "ɗam˧˧"],
     mas: ["narok", "narok"],
     din: ["col", "tʃol"],
 
@@ -446,7 +446,7 @@ WORDS.black = {
     tcs: ["blak", "blak"],
     pis: ["blak", "blak"],
     bi: ["blak", "blak"],
-    bah: ["black", "blæk"],
+    bah: ["black", "blak"],
     hwc: ["black", "blæk"],
     tpi: ["blakpela", "blakpela"],
     srn: ["blaka", "blaka"],
@@ -466,7 +466,7 @@ WORDS.black = {
     gun: ["hũ", "hũ"],
     yrl: ["pixuna", "piʃuna"],
     tpn: ["pixun", "piʃun"],
-    kl: ["qernertoq", "qeɳːeχtoq"],
+    kl: ["qernertoq", "qeɴːeχtoq"],
     atj: ["kaskitewaw", "kaskitewaw"],
 
     // --- Tibetic varieties — no tone in these rows, so none written -------
@@ -594,8 +594,8 @@ WORDS.black = {
 
     // --- Other Americas -----------------------------------------------
     nv: ["łizhin", "ɬìʒìn"],
-    iu: ["ᕿᕐᓂᖅᑐᖅ", "qiɾniqtuq"],
-    chr: ["ᎬᎾᎨ", "ɡʌ̃naɡe"],
+    iu: ["ᕿᕐᓂᖅᑐᖅ", "qiʁniqtuq"],
+    chr: ["ᎬᎾᎨ", "ɡə̃naɡe"],
     oj: ["makadewaa", "makadewaː"],
     mic: ["maqteweʼk", "maxteweːɡ"],
 
@@ -886,7 +886,7 @@ WORDS.black = {
     ngl: ["ooripa", "oːɾipa"],
     srr: ["ɓaal", "ɓaːl"],
     aoz: ["metan", "metan"],
-    nia: ["aitö", "aitø"],
+    nia: ["aitö", "aitɤ"],
     lhu: ["nâʼ", "nâʔ"],
     khb: ["ᦡᧄ", "dam˥"],
     kac: ["chyang", "tʃaŋ˧"],

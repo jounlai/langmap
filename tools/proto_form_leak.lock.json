@@ -754,5 +754,11 @@
     "proto": "pmng",
     "ruling": "leak",
     "note": "LEAK, and the cell should be EMPTY. Khitan personal pronouns are essentially unread: Kane's glossary has none, and Wu & Róna-Tas 2019 (AOH 72/1: 58) say glyph <bi> (225) 'is used only in transcription of Chinese' per Kane K62. The only pronoun the field has is <bod> 'body, oneself', tentatively 3sg, identified in 2017. Not yet emptied; see the zkt row audit in dev-handoff."
+  },
+  "ojp|bird": {
+    "form": "tori",
+    "proto": "p_jpn,p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese tori 鳥 (Man'yōshū) is one of the attestations Proto-Japonic *tori is reconstructed from. Surfaced 2026-09-29 when review 547 corrected the row's one ɾ to the r it writes everywhere else (kurosi, kasira, kəkərə)."
   }
 }

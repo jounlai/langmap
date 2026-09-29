@@ -80,7 +80,7 @@ WORDS.head = {
     // first shipped here, *tolugai, matched neither, and used ASCII g where
     // this row writes ɣ in every back-vowel gamma (*sibaɣun, *ɣajar,
     // *hulaɣan, *čilaɣun). Round 531.
-    pmng: ["*tolagaï", "tolagaï"],
+    pmng: ["*tolagaï", "tolaɡai"],
     ptrk: ["*baĺč", "baʎtʃ"],
     p_kor: ["*məri", "məri"],
     // From a mainland-only database: no Ryukyuan reflex means 'head'
@@ -396,7 +396,7 @@ WORDS.head = {
     mni: ["ꯀꯣꯛ", "kok"],
     lus: ["lu", "lu"],
     min: ["kapalo", "kapalo"],
-    nia: ["högö", "høɡø"],
+    nia: ["högö", "hɤɡɤ"],
     ban: ["sirah", "sirah"],
     ace: ["ulèë", "ulɛə"],
     gay: ["ulu", "ulu"],
@@ -457,7 +457,7 @@ WORDS.head = {
     bjn: ["kapala", "kapala"],
     abs: ["kapala", "kapala"],
     max: ["kapala", "kapala"],
-    sas: ["otak", "ɔtak"],
+    sas: ["otak", "otak"],
     kha: ["khlieh", "kʰlɛʔ"],
     mns: ["пуӈк", "puŋk"],
     mrw: ["olo", "olo"],
@@ -862,7 +862,7 @@ WORDS.head = {
     rwk: ["nrwe", "nɾwe"],
     bzj: ["hed", "hɛd"],
     tly: ["sə", "sə"],
-    ja_oki: ["頭", "tɕiburu"],
+    ja_oki: ["頭", "tɕibuɾu"],
     lbj: ["མགོ", "ɡo"],
     ho: ["kwarana", "kʷarana"],
     adi: ["dumpo", "dumpo"],

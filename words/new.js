@@ -706,7 +706,7 @@ WORDS.new = {
     mfa: ["baghu", "baɣu"],
     ii: ["ꀊꏀ", "a˧˧ʂɿ˥"],
     pcc: ["mos", "mo˧˥"],
-    hmn: ["tshiab", "tsʰia˥"],
+    hmn: ["tshiab", "tʂʰia˥"],
     wbm: ["khraox", "kʰrauʔ"],
     zza: ["newe", "ˈnɛwe"],
     sdh: ["نۊ", "nuː"],

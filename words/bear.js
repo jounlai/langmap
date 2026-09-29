@@ -706,7 +706,7 @@ WORDS.bear = {
     hy_grab: ["արջ", "ɑrdʒ"],
     // Punjabi and Gujarati keep the ṛkṣa reflex where Hindi prefers भालू.
     pa: ["ਰਿੱਛ", "rɪtʃʰ"],
-    gu: ["રીંછ", "ríiːtʃʰ"],
+    gu: ["રીંછ", "rĩːtʃʰ"],
     mr: ["अस्वल", "əsʋəl"],
 
     // --- Indo-European: the euphemisms --------------------------------
@@ -1093,7 +1093,7 @@ WORDS.bear = {
     nan_pn: ["熊", "him˨˦"],
     nan_hai: ["熊", "hiɔŋ˨˩"],
     yue_ts: ["熊", "huŋ˨˨"],
-    yue_gz: ["熊", "juŋ˨˩"],
+    yue_gz: ["熊", "jʊŋ˨˩"],
     yue_dg: ["熊", "jʊŋ˨˩"],
     yue_nn: ["熊", "juŋ˨˩"],
     yue_zs: ["熊", "hʊŋ˨˩"],
@@ -1154,7 +1154,7 @@ WORDS.bear = {
     lij: ["orso", "ˈɔrsu"],
     szl: ["niedźwiydź", "ɲɛdʑvɘtɕ"],
     csb: ["miedwiédz", "mʲɛdvjets"],
-    rue: ["медвідь", "medvidʲ"],
+    rue: ["медвідь", "ˈmedvidʲ"],
     sgs: ["meška", "mʲɛʃka"],
     ltg: ["luocs", "luots"],
     gv: ["maghouin", "maˈɣuːnʲ"],
@@ -1225,7 +1225,7 @@ WORDS.bear = {
     vi_s: ["gấu", "ɣəw˧˥"],
     mtq: ["củ", "kuː"],
     bru: ["sacâu", "sakəw"],
-    khw: ["اوہڅ", "ɔhts"],
+    khw: ["اوہڅ", "ohts"],
     zza: ["heş", "hɛʃ"],
     mzn: ["اش", "æʃ"],
     bal: ["مم", "mamm"],

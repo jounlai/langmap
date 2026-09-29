@@ -287,7 +287,7 @@ WORDS.milk = {
 
     // --- More Slavic and Baltic -----------------------------------------
     hsb: ["mloko", "ˈmlɔkɔ"],
-    dsb: ["mloko", "ˈmlɔko"],
+    dsb: ["mloko", "ˈmlɔkɔ"],
     csb: ["mlékò", "ˈmlɛkɔ"],
     szl: ["mlyko", "ˈmlɨkɔ"],
     rue: ["молоко", "moloˈko"],

@@ -694,7 +694,7 @@ WORDS.blue = {
     pmy: ["biru", "ˈbiɾu"],  // IPA taken verbatim from Kluge's own transcription, which already matches the row's style (row red: merah/ˈmeɾa). Kluge also records reduplicated biru~biru 'be very blue' (p. 212) and nyonyor 'be black and blue' (p. 582).
     pon: ["mei", "mei"],  // Green is expressed by the separate compounds pohndihpw / pohntehndipw ('on-grass', 'on-leaf'); blue is the simple stem mei. Distinct from mei 'breadfruit' and Mei₁ 'May' (< English).
     prg: ["galimban", "ɡaˈlimban"],  // Old Prussian galimban against zal'an 'green'; attested in the Elbing vocabulary.
-    prs: ["آبی", "ɒːbi"],  // Dari آبی against سبز, as in Iranian Persian.
+    prs: ["آبی", "ɑːbi"],  // Dari آبی against سبز, as in Iranian Persian.
     ps: ["شین", "ʃin"],  // Pashto شین covers blue and green alike — it is the word for the sky and for growing crops; زرغون is the narrower green. NorthEuraLex gives شین for blue with اسماني رنګه 'sky-coloured' as the disambiguating alternative.
     pt: ["azul", "ɐˈzuɫ"],  // azul vs verde; same Arabic etymology as Spanish.
     pwn: ["cangiangia", "tsaŋiaŋia"],  // 北排灣語 (Northern Paiwan), the variety the row's qudjidjilj/vuqavuqalj come from; cangiangia matches their reduplicated '…色的' shape. Class is INFERRED, not stated: the same dictionary keeps green separate (matjak 綠色/深綠, liljualjuas 綠色的, quljangas 青綠色) and the cangia example is about the sky, so blue looks distinct from green here. Caveat worth flagging: Paiwan cangia, Puyuma tremangiya and Amis tangiya '(pale) blue' resemble one another; I found no etymology for them in the ACD, so the possibility that this is a shared loan (which would make the class `borrowed`) is unresolved.

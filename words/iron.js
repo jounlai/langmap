@@ -115,7 +115,7 @@ WORDS.iron = {
     da: ["jern", "jɛɐ̯n"],
     is: ["járn", "jaurtn"],
     fo: ["jarn", "jaɳ"],
-    pl: ["żelazo", "ʒɛˈlazo"],
+    pl: ["żelazo", "ʒɛˈlazɔ"],
     cs: ["železo", "ˈʒɛlɛzo"],
     sk: ["železo", "ˈʒɛlɛzo"],
     sl: ["železo", "ʒeˈleːzo"],
@@ -484,12 +484,12 @@ WORDS.iron = {
 
     // --- Proto-languages that do have the word ----------------------------
     ptrk: ["*temür", "temür"],
-    pmng: ["*temür", "temür"],
+    pmng: ["*temür", "temyr"],
     p_tun: ["*sele", "sele"],
 
     // --- Austronesian — *bəsi west, unrelated words out in the Pacific ----
     mad: ["bessè", "bəsːɛ"],
-    nia: ["siʼöli", "siˈʔøli"],
+    nia: ["siʼöli", "siˈʔɤli"],
     ace: ["beusoe", "bɯˈsɔə"],
     bts: ["bosi", "bosi"],
     akb: ["bosi", "bosi"],
@@ -801,7 +801,7 @@ WORDS.iron = {
     gor: ["wuwate", "wuˈwate"],
     h_tagalog: ["ᜊᜃᜎ᜔", "ˈbakal"],
     ami: ["marad", "marad"],
-    pwn: ["vatjuljayan", "vatʲuɭajan"],
+    pwn: ["vatjuljayan", "vatʲuʎajan"],
     tay: ["baliq", "baliq"],
     bnn: ["ngul-a", "ŋulʔa"],
     trv: ["xiluy", "xiluj"],

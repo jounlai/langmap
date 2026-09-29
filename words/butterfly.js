@@ -130,7 +130,7 @@ WORDS.butterfly = {
     ja: ["蝶", "tɕoː"],  // Sino-Japanese 蝶 chō — WOLD classes it as clearly borrowed (from Chinese); the colloquial 蝶々 chōchō reduplicates it. Moth is a separate word, 蛾 ga.
     ko: ["나비", "nabi"],  // Moth is a separate word, 나방 nabang.
     zh: ["蝴蝶", "xu˧˥ tjɛ˧˥"],  // Bisyllabic 蝴蝶 húdié; WOLD glosses it hu2-die2 '[Western.Barbarians-moth/butterfly]'. Moth is 蛾 é.
-    hi: ["तितली", "titliː"],
+    hi: ["तितली", "tɪtliː"],
     bn: ["প্রজাপতি", "prɔdʒapɔti"],  // Sanskrit loan prajāpati 'lord of creatures'.
     ta: ["வண்ணத்துப்பூச்சி", "vaɳːatːupːuːtʃːi"],  // Compound of vaṇṇam 'colour' + pūcci 'insect'.
     ml: ["ചിത്രശലഭം", "tʃitraɕalabʰam"],  // Sanskrit compound citra 'variegated' + śalabha 'moth, grasshopper'.
@@ -206,7 +206,7 @@ WORDS.butterfly = {
     yrk: ["ламбӑрё", "lambərʲo"],
     evn: ["лэрэдэ", "lərədə"],
     gld: ["ко̄ко̄ни", "kɔːkɔːni"],  // Reduplicated kō-kō-.
-    niv: ["тап", "tæp"],
+    niv: ["тап", "tap"],
     ket: ["ӄумлей", "qʊmʎɛj"],
     ykg: ["самналдьэгэй", "samnaldʲeɡej"],
     ckt: ["кʼопаԓготкочьын", "qopaɬɣotkotɕʔən"],
@@ -309,7 +309,7 @@ WORDS.butterfly = {
     dsb: ["mjatel", "ˈmʲatɛl"],  // The Slavic *motylь root, as in Polish motyl and Czech motýl.
     orh: ["kɔldɪkan", "kɔldɪkan"],
     srm: ["adömítö", "adømítø"],
-    hmn: ["npuj npaim", "npu˥˨ npai˨˩"],  // Reduplicative npuj-npaim. WOLD's entry is White Hmong, written here in the RPA orthography the row already uses; the tone values are my reading of the RPA final letters.
+    hmn: ["npuj npaim", "ᵐbu˥˨ ᵐbai˨˩ˀ"],  // Reduplicative npuj-npaim. WOLD's entry is White Hmong, written here in the RPA orthography the row already uses; the tone values are my reading of the RPA final letters.
     djr: ["boṉba", "boɳba"],
     piu: ["pintapinta", "pintapinta"],  // Fully reduplicated pinta-pinta.
     wbt: ["wirripintapinta", "wiripintapinta"],  // Contains the same reduplicated pintapinta as the neighbouring Pintupi-Luritja row, with wirri- prefixed.
@@ -412,7 +412,7 @@ WORDS.butterfly = {
     es_cl: ["mariposa", "maɾiˈposa"],
     es_cu: ["mariposa", "maɾiˈposa"],
     es_an: ["mariposa", "maɾiˈposa"],
-    zh_sc: ["蝴蝶", "fu˨˩ tiɛ˨˩"],
+    zh_sc: ["蝴蝶", "fu˨˩ tie˨˩"],
     wuu: ["蝴蝶", "ɦu˨˧ diɪʔ˩˨"],
     hak_cn: ["蝴蝶", "fu˩˩ tʰiap˥"],
     nan_te: ["尾蝶", "bue˥˨ tiap˥˥"],
@@ -484,7 +484,7 @@ WORDS.butterfly = {
     bjn: ["kupu-kupu", "kupukupu"],
     bik: ["kulagbaw", "kulaɡˈbaw"],
     bug: ["kalubampa", "kalubampa"],
-    pcc: ["mbax", "mba˧˩"],
+    pcc: ["mbax", "ɓa˧˩"],
     wbm: ["pung piang", "puŋ piaŋ"],
     zza: ["perperike", "pɛrpɛˈɾike"],
     kru: ["पापला", "paːplaː"],

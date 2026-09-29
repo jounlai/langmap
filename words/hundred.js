@@ -60,7 +60,7 @@ WORDS.hundred = {
   data: {
     // --- UI languages -------------------------------------------------
     en: ["hundred", "ˈhʌndɹəd"],
-    ja: ["百", "hʲaku"],
+    ja: ["百", "hʲakɯ"],
     ko: ["백", "pɛk̚"],
     zh: ["百", "pai˨˩˦"],
     yue: ["百", "paːk˧"],
@@ -390,13 +390,13 @@ WORDS.hundred = {
 
     // --- Continental West Germanic ---------------------------------------
     de_at: ["hundert", "ˈhʊndɐt"],
-    de_ch: ["hundert", "ˈhʊndɐt"],
+    de_ch: ["hundert", "ˈhʊndərt"],
     de_lu: ["hundert", "ˈhʊndɐt"],
     nl_be: ["honderd", "ˈɦɔndərt"],
     lb: ["honnert", "ˈhonɐt"],
     nds: ["hunnert", "ˈhʊnɐt"],
     ksh: ["hundert", "ˈhʊndɐt"],
-    pdc: ["hunnert", "ˈhʊnɐt"],
+    pdc: ["hunnert", "ˈhʊnərt"],
     li: ["hóndert", "ˈhɔndərt"],
     sco: ["hunner", "ˈhʌnər"],
     en_jam: ["hundred", "ˈhɵndɹɛd"],
@@ -478,7 +478,7 @@ WORDS.hundred = {
     kxm: ["រយ", "rɔːj"],
     zh_wenyan_edu: ["百", "paːk˧"],
     zh_tw: ["百", "pai˨˩˦"],
-    ja_edo: ["百", "hʲaku"],
+    ja_edo: ["百", "hʲakɯ"],
     ja_heian: ["百", "momo"],
     ojp: ["百", "momo"],
     p_jpn: ["*momo", "momo"],
@@ -555,7 +555,7 @@ WORDS.hundred = {
     bbc: ["saratus", "saratus"],
     bts: ["saratus", "saratus"],
     iba: ["seratus", "səratus"],
-    mui: ["seratus", "səʁatus"],
+    mui: ["seratus", "səratus"],
     ljp: ["seratus", "səʁatus"],
     gay: ["seratus", "səratus"],
     min: ["saratuih", "saratuih"],
@@ -564,7 +564,7 @@ WORDS.hundred = {
     bug: ["saratuʼ", "saraˈtuʔ"],
     mad: ["saratos", "saratos"],
     sas: ["satus", "satus"],
-    nia: ["ötu", "øtu"],
+    nia: ["ötu", "ɤtu"],
     gor: ["mohetuto", "mohetuto"],
     dtp: ["hatus", "hatus"],
     sdo: ["siratus", "siraːtus"],
@@ -677,7 +677,7 @@ WORDS.hundred = {
     cic: ["talhipa", "taɬipa"],
     mus: ["cokpe", "tʃokpi"],
     bla: ["kiipippo", "kiːpipːo"],
-    pot: ["ngotwak", "ŋɡʊdwɑk"],
+    pot: ["ngotwak", "ŋɡotwak"],
     nv: ["neeznádiin", "neːznáːtiːn"],   // ten tens — neeznáá is this row's ten, -diin the decade suffix
     esu: ["yuinaak talliman", "juinaːk taɬiman"],   // five twenties: yuinaq is twenty, talliman this row's own five
     cuk: ["dulatar", "dulataɾ"],   // five persons — dula twenty, atar this row's own five
@@ -701,14 +701,14 @@ WORDS.hundred = {
     sma: ["tjuetie", "tɕuødie"],
     yai: ["sad", "sad"],
     tly: ["sa", "sa"],
-    luz: ["sad", "sað"],
+    luz: ["sad", "sad"],
     hif: ["sau", "səu"],
     hoc: ["sao", "sao"],   // borrowed from the Indo-Aryan neighbours, beside a native vigesimal mi hisi
     bsk: ["tha", "tʰaː"],
     kha: ["spah", "spaʔ"],
     grt: ["ritcha", "ritʃa"],
     cnh: ["za", "za"],
-    lus: ["za", "dʒa"],
+    lus: ["za", "za"],
     nmf: ["shakha", "ʃakʰə"],   // sha is the hundred, kha this row's own one
     njo: ["nuklang", "nuklaŋ"],
     nzm: ["heiket", "heiket"],   // hei is the hundred, ket the enclitic one
@@ -732,7 +732,7 @@ WORDS.hundred = {
     bgq: ["सौ", "so"],
     mai: ["सै", "sɛ"],
     thr: ["सौ", "sau"],
-    pnb: ["سو", "so"],
+    pnb: ["سو", "sɔː"],
     kfx: ["पंज बी", "pandʒ biː"],   // five twenties — bi is this row's own twenty, panj its five
     brh: ["صد", "sad"],   // Persian loan
     mzn: ["صد", "sad"],
@@ -809,7 +809,7 @@ WORDS.hundred = {
     gd: ["ceud", "kʰʲiət"],   // the Goidelic céad again
     ab: ["шәкы", "ʃʷkʼə"],
     av: ["нусго", "nusɡo"],
-    ks: ["ہَتھ", "hɐtʰ"],
+    ks: ["ہَتھ", "hatʰ"],
     xmf: ["ოში", "ɔʃi"],   // Mingrelian oši, unrelated to Georgian ასი
     ia: ["cento", "ˈtʃento"],
     ie: ["cent", "tsent"],
@@ -824,8 +824,8 @@ WORDS.hundred = {
     cgg: ["igana", "iɡana"],
     nyo: ["kikumi", "tʃikumi"],   // Runyoro palatalises k before i, as Tooro and Ganda do
     xnr: ["सौ", "sɔ"],
-    cho: ["talhepa", "taːɬiːpə"],
-    xkz: ["gya", "ɟɑ"],   // the Tibetan བརྒྱ once more,
+    cho: ["talhepa", "taɬipa"],
+    xkz: ["gya", "ɟa"],   // the Tibetan བརྒྱ once more,
     myx: ["sitondo", "sitondo"],
     sbp: ["imiya", "imija"],
     jmc: ["iyana", "ijana"],
@@ -833,7 +833,7 @@ WORDS.hundred = {
     bjn: ["saratus", "saratus"],
     nij: ["saratus", "saratus"],
     xog: ["kikumi", "kikumi"],
-    ja_kyo: ["百", "hʲaku"],
+    ja_kyo: ["百", "hʲakɯ"],
     mhy: ["jatuh", "jatuh"],
     hni: ["yal", "ja˥˥"],
     pyu: ["saleman", "saɭəman"],
@@ -876,9 +876,9 @@ WORDS.hundred = {
     kg: ["nkama", "nkama"],
     kr: ["miya", "mija"],
     sg: ["ngbangbo oko", "ŋɡbaŋɡbɔ oko"],
-    ja_hak: ["百", "hʲaku"],
-    ja_hir: ["百", "hʲaku"],
-    ja_sd: ["百", "hʲaku"],
+    ja_hak: ["百", "hʲakɯ"],
+    ja_hir: ["百", "hʲakɯ"],
+    ja_sd: ["百", "hʲakɯ"],
     rki: ["ရာ", "ɹà"],
     emk: ["kɛmɛ", "kɛmɛ"],
     mxc: ["zana", "zana"],

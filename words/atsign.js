@@ -172,7 +172,7 @@ WORDS.atsign = {
     // === East Asia ===
     ja: ["アットマーク", "atːomaːkɯ"],
     ko: ["골뱅이", "kolbɛŋi"],
-    zh: ["艾特", "ai̯˥˩ tʰɤ˥˩"],
+    zh: ["艾特", "aɪ̯˥˩ tʰɤ˥˩"],
     zh_tw: ["小老鼠", "ɕi̯ɑʊ̯˨˩˦ lɑʊ̯˨˩˦ ʂu˨˩˦"],
     yue: ["at", "ɛːt̚˥"],
     // === Southeast & South Asia ===
@@ -185,7 +185,7 @@ WORDS.atsign = {
     en_ca: ["at", "æt"],
     en_au: ["at", "æt"],
     en_nz: ["at", "ɛt"],
-    en_ie: ["at", "æt"],
+    en_ie: ["at", "at"],
     en_za: ["at", "æt"],
     en_in: ["at", "æʈ"],
     en_sg: ["at", "ɛt"],
@@ -270,7 +270,7 @@ WORDS.atsign = {
     // === More South & Southeast Asia ===
     ur: ["ایٹ", "ɛːʈ"],
     bn: ["অ্যাট", "æʈ"],
-    tl: ["at", "ɐt"],
+    tl: ["at", "ʔat"],
     ms: ["di", "di"],
     // === More national standard languages (read "@" as borrowed "at"/"et"
     //     in the local script, unless a distinctive local name is noted). ===

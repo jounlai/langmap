@@ -8622,9 +8622,15 @@
                 }
             }
             const fs = parseInt(params.get('fs'));
-            if (Number.isFinite(fs) && fs >= 50 && fs <= 200) {
+            // Bounds come from the slider itself. This was a literal 200 while
+            // the slider (and the Word Map) go to 420, so any size above 200
+            // was written to the URL and then dropped on reload.
+            const fsMin = parseInt(fontSizeSlider.min, 10) || 50;
+            const fsMax = parseInt(fontSizeSlider.max, 10) || 420;
+            if (Number.isFinite(fs) && fs >= fsMin && fs <= fsMax) {
                 fontSizeSlider.value = String(fs);
                 document.documentElement.style.setProperty('--label-scale', fs / 100);
+                if (typeof _syncSizeStepButtons === 'function') _syncSizeStepButtons();
             }
             // 2026-05-31: restore settings-drawer toggles from URL. Default
             // is ON; URL only carries the OFF state to keep links short.

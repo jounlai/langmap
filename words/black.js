@@ -1050,6 +1050,7 @@ WORDS.black = {
     aqc: ["беххьӏеттут", "beχːˤetːut"],
     ddo: ["хъаӏба", "qˤaba"],
     mgo: ["firɨ", "firɨ"],
-    vi_han: ["黑", "hak˧˥"]
+    vi_han: ["黑", "hak˧˥"],
+    nan_ph: ["烏", "ɔ˧˧"]
   },
 };

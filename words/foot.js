@@ -54,6 +54,7 @@ WORDS.foot = {
     sw: "Mguu — sehemu ya mwili unayosimamia, chini ya kifundo. Si kipimo cha urefu, si mteremko wa mlima wala mwisho wa kitanda, wala si kitenzi. Pale lugha ina neno moja kwa mguu mzima, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    nan_ph: "leg+foot",
     aa: "leg+foot",
     aae: "leg+foot",
     aau: "leg+foot",
@@ -1194,6 +1195,7 @@ WORDS.foot = {
     "unknown": {"color": "#b45309", "emoji": "❓", "en": "not determined · no leg word attested", "ja": "未判定・脚の語が未確認", "ko": "미판정 · 다리 낱말이 확인되지 않음", "zh": "未判定・未见表示腿的词", "yue": "未判定 · 未見表示腿嘅詞", "vi": "chưa xác định · không thấy từ chỉ 'chân trên'", "th": "ยังไม่ระบุ · ไม่พบคำว่าขา", "id": "belum ditentukan · kata untuk tungkai tidak terekam", "hi": "अनिर्धारित · टाँग का शब्द अप्रमाणित", "de": "nicht bestimmt · kein Bein-Wort belegt", "fr": "non déterminé · aucun mot pour « jambe » attesté", "it": "non determinato · nessuna parola per «gamba» attestata", "es": "sin determinar · no se atestigua palabra para «pierna»", "pt": "por determinar · sem palavra atestada para «perna»", "ru": "не определено · слово «нога» не засвидетельствовано", "uk": "не визначено · слово «нога» не засвідчене", "ar": "غير محدَّد · لا كلمة مُثبتة للساق", "he": "לא נקבע · לא מתועדת מילה לרגל", "sw": "haijabainishwa · hakuna neno la mguu lililothibitishwa"},
   },
   data: {
+    nan_ph: ["跤", "kʰa˧˧"],
     p_viet: ["*ciɲ", "ciɲ"],
     aa: ["iba", "iba"],  // One word for the limb.
     aae: ["këmba", "ˈkəmba"],  // As Albanian. The definite këmba, matching this row's own dora.

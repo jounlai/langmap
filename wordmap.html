@@ -3678,8 +3678,8 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=333"></script>
-    <script src="word_manifest.js?v=733"></script>
+    <script src="wordmap_data.js?v=334"></script>
+    <script src="word_manifest.js?v=734"></script>
     <script src="word_labels.js?v=66"></script>
     <script>
         /* Cache-buster registry. It MUST be declared here, above the per-word
@@ -3701,15 +3701,15 @@
            the order was wrong. */
         const WM_ASSET_VERSION = {
             styles:   134,
-            data:      333,
+            data:      334,
             metaI18n:  16,
-            filter:    45,
-            names:   197,
-            meta:     363,
+            filter:    46,
+            names:   198,
+            meta:     364,
             trivia:   43,
             triviaI18n: 25,
-            words:      733,
-            langWords:    465,
+            words:      734,
+            langWords:    466,
             labels:      66,
             metaI18nCoverage: 10,
             metaI18nCoverage2: 2,
@@ -3845,15 +3845,15 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=45"></script>
+    <script src="lang-filter.js?v=46"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
          will actually see (~12 KB gzipped). tools/build_lang_names.js
          generates lang_names/<ui>.js from lang_names.js. -->
     <script src="lang_names_shim.js?v=3"></script>
-    <script src="lang_names/en.js?v=197"></script>
-    <script>window.__langNamesVersion(197); window.__langNamesBoot();</script>
+    <script src="lang_names/en.js?v=198"></script>
+    <script>window.__langNamesVersion(198); window.__langNamesBoot();</script>
     <!-- Trivia articles (125 KB gz) are read on demand and drive decorative
          map blinks. Loaded after `load`; window.TRIVIA_ARTICLES readers all
          guard with `|| []`, and the blinks refresh once it lands. -->

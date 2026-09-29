@@ -1248,6 +1248,7 @@ WORDS.cat = {
     tsj: ["danyi", "daɲi"],
     lep: ["ᰣᰦᰜᰤᰫ", "ʔalju"],
     mhy: ["using", "using"],
-    gsw_als: ["Kàtz", "kʰɒts"]
+    gsw_als: ["Kàtz", "kʰɒts"],
+    nan_ph: ["貓", "niau˧˧"]
   },
 };

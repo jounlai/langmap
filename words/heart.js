@@ -1248,6 +1248,7 @@ WORDS.heart = {
     tsj: ["thinglom", "tʰiŋlom"],
     lep: ["ᰣᰦᰜᰪᰳ", "ʔalɯt"],
     mhy: ["atei", "atei"],
-    gsw_als: ["Hërz", "hærts"]
+    gsw_als: ["Hërz", "hærts"],
+    nan_ph: ["心", "sim˧˧"]
   },
 };

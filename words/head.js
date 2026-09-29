@@ -957,6 +957,7 @@ WORDS.head = {
     yap: ["llug", "lːuɡ"],
     kpy: ["лэвʼыт", "lewət"],
     aqc: ["картӏи", "kaɾtʼi"],
-    mgo: ["ətu", "ətu"]
+    mgo: ["ətu", "ətu"],
+    nan_ph: ["頭", "tʰau˨˦"]
   },
 };

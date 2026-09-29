@@ -615,6 +615,7 @@ WORDS.rice = {
     aqc: ["биринж", "biɾinʒ"],
     dbq: ["merure", "merure"],
     vi_han: ["米", "me˧˧ˀ˥"],
-    vi_nom: ["杲", "ɣaːw˧˨ʔ"]
+    vi_nom: ["杲", "ɣaːw˧˨ʔ"],
+    nan_ph: ["米", "bi˥˥˦"]
   }
 };

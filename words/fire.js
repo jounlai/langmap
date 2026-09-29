@@ -1254,6 +1254,7 @@ WORDS.fire = {
     tsj: ["mi", "mi"],
     lep: ["ᰕᰧ", "mi"],
     mhy: ["apuy", "apuy"],
-    gsw_als: ["Fir", "fiːr"]
+    gsw_als: ["Fir", "fiːr"],
+    nan_ph: ["火", "he˥˥˦"]
   },
 };

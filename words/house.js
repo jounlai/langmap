@@ -1249,6 +1249,7 @@ WORDS.house = {
     tsj: ["phai", "pʰai"],
     lep: ["ᰜᰧᰶ", "li"],
     mhy: ["lewuʔ", "lewuʔ"],
-    gsw_als: ["Hüs", "hyːs"]
+    gsw_als: ["Hüs", "hyːs"],
+    nan_ph: ["厝", "tsʰu˦˩"]
   },
 };

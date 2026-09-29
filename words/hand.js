@@ -1254,6 +1254,7 @@ WORDS.hand = {
     tsj: ["gadang", "ɡadaŋ"],
     lep: ["ᰣᰦᰀᰶ", "ʔakə"],
     mhy: ["taŋan", "taŋan"],
-    gsw_als: ["Hànd", "hɒnt"]
+    gsw_als: ["Hànd", "hɒnt"],
+    nan_ph: ["手", "tsʰiu˥˥˦"]
   },
 };

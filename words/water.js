@@ -1255,6 +1255,7 @@ WORDS.water = {
     tsj: ["ri", "ɾi"],
     lep: ["ᰣᰫᰵ", "ʔuŋ"],
     mhy: ["ranuʔ", "ranuʔ"],
-    gsw_als: ["Wàsser", "vɒsər"]
+    gsw_als: ["Wàsser", "vɒsər"],
+    nan_ph: ["水", "tsui˥˥˦"]
   },
 };

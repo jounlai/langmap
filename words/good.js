@@ -1249,6 +1249,7 @@ WORDS.good = {
     tsj: ["lekpu", "lekpu"],
     lep: ["ᰣᰦᰛᰤᰫᰮ", "ʔarjum"],
     mhy: ["maʔeh", "maʔeh"],
-    gsw_als: ["güet", "ɡyət"]
+    gsw_als: ["güet", "ɡyət"],
+    nan_ph: ["好", "ho˥˥˦"]
   },
 };

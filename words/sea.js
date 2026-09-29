@@ -770,6 +770,7 @@ WORDS.sea = {
     ddo: ["ралъад", "raɬad"],
     mgo: ["rɨ̀bàà", "rɨ̀bàà"],
     vi_han: ["海", "haːj˧˩˧"],
-    vi_nom: ["㴜", "biən˧˩˧"]
+    vi_nom: ["㴜", "biən˧˩˧"],
+    nan_ph: ["海", "hai˥˥˦"]
   }
 };

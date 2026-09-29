@@ -1053,6 +1053,7 @@ WORDS.rain = {
     ame: ["oʼ", "oʔ"],
     ium: ["mbiungc", "biuŋ˨˩"],
     mgo: ["mbə̀ŋ", "mbə̀ŋ"],
-    dbq: ["van", "van"]
+    dbq: ["van", "van"],
+    nan_ph: ["雨", "hɔ˧˧"]
   },
 };

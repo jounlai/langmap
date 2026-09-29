@@ -996,6 +996,7 @@ WORDS.milk = {
     tao: ["mizoko", "mizoko"],
     kpy: ["лёӄэй", "ʎoqej"],
     mgo: ["ɨbən", "ɨbən"],
-    dbq: ["wa", "wa"]
+    dbq: ["wa", "wa"],
+    nan_ph: ["牛奶", "ɡu˨˦ lin˧˧"]
   },
 };

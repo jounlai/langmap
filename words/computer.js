@@ -502,5 +502,6 @@ WORDS.computer = {
     en_est: ["computer", "kəmˈpjuːtə"],
     en_ng2: ["computer", "kəmˈpjuːtə"],
     en_my: ["computer", "kəmˈpjuːtə"],
+    nan_ph: ["電腦", "tiɛn˦˩ lo˥˥˦"]
   },
 };

@@ -1242,6 +1242,7 @@ WORDS.thanks = {
     tsj: ["kadrinche", "kaɖintɕʰe"],
     lep: ["ᰀ᰷ᰥᰩᰭᰇᰧᰶ", "ʈɔkcʰi"],
     mhy: ["tarima kasih", "tarima kasih"],
-    gsw_als: ["Mersi", "mɛrsi"]
+    gsw_als: ["Mersi", "mɛrsi"],
+    nan_ph: ["多謝", "to˧˧ sia˦˩"]
   },
 };

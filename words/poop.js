@@ -711,6 +711,7 @@ WORDS.poop = {
     yap: ["taer", "taːr"],
     kpy: ["гʼалэгʼал", "ʕaleʕal"],
     aqc: ["гӏагӏа", "ʕaʕa"],
-    dbq: ["bəbah", "bəbah"]
+    dbq: ["bəbah", "bəbah"],
+    nan_ph: ["屎", "sai˥˥˦"]
   },
 };

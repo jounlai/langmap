@@ -352,7 +352,7 @@
          'zh_jh','zh_tj','zh_lz','zh_wh','zh_zz',
          'hak_tw','hak_hl','cjy','hsn','gan','cpx','cnp','czh','dng','mnp',
          'wuu_nb','wuu_sz','wuu_wz',
-         'nan_hai','nan_pn','nan_qz','nan_te',
+         'nan_hai','nan_ph','nan_pn','nan_qz','nan_te',
          'yue_gz','yue_ts',
          'zh_wenyan_edu','vi_han'],
         { wo: 'SVO', tone: true, morph: 'isolating' });

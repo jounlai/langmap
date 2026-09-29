@@ -1256,6 +1256,7 @@ WORDS.tree = {
     tsj: ["shing", "ɕiŋ"],
     lep: ["ᰀᰫᰵ", "kuŋ"],
     mhy: ["kakaw", "kakaw"],
-    gsw_als: ["Baum", "baʊm"]
+    gsw_als: ["Baum", "baʊm"],
+    nan_ph: ["樹", "tsʰiu˦˩"]
   },
 };

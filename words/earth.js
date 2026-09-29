@@ -1120,6 +1120,7 @@ WORDS.earth = {
     kmh: ["lum", "lum"],
     agu: ["txʼotxʼ", "tʃʼotʃʼ"],
     mgo: ["si", "si"],
-    ame: ["pats", "pats"]
+    ame: ["pats", "pats"],
+    nan_ph: ["塗", "tʰɔ˨˦"]
   },
 };

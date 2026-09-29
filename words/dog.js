@@ -1261,6 +1261,7 @@ WORDS.dog = {
     tsj: ["khu", "kʰu"],
     lep: ["ᰀᰈᰫ", "kəʒu"],
     mhy: ["antahuʔ", "antahuʔ"],
-    gsw_als: ["Hùnd", "hʊnt"]
+    gsw_als: ["Hùnd", "hʊnt"],
+    nan_ph: ["狗", "kau˥˥˦"]
   },
 };

@@ -1150,6 +1150,7 @@ WORDS.four = {
     crx: ["dunghi", "dunɣi"],
     agr: ["ipaksumat", "ipaksumat"],
     aqc: ["ебкъ", "ebqʼ"],
-    mgo: ["kwè", "kwè"]
+    mgo: ["kwè", "kwè"],
+    nan_ph: ["四", "si˦˩"]
   },
 };

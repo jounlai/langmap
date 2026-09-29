@@ -807,6 +807,7 @@ WORDS.book = {
     mgo: ["ə̀ŋwàʼnɨ̀", "ə̀ŋwàʔnɨ̀"],
     dbq: ["beftere", "beftere"],
     vi_han: ["書", "tʰɨ˧˧"],
-    vi_nom: ["冊", "sac˧˥"]
+    vi_nom: ["冊", "sac˧˥"],
+    nan_ph: ["冊", "tsʰeʔ˥"]
   }
 };

@@ -1076,6 +1076,7 @@ WORDS.bird = {
     moh: ["otsiʼtén:ʼa", "otsiʔtʌ̃́ːʔa"],
     ium: ["norqc", "nɔʔ˨˩"],
     kpy: ["пычиӄ", "pətʃiq"],
-    mgo: ["rɨnən", "rɨnən"]
+    mgo: ["rɨnən", "rɨnən"],
+    nan_ph: ["鳥", "tsiau˥˥˦"]
   },
 };

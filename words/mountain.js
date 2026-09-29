@@ -800,6 +800,7 @@ WORDS.mountain = {
     mgo: ["ɨwum", "ɨwum"],
     dbq: ["caɗak", "tʃaɗak"],
     vi_han: ["山", "səːn˧˧"],
-    vi_nom: ["𡶀", "nui˧˥"]
+    vi_nom: ["𡶀", "nui˧˥"],
+    nan_ph: ["山", "suã˧˧"]
   }
 };

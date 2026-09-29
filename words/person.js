@@ -832,6 +832,7 @@ WORDS.person = {
     mgo: ["wə̀d", "wə̀d"],
     dbq: ["hidi", "hidi"],
     vi_han: ["人", "ɲən˧˧"],
-    vi_nom: ["𠊛", "ŋɨəi˨˩"]
+    vi_nom: ["𠊛", "ŋɨəi˨˩"],
+    nan_ph: ["人", "laŋ˨˦"]
   }
 };

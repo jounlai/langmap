@@ -995,6 +995,7 @@ WORDS.iron = {
     ium: ["hlieqv", "l̥ieʔ˥˥"],
     kpy: ["пылвынтын", "pəlvəntən"],
     ddo: ["гер", "ɡer"],
-    mgo: ["ətənɨ", "ətənɨ"]
+    mgo: ["ətənɨ", "ətənɨ"],
+    nan_ph: ["鐵", "tʰiʔ˥"]
   },
 };

@@ -908,6 +908,7 @@ WORDS.snow = {
     jvn: ["salju", "saldʒu"],
     mh: ["jiṇo", "tʲinˠo"],
     chk: ["sno", "sno"],
-    ium: ["sorng", "sɔŋ˧"]
+    ium: ["sorng", "sɔŋ˧"],
+    nan_ph: ["雪", "seʔ˥"]
   },
 };

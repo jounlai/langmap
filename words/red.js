@@ -1256,6 +1256,7 @@ WORDS.red = {
     tsj: ["tsalo", "tsalo"],
     lep: ["ᰠᰦᰵ", "saŋ"],
     mhy: ["mariaŋ", "mariaŋ"],
-    gsw_als: ["rot", "roːt"]
+    gsw_als: ["rot", "roːt"],
+    nan_ph: ["紅", "aŋ˨˦"]
   },
 };

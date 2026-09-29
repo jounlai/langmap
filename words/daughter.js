@@ -1064,6 +1064,7 @@ WORDS.daughter = {
     chk: ["nengin", "neŋin"],
     crx: ["oot̲s̲eʼ", "oːtseʔ"],
     ium: ["sieqv", "sieʔ˥˥"],
-    kpy: ["ӈавакык", "ŋavakək"]
+    kpy: ["ӈавакык", "ŋavakək"],
+    nan_ph: ["查某仔", "tsa˧˧ bɔ˥˥˦ a˥˥˦"]
   },
 };

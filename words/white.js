@@ -1184,6 +1184,7 @@ WORDS.white = {
     bbo: ["furu", "furu"],
     arp: ["noocóó", "noːtʃóː"],
     esu: ["qatellria", "qatəɬʁia"],
-    ker: ["birwa", "biɾwa"]
+    ker: ["birwa", "biɾwa"],
+    nan_ph: ["白", "peʔ˨˦"]
   },
 };

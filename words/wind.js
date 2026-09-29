@@ -1050,6 +1050,7 @@ WORDS.wind = {
     chy: ["háaʼháeše", "háːʔháeʃe"],
     ium: ["nziaaux", "dzjaːu˨˧"],
     tao: ["pagpag", "paɡpaɡ"],
-    mgo: ["əfim", "əfim"]
+    mgo: ["əfim", "əfim"],
+    nan_ph: ["風", "huaŋ˧˧"]
   },
 };

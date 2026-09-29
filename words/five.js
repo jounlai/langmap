@@ -1155,6 +1155,7 @@ WORDS.five = {
     crx: ["kwulaiʼ", "kʷulaiʔ"],
     ame: ["amnar", "amnaɾ"],
     mgo: ["tân", "tân"],
-    dbq: ["jəɓin", "dʒəɓin"]
+    dbq: ["jəɓin", "dʒəɓin"],
+    nan_ph: ["五", "ɡɔ˧˧"]
   },
 };

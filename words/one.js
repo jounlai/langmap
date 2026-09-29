@@ -1260,6 +1260,7 @@ WORDS.one = {
     tsj: ["thur", "tʰuɾ"],
     lep: ["ᰀᰦᰳ", "kat"],
     mhy: ["isaʔ", "isaʔ"],
-    gsw_als: ["eins", "eins"]
+    gsw_als: ["eins", "eins"],
+    nan_ph: ["一", "it˥"]
   },
 };

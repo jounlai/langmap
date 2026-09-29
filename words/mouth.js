@@ -920,6 +920,7 @@ WORDS.mouth = {
     ddo: ["гьахъу", "haqu"],
     mgo: ["ɨchû", "ɨtʃû"],
     vi_han: ["口", "xəw˧˩˧"],
-    vi_nom: ["𠰘", "miəŋ˨ˀ"]
+    vi_nom: ["𠰘", "miəŋ˨ˀ"],
+    nan_ph: ["喙", "tsʰui˦˩"]
   }
 };

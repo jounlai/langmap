@@ -1,5 +1,5 @@
 /**
- * Word Map Data — 86 word concepts × 1189 languages/varieties (incl. ~140 excluded from the default modern view)
+ * Word Map Data — 86 word concepts × 1190 languages/varieties (incl. ~140 excluded from the default modern view)
  * Each language has: coordinates (primary city), native name, and word entries with IPA
  */
 
@@ -4366,6 +4366,13 @@ const LANG_DATA = {
     } },
   // Chinese diaspora variant
   nan_pn: { name: 'Penang Hokkien', native: '庇能福建話', lat: 5.41, lng: 100.34, // George Town
+},
+  // Philippine Hokkien (咱人話 Lán-lâng-ōe) — Chinese Filipino Hokkien, Manila.
+  // Added 2026-09-30: the one Southeast Asian Hokkien community with no row.
+  // ISO has no code of its own (nan), nor Glottolog (hokk1242 is the nearest).
+  // Pronunciations are Wiktionary's ph-tagged zh-pron readings; tones follow
+  // Module:nan-pron, which uses the Jinjiang table for the Philippines.
+  nan_ph: { name: 'Philippine Hokkien', native: '咱人話', lat: 14.60, lng: 120.97, // Binondo, Manila
 },
   // Mlabri (Northern Thailand hunter-gatherer)
   mra: { name: 'Mlabri', native: 'Mlabri', lat: 19.46, lng: 100.86, // Nan

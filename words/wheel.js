@@ -869,6 +869,7 @@ WORDS.wheel = {
     chy: ["onéstahké-mahtseʼko", "onéstahkémahtseʔko"],
     ium: ["yienh", "jien˧˩"],
     kpy: ["кувʼлычгʼын", "kuwlətʃʕən"],
-    dbq: ["ngaz mota", "ŋɡaz mota"]
+    dbq: ["ngaz mota", "ŋɡaz mota"],
+    nan_ph: ["輪", "lun˨˦"]
   },
 };

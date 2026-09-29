@@ -1249,6 +1249,7 @@ WORDS.bone = {
     tsj: ["khang", "kʰaŋ"],
     lep: ["ᰣᰛᰳ", "ʔarat"],
     mhy: ["taʔulaŋ", "taʔulaŋ"],
-    gsw_als: ["Knoche", "knɔxə"]
+    gsw_als: ["Knoche", "knɔxə"],
+    nan_ph: ["骨頭", "kut˥ tʰau˨˦"]
   },
 };

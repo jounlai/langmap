@@ -711,6 +711,7 @@ WORDS.green = {
     aer: ["atherrke", "at̪erke"],
     otq: ["kꞌangi", "kʼaŋi"],
     vi_han: ["青", "tʰaɲ˧˧"],
-    vi_nom: ["青蘿", "saɲ˧ laː˧˥"]
+    vi_nom: ["青蘿", "saɲ˧ laː˧˥"],
+    nan_ph: ["青色", "tsʰĩ˧˧ siak˥"]
   }
 };

@@ -1009,6 +1009,7 @@ WORDS.honey = {
     chy: ["háhnomápanoʼėhaseoʼo", "háhnomápanoʔehaseoʔo"],
     ium: ["mueiz-dorngh", "muei˨˧tɔŋ˧˩"],
     kpy: ["ёӄъямыткымыт", "joqʔjamətkəmət"],
-    mgo: ["ju", "dʒu"]
+    mgo: ["ju", "dʒu"],
+    nan_ph: ["蜂蜜", "pʰaŋ˧˧ bit˨˦"]
   },
 };

@@ -1034,6 +1034,7 @@ WORDS.egg = {
     ame: ["paʼmeʼ", "paʔmeʔ"],
     moh: ["oʼnhónhsa", "oʔnhṹhsa"],
     kpy: ["ливʼливʼ", "liwliw"],
-    chy: ["vovȯtse", "vovotse"]
+    chy: ["vovȯtse", "vovotse"],
+    nan_ph: ["卵", "nŋ̍˧˧"]
   },
 };

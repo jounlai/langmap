@@ -638,7 +638,7 @@ WORDS.iron = {
     yao: ["chisyano", "tʃisjano"],
     lg: ["ekyuma", "eˈtʃuːma"],
     myx: ["sikyuma", "sikjuma"],
-    ki: ["kĩgera", "kiˈɣera"],
+    ki: ["kĩgera", "keˈɣɛra"],
     mer: ["chuma", "tʃuːma"],
     kam: ["kyũma", "kjuma"],
     ebu: ["cuma", "tʃuːma"],

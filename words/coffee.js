@@ -427,7 +427,7 @@ WORDS.coffee = {
     fa: ["قهوه", "ɢæhˈve"],
     sw: ["kahawa", "kaˈhawa"],
     tl: ["kape", "kaˈpe"],
-    mn: ["кофе", "ˈkʰɔfɛ"],
+    mn: ["кофе", "ˈkʰɔfe"],
     sah: ["кофе", "ˈkofe"],
     alt: ["кофе", "ˈkofe"],
     cv: ["кофе", "ˈkofe"],

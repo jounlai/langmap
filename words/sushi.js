@@ -340,7 +340,7 @@ WORDS.sushi = {
     "th_isan": ["ซูชิ", "suː˧tɕʰiʔ˦˥"],
     "th_n": ["ซูชิ", "suː˧tɕʰiʔ˦˥"],
     "th_s": ["ซูชิ", "suː˧tɕʰiʔ˧˥"],
-    "tk": ["suşi", "θuˈʃi"],
+    "tk": ["suşi", "suˈʃi"],
     "tl": ["sushi", "ˈsuʃi"],
     "tr": ["suşi", "ˈsuʃi"],
     "tsg": ["sushi", "ˈsuʃi"],

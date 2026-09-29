@@ -247,7 +247,7 @@ WORDS.atsign = {
     kk: ["айқұлақ", "ɑjqʊlɑq"],
     tr: ["et", "et"],
     // === Middle East ===
-    he: ["שטרודל", "ˈʃtrudel"],
+    he: ["שטרודל", "ˈʃtʁudel"],
     ar: ["آت", "ʔaːt"],
     fa: ["ات", "ʔæt"],
     // === More Western Europe ===

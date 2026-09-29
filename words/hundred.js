@@ -698,7 +698,7 @@ WORDS.hundred = {
     fax: ["cen", "θeŋ"],
     ruq: ["sută", "ˈsutə"],   // the Slavic loan Romanian also took
     sms: ["čuâđ", "tʃuaʰtʲ"],
-    sma: ["tjuetie", "tɕuødie"],
+    sma: ["tjuetie", "ˈtʃuetie"],
     yai: ["sad", "sad"],
     tly: ["sa", "sa"],
     luz: ["sad", "sad"],
@@ -810,7 +810,7 @@ WORDS.hundred = {
     ab: ["шәкы", "ʃʷkʼə"],
     av: ["нусго", "nusɡo"],
     ks: ["ہَتھ", "hatʰ"],
-    xmf: ["ოში", "ɔʃi"],   // Mingrelian oši, unrelated to Georgian ასი
+    xmf: ["ოში", "oʃi"],   // Mingrelian oši, unrelated to Georgian ასი
     ia: ["cento", "ˈtʃento"],
     ie: ["cent", "tsent"],
     io: ["cent", "tsent"],

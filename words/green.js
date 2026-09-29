@@ -188,7 +188,7 @@ WORDS.green = {
     an: ["verde", "ˈbeɾde"],
     ang: ["grēne", "ɡreːne"],
     anp: ["हरियर", "ɦərijər"],
-    ar_eg: ["أخضر", "ˈʔaxdˤɑɾ"],
+    ar_eg: ["أخضر", "ˈʔaxdˤaɾ"],
     ar_ma: ["خضر", "xdˤəɾ"],
     ar_qur: ["أخضر", "ʔaxdˤaru"],
     ar_sd: ["أخضر", "ˈaxdˤar"],

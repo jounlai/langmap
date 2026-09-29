@@ -192,7 +192,7 @@ WORDS.snow = {
     jpr: ["ברף", "bæɾf"],
     prs: ["برف", "barf"],
     trm: ["źim", "dzim"],
-    sw: ["theluji", "θeluʒi"],
+    sw: ["theluji", "θeˈludʒi"],
     tl: ["niyebe", "nijebe"],
     mn: ["цас", "tsas"],
     sah: ["хаар", "xaːr"],

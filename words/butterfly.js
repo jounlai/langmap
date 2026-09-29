@@ -104,7 +104,7 @@ WORDS.butterfly = {
     gu: ["પતંગિયું", "pətəŋɡijũ"],  // a diminutive of પતંગ patang 'flying insect, moth' (Sanskrit pataṅgá 'flying creature', Turner CDIAL p. 436) - a different root from the titlī of Hindi-Urdu-Punjabi
     hil: ["alibangbang", "ʔalibaŋbaŋ"],  // reduplicated -bangbang, from Proto-Malayo-Polynesian *baŋbaŋ; the same word names the Bauhinia tree, for its butterfly-shaped leaves
     kg: ["lumbembambemba", "lumbembambemba"],  // reduplicated stem -bemba-bemba with class 10 lu- prefix
-    ki: ["kĩĩhuruta", "kiːhuruːta"],  // class 7 noun (pl. ciĩhuruta); covers moths as well as butterflies
+    ki: ["kĩĩhuruta", "keːhuruːta"],  // class 7 noun (pl. ciĩhuruta); covers moths as well as butterflies
     kwk: ["ha̱mumu", "həmumu"],  // reduplicative in shape (ha̱-mu-mu)
     lo: ["ແມງກະເບື້ອ", "mɛːŋ˧˥ ka˧˥ bɨa˥˨"],  // compound of ແມງ 'insect' + ກະເບື້ອ, which on its own means 'moth'; the whole word covers butterflies and moths
     luo: ["oguyo", "oɡujo"],  // Odaga gives oguyo for 'moth' and defines 'larva' as an insect that grows and turns into an oguyo; no separate butterfly word is listed
@@ -176,7 +176,7 @@ WORDS.butterfly = {
     uz: ["kapalak", "kapaˈlak"],  // Shared Turkic root with Turkish kelebek.
     tt: ["күбәләк", "kybæˈlæk"],  // Shared Turkic root with Turkish kelebek.
     ba: ["күбәләк", "kybæˈlæk"],  // Shared Turkic root with Turkish kelebek.
-    cv: ["лӗпӗш", "ˈlɘpɘʂ"],
+    cv: ["лӗпӗш", "ˈlɘpɘʃ"],
     mn: ["эрвээхэй", "erweːxej"],
     xal: ["эрвәкә", "erwækæ"],  // Same Mongolic root as Khalkha эрвээхэй.
     fi: ["perhonen", "ˈperhonen"],
@@ -193,7 +193,7 @@ WORDS.butterfly = {
     mrj: ["лӹпӹ", "lɯpɯ"],  // Reduplicative lɨ-pɨ shape.
     myv: ["нимиляв", "ɲimʲilʲav"],
     mdf: ["мелав", "mʲelav"],
-    se: ["beaiveloddi", "ˈpæjveˌlotːi"],  // Compound beaivi 'sun' + loddi 'bird' — loddi is this row's own word for bird.
+    se: ["beaiveloddi", "ˈpeɑjveˌlotːi"],  // Compound beaivi 'sun' + loddi 'bird' — loddi is this row's own word for bird.
     smj: ["biejvvelådde", "ˈbiejvːeˌlɔdːɛ"],  // Compound 'sun' + lådde 'bird' — lådde is this row's own word for bird.
     smn: ["piäi'vááloddááš", "ˈpiæivaːˌlodːaːʃ"],  // Compound 'sun' + lodde 'bird' plus a diminutive — lodde is this row's own word for bird.
     sms: ["ä´llbaž", "alːʲbʲɒʒ"],  // the Kola Sámi word, cognate with Kildin а̄лльп, rather than the 'day-bird' compound of the western Sámi languages; NEL also lists pei´vvlå´dd for Skolt, and which of the two is the everyday word is unchecked. Surface kept verbatim from NEL (´ not ʹ), as the row itself does in nâ´stt

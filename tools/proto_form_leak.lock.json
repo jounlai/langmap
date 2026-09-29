@@ -760,5 +760,11 @@
     "proto": "p_jpn,p_ryu",
     "ruling": "circular",
     "note": "Old Japanese tori 鳥 (Man'yōshū) is one of the attestations Proto-Japonic *tori is reconstructed from. Surfaced 2026-09-29 when review 547 corrected the row's one ɾ to the r it writes everywhere else (kurosi, kasira, kəkərə)."
+  },
+  "xqa|hand": {
+    "form": "elig",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid elig \"hand\" (Kashgari's Dīwān) is among the attestations Proto-Turkic *elig is reconstructed from. Surfaced when review 547 replaced the row's qol, which means \"arm\"."
   }
 }

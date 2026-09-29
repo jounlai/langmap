@@ -294,7 +294,7 @@ WORDS.poop = {
     la: ["merda", "ˈmɛrda"],
     el_grc: ["κόπρος", "kópros"],
     el_kath: ["κόπρος", "ˈkopros"],
-    egy: ["𓎛𓋴", "hɛs"],
+    egy: ["𓎛𓋴", "hes"],
     enm: ["tord", "tord"],
     en_em: ["turd", "tɜːrd"],
     ang: ["tord", "tord"],

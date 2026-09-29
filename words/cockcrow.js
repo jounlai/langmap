@@ -473,7 +473,7 @@ WORDS.cockcrow = {
     pt: ["cocorocó", "kokoɾoˈkɔ"],
     pt_br: ["cocoricó", "kokoɾiˈkɔ"],
     ru: ["кукареку", "kʊkərʲɪˈku"],
-    he: ["קוּקוּרִיקוּ", "kukuˈriku"],
+    he: ["קוּקוּרִיקוּ", "kukuˈʁiku"],
     fa: ["قوقولی قوقو", "ɢuːɢuːliː ɢuːɢuː"],
     tl: ["tiktilaok", "tiktilaˈʔok"],
     fi: ["kukkokiekuu", "ˈkukːokie̯ˌkuː"],

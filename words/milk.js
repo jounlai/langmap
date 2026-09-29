@@ -66,7 +66,7 @@ WORDS.milk = {
     ru: ["молоко", "məlɐˈko"],
     uk: ["молоко", "moloˈko"],
     ar: ["حليب", "ħaliːb"],
-    he: ["חלב", "ẖaˈlav"],
+    he: ["חלב", "χaˈlav"],
     sw: ["maziwa", "maˈziwa"],
 
     // --- *glakt-: the shape that does not look Indo-European ----------

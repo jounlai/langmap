@@ -584,7 +584,7 @@ WORDS.blue = {
     khv: ["хъаилӏе", "qʼaiˈlʼe"],  // Khvarshi: the Inkhokvari dialect gives the identical form хъаилӏе for blue and for green. Other Khvarshi dialects in IDS use a 'sky-coloured' phrase for blue instead.
     ki: ["bururu", "bururu"],  // Benson: 'bururu, (ma-), n. cl. 14/(6) ... washing blue, blueness; cf. mburuu ... [E. BLUE]' — the etymology is marked in the dictionary. Gikuyu's inherited terms are -eru 'white', -irũ 'black/dark', -tune 'red', -ruru 'green, fresh'; there was no basic blue, and Benson's example for 'blue sky' is matu mairũ, literally 'dark clouds'.
     kjj: ["цӏарцӏар", "tsʼartsʼar"],  // Khinalug цӏарцӏар vs гог / сыб.
-    kk: ["көк", "kœk"],  // Kazakh көк is the inherited Turkic 'sky/blue' term and is used of green growing things as well (көк шөп 'green grass'); жасыл is the narrow green.
+    kk: ["көк", "køk"],  // Kazakh көк is the inherited Turkic 'sky/blue' term and is used of green growing things as well (көк шөп 'green grass'); жасыл is the narrow green.
     kl: ["tungujorpoq", "tuŋuˈjɔʁpɔq"],  // Kalaallisut tungujorpoq vs qorsooqqippoq. tungujortoq covers blue and shades toward violet/dark; the two are separate stems.
     kln: ["arus", "arus"],  // Blue and green are separate lexemes in Hollis's list. Elsewhere in the same book arus is glossed 'blue (black)' of a bullock (Tap-arus-ei 'the owner of the blue (black) bullock'), i.e. it doubles as a dark cattle-coat term, so the blue-black edge is fuzzy even though green is clearly a different word. Hollis's pirir / lei correspond to this row's birirben / leel.
     km: ["ខៀវ", "kʰiəw"],  // Khmer ខៀវ against បៃតង 'green'.
@@ -605,7 +605,7 @@ WORDS.blue = {
     krl: ["sinini", "ˈsinini"],  // North Karelian sinini vs vihanta.
     ktz: ["ǀauhn", "ǀauhn"],  // Juǀ'hoan ǀauhn is given for BOTH blue and green — a single cool-range term in a small basic-colour inventory.
     ku: ["şîn", "ʃiːn"],  // Kurmanji: NorthEuraLex gives the identical form şîn for BOTH blue and green — a single cool-range term.
-    kum: ["гёк", "ɡœk"],  // Kumyk гёк against яшыл. Most IDS Kumyk dialects give ачыкъ гёк 'light gök' for blue specifically, which is exactly what a grue term needs a modifier for.
+    kum: ["гёк", "ɡøk"],  // Kumyk гёк against яшыл. Most IDS Kumyk dialects give ачыкъ гёк 'light gök' for blue specifically, which is exactly what a grue term needs a modifier for.
     kw: ["glas", "ɡlaːz"],  // Cornish glas covers blue, the green of growing things and grey, exactly as Welsh glas and Breton glaz do; Wiktionary lists glas first and the English loan blou second.
     ky: ["көк", "køk"],  // Kyrgyz көк, like Kazakh көк, is the inherited Turkic 'sky/blue' term and covers the green of growing things; жашыл is the narrow green.
     la: ["caeruleus", "kaeˈruleus"],  // Latin caeruleus (< caelum 'sky') against viridis. Latin's blue vocabulary is notoriously unstable (caeruleus, lividus, caesius, glaucus) and this is the sky term.
@@ -666,7 +666,7 @@ WORDS.blue = {
     nl: ["blauw", "blɑu̯"],  // blauw vs groen; WOLD: no evidence for borrowing.
     nmn: ["ᶢǀa̤ʕi", "ᶢǀa̤ʕi"],  // Taa: the identical form is given for blue and for green.
     no: ["blå", "bloː"],  // Bokmål blå vs grønn.
-    nog: ["коьк", "kœk"],  // Nogai коьк against йасыл.
+    nog: ["коьк", "køk"],  // Nogai коьк against йасыл.
     non: ["blár", "blaːr"],  // Old Norse blár covers blue but also the blue-black of bruises, ravens and 'blámenn'; it sits at the dark end rather than being a pure blue. IDS gives blār against grœnn for green.
     nso: ["tala", "tala"],  // Dedicated MA study of exactly this question: 'Like other Bantu languages, Sepedi tends to utilise one basic colour term (tala) to refer to both the colour concepts blue and green', and of all the terms collected 'only the term tala blue/green ... can be regarded as basic'. Blue is most often specified as talalerata / botala bja legodimo 'blue of the sky'; the Afrikaans loans polousela / lousela (< blousel) exist but are not basic.
     nuf: ["ȵɯ35ȵɯ31", "ȵɯ˧˥ȵɯ˧˩"],  // Nusu (Bijiang): Sun's wordlist gives the identical ȵɯ³⁵ȵɯ³¹ for BOTH blue and green.
@@ -787,7 +787,7 @@ WORDS.blue = {
     wls: ["ʻui", "ʔui"],  // PN *qui is reconstructed 'blue, green'; the same etymon is glossed 'green or blue' in Sikaiana and 'blue, green' in Vaeakau-Taumako and West Futuna. Wallisian also has the dark term ʻuhi (< PN *qusi) 'de couleur foncée tirant sur le noir ou sur le bleu'.
     wo: ["baxa", "baxa"],  // Form is solid; the class is not. Kobès glosses bax narrowly as 'light blue' and has no entry for a Wolof 'green', while ñuul 'black' does duty for dark blue (coton bleu foncé) and bulô (a loan) for light blue. Modern Wolof green is usually the French loan wert, which would make baxa distinct, but no source stating that was found. Kobès writes w as v, so his VÊH = weex 'white' and BÊH = bax.
     woe: ["gaaraweraw", "ɡaːɻaweɻaw"],  // The dictionary's English finder lists the same word under both 'blue' and 'green'. Reflex of Proto-Chuukic *karawa, karawarawa 'blue, green' (Bender et al., Micronesian Comparative Dictionary).
-    xal: ["көк", "kœˈkə"],  // Kalmyk көк is given by NorthEuraLex for BOTH blue and green — the Mongolic cool-range term with no split at all.
+    xal: ["көк", "køˈkə"],  // Kalmyk көк is given by NorthEuraLex for BOTH blue and green — the Mongolic cool-range term with no split at all.
     xct: ["སྔོན་པོ", "sngon po"],  // Written Tibetan sngon po against ldʑaŋ khu. The row's other colour cells give Wylie in the IPA slot, so the same is done here.
     xh: ["luhlaza", "luˈɬaːza"],  // Same grue term as Zulu; disambiguated as luhlaza okwesibhakabhaka 'sky-coloured' vs luhlaza okotshani 'grass-coloured'. Xhosa also has the Afrikaans loan blowu (< blou) for blue specifically (en.wiktionary.org/wiki/blowu), but luhlaza is the basic term.
     yap: ["yarraq", "jarːaʔ"],  // yarraq and warraq are dialect variants of one word: the y-entry glosses it 'the color blue, blue-green, purple, violet' and defines it in Yapese as 'a colour like the colour of the sky', adding that it was formerly also said of unripe (green) leaves; the w-entry glosses the same word 'the color green'. The English finder also gives raqën maak'eef ('colour of the sky') for 'blue' and the English loan giriin for 'green'.

@@ -98,6 +98,14 @@ const EXCEPTIONS = new Set([
   // are as those tables give them: Yong'an 一 is i5 (去 24), and Haikou
   // vernacular 月 vue6 has lost its stop (陽去 33).
   'mnz|一', 'nan_hai|月',
+  // Rows rebuilt 2026-09-30 from MCPDict's cited tables (Gan, Jin, Xiang, Hui,
+  // Pinghua). Each value below is what that table gives; in these varieties
+  // the entering tone splits by word, and a few 清 characters sit in an
+  // unexpected class in the survey itself (宜春 走 tseu2, 長治 央 iaŋ). Not
+  // "corrected": the checker's majority is not a source.
+  'cjy_cz|央', 'cjy_cz|日', 'cjy_cz|肉', 'cjy_lv|飲', 'cjy_xz|六', 'cjy_xz|肉',
+  'cnp_gl|月', 'cnp_gl|八', 'gan_fz|六', 'gan_ja|六', 'gan_yc|走',
+  'gan_yt|六', 'gan_yt|月', 'hsn_hy|木', 'hsn_hy|目',
 ]);
 
 // --- 5. For each variety, group chars by MC cell, find majority tone, flag outliers.

@@ -353,7 +353,7 @@ WORDS.book = {
     lzz: ["სუპარა", "supʼara"],  // Nenapuna p.310. სვარა and ქითაბი are given as synonyms, so the Arabic loan is not the lemma.
     ota: ["كتاب", "kiˈtaːb"],
     // Sinitic and mainland Southeast Asia.
-    nan: ["冊", "tsʰeʔ˦"],     // Hokkien says 冊, not 書; zh-min-nan.wikipedia titles its Book article "Chheh". Tone written ˦ to match every other 陰入 cell in this row (一 it˦, 血 hueʔ˦, 百 paʔ˦) — see the tone-class note in my report.
+    nan: ["冊", "tsʰeʔ˧˨"],     // Hokkien says 冊, not 書; zh-min-nan.wikipedia titles its Book article "Chheh". Tone written ˦ to match every other 陰入 cell in this row (一 it˦, 血 hueʔ˦, 百 paʔ˦) — see the tone-class note in my report.
     nan_qz: ["冊", "tsʰeʔ˥"],  // Quanzhou 陰入 5, matching this row's 百 paʔ˥ and 骨 kut˥.
     nan_zz: ["冊", "tsʰɛʔ˧˨"],  // Zhangzhou chheeh has ɛ, so not a copy of nan.
     nan_pn: ["冊", "tsʰɛʔ˧"],  // Penang follows Zhangzhou in the vowel and this row in the 陰入 spelling.

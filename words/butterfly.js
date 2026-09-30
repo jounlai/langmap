@@ -95,7 +95,7 @@ WORDS.butterfly = {
     vmw: ["nikuruthu", "nikuɾutʰu"],  // class 5 ni-; the same SIL vocabulary gives maasi, nooce, ehopa as in this row, so the variety matches
     ak: ["afofantɔ", "afofantɔ"],  // Christaller 1881 records the three vowel-harmony variants afafantɔ / afefantɔ / afofantɔ side by side; afafranto is a further modern spelling
     arq: ["فرططو", "fərtˤətˤtˤu"],  // the Maghrebi fertettu word; a bu- 'father-of' compound bou fertettou is also recorded, and the French loan babiyu (< papillon) competes with it
-    cdo: ["蝴蝶", "hu˧˧ lieʔ˥"],  // Sinitic 蝴蝶; IPA is the realised sandhi form (蝴 53→33, and 蝶 t- lenites to l- between vowels), not the citation tones
+    cdo: ["蝴蝶", "hu˥˧ tieʔ˥"],  // Sinitic 蝴蝶; IPA is the realised sandhi form (蝴 53→33, and 蝶 t- lenites to l- between vowels), not the citation tones
     cho: ["hatapushik", "hatapoʃik"],  // Byington also records haahtapushik and hatapushi; the Choctaw Nation of Oklahoma dictionary spells the word hʋtapushik (reached via Wiktionary, which cites it)
     chp: ["yágoli", "jáɡoli"],  // formation not stated in the source
     cjy: ["蝴蝶", "xu˩ tiəʔ˥˦"],  // the general Chinese word; earlier written 胡蝶. Taiyuan also has the diminutive 蝴蝶兒
@@ -112,7 +112,7 @@ WORDS.butterfly = {
     mr: ["फुलपाखरू", "pʰulpaːkʰɾuː"],  // a compound of फूल 'flower' + पाखरू 'bird' (पाखरू < Sanskrit पक्षिरूप, Turner CDIAL 7637) - literally 'flower-bird'
     ms: ["rama-rama", "rama rama"],  // a reduplication; Kamus Dewan also carries kupu-kupu, which is the ordinary Indonesian word - Malaysia's everyday term is rama-rama
     mus: ["tvffolupv", "təfːolopa"],  // formation not stated in the source
-    nan: ["尾蝶", "bue˥˧ iaʔ˦"],  // native Hokkien word on the root ia̍h; the first syllable is also written 美/尾, so its morpheme is unsettled. Northern Taiwan often says 蝶仔 ia̍h-á, and the literary 蝴蝶 ôo-tia̍p also exists
+    nan: ["蝶仔", "iaʔ˦ a˥˧"],  // native Hokkien word on the root ia̍h; the first syllable is also written 美/尾, so its morpheme is unsettled. Northern Taiwan often says 蝶仔 ia̍h-á, and the literary 蝴蝶 ôo-tia̍p also exists
     or: ["ପ୍ରଜାପତି", "pɾɔdʒaːpɔti"],  // the Sanskrit divine name prajāpati 'lord of creatures' used for the insect; Bengali প্রজাপতি is the same
     pa: ["ਤਿਤਲੀ", "tɪtliː"],  // same word as Hindi-Urdu titlī, from Prakrit tittiri- (Turner CDIAL p. 331)
     pjt: ["pinta-pinta", "pintapinta"],  // reduplicated; the dictionary glosses it 'butterfly, moth', so it covers moths too

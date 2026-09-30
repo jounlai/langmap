@@ -210,7 +210,7 @@ WORDS.horse = {
     dv: ["އަސް", "as"],
     bo: ["རྟ", "ta˥"],
     dz: ["རྟ", "ta"],
-    cdo: ["马", "ma˧˩"],
+    cdo: ["马", "ma˧˧"],
     cjy: ["马", "ma˥˧"],
     dng: ["ма", "ma˥˩"],
     ace: ["guda", "ɡuda"],

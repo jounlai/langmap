@@ -581,7 +581,7 @@ WORDS.person = {
     wuu_sz: ["人", "ȵin˨˨˧"],
     wuu_wz: ["侬", "naŋ˧˩"],
     nan_qz: ["人", "laŋ˨˦"],
-    nan_hai: ["侬", "naŋ˨˩"],
+    nan_hai: ["侬", "naŋ˧˩"],
     kln: ["chiito", "tʃiːto"],
     ja_osa: ["人", "çito"],
     mn_cn: ["ᠬᠦᠮᠦᠨ", "xuŋ"],

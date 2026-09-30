@@ -367,7 +367,7 @@ WORDS.green = {
     my: ["စိမ်း", "séɪɴ"],
     myv: ["пиже", "ˈpiʒe"],
     mzh: ["watsan", "watsan"],   // Grue: IDS and WOLD both give wa'c̷an / w'atshan for blue and green alike in Wichí, so this repeats the 'blue' cell.
-    nan: ["綠", "lik˦"],
+    nan: ["綠", "liɪk˦"],
     nan_pn: ["青色", "tsʰẽ˧˧ sek˧"],
     nan_qz: ["綠", "liak˨˦"],
     nan_te: ["青色", "tsʰẽ˧˧ sek˨"],
@@ -512,7 +512,7 @@ WORDS.green = {
     wuu_nb: ["绿", "loʔ˩˨"],
     wuu_sz: ["绿", "loʔ˧"],
     wuu_wz: ["绿", "lo˨˩˧"],
-    nan_hai: ["绿", "liak˨˨"],
+    nan_hai: ["绿", "liak˧"],
     ja_osa: ["緑", "midoɾi"],
     tk: ["ýaşyl", "jɑːˈʃɯl"],
     mn_cn: ["ᠨᠣᠭᠤᠭᠠᠨ", "nɔɡɔːŋ"],

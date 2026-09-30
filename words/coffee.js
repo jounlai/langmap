@@ -401,7 +401,7 @@ WORDS.coffee = {
     ko: ["커피", "kʰʌpʰi"],
     zh: ["咖啡", "kʰä˥ feɪ̯˥"],
     yue: ["咖啡", "kaː˧ fɛː˥"],
-    nan: ["咖啡", "ka˥ pi˥"],
+    nan: ["咖啡", "ka˦˦ pi˦˦"],
     zh_tw: ["咖啡", "kʰä˥ feɪ̯˥"],
     wuu: ["咖啡", "kʰa˥˧ fi˥˧"],
     hak_cn: ["咖啡", "ka˦ fi˦"],
@@ -577,7 +577,7 @@ WORDS.coffee = {
     wal: ["tukkiya", "tukːija"],
     sid: ["buna", "buna"],
     zh_km: ["咖啡", "kʰa˦˦ fei˦˦"],
-    nan_xm: ["咖啡", "ko˥˥ pi˥˥"],
+    nan_xm: ["咖啡", "ko˦˦ pi˦˦"],
     io: ["kafeo", "kaˈfeo"],
   },
 };

@@ -1249,7 +1249,7 @@ WORDS.wine = {
     hsn_hy: ["葡萄酒", "pu˩˧ tau˩˧ tɕiu˧˧"],
     wuu: ["葡萄酒", "bu˨˧ dɔ˨˧ tɕiɤ˧˥"],
     zh_sc: ["葡萄酒", "pʰu˨˩ tʰau˨˩ tɕiəu˥˧"],
-    cdo: ["葡萄酒", "puo˥˧ to˥˧ tsieu˧˩"],
+    cdo: ["葡萄酒", "po˥˧ to˥˧ tsieu˧˧"],
     zh_wenyan_edu: ["葡萄酒", "pʰou˨˩ tʰou˨˩ tsɐu˧˥"],
     vi_han: ["葡萄酒", "ɓo˨˩ ɗaːw˨˩ tɨw˧˩˧"],
     cjy: ["葡萄酒", "pʰu˩ tʰau˩ tɕiəu˥˧"],

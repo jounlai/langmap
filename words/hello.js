@@ -1171,7 +1171,7 @@ WORDS.hello = {
     wuu_sz: ["倷好", "nᴇ˨˧ hæ˥˩"],
     wuu_wz: ["你好", "ŋ˧˩ hau˧˥"],
     nan_qz: ["汝好", "lɯ˥˥˦ ho˥˥˦"],
-    nan_hai: ["汝好", "li˨˩˧ ho˨˩˧"],
+    nan_hai: ["汝好", "lu˨˩˧ ho˨˩˧"],
     zh_wh: ["你好", "ni˨˩˧ xau˨˩˧"],
     zh_zz: ["你好", "ni˥˧ xau˥˧"],
     hak_hl: ["你好", "ŋi˨˦ ho˨˦"],

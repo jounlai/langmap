@@ -107,7 +107,7 @@ WORDS.cuckoo = {
     ko_yb: ["뻐꿍기", "p͈ʌk͈uŋɡi"],
     zh: ["布谷鸟", "pu˥˩ ku˨˩˦ ni̯ɑʊ̯˨˩˦"],
     yue: ["布穀鳥", "pou˧ kʊk̚˥ niːu˩˧"],
-    nan: ["杜鵑", "tɔ˧˧ kuan˥"],
+    nan: ["杜鵑", "tɔ˧˧ kuan˦˦"],
     zh_tw: ["布穀鳥", "pu˥˩ ku˨˩˦ ni̯ɑʊ̯˨˩˦"],
     hak_cn: ["伏鸠仔", "pʰʊk̚˥ keu˧˥ ʋe˧˩"],
     vi: ["cu cu", "ku˧ ku˧"],

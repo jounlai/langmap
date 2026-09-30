@@ -114,7 +114,7 @@ WORDS.computer = {
     "bxr": ["компьютер", "kɔmˈpjuter"],
     "ca": ["ordinador", "uɾðinəˈðo"],
     "ca_va": ["ordinador", "oɾðinaˈðoɾ"],
-    "cdo": ["电脑", "tiɛŋ˨˦˨ nɔ˧˧"],
+    "cdo": ["电脑", "tiɛŋ˨˦˨ no˧˧"],
     "ceb": ["kompyuter", "komˈpjutɛr"],
     "cjy": ["电脑", "tie˦˥ nau˥˧"],
     "ckb": ["کۆمپیوتەر", "kompjuteɾ"],

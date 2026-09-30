@@ -1175,7 +1175,7 @@ WORDS.name = {
       wuu_sz: ["名字", "min˨˨˧ zʮ˨˧˩"],
       wuu_wz: ["名字", "meŋ˧˩ zɿ˨˨"],
       nan_qz: ["名", "miã˨˦"],
-      nan_hai: ["名", "mia˨˩"],
+      nan_hai: ["名", "mia˧˩"],
       zh_wh: ["名字", "min˨˩˧ tsɨ"],
       zh_zz: ["名儿", "mioɻ˦˨"],
       hak_hl: ["名", "miaŋ˥˥"],

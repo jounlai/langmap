@@ -210,7 +210,7 @@ WORDS.nose = {
     qu: ["sinqa", "ˈsinqa"],
     zh_db: ["鼻子", "pi˧˥ tsz̩"],
     zh_sc: ["鼻子", "pi˨˩ tsɨ"],
-    cdo: ["鼻", "pʰei˨˦˨"],
+    cdo: ["鼻", "pʰɛi˨˩˧"],
     bo: ["སྣ", "na˥"],
     bft: ["སྣ", "sna"],
     lbj: ["སྣ", "na"],
@@ -706,7 +706,7 @@ WORDS.nose = {
     wuu_jx: ["鼻头", "biəʔ˩˨ de˨˨˧"],
     wuu_jh: ["鼻头", "biəʔ˩˨ diu˨˨˦"],
     cnp: ["鼻", "pɐt˨"],
-    nan_hai: ["鼻", "fi˧˧"],
+    nan_hai: ["鼻", "fi˨˧"],
     cpx: ["鼻", "pʰi˩˩"],
     // --- Sinitic — the south keeps a suffix: 鼻公 in Hakka, 鼻哥 in Yue ---
     // Gan and Min read 鼻 with the old *-t coda, so Nanchang has 鼻子 pʰit-.

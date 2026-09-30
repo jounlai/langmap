@@ -845,7 +845,7 @@ WORDS.rain = {
     cjy_lv: ["雨", "zu˧˩˨"],
     cjy_xz: ["雨", "y˥˧"],
     czh_wy: ["雨", "y˧˩"],
-    nan_hai: ["雨", "ho˨˩"],
+    nan_hai: ["雨", "hɔu˧˧"],
 
     // --- 2026-08 dataset pass: ASJP, IDS, ABVD, NorthEuraLex, Polyglotta
     // Africana, TransNewGuinea.org, Sino-Tibetan (suntb / lam), WOLD ---

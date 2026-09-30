@@ -121,7 +121,7 @@ WORDS.chocolate = {
     // the table of Indonesian loanwords INTO Hokkien: Indonesian cokelat →
     // Southern Min tsik-ku-lat. So the mainland Hokkien cities agree with
     // Penang and Singapore, and disagree with 巧克力 next door.
-    nan_xm: ["芝居力", "tsi˥˥ ku˥˥ lat˦"],
+    nan_xm: ["芝居力", "tsi˦˦ ku˦˦ lat̚˦"],
     nan_qz: ["芝居力", "tsiak˥ ku˧˧ laʔ˨˦"],   // Quanzhou and the Philippines say chiak-ku-la̍h
     nan_zz: ["芝居力", "tsi˦˦ ku˦˦ lat̚˩˨˩"],
     nan_te: ["朱古力", "tsu˧˧ kou˥˨ lak˦"],   // Teochew follows Cantonese here, not its Hokkien neighbours
@@ -131,7 +131,7 @@ WORDS.chocolate = {
     // (1922), and en.wiktionary now marks 芝居力 "dated in Taiwanese Hokkien".
     // Japanese チョコレート displaced it. 教育部臺灣台語常用詞辭典 entry 20528
     // gives only this form, "借自日語「チョコレート」", with no 漢字 field at all.
-    nan: ["chio͘-kó͘-lè-tò͘", "tsiɔ˥ kɔ˥˧ le˩˩ tɔ˩˩"],
+    nan: ["chio͘-kó͘-lè-tò͘", "tsiɔ˦˦ kɔ˥˧ le˩˩ tɔ˩˩"],
     // Meixian runs the OTHER way from Taiwan Hakka: Wiktionary's dial-syn puts
     // 朱古力 at Meixian and 惠州, against 巧克力 at Miaoli, Liudui, Hsinchu,
     // Dongshi, Raoping and Yunlin. Mainland Hakka took the Cantonese word, Taiwan

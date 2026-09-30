@@ -1178,7 +1178,7 @@ WORDS.father = {
     wuu_sz: ["爹爹", "tiɑ˥ tiɑ˨˩"],
     wuu_wz: ["阿爸", "a˧˩ pa˧˧"],
     nan_qz: ["老爸", "lau˨˨ pe˨˨"],
-    nan_hai: ["父", "ba˨˨"],
+    nan_hai: ["父", "ɓɛ˧˧"],
     zh_wh: ["爸爸", "pa˨˩˧ pa"],
     zh_zz: ["爸爸", "pa˨˦ pa"],
     hak_hl: ["阿爸", "a˥˥ pa˥˥"],

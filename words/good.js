@@ -319,7 +319,7 @@ WORDS.good = {
     qu: ["allin", "aʎin"],
     zh_db: ["好", "xaʊ̯˧˩˧"],
     zh_sc: ["好", "xau˥˧"],
-    cdo: ["好", "ho˧˩"],
+    cdo: ["好", "ho˧˧"],
     bo: ["ཡག་པོ", "jakpo˩˧"],
     bft: ["ཡག་པོ", "jakpo"],
     lbj: ["ཡག་པོ", "jakpo"],

@@ -1868,12 +1868,12 @@ WORDS.foot = {
     mzn: ["لینگ", "liŋɡ"],  // لینگ covers the whole lower limb; لینگ بن is the sole.
     na: ["eana", "eana"],  // The 1918 Bible washes the disciples' nanan at John 13:5 and breaks the crucified men's nanórei at John 19:31 — one stem for both. Daniel 2:33 has to force a contrast and does it by demoting the foot to reren iwin, the sole, which is a merger signature, not a second lexeme. ABVD Nauru (id 97, Kayser) gives the absolute pair e-bee 'hand' / eana, and the row's own hand cell is ebe.
     nag: ["theng", "tʰeŋ"],  // Nagamese takes Assamese ঠেং, not ভৰি: theng does the feet at John 13:5 and the legs at John 19:31 and outnumbers bhori 122 to 2 in the New Testament, with haddi the bone.
-    nan: ["跤", "kʰa˥"],  // Southern Min 跤 kha is the whole lower limb; the leg-specific 跤腿 is built on it. Tone written ˥ to match this row's other tone-1 cells (心 sim˥).
-    nan_hai: ["跤", "xa˨˦"],  // Hainanese spirantised 溪母 to /x/ and keeps /h/ for 曉匣 — the row's own 火 hə and 海 hai are the /h/ half — so the Min kha of every neighbouring row comes out here as xa, and the missionary spelling kha is etymological, not phonetic.
+    nan: ["跤", "kʰa˦˦"],  // Southern Min 跤 kha is the whole lower limb; the leg-specific 跤腿 is built on it. Tone written ˥ to match this row's other tone-1 cells (心 sim˥).
+    nan_hai: ["跤", "xa˨˧"],  // Hainanese spirantised 溪母 to /x/ and keeps /h/ for 曉匣 — the row's own 火 hə and 海 hai are the /h/ half — so the Min kha of every neighbouring row comes out here as xa, and the missionary spelling kha is etymological, not phonetic.
     nan_pn: ["跤", "kʰa˧˧"],  // Penang's 陰平 sits at ˧˧ rather than Amoy's ˥, and the row writes that in five other cells, so the tone is its own even though the syllable is the common Hokkien kha.
     nan_qz: ["跤", "kʰa˧˧"],  // Quanzhou's 陰平 is a mid level ˧˧ where the Xiamen-based parent writes ˥, and seven of this row's own cells say so.
     nan_te: ["跤", "kʰa˧˧"],  // Teochew keeps the Min 骹 kha but writes 陰平 ˧˧, which is this row's own value in 心 sim˧˧ and 三 sam˧˧ rather than the parent's ˥.
-    nan_xm: ["跤", "kʰa˥˥"],  // As the Taiwanese row; tone written ˥˥ to match this row's other tone-1 cells (心 sim˥˥).
+    nan_xm: ["跤", "kʰa˦˦"],  // As the Taiwanese row; tone written ˥˥ to match this row's other tone-1 cells (心 sim˥˥).
     nan_zz: ["跤", "kʰa˦˦"],  // Zhangzhou is one of the points where both sides are recorded: 跤 for the foot, 跤腿 and 跤骨 for the leg, 大跤腿 for the thigh. MCPDict 漳州 骹 kʰa1; tone ˦ to match this row's other 陰平 cells (心 sim˦, 三 sã˦).
     nap: ["pere", "ˈpɛːrə"],  // The translation table spells it pere; Wiktionary's lemma pede carries the IPA.
     naq: ["ǂaidi", "ǂaidi"],  // Khoekhoe splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes ǃom-mi as ǃomːi.

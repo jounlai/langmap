@@ -624,7 +624,7 @@ WORDS.sleep = {
     xag: ["baskʼe-", "baskʼe"],
     pkp: ["moe", "moe"],
     wls: ["moe", "moe"],
-    nan_xm: ["睏", "kʰun˩˩"],
+    nan_xm: ["睏", "kʰun˨˩"],
     nan_zz: ["睏", "kʰun˨˩"],
     pmy: ["tidor", "tidor"],
     bew: ["tidur", "tidur"],

@@ -403,7 +403,7 @@ WORDS.salt = {
     nan_qz: ["鹽", "iam˨˦"],
     nan_pn: ["鹽", "iam˨˧"],
     nan_te: ["盐", "iam˥˥"],
-    nan_hai: ["盐", "iam˨˩"],
+    nan_hai: ["盐", "iam˧˩"],
     hak_cn: ["盐", "iam˩˩"],
     hak_tw: ["鹽", "iam˩˩"],
     hak_hl: ["鹽", "iam˥˥"],

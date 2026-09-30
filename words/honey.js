@@ -551,8 +551,8 @@ WORDS.honey = {
     zh_zz: ["蜂蜜", "fəŋ˨˦ mi˨˦"],
     zh_xa: ["蜂蜜", "fəŋ˨˩ mi˨˩"],
     // Min Nan reads 蜂 with the colloquial phang, not the literary hong.
-    nan: ["蜂蜜", "pʰaŋ˥ bit˦"],
-    nan_xm: ["蜂蜜", "pʰaŋ˥˥ bit˦"],
+    nan: ["蜂蜜", "pʰaŋ˦˦ bit˦"],
+    nan_xm: ["蜂蜜", "pʰaŋ˦˦ bit̚˦"],
     nan_qz: ["蜂蜜", "pʰaŋ˧˧ bit˨˦"],
 
     // --- Japonic and Koreanic ---------------------------------------------
@@ -746,7 +746,7 @@ WORDS.honey = {
     hak_cn: ["蜂糖", "fuŋ˦ tʰoŋ˩˩"],
     hak_tw: ["蜂糖", "fuŋ˨˦ tʰoŋ˩˩"],
     hak_hl: ["蜂糖", "fuŋ˥˧ tʰoŋ˥˥"],
-    cdo: ["蜂蜜", "pʰuŋ˦˦ miʔ˦"],
+    cdo: ["蜂蜜", "pʰuŋ˥˥ miʔ˥"],
     yue_ts: ["蜜糖", "mit˨ hɔŋ˨˨"],
     yue_gz: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
     yue_dg: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],

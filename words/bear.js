@@ -1091,7 +1091,7 @@ WORDS.bear = {
     nan_xm: ["熊", "him˨˦"],
     nan_zz: ["熊", "him˩˧"],
     nan_pn: ["熊", "him˨˧"],
-    nan_hai: ["熊", "hiɔŋ˨˩"],
+    nan_hai: ["熊", "hiɔŋ˧˩"],
     yue_ts: ["熊", "huŋ˨˨"],
     yue_gz: ["熊", "jʊŋ˨˩"],
     yue_dg: ["熊", "jʊŋ˨˩"],

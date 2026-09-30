@@ -87,6 +87,12 @@ const EXCEPTIONS = new Set([
   'mnz|立',              // Min Zhong 次濁入 → 陽入, parallels mnp|立
   'msj|六', 'msj|月',    // Shao-Jiang Min 次濁入 → 陽入 (low checked tone)
   'nan_lei|足',          // Leizhou Min 陰入 cell — provisional reading pending native verification
+  // Leizhou vernacular readings that left the 入聲 class, both as Wiktionary gives
+  // them (mn-l): 月 bhue6 /buɛ³³/ lost its stop and joined tone 6; 木 mog4 /mɔk̚⁵/
+  // is 陰入 against the 陽入 of its peers. Checked 2026-09-30 in the Min audit.
+  'nan_lei|月', 'nan_lei|木',
+  // Teochew 聞 is bhung6 /buŋ³⁵/ on Wiktionary (mn-t), 陽上 not 陽平.
+  'nan_te|聞',
 ]);
 
 // --- 5. For each variety, group chars by MC cell, find majority tone, flag outliers.

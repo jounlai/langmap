@@ -88,7 +88,7 @@ const ALLOW = {
     // orange: Manila's word is 橙 chhiâm (also siâm), not the 柑仔 of every
     // other Hokkien row. Wiktionary's dial-syn table for 橙子 gives 橙 as the
     // only Philippine Southern Min entry, and 橙 carries a reading tagged for
-    // Manila (ph), Malaysia and Singapore. It is a Hokkien reading of the character,
+    // Manila (ph), mainland Fujian (ml) and Singapore. It is a Hokkien reading of the character,
     // not the Mandarin word borrowed in; added 2026-09-30 with the row.
     'orange|nan_ph': true,
 

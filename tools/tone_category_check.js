@@ -79,7 +79,7 @@ const EXCEPTIONS = new Set([
   'czh|六',      // Hui 六 lexicalised low numeral reading; no source to "correct" it
   'mnp|日', 'mnp|立', // Jian'ou 次濁入 → 陽入 ˦˨ (Wiktionary /ni⁴²/, /li⁴²/), vs 陰入 peers
   'nan_hai|九', 'nan_hai|火', // Hainanese 陰上 is a genuine LOW contour (~213), not the ˨˦˥ majority
-  'nan_id|口', 'nan_sg|口',   // 訓讀: cell holds colloquial 喙/嘴 chhùi (陰去), not 口's own reading
+  'nan_sg|口',               // 訓讀: cell holds colloquial 喙/嘴 chhùi (陰去), not 口's own reading
   'yue_nn|肉', 'yue_zs|肉',   // 入聲 notation: ˨ ≡ ˨˨ (short checked tone), not a tone error
   'zh_jiao|六', 'zh_jiao|肉', // Jiao-Liao 次濁入 → 去聲 ˥˧ (regular here), peers' ˦˨ is the split
   // New under-documented varieties (provisional, derived from a baseline):

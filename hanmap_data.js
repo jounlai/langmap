@@ -178,7 +178,7 @@ const HAN_DATA = {
       "cjy_dt": "iəʔ³²",
       "msj": "i⁵¹",
       "wuu_qt": "iæʔ⁴²",
-      "hak_hy": "yit",
+      "hak_hy": "zit²¹",
       "cdo": "ék",
       "zh": "yī",
       "zh_tw": "yī",
@@ -271,8 +271,6 @@ const HAN_DATA = {
       "nan_zz": "it",
       "nan_sg": "it",
       "nan_my": "it",
-      "nan_id": "it",
-      "nan_pera": "it⁴",
       "nan_th": "ziʔ²",
       "nan_pn": "it"
     },
@@ -285,8 +283,6 @@ const HAN_DATA = {
       "mnp": "i˨˦",
       "th": "ʔet̚˨˩",
       "hsn_ld": "i˩˧",
-      nan_id: "it̚˧˨",
-      nan_pera: "it̚˥",
       nan_zz: "it̚˧˨",
       "gan_yc": "iʔ˦",
       "gan_ja": "i˧˧˦",
@@ -304,7 +300,7 @@ const HAN_DATA = {
       "cjy_dt": "iəʔ˧˨",
       "msj": "i˥˩",
       "wuu_qt": "iæʔ˦˨",
-      "hak_hy": "jit̚˩",
+      "hak_hy": "zit̚˨˩",
       "zh": "i˥˥",
       "zh_tw": "i˥˥",
       "zh_db": "i˥˥",
@@ -420,7 +416,7 @@ const HAN_DATA = {
       "ja_okn": "イツ",
       "ja_thk": "イツ",
       "ko_bus": "일"
-    },
+    }
   },
   "二": {
     "surface": {
@@ -444,7 +440,7 @@ const HAN_DATA = {
       "cjy_dt": "ər²⁴",
       "msj": "ŋi²³¹",
       "wuu_qt": "n̩²²",
-      "hak_hy": "ngì",
+      "hak_hy": "gi⁴²",
       "cdo": "nê",
       "zh": "èr",
       "zh_tw": "èr",
@@ -539,14 +535,11 @@ const HAN_DATA = {
       "nan_pn": "jī",
       "nan_my": "jī",
       "nan_sg": "jī",
-      "nan_pera": "ji³",
       "nan_th": "zi³⁵",
-      "nan_id": "jī",
       "ptb": "*g-nis"
     },
     "ipa": {
       "nan_th": "zi˧˥",
-      "nan_pera": "dʑi˨˩",
       "nan_my": "dzi˧˩",
       "nan_sg": "dzi˨˨",
       "nan_qz": "li˦˩",
@@ -557,7 +550,6 @@ const HAN_DATA = {
       "th": "jiː˥˩",
       "hsn_ld": "ɤ˩˩",
       nan_pn: "dzi˨˩",
-      nan_id: "dzi˨˦",
       nan_zz: "dzi˨˨",
       "gan_yc": "ø˨˩˧",
       "gan_ja": "ɵ˨˩˦",
@@ -576,7 +568,7 @@ const HAN_DATA = {
       "cjy_dt": "ər˨˦",
       "msj": "ŋi˨˧˩",
       "wuu_qt": "n̩˨˨",
-      "hak_hy": "ŋi˥˧",
+      "hak_hy": "ɡi˦˨",
       "zh": "ɑɻ˥˩",
       "zh_tw": "ɑɻ˥˩",
       "zh_db": "ɚ˥˧",
@@ -694,7 +686,7 @@ const HAN_DATA = {
       "ja_okn": "ジ",
       "ja_thk": "ジ",
       "ko_bus": "이"
-    },
+    }
   },
   "三": {
     "surface": {
@@ -717,7 +709,7 @@ const HAN_DATA = {
       "cjy_dt": "sæ³¹",
       "msj": "saŋ⁵⁵",
       "wuu_qt": "sɑ⁴⁴⁵",
-      "hak_hy": "sâm",
+      "hak_hy": "sam³³",
       "zh": "sān",
       "zh_tw": "sān",
       "yue": "saam1",
@@ -972,7 +964,7 @@ const HAN_DATA = {
       "cjy_dt": "sɿ²⁴",
       "msj": "si³²⁴",
       "wuu_qt": "sɿ³³",
-      "hak_hy": "sì",
+      "hak_hy": "si⁴²",
       "zh": "sì",
       "zh_tw": "sì",
       "yue": "sei3",
@@ -1041,7 +1033,6 @@ const HAN_DATA = {
       "yue_mo": "sei3",
       "nan_sg": "sì",
       "nan_my": "sì",
-      "nan_id": "sì",
       "sjo": "duin",
       "ko_mid": "·sʌ",
       "ja_ojp": "si",
@@ -1065,7 +1056,6 @@ const HAN_DATA = {
       "zh_us": "si⁴",
       "nan_th": "si²¹³",
       "zh_th": "sì",
-      "nan_pera": "si⁵³",
       "zh_jiao": "si⁵³",
       "hak_mz": "sì",
       "zh_gl": "si²⁴",
@@ -1094,7 +1084,7 @@ const HAN_DATA = {
       "cjy_dt": "sɿ˨˦",
       "msj": "si˧˨˦",
       "wuu_qt": "sɿ˧˧",
-      "hak_hy": "si˥˧",
+      "hak_hy": "si˦˨",
       "zh": "sɿ˥˩",
       "zh_tw": "sɿ˥˩",
       "zh_db": "sɿ˥˧",
@@ -1163,7 +1153,6 @@ const HAN_DATA = {
       "yue_mo": "sei˧",
       "nan_sg": "si˨˩",
       "nan_my": "si˧˩",
-      "nan_id": "si˥˩",
       "sjo": "duin",
       "ko_mid": "sʌ˥",
       "ja_ojp": "ɕi",
@@ -1187,7 +1176,6 @@ const HAN_DATA = {
       "zh_us": "sɹ̩˥˩",
       "nan_th": "si˨˩˧",
       "zh_th": "sɿ˥˩",
-      "nan_pera": "si˥˧",
       "zh_jiao": "sɿ˥˧",
       "hak_mz": "sɿ˥˧",
       "zh_gl": "sɿ˨˦",
@@ -1250,7 +1238,7 @@ const HAN_DATA = {
       "cjy_dt": "vu⁵⁴",
       "msj": "ɤŋ⁵¹",
       "wuu_qt": "ŋø⁴⁵⁴",
-      "hak_hy": "ńg",
+      "hak_hy": "n̩³¹",
       "zh": "wǔ",
       "zh_tw": "wǔ",
       "yue": "ng5",
@@ -1361,7 +1349,7 @@ const HAN_DATA = {
       "cjy_dt": "vu˥˦",
       "msj": "ɤŋ˥˩",
       "wuu_qt": "ŋø˦˥˦",
-      "hak_hy": "ŋ̍˧˩",
+      "hak_hy": "n̩˧˩",
       "zh": "u˨˩˦",
       "zh_tw": "u˨˩˦",
       "zh_db": "u˨˩˧",
@@ -1507,7 +1495,7 @@ const HAN_DATA = {
       "cjy_dt": "liəu²⁴",
       "msj": "ʃu³²⁴",
       "wuu_qt": "leuʔ³¹",
-      "hak_hy": "liu̍k",
+      "hak_hy": "luk²¹",
       "zh": "liù",
       "zh_tw": "liù",
       "yue": "luk6",
@@ -1618,7 +1606,7 @@ const HAN_DATA = {
       "cjy_dt": "liəu˨˦",
       "msj": "ʃu˧˨˦",
       "wuu_qt": "leuʔ˧˩",
-      "hak_hy": "liuk̚˥",
+      "hak_hy": "luk̚˨˩",
       "zh": "ljou˥˩",
       "zh_tw": "ljou˥˩",
       "zh_db": "liou˥˧",
@@ -1760,7 +1748,7 @@ const HAN_DATA = {
       "czh_jx": "tɕʰieʔ³²",
       "cjy_dt": "tɕʰiəʔ³²",
       "wuu_qt": "tsʰaʔ⁴²",
-      "hak_hy": "chhit",
+      "hak_hy": "tsʰit²¹",
       "zh": "qī",
       "zh_tw": "qī",
       "yue": "cat1",
@@ -1829,7 +1817,6 @@ const HAN_DATA = {
       "yue_mo": "cat1",
       "nan_sg": "tshit",
       "nan_my": "tshit",
-      "nan_id": "tshit",
       "sjo": "nadan",
       "ko_mid": "·chilq",
       "ja_ojp": "siti",
@@ -1850,7 +1837,6 @@ const HAN_DATA = {
       "zh_us": "qi¹",
       "nan_th": "tsʰiʔ²",
       "zh_th": "qī",
-      "nan_pera": "chhit⁵",
       "zh_jiao": "qi⁵⁵",
       "hak_mz": "chhit",
       "zh_gl": "ci³¹",
@@ -1878,7 +1864,7 @@ const HAN_DATA = {
       "czh_jx": "tɕʰieʔ˧˨",
       "cjy_dt": "tɕʰiəʔ˧˨",
       "wuu_qt": "tsʰaʔ˦˨",
-      "hak_hy": "tsʰit̚˩",
+      "hak_hy": "tsʰit̚˨˩",
       "zh": "tɕʰi˥˥",
       "zh_tw": "tɕʰi˥˥",
       "zh_db": "tɕʰi˥˥",
@@ -1947,7 +1933,6 @@ const HAN_DATA = {
       "yue_mo": "tsʰɐt̚˥",
       "nan_sg": "tsʰit̚˧˨",
       "nan_my": "tsʰit̚˥˧",
-      "nan_id": "tsʰit̚˧˨",
       "sjo": "nadan",
       "ko_mid": "tsʰilʔ˥",
       "ja_ojp": "ɕiti",
@@ -1968,7 +1953,6 @@ const HAN_DATA = {
       "zh_us": "tɕʰi˥˥",
       "nan_th": "tsʰiʔ˨",
       "zh_th": "tɕʰi˥˥",
-      "nan_pera": "tɕʰiʔ˥",
       "zh_jiao": "tɕʰi˥˥",
       "hak_mz": "tsʰit̚˩",
       "zh_gl": "tsʰi˧˩",
@@ -2031,7 +2015,7 @@ const HAN_DATA = {
       "cjy_dt": "paʔ³²",
       "msj": "pa⁵¹",
       "wuu_qt": "ɓaʔ⁴²",
-      "hak_hy": "pat",
+      "hak_hy": "pat²¹",
       "zh": "bā",
       "zh_tw": "bā",
       "yue": "baat3",
@@ -2140,7 +2124,7 @@ const HAN_DATA = {
       "cjy_dt": "paʔ˧˨",
       "msj": "pa˥˩",
       "wuu_qt": "ɓaʔ˦˨",
-      "hak_hy": "pat̚˩",
+      "hak_hy": "pat̚˨˩",
       "zh": "pa˥˥",
       "zh_tw": "pa˥˥",
       "zh_db": "pa˥˥",
@@ -2282,7 +2266,7 @@ const HAN_DATA = {
       "cjy_dt": "tɕiəu⁵⁴",
       "msj": "kiu⁵¹",
       "wuu_qt": "tɕieu⁴⁵⁴",
-      "hak_hy": "kiú",
+      "hak_hy": "kiu³¹",
       "zh": "jiǔ",
       "zh_tw": "jiǔ",
       "yue": "gau2",
@@ -2516,7 +2500,7 @@ const HAN_DATA = {
       "ja_okn": "キュウ",
       "ja_thk": "キュウ",
       "ko_bus": "구"
-    },
+    }
   },
   "十": {
     "surface": {
@@ -2541,7 +2525,7 @@ const HAN_DATA = {
       "cjy_dt": "ʂəʔ³²",
       "msj": "ʃi⁵",
       "wuu_qt": "zaʔ³¹",
-      "hak_hy": "si̍p",
+      "hak_hy": "sip⁵⁵",
       "zh": "shí",
       "zh_tw": "shí",
       "yue": "sap6",
@@ -2651,7 +2635,7 @@ const HAN_DATA = {
       "cjy_dt": "ʂəʔ˧˨",
       "msj": "ʃi˥",
       "wuu_qt": "zaʔ˧˩",
-      "hak_hy": "sip̚˥",
+      "hak_hy": "sip̚˥˥",
       "zh": "ʂʐ̩˧˥",
       "zh_tw": "sz̩˧˥",
       "zh_db": "ʂʐ̩˧˥",
@@ -2797,7 +2781,7 @@ const HAN_DATA = {
       "cjy_dt": "ʐəʔ³²",
       "msj": "ŋi³²⁴",
       "wuu_qt": "ȵiæʔ³¹",
-      "hak_hy": "ngi̍t",
+      "hak_hy": "git²¹",
       "nan": "li̍t",
       "cdo": "nĭk",
       "zh": "rì",
@@ -2854,7 +2838,6 @@ const HAN_DATA = {
       "zh_phagspa": "ʐɨ",
       "yue_hk": "jat6",
       "yue_mo": "jat6",
-      "nan_id": "ji̍t",
       "sjo": "šun",
       "ko_mid": "·zilq",
       "ja_ojp": "niti",
@@ -2877,7 +2860,6 @@ const HAN_DATA = {
       "zh_us": "ri⁴",
       "nan_th": "ziʔ⁵",
       "zh_th": "rì",
-      "nan_pera": "jit⁵",
       "zh_jiao": "yi⁴²",
       "hak_mz": "ngi̍t",
       "zh_gl": "zi³¹",
@@ -2912,7 +2894,7 @@ const HAN_DATA = {
       "cjy_dt": "ʐəʔ˧˨",
       "msj": "ŋi˧˨˦",
       "wuu_qt": "ȵiæʔ˧˩",
-      "hak_hy": "ŋit̚˥",
+      "hak_hy": "ɡit̚˨˩",
       "zh": "ʐ̩˥˩",
       "zh_tw": "z̩˥˩",
       "zh_db": "ʐ̩˥˧",
@@ -2967,7 +2949,6 @@ const HAN_DATA = {
       "zh_phagspa": "ʐɨ",
       "yue_hk": "jɐt̚˨",
       "yue_mo": "jɐt̚˨",
-      "nan_id": "dzit̚˦",
       "sjo": "ɕun",
       "ko_mid": "zilʔ˥",
       "ja_ojp": "ɲiti",
@@ -2990,7 +2971,6 @@ const HAN_DATA = {
       "zh_us": "ɹ̩˥˩",
       "nan_th": "ziʔ˥",
       "zh_th": "z̩˥˩",
-      "nan_pera": "ziʔ˥",
       "zh_jiao": "i˦˨",
       "hak_mz": "ŋit̚˥",
       "zh_gl": "zɿ˧˩",
@@ -3050,7 +3030,7 @@ const HAN_DATA = {
       "cjy_dt": "yaʔ³²",
       "msj": "ŋue⁵",
       "wuu_qt": "ȵyæʔ³¹",
-      "hak_hy": "ngie̍t",
+      "hak_hy": "zet⁵⁵",
       "nan": "ge̍h",
       "zh": "yuè",
       "zh_tw": "yuè",
@@ -3155,7 +3135,7 @@ const HAN_DATA = {
       "cjy_dt": "yaʔ˧˨",
       "msj": "ŋue˥",
       "wuu_qt": "ȵyæʔ˧˩",
-      "hak_hy": "ŋiet̚˥",
+      "hak_hy": "zet̚˥˥",
       "zh": "ɥe˥˩",
       "zh_tw": "ɥe˥˩",
       "zh_db": "ye˥˧",
@@ -3267,7 +3247,7 @@ const HAN_DATA = {
       "ja_okn": "ギツ",
       "ja_thk": "ゲツ",
       "ko_bus": "월"
-    },
+    }
   },
   "山": {
     "surface": {
@@ -3289,7 +3269,7 @@ const HAN_DATA = {
       "cjy_dt": "sæ³¹",
       "msj": "ʃuɛ̃⁵⁵",
       "wuu_qt": "sɑ⁴⁴⁵",
-      "hak_hy": "sân",
+      "hak_hy": "san³³",
       "nan": "suann",
       "zh": "shān",
       "zh_tw": "shān",
@@ -3514,7 +3494,7 @@ const HAN_DATA = {
       "ja_okn": "サン",
       "ja_thk": "サン",
       "ko_bus": "산"
-    },
+    }
   },
   "水": {
     "surface": {
@@ -3536,7 +3516,7 @@ const HAN_DATA = {
       "cjy_dt": "ʂuɛe⁵⁴",
       "msj": "ʃy⁵¹",
       "wuu_qt": "sʮ⁴⁵⁴",
-      "hak_hy": "súi",
+      "hak_hy": "sui³¹",
       "nan": "tsuí",
       "zh": "shuǐ",
       "zh_tw": "shuǐ",
@@ -3791,10 +3771,8 @@ const HAN_DATA = {
       "cjy_dt": "xuo⁵⁴",
       "msj": "fuæ⁵¹",
       "wuu_qt": "xu⁴⁵⁴",
-      "hak_hy": "fó",
+      "hak_hy": "fɔ³¹",
       "ja": "ka",
-      "nan_pera": "hóe",
-      "nan_id": "húe",
       "nan_sg": "hué",
       "nan_my": "hér",
       "nan_pn": "hué",
@@ -3910,10 +3888,8 @@ const HAN_DATA = {
       "cjy_dt": "xuo˥˦",
       "msj": "fuæ˥˩",
       "wuu_qt": "xu˦˥˦",
-      "hak_hy": "fo˧˩",
+      "hak_hy": "fɔ˧˩",
       "ja": "ka",
-      "nan_pera": "hue˨˩",
-      "nan_id": "hue˥˧",
       "nan_sg": "hue˦˨",
       "nan_my": "hə˥˧",
       "nan_pn": "hue˦˦˥",
@@ -4062,7 +4038,7 @@ const HAN_DATA = {
       "cjy_dt": "mu²⁴",
       "msj": "mu⁵",
       "wuu_qt": "muʔ³¹",
-      "hak_hy": "mu̍k",
+      "hak_hy": "muk²¹",
       "nan": "ba̍k",
       "zh": "mù",
       "zh_tw": "mù",
@@ -4146,7 +4122,6 @@ const HAN_DATA = {
       "zh_us": "mu⁴",
       "nan_th": "baʔ⁵",
       "zh_th": "mù",
-      "nan_pera": "bok⁵",
       "zh_jiao": "mu⁴²",
       "hak_mz": "mu̍k",
       "zh_gl": "mu³¹",
@@ -4175,7 +4150,7 @@ const HAN_DATA = {
       "cjy_dt": "mu˨˦",
       "msj": "mu˥",
       "wuu_qt": "muʔ˧˩",
-      "hak_hy": "muk̚˥",
+      "hak_hy": "muk̚˨˩",
       "zh": "mu˥˩",
       "zh_tw": "mu˥˩",
       "zh_db": "mu˥˧",
@@ -4258,7 +4233,6 @@ const HAN_DATA = {
       "zh_us": "mu˥˩",
       "nan_th": "baʔ˥",
       "zh_th": "mu˥˩",
-      "nan_pera": "bɔʔ˥",
       "zh_jiao": "mu˦˨",
       "hak_mz": "muk̚˥",
       "zh_gl": "mu˧˩",
@@ -4317,7 +4291,7 @@ const HAN_DATA = {
       "cjy_dt": "tʰu⁵⁴",
       "msj": "tʰu⁵¹",
       "wuu_qt": "tʰeu⁴⁵⁴",
-      "hak_hy": "thú",
+      "hak_hy": "tʰu³¹",
       "zh": "tǔ",
       "zh_tw": "tǔ",
       "yue": "tou2",
@@ -4386,7 +4360,6 @@ const HAN_DATA = {
       "yue_mo": "tou2",
       "nan_sg": "thóo",
       "nan_my": "thóo",
-      "nan_id": "thóo",
       "sjo": "boihon",
       "ko_mid": ":thwo",
       "ja_ojp": "do",
@@ -4407,7 +4380,6 @@ const HAN_DATA = {
       "zh_us": "tu³",
       "nan_th": "tʰou⁵³",
       "zh_th": "tǔ",
-      "nan_pera": "tho²¹",
       "zh_jiao": "tu⁵⁵",
       "hak_mz": "thú",
       "zh_gl": "tu⁵³",
@@ -4504,7 +4476,6 @@ const HAN_DATA = {
       "yue_mo": "tʰou˧˥",
       "nan_sg": "tʰɔ˦˨",
       "nan_my": "tʰɔ˥˧",
-      "nan_id": "tʰɔ˥˧",
       "sjo": "bɔiʁɔn",
       "ko_mid": "tʰo˩˥",
       "ja_ojp": "do",
@@ -4525,7 +4496,6 @@ const HAN_DATA = {
       "zh_us": "tʰu˨",
       "nan_th": "tʰou˥˧",
       "zh_th": "tʰu˨˩˦",
-      "nan_pera": "tʰɔ˨˩",
       "zh_jiao": "tʰu˥˥",
       "hak_mz": "tʰu˧˩",
       "zh_gl": "tʰu˥˧",
@@ -4585,7 +4555,7 @@ const HAN_DATA = {
       "cjy_dt": "tʰiɛ³¹",
       "msj": "tʰɛ̃⁵⁵",
       "wuu_qt": "tʰiɑ⁴⁴⁵",
-      "hak_hy": "thiên",
+      "hak_hy": "tʰen³³",
       "nan": "thinn",
       "zh": "tiān",
       "zh_tw": "tiān",
@@ -4692,7 +4662,7 @@ const HAN_DATA = {
       "cjy_dt": "tʰiɛ˧˩",
       "msj": "tʰɛ̃˥˥",
       "wuu_qt": "tʰiɑ˦˦˥",
-      "hak_hy": "tʰien˧˧",
+      "hak_hy": "tʰen˧˧",
       "zh": "tʰjɛn˥˥",
       "zh_tw": "tʰjɛn˥˥",
       "zh_db": "tʰiɛn˥˥",
@@ -4832,7 +4802,7 @@ const HAN_DATA = {
       "cjy_dt": "ti²⁴",
       "msj": "tʰi²³¹",
       "wuu_qt": "di²²",
-      "hak_hy": "thì",
+      "hak_hy": "tʰi⁴²",
       "nan": "tuē",
       "zh": "dì",
       "zh_tw": "dì",
@@ -4945,7 +4915,7 @@ const HAN_DATA = {
       "cjy_dt": "ti˨˦",
       "msj": "tʰi˨˧˩",
       "wuu_qt": "di˨˨",
-      "hak_hy": "tʰi˥˧",
+      "hak_hy": "tʰi˦˨",
       "zh": "ti˥˩",
       "zh_tw": "ti˥˩",
       "zh_db": "ti˥˧",
@@ -5082,7 +5052,7 @@ const HAN_DATA = {
       "cjy_dt": "xɛe⁵⁴",
       "msj": "fuæ⁵¹",
       "wuu_qt": "xɛ⁴⁵⁴",
-      "hak_hy": "hói",
+      "hak_hy": "hɔi³¹",
       "zh": "hǎi",
       "zh_tw": "hǎi",
       "yue": "hoi2",
@@ -5150,7 +5120,6 @@ const HAN_DATA = {
       "yue_mo": "hoi2",
       "nan_sg": "hái",
       "nan_my": "hái",
-      "nan_id": "hái",
       "sjo": "mederi",
       "ko_mid": ":hoy",
       "ja_ojp": "kai",
@@ -5169,7 +5138,6 @@ const HAN_DATA = {
       "zh_us": "hai³",
       "nan_th": "hai⁵³",
       "zh_th": "hǎi",
-      "nan_pera": "hai²¹",
       "zh_jiao": "hai⁵⁵",
       "hak_mz": "hói",
       "zh_gl": "hai⁵³",
@@ -5197,7 +5165,7 @@ const HAN_DATA = {
       "cjy_dt": "xɛe˥˦",
       "msj": "fuæ˥˩",
       "wuu_qt": "xɛ˦˥˦",
-      "hak_hy": "hoi˧˩",
+      "hak_hy": "hɔi˧˩",
       "zh": "xaɪ˨˩˦",
       "zh_tw": "xaɪ˨˩˦",
       "zh_db": "xai˨˩˧",
@@ -5265,7 +5233,6 @@ const HAN_DATA = {
       "yue_mo": "hɔːi˧˥",
       "nan_sg": "hai˦˨",
       "nan_my": "hai˥˧",
-      "nan_id": "hai˥˧",
       "sjo": "mədəri",
       "ko_mid": "hʌj˩˥",
       "ja_ojp": "kai",
@@ -5284,7 +5251,6 @@ const HAN_DATA = {
       "zh_us": "xaɪ˨",
       "nan_th": "hai˥˧",
       "zh_th": "xaɪ˨˩˦",
-      "nan_pera": "hai˨˩",
       "zh_jiao": "xæ˥˥",
       "hak_mz": "hoi˧˩",
       "zh_gl": "xai˥˧",
@@ -5343,7 +5309,7 @@ const HAN_DATA = {
       "cjy_dt": "luəɣ³¹³",
       "msj": "liɤŋ²²",
       "wuu_qt": "lio²¹",
-      "hak_hy": "liung",
+      "hak_hy": "luŋ¹¹",
       "nan": "lîng",
       "zh": "lóng",
       "zh_tw": "lóng",
@@ -5450,7 +5416,7 @@ const HAN_DATA = {
       "cjy_dt": "luəɣ˧˩˧",
       "msj": "liɤŋ˨˨",
       "wuu_qt": "lio˨˩",
-      "hak_hy": "liuŋ˩˩",
+      "hak_hy": "luŋ˩˩",
       "zh": "luŋ˧˥",
       "zh_tw": "luŋ˧˥",
       "zh_db": "luŋ˧˥",
@@ -5586,7 +5552,7 @@ const HAN_DATA = {
       "cjy_dt": "xu⁵⁴",
       "msj": "kʰu⁵¹",
       "wuu_qt": "fu⁴⁵⁴",
-      "hak_hy": "fú",
+      "hak_hy": "fu³¹",
       "zh": "hǔ",
       "zh_tw": "hǔ",
       "yue": "fu2",
@@ -5655,7 +5621,6 @@ const HAN_DATA = {
       "yue_mo": "fu2",
       "nan_sg": "hóo",
       "nan_my": "hóo",
-      "nan_id": "hóo",
       "sjo": "tasha",
       "ko_mid": ":hwo",
       "ja_ojp": "ko",
@@ -5674,7 +5639,6 @@ const HAN_DATA = {
       "zh_us": "hu³",
       "nan_th": "hou⁵³",
       "zh_th": "hǔ",
-      "nan_pera": "ho²¹",
       "zh_jiao": "hu⁵⁵",
       "hak_mz": "fú",
       "zh_gl": "fu⁵³",
@@ -5770,7 +5734,6 @@ const HAN_DATA = {
       "yue_mo": "fuː˧˥",
       "nan_sg": "hɔ˦˨",
       "nan_my": "hɔ˥˧",
-      "nan_id": "hɔ˥˧",
       "sjo": "taɕa",
       "ko_mid": "ho˩˥",
       "ja_ojp": "ko",
@@ -5789,7 +5752,6 @@ const HAN_DATA = {
       "zh_us": "xu˨",
       "nan_th": "hou˥˧",
       "zh_th": "xu˨˩˦",
-      "nan_pera": "hɔ˨˩",
       "zh_jiao": "xu˥˥",
       "hak_mz": "fu˧˩",
       "zh_gl": "fu˥˧",
@@ -5826,7 +5788,7 @@ const HAN_DATA = {
       "ja_thk": "コ",
       "ko_bus": "호",
       "vi_nom": "𧲫"
-    },
+    }
   },
   "犬": {
     "surface": {
@@ -5843,8 +5805,7 @@ const HAN_DATA = {
       "czh_jx": "tɕʰyẽi²¹³",
       "cjy_dt": "tɕʰyɛ⁵⁴",
       "msj": "kʰyø̃⁵¹",
-      "hak_hy": "khién",
-      "nan_id": "khián",
+      "hak_hy": "kʰen³¹",
       "zh": "quǎn",
       "zh_tw": "quǎn",
       "yue": "hyun2",
@@ -5933,7 +5894,6 @@ const HAN_DATA = {
       "zh_us": "quan³",
       "nan_th": "kʰiaŋ⁵³",
       "zh_th": "quǎn",
-      "nan_pera": "khian²¹",
       "zh_jiao": "quan⁵⁵",
       "hak_mz": "khién",
       "zh_gl": "quan⁵³",
@@ -5956,8 +5916,7 @@ const HAN_DATA = {
       "czh_jx": "tɕʰyẽi˨˩˧",
       "cjy_dt": "tɕʰyɛ˥˦",
       "msj": "kʰyø̃˥˩",
-      "hak_hy": "kʰien˧˩",
-      "nan_id": "kʰian˥˧",
+      "hak_hy": "kʰen˧˩",
       "zh": "tɕʰɥɛn˨˩˦",
       "zh_tw": "tɕʰɥɛn˨˩˦",
       "zh_db": "tɕʰyɛn˨˩˧",
@@ -6046,7 +6005,6 @@ const HAN_DATA = {
       "zh_us": "tɕʰjwɛn˨",
       "nan_th": "kʰiaŋ˥˧",
       "zh_th": "tɕʰɥɛn˨˩˦",
-      "nan_pera": "kʰian˨˩",
       "zh_jiao": "tɕʰyã˥˥",
       "hak_mz": "kʰien˧˩",
       "zh_gl": "tɕʰyɛn˥˧",
@@ -6106,7 +6064,7 @@ const HAN_DATA = {
       "cjy_dt": "ma⁵⁴",
       "msj": "ma⁵¹",
       "wuu_qt": "mu⁴⁵⁴",
-      "hak_hy": "má",
+      "hak_hy": "ma³³",
       "nan": "bé",
       "zh": "mǎ",
       "zh_tw": "mǎ",
@@ -6215,7 +6173,7 @@ const HAN_DATA = {
       "cjy_dt": "ma˥˦",
       "msj": "ma˥˩",
       "wuu_qt": "mu˦˥˦",
-      "hak_hy": "ma˧˩",
+      "hak_hy": "ma˧˧",
       "zh": "ma˨˩˦",
       "zh_tw": "ma˨˩˦",
       "zh_db": "ma˨˩˧",
@@ -6354,7 +6312,7 @@ const HAN_DATA = {
       "cjy_dt": "niɐo⁵⁴",
       "msj": "tiu²¹",
       "wuu_qt": "ɗiœ⁴⁵⁴",
-      "hak_hy": "tiáu",
+      "hak_hy": "giau³¹",
       "nan": "tsiáu",
       "zh": "niǎo",
       "zh_tw": "niǎo",
@@ -6464,7 +6422,7 @@ const HAN_DATA = {
       "cjy_dt": "niɐo˥˦",
       "msj": "tiu˨˩",
       "wuu_qt": "ɗiœ˦˥˦",
-      "hak_hy": "tiau˧˩",
+      "hak_hy": "ɡiau˧˩",
       "zh": "njau˨˩˦",
       "zh_tw": "njau˨˩˦",
       "zh_db": "niɔ˨˩˧",
@@ -6604,9 +6562,7 @@ const HAN_DATA = {
       "cjy_dt": "y³¹³",
       "msj": "ŋue²²",
       "wuu_qt": "ŋɛ²¹",
-      "hak_hy": "ng",
-      "nan_pera": "hû",
-      "nan_id": "hû",
+      "hak_hy": "n̩¹¹",
       "nan_sg": "hîr",
       "nan_my": "hîr",
       "nan_pn": "hû",
@@ -6723,9 +6679,7 @@ const HAN_DATA = {
       "cjy_dt": "y˧˩˧",
       "msj": "ŋue˨˨",
       "wuu_qt": "ŋɛ˨˩",
-      "hak_hy": "ŋ˩˩",
-      "nan_pera": "hu˨˦",
-      "nan_id": "hu˨˦",
+      "hak_hy": "n̩˩˩",
       "nan_sg": "hɯ˨˦",
       "nan_my": "hɯ˨˦",
       "nan_pn": "hu˨˧",
@@ -6873,7 +6827,7 @@ const HAN_DATA = {
       "cjy_dt": "niəu³¹³",
       "msj": "ŋy²²",
       "wuu_qt": "ŋæi²¹",
-      "hak_hy": "ngiu",
+      "hak_hy": "giu¹¹",
       "nan": "gû",
       "cdo": "ngù",
       "zh": "niú",
@@ -6981,7 +6935,7 @@ const HAN_DATA = {
       "cjy_dt": "niəu˧˩˧",
       "msj": "ŋy˨˨",
       "wuu_qt": "ŋæi˨˩",
-      "hak_hy": "ŋiu˩˩",
+      "hak_hy": "ɡiu˩˩",
       "zh": "njou˧˥",
       "zh_tw": "njou˧˥",
       "zh_db": "niou˧˥",
@@ -7096,7 +7050,7 @@ const HAN_DATA = {
       "ja_okn": "ギュウ",
       "ja_thk": "ギュウ",
       "ko_bus": "우"
-    },
+    }
   },
   "羊": {
     "surface": {
@@ -7115,7 +7069,7 @@ const HAN_DATA = {
       "czh_jx": "iõ⁴⁴",
       "cjy_dt": "iɒ³¹³",
       "msj": "iɔŋ²²",
-      "hak_hy": "yong",
+      "hak_hy": "zɔŋ¹¹",
       "zh": "yáng",
       "zh_tw": "yáng",
       "yue": "joeng4",
@@ -7215,7 +7169,7 @@ const HAN_DATA = {
       "czh_jx": "iõ˦˦",
       "cjy_dt": "iɒ˧˩˧",
       "msj": "iɔŋ˨˨",
-      "hak_hy": "joŋ˩˩",
+      "hak_hy": "zɔŋ˩˩",
       "zh": "jaŋ˧˥",
       "zh_tw": "jaŋ˧˥",
       "zh_db": "iaŋ˧˥",
@@ -7348,7 +7302,7 @@ const HAN_DATA = {
       "czh_jx": "mɤ³¹",
       "cjy_dt": "mɐo³¹³",
       "msj": "mau²¹",
-      "hak_hy": "mêu",
+      "hak_hy": "miau⁴²",
       "nan": "niau",
       "zh": "māo",
       "zh_tw": "māo",
@@ -7415,7 +7369,6 @@ const HAN_DATA = {
       "yue_mo": "maau1",
       "nan_sg": "niau",
       "nan_my": "niau",
-      "nan_id": "niau",
       "sjo": "kesike",
       "ko_mid": "myo",
       "vi_ohan": "mèo",
@@ -7430,7 +7383,6 @@ const HAN_DATA = {
       "zh_us": "mao¹",
       "nan_th": "ŋiau³³",
       "zh_th": "māo",
-      "nan_pera": "niau³",
       "zh_jiao": "mao²¹³",
       "hak_mz": "mêu",
       "zh_gl": "mao⁴⁴",
@@ -7458,7 +7410,7 @@ const HAN_DATA = {
       "czh_jx": "mɤ˧˩",
       "cjy_dt": "mɐo˧˩˧",
       "msj": "mau˨˩",
-      "hak_hy": "meu˧˧",
+      "hak_hy": "miau˦˨",
       "zh": "mau˥˥",
       "zh_tw": "mau˥˥",
       "zh_db": "mau˥˥",
@@ -7524,7 +7476,6 @@ const HAN_DATA = {
       "yue_mo": "maːu˥",
       "nan_sg": "niau˦˦",
       "nan_my": "niãu˧˧",
-      "nan_id": "niau˦",
       "sjo": "kəsitɕə",
       "ko_mid": "mjo˩",
       "vi_ohan": "mɛw˨˩",
@@ -7539,7 +7490,6 @@ const HAN_DATA = {
       "zh_us": "mau˥˥",
       "nan_th": "ŋiau˧˧",
       "zh_th": "mau˥˥",
-      "nan_pera": "niau˦",
       "zh_jiao": "mau˨˩˧",
       "hak_mz": "meu˦˦",
       "zh_gl": "mau˦˦",
@@ -7598,7 +7548,7 @@ const HAN_DATA = {
       "cjy_dt": "ʐəɣ³¹³",
       "msj": "ŋĩ²²",
       "wuu_qt": "neŋ²¹",
-      "hak_hy": "ngin",
+      "hak_hy": "gin¹¹",
       "nan": "jîn",
       "cdo": "ìng",
       "mnp": "nêng",
@@ -7710,7 +7660,7 @@ const HAN_DATA = {
       "cjy_dt": "ʐəɣ˧˩˧",
       "msj": "ŋĩ˨˨",
       "wuu_qt": "neŋ˨˩",
-      "hak_hy": "ŋin˩˩",
+      "hak_hy": "ɡin˩˩",
       "zh": "ʐən˧˥",
       "zh_tw": "zən˧˥",
       "zh_db": "ʐən˧˥",
@@ -7848,7 +7798,7 @@ const HAN_DATA = {
       "cjy_dt": "ʂəu⁵⁴",
       "msj": "tʃʰiu⁵¹",
       "wuu_qt": "ɕieu⁴⁵⁴",
-      "hak_hy": "sú",
+      "hak_hy": "su³¹",
       "nan": "tshiú",
       "cdo": "chiū",
       "zh": "shǒu",
@@ -8095,9 +8045,8 @@ const HAN_DATA = {
       "cjy_dt": "tɕyəʔ³²",
       "msj": "tsiu⁵¹",
       "wuu_qt": "tɕioʔ⁴²",
-      "hak_hy": "chiuk",
+      "hak_hy": "tsuk²¹",
       "nan": "tsiok",
-      "nan_id": "tsiok",
       "zh": "zú",
       "zh_tw": "zú",
       "yue": "zuk1",
@@ -8181,7 +8130,6 @@ const HAN_DATA = {
       "zh_us": "zu²",
       "nan_th": "tsuʔ²",
       "zh_th": "zú",
-      "nan_pera": "chiok⁵",
       "zh_jiao": "zu⁵⁵",
       "hak_mz": "chiuk",
       "zh_gl": "zu³¹",
@@ -8213,8 +8161,7 @@ const HAN_DATA = {
       "cjy_dt": "tɕyəʔ˧˨",
       "msj": "tsiu˥˩",
       "wuu_qt": "tɕioʔ˦˨",
-      "hak_hy": "tɕiuk̚˩",
-      "nan_id": "tsiɔk̚˧˨",
+      "hak_hy": "tsuk̚˨˩",
       "zh": "tsu˧˥",
       "zh_tw": "tsu˧˥",
       "zh_db": "tsu˧˥",
@@ -8298,7 +8245,6 @@ const HAN_DATA = {
       "zh_us": "tsu˧˥",
       "nan_th": "tsuʔ˨",
       "zh_th": "tsu˧˥",
-      "nan_pera": "tɕiɔʔ˥",
       "zh_jiao": "tsu˥˥",
       "hak_mz": "tɕiuk̚˩",
       "zh_gl": "tsu˧˩",
@@ -8356,7 +8302,7 @@ const HAN_DATA = {
       "cjy_dt": "mu²⁴",
       "msj": "mu³²⁴",
       "wuu_qt": "muʔ³¹",
-      "hak_hy": "mu̍k",
+      "hak_hy": "muk⁵⁵",
       "nan": "ba̍k",
       "cdo": "mĕk",
       "zh": "mù",
@@ -8463,7 +8409,7 @@ const HAN_DATA = {
       "cjy_dt": "mu˨˦",
       "msj": "mu˧˨˦",
       "wuu_qt": "muʔ˧˩",
-      "hak_hy": "muk̚˥",
+      "hak_hy": "muk̚˥˥",
       "zh": "mu˥˩",
       "zh_tw": "mu˥˩",
       "zh_db": "mu˥˧",
@@ -8600,7 +8546,7 @@ const HAN_DATA = {
       "cjy_dt": "ər⁵⁴",
       "msj": "ŋĩ⁵¹",
       "wuu_qt": "n̩²¹",
-      "hak_hy": "ngí",
+      "hak_hy": "gi³¹",
       "nan": "hī",
       "zh": "ěr",
       "zh_tw": "ěr",
@@ -8709,7 +8655,7 @@ const HAN_DATA = {
       "cjy_dt": "ər˥˦",
       "msj": "ŋĩ˥˩",
       "wuu_qt": "n̩˨˩",
-      "hak_hy": "ŋi˧˩",
+      "hak_hy": "ɡi˧˩",
       "zh": "ɑɻ˨˩˦",
       "zh_tw": "ɑɻ˨˩˦",
       "zh_db": "ɚ˨˩˧",
@@ -8850,7 +8796,7 @@ const HAN_DATA = {
       "cjy_dt": "kʰəu⁵⁴",
       "msj": "kʰeu⁵¹",
       "wuu_qt": "kʰæi⁴⁵⁴",
-      "hak_hy": "khiéu",
+      "hak_hy": "kʰiu³¹",
       "nan": "kháu",
       "zh": "kǒu",
       "zh_tw": "kǒu",
@@ -8915,7 +8861,6 @@ const HAN_DATA = {
       "yue_hk": "hau2",
       "yue_mo": "hau2",
       "nan_sg": "kháu",
-      "nan_id": "kháu",
       "sjo": "angga",
       "ko_mid": ":khwu",
       "ja_ojp": "kou",
@@ -8963,7 +8908,7 @@ const HAN_DATA = {
       "cjy_dt": "kʰəu˥˦",
       "msj": "kʰeu˥˩",
       "wuu_qt": "kʰæi˦˥˦",
-      "hak_hy": "kʰieu˧˩",
+      "hak_hy": "kʰiu˧˩",
       "zh": "kʰou˨˩˦",
       "zh_tw": "kʰou˨˩˦",
       "zh_db": "kʰou˨˩˧",
@@ -9027,7 +8972,6 @@ const HAN_DATA = {
       "yue_hk": "hɐu˧˥",
       "yue_mo": "hɐu˧˥",
       "nan_sg": "kʰau˦˨",
-      "nan_id": "tsʰui˥˩",
       "sjo": "aŋɢa",
       "ko_mid": "kʰu˩˥",
       "ja_ojp": "kou",
@@ -9082,7 +9026,7 @@ const HAN_DATA = {
       "ja_okn": "クウ",
       "ja_thk": "コウ",
       "ko_bus": "구"
-    },
+    }
   },
   "頭": {
     "surface": {
@@ -9104,7 +9048,7 @@ const HAN_DATA = {
       "cjy_dt": "tʰəu³¹³",
       "msj": "tʰeu²¹",
       "wuu_qt": "deu²¹",
-      "hak_hy": "theu",
+      "hak_hy": "tʰiu¹¹",
       "nan": "thâu",
       "zh": "tóu",
       "zh_tw": "tóu",
@@ -9214,7 +9158,7 @@ const HAN_DATA = {
       "cjy_dt": "tʰəu˧˩˧",
       "msj": "tʰeu˨˩",
       "wuu_qt": "deu˨˩",
-      "hak_hy": "tʰeu˩˩",
+      "hak_hy": "tʰiu˩˩",
       "zh": "tʰou˧˥",
       "zh_tw": "tʰou˧˥",
       "zh_db": "tʰou˧˥",
@@ -9332,7 +9276,7 @@ const HAN_DATA = {
       "ja_okn": "ツウ",
       "ja_thk": "トウ",
       "ko_bus": "두"
-    },
+    }
   },
   "心": {
     "surface": {
@@ -9354,7 +9298,7 @@ const HAN_DATA = {
       "cjy_dt": "ɕiəɣ³¹",
       "msj": "sĩ⁵⁵",
       "wuu_qt": "saŋ⁴⁴⁵",
-      "hak_hy": "sîm",
+      "hak_hy": "sim³³",
       "zh": "xīn",
       "zh_tw": "xīn",
       "yue": "sam1",
@@ -9423,7 +9367,6 @@ const HAN_DATA = {
       "yue_mo": "sam1",
       "nan_sg": "sim",
       "nan_my": "sim",
-      "nan_id": "sim",
       "sjo": "niyaman",
       "ko_mid": "sim",
       "ja_ojp": "sim",
@@ -9443,7 +9386,6 @@ const HAN_DATA = {
       "zh_us": "xin¹",
       "nan_th": "sim³³",
       "zh_th": "xīn",
-      "nan_pera": "sim³",
       "zh_jiao": "xin²¹³",
       "hak_mz": "sîm",
       "zh_gl": "xin⁴⁴",
@@ -9540,7 +9482,6 @@ const HAN_DATA = {
       "yue_mo": "sɐm˥",
       "nan_sg": "sim˦˦",
       "nan_my": "sim˧˧",
-      "nan_id": "sim˦",
       "sjo": "ɲaman",
       "ko_mid": "sim˩",
       "ja_ojp": "ɕim",
@@ -9560,7 +9501,6 @@ const HAN_DATA = {
       "zh_us": "ɕin˥˥",
       "nan_th": "sim˧˧",
       "zh_th": "ɕin˥˥",
-      "nan_pera": "sim˦",
       "zh_jiao": "ɕiẽ˨˩˧",
       "hak_mz": "sim˦˦",
       "zh_gl": "ɕin˦˦",
@@ -9618,7 +9558,7 @@ const HAN_DATA = {
       "cjy_dt": "ɕyaʔ³²",
       "msj": "fa⁵¹",
       "wuu_qt": "ɕyæʔ⁴²",
-      "hak_hy": "hiet",
+      "hak_hy": "het²¹",
       "nan": "huih",
       "zh": "xuè",
       "zh_tw": "xuè",
@@ -9729,7 +9669,7 @@ const HAN_DATA = {
       "cjy_dt": "ɕyaʔ˧˨",
       "msj": "fa˥˩",
       "wuu_qt": "ɕyæʔ˦˨",
-      "hak_hy": "hiet̚˩",
+      "hak_hy": "het̚˨˩",
       "zh": "ɕye˥˩",
       "zh_tw": "ɕye˥˩",
       "zh_db": "ɕye˥˧",
@@ -9871,7 +9811,7 @@ const HAN_DATA = {
       "cjy_dt": "ʐəu²⁴",
       "msj": "ŋiu³²⁴",
       "wuu_qt": "ȵiuʔ³¹",
-      "hak_hy": "ngiu̍k",
+      "hak_hy": "giuk²¹",
       "nan": "bah",
       "zh": "ròu",
       "zh_tw": "ròu",
@@ -9980,7 +9920,7 @@ const HAN_DATA = {
       "cjy_dt": "ʐəu˨˦",
       "msj": "ŋiu˧˨˦",
       "wuu_qt": "ȵiuʔ˧˩",
-      "hak_hy": "ŋiuk̚˥",
+      "hak_hy": "ɡiuk̚˨˩",
       "zh": "ʐou˥˩",
       "zh_tw": "zou˥˩",
       "zh_db": "ʐou˥˧",
@@ -10119,7 +10059,7 @@ const HAN_DATA = {
       "cjy_dt": "ʂəʔ³²",
       "msj": "ʃɔŋ²³¹",
       "wuu_qt": "dʑi²²",
-      "hak_hy": "sòng",
+      "hak_hy": "siɔŋ⁴²",
       "nan": "siōng",
       "zh": "shàng",
       "zh_tw": "shàng",
@@ -10193,7 +10133,6 @@ const HAN_DATA = {
       "yue_us": "soeng6",
       "zh_us": "shang⁴",
       "zh_th": "shàng",
-      "nan_pera": "siong³",
       "zh_jiao": "shang⁵³",
       "hak_mz": "sòng",
       "zh_gl": "sang²⁴",
@@ -10222,7 +10161,7 @@ const HAN_DATA = {
       "cjy_dt": "ʂəʔ˧˨",
       "msj": "ʃɔŋ˨˧˩",
       "wuu_qt": "dʑi˨˨",
-      "hak_hy": "soŋ˥˧",
+      "hak_hy": "siɔŋ˦˨",
       "zh": "ʂaŋ˥˩",
       "zh_tw": "saŋ˥˩",
       "zh_db": "ʂaŋ˥˧",
@@ -10295,7 +10234,6 @@ const HAN_DATA = {
       "yue_us": "sɝŋ˨",
       "zh_us": "saŋ˥˩",
       "zh_th": "saŋ˥˩",
-      "nan_pera": "siɔŋ˨˩",
       "zh_jiao": "ʂaŋ˥˧",
       "hak_mz": "soŋ˥˧",
       "zh_gl": "saŋ˨˦",
@@ -10333,7 +10271,7 @@ const HAN_DATA = {
       "ja_okn": "シュウ",
       "ja_thk": "ショウ",
       "ko_bus": "상"
-    },
+    }
   },
   "下": {
     "surface": {
@@ -10356,7 +10294,7 @@ const HAN_DATA = {
       "cjy_dt": "ɕia²⁴",
       "msj": "xa²³¹",
       "wuu_qt": "u⁴⁵⁴",
-      "hak_hy": "hà",
+      "hak_hy": "ha⁴²",
       "nan": "hā",
       "cdo": "hâ",
       "zh": "xià",
@@ -10461,7 +10399,7 @@ const HAN_DATA = {
       "cjy_dt": "ɕia˨˦",
       "msj": "xa˨˧˩",
       "wuu_qt": "u˦˥˦",
-      "hak_hy": "ha˥˧",
+      "hak_hy": "ha˦˨",
       "zh": "ɕja˥˩",
       "zh_tw": "ɕja˥˩",
       "zh_db": "ɕja˥˧",
@@ -10594,7 +10532,7 @@ const HAN_DATA = {
       "cjy_dt": "tʂuəɣ³¹",
       "msj": "tʃɤŋ⁵⁵",
       "wuu_qt": "ɗoŋ⁴⁴⁵",
-      "hak_hy": "chûng",
+      "hak_hy": "tsuŋ³³",
       "zh": "zhōng",
       "zh_tw": "zhōng",
       "yue": "zung1",
@@ -10662,7 +10600,6 @@ const HAN_DATA = {
       "yue_mo": "zung1",
       "nan_sg": "tiong",
       "nan_my": "tiong",
-      "nan_id": "tiong",
       "sjo": "dulimba",
       "ko_mid": "tyung",
       "ja_ojp": "tyuu",
@@ -10682,7 +10619,6 @@ const HAN_DATA = {
       "zh_us": "zhong¹",
       "nan_th": "tuŋ³³",
       "zh_th": "zhōng",
-      "nan_pera": "tiong³",
       "zh_jiao": "zhong²¹³",
       "hak_mz": "chûng",
       "zh_gl": "zong⁴⁴",
@@ -10778,7 +10714,6 @@ const HAN_DATA = {
       "yue_mo": "tsʊŋ˥",
       "nan_sg": "tiɔŋ˦˦",
       "nan_my": "tiɔŋ˧˧",
-      "nan_id": "tiɔŋ˦",
       "sjo": "dulimba",
       "ko_mid": "tjuŋ˩",
       "ja_ojp": "tʲuu",
@@ -10798,7 +10733,6 @@ const HAN_DATA = {
       "zh_us": "tsuŋ˥˥",
       "nan_th": "tuŋ˧˧",
       "zh_th": "tsuŋ˥˥",
-      "nan_pera": "tiɔŋ˦",
       "zh_jiao": "tʂuŋ˨˩˧",
       "hak_mz": "tsuŋ˦˦",
       "zh_gl": "tsoŋ˦˦",
@@ -10853,7 +10787,7 @@ const HAN_DATA = {
       "czh_jx": "tsɑ̃³⁵",
       "cjy_dt": "tʂuəɣ²⁴",
       "msj": "tʃɤŋ³²⁴",
-      "hak_hy": "chùng",
+      "hak_hy": "tsuŋ⁴²",
       "zh": "zhòng",
       "zh_db": "zhong⁵³",
       "zh_sc": "zong²¹³",
@@ -10896,9 +10830,7 @@ const HAN_DATA = {
       "nan_te": "dong3",
       "nan_hai": "toŋ5",
       "nan_sg": "tiòng",
-      "nan_id": "tiòng",
       "nan_my": "tiòng",
-      "nan_pera": "tiòng",
       "cdo": "dé̤ṳng",
       "cpx": "de̤̍ng",
       "mnp": "de̤̿ng",
@@ -10964,7 +10896,7 @@ const HAN_DATA = {
       "czh_jx": "tsɑ̃˧˥",
       "cjy_dt": "tʂuəɣ˨˦",
       "msj": "tʃɤŋ˧˨˦",
-      "hak_hy": "tsuŋ˥˧",
+      "hak_hy": "tsuŋ˦˨",
       "ja_kun": "ataɾɯ",
       "zh": "tʂuŋ˥˩",
       "zh_db": "tʂuŋ˥˧",
@@ -11008,9 +10940,7 @@ const HAN_DATA = {
       "nan_te": "toŋ˨˩˧",
       "nan_hai": "toŋ˧˥",
       "nan_sg": "tiɔŋ˨˩",
-      "nan_id": "tiɔŋ˨˩",
       "nan_my": "tiɔŋ˧˩",
-      "nan_pera": "tiɔŋ˨˩",
       "cdo": "tøyŋ˨˩˧",
       "cpx": "tœŋ˦˨",
       "mnp": "tœyŋ˧˧",
@@ -11103,7 +11033,7 @@ const HAN_DATA = {
       "czh_jx": "iõ³¹",
       "cjy_dt": "iɒ³¹",
       "msj": "iɔŋ⁵⁵",
-      "hak_hy": "yông",
+      "hak_hy": "zɔŋ³³",
       "nan": "iong",
       "zh": "yāng",
       "zh_tw": "yāng",
@@ -11200,7 +11130,7 @@ const HAN_DATA = {
       "czh_jx": "iõ˧˩",
       "cjy_dt": "iɒ˧˩",
       "msj": "iɔŋ˥˥",
-      "hak_hy": "joŋ˧˧",
+      "hak_hy": "zɔŋ˧˧",
       "zh": "jaŋ˥˥",
       "zh_tw": "jaŋ˥˥",
       "zh_db": "iaŋ˥˥",
@@ -11327,9 +11257,8 @@ const HAN_DATA = {
       "cjy_dt": "tsuo⁵⁴",
       "msj": "tso⁵¹",
       "wuu_qt": "tsu⁴⁵⁴",
-      "hak_hy": "chó",
+      "hak_hy": "tsɔ³¹",
       "nan": "tsó",
-      "nan_id": "tsó",
       "zh": "zuǒ",
       "zh_tw": "zuǒ",
       "yue": "zo2",
@@ -11414,7 +11343,6 @@ const HAN_DATA = {
       "zh_us": "zuo³",
       "nan_th": "tso⁵³",
       "zh_th": "zuǒ",
-      "nan_pera": "cho²¹",
       "zh_jiao": "zuo⁵⁵",
       "hak_mz": "chó",
       "zh_gl": "zuo⁵³",
@@ -11443,8 +11371,7 @@ const HAN_DATA = {
       "cjy_dt": "tsuo˥˦",
       "msj": "tso˥˩",
       "wuu_qt": "tsu˦˥˦",
-      "hak_hy": "tso˧˩",
-      "nan_id": "tsɔ˥˧",
+      "hak_hy": "tsɔ˧˩",
       "zh": "tsuo˨˩˦",
       "zh_tw": "tsuo˨˩˦",
       "zh_db": "tsuo˨˩˧",
@@ -11529,7 +11456,6 @@ const HAN_DATA = {
       "zh_us": "tswo˨",
       "nan_th": "tso˥˧",
       "zh_th": "tsuo˨˩˦",
-      "nan_pera": "tsɔ˨˩",
       "zh_jiao": "tsuo˥˥",
       "hak_mz": "tso˧˩",
       "zh_gl": "tso˥˧",
@@ -11587,9 +11513,8 @@ const HAN_DATA = {
       "cjy_dt": "iəu²⁴",
       "msj": "iu²³¹",
       "wuu_qt": "ieu²²",
-      "hak_hy": "yù",
+      "hak_hy": "ziu⁴²",
       "nan": "iū",
-      "nan_id": "iū",
       "zh": "yòu",
       "zh_tw": "yòu",
       "yue": "jau6",
@@ -11673,7 +11598,6 @@ const HAN_DATA = {
       "yue_us": "jau6",
       "zh_us": "you⁴",
       "zh_th": "yòu",
-      "nan_pera": "iu³",
       "zh_jiao": "you⁵³",
       "hak_mz": "yù",
       "zh_gl": "you²⁴",
@@ -11702,8 +11626,7 @@ const HAN_DATA = {
       "cjy_dt": "iəu˨˦",
       "msj": "iu˨˧˩",
       wuu_qt: "ieu˨˨",
-      "hak_hy": "ju˥˧",
-      "nan_id": "iu˨˩",
+      "hak_hy": "ziu˦˨",
       "zh": "jou˥˩",
       "zh_tw": "jou˥˩",
       "zh_db": "iou˥˧",
@@ -11787,7 +11710,6 @@ const HAN_DATA = {
       "yue_us": "jaʊ˨",
       "zh_us": "jou˥˩",
       "zh_th": "jou˥˩",
-      "nan_pera": "iu˨˩",
       "zh_jiao": "iou˥˧",
       "hak_mz": "ju˥˧",
       "zh_gl": "iou˨˦",
@@ -11823,7 +11745,7 @@ const HAN_DATA = {
       "ja_okn": "ユウ",
       "ja_thk": "ユウ",
       "ko_bus": "우"
-    },
+    }
   },
   "東": {
     "surface": {
@@ -11846,7 +11768,7 @@ const HAN_DATA = {
       "cjy_dt": "tuəɣ³¹",
       "msj": "tɤŋ⁵⁵",
       "wuu_qt": "ɗoŋ⁴⁴⁵",
-      "hak_hy": "tûng",
+      "hak_hy": "tuŋ³³",
       "nan": "tang",
       "cdo": "dĕ̤ng",
       "zh": "dōng",
@@ -12057,7 +11979,7 @@ const HAN_DATA = {
       "ja_thk": "トウ",
       "vi_nom": "東",
       "ko_bus": "동"
-    },
+    }
   },
   "西": {
     "surface": {
@@ -12081,7 +12003,7 @@ const HAN_DATA = {
       "cjy_dt": "ɕi³¹",
       "msj": "si⁵⁵",
       "wuu_qt": "sɿ⁴⁴⁵",
-      "hak_hy": "sî",
+      "hak_hy": "si³³",
       "nan": "sai",
       "zh": "xī",
       "zh_tw": "xī",
@@ -12318,7 +12240,7 @@ const HAN_DATA = {
       "cjy_dt": "næ³¹³",
       "msj": "laŋ²²",
       "wuu_qt": "nuɐ²¹",
-      "hak_hy": "nam",
+      "hak_hy": "lam¹¹",
       "nan": "lâm",
       "zh": "nán",
       "zh_tw": "nán",
@@ -12386,7 +12308,6 @@ const HAN_DATA = {
       "yue_mo": "naam4",
       "nan_sg": "lâm",
       "nan_my": "lâm",
-      "nan_id": "lâm",
       "sjo": "julergi",
       "ko_mid": "nam",
       "ja_ojp": "nam",
@@ -12402,7 +12323,6 @@ const HAN_DATA = {
       "zh_us": "nan²",
       "nan_th": "nam⁵⁵",
       "zh_th": "nán",
-      "nan_pera": "lam⁵",
       "zh_jiao": "lan⁴²",
       "hak_mz": "nam",
       "zh_gl": "nan³¹",
@@ -12430,7 +12350,7 @@ const HAN_DATA = {
       "cjy_dt": "næ˧˩˧",
       "msj": "laŋ˨˨",
       "wuu_qt": "nuɐ˨˩",
-      "hak_hy": "nam˩˩",
+      "hak_hy": "lam˩˩",
       "zh": "nan˧˥",
       "zh_tw": "nan˧˥",
       "zh_db": "nan˧˥",
@@ -12497,7 +12417,6 @@ const HAN_DATA = {
       "yue_mo": "naːm˨˩",
       "nan_sg": "lam˨˦",
       "nan_my": "lam˨˦",
-      "nan_id": "lam˨˦",
       "sjo": "dʑulərɡi",
       "ko_mid": "nam˩",
       "ja_ojp": "nam",
@@ -12513,7 +12432,6 @@ const HAN_DATA = {
       "zh_us": "nan˧˥",
       "nan_th": "nam˥˥",
       "zh_th": "nan˧˥",
-      "nan_pera": "lam˨˦",
       "zh_jiao": "lã˦˨",
       "hak_mz": "nam˩˩",
       "zh_gl": "nan˧˩",
@@ -12571,7 +12489,7 @@ const HAN_DATA = {
       "cjy_dt": "piəʔ³²",
       "msj": "pa⁵¹",
       "wuu_qt": "ɓɛʔ⁴²",
-      "hak_hy": "pet",
+      "hak_hy": "pet²¹",
       "zh": "běi",
       "zh_tw": "běi",
       "yue": "bak1",
@@ -12641,7 +12559,6 @@ const HAN_DATA = {
       "yue_mo": "bak1",
       "nan_sg": "pak",
       "nan_my": "pak",
-      "nan_id": "pak",
       "sjo": "amargi",
       "ko_mid": "·puk",
       "ja_ojp": "poku",
@@ -12658,7 +12575,6 @@ const HAN_DATA = {
       "zh_us": "bei³",
       "nan_th": "paʔ²",
       "zh_th": "běi",
-      "nan_pera": "pak⁵",
       "zh_jiao": "bei⁵⁵",
       "zh_gl": "be³¹",
       "ko_bus": "bukH",
@@ -12685,7 +12601,7 @@ const HAN_DATA = {
       "cjy_dt": "piəʔ˧˨",
       "msj": "pa˥˩",
       "wuu_qt": "ɓɛʔ˦˨",
-      "hak_hy": "pet̚˩",
+      "hak_hy": "pet̚˨˩",
       "zh": "peɪ˨˩˦",
       "zh_tw": "peɪ˨˩˦",
       "zh_db": "pei˨˩˧",
@@ -12755,7 +12671,6 @@ const HAN_DATA = {
       "yue_mo": "pɐk̚˥",
       "nan_sg": "pak̚˧˨",
       "nan_my": "pak̚˥˧",
-      "nan_id": "pak̚˧˨",
       "sjo": "amarɡi",
       "ko_mid": "pɯk̚˥",
       "ja_ojp": "poku",
@@ -12772,7 +12687,6 @@ const HAN_DATA = {
       "zh_us": "peɪ˨",
       "nan_th": "paʔ˨",
       "zh_th": "peɪ˨˩˦",
-      "nan_pera": "paʔ˥",
       "zh_jiao": "pei˥˥",
       "zh_gl": "pɛ˧˩",
       "ko_bus": "puk˥",
@@ -12829,7 +12743,7 @@ const HAN_DATA = {
       "cjy_dt": "ɕiəɣ³¹³",
       "msj": "xaŋ²²",
       "wuu_qt": "ɛ²¹",
-      "hak_hy": "hang",
+      "hak_hy": "haŋ¹¹",
       "zh": "xíng",
       "yue": "haang4",
       "zh_tw": "xíng",
@@ -12896,7 +12810,6 @@ const HAN_DATA = {
       "yue_hk": "haang4",
       "yue_mo": "haang4",
       "nan_sg": "kiânn",
-      "nan_id": "kiânn",
       "sjo": "yabumbi",
       "ko_mid": "hhoyng",
       "ja_ojp": "gyau",
@@ -12916,7 +12829,6 @@ const HAN_DATA = {
       "zh_us": "xing²",
       "nan_th": "kĩã⁵⁵",
       "zh_th": "xíng",
-      "nan_pera": "kia⁵",
       "zh_jiao": "xing⁴²",
       "hak_mz": "hang",
       "zh_gl": "xing³¹",
@@ -13011,7 +12923,6 @@ const HAN_DATA = {
       "yue_hk": "haːŋ˨˩",
       "yue_mo": "haːŋ˨˩",
       "nan_sg": "kiã˨˦",
-      "nan_id": "kiã˨˦",
       "sjo": "jawum",
       "ko_mid": "ɣʌjŋ˩",
       "ja_ojp": "ŋʲau",
@@ -13031,7 +12942,6 @@ const HAN_DATA = {
       "zh_us": "ɕiŋ˧˥",
       "nan_th": "kĩã˥˥",
       "zh_th": "ɕiŋ˧˥",
-      "nan_pera": "kiã˨˦",
       "zh_jiao": "ɕiŋ˦˨",
       "hak_mz": "haŋ˩˩",
       "zh_gl": "ɕiŋ˧˩",
@@ -13068,7 +12978,7 @@ const HAN_DATA = {
       "ja_okn": "ギョウ",
       "ja_thk": "ギョウ",
       "ko_bus": "행"
-    },
+    }
   },
   "行:2": {
     "surface": {
@@ -13087,7 +12997,7 @@ const HAN_DATA = {
       "czh_jx": "xõ⁴⁴",
       "cjy_dt": "xɒ³¹³",
       "msj": "xɔŋ²²",
-      "hak_hy": "hòng",
+      "hak_hy": "hɔŋ¹¹",
       "zh": "háng",
       "zh_db": "hang³⁵",
       "zh_sc": "han²¹",
@@ -13177,8 +13087,6 @@ const HAN_DATA = {
       "dng": "han²",
       "zh_tw": "háng",
       "nan_sg": "hâng",
-      "nan_id": "hâng",
-      "nan_pera": "hâng",
       "ko_hun": "hangnyeol"
     },
     "ipa": {
@@ -13197,7 +13105,7 @@ const HAN_DATA = {
       "czh_jx": "xõ˦˦",
       "cjy_dt": "xɒ˧˩˧",
       "msj": "xɔŋ˨˨",
-      "hak_hy": "hoŋ˥˧",
+      "hak_hy": "hɔŋ˩˩",
       "zh": "xɑŋ˧˥",
       "zh_db": "xaŋ˧˥",
       "zh_sc": "xan˨˩",
@@ -13287,8 +13195,6 @@ const HAN_DATA = {
       "dng": "haŋ˨˦",
       "zh_tw": "xaŋ˧˥",
       "nan_sg": "haŋ˨˦",
-      "nan_id": "haŋ˨˦",
-      "nan_pera": "haŋ˨˦",
       "ko_hun": "haŋnjʌl"
     },
     "en": {
@@ -13316,7 +13222,7 @@ const HAN_DATA = {
       "zh_phagspa": "ꡜꡨꡃ",
       "ko_hun": "항렬",
       "dng": "хаңъ"
-    },
+    }
   },
   "来": {
     "surface": {
@@ -13338,7 +13244,7 @@ const HAN_DATA = {
       "cjy_dt": "lɛe³¹³",
       "msj": "li²²",
       "wuu_qt": "li²¹",
-      "hak_hy": "loi",
+      "hak_hy": "lɔi¹¹",
       "nan_zz": "lâi",
       "nan_xm": "lâi",
       "nan_pn": "lâi",
@@ -13404,7 +13310,6 @@ const HAN_DATA = {
       "yue_mo": "loi4",
       "nan_sg": "lâi",
       "nan_my": "lâi",
-      "nan_id": "lâi",
       "sjo": "jimbi",
       "ko_mid": "·loy",
       "ja_ojp": "rai",
@@ -13423,7 +13328,6 @@ const HAN_DATA = {
       "zh_us": "lai²",
       "nan_th": "lai⁵⁵",
       "zh_th": "lái",
-      "nan_pera": "lai⁵",
       "zh_jiao": "lai⁴²",
       "hak_mz": "loi",
       "zh_gl": "lai³¹",
@@ -13453,7 +13357,7 @@ const HAN_DATA = {
       "cjy_dt": "lɛe˧˩˧",
       "msj": "li˨˨",
       "wuu_qt": "li˨˩",
-      "hak_hy": "loi˩˩",
+      "hak_hy": "lɔi˩˩",
       "nan": "lai˨˦",
       "nan_zz": "lai˩˧",
       "nan_xm": "lai˨˦",
@@ -13518,7 +13422,6 @@ const HAN_DATA = {
       "yue_mo": "lɔːi˨˩",
       "nan_sg": "lai˨˦",
       "nan_my": "lai˨˦",
-      "nan_id": "lai˨˦",
       "sjo": "dʑim",
       "ko_mid": "lʌj˥",
       "ja_ojp": "rai",
@@ -13537,7 +13440,6 @@ const HAN_DATA = {
       "zh_us": "laɪ˧˥",
       "nan_th": "lai˥˥",
       "zh_th": "laɪ˧˥",
-      "nan_pera": "lai˨˦",
       "zh_jiao": "læ˦˨",
       "hak_mz": "loi˩˩",
       "zh_gl": "lai˧˩",
@@ -13609,7 +13511,7 @@ const HAN_DATA = {
       "cjy_dt": "tɕʰy²⁴",
       "msj": "kʰo³²⁴",
       "wuu_qt": "kʰi³³",
-      "hak_hy": "hì",
+      "hak_hy": "hi⁴²",
       "nan": "khì",
       "cdo": "kó̤",
       "zh": "qù",
@@ -13722,7 +13624,7 @@ const HAN_DATA = {
       "cjy_dt": "tɕʰy˨˦",
       "msj": "kʰo˧˨˦",
       "wuu_qt": "kʰi˧˧",
-      "hak_hy": "hi˥˧",
+      "hak_hy": "hi˦˨",
       "zh": "tɕʰy˥˩",
       "zh_tw": "tɕʰy˥˩",
       "zh_db": "tɕʰy˥˧",
@@ -13835,7 +13737,7 @@ const HAN_DATA = {
       "ja_okn": "キュ",
       "ja_thk": "キョ",
       "ko_bus": "거"
-    },
+    }
   },
   "見": {
     "surface": {
@@ -13857,7 +13759,7 @@ const HAN_DATA = {
       "cjy_dt": "tɕiɛ²⁴",
       "msj": "kiɛ̃³²⁴",
       "wuu_qt": "tɕiɛ³³",
-      "hak_hy": "kièn",
+      "hak_hy": "ken⁴²",
       "wuu": "ci5",
       "nan": "kìnn",
       "zh": "jiàn",
@@ -13935,7 +13837,6 @@ const HAN_DATA = {
       "yue_us": "gin3",
       "zh_us": "jian⁴",
       "zh_th": "jiàn",
-      "nan_pera": "kì",
       "zh_jiao": "jian⁵³",
       "hak_mz": "kièn",
       "zh_gl": "jian²⁴",
@@ -13965,7 +13866,7 @@ const HAN_DATA = {
       "cjy_dt": "tɕiɛ˨˦",
       "msj": "kiɛ̃˧˨˦",
       "wuu_qt": "tɕiɛ˧˧",
-      "hak_hy": "kien˥˧",
+      "hak_hy": "ken˦˨",
       "wuu": "tɕi˧˥",
       "zh": "tɕjɛn˥˩",
       "zh_tw": "tɕjɛn˥˩",
@@ -14042,7 +13943,6 @@ const HAN_DATA = {
       "yue_us": "giːn˧",
       "zh_us": "tɕjɛn˥˩",
       "zh_th": "tɕjɛn˥˩",
-      "nan_pera": "kĩ˥˧",
       "zh_jiao": "tɕiã˥˧",
       "hak_mz": "kien˥˧",
       "zh_gl": "tɕiɛn˨˦",
@@ -14085,7 +13985,6 @@ const HAN_DATA = {
   },
   "聞": {
     "surface": {
-      "nan_pera": "bun⁵",
       "nan_th": "muŋ⁵⁵",
       "nan_te": "bhung6",
       "nan_my": "bûn",
@@ -14106,7 +14005,7 @@ const HAN_DATA = {
       "czh_jx": "vɑ̃⁴⁴",
       "cjy_dt": "vəɣ³¹³",
       "msj": "uĩ²²",
-      "hak_hy": "vun",
+      "hak_hy": "vun¹¹",
       "nan": "bûn",
       "zh": "wén",
       "zh_tw": "wén",
@@ -14192,7 +14091,6 @@ const HAN_DATA = {
       "ja_thk": "bun"
     },
     "ipa": {
-      "nan_pera": "bun˨˦",
       "nan_th": "muŋ˥˥",
       "nan_te": "buŋ˧˥",
       "nan_my": "bun˨˦",
@@ -14325,7 +14223,7 @@ const HAN_DATA = {
       "ja_okn": "ブン",
       "ja_thk": "ブン",
       "ko_bus": "문"
-    },
+    }
   },
   "食": {
     "surface": {
@@ -14347,7 +14245,7 @@ const HAN_DATA = {
       "cjy_dt": "ʂəʔ³²",
       "msj": "ʃi⁵",
       "wuu_qt": "iʔ³¹",
-      "hak_hy": "si̍t",
+      "hak_hy": "sit⁵⁵",
       "wuu": "zeq8",
       "wuu_hz": "zeq8",
       "wuu_jx": "zeq8",
@@ -14456,7 +14354,7 @@ const HAN_DATA = {
       "cjy_dt": "ʂəʔ˧˨",
       "msj": "ʃi˥",
       "wuu_qt": "iʔ˧˩",
-      "hak_hy": "sit̚˥",
+      "hak_hy": "sit̚˥˥",
       "wuu": "zəʔ˩˨",
       "wuu_hz": "zəʔ˨˩˧",
       "wuu_jx": "zəʔ˨˩˧",
@@ -14577,7 +14475,6 @@ const HAN_DATA = {
   "飲": {
     "surface": {
       "hsn_ld": "nin⁴²",
-      "nan_pera": "im²¹",
       "nan_my": "ím",
       "nan_sg": "ím",
       "nan_zz": "ím",
@@ -14596,7 +14493,7 @@ const HAN_DATA = {
       "czh_jx": "iɑ̃²¹³",
       "cjy_dt": "iəɣ⁵⁴",
       "msj": "ĩ⁵¹",
-      "hak_hy": "yím",
+      "hak_hy": "zim³¹",
       "nan": "ím",
       "zh": "yǐn",
       "zh_tw": "yǐn",
@@ -14688,7 +14585,6 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_ld": "nin˦˨",
-      "nan_pera": "im˨˩",
       "nan_my": "im˥˧",
       "nan_sg": "im˦˨",
       "nan_zz": "im˥˧",
@@ -14707,7 +14603,7 @@ const HAN_DATA = {
       "czh_jx": "iɑ̃˨˩˧",
       "cjy_dt": "iəɣ˥˦",
       "msj": "ĩ˥˩",
-      "hak_hy": "jim˧˩",
+      "hak_hy": "zim˧˩",
       "zh": "in˨˩˦",
       "zh_tw": "in˨˩˦",
       "zh_db": "in˨˩˧",
@@ -14844,7 +14740,7 @@ const HAN_DATA = {
       "cjy_dt": "tsəu⁵⁴",
       "msj": "tseu⁵¹",
       "wuu_qt": "tsæi⁴⁵⁴",
-      "hak_hy": "chéu",
+      "hak_hy": "tsiu³¹",
       "nan": "tsáu",
       "zh": "zǒu",
       "zh_tw": "zǒu",
@@ -14950,7 +14846,7 @@ const HAN_DATA = {
       "cjy_dt": "tsəu˥˦",
       "msj": "tseu˥˩",
       "wuu_qt": "tsæi˦˥˦",
-      "hak_hy": "tseu˧˩",
+      "hak_hy": "tsiu˧˩",
       "zh": "tsou˨˩˦",
       "zh_tw": "tsou˨˩˦",
       "zh_db": "tsou˨˩˧",
@@ -15085,7 +14981,7 @@ const HAN_DATA = {
       "cjy_dt": "tsuo²⁴",
       "msj": "tsʰuæ²¹",
       "wuu_qt": "zu³⁴³",
-      "hak_hy": "chhô",
+      "hak_hy": "tsʰɔ³³",
       "nan": "tsē",
       "zh": "zuò",
       "zh_tw": "zuò",
@@ -15193,7 +15089,7 @@ const HAN_DATA = {
       "cjy_dt": "tsuo˨˦",
       "msj": "tsʰuæ˨˩",
       "wuu_qt": "zu˧˦˧",
-      "hak_hy": "tsʰo˧˧",
+      "hak_hy": "tsʰɔ˧˧",
       "zh": "tsuo˥˩",
       "zh_tw": "tsuo˥˩",
       "zh_db": "tsuo˥˧",
@@ -15315,7 +15211,6 @@ const HAN_DATA = {
   "立": {
     "surface": {
       "hsn_ld": "li³⁵",
-      "nan_pera": "lip⁵",
       "nan_my": "li̍p",
       "nan_sg": "li̍p",
       "nan_pn": "li̍p",
@@ -15338,7 +15233,7 @@ const HAN_DATA = {
       "cjy_dt": "liəʔ³²",
       "msj": "li⁵",
       "wuu_qt": "liæʔ³¹",
-      "hak_hy": "li̍p",
+      "hak_hy": "lit⁵⁵",
       "nan": "li̍p",
       "zh": "lì",
       "zh_tw": "lì",
@@ -15430,7 +15325,6 @@ const HAN_DATA = {
     },
     "ipa": {
       "hsn_ld": "li˧˥",
-      "nan_pera": "lip̚˥",
       "nan_my": "lip̚˧",
       "nan_sg": "lip̚˦˧",
       "nan_pn": "lip̚˦",
@@ -15454,7 +15348,7 @@ const HAN_DATA = {
       "cjy_dt": "liəʔ˧˨",
       "msj": "li˥",
       "wuu_qt": "liæʔ˧˩",
-      "hak_hy": "lip̚˥",
+      "hak_hy": "lit̚˥˥",
       "zh": "li˥˩",
       "zh_tw": "li˥˩",
       "zh_db": "li˥˧",
@@ -19527,80 +19421,6 @@ const HAN_LANG_META = {
     "speakers": "約190万人 (マレーシア福建話)",
     "speakersSource": "Wikipedia (英語版「Southern Peninsular Malaysian Hokkien」, 2026-05-30閲覧)"
   },
-  "nan_id": {
-    "name": "Indonesian Hokkien",
-    "native": "印尼福建話",
-    "lat": 3.6,
-    "lng": 98.7,
-    "family": "Sinitic > Min Nan > Hokkien > Indonesian",
-    "region": "Indonesia (Medan / Jakarta diaspora)",
-    "reading_type": {
-      "en": "Indonesian Hokkien (POJ-style)",
-      "ja": "インドネシア福建話（POJ系）",
-      "ko": "인도네시아 푸젠어 (POJ 식)",
-      "zh": "印尼福建话（POJ式）",
-      "yue": "印尼福建話（POJ式）",
-      "vi": "Phúc Kiến Indonesia (kiểu POJ)",
-      "th": "ฮกเกี้ยนอินโดนีเซีย (แบบ POJ)",
-      "id": "Hokkien Indonesia (gaya POJ)",
-      "hi": "इंडोनेशियाई होक्किएन (POJ शैली)",
-      "de": "Indonesisches Hokkien (POJ-Stil)",
-      "fr": "Hokkien d'Indonésie (style POJ)",
-      "it": "Hokkien d'Indonesia (stile POJ)",
-      "es": "Hokkien de Indonesia (estilo POJ)",
-      "pt": "Hokkien da Indonésia (estilo POJ)",
-      "ru": "Индонезийский хоккиен (стиль POJ)",
-      "uk": "Індонезійський хоккієн (стиль POJ)",
-      "ar": "هوكين إندونيسيا (نمط POJ)",
-      "he": "הוקיין אינדונזיה (סגנון POJ)",
-      "sw": "Kihokkien cha Indonesia (mtindo wa POJ)"
-    },
-    "description": {
-      "en": "Indonesian Hokkien refers to varieties of Southern Min spoken by Chinese Indonesians, most vigorously in Medan (North Sumatra) where it remains a community lingua franca, and to a lesser extent in Jakarta and other diaspora centers. Medan Hokkien is classified as a sub-dialect of Zhangzhou Hokkien (specifically the Haicheng 海澄 variety), with strong contact-induced borrowing from Teochew, Deli Malay, and Indonesian. It is closely related to and largely mutually intelligible with Penang Hokkien. Readings here follow Pe̍h-ōe-jī (POJ) conventions; in everyday social-media writing Medan Hokkien is often transcribed in EYD Indonesian spelling without tone marks. Less-documented or ambiguous lexical items are left blank.",
-      "ja": "インドネシア福建話は、華人系インドネシア人が話す閩南語の変種で、特にメダン（北スマトラ）でコミュニティの共通語として今も生きており、ジャカルタなどにも話者がいる。メダン福建話は漳州福建話（海澄系）の下位方言とされ、潮州語・デリマレー語・インドネシア語からの借用が顕著で、ペナン福建話と非常に近い。表記は白話字（POJ）に従う。日常的にはトーン記号を省いた EYD 表記も広く用いられる。確証の薄い語は空欄とした。",
-      "ko": "인도네시아 푸젠어는 화인계 인도네시아인이 사용하는 민난어 변종으로, 특히 메단(북수마트라)에서는 지역사회 공통어로 살아 있고 자카르타 등에도 화자가 있다. 메단 푸젠어는 장저우 푸젠어(해징海澄 계)의 하위 방언으로, 차오저우어·델리 말레이어·인도네시아어로부터의 차용이 두드러지며 페낭 푸젠어와 매우 가깝다. 표기는 백화자(POJ)에 따른다. 일상적으로는 성조 기호를 생략한 EYD 표기도 폭넓게 쓰인다. 근거가 약한 어휘는 공란으로 둔다.",
-      "zh": "印尼福建话是华人印尼人讲的闽南语变种，尤其在棉兰（北苏门答腊）作为社群共通语仍然活跃，雅加达等地也有使用者。棉兰福建话被归为漳州福建话（海澄系）的下位方言，受潮州话、德里马来语和印尼语借入显著，并与槟城福建话非常接近。书写遵循白话字（POJ）。日常常用省略声调记号的 EYD 印尼语正字法书写。证据较弱的词项留空。",
-      "yue": "印尼福建話係華人印尼人所講嘅閩南語變種，特別喺棉蘭（北蘇門答臘）仲係社群嘅共通語，雅加達等地亦有使用者。棉蘭福建話歸入漳州福建話（海澄系）嘅下位方言，受潮州話、德里馬來語、印尼語借入明顯，同檳城福建話相當接近。書寫採用白話字（POJ）。日常常用省去聲調符號嘅 EYD 印尼語拼寫。證據不足嘅詞留空。",
-      "vi": "Tiếng Phúc Kiến Indonesia là biến thể Mân Nam của người Hoa Indonesia, đặc biệt sống động ở Medan (Bắc Sumatra) như lingua franca cộng đồng, cũng có người nói ở Jakarta v.v. Phúc Kiến Medan thuộc tiểu phương ngữ Phúc Kiến Chương Châu (hệ Hải Trừng 海澄), chịu vay mượn rõ rệt từ Triều Châu, Mã Lai Deli và tiếng Indonesia, và rất gần Phúc Kiến Penang. Ghi theo bạch thoại tự (POJ). Trong sử dụng hằng ngày cũng phổ biến lối viết theo EYD Indonesia, bỏ dấu thanh. Các mục thiếu cứ liệu để trống.",
-      "th": "ภาษาฮกเกี้ยนอินโดนีเซียเป็นภาษาหมิ่นหนานของชาวจีน-อินโดนีเซีย โดยเฉพาะในเมดาน (สุมาตราเหนือ) ยังคงเป็นภาษากลางของชุมชน และมีผู้พูดในจาการ์ตาด้วย ฮกเกี้ยนเมดานจัดเป็นภาษาถิ่นย่อยของฮกเกี้ยนจางโจว (สำเนียงไห่เฉิง 海澄) มีการยืมจากแต้จิ๋ว มลายูเดลี และอินโดนีเซียอย่างชัดเจน และใกล้เคียงกับฮกเกี้ยนปีนังมาก เขียนตามไป๋หัวจื้อ (POJ) ในการใช้ในชีวิตประจำวันยังนิยมเขียนแบบ EYD อินโดนีเซียโดยไม่ใส่เครื่องหมายวรรณยุกต์ คำศัพท์ที่หลักฐานอ่อนถูกเว้นว่าง",
-      "id": "Hokkien Indonesia adalah varietas Min Nan yang dituturkan Tionghoa-Indonesia, terutama di Medan (Sumatera Utara) sebagai lingua franca komunitas, dan masih ada penutur di Jakarta dll. Hokkien Medan diklasifikasikan sebagai subdialek Hokkien Zhangzhou (sistem Haicheng 海澄), dengan peminjaman kuat dari Teochew, Melayu Deli, dan bahasa Indonesia, dan sangat dekat dengan Hokkien Penang. Penulisan mengikuti Pe̍h-ōe-jī (POJ). Dalam pemakaian sehari-hari banyak juga ditulis dengan ejaan EYD bahasa Indonesia tanpa tanda nada. Entri dengan bukti lemah dikosongkan.",
-      "hi": "इंडोनेशियाई होक्किएन चीनी-इंडोनेशियाई समुदाय की मिन नान भाषा का प्रकार है, विशेषकर मेदान (उत्तरी सुमात्रा) में अब भी समुदाय की लिंग्वा फ्रांका के रूप में जीवित है, और जकार्ता आदि में भी वक्ता हैं। मेदान होक्किएन को झांगझोऊ होक्किएन (हाइचेंग 海澄 शैली) की उपबोली माना जाता है, ट्योचेव, देली मलय और इंडोनेशियाई से उधार स्पष्ट हैं, और पेनांग होक्किएन के बहुत निकट है। लेखन Pe̍h-ōe-jī (POJ) के अनुसार होता है। दैनिक प्रयोग में स्वर-चिह्न रहित EYD इंडोनेशियाई वर्तनी भी व्यापक है। प्रमाण कमज़ोर मदों को रिक्त रखा गया है।",
-      "de": "Indonesisches Hokkien bezeichnet die von chinesisch-indonesischen Gemeinden gesprochenen Min-Nan-Varietäten, am lebendigsten in Medan (Nord-Sumatra) als Gemeinschaftssprache; weitere Sprecher leben in Jakarta u. a. Das Medan-Hokkien gilt als Unterdialekt des Zhangzhou-Hokkien (Haicheng-Linie 海澄), mit deutlichen Lehngut aus Teochew, Deli-Malaiisch und Indonesisch und ist dem Penang-Hokkien sehr nahe. Die Notation folgt Pe̍h-ōe-jī (POJ). Im Alltag wird häufig auch eine EYD-indonesische Schreibweise ohne Tonzeichen verwendet. Belegmangel führt zu Leerfeldern.",
-      "fr": "Le hokkien d'Indonésie désigne les variétés min nan parlées par les communautés sino-indonésiennes, particulièrement vivantes à Medan (Sumatra Nord) comme lingua franca communautaire ; on en compte aussi des locuteurs à Jakarta et ailleurs. Le hokkien de Medan est classé comme sous-dialecte du hokkien de Zhangzhou (lignée de Haicheng 海澄), avec d'importants emprunts au teochew, au malais de Deli et à l'indonésien, et est très proche du hokkien de Penang. La graphie suit le Pe̍h-ōe-jī (POJ). Dans l'usage quotidien on emploie aussi largement la graphie indonésienne EYD sans marques tonales. Les entrées peu documentées sont laissées vides.",
-      "it": "L'hokkien d'Indonesia indica le varietà min nan parlate dalle comunità sino-indonesiane, particolarmente vive a Medan (Sumatra Settentrionale) come lingua franca comunitaria; vi sono parlanti anche a Giacarta e altrove. L'hokkien di Medan è classificato come sotto-dialetto dell'hokkien di Zhangzhou (linea di Haicheng 海澄), con forti prestiti dal teochew, dal malese di Deli e dall'indonesiano, ed è molto vicino all'hokkien di Penang. La grafia segue il Pe̍h-ōe-jī (POJ). Nell'uso quotidiano si adotta anche la grafia indonesiana EYD senza segni tonali. Le voci mal documentate sono lasciate vuote.",
-      "es": "El hokkien de Indonesia designa las variedades de min nan habladas por las comunidades chino-indonesias, especialmente vivas en Medan (Sumatra del Norte) como lengua franca comunitaria; también hay hablantes en Yakarta y otras ciudades. El hokkien de Medan se clasifica como subdialecto del hokkien de Zhangzhou (línea de Haicheng 海澄), con fuertes préstamos del teochew, el malayo de Deli y el indonesio, y es muy cercano al hokkien de Penang. La grafía sigue el Pe̍h-ōe-jī (POJ). En el uso cotidiano también es habitual la grafía indonesia EYD sin marcas tonales. Las entradas mal documentadas se dejan en blanco.",
-      "pt": "O hokkien da Indonésia designa as variedades de min nan faladas pelas comunidades sino-indonésias, especialmente vivas em Medan (Sumatra do Norte) como lingua franca comunitária; há também falantes em Jacarta e outras cidades. O hokkien de Medan é classificado como subdialeto do hokkien de Zhangzhou (linha de Haicheng 海澄), com fortes empréstimos do teochew, do malaio de Deli e do indonésio, e é muito próximo do hokkien de Penang. A grafia segue o Pe̍h-ōe-jī (POJ). No uso quotidiano também é comum a grafia indonésia EYD sem marcas tonais. As entradas pouco documentadas ficam em branco.",
-      "ru": "Индонезийский хоккиен — миньнаньские разновидности китайско-индонезийских общин, наиболее живые в Медане (Северная Суматра) как общинная лингва франка; имеются также носители в Джакарте и т. д. Меданский хоккиен относят к чжанчжоускому (海澄, хайчэн) поддиалекту с выраженным заимствованным пластом из чаочжоуского, делийского малайского и индонезийского, и он очень близок к пенангскому хоккиену. Запись по бэуэцзи (POJ). В быту также широко используется индонезийская орфография EYD без тоновых знаков. Слабо подтверждённые статьи оставлены пустыми.",
-      "uk": "Індонезійський хоккієн — міньнаньські різновидності китайсько-індонезійських громад, найбільш живі в Медані (Північна Суматра) як громадська лінгва франка; є носії також у Джакарті тощо. Меданський хоккієн відносять до чжанчжоуського (海澄, хайчен) піддіалекту з виразним запозиченим шаром із чаочжоуської, делійської малайської та індонезійської, і він дуже близький до пенанзького. Запис за бевеоецзі (POJ). У побуті також широко вживається індонезійська орфографія EYD без тонових знаків. Слабко підтверджені статті залишено порожніми.",
-      "ar": "هوكين إندونيسيا يشير إلى أنواع المين نان التي يتحدث بها صينيو إندونيسيا، وهي أكثر حيوية في ميدان (شمال سومطرة) كلغة وسيطة للمجتمع، ولها متحدثون أيضاً في جاكرتا وغيرها. يصنَّف هوكين ميدان كلهجة فرعية من هوكين تشانغتشو (سلالة هايتشنغ 海澄) مع قروض قوية من التيوتشو والملايو الديلي والإندونيسية، وقريب جداً من هوكين بينانغ. الكتابة بنظام Pe̍h-ōe-jī (POJ). في الاستخدام اليومي تُستخدم أيضاً بكثرة الكتابة الإندونيسية EYD بدون علامات نبرة. تُترك المداخل ضعيفة التوثيق فارغة.",
-      "he": "הוקיין אינדונזיה הוא הזנים של מין נאן הנדברים בקהילות הסיניות-אינדונזיות, חיים במיוחד במדאן (סומטרה הצפונית) כלינגווה פראנקה קהילתית; קיימים דוברים גם בג'קרטה ועוד. הוקיין מדאן מסווג כתת-ניב של הוקיין ז'אנגז'ואו (שושלת חאיצ'נג 海澄) עם שאילות חזקות מטיוצ'ו, מאלאית של דֵלי ואינדונזית, וקרוב מאוד להוקיין פנאנג. הכתב לפי Pe̍h-ōe-jī (POJ). בשימוש יומיומי שכיחה גם הכתיבה האינדונזית בכתיב EYD ללא סימני טון. ערכים בעלי תיעוד חלש נשארים ריקים.",
-      "sw": "Hokkien ya Indonesia inahusu aina za Min Nan zinazozungumzwa na jamii za Wachina-Waindonesia, hai zaidi huko Medan (Sumatra Kaskazini) kama lugha ya pamoja ya jamii; pia wapo wazungumzaji huko Jakarta n.k. Hokkien ya Medan inahesabiwa kama lahaja ya chini ya Hokkien ya Zhangzhou (mfumo wa Haicheng 海澄), yenye mikopo mikubwa kutoka Teochew, Kimalei cha Deli, na Kiindonesia, na ni karibu sana na Hokkien ya Penang. Maandiko hufuata Pe̍h-ōe-jī (POJ). Katika matumizi ya kila siku pia maandishi ya EYD ya Kiindonesia bila alama za toni hutumika sana. Mada zenye ushahidi dhaifu zimeachwa wazi."
-    },
-    "sources": [
-      {
-        "title": "Medan Hokkien — Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Medan_Hokkien",
-        "accessed": "2026-05-29"
-      },
-      {
-        "title": "Penang Hokkien — Wikipedia (closely related variety)",
-        "url": "https://en.wikipedia.org/wiki/Penang_Hokkien",
-        "accessed": "2026-05-29"
-      },
-      {
-        "title": "Zhangzhou dialect — Wikipedia (parent variety)",
-        "url": "https://en.wikipedia.org/wiki/Zhangzhou_dialect",
-        "accessed": "2026-05-29"
-      }
-    ],
-    "romanization": {
-      "name": "Tâi-lô (Indonesian convention)",
-      "authority": "convention",
-      "year": null
-    },
-    "speakers": "約100万人 (インドネシア福建話、推定)",
-    "speakersSource": "Wikipedia (英語版「Medan Hokkien」, 2026-05-30閲覧)"
-  },
   "sjo": {
     "name": "Sibe",
     "native": "ᠰᡞᠪᡝ ᡤᡞᠰᡠᠨ",
@@ -21226,68 +21046,6 @@ const HAN_LANG_META = {
     "speakers": "約2300万人 (臺灣総人口、第一・第二言語含む)",
     "speakersSource": "Wikipedia (英語版「Taiwanese Mandarin」, 2026-05-30閲覧)"
   },
-  "nan_pera": {
-    "name": "Peranakan Hokkien",
-    "native": "Baba 福建話",
-    "lat": 2.2,
-    "lng": 102.25,
-    "family": "Sinitic > Min > Min Nan > Hokkien > Peranakan diaspora",
-    "region": "Malacca, Penang, Singapore (Straits Settlements)",
-    "reading_type": {
-      "en": "Peranakan / Baba Hokkien — Malay-substrate Hokkien (Straits Chinese)",
-      "ja": "プラナカン華人福建話 — マレー語基層、海峡華人 (Baba-Nyonya)",
-      "ko": "프라나칸 화인 푸젠어 — 말레이어 기층, 해협 화인 (바바녀냐)",
-      "zh": "土生华人福建话 — 马来语基层，海峡华人（Baba-Nyonya）",
-      "yue": "土生華人福建話 — 馬來語基層，海峽華人（Baba-Nyonya）",
-      "vi": "Phúc Kiến Peranakan — nền tiếng Mã Lai, Hoa kiều Eo biển (Baba-Nyonya)",
-      "th": "ฮกเกี้ยนเปรานากัน — พื้นเสียงภาษามลายู ชาวจีนช่องแคบ (บาบา-เนียวเนีย)",
-      "id": "Hokkien Peranakan — substrat Melayu, Tionghoa Selat (Baba-Nyonya)",
-      "hi": "पेरानाकन होक्किएन — मलय आधार, स्ट्रेट्स चीनी (बाबा-न्योन्या)",
-      "de": "Peranakan-Hokkien — Malaiisches Substrat, Straits Chinese (Baba-Nyonya)",
-      "fr": "Hokkien péranakan — substrat malais, Chinois du Détroit (Baba-Nyonya)",
-      "it": "Hokkien peranakan — substrato malese, cinesi degli Stretti (Baba-Nyonya)",
-      "es": "Hokkien peranakan — sustrato malayo, chinos del Estrecho (Baba-Nyonya)",
-      "pt": "Hokkien peranakan — substrato malaio, chineses do Estreito (Baba-Nyonya)",
-      "ru": "Перанаканский хоккиен — малайский субстрат, проливные китайцы (баба-ньонья)",
-      "uk": "Перанаканський хоккієн — малайський субстрат, протокові китайці (баба-ньоня)",
-      "ar": "هوكين البيراناكان — ركيزة الملايو، صينيو المضائق (بابا-نيونيا)",
-      "he": "הוקיין פרנקאן — תשתית מאלאית, סינים של המצרים (באבא-ניוֹניָה)",
-      "sw": "Hokkien ya Peranakan — msingi wa Kimalei, Wachina wa Mlima (Baba-Nyonya)"
-    },
-    "description": {
-      "en": "Hokkien as spoken by Peranakan (Baba-Nyonya) Chinese, 15-17c. descendants of Hokkien immigrants in the Straits Settlements. Heavy Malay substrate: tone system reduced from 8 to ~4-5; final stops -p/-t/-k weakened to glottal stop or lost; implosives /b/, /g/ merged with plain stops; vowels adapted toward Malay 5-vowel system; initial /ŋ/ frequently dropped; lexicon extensively mixed with Malay. Surface forms are POJ-style; IPA reflects Peranakan realization. Spoken alongside Baba Malay (Malay-dominant creole).",
-      "ja": "プラナカン（峡海華人 / Baba-Nyonya）の福建話。15-17世紀にマラッカ・ペナン・シンガポールに移住した福建系移民の子孫が、マレー語と深く接触してクレオール化した形態。声調が8→4-5に縮減、語末閉鎖音が声門閉鎖化、内破音消失、マレー語的5母音体系への適応、語彙レベルでの大規模混交が特徴。",
-      "ko": "프라나칸(해협 화인 / 바바-녀냐)이 사용하는 푸젠어. 15–17세기에 말라카·페낭·싱가포르에 이주한 푸젠계 이민자의 후예가 말레이어와의 깊은 접촉을 통해 크레올화한 형태. 성조가 8→4-5로 축소, 어말 폐쇄음이 성문폐쇄화 또는 소실, 내파음 /b/, /g/가 평음과 합류, 모음이 말레이어의 5모음 체계에 맞춰 적응, 어두 /ŋ/이 자주 탈락, 말레이어와의 광범위한 어휘 혼합이 특징. 표면형은 POJ 식이며, IPA는 프라나칸식 실현을 반영한다. 바바 말레이어(말레이어 우세 크레올)와 병용된다.",
-      "zh": "土生华人（海峡华人 / Baba-Nyonya）使用的福建话。15–17世纪移居马六甲、槟城、新加坡的福建系移民的后裔，在与马来语的深度接触中克里奥尔化形成。声调由8减少为4-5，词末闭锁音声门化或消失，内破音 /b/, /g/ 与平塞音合并，元音向马来语5元音体系靠拢，词首 /ŋ/ 常脱落，词汇层面大量与马来语混合。表面形式采用 POJ 式，IPA 反映土生华人的实际实现。与 Baba Malay（马来语为主的克里奥尔语）并用。",
-      "yue": "土生華人（海峽華人 / Baba-Nyonya）所講嘅福建話。15–17 世紀移居馬六甲、檳城、新加坡嘅福建系移民後裔，喺同馬來語深度接觸下克里奧化形成。聲調由 8 減為 4-5，詞末閉鎖音聲門化或消失，內破音 /b/, /g/ 同平塞音合併，元音向馬來語五元音體系靠攏，詞首 /ŋ/ 經常脫落，詞彙層面大量同馬來語混合。表面形式採用 POJ 式，IPA 反映土生華人嘅實際發音。同 Baba Malay（以馬來語為主嘅克里奧爾語）一齊使用。",
-      "vi": "Tiếng Phúc Kiến của người Peranakan (Hoa kiều Eo biển / Baba-Nyonya). Con cháu di dân Phúc Kiến đến Malacca, Penang, Singapore vào thế kỷ 15–17, qua tiếp xúc sâu với tiếng Mã Lai đã hình thành dạng creole hóa. Hệ thanh điệu giảm từ 8 xuống 4-5, phụ âm cuối tắc trở thành tắc thanh hầu hoặc mất, các nội bùng /b/, /g/ hợp nhất với phụ âm thường, nguyên âm thích ứng theo hệ 5 nguyên âm Mã Lai, /ŋ/ đầu thường rụng, từ vựng pha trộn nhiều với tiếng Mã Lai. Dạng mặt là kiểu POJ; IPA phản ánh cách phát âm của Peranakan. Thường dùng song song với tiếng Mã Lai Baba (creole thiên về Mã Lai).",
-      "th": "ภาษาฮกเกี้ยนของชาวเปรานากัน (ชาวจีนช่องแคบ / บาบา-เนียวเนีย) ลูกหลานของผู้อพยพชาวฮกเกี้ยนที่มาตั้งถิ่นฐานในมะละกา ปีนัง และสิงคโปร์ในศตวรรษที่ 15–17 ได้เกิดการครีโอลไลซ์ผ่านการสัมผัสลึกซึ้งกับภาษามลายู ระบบวรรณยุกต์ลดจาก 8 เหลือ 4-5 พยัญชนะท้ายอุดเปลี่ยนเป็นเสียงกั้นกล่องเสียงหรือหายไป เสียง /b/, /g/ ดูดกลับรวมกับเสียงระเบิดปกติ สระปรับให้เข้ากับระบบ 5 สระของมลายู /ŋ/ ต้นคำมักหลุดหาย และศัพท์ผสมกับมลายูเป็นจำนวนมาก รูปผิวใช้แบบ POJ ส่วน IPA สะท้อนการออกเสียงของชาวเปรานากัน ใช้คู่กับภาษามลายูบาบา (ครีโอลที่มลายูเป็นหลัก)",
-      "id": "Hokkien yang dituturkan oleh Peranakan (Tionghoa Selat / Baba-Nyonya). Keturunan imigran Hokkien yang menetap di Malaka, Penang, dan Singapura pada abad 15–17 mengkreolisasi melalui kontak mendalam dengan bahasa Melayu. Sistem nada menyusut dari 8 ke 4-5, oklusif akhir menjadi hentian glotal atau hilang, implosif /b/, /g/ menyatu dengan stop biasa, vokal disesuaikan dengan sistem 5 vokal Melayu, /ŋ/ awal sering lesap, kosakata bercampur luas dengan Melayu. Bentuk permukaan ditulis dalam gaya POJ; IPA mencerminkan realisasi Peranakan. Digunakan berdampingan dengan Baba Melayu (kreol berbasis Melayu).",
-      "hi": "पेरानाकन (स्ट्रेट्स चीनी / बाबा-न्योन्या) द्वारा बोली जाने वाली होक्किएन। 15-17 शताब्दी में मलक्का, पेनांग और सिंगापुर में बसे होक्किएन प्रवासियों के वंशज मलय भाषा के साथ गहन संपर्क से क्रिओलाइज़ हो गए। स्वर तंत्र 8 से 4-5 तक कम हो गया, अंत्य अवरुद्ध कंठ्य अवरोध बन गए या लुप्त हो गए, अंतर्विस्फोटक /b/, /g/ सामान्य रोधी से विलीन हो गए, स्वर मलय 5-स्वर तंत्र की ओर अनुकूलित हुए, शब्दादि /ŋ/ अक्सर लुप्त, और शब्दावली में मलय के साथ व्यापक मिश्रण। सतह रूप POJ शैली में हैं; IPA पेरानाकन उच्चारण को प्रतिबिंबित करता है। बाबा मलय (मलय-प्रधान क्रिओल) के साथ साथ प्रयोग की जाती है।",
-      "de": "Hokkien der Peranakan (Straits Chinese / Baba-Nyonya). Die Nachkommen hokkienischer Einwanderer, die im 15.–17. Jh. nach Malakka, Penang und Singapur kamen, kreolisierten ihre Sprache durch intensiven Kontakt mit dem Malaiischen. Das Tonsystem reduziert sich von 8 auf 4–5, auslautende Verschlusslaute werden glottal oder schwinden, Implosive /b/, /g/ fallen mit den einfachen Verschlusslauten zusammen, Vokale gleichen sich an das Fünf-Vokal-System des Malaiischen an, wortinitial /ŋ/ entfällt häufig, und der Wortschatz vermischt sich stark mit dem Malaiischen. Die Oberflächenformen folgen dem POJ-Stil; die IPA spiegelt die peranakanische Realisierung wider. Wird zusammen mit Baba Malay (einem malaiisch dominierten Kreol) verwendet.",
-      "fr": "Hokkien parlé par les Peranakan (Chinois du Détroit / Baba-Nyonya). Les descendants d'immigrants hokkien arrivés à Malacca, Penang et Singapour aux XVᵉ–XVIIᵉ s. ont créolisé leur langue par un contact intense avec le malais. Le système tonal passe de 8 à 4–5, les occlusives finales deviennent une occlusive glottale ou disparaissent, les implosives /b/, /g/ fusionnent avec les occlusives simples, les voyelles s'alignent sur le système à 5 voyelles du malais, /ŋ/ initial chute souvent et le lexique se mêle largement au malais. Les formes de surface suivent le style POJ ; l'IPA reflète la réalisation peranakane. Utilisée parallèlement au baba malais (créole à dominante malaise).",
-      "it": "Hokkien parlato dai Peranakan (Cinesi degli Stretti / Baba-Nyonya). I discendenti degli immigrati hokkien arrivati a Malacca, Penang e Singapore tra XV e XVII secolo hanno creolizzato la lingua attraverso un contatto intenso con il malese. Il sistema tonale si riduce da 8 a 4–5, le occlusive finali diventano un colpo di glottide o si perdono, le implosive /b/, /g/ confluiscono nelle occlusive normali, le vocali si adattano al sistema a 5 vocali del malese, il /ŋ/ iniziale cade spesso e il lessico si mescola ampiamente con il malese. Le forme di superficie seguono lo stile POJ; l'IPA rispecchia la realizzazione peranakana. Si usa accanto al baba malese (creolo a base malese).",
-      "es": "Hokkien hablado por los Peranakan (chinos del Estrecho / Baba-Nyonya). Los descendientes de los inmigrantes hokkien llegados a Malaca, Penang y Singapur en los siglos XV–XVII criollizaron la lengua mediante un contacto intenso con el malayo. El sistema tonal se reduce de 8 a 4–5, las oclusivas finales se vuelven una oclusiva glotal o desaparecen, las implosivas /b/, /g/ confluyen con las oclusivas simples, las vocales se adaptan al sistema de 5 vocales del malayo, /ŋ/ inicial cae a menudo, y el léxico se mezcla ampliamente con el malayo. Las formas superficiales siguen el estilo POJ; el AFI refleja la realización peranakana. Se usa junto al baba malayo (criollo de base malaya).",
-      "pt": "Hokkien falado pelos Peranakan (chineses do Estreito / Baba-Nyonya). Os descendentes dos imigrantes hokkien chegados a Malaca, Penang e Singapura entre os séculos XV–XVII crioulizaram a língua através de um contacto intenso com o malaio. O sistema tonal reduz-se de 8 para 4–5, as oclusivas finais tornam-se uma oclusiva glotal ou desaparecem, as implosivas /b/, /g/ confluem com as oclusivas simples, as vogais ajustam-se ao sistema de 5 vogais do malaio, o /ŋ/ inicial cai frequentemente e o léxico mistura-se amplamente com o malaio. As formas de superfície seguem o estilo POJ; o AFI reflete a realização peranakana. É usado lado a lado com o baba malaio (crioulo de base malaia).",
-      "ru": "Хоккиен в речи перанаканов (проливных китайцев / баба-ньонья). Потомки хоккиенских мигрантов, осевших в Малакке, Пенанге и Сингапуре в XV–XVII вв., через интенсивный контакт с малайским креолизировали язык. Тоновая система сводится с 8 к 4–5, конечные смычные становятся гортанным смыканием или утрачиваются, имплозивные /b/, /g/ сливаются с обычными смычными, гласные подстраиваются под пятигласную систему малайского, начальный /ŋ/ часто выпадает, а лексика широко смешана с малайским. Поверхностные формы — в стиле POJ; МФА передаёт перанаканскую реализацию. Употребляется параллельно с баба-малайским (малайско-доминированный креол).",
-      "uk": "Хоккієн у мовленні перанаканів (протокових китайців / баба-ньоня). Нащадки хоккієнських мігрантів, що осіли в Малакці, Пенангу та Сінгапурі у XV–XVII ст., через інтенсивний контакт із малайською креолізували мову. Тонова система зводиться з 8 до 4–5, кінцеві проривні стають гортанним змиканням або зникають, імплозивні /b/, /g/ зливаються зі звичайними проривними, голосні адаптуються до п'ятиголосної системи малайської, початковий /ŋ/ часто випадає, а лексика широко змішана з малайською. Поверхневі форми — у стилі POJ; МФА передає перанаканську реалізацію. Уживається паралельно з баба-малайською (малайськодомінований креол).",
-      "ar": "هوكين الذي يتحدث به البيراناكان (الصينيون المضائقيون / بابا-نيونيا). أحفاد المهاجرين الهوكين الذين استقروا في ملقا وبينانغ وسنغافورة في القرنين الخامس عشر إلى السابع عشر، وقد كرّلوا اللغة بفضل اتصال عميق بالملايو. ينكمش نظام النبرات من 8 إلى 4-5، وتتحول النهايات الانفجارية إلى انغلاق حلقي أو تسقط، وتندمج الانفجاريات الداخلية /b/، /g/ في الانفجاريات العادية، وتتكيف الحركات مع نظام الحركات الخمس الملايوي، وكثيراً ما يسقط /ŋ/ في بداية الكلمة، ويختلط المعجم بكثرة بالملايوية. الأشكال السطحية بأسلوب POJ، أما الـIPA فيعكس النطق البيراناكاني. تُستخدم جنباً إلى جنب مع 'بابا الملايو' (كريول مهيمن عليه الملايوية).",
-      "he": "הוקיין הנדבר על ידי הפרנקאן (סינים של המצרים / באבא-ניוֹניָה). צאצאי המהגרים ההוקיינים שהתיישבו במלאקה, פנאנג וסינגפור במאות 15–17 קריוליזו את לשונם דרך מגע אינטנסיבי עם המאלאית. מערכת הטונים מצטמצמת מ-8 ל-4-5, סוגרים סופיים הופכים לפיצוץ גלוטלי או נעלמים, אימפלוסיביים /b/, /g/ מתאחדים עם סוגרים רגילים, התנועות מסתגלות למערכת חמש התנועות המאלאית, /ŋ/ פותח נופל לעיתים קרובות, ואוצר המילים מעורב רבות במאלאית. צורות הפני שטח בסגנון POJ; ה-IPA משקף את ההגייה הפרנקאנית. בשימוש לצד באבא-מאלאית (קריאול בעל דומיננטיות מאלאית).",
-      "sw": "Hokkien inayozungumzwa na Wa-Peranakan (Wachina wa Mlima / Baba-Nyonya). Wajukuu wa wahamiaji wa Hokkien waliokuja Malacca, Penang, na Singapore katika karne ya 15–17 walikrioli lugha yao kupitia mawasiliano makubwa na Kimalei. Mfumo wa toni unapungua kutoka 8 hadi 4-5, vituo vya mwisho vinabadilika kuwa kufunga glotali au kupotea, vituo vya implosive /b/, /g/ vinaungana na vituo vya kawaida, irabu zinabadilika kulingana na mfumo wa irabu tano wa Kimalei, /ŋ/ ya mwanzo mara nyingi inadondoka, na msamiati unachanganyika sana na Kimalei. Maumbo ya juu yanafuata mtindo wa POJ; IPA inaakisi matamshi ya Peranakan. Hutumika sambamba na Baba Malay (Kikrioli kinachoongozwa na Kimalei)."
-    },
-    "sources": [
-      "Wikipedia: Peranakan Chinese, Baba Malay",
-      "Pakir, Anne (1986) A Linguistic Investigation of Baba Malay",
-      "Lim Sonny (1981) Baba Malay: The Language of the Straits-Born Chinese"
-    ],
-    "romanization": {
-      "name": "Peranakan Hokkien convention (Latin base with superscript tone digits)",
-      "authority": "convention",
-      "year": null
-    },
-    "speakers": "約20万人 (峡海華人プラナカン、推定)",
-    "speakersSource": "Wikipedia (英語版「Peranakan Chinese」, 2026-05-30閲覧)"
-  },
   "ko_bus": {
     "name": "Busan Korean",
     "native": "부산말",
@@ -21649,67 +21407,18 @@ const HAN_LANG_META = {
     "sources":[{"type": "reference", "title": "#语保工程采录展示平台#, via 漢字音典 MCPDict table 青田 (osfans/MCPDict, tools/tables/output/青田.tsv)"}, {"type": "reference", "title": "Tone values: MCPDict's table for 青田 (1=445 2=21 3=454 4=343 5=33 6=22 7=42 8=31). Rebuilt 2026-09-30; the earlier provisional readings are withdrawn"}]
   },
   "hak_hy": {
-    "name": "Huiyang Hakka",
-    "native": "惠陽客家話",
-    "lat": 23.08,
-    "lng": 114.41,
+    "name": "Sha Tau Kok Hakka",
+    "native": "沙頭角客家話",
+    "lat": 22.55,
+    "lng": 114.22,
     "family": "Sinitic (Hakka)",
-    "region": "廣東省惠州市惠陽区 — 粵台片新惠小片。深圳・香港新界・スリナム／ガイアナ客家ディアスポラの母方言",
-    "reading_type": {
-      "ja": "恵陽客家語",
-      "ko": "후이양 객가어 (惠陽客家話)",
-      "zh": "惠阳客家话",
-      "en": "Huiyang Hakka",
-      "yue": "惠陽客家話",
-      "vi": "Tiếng Khách Gia Huệ Dương",
-      "th": "ภาษาแคะฮุ่ยหยาง",
-      "id": "Hakka Huiyang",
-      "hi": "हुइयांग हक्का",
-      "de": "Huiyang-Hakka",
-      "fr": "hakka de Huiyang",
-      "it": "hakka di Huiyang",
-      "es": "hakka de Huiyang",
-      "pt": "hakka de Huiyang",
-      "ru": "Хойянский хакка",
-      "uk": "Хойянський хакка",
-      "ar": "هاكا هوييانغ",
-      "he": "האקה חוּאיאנג",
-      "sw": "Kihakka cha Huiyang"
-    },
-    "description": {
-      "ja": "広東省東部の恵州市恵陽の客家語で、粵台片の新惠小片に属する。海陸腔と異なり梅県客家語と同様に捲舌音をもたず、当小片独自の声調の調値をもつ。深圳および香港新界の客家、ならびにスリナムとガイアナの客家ディアスポラの祖籍方言である。",
-      "ko": "광둥성 동부 후이저우시 후이양에서 쓰이는 客家話로, 粵台片의 新惠小片에 속한다. 海陸腔과 달리 메이현 객가어처럼 권설음이 없으며, 이 소집단 고유의 성조 조치(調値)를 지닌다. 선전과 홍콩 신계(新界) 객가인, 그리고 수리남과 가이아나 객가 디아스포라의 본적 방언이다.",
-      "zh": "广东东部惠州市惠阳的客家话，属粤台片新惠小片。与海陆腔不同，它像梅县客家话一样不带卷舌音，并具有该小片自身的声调调值。它是深圳及香港新界客家人，以及苏里南和圭亚那客家侨民的祖籍方言。",
-      "en": "A 粵台片 Hakka variety of the Xin-Hui subgroup (新惠小片) spoken in Huiyang, Huizhou, eastern Guangdong. Non-retroflex like Meixian Hakka (unlike Hailu), with the subgroup's own tone contours. It is the ancestral topolect of the Hakka of Shenzhen and Hong Kong's New Territories, and of the Hakka diaspora in Suriname and Guyana.",
-      "yue": "廣東東部惠州市惠陽嘅客家話，屬粵台片新惠小片。同海陸腔唔同，佢好似梅縣客家話咁冇捲舌音，並且有該小片自身嘅聲調調值。佢係深圳同香港新界客家人，以及蘇里南同圭亞那客家僑民嘅祖籍方言。",
-      "vi": "Một biến thể tiếng Khách Gia thuộc tiểu nhóm Tân Huệ (新惠小片) của phiến Việt-Đài (粵台片), được nói ở Huệ Dương, Huệ Châu, miền đông Quảng Đông. Không có âm uốn lưỡi giống tiếng Khách Gia Mai Huyện (khác với Hải Lục), với các đường nét thanh điệu riêng của tiểu nhóm. Đây là thổ ngữ quê gốc của người Khách Gia ở Thâm Quyến và vùng Tân Giới của Hồng Kông, cũng như của cộng đồng Khách Gia hải ngoại ở Suriname và Guyana.",
-      "th": "ภาษาถิ่นแคะในกลุ่มย่อยซินฮุ่ย (新惠小片) ของสาขาเยฺว่ไถ (粵台片) ที่พูดกันในฮุ่ยหยาง เมืองฮุ่ยโจว มณฑลกวางตุ้งตะวันออก ไม่มีเสียงม้วนลิ้นเช่นเดียวกับภาษาแคะเหมยเซี่ยน (ต่างจากไห่ลู่) และมีรูปวรรณยุกต์เฉพาะของกลุ่มย่อยนี้ เป็นภาษาถิ่นบ้านเกิดของชาวแคะในเซินเจิ้นและเขตนิวเทร์ริทอรีส์ของฮ่องกง รวมทั้งชาวแคะพลัดถิ่นในซูรินามและกายอานา",
-      "id": "Ragam Hakka subkelompok Xin-Hui (新惠小片) dari cabang Yue-Tai (粵台片) yang dituturkan di Huiyang, Huizhou, Guangdong timur. Tidak beralun-lidah seperti Hakka Meixian (berbeda dari Hailu), dengan kontur nada khas subkelompoknya. Ini adalah topolek asal Hakka Shenzhen dan New Territories Hong Kong, serta diaspora Hakka di Suriname dan Guyana.",
-      "hi": "पूर्वी क्वांगतुंग के हुइचो स्थित हुइयांग में बोली जाने वाली, येऔ-थाई शाखा (粵台片) के शिन-हुइ उपसमूह (新惠小片) की एक हक्का बोली। मेईश्येन हक्का की तरह (हाईलू के विपरीत) इसमें मूर्धन्य ध्वनियाँ नहीं हैं, और इसके अपने उपसमूह के विशिष्ट स्वराघात-रूप हैं। यह शेनचेन तथा हांगकांग के नए प्रदेशों (न्यू टेरिटरीज़) के हक्का, और सूरीनाम एवं गयाना के हक्का प्रवासियों की पैतृक बोली है।",
-      "de": "Eine Hakka-Varietät der Xin-Hui-Untergruppe (新惠小片) des Yue-Tai-Zweigs (粵台片), gesprochen in Huiyang, Huizhou, im östlichen Guangdong. Wie das Meixian-Hakka (anders als Hailu) ohne retroflexe Laute und mit den eigenen Tonkonturen der Untergruppe. Sie ist der angestammte Heimatdialekt der Hakka von Shenzhen und den New Territories Hongkongs sowie der Hakka-Diaspora in Suriname und Guyana.",
-      "fr": "Une variété hakka du sous-groupe Xin-Hui (新惠小片) de la branche Yue-Tai (粵台片), parlée à Huiyang, à Huizhou, dans l'est du Guangdong. Dépourvue de rétroflexes comme le hakka de Meixian (contrairement au hailu), elle possède les contours tonals propres au sous-groupe. C'est le parler ancestral des Hakka de Shenzhen et des Nouveaux Territoires de Hong Kong, ainsi que de la diaspora hakka du Suriname et du Guyana.",
-      "it": "Una varietà hakka del sottogruppo Xin-Hui (新惠小片) del ramo Yue-Tai (粵台片), parlata a Huiyang, a Huizhou, nel Guangdong orientale. Priva di retroflesse come l'hakka di Meixian (a differenza dell'hailu), con i contorni tonali propri del sottogruppo. È il vernacolo ancestrale degli hakka di Shenzhen e dei Nuovi Territori di Hong Kong, nonché della diaspora hakka in Suriname e Guyana.",
-      "es": "Una variedad hakka del subgrupo Xin-Hui (新惠小片) de la rama Yue-Tai (粵台片), hablada en Huiyang, en Huizhou, al este de Guangdong. Carente de retroflejas como el hakka de Meixian (a diferencia del hailu), con los contornos tonales propios del subgrupo. Es el habla ancestral de los hakka de Shenzhen y de los Nuevos Territorios de Hong Kong, así como de la diáspora hakka en Surinam y Guyana.",
-      "pt": "Uma variedade hakka do subgrupo Xin-Hui (新惠小片) do ramo Yue-Tai (粵台片), falada em Huiyang, em Huizhou, no leste de Guangdong. Sem retroflexas como o hakka de Meixian (ao contrário do hailu), com os contornos tonais próprios do subgrupo. É o falar ancestral dos hakka de Shenzhen e dos Novos Territórios de Hong Kong, bem como da diáspora hakka no Suriname e na Guiana.",
-      "ru": "Разновидность хакка подгруппы Синь-Хой (新惠小片) ветви Юэ-Тай (粵台片), на которой говорят в Хойяне, городской округ Хойчжоу, на востоке провинции Гуандун. Не имеет ретрофлексных согласных, как мэйсяньский хакка (в отличие от хайлу), и обладает собственными тоновыми контурами подгруппы. Это исконный родной говор хакка Шэньчжэня и Новых Территорий Гонконга, а также хакка диаспоры в Суринаме и Гайане.",
-      "uk": "Різновид хакка підгрупи Сінь-Хой (新惠小片) гілки Юе-Тай (粵台片), якою розмовляють у Хойяні, міський округ Хойчжоу, на сході провінції Гуандун. Не має ретрофлексних приголосних, як мейсяньський хакка (на відміну від хайлу), і має власні тонові контури підгрупи. Це питомий рідний говір хакка Шеньчженя та Нових Територій Гонконгу, а також хакка діаспори в Суринамі та Гаяні.",
-      "ar": "لهجة هاكا من المجموعة الفرعية شين-هوي (新惠小片) ضمن فرع يوي-تاي (粵台片)، يُتحدَّث بها في هوييانغ بمدينة هويتشو، شرقي قوانغدونغ. خالية من الأصوات الالتفافية مثل هاكا ميشيان (بخلاف هايلو)، ولها معالمها النغمية الخاصة بالمجموعة الفرعية. وهي اللهجة الأصلية لهاكا شنتشن والأقاليم الجديدة بهونغ كونغ، ولشتات الهاكا في سورينام وغيانا.",
-      "he": "להג האקה מתת-הקבוצה שׂין-חוּאי (新惠小片) של ענף יוּאֶה-טַאי (粵台片), המדובר בחוּאיאנג, חוּאיג'ואו, שבמזרח גואנגדונג. נטול עיצורים רטרופלקסיים כמו האקה של מֵיישיין (בשונה מהאיְלוּ), ובעל מתאֵרי הטון המייחדים את תת-הקבוצה. זהו ניב המולדת של האקה של שֶנְג'ֶן והטריטוריות החדשות של הונג קונג, וכן של תפוצת ההאקה בסורינאם ובגיאנה.",
-      "sw": "Lahaja ya Kihakka ya kikundi-dogo cha Xin-Hui (新惠小片) cha tawi la Yue-Tai (粵台片), inayozungumzwa Huiyang, Huizhou, mashariki mwa Guangdong. Haina sauti za kukunja ulimi kama Kihakka cha Meixian (tofauti na Hailu), na ina mikondo yake ya toni ya kikundi-dogo. Ni lahaja ya asili ya Wahakka wa Shenzhen na Maeneo Mapya ya Hong Kong, pamoja na wahamiaji Wahakka nchini Suriname na Guyana."
-    },
-    "romanization": {
-      "name": "Pha̍k-fa-sṳ (PFS / 客語白話字)",
-      "authority": "客家話拼音方案 (新惠小片 adapted)",
-      "year": 1981
-    },
-    "speakers": "約150万人 (惠州市惠陽) ＋ 香港新界・スリナム客家",
+    "region": "廣東省深圳市鹽田区沙頭角 — 粵台片梅惠小片の客家語。香港新界との境界に位置する",
+    "reading_type": {"en": "Hakka — Sha Tau Kok (Shenzhen)", "ja": "客家語 — 沙頭角（深圳）", "ko": "객가어 — 사타우콕 (선전, 沙頭角)", "zh": "客家话 — 沙头角（深圳）", "yue": "客家話 — 沙頭角（深圳）", "vi": "Tiếng Khách Gia — Sa Đầu Giác (Thâm Quyến)", "th": "ภาษาแคะ — ซาเทาก๊อก (เซินเจิ้น)", "id": "Hakka — Sha Tau Kok (Shenzhen)", "hi": "हक्का — शा ताउ कोक (शेनचेन)", "de": "Hakka — Sha Tau Kok (Shenzhen)", "fr": "hakka — Sha Tau Kok (Shenzhen)", "it": "hakka — Sha Tau Kok (Shenzhen)", "es": "hakka — Sha Tau Kok (Shenzhen)", "pt": "hakka — Sha Tau Kok (Shenzhen)", "ru": "Хакка — Шатаукок (Шэньчжэнь)", "uk": "Хакка — Шатаукок (Шеньчжень)", "ar": "هاكا — شا تاو كوك (شنتشن)", "he": "האקה — שה טאו קוק (שנג'ן)", "sw": "Kihakka — Sha Tau Kok (Shenzhen)"},
+    "description": {"en": "Hakka of Sha Tau Kok in Shenzhen, Guangdong, on the border with Hong Kong, in the 梅惠小片 of the 粵台片 group. The readings are from Academia Sinica's 小學堂 Hakka database, whose Pearl River Delta points come from 詹伯慧 and 張日昇 (eds.), 《珠江三角洲方言字音對照》 (1987). It has six tones: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 and 陽入 55. Old ŋ- is written as a prenasalised g (人 gin¹¹, 牛 giu¹¹), and 口 kʰiu³¹ and 頭 tʰiu¹¹ have -iu. This row formerly stood for Huiyang Hakka, for which no character survey is available online.", "ja": "広東省深圳市沙頭角の客家語で、香港との境界に位置し、粵台片の梅惠小片に属する。読音は中央研究院「小學堂」客語データベースによるもので、同データベースの珠江デルタの地点は 詹伯慧・張日昇 主編《珠江三角洲方言字音對照》（1987）に基づく。声調は六つで、陰平 33、陽平 11、上 31、去 42、陰入 21、陽入 55。古い ŋ- は前鼻音化した g で表記され（人 gin¹¹、牛 giu¹¹）、口 kʰiu³¹ や 頭 tʰiu¹¹ は -iu をもつ。この行はかつて恵陽客家語を表していたが、恵陽客家語の字音調査はオンラインで入手できない。", "ko": "광둥성 선전시 사타우콕(沙頭角)의 객가어로, 홍콩과의 경계에 있으며 粵台片의 梅惠小片에 속한다. 독음은 중앙연구원 '小學堂' 객가어 데이터베이스에서 가져왔으며, 이 데이터베이스의 주강 삼각주 지점은 詹伯慧·張日昇 주편 《珠江三角洲方言字音對照》(1987)에 근거한다. 성조는 여섯 개로, 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21, 陽入 55이다. 옛 ŋ-는 전비음화된 g로 표기되며(人 gin¹¹, 牛 giu¹¹), 口 kʰiu³¹와 頭 tʰiu¹¹는 -iu를 가진다. 이 행은 이전에 후이양 객가어를 나타냈으나, 후이양 객가어의 한자음 조사는 온라인에서 구할 수 없다.", "zh": "广东省深圳市沙头角的客家话，位于与香港交界处，属粤台片梅惠小片。读音取自中央研究院「小學堂」客语数据库，该数据库的珠江三角洲地点出自 詹伯慧、張日昇 主编《珠江三角洲方言字音對照》（1987）。共有六个声调：陰平 33、陽平 11、上 31、去 42、陰入 21、陽入 55。古 ŋ- 写作带前鼻音的 g（人 gin¹¹、牛 giu¹¹），口 kʰiu³¹、頭 tʰiu¹¹ 读 -iu。此行原先代表惠阳客家话，但惠阳客家话的字音调查在网上无法取得。", "yue": "廣東省深圳市沙頭角嘅客家話，喺同香港交界嘅地方，屬粵台片梅惠小片。讀音取自中央研究院「小學堂」客語資料庫，呢個資料庫嘅珠江三角洲地點出自 詹伯慧、張日昇 主編《珠江三角洲方言字音對照》（1987）。一共有六個聲調：陰平 33、陽平 11、上 31、去 42、陰入 21、陽入 55。古 ŋ- 寫做帶前鼻音嘅 g（人 gin¹¹、牛 giu¹¹），口 kʰiu³¹、頭 tʰiu¹¹ 讀 -iu。呢行以前代表惠陽客家話，但係惠陽客家話嘅字音調查喺網上搵唔到。", "vi": "Tiếng Khách Gia ở Sa Đầu Giác (沙頭角), Thâm Quyến, Quảng Đông, sát biên giới với Hồng Kông, thuộc tiểu phiến 梅惠小片 của phiến 粵台片. Các cách đọc lấy từ cơ sở dữ liệu tiếng Khách Gia 小學堂 của Viện Nghiên cứu Trung ương (Academia Sinica), mà các điểm vùng châu thổ Châu Giang trong đó lấy từ 詹伯慧 và 張日昇 (chủ biên), 《珠江三角洲方言字音對照》 (1987). Có sáu thanh điệu: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 và 陽入 55. Âm đầu ŋ- cũ được viết bằng g tiền mũi hóa (人 gin¹¹, 牛 giu¹¹), và 口 kʰiu³¹ và 頭 tʰiu¹¹ có vần -iu. Hàng này trước đây đại diện cho tiếng Khách Gia Huệ Dương, loại tiếng mà không có khảo sát âm chữ Hán nào trên mạng.", "th": "ภาษาแคะของซาเทาก๊อก (沙頭角) ในเซินเจิ้น มณฑลกวางตุ้ง ติดชายแดนฮ่องกง อยู่ในกลุ่มย่อย 梅惠小片 ของกลุ่ม 粵台片 การอ่านนำมาจากฐานข้อมูลภาษาแคะ 小學堂 ของ Academia Sinica ซึ่งจุดสำรวจในสามเหลี่ยมปากแม่น้ำจูเจียงมาจาก 詹伯慧 และ 張日昇 (บรรณาธิการ) 《珠江三角洲方言字音對照》 (1987) มีหกวรรณยุกต์: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 และ 陽入 55 เสียง ŋ- เดิมเขียนเป็น g ที่มีเสียงนาสิกนำ (人 gin¹¹, 牛 giu¹¹) และ 口 kʰiu³¹ กับ 頭 tʰiu¹¹ มีสระ -iu แถวนี้เดิมแทนภาษาแคะฮุ่ยหยาง ซึ่งไม่มีการสำรวจเสียงอักษรจีนที่หาได้ทางออนไลน์", "id": "Hakka dari Sha Tau Kok di Shenzhen, Guangdong, di perbatasan dengan Hong Kong, termasuk 梅惠小片 dari kelompok 粵台片. Bacaannya diambil dari basis data Hakka 小學堂 milik Academia Sinica, yang titik-titik Delta Sungai Mutiaranya berasal dari 詹伯慧 dan 張日昇 (ed.), 《珠江三角洲方言字音對照》 (1987). Ada enam nada: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21, dan 陽入 55. Bunyi ŋ- lama ditulis sebagai g pranasal (人 gin¹¹, 牛 giu¹¹), dan 口 kʰiu³¹ serta 頭 tʰiu¹¹ memiliki -iu. Baris ini dahulu mewakili Hakka Huiyang, yang survei bunyi aksaranya tidak tersedia secara daring.", "hi": "क्वांगतुंग के शेनचेन में, हांगकांग की सीमा पर स्थित शा ताउ कोक (沙頭角) की हक्का बोली, जो 粵台片 समूह के 梅惠小片 में आती है। उच्चारण अकादेमिया सिनिका के 小學堂 हक्का डेटाबेस से लिए गए हैं, जिसके पर्ल नदी डेल्टा के स्थल 詹伯慧 और 張日昇 (संपादक), 《珠江三角洲方言字音對照》 (1987) से आते हैं। इसमें छह स्वर हैं: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 और 陽入 55। पुराना ŋ- पूर्व-नासिकीकृत g के रूप में लिखा जाता है (人 gin¹¹, 牛 giu¹¹), और 口 kʰiu³¹ तथा 頭 tʰiu¹¹ में -iu है। यह पंक्ति पहले हुइयांग हक्का को दर्शाती थी, जिसका कोई अक्षर-उच्चारण सर्वेक्षण ऑनलाइन उपलब्ध नहीं है।", "de": "Hakka von Sha Tau Kok in Shenzhen, Guangdong, an der Grenze zu Hongkong, im 梅惠小片 der Gruppe 粵台片. Die Lesungen stammen aus der Hakka-Datenbank 小學堂 der Academia Sinica, deren Punkte im Perlflussdelta auf 詹伯慧 und 張日昇 (Hrsg.), 《珠江三角洲方言字音對照》 (1987), zurückgehen. Es hat sechs Töne: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 und 陽入 55. Altes ŋ- wird als pränasaliertes g geschrieben (人 gin¹¹, 牛 giu¹¹), und 口 kʰiu³¹ und 頭 tʰiu¹¹ haben -iu. Diese Zeile stand früher für das Huiyang-Hakka, für das keine Schriftzeichen-Erhebung online verfügbar ist.", "fr": "Hakka de Sha Tau Kok, à Shenzhen (Guangdong), à la frontière de Hong Kong, dans le 梅惠小片 du groupe 粵台片. Les lectures proviennent de la base de données hakka 小學堂 de l'Academia Sinica, dont les points du delta de la rivière des Perles sont tirés de 詹伯慧 et 張日昇 (dir.), 《珠江三角洲方言字音對照》 (1987). Il a six tons : 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 et 陽入 55. L'ancien ŋ- s'écrit g prénasalisé (人 gin¹¹, 牛 giu¹¹), et 口 kʰiu³¹ et 頭 tʰiu¹¹ ont -iu. Cette ligne représentait auparavant le hakka de Huiyang, pour lequel aucune enquête sur la prononciation des caractères n'est disponible en ligne.", "it": "Hakka di Sha Tau Kok, a Shenzhen (Guangdong), al confine con Hong Kong, nel 梅惠小片 del gruppo 粵台片. Le letture provengono dalla banca dati hakka 小學堂 dell'Academia Sinica, i cui punti del delta del Fiume delle Perle derivano da 詹伯慧 e 張日昇 (a cura di), 《珠江三角洲方言字音對照》 (1987). Ha sei toni: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 e 陽入 55. L'antico ŋ- è scritto come g prenasalizzata (人 gin¹¹, 牛 giu¹¹), e 口 kʰiu³¹ e 頭 tʰiu¹¹ hanno -iu. Questa riga rappresentava in passato l'hakka di Huiyang, per il quale non è disponibile online alcuna indagine sulla pronuncia dei caratteri.", "es": "Hakka de Sha Tau Kok, en Shenzhen (Guangdong), en la frontera con Hong Kong, dentro del 梅惠小片 del grupo 粵台片. Las lecturas proceden de la base de datos hakka 小學堂 de la Academia Sinica, cuyos puntos del delta del río de las Perlas provienen de 詹伯慧 y 張日昇 (eds.), 《珠江三角洲方言字音對照》 (1987). Tiene seis tonos: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 y 陽入 55. La antigua ŋ- se escribe como g prenasalizada (人 gin¹¹, 牛 giu¹¹), y 口 kʰiu³¹ y 頭 tʰiu¹¹ tienen -iu. Esta fila representaba antes el hakka de Huiyang, del que no hay en línea ningún estudio de la pronunciación de los caracteres.", "pt": "Hakka de Sha Tau Kok, em Shenzhen (Guangdong), na fronteira com Hong Kong, no 梅惠小片 do grupo 粵台片. As leituras vêm da base de dados hakka 小學堂 da Academia Sinica, cujos pontos do delta do rio das Pérolas provêm de 詹伯慧 e 張日昇 (orgs.), 《珠江三角洲方言字音對照》 (1987). Tem seis tons: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 e 陽入 55. O antigo ŋ- escreve-se como g pré-nasalizado (人 gin¹¹, 牛 giu¹¹), e 口 kʰiu³¹ e 頭 tʰiu¹¹ têm -iu. Esta linha representava antes o hakka de Huiyang, para o qual não há nenhum levantamento da pronúncia dos caracteres disponível online.", "ru": "Хакка Шатаукока в Шэньчжэне (Гуандун), на границе с Гонконгом; относится к 梅惠小片 группы 粵台片. Чтения взяты из базы данных хакка 小學堂 Academia Sinica, пункты которой в дельте Жемчужной реки восходят к изданию 詹伯慧 и 張日昇 (ред.) 《珠江三角洲方言字音對照》 (1987). В нём шесть тонов: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 и 陽入 55. Древний ŋ- записывается как преназализованный g (人 gin¹¹, 牛 giu¹¹), а 口 kʰiu³¹ и 頭 tʰiu¹¹ имеют -iu. Раньше эта строка представляла хойянский хакка, для которого никакого обследования чтений иероглифов в интернете нет.", "uk": "Хакка Шатаукока в Шеньчжені (Гуандун), на кордоні з Гонконгом; належить до 梅惠小片 групи 粵台片. Читання взято з бази даних хакка 小學堂 Academia Sinica, пункти якої в дельті Перлинної річки походять із видання 詹伯慧 і 張日昇 (ред.) 《珠江三角洲方言字音對照》 (1987). У ньому шість тонів: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 і 陽入 55. Давній ŋ- записується як преназалізований g (人 gin¹¹, 牛 giu¹¹), а 口 kʰiu³¹ і 頭 tʰiu¹¹ мають -iu. Раніше цей рядок представляв хойянський хакка, для якого жодного обстеження читань ієрогліфів в інтернеті немає.", "ar": "لهجة هاكا في شا تاو كوك بمدينة شنتشن في قوانغدونغ، على الحدود مع هونغ كونغ، ضمن 梅惠小片 من مجموعة 粵台片. القراءات مأخوذة من قاعدة بيانات الهاكا 小學堂 التابعة لأكاديميا سينيكا، والتي تستند نقاطها في دلتا نهر اللؤلؤ إلى كتاب 詹伯慧 و張日昇 (محرّران) 《珠江三角洲方言字音對照》 (1987). لها ست نغمات: 陰平 33، 陽平 11، 上 31، 去 42، 陰入 21 و陽入 55. يُكتب الصوت القديم ŋ- حرف g مسبوقًا بأنفية (人 gin¹¹، 牛 giu¹¹)، وفي 口 kʰiu³¹ و頭 tʰiu¹¹ نجد ‎-iu. كان هذا الصف يمثّل سابقًا هاكا هوييانغ، التي لا يتوفّر لها على الإنترنت أي مسح لنطق الحروف الصينية.", "he": "האקה של שה טאו קוק בשנג'ן שבגואנגדונג, על הגבול עם הונג קונג, בתת-הקבוצה 梅惠小片 של קבוצת 粵台片. ההגיות לקוחות ממאגר ההאקה 小學堂 של האקדמיה סיניקה, שנקודותיו בדלתת נהר הפנינה מבוססות על 詹伯慧 ו-張日昇 (עורכים), 《珠江三角洲方言字音對照》 (1987). יש בו שישה טונים: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 ו-陽入 55. ה-ŋ- הקדום נכתב כ-g פְּרֶה-אפי (人 gin¹¹, 牛 giu¹¹), ול-口 kʰiu³¹ ול-頭 tʰiu¹¹ יש ‎-iu. שורה זו ייצגה בעבר את האקה של חוּאיאנג, שלגביו אין בנמצא סקר הגייה של סימנים זמין ברשת.", "sw": "Kihakka cha Sha Tau Kok huko Shenzhen, Guangdong, mpakani na Hong Kong, katika 梅惠小片 ya kundi la 粵台片. Matamshi yametoka kwenye hifadhidata ya Kihakka 小學堂 ya Academia Sinica, ambayo vituo vyake vya delta ya Mto Lulu vinatoka kwa 詹伯慧 na 張日昇 (wahariri), 《珠江三角洲方言字音對照》 (1987). Kina toni sita: 陰平 33, 陽平 11, 上 31, 去 42, 陰入 21 na 陽入 55. Sauti ya zamani ŋ- huandikwa kama g yenye unazali-awali (人 gin¹¹, 牛 giu¹¹), na 口 kʰiu³¹ na 頭 tʰiu¹¹ zina -iu. Safu hii hapo awali iliwakilisha Kihakka cha Huiyang, ambacho hakuna uchunguzi wa matamshi ya herufi zake unaopatikana mtandaoni."},
+    "romanization":{"name": "IPA segments + superscript tone value (the source has no romanization)", "authority": "小學堂 客語 — 深圳(沙頭角)", "year": 2026},
+    "speakers": "(no published count)",
     "speakersSource": "Wikipedia 惠陽話 / 客家語 (2026-06-19閲覧)",
-    "sources": [
-      "Wikipedia: 惠陽話 / 新惠小片 (2026-06-19閲覧)",
-      "李如龍ら 客家方言の記述",
-      "Meixian (hak_mz) baseline を基に新惠小片の調値で調整",
-      "Glottolog: Hakka 粵台片"
-    ]
+    "sources":[{"type": "reference", "title": "詹伯慧、張日昇主編《珠江三角洲方言字音對照》(廣東人民出版社 1987), via 中研院 小學堂 客語 point 粵台片 梅惠小片 深圳(沙頭角) (attribution inferred: the database's only Pearl River Delta source)", "url": "https://xiaoxue.iis.sinica.edu.tw/Keyu"}, {"type": "reference", "title": "Tone values from the same source: 陰平33 陽平11 上31 去42 陰入21 陽入55. Re-pointed 2026-09-30 from Huiyang, for which no character survey is available online"}]
   }
 ,
   "hsn_sf": {
@@ -22046,7 +21755,7 @@ const HAN_LANG_META = {
   }
 };
 
-const HAN_LANGS = ["gan_yc","gan_ja","gan_fz","gan_yt","cjy_cz","cjy_lv","cjy_xz","hsn_hy","czh_wy","cnp_gl","bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_id","nan_my","nan_pera","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt", "wuu_qt", "hak_hy", "hsn_sf", "hsn_ld", "nan_lei", "mnz", "czh_jx", "cjy_dt", "msj", "th", "za_sd"];
+const HAN_LANGS = ["gan_yc","gan_ja","gan_fz","gan_yt","cjy_cz","cjy_lv","cjy_xz","hsn_hy","czh_wy","cnp_gl","bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_my","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt", "wuu_qt", "hak_hy", "hsn_sf", "hsn_ld", "nan_lei", "mnz", "czh_jx", "cjy_dt", "msj", "th", "za_sd"];
 
 const HAN_VARIANTS = {
   "六": {
@@ -22218,34 +21927,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "la̍k",
-        "ipa": "lak̚˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "lio̍k",
-        "ipa": "liɔk̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "lak⁵",
-        "ipa": "lak̚˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "liok⁵",
-        "ipa": "liɔk̚˥",
-        "label": "文讀"
-      }
-    ],
     "cpx": [
       {
         "native": "",
@@ -22385,34 +22066,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "lîng",
         "ipa": "leŋ˨˦",
-        "label": "白讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "liông",
-        "ipa": "liɔŋ˨˦",
-        "label": "文讀"
-      },
-      {
-        "native": "",
-        "surface": "lêng",
-        "ipa": "liŋ˨˦",
-        "label": "白讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "liong⁵",
-        "ipa": "liɔŋ˨˦",
-        "label": "文讀"
-      },
-      {
-        "native": "",
-        "surface": "leng⁵",
-        "ipa": "liŋ˨˦",
         "label": "白讀"
       }
     ]
@@ -22607,34 +22260,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "it",
         "ipa": "it̚˧˨",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tsi̍t",
-        "ipa": "tsiʔ˦",
-        "label": "訓讀（本字未詳）"
-      },
-      {
-        "native": "",
-        "surface": "it",
-        "ipa": "it̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "chit⁵",
-        "ipa": "tsiʔ˥",
-        "label": "訓讀（本字未詳）"
-      },
-      {
-        "native": "",
-        "surface": "it⁵",
-        "ipa": "iʔ˥",
         "label": "文讀"
       }
     ],
@@ -22846,34 +22471,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "sann",
-        "ipa": "sã˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "sam",
-        "ipa": "sam˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "sa³",
-        "ipa": "sã˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "sam³",
-        "ipa": "sam˦",
-        "label": "文讀"
-      }
-    ],
     "nan_my": [
       {
         "native": "",
@@ -23021,34 +22618,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "ngóo",
         "ipa": "ŋɔ˦˨",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "gōo",
-        "ipa": "ɡɔ˨",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ngóo",
-        "ipa": "ŋɔ˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "go²¹",
-        "ipa": "ɡo˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ngo²¹",
-        "ipa": "ŋo˨˩",
         "label": "文讀"
       }
     ],
@@ -23222,34 +22791,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "peh",
-        "ipa": "peʔ˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "pat",
-        "ipa": "pat̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "poeh⁵",
-        "ipa": "pueʔ˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "pat⁵",
-        "ipa": "pat̚˥",
-        "label": "文讀"
-      }
-    ],
     "cpx": [
       {
         "native": "",
@@ -23406,34 +22947,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "káu",
-        "ipa": "kau˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "kiú",
-        "ipa": "kiu˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "kau²¹",
-        "ipa": "kau˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "kiu²¹",
-        "ipa": "kiu˨˩",
-        "label": "文讀"
-      }
-    ],
     "cdo": [
       {
         "native": "",
@@ -23587,34 +23100,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "si̍p",
         "ipa": "sip̚˦˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tsa̍p",
-        "ipa": "tsap̚˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "si̍p",
-        "ipa": "sip̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "chap⁵",
-        "ipa": "tsap̚˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "sip⁵",
-        "ipa": "sip̚˥",
         "label": "文讀"
       }
     ],
@@ -24027,34 +23512,6 @@ const HAN_VARIANTS = {
         "ipa": "ɡuat̚˦˧",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "gu̍eh",
-        "ipa": "ɡueʔ˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "gua̍t",
-        "ipa": "ɡuat̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "goeh⁵",
-        "ipa": "ɡueʔ˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "goat⁵",
-        "ipa": "ɡuat̚˥",
-        "label": "文讀"
-      }
     ]
   },
   "山": {
@@ -24197,34 +23654,6 @@ const HAN_VARIANTS = {
         "ipa": "san˦˦",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "suann",
-        "ipa": "suã˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "san",
-        "ipa": "san˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "soa³",
-        "ipa": "suã˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "san³",
-        "ipa": "san˦",
-        "label": "文讀"
-      }
     ]
   },
   "水": {
@@ -24331,34 +23760,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "suí",
         "ipa": "sui˦˨",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tsúi",
-        "ipa": "tsui˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "súi",
-        "ipa": "sui˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "chui²¹",
-        "ipa": "tsui˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "sui²¹",
-        "ipa": "sui˨˩",
         "label": "文讀"
       }
     ]
@@ -24475,34 +23876,6 @@ const HAN_VARIANTS = {
         "ipa": "hɔ̃˦˨",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "húe",
-        "ipa": "hue˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "hó",
-        "ipa": "ho˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "hoe²¹",
-        "ipa": "hue˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ho²¹",
-        "ipa": "ho˨˩",
-        "label": "文讀"
-      }
     ]
   },
   "木": {
@@ -24615,20 +23988,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bo̍k",
         "ipa": "bɔk̚˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "ba̍k",
-        "ipa": "bak̚˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "bo̍k",
-        "ipa": "bɔk̚˦",
         "label": "文讀"
       }
     ]
@@ -24795,34 +24154,6 @@ const HAN_VARIANTS = {
         "ipa": "tʰiɛn˦˦",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "thinn",
-        "ipa": "tʰĩ˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "thian",
-        "ipa": "tʰian˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "thi³",
-        "ipa": "tʰĩ˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "thian³",
-        "ipa": "tʰian˦",
-        "label": "文讀"
-      }
     ]
   },
   "地": {
@@ -24865,34 +24196,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "tē",
         "ipa": "te˦˩",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tē",
-        "ipa": "te˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "tī",
-        "ipa": "ti˨˩",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "te⁵³",
-        "ipa": "te˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ti⁵³",
-        "ipa": "ti˥˧",
         "label": "文讀"
       }
     ]
@@ -25039,37 +24342,23 @@ const HAN_VARIANTS = {
         "ipa": "ma˦˨",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "bé",
-        "ipa": "be˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "má",
-        "ipa": "ma˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "be²¹",
-        "ipa": "be˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ma²¹",
-        "ipa": "ma˨˩",
-        "label": "文讀"
-      }
     ]
   },
   "鳥": {
+    "hak_hy": [
+      {
+        "native": "",
+        "surface": "tiau³³",
+        "ipa": "tiau˧˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "giau³¹",
+        "ipa": "ɡiau˧˩",
+        "label": "文讀"
+      }
+    ],
     "msj": [
       {
         "native": "",
@@ -25245,34 +24534,6 @@ const HAN_VARIANTS = {
         "ipa": "niau˦˨",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tsiáu",
-        "ipa": "tsiau˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "niáu",
-        "ipa": "niau˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "chiau²¹",
-        "ipa": "tsiau˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "niau²¹",
-        "ipa": "niau˨˩",
-        "label": "文讀"
-      }
     ]
   },
   "魚": {
@@ -25429,34 +24690,6 @@ const HAN_VARIANTS = {
         "ipa": "ɡu˨˦",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "hî",
-        "ipa": "hi˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "gû",
-        "ipa": "ɡu˨˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "hi⁵",
-        "ipa": "hi˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "gu⁵",
-        "ipa": "ɡu˨˦",
-        "label": "文讀"
-      }
     ]
   },
   "牛": {
@@ -25600,34 +24833,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "gû",
-        "ipa": "ɡu˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ngiû",
-        "ipa": "ŋiu˨˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "gu⁵",
-        "ipa": "ɡu˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ngiu⁵",
-        "ipa": "ŋiu˨˦",
-        "label": "文讀"
-      }
-    ],
     "cdo": [
       {
         "native": "",
@@ -25760,34 +24965,6 @@ const HAN_VARIANTS = {
       {
         "native": "",
         "surface": "iông",
-        "ipa": "iɔŋ˨˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "iûnn",
-        "ipa": "ĩũ˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "iông",
-        "ipa": "iɔŋ˨˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "io⁵",
-        "ipa": "iɔ˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "iong⁵",
         "ipa": "iɔŋ˨˦",
         "label": "文讀"
       }
@@ -26104,34 +25281,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "lâng",
-        "ipa": "laŋ˨˦",
-        "label": "訓讀（儂）"
-      },
-      {
-        "native": "",
-        "surface": "jîn",
-        "ipa": "dʑin˨˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "lang⁵",
-        "ipa": "laŋ˨˦",
-        "label": "訓讀（儂）"
-      },
-      {
-        "native": "",
-        "surface": "jin⁵",
-        "ipa": "dʑin˨˦",
-        "label": "文讀"
-      }
-    ],
     "nan_hai": [
       {
         "native": "",
@@ -26315,34 +25464,6 @@ const HAN_VARIANTS = {
         "ipa": "siu˦˨",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tshiú",
-        "ipa": "tsʰiu˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "siú",
-        "ipa": "siu˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "chhiu²¹",
-        "ipa": "tsʰiu˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "siu²¹",
-        "ipa": "siu˨˩",
-        "label": "文讀"
-      }
     ]
   },
   "足": {
@@ -26507,34 +25628,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "bo̍k",
         "ipa": "bɔk̚˦˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "ba̍k",
-        "ipa": "bak̚˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "bo̍k",
-        "ipa": "bɔk̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "bak⁵",
-        "ipa": "bak̚˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "bok⁵",
-        "ipa": "bɔk̚˥",
         "label": "文讀"
       }
     ],
@@ -26722,34 +25815,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "hīnn",
-        "ipa": "hĩ˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ní",
-        "ipa": "ni˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "hi³",
-        "ipa": "hĩ˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ni²¹",
-        "ipa": "ni˨˩",
-        "label": "文讀"
-      }
-    ],
     "wuu_sz": [
       {
         "native":"",
@@ -26847,20 +25912,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "khió",
         "ipa": "kʰio˥˥˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "khau²¹",
-        "ipa": "kʰau˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "khio²¹",
-        "ipa": "kʰio˨˩",
         "label": "文讀"
       }
     ]
@@ -27011,34 +26062,6 @@ const HAN_VARIANTS = {
         "ipa": "tʰɔ˨˦",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "thâu",
-        "ipa": "tʰau˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "tôo",
-        "ipa": "tɔ˨˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "thau⁵",
-        "ipa": "tʰau˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "to⁵",
-        "ipa": "tɔ˨˦",
-        "label": "文讀"
-      }
     ]
   },
   "血": {
@@ -27179,34 +26202,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "hiat",
         "ipa": "hiɛt̚˧˨",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "hueh",
-        "ipa": "hueʔ˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "hiat",
-        "ipa": "hiat̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "hoeh⁵",
-        "ipa": "hueʔ˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "hiat⁵",
-        "ipa": "hiat̚˥",
         "label": "文讀"
       }
     ]
@@ -27377,34 +26372,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "jio̍k",
         "ipa": "dziɔk̚˦˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "bah",
-        "ipa": "baʔ˦",
-        "label": "訓讀（本字未詳）"
-      },
-      {
-        "native": "",
-        "surface": "jio̍k",
-        "ipa": "dʑiɔk̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "bah⁵",
-        "ipa": "baʔ˥",
-        "label": "訓讀（本字未詳）"
-      },
-      {
-        "native": "",
-        "surface": "jiok⁵",
-        "ipa": "dʑiɔk̚˥",
         "label": "文讀"
       }
     ]
@@ -27879,20 +26846,6 @@ const HAN_VARIANTS = {
         "ipa": "ha˨˨",
         "label": "文讀"
       }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "e³",
-        "ipa": "e˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ha³",
-        "ipa": "ha˨˩",
-        "label": "文讀"
-      }
     ]
   },
   "央": {
@@ -28013,20 +26966,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "ng",
         "ipa": "ŋ̍˦˦",
-        "label": "白讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "iong³",
-        "ipa": "iɔŋ˦",
-        "label": "文讀"
-      },
-      {
-        "native": "",
-        "surface": "ng³",
-        "ipa": "ŋ̍˦",
         "label": "白讀"
       }
     ]
@@ -28206,34 +27145,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tang",
-        "ipa": "taŋ˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "tong",
-        "ipa": "tɔŋ˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "tang³",
-        "ipa": "taŋ˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "tong³",
-        "ipa": "tɔŋ˦",
-        "label": "文讀"
-      }
-    ],
     "cdo": [
       {
         "native": "",
@@ -28379,34 +27290,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "se",
         "ipa": "se˦˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "sai",
-        "ipa": "sai˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "se",
-        "ipa": "se˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "sai³",
-        "ipa": "sai˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "se³",
-        "ipa": "se˦",
         "label": "文讀"
       }
     ]
@@ -28787,34 +27670,6 @@ const HAN_VARIANTS = {
         "ipa": "heŋ˨˦",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "kiânn",
-        "ipa": "kiã˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "hêng",
-        "ipa": "heŋ˨˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "kia⁵",
-        "ipa": "kiã˨˦",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "heng⁵",
-        "ipa": "heŋ˨˦",
-        "label": "文讀"
-      }
     ]
   },
   "行:2": {
@@ -29106,34 +27961,6 @@ const HAN_VARIANTS = {
         "surface": "ko",
         "ipa": "ko",
         "label": "呉音 / Go-on"
-      }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "khì",
-        "ipa": "kʰi˥˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "khù",
-        "ipa": "kʰu˥˩",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "khi⁵³",
-        "ipa": "kʰi˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "khu⁵³",
-        "ipa": "kʰu˥˧",
-        "label": "文讀"
       }
     ]
   },
@@ -29510,34 +28337,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tsia̍h",
-        "ipa": "tsiaʔ˦",
-        "label": "訓讀（本字未詳）"
-      },
-      {
-        "native": "",
-        "surface": "si̍t",
-        "ipa": "sit̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "chiah⁵",
-        "ipa": "tsiaʔ˥",
-        "label": "訓讀（本字未詳）"
-      },
-      {
-        "native": "",
-        "surface": "sit⁵",
-        "ipa": "sit̚˥",
-        "label": "文讀"
-      }
-    ],
     "cpx": [
       {
         "native": "",
@@ -29675,34 +28474,6 @@ const HAN_VARIANTS = {
         "ipa": "tsɔ˦˨",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tsáu",
-        "ipa": "tsau˥˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "tsóo",
-        "ipa": "tsɔ˥˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "chau²¹",
-        "ipa": "tsau˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "cho²¹",
-        "ipa": "tsɔ˨˩",
-        "label": "文讀"
-      }
     ]
   },
   "坐": {
@@ -29831,41 +28602,9 @@ const HAN_VARIANTS = {
         "ipa": "tso˨˨",
         "label": "文讀"
       }
-    ],
-    "nan_id": [
-      {
-        "native": "",
-        "surface": "tsē",
-        "ipa": "tse˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "tsō",
-        "ipa": "tso˨˩",
-        "label": "文讀"
-      }
-    ],
-    "nan_pera": [
-      {
-        "native": "",
-        "surface": "che³",
-        "ipa": "tse˨˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "cho³",
-        "ipa": "tso˨˩",
-        "label": "文讀"
-      }
     ]
   },
   "北": {
-    "hak_hy": [
-      { "label": "白讀", "surface": "pet", "ipa": "pet̚˩" },
-      { "label": "文讀", "surface": "pak", "ipa": "pak̚˩" }
-    ],
     "hak_cn": [
       {
         "native": "",

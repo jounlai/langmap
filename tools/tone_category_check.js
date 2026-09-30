@@ -95,7 +95,7 @@ const EXCEPTIONS = new Set([
   'nan_te|聞',
   // mnz and nan_hai were rebuilt on 2026-09-30 from MCPDict's tables, which
   // cite 《永安市志·方言》《永安方言》 and 《海口话音档》. Both of these
-  // are as those tables give them: Yong'an 一 is i5 (陰去 35), and Haikou
+  // are as those tables give them: Yong'an 一 is i5 (去 24), and Haikou
   // vernacular 月 vue6 has lost its stop (陽去 33).
   'mnz|一', 'nan_hai|月',
 ]);

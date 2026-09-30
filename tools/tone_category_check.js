@@ -93,6 +93,11 @@ const EXCEPTIONS = new Set([
   'nan_lei|月', 'nan_lei|木',
   // Teochew 聞 is bhung6 /buŋ³⁵/ on Wiktionary (mn-t), 陽上 not 陽平.
   'nan_te|聞',
+  // mnz and nan_hai were rebuilt on 2026-09-30 from MCPDict's tables, which
+  // cite 《永安市志·方言》《永安方言》 and 《海口话音档》. Both of these
+  // are as those tables give them: Yong'an 一 is i5 (陰去 35), and Haikou
+  // vernacular 月 vue6 has lost its stop (陽去 33).
+  'mnz|一', 'nan_hai|月',
 ]);
 
 // --- 5. For each variety, group chars by MC cell, find majority tone, flag outliers.

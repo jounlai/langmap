@@ -273,10 +273,11 @@ const HAN_DATA = {
       "nan_my": "it",
       "nan_id": "it",
       "nan_pera": "it⁴",
-      "nan_th": "it4",
+      "nan_th": "ziʔ²",
       "nan_pn": "it"
     },
     "ipa": {
+      "nan_th": "ziʔ˨",
       "nan_my": "it̚˥˧",
       "nan_sg": "it̚˧˨",
       "nan_pn": "it̚˧",
@@ -539,11 +540,12 @@ const HAN_DATA = {
       "nan_my": "jī",
       "nan_sg": "jī",
       "nan_pera": "ji³",
-      "nan_th": "ri6",
+      "nan_th": "zi³⁵",
       "nan_id": "jī",
       "ptb": "*g-nis"
     },
     "ipa": {
+      "nan_th": "zi˧˥",
       "nan_pera": "dʑi˨˩",
       "nan_my": "dzi˧˩",
       "nan_sg": "dzi˨˨",
@@ -696,6 +698,7 @@ const HAN_DATA = {
   },
   "三": {
     "surface": {
+      "nan_th": "sã³³",
       "th": "sam",
       "hsn_ld": "sann⁴⁴",
       "gan_yc": "san³⁵",
@@ -807,6 +810,7 @@ const HAN_DATA = {
       "cpx": "sang"
     },
     "ipa": {
+      "nan_th": "sã˧˧",
       "th": "saːm˩˩˦",
       "cpx": "ɬaŋ˥˧˧",
       "hsn_ld": "sã̠˦˦",
@@ -1059,7 +1063,7 @@ const HAN_DATA = {
       "dng": "sy³",
       "yue_us": "sei3",
       "zh_us": "si⁴",
-      "nan_th": "si3",
+      "nan_th": "si²¹³",
       "zh_th": "sì",
       "nan_pera": "si⁵³",
       "zh_jiao": "si⁵³",
@@ -1225,6 +1229,7 @@ const HAN_DATA = {
   },
   "五": {
     "surface": {
+      "nan_th": "ŋou³⁵",
       "cpx": "ngō",
       "th": "ha",
       "hsn_ld": "u⁴²",
@@ -1336,6 +1341,7 @@ const HAN_DATA = {
       "nan": "gōo"
     },
     "ipa": {
+      "nan_th": "ŋou˧˥",
       "th": "haː˥˩",
       "hsn_ld": "u˦˨",
       "gan_yc": "ŋ̍˨˩",
@@ -1479,6 +1485,7 @@ const HAN_DATA = {
   },
   "六": {
     "surface": {
+      "nan_th": "laʔ⁵",
       "cpx": "la̍h",
       "mnp": "lṳ̀",
       "th": "hok",
@@ -1591,6 +1598,7 @@ const HAN_DATA = {
       "cdo": "lĕ̤k"
     },
     "ipa": {
+      "nan_th": "laʔ˥",
       "th": "hok̚˨˩",
       "hsn_ld": "lɤu̯˧˥",
       "gan_yc": "luʔ˦",
@@ -1840,7 +1848,7 @@ const HAN_DATA = {
       "dng": "chi¹",
       "yue_us": "cat1",
       "zh_us": "qi¹",
-      "nan_th": "cig4",
+      "nan_th": "tsʰiʔ²",
       "zh_th": "qī",
       "nan_pera": "chhit⁵",
       "zh_jiao": "qi⁵⁵",
@@ -2002,6 +2010,7 @@ const HAN_DATA = {
   },
   "八": {
     "surface": {
+      "nan_th": "poiʔ²",
       "cpx": "beh",
       "th": "paet",
       "hsn_ld": "ba¹³",
@@ -2111,6 +2120,7 @@ const HAN_DATA = {
       "nan_hai": "ɓɔi9"
     },
     "ipa": {
+      "nan_th": "poiʔ˨",
       "th": "pɛːt̚˨˩",
       "hsn_ld": "pa̠˩˧",
       "gan_yc": "paiʔ˦",
@@ -2252,6 +2262,7 @@ const HAN_DATA = {
   },
   "九": {
     "surface": {
+      "nan_th": "kau⁵³",
       "cpx": "gâu",
       "th": "kao",
       "hsn_ld": "jiou⁴²",
@@ -2364,6 +2375,7 @@ const HAN_DATA = {
       "phm": "*N-ɟuə̯X"
     },
     "ipa": {
+      "nan_th": "kau˥˧",
       "th": "kaw˥˩",
       "hsn_ld": "tɕi̯ʊ˦˨",
       "gan_yc": "tʃɪu˨˩",
@@ -2508,6 +2520,7 @@ const HAN_DATA = {
   },
   "十": {
     "surface": {
+      "nan_th": "sip⁵",
       "cpx": "sé",
       "th": "sip",
       "hsn_ld": "xi³⁵",
@@ -2618,6 +2631,7 @@ const HAN_DATA = {
       "phm": "*gju̯əpD"
     },
     "ipa": {
+      "nan_th": "sip˥",
       "th": "sip̚˨˩",
       "hsn_ld": "ɕi˧˥",
       "gan_yc": "ʃɪʔ˦",
@@ -2861,7 +2875,7 @@ const HAN_DATA = {
       "dng": "zhyr³",
       "yue_us": "jat6",
       "zh_us": "ri⁴",
-      "nan_th": "rig8",
+      "nan_th": "ziʔ⁵",
       "zh_th": "rì",
       "nan_pera": "jit⁵",
       "zh_jiao": "yi⁴²",
@@ -2974,7 +2988,7 @@ const HAN_DATA = {
       "dng": "ʐɚ˥˩",
       "yue_us": "jɑʔ˨",
       "zh_us": "ɹ̩˥˩",
-      "nan_th": "ziʔ˧˥",
+      "nan_th": "ziʔ˥",
       "zh_th": "z̩˥˩",
       "nan_pera": "ziʔ˥",
       "zh_jiao": "i˦˨",
@@ -3017,6 +3031,7 @@ const HAN_DATA = {
   },
   "月": {
     "surface": {
+      "nan_th": "ŋueʔ⁵",
       "nan_te": "ghuêh8",
       "hsn_ld": "ue³⁵",
       "gan_yc": "ȵyøʔ⁴",
@@ -3121,6 +3136,7 @@ const HAN_DATA = {
       "ja_thk": "getsu"
     },
     "ipa": {
+      "nan_th": "ŋueʔ˥",
       "nan_te": "ɡueʔ˦",
       "hsn_ld": "u̯e̞˧˥",
       "gan_yc": "ȵyøʔ˦",
@@ -3603,7 +3619,7 @@ const HAN_DATA = {
       "dng": "shui²",
       "yue_us": "seoi2",
       "zh_us": "shui³",
-      "nan_th": "zui2",
+      "nan_th": "tsui⁵³",
       "zh_th": "shuǐ",
       "zh_jiao": "shui⁵⁵",
       "hak_mz": "súi",
@@ -3715,7 +3731,7 @@ const HAN_DATA = {
       "dng": "ʂuei˨˦",
       "yue_us": "sɝj˦",
       "zh_us": "sweɪ˨",
-      "nan_th": "tsui˧˩",
+      "nan_th": "tsui˥˧",
       "zh_th": "sueɪ˨˩˦",
       "zh_jiao": "ʂueɪ˥˥",
       "hak_mz": "sui˧˩",
@@ -3865,7 +3881,7 @@ const HAN_DATA = {
       "dng": "hue²",
       "yue_us": "fo2",
       "zh_us": "huo³",
-      "nan_th": "hue2",
+      "nan_th": "hue⁵³",
       "zh_th": "huǒ",
       "zh_jiao": "huo⁵⁵",
       "hak_mz": "fó",
@@ -3984,7 +4000,7 @@ const HAN_DATA = {
       "dng": "xuɤ˨˦",
       "yue_us": "fɑː˦",
       "zh_us": "xwo˨",
-      "nan_th": "hue˧˩",
+      "nan_th": "hue˥˧",
       "zh_th": "xuo˨˩˦",
       "zh_jiao": "xuɔ˥˥",
       "hak_mz": "fo˧˩",
@@ -4128,7 +4144,7 @@ const HAN_DATA = {
       "dng": "mu³",
       "yue_us": "muk6",
       "zh_us": "mu⁴",
-      "nan_th": "mog8",
+      "nan_th": "baʔ⁵",
       "zh_th": "mù",
       "nan_pera": "bok⁵",
       "zh_jiao": "mu⁴²",
@@ -4240,7 +4256,7 @@ const HAN_DATA = {
       "dng": "mu˥˩",
       "yue_us": "mʊʔ˨",
       "zh_us": "mu˥˩",
-      "nan_th": "moʔ˧˥",
+      "nan_th": "baʔ˥",
       "zh_th": "mu˥˩",
       "nan_pera": "bɔʔ˥",
       "zh_jiao": "mu˦˨",
@@ -4389,7 +4405,7 @@ const HAN_DATA = {
       "dng": "tu²",
       "yue_us": "tou2",
       "zh_us": "tu³",
-      "nan_th": "tou2",
+      "nan_th": "tʰou⁵³",
       "zh_th": "tǔ",
       "nan_pera": "tho²¹",
       "zh_jiao": "tu⁵⁵",
@@ -4507,7 +4523,7 @@ const HAN_DATA = {
       "dng": "tʰu˨˦",
       "yue_us": "tʰoʊ˦",
       "zh_us": "tʰu˨",
-      "nan_th": "tʰou˧˩",
+      "nan_th": "tʰou˥˧",
       "zh_th": "tʰu˨˩˦",
       "nan_pera": "tʰɔ˨˩",
       "zh_jiao": "tʰu˥˥",
@@ -4550,6 +4566,7 @@ const HAN_DATA = {
   },
   "天": {
     "surface": {
+      "nan_th": "tʰĩ³³",
       "hsn_ld": "tinn⁴⁴",
       "gan_yc": "tʰien³⁵",
       "gan_ja": "tʰiɛn³³⁴",
@@ -4656,6 +4673,7 @@ const HAN_DATA = {
       "ja_thk": "ten"
     },
     "ipa": {
+      "nan_th": "tʰĩ˧˧",
       "hsn_ld": "tʰĩ˦˦",
       "gan_yc": "tʰien˧˥",
       "gan_ja": "tʰiɛn˧˧˦",
@@ -4893,7 +4911,7 @@ const HAN_DATA = {
       "dng": "di³",
       "yue_us": "dei6",
       "zh_us": "di⁴",
-      "nan_th": "di6",
+      "nan_th": "ti¹¹",
       "zh_th": "dì",
       "zh_jiao": "di⁵³",
       "hak_mz": "thì",
@@ -5005,7 +5023,7 @@ const HAN_DATA = {
       "dng": "ti˥˩",
       "yue_us": "deɪ˨",
       "zh_us": "ti˥˩",
-      "nan_th": "ti˨˩",
+      "nan_th": "ti˩˩",
       "zh_th": "ti˥˩",
       "zh_jiao": "ti˥˧",
       "hak_mz": "tʰi˥˧",
@@ -5149,7 +5167,7 @@ const HAN_DATA = {
       "dng": "he²",
       "yue_us": "hoi2",
       "zh_us": "hai³",
-      "nan_th": "hai2",
+      "nan_th": "hai⁵³",
       "zh_th": "hǎi",
       "nan_pera": "hai²¹",
       "zh_jiao": "hai⁵⁵",
@@ -5264,7 +5282,7 @@ const HAN_DATA = {
       "dng": "xɛ˨˦",
       "yue_us": "hɑːi˦",
       "zh_us": "xaɪ˨",
-      "nan_th": "hai˧˩",
+      "nan_th": "hai˥˧",
       "zh_th": "xaɪ˨˩˦",
       "nan_pera": "hai˨˩",
       "zh_jiao": "xæ˥˥",
@@ -5403,7 +5421,7 @@ const HAN_DATA = {
       "dng": "lun²",
       "yue_us": "lung4",
       "zh_us": "long²",
-      "nan_th": "lêng5",
+      "nan_th": "leŋ⁵⁵",
       "zh_th": "lóng",
       "zh_jiao": "long⁴²",
       "hak_mz": "liung",
@@ -5509,7 +5527,7 @@ const HAN_DATA = {
       "dng": "luŋ˨˦",
       "yue_us": "lʊŋ˨",
       "zh_us": "luŋ˧˥",
-      "nan_th": "leŋ˧˥",
+      "nan_th": "leŋ˥˥",
       "zh_th": "luŋ˧˥",
       "zh_jiao": "luŋ˦˨",
       "hak_mz": "liuŋ˩˩",
@@ -5654,7 +5672,7 @@ const HAN_DATA = {
       "dng": "hu²",
       "yue_us": "fu2",
       "zh_us": "hu³",
-      "nan_th": "hou2",
+      "nan_th": "hou⁵³",
       "zh_th": "hǔ",
       "nan_pera": "ho²¹",
       "zh_jiao": "hu⁵⁵",
@@ -5769,7 +5787,7 @@ const HAN_DATA = {
       "dng": "xu˨˦",
       "yue_us": "fuː˦",
       "zh_us": "xu˨",
-      "nan_th": "hou˧˩",
+      "nan_th": "hou˥˧",
       "zh_th": "xu˨˩˦",
       "nan_pera": "hɔ˨˩",
       "zh_jiao": "xu˥˥",
@@ -5913,7 +5931,7 @@ const HAN_DATA = {
       "dng": "chyon²",
       "yue_us": "hyun2",
       "zh_us": "quan³",
-      "nan_th": "kêng2",
+      "nan_th": "kʰiaŋ⁵³",
       "zh_th": "quǎn",
       "nan_pera": "khian²¹",
       "zh_jiao": "quan⁵⁵",
@@ -6026,7 +6044,7 @@ const HAN_DATA = {
       "dng": "tɕʰyɛn˨˦",
       "yue_us": "hjuːn˦",
       "zh_us": "tɕʰjwɛn˨",
-      "nan_th": "kʰeŋ˧˩",
+      "nan_th": "kʰiaŋ˥˧",
       "zh_th": "tɕʰɥɛn˨˩˦",
       "nan_pera": "kʰian˨˩",
       "zh_jiao": "tɕʰyã˥˥",
@@ -6167,7 +6185,7 @@ const HAN_DATA = {
       "dng": "ma²",
       "yue_us": "maa5",
       "zh_us": "ma³",
-      "nan_th": "bhê2",
+      "nan_th": "be⁵³",
       "zh_th": "mǎ",
       "zh_jiao": "ma⁵⁵",
       "hak_mz": "má",
@@ -6275,7 +6293,7 @@ const HAN_DATA = {
       "dng": "ma˨˦",
       "yue_us": "mɑː˨",
       "zh_us": "ma˨",
-      "nan_th": "pe˧˩",
+      "nan_th": "be˥˧",
       "zh_th": "ma˨˩˦",
       "zh_jiao": "ma˥˥",
       "hak_mz": "ma˧˩",
@@ -6417,7 +6435,7 @@ const HAN_DATA = {
       "dng": "nyao²",
       "yue_us": "liu5",
       "zh_us": "niao³",
-      "nan_th": "ziao2",
+      "nan_th": "tsiau⁵³",
       "zh_th": "niǎo",
       "zh_jiao": "liao⁵⁵",
       "hak_mz": "tiáu",
@@ -6526,7 +6544,7 @@ const HAN_DATA = {
       "dng": "ɲjɔ˨˦",
       "yue_us": "liːu˨",
       "zh_us": "njau˨",
-      "nan_th": "tsiau˧˩",
+      "nan_th": "tsiau˥˧",
       "zh_th": "njau˨˩˦",
       "zh_jiao": "liɔ˥˥",
       "hak_mz": "tiau˧˩",
@@ -6676,7 +6694,7 @@ const HAN_DATA = {
       "dng": "yü²",
       "yue_us": "jyu4",
       "zh_us": "yu²",
-      "nan_th": "hê5",
+      "nan_th": "hɤ⁵⁵",
       "zh_th": "yú",
       "zh_jiao": "yu⁴²",
       "hak_mz": "ng",
@@ -6795,7 +6813,7 @@ const HAN_DATA = {
       "dng": "jy˨˦",
       "yue_us": "juː˨",
       "zh_us": "ju˧˥",
-      "nan_th": "hɤ˧˥",
+      "nan_th": "hɤ˥˥",
       "zh_th": "y˧˥",
       "zh_jiao": "y˦˨",
       "hak_mz": "ŋ˩˩",
@@ -6933,7 +6951,7 @@ const HAN_DATA = {
       "dng": "nyu²",
       "yue_us": "au4",
       "zh_us": "niu²",
-      "nan_th": "ghu5",
+      "nan_th": "gu⁵⁵",
       "zh_th": "niú",
       "zh_jiao": "liu⁴²",
       "hak_mz": "ngiu",
@@ -7039,7 +7057,7 @@ const HAN_DATA = {
       "dng": "ɲju˨˦",
       "yue_us": "aʊ˨",
       "zh_us": "njou˧˥",
-      "nan_th": "ku˧˥",
+      "nan_th": "gu˥˥",
       "zh_th": "njou˧˥",
       "zh_jiao": "liou˦˨",
       "hak_mz": "ŋiu˩˩",
@@ -7171,7 +7189,6 @@ const HAN_DATA = {
       "dng": "yan²",
       "yue_us": "joeng4",
       "zh_us": "yang²",
-      "nan_th": "iên5",
       "zh_th": "yáng",
       "zh_jiao": "yang⁴²",
       "hak_mz": "yong",
@@ -7272,7 +7289,6 @@ const HAN_DATA = {
       "dng": "jaŋ˨˦",
       "yue_us": "jɝŋ˨",
       "zh_us": "jaŋ˧˥",
-      "nan_th": "jẽ˧˥",
       "zh_th": "jaŋ˧˥",
       "zh_jiao": "iaŋ˦˨",
       "hak_mz": "joŋ˩˩",
@@ -7412,7 +7428,7 @@ const HAN_DATA = {
       "dng": "mo¹",
       "yue_us": "maau1",
       "zh_us": "mao¹",
-      "nan_th": "ngiao1",
+      "nan_th": "ŋiau³³",
       "zh_th": "māo",
       "nan_pera": "niau³",
       "zh_jiao": "mao²¹³",
@@ -7521,7 +7537,7 @@ const HAN_DATA = {
       "dng": "mɔ˦",
       "yue_us": "maːʊ˦",
       "zh_us": "mau˥˥",
-      "nan_th": "ŋiau˧",
+      "nan_th": "ŋiau˧˧",
       "zh_th": "mau˥˥",
       "nan_pera": "niau˦",
       "zh_jiao": "mau˨˩˧",
@@ -7563,6 +7579,7 @@ const HAN_DATA = {
   },
   "人": {
     "surface": {
+      "nan_th": "laŋ⁵⁵",
       "nan_hai": "zin2",
       "hsn_ld": "nin¹³",
       "gan_yc": "ȵin³³",
@@ -7672,6 +7689,7 @@ const HAN_DATA = {
       "ja_thk": "jin"
     },
     "ipa": {
+      "nan_th": "laŋ˥˥",
       "nan_hai": "zin˧˩",
       "hsn_ld": "nin˩˧",
       cdo: "iŋ˥˧",
@@ -7908,7 +7926,7 @@ const HAN_DATA = {
       "dng": "shu²",
       "yue_us": "sau2",
       "zh_us": "shou³",
-      "nan_th": "ciu2",
+      "nan_th": "tsʰiu⁵³",
       "zh_th": "shǒu",
       "zh_jiao": "shou⁵⁵",
       "hak_mz": "sú",
@@ -8014,7 +8032,7 @@ const HAN_DATA = {
       "dng": "ʂou˨˦",
       "yue_us": "saʊ˦",
       "zh_us": "sou˨",
-      "nan_th": "tsʰiu˧˩",
+      "nan_th": "tsʰiu˥˧",
       "zh_th": "sou˨˩˦",
       "zh_jiao": "ʂou˥˥",
       "hak_mz": "su˧˩",
@@ -8161,7 +8179,7 @@ const HAN_DATA = {
       "dng": "jyo²",
       "yue_us": "zuk1",
       "zh_us": "zu²",
-      "nan_th": "ziog4",
+      "nan_th": "tsuʔ²",
       "zh_th": "zú",
       "nan_pera": "chiok⁵",
       "zh_jiao": "zu⁵⁵",
@@ -8278,7 +8296,7 @@ const HAN_DATA = {
       "dng": "tɕjɔ˨˦",
       "yue_us": "dzʊʔ˦",
       "zh_us": "tsu˧˥",
-      "nan_th": "tsioʔ˨",
+      "nan_th": "tsuʔ˨",
       "zh_th": "tsu˧˥",
       "nan_pera": "tɕiɔʔ˥",
       "zh_jiao": "tsu˥˥",
@@ -8417,7 +8435,7 @@ const HAN_DATA = {
       "dng": "mu³",
       "yue_us": "muk6",
       "zh_us": "mu⁴",
-      "nan_th": "mag8",
+      "nan_th": "maʔ⁵",
       "zh_th": "mù",
       "zh_jiao": "mu⁴²",
       "hak_mz": "mu̍k",
@@ -8522,7 +8540,7 @@ const HAN_DATA = {
       "dng": "mu˥˩",
       "yue_us": "mʊʔ˨",
       "zh_us": "mu˥˩",
-      "nan_th": "maʔ˧˥",
+      "nan_th": "maʔ˥",
       "zh_th": "mu˥˩",
       "zh_jiao": "mu˦˨",
       "hak_mz": "muk̚˥",
@@ -8662,7 +8680,7 @@ const HAN_DATA = {
       "dng": "er²",
       "yue_us": "ji5",
       "zh_us": "er³",
-      "nan_th": "hĩ6",
+      "nan_th": "hi³⁵",
       "zh_th": "ěr",
       "zh_jiao": "er⁵⁵",
       "hak_mz": "ngí",
@@ -8770,7 +8788,7 @@ const HAN_DATA = {
       "dng": "ɚ˨˦",
       "yue_us": "jiː˨",
       "zh_us": "ɚ˨",
-      "nan_th": "hĩ˨˩",
+      "nan_th": "hi˧˥",
       "zh_th": "ɑɻ˨˩˦",
       "zh_jiao": "ɚ˥˥",
       "hak_mz": "ŋi˧˩",
@@ -8914,7 +8932,7 @@ const HAN_DATA = {
       "dng": "ku²",
       "yue_us": "hau2",
       "zh_us": "kou³",
-      "nan_th": "kao2",
+      "nan_th": "kʰau⁵³",
       "zh_th": "kǒu",
       "zh_jiao": "kou⁵⁵",
       "hak_mz": "khiéu",
@@ -9026,7 +9044,7 @@ const HAN_DATA = {
       "dng": "kʰou˨˦",
       "yue_us": "haʊ˦",
       "zh_us": "kʰou˨",
-      "nan_th": "kʰau˧˩",
+      "nan_th": "kʰau˥˧",
       "zh_th": "kʰou˨˩˦",
       "zh_jiao": "kʰou˥˥",
       "hak_mz": "kʰieu˧˩",
@@ -9166,7 +9184,6 @@ const HAN_DATA = {
       "dng": "tu²",
       "yue_us": "tau4",
       "zh_us": "tou²",
-      "nan_th": "tao5",
       "zh_th": "tóu",
       "zh_jiao": "tou⁴²",
       "hak_mz": "theu",
@@ -9276,7 +9293,6 @@ const HAN_DATA = {
       "dng": "tʰou˨˦",
       "yue_us": "tʰaʊ˨",
       "zh_us": "tʰou˧˥",
-      "nan_th": "tʰau˧˥",
       "zh_th": "tʰou˧˥",
       "zh_jiao": "tʰou˦˨",
       "hak_mz": "tʰeu˩˩",
@@ -9425,7 +9441,7 @@ const HAN_DATA = {
       "dng": "shin¹",
       "yue_us": "sam1",
       "zh_us": "xin¹",
-      "nan_th": "sim1",
+      "nan_th": "sim³³",
       "zh_th": "xīn",
       "nan_pera": "sim³",
       "zh_jiao": "xin²¹³",
@@ -9542,7 +9558,7 @@ const HAN_DATA = {
       "dng": "ɕin˦",
       "yue_us": "sɑm˦",
       "zh_us": "ɕin˥˥",
-      "nan_th": "sim˧",
+      "nan_th": "sim˧˧",
       "zh_th": "ɕin˥˥",
       "nan_pera": "sim˦",
       "zh_jiao": "ɕiẽ˨˩˧",
@@ -9685,7 +9701,7 @@ const HAN_DATA = {
       "dng": "shüe²",
       "yue_us": "hyut3",
       "zh_us": "xue⁴",
-      "nan_th": "huêh4",
+      "nan_th": "hueʔ²",
       "zh_th": "xuè",
       "zh_jiao": "xue⁵⁵",
       "hak_mz": "hiet",
@@ -9935,7 +9951,7 @@ const HAN_DATA = {
       "dng": "zhu³",
       "yue_us": "juk6",
       "zh_us": "rou⁴",
-      "nan_th": "nêg8",
+      "nan_th": "neʔ⁵",
       "zh_th": "ròu",
       "zh_jiao": "rou⁵³",
       "hak_mz": "ngiu̍k",
@@ -10043,7 +10059,7 @@ const HAN_DATA = {
       "dng": "ʐou˥˩",
       "yue_us": "jʊʔ˨",
       "zh_us": "ɹou˥˩",
-      "nan_th": "neʔ˧˥",
+      "nan_th": "neʔ˥",
       "zh_th": "zou˥˩",
       "zh_jiao": "ʐou˥˧",
       "hak_mz": "ŋiuk̚˥",
@@ -10084,6 +10100,7 @@ const HAN_DATA = {
   },
   "上": {
     "surface": {
+      "nan_th": "siaŋ³⁵",
       "hsn_ld": "xxiong¹¹",
       "gan_yc": "ʃoŋ²¹",
       "gan_ja": "sɔŋ²¹⁴",
@@ -10186,6 +10203,7 @@ const HAN_DATA = {
       "ja_thk": "shō"
     },
     "ipa": {
+      "nan_th": "siaŋ˧˥",
       "hsn_ld": "ʑiɔŋ˩˩",
       "gan_yc": "ʃoŋ˨˩",
       "gan_ja": "sɔŋ˨˩˦",
@@ -10319,6 +10337,7 @@ const HAN_DATA = {
   },
   "下": {
     "surface": {
+      "nan_th": "e³⁵",
       "hsn_ld": "xxio¹¹",
       "gan_yc": "xa²¹",
       "gan_ja": "ha²¹⁴",
@@ -10423,6 +10442,7 @@ const HAN_DATA = {
       "ja_thk": "ka"
     },
     "ipa": {
+      "nan_th": "e˧˥",
       "hsn_ld": "ʑiɔ˩˩",
       "gan_yc": "xa˨˩",
       "gan_ja": "ha˨˩˦",
@@ -10660,7 +10680,7 @@ const HAN_DATA = {
       "dng": "jun¹",
       "yue_us": "zung1",
       "zh_us": "zhong¹",
-      "nan_th": "dong1",
+      "nan_th": "tuŋ³³",
       "zh_th": "zhōng",
       "nan_pera": "tiong³",
       "zh_jiao": "zhong²¹³",
@@ -10776,7 +10796,7 @@ const HAN_DATA = {
       "dng": "tɕuŋ˦",
       "yue_us": "dzʊŋ˦",
       "zh_us": "tsuŋ˥˥",
-      "nan_th": "toŋ˧",
+      "nan_th": "tuŋ˧˧",
       "zh_th": "tsuŋ˥˥",
       "nan_pera": "tiɔŋ˦",
       "zh_jiao": "tʂuŋ˨˩˧",
@@ -10878,7 +10898,6 @@ const HAN_DATA = {
       "nan_sg": "tiòng",
       "nan_id": "tiòng",
       "nan_my": "tiòng",
-      "nan_th": "dong3",
       "nan_pera": "tiòng",
       "cdo": "dé̤ṳng",
       "cpx": "de̤̍ng",
@@ -10991,7 +11010,6 @@ const HAN_DATA = {
       "nan_sg": "tiɔŋ˨˩",
       "nan_id": "tiɔŋ˨˩",
       "nan_my": "tiɔŋ˧˩",
-      "nan_th": "toŋ˨˩˧",
       "nan_pera": "tiɔŋ˨˩",
       "cdo": "tøyŋ˨˩˧",
       "cpx": "tœŋ˦˨",
@@ -11156,7 +11174,7 @@ const HAN_DATA = {
       "dng": "yan¹",
       "yue_us": "joeng1",
       "zh_us": "yang¹",
-      "nan_th": "iong1",
+      "nan_th": "zaŋ³³",
       "zh_th": "yāng",
       "zh_jiao": "yang²¹³",
       "hak_mz": "yông",
@@ -11252,7 +11270,7 @@ const HAN_DATA = {
       "dng": "jaŋ˦",
       "yue_us": "jɝŋ˦",
       "zh_us": "jaŋ˥˥",
-      "nan_th": "iɔŋ˧",
+      "nan_th": "zaŋ˧˧",
       "zh_th": "jaŋ˥˥",
       "zh_jiao": "iaŋ˨˩˧",
       "hak_mz": "joŋ˦˦",
@@ -11394,7 +11412,7 @@ const HAN_DATA = {
       "dng": "zue²",
       "yue_us": "zo2",
       "zh_us": "zuo³",
-      "nan_th": "zo2",
+      "nan_th": "tso⁵³",
       "zh_th": "zuǒ",
       "nan_pera": "cho²¹",
       "zh_jiao": "zuo⁵⁵",
@@ -11509,7 +11527,7 @@ const HAN_DATA = {
       "dng": "tsuɤ˨˦",
       "yue_us": "dzɑː˦",
       "zh_us": "tswo˨",
-      "nan_th": "tso˧˩",
+      "nan_th": "tso˥˧",
       "zh_th": "tsuo˨˩˦",
       "nan_pera": "tsɔ˨˩",
       "zh_jiao": "tsuo˥˥",
@@ -11654,7 +11672,6 @@ const HAN_DATA = {
       "dng": "yu³",
       "yue_us": "jau6",
       "zh_us": "you⁴",
-      "nan_th": "iu6",
       "zh_th": "yòu",
       "nan_pera": "iu³",
       "zh_jiao": "you⁵³",
@@ -11769,7 +11786,6 @@ const HAN_DATA = {
       "dng": "jou˥˩",
       "yue_us": "jaʊ˨",
       "zh_us": "jou˥˩",
-      "nan_th": "ju˨˩",
       "zh_th": "jou˥˩",
       "nan_pera": "iu˨˩",
       "zh_jiao": "iou˥˧",
@@ -11811,6 +11827,7 @@ const HAN_DATA = {
   },
   "東": {
     "surface": {
+      "nan_th": "taŋ³³",
       "hsn_ld": "deng⁴⁴",
       "gan_yc": "tɤŋ³⁵",
       "gan_ja": "tuŋ³³⁴",
@@ -11913,6 +11930,7 @@ const HAN_DATA = {
       "ja_thk": "tō"
     },
     "ipa": {
+      "nan_th": "taŋ˧˧",
       "hsn_ld": "tɤŋ˦˦",
       "gan_yc": "tɤŋ˧˥",
       "gan_ja": "tuŋ˧˧˦",
@@ -12043,6 +12061,7 @@ const HAN_DATA = {
   },
   "西": {
     "surface": {
+      "nan_th": "sai³³",
       "nan_te": "sai1",
       "hsn_ld": "si⁴⁴",
       "gan_yc": "si³⁵",
@@ -12147,6 +12166,7 @@ const HAN_DATA = {
       "ja_thk": "sei"
     },
     "ipa": {
+      "nan_th": "sai˧˧",
       "nan_te": "sai˧˧",
       "hsn_ld": "si˦˦",
       "gan_yc": "si˧˥",
@@ -12380,7 +12400,7 @@ const HAN_DATA = {
       "dng": "nan²",
       "yue_us": "laam4",
       "zh_us": "nan²",
-      "nan_th": "nam5",
+      "nan_th": "nam⁵⁵",
       "zh_th": "nán",
       "nan_pera": "lam⁵",
       "zh_jiao": "lan⁴²",
@@ -12491,7 +12511,7 @@ const HAN_DATA = {
       "dng": "nan˨˦",
       "yue_us": "lɑːm˨",
       "zh_us": "nan˧˥",
-      "nan_th": "nam˧˥",
+      "nan_th": "nam˥˥",
       "zh_th": "nan˧˥",
       "nan_pera": "lam˨˦",
       "zh_jiao": "lã˦˨",
@@ -12636,7 +12656,7 @@ const HAN_DATA = {
       "dng": "byi²",
       "yue_us": "bak1",
       "zh_us": "bei³",
-      "nan_th": "bag4",
+      "nan_th": "paʔ²",
       "zh_th": "běi",
       "nan_pera": "pak⁵",
       "zh_jiao": "bei⁵⁵",
@@ -12894,7 +12914,7 @@ const HAN_DATA = {
       "dng": "shin²",
       "yue_us": "hang4",
       "zh_us": "xing²",
-      "nan_th": "kiã5",
+      "nan_th": "kĩã⁵⁵",
       "zh_th": "xíng",
       "nan_pera": "kia⁵",
       "zh_jiao": "xing⁴²",
@@ -13009,7 +13029,7 @@ const HAN_DATA = {
       "dng": "ɕin˨˦",
       "yue_us": "hɑŋ˨",
       "zh_us": "ɕiŋ˧˥",
-      "nan_th": "kiã˧˥",
+      "nan_th": "kĩã˥˥",
       "zh_th": "ɕiŋ˧˥",
       "nan_pera": "kiã˨˦",
       "zh_jiao": "ɕiŋ˦˨",
@@ -13158,7 +13178,6 @@ const HAN_DATA = {
       "zh_tw": "háng",
       "nan_sg": "hâng",
       "nan_id": "hâng",
-      "nan_th": "hang5",
       "nan_pera": "hâng",
       "ko_hun": "hangnyeol"
     },
@@ -13269,7 +13288,6 @@ const HAN_DATA = {
       "zh_tw": "xaŋ˧˥",
       "nan_sg": "haŋ˨˦",
       "nan_id": "haŋ˨˦",
-      "nan_th": "haŋ˧˥",
       "nan_pera": "haŋ˨˦",
       "ko_hun": "haŋnjʌl"
     },
@@ -13403,7 +13421,7 @@ const HAN_DATA = {
       "dng": "le²",
       "yue_us": "loi4",
       "zh_us": "lai²",
-      "nan_th": "lai5",
+      "nan_th": "lai⁵⁵",
       "zh_th": "lái",
       "nan_pera": "lai⁵",
       "zh_jiao": "lai⁴²",
@@ -13517,7 +13535,7 @@ const HAN_DATA = {
       "dng": "lɛ˨˦",
       "yue_us": "lɑːi˨",
       "zh_us": "laɪ˧˥",
-      "nan_th": "lai˧˥",
+      "nan_th": "lai˥˥",
       "zh_th": "laɪ˧˥",
       "nan_pera": "lai˨˦",
       "zh_jiao": "læ˦˨",
@@ -13821,6 +13839,7 @@ const HAN_DATA = {
   },
   "見": {
     "surface": {
+      "nan_th": "kĩ²¹³",
       "hsn_ld": "jinn³⁵",
       "gan_yc": "tʃen³⁵",
       "gan_fz": "tɕiɛn⁴¹",
@@ -13928,6 +13947,7 @@ const HAN_DATA = {
       "nan_hai": "ki5"
     },
     "ipa": {
+      "nan_th": "kĩ˨˩˧",
       "hsn_ld": "tɕĩ˧˥",
       "gan_yc": "tʃen˧˥",
       "gan_fz": "tɕiɛn˦˩",
@@ -14066,7 +14086,7 @@ const HAN_DATA = {
   "聞": {
     "surface": {
       "nan_pera": "bun⁵",
-      "nan_th": "bhung5",
+      "nan_th": "muŋ⁵⁵",
       "nan_te": "bhung6",
       "nan_my": "bûn",
       "nan_sg": "bûn",
@@ -14173,7 +14193,7 @@ const HAN_DATA = {
     },
     "ipa": {
       "nan_pera": "bun˨˦",
-      "nan_th": "buŋ˧˥",
+      "nan_th": "muŋ˥˥",
       "nan_te": "buŋ˧˥",
       "nan_my": "bun˨˦",
       "nan_sg": "bun˨˦",
@@ -14309,6 +14329,7 @@ const HAN_DATA = {
   },
   "食": {
     "surface": {
+      "nan_th": "tsiaʔ⁵",
       "hsn_ld": "xi³⁵",
       "gan_yc": "ʃɪʔ⁴",
       "gan_ja": "sɛ²¹⁴",
@@ -14417,6 +14438,7 @@ const HAN_DATA = {
       "nan_te": "ziah8"
     },
     "ipa": {
+      "nan_th": "tsiaʔ˥",
       "hsn_ld": "ɕi˧˥",
       "gan_yc": "ʃɪʔ˦",
       "gan_ja": "sɛ˨˩˦",
@@ -14654,7 +14676,7 @@ const HAN_DATA = {
       "dng": "yin²",
       "yue_us": "jam2",
       "zh_us": "yin³",
-      "nan_th": "im2",
+      "nan_th": "zim⁵³",
       "zh_th": "yǐn",
       "zh_jiao": "yin⁵⁵",
       "hak_mz": "yím",
@@ -14764,7 +14786,7 @@ const HAN_DATA = {
       "dng": "jin˨˦",
       "yue_us": "jɑm˦",
       "zh_us": "in˨",
-      "nan_th": "im˧˩",
+      "nan_th": "zim˥˧",
       "zh_th": "in˨˩˦",
       "zh_jiao": "ĩ˥˥",
       "hak_mz": "jim˧˩",
@@ -14900,7 +14922,7 @@ const HAN_DATA = {
       "dng": "zu²",
       "yue_us": "zau2",
       "zh_us": "zou³",
-      "nan_th": "zao2",
+      "nan_th": "tsau⁵³",
       "zh_th": "zǒu",
       "zh_jiao": "zou⁵⁵",
       "hak_mz": "chéu",
@@ -15005,7 +15027,7 @@ const HAN_DATA = {
       "dng": "tsou˨˦",
       "yue_us": "dzaʊ˦",
       "zh_us": "tsou˨",
-      "nan_th": "tsau˧˩",
+      "nan_th": "tsau˥˧",
       "zh_th": "tsou˨˩˦",
       "zh_jiao": "tsou˥˥",
       "hak_mz": "tseu˧˩",
@@ -15143,7 +15165,7 @@ const HAN_DATA = {
       "dng": "zue³",
       "yue_us": "co5",
       "zh_us": "zuo⁴",
-      "nan_th": "zô6",
+      "nan_th": "tso³⁵",
       "zh_th": "zuò",
       "zh_jiao": "zuo⁵³",
       "hak_mz": "chhô",
@@ -15250,7 +15272,7 @@ const HAN_DATA = {
       "dng": "tsuɤ˥˩",
       "yue_us": "tsʰɑː˨",
       "zh_us": "tsuo˥˩",
-      "nan_th": "tso˨˩",
+      "nan_th": "tso˧˥",
       "zh_th": "tsuo˥˩",
       "zh_jiao": "tsuo˥˧",
       "hak_mz": "tsʰo˦˦",
@@ -15396,7 +15418,7 @@ const HAN_DATA = {
       "dng": "li³",
       "yue_us": "laap6",
       "zh_us": "li⁴",
-      "nan_th": "lib8",
+      "nan_th": "lip⁵",
       "zh_th": "lì",
       "zh_jiao": "li⁴²",
       "hak_mz": "li̍p",
@@ -15511,7 +15533,7 @@ const HAN_DATA = {
       "dng": "li˥˩",
       "yue_us": "lɑːʔ˨",
       "zh_us": "li˥˩",
-      "nan_th": "liʔ˧˥",
+      "nan_th": "lip˥",
       "zh_th": "li˥˩",
       "zh_jiao": "li˦˨",
       "hak_mz": "lip̚˥",
@@ -21071,59 +21093,10 @@ const HAN_LANG_META = {
     "lng": 100.51,
     "family": "Sinitic > Min > Min Nan > Teochew > Thai diaspora",
     "region": "Thailand (Bangkok Yaowarat 耀華力 Chinatown / Thai-Chinese diaspora)",
-    "reading_type": {
-      "en": "Heritage Teochew (Thai-substrate) — Yaowarat / Thai-born Chinese speech",
-      "ja": "タイ華僑継承潮州語（タイ語基層、バンコク耀華力華人街話者）",
-      "ko": "태국 화교 계승 차오저우어 (태국어 기층, 방콕 야오와랏 화자)",
-      "zh": "泰华继承潮州话（泰语基层，曼谷耀华力华人街话者）",
-      "yue": "泰華繼承潮州話（泰語基層，曼谷耀華力華人街話者）",
-      "vi": "Tiếng Triều Châu Hoa kiều Thái Lan (nền tiếng Thái, người Hoa Yaowarat)",
-      "th": "ภาษาแต้จิ๋วชาวจีน-ไทย (พื้นเสียงภาษาไทย ผู้พูดเยาวราช)",
-      "id": "Teochew warisan Tionghoa-Thai (substrat Thai, penutur Yaowarat Bangkok)",
-      "hi": "थाई-चीनी विरासत त्योचेव (थाई आधार, बैंकॉक यावरात के वक्ता)",
-      "de": "Heritage-Teochew der Thai-Chinesen (Thai-Substrat, Yaowarat-Sprecher)",
-      "fr": "Teochew des héritiers sino-thaïlandais (substrat thaï, locuteurs de Yaowarat)",
-      "it": "Teochew di eredità dei sino-thai (substrato thai, parlanti di Yaowarat)",
-      "es": "Teochew de herencia sino-tailandesa (sustrato tailandés, hablantes de Yaowarat)",
-      "pt": "Teochew de herança sino-tailandesa (substrato tailandês, falantes de Yaowarat)",
-      "ru": "Чаочжоуский тайских наследников китайского происхождения (тайский субстрат, носители Яоварат)",
-      "uk": "Чаочжоуська тайських спадкоємців китайського походження (тайський субстрат, носії Яоварат)",
-      "ar": "تيوتشو الجالية الصينية في تايلاند (ركيزة تايلندية، متحدثو ياووارات)",
-      "he": "טיוצ'ו מורשתית של סינים-תאילנדים (תשתית תאית, דוברי יאוואראט)",
-      "sw": "Kiteochew cha urithi cha Wachina-Wathai (msingi wa Kithai, wazungumzaji wa Yaowarat)"
-    },
-    "description": {
-      "en": "Teochew (Chaozhou Min Nan) as spoken by Thai-Chinese diaspora — predominantly the Bangkok Yaowarat Chinatown community. Approximately 56% of Thai Chinese (~9M people) are of Teochew descent, making it historically the dominant Chinese variety in Thailand. Phonologically based on mainland Chaozhou/Shantou Teochew but with systematic Thai-substrate features: 8-tone system collapsed toward Thai's 5-tone contour inventory; unrounded /ɯ/ shifted to /ɤ/ (魚 hɯ → hɤ); implosive /b/, /g/ leveled toward Thai voiceless unaspirated /p/, /k/; final -p/-t/-k weakened to glottal stop /ʔ/; English/Thai-style VOT distinctions; heavy Thai code-switching with politeness particles (ครับ/ค่ะ). Younger generations (3rd+) typically only retain kinship and food vocabulary. Distinct from mainland Chaozhou (nan_te), Singapore Teochew (nan_sg), and Indonesia Teochew (nan_id).",
-      "ja": "タイ華僑（特にバンコク耀華力チャイナタウン華人街）の継承潮州語。タイ華人約900万人の約56%が潮州系で、歴史的にタイにおける主要漢語変種であった。中国本土の潮汕（潮州・汕頭）潮州語を基盤としつつ、タイ語基層による系統的変化：8声調体系がタイ語の5声調に収束、円唇のない/ɯ/が/ɤ/に推移（魚 hɯ→hɤ）、内破音/b/・/g/がタイ語式の無声無気音/p/・/k/に中和、語末-p/-t/-kが声門閉鎖音/ʔ/に弱化、タイ語・英語式のVOT対立、タイ語丁寧表現（ครับ/ค่ะ）を含む頻繁なコードスイッチング。3世以降は親族語彙・料理語彙のみ保持する傾向。本土潮汕（nan_te）・シンガポール潮州（nan_sg）・インドネシア潮州（nan_id）とは別系統。",
-      "ko": "태국 화교(특히 방콕 야오와랏 차이나타운)의 계승 차오저우어. 태국 화인 약 900만 명 가운데 약 56%가 차오저우계로, 역사적으로 태국에서 가장 주요한 한어 변종이었다. 본토 차오산(차오저우·산터우) 차오저우어를 기반으로 태국어 기층에 의한 체계적 변화: 8성조 체계가 태국어 5성조에 수렴, 비원순 /ɯ/가 /ɤ/로 추이(魚 hɯ→hɤ), 내파음 /b/·/g/가 태국어식 무성무기음 /p/·/k/로 중화, 어말 -p/-t/-k가 성문폐쇄음 /ʔ/로 약화, 태국어·영어식 VOT 대립, 태국어 정중 표현(ครับ/ค่ะ) 등을 포함한 빈번한 코드 스위칭. 3세 이후는 친족·요리 어휘만 보유하는 경향. 본토 차오산(nan_te)·싱가포르 차오저우(nan_sg)·인도네시아 차오저우(nan_id)와는 별개 계통.",
-      "zh": "泰国华人（尤其是曼谷耀华力唐人街社区）的继承潮州话。约900万泰华中约56%为潮州裔，历史上是泰国最主要的汉语变种。以中国本土潮汕（潮州、汕头）潮州话为基础，受泰语基层系统性影响：8声调体系收敛为泰语5声调，非圆唇 /ɯ/ 推移为 /ɤ/（魚 hɯ→hɤ），内破音 /b/、/g/ 中和为泰式无声无气音 /p/、/k/，词末 -p/-t/-k 弱化为声门塞音 /ʔ/，泰式与英语式 VOT 对立，常与泰语礼貌助词（ครับ/ค่ะ）频繁夹码。3代以降多仅保留亲属称谓与料理词汇。与中国本土潮汕（nan_te）、新加坡潮州（nan_sg）、印度尼西亚潮州（nan_id）为独立分支。",
-      "yue": "泰國華人（特別係曼谷耀華力唐人街社區）嘅繼承潮州話。約 900 萬泰華入面大概 56% 係潮州裔，歷史上係泰國最主要嘅漢語變種。以中國本土潮汕（潮州、汕頭）潮州話為基礎，受泰語基層系統性影響：8 聲調體系收斂為泰語 5 聲調、非圓唇 /ɯ/ 推移為 /ɤ/（魚 hɯ→hɤ）、內破音 /b/、/g/ 中和為泰式無聲無氣音 /p/、/k/、詞末 -p/-t/-k 弱化為聲門塞音 /ʔ/、泰式同英語式 VOT 對立、經常同泰語禮貌助詞（ครับ/ค่ะ）夾碼。3 代之後多數只保留親屬稱呼同料理詞彙。同中國本土潮汕（nan_te）、新加坡潮州（nan_sg）、印尼潮州（nan_id）係獨立分支。",
-      "vi": "Tiếng Triều Châu của Hoa kiều Thái Lan (đặc biệt cộng đồng Chinatown Yaowarat ở Bangkok). Trong khoảng 9 triệu Hoa kiều Thái có khoảng 56 % gốc Triều Châu, lịch sử là biến thể Hán quan trọng nhất ở Thái. Dựa trên Triều Châu vùng Triều Sán (Triều Châu, Sán Đầu) đại lục, với biến đổi hệ thống do nền tiếng Thái: hệ 8 thanh thu về 5 thanh kiểu Thái, /ɯ/ không tròn môi chuyển thành /ɤ/ (魚 hɯ→hɤ), phụ âm cấy hơi /b/, /g/ trung hòa thành /p/, /k/ vô thanh không bật hơi kiểu Thái, phụ âm cuối -p/-t/-k yếu thành tắc thanh hầu /ʔ/, đối lập VOT kiểu Thái/Anh, code-switching dày với trợ từ lễ phép Thái (ครับ/ค่ะ). Thế hệ 3 trở đi thường chỉ giữ từ về thân tộc và ẩm thực. Khác biệt với Triều Sán đại lục (nan_te), Triều Châu Singapore (nan_sg), Triều Châu Indonesia (nan_id).",
-      "th": "ภาษาแต้จิ๋วของชาวจีน-ไทย (โดยเฉพาะชุมชนชาวจีนเยาวราชในกรุงเทพฯ) ในชาวจีน-ไทยราว 9 ล้านคน ประมาณ 56% มีเชื้อสายแต้จิ๋ว ทำให้เคยเป็นภาษาจีนหลักในประเทศไทย พื้นฐานคือภาษาแต้จิ๋วของแถบเฉาซาน (เฉาโจว-ซานโถว) ในจีนแผ่นดินใหญ่ มีการเปลี่ยนแปลงเชิงระบบจากภาษาไทย: ระบบ 8 วรรณยุกต์ลดลงสู่ 5 วรรณยุกต์แบบไทย /ɯ/ ไม่ห่อปากเลื่อนเป็น /ɤ/ (魚 hɯ→hɤ) เสียงระเบิดแบบดูด /b/, /g/ กลายเป็น /p/, /k/ แบบไทยที่ไม่ก้องไม่พ่นลม พยัญชนะท้าย -p/-t/-k อ่อนลงเป็นเสียงกั้นกล่องเสียง /ʔ/ การแยก VOT แบบไทย/อังกฤษ และการสลับภาษาบ่อยกับคำเสริมสุภาพไทย (ครับ/ค่ะ) รุ่นที่ 3 ขึ้นไปมักเหลือเพียงคำเรียกญาติและคำอาหาร แยกจากเฉาซานแผ่นดินใหญ่ (nan_te) แต้จิ๋วสิงคโปร์ (nan_sg) และแต้จิ๋วอินโดนีเซีย (nan_id)",
-      "id": "Teochew (Min Nan Chaozhou) yang dituturkan diaspora Tionghoa-Thai — terutama komunitas Pecinan Yaowarat di Bangkok. Sekitar 56 % dari sekitar 9 juta orang Tionghoa-Thai berdarah Teochew, sehingga secara historis ini adalah varietas Tionghoa terpenting di Thailand. Berbasis Teochew Chaozhou-Shantou (Chaoshan) di Tiongkok daratan, dengan perubahan sistematis akibat substrat Thai: sistem 8 nada menyusut ke arah 5 nada Thai, /ɯ/ tak bundar bergeser ke /ɤ/ (魚 hɯ→hɤ), implosif /b/, /g/ ternetralkan ke /p/, /k/ ala Thai tak bersuara tak beraspirasi, akhiran -p/-t/-k melemah ke hentian glotal /ʔ/, distingsi VOT ala Thai/Inggris, dan alih kode intensif dengan partikel kesopanan Thai (ครับ/ค่ะ). Generasi ke-3 dst. biasanya hanya menyisakan kosakata kekerabatan dan kuliner. Berbeda dari Chaoshan daratan (nan_te), Teochew Singapura (nan_sg), dan Teochew Indonesia (nan_id).",
-      "hi": "थाई-चीनी प्रवासियों (विशेषकर बैंकॉक यावरात चायनाटाउन समुदाय) की विरासत त्योचेव। थाई-चीनी जनसंख्या लगभग 9 करोड़ में लगभग 56% त्योचेव-वंशी हैं, ऐतिहासिक रूप से थाईलैंड में सबसे प्रमुख चीनी प्रकार। मुख्यभूमि चीन के चाओशान (चाओझोऊ-शानटोऊ) त्योचेव पर आधारित, थाई सबस्ट्रेट से व्यवस्थित परिवर्तन: 8-स्वर प्रणाली थाई की 5-स्वर प्रणाली की ओर सिकुड़ती है, अवर्तुलित /ɯ/ /ɤ/ में स्थानांतरित (魚 hɯ→hɤ), अंतर्विस्फोटक /b/, /g/ थाई शैली के अघोष-अप्राण /p/, /k/ की ओर निरस्त, अंत्य -p/-t/-k कंठ्य अवरोध /ʔ/ की ओर कमज़ोर, थाई/अंग्रेज़ी VOT भेद, थाई शिष्टाचार कणों (ครับ/ค่ะ) के साथ बारंबार कोड-स्विचिंग। 3री पीढ़ी से आगे प्रायः केवल नातेदार और भोजन शब्दावली शेष। मुख्यभूमि चाओशान (nan_te), सिंगापुर त्योचेव (nan_sg) और इंडोनेशिया त्योचेव (nan_id) से अलग।",
-      "de": "Teochew (Chaozhou-Min-Nan) der thai-chinesischen Diaspora — vor allem der Yaowarat-Chinatown-Gemeinde in Bangkok. Etwa 56 % der rund 9 Mio. Thai-Chinesen sind teochewstämmig; historisch die wichtigste chinesische Varietät Thailands. Auf der Grundlage des festlandchinesischen Chaozhou-Shantou-Teochew, mit systematischen Änderungen durch das Thai-Substrat: das 8-Ton-System wird zum thailändischen 5-Ton-System komprimiert, ungerundetes /ɯ/ verschiebt sich zu /ɤ/ (魚 hɯ→hɤ), Implosive /b/, /g/ werden zu thailändisch stimmlosen unaspirierten /p/, /k/ neutralisiert, Endungen -p/-t/-k schwächen sich zum Glottalverschluss /ʔ/ ab, thailändisch/englische VOT-Kontraste; häufiges Code-Switching mit thailändischen Höflichkeitspartikeln (ครับ/ค่ะ). Ab der 3. Generation bleiben oft nur Verwandtschafts- und Essensvokabular erhalten. Eigenständig gegenüber dem festlandchinesischen Chaoshan (nan_te), dem Singapur-Teochew (nan_sg) und dem Indonesien-Teochew (nan_id).",
-      "fr": "Teochew (min nan de Chaozhou) parlé par la diaspora sino-thaïlandaise — surtout la communauté du quartier chinois de Yaowarat à Bangkok. Environ 56 % des quelque 9 millions de Sino-Thaïlandais sont d'origine teochew ; historiquement la variété chinoise la plus importante en Thaïlande. Sur la base du teochew de Chaozhou-Shantou (Chaoshan) en Chine continentale, avec des changements systématiques liés au substrat thaï : le système à 8 tons converge vers les 5 tons du thaï, le /ɯ/ non arrondi se déplace en /ɤ/ (魚 hɯ→hɤ), les implosives /b/, /g/ se neutralisent en /p/, /k/ non voisées non aspirées à la thaïlandaise, les codas -p/-t/-k s'affaiblissent en occlusion glottale /ʔ/, contraste VOT à la thaïe/anglaise, alternance codique intense avec les particules de politesse thaïes (ครับ/ค่ะ). À partir de la 3ᵉ génération, le lexique se réduit souvent aux termes de parenté et de cuisine. Distinct du chaoshan continental (nan_te), du teochew de Singapour (nan_sg) et du teochew d'Indonésie (nan_id).",
-      "it": "Teochew (min nan di Chaozhou) parlato dalla diaspora sino-thai — soprattutto dalla comunità della Chinatown di Yaowarat a Bangkok. Circa il 56 % dei quasi 9 milioni di sino-thai è di origine teochew; storicamente la varietà cinese più importante in Thailandia. Sulla base del teochew di Chaozhou-Shantou (Chaoshan) della Cina continentale, con cambiamenti sistematici per substrato thai: il sistema a 8 toni converge verso i 5 toni del thai, /ɯ/ non arrotondato si sposta a /ɤ/ (魚 hɯ→hɤ), le implosive /b/, /g/ si neutralizzano in /p/, /k/ sorde non aspirate alla thai, le code -p/-t/-k si indeboliscono in occlusione glottale /ʔ/, contrasto VOT alla thai/inglese, frequente code-switching con particelle di cortesia thai (ครับ/ค่ะ). Dalla 3ª generazione in poi resta spesso solo il lessico di parentela e cucina. Distinto dal chaoshan continentale (nan_te), dal teochew di Singapore (nan_sg) e dal teochew d'Indonesia (nan_id).",
-      "es": "Teochew (min nan de Chaozhou) hablado por la diáspora sino-tailandesa — sobre todo la comunidad del barrio chino de Yaowarat en Bangkok. Aproximadamente el 56 % de los unos 9 millones de sino-tailandeses son de origen teochew; históricamente la variedad china más importante en Tailandia. Sobre la base del teochew de Chaozhou-Shantou (Chaoshan) de China continental, con cambios sistemáticos por sustrato tailandés: el sistema de 8 tonos converge hacia los 5 tonos del tailandés, /ɯ/ no redondeado se desplaza a /ɤ/ (魚 hɯ→hɤ), las implosivas /b/, /g/ se neutralizan en /p/, /k/ sordas no aspiradas a la tailandesa, las codas -p/-t/-k se debilitan a oclusiva glotal /ʔ/, contraste VOT a la tailandesa/inglesa, frecuente alternancia de código con partículas de cortesía tailandesas (ครับ/ค่ะ). A partir de la 3ª generación suele quedar solo léxico de parentesco y cocina. Distinto del chaoshan continental (nan_te), del teochew de Singapur (nan_sg) y del teochew de Indonesia (nan_id).",
-      "pt": "Teochew (min nan de Chaozhou) falado pela diáspora sino-tailandesa — sobretudo a comunidade do bairro chinês de Yaowarat em Banguecoque. Cerca de 56 % dos aproximadamente 9 milhões de sino-tailandeses são de origem teochew; historicamente a variedade chinesa mais importante na Tailândia. Com base no teochew de Chaozhou-Shantou (Chaoshan) da China continental, com alterações sistemáticas por substrato tailandês: o sistema de 8 tons converge para os 5 tons do tailandês, /ɯ/ não arredondado desloca-se para /ɤ/ (魚 hɯ→hɤ), as implosivas /b/, /g/ neutralizam-se em /p/, /k/ surdas não aspiradas à tailandesa, as codas -p/-t/-k enfraquecem para oclusiva glotal /ʔ/, contraste VOT à tailandesa/inglesa, code-switching frequente com partículas de cortesia tailandesas (ครับ/ค่ะ). A partir da 3ª geração mantém-se sobretudo léxico de parentesco e culinária. Distinto do chaoshan continental (nan_te), do teochew de Singapura (nan_sg) e do teochew da Indonésia (nan_id).",
-      "ru": "Чаочжоуский (миньнаньский Чаочжоу) тайских китайцев — прежде всего общины Чайнатауна Яоварат в Бангкоке. Около 56 % примерно из 9 млн тайских китайцев — теочью по происхождению, исторически важнейшая китайская разновидность в Таиланде. На основе материкового чаочжоу-шаньтоу (чаошань) с систематическими изменениями под влиянием тайского субстрата: восьмитоновая система сводится к пятитоновой тайской, нелабиализованный /ɯ/ сдвигается в /ɤ/ (魚 hɯ→hɤ), имплозивы /b/, /g/ нейтрализуются в тайские глухие непридыхательные /p/, /k/, конечные -p/-t/-k ослабляются до глоттального смыкания /ʔ/, противопоставление VOT тайско-английского типа, частое кодовое переключение с тайскими частицами вежливости (ครับ/ค่ะ). С 3-го поколения часто сохраняется только лексика родства и кухни. Самостоятельная ветвь по отношению к материковому чаошаню (nan_te), сингапурскому теочью (nan_sg) и индонезийскому теочью (nan_id).",
-      "uk": "Чаочжоуська (міньнаньська чаочжоу) тайських китайців — насамперед громади Чайнатауна Яоварат у Бангкоці. Близько 56 % приблизно з 9 млн тайських китайців — теочью за походженням, історично найважливіша китайська різновидність у Таїланді. На основі материкового чаочжоу-шаньтоу (чаошань) із систематичними змінами під впливом тайського субстрату: восьмитонова система зводиться до п'ятитонової тайської, нелабіалізований /ɯ/ зсувається в /ɤ/ (魚 hɯ→hɤ), імплозиви /b/, /g/ нейтралізуються в тайські глухі непридихові /p/, /k/, кінцеві -p/-t/-k послаблюються до глотального змикання /ʔ/, протиставлення VOT тайсько-англійського типу, часте кодове перемикання з тайськими частками ввічливості (ครับ/ค่ะ). З 3-го покоління часто залишається лише лексика спорідненості та кухні. Самостійна гілка щодо материкового чаошаню (nan_te), сінгапурського теочью (nan_sg) і індонезійського теочью (nan_id).",
-      "ar": "تيوتشو (مين نان من تشاوتشو) للجالية الصينية في تايلاند — خاصة مجتمع الحي الصيني ياووارات في بانكوك. نحو 56% من قرابة 9 ملايين صيني تايلاندي من أصل تيوتشو، وكانت تاريخياً أبرز نسخة صينية في تايلاند. تستند إلى تيوتشو تشاوتشو-شانتو (تشاوشان) في البر الرئيسي، مع تغييرات منهجية بسبب الركيزة التايلندية: انخفاض النبرات من 8 إلى 5 على نمط تايلاندي، تحول /ɯ/ غير المُدوَّر إلى /ɤ/ (魚 hɯ→hɤ)، انحلال الانفجاريات الداخلية /b/، /g/ إلى /p/، /k/ تايلندية مهموسة غير منفوخة، إضعاف -p/-t/-k النهائية إلى انغلاق حلقي /ʔ/، تباين VOT على النمط التايلندي/الإنجليزي، وكثرة الانتقال الرمزي مع جسيمات الأدب التايلندية (ครับ/ค่ะ). من الجيل الثالث فما بعد يبقى عادةً معجم القرابة والمأكولات فقط. مستقل عن تشاوشان البر الرئيسي (nan_te)، وتيوتشو سنغافورة (nan_sg)، وتيوتشو إندونيسيا (nan_id).",
-      "he": "טיוצ'ו (מין נאן של צ'אוצ'ואו) של הסינים-תאילנדים — בעיקר קהילת הצ'יינטאון יאוואראט בבנגקוק. כ-56% מבין כ-9 מיליון סינים-תאילנדים הם ממוצא טיוצ'ו, ומבחינה היסטורית זוהי הזן הסיני החשוב ביותר בתאילנד. על בסיס טיוצ'ו של צ'אוצ'ואו-שאנטו (צ'אושאן) ביבשת סין, עם שינויים שיטתיים בעקבות התשתית התאית: מערכת 8 הטונים מתכווצת לחמשת הטונים התאיים, /ɯ/ לא מעוגל זז ל-/ɤ/ (魚 hɯ→hɤ), אימפלוסיביים /b/, /g/ מתנטרלים ל-/p/, /k/ אטומים בלתי-נשופים בסגנון תאי, סיומות -p/-t/-k נחלשות לפיצוץ גלוטלי /ʔ/, ניגוד VOT בסגנון תאי/אנגלי, ולעיתים קרובות החלפת קוד עם חלקיקי נימוס תאיים (ครับ/ค่ะ). מהדור השלישי ואילך לרוב נשארת רק אוצר מילים של קרובי משפחה ומאכלים. נפרד מצ'אושאן היבשתי (nan_te), טיוצ'ו של סינגפור (nan_sg), וטיוצ'ו של אינדונזיה (nan_id).",
-      "sw": "Kiteochew (Kichaoshou Min Nan) cha Wachina-Wathai — hasa jamii ya Chinatown ya Yaowarat huko Bangkok. Karibu 56% ya takriban Wachina-Wathai milioni 9 wana asili ya Teochew, na kihistoria ni aina muhimu zaidi ya Kichina nchini Thailand. Kwa msingi wa Teochew ya Chaozhou-Shantou (Chaoshan) ya China bara, ikiwa na mabadiliko ya kimfumo kutokana na msingi wa Kithai: mfumo wa toni 8 unapungua kuwa toni 5 za Kithai, /ɯ/ isiyozungushwa midomo inahamia /ɤ/ (魚 hɯ→hɤ), vituo vya implosive /b/, /g/ vinaungana kuwa /p/, /k/ vya Kithai vya bila sauti na bila pumzi, mwisho wa -p/-t/-k unapungua kuwa mfungaji wa glotali /ʔ/, tofauti za VOT za mtindo wa Kithai/Kiingereza, na ubadilishaji wa mara kwa mara wa msimbo na chembe za heshima za Kithai (ครับ/ค่ะ). Kuanzia kizazi cha 3 na kuendelea kwa kawaida hubaki tu msamiati wa ujamaa na chakula. Tofauti na Chaoshan ya bara (nan_te), Teochew ya Singapore (nan_sg), na Teochew ya Indonesia (nan_id)."
-    },
-    "sources": [
-      "Wikipedia: Thai Chinese (en.wikipedia.org/wiki/Thai_Chinese) — 56% Teochew, Yaowarat community, language shift",
-      "Wikipedia: Teochew dialect / Peng'im romanization (LSGGDB 1960)",
-      "Smalley, William A. 'Linguistic Diversity and National Unity: Language Ecology in Thailand' (University of Chicago Press 1994)",
-      "Tong, Chee Kiong & Chan, Kwok Bun 'Alternate Identities: The Chinese of Contemporary Thailand' (Brill 2001)"
-    ],
-    "romanization": {
-      "name": "Peng'im (Guangdong Province 1960) — Thai-Teochew approximation",
-      "authority": "Guangdong Province Education Department / Thai-heritage speaker approximation",
-      "year": 1960
-    },
+    "reading_type": {"en": "Teochew — Bangkok", "ja": "潮州語（バンコク）", "ko": "차오저우어 (방콕)", "zh": "潮州话（曼谷）", "yue": "潮州話（曼谷）", "vi": "Tiếng Triều Châu (Bangkok)", "th": "ภาษาแต้จิ๋ว (กรุงเทพฯ)", "id": "Teochew (Bangkok)", "hi": "त्योचेव (बैंकॉक)", "de": "Teochew (Bangkok)", "fr": "teochew (Bangkok)", "it": "teochew (Bangkok)", "es": "teochew (Bangkok)", "pt": "teochew (Bangkok)", "ru": "Чаочжоуский (Бангкок)", "uk": "Чаочжоуська (Бангкок)", "ar": "تيوتشو (بانكوك)", "he": "טיוצ'ו (בנגקוק)", "sw": "Kiteochew (Bangkok)"},
+    "description": {"en": "Teochew (Chaozhou Min Nan) as spoken in Bangkok; Teochew is the Chinese variety of most Thai Chinese. Readings come from the 小學堂閩語資料庫 曼谷(潮州話) point, whose only listed Thailand source is 陳曉錦《泰國的三個漢語方言》(2010); the database gives no page numbers, and 山, 頭 and 羊 are left empty until the printed book is checked. 8 tones, the same values as Chaozhou city: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Voiced initials are kept (馬 be, 牛 gu, 二 zi), as are nasal vowels (三 sã) and final -p (十 sip).", "ja": "バンコクで話される潮州語（閩南語潮州方言）。タイ華人の多くは潮州系である。読みは小學堂閩語資料庫 曼谷(潮州話)の地点に拠り、同データベースが挙げるタイの資料は陳曉錦《泰國的三個漢語方言》(2010)のみである。データベースに頁番号はなく、山・頭・羊は刊本を確認するまで空欄とする。声調は8つで、潮州市と同じ値：陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5。有声の頭子音が保たれ（馬 be、牛 gu、二 zi）、鼻音化母音（三 sã）と末子音 -p（十 sip）も残る。", "ko": "방콕에서 쓰이는 차오저우어(민난어 차오저우 방언). 태국 화교 대다수는 차오저우계이다. 독음은 小學堂閩語資料庫 曼谷(潮州話) 지점에서 가져왔으며, 이 데이터베이스가 드는 태국 자료는 陳曉錦《泰國的三個漢語方言》(2010) 하나뿐이다. 데이터베이스에 쪽 번호는 없고, 山·頭·羊은 인쇄본을 확인할 때까지 비워 둔다. 성조는 8개로 차오저우시와 값이 같다: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. 유성 두음이 유지되고(馬 be, 牛 gu, 二 zi), 비모음(三 sã)과 말음 -p(十 sip)도 남아 있다.", "zh": "曼谷通行的潮州话（闽南语潮州片）；泰国华人多为潮州籍。读音取自小學堂閩語資料庫 曼谷(潮州話)点，该库所列泰国资料仅陳曉錦《泰國的三個漢語方言》(2010)一种；数据库未注页码，山、頭、羊在核对印本前暂缺。共8个声调，调值与潮州市相同：陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5。保留浊声母（馬 be、牛 gu、二 zi），也保留鼻化元音（三 sã）和 -p 韵尾（十 sip）。", "yue": "曼谷講嘅潮州話（閩南語潮州片）；泰國華人大多係潮州籍。讀音取自小學堂閩語資料庫 曼谷(潮州話)點，個資料庫列出嘅泰國資料得陳曉錦《泰國的三個漢語方言》(2010)一種；資料庫冇註頁碼，山、頭、羊喺核對印本之前暫時留空。共有8個聲調，調值同潮州市一樣：陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5。保留濁聲母（馬 be、牛 gu、二 zi），亦保留鼻化元音（三 sã）同 -p 韻尾（十 sip）。", "vi": "Tiếng Triều Châu (Mân Nam Triều Châu) nói ở Bangkok; phần lớn người Hoa ở Thái Lan gốc Triều Châu. Cách đọc lấy từ điểm 小學堂閩語資料庫 曼谷(潮州話), cơ sở dữ liệu này chỉ liệt kê một nguồn về Thái Lan là 陳曉錦《泰國的三個漢語方言》(2010); cơ sở dữ liệu không ghi số trang, và 山, 頭, 羊 để trống cho đến khi đối chiếu bản in. Có 8 thanh, giá trị giống thành phố Triều Châu: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Phụ âm đầu hữu thanh được giữ (馬 be, 牛 gu, 二 zi), cùng nguyên âm mũi (三 sã) và âm cuối -p (十 sip).", "th": "ภาษาแต้จิ๋ว (หมิ่นหนานสายแต้จิ๋ว) ที่พูดในกรุงเทพฯ ชาวจีนในไทยส่วนใหญ่มีเชื้อสายแต้จิ๋ว การอ่านมาจากจุด 小學堂閩語資料庫 曼谷(潮州話) ซึ่งฐานข้อมูลนี้ระบุแหล่งข้อมูลของไทยไว้เพียงเล่มเดียวคือ 陳曉錦《泰國的三個漢語方言》(2010) ฐานข้อมูลไม่ให้เลขหน้า และ 山 頭 羊 เว้นว่างไว้จนกว่าจะตรวจกับฉบับพิมพ์ มี 8 วรรณยุกต์ ค่าเดียวกับเมืองแต้จิ๋ว: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5 พยัญชนะต้นก้องยังคงอยู่ (馬 be, 牛 gu, 二 zi) รวมทั้งสระนาสิก (三 sã) และพยัญชนะท้าย -p (十 sip)", "id": "Teochew (Min Nan Chaozhou) sebagaimana dituturkan di Bangkok; sebagian besar Tionghoa Thailand berketurunan Teochew. Bacaan diambil dari titik 小學堂閩語資料庫 曼谷(潮州話), yang satu-satunya sumber Thailand dalam daftarnya adalah 陳曉錦《泰國的三個漢語方言》(2010); basis data tidak mencantumkan nomor halaman, dan 山, 頭, 羊 dikosongkan sampai buku cetaknya diperiksa. 8 nada, nilainya sama dengan kota Chaozhou: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Konsonan awal bersuara dipertahankan (馬 be, 牛 gu, 二 zi), begitu pula vokal sengau (三 sã) dan akhiran -p (十 sip).", "hi": "बैंकॉक में बोली जाने वाली त्योचेव (चाओझोउ मिन नान); अधिकांश थाई चीनी त्योचेव मूल के हैं। उच्चारण 小學堂閩語資料庫 曼谷(潮州話) बिंदु से लिए गए हैं, जिस डेटाबेस में थाईलैंड का एकमात्र सूचीबद्ध स्रोत 陳曉錦《泰國的三個漢語方言》(2010) है; डेटाबेस पृष्ठ संख्या नहीं देता, और 山, 頭 व 羊 मुद्रित पुस्तक से मिलान होने तक खाली छोड़े गए हैं। 8 स्वर, मान चाओझोउ शहर जैसे ही: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5। सघोष आद्य व्यंजन बने रहते हैं (馬 be, 牛 gu, 二 zi), साथ ही अनुनासिक स्वर (三 sã) और अंतिम -p (十 sip) भी।", "de": "Teochew (Chaozhou-Min-Nan), wie es in Bangkok gesprochen wird; die meisten Thai-Chinesen sind teochewstämmig. Die Lesungen stammen vom Punkt 小學堂閩語資料庫 曼谷(潮州話), dessen einzige aufgeführte Thailand-Quelle 陳曉錦《泰國的三個漢語方言》(2010) ist; die Datenbank nennt keine Seitenzahlen, und 山, 頭 und 羊 bleiben leer, bis das gedruckte Buch geprüft ist. 8 Töne, mit denselben Werten wie in der Stadt Chaozhou: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Stimmhafte Anlaute bleiben erhalten (馬 be, 牛 gu, 二 zi), ebenso Nasalvokale (三 sã) und auslautendes -p (十 sip).", "fr": "Le teochew (min nan de Chaozhou) tel qu'il est parlé à Bangkok ; la plupart des Sino-Thaïlandais sont d'origine teochew. Les lectures viennent du point 小學堂閩語資料庫 曼谷(潮州話), dont la seule source listée pour la Thaïlande est 陳曉錦《泰國的三個漢語方言》(2010) ; la base ne donne pas de numéros de page, et 山, 頭 et 羊 restent vides jusqu'à vérification du livre imprimé. 8 tons, aux mêmes valeurs que la ville de Chaozhou : 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Les initiales sonores sont conservées (馬 be, 牛 gu, 二 zi), de même que les voyelles nasales (三 sã) et la finale -p (十 sip).", "it": "Il teochew (min nan di Chaozhou) parlato a Bangkok; la maggior parte dei cinesi di Thailandia è di origine teochew. Le letture provengono dal punto 小學堂閩語資料庫 曼谷(潮州話), la cui unica fonte elencata per la Thailandia è 陳曉錦《泰國的三個漢語方言》(2010); la banca dati non indica i numeri di pagina, e 山, 頭 e 羊 restano vuoti finché non si controlla il libro stampato. 8 toni, con gli stessi valori della città di Chaozhou: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Le iniziali sonore si conservano (馬 be, 牛 gu, 二 zi), come pure le vocali nasali (三 sã) e la finale -p (十 sip).", "es": "El teochew (min nan de Chaozhou) tal como se habla en Bangkok; la mayoría de los chinos de Tailandia son de origen teochew. Las lecturas proceden del punto 小學堂閩語資料庫 曼谷(潮州話), cuya única fuente listada para Tailandia es 陳曉錦《泰國的三個漢語方言》(2010); la base de datos no da números de página, y 山, 頭 y 羊 quedan vacíos hasta cotejar el libro impreso. 8 tonos, con los mismos valores que la ciudad de Chaozhou: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Se conservan las iniciales sonoras (馬 be, 牛 gu, 二 zi), así como las vocales nasales (三 sã) y la final -p (十 sip).", "pt": "O teochew (min nan de Chaozhou) falado em Bangkok; a maioria dos chineses da Tailândia é de origem teochew. As leituras vêm do ponto 小學堂閩語資料庫 曼谷(潮州話), cuja única fonte listada para a Tailândia é 陳曉錦《泰國的三個漢語方言》(2010); a base de dados não indica números de página, e 山, 頭 e 羊 ficam vazios até que o livro impresso seja conferido. 8 tons, com os mesmos valores da cidade de Chaozhou: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. As iniciais sonoras mantêm-se (馬 be, 牛 gu, 二 zi), assim como as vogais nasais (三 sã) e a final -p (十 sip).", "ru": "Чаошаньский (чаочжоуский миньнань) в том виде, как на нём говорят в Бангкоке; большинство тайских китайцев — выходцы из Чаочжоу. Чтения взяты из пункта 小學堂閩語資料庫 曼谷(潮州話); единственный источник по Таиланду в списке этой базы — 陳曉錦《泰國的三個漢語方言》(2010). База не указывает номеров страниц, а 山, 頭 и 羊 оставлены пустыми до сверки с печатной книгой. 8 тонов, с теми же значениями, что в городе Чаочжоу: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Звонкие инициали сохраняются (馬 be, 牛 gu, 二 zi), как и носовые гласные (三 sã) и конечный -p (十 sip).", "uk": "Чаошаньська (чаочжоуська міньнань) у тому вигляді, як нею говорять у Бангкоку; більшість тайських китайців походять із Чаочжоу. Читання взято з пункту 小學堂閩語資料庫 曼谷(潮州話); єдине джерело щодо Таїланду в списку цієї бази — 陳曉錦《泰國的三個漢語方言》(2010). База не вказує номерів сторінок, а 山, 頭 і 羊 залишено порожніми до звіряння з друкованою книгою. 8 тонів, із тими самими значеннями, що в місті Чаочжоу: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Дзвінкі ініціалі зберігаються (馬 be, 牛 gu, 二 zi), як і носові голосні (三 sã) та кінцевий -p (十 sip).", "ar": "لهجة تيوتشو (مين نان تشاوتشو) كما يُتحدَّث بها في بانكوك؛ ومعظم الصينيين في تايلاند من أصل تيوتشو. القراءات مأخوذة من نقطة 小學堂閩語資料庫 曼谷(潮州話)، ومصدرها الوحيد المُدرج عن تايلاند هو 陳曉錦《泰國的三個漢語方言》(2010)؛ ولا تذكر قاعدة البيانات أرقام الصفحات، وتُركت 山 و頭 و羊 فارغة حتى تُراجع النسخة المطبوعة. 8 نغمات بالقيم نفسها في مدينة تشاوتشو: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. تبقى الصوامت الأولى المجهورة (馬 be، 牛 gu، 二 zi)، وكذلك الصوائت الأنفية (三 sã) والخاتمة -p (十 sip).", "he": "טיוצ'ו (מין נאן של צ'אוג'ואו) כפי שהיא מדוברת בבנגקוק; רוב הסינים בתאילנד הם ממוצא טיוצ'ו. ההגיות לקוחות מהנקודה 小學堂閩語資料庫 曼谷(潮州話), שהמקור היחיד הרשום בה לתאילנד הוא 陳曉錦《泰國的三個漢語方言》(2010); מסד הנתונים אינו מציין מספרי עמודים, ו־山, 頭 ו־羊 נותרו ריקים עד לבדיקת הספר המודפס. 8 טונים, באותם ערכים כמו בעיר צ'אוג'ואו: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. העיצורים הקוליים בפתח ההברה נשמרים (馬 be, 牛 gu, 二 zi), וכך גם תנועות אפיות (三 sã) והסיומת -p (十 sip).", "sw": "Kiteochew (Min Nan ya Chaozhou) kama kinavyozungumzwa Bangkok; Wachina wengi wa Thailand wana asili ya Teochew. Matamshi yametoka kwenye kituo cha 小學堂閩語資料庫 曼谷(潮州話), ambacho chanzo chake pekee kilichoorodheshwa kuhusu Thailand ni 陳曉錦《泰國的三個漢語方言》(2010); hifadhidata haitoi namba za kurasa, na 山, 頭 na 羊 zimeachwa tupu hadi kitabu kilichochapishwa kikaguliwe. Toni 8, zenye thamani sawa na za mji wa Chaozhou: 陰平 33, 陽平 55, 陰上 53, 陽上 35, 陰去 213, 陽去 11, 陰入 2, 陽入 5. Konsonanti za mwanzo zenye sauti zinabaki (馬 be, 牛 gu, 二 zi), pamoja na irabu za pua (三 sã) na kimalizio -p (十 sip)."},
+    "sources":[{"type": "reference", "title": "陳曉錦《泰國的三個漢語方言》(暨南大學出版社 2010), via 小學堂閩語資料庫 point 曼谷(潮州話) (attribution by inference: the database's only Thailand source)"}, {"type": "reference", "title": "Tone values from the same source (陰平=33 陽平=55 陰上=53 陽上=35 陰去=213 陽去=11 陰入=2 陽入=5). Rebuilt 2026-09-30; the earlier provisional readings are withdrawn"}],
+    "romanization":{"name": "IPA segments + superscript tone value (the source has no romanization)", "authority": "小學堂閩語資料庫 — 曼谷(潮州話)", "year": 2026},
     "speakers": "約700万人 (タイ華僑、潮州語含む)",
     "speakersSource": "Wikipedia (英語版「Thai Chinese」, 2026-05-30閲覧)"
   },
@@ -22217,20 +22190,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "lag8",
-        "ipa": "lak̚˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "liog8",
-        "ipa": "liɔk̚˥",
-        "label": "文讀"
-      }
-    ],
     "nan_my": [
       {
         "native": "",
@@ -22679,20 +22638,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "zêg8",
-        "ipa": "tseʔ˥",
-        "label": "訓讀（本字未詳）"
-      },
-      {
-        "native": "",
-        "surface": "ig4",
-        "ipa": "ik̚˨",
-        "label": "文讀"
-      }
-    ],
     "mnp": [
       {
         "native": "",
@@ -22749,20 +22694,6 @@ const HAN_VARIANTS = {
         "surface": "ni",
         "ipa": "ni",
         "label": "呉音 / Go-on"
-      }
-    ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "no6",
-        "ipa": "no˧˥",
-        "label": "訓讀（兩）"
-      },
-      {
-        "native": "",
-        "surface": "ri6",
-        "ipa": "dzi˧˥",
-        "label": "文讀"
       }
     ],
     "cpx": [
@@ -22940,20 +22871,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "sam³",
         "ipa": "sam˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "sã1",
-        "ipa": "sã˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "sam1",
-        "ipa": "sam˧",
         "label": "文讀"
       }
     ],
@@ -23135,20 +23052,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "ngou6",
-        "ipa": "ŋou˧˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ngou2",
-        "ipa": "ŋou˧˥",
-        "label": "文讀"
-      }
-    ],
     "nan_my": [
       {
         "native": "",
@@ -23288,20 +23191,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "pat",
         "ipa": "pat̚˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "boih4",
-        "ipa": "poiʔ˨",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "bag4",
-        "ipa": "pat̚˨",
         "label": "文讀"
       }
     ],
@@ -23489,20 +23378,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "gao2",
-        "ipa": "kau˧˩",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "giu2",
-        "ipa": "kiu˧˩",
-        "label": "文讀"
-      }
-    ],
     "nan_my": [
       {
         "native": "",
@@ -23684,20 +23559,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "si̍p",
         "ipa": "sip̚˦",
-        "label": "文讀"
-      }
-    ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "zab8",
-        "ipa": "tsap̚˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "sib8",
-        "ipa": "sip̚˥",
         "label": "文讀"
       }
     ],
@@ -24153,20 +24014,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "ghuêh8",
-        "ipa": "ɣueʔ˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "ghuag8",
-        "ipa": "ɣuak̚˥",
-        "label": "文讀"
-      }
-    ],
     "nan_sg": [
       {
         "native": "",
@@ -24320,20 +24167,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "sang1",
         "ipa": "saŋ˧˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "suan1",
-        "ipa": "suã˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "sang1",
-        "ipa": "saŋ˧",
         "label": "文讀"
       }
     ],
@@ -24924,14 +24757,14 @@ const HAN_VARIANTS = {
     "nan_th": [
       {
         "native": "",
-        "surface": "tin1",
-        "ipa": "tʰĩ˧",
+        "surface": "tʰĩ³³",
+        "ipa": "tʰĩ˧˧",
         "label": "白讀"
       },
       {
         "native": "",
-        "surface": "tiang1",
-        "ipa": "tʰiaŋ˧",
+        "surface": "tʰiaŋ³³",
+        "ipa": "tʰiaŋ˧˧",
         "label": "文讀"
       }
     ],
@@ -26299,20 +26132,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "nang5",
-        "ipa": "naŋ˥˥",
-        "label": "訓讀（儂）"
-      },
-      {
-        "native": "",
-        "surface": "zîng5",
-        "ipa": "dziŋ˥˥",
-        "label": "文讀"
-      }
-    ],
     "nan_hai": [
       {
         "native": "",
@@ -26735,6 +26554,20 @@ const HAN_VARIANTS = {
     ]
   },
   "耳": {
+    "nan_th": [
+      {
+        "native": "",
+        "surface": "hi³⁵",
+        "ipa": "hi˧˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "zɤ⁵³",
+        "ipa": "zɤ˥˧",
+        "label": "文讀"
+      }
+    ],
     "msj": [
       {
         "native": "",
@@ -27379,6 +27212,20 @@ const HAN_VARIANTS = {
     ]
   },
   "肉": {
+    "nan_th": [
+      {
+        "native": "",
+        "surface": "baʔ²",
+        "ipa": "baʔ˨",
+        "label": "訓讀（本字未詳）"
+      },
+      {
+        "native": "",
+        "surface": "neʔ⁵",
+        "ipa": "neʔ˥",
+        "label": "文讀"
+      }
+    ],
     "hsn_hy": [
       {
         "native": "",
@@ -27779,20 +27626,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "siên6",
-        "ipa": "sĩẽ˧˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "siang6",
-        "ipa": "siaŋ˧˥",
-        "label": "文讀"
-      }
-    ],
     "nan_sg": [
       {
         "native": "",
@@ -28030,20 +27863,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "hā",
         "ipa": "ha˧˩",
-        "label": "文讀"
-      }
-    ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "ê6",
-        "ipa": "e˧˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "hia6",
-        "ipa": "hia˧˥",
         "label": "文讀"
       }
     ],
@@ -28373,20 +28192,6 @@ const HAN_VARIANTS = {
         "label": "文讀"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "dang1",
-        "ipa": "taŋ˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "dong1",
-        "ipa": "tɔŋ˧",
-        "label": "文讀"
-      }
-    ],
     "nan_sg": [
       {
         "native": "",
@@ -28560,20 +28365,6 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "se",
         "ipa": "se˧˧",
-        "label": "文讀"
-      }
-    ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "sai1",
-        "ipa": "sai˧",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "se1",
-        "ipa": "se˧",
         "label": "文讀"
       }
     ],
@@ -28983,20 +28774,6 @@ const HAN_VARIANTS = {
         "label": "唐音 / Tō-on"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "kiã5",
-        "ipa": "kiã˥˥",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "hêng5",
-        "ipa": "heŋ˥˥",
-        "label": "文讀"
-      }
-    ],
     "nan_sg": [
       {
         "native": "",
@@ -29331,20 +29108,6 @@ const HAN_VARIANTS = {
         "label": "呉音 / Go-on"
       }
     ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "kê3",
-        "ipa": "kʰɯ˥˨",
-        "label": "白讀"
-      },
-      {
-        "native": "",
-        "surface": "khu3",
-        "ipa": "kʰu˥˨",
-        "label": "文讀"
-      }
-    ],
     "nan_id": [
       {
         "native": "",
@@ -29512,14 +29275,14 @@ const HAN_VARIANTS = {
     "nan_th": [
       {
         "native": "",
-        "surface": "giẽn3",
-        "ipa": "kĩẽ˥˨",
+        "surface": "kĩ²¹³",
+        "ipa": "kĩ˨˩˧",
         "label": "白讀"
       },
       {
         "native": "",
-        "surface": "giang3",
-        "ipa": "kiaŋ˥˨",
+        "surface": "kiaŋ²¹³",
+        "ipa": "kiaŋ˨˩˧",
         "label": "文讀"
       }
     ],
@@ -29717,20 +29480,6 @@ const HAN_VARIANTS = {
         "surface": "jiki",
         "ipa": "dʑiki",
         "label": "呉音 / Go-on"
-      }
-    ],
-    "nan_th": [
-      {
-        "native": "",
-        "surface": "ziah8",
-        "ipa": "tsiaʔ˥",
-        "label": "訓讀（本字未詳）"
-      },
-      {
-        "native": "",
-        "surface": "sêg8",
-        "ipa": "sek̚˥",
-        "label": "文讀"
       }
     ],
     "nan_my": [

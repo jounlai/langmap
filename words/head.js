@@ -793,7 +793,7 @@ WORDS.head = {
     dty: ["मुण्डो", "muɳɖo"],
     bra: ["सीस", "siːs"],
     psi: ["شیر", "ʃiːr"],
-    nan_pn: ["頭", "tʰau˨˦"],
+    nan_pn: ["頭", "tʰau˨˧"],
     asu: ["mtwi", "mtwi"],
     izz: ["ishi", "iʃi"],
     urh: ["uyovwi", "ujoβwi"],

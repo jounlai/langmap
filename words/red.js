@@ -1035,7 +1035,7 @@ WORDS.red = {
     ja_sd: ["あがい", "aɡai"],
     ko_hg: ["빨갛다", "p͈alɡatʰa"],
     ko_jl: ["뻘겋다", "p͈ʌlɡʌtʰa"],
-    nan_pn: ["紅", "aŋ˨˨"],
+    nan_pn: ["紅", "aŋ˨˧"],
     mra: ["lɛŋ", "lɛŋ"],
     wuu_nb: ["红", "ɦoŋ˨˨˧"],
     yue_gz: ["红", "hʊŋ˨˩"],

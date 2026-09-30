@@ -127,6 +127,10 @@ const ALLOW = [
   // the class simply does not predict one contour in these two lects.
   { code: /^wuu_jx$/, ch: '雨', why: 'Jiaxing: 五 is 213 and 雨 is 433, both as printed' },
   { code: /^mnp$/,    ch: '雨', why: "Jian'ou: 五 is 42 and 雨 xy- is 55; a 文/白 pair, both printed" },
+  // 2026-09-30 Min audit: in these rows "one" is the colloquial tsi̍t / tsek8,
+  // which Wiktionary files as a separate etymon (alt 蜀) and whose tone is 陽入 —
+  // the character 一 is only its spelling, so its 陰入 class does not apply.
+  { code: /^nan_(te|pn|qz|ph)$/, ch: '一', why: 'colloquial "one" is 蜀-type tsit8 / tsek8 (陽入), not 一 it (陰入)' },
 ];
 
 // The backlog this guard found on the day it was written. Recording it as debt

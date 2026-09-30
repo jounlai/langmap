@@ -1043,7 +1043,7 @@ WORDS.fish = {
     ja_sd: ["さがな", "saɡana"],
     ko_hg: ["물고기", "mulɡoɡi"],
     ko_jl: ["물괴기", "mulɡweɡi"],
-    nan_pn: ["魚", "hu˨˦"],
+    nan_pn: ["魚", "hu˨˧"],
     mra: ["kaʼ", "kaʔ"],
     wuu_nb: ["鱼", "ŋ̍˨˩˧"],
     yue_gz: ["鱼", "jyː˨˩"],

@@ -123,8 +123,8 @@ WORDS.chocolate = {
     // Penang and Singapore, and disagree with 巧克力 next door.
     nan_xm: ["芝居力", "tsi˥˥ ku˥˥ lat˦"],
     nan_qz: ["芝居力", "tsiak˥ ku˧˧ laʔ˨˦"],   // Quanzhou and the Philippines say chiak-ku-la̍h
-    nan_zz: ["芝居力", "tsi˦ ku˦ lat̚˩˨˩"],
-    nan_te: ["朱古力", "tsu˧˧ kou˥˧ lak˥˥"],   // Teochew follows Cantonese here, not its Hokkien neighbours
+    nan_zz: ["芝居力", "tsi˦˦ ku˦˦ lat̚˩˨˩"],
+    nan_te: ["朱古力", "tsu˧˧ kou˥˨ lak˦"],   // Teochew follows Cantonese here, not its Hokkien neighbours
     nan_pn: ["coklat", "tsɔk˥˥ lat˥˥"],       // Penang keeps the Malay spelling and clips it to two syllables
     // Taiwanese REPLACED the Nanyang word rather than never having it:
     // 芝居力茶 chi-ku-la̍t-tê is in 實用日台新語集 (1898) and 芝車力 in 臺灣語典

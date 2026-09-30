@@ -490,7 +490,7 @@ WORDS.heart = {
     dtp_kzj: ['kosingan', 'koˈsiŋan'],
     mez: ['otēh', 'oteːh'],
     nan_xm: ['心', 'sim˥˥'],
-    nan_zz: ['心', 'sim˦'],
+    nan_zz: ["心", "sim˦˦"],
     osa: ['náⁿʒe', 'nã́ʒe'],
     pmy: ['hati', 'ˈhati'],
     pot: ['déh', 'deː'],

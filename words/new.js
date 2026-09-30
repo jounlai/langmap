@@ -539,7 +539,7 @@ WORDS.new = {
     ckv: ["tasu", "tasu"],
     dtp_kzj: ["vagu", "vaɡu"],
     nan_xm: ["新", "sin˥˥"],
-    nan_zz: ["新", "sin˦"],
+    nan_zz: ["新", "sin˦˦"],
     pzh: ["xias", "xias"],
     zh_cd: ["新", "ɕin˥˥"],
     ltg: ["jauns", "ˈjauns"],

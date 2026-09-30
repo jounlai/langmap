@@ -216,7 +216,7 @@ WORDS.silk = {
     nan_qz: ["絲", "si˧˧"],
     nan_te: ["丝", "si˧˧"],
     nan_xm: ["絲", "si˥˥"],
-    nan_zz: ["絲", "si˦"],
+    nan_zz: ["絲", "si˦˦"],
     nap: ["seta", "ˈsetə"],
     niv: ["чарб", "tʃʰarb"],
     nn: ["silke", "ˈsɪlkə"],

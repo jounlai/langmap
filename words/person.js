@@ -575,7 +575,7 @@ WORDS.person = {
     en_yk: ["person", "ˈpɜːsən"],
     en_ck: ["person", "ˈpɜːsən"],
     en_scouse: ["person", "ˈpɜːsən"],
-    nan_pn: ["人", "laŋ˨˨"],
+    nan_pn: ["人", "laŋ˨˧"],
     zh_lz: ["人", "ʐən˥˧"],
     wuu_nb: ["人", "ȵin˨˩˧"],
     wuu_sz: ["人", "ȵin˨˨˧"],

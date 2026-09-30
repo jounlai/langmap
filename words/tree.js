@@ -1109,7 +1109,7 @@ WORDS.tree = {
     ja_sd: ["木", "ki"],
     ko_hg: ["나무", "namu"],
     ko_jl: ["나무", "namu"],
-    nan_pn: ["樹", "tsʰiu˩˩"],
+    nan_pn: ["樹", "tsʰiu˨˩"],
     mra: ["tɔn", "tɔn"],
     wuu_nb: ["树", "zɿ˨˧"],
     yue_gz: ["树", "sy˨˨"],

@@ -491,7 +491,7 @@ WORDS.drink = {
     dtp_kzj: ['monginum', 'moˈŋinum'],
     mez: ['menew', 'menew'],
     nan_xm: ['啉', 'lim˦'],
-    nan_zz: ['啉', 'lim˦'],
+    nan_zz: ["啉", "lim˦˦"],
     osa: ['iðátʰǫ', 'iðátʰũ'],
     pmy: ['minum', 'ˈminum'],
     pot: ['mnëkwé', 'mnəkwe'],

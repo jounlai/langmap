@@ -487,7 +487,7 @@ WORDS.cat = {
     dtp_kzj: ['tusing', 'ˈtusiŋ'],
     mez: ['—', '—'],
     nan_xm: ['貓', 'niau˦'],
-    nan_zz: ['貓', 'niau˦'],
+    nan_zz: ["貓", "niãu˦˦"],
     osa: ['įgðǫíka', 'ĩɡðũíka'],
     pmy: ['kucing', 'ˈkutʃiŋ'],
     pot: ['gazhag', 'ɡaʒaɡ'],
@@ -861,7 +861,7 @@ WORDS.cat = {
     ks: ["براري", "braːriː"],
     kok: ["माजर", "maːdʒəɾ"],
     mnp: ["猫唧", "miau˥˦ tsi˨˦"],
-    nan_te: ["猫", "niau˧˧"],
+    nan_te: ["猫", "ŋiau˧˧"],
     yue_ts: ["猫", "miau˨˨"],
     czh: ["猫", "mau˧˧"],
     cnp: ["猫", "mau˦˦"],
@@ -1170,7 +1170,7 @@ WORDS.cat = {
     hak_tw: ["貓仔", "meu˨˦ e˧˩"],
     wuu_sz: ["猫", "mɐ˨˨˧"],
     wuu_wz: ["猫", "mau˧˧"],
-    nan_qz: ["貓", "niau˨˨"],
+    nan_qz: ["貓", "niãu˧˧"],
     nan_hai: ["猫", "niau˨˦"],
     zh_wh: {
       form: "猫子",
@@ -1249,6 +1249,6 @@ WORDS.cat = {
     lep: ["ᰣᰦᰜᰤᰫ", "ʔalju"],
     mhy: ["using", "using"],
     gsw_als: ["Kàtz", "kʰɒts"],
-    nan_ph: ["貓", "niau˧˧"]
+    nan_ph: ["貓", "niãu˧˧"]
   },
 };

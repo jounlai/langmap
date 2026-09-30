@@ -857,7 +857,7 @@ WORDS.one = {
     ks: ["اَکھ", "akʰ"],
     kok: ["एक", "eːk"],
     mnp: ["一", "i˦˦"],
-    nan_te: ["一", "tsek˨˨"],
+    nan_te: ["一", "tsek˦"],
     yue_ts: ["一", "it˥˥"],
     czh: ["一", "iʔ˨˦"],
     cnp: ["一", "jɐt˨"],
@@ -1101,7 +1101,7 @@ WORDS.one = {
     ja_sd: ["一っつ", "hitottsɯ"],
     ko_hg: ["한나", "hanːa"],
     ko_jl: ["하나", "hana"],
-    nan_pn: ["一", "tsit˥˥"],
+    nan_pn: ["一", "tsit˦"],
     mra: ["mɔy", "mɔi"],
     wuu_nb: ["一", "iʔ˥˥"],
     yue_gz: ["一", "jɐt˥˥"],
@@ -1185,7 +1185,7 @@ WORDS.one = {
     hak_tw: ["一", "jit˨"],
     wuu_sz: ["一", "iəʔ˥"],
     wuu_wz: ["一", "ʔjiai˧˩˧"],
-    nan_qz: ["一", "it˥"],
+    nan_qz: ["一", "tsit˨˦"],
     nan_hai: ["一", "it˥˥"],
     zh_wh: ["一", "i˨˩˧"],
     zh_zz: ["一", "i˨˦"],
@@ -1261,6 +1261,6 @@ WORDS.one = {
     lep: ["ᰀᰦᰳ", "kat"],
     mhy: ["isaʔ", "isaʔ"],
     gsw_als: ["eins", "eins"],
-    nan_ph: ["一", "it˥"]
+    nan_ph: ["一", "tsit˨˦"]
   },
 };

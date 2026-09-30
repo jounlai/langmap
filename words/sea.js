@@ -473,7 +473,7 @@ WORDS.sea = {
     en_ck: ["sea", "siː"],
     en_scouse: ["sea", "siː"],
     es_an: ["mar", "maɾ"],
-    nan_pn: ["海", "hai˥˧"],
+    nan_pn: ["海", "hai˦˦˥"],
     zh_jn: ["海", "xai˥˥"],
     zh_km: ["海", "xai˥˧"],
     zh_xa: ["海", "xai˥˧"],

@@ -601,7 +601,7 @@ WORDS.wind = {
     nan_pn: ["風", "hɔŋ˧˧"],
     nan_qz: ["風", "huaŋ˧˧"],
     nan_zz: ["風", "hɔŋ˦˦"],
-    cpx: ["风", "hɒŋ˥˧˧"],
+    cpx: ["风", "puei˥˧˧"],
     yue_dg: ["风", "foŋ˥˥"],
     yue_nn: ["风", "fuŋ˥˥"],
     yue_zs: ["風", "hoŋ˥˥"],

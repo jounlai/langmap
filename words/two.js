@@ -1179,7 +1179,7 @@ WORDS.two = {
       zh_wh: ["二", "ɯ˧˥"],
       zh_zz: ["二", "ə˧˩˨"],
       hak_hl: ["二", "ŋi˧˧"],
-      cpx: ["二", "ni˩˩"],
+      cpx: ["二", "ti˩˩"],
       mfa: ["duo", "duɔ"],
       mtq: ["hal", "haːl"],
       tyz: ["sloong", "ɬɔːŋ˧˧"],

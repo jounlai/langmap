@@ -470,7 +470,7 @@ WORDS.butterfly = {
     yao: ["chipuluputwa", "tʃipuluputwa"],
     kde: ["imbulukuta", "imbulukuta"],
     hak_tw: ["揚蝶仔", "ioŋ˩˩ iak̚˥ e˧˩"],
-    cpx: ["蚨蝶", "pɔu˩˧ iaʔ˥˥"],
+    cpx: ["模蝶", "pɔu˩˧ tiaʔ˦"],
     laj: ["kapwopwo", "kapwopwo"],
     cgg: ["ekinyugunyugu", "etʃiɲuɡuɲuɡu"],
     ssw: ["luvivane", "luvivane"],

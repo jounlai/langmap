@@ -1112,7 +1112,7 @@ WORDS.three = {
     zh_wh: ["三", "san˥˥"],
     zh_zz: ["三", "san˨˦"],
     hak_hl: ["三", "sam˥˧"],
-    cpx: ["三", "ɬaŋ˥˧"],
+    cpx: ["三", "ɬɒ˥˧˧"],
     mfa: ["tigo", "tiɡo"],
     mtq: ["pa", "paː"],
     tyz: ["slam", "ɬaːm˧˧"],

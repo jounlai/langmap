@@ -864,7 +864,7 @@ WORDS.good = {
     bgc: ["चोखा", "tʃoːkʰaː"],
     ks: ["خۄب", "xuːb"],
     kok: ["बरो", "bəɾo"],
-    mnp: ["好", "hau˨˩"],
+    mnp: ["好", "xau˨˩"],
     nan_te: ["好", "ho˥˨"],
     yue_ts: ["好", "hau˧˧"],
     czh: ["好", "hau˦˦"],

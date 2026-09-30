@@ -345,7 +345,7 @@ WORDS.poop = {
     ban: ["tai", "tai"],
     war: ["tae", "taʔe"],
     bgc: ["टट्टी", "ʈəʈːiː"],
-    mnp: ["屎", "sai˨˩"],
+    mnp: ["屎", "si˨˩"],
     nan_te: ["屎", "sai˥˨"],
     yue_ts: ["屎", "ɬi˧˧"],
     zh_jh: ["屎", "ʂʅ˨˩˦"],

@@ -803,7 +803,7 @@ WORDS.hundred = {
     hak_hl: ["百", "pak̚˨˨"],
     nan_pn: ["百", "paʔ˧"],
     mnp: ["百", "pa˨˦"],
-    cpx: ["百", "paʔ˥˥"],
+    cpx: ["百", "pa˩˩"],
     // --- Late additions ----------------------------------------------------
     lo: ["ຮ້ອຍ", "hɔːj˥˨"],
     gd: ["ceud", "kʰʲiət"],   // the Goidelic céad again

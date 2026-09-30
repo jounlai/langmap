@@ -1005,7 +1005,7 @@ WORDS.daughter = {
     bgq: ["बेटी", "beːʈiː"],
     kg: ["mwana ya nkento", "mwana ja nkento"],
     snk: ["renyaxare", "renjaxare"],
-    cpx: ["婶娘囝", "ɬiŋ˦˥˧ niau˩˧ kyɒ˦˥˧"],
+    cpx: ["婶娘囝", "ɬiŋ˦˥˧ nieu˩˧ kyɒ˦˥˧"],
     bug: ["anaʼ makkunrai", "anaʔ makːunrai"],
     hmn: ["ntxhais", "ⁿtsʰai˨˩"],
     wbm: ["kawn bun", "kɔn bun"],

@@ -968,7 +968,7 @@ WORDS.sleep = {
     snk: ["xenqe", "xeŋqe"],
     yue_ts: ["瞓觉", "fun˧˧ kau˧˧"],
     czh: ["困觉", "kʰuɑ̃˦˦ kɤ˦˦"],
-    cpx: ["睏", "kʰɔŋ˦˩"],
+    cpx: ["睏", "kʰɔŋ˦˨"],
     nyn: ["kubyama", "kubjama"],
     cgg: ["kubyama", "kubjama"],
     xog: ["kutenduka", "kutenduka"],

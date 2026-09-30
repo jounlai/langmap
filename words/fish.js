@@ -1120,7 +1120,7 @@ WORDS.fish = {
     zh_wh: ["鱼", "y˨˩˧"],
     zh_zz: ["鱼", "y˦˨"],
     hak_hl: ["魚", "ŋ˥˥"],
-    cpx: ["鱼", "ŋy˩˧"],
+    cpx: ["鱼", "hy˩˧"],
     mfa: ["ikan", "ˈikɛ"],
     mtq: ["cá", "kaː"],
     tyz: ["pya", "pjaː˧˧"],

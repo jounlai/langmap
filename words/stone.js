@@ -981,7 +981,7 @@ WORDS.stone = {
     mer: ["iiga", "iːɡa"],
     yue_ts: ["石牯", "siak̚˨˩ ku˥˥"],
     czh: ["石头", "ɕieʔ˨˧ tʰəu"],
-    cpx: ["石头", "ɬiau˩˧ tʰau˧˧"],
+    cpx: ["石头", "ɬieu˩˧ tʰau˩˧"],
     din: ["kuur", "kuːr"],
     laj: ["gweŋ", "ɡweŋ"],
     fon: ["awǐnnya", "awĩ̌ɲa"],

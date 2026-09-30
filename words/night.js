@@ -794,7 +794,7 @@ WORDS.night = {
     bgc: ["रात", "raːt"],
     ks: ["رات", "raːtʰ"],
     kok: ["रात", "raːt"],
-    mnp: ["暝", "maŋ˧˧"],
+    mnp: ["暗暝", "ɔŋ˧˧ maŋ˧˧"],
     nan_te: ["暝旰", "me˥˥ kua˨˩˧"],
     yue_ts: ["夜晚", "jɛ˧˨ man˧˧"],
     czh: ["夜里", "ia˨˩ li˦˦"],

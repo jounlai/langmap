@@ -1184,7 +1184,7 @@ WORDS.hand = {
     zh_wh: ["手", "sou˦˨"],
     zh_zz: ["手", "ʂou˥˧"],
     hak_hl: ["手", "ʃu˨˦"],
-    cpx: ["手", "ɬiu˦˥˧"],
+    cpx: ["手", "tsʰiu˦˥˧"],
     mfa: ["tagae", "taŋajɛ"],
     mtq: ["thay", "tʰaːi"],
     tyz: ["mừ", "mɯ˨˩"],

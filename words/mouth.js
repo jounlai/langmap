@@ -677,7 +677,7 @@ WORDS.mouth = {
     yue_ts: ["口", "heu˥˥"],
     hak_tw: ["嘴", "tsoi˥"],
     czh: ["嘴", "tɕy˦˦"],
-    cpx: ["喙", "tsʰui˦˩"],
+    cpx: ["喙", "tsʰui˦˨"],
     luo: ["dhok", "ðok"],
     laj: ["dog", "doɡ"],
     ssw: ["umlomo", "umlomo"],

@@ -707,7 +707,7 @@ WORDS.nose = {
     wuu_jh: ["鼻头", "biəʔ˩˨ diu˨˨˦"],
     cnp: ["鼻", "pɐt˨"],
     nan_hai: ["鼻", "fi˨˧"],
-    cpx: ["鼻", "pʰi˩˩"],
+    cpx: ["鼻空", "pʰi˦˨ kʰaŋ˥˧˧"],
     // --- Sinitic — the south keeps a suffix: 鼻公 in Hakka, 鼻哥 in Yue ---
     // Gan and Min read 鼻 with the old *-t coda, so Nanchang has 鼻子 pʰit-.
     gan: ["鼻子", "pʰit˥ tsɿ"],

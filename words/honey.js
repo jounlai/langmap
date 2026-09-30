@@ -849,7 +849,7 @@ WORDS.honey = {
     mxc: ["uchi", "utʃi"],
     mer: ["nainchũ", "naintʃo"],
     czh: ["蜂蜜", "fɑ̃˧˧ mieʔ˨˧"],
-    cpx: ["蜂蜜", "pʰaŋ˥˧˧ piʔ˥˥"],
+    cpx: ["冬蜜", "taŋ˥˧˧ piʔ˦"],
     din: ["kiɛ̈c", "kiɛtʃ"],
     laj: ["moo kic", "moː kitʃ"],
     nyn: ["obwoki", "obwoki"],

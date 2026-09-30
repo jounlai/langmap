@@ -1179,7 +1179,7 @@ WORDS.name = {
       zh_wh: ["名字", "min˨˩˧ tsɨ"],
       zh_zz: ["名儿", "mioɻ˦˨"],
       hak_hl: ["名", "miaŋ˥˥"],
-      cpx: ["名", "miã˩˧"],
+      cpx: ["名", "mia˩˧"],
       mfa: ["namo", "namɔ"],
       mtq: ["tên", "ten"],
       tyz: ["chứ", "tʃɯ˧˥"],

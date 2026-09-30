@@ -1185,7 +1185,7 @@ WORDS.water = {
     zh_wh: ["水", "suei˦˨"],
     zh_zz: ["水", "suei˥˧"],
     hak_hl: ["水", "ʃui˨˦"],
-    cpx: ["水", "ɬui˦˥˧"],
+    cpx: ["水", "tsui˦˥˧"],
     mfa: ["ayé", "ajeʔ"],
     mtq: ["đác", "ɗaːk"],
     tyz: ["nặm", "naːm˨˩"],

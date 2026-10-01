@@ -1015,6 +1015,11 @@ WORDS.iron = {
     gej: ["gayibɔ", "ɡajibɔ"],
     bfa: ["witi", "witi"],
     mtq: ["khách", "kʰac"],
-    mlq: ["nego", "neɡo"]
+    mlq: ["nego", "neɡo"],
+    ckt: ["пыԓвынтын", "pəɬwəntən"],
+    ker: ["kooso", "koːso"],
+    mpt: ["ain", "ain"],
+    yai: ["ohan", "ohan"],
+    ppl: ["tepusti", "tepusti"]
   },
 };

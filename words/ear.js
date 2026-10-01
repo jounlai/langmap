@@ -1143,6 +1143,11 @@ WORDS.ear = {
     spp: ["niŋgeŋke", "niŋɡeŋke"],
     lbj: ["ནམ་ཅོག", "namtɕok"],
     bsq: ["ɖùǔ", "ɖùǔ"],
-    maz: ["ngõʼõ", "ŋɡõʔõ"]
+    maz: ["ngõʼõ", "ŋɡõʔõ"],
+    xed: ["sləməŋ", "ɬəməŋ"],
+    agq: ["tuūŋ", "tūːŋ"],
+    dds: ["sugulu", "suɡulu"],
+    dsh: ["net", "net"],
+    mrq: ["puaʻika", "puaʔika"]
   },
 };

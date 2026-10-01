@@ -1065,6 +1065,12 @@ WORDS.black = {
     bsq: ["kpìǐ", "kpìǐ"],
     gej: ["yibɔ", "jibɔ"],
     bum: ["évindi", "evindi"],
-    maz: ["potjü", "potʰɨ"]
+    maz: ["potjü", "potʰɨ"],
+    tay: ["mqalux", "mqalux"],
+    ckt: ["нувӄин", "nuwqin"],
+    xed: ["ŋra", "ŋra"],
+    agq: ["ləŋ", "ləŋ"],
+    dds: ["gɛŋ", "ɡɛŋ"],
+    mrq: ["keʻekeʻe", "keʔekeʔe"]
   },
 };

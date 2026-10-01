@@ -1063,6 +1063,13 @@ WORDS.rain = {
     bum: ["mveŋ", "mveŋ"],
     maz: ["dyebe", "djebe"],
     aja: ["eshi", "eʃi"],
-    aiw: ["doobi", "doːbi"]
+    aiw: ["doobi", "doːbi"],
+    tdh: ["व", "wo"],
+    xkz: ["yui", "jui"],
+    toc: ["sin", "sin"],
+    kmh: ["mñmon", "məɲmon"],
+    sad: ["tlʼwaŋ", "tɬʼwaŋ"],
+    agq: ["ghuuw", "ɣuːw"],
+    dsh: ["ir", "ir"]
   },
 };

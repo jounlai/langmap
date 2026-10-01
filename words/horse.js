@@ -864,6 +864,13 @@ WORDS.horse = {
     rim: ["nyumbu", "ɲumbu"],
     bum: ["ékabela", "ekabela"],
     maz: ["pjadü", "pʰadɨ"],
-    ty: ["puaʻahorofenua", "puaʔahorofenua"]
+    ty: ["puaʻahorofenua", "puaʔahorofenua"],
+    tay: ["rmeʼ", "rməʔ"],
+    toc: ["kawayu", "kawaju"],
+    mwl: ["cabalho", "kaˈβaʎu"],
+    pyu: ["eva", "əva"],
+    xed: ["plis", "plis"],
+    dds: ["soŋ", "soŋ"],
+    yai: ["asp", "asp"]
   }
 };

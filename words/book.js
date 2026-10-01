@@ -833,6 +833,19 @@ WORDS.book = {
     hns: ["pustak", "pustək"],
     bum: ["kalate", "kalate"],
     zap: ["guiʼchi", "ɡiʔtʃi"],
-    mlq: ["kitaabo", "kitaːbo"]
+    mlq: ["kitaabo", "kitaːbo"],
+    bzh: ["ḳapiya", "qapija"],
+    atj: ["masinahikan", "masinahikan"],
+    tdh: ["खाजेम", "kʰadzem"],
+    tay: ["biruʼ", "biruʔ"],
+    pyu: ["valray", "vaɭaj"],
+    ckt: ["кэԓикэԓ", "keɬikeɬ"],
+    xed: ["deftera", "deftera"],
+    agq: ["mwàʼsò", "mwàʔsò"],
+    yai: ["kitob", "kitob"],
+    crx: ["ʼudustlʼus", "ʔudustɬʼus"],
+    aer: ["pipe", "pipə"],
+    nlc: ["buku", "buku"],
+    aae: ["libër", "ˈlibəɾ"]
   }
 };

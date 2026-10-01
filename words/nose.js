@@ -1090,6 +1090,9 @@ WORDS.nose = {
     haz: ["بینی", "bini"],
     bsq: ["máná", "máná"],
     tab: ["хъюхъ", "qyq"],
-    aiw: ["nuki", "ˈnuki"]
+    aiw: ["nuki", "ˈnuki"],
+    bzh: ["neru", "nəru"],
+    pbb: ["ĩç", "ĩç"],
+    emp: ["kẽbʉ", "kẽˈbɨ"]
   },
 };

@@ -1186,6 +1186,7 @@ WORDS.white = {
     esu: ["qatellria", "qatəɬʁia"],
     ker: ["birwa", "biɾwa"],
     nan_ph: ["白", "peʔ˨˦"],
-    mlq: ["xoyi", "xoji"]
+    mlq: ["xoyi", "xoji"],
+    dds: ["pilu", "pilu"]
   },
 };

@@ -1195,6 +1195,10 @@ WORDS.salt = {
     sdh: ["نمەک", "nɪmæk"],
     gbm: ["लूण", "luːɳ"],
     mzn: ["نمک", "nemek"],
-    nus: ["milɛ", "milɛ"]
+    nus: ["milɛ", "milɛ"],
+    agq: ["ntsôʼ", "ntsôʔ"],
+    dds: ["neŋ", "neŋ"],
+    dsh: ["shugut", "ʃuɡut"],
+    nlc: ["garam", "ɡaram"]
   },
 };

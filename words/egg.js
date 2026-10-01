@@ -1052,6 +1052,12 @@ WORDS.egg = {
     gej: ["azi", "azi"],
     sgw: ["እንራ", "ɨnra"],
     saq: ["mboliboli", "mboliboli"],
-    aiw: ["muqa", "muˈqa"]
+    aiw: ["muqa", "muˈqa"],
+    bzh: ["ġahis", "ɢaʁitʃ"],
+    tdh: ["डि", "ɖi"],
+    dur: ["ba̧ʼ", "bãʔ"],
+    xed: ["slislik", "ɬiɬik"],
+    dds: ["talu", "talu"],
+    mgo: ["ɨbom", "ɨbom"]
   },
 };

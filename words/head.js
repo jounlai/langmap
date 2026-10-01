@@ -979,6 +979,14 @@ WORDS.head = {
     gej: ["eta", "eta"],
     bum: ["nlô", "nlɔ"],
     maz: ["ñi", "ɲi"],
-    aiw: ["mata", "maˈta"]
+    aiw: ["mata", "maˈta"],
+    tdh: ["बुइ", "bwi"],
+    xkz: ["guyung", "ɡujuŋ"],
+    dur: ["yúú", "juː"],
+    xed: ["ghəŋ", "ɣəŋ"],
+    agq: ["kətuw", "kətuw"],
+    dds: ["kuu", "kuː"],
+    dsh: ["met", "met"],
+    aae: ["krie", "ˈkɾiɛ"]
   },
 };

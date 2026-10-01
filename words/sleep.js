@@ -1069,6 +1069,11 @@ WORDS.sleep = {
     bsq: ["mɔ́", "mɔ́"],
     maz: ["ĩjĩ", "ĩhĩ"],
     dnj: ["yī zʌ̄", "jī zʌ̄"],
-    mlq: ["sinnoxo", "sinːoxo"]
+    mlq: ["sinnoxo", "sinːoxo"],
+    bzh: ["ggëp", "ɣep"],
+    pjt: ["kunkunarinyi", "kuŋkunaɻiɲi"],
+    kmh: ["wsn kn-", "wəsən kən"],
+    dur: ["nə nəm", "nə nəm"],
+    agq: ["bwii", "bwiː"]
   },
 };

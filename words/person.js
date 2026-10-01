@@ -856,6 +856,17 @@ WORDS.person = {
     gej: ["agbetɔ", "aɡbetɔ"],
     maz: ["nte", "nte"],
     dnj: ["bhɛ̄n", "mɛ̃̄"],
-    mlq: ["moxo", "moxo"]
+    mlq: ["moxo", "moxo"],
+    bzh: ["mehö", "meʁɔ"],
+    tdh: ["मु़चु़", "mytsy"],
+    ker: ["hulum", "hulum"],
+    xed: ["mndu", "mndu"],
+    agq: ["ghùw", "ɣùw"],
+    nzm: ["ziemmena", "ziemːena"],
+    crx: ["dune", "dune"],
+    hot: ["anyô", "aɲɔ"],
+    aae: ["njeri", "ɲɛˈɾi"],
+    yrl: ["mira", "miɾa"],
+    sel: ["ӄум", "qum"]
   }
 };

@@ -804,6 +804,14 @@ WORDS.sea = {
     gej: ["apu", "apu"],
     bum: ["maŋ", "maŋ"],
     maz: ["mar", "maɾ"],
-    mlq: ["xooxojiyo", "xoːxodʒijo"]
+    mlq: ["xooxojiyo", "xoːxodʒijo"],
+    pjt: ["uṟu puḻka", "uru puɭka"],
+    fai: ["yol wok", "jol wok"],
+    toj: ["niwan paman jaʼ", "niwan paman haʔ"],
+    ekp: ["olimini", "olimini"],
+    xed: ["drəf", "drəf"],
+    cni: ["inkajare", "iŋkahaɾe"],
+    bnn: ["ning-av", "ŋiŋʔav"],
+    aae: ["det", "dɛt"]
   }
 };

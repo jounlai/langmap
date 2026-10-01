@@ -962,6 +962,17 @@ WORDS.new = {
     bum: ["mfefé", "mfefe"],
     maz: ["dadyo", "dadjo"],
     aiw: ["killa", "kilːˈa"],
-    mlq: ["kuto", "kuto"]
+    mlq: ["kuto", "kuto"],
+    tdh: ["लाले", "lale"],
+    toc: ["xasasti", "ʃasasti"],
+    ygr: ["sauva", "sauva"],
+    ker: ["kimirwi", "kimiɾwi"],
+    dur: ["ʼmaŋ", "ʔmaŋ"],
+    sad: ["ǁae", "ǁaé"],
+    ja_rys: ["みぃーさん", "mɨːsaɴ"],
+    xed: ["lfiɗa", "lfiɗa"],
+    dds: ["kanda", "kanda"],
+    nzm: ["karchibe", "kartʃibe"],
+    aae: ["i ri", "i ɾi"]
   }
 };

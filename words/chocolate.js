@@ -408,6 +408,9 @@ WORDS.chocolate = {
     frp: ["ch·ocolât", "tʃokoˈla"],
     gcf: ["chokola", "ʃokola"],
     mdr: ["sikolaq", "sikolaʔ"],
-    cab: ["chuguladi", "tʃuɡuladi"]
+    cab: ["chuguladi", "tʃuɡuladi"],
+    bzh: ["bööḳ atë", "bɔːq ate"],
+    mwl: ["choclate", "tʃoˈklatɨ"],
+    kjh: ["шоколад", "ʃokolad"]
   }
 };

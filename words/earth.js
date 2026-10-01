@@ -1126,6 +1126,11 @@ WORDS.earth = {
     nus: ["piny", "piɲ"],
     nym: ["liwelelo", "liwelelo"],
     maz: ["jõmü", "hõmɨ"],
-    mlq: ["duguxulo", "duɡuxulo"]
+    mlq: ["duguxulo", "duɡuxulo"],
+    tdh: ["क्वा", "kwa"],
+    ker: ["seŋka", "seŋka"],
+    dur: ["hág", "haɡ˥"],
+    nzm: ["kedei", "kedei"],
+    dsh: ["les", "les"]
   }
 };

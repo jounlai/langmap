@@ -1088,6 +1088,13 @@ WORDS.bird = {
     bsq: ["naà", "naà"],
     gej: ["xevi", "xevi"],
     maz: ["sʼü", "sʼɨ"],
-    saq: ["nkueenyi", "ŋkuɛːɲi"]
+    saq: ["nkueenyi", "ŋkuɛːɲi"],
+    bzh: ["soḳ", "tʃoq"],
+    tay: ["qbhniq", "qbhniq"],
+    dbq: ["ɨ̀vkin", "ɨ̀vkin"],
+    xed: ["ɗyak", "ɗjak"],
+    agq: ["nwə̀n", "nwə̀n"],
+    mpt: ["wan", "wan"],
+    dds: ["sadaa", "sadaː"]
   },
 };

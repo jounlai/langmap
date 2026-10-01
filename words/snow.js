@@ -934,6 +934,9 @@ WORDS.snow = {
     gaa: ["snoo", "snoː"],
     kek: ["nieve", "ˈnjeβe"],
     bru: ["prễl príl", "prel pril"],
-    zap: ["nieve", "njebe"]
+    zap: ["nieve", "njebe"],
+    chf: ["nieve", "ˈnjebe"],
+    huv: ["nieve", "nʲebe"],
+    nzm: ["kebun", "kebun"]
   }
 };

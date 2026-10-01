@@ -1084,6 +1084,13 @@ WORDS.stone = {
     nmf: ["ngalung", "ŋaluŋ"],
     bsq: ["sɔ́ɔ́-kpò", "sɔ́ːkpò"],
     aiw: ["seeni", "seːni"],
-    mlq: ["kuro", "kuɾo"]
+    mlq: ["kuro", "kuɾo"],
+    bzh: ["ġelönġ", "ɢəlɔɴ"],
+    xkz: ["gor", "ɡor"],
+    dur: ["ʼyɛgɛ", "ʔjɛɡɛ"],
+    xed: ["pala", "pala"],
+    agq: ["tia", "tia"],
+    dds: ["tibu", "tibu"],
+    nzm: ["tingchu", "tiŋtʃu"]
   },
 };

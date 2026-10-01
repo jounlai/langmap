@@ -1059,6 +1059,13 @@ WORDS.wind = {
     gej: ["aya", "aja"],
     bum: ["évuŋulu", "evuŋulu"],
     maz: ["ndajma", "ndahma"],
-    saq: ["siwuo", "siwuo"]
+    saq: ["siwuo", "siwuo"],
+    tdh: ["ब्लोजु़", "blodzy"],
+    bzd: ["siwa̱ʼ", "siwãʔ"],
+    dur: ["sápéém", "sapeːm"],
+    sad: ["wekheŋ", "wekʰeŋ"],
+    xed: ["falak", "falak"],
+    agq: ["kʉ̀ɛɛ", "kʉ̀ɛː"],
+    dds: ["gɛɛdɛ", "ɡɛːdɛ"]
   },
 };

@@ -1034,6 +1034,13 @@ WORDS.honey = {
     bum: ["wôé", "wɔe"],
     saq: ["naicho ee lotoro", "naitʃo eː lotoro"],
     ty: ["meri", "meɾi"],
-    mlq: ["liyo", "lijo"]
+    mlq: ["liyo", "lijo"],
+    tay: ["buq na hzing", "buq na hziŋ"],
+    toc: ["táxkat", "táʃkat"],
+    ckt: ["ръорамытӄымыт", "rʔoramətqəmət"],
+    xed: ["zuɗum", "zuɗum"],
+    dds: ["igɛ", "iɡɛ"],
+    yai: ["asal", "asal"],
+    yrl: ["íra", "ˈiɾa"]
   },
 };

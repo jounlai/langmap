@@ -632,6 +632,14 @@ WORDS.rice = {
     dng: ["ми", "mi˥˩"],
     kpv: ["рис", "ris"],
     gil: ["raiti", "ɾaisi"],
-    nmf: ["mawon", "mawon"]
+    nmf: ["mawon", "mawon"],
+    bzh: ["padi", "padi"],
+    mic: ["tuliʼjeweieʼl", "duliːdʒewejeːl"],
+    chr: ["ᎦᏃᎮᎾ", "ɡanohena"],
+    kjh: ["ах тараан", "ax taraːn"],
+    rap: ["raiti", "raiti"],
+    arp: ["hiʼíiisóónoʼ", "hiʔíːisóːnoʔ"],
+    dds: ["ara", "ara"],
+    ruq: ["uriz", "uˈriz"]
   }
 };

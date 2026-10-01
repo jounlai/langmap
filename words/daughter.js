@@ -1075,6 +1075,9 @@ WORDS.daughter = {
     gcf: ["fi", "fi"],
     ja_oki: ["いなぐんぐゎ", "winaɡuŋɡwa"],
     sgw: ["ገረድ", "ɡɐrɐd"],
-    bi: ["gel", "ɡel"]
+    bi: ["gel", "ɡel"],
+    aqc: ["ло", "lo"],
+    ker: ["tər", "təɾ"],
+    dds: ["yaana ii", "jaːna iː"]
   },
 };

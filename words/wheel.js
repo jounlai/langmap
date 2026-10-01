@@ -885,6 +885,8 @@ WORDS.wheel = {
     lus: ["tawlailîr ke", "tɔlailiːr ke"],
     nmf: ["kangphei", "kaŋpʰei"],
     sgw: ["መንኰራኩር", "mɐnkʷɐrakʷɨr"],
-    bru: ["carvang", "karvaŋ"]
+    bru: ["carvang", "karvaŋ"],
+    ja_rys: ["車", "kuɾuma"],
+    ruq: ["roată", "ˈroatə"]
   }
 };

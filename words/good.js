@@ -731,7 +731,7 @@ WORDS.good = {
     kao: ["nyi", "ɲi"],
     snk: ["ñaxa", "ɲaxa"],
     mwk: ["ñuman", "ɲuman"],
-    mlq: ["nyuman", "ɲuman"],
+    mlq: ["ɲima", "ɲima"],
     mev: ["kɛlɛ", "kɛlɛ"],
     dnj: ["sʌ̏", "sʌ̏"],
     ses: ["boori", "boːri"],

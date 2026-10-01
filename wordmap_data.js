@@ -2329,7 +2329,7 @@ const LANG_DATA = {
 },
   // Western Maninkakan (Maninka of Guinea) — Niger-Congo Mande Western Manding (sister to bm Bambara/mwk Kita Maninka), ~750K-1M, Mali (south) + Guinea (Kankan, Faranah) + Senegal (Tambacounda).
   // Sources: Ethnologue 27 'mlq'; Glottolog west2421; Vydrin (2009) Manding language family.
-  mlq: { name: 'Western Maninkakan', native: 'Maninkakan', lat: 10.39, lng: -9.30, // Kankan, Guinea (Maninka cultural center)
+  mlq: { name: 'Western Maninkakan', native: 'Maningaxanŋo', lat: 12.84, lng: -11.24, // Kéniéba, Mali — the variety the row's cells come from (re-pinned 2026-10-01 from Kankan, which is Eastern Maninka emk)
 },
   // Mano (Maa) — Niger-Congo Mande Southeast (Eastern Mande, sister to dnj Dan Yacouba), ~400K, Liberia (Nimba County) + Guinea (Forest Region) + Côte d'Ivoire (border).
   // Sources: Ethnologue 27 'mev'; Glottolog mano1276; Khachaturyan (2015) A Grammar of Mano.

@@ -543,7 +543,7 @@ WORDS.five = {
     emk: ["loolu", "lóːlu"],
     snk: ["karago", "karaˈɡo"],
     mwk: ["loolu", "lóːlu"],
-    mlq: ["loolu", "lóːlu"],
+    mlq: ["luulu", "luːlu"],
     ses: ["gu", "ɡu"],
     khq: ["gu", "ɡu"],
     dje: ["gu", "ɡu"],

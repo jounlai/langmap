@@ -362,6 +362,7 @@ WORDS.atsign = {
     vi_s: ["a còng", "aː˧ kɔŋ͡m˨˩"],
     ko_bus: ["골뱅이", "kolbɛŋi"],
     ko_jl: ["골뱅이", "kolbɛŋi"],
-    ko_yb: ["골뱅이", "kolbɛŋi"]
+    ko_yb: ["골뱅이", "kolbɛŋi"],
+    mlq: ["arobaasi", "aɾobaːsi"]
   },
 };

@@ -664,7 +664,7 @@ WORDS.red = {
     kao: ["wuleŋ", "wuleŋ"],
     snk: ["dumbi", "dumbi"],
     mwk: ["bilen", "bileɲ"],
-    mlq: ["wulen", "wuleɲ"],
+    mlq: ["wulen", "wulẽ"],
     mev: ["gbɛlɛ", "ɡbɛlɛ"],
     dnj: ["tɛ̋ɛn", "tɛ̃̋ː"],
     ses: ["ciray", "tʃiraj"],

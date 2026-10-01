@@ -723,7 +723,7 @@ WORDS.house = {
     kao: ["so", "so"],
     snk: ["ka", "ka"],
     mwk: ["so", "so"],
-    mlq: ["so", "so"],
+    mlq: ["bunŋo", "bũŋo"],
     mev: ["kpɛ", "kpɛ"],
     dnj: ["kɔ́", "kɔ́"],
     ses: ["huu", "huː"],

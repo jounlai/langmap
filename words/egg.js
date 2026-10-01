@@ -727,7 +727,7 @@ WORDS.egg = {
     efi: ["nsen", "n̩sen"],
     ibb: ["nsen unen", "n̩sen unen"],
     emk: ["kili", "kili"],
-    mlq: ["kili", "kili"],
+    mlq: ["kilo", "kilo"],
     mnk: ["kiloo", "kiloː"],
     sus: ["xɛlɛ", "xɛlɛ"],
     zne: ["para", "paɾa"],

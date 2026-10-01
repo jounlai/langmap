@@ -1056,7 +1056,7 @@ for (const code of codes) {
                 // ቀንየለይ was Tigrinya/Tigre.
                 ksb: new Set(['hello']),
                 aiw: new Set(['love', 'cat', 'house', 'eat', 'drink', 'hello', 'thanks']),
-                mlq: new Set(['fire', 'fish', 'hello', 'thanks']),
+                mlq: new Set(['hello', 'thanks']),  // fire/fish filled from the Kéniéba texts on 2026-10-01
                 byn: new Set(['hello', 'thanks']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,

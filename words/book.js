@@ -832,6 +832,7 @@ WORDS.book = {
     bsq: ["céè-ɖɛ̀", "tʃéèɖɛ̀"],
     hns: ["pustak", "pustək"],
     bum: ["kalate", "kalate"],
-    zap: ["guiʼchi", "ɡiʔtʃi"]
+    zap: ["guiʼchi", "ɡiʔtʃi"],
+    mlq: ["kitaabo", "kitaːbo"]
   }
 };

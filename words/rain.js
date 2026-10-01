@@ -742,7 +742,7 @@ WORDS.rain = {
     kln: ["robta", "robta"],
     emk: ["sanji", "saɲɟi"],
     mwk: ["sanji", "saɲɟi"],
-    mlq: ["sanji", "saɲɟi"],
+    mlq: ["sanjiyo", "sandʒijo"],
     afb: ["مطر", "mɪtˤar"],
     abv: ["مطر", "mətˤar"],
     acw: ["مطر", "matˤar"],

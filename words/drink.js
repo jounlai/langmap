@@ -730,7 +730,7 @@ WORDS.drink = {
     kao: ["min", "min"],
     snk: ["mini", "mini"],
     mwk: ["min", "min"],
-    mlq: ["min", "min"],
+    mlq: ["min", "mĩ"],
     mev: ["mi", "mi"],
     dnj: ["bhɯ̄n", "mɯ̃̄"],
     ses: ["hane", "hane"],

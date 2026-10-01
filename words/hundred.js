@@ -1036,6 +1036,7 @@ WORDS.hundred = {
     ja_oki: ["百", "çaːku"],
     lbe: ["ттуршва", "tːurʃwa"],
     bfa: ["mia", "mia"],
-    bum: ["ntet", "ntet"]
+    bum: ["ntet", "ntet"],
+    mlq: ["keme", "keme"]
   },
 };

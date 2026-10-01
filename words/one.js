@@ -723,7 +723,7 @@ WORDS.one = {
     kao: ["kele", "kele"],
     snk: ["baane", "baːne"],
     mwk: ["kelen", "kelen"],
-    mlq: ["kelen", "kelen"],
+    mlq: ["kilin", "kilĩ"],
     mev: ["do", "do"],
     dnj: ["dō", "dō"],
     ses: ["afo", "afo"],

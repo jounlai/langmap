@@ -1083,6 +1083,7 @@ WORDS.stone = {
     dng: ["шыту", "ʂɨ˨˦tʰou˥˩"],
     nmf: ["ngalung", "ŋaluŋ"],
     bsq: ["sɔ́ɔ́-kpò", "sɔ́ːkpò"],
-    aiw: ["seeni", "seːni"]
+    aiw: ["seeni", "seːni"],
+    mlq: ["kuro", "kuɾo"]
   },
 };

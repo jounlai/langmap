@@ -800,7 +800,7 @@ WORDS.head = {
     iso: ["uzou", "uzou"],
     gaa: ["yitso", "jitso"],
     tll: ["ote", "ote"],
-    mlq: ["kun", "kun"],
+    mlq: ["kunŋo", "kũŋo"],
     bfa: ["kwe", "kʷe"],
     aja: ["ta", "ta"],
     spp: ["ɲuŋɔ", "ɲuŋɔ"],

@@ -1068,6 +1068,7 @@ WORDS.sleep = {
     vai: ["ꕃ", "ki"],
     bsq: ["mɔ́", "mɔ́"],
     maz: ["ĩjĩ", "ĩhĩ"],
-    dnj: ["yī zʌ̄", "jī zʌ̄"]
+    dnj: ["yī zʌ̄", "jī zʌ̄"],
+    mlq: ["sinnoxo", "sinːoxo"]
   },
 };

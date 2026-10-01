@@ -731,7 +731,7 @@ WORDS.name = {
       kao: ["tɔɔ", "tɔː"],
       snk: ["toxo", "toxo"],
       mwk: ["tɔɔ", "tɔː"],
-      mlq: ["tɔɔ", "tɔː"],
+      mlq: ["toxo", "toxo"],
       mev: ["tɔ́", "tɔ́"],
       dnj: ["tɔ́", "tɔ́"],
       ses: ["maa", "maː"],

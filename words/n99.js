@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    mlq: "dec",
     nan_ph: "mult",
     vi_han: "mult",
     shn: "mult",
@@ -725,6 +726,7 @@ WORDS.n99 = {
     }
   },
   data: {
+    mlq: ["bixononto-nin-xononto", "bixonontoninxononto"],
     nan_ph: ["九十九", "kau˥˥˦ tsap˨˦ kau˥˥˦"],
     vi_han: ["九十九", "kɨw˧˩˧ tʰəp˨˩˨ kɨw˧˩˧"],
     shn: ["ၵဝ်ႈသိပ်းပၢႆၵဝ်ႈ", "kaw˧˨ sip˥ paːj˨˦ kaw˧˨"],

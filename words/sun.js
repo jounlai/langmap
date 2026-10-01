@@ -722,7 +722,7 @@ WORDS.sun = {
     kao: ["tile", "tile"],
     snk: ["kiye", "kije"],
     mwk: ["tle", "tle"],
-    mlq: ["tile", "tile"],
+    mlq: ["tilo", "tilo"],
     mev: ["ɲɛ́nɛ́", "ɲɛ˥nɛ˥"],
     dnj: ["yʌ́nŋ̏", "jʌ̃́ŋ̏"],
     ses: ["wayna", "wajna"],

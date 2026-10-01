@@ -816,7 +816,7 @@ WORDS.wind = {
     dak: ["tate", "tateˀ"],
     apw: ["níłchʼi", "níɬtʃʼi"],
     nbl: ["umoya", "umoja"],
-    mlq: ["fɔɲɔ", "fɔɲɔ"],
+    mlq: ["hoɲo", "hoɲo"],
     pjt: ["walpa", "walpa"],
     piu: ["walpa", "walpa"],
     mpj: ["walypa", "ˈwaljpa"],

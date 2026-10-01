@@ -1185,6 +1185,7 @@ WORDS.white = {
     arp: ["noocóó", "noːtʃóː"],
     esu: ["qatellria", "qatəɬʁia"],
     ker: ["birwa", "biɾwa"],
-    nan_ph: ["白", "peʔ˨˦"]
+    nan_ph: ["白", "peʔ˨˦"],
+    mlq: ["xoyi", "xoji"]
   },
 };

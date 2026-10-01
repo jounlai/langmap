@@ -730,7 +730,7 @@ WORDS.eat = {
     kao: ["domu", "domu"],
     snk: ["lawu", "lawu"],
     mwk: ["don", "don"],
-    mlq: ["don", "don"],
+    mlq: ["domo", "domo"],
     mev: ["mɛ", "mɛ"],
     dnj: ["bhɤ̏", "ɓɤ̏"],
     ses: ["ŋwa", "ŋwa"],

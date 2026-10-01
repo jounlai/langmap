@@ -791,7 +791,7 @@ WORDS.nose = {
     // --- West Africa — Manding nun, Igboid imi, Gbe ŋɔti ----------------
     kao: ["nun", "nũ"],
     mwk: ["nun", "nũ"],
-    mlq: ["nun", "nũ"],
+    mlq: ["nunŋo", "nũŋo"],
     mnk: ["nuŋo", "nuŋo"],
     snk: ["nuxune", "nuxune"],
     izz: ["imi", "imi"],

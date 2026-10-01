@@ -489,7 +489,7 @@ WORDS.bird = {
     bm: ["kɔnɔ", "kɔnɔ"],
     emk: ["kɔnɔ", "kɔnɔ"],
     mwk: ["kɔnɔ", "kɔnɔ"],
-    mlq: ["kɔnɔ", "kɔnɔ"],
+    mlq: ["xono", "xono"],
     kab: ["agḍiḍ", "aɡðˤiðˤ"],
     yua: ["chʼíichʼ", "tʃʼiːtʃʼ"],
     itz: ["chʼiichʼ", "tʃʼiːtʃʼ"],

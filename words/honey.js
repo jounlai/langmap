@@ -1033,6 +1033,7 @@ WORDS.honey = {
     bfa: ["siwatat", "siwatat"],
     bum: ["wôé", "wɔe"],
     saq: ["naicho ee lotoro", "naitʃo eː lotoro"],
-    ty: ["meri", "meɾi"]
+    ty: ["meri", "meɾi"],
+    mlq: ["liyo", "lijo"]
   },
 };

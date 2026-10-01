@@ -731,7 +731,7 @@ WORDS.i = {
       kao: ["ne", "ne"],
       snk: ["in", "in"],
       mwk: ["ne", "ne"],
-      mlq: ["ne", "ne"],
+      mlq: ["nte", "n̩te"],
       mev: ["mā", "ma˧"],
       dnj: ["n̄", "ŋ̄"],
       ses: ["ay", "aj"],

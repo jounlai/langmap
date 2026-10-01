@@ -555,7 +555,7 @@ WORDS.salt = {
     bm: ["kɔgɔ", "kɔɡɔ"],
     dyu: ["kɔgɔ", "kɔɡɔ"],
     emk: ["kɔgɔ", "kɔɡɔ"],
-    mlq: ["kɔgɔ", "kɔɡɔ"],
+    mlq: ["xooxo", "xoːxo"],
     mwk: ["kɔgɔ", "kɔɡɔ"],
     kao: ["kɔgɔ", "kɔɡɔ"],
     wo: ["xorom", "xorom"],

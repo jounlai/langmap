@@ -1125,6 +1125,7 @@ WORDS.earth = {
     bxk: ["liloba", "liloba"],
     nus: ["piny", "piɲ"],
     nym: ["liwelelo", "liwelelo"],
-    maz: ["jõmü", "hõmɨ"]
+    maz: ["jõmü", "hõmɨ"],
+    mlq: ["duguxulo", "duɡuxulo"]
   }
 };

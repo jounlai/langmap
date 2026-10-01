@@ -726,7 +726,7 @@ WORDS.cat = {
     kao: ["jakuma", "dʒakuma"],
     snk: ["mussu", "musːu"],
     mwk: ["ñaakuma", "ɲaːkuma"],
-    mlq: ["nyaakuma", "ɲaːkuma"],
+    mlq: ["ɲaaro", "ɲaːɾo"],
     mev: ["poso", "poso"],
     dnj: ["gwa̋n", "ɡwã̋"],
     ses: ["muusu", "muːsu"],

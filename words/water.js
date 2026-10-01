@@ -724,7 +724,7 @@ WORDS.water = {
     kao: ["ji", "dʒi"],
     snk: ["jiyi", "dʒiji"],
     mwk: ["ji", "dʒi"],
-    mlq: ["ji", "dʒi"],
+    mlq: ["jiyo", "dʒijo"],
     mev: ["yi", "ji"],
     dnj: ["yi̋", "ji̋"],
     ses: ["hari", "hari"],

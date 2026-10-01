@@ -661,7 +661,7 @@ WORDS.night = {
     kao: ["su", "su"],
     snk: ["wuro", "wuro"],
     mwk: ["su", "su"],
-    mlq: ["su", "su"],
+    mlq: ["suwo", "suwo"],
     mev: ["gbeŋ", "ɡbeŋ"],
     dnj: ["gbēŋ", "ɡbēŋ"],
     ses: ["cin", "tʃin"],

@@ -855,6 +855,7 @@ WORDS.person = {
     bsq: ["nyɔ", "ɲɔ"],
     gej: ["agbetɔ", "aɡbetɔ"],
     maz: ["nte", "nte"],
-    dnj: ["bhɛ̄n", "mɛ̃̄"]
+    dnj: ["bhɛ̄n", "mɛ̃̄"],
+    mlq: ["moxo", "moxo"]
   }
 };

@@ -731,7 +731,7 @@ WORDS.two = {
       kao: ["fila", "fila"],
       snk: ["filli", "filːi"],
       mwk: ["fila", "fila"],
-      mlq: ["fila", "fila"],
+      mlq: ["hula", "hula"],
       mev: ["plɛ̀ɛ̀", "plɛː˩"],
       dnj: ["plɛ̀", "plɛ̀"],
       ses: ["ihinka", "ihiŋka"],

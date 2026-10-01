@@ -961,6 +961,7 @@ WORDS.new = {
     gej: ["yeye", "jeje"],
     bum: ["mfefé", "mfefe"],
     maz: ["dadyo", "dadjo"],
-    aiw: ["killa", "kilːˈa"]
+    aiw: ["killa", "kilːˈa"],
+    mlq: ["kuto", "kuto"]
   }
 };

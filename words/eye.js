@@ -730,7 +730,7 @@ WORDS.eye = {
     kao: ["ɲa", "ɲa"],
     snk: ["ñaa", "ɲaː"],
     mwk: ["ña", "ɲa"],
-    mlq: ["nya", "ɲa"],
+    mlq: ["ɲa", "ɲa"],
     mev: ["mi", "mi"],
     dnj: ["ya̋n", "jã̋"],
     ses: ["mo", "mo"],

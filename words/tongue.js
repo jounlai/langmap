@@ -669,7 +669,7 @@ WORDS.tongue = {
     kao: ["nɛn", "nɛn"],
     snk: ["nene", "nene"],
     mwk: ["nɛn", "nɛn"],
-    mlq: ["nɛn", "nɛn"],
+    mlq: ["nenŋo", "nẽŋo"],
     mev: ["nana", "nana"],
     dnj: ["dhɛ́ɛ̏n", "nɛ̃́ɛ̃̏"],
     ses: ["deene", "deːne"],

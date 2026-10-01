@@ -1255,6 +1255,6 @@ WORDS.fire = {
     mhy: ["apuy", "apuy"],
     gsw_als: ["Fir", "fiːr"],
     nan_ph: ["火", "he˥˥˦"],
-    mlq: ["—", "—"]
+    mlq: ["ta", "ta"]
   }
 };

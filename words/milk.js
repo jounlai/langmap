@@ -467,7 +467,7 @@ WORDS.milk = {
     dyu: ["nɔnɔ", "nɔnɔ"],
     emk: ["nɔnɔ", "nɔnɔ"],
     mwk: ["nɔnɔ", "nɔnɔ"],
-    mlq: ["nɔnɔ", "nɔnɔ"],
+    mlq: ["nono", "nono"],
     kao: ["nɔnɔ", "nɔnɔ"],
     mnk: ["nono", "nono"],
     // Ewe and Igbo build it out of 'breast' + 'water'; both are phrases in origin.

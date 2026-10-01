@@ -667,7 +667,7 @@ WORDS.blood = {
     kao: ["jelu", "dʒelu"],
     snk: ["fare", "fare"],
     mwk: ["joli", "dʒoli"],
-    mlq: ["jeli", "dʒeli"],
+    mlq: ["jelo", "dʒelo"],
     mev: ["bai", "baí"],
     dnj: ["yɔ̀ɔn", "jɔ̃̀ː"],
     ses: ["kuri", "kuri"],

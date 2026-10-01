@@ -758,7 +758,7 @@ WORDS.daughter = {
     cuk: ["sisgwa", "sisɡwa"],
     mcf: ["champi", "tʃamˈpi"],
     tpn: ["tajyra", "taˈjɨɾa"],
-    mlq: ["denmuso", "denmuso"],
+    mlq: ["dinmuso", "dinmuso"],
     dnj: ["dhú", "ɗú"],
     tum: ["mwana msungwana", "mwana msuŋɡwana"],
     kde: ["nahaku", "nahaku"],

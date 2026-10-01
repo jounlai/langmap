@@ -687,7 +687,7 @@ WORDS.tooth = {
     kao: ["ɲin", "ɲĩ"],
     snk: ["kambe", "kambe"],
     mwk: ["ɲin", "ɲĩ"],
-    mlq: ["ɲin", "ɲĩ"],
+    mlq: ["ɲinŋo", "ɲĩŋo"],
     mev: ["sɔ", "sɔ"],
     dnj: ["sɔ̋n", "sɔ̃̋"],
     ses: ["hinje", "hindʒe"],

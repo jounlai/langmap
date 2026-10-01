@@ -730,7 +730,7 @@ WORDS.hand = {
     kao: ["bolo", "bolo"],
     snk: ["kitte", "kitːe"],
     mwk: ["bolo", "bolo"],
-    mlq: ["bolo", "bolo"],
+    mlq: ["bulo", "bulo"],
     mev: ["kɔ̀", "kɔ˩"],
     dnj: ["kɔ̏", "kɔ̏"],
     ses: ["kambe", "kambe"],

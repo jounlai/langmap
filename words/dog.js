@@ -731,7 +731,7 @@ WORDS.dog = {
     kao: ["wulu", "wulu"],
     snk: ["wulle", "wulːe"],
     mwk: ["wulu", "wulu"],
-    mlq: ["wulu", "wulu"],
+    mlq: ["wulo", "wulo"],
     mev: ["gbá̰", "ɡbã˥"],
     dnj: ["gbɛ̂n", "ɡbɛ̃̂"],
     ses: ["hansi", "hansi"],

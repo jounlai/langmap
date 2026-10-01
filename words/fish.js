@@ -1265,6 +1265,6 @@ WORDS.fish = {
     mhy: ["kenah", "kenah"],
     gsw_als: ["Fìsch", "fɪʃ"],
     nan_ph: ["魚", "hi˨˦"],
-    mlq: ["—", "—"]
+    mlq: ["yego", "jeɡo"]
   }
 };

@@ -1014,6 +1014,7 @@ WORDS.iron = {
     mam: ["kxbʼil", "kʃɓil"],
     gej: ["gayibɔ", "ɡajibɔ"],
     bfa: ["witi", "witi"],
-    mtq: ["khách", "kʰac"]
+    mtq: ["khách", "kʰac"],
+    mlq: ["nego", "neɡo"]
   },
 };

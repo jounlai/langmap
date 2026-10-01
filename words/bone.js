@@ -644,7 +644,7 @@ WORDS.bone = {
     kao: ["xulu", "xulu"],
     snk: ["xote", "xote"],
     mwk: ["kulu", "kulu"],
-    mlq: ["kulu", "kulu"],
+    mlq: ["xulo", "xulo"],
     mev: ["wɛlɛ", "wɛlɛ"],
     dnj: ["gā", "ɡā"],
     ses: ["biri", "biri"],

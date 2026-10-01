@@ -724,7 +724,7 @@ WORDS.star = {
       kao: ["lolo", "lolo"],
       snk: ["tulle", "tulːe"],
       mwk: ["lolo", "lolo"],
-      mlq: ["lolo", "lolo"],
+      mlq: ["loolo", "loːlo"],
       mev: ["sĩ̄ã́ŋēlè", "sĩ̄ã́ŋēlè"],
       dnj: ["sűsʌ̄nŋ́", "sűsʌ̃̄ŋ́"],
       ses: ["handariya", "handarija"],

@@ -731,7 +731,7 @@ WORDS.you = {
       kao: ["i", "i"],
       snk: ["an", "an"],
       mwk: ["i", "i"],
-      mlq: ["i", "i"],
+      mlq: ["ite", "ite"],
       mev: ["ī", "ī"],
       dnj: ["ī", "i"],
       ses: ["ni", "ni"],

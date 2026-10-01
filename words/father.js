@@ -734,7 +734,7 @@ WORDS.father = {
     kao: ["fa", "fa"],
     snk: ["baba", "baba"],
     mwk: ["fa", "fa"],
-    mlq: ["fa", "fa"],
+    mlq: ["ha", "ha"],
     mev: ["de", "de"],
     dnj: ["dʌ̄", "dʌ̄"],
     ses: ["baaba", "baːba"],

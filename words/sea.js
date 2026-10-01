@@ -803,6 +803,7 @@ WORDS.sea = {
     bsq: ["dyóó", "dʒóː"],
     gej: ["apu", "apu"],
     bum: ["maŋ", "maŋ"],
-    maz: ["mar", "maɾ"]
+    maz: ["mar", "maɾ"],
+    mlq: ["xooxojiyo", "xoːxodʒijo"]
   }
 };

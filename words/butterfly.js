@@ -196,7 +196,7 @@ WORDS.butterfly = {
     se: ["beaiveloddi", "ˈpeɑjveˌlotːi"],  // Compound beaivi 'sun' + loddi 'bird' — loddi is this row's own word for bird.
     smj: ["biejvvelådde", "ˈbiejvːeˌlɔdːɛ"],  // Compound 'sun' + lådde 'bird' — lådde is this row's own word for bird.
     smn: ["piäi'vááloddááš", "ˈpiæivaːˌlodːaːʃ"],  // Compound 'sun' + lodde 'bird' plus a diminutive — lodde is this row's own word for bird.
-    sms: ["ä´llbaž", "alːʲbʲɒʒ"],  // the Kola Sámi word, cognate with Kildin а̄лльп, rather than the 'day-bird' compound of the western Sámi languages; NEL also lists pei´vvlå´dd for Skolt, and which of the two is the everyday word is unchecked. Surface kept verbatim from NEL (´ not ʹ), as the row itself does in nâ´stt
+    sms: ["äʹllbaž", "alːʲbʲɒʒ"],  // the Kola Sámi word, cognate with Kildin а̄лльп, rather than the 'day-bird' compound of the western Sámi languages; NEL also lists pei´vvlå´dd for Skolt, and which of the two is the everyday word is unchecked. Surface kept verbatim from NEL (´ not ʹ), as the row itself does in nâ´stt
     sma: ["biejjielåbloe", "ˈpiejːieˌlɔblʊə"],  // Begins with biejjie 'sun', like the other Sámi forms.
     sjd: ["а̄лльп", "aːʎːp"],  // Not a 'sun-bird' compound, unlike the other Sámi rows; WOLD independently records the same word as āll’p.
     mns: ["ла̄панты", "laːpantɪ"],
@@ -682,7 +682,7 @@ WORDS.butterfly = {
     kbd: ["хьэндырабгъуэ", "ħandərabʁʷa"],
     dng: ["хўтезы", "xu˨˦tʰie˥˩tsɨ"],
     ja_oki: ["はべる", "habeɾu"],
-    bzh: ["beluk", "bəluk"],
+    bzh: ["beluk", "ᵐbəl̪uk"],
     tay: ["kperay", "kpəraj"],
     vro: ["lipkas", "ˈlipkɑs"],
     ruq: ["pipirugă", "pipiˈruɡə"],
@@ -714,7 +714,7 @@ WORDS.butterfly = {
     pt_mo: ["borboleta", "buɾbuˈletɐ"],
     en_brum: ["butterfly", "ˈbʊtəflɑɪ"],
     en_ph: ["butterfly", "ˈbʌtɚflaɪ"],
-    hsn_hy: ["哈老婆婆", "xa˦˦˥ lau˧˧ po˩˩ po˩˩"],
+    hsn_hy: ["哈老婆婆", "xa˧˧ lau˧˧ po˩˩˨ po˩˩˨"],
     wls: ["pepe", "pepe"],
     woe: ["libegibeg", "libeɡibeɡ"],
     fud: ["pepe", "pepe"],

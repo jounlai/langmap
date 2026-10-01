@@ -823,7 +823,7 @@ WORDS.sleep = {
     hak_tw: ["睡目", "soi˥˥ muk˥"],
     hak_hl: ["睡目", "ʃoi˧˧ muk˨˨"],
     yue_gz: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
-    yue_dg: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
+    yue_dg: ["瞓觉", "fɐn˦˦˧ kau˦˦˧"],
     yue_nn: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
     yue_zs: ["瞓覺", "fɐn˧ kaːu˧"],
 
@@ -1093,6 +1093,7 @@ WORDS.sleep = {
     sce: ["hhuntura-", "huntura"],
     mkz: ["tae", "tae"],
     trn: ["imko", "imko"],
-    wym: ["śłöfa", "ˈʃwøfa"]
+    wym: ["śłöfa", "ˈʃwøfa"],
+    yiz: ["ʑi", "ʑi˨˩"]
   },
 };

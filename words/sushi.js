@@ -416,7 +416,7 @@ WORDS.sushi = {
     "vi_s": ["sushi", "ʂu˧ ʂi˧"],
     "wuu_jx": ["寿司", "ze˩˩˧ sz̩˥˧"],
     bew: ["sushi", "ˈsuʃi"],
-    io: ["sushio", "suˈʃio"],
+    io: ["sushio", "ˈsuʃio"],
     fit: ["susji", "ˈsuʃi"],
     zgh: ["ⵙⵓⵛⵉ", "suʃi"],
     aln: ["sushi", "ˈsuʃi"],

@@ -882,7 +882,7 @@ WORDS.new = {
     mic: ["pilei", "bilei"],
     apw: ["áníidé", "áníːdé"],
     jiv: ["yamaram", "jamaram"],
-    bzh: ["mewis", "mewis"],
+    bzh: ["mewis", "məˠwitʃ"],
     mpt: ["mema", "mema"],
     chr: ["ᎠᏤ", "atse"],
     mwl: ["nuobo", "ˈnwobu"],

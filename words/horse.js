@@ -770,7 +770,7 @@ WORDS.horse = {
     ruq: ["cal", "kal"],
     poh: ["kaway", "kawaj"],
     jiv: ["kawai", "kawai"],
-    bzh: ["hoos", "hoːs"],
+    bzh: ["hoos", "ʁoːtʃ"],
     mpt: ["til hos", "til hos"],
     sip: ["རྟ", "ta"],
     pau: ["uos", "uos"],

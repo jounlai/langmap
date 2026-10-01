@@ -130,6 +130,7 @@ const ALLOW = [
   // 2026-09-30 Min audit: in these rows "one" is the colloquial tsi̍t / tsek8,
   // which Wiktionary files as a separate etymon (alt 蜀) and whose tone is 陽入 —
   // the character 一 is only its spelling, so its 陰入 class does not apply.
+  { code: /^yue_dg$/, ch: '星', why: 'Dongguan colloquial 星 ʃœŋ is the changed tone 9a (55) — MCPDict 東莞 marks it 白; literary ʃəŋ is 陰平 23' },
   { code: /^mnp$/, ch: '红', why: "Jian'ou 紅 ǒ̤ng /ɔŋ²¹/ (Wiktionary mb; MCPDict 建甌 ɔŋ3): the Northern Min class of 陽平 words that went to 上" },
   { code: /^cpx$/, ch: '疼', why: 'Putian 疼 "to love" is tia4 /tʰia⁴²/ (Wiktionary pt), a 陰去 word, not the 陽平 of MC 疼' },
   { code: /^(nan_(te|pn|qz|ph|xm)|cdo)$/, ch: '一', why: 'colloquial "one" is 蜀-type tsit8 / tsek8 / Fuzhou siŏh (陽入), not 一 it (陰入)' },

@@ -291,7 +291,7 @@ WORDS.salt = {
     // --- Rest of Europe -------------------------------------------------
     rue: ["сіль", "silʲ"],
     szl: ["sōl", "sol"],
-    ltg: ["sōls", "soːls"],
+    ltg: ["suoļs", "suoʎs"],
     sgs: ["druska", "druska"],
     hyw: ["աղ", "ɑʁ"],
     se: ["sálti", "ˈsaːlti"],
@@ -382,7 +382,7 @@ WORDS.salt = {
     cjy_lv: ["盐", "iɪ˦˦"],
     cjy_xz: ["盐", "jæ̃˩˩"],
     hsn: ["盐", "jɛn˩˧"],
-    hsn_hy: ["盐", "jɛn˩˧"],
+    hsn_hy: ["盐", "ien˩˩˨"],
     hsn_yz: ["盐", "jɛn˩˧"],
     gan: ["盐", "jɛn˨˦"],
     gan_ja: ["盐", "jɛn˦˥"],
@@ -392,7 +392,7 @@ WORDS.salt = {
     wuu_nb: ["盐", "ɦi˨˨˧"],
     wuu_wz: ["盐", "ɦi˧˩"],
     yue_gz: ["盐", "jiːm˨˩"],
-    yue_dg: ["盐", "jiːm˨˩"],
+    yue_dg: ["盐", "jin˧˩"],
     yue_nn: ["盐", "jiːm˨˩"],
     yue_zs: ["鹽", "im˨˩"],
     yue_ts: ["盐", "jiam˨˨"],
@@ -984,7 +984,7 @@ WORDS.salt = {
     meu: ["damena", "damena"],
     ho: ["damena", "damena"],
     emi: ["uela", "uela"],
-    bzh: ["mamireng", "mamireŋ"],
+    bzh: ["mamireng", "mamiɾəŋ"],
     woe: ["gasiigaa", "ɡasiːɡaː"],
     yap: ["sool", "soːl"],
     chk: ["sóón", "səːn"],
@@ -1051,7 +1051,7 @@ WORDS.salt = {
     bla: ["isttsiksipoko", "istːsiksipoko"],
     hop: ["öönga", "ʔøːŋa"],
     win: ["nįįsgú", "nĩːsˈɡu"],
-    cro: ["awaxóosa", "awaχóːsa"],
+    cro: ["awaxóose", "awaχóːse"],
     hai: ["tang", "taŋ"],
     cic: ["hapiʼ", "hapiʔ"],
     ik: ["taġiuq", "taʁiuq"],
@@ -1204,6 +1204,7 @@ WORDS.salt = {
     bbl: ["თუჲხი̆", "tujxi"],
     blc: ["stʼs", "stʼs"],
     lun: ["muŋwa", "muŋwa"],
-    kgg: ["huki", "huki"]
+    kgg: ["huki", "huki"],
+    kpe: ["kpolo", "kpolo"]
   },
 };

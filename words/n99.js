@@ -1039,7 +1039,7 @@ WORDS.n99 = {
     yue:    ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"],
     yue_ts: ["九十九", "kiu˧˧ sip˨ kiu˧˧"],
-    yue_dg: ["九十九", "kau˧˥ sɔk˨ kau˧˥"],
+    yue_dg: ["九十九", "kau˧˥ ʃɔk˧ kau˧˥"],
     yue_nn: ["九十九", "kɐu˧˥ ɬɐp˨ kɐu˧˥"],
     nan_te: ["九十九", "kau˥˨ tsap˦ kau˥˨"],
     nan_qz: ["九十九", "kau˥˥˦ tsap˨˦ kau˥˥˦"],
@@ -1056,7 +1056,7 @@ WORDS.n99 = {
     zh_wh:  ["九十九", "tɕiou˦˨ sz̩˨˩˧ tɕiou˦˨"],
     zh_kf:  ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"],
     zh_tj:  ["九十九", "tɕiou˨˩˧ ʂʅ˦˥ tɕiou˨˩˧"],
-    hsn_hy: ["九十九", "tɕiu˧˧ ɕi˩˧ tɕiu˧˧"],
+    hsn_hy: ["九十九", "tɕiu˧˧ ɕi˩˩˨ tɕiu˧˧"],
 
     // --- Pluricentric rows -----------------------------------------------
     // Belgium and Switzerland count in nonante, not quatre-vingt-dix — the one

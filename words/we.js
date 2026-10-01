@@ -1615,7 +1615,7 @@ WORDS.we = {
     hot: ["yilu / alalu", "jilu / alalu"],
     fai: ["nu", "nu"],
     nlc: ["nun", "nun"],
-    bzh: ["hil / he", "hil / he"],
+    bzh: ["hil / he", "ʁil̪ / ʁɛ"],
     tcs: ["yumpla / mipla", "jumpla / mipla"],
     pis: ["iumi / mifala", "jumi / mifala"],
     hwc: ["we", "wi"],

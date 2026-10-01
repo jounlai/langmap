@@ -548,7 +548,7 @@ WORDS.head = {
     myx: ["kumurwe", "kumurwe"],
     sbp: ["umutwe", "umutwe"],
     sog: ["sari", "sari"],
-    bzh: ["ulu", "ulu"],
+    bzh: ["yu", "ju"],
     hot: ["ukaduk", "ukaduk"],
     kjg: ["kəmpoŋ", "kəmpoŋ"],
     nmf: ["kui", "kui"],
@@ -1029,6 +1029,8 @@ WORDS.head = {
     roo: ["kukue", "kukue"],
     hop: ["qötö", "qøtø"],
     bin: ["uhunmwun", "uhũmwũ"],
-    cay: ["onǫ́ʼa:ʼ", "onṍʔaːʔ"]
+    cay: ["onǫ́ʼa:ʼ", "onṍʔaːʔ"],
+    mcf: ["mapi", "maˈpi"],
+    men: ["ngu", "ŋɡu"]
   },
 };

@@ -1041,11 +1041,10 @@ for (const code of codes) {
                 ivv: new Set(['cat']),
                 itb: new Set(['cat', 'love', 'hello', 'thanks']),
                 dds: new Set(['fish']),
-                ker: new Set(['red']),
                 agq: new Set(['we']),
                 mgo: new Set(['we']),
                 koy: new Set(['we']),
-                yiz: new Set(['we']),
+                yiz: new Set(['we', 'love']),  // love added 2026-10-02 (r25flags)
                 // 2026-10-01 flag round (r23flags): published cells removed as
                 // wrong, with no sourced replacement. ksb hello was "nashukuru"
                 // ("I thank"). aiw love/cat/house/eat/drink/hello/thanks were
@@ -1058,6 +1057,13 @@ for (const code of codes) {
                 aiw: new Set(['love', 'cat', 'house', 'eat', 'drink', 'hello', 'thanks']),
                 mlq: new Set(['hello', 'thanks']),  // fire/fish filled from the Kéniéba texts on 2026-10-01
                 byn: new Set(['hello', 'thanks']),
+                // 2026-10-02 flag round r25flags: wrong cells removed, no sourced
+                // replacement. sel earth: the real word is spelled like the row's
+                // four. yux star: no Cyrillic spelling found (the old form was
+                // invented). yiz/kmh love: no sourced citation form (kmh's kn- is
+                // 'lie down'). nlc heart: 'ngal' is in neither Nalca source.
+                sel: new Set(['earth']), yux: new Set(['star']),
+                kmh: new Set(['love']), nlc: new Set(['heart']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

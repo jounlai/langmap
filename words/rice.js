@@ -633,7 +633,7 @@ WORDS.rice = {
     kpv: ["рис", "ris"],
     gil: ["raiti", "ɾaisi"],
     nmf: ["mawon", "mawon"],
-    bzh: ["padi", "padi"],
+    bzh: ["padi", "paⁿdi"],
     mic: ["tuliʼjeweieʼl", "duliːdʒewejeːl"],
     chr: ["ᎦᏃᎮᎾ", "ɡanohena"],
     kjh: ["ах тараан", "ax taraːn"],

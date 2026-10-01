@@ -818,7 +818,7 @@ WORDS.orange = {
     gsw_w: ["Orange", "oˈraŋʒə"],
     lij_t: ["naranza", "naˈraŋza"],
     wuu_hz: ["橙", "zaŋ˨˩˧"],
-    yue_dg: ["橙", "tsʰaːŋ˩˧"],
+    yue_dg: ["橙", "tʃʰɛŋ˧˩"],
     yue_nn: ["橙", "tʃʰaŋ˧˥"],
     zh_cq: ["橙", "tsʰən˨˩"],
     zh_jn: ["橙", "tʂʰɤŋ˦˨"],

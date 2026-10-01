@@ -823,7 +823,7 @@ WORDS.mountain = {
     bum: ["nkôl", "ŋkɔl"],
     maz: ["tʼeje", "tʼehe"],
     ty: ["mouʻa", "mouʔa"],
-    bzh: ["ḳedu", "qədu"],
+    bzh: ["ḳedu", "qəⁿdu"],
     tay: ["rgyax", "rɣjax"],
     kca: ["рэп", "rəp"],
     dur: ["gʉʉ", "ɡʉʉ"],

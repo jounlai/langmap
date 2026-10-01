@@ -595,7 +595,7 @@ WORDS.wheel = {
     ani: ["чӏуриги", "tʃʼuriɡi"],
     huz: ["гьа̇бур", "hɑbur"],
     aqc: ["гвениши", "ɡʷeniʃi"],
-    bbl: ["борбал", "borbal"],
+    bbl: ["ბორბალ", "borbal"],
     kum: ["дёгерчик", "døɡertʃik"],
     nog: ["тынъыршык", "tɯŋɯrʃɯk"],
     sd: ["ڦيٿو", "ˈpʰeːtʰo"],
@@ -721,7 +721,7 @@ WORDS.wheel = {
     gez: ["መንኰራኵር", "mankʷaraːkʷər"],
     tig: ["ዕንክሎሎ", "ʕənkəlolo"],
     bla: ["oʼtakáínakaʼsi", "oʔtakáːínakaʔsi"],
-    cro: ["baaiihuli", "baːiːhuli"],
+    cro: ["baaiihulé", "baːiːhulé"],
     win: ["hogís", "hoˈɡis"],
     cay: ["ęˀníhsga:ˀ", "ẽʔníhsɡaːʔ"],
     cr: ["ᐅᑎᐦᑎᐱᐸᔨᐤ", "otihtipipajiw"],
@@ -889,6 +889,6 @@ WORDS.wheel = {
     ja_rys: ["車", "kuɾuma"],
     ruq: ["roată", "ˈroatə"],
     yur: ["weeel", "wiːl"],
-    hsn_hy: ["轮子", "luɛn˩˩ tsɿ"]
+    hsn_hy: ["轮子", "luən˩˩˨ tsɿ"]
   }
 };

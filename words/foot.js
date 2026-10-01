@@ -1334,7 +1334,7 @@ WORDS.foot = {
     bxr: ["хүл", "xyl"],  // хүл covers both, as Mongolian хөл and Kalmyk көл do.
     bzd: ["klö̀", "klø"],  // Bribri splits klö̀ from tuʼ, which is what the NT breaks at John 19:32. The low tone needs a combining grave this row has not used before.
     bzg: ["asiel", "asiel"],  // Happart 1840:14 'Asiél, the leg of a man or beast'; he has no foot headword at all and builds every foot expression on it — chauch o asiel 'under the foot', morr' o asiel 'the bottom of the foot' — while thigh, calf, knee, shin, ankle and heel are all lexicalised around it.
-    bzh: ["vaha", "vaha"],  // One stem does both jobs in the Mapos text — vahaj for the disciples' feet at John 13:5 and for the legs the soldiers break at John 19:31-32 — and John 19:36 names seḳë as the bone, so the leg passage is not a bone phrase; ABVD's Headwaters list (id 1691) gives the same word as ßaɣa.
+    bzh: ["vaha", "βaʁa"],  // One stem does both jobs in the Mapos text — vahaj for the disciples' feet at John 13:5 and for the legs the soldiers break at John 19:31-32 — and John 19:36 names seḳë as the bone, so the leg passage is not a bone phrase; ABVD's Headwaters list (id 1691) gives the same word as ßaɣa.
     bzj: ["fut", "fʊt"],  // Belize Kriol breaks 'ih fut dehn' where the Greek has legs, so fut runs the whole limb as Sranan futu and Papiamento pia do.
     ca: ["peu", "pɛw"],  // peu vs cama.
     ca_va: ["peu", "pɛw"],  // The AVL's own normative dictionary transcribes peu [pɛ́w], and the row's neu /nɛw/ — the same rime, also byte-identical to Barcelona — shows why Valencian's vowel reduction cannot separate them here.
@@ -1560,7 +1560,7 @@ WORDS.foot = {
     gon: ["काल", "kaːl"],  // DEDR 1479 carries Go. kāl straight through with the gloss 'leg, foot', from Burrow and Bhattacharya's Gondi Vocabulary 652.
     gor: ["oʼato", "ʔoˈʔato"],  // The Gorontalo Bible washes oʼato at John 13:5, breaks it at John 19:31-32 with tula'u 'bone' at John 19:36 as the control, and uses it again for the legs like marble pillars at Song of Songs 5:15; paladu, the ACD's only other entry, is the sole of the foot. ABVD Hulondalo answers leg/foot with ʔoʔato.
     got: ["𐍆𐍉𐍄𐌿𐍃", "foːtus"],  // Wright's Glossary and Lehmann s.v. fōtus, which renders Greek πούς alone. Route unknown: σκέλος falls outside the preserved text, so IDS leaves Gothic 4-350 blank.
-    gqu: ["pu31 ko35", "pu˧˩ko˧˥"],  // Gelao uses one expression for the whole lower limb, against the tin/kha split of its Tai neighbours.
+    gqu: ["pu31 ko35", "pu˧˩ ko˧˥"],  // Gelao uses one expression for the whole lower limb, against the tin/kha split of its Tai neighbours.
     grt: ["ja·pa", "dʒapa"],  // Burling's Mandi dictionary has ja· for the whole lower limb and ja·pa 'sole of the foot, foot' — the same -pa that makes jakpa the palm of the hand.
     gsw: ["Fuess", "fuəs"],  // MHG uo stayed a diphthong in Alemannic and this row shows it four times over (guet, Bluet, Buech, Mueter), so Fuess cannot be the parent's monophthongal Fuß.
     gsw_w: ["Füess", "fyəs"],  // Füess vs Bei, which in Wallis covers 'leg' and 'bone' alike.
@@ -1603,7 +1603,7 @@ WORDS.foot = {
     hr: ["noga", "nǒɡa"],  // noga covers the lower limb; stopalo is the anatomical foot.
     hsb: ["noha", "ˈnɔha"],  // As Lower Sorbian and Czech.
     hsn: ["脚", "tɕio˨˦"],  // Changsha builds the shank on the foot word — 小腿 is 腳欛子 — and neighbouring Loudi uses 腳欛子 for the leg itself. MCPDict 長沙 脚 tɕio7; ˨˦ is Changsha's 入聲 and this row's value on all nine 陰入 cells.
-    hsn_hy: ["脚", "tɕio˨˩"],  // Hengyang has no 腿 at any level: the thigh is 大腳把子 and the shank 小腳把子, both built on 腳. MCPDict 衡陽 脚 tɕio7. Tone written ˨˩ with the row's own 陰入 majority (一 i˨˩, 雪 ɕye˨˩, 屋 u˨˩) — the ˨˦ on its 血 百 铁 骨 is Changsha's 24, not Hengyang's.
+    hsn_hy: ["脚", "tɕio˨˨"],  // Hengyang has no 腿 at any level: the thigh is 大腳把子 and the shank 小腳把子, both built on 腳. MCPDict 衡陽 脚 tɕio7. Tone written ˨˩ with the row's own 陰入 majority (一 i˨˩, 雪 ɕye˨˩, 屋 u˨˩) — the ˨˦ on its 血 百 铁 骨 is Changsha's 24, not Hengyang's.
     hsn_yz: ["脚", "tɕio˥˦"],  // As Hengyang and Changsha. Segments from MCPDict 零陵/永州官話 腳 tɕio; tone ˥˦ with the row's 一 it˥˦ 雪 ɕye˥˦ 日 nit˥˦ 月 ŋɔ̃˥˦, which is the 53 that both published 永州土話 systems give for 入聲.
     ht: ["pye", "pje"],  // pye vs janm, following the French split.
     hts: ["ʼupukhwa", "ʔupʰukʰʷa"],  // Bleek's Bushman Dictionary 249 glosses the Hadza stem 'leg, hind leg, foot, footprint' in one entry; pàtákùšé-yà is only the sole.
@@ -1796,7 +1796,7 @@ WORDS.foot = {
     luy: ["eshilenje", "eʃilendʒe"],  // The Luwanga and Lunyore Bibles both wash ebilenje in John 13 and break ebilenje in John 19, and Mark 9:45 gives the singular in the esh- spelling this row's eshikumba uses.
     luz: ["pâ", "pɑː"],  // As Northern Luri.
     lv: ["kāja", "kaːja"],  // kāja denotes the whole lower limb; pēda is the foot-specific word, and IDS lists both under 'foot'. Compare Lithuanian, where the same two-way set is classed the other way.
-    lwl: ["cuaŋ", "cuaŋ"],  // Mitani's Bo Luang vocabulary gives cuaŋ, the Eastern form of proto Wa-Lawa *ɟoŋ, and Huffman files the one Lawa word under both 'foot' and 'leg'. The Western Lawa New Testament confirms it: John 19 breaks ซอัง, which John 19:36 shows is the bone.
+    lwl: ["cuang", "cua̯ŋ"],  // [2026-10-02: respelled in the Bo Luang orthography the row was rebuilt to (Wiktionary จวง cuang); the note below gives the earlier phonemic form.] Mitani's Bo Luang vocabulary gives cuaŋ, the Eastern form of proto Wa-Lawa *ɟoŋ, and Huffman files the one Lawa word under both 'foot' and 'leg'. The Western Lawa New Testament confirms it: John 19 breaks ซอัง, which John 19:36 shows is the bone.
     lzz: ["კუჩხე", "kʼutʃxe"],  // Laz კუჩხე covers the foot and the whole limb, as Georgian ფეხი and Svan ჭიშხ do; Proto-Kartvelian *ḳwarc₁x-.
     mad: ["soko", "sɔkɔ"],  // Madurese washes soko at John 13:5 but breaks bettes at John 19:31-33, and Song of Songs 5:15 gives bettes again for the legs like marble pillars, so bettes is a leg word in its own right and not just the calf; tolang is the bone at John 19:36 and bangkong the thigh at Daniel 2:32.
     mag: ["गोड़", "ɡoːɽ"],  // As Bhojpuri and Maithili गोड़: one word for the whole lower limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes हाथ as haːtʰ.
@@ -2102,7 +2102,7 @@ WORDS.foot = {
     sma: ["juelkie", "jʉɛlkiɛ"],  // One word for the whole lower limb, the Uralic norm.
     smj: ["juolgge", "jʊuɔlɡːɛ"],  // One word for the whole lower limb, the Uralic norm.
     smn: ["jyel'gi", "jyelɡi"],  // One word for the whole lower limb, the Uralic norm.
-    sms: ["jue´lǧǧ", "ʝuɛlʲɟɟʝʲɘ"],  // One word for the whole lower limb, the Uralic norm.
+    sms: ["jueʹlǧǧ", "ʝuɛlʲɟɟʝʲɘ"],  // One word for the whole lower limb, the Uralic norm.
     sn: ["tsoka", "tsoka"],  // Shona splits them: tsoka is the foot and gumbo the leg, the latter with the page reference to Hannan in the Tervuren lexicostatistic file.
     so: ["cago", "ʕaɡo"],  // Somali splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes gacan as ɡaʕan.
     soa: ["ตีน", "tiːn˧"],  // The Tai tin/kha split: ตีน against ขา. Thai Song is the Thailand-resident Black Tai, and ABVD's Tai Dam list (Pittayaporn 2021) gives tin¹ 'foot' beside kʰaː¹ 'leg'.

@@ -708,7 +708,7 @@ WORDS.sea = {
     mic: ["ktaʼn", "əktaːn"],
     apw: ["túnteel", "túnteːl"],
     jiv: ["nayaants", "najaants"],
-    bzh: ["loo", "loː"],
+    bzh: ["loo", "l̪oː"],
     chr: ["ᎠᎺᏉᎯ", "amekʷohi"],
     sip: ["རྒྱ་མཚོ", "ɡʲamtsʰo"],
     yai: ["bahr", "bahr"],

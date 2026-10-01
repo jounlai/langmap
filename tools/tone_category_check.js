@@ -35,6 +35,10 @@ const MC = {
   '行:1':['P','z'], '行:2':['P','z'],        // xíng / háng, both 匣母 level
   '来':['P','c'], '去':['Q','q'], '見':['Q','q'], '聞':['P','c'],
   '食':['R','z'], '飲':['S','q'], '走':['S','q'], '坐':['S','z'], '立':['R','c'],
+  // tier 3 (2026-10-02). 個 and 鼻 deliberately omitted, like 貓 and 鳥:
+  // 鼻 is 去 in 廣韻 but read as 入 in Wu/Jin and 陽平 in Mandarin (集韻 毗必切);
+  // 個 is a classifier with lect-specific tone (neutral, 入, changed tone).
+  '你':['S','c'], '小':['S','q'], '多':['P','q'],  '熱':['R','c'],  '長:1':['P','z'], '長:2':['S','q'],
   // 2026-10-02: the 18 characters added to the Han Map.
   '我':['S','c'],   '大':['Q','z'],   '白':['R','z'],   '茶':['P','z'],   '飛':['P','q'],   '無':['P','c'],
   '兒':['P','c'],   '黃':['P','z'],   '家':['P','q'],   '生':['P','q'],   '不':['R','q'],   '青':['P','q'],
@@ -50,7 +54,7 @@ const EXCLUDE = new Set([
   'ko','ko_mid','ko_kp','ko_zai','ko_bus','ko_hun',
   'vi','vi_c','vi_s','vi_nom','vi_ohan',
   'ja','ja_kgs','ja_kun','ja_ojp','ja_okn','ja_thk',
-  'txg','zkt','mnc','sjo','juc','bca','za','dng','bo_sino',
+  'txg','zkt','mnc','sjo','juc','bca','za','za_sd','dng','bo_sino',
   'pst','ptb','pko','pja','ptung','paa','ptai','pmgl','phm',
 ]);
 
@@ -121,6 +125,12 @@ const EXCEPTIONS = new Set([
   // sonorant 陽入 in tone 7; Nanchang 月 魚 as the table gives them.
   'gan|月', 'gan|魚', 'wuu_jx|雨', 'wuu_jx|日', 'wuu_jx|土', 'wuu_jx|犬', 'wuu_jx|口',
   'yue_dg|八', 'yue_dg|血', 'yue_nn|八', 'yue_nn|血', 'yue_zs|八', 'yue_zs|血',
+  // tier 3 (2026-10-02): source-given irregulars shown up by the new cells —
+  // 熱 in Jin/Loudi/Jian'ou, 下 in Hui/Yong'an (locative reading), Yong'an 你,
+  // Leizhou vernacular 八 血 that lost their stop (tone 7 = 55), Jinhua 行 (as
+  // the 金華 table gives it), Guilin Mandarin 中:2.
+  'cjy|熱', 'hsn_ld|熱', 'mnp|熱', 'czh_jx|下', 'czh_wy|下', 'mnz|下', 'mnz|你',
+  'nan_lei|八', 'nan_lei|血', 'wuu_jh|行:1', 'wuu_jh|行:2', 'zh_gl|中:2',
   'cjy_lv|五',
   'cnp_gl|不',
   'cpx|行:2',

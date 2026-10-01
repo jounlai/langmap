@@ -1002,6 +1002,15 @@ WORDS.milk = {
     kmb: ["lete", "lete"],
     drs: ["ado", "ado"],
     bug: ["susu", "susu"],
-    nus: ["cak", "tʃak"]
+    nus: ["cak", "tʃak"],
+    vai: ["ꖬꖬ", "susu"],
+    frp: ["lacél", "laˈθɛl"],
+    ja_oki: ["牛ぬ乳", "ʔuɕinutɕiː"],
+    ebu: ["ĩriia", "eɾiːa"],
+    nmf: ["seina", "seinə"],
+    bsq: ["nɛɛ̀-nì", "nɛɛ̀nì"],
+    sgw: ["ኤብ", "eb"],
+    bum: ["menyaŋ", "meɲaŋ"],
+    zap: ["leche", "letʃe"]
   },
 };

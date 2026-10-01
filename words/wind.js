@@ -1053,6 +1053,12 @@ WORDS.wind = {
     mgo: ["əfim", "əfim"],
     nan_ph: ["風", "huaŋ˧˧"],
     ibb: ["afịm", "afɪm"],
-    zne: ["yuge", "juɡe"]
+    zne: ["yuge", "juɡe"],
+    vai: ["ꔱꕩ", "fija"],
+    bsq: ["dìì", "dìː"],
+    gej: ["aya", "aja"],
+    bum: ["évuŋulu", "evuŋulu"],
+    maz: ["ndajma", "ndahma"],
+    saq: ["siwuo", "siwuo"]
   },
 };

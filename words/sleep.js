@@ -1064,6 +1064,9 @@ WORDS.sleep = {
     aqc: ["ахукес", "aχukes"],
     mgo: ["gwen", "ɡwen"],
     nan_ph: ["睏", "kʰun˦˩"],
-    mnp: ["目䁒", "mi˦˨ tsʰi˨˦"]
+    mnp: ["目䁒", "mi˦˨ tsʰi˨˦"],
+    vai: ["ꕃ", "ki"],
+    bsq: ["mɔ́", "mɔ́"],
+    maz: ["ĩjĩ", "ĩhĩ"]
   },
 };

@@ -1025,6 +1025,14 @@ WORDS.honey = {
     mzn: ["عسل", "asel"],
     bgq: ["सेत", "seːt"],
     mwr: ["सेहद", "seɦəd"],
-    nus: ["tuaar", "tuaːr"]
+    nus: ["tuaar", "tuaːr"],
+    gcf: ["siwo myèl", "siwo mjɛl"],
+    dng: ["фынми", "fəŋ˨˦mi˥˩"],
+    bsq: ["ɖo", "ɖo"],
+    gej: ["anyisi", "aɲisi"],
+    bfa: ["siwatat", "siwatat"],
+    bum: ["wôé", "wɔe"],
+    saq: ["naicho ee lotoro", "naitʃo eː lotoro"],
+    ty: ["meri", "meɾi"]
   },
 };

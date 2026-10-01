@@ -1007,6 +1007,13 @@ WORDS.iron = {
     bxk: ["sichuuma", "sitʃuːma"],
     quz: ["fierro", "ˈfjero"],
     abs: ["besi", "besi"],
-    luy: ["eshibia", "eʃibia"]
+    luy: ["eshibia", "eʃibia"],
+    gym: ["jiero", "hieɾo"],
+    vai: ["ꖴꖫ", "kundu"],
+    dng: ["те", "tʰie˨˦"],
+    mam: ["kxbʼil", "kʃɓil"],
+    gej: ["gayibɔ", "ɡajibɔ"],
+    bfa: ["witi", "witi"],
+    mtq: ["khách", "kʰac"]
   },
 };

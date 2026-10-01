@@ -1071,6 +1071,10 @@ WORDS.daughter = {
     kru: ["तंग्दा", "taŋdaː"],
     wuu_nb: ["囡", "nø˩˧"],
     sas: ["anak nine", "anak ninə"],
-    max: ["ana parampuang", "ana parampuaŋ"]
+    max: ["ana parampuang", "ana parampuaŋ"],
+    gcf: ["fi", "fi"],
+    ja_oki: ["いなぐんぐゎ", "winaɡuŋɡwa"],
+    sgw: ["ገረድ", "ɡɐrɐd"],
+    bi: ["gel", "ɡel"]
   },
 };

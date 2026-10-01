@@ -936,6 +936,15 @@ WORDS.mouth = {
     scn: ["vucca", "ˈvukka"],
     nym: ["mulomo", "mulomo"],
     kfy: ["मुँख", "mũkʰ"],
-    ar_sd: ["خشم", "xaʃum"]
+    ar_sd: ["خشم", "xaʃum"],
+    ab: ["аҿы", "aʈʂʼə"],
+    vai: ["ꕞ", "la"],
+    byn: ["አብ", "ʔəb"],
+    dng: ["зуй", "tsuei˥˩"],
+    cab: ["iumaü", "iumaɨ"],
+    tzh: ["tiʼ", "tiʔ"],
+    spp: ["ɲwɔge", "ɲwɔɡe"],
+    bum: ["anyu", "aɲu"],
+    maz: ["neʼe", "neʔe"]
   }
 };

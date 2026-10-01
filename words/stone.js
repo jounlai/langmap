@@ -1077,6 +1077,11 @@ WORDS.stone = {
     dbq: ["gugun", "ɡuɡun"],
     nan_ph: ["石頭", "tsioʔ˨˦ tʰau˨˦"],
     bxk: ["libaale", "libaːle"],
-    kfy: ["ढूंगो", "ɖʱuːŋɡo"]
+    kfy: ["ढूंगो", "ɖʱuːŋɡo"],
+    gym: ["jä", "hæ"],
+    vai: ["ꔖꘋ", "sɛŋ"],
+    dng: ["шыту", "ʂɨ˨˦tʰou˥˩"],
+    nmf: ["ngalung", "ŋaluŋ"],
+    bsq: ["sɔ́ɔ́-kpò", "sɔ́ːkpò"]
   },
 };

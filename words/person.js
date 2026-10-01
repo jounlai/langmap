@@ -846,6 +846,14 @@ WORDS.person = {
     haz: ["انسان", "insɒn"],
     mzn: ["آدم", "ɒdem"],
     en_app: ["person", "ˈpɝsn̩"],
-    scn: ["pirsuna", "pirˈsuna"]
+    scn: ["pirsuna", "pirˈsuna"],
+    ctu: ["kixtyañu", "kiʃtʲaɲu"],
+    vai: ["ꗞ", "mo"],
+    frp: ["pèrsona", "pɛrˈsona"],
+    bzj: ["persn", "pɛrsn̩"],
+    aiw: ["ed", "ʔed"],
+    bsq: ["nyɔ", "ɲɔ"],
+    gej: ["agbetɔ", "aɡbetɔ"],
+    maz: ["nte", "nte"]
   }
 };

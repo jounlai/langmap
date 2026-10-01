@@ -403,6 +403,11 @@ WORDS.chocolate = {
     de_at: ["Schokolade", "ʃokoˈlaːdə"],
     en_app: ["chocolate", "ˈtʃɑːklət"],
     scn: ["cicculatti", "tʃikkuˈlatti"],
-    es_an: ["chocolate", "tʃokoˈlate"]
+    es_an: ["chocolate", "tʃokoˈlate"],
+    to: ["sokoleti", "sokoleti"],
+    frp: ["ch·ocolât", "tʃokoˈla"],
+    gcf: ["chokola", "ʃokola"],
+    mdr: ["sikolaq", "sikolaʔ"],
+    cab: ["chuguladi", "tʃuɡuladi"]
   }
 };

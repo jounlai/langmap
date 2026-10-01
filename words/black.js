@@ -1056,6 +1056,15 @@ WORDS.black = {
     pnb: ["کالا", "kaːlaː"],
     haz: ["سیاه", "sijɒ"],
     de_at: ["schwarz", "ʃvarts"],
-    nus: ["car", "tʃar"]
+    nus: ["car", "tʃar"],
+    ab: ["аиқәаҵәа", "ajkʷʰatsʼʷa"],
+    byn: ["ንሺራዅ", "nəʃiraxʷ"],
+    dng: ["хи", "xi˨˦"],
+    spp: ["niŋgwɔhɔ", "niŋɡwɔhɔ"],
+    lbe: ["лухӏисса", "luħisːa"],
+    bsq: ["kpìǐ", "kpìǐ"],
+    gej: ["yibɔ", "jibɔ"],
+    bum: ["évindi", "evindi"],
+    maz: ["potjü", "potʰɨ"]
   },
 };

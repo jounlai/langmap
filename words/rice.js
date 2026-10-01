@@ -627,6 +627,11 @@ WORDS.rice = {
     en_in: ["rice", "raɪs"],
     en_south: ["rice", "ɹaɪs"],
     de_at: ["Reis", "raɪ̯s"],
-    en_app: ["rice", "ɹaɪs"]
+    en_app: ["rice", "ɹaɪs"],
+    bzj: ["rais", "rais"],
+    dng: ["ми", "mi˥˩"],
+    kpv: ["рис", "ris"],
+    gil: ["raiti", "ɾaisi"],
+    nmf: ["mawon", "mawon"]
   }
 };

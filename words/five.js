@@ -1157,6 +1157,10 @@ WORDS.five = {
     mgo: ["tân", "tân"],
     dbq: ["jəɓin", "dʒəɓin"],
     nan_ph: ["五", "ɡɔ˧˧"],
-    bxk: ["baraano", "baraːno"]
+    bxk: ["baraano", "baraːno"],
+    byn: ["አንኳ", "ʔankʷa"],
+    dng: ["ву", "vu˥˩"],
+    bsq: ["hm̀m̌", "hm̩̀m̩̌"],
+    maz: ["tsiʼchʼa", "tsiʔtʃʼa"]
   },
 };

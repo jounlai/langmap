@@ -1080,6 +1080,14 @@ WORDS.bird = {
     nan_ph: ["鳥", "tsiau˥˥˦"],
     lrc: ["بالنه", "bɒlenæ"],
     skr: ["پکھی", "pəkʰiː"],
-    bgq: ["पंछी", "pəntʃʰiː"]
+    bgq: ["पंछी", "pəntʃʰiː"],
+    vai: ["ꖏꔕ", "kɔndɛ"],
+    byn: ["ጀኸላ", "dʒəxəla"],
+    dng: ["чёр", "tɕʰiɔr˥˩"],
+    nmf: ["vanao", "vanao"],
+    bsq: ["naà", "naà"],
+    gej: ["xevi", "xevi"],
+    maz: ["sʼü", "sʼɨ"],
+    saq: ["nkueenyi", "ŋkuɛːɲi"]
   },
 };

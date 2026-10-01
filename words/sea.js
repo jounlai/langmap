@@ -794,6 +794,15 @@ WORDS.sea = {
     wal: ["abbaa", "abːaː"],
     kfy: ["समुन्द्र", "səmundr"],
     nyn: ["enyanja", "eɲaɲdʒa"],
-    cgg: ["enyanja", "eɲaɲdʒa"]
+    cgg: ["enyanja", "eɲaɲdʒa"],
+    nyo: ["enyanja", "eɲaɲɟa"],
+    vai: ["ꗛꔤ", "koi"],
+    dng: ["хэ", "xɛ˥˩"],
+    ttj: ["enyanja", "eɲaːndʒa"],
+    ja_oki: ["海", "ʔumi"],
+    bsq: ["dyóó", "dʒóː"],
+    gej: ["apu", "apu"],
+    bum: ["maŋ", "maŋ"],
+    maz: ["mar", "maɾ"]
   }
 };

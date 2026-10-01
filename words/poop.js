@@ -724,6 +724,8 @@ WORDS.poop = {
     wal: ["shiyaa", "ʃijaː"],
     rif: ["ⵉⵥⵥⴰⵏ", "izˤːan"],
     luy: ["amafwi", "amafwi"],
-    nds: ["Schiet", "ʃiːt"]
+    nds: ["Schiet", "ʃiːt"],
+    kpv: ["сіт", "sit"],
+    nmf: ["paai", "paːi"]
   },
 };

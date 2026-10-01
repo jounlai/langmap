@@ -1087,6 +1087,8 @@ WORDS.nose = {
     gsw_als: ["Nàs", "nɒːs"],
     nan_ph: ["鼻", "pʰi˦˩"],
     ada: ["gugwɔ", "ɡuɡwɔ"],
-    haz: ["بینی", "bini"]
+    haz: ["بینی", "bini"],
+    bsq: ["máná", "máná"],
+    tab: ["хъюхъ", "qyq"]
   },
 };

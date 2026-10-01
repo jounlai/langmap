@@ -1152,6 +1152,7 @@ WORDS.four = {
     aqc: ["ебкъ", "ebqʼ"],
     mgo: ["kwè", "kwè"],
     nan_ph: ["四", "si˦˩"],
-    bxk: ["bane", "bane"]
+    bxk: ["bane", "bane"],
+    maz: ["nziyo", "nzijo"]
   },
 };

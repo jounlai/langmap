@@ -1043,6 +1043,14 @@ WORDS.egg = {
     nan_hai: ["鸡卵", "kɔi˨˧ nui˧˧"],
     haz: ["خیگینه", "xajɡina"],
     kfy: ["अंडा", "əɳɖaː"],
-    bqi: ["تُحم", "tohm"]
+    bqi: ["تُحم", "tohm"],
+    gym: ["kwi mrüke", "kwi mɾɨke"],
+    ab: ["акәтаӷь", "akʷʼətʼaʁʲ"],
+    vai: ["ꔞꔤ", "kɛi"],
+    hui: ["haba", "haba"],
+    cab: ["gañe", "ɡaɲe"],
+    gej: ["azi", "azi"],
+    sgw: ["እንራ", "ɨnra"],
+    saq: ["mboliboli", "mboliboli"]
   },
 };

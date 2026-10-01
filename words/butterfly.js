@@ -679,6 +679,8 @@ WORDS.butterfly = {
     zh_zz: ["蝴蝶儿", "xu˦˨ tiɛɻ˦˨"],
     de_at: ["Schmetterling", "ˈʃmɛtɐlɪŋ"],
     en_app: ["butterfly", "ˈbʌɾɚflaː"],
-    kbd: ["хьэндырабгъуэ", "ħandərabʁʷa"]
+    kbd: ["хьэндырабгъуэ", "ħandərabʁʷa"],
+    dng: ["хўтезы", "xu˨˦tʰie˥˩tsɨ"],
+    ja_oki: ["はべる", "habeɾu"]
   },
 };

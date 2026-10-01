@@ -954,6 +954,13 @@ WORDS.new = {
     haz: ["نو", "naw"],
     awa: ["नवा", "nəʋaː"],
     ndc: ["tsva", "tsva"],
-    de_at: ["neu", "nɔɪ̯"]
+    de_at: ["neu", "nɔɪ̯"],
+    vai: ["ꕯꕮ", "nama"],
+    bft: ["གསར་པ", "sarpa"],
+    ja_oki: ["みーさん", "miːsaɴ"],
+    bsq: ["ɖìè", "ɖìè"],
+    gej: ["yeye", "jeje"],
+    bum: ["mfefé", "mfefe"],
+    maz: ["dadyo", "dadjo"]
   },
 };

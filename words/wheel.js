@@ -879,6 +879,13 @@ WORDS.wheel = {
     wuu_nb: ["轮盘", "ləŋ˨˩˧ bũ˨˩˧"],
     cdo: ["车轮", "tsʰia˥˥ luŋ˥˧"],
     cpx: ["辇", "lœŋ˦˥˧"],
-    bxk: ["engara", "eŋɡara"]
+    bxk: ["engara", "eŋɡara"],
+    kj: ["okuulu", "okuːlu"],
+    dng: ["гўлў", "ku˨˦lu˥˩"],
+    ja_oki: ["ひゃーがー", "çaːɡaː"],
+    lus: ["tawlailîr ke", "tɔlailiːr ke"],
+    nmf: ["kangphei", "kaŋpʰei"],
+    sgw: ["መንኰራኩር", "mɐnkʷɐrakʷɨr"],
+    bru: ["carvang", "karvaŋ"]
   },
 };

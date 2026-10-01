@@ -815,6 +815,13 @@ WORDS.mountain = {
     en_app: ["mountain", "ˈmaːʊntn̩"],
     scn: ["muntagna", "munˈtaɲɲa"],
     bxk: ["sikulu", "sikulu"],
-    kfy: ["डाँण", "ɖãːɳ"]
+    kfy: ["डाँण", "ɖãːɳ"],
+    vai: ["ꗛꖻ", "koõ"],
+    bft: ["རི", "ri"],
+    bsq: ["toɖo", "toɖo"],
+    gej: ["eto", "eto"],
+    bum: ["nkôl", "ŋkɔl"],
+    maz: ["tʼeje", "tʼehe"],
+    ty: ["mouʻa", "mouʔa"]
   }
 };

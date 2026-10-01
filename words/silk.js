@@ -569,6 +569,15 @@ WORDS.silk = {
     scn: ["sita", "ˈsita"],
     quz: ["seda", "ˈseda"],
     abs: ["sutra", "sutra"],
-    max: ["sutra", "sutra"]
+    max: ["sutra", "sutra"],
+    mdf: ["парьхци", "parʲxtsi"],
+    dng: ["сычу", "sɿ˨˦tʂʰou˨˦"],
+    ja_oki: ["絹", "ʔiːtɕu"],
+    kfx: ["रेशम", "reːʃəm"],
+    nmf: ["kaprangku", "kapraŋku"],
+    gej: ["seda", "seda"],
+    sgw: ["ኻር", "xar"],
+    cnh: ["pu", "pu"],
+    zap: ["seda", "seda"]
   }
 };

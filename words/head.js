@@ -970,6 +970,14 @@ WORDS.head = {
     haz: ["سر", "sar"],
     awa: ["मूँड़", "mũːɽ"],
     mzn: ["سر", "sar"],
-    wuu_wz: ["头", "dau˧˩"]
+    wuu_wz: ["头", "dau˧˩"],
+    vai: ["ꖴꘋ", "kuŋ"],
+    gcf: ["tèt", "tɛt"],
+    dng: ["ту", "tʰou˨˦"],
+    bft: ["མགོ", "ɡo"],
+    bsq: ["dú", "dú"],
+    gej: ["eta", "eta"],
+    bum: ["nlô", "nlɔ"],
+    maz: ["ñi", "ɲi"]
   },
 };

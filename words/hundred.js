@@ -1028,6 +1028,14 @@ WORDS.hundred = {
     pcm: ["hundred", "hɔndrɛd"],
     haz: ["صد", "sad"],
     mwr: ["सौ", "sɔː"],
-    abs: ["saratus", "saratus"]
+    abs: ["saratus", "saratus"],
+    frp: ["cent", "θɛ̃"],
+    byn: ["ሊኽ", "lix"],
+    dng: ["йибый", "i˨˦pei˥˩"],
+    bft: ["བརྒྱ་གཅིག", "bɡja tɕik"],
+    ja_oki: ["百", "çaːku"],
+    lbe: ["ттуршва", "tːurʃwa"],
+    bfa: ["mia", "mia"],
+    bum: ["ntet", "ntet"]
   },
 };

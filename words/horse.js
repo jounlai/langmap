@@ -856,6 +856,14 @@ WORDS.horse = {
     haz: ["آس", "ɒs"],
     de_at: ["Pferd", "pfeːɐ̯t"],
     bxk: ["efarasi", "efarasi"],
-    nus: ["jio̱k tuɔ̱ruɔ̱k", "dʒiɔk tuɔruɔk"]
+    nus: ["jio̱k tuɔ̱ruɔ̱k", "dʒiɔk tuɔruɔk"],
+    bft: ["རྟ", "r̥ta"],
+    lbe: ["чу", "tʃu"],
+    bsq: ["sǒ", "sǒ"],
+    gej: ["esɔ", "esɔ"],
+    rim: ["nyumbu", "ɲumbu"],
+    bum: ["ékabela", "ekabela"],
+    maz: ["pjadü", "pʰadɨ"],
+    ty: ["puaʻahorofenua", "puaʔahorofenua"]
   }
 };

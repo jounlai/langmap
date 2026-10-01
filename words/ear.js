@@ -465,7 +465,7 @@ WORDS.ear = {
     hif: ["kaan", "kaːn"],
     syl: ["কান", "kan"],
     ctg: ["কান", "kan"],
-    rhg: ["কান", "kan"],
+    rhg: ["han", "han"],
     hno: ["کن", "kənː"],
     skr: ["کن", "kənː"],
     rom: ["kan", "kan"],
@@ -1138,6 +1138,11 @@ WORDS.ear = {
     dbq: ["zlimi", "ɮimi"],
     chy: ["mahtovóoʼȯtse", "mahtovóːʔotse"],
     gsw_als: ["Ohr", "oːr"],
-    nan_ph: ["耳仔", "hi˧˧ a˥˥˦"]
+    nan_ph: ["耳仔", "hi˧˧ a˥˥˦"],
+    vai: ["ꕿꖃ", "tɔlɔ"],
+    spp: ["niŋgeŋke", "niŋɡeŋke"],
+    lbj: ["ནམ་ཅོག", "namtɕok"],
+    bsq: ["ɖùǔ", "ɖùǔ"],
+    maz: ["ngõʼõ", "ŋɡõʔõ"]
   },
 };

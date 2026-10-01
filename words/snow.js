@@ -926,6 +926,15 @@ WORDS.snow = {
     sid: ["bullaame kaade", "bulːaːme kaːde"],
     max: ["salju", "saldʒu"],
     pag: ["yilo", "ˈjilo"],
-    luy: ["itsaluchi", "itsalutʃi"]
+    luy: ["itsaluchi", "itsalutʃi"],
+    kj: ["olumi", "olumi"],
+    kqn: ["sino", "sino"],
+    akb: ["salju", "saldʒu"],
+    sda: ["ambun makko", "ambun makːo"],
+    bfa: ["luru lo lilik", "luru lo lilik"],
+    gaa: ["snoo", "snoː"],
+    kek: ["nieve", "ˈnjeβe"],
+    bru: ["prễl príl", "prel pril"],
+    zap: ["nieve", "njebe"]
   },
 };

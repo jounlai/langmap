@@ -930,7 +930,7 @@ WORDS.love = {
     sus: ["xanunteya", "xanunteja"],
     syl: ["মহব্বত", "mohobbot"],
     rhg: ["muhabbat", "muhabːat"],
-    ctg: ["মাইয়া", "majːa"],
+    ctg: ["মহব্যত", "mohobːot"],
     mag: ["प्रेम", "preːm"],
     doi: ["प्यार", "pjaːr"],
     moh: ["aknoronhkwa", "aknoronhkʷa"],

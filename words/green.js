@@ -727,6 +727,11 @@ WORDS.green = {
     pcm: ["green", "ɡrin"],
     awa: ["हरिअर", "həriər"],
     de_at: ["grün", "ɡryːn"],
-    en_app: ["green", "ɡɹiːn"]
+    en_app: ["green", "ɡɹiːn"],
+    to: ["lanu mata", "lanu mata"],
+    byn: ["ቍጣን", "kʷʼətʼan"],
+    dng: ["лю", "liou˨˦"],
+    saq: ["nanyori", "naɲori"],
+    shn: ["ၶဵဝ်", "kʰew˨˦"]
   }
 };

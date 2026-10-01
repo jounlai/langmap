@@ -1051,6 +1051,11 @@ WORDS.black = {
     ddo: ["хъаӏба", "qˤaba"],
     mgo: ["firɨ", "firɨ"],
     vi_han: ["黑", "hak˧˥"],
-    nan_ph: ["烏", "ɔ˧˧"]
+    nan_ph: ["烏", "ɔ˧˧"],
+    lrc: ["سی", "si"],
+    pnb: ["کالا", "kaːlaː"],
+    haz: ["سیاه", "sijɒ"],
+    de_at: ["schwarz", "ʃvarts"],
+    nus: ["car", "tʃar"]
   },
 };

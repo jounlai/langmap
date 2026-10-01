@@ -833,6 +833,19 @@ WORDS.person = {
     dbq: ["hidi", "hidi"],
     vi_han: ["人", "ɲən˧˧"],
     vi_nom: ["𠊛", "ŋɨəi˨˩"],
-    nan_ph: ["人", "laŋ˨˦"]
+    nan_ph: ["人", "laŋ˨˦"],
+    fr_qc: ["personne", "pɛʁsɔn"],
+    en_ie: ["person", "ˈpɜːɹsən"],
+    pnb: ["بندہ", "bəndaː"],
+    skr: ["بندہ", "bəndaː"],
+    gsw: ["Mänsch", "mænʃ"],
+    en_aave: ["person", "ˈpɝsən"],
+    pt_br: ["pessoa", "peˈsoɐ"],
+    bar: ["Mensch", "mɛnʃ"],
+    gbm: ["मनखि", "mənkʰi"],
+    haz: ["انسان", "insɒn"],
+    mzn: ["آدم", "ɒdem"],
+    en_app: ["person", "ˈpɝsn̩"],
+    scn: ["pirsuna", "pirˈsuna"]
   }
 };

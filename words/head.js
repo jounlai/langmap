@@ -958,6 +958,18 @@ WORDS.head = {
     kpy: ["лэвʼыт", "lewət"],
     aqc: ["картӏи", "kaɾtʼi"],
     mgo: ["ətu", "ətu"],
-    nan_ph: ["頭", "tʰau˨˦"]
+    nan_ph: ["頭", "tʰau˨˦"],
+    lrc: ["سر", "sær"],
+    pnb: ["سر", "sɪɾ"],
+    mnp: ["头", "tʰe˧˧"],
+    bar: ["Kobf", "kʰoːbf"],
+    mai: ["मूड़ी", "muːɽiː"],
+    nan_hai: ["头颅", "hau˧˩ lɛ˧˩"],
+    sdh: ["سەر", "sæɾ"],
+    pcm: ["head", "hɛd"],
+    haz: ["سر", "sar"],
+    awa: ["मूँड़", "mũːɽ"],
+    mzn: ["سر", "sar"],
+    wuu_wz: ["头", "dau˧˩"]
   },
 };

@@ -943,6 +943,17 @@ WORDS.new = {
     aqc: ["мацӏаттут", "matsʼatːut"],
     mgo: ["fi", "fi"],
     gsw_als: ["nei", "nei"],
-    nan_ph: ["新", "sin˧˧"]
+    nan_ph: ["新", "sin˧˧"],
+    lrc: ["نو", "now"],
+    pnb: ["نواں", "nəʋãː"],
+    skr: ["نواں", "nəʋãː"],
+    mer: ["kĩerũ", "keɛɾo"],
+    bar: ["nei", "naɪ"],
+    mai: ["नव", "nəʋ"],
+    pcm: ["new", "nju"],
+    haz: ["نو", "naw"],
+    awa: ["नवा", "nəʋaː"],
+    ndc: ["tsva", "tsva"],
+    de_at: ["neu", "nɔɪ̯"]
   },
 };

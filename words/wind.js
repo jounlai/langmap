@@ -1051,6 +1051,8 @@ WORDS.wind = {
     ium: ["nziaaux", "dzjaːu˨˧"],
     tao: ["pagpag", "paɡpaɡ"],
     mgo: ["əfim", "əfim"],
-    nan_ph: ["風", "huaŋ˧˧"]
+    nan_ph: ["風", "huaŋ˧˧"],
+    ibb: ["afịm", "afɪm"],
+    zne: ["yuge", "juɡe"]
   },
 };

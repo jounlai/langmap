@@ -712,6 +712,21 @@ WORDS.green = {
     otq: ["kꞌangi", "kʼaŋi"],
     vi_han: ["青", "tʰaɲ˧˧"],
     vi_nom: ["青蘿", "saɲ˧ laː˧˥"],
-    nan_ph: ["青色", "tsʰĩ˧˧ siak˥"]
+    nan_ph: ["青色", "tsʰĩ˧˧ siak˥"],
+    fr_qc: ["vert", "vɛʁ"],
+    skr: ["ساوا", "saːʋaː"],
+    en_au: ["green", "ɡɹiːn"],
+    en_sco: ["green", "ɡɹiːn"],
+    en_aave: ["green", "ɡɹiːn"],
+    en_yk: ["green", "ɡɹiːn"],
+    en_in: ["green", "ɡriːn"],
+    mai: ["हरियर", "ɦərijər"],
+    nag: ["hara", "haɾa"],
+    kru: ["हरियर", "haɾijaɾ"],
+    en_south: ["green", "ɡɹiːn"],
+    pcm: ["green", "ɡrin"],
+    awa: ["हरिअर", "həriər"],
+    de_at: ["grün", "ɡryːn"],
+    en_app: ["green", "ɡɹiːn"]
   }
 };

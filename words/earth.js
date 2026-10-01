@@ -1121,6 +1121,10 @@ WORDS.earth = {
     agu: ["txʼotxʼ", "tʃʼotʃʼ"],
     mgo: ["si", "si"],
     ame: ["pats", "pats"],
-    nan_ph: ["塗", "tʰɔ˨˦"]
+    nan_ph: ["塗", "tʰɔ˨˦"],
+    mni: ["ꯂꯩꯕꯥꯛ", "ləibak"],
+    bxk: ["liloba", "liloba"],
+    nus: ["piny", "piɲ"],
+    nym: ["liwelelo", "liwelelo"]
   },
 };

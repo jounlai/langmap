@@ -870,6 +870,15 @@ WORDS.wheel = {
     ium: ["yienh", "jien˧˩"],
     kpy: ["кувʼлычгʼын", "kuwlətʃʕən"],
     dbq: ["ngaz mota", "ŋɡaz mota"],
-    nan_ph: ["輪", "lun˨˦"]
+    nan_ph: ["輪", "lun˨˦"],
+    hak_cn: ["车轮", "tsʰa˦˦ lun˩˩"],
+    mnp: ["轮", "lœyŋ˧˧"],
+    zne: ["ngbagida", "ŋɡbaɡida"],
+    ha: ["wili", "wiːliː"],
+    zh_wh: ["滚砣", "kuən˦˨ tʰo˨˩˧"],
+    wuu_nb: ["轮盘", "ləŋ˨˩˧ bũ˨˩˧"],
+    cdo: ["车轮", "tsʰia˥˥ luŋ˥˧"],
+    cpx: ["辇", "lœŋ˦˥˧"],
+    bxk: ["engara", "eŋɡara"]
   },
 };

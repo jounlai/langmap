@@ -616,6 +616,17 @@ WORDS.rice = {
     dbq: ["merure", "merure"],
     vi_han: ["米", "me˧˧ˀ˥"],
     vi_nom: ["杲", "ɣaːw˧˨ʔ"],
-    nan_ph: ["米", "bi˥˥˦"]
+    nan_ph: ["米", "bi˥˥˦"],
+    fr_qc: ["riz", "ʁi"],
+    en_ie: ["rice", "ɹaɪs"],
+    nap: ["riso", "ˈrisə"],
+    gsw: ["Riis", "riːs"],
+    en_sco: ["rice", "ɹəɪs"],
+    en_aave: ["rice", "ɹaɪs"],
+    en_yk: ["rice", "ɹaɪs"],
+    en_in: ["rice", "raɪs"],
+    en_south: ["rice", "ɹaɪs"],
+    de_at: ["Reis", "raɪ̯s"],
+    en_app: ["rice", "ɹaɪs"]
   }
 };

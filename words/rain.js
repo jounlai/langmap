@@ -1054,6 +1054,9 @@ WORDS.rain = {
     ium: ["mbiungc", "biuŋ˨˩"],
     mgo: ["mbə̀ŋ", "mbə̀ŋ"],
     dbq: ["van", "van"],
-    nan_ph: ["雨", "hɔ˧˧"]
+    nan_ph: ["雨", "hɔ˧˧"],
+    nus: ["nhiaal", "n̪iaːl"],
+    kfy: ["बरखा", "bərkʰaː"],
+    dje: ["beyna hari", "bejna hari"]
   },
 };

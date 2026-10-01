@@ -1156,6 +1156,7 @@ WORDS.five = {
     ame: ["amnar", "amnaɾ"],
     mgo: ["tân", "tân"],
     dbq: ["jəɓin", "dʒəɓin"],
-    nan_ph: ["五", "ɡɔ˧˧"]
+    nan_ph: ["五", "ɡɔ˧˧"],
+    bxk: ["baraano", "baraːno"]
   },
 };

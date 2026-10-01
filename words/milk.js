@@ -997,6 +997,11 @@ WORDS.milk = {
     kpy: ["лёӄэй", "ʎoqej"],
     mgo: ["ɨbən", "ɨbən"],
     dbq: ["wa", "wa"],
-    nan_ph: ["牛奶", "ɡu˨˦ lin˧˧"]
+    nan_ph: ["牛奶", "ɡu˨˦ lin˧˧"],
+    srr: ["sis", "sis"],
+    kmb: ["lete", "lete"],
+    drs: ["ado", "ado"],
+    bug: ["susu", "susu"],
+    nus: ["cak", "tʃak"]
   },
 };

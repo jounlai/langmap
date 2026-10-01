@@ -382,6 +382,27 @@ WORDS.chocolate = {
     rm: ["tschigulatta", "tʃiɡuˈlata"],
     fax: ["chocolati", "tʃokoˈlati"],
     nog: ["шоколад", "ʃokolad"],
-    aqc: ["щакӏалат", "ʃːakʼalat"]
+    aqc: ["щакӏалат", "ʃːakʼalat"],
+    fr_qc: ["chocolat", "ʃɔkɔˈla"],
+    en_ie: ["chocolate", "ˈtʃɒklət"],
+    yue_ts: ["朱古力", "tsi˧˧ ku˥˥ let˥˥"],
+    hak_tw: ["巧克力", "tsʰiau˩˩ kʰə˧˩ li˧˩"],
+    ja_kg: ["チョコレート", "tɕokoɾeːto"],
+    en_au: ["chocolate", "ˈtʃɔklət"],
+    en_sco: ["chocolate", "ˈtʃɔklət"],
+    en_aave: ["chocolate", "ˈtʃɔklət"],
+    wuu_sz: ["巧克力", "tɕʰiæ˥˩ kʰəʔ˥ liɪʔ˧"],
+    zh_sc: ["巧克力", "tɕʰiau˥˧ kʰe˨˩ ni˨˩"],
+    ksw: ["ခၠီကလဲး", "tɕʰɔ̰ka̰lɛʔ"],
+    yo: ["ṣokoléètì", "ʃokoléètì"],
+    en_in: ["chocolate", "ˈtʃɔːkləʈ"],
+    ps: ["چاکلېټ", "tʃɑˈkleʈ"],
+    vi_c: ["sô-cô-la", "ʂo˧ ko˧ laː˧"],
+    en_south: ["chocolate", "ˈtʃɑːklət"],
+    en_nz: ["chocolate", "ˈtʃɔklət"],
+    de_at: ["Schokolade", "ʃokoˈlaːdə"],
+    en_app: ["chocolate", "ˈtʃɑːklət"],
+    scn: ["cicculatti", "tʃikkuˈlatti"],
+    es_an: ["chocolate", "tʃokoˈlate"]
   }
 };

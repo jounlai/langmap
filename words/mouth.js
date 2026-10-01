@@ -921,6 +921,20 @@ WORDS.mouth = {
     mgo: ["ɨchû", "ɨtʃû"],
     vi_han: ["口", "xəw˧˩˧"],
     vi_nom: ["𠰘", "miəŋ˨ˀ"],
-    nan_ph: ["喙", "tsʰui˦˩"]
+    nan_ph: ["喙", "tsʰui˦˩"],
+    lrc: ["گپ", "ɡop"],
+    pnb: ["منھ", "mũː"],
+    skr: ["منہ", "mũː"],
+    arq: ["فم", "fumː"],
+    fr_be: ["bouche", "buʃ"],
+    bar: ["Mai", "maɪ"],
+    gbm: ["गिच्चा", "ɡitʃːaː"],
+    fr_ch: ["bouche", "buʃ"],
+    pcm: ["mout", "maʊt"],
+    wuu_nb: ["嘴巴", "tsɿ˧˨˥ po"],
+    haz: ["دان", "dɒn"],
+    scn: ["vucca", "ˈvukka"],
+    nym: ["mulomo", "mulomo"],
+    kfy: ["मुँख", "mũkʰ"]
   }
 };

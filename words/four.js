@@ -1151,6 +1151,7 @@ WORDS.four = {
     agr: ["ipaksumat", "ipaksumat"],
     aqc: ["ебкъ", "ebqʼ"],
     mgo: ["kwè", "kwè"],
-    nan_ph: ["四", "si˦˩"]
+    nan_ph: ["四", "si˦˩"],
+    bxk: ["bane", "bane"]
   },
 };

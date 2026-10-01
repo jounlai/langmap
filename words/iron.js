@@ -996,6 +996,17 @@ WORDS.iron = {
     kpy: ["пылвынтын", "pəlvəntən"],
     ddo: ["гер", "ɡer"],
     mgo: ["ətənɨ", "ətənɨ"],
-    nan_ph: ["鐵", "tʰiʔ˥"]
+    nan_ph: ["鐵", "tʰiʔ˥"],
+    lrc: ["آهن", "ɒhen"],
+    nan_hai: ["铁", "hi˥˥"],
+    sdh: ["ئاسن", "ɑːsɪn"],
+    pcm: ["iron", "aiɔn"],
+    mzn: ["آهن", "ɒhan"],
+    bgq: ["लोह", "loːɦ"],
+    mwr: ["लोह", "loːɦ"],
+    bxk: ["sichuuma", "sitʃuːma"],
+    quz: ["fierro", "ˈfjero"],
+    abs: ["besi", "besi"],
+    luy: ["eshibia", "eʃibia"]
   },
 };

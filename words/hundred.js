@@ -1020,6 +1020,14 @@ WORDS.hundred = {
     aqc: ["баӏш", "baˤʃ"],
     mgo: ["ɨkɨ fibɨ̀", "ɨkɨ fibɨ̀"],
     dbq: ["bələk", "bələk"],
-    nan_ph: ["百", "paʔ˥"]
+    nan_ph: ["百", "paʔ˥"],
+    skr: ["سو", "sɔː"],
+    za: ["bak", "paːk̚˧˥"],
+    nan_hai: ["百", "ɓɛ˥˥"],
+    kru: ["सौ", "sau"],
+    pcm: ["hundred", "hɔndrɛd"],
+    haz: ["صد", "sad"],
+    mwr: ["सौ", "sɔː"],
+    abs: ["saratus", "saratus"]
   },
 };

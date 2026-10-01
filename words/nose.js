@@ -1086,6 +1086,8 @@ WORDS.nose = {
     kpy: ["гʼиӈытгʼым", "ʕiŋətʕəm"],
     aqc: ["муч", "mutʃ"],
     gsw_als: ["Nàs", "nɒːs"],
-    nan_ph: ["鼻", "pʰi˦˩"]
+    nan_ph: ["鼻", "pʰi˦˩"],
+    ada: ["gugwɔ", "ɡuɡwɔ"],
+    haz: ["بینی", "bini"]
   },
 };

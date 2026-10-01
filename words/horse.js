@@ -845,6 +845,17 @@ WORDS.horse = {
     dbq: ["pilis", "pilis"],
     vi_han: ["馬", "maː˧˧ˀ˥"],
     vi_nom: ["馭", "ŋɨə˧˨ʔ"],
-    nan_ph: ["馬", "be˥˥˦"]
+    nan_ph: ["馬", "be˥˥˦"],
+    nap: ["cavallo", "kaˈvallə"],
+    lrc: ["اسب", "æsb"],
+    en_aave: ["horse", "hɔːɹs"],
+    zne: ["farasi", "faɾasi"],
+    nan_hai: ["马", "vɛ˨˩˧"],
+    ach: ["aguragura", "aɡuraɡura"],
+    pcm: ["horse", "hɔs"],
+    haz: ["آس", "ɒs"],
+    de_at: ["Pferd", "pfeːɐ̯t"],
+    bxk: ["efarasi", "efarasi"],
+    nus: ["jio̱k tuɔ̱ruɔ̱k", "dʒiɔk tuɔruɔk"]
   }
 };

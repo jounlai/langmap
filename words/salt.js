@@ -1189,6 +1189,12 @@ WORDS.salt = {
     kpy: ["чольчоль", "tʃoʎtʃoʎ"],
     aqc: ["орхьӏи", "oɾχˤi"],
     mgo: ["fɨ̀ŋgwaŋ", "fɨ̀ŋɡwaŋ"],
-    nan_ph: ["鹽", "iam˨˦"]
+    nan_ph: ["鹽", "iam˨˦"],
+    lrc: ["نمک", "nemæk"],
+    zne: ["tikpo", "tikpo"],
+    sdh: ["نمەک", "nɪmæk"],
+    gbm: ["लूण", "luːɳ"],
+    mzn: ["نمک", "nemek"],
+    nus: ["milɛ", "milɛ"]
   },
 };

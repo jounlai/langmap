@@ -808,6 +808,23 @@ WORDS.book = {
     dbq: ["beftere", "beftere"],
     vi_han: ["書", "tʰɨ˧˧"],
     vi_nom: ["冊", "sac˧˥"],
-    nan_ph: ["冊", "tsʰeʔ˥"]
+    nan_ph: ["冊", "tsʰeʔ˥"],
+    fr_qc: ["livre", "livʁ"],
+    en_ie: ["book", "bʊk"],
+    srr: ["safe", "safe"],
+    hmn: ["phau ntawv", "pʰau˧ ⁿdaɨ˨˦"],
+    en_au: ["book", "bʊk"],
+    en_sco: ["book", "bʊk"],
+    zne: ["kitabu", "kitabu"],
+    en_in: ["book", "bʊk"],
+    haz: ["کتاب", "kitɒb"],
+    awa: ["किताब", "kitaːb"],
+    mzn: ["کتاب", "ketɒb"],
+    en_app: ["book", "bʊk"],
+    scn: ["libbru", "ˈlibbru"],
+    bxk: ["sitabu", "sitabu"],
+    nus: ["bok", "bɔk"],
+    nym: ["kitabu", "kitabu"],
+    kfy: ["किताब", "kitaːb"]
   }
 };

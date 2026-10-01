@@ -801,6 +801,20 @@ WORDS.mountain = {
     dbq: ["caɗak", "tʃaɗak"],
     vi_han: ["山", "səːn˧˧"],
     vi_nom: ["𡶀", "nui˧˥"],
-    nan_ph: ["山", "suã˧˧"]
+    nan_ph: ["山", "suã˧˧"],
+    fr_qc: ["montagne", "mɔ̃taɲ"],
+    en_ie: ["mountain", "ˈmaʊntən"],
+    lrc: ["کوء", "kuʔ"],
+    en_aave: ["mountain", "ˈmaʊʔn̩"],
+    za: ["岜", "pʲa˨˦"],
+    ada: ["yoku", "joku"],
+    en_south: ["mountain", "ˈmæʊntn̩"],
+    pcm: ["mountin", "maʊntin"],
+    haz: ["کوه", "koh"],
+    de_at: ["Berg", "bɛɐk"],
+    en_app: ["mountain", "ˈmaːʊntn̩"],
+    scn: ["muntagna", "munˈtaɲɲa"],
+    bxk: ["sikulu", "sikulu"],
+    kfy: ["डाँण", "ɖãːɳ"]
   }
 };

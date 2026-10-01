@@ -1065,6 +1065,12 @@ WORDS.daughter = {
     crx: ["oot̲s̲eʼ", "oːtseʔ"],
     ium: ["sieqv", "sieʔ˥˥"],
     kpy: ["ӈавакык", "ŋavakək"],
-    nan_ph: ["查某仔", "tsa˧˧ bɔ˥˥˦ a˥˥˦"]
+    nan_ph: ["查某仔", "tsa˧˧ bɔ˥˥˦ a˥˥˦"],
+    lrc: ["دختر", "doxtær"],
+    za: ["lwgmbwk", "lɯk˧ɓɯk˥"],
+    kru: ["तंग्दा", "taŋdaː"],
+    wuu_nb: ["囡", "nø˩˧"],
+    sas: ["anak nine", "anak ninə"],
+    max: ["ana parampuang", "ana parampuaŋ"]
   },
 };

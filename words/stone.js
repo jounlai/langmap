@@ -1075,6 +1075,8 @@ WORDS.stone = {
     ddo: ["гъуӏл", "ʁˤul"],
     mgo: ["ɨti", "ɨti"],
     dbq: ["gugun", "ɡuɡun"],
-    nan_ph: ["石頭", "tsioʔ˨˦ tʰau˨˦"]
+    nan_ph: ["石頭", "tsioʔ˨˦ tʰau˨˦"],
+    bxk: ["libaale", "libaːle"],
+    kfy: ["ढूंगो", "ɖʱuːŋɡo"]
   },
 };

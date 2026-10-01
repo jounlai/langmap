@@ -1010,6 +1010,21 @@ WORDS.honey = {
     ium: ["mueiz-dorngh", "muei˨˧tɔŋ˧˩"],
     kpy: ["ёӄъямыткымыт", "joqʔjamətkəmət"],
     mgo: ["ju", "dʒu"],
-    nan_ph: ["蜂蜜", "pʰaŋ˧˧ bit˨˦"]
+    nan_ph: ["蜂蜜", "pʰaŋ˧˧ bit˨˦"],
+    ibb: ["adan akwọk", "adan akwɔk"],
+    ace: ["meulisan", "mɯlisan"],
+    lrc: ["عسل", "æsæl"],
+    tcy: ["ತಿಗತನೆಯಿ", "tiɡataneji"],
+    gsw: ["Hung", "hʊŋ"],
+    mnp: ["蜂糖", "pʰɔŋ˥˦ tʰɔŋ˧˧"],
+    nan_hai: ["蜂糖", "faŋ˨˧ ho˧˩"],
+    sdh: ["هەسەڵ", "hæsæɫ"],
+    shn: ["ၼမ်ႉၽိုင်ႈ", "nam pʰɯŋ"],
+    haz: ["عسل", "asal"],
+    awa: ["सहद", "səɦəd"],
+    mzn: ["عسل", "asel"],
+    bgq: ["सेत", "seːt"],
+    mwr: ["सेहद", "seɦəd"],
+    nus: ["tuaar", "tuaːr"]
   },
 };

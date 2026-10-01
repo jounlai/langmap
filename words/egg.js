@@ -1035,6 +1035,14 @@ WORDS.egg = {
     moh: ["oʼnhónhsa", "oʔnhṹhsa"],
     kpy: ["ливʼливʼ", "liwliw"],
     chy: ["vovȯtse", "vovotse"],
-    nan_ph: ["卵", "nŋ̍˧˧"]
+    nan_ph: ["卵", "nŋ̍˧˧"],
+    bom: ["regyi", "reɡʲi"],
+    lrc: ["ترمغ", "termoɣ"],
+    mnp: ["鸡卵", "kai˥˦ sɔŋ˥˥"],
+    ada: ["hlui", "hlui"],
+    nan_hai: ["鸡卵", "kɔi˨˧ nui˧˧"],
+    haz: ["خیگینه", "xajɡina"],
+    kfy: ["अंडा", "əɳɖaː"],
+    bqi: ["تُحم", "tohm"]
   },
 };

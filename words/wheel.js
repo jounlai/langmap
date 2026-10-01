@@ -16,7 +16,7 @@ WORDS.wheel = {
     en: "Wheel", ja: "車輪", ko: "바퀴", zh: "轮子", yue: "輪", vi: "Bánh xe", th: "ล้อ",
     id: "Roda", hi: "पहिया", de: "Rad", fr: "Roue", it: "Ruota", es: "Rueda", es_eu: "Rueda",
     es_mx: "Rueda", pt: "Roda", pt_eu: "Roda", pt_br: "Roda", ru: "Колесо", uk: "Колесо",
-    ar: "عجلة", he: "גלגל", sw: "Gurudumu",
+    ar: "عجلة", he: "גלגל", sw: "Gurudumu"
   },
   definition: {
     en: "Wheel — the turning disc. Indo-European shares an inherited word for it, which means the family cannot have broken up before wheels existed.",
@@ -41,7 +41,7 @@ WORDS.wheel = {
     uk: "Колесо — обертовий диск. В індоєвропейській є спільне успадковане слово — отже, сім'я не могла розпастися до появи колеса.",
     ar: "عجلة — القرص الدائر. للهندية الأوروبية كلمة موروثة مشتركة له، ما يعني أن العائلة لم تتفرّق قبل وجود العجلة.",
     he: "גלגל — הדיסק המסתובב. להודו-אירופית יש מילה מורשת משותפת לו, כלומר המשפחה לא יכלה להתפצל לפני שהיו גלגלים.",
-    sw: "Gurudumu — duara linalozunguka. Kihindi-Ulaya kina neno la pamoja la urithi kwa hilo, hivyo familia haikuweza kugawanyika kabla ya magurudumu kuwepo.",
+    sw: "Gurudumu — duara linalozunguka. Kihindi-Ulaya kina neno la pamoja la urithi kwa hilo, hivyo familia haikuweza kugawanyika kabla ya magurudumu kuwepo."
   },
   data: {
     // --- UI languages -------------------------------------------------
@@ -503,7 +503,7 @@ WORDS.wheel = {
     tll: ["otshimbi", "otʃimbi"],
     ff: ["irel", "iɾel"],
     bm: ["mobilisen", "mobilisen"],
-    dnj: ["gɛn", "ɡɛn"],
+    dnj: ["gɛ̏n", "ɡɛ̃̏"],
     tum: ["khwiro", "kʰwiro"],
     seh: ["roda", "roda"],
     zdj: ["ɗiwara", "ɗiwara"],
@@ -514,7 +514,6 @@ WORDS.wheel = {
     toi: ["ivwili", "iˈvwili"],
     loz: ["lihutu", "liˈhutu"],
     mas: ["enkeju", "ɛnkɛdʒʊ"],
-    saq: ["nkeju", "ŋkedʒu"],
     nyn: ["enyamuziga", "eɲamuziɡa"],
     cgg: ["enyamuziga", "eɲamuziɡa"],
     ttj: ["enyamuziga", "eɲamuziɡa"],
@@ -648,9 +647,9 @@ WORDS.wheel = {
       alt: [
         { form: "loek", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "䡜 / 𣏥", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮝄 — Sawndip was never standardised" },
-      ],
+      ]
     },
-    shn: ["မၢၵ်ႇလေႃႉ", "mak lɔ"],
+    shn: ["မၢၵ်ႇလေႃႉ", "maːk˩ lɔː˦˨ˀ"],
     kru: ["चाका", "tʃaːkaː"],
     unr: ["cakka", "tʃakka"],
     hoc: ["cakka", "tʃakka"],
@@ -658,7 +657,7 @@ WORDS.wheel = {
     sat: ["ᱪᱚᱠ", "tʃɔk"],
     vi_c: ["bánh xe", "ɓan˩˧ sɛ˥"],
     tyz: ["bảnh", "ɓaŋ˨˩˧"],
-    blt: ["ꞌcuống", "kuəŋ"],
+    blt: ["ꪁꪺꪉ", "kuəŋ"],
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
@@ -887,5 +886,5 @@ WORDS.wheel = {
     nmf: ["kangphei", "kaŋpʰei"],
     sgw: ["መንኰራኩር", "mɐnkʷɐrakʷɨr"],
     bru: ["carvang", "karvaŋ"]
-  },
+  }
 };

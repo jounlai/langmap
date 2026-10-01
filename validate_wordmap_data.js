@@ -1046,6 +1046,18 @@ for (const code of codes) {
                 mgo: new Set(['we']),
                 koy: new Set(['we']),
                 yiz: new Set(['we']),
+                // 2026-10-01 flag round (r23flags): published cells removed as
+                // wrong, with no sourced replacement. ksb hello was "nashukuru"
+                // ("I thank"). aiw love/cat/house/eat/drink/hello/thanks were
+                // Wolaytta/Oromo words or uncited forms; Hayward 1990 gives eat and
+                // drink stems but no citation form. mlq fire/fish/hello/thanks were
+                // Bambara or generic Manding, not Western Maninkakan. byn hello has
+                // no general Blin word (greetings are by time of day) and thanks
+                // ቀንየለይ was Tigrinya/Tigre.
+                ksb: new Set(['hello']),
+                aiw: new Set(['love', 'cat', 'house', 'eat', 'drink', 'hello', 'thanks']),
+                mlq: new Set(['fire', 'fish', 'hello', 'thanks']),
+                byn: new Set(['hello', 'thanks']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

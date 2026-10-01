@@ -26,7 +26,7 @@ WORDS.love = {
     uk: "Любов",
     ar: "حب",
     he: "אהבה",
-    sw: "Upendo",
+    sw: "Upendo"
   },
   definition: {
     en: "Basic word/root for love or affection — noun or verb citation form depending on language; not a greeting.",
@@ -51,7 +51,7 @@ WORDS.love = {
     uk: "Базове слово/корінь \"любов\" чи прихильність; іменник або дієслово залежно від мови; не привітання.",
     ar: "كلمة/جذر أساسي للحب أو المودة؛ اسم أو فعل بحسب اللغة؛ ليس تحية.",
     he: "מילה/שורש בסיסי ל\"אהבה\" או חיבה; שם עצם או פועל לפי שפה; לא ברכה.",
-    sw: "Neno/shina la msingi la upendo au kupendana; nomino au kitenzi kulingana na lugha; si salamu.",
+    sw: "Neno/shina la msingi la upendo au kupendana; nomino au kitenzi kulingana na lugha; si salamu."
   },
   data: {
       kwa: ["—","—"],
@@ -288,7 +288,6 @@ WORDS.love = {
     yo: ["ìfẹ́", "ìfɛ́"],
     zu: ["uthando", "utʰando"],
     am: ["ፍቅር", "fɨkʼɨr"],
-    aiw: ["gaya", "ɡaja"],
     sgw: ["ፍቅር", "fɨkʼɨr"],
     mg: ["fitiavana", "fitiavana"],
     ain: ["オマプ", "omap"],
@@ -337,7 +336,7 @@ WORDS.love = {
       alt: [
         { form: "gyaez", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "𠮹 / 𢟋 / 𢠿", script: "Sawndip (古壮字)", source: "za.wikipedia.org Gyaez — regional variant glyphs alongside the primary form 𭝚 (U+2D75A, CJK Ext-F; rendered via the embedded BabelStone-Han Sawndip subset)" },
-      ],
+      ]
     },
     hmn: ["hlub", "ɬu˥"],
     jv: ["tresna", "ˈtrɛsnɔ"],
@@ -726,7 +725,7 @@ WORDS.love = {
     mwk: ["kanu", "kanu"],
     mlq: ["kanu", "kanu"],
     mev: ["ŋalo", "ŋalo"],
-    dnj: ["be", "be"],
+    dnj: ["dhɔ̏", "ɗɔ̏"],
     ses: ["baŋa", "baŋa"],
     khq: ["baŋa", "baŋa"],
     dje: ["baa", "baː"],
@@ -901,7 +900,7 @@ WORDS.love = {
     lhu: ["haˆ", "hâ"],
     lis: ["gu-hpa", "ɡupʰa"],
     nxq: ["lai", "lɑ˧"],
-    shn: ["ႁၵ်ႉ", "haq"],
+    shn: ["ႁၵ်ႉ", "hak˦˨ˀ"],
     jio: ["kʰaː", "kʰaː"],
     kbp: ["sɔɔlɩm", "sɔːlɪm"],
     ee: ["lɔ̃lɔ̃", "lɔ̃lɔ̃"],
@@ -1129,7 +1128,7 @@ WORDS.love = {
     kaa: ["muhabbat", "muhabbat"],
     bej: ["kima", "kima"],
     tig: ["ፍቅሪ", "fəqʼri"],
-    byn: ["ኩረቦ", "kurəbo"],
+    byn: ["እንከሊ", "ʔənkəli"],
     ssy: ["kaxano", "kaħano"],
     ewo: ["nyeʼe", "ɲeʔe"],
     bum: ["nyeʼa", "ɲeʔa"],
@@ -1250,6 +1249,7 @@ WORDS.love = {
     lep: ["ᰣᰦᰆᰬ", "ʔace"],
     mhy: ["hamen", "hamen"],
     gsw_als: ["Lieb", "liəp"],
-    nan_ph: ["愛", "ai˦˩"]
-  },
+    nan_ph: ["愛", "ai˦˩"],
+    aiw: ["—", "—"]
+  }
 };

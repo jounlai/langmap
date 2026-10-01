@@ -609,7 +609,7 @@ WORDS.person = {
     ja_hak: ["人", "çito"],
     ja_hir: ["人", "çito"],
     ja_sd: ["人", "çito"],
-    shn: ["ၵူၼ်း", "kon"],
+    shn: ["ၵူၼ်း", "kon˥"],
     rki: ["လူ", "lù"],
     emk: ["mɔɔ", "mɔː"],
     snk: ["sere", "sere"],
@@ -854,6 +854,7 @@ WORDS.person = {
     aiw: ["ed", "ʔed"],
     bsq: ["nyɔ", "ɲɔ"],
     gej: ["agbetɔ", "aɡbetɔ"],
-    maz: ["nte", "nte"]
+    maz: ["nte", "nte"],
+    dnj: ["bhɛ̄n", "mɛ̃̄"]
   }
 };

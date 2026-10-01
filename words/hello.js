@@ -26,7 +26,7 @@ WORDS.hello = {
     uk: "Привіт",
     ar: "مرحبا",
     he: "שלום",
-    sw: "Habari",
+    sw: "Habari"
   },
   definition: {
     en: "Neutral everyday greeting. Time-of-day forms (morning/evening) only if the language has no neutral form. Blessings (e.g. \"peace\") accepted only as the normal greeting.",
@@ -51,7 +51,7 @@ WORDS.hello = {
     uk: "Нейтральне повсякденне привітання. Форми за часом доби — лише за відсутності нейтральної; благословення (\"мир\") — лише якщо це звичне привітання.",
     ar: "تحية يومية محايدة. صيغ الأوقات (صباح/مساء الخير) فقط عند غياب صيغة محايدة؛ صيغ البركة (\"سلام\") فقط إذا كانت التحية المعتادة.",
     he: "ברכת שלום יומיומית ניטרלית. ברכות לפי שעות (בוקר/ערב) רק בהיעדר צורה ניטרלית; איחולי ברכה (\"שלום\") רק אם זוהי הברכה השגרתית.",
-    sw: "Salamu ya kawaida isiyo na ushawishi wa wakati. Salamu za saa (asubuhi/jioni) ikiwa hakuna umbo la jumla; baraka kama \"amani\" zinapokubaliwa kama salamu ya kawaida.",
+    sw: "Salamu ya kawaida isiyo na ushawishi wa wakati. Salamu za saa (asubuhi/jioni) ikiwa hakuna umbo la jumla; baraka kama \"amani\" zinapokubaliwa kama salamu ya kawaida."
   },
   data: {
       kwa: ["—","—"],
@@ -240,7 +240,6 @@ WORDS.hello = {
     suk: ["mwangaluka", "mwaŋɡaluka"],
     nym: ["mwadita", "mwadita"],
     rim: ["mbukire", "mbukiɾe"],
-    ksb: ["nashukuru", "naʃukuɾu"],
     jmc: ["máshàlòmà", "maʃaloma"],
     sbp: ["mbasala", "mbasala"],
     rwk: ["kira", "kiɾa"],
@@ -288,7 +287,6 @@ WORDS.hello = {
     yo: ["ẹ kú", "ɛ kú"],
     zu: ["sawubona", "sawuɓona"],
     am: ["ሰላም", "sɛlam"],
-    aiw: ["saro", "saro"],
     sgw: ["እንደምን", "ɨndɛmɨn"],
     mg: ["manao ahoana", "manau ahuana"],
     ain: ["イランカラプテ", "iɾankaɾapte"],
@@ -727,9 +725,8 @@ WORDS.hello = {
     kao: ["i ni sogoma", "i ni soɡoma"],
     snk: ["an na siri", "an na siɾi"],
     mwk: ["i ni soɣoma", "i ni soɣoma"],
-    mlq: ["i ni sögöma", "i ni soɣoma"],
     mev: ["ye", "je"],
-    dnj: ["daka", "daka"],
+    dnj: ["dhæ̀ækpœ̀œ", "ɗæ̀ːkpɒ̀ː"],
     ses: ["fofo", "fofo"],
     khq: ["fofo", "fofo"],
     dje: ["fofo", "fofo"],
@@ -904,7 +901,7 @@ WORDS.hello = {
     lhu: ["ô-bo-haˇ", "óbohâʔ"],
     lis: ["ngo-lan", "ŋolan"],
     nxq: ["nyel-bbeq", "ɲɯ˥bɯ˨˩"],
-    shn: ["မႂ်ႇသုင်", "maj suŋ"],
+    shn: ["မႂ်ႇသုင်", "maɰ˩ suŋ˨˦"],
     jio: ["niː", "niː"],
     kbp: ["ndɩ na", "ndɪ na"],
     ee: ["ŋdi", "ŋdi"],
@@ -1122,7 +1119,6 @@ WORDS.hello = {
     kaa: ["salam", "salam"],
     bej: ["salaam", "salaːm"],
     tig: ["ሰላም", "salaːm"],
-    byn: ["ኢራዋ", "irawa"],
     ssy: ["malaal", "malaːl"],
     ewo: ["mbɔlɔ", "mbɔlɔ"],
     bum: ["mbolo", "mbolo"],
@@ -1243,6 +1239,10 @@ WORDS.hello = {
     lep: ["ᰂᰦᰮᰛᰧᰶ", "kʰamri"],
     mhy: ["tabe", "tabe"],
     gsw_als: ["Salü", "saly"],
-    nan_ph: ["汝好", "li˥˥˦ ho˥˥˦"]
-  },
+    nan_ph: ["汝好", "li˥˥˦ ho˥˥˦"],
+    ksb: ["—", "—"],
+    aiw: ["—", "—"],
+    mlq: ["—", "—"],
+    byn: ["—", "—"]
+  }
 };

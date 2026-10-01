@@ -26,7 +26,7 @@ WORDS.fire = {
     uk: "Вогонь",
     ar: "نار",
     he: "אש",
-    sw: "Moto",
+    sw: "Moto"
   },
   definition: {
     en: "Fire / flame as a phenomenon; not \"match\" or \"campfire\".",
@@ -51,7 +51,7 @@ WORDS.fire = {
     uk: "Вогонь / полум’я як явище; не \"сірник\" і не \"вогнище\".",
     ar: "النار/اللهب كظاهرة؛ ليست \"عود ثقاب\" أو \"نار مخيم\".",
     he: "אש / להבה כתופעה; לא \"גפרור\" או \"מדורה\".",
-    sw: "Moto / mwali kama jambo la kuwaka; si \"kibiriti\" au \"moto wa kambi\".",
+    sw: "Moto / mwali kama jambo la kuwaka; si \"kibiriti\" au \"moto wa kambi\"."
   },
   data: {
       kwa: ["bohõ̂","bohõ̂"],
@@ -288,7 +288,7 @@ WORDS.fire = {
     yo: ["iná", "iná"],
     zu: ["umlilo", "umlilo"],
     am: ["እሳት", "ɨssat"],
-    aiw: ["mola", "mola"],
+    aiw: ["noha", "noˈha"],
     sgw: ["እሳት", "ɨsat"],
     mg: ["afo", "afu"],
     ain: ["アペ", "ape"],
@@ -336,7 +336,7 @@ WORDS.fire = {
       ipa:  "fei˧˩",
       alt: [
         { form: "feiz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
-      ],
+      ]
     },
     hmn: ["taws", "tʰɑ˨˩"],
     jv: ["geni", "ɡəni"],
@@ -723,9 +723,8 @@ WORDS.fire = {
     kao: ["tasuma", "tasuma"],
     snk: ["ñaaxe", "ɲaːxe"],
     mwk: ["tasuma", "tasuma"],
-    mlq: ["tasuma", "tasuma"],
     mev: ["tíé", "ti˥e˥"],
-    dnj: ["siŋ", "siŋ"],
+    dnj: ["pɛ̄ŋ", "pɛ̄ŋ"],
     ses: ["nuune", "nuːne"],
     khq: ["nuune", "nuːne"],
     dje: ["danji", "dandʒi"],
@@ -900,7 +899,7 @@ WORDS.fire = {
     lhu: ["a-mí", "amí"],
     lis: ["a-mi", "ami"],
     nxq: ["mee", "mɯ˧"],
-    shn: ["ၾႆး", "faj"],
+    shn: ["ၾႆး", "faj˥"],
     jio: ["hoːi", "hoːi"],
     kbp: ["miŋ", "miŋ"],
     ee: ["dzo", "dzo"],
@@ -1125,7 +1124,7 @@ WORDS.fire = {
     kaa: ["ot", "ot"],
     bej: ["neʼaat", "neʔaːt"],
     tig: ["እሳት", "ʔəssat"],
-    byn: ["ላእ", "laʔ"],
+    byn: ["ለኻ", "ləxa"],
     ssy: ["gira", "ɡira"],
     ewo: ["ndoa", "ndoa"],
     bum: ["ndoa", "ndoa"],
@@ -1153,7 +1152,7 @@ WORDS.fire = {
       ipa:  "tuwa",
       alt: [
         { form: "脱瓦", script: "Chinese-character transliteration", source: "女真譯語; 脱瓦 = tuwa" },
-      ],
+      ]
     },
     omx: ["ပ်ၟ", "pmaʔ"],
     pyx: ["—", "—"],
@@ -1255,6 +1254,7 @@ WORDS.fire = {
     lep: ["ᰕᰧ", "mi"],
     mhy: ["apuy", "apuy"],
     gsw_als: ["Fir", "fiːr"],
-    nan_ph: ["火", "he˥˥˦"]
-  },
+    nan_ph: ["火", "he˥˥˦"],
+    mlq: ["—", "—"]
+  }
 };

@@ -732,6 +732,7 @@ WORDS.green = {
     byn: ["ቍጣን", "kʷʼətʼan"],
     dng: ["лю", "liou˨˦"],
     saq: ["nanyori", "naɲori"],
-    shn: ["ၶဵဝ်", "kʰew˨˦"]
+    shn: ["ၶဵဝ်", "kʰew˨˦"],
+    dnj: ["gblȅeyi̋dhē", "ɡblȅːji̋ɗē"]
   }
 };

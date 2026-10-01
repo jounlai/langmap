@@ -819,7 +819,7 @@ WORDS.black = {
     umb: ["kutekava", "kutekava"],
     luy: ["eshimali", "eʃimali"],
     vmw: ["oriipa", "oɾiːpa"],
-    shn: ["လမ်", "lam"],
+    shn: ["လမ်", "lam˨˦"],
     rki: ["မည်း", "mɛ́"],
     snk: ["binne", "binːe"],
     mxc: ["tema", "tema"],

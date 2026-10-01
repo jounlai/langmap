@@ -71,7 +71,7 @@ WORDS.butterfly = {
     bem: ["icipelebesha", "itʃipelebeːʃa"],  // class 7 ici-; the dictionary glosses it 'butterfly (gen.)', i.e. the generic term
     bo: ["ཕྱེ་མ་ལེབ་", "tɕʰemalep˥"],  // three morphemes phye 'open' + ma (linker) + leb 'flat', i.e. 'open-or-flat' for the wing movement (Suzuki); Lhasa colloquial also has ཅེམ་ཅེ་ལྷ་མོ་ cem ce lha mo
     dag: ["kahimpiɛɣu", "kahimpiɛɣu"],  // the dictionary glosses it 'a butterfly, moth' — one word covers moths as well
-    dnj: ["dheŋdheŋkpaadhe", "ɗeŋɗeŋkpaːɗe"],  // reduplicated dheŋ-dheŋ- before kpaadhe; the moth is a separate word, te̋te̋kpȁadhȅ 'papillon de nuit'
+    dnj: ["dhe̋ŋdhe̋ŋkpȁadhȅ", "ɗe̋ŋɗe̋ŋkpȁːɗȅ"],  // reduplicated dheŋ-dheŋ- before kpaadhe; the moth is a separate word, te̋te̋kpȁadhȅ 'papillon de nuit'
     fan: ["evulabeba", "evulabeba"],  // 'moth' is derived from it — Lejeune's evoulabéba alouse, literally 'night butterfly'
     gsw: ["Summervogel", "ˈsʊmərfoːɡl̩"],  // literally 'summer bird', the most widespread Swiss German form, a transparent replacement of older Pfifolter < OHG fifaltra; now yielding to Standard German Schmetterling
     ibb: ["mkpufiopufiop", "m̩kpufiopufiop"],  // reduplicated (-fiop-u-fiop); the dictionary's two sides disagree on the spelling and flag the entry as doubtful; tones dropped to match this row

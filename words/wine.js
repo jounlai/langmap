@@ -973,7 +973,7 @@ WORDS.wine = {
     jam: ["wine", "waɪn"],
     bah: ["wine", "waɪn"],
     bzj: ["wine", "waɪn"],
-    kri: ["wine", "waɪn"],
+    kri: ["wayn", "wain"],
     pcm: ["wine", "waɪn"],
     hwc: ["wine", "waɪn"],
     tpi: ["wain", "wain"],

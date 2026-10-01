@@ -410,7 +410,7 @@ WORDS.cuckoo = {
     ksw: ["ထိၣ်မိၢ်ဧူ", "tʰò mò ʔù"],
     lhu: ["qú-pu", "qú pu"],
     lis: ["kwá py̱", "kʷá py̰"],
-    shn: ["ၼူၵ်ႉတွင်ႉလေႃး", "nok˦˨ˀ tɔŋ˦˨ˀ lɔ˥"],
+    shn: ["ၼူၵ်ႉတွင်ႉလေႃး", "nok˦˨ˀ tɔŋ˦˨ˀ lɔː˥"],
     ssw: ["phezukwemkhono", "pʰɛzukwɛmˈkʰono"],
     nd: ["inkanku", "iⁿˈkaŋku"],
     rhg: ["kuilá", "kuiˈla"],

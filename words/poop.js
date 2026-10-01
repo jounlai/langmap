@@ -532,7 +532,7 @@ WORDS.poop = {
     kha: ["eit", "eit"],
     mrw: ["taʼi", "taʔi"],
     mas: ["inkik", "iŋkik"],
-    dnj: ["gbo", "ɡbo"],
+    dnj: ["gbō", "ɡbō"],
     kbp: ["pɩndʋ", "pɪndʊ"],
     toi: ["tubi", "tubi"],
     tem: ["e-nin", "enin"],

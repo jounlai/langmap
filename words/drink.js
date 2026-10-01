@@ -26,7 +26,7 @@ WORDS.drink = {
     uk: "Пити",
     ar: "شرب",
     he: "לשתות",
-    sw: "Kunywa",
+    sw: "Kunywa"
   },
   definition: {
     en: "Verb \"to drink\" — same form policy as eat. May overlap with eat in Iranian/Old Thai (noted via wordEvidence).",
@@ -51,7 +51,7 @@ WORDS.drink = {
     uk: "Дієслово \"пити\" — та ж політика, що й \"їсти\"; в іранських / давньотайській можливе збігання.",
     ar: "الفعل \"شرب\" — نفس قاعدة \"أكل\"؛ قد يتداخل مع \"أكل\" في الإيرانية/التايلندية القديمة.",
     he: "הפועל \"לשתות\" — אותה מדיניות כמו \"לאכול\"; חפיפה אפשרית באיראנית/תאית קדומה.",
-    sw: "Kitenzi \"kunywa\" — sera ile ile kama \"kula\"; linaweza kuingiliana na \"kula\" katika lugha za Kiirani/Kithai cha kale.",
+    sw: "Kitenzi \"kunywa\" — sera ile ile kama \"kula\"; linaweza kuingiliana na \"kula\" katika lugha za Kiirani/Kithai cha kale."
   },
   data: {
       kwa: ["ʔǝg","ʔəɡ"],
@@ -210,7 +210,7 @@ WORDS.drink = {
     rkt: ["খাওয়া", "kʰawa"],
     ur: ["پینا", "piːnaː"],
     ta: ["குடி", "kuɖi"],
-    iru: ["kuDi", "kuɖi"],
+    iru: ["kuḍi", "kuɖi"],
     en: ["drink", "dɹɪŋk"],
     en_scouse: ["drink", "dɹɪŋx"],
     en_geordie: ["drink", "dɹɪŋk"],
@@ -288,7 +288,6 @@ WORDS.drink = {
     yo: ["mu", "mu"],
     zu: ["ukuphuza", "ukupʰuza"],
     am: ["መጠጣት", "mɛtʼɛtʼːat"],
-    aiw: ["ushe", "uʃe"],
     sgw: ["ሰታ", "sɛta"],
     mg: ["misotro", "misutɾu"],
     ain: ["ク", "ku"],
@@ -337,7 +336,7 @@ WORDS.drink = {
       alt: [
         { form: "gwn", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "啃 / 巾 / 𩚍", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𫩒 — Sawndip was never standardised" },
-      ],
+      ]
     },
     mmd: ["na4", "na˨˦"],
     mlm: ["hɣop7", "hɣop˥˥"],
@@ -733,7 +732,7 @@ WORDS.drink = {
     mwk: ["min", "min"],
     mlq: ["min", "min"],
     mev: ["mi", "mi"],
-    dnj: ["mi", "mi"],
+    dnj: ["bhɯ̄n", "mɯ̃̄"],
     ses: ["hane", "hane"],
     khq: ["hane", "hane"],
     dje: ["hañu", "haɲu"],
@@ -908,7 +907,7 @@ WORDS.drink = {
     lhu: ["dawˇ", "dàʔ"],
     lis: ["do", "do˧˧"],
     nxq: ["chil", "tʂʰi˥"],
-    shn: ["ၵိၼ်", "kin"],
+    shn: ["ၵိၼ်", "kin˨˦"],
     jio: ["ɲom", "ɲom"],
     kbp: ["ñɔɔ", "ɲɔː"],
     ee: ["no", "no"],
@@ -933,7 +932,7 @@ WORDS.drink = {
     tem: ["di", "di"],
     dyu: ["min", "min"],
     bbo: ["min", "min"],
-    spp: ["nyaha", "ɲaha"],
+    spp: ["bya", "bja"],
     sus: ["min", "min"],
     syl: ["ফিন", "fin"],
     rhg: ["piya", "pija"],
@@ -1114,7 +1113,7 @@ WORDS.drink = {
     gor: ["mongilu", "moˈŋilu"],
     mak: ["angnginung", "ʔaŋˈŋinuŋ"],
     fon: ["nu", "nu"],
-    kri: ["drink", "drɪŋk"],
+    kri: ["drink", "driŋk"],
     dag: ["nyu", "ɲu"],
     xog: ["kunywa", "kuɲʷa"],
     teo: ["akimat", "akimat"],
@@ -1126,7 +1125,7 @@ WORDS.drink = {
     kaa: ["ishiw", "iʃiw"],
     bej: ["gwaʼa", "ɡʷaʕa"],
     tig: ["ሰትየ", "satja"],
-    byn: ["መዕያ", "mətʕəja"],
+    byn: ["ጅዕና", "dʒəʕna"],
     ssy: ["yaaqab", "jaːʕab"],
     ewo: ["nyu", "ɲu"],
     bum: ["nyu", "ɲu"],
@@ -1250,6 +1249,7 @@ WORDS.drink = {
     lep: ["ᰋᰩᰵ", "tʰɔŋ"],
     mhy: ["ŋoʔot", "ŋoʔot"],
     gsw_als: ["trìnke", "trɪŋkə"],
-    nan_ph: ["啉", "lim˧˧"]
-  },
+    nan_ph: ["啉", "lim˧˧"],
+    aiw: ["—", "—"]
+  }
 };

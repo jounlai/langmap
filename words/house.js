@@ -26,7 +26,7 @@ WORDS.house = {
     uk: "Дім",
     ar: "بيت",
     he: "בית",
-    sw: "Nyumba",
+    sw: "Nyumba"
   },
   definition: {
     en: "House / dwelling — the natural everyday word for one's residence; in some varieties this surfaces as a locative compound (e.g. \"in-the-house\") that has lexicalized as \"house/home\".",
@@ -51,7 +51,7 @@ WORDS.house = {
     uk: "Дім / житло — повсякденне слово для місця проживання; у деяких варіантах може бути локативною конструкцією (наприклад, \"у домі\"), лексикалізованою як \"дім\".",
     ar: "البيت / المسكن — كلمة يومية للإقامة؛ قد يكون في بعض اللهجات تركيبًا ظرفيًّا (مثل \"داخل البيت\") اكتسب معنى \"البيت\" بالاستخدام.",
     he: "בית / מעון — מילה יומיומית למקום מגורים; בכמה ניבים יכול להיות צירוף לוקטיבי (לדוגמה \"בתוך הבית\") שעבר לקסיקליזציה למשמעות \"בית\".",
-    sw: "Nyumba / makazi — neno la kila siku la makazi; katika baadhi ya lahaja laweza kuwa kifungu cha mahali (mfano \"ndani ya nyumba\") kilichotwaliwa kuwa neno la \"nyumba\".",
+    sw: "Nyumba / makazi — neno la kila siku la makazi; katika baadhi ya lahaja laweza kuwa kifungu cha mahali (mfano \"ndani ya nyumba\") kilichotwaliwa kuwa neno la \"nyumba\"."
   },
   data: {
       kwa: ["tɔp","tɔp"],
@@ -210,7 +210,7 @@ WORDS.house = {
     rkt: ["ঘর", "ɡʱoɾ"],
     ur: ["گھر", "ɡʱəɾ"],
     ta: ["வீடு", "ʋiːɖu"],
-    iru: ["vīDu", "viːɖu"],
+    iru: ["vīḍu", "viːɖu"],
     en: ["house", "haʊs"],
     en_scouse: ["house", "haʊs"],
     en_geordie: ["house", "huːs"],
@@ -288,7 +288,6 @@ WORDS.house = {
     yo: ["ilé", "ilé"],
     zu: ["indlu", "indɮu"],
     am: ["ቤት", "bet"],
-    aiw: ["kara", "kara"],
     sgw: ["ቤት", "bet"],
     mg: ["trano", "tɾanu"],
     ain: ["チセ", "tɕise"],
@@ -337,7 +336,7 @@ WORDS.house = {
       alt: [
         { form: "ranz", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "兰 / 䒟 / 苒 / 栏", script: "Sawndip (古壮字)", source: "za.wikipedia.org Ranz — regional variant glyphs alongside the primary form 𭓨 (U+2D4E8, CJK Ext-F; rendered via the embedded BabelStone-Han Sawndip subset)" },
-      ],
+      ]
     },
     hmn: ["tsev", "tʂe˨˦"],
     jv: ["omah", "omah"],
@@ -726,7 +725,7 @@ WORDS.house = {
     mwk: ["so", "so"],
     mlq: ["so", "so"],
     mev: ["kpɛ", "kpɛ"],
-    dnj: ["kɔ", "kɔ"],
+    dnj: ["kɔ́", "kɔ́"],
     ses: ["huu", "huː"],
     khq: ["huu", "huː"],
     dje: ["fu", "fu"],
@@ -901,7 +900,7 @@ WORDS.house = {
     lhu: ["yaˇ", "jâʔ"],
     lis: ["hi", "hi˧˧"],
     nxq: ["pee-mei", "pɯ˧mi˧"],
-    shn: ["ႁိူၼ်း", "hɤn"],
+    shn: ["ႁိူၼ်း", "hɤn˥"],
     jio: ["vɛn", "vɛn"],
     kbp: ["ɖɩɣa", "ɖɪɣa"],
     ee: ["aƒe", "aɸe"],
@@ -1107,7 +1106,7 @@ WORDS.house = {
     wuu_nb: ["屋里", "oʔ˥˥ li"],
     yue_gz: ["屋", "ʊk˥˥"],
     khb: ["ᦠᦴᧃᧉ", "huːn"],
-    blt: ["ꪙꪮꪙ", "hɯan˧˨"],
+    blt: ["ꪹꪭꪙ", "hɯan˧˨"],
     pam: ["bale", "baˈleʔ"],
     pag: ["abong", "ˈʔaboŋ"],
     mdh: ["walay", "waˈlaj"],
@@ -1126,7 +1125,7 @@ WORDS.house = {
     kaa: ["úy", "yj"],
     bej: ["gaw", "ɡaw"],
     tig: ["ቤት", "beːt"],
-    byn: ["ጊና", "ɡina"],
+    byn: ["ሊጝን", "liŋən"],
     ssy: ["kalo", "kalo"],
     ewo: ["nda", "nda"],
     bum: ["nda", "nda"],
@@ -1250,6 +1249,7 @@ WORDS.house = {
     lep: ["ᰜᰧᰶ", "li"],
     mhy: ["lewuʔ", "lewuʔ"],
     gsw_als: ["Hüs", "hyːs"],
-    nan_ph: ["厝", "tsʰu˦˩"]
-  },
+    nan_ph: ["厝", "tsʰu˦˩"],
+    aiw: ["—", "—"]
+  }
 };

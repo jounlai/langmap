@@ -131,7 +131,11 @@ const MIXED_OK = {
   // (pal was here and is gone: its three Latin cells were converted from
   //  MacKenzie's Concise Pahlavi Dictionary, pp. 6, 90, 94, on 2026-09-13 —
   //  the first row the list moved off by naming what it needed.)
-  blt: "Tai Dam: 6 Latin cells (i, we, snow, stone, wheel, white) among 39 Tai Viet. None of Wiktionary's 255 Tai Dam lemmas, which cite Baccam et al. 1989, glosses them.",
+  // (blt, iru, rhg and xsr left on 2026-10-01, flag round r23flags: Tai Dam's
+  //  Latin cells converted to Tai Viet from the Tai Dam dictionary's letter key;
+  //  Irula's Tamil cells romanised from DEDR / ASJP / LSI Tamil Nadu 2011;
+  //  Rohingya ear কান → han from both Rohingya Bibles; Sherpa's Devanagari
+  //  `we` respelled in Tibetan from a Sherpa dictionary.)
   vai: "Vai: 11 Latin among 29 Vai syllabary; only `three` had an exact sourced spelling in this pass.",
   sel: "Selkup: 4 Latin among 47 Cyrillic.",
   yuy: "East Yugur: 1 Latin among 39 Cyrillic.",
@@ -147,12 +151,9 @@ const MIXED_OK = {
   zkt: "Khitan: 4 Khitan among 19 Latin — the row is mostly Latin transcription because the script is undeciphered.",
   xlu: "Luwian: 8 Anatolian Hieroglyphs among 10 Latin — same shape as zkt.",
   za:  "Zhuang: 8 Han among 48 Latin — Sawndip beside the Latin orthography.",
-  iru: "Irula: 5 Tamil among 37 Latin.",
   bfq: "Badaga: 3 Tamil among 41 Latin.",
-  rhg: "Rohingya: 1 Bengali among 49 Latin.",
   haj: "Hajong: 2 Bengali among 38 Latin.",
   pi_edu: "Pali (pedagogical): 1 Devanagari among 58 Latin.",
-  xsr: "Sherpa: 1 Devanagari among 50 Tibetan.",
   kry: "Kryts: 6 Cyrillic among 42 Latin.",
   kaa: "Karakalpak: 1 Cyrillic among 59 Latin.",
   enf: "Forest Enets: 1 Cyrillic among 48 Latin.",

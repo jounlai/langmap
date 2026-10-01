@@ -26,7 +26,7 @@ WORDS.new = {
     uk: "Новий",
     ar: "جديد",
     he: "חדש",
-    sw: "Mpya",
+    sw: "Mpya"
   },
   definition: {
     en: "New — recently made, bought or begun; the opposite of old. Said of things, not of people or animals ('young'), and not 'modern', 'fresh' or 'another'.",
@@ -51,7 +51,7 @@ WORDS.new = {
     uk: "Новий — щойно зроблений, куплений чи початий; протилежність старому. Про речі, а не 'молодий' про людей і тварин, і не 'сучасний', 'свіжий' чи 'інший'.",
     ar: "جديد — صُنع أو اشتُري أو بُدئ به منذ وقت قريب؛ عكس القديم. يقال للأشياء، لا بمعنى 'صغير السن' للناس أو الحيوان، ولا 'عصري' ولا 'طازج' ولا 'آخر'.",
     he: "חדש — נעשה, נקנה או התחיל לא מזמן; ההפך מישן. נאמר על דברים, לא 'צעיר' על אנשים או בעלי חיים, ולא 'מודרני', 'טרי' או 'אחר'.",
-    sw: "Mpya — kilichotengenezwa, kilichonunuliwa au kilichoanzishwa hivi karibuni; kinyume cha kuukuu. Huelezea vitu, si 'changa' kwa watu au wanyama, wala si 'wa kisasa', 'kibichi' au 'kingine'.",
+    sw: "Mpya — kilichotengenezwa, kilichonunuliwa au kilichoanzishwa hivi karibuni; kinyume cha kuukuu. Huelezea vitu, si 'changa' kwa watu au wanyama, wala si 'wa kisasa', 'kibichi' au 'kingine'."
   },
   data: {
     // Stubbs 1523 *pïtuC / *pïtuwa 'new', six branches across BOTH primary
@@ -605,7 +605,7 @@ WORDS.new = {
       alt: [
         { form: "moq", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "暮 / 𭂥 / 墓", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𮄾 — Sawndip was never standardised" },
-      ],
+      ]
     },
     prs: ["نو", "naw"],
     mag: ["नावा", "naːʋaː"],
@@ -679,7 +679,7 @@ WORDS.new = {
     ja_hir: ["新しい", "ataɾaɕiː"],
     ja_sd: ["新しい", "adaɾaɕiː"],
     ko_hg: ["새로운", "sɛɾoun"],
-    shn: ["မႂ်ႇ", "maɰ"],
+    shn: ["မႂ်ႇ", "maɰ˩"],
     rki: ["အသစ်", "ʔəθiʔ"],
     efi: ["obufa", "obufa"],
     emk: ["kuda", "kuda"],
@@ -747,7 +747,7 @@ WORDS.new = {
     ve: ["ntswa", "ntswa"],
     seh: ["ipsa", "ipsa"],
     zne: ["vovo", "vovo"],
-    dnj: ["dee", "deː"],
+    dnj: ["dȅe", "dȅː"],
     srr: ["xas", "xas"],
     tem: ["fu", "fu"],
     ach: ["manyen", "maɲɛn"],
@@ -850,7 +850,6 @@ WORDS.new = {
     krc: ["жангы", "ʒaŋɯ"],
     nxq: ["sheel", "ʂʅ˥"],
     cja: ["باهاو", "bahau"],
-    iru: ["புதிய", "pudija"],
     dv: ["އާ", "aː"],
     saq: ["ŋejuk", "ŋedʒuk"],
     kj: ["pe", "pe"],
@@ -961,6 +960,7 @@ WORDS.new = {
     bsq: ["ɖìè", "ɖìè"],
     gej: ["yeye", "jeje"],
     bum: ["mfefé", "mfefe"],
-    maz: ["dadyo", "dadjo"]
-  },
+    maz: ["dadyo", "dadjo"],
+    aiw: ["killa", "kilːˈa"]
+  }
 };

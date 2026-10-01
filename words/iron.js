@@ -440,7 +440,7 @@ WORDS.iron = {
     vi_s: ["sắt", "ʂat˧˥"],
     vi_nom: ["鐵", "sat˧˥"],
     sukh: ["เหล็ก", "lek"],
-    shn: ["လဵၵ်း", "lek"],
+    shn: ["လဵၵ်း", "lek˥"],
 
     // --- Elsewhere ---------------------------------------------------------
     ko_jeju: ["쒜", "s͈we"],
@@ -604,7 +604,7 @@ WORDS.iron = {
     men: ["kɔlu", "kɔlu"],
     sus: ["wure", "wuɾe"],
     kpe: ["kwɛli", "kwɛli"],
-    dnj: ["piɤ", "piɤ"],
+    dnj: ["pȉɤ", "pȉɤ"],
     mev: ["pɛkulu", "pɛkulu"],
     dds: ["inɛ", "inɛ"],
     srr: ["njelem", "ndʒelem"],

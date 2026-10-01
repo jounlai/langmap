@@ -26,7 +26,7 @@ WORDS.cat = {
     uk: "Кішка",
     ar: "قطة",
     he: "חתול",
-    sw: "Paka",
+    sw: "Paka"
   },
   definition: {
     en: "Generic domestic cat (Felis catus); use the normal generic/citation form for that language, and note gender (in wordEvidence.note) if it matters.",
@@ -51,7 +51,7 @@ WORDS.cat = {
     uk: "Домашня кішка (Felis catus); звичайна словникова форма; стать — у wordEvidence.note, якщо важлива.",
     ar: "القط الأليف (Felis catus)؛ الصيغة العامة/المعجمية؛ الجنس يُذكر في wordEvidence.note عند الحاجة.",
     he: "חתול ביתי (Felis catus); צורת מילון כללית; מין יתועד ב־wordEvidence.note אם רלוונטי.",
-    sw: "Paka wa nyumbani (Felis catus); umbo la kamusi/la kawaida; jinsia katika wordEvidence.note inapohitajika.",
+    sw: "Paka wa nyumbani (Felis catus); umbo la kamusi/la kawaida; jinsia katika wordEvidence.note inapohitajika."
   },
   data: {
       kwa: ["—","—"],
@@ -288,7 +288,6 @@ WORDS.cat = {
     yo: ["ológbò", "olóɡbò"],
     zu: ["ikati", "ikati"],
     am: ["ድመት", "dɨmmɛt"],
-    aiw: ["shango", "ʃaŋɡo"],
     sgw: ["ድመት", "dɨmɛt"],
     mg: ["saka", "saka"],
     ain: ["チャペ", "tɕape"],
@@ -729,7 +728,7 @@ WORDS.cat = {
     mwk: ["ñaakuma", "ɲaːkuma"],
     mlq: ["nyaakuma", "ɲaːkuma"],
     mev: ["poso", "poso"],
-    dnj: ["nyaa", "ɲaː"],
+    dnj: ["gwa̋n", "ɡwã̋"],
     ses: ["muusu", "muːsu"],
     khq: ["muusu", "muːsu"],
     dje: ["muusu", "muːsu"],
@@ -904,7 +903,7 @@ WORDS.cat = {
     lhu: ["maˇ-niˆ", "mâníʔ"],
     lis: ["a-nyi", "aɲi"],
     nxq: ["lai-mei", "lɑ˧mi˧"],
-    shn: ["မႅဝ်", "mɛw"],
+    shn: ["မႅဝ်း", "mɛw˥"],
     jio: ["miau", "miau"],
     kbp: ["takpaŋ", "takpaŋ"],
     ee: ["dadi", "dadi"],
@@ -1103,7 +1102,7 @@ WORDS.cat = {
     wuu_nb: ["猫", "mɔ˦˦"],
     yue_gz: ["猫", "maːu˥˥"],
     khb: ["ᦙᦦᧁ", "mɛw"],
-    blt: ["ꪵꪙꪺ", "mɛːu˨˦"],
+    blt: ["ꪵꪣꪫ", "mɛːu˨˦"],
     pam: ["pusa", "ˈpusaʔ"],
     pag: ["pusa", "ˈpusa"],
     mdh: ["kuting", "kuˈtiŋ"],
@@ -1122,7 +1121,7 @@ WORDS.cat = {
     kaa: ["pishik", "piʃik"],
     bej: ["kabsoot", "kabsoːt"],
     tig: ["ድሙ", "dəmmu"],
-    byn: ["ሐራ", "ħara"],
+    byn: ["ዱሙ", "dumːu"],
     ssy: ["dummu", "dummu"],
     ewo: ["esìŋga", "esiŋɡa"],
     bum: ["esinga", "esiŋɡa"],
@@ -1177,7 +1176,7 @@ WORDS.cat = {
       ipa:  "mau˥˥ tsɨ",
       alt: [
         { form: "财喜 tsʰai˨˩˧ ɕi˦˨", script: "武漢方言別稱 — Wuhan's other name for the cat", source: "現代漢語方言大詞典 via en.wiktionary dialectal synonyms for 貓, which lists Wuhan as 貓子 · 貓 · 貓伢子 · 財喜 · 阿嗚 (childish). Reported by 凪闏椧-无风山谷 on bilibili." },
-      ],
+      ]
     },
     zh_zz: ["猫", "mau˨˦"],
     hak_hl: ["貓仔", "meu˥˥ e˨˦"],
@@ -1249,6 +1248,7 @@ WORDS.cat = {
     lep: ["ᰣᰦᰜᰤᰫ", "ʔalju"],
     mhy: ["using", "using"],
     gsw_als: ["Kàtz", "kʰɒts"],
-    nan_ph: ["貓", "niãu˧˧"]
-  },
+    nan_ph: ["貓", "niãu˧˧"],
+    aiw: ["—", "—"]
+  }
 };

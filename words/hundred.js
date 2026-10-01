@@ -717,7 +717,7 @@ WORDS.hundred = {
     jya: ["pərjɐ", "pərjɐ"],   // the same Tibetan brgya, behind a Gyalrong prefix
     yiz: ["xo", "xo˧˧"],
     nxq: ["xi", "ɕi˧"],
-    mtq: ["tlăm", "tlam˥"],   // the cluster Vietnamese trăm lost
+    mtq: ["tlăm", "tlam"],   // the cluster Vietnamese trăm lost
     mra: ["rɔy", "rɔj"],   // the Thai ร้อย, borrowed
     bdq: ["hreng", "hreŋ"],
     bru: ["culam", "kulam"],
@@ -910,7 +910,7 @@ WORDS.hundred = {
     brx: ["जौसे", "dʒause"],
     max: ["saratus", "saratus"],
     seh: ["dzana", "dzana"],
-    dnj: ["kʌŋ", "kʌŋ"],
+    dnj: ["kʌ̄ŋ", "kʌ̄ŋ"],
     toi: ["mwaanda", "mwaːnda"],
     ndc: ["zana", "zana"],
     nag: ["eksoh", "eksoh"],

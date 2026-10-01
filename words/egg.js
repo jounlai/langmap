@@ -137,7 +137,7 @@ WORDS.egg = {
     bn: ["ডিম", "ɖim"],
     ur: ["انڈا", "əɳɖaː"],
     ta: ["முட்டை", "muʈːaɪ"],
-    iru: ["முட்டை", "muʈːaj"],
+    iru: ["muṭṭe", "muʈːe"],
     en: ["egg", "ɛɡ"],
     de: ["Ei", "aɪ"],
     fr: ["œuf", "œf"],
@@ -805,7 +805,7 @@ WORDS.egg = {
     grt: ["doʼchi", "doʔtʃi"],
     kac: ["u di", "u˧ di˧"],
     yiz: ["ɬo", "ɬo˨˨"],
-    shn: ["ၶႆႇ", "kʰaj"],
+    shn: ["ၶႆႇ", "kʰaj˩"],
     jio: ["tsum", "tsum˥˩"],
     kmh: ["yakt magi", "jakt maɡi"],
     dbq: ["ndèði", "ndèði"],
@@ -948,7 +948,7 @@ WORDS.egg = {
     mas: ["olmosori", "olmosori"],
     seh: ["dzai", "dzai"],
     bxk: ["liiki", "liːki"],
-    dnj: ["yaan", "jaːn"],
+    dnj: ["yȁan", "jã̏ː"],
     nus: ["tuoŋ", "tuɔŋ"],
     kbp: ["yaɖɛ", "jaɖɛ"],
     tem: ["ra-mɛs", "ramɛs"],
@@ -1051,6 +1051,7 @@ WORDS.egg = {
     cab: ["gañe", "ɡaɲe"],
     gej: ["azi", "azi"],
     sgw: ["እንራ", "ɨnra"],
-    saq: ["mboliboli", "mboliboli"]
+    saq: ["mboliboli", "mboliboli"],
+    aiw: ["muqa", "muˈqa"]
   },
 };

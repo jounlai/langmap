@@ -26,7 +26,7 @@ WORDS.thanks = {
     uk: "Дякую",
     ar: "شكرا",
     he: "תודה",
-    sw: "Asante",
+    sw: "Asante"
   },
   definition: {
     en: "Spoken thank-you formula for modern languages. For historical languages, use — or a clearly noted liturgical/gratitude noun rather than inventing a formula.",
@@ -51,7 +51,7 @@ WORDS.thanks = {
     uk: "Усна формула подяки для сучасних мов. У історичних — \"—\" або явно позначений літургійний/вдячний іменник; не вигадувати.",
     ar: "صيغة شكر شفوية في اللغات الحديثة. في اللغات التاريخية، استخدم \"—\" أو اسمًا ليتورجيًّا/شكرًا موثّقًا؛ لا تختلق.",
     he: "נוסח תודה דיבורי בשפות מודרניות. בשפות היסטוריות — \"—\" או שם עצם תודתי/ליטורגי מתועד; אין להמציא.",
-    sw: "Msemo wa shukrani unaonenwa katika lugha za kisasa. Kwa lugha za kihistoria tumia \"—\" au nomino ya shukrani/kiimani iliyotajwa; usitunge.",
+    sw: "Msemo wa shukrani unaonenwa katika lugha za kisasa. Kwa lugha za kihistoria tumia \"—\" au nomino ya shukrani/kiimani iliyotajwa; usitunge."
   },
   data: {
       kwa: ["—","—"],
@@ -288,7 +288,6 @@ WORDS.thanks = {
     yo: ["ẹ ṣé", "ɛ ʃé"],
     zu: ["ngiyabonga", "ŋɡijaɓoŋɡa"],
     am: ["አመሰግናለሁ", "amɛsɛɡɡɨnallɛhu"],
-    aiw: ["galatoma", "ɡalatoma"],
     sgw: ["ኣምስከነለንት", "amɨskɛnɛlɛnt"],
     mg: ["misaotra", "misautɾa"],
     ain: ["イヤイライケレ", "ijairaikeɾe"],
@@ -413,7 +412,7 @@ WORDS.thanks = {
     srr: ["jaaraama", "dʒaːɾaːma"],
     so: ["mahadsanid", "mahadsanid"],
     om: ["galatoomi", "ɡalatoːmi"],
-    kxc: ["—", "—"],
+    kxc: ["kalata", "kalata"],
     drs: ["galaata", "ɡalaːta"],
     dsh: ["galche", "ɡaltʃe"],
     rw: ["murakoze", "muɾakoze"],
@@ -727,9 +726,8 @@ WORDS.thanks = {
     kao: ["i ni baara", "i ni baːɾa"],
     snk: ["inkawu", "iŋkawu"],
     mwk: ["i ni baara", "i ni baːɾa"],
-    mlq: ["i ni baara", "i ni baːɾa"],
     mev: ["nyɛŋ", "ɲɛŋ"],
-    dnj: ["kpe", "kpe"],
+    dnj: ["dhūnwɛ̋ɛ", "nũ̄wɛ̋ː"],
     ses: ["barka", "barka"],
     khq: ["barka", "barka"],
     dje: ["fofo", "fofo"],
@@ -904,7 +902,7 @@ WORDS.thanks = {
     lhu: ["a-bo-shaˇ", "abôʃâʔ"],
     lis: ["ti-tu", "titu"],
     nxq: ["jjuq jjuq", "dʑɯ˨˩dʑɯ˨˩"],
-    shn: ["ၶွပ်ႈၸႂ်", "kɔp tsai"],
+    shn: ["ၶွပ်ႈၸႂ်", "kʰɔp˧˨ tsaɰ˨˦"],
     jio: ["χaːi", "χaːi"],
     kbp: ["agɔndɩ", "aɡɔndɪ"],
     ee: ["akpe", "akpe"],
@@ -1122,7 +1120,6 @@ WORDS.thanks = {
     kaa: ["rahmet", "ɾaχmet"],
     bej: ["baraʼoo", "baɾaʕoː"],
     tig: ["የቀንየለይ", "jəqanjəlej"],
-    byn: ["ቀንየለይ", "qənjələj"],
     ssy: ["galatto", "ɡalatto"],
     ewo: ["akiba", "akiba"],
     bum: ["akiba", "akiba"],
@@ -1243,6 +1240,9 @@ WORDS.thanks = {
     lep: ["ᰀ᰷ᰥᰩᰭᰇᰧᰶ", "ʈɔkcʰi"],
     mhy: ["tarima kasih", "tarima kasih"],
     gsw_als: ["Mersi", "mɛrsi"],
-    nan_ph: ["多謝", "to˧˧ sia˦˩"]
-  },
+    nan_ph: ["多謝", "to˧˧ sia˦˩"],
+    aiw: ["—", "—"],
+    mlq: ["—", "—"],
+    byn: ["—", "—"]
+  }
 };

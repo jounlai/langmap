@@ -26,7 +26,7 @@ WORDS.eat = {
     uk: "Їсти",
     ar: "أكل",
     he: "לאכול",
-    sw: "Kula",
+    sw: "Kula"
   },
   definition: {
     en: "Verb \"to eat\" — use the language's normal dictionary/citation convention; document exceptions with wordEvidence.note.",
@@ -51,7 +51,7 @@ WORDS.eat = {
     uk: "Дієслово \"їсти\" — звична словникова/цитатна форма; винятки — у wordEvidence.note.",
     ar: "الفعل \"أكل\" — استخدم الصيغة المعجمية المعتادة؛ وثّق الاستثناءات في wordEvidence.note.",
     he: "הפועל \"לאכול\" — צורת הציטוט/המילון הרגילה; חריגות מתועדות ב־wordEvidence.note.",
-    sw: "Kitenzi \"kula\" — tumia umbo la kawaida la kamusi; toa noti kupitia wordEvidence.note.",
+    sw: "Kitenzi \"kula\" — tumia umbo la kawaida la kamusi; toa noti kupitia wordEvidence.note."
   },
   data: {
       kwa: ["wæ̂d","wæ̂d"],
@@ -288,7 +288,6 @@ WORDS.eat = {
     yo: ["jẹ", "dʒɛ"],
     zu: ["ukudla", "ukuɮa"],
     am: ["መብላት", "mɛblat"],
-    aiw: ["itte", "itːe"],
     sgw: ["ወቸ", "wɛtʃɛ"],
     mg: ["mihinana", "mihinana"],
     ain: ["イペ", "ipe"],
@@ -337,7 +336,7 @@ WORDS.eat = {
       alt: [
         { form: "gwn", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "啃 / 巾 / 𩚍", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𫩒 — Sawndip was never standardised" },
-      ],
+      ]
     },
     mmd: ["na4", "na˨˦"],
     mlm: ["tsa:n1", "tsaːn˦˨"],
@@ -733,7 +732,7 @@ WORDS.eat = {
     mwk: ["don", "don"],
     mlq: ["don", "don"],
     mev: ["mɛ", "mɛ"],
-    dnj: ["dɛ", "dɛ"],
+    dnj: ["bhɤ̏", "ɓɤ̏"],
     ses: ["ŋwa", "ŋwa"],
     khq: ["ŋwa", "ŋwa"],
     dje: ["ŋwa", "ŋwa"],
@@ -908,7 +907,7 @@ WORDS.eat = {
     lhu: ["caˆ", "tsâ"],
     lis: ["dza", "dza˨˩"],
     nxq: ["zo", "dzo˧"],
-    shn: ["ၵိၼ်", "kin"],
+    shn: ["ၵိၼ်", "kin˨˦"],
     jio: ["kɛːn", "kɛːn"],
     kbp: ["tɔɔ", "tɔː"],
     ee: ["ɖu", "ɖu"],
@@ -933,7 +932,7 @@ WORDS.eat = {
     tem: ["ði", "ði"],
     dyu: ["dun", "dun"],
     bbo: ["don", "don"],
-    spp: ["kanyi", "kaɲi"],
+    spp: ["lyi", "ʎi"],
     sus: ["don", "don"],
     syl: ["খাইন", "xain"],
     rhg: ["háwa", "haːwa"],
@@ -1126,7 +1125,7 @@ WORDS.eat = {
     kaa: ["jew", "ʒew"],
     bej: ["tame", "tame"],
     tig: ["በልዐ", "balʕa"],
-    byn: ["ምሰራ", "məsəra"],
+    byn: ["ቍና", "kʷʼəna"],
     ssy: ["niitan", "niːtan"],
     ewo: ["di", "di"],
     bum: ["dzia", "dʒia"],
@@ -1250,6 +1249,7 @@ WORDS.eat = {
     lep: ["ᰙᰨ", "dzo"],
     mhy: ["kuman", "kuman"],
     gsw_als: ["ësse", "æsə"],
-    nan_ph: ["食", "tsiaʔ˨˦"]
-  },
+    nan_ph: ["食", "tsiaʔ˨˦"],
+    aiw: ["—", "—"]
+  }
 };

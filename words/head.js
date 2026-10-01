@@ -680,7 +680,7 @@ WORDS.head = {
     luy: ["omurwe", "omurwe"],
     vmw: ["muru", "muɾu"],
     ja_sd: ["頭", "adama"],
-    shn: ["ႁူဝ်", "hoː"],
+    shn: ["ႁူဝ်", "hoː˨˦"],
     rki: ["ဦးခေါင်း", "ʔú ɡáuɴ"],
     efi: ["ibuot", "ibuot"],
     emk: ["kun", "kũ"],
@@ -745,7 +745,7 @@ WORDS.head = {
     ve: ["ṱhoho", "t̪ʰoho"],
     seh: ["nsolo", "nsolo"],
     bxk: ["kumurwe", "kumurwe"],
-    dnj: ["gɔ", "ɡɔ"],
+    dnj: ["gɔ̏", "ɡɔ̏"],
     nus: ["wic", "witʃ"],
     srr: ["xoox", "xoːx"],
     tem: ["ra-bomp", "rabomp"],
@@ -978,6 +978,7 @@ WORDS.head = {
     bsq: ["dú", "dú"],
     gej: ["eta", "eta"],
     bum: ["nlô", "nlɔ"],
-    maz: ["ñi", "ɲi"]
+    maz: ["ñi", "ɲi"],
+    aiw: ["mata", "maˈta"]
   },
 };

@@ -142,7 +142,7 @@ WORDS.nose = {
     rkt: ["নাক", "nak"],
     ur: ["ناک", "naːk"],
     ta: ["மூக்கு", "muːkːɯ"],
-    iru: ["மூக்கு", "muːkːu"],
+    iru: ["mūku", "muːku"],
     en: ["nose", "noʊz"],
     de: ["Nase", "ˈnaːzə"],
     fr: ["nez", "ne"],
@@ -901,7 +901,7 @@ WORDS.nose = {
     unr: ["mu", "mũ"],
     mtq: ["mũi", "muj"],
     // --- Kra-Dai --------------------------------------------------------
-    shn: ["ၶူႈလင်", "kʰuː laŋ"],
+    shn: ["ၶူႈလင်", "kʰuː˧˨ laŋ˨˦"],
     khb: ["ᦡᧂ", "daŋ"],
     srh: ["nodz", "nodz"],
     rbb: ["kaduŋmuh", "kaduŋmuh"],
@@ -1029,7 +1029,7 @@ WORDS.nose = {
     brx: ["गन्थं", "ɡontʰoŋ"],
     ve: ["ningo", "niŋo"],
     zne: ["ho", "ho"],
-    dnj: ["yun", "jun"],
+    dnj: ["yūn", "jũ̄"],
     fan: ["dzu", "dzu"],
     ndc: ["miro", "miro"],
     tmh: ["ⵜⵉⵏⵛⴰⵔ", "tinʃar"],
@@ -1089,6 +1089,7 @@ WORDS.nose = {
     ada: ["gugwɔ", "ɡuɡwɔ"],
     haz: ["بینی", "bini"],
     bsq: ["máná", "máná"],
-    tab: ["хъюхъ", "qyq"]
+    tab: ["хъюхъ", "qyq"],
+    aiw: ["nuki", "ˈnuki"]
   },
 };

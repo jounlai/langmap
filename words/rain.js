@@ -578,7 +578,7 @@ WORDS.rain = {
     kok: ["पावस", "paːʋəs"],
     mos: ["saaga", "ˈsaːɡa"],
     kr: ["dəlagə", "dəˈlaɡə"],
-    shn: ["ၽူၼ်", "pʰun"],
+    shn: ["ၽူၼ်", "pʰon˨˦"],
     luy: ["efula", "eˈfula"],
     kam: ["mbua", "ˈmbua"],
     tum: ["vula", "ˈvula"],
@@ -987,7 +987,7 @@ WORDS.rain = {
     pwo: ["ဆၧဆၧၩ့", "sʰə sʰəɴ"],
     brx: ["अखा", "ɔkʰa"],
     mas: ["ɛnchan", "ɛntʃan"],
-    dnj: ["dha", "ɗa"],
+    dnj: ["dhā", "ɗā"],
     srr: ["teɓ", "teɓ"],
     tem: ["kʌ-ɔm", "kʌɔm"],
     fan: ["mveng", "mveŋ"],
@@ -1062,6 +1062,7 @@ WORDS.rain = {
     nmf: ["zingrot", "ziŋrot"],
     bum: ["mveŋ", "mveŋ"],
     maz: ["dyebe", "djebe"],
-    aja: ["eshi", "eʃi"]
+    aja: ["eshi", "eʃi"],
+    aiw: ["doobi", "doːbi"]
   },
 };

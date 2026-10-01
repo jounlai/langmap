@@ -35,7 +35,7 @@ WORDS.fish = {
     uk: "Риба",
     ar: "سمكة",
     he: "דג",
-    sw: "Samaki",
+    sw: "Samaki"
   },
   definition: {
     en: "NOUN \"fish\" = the live aquatic animal, singular. Not fish as food/flesh where the language separates them (es pescado, ko 생선, ja 魚 covers both), not \"to fish\", and not a specific species.",
@@ -60,7 +60,7 @@ WORDS.fish = {
     uk: "Іменник \"риба\" = жива водяна тварина, однина. Не риба як їжа там, де мова їх розрізняє (es pescado, ko 생선), не дієслово \"ловити рибу\" й не конкретний вид.",
     ar: "اسم \"سمكة\" = الحيوان المائي الحي، بصيغة المفرد. لا السمك بوصفه طعامًا حيث تفرّق اللغة (es pescado، ko 생선)، ولا الفعل \"يصطاد\"، ولا نوعًا بعينه.",
     he: "שם עצם \"דג\" = בעל החיים המימי החי, ביחיד. לא דג כמאכל בשפות שמפרידות (es pescado, ko 생선), לא הפועל \"לדוג\" ולא מין מסוים.",
-    sw: "Nomino \"samaki\" = mnyama wa majini aliye hai, umoja. Si samaki kama chakula pale lugha inapotofautisha (es pescado, ko 생선), si kitenzi \"kuvua\", wala si spishi fulani.",
+    sw: "Nomino \"samaki\" = mnyama wa majini aliye hai, umoja. Si samaki kama chakula pale lugha inapotofautisha (es pescado, ko 생선), si kitenzi \"kuvua\", wala si spishi fulani."
   },
   data: {
       kwa: ["hãːp","hãːp"],
@@ -219,7 +219,7 @@ WORDS.fish = {
     rkt: ["মাছ", "maːtʃʰ"],
     ur: ["مچھلی", "mətʃʰliː"],
     ta: ["மீன்", "miːn"],
-    iru: ["miin", "miːn"],
+    iru: ["mīn", "miːn"],
     en: ["fish", "fɪʃ"],
     de: ["Fisch", "fɪʃ"],
     fr: ["poisson", "pwasɔ̃"],
@@ -340,7 +340,7 @@ WORDS.fish = {
       alt: [
         { form: "bya", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "𮫻 / 𱆦 / 𩵒", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 䰾 — Sawndip was never standardised" },
-      ],
+      ]
     },
     mmd: ["ᵐbjai3", "ᵐbjai˥˩"],
     mlm: ["məm6", "məm˩˩"],
@@ -672,9 +672,8 @@ WORDS.fish = {
     kao: ["ñewo", "ɲewo"],
     snk: ["yaxe", "jaxe"],
     mwk: ["jɛgɛ", "dʒɛɡɛ"],
-    mlq: ["jɛgɛ", "dʒɛɡɛ"],
     mev: ["gba", "ɡba"],
-    dnj: ["yu", "ju"],
+    dnj: ["yúɤ̏ɤ", "júɤ̏ː"],
     ses: ["hamisa", "hamisa"],
     khq: ["hamisa", "hamisa"],
     dje: ["hamisa", "hamisa"],
@@ -686,7 +685,7 @@ WORDS.fish = {
     tzo: ["choy", "tʃoj"],
     tzh: ["chay", "tʃaj"],
     mixtec: ["chaka", "tʃaka"],
-    zap: ["beld", "beld"],
+    zap: ["benda", "benda"],
     zts: ["beld", "beld"],
     maz: ["jmoʼo", "xmoʔo"],
     mix: ["chaka", "tʃaka"],
@@ -849,7 +848,7 @@ WORDS.fish = {
     lhu: ["ngâ", "ŋâ"],
     lis: ["ngua", "ŋua"],
     nxq: ["ngi", "ŋi˧"],
-    shn: ["ပႃ", "paː˧"],
+    shn: ["ပႃ", "paː˨˦"],
     jio: ["lou", "lou"],
     kbp: ["kpakpa", "kpakpa"],
     ee: ["tɔmelã", "tɔmelã"],
@@ -876,7 +875,7 @@ WORDS.fish = {
     bbo: ["jɛgɛ", "dʒɛɡɛ"],
     spp: ["cyɛɛn", "tʃɛːn"],
     sus: ["yɛxɛ", "jɛxɛ"],
-    syl: ["ꠝꠣꠍ", "maːtʃʰ"],
+    syl: ["মাছ", "mas"],
     rhg: ["maas", "maːs"],
     ctg: ["মাছ", "maːtʃʰ"],
     mag: ["माछी", "maːtʃʰiː"],
@@ -1048,7 +1047,7 @@ WORDS.fish = {
     wuu_nb: ["鱼", "ŋ̍˨˩˧"],
     yue_gz: ["鱼", "jyː˨˩"],
     khb: ["ᦔᦱ", "paː˧"],
-    blt: ["ꪝꪱ", "paː˧"],
+    blt: ["ꪜꪱ", "paː˧"],
     pam: ["asan", "ʔaˈsan"],
     pag: ["sira", "ˈsiɾa"],
     mdh: ["seda", "səˈdaʔ"],
@@ -1265,6 +1264,7 @@ WORDS.fish = {
     lep: ["ᰋᰨ", "ŋo"],
     mhy: ["kenah", "kenah"],
     gsw_als: ["Fìsch", "fɪʃ"],
-    nan_ph: ["魚", "hi˨˦"]
-  },
+    nan_ph: ["魚", "hi˨˦"],
+    mlq: ["—", "—"]
+  }
 };

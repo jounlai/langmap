@@ -1213,7 +1213,7 @@ WORDS.bear = {
       ],
     },
     khb: ["ᦖᦲ", "miː"],
-    shn: ["မီ", "miː"],
+    shn: ["မီ", "miː˨˦"],
     blt: ["ꪢꪲ", "miː˨˦"],
     pcc: ["moil", "moi˧˥"],
     nut: ["mui", "mui˧˧"],

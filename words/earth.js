@@ -33,7 +33,7 @@ WORDS.earth = {
     uk: "Земля",
     ar: "تراب",
     he: "אדמה",
-    sw: "Udongo",
+    sw: "Udongo"
   },
   definition: {
     en: "Earth as soil / ground underfoot — the physical substance, not the planet.",
@@ -58,7 +58,7 @@ WORDS.earth = {
     uk: "Земля як ґрунт під ногами — сама речовина, а не планета.",
     ar: "التراب/الأرض كسطح تحت القدمين — المادة نفسها، وليس الكوكب.",
     he: "אדמה כקרקע מתחת לרגליים — החומר עצמו, לא כדור הארץ.",
-    sw: "Udongo / ardhi chini ya miguu — dutu yenyewe, si sayari Dunia.",
+    sw: "Udongo / ardhi chini ya miguu — dutu yenyewe, si sayari Dunia."
   },
   data: {
       kwa: ["cax","cax"],
@@ -127,7 +127,7 @@ WORDS.earth = {
     th_n: ["ดิน", "din˧"],
     th_s: ["ดิน", "din˥"],
     lo: ["ດິນ", "din˩˧"],
-    shn: ["လိၼ်", "lǐn"],
+    shn: ["လိၼ်", "lin˨˦"],
     km: ["ដី", "dəj"],
     my: ["မြေ", "mjè"],
     ptai: ["*ɗin", "ɗin"],
@@ -578,7 +578,7 @@ WORDS.earth = {
     doi: ["मिट्टी", "mɪʈːiː"],
     skr: ["مٹی", "mɪʈːiː"],
     hno: ["مٹی", "mɪʈːiː"],
-    syl: ["ꠝꠣꠐꠤ", "maʈi"],
+    syl: ["মাটি", "maʈi"],
     tcy: ["ಮಣ್ಣ್", "maɳɳ"],
     min: ["tanah", "tanah"],
     ban: ["tanah", "tanah"],
@@ -596,7 +596,7 @@ WORDS.earth = {
       alt: [
         { form: "doem", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "𮤬 / 𰊣 / 墪", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 垚 — Sawndip was never standardised" },
-      ],
+      ]
     },
     mmd: ["khəm5", "kʰəm˦˦"],
     mlm: ["na:m6", "naːm˩˩"],
@@ -817,7 +817,6 @@ WORDS.earth = {
     cic: ["yaakniʼ", "jaːkniʔ"],
     lhm: ["ས", "sa˥"],
     dv: ["ފަސް", "fas"],
-    iru: ["மண்", "maɳ"],
     chf: ["lum", "lum"],
     gej: ["anyigba", "aɲiɡba"],
     ssw: ["inhlabatsi", "inɬaɓatsi"],
@@ -1070,7 +1069,7 @@ WORDS.earth = {
     pwo: ["ဂၪ့ခိၪ", "ɣaɴ kʰo"],
     lis: ["mi-nae", "mi˦˦nɛ˦˦"],
     seh: ["mataka", "mataka"],
-    dnj: ["sɛ", "sɛ"],
+    dnj: ["sɛ̋", "sɛ̋"],
     kjp: ["ၯင်းခေါဟ်", "ɣáɴkʰʊ́"],
     ada: ["zugba", "zuɡba"],
     bom: ["vwel", "vwel"],
@@ -1127,5 +1126,5 @@ WORDS.earth = {
     nus: ["piny", "piɲ"],
     nym: ["liwelelo", "liwelelo"],
     maz: ["jõmü", "hõmɨ"]
-  },
+  }
 };

@@ -26,7 +26,7 @@ WORDS.snow = {
     uk: "Сніг",
     ar: "ثلج",
     he: "שלג",
-    sw: "Theluji",
+    sw: "Theluji"
   },
   definition: {
     en: "Snow — frozen precipitation that falls as soft white flakes and settles on the ground; not the verb 'to snow' nor plain ice.",
@@ -51,7 +51,7 @@ WORDS.snow = {
     uk: "Сніг — замерзлі опади, що падають білими сніжинками й лягають на землю; не дієслово 'йде сніг' і не звичайний лід.",
     ar: "ثلج — تساقط متجمّد ينزل على هيئة رقائق بيضاء ناعمة ويتراكم على الأرض؛ ليس الفعل 'تُثلج' ولا الجليد العادي.",
     he: "שלג — משקעים קפואים היורדים כפתיתים לבנים ומצטברים על הקרקע; לא הפועל 'יורד שלג' ולא קרח רגיל.",
-    sw: "Theluji — mvua iliyoganda inayoanguka kama vipande vyeupe laini na kujilundika ardhini; si kitenzi 'kunyesha theluji' wala barafu ya kawaida.",
+    sw: "Theluji — mvua iliyoganda inayoanguka kama vipande vyeupe laini na kujilundika ardhini; si kitenzi 'kunyesha theluji' wala barafu ya kawaida."
   },
   data: {
     es_cr: ["nieve", "njeβe"],
@@ -275,7 +275,7 @@ WORDS.snow = {
       alt: [
         { form: "nae", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
         { form: "𮦈 / 汭 / 𭛎", script: "Sawndip (古壮字)", source: "attested variant glyphs beside the primary form 𱁣 — Sawndip was never standardised" },
-      ],
+      ]
     },
     hmn: ["daus", "dau˨˩"],
     jv: ["salju", "salɟu"],
@@ -595,7 +595,7 @@ WORDS.snow = {
     tt: ["кар", "qɑr"],
     ba: ["ҡар", "qɑr"],
     krc: ["къар", "qar"],
-    shn: ["ႁီႉမႃႉ", "hiː˦˨ˀmaː˦˨ˀ"],
+    shn: ["ႁီႉမႃႉ", "hiː˦˨ˀ maː˦˨ˀ"],
     nso: ["lehlwa", "leˈɬwa"],
     syl: ["বরফ", "bɔɾɔf"],
     rhg: ["boróf", "boˈrof"],
@@ -799,7 +799,6 @@ WORDS.snow = {
     tcy: ["ಹಿಮ", "ˈhima"], // Sanskrit tatsama; Männer 1886 glosses snow, hoar-frost, dew
     nag: ["borop", "bɔɾɔp"], // Persian barf via Assamese বৰফ
     khb: ["ᦵᦖᧀᦉᦏᦱᧇ", "mɤj satʰaːp"], // Hanna, Dai Lue-English Dictionary — kept distinct from frost
-    blt: ["mươi phông", "mɯəj foŋ"], // lit. blown frost; native Tai compound, not a loan
     nan_hai: ["雪", "te˥˥"],
     kho: ["𑀩𑀅𑀼𑀭", "baura"], // Bailey, Dictionary of Khotan Saka 305-306
     txg: ["𗎆", "ʔwji˧"], // Li Fanwen 4091
@@ -936,5 +935,5 @@ WORDS.snow = {
     kek: ["nieve", "ˈnjeβe"],
     bru: ["prễl príl", "prel pril"],
     zap: ["nieve", "njebe"]
-  },
+  }
 };

@@ -908,7 +908,7 @@ WORDS.name = {
       lhu: ["a-meh", "à mɛ"],
       lis: ["myi", "mi˧˧"],
       nxq: ["miq", "mi˨˩"],  // Pinson, Naxi-Chinese-English Dictionary (webonary.org/naxi): miq /mi21/ 名字 'name'. The cell had held mei /me33/ 母亲 'mother' — the row's own mother cell, one entry away in the same dictionary.
-      shn: ["ၸိုဝ်ႈ", "tsɯ˧˩"],
+      shn: ["ၸိုဝ်ႈ", "tsɯː˧˨"],
       jio: ["tsɔ", "tsɔ˧"],
       kbp: ["hɩɖɛ", "hɪɖɛ"],
       ee: ["ŋkɔ", "ŋkɔ"],
@@ -1126,7 +1126,7 @@ WORDS.name = {
       kaa: ["at", "ɑt"],
       bej: ["sim", "sim"],
       tig: ["ስም", "sɨm"],
-      byn: ["ስም", "səm"],
+      byn: ["ስⶖ", "səŋʷ"],
       ssy: ["migaaq", "miɡaːʕ"],
       ewo: ["jôé", "ʒóé"],
       bum: ["jôé", "dʒɔe"],

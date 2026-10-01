@@ -1058,6 +1058,14 @@ WORDS.egg = {
     dur: ["ba̧ʼ", "bãʔ"],
     xed: ["slislik", "ɬiɬik"],
     dds: ["talu", "talu"],
-    mgo: ["ɨbom", "ɨbom"]
+    mgo: ["ɨbom", "ɨbom"],
+    frr_amr: ["ai", "aɪ̯"],
+    ssf: ["qaricuy", "qaɾiθuj"],
+    szy: ["tiʼkuk", "tiʔkuk"],
+    fra_jer: ["oeu", "ø"],
+    yur: ["ʼweryhl", "ʔwɚjɬ"],
+    woe: ["súgún", "sɨɡɨn"],
+    lun: ["iteta", "iteta"],
+    mkz: ["waa", "waa"]
   },
 };

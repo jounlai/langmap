@@ -937,6 +937,8 @@ WORDS.snow = {
     zap: ["nieve", "njebe"],
     chf: ["nieve", "ˈnjebe"],
     huv: ["nieve", "nʲebe"],
-    nzm: ["kebun", "kebun"]
+    nzm: ["kebun", "kebun"],
+    gsw_als: ["Schnee", "ʃneː"],
+    mlm: ["nui1", "nui˦˨"]
   }
 };

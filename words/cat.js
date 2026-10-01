@@ -1246,7 +1246,7 @@ WORDS.cat = {
     lun: ["—", "—"],
     tsj: ["danyi", "daɲi"],
     lep: ["ᰣᰦᰜᰤᰫ", "ʔalju"],
-    mhy: ["using", "using"],
+    mhy: ["using", "usiŋ"],
     gsw_als: ["Kàtz", "kʰɒts"],
     nan_ph: ["貓", "niãu˧˧"],
     aiw: ["—", "—"]

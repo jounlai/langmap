@@ -1199,6 +1199,11 @@ WORDS.salt = {
     agq: ["ntsôʼ", "ntsôʔ"],
     dds: ["neŋ", "neŋ"],
     dsh: ["shugut", "ʃuɡut"],
-    nlc: ["garam", "ɡaram"]
+    nlc: ["garam", "ɡaram"],
+    njo: ["metsü", "metsə"],
+    bbl: ["თუჲხი̆", "tujxi"],
+    blc: ["stʼs", "stʼs"],
+    lun: ["muŋwa", "muŋwa"],
+    kgg: ["huki", "huki"]
   },
 };

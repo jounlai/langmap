@@ -1157,6 +1157,14 @@ WORDS.four = {
     emi: ["ghaata", "ɣaata"],
     pjt: ["kutjara kutjara", "kucaɻa kucaɻa"],
     toc: ["aktati", "aktati"],
-    fai: ["alalew", "alalew"]
+    fai: ["alalew", "alalew"],
+    gun: ["irundy", "iɾunˈdɨ"],
+    piu: ["puupala", "puːpala"],
+    mpj: ["puu", "puː"],
+    bbl: ["დჵივჸ", "dʡivʔ"],
+    kgp: ["vẽnh kãgra", "wẽɲ kãŋɾa"],
+    sjd: ["не̄лльй", "ɲeːʎːj"],
+    sce: ["jieran", "dʑiəran"],
+    mjg: ["deeren", "deːren"]
   },
 };

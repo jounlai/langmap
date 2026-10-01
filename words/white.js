@@ -1187,6 +1187,8 @@ WORDS.white = {
     ker: ["birwa", "biɾwa"],
     nan_ph: ["白", "peʔ˨˦"],
     mlq: ["xoyi", "xoji"],
-    dds: ["pilu", "pilu"]
+    dds: ["pilu", "pilu"],
+    gsw_als: ["wiss", "vis"],
+    kpe: ["kole", "kole"]
   },
 };

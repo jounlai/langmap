@@ -1078,6 +1078,11 @@ WORDS.daughter = {
     bi: ["gel", "ɡel"],
     aqc: ["ло", "lo"],
     ker: ["tər", "təɾ"],
-    dds: ["yaana ii", "jaːna iː"]
+    dds: ["yaana ii", "jaːna iː"],
+    lic: ["ɬɨ:k7 pai3 khau2", "ɬɨːk˥˥ pai˩˩ kʰau˥˥"],
+    cro: ["dáakbia", "dáːkbia"],
+    acf: ["fi", "fi"],
+    pqm: ["ntus", "ntus"],
+    mlm: ["la:k8 ʔja:k7", "laːk˩˩ ʔjaːk˦˨"]
   },
 };

@@ -1148,6 +1148,18 @@ WORDS.ear = {
     agq: ["tuūŋ", "tūːŋ"],
     dds: ["sugulu", "suɡulu"],
     dsh: ["net", "net"],
-    mrq: ["puaʻika", "puaʔika"]
+    mrq: ["puaʻika", "puaʔika"],
+    cro: ["ahpé", "ahpé"],
+    uby: ["laqʼʷəma", "laqʼʷəma"],
+    ckv: ["kayal", "kajal"],
+    yur: ["chpegarʼ", "tʃpeɣeʔɹ"],
+    ter: ["kenôti", "keˈnoːti"],
+    wrh: ["wuudha", "ˈwuːd̪a"],
+    pqm: ["ʼcalokoss", "tʃalokos"],
+    bla: ["mohtóókis", "mohtóːkis"],
+    lun: ["itu", "itu"],
+    kwk: ["pʼa̱spʼa̱ʼyu", "pʼəspʼəʔju"],
+    thp: ["ƛ̓én̓i", "tɬʼenˀi"],
+    mcf: ["pabiate", "pabiate"]
   },
 };

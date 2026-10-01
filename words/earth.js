@@ -1131,6 +1131,15 @@ WORDS.earth = {
     ker: ["seŋka", "seŋka"],
     dur: ["hág", "haɡ˥"],
     nzm: ["kedei", "kedei"],
-    dsh: ["les", "les"]
+    dsh: ["les", "les"],
+    frr_amr: ["eerd", "eːrd"],
+    ykg: ["өнидьэ", "ønidʲe"],
+    njo: ["alima", "alima"],
+    uby: ["tɕʰʷaʁˤʷə", "tɕʰʷaʁˤʷə"],
+    gsw_als: ["Erd", "ert"],
+    ter: ["móte", "ˈmote"],
+    lun: ["iseki", "iseki"],
+    kpe: ["lɔii", "lɔiː"],
+    vls: ["eirde", "ˈeːrdə"]
   }
 };

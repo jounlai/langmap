@@ -1163,6 +1163,12 @@ WORDS.five = {
     bsq: ["hm̀m̌", "hm̩̀m̩̌"],
     maz: ["tsiʼchʼa", "tsiʔtʃʼa"],
     ygr: ["faefu", "faefu"],
-    dds: ["nnɔ", "nːɔ"]
+    dds: ["nnɔ", "nːɔ"],
+    pao: ["manigiʼyu", "maniɡiʔju"],
+    piu: ["payipala", "pajipala"],
+    mpj: ["payip", "pajip"],
+    bla: ["nisitó", "nisitó"],
+    thp: ["cíykst", "tsijkst"],
+    kgg: ["pãgo", "pãɡo"]
   },
 };

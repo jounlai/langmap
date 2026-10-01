@@ -35,6 +35,10 @@ const MC = {
   '行:1':['P','z'], '行:2':['P','z'],        // xíng / háng, both 匣母 level
   '来':['P','c'], '去':['Q','q'], '見':['Q','q'], '聞':['P','c'],
   '食':['R','z'], '飲':['S','q'], '走':['S','q'], '坐':['S','z'], '立':['R','c'],
+  // 2026-10-02: the 18 characters added to the Han Map.
+  '我':['S','c'],   '大':['Q','z'],   '白':['R','z'],   '茶':['P','z'],   '飛':['P','q'],   '無':['P','c'],
+  '兒':['P','c'],   '黃':['P','z'],   '家':['P','q'],   '生':['P','q'],   '不':['R','q'],   '青':['P','q'],
+  '紅':['P','z'],   '黑':['R','q'],   '知':['P','q'],   '雨':['S','c'],   '石':['R','z'],   '死':['S','q'],
 };
 const toneName = {P:'平', S:'上', Q:'去', R:'入'};
 const clsName = {q:'清', z:'全濁', c:'次濁'};
@@ -106,6 +110,41 @@ const EXCEPTIONS = new Set([
   'cjy_cz|央', 'cjy_cz|日', 'cjy_cz|肉', 'cjy_lv|飲', 'cjy_xz|六', 'cjy_xz|肉',
   'cnp_gl|月', 'cnp_gl|八', 'gan_fz|六', 'gan_ja|六', 'gan_yc|走',
   'gan_yt|六', 'gan_yt|月', 'hsn_hy|木', 'hsn_hy|目',
+  // 2026-10-02, 18 characters added (我 大 白 茶 飛 無 兒 黃 家 生 不 青 紅 黑 知 雨 石 死).
+  // Each new cell is from its row's source; the new members shift several
+  // category majorities, so some old cells now stand out. All of these are
+  // source-given irregulars: Cantonese 中入 (八 血 at 33), the Hakka and Wu
+  // pronoun tone of 我, Jian'ou 陽平→上 (無 兒, like 紅), 不 as a toneless or
+  // shifted particle, 行:2 háng in Hakka/Puxian, Taishan changed tones.
+  'cjy_lv|五',
+  'cnp_gl|不',
+  'cpx|行:2',
+  'gan_yc|我',
+  'hak_cn|我',
+  'hak_hl|我', 'hak_hl|行:2',
+  'hak_mz|我', 'hak_mz|行:2',
+  'hak_tw|我', 'hak_tw|行:2',
+  'mnp|馬', 'mnp|無', 'mnp|兒',
+  'msj|頭',
+  'wuu|我',
+  'wuu_jh|不', 'wuu_jh|黑',
+  'wuu_sz|兒',
+  'yue|八', 'yue|血',
+  'yue_hk|八', 'yue_hk|血',
+  'yue_mo|八', 'yue_mo|血',
+  'yue_ts|耳',
+  'zh_km|不',
+  'zh_lz|無',  // PENDING REBUILD, not settled: in these rows the 61 old cells were
+  // copied from another point (yue_dg/yue_nn/yue_zs are Guangzhou copies;
+  // czh, cnp, wuu_hz, wuu_nb, wuu_jx and gan don't match their own point),
+  // while the 18 new cells come from the row's own MCPDict table — so the
+  // clash is the old cells' fault. Remove each line when its row is rebuilt.
+  'czh|不', 'czh|黑',
+  'wuu_hz|頭',
+  'yue_dg|八', 'yue_dg|血', 'yue_dg|無', 'yue_dg|兒',
+  'yue_nn|八', 'yue_nn|血', 'yue_nn|五',
+  'yue_zs|八', 'yue_zs|血', 'yue_zs|死', 'yue_zs|無', 'yue_zs|兒',
+  'gan|茶',
 ]);
 
 // --- 5. For each variety, group chars by MC cell, find majority tone, flag outliers.

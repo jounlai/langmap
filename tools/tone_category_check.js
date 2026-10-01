@@ -116,6 +116,11 @@ const EXCEPTIONS = new Set([
   // source-given irregulars: Cantonese 中入 (八 血 at 33), the Hakka and Wu
   // pronoun tone of 我, Jian'ou 陽平→上 (無 兒, like 紅), 不 as a toneless or
   // shifted particle, 行:2 háng in Hakka/Puxian, Taishan changed tones.
+  // Rebuilt 2026-10-02 from their own MCPDict tables (yue_dg/nn/zs, wuu_jx,
+  // gan): Cantonese-type 中入 八 血; Jiaxing's 3a/3b 陰上 split and its
+  // sonorant 陽入 in tone 7; Nanchang 月 魚 as the table gives them.
+  'gan|月', 'gan|魚', 'wuu_jx|雨', 'wuu_jx|日', 'wuu_jx|土', 'wuu_jx|犬', 'wuu_jx|口',
+  'yue_dg|八', 'yue_dg|血', 'yue_nn|八', 'yue_nn|血', 'yue_zs|八', 'yue_zs|血',
   'cjy_lv|五',
   'cnp_gl|不',
   'cpx|行:2',
@@ -134,18 +139,7 @@ const EXCEPTIONS = new Set([
   'yue_mo|八', 'yue_mo|血',
   'yue_ts|耳',
   'zh_km|不',
-  'zh_lz|無',  // PENDING REBUILD, not settled: in these rows the 61 old cells were
-  // copied from another point (yue_dg/yue_nn/yue_zs are Guangzhou copies;
-  // czh, cnp, wuu_hz, wuu_nb, wuu_jx and gan don't match their own point),
-  // while the 18 new cells come from the row's own MCPDict table — so the
-  // clash is the old cells' fault. Remove each line when its row is rebuilt.
-  'czh|不', 'czh|黑',
-  'wuu_hz|頭',
-  'yue_dg|八', 'yue_dg|血', 'yue_dg|無', 'yue_dg|兒',
-  'yue_nn|八', 'yue_nn|血', 'yue_nn|五',
-  'yue_zs|八', 'yue_zs|血', 'yue_zs|死', 'yue_zs|無', 'yue_zs|兒',
-  'gan|茶',
-]);
+  'zh_lz|無',]);
 
 // --- 5. For each variety, group chars by MC cell, find majority tone, flag outliers.
 const candidates = [];

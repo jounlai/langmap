@@ -38,6 +38,12 @@ const STRICT = 0.95;       // at or above, the row HAS a map and a stray is an e
 // Outliers inside a strict row that are not settled yet. Reported as debt, not
 // as failure, so the tree stays green and the gap stays in view.
 const DEBT = new Map([
+    // Not a defect, but listed here so the row stays strict: Jiaxing splits
+    // 陰上 into 3a ˦˦ and 3b ˧˨˧ (MCPDict 嘉興, 《嘉兴方言同音字汇》), and Wugniu
+    // writes both as digit 3. Rebuilt 2026-10-02.
+    ['wuu_jx|土', 'Jiaxing 3b ˧˨˧ (3a is ˦˦); Wugniu writes both 3'],
+    ['wuu_jx|犬', 'Jiaxing 3b ˧˨˧ (3a is ˦˦); Wugniu writes both 3'],
+    ['wuu_jx|口', 'Jiaxing 3b ˧˨˧ (3a is ˦˦); Wugniu writes both 3'],
     // RESOLVED 2026-09-09: 行 is 陽平 in every Hokkien reading (kiâⁿ / hâng /
     // hîng), and Hokkien 陽平 sandhi is uniformly low; ˥˥ is the TEOCHEW 陽平
     // value, and Thailand's Chinese community is largely Teochew, so a Teochew

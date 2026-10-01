@@ -792,6 +792,8 @@ WORDS.sea = {
     nym: ["nyanza", "ɲanza"],
     mas: ["enaiposha", "enaipoʃa"],
     wal: ["abbaa", "abːaː"],
-    kfy: ["समुन्द्र", "səmundr"]
+    kfy: ["समुन्द्र", "səmundr"],
+    nyn: ["enyanja", "eɲaɲdʒa"],
+    cgg: ["enyanja", "eɲaɲdʒa"]
   }
 };

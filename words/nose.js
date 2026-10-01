@@ -278,7 +278,6 @@ WORDS.nose = {
     ar_ma: ["نيف", "nif"],
     arq: ["نيف", "nif"],
     ar_tn: ["نيف", "niːf"],
-    ar_sd: ["خشم", "xaʃum"],
     ti: ["ኣፍንጫ", "ʔafəntʃa"],
     mt: ["imnieħer", "ɪmˈniːħɛr"],
     ig: ["imi", "īmī"],

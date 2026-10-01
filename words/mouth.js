@@ -935,6 +935,7 @@ WORDS.mouth = {
     haz: ["دان", "dɒn"],
     scn: ["vucca", "ˈvukka"],
     nym: ["mulomo", "mulomo"],
-    kfy: ["मुँख", "mũkʰ"]
+    kfy: ["मुँख", "mũkʰ"],
+    ar_sd: ["خشم", "xaʃum"]
   }
 };

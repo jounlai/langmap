@@ -742,7 +742,7 @@ WORDS.three = {
     tet: ["tolu", "tolu"],
     aoz: ["tenu", "tenu"],
     bi: ["tri", "tri"],
-    pjt: ["mankurpa", "man̪kuɻpa"],
+    pjt: ["maṉkurpa", "maɳkuɻpa"],
     wbp: ["jirrama-kari-jinta", "ɟiɾamakaɾiɟinta"],
     piu: ["tjirripala", "ciripala"],
     aer: ["urrpetye", "uɻpecə"],

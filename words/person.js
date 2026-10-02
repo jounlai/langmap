@@ -964,6 +964,8 @@ WORDS.person = {
     slr: ["kiş", "kiʃ"],
     mns: ["элмхолас", "elmχolas"],
     blt: ["ꪶꪁꪙ", "kon˥"],
-    jio: ["tʰai", "tʰai˥"]
+    jio: ["tʰai", "tʰai˥"],
+    mey: ["إنسان", "ʔinsaːn"],
+    ake: ["kaʼpon", "kaʔpon"]
   }
 };

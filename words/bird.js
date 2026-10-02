@@ -614,7 +614,7 @@ WORDS.bird = {
     zza: ["teyr", "tejɾ"],
     mrq: ["manu", "manu"],
     guc: ["wuchii", "wutʃiː"],
-    kgp: ["—", "—"],
+    kgp: ["sẽsĩ", "ʃɛ̃ˈʃĩ"],
     tob: ["qojo", "qojo"],
     plg: ["majoʔ", "majoʔ"],
     moc: ["ajo", "ajo"],
@@ -1135,6 +1135,8 @@ WORDS.bird = {
     mkz: ["asa", "ˈasa"],
     tca: ["weri", "weɾi"],
     kwk: ["pʼipʼaƛʼumas", "pʼipʼatɬʼumas"],
-    sel: ["суры", "surɨ"]
+    sel: ["суры", "surɨ"],
+    ake: ["toron", "toɾon"],
+    sce: ["bunzhu", "bundʐu"]
   },
 };

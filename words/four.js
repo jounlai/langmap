@@ -1173,6 +1173,8 @@ WORDS.four = {
     tue: ["bapari", "bapaɾi"],
     slr: ["dött", "tøt"],
     blt: ["ꪎꪲ꪿", "siː˦˥"],
-    jio: ["tiəu", "tiəu˥"]
+    jio: ["tiəu", "tiəu˥"],
+    bor: ["pobe puibiji", "pobe puibidʒi"],
+    djr: ["ḏämbumiriw", "ɖaːmbumiɻiw"]
   },
 };

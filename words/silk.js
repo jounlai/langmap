@@ -655,6 +655,8 @@ WORDS.silk = {
     zh_kf: ["丝", "sz̩˨˦"],
     kry: ["ipeg", "ipeɡ"],
     mns: ["я̄рмак", "jaːrmak"],
-    sjd: ["цуӆӆк", "tsuɬːk"]
+    sjd: ["цуӆӆк", "tsuɬːk"],
+    cuk: ["seda", "seda"],
+    gun: ["seda", "ˈseda"]
   }
 };

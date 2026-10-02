@@ -1140,6 +1140,10 @@ WORDS.earth = {
     ter: ["móte", "ˈmote"],
     lun: ["iseki", "iseki"],
     kpe: ["lɔii", "lɔiː"],
-    vls: ["eirde", "ˈeːrdə"]
+    vls: ["eirde", "ˈeːrdə"],
+    fai: ["bakan", "bakan"],
+    ake: ["non", "non"],
+    mcf: ["nidaid", "nidaid"],
+    roo: ["rasito", "ɾasito"]
   }
 };

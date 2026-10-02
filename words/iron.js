@@ -1049,6 +1049,12 @@ WORDS.iron = {
     kry: ["dəmır", "dæmɨr"],
     acn: ["ʂam55", "ʂam˥˥"],
     sel: ["кэсы", "kæsɨ"],
-    jio: ["kui", "kui˥"]
+    jio: ["kui", "kui˥"],
+    agt: ["landuk", "landuk"],
+    gun: ["ferro", "ˈfɛʁu"],
+    ake: ["waʼka pun", "waʔka pun"],
+    roo: ["ain", "ain"],
+    alq: ["pìwàbik", "piːwaːbik"],
+    toc: ["likán", "likán"]
   },
 };

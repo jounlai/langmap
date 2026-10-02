@@ -1163,6 +1163,9 @@ WORDS.ear = {
     mcf: ["pabiate", "pabiate"],
     roo: ["uvareoua", "uβaɾeoua"],
     blc: ["tanksta", "tanksta"],
-    jio: ["kɯkɔ", "kɯ˧˩kɔ˥"]
+    jio: ["kɯkɔ", "kɯ˧˩kɔ˥"],
+    xav: ["dapoʼre", "dapoʔɾe"],
+    bor: ["bija", "bidʒa"],
+    toc: ["takgén", "taqén"]
   },
 };

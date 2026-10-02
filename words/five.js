@@ -1173,6 +1173,11 @@ WORDS.five = {
     gsw_als: ["fìmf", "fɪmf"],
     yle: ["limi", "ʎimi"],
     blt: ["ꪬ꫁ꪱ", "haː˨˩ˀ"],
-    jio: ["pu", "pu˩"]
+    jio: ["pu", "pu˩"],
+    pjt: ["kutjara maṉkurpa", "kucaɻa maɳkuɻpa"],
+    aau: ["iha sirom", "iha siɾom"],
+    djr: ["goŋ-waŋgany", "ɡoŋwaŋɡaɲ"],
+    fai: ["auok kal", "auok kal"],
+    wbp: ["rdaka-pala", "ɖakapala"]
   },
 };

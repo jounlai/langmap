@@ -954,6 +954,15 @@ WORDS.horse = {
     mns: ["лӯв", "luːw"],
     yrk: ["юно", "junoː"],
     blt: ["ꪣ꫁ꪱ", "maː˧˩ˀ"],
-    jio: ["pə", "pə˥˧"]
+    jio: ["pə", "pə˥˧"],
+    agt: ["kabayu", "kabaju"],
+    tue: ["caballo", "kaˈbajo"],
+    fai: ["auos", "auos"],
+    kpj: ["awaru", "awaru"],
+    mbc: ["kaware", "kaware"],
+    ake: ["kaware", "kawaɾe"],
+    kmh: ["kaj hos", "kadʒ hos"],
+    mcf: ["cabayo", "kabajo"],
+    roo: ["hos", "hos"]
   }
 };

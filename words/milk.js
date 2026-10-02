@@ -1053,6 +1053,8 @@ WORDS.milk = {
     rim: ["maya", "maja"],
     zh_hf: ["牛奶", "ȵiəu˥˥ le˨˦"],
     acn: ["nau35", "nau˧˥"],
-    blt: ["ꪶꪙꪣ", "nom˥"]
+    blt: ["ꪶꪙꪣ", "nom˥"],
+    mpj: ["ngama", "ŋama"],
+    alq: ["tòdòshànàbò", "tɔːdɔːʃaːnaːbɔː"]
   },
 };

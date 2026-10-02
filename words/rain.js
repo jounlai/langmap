@@ -1088,6 +1088,7 @@ WORDS.rain = {
     mkz: ["ae", "ae"],
     cay: ["ohsda:ʼ", "ohsdaːʔ"],
     wym: ["raan", "raːn"],
-    dtp_kzj: ["rasam", "rasam"]
+    dtp_kzj: ["rasam", "rasam"],
+    xav: ["tã", "tã"]
   },
 };

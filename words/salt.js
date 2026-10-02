@@ -1210,6 +1210,7 @@ WORDS.salt = {
     prg: ["sal", "sal"],
     gsw_als: ["Sàlz", "sɒlts"],
     orh: ["katagan", "kataɡan"],
-    jio: ["nɔːu", "nɔːu˩"]
+    jio: ["nɔːu", "nɔːu˩"],
+    alq: ["shìwitàgan", "ʃiːwitaːɡan"]
   },
 };

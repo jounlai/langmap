@@ -1084,6 +1084,14 @@ WORDS.hundred = {
     bdk: ["фухъад", "fuqad"],
     udi: ["бач̍", "batʃʼ"],
     khv: ["бешону", "beʃonu"],
-    kry: ["fuqʼar", "fuqʼar"]
+    kry: ["fuqʼar", "fuqʼar"],
+    agr: ["cien", "sjen"],
+    gum: ["cien", "sjen"],
+    bor: ["cem", "sẽj̃"],
+    gun: ["cem", "sẽj̃"],
+    kpf: ["handeret", "handeret"],
+    tue: ["cien", "sjen"],
+    bzh: ["mehödahis nemadvahi", "meʁɔⁿdaʁitʃ nəmaⁿdβaʁi"],
+    pbb: ["cien", "sjen"]
   },
 };

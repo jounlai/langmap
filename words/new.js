@@ -1023,6 +1023,13 @@ WORDS.new = {
     pao: ["pɨdɨ", "pɨtɨ"],
     tji: ["axi", "a˨˦ɕi˥˥"],
     ude: ["имэхи", "iməxi"],
-    jio: ["ɲau", "ɲau˥"]
+    jio: ["ɲau", "ɲau˥"],
+    xav: ["ĩté", "ĩˈte"],
+    bor: ["maiwu", "maiwu"],
+    mpj: ["nyuwanpa", "ɲuwanpa"],
+    xsr: ["གསམ་པ", "samba"],
+    ake: ["emennaʼ", "emennaʔ"],
+    crx: ["ʼandidi", "ʔandidi"],
+    alq: ["oshki", "ɔʃki"]
   }
 };

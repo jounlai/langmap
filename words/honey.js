@@ -1067,6 +1067,9 @@ WORDS.honey = {
     kmc: ["mət212 taŋ212", "mət˨˩˨ taŋ˨˩˨"],
     bsk: ["mac̣híi", "maˈʈʂʰiː"],
     mcf: ["bacun", "bakun"],
-    tca: ["berure", "beɾuɾe"]
+    tca: ["berure", "beɾuɾe"],
+    gum: ["miel", "mjel"],
+    alq: ["àmòsizibàkwad", "aːmɔːsizibaːkwad"],
+    sce: ["shimei", "ʂimei"]
   },
 };

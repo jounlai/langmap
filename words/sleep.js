@@ -1107,6 +1107,8 @@ WORDS.sleep = {
     kwk: ["mix̱a̱la", "miχəla"],
     ket: ["усень", "ʊɕɛɲ"],
     blt: ["ꪙꪮꪙ", "nɔn˥"],
-    jio: ["ŋɔ", "ŋɔ˩"]
+    jio: ["ŋɔ", "ŋɔ˩"],
+    roo: ["uusi", "uːsi"],
+    car: ["ònyky", "ohnɨkɨ"]
   },
 };

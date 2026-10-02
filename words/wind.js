@@ -1090,6 +1090,10 @@ WORDS.wind = {
     mcf: ["cunquequid", "kunkekid"],
     pao: ["hɨkwaba", "hɨkʷapa"],
     blt: ["ꪶꪩꪣ", "lom˥"],
-    jio: ["kɯvɯat", "kɯ˧˩vɯat˥"]
+    jio: ["kɯvɯat", "kɯ˧˩vɯat˥"],
+    xav: ["rowaʼu", "ɾowaʔu"],
+    ter: ["ihunóvoti", "ihuˈnowoti"],
+    ake: ["aʼsetun", "aʔsetun"],
+    kmu: ["yasi", "jasi"]
   },
 };

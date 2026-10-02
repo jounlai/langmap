@@ -940,6 +940,10 @@ WORDS.snow = {
     nzm: ["kebun", "kebun"],
     gsw_als: ["Schnee", "ʃneː"],
     mlm: ["nui1", "nui˦˨"],
-    kmc: ["nui55", "nui˥˥"]
+    kmc: ["nui55", "nui˥˥"],
+    agr: ["nieve", "ˈnjebe"],
+    izz: ["aka-mini-sunoo", "aka mini sunoː"],
+    usp: ["chun tew", "tʃun tew"],
+    ake: ["sino", "sino"]
   }
 };

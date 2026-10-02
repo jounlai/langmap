@@ -1047,6 +1047,11 @@ WORDS.head = {
     nej: ["pit", "pit"],
     tca: ["naẽru", "na˦ẽ˨ɾu˦"],
     blt: ["ꪬꪺ", "huə˨"],
-    jio: ["kiːu", "kiːu˥"]
+    jio: ["kiːu", "kiːu˥"],
+    xav: ["daʼrã", "daʔɾã"],
+    alq: ["oshtigwàn", "ɔʃtiɡwaːn"],
+    kmu: ["anu", "anu"],
+    sce: ["qiorun", "tɕiorun"],
+    toc: ["akgxakga", "aqʃaqa"]
   },
 };

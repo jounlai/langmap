@@ -1062,6 +1062,9 @@ WORDS.mouth = {
     kim: ["аас", "aːs"],
     slr: ["ağız", "ɑʁzɨ"],
     sel: ["өӈ", "øŋ"],
-    jio: ["kɯmɯəŋ", "kɯ˧˩mɯəŋ˩"]
+    jio: ["kɯmɯəŋ", "kɯ˧˩mɯəŋ˩"],
+    hui: ["ne hariga", "ne haɾiɡa"],
+    mpt: ["sital", "sital"],
+    alq: ["odòn", "ɔdɔːn"]
   }
 };

@@ -1147,6 +1147,11 @@ WORDS.black = {
     pao: ["tuhu", "tuhu"],
     sel: ["сяӄый", "sʲaqɨj"],
     blt: ["ꪒꪾ", "dam˨"],
-    jio: ["sei", "sei˥"]
+    jio: ["sei", "sei˥"],
+    hui: ["mindi", "mindi"],
+    xsr: ["ནག་པུ", "nakpu"],
+    alq: ["makadewà", "makadewaː"],
+    sce: ["khara", "kʰara"],
+    toc: ["tsitsekge", "tsitseqe"]
   },
 };

@@ -920,6 +920,12 @@ WORDS.sea = {
     slr: ["hay", "xɑj"],
     sel: ["море", "morʲe"],
     blt: ["ꪙꪾ꫁ꪹꪚꪸ꫁", "nam˧˩ˀbeː˨˩ˀ"],
-    jio: ["laːŋ", "laːŋ˥"]
+    jio: ["laːŋ", "laːŋ˥"],
+    nys: ["wardarn", "waɖaɻn"],
+    bor: ["pobo maereu", "pobo maeɾew"],
+    ter: ["mar", "maɾ"],
+    ake: ["parau", "paɾau"],
+    aer: ["alaye", "alajə"],
+    alq: ["kichigam", "kitʃiɡam"]
   }
 };

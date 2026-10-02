@@ -209,7 +209,7 @@ WORDS.green = {
     bho: ["हरियर", "ɦərijər"],
     bi: ["grin", "ɡrin"],
     bik: ["berde", "ˈbɛrde"],
-    blt: ["ꪵꪄꪫ", "kʰiaw"],
+    blt: ["ꪵꪄꪫ", "kʰiaw˨˦"], // tone: unmarked high-class ꪄ = ˨˦, as ꪼꪎ sai˨˦ (2026-10-02)
     bo: ["ལྗང་ཁུ", "tɕəŋ˩˧ku˥"],
     brx: ["गोथां", "ɡotʰaŋ"],
     bug: ["kudara", "kudara"],

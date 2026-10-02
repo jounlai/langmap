@@ -39,6 +39,8 @@ const MC = {
   // 鼻 is 去 in 廣韻 but read as 入 in Wu/Jin and 陽平 in Mandarin (集韻 毗必切);
   // 個 is a classifier with lect-specific tone (neutral, 入, changed tone).
   '你':['S','c'], '小':['S','q'], '多':['P','q'],  '熱':['R','c'],  '長:1':['P','z'], '長:2':['S','q'],
+  // tier 4 (2026-10-02)
+  '遠':['S','c'], '老':['S','c'], '冷':['S','c'], '香':['P','q'], '年':['P','c'], '女':['S','c'], '飯':['Q','z'], '雪':['R','q'],
   // 2026-10-02: the 18 characters added to the Han Map.
   '我':['S','c'],   '大':['Q','z'],   '白':['R','z'],   '茶':['P','z'],   '飛':['P','q'],   '無':['P','c'],
   '兒':['P','c'],   '黃':['P','z'],   '家':['P','q'],   '生':['P','q'],   '不':['R','q'],   '青':['P','q'],
@@ -131,6 +133,12 @@ const EXCEPTIONS = new Set([
   // the 金華 table gives it), Guilin Mandarin 中:2.
   'cjy|熱', 'hsn_ld|熱', 'mnp|熱', 'czh_jx|下', 'czh_wy|下', 'mnz|下', 'mnz|你',
   'nan_lei|八', 'nan_lei|血', 'wuu_jh|行:1', 'wuu_jh|行:2', 'zh_gl|中:2',
+  // tier 4 (2026-10-02) added four more 上次濁 characters (遠 老 冷 女). That
+  // class genuinely splits inside these lects — Hakka colloquial 次濁上 → 陰平
+  // (你 冷 我 馬), Min colloquial → 陽去 (五 耳), Wu 陽上 mergers — so the new
+  // members moved the majority and the other half of each split now shows.
+  // All are as the sources give them.
+  'cdo|五', 'cdo|耳', 'cjy_cz|下', 'cjy_dt|上', 'cnp_gl|上', 'cpx|五', 'cpx|耳', 'gan_yt|下', 'hak_cn|你', 'hak_cn|冷', 'hak_hl|你', 'hak_hl|冷', 'hak_hy|冷', 'hak_hy|我', 'hak_hy|馬', 'hak_mz|你', 'hak_mz|冷', 'hak_tw|你', 'hak_tw|冷', 'hsn_hy|大', 'nan_pn|老', 'nan_pn|雨', 'nan_sg|多', 'nan_te|五', 'nan_te|耳', 'nan|五', 'wuu_jh|五', 'wuu_jh|耳', 'wuu_jh|馬', 'wuu_qt|下', 'wuu_qt|耳', 'wuu_qt|雨', 'wuu_sz|你', 'wuu_sz|我', 'wuu_wz|五', 'wuu_wz|耳', 'wuu|你',
   'cjy_lv|五',
   'cnp_gl|不',
   'cpx|行:2',

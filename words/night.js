@@ -485,7 +485,7 @@ WORDS.night = {
     nej: ["—", "—"],
     kmu: ["hani", "hani"],
     emi: ["eleivo", "eleivo"],
-    hot: ["bilivuŋ", "bilivuŋ"],
+    hot: ["bôlôvôŋ", "bolovoŋ"],
     fai: ["am midla", "am midla"],
     nlc: ["inimik", "inimik"],
     bzh: ["buk", "ᵐbuk"],

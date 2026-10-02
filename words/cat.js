@@ -130,7 +130,7 @@ WORDS.cat = {
       jya: ["tsa", "tsʰɑ"],
       ers: ["bvə̃", "bvə̃"],
       bca: ["mau", "mau̯"],
-      atb: ["tsa51", "tsa˥˩"],
+      atb: ["—", "—"],
       prk: ["mɛː", "mɛː"],
       slr: ["kiçi", "kitɕi"],
       ybe: ["—", "—"],

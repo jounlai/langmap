@@ -1190,6 +1190,8 @@ WORDS.foot = {
     zza: "distinct",
     enf: "leg+foot",
     hts: "leg+foot",
+    atb: "leg+foot",
+    gum: "leg+foot",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🦶", "en": "a word of its own", "ja": "足だけの語", "ko": "발만의 낱말", "zh": "脚有专词", "yue": "腳有專詞", "vi": "có từ riêng", "th": "มีคำเฉพาะ", "id": "punya kata sendiri", "hi": "अपना अलग शब्द", "de": "eigenes Wort", "fr": "un mot à lui", "it": "una parola propria", "es": "palabra propia", "pt": "palavra própria", "ru": "своё слово", "uk": "власне слово", "ar": "كلمة خاصة به", "he": "מילה משלה", "sw": "neno lake lenyewe"},
@@ -1274,7 +1276,7 @@ WORDS.foot = {
     as: ["ভৰি", "bʱoɹi"],  // ভৰি is the human lower limb as a whole; ঠেং is used of animals.
     ast: ["pie", "pje"],  // pie vs pierna.
     asu: ["ivunda", "ivunda"],  // Chasu splits them: Kotz's 1909 Pare grammar puts ivunda in the i-/ma- class for the foot and kugu in the ku-/ma- class for the leg.
-    atb: ["khyi51", "kʰji˥˩"],  // TBL 0103.30 khji⁵¹ 'foot'; Matisoff's Body Parts file gives khji⁵¹tok⁵⁵ for the leg, the same expansion Burmese makes with ခြေထောက်, and Luce glosses the bare word 'foot, leg'.
+    atb: ["hkyî", "kʰji˥˩"],  // TBL 0103.30 khji⁵¹ 'foot'; Matisoff's Body Parts file gives khji⁵¹tok⁵⁵ for the leg, the same expansion Burmese makes with ခြေထောက်, and Luce glosses the bare word 'foot, leg'. // was ["khyi51", "kʰji˥˩"] (r35 fix 2026-10-02)
     atj: ["osit", "osit"],  // The Atikamekw dictionary splits osit 'son pied' from oskat 'sa jambe, sa patte', and ALA's speakers give nisit against niskat.
     av: ["хӏетӏе", "ħjetʼje"],  // Avar has separate words, though the dialect material shows хӏетӏе reaching the leg too.
     ave: ["𐬞𐬀𐬛", "pad"],  // Bartholomae s.v. pad- 'Fuß'; IDS gives Avestan 4-370 pad- against paitištāna- 'leg'.
@@ -1568,7 +1570,7 @@ WORDS.foot = {
     gsw_w: ["Füess", "fyəs"],  // Füess vs Bei, which in Wallis covers 'leg' and 'bone' alike.
     gu: ["પગ", "pəɡ"],  // પગ covers both.
     guc: ["ooʼui", "oːʔui"],  // The Wayuu NT washes tooʼui at John 13:6 and breaks nasaʼa at John 19:32; Mansen's dictionary and Huber cite the pair in the generic-possessor form ooʼui against asaʼa 'leg', the shape this row already uses for oʼu and aaʼin.
-    gum: ["srøb", "ʂøb"],  // srøb is washed at John 13, paired with tasig 'hand' at Matthew 18:8 and stood up as pillars of fire at Revelation 10:1, and it is also what John 19:32 breaks for the legs; katsik, which Huber and ASJP took for 'foot', is the word for a foundation and a sole.
+    gum: ["srøb", "ʂəp"],  // srøb is washed at John 13, paired with tasig 'hand' at Matthew 18:8 and stood up as pillars of fire at Revelation 10:1, and it is also what John 19:32 breaks for the legs; katsik, which Huber and ASJP took for 'foot', is the word for a foundation and a sole. // was ["srøb", "ʂøb"] (r35 fix 2026-10-02)
     gun: ["py", "pɨ"],  // Mbyá breaks retyma for the legs and washes xepy for the feet, as Tupinambá does.
     guu: ["mamikɨ", "mamikɨ"],  // IDS's Yanomámi drops pei to leave mamikɨ for the foot against matʰa for the leg – the same record this row's hand cell imɨkɨ was lifted from, and the calf is literally 'leg-flesh'.
     gv: ["cass", "kaːs"],  // As Irish and Scottish Gaelic: cass is the whole lower limb.
@@ -1701,7 +1703,7 @@ WORDS.foot = {
     khw: ["پونگ", "poŋɡ"],  // پونگ vs ڈیک; Turner's extra 'leg' sense for poṅ is the leg of a bedstead.
     ki: ["kũgũrũ", "koɣoro"],  // kũgũrũ covers the whole lower limb (McGregor 1904); ikinya is the sole and the footprint, not the foot.
     kim: ["бут", "but"],  // бут covers both, as in Tuvan; Tofa адак is the lower part of a thing, not the foot.
-    kio: ["ɔ̀nsɔ́:", "ɔ̀nsɔ́ː"],  // Watkins lists ɔ̀nsɔ́: 'foot' among the class II body parts and tʰǫ́:-de 'leg' among the class I paired nouns; Harrington's BAE vocabulary has the same ʼɔn-souʼe against tʼou-dei.
+    kio: ["ɔ̀nsôi", "ɔ̀nsôi"],  // Watkins lists ɔ̀nsɔ́: 'foot' among the class II body parts and tʰǫ́:-de 'leg' among the class I paired nouns; Harrington's BAE vocabulary has the same ʼɔn-souʼe against tʼou-dei. // was ["ɔ̀nsɔ́:", "ɔ̀nsɔ́ː"] (r35 fix 2026-10-02) Correction: Sutton 2010 (Noun class and number in Kiowa-Tanoan, LD&C SP 2), citing Watkins 1984 p.82, gives sg ɔ̀nsôy 'foot' and du/pl ɔ̀nsó: 'feet' — o, not ɔ, in the second syllable, so the ɔ̀nsɔ́: above misquoted Watkins; Poolaw 2023 àunsôi agrees with the singular.
     kj: ["omhadi", "om̥adi"],  // Oshikwanyama splits them: omhadi is the foot, okuulu the leg, and Kwanyama mh answers the mp of the Oshindonga cognate ompadhi.
     kjb: ["aqan", "aqan"],  // PMED glosses QAN aqan 'pie, pierna' outright; penek is the knee, not a leg word.
     kjg: ["krwɛh", "krwɛh"],  // Suwilai's Khmu dictionary has foot krwɛh against leg plɔːŋ, and Khmu has pushed the inherited *ɟəŋ etymon onto the leg (ɟɪəŋ) — the reverse of the rest of Mon-Khmer.

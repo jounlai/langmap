@@ -490,7 +490,7 @@ WORDS.fish = {
     nej: ["nom", "nom"],
     kmu: ["fayana", "fajana"],
     emi: ["kko", "kːo"],
-    hot: ["alimgoik", "alimɡoik"],
+    hot: ["alim", "alim"],
     fai: ["takam", "takam"],
     nlc: ["hadyaʼ", "hadjaʔ"],
     bzh: ["ġël", "ᶰɢel̪"],

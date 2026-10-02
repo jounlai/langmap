@@ -130,7 +130,7 @@ WORDS.dog = {
       jya: ["kʰə", "kʰə"],
       ers: ["ʈɽʰo", "ʈɽʰo"],
       bca: ["kho", "kʰo"],
-      atb: ["khi51", "kʰi˥˩"],
+      atb: ["hkuî", "kʰui˨˩"],
       prk: ["so", "soʔ"],
       slr: ["it", "it"],
       ybe: ["ɨʂt", "ɯʂt"],

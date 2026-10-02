@@ -1044,7 +1044,7 @@ WORDS.salt = {
 
     // --- Bororo and Hote ---------------------------------------------
     bor: ["sal", "sal"],
-    hot: ["ŋgwêk", "ŋɡwɛk"],
+    hot: ["ŋgwêk", "ŋɡwek"],
 
 
     // --- North America: Algonquian *šiwitakan, Siouan 'sweet water', French sel in the north-east ---

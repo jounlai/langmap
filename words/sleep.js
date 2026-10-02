@@ -886,7 +886,7 @@ WORDS.sleep = {
     ckv: ["mainep", "maiˈnəp"],
     ssf: ["malhus", "maɬus"],
     pzh: ["masuaw", "masuaw"],
-    hot: ["het", "het"],
+    hot: ["êk sôm", "ek som"],
     yap: ["mool", "moːl"],
     khb: ["ᦓᦸᧃ", "nɔn"],
 
@@ -1037,7 +1037,7 @@ WORDS.sleep = {
     bbo: ["ŋuun", "ŋuːn"],
     xul: ["ngambori", "ŋamboɻi"],
     mzh: ["imä", "imɑ"],
-    gum: ["kib", "kib"],
+    gum: ["kib", "kip"],
     arp: ["nókohú", "nókohú"],
     bzd: ["kapö̀k", "kapøk"],
     tsu: ["oengʉtʉ", "oeŋɨtɨ"],

@@ -130,7 +130,7 @@ WORDS.i = {
       jya: ["nga", "ŋa"],
       ers: ["ŋa", "ŋa"],
       bca: ["ngo", "ŋo˧"],
-      atb: ["ngo", "ŋo˥˥"],
+      atb: ["ngò", "ŋo˥˩"],
       prk: ["ê", "ʔɤʔ"],
       slr: ["men", "men"],
       ybe: ["men", "men"],

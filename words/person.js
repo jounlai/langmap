@@ -864,7 +864,7 @@ WORDS.person = {
     agq: ["ghùw", "ɣùw"],
     nzm: ["ziemmena", "ziemːena"],
     crx: ["dune", "dune"],
-    hot: ["anyô", "aɲɔ"],
+    hot: ["anyô", "aɲo"],
     aae: ["njeri", "ɲɛˈɾi"],
     yrl: ["mira", "miɾa"],
     sel: ["ӄум", "qum"],

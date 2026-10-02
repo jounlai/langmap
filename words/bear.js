@@ -423,7 +423,7 @@ WORDS.bear = {
     myv: "inherited", // route was taboo (r31 2026-10-02)
     mdf: "inherited", // route was taboo (r31 2026-10-02)
     yrk: "inherited", // route was taboo (r31 2026-10-02)
-    nio: "taboo",
+    nio: "inherited", // route was taboo (r35 2026-10-02)
     ptrk: "inherited",
     otk: "inherited",
     xqa: "inherited",
@@ -1007,7 +1007,7 @@ WORDS.bear = {
     mnw: ["ကၟဳ", "mɛm"],
     emi: ["beaa", "beaː"],
     bzh: ["bëa", "ᵐbea"],
-    hot: ["bea", "bea"],
+    hot: ["bea", "bɛa"], // was ["bea", "bea"] (r35 fix 2026-10-02)
     ter: ["úrsu", "ˈuɾsu"],
     arn: ["oso", "oso"],
     sbp: ["dubu", "dubu"],
@@ -1523,7 +1523,7 @@ WORDS.bear = {
     agr: ["chayú", "tʃajú"],
     acu: ["chayu", "tʃaju"],
     pbb: ["eʼsxavy", "eʔʃaβj"],
-    gum: ["wig", "wiɡ"],
+    gum: ["wig", "wik"], // was ["wig", "wiɡ"] (r35 fix 2026-10-02)
     quz: ["ukuku", "ukuku"],
     quy: ["ukumari", "ukumaɾi"],
     guc: ["jeesü", "heːsɨ"],

@@ -550,7 +550,7 @@ WORDS.new = {
     fud: ["foʻou", "foʔou"],
     tsj: ["singma", "siŋma"],
     sbp: ["ishipya", "iʃipja"],
-    hot: ["lumut", "lumut"],
+    hot: ["lukmuk", "lukmuk"],
     kjg: ["həmmeʔ", "həmmeʔ"],
     kxv: ["puni", "puni"],
     naq: ["kawa", "kawa"],

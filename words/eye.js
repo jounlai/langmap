@@ -762,7 +762,7 @@ WORDS.eye = {
     acu: ["jii", "hiː"],
     car: ["enu", "enu"],
     pbb: ["yafx", "jafʰ"],
-    gum: ["kab", "kab"],
+    gum: ["kab", "kap"],
     arn: ["nge", "ŋe"],
     cr: ["ᒥᐢᑮᓯᐠ", "miskiːsik"],
     chp: ["índa", "índa"],

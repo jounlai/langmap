@@ -561,7 +561,7 @@ WORDS.tree = {
     zh_xa: ['树', 'fu˥˥'],
     kmu: ["yosa", "josa"],
     emi: ["rikei", "ɾikei"],
-    hot: ["alokwaŋ", "alokwaŋ"],
+    hot: ["alokwaŋ", "alɔkwaŋ"],
     fai: ["biin", "biːn"],
     nlc: ["ye", "je"],
     bzh: ["ḳele", "qəl̪ɛ"],

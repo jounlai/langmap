@@ -491,7 +491,7 @@ WORDS.blood = {
     nej: ["—", "—"],
     kmu: ["kola", "kola"],
     emi: ["rae", "rae"],
-    hot: ["ma", "ma"],
+    hot: ["thalaleŋ", "tʰalalɛŋ"],
     fai: ["kaim", "kaim"],
     nlc: ["iniŋ", "iniŋ"],
     bzh: ["ḳöḳ", "qɔq"],

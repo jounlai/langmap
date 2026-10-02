@@ -806,7 +806,7 @@ WORDS.horse = {
     pwn: ["rigi", "ɾiɡi"],
     bnn: ["tasasikis", "tasasikis"],
     meu: ["hosi", "hosi"],
-    hot: ["bokhos", "bokhos"],
+    hot: ["bokhos", "bɔkhɔs"],
     emi: ["ooso", "ooso"],
     wbp: ["nantuwu", "nantuwu"],
     kca: ["ӆов", "ɬow"],

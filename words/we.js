@@ -1612,7 +1612,7 @@ WORDS.we = {
     nej: ["—", "—"],
     kmu: ["tagaya", "taɡaja"],
     emi: ["ita / ami", "ita / ami"],
-    hot: ["yilu / alalu", "jilu / alalu"],
+    hot: ["yêlô / alalô", "jelo / alalo"], // was ["yilu / alalu", "jilu / alalu"] (r35 fix 2026-10-02)
     fai: ["nu", "nu"],
     nlc: ["nun", "nun"],
     bzh: ["hil / he", "ʁil̪ / ʁɛ"],

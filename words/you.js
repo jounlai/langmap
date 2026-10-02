@@ -561,7 +561,7 @@ WORDS.you = {
       zh_xa: ["你", "ni˥˧"],
       kmu: ["kagaya", "kaɡaja"],
       emi: ["io", "io"],
-      hot: ["o", "o"],
+      hot: ["o", "ɔ"],
       fai: ["kaba", "kaba"],
       nlc: ["an", "an"],
       bzh: ["honġ", "ʁoɴ"],

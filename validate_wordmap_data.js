@@ -1078,6 +1078,10 @@ for (const code of codes) {
                 hot: new Set(['love', 'hello', 'thanks']), mpt: new Set(['thanks']),
                 kio: new Set(['love']), xav: new Set(['cat', 'hello', 'thanks']),
                 hts: new Set(['house', 'love', 'cat', 'thanks']),
+                // 2026-10-02 flag round r35: atb re-spelled from the Zaiwa NT + Sun 1991;
+                // cat has a Sun form but no attested spelling, hello/thanks no source.
+                // gum star kualøm is 'day' in the Misak NT (REV 8:12, MAT 4:2).
+                atb: new Set(['cat', 'hello', 'thanks']), gum: new Set(['star']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

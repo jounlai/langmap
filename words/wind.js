@@ -911,7 +911,7 @@ WORDS.wind = {
     myx: ["imbewo", "imbewo"],
     sbp: ["ilipepo", "ilipepo"],
     djr: ["wäŋi", "waːŋi"],
-    hot: ["lovak", "lovak"],
+    hot: ["lovak", "lɔvak"],
     nha: ["uudinu", "uudinu"],
     naq: ["ǂoab", "ǂoab"],
     nmf: ["masi", "masi"],

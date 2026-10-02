@@ -1046,7 +1046,7 @@ WORDS.stone = {
     abq: ["хӏахъвы", "ħaqʷə"],
     ekp: ["igwu", "iɡwu"],
     bbo: ["dibi", "dibi"],
-    gum: ["srug", "ʂuɡ"],
+    gum: ["srug", "ʂuk"],
     arp: ["hohʼonóókee", "hohʔonóːkeː"],
     tar: ["rité", "ɾite"],
     bzd: ["ák", "ák"],

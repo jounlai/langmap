@@ -468,7 +468,7 @@ WORDS.bone = {
     nej: ["—", "—"],
     kmu: ["yamufa", "jamufa"],
     emi: ["riu", "riu"],
-    hot: ["lokwaŋ", "lokwaŋ"],
+    hot: ["lokwaŋ", "lɔkwaŋ"],
     fai: ["kun", "kun"],
     nlc: ["yog", "joɡ"],
     bzh: ["seḳë", "tʃəqe"],

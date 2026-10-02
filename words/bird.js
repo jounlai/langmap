@@ -838,7 +838,7 @@ WORDS.bird = {
     bto: ["bayóng", "baˈjoŋ"],
     nia: ["fofo", "fofo"],
     aoz: ["kolo", "kolo"],
-    hot: ["menak", "menak"],
+    hot: ["menak", "mɛnak"],
     yap: ["qarcheaq", "ʔartʃəʔ"],
     // Formosan keeps *qayam, the stem Malayo-Polynesian lost
     pyu: ["ayam", "ajam"],

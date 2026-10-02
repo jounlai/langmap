@@ -130,7 +130,7 @@ WORDS.sun = {
       jya: ["kə-jam", "kəjam"],
       ers: ["ɲɔma", "ɲɔma"],
       bca: ["nyi", "ɲi"],
-      atb: ["ni55", "ni˥˥"],
+      atb: ["buì", "pui˥˩"],
       prk: ["si-ngai", "siŋaiʔ"],
       slr: ["güneş", "ɡyneʃ"],
       ybe: ["kün", "kyn"],

@@ -617,7 +617,7 @@ WORDS.black = {
     ybe: ["qara", "qɑˈrɑ"],
     kim: ["кара", "qaˈra"],
     azb: ["قارا", "ɡɑˈɾɑ"],
-    qxq: ["قارا", "ɡɑˈɾɑ"],
+    qxq: ["qara", "ɡɑˈɾɑ"],
 
     // --- Constructed ---------------------------------------------------
     eo: ["nigra", "ˈniɡra"],
@@ -1005,7 +1005,7 @@ WORDS.black = {
     pwn: ["qucengecengel", "qutsəŋətsəŋəl"],
     cng: ["nyiq", "ɲiq"],
     meu: ["koremakorema", "koɾemakoɾema"],
-    hot: ["loŋgavu", "loŋɡavu"],
+    hot: ["loŋgavu", "lɔŋɡavu"],
     emi: ["voovongiena", "voovoŋiena"],
     fai: ["mitik", "mitik"],
     kca: ["питы", "pitɯ"],

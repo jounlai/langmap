@@ -549,7 +549,7 @@ WORDS.head = {
     sbp: ["umutwe", "umutwe"],
     sog: ["sari", "sari"],
     bzh: ["yu", "ju"],
-    hot: ["ukaduk", "ukaduk"],
+    hot: ["wakadôk", "wakadok"],
     kjg: ["kəmpoŋ", "kəmpoŋ"],
     nmf: ["kui", "kui"],
     xul: ["guddagong", "ɡuddaɡoŋ"],

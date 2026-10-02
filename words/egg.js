@@ -691,7 +691,6 @@ WORDS.egg = {
     rtm: ["kalofi", "kaˈlofi"],
     pau: ["ngáis", "ŋaːis"],
     emi: ["otolu", "otolu"],
-    hot: ["ŋaluk", "ŋaluk"],
     pon: ["kutohr", "kutoːr"],
     kos: ["ahtro", "ætro"],
     chk: ["sókkun", "səkːun"],

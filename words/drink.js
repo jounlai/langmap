@@ -130,7 +130,7 @@ WORDS.drink = {
       jya: ["ka-mot", "kamot"],
       ers: ["ɕə", "ɕə"],
       bca: ["phi", "pʰɪ"],
-      atb: ["yum51", "jʌm˥˩"],
+      atb: ["shuq", "ʃuʔ˥˥"],
       prk: ["pə", "pə"],
       slr: ["içmä", "ɪtʃmæ"],
       ybe: ["ɨš", "ɯʃ"],

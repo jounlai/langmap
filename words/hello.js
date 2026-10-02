@@ -130,7 +130,7 @@ WORDS.hello = {
       jya: ["ŋ̩", "ŋ̩"],
       ers: ["ni", "ni"],
       bca: ["he", "he"],
-      atb: ["mou51", "mou˥˩"],
+      atb: ["—", "—"],
       prk: ["sawʔdiː", "sawʔdiː"],
       slr: ["selam", "sælɑm"],
       ybe: ["—", "—"],

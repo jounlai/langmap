@@ -761,7 +761,7 @@ WORDS.snow = {
     kfr: ["બરફ", "bəɾəpʰ"],
     kry: ["yiz", "jiz"],
     luz: ["barf", "barf"],
-    qxq: ["قار", "ɡar"],
+    qxq: ["qar", "ɡar"],
     yug: ["тик", "tik"],
     alq: ["kòn", "kɔːn"],
     haj: ["borof", "bɔrof"],

@@ -130,7 +130,7 @@ WORDS.house = {
       jya: ["kʰoŋ", "kʰɔŋ"],
       ers: ["kʰɔ", "kʰɔ"],
       bca: ["khe", "kʰe"],
-      atb: ["im31", "im˧˩"],
+      atb: ["yhûm", "ju̱m˥˩"],
       prk: ["nyiex", "ɲiɛʔ"],
       slr: ["oy", "oj"],
       ybe: ["jü", "jy"],

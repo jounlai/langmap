@@ -131,7 +131,7 @@ WORDS.love = {
       jya: ["nə-ŋɯ", "nəŋɯ"],
       ers: ["ŋɑ", "ŋɑ"],
       bca: ["phi-tshje", "pʰɪ tʃʰje"],
-      atb: ["aw51", "ɔ˥˩"],
+      atb: ["chyit", "tʃi̱t˥˥"],
       prk: ["rəŋ", "rəŋ"],
       slr: ["möhabbät", "møhɑbːæt"],
       yuy: ["хайрлаха", "χajrlaχa"],

@@ -439,6 +439,23 @@ WORDS.chocolate = {
     es_ec: ["chocolate", "tʃokoˈlate"],
     en_manc: ["chocolate", "ˈtʃɒklət"],
     en_my: ["chocolate", "ˈtʃɔklət"],
-    vot: ["šokolaadi", "ʃokoˈlaːdi"]
+    vot: ["šokolaadi", "ʃokoˈlaːdi"],
+    kab: ["ccakula", "ʃːakula"],
+    tsg: ["sakulati", "sakulaˈti"],
+    war: ["sikolate", "sikoˈlate"],
+    iba: ["coklat", "tʃoklat"],
+    bi: ["joklet", "dʒoklet"],
+    mai: ["चकलेट", "tʃəkleʈ"],
+    tcy: ["ಚಾಕೊಲೇಟ್", "tʃaːkoleːʈ"],
+    skr: ["چاکلیٹ", "tʃaːkleːʈ"],
+    pcd: ["chucolat", "ʃykɔla"],
+    ko_yb: ["쵸콜레트", "tɕʰokʰolletʰɯ"],
+    ko_hg: ["쵸콜레트", "tɕʰokʰolletʰɯ"],
+    pnb: ["چاکلیٹ", "tʃaːkleːʈ"],
+    dty: ["चकलेट", "tʃəkleʈ"],
+    ee: ["tsokolate", "tsokolate"],
+    quy: ["chukulati", "tʃukuˈlati"],
+    quz: ["chukulati", "tʃukuˈlati"],
+    ngu: ["chikolatl", "tʃikoˈlatɬ"]
   }
 };

@@ -1036,6 +1036,7 @@ WORDS.new = {
     nlc: ["wenyok", "wenjok"],
     dsh: ["kaana", "kaːna"],
     hif: ["nawa", "nəʋaː"],
-    mch: ["eduuwaato", "eduːwaːto"]
+    mch: ["eduuwaato", "eduːwaːto"],
+    bxk: ["embia", "embia"]
   }
 };

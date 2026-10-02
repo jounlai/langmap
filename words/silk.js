@@ -658,6 +658,21 @@ WORDS.silk = {
     sjd: ["цуӆӆк", "tsuɬːk"],
     cuk: ["seda", "seda"],
     gun: ["seda", "ˈseda"],
-    bts: ["sitora", "sitora"]
+    bts: ["sitora", "sitora"],
+    lua: ["swa", "swa"],
+    iso: ["silki", "silki"],
+    ay: ["seda", "seda"],
+    gcf: ["swa", "swa"],
+    nds: ["Sied", "ziː"],
+    mai: ["रेशम", "reːʃəm"],
+    bar: ["Seidn", "ˈsaɪdn̩"],
+    quc: ["xela", "ʃela"],
+    glk: ["ابریشم", "abriʃəm"],
+    tab: ["кӏаз", "kʼaz"],
+    kr: ["səleki", "səleki"],
+    ve: ["siliga", "siliɡa"],
+    frp: ["sèya", "ˈsɛja"],
+    luo: ["las", "las"],
+    maz: ["seda", "ˈseda"]
   }
 };

@@ -822,6 +822,16 @@ WORDS.green = {
     sms: ["ruõnâs", "ruənɐs"],
     sjd: ["руэнн", "ruenː"],
     jio: ["laːk", "laːk˩"],
-    bsk: ["ṣiqám", "ʂiˈqam"]
+    bsk: ["ṣiqám", "ʂiˈqam"],
+    ln: ["lángi la mpɔndú", "láŋɡi la mpɔndú"],
+    kg: ["langi ya matiti", "laŋɡi ja matiti"],
+    ff: ["haakoojo", "haːkoːdʒo"],
+    rcf: ["vèr", "vɛr"],
+    bqi: ["سوز", "sawz"],
+    lzz: ["ხანჭელი", "xantʃʼeli"],
+    tab: ["чруб", "tʃrub"],
+    ngu: ["xoxojki", "ʃoˈʃohki"],
+    xsr: ["ལྗང་སྨུ", "dʑaŋmu"],
+    ssw: ["luhlata", "luɬaːta"]
   }
 };

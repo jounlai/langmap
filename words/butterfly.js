@@ -752,6 +752,18 @@ WORDS.butterfly = {
     zh_tj: ["蝴蝶", "fu˦˥ tjɛ˦˥"],
     zh_cq: ["蝴蝶", "fu˨˩ tie˨˩"],
     kim: ["үзүдэк", "yzydek"],
-    jio: ["kaŋkɔŋ", "kaŋ˥kɔŋ˥"]
+    jio: ["kaŋkɔŋ", "kaŋ˥kɔŋ˥"],
+    hwc: ["buttafly", "bʌtəflaɪ"],
+    skr: ["تتلی", "tɪtliː"],
+    rcf: ["papiyon", "papijɔ̃"],
+    th_s: ["ผีเสื้อ", "pʰiː˩˧ sɯa˥˩"],
+    rup: ["flituru", "ˈflituru"],
+    bho: ["तितली", "titliː"],
+    awa: ["तितली", "titliː"],
+    gag: ["kelebek", "keleˈbek"],
+    ngu: ["papalotl", "paˈpalotɬ"],
+    wuu_wz: ["蝴蝶", "vu˧˩ di˨˩˧"],
+    mnp: ["蝴蝶", "u˨˩ tiɛ˦˨"],
+    xsr: ["བ་ལིབ", "pʰalip"]
   },
 };

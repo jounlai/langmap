@@ -1096,6 +1096,8 @@ WORDS.hundred = {
     gej: ["eka eve takpo", "eka eve takpo"],
     aln: ["njiqind", "ɲiˈcind"],
     cjm: ["ꨣꨪꨓꨭꩍ", "rituh"],
-    nus: ["kuɔ̱r", "kuɔr"]
+    nus: ["kuɔ̱r", "kuɔr"],
+    bar: ["hundad", "ˈhʊndɐd"],
+    blt: ["ꪭ꫁ꪮꪥ", "hɔj˧˩ˀ"]
   },
 };

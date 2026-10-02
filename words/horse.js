@@ -970,6 +970,9 @@ WORDS.horse = {
     nlc: ["abaksin pam", "abaksin pam"],
     aln: ["kal", "kal"],
     dsh: ["farich", "faritʃ"],
-    dur: ["goʼoy", "ɡoʔoj"]
+    dur: ["goʼoy", "ɡoʔoj"],
+    mey: ["فرس", "vras"],
+    zap: ["maniʼ", "maniʔ"],
+    wuu_wz: ["马", "mo˧˦"]
   }
 };

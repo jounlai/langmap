@@ -945,6 +945,10 @@ WORDS.mountain = {
     nlc: ["mein", "mein"],
     bej: ["riba", "riba"],
     cjm: ["ꨌꨮꩀ", "cəʔ"],
-    pot: ["bkotnyawen", "bkotnjawɪn"]
+    pot: ["bkotnyawen", "bkotnjawɪn"],
+    bar: ["Beag", "bɛɐɡ"],
+    mvf: ["ghada", "ʁada"],
+    bpy: ["পাহাড়", "pahaɽ"],
+    kr: ["kəri", "kəri"]
   }
 };

@@ -1082,6 +1082,8 @@ WORDS.egg = {
     tca: ["otacharaü̃", "o˧ta˥tʃa˦ɾa˦ɨ̃˧"],
     tue: ["diye", "dije"],
     kwk: ["tsʼigwa̱nu", "tsʼiɡʷənu"],
-    slr: ["yumutta", "jumutɑ"]
+    slr: ["yumutta", "jumutɑ"],
+    wuu_wz: ["鸡卵", "tsɿ˧˧ laŋ˧˦"],
+    xsr: ["བྱའི་མེན་ཏོག", "tɕʰe mentok"]
   },
 };

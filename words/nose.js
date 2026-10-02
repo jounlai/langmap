@@ -1119,6 +1119,8 @@ WORDS.nose = {
     tue: ["ẽkẽã", "ẽkẽã"],
     hch: ["tsuri", "tsuɾi"],
     sel: ["инчай", "jintɕaj"],
-    jio: ["kɯhɔːt", "kɯ˧˩hɔːt˥˧"]
+    jio: ["kɯhɔːt", "kɯ˧˩hɔːt˥˧"],
+    nut: ["đăng", "ɗaŋ˧˧"],
+    ar_sd: ["نخرة", "ˈnaxra"]
   },
 };

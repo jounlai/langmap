@@ -1168,6 +1168,7 @@ WORDS.ear = {
     bor: ["bija", "bidʒa"],
     toc: ["takgén", "taqén"],
     nlc: ["o", "o"],
-    dur: ["tɔ́g", "tɔɡ"]
+    dur: ["tɔ́g", "tɔɡ"],
+    xsr: ["ཨ་མཆོག", "amtɕʰok"]
   },
 };

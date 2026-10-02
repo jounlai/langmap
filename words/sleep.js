@@ -1112,6 +1112,10 @@ WORDS.sleep = {
     car: ["ònyky", "ohnɨkɨ"],
     ibb: ["daiya", "daija"],
     kfa: ["ವರಿ", "vari"],
-    gej: ["dɔ̃ alɔ̃", "dɔ̃ alɔ̃"]
+    gej: ["dɔ̃ alɔ̃", "dɔ̃ alɔ̃"],
+    mzn: ["بخاتن", "bæxɒːten"],
+    lzz: ["ონჯირუ", "ondʒiru"],
+    kok: ["न्हिदप", "nʱidəp"],
+    wuu_wz: ["睏", "kʰy˦˨"]
   },
 };

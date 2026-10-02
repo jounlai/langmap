@@ -961,6 +961,10 @@ WORDS.book = {
     hif: ["buk", "buk"],
     dur: ["debtere", "debtere"],
     tem: ["kafa", "kafa"],
-    wbm: ["phuk lai", "pʰuk lai"]
+    wbm: ["phuk lai", "pʰuk lai"],
+    ace: ["buku", "buku"],
+    ty: ["puta", "puta"],
+    wuu_wz: ["书", "sɿ˧˧"],
+    xsr: ["ཀི་ཏབ", "kitap"]
   }
 };

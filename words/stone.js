@@ -1136,6 +1136,8 @@ WORDS.stone = {
     dsh: ["waar", "waːr"],
     fia: ["kid", "kid"],
     nus: ["päm", "pam"],
-    pot: ["sen", "sɛn"]
+    pot: ["sen", "sɛn"],
+    ssy: ["dhaa", "ɖaː"],
+    pcc: ["hinl", "hin˨˦"]
   },
 };

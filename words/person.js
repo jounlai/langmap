@@ -973,6 +973,7 @@ WORDS.person = {
     dru: ["umawmase", "umawmasə"],
     nlc: ["nim", "nim"],
     aln: ["njeri", "ɲɛˈɾi"],
-    dur: ["nánán", "nanan"]
+    dur: ["nánán", "nanan"],
+    ar_gulf: ["شخص", "ʃaxsˤ"]
   }
 };

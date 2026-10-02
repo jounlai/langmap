@@ -1094,6 +1094,11 @@ WORDS.daughter = {
     sce: ["oqin", "otɕin"],
     kfa: ["ಮೋವ", "moːva"],
     nlc: ["gelma", "ɡelma"],
-    dsh: ["ini", "ini"]
+    dsh: ["ini", "ini"],
+    bum: ["ngone", "ŋɡone"],
+    ctg: ["মাইয়া", "maija"],
+    sdh: ["دۊەت", "dyːæt"],
+    wuu_wz: ["女儿", "na˧˦ ŋ̍˧˩"],
+    nan_hai: ["查某囝", "sa˧˩ mɔu˨˩˧ kia˨˩˧"]
   },
 };

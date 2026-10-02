@@ -1067,6 +1067,9 @@ WORDS.mouth = {
     mpt: ["sital", "sital"],
     alq: ["odòn", "ɔdɔːn"],
     nlc: ["sibamaʼ", "sibamaʔ"],
-    hif: ["muh", "mʊɦ"]
+    hif: ["muh", "mʊɦ"],
+    swg: ["Gosch", "ɡɔʃ"],
+    blt: ["ꪜꪱꪀ", "paːʔ˦˥"],
+    mey: ["فم", "vuːm"]
   }
 };

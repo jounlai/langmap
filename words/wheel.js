@@ -894,6 +894,8 @@ WORDS.wheel = {
     swi: ["quk8 luk8 tshə3", "quk˧˩ luk˧˩ tsʰə˧˧"],
     mlm: ["lan2 tshja1", "lan˩˨˩ tsʰja˦˨"],
     ddo: ["аӏгъур", "aˤʁur"],
-    kry: ["çerx", "tʃerx"]
+    kry: ["çerx", "tʃerx"],
+    gan: ["车砣", "tsʰa˦˨ tʰo˨˦"],
+    xsr: ["འཁོར་ལུ", "kʰorlu"]
   }
 };

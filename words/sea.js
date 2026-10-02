@@ -937,6 +937,12 @@ WORDS.sea = {
     bom: ["gworep", "ɡworep"],
     cjm: ["ꨓꨧꨪꩀ", "tasiʔ"],
     dur: ["mam gbo̧o̧", "mam ɡbõː"],
-    nus: ["bar", "bar"]
+    nus: ["bar", "bar"],
+    rn: ["inyanja", "iɲaːndʒa"],
+    bar: ["Meea", "meːɐ"],
+    glk: ["دریا", "dæɾjɒː"],
+    bpy: ["সমুদ্র", "ʃɔmudɾo"],
+    spp: ["suumpe lwɔhe", "suːmpe lwɔhe"],
+    xsr: ["རྒྱ་མཚུ", "ɡjamtsu"]
   }
 };

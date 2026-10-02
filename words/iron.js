@@ -1062,6 +1062,9 @@ WORDS.iron = {
     bej: ["diit", "diːt"],
     dsh: ["sibil", "sibil"],
     tdh: ["सेल", "sel"],
-    yrl: ["feru", "ˈfeɾu"]
+    yrl: ["feru", "ˈfeɾu"],
+    iso: ["ayọno", "ajɔno"],
+    wuu_wz: ["铁", "tʰi˧˩˧"],
+    hui: ["aeane", "aeane"]
   },
 };

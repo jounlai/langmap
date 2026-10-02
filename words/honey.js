@@ -1077,6 +1077,9 @@ WORDS.honey = {
     nlc: ["lusa mek", "lusa mek"],
     bej: ["awit", "awit"],
     dur: ["naam", "naːm"],
-    ker: ["son bə tum", "son bə tum"]
+    ker: ["son bə tum", "son bə tum"],
+    bi: ["hani", "hani"],
+    glk: ["عسل", "æsəl"],
+    wuu_wz: ["蜜", "mi˨˩˧"]
   },
 };

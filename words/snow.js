@@ -948,6 +948,15 @@ WORDS.snow = {
     asu: ["chasheru", "tʃaʃeru"],
     kfa: ["ಮಂಜ್", "maɲdʒɨ"],
     bts: ["salju", "saldʒu"],
-    mtq: ["tuyết", "twiət"]
+    mtq: ["tuyết", "twiət"],
+    kg: ["mvula ya mpembe", "mvula ja mpembe"],
+    tum: ["chiwuvi", "tʃiwuvi"],
+    lue: ["mbundu", "mbundu"],
+    tll: ["loonge", "looŋɡe"],
+    iso: ["ekpalekpa-ame", "ekpalekpaame"],
+    bbc: ["salju", "saldʒu"],
+    srn: ["snew", "sneu"],
+    nij: ["salju", "saldʒu"],
+    dtp: ["salju", "saldʒu"]
   }
 };

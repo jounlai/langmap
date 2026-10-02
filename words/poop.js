@@ -760,6 +760,17 @@ WORDS.poop = {
     acf: ["kaka", "kaka"],
     pqm: ["mickon", "mitʃkon"],
     ket: ["хоʼӄ", "xoʔq"],
-    jio: ["hɯai", "hɯai˧˩"]
+    jio: ["hɯai", "hɯai˧˩"],
+    aiw: ["tooni", "ˈtoːni"],
+    kxc: ["utaa", "utaː"],
+    kru: ["पीक", "piːk"],
+    rcf: ["mèrd", "mɛrd"],
+    ada: ["fĩ", "fĩ"],
+    ksh: ["Driss", "dʁɪs"],
+    shn: ["ၶီႈ", "kʰiː˧˨"],
+    bsk: ["ġuráṣ", "ɣuraʂ"],
+    sgs: ["šūds", "ʃuːds"],
+    uz: ["boʻq", "boq"],
+    xsr: ["སྐྱག་པ", "kjakpa"]
   },
 };

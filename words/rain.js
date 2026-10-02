@@ -1087,6 +1087,7 @@ WORDS.rain = {
     kpe: ["túna", "túna"],
     mkz: ["ae", "ae"],
     cay: ["ohsda:ʼ", "ohsdaːʔ"],
-    wym: ["raan", "raːn"]
+    wym: ["raan", "raːn"],
+    dtp_kzj: ["rasam", "rasam"]
   },
 };

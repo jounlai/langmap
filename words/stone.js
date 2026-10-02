@@ -1120,6 +1120,14 @@ WORDS.stone = {
     trn: ["mari", "maɾi"],
     mjg: ["tash", "taʂ"],
     wym: ["śtan", "ʃtan"],
-    yiz: ["lumɯ", "lu˧˧mɯ˨˨"]
+    yiz: ["lumɯ", "lu˧˧mɯ˨˨"],
+    mra: ["gɛp", "ɡɛp"],
+    kjg: ["glaŋ", "ɡlaŋ"],
+    kxv: ["vali", "ʋali"],
+    trm: ["wāṭ", "waːʈ"],
+    gsw_w: ["Stei", "ʃtɛi"],
+    tca: ["nuta", "nu˧ta˧"],
+    tue: ["ʉ̃tã", "ɨ̃tã"],
+    kwk: ["tʼisa̱m", "tʼisəm"]
   },
 };

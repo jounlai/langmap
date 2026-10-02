@@ -920,6 +920,17 @@ WORDS.mountain = {
     rut: ["бан", "ban"],
     itl: ["ӈэйӈэ", "ŋejŋe"],
     mlm: ["pɣa1", "pɣa˦˨"],
-    swi: ["nu2", "nu˧˩"]
+    swi: ["nu2", "nu˧˩"],
+    kxm: ["ភ្នំ", "pʰnom"],
+    bzg: ["sjach", "ʃatʃ"],
+    ale: ["кииг̆уусих̆", "kiːɣuːsiχ"],
+    vls: ["berg", "bɛrx"],
+    trm: ["dā", "daː"],
+    gsw_w: ["Bäärg", "bæːrɡ"],
+    bsk: ["ćhiṣ", "tɕʰiʂ"],
+    yle: ["mbu", "mbu"],
+    zh_kf: ["山", "ʂan˨˦"],
+    tue: ["ʉ̃tãgʉ̃", "ɨ̃tãɡɨ̃"],
+    sel: ["маӄӄа", "maqːa"]
   }
 };

@@ -1045,6 +1045,13 @@ WORDS.milk = {
     vot: ["piime", "ˈpiːmæ"],
     mlm: ["ne6", "ne˩˩"],
     swi: ["tiu4", "tiu˥˩"],
-    cay: ["onǫ́ʼgwaʼ", "onṍʔɡwaʔ"]
+    cay: ["onǫ́ʼgwaʼ", "onṍʔɡwaʔ"],
+    rtm: ["susu", "susu"],
+    ale: ["мулуках̆", "mulukaχ"],
+    kmc: ["nɐm31 məi323", "nɐm˧˩ məi˧˨˧"],
+    kjj: ["ал", "al"],
+    rim: ["maya", "maja"],
+    zh_hf: ["牛奶", "ȵiəu˥˥ le˨˦"],
+    acn: ["nau35", "nau˧˥"]
   },
 };

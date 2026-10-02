@@ -935,6 +935,23 @@ WORDS.horse = {
     trn: ["kwoyu", "kwoju"],
     vls: ["peird", "peːrt"],
     wym: ["faod", "faɔt"],
-    fr_ci: ["cheval", "ʃəˈval"]
+    fr_ci: ["cheval", "ʃəˈval"],
+    itl: ["коња", "koɲa"],
+    ale: ["куунух̆", "kuːnuχ"],
+    kmc: ["ma31", "ma˧˩"],
+    ani: ["кӏоту", "kʼotu"],
+    kjj: ["пши", "pʃi"],
+    bdk: ["хилаь", "xilæ"],
+    khv: ["сайро", "sajro"],
+    zh_hf: ["马", "ma˨˦"],
+    zh_km: ["马", "ma˥˧"],
+    zh_kf: ["马", "ma˥˧"],
+    kry: ["bəlkən", "bælkæn"],
+    pmi: ["ɣuẽ35", "ɣuẽ˧˥"],
+    ii: ["ꃅ", "mu˧˧"],
+    pao: ["puku", "puku"],
+    sel: ["чунты", "tɕuntɨ"],
+    mns: ["лӯв", "luːw"],
+    yrk: ["юно", "junoː"]
   }
 };

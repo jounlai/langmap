@@ -939,6 +939,7 @@ WORDS.snow = {
     huv: ["nieve", "nʲebe"],
     nzm: ["kebun", "kebun"],
     gsw_als: ["Schnee", "ʃneː"],
-    mlm: ["nui1", "nui˦˨"]
+    mlm: ["nui1", "nui˦˨"],
+    kmc: ["nui55", "nui˥˥"]
   }
 };

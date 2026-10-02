@@ -1084,6 +1084,10 @@ WORDS.wind = {
     kpe: ["fǎa", "fǎː"],
     kgg: ["qaːi", "qaːi"],
     trn: ["tektikwo", "tektikwo"],
-    cay: ["owá:deʼ", "owáːdeʔ"]
+    cay: ["owá:deʼ", "owáːdeʔ"],
+    pzh: ["bari", "baɾi"],
+    yle: ["yópu", "jópu"],
+    mcf: ["cunquequid", "kunkekid"],
+    pao: ["hɨkwaba", "hɨkʷapa"]
   },
 };

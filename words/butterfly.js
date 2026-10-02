@@ -746,6 +746,12 @@ WORDS.butterfly = {
     zh_cd: ["蝴蝶", "fu˨˩ tie˨˩"],
     mlm: ["wa3", "wa˥˧"],
     cay: ["jiʼdana:wę:", "dʒiʔdanaːwɛ̃ː"],
-    wym: ["mulkiadrymuł", "ˈmulkiadrɨmuw"]
+    wym: ["mulkiadrymuł", "ˈmulkiadrɨmuw"],
+    mhy: ["laluŋ", "laluŋ"],
+    ale: ["аг̆лак̆иидах̆", "aɣlaqiːðaχ"],
+    th_n: ["ก่ำเบ้อ", "kam˨˩bɤː˥˩"],
+    zh_tj: ["蝴蝶", "fu˦˥ tjɛ˦˥"],
+    zh_cq: ["蝴蝶", "fu˨˩ tie˨˩"],
+    kim: ["үзүдэк", "yzydek"]
   },
 };

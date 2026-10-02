@@ -1169,6 +1169,8 @@ WORDS.five = {
     mpj: ["payip", "pajip"],
     bla: ["nisitó", "nisitó"],
     thp: ["cíykst", "tsijkst"],
-    kgg: ["pãgo", "pãɡo"]
+    kgg: ["pãgo", "pãɡo"],
+    gsw_als: ["fìmf", "fɪmf"],
+    yle: ["limi", "ʎimi"]
   },
 };

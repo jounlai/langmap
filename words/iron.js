@@ -1035,6 +1035,19 @@ WORDS.iron = {
     thp: ["ʔík̓mn", "ʔikʼmn"],
     ket: ["е", "e"],
     rut: ["йилаг", "jilaɡ"],
-    mlm: ["khat7", "kʰat˥˥"]
+    mlm: ["khat7", "kʰat˥˥"],
+    ale: ["к̆умлих̆ух̆", "qumliχuχ"],
+    kmc: ["kwat35", "kwat˧˥"],
+    mmd: ["tɕhit7", "tɕʰit˥˥"],
+    rom: ["sastri", "ˈsastri"],
+    ani: ["ккуб", "kːub"],
+    kjj: ["ура", "ura"],
+    tkr: ["йива", "jiva"],
+    khv: ["кел", "kel"],
+    niv: ["выть", "vɯtʲ"],
+    bbl: ["ჺაჲჰკი", "ʕajhkʼi"],
+    kry: ["dəmır", "dæmɨr"],
+    acn: ["ʂam55", "ʂam˥˥"],
+    sel: ["кэсы", "kæsɨ"]
   },
 };

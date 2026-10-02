@@ -1160,6 +1160,8 @@ WORDS.ear = {
     lun: ["itu", "itu"],
     kwk: ["pʼa̱spʼa̱ʼyu", "pʼəspʼəʔju"],
     thp: ["ƛ̓én̓i", "tɬʼenˀi"],
-    mcf: ["pabiate", "pabiate"]
+    mcf: ["pabiate", "pabiate"],
+    roo: ["uvareoua", "uβaɾeoua"],
+    blc: ["tanksta", "tanksta"]
   },
 };

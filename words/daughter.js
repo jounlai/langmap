@@ -1083,6 +1083,9 @@ WORDS.daughter = {
     cro: ["dáakbia", "dáːkbia"],
     acf: ["fi", "fi"],
     pqm: ["ntus", "ntus"],
-    mlm: ["la:k8 ʔja:k7", "laːk˩˩ ʔjaːk˦˨"]
+    mlm: ["la:k8 ʔja:k7", "laːk˩˩ ʔjaːk˦˨"],
+    ale: ["асхинух̆", "asxinuχ"],
+    mmd: ["la:ʔ8 piəʔ8", "laːʔ˨˦ piəʔ˨˦"],
+    ja_sd: ["娘", "mɯsɯme"]
   },
 };

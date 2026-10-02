@@ -1072,6 +1072,18 @@ WORDS.hundred = {
     zgh: ["ⵜⵉⵎⵉⴹⵉ", "timidˤi"],
     kpe: ["nguŋ", "ŋuŋ"],
     rut: ["веш", "weʃ"],
-    wym: ["hundyt", "ˈhundɨt"]
+    wym: ["hundyt", "ˈhundɨt"],
+    pau: ["dart", "ðart"],
+    dtp_kzj: ["hatus", "hatus"],
+    pzh: ["haten", "hatən"],
+    ale: ["сисах̆", "sisaχ"],
+    nrf_gg: ["chent", "ʃɑ̃"],
+    ja_mvi: ["百", "mumu"],
+    kjj: ["пан", "pʰan"],
+    tkr: ["ваӏш", "vaʕʃ"],
+    bdk: ["фухъад", "fuqad"],
+    udi: ["бач̍", "batʃʼ"],
+    khv: ["бешону", "beʃonu"],
+    kry: ["fuqʼar", "fuqʼar"]
   },
 };

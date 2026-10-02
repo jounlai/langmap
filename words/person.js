@@ -947,6 +947,21 @@ WORDS.person = {
     rut: ["эдеми", "edemi"],
     trn: ["ʼchane", "ʔtʃane"],
     cay: ["ǫ́:gweh", "ṍːɡweh"],
-    xkz: ["mi", "mì"]
+    xkz: ["mi", "mì"],
+    kxm: ["មនុស្ស", "mnɨh"],
+    kjg: ["gon", "ɡon"],
+    itl: ["чʼамзањӆҳ", "tʃʔamzaɲɬχ"],
+    prg: ["smunents", "ˈsmuːnents"],
+    gsw_w: ["Mänsch", "mænʃ"],
+    rgn: ["pirsòuna", "pirˈsouna"],
+    hts: ["unu", "ʔunu"],
+    zh_kf: ["人", "ʐən˦˨"],
+    bbl: ["ადმიაჼ", "admiã"],
+    blc: ["ƛ̓msta", "tɬʼmsta"],
+    acn: ["tʂo55", "tʂo˥˥"],
+    tsj: ["songo", "soŋo"],
+    fai: ["kinim", "kinim"],
+    slr: ["kiş", "kiʃ"],
+    mns: ["элмхолас", "elmχolas"]
   }
 };

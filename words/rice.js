@@ -689,6 +689,16 @@ WORDS.rice = {
     rut: ["дуькӏ", "dykʼ"],
     mlm: ["hu3", "hu˥˧"],
     trn: ["arusu", "aɾusu"],
-    wym: ["ryź", "rɨɕ"]
+    wym: ["ryź", "rɨɕ"],
+    mhy: ["weah", "weah"],
+    meu: ["raisi", "raisi"],
+    ty: ["raiti", "ɾaiti"],
+    emp: ["arro", "aˈro"],
+    agx: ["бурунз", "burunz"],
+    ani: ["пиринчӏи", "pirintʃʼi"],
+    tab: ["дюгю", "dyɡy"],
+    udi: ["бириндз", "birindz"],
+    niv: ["мандюраӄ", "mandʲuraq"],
+    kry: ["vidar", "vidar"]
   }
 };

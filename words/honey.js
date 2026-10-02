@@ -1061,6 +1061,12 @@ WORDS.honey = {
     lun: ["wuchi", "wutʃi"],
     thp: ["ƛ̓əxtmin", "tɬʼəxtmin"],
     roo: ["koisi", "koisi"],
-    hop: ["momospala", "momospala"]
+    hop: ["momospala", "momospala"],
+    mhy: ["rio wani", "rio wani"],
+    dru: ["valu", "vaɭu"],
+    kmc: ["mət212 taŋ212", "mət˨˩˨ taŋ˨˩˨"],
+    bsk: ["mac̣híi", "maˈʈʂʰiː"],
+    mcf: ["bacun", "bakun"],
+    tca: ["berure", "beɾuɾe"]
   },
 };

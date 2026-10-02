@@ -889,6 +889,12 @@ WORDS.wheel = {
     ja_rys: ["車", "kuɾuma"],
     ruq: ["roată", "ˈroatə"],
     yur: ["weeel", "wiːl"],
-    hsn_hy: ["轮子", "luən˩˩˨ tsɿ"]
+    hsn_hy: ["轮子", "luən˩˩˨ tsɿ"],
+    kmc: ["lok55", "lok˥˥"],
+    mmd: ["lun6 tsha1", "lun˨˩˧ tsʰa˦˨"],
+    swi: ["quk8 luk8 tshə3", "quk˧˩ luk˧˩ tsʰə˧˧"],
+    mlm: ["lan2 tshja1", "lan˩˨˩ tsʰja˦˨"],
+    ddo: ["аӏгъур", "aˤʁur"],
+    kry: ["çerx", "tʃerx"]
   }
 };

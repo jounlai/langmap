@@ -1205,6 +1205,10 @@ WORDS.salt = {
     blc: ["stʼs", "stʼs"],
     lun: ["muŋwa", "muŋwa"],
     kgg: ["huki", "huki"],
-    kpe: ["kpolo", "kpolo"]
+    kpe: ["kpolo", "kpolo"],
+    vls: ["zout", "zɔut"],
+    prg: ["sal", "sal"],
+    gsw_als: ["Sàlz", "sɒlts"],
+    orh: ["katagan", "kataɡan"]
   },
 };

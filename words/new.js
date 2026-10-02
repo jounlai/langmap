@@ -1008,6 +1008,20 @@ WORDS.new = {
     zgh: ["ⴰⵎⴰⵢⵏⵓ", "amajnu"],
     kpe: ["nina", "nina"],
     zh_hf: ["新", "ɕiən˨˩˨"],
-    wym: ["noj", "noj"]
+    wym: ["noj", "noj"],
+    kxm: ["ថ្មី", "tʰmɛj"],
+    mra: ["hmɛʔ", "hmɛʔ"],
+    brh: ["پوسکن", "puːskun"],
+    ale: ["тагадах̆", "taɡaðaχ"],
+    hts: ["zana", "dzana"],
+    yle: ["kamî", "kamɨ"],
+    zh_kf: ["新", "ɕiən˨˦"],
+    frp: ["nôvo", "ˈnovo"],
+    kry: ["tsʼiyə", "tsʼijæ"],
+    roo: ["aire", "aiɾe"],
+    mcf: ["chuca", "tʃuka"],
+    pao: ["pɨdɨ", "pɨtɨ"],
+    tji: ["axi", "a˨˦ɕi˥˥"],
+    ude: ["имэхи", "iməxi"]
   }
 };

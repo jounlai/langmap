@@ -321,7 +321,7 @@ WORDS.iron = {
     haj: ["luha", "luɦa"],
     kok: ["लोक्कंड", "lokːəɳɖ"],
     brh: ["اهین", "aːhin"],
-    bsk: ["ćhumár", "ʈʂʰumar"],
+    bsk: ["ćhumár", "tɕʰumar"],
 
     // --- Slavic — *želězo -------------------------------------------------
     szl: ["żelazo", "ʒɛˈlazɔ"],
@@ -1048,6 +1048,7 @@ WORDS.iron = {
     bbl: ["ჺაჲჰკი", "ʕajhkʼi"],
     kry: ["dəmır", "dæmɨr"],
     acn: ["ʂam55", "ʂam˥˥"],
-    sel: ["кэсы", "kæsɨ"]
+    sel: ["кэсы", "kæsɨ"],
+    jio: ["kui", "kui˥"]
   },
 };

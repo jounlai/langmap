@@ -806,7 +806,7 @@ WORDS.egg = {
     kac: ["u di", "u˧ di˧"],
     yiz: ["ɬo", "ɬo˨˨"],
     shn: ["ၶႆႇ", "kʰaj˩"],
-    jio: ["tsum", "tsum˥˩"],
+    jio: ["tsum", "tsum˥"],
     kmh: ["yakt magi", "jakt maɡi"],
     dbq: ["ndèði", "ndèði"],
     // --- Second pass — Wiktionary translation table, cross-checked against the row
@@ -868,7 +868,7 @@ WORDS.egg = {
     srh: ["tqheem", "tχɵm"],
     rbb: ["bəːn", "bəːn"],
     blr: ["ka31 tɔm33", "ka˧˩ tɔm˧˧"],
-    blt: ["ꪼꪎ꪿", "saj"],
+    blt: ["ꪼꪎ꪿", "saj˦˥"],
     ium: ["jaux", "tɕau˨˧"],
     ksw: ["ဒံၣ်", "di"],
     cja: ["بوه", "boh"],

@@ -174,7 +174,7 @@ WORDS.ear = {
     srh: ["Gewl", "ʁewl"],
     rbb: ["ʨhok", "tɕʰok"],
     blr: ["ja31 juk51", "ja˧˩ juk˥˩"],
-    blt: ["ꪬꪴ", "huː"],
+    blt: ["ꪬꪴ", "huː˨"],
     vi: ["tai", "taj˧"],
     vi_c: ["tai", "taj˧"],
     vi_s: ["tai", "taj˧"],
@@ -731,7 +731,7 @@ WORDS.ear = {
     th_n: ["หู", "huː˩˧"],
     th_s: ["หู", "huː˩˧"],
     tkr: ["кӏыры", "kʼɨrɨ"],
-    tue: ["kãbõʼpero", "kãbõʔpeɾo"],
+    tue: ["kãbõpero", "kãbõˈpeɾo"],
     udi: ["уъмуъх", "uˤmuˤx"],
     vo: ["lil", "lil"],
     ik: ["siun", "siun"],
@@ -889,7 +889,7 @@ WORDS.ear = {
     umb: ["okutwi", "okutwi"],
     uln: ["Ohr", "or"],
     czh: ["耳朵", "ɚ twɔ"],
-    czh_wy: ["耳朵", "ɚ twɔ"],
+    czh_wy: ["耳朵", "ø˧˩ to˨"],
     zh_jh: ["耳朵", "ər˨˩˦ to"],
     zh_tj: ["耳朵", "ər˩˧ tuo˨˩"],
     zh_lz: ["耳朵", "ɚ twɔ"],
@@ -1162,6 +1162,7 @@ WORDS.ear = {
     thp: ["ƛ̓én̓i", "tɬʼenˀi"],
     mcf: ["pabiate", "pabiate"],
     roo: ["uvareoua", "uβaɾeoua"],
-    blc: ["tanksta", "tanksta"]
+    blc: ["tanksta", "tanksta"],
+    jio: ["kɯkɔ", "kɯ˧˩kɔ˥"]
   },
 };

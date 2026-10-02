@@ -962,7 +962,7 @@ WORDS.black = {
     lzz: ["უჩა", "utʃa"],
     kfx: ["काल़ा", "kaːɭaː"],
     hns: ["karia", "kəriaː"],
-    tab: ["кӀару", "kʼaru"],
+    tab: ["кӏару", "kʼaru"],
     gd: ["dubh", "t̪uh"],
     nrf: ["nièr", "njɛr"],
     kos: ["sroalsroal", "ʂoalʂoal"],
@@ -1145,6 +1145,8 @@ WORDS.black = {
     roo: ["rupa", "ɾupa"],
     blc: ["skʼx", "skʼx"],
     pao: ["tuhu", "tuhu"],
-    sel: ["сяӄый", "sʲaqɨj"]
+    sel: ["сяӄый", "sʲaqɨj"],
+    blt: ["ꪒꪾ", "dam˨"],
+    jio: ["sei", "sei˥"]
   },
 };

@@ -1086,6 +1086,8 @@ WORDS.daughter = {
     mlm: ["la:k8 ʔja:k7", "laːk˩˩ ʔjaːk˦˨"],
     ale: ["асхинух̆", "asxinuχ"],
     mmd: ["la:ʔ8 piəʔ8", "laːʔ˨˦ piəʔ˨˦"],
-    ja_sd: ["娘", "mɯsɯme"]
+    ja_sd: ["娘", "mɯsɯme"],
+    blt: ["ꪩꪴꪀꪑꪲꪉ", "luʔ˦ɲiŋ˥"],
+    jio: ["tʰiəku", "tʰiək˩u˥"]
   },
 };

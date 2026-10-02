@@ -641,7 +641,7 @@ WORDS.wind = {
     shp: ["niwɨ", "niwɨ"],
     tab: ["микӏ", "mikʼ"],
     tkr: ["мыц", "mɨts"],
-    tue: ["wĩʼdõ", "wĩʔdõ"],
+    tue: ["wĩdõ", "wĩˈdõ"],
     udi: ["муш", "muʃ"],
     bi: ["win", "win"],
     pis: ["win", "win"],
@@ -1088,6 +1088,8 @@ WORDS.wind = {
     pzh: ["bari", "baɾi"],
     yle: ["yópu", "jópu"],
     mcf: ["cunquequid", "kunkekid"],
-    pao: ["hɨkwaba", "hɨkʷapa"]
+    pao: ["hɨkwaba", "hɨkʷapa"],
+    blt: ["ꪶꪩꪣ", "lom˥"],
+    jio: ["kɯvɯat", "kɯ˧˩vɯat˥"]
   },
 };

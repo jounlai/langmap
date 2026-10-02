@@ -1064,6 +1064,13 @@ for (const code of codes) {
                 // 'lie down'). nlc heart: 'ngal' is in neither Nalca source.
                 sel: new Set(['earth']), yux: new Set(['star']),
                 kmh: new Set(['love']), nlc: new Set(['heart']),
+                // 2026-10-02 flag round r31: blt and jio rows re-cut from their
+                // sources (Gedney/ABVD Pittayaporn; Liu 2008) — the old greeting and
+                // love cells did not spell their own IPA and no source gives them.
+                // czh_wy: no Wuyuan source attests a drink verb, 你好 or 谢谢
+                // (the table has no 你; 谢 is tsʰɛ6, not ɕie).
+                blt: new Set(['hello', 'thanks', 'love']), jio: new Set(['hello', 'thanks']),
+                czh_wy: new Set(['drink', 'hello', 'thanks']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

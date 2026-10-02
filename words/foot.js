@@ -1188,6 +1188,7 @@ WORDS.foot = {
     zts: "leg+foot",
     zu: "distinct",
     zza: "distinct",
+    enf: "leg+foot",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🦶", "en": "a word of its own", "ja": "足だけの語", "ko": "발만의 낱말", "zh": "脚有专词", "yue": "腳有專詞", "vi": "có từ riêng", "th": "มีคำเฉพาะ", "id": "punya kata sendiri", "hi": "अपना अलग शब्द", "de": "eigenes Wort", "fr": "un mot à lui", "it": "una parola propria", "es": "palabra propia", "pt": "palavra própria", "ru": "своё слово", "uk": "власне слово", "ar": "كلمة خاصة به", "he": "מילה משלה", "sw": "neno lake lenyewe"},
@@ -1310,7 +1311,7 @@ WORDS.foot = {
     blc: ["ʼixa", "ʔixa"],  // IDS lists ʔixa under both FOOT and LEG for Bella Coola, the -ał forms being bound, so the free noun covers the limb.
     blk: ["ခင်", "kʰaŋ˥˥"],  // Solnit's Pa-O lexicon glosses kháŋ 'leg, foot'; Jones 1961 #44 files it under the foot and Luangthongkum 2013 #162 under the leg, one word either way.
     blr: ["ćuŋ51", "tɕuŋ˥˩"],  // IDS Bulang returns the same ćuŋ.51 for FOOT and for LEG, and the Blang New Testament uses cung both for the feet washed in John 13:5 and for the legs broken in John 19:32. Digits in the surface, Chao in the IPA, as this row does throughout.
-    blt: ["ꪔꪲꪙ", "tin˨˦"],  // ABVD's Tai Dam list (Pittayaporn 2021) gives tin¹ 'foot' against kʰaː¹ 'leg'. Spelling from Wiktionary's Tai Dam lemma set; the row's own 'tree' cell miscodes ต with the high-class ꪕ, so the low-class ꪔ is written here.
+    blt: ["ꪔꪲꪙ", "tin˨"],  // ABVD's Tai Dam list (Pittayaporn 2021) gives tin¹ 'foot' against kʰaː¹ 'leg'. Spelling from Wiktionary's Tai Dam lemma set; the row's own 'tree' cell miscodes ต with the high-class ꪕ, so the low-class ꪔ is written here. // was ["ꪔꪲꪙ", "tin˨˦"] (r31 fix 2026-10-02)
     bm: ["sen", "sèn"],  // Bamadaba glosses sèn 'jambe, pied, patte' in one entry, and the leg-specific sènkala is built on it.
     bn: ["পা", "pa"],  // Bengali পা covers the whole lower limb — a split from Hindi, which has पैर vs टाँग. ঠেং is a colloquial leg word.
     bnn: ["bantas", "bantas"],  // bantas takes the greaves of brass at 1 Samuel 17:6 and is the foot washed at John 13:5, so it covers the limb; pinasah, the other candidate, is the thigh Abraham's servant puts his hand under at Genesis 24:2, and all five ABVD Bunun lists answer leg/foot with bantas or bantac.
@@ -1468,7 +1469,7 @@ WORDS.foot = {
     en_wls: ["foot", "fʊt"],  // The row's TRAP a is its signature and foot has no TRAP vowel, so good /ɡʊd/ carries the cell.
     en_yk: ["foot", "fʊt"],  // The unsplit northern vowel makes blood blʊd differ from en but leaves foot exactly where it was, and the row has no /h/ to drop here.
     en_za: ["foot", "fʊt"],  // The row's divergences from en are all in long vowels; good /ɡʊd/ is where this cell comes from.
-    enf: ["ӈо", "ŋɔ"],  // Samoyedic: one word for the lower limb.
+    enf: ["ŋo", "ŋɔ"],  // Samoyedic: one word for the lower limb. // was ["ӈо", "ŋɔ"] (r31 fix 2026-10-02)
     enm: ["fot", "foːt"],  // fot vs leg — the Norse loan leg is already in place by Middle English.
     enq: ["moko", "moko"],  // The Enga New Testament washes moko in John 13:8 and breaks it in John 19:32, and Lang's dictionary answers the combined leg-foot item with mókó.
     eo: ["piedo", "piˈedo"],  // Esperanto copies the western European split.

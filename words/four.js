@@ -623,7 +623,7 @@ WORDS.four = {
     ja_kyo: ["四", "joɴ"],
     kbd: ["плӏы", "pɬʼə"],
     kfy: ["चार", "tʃaːr"],
-    kio: ["yíikyá", "jíːkjá"],
+    kio: ["yí:kyá", "jíːkjá"],
     lhu: ["ɔˆ", "ɔ̂"],
     lij: ["quattro", "ˈkwatru"],
     lij_t: ["quattro", "ˈkwatru"],
@@ -1171,6 +1171,8 @@ WORDS.four = {
     khv: ["укъен", "uqʼen"],
     tca: ["ãgümücü", "ãŋɡɨmɨkɨ"],
     tue: ["bapari", "bapaɾi"],
-    slr: ["dött", "tøt"]
+    slr: ["dött", "tøt"],
+    blt: ["ꪎꪲ꪿", "siː˦˥"],
+    jio: ["tiəu", "tiəu˥"]
   },
 };

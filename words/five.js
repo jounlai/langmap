@@ -793,7 +793,7 @@ WORDS.five = {
     xpr: ["panj", "pandʒ"],
     xqa: ["beš", "beʃ"],
     sga: ["cóic", "koːɡʲ"],
-    bsk: ["ćhundó", "ʈʂʰundo"],
+    bsk: ["chundó", "tsʰundo"],
     srn: ["feifi", "ˈfeifi"],
     djk: ["feifi", "fɛifi"],
     srm: ["feifi", "feifi"],
@@ -1171,6 +1171,8 @@ WORDS.five = {
     thp: ["cíykst", "tsijkst"],
     kgg: ["pãgo", "pãɡo"],
     gsw_als: ["fìmf", "fɪmf"],
-    yle: ["limi", "ʎimi"]
+    yle: ["limi", "ʎimi"],
+    blt: ["ꪬ꫁ꪱ", "haː˨˩ˀ"],
+    jio: ["pu", "pu˩"]
   },
 };

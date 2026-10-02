@@ -265,7 +265,7 @@ WORDS.book = {
     // so the borrowing is the established pattern, not an artefact. Stress is left
     // unmarked because NorthEuraLex transcribes these without it and these rows
     // almost never mark it (enf and itl: not once in 50+ cells).
-    enf: ["книга", "kniɡa"],
+    enf: ["kniga", "kniɡa"],
     eve: ["книга", "kniɡa"],   // Wiktionary's Even entry confirms the loan and lists native дукон/дукун alongside it; which is the everyday one is unsettled.
     evn: ["книга", "kɲiɣa"],   // NorthEuraLex's other Evenki form, дукӯвӯн, is 'letter/writing', not a book.
     kca: ["книга", "kniɣa"],   // Its other kca form, ӆуӈатти нэпек 'reading paper', is a phrase.

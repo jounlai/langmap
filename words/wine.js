@@ -17,7 +17,7 @@ WORDS.wine = {
   emoji: "🍷",
   label: {
     en: "Wine", ja: "ワイン", ko: "포도주", zh: "葡萄酒", yue: "葡萄酒", vi: "Rượu vang",
-    th: "ไวน์", id: "Anggur", hi: "शराब", de: "Wein", fr: "Vin", it: "Vino", es: "Vino",
+    th: "ไวน์", id: "Anggur", hi: "वाइन", de: "Wein", fr: "Vin", it: "Vino", es: "Vino",
     es_eu: "Vino", es_mx: "Vino", pt: "Vinho", pt_eu: "Vinho", pt_br: "Vinho", ru: "Вино",
     uk: "Вино", ar: "نبيذ", he: "יין", sw: "Mvinyo",
   },
@@ -30,7 +30,7 @@ WORDS.wine = {
     vi: "Rượu vang — nước nho lên men. Từ này bắc qua ba ngữ hệ không liên quan quanh vùng Kavkaz, và ai vay của ai thì vẫn chưa ngã ngũ.",
     th: "ไวน์ — น้ำองุ่นหมัก คำนี้ข้ามสามตระกูลภาษาที่ไม่เกี่ยวข้องกันแถบคอเคซัส และยังไม่มีข้อสรุปว่าใครยืมจากใคร.",
     id: "Anggur — sari buah anggur yang difermentasi. Kata ini melintasi tiga rumpun bahasa tak berkerabat di sekitar Kaukasus, dan siapa meminjam dari siapa masih belum jelas.",
-    hi: "शराब — किण्वित अंगूर का रस। यह शब्द काकेशस के आसपास तीन असंबंधित भाषा-परिवारों को पार करता है, और किसने किससे लिया यह अब भी अनिश्चित है।",
+    hi: "वाइन — किण्वित अंगूर का रस। यह शब्द काकेशस के आसपास तीन असंबंधित भाषा-परिवारों को पार करता है, और किसने किससे लिया यह अब भी अनिश्चित है।",
     de: "Wein — vergorener Traubensaft. Das Wort überquert rund um den Kaukasus drei nicht verwandte Sprachfamilien, und wer es wem geliehen hat, ist ungeklärt.",
     fr: "Vin — jus de raisin fermenté. Le mot traverse trois familles sans parenté autour du Caucase, et l'on ignore toujours qui l'a emprunté à qui.",
     it: "Vino — succo d'uva fermentato. La parola attraversa tre famiglie non imparentate intorno al Caucaso, e chi l'abbia prestata a chi resta irrisolto.",
@@ -47,6 +47,8 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    ilo: "other",
+    bik: "other",
     qxq: "other",
     yue_zs: "other",
     sms: "ie",
@@ -153,7 +155,7 @@ WORDS.wine = {
     vi: "ie",
     th: "ie",
     id: "other",
-    hi: "other",
+    hi: "ie", // route was other (r31 2026-10-02)
     de: "ie",
     fr: "ie",
     it: "ie",
@@ -443,7 +445,7 @@ WORDS.wine = {
     ku: "other",
     ckb: "other",
     ps: "other",
-    pa: "other",
+    pa: "ie", // route was other (r31 2026-10-02)
     pnb: "other",
     skr: "other",
     sd: "other",
@@ -854,6 +856,8 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    ilo: ["arak", "ˈʔarak"],
+    bik: ["arak", "ˈʔaɾak"],
     qxq: ["şərab", "ʃærɑb"],
     yue_zs: ["葡萄酒", "pʰu˨˩ tʰou˨˩ tsɐu˧˥"],
     sms: ["vijnn", "vijnː"],
@@ -961,7 +965,7 @@ WORDS.wine = {
     vi: ["rượu vang", "zɨəw˧˨ʔ vaŋ˧"],
     th: ["ไวน์", "waj˧"],
     id: ["anggur", "aŋɡur"],
-    hi: ["शराब", "ʃəraːb"],
+    hi: ["वाइन", "ʋaːɪn"], // was ["शराब", "ʃəraːb"] (r31 fix 2026-10-02)
     de: ["Wein", "vaɪ̯n"],
     fr: ["vin", "vɛ̃"],
     it: ["vino", "ˈvino"],
@@ -1281,7 +1285,7 @@ WORDS.wine = {
     fit: ["viini", "ˈʋiːni"],
 
     // --- Indo-Aryan — شراب / शराब across the whole belt ----------------------
-    pa: ["ਸ਼ਰਾਬ", "ʃəraːb"],
+    pa: ["ਵਾਈਨ", "ʋaːiːn"], // was ["ਸ਼ਰਾਬ", "ʃəraːb"] (r31 fix 2026-10-02)
     pnb: ["شراب", "ʃəraːb"],
     skr: ["شراب", "ʃəraːb"],
     sd: ["شراب", "ʃəraːbu"],

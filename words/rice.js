@@ -699,6 +699,7 @@ WORDS.rice = {
     tab: ["дюгю", "dyɡy"],
     udi: ["бириндз", "birindz"],
     niv: ["мандюраӄ", "mandʲuraq"],
-    kry: ["vidar", "vidar"]
+    kry: ["vidar", "vidar"],
+    blt: ["ꪹꪄ꫁ꪱ", "kʰaw˨˩ˀ"]
   }
 };

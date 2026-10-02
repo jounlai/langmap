@@ -759,6 +759,7 @@ WORDS.poop = {
     de_lu: ["Kacke", "ˈkakə"],
     acf: ["kaka", "kaka"],
     pqm: ["mickon", "mitʃkon"],
-    ket: ["хоʼӄ", "xoʔq"]
+    ket: ["хоʼӄ", "xoʔq"],
+    jio: ["hɯai", "hɯai˧˩"]
   },
 };

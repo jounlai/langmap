@@ -1191,6 +1191,7 @@ WORDS.white = {
     gsw_als: ["wiss", "vis"],
     kpe: ["kole", "kole"],
     ale: ["к̆умалих", "qumalix"],
-    trm: ["kešera", "keʃera"]
+    trm: ["kešera", "keʃera"],
+    jio: ["kʰou", "kʰou˥"]
   },
 };

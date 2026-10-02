@@ -952,6 +952,8 @@ WORDS.horse = {
     pao: ["puku", "puku"],
     sel: ["чунты", "tɕuntɨ"],
     mns: ["лӯв", "luːw"],
-    yrk: ["юно", "junoː"]
+    yrk: ["юно", "junoː"],
+    blt: ["ꪣ꫁ꪱ", "maː˧˩ˀ"],
+    jio: ["pə", "pə˥˧"]
   }
 };

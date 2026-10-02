@@ -657,7 +657,6 @@ WORDS.wheel = {
     sat: ["ᱪᱚᱠ", "tʃɔk"],
     vi_c: ["bánh xe", "ɓan˩˧ sɛ˥"],
     tyz: ["bảnh", "ɓaŋ˨˩˧"],
-    blt: ["ꪁꪺꪉ", "kuəŋ"],
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there

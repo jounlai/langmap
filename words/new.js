@@ -456,7 +456,7 @@ WORDS.new = {
     cag: ["nitʃʔa", "nitʃʔa"],
     crt: ["inkjeʔ", "inkjeʔ"],
     tpy: ["xodae", "xodae"],
-    tue: ["bãʼbã", "bãʔbã"],
+    tue: ["bãbã", "bãˈbã"],
     bbc: ["imbaru", "imbaru"],
     akb: ["imbaru", "imbaru"],
     bjn: ["hanyar", "haɲar"],
@@ -564,7 +564,7 @@ WORDS.new = {
     nmf: ["kathar", "katʰar"],
     grt: ["gital", "ɡital"],
     kdt: ["tamaj", "təmaj"],
-    agt: ["bagu", "baɡ"],
+    agt: ["bagu", "baɡu"],
     pyu: ["bekal", "bəkaɭ"],
     yap: ["biqech", "biʔetʃ"],
     mh: ["kāāl", "kʲaːlʲ"],
@@ -709,7 +709,7 @@ WORDS.new = {
     hmn: ["tshiab", "tʂʰia˥"],
     wbm: ["khraox", "kʰrauʔ"],
     zza: ["newe", "ˈnɛwe"],
-    sdh: ["نۊ", "nuː"],
+    sdh: ["نۊ", "nyː"],
     rom: ["nevo", "ˈnevo"],
     kru: ["पुना", "punaː"],
     kok: ["नवो", "nəʋo"],
@@ -1022,6 +1022,7 @@ WORDS.new = {
     mcf: ["chuca", "tʃuka"],
     pao: ["pɨdɨ", "pɨtɨ"],
     tji: ["axi", "a˨˦ɕi˥˥"],
-    ude: ["имэхи", "iməxi"]
+    ude: ["имэхи", "iməxi"],
+    jio: ["ɲau", "ɲau˥"]
   }
 };

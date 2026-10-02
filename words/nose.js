@@ -1108,7 +1108,7 @@ WORDS.nose = {
     kgg: ["inu", "inu"],
     cay: ["oʼnyǫ́hsaʼ", "oʔɲṍhsaʔ"],
     myx: ["lilyoolu", "liʎoːlu"],
-    sdh: ["لۊت", "lyt"],
+    sdh: ["لۊت", "lyːt"],
     tkr: ["хъов", "qov"],
     udi: ["боъхмоъгъ", "boˤxmoˤʁ"],
     rim: ["mpura", "mpuɾa"],
@@ -1118,6 +1118,7 @@ WORDS.nose = {
     nej: ["ura", "ura"],
     tue: ["ẽkẽã", "ẽkẽã"],
     hch: ["tsuri", "tsuɾi"],
-    sel: ["инчай", "jintɕaj"]
+    sel: ["инчай", "jintɕaj"],
+    jio: ["kɯhɔːt", "kɯ˧˩hɔːt˥˧"]
   },
 };

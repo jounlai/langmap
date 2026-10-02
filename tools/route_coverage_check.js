@@ -75,6 +75,9 @@ const DEBT = {};
 // does not distinguish between the two", and Mulam's two forms are marked
 // inclusive and exclusive — so silence there is silence, not a finding. Those
 // four are now `unknown` with the word shown.
+// 38 -> 39 on 2026-10-02, the same case as `hui` below: `blt` (Tai Dam) 'single'
+// was an unsourced assertion on one unlabelled form, and the r31 re-cut of the
+// row from its sources found no inclusive/exclusive evidence either way.
 // 37 -> 38 on 2026-09-18. `hui` moved from 'single' to 'unknown', which is the
 // ratchet running backwards and is the one case where that is right: its
 // 'single' was an UNSOURCED assertion, and six sources were tried without
@@ -108,7 +111,7 @@ const DEBT = {};
 // in the instrument, not a fact about Azhe, and it is the same reason Karajá
 // was refused. The ratchet is against growth through laziness, not against
 // growth.
-const UNDECIDED = { we: { route: 'unknown', max: 38 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 18 } };
+const UNDECIDED = { we: { route: 'unknown', max: 39 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 18 } };
 
 let violations = 0;
 const notes = [];

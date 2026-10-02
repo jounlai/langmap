@@ -918,6 +918,8 @@ WORDS.sea = {
     roo: ["toruva", "toɾuβa"],
     ket: ["моря", "mɔrʲa"],
     slr: ["hay", "xɑj"],
-    sel: ["море", "morʲe"]
+    sel: ["море", "morʲe"],
+    blt: ["ꪙꪾ꫁ꪹꪚꪸ꫁", "nam˧˩ˀbeː˨˩ˀ"],
+    jio: ["laːŋ", "laːŋ˥"]
   }
 };

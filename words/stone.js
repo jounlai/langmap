@@ -906,7 +906,7 @@ WORDS.stone = {
     yue_zs: ["石頭", "sɛːk˨ tʰɐu˨˩"],
     yue_nn: ["石头", "ɬɛːk˨ tʰɐu˨˩"],
     yue_gz: ["石头", "sɛːk˨ tʰɐu˨˩"],
-    blt: ["ꪬꪲꪙ", "hin˨˦"],
+    blt: ["ꪬꪲꪙ", "hin˨"],
     cja: ["فتاو", "patau"],
     cjm: ["ꨝꨓꨭꨥ", "ɓatuw"],
     ckv: ["btu", "btu"],
@@ -1128,6 +1128,7 @@ WORDS.stone = {
     gsw_w: ["Stei", "ʃtɛi"],
     tca: ["nuta", "nu˧ta˧"],
     tue: ["ʉ̃tã", "ɨ̃tã"],
-    kwk: ["tʼisa̱m", "tʼisəm"]
+    kwk: ["tʼisa̱m", "tʼisəm"],
+    jio: ["siːn", "siːn˥"]
   },
 };

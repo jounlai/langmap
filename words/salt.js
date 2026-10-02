@@ -796,7 +796,7 @@ WORDS.salt = {
     shx: ["tsa44", "tsa˦˦"],
     shn: ["ၵိူဝ်", "kɤː˨˦"],
     khb: ["ᦵᦂᦲ", "kɤː˥"],
-    blt: ["ꪹꪀ", "kɯa˨˦"],
+    blt: ["ꪹꪀ", "kɯə˨"],
     tyz: ["cưa", "kɯə˧˧"],
     nut: ["cưa", "kɯə˧˧"],
     ptai: ["*klwɯə", "klwɯə"],
@@ -1066,7 +1066,7 @@ WORDS.salt = {
     crx: ["lisel", "lisel"],
     squ: ["tlʼálhem", "tɬʼaɬəm"],
     thp: ["c̓ált", "tsʼalt"],
-    kwk: ["da̱msxi", "dəmsχi"],
+    kwk: ["da̱msxi", "dəmsxi"],
     tsi: ["moon", "muːn"],
     cr: ["ᓰᐑᐦᑖᑲᐣ", "siːwiːhtaːkan"],
     chp: ["dedhai", "deðai"],
@@ -1209,6 +1209,7 @@ WORDS.salt = {
     vls: ["zout", "zɔut"],
     prg: ["sal", "sal"],
     gsw_als: ["Sàlz", "sɒlts"],
-    orh: ["katagan", "kataɡan"]
+    orh: ["katagan", "kataɡan"],
+    jio: ["nɔːu", "nɔːu˩"]
   },
 };

@@ -752,6 +752,7 @@ WORDS.butterfly = {
     th_n: ["ก่ำเบ้อ", "kam˨˩bɤː˥˩"],
     zh_tj: ["蝴蝶", "fu˦˥ tjɛ˦˥"],
     zh_cq: ["蝴蝶", "fu˨˩ tie˨˩"],
-    kim: ["үзүдэк", "yzydek"]
+    kim: ["үзүдэк", "yzydek"],
+    jio: ["kaŋkɔŋ", "kaŋ˥kɔŋ˥"]
   },
 };

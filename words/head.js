@@ -450,7 +450,7 @@ WORDS.head = {
     cag: ["ʃatitʃ", "ʃatitʃ"],
     crt: ["xetek", "xetek"],
     tpy: ["kut", "kut"],
-    tue: ["duʼpu", "duʔpu"],
+    tue: ["dupu", "duˈpu"],
     emp: ["boro", "boɾo"],
     bbc: ["ulu", "ulu"],
     akb: ["ulu", "ulu"],
@@ -1045,6 +1045,8 @@ WORDS.head = {
     nys: ["kaat", "kaːt"],
     adt: ["vapardla", "vapaɖla"],
     nej: ["pit", "pit"],
-    tca: ["naẽru", "na˦ẽ˨ɾu˦"]
+    tca: ["naẽru", "na˦ẽ˨ɾu˦"],
+    blt: ["ꪬꪺ", "huə˨"],
+    jio: ["kiːu", "kiːu˥"]
   },
 };

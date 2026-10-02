@@ -9,6 +9,9 @@
  * niedźwiedź, medvěd) — which Hungarian and Finnic then borrowed as medve. Baltic went a third way,
  * to "the shaggy one" (Lithuanian lokys, Old Prussian clokis, Latvian lācis). One half of the family
  * preserves a six-thousand-year-old word; the other half is still visibly hiding from it.
+ * (Correction 2026-10-02: only Hungarian borrowed medve; no Finnic language did. Finnic replaced
+ * the old *okci with its own euphemisms, karhu 'the rough one' and kontio. Hungarian medve is coloured
+ * as a loan, because the euphemism was Slavic, not Hungarian.)
  *
  * The same avoidance runs right round the northern hemisphere, and the map shows it. Sakha calls the
  * bear эһэ 'grandfather' and Dolgan эбэкээ the same; Khakas аба is 'father'; Nanai мапа and Udege мафа
@@ -406,20 +409,20 @@ WORDS.bear = {
     vro: "taboo",
     krl: "taboo",
     vep: "taboo",
-    liv: "taboo",
-    hu: "taboo",
-    ohu: "taboo",
+    liv: "inherited", // route was taboo (r31 2026-10-02)
+    hu: "loan", // route was taboo (r31 2026-10-02)
+    ohu: "loan", // route was taboo (r31 2026-10-02)
     se: "inherited", // route was taboo (r29 2026-10-02)
     sma: "loan", // route was taboo (r29 2026-10-02)
     sjd: "taboo",
-    kpv: "taboo",
-    koi: "taboo",
+    kpv: "inherited", // route was taboo (r31 2026-10-02)
+    koi: "inherited", // route was taboo (r31 2026-10-02)
     udm: "taboo",
     mhr: "taboo",
     mrj: "taboo",
-    myv: "taboo",
-    mdf: "taboo",
-    yrk: "taboo",
+    myv: "inherited", // route was taboo (r31 2026-10-02)
+    mdf: "inherited", // route was taboo (r31 2026-10-02)
+    yrk: "inherited", // route was taboo (r31 2026-10-02)
     nio: "taboo",
     ptrk: "inherited",
     otk: "inherited",
@@ -1610,7 +1613,7 @@ WORDS.bear = {
     },
     khb: ["ᦖᦲ", "miː"],
     shn: ["မီ", "miː˨˦"],
-    blt: ["ꪢꪲ", "miː˨˦"],
+    blt: ["ꪢꪲ", "miː˨"], // was ["ꪢꪲ", "miː˨˦"] (r31 fix 2026-10-02)
     pcc: ["moil", "moi˧˥"],
     nut: ["mui", "mui˧˧"],
     th_isan: ["หมี", "miː˩˧"],

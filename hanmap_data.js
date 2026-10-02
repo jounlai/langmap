@@ -35333,12 +35333,26 @@ const HAN_VARIANTS = {
     ]
   },
   "一": {
+    "vi_c": [
+      {
+        "native": "nhít",
+        "surface": "nhít",
+        "ipa": "ɲit˦˥",
+        "label": "phương ngữ miền Trung (Central dialect)"
+      },
+      {
+        "native": "nhất",
+        "surface": "Nhất",
+        "ipa": "ɲət˦˥",
+        "label": "Hán Việt (standard)"
+      }
+    ],
     "nan_lei": [
       {
         "native": "",
         "surface": "yiag8",
         "ipa": "ziak̚˨",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35352,7 +35366,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "tsi̍t",
         "ipa": "tsit̚˦",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35366,7 +35380,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "tsi̍t",
         "ipa": "tsit̚˨˦",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35380,7 +35394,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "zêg8",
         "ipa": "tsek̚˦",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35394,7 +35408,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "tsi̍t",
         "ipa": "tsit̚˦",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35414,7 +35428,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "zia6",
         "ipa": "zia˧˧",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       }
     ],
     "nan_xm": [
@@ -35422,7 +35436,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "tsi̍t",
         "ipa": "tsit̚˦",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35436,7 +35450,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "tsi̍t",
         "ipa": "tsit̚˩˨˩",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35450,7 +35464,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "siŏh",
         "ipa": "suoʔ˥",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35484,7 +35498,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "tsi̍t",
         "ipa": "tsit̚˧",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       }
     ],
     "nan_sg": [
@@ -35492,7 +35506,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "tsi̍t",
         "ipa": "tsit̚˦˧",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",
@@ -35506,7 +35520,7 @@ const HAN_VARIANTS = {
         "native": "",
         "surface": "cì",
         "ipa": "tsi˦˨",
-        "label": "訓讀（本字未詳）"
+        "label": "訓讀（蜀）"
       },
       {
         "native": "",

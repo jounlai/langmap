@@ -4381,7 +4381,7 @@ const LANG_DATA = {
   wuu_nb: { name: 'Ningbo Wu', native: '宁波话', lat: 29.87, lng: 121.55, // Ningbo
 },
   // Yue Chinese (Western Guangdong)
-  yue_gz: { name: 'Gaozhou Yue', native: '高州话', lat: 21.92, lng: 110.85, // Gaozhou
+  yue_gz: { name: 'Huazhou Yue', native: '化州话（上江话）', lat: 21.67, lng: 110.64, // Gaozhou
 },
   // Tai Lue (Sipsongpanna)
   khb: { name: 'Tai Lue', native: 'ᦅᧄᦺᦑᦟᦹᧉ', lat: 22.01, lng: 100.80, // Jinghong, Sipsongpanna

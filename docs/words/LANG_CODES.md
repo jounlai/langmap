@@ -1157,7 +1157,7 @@ Total: 1190 codes.
 | `yuc` | Yuchi | ユチ語 | Language isolate | ~5 fluent (critically endangered) |
 | `yue` | Cantonese | 広東語 | Sinitic (Yue) | ~85M |
 | `yue_dg` | Dongguan Yue | 東莞粤語 | Sinitic (Yue, Guan-Bao / Yuehai) | ~3M |
-| `yue_gz` | Gaozhou Yue | 高州粤語 | Sinitic (Yue, Goulou-Wuhua) | ~5M |
+| `yue_gz` | Huazhou Yue | 化州粤語 | Sinitic (Yue, Gaoyang) | ~1.4M |
 | `yue_nn` | Nanning Yue | 南寧白話 | Sinitic (Yue–Pinghua boundary, Yongxun Yue) | ~3M |
 | `yue_ts` | Taishanese | 台山語 | Sinitic (Yue, Sze Yap) | ~2M (Taishan + global diaspora) |
 | `yue_zs` | Zhongshan Yue | 中山白話 | Sino-Tibetan (Sinitic, Yue, Yuehai) | ~1.5M |

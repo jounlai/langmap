@@ -24,8 +24,8 @@
     "hash": "174148bca06739b8"
   },
   "lang_names/en.js": {
-    "version": 200,
-    "hash": "d05985e6653ca191"
+    "version": 201,
+    "hash": "8abb5ed3af63f7d5"
   },
   "lang_names_shim.js": {
     "version": 3,
@@ -64,8 +64,8 @@
     "hash": "86181f3bf041494a"
   },
   "progress_data.js": {
-    "version": 92,
-    "hash": "14886c8e5c2be8c6"
+    "version": 93,
+    "hash": "62bf11f7daa3ab6a"
   },
   "pwa.js": {
     "version": 2,
@@ -88,7 +88,7 @@
     "hash": "8c9f01f42f0dfb8f"
   },
   "wordmap_data.js": {
-    "version": 337,
-    "hash": "8b70734c58ce8d61"
+    "version": 338,
+    "hash": "d1a3bd5d52c99f7a"
   }
 }

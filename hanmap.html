@@ -3447,7 +3447,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=337"></script>
-    <script src="hanmap_data.js?v=168"></script>
+    <script src="hanmap_data.js?v=171"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3503,27 +3503,27 @@
     (function applyHanmapNameOverrides() {
       if (typeof LANG_NAMES !== 'object' || !LANG_NAMES) return;
       const OV = {
-        ja:        { zh_han: '上古漢語' },
-        ko:        { zh_han: '상고한어' },
-        zh:        { zh_han: '上古汉语' },
+        ja:        { zh_han: '上古漢語', yue_gz: '化州粤語（高陽片）', zh_jh: '江淮官話（揚州）' },
+        ko:        { zh_han: '상고한어', yue_gz: '화저우 웨어 (高陽片)', zh_jh: '장화이관화 (양저우)' },
+        zh:        { zh_han: '上古汉语', yue_gz: '化州粤语（高阳片）', zh_jh: '江淮官话（扬州）' },
         'zh-hant': { zh_han: '上古漢語' },
-        yue:       { zh_han: '上古漢語' },
-        en:        { zh_han: 'Old Chinese' },
-        fr:        { zh_han: 'Chinois archaïque' },
-        de:        { zh_han: 'Altchinesisch' },
-        es:        { zh_han: 'Chino arcaico' },
-        pt:        { zh_han: 'Chinês arcaico' },
-        it:        { zh_han: 'Cinese arcaico' },
-        id:        { zh_han: 'Tionghoa Kuno' },
-        ms:        { zh_han: 'Tionghoa Kuno' },
-        sw:        { zh_han: 'Kichina cha Kale' },
-        vi:        { zh_han: 'Thượng cổ Hán ngữ' },
-        ru:        { zh_han: 'Древнекитайский' },
-        uk:        { zh_han: 'Давньокитайська' },
-        ar:        { zh_han: 'الصينية القديمة' },
-        he:        { zh_han: 'סינית עתיקה' },
-        th:        { zh_han: 'ภาษาจีนโบราณ' },
-        hi:        { zh_han: 'प्राचीन चीनी' },
+        yue:       { zh_han: '上古漢語', yue_gz: '化州粵語（高陽片）', zh_jh: '江淮官話（揚州）' },
+        en:        { zh_han: 'Old Chinese', yue_gz: 'Yue (Huazhou, Gaoyang)', zh_jh: 'Jianghuai Mandarin (Yangzhou)' },
+        fr:        { zh_han: 'Chinois archaïque', yue_gz: 'Yue de Huazhou (Gaoyang)', zh_jh: 'Mandarin Jianghuai (Yangzhou)' },
+        de:        { zh_han: 'Altchinesisch', yue_gz: 'Huazhou-Yue (Gaoyang)', zh_jh: 'Jianghuai-Mandarin (Yangzhou)' },
+        es:        { zh_han: 'Chino arcaico', yue_gz: 'Yue de Huazhou (Gaoyang)', zh_jh: 'Mandarín Jianghuái (Yangzhou)' },
+        pt:        { zh_han: 'Chinês arcaico', yue_gz: 'Yue de Huazhou (Gaoyang)', zh_jh: 'Mandarim Jianghuai (Yangzhou)' },
+        it:        { zh_han: 'Cinese arcaico', yue_gz: 'Yue di Huazhou (Gaoyang)', zh_jh: 'Mandarino Jianghuai (Yangzhou)' },
+        id:        { zh_han: 'Tionghoa Kuno', yue_gz: 'Yue Huazhou (Gaoyang)', zh_jh: 'Mandarin Jianghuai (Yangzhou)' },
+        ms:        { zh_han: 'Tionghoa Kuno', yue_gz: 'Yue (Huazhou, Gaoyang)', zh_jh: 'Jianghuai Mandarin (Yangzhou)' },
+        sw:        { zh_han: 'Kichina cha Kale', yue_gz: 'Yue ya Huazhou (Gaoyang)', zh_jh: 'Mandarin ya Jianghuai (Yangzhou)' },
+        vi:        { zh_han: 'Thượng cổ Hán ngữ', yue_gz: 'Việt ngữ Hóa Châu (Cao Dương)', zh_jh: 'Quan thoại Giang Hoài (Dương Châu)' },
+        ru:        { zh_han: 'Древнекитайский', yue_gz: 'Хуачжоуский юэ (Гаоян)', zh_jh: 'Цзянхуайский мандарин (Янчжоу)' },
+        uk:        { zh_han: 'Давньокитайська', yue_gz: 'Хуачжоуський юе (Гаоян)', zh_jh: 'Цзянхуайський мандарин (Янчжоу)' },
+        ar:        { zh_han: 'الصينية القديمة', yue_gz: 'يُوئيه هواتشو (قاويانغ)', zh_jh: 'ماندرين جيانغهوآي (يانغتشو)' },
+        he:        { zh_han: 'סינית עתיקה', yue_gz: "יואה הואג'ואו (גאויאנג)", zh_jh: "מנדרינית ג'יאנגהואי (יאנגג'ואו)" },
+        th:        { zh_han: 'ภาษาจีนโบราณ', yue_gz: 'ภาษาเยว่ฮว่าโจว (กลุ่มเกาหยาง)', zh_jh: 'ภาษาจีนกลางเจียงหวาย (หยางโจว)' },
+        hi:        { zh_han: 'प्राचीन चीनी', yue_gz: 'हुआझोउ युए (गाओयांग)', zh_jh: 'जियांगहुआई मंदारिन (यांगझोउ)' },
       };
       for (const [ui, m] of Object.entries(OV)) {
         if (!LANG_NAMES[ui]) LANG_NAMES[ui] = {};

@@ -41,7 +41,10 @@ const path = require('path');
 const { zhuangIpa } = require('./zhuang_ipa.js');
 
 const ROOT = path.join(__dirname, '..');
-const ROWS = ['za', 'za_sd'];
+// 2026-10-02: za was rebuilt from MCPDict 邕寧百濟壯語 (讀書音), whose surface is
+// the table's phonetic form, not Standard Zhuang spelling — so only za_sd is
+// spelled in the 1982 orthography now and only za_sd is checked.
+const ROWS = ['za_sd'];
 
 global.window = {};
 // eslint-disable-next-line no-eval

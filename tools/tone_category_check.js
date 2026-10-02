@@ -89,6 +89,8 @@ const EXCEPTIONS = new Set([
   'wuu_nb|雞',   // 寧波 tɕi3 (上 35) in 甬江話字詞表, as listed
   'wuu_nb|豬',   // 寧波 tsʮ3 (上 35), as listed
   'cpx|月',      // Puxian vernacular 月 kuoi2 (陽平) — the stop is lost (MCPDict 仙遊 kuoi2)
+  'yue_gz|女',   // 化州 nʋ̩j2 陰上 35, as the MCPDict table lists
+  'yue_gz|兒',   // 化州 ȵi1 陰平 52, as listed
   'nan_sg|雨',   // Hokkien vernacular 雨 hōo is 陽去 (次濁上 白讀 -> 陽去), not 上
   'cpx|肉',      // row reads ˨˦, the Xianyou 陽入 value, not Putian ˦ — pre-existing; flagged in RESUME for a Puxian check
   'cjy_xz|虎',

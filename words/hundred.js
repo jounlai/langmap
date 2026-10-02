@@ -791,7 +791,7 @@ WORDS.hundred = {
     cjy_lv: ["百", "piəʔ˦"],
     cjy_xz: ["百", "piɛʔ˨"],
     czh: ["百", "paʔ˨˦"],
-    czh_wy: ["百", "paʔ˥˥"],
+    czh_wy: ["百", "pɔ˥˩"],
     wuu_sz: ["百", "pɐʔ˥"],
     wuu_nb: ["百", "pɐʔ˥˥"],
     wuu_hz: ["百", "pɐʔ˥"],

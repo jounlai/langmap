@@ -88,7 +88,7 @@ WORDS.you = {
       cjy_xz: ["你", "ni˧˩"],
       hsn_hy: ["你", "ni˧˧"],
       hsn_yz: ["你", "ni˦˩"],
-      czh_wy: ["你", "n̩˧˩"],
+      czh_wy: ["尔", "n̩˧˩"],
       bla: ["kiistó", "kiːstó"],
       hop: ["um", "ʔɨm"],
       com: ["ʉ", "ɨ"],

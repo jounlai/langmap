@@ -88,7 +88,7 @@ WORDS.fire = {
       cjy_xz: ["火", "xuɛ˩˩"],
       hsn_hy: ["火", "xo˧˧"],
       hsn_yz: ["火", "fu˨˩"],
-      czh_wy: ["火", "xu˥˧"],
+      czh_wy: ["火", "xo˨"],
       bla: ["pakóyittsi", "pakójitːsi"],
       hop: ["kukvay", "kukvɑj"],
       com: ["kohtopʉ", "kohtopɨ"],

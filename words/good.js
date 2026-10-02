@@ -88,7 +88,7 @@ WORDS.good = {
       cjy_xz: ["好", "xɔ˩˩"],
       hsn_hy: ["好", "xau˧˧"],
       hsn_yz: ["好", "hau˨˩"],
-      czh_wy: ["好", "hau˥˧"],
+      czh_wy: ["好", "xɔ˨"],
       bla: ["otstapé", "otstapé"],
       hop: ["hopii", "hopiː"],
       com: ["tsaatʉ", "tsaːtɨ"],

@@ -75,7 +75,7 @@ WORDS.snow = {
     cjy_xz: ["雪", "ɕyɔʔ˨"],
     hsn_hy: ["雪", "ɕye˨˨"],
     hsn_yz: ["雪", "ɕye˥˦"],
-    czh_wy: ["雪", "ɕyəʔ˥˥"],
+    czh_wy: ["雪", "sɛ˥˩"],
     bla: ["kóónssko", "kóːnsːko"],
     hop: ["nuva", "nɨva"],
     com: ["tahkabi", "tahkabi"],

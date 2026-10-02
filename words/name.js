@@ -88,7 +88,7 @@ WORDS.name = {
       cjy_xz: ["名字", "miŋ˩˩ tsz̩"],
       hsn_hy: ["名字", "min˩˩˨ tsɿ˧˨˦"],
       hsn_yz: ["名字", "min˩˧ tsɿ"],
-      czh_wy: ["名字", "mĩ˩ sɿ"],
+      czh_wy: ["名字", "mɔ̃˩˩ tsʰɿ˥˩"],
       bla: ["inihkaʼsini", "inixkaʔsini"],
       hop: ["tungwni", "tɨŋʷni"],
       com: ["nahnia", "nahnia"],

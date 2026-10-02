@@ -88,7 +88,7 @@ WORDS.two = {
       cjy_xz: ["二", "ɚ˦˥"],
       hsn_hy: ["二", "ə˨˩˧"],
       hsn_yz: ["二", "ə˨˩"],
-      czh_wy: ["二", "ə˩˧"],
+      czh_wy: ["二", "ø˥˩"],
       bla: ["naatoka", "naːtoka"],
       hop: ["lööyö", "løːjø"],
       com: ["waha", "waha"],

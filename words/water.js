@@ -88,7 +88,7 @@ WORDS.water = {
       cjy_xz: ["水", "suei˥˧"],
       hsn_hy: ["水", "ɕy˧˧"],
       hsn_yz: ["水", "tsʰui˨˩"],
-      czh_wy: ["水", "ɕy˥˧"],
+      czh_wy: ["水", "ɕy˨"],
       bla: ["aohkíí", "aoxkíː"],
       hop: ["paahu", "paːhɨ"],
       com: ["paa", "paː"],

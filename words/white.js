@@ -75,7 +75,7 @@ WORDS.white = {
     cjy_xz: ["白", "pæ˩˩"],
     hsn_hy: ["白", "pe˩˩˨"],
     hsn_yz: ["白", "pʰa˧˥"],
-    czh_wy: ["白", "paʔ˨˧"],
+    czh_wy: ["白", "pʰɔ˥˩"],
     bla: ["ksikk", "ksikː"],
     hop: ["qötsa", "qøtsa"],
     com: ["tosaʼ", "tosaʔ"],

@@ -233,14 +233,14 @@ WORDS.wine = {
     fa: "other",
     tg: "other",
     ur: "other",
-    bn: "other",
+    bn: "ie", // route was other (r29 2026-10-02)
     mr: "ie",
     ta: "other",
     te: "other",
     ml: "ie",
     kn: "ie",
     si: "ie",
-    ne: "other",
+    ne: "ie", // route was other (r29 2026-10-02)
     kk: "other",
     uz: "other",
     ky: "other",
@@ -459,7 +459,7 @@ WORDS.wine = {
     mwr: "other",
     hif: "other",
     or: "other",
-    as: "other",
+    as: "ie", // route was other (r29 2026-10-02)
     rom: "other",
     rmy: "other",
     zh_tw: "other",
@@ -1053,14 +1053,14 @@ WORDS.wine = {
     fa: ["شراب", "ʃæˈɾɒːb"],
     tg: ["шароб", "ʃarob"],
     ur: ["شراب", "ʃəraːb"],
-    bn: ["মদ", "mɔd"],
+    bn: ["ওয়াইন", "o̯ai̯n"], // was ["মদ", "mɔd"] (r29 fix 2026-10-02)
     mr: ["वाईन", "ʋaːiːn"],
     ta: ["மது", "mad̪u"],
     te: ["ద్రాక్షారసం", "d̪raːkʂaːrasam"],
     ml: ["വീഞ്ഞ്", "ʋiːɲːɨ"],
     kn: ["ವೈನ್", "ʋain"],
     si: ["වයින්", "ʋajin"],
-    ne: ["मदिरा", "mədiɾaː"],
+    ne: ["वाइन", "wain"], // was ["मदिरा", "mədiɾaː"] (r29 fix 2026-10-02)
     kk: ["шарап", "ʃarap"],
     uz: ["sharob", "ʃarob"],
     ky: ["шарап", "ʃarap"],
@@ -1069,7 +1069,7 @@ WORDS.wine = {
     tl: ["alak", "ˈʔalak"],
     h_tagalog: ["ᜀᜎᜃ᜔", "ˈʔalak"],
     am: ["ወይን", "wɐjn"],
-    ha: ["giya", "ɡija"],
+    ha: ["ruwan inabi", "ɾuwan inabi"], // was ["giya", "ɡija"] (r29 fix 2026-10-02)
     zu: ["iwayini", "iwaˈjini"],
     mg: ["divay", "divaj"],
 
@@ -1297,7 +1297,7 @@ WORDS.wine = {
     mwr: ["शराब", "ʃəraːb"],
     hif: ["sharab", "ʃəraːb"],
     or: ["ମଦ", "mɔdɔ"],
-    as: ["মদ", "mɔd"],
+    as: ["ৱাইন", "wain"], // was ["মদ", "mɔd"] (r29 fix 2026-10-02)
     rom: ["mol", "mol"],
     rmy: ["mol", "mol"],
 
@@ -1558,7 +1558,7 @@ WORDS.wine = {
     mn_cn: ["ᠳᠠᠷᠠᠰᠤ", "darasu"],
     xal: ["чаһр", "tʃaɣr̩"],
     bxr: ["дарһан", "darhan"],
-    sce: ["darasun", "darasuŋ"],
+    sce: ["putoujiu", "putəudʑiəu"], // was ["darasun", "darasuŋ"] (r29 fix 2026-10-02)
     kpv: ["вина", "vina"],
     koi: ["вина", "vina"],
     udm: ["вина", "vina"],

@@ -88,7 +88,7 @@ WORDS.house = {
       cjy_xz: ["房", "fɑ̃˩˩"],
       hsn_hy: ["屋里", "u˨˨ ti˧˧"],
       hsn_yz: ["屋", "uʔ˥"],
-      czh_wy: ["屋", "uʔ˧˥"],
+      czh_wy: ["屋", "vu˥˩"],
       bla: ["moyís", "mojís"],
       hop: ["kiihu", "kiːhɨ"],
       com: ["kahni", "kahni"],

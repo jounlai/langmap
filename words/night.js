@@ -99,7 +99,7 @@ WORDS.night = {
     cjy_xz: ["夜里", "ia˥˧ li˥˧"],
     hsn_hy: ["夜里", "ia˨˩˧ ti˧˧"],
     hsn_yz: ["夜里", "ia˨˩ li˨˩"],
-    czh_wy: ["夜里", "ia˨˩ li˥˧"],
+    czh_wy: ["夜里", "iɛ˥˩ li˧˩"],
     bla: ["koko", "koko"],
     hop: ["tookila", "toːkila"],
     com: ["tukaani", "tukaːni"],

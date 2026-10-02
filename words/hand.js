@@ -88,7 +88,7 @@ WORDS.hand = {
       cjy_xz: ["手", "ʂəu˩˩"],
       hsn_hy: ["手", "ɕiu˧˧"],
       hsn_yz: ["手", "tʂu˨˩˧"],
-      czh_wy: ["手", "səu˥˧"],
+      czh_wy: ["手", "sɑ˨"],
       bla: ["moʼtsís", "moʔtsís"],
       hop: ["maaʼt", "mɑːʔt"],
       com: ["moʼo", "moʔo"],

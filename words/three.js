@@ -96,7 +96,7 @@ WORDS.three = {
     cjy_xz: ["三", "sɑ̃˩˩"],
     hsn_hy: ["三", "san˦˦˥"],
     hsn_yz: ["三", "san˧˧"],
-    czh_wy: ["三", "sɛ˧˧"],
+    czh_wy: ["三", "sum˦˦"],
     bla: ["niiokska", "niːokska"],
     hop: ["paayom", "paːjom"],
     com: ["pahi", "pahi"],

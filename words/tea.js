@@ -415,10 +415,10 @@ WORDS.tea = {
     acw: "cha",
     ar_eg: "cha",
     ar_ma: "te",
-    ar_tn: "cha",
+    ar_tn: "te", // route was cha (r29 2026-10-02)
     ar_sd: "cha",
     ayl: "cha",
-    arq: "cha",
+    arq: "te", // route was cha (r29 2026-10-02)
     alt: "cha",
     am: "cha",
     ar: "cha",
@@ -1139,10 +1139,10 @@ WORDS.tea = {
     acw: ["شاي", "ʃaːj"],
     ar_eg: ["شاي", "ʃaːj"],
     ar_ma: ["أتاي", "ʔataːj"],  // 2026-10-02: Moroccan everyday tea is atay (from the sea-route te, via Dutch/Min); شاي is the Standard Arabic word (r26 flag)
-    ar_tn: ["شاي", "ʃaːj"],
+    ar_tn: ["تاي", "teːj"], // was ["شاي", "ʃaːj"] (r29 fix 2026-10-02)
     ar_sd: ["شاي", "ʃaːj"],
     ayl: ["شاي", "ʃaːj"],
-    arq: ["شاي", "ʃaːj"],
+    arq: ["أتاي", "ʔataːj"], // was ["شاي", "ʃaːj"] (r29 fix 2026-10-02)
 
     en_us: ["tea", "tiː"],
     en_ca: ["tea", "tiː"],

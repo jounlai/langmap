@@ -118,7 +118,7 @@ WORDS.tooth = {
     cjy_xz: ["牙", "niɑ˩˩"],
     hsn_hy: ["牙", "ŋa˩˩˨"],
     hsn_yz: ["牙", "ŋo˩˧"],
-    czh_wy: ["牙", "ŋo˨˩˧"],
+    czh_wy: ["牙", "ŋo˩˩"],
     bla: ["mohpííkin", "mohpíːkin"],
     hop: ["tama", "tama"],
     com: ["tama", "tama"],

@@ -75,7 +75,7 @@ WORDS.bone = {
     cjy_xz: ["骨头", "kuəʔ˨˩ tʰəu˩˩"],
     hsn_hy: ["骨头", "ku˨˨ təu˩˩˨"],
     hsn_yz: ["骨头", "ku˨˦ tʰəu˩˧"],
-    czh_wy: ["骨", "kuʔ˥˥"],
+    czh_wy: ["骨", "kɤ˥˩"],
     bla: ["ohkin", "oxkin"],
     hop: ["öqa", "ʔøqa"],
     com: ["tsuhnipʉ", "tsuhnipɨ"],

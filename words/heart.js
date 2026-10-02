@@ -88,7 +88,7 @@ WORDS.heart = {
       cjy_xz: ["心", "ɕiəŋ˩˩"],
       hsn_hy: ["心", "ɕin˦˦˥"],
       hsn_yz: ["心", "sim˧˧"],
-      czh_wy: ["心", "ɕin˧˧"],
+      czh_wy: ["心", "sɐin˦˦"],
       bla: ["mósskitsipahp", "mósːkitsipahp"],
       hop: ["unangwa", "ʔunaŋʷa"],
       com: ["pihi", "pihi"],

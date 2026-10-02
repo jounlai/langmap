@@ -749,7 +749,7 @@ WORDS.iron = {
     hsn: ["铁", "tʰie˨˦"],
     hsn_hy: ["铁", "tʰie˨˨"],
     czh: ["铁", "tʰiəʔ˨˦"],
-    czh_wy: ["铁", "tʰiɛʔ˥˥"],
+    czh_wy: ["铁", "tʰɛ˥˩"],
     hak_cn: ["铁", "tʰiet˧"],
     hak_tw: ["鐵", "tʰiet˨"],
     hak_hl: ["鐵", "tʰiet˨˨"],

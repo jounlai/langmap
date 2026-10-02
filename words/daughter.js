@@ -622,7 +622,7 @@ WORDS.daughter = {
     gan: ["女", "ȵy˨˩˧"],
     hsn: ["女", "ny˦˩"],
     czh: ["女", "ny˧˩"],
-    czh_wy: ["女", "ny˧˩"],
+    czh_wy: ["女", "li˧˩"],
     yue_ts: ["女", "ⁿdui˥˥"],
     yue_nn: ["女", "ny˩˧"],
     cnp: ["女", "ny˨˦"],

@@ -95,7 +95,7 @@ WORDS.red = {
     cjy_xz: ["红", "xuəŋ˩˩"],
     hsn_hy: ["红", "xəŋ˩˩˨"],
     hsn_yz: ["红", "xoŋ˩˧"],
-    czh_wy: ["红", "ɦoŋ˨˩˧"],
+    czh_wy: ["红", "xɔm˩˩"],
     bla: ["máóhk", "máóxk"],  // ótssko, which stood here, is Blackfoot's grue term (native-languages.org glosses it "green or blue"; Galt Museum has Otsskoinaattsi = blue), so it has moved to green/blue. Red is máóhk / Maohksinaattsi. Bare stems from the same native-languages.org list the row's white ksikk comes from.
     hop: ["palani", "palani"],
     com: ["ekapi", "ekapi"],
@@ -187,7 +187,7 @@ WORDS.red = {
     ja_osa: ["赤い", "akai"],
     ja_aom: ["あがい", "aɡai"],
     ja_oki: ["あかさん", "akasaɴ"],
-    ja_hak: ["赤か", "akaka"],
+    ja_hak: ["赤い", "akai"],
     ja_kyo: ["赤い", "akai"],
     ja_hir: ["赤い", "akai"],
     ja_mvi: ["あかはん", "akahaɴ"],

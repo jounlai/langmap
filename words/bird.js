@@ -71,7 +71,7 @@ WORDS.bird = {
     gan_fz: ["鸟", "ȵiɛu˧˥"],
     cjy_lv: ["鸟", "niou˧˩˨"],
     cjy_xz: ["鸟", "niɔ˩˩"],
-    czh_wy: ["鸟", "ȵiɔ˥˧"],
+    czh_wy: ["鸟", "liɔ˧˩"],
     hop: ["tsiro", "tsiro"],
     win: ["wanįk", "wanĩk"],
     ik: ["tiŋmiaq", "tiŋmiaq"],

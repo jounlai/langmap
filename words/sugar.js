@@ -34,6 +34,10 @@
  *   other — a native word or an unrelated root: Slovene sladkor from 'sweet',
  *     Thai น้ำตาล and Lao ນ້ຳຕານ from the palmyra palm (the -taan is the tree,
  *     not Chinese 糖), Māori huka, Hawaiian kōpaʻa.
+ *   Correction (2026-10-02): Māori huka does not belong under `other`. Te Aka
+ *     marks huka 'sugar' as a loan noun, English "sugar", separate from the
+ *     native huka 'snow, foam'; the data has always put mi on śarkarā, with
+ *     Samoan and Tongan suka.
  */
 WORDS.sugar = {
   partial: true,

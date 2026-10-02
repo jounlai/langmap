@@ -100,7 +100,7 @@ WORDS.tongue = {
     cjy_xz: ["舌头", "səʔ˥˦ tʰəu˩˩"],
     hsn_hy: ["舌子", "ɕie˩˩˨ tsɿ"],
     hsn_yz: ["舌头", "sə˨˦ tʰəu˩˧"],
-    czh_wy: ["舌", "ɕiɛʔ˨˧"],
+    czh_wy: ["舌", "tsʰɛ˥˩"],
     bla: ["matsiní", "matsiní"],
     hop: ["lengi", "leŋi"],
     com: ["eeko", "eːko"],

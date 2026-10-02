@@ -88,7 +88,7 @@ WORDS.father = {
       cjy_xz: ["爹", "tiɛ̃˩˩"],
       hsn_hy: ["爸爸", "pa˩˩˨ pa˩˩˨"],
       hsn_yz: ["爸", "pa˧˥"],
-      czh_wy: ["爸", "pa˥˧"],
+      czh_wy: ["爸", "pɑ˦˦"],
       bla: ["apó", "apó"],
       hop: ["naʼat", "nɑʔɑt"],
       com: ["ahpʉ", "ahpɨ"],

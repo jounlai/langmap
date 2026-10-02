@@ -55,6 +55,9 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    ket: "grue",
+    ii: "distinct",
+    gum: "distinct",
     tsi: "distinct",
     tue: "grue",
     ses: "borrowed",
@@ -137,7 +140,7 @@ WORDS.blue = {
     ig: "distinct",
     bbl: "borrowed",
     kry: "distinct",
-    kbd: "distinct",
+    kbd: "grue", // route was distinct (r29 2026-10-02)
     lmo: "distinct",
     am: "distinct",
     ar_tn: "distinct",
@@ -400,7 +403,7 @@ WORDS.blue = {
     pjt: "borrowed",
     roo: "distinct",
     wrh: "distinct",
-    ab: "distinct",
+    ab: "grue", // route was distinct (r29 2026-10-02)
     acn: "distinct",
     ady: "grue",
     aer: "grue",
@@ -599,7 +602,7 @@ WORDS.blue = {
     ml: "distinct",
     mlm: "distinct",
     mmd: "distinct",
-    mn: "grue",
+    mn: "distinct", // route was grue (r29 2026-10-02)
     mns: "distinct",
     moc: "distinct",
     mos: "borrowed",
@@ -656,7 +659,7 @@ WORDS.blue = {
     pwn: "distinct",
     pyu: "distinct",
     qu: "distinct",
-    quc: "grue",
+    quc: "distinct", // route was grue (r29 2026-10-02)
     quy: "distinct",
     quz: "distinct",
     rap: "distinct",
@@ -765,6 +768,9 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    ket: ["съньсь", "sʌɲɕ"],
+    ii: ["ꀊꃴ", "a˧˧vu˥"],
+    gum: ["pilli", "piʎi"],
     tsi: ["gwisgwaask", "ɡʷisɡʷaːsk"],
     tue: ["sɨ̃ʼbẽ", "sɨ̃ʔbẽ"],
     ses: ["bula", "bula"],
@@ -847,7 +853,7 @@ WORDS.blue = {
     ig: ["anụnụ anụnụ", "anʊnʊ anʊnʊ"],
     bbl: ["ცისფერ", "tsisper"],
     kry: ["yeksərğur", "jeksærʁur"],
-    kbd: ["шхъуантӏэ", "ʃχʷaːntʼa"],
+    kbd: ["щхъуантӏэ", "ɕχʷaːntʼa"], // was ["шхъуантӏэ", "ʃχʷaːntʼa"] (r29 fix 2026-10-02)
     lmo: ["blö", "blø"],
     am: ["ሰማያዊ", "sɐmajawi"],
     ar_tn: ["أزرق", "ˈazɾaq"],
@@ -1110,7 +1116,7 @@ WORDS.blue = {
     pjt: ["puluwana", "puluwana"],  // From English 'blue one', the same -wana loan series as rituwana 'red one' and yalawana 'yellow one' in the same verse, and as Pintupi-Luritja puluuwana / kuriinwana / iluwuwana. The scripture gloss anchors it to this concept exactly — ilkaṟi puṟunypa 'like the sky'. Marked uncertain because the attestation is a Bible translation (only two tokens in the corpus) and Goddard's Pitjantjatjara/Yankunytjatjara to English Dictionary is not digitised anywhere reachable, so everyday currency could not be confirmed. The inherited alternative would be maru 'black, dark': in the sister Western Desert variety Martu Wangka the focal-blue World Color Survey chips are named with the black term maru-maru, so a future check could well move this row to class 'dark'.
     roo: ["kuuva", "kuːβa"],  // Blue is a separate word from green (uriko, kokovara); the very existence of the compound kuuva uriko 'blue-green' shows kuuva alone does not cover green. Not a loan — the Tok Pisin equivalent given alongside it is blupela, phonologically unrelated. The orthography note in the same 1973 volume gives 'v as in bat (the lips are not completely closed)', i.e. a bilabial fricative, and 'the long vowels aa, ee, ii, oo and uu are pronounced as single vowels but are held over a longer period of time' — hence kuːβa.
     wrh: ["ngurrumirgang", "ˈŋurumiɻɡaŋ"],  // Glossed 'blue as the sky' in both the modern dictionary and Günther's 1830s-40s vocabulary, which is exactly this concept. Not a grue term — green is gabargabar 'green like grass' (Günther also has gabbargabbar 'green; grass' and danbang 'green, alive (said of plants)'). Purple is built on it as a compound, warrugangngurrumirrgangdhuray, i.e. red + blue + 'having', which presupposes ngurrumirgang as a basic term. The row's girri-girri 'red' and barrabarra 'white' are confirmed by the same dictionary (girri, girrigirri; barrang, gaban).
-    ab: ["аҽҵәа", "ɑʈʂʰtsʼʷɑ"],  // Abkhaz аҽҵәа vs ашьацԥшҭәала / аеҵәа.
+    ab: ["аиаҵәа", "ajatsʼʷa"],  // Abkhaz аҽҵәа vs ашьацԥшҭәала / аеҵәа. // was ["аҽҵәа", "ɑʈʂʰtsʼʷɑ"] (r29 fix 2026-10-02)
     acn: ["səm31", "səm˧˩"],  // Achang (Longchuan) səm³¹ against ȵau⁵⁵ 'green'.
     ady: ["шхъуантӏэ", "ʃχʷaːnˈtʼa"],  // Adyghe шхъуантӏэ is given by NorthEuraLex for BOTH blue and green — the standard West Caucasian single cool-range term.
     aer: ["atherrke", "at̪erke"],  // Eastern Arrernte atherrke is documented as covering green including some shades of blue (and of yellow). Arrernte has no basic blue term; this is the cool-range word, and the row's other colour cells show the same small inventory.
@@ -1142,7 +1148,7 @@ WORDS.blue = {
     bnn: ["masanglav", "masaŋlav"],  // Isbukun (郡群) Bunun, the variety whose madanghas/maduhlas the row already uses. The bare root sanglav also means 'vegetables, greens'. A blue-specific malaingas 藍 exists in the same dictionary but masanglav is the basic term and is what the dictionary uses of the sky.
     bo: ["སྔོན་པོ", "ŋom˥po˥"],  // སྔོན་པོ is the classic Tibetan grue: it is the word for the colour of the sky AND of grass. Sun's Lhasa wordlist gives ŋom⁵⁵po⁵³ for blue against tɕaŋ¹⁵ku¹³ for green; the tone letters here are reduced to the row's single-mark style.
     br: ["glas", "ɡlɑːs"],  // Breton glas covers blue and the green of natural growing things; gwer is used for artificial green. IDS lists glaz for blue and gwer, ver, glaz for green.
-    bsk: ["diṅ", "ʂiˈqam"],  // Burushaski: NorthEuraLex gives the identical pair diṅ and ṣiqám for blue AND for green — a single cool-range vocabulary.
+    bsk: ["ṣiqám", "ʂiˈqam"],  // Burushaski: NorthEuraLex gives the identical pair diṅ and ṣiqám for blue AND for green — a single cool-range vocabulary. // was ["diṅ", "ʂiˈqam"] (r29 fix 2026-10-02)
     bxr: ["хүхэ", "xyˈxe"],  // Buryat хүхэ, the cognate of Mongolian хөх, against ногоон.
     ca: ["blau", "blaw"],  // blau vs verd.
     cag: ["jaka", "jaka"],  // IDS y written j here, exactly as this row's red yuk → juk/juk. Green in Nivaclé is a descriptive phrase, so the blue term is the basic one.
@@ -1370,7 +1376,7 @@ WORDS.blue = {
     pwn: ["cangiangia", "tsaŋiaŋia"],  // 北排灣語 (Northern Paiwan), the variety the row's qudjidjilj/vuqavuqalj come from; cangiangia matches their reduplicated '…色的' shape. Class is INFERRED, not stated: the same dictionary keeps green separate (matjak 綠色/深綠, liljualjuas 綠色的, quljangas 青綠色) and the cangia example is about the sky, so blue looks distinct from green here. Caveat worth flagging: Paiwan cangia, Puyuma tremangiya and Amis tangiya '(pale) blue' resemble one another; I found no etymology for them in the ACD, so the possibility that this is a shared loan (which would make the class `borrowed`) is unresolved.
     pyu: ["tremangiya", "ʈəmaŋija"],  // 南王卑南語 (Nanwang Puyuma). Class INFERRED: green is a separate word in the same dictionary (miraat 綠/綠色, id ab574e9e-6d09-f011-bd64-00155db40116), and inunaw is 'dark blue'. ORTHOGRAPHY FLAG: the row's red cell is spelled "midarang"; the dictionary and the 南王卑南語 學習詞表 both spell it midrarang (dr = /ɖ/, giving the row's own IPA /miɖaraŋ/), so the row appears to have dropped the r of the digraph. I have kept the dictionary spelling tremangiya (tr = /ʈ/); if the atlas deliberately writes those digraphs without the r, this cell would be temangiya. See the cangia caveat under pwn — tremangiya may be the same areal word.
     qu: ["anqas", "aŋqas"],  // NOT borrowed in Southern Quechua: anqas is inherited (also the indigo plant). Spanish asul has however displaced it in some varieties — WOLD scores Imbabura Quechua asul 'blue' and birdi 'green' as '1. clearly borrowed' (https://github.com/lexibank/wold), so northern Quichua would be class 'borrowed'.
-    quc: ["rax", "raʃ"],  // Spelling rax (the Wiktionary alternative form) chosen to match this row's kaq / saq / qʼeq, which are ALMG orthography.
+    quc: ["xar", "ʃaɾ"],  // Spelling rax (the Wiktionary alternative form) chosen to match this row's kaq / saq / qʼeq, which are ALMG orthography. // was ["rax", "raʃ"] (r29 fix 2026-10-02)
     quy: ["anqas", "aŋqas"],  // Form/class are for Quechua generally and for Cusco-Collao specifically; I found no Ayacucho-Chanka-specific source. Ayacucho may use Spanish asul more heavily.
     quz: ["anqas", "aŋqas"],  // qhusi and uqi are also listed but are 'grey/dun' shades rather than the sky term.
     rap: ["moana", "moana"],  // Rapanui moana, literally 'ocean', against rito mata for green; IDS also records moana ʔere-ʔere for the darker blue. A sea-derived blue, as across much of Polynesia.

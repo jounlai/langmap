@@ -559,7 +559,7 @@ WORDS.black = {
     ja_hir: ["黒い", "kɯɾoi"],
     ja_aom: ["黒い", "kɯɾoi"],
     ja_edo: ["黒い", "kɯɾoi"],
-    ja_hak: ["黒か", "kuɾoka"],
+    ja_hak: ["黒い", "kɯɾoi"],
     ja_oki: ["くるさん", "kuɾusaɴ"],
     ja_chu: ["黒し", "kuɾoɕi"],
     ja_heian: ["黒し", "kuɾoɕi"],

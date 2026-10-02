@@ -88,7 +88,7 @@ WORDS.cat = {
       cjy_xz: ["猫儿", "mɚ˩˩"],
       hsn_hy: ["猫", "mau˦˦˥"],
       hsn_yz: ["猫", "mau˨˩˧"],
-      czh_wy: ["猫", "mau˥˧"],
+      czh_wy: ["猫", "miɑ̃˦˦"],
       bla: ["poos", "poːs"],
       hop: ["—", "—"],
       com: ["ʉsʉʔ", "ɨsɨʔ"],

@@ -98,7 +98,7 @@ WORDS.blood = {
     cjy_xz: ["血", "ɕyɔʔ˨"],
     hsn_hy: ["血", "ɕye˨˨"],
     hsn_yz: ["血", "ɕye˨˦"],
-    czh_wy: ["血", "ɕiɛʔ˥˥"],
+    czh_wy: ["血", "ɕiø˥˩"],
     bla: ["aaápan", "aːápan"],
     hop: ["ungwa", "ʔuŋʷa"],
     com: ["pʉhʉ", "pɨhɨ"],

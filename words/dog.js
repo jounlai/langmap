@@ -88,7 +88,7 @@ WORDS.dog = {
       cjy_xz: ["狗", "kəu˥˧"],
       hsn_hy: ["狗", "kəu˧˧"],
       hsn_yz: ["狗", "kau˧˥"],
-      czh_wy: ["狗", "kəu˥˧"],
+      czh_wy: ["狗", "tɕiɑ˨"],
       bla: ["imitáá", "imitáː"],
       hop: ["pòoko", "pòːko"],
       com: ["sarii", "saɾiː"],

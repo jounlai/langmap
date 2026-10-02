@@ -88,7 +88,7 @@ WORDS.star = {
       cjy_xz: ["星宿", "ɕiə˩˩ ɕiəu˦˥"],
       hsn_hy: ["星子", "ɕin˦˦˥ tsɿ"],
       hsn_yz: ["星子", "ɕin˧˧ tsɿ"],
-      czh_wy: ["星", "ɕiã˧˩"],
+      czh_wy: ["星", "sɔ̃˦˦"],
       bla: ["kakatóʼsi", "kakatóʔsi"],
       hop: ["soohu", "soːhɨ"],
       com: ["tatsinuupi", "tatsinuːpi"],

@@ -414,7 +414,7 @@ WORDS.orange = {
     es_cu: "naranj",
     es_pe: "naranj",
     es_an: "naranj",
-    lad: "naranj",
+    lad: "portakal", // route was naranj (r29 2026-10-02)
     rm: "naranj",
     sc: "naranj",
     el_kath: "portakal",
@@ -487,7 +487,7 @@ WORDS.orange = {
     crs: "naranj",
     gcf: "naranj",
     bqi: "portakal",
-    srn: "naranj",
+    srn: "china", // route was naranj (r29 2026-10-02)
     ja_kg: "naranj",
     ja_sd: "naranj",
     ko_hg: "naranj",
@@ -900,7 +900,7 @@ WORDS.orange = {
     es_cu: ["naranja", "naˈɾaŋha"],
     es_pe: ["naranja", "naˈɾaŋxa"],
     es_an: ["naranja", "naˈɾaŋha"],
-    lad: ["naranja", "naˈɾandʒa"],
+    lad: ["portokal", "poɾtoˈkal"], // was ["naranja", "naˈɾandʒa"] (r29 fix 2026-10-02)
     rm: ["aranscha", "aˈraŋʃa"],
     sc: ["aranzu", "aˈrandzu"],
     el_kath: ["πορτοκάλι", "portoˈkali"],
@@ -947,8 +947,8 @@ WORDS.orange = {
     krl: ["apelʼsiini", "ˈɑpelʲsiːni"],
     olo: ["apel'siini", "apelʲˈsiːni"],
     vep: ["apel'sin", "apelʲˈsin"],
-    mzn: ["پرتقال", "poɾteɣɒl"],
-    glk: ["پرتقال", "poɾteɣɒl"],
+    mzn: ["پتقال", "pæteɣɒl"], // was ["پرتقال", "poɾteɣɒl"] (r29 fix 2026-10-02)
+    glk: ["پرتخال", "pəɾtəxɒl"], // was ["پرتقال", "poɾteɣɒl"] (r29 fix 2026-10-02)
     lrc: ["پرتقال", "poɾteɣɒl"],
     crh: ["portaqal", "poɾtaˈqal"],
     tt: ["әфлисун", "æfliˈsun"],
@@ -956,7 +956,7 @@ WORDS.orange = {
     nso: ["namune", "namune"],
     lmo: ["naranz", "naˈrans"],
     pms: ["aransa", "aˈraŋsa"],
-    mwl: ["laranja", "laˈɾɐ̃ʒa"],
+    mwl: ["lharanja", "ʎaˈɾɐ̃ʒa"], // was ["laranja", "laˈɾɐ̃ʒa"] (r29 fix 2026-10-02)
     pnt: ["πορτοκάλ", "portoˈkal"],
     dsb: ["pomerantša", "ˈpɔmɛrantʃa"],
     gv: ["oarn", "ɔːrn"],
@@ -973,7 +973,7 @@ WORDS.orange = {
     crs: ["zoranz", "zoʁãz"],
     gcf: ["zowanj", "zowãʒ"],
     bqi: ["پرتقال", "poɾteɣɒl"],
-    srn: ["alanya", "alaɲa"],
+    srn: ["apresina", "apresina"], // was ["alanya", "alaɲa"] (r29 fix 2026-10-02)
     ja_kg: ["オレンジ", "oɾendʑi"],
     ja_sd: ["オレンジ", "oɾendʑi"],
     ko_hg: ["오렌지", "oɾendʑi"],
@@ -1010,7 +1010,7 @@ WORDS.orange = {
     wuu_jh: ["橙", "dʑiŋ˧˩˧"],
     wuu_jx: ["橙", "zaŋ˨˧"],
     yue_zs: ["橙", "tsʰaŋ˨˩"],
-    zh_cd: ["橙", "tʂʰɤŋ˨˩"],
+    zh_cd: ["橙", "tsʰən˨˩"], // was ["橙", "tʂʰɤŋ˨˩"] (r29 fix 2026-10-02)
     zh_hf: ["橙", "tʂʰɤŋ˥˥"],
     zh_kf: ["橙", "tʂʰɤŋ˦˨"],
     zh_nj: ["橙", "tʂʰɤŋ˨˦"],

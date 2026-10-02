@@ -409,8 +409,8 @@ WORDS.bear = {
     liv: "taboo",
     hu: "taboo",
     ohu: "taboo",
-    se: "taboo",
-    sma: "taboo",
+    se: "inherited", // route was taboo (r29 2026-10-02)
+    sma: "loan", // route was taboo (r29 2026-10-02)
     sjd: "taboo",
     kpv: "taboo",
     koi: "taboo",
@@ -1469,7 +1469,7 @@ WORDS.bear = {
     hsn: ["熊", "ɕin˩˧"],
     hsn_hy: ["熊", "ɕin˩˩˨"],
     czh: ["熊", "ɕin˨˩˧"],
-    czh_wy: ["熊", "ɕiɔm˨˩˧"],
+    czh_wy: ["熊", "ɕiɔm˩˩"], // was ["熊", "ɕiɔm˨˩˧"] (r29 fix 2026-10-02)
     wuu: ["熊", "ɦioŋ˨˧"],
     wuu_sz: ["熊", "ɦioŋ˨˨˧"],
     wuu_hz: ["熊", "ɦioŋ˨˩˧"],

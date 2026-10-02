@@ -37229,7 +37229,7 @@ const HAN_VARIANTS = {
       },
       {
         "native": "nhất",
-        "surface": "Nhất",
+        "surface": "nhất",
         "ipa": "ɲət˦˥",
         "label": "Hán Việt (standard)"
       }

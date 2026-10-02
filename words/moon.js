@@ -755,7 +755,7 @@ WORDS.moon = {
     acu: ["nantu", "nantu"],
     car: ["nuno", "nuno"],
     pbb: ["aʼ", "aʔ"],
-    gum: ["atru", "aʈʂu"],
+    gum: ["pøl", "pəl"],
     arn: ["küyen", "kɨjen"],
     cr: ["ᑎᐱᐢᑳᐍᐲᓯᒼ", "tipiskaːwi piːsim"],
     chp: ["hadelyi", "haðeli"],

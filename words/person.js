@@ -283,7 +283,7 @@ WORDS.person = {
     gor: ["tawu", "tawu"],
     got: ["𐌼𐌰𐌽𐌽𐌰", "ˈmanːa"],
     guc: ["wayuu", "wajuː"],
-    gum: ["misak", "misak"],
+    gum: ["misag", "misak"],
     h_vedic: ["मनुष्य", "mɐnuʂjɐ"],
     ha: ["mutum", "mutum"],
     hak_cn: ["人", "ŋin˩˩"],

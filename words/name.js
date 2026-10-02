@@ -983,7 +983,7 @@ WORDS.name = {
       tue: ["wamé", "wamẽ"],
       emp: ["trʉ̃", "tɾɨ̃"],
       kpe: ["lâa", "lâː"],
-      bsq: ["nyɛ", "ɲɛ"],
+      bsq: ["nyɛ́nɛ́", "ɲɛ́nɛ́"],
       loz: ["libizo", "libizo"],
       bbc: ["goar", "ɡoar"],
       bts: ["goran", "ɡoran"],

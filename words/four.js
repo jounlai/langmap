@@ -471,7 +471,7 @@ WORDS.four = {
     gil: ["aua", "aua"],
     gl: ["catro", "ˈkatɾo"],
     gsw: ["vier", "fiər"],
-    gum: ["pip", "pip"],
+    gum: ["pib", "pip"],
     ha: ["huɗu", "huɗu"],
     hne: ["चार", "tʃaːr"],
     iba: ["empat", "əmpat"],

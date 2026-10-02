@@ -676,7 +676,7 @@ WORDS.bone = {
     acu: ["ukunch", "ukuntʃ"],
     car: ["yepo", "jepo"],
     pbb: ["dyiʼth", "dʒiʔtʰ"],
-    gum: ["tsutsik", "tsutsik"],
+    gum: ["tsutsig", "tsutsik"],
     arn: ["foro", "foɾo"],
     cr: ["ᒥᐢᑲᐣ", "miskan"],
     chp: ["thʼen", "θʼen"],

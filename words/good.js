@@ -763,7 +763,7 @@ WORDS.good = {
     acu: ["penker", "peŋkeɾ"],
     car: ["epoja", "epoja"],
     pbb: ["eçxa", "eçʰa"],
-    gum: ["kausrik", "kawʂik"],
+    gum: ["kausrig", "kawʂik"],
     arn: ["küme", "kɨme"],
     cr: ["ᒥᔫ", "mijoː"],
     chp: ["nezų", "nezũ"],

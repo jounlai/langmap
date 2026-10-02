@@ -130,7 +130,7 @@ WORDS.tree = {
       jya: ["sin", "sin"],
       ers: ["ʂɑ", "ʂɑ"],
       bca: ["si", "sɪ"],
-      atb: ["sikgâm", "sik˥˥"],
+      atb: ["sikgâm", "sik˥˥kam˥˩"],
       prk: ["tʰɔː", "tʰɔː"],
       slr: ["yoğach", "joɡɑtʃ"],
       ybe: ["terik", "terik"],

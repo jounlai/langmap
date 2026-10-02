@@ -756,7 +756,7 @@ WORDS.hello = {
     acu: ["pujamek", "puhamek"],
     car: ["mary", "maɾi"],
     pbb: ["mañi", "maɲi"],
-    gum: ["maʼrik", "maʔɾik"],
+    gum: ["maʼrig", "maʔɾik"],
     arn: ["mari mari", "maɾi maɾi"],
     cr: ["ᑖᓂᓯ", "taːnisi"],
     chp: ["edlanetʼè", "eðlanetʼe"],

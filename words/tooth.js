@@ -939,7 +939,7 @@ WORDS.tooth = {
     tue: ["upi", "uˈpi"],
     emp: ["kida", "kiɗa"],
     kpe: ["nyiŋ", "ɲiŋ"],
-    bsq: ["nyɛnɛ", "ɲɛnɛ"],
+    bsq: ["nyɛ́nɛ́-ɓò", "ɲɛ́nɛ́ɓò"],
     loz: ["lino", "lino"],
     bbc: ["ngingi", "ŋiŋi"],
     bts: ["ipon", "ipon"],

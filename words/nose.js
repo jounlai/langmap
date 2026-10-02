@@ -977,7 +977,7 @@ WORDS.nose = {
     sbp: ["imula", "imula"],
     sog: ["nas", "nas"],
     kde: ["imula", "imula"],
-    gum: ["kimtsik", "kimtsik"],
+    gum: ["kimtsig", "kimtsik"],
     kos: ["fwac", "fwɛ"],
     myp: ["ʔitaoi", "ʔitaoi"],
     wba: ["kaɾi", "kaɾi"],

@@ -915,7 +915,7 @@ WORDS.wind = {
     nha: ["uudinu", "uudinu"],
     naq: ["ǂoab", "ǂoab"],
     nmf: ["masi", "masi"],
-    gum: ["isik", "isik"],
+    gum: ["isig", "isik"],
     yao: ["mbungo", "mbuŋɡo"],
     emi: ["kuukuu", "kuukuu"],
     mvf: ["kii", "kii"],

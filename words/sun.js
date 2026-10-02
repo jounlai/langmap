@@ -754,7 +754,7 @@ WORDS.sun = {
     acu: ["etsa", "etsa"],
     car: ["weju", "weju"],
     pbb: ["sek", "seɡ"],
-    gum: ["shi", "ʃi"],
+    gum: ["pørr", "pəʈʂ"],
     arn: ["antü", "antɨ"],
     cr: ["ᐲᓯᒼ", "piːsim"],
     chp: ["sa", "sa"],

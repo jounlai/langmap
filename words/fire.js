@@ -974,7 +974,7 @@ WORDS.fire = {
     tue: ["pekãbẽ", "pekãbẽ"],
     emp: ["tu", "tu"],
     kpe: ["kɔ̃a", "kɔ̃a"],
-    bsq: ["so", "so"],
+    bsq: ["nyɛ", "ɲɛ"],
     loz: ["mulilo", "mulilo"],
     bbc: ["api", "api"],
     bts: ["apuy", "apuj"],

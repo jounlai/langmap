@@ -982,7 +982,7 @@ WORDS.drink = {
     tue: ["sĩdĩ", "sĩdĩ"],
     emp: ["dorrare", "doraɾe"],
     kpe: ["yiti", "jiti"],
-    bsq: ["mɔ̃e", "mɔ̃e"],
+    bsq: ["ná", "ná"],
     loz: ["kunwa", "kunwa"],
     bbc: ["minum", "minum"],
     bts: ["minum", "minum"],

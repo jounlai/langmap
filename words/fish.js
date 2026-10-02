@@ -703,7 +703,7 @@ WORDS.fish = {
     acu: ["namak", "namak"],
     car: ["woto", "woto"],
     pbb: ["wedy", "wedʒ"],
-    gum: ["pipelem", "pipələm"],
+    gum: ["pipøløm", "pipələm"],
     arn: ["challwa", "tʃaʎwa"],
     cr: ["ᑭᓄᓭᐤ", "kinoseːw"],
     chp: ["łuwe", "ɬuwe"],

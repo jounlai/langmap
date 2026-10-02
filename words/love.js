@@ -755,7 +755,7 @@ WORDS.love = {
     acu: ["anentin", "anentin"],
     car: ["kataneko", "kataneko"],
     pbb: ["peeygã", "peːjɡã"],
-    gum: ["kausrap", "kawʂap"],
+    gum: ["kausrab", "kawʂap"],
     arn: ["poyen", "pojen"],
     cr: ["ᓵᑭᐦᐃᐍᐏᐣ", "saːkihiweːwin"],
     chp: ["hı́la", "hila"],

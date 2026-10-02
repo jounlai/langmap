@@ -948,6 +948,19 @@ WORDS.book = {
     ake: ["kareta", "kaɾeta"],
     roo: ["vuku", "βuku"],
     alq: ["mazinahigan", "mazinahiɡan"],
-    sce: ["shu", "ʂu"]
+    sce: ["shu", "ʂu"],
+    dak: ["wówapi", "wówapi"],
+    kfa: ["ಪುಸ್ತಕ", "pustaka"],
+    lrc: ["کتو", "ketow"],
+    wls: ["tohi", "tohi"],
+    sdh: ["کتاو", "kɪtaːw"],
+    tsj: ["pecha", "petɕʰa"],
+    dru: ["hungu", "huŋu"],
+    aln: ["libër", "ˈlibəɾ"],
+    bej: ["kitaab", "kitaːb"],
+    hif: ["buk", "buk"],
+    dur: ["debtere", "debtere"],
+    tem: ["kafa", "kafa"],
+    wbm: ["phuk lai", "pʰuk lai"]
   }
 };

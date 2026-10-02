@@ -1192,6 +1192,7 @@ WORDS.white = {
     kpe: ["kole", "kole"],
     ale: ["к̆умалих", "qumalix"],
     trm: ["kešera", "keʃera"],
-    jio: ["kʰou", "kʰou˥"]
+    jio: ["kʰou", "kʰou˥"],
+    bxk: ["waanga", "waːŋɡa"]
   },
 };

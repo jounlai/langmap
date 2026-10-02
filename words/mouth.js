@@ -1065,6 +1065,8 @@ WORDS.mouth = {
     jio: ["kɯmɯəŋ", "kɯ˧˩mɯəŋ˩"],
     hui: ["ne hariga", "ne haɾiɡa"],
     mpt: ["sital", "sital"],
-    alq: ["odòn", "ɔdɔːn"]
+    alq: ["odòn", "ɔdɔːn"],
+    nlc: ["sibamaʼ", "sibamaʔ"],
+    hif: ["muh", "mʊɦ"]
   }
 };

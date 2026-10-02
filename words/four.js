@@ -1176,6 +1176,7 @@ WORDS.four = {
     jio: ["tiəu", "tiəu˥"],
     bor: ["pobe puibiji", "pobe puibidʒi"],
     djr: ["ḏämbumiriw", "ɖaːmbumiɻiw"],
-    mpt: ["asuke asuke", "asuke asuke"]
+    mpt: ["asuke asuke", "asuke asuke"],
+    nlc: ["dombadya", "dombadja"]
   },
 };

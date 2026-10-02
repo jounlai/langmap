@@ -1144,6 +1144,7 @@ WORDS.earth = {
     fai: ["bakan", "bakan"],
     ake: ["non", "non"],
     mcf: ["nidaid", "nidaid"],
-    roo: ["rasito", "ɾasito"]
+    roo: ["rasito", "ɾasito"],
+    adi: ["among", "amoŋ"]
   }
 };

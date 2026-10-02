@@ -938,6 +938,13 @@ WORDS.mountain = {
     aer: ["apwerte akngerre", "apʷəʈə akŋərə"],
     alq: ["pikwadin", "pikwadin"],
     kmu: ["agoʼya", "aɡoʔja"],
-    piu: ["puḻi katu", "puɭi katu"]
+    piu: ["puḻi katu", "puɭi katu"],
+    gbm: ["पाड़", "paːɽ"],
+    ahk: ["gaw jaw", "ɡɔ˨˩dʑɔ˨˩"],
+    dru: ["lregelrege", "ɭəɡəɭəɡə"],
+    nlc: ["mein", "mein"],
+    bej: ["riba", "riba"],
+    cjm: ["ꨌꨮꩀ", "cəʔ"],
+    pot: ["bkotnyawen", "bkotnjawɪn"]
   }
 };

@@ -1070,6 +1070,13 @@ WORDS.honey = {
     tca: ["berure", "beɾuɾe"],
     gum: ["miel", "mjel"],
     alq: ["àmòsizibàkwad", "aːmɔːsizibaːkwad"],
-    sce: ["shimei", "ʂimei"]
+    sce: ["shimei", "ʂimei"],
+    kfa: ["ತೇನ್", "teːn"],
+    zne: ["anyege", "aɲeɡe"],
+    ahk: ["bya bya ui", "bja˨˩bja˨˩ɯ˥"],
+    nlc: ["lusa mek", "lusa mek"],
+    bej: ["awit", "awit"],
+    dur: ["naam", "naːm"],
+    ker: ["son bə tum", "son bə tum"]
   },
 };

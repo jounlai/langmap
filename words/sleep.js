@@ -1109,6 +1109,9 @@ WORDS.sleep = {
     blt: ["ꪙꪮꪙ", "nɔn˥"],
     jio: ["ŋɔ", "ŋɔ˩"],
     roo: ["uusi", "uːsi"],
-    car: ["ònyky", "ohnɨkɨ"]
+    car: ["ònyky", "ohnɨkɨ"],
+    ibb: ["daiya", "daija"],
+    kfa: ["ವರಿ", "vari"],
+    gej: ["dɔ̃ alɔ̃", "dɔ̃ alɔ̃"]
   },
 };

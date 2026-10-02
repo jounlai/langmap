@@ -657,6 +657,7 @@ WORDS.silk = {
     mns: ["я̄рмак", "jaːrmak"],
     sjd: ["цуӆӆк", "tsuɬːk"],
     cuk: ["seda", "seda"],
-    gun: ["seda", "ˈseda"]
+    gun: ["seda", "ˈseda"],
+    bts: ["sitora", "sitora"]
   }
 };

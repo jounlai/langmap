@@ -1052,6 +1052,7 @@ WORDS.head = {
     alq: ["oshtigwàn", "ɔʃtiɡwaːn"],
     kmu: ["anu", "anu"],
     sce: ["qiorun", "tɕiorun"],
-    toc: ["akgxakga", "aqʃaqa"]
+    toc: ["akgxakga", "aqʃaqa"],
+    dak: ["phá", "pʰá"]
   },
 };

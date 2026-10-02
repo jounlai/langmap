@@ -1055,6 +1055,13 @@ WORDS.iron = {
     ake: ["waʼka pun", "waʔka pun"],
     roo: ["ain", "ain"],
     alq: ["pìwàbik", "piːwaːbik"],
-    toc: ["likán", "likán"]
+    toc: ["likán", "likán"],
+    agq: ["ubvūʼ", "ubvūʔ"],
+    bsq: ["nɛɛ̀-kpà", "nɛɛ̀kpà"],
+    tsj: ["per", "peɾ"],
+    bej: ["diit", "diːt"],
+    dsh: ["sibil", "sibil"],
+    tdh: ["सेल", "sel"],
+    yrl: ["feru", "ˈfeɾu"]
   },
 };

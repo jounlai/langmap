@@ -1055,6 +1055,11 @@ WORDS.milk = {
     acn: ["nau35", "nau˧˥"],
     blt: ["ꪶꪙꪣ", "nom˥"],
     mpj: ["ngama", "ŋama"],
-    alq: ["tòdòshànàbò", "tɔːdɔːʃaːnaːbɔː"]
+    alq: ["tòdòshànàbò", "tɔːdɔːʃaːnaːbɔː"],
+    ahk: ["a coe", "a˨˩tɕø˥"],
+    dru: ["mireke", "miɾəkə"],
+    nlc: ["moum soub", "moum soub"],
+    bej: ["aat", "aːt"],
+    mch: ["shuushu", "ʃuːʃu"]
   },
 };

@@ -1089,6 +1089,9 @@ WORDS.rain = {
     cay: ["ohsda:ʼ", "ohsdaːʔ"],
     wym: ["raan", "raːn"],
     dtp_kzj: ["rasam", "rasam"],
-    xav: ["tã", "tã"]
+    xav: ["tã", "tã"],
+    ahk: ["u yeh", "u˨˩jɛ˥"],
+    tsj: ["ngamsu", "ŋamsu"],
+    nlc: ["mok", "mok"]
   },
 };

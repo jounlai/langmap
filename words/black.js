@@ -1152,6 +1152,10 @@ WORDS.black = {
     xsr: ["ནག་པུ", "nakpu"],
     alq: ["makadewà", "makadewaː"],
     sce: ["khara", "kʰara"],
-    toc: ["tsitsekge", "tsitseqe"]
+    toc: ["tsitsekge", "tsitseqe"],
+    zne: ["bibiri", "bibiɾi"],
+    bej: ["hadal", "hadal"],
+    dsh: ["ongʼor", "oŋor"],
+    hif: ["kariya", "kərijaː"]
   },
 };

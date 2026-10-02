@@ -1091,6 +1091,9 @@ WORDS.daughter = {
     jio: ["tʰiəku", "tʰiək˩u˥"],
     roo: ["oviiva", "oβiːβa"],
     ivv: ["anak a mavakes", "anak a mavakɨs"],
-    sce: ["oqin", "otɕin"]
+    sce: ["oqin", "otɕin"],
+    kfa: ["ಮೋವ", "moːva"],
+    nlc: ["gelma", "ɡelma"],
+    dsh: ["ini", "ini"]
   },
 };

@@ -1211,6 +1211,9 @@ WORDS.salt = {
     gsw_als: ["Sàlz", "sɒlts"],
     orh: ["katagan", "kataɡan"],
     jio: ["nɔːu", "nɔːu˩"],
-    alq: ["shìwitàgan", "ʃiːwitaːɡan"]
+    alq: ["shìwitàgan", "ʃiːwitaːɡan"],
+    tsj: ["incha", "intɕʰa"],
+    bej: ["miilak", "miːlak"],
+    dur: ["ta̧m", "tãm"]
   },
 };

@@ -966,6 +966,13 @@ WORDS.person = {
     blt: ["ꪶꪁꪙ", "kon˥"],
     jio: ["tʰai", "tʰai˥"],
     mey: ["إنسان", "ʔinsaːn"],
-    ake: ["kaʼpon", "kaʔpon"]
+    ake: ["kaʼpon", "kaʔpon"],
+    kfa: ["ಮನುಷ್ಯ", "manuʂja"],
+    lrc: ["انسان", "ensɒn"],
+    kfy: ["आदिमी", "aːdimiː"],
+    dru: ["umawmase", "umawmasə"],
+    nlc: ["nim", "nim"],
+    aln: ["njeri", "ɲɛˈɾi"],
+    dur: ["nánán", "nanan"]
   }
 };

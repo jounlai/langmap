@@ -944,6 +944,10 @@ WORDS.snow = {
     agr: ["nieve", "ˈnjebe"],
     izz: ["aka-mini-sunoo", "aka mini sunoː"],
     usp: ["chun tew", "tʃun tew"],
-    ake: ["sino", "sino"]
+    ake: ["sino", "sino"],
+    asu: ["chasheru", "tʃaʃeru"],
+    kfa: ["ಮಂಜ್", "maɲdʒɨ"],
+    bts: ["salju", "saldʒu"],
+    mtq: ["tuyết", "twiət"]
   }
 };

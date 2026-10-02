@@ -1137,6 +1137,12 @@ WORDS.bird = {
     kwk: ["pʼipʼaƛʼumas", "pʼipʼatɬʼumas"],
     sel: ["суры", "surɨ"],
     ake: ["toron", "toɾon"],
-    sce: ["bunzhu", "bundʐu"]
+    sce: ["bunzhu", "bundʐu"],
+    ahk: ["a ji", "a˥dʑi˥"],
+    drs: ["ciʼa", "tʃʼiʔa"],
+    lun: ["kajila", "kadʒila"],
+    hif: ["chirriya", "tʃiɽijaː"],
+    cjm: ["ꨌꨳꨪꩌ", "ciːm"],
+    dur: ["nɔ́g waa", "nɔɡ waː"]
   },
 };

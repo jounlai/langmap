@@ -1092,6 +1092,10 @@ WORDS.hundred = {
     kpf: ["handeret", "handeret"],
     tue: ["cien", "sjen"],
     bzh: ["mehödahis nemadvahi", "meʁɔⁿdaʁitʃ nəmaⁿdβaʁi"],
-    pbb: ["cien", "sjen"]
+    pbb: ["cien", "sjen"],
+    gej: ["eka eve takpo", "eka eve takpo"],
+    aln: ["njiqind", "ɲiˈcind"],
+    cjm: ["ꨣꨪꨓꨭꩍ", "rituh"],
+    nus: ["kuɔ̱r", "kuɔr"]
   },
 };

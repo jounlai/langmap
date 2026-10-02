@@ -963,6 +963,13 @@ WORDS.horse = {
     ake: ["kaware", "kawaɾe"],
     kmh: ["kaj hos", "kadʒ hos"],
     mcf: ["cabayo", "kabajo"],
-    roo: ["hos", "hos"]
+    roo: ["hos", "hos"],
+    kfa: ["ಕುದ್ರೆ", "kudre"],
+    wls: ["hōsi", "hoːsi"],
+    dru: ["rigi", "ɾiɡi"],
+    nlc: ["abaksin pam", "abaksin pam"],
+    aln: ["kal", "kal"],
+    dsh: ["farich", "faritʃ"],
+    dur: ["goʼoy", "ɡoʔoj"]
   }
 };

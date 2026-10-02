@@ -1030,6 +1030,12 @@ WORDS.new = {
     xsr: ["གསམ་པ", "samba"],
     ake: ["emennaʼ", "emennaʔ"],
     crx: ["ʼandidi", "ʔandidi"],
-    alq: ["oshki", "ɔʃki"]
+    alq: ["oshki", "ɔʃki"],
+    dak: ["téča", "tétʃa"],
+    kfy: ["नय्या", "nəjːaː"],
+    nlc: ["wenyok", "wenjok"],
+    dsh: ["kaana", "kaːna"],
+    hif: ["nawa", "nəʋaː"],
+    mch: ["eduuwaato", "eduːwaːto"]
   }
 };

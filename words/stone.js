@@ -1131,6 +1131,11 @@ WORDS.stone = {
     kwk: ["tʼisa̱m", "tʼisəm"],
     jio: ["siːn", "siːn˥"],
     xav: ["ẽne", "ɛ̃ˈne"],
-    kmu: ["yafa", "jafa"]
+    kmu: ["yafa", "jafa"],
+    ahk: ["ka lo", "kʰa˨˩lo˧"],
+    dsh: ["waar", "waːr"],
+    fia: ["kid", "kid"],
+    nus: ["päm", "pam"],
+    pot: ["sen", "sɛn"]
   },
 };

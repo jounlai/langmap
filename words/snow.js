@@ -878,7 +878,7 @@ WORDS.snow = {
     bug: ["salejju", "salədʒːu"],
     ace: ["salju", "saldʒu"],
     wbm: ["rhax", "r̥aʔ"],
-    wal: ["shachcha", "ʃatʃːa"],
+    wal: ["suuppa shachcha", "suːpːa ʃatʃːa"],
     nd: ["iliqhwa", "iliǃʰwa"],
     ksw: ["မူခိၣ်ဖီ", "mukʰopʰɔ"],
     pwo: ["မူၭခိၪဖီၫ", "mouʔ kʰo pʰau"],

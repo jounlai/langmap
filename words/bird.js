@@ -906,7 +906,7 @@ WORDS.bird = {
     hni: ["alzil", "a˥˥dzi˥˥"],
     // Tai nok, in each row's own script
     khb: ["ᦷᦓᧅ", "nok"],
-    blt: ["ꪶꪙꪀ", "nok˦"],
+    blt: ["ꪶꪙꪀ", "noʔ˦"],
     jio: ["nɔːk", "nɔːk˥˧"],
 
     // --- Sinitic — 鸟 read with the 泥母 initial, so the tone is the lower 上聲

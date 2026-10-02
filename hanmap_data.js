@@ -8817,7 +8817,7 @@ const HAN_DATA = {
       "nan_te": "nêg8",
       "nan_hai": "hiɔk8",
       "cdo": "nṳ̆k",
-      "cpx": "ni̍k",
+      "cpx": "ce̤̍h",
       "mnp": "nṳ̀",
       "wuu": "gnioq8",
       "wuu_nb": "gnioq8",
@@ -8933,7 +8933,7 @@ const HAN_DATA = {
       "nan_te": "nek̚˦",
       "nan_hai": "hiɔk̚˧",
       "cdo": "nyʔ˥",
-      "cpx": "nyʔ˨˦",
+      "cpx": "tsœʔ˦",
       "mnp": "ny˦˨",
       "wuu": "ɲioʔ˩˨",
       "wuu_nb": "ȵyoʔ˩˨",
@@ -41570,6 +41570,20 @@ const HAN_VARIANTS = {
     ]
   },
   "肉": {
+    "cpx": [
+      {
+        "native": "",
+        "surface": "ne̤̍h",
+        "ipa": "nœʔ˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ce̤̍h",
+        "ipa": "tsœʔ˦",
+        "label": "文讀"
+      }
+    ],
     "nan_th": [
       {
         "native": "",

@@ -755,7 +755,7 @@ WORDS.mother = {
     acu: ["nukur", "nukuɾ"],
     car: ["sano", "sano"],
     pbb: ["mama", "mama"],
-    gum: ["mama", "mama"],
+    gum: ["usri", "uʂi"],
     arn: ["ñuke", "ɲuke"],
     cr: ["ᓂᑲᐎᕀ", "nikaːwij"],
     chp: ["ená", "ená"],

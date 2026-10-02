@@ -763,7 +763,7 @@ WORDS.tree = {
     acu: ["numi", "numi"],
     car: ["wewe", "wewe"],
     pbb: ["kli", "kli"],
-    gum: ["yu", "ju"],
+    gum: ["tusr", "tuʂ"],
     arn: ["aliwen", "aliwen"],
     cr: ["ᒥᐢᑎᐠ", "mistik"],
     chp: ["tθʼen", "tθʼen"],

@@ -639,7 +639,7 @@ WORDS.blue = {
     orh: "distinct",
     os: "grue",
     osa: "grue",
-    otq: "distinct",
+    otq: "grue", // route was distinct (r39 2026-10-03)
     pa: "distinct",
     pag: "borrowed",
     pam: "borrowed",
@@ -1356,7 +1356,7 @@ WORDS.blue = {
     orh: ["tʃaŋgɛ:n", "tʃaŋɡɛːn"],  // WOLD gives Oroqen tʃaŋgɛ:n and ʃɪ:la for blue, both scored as showing no evidence of borrowing. WOLD supplies no orthography and the row's other colour cells are in a phonemic Latin transcription, so the surface repeats the transcription.
     os: ["цъӕх", "tsʼæx"],  // Ossetian цъæх is given for BOTH blue and green in IDS and in NorthEuraLex — one term across the cool range; кæрдæгхуыз 'grass-coloured' is the descriptive green.
     osa: ["htóho", "htóho"],  // The CSD's Osage entry itself is glossed simply 'blue'; the class comes from the cognate set, whose other Dhegiha members are glossed 'blue, green'.
-    otq: ["kꞌangi", "kʼaŋi"],  // CROSS-VARIETY: WOLD's Otomi is Mezquital Otomi (ote), not Querétaro Otomi (otq). k'angi is pan-Otomian (cf. Mazahua canga in the WCS). Recorded as distinct, not grue, because WOLD gives a separate green lexeme k'ants'i for the same variety.
+    otq: ["kꞌangi", "kʼaŋi"],  // CROSS-VARIETY: WOLD's Otomi is Mezquital Otomi (ote), not Querétaro Otomi (otq). k'angi is pan-Otomian (cf. Mazahua canga in the WCS). Recorded as distinct, not grue, because WOLD gives a separate green lexeme k'ants'i for the same variety. Correction (2026-10-03, r39): the Querétaro Otomi NT itself uses kꞌangi for green things (REV 9:4), green grass (MRK 6:39, REV 8:7), emerald (REV 4:3), sapphire (REV 21:19) and jacinth (REV 9:17) — one word for blue and green — so the route is now grue; WOLD's separate green word is Mezquital's.
     pa: ["ਨੀਲਾ", "niːlaː"],  // Punjabi ਨੀਲਾ against ਹਰਾ, the same Indo-Aryan nīla-/harita- pair as Hindi.
     pag: ["asul", "ʔaˈsul"],  // Spanish loan (azul). Benton's red/white/black (ambalañgá, amputí, andekét) match this row's existing cells, so asúl is from the same source and register. Wiktionary's pag 'pasiseng' is green, not blue. The older Diccionario pangasinan-español (Fernández Cosgaya 1865) has 'Color azul — Inanágan', an inherited term Benton no longer lists.
     pam: ["asul", "aˈsul"],  // Camaya (2001), https://archive.org/download/rosettaproject_pam_color-1/rosettaproject_pam_color-1_djvu.txt, gives 'blue- iro, asul' beside 'red - malutu', 'black - matuling', 'white - maputi' (exactly this row's cells), and pam.wikipedia titles its blue article 'Iro' ("Ing iro o kaya azul (English: blue) metung yang tinduk ning kule"). But neither Forman (1971) nor Bergaño (1860) has an iro entry — Bergaño's Spanish side has only 'Azul, y pelo. Trao.' — so asul is the form the dictionaries support. If the atlas prefers the native/revived term, iro (ma-iro) is the alternative.

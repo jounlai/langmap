@@ -92,7 +92,6 @@ const EXCEPTIONS = new Set([
   'yue_gz|女',   // 化州 nʋ̩j2 陰上 35, as the MCPDict table lists
   'yue_gz|兒',   // 化州 ȵi1 陰平 52, as listed
   'nan_sg|雨',   // Hokkien vernacular 雨 hōo is 陽去 (次濁上 白讀 -> 陽去), not 上
-  'cpx|肉',      // row reads ˨˦, the Xianyou 陽入 value, not Putian ˦ — pre-existing; flagged in RESUME for a Puxian check
   'cjy_xz|虎',
   'cjy_xz|火',
   // 中国语言地图集 dialect points (provisional, fragmentary):

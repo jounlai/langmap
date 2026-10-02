@@ -832,6 +832,7 @@ WORDS.green = {
     tab: ["чруб", "tʃrub"],
     ngu: ["xoxojki", "ʃoˈʃohki"],
     xsr: ["ལྗང་སྨུ", "dʑaŋmu"],
-    ssw: ["luhlata", "luɬaːta"]
+    ssw: ["luhlata", "luɬaːta"],
+    maz: ["cʼanga", "kʼaŋɡa"]
   }
 };

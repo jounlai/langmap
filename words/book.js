@@ -625,7 +625,7 @@ WORDS.book = {
     tcy: ["ಪುಸ್ತಕ", "pustaka"],
     drs: ["maxaafa", "matʼaːfa"],
     tmh: ["ⵍⴽⵜⵜⴰⴱ", "əlkəttab"],
-    tig: ["ከተብ", "katab"],
+    tig: ["ክታብ", "kɨtab"],
     sco: ["buik", "bjʌk"],
     rgn: ["lìvar", "ˈlivaɾ"],
     tsg: ["būk", "buːk"],

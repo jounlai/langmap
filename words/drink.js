@@ -762,7 +762,7 @@ WORDS.drink = {
     acu: ["umarta", "umaɾta"],
     car: ["ëne", "ɘne"],
     pbb: ["ɨçx", "ɨçʰ"],
-    gum: ["ushi", "uʃi"],
+    gum: ["muchib", "mutʃip"],
     arn: ["pütun", "pɨtun"],
     cr: ["ᒥᓂᐦᐠᐌᐤ", "minihkweːw"],
     chp: ["ɂıdla", "ʔidla"],

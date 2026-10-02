@@ -766,7 +766,7 @@ WORDS.father = {
     acu: ["apar", "apaɾ"],
     car: ["papa", "papa"],
     pbb: ["tata", "tata"],
-    gum: ["tata", "tata"],
+    gum: ["møskai", "məskai"],
     arn: ["chao", "tʃao"],
     cr: ["ᓄᐦᑖᐎᕀ", "noːhtaːwij"],
     chp: ["etá", "etá"],

@@ -5,18 +5,18 @@
     <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HanMap — Han Character Pronunciation Atlas (104 chars × 113 languages)</title>
-    <meta name="description" content="Interactive Sinosphere atlas of 104 Han characters (一二三, 日月山, 龍虎犬, 人手足, 上下中, 行来去, 大白黑, 我你家…) pronounced across 113 languages and variants — Mandarin, Cantonese, Min Nan/Hokkien (POJ), Hakka, Wu/Shanghainese, Japanese on-yomi (呉音/漢音/唐音) and kun-yomi, Sino-Korean (한자음), Sino-Vietnamese (Hán-Việt), plus Old Chinese, Middle Chinese, Tang and Song reconstructions — with IPA, Pinyin, Jyutping, Hangul.">
+    <title>HanMap — Han Character Pronunciation Atlas (104 chars × 110 languages)</title>
+    <meta name="description" content="Interactive Sinosphere atlas of 104 Han characters (一二三, 日月山, 龍虎犬, 人手足, 上下中, 行来去, 大白黑, 我你家…) pronounced across 110 languages and variants — Mandarin, Cantonese, Min Nan/Hokkien (POJ), Hakka, Wu/Shanghainese, Japanese on-yomi (呉音/漢音/唐音) and kun-yomi, Sino-Korean (한자음), Sino-Vietnamese (Hán-Việt), plus Old Chinese, Middle Chinese, Tang and Song reconstructions — with IPA, Pinyin, Jyutping, Hangul.">
     <meta name="keywords" content="Han characters, kanji, hanja, hán tự, Han character pronunciation, IPA, Sinosphere, Sino-Japanese, Sino-Korean, Sino-Vietnamese, on-yomi, kun-yomi, 呉音, 漢音, 唐音, Jyutping, Pinyin, POJ, Middle Chinese, Old Chinese, historical phonology">
     <meta name="author" content="Jounlai Cho, Heuron Inc.">
-    <meta property="og:title" content="HanMap — Han Character Pronunciation Atlas (104 chars × 113 languages)">
-    <meta property="og:description" content="104 Han characters × 113 languages and variants — Mandarin, Cantonese, Min, Hakka, Wu, Japanese on/kun, Korean, Vietnamese, plus Old Chinese, Middle Chinese, Tang and Song reconstructions.">
+    <meta property="og:title" content="HanMap — Han Character Pronunciation Atlas (104 chars × 110 languages)">
+    <meta property="og:description" content="104 Han characters × 110 languages and variants — Mandarin, Cantonese, Min, Hakka, Wu, Japanese on/kun, Korean, Vietnamese, plus Old Chinese, Middle Chinese, Tang and Song reconstructions.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://langmaps.com/hanmap.html">
     <meta property="og:image" content="https://langmaps.com/ogp-hanmap.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="HanMap showing regional readings of the character for mountain across 113 languages and variants">
+    <meta property="og:image:alt" content="HanMap showing regional readings of the character for mountain across 110 languages and variants">
     <meta property="og:site_name" content="LangMap">
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="ja_JP">
@@ -24,7 +24,7 @@
     <meta property="og:locale:alternate" content="zh_CN">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HanMap — Han Character Pronunciation Atlas">
-    <meta name="twitter:description" content="104 Han characters × 113 languages and variants across the Sinosphere — IPA, Pinyin, Jyutping, POJ, Hangul, Hán-Việt, on/kun yomi.">
+    <meta name="twitter:description" content="104 Han characters × 110 languages and variants across the Sinosphere — IPA, Pinyin, Jyutping, POJ, Hangul, Hán-Việt, on/kun yomi.">
     <meta name="twitter:image" content="https://langmaps.com/ogp-hanmap.png">
     <meta name="twitter:creator" content="@jounlai">
     <link rel="canonical" href="https://langmaps.com/hanmap.html">
@@ -44,7 +44,7 @@
         "@type": "WebPage",
         "name": "HanMap: Han Character Pronunciation Atlas",
         "url": "https://langmaps.com/hanmap.html",
-        "description": "104 Han characters in 113 Sinosphere language and variant pronunciations — IPA, Pinyin, Jyutping, Sino-Korean, Sino-Vietnamese, Old and Middle Chinese reconstructions.",
+        "description": "104 Han characters in 110 Sinosphere language and variant pronunciations — IPA, Pinyin, Jyutping, Sino-Korean, Sino-Vietnamese, Old and Middle Chinese reconstructions.",
         "isPartOf": {"@id": "https://langmaps.com/#website"},
         "inLanguage": ["ja", "ko", "zh", "yue", "vi", "th", "id", "hi", "en", "de", "fr", "it", "es", "pt", "ru", "uk", "ar", "he", "sw"]
     }
@@ -3447,7 +3447,7 @@
     })();
     </script>
     <script src="wordmap_data.js?v=337"></script>
-    <script src="hanmap_data.js?v=172"></script>
+    <script src="hanmap_data.js?v=173"></script>
     <script>
         // Hanmap stubs: replace the per-word loader. wordmap.html loads
         // ~20 individual JS files under words/<id>.js (one per concept) and
@@ -3719,7 +3719,7 @@
         // Sinitic family ancestors (Old/Middle/Late Chinese reconstructions
         // plus Proto-Sino-Tibetan, Proto-Tibeto-Burman).
         const ANCIENT_SINO_CODES = [
-            'zh_han', 'zh_tang', 'zh_song', 'zh_yuan', 'zh_phagspa',
+            'zh_han', 'zh_tang', 'zh_yuan', 'zh_phagspa',
             'pst', 'ptb',
             'ko_mid', 'ja_ojp', 'vi_han', 'vi_ohan',
         ];
@@ -3744,7 +3744,7 @@
         // land in HAN_LANGS.
         const HAN_GROUPS = [
             { id: 'mandarin', family: 'sinitic',
-              modern: ['zh','zh_sc','zh_cd','zh_cq','zh_xa','zh_km','zh_jn','zh_kf','zh_hf','zh_nj','zh_jh','zh_tj','zh_lz','zh_db','zh_wh','zh_zz','zh_jiao','zh_gl','dng','zh_tw'],
+              modern: ['zh','zh_sc','zh_cd','zh_cq','zh_xa','zh_km','zh_jn','zh_kf','zh_hf','zh_nj','zh_jh','zh_tj','zh_lz','zh_db','zh_wh','zh_jiao','zh_gl','dng','zh_tw'],
               historical: ['zh_yuan','zh_phagspa'] },
             { id: 'yue', family: 'sinitic',
               modern: ['yue','yue_ts','yue_gz','yue_dg','yue_nn','yue_zs','yue_hk','yue_mo'],
@@ -3760,9 +3760,9 @@
               historical: [] },
             { id: 'sinitic_other', family: 'sinitic',
               modern: ['cjy','cjy_dt','czh','czh_jx','hsn','hsn_sf','gan','cnp','gan_yc','gan_ja','gan_fz','gan_yt','cjy_cz','cjy_lv','cjy_xz','hsn_hy','hsn_ld','czh_wy','cnp_gl'],
-              historical: ['zh_han','zh_tang','zh_song','pst'] },
+              historical: ['zh_han','zh_tang','pst'] },
             { id: 'koreanic',
-              modern: ['ko','ko_kp','ko_hun','ko_bus'],
+              modern: ['ko','ko_kp','ko_hun'],
               historical: ['ko_mid','pko'] },
             { id: 'japonic',
               modern: ['ja','ja_kun'],
@@ -7241,7 +7241,7 @@
         // non-Sinitic Sinosphere (light red-brown). See hanmapLabelColor().
         const HAN_ANCIENT_CODES = new Set([
             // Sinitic historical / reconstructed
-            'zh_han', 'zh_tang', 'zh_song', 'zh_yuan', 'zh_phagspa',
+            'zh_han', 'zh_tang', 'zh_yuan', 'zh_phagspa',
             // Sino-xenic historical
             'ko_mid', 'ja_ojp', 'vi_ohan',
             // Extinct non-Sinitic in the Sinosphere

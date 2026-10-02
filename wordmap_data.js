@@ -152,7 +152,7 @@ const LANG_DATA = {
   "pmt": { "name": "Tuamotuan", "native": "Reʻo Paʻumotu", "lat": -18.7963, "lng": -141.584 },
   "bin": { "name": "Edo", "native": "Ẹ̀dó", "lat": 6.34, "lng": 5.62 },
   "khw": { "name": "Khowar", "native": "کھوار", "lat": 35.85, "lng": 71.8 },
-  "xav": { "name": "Xavante", "native": "A'ũwe", "lat": -14.5, "lng": -52.5 },
+  "xav": { "name": "Xavante", "native": "A'uwẽ", "lat": -14.5, "lng": -52.5 },
   "ter": { "name": "Terena", "native": "Terêna", "lat": -20.32, "lng": -55.5 },
   "bor": { "name": "Bororo", "native": "Bɔrɔ", "lat": -15.8, "lng": -56.5 },
   "trn": { "name": "Trinitario Mojeño", "native": "Mojeño Trinitario", "lat": -15.33, "lng": -65.41 },

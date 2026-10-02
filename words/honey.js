@@ -659,7 +659,7 @@ WORDS.honey = {
     pjt: ["tjuratja", "ˈcuɾaca"],
     wbp: ["ngarlu", "ŋaɭu"],
     hch: ["xiete", "ʃiete"],
-    xav: ["ropĩni", "ɾopĩni"],
+    xav: ["ropĩ", "ɾɔˈpĩ"],
     cni: ["ija pitsi", "iha pitsi"],
     emp: ["urrajõ", "uraˈhõ"],
     emi: ["iruena", "iɾuena"],

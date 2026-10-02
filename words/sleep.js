@@ -1075,7 +1075,7 @@ WORDS.sleep = {
     kmh: ["wsn kn-", "wəsən kən"],
     dur: ["nə nəm", "nə nəm"],
     agq: ["bwii", "bwiː"],
-    xav: ["nhono", "ɲoˈno"],
+    xav: ["nhono", "ɲɔˈnɔ"],
     frr_amr: ["sliap", "sliɐ̯p"],
     pao: ["ɨwi", "ɨwi"],
     cro: ["hiláwe", "hiláwe"],

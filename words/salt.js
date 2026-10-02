@@ -901,7 +901,7 @@ WORDS.salt = {
     jiv: ["wee", "weː"],
     agr: ["wee", "wɨː"],
     acu: ["wee", "weː"],
-    gum: ["tre", "tɾe"],
+    gum: ["tre", "ʈʂe"],
     emp: ["tã", "tã"],
     arn: ["chadi", "tʃaði"],
     xav: ["sa", "sa"],

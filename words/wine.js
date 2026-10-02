@@ -237,7 +237,7 @@ WORDS.wine = {
     ur: "other",
     bn: "ie", // route was other (r29 2026-10-02)
     mr: "ie",
-    ta: "other",
+    ta: "ie", // route was other (r33 2026-10-02)
     te: "other",
     ml: "ie",
     kn: "ie",
@@ -449,7 +449,7 @@ WORDS.wine = {
     pnb: "other",
     skr: "other",
     sd: "other",
-    gu: "other",
+    gu: "ie", // route was other (r33 2026-10-02)
     mai: "other",
     bho: "other",
     awa: "other",
@@ -1059,7 +1059,7 @@ WORDS.wine = {
     ur: ["شراب", "ʃəraːb"],
     bn: ["ওয়াইন", "o̯ai̯n"], // was ["মদ", "mɔd"] (r29 fix 2026-10-02)
     mr: ["वाईन", "ʋaːiːn"],
-    ta: ["மது", "mad̪u"],
+    ta: ["வைன்", "ʋaɪn"], // was ["மது", "mad̪u"] (r33 fix 2026-10-02)
     te: ["ద్రాక్షారసం", "d̪raːkʂaːrasam"],
     ml: ["വീഞ്ഞ്", "ʋiːɲːɨ"],
     kn: ["ವೈನ್", "ʋain"],
@@ -1288,8 +1288,8 @@ WORDS.wine = {
     pa: ["ਵਾਈਨ", "ʋaːiːn"], // was ["ਸ਼ਰਾਬ", "ʃəraːb"] (r31 fix 2026-10-02)
     pnb: ["شراب", "ʃəraːb"],
     skr: ["شراب", "ʃəraːb"],
-    sd: ["شراب", "ʃəraːbu"],
-    gu: ["શરાબ", "ʃəraːb"],
+    sd: ["انگوري شراب", "əŋɡuːriː ʃəraːbu"], // was ["شراب", "ʃəraːbu"] (r33 fix 2026-10-02)
+    gu: ["વાઇન", "ʋaːɪn"], // was ["શરાબ", "ʃəraːb"] (r33 fix 2026-10-02)
     mai: ["शराब", "ʃəraːb"],
     bho: ["शराब", "ʃəraːb"],
     awa: ["शराब", "ʃəraːb"],

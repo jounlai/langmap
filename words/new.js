@@ -1024,7 +1024,7 @@ WORDS.new = {
     tji: ["axi", "a˨˦ɕi˥˥"],
     ude: ["имэхи", "iməxi"],
     jio: ["ɲau", "ɲau˥"],
-    xav: ["ĩté", "ĩˈte"],
+    xav: ["ĩté", "ĩˈtɛ"],
     bor: ["maiwu", "maiwu"],
     mpj: ["nyuwanpa", "ɲuwanpa"],
     xsr: ["གསམ་པ", "samba"],

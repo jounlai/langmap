@@ -1164,7 +1164,7 @@ WORDS.ear = {
     roo: ["uvareoua", "uβaɾeoua"],
     blc: ["tanksta", "tanksta"],
     jio: ["kɯkɔ", "kɯ˧˩kɔ˥"],
-    xav: ["dapoʼre", "dapoʔɾe"],
+    xav: ["dapoʼre", "dapɔˈʔɾe"],
     bor: ["bija", "bidʒa"],
     toc: ["takgén", "taqén"]
   },

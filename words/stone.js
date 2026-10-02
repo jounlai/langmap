@@ -1130,6 +1130,7 @@ WORDS.stone = {
     tue: ["ʉ̃tã", "ɨ̃tã"],
     kwk: ["tʼisa̱m", "tʼisəm"],
     jio: ["siːn", "siːn˥"],
-    xav: ["ẽne", "ẽne"]
+    xav: ["ẽne", "ɛ̃ˈne"],
+    kmu: ["yafa", "jafa"]
   },
 };

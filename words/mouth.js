@@ -872,7 +872,7 @@ WORDS.mouth = {
     jvn: ["cangkem", "tʃaŋkəm"],
     xul: ["dhambir", "d̪ambiɻ"],
     mzh: ["lakʼaj", "lakʼax"],
-    gum: ["trig", "tɾiɡ"],
+    gum: ["trig", "ʈʂiɡ"],
     arp: ["bétii", "bétiː"],
     tar: ["riní", "ɾini"],
     bzd: ["ajkö̀", "ahkø̃"],

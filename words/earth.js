@@ -968,7 +968,7 @@ WORDS.earth = {
     crn: ["chuej", "tʃweh"],
     tar: ["weʼé", "weʔe"],
     pao: ["tiipü", "tiːpɨ"],
-    kio: ["dáum", "dɔ́m"],
+    kio: ["dɔ́m", "dɔ́m"],
     wba: ["jobaji", "hobahi"],
     myp: ["bigí", "biɡí"],
     xav: ["tiʼa", "tiˈʔa"],

@@ -1071,6 +1071,13 @@ for (const code of codes) {
                 // (the table has no 你; 谢 is tsʰɛ6, not ɕie).
                 blt: new Set(['hello', 'thanks', 'love']), jio: new Set(['hello', 'thanks']),
                 czh_wy: new Set(['drink', 'hello', 'thanks']),
+                // 2026-10-02 flag round r33: xav, kio and hts re-checked against
+                // their dictionaries (SIL 1987/2004; Poolaw 2023; Miller 2019), hot and
+                // mpt against their NT and ABVD/Fedden. These cells were wrong and no
+                // source gives a replacement (mpt thanks hok is 'scorpion'; hot has no f).
+                hot: new Set(['love', 'hello', 'thanks']), mpt: new Set(['thanks']),
+                kio: new Set(['love']), xav: new Set(['cat', 'hello', 'thanks']),
+                hts: new Set(['house', 'love', 'cat', 'thanks']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

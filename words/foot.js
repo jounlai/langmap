@@ -1189,6 +1189,7 @@ WORDS.foot = {
     zu: "distinct",
     zza: "distinct",
     enf: "leg+foot",
+    hts: "leg+foot",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🦶", "en": "a word of its own", "ja": "足だけの語", "ko": "발만의 낱말", "zh": "脚有专词", "yue": "腳有專詞", "vi": "có từ riêng", "th": "มีคำเฉพาะ", "id": "punya kata sendiri", "hi": "अपना अलग शब्द", "de": "eigenes Wort", "fr": "un mot à lui", "it": "una parola propria", "es": "palabra propia", "pt": "palavra própria", "ru": "своё слово", "uk": "власне слово", "ar": "كلمة خاصة به", "he": "מילה משלה", "sw": "neno lake lenyewe"},
@@ -1607,7 +1608,7 @@ WORDS.foot = {
     hsn_hy: ["脚", "tɕio˨˨"],  // Hengyang has no 腿 at any level: the thigh is 大腳把子 and the shank 小腳把子, both built on 腳. MCPDict 衡陽 脚 tɕio7. Tone written ˨˩ with the row's own 陰入 majority (一 i˨˩, 雪 ɕye˨˩, 屋 u˨˩) — the ˨˦ on its 血 百 铁 骨 is Changsha's 24, not Hengyang's.
     hsn_yz: ["脚", "tɕio˥˦"],  // As Hengyang and Changsha. Segments from MCPDict 零陵/永州官話 腳 tɕio; tone ˥˦ with the row's 一 it˥˦ 雪 ɕye˥˦ 日 nit˥˦ 月 ŋɔ̃˥˦, which is the 53 that both published 永州土話 systems give for 入聲.
     ht: ["pye", "pje"],  // pye vs janm, following the French split.
-    hts: ["ʼupukhwa", "ʔupʰukʰʷa"],  // Bleek's Bushman Dictionary 249 glosses the Hadza stem 'leg, hind leg, foot, footprint' in one entry; pàtákùšé-yà is only the sole.
+    hts: ["uphukwa", "ʔupʰukʷa"],  // Bleek's Bushman Dictionary 249 glosses the Hadza stem 'leg, hind leg, foot, footprint' in one entry; pàtákùšé-yà is only the sole. // was ["ʼupukhwa", "ʔupʰukʰʷa"] (r33 fix 2026-10-02)
     hu: ["láb", "laːb"],  // láb covers both; lábfej ('leg-head') is the foot-specific compound and lábszár the shank. kéz/kar behaves the same on the arm.
     hui: ["ge", "ɡe"],  // The Huli Bible washes the disciples' ge at John 13:5 and lights Revelation 10:1 with it, then breaks ge kuni for the legs at John 19:31 — the bone of the ge, since John 19:36 uses kuni alone. One limb word, spelled with Franklin's g like the row's other cells, and Ezekiel 1:15 already extends it to a wheel.
     hup: ["-xeʼ", "-xeʔ"],  // The Hupa Online Dictionary heads xeʼ 'foot' with whixeʼ 'my foot', while 'leg' is only whitsʼineʼ 'my bone, leg' — so the leg word here is this row's own bone cell.
@@ -2257,7 +2258,7 @@ WORDS.foot = {
     wym: ["füs", "fys"],  // As German. IPA is the plain reading of the orthography, following how this row's own moon cell writes mün as myn.
     xag: ["tur", "tur"],  // Gippert & Schulze gloss towr 'foot, leg' and its plural towr-m-owx̣ 'feet, legs'; it is in running text at John 13:6. Written to this row's phonemic convention (kowl → kʼul, so towr → tur) and with no ejective, because the edition contrasts t with ṭ and prints plain t here.
     xal: ["көл", "køl"],  // көл covers both, as Mongolian хөл does.
-    xav: ["para", "paˈɾa"],  // Estevam's body-part list splits para 'pied' from te 'jambe (sous le genou)', the same pair Proto-Central Jê hands Xerente and Canela (IDS ii-par : ii-tɛ); the Xavante NT washes ĩ̲para but breaks bones, not legs, at John 19:32.
+    xav: ["dapara", "dapaˈɾa"],  // Estevam's body-part list splits para 'pied' from te 'jambe (sous le genou)', the same pair Proto-Central Jê hands Xerente and Canela (IDS ii-par : ii-tɛ); the Xavante NT washes ĩ̲para but breaks bones, not legs, at John 19:32. // was ["para", "paˈɾa"] (r33 fix 2026-10-02)
     xct: ["རྐང་པ", "kaŋpa"],  // Jäschke s.v. rkaṅ-pa: '1. foot — 2. leg', and his English–Tibetan side answers both Foot and Leg with rkaṅ-pa — one word for the limb, as the modern bo row. ཞབས is the honorific.
     xct_litpr: ["རྐང་པ", "kaŋpa"],  // Same cell as xct: the liturgical register's honorific substitutions stop short of body parts — this row keeps ལག་པ over ཕྱག, so it keeps རྐང་པ over ཞབས.
     xed: ["səla", "səla"],  // Frajzyngier's Hdi dictionary glosses slá 'foot; leg' in one entry, and the Hdi New Testament washes feet and breaks legs with the same səla while ghudzif stays the bone.

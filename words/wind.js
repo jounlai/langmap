@@ -1091,7 +1091,7 @@ WORDS.wind = {
     pao: ["hɨkwaba", "hɨkʷapa"],
     blt: ["ꪶꪩꪣ", "lom˥"],
     jio: ["kɯvɯat", "kɯ˧˩vɯat˥"],
-    xav: ["rowaʼu", "ɾowaʔu"],
+    xav: ["rowaʼu", "ɾɔwaˈʔu"],
     ter: ["ihunóvoti", "ihuˈnowoti"],
     ake: ["aʼsetun", "aʔsetun"],
     kmu: ["yasi", "jasi"]

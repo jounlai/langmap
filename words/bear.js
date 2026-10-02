@@ -714,7 +714,7 @@ WORDS.bear = {
     smn: "inherited",
     sms: "inherited",
     kca: "taboo",
-    mns: "coined",
+    mns: "taboo", // route was coined (r33 2026-10-02)
     sel: "inherited",
     enf: "inherited",
     ykg: "taboo",
@@ -908,7 +908,7 @@ WORDS.bear = {
     ig: ["bịa", "bɪa"],
     zne: ["urisi", "uɾisi"],
     bsk: ["ya", "ja"],
-    kio: ["àunhá:dè", "ɔ̀nháːdè"],
+    kio: ["ɔ̀nhá:dè", "ɔ̀nháːdè"], // was ["àunhá:dè", "ɔ̀nháːdè"] (r33 fix 2026-10-02)
     ja_oki: ["熊", "kuma"],
     gqu: ["ɕuŋ31", "ɕuŋ˧˩"],
     kmc: ["me55", "me˥˥"],

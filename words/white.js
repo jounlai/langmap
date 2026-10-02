@@ -97,7 +97,7 @@ WORDS.white = {
     pmt: ["tea", "tea"],
     bin: ["fua", "fua"],
     khw: ["اِشپیرو", "iʃpeːru"],
-    xav: ["ĩrã", "ĩˈɾã"],
+    xav: ["ĩʼa", "ĩˈʔa"],
     ter: ["hopúʼiti", "hoˈpuʔiti"],
     bor: ["kigadureu", "kiɡaduɾew"],
     trn: ["tjopu", "thopu"],

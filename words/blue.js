@@ -86,7 +86,7 @@ WORDS.blue = {
     kjh: "grue",
     alt: "grue",
     tk: "grue",
-    ug: "grue",
+    ug: "distinct", // route was grue (r33 2026-10-02)
     zh_wenyan_edu: "grue",
     vi_han: "grue",
     dng: "distinct",
@@ -421,7 +421,7 @@ WORDS.blue = {
     av: "distinct",
     ay: "distinct",
     az: "grue",
-    ba: "grue",
+    ba: "distinct", // route was grue (r33 2026-10-02)
     ban: "distinct",
     bdk: "distinct",
     be: "distinct",
@@ -724,7 +724,7 @@ WORDS.blue = {
     tsg: "borrowed",
     tsj: "distinct",
     tsu: "grue",
-    tt: "grue",
+    tt: "distinct", // route was grue (r33 2026-10-02)
     tvl: "distinct",
     ty: "distinct",
     tzo: "grue",

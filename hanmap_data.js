@@ -35,19 +35,19 @@
 
 
 
-const HAN_LIST = ["一","二","三","四","五","六","七","八","九","十","天","地","日","月","山","海","水","火","木","土","石","雨","雪","牛","虎","龍","馬","羊","犬","貓","鳥","魚","頭","目","耳","鼻","口","心","手","足","血","肉","人","女","兒","家","飯","茶","年","生","死","行:1","行:2","来","去","走","飛","坐","立","見","聞","知","食","飲","白","黑","紅","黃","青","大","小","多","長:1","長:2","老","遠","熱","冷","香","上","下","左","右","中:1","中:2","央","東","西","南","北","我","你","不","無","個"];
+const HAN_LIST = ["一","二","三","四","五","六","七","八","九","十","天","地","日","月","山","海","水","火","木","土","石","雨","雪","牛","虎","龍","蛇","馬","羊","雞","犬","豬","貓","鳥","魚","頭","目","耳","鼻","口","牙","心","手","足","血","肉","人","女","兒","家","門","飯","茶","錢","年","生","死","行:1","行:2","来","去","走","飛","坐","立","見","聞","知","食","飲","白","黑","紅","黃","青","綠","灰","大","小","多","長:1","長:2","老","遠","熱","冷","香","上","下","左","右","中:1","中:2","央","東","西","南","北","我","你","有","無","不","個"];
 
 const HAN_CATEGORIES = [
   {"key": "numbers", "label": {"en": "Numbers", "ja": "数字", "ko": "숫자", "zh": "数字", "yue": "數字", "vi": "Số đếm", "th": "ตัวเลข", "id": "Angka", "hi": "संख्याएँ", "de": "Zahlen", "fr": "Nombres", "it": "Numeri", "es": "Números", "pt": "Números", "ru": "Числа", "uk": "Числа", "ar": "الأعداد", "he": "מספרים", "sw": "Namba"}, "chars": ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]},
   {"key": "nature", "label": {"en": "Nature", "ja": "自然", "ko": "자연", "zh": "自然", "yue": "自然", "vi": "Thiên nhiên", "th": "ธรรมชาติ", "id": "Alam", "hi": "प्रकृति", "de": "Natur", "fr": "Nature", "it": "Natura", "es": "Naturaleza", "pt": "Natureza", "ru": "Природа", "uk": "Природа", "ar": "الطبيعة", "he": "טבע", "sw": "Maumbile"}, "chars": ["天", "地", "日", "月", "山", "海", "水", "火", "木", "土", "石", "雨", "雪"]},
-  {"key": "animals", "label": {"en": "Animals", "ja": "動物", "ko": "동물", "zh": "动物", "yue": "動物", "vi": "Động vật", "th": "สัตว์", "id": "Hewan", "hi": "जानवर", "de": "Tiere", "fr": "Animaux", "it": "Animali", "es": "Animales", "pt": "Animais", "ru": "Животные", "uk": "Тварини", "ar": "الحيوانات", "he": "בעלי חיים", "sw": "Wanyama"}, "chars": ["牛", "虎", "龍", "馬", "羊", "犬", "貓", "鳥", "魚"]},
-  {"key": "body", "label": {"en": "Body", "ja": "人体", "ko": "신체", "zh": "人体", "yue": "人體", "vi": "Cơ thể", "th": "ร่างกาย", "id": "Tubuh", "hi": "शरीर", "de": "Körper", "fr": "Corps", "it": "Corpo", "es": "Cuerpo", "pt": "Corpo", "ru": "Тело", "uk": "Тіло", "ar": "الجسم", "he": "גוף", "sw": "Mwili"}, "chars": ["頭", "目", "耳", "鼻", "口", "心", "手", "足", "血", "肉"]},
-  {"key": "life", "label": {"en": "People & life", "ja": "人と暮らし", "ko": "사람과 생활", "zh": "人与生活", "yue": "人與生活", "vi": "Con người & đời sống", "th": "ผู้คนและชีวิต", "id": "Manusia & kehidupan", "hi": "लोग और जीवन", "de": "Menschen & Alltag", "fr": "Personnes et vie", "it": "Persone e vita", "es": "Personas y vida", "pt": "Pessoas e vida", "ru": "Люди и жизнь", "uk": "Люди та життя", "ar": "الناس والحياة", "he": "אנשים וחיים", "sw": "Watu na maisha"}, "chars": ["人", "女", "兒", "家", "飯", "茶", "年", "生", "死"]},
+  {"key": "animals", "label": {"en": "Animals", "ja": "動物", "ko": "동물", "zh": "动物", "yue": "動物", "vi": "Động vật", "th": "สัตว์", "id": "Hewan", "hi": "जानवर", "de": "Tiere", "fr": "Animaux", "it": "Animali", "es": "Animales", "pt": "Animais", "ru": "Животные", "uk": "Тварини", "ar": "الحيوانات", "he": "בעלי חיים", "sw": "Wanyama"}, "chars": ["牛", "虎", "龍", "蛇", "馬", "羊", "雞", "犬", "豬", "貓", "鳥", "魚"]},
+  {"key": "body", "label": {"en": "Body", "ja": "人体", "ko": "신체", "zh": "人体", "yue": "人體", "vi": "Cơ thể", "th": "ร่างกาย", "id": "Tubuh", "hi": "शरीर", "de": "Körper", "fr": "Corps", "it": "Corpo", "es": "Cuerpo", "pt": "Corpo", "ru": "Тело", "uk": "Тіло", "ar": "الجسم", "he": "גוף", "sw": "Mwili"}, "chars": ["頭", "目", "耳", "鼻", "口", "牙", "心", "手", "足", "血", "肉"]},
+  {"key": "life", "label": {"en": "People & life", "ja": "人と暮らし", "ko": "사람과 생활", "zh": "人与生活", "yue": "人與生活", "vi": "Con người & đời sống", "th": "ผู้คนและชีวิต", "id": "Manusia & kehidupan", "hi": "लोग और जीवन", "de": "Menschen & Alltag", "fr": "Personnes et vie", "it": "Persone e vita", "es": "Personas y vida", "pt": "Pessoas e vida", "ru": "Люди и жизнь", "uk": "Люди та життя", "ar": "الناس والحياة", "he": "אנשים וחיים", "sw": "Watu na maisha"}, "chars": ["人", "女", "兒", "家", "門", "飯", "茶", "錢", "年", "生", "死"]},
   {"key": "actions", "label": {"en": "Actions", "ja": "動作", "ko": "동작", "zh": "动作", "yue": "動作", "vi": "Hành động", "th": "การกระทำ", "id": "Tindakan", "hi": "क्रियाएँ", "de": "Handlungen", "fr": "Actions", "it": "Azioni", "es": "Acciones", "pt": "Ações", "ru": "Действия", "uk": "Дії", "ar": "الأفعال", "he": "פעולות", "sw": "Vitendo"}, "chars": ["行:1", "行:2", "来", "去", "走", "飛", "坐", "立", "見", "聞", "知", "食", "飲"]},
-  {"key": "colors", "label": {"en": "Colors", "ja": "色", "ko": "색", "zh": "颜色", "yue": "顏色", "vi": "Màu sắc", "th": "สี", "id": "Warna", "hi": "रंग", "de": "Farben", "fr": "Couleurs", "it": "Colori", "es": "Colores", "pt": "Cores", "ru": "Цвета", "uk": "Кольори", "ar": "الألوان", "he": "צבעים", "sw": "Rangi"}, "chars": ["白", "黑", "紅", "黃", "青"]},
+  {"key": "colors", "label": {"en": "Colors", "ja": "色", "ko": "색", "zh": "颜色", "yue": "顏色", "vi": "Màu sắc", "th": "สี", "id": "Warna", "hi": "रंग", "de": "Farben", "fr": "Couleurs", "it": "Colori", "es": "Colores", "pt": "Cores", "ru": "Цвета", "uk": "Кольори", "ar": "الألوان", "he": "צבעים", "sw": "Rangi"}, "chars": ["白", "黑", "紅", "黃", "青", "綠", "灰"]},
   {"key": "qualities", "label": {"en": "Qualities", "ja": "様子", "ko": "성질", "zh": "性质", "yue": "性質", "vi": "Tính chất", "th": "ลักษณะ", "id": "Sifat", "hi": "गुण", "de": "Eigenschaften", "fr": "Qualités", "it": "Qualità", "es": "Cualidades", "pt": "Qualidades", "ru": "Свойства", "uk": "Властивості", "ar": "الصفات", "he": "תכונות", "sw": "Sifa"}, "chars": ["大", "小", "多", "長:1", "長:2", "老", "遠", "熱", "冷", "香"]},
   {"key": "direction", "label": {"en": "Direction", "ja": "方角・位置", "ko": "방향·위치", "zh": "方位", "yue": "方位", "vi": "Phương hướng", "th": "ทิศทาง", "id": "Arah", "hi": "दिशा", "de": "Richtung", "fr": "Direction", "it": "Direzione", "es": "Dirección", "pt": "Direção", "ru": "Направление", "uk": "Напрямок", "ar": "الاتجاه", "he": "כיוון", "sw": "Mwelekeo"}, "chars": ["上", "下", "左", "右", "中:1", "中:2", "央", "東", "西", "南", "北"]},
-  {"key": "grammar", "label": {"en": "Pronouns, negation & counters", "ja": "代名詞・否定・助数詞", "ko": "대명사·부정·분류사", "zh": "代词·否定·量词", "yue": "代詞·否定·量詞", "vi": "Đại từ, phủ định, lượng từ", "th": "สรรพนาม ปฏิเสธ ลักษณนาม", "id": "Kata ganti, negasi, penggolong", "hi": "सर्वनाम, निषेध, परिमाणवाचक", "de": "Pronomen, Verneinung, Zählwörter", "fr": "Pronoms, négation, classificateurs", "it": "Pronomi, negazione, classificatori", "es": "Pronombres, negación, clasificadores", "pt": "Pronomes, negação, classificadores", "ru": "Местоимения, отрицание, счётные слова", "uk": "Займенники, заперечення, лічильні слова", "ar": "الضمائر والنفي والمصنِّفات", "he": "כינויים, שלילה ומסווגים", "sw": "Viwakilishi, ukanushaji, viainishi"}, "chars": ["我", "你", "不", "無", "個"]}
+  {"key": "grammar", "label": {"en": "Pronouns, negation & counters", "ja": "代名詞・否定・助数詞", "ko": "대명사·부정·분류사", "zh": "代词·否定·量词", "yue": "代詞·否定·量詞", "vi": "Đại từ, phủ định, lượng từ", "th": "สรรพนาม ปฏิเสธ ลักษณนาม", "id": "Kata ganti, negasi, penggolong", "hi": "सर्वनाम, निषेध, परिमाणवाचक", "de": "Pronomen, Verneinung, Zählwörter", "fr": "Pronoms, négation, classificateurs", "it": "Pronomi, negazione, classificatori", "es": "Pronombres, negación, clasificadores", "pt": "Pronomes, negação, classificadores", "ru": "Местоимения, отрицание, счётные слова", "uk": "Займенники, заперечення, лічильні слова", "ar": "الضمائر والنفي والمصنِّفات", "he": "כינויים, שלילה ומסווגים", "sw": "Viwakilishi, ukanushaji, viainishi"}, "chars": ["我", "你", "有", "無", "不", "個"]}
 ];
 
 const HAN_DATA = {
@@ -22152,6 +22152,1919 @@ const HAN_DATA = {
       "zh_phagspa": "ꡛꡧꡦ",
       "dng": "щүә"
     }
+  },
+  "綠": {
+    "surface": {
+      "ptung": "*ɲoŋa",
+      "ptb": "*s-riŋ ⪤ *s-r(y)aŋ",
+      "ptai": "*xiəw.A",
+      "pst": "*sreŋ",
+      "pmgl": "*noguxan",
+      "mnc": "niowanggiyan",
+      "za_sd": "heu",
+      "vi_s": "Lục",
+      "vi_c": "Lục",
+      "vi": "Lục",
+      "ko_hun": "pureul",
+      "ko_kp": "rok",
+      "ko": "nok",
+      "ja_ojp": "roku",
+      "ja_kun": "midori",
+      "nan_th": "leʔ⁵",
+      "mnz": "ly",
+      "nan_hai": "lok7",
+      "cpx": "le̤̍h",
+      "mnp": "lṳ̀",
+      "cdo": "lṳ̆k",
+      "nan_lei": "log4",
+      "nan_te": "lêg8",
+      "nan_sg": "li̍k",
+      "nan_pn": "li̍k",
+      "nan_zz": "lio̍k",
+      "nan_qz": "lio̍k",
+      "nan_xm": "lio̍k",
+      "nan": "lio̍k",
+      "hak_hy": "luk⁵⁵",
+      "hak_hl": "liu̍k",
+      "hak_tw": "liug6",
+      "hak_mz": "liu̍k",
+      "hak_cn": "liu̍k",
+      "yue_zs": "luk6",
+      "yue_ts": "luuk5",
+      "yue_nn": "luk6",
+      "yue_dg": "luk6",
+      "yue_mo": "luk6",
+      "yue_hk": "luk6",
+      "yue": "luk6",
+      "cnp_gl": "li¹³",
+      "cnp": "lœk²⁴",
+      "czh_jx": "nɤʔ³²",
+      "czh_wy": "lɑ⁵¹",
+      "czh": "lu²²",
+      "hsn_ld": "leuu³⁵",
+      "hsn_sf": "lə̯u¹³",
+      "hsn_hy": "lu¹¹²",
+      "hsn": "lou²⁴",
+      "gan_yt": "liuʔ⁵",
+      "gan_fz": "tiuʔ³²",
+      "gan_ja": "ly³³⁴",
+      "gan_yc": "luʔ⁴",
+      "gan": "liuʔ⁵",
+      "wuu_qt": "lioʔ³¹",
+      "wuu_wz": "lo²¹³",
+      "wuu_sz": "loq8",
+      "wuu_nb": "loq8",
+      "wuu_jx": "loq7",
+      "wuu_jh": "loq²¹²",
+      "wuu_hz": "loq8",
+      "wuu": "loq8",
+      "zh_phagspa": "ly",
+      "zh_yuan": "ly4",
+      "zh_tang": "liuok",
+      "zh_han": "*pə.rok",
+      "dng": "lyu¹",
+      "cjy_dt": "ly²⁴",
+      "cjy_xz": "luəʔ⁴³",
+      "cjy_lv": "luəʔ²³",
+      "cjy_cz": "lyɛʔ⁵³",
+      "cjy": "lueh²",
+      "zh_xa": "liuq²¹",
+      "zh_wh": "nou²¹³",
+      "zh_tj": "lü⁵³",
+      "zh_nj": "luq⁵",
+      "zh_lz": "nu¹³",
+      "zh_km": "lu³¹",
+      "zh_kf": "lü²⁴",
+      "zh_jn": "lu²¹",
+      "zh_jiao": "lü⁴²",
+      "zh_hf": "luq⁴",
+      "zh_gl": "lu³¹",
+      "zh_db": "lü⁵³",
+      "zh_cq": "lu²¹",
+      "zh_sc": "nu²¹",
+      "zh_cd": "nu²¹",
+      "zh_tw": "lǜ",
+      "zh": "lǜ"
+    },
+    "ipa": {
+      "ptung": "*ɲoŋa",
+      "ptb": "*s-riŋ ⪤ *s-r(y)aŋ",
+      "ptai": "*xiəw˧",
+      "pst": "*sreŋ",
+      "pmgl": "*noɣuxan",
+      "mnc": "niowaŋɡijan",
+      "za_sd": "heːu˨˦",
+      "vi_s": "luk͡p˨˩ʔ",
+      "vi_c": "luk͡p˨˩ʔ",
+      "vi": "luk͡p˧ˀ˨ʔ",
+      "ko_hun": "pʰuɾɯl",
+      "ko_kp": "ɾok̚",
+      "ko": "nok̚",
+      "ja_ojp": "roku",
+      "ja_kun": "midoɾi",
+      "nan_th": "leʔ˥",
+      "mnz": "ly˥˦",
+      "nan_hai": "lok̚˥",
+      "cpx": "lœʔ˦",
+      "mnp": "ly˦˨",
+      "cdo": "lyʔ˥",
+      "nan_lei": "lɔk̚˥",
+      "nan_te": "lek̚˦",
+      "nan_sg": "lek̚˦˧",
+      "nan_pn": "lek̚˦",
+      "nan_zz": "liɔk̚˩˨˩",
+      "nan_qz": "liɔk̚˨˦",
+      "nan_xm": "liɔk̚˦",
+      "nan": "liɔk̚˦",
+      "hak_hy": "luk̚˥˥",
+      "hak_hl": "liuk̚˨",
+      "hak_tw": "liuk̚˥",
+      "hak_mz": "liuk̚˥",
+      "hak_cn": "liuk̚˥",
+      "yue_zs": "lʊk̚˧",
+      "yue_ts": "lɵk̚˧˨",
+      "yue_nn": "lʊk̚˨",
+      "yue_dg": "lok̚˧",
+      "yue_mo": "lʊk̚˨",
+      "yue_hk": "lʊk̚˨",
+      "yue": "lʊk̚˨",
+      "cnp_gl": "li˩˧",
+      "cnp": "lœk̚˨˦",
+      "czh_jx": "nɤʔ˧˨",
+      "czh_wy": "lɑ˥˩",
+      "czh": "lu˨˨",
+      "hsn_ld": "lɤu̯˧˥",
+      "hsn_sf": "lə̯u˩˧",
+      "hsn_hy": "lu˩˩˨",
+      "hsn": "ləu˨˦",
+      "gan_yt": "liuʔ˥",
+      "gan_fz": "tiuʔ˧˨",
+      "gan_ja": "ly˧˧˦",
+      "gan_yc": "luʔ˦",
+      "gan": "liuʔ˥",
+      "wuu_qt": "lioʔ˧˩",
+      "wuu_wz": "lo˨˩˧",
+      "wuu_sz": "loʔ˨˧",
+      "wuu_nb": "loʔ˩˨",
+      "wuu_jx": "loʔ˥",
+      "wuu_jh": "loʔ˨˩˨",
+      "wuu_hz": "loʔ˨",
+      "wuu": "loʔ˩˨",
+      "zh_phagspa": "lɥu",
+      "zh_yuan": "ly˥˩",
+      "zh_tang": "liuok̚",
+      "zh_han": "*pə.rok",
+      "dng": "lju˦",
+      "cjy_dt": "ly˨˦",
+      "cjy_xz": "luəʔ˦˧",
+      "cjy_lv": "luəʔ˨˧",
+      "cjy_cz": "lyɛʔ˥˧",
+      "cjy": "luəʔ˨",
+      "zh_xa": "liɤu˨˩",
+      "zh_wh": "nou˨˩˧",
+      "zh_tj": "ly˥˧",
+      "zh_nj": "luʔ˥",
+      "zh_lz": "nu˩˧",
+      "zh_km": "lu˧˩",
+      "zh_kf": "ly˨˦",
+      "zh_jn": "lu˨˩",
+      "zh_jiao": "ly˦˨",
+      "zh_hf": "luəʔ˦",
+      "zh_gl": "lu˧˩",
+      "zh_db": "ly˥˧",
+      "zh_cq": "lu˨˩",
+      "zh_sc": "nu˨˩",
+      "zh_cd": "nu˨˩",
+      "zh_tw": "ly˥˩",
+      "zh": "ly˥˩"
+    },
+    "en": {
+      "gloss": "green",
+      "pinyin_simple": "lǜ"
+    },
+    "native": {
+      "mnc": "ᠨᡳᠣᠸᠠᠩᡤᡳᠶᠠᠨ",
+      "za_sd": "𫇯",
+      "vi_s": "lục",
+      "vi_c": "lục",
+      "vi": "lục",
+      "ko_hun": "푸를",
+      "ko_kp": "록",
+      "ko": "녹",
+      "ja_ojp": "ロク",
+      "ja_kun": "みどり",
+      "zh_phagspa": "ꡙꡦꡟ",
+      "dng": "лю"
+    }
+  },
+  "灰": {
+    "surface": {
+      "ptb": "*pla",
+      "ptai": "*daw.B",
+      "pst": "*pla",
+      "pmgl": "*hünesün",
+      "phm": "*tshju̯əiX",
+      "mnc": "fulenggi",
+      "za_sd": "daeuh",
+      "vi_nom": "tro",
+      "vi_s": "Hôi",
+      "vi_c": "Hôi",
+      "vi": "Hôi",
+      "ko_mid": "hwoy",
+      "ko_hun": "jae",
+      "ko_kp": "hoe",
+      "ko": "hoe",
+      "ja_ojp": "kwe",
+      "ja_kun": "hai",
+      "nan_th": "hue³³",
+      "msj": "fuæ⁵⁵",
+      "mnz": "hue",
+      "nan_hai": "hui1",
+      "cpx": "hoi",
+      "mnp": "hó",
+      "cdo": "huŏi",
+      "nan_lei": "hui1",
+      "nan_te": "hui1",
+      "nan_pn": "hue",
+      "nan_zz": "hue",
+      "nan_qz": "hue",
+      "nan_xm": "hue",
+      "nan": "he",
+      "hak_hy": "fɔi³³",
+      "hak_hl": "fôi",
+      "hak_tw": "foi1",
+      "hak_mz": "fôi",
+      "hak_cn": "fôi",
+      "yue_zs": "hui1",
+      "yue_ts": "foi1",
+      "yue_nn": "fui1",
+      "yue_dg": "fi1",
+      "yue_mo": "fui1",
+      "yue_hk": "fui1",
+      "yue": "fui1",
+      "cnp_gl": "fu³⁵",
+      "cnp": "hui⁵³",
+      "czh_jx": "fa³¹",
+      "czh_wy": "xɤ⁴⁴",
+      "czh": "xuɛ³¹",
+      "hsn_ld": "hue⁴⁴",
+      "hsn_sf": "xue⁵⁵",
+      "hsn_hy": "fei⁴⁴⁵",
+      "hsn": "fei³³",
+      "gan_yt": "fɵi³³",
+      "gan_fz": "foi³¹",
+      "gan_ja": "fei³³⁴",
+      "gan_yc": "fi³⁵",
+      "gan": "fuai⁴²",
+      "wuu_qt": "xuæi⁴⁴⁵",
+      "wuu_wz": "fai³³",
+      "wuu_sz": "hue1",
+      "wuu_nb": "huei1",
+      "wuu_jx": "hue1",
+      "wuu_jh": "xui³³⁴",
+      "wuu_hz": "huei1",
+      "wuu": "hue1",
+      "zh_phagspa": "xwi",
+      "zh_yuan": "xuei1",
+      "zh_tang": "xwoj¹²³",
+      "zh_han": "*m̥ˤə",
+      "dng": "huei¹",
+      "cjy_dt": "xuɛe³¹",
+      "cjy_xz": "xuei³¹³",
+      "cjy_lv": "xuɐɪ²⁴",
+      "cjy_cz": "xuei³¹²",
+      "cjy": "xuei¹¹",
+      "zh_xa": "hui²¹",
+      "zh_wh": "hui⁵⁵",
+      "zh_tj": "hui²¹",
+      "zh_nj": "hui³¹",
+      "zh_lz": "hui³¹",
+      "zh_km": "hui⁴⁴",
+      "zh_kf": "hui²⁴",
+      "zh_jn": "hui²¹³",
+      "zh_jiao": "hui²¹³",
+      "zh_hf": "hui²¹",
+      "zh_gl": "hui⁴⁴",
+      "zh_db": "hui⁵⁵",
+      "zh_cq": "hui⁵⁵",
+      "zh_sc": "hui⁵⁵",
+      "zh_cd": "hui⁵⁵",
+      "zh_tw": "huī",
+      "zh": "huī"
+    },
+    "ipa": {
+      "ptb": "*pla",
+      "ptai": "*daw˨",
+      "pst": "*pla",
+      "pmgl": "*hynesyn",
+      "phm": "*tshju̯əiX",
+      "mnc": "fuləŋɡi",
+      "za_sd": "tau˧",
+      "vi_nom": "tʂɔ˧˧",
+      "vi_s": "hoj˧˧",
+      "vi_c": "hoj˧˨",
+      "vi": "hoj˧˧",
+      "ko_mid": "hoj˩",
+      "ko_hun": "tɕɛ",
+      "ko_kp": "hwe",
+      "ko": "hwe",
+      "ja_ojp": "kwe",
+      "ja_kun": "hai",
+      "nan_th": "hue˧˧",
+      "msj": "fuæ˥˥",
+      "mnz": "hue˦˨",
+      "nan_hai": "hui˨˧",
+      "cpx": "huei˥˧˧",
+      "mnp": "xo˥˦",
+      "cdo": "hui˥˥",
+      "nan_lei": "hui˧˥",
+      "nan_te": "hui˧˧",
+      "nan_pn": "hue˧˧",
+      "nan_zz": "hue˦˦",
+      "nan_qz": "hue˧˧",
+      "nan_xm": "hue˦˦",
+      "nan": "he˦˦",
+      "hak_hy": "fɔi˧˧",
+      "hak_hl": "foi˥˧",
+      "hak_tw": "foi˨˦",
+      "hak_mz": "foi˦˦",
+      "hak_cn": "foi˦˦",
+      "yue_zs": "hui˥˥",
+      "yue_ts": "fᵘɔi˧˧",
+      "yue_nn": "fui˥˥",
+      "yue_dg": "fi˨˧",
+      "yue_mo": "fuːi˥",
+      "yue_hk": "fuːi˥",
+      "yue": "fuːi˥",
+      "cnp_gl": "fu˧˥",
+      "cnp": "hui˥˧",
+      "czh_jx": "fa˧˩",
+      "czh_wy": "xɤ˦˦",
+      "czh": "xuɛ˧˩",
+      "hsn_ld": "xu̯e̞˦˦",
+      "hsn_sf": "xue˥˥",
+      "hsn_hy": "fei˦˦˥",
+      "hsn": "fei˧˧",
+      "gan_yt": "fɵi˧˧",
+      "gan_fz": "foi˧˩",
+      "gan_ja": "fei˧˧˦",
+      "gan_yc": "fi˧˥",
+      "gan": "fuai˦˨",
+      "wuu_qt": "xuæi˦˦˥",
+      "wuu_wz": "fai˧˧",
+      "wuu_sz": "huᴇ˦˦",
+      "wuu_nb": "huɐɪ˥˧",
+      "wuu_jx": "hue˥˩",
+      "wuu_jh": "xui˧˧˦",
+      "wuu_hz": "huei˧˧",
+      "wuu": "huɛ˥˧",
+      "zh_phagspa": "xwi",
+      "zh_yuan": "xuei˥",
+      "zh_tang": "xwoɪ˩˨˧",
+      "zh_han": "*m̥ˤə",
+      "dng": "xuei˦",
+      "cjy_dt": "xuɛe˧˩",
+      "cjy_xz": "xuei˧˩˧",
+      "cjy_lv": "xuɐɪ˨˦",
+      "cjy_cz": "xuei˧˩˨",
+      "cjy": "xueɪ˩˩",
+      "zh_xa": "xuei˨˩",
+      "zh_wh": "xuei˥˥",
+      "zh_tj": "xuei˨˩",
+      "zh_nj": "xuəi˧˩",
+      "zh_lz": "xuei˧˩",
+      "zh_km": "xuəe˦˦",
+      "zh_kf": "xuei˨˦",
+      "zh_jn": "xuei˨˩˧",
+      "zh_jiao": "xue˨˩˧",
+      "zh_hf": "xuɪ˨˩",
+      "zh_gl": "xuəi˦˦",
+      "zh_db": "xuei˥˥",
+      "zh_cq": "xuei˥˥",
+      "zh_sc": "xuei˥˥",
+      "zh_cd": "xuei˥˥",
+      "zh_tw": "xueɪ˥˥",
+      "zh": "xueɪ˥˥"
+    },
+    "en": {
+      "gloss": "grey; ash",
+      "pinyin_simple": "huī"
+    },
+    "native": {
+      "mnc": "ᡶ᠋ᡠᠯᡝᠩᡤᡳ",
+      "za_sd": "𭴧",
+      "vi_nom": "𱪵",
+      "vi_s": "hôi",
+      "vi_c": "hôi",
+      "vi": "hôi",
+      "ko_mid": "회",
+      "ko_hun": "재",
+      "ko_kp": "회",
+      "ko": "회",
+      "ja_ojp": "クヱ",
+      "ja_kun": "はい",
+      "zh_phagspa": "ꡜꡟꡠ",
+      "dng": "хуэй"
+    }
+  },
+  "雞": {
+    "surface": {
+      "txg": "wor1",
+      "ptung": "*tiaku",
+      "ptb": "*k-rak",
+      "ptai": "*kaj.B",
+      "pmgl": "*takixa",
+      "paa": "*ʔiər",
+      "mnc": "coko",
+      "za_sd": "gaeq",
+      "vi_nom": "gà",
+      "vi_s": "Kê",
+      "vi_c": "Kê",
+      "vi": "Kê",
+      "ko_mid": "kyey",
+      "ko_hun": "dak",
+      "ko_kp": "kye",
+      "ko": "gye",
+      "ja_ojp": "ke",
+      "ja_kun": "niwatori",
+      "nan_th": "koi³³",
+      "msj": "ki⁵⁵",
+      "mnz": "ke",
+      "nan_hai": "kɔi1",
+      "cpx": "ga̤",
+      "mnp": "gái",
+      "cdo": "giĕ",
+      "nan_lei": "gi1",
+      "nan_te": "goi1",
+      "nan_sg": "kue",
+      "nan_pn": "ke",
+      "nan_zz": "ke",
+      "nan_qz": "ke",
+      "nan_xm": "ke",
+      "nan": "kue",
+      "hak_hy": "kai³³",
+      "hak_hl": "kâi",
+      "hak_tw": "gie1",
+      "hak_mz": "kê",
+      "hak_cn": "kê",
+      "yue_zs": "gai1",
+      "yue_ts": "gai1",
+      "yue_nn": "gai1",
+      "yue_dg": "goi1",
+      "yue_mo": "gai1",
+      "yue_hk": "gai1",
+      "yue": "gai1",
+      "cnp_gl": "kei³⁵",
+      "cnp": "kɐi⁵³",
+      "czh_jx": "tsɿ³¹",
+      "czh_wy": "tɕi⁴⁴",
+      "czh": "tɕi³¹",
+      "hsn_ld": "ji⁴⁴",
+      "hsn_sf": "tɕi⁵⁵",
+      "hsn_hy": "tɕi⁴⁴⁵",
+      "hsn": "ji³³",
+      "gan_yt": "tɕi³³",
+      "gan_fz": "tɕi³¹",
+      "gan_ja": "tɕi³³⁴",
+      "gan_yc": "tʃɿ³⁵",
+      "gan": "tɕi⁴²",
+      "wuu_qt": "tsɿ⁴⁴⁵",
+      "wuu_wz": "tsy³³",
+      "wuu_sz": "ci1",
+      "wuu_nb": "ci3",
+      "wuu_jx": "ci1",
+      "wuu_jh": "jie³³⁴",
+      "wuu_hz": "ci1",
+      "wuu": "ci1",
+      "zh_phagspa": "gji",
+      "zh_yuan": "ki1",
+      "zh_tang": "kej¹²³",
+      "zh_han": "*kˤe",
+      "dng": "ji¹",
+      "cjy_dt": "tɕi³¹",
+      "cjy_xz": "tɕi³¹³",
+      "cjy_lv": "tsɿ²⁴",
+      "cjy_cz": "tɕi³¹²",
+      "cjy": "ji¹¹",
+      "zh_xa": "ji²¹",
+      "zh_wh": "ji⁵⁵",
+      "zh_tj": "ji²¹",
+      "zh_nj": "ji³¹",
+      "zh_lz": "ji³¹",
+      "zh_km": "ji⁴⁴",
+      "zh_kf": "ji²⁴",
+      "zh_jn": "ji²¹³",
+      "zh_jiao": "ji²¹³",
+      "zh_hf": "zi²¹",
+      "zh_gl": "gi⁴⁴",
+      "zh_db": "ji⁵⁵",
+      "zh_cq": "ji⁵⁵",
+      "zh_sc": "ji⁵⁵",
+      "zh_cd": "ji⁵⁵",
+      "zh_tw": "jī",
+      "zh": "jī"
+    },
+    "ipa": {
+      "txg": "wor˩",
+      "ptung": "*tiaku",
+      "ptb": "*k-rak",
+      "ptai": "*kaj˨",
+      "pmgl": "*takixa",
+      "paa": "*ʔiər",
+      "mnc": "tʃoko",
+      "za_sd": "kai˧˥",
+      "vi_nom": "ɣaː˨˩",
+      "vi_s": "ke˧˧",
+      "vi_c": "ke˧˨",
+      "vi": "ke˧˧",
+      "ko_mid": "kjəj˩",
+      "ko_hun": "tak̚",
+      "ko_kp": "kje",
+      "ko": "kje",
+      "ja_ojp": "ke",
+      "ja_kun": "niwatoɾi",
+      "nan_th": "koi˧˧",
+      "msj": "ki˥˥",
+      "mnz": "ke˦˨",
+      "nan_hai": "kɔi˨˧",
+      "cpx": "ke˥˧˧",
+      "mnp": "kai˥˦",
+      "cdo": "kie˥˥",
+      "nan_lei": "ki˧˥",
+      "nan_te": "koi˧˧",
+      "nan_sg": "kue˦˦",
+      "nan_pn": "ke˧˧",
+      "nan_zz": "ke˦˦",
+      "nan_qz": "ke˧˧",
+      "nan_xm": "ke˦˦",
+      "nan": "kue˦˦",
+      "hak_hy": "kai˧˧",
+      "hak_hl": "kai˥˧",
+      "hak_tw": "kie˨˦",
+      "hak_mz": "ke˦˦",
+      "hak_cn": "ke˦˦",
+      "yue_zs": "kɐi˥˥",
+      "yue_ts": "kai˧˧",
+      "yue_nn": "kɐi˥˥",
+      "yue_dg": "kɔi˨˧",
+      "yue_mo": "kɐi˥",
+      "yue_hk": "kɐi˥",
+      "yue": "kɐi˥",
+      "cnp_gl": "kei˧˥",
+      "cnp": "kɐi˥˧",
+      "czh_jx": "tsɿ˧˩",
+      "czh_wy": "tɕi˦˦",
+      "czh": "tɕi˧˩",
+      "hsn_ld": "tɕi˦˦",
+      "hsn_sf": "tɕi˥˥",
+      "hsn_hy": "tɕi˦˦˥",
+      "hsn": "tɕi˧˧",
+      "gan_yt": "tɕi˧˧",
+      "gan_fz": "tɕi˧˩",
+      "gan_ja": "tɕi˧˧˦",
+      "gan_yc": "tʃɿ˧˥",
+      "gan": "tɕi˦˨",
+      "wuu_qt": "tsɿ˦˦˥",
+      "wuu_wz": "tsɿ˧˧",
+      "wuu_sz": "tɕi˦˦",
+      "wuu_nb": "tɕi˧˥",
+      "wuu_jx": "tɕi˥˩",
+      "wuu_jh": "tɕie˧˧˦",
+      "wuu_hz": "tɕi˧˧",
+      "wuu": "tɕi˥˧",
+      "zh_phagspa": "ki",
+      "zh_yuan": "ki˥",
+      "zh_tang": "kei˩˨˧",
+      "zh_han": "*kˤe",
+      "dng": "tɕi˦",
+      "cjy_dt": "tɕi˧˩",
+      "cjy_xz": "tɕi˧˩˧",
+      "cjy_lv": "tsɿ˨˦",
+      "cjy_cz": "tɕi˧˩˨",
+      "cjy": "tɕi˩˩",
+      "zh_xa": "tɕi˨˩",
+      "zh_wh": "tɕi˥˥",
+      "zh_tj": "tɕi˨˩",
+      "zh_nj": "tɕi˧˩",
+      "zh_lz": "tɕi˧˩",
+      "zh_km": "tɕi˦˦",
+      "zh_kf": "tɕi˨˦",
+      "zh_jn": "tɕi˨˩˧",
+      "zh_jiao": "tɕi˨˩˧",
+      "zh_hf": "tsɿ˨˩",
+      "zh_gl": "ki˦˦",
+      "zh_db": "tɕi˥˥",
+      "zh_cq": "tɕi˥˥",
+      "zh_sc": "tɕi˥˥",
+      "zh_cd": "tɕi˥˥",
+      "zh_tw": "tɕi˥˥",
+      "zh": "tɕi˥˥"
+    },
+    "en": {
+      "gloss": "chicken",
+      "pinyin_simple": "jī"
+    },
+    "native": {
+      "txg": "𗀝",
+      "mnc": "ᠴᠣᡴᠣ",
+      "za_sd": "䲸",
+      "vi_nom": "鷄",
+      "vi_s": "kê",
+      "vi_c": "kê",
+      "vi": "kê",
+      "ko_mid": "계",
+      "ko_hun": "닭",
+      "ko_kp": "계",
+      "ko": "계",
+      "ja_ojp": "ケ",
+      "ja_kun": "にわとり",
+      "zh_phagspa": "ꡂꡦꡞ",
+      "dng": "җи"
+    }
+  },
+  "豬": {
+    "surface": {
+      "txg": "gju1",
+      "ptung": "*ulgian",
+      "ptb": "*pʷak",
+      "ptai": "*hmuː.A",
+      "pst": "*C-pək",
+      "pmgl": "*gakai",
+      "paa": "*lik",
+      "mnc": "ulgiyan",
+      "juc": "ulgiyan",
+      "za_sd": "mou",
+      "vi_nom": "lợn",
+      "vi_s": "Trư",
+      "vi_c": "Trư",
+      "vi": "Trư",
+      "ko_hun": "dwaeji",
+      "ko_kp": "chŏ",
+      "ko": "jeo",
+      "ja_ojp": "tyo",
+      "ja_kun": "inoshishi",
+      "nan_th": "tɤ³³",
+      "msj": "tʃy⁵⁵",
+      "mnz": "tʃy",
+      "nan_hai": "ɗu1",
+      "cpx": "dṳ",
+      "mnp": "kṳ̌",
+      "cdo": "dṳ̆",
+      "nan_lei": "du1",
+      "nan_te": "de1",
+      "nan_sg": "tir",
+      "nan_pn": "tu",
+      "nan_zz": "ti",
+      "nan_qz": "tir",
+      "nan_xm": "ti",
+      "nan": "tu",
+      "hak_hy": "tsu³³",
+      "hak_hl": "zhû",
+      "hak_tw": "zu1",
+      "hak_mz": "chû",
+      "hak_cn": "chû",
+      "yue_zs": "zyu1",
+      "yue_ts": "zi1",
+      "yue_nn": "zyu1",
+      "yue_dg": "zyu1",
+      "yue_mo": "zyu1",
+      "yue_hk": "zyu1",
+      "yue": "zyu1",
+      "cnp_gl": "tiə³⁵",
+      "cnp": "tʃy⁵³",
+      "czh_jx": "tɕy³¹",
+      "czh_wy": "tɕy⁴⁴",
+      "czh": "tɕy³¹",
+      "hsn_ld": "jy⁴⁴",
+      "hsn_sf": "ty⁵⁵",
+      "hsn_hy": "tɕy⁴⁴⁵",
+      "hsn": "jy³³",
+      "gan_yt": "tu³³",
+      "gan_fz": "tu³¹",
+      "gan_ja": "ty³³⁴",
+      "gan_yc": "tʃy³⁵",
+      "gan": "tɕy⁴²",
+      "wuu_qt": "ɗi⁴⁴⁵",
+      "wuu_wz": "tsei³³",
+      "wuu_sz": "tsyu1",
+      "wuu_nb": "tsyu3",
+      "wuu_jx": "tsyu1",
+      "wuu_jh": "jy³³⁴",
+      "wuu_hz": "tsyu1",
+      "wuu": "tsy1",
+      "zh_phagspa": "ǰy",
+      "zh_yuan": "tʂy1",
+      "zh_tang": "ʈiɔ¹²³",
+      "zh_han": "*tra",
+      "dng": "ju¹",
+      "cjy_dt": "tʂu³¹",
+      "cjy_xz": "tsu³¹³",
+      "cjy_lv": "tsu²⁴",
+      "cjy_cz": "tsu³¹²",
+      "cjy": "zu¹¹",
+      "zh_xa": "pfu²¹",
+      "zh_wh": "ju⁵⁵",
+      "zh_tj": "zhu²¹",
+      "zh_nj": "zhu³¹",
+      "zh_lz": "pfu³¹",
+      "zh_km": "zhu⁴⁴",
+      "zh_kf": "zhu²⁴",
+      "zh_jn": "zhu²¹³",
+      "zh_jiao": "zhu²¹³",
+      "zh_hf": "zhu²¹",
+      "zh_gl": "zü⁴⁴",
+      "zh_db": "zhu⁵⁵",
+      "zh_cq": "zu⁵⁵",
+      "zh_sc": "zu⁵⁵",
+      "zh_cd": "zu⁵⁵",
+      "zh_tw": "zhū",
+      "zh": "zhū"
+    },
+    "ipa": {
+      "txg": "ɡju˩",
+      "ptung": "*ulɡian",
+      "ptb": "*pʷak",
+      "ptai": "*hmuː˧",
+      "pst": "*C-pək",
+      "pmgl": "*ɡakaj",
+      "paa": "*lik",
+      "mnc": "ulɡijan",
+      "juc": "ulɡijan",
+      "za_sd": "mou˨˦",
+      "vi_nom": "ləːn˧ˀ˨ʔ",
+      "vi_s": "ʈɨ˧˧",
+      "vi_c": "tʂɨ˧˨",
+      "vi": "tʂɨ˧˧",
+      "ko_hun": "twɛdʑi",
+      "ko_kp": "tsʌ",
+      "ko": "tɕʌ",
+      "ja_ojp": "tʲo",
+      "ja_kun": "inoɕiɕi",
+      "nan_th": "tɤ˧˧",
+      "msj": "tʃy˥˥",
+      "mnz": "tʃy˦˨",
+      "nan_hai": "ɗu˨˧",
+      "cpx": "ty˥˧˧",
+      "mnp": "kʰy˨˩",
+      "cdo": "ty˥˥",
+      "nan_lei": "tu˧˥",
+      "nan_te": "tɯ˧˧",
+      "nan_sg": "tɯ˦˦",
+      "nan_pn": "tu˧˧",
+      "nan_zz": "ti˦˦",
+      "nan_qz": "tɯ˧˧",
+      "nan_xm": "ti˦˦",
+      "nan": "tu˦˦",
+      "hak_hy": "tsu˧˧",
+      "hak_hl": "tʃu˥˧",
+      "hak_tw": "tsu˨˦",
+      "hak_mz": "tsu˦˦",
+      "hak_cn": "tsu˦˦",
+      "yue_zs": "tsy˥˥",
+      "yue_ts": "tsi˧˧",
+      "yue_nn": "tʃy˥˥",
+      "yue_dg": "tʃy˨˧",
+      "yue_mo": "tsyː˥",
+      "yue_hk": "tsyː˥",
+      "yue": "tsyː˥",
+      "cnp_gl": "tiə˧˥",
+      "cnp": "tʃy˥˧",
+      "czh_jx": "tɕy˧˩",
+      "czh_wy": "tɕy˦˦",
+      "czh": "tɕy˧˩",
+      "hsn_ld": "tɕy˦˦",
+      "hsn_sf": "ty˥˥",
+      "hsn_hy": "tɕy˦˦˥",
+      "hsn": "tɕy˧˧",
+      "gan_yt": "tu˧˧",
+      "gan_fz": "tu˧˩",
+      "gan_ja": "ty˧˧˦",
+      "gan_yc": "tʃy˧˥",
+      "gan": "tɕy˦˨",
+      "wuu_qt": "ɗi˦˦˥",
+      "wuu_wz": "tsei˧˧",
+      "wuu_sz": "tsʮ˦˦",
+      "wuu_nb": "tsʮ˧˥",
+      "wuu_jx": "tsʮ˥˩",
+      "wuu_jh": "tɕy˧˧˦",
+      "wuu_hz": "tsʮ˧˧",
+      "wuu": "tsɿ˥˧",
+      "zh_phagspa": "tʂɥu",
+      "zh_yuan": "tʂy˥",
+      "zh_tang": "ʈiɔ˩˨˧",
+      "zh_han": "*tra",
+      "dng": "tʂu˦",
+      "cjy_dt": "tʂu˧˩",
+      "cjy_xz": "tsu˧˩˧",
+      "cjy_lv": "tsu˨˦",
+      "cjy_cz": "tsu˧˩˨",
+      "cjy": "tsu˩˩",
+      "zh_xa": "pfu˨˩",
+      "zh_wh": "tɕy˥˥",
+      "zh_tj": "tʂu˨˩",
+      "zh_nj": "tʂu˧˩",
+      "zh_lz": "pfv̩˧˩",
+      "zh_km": "tʂu˦˦",
+      "zh_kf": "tʂu˨˦",
+      "zh_jn": "tʂu˨˩˧",
+      "zh_jiao": "tʃu˨˩˧",
+      "zh_hf": "tʂʉ˨˩",
+      "zh_gl": "tsy˦˦",
+      "zh_db": "tʂu˥˥",
+      "zh_cq": "tsu˥˥",
+      "zh_sc": "tsu˥˥",
+      "zh_cd": "tsu˥˥",
+      "zh_tw": "tsu˥˥",
+      "zh": "tʂu˥˥"
+    },
+    "en": {
+      "gloss": "pig",
+      "pinyin_simple": "zhū"
+    },
+    "native": {
+      "txg": "𗘅",
+      "mnc": "ᡠᠯᡤᡳᠶᠠᠨ",
+      "juc": "—",
+      "za_sd": "𭸘",
+      "vi_nom": "𤞼",
+      "vi_s": "trư",
+      "vi_c": "trư",
+      "vi": "trư",
+      "ko_hun": "돼지",
+      "ko_kp": "저",
+      "ko": "저",
+      "ja_ojp": "チョ",
+      "ja_kun": "いのしし",
+      "zh_phagspa": "ꡆꡦꡟ",
+      "dng": "җў"
+    }
+  },
+  "蛇": {
+    "surface": {
+      "txg": "phio2",
+      "sjo": "meihe",
+      "ptung": "*müikī",
+      "ptb": "*s-b/m-ruːl",
+      "ptai": "*ŋwɯː.A",
+      "pst": "*s-mrul",
+      "phm": "*ʔnaŋ",
+      "paa": "*bsaɲ",
+      "mnc": "meihe",
+      "juc": "meihe",
+      "za_sd": "ngwz",
+      "vi_nom": "rắn",
+      "vi_s": "Xà",
+      "vi_c": "Xà",
+      "vi": "Xà",
+      "ko_hun": "baem",
+      "ko_kp": "sa",
+      "ko": "sa",
+      "ja_ojp": "zya",
+      "ja_kun": "hebi",
+      "nan_th": "tsua⁵⁵",
+      "msj": "ʃe²²",
+      "mnz": "ʃya",
+      "nan_hai": "tua2",
+      "cpx": "sió̤",
+      "mnp": "ṳê",
+      "cdo": "siè",
+      "nan_lei": "se5",
+      "nan_te": "zua5",
+      "nan_pn": "tsuâ",
+      "nan_zz": "siâ",
+      "nan_qz": "siâ",
+      "nan_xm": "siâ",
+      "nan": "siâ",
+      "hak_hy": "sa¹¹",
+      "hak_hl": "sha",
+      "hak_tw": "sa2",
+      "hak_mz": "sa",
+      "hak_cn": "sà",
+      "yue_zs": "se4",
+      "yue_ts": "sie3",
+      "yue_nn": "se4",
+      "yue_dg": "soe4",
+      "yue_mo": "se4",
+      "yue_hk": "se4",
+      "yue": "se4",
+      "cnp_gl": "ʃi¹³",
+      "cnp": "ʃe²¹",
+      "czh_jx": "so⁴⁴",
+      "czh_wy": "sɛ¹¹",
+      "czh": "ɕie⁴⁴",
+      "hsn_ld": "xxio¹³",
+      "hsn_sf": "ʑio¹³",
+      "hsn_hy": "ɕie¹¹²",
+      "hsn": "she¹³",
+      "gan_yt": "sa¹³",
+      "gan_fz": "sa²⁴",
+      "gan_ja": "sa¹¹",
+      "gan_yc": "ʃa³³",
+      "gan": "sa⁴⁵",
+      "wuu_qt": "iu²¹",
+      "wuu_wz": "zei³¹",
+      "wuu_sz": "zo2",
+      "wuu_nb": "dzo2",
+      "wuu_jx": "zo2",
+      "wuu_jh": "zhie³¹³",
+      "wuu_hz": "dzuei2",
+      "wuu": "zo6",
+      "zh_phagspa": "tʂe",
+      "zh_yuan": "ʂie2",
+      "zh_tang": "ʑiæ¹²³",
+      "zh_han": "*Cə.lAj",
+      "dng": "she¹",
+      "cjy_dt": "ʂɤ³¹³",
+      "cjy_xz": "ʂɛ³¹",
+      "cjy_lv": "ɕiɛ⁴⁴",
+      "cjy_cz": "sə²⁴",
+      "cjy": "se¹¹",
+      "zh_xa": "she²⁴",
+      "zh_wh": "se²¹³",
+      "zh_tj": "she⁴⁵",
+      "zh_nj": "she²⁴",
+      "zh_lz": "she⁵³",
+      "zh_kf": "she⁴²",
+      "zh_jn": "she⁴²",
+      "zh_jiao": "she⁴²",
+      "zh_hf": "shi⁵⁵",
+      "zh_gl": "sie³¹",
+      "zh_db": "she³⁵",
+      "zh_cq": "se²¹",
+      "zh_sc": "se²¹",
+      "zh_cd": "se²¹",
+      "zh_tw": "shé",
+      "zh": "shé"
+    },
+    "ipa": {
+      "txg": "pʰio˨",
+      "sjo": "məix",
+      "ptung": "*myikiː",
+      "ptb": "*s-b/m-ruːl",
+      "ptai": "*ŋwɯː˧",
+      "pst": "*s-mrul",
+      "phm": "*ʔnaŋ",
+      "paa": "*bsaɲ",
+      "mnc": "məixə",
+      "juc": "meixe",
+      "za_sd": "ŋɯ˧˩",
+      "vi_nom": "zan˧˥",
+      "vi_s": "saː˨˩",
+      "vi_c": "saː˧˩",
+      "vi": "saː˨˩",
+      "ko_hun": "pɛm",
+      "ko_kp": "sa",
+      "ko": "sa",
+      "ja_ojp": "ʑa",
+      "ja_kun": "hebi",
+      "nan_th": "tsua˥˥",
+      "msj": "ʃe˨˨",
+      "mnz": "ʃya˧˧",
+      "nan_hai": "tua˧˩",
+      "cpx": "ɬyɒ˩˧",
+      "mnp": "yɛ˧˧",
+      "cdo": "sie˥˧",
+      "nan_lei": "sɛ˨˨",
+      "nan_te": "tsua˥˥",
+      "nan_pn": "tsua˨˧",
+      "nan_zz": "sia˩˧",
+      "nan_qz": "sia˨˦",
+      "nan_xm": "sia˨˦",
+      "nan": "sia˨˦",
+      "hak_hy": "sa˩˩",
+      "hak_hl": "ʃa˥˥",
+      "hak_tw": "sa˩˩",
+      "hak_mz": "sa˩˩",
+      "hak_cn": "sa˨˦",
+      "yue_zs": "sɛ˥˩",
+      "yue_ts": "siɛ˨˨",
+      "yue_nn": "ʃɛ˨˩",
+      "yue_dg": "ʃœ˧˩",
+      "yue_mo": "sɛː˨˩",
+      "yue_hk": "sɛː˨˩",
+      "yue": "sɛː˨˩",
+      "cnp_gl": "ʃi˩˧",
+      "cnp": "ʃe˨˩",
+      "czh_jx": "so˦˦",
+      "czh_wy": "sɛ˩˩",
+      "czh": "ɕie˦˦",
+      "hsn_ld": "ʑi̯ɔ˩˧",
+      "hsn_sf": "ʑio˩˧",
+      "hsn_hy": "ɕie˩˩˨",
+      "hsn": "ʂe˩˧",
+      "gan_yt": "sa˩˧",
+      "gan_fz": "sa˨˦",
+      "gan_ja": "sa˩˩",
+      "gan_yc": "ʃa˧˧",
+      "gan": "sa˦˥",
+      "wuu_qt": "iu˨˩",
+      "wuu_wz": "zei˧˩",
+      "wuu_sz": "zu˨˨˧",
+      "wuu_nb": "dzo˨˦",
+      "wuu_jx": "zo˧˩",
+      "wuu_jh": "ʑiᴇ˧˩˧",
+      "wuu_hz": "dzʮei˨˩˧",
+      "wuu": "zo˨˧",
+      "zh_phagspa": "dʐjɛ",
+      "zh_yuan": "ʂiɛ˧˥",
+      "zh_tang": "ʑiæ˩˨˧",
+      "zh_han": "*Cə.lAj",
+      "dng": "ʂɤ˦",
+      "cjy_dt": "ʂɤ˧˩˧",
+      "cjy_xz": "ʂɛ˧˩",
+      "cjy_lv": "ɕiɛ˦˦",
+      "cjy_cz": "sə˨˦",
+      "cjy": "sɤ˩˩",
+      "zh_xa": "ʂɤ˨˦",
+      "zh_wh": "sɤ˨˩˧",
+      "zh_tj": "ʂɤ˦˥",
+      "zh_nj": "ʂe˨˦",
+      "zh_lz": "ʂɤ˥˧",
+      "zh_kf": "ʂɛ˦˨",
+      "zh_jn": "ʂə˦˨",
+      "zh_jiao": "ʃə˦˨",
+      "zh_hf": "ʂi˥˥",
+      "zh_gl": "sie˧˩",
+      "zh_db": "ʂɤ˧˥",
+      "zh_cq": "se˨˩",
+      "zh_sc": "se˨˩",
+      "zh_cd": "se˨˩",
+      "zh_tw": "sɤ˧˥",
+      "zh": "ʂɤ˧˥"
+    },
+    "en": {
+      "gloss": "snake",
+      "pinyin_simple": "shé"
+    },
+    "native": {
+      "txg": "𗀋",
+      "sjo": "ᠮᡝᡳᡥᡝ",
+      "mnc": "ᠮᡝᡳᡥᡝ",
+      "juc": "—",
+      "za_sd": "蚅",
+      "vi_nom": "𧋻",
+      "vi_s": "xà",
+      "vi_c": "xà",
+      "vi": "xà",
+      "ko_hun": "뱀",
+      "ko_kp": "사",
+      "ko": "사",
+      "ja_ojp": "ジャ",
+      "ja_kun": "へび",
+      "zh_phagspa": "ꡄꡠ",
+      "dng": "шә"
+    }
+  },
+  "牙": {
+    "surface": {
+      "ptung": "*xǖkte",
+      "ptb": "*s-ŋya",
+      "ptai": "*ŋaː.A",
+      "pst": "*d-ŋa",
+      "pmgl": "*sidün",
+      "pja": "*pa",
+      "phm": "*hmjinX",
+      "paa": "*məɲ",
+      "mnc": "weihe",
+      "juc": "weihe",
+      "za_sd": "heuj",
+      "vi_ohan": "ngà",
+      "vi_nom": "răng",
+      "vi_s": "Nha",
+      "vi_c": "Nha",
+      "vi": "Nha",
+      "ko_mid": "nga",
+      "ko_hun": "eogeumni",
+      "ko_kp": "a",
+      "ko": "a",
+      "ja_ojp": "ge",
+      "ja_kun": "kiba",
+      "nan_th": "ŋe⁵⁵",
+      "msj": "ŋa²²",
+      "mnz": "ɡɔ",
+      "nan_hai": "za2",
+      "cpx": "gá",
+      "mnp": "ngâ",
+      "cdo": "ngà",
+      "nan_lei": "ia5",
+      "nan_te": "ghê5",
+      "nan_sg": "gê",
+      "nan_pn": "gêe",
+      "nan_zz": "gâ",
+      "nan_qz": "gâ",
+      "nan_xm": "gâ",
+      "nan": "gâ",
+      "hak_hy": "ga¹¹",
+      "hak_hl": "nga",
+      "hak_tw": "nga2",
+      "hak_mz": "nga",
+      "hak_cn": "ngà",
+      "yue_zs": "ngaa4",
+      "yue_ts": "nga3",
+      "yue_nn": "ngaa4",
+      "yue_dg": "ngaa4",
+      "yue_mo": "ngaa4",
+      "yue_hk": "ngaa4",
+      "yue": "ngaa4",
+      "cnp_gl": "ŋo¹³",
+      "cnp": "ȵa²¹",
+      "czh_jx": "ŋo⁴⁴",
+      "czh_wy": "ŋo¹¹",
+      "czh": "ŋa⁴⁴",
+      "hsn_ld": "ngo¹³",
+      "hsn_sf": "ŋo¹³",
+      "hsn_hy": "ia¹¹²",
+      "hsn": "ia¹³",
+      "gan_yt": "ŋa¹³",
+      "gan_fz": "ŋa²⁴",
+      "gan_ja": "ŋa¹¹",
+      "gan_yc": "ŋa³³",
+      "gan": "ŋa⁴⁵",
+      "wuu_qt": "ŋu²¹",
+      "wuu_wz": "ngo³¹",
+      "wuu_sz": "ya2",
+      "wuu_nb": "ngo2",
+      "wuu_jx": "gha2",
+      "wuu_jh": "ia³¹³",
+      "wuu_hz": "ya2",
+      "wuu": "ya6",
+      "zh_phagspa": "ya",
+      "zh_yuan": "ia2",
+      "zh_tang": "ŋæ¹²³",
+      "zh_han": "*m-ɢˤ<r>a",
+      "dng": "ya¹",
+      "cjy_dt": "ia³¹³",
+      "cjy_xz": "niɑ³¹",
+      "cjy_lv": "nia⁴⁴",
+      "cjy_cz": "ia²⁴",
+      "cjy": "nia¹¹",
+      "zh_xa": "nia²⁴",
+      "zh_wh": "ya²¹³",
+      "zh_tj": "ya⁴⁵",
+      "zh_nj": "ya²⁴",
+      "zh_lz": "ya⁵³",
+      "zh_km": "ya³¹",
+      "zh_kf": "ya⁴²",
+      "zh_jn": "ya⁴²",
+      "zh_jiao": "ya⁴²",
+      "zh_hf": "ya⁵⁵",
+      "zh_gl": "ya³¹",
+      "zh_db": "ya³⁵",
+      "zh_cq": "ya²¹",
+      "zh_sc": "ya²¹",
+      "zh_cd": "ya²¹",
+      "zh_tw": "yá",
+      "zh": "yá"
+    },
+    "ipa": {
+      "ptung": "*xyːkte",
+      "ptb": "*s-ŋya",
+      "ptai": "*ŋaː˧",
+      "pst": "*d-ŋa",
+      "pmgl": "*sidyn",
+      "pja": "*pa",
+      "phm": "*hmjinX",
+      "paa": "*məɲ",
+      "mnc": "wəixə",
+      "juc": "weixe",
+      "za_sd": "heːu˥",
+      "vi_ohan": "ŋaː˨˩",
+      "vi_nom": "zaŋ˧˧",
+      "vi_s": "ɲaː˧˧",
+      "vi_c": "ɲaː˧˨",
+      "vi": "ɲaː˧˧",
+      "ko_mid": "ŋa˩",
+      "ko_hun": "ʌɡɯmni",
+      "ko_kp": "a",
+      "ko": "a",
+      "ja_ojp": "ŋe",
+      "ja_kun": "kiba",
+      "nan_th": "ŋe˥˥",
+      "msj": "ŋa˨˨",
+      "mnz": "ɡɔ˧˧",
+      "nan_hai": "za˧˩",
+      "cpx": "ka˩˧",
+      "mnp": "ŋa˧˧",
+      "cdo": "ŋa˥˧",
+      "nan_lei": "ia˨˨",
+      "nan_te": "ɡe˥˥",
+      "nan_sg": "ɡe˨˦",
+      "nan_pn": "ɡɛ˨˧",
+      "nan_zz": "ɡa˩˧",
+      "nan_qz": "ɡa˨˦",
+      "nan_xm": "ɡa˨˦",
+      "nan": "ɡa˨˦",
+      "hak_hy": "ɡa˩˩",
+      "hak_hl": "ŋa˥˥",
+      "hak_tw": "ŋa˩˩",
+      "hak_mz": "ŋa˩˩",
+      "hak_cn": "ŋa˨˦",
+      "yue_zs": "ŋa˥˩",
+      "yue_ts": "ᵑɡa˨˨",
+      "yue_nn": "ŋa˨˩",
+      "yue_dg": "ŋa˧˩",
+      "yue_mo": "ŋaː˨˩",
+      "yue_hk": "ŋaː˨˩",
+      "yue": "ŋaː˨˩",
+      "cnp_gl": "ŋo˩˧",
+      "cnp": "ȵa˨˩",
+      "czh_jx": "ŋo˦˦",
+      "czh_wy": "ŋo˩˩",
+      "czh": "ŋa˦˦",
+      "hsn_ld": "ŋɔ˩˧",
+      "hsn_sf": "ŋo˩˧",
+      "hsn_hy": "ia˩˩˨",
+      "hsn": "ia˩˧",
+      "gan_yt": "ŋa˩˧",
+      "gan_fz": "ŋa˨˦",
+      "gan_ja": "ŋa˩˩",
+      "gan_yc": "ŋa˧˧",
+      "gan": "ŋa˦˥",
+      "wuu_qt": "ŋu˨˩",
+      "wuu_wz": "ŋo˧˩",
+      "wuu_sz": "ɦiɑ˨˨˧",
+      "wuu_nb": "ŋo˨˦",
+      "wuu_jx": "ɦɑ˧˩",
+      "wuu_jh": "iɑ˧˩˧",
+      "wuu_hz": "ɦiɑ˨˩˧",
+      "wuu": "ɦia˨˧",
+      "zh_phagspa": "ja",
+      "zh_yuan": "ia˧˥",
+      "zh_tang": "ŋæ˩˨˧",
+      "zh_han": "*m-ɢˤ<r>a",
+      "dng": "ja˦",
+      "cjy_dt": "ia˧˩˧",
+      "cjy_xz": "niɑ˧˩",
+      "cjy_lv": "nia˦˦",
+      "cjy_cz": "ia˨˦",
+      "cjy": "niɑ˩˩",
+      "zh_xa": "nia˨˦",
+      "zh_wh": "ia˨˩˧",
+      "zh_tj": "iɑ˦˥",
+      "zh_nj": "iɒ˨˦",
+      "zh_lz": "ia˥˧",
+      "zh_km": "iᴀ˧˩",
+      "zh_kf": "ia˦˨",
+      "zh_jn": "ia˦˨",
+      "zh_jiao": "ia˦˨",
+      "zh_hf": "jia˥˥",
+      "zh_gl": "ia˧˩",
+      "zh_db": "ia˧˥",
+      "zh_cq": "ia˨˩",
+      "zh_sc": "ia˨˩",
+      "zh_cd": "ia˨˩",
+      "zh_tw": "ja˧˥",
+      "zh": "ja˧˥"
+    },
+    "en": {
+      "gloss": "tooth",
+      "pinyin_simple": "yá"
+    },
+    "native": {
+      "mnc": "ᠸᡝᡳ᠌ᡥᡝ",
+      "juc": "—",
+      "za_sd": "𭷐",
+      "vi_nom": "𪘵",
+      "vi_s": "nha",
+      "vi_c": "nha",
+      "vi": "nha",
+      "ko_mid": "ᅌᅡ",
+      "ko_hun": "어금니",
+      "ko_kp": "아",
+      "ko": "아",
+      "ja_ojp": "ゲ",
+      "ja_kun": "きば",
+      "zh_phagspa": "ꡭ",
+      "dng": "я"
+    }
+  },
+  "錢": {
+    "surface": {
+      "txg": "dzjɨj1",
+      "mnc": "jiha",
+      "za_sd": "cienz",
+      "vi_nom": "tiền",
+      "vi_s": "Tiền",
+      "vi_c": "Tiền",
+      "vi": "Tiền",
+      "ko_mid": "ccyen",
+      "ko_hun": "don",
+      "ko_kp": "chŏn",
+      "ko": "jeon",
+      "ja_ojp": "zen",
+      "ja_kun": "zeni",
+      "nan_th": "tsʰĩ⁵⁵",
+      "msj": "tsʰiɛ̃²²",
+      "mnz": "tseiŋ",
+      "nan_hai": "tsi2",
+      "cpx": "céng",
+      "mnp": "cîng",
+      "cdo": "cièng",
+      "nan_lei": "qieng5",
+      "nan_te": "zin5",
+      "nan_my": "tsînn",
+      "nan_pn": "tsînn",
+      "nan_zz": "tsiân",
+      "nan_qz": "tsiân",
+      "nan_xm": "tsiân",
+      "nan": "tsiân",
+      "hak_hy": "tsʰen¹¹",
+      "hak_hl": "chhien",
+      "hak_tw": "qien2",
+      "hak_mz": "chhien",
+      "hak_cn": "chhièn",
+      "yue_zs": "cin4",
+      "yue_ts": "ten3",
+      "yue_nn": "cin4",
+      "yue_dg": "cin4",
+      "yue_mo": "cin4",
+      "yue_hk": "cin4",
+      "yue": "cin4",
+      "cnp_gl": "tsʰin¹³",
+      "cnp": "tʃin²¹",
+      "czh_jx": "tsʰẽi⁴⁴",
+      "czh_wy": "tsʰĩ¹¹",
+      "czh": "tsʰee⁴⁴",
+      "hsn_ld": "zzinn¹³",
+      "hsn_sf": "dzɪ̃¹³",
+      "hsn_hy": "tɕien¹¹²",
+      "hsn": "zien¹³",
+      "gan_yt": "tɕʰiɛn¹³",
+      "gan_fz": "tɕʰiɛn²⁴",
+      "gan_yc": "tsʰien³³",
+      "gan": "tɕʰiɛn²⁴",
+      "wuu_qt": "dʑiɛ²¹",
+      "wuu_wz": "dzhi³¹",
+      "wuu_sz": "zie2",
+      "wuu_nb": "ji2",
+      "wuu_jx": "jie2",
+      "wuu_jh": "dzian³¹³",
+      "wuu_hz": "jien2",
+      "wuu": "zhi6",
+      "zh_phagspa": "tsẽn",
+      "zh_yuan": "tshien2",
+      "zh_tang": "dziɛn¹²³",
+      "zh_han": "*N-ts[a][n]",
+      "dng": "chyan¹",
+      "cjy_dt": "tɕʰiɛ³¹³",
+      "cjy_xz": "tɕʰiɛ̃³¹",
+      "cjy_lv": "tɕʰiɪ⁴⁴",
+      "cjy_cz": "tɕʰiaŋ²⁴",
+      "cjy": "qhie¹¹",
+      "zh_xa": "qian²⁴",
+      "zh_wh": "qian²¹³",
+      "zh_tj": "qian⁴⁵",
+      "zh_nj": "cian²⁴",
+      "zh_lz": "qian⁵³",
+      "zh_kf": "qian⁴²",
+      "zh_jn": "qian⁴²",
+      "zh_jiao": "qian⁴²",
+      "zh_hf": "qian⁵⁵",
+      "zh_gl": "cian³¹",
+      "zh_db": "qian³⁵",
+      "zh_cq": "qian²¹",
+      "zh_sc": "qian²¹",
+      "zh_cd": "qian²¹",
+      "zh_tw": "qián",
+      "zh": "qián"
+    },
+    "ipa": {
+      "txg": "dzjɨj˩",
+      "mnc": "dʒixa",
+      "za_sd": "ɕiːn˧˩",
+      "vi_nom": "tiən˨˩",
+      "vi_s": "tiən˨˩",
+      "vi_c": "tiən˧˩",
+      "vi": "tiən˨˩",
+      "ko_mid": "ts͈jən˩",
+      "ko_hun": "ton",
+      "ko_kp": "tsʌn",
+      "ko": "tɕʌn",
+      "ja_ojp": "zen",
+      "ja_kun": "dzeni",
+      "nan_th": "tsʰĩ˥˥",
+      "msj": "tsʰiɛ̃˨˨",
+      "mnz": "tseiŋ˧˧",
+      "nan_hai": "tsi˧˩",
+      "cpx": "tsɛŋ˩˧",
+      "mnp": "tsiŋ˧˧",
+      "cdo": "tsieŋ˥˧",
+      "nan_lei": "tsʰieŋ˨˨",
+      "nan_te": "tsĩ˥˥",
+      "nan_my": "tsĩ˨˦",
+      "nan_pn": "tsĩ˨˧",
+      "nan_zz": "tsiɛn˩˧",
+      "nan_qz": "tsiɛn˨˦",
+      "nan_xm": "tsiɛn˨˦",
+      "nan": "tsiɛn˨˦",
+      "hak_hy": "tsʰen˩˩",
+      "hak_hl": "tsʰien˥˥",
+      "hak_tw": "tɕʰien˩˩",
+      "hak_mz": "tsʰien˩˩",
+      "hak_cn": "tsʰien˨˦",
+      "yue_zs": "tsʰin˥˩",
+      "yue_ts": "tʰen˨˨",
+      "yue_nn": "tʃʰin˨˩",
+      "yue_dg": "tʃʰin˧˩",
+      "yue_mo": "tsʰiːn˨˩",
+      "yue_hk": "tsʰiːn˨˩",
+      "yue": "tsʰiːn˨˩",
+      "cnp_gl": "tsʰin˩˧",
+      "cnp": "tʃin˨˩",
+      "czh_jx": "tsʰẽi˦˦",
+      "czh_wy": "tsʰĩ˩˩",
+      "czh": "tsʰee˦˦",
+      "hsn_ld": "dzĩ˩˧",
+      "hsn_sf": "dzɪ̃˩˧",
+      "hsn_hy": "tɕien˩˩˨",
+      "hsn": "tsiẽ˩˧",
+      "gan_yt": "tɕʰiɛn˩˧",
+      "gan_fz": "tɕʰiɛn˨˦",
+      "gan_yc": "tsʰien˧˧",
+      "gan": "tɕʰiɛn˨˦",
+      "wuu_qt": "dʑiɛ˨˩",
+      "wuu_wz": "dʑi˧˩",
+      "wuu_sz": "zɪ˨˨˧",
+      "wuu_nb": "dʑi˨˦",
+      "wuu_jx": "dʑie˧˩",
+      "wuu_jh": "dziã˧˩˧",
+      "wuu_hz": "dʑiᴇ̃˨˩˧",
+      "wuu": "ʑi˨˧",
+      "zh_phagspa": "dzjɛn",
+      "zh_yuan": "tsʰiɛn˧˥",
+      "zh_tang": "dziɛn˩˨˧",
+      "zh_han": "*N-ts[a][n]",
+      "dng": "tɕʰjan˦",
+      "cjy_dt": "tɕʰiɛ˧˩˧",
+      "cjy_xz": "tɕʰiɛ̃˧˩",
+      "cjy_lv": "tɕʰiɪ˦˦",
+      "cjy_cz": "tɕʰiaŋ˨˦",
+      "cjy": "tɕʰiɛ˩˩",
+      "zh_xa": "tɕʰiã˨˦",
+      "zh_wh": "tɕʰiɛn˨˩˧",
+      "zh_tj": "tɕʰian˦˥",
+      "zh_nj": "tsʰẽ˨˦",
+      "zh_lz": "tɕʰiɛ̃˥˧",
+      "zh_kf": "tɕʰian˦˨",
+      "zh_jn": "tɕʰiɛ̃˦˨",
+      "zh_jiao": "tsʰiã˦˨",
+      "zh_hf": "tɕʰĩ˥˥",
+      "zh_gl": "tsʰiẽ˧˩",
+      "zh_db": "tɕʰian˧˥",
+      "zh_cq": "tɕʰiɛn˨˩",
+      "zh_sc": "tɕʰiɛn˨˩",
+      "zh_cd": "tɕʰiɛn˨˩",
+      "zh_tw": "tɕʰjɛn˧˥",
+      "zh": "tɕʰjɛn˧˥"
+    },
+    "en": {
+      "gloss": "money",
+      "pinyin_simple": "qián"
+    },
+    "native": {
+      "txg": "𘔭",
+      "mnc": "ᠵᡳᡥᠠ",
+      "za_sd": "刄",
+      "vi_nom": "錢",
+      "vi_s": "tiền",
+      "vi_c": "tiền",
+      "vi": "tiền",
+      "ko_mid": "쪈",
+      "ko_hun": "돈",
+      "ko_kp": "전",
+      "ko": "전",
+      "ja_ojp": "ゼン",
+      "ja_kun": "ぜに",
+      "zh_phagspa": "ꡐꡠꡋ",
+      "dng": "чян"
+    }
+  },
+  "門": {
+    "surface": {
+      "txg": "mẽ1",
+      "ptung": "*örke",
+      "ptb": "*kam",
+      "ptai": "*tuː.A",
+      "pst": "*kam",
+      "pmgl": "*exüden",
+      "pja": "*to",
+      "phm": "*gru̯eŋ",
+      "mnc": "duka",
+      "juc": "uce",
+      "za_sd": "dou",
+      "vi_nom": "cửa",
+      "vi_s": "Môn",
+      "vi_c": "Môn",
+      "vi": "Môn",
+      "ko_mid": "mwon",
+      "ko_hun": "mun",
+      "ko_kp": "mun",
+      "ko": "mun",
+      "ja_ojp": "mon",
+      "ja_kun": "kado",
+      "nan_th": "muŋ⁵⁵",
+      "msj": "muĩ²²",
+      "mnz": "bueiŋ",
+      "nan_hai": "mun2",
+      "cpx": "meóng",
+      "mnp": "mô̤ng",
+      "cdo": "muòng",
+      "nan_lei": "mung5",
+      "nan_te": "mung5",
+      "nan_pn": "muî",
+      "nan_zz": "bûn",
+      "nan_qz": "bûn",
+      "nan_xm": "bûn",
+      "nan": "bûn",
+      "hak_hy": "mun¹¹",
+      "hak_hl": "mun",
+      "hak_tw": "mun2",
+      "hak_mz": "mun",
+      "hak_cn": "mùn",
+      "yue_zs": "mun4",
+      "yue_ts": "mon3",
+      "yue_nn": "mun4",
+      "yue_dg": "mun4",
+      "yue_mo": "mun4",
+      "yue_hk": "mun4",
+      "yue": "mun4",
+      "cnp": "mun²¹",
+      "czh_jx": "mɑ̃⁴⁴",
+      "czh_wy": "mɐin¹¹",
+      "czh": "mʌ̃⁴⁴",
+      "hsn_ld": "min¹³",
+      "hsn_sf": "mien¹³",
+      "hsn_hy": "min¹¹²",
+      "hsn": "men¹³",
+      "gan_yt": "min¹³",
+      "gan_fz": "mən²⁴",
+      "gan_ja": "mən¹¹",
+      "gan": "mɨn⁴⁵",
+      "wuu_qt": "maŋ²¹",
+      "wuu_wz": "mang³¹",
+      "wuu_sz": "men2",
+      "wuu_nb": "men2",
+      "wuu_jx": "men2",
+      "wuu_jh": "meng³¹³",
+      "wuu_hz": "men2",
+      "wuu": "men6",
+      "zh_phagspa": "mun",
+      "zh_yuan": "muen2",
+      "zh_tang": "mwon¹²³",
+      "zh_han": "*mˤə[r]",
+      "dng": "myn¹",
+      "cjy_dt": "məɣ³¹³",
+      "cjy_xz": "məŋ³¹",
+      "cjy_lv": "mʌŋ⁴⁴",
+      "cjy_cz": "məŋ²⁴",
+      "cjy": "meng¹¹",
+      "zh_xa": "men²⁴",
+      "zh_wh": "men²¹³",
+      "zh_tj": "men⁴⁵",
+      "zh_nj": "meng²⁴",
+      "zh_lz": "men⁵³",
+      "zh_km": "men³¹",
+      "zh_kf": "men⁴²",
+      "zh_jn": "men⁴²",
+      "zh_jiao": "men⁴²",
+      "zh_hf": "men⁵⁵",
+      "zh_gl": "men³¹",
+      "zh_db": "men³⁵",
+      "zh_cq": "men²¹",
+      "zh_sc": "men²¹",
+      "zh_cd": "men²¹",
+      "zh_tw": "mén",
+      "zh": "mén"
+    },
+    "ipa": {
+      "txg": "mẽ˩",
+      "ptung": "*œrke",
+      "ptb": "*kam",
+      "ptai": "*tuː˧",
+      "pst": "*kam",
+      "pmgl": "*exyden",
+      "pja": "*to",
+      "phm": "*gru̯eŋ",
+      "mnc": "duka",
+      "juc": "utɕe",
+      "za_sd": "tou˨˦",
+      "vi_nom": "kɨə˧˩˧",
+      "vi_s": "mon˧˧",
+      "vi_c": "mon˧˨",
+      "vi": "mon˧˧",
+      "ko_mid": "mon˩",
+      "ko_hun": "mun",
+      "ko_kp": "mun",
+      "ko": "mun",
+      "ja_ojp": "mon",
+      "ja_kun": "kado",
+      "nan_th": "muŋ˥˥",
+      "msj": "muĩ˨˨",
+      "mnz": "bueiŋ˧˧",
+      "nan_hai": "mun˧˩",
+      "cpx": "mɔŋ˩˧",
+      "mnp": "mɔŋ˧˧",
+      "cdo": "muoŋ˥˧",
+      "nan_lei": "muŋ˨˨",
+      "nan_te": "muŋ˥˥",
+      "nan_pn": "mui˨˧",
+      "nan_zz": "bun˩˧",
+      "nan_qz": "bun˨˦",
+      "nan_xm": "bun˨˦",
+      "nan": "bun˨˦",
+      "hak_hy": "mun˩˩",
+      "hak_hl": "mun˥˥",
+      "hak_tw": "mun˩˩",
+      "hak_mz": "mun˩˩",
+      "hak_cn": "mun˨˦",
+      "yue_zs": "mun˥˩",
+      "yue_ts": "ᵐbᵘɔn˨˨",
+      "yue_nn": "mun˨˩",
+      "yue_dg": "mun˧˩",
+      "yue_mo": "muːn˨˩",
+      "yue_hk": "muːn˨˩",
+      "yue": "muːn˨˩",
+      "cnp": "mun˨˩",
+      "czh_jx": "mɑ̃˦˦",
+      "czh_wy": "mɐin˩˩",
+      "czh": "mʌ̃˦˦",
+      "hsn_ld": "min˩˧",
+      "hsn_sf": "mien˩˧",
+      "hsn_hy": "min˩˩˨",
+      "hsn": "mən˩˧",
+      "gan_yt": "min˩˧",
+      "gan_fz": "mən˨˦",
+      "gan_ja": "mən˩˩",
+      "gan": "mɨn˦˥",
+      "wuu_qt": "maŋ˨˩",
+      "wuu_wz": "maŋ˧˩",
+      "wuu_sz": "mən˨˨˧",
+      "wuu_nb": "məŋ˨˦",
+      "wuu_jx": "məŋ˧˩",
+      "wuu_jh": "məŋ˧˩˧",
+      "wuu_hz": "məŋ˨˩˧",
+      "wuu": "mən˨˧",
+      "zh_phagspa": "mun",
+      "zh_yuan": "muən˧˥",
+      "zh_tang": "mwon˩˨˧",
+      "zh_han": "*mˤə[r]",
+      "dng": "mɤ̃˦",
+      "cjy_dt": "məɣ˧˩˧",
+      "cjy_xz": "məŋ˧˩",
+      "cjy_lv": "mʌŋ˦˦",
+      "cjy_cz": "məŋ˨˦",
+      "cjy": "məŋ˩˩",
+      "zh_xa": "mẽ˨˦",
+      "zh_wh": "mən˨˩˧",
+      "zh_tj": "mən˦˥",
+      "zh_nj": "məŋ˨˦",
+      "zh_lz": "mə̃˥˧",
+      "zh_km": "mə̃e˧˩",
+      "zh_kf": "mən˦˨",
+      "zh_jn": "mẽ˦˨",
+      "zh_jiao": "mə̃˦˨",
+      "zh_hf": "mən˥˥",
+      "zh_gl": "mən˧˩",
+      "zh_db": "mən˧˥",
+      "zh_cq": "mən˨˩",
+      "zh_sc": "mən˨˩",
+      "zh_cd": "mən˨˩",
+      "zh_tw": "mən˧˥",
+      "zh": "mən˧˥"
+    },
+    "en": {
+      "gloss": "door, gate",
+      "pinyin_simple": "mén"
+    },
+    "native": {
+      "txg": "𗐺",
+      "mnc": "ᡩᡠᡴᠠ",
+      "juc": "—",
+      "za_sd": "𫔯",
+      "vi_nom": "𨷶",
+      "vi_s": "môn",
+      "vi_c": "môn",
+      "vi": "môn",
+      "ko_mid": "몬",
+      "ko_hun": "문",
+      "ko_kp": "문",
+      "ko": "문",
+      "ja_ojp": "モン",
+      "ja_kun": "かど",
+      "zh_phagspa": "ꡏꡟꡋ",
+      "dng": "мын"
+    }
+  },
+  "有": {
+    "surface": {
+      "txg": "wjij2",
+      "ptung": "*bi-",
+      "ptb": "*m-dzyaŋ",
+      "ptai": "*miː.A",
+      "pja": "*ar-",
+      "mnc": "bimbi",
+      "juc": "bi-",
+      "za_sd": "miz",
+      "vi_nom": "có",
+      "vi_s": "Hữu",
+      "vi_c": "Hữu",
+      "vi": "Hữu",
+      "ko_hun": "isseul",
+      "ko_kp": "yu",
+      "ko": "yu",
+      "ja_ojp": "u",
+      "ja_kun": "aru",
+      "nan_th": "u³⁵",
+      "msj": "iu⁵¹",
+      "mnz": "iau",
+      "nan_hai": "u6",
+      "cpx": "iû",
+      "mnp": "iǔ",
+      "cdo": "īu",
+      "nan_lei": "yiu7",
+      "nan_te": "iu2",
+      "nan_pn": "ū",
+      "nan_zz": "iú",
+      "nan_qz": "iú",
+      "nan_xm": "iú",
+      "nan": "iú",
+      "hak_hy": "ziu³³",
+      "hak_hl": "yû",
+      "hak_tw": "iu1",
+      "hak_mz": "yú",
+      "hak_cn": "yú",
+      "yue_zs": "jau5",
+      "yue_ts": "yiu4",
+      "yue_nn": "jau5",
+      "yue_dg": "jaau5",
+      "yue_mo": "jau5",
+      "yue_hk": "jau5",
+      "yue": "jau5",
+      "cnp_gl": "iau³³",
+      "cnp": "jɐu²⁴",
+      "czh_jx": "ie²¹³",
+      "czh_wy": "iɑ³¹",
+      "czh": "iu³⁵",
+      "hsn_ld": "iou⁴²",
+      "hsn_sf": "iʊ³¹",
+      "hsn_hy": "iu³³",
+      "hsn": "iou⁴¹",
+      "gan_yt": "iu³⁵",
+      "gan_fz": "iu⁴⁵",
+      "gan_ja": "iu⁵³",
+      "gan_yc": "iu²¹",
+      "gan": "iu²¹³",
+      "wuu_qt": "ieu⁴⁵⁴",
+      "wuu_wz": "hhiau³⁵",
+      "wuu_sz": "yeu6",
+      "wuu_nb": "yeu6",
+      "wuu_jx": "yeu4",
+      "wuu_jh": "ieu⁵³⁵",
+      "wuu_hz": "ieu3",
+      "wuu": "yeu6",
+      "zh_phagspa": "ŋiw",
+      "zh_yuan": "ieu3",
+      "zh_tang": "ɦiuɪ²¹⁴",
+      "zh_han": "*[ɢ]ʷəʔ",
+      "dng": "yu²",
+      "cjy_dt": "iəu⁵⁴",
+      "cjy_xz": "iəu³¹³",
+      "cjy_lv": "iʌu³¹²",
+      "cjy_cz": "iəu⁵³⁴",
+      "cjy": "ieu⁵³",
+      "zh_xa": "you⁵³",
+      "zh_wh": "you⁴²",
+      "zh_tj": "you¹³",
+      "zh_nj": "you²¹²",
+      "zh_lz": "you⁴⁴²",
+      "zh_km": "you⁵³",
+      "zh_kf": "you⁵³",
+      "zh_jn": "you⁵⁵",
+      "zh_jiao": "you⁵⁵",
+      "zh_hf": "you²⁴",
+      "zh_gl": "you⁵³",
+      "zh_db": "you²¹³",
+      "zh_cq": "you⁴²",
+      "zh_sc": "you⁵³",
+      "zh_cd": "you⁵³",
+      "zh_tw": "yǒu",
+      "zh": "yǒu"
+    },
+    "ipa": {
+      "txg": "wjij˨",
+      "ptung": "*bi-",
+      "ptb": "*m-dzyaŋ",
+      "ptai": "*miː˧",
+      "pja": "*ar-",
+      "mnc": "bimbi",
+      "juc": "bi-",
+      "za_sd": "mi˧˩",
+      "vi_nom": "kɔ˧˥",
+      "vi_s": "hɨw˨˩˦",
+      "vi_c": "hɨw˨˩ˀ",
+      "vi": "hɨw˧ˀ˥",
+      "ko_hun": "is͈ɯl",
+      "ko_kp": "ju",
+      "ko": "ju",
+      "ja_ojp": "u",
+      "ja_kun": "aɾɯ",
+      "nan_th": "u˧˥",
+      "msj": "iu˥˩",
+      "mnz": "iau˨˩",
+      "nan_hai": "u˧˧",
+      "cpx": "iu˦˥˧",
+      "mnp": "iu˨˩",
+      "cdo": "ieu˧˧",
+      "nan_lei": "ziu˥˥",
+      "nan_te": "iu˥˨",
+      "nan_pn": "u˨˩",
+      "nan_zz": "iu˥˧",
+      "nan_qz": "iu˥˥˦",
+      "nan_xm": "iu˥˧",
+      "nan": "iu˥˧",
+      "hak_hy": "ziu˧˧",
+      "hak_hl": "ju˥˧",
+      "hak_tw": "ju˨˦",
+      "hak_mz": "ju˧˩",
+      "hak_cn": "ju˧˩",
+      "yue_zs": "jɐu˨˩˧",
+      "yue_ts": "jiu˨˩",
+      "yue_nn": "jɐu˨˦",
+      "yue_dg": "jau˧˦",
+      "yue_mo": "jɐu˩˧",
+      "yue_hk": "jɐu˩˧",
+      "yue": "jɐu˩˧",
+      "cnp_gl": "iau˧˧",
+      "cnp": "jɐu˨˦",
+      "czh_jx": "ie˨˩˧",
+      "czh_wy": "iɑ˧˩",
+      "czh": "iu˧˥",
+      "hsn_ld": "i̯ʊ˦˨",
+      "hsn_sf": "iʊ˧˩",
+      "hsn_hy": "iu˧˧",
+      "hsn": "iou˦˩",
+      "gan_yt": "iu˧˥",
+      "gan_fz": "iu˦˥",
+      "gan_ja": "iu˥˧",
+      "gan_yc": "iu˨˩",
+      "gan": "iu˨˩˧",
+      "wuu_qt": "ieu˦˥˦",
+      "wuu_wz": "ɦiau˧˥",
+      "wuu_sz": "ɦʏ˨˧˩",
+      "wuu_nb": "ɦiʏ˨˩˧",
+      "wuu_jx": "ɦiəu˨˩˨",
+      "wuu_jh": "iu˥˧˥",
+      "wuu_hz": "ʔʏ˥˧",
+      "wuu": "ɦiɤ˨˧",
+      "zh_phagspa": "ŋiw",
+      "zh_yuan": "iəu˨˩˦",
+      "zh_tang": "ɦiuɪ˨˩˦",
+      "zh_han": "*[ɢ]ʷəʔ",
+      "dng": "ju˨˦",
+      "cjy_dt": "iəu˥˦",
+      "cjy_xz": "iəu˧˩˧",
+      "cjy_lv": "iʌu˧˩˨",
+      "cjy_cz": "iəu˥˧˦",
+      "cjy": "iəʊ˥˧",
+      "zh_xa": "iɤu˥˧",
+      "zh_wh": "iou˦˨",
+      "zh_tj": "iou˩˧",
+      "zh_nj": "iəu˨˩˨",
+      "zh_lz": "iəu˦˦˨",
+      "zh_km": "iəu˥˧",
+      "zh_kf": "iou˥˧",
+      "zh_jn": "iou˥˥",
+      "zh_jiao": "iou˥˥",
+      "zh_hf": "jiɤɯ˨˦",
+      "zh_gl": "iəu˥˧",
+      "zh_db": "iou˨˩˧",
+      "zh_cq": "iəu˦˨",
+      "zh_sc": "iəu˥˧",
+      "zh_cd": "iəu˥˧",
+      "zh_tw": "jou˨˩˦",
+      "zh": "jou˨˩˦"
+    },
+    "en": {
+      "gloss": "have; there is",
+      "pinyin_simple": "yǒu"
+    },
+    "native": {
+      "txg": "𗁁",
+      "mnc": "ᠪᡳᠮᠪᡳ",
+      "juc": "—",
+      "za_sd": "眉",
+      "vi_nom": "固",
+      "vi_s": "hữu",
+      "vi_c": "hữu",
+      "vi": "hữu",
+      "ko_hun": "있을",
+      "ko_kp": "유",
+      "ko": "유",
+      "ja_ojp": "ウ",
+      "ja_kun": "ある",
+      "zh_phagspa": "ꡃꡞꡓ",
+      "dng": "юъ"
+    }
   }
 };
 
@@ -28296,6 +30209,1194 @@ const HAN_LANG_META = {
 const HAN_LANGS = ["gan_yc","gan_ja","gan_fz","gan_yt","cjy_cz","cjy_lv","cjy_xz","hsn_hy","czh_wy","cnp_gl","bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kgs","ja_kun","ja_ojp","ja_okn","ja_thk","juc","ko","ko_bus","ko_hun","ko_kp","ko_mid","ko_zai","mnc","mnp","nan","nan_hai","nan_my","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_us","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_song","zh_tang","zh_th","zh_tj","zh_tw","zh_us","zh_wh","zh_xa","zh_yuan","zh_zz","zkt", "wuu_qt", "hak_hy", "hsn_sf", "hsn_ld", "nan_lei", "mnz", "czh_jx", "cjy_dt", "msj", "th", "za_sd"];
 
 const HAN_VARIANTS = {
+  "雞": {
+    "ja": [
+      {
+        "native": "ケイ",
+        "surface": "kei",
+        "ipa": "kei",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "ケ",
+        "surface": "ke",
+        "ipa": "ke",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "msj": [
+      {
+        "native": "",
+        "surface": "ke⁵⁵",
+        "ipa": "ke˥˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ki⁵⁵",
+        "ipa": "ki˥˥",
+        "label": "文讀"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "goi1",
+        "ipa": "kɔi˧˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "gi1",
+        "ipa": "ki˧˥",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "kue",
+        "ipa": "kue˧˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ke",
+        "ipa": "ke˧˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "kue",
+        "ipa": "kue˦˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ke",
+        "ipa": "ke˦˦",
+        "label": "文讀"
+      }
+    ]
+  },
+  "灰": {
+    "ja": [
+      {
+        "native": "カイ",
+        "surface": "kai",
+        "ipa": "kai",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "ケ",
+        "surface": "ke",
+        "ipa": "ke",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "mnz": [
+      {
+        "native": "",
+        "surface": "hu",
+        "ipa": "hu˦˨",
+        "label": "訓讀（烌）"
+      },
+      {
+        "native": "",
+        "surface": "hue",
+        "ipa": "hue˦˨",
+        "label": "文讀"
+      }
+    ],
+    "nan_hai": [
+      {
+        "native": "",
+        "surface": "hu1",
+        "ipa": "hu˨˧",
+        "label": "訓讀（烌）"
+      },
+      {
+        "native": "",
+        "surface": "hue1",
+        "ipa": "hue˨˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "hui1",
+        "ipa": "hui˨˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "hue1",
+        "ipa": "huɛ˧˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "hui1",
+        "ipa": "hui˧˥",
+        "label": "文讀"
+      }
+    ],
+    "nan_te": [
+      {
+        "native": "",
+        "surface": "huê1",
+        "ipa": "hue˧˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "hui1",
+        "ipa": "hui˧˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "her",
+        "ipa": "hə˧˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "hue",
+        "ipa": "hue˧˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "he",
+        "ipa": "he˦˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "hue",
+        "ipa": "hue˦˦",
+        "label": "文讀"
+      }
+    ]
+  },
+  "門": {
+    "ja": [
+      {
+        "native": "ボン",
+        "surface": "bon",
+        "ipa": "boɴ",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "モン",
+        "surface": "mon",
+        "ipa": "moɴ",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "mnz": [
+      {
+        "native": "",
+        "surface": "muã",
+        "ipa": "muã˧˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "bueiŋ",
+        "ipa": "bueiŋ˧˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_hai": [
+      {
+        "native": "",
+        "surface": "mui2",
+        "ipa": "mui˧˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "mun2",
+        "ipa": "mun˧˩",
+        "label": "文讀"
+      }
+    ],
+    "cpx": [
+      {
+        "native": "",
+        "surface": "mói",
+        "ipa": "muei˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "meóng",
+        "ipa": "mɔŋ˩˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "mui5",
+        "ipa": "mui˨˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "mung5",
+        "ipa": "muŋ˨˨",
+        "label": "文讀"
+      }
+    ],
+    "nan_zz": [
+      {
+        "native": "",
+        "surface": "muî",
+        "ipa": "muĩ˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "bûn",
+        "ipa": "bun˩˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "mn̂g",
+        "ipa": "mŋ̍˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "bûn",
+        "ipa": "bun˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "mn̂g",
+        "ipa": "mŋ̍˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "bûn",
+        "ipa": "bun˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan": [
+      {
+        "native": "",
+        "surface": "mn̂g",
+        "ipa": "mŋ̍˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "bûn",
+        "ipa": "bun˨˦",
+        "label": "文讀"
+      }
+    ]
+  },
+  "有": {
+    "ja": [
+      {
+        "native": "ユウ",
+        "surface": "yū",
+        "ipa": "jɯː",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "ウ",
+        "surface": "u",
+        "ipa": "ɯ",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "cpx": [
+      {
+        "native": "",
+        "surface": "ū",
+        "ipa": "u˩˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "iû",
+        "ipa": "iu˦˥˧",
+        "label": "文讀"
+      }
+    ],
+    "cdo": [
+      {
+        "native": "",
+        "surface": "ô",
+        "ipa": "ou˨˦˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "īu",
+        "ipa": "ieu˧˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "u6",
+        "ipa": "u˧˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "yiu7",
+        "ipa": "ziu˥˥",
+        "label": "文讀"
+      }
+    ],
+    "nan_te": [
+      {
+        "native": "",
+        "surface": "u6",
+        "ipa": "u˧˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "iu2",
+        "ipa": "iu˥˨",
+        "label": "文讀"
+      }
+    ],
+    "nan_zz": [
+      {
+        "native": "",
+        "surface": "ū",
+        "ipa": "u˨˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "iú",
+        "ipa": "iu˥˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "ǔ",
+        "ipa": "u˨˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "iú",
+        "ipa": "iu˥˥˦",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "ū",
+        "ipa": "u˨˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "iú",
+        "ipa": "iu˥˧",
+        "label": "文讀"
+      }
+    ],
+    "nan": [
+      {
+        "native": "",
+        "surface": "ū",
+        "ipa": "u˧˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "iú",
+        "ipa": "iu˥˧",
+        "label": "文讀"
+      }
+    ],
+    "hak_mz": [
+      {
+        "native": "",
+        "surface": "yû",
+        "ipa": "ju˦˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "yú",
+        "ipa": "ju˧˩",
+        "label": "文讀"
+      }
+    ],
+    "hak_cn": [
+      {
+        "native": "",
+        "surface": "yû",
+        "ipa": "ju˦˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "yú",
+        "ipa": "ju˧˩",
+        "label": "文讀"
+      }
+    ],
+    "yue_ts": [
+      {
+        "native": "",
+        "surface": "yiu1",
+        "ipa": "jiu˧˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "yiu4",
+        "ipa": "jiu˨˩",
+        "label": "文讀"
+      }
+    ]
+  },
+  "豬": {
+    "ja": [
+      {
+        "native": "チョ",
+        "surface": "cho",
+        "ipa": "tɕo",
+        "label": ""
+      }
+    ],
+    "msj": [
+      {
+        "native": "",
+        "surface": "ty⁵⁵",
+        "ipa": "ty˥˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "tʃy⁵⁵",
+        "ipa": "tʃy˥˥",
+        "label": "文讀"
+      }
+    ],
+    "mnp": [
+      {
+        "native": "",
+        "surface": "kṳ̌",
+        "ipa": "kʰy˨˩",
+        "label": "訓讀（豨）"
+      }
+    ],
+    "gan_fz": [
+      {
+        "native": "",
+        "surface": "te³¹",
+        "ipa": "te˧˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "tu³¹",
+        "ipa": "tu˧˩",
+        "label": "文讀"
+      }
+    ]
+  },
+  "錢": {
+    "ja": [
+      {
+        "native": "セン",
+        "surface": "sen",
+        "ipa": "seɴ",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "ゼン",
+        "surface": "zen",
+        "ipa": "dzeɴ",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "cpx": [
+      {
+        "native": "",
+        "surface": "cíng",
+        "ipa": "tsiŋ˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "céng",
+        "ipa": "tsɛŋ˩˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "ji5",
+        "ipa": "tsi˨˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "qieng5",
+        "ipa": "tsʰieŋ˨˨",
+        "label": "文讀"
+      }
+    ],
+    "nan_zz": [
+      {
+        "native": "",
+        "surface": "tsînn",
+        "ipa": "tsĩ˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "tsiân",
+        "ipa": "tsiɛn˩˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "tsînn",
+        "ipa": "tsĩ˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "tsiân",
+        "ipa": "tsiɛn˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "tsînn",
+        "ipa": "tsĩ˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "tsiân",
+        "ipa": "tsiɛn˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan": [
+      {
+        "native": "",
+        "surface": "tsînn",
+        "ipa": "tsĩ˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "tsiân",
+        "ipa": "tsiɛn˨˦",
+        "label": "文讀"
+      }
+    ],
+    "wuu_wz": [
+      {
+        "native": "",
+        "surface": "di³¹",
+        "ipa": "di˧˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "dzhi³¹",
+        "ipa": "dʑi˧˩",
+        "label": "文讀"
+      }
+    ],
+    "wuu_sz": [
+      {
+        "native": "",
+        "surface": "die2",
+        "ipa": "dɪ˨˨˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "zie2",
+        "ipa": "zɪ˨˨˧",
+        "label": "文讀"
+      }
+    ],
+    "wuu_jx": [
+      {
+        "native": "",
+        "surface": "die2",
+        "ipa": "die˧˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "jie2",
+        "ipa": "dʑie˧˩",
+        "label": "文讀"
+      }
+    ],
+    "wuu": [
+      {
+        "native": "",
+        "surface": "di6",
+        "ipa": "di˨˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "zhi6",
+        "ipa": "ʑi˨˧",
+        "label": "文讀"
+      }
+    ]
+  },
+  "牙": {
+    "ja": [
+      {
+        "native": "ガ",
+        "surface": "ga",
+        "ipa": "ga",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "ゲ",
+        "surface": "ge",
+        "ipa": "ge",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "nan_hai": [
+      {
+        "native": "",
+        "surface": "ŋɛ2",
+        "ipa": "ŋɛ˧˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "za2",
+        "ipa": "za˧˩",
+        "label": "文讀"
+      }
+    ],
+    "cpx": [
+      {
+        "native": "",
+        "surface": "gó̤",
+        "ipa": "kɒ˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "gá",
+        "ipa": "ka˩˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "nge5",
+        "ipa": "ŋɛ˨˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ia5",
+        "ipa": "ia˨˨",
+        "label": "文讀"
+      }
+    ],
+    "nan_zz": [
+      {
+        "native": "",
+        "surface": "gêe",
+        "ipa": "ɡɛ˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "gâ",
+        "ipa": "ɡa˩˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "gê",
+        "ipa": "ɡe˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "gâ",
+        "ipa": "ɡa˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "gê",
+        "ipa": "ɡe˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "gâ",
+        "ipa": "ɡa˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan": [
+      {
+        "native": "",
+        "surface": "gê",
+        "ipa": "ɡe˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "gâ",
+        "ipa": "ɡa˨˦",
+        "label": "文讀"
+      }
+    ],
+    "hsn_hy": [
+      {
+        "native": "",
+        "surface": "ŋa¹¹²",
+        "ipa": "ŋa˩˩˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ia¹¹²",
+        "ipa": "ia˩˩˨",
+        "label": "文讀"
+      }
+    ],
+    "hsn": [
+      {
+        "native": "",
+        "surface": "nga¹³",
+        "ipa": "ŋa˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ia¹³",
+        "ipa": "ia˩˧",
+        "label": "文讀"
+      }
+    ],
+    "wuu_sz": [
+      {
+        "native": "",
+        "surface": "nga2",
+        "ipa": "ŋɑ˨˨˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ya2",
+        "ipa": "ɦiɑ˨˨˧",
+        "label": "文讀"
+      }
+    ],
+    "wuu_jh": [
+      {
+        "native": "",
+        "surface": "ua³¹³",
+        "ipa": "uɑ˧˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ia³¹³",
+        "ipa": "iɑ˧˩˧",
+        "label": "文讀"
+      }
+    ],
+    "wuu": [
+      {
+        "native": "",
+        "surface": "nga6",
+        "ipa": "ŋa˨˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ya6",
+        "ipa": "ɦia˨˧",
+        "label": "文讀"
+      }
+    ]
+  },
+  "蛇": {
+    "ja": [
+      {
+        "native": "シャ",
+        "surface": "sha",
+        "ipa": "ɕa",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "ジャ",
+        "surface": "ja",
+        "ipa": "dʑa",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "zua5",
+        "ipa": "tsua˨˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "se5",
+        "ipa": "sɛ˨˨",
+        "label": "文讀"
+      }
+    ],
+    "nan_zz": [
+      {
+        "native": "",
+        "surface": "tsuâ",
+        "ipa": "tsua˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "siâ",
+        "ipa": "sia˩˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "tsuâ",
+        "ipa": "tsua˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "siâ",
+        "ipa": "sia˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "tsuâ",
+        "ipa": "tsua˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "siâ",
+        "ipa": "sia˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan": [
+      {
+        "native": "",
+        "surface": "tsuâ",
+        "ipa": "tsua˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "siâ",
+        "ipa": "sia˨˦",
+        "label": "文讀"
+      }
+    ],
+    "czh": [
+      {
+        "native": "",
+        "surface": "ɕia⁴⁴",
+        "ipa": "ɕia˦˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ɕie⁴⁴",
+        "ipa": "ɕie˦˦",
+        "label": "文讀"
+      }
+    ],
+    "hsn_hy": [
+      {
+        "native": "",
+        "surface": "ɕia¹¹²",
+        "ipa": "ɕia˩˩˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "ɕie¹¹²",
+        "ipa": "ɕie˩˩˨",
+        "label": "文讀"
+      }
+    ],
+    "hsn": [
+      {
+        "native": "",
+        "surface": "sha¹³",
+        "ipa": "ʂa˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "she¹³",
+        "ipa": "ʂe˩˧",
+        "label": "文讀"
+      }
+    ],
+    "wuu_jh": [
+      {
+        "native": "",
+        "surface": "zhia³¹³",
+        "ipa": "ʑia˧˩˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "zhie³¹³",
+        "ipa": "ʑiᴇ˧˩˧",
+        "label": "文讀"
+      }
+    ],
+    "zh_xa": [
+      {
+        "native": "",
+        "surface": "chan⁴⁴",
+        "ipa": "tʂʰã˦˦",
+        "label": "訓讀（本字未詳）"
+      },
+      {
+        "native": "",
+        "surface": "she²⁴",
+        "ipa": "ʂɤ˨˦",
+        "label": "文讀"
+      }
+    ],
+    "zh_tj": [
+      {
+        "native": "",
+        "surface": "sha⁴⁵",
+        "ipa": "ʂɑ˦˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "she⁴⁵",
+        "ipa": "ʂɤ˦˥",
+        "label": "文讀"
+      }
+    ]
+  },
+  "綠": {
+    "ja": [
+      {
+        "native": "リョク",
+        "surface": "ryoku",
+        "ipa": "ɾjokɯ",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "ロク",
+        "surface": "roku",
+        "ipa": "ɾokɯ",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "nan_hai": [
+      {
+        "native": "",
+        "surface": "liak8",
+        "ipa": "liak̚˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "lok7",
+        "ipa": "lok̚˥",
+        "label": "文讀"
+      }
+    ],
+    "cpx": [
+      {
+        "native": "",
+        "surface": "lo̤̍h",
+        "ipa": "lɒʔ˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "le̤̍h",
+        "ipa": "lœʔ˦",
+        "label": "文讀"
+      }
+    ],
+    "cdo": [
+      {
+        "native": "",
+        "surface": "liŏh",
+        "ipa": "luoʔ˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "lṳ̆k",
+        "ipa": "lyʔ˥",
+        "label": "文讀"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "liag8",
+        "ipa": "liak̚˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "log4",
+        "ipa": "lɔk̚˥",
+        "label": "文讀"
+      }
+    ],
+    "nan_zz": [
+      {
+        "native": "",
+        "surface": "li̍k",
+        "ipa": "liɪk̚˩˨˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "lio̍k",
+        "ipa": "liɔk̚˩˨˩",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "lia̍k",
+        "ipa": "liak̚˨˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "lio̍k",
+        "ipa": "liɔk̚˨˦",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "li̍k",
+        "ipa": "liɪk̚˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "lio̍k",
+        "ipa": "liɔk̚˦",
+        "label": "文讀"
+      }
+    ],
+    "nan": [
+      {
+        "native": "",
+        "surface": "li̍k",
+        "ipa": "liɪk̚˦",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "lio̍k",
+        "ipa": "liɔk̚˦",
+        "label": "文讀"
+      }
+    ],
+    "zh_tj": [
+      {
+        "native": "",
+        "surface": "luei⁵³",
+        "ipa": "luei˥˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "lü⁵³",
+        "ipa": "ly˥˧",
+        "label": "文讀"
+      }
+    ],
+    "zh_tw": [
+      {
+        "native": "",
+        "surface": "lǜ",
+        "ipa": "ly˥˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "lù",
+        "ipa": "lu˥˩",
+        "label": "文讀"
+      }
+    ]
+  },
   "香": {
     "ja": [
       {

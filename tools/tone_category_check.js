@@ -41,6 +41,8 @@ const MC = {
   '你':['S','c'], '小':['S','q'], '多':['P','q'],  '熱':['R','c'],  '長:1':['P','z'], '長:2':['S','q'],
   // tier 4 (2026-10-02)
   '遠':['S','c'], '老':['S','c'], '冷':['S','c'], '香':['P','q'], '年':['P','c'], '女':['S','c'], '飯':['Q','z'], '雪':['R','q'],
+  // tier 5 (2026-10-02)
+  '綠':['R','c'], '灰':['P','q'], '雞':['P','q'], '豬':['P','q'], '蛇':['P','z'], '牙':['P','c'], '錢':['P','z'], '門':['P','c'], '有':['S','c'],
   // 2026-10-02: the 18 characters added to the Han Map.
   '我':['S','c'],   '大':['Q','z'],   '白':['R','z'],   '茶':['P','z'],   '飛':['P','q'],   '無':['P','c'],
   '兒':['P','c'],   '黃':['P','z'],   '家':['P','q'],   '生':['P','q'],   '不':['R','q'],   '青':['P','q'],
@@ -80,6 +82,14 @@ function toneSig(ipa) {
 //         2026-06 tone-category audit). Listed here so the checker reports only
 //         UNexplained outliers — a regression guard. `lang|char`.
 const EXCEPTIONS = new Set([
+  // tier 5 (2026-10-02), each checked against its source table:
+  'cjy|綠',      // 太原 luəʔ7 陰入 (MCPDict 太原; Wiktionary j=lueh4) — 次濁入 in 陰入
+  'mnp|豬',      // 建甌 kṳ̌ is 訓讀（豨）, another etymon (MCPDict 訓“豨”)
+  'nan_hai|綠',  // 海口 文讀 lok7 陰入 beside 白讀 liak8 (MCPDict 海口)
+  'wuu_nb|雞',   // 寧波 tɕi3 (上 35) in 甬江話字詞表, as listed
+  'wuu_nb|豬',   // 寧波 tsʮ3 (上 35), as listed
+  'cpx|月',      // Puxian vernacular 月 kuoi2 (陽平) — the stop is lost (MCPDict 仙遊 kuoi2)
+  'cpx|肉',      // row reads ˨˦, the Xianyou 陽入 value, not Putian ˦ — pre-existing; flagged in RESUME for a Puxian check
   'cjy_xz|虎',
   'cjy_xz|火',
   // 中国语言地图集 dialect points (provisional, fragmentary):

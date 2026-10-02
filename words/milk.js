@@ -612,7 +612,6 @@ WORDS.milk = {
     zh_lz: ["牛奶", "niou˥˧ nɛ˦˦˨"],
     dng: ["нэзы", "nɛ˥˩tsɨ"],
     nan_pn: ["牛奶", "ɡu˨˧ leŋ˧˧"],
-    yue_gz: ["牛奶", "ŋɐu˨˩ naːi˩˧"],
     och: ["乳", "*noʔ"],
     hak_tw: ["牛奶", "ŋiu˩˩ nen˥˥"],
     nan_qz: ["牛奶", "ɡu˨˦ lin˧˧"],

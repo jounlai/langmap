@@ -711,7 +711,7 @@ WORDS.nose = {
     // Gan and Min read 鼻 with the old *-t coda, so Nanchang has 鼻子 pʰit-.
     gan: ["鼻子", "pʰit˥ tsɿ"],
     hak_hl: ["鼻公", "pʰi˧˧ kuŋ˥˧"],
-    yue_gz: ["鼻哥", "pei˨˨ kɔ˥˥"],
+    yue_gz: ["鼻", "ɓɛj˨˩"],
     yue_nn: ["鼻哥", "pi˨ kɔ˥˥"],
     yue_zs: ["鼻哥", "pi˨ kɔ˥˥"],
     // --- Tibeto-Burman — *s-na, and the Kuki-Chin/Naga na- body-part shape
@@ -1121,6 +1121,7 @@ WORDS.nose = {
     sel: ["инчай", "jintɕaj"],
     jio: ["kɯhɔːt", "kɯ˧˩hɔːt˥˧"],
     nut: ["đăng", "ɗaŋ˧˧"],
-    ar_sd: ["نخرة", "ˈnaxra"]
+    ar_sd: ["نخرة", "ˈnaxra"],
+    mvf: ["hawar", "xavar"]
   },
 };

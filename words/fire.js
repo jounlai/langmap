@@ -256,7 +256,7 @@ WORDS.fire = {
     alt: ["от", "ot"],
     cv: ["вут", "vut"],
     bxr: ["гал", "ɡal"],
-    mvf: ["ghal", "ʁal"],
+    mvf: ["ghal", "ɢal"],
     evn: ["того", "toɡo"],
     orh: ["tɔɣɔ", "tɔɣɔ"],
     acn: ["poi31", "poi˧˩"],

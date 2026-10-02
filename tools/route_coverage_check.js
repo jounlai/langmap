@@ -75,6 +75,9 @@ const DEBT = {};
 // does not distinguish between the two", and Mulam's two forms are marked
 // inclusive and exclusive — so silence there is silence, not a finding. Those
 // four are now `unknown` with the word shown.
+// 39 -> 40 on 2026-10-03: `mvf` (Mongghul) 'single' rested on nothing; the
+// Qidar dictionary gives 我们 budangula and separately 咱 Budas, a hint of
+// clusivity it does not state, so the cell is 'unknown' until Georg 2003 is read.
 // 38 -> 39 on 2026-10-02, the same case as `hui` below: `blt` (Tai Dam) 'single'
 // was an unsourced assertion on one unlabelled form, and the r31 re-cut of the
 // row from its sources found no inclusive/exclusive evidence either way.
@@ -111,7 +114,7 @@ const DEBT = {};
 // in the instrument, not a fact about Azhe, and it is the same reason Karajá
 // was refused. The ratchet is against growth through laziness, not against
 // growth.
-const UNDECIDED = { we: { route: 'unknown', max: 39 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 18 } };
+const UNDECIDED = { we: { route: 'unknown', max: 40 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 18 } };
 
 let violations = 0;
 const notes = [];

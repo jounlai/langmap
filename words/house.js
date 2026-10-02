@@ -1104,7 +1104,7 @@ WORDS.house = {
     nan_pn: ["厝", "tsʰu˨˩"],
     mra: ["tu", "tu"],
     wuu_nb: ["屋里", "oʔ˥˥ li"],
-    yue_gz: ["屋", "ʊk˥˥"],
+    yue_gz: ["屋", "ʔʊk̚˥"],
     khb: ["ᦠᦴᧃᧉ", "huːn"],
     blt: ["ꪹꪭꪙ", "hɯən˥"],
     pam: ["bale", "baˈleʔ"],

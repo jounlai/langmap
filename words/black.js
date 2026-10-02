@@ -546,7 +546,7 @@ WORDS.black = {
     cdo: ["乌", "u˥˥"],
     hak_cn: ["乌", "vu˦˦"],
     hak_tw: ["烏", "vu˨˦"],
-    yue_gz: ["黑", "hɐk̚˥˥"],
+    yue_gz: ["黑", "hak̚˥"],
     wuu: ["黑", "həʔ˥"],
     zh_tw: ["黑", "xei˥"],
     zh_db: ["黑", "xei˥"],
@@ -1156,6 +1156,7 @@ WORDS.black = {
     zne: ["bibiri", "bibiɾi"],
     bej: ["hadal", "hadal"],
     dsh: ["ongʼor", "oŋor"],
-    hif: ["kariya", "kərijaː"]
+    hif: ["kariya", "kərijaː"],
+    mvf: ["hara", "xara"]
   },
 };

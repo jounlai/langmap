@@ -157,7 +157,6 @@ WORDS.ear = {
     zh: ["耳朵", "ɑɻ˨˩˦ twɔ"],
     zh_tw: ["耳朵", "ɑɻ˨˩˦ twɔ"],
     yue: ["耳仔", "jiː˩˧ tsɐi˧˥"],
-    yue_gz: ["耳仔", "jiː˩˧ tsɐi˧˥"],
     nan: ["耳仔", "hi˧˧ a˥˧"],
     hak_cn: ["耳公", "ŋiː˧˩ kuŋ˦"],
     hak_tw: ["耳公", "ŋiː˧˩ kuŋ˨˦"],
@@ -1169,6 +1168,7 @@ WORDS.ear = {
     toc: ["takgén", "taqén"],
     nlc: ["o", "o"],
     dur: ["tɔ́g", "tɔɡ"],
-    xsr: ["ཨ་མཆོག", "amtɕʰok"]
+    xsr: ["ཨ་མཆོག", "amtɕʰok"],
+    mvf: ["qigi", "ʨiɡə"]
   },
 };

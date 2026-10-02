@@ -905,7 +905,6 @@ WORDS.stone = {
     yue_dg: ["石头", "ʃœk˧ tʰau˧˩"],
     yue_zs: ["石頭", "sɛːk˨ tʰɐu˨˩"],
     yue_nn: ["石头", "ɬɛːk˨ tʰɐu˨˩"],
-    yue_gz: ["石头", "sɛːk˨ tʰɐu˨˩"],
     blt: ["ꪬꪲꪙ", "hin˨"],
     cja: ["فتاو", "patau"],
     cjm: ["ꨝꨓꨭꨥ", "ɓatuw"],
@@ -1138,6 +1137,7 @@ WORDS.stone = {
     nus: ["päm", "pam"],
     pot: ["sen", "sɛn"],
     ssy: ["dhaa", "ɖaː"],
-    pcc: ["hinl", "hin˨˦"]
+    pcc: ["hinl", "hin˨˦"],
+    mvf: ["tash", "taʂ"]
   },
 };

@@ -1103,7 +1103,7 @@ WORDS.sun = {
     nan_pn: ["日頭", "dzit˦ tʰau˨˧"],
     mra: ["ŋay", "ŋai"],
     wuu_nb: ["日头", "ɲiʔ˩˨ dɤu"],
-    yue_gz: ["日头", "jɐt˨ tʰɐu˧˥"],
+    yue_gz: ["—", "—"],
     khb: ["ᦋᧁᧉ", "tsau"],
     blt: ["ꪔꪱꪹꪫꪸꪙ", "taː˨ven˥"],
     pam: ["aldo", "ʔalˈdoʔ"],

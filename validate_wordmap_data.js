@@ -1082,6 +1082,12 @@ for (const code of codes) {
                 // cat has a Sun form but no attested spelling, hello/thanks no source.
                 // gum star kualøm is 'day' in the Misak NT (REV 8:12, MAT 4:2).
                 atb: new Set(['cat', 'hello', 'thanks']), gum: new Set(['star']),
+                // 2026-10-03 flag round r39: yue_gz rebuilt on MCPDict 化州 (Huazhou Yue);
+                // the table lacks 頭 手 心 狗 三 你 飲 脷 紅 and no greeting/thanks source, so
+                // the old Guangzhou readings are withdrawn. mvf hello 'amur sain' was
+                // Khalkha; no Mongghul greeting is attested in Junast or the Qidar dictionary.
+                yue_gz: new Set(['sun', 'you', 'tongue', 'hand', 'heart', 'dog', 'drink', 'three', 'hello', 'red']),
+                mvf: new Set(['hello']),
                 // dds fish: Heath and the Dogon project both give it as ídù — but
                 // Donno So 'dog' is ìdú, the same segments with the opposite tone,
                 // and this row is toneless in all 39 of its other cells. Writing

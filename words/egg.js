@@ -793,7 +793,6 @@ WORDS.egg = {
     wuu_nb: ["蛋", "dɛ˨˧"],
     wuu_hz: ["蛋", "dɛ˨˩˧"],
     wuu_jx: ["蛋", "dɛ˨˨˧"],
-    yue_gz: ["蛋", "taːn˨˨"],
     yue_dg: ["蛋", "tɛŋ˥˥"],
     yue_nn: ["蛋", "taːn˨"],
     yue_zs: ["蛋", "taːn˨"],
@@ -1084,6 +1083,7 @@ WORDS.egg = {
     kwk: ["tsʼigwa̱nu", "tsʼiɡʷənu"],
     slr: ["yumutta", "jumutɑ"],
     wuu_wz: ["鸡卵", "tsɿ˧˧ laŋ˧˦"],
-    xsr: ["བྱའི་མེན་ཏོག", "tɕʰe mentok"]
+    xsr: ["བྱའི་མེན་ཏོག", "tɕʰe mentok"],
+    mvf: ["ndige", "ndəɡe"]
   },
 };

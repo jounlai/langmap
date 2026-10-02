@@ -1104,7 +1104,7 @@ WORDS.moon = {
     nan_pn: ["月娘", "ɡueʔ˦ niau˨˧"],
     mra: ["thel", "tʰel"],
     wuu_nb: ["月亮", "ɲyəʔ˩˨ liaŋ"],
-    yue_gz: ["月光", "jyt˨ kwɔŋ˥˥"],
+    yue_gz: ["月亮", "ŋɪt̚˨˨ le̯ɛŋ˨˩"],
     khb: ["ᦵᦡᦲᧃ", "dɤn"],
     blt: ["ꪹꪚꪙ", "bɯən˨"],
     pam: ["bulan", "buˈlan"],

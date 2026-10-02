@@ -665,7 +665,7 @@ WORDS.sleep = {
     yuy: ["унтаха", "untaχa"],
     mjg: ["unda", "ˈunda"],
     peh: ["təra-", "təra"],
-    mvf: ["unda-", "unda"],
+    mvf: ["ntiraa", "ntəraa"],
     yrk: ["хонась", "xonasʲ"],
 
     // --- Germanic and Romance minorities
@@ -822,7 +822,6 @@ WORDS.sleep = {
     hak_cn: ["睡目", "soi˥ muk˥"],
     hak_tw: ["睡目", "soi˥˥ muk˥"],
     hak_hl: ["睡目", "ʃoi˧˧ muk˨˨"],
-    yue_gz: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
     yue_dg: ["瞓觉", "fɐn˦˦˧ kau˦˦˧"],
     yue_nn: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
     yue_zs: ["瞓覺", "fɐn˧ kaːu˧"],

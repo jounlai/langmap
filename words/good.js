@@ -1105,7 +1105,7 @@ WORDS.good = {
     nan_pn: ["好", "ho˦˦˥"],
     mra: ["laʔ", "laʔ"],
     wuu_nb: ["好", "hɔ˧˨˥"],
-    yue_gz: ["好", "hou˧˥"],
+    yue_gz: ["好", "hu̯ɔw˧˥"],
     khb: ["ᦡᦲ", "diː"],
     blt: ["ꪒꪲ", "diː˨"],
     pam: ["mayap", "maˈjap"],

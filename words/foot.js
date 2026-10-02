@@ -1192,6 +1192,7 @@ WORDS.foot = {
     hts: "leg+foot",
     atb: "leg+foot",
     gum: "leg+foot",
+    yue_gz: "leg+foot",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🦶", "en": "a word of its own", "ja": "足だけの語", "ko": "발만의 낱말", "zh": "脚有专词", "yue": "腳有專詞", "vi": "có từ riêng", "th": "มีคำเฉพาะ", "id": "punya kata sendiri", "hi": "अपना अलग शब्द", "de": "eigenes Wort", "fr": "un mot à lui", "it": "una parola propria", "es": "palabra propia", "pt": "palavra própria", "ru": "своё слово", "uk": "власне слово", "ar": "كلمة خاصة به", "he": "מילה משלה", "sw": "neno lake lenyewe"},
@@ -2297,7 +2298,7 @@ WORDS.foot = {
     yua: ["ook", "oːk"],  // Class inferred from the Mayan cognates. IPA is the plain reading of the orthography, following how this row's own hand cell writes kʼabʼ as kʼaɓ.
     yuc: ["wedithæ", "weditʰæ"],  // Linn's Grammar of Euchee has patʼe wedithæ 'horse's foot' and dide 'my leg' on the bound stem de, and Wagner's 1934 list keeps the same pair; the we- prefix is the one this row's bone cell weshʼe already carries.
     yue: ["腳", "kœːk̚˧"],  // Cantonese 腳 goek3 runs the whole way up the limb; 髀 is the thigh. This is the southern-Sinitic pattern against Mandarin's 脚/腿 split.
-    yue_gz: ["脚", "kœːk̚˧"],  // Gaozhou kept the old ek rime in this very word — the source names 脚 as one of the hold-outs against Guangzhou's œk — so the cell is kiak̚ and not the parent's kœːk̚.
+    yue_gz: ["脚", "ke̯ɛk̚˧˧"],  // Gaozhou kept the old ek rime in this very word — the source names 脚 as one of the hold-outs against Guangzhou's œk — so the cell is kiak̚ and not the parent's kœːk̚. // was ["脚", "kœːk̚˧"] (r39 fix 2026-10-03)
     yue_nn: ["脚", "kœːk̚˧"],  // The Nanning romanisation's own rime table uses 腳 as the exemplar defining oek [œːk̚] at 下陰入 [33], so this cell is sourced on the character itself. The row's preserved ek in 食 ʃek˨ is a different rime — the ik [ek̚/ɪk̚] of 激, 曾攝 — and does not reach 宕攝. Simplified per this row's convention.
     yue_ts: ["脚", "kiak̚˧˧"],  // Taken to follow Cantonese.
     yue_zs: ["腳", "kœːk̚˧"],  // As Guangzhou: 腳 runs the whole way up the limb and the thigh is 大髀, the same 髀 the yue row names. MCPDict 中山 脚 kœk, the same tone index as 百, so ˧ — this row's 中入, against the ˥ it writes on the short-vowelled 骨 kʷɐt˥ and 一 jɐt˥.

@@ -255,7 +255,7 @@ WORDS.hundred = {
     // the handoff rather than silently trusted.
     zh_han: ["百", "pɐk"],
     zh_song: ["百", "pæk"],
-    yue_gz: ["百", "paːk̚˧"],
+    yue_gz: ["百", "ɓak̚˧˧"],
     hak_cn: ["百", "pak̚˧"],
     hak_tw: ["百", "pak̚˨"],
     wuu: ["百", "paʔ˥"],
@@ -1098,6 +1098,7 @@ WORDS.hundred = {
     cjm: ["ꨣꨪꨓꨭꩍ", "rituh"],
     nus: ["kuɔ̱r", "kuɔr"],
     bar: ["hundad", "ˈhʊndɐd"],
-    blt: ["ꪭ꫁ꪮꪥ", "hɔj˧˩ˀ"]
+    blt: ["ꪭ꫁ꪮꪥ", "hɔj˧˩ˀ"],
+    mvf: ["jong", "ʥoŋ"]
   },
 };

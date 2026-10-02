@@ -980,7 +980,7 @@ WORDS.orange = {
     ko_jl: ["오렌지", "oɾendʑi"],
     nan_pn: ["柑仔", "kam˧˧ a˦˦˥"],
     wuu_nb: ["橙", "zaŋ˨˧"],
-    yue_gz: ["橙", "tsʰaːŋ˩˧"],
+    yue_gz: ["橙", "tsʰaːŋ˨˩"], // was ["橙", "tsʰaːŋ˩˧"] (r39 fix 2026-10-03)
     pam: ["dalandan", "dalanˈdan"],
     kri: ["oranj", "ɔˈrandʒ"],
     haz: ["پرتقال", "poɾtaɣɒl"],

@@ -696,7 +696,6 @@ WORDS.bird = {
     ko_jl: ["새", "sɛ"],
     nan_pn: ["鳥", "tsiau˦˦˥"],
     wuu_nb: ["鸟", "ɲiɔ˨˩˦"],
-    yue_gz: ["鸟", "niu˧˥"],
     pam: ["ayup", "ʔajup"],
     fon: ["xɛ", "xɛ"],
     kri: ["bɛd", "bɛd"],

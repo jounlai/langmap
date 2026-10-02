@@ -841,7 +841,7 @@ WORDS.four = {
     nan_te: ["四", "si˨˩˧"],
     wuu_sz: ["四", "sʮ˥˩˧"],
     yue_dg: ["四", "ʃɐi˦˦˧"],
-    yue_gz: ["四", "sei˧˧"],
+    yue_gz: ["四", "ɬɛj˧˧"],
     yue_nn: ["四", "ɬi˧˧"],
     yue_zs: ["四", "si˧"],
     zh_tw: ["四", "sɿ˥˩"],
@@ -1177,6 +1177,7 @@ WORDS.four = {
     bor: ["pobe puibiji", "pobe puibidʒi"],
     djr: ["ḏämbumiriw", "ɖaːmbumiɻiw"],
     mpt: ["asuke asuke", "asuke asuke"],
-    nlc: ["dombadya", "dombadja"]
+    nlc: ["dombadya", "dombadja"],
+    mvf: ["deeren", "deeren"]
   },
 };

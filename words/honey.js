@@ -748,7 +748,7 @@ WORDS.honey = {
     hak_hl: ["蜂糖", "fuŋ˥˧ tʰoŋ˥˥"],
     cdo: ["蜂蜜", "pʰuŋ˥˥ miʔ˥"],
     yue_ts: ["蜜糖", "mit˨ hɔŋ˨˨"],
-    yue_gz: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
+    yue_gz: ["蜜糖", "mɐt̚˨˨ tʰu̯ɔŋʷ˨˩˦"],
     yue_dg: ["蜜糖", "mak˧ tʰɔŋ˧˩"],
     yue_nn: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
     yue_zs: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],

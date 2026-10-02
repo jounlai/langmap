@@ -947,7 +947,7 @@ WORDS.mountain = {
     cjm: ["ꨌꨮꩀ", "cəʔ"],
     pot: ["bkotnyawen", "bkotnjawɪn"],
     bar: ["Beag", "bɛɐɡ"],
-    mvf: ["ghada", "ʁada"],
+    mvf: ["ula", "ula"],
     bpy: ["পাহাড়", "pahaɽ"],
     kr: ["kəri", "kəri"]
   }

@@ -824,7 +824,7 @@ WORDS.rain = {
     zh_cq: ["雨", "y˦˨"],
     zh_km: ["雨", "i˥˧"],
     zh_kf: ["雨", "y˥˧"],
-    yue_gz: ["雨", "jy˩˧"],
+    yue_gz: ["雨", "ji˨˩˦"],
     cic: ["omba", "omba"],
     win: ["nįžú", "nĩʒu"],
     sgs: ["lītos", "liːtɔs"],
@@ -1093,6 +1093,7 @@ WORDS.rain = {
     ahk: ["u yeh", "u˨˩jɛ˥"],
     tsj: ["ngamsu", "ŋamsu"],
     nlc: ["mok", "mok"],
-    glk: ["وارش", "vɒːɾəʃ"]
+    glk: ["وارش", "vɒːɾəʃ"],
+    mvf: ["huraa", "xuraa"]
   },
 };

@@ -19,8 +19,8 @@ const D = ctx.D, L = ctx.L;
 // expected script per variety (by base or exact code)
 const SCRIPT = {
   vi: 'Latin', vi_c: 'Latin', vi_s: 'Latin',
-  ko: 'Hangul', ko_kp: 'Hangul', ko_zai: 'Hangul', ko_bus: 'Hangul', ko_hun: 'Hangul', ko_mid: 'Hangul',
-  ja: 'Kana', ja_kgs: 'Kana', ja_okn: 'Kana', ja_thk: 'Kana', ja_ojp: 'Kana', ja_kun: 'Kana',
+  ko: 'Hangul', ko_kp: 'Hangul', ko_bus: 'Hangul', ko_hun: 'Hangul', ko_mid: 'Hangul',
+  ja: 'Kana', ja_ojp: 'Kana', ja_kun: 'Kana',
   ain: 'Kana',   // Ainu is written in katakana here; the row was 53 kana cells to one stray Latin
 
   zh_phagspa: 'Phagspa', txg: 'Tangut', mnc: 'Mongolian', sjo: 'Mongolian',
@@ -79,7 +79,7 @@ console.log('');
 // --- CHECK B: kana ↔ romaji vowel-skeleton agreement (modern ja varieties).
 // ja_ojp is excluded: its kana is historical 字音仮名遣 orthography (e.g. サム=sam,
 // グヮ=gwa, ヰ=wi), not a phonetic transcription of the romanized reading.
-const KANA_LANGS = ['ja', 'ja_kgs', 'ja_okn', 'ja_thk', 'ja_kun'];
+const KANA_LANGS = ['ja', 'ja_kun'];
 const KV = {}; const rows = { a: 'アカサタナハマヤラワガザダバパ', i: 'イキシチニヒミリギジヂビピ', u: 'ウクスツヌフムユルグズヅブプ', e: 'エケセテネヘメレゲゼデベペ', o: 'オコソトノホモヨロヲゴゾドボポ' };
 for (const [v, s] of Object.entries(rows)) for (const ch of s) KV[ch] = v;
 const smallV = { 'ャ': 'a', 'ュ': 'u', 'ョ': 'o', 'ァ': 'a', 'ィ': 'i', 'ゥ': 'u', 'ェ': 'e', 'ォ': 'o', 'ヮ': 'a' };

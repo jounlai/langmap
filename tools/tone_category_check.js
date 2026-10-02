@@ -55,9 +55,9 @@ const clsName = {q:'清', z:'全濁', c:'次濁'};
 //        Excludes reconstructions, Sino-Xenic, and non-Sinitic languages.
 const EXCLUDE = new Set([
   'zh_han','zh_tang','zh_song','zh_yuan','zh_phagspa','zh_kanbun', // reconstructions / non-spoken
-  'ko','ko_mid','ko_kp','ko_zai','ko_bus','ko_hun',
+  'ko','ko_mid','ko_kp','ko_bus','ko_hun',
   'vi','vi_c','vi_s','vi_nom','vi_ohan',
-  'ja','ja_kgs','ja_kun','ja_ojp','ja_okn','ja_thk',
+  'ja','ja_kun','ja_ojp',
   'txg','zkt','mnc','sjo','juc','bca','za','za_sd','dng','bo_sino',
   'pst','ptb','pko','pja','ptung','paa','ptai','pmgl','phm',
 ]);

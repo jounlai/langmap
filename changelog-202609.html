@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangMap - Changelog 2026-09</title>
+    <meta name="description" content="LangMap changelog for 2026-09.">
+    <!-- Internal documentation page — kept out of search-engine indexes
+         (canonical content lives on index.html / wordmap.html / tree.html). -->
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://langmaps.com/changelog-202609.html">
+    <link rel="icon" type="image/png" href="/langmap.png">
+    <link rel="apple-touch-icon" href="/langmap.png">
+    <meta name="google-site-verification" content="bv4ffQGbDc_Grf1Ioc8NCotrXWc2mY34wEmL-5yHJyM" />
+    <script>
+        // Production-only GA firing: hostname-gated so dev/local/staging
+        // traffic doesn't pollute the analytics property.
+        if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {   // both hosts while the old one still 301s
+            const s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JZ7JJBCCHG');
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=134">
+    <link rel="stylesheet" href="styles.css?v=134">
+    <style>
+        .changelog {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 24px 20px 60px;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+        .changelog h1 {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+        .changelog .lead {
+            color: #666;
+            margin-bottom: 24px;
+        }
+        .changelog .entry {
+            border-left: 3px solid #e0e0e0;
+            padding: 4px 0 4px 16px;
+            margin-bottom: 20px;
+        }
+        .changelog .entry .date {
+            font-weight: 600;
+            color: #333;
+        }
+        .changelog .entry ul {
+            margin: 6px 0 0;
+            padding-left: 20px;
+        }
+        .changelog .entry li {
+            margin-bottom: 4px;
+        }
+        .changelog .contributor {
+            color: #666;
+            font-size: 12px;
+        }
+        .changelog .back {
+            display: inline-block;
+            margin-bottom: 16px;
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .changelog .back:hover { text-decoration: underline; }
+        .changelog .milestones {
+            background: #f6f8fa;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 12px 16px;
+            margin: 0 0 28px;
+            font-size: 13px;
+        }
+        .changelog .milestones h2 {
+            font-size: 14px;
+            margin: 0 0 8px;
+            color: #333;
+        }
+        .changelog .milestones ul {
+            margin: 0;
+            padding-left: 18px;
+            list-style: none;
+        }
+        .changelog .milestones li {
+            margin-bottom: 2px;
+            color: #555;
+        }
+        .changelog .milestones .count {
+            display: inline-block;
+            min-width: 56px;
+            font-weight: 600;
+            color: #0366d6;
+        }
+        .changelog .milestones .when {
+            color: #999;
+            font-size: 12px;
+            margin-left: 4px;
+        }
+        .changelog .month-nav {
+            margin: 0 0 24px;
+            font-size: 13px;
+            color: #555;
+        }
+        .changelog .month-nav a { color: #0366d6; text-decoration: none; }
+        .changelog .month-nav a:hover { text-decoration: underline; }
+        .changelog .month-nav strong { color: #333; }
+    </style>
+</head>
+<body>
+    <div class="changelog">
+        <a href="index.html" class="back">&larr; Back to LangMap</a>
+        <h1>Changelog</h1>
+        <p class="lead">A running log of fixes, additions, and improvements to LangMap.</p>
+
+        <nav class="month-nav">Months: <a href="changelog.html">2026-10</a> · <strong>2026-09</strong> · <a href="changelog-202608.html">2026-08</a> · <a href="changelog-202607.html">2026-07</a> · <a href="changelog-202606.html">2026-06</a> · <a href="changelog-202605.html">2026-05</a> · <a href="changelog-202604.html">2026-04</a></nav>
+
+        <div class="entry">
+            <div class="date">2026-09-30 — The Word Map’s Min rows checked word by word 🔎</div>
+            <ul>
+                <li><strong>After the Han Map, the same check on the Word Map.</strong> All eleven Min rows (Jian’ou, Fuzhou, Putian, Taiwanese, Xiamen, Quanzhou, Zhangzhou, Philippine, Penang, Teochew, Hainanese) were compared with Wiktionary’s pronunciation for that exact place, and with its tables of which word each place actually uses. About 530 words are corrected.</li>
+                <li><strong>Most errors were tone pitches</strong>, often wrong across a whole row, and many cells had borrowed the sound of the neighbouring dialect: Teochew cells written with Hokkien vowels, Penang with Xiamen’s, Putian with Hokkien’s <em>lim</em> for “drink”, a sound Putian does not have.</li>
+                <li><strong>Some words changed to the one people there actually say</strong>: “eye” is 目睭 and “tooth” 喙齒 in Hokkien; Fuzhou’s dog is 犬; Hainan says 無該 for thank you; Penang says 蜜糖 for honey. A word is only changed when the source lists the new word for that place and not the old one.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-30 — Every Min row on the Han Map checked against a source 🔎</div>
+            <ul>
+                <li><strong>A reader, Justin Richard Leung, pointed out that Northern Min 人 was wrong.</strong> The Han Map showed two readings for Jian’ou, and neither exists; the real one is <em>nêng</em>. Following that up showed the Min rows had been filled in without sources in May, so every one was checked, character by character, against Wiktionary’s pronunciation data for that exact place.</li>
+                <li><strong>About 480 readings are corrected across 12 rows</strong>: Northern Min (Jian’ou), Eastern Min (Fuzhou), Puxian, Taiwanese, Xiamen, Quanzhou, Zhangzhou, Penang, Singapore, Klang, Teochew and Leizhou. Most rows had the pitch of one or more tones wrong throughout. Jian’ou also had whole words wrong: head is <em>tê</em>, ear <em>nèng</em>, tiger <em>kǔ</em>.</li>
+                <li><strong>Readings no source has are removed</strong>, and the labels now follow one rule. A second reading of the same word is marked colloquial or literary (白讀/文讀). A different word written with the character is marked 訓讀: 人 read as 儂, and 一 and 食 read as their everyday Min words. A word the character is never written for, such as “two” said as 兩 under 二, is removed, except in Teochew and Leizhou, where Wiktionary lists it under 二.</li>
+                <li><strong>Central Min (Yong’an) and Hainanese (Haikou) are rebuilt from published dialect surveys.</strong> The old Yong’an row said in its own notes that it had been pieced together from Fuzhou and Jian’ou. Both rows now come from 漢字音典 (MCPDict), which draws on 《永安方言》 and 《海口话音档》. Yong’an mountain is <em>sum</em> and head <em>tʰø</em>; Haikou four is <em>ti</em>, heart <em>tim</em>, and its famous implosive consonants are kept, as in <em>ɓak</em> “north”.</li>
+                <li><strong>Three rows still have no source</strong>: Thai Teochew, Indonesian Hokkien and Peranakan Hokkien. They are unchanged for now.</li>
+                <li><strong>Fifteen more Han Map rows had never been sourced, and now are.</strong> Their own notes said the readings were “provisional, derived from sibling dialects”. Each is rebuilt from the published survey of its own town, as collected in 漢字音典: Yichun, Ji’an, Linchuan and Yingtan Gan; Changzhi, Lishi, Xinzhou and Datong Jin; Hengyang and Shuangfeng Xiang; Wuyuan and Jixi Hui; Guibei Pinghua; Qingtian Wu; and Jiangle for Shao-Jiang Min. Characters a survey does not list are left empty rather than borrowed from a neighbour. Their descriptions are rewritten to match, and Qingtian is now placed where the Language Atlas of China puts it, in the Shangli group.</li>
+                <li><strong>Thai Teochew is rebuilt from a survey of Bangkok Teochew</strong> (陳曉錦 2010, via Academia Sinica’s 小學堂 database). It has the same eight tones as Chaozhou itself, so the old description’s “Thai-influenced” tone system is gone.</li>
+                <li><strong>Huiyang Hakka becomes Sha Tau Kok Hakka.</strong> No character survey of Huiyang could be found, but one of Sha Tau Kok, on the Shenzhen–Hong Kong border and in the same Hakka subgroup, could (《珠江三角洲方言字音對照》, 1987). The row now shows that place, under its own name.</li>
+                <li><strong>Two rows are removed</strong>: Peranakan Hokkien and Indonesian Hokkien. In Malacca, where the first was pinned, Peranakans speak Baba Malay, which has no Hokkien character readings; in Penang they speak ordinary Penang Hokkien, already on the map. For Medan Hokkien the only survey (陳曉錦 2014) is not available, and the row’s readings had no source. It will come back if the book can be checked.</li>
+                <li><strong>On the Han Map, a label size above 200 is now kept after a reload.</strong></li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-30 — Philippine Hokkien joins the map, and the Min names line up 🇵🇭</div>
+            <ul>
+                <li><strong>The Word Map had Hokkien from Singapore, Malaysia, Penang and Indonesia, but not from the Philippines.</strong> Philippine Hokkien (咱人話 Lán-lâng-ōe, “our people’s speech”), the language of Manila’s Chinese community, now has a row pinned at Binondo with 74 words.</li>
+                <li><strong>It comes from Quanzhou, but it is not Quanzhou.</strong> Fish is <em>hî</em> and fire is <em>hé</em>, where the city of Quanzhou says <em>hîr</em> and <em>hér</em>. Coffee is <em>ka-pé</em>, from Tagalog <em>kape</em>, where every other Hokkien says <em>ko-pi</em>, and orange is 橙 <em>chhiâm</em>, not 柑仔.</li>
+                <li><strong>Each word uses the pronunciation that Wiktionary tags for the Philippines, and the word Manila speakers choose.</strong> Chocolate is left empty because most speakers simply say <em>chocolate</em> or <em>tsokolate</em>. Silk, sushi, bear and wine are empty because no Philippine source gives them.</li>
+                <li><strong>Min varieties are named alike.</strong> The map said “Eastern Min” for Fuzhou but “Min Bei” for Jian’ou; it is now “Northern Min”, beside Eastern and Central Min, in every language the site speaks. On the Han Map, Jian’ou 儂 <em>nông</em> under 人 was labelled a colloquial reading (白讀) while every other Min row called the same word 訓讀（儂）, because 儂 is a different word written with 人, not a reading of it. It now matches.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-29 — A one-round review of the Word Map: about 1,450 words corrected 🔍</div>
+            <ul>
+                <li><strong>This round looked for sounds a row writes one way everywhere except once.</strong> If a language writes a vowel as <em>e</em> in forty words and <em>ɛ</em> in one, one of them is probably a slip. Five reviewers took a region each and checked every case against a dictionary or grammar.</li>
+                <li><strong>Some whole rows had drifted, not just single words.</strong> Kikuyu, Meru and Embu wrote the letters ĩ, ũ, e, o as if they were the sounds in their names; they are really e, o, ɛ, ɔ, and about 120 words changed. White Hmong, Nias, Paiwan, Tsou, Arakanese, Q’anjob’al, Badaga, Norwegian, Hindi–Urdu, Dari and Japanese were brought back to one notation each.</li>
+                <li><strong>Some words were real words that meant something else.</strong> The Ingush word for “fire” was the word for “red”; the Karakhanid word for “hand” meant “arm”; the Maltese for “foot” is now <em>sieq</em>. There were similar mix-ups in Pemón, Nheengatu, Muscogee, Lisu, Mingrelian, Egyptian, Assyrian, Karachay, Kabyle, Georgian and Nogai.</li>
+                <li><strong>Vietnamese words ending in -ong and -oc are now shown with the lips closing at the end</strong> (ŋ͡m, k͡p), on the Word Map and the Han Map alike. This was already true of the sound; the site now writes it the same way everywhere.</li>
+                <li><strong>Korean final stops are shown as unreleased in all seven Korean rows</strong>, where before only some words showed it.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-28 — Alsatian joins the map, and a French nasal vowel settled per language 🥨</div>
+            <ul>
+                <li><strong>Someone shared a map of the EU’s regional languages, and the Word Map had thirteen of its fourteen.</strong> Alsatian was the missing one; it now has a row pinned at Strasbourg with 37 words. Its vowels are why it is worth seeing beside German and Swiss German: fire is <em>Fir</em>, house is <em>Hüs</em>, water has the dark a of <em>Wàsser</em>, and hello and thank you come from French — <em>Salü</em>, <em>Mersi</em>.</li>
+                <li><strong>Alsatian has no official spelling, so the row uses Orthal</strong>, the one proposed by the region’s language office, and every pronunciation follows from the spelling through Orthal’s own table rather than being written by hand. The words come from a 1900 dictionary of Alsatian dialects, a modern comparative wordlist, and a phrasebook, each named.</li>
+                <li><strong>Frisian is now “West Frisian” everywhere on the site.</strong> With North Frisian and Saterland Frisian also on the map, the bare name described the family and matched none of the rows.</li>
+                <li><strong>The word “tooth” showed both /dɑ̃/ and /dã/, and both are right</strong> — Paris against Québec and the French creoles. What was wrong is that nineteen rows wrote the same vowel both ways at random; Haitian had one symbol for “blood” and the other for “mother”. Each row now uses one. Shanghainese and Huizhou keep both on purpose: there the two really are different sounds.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-27 — Literary Chinese, read in Vietnamese, finally has a word for mountain 📜</div>
+            <ul>
+                <li><strong>One of the map’s stranger rows is Hán văn: Literary Chinese as it was written and read in Vietnam</strong> — the character, plus the Sino-Vietnamese way a Vietnamese reader would have said it aloud. It had 63 of the 86 words, and among the missing were 山 and 海, which is not a gap anyone should have to explain.</li>
+                <li><strong>Fifteen are now in:</strong> 山 <em>sơn</em>, 海 <em>hải</em>, 馬 <em>mã</em>, 人 <em>nhân</em>, 口 <em>khẩu</em>, 書 <em>thư</em>, 黑 <em>hắc</em>, 米 <em>mễ</em>, 絲 <em>ti</em>, 青 <em>thanh</em>, 蝴蝶 <em>hồ điệp</em>, 茶 <em>trà</em>, 糖 <em>đường</em>, 九十九 <em>cửu thập cửu</em>, and 狺狺 <em>ngân ngân</em> — which is a dog barking, and is what the Song-Ming and Han-dynasty rows already write, so this row now says the same thing in Vietnamese.</li>
+                <li><strong>The pronunciations had to follow this row rather than the obvious source.</strong> The Han Map has a Sino-Vietnamese row too, and copying its transcriptions would have been quick and wrong: the two write the same tone two different ways. A row has to agree with itself first.</li>
+                <li><strong>Eight stay empty, and only three of those are real questions</strong> — whether Literary Chinese’s blue is 藍 or the blue-green 青, whether its orange is 柑 or 橘, and what a cockerel says. The other five are at-sign, chocolate, coffee, dopamine and wi-fi, which a classical text has no word for and should not be given one.</li>
+                <li><strong>Then the owner said the 猫 looked wrong, and it was.</strong> The site self-hosts small cut-down fonts so rare characters do not come out as empty boxes, and one of them — a Chữ Nôm woodblock face — had 猫 on its list. Those fonts are asked for first, so it was not a fallback: every 猫 on three pages was being drawn in a Vietnamese woodblock style beside Noto Serif neighbours. That shows up as one character looking faintly wrong, which is far harder to notice than a missing glyph and much harder to report.</li>
+                <li><strong>Eight more were doing the same, and sixty-nine had joined them that morning.</strong> The Zhuang font built earlier in the day swept up ordinary characters — 火, 馬, 十 are Zhuang spellings as well as Chinese ones — and quietly restyled them across both maps. All of it is corrected, and a new check now refuses any such claim: the rule is that a font file may only ask for characters an ordinary device font does not have.</li>
+                <li><strong>And a reader on bilibili wrote in about the cat.</strong> In Wuhan, they said, a cat is <em>cai xi</em>, not <em>mao</em>. Half right, and worth having: the dialect dictionary lists five Wuhan words for a cat, of which the published 猫子 is the first and 財喜 — literally “wealth and joy”, a cat being lucky — is one. It now shows beneath the main word.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-27 — The oldest Vietnamese readings, and why there are so few of them 🇻🇳</div>
+            <ul>
+                <li><strong>Vietnamese borrowed from Chinese twice, a thousand years apart, and the map has a row for the older round.</strong> The familiar Sino-Vietnamese readings came in under the Tang. But some words arrived centuries earlier, during the Han occupation, and were worn down into ordinary Vietnamese — so thoroughly that nobody hears them as foreign. That row had six entries out of sixty-one, which looked like neglect.</li>
+                <li><strong>It was not neglect, and checking took a sweep of all sixty-one characters rather than an opinion.</strong> Four were genuinely missing and are now in: <em>nhì</em> for 二 beside the standard <em>nhị</em>, <em>tim</em> for 心 beside <em>tâm</em>, <em>tiết</em> for 血 beside <em>huyết</em>, and <em>bấc</em> for 北 beside <em>bắc</em> — the word that survives in <em>gió bấc</em>, the north wind. A second pass found a fifth, <em>tư</em> for 四, the form in <em>thứ tư</em> and <em>hai mươi tư</em>.</li>
+                <li><strong>Two of the six that were already there are not Chinese words at all.</strong> <em>Trăng</em>, the moon, goes back to Proto-Vietic and was written <em>blang</em> in a 1651 dictionary; <em>trâu</em>, the buffalo, has relatives in Muong and in Mon. Neither has any route from the Chinese character it was filed under. Removed. Three more are doubtful and were left alone with the doubt written down, because the reading they rest on is a long-standing one in Vietnamese scholarship.</li>
+                <li><strong>The row is small because the layer is.</strong> The standard examples of it — <em>mùi</em> from 味, <em>kim</em> from 針, <em>chè</em> from 茶, <em>đũa</em> from 箸, <em>búa</em> from 斧 — are words for things traded and made. The sixty-one characters here are the opposite: sun, water, dog, fish, eye, ear. Those stayed Vietnamese. Asked specifically about 山 and 海, two dictionaries agree there is nothing to add — Vietnamese for sea and mountain are native words with no Chinese ancestry.</li>
+                <li><strong>The second pass happened because the first one had a blind spot worth admitting.</strong> The dictionary being searched marks an old reading three different ways depending on how it was absorbed, and the first sweep looked for only one of the three. Searching for the second found 四; the third, for words borrowed before Middle Chinese, came back empty across all sixty-one. Nine entries is now a swept number rather than a leftover one.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-27 — The Zhuang script the map had never shown, and a tone table off by one 🪨</div>
+            <ul>
+                <li><strong>Zhuang has written with Chinese-style characters for a thousand years, and the map showed none of them.</strong> The script is Sawndip, literally “unripe writing” — some characters are Chinese ones borrowed whole for their meaning or their sound, others were built out of Chinese parts for Zhuang words that had none. It is the same idea as Vietnamese Chữ Nôm, which the map has had for months.</li>
+                <li><strong>It could not simply go in the Zhuang row, and the reason is the interesting part.</strong> That row gives how a Chinese character is <em>read</em> in Zhuang, and Sawndip writes a Chinese loanword with the Chinese character itself — the new column would have repeated the character already at the top of the page. What Sawndip is for is the other layer: the ordinary Zhuang word for what the character means. So the Han Map now has a second Zhuang row, 38 characters of it. 水 is read <em>suij</em> and is the word <em>raemx</em> 淰; 天 is read <em>dienh</em> and is the word <em>mbwn</em> 𭑆.</li>
+                <li><strong>On the Word Map, 44 more Zhuang words got their characters.</strong> Eight had them; the rest carried a note saying the exact character was unconfirmed. It was confirmable — the same 1989 dictionary the first eight came from is indexed word by word, with every attested spelling. Sawndip was never standardised, so most words have several; each cell now shows the main one with up to three alternatives beside it, which is the honest picture.</li>
+                <li><strong>Going to write the new row is how we found that the old one’s tones were all wrong.</strong> Standard Zhuang marks tone with a final letter — no letter, then z, j, x, q, h, for tones one to six. The map’s Zhuang row had the whole series shifted one place, and said so in its own description. Every one of its 61 entries was consistent with every other, which is exactly why nothing caught it: ninety automated checks look for a row that contradicts itself, and a row built from a wrong table contradicts nothing.</li>
+                <li><strong>So the pronunciations are no longer written by hand at all.</strong> Standard Zhuang’s alphabet was designed to be phonetic, which means the spelling determines the sounds, so a converter can do it — and a published one exists, built from the official 1982 orthography. Running it found the tone error and a dozen others beneath it: one letter written two different ways, vowel length recorded four different ways for the same spelling, the Word Map’s word for “moon” transcribed as a different word entirely. 96 entries changed across the two maps, and a new check regenerates every one of them from its spelling on every commit.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-26/27 — A reader found a Chinese numeral hiding inside a Thai one 🎲</div>
+            <ul>
+                <li><strong>The Han Map’s Thai row said 一 is not a Chinese loan, and a reader named TaupeCorgi9028 wrote in to say it is.</strong> They were right, and the row had been answering the wrong question. That row is not a reading system; it is the ten characters whose Thai word can be traced to Chinese — 二三四五六七八九十馬 — and of the eleventh it said only that หนึ่ง, “one”, is a native Tai word. So it is. But Thai has a second word for one, เอ็ด, which appears only inside a compound: eleven is สิบเอ็ด, twenty-one is ยี่สิบเอ็ด. That one is borrowed from Late Middle Chinese, with relatives in Lao, Shan, Ahom, Bouyei and Zhuang — and the map already prints the Zhuang one.</li>
+                <li><strong>The case was already on the map, one column over.</strong> Thai ยี่ for 二 stands beside the native สอง in exactly the same way, and it has been in the row all along. Treating the two characters differently was the actual error; the missing box was only its symptom. 一 now reads <em>et</em>, and the explanation — in all nineteen languages the site is written in — says why a language can have a native word and a borrowed one for the same number.</li>
+                <li><strong>Then two Japanese readings that were simply missing.</strong> 馬 had 漢音 バ and 呉音 メ and stopped there; every major dictionary gives a third, マ, from the Song-and-after layer. 西 had セイ and サイ and is missing スイ — the one in 西瓜, watermelon, which is the same layer and a word everybody knows.</li>
+                <li><strong>The lesson was where to look.</strong> Checking the character’s own dictionary entry finds マ but not スイ, because a reading that survives in one compound is recorded in that compound and nowhere else. Read the other way round — from the list of words known to carry this layer — the rest of the 61 characters turn out to be complete, except for two readings that live only in a Zen funeral term, which stay out.</li>
+                <li><strong>The Han Map’s text can now be made as large as the Word Map’s.</strong> Its size control stopped at 200%, which is not enough for an Oracle Bone form or a Tangut character on a phone; it goes to 420% like the other map.</li>
+                <li><strong>Jurchen script was added to Unicode this year, and still cannot be displayed.</strong> The font table now lists it, along with Jurchen Radicals and Small Seal, and says so plainly — encoded, no font yet. A claim that downloadable Jurchen fonts already cover the new codepoints turned out to be wrong: the fonts map their characters to a private area instead, which we confirmed by reading one of them. The checker now distinguishes “no font exists anywhere” from “nobody told this checker about the font”, because the two need opposite responses.</li>
+                <li><strong>The word picker got a die, and the word button got shorter.</strong> Since the word list became a full-screen chooser, flipping between words meant opening it every time. There is now a die beside the button, the same one the language search has had, and the two line up under each other. The word changes when the die stops rolling rather than when it starts.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-24/25 — Past seventy-four thousand words, and a language caught changing in print 📖</div>
+            <ul>
+                <li><strong>The map went from 67,121 filled boxes to over 70,000.</strong> The work was organised around one question — which of the 86 words are still thin in languages people actually speak — and answered by reading sources, one language at a time, rather than by copying a database.</li>
+                <li><strong>A new page shows the gaps.</strong> <a href="progress.html">Coverage</a> lists every word with the biggest holes first, counts living and historical languages separately, and lets you click a word to see exactly which languages are missing it, largest first. Old Irish has no word for Wi-Fi; a gap there means something different from a gap in Hindi, and one number hid both.</li>
+                <li><strong>Complete Bible translations turned out to beat dictionaries for dozens of languages.</strong> Where a language has no modern dictionary online, it often has a whole Bible translated by native speakers — so a word can be quoted from a running sentence with the verse named. That is how Chhattisgarhi for “person” and Haryanvi for “black” were found; neither is in any reachable dictionary.</li>
+                <li><strong>But a Bible is not a dictionary, and the difference cost real work.</strong> One translation renders Ezekiel’s wheels with a word that the language’s own dictionary defines as a millet doughnut. Another’s word for silk is also its word for cedar. And “green grass” verses point at the wrong word in language after language, because the Greek original means “fresh” and “unripe” as well as green — five entries were caught that way and left empty instead.</li>
+                <li><strong>Reference works are wrong more often than you would like.</strong> Wiktionary gave Igbo’s word for “sea” as the name of the Niger river, Shona’s “snow” as its word for winter, and Tswana’s “horse” as a word that means zebra in the language it was taken from. Two Iranian languages’ encyclopaedia link for “head” points at a village in Iran. A Konkani list is shifted by one row, so its “horse” is the word for head and its “butterfly” is the word for wing.</li>
+                <li><strong>Sometimes a language simply uses one word for two things, and that is the answer.</strong> Kikuyu’s word for “new” is also its word for “white”. Sukuma’s “salt” and “person” differ by one mark over a vowel. In Kanuri, “hill” and “dog” are spelled identically in the orthography this map uses. Those are facts about the languages, recorded rather than smoothed away.</li>
+                <li><strong>Several of the map’s own entries turned out to be wrong, and were found by adding to them.</strong> The Korean for “new” was the word for a bird — and the map’s own Korean name for that concept, one file away, had the right word all along. Sudanese Arabic had the word for “mouth” filed under “nose”. A Chittagonian entry for “love” is the word for “daughter”. All are fixed or recorded.</li>
+                <li><strong>A check now catches one sound written two ways inside one language.</strong> Truku wrote its r as a trill in ten entries and a tap in two — and the two were right: the language has a tap. Normalising to the majority, which is the obvious thing to do, would have made ten entries wrong instead of two. The same check found the same shape in Plautdietsch, Purépecha and Woleaian, where in one case <em>neither</em> spelling was correct.</li>
+                <li><strong>Irish was not using exotic notation; it was half-finished.</strong> Irish marks a contrast between “broad” and “slender” consonants that is central to the language, and the entries marked it in 38 places out of 85. It now marks it in 61, each one checked against a cited source.</li>
+                <li><strong>Half the comparative databases on hand were invisible to the tools that read them.</strong> Files from different download passes were named three different ways and the tools knew one, so 38 of 89 databases — including the Austronesian Comparative Dictionary — were being skipped silently. Fixing that, and adding three more databases, took the reach from 328 languages to 515.</li>
+                <li><strong>The map passed 70,000 filled boxes, and then 71,930.</strong> The last push added 803 across thirty-nine languages of Africa and of small European communities — Bari, Chasu, Ga, Tetela, Izii, Urhobo, Shambala, Luvale, Aja, Ndonga, Lozi, Ewondo, and then Pontic Greek, Silesian, Samogitian, Mingrelian, Walloon, Cape Verdean, Hawaiian Pidgin and Réunion Creole.</li>
+                <li><strong>A single verse settled whether a language has a word for the sea.</strong> Supyire, spoken in inland Mali, translates Genesis 1:10 — where God names the Seas — as “he named it <em>salt water</em>”, and its word for salt is already on the map. So the box stays empty, and that is the honest answer. The same test emptied Tetela (“waters of the pond”), Nyaturu and Tooro, whose “sea” is Lake Albert, and filled Urhobo, whose word turns up naming the Adriatic.</li>
+                <li><strong>Silesian nearly got the Polish word for butterfly.</strong> The first pass found <em>motyl</em> — Polish in spelling and in sound — attested once, in a glossary of one village. A second look in a Silesian dictionary’s own search returns <em>szmaterlŏk</em> in three separate dictionaries with a full set of forms, and it fits the German borrowings the language already shows elsewhere. The obvious answer was the neighbour’s.</li>
+                <li><strong>And the opposite trap, in Mingrelian.</strong> A word that looks nothing like Georgian feels like proof that it is the native one. Mingrelian’s Wikipedia writes one such word for “sea”, and it is borrowed from Laz next door; the real Mingrelian word is identical to the Georgian one. A form that looks independent is not evidence that it is.</li>
+                <li><strong>One of our own checks had been lying since the day it was written.</strong> It keeps a list of word pairs that innocently share a spelling in many languages, so they stop cluttering the report — but it looked them up in alphabetical order and four of the eight had been typed the other way round, so they never matched. They are the reason “sun = moon” kept appearing in a report designed not to show it.</li>
+                <li><strong>Seven pronunciations were corrected, and every one was caught by the entry next to it.</strong> Nynorsk wrote a silent letter in “bird” that its own “butterfly”, added the same day, leaves out. Ligurian wrote one spelling as an ordinary <em>n</em> that it writes as a different sound in four other words. Dargwa wrote the same throat consonant two ways and only one of them exists in the language. Filling a row is what makes the row disagree with itself out loud.</li>
+                <li><strong>Then another 1,204 boxes, and the map passed 72,800 — 71.3% of it now filled.</strong> The languages were the ones with between a hundred thousand and a million speakers: Sakha, Tuvan, Buryat, Konso, Nzema, Kaonde, Mongo, Mano, Hakha Chin, Eastern Bru, Kullui, Ngäbere, Rwa, Silesian, Corsican, Asturian, Franco-Provençal, three separate kinds of Nahuatl and about a hundred more.</li>
+                <li><strong>The most valuable thing found all day was a bug in how we read the Bible.</strong> The site these translations come from wraps each verse in a tag carrying its reference — but the page also prints the verse number as ordinary text, and a program that looks for the printed number instead gets an empty result whenever the verse happens to fall after a section heading. Revelation 21:1, which is the single best verse for deciding whether a language has a word for the sea, was coming back blank in eight languages out of seventeen. The danger is not the lost work. An empty verse and a language with no word for the sea look identical, and we had been writing the second one down.</li>
+                <li><strong>Another one-line fix: the site’s language codes are not always ours.</strong> Buryat answers to <code>bxr</code> and not <code>bua</code>; Ndonga to <code>ndo</code>; Kwanyama to <code>kua</code>; Dhivehi to <code>div</code>; and Tooro is served by the Runyoro Bible. Ask with the wrong code and the answer is “invalid language tag”, which reads exactly like “this language has no Bible”. Adding one query parameter and trying the alternative codes is what made Sakha, Tuvan, Konso, Gurage, Saho and a dozen others reachable at all.</li>
+                <li><strong>A new check asks only about the coincidences that are claims.</strong> Two words spelled the same inside one language is usually nothing — plenty of languages use one word for blue and green, or for hand and five. But two numerals, or two colours, or a body part and a machine part, is a different matter. Narrowing 310 coincidences down to the 10 worth reading found one class: ten languages whose word for “wheel” was letter-for-letter their own word for “foot”.</li>
+                <li><strong>Nine of those ten turned out to be right, which is the point.</strong> Fijian, Lozi, Maasai, Samburu, Wayuu, Djambarrpuyngu, Bari, Hassaniya Arabic and Huli really do use the foot word for a wheel — five of them have a dictionary entry with the wheel sense numbered separately. Only Kikuyu was wrong, and its own Bible gave it away: Ezekiel’s wheel is “a leg <em>such as</em> a cart’s”. Deleting all ten would have destroyed nine correct entries; exempting all ten would have hidden the tenth.</li>
+                <li><strong>Talysh gained two entries from one correction.</strong> Its word for “hundred” was the word for “head” — the two are <em>sə</em> and <em>sa</em>, from Persian <em>sar</em> and <em>sad</em> — and the entry’s own pronunciation had been pointing at the right answer all along.</li>
+                <li><strong>Several languages were confirmed to have no word for snow, which is a result and not a gap.</strong> Qʼeqchiʼ’s candidate means “salt of the cold”, that is, frost. Tzeltal’s is “mother of cold”. Kaqchikel’s is just the ordinary word for cold. Lomongo’s Bible gives up and prints the French. Ngäbere says “white like paper”. A language spoken where it does not snow is allowed to have no word for it, and saying so is better than inventing one.</li>
+                <li><strong>Then a day spent not adding anything, and correcting 160 entries that were already published.</strong> Eight languages turned out to have been assembled partly from a source nobody had written down. The good news is what the mistake was <em>not</em>: no language had been filled in with another language's words.</li>
+                <li><strong>Every wrong entry was a real word of the right language, under the wrong meaning.</strong> Wichita's word for "house" was its word for <em>woman</em>. Haida's "good" was a juvenile bald eagle, its "red" was black seaweed, its "eat" was <em>to cook</em>, and its "night" was the word for day. Kera's "house" was the verb <em>to search</em>, and its word for "person" was the name of the language itself. The pattern is always the same: a correct core came from the standard dictionary, and the gaps were then filled from the same page with whatever was nearby and the right shape.</li>
+                <li><strong>Yuchi shows it most clearly.</strong> One dictionary entry — <em>tsẽ-thla</em>, literally "water-frozen", meaning <em>ice</em> — had been split across two boxes and published as both "sun" and "moon", once with each of the two ways its first consonant can be read.</li>
+                <li><strong>This kind of error is invisible to the obvious check.</strong> Asking "does this look like the language?" passes every one of them, because they <em>are</em> the language. Only looking up what each word actually means catches them. Where the copying left a fingerprint, it was in the notation: in Kera, every entry that carried tone marks was wrong and every entry without them was right, because the tone marks came from a website's prose and the words came with them.</li>
+                <li><strong>Four findings from the day before were overturned, which is why the checking is worth doing.</strong> Lardil's word for "bone" was going to be changed to a word that means <em>hair</em>. Pilagá's word for "moon" was going to be respelled in a way that would have made it the only entry in its language spelled that way. Two Yuchi entries that looked wrong were correct, and only looked wrong because the scanned dictionary's text layer garbles them.</li>
+                <li><strong>Kusunda's nine bad entries came from nowhere at all.</strong> Every Kusunda wordlist ever collected — 1857, 1970, 2002, 2006, 2020 — agrees against them, and comparing them against roughly 5,800 languages found no language that shares even two. Four of the nine are real Kusunda words filed under the wrong meaning; the other five appear in no source on earth.</li>
+                <li><strong>A second day of the same work, on eight more languages: 330 entries corrected.</strong> Nez Perce, Khinalug, Nuxalk, Donno So, Terena, Kusunda, Haida and four others. In several cases the fix was not one entry but the whole language, because the source it had been built from could finally be named.</li>
+                <li><strong>Khinalug had been printing "you (plural)" as half of its word for "we".</strong> The database it came from lists the pronouns in the order <em>we · inclusive we · exclusive we · you plural</em>, and whoever copied it took the first and the last. Its words for "name", "two" and "star" were its neighbours' words — Chechen, Lezgian, Dargwa — and all three are places where Khinalug happens to differ from its neighbours, which is exactly where a careless copy shows.</li>
+                <li><strong>Donno So shows the shape of the mistake most clearly.</strong> The language's entries came from a 2004 language survey, and nineteen of them match that survey letter for letter. The wrong ones were precisely the words the survey does not ask about — sun, we, love, hello, thank you. Someone filled the gaps from elsewhere, and "elsewhere" was a neighbouring Dogon language, or a word that means <em>money</em>, or nothing at all. Its word for "sun" was its word for <em>mother</em>, one line away.</li>
+                <li><strong>One correction from the day before had to be corrected.</strong> We had written that a 19th-century Nez Perce dictionary marks no stress accents, and concluded that explained a set of entries missing theirs. The book marks them. What does not is the scanned text file of it on the Internet Archive. So the accents were simply missing, and after this pass none is.</li>
+                <li><strong>Terena's circumflex finally has an explanation.</strong> The day before we could only establish what it is not — the language marks nasal vowels, but not with that. It marks vowel length. Two entries had been transcribed on the wrong guess and are now right, and the language's entries agree with each other for the first time.</li>
+                <li><strong>An internal list of "we looked and could not find it" had quietly gone out of date.</strong> Twenty-seven of its entries named gaps that had since been filled — and because filling a gap does not remove its entry, the list was still excusing blanks nobody was looking for any more. Trimmed, with a note to trim it again after every round.</li>
+                <li><strong>Then 1,628 new words in a day — the biggest single push the map has had.</strong> A hundred and seventy-nine languages between a thousand and a hundred thousand speakers, worked one language at a time rather than one word at a time, because a language that size usually has exactly one good description and finding it once answers nineteen questions.</li>
+                <li><strong>And then the number 99, which went from 220 languages to 393.</strong> That entry is not a word, it is a structure: 99 is the smallest number that shows, all at once, whether a language counts in tens or twenties, whether its "ninety" still contains its "ten", whether it says nine-and-ninety or ninety-nine, and whether it reaches the number by subtracting from a hundred.</li>
+                <li><strong>One language was caught changing, in print, thirty years apart.</strong> The 1982 Hiligaynon Bible writes the native Philippine word for 99. The 2012 one, in the same four verses, writes the Spanish. Across the Philippines the line falls down the middle: Ilocano, Kapampangan, Pangasinan and Waray have kept their own numbers, while Hiligaynon, Bikol and Cebuano now count in Spanish above ten.</li>
+                <li><strong>Kashmiri and Odia have opposite holes in the same place.</strong> Odia counts the nineties perfectly regularly and then, at 99 alone, switches to "one less than a hundred". Kashmiri does the reverse: it says "one less than" at 19, 29, 39 and all the way to 89 — and then stops, so 99 is the one regular member of its own series.</li>
+                <li><strong>Two guesses in the instructions were overruled by the evidence, which is the system working.</strong> We expected Bantu languages to build ninety from the plural of "nine"; they build it from the plural of "ten", which is a different thing. And we said Arabic puts the unit first; the map's own seventeen Arabic entries had already been classified another way, with the reasons written down, and the researcher followed the data rather than the instruction.</li>
+                <li><strong>Shan is left out on purpose.</strong> Its word for 99 is known; its tones are not, and that language's entries mark tone everywhere else. The word for "I" in that language is spelled almost identically to the number nine, with one different tone mark — so borrowing the tone from next door would have looked right and been wrong.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-23 — Half the reference library was on the shelf and the catalogue could not see it 📚</div>
+            <ul>
+                <li><strong>The map has 1,188 languages and 86 words, and a great many of those boxes are still empty.</strong> Filling them by hand, one web search at a time, buys about one word an hour — which is not a rate at which the gaps ever close. So the work this week has been to build something faster and then to find out, repeatedly, where it lies.</li>
+                <li><strong>A tool now learns how each language spells itself, from that language’s own entries.</strong> If a row writes <em>sh</em> where it says ʃ in six words, that is a rule, and it can be applied to a seventh. If the row spells one letter two different ways, the tool refuses to guess rather than picking the commoner one. It turned a slow manual job into a fast mechanical one — and then five reviewers checked its output and threw away nearly all of it, for reasons that had nothing to do with spelling.</li>
+                <li><strong>The reason is that a comparative database can be confident about the wrong language.</strong> A word list filed under “Meru” turns out to describe a Tanzanian language, not the Kenyan one of the same name; the only list filed under “Nùng” is from Guangxi, not Vietnam; one database holds fourteen separate Lampung word lists under a single code and none of them matches the entry here. Every one of those was caught the same way — by taking words the map already had and checking whether the source agreed about them.</li>
+                <li><strong>Some sources file one word under two meanings that cannot both be right.</strong> The same string appears under “blue” and “green” for Taa, under “tree” and “mountain” for Huave, and as “three”, “four” and “five” alike for Hadza. A Marshallese list gives the word for “head” as the word for “pillow”. A Rukai list files the word for “salt” under “sea”. None of that is visible from the word itself; it only shows up when you check it against everything else in the same row.</li>
+                <li><strong>The bigger embarrassment was our own.</strong> The library of comparative databases on this machine had been built up over months by different passes, each of which named its files slightly differently. The tools looked for one of those naming patterns and quietly ignored the other two — so 38 of 89 databases were invisible, including the Austronesian Comparative Dictionary and a large African survey. Nothing reported an error, because a file that is skipped silently looks exactly like a file that was never downloaded. Fixing it, and adding three more databases, took the reach from 328 languages to 515.</li>
+                <li><strong>One of those additions matters for a specific gap.</strong> “Silk” was the map’s second-emptiest word and no source on hand carried it at all; it is now reachable in 124 languages. “Chocolate”, the emptiest, is carried by none of the 89 — comparative word lists collect ancient vocabulary, and chocolate is a sixteenth-century arrival. That one still has to be done by hand.</li>
+                <li><strong>Where a regional variety genuinely says the same thing as its parent, it can now say so safely.</strong> Uruguayan Spanish matches Argentine Spanish in all 75 words they share; Senegalese French matches French in 73 of 73. A new check works out which sounds a variety is ever recorded as changing, and copies a word only if that word contains none of them — so Guatemalan Spanish, which turns one sound into another in all seven words containing it, gets the four words that do not contain it. Thirty-seven varieties were refused outright, including the Caribbean ones, where the change depends on where a sound falls in the word rather than on which sound it is.</li>
+                <li><strong>665 words were added today.</strong> Every one was read before it went in, and the notes on what was rejected are longer than the list of what was kept.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-22 — A page for every word, and the map got 20% lighter on the way 🔤</div>
+            <ul>
+                <li><strong>Each word now has its own page, because the word is the thing people actually share.</strong> Sending someone the whole map and telling them to find “water” was never going to work. Each page lists every language that has the word, with a flag, grouped by part of the world rather than by language family — families are what linguists sort by, and almost nobody else.</li>
+                <li><strong>Biggest languages first.</strong> A reader looking up a word wants the languages they have heard of near the top, so the pages now lead with those and put the rest in geographical order after them. Regional varieties sit beside the language they belong to instead of scattered alphabetically, and the heavy underlines are gone.</li>
+                <li><strong>Ancient languages go last, and in order.</strong> They had been appearing in no particular sequence at all; they are now placed at the end and sorted by date, so Hittite comes before Latin. Each one that belongs to a single modern country now shows that country’s flag.</li>
+                <li><strong>Tibetan had no Tibetan font, and Mongolian was lying on its side.</strong> Both are fixed. Mongolian and Manchu are written vertically and were being rendered as if they were not.</li>
+                <li><strong>A language with its own international code now gets its own card.</strong> German regional speech was being treated as dialect while Italian regional speech was treated as separate languages — the same situation handled two opposite ways. It is now consistent.</li>
+                <li><strong>The site got substantially smaller.</strong> Pages are now pre-compressed at the highest setting rather than compressed on demand at a low one: the main map went from 698 KB to 556 KB on first load, and the word pages dropped by 89%. No source code or comments were removed to achieve it — compression handles those for free.</li>
+                <li><strong>Phones had been stuck on old data.</strong> Word data was being requested with a version number that never changed, so a correction made here would never reach a device that had already loaded the page once. It now changes whenever the data does.</li>
+                <li><strong>Sharing a word to Facebook always opened “water”.</strong> Whichever word you shared, the link went to the same place.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-21 — Chocolate went east by sea, and the map was prescribing a spelling nobody uses 🍫</div>
+            <ul>
+                <li><strong>Indonesian for chocolate is <em>coklat</em>.</strong> The map had the form the official dictionary prescribes, which is not the form the country writes. The everyday word is what this atlas is for.</li>
+                <li><strong>Hokkien took the word off the Nanyang trade routes rather than from Europe.</strong> Taiwanese later swapped it for a different borrowing, so the two now differ — which is the kind of thing a map of words is supposed to show.</li>
+                <li><strong>Forty-seven languages were checked for chocolate and deliberately left empty.</strong> Having no word is a fact about a language, and guessing a plausible loan would have hidden it.</li>
+                <li><strong>Laos had a gap that turned out to be historical.</strong> The word arrived by a French route and then changed carrier, and the entry now reflects that rather than the simpler story.</li>
+                <li><strong>Half of a consistency check had never actually run.</strong> The part that tests the short, stopped tones of Chinese varieties was written but never reached. It runs now.</li>
+                <li><strong>The 3D globe is no longer sent to readers who never open it.</strong> It was being downloaded by everyone and used by few.</li>
+                <li><strong>The comparison table printed every language’s native name twice.</strong></li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-20 — A source that does not exist, and eleven Pyu words that were never written down 📜</div>
+            <ul>
+                <li><strong>Thirteen entries for Pyu — a language of ancient Burma, extinct for eight hundred years — cited a book that has never been published.</strong> The citation named a scholar who does work on Pyu and a year in which he published nothing about its vocabulary. It had been written once and then copied to twelve more entries, and every one of them was marked as directly attested.</li>
+                <li><strong>Checking them was possible because the entire Pyu corpus fits in one file.</strong> Everything ever written in Pyu that survives amounts to about seven thousand words of inscription, and a complete searchable edition is freely available. Eleven of the thirteen forms do not appear in it. Not rare, not disputed — absent. They have been removed.</li>
+                <li><strong>Where the forms came from turned out to be the map’s own reconstruction row.</strong> This atlas carries reconstructed ancestral languages alongside real ones, and five of the Pyu entries were the Proto-Sino-Tibetan entry with the asterisk and prefix deleted — a scholarly hypothesis about a word, relabelled as a word somebody wrote down.</li>
+                <li><strong>One entry was wrong in a way that could be corrected rather than deleted.</strong> Pyu for “two” was given as a form that appears nowhere, and which in the one place it nearly appears means “seven”. The real word is <em>kni</em>, which occurs thirteen times, including in a bilingual inscription where it translates the Sanskrit for “two”, and in the dating formula on burial urns: “month two”. That formula also confirms the neighbouring entry for “moon”, which is how we know the correction is a fact and not a better guess.</li>
+                <li><strong>What survives now names its actual source, and the row says how small the evidence is.</strong> Roughly sixty Pyu words have a secure meaning. The entry now says so, because on a language like this an empty cell is usually the correct answer, and a reader deserves to know the difference between “not looked for” and “not there”.</li>
+                <li><strong>A check now runs before every change, so this cannot happen quietly again.</strong> It compares each extinct language against the reconstructed ancestor of its own family and reports any word that is identical to the reconstruction. Getting it to say something useful took three attempts: comparing everything against everything produced 426 matches, almost all coincidence between unrelated families — Cebuano and Proto-Tungusic happen to share a word for “red”. Narrowing to real family relationships left 338, which were almost all ordinary: a living language matching its reconstruction is the reconstruction working. The check now looks only at languages with no speakers and a small fixed corpus, where nobody can settle a question by asking. Every one of the 129 results has been ruled on by hand, and a new one is an error.</li>
+                <li><strong>It found a further lead immediately.</strong> The Old Mon entries are written in the notation used for reconstructions rather than the spelling of the inscriptions, and the row’s own comment describes an inscriptionally attested language as “reconstructions”. That is now on record to be checked.</li>
+                <li><strong>Separately, a survey of sixteen northern Chinese varieties for the diminutive 兒 ending moved two entries and left eighty-four alone.</strong> Sichuanese “tongue” and Xinzhou “fish” both take the ending; “bird” looked like the largest find and was dropped, because the dictionaries that record it gloss it as “a small bird” rather than “bird”, and the survey question itself was worded with the ending already attached.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-20 — The word for “foot” reaches the ancient languages, and gains a colour for what cannot be known 🦶</div>
+            <ul>
+                <li><strong>Foot had 265 entries where hand had 1,162, and the ancient languages were almost all missing.</strong> The reason was not that the sources are hard to find: of the historical languages with no word for “foot”, 112 already had a word for “hand” from the same dictionary. Nobody had done the work. 95 entries have now been added, and the ancient languages went from 20 of 145 to 93.</li>
+                <li><strong>Among them: Gothic, Hittite, Sumerian, Akkadian, Old Church Slavonic, Classical Armenian, Old Japanese, Middle Korean, Tangut, Old Mon, Mochica, Meroitic and Proto-Indo-European.</strong> Old Japanese, Heian and Edo Japanese all write 足 and all cover the whole limb, exactly as modern Japanese does; Middle Korean writes ·발 with its tone dot, and Early Modern Korean writes the same word with the dot gone.</li>
+                <li><strong>The map has a fourth colour, and it is for a question that cannot be answered.</strong> The foot map colours each language by whether it keeps “foot” and “leg” apart. Seventeen languages have a perfectly solid word for the foot and no attested word for the leg at all — so neither answer is available. Gothic is the clearest case: its word for foot translates the Greek for foot and nothing else, and the Greek word for leg simply falls outside the surviving text, because the manuscript breaks off partway through John. Colouring Gothic either way would be inventing a fact. The new colour says so instead.</li>
+                <li><strong>One language got onto the map only because that colour exists.</strong> Lardil, of Mornington Island, was going to be left blank — not for want of a word for foot, which is well recorded, but because no source prints a Lardil word for “leg” to compare it with. Both of the other colours would have been a claim. Having somewhere honest to put the answer is what let the word be shown at all.</li>
+                <li><strong>Phoenician does not use the word every neighbouring language uses.</strong> Hebrew, Aramaic, Syriac, Mandaic, Qur’ānic Arabic and Sabaic all build “foot” on the same root. Phoenician and Punic do not — their dictionary has no such noun at all, only a word for “footman”, and the actual word is a different one shared with Ugaritic. Filling these in by family resemblance would have got Phoenician wrong and Sabaic right, with no way to tell which was which without opening both dictionaries.</li>
+                <li><strong>The historical Chinese entries use 足 rather than the modern 腳, and the reason is register.</strong> The character 腳 meant the shin in the oldest period — a dictionary of 121 CE says so outright, and that dictionary is itself from the period one of these entries covers. By the Tang dynasty 腳 genuinely did mean “foot” in everyday speech; Du Fu has a line about dirty feet with no socks. But the entries for Tang, Song and literary Chinese are all formal written registers, and their own vocabulary shows it — they use the classical words for “you”, “we”, “dog”, “eye” and “eat” throughout. A language is entitled to the word its own register uses.</li>
+                <li><strong>A word that looks like a shared inheritance can be a trap.</strong> A standard reference files the Old Church Slavonic word <em>golěnĭ</em> under “leg”, which would have made Slavic a family that separates foot from leg. It does not: <em>golěnĭ</em> is the shin specifically, and the ordinary word covers the whole limb — which is what the Russian, Ukrainian and Czech entries already say. Reading the reference at face value would have mis-coloured the entire family.</li>
+                <li><strong>Separately, nine languages were found to be carrying a neighbour’s pronunciation.</strong> Tone is a property of a particular variety, so when a tone appears in one entry of a language and nowhere else in it, while being identical to a neighbouring language’s entry, it was copied rather than recorded. Twenty-three entries were re-derived from each language’s own tone system, across Isan and Southern Thai, Saigon and central Vietnamese, and five Chinese varieties.</li>
+                <li><strong>And then the experimental label came off.</strong> The ancient languages were the visible gap, not the big one — the word was still missing from 781 modern languages that already had “hand”. Those were filled the same day, in three further passes: foot went from 265 entries to <strong>1,132</strong>, which is 95% of the map against “hand”’s 98%. Fifty-six languages still have no entry, and each one has a reason on record rather than a blank.</li>
+                <li><strong>What finally worked was reading scripture.</strong> A wordlist gives a language’s everyday word and almost never gives the contrast, so for hundreds of languages there was no way to tell which system they had. Parallel Bible verses give both at once: John 13 washes feet, John 19 breaks legs, and Daniel 2 names thighs, legs and feet in a single sentence. Read together they answer the question for any language with a translation — and there are far more translations than dictionaries. Two false leads had to be controlled for: Revelation 10:1 is feet in the Greek, not legs, and several languages say “break their bones” where the English says “break their legs”, which would have invented a leg word for languages that have none.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-18 — Four notation decisions, and the word for “father” turned out to mean “child” ✍️</div>
+            <ul>
+                <li><strong>A pronunciation mark was removed from 255 entries, which is the opposite of what was expected.</strong> Indian languages were being written with a small tooth-shaped mark under t and d, and the plan was to finish the job. Counting first changed the answer: only 79 of 1,179 languages use the mark at all, it appears on 458 sounds against 24,735 without, and every other language on the map with the same sound — Russian, Czech, Polish, Italian, Spanish, French, Dutch, Finnish and eight more — uses it exactly zero times. It survives where it does real work, in Australian languages that distinguish three positions of the tongue rather than two. In Indian languages the contrast is with the retroflex series, which the map already shows a different way. So the mark came off.</li>
+                <li><strong>Bantu verbs are now given the way a dictionary gives them.</strong> Forty-two of sixty Bantu languages already wrote “to eat” rather than a bare stem; seven wrote stems and eleven did both inside one language. Every other family on the map already uses its own citation form — <em>manger</em>, <em>yemek</em>, 먹다 — so Bantu now does too.</li>
+                <li><strong>Two uncited numbers from Wikipedia nearly overwrote good data, in two different languages.</strong> Dungan, a Chinese language written in Cyrillic in Central Asia, appeared to have its tones wrong. It did not: the table that contradicted it had one column spanning two rows, and reading it naively shifted every value by one. And a set of Lao tone numbers was credited to a paper that is not about Lao at all — it is the standard reference description of <em>Thai</em>. Both entries were right and the sources were wrong.</li>
+                <li><strong>In the Vai language, four entries held a different word than the one they claimed.</strong> “Eat” held the word for <em>mother</em>. “Good” held the word for <em>meat</em>. “Father” held the word for <em>child</em> — which the same language’s entry for “daughter” already spelled out. They were not typos; each was a real Vai word filed under the wrong meaning. Thirteen entries were rebuilt, every character checked against its official Unicode name.</li>
+                <li><strong>And the map was telling readers “this language has no word for that” 138 times without anyone having decided so.</strong> Of 159 such claims, 138 came from a fallback rule in the software rather than from a person or a source — including for a sign language whose own notes say the blanks are a limitation of the format, not a fact about the language. Worse, that automatic value was switching off a safety check meant to require a named human source. Found, measured and written down.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-17 — 488 corrections, and most of the tone marks were already in the data 🔍</div>
+            <ul>
+                <li><strong>A backlog of 442 missing tone marks came down to 95, and the surprise was where the answers were.</strong> Not in the literature — in the same language’s other entries. Thai “bird” had no tone written, but the same language’s word for “cuckoo” already contains that exact syllable with its tone; Tibetan “I” is inside its own word for “we”. Where a language writes tone with a <em>letter</em> instead of an accent — Hmong, Hani, Naxi, Zhuang — the whole block became answerable once that letter’s meaning was read off the language’s own entries.</li>
+                <li><strong>Twelve new kinds of error were defined and searched for, rather than looking at more rows one by one.</strong> The most productive test needs no outside source at all: find a feature a language applies to <em>some</em> of the entries it should apply to and not others. A convention followed 92% of the time is a convention; one followed 30% of the time is a leak.</li>
+                <li><strong>Ninety-five were left alone on purpose, with the reason recorded for each.</strong> An entry that cannot be settled is more useful marked unsettled than quietly filled in.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-13 — Three new words, and two of them are about what languages don’t separate 🦋</div>
+            <ul>
+                <li><strong>The map has butterfly, foot and blue. That makes 75 words.</strong> Each was picked for something it shows rather than for filling a gap.</li>
+                <li><strong>Butterfly is the word that refuses to travel.</strong> Within the Indo-European family alone, English <em>butterfly</em>, German <em>Schmetterling</em>, French <em>papillon</em>, Italian <em>farfalla</em>, Spanish <em>mariposa</em> and Russian <em>бабочка</em> are six completely unrelated words for one insect — where “water” or “three” would be one word six ways. Two of the six are the same superstition arrived at twice: both the German and the English word are built on cream and butter, from the belief that witches took the shape to steal the milk. What <em>does</em> recur, in families that have never been in contact, is simply repeating the syllable — Mayan, Austronesian, Polynesian and Kartvelian all reconstruct that shape independently.</li>
+                <li><strong>Where a language won’t name it in one word, it describes it.</strong> Hausa calls the butterfly “teacher, open the book”. Welsh calls it a living ember, Afrikaans a cobbler, Nuer “God’s sheep”. And in Burmese and Malagasy, one word means both “butterfly” and “soul”.</li>
+                <li><strong>155 of 265 languages use one word for the whole leg,</strong> with no separate word for the foot — and which languages those are is a real pattern, not a translation accident. Japanese uses one word; Korean, next door, uses two. Romanian is the odd one out in the Romance family; Turkish is the odd one out among sixteen Turkic languages. Icelandic inverts it: the basic word is the whole limb, and it is the <em>leg</em> that needs a compound. The map colours each language by which system it has.</li>
+                <li><strong>And 110 of 356 languages name the sky with the word that also names grass.</strong> Blue is the colour that arrives last in almost every language, after black, white, red, green and yellow — which is exactly why the map only had the first three until now. The languages that merge blue and green are not scattered: they form blocks across Turkic and Mongolic, across Celtic, across the Tupí-Guaraní family, across southern Africa.</li>
+                <li><strong>Where a language does have a separate word for blue, it is often borrowed.</strong> Eight of the twenty Bantu languages here use a version of English “blue”, French <em>bleu</em> or Swahili <em>buluu</em>, laid on top of an inherited word that covers blue and green together. Bambara’s blue is French. And in Yoruba and Akan the word given for blue is the same one the map gives for black — a missionary dictionary noted in 1881 that it covers dark blue and dark green alike.</li>
+                <li><strong>A category was designed for the foot map and then deleted, because nothing went in it.</strong> Some languages were expected to build “foot” out of the word for hand. Comparing the two words across 133 languages found no overlap at all. The nearest thing is a compound meaning “the palm of the leg” — and the modifier there is “palm”, never “hand”. A legend entry that nothing fills would have been a claim of its own.</li>
+                <li><strong>The refusals are the part worth reading.</strong> A standard database gives the Mapudungun word for butterfly — but the 1916 dictionary shows it is the <em>moth</em>. Every wordlist on the web gives a Tajik word for butterfly that both Tajik dictionaries gloss as <em>bat</em>. A Papuan database offered a Motu word that turns out to be Motu for <em>house</em> — and is already on the map as that language’s word for house. Eighteen more entries were dropped because they could not be traced to a source at all, and one because its pronunciation arrived without the tone, in a language where every other entry has one.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-13 — Ten review passes, and the Tangut pin was showing the wrong language 🔍</div>
+            <ul>
+                <li><strong>Opening the Tangut language on the map showed an essay about something else entirely.</strong> Its description file had at some point been overwritten with the text belonging to a reconstructed ancestor of Japanese and Korean, and Tangut’s own description was gone. Every existing check on those files compares a description to <em>itself</em> — are the translations in step, is it the right length — and a copied one passes all of them. There is now a check that simply asks whether any two languages share a description, and a newly written Tangut entry in all 19 languages.</li>
+                <li><strong>Repairing it turned up something worse.</strong> Five of the 33 Tangut words on the map were written with the wrong character. The word for “good” used the character for “five” — the same one the entry for “five” correctly uses — and “three”, “fish”, “eat” and “drink” used characters meaning “then”, “month”, “not”, and a grammatical ending. The pronunciations were mostly right, so someone had looked up the wrong character. All five are now blank, with the reason recorded: a wrong character is worse than a gap.</li>
+                <li><strong>Half of the map’s ISO language codes turned out to be an assumption.</strong> The atlas had a rule that a three-letter code is automatically that language’s international ISO code, which supplied the code for 547 of its 1,187 languages. Checking all of them against the official register found nine wrong — including a Tanzanian language carrying the code of a Brazilian one 9,700 km away, and a language wearing the code of the group it belongs to. Five now carry their correct code; and fixing them immediately revealed five links that had been sending readers to the wrong language’s catalogue page.</li>
+                <li><strong>The nickname list got shorter, not longer.</strong> Seven of the 32 nicknames added earlier were removed on review. Not one was a slur — the failures were subtler. “Twi” leaves out Fante speakers. “Lallans” leaves out Doric. “Manc” on its own means a person from Manchester, not the accent. And one named a <em>relationship</em> rather than a language — Yiddish’s affectionate “mame-loshn” literally means “a mother tongue”, so printed on its own it is a claim about whoever is wearing it.</li>
+                <li><strong>Two entries turned out to be kinder than the official name beside them.</strong> Nigerian Pidgin’s “Naijá” was adopted by its own language academy precisely to get away from the word “pidgin” and what it had come to imply. And for Low German the relationship is inverted: a German university records that <em>Low German</em> itself “has been used pejoratively for centuries”, and that scholars reached for it because the speakers’ own word was “probably not refined enough”.</li>
+                <li><strong>An etymology note that had been corrected four times was still wrong.</strong> The explanation of “head” had a reconstructed ancient word in it that no reference work prints — and it survived four earlier corrections because the same invented spelling appeared in both the note and the map entry, so nothing disagreed with anything. The answer turns out to be that the ancestor language had a root here rather than a single word, and its descendants each built their word for “head” differently. Two scholars cited in that note were also cited for the opposite of what they say.</li>
+                <li><strong>And two entries that had been left out should not have been.</strong> A Uto-Aztecan word for “new” had been skipped as unfindable — the dictionary has a section headed “NEW, YOUNG”, and the entry covers more of the family than a neighbouring entry that <em>was</em> included. The point generalises: the reason recorded for leaving something out is itself a claim, and nobody had been checking those.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-13 — Twenty-five places where two languages shared one name 🔍</div>
+            <ul>
+                <li><strong>Chinese called Ladin “Latin”. Arabic used one word for Luo and Luwian.</strong> Sweeping the whole name list for labels used by more than one language turned up twenty-five of these, and they had been invisible because each name looks perfectly fine on its own — the mistake only exists in the relationship between two entries. Italian called both Ladino and Ladin “Ladino”; Arabic had one spelling doing duty for Romanian and Romani, another for Pali and Balinese, another for Tuvan and Tofa, another for Awadhi and Udi. Twenty-two are fixed.</li>
+                <li><strong>Yesterday’s renaming had added several of them.</strong> Monguor came out as “Mongolian” in Japanese, sitting next to actual Mongolian. Venetic — the ancient language — and Venetian, the modern one, merged into a single word in Japanese, German, Russian, Swahili and Ukrainian at once. Each time, the language’s own name for itself proved they were different, but nothing was comparing the two entries.</li>
+                <li><strong>The check that catches this works out its own exceptions.</strong> A handful of languages genuinely appear twice under different codes and are supposed to share a name; those are exactly the ones whose English names already match, so the rule became “same label but different English name = mistake”, which needs no hand-maintained list of exceptions that could go out of date.</li>
+                <li><strong>Three are left, on purpose, each with a written reason.</strong> Arabic has no name for Tao or for Thao. Hebrew has none for Mru. Thai has none for Munsee — and the Thai encyclopaedia article under that name is about a <em>third</em> language entirely. Inventing names is not something this atlas does, so these stay visible with an explanation rather than being quietly papered over.</li>
+                <li><strong>And a check that had been failing quietly for months.</strong> A test requiring language names to start with a capital letter in the languages that capitalise them had never been connected to anything, and had been sitting at 53 failures the whole time. Fixed and connected. That is the second such check found this week.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-13 — The name a language is actually called by 🏷️</div>
+            <ul>
+                <li><strong>Languages now carry two names, and you can choose which one the map shows.</strong> “Singapore English” is the right name for an atlas. “Singlish” is what people actually say. Both are true, so both are kept: the formal name stays the default, and the gear menu’s name switch has a third setting — native / language name / <strong>short</strong> — that swaps in the nickname wherever one exists.</li>
+                <li><strong>A nickname has to be a name people really use.</strong> Not an abbreviation invented to save space on a label, not a translation of the formal name. If a language has no nickname it simply keeps its formal one, and that is the normal case — most of the atlas has no second name. Every nickname that does go in carries a source, and a check refuses to build the site if one does not.</li>
+                <li><strong>And it never crosses languages.</strong> Japanese readers say シングリッシュ and German readers say Singlish; neither is a translation of the other, and both are real. Where a language has no nickname of its own for something, its readers get the formal name rather than an English nickname dropped into the middle of their sentence.</li>
+                <li><strong>Two pairs of pins that read identically have been told apart.</strong> Cree and Plains Cree were both labelled “Plains Cree”, although the atlas’s own notes say one is the whole dialect continuum and the other is a specific variety — and in Swahili the label for the plains variety actually said <em>coastal</em>. And the two Gulf Arabic pins, one in Doha and one in Dubai, had the same name; the Doha one is now Qatari Arabic, which is what its own record always said it was.</li>
+                <li><strong>A bug that had been hiding in plain sight for Mexican and Brazilian readers.</strong> The atlas keeps one Spanish list of language names and one Portuguese one. A reader whose interface was set to Mexican Spanish or Brazilian Portuguese matched neither, and silently fell all the way through to English — so every language name on their map was in English. Fixed while consolidating the name lookup into one place.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-13 — Every language name on the map, rewritten ✏️</div>
+            <ul>
+                <li><strong>The brackets are gone.</strong> A label under a map pin that read “ペルシャ語（古典）” now reads “古典ペルシャ語”, and “English (Cockney)” is simply “Cockney”. With thousands of these printed at once, a bracket is a lot of ink for a word that was doing nothing. Nearly 2,800 names were rewritten, and no language name in any of the 19 interface languages contains brackets any more.</li>
+                <li><strong>Each language keeps its own word order.</strong> The obvious shortcut — always put the modifier first — would have been wrong in half the interface languages. Japanese, German, Russian, Korean, Chinese and Hindi do put it in front (アメリカ英語, Ägyptisches Arabisch). French, Spanish, Portuguese, Italian, Vietnamese, Thai, Indonesian, Arabic and Hebrew put it after (Arabe égyptien, العربية المصرية). Swahili builds it with a possessive. So the rule became “write it the way this language would”, not “write it short” — and one name deliberately got <em>longer</em>, because “AAVE” means nothing to a Japanese reader.</li>
+                <li><strong>Going through all of them by hand turned up mistakes that had nothing to do with brackets.</strong> In Swahili, four languages were simply mislabelled — Ecuadorian Spanish was described as English — and four French varieties were named with a word that means “chick” rather than “French”. The Chinese list called the United States by the <em>Japanese</em> word for it. And three Chinese varieties had been given the wrong city outright in Vietnamese: one was named Fuzhou when it is Fuzhou in Jiangxi — a different place, a different language, and both are on this map.</li>
+                <li><strong>The Russian name for one Chinese variety had been quietly dodging an obscenity.</strong> The straightforward Russian adjective from the name “Hui” is an unprintable word, and the list had been using an invented spelling to avoid it. It now uses the established scholarly name instead — and the town beside it, which had been transliterated through English, is now spelled by the standard Russian system for Chinese.</li>
+                <li><strong>Two languages that had accidentally been given the same name are separate again.</strong> Swiss Standard German — the written language of Swiss newspapers — and Swiss German, the spoken dialect, had ended up sharing one label. They are genuinely different things, and the map now says so.</li>
+                <li><strong>A Middle Persian word list stopped being half in the Latin alphabet.</strong> Three of its words — iron, nose, sleep — were still sitting in the row in transcription rather than in Pahlavi script, and so were a number of words in other ancient languages. The check that was supposed to catch this had been counting them against a numeric allowance instead of naming them, so the same words could be reported for weeks without anyone being able to act on it. It now lists every such language by name with a sentence saying what is wrong — and the Pahlavi entry was the first to be researched, sourced from a printed dictionary, and struck off.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-13 — Sugar, coffee, and the noise a rooster makes 🐓</div>
+            <ul>
+                <li><strong>Three more words, bringing the map to 72.</strong> “Sugar” and “coffee” are route words like tea and orange — each language is coloured by which road its word travelled — and the third is the written noise a rooster makes, which every language spells differently.</li>
+                <li><strong>Sugar is one Sanskrit word that reached almost everywhere, and four other stories hiding behind it.</strong> The main road runs Sanskrit → Persian → Arabic → Latin and gives sugar, Zucker, сахар, şeker. Spain and Portugal borrowed the same Arabic word <em>with its “the”</em> still attached, which is why they say <em>azúcar</em> and <em>açúcar</em> — and Catalan, next door, never did. China never borrowed at all. And the best part: <strong>India, which gave the world the word, calls refined sugar “Chinese”</strong> — Hindi चीनी, Bengali চিনি, Sinhala සීනි — after the refining technique, sitting right next to Marathi and Tamil, which kept the original. Two further Sanskrit words went their own ways: one became English <em>candy</em>, the other became Malay and Indonesian <em>gula</em>.</li>
+                <li><strong>Coffee is tea's mirror image.</strong> Tea split in two — <em>cha</em> and <em>tea</em> — but coffee did not split at all: one Arabic word went to essentially every language on earth. The map is there for the exception, and the exception is the homeland. The coffee plant is Ethiopian, and the languages of the Ethiopian highlands kept their own word, <em>buna</em>.</li>
+                <li><strong>The first draft of that story was too neat, twice.</strong> The note said the homeland “never borrowed the Arabic word”. Nineteenth-century dictionaries say otherwise, and what they show is better: <strong>the split is between the bean and the drink, and it runs down the Red Sea coast.</strong> Where a language kept both words, <em>bun</em> is the bean and the cup is the Arabic one — in Blin, in Beja, in Saho, and in Somali, where the standard dictionary separates the tree, the fruit, the fried-bean snack and the drink, and only the drink is <em>qaxwo</em>. So the highlands keep their word and the coast does not, which is a sharper thing to be able to see than a clean exception would have been.</li>
+                <li><strong>For the rooster, being unable to find something was the right answer 34 times.</strong> This is the one word where inventing a plausible entry destroys the very thing the map shows — the whole interest is that the same bird is written down completely differently. So the rule was that a form has to be printed in a dictionary or a children's book, not merely repeated on a translation website. Thirty-three languages were left blank for that reason, including every variety of Arabic, and one more was removed on review. What is there comes with a source recorded for every single entry.</li>
+                <li><strong>Reviews of all three found four things worth changing.</strong> The Māori word for sugar turns out to be borrowed from English rather than native. The Irish rooster cry was attributed to a dictionary that does not contain it — the actual printed form is spelled differently. And the 28 varieties of English were all sharing one pronunciation, which works for “woof” but not for “cock-a-doodle-doo”, because that one starts on a vowel those varieties genuinely pronounce differently; each now follows its own.</li>
+                <li><strong>Two fixes for small windows.</strong> The settings panel that opens from the gear button used to slide underneath the “compare” button and become impossible to tap — it now stops above it, and rises above it entirely when there is no room below. And the menu on narrow screens had no height limit at all, so on a short or landscape phone its last items — the language selector and the site links — ran off the bottom of the screen with no way to reach them. It scrolls now.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-13 — Two new words, and five passes over them 🆕</div>
+            <ul>
+                <li><strong>The map has two more words: “head” and “new”.</strong> That makes 69. Head was the largest hole in the body-part set — the atlas had eye, ear, nose, tooth, tongue, hand, heart, bone and blood, and no head — and the Han Map has carried 頭 all along, so the two maps now line up. “New” joins an adjective set that was four colours and “good”. Each is filled for about 450 languages so far, and both will keep growing.</li>
+                <li><strong>The definitions were written before a single word was collected, and that turned out to be the whole game.</strong> Each one says what the word is <em>not</em>: “new” means a new <em>thing</em>, not a young person, not “modern”, not “fresh”, not “just now”. Almost every comparative database glosses both senses identically, so this is where the errors would have come from — and a review pass over all 900 entries found exactly one that had slipped through, a Rapa Nui word that means “young”.</li>
+                <li><strong>Five separate reviews, each asking one question.</strong> Does the word mean the right thing; is it written the way the rest of its language is written; does it come from a real source; does it agree with its related languages; and are the explanatory notes true. Splitting them mattered: the second review caught a mistake the first had just introduced, and the fourth changed the same Zulu entry a third time for a third reason.</li>
+                <li><strong>The most valuable pass was the one that compared languages to their relatives.</strong> Nothing it found was visible from inside a single entry. The Batak Angkola word for “new” was the Indonesian one. Nyoro had been given its neighbour’s word — the Runyakitara languages split cleanly in two on this word, and Nyoro had landed on the wrong side. Khinalug’s word for “head” was Azerbaijani, taken from a dictionary entry that listed three possibilities and put the borrowed one first. The Nawat word for “head” was the one that has narrowed to “skull”.</li>
+                <li><strong>Nothing was invented.</strong> A pass dedicated to asking whether each form actually appears in a source confirmed that every word traces to a real dictionary, grammar or wordlist. What it did find, fourteen times, is entries where the <em>word</em> was right but the <em>spelling</em> had been converted from a romanisation rather than copied from a source — an Avestan form built letter by letter, a Nahuatl form given a long mark its dictionary does not print. Those are now either fixed or recorded as needing a specific book.</li>
+                <li><strong>Three factual errors in the atlas’s own explanatory notes.</strong> The note on “new” traced Arabic <em>jadīd</em> to the wrong root — and the same mistake had reached the Arabic definition, which was telling Arabic speakers to avoid the one word that is actually the cognate. The note on “head” derived German <em>Kopf</em> from Latin; it is independent, which is a better story. And it called Malay <em>kepala</em> an innovation when it is a Sanskrit loan from the same ancient root as Latin <em>caput</em> at the top of the same paragraph.</li>
+                <li><strong>Fixes to words that were already on the map.</strong> The reviews kept finding that a new entry was right and an old one beside it was wrong: Telugu was writing one consonant two different ways, Piedmontese was dropping a sound at the end of a word, Upper Sorbian had a Polish spelling, and an Inari Sámi word carried a stray apostrophe that its own pronunciation field already ignored. Separately, 212 entries across 68 languages were writing syllable breaks into the pronunciation — a habit that was in the minority in every single language that had it.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-10 — A guard that could not name Tai Viet reported Tai Dam backwards ✍️</div>
+            <ul>
+                <li><strong>The Tai Dam row was writing ten of its words in the wrong script, and the check meant to catch that was pointing the other way.</strong> Tai Dam has its own alphabet, Tai Viet, and thirty-five of the row's words were in it. Nine were still in the Latin draft the row was first typed in, and one — the word for “ear” — was not even Latin: it was the Lao word, in Lao letters. The checker that looks for a word written in the wrong script did not know Tai Viet existed, so it counted those thirty-five words as having no script at all, decided the nine Latin ones were therefore the row's real writing system, and reported the row as “Latin, with one Lao oddity”. The nine defects had become the baseline.</li>
+                <li><strong>The same blindness covered a great deal more than one row.</strong> Tifinagh, Vai, Cham, Meetei Mayek, Tai Tham, New Tai Lue, Syriac, Thaana, Coptic, Runic, Cherokee, Mongolian, Phags-pa and every ancient script in the atlas — cuneiform, Egyptian hieroglyphs, Tangut, Old Turkic, Brahmi — were all invisible to it in the same way. Forty-seven writing systems have been added. The check also used to ignore any leak of more than three words, on the reasoning that a big one must be deliberate; that is exactly backwards, so it now reports those separately. And it had never been connected to the build at all, which is the plainest reason nothing was caught.</li>
+                <li><strong>Four Tai Dam words are now in Tai Viet</strong> — ear, earth, name and rain — from the SIL Tai Dam vocabulary the row already cited. The other six stay in Latin and now say why on the page: no source reached so far spells them in Tai Viet, and the atlas would rather leave a word in the wrong alphabet than invent the right one.</li>
+                <li><strong>The Chữ Nôm row was calling itself by name in the alphabet that replaced Chữ Nôm.</strong> It read “Tiếng Việt (Chữ Nôm)” in modern Vietnamese letters. It now reads 㗂越 (字喃), in Nôm — which meant cutting a new copy of the Nôm font, since the first character is one that neither Google's web fonts nor an iPhone carries.</li>
+                <li><strong>Three pieces of information the atlas stored about languages turned out to be read by nothing at all</strong> — including, on two extinct languages, the only record that they were extinct. Both are now marked the way every other extinct language is, and doing so revealed fourteen more languages that were described as extinct in prose but never marked as such, so the map's own filters passed over them. A new check makes sure the atlas cannot quietly accumulate facts that nothing displays.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-09 — Five reviews of the new rows: the Gelao row was the wrong language 🏷️</div>
+            <ul>
+                <li><strong>The Gelao row was filed under the wrong language, and the database said so itself.</strong> The wordlist it uses carries the code for Green Gelao — but the same record's own description reads “this Central Gelao dialect is spoken in Wanzi village, Anshun”, and gives the speakers' name for themselves as <em>klau</em>, where Green Gelao speakers call themselves <em>hakei</em>. The words are Central Gelao. The row has been re-filed accordingly, and now says what it is: Central Gelao, or Qau. This is the second time in a week a catalogue tag turned out to be wrong where the prose beside it was right — the Blang row had the same problem — so the lesson has been written into the project's notes.</li>
+                <li><strong>Two languages were told they were dialects of Chinese.</strong> The Arabic and Hebrew versions of the Idu Mishmi row rendered “this Chinese doculect” — meaning the material recorded on the Chinese side of the border — as “this Chinese dialect”. Idu is Sino-Tibetan and no more a dialect of Chinese than Tibetan is. Hindi, Thai and Vietnamese had it right, which is how the error was caught.</li>
+                <li><strong>Chinese, Cantonese and Japanese readers were told Maonan's closest relative was a language it is not.</strong> Chadong was glossed as “Yanghuang (Chadong)”, equating two separate Kam-Sui languages, one in Guizhou and one in Guangxi. The English never said this.</li>
+                <li><strong>In Russian and Ukrainian, the Blang people lost a letter and became “the nationality of blessings”.</strong> The ethnonym was written <em>благ</em> instead of <em>бланг</em> throughout — and <em>благ</em> is an ordinary Russian word.</li>
+                <li><strong>The atlas was saying two contradictory things about the same database.</strong> Six rows draw on the same wordlist collection, and their notes generalised about how it writes tone in opposite directions. Neither generalisation was true: how tone is written is a property of the individual sketch each list was copied from, not of the database. All six now say that.</li>
+                <li>Also corrected: a Myanmar population that had been given as 139,000 when that is the speaker count for one variety and the people number about 557,000; a citation crediting the wrong collector; a book title missing a character in two rows; a language-family code that pointed at a retired node in the wrong branch; and a claim that an accent mark in the Daur data marked a consonant when the dataset's own definitions say it marks a vowel.</li>
+                <li>What the five passes did <em>not</em> find is worth saying too: across 324 translated descriptions there was not one number that disagreed with the English, no simplified characters in the traditional-Chinese text or the reverse, and all nineteen Cantonese descriptions are written in real Cantonese rather than Mandarin with a few words swapped.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-09 — The numbers on the page had fallen behind the numbers in the data 🔢</div>
+            <ul>
+                <li><strong>Every page title and share card was quoting a stale count.</strong> The Word Map said 1,166 languages when it holds 1,187; the Han Map said 119 when it has 121; the family tree still said 1,000, which it passed in June. Titles, descriptions, social-card text and the structured data behind them are all corrected.</li>
+                <li><strong>The word-order map was overstating itself, and had been for a while.</strong> Its title claimed 242 languages; the sentences actually carry 223. That figure was set in June and nothing since had checked it against the data. It now says 223.</li>
+                <li><strong>The five share images were redrawn too.</strong> They are rendered pictures rather than text, so the corrected numbers had to be re-rendered into them; the family-tree card also had a screenshot of the tree from back when it held about a thousand languages, and that has been recaptured. The card designs are otherwise unchanged.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-09 — A review of the nineteen new rows found seven things the sources do not say 🔍</div>
+            <ul>
+                <li><strong>The most useful finding was a fifteen-character limit.</strong> Two Blang cells, “stone” and “sun”, ended without a tone, and the note explained that as a feature of the language — some minor syllables carry no tone. They do. But that was not what had happened here: the database these words come from truncates every entry at fifteen characters, and those two forms hit the ceiling and lost their last tone mark. A data artefact had been written up as a fact about Blang. Both cells are now empty, and the note says why.</li>
+                <li><strong>Oroqen's words for “father” and “mother” were left blank on a claim that was simply false.</strong> The note said the wordlist behind that row has no kinship terms at all. It has about sixty, sorted by whether a man or a woman is speaking, and Oroqen's own entries were sitting there: amɪn and ənin. Both cells are filled now.</li>
+                <li><strong>Two rows had the word for “day” sitting in the “sun” cell.</strong> The She list marks one entry “day” and another “sun”, and the row had taken the first. The Bonan list has no word for “sun” at all — only “day” — so that cell is now empty rather than quietly wrong; every other Mongolic language on the map has a quite different word there.</li>
+                <li><strong>De'ang villages are not built around a drum tower.</strong> That is the Dong, fifteen hundred kilometres away, and the sentence had drifted across from them. A De'ang village is built around its Buddhist temple, on the highest ground. The row now says so, in all nineteen languages.</li>
+                <li><strong>Wakhi is not a close relative of Sarikoli</strong>, though they are neighbours and are often listed together as “Pamir languages”. That grouping is geographic, not genealogical: the two belong to different branches of Eastern Iranian and cannot understand each other. Sarikoli's actual close relatives are Shughni and Rushani.</li>
+                <li><strong>Where a source says nothing, the map now says nothing.</strong> The “we” column colours languages by whether they split “we” into one that includes you and one that does not. Four rows had been coloured as making no distinction, on the strength of wordlists that simply gave one form and said nothing about it. The same database <em>does</em> record the answer where it is known — the She entry carries the note “Haifeng She does not distinguish between the two”, and Mulam's two forms are marked inclusive and exclusive — so silence is silence. Those four now show the word and a third colour meaning undecided.</li>
+                <li>Seventy-five cells had their pronunciations regularised. Within a single batch of nineteen rows, aspiration had been written three different ways and vowel length two, because each source spells them differently and the rows had kept each source's habits.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-09 — All 56 of China's nationalities now have a language on the map 🇨🇳</div>
+            <ul>
+                <li><strong>Blang, De'ang and Sarikoli close the list.</strong> A week ago the honest count was 36 of 56. The last three were not missing for want of data — two of them were missing because of notes I had written myself, and both notes were wrong.</li>
+                <li><strong>Blang was written off on a mislabelled row.</strong> The note said the Austroasiatic database labels its Blang material “Wa”, so it could not be used. The database in fact has a separate entry called Plang — which is what Blang speakers call themselves — and that is the Blang list. The entry named Wa is the one that carries Blang's code in the catalogue, but its words match the map's existing Wa row almost one for one, so the code is what is wrong, not the name. Checking the words rather than the labels settled it in a minute.</li>
+                <li><strong>De'ang was written off on a claim about geography.</strong> The note said the Palaung survey covers only Burmese and Thai varieties. Six of its sixteen villages are in Dehong, Yunnan, three of them Rumai De'ang. The row is Nan Sang village, in Ruili.</li>
+                <li><strong>China's Tajiks do not speak Tajik.</strong> The map had the Tajik of Tajikistan standing in for them, and that is a different language: Tajik is Western Iranian, essentially a form of Persian, while the language of Tashkurgan is <strong>Sarikoli</strong>, Eastern Iranian, and the two cannot understand each other. Both are now on the map, and each row says what the other is.</li>
+                <li><strong>Hui is the one that stays as it is</strong>, and not because anything is missing. The Hui are a nationality defined by faith and history rather than by language: they speak Chinese, which the map already carries. There is no Hui language to add, and inventing a row for one would misrepresent them.</li>
+                <li>What these rows cannot say is stated rather than filled. Comparative wordlists of this kind carry no word for cat, no verb “to love”, no greeting, and no kinship term beyond “child”; the Sarikoli source has no pronouns at all. Those cells are marked unattested with the printed sketch that would settle each one. And “we” is left empty in all three: Palaungic languages distinguish a “we” that includes you from one that does not, and a list that gives a single form has not recorded which it is.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-08 — A review of the new rows found three claims that were not in the sources 🔍</div>
+            <ul>
+                <li><strong>Nusu and Idu Mishmi are in</strong>, which gives the Nu and Lhoba nationalities a row of their own for the first time and brings the count to 52 of 56. Neither nationality speaks one language: the Nu label covers four that are not close relatives, and the Lhoba label covers Idu, Bokar, Sulong and Tagin from different branches. Each row says which language it is, rather than borrowing the nationality's name.</li>
+                <li><strong>The review found a sentence in four rows that was simply invented.</strong> The Li, Sui, Maonan and Mulam rows all said their empty “heart” cell was empty because the wordlist fills its heart slot from the word for liver. That wordlist has no heart item at all — the body-part run goes bone, intestines, liver, breast. The cell was rightly empty; the reason given for it was not true, and it had been published on four rows. It now says what is actually the case.</li>
+                <li><strong>And a second one that the source contradicts.</strong> Those same four rows said the wordlist gives one word for “we” with no way to tell inclusive from exclusive, and left the cell blank on that basis. The wordlist labels both, explicitly, in every one of the four. All four now show both forms and are coloured as languages that make the distinction — which is what the column exists to record.</li>
+                <li><strong>Two rows had the wrong word for “sun”.</strong> The Li and Maonan lists each give two entries under “day”, one annotated “sun” and one annotated “day”, and both rows had taken the day-word. Mulam had the same problem twice over: its “moon” was the word annotated “month”, and its “eye” was a form the list marks as belonging to a different village's dialect.</li>
+                <li><strong>The Li row named the wrong county.</strong> Baoding, the village whose speech the 1957 Li orthography was built on, is in Ledong, not Baoting — and Baoting is the name of a different Li variety in another branch, so the note was pointing readers at the wrong language. The map pin has moved with it.</li>
+                <li>Three more rows lost claims they could not support: Sui was credited with a series of voiced aspirates it does not have, and with a Sui title for its ritual specialists that no source gives; Daur was called the most divergent Mongolic language when the handbooks say only that it is one of them; and the wordlist behind Jino, Pumi and Monpa was said to have no word for “we” when in fact it has two.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-08 — Seven more of China's nationalities, and the tone tables that were holding four of them up 🎚️</div>
+            <ul>
+                <li><strong>Li, Sui and Maonan are in.</strong> Two days ago these three were written up as ready except for one thing: their wordlists give tone as a category number, 1 to 8, and a category number is not a pitch. Turning 7 into a sound needs a published table for that exact lect, and until one is found the honest thing is to leave the row out rather than guess. The tables were found — Norquest for Baoding Li, the Routledge Tai-Kadai volume together with Castro for Sui, and Lu Tian Qiao's grammar for Maonan — so all three rows are now built on printed pitch values, and each row names the table it used.</li>
+                <li><strong>Then the tables turned out to have been in the file all along.</strong> The wordlist database prints, in its own record for each of these lects, the tone table from the very sketch the words were transcribed from — 黎语简志 for Li, 毛难语简志 for Maonan — and the numbers match the ones dug out of the published literature exactly. That is a better citation than the one it replaces, so all three rows now cite the sketch first and the outside reference as corroboration. It also means <strong>Mulam</strong> is in: it had been held back purely for want of a citable table, and its table was sitting in the same place. That is 50 of China's 56 nationalities.</li>
+                <li><strong>One correction to what is written above.</strong> The Sui row was described as the Sandong lect. It is not — it is the speech of Miaocao village in Sandu county, recorded by Wei Xuecun, a native speaker, in the dictionary he wrote with Jerold Edmondson. The row and its map pin have been corrected.</li>
+                <li><strong>Sui's tones 7 and 8 are not one value each but two</strong>, a short one and a long one, and which you get depends on the vowel. The same is true of Maonan. The converter picks by vowel length rather than flattening the pair, so <em>paak8</em> and <em>nok8</em> come out with different pitches, as they should.</li>
+                <li>Four more nationalities join them: <strong>Jino</strong>, <strong>Pumi</strong>, <strong>Monpa</strong> and <strong>Daur</strong>. Monpa is the awkward one — the nationality covers two languages that cannot understand each other, and this row is the East Bodish one of Cuona county; the Motuo Monpa of the same nationality is Tshangla, which the map already carried under its own name. That leaves 49 of China's 56 recognised nationalities with a language on the map, up from 36 a week ago.</li>
+                <li><strong>Where a source contradicts itself, the row says so instead of picking a winner.</strong> The Maonan list prints the same form for “drink” and “eat”, which cannot both be right, so “drink” is left unattested. The Sui list gives “tree” as a pitch value where every other cell in the row is a category, so it cannot be converted on the same footing and is left out too.</li>
+                <li>Where a source is merely unordered, a sister language settles it. The Maonan entry lists both parent words under both “father” and “mother”; Sui has <em>ni4</em> for “mother”, which fixes the pair. Three other cells were chosen the same way, and the row's note lists all four so a reader can disagree with them.</li>
+                <li><strong>The “we” column stays empty for Li, Sui and Maonan on purpose.</strong> That column is about whether a language splits “we” into one that includes you and one that does not. These lists give a single first-person-plural form and no label saying which it is — so filling the cell in would have quietly asserted the very thing the column exists to record.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-06 — Six of China's 56 nationalities had no language on the map 🇨🇳</div>
+            <ul>
+                <li><strong>Asked how the atlas covers China's 56 recognised nationalities, the honest answer was 36 of them.</strong> Four more were covered only by a stand-in — the row for China's Tajiks is the Tajik of Tajikistan, a different language from the Sarikoli they actually speak — and sixteen had no row at all. Six of those sixteen are now in: <strong>Dong</strong> (2.9 million people, the largest of them), <strong>Gelao</strong>, <strong>She</strong>, <strong>Bonan</strong>, <strong>Oroqen</strong> and <strong>Achang</strong>.</li>
+                <li>The map now holds <strong>all three arms of the Kra-Dai family</strong> — Tai, Kam-Sui and Kra — for the first time. Gelao is the Kra arm: it is not a member of the Tai or Kam-Sui branches but their sister, the family's earliest split, which is why a language with a few thousand speakers matters as much as one with millions.</li>
+                <li><strong>She is the case worth reading twice.</strong> The She nationality numbers 710,000 people. The She language has about a thousand speakers. Almost all She speak She Chinese, a Sinitic variety close to Hakka; the language the nationality is named after is Hmong-Mien, on a branch of its own, and survives in a few villages in Guangdong.</li>
+                <li>Bonan brings the map to four languages of the Gansu-Qinghai Sprachbund — with Dongxiang, Monguor and Eastern Yugur already there — so what centuries of contact did to a group of Mongolic languages can now be read off four rows side by side.</li>
+                <li><strong>What is not filled in is stated rather than guessed.</strong> Each of these rows comes from a comparative wordlist, and a wordlist of that kind carries no word for cat, love or thank you, and for heart carries only liver. Those cells are marked unattested, with a note naming the printed dictionary that would settle each one. Four more nationalities — Li, Sui, Maonan and Mulam — are ready except for one thing: their sources give tone as category numbers rather than pitch values, and inventing the values would put silent errors into 1,174 rows.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-06 — Thai joins the Han Map, for the words it took from Chinese 🇹🇭</div>
+            <ul>
+                <li><strong>Readers asked for Thai on the Han Map</strong>, and it is there now — ten characters. Thai has never used Chinese characters, so this is not a reading system like Sino-Japanese or Sino-Korean, and the row does not pretend to be one. It is a loan layer: words that came from Chinese into the ancestor of Thai roughly two thousand years ago, before there was a Thai script, and that are still the ordinary everyday words. The numerals are the clearest case — สาม (三), สี่ (四), ห้า (五), หก (六), เจ็ด (七), แปด (八), เก้า (九), สิบ (十) — plus ม้า “horse” (馬) and ยี่ (二), which no longer means “two” on its own but survives inside ยี่สิบ, “twenty”.</li>
+                <li><strong>Two characters were deliberately left out, and the row says why.</strong> 一 is not there because Thai หนึ่ง is a native Tai word, not a loan. 龍 is not there because Thai มังกร comes from Sanskrit makara — there is no Chinese-derived word for it in standard Thai. The later Teochew words that arrived with the Chinese community of Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — are a real layer but a different one, and the map already carries it as its own row.</li>
+                <li>A check now knows that this row must be written in Thai script, so a Latin or Devanagari spelling in it fails the build.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-06 — Seven mainland rows were writing traditional characters 齿</div>
+            <ul>
+                <li><strong>The owner asked whether the Puxian 齒 added the day before should be traditional.</strong> It should not, and it was not alone. The atlas spells each Chinese row in the script its own place uses — Taiwan and Hong Kong traditional, the mainland simplified — and seven cells were on the wrong side: 齒 in Teochew and Puxian, 烏 in Teochew, Puxian, Fuzhou and Meixian, and 儂 in Shanghainese, whose own neighbour Ningbo already wrote 侬.</li>
+                <li>The check that is supposed to catch this compares characters against a hand-written list of traditional/simplified pairs, and 齒/齿, 烏/乌 and 儂/侬 were simply not in it, so they read as neutral and could sit anywhere. Every other pair the Chinese data actually uses has now been added, so the blind spot is closed rather than patched.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-06 — The ancient languages were missing their basic words 🏺</div>
+            <ul>
+                <li><strong>The owner noticed that “black” was thin in the old languages.</strong> It was: of the 102 rows that hold a historical or reconstructed language, black was in 33. Everything below it is modern (dopamine, computer) or culture-bound (cuckoo, tea). Among words every ancient language plainly had, black was last — which is odd, because a language with only two colour words has this one.</li>
+                <li>Filled from sources, in each row's own conventions: Proto-Indo-European *kr̥snós, Vedic कृष्णः (quoted in the Rigveda), Old Church Slavonic чрьнъ, Old East Slavic чьрнъ, Old French noir, Proto-Tocharian *erkent and Proto-Sino-Tibetan *nək. Five of those are the same word — Old Prussian kirsnan and Sanskrit कृष्णः were already in the row and everything between them was missing, so the map showed the two ends of a family and nothing in the middle.</li>
+                <li>The same sweep, widened: <strong>29 more cells across wine, wheel, milk, bear, honey, iron, hundred, rain and wind</strong> — Tibetan རྒུན་ཆང and འཁོར་ལོ, Old Japanese 酒, Old Saxon huneg, Coptic ⲗⲁⲃⲟⲓ, Old Javanese ꦩꦣꦸ and ꦧꦂꦮꦁ, Classical Quechua ñukñu, Ugaritic 𐎎𐎛𐎚, Old Turkic 𐰘𐰇𐰕, Karakhanid yağmur, Old Khmer ចក្រ and more, plus five proto-forms read off their own descendants.</li>
+                <li>Some were found and still not used, which is the point of doing this by hand: a Ugaritic word for “salt” with no way to vocalise it from the row, a Hittite “daughter” written with a Sumerian sign that hides the Hittite word, a Quechua word glossed “wheel, round plate or stone” in a place that had no wheels.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-05 — The other thirteen languages now get the whole article too 📖</div>
+            <ul>
+                <li><strong>Yesterday this was counted at 509 missing sections.</strong> Eighteen Han Map articles existed in Thai, Indonesian, Hindi, German, French, Italian, Spanish, Portuguese, Russian, Ukrainian, Arabic, Hebrew and Swahili as an opening paragraph and nothing else — the English had four, five or six sections, and the translation stopped after the first. All 509 are written. Every article is now complete in all nineteen languages.</li>
+                <li>What was missing was usually the part that makes the point. The article on Old Mongolian script had, in all thirteen, no Tatatunga and no 1941 — and 1941 is two decisions, not one: Moscow pushed Latin in February and reversed itself on 25 March, imposing Cyrillic instead, compulsory from 1 January 1946. The Dongguk Jeongun article had lost the reason ㆆ and ㅭ died while ㅸ lived: the first two wrote no sound of ordinary Korean and went with the readings that needed them, while ㅸ was a real native letter, in 셔ᄫᅳᆯ and 더ᄫᅥ. The article comparing Sino-Korean with Sino-Japanese had lost the whole final-stop hierarchy, and 學 as its worked example — the -k is alive in Korean, Japanese and Vietnamese, and gone only in Mandarin.</li>
+                <li>The 1–10 comparison table is now identical in every language rather than retyped in each. Only the row labels are translated; the readings themselves cannot drift apart language to language.</li>
+                <li>The count that could only go down has reached zero, so it is now a rule instead: a translation that drops a section fails the build. Checked by removing one and confirming the build says so.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — The Han Map's articles lost their buttons in translation 🔘</div>
+            <ul>
+                <li><strong>Every Han Map article has buttons that put you back on the map</strong> — show this language, fly to this place, load this character. In English they were all there. In the other eighteen languages, 608 of them were not.</li>
+                <li><strong>Nine articles had buttons only in English.</strong> Anyone reading the article on simplified characters, on Japan's postwar kanji reform, on Korean eumhun, on Japan-made characters, on the Yi syllabary or on Naxi Dongba — in any of the other eighteen languages — reached the end of the piece with no way back to the atlas. Others were partly there: the go-on/kan-on article has nine buttons in English and had three in thirteen languages.</li>
+                <li>All 608 are restored, in every language, each labelled in that language rather than in English. A new check now holds every language level with its English, so a button cannot go missing again without the build saying so.</li>
+                <li>Three buttons in the English itself were labelled with one thing and opened another: one said 「一」 and opened 人, one said 経 and opened 心, and one said "Classical Mongolian" and opened Manchu — which it had to, because Classical Mongolian is not on the map at all. All three now say what they do.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — More than half the Chinese articles were in the wrong characters 汉</div>
+            <ul>
+                <li><strong>The site's Chinese is simplified everywhere</strong> — the menus, the language names, all 70 Word Map articles. The Han Map's articles were not: all thirty carried traditional characters somewhere and eighteen were traditional from beginning to end. A reader in mainland China opened more than half of the Han Map and got a script the rest of the site never uses.</li>
+                <li>Converted. The characters the articles are <em>talking about</em> stay exactly as they were — the 廣 → 広 and 鐵 → 鉄 pairs in the piece on Japanese simplification, the four characters cast on the Tang coin 開元通寶, the Japan-made 鱈, and the character each button opens. Simplifying those would have turned true sentences into false ones.</li>
+                <li>A new check keeps the Chinese simplified from now on, and knows about the handful of forms that are quoted rather than written.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — Translations were still saying things the English had taken back 🕰️</div>
+            <ul>
+                <li><strong>When an English article is edited, its eighteen translations do not follow.</strong> Nobody reads all nineteen, so wording that was toned down in English months ago went on being read in every other language.</li>
+                <li>The article on the Vietnamese alphabet ended, in <strong>fourteen languages</strong>, on quốc ngữ becoming "the principal medium of secular nationalism, revolutionary literature and communist propaganda", and on a writing system "used by 97 million people". The English says neither.</li>
+                <li>The article on Japanese kanbun reading had its last section headed "1,500 years in the character 生" in <strong>all eighteen</strong> translations, closing on every Japanese sentence being "a stratigraphic excavation through 1,500 years of language contact". The English heading is "Readings in Modern Dictionaries" and it makes no such claim.</li>
+                <li>The tea article told readers in <strong>eighteen languages</strong> that one consonant "suffices to reconstruct the 17th-century global trade network", and that the two pronunciations of 茶 come from "ancient China" — when the whole point is that they are two regions of the <em>same</em> period.</li>
+                <li>All corrected. A new check compares the figures in each translation against its English, so a number that exists only in translation is caught by the build instead of being read by someone.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — The Han Map's thirty articles are now complete in five languages 📚</div>
+            <ul>
+                <li>A check in August found <strong>235 Han Map article translations far shorter than their English</strong>, some under a tenth the length — summaries written once and never brought up as the English grew. 74 were badly short. All 74 are now written out in full in <strong>Japanese, Korean, Chinese, Cantonese and Vietnamese</strong>.</li>
+                <li>What had been dropped was rarely decoration. The Wenzhou article lost the three words that make its argument — 爬, 怕 and 巴, which never collide because the voiced one is pulled into the lower tone register. The tea article lost the reason Portuguese is the famous exception: its first tea came through Macau, a Cantonese-speaking port, outside the Dutch–Hokkien network. The Tangut article lost its ending, that Unicode encoded the script in 2016, nearly 800 years after the kingdom that made it was destroyed. The Hakka article lost the paragraph explaining why so many revolutionaries were Hakka.</li>
+                <li>The tea article also had headings in thirteen languages that were <strong>a single emoji and no words at all</strong> — 🌊 and 🏔️ where the English says "The Sea Route" and "The Land Route".</li>
+                <li>An article can be long enough and still be missing whole <em>sections</em>: the Vietnamese version of the Dongguk Jeongun piece had one heading where the English has four. Those are filled in for the five languages above. 509 sections are still missing in the other thirteen; they are now counted, and the count can only go down.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — The Han Map's new dates were printing through their neighbours 🩹</div>
+            <ul>
+                <li><strong>The period line added earlier today was not counted when the map works out how much room each label needs</strong>, so an ancient reading was one line taller than the map believed and its red date landed on top of the label below. Reported by the owner: 宋明文語's 10–17c printed straight through 元代官話's reading.</li>
+                <li>Fixed, and it cleared three other collisions at the same time. Rows carrying a date also now keep their full space rather than the small overlap the map normally allows between labels — the date is the bottom line, so any slack there is spent printing over whatever sits underneath.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — Two missing pieces of Cantonese, and a check that was crying wolf 🐺</div>
+            <ul>
+                <li><strong>The Cantonese Bai article was missing its whole section on the 1958 Latin alphabet scheme</strong>, and the Cantonese Phags-pa article had lost the date of the dissertation it cites. Both written back in.</li>
+                <li><strong>Two other reported gaps turned out to be the checker's fault, not the text's.</strong> It looked for years as four digits in a row, which cannot see 「2,000 ปีก่อนคริสตกาล」 in Thai or 「約1,200km」 in Japanese — so it accused both of dropping figures they state plainly. Fixed.</li>
+                <li>With that fixed, the check stopped finding dropped facts and started finding something else: <strong>235 Han Map articles are much shorter in translation than in English</strong> — some under a tenth the length. They are summaries that were never brought up to date as the English grew. That is a real backlog and it is now counted honestly rather than reported one date at a time.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — Two maps were downloading 14 MB of borders on every visit 🗺️</div>
+            <ul>
+                <li><strong>The Han Map and the Name Map were fetching the world's country outlines from GitHub at full resolution — 14.6 MB — every time someone opened them.</strong> The Word Map stopped doing that months ago and uses a simplified copy served from our own site, 1.9 MB. The other pages were simply never switched over. They are now.</li>
+                <li>That is the difference between about a minute and a half on a slow mobile connection and a couple of seconds, and the page no longer freezes while it unpacks the file. The poster tool and the "my languages" card were on the same old path and are fixed too.</li>
+                <li><strong>Seven more writing systems now come with a font instead of hoping your device has one</strong>: Syriac, Cherokee, Thaana (Dhivehi), Canadian Aboriginal syllabics (Inuktitut and Cree), Meetei Mayek, Lepcha and Syloti Nagri — 636 words that showed as empty boxes on any computer without those fonts installed, which is most of them.</li>
+                <li>The Han Map's ancient readings now show their period all the time, not only in the historical view.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — Ctrl-click a language to put it in the comparison 🖱️</div>
+            <ul>
+                <li><strong>On a computer, hold Ctrl (⌘ on a Mac) and click a language on the map to add it to the comparison — click it again the same way to take it out.</strong> Requested by the owner. Building a comparison used to mean opening each language's panel and pressing the button inside it; now it is one click per language, straight on the map.</li>
+                <li>A plain click still opens the language panel exactly as before, and tapping on a phone or tablet is untouched.</li>
+                <li>Works on both the Word Map and the Han Map, on the flat map and the globe. The tip is written on the panel's compare button in all 19 interface languages, since a shortcut nobody is told about is a shortcut nobody uses.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-04 — The Han Map's ancient readings now say when they are from 🏺</div>
+            <ul>
+                <li><strong>Tang Chinese, Middle Korean, Tangut, Khitan, Jurchen and the rest now carry their period under the name</strong>, the way the Word Map has always shown it — a small dim-red line reading 7–10c, 10–16c, 11–13c. Requested by the owner. It appears in historical mode only; a date under a living reading would read as a mistake.</li>
+                <li>19 rows dated. Fifteen of them reuse the date the Word Map already gives the same language, so the two maps cannot drift apart; the other four are dated from what the row's own description already said — the 1324 rime book behind Early Mandarin, the 1269–1370 Phags-pa script, the Nara-period texts behind Old Japanese, the Han occupation behind Old Sino-Vietnamese.</li>
+                <li>Proto-Tibeto-Burman is left undated on purpose. Nothing in the atlas gives it a date, and inventing one would be worse than leaving the line off.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-03 — Sanskrit was quietly in the wrong typeface, and so were 21 other scripts अ</div>
+            <ul>
+                <li><strong>The Word Map is set in a serif, and about 8,200 of its cells were not.</strong> Reported by the owner, who noticed Sanskrit looking sans-serif next to serif English. It was not imagination: the font list named a serif for Latin, Chinese, Japanese, Korean and Tibetan and for a long tail of ancient scripts, but nothing at all for Devanagari, Arabic, Hebrew, Thai, Bengali, Burmese, Ethiopic, Georgian, Armenian, Khmer, Lao or the South Indian scripts.</li>
+                <li><strong>Those labels were falling through to whatever the reader's device supplies</strong>, which on most systems is a sans face. Measured in a browser: the word for honey in Devanagari came out at exactly the width of the sans font, not the serif one. Arabic was the largest group affected at 2,741 cells, then Devanagari at 1,727.</li>
+                <li>Nineteen serif faces added, so the map now reads as one design in every script it can. The fonts are only downloaded when a reader actually looks at those languages.</li>
+                <li>Two scripts still depend on the device: Syriac and Cherokee have no serif available to us.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-03 — Proto-Tocharian joins the map, and the honey trail finally makes sense 🍯</div>
+            <ul>
+                <li><strong>English <em>mead</em> and Chinese 蜜 are usually said to be relatives, and the map could not show why.</strong> The chain runs Proto-Indo-European *médʰu → Proto-Tocharian → Old Chinese *mit, but only the two attested Tocharian languages were on the map — and their manuscripts are 5th-10th century CE, centuries later than Old Chinese. A reader checking the claim would find the dates impossible and conclude the map was wrong. It was not wrong, it was missing a step.</li>
+                <li><strong>Proto-Tocharian is now its own row</strong>, with its word for honey, *ḿətə. Switch to historical mode and the whole chain is visible at once with its dates: Proto-Tocharian 10th-1st c. BCE beside Old Chinese 13th c. BCE-2nd c. CE, with Tocharian A and B sitting below them as the surviving witnesses, a thousand years later.</li>
+                <li><strong>It sits north of both its daughters, not on top of them.</strong> Tocharian A is at Karashahr and Tocharian B at Kucha; putting their ancestor on either oasis would say "same place, same time", which is the misreading the row exists to fix. Tocharian speakers are thought to have come into the Tarim from the north.</li>
+                <li><strong>"Four" now runs the whole way down that branch too</strong> — Proto-Tocharian *ćätwerä above, Tocharian A śtwar and Tocharian B śtwer below it. Both Tocharian cells were simply missing before.</li>
+                <li>17 words are filled, from published reconstructions only — water, mother, daughter, moon, blood, tongue, tooth, heart, three, four, five, hundred, dog, white, earth, wind and honey. The rest are marked unattested rather than guessed at: Proto-Tocharian is rebuilt from two languages and nothing else, so much less of it is settled than for Proto-Indo-European.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-02 — Simple display is now part of the link 🔗</div>
+            <ul>
+                <li><strong>The button that hides the controls for a clean view is now remembered in the URL</strong>, on the Word Map, the Han Map and the Name Map. Send someone <code>#simple=1</code> and they see the map the way you did — no panels, no selectors, just the map.</li>
+                <li>The link wins over your own saved setting, and it applies before the page draws, so there is no flash of the full interface first. If a link says nothing about it, your own setting still applies as before.</li>
+                <li>A link copied while in simple display now carries the setting even if you never touched the URL.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="date">2026-09-01 — The article pages now show you the thing instead of linking to it 🗺️</div>
+            <ul>
+                <li><strong>The reading pages carry little instructions — "compare Taa, Khoekhoe, Xhosa and Zulu", "zoom to the Kalahari" — and until now they were only links.</strong> You had to leave the article, load the map, and come back. Now the page just answers them where they stand: a set of languages becomes an actual comparison table, and a place becomes an actual map.</li>
+                <li><strong>The comparison tables use the same facts the language pages do</strong> — family, speaker numbers, and the word forms with their pronunciation — so the click-language article now shows you ǃqhàa, ǁgam-i and amanzi side by side rather than telling you to go and look. Where the article names a word, that word is the first column.</li>
+                <li><strong>The maps are drawn from the site's own country outlines, at build time.</strong> Fifty-seven locations cover every article. There is no script on the page, nothing is fetched from anywhere, and the languages the article is about are pinned on the map with their names in your language — Pirahã shows up as ピダハン語 on the Japanese page and as пирахан on the Russian one.</li>
+                <li>Both work with no JavaScript and are in the page source, so they are readable by anyone the interactive map does not reach — and a search engine sees the table too.</li>
+            </ul>
+        </div>
+
+
+    </div>
+</body>
+</html>

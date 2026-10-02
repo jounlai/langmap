@@ -1038,6 +1038,7 @@ WORDS.new = {
     hif: ["nawa", "nəʋaː"],
     mch: ["eduuwaato", "eduːwaːto"],
     bxk: ["embia", "embia"],
-    mvf: ["xini", "ɕinə"]
+    mvf: ["xini", "ɕinə"],
+    lwl: ["khroʼ", "kʰroʔ"]
   }
 };

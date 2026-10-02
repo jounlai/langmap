@@ -1059,6 +1059,9 @@ WORDS.milk = {
     dru: ["mireke", "miɾəkə"],
     nlc: ["moum soub", "moum soub"],
     bej: ["aat", "aːt"],
-    mch: ["shuushu", "ʃuːʃu"]
+    mch: ["shuushu", "ʃuːʃu"],
+    hts: ["iribabii", "ʔiɺibabiʔi"],
+    poh: ["chʼuuchʼ", "tʃʼuːtʃʼ"],
+    gld: ["молоко", "mɔlɔkɔ"]
   },
 };

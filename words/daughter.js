@@ -1099,6 +1099,7 @@ WORDS.daughter = {
     ctg: ["মাইয়া", "maija"],
     sdh: ["دۊەت", "dyːæt"],
     wuu_wz: ["女儿", "na˧˦ ŋ̍˧˩"],
-    nan_hai: ["查某囝", "sa˧˩ mɔu˨˩˧ kia˨˩˧"]
+    nan_hai: ["查某囝", "sa˧˩ mɔu˨˩˧ kia˨˩˧"],
+    nzm: ["pena", "pena"]
   },
 };

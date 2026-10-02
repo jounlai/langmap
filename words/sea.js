@@ -943,6 +943,8 @@ WORDS.sea = {
     glk: ["دریا", "dæɾjɒː"],
     bpy: ["সমুদ্র", "ʃɔmudɾo"],
     spp: ["suumpe lwɔhe", "suːmpe lwɔhe"],
-    xsr: ["རྒྱ་མཚུ", "ɡjamtsu"]
+    xsr: ["རྒྱ་མཚུ", "ɡjamtsu"],
+    chy: ["tséh-mȧhóomoēha", "tséhmahóːmoēha"],
+    sva: ["ძუღუ̂ა", "dzuɣwa"]
   }
 };

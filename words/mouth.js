@@ -1070,6 +1070,9 @@ WORDS.mouth = {
     hif: ["muh", "mʊɦ"],
     swg: ["Gosch", "ɡɔʃ"],
     blt: ["ꪜꪱꪀ", "paːʔ˦˥"],
-    mey: ["فم", "vuːm"]
+    mey: ["فم", "vuːm"],
+    lwl: ["ʼmboam", "ʔᵊᵐbɔm"],
+    sva: ["უ̂იშკუ̂", "wiʃkʼw"],
+    hts: ["awanikako", "ʔawanikako"]
   }
 };

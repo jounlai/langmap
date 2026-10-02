@@ -974,6 +974,10 @@ WORDS.person = {
     nlc: ["nim", "nim"],
     aln: ["njeri", "ɲɛˈɾi"],
     dur: ["nánán", "nanan"],
-    ar_gulf: ["شخص", "ʃaxsˤ"]
+    ar_gulf: ["شخص", "ʃaxsˤ"],
+    lwl: ["pui", "puj"],
+    sva: ["ამსუ̂ალდ", "amswald"],
+    usp: ["kristyan", "kristjan"],
+    cng: ["nə", "nə"]
   }
 };

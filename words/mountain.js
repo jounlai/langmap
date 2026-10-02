@@ -949,6 +949,8 @@ WORDS.mountain = {
     bar: ["Beag", "bɛɐɡ"],
     mvf: ["ula", "ula"],
     bpy: ["পাহাড়", "pahaɽ"],
-    kr: ["kəri", "kəri"]
+    kr: ["kəri", "kəri"],
+    lwl: ["moa", "mɔ"],
+    sva: ["ლახუ̂", "laxw"]
   }
 };

@@ -965,6 +965,9 @@ WORDS.book = {
     ace: ["buku", "buku"],
     ty: ["puta", "puta"],
     wuu_wz: ["书", "sɿ˧˧"],
-    xsr: ["ཀི་ཏབ", "kitap"]
+    xsr: ["ཀི་ཏབ", "kitap"],
+    mzh: ["liwulu", "liwulu"],
+    sva: ["ლა̈ირ", "læir"],
+    ers: ["ndʒondzɿpu", "ndʒo˥˥ndzɿ˥˥pu˧˧"]
   }
 };

@@ -1065,6 +1065,10 @@ WORDS.iron = {
     yrl: ["feru", "ˈfeɾu"],
     iso: ["ayọno", "ajɔno"],
     wuu_wz: ["铁", "tʰi˧˩˧"],
-    hui: ["aeane", "aeane"]
+    hui: ["aeane", "aeane"],
+    lwl: ["hlaec", "l̥ɛc"],
+    pjt: ["ayana", "ajana"],
+    crx: ["lhuztih", "ɬuztih"],
+    xkz: ["ca", "tɕa"]
   },
 };

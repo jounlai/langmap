@@ -1122,6 +1122,10 @@ WORDS.nose = {
     jio: ["kɯhɔːt", "kɯ˧˩hɔːt˥˧"],
     nut: ["đăng", "ɗaŋ˧˧"],
     ar_sd: ["نخرة", "ˈnaxra"],
-    mvf: ["hawar", "xavar"]
+    mvf: ["hawar", "xavar"],
+    lwl: ["maueh", "maɨ̯h"],
+    hot: ["thohav", "tʰɔhav"],
+    hts: ["intawe", "ʔintʰawe"],
+    sad: ["ǀnati", "ǀⁿati"]
   },
 };

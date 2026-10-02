@@ -1157,6 +1157,10 @@ WORDS.black = {
     bej: ["hadal", "hadal"],
     dsh: ["ongʼor", "oŋor"],
     hif: ["kariya", "kərijaː"],
-    mvf: ["hara", "xara"]
+    mvf: ["hara", "xara"],
+    lwl: ["loang", "lɔŋ"],
+    hts: ["tijji", "titʃʼi"],
+    sad: ["kʼaŋkʼara", "kʼaŋkʼara"],
+    tiw: ["tuniwunga", "tuniwuŋa"]
   },
 };

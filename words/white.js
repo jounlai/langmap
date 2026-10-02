@@ -1193,6 +1193,8 @@ WORDS.white = {
     ale: ["к̆умалих", "qumalix"],
     trm: ["kešera", "keʃera"],
     jio: ["kʰou", "kʰou˥"],
-    bxk: ["waanga", "waːŋɡa"]
+    bxk: ["waanga", "waːŋɡa"],
+    sva: ["თუ̂ეთუ̂ნე", "tʰwetʰwne"],
+    hts: ["pedla", "pecʎʼa"]
   },
 };

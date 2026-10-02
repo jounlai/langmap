@@ -957,6 +957,7 @@ WORDS.snow = {
     bbc: ["salju", "saldʒu"],
     srn: ["snew", "sneu"],
     nij: ["salju", "saldʒu"],
-    dtp: ["salju", "saldʒu"]
+    dtp: ["salju", "saldʒu"],
+    poh: ["miik", "miːk"]
   }
 };

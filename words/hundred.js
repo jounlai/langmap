@@ -1099,6 +1099,15 @@ WORDS.hundred = {
     nus: ["kuɔ̱r", "kuɔr"],
     bar: ["hundad", "ˈhʊndɐd"],
     blt: ["ꪭ꫁ꪮꪥ", "hɔj˧˩ˀ"],
-    mvf: ["jong", "ʥoŋ"]
+    mvf: ["jong", "ʥoŋ"],
+    lwl: ["ʼyuea", "ʔᵊjɨa̯"],
+    mch: ["hyaatodea soto", "hjaːtodea soto"],
+    mzh: ["sien", "sjen"],
+    sva: ["აშირ", "aʃir"],
+    jio: ["kɯːn", "kɯːn˥"],
+    agu: ["jun cient", "hun sjent"],
+    hch: ["xeitsienituyari", "ʃeitsienitujari"],
+    kmu: ["vani hataleti", "vani hataleti"],
+    toc: ["ciento", "sjento"]
   },
 };

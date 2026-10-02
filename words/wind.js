@@ -1101,6 +1101,9 @@ WORDS.wind = {
     nlc: ["kaboʼ", "kaboʔ"],
     bej: ["baraam", "baraːm"],
     dsh: ["waanich", "waːnitʃ"],
-    cjm: ["ꨀꨋꨪꩆ", "ʔaŋin"]
+    cjm: ["ꨀꨋꨪꩆ", "ʔaŋin"],
+    lwl: ["kaue", "kaɨ̯"],
+    hts: ["zzutchibii", "tsʼutʃʰibiʔi"],
+    xkz: ["zhilung", "çiluŋ"]
   },
 };

@@ -764,6 +764,14 @@ WORDS.butterfly = {
     ngu: ["papalotl", "paˈpalotɬ"],
     wuu_wz: ["蝴蝶", "vu˧˩ di˨˩˧"],
     mnp: ["蝴蝶", "u˨˩ tiɛ˦˨"],
-    xsr: ["བ་ལིབ", "pʰalip"]
+    xsr: ["བ་ལིབ", "pʰalip"],
+    lwl: ["mbung mbang", "ᵐbuŋ ᵐbaŋ"],
+    gay: ["kalangmemang", "kalaŋməmaŋ"],
+    wae: ["Pfiifoltra", "ˈpfiːfoltra"],
+    lld: ["pavël", "paˈvəl"],
+    jiv: ["wámpishuk", "ˈwampiʃuk"],
+    agu: ["slup", "slup"],
+    ixl: ["naaviʼ", "naːviʔ"],
+    xkz: ["pipaling", "pipaliŋ"]
   },
 };

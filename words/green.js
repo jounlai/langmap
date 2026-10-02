@@ -834,6 +834,18 @@ WORDS.green = {
     xsr: ["ལྗང་སྨུ", "dʑaŋmu"],
     ssw: ["luhlata", "luɬaːta"],
     maz: ["cʼanga", "kʼaŋɡa"],
-    mvf: ["noghoon", "noɢoon"]
+    mvf: ["noghoon", "noɢoon"],
+    lwl: ["snga", "sᵊŋa"],
+    hot: ["saŋgek", "saŋɡɛk"],
+    dsh: ["ɠileeb", "ɠileːb"],
+    rap: ["rito mata", "ɾito mata"],
+    trm: ["palašó", "palaʃo"],
+    hts: ["nxawejjene", "ᵑǁawetʃʼene"],
+    tkr: ["чыван", "tʃɨvan"],
+    rtm: ["čarava", "tʃarava"],
+    cho: ["okchamali", "oktʃamali"],
+    emp: ["pãwãrã", "pãwãˈɾã"],
+    chk: ["araw", "araw"],
+    cuk: ["arrad", "arːad"]
   }
 };

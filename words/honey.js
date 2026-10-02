@@ -1080,6 +1080,8 @@ WORDS.honey = {
     ker: ["son bə tum", "son bə tum"],
     bi: ["hani", "hani"],
     glk: ["عسل", "æsəl"],
-    wuu_wz: ["蜜", "mi˨˩˧"]
+    wuu_wz: ["蜜", "mi˨˩˧"],
+    mh: ["ōne", "ɤnʲe"],
+    kjb: ["yalkabʼ", "jalkaɓ"]
   },
 };

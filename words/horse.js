@@ -973,6 +973,8 @@ WORDS.horse = {
     dur: ["goʼoy", "ɡoʔoj"],
     mey: ["فرس", "vras"],
     zap: ["maniʼ", "maniʔ"],
-    wuu_wz: ["马", "mo˧˦"]
+    wuu_wz: ["马", "mo˧˦"],
+    aae: ["kalë", "ˈkalə"],
+    sva: ["ჩა̈ჟ", "tʃʰæʒ"]
   }
 };

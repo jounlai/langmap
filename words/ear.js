@@ -1169,6 +1169,7 @@ WORDS.ear = {
     nlc: ["o", "o"],
     dur: ["tɔ́g", "tɔɡ"],
     xsr: ["ཨ་མཆོག", "amtɕʰok"],
-    mvf: ["qigi", "ʨiɡə"]
+    mvf: ["qigi", "ʨiɡə"],
+    hts: ["hajjapitchi", "ɦatʃʼapitʃʰi"]
   },
 };

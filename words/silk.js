@@ -673,6 +673,15 @@ WORDS.silk = {
     ve: ["siliga", "siliɡa"],
     frp: ["sèya", "ˈsɛja"],
     luo: ["las", "las"],
-    maz: ["seda", "ˈseda"]
+    maz: ["seda", "ˈseda"],
+    chk: ["silik", "silik"],
+    tvl: ["silika", "silika"],
+    yai: ["birišim", "biriˈʃim"],
+    chr: ["ᏏᎵᎩ", "siliɡi"],
+    sva: ["ყა̈ჭ", "qʼætʃʼ"],
+    udi: ["абришӏум", "abriʃˤum"],
+    cng: ["ku xtʃan", "ku xtʃan"],
+    ers: ["kohtʃɛ", "ko˧˧htʃɛ˥˥"],
+    toc: ["seda", "seda"]
   }
 };

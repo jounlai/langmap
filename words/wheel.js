@@ -896,6 +896,10 @@ WORDS.wheel = {
     ddo: ["аӏгъур", "aˤʁur"],
     kry: ["çerx", "tʃerx"],
     gan: ["车砣", "tsʰa˦˨ tʰo˨˦"],
-    xsr: ["འཁོར་ལུ", "kʰorlu"]
+    xsr: ["འཁོར་ལུ", "kʰorlu"],
+    jiv: ["tuntunk", "tuntuŋk"],
+    ja_mvi: ["車", "kuɾuma"],
+    chf: ["rueda", "rweda"],
+    agu: ["toloʼ", "toloʔ"]
   }
 };

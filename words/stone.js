@@ -1138,6 +1138,10 @@ WORDS.stone = {
     pot: ["sen", "sɛn"],
     ssy: ["dhaa", "ɖaː"],
     pcc: ["hinl", "hin˨˦"],
-    mvf: ["tash", "taʂ"]
+    mvf: ["tash", "taʂ"],
+    lwl: ["smoʼ", "sᵊmoʔ"],
+    hts: ["haqqako", "ɦaᵑǃˀako"],
+    tkr: ["къае", "ɢaje"],
+    ers: ["əʴkhuɑ", "əʴ˥˥kʰuɑ˥˥"]
   },
 };

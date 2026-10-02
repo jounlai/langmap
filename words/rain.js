@@ -1094,6 +1094,9 @@ WORDS.rain = {
     tsj: ["ngamsu", "ŋamsu"],
     nlc: ["mok", "mok"],
     glk: ["وارش", "vɒːɾəʃ"],
-    mvf: ["huraa", "xuraa"]
+    mvf: ["huraa", "xuraa"],
+    lwl: ["hlaiʼ", "l̥ajˀ"],
+    trm: ["weṣiŋ", "weʂiŋ"],
+    yiz: ["muxoʐi", "mu˨˩xo˨˨ʐi˨˨"]
   },
 };

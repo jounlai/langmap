@@ -1178,6 +1178,7 @@ WORDS.four = {
     djr: ["ḏämbumiriw", "ɖaːmbumiɻiw"],
     mpt: ["asuke asuke", "asuke asuke"],
     nlc: ["dombadya", "dombadja"],
-    mvf: ["deeren", "deeren"]
+    mvf: ["deeren", "deeren"],
+    lwl: ["paueng", "paɨ̯ŋ"]
   },
 };

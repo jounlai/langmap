@@ -1193,6 +1193,7 @@ WORDS.foot = {
     atb: "leg+foot",
     gum: "leg+foot",
     yue_gz: "leg+foot",
+    juc: "leg+foot",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🦶", "en": "a word of its own", "ja": "足だけの語", "ko": "발만의 낱말", "zh": "脚有专词", "yue": "腳有專詞", "vi": "có từ riêng", "th": "มีคำเฉพาะ", "id": "punya kata sendiri", "hi": "अपना अलग शब्द", "de": "eigenes Wort", "fr": "un mot à lui", "it": "una parola propria", "es": "palabra propia", "pt": "palavra própria", "ru": "своё слово", "uk": "власне слово", "ar": "كلمة خاصة به", "he": "מילה משלה", "sw": "neno lake lenyewe"},
@@ -1667,7 +1668,7 @@ WORDS.foot = {
     jmc: ["urende", "uɾende"],  // Grollemund's ALGAB gives Machame urende for the leg and the Machame Bible washes marende in John 13 — John 19 breaks 'bones' here, which is the bone control, not a second lexeme.
     jpr: ["פא", "pɒ"],  // Judeo-Persian is Persian in Hebrew letters: פא is one word for the whole lower limb, as Persian پا.
     jqr: ["kayu", "kaju"],  // kayu answers both foot and leg for Jaqaru and for Kawki in Heggarty's Andean survey, the same survey that records chaki against chanka for Quechua and kayu against chara for Aymara.
-    juc: ["bethe", "bətxə"],  // Grube's 1896 edition of the 女真譯語, entry 505 'Fuss' = bethe. Manchu bethe is 'foot, leg' (Norman), and the atlas's mnc row already carries it as leg+foot.
+    juc: ["betie", "bətie"],  // Grube's 1896 edition of the 女真譯語, entry 505 'Fuss' = bethe. Manchu bethe is 'foot, leg' (Norman), and the atlas's mnc row already carries it as leg+foot. // was ["bethe", "bətxə"] (r46 fix 2026-10-03)
     jup: ["ɟʼib", "ɟʼib"],  // Epps's pot scene names both at once – cɨ̌ʔ, a lower leg, poking out, then húp=jʼib, a human foot – and ASJP's JUPDA T"ib is the same ɟʼib.
     jv: ["sikil", "sikil"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes tangan as taŋan.
     jvn: ["sikil", "sikil"],  // Caribbean Javanese keeps sikil unchanged — the row's own tangan and untu are likewise untouched — and its one systematic spelling change, final a to o, has no target here.

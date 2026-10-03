@@ -1138,7 +1138,7 @@ WORDS.water = {
     otq: ["dehe", "tehe"],
     tar: ["bawí", "bawi"],
     orv: ["вода", "voda"],
-    xsc: ["ap", "ap"],
+    xsc: ["—", "—"],
     sukh: ["น้ำ", "naːm"],
     xmr: ["𐦠𐦶", "ato"],
     onw: ["ⲁⲙⲁⲛ", "aman"],

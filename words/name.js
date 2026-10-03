@@ -1138,7 +1138,7 @@ WORDS.name = {
       otq: ["thuuhu", "tʰũːhũ"],
       tar: ["riwá", "ɾiwa"],
       orv: ["имѧ", "imẽ"],
-      xsc: ["nama", "naːma"],
+      xsc: ["—", "—"],
       sukh: ["ชื่อ", "tɕʰɯː"],
       xmr: ["—", "—"],
       onw: ["ⲧⲁⳟⲓⲥ", "taŋis"],

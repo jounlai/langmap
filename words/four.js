@@ -1189,6 +1189,7 @@ WORDS.four = {
     xag: ["bipʼ", "bipʼ"],
     zh_tang: ["四", "siɪH"],
     otk: ["𐱅𐰇𐰼𐱅", "tørt"],
-    tpn: ["oîoirundyk", "ɔjɔiɾũˈⁿdɨk"]
+    tpn: ["oîoirundyk", "ɔjɔiɾũˈⁿdɨk"],
+    txg: ["𗥃", "ljɨr˧"]
   },
 };

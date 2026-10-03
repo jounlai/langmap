@@ -1165,7 +1165,7 @@ WORDS.tree = {
     ojp: ["木", "kï"],
     p_jpk: ["—", "—"],
     h_vedic: ["वृक्षः", "vr̩kʂaɦ"],
-    txg: ["𘀇", "sji˧"],
+    txg: ["𗝠", "sji˧"],
     sog: ["drxt", "draxt"],
     otk: ["𐰃𐰍𐰲", "ɯɣatʃ"],
     ami: ["kilang", "kilaŋ"],

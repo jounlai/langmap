@@ -315,7 +315,6 @@ WORDS.bear = {
     pa: "inherited",
     gu: "inherited",
     mr: "inherited", // route 2026-10-02 (r28 flag): āsval < *r̥kṣabhalla, Turner CDIAL 2446
-    got: "taboo",
     ang: "taboo",
     enm: "taboo",
     en_em: "taboo",
@@ -1127,7 +1126,6 @@ WORDS.bear = {
 
     // --- Indo-European: the euphemisms --------------------------------
     // Germanic: "the brown one".
-    got: ["*𐌱𐌰𐌹𐍂𐌰", "ˈbɛra"],
     ang: ["bera", "ˈbera"],
     enm: ["bere", "ˈbɛːrə"],
     en_em: ["bear", "beːr"],

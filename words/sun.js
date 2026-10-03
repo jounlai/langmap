@@ -1136,7 +1136,7 @@ WORDS.sun = {
     otq: ["hyadi", "hjadi"],
     tar: ["rayó", "ɾajo"],
     orv: ["сълньце", "sŭlnĭtse"],
-    xsc: ["hvar", "xʷar"],
+    xsc: ["—", "—"],
     sukh: ["ตะวัน", "tawan"],
     xmr: ["𐦨𐦯", "ˈmasa"],
     onw: ["ⲙⲁϣⲁⲗ", "maʃal"],
@@ -1153,7 +1153,7 @@ WORDS.sun = {
         { form: "nair", script: "Latin (Kane 2009 reading)", source: "Kane (2009) Index of Graphs #159 — Khitan *nair (sun / day), cognate Mongolic nara." },
       ],
     },
-    juc: ["inenggi", "inəŋɡi"],  // Grube 1896 #3 'Sonne, Tag' = yih-nöng-kih, m. inenggi — one Jurchen word for sun and day. The row's earlier šun is the Manchu sun word, which Grube's entry does not license; see the row comment on the invented 漢字音訳.
+    juc: ["še'un", "ʃeun"],  // Grube 1896 #3 'Sonne, Tag' = yih-nöng-kih, m. inenggi — one Jurchen word for sun and day. The row's earlier šun is the Manchu sun word, which Grube's entry does not license; see the row comment on the invented 漢字音訳.
     omx: ["တ္ၚဲ", "tŋai"],
     pyx: ["—", "—"],
     obr: ["နိ", "niy"],
@@ -1162,7 +1162,7 @@ WORDS.sun = {
     ojp: ["日", "pi"],
     p_jpk: ["—", "—"],
     h_vedic: ["सूर्यः", "suːrjaɦ"],
-    txg: ["𘂴", "pjij˧˥"],
+    txg: ["𗾔", "be˧˥"],
     sog: ["xwr", "xwar"],
     otk: ["𐰚𐰇𐰤", "kyn"],
     ami: ["cidal", "tsiðal"],

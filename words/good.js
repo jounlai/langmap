@@ -1138,7 +1138,7 @@ WORDS.good = {
     otq: ["hño", "hɲo"],
     tar: ["galá", "ɡala"],
     orv: ["добръ", "dobrŭ"],
-    xsc: ["vohu", "wohu"],
+    xsc: ["—", "—"],
     sukh: ["ดี", "diː"],
     xmr: ["𐦨𐦬𐦣", "ˈmalu"],
     onw: ["ⲇⲱⲗⲗⲉ", "dolle"],
@@ -1148,7 +1148,7 @@ WORDS.good = {
     omy: ["baik", "baik"],
     osn: ["hade", "hade"],
     h_tagalog: ["ᜋᜊᜓᜆᜒ", "mabuti"],
-    zkt: ["sayïn", "sajin"],
+    zkt: ["—", "—"],
     juc: ["sain", "sain"],
     omx: ["ခိုဟ်", "kʰɔh"],
     pyx: ["ha", "ha(k)"],
@@ -1158,7 +1158,7 @@ WORDS.good = {
     ojp: ["与之", "josi"],
     p_jpk: ["—", "—"],
     h_vedic: ["साधु", "saːdʱu"],
-    txg: ["—", "—"], // emptied: 𗏁 is FIVE — the same graph the five cell correctly uses (Tangut pass, 2026-09-13)
+    txg: ["𗩴", "new˧˥"], // emptied: 𗏁 is FIVE — the same graph the five cell correctly uses (Tangut pass, 2026-09-13)
     sog: ["nyk", "neːk"],
     otk: ["𐰓𐰏𐰈", "ædɡy"],
     ami: ["kapah", "kapah"],

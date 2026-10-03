@@ -980,7 +980,7 @@ WORDS.white = {
     omy: ["putih", "putih"],
     osn: ["bodas", "bodas"],
     h_tagalog: ["ᜉᜓᜆᜒ", "puˈtiʔ"],
-    juc: ["šangiyan", "ʃaŋɡijan"],
+    juc: ["šanggia", "ʃaŋɡia"],
     omx: ["ဗ္တာၚ်", "bətaiŋ"],
     obr: ["ဖ္လူ", "pʰlu"],
     ocm: ["patih", "patih"],

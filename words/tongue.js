@@ -1087,7 +1087,7 @@ WORDS.tongue = {
     osn: ["letah", "lətah"],
     h_tagalog: ["ᜇᜒᜎ", "diˈlaʔ"],
     zkt: ["—", "—"],
-    juc: ["ilengu", "iləŋɡu"],
+    juc: ["ilenggi", "iləŋɡi"],
     omx: ["ကတာက်", "kətaik"],
     pyx: ["—", "—"],
     obr: ["လျှာ", "lhjaː"],

@@ -602,7 +602,7 @@ WORDS.sleep = {
     omy: ["tidur", "tidur"],
     osn: ["saré", "sare"],
     h_tagalog: ["ᜆᜓᜎᜓᜄ᜔", "ˈtuloɡ"],
-    juc: ["dedure", "dədurə"],
+    juc: ["dedu", "dədu"],
     och: ["寐", "*mi[t]-s"],
     ojp: ["寝", "nu"],
     h_vedic: ["स्वपिति", "sʋɐpiti"],

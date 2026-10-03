@@ -1148,7 +1148,7 @@ WORDS.drink = {
     osn: ["nginum", "ŋinum"],
     h_tagalog: ["ᜁᜈᜓᜋ᜔", "inom"],
     zkt: ["umi", "umi"],
-    juc: ["omi", "omi"],
+    juc: ["umi", "umi"],
     omx: ["သုက်", "sok"],
     pyx: ["—", "—"],
     obr: ["ၐုက်", "suk"],
@@ -1157,7 +1157,7 @@ WORDS.drink = {
     ojp: ["能牟", "nəmu"],
     p_jpk: ["—", "—"],
     h_vedic: ["पिबति", "pibati"],
-    txg: ["—", "—"], // emptied: 𘉞 is a verbal agreement suffix (Tangut pass, 2026-09-13)
+    txg: ["𗠰", "tʰji˧"], // emptied: 𘉞 is a verbal agreement suffix (Tangut pass, 2026-09-13)
     sog: ["pi-", "pi"],
     otk: ["𐰃𐰲-", "itʃ"],
     ami: ["minom", "minom"],

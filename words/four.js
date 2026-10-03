@@ -1165,7 +1165,7 @@ WORDS.four = {
     kgp: ["vẽnh kãgra", "wẽɲ kãŋɾa"],
     sjd: ["не̄лльй", "ɲeːʎːj"],
     sce: ["jieran", "dʑiəran"],
-    mjg: ["deeren", "deːren"],
+    mjg: ["deeran", "deːran"],
     ale: ["сичин", "sitʃin"],
     kjj: ["онгъ", "onʁ"],
     khv: ["укъен", "uqʼen"],
@@ -1209,6 +1209,8 @@ WORDS.four = {
     woe: ["fangi", "faŋi"],
     cia: ["paʼa", "paʔa"],
     jup: ["hibabʼní", "hibabʼní"],
-    trm: ["čātā", "tʃaːtaː"]
+    trm: ["čātā", "tʃaːtaː"],
+    blk: ["လစ်ꩻ", "lit˦˥"],
+    yuy: ["dørwen", "dørwen"]
   },
 };

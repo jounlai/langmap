@@ -135,7 +135,7 @@ WORDS.cat = {
       slr: ["kiçi", "kitɕi"],
       ybe: ["—", "—"],
       yuy: ["мэшэ", "meʃe"],
-      mjg: ["mulagsai", "mulɑɡˈsaɪ"],
+      mjg: ["muuxi", "muːɕi"],
       sce: ["bisalai", "biːsəlai"],
       peh: ["—", "—"],
       cjs: ["мъскъ", "mɯsqɯ"],

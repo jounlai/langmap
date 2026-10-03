@@ -2300,7 +2300,7 @@ WORDS.foot = {
     yug: ["бул", "bul"],  // Werner 2011: 145 through the GLD's Yeniseian list, which calls бул quite distinct from киʼс 'leg' (Werner 2011: 85); the row transliterates Werner's Latin into Cyrillic throughout, and Yugh has the plain -l where Ket has буль. This inverts our ket cell, which reports NorthEuraLex faithfully — Werner glosses both words нога and the two databases split it the opposite ways.
     yur: ["mechkah", "metʃkah"],  // Yurok's dependent noun is me-chkah 'somebody's foot', which Georgiana Trull's book lists a few lines above meehl 'leg'.
     yux: ["нойл", "nojl"],  // The Kolyma source that gives this row its нугэн 'hand' answers both foot and leg with nojl — Tundra Yukaghir splits them, Kolyma does not.
-    yuy: ["көл", "køl"],  // көл covers both, the Proto-Mongolic *köl that Mongolian хөл and Kalmyk көл continue.
+    yuy: ["køl", "køl"],  // көл covers both, the Proto-Mongolic *köl that Mongolian хөл and Kalmyk көл continue. // was ["көл", "køl"] (r48 B fix 2026-10-03)
     za: {
       form: "䟓",
       ipa:  "tin˨˦",

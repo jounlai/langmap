@@ -892,7 +892,7 @@ WORDS.rain = {
     ljp: ["ujan", "udʒan"],
     maw: ["sa", "sa"],
     mev: ["dɛ", "dɛ"],
-    mjg: ["xuraa", "xuraː"],
+    mjg: ["huraa", "xuraː"],
     mnw: ["ဗြဲ", "proa"],
     mpt: ["sok", "sok"],
     nio: ["соруа", "sorʷa"],
@@ -933,7 +933,7 @@ WORDS.rain = {
     ykg: ["тивэ", "tiwe"],
     yrk: ["сарё", "sarʲo"],
     yux: ["тибо", "tibo"],
-    yuy: ["хура", "xura"],
+    yuy: ["xura", "χura"],
     zne: ["mai", "mai"],
     // --- Tocharian A/B and Proto-Austroasiatic aside, the rest of this batch
     // is written from standard reference lexica rather than the CLDF dumps ---
@@ -1119,6 +1119,7 @@ WORDS.rain = {
     lep: ["ᰠᰨ", "so"],
     wmt: ["manypu", "ˈmaɲpu"],
     aoc: ["konok", "konok"],
-    kfr: ["મીં", "mĩː"]
+    kfr: ["મીં", "mĩː"],
+    blk: ["ခမ်း", "kʰam˥˧"]
   },
 };

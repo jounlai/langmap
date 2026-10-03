@@ -792,7 +792,7 @@ WORDS.wind = {
     mwk: ["fɔɲɔ", "fɔɲɔ"],
     mnk: ["foño", "foɲo"],
     dag: ["pɔhim", "pɔhim"],
-    jqr: ["wayra", "wajra"],
+    jqr: ["wawya", "wawja"],
     jiv: ["nase", "nase"],
     acu: ["nase", "nase"],
     cab: ["garabali", "ɡarabali"],
@@ -1140,6 +1140,7 @@ WORDS.wind = {
     rmt: ["wāy", "waːj"],
     dtp_kzj: ["tongus", "toŋus"],
     blr: ["kɨn51", "kɨn˥˩"],
-    nmn: ["ǂqhùe", "ǂqʰue"]
+    nmn: ["ǂqhùe", "ǂqʰue"],
+    blk: ["တလီꩻ", "tə li˧˧"]
   },
 };

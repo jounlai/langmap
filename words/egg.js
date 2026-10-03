@@ -1114,6 +1114,10 @@ WORDS.egg = {
     na: ["epaitdomo", "epaitdomo"],
     pmt: ["tōuo", "toːuo"],
     cjs: ["нубуртқа", "nuburtqa"],
-    iso: ["ike", "ike"]
+    iso: ["ike", "ike"],
+    blk: ["ဒီႏ", "di˥˥"],
+    jqr: ["nuru", "nuɾu"],
+    yuy: ["bala", "bala"],
+    mjg: ["dige", "diɡe"]
   },
 };

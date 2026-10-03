@@ -1060,6 +1060,8 @@ WORDS.horse = {
     blr: ["ka31 hɔŋ51", "ka˧˩ hɔŋ˥˩"],
     wmt: ["dimana", "ˈdimana"],
     szy: ["kabayu", "kabaju"],
-    niu: ["solofanua", "solofanua"]
+    niu: ["solofanua", "solofanua"],
+    blk: ["သေ", "se̤˧˩"],
+    mjg: ["mori", "mori"]
   }
 };

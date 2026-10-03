@@ -1272,14 +1272,14 @@ WORDS.we = {
     prk: ["—", "—"],
     slr: ["biser", "biser"],
     ybe: ["mɨs", "mɯs"],
-    yuy: ["будас / буда", "budas / buda"],
+    yuy: ["budas / buda", "budas / buda"], // was ["будас / буда", "budas / buda"] (r48 B fix 2026-10-03)
     mjg: ["buda", "puda"],
     sce: ["matan / bijien", "matan / pitɕiən"],
     peh: ["bədə", "bədə"],
     cjs: ["пис", "pis"],
     dlg: ["биһиги", "bihiɡi"],
     kdt: ["hmai", "m̥aj"],
-    blk: ["နီ", "ni"],
+    blk: ["နီ", "ni̤˧˩"], // was ["နီ", "ni"] (r48 B fix 2026-10-03)
     njo: ["—", "—"],
     srb: ["anlen", "anlen"],
     kjg: ["iʔ", "ʔiʔ"],

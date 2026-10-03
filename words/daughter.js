@@ -1123,6 +1123,7 @@ WORDS.daughter = {
     qxs: ["tɕi", "tɕi"],
     kim: ["ӄыс", "qɯs"],
     blr: ["kɔn51 ka31 pon51", "kɔn˥˩ ka˧˩ pon˥˩"],
-    kfr: ["ધી", "dʱiː"]
+    kfr: ["ધી", "dʱiː"],
+    mjg: ["xjun", "ɕtɕun"]
   },
 };

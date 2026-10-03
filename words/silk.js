@@ -752,6 +752,7 @@ WORDS.silk = {
     swi: ["min2", "min˧˩"],
     niu: ["silika", "silika"],
     wls: ["silika", "silika"],
-    kj: ["osilki", "osilki"]
+    kj: ["osilki", "osilki"],
+    mjg: ["tiriga", "tiriɡa"]
   }
 };

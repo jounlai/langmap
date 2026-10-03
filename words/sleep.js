@@ -662,8 +662,8 @@ WORDS.sleep = {
     alt: ["уйуктаар", "ujuktaːr"],
     krc: ["джукъларгъа", "dʒuqlarʁa"],
     qxq: ["yatmaq", "jatˈmaq"],
-    yuy: ["унтаха", "untaχa"],
-    mjg: ["unda", "ˈunda"],
+    yuy: ["nda", "nda"],
+    mjg: ["qaa", "tɕʰaː"],
     peh: ["təra-", "təra"],
     mvf: ["ntiraa", "ntəraa"],
     yrk: ["хонась", "xonasʲ"],
@@ -1146,6 +1146,7 @@ WORDS.sleep = {
     bsk: ["oyanas", "ojanas"],
     prg: ["meicte", "meikte"],
     bor: ["nudu", "nudu"],
-    nmn: ["ʘân", "ʘã"]
+    nmn: ["ʘân", "ʘã"],
+    blk: ["ဗေင်ႏ", "beŋ˥˥"]
   },
 };

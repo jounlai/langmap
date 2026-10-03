@@ -1099,6 +1099,7 @@ WORDS.iron = {
     dtp_kzj: ["bosiʼ", "bosiʔ"],
     bdk: ["йилег", "jileɡ"],
     njo: ["yin", "jin"],
-    wls: ["ukamea", "ukamea"]
+    wls: ["ukamea", "ukamea"],
+    mjg: ["timuri", "timuri"]
   },
 };

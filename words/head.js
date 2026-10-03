@@ -1136,6 +1136,10 @@ WORDS.head = {
     kim: ["баъш", "baʔʃ"],
     dlg: ["бас", "bas"],
     cjs: ["паш", "paʃ"],
-    nmn: ["ǀnàn", "ǀnã"]
+    nmn: ["ǀnàn", "ǀnã"],
+    blk: ["ကတူႏ", "kəʔ˨˩ tu˥˥"],
+    jqr: ["nampʼa", "nampʼa"],
+    yuy: ["toloʁui", "toloʁui"],
+    mjg: ["tulighui", "tuliʁui"]
   },
 };

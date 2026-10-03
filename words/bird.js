@@ -1164,6 +1164,10 @@ WORDS.bird = {
     na: ["imin ȯeta", "imin ɔeta"],
     qxs: ["dʑeyemə", "dʑeyemə"],
     lep: ["ᰑᰨ", "fo"],
-    dtp_kzj: ["tombolog", "tomboloɡ"]
+    dtp_kzj: ["tombolog", "tomboloɡ"],
+    blk: ["ဝါး", "wa˥˧"],
+    jqr: ["chʼipi", "tʃʼipi"],
+    yuy: ["ʃuun", "ʃuːn"],
+    mjg: ["xuu", "ɕuː"]
   },
 };

@@ -864,8 +864,8 @@ WORDS.nose = {
     cjs: ["пурун", "purun"],
     qxq: ["burun", "buˈrun"],
     kim: ["хаай", "xaːj"],
-    mjg: ["xavar", "xawar"],
-    yuy: ["хавар", "χawar"],
+    mjg: ["hawari", "xawari"],
+    yuy: ["xawar", "χawar"],
     // --- Iranian, Indic, and the isolate next door ----------------------
     bal: ["پونز", "poːnz"],
     glk: ["دماغ", "dəmaɣ"],
@@ -1146,6 +1146,7 @@ WORDS.nose = {
     car: ["anàta", "anahta"],
     qxs: ["χȵiqopə", "χɲiqopə"],
     ake: ["enna", "enna"],
-    aau: ["kasaw", "kasaw"]
+    aau: ["kasaw", "kasaw"],
+    blk: ["နေ့ဖူ", "neʔ˦˥ pʰu"]
   },
 };

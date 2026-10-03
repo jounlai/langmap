@@ -119,7 +119,7 @@ WORDS.white = {
     prk: ["paing", "paiŋ"],
     slr: ["ax", "ax"],
     ybe: ["aq", "ɑq"],
-    yuy: ["чагаан", "tʃaʁaːn"],
+    yuy: ["tʃaʁaan", "tʃaʁaːn"],
     mjg: ["qighaan", "tɕiʁaːn"],
     sce: ["chighan", "tʂiɢan"],
     peh: ["ʨiɢaŋ", "tɕiɢaŋ"],

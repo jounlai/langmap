@@ -970,7 +970,7 @@ WORDS.ear = {
     itl: ["иʼл", "iʔl"],
     xqa: ["qulqaq", "qulqaq"],
     xng: ["ᠴᠢᠬᠢᠨ", "tʃikin"],
-    mjg: ["chigi", "tʃiɡi"],
+    mjg: ["qigi", "tɕʰiɡi"],
     juc: ["šan", "ʃan"],
     ude: ["куай", "kuʔai"],
     brh: ["خف", "xaf"],
@@ -1181,6 +1181,8 @@ WORDS.ear = {
     one: ["ohúhtaʼ", "ohṹhtaʔ"],
     kio: ["tʼɔ́:dé", "tʼɔ́ːdé"],
     qxs: ["ȵikie", "ɲikie"],
-    lep: ["ᰉᰫᰲ", "ɲur"]
+    lep: ["ᰉᰫᰲ", "ɲur"],
+    blk: ["နားလာႏ", "na˥˧ la˥˥"],
+    yuy: ["tʃəʁən", "tʃəʁən"]
   },
 };

@@ -849,6 +849,7 @@ WORDS.butterfly = {
     wal: ["muqo", "mukʼo"],
     nzi: ["ɛbolakɔlɛ", "ɛbolakɔlɛ"],
     nbl: ["iviyaviyani", "ivijavijani"],
-    lun: ["ipupwila", "ipupwila"]
+    lun: ["ipupwila", "ipupwila"],
+    mjg: ["xanbalaxji", "ɕanbalaɕtɕi"]
   },
 };

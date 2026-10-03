@@ -461,7 +461,7 @@ WORDS.black = {
     quy: ["yana", "jana"],
     qwc: ["yana", "jana"],
     ay: ["chʼiyara", "tʃʼijara"],
-    jqr: ["chʼiyara", "tʃʼijara"],
+    jqr: ["tsʼirara", "tsʼiɾaɾa"],
     gn: ["hũ", "hũ"],
     gun: ["hũ", "hũ"],
     yrl: ["pixuna", "piʃuna"],
@@ -1126,7 +1126,7 @@ WORDS.black = {
     zh_hf: ["黑", "xɐʔ˦"],
     rut: ["лыӏхды", "lɨˤxdɨ"],
     kgg: ["soksogərəm", "soksoɡərəm"],
-    mjg: ["xara", "xara"],
+    mjg: ["hara", "xara"],
     vls: ["zwort", "zwɔrt"],
     wym: ["świöc", "ʃviøts"],
     dtp_kzj: ["oitom", "oitom"],
@@ -1224,6 +1224,8 @@ WORDS.black = {
     win: ["seep", "seːp"],
     qxs: ["ȵiȵi", "ɲiɲi"],
     yle: ["kpêdêkpêdê", "kpədəkpədə"],
-    guu: ["iʃi", "iʃi"]
+    guu: ["iʃi", "iʃi"],
+    blk: ["ဖြေင်း", "pʰleŋ˥˧"],
+    yuy: ["xara", "χara"]
   },
 };

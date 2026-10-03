@@ -1019,6 +1019,9 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                blk: new Set(['good', 'love', 'hello', 'snow', 'night']),   // r48 B: wrong-language cells removed, no right-language source yet
+                yuy: new Set(['love', 'hello', 'thanks']),   // r48 B: wrong-language cells removed, no right-language source yet
+                mjg: new Set(['star', 'thanks']),   // r48 B: wrong-language cells removed, no right-language source yet
                 ake: new Set(['house']),   // r47: enna was 'nose' (Webonary akawaio)
                 jiu: new Set(['bone', 'hello', 'thanks']),
                 pmi: new Set(['hello', 'thanks']),

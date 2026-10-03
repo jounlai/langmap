@@ -1112,6 +1112,10 @@ WORDS.new = {
     wmt: ["jalangjalang", "ˈɟalaŋɟalaŋ"],
     guu: ["tute", "tute"],
     na: ["etaimeduw", "etaimeduw"],
-    fan: ["nféféñ", "nféféɲ"]
+    fan: ["nféféñ", "nféféɲ"],
+    blk: ["တသာ", "tə sa̤˧˩"],
+    jqr: ["machaqa", "matʃaqa"],
+    yuy: ["ʃənə", "ʃənə"],
+    mjg: ["xni", "ɕni"]
   }
 };

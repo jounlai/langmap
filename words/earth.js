@@ -916,7 +916,7 @@ WORDS.earth = {
     bdq: ["teh", "tɛh"],
     mra: ["bɛʔ", "bɛʔ"],
     p_aav: ["*tiʔ", "tiʔ"],
-    mjg: ["ghajar", "ɢadʑar"],
+    mjg: ["ghajari", "ʁadʑari"],
     sce: ["ghazha", "ɢadʐa"],
     peh: ["saʨiə", "satɕiə"],
     aoz: ["afu", "afu"],
@@ -1174,6 +1174,8 @@ WORDS.earth = {
     bzg: ["ta", "ta"],
     dru: ["dae", "daə"],
     qxs: ["dzu", "dzu"],
-    lep: ["ᰑᰦᰳ", "fat"]
+    lep: ["ᰑᰦᰳ", "fat"],
+    blk: ["ဟံႏ", "ham˥˥"],
+    yuy: ["ʃəruu", "ʃəruː"]
   }
 };

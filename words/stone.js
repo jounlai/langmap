@@ -1117,7 +1117,7 @@ WORDS.stone = {
     bin: ["okuta", "okuta"],
     kgg: ["yeŋgu", "jeŋɡu"],
     trn: ["mari", "maɾi"],
-    mjg: ["tash", "taʂ"],
+    mjg: ["taashi", "taːʂi"],
     wym: ["śtan", "ʃtan"],
     yiz: ["lumɯ", "lu˧˧mɯ˨˨"],
     mra: ["gɛp", "ɡɛp"],
@@ -1170,6 +1170,8 @@ WORDS.stone = {
     itl: ["вач", "βatʃ"],
     rut: ["духул", "duχul"],
     kjj: ["мыда", "mɨda"],
-    blc: ["t̓x̣t", "tʼχt"]
+    blc: ["t̓x̣t", "tʼχt"],
+    blk: ["လုံး", "loŋ˥˧"],
+    yuy: ["tʃəluu", "tʃəluː"]
   },
 };

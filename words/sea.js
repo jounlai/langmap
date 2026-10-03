@@ -1029,6 +1029,7 @@ WORDS.sea = {
     blr: ["ʔum51 hɔn51", "ʔum˥˩ hɔn˥˩"],
     bdk: ["кӏуф", "kʼuf"],
     nuf: ["shuɑ35", "sʰuɑ˧˥"],
-    nrf_gg: ["maïr", "majr"]
+    nrf_gg: ["maïr", "majr"],
+    yuy: ["dalii", "daliː"]
   }
 };

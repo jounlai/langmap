@@ -776,6 +776,11 @@ WORDS.rice = {
     itb: ["paray", "paraj"],
     trv: ["buwax payay", "buwax pajaj"],
     cjm: ["ꨝꨴꩍ", "brah"],
-    dtp_kzj: ["vagas", "vaɡas"]
+    dtp_kzj: ["vagas", "vaɡas"],
+    mez: ["manōmaeh", "manoːmæh"],
+    pmi: ["tɕhyø35", "tɕʰyø˧˥"],
+    twm: ["dem13", "dem˩˧"],
+    qxs: ["qʰə", "qʰə"],
+    adx: ["འབྲས", "ndʐe"]
   }
 };

@@ -1163,6 +1163,10 @@ WORDS.stone = {
     swb: ["ɓwe", "ɓwe"],
     na: ["epe", "epe"],
     woe: ["faaú", "faːu"],
-    szy: ["baʼtu", "baʔtu"]
+    szy: ["baʼtu", "baʔtu"],
+    mez: ["aqsan", "aʔsan"],
+    umu: ["asun", "əsən"],
+    qxs: ["ʁo", "ʁo"],
+    itl: ["вач", "βatʃ"]
   },
 };

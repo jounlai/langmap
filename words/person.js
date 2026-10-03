@@ -1074,6 +1074,13 @@ WORDS.person = {
     zdj: ["mndru", "mndʳu"],
     dsh: ["maadhat", "maːðat"],
     na: ["engame", "eŋame"],
-    bzg: ["cho", "tʃo"]
+    bzg: ["cho", "tʃo"],
+    es_ni: ["persona", "peɾˈsona"],
+    pmi: ["mə53", "mə˥˧"],
+    twm: ["mi13", "mi˩˧"],
+    qxs: ["mə", "mə"],
+    lep: ["ᰕᰛᰩ", "mərɔ"],
+    khw: ["روے", "ɾɔɪ"],
+    yux: ["шоромо", "ʃoromə"]
   }
 };

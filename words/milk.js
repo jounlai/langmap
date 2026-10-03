@@ -1087,6 +1087,7 @@ WORDS.milk = {
     kpe: ["ngini-ya", "ŋini ja"],
     dsh: ["eeno", "eːno"],
     pzh: ["nunuh", "nunuh"],
-    szy: ["hacul", "hatsul"]
+    szy: ["hacul", "hatsul"],
+    qxs: ["ȵyȵytsuə", "ɲyɲytsuə"]
   },
 };

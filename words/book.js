@@ -1029,6 +1029,11 @@ WORDS.book = {
     kpe: ["kɔlɔ", "kɔlɔ"],
     ssf: ["patashan", "pataʃan"],
     pzh: ["babizu", "babizu"],
-    cia: ["boku", "boku"]
+    cia: ["boku", "boku"],
+    es_ni: ["libro", "ˈliβɾo"],
+    pmi: ["dʑi35dʑi35", "dʑi˧˥dʑi˧˥"],
+    twm: ["ji13ci53", "ji˩˧ci˥˧"],
+    qxs: ["ʒɿʒɿ", "ʒɿʒɿ"],
+    adx: ["དཔེ་ཆ", "hwetɕʰa"]
   }
 };

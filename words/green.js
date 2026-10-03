@@ -1000,6 +1000,7 @@ WORDS.green = {
     ar_sa: ["أخضر", "ʔaˈxaðˤar"],
     ngl: ["ntikwa", "ntikwa"],
     cia: ["moijo", "moidʒo"],
-    nlc: ["sugulamla", "suɡulamla"]
+    nlc: ["sugulamla", "suɡulamla"],
+    qxs: ["χueχue", "χueχue"]
   }
 };

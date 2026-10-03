@@ -1220,6 +1220,9 @@ WORDS.black = {
     na: ["etangang", "etaŋaŋ"],
     pmt: ["kere", "kere"],
     pzh: ["terehen", "təɾəhən"],
-    szy: ["lumeniʼ", "luməniʔ"]
+    szy: ["lumeniʼ", "luməniʔ"],
+    win: ["seep", "seːp"],
+    qxs: ["ȵiȵi", "ɲiɲi"],
+    yle: ["kpêdêkpêdê", "kpədəkpədə"]
   },
 };

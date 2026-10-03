@@ -1172,6 +1172,8 @@ WORDS.earth = {
     swb: ["trotro", "tɾotɾo"],
     wmt: ["nguwa", "ˈŋuwa"],
     bzg: ["ta", "ta"],
-    dru: ["dae", "daə"]
+    dru: ["dae", "daə"],
+    qxs: ["dzu", "dzu"],
+    lep: ["ᰑᰦᰳ", "fat"]
   }
 };

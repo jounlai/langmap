@@ -356,7 +356,7 @@ WORDS.poop = {
     nbl: ["amasimba", "amasimba"],
     nd: ["amasimba", "amasimba"],
     kw: ["kawgh", "kauɣ"],
-    kgp: ["—", "—"],
+    kgp: ["jãfa", "jãˈɸa"],
     tob: ["—", "—"],
     plg: ["—", "—"],
     moc: ["—", "—"],
@@ -836,6 +836,12 @@ WORDS.poop = {
     pkp: ["tūtae", "tuːtae"],
     pmt: ["tūtae", "tuːtae"],
     ami: ["tayiʼ", "tajiʔ"],
-    djr: ["guḻaʼ", "ɡuɭaʔ"]
+    djr: ["guḻaʼ", "ɡuɭaʔ"],
+    dak: ["čhesdí", "tʃʰesdí"],
+    tue: ["kʉ̃dã", "kɨ̃dã"],
+    pmi: ["xe53", "xe˥˧"],
+    twm: ["ȵin13", "ɲin˩˧"],
+    qxs: ["tʃʰɿ", "tʃʰɿ"],
+    tsj: ["khi", "kʰi"]
   },
 };

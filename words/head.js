@@ -1127,6 +1127,14 @@ WORDS.head = {
     wuu_jx: ["头", "de˧˩"],
     swb: ["shitswa", "ʃitswa"],
     na: ["itub", "itub"],
-    kky: ["ngaabaay", "ŋaːbaːj"]
+    kky: ["ngaabaay", "ŋaːbaːj"],
+    win: ["nąąsu", "nãːˈsu"],
+    pmi: ["khu53", "kʰu˥˧"],
+    twm: ["kɔk13theʔ53", "kɔk˩˧tʰeʔ˥˧"],
+    qxs: ["qəpotʂɿ", "qəpotʂɿ"],
+    lep: ["ᰣᰦᰋᰤᰦᰭ", "ʔatʰjak"],
+    kim: ["баъш", "baʔʃ"],
+    dlg: ["бас", "bas"],
+    cjs: ["паш", "paʃ"]
   },
 };

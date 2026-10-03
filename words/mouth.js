@@ -1151,6 +1151,12 @@ WORDS.mouth = {
     es_pr: ["boca", "ˈboka"],
     pt_ao: ["boca", "ˈbokɐ"],
     swb: ["hanyo", "haɲo"],
-    har: ["af", "ɑf"]
+    har: ["af", "ɑf"],
+    es_ni: ["boca", "ˈboka"],
+    win: ["ii", "iː"],
+    car: ["pota", "pota"],
+    pmi: ["ȵõ35", "ɲõ˧˥"],
+    twm: ["khᴀ53", "kʰᴀ˥˧"],
+    qxs: ["χqɑ", "χqɑ"]
   }
 };

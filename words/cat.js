@@ -90,7 +90,7 @@ WORDS.cat = {
       hsn_yz: ["猫", "mau˨˩˧"],
       czh_wy: ["猫", "miɑ̃˦˦"],
       bla: ["poos", "poːs"],
-      hop: ["—", "—"],
+      hop: ["moosa", "moːsa"],
       com: ["ʉsʉʔ", "ɨsɨʔ"],
       one: ["taks", "taks"],
       ono: ["takó:s", "takóːs"],

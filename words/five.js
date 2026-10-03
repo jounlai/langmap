@@ -1190,6 +1190,7 @@ WORDS.five = {
     deg: ["isuwon", "isuwon"],
     na: ["aijimeo", "aijimeo"],
     woe: ["liime", "liːme"],
-    nys: ["maar", "maːɻ"]
+    nys: ["maar", "maːɻ"],
+    lep: ["ᰑᰅᰫ", "fəŋu"]
   },
 };

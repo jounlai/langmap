@@ -1133,6 +1133,10 @@ WORDS.wind = {
     com: ["nʉepi", "nɨepi"],
     swb: ["pev̄o", "peβo"],
     na: ["engin", "eŋin"],
-    woe: ["yaangi", "jaːŋi"]
+    woe: ["yaangi", "jaːŋi"],
+    qxs: ["mɑʁu", "mɑʁu"],
+    khw: ["گان", "ɡaːn"],
+    cjs: ["чел", "tʃel"],
+    rmt: ["wāy", "waːj"]
   },
 };

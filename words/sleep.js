@@ -1138,6 +1138,10 @@ WORDS.sleep = {
     nha: ["wuupata", "wuːpata"],
     wmt: ["manyan", "ˈmaɲan"],
     bzg: ["summara", "sumːara"],
-    szy: ["mabiʼ", "mabiʔ"]
+    szy: ["mabiʼ", "mabiʔ"],
+    blc: ["tsituma", "tsituma"],
+    yan: ["kami", "kami"],
+    qxs: ["ne", "ne"],
+    lep: ["ᰌᰦ", "da"]
   },
 };

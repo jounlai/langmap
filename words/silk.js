@@ -739,6 +739,10 @@ WORDS.silk = {
     en_est: ["silk", "sɪwk"],
     bm: ["hadiri", "hadiri"],
     dru: ["kadhupu", "kaðupu"],
-    bnn: ["kaiku", "kaiku"]
+    bnn: ["kaiku", "kaiku"],
+    es_ni: ["seda", "ˈseða"],
+    pmi: ["thiɛ35", "tʰiɛ˧˥"],
+    twm: ["tʂuk13tsi53", "tʂuk˩˧tsi˥˧"],
+    qxs: ["ʁueχto", "ʁueχto"]
   }
 };

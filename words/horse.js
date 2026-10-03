@@ -1052,6 +1052,9 @@ WORDS.horse = {
     pmt: ["puārehenua", "puaːrehenua"],
     mrq: ["ekeuna", "ekeuna"],
     ssf: ["tishmamraw", "tiʃmamɾaw"],
-    pzh: ["gamay", "ɡamaj"]
+    pzh: ["gamay", "ɡamaj"],
+    twm: ["te53", "te˥˧"],
+    qxs: ["ʐu", "ʐu"],
+    kim: ["аът", "aʔt"]
   }
 };

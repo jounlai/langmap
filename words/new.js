@@ -1104,6 +1104,10 @@ WORDS.new = {
     wuu_jx: ["新", "ɕiŋ˥˩"],
     swb: ["pia", "pia"],
     bin: ["ọgbọn", "ɔɡbɔ̃"],
-    har: ["ḥäǧīs", "ħədʒiːs"]
+    har: ["ḥäǧīs", "ħədʒiːs"],
+    pmi: ["ɕi55ɕi55mə53", "ɕi˥˥ɕi˥˥mə˥˧"],
+    twm: ["se55ro53", "se˥˥ro˥˧"],
+    qxs: ["tsʰi", "tsʰi"],
+    dlg: ["һаҥа", "haŋa"]
   }
 };

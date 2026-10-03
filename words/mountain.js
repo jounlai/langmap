@@ -1039,6 +1039,15 @@ WORDS.mountain = {
     en_ke: ["mountain", "ˈmaʊntɪn"],
     en_scouse: ["mountain", "ˈmaʊntɪn"],
     en_jam: ["mountain", "ˈmɔuntn̩"],
-    swb: ["mulima", "mulima"]
+    swb: ["mulima", "mulima"],
+    es_ni: ["montaña", "monˈtaɲa"],
+    es_py: ["montaña", "monˈtaɲa"],
+    pmi: ["ri53", "ri˥˧"],
+    twm: ["ri13", "ri˩˧"],
+    qxs: ["tsʰuə", "tsʰuə"],
+    lep: ["ᰞᰨ", "l̥o"],
+    khw: ["زوم", "zɔm"],
+    dlg: ["кайа", "kaja"],
+    cjs: ["тағ", "taɣ"]
   }
 };

@@ -1020,6 +1020,9 @@ WORDS.sea = {
     swb: ["ɓahari", "ɓahari"],
     kpe: ["yuo", "juo"],
     na: ["ijited", "ijited"],
-    pzh: ["awas", "awas"]
+    pzh: ["awas", "awas"],
+    es_ni: ["mar", "maɾ"],
+    mez: ["kaeqcekam", "kæʔtʃekam"],
+    twm: ["cᴀ13tsho53", "cᴀ˩˧tsʰo˥˧"]
   }
 };

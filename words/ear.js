@@ -1179,6 +1179,8 @@ WORDS.ear = {
     txg: ["𗐴", "nju˧"],
     duu: ["ɑnɑ", "ɑnɑ"],
     one: ["ohúhtaʼ", "ohṹhtaʔ"],
-    kio: ["tʼɔ́:dé", "tʼɔ́ːdé"]
+    kio: ["tʼɔ́:dé", "tʼɔ́ːdé"],
+    qxs: ["ȵikie", "ɲikie"],
+    lep: ["ᰉᰫᰲ", "ɲur"]
   },
 };

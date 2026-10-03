@@ -819,6 +819,11 @@ WORDS.butterfly = {
     trv: ["klaway", "klawaj"],
     szy: ["adipapang", "adipapaŋ"],
     tkl: ["pepe", "pepe"],
-    pmt: ["pepe", "pepe"]
+    pmt: ["pepe", "pepe"],
+    es_ni: ["mariposa", "maɾiˈposa"],
+    mez: ["mīmīkwǣw", "miːmiːkwæːw"],
+    pmi: ["ma35bʐɛ53", "ma˧˥bʐɛ˥˧"],
+    twm: ["tɕhᴀ55tɕhᴀ55me31loŋ̩55", "tɕʰᴀ˥˥tɕʰᴀ˥˥me˧˩loŋ̩˥˥"],
+    qxs: ["futie", "futie"]
   },
 };

@@ -1093,6 +1093,8 @@ WORDS.iron = {
     pot: ["biwapêk", "biwapʊk"],
     jup: ["mɔ̌m", "mɔ̌m"],
     dur: ["hɨɨ", "hɨː"],
-    pmt: ["kāuri", "kaːuri"]
+    pmt: ["kāuri", "kaːuri"],
+    qxs: ["ɕi", "ɕi"],
+    adx: ["ལྕགས", "htɕak"]
   },
 };

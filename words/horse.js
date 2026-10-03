@@ -1038,6 +1038,14 @@ WORDS.horse = {
     crt: ["alenta", "alenta"],
     tca: ["cowaru", "kowaɾu"],
     jup: ["kawádu", "kawádu"],
-    ik: ["tuttuqpak", "tutːuqpak"]
+    ik: ["tuttuqpak", "tutːuqpak"],
+    yue_gz: ["马", "maː˨˩˦"],
+    yue_dg: ["马", "ma˧˦"],
+    yue_nn: ["马", "ma˨˦"],
+    wuu_hz: ["马", "mɑ˥˧"],
+    wuu_jh: ["马", "mɤa˥˧˥"],
+    wuu_jx: ["马", "mo˨˩˨"],
+    pt_ao: ["cavalo", "kaˈvalu"],
+    en_geordie: ["horse", "hɔːs"]
   }
 };

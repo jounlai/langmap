@@ -1006,6 +1006,16 @@ WORDS.sea = {
     plg: ["waʁai", "waʁai"],
     cag: ["ɬkatsʼi towkojtsa", "ɬkatsʼi towkojtsa"],
     mbc: ["pɨranna", "pɨranːa"],
-    tue: ["dia pairibã", "ˈdia paiˈɾibã"]
+    tue: ["dia pairibã", "ˈdia paiˈɾibã"],
+    yue_gz: ["海", "hu̯ɔj˧˥"],
+    yue_dg: ["海", "fi˧˥"],
+    yue_nn: ["海", "hɔi˧˥"],
+    wuu_hz: ["海", "hᴇ˥˧"],
+    wuu_jh: ["海", "xɛ˥˧˥"],
+    wuu_jx: ["海", "hɛ˦˦"],
+    es_pr: ["mar", "mal"],
+    pt_ao: ["mar", "maɾ"],
+    en_geordie: ["sea", "siː"],
+    ar_sa: ["بحر", "ˈbaħar"]
   }
 };

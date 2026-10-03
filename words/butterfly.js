@@ -800,6 +800,18 @@ WORDS.butterfly = {
     fr_lu: ["papillon", "papijɔ̃"],
     en_ng2: ["butterfly", "ˈbʌtəflaɪ"],
     duu: ["blɑkkwɑɹ", "blɑkkwɑɹ"],
-    slr: ["kegelik", "kekelix"]
+    slr: ["kegelik", "kekelix"],
+    yue_dg: ["蝴蝶", "fu˧˩ tit˧"],
+    yue_nn: ["蝴蝶", "wu˨˩ tip˨"],
+    wuu_jh: ["蝴蝶", "u˧˩˧ dia˩˦"],
+    zh_jn: ["蝴蝶", "xu˦˨ tiə˦˨"],
+    zh_km: ["蝴蝶", "xu˦˨ tie˦˨"],
+    zh_hf: ["蝴蝶", "xʉ˦˥ tʰiɐʔ˦"],
+    es_pr: ["mariposa", "maɾiˈposa"],
+    pt_ao: ["borboleta", "buɾbuˈletɐ"],
+    en_ke: ["butterfly", "ˈbʌtəflaɪ"],
+    en_scouse: ["butterfly", "ˈbʊt̪səflaɪ"],
+    en_geordie: ["butterfly", "ˈbʊtəflaɪ"],
+    en_est: ["butterfly", "ˈbʌʔəflɑɪ"]
   },
 };

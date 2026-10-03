@@ -1103,6 +1103,7 @@ WORDS.egg = {
     thp: ["heʔúšeʔ", "heʔuʃeʔ"],
     kio: ["tʼą́y", "tʼã́j"],
     aoc: ["pumoi", "pumoi"],
-    ake: ["pïmoi", "pɨmoi"]
+    ake: ["pïmoi", "pɨmoi"],
+    wuu_jh: ["卵", "ləŋ˥˧˥"]
   },
 };

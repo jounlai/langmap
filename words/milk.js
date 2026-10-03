@@ -1081,6 +1081,7 @@ WORDS.milk = {
     kpj: ["howɨ̃sɨ", "howɨ̃sɨ"],
     mbc: ["paaka manatɨ yekku", "paaka manatɨ jekːu"],
     zts: ["lech", "letʃ"],
-    one: ["onú:taʼ", "onṹːtaʔ"]
+    one: ["onú:taʼ", "onṹːtaʔ"],
+    wuu_jh: ["牛奶", "ȵiu˧˩˧ nɑ˥˧˥"]
   },
 };

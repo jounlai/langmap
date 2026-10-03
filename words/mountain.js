@@ -1028,6 +1028,16 @@ WORDS.mountain = {
     guu: ["hehu", "hehu"],
     kio: ["kʼóp", "kʼóp"],
     aoc: ["wük", "wɨk"],
-    bwi: ["hidzápa", "hidzápa"]
+    bwi: ["hidzápa", "hidzápa"],
+    yue_gz: ["山", "saːn˥˨"],
+    yue_dg: ["山", "ʃɛŋ˨˧"],
+    yue_nn: ["山", "ʃan˥˥"],
+    wuu_hz: ["山", "sᴇ̃˧˧"],
+    wuu_jh: ["山", "sɑ˧˧˦"],
+    es_pr: ["montaña", "monˈtaɲa"],
+    pt_ao: ["montanha", "mõˈtaɲɐ"],
+    en_ke: ["mountain", "ˈmaʊntɪn"],
+    en_scouse: ["mountain", "ˈmaʊntɪn"],
+    en_jam: ["mountain", "ˈmɔuntn̩"]
   }
 };

@@ -995,6 +995,8 @@ WORDS.green = {
     crt: ["watso", "watso"],
     one: ["awʌ:lá:", "awʌ̃ːláː"],
     ote: ["kʼantsʼi", "kʼantsʼi"],
-    aoc: ["rora", "ɾoɾa"]
+    aoc: ["rora", "ɾoɾa"],
+    yue_gz: ["绿", "lʊk̚˨˨"],
+    ar_sa: ["أخضر", "ʔaˈxaðˤar"]
   }
 };

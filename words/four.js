@@ -1204,6 +1204,7 @@ WORDS.four = {
     crt: ["pawlitsiʔ", "pawlitsiʔ"],
     kpj: ["inaubiɔwa", "inaubiɔwa"],
     mbc: ["saakɨrɨrɨ", "saakɨrɨrɨ"],
-    aoc: ["saköröroʼne", "sakøɾøɾoʔne"]
+    aoc: ["saköröroʼne", "sakøɾøɾoʔne"],
+    wuu_jh: ["四", "si˥˥"]
   },
 };

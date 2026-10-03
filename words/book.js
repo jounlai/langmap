@@ -1016,6 +1016,14 @@ WORDS.book = {
     tue: ["paperatuti", "paˈpeɾatuti"],
     tca: ["popera", "popeɾa"],
     mez: ["masēnahekan", "maseːnahekan"],
-    jup: ["cugʼæ̌t", "tʃuɡʼæ̌t"]
+    jup: ["cugʼæ̌t", "tʃuɡʼæ̌t"],
+    yue_gz: ["书", "si˥˨"],
+    yue_dg: ["书", "ʃy˨˧"],
+    yue_nn: ["书", "ʃy˥˥"],
+    wuu_hz: ["书", "sʮ˧˧"],
+    wuu_jh: ["书", "ɕy˧˧˦"],
+    es_pr: ["libro", "ˈliβɾo"],
+    pt_ao: ["livro", "ˈlivɾu"],
+    en_jam: ["book", "bʊk"]
   }
 };

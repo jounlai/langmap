@@ -1136,6 +1136,7 @@ WORDS.nose = {
     duu: ["sɯnɑ", "sɯnɑ"],
     ybe: ["qaŋrïq", "qaŋrɯq"],
     kio: ["mɔ̀:kʼɔ̀n", "mɔ̀ːkʼɔ̀n"],
-    aoc: ["yeuna", "jeuna"]
+    aoc: ["yeuna", "jeuna"],
+    yue_dg: ["鼻哥", "pɐi˦˦˧ kɔ˨˧"]
   },
 };

@@ -1120,6 +1120,10 @@ WORDS.head = {
     guu: ["he", "he"],
     jup: ["núh", "núh"],
     aoc: ["puʼpai", "puʔpai"],
-    ake: ["puʼpai", "puʔpai"]
+    ake: ["puʼpai", "puʔpai"],
+    yue_dg: ["头", "tʰau˧˩"],
+    yue_nn: ["头", "tʰɐu˨˩"],
+    wuu_jh: ["头", "diu˧˩˧"],
+    wuu_jx: ["头", "de˧˩"]
   },
 };

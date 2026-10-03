@@ -1208,6 +1208,10 @@ WORDS.black = {
     tue: ["yĩĩ", "jĩˈĩ"],
     thp: ["ʔeštíptept", "ʔeʃtiptept"],
     jup: ["ɟʼá", "ɟʼá"],
-    aoc: ["itarikutun", "itaɾikutun"]
+    aoc: ["itarikutun", "itaɾikutun"],
+    yue_dg: ["黑", "hak˥"],
+    yue_nn: ["黑", "hɐk˥"],
+    wuu_hz: ["黑", "haʔ˥"],
+    wuu_jx: ["黑", "həʔ˥"]
   },
 };

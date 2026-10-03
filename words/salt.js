@@ -1219,6 +1219,7 @@ WORDS.salt = {
     sog: ["nmʾšk", "namaʃk"],
     pkar: ["*ʒ₁um-", "dzum"],
     czh_wy: ["盐", "ĩ˩˩"],
-    omc: ["æp", "æp"]
+    omc: ["æp", "æp"],
+    wuu_jh: ["盐", "ie˧˩˧"]
   },
 };

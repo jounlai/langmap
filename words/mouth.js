@@ -1142,6 +1142,13 @@ WORDS.mouth = {
     jup: ["nɔgʼǒd", "nɔɡʼǒd"],
     aoc: ["müta", "mɨta"],
     ake: ["mïta", "mɨta"],
-    com: ["tʉpe", "tɨpe"]
+    com: ["tʉpe", "tɨpe"],
+    yue_dg: ["嘴", "tʃɵ˧˥"],
+    yue_nn: ["嘴", "tʃui˧˥"],
+    wuu_hz: ["嘴巴", "tsʮei˥˧ pɑ˧˧"],
+    wuu_jh: ["口", "kʰiu˥˧˥"],
+    zh_cq: ["嘴", "tsuei˦˨"],
+    es_pr: ["boca", "ˈboka"],
+    pt_ao: ["boca", "ˈbokɐ"]
   }
 };

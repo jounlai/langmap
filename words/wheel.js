@@ -914,6 +914,10 @@ WORDS.wheel = {
     cjy_lv: ["轮子", "luʌŋ˦˦ tsəʔ˦"],
     yue_zs: ["車轆", "tsʰɛ˥˥ lʊk˥"],
     cag: ["tononontax ɬafoʔ", "tononontax ɬafoʔ"],
-    mbc: ["tararan pisaʔsaʔ", "tararan pisaʔsaʔ"]
+    mbc: ["tararan pisaʔsaʔ", "tararan pisaʔsaʔ"],
+    wuu_hz: ["轮盘", "ləŋ˨˩˧ buõ˨˩˧"],
+    wuu_jh: ["轮盘", "ləŋ˧˩˧ bɤ˧˩˧"],
+    wuu_jx: ["轮盘", "ləŋ˧˩ bɤə˧˩"],
+    wuu_wz: ["轮盘", "laŋ˧˩ bø˧˩"]
   }
 };

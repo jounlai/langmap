@@ -1095,6 +1095,12 @@ WORDS.new = {
     hop: ["puuhu", "pɨːhɨ"],
     aoc: ["amennak", "amenːak"],
     com: ["ʉkʉ", "ɨkɨ"],
-    ik: ["nutaaq", "nutaːq"]
+    ik: ["nutaaq", "nutaːq"],
+    yue_gz: ["新", "ɬɐn˥˨"],
+    yue_dg: ["新", "ʃɐn˨˧"],
+    yue_nn: ["新", "ɬɐn˥˥"],
+    wuu_hz: ["新", "ɕiŋ˧˧"],
+    wuu_jh: ["新", "siŋ˧˧˦"],
+    wuu_jx: ["新", "ɕiŋ˥˩"]
   }
 };

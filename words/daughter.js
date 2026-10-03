@@ -1115,6 +1115,10 @@ WORDS.daughter = {
     bsk: ["-i", "i"],
     slr: ["qız", "qɨz"],
     cag: ["ɔse", "ɔse"],
-    crt: ["axseʔ", "axseʔ"]
+    crt: ["axseʔ", "axseʔ"],
+    yue_gz: ["女", "nʋ̩j˧˥"],
+    yue_dg: ["女", "nɵ˧˦"],
+    wuu_hz: ["女儿", "nʮ˥˧ əl˨˩˧"],
+    wuu_jh: ["女儿", "nɑ˥˧˥ ŋ̍˧˩˧"]
   },
 };

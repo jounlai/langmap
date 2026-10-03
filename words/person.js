@@ -1057,6 +1057,17 @@ WORDS.person = {
     squ: ["stélmexw", "stelməxʷ"],
     wic: ["ihaas", "ihaas"],
     jup: ["húp", "húp"],
-    aoc: ["pemon", "pemon"]
+    aoc: ["pemon", "pemon"],
+    yue_gz: ["人", "ȵɐn˨˩˦"],
+    yue_dg: ["人", "jɐn˧˩"],
+    yue_nn: ["人", "jɐn˨˩"],
+    wuu_hz: ["人", "zəŋ˨˩˧"],
+    wuu_jh: ["人", "ȵiŋ˧˩˧"],
+    wuu_jx: ["人", "ȵiŋ˧˩"],
+    es_pr: ["persona", "peɾˈsona"],
+    pt_ao: ["pessoa", "pɨˈsoɐ"],
+    en_ke: ["person", "ˈpɜːsən"],
+    en_geordie: ["person", "ˈpɜːsən"],
+    en_est: ["person", "ˈpɜːsən"]
   }
 };

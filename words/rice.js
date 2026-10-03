@@ -762,6 +762,13 @@ WORDS.rice = {
     arn: ["aro", "aɾo"],
     hop: ["aamori", "aːmori"],
     jup: ["ʔarócu", "ʔarótʃu"],
-    ote: ["arros", "aros"]
+    ote: ["arros", "aros"],
+    yue_dg: ["米", "mɔi˧˦"],
+    yue_nn: ["米", "mɐi˨˦"],
+    wuu_hz: ["米", "mi˥˧"],
+    wuu_jh: ["米", "mie˥˧˥"],
+    pt_ao: ["arroz", "ɐˈʁoʃ"],
+    en_geordie: ["rice", "ɹaɪs"],
+    en_est: ["rice", "ɹɑɪs"]
   }
 };

@@ -726,6 +726,16 @@ WORDS.silk = {
     shp: ["seda", "seda"],
     bzd: ["seda", "seda"],
     guc: ["seera", "seːra"],
-    zts: ["sed", "sed"]
+    zts: ["sed", "sed"],
+    yue_gz: ["丝", "ɬɛj˥˨"],
+    yue_dg: ["丝", "ʃɐi˨˧"],
+    yue_nn: ["丝", "ʃi˥˥"],
+    wuu_hz: ["丝", "sɿ˧˧"],
+    wuu_jh: ["丝", "sɿ˧˧˦"],
+    nan_hai: ["丝", "ti˨˧"],
+    es_pr: ["seda", "ˈseða"],
+    pt_ao: ["seda", "ˈsedɐ"],
+    en_geordie: ["silk", "sɪlk"],
+    en_est: ["silk", "sɪwk"]
   }
 };

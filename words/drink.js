@@ -1140,7 +1140,7 @@ WORDS.drink = {
     xsc: ["—", "—"],
     sukh: ["กิน", "kin"],
     xmr: ["—", "—"],
-    onw: ["ϫⲓ", "dʒi"],
+    onw: ["ⳟⲓ", "ŋi"],
     qwc: ["upyay", "upjaj"],
     omc: ["—", "—"],
     chb: ["biohotysuca", "bjohotɨsuka"],

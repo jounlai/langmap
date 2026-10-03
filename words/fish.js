@@ -912,7 +912,7 @@ WORDS.fish = {
     mrq: ["ika", "ika"],
     tiw: ["miputi", "miputi"],
     lbz: ["yaka", "jaka"],
-    lbz_damin: ["—", "—"],
+    lbz_damin: ["l*i", "ɬʔi"],
     nny: ["yakuri", "jakuɾi"],
     kky: ["guudhu", "ɡuːd̪u"],
     guc: ["jime", "hime"],

@@ -624,7 +624,7 @@ WORDS.water = {
     aii: ["ܡܝܐ", "mijja"],
     tru: ["ܡܝܐ", "majo"],
     sux: ["𒀀", "a"],
-    akk: ["𒈬", "muː"],
+    akk: ["𒀀", "muː"],
     hit: ["𒉿𒀀𒋻", "waːtar"],
     nci: ["ātl", "aːtɬ"],
     nhx: ["ahtli", "aʔtɬi"],

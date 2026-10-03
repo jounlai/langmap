@@ -395,7 +395,7 @@ WORDS.one = {
     tiv: ["mom", "mom"],
     efi: ["kiet", "kiet"],
     ekp: ["otu", "otu"],
-    izz: ["otu", "otu"],
+    izz: ["nanụ", "nanʊ"],
     ibb: ["kiet", "kiet"],
     urh: ["ọvo", "ɔvo"],
     deg: ["ọmọ", "ɔmɔ"],

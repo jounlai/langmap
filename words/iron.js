@@ -346,7 +346,7 @@ WORDS.iron = {
     aln: ["hekur", "ˈhɛkuɾ"],
     aae: ["hekur", "ˈhɛkuɾ"],
     hyw: ["երկաթ", "jeɾˈɡɑtʰ"],
-    txb: ["𑁂𑀜𑁆𑀘𑀼𑀯𑁄", "eɲtsuwo"],
+    txb: ["𑀏𑀜𑁆𑀘𑀼𑀯𑁄", "eɲtsuwo"],
 
     // --- Iranian — āhan in the east, āsin in the west, one root ----------
     fa_clas: ["آهن", "aːhan"],

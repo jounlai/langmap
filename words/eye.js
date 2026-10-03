@@ -1019,7 +1019,7 @@ WORDS.eye = {
     peo: ["𐏂𐏁𐎶𐎴", "tʃaʃman"],
     ave: ["𐬗𐬀𐬱𐬨𐬀𐬥", "tʃaʃman"],
     xto: ["𑀅𑀓𑁆", "ak"],
-    txb: ["𑁂𑀓𑁆", "ek"],
+    txb: ["𑀏𑀓𑁆", "ek"],
     phn: ["𐤏𐤍", "ʕajin"],
     uga: ["𐎓𐎐", "ʕajnu"],
     xlu: ["tawi-", "ˈtawi"],

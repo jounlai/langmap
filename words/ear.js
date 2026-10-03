@@ -579,7 +579,7 @@ WORDS.ear = {
     hy_grab: ["ականջ", "ɑkɑndʒ"],
     qwc: ["rinri", "ɾinri"],
     p_dra: ["*kewi", "kewi"],
-    p_hmx: ["*hɲeuŋˣ", "hɲeuŋ"],
+    p_hmx: ["*mbræu", "mbræu"],
     p_tun: ["*sian", "sian"],
     p_aav: ["*Ctoːr", "Ctoːr"],
     aa: ["ayti", "ajti"],

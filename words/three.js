@@ -404,7 +404,7 @@ WORDS.three = {
     tiv: ["utar", "utar"],
     efi: ["ita", "ita"],
     ekp: ["bɨtọ", "ɓɨtɔ"],
-    izz: ["atọ", "atɔ"],
+    izz: ["ẹto", "ɛtɔ"],
     ibb: ["ita", "ita"],
     urh: ["erha", "eɾa"],
     deg: ["atọ", "atɔ"],

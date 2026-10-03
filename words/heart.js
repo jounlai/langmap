@@ -631,7 +631,7 @@ WORDS.heart = {
     tru: ["ܠܒܐ", "lebo"],
     sux: ["𒊮", "ʃa"],
     akk: ["𒇷𒅁", "libːu"],
-    hit: ["𒆗𒁕", "kard"],
+    hit: ["𒆠𒅕", "ker"],
     nci: ["yōllōtl", "joːlːoːtɬ"],
     nhx: ["yolio", "jolio"],
     nch: ["yollotl", "jolːotɬ"],

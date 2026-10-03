@@ -965,7 +965,7 @@ WORDS.star = {
       mrq: ["hetuʻu", "hetuʔu"],
       tiw: ["japalinga", "dʒapaliŋa"],
       lbz: ["kuwa thungal", "kuwa θuŋal"],
-      lbz_damin: ["l*i", "ɬʔi"],
+      lbz_damin: ["—", "—"],
       nny: ["miburlda thungalda", "mibuɭda t̪uŋalda"],
       kky: ["biidhi", "biːt̪i"],
       guc: ["jolotsü", "holotsɨ"],

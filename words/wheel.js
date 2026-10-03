@@ -89,7 +89,7 @@ WORDS.wheel = {
     lv: ["ritenis", "ˈritenis"],
     goh: ["rad", "rat"],
     gmh: ["rat", "rat"],
-    osx: ["rath", "rat"],
+    osx: ["rath", "raθ"],
 
     // --- Ancient Near East ---------------------------------------------
     akk: ["𒈠𒃻𒊒", "maɡarru"],

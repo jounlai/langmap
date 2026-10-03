@@ -916,7 +916,7 @@ WORDS.sun = {
     nso: ["letšatši", "letʃatʃi"],
     fan: ["zòp", "zòp"],
     naq: ["sores", "sores"],
-    hts: ["isho", "ʔiʃo"],
+    hts: ["ishoko", "ʔiʃoko"],
     nmn: ["ǁʼân", "ǁʼã"],
     kr: ["kiŋal", "kiŋal"],
     men: ["folo", "folo"],

@@ -918,7 +918,7 @@ WORDS.water = {
     nso: ["meetse", "meːtse"],
     fan: ["mendim", "mendim"],
     naq: ["ǁgam-i", "ǁɡamːi"],
-    hts: ["ati", "ʔati"],
+    hts: ["atibii", "ʔatibiʔi"],
     nmn: ["ǃqhàa", "ǃqʰaː"],
     kr: ["nji", "ndʒi"],
     men: ["njei", "ndʒei"],

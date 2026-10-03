@@ -537,6 +537,11 @@ WORDS.cockcrow = {
     ko_yb: ["꼬끼오", "k͈ok͈io"],
     ko_hg: ["꼬끼오", "k͈ok͈io"],
     ja_osa: ["コケコッコー", "kokekokːoː"],
-    ko_jl: ["꼬끼오", "k͈ok͈io"]
+    ko_jl: ["꼬끼오", "k͈ok͈io"],
+    ja_kg: ["コケコッコー", "kokekokːoː"],
+    de_lu: ["kikeriki", "kikəʁiˈkiː"],
+    de_at: ["kikeriki", "kikəriˈkiː"],
+    de_ch: ["kikeriki", "kikəriˈkiː"],
+    nl_be: ["kukeleku", "kykələˈky"]
   },
 };

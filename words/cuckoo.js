@@ -529,5 +529,8 @@ WORDS.cuckoo = {
     en_manc: ["cuckoo", "ˈkʊkuː"],
     en_wc: ["cuckoo", "ˈkʊkuː"],
     en_est: ["cuckoo", "ˈkʊkuː"],
+    zh_sc: ["阳雀", "iaŋ˨˩ tɕʰio˨˩"],
+    ext: ["cucu", "ˈkuku"],
+    frr_amr: ["kukütj", "kuˈkytj"]
   },
 };

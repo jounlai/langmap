@@ -243,6 +243,16 @@ WORDS.woof = {
     zh_cd: ["汪汪", "wan˥˥ wan˥˥"],
     ja_osa: ["ワンワン", "waɴwaɴ"],
     ko_bus: ["멍멍", "mʌŋmʌŋ"],
-    vi_han: ["狺狺", "ŋən˧˧ ŋən˧˧"]
+    vi_han: ["狺狺", "ŋən˧˧ ŋən˧˧"],
+    ja_kg: ["ワンワン", "waɴwaɴ"],
+    ja_sd: ["ワンワン", "waɴwaɴ"],
+    ja_aom: ["ワンワン", "waɴwaɴ"],
+    ko_jl: ["멍멍", "məŋməŋ"],
+    ko_hg: ["멍멍", "mʌŋmʌŋ"],
+    vi_c: ["gâu gâu", "ɣəw˧ ɣəw˧"],
+    ar_lev: ["هَوْ هَوْ", "haw haw"],
+    de_lu: ["wau wau", "vaʊ vaʊ"],
+    de_at: ["wau wau", "vaʊ vaʊ"],
+    de_ch: ["wau wau", "vaʊ vaʊ"]
   },
 };

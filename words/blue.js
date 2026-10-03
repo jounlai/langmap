@@ -55,6 +55,12 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    sgs: "distinct",
+    ar_sa: "distinct",
+    ar_ye: "distinct",
+    jvn: "distinct",
+    vi_c: "grue",
+    ja_hak: "distinct",
     ket: "grue",
     ii: "distinct",
     gum: "distinct",
@@ -768,6 +774,12 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    sgs: ["mielīns", "mʲɪɛˈliːns"],
+    ar_sa: ["أزرق", "ˈʔazraɡ"],
+    ar_ye: ["أزرق", "ˈʔazraɡ"],
+    jvn: ["biru", "biru"],
+    vi_c: ["xanh", "san˧"],
+    ja_hak: ["青い", "aoi"],
     ket: ["съʼнь", "səʔnʲ"], // was ["съньсь", "sʌɲɕ"] (r31 fix 2026-10-02)
     ii: ["ꀊꃴ", "a˧˧vu˥"],
     gum: ["pilli", "piʎi"],

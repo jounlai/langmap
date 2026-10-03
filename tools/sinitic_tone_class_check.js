@@ -131,6 +131,9 @@ const ALLOW = [
   // which Wiktionary files as a separate etymon (alt 蜀) and whose tone is 陽入 —
   // the character 一 is only its spelling, so its 陰入 class does not apply.
   { code: /^yue_dg$/, ch: '星', why: 'Dongguan colloquial 星 ʃœŋ is the changed tone 9a (55) — MCPDict 東莞 marks it 白; literary ʃəŋ is 陰平 23' },
+  { code: /^wuu_jh$/, ch: '血', why: 'Jinhua 白讀 血: the colloquial 入 reading drops its stop and is a long 55 (MCPDict 金華 notes); 文讀 keeps ʔ with 4. r48, 2026-10-03' },
+  { code: /^wuu_jh$/, ch: '铁', why: 'Jinhua 白讀 铁: the colloquial 入 reading drops its stop and is a long 55 (MCPDict 金華 notes); 文讀 keeps ʔ with 4. r48, 2026-10-03' },
+  { code: /^wuu_jh$/, ch: '雪', why: 'Jinhua 白讀 雪: the colloquial 入 reading drops its stop and is a long 55 (MCPDict 金華 notes); 文讀 keeps ʔ with 4. r48, 2026-10-03' },
   { code: /^hak_hl$/, ch: '輪', why: 'Hailu 輪 lin¹¹ is the wheel sense (Moedict 海: 「裝置於車、船或機器上可供旋轉運件的圓形物體」); lun⁵⁵ is 「依次更替轉換」. r46, 2026-10-03' },
   { code: /^mnp$/, ch: '红', why: "Jian'ou 紅 ǒ̤ng /ɔŋ²¹/ (Wiktionary mb; MCPDict 建甌 ɔŋ3): the Northern Min class of 陽平 words that went to 上" },
   { code: /^cpx$/, ch: '疼', why: 'Putian 疼 "to love" is tia4 /tʰia⁴²/ (Wiktionary pt), a 陰去 word, not the 陽平 of MC 疼' },
@@ -233,7 +236,6 @@ const DEBT = [
   { code: 'cnp', cls: '陰平' },
   { code: 'zh_jh', cls: '陰平' },
   { code: 'wuu_nb', cls: '陽平' },
-  { code: 'wuu_hz', cls: '陽平' },
 ];
 
 const wc = vm.createContext({});

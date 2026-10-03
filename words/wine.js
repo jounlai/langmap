@@ -1500,7 +1500,7 @@ WORDS.wine = {
     cpx: ["葡萄酒", "pu˩˧ tʰo˩˧ tsiu˦˥˧"],
     wuu_hz: ["葡萄酒", "bu˨˨˧ dɔ˨˨˧ tɕiɤɯ˥˧"],
     yue_dg: ["葡萄酒", "pʰɐu˧˩ tʰɐu˧˩ tʃau˧˥"],
-    yue_nn: ["葡萄酒", "pʰu˨˩ tʰu˨˩ tsɐu˧˥"],
+    yue_nn: ["葡萄酒", "pʰu˨˩ tʰu˨˩ tʃɐu˧˥"], // was ["葡萄酒", "pʰu˨˩ tʰu˨˩ tsɐu˧˥"] (r48 fix 2026-10-03)
     zh_cq: ["葡萄酒", "pʰu˨˩ tʰau˨˩ tɕiəu˦˨"],
     zh_jn: ["葡萄酒", "pʰu˦˨ tʰɔ˦˨ tɕiou˥˥"],
     zh_km: ["葡萄酒", "pʰu˧˩ tʰɔ˧˩ tɕiou˥˧"],

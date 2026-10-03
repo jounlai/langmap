@@ -544,7 +544,7 @@ WORDS.dog = {
     tpn: ['îagûara', 'jaˈɣwaɾa'],
     uln: ["hund", "hunt"],
     wmt: ['kunyarr', 'kuˈɲar'],
-    wuu_hz: ['狗', 'kɤɯ˥˧'],
+    wuu_hz: ["狗", "keʏ˥˧"],
     xag: ['xa', 'xa'],
     xfa: ['—', '—'],
     xib: ['—', '—'],

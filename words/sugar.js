@@ -675,7 +675,7 @@ WORDS.sugar = {
     zh_lz: ["糖", "tʰaŋ˥˧"],
     zh_zz: ["糖", "tʰaŋ˦˨"],
     yue_gz: ["糖", "tʰu̯ɔŋʷ˨˩˦"],
-    wuu_hz: ["糖", "dɑŋ˨˩˧"],
+    wuu_hz: ["糖", "dæ̃˨˩˧"], // was ["糖", "dɑŋ˨˩˧"] (r48 fix 2026-10-03)
     kmh: ["suka", "suka"],
     yrk: ["сакарˮ", "sakarʔ"],
     rki: ["သကြား", "θəɡrá"],
@@ -764,7 +764,7 @@ WORDS.sugar = {
     wuu_jh: ["糖", "dɑŋ˧˩˧"],
     wuu_sz: ["糖", "dɑ̃˨˨˧"],
     wuu_wz: ["糖", "duɔ˧˩"],
-    yue_nn: ["糖", "tʰɔːŋ˨˩"],
+    yue_nn: ["糖", "tʰɔŋ˨˩"], // was ["糖", "tʰɔːŋ˨˩"] (r48 fix 2026-10-03)
     cpx: ["糖", "tʰɒŋ˩˧"],
     nan_hai: ["糖", "ho˧˩"],
     nan_pn: ["糖", "tʰŋ̍˨˧"],
@@ -1231,7 +1231,7 @@ WORDS.sugar = {
     ach: ["cukari", "tʃukari"],
     hak_tw: ["糖", "tʰoŋ˩˩"],
     nan_qz: ["糖", "tʰŋ̍˨˦"],
-    zh_km: ["糖", "tʰaŋ˧˩"],
+    zh_km: ["糖", "tʰᴀ̃˧˩"], // was ["糖", "tʰaŋ˧˩"] (r48 fix 2026-10-03)
     nan_xm: ["糖", "tʰŋ̍˨˦"],
     io: ["sukro", "ˈsukro"],
   },

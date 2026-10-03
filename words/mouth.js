@@ -1031,7 +1031,7 @@ WORDS.mouth = {
     sce: ["aman", "aman"],
     zgh: ["ⵉⵎⵉ", "imi"],
     zh_cd: ["嘴巴", "tsuei˥˧ pa˥˥"],
-    zh_km: ["嘴", "tsuei˥˧"],
+    zh_km: ["嘴", "tsuəe˥˧"],
     sma: ["njaelmie", "ɲaelmie"],
     rut: ["гъал", "ʁal"],
     kgg: ["ata", "ata"],

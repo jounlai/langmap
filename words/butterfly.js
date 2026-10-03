@@ -805,7 +805,7 @@ WORDS.butterfly = {
     yue_nn: ["蝴蝶", "wu˨˩ tip˨"],
     wuu_jh: ["蝴蝶", "u˧˩˧ dia˩˦"],
     zh_jn: ["蝴蝶", "xu˦˨ tiə˦˨"],
-    zh_km: ["蝴蝶", "xu˦˨ tie˦˨"],
+    zh_km: ["蝴蝶", "xu˧˩ tie˧˩"],
     zh_hf: ["蝴蝶", "xʉ˦˥ tʰiɐʔ˦"],
     es_pr: ["mariposa", "maɾiˈposa"],
     pt_ao: ["borboleta", "buɾbuˈletɐ"],

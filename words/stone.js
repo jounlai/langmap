@@ -904,7 +904,7 @@ WORDS.stone = {
     hak_hl: ["石頭", "ʃak˨ tʰeu˥˥"],
     yue_dg: ["石头", "ʃœk˧ tʰau˧˩"],
     yue_zs: ["石頭", "siak˧ tʰɐu˥˩"],
-    yue_nn: ["石头", "ɬɛːk˨ tʰɐu˨˩"],
+    yue_nn: ["石头", "ʃɛk˨ tʰɐu˨˩"],
     blt: ["ꪬꪲꪙ", "hin˨"],
     cja: ["فتاو", "patau"],
     cjm: ["ꨝꨓꨭꨥ", "ɓatuw"],

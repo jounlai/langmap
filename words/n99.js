@@ -1076,8 +1076,8 @@ WORDS.n99 = {
     ja_kyo: ["九十九", "kʲɯːdʑɯːkʲɯː"],
     zh_tw: ["九十九", "tɕjoʊ̯˧˩˧ ʂʐ̩˧˥ tɕjoʊ̯˧˩˧"],
     zh_nj: ["九十九", "tɕiəu˨˩˨ ʂʅʔ˥ tɕiəu˨˩˨"],
-    wuu_jh: ["九十九", "tɕiu˥˧˥ ʑiəʔ˩˨ tɕiu˥˧˥"],
-    wuu_hz: ["九十九", "tɕiɤɯ˥˧ zəʔ˩˨ tɕiɤɯ˥˧"],
+    wuu_jh: ["九十九", "tɕiu˥˧˥ ʑiəʔ˨˩˨ tɕiu˥˧˥"], // was ["九十九", "tɕiu˥˧˥ ʑiəʔ˩˨ tɕiu˥˧˥"] (r48 fix 2026-10-03)
+    wuu_hz: ["九十九", "tɕʏ˥˧ zəʔ˨ tɕʏ˥˧"], // was ["九十九", "tɕiɤɯ˥˧ zəʔ˩˨ tɕiɤɯ˥˧"] (r48 fix 2026-10-03)
     nan_pn: ["九十九", "kau˦˦˥ tsap˦ kau˦˦˥"],
     nan_xm: ["九十九", "kau˥˧ tsap̚˦ kau˥˧"],
     cjy_lv: ["九十九", "tɕiʌu˧˩˨ səʔ˨˧ tɕiʌu˧˩˨"],
@@ -1394,7 +1394,7 @@ WORDS.n99 = {
     yue_zs: ["九十九", "kɐu˨˩˧ sɐp˧ kɐu˨˩˧"], // was ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"] (r46 fix 2026-10-03)
     yue_ts: ["九十九", "kiu˧˧ sip˨ kiu˧˧"],
     yue_dg: ["九十九", "kau˧˥ ʃɔk˧ kau˧˥"],
-    yue_nn: ["九十九", "kɐu˧˥ ɬɐp˨ kɐu˧˥"],
+    yue_nn: ["九十九", "kɐu˧˥ ʃɐp˨ kɐu˧˥"], // was ["九十九", "kɐu˧˥ ɬɐp˨ kɐu˧˥"] (r48 fix 2026-10-03)
     nan_te: ["九十九", "kau˥˨ tsap˦ kau˥˨"],
     nan_qz: ["九十九", "kau˥˥˦ tsap˨˦ kau˥˥˦"],
     nan_zz: ["九十九", "kau˥˧ tsap̚˩˨˩ kau˥˧"],
@@ -1406,7 +1406,7 @@ WORDS.n99 = {
     zh_cq:  ["九十九", "tɕiəu˦˨ sɿ˨˩ tɕiəu˦˨"],
     zh_xa:  ["九十九", "tɕiɤu˥˧ ʂɿ˨˦ tɕiɤu˥˧"],
     zh_jn:  ["九十九", "tɕiou˥˥ ʂʅ˦˨ tɕiou˥˥"],
-    zh_km:  ["九十九", "tɕiəu˥˧ ʂʅ˧˩ tɕiəu˥˧"],
+    zh_km: ["九十九", "tɕiəu˥˧ ʂʅ˧˩ tɕiəu˥˧"], // was ["九十九", "tɕiəu˥˧ ʂʅ˧˩ tɕiəu˥˧"] (r48 fix 2026-10-03)
     zh_wh:  ["九十九", "tɕiou˦˨ sz̩˨˩˧ tɕiou˦˨"],
     zh_kf:  ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"],
     zh_tj:  ["九十九", "tɕiou˨˩˧ ʂʅ˦˥ tɕiou˨˩˧"],

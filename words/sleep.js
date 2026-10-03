@@ -647,7 +647,7 @@ WORDS.sleep = {
     zh_sc: ["睡觉", "swei˨˩˧ tɕjau˨˩˧"],
     zh_cd: ["睡觉", "swei˨˩˧ tɕjau˨˩˧"],
     zh_cq: ["睡觉", "swei˨˩˧ tɕjau˨˩˧"],
-    zh_km: ["睡觉", "swei˨˩˨ tɕjau˨˩˨"],
+    zh_km: ["睡觉", "ʂuəe˨˩˨ tɕiʌo˨˩˨"],
     zh_wh: ["睡觉", "suei˧˥ tɕiau˧˥"],
     zh_hf: ["睡觉", "ʂwei˥˧ tɕjɔ˥˧"],
     zh_nj: ["睡觉", "ʂwei˦ tɕjɔ˦"],
@@ -823,7 +823,7 @@ WORDS.sleep = {
     hak_tw: ["睡目", "soi˥˥ muk˥"],
     hak_hl: ["睡目", "ʃoi˧˧ muk˥"],
     yue_dg: ["瞓觉", "fɐn˦˦˧ kau˦˦˧"],
-    yue_nn: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
+    yue_nn: ["瞓觉", "fɐn˧˧ kɛu˧˧"],
     yue_zs: ["瞓覺", "fɐn˧ kaːu˧"],
 
     // --- Uralic and Siberia

@@ -536,7 +536,7 @@ WORDS.love = {
     tpn: ['aûsub', 'aˈwsuβ'],
     uln: ['—', '—'],
     wmt: ['—', '—'],
-    wuu_hz: ['爱', 'ɛ˧˧˥'],
+    wuu_hz: ["爱", "ʔᴇ˦˦˥"],
     xag: ['besown', 'besun'],
     xfa: ['—', '—'],
     xib: ['—', '—'],

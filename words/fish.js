@@ -1195,7 +1195,7 @@ WORDS.fish = {
     tpn: ["pirá", "piˈɾa"],
     uln: ["Fisch", "fiʃ"],
     wmt: ["kapi", "kapi"],
-    wuu_hz: ["鱼", "ɦy˨˩˧"],
+    wuu_hz: ["鱼", "ɦʮ˨˩˧"],
     xag: ["—", "—"],
     xfa: ["—", "—"],
     xib: ["—", "—"],

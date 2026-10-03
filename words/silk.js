@@ -651,7 +651,7 @@ WORDS.silk = {
     zh_hf: ["丝", "sz̩˨˩˨"],
     zh_cd: ["丝", "sz̩˥˥"],
     zh_cq: ["丝", "sz̩˥"],
-    zh_km: ["丝", "sz̩˦˦"],
+    zh_km: ["丝", "sɿ˦˦"],
     zh_kf: ["丝", "sz̩˨˦"],
     kry: ["ipeg", "ipeɡ"],
     mns: ["я̄рмак", "jaːrmak"],

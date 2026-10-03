@@ -914,7 +914,7 @@ WORDS.mountain = {
     hop: ["tuukwi", "tɨːkʷi"],
     zgh: ["ⴰⴷⵔⴰⵔ", "adrar"],
     bin: ["oke", "oke"],
-    zh_km: ["山", "ʂã˦˦"],
+    zh_km: ["山", "ʂᴀ̃˦˦"],
     zh_hf: ["山", "ʂæ̃˨˩˨"],
     sma: ["vaerie", "vaerie"],
     rut: ["бан", "ban"],

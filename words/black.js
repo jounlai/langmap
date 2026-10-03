@@ -1215,6 +1215,7 @@ WORDS.black = {
     wuu_jx: ["黑", "həʔ˥"],
     swb: ["ndziɗu", "ndziɗu"],
     bin: ["nekhui", "nexui"],
-    kpe: ["tɛi", "tɛi"]
+    kpe: ["tɛi", "tɛi"],
+    wuu_jh: ["黑", "xəʔ˦"]
   },
 };

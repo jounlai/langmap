@@ -941,7 +941,7 @@ WORDS.person = {
     zgh: ["ⴰⴼⴳⴰⵏ", "afɡan"],
     bin: ["ọmwan", "ɔmwã"],
     zh_cd: ["人", "zən˨˩"],
-    zh_km: ["人", "ʐə̃˧˩"],
+    zh_km: ["人", "ʐə̃ĩ˧˩"],
     zh_hf: ["人", "ʐən˥˥"],
     sma: ["almetje", "almetʃe"],
     rut: ["эдеми", "edemi"],

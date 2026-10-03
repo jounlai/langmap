@@ -1001,12 +1001,12 @@ WORDS.orange = {
     nrf_gg: ["orange", "ɔʁɑ̃ʒ"],
     gsw_w: ["Orange", "oˈraŋʒə"],
     lij_t: ["naranza", "naˈraŋza"],
-    wuu_hz: ["橙", "zaŋ˨˩˧"],
+    wuu_hz: ["橙", "dzəŋ˨˩˧"], // was ["橙", "zaŋ˨˩˧"] (r48 fix 2026-10-03)
     yue_dg: ["橙", "tʃʰɛŋ˧˩"],
     yue_nn: ["橙", "tʃʰaŋ˧˥"],
     zh_cq: ["橙", "tsʰən˨˩"],
     zh_jn: ["橙", "tʂʰɤŋ˦˨"],
-    zh_km: ["橙", "tʂʰɤŋ˧˩"],
+    zh_km: ["橙", "tʂʰə̃ĩ˧˩"], // was ["橙", "tʂʰɤŋ˧˩"] (r48 fix 2026-10-03)
     zh_xa: ["橙", "tʂʰɤŋ˨˦"],
     qxq: ["portağal", "poɾtaˈɣal"],
     nan_xm: ["柑仔", "kam˦˦ ma˥˧"],

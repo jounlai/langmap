@@ -2325,7 +2325,7 @@ WORDS.we = {
     tpn: ["îandé / oré", "ɲãˈdɛ / oˈɾɛ"],
     uln: ["wi", "vi"],
     wmt: ["ngalimpa / nganimpa", "ŋalimpa / ŋanimpa"],
-    wuu_hz: ["我们", "ŋo˩˧ mən"],
+    wuu_hz: ["我们", "ŋoᵘ˥˧ məŋ"], // was ["我们", "ŋo˩˧ mən"] (r48 fix 2026-10-03)
     xag: ["yan", "jan"],
     xfa: ["—", "—"],
     xib: ["—", "—"],
@@ -2335,7 +2335,7 @@ WORDS.we = {
     xve: ["—", "—"],
     yle: ["—", "—"],
     yue_dg: ["我哋", "ŋɔ˩˧ tei˨"],
-    yue_nn: ["我哋", "ŋɔ˩˧ tei˨"],
+    yue_nn: ["我哋", "ŋɔ˨˦ ti˨˨"], // was ["我哋", "ŋɔ˩˧ tei˨"] (r48 fix 2026-10-03)
     zh_cq: ["我们", "ŋo˦˨ mən"],
     zh_jn: ["咱们 / 俺们", "tsã˦˨ mən / ã˥˥ mən"],
     zh_km: ["我们", "ŋo˥˧ mən"],
@@ -2365,7 +2365,7 @@ WORDS.we = {
     pot: ["kinan / ninan", "kinan / ninan"],
     pzh: ["ita / yami", "ita / jami"],
     wic: ["—", "—"],
-    wuu_jh: ["我郎", "ŋu˩˧ laŋ˩˧"],
+    wuu_jh: ["我郎", "ɑ˥˧˥ lɑŋ˧˩˧"], // was ["我郎", "ŋu˩˧ laŋ˩˧"] (r48 fix 2026-10-03)
     wuu_jx: ["伲", "ɲi˨˧"],
     yue_zs: ["我哋", "ŋɔ˩˧ tei˨"],
     zh_cd: ["我们", "ŋo˥˧ mən"],

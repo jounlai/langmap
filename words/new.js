@@ -530,7 +530,7 @@ WORDS.new = {
     tpn: ["pysasu", "pɨsaˈsu"],
     zh_cq: ["新", "ɕin˥"],
     zh_jn: ["新", "ɕin˨˩˧"],
-    zh_km: ["新", "ɕin˦˦"],
+    zh_km: ["新", "ɕĩ˦˦"],
     zh_xa: ["新", "ɕiŋ˨˩"],
     bzg: ["bao", "bao"],
     dru: ["baavanə", "baːvanə"],

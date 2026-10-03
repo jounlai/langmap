@@ -944,7 +944,7 @@ WORDS.horse = {
     bdk: ["хилаь", "xilæ"],
     khv: ["сайро", "sajro"],
     zh_hf: ["马", "ma˨˦"],
-    zh_km: ["马", "ma˥˧"],
+    zh_km: ["马", "mᴀ˥˧"],
     zh_kf: ["马", "ma˥˧"],
     kry: ["bəlkən", "bælkæn"],
     pmi: ["ɣuẽ35", "ɣuẽ˧˥"],

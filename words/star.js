@@ -490,7 +490,7 @@ WORDS.star = {
       pot: ["nuk", "nək"],
       pzh: ["mintol", "mintol"],
       wic: ["hiːkwirikʔa", "hiːkʷiɾikʔa"],
-      wuu_jh: ["星", "siŋ˧˧"],
+      wuu_jh: ["星", "siŋ˧˧˦"],
       wuu_jx: ["星", "ɕiŋ˥˩"],
       yue_zs: ["天星", "tʰin˥˥ siaŋ˥˥"],
       zh_cd: ["星星", "ɕin˥˥ ɕin˥˥"],

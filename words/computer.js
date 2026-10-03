@@ -613,6 +613,11 @@ WORDS.computer = {
     quz: ["computadora", "komputaˈdora"],
     quy: ["computadora", "komputaˈdoɾa"],
     kea: ["konputador", "kõputaˈdoɾ"],
-    meu: ["kompiuta", "kompiuta"]
+    meu: ["kompiuta", "kompiuta"],
+    bnn: ["tinnau", "tinnau"],
+    pyu: ["tinnaw", "tinnaw"],
+    ssf: ["tiannau", "tiannau"],
+    tsu: ["kampiuto", "kampiuto"],
+    dru: ["tinnaw", "tinˈnau"]
   },
 };

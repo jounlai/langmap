@@ -811,6 +811,7 @@ WORDS.rice = {
     cab: ["ri", "ri"],
     quc: ["arroz", "aros"],
     nch: ["arroz", "aˈros"],
-    ngu: ["arroz", "aˈros"]
+    ngu: ["arroz", "aˈros"],
+    dru: ["pagay", "paˈɡai"]
   }
 };

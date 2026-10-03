@@ -995,7 +995,7 @@ WORDS.orange = {
     nan_hai: ["柑仔", "ka˨˧ kia˨˩˧"],
     zh_wh: ["橙", "tsʰən˨˩˧"],
     zh_zz: ["橙", "tʂʰɤŋ˦˨"],
-    hak_hl: ["柑仔", "kam˥˧ e˨˦"],
+    hak_hl: ["柑仔", "kam˥˧ ɤ˥˥"], // was ["柑仔", "kam˥˧ e˨˦"] (r46 fix 2026-10-03)
     lld: ["naranza", "naˈrantsa"],
     ota: ["پرتقال", "poɾtaˈkal"],
     nrf_gg: ["orange", "ɔʁɑ̃ʒ"],
@@ -1012,8 +1012,8 @@ WORDS.orange = {
     nan_xm: ["柑仔", "kam˦˦ ma˥˧"],
     nan_zz: ["柑仔", "kam˦˦ ma˥˧"],
     wuu_jh: ["橙", "dʑiŋ˧˩˧"],
-    wuu_jx: ["橙", "zaŋ˨˧"],
-    yue_zs: ["橙", "tsʰaŋ˨˩"],
+    wuu_jx: ["橙", "zã˧˩"], // was ["橙", "zaŋ˨˧"] (r46 fix 2026-10-03)
+    yue_zs: ["橙", "tsʰaŋ˥˩"], // was ["橙", "tsʰaŋ˨˩"] (r46 fix 2026-10-03)
     zh_cd: ["橙", "tsʰən˨˩"], // was ["橙", "tʂʰɤŋ˨˩"] (r29 fix 2026-10-02)
     zh_hf: ["橙", "tʂʰɤŋ˥˥"],
     zh_kf: ["橙", "tʂʰɤŋ˦˨"],

@@ -654,7 +654,7 @@ WORDS.sleep = {
     zh_jh: ["睡觉", "ʂwei˦˦ tɕjɔ˦˦"],
     cjy: ["睡觉", "swei˦˥ tɕjɔ˦˥"],
     cjy_lv: ["睡觉", "su˥˨ tɕiou˥˨"],
-    cjy_xz: ["睡觉", "swei˦˥ tɕjɔ˦˥"],
+    cjy_xz: ["睡觉", "suei˥˨ tɕiɔ˥˨"],
     wuu_sz: ["睏", "kʰuən˥˩˧"],
 
     // --- Turkic and Mongolic — Mongolic keeps *unta-
@@ -814,14 +814,14 @@ WORDS.sleep = {
     // --- More Sinitic — Gan 睏觉, Hakka 睡目, Yue 瞓覺
     zh_lz: ["睡觉", "ʂwei˩˧ tɕjau˩˧"],
     wuu_nb: ["睏", "kʰuəŋ˥˧"],
-    wuu_jx: ["睏", "kʰuəŋ˧˧˥"],
+    wuu_jx: ["睏", "kʰuəŋ˧˥"],
     gan: ["睏觉", "kʰun˦˥ kau˦˥"],
     gan_yc: ["睏觉", "kʰun˥ kau˥"],
     gan_ja: ["睏觉", "kʰun˦˥ kau˦˥"],
     gan_fz: ["睏觉", "kʰun˦˥ kau˦˥"],
     hak_cn: ["睡目", "soi˥ muk˥"],
     hak_tw: ["睡目", "soi˥˥ muk˥"],
-    hak_hl: ["睡目", "ʃoi˧˧ muk˨˨"],
+    hak_hl: ["睡目", "ʃoi˧˧ muk˥"],
     yue_dg: ["瞓觉", "fɐn˦˦˧ kau˦˦˧"],
     yue_nn: ["瞓觉", "fɐn˧˧ kaːu˧˧"],
     yue_zs: ["瞓覺", "fɐn˧ kaːu˧"],

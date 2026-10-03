@@ -702,7 +702,7 @@ WORDS.nose = {
     wuu_sz: ["鼻头", "biɪʔ˧ dɤ˨˨˧"],
     wuu_hz: ["鼻头", "biəʔ˩˨ dɤɯ˨˩˧"],
     wuu_nb: ["鼻头", "biɪʔ˩˨ dɤu"],
-    wuu_jx: ["鼻头", "biəʔ˩˨ de˨˨˧"],
+    wuu_jx: ["鼻头", "bieʔ˩˨ de˧˩"],
     wuu_jh: ["鼻头", "biəʔ˩˨ diu˨˨˦"],
     cnp: ["鼻", "pɐt˨"],
     nan_hai: ["鼻", "fi˨˧"],
@@ -710,10 +710,10 @@ WORDS.nose = {
     // --- Sinitic — the south keeps a suffix: 鼻公 in Hakka, 鼻哥 in Yue ---
     // Gan and Min read 鼻 with the old *-t coda, so Nanchang has 鼻子 pʰit-.
     gan: ["鼻子", "pʰit˥ tsɿ"],
-    hak_hl: ["鼻公", "pʰi˧˧ kuŋ˥˧"],
+    hak_hl: ["鼻空", "pʰi˧˧ kʰuŋ˥˧"],
     yue_gz: ["鼻", "ɓɛj˨˩"],
     yue_nn: ["鼻哥", "pi˨ kɔ˥˥"],
-    yue_zs: ["鼻哥", "pi˨ kɔ˥˥"],
+    yue_zs: ["鼻哥", "pi˧˧ kɔ˥˥"],
     // --- Tibeto-Burman — *s-na, and the Kuki-Chin/Naga na- body-part shape
     rki: ["နှာခေါင်း", "n̥à kʰáuɰ̃"],
     mni: ["ꯅꯥꯇꯣꯜ", "natol"],

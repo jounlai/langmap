@@ -368,7 +368,7 @@ WORDS.wheel = {
     nan_zz: ["車輦", "tsʰia˦˦ liɛn˥˧"],
     nan_te: ["轮", "luŋ˥˥"],
     hak_tw: ["輪", "lun˩˩"],
-    hak_hl: ["輪", "lun˥˥"],
+    hak_hl: ["輪", "lin˩˩"],
     wuu: ["轮盘", "lən˨˧ be˨˧"],
     wuu_sz: ["轮盘", "lən˨˨˧ bø˨˨˧"],
     hsn: ["滚盘", "kuən˦˩ põ˩˧"],

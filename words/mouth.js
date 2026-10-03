@@ -638,7 +638,7 @@ WORDS.mouth = {
     de_ch: ["Mund", "mʊnt"],
     en_yk: ["mouth", "maʊθ"],
     en_scouse: ["mouth", "maʊθ"],
-    wuu_jx: ["嘴", "tsz̩˧˩˧"],
+    wuu_jx: ["嘴", "tsɿ˦˦"],
     cnp: ["口", "hɐu˧˧"],
     zh_lz: ["嘴", "tswei˦˦˨"],
     wuu_sz: ["嘴", "tsʮ˥˩"],

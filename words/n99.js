@@ -1391,7 +1391,7 @@ WORDS.n99 = {
     mi:       ["iwa tekau mā iwa", "iwa tekau maː iwa"],
     tpi:      ["nainpela ten nain", "nainpela ten nain"],
     yue:    ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"],
-    yue_zs: ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"],
+    yue_zs: ["九十九", "kɐu˨˩˧ sɐp˧ kɐu˨˩˧"], // was ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"] (r46 fix 2026-10-03)
     yue_ts: ["九十九", "kiu˧˧ sip˨ kiu˧˧"],
     yue_dg: ["九十九", "kau˧˥ ʃɔk˧ kau˧˥"],
     yue_nn: ["九十九", "kɐu˧˥ ɬɐp˨ kɐu˧˥"],

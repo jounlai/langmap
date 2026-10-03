@@ -70,7 +70,7 @@ WORDS.bird = {
     acf: ["zwezo", "zwezo"],
     gan_fz: ["鸟", "ȵiɛu˧˥"],
     cjy_lv: ["鸟", "niou˧˩˨"],
-    cjy_xz: ["鸟", "niɔ˩˩"],
+    cjy_xz: ["鸟", "niɔ˧˩˧"],
     czh_wy: ["鸟", "liɔ˧˩"],
     hop: ["tsiro", "tsiro"],
     win: ["wanįk", "wanĩk"],
@@ -732,7 +732,7 @@ WORDS.bird = {
     nan_hai: ["鸟", "tsiau˨˩˧"],
     zh_wh: ["鸟", "niau˦˨"],
     zh_zz: ["鸟", "niau˥˧"],
-    hak_hl: ["鳥", "tiau˨˦"],
+    hak_hl: ["鳥", "tiau˥˧"],
     cpx: ["鸟", "tsieu˦˥˧"],
     mtq: ["chim", "cim"],
     tyz: ["nộc", "nok˥˩"],
@@ -767,8 +767,8 @@ WORDS.bird = {
     nan_zz: ["鳥", "tsiau˥˧"],
     pmy: ["burung", "buruŋ"],
     wuu_jh: ["鸟", "ɲiɔ˥˧˥"],
-    wuu_jx: ["鸟", "ɲiɔ˧˩˧"],
-    yue_zs: ["鳥", "niu˩˧"],
+    wuu_jx: ["鸟", "ȵiɔ˨˩˨"],
+    yue_zs: ["鳥", "niu˨˩˧"],
     zh_cd: ["鸟", "niau˥˧"],
     zh_hf: ["鸟", "ȵiɔ˨˦"],
     zh_kf: ["鸟", "niau˥˧"],
@@ -909,7 +909,7 @@ WORDS.bird = {
     jio: ["nɔːk", "nɔːk˥˧"],
 
     // --- Sinitic — 鸟 read with the 泥母 initial, so the tone is the lower 上聲
-    gan_ja: ["鸟", "ȵiau˨˩˧"],
+    gan_ja: ["鸟", "ȵiau˥˧"],
     hsn_hy: ["鸟", "niau˧˧"],
     hsn_yz: ["鸟", "niau˨˩"],
 

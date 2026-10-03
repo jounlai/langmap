@@ -514,7 +514,7 @@ WORDS.book = {
     en_yk: ["book", "bʊk"],
     en_ck: ["book", "bʊk"],
     ko_hg: ["책", "tɕʰɛk̚"],
-    wuu_jx: ["书", "sz̩˥˧"],
+    wuu_jx: ["书", "sʮ˥˩"],
     cnp: ["书", "sy˥˦"],
     zh_lz: ["书", "fu˧˩"],
     wuu_nb: ["书", "sɿ˥˧"],

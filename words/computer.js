@@ -459,7 +459,7 @@ WORDS.computer = {
     "vep": ["tedomašin", "ˈtedomaʃin"],
     "vi_nom": ["盤倂", "ɓaːn˨˩ tiɲ˧˥"],
     "vro": ["puutri", "ˈpuːtri"],
-    "wuu_jx": ["电脑", "die˩˩˧ nɔ˨˩˧"],
+    "wuu_jx": ["电脑", "die˩˩˦ nɔ˨˩˨"],
     "xmf": ["კომპიუტერი", "kʼompʼiuˈtʼeri"],
     "yue_ts": ["电脑", "en˧˨ ⁿdau˥˥"],
     "za": ["dennauj", "teːn˧˥ naːu˥"],

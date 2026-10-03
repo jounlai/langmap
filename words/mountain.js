@@ -484,7 +484,7 @@ WORDS.mountain = {
     jvn: ["gunung", "ɡunuŋ"],
     en_yk: ["mountain", "ˈmaʊntɪn"],
     zh_jn: ["山", "ʂan˨˩˧"],
-    wuu_jx: ["山", "sɛ˥˧"],
+    wuu_jx: ["山", "sɛ˥˩"],
     zh_cd: ["山", "san˥˥"],
     zh_nj: ["山", "ʂan˧˩"],
     cnp: ["山", "san˥˦"],

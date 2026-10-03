@@ -1478,12 +1478,12 @@ WORDS.bear = {
     // each was read off MCPDict's 同音字表 for that lect, with the tone taken
     // from that row's own 紅/红, which is 陽平 like 熊)
     gan: ["熊", "ɕiuŋ˨˦"],
-    gan_yc: ["熊", "ʃɤŋ˥"],
-    gan_ja: ["熊", "ɕiuŋ˦˥"],
-    gan_fz: ["熊", "ɕiuŋ˦˥"],
+    gan_yc: ["熊", "ʃɤŋ˧˧"], // was ["熊", "ʃɤŋ˥"] (r46 fix 2026-10-03)
+    gan_ja: ["熊", "ɕiuŋ˩˩"], // was ["熊", "ɕiuŋ˦˥"] (r46 fix 2026-10-03)
+    gan_fz: ["熊", "ɕyŋ˨˦"], // was ["熊", "ɕiuŋ˦˥"] (r46 fix 2026-10-03)
     cjy: ["熊", "ɕyuŋ˩"],
     cjy_lv: ["熊", "ɕyʌŋ˦˦"],
-    cjy_xz: ["熊", "ɕyəŋ˩˩"],
+    cjy_xz: ["熊", "ɕyəŋ˧˩"], // was ["熊", "ɕyəŋ˩˩"] (r46 fix 2026-10-03)
     hsn: ["熊", "ɕin˩˧"],
     hsn_hy: ["熊", "ɕin˩˩˨"],
     czh: ["熊", "ɕin˨˩˧"],
@@ -1492,12 +1492,12 @@ WORDS.bear = {
     wuu_sz: ["熊", "ɦioŋ˨˨˧"],
     wuu_hz: ["熊", "ɦioŋ˨˩˧"],
     wuu_nb: ["熊", "ɦioŋ˨˩˧"],
-    wuu_jx: ["熊", "ɦioŋ˨˧"],
+    wuu_jx: ["熊", "ɦioŋ˧˩"], // was ["熊", "ɦioŋ˨˧"] (r46 fix 2026-10-03)
     wuu_wz: ["熊", "ɦioŋ˧˩"],
     wuu_jh: ["熊", "ɦioŋ˧˩˧"],
     hak_cn: ["熊", "iuŋ˩˩"],
     hak_tw: ["熊", "iuŋ˩˩"],
-    hak_hl: ["熊", "ʒiuŋ˥˥"],
+    hak_hl: ["熊", "ʒuŋ˥˥"], // was ["熊", "ʒiuŋ˥˥"] (r46 fix 2026-10-03)
     cdo: ["熊", "hyŋ˥˧"],
     cpx: ["熊", "hœŋ˩˧"],
     nan_te: ["熊", "him˥˥"],
@@ -1509,7 +1509,7 @@ WORDS.bear = {
     yue_ts: ["熊", "huŋ˨˨"],
     yue_dg: ["熊", "joŋ˧˩"],
     yue_nn: ["熊", "juŋ˨˩"],
-    yue_zs: ["熊", "hʊŋ˨˩"],
+    yue_zs: ["熊", "hʊŋ˥˩"], // was ["熊", "hʊŋ˨˩"] (r46 fix 2026-10-03)
     cnp: ["熊", "jœŋ˨˩"],
     zh_db: ["熊", "ɕyŋ˧˥"],
     zh_sc: ["熊", "ɕioŋ˨˩"],

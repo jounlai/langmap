@@ -414,7 +414,7 @@ WORDS.sushi = {
     "ne": ["सुशी", "susi"],
     "or": ["ସୁଶି", "susi"],
     "vi_s": ["sushi", "ʂu˧ ʂi˧"],
-    "wuu_jx": ["寿司", "ze˩˩˧ sz̩˥˧"],
+    "wuu_jx": ["寿司", "ze˩˩˦ sɿ˥˩"],
     bew: ["sushi", "ˈsuʃi"],
     io: ["sushio", "ˈsuʃio"],
     fit: ["susji", "ˈsuʃi"],

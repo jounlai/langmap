@@ -1219,7 +1219,7 @@ WORDS.we = {
     lb: ["mir", "miːɐ̯"],
     gcr: ["nou", "nu"],
     acf: ["nou", "nu"],
-    gan_yc: ["我勒", "ŋo˨˩˧ lə"],
+    gan_yc: ["我勒", "ŋo˧˥ lə"], // was ["我勒", "ŋo˨˩˧ lə"] (r46 fix 2026-10-03)
     gan_ja: ["我东", "ŋo˧˩ tuŋ˦˨"],
     gan_fz: ["—", "—"],
     cjy_lv: ["俺们", "ɣæ̃˥˧ mə"],

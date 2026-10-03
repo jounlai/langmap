@@ -1188,12 +1188,6 @@ WORDS.foot = {
     zts: "leg+foot",
     zu: "distinct",
     zza: "distinct",
-    enf: "leg+foot",
-    hts: "leg+foot",
-    atb: "leg+foot",
-    gum: "leg+foot",
-    yue_gz: "leg+foot",
-    juc: "leg+foot",
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🦶", "en": "a word of its own", "ja": "足だけの語", "ko": "발만의 낱말", "zh": "脚有专词", "yue": "腳有專詞", "vi": "có từ riêng", "th": "มีคำเฉพาะ", "id": "punya kata sendiri", "hi": "अपना अलग शब्द", "de": "eigenes Wort", "fr": "un mot à lui", "it": "una parola propria", "es": "palabra propia", "pt": "palavra própria", "ru": "своё слово", "uk": "власне слово", "ar": "كلمة خاصة به", "he": "מילה משלה", "sw": "neno lake lenyewe"},
@@ -1368,7 +1362,7 @@ WORDS.foot = {
     cjs: ["азақ", "azaq"],  // азақ covers both, the Yeniseian Turkic reflex of *adak that Khakas writes азах.
     cjy: ["脚", "tɕyəʔ˨"],  // Jin keeps them apart.
     cjy_lv: ["脚", "tɕiəʔ˦"],  // Jin keeps them apart, as the Taiyuan row does: Wiktionary's dialect tables give Lishi 腳/腳片子 for the foot, and both Jin points with dictionary coverage — Taiyuan and Xinzhou — set 腿 against it. MCPDict 離石 脚 tɕiəʔ7; ˦ is this row's 陰入, and 李小平 2004's published 離石 values (陰平24 陽平44 上聲312 去52 陰入4 陽入23) match the row throughout.
-    cjy_xz: ["脚", "tɕiɛʔ˨"],  // Jin keeps them apart, and Xinzhou is one of the points where the dictionaries record both sides: 腳/腳板子 against 腿, 大腿, 小腿子. MCPDict 忻州秀容 脚 tɕiɛʔ7, the row's 陰入 ˨.
+    cjy_xz: ["脚", "tɕiɛʔ˦˧"],  // Jin keeps them apart, and Xinzhou is one of the points where the dictionaries record both sides: 腳/腳板子 against 腿, 大腿, 小腿子. MCPDict 忻州秀容 脚 tɕiɛʔ7, the row's 陰入 ˨. // was ["脚", "tɕiɛʔ˨"] (r46 fix 2026-10-03)
     ckb: ["پێ", "peː"],  // Sorani splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes دەست as dɛst.
     ckt: ["гыткаԓгын", "ɣətkaɬɣən"],  // One word for the lower limb.
     ckv: ["zapan", "zaˈpan"],  // Li & Tsuchida gloss zapan 'leg and foot' in one entry; Ruqap is the sole and betis the calf, neither a rival.
@@ -1546,9 +1540,9 @@ WORDS.foot = {
     gaa: ["nane", "nane"],  // nane covers the limb: the 1874 English–Tshi–Akra dictionary prints it under both foot and leg, and the thigh word fio is separate.
     gag: ["ayak", "aˈjak"],  // ayak covers both in Baskakov's Gagauz-Russian-Moldovan dictionary; but is the thigh, and Gagauz did not take the Turkish bacak.
     gan: ["脚", "tɕiɔʔ˥"],  // Nanchang is named outright in 汉语义位“腿”“脚”比较研究 (中国社会科学网 2015) as using 脚 for 'foot' and for the whole leg; 大腿 and 小腿 survive as part-terms, as they do in Jian'ou, which is leg+foot too. MCPDict 南昌 脚 tɕiɔʔ7, the row's 陰入 ˥.
-    gan_fz: ["脚", "tɕioʔ˥"],  // As Nanchang. 抚州采茶戏字表 gives 脚 tɕioʔ in its 陰入; 腳 is 宕攝 so it takes the row's -ʔ coda, not the -t of 血 ɕyɛt˥.
+    gan_fz: ["脚", "tɕiɔʔ˨"],  // As Nanchang. 抚州采茶戏字表 gives 脚 tɕioʔ in its 陰入; 腳 is 宕攝 so it takes the row's -ʔ coda, not the -t of 血 ɕyɛt˥. // was ["脚", "tɕioʔ˥"] (r46 fix 2026-10-03)
     gan_ja: ["脚", "tɕio˥"],  // As Nanchang. 吉安市区 has no 脚 entry, so the reading is 吉安天玉 and 吉安采茶戏 tɕio, with the row's own 陰入 ˥ (血 ɕyɛ˥, 百 pa˥, 骨 kut˥).
-    gan_yc: ["脚", "tʃoʔ˧˩"],  // Gan does not split the limb: the 汉语义位“腿”“脚”比较研究 survey (中国社会科学网 2015) names 萍乡, the next 宜浏片 point over, as using 脚 for both 'foot' and the whole leg. Reading from MCPDict 宜春 脚 tʃoʔ; tone ˧˩ to match this row's merged 入聲 (血 ʃøʔ˧˩, 一 iʔ˧˩).
+    gan_yc: ["脚", "tʃoʔ˦"],  // Gan does not split the limb: the 汉语义位“腿”“脚”比较研究 survey (中国社会科学网 2015) names 萍乡, the next 宜浏片 point over, as using 脚 for both 'foot' and the whole leg. Reading from MCPDict 宜春 脚 tʃoʔ; tone ˧˩ to match this row's merged 入聲 (血 ʃøʔ˧˩, 一 iʔ˧˩). // was ["脚", "tʃoʔ˧˩"] (r46 fix 2026-10-03)
     gbm: ["खुट्टु", "kʰuʈːu"],  // As Kumaoni खुट: Central Pahari runs the whole lower limb on the khuṭ word. IPA is the plain reading of the orthography, following how this row's own stone cell writes पत्थर as ˈpətːʰər.
     gcf: ["pyé", "pje"],  // Moïse and Recoque's Guadeloupean expressions dictionary has dé pyé a-w an menm soulyé-la, and the Guadeloupean sentence ki jan janm-aw yé pairs it with janm, so Guadeloupean splits pyé from janm as the acf row does.
     gcr: ["pyé", "pje"],  // The Guianese New World Translation cuts off to pyé at Mark 9:45, and the Guianese Wikipedia's Karolin has the man lending the woman so janm, so Guianese splits pyé from janm as Haitian and Saint Lucian do.
@@ -1583,7 +1577,7 @@ WORDS.foot = {
     hai: ["stʼáay", "stʼɑ́ːj"],  // IDS splits Northern Haida stˀáay from ḳˀulúu; this row's own stʼáat fixes the reading.
     haj: ["theng", "ʈʰeŋ"],  // ঠেং generalised to the whole lower limb, where Bengali keeps it as a colloquial leg word only; thengpata is the foot-specific compound.
     hak_cn: ["脚", "kiok̚˧"],  // Hakka 腳 covers the lower limb.
-    hak_hl: ["腳", "kiok˥˥"],  // As mainland Hakka.
+    hak_hl: ["腳", "kiok˥"],  // As mainland Hakka. // was ["腳", "kiok˥˥"] (r46 fix 2026-10-03)
     hak_tw: ["腳", "ki̯ok̚˨"],  // As mainland Hakka.
     har: ["igir", "iɡir"],  // Leslau, Comparative Dictionary of Geez 11, s.v. ʾəgr 'foot': Har. igir, ingir, beside Amh. əgər and Te. ʾəgər; written in this row's Latin transcription, as its iji 'hand' is.
     haw: ["wāwae", "waːwae"],  // One word for the whole lower limb, the Polynesian norm. IPA is the plain reading of the orthography, following how this row's own hand cell writes lima as ˈlima.
@@ -2302,7 +2296,7 @@ WORDS.foot = {
     yue_gz: ["脚", "ke̯ɛk̚˧˧"],  // Gaozhou kept the old ek rime in this very word — the source names 脚 as one of the hold-outs against Guangzhou's œk — so the cell is kiak̚ and not the parent's kœːk̚. // was ["脚", "kœːk̚˧"] (r39 fix 2026-10-03)
     yue_nn: ["脚", "kœːk̚˧"],  // The Nanning romanisation's own rime table uses 腳 as the exemplar defining oek [œːk̚] at 下陰入 [33], so this cell is sourced on the character itself. The row's preserved ek in 食 ʃek˨ is a different rime — the ik [ek̚/ɪk̚] of 激, 曾攝 — and does not reach 宕攝. Simplified per this row's convention.
     yue_ts: ["脚", "kiak̚˧˧"],  // Taken to follow Cantonese.
-    yue_zs: ["腳", "kœːk̚˧"],  // As Guangzhou: 腳 runs the whole way up the limb and the thigh is 大髀, the same 髀 the yue row names. MCPDict 中山 脚 kœk, the same tone index as 百, so ˧ — this row's 中入, against the ˥ it writes on the short-vowelled 骨 kʷɐt˥ and 一 jɐt˥.
+    yue_zs: ["腳", "kœk˧"],  // As Guangzhou: 腳 runs the whole way up the limb and the thigh is 大髀, the same 髀 the yue row names. MCPDict 中山 脚 kœk, the same tone index as 百, so ˧ — this row's 中入, against the ˥ it writes on the short-vowelled 骨 kʷɐt˥ and 一 jɐt˥. // was ["腳", "kœːk̚˧"] (r46 fix 2026-10-03)
     yug: ["бул", "bul"],  // Werner 2011: 145 through the GLD's Yeniseian list, which calls бул quite distinct from киʼс 'leg' (Werner 2011: 85); the row transliterates Werner's Latin into Cyrillic throughout, and Yugh has the plain -l where Ket has буль. This inverts our ket cell, which reports NorthEuraLex faithfully — Werner glosses both words нога and the two databases split it the opposite ways.
     yur: ["mechkah", "metʃkah"],  // Yurok's dependent noun is me-chkah 'somebody's foot', which Georgiana Trull's book lists a few lines above meehl 'leg'.
     yux: ["нойл", "nojl"],  // The Kolyma source that gives this row its нугэн 'hand' answers both foot and leg with nojl — Tundra Yukaghir splits them, Kolyma does not.

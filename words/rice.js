@@ -398,7 +398,7 @@ WORDS.rice = {
     zh_jn: ["米", "mi˥˥"],
     zh_km: ["米", "mi˥˧"],
     zh_xa: ["米", "mi˥˧"],
-    wuu_jx: ["米", "mi˨˧"],
+    wuu_jx: ["米", "mi˨˩˨"],
     zh_cd: ["米", "mi˥˧"],
     zh_kf: ["米", "mi˥˧"],
     cnp: ["米", "mɐi˨˦"],

@@ -887,7 +887,7 @@ WORDS.wine = {
     ilo: ["arak", "ˈʔarak"],
     bik: ["arak", "ˈʔaɾak"],
     qxq: ["şərab", "ʃærɑb"],
-    yue_zs: ["葡萄酒", "pʰu˨˩ tʰou˨˩ tsɐu˧˥"],
+    yue_zs: ["葡萄酒", "pʰu˥˩ tʰou˥˩ tsɐu˨˩˧"], // was ["葡萄酒", "pʰu˨˩ tʰou˨˩ tsɐu˧˥"] (r46 fix 2026-10-03)
     sms: ["vijnn", "vijnː"],
     yrl: ["vinyu", "viɲu"],
     nlc: ["anggur mek", "aŋɡur mek"],
@@ -906,7 +906,7 @@ WORDS.wine = {
     anu: ["køøŋ nyïïomøki", "køːŋ ɲiːomøki"],
     bom: ["nshî anap", "nʃî anap"],
     mev: ["wã́ã́ĩ̀", "wã́ːĩ̀"],
-    wuu_jx: ["葡萄酒", "bəʔ˩˨ dɔ˨˧ tɕiəu˧˩˧"],
+    wuu_jx: ["葡萄酒", "bəʔ˩˨ dɔ˧˩ tɕiəu˦˦"], // was ["葡萄酒", "bəʔ˩˨ dɔ˨˧ tɕiəu˧˩˧"] (r46 fix 2026-10-03)
     mixtec: ["vino", "βino"],
     zap: ["vinu", "binu"],
     mxc: ["waini", "waini"],

@@ -555,7 +555,7 @@ WORDS.butterfly = {
     dty: ["पुतली", "putali"],
     tly: ["lüləpər", "lyləpəɾ"],
     nan_pn: ["尾蝶", "bue˦˦˥ iaʔ˦"],
-    hak_hl: ["蝶仔", "ʒak˨˨ e˥˥"],
+    hak_hl: ["蝶仔", "ʒak˨ ɤ˥˥"],
     ksb: ["hoho", "hoho"],
     urh: ["erhi", "eɾi"],
     gaa: ["abei", "abei"],

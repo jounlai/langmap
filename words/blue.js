@@ -819,23 +819,23 @@ WORDS.blue = {
     nan_xm: ["藍", "lam˨˦"],
     nan: ["藍", "nã˨˦"],
     cpx: ["蓝", "laŋ˩˧"],
-    yue_zs: ["藍", "lam˨˩"],
+    yue_zs: ["藍", "lam˥˩"], // was ["藍", "lam˨˩"] (r46 fix 2026-10-03)
     yue_ts: ["蓝", "lam˨˨"],
     yue_dg: ["蓝", "laŋ˧˩"],
     cnp: ["蓝", "lam˨˩"],
     yue_nn: ["蓝", "lam˨˩"],
     cjy_lv: ["蓝", "læ˦˦"],
-    cjy_xz: ["蓝", "lɑ̃˩˩"],
+    cjy_xz: ["蓝", "lɑ̃˧˩"], // was ["蓝", "lɑ̃˩˩"] (r46 fix 2026-10-03)
     gan_ja: ["蓝", "lan˦˥"],
-    gan_fz: ["蓝", "lam˦˥"],
-    gan_yc: ["蓝", "lan˥"],
+    gan_fz: ["蓝", "lam˨˦"], // was ["蓝", "lam˦˥"] (r46 fix 2026-10-03)
+    gan_yc: ["蓝", "lan˧˧"], // was ["蓝", "lan˥"] (r46 fix 2026-10-03)
     hsn_yz: ["蓝", "lã˩˧"],
     hsn_hy: ["蓝", "lan˩˩˨"],
     hsn: ["蓝", "lan˩˧"],
     wuu_jh: ["蓝", "lã˧˩˧"],
     wuu_wz: ["蓝", "la˧˩"],
     wuu_hz: ["蓝", "læ̃˨˩˧"],
-    wuu_jx: ["蓝", "lɛ˨˧"],
+    wuu_jx: ["蓝", "lɛ˧˩"], // was ["蓝", "lɛ˨˧"] (r46 fix 2026-10-03)
     wuu_nb: ["蓝", "lɛ˨˨˧"],
     wuu_sz: ["蓝", "lᴇ˨˨˧"],
     wuu: ["蓝", "lɛ˨˧"],

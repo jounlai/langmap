@@ -921,6 +921,8 @@ WORDS.wheel = {
     wuu_wz: ["轮盘", "laŋ˧˩ bø˧˩"],
     khb: ["ᦖᦱᧅᦟᦸᧉ", "maːk lɔː"],
     dur: ["kɨ̀ɨ̀kɨ́ɨ́", "kɨːkɨː"],
-    blr: ["tɔm31 puk51", "tɔm˧˩ puk˥˩"]
+    blr: ["tɔm31 puk51", "tɔm˧˩ puk˥˩"],
+    ada: ["tlɔɔke nane", "tlɔːke nane"],
+    vmw: ["nroota", "nɾoːta"]
   }
 };

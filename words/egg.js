@@ -1113,6 +1113,7 @@ WORDS.egg = {
     dtp_kzj: ["tontohuʼ", "tontohuʔ"],
     na: ["epaitdomo", "epaitdomo"],
     pmt: ["tōuo", "toːuo"],
-    cjs: ["нубуртқа", "nuburtqa"]
+    cjs: ["нубуртқа", "nuburtqa"],
+    iso: ["ike", "ike"]
   },
 };

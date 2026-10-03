@@ -964,6 +964,12 @@ WORDS.snow = {
     otq: ["tꞌaxtse̱", "tʼaʃtsɛ"],
     cni: ["sharaka", "ʃaɾaka"],
     mrw: ["oran a ilo", "ʔoran a ilo"],
-    mmd: ["tɕu5", "tɕu˦˦"]
+    mmd: ["tɕu5", "tɕu˦˦"],
+    niu: ["kiona", "kiona"],
+    lun: ["sino", "sino"],
+    seh: ["neve", "neve"],
+    bin: ["isonorhọ", "isonoɾɔ"],
+    ng: ["olumi", "olumi"],
+    ngl: ["mucharapo", "mutʃʰaɾapo"]
   }
 };

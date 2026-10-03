@@ -786,6 +786,23 @@ WORDS.rice = {
     guu: ["atoɾoso", "atoɾoso"],
     nuf: ["mɛ35mɛ31", "mɛ˧˥mɛ˧˩"],
     acn: ["tsʰen55", "tsʰen˥˥"],
-    nrf_gg: ["riz", "ʁi"]
+    nrf_gg: ["riz", "ʁi"],
+    niu: ["laisi", "laisi"],
+    tvl: ["laisi", "laisi"],
+    wls: ["laisi", "laisi"],
+    ada: ["omɔ", "omɔ"],
+    nzi: ["awule", "awule"],
+    zne: ["mapunga", "mapuŋɡa"],
+    kqn: ["mupunga", "mupuŋɡa"],
+    lua: ["losa", "losa"],
+    tll: ["eponga", "epoŋɡa"],
+    nbl: ["ireyisi", "irejisi"],
+    ng: ["olwiishi", "olwiːʃi"],
+    kj: ["olwishi", "olwiʃi"],
+    bum: ["ôlis", "ɔlis"],
+    ndc: ["mupunga", "mupuŋɡa"],
+    lun: ["losu", "losu"],
+    sid: ["ruuze", "ruːze"],
+    lue: ["loso", "loso"]
   }
 };

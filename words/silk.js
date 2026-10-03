@@ -749,6 +749,9 @@ WORDS.silk = {
     dur: ["sìlíkì", "siliki"],
     bdk: ["барама", "barama"],
     inh: ["даьри", "dæri"],
-    swi: ["min2", "min˧˩"]
+    swi: ["min2", "min˧˩"],
+    niu: ["silika", "silika"],
+    wls: ["silika", "silika"],
+    kj: ["osilki", "osilki"]
   }
 };

@@ -1059,6 +1059,7 @@ WORDS.horse = {
     dtp_kzj: ["kudaʼ", "kudaʔ"],
     blr: ["ka31 hɔŋ51", "ka˧˩ hɔŋ˥˩"],
     wmt: ["dimana", "ˈdimana"],
-    szy: ["kabayu", "kabaju"]
+    szy: ["kabayu", "kabaju"],
+    niu: ["solofanua", "solofanua"]
   }
 };

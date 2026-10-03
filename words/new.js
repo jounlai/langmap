@@ -1111,6 +1111,7 @@ WORDS.new = {
     dlg: ["һаҥа", "haŋa"],
     wmt: ["jalangjalang", "ˈɟalaŋɟalaŋ"],
     guu: ["tute", "tute"],
-    na: ["etaimeduw", "etaimeduw"]
+    na: ["etaimeduw", "etaimeduw"],
+    fan: ["nféféñ", "nféféɲ"]
   }
 };

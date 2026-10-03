@@ -803,6 +803,14 @@ WORDS.rice = {
     ndc: ["mupunga", "mupuŋɡa"],
     lun: ["losu", "losu"],
     sid: ["ruuze", "ruːze"],
-    lue: ["loso", "loso"]
+    lue: ["loso", "loso"],
+    pt_gw: ["arus", "aˈɾus"],
+    cnh: ["facang", "fatsaŋ"],
+    yua: ["arroz", "aros"],
+    cak: ["arroz", "aˈros"],
+    cab: ["ri", "ri"],
+    quc: ["arroz", "aros"],
+    nch: ["arroz", "aˈros"],
+    ngu: ["arroz", "aˈros"]
   }
 };

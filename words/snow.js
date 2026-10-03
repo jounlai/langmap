@@ -970,6 +970,9 @@ WORDS.snow = {
     seh: ["neve", "neve"],
     bin: ["isonorhọ", "isonoɾɔ"],
     ng: ["olumi", "olumi"],
-    ngl: ["mucharapo", "mutʃʰaɾapo"]
+    ngl: ["mucharapo", "mutʃʰaɾapo"],
+    mxv: ["nieve", "njeβe"],
+    cak: ["nieve", "ˈnjebe"],
+    cab: ["niewe", "niewe"]
   }
 };

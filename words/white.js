@@ -930,7 +930,7 @@ WORDS.white = {
     laj: ["tar", "tar"],
     ach: ["tar", "tar"],
     rki: ["ဖြူ", "pʰju"],
-    cnh: ["rang", "raŋ"],
+    cnh: ["raang", "raːŋ"],
     kxm: ["ស", "sɑː"],
     xng: ["ᠴᠠᠭᠠᠨ", "tʃaɣan"],
     ja_kg: ["白い", "ɕiɾoi"],

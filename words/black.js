@@ -1226,6 +1226,7 @@ WORDS.black = {
     yle: ["kpêdêkpêdê", "kpədəkpədə"],
     guu: ["iʃi", "iʃi"],
     blk: ["ဖြေင်း", "pʰleŋ˥˧"],
-    yuy: ["xara", "χara"]
+    yuy: ["xara", "χara"],
+    tsz: ["turhipiti", "tuɽipiti"]
   },
 };

@@ -1037,6 +1037,8 @@ WORDS.book = {
     adx: ["དཔེ་ཆ", "hwetɕʰa"],
     bsk: ["gitaap", "ɡitaːp"],
     blr: ["ka31 nak33", "ka˧˩ nak˧˧"],
-    guu: ["ɾipɾo", "ɾipɾo"]
+    guu: ["ɾipɾo", "ɾipɾo"],
+    pt_gw: ["livru", "ˈlivɾu"],
+    tar: ["libro", "libɾo"]
   }
 };

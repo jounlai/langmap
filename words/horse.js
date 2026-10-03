@@ -1062,6 +1062,9 @@ WORDS.horse = {
     szy: ["kabayu", "kabaju"],
     niu: ["solofanua", "solofanua"],
     blk: ["သေ", "se̤˧˩"],
-    mjg: ["mori", "mori"]
+    mjg: ["mori", "mori"],
+    cnh: ["rang", "raŋ"],
+    tsz: ["kabaiu", "kaˈbaju"],
+    pt_gw: ["kabalu", "kaˈbalu"]
   }
 };

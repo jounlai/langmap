@@ -1093,6 +1093,7 @@ WORDS.milk = {
     mmd: ["tsɛ5", "tsɛ˦˦"],
     guu: ["suhe upə", "suhe upə"],
     wls: ["huʻa pipi", "huʔa pipi"],
-    mjg: ["sun", "sun"]
+    mjg: ["sun", "sun"],
+    pt_gw: ["liti", "ˈliti"]
   },
 };

@@ -1085,6 +1085,8 @@ WORDS.person = {
     guu: ["jãnõmãmɨ", "jãnõmãmɨ"],
     bew: ["orang", "oraŋ"],
     blk: ["လိုꩻ", "lo˧˧"],
-    yuy: ["kuun", "kuːn"]
+    yuy: ["kuun", "kuːn"],
+    tsz: ["kʼuiripu", "kʰʷiˈɾipu"],
+    xav: ["aʼuwẽ", "aʔuˈwɛ̃"]
   }
 };

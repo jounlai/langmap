@@ -1100,6 +1100,7 @@ WORDS.iron = {
     bdk: ["йилег", "jileɡ"],
     njo: ["yin", "jin"],
     wls: ["ukamea", "ukamea"],
-    mjg: ["timuri", "timuri"]
+    mjg: ["timuri", "timuri"],
+    tsz: ["tiámu", "ˈtjamu"]
   },
 };

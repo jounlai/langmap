@@ -1211,6 +1211,7 @@ WORDS.four = {
     jup: ["hibabʼní", "hibabʼní"],
     trm: ["čātā", "tʃaːtaː"],
     blk: ["လစ်ꩻ", "lit˦˥"],
-    yuy: ["dørwen", "dørwen"]
+    yuy: ["dørwen", "dørwen"],
+    xav: ["maparane siʼuiwa", "mapaɾane siʔuiwa"]
   },
 };

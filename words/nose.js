@@ -1147,6 +1147,8 @@ WORDS.nose = {
     qxs: ["χȵiqopə", "χɲiqopə"],
     ake: ["enna", "enna"],
     aau: ["kasaw", "kasaw"],
-    blk: ["နေ့ဖူ", "neʔ˦˥ pʰu"]
+    blk: ["နေ့ဖူ", "neʔ˦˥ pʰu"],
+    tsz: ["úrhi", "ˈuɽi"],
+    mxv: ["sitin", "sitin"]
   },
 };

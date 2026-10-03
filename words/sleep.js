@@ -1147,6 +1147,7 @@ WORDS.sleep = {
     prg: ["meicte", "meikte"],
     bor: ["nudu", "nudu"],
     nmn: ["ʘân", "ʘã"],
-    blk: ["ဗေင်ႏ", "beŋ˥˥"]
+    blk: ["ဗေင်ႏ", "beŋ˥˥"],
+    tsz: ["kʼuíni", "ˈkʰʷini"]
   },
 };

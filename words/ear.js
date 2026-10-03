@@ -1170,6 +1170,12 @@ WORDS.ear = {
     dur: ["tɔ́g", "tɔɡ"],
     xsr: ["ཨ་མཆོག", "amtɕʰok"],
     mvf: ["qigi", "ʨiɡə"],
-    hts: ["hajjapitchi", "ɦatʃʼapitʃʰi"]
+    hts: ["hajjapitchi", "ɦatʃʼapitʃʰi"],
+    omx: ["က္တောဝ်", "ktor"],
+    p_toc: ["*kleutsān", "kleutsaːn"],
+    p_viet: ["*saːj", "saːj"],
+    pafa: ["*ʔudun-", "ʔudun"],
+    xag: ["ˁi", "iˤ"],
+    txg: ["𗐴", "nju˧"]
   },
 };

@@ -766,5 +766,113 @@
     "proto": "ptrk",
     "ruling": "circular",
     "note": "Karakhanid elig \"hand\" (Kashgari's Dīwān) is among the attestations Proto-Turkic *elig is reconstructed from. Surfaced when review 547 replaced the row's qol, which means \"arm\"."
+  },
+  "cmg|sea": {
+    "form": "dalai",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Classical Mongolian is, with Middle Mongol, the basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
+  "emy|mountain": {
+    "form": "witz",
+    "proto": "pmay",
+    "ruling": "inherited",
+    "note": "Classic Maya witz \"mountain\" is attested in the inscriptions (Boot 2009) and unchanged from Proto-Mayan. Ruled 2026-10-03 (round 45)."
+  },
+  "ojp|horse": {
+    "form": "uma",
+    "proto": "p_jpn",
+    "ruling": "circular",
+    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
+  },
+  "ojp|mouth": {
+    "form": "kuti",
+    "proto": "p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
+  },
+  "ojp|person": {
+    "form": "pito",
+    "proto": "p_ryu",
+    "ruling": "circular",
+    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
+  },
+  "omx|earth": {
+    "form": "tiʔ",
+    "proto": "p_aav",
+    "ruling": "inherited",
+    "note": "Old Mon attests the word unchanged from the Austroasiatic reconstruction (Shorto 1971; r45 slice 1). Ruled 2026-10-03 (round 45)."
+  },
+  "ota|horse": {
+    "form": "at",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Ottoman Turkish attests the word unchanged from Proto-Turkic (round 45 source in ~/langmap-work/r45/slice5.tsv). Ruled 2026-10-03 (round 45)."
+  },
+  "ota|poop": {
+    "form": "bok",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Ottoman Turkish attests the word unchanged from Proto-Turkic (round 45 source in ~/langmap-work/r45/slice5.tsv). Ruled 2026-10-03 (round 45)."
+  },
+  "otk|horse": {
+    "form": "at",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Old Turkic (Orkhon) is the principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
+  "sukh|black": {
+    "form": "dam",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
+  },
+  "sukh|horse": {
+    "form": "maː",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
+  },
+  "sukh|mouth": {
+    "form": "paːk",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
+  },
+  "sukh|you": {
+    "form": "mɯŋ",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
+  },
+  "txb|you": {
+    "form": "tuwe",
+    "proto": "p_toc",
+    "ruling": "circular",
+    "note": "Tocharian B is a basis of the Proto-Tocharian reconstruction. Ruled 2026-10-03 (round 45)."
+  },
+  "xng|mouth": {
+    "form": "aman",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol is a basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
+  "xng|sea": {
+    "form": "dalai",
+    "proto": "pmng",
+    "ruling": "circular",
+    "note": "Middle Mongol is a basis of the Proto-Mongolic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
+  "xqa|earth": {
+    "form": "jer",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid (Kāšġarī) is a principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
+  },
+  "xqa|person": {
+    "form": "kiši",
+    "proto": "ptrk",
+    "ruling": "circular",
+    "note": "Karakhanid (Kāšġarī) is a principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
   }
 }

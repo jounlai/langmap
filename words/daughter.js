@@ -1100,6 +1100,10 @@ WORDS.daughter = {
     sdh: ["دۊەت", "dyːæt"],
     wuu_wz: ["女儿", "na˧˦ ŋ̍˧˩"],
     nan_hai: ["查某囝", "sa˧˩ mɔu˨˩˧ kia˨˩˧"],
-    nzm: ["pena", "pena"]
+    nzm: ["pena", "pena"],
+    xlu: ["duttariyati-", "ˈdutːarijati"],
+    cms: ["bilia", "ˈbilia"],
+    ja_kanbun: ["女", "musɯme"],
+    nci: ["ichpōchtli", "itʃpoːtʃtɬi"]
   },
 };

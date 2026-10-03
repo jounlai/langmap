@@ -512,7 +512,7 @@ WORDS.i = {
       kfr: ["આઉં", "ãũ"],
       kry: ["zin", "zin"],
       luz: ["mo", "mo"],
-      osc: ["egom", "egom"],
+      osc: ["egom", "eɡom"],
       pkp: ["au", "au"],
       qxq: ["men", "mæn"],
       wls: ["au", "au"],
@@ -644,7 +644,7 @@ WORDS.i = {
       crn: ["neʼu", "ˈneʔu"],
       emy: ["hiin", "hiːn"],
       p_ine: ["*éǵh₂om", "éɡʲh₂om"],
-      p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
+      p_toc: ["*ñäś", "ɲəɕ"],   // no published Proto-Tocharian reconstruction found
       p_jpn: ["*wa", "wa"],
       p_kor: ["*na", "na"],
       ptrk: ["*ben", "ben"],

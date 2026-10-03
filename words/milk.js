@@ -1062,6 +1062,14 @@ WORDS.milk = {
     mch: ["shuushu", "ʃuːʃu"],
     hts: ["iribabii", "ʔiɺibabiʔi"],
     poh: ["chʼuuchʼ", "tʃʼuːtʃʼ"],
-    gld: ["молоко", "mɔlɔkɔ"]
+    gld: ["молоко", "mɔlɔkɔ"],
+    egy: ["𓇋𓂋𓍿𓏏𓏈", "iroːtʃet"],
+    xsa: ["𐩢𐩡𐩨", "ħalab"],
+    sog: ["xšypt", "xʃipd"],
+    ko_em: ["졋", "tɕjət"],
+    cmg: ["ᠰᠦᠨ", "syn"],
+    p_viet: ["*p-rah", "p-rah"],
+    pura: ["*lüpsä", "lypsæ"],
+    zh_tang: ["乳", "ȵɨoX"]
   },
 };

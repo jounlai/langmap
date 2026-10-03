@@ -1108,6 +1108,16 @@ WORDS.hundred = {
     agu: ["jun cient", "hun sjent"],
     hch: ["xeitsienituyari", "ʃeitsienitujari"],
     kmu: ["vani hataleti", "vani hataleti"],
-    toc: ["ciento", "sjento"]
+    toc: ["ciento", "sjento"],
+    egy: ["𓍢", "ʃet"],
+    omx: ["ကၠံ", "klɔm"],
+    h_tagalog: ["ᜇᜀᜈ᜔", "daˈʔan"],
+    ofs: ["hundred", "hundred"],
+    sog: ["st", "sat"],
+    ko_em: ["ᄇᆡᆨ", "pɛk"],
+    oko: ["百隱", "*on"],
+    zkt: ["爪", "dʒau"],
+    xag: ["baćʼ", "batɕʼ"],
+    txg: ["𘊝", "ʔjir˧˥"]
   },
 };

@@ -1115,7 +1115,7 @@ WORDS.tooth = {
     p_jpk: ["—", "—"],
     h_vedic: ["दन्तः", "dantaɦ"],
     txg: ["—", "—"],
-    sog: ["—", "—"],
+    sog: ["dntʾ", "danda"],
     otk: ["𐱅𐰃𐱁", "tiʃ"],
     ami: ["walis", "walis"],
     pwn: ["alis", "aɭis"],

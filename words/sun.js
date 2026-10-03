@@ -635,7 +635,7 @@ WORDS.sun = {
     crn: ["tahaapuá", "tahaːpwa"],
     emy: ["kʼin", "kʼin"],
     p_ine: ["*sóh₂wl̥", "sóh₂wl̩"],
-    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
+    p_toc: ["*kāunä", "kaːunə"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*pi", "pi"],
     p_kor: ["*hʌy", "hʌy"],
     ptrk: ["*kün", "kün"],
@@ -652,8 +652,8 @@ WORDS.sun = {
     pban: ["*-júbà", "-júbà"],
     p_sit: ["*nəy", "nəy"],
     psem: ["*šamš-", "šamš"],
-    pura: ["—", "—"],
-    p_dra: ["—", "—"],
+    pura: ["*kaja", "kaja"],
+    p_dra: ["*poẓutu", "poɻutu"],
     paus: ["*waRi", "waRi"],
     zh_song: ["日", "ʐi˥˩"],
     zh_wenyan_edu: ["日", "jɐt˨"],

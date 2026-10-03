@@ -1086,6 +1086,9 @@ WORDS.egg = {
     xsr: ["བྱའི་མེན་ཏོག", "tɕʰe mentok"],
     mvf: ["ndige", "ndəɡe"],
     lwl: ["toum", "tɒm"],
-    hts: ["usleko", "ʔuɬeko"]
+    hts: ["usleko", "ʔuɬeko"],
+    p_aav: ["*ktam", "ktam"],
+    onw: ["ⲕⲟⲩⲙⲡⲟⲩ", "kumpu"],
+    txg: ["𗀥", "tew˧"]
   },
 };

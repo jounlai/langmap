@@ -1120,6 +1120,9 @@ WORDS.sleep = {
     sva: ["ლიუ̂ჟე", "liwʒe"],
     hts: ["ase", "ʔase"],
     ers: ["maʴ", "maʴ˥˥"],
-    sel: ["ӄонтыӄа", "qontɨqa"]
+    sel: ["ӄонтыӄа", "qontɨqa"],
+    p_ryu: ["*nebur-", "nebur"],
+    p_aav: ["*ɓic", "ɓic"],
+    p_hmx: ["*pu̯eiᴴ", "pu̯ei"]
   },
 };

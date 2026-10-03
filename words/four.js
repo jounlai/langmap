@@ -1179,6 +1179,16 @@ WORDS.four = {
     mpt: ["asuke asuke", "asuke asuke"],
     nlc: ["dombadya", "dombadja"],
     mvf: ["deeren", "deeren"],
-    lwl: ["paueng", "paɨ̯ŋ"]
+    lwl: ["paueng", "paɨ̯ŋ"],
+    hit: ["𒈪𒂊𒉿𒀸", "meːwas"],
+    chb: ["muyhyca", "mɨhɨka"],
+    ave: ["𐬗𐬀𐬚𐬡𐬀𐬭", "tʃaθwar"],
+    sog: ["ctfʾr", "tʃatfaːr"],
+    zkt: ["𘲃", "dur"],
+    xib: ["laur", "laur"],
+    xag: ["bipʼ", "bipʼ"],
+    zh_tang: ["四", "siɪH"],
+    otk: ["𐱅𐰇𐰼𐱅", "tørt"],
+    tpn: ["oîoirundyk", "ɔjɔiɾũˈⁿdɨk"]
   },
 };

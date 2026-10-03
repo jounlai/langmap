@@ -617,7 +617,7 @@ WORDS.fish = {
     ko_mid: ["믌고·기", "mɯlskoɡi"],
     oko: ["—", "—"],
     h_goguryeo: ["—", "—"],
-    ko_gor: ["—", "—"],
+    ko_gor: ["姑記", "*kwoki"],
     ko_em: ["믈고기", "mɯlɡoɡi"],
     vi_han: ["魚", "ŋɨ˧˧"],
     vi_nom: ["𩵜", "kaː˧˥"],
@@ -1098,7 +1098,7 @@ WORDS.fish = {
     ojp: ["魚", "uwo"],
     p_jpk: ["—", "—"],
     h_vedic: ["मत्स्यः", "matsjaɦ"],
-    txg: ["—", "—"], // emptied: 𗼑 is *lhjị² 'month', and the cell also carries ˨, outside this row's two-tone system (Tangut pass, 2026-09-13)
+    txg: ["𗋾", "ʑju˧˥"], // emptied: 𗼑 is *lhjị² 'month', and the cell also carries ˨, outside this row's two-tone system (Tangut pass, 2026-09-13)
     sog: ["mʾšy", "maːʃi"],
     otk: ["𐰉𐰞𐰶", "balɯq"],
     ami: ["futing", "futiŋ"],

@@ -1126,6 +1126,9 @@ WORDS.nose = {
     lwl: ["maueh", "maɨ̯h"],
     hot: ["thohav", "tʰɔhav"],
     hts: ["intawe", "ʔintʰawe"],
-    sad: ["ǀnati", "ǀⁿati"]
+    sad: ["ǀnati", "ǀⁿati"],
+    omx: ["မိုဟ်", "mɯh"],
+    p_toc: ["*mele-", "mele"],
+    pmay: ["*nhiiʔ", "ŋiːʔ"]
   },
 };

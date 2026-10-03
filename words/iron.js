@@ -1069,6 +1069,16 @@ WORDS.iron = {
     lwl: ["hlaec", "l̥ɛc"],
     pjt: ["ayana", "ajana"],
     crx: ["lhuztih", "ɬuztih"],
-    xkz: ["ca", "tɕa"]
+    xkz: ["ca", "tɕa"],
+    sog: ["spyn", "speːn"],
+    ja_heian: ["鉄", "kuɾoɡane"],
+    ja_chu: ["鉄", "kuɾoɡane"],
+    ja_kanbun: ["鉄", "kuɾoɡane"],
+    ko_mid: ["·쇠", "soj"],
+    ko_em: ["쇠", "swe"],
+    ko_gor: ["歲", "*swoi"],
+    zkt: ["𘮾𘮒", "tumur"],
+    p_toc: ["*eñcäuwo", "eɲtsəuwo"],
+    txg: ["𘟪", "ɕjow˧"]
   },
 };

@@ -1182,6 +1182,7 @@ WORDS.five = {
     mpt: ["asuke asuke make", "asuke asuke make"],
     nlc: ["lambadya", "lambadja"],
     tdh: ["ङोले", "ŋole"],
-    agu: ["oʼ", "oʔ"]
+    agu: ["oʼ", "oʔ"],
+    xag: ["x̣o", "χo"]
   },
 };

@@ -1213,6 +1213,10 @@ WORDS.salt = {
     alq: ["shìwitàgan", "ʃiːwitaːɡan"],
     tsj: ["incha", "intɕʰa"],
     bej: ["miilak", "miːlak"],
-    dur: ["ta̧m", "tãm"]
+    dur: ["ta̧m", "tãm"],
+    egy: ["𓎛𓌳𓄿𓏏𓍖𓈒𓏥", "ħemat"],
+    uga: ["𐎎𐎍𐎈𐎚", "milħatu"],
+    sog: ["nmʾšk", "namaʃk"],
+    pkar: ["*ʒ₁um-", "dzum"]
   },
 };

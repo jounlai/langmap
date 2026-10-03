@@ -636,7 +636,7 @@ WORDS.one = {
     crn: ["cei", "tsei"],
     emy: ["jun", "hun"],
     p_ine: ["*h₁óynos", "h₁ójnos"],
-    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
+    p_toc: ["*sems", "sems"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*pitə", "pitə"],
     p_kor: ["*hʌnah", "hʌnah"],
     ptrk: ["*bīr", "bīr"],
@@ -964,7 +964,7 @@ WORDS.one = {
     mrq: ["tahi", "tahi"],
     tiw: ["kanyili", "kaɲili"],
     lbz: ["warnge", "waɾŋe"],
-    lbz_damin: ["—", "—"],
+    lbz_damin: ["thuuku", "t̻uːku"],
     nny: ["—", "—"],
     kky: ["nubuun", "nubuːn"],
     guc: ["wanee", "waneː"],

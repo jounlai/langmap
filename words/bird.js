@@ -1145,6 +1145,8 @@ WORDS.bird = {
     dur: ["nɔ́g waa", "nɔɡ waː"],
     lwl: ["sany", "saɲ"],
     sva: ["ნა̈პოლ", "næpʼol"],
-    hts: ["tîtiko", "tiːtiko"]
+    hts: ["tîtiko", "tiːtiko"],
+    ko_gor: ["賽", "*sai"],
+    pkar: ["*sir-", "sir"]
   },
 };

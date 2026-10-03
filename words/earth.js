@@ -1146,6 +1146,20 @@ WORDS.earth = {
     mcf: ["nidaid", "nidaid"],
     roo: ["rasito", "ɾasito"],
     adi: ["among", "amoŋ"],
-    sva: ["გიმ", "ɡim"]
+    sva: ["გიმ", "ɡim"],
+    okz: ["ភូមិ", "pʰuːmi"],
+    omx: ["တိ", "tiʔ"],
+    chb: ["hicha", "hitʃa"],
+    pal: ["𐭡𐭥𐭬", "buːm"],
+    osc: ["teras", "teras"],
+    emy: ["kab", "kab"],
+    xng: ["ᠬᠠᠵᠠᠷ", "qadʒar"],
+    zkt: ["𘱗𘱮", "neue"],
+    p_tun: ["*nā", "naː"],
+    pmay: ["*chʼohchʼ", "tʃʼohtʃʼ"],
+    pban: ["*-cɪ́", "-cɪ́"],
+    p_sit: ["*m-l(e/ə)y", "m-l(e/ə)j"],
+    xqa: ["yer", "jer"],
+    tpn: ["yby", "ɨˈβɨ"]
   }
 };

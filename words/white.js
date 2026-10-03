@@ -1195,6 +1195,8 @@ WORDS.white = {
     jio: ["kʰou", "kʰou˥"],
     bxk: ["waanga", "waːŋɡa"],
     sva: ["თუ̂ეთუ̂ნე", "tʰwetʰwne"],
-    hts: ["pedla", "pecʎʼa"]
+    hts: ["pedla", "pecʎʼa"],
+    p_aav: ["*ɓɔːk", "ɓɔːk"],
+    pura: ["*wëlketa", "wɤlketa"]
   },
 };

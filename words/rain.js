@@ -1098,6 +1098,12 @@ WORDS.rain = {
     lwl: ["hlaiʼ", "l̥ajˀ"],
     trm: ["weṣiŋ", "weʂiŋ"],
     yiz: ["muxoʐi", "mu˨˩xo˨˨ʐi˨˨"],
-    hts: ["ati", "ʔati"]
+    hts: ["ati", "ʔati"],
+    omx: ["ဗြဲ", "brɔj"],
+    p_ine: ["*h₁wers-", "h₁wers"],
+    p_toc: ["*sŭwese", "suwese"],
+    pmay: ["*nhabʼ", "ŋaɓ"],
+    onw: ["ⲁⲣⲟⲩ", "aru"],
+    txg: ["𗼮", "dzju˧˥"]
   },
 };

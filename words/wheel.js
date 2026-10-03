@@ -900,6 +900,13 @@ WORDS.wheel = {
     jiv: ["tuntunk", "tuntuŋk"],
     ja_mvi: ["車", "kuɾuma"],
     chf: ["rueda", "rweda"],
-    agu: ["toloʼ", "toloʔ"]
+    agu: ["toloʼ", "toloʔ"],
+    phn: ["𐤂𐤋𐤂𐤋", "ɡalɡal"],
+    h_tagalog: ["ᜄᜓᜎᜓᜅ᜔", "ɡuˈloŋ"],
+    ja_heian: ["輪", "wa"],
+    ja_chu: ["輪", "wa"],
+    ko_em: ["바회", "pahwe"],
+    cmg: ["ᠬᠦᠷᠳᠦ", "kyrdy"],
+    xct_litpr: ["འཁོར་ལོ", "kʰor lo"]
   }
 };

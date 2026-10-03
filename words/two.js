@@ -644,7 +644,7 @@ WORDS.two = {
       crn: ["huapoa", "waˈpoa"],
       emy: ["chaʼ", "tʃaʔ"],
       p_ine: ["*dwóh₁", "dwóh₁"],
-      p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
+      p_toc: ["*wë", "wə"],   // no published Proto-Tocharian reconstruction found
       p_jpn: ["*puta", "puta"],
       p_kor: ["*tur", "tur"],
       ptrk: ["*eki", "eki"],

@@ -1142,6 +1142,10 @@ WORDS.stone = {
     lwl: ["smoʼ", "sᵊmoʔ"],
     hts: ["haqqako", "ɦaᵑǃˀako"],
     tkr: ["къае", "ɢaje"],
-    ers: ["əʴkhuɑ", "əʴ˥˥kʰuɑ˥˥"]
+    ers: ["əʴkhuɑ", "əʴ˥˥kʰuɑ˥˥"],
+    onw: ["ⲕⲧ̅", "kit"],
+    xag: ["źe", "ʑe"],
+    puaz: ["*tɨn", "tɨn"],
+    lbz_damin: ["kuujpu", "kuːt̠ʲpu"]
   },
 };

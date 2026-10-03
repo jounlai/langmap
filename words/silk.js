@@ -743,6 +743,9 @@ WORDS.silk = {
     es_ni: ["seda", "ˈseða"],
     pmi: ["thiɛ35", "tʰiɛ˧˥"],
     twm: ["tʂuk13tsi53", "tʂuk˩˧tsi˥˧"],
-    qxs: ["ʁueχto", "ʁueχto"]
+    qxs: ["ʁueχto", "ʁueχto"],
+    dtp_kzj: ["sutala", "sutala"],
+    nxq: ["chuq", "ʈʂʰu˨˩"],
+    dur: ["sìlíkì", "siliki"]
   }
 };

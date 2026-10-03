@@ -781,6 +781,7 @@ WORDS.rice = {
     pmi: ["tɕhyø35", "tɕʰyø˧˥"],
     twm: ["dem13", "dem˩˧"],
     qxs: ["qʰə", "qʰə"],
-    adx: ["འབྲས", "ndʐe"]
+    adx: ["འབྲས", "ndʐe"],
+    dur: ["tʉ́d hó̧d", "tʉd hõd"]
   }
 };

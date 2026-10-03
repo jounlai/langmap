@@ -115,7 +115,7 @@ WORDS.house = {
       ter: ["óvongu", "ˈõwõŋɡu"],
       bor: ["bai", "bai"],
       trn: ["peti", "peti"],
-      ake: ["enna", "enna"],
+      ake: ["—", "—"], // was ["enna", "enna"]: enna is NOSE in Webonary akawaio ("enna ₁ (poss: ɨyenna) n nose"; no house sense; house there is ɨutɨ / ɨwʉꞌ). Moved to nose (r47 2026-10-03)
       aoc: ["tapüy", "tapɨj"],
       gun: ["óga", "ˈoɡa"],
       zdj: ["nyumba", "ɲũba"],

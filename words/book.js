@@ -1034,6 +1034,7 @@ WORDS.book = {
     pmi: ["dʑi35dʑi35", "dʑi˧˥dʑi˧˥"],
     twm: ["ji13ci53", "ji˩˧ci˥˧"],
     qxs: ["ʒɿʒɿ", "ʒɿʒɿ"],
-    adx: ["དཔེ་ཆ", "hwetɕʰa"]
+    adx: ["དཔེ་ཆ", "hwetɕʰa"],
+    bsk: ["gitaap", "ɡitaːp"]
   }
 };

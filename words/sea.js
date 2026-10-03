@@ -1023,6 +1023,8 @@ WORDS.sea = {
     pzh: ["awas", "awas"],
     es_ni: ["mar", "maɾ"],
     mez: ["kaeqcekam", "kæʔtʃekam"],
-    twm: ["cᴀ13tsho53", "cᴀ˩˧tsʰo˥˧"]
+    twm: ["cᴀ13tsho53", "cᴀ˩˧tsʰo˥˧"],
+    nxq: ["heel", "hɯ˥"],
+    bsk: ["samandar", "samandar"]
   }
 };

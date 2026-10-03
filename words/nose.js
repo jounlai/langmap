@@ -1144,6 +1144,8 @@ WORDS.nose = {
     na: ["bodin", "bodin"],
     cia: ["ngoʼo", "ŋoʔo"],
     car: ["anàta", "anahta"],
-    qxs: ["χȵiqopə", "χɲiqopə"]
+    qxs: ["χȵiqopə", "χɲiqopə"],
+    ake: ["enna", "enna"],
+    aau: ["kasaw", "kasaw"]
   },
 };

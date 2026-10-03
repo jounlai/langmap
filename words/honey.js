@@ -1103,6 +1103,7 @@ WORDS.honey = {
     szy: ["waneng nu wadu", "wanəŋ nu wadu"],
     ssf: ["fulhia wa madahun", "fuɬia wa madahun"],
     khw: ["مݯھی", "maʈʂʰi"],
-    gbm: ["सौद", "sɔd"]
+    gbm: ["सौद", "sɔd"],
+    khb: ["ᦓᧄᧉᦕᦹᧂᧉ", "nam pʰɯŋ"]
   },
 };

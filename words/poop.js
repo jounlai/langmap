@@ -842,6 +842,8 @@ WORDS.poop = {
     pmi: ["xe53", "xe˥˧"],
     twm: ["ȵin13", "ɲin˩˧"],
     qxs: ["tʃʰɿ", "tʃʰɿ"],
-    tsj: ["khi", "kʰi"]
+    tsj: ["khi", "kʰi"],
+    aau: ["si", "si"],
+    dur: ["víd", "vid"]
   },
 };

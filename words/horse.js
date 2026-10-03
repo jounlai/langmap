@@ -1055,6 +1055,7 @@ WORDS.horse = {
     pzh: ["gamay", "ɡamaj"],
     twm: ["te53", "te˥˧"],
     qxs: ["ʐu", "ʐu"],
-    kim: ["аът", "aʔt"]
+    kim: ["аът", "aʔt"],
+    dtp_kzj: ["kudaʼ", "kudaʔ"]
   }
 };

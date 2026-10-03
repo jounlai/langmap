@@ -1137,6 +1137,7 @@ WORDS.wind = {
     qxs: ["mɑʁu", "mɑʁu"],
     khw: ["گان", "ɡaːn"],
     cjs: ["чел", "tʃel"],
-    rmt: ["wāy", "waːj"]
+    rmt: ["wāy", "waːj"],
+    dtp_kzj: ["tongus", "toŋus"]
   },
 };

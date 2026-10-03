@@ -1019,6 +1019,7 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                ake: new Set(['house']),   // r47: enna was 'nose' (Webonary akawaio)
                 jiu: new Set(['bone', 'hello', 'thanks']),
                 pmi: new Set(['hello', 'thanks']),
                 twm: new Set(['bone', 'hello', 'thanks']),

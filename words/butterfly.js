@@ -824,6 +824,9 @@ WORDS.butterfly = {
     mez: ["mīmīkwǣw", "miːmiːkwæːw"],
     pmi: ["ma35bʐɛ53", "ma˧˥bʐɛ˥˧"],
     twm: ["tɕhᴀ55tɕhᴀ55me31loŋ̩55", "tɕʰᴀ˥˥tɕʰᴀ˥˥me˧˩loŋ̩˥˥"],
-    qxs: ["futie", "futie"]
+    qxs: ["futie", "futie"],
+    aau: ["nonkay", "nonkaj"],
+    nxq: ["pei'leiq", "pʰe˧le˨˩"],
+    dur: ["láláb", "lalab"]
   },
 };

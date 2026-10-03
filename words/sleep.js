@@ -1142,6 +1142,7 @@ WORDS.sleep = {
     blc: ["tsituma", "tsituma"],
     yan: ["kami", "kami"],
     qxs: ["ne", "ne"],
-    lep: ["ᰌᰦ", "da"]
+    lep: ["ᰌᰦ", "da"],
+    bsk: ["oyanas", "ojanas"]
   },
 };

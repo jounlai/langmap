@@ -962,6 +962,7 @@ WORDS.snow = {
     tpn: ["amanarypyʼoka", "ãmãnaɾɨpɨˈʔɔka"],
     jiu: ["njɛ33ji44", "ɲɛ˧˧ji˦˦"],
     otq: ["tꞌaxtse̱", "tʼaʃtsɛ"],
-    cni: ["sharaka", "ʃaɾaka"]
+    cni: ["sharaka", "ʃaɾaka"],
+    mrw: ["oran a ilo", "ʔoran a ilo"]
   }
 };

@@ -1002,6 +1002,7 @@ WORDS.green = {
     cia: ["moijo", "moidʒo"],
     nlc: ["sugulamla", "suɡulamla"],
     qxs: ["χueχue", "χueχue"],
-    piu: ["kuriinwana", "kuɻiːnwana"]
+    piu: ["kuriinwana", "kuɻiːnwana"],
+    kgg: ["hərgun", "hərɡun"]
   }
 };

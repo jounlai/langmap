@@ -1082,6 +1082,7 @@ WORDS.person = {
     lep: ["ᰕᰛᰩ", "mərɔ"],
     khw: ["روے", "ɾɔɪ"],
     yux: ["шоромо", "ʃoromə"],
-    guu: ["jãnõmãmɨ", "jãnõmãmɨ"]
+    guu: ["jãnõmãmɨ", "jãnõmãmɨ"],
+    bew: ["orang", "oraŋ"]
   }
 };

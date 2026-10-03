@@ -1198,6 +1198,7 @@ WORDS.white = {
     hts: ["pedla", "pecʎʼa"],
     p_aav: ["*ɓɔːk", "ɓɔːk"],
     pura: ["*wëlketa", "wɤlketa"],
-    dsh: ["edh", "eð"]
+    dsh: ["edh", "eð"],
+    na: ["bərəbər", "bərəbər"]
   },
 };

@@ -1224,6 +1224,8 @@ WORDS.salt = {
     mrq: ["paʻatai", "paʔatai"],
     blr: ["kih33", "kih˧˧"],
     bwi: ["íiwi", "íiwi"],
-    tpy: ["iakɨr", "iakɨr"]
+    tpy: ["iakɨr", "iakɨr"],
+    na: ["ebaratjited", "ebaratjited"],
+    pmt: ["miti", "miti"]
   },
 };

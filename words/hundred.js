@@ -1140,6 +1140,8 @@ WORDS.hundred = {
     enq: ["wane andate", "wane andate"],
     na: ["aibu", "aibu"],
     khw: ["شور", "ʃoːr"],
-    blr: ["ti31 roi31", "ti˧˩ roi˧˩"]
+    blr: ["ti31 roi31", "ti˧˩ roi˧˩"],
+    sce: ["be", "bə"],
+    cia: ["amohono", "amohono"]
   },
 };

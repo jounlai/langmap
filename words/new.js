@@ -1110,6 +1110,7 @@ WORDS.new = {
     qxs: ["tsʰi", "tsʰi"],
     dlg: ["һаҥа", "haŋa"],
     wmt: ["jalangjalang", "ˈɟalaŋɟalaŋ"],
-    guu: ["tute", "tute"]
+    guu: ["tute", "tute"],
+    na: ["etaimeduw", "etaimeduw"]
   }
 };

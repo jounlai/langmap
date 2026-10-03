@@ -1027,6 +1027,7 @@ WORDS.sea = {
     nxq: ["heel", "hɯ˥"],
     bsk: ["samandar", "samandar"],
     blr: ["ʔum51 hɔn51", "ʔum˥˩ hɔn˥˩"],
-    bdk: ["кӏуф", "kʼuf"]
+    bdk: ["кӏуф", "kʼuf"],
+    nuf: ["shuɑ35", "sʰuɑ˧˥"]
   }
 };

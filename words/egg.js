@@ -1110,6 +1110,8 @@ WORDS.egg = {
     adt: ["vipi", "vipi"],
     pzh: ["batu pataru", "batu pataɾu"],
     qxs: ["χtə", "χtə"],
-    dtp_kzj: ["tontohuʼ", "tontohuʔ"]
+    dtp_kzj: ["tontohuʼ", "tontohuʔ"],
+    na: ["epaitdomo", "epaitdomo"],
+    pmt: ["tōuo", "toːuo"]
   },
 };

@@ -1159,6 +1159,7 @@ WORDS.mouth = {
     twm: ["khᴀ53", "kʰᴀ˥˧"],
     qxs: ["χqɑ", "χqɑ"],
     kpj: ["irɨ", "irɨ"],
-    guu: ["kahikɨ", "kahikɨ"]
+    guu: ["kahikɨ", "kahikɨ"],
+    mui: ["mulut", "mulut"]
   }
 };

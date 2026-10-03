@@ -1104,6 +1104,17 @@ WORDS.daughter = {
     xlu: ["duttariyati-", "ˈdutːarijati"],
     cms: ["bilia", "ˈbilia"],
     ja_kanbun: ["女", "musɯme"],
-    nci: ["ichpōchtli", "itʃpoːtʃtɬi"]
+    nci: ["ichpōchtli", "itʃpoːtʃtɬi"],
+    gan_yc: ["女", "ȵy˨˩"],
+    gan_ja: ["女", "ȵy˥˧"],
+    gan_fz: ["女", "ȵi˧˥"],
+    cjy_lv: ["女", "zu˧˩˨"],
+    hsn_hy: ["女", "ny˧˧"],
+    kmc: ["pəi31", "pəi˧˩"],
+    niv: ["оӻла", "oʁlæ"],
+    bsk: ["-i", "i"],
+    slr: ["qız", "qɨz"],
+    cag: ["ɔse", "ɔse"],
+    crt: ["axseʔ", "axseʔ"]
   },
 };

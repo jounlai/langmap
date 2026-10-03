@@ -1104,6 +1104,13 @@ WORDS.rain = {
     p_toc: ["*sŭwese", "suwese"],
     pmay: ["*nhabʼ", "ŋaɓ"],
     onw: ["ⲁⲣⲟⲩ", "aru"],
-    txg: ["𗼮", "dzju˧˥"]
+    txg: ["𗼮", "dzju˧˥"],
+    gan_yc: ["雨", "y˨˩"],
+    duu: ["nɑm", "nɑm"],
+    kdt: ["məmia", "məmia"],
+    srb: ["gənúr", "ɡənur"],
+    kjg: ["kəmaʔ", "kəmaʔ"],
+    kxv: ["bela", "bela"],
+    kio: ["sép", "sép"]
   },
 };

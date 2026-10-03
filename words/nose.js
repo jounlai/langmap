@@ -1129,6 +1129,13 @@ WORDS.nose = {
     sad: ["ǀnati", "ǀⁿati"],
     omx: ["မိုဟ်", "mɯh"],
     p_toc: ["*mele-", "mele"],
-    pmay: ["*nhiiʔ", "ŋiːʔ"]
+    pmay: ["*nhiiʔ", "ŋiːʔ"],
+    gan_yc: ["鼻子", "pʰiʔ˦ tsɿ˨˩"],
+    cjy_lv: ["鼻子", "pʰiəʔ˨˧ tsəʔ˦"],
+    czh_wy: ["鼻", "pʰi˥˩"],
+    duu: ["sɯnɑ", "sɯnɑ"],
+    ybe: ["qaŋrïq", "qaŋrɯq"],
+    kio: ["mɔ̀:kʼɔ̀n", "mɔ̀ːkʼɔ̀n"],
+    aoc: ["yeuna", "jeuna"]
   },
 };

@@ -907,6 +907,13 @@ WORDS.wheel = {
     ja_chu: ["輪", "wa"],
     ko_em: ["바회", "pahwe"],
     cmg: ["ᠬᠦᠷᠳᠦ", "kyrdy"],
-    xct_litpr: ["འཁོར་ལོ", "kʰor lo"]
+    xct_litpr: ["འཁོར་ལོ", "kʰor lo"],
+    tpn: ["ybyrapararanga", "ɨβɨɾapaɾaˈɾãŋa"],
+    gan_yc: ["轮子", "lun˧˧ tsɿ˨˩"],
+    gan_fz: ["轮子", "tyn˨˦ tsɿ˧˥"],
+    cjy_lv: ["轮子", "luʌŋ˦˦ tsəʔ˦"],
+    yue_zs: ["車轆", "tsʰɛ˥˥ lʊk˥"],
+    cag: ["tononontax ɬafoʔ", "tononontax ɬafoʔ"],
+    mbc: ["tararan pisaʔsaʔ", "tararan pisaʔsaʔ"]
   }
 };

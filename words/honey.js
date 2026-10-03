@@ -1090,6 +1090,12 @@ WORDS.honey = {
     ko_em: ["ᄭᅮᆯ", "k͈ul"],
     pkar: ["*tapl-", "tapl"],
     xct_litpr: ["སྦྲང་རྩི", "sbraŋ rtsi"],
-    lbz_damin: ["m!iwu", "ŋ͡ʘiwu"]
+    lbz_damin: ["m!iwu", "ŋ͡ʘiwu"],
+    cjy_xz: ["蜂蜜", "fəŋ˧˩ miəʔ˦˧"],
+    czh_wy: ["蜂蜜", "fɔm˦˦ mi˥˩"],
+    maz: ["õtʼapjü ngüjnü", "õtʼapʰɨ ŋɡɨhnɨ"],
+    mch: ["wanö", "wanə"],
+    plg: ["maʔage liʔi", "maʔaɡe liʔi"],
+    cag: ["akɔjetʃ", "akɔjetʃ"]
   },
 };

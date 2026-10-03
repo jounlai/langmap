@@ -89,7 +89,7 @@ WORDS.hello = {
       hsn_hy: ["你好", "ni˧˧ xau˧˧"],
       hsn_yz: ["你好", "ni˨˩ hau˨˩"],
       czh_wy: ["—", "—"],
-      bla: ["—", "—"],
+      bla: ["óki", "óki"],
       hop: ["tàlawva", "tàːlawva"],
       com: ["marʉawe", "maɾɨawe"],
       one: ["—", "—"],

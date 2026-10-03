@@ -626,15 +626,15 @@ WORDS.snow = {
     // (kupri /kupɾi/), an acute vowel is close-mid (kyfé /kɨfe/). Kaingang
     // country is the southern Brazilian highlands, where it does snow.
     kgp: ["kukryr kó", "kukɾɨɾ ko"],
-    tob: ["—", "—"],
-    plg: ["—", "—"],
-    moc: ["—", "—"],
+    tob: ["aloɲi", "aloɲi"],
+    plg: ["loɲi", "loɲi"],
+    moc: ["loɲi", "loɲi"],
     mbc: ["—", "—"],
     kpj: ["—", "—"],
     guu: ["—", "—"],
     bwi: ["—", "—"],
-    cag: ["—", "—"],
-    crt: ["—", "—"],
+    cag: ["jekleʃe", "jekleʃe"],
+    crt: ["fʷijit injuneʔ", "fʷijit injuneʔ"],
     tpy: ["—", "—"],
     jup: ["—", "—"],
     kwa: ["—", "—"],
@@ -958,6 +958,10 @@ WORDS.snow = {
     srn: ["snew", "sneu"],
     nij: ["salju", "saldʒu"],
     dtp: ["salju", "saldʒu"],
-    poh: ["miik", "miːk"]
+    poh: ["miik", "miːk"],
+    tpn: ["amanarypyʼoka", "ãmãnaɾɨpɨˈʔɔka"],
+    jiu: ["njɛ33ji44", "ɲɛ˧˧ji˦˦"],
+    otq: ["tꞌaxtse̱", "tʼaʃtsɛ"],
+    cni: ["sharaka", "ʃaɾaka"]
   }
 };

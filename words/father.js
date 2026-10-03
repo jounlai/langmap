@@ -656,7 +656,7 @@ WORDS.father = {
     p_aav: ["*ɓa(ː)ʔ", "ɓaːʔ"],
     p_viet: ["*bɔːʔ", "bɔːʔ"],
     ptai: ["*boː", "boː"],
-    p_hmx: ["—", "—"],
+    p_hmx: ["*pjaˣ", "pja"],
     pafa: ["*ʔab-", "ʔab"],
     pkar: ["*mama-", "mama"],
     pmay: ["*taat", "taat"],

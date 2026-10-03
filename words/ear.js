@@ -1176,6 +1176,9 @@ WORDS.ear = {
     p_viet: ["*saːj", "saːj"],
     pafa: ["*ʔudun-", "ʔudun"],
     xag: ["ˁi", "iˤ"],
-    txg: ["𗐴", "nju˧"]
+    txg: ["𗐴", "nju˧"],
+    duu: ["ɑnɑ", "ɑnɑ"],
+    one: ["ohúhtaʼ", "ohṹhtaʔ"],
+    kio: ["tʼɔ́:dé", "tʼɔ́ːdé"]
   },
 };

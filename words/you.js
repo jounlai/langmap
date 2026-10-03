@@ -653,7 +653,7 @@ WORDS.you = {
       p_aav: ["*miːʔ", "miːʔ"],
     p_viet: ["*miː", "miː"],
       ptai: ["*mɯŋ", "mɯŋ"],
-      p_hmx: ["—", "—"],
+      p_hmx: ["*mu̯ei", "mu̯ei"],
       pafa: ["—", "—"],
       pkar: ["*sen-", "sen"],
       pmay: ["*ʔat", "ʔat"],

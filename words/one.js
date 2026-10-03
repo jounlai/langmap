@@ -645,7 +645,7 @@ WORDS.one = {
     p_aav: ["*muːj", "muːj"],
     p_viet: ["*moːc", "moːc"],
     ptai: ["*nɯːŋ", "nɯːŋ"],
-    p_hmx: ["—", "—"],
+    p_hmx: ["*ʔɨ", "ʔɨ"],
     pafa: ["—", "—"],
     pkar: ["*ert-", "ert"],
     pmay: ["*jun", "jun"],

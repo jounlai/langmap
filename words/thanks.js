@@ -92,7 +92,7 @@ WORDS.thanks = {
       bla: ["—", "—"],
       hop: ["askwali", "ʔaskʷali"],
       com: ["ʉra", "ɨɾa"],
-      one: ["—", "—"],
+      one: ["ya:wʌ́", "jaːwʌ̃́"],
       ono: ["nya:węʼ", "njaːwɛ̃ʔ"],
       win: ["hąbujį́", "hãbuˈdʒĩ"],
       cro: ["ahóoh", "ahóːh"],

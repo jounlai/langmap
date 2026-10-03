@@ -1118,6 +1118,21 @@ WORDS.hundred = {
     oko: ["百隱", "*on"],
     zkt: ["爪", "dʒau"],
     xag: ["baćʼ", "batɕʼ"],
-    txg: ["𘊝", "ʔjir˧˥"]
+    txg: ["𘊝", "ʔjir˧˥"],
+    ko_gor: ["醞", "*on"],
+    p_hmx: ["*pæk", "pæk"],
+    duu: ["ɕɑ", "ɕɑ"],
+    kdt: ["muːj ruʌj", "muːj ruʌj"],
+    qxs: ["tʂʰi", "tʂʰi"],
+    srh: ["sad", "sad"],
+    atb: ["rashô", "ʒa˨˩ʃo˥˩"],
+    adx: ["བརྒྱ་ཐམ་པ", "dʑatʰamba"],
+    maz: ["ciento", "ˈsjento"],
+    tob: ["ʃien", "ʃien"],
+    plg: ["sien jʔaʁaik", "sien jʔaʁaik"],
+    one: ["tewʌhnyáwelu", "tewʌ̃hnjáwelu"],
+    tus: ["kayáhstih", "kajahstih"],
+    hup: ["łaʼ-dikin", "ɬaʔdikʲin"],
+    crx: ["whunizyat whunizyai", "xʷunizjat xʷunizjai"]
   },
 };

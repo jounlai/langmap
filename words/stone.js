@@ -649,7 +649,7 @@ WORDS.stone = {
     guu: ["maa ma", "maa ma"],
     bwi: ["hiipada", "hiipada"],
     cag: ["utex", "utex"],
-    crt: ["—", "—"],
+    crt: ["poj", "poj"],
     tpy: ["itak", "itak"],
     jup: ["pǎç", "pǎç"],
     kwa: ["pǎʃ", "pǎʃ"],
@@ -1146,6 +1146,16 @@ WORDS.stone = {
     onw: ["ⲕⲧ̅", "kit"],
     xag: ["źe", "ʑe"],
     puaz: ["*tɨn", "tɨn"],
-    lbz_damin: ["kuujpu", "kuːt̠ʲpu"]
+    lbz_damin: ["kuujpu", "kuːt̠ʲpu"],
+    gan_yc: ["石头", "ʃaʔ˦ tʰeu˧˧"],
+    gan_ja: ["石头", "sa˨˩˦ tʰɛu˩˩"],
+    gan_fz: ["石头", "saʔ˥ xɛu˨˦"],
+    cjy_xz: ["石头", "ʂəʔ˦˧ tʰəu˧˩"],
+    hsn_hy: ["石头", "ɕi˩˩˨ təu˩˩˨"],
+    czh_wy: ["石头", "sɔ˥˩ tʰɑ˩˩"],
+    atb: ["luqgok", "luʔ˨˩kok˨˩"],
+    squ: ["smant", "smant"],
+    aoc: ["tök", "tøk"],
+    com: ["tʉpi", "tɨpi"]
   },
 };

@@ -1079,6 +1079,18 @@ WORDS.iron = {
     ko_gor: ["歲", "*swoi"],
     zkt: ["𘮾𘮒", "tumur"],
     p_toc: ["*eñcäuwo", "eɲtsəuwo"],
-    txg: ["𘟪", "ɕjow˧"]
+    txg: ["𘟪", "ɕjow˧"],
+    gan_yc: ["铁", "tʰieʔ˦"],
+    duu: ["ɕɑm", "ɕɑm"],
+    atb: ["shamtoq", "ʃam˥˩to̱ʔ˥˥"],
+    gum: ["tsandzøn", "tsantsən"],
+    mcf: ["shocosh", "ʃokoʃ"],
+    mch: ["sajadadi", "sahaːɾ̠aɾ̠i"],
+    cag: ["klesaniɬ", "klesaniɬ"],
+    crt: ["ot", "ot"],
+    tue: ["kõbẽ", "kõˈbẽ"],
+    cro: ["úuwata", "úːwata"],
+    pot: ["biwapêk", "biwapʊk"],
+    jup: ["mɔ̌m", "mɔ̌m"]
   },
 };

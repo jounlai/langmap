@@ -1190,6 +1190,20 @@ WORDS.four = {
     zh_tang: ["四", "siɪH"],
     otk: ["𐱅𐰇𐰼𐱅", "tørt"],
     tpn: ["oîoirundyk", "ɔjɔiɾũˈⁿdɨk"],
-    txg: ["𗥃", "ljɨr˧"]
+    txg: ["𗥃", "ljɨr˧"],
+    duu: ["ɑbli", "ɑbli"],
+    kdt: ["apɔːn", "ʔapɔːn"],
+    blr: ["pun35", "pun˧˥"],
+    qxs: ["dʒɿ", "dʒɿ"],
+    adx: ["བཞི", "ʑə"],
+    ter: ["koáturu", "koˈatuɾu"],
+    mch: ["aaköicheʼa", "aːkəjtʃeʔa"],
+    tob: ["kowaatro", "kowaatro"],
+    plg: ["kwaatrolqa", "kwaatrolqa"],
+    cag: ["jitʃatxuɬ", "jitʃatxuɬ"],
+    crt: ["pawlitsiʔ", "pawlitsiʔ"],
+    kpj: ["inaubiɔwa", "inaubiɔwa"],
+    mbc: ["saakɨrɨrɨ", "saakɨrɨrɨ"],
+    aoc: ["saköröroʼne", "sakøɾøɾoʔne"]
   },
 };

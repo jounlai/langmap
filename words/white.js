@@ -813,7 +813,7 @@ WORDS.white = {
     mzh: ["pelaj", "pelax"],
     kgp: ["kupri", "kupɾi"],
     tob: ["japagaq", "japaɡaq"],
-    plg: ["japagaq", "japagaq"],
+    plg: ["japagaq", "japaɡaq"],
     moc: ["jalagaq", "jalaɡaq"],
     mbc: ["áímutun", "áímutun"],
     kpj: ["ura", "ura"],

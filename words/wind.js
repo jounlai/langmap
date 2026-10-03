@@ -1121,6 +1121,15 @@ WORDS.wind = {
     p_dra: ["*waḷi", "waɭi"],
     txg: ["𗍄", "njij˧˥"],
     xqa: ["yel", "jel"],
-    tpn: ["ybytu", "ɨβɨˈtu"]
+    tpn: ["ybytu", "ɨβɨˈtu"],
+    gan_yc: ["风", "fɤŋ˧˥"],
+    duu: ["nɑmbɯŋ", "nɑmbɯŋ"],
+    ybe: ["jil", "jil"],
+    atb: ["laì", "lai˥˩"],
+    tca: ["buanecü", "buanekɨ"],
+    zts: ["bi", "bi"],
+    kio: ["gómgyá", "ɡómɡjá"],
+    aoc: ["aʼchitun", "aʔtʃitun"],
+    com: ["nʉepi", "nɨepi"]
   },
 };

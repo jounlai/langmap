@@ -997,6 +997,7 @@ WORDS.green = {
     ote: ["kʼantsʼi", "kʼantsʼi"],
     aoc: ["rora", "ɾoɾa"],
     yue_gz: ["绿", "lʊk̚˨˨"],
-    ar_sa: ["أخضر", "ʔaˈxaðˤar"]
+    ar_sa: ["أخضر", "ʔaˈxaðˤar"],
+    ngl: ["ntikwa", "ntikwa"]
   }
 };

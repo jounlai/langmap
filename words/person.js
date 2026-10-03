@@ -1068,6 +1068,10 @@ WORDS.person = {
     pt_ao: ["pessoa", "pɨˈsoɐ"],
     en_ke: ["person", "ˈpɜːsən"],
     en_geordie: ["person", "ˈpɜːsən"],
-    en_est: ["person", "ˈpɜːsən"]
+    en_est: ["person", "ˈpɜːsən"],
+    swb: ["mutru", "mutɾu"],
+    kpe: ["nuu", "nuː"],
+    zdj: ["mndru", "mndʳu"],
+    dsh: ["maadhat", "maːðat"]
   }
 };

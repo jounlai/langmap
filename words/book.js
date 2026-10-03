@@ -1024,6 +1024,8 @@ WORDS.book = {
     wuu_jh: ["书", "ɕy˧˧˦"],
     es_pr: ["libro", "ˈliβɾo"],
     pt_ao: ["livro", "ˈlivɾu"],
-    en_jam: ["book", "bʊk"]
+    en_jam: ["book", "bʊk"],
+    swb: ["shio", "ʃio"],
+    kpe: ["kɔlɔ", "kɔlɔ"]
   }
 };

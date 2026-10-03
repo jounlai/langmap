@@ -1038,6 +1038,7 @@ WORDS.mountain = {
     pt_ao: ["montanha", "mõˈtaɲɐ"],
     en_ke: ["mountain", "ˈmaʊntɪn"],
     en_scouse: ["mountain", "ˈmaʊntɪn"],
-    en_jam: ["mountain", "ˈmɔuntn̩"]
+    en_jam: ["mountain", "ˈmɔuntn̩"],
+    swb: ["mulima", "mulima"]
   }
 };

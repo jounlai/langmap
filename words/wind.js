@@ -1130,6 +1130,7 @@ WORDS.wind = {
     zts: ["bi", "bi"],
     kio: ["gómgyá", "ɡómɡjá"],
     aoc: ["aʼchitun", "aʔtʃitun"],
-    com: ["nʉepi", "nɨepi"]
+    com: ["nʉepi", "nɨepi"],
+    swb: ["pev̄o", "peβo"]
   },
 };

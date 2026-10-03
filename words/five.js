@@ -1186,6 +1186,7 @@ WORDS.five = {
     xag: ["x̣o", "χo"],
     kdt: ["asʌːŋ", "ʔasʌːŋ"],
     blr: ["phɔn35", "pʰɔn˧˥"],
-    bor: ["ikera aboudure", "ikeɾa abowduɾe"]
+    bor: ["ikera aboudure", "ikeɾa abowduɾe"],
+    deg: ["isuwon", "isuwon"]
   },
 };

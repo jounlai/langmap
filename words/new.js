@@ -1101,6 +1101,9 @@ WORDS.new = {
     yue_nn: ["新", "ɬɐn˥˥"],
     wuu_hz: ["新", "ɕiŋ˧˧"],
     wuu_jh: ["新", "siŋ˧˧˦"],
-    wuu_jx: ["新", "ɕiŋ˥˩"]
+    wuu_jx: ["新", "ɕiŋ˥˩"],
+    swb: ["pia", "pia"],
+    bin: ["ọgbọn", "ɔɡbɔ̃"],
+    har: ["ḥäǧīs", "ħədʒiːs"]
   }
 };

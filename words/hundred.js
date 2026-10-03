@@ -1133,6 +1133,9 @@ WORDS.hundred = {
     one: ["tewʌhnyáwelu", "tewʌ̃hnjáwelu"],
     tus: ["kayáhstih", "kajahstih"],
     hup: ["łaʼ-dikin", "ɬaʔdikʲin"],
-    crx: ["whunizyat whunizyai", "xʷunizjat xʷunizjai"]
+    crx: ["whunizyat whunizyai", "xʷunizjat xʷunizjai"],
+    bin: ["iyisẹn", "ijisɛ̃"],
+    iso: ["ẹgba", "ɛɡba"],
+    fvr: ["fírí", "fírí"]
   },
 };

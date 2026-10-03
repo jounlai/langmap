@@ -1091,6 +1091,7 @@ WORDS.iron = {
     tue: ["kõbẽ", "kõˈbẽ"],
     cro: ["úuwata", "úːwata"],
     pot: ["biwapêk", "biwapʊk"],
-    jup: ["mɔ̌m", "mɔ̌m"]
+    jup: ["mɔ̌m", "mɔ̌m"],
+    dur: ["hɨɨ", "hɨː"]
   },
 };

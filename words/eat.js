@@ -981,7 +981,7 @@ WORDS.eat = {
     myp: ["xaxaí", "ʔaʔaí"],
     tue: ["yaa", "jaː"],
     emp: ["ko", "ko"],
-    kpe: ["nyii", "ɲiː"],
+    kpe: ["mii", "miː"],
     bsq: ["gbɔ̃a", "ɡbɔ̃a"],
     loz: ["kuca", "kutʃa"],
     bbc: ["mangan", "maŋan"],

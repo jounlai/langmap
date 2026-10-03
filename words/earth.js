@@ -1168,6 +1168,7 @@ WORDS.earth = {
     srb: ["ləbó", "ləbo"],
     atb: ["myi-tse", "mji˥˥tse̱˨˩"],
     tca: ["waixü̃mü", "waiʔɨ̃mɨ"],
-    zts: ["yiu", "jiu"]
+    zts: ["yiu", "jiu"],
+    swb: ["trotro", "tɾotɾo"]
   }
 };

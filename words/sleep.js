@@ -1131,6 +1131,8 @@ WORDS.sleep = {
     atb: ["yhup", "ju̱p˥˥"],
     mch: ["ünükü", "ɨnɨːkɨ"],
     com: ["ʉʉpʉi", "ɨːpɨi"],
-    wuu_jh: ["睏", "kʰuəŋ˥˥"]
+    wuu_jh: ["睏", "kʰuəŋ˥˥"],
+    xed: ["xàná", "xàná"],
+    kpe: ["nyii", "ɲiː"]
   },
 };

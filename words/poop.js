@@ -820,6 +820,7 @@ WORDS.poop = {
     dng: ["шы", "ʂɨ˥˩"],
     mch: ["weetü", "weːtɨ"],
     yur: ["mol", "mɔl"],
-    hup: ["chwungʼ", "tʃʷuŋʔ"]
+    hup: ["chwungʼ", "tʃʷuŋʔ"],
+    xed: ["ghúvì", "ɣúvì"]
   },
 };

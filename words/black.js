@@ -1212,6 +1212,9 @@ WORDS.black = {
     yue_dg: ["黑", "hak˥"],
     yue_nn: ["黑", "hɐk˥"],
     wuu_hz: ["黑", "haʔ˥"],
-    wuu_jx: ["黑", "həʔ˥"]
+    wuu_jx: ["黑", "həʔ˥"],
+    swb: ["ndziɗu", "ndziɗu"],
+    bin: ["nekhui", "nexui"],
+    kpe: ["tɛi", "tɛi"]
   },
 };

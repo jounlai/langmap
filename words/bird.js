@@ -1159,6 +1159,7 @@ WORDS.bird = {
     umu: ["awehléeshoosh", "awehleːʃoːʃ"],
     wic: ["ichir", "itsʰiɾ"],
     kio: ["tʼę̀:né", "tʼẽ̀ːné"],
-    aoc: ["torong", "toɾoŋ"]
+    aoc: ["torong", "toɾoŋ"],
+    swb: ["nyunyi", "ɲuɲi"]
   },
 };

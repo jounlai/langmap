@@ -1016,6 +1016,8 @@ WORDS.sea = {
     es_pr: ["mar", "mal"],
     pt_ao: ["mar", "maɾ"],
     en_geordie: ["sea", "siː"],
-    ar_sa: ["بحر", "ˈbaħar"]
+    ar_sa: ["بحر", "ˈbaħar"],
+    swb: ["ɓahari", "ɓahari"],
+    kpe: ["yuo", "juo"]
   }
 };

@@ -1149,6 +1149,8 @@ WORDS.mouth = {
     wuu_jh: ["口", "kʰiu˥˧˥"],
     zh_cq: ["嘴", "tsuei˦˨"],
     es_pr: ["boca", "ˈboka"],
-    pt_ao: ["boca", "ˈbokɐ"]
+    pt_ao: ["boca", "ˈbokɐ"],
+    swb: ["hanyo", "haɲo"],
+    har: ["af", "ɑf"]
   }
 };

@@ -785,6 +785,7 @@ WORDS.rice = {
     dur: ["tʉ́d hó̧d", "tʉd hõd"],
     guu: ["atoɾoso", "atoɾoso"],
     nuf: ["mɛ35mɛ31", "mɛ˧˥mɛ˧˩"],
-    acn: ["tsʰen55", "tsʰen˥˥"]
+    acn: ["tsʰen55", "tsʰen˥˥"],
+    nrf_gg: ["riz", "ʁi"]
   }
 };

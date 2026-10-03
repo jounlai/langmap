@@ -1144,6 +1144,8 @@ WORDS.sleep = {
     qxs: ["ne", "ne"],
     lep: ["ᰌᰦ", "da"],
     bsk: ["oyanas", "ojanas"],
-    prg: ["meicte", "meikte"]
+    prg: ["meicte", "meikte"],
+    bor: ["nudu", "nudu"],
+    nmn: ["ʘân", "ʘã"]
   },
 };

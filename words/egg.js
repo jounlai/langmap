@@ -1112,6 +1112,7 @@ WORDS.egg = {
     qxs: ["χtə", "χtə"],
     dtp_kzj: ["tontohuʼ", "tontohuʔ"],
     na: ["epaitdomo", "epaitdomo"],
-    pmt: ["tōuo", "toːuo"]
+    pmt: ["tōuo", "toːuo"],
+    cjs: ["нубуртқа", "nuburtqa"]
   },
 };

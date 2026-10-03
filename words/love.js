@@ -97,7 +97,7 @@ WORDS.love = {
       win: ["—", "—"],
       cro: ["íchisshe", "ítʃiʃːe"],
       hai: ["—", "—"],
-      cic: ["—", "—"],
+      cic: ["ayoppánchi", "ajopːántʃi"],
       ik: ["piqpaġiyaa", "piqpaʁijaː"],
       na: ["ebonu", "ebonu"],
       es_bo: ["amor", "aˈmoɾ"],

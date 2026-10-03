@@ -1169,6 +1169,7 @@ WORDS.stone = {
     qxs: ["ʁo", "ʁo"],
     itl: ["вач", "βatʃ"],
     rut: ["духул", "duχul"],
-    kjj: ["мыда", "mɨda"]
+    kjj: ["мыда", "mɨda"],
+    blc: ["t̓x̣t", "tʼχt"]
   },
 };

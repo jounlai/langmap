@@ -1191,6 +1191,7 @@ WORDS.five = {
     na: ["aijimeo", "aijimeo"],
     woe: ["liime", "liːme"],
     nys: ["maar", "maːɻ"],
-    lep: ["ᰑᰅᰫ", "fəŋu"]
+    lep: ["ᰑᰅᰫ", "fəŋu"],
+    trm: ["põč", "põtʃ"]
   },
 };

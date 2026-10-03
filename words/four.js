@@ -1208,6 +1208,7 @@ WORDS.four = {
     wuu_jh: ["四", "si˥˥"],
     woe: ["fangi", "faŋi"],
     cia: ["paʼa", "paʔa"],
-    jup: ["hibabʼní", "hibabʼní"]
+    jup: ["hibabʼní", "hibabʼní"],
+    trm: ["čātā", "tʃaːtaː"]
   },
 };

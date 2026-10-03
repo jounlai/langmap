@@ -846,6 +846,8 @@ WORDS.poop = {
     aau: ["si", "si"],
     dur: ["víd", "vid"],
     nuf: ["khji55i55", "kʰji˥˥i˥˥"],
-    acn: ["tɕʰi31", "tɕʰi˧˩"]
+    acn: ["tɕʰi31", "tɕʰi˧˩"],
+    gcf: ["chyé", "ʃje"],
+    tsz: ["kuatsita", "kʷatsita"]
   },
 };

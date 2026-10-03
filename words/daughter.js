@@ -1122,6 +1122,7 @@ WORDS.daughter = {
     wuu_jh: ["女儿", "nɑ˥˧˥ ŋ̍˧˩˧"],
     qxs: ["tɕi", "tɕi"],
     kim: ["ӄыс", "qɯs"],
-    blr: ["kɔn51 ka31 pon51", "kɔn˥˩ ka˧˩ pon˥˩"]
+    blr: ["kɔn51 ka31 pon51", "kɔn˥˩ ka˧˩ pon˥˩"],
+    kfr: ["ધી", "dʱiː"]
   },
 };

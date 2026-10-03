@@ -1049,6 +1049,7 @@ WORDS.mountain = {
     khw: ["زوم", "zɔm"],
     dlg: ["кайа", "kaja"],
     cjs: ["тағ", "taɣ"],
-    dtp_kzj: ["nuhu", "nuhu"]
+    dtp_kzj: ["nuhu", "nuhu"],
+    tsz: ["uata", "wata"]
   }
 };

@@ -1106,6 +1106,7 @@ WORDS.honey = {
     gbm: ["सौद", "sɔd"],
     khb: ["ᦓᧄᧉᦕᦹᧂᧉ", "nam pʰɯŋ"],
     blr: ["ʔum51 pheh31", "ʔum˥˩ pʰeh˧˩"],
-    bwi: ["doni", "doni"]
+    bwi: ["doni", "doni"],
+    nys: ["nguk", "ŋuk"]
   },
 };

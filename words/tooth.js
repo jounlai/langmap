@@ -1249,7 +1249,7 @@ WORDS.tooth = {
     osa: ["hi", "hi"],
     pmy: ["gigi", "ɡiɡi"],
     pot: ["nibet", "nibət"],
-    pzh: ["—", "—"],
+    pzh: ["lepeng", "ləpəŋ"],
     wic: ["aːkʔa", "aːkʔa"],
     wuu_jh: ["牙", "uɑ˧˩˧"],
     wuu_jx: ["牙", "ɦɑ˧˩"],

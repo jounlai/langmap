@@ -1099,6 +1099,8 @@ WORDS.honey = {
     cag: ["akɔjetʃ", "akɔjetʃ"],
     bin: ["owọn", "owɔ̃"],
     kpe: ["kwɛ̃ŋ-wulɔ", "kwɛ̃ŋ wulɔ"],
-    dsh: ["dhaanite", "ðaːnite"]
+    dsh: ["dhaanite", "ðaːnite"],
+    szy: ["waneng nu wadu", "wanəŋ nu wadu"],
+    ssf: ["fulhia wa madahun", "fuɬia wa madahun"]
   },
 };

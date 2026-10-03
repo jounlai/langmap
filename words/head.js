@@ -1125,6 +1125,8 @@ WORDS.head = {
     yue_nn: ["头", "tʰɐu˨˩"],
     wuu_jh: ["头", "diu˧˩˧"],
     wuu_jx: ["头", "de˧˩"],
-    swb: ["shitswa", "ʃitswa"]
+    swb: ["shitswa", "ʃitswa"],
+    na: ["itub", "itub"],
+    kky: ["ngaabaay", "ŋaːbaːj"]
   },
 };

@@ -1072,6 +1072,8 @@ WORDS.person = {
     swb: ["mutru", "mutɾu"],
     kpe: ["nuu", "nuː"],
     zdj: ["mndru", "mndʳu"],
-    dsh: ["maadhat", "maːðat"]
+    dsh: ["maadhat", "maːðat"],
+    na: ["engame", "eŋame"],
+    bzg: ["cho", "tʃo"]
   }
 };

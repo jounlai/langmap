@@ -1111,6 +1111,9 @@ WORDS.rain = {
     srb: ["gənúr", "ɡənur"],
     kjg: ["kəmaʔ", "kəmaʔ"],
     kxv: ["bela", "bela"],
-    kio: ["sép", "sép"]
+    kio: ["sép", "sép"],
+    na: ["weron", "weron"],
+    nha: ["pundu", "pundu"],
+    kky: ["madyi", "maci"]
   },
 };

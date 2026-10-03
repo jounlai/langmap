@@ -107,7 +107,7 @@ WORDS.love = {
       pt_gw: ["amur", "amur"],
       tsz: ["uémbekua", "weˈmbekʷa"],
       nez: ["—", "—"],
-      woe: ["—", "—"],
+      woe: ["ffagéé", "fːaɡeː"],
       pmt: ["aroha", "aroha"],
       bin: ["arhuẹmwonmwan", "aɾuɛ̃mwɛ̃"],
       khw: ["مہر", "ˈmeher"],

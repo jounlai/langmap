@@ -1233,7 +1233,7 @@ WORDS.fish = {
     osa: ["ho", "ho"],
     pmy: ["ikan", "ˈikaŋ"],
     pot: ["kigo", "kiɡo"],
-    pzh: ["—", "—"],
+    pzh: ["alaw", "alaw"],
     wic: ["kaːcʔa", "kaːtsʔa"],
     wuu_jh: ["鱼", "ȵy˧˩˧"],
     wuu_jx: ["鱼", "ŋ̍˧˩"],

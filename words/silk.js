@@ -737,6 +737,8 @@ WORDS.silk = {
     pt_ao: ["seda", "ˈsedɐ"],
     en_geordie: ["silk", "sɪlk"],
     en_est: ["silk", "sɪwk"],
-    bm: ["hadiri", "hadiri"]
+    bm: ["hadiri", "hadiri"],
+    dru: ["kadhupu", "kaðupu"],
+    bnn: ["kaiku", "kaiku"]
   }
 };

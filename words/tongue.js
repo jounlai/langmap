@@ -1231,7 +1231,7 @@ WORDS.tongue = {
     osa: ["ðéže", "ðéʒe"],
     pmy: ["lida", "lida"],
     pot: ["tno", "tənoː"],
-    pzh: ["—", "—"],
+    pzh: ["dahama", "dahama"],
     wic: ["hacʼa", "hatsʔa"],
     wuu_jh: ["口舌", "kʰiu˥˧˥ dʑyɤ˩˦"],
     wuu_jx: ["舌头", "zəʔ˩˨ de˧˩"],

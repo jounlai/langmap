@@ -814,6 +814,11 @@ WORDS.butterfly = {
     en_geordie: ["butterfly", "ˈbʊtəflaɪ"],
     en_est: ["butterfly", "ˈbʌʔəflɑɪ"],
     iso: ["ẹvbovbo", "ɛʋoʋo"],
-    ngl: ["nikurunthu", "nikuɾuntʰu"]
+    ngl: ["nikurunthu", "nikuɾuntʰu"],
+    ssf: ["kurari", "kuɾaɾi"],
+    trv: ["klaway", "klawaj"],
+    szy: ["adipapang", "adipapaŋ"],
+    tkl: ["pepe", "pepe"],
+    pmt: ["pepe", "pepe"]
   },
 };

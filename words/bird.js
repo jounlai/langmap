@@ -1160,6 +1160,7 @@ WORDS.bird = {
     wic: ["ichir", "itsʰiɾ"],
     kio: ["tʼę̀:né", "tʼẽ̀ːné"],
     aoc: ["torong", "toɾoŋ"],
-    swb: ["nyunyi", "ɲuɲi"]
+    swb: ["nyunyi", "ɲuɲi"],
+    na: ["imin ȯeta", "imin ɔeta"]
   },
 };

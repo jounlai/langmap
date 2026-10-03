@@ -1229,7 +1229,7 @@ WORDS.blood = {
     osa: ["wapi", "wapĩ"],
     pmy: ["dara", "dara"],
     pot: ["mskwe", "mskʷə"],
-    pzh: ["—", "—"],
+    pzh: ["damu", "damu"],
     wic: ["waːckicʔa", "waːtskitsʔa"],
     wuu_jh: ["血", "ɕyɤ˥˥"],
     wuu_jx: ["血", "ɕyeʔ˥"],

@@ -1136,6 +1136,8 @@ WORDS.hundred = {
     crx: ["whunizyat whunizyai", "xʷunizjat xʷunizjai"],
     bin: ["iyisẹn", "ijisɛ̃"],
     iso: ["ẹgba", "ɛɡba"],
-    fvr: ["fírí", "fírí"]
+    fvr: ["fírí", "fírí"],
+    enq: ["wane andate", "wane andate"],
+    na: ["aibu", "aibu"]
   },
 };

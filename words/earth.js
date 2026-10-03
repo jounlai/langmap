@@ -1169,6 +1169,9 @@ WORDS.earth = {
     atb: ["myi-tse", "mji˥˥tse̱˨˩"],
     tca: ["waixü̃mü", "waiʔɨ̃mɨ"],
     zts: ["yiu", "jiu"],
-    swb: ["trotro", "tɾotɾo"]
+    swb: ["trotro", "tɾotɾo"],
+    wmt: ["nguwa", "ˈŋuwa"],
+    bzg: ["ta", "ta"],
+    dru: ["dae", "daə"]
   }
 };

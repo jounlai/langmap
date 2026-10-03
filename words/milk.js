@@ -1085,6 +1085,8 @@ WORDS.milk = {
     wuu_jh: ["牛奶", "ȵiu˧˩˧ nɑ˥˧˥"],
     bin: ["ewẹn", "ewɛ̃"],
     kpe: ["ngini-ya", "ŋini ja"],
-    dsh: ["eeno", "eːno"]
+    dsh: ["eeno", "eːno"],
+    pzh: ["nunuh", "nunuh"],
+    szy: ["hacul", "hatsul"]
   },
 };

@@ -1106,6 +1106,8 @@ WORDS.egg = {
     ake: ["pïmoi", "pɨmoi"],
     wuu_jh: ["卵", "ləŋ˥˧˥"],
     swb: ["jwai", "dʒwai"],
-    dsh: ["ɠonɠo", "ɠoŋɠo"]
+    dsh: ["ɠonɠo", "ɠoŋɠo"],
+    adt: ["vipi", "vipi"],
+    pzh: ["batu pataru", "batu pataɾu"]
   },
 };

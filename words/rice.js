@@ -772,6 +772,10 @@ WORDS.rice = {
     en_est: ["rice", "ɹɑɪs"],
     kpe: ["moloŋ", "moloŋ"],
     ngl: ["musoro", "musoɾo"],
-    maw: ["sinkaafa", "sinkaːfa"]
+    maw: ["sinkaafa", "sinkaːfa"],
+    itb: ["paray", "paraj"],
+    trv: ["buwax payay", "buwax pajaj"],
+    cjm: ["ꨝꨴꩍ", "brah"],
+    dtp_kzj: ["vagas", "vaɡas"]
   }
 };

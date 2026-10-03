@@ -1048,6 +1048,10 @@ WORDS.horse = {
     pt_ao: ["cavalo", "kaˈvalu"],
     en_geordie: ["horse", "hɔːs"],
     swb: ["farasi", "farasi"],
-    kpe: ["soo", "soː"]
+    kpe: ["soo", "soː"],
+    pmt: ["puārehenua", "puaːrehenua"],
+    mrq: ["ekeuna", "ekeuna"],
+    ssf: ["tishmamraw", "tiʃmamɾaw"],
+    pzh: ["gamay", "ɡamaj"]
   }
 };

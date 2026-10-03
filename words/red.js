@@ -1226,7 +1226,7 @@ WORDS.red = {
     osa: ["žúce", "ʒútse"],
     pmy: ["merah", "ˈmeɾa"],
     pot: ["mskwa", "mskwa"],
-    pzh: ["—", "—"],
+    pzh: ["lubahing", "lubahiŋ"],
     wic: ["kwhaːc", "kʷʰaːts"],
     wuu_jh: ["红", "oŋ˧˩˧"],
     wuu_jx: ["红", "ɦoŋ˧˩"],

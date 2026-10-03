@@ -1205,6 +1205,8 @@ WORDS.four = {
     kpj: ["inaubiɔwa", "inaubiɔwa"],
     mbc: ["saakɨrɨrɨ", "saakɨrɨrɨ"],
     aoc: ["saköröroʼne", "sakøɾøɾoʔne"],
-    wuu_jh: ["四", "si˥˥"]
+    wuu_jh: ["四", "si˥˥"],
+    woe: ["fangi", "faŋi"],
+    cia: ["paʼa", "paʔa"]
   },
 };

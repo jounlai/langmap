@@ -1160,6 +1160,9 @@ WORDS.stone = {
     wuu_hz: ["石头", "zaʔ˨ dei˨˩˧"],
     wuu_jh: ["石头", "ʑiəʔ˨˩˨ diu˧˩˧"],
     wuu_jx: ["石头", "zɑʔ˩˨ de˧˩"],
-    swb: ["ɓwe", "ɓwe"]
+    swb: ["ɓwe", "ɓwe"],
+    na: ["epe", "epe"],
+    woe: ["faaú", "faːu"],
+    szy: ["baʼtu", "baʔtu"]
   },
 };

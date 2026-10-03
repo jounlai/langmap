@@ -1018,6 +1018,8 @@ WORDS.sea = {
     en_geordie: ["sea", "siː"],
     ar_sa: ["بحر", "ˈbaħar"],
     swb: ["ɓahari", "ɓahari"],
-    kpe: ["yuo", "juo"]
+    kpe: ["yuo", "juo"],
+    na: ["ijited", "ijited"],
+    pzh: ["awas", "awas"]
   }
 };

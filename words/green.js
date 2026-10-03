@@ -998,6 +998,8 @@ WORDS.green = {
     aoc: ["rora", "ɾoɾa"],
     yue_gz: ["绿", "lʊk̚˨˨"],
     ar_sa: ["أخضر", "ʔaˈxaðˤar"],
-    ngl: ["ntikwa", "ntikwa"]
+    ngl: ["ntikwa", "ntikwa"],
+    cia: ["moijo", "moidʒo"],
+    nlc: ["sugulamla", "suɡulamla"]
   }
 };

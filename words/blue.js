@@ -410,7 +410,7 @@ WORDS.blue = {
     af: "distinct",
     agx: "distinct",
     ak: "dark",
-    ami: "grue",
+    ami: "distinct", // route was grue (r42 2026-10-03)
     an: "distinct",
     ang: "distinct",
     ani: "distinct",
@@ -638,7 +638,7 @@ WORDS.blue = {
     or: "distinct",
     orh: "distinct",
     os: "grue",
-    osa: "grue",
+    osa: "distinct", // route was grue (r42 2026-10-03)
     otq: "grue", // route was distinct (r39 2026-10-03)
     pa: "distinct",
     pag: "borrowed",
@@ -942,7 +942,7 @@ WORDS.blue = {
     tyz: ["kheo", "kʰɛːw˧˧"],
     ja_kanbun: ["青し", "aoɕi"],
     sa_edu: ["नीलः", "niːlaɦ"],
-    khw: ["اوچ", "otʃ"],
+    khw: ["اوݯ", "ɔʈʂ"], // was ["اوچ", "otʃ"] (r42 fix 2026-10-03)
     pbb: ["çẽy", "çẽj"],
     mus: ["holatte", "holatːi"],
     ain: ["シウニン", "siwnin"],

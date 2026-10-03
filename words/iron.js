@@ -1096,6 +1096,7 @@ WORDS.iron = {
     pmt: ["kāuri", "kaːuri"],
     qxs: ["ɕi", "ɕi"],
     adx: ["ལྕགས", "htɕak"],
-    dtp_kzj: ["bosiʼ", "bosiʔ"]
+    dtp_kzj: ["bosiʼ", "bosiʔ"],
+    bdk: ["йилег", "jileɡ"]
   },
 };

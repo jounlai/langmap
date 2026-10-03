@@ -782,6 +782,7 @@ WORDS.rice = {
     twm: ["dem13", "dem˩˧"],
     qxs: ["qʰə", "qʰə"],
     adx: ["འབྲས", "ndʐe"],
-    dur: ["tʉ́d hó̧d", "tʉd hõd"]
+    dur: ["tʉ́d hó̧d", "tʉd hõd"],
+    guu: ["atoɾoso", "atoɾoso"]
   }
 };

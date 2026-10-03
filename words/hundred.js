@@ -1139,6 +1139,7 @@ WORDS.hundred = {
     fvr: ["fírí", "fírí"],
     enq: ["wane andate", "wane andate"],
     na: ["aibu", "aibu"],
-    khw: ["شور", "ʃoːr"]
+    khw: ["شور", "ʃoːr"],
+    blr: ["ti31 roi31", "ti˧˩ roi˧˩"]
   },
 };

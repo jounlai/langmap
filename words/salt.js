@@ -1221,6 +1221,9 @@ WORDS.salt = {
     czh_wy: ["盐", "ĩ˩˩"],
     omc: ["æp", "æp"],
     wuu_jh: ["盐", "ie˧˩˧"],
-    mrq: ["paʻatai", "paʔatai"]
+    mrq: ["paʻatai", "paʔatai"],
+    blr: ["kih33", "kih˧˧"],
+    bwi: ["íiwi", "íiwi"],
+    tpy: ["iakɨr", "iakɨr"]
   },
 };

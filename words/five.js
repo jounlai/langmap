@@ -724,7 +724,7 @@ WORDS.five = {
     cag: ["weʔɬanɔxeʃ", "weʔɬanɔxeʃ"],
     crt: ["ifʷjenni sikjoj itifʷe", "ifʷjenni sikjoj itifʷe"],
     tpy: ["nekatkelan", "nekatkelan"],
-    jup: ["—", "—"],
+    jup: ["ʔajup dʼapṹh", "ʔajup dʼapṹh"],
     kwa: ["—", "—"],
     kpe: ["lɔ́ɔlu", "lɔ́ːlu"],
     bbc: ["lima", "lima"],

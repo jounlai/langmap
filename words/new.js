@@ -1108,6 +1108,8 @@ WORDS.new = {
     pmi: ["ɕi55ɕi55mə53", "ɕi˥˥ɕi˥˥mə˥˧"],
     twm: ["se55ro53", "se˥˥ro˥˧"],
     qxs: ["tsʰi", "tsʰi"],
-    dlg: ["һаҥа", "haŋa"]
+    dlg: ["һаҥа", "haŋa"],
+    wmt: ["jalangjalang", "ˈɟalaŋɟalaŋ"],
+    guu: ["tute", "tute"]
   }
 };

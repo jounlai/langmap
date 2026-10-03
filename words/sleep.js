@@ -1143,6 +1143,7 @@ WORDS.sleep = {
     yan: ["kami", "kami"],
     qxs: ["ne", "ne"],
     lep: ["ᰌᰦ", "da"],
-    bsk: ["oyanas", "ojanas"]
+    bsk: ["oyanas", "ojanas"],
+    prg: ["meicte", "meikte"]
   },
 };

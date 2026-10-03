@@ -1025,6 +1025,8 @@ WORDS.sea = {
     mez: ["kaeqcekam", "kæʔtʃekam"],
     twm: ["cᴀ13tsho53", "cᴀ˩˧tsʰo˥˧"],
     nxq: ["heel", "hɯ˥"],
-    bsk: ["samandar", "samandar"]
+    bsk: ["samandar", "samandar"],
+    blr: ["ʔum51 hɔn51", "ʔum˥˩ hɔn˥˩"],
+    bdk: ["кӏуф", "kʼuf"]
   }
 };

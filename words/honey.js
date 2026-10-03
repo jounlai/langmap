@@ -1104,6 +1104,8 @@ WORDS.honey = {
     ssf: ["fulhia wa madahun", "fuɬia wa madahun"],
     khw: ["مݯھی", "maʈʂʰi"],
     gbm: ["सौद", "sɔd"],
-    khb: ["ᦓᧄᧉᦕᦹᧂᧉ", "nam pʰɯŋ"]
+    khb: ["ᦓᧄᧉᦕᦹᧂᧉ", "nam pʰɯŋ"],
+    blr: ["ʔum51 pheh31", "ʔum˥˩ pʰeh˧˩"],
+    bwi: ["doni", "doni"]
   },
 };

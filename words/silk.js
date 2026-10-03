@@ -746,6 +746,9 @@ WORDS.silk = {
     qxs: ["ʁueχto", "ʁueχto"],
     dtp_kzj: ["sutala", "sutala"],
     nxq: ["chuq", "ʈʂʰu˨˩"],
-    dur: ["sìlíkì", "siliki"]
+    dur: ["sìlíkì", "siliki"],
+    bdk: ["барама", "barama"],
+    inh: ["даьри", "dæri"],
+    swi: ["min2", "min˧˩"]
   }
 };

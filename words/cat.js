@@ -60,7 +60,7 @@ WORDS.cat = {
       crt: ["tinuk", "tinuk"],
       cag: ["tanuk", "tanuk"],
       bwi: ["pitsána", "pitsána"],
-      guu: ["—","—"],
+      guu: ["mɨʃɨ", "mɨʃɨ"],
       kpj: ["hãloeni", "hãloeni"],
       mbc: ["pisana", "pisana"],
       moc: ["regaatolek", "reɡaatolek"],

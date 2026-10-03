@@ -1056,6 +1056,8 @@ WORDS.horse = {
     twm: ["te53", "te˥˧"],
     qxs: ["ʐu", "ʐu"],
     kim: ["аът", "aʔt"],
-    dtp_kzj: ["kudaʼ", "kudaʔ"]
+    dtp_kzj: ["kudaʼ", "kudaʔ"],
+    blr: ["ka31 hɔŋ51", "ka˧˩ hɔŋ˥˩"],
+    wmt: ["dimana", "ˈdimana"]
   }
 };

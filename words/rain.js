@@ -1116,6 +1116,7 @@ WORDS.rain = {
     nha: ["pundu", "pundu"],
     kky: ["madyi", "maci"],
     qxs: ["maʐi", "maʐi"],
-    lep: ["ᰠᰨ", "so"]
+    lep: ["ᰠᰨ", "so"],
+    wmt: ["manypu", "ˈmaɲpu"]
   },
 };

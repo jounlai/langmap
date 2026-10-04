@@ -2080,7 +2080,8 @@ const LANG_DATA = {
     } },
   // Audit Task 161: shifted from Seoul (37.57, 126.98) to Gaegyeong/Kaesong
   // (Goryeo dynasty capital, where Middle Korean was the prestige variety)
-  ko_mid: { name: 'Medieval Korean', native: '中世韓國語', lat: 37.97, lng: 126.55,
+  // ko_mid 2026-10-04: period was 10–16c and the pin sat on Kaesong with ko_gor; its cells are 15c Hangul, so it is Late Middle Korean at Hanyang.
+  ko_mid: { name: 'Late Middle Korean', native: '後期中世韓國語', lat: 37.57, lng: 126.98,
 },
   // Old Korean (Silla period, 7-10c.) — direct ancestor of Korean.
   // Attested via 25 hyangga (郷歌) poems in Samguk Yusa + Gyunyeo's

@@ -551,7 +551,7 @@ Total: 1190 codes.
 | `ko_jeju` | Jeju | 済州語 | Koreanic (Jeju) | ~5K (UNESCO: critically endangered) |
 | `ko_jl` | Jeolla Korean | 全羅方言 | Koreanic | ~5M |
 | `ko_kp` | North Korean | 文化語 | Koreanic | ~26M |
-| `ko_mid` | Middle Korean | 中世韓国語 | Koreanic | Extinct (~10th-16th c.) |
+| `ko_mid` | Late Middle Korean | 後期中世韓国語 | Koreanic | Extinct (~10th-16th c.) |
 | `ko_yb` | Yanbian Korean | 延辺朝鮮語 | Koreanic | ~1.7M |
 | `koi` | Komi-Permyak | コミ・ペルミャク語 | Uralic (Permic) | ~63K |
 | `kok` | Konkani | コンカニ語 | Indo-Aryan (Southern) | ~2.3M |

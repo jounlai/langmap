@@ -1180,6 +1180,7 @@ WORDS.earth = {
     zh_song: ["土", "tʰu"],
     txg: ["𗼻", "ljɨ˧˥"],
     juc: ["na", "na"],
-    onw: ["ⲥ̅ⲕⲧ̅", "iskit"]
+    onw: ["ⲥ̅ⲕⲧ̅", "iskit"],
+    xsa: ["𐩱𐩧𐩳", "ʔardˤ"]
   }
 };

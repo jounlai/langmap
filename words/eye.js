@@ -629,7 +629,7 @@ WORDS.eye = {
     amw: ["ܥܝܢܐ", "ʕajna"],
     aii: ["ܥܝܢܐ", "ʕajna"],
     tru: ["ܥܝܢܐ", "ʕajno"],
-    sux: ["𒅊", "iɡi"],
+    sux: ["𒅆", "iɡi"],
     akk: ["𒅆", "iːnu"],
     hit: ["𒊭𒆪𒉿", "ʃakuwa"],
     nci: ["īxtli", "iːʃtɬi"],

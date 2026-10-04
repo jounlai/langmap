@@ -1062,6 +1062,12 @@ WORDS.mountain = {
     xag: ["bow", "bu"],
     txg: ["𘑗", "ŋər˧"],
     qwc: ["urqu", "orqo"],
-    ohu: ["hegy", "hɛɟ"]
+    ohu: ["hegy", "hɛɟ"],
+    pal: ["𐭢𐭫", "ɡar"],
+    xto: ["𑀱𑀼𑀮𑁆", "ʂul"],
+    txb: ["𑀱𑀮𑁂", "ʂale"],
+    xsa: ["𐩲𐩧", "ʕar"],
+    phn: ["𐤄𐤓", "har"],
+    kho: ["𑀕𑀭", "ɡara"]
   }
 };

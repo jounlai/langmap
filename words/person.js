@@ -1093,6 +1093,11 @@ WORDS.person = {
     pmh: ["मणुस्स", "maɳusːa"],
     xag: ["išow", "iʃu"],
     qwc: ["runa", "runa"],
-    ohu: ["ember", "ɛmbɛr"]
+    ohu: ["ember", "ɛmbɛr"],
+    pal: ["𐭬𐭫𐭲𐭥𐭬", "mardoːm"],
+    xto: ["𑀦𑀧𑁂𑀁", "napem"],
+    txb: ["𑀰𑁅𑀫𑁄", "ɕau̯mo"],
+    xpu: ["𐤍𐤐𐤔", "nefeʃ"],
+    xsa: ["𐩱𐩬𐩪", "ʔins"]
   }
 };

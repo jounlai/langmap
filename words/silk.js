@@ -760,6 +760,9 @@ WORDS.silk = {
     gez: ["ሐሪር", "ħariːr"],
     orv: ["шелкъ", "ʃelkŭ"],
     ohu: ["selyem", "ʃɛjɛm"],
-    sog: ["cγnh", "tʃaɣnaː"]
+    sog: ["cγnh", "tʃaɣnaː"],
+    pal: ["𐭠𐭯𐭫𐭩𐭱𐭥𐭬", "abreːʃom"],
+    kaw: ["ꦱꦸꦠꦿ", "sutra"],
+    okz: ["សូត្រ", "suːt"]
   }
 };

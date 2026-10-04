@@ -825,6 +825,11 @@ WORDS.rice = {
     arc: ["ܪܘܙܐ", "ruzzaː"],
     sog: ["ryzʾkh", "reːzaːk"],
     och: ["米", "*(C.)mˤ[e]jʔ"],
-    sukh: ["ข้าว", "kʰaːw"]
+    sukh: ["ข้าว", "kʰaːw"],
+    pal: ["𐭡𐭫𐭭𐭰", "brindʒ"],
+    xto: ["𑀓𑁆𑀮𑀼", "klu"],
+    txb: ["𑀓𑁆𑀮𑀼", "klu"],
+    kaw: ["ꦧꦿꦱ꧀", "bras"],
+    okz: ["តន្ទុល", "ɗandʊl"]
   }
 };

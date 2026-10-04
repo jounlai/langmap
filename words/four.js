@@ -1215,6 +1215,7 @@ WORDS.four = {
     xav: ["maparane siʼuiwa", "mapaɾane siʔuiwa"],
     zh_song: ["四", "sɿ"],
     xlu: ["māuwa-", "ˈmaːuwa"],
-    onw: ["ⲕⲉⲙⲥⲟ", "kemso"]
+    onw: ["ⲕⲉⲙⲥⲟ", "kemso"],
+    pal: ["𐭰𐭧𐭠𐭫", "tʃahaːr"]
   },
 };

@@ -1123,6 +1123,8 @@ WORDS.rain = {
     blk: ["ခမ်း", "kʰam˥˧"],
     zh_song: ["雨", "iu"],
     juc: ["agu", "aɡu"],
-    ohu: ["eső", "ɛʃøː"]
+    ohu: ["eső", "ɛʃøː"],
+    xsa: ["𐩹𐩬𐩣", "ðanam"],
+    okz: ["ផ្លេង", "pʰleːŋ"]
   },
 };

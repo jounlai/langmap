@@ -1168,6 +1168,7 @@ WORDS.bird = {
     blk: ["ဝါး", "wa˥˧"],
     jqr: ["chʼipi", "tʃʼipi"],
     yuy: ["ʃuun", "ʃuːn"],
-    mjg: ["xuu", "ɕuː"]
+    mjg: ["xuu", "ɕuː"],
+    xpu: ["𐤑𐤐𐤓", "sˤippor"]
   },
 };

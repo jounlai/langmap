@@ -1231,6 +1231,11 @@ WORDS.black = {
     zh_song: ["黑", "xei"],
     pmh: ["काल", "kaːla"],
     juc: ["sahalian", "saxalian"],
-    ohu: ["fekete", "fɛkɛtɛ"]
+    ohu: ["fekete", "fɛkɛtɛ"],
+    pal: ["𐭮𐭩𐭣", "sjaː"],
+    xto: ["𑀅𑀭𑁆𑀓𑀦𑁆𑀢𑁆", "arkant"],
+    txb: ["𑀏𑀭𑁆𑀓𑁂𑀦𑁆𑀢𑁆", "erkent"],
+    ave: ["𐬯𐬁𐬨𐬀", "saːma"],
+    kho: ["𑀳𑀲𑁆𑀯", "hasva"]
   },
 };

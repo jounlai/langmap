@@ -1112,6 +1112,9 @@ WORDS.honey = {
     wls: ["meli", "meli"],
     gcr: ["myèl", "mjɛl"],
     txg: ["𗋮", "ɕiwe˧"],
-    juc: ["hitsu", "xitsu"]
+    juc: ["hitsu", "xitsu"],
+    xpu: ["𐤍𐤐𐤕", "nofet"],
+    xsa: ["𐩵𐩨𐩪", "dibs"],
+    okz: ["មធុ", "madʰuː"]
   },
 };

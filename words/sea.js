@@ -1038,6 +1038,9 @@ WORDS.sea = {
     juc: ["mede", "mədə"],
     qwc: ["mama qucha", "mama qotʃa"],
     ohu: ["tenger", "tɛŋɡɛr"],
-    onw: ["ⲑⲁⲗⲁⲥ", "tʰalas"]
+    onw: ["ⲑⲁⲗⲁⲥ", "tʰalas"],
+    pal: ["𐭣𐭫𐭩𐭣𐭠", "drajaː"],
+    xto: ["𑀲𑀸𑀫𑀼𑀤𑁆𑀢𑀭𑁆", "saːmudtər"],
+    txb: ["𑀲𑀫𑀼𑀤𑁆𑀢𑀭𑁆", "samudtər"]
   }
 };

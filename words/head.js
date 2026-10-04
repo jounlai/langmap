@@ -1148,6 +1148,8 @@ WORDS.head = {
     zkt: ["𘱘", "nai"],
     orv: ["голова", "ɡolova"],
     qwc: ["uma", "uma"],
-    ohu: ["fő", "føː"]
+    ohu: ["fő", "føː"],
+    pal: ["𐭮𐭫", "sar"],
+    kho: ["𑀓𑀫𑀮", "kamala"]
   },
 };

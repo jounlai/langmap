@@ -1071,6 +1071,9 @@ WORDS.horse = {
     xlu: ["azzu-", "ˈatsːu"],
     juc: ["muri", "muri"],
     ohu: ["ló", "loː"],
-    onw: ["ⲙⲟⲩⲣⲧ", "murt"]
+    onw: ["ⲙⲟⲩⲣⲧ", "murt"],
+    pal: ["𐭠𐭮𐭯", "asp"],
+    xto: ["𑀬𑀼𑀓𑁆", "juk"],
+    txb: ["𑀬𑀓𑁆𑀯𑁂", "jakwe"]
   }
 };

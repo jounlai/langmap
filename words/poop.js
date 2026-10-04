@@ -856,6 +856,8 @@ WORDS.poop = {
     xqa: ["bütgü", "bytɡy"],
     gez: ["ኵስሕ", "kʷəsħ"],
     arc: ["ܚܪܝܐ", "ħerjaː"],
-    ohu: ["szar", "sɒr"]
+    ohu: ["szar", "sɒr"],
+    txb: ["𑀯𑁂𑀁𑀱𑀺𑀬𑁂", "wemʂije"],
+    ave: ["𐬔𐬏𐬚𐬀", "ɡuːθa"]
   },
 };

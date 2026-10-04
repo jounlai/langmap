@@ -927,6 +927,7 @@ WORDS.wheel = {
     mjg: ["guli", "ɡuli"],
     zh_song: ["輪", "liuən"],
     txg: ["𘚢", "dʑiej˧˥"],
-    ohu: ["kerék", "kɛreːk"]
+    ohu: ["kerék", "kɛreːk"],
+    cop: ["ⲕⲟⲧ", "kot"]
   }
 };

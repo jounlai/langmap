@@ -955,7 +955,7 @@ WORDS.blood = {
     toi: ["bulowa", "bulowa"],
     peo: ["—", "—"],
     ave: ["𐬬𐬊𐬵𐬎𐬥𐬍", "vohuniː"],
-    xto: ["—", "—"],
+    xto: ["𑀬𑁆𑀲𑀸𑀭𑁆", "jsaːr"],
     txb: ["𑀬𑀲𑀭", "jasar"],
     phn: ["𐤃𐤌", "dam"],
     uga: ["𐎄𐎎", "damu"],

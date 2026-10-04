@@ -1012,6 +1012,8 @@ WORDS.green = {
     txg: ["𗺭", "dʑjow˧"],
     juc: ["burha boco", "burxa botʃo"],
     qwc: ["qumir", "qomir"],
-    ohu: ["zöld", "zøld"]
+    ohu: ["zöld", "zøld"],
+    pal: ["𐭮𐭯𐭦", "sabz"],
+    cop: ["ⲟⲩⲟⲧⲟⲩⲉⲧ", "uotuet"]
   }
 };

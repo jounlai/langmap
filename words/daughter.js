@@ -1129,6 +1129,7 @@ WORDS.daughter = {
     zh_song: ["女兒", "niu ɽʅ"],
     txg: ["𘇾", "dʑji˧˥"],
     juc: ["saran jui", "saran dʒui"],
-    zkt: ["𘬝 𘮽𘯛", "mo boqo"]
+    zkt: ["𘬝 𘮽𘯛", "mo boqo"],
+    kho: ["𑀤𑀽𑀢", "duːta"]
   },
 };

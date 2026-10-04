@@ -1043,6 +1043,10 @@ WORDS.book = {
     zh_song: ["書", "ʂiu"],
     xqa: ["bitig", "bitiɡ"],
     otk: ["𐰋𐰃𐱅𐰃𐰏", "bitiɡ"],
-    ohu: ["könyv", "køɲv"]
+    ohu: ["könyv", "køɲv"],
+    pal: ["𐭭𐭠𐭬𐭪", "naːmaɡ"],
+    xto: ["𑀧𑁄𑀲𑁆𑀢𑀓𑁆", "postak"],
+    txb: ["𑀧𑁄𑀲𑁆𑀢𑀓𑁆", "postak"],
+    kaw: ["ꦥꦸꦱ꧀ꦠꦏ", "pustaka"]
   }
 };

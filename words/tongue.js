@@ -976,7 +976,7 @@ WORDS.tongue = {
     xpu: ["𐤋𐤔𐤍", "laʃon"],
     xhu: ["—", "—"],
     elx: ["𒋾𒌓", "tit"],
-    xsa: ["𐩡𐩦𐩬", "liʃaːn"],
+    xsa: ["𐩡𐩪𐩬", "lisaːn"],
     kaw: ["ꦆꦭꦠ꧀", "ilat"],
     kho: ["—", "—"],
     de_lut: ["Zunge", "ˈtsʊŋə"],

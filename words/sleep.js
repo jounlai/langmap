@@ -1148,6 +1148,8 @@ WORDS.sleep = {
     bor: ["nudu", "nudu"],
     nmn: ["ʘân", "ʘã"],
     blk: ["ဗေင်ႏ", "beŋ˥˥"],
-    tsz: ["kʼuíni", "ˈkʰʷini"]
+    tsz: ["kʼuíni", "ˈkʰʷini"],
+    xto: ["𑀓𑁆𑀮𑀺𑀲𑁆", "klis"],
+    txb: ["𑀓𑁆𑀮𑀦𑁆𑀢𑁆𑀲𑁆", "klənts"]
   },
 };

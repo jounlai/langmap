@@ -1126,6 +1126,8 @@ WORDS.new = {
     arc: ["ܚܕܬܐ", "ħaðtaː"],
     orv: ["новъ", "novŭ"],
     qwc: ["musuq", "mosoq"],
-    ohu: ["új", "uːj"]
+    ohu: ["új", "uːj"],
+    xpu: ["𐤇𐤃𐤔", "ħadaʃ"],
+    okz: ["ថ្មី", "tʰmiː"]
   }
 };

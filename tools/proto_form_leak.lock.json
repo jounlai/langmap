@@ -868,5 +868,11 @@
     "proto": "ptrk",
     "ruling": "inherited",
     "note": "Kashgari (Dankoff & Kelly) attests bitig 'book, writing' in Karakhanid; Proto-Turkic *bitig is reconstructed from forms like it. Attested, not a copy (r49, 2026-10-04)."
+  },
+  "txb|black": {
+    "form": "erkent",
+    "proto": "p_toc",
+    "ruling": "circular",
+    "note": "Tocharian B erkent 'black' is attested (Thomas, Tocharisches Elementarbuch II glossary); the Proto-Tocharian form is reconstructed from it and its A cognate. Attested, not a copy (r49, 2026-10-04)."
   }
 }

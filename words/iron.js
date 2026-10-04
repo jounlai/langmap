@@ -1102,6 +1102,8 @@ WORDS.iron = {
     wls: ["ukamea", "ukamea"],
     mjg: ["timuri", "timuri"],
     tsz: ["tiámu", "ˈtjamu"],
-    ptai: ["*ʰlek", "ʰlek"]
+    ptai: ["*ʰlek", "ʰlek"],
+    xpu: ["𐤁𐤓𐤆𐤋", "barzel"],
+    okz: ["តេក", "ɗɛːk"]
   },
 };

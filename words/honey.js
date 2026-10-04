@@ -1110,6 +1110,8 @@ WORDS.honey = {
     nys: ["nguk", "ŋuk"],
     gil: ["aia karewe manibeeru", "aia kaɾewe manibeːɾu"],
     wls: ["meli", "meli"],
-    gcr: ["myèl", "mjɛl"]
+    gcr: ["myèl", "mjɛl"],
+    txg: ["𗋮", "ɕiwe˧"],
+    juc: ["hitsu", "xitsu"]
   },
 };

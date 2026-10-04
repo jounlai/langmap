@@ -1082,7 +1082,7 @@ WORDS.red = {
     osn: ["beureum", "bərəum"],
     h_tagalog: ["ᜉᜓᜎ", "puˈlaʔ"],
     zkt: ["𘱄𘱹𘰹", "ljauqu"],
-    juc: ["—", "—"],
+    juc: ["fulian", "fulian"],
     omx: ["—", "—"],
     pyx: ["—", "—"],
     obr: ["နီ", "niy"],

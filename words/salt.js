@@ -1231,6 +1231,7 @@ WORDS.salt = {
     jqr: ["katyi", "kaci"],
     yuy: ["daabsən", "daːbsən"],
     zh_song: ["鹽", "iɛm"],
-    pura: ["*salɜ", "salɜ"]
+    pura: ["*salɜ", "salɜ"],
+    juc: ["datsu", "datsu"]
   },
 };

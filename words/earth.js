@@ -1177,6 +1177,8 @@ WORDS.earth = {
     lep: ["ᰑᰦᰳ", "fat"],
     blk: ["ဟံႏ", "ham˥˥"],
     yuy: ["ʃəruu", "ʃəruː"],
-    zh_song: ["土", "tʰu"]
+    zh_song: ["土", "tʰu"],
+    txg: ["𗼻", "ljɨ˧˥"],
+    juc: ["na", "na"]
   }
 };

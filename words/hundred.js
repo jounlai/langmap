@@ -1142,6 +1142,7 @@ WORDS.hundred = {
     khw: ["شور", "ʃoːr"],
     blr: ["ti31 roi31", "ti˧˩ roi˧˩"],
     sce: ["be", "bə"],
-    cia: ["amohono", "amohono"]
+    cia: ["amohono", "amohono"],
+    juc: ["tanggu", "taŋɡu"]
   },
 };

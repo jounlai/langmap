@@ -1075,7 +1075,7 @@ WORDS.bone = {
     osn: ["tulang", "tulaŋ"],
     h_tagalog: ["ᜊᜓᜆᜓ", "buˈtoʔ"],
     zkt: ["—", "—"],
-    juc: ["—", "—"],
+    juc: ["giranggi", "ɡiraŋɡi"],
     omx: ["ဇုတ်", "ɟut"],
     pyx: ["ru", "ru(C)"],
     obr: ["အရိုး", "ʔaruiwh"],

@@ -1229,6 +1229,7 @@ WORDS.black = {
     yuy: ["xara", "χara"],
     tsz: ["turhipiti", "tuɽipiti"],
     zh_song: ["黑", "xei"],
-    pmh: ["काल", "kaːla"]
+    pmh: ["काल", "kaːla"],
+    juc: ["sahalian", "saxalian"]
   },
 };

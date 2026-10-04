@@ -1149,6 +1149,7 @@ WORDS.nose = {
     aau: ["kasaw", "kasaw"],
     blk: ["နေ့ဖူ", "neʔ˦˥ pʰu"],
     tsz: ["úrhi", "ˈuɽi"],
-    mxv: ["sitin", "sitin"]
+    mxv: ["sitin", "sitin"],
+    juc: ["sunggi", "suŋɡi"]
   },
 };

@@ -1007,6 +1007,9 @@ WORDS.green = {
     zh_song: ["綠", "liu"],
     pmh: ["हरिय", "harija"],
     xag: ["dai", "dai"],
-    xng: ["ᠨ᠋ᠣᠬᠤᠬᠠᠨ", "noɣuɣan"]
+    xng: ["ᠨ᠋ᠣᠬᠤᠬᠠᠨ", "noɣuɣan"],
+    otk: ["𐰖𐰽𐰞", "jaʃɯl"],
+    txg: ["𗺭", "dʑjow˧"],
+    juc: ["burha boco", "burxa botʃo"]
   }
 };

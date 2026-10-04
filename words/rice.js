@@ -817,6 +817,9 @@ WORDS.rice = {
     pmh: ["तंडुल", "taɳɖula"],
     xct: ["འབྲས", "bras"],
     xct_litpr: ["འབྲས", "bras"],
-    h_tagalog: ["ᜊᜒᜄᜐ᜔", "biˈɡas"]
+    h_tagalog: ["ᜊᜒᜄᜐ᜔", "biˈɡas"],
+    xqa: ["tuturqan", "tuturqan"],
+    txg: ["𘌐", "kʰie˧˥"],
+    juc: ["bele", "bələ"]
   }
 };

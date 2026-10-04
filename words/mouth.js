@@ -1165,6 +1165,8 @@ WORDS.mouth = {
     yuy: ["aman", "aman"],
     zh_song: ["口", "kʰəu"],
     pmh: ["मुह", "muha"],
-    xag: ["ʒ́owmowx̣", "dʑumuχ"]
+    xag: ["ʒ́owmowx̣", "dʑumuχ"],
+    xqa: ["ağız", "aɣɯz"],
+    juc: ["angga", "aŋɡa"]
   }
 };

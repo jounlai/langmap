@@ -852,6 +852,7 @@ WORDS.poop = {
     mjg: ["basi", "basɿ"],
     pmh: ["गूह", "ɡuːha"],
     xct: ["རྐྱག་པ", "tɕakpa"],
-    xct_litpr: ["རྐྱག་པ", "tɕakpa"]
+    xct_litpr: ["རྐྱག་པ", "tɕakpa"],
+    xqa: ["bütgü", "bytɡy"]
   },
 };

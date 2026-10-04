@@ -1155,9 +1155,9 @@ WORDS.dog = {
         { form: "ńi.qo", script: "Latin (Kane 2009 reading)", source: "Polygram ńi.qo per West 2011, \"A Mirror on the Khitan Language\" (BabelStone Blog)." },
       ],
     },
-    juc: {
-      form: "indahǔn",
-      ipa:  "indahuːn",
+    juc: { // r46 fix applied 2026-10-04 (missed then: appliers skip object cells): Kane 1975 starred form; was form "indahǔn", ipa "indahuːn". The alt below predates the fix and is unverified.
+      form: "indahu",
+      ipa:  "indaxu",
       alt: [
         { form: "引荅渾", script: "Chinese-character transliteration", source: "女真譯語; 引荅渾 = indahǔn" },
       ],

@@ -925,6 +925,7 @@ WORDS.wheel = {
     ada: ["tlɔɔke nane", "tlɔːke nane"],
     vmw: ["nroota", "nɾoːta"],
     mjg: ["guli", "ɡuli"],
-    zh_song: ["輪", "liuən"]
+    zh_song: ["輪", "liuən"],
+    txg: ["𘚢", "dʑiej˧˥"]
   }
 };

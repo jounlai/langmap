@@ -862,5 +862,11 @@
     "proto": "p_sit",
     "ruling": "inherited",
     "note": "我 in Pulleyblank's Early Middle Chinese (ytenx 蒲立本 column) is ŋa; Proto-Sino-Tibetan *ŋa is its ancestor. A real inheritance, not a copy (zh_tang rebuild 2026-10-04)."
+  },
+  "xqa|book": {
+    "form": "bitig",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Kashgari (Dankoff & Kelly) attests bitig 'book, writing' in Karakhanid; Proto-Turkic *bitig is reconstructed from forms like it. Attested, not a copy (r49, 2026-10-04)."
   }
 }

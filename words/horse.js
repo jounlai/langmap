@@ -1068,6 +1068,7 @@ WORDS.horse = {
     pt_gw: ["kabalu", "kaˈbalu"],
     zh_song: ["馬", "ma"],
     pmh: ["अस्स", "asːa"],
-    xlu: ["azzu-", "ˈatsːu"]
+    xlu: ["azzu-", "ˈatsːu"],
+    juc: ["muri", "muri"]
   }
 };

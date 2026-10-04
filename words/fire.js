@@ -1147,9 +1147,9 @@ WORDS.fire = {
     osn: ["seuneu", "sɯnɯ"],
     h_tagalog: ["ᜀᜉᜓᜌ᜔", "apuj"],
     zkt: ["niár", "niar"],
-    juc: {
-      form: "tuwa",
-      ipa:  "tuwa",
+    juc: { // r46 fix applied 2026-10-04 (missed then: appliers skip object cells): Kane 1975 starred form; was form "tuwa", ipa "tuwa". The alt below predates the fix and is unverified.
+      form: "to",
+      ipa:  "to",
       alt: [
         { form: "脱瓦", script: "Chinese-character transliteration", source: "女真譯語; 脱瓦 = tuwa" },
       ]

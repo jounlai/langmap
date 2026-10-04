@@ -1059,6 +1059,7 @@ WORDS.mountain = {
     ptai: ["*doːj", "doːj"],
     pmh: ["गिरि", "ɡiri"],
     xlu: ["watti-", "ˈwatːi"],
-    xag: ["bow", "bu"]
+    xag: ["bow", "bu"],
+    txg: ["𘑗", "ŋər˧"]
   }
 };

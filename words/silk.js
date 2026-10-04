@@ -755,6 +755,7 @@ WORDS.silk = {
     kj: ["osilki", "osilki"],
     mjg: ["tiriga", "tiriɡa"],
     zh_song: ["絲", "sɿ"],
-    xct_litpr: ["དར", "dar"]
+    xct_litpr: ["དར", "dar"],
+    xqa: ["torqu", "torqu"]
   }
 };

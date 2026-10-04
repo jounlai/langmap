@@ -1033,6 +1033,8 @@ WORDS.sea = {
     yuy: ["dalii", "daliː"],
     tsz: ["mari", "maɾi"],
     tar: ["mar", "maɾ"],
-    zh_song: ["海", "xai"]
+    zh_song: ["海", "xai"],
+    xqa: ["täŋiz", "tæŋiz"],
+    juc: ["mede", "mədə"]
   }
 };

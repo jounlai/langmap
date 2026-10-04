@@ -1148,7 +1148,7 @@ WORDS.good = {
     omy: ["baik", "baik"],
     osn: ["hade", "hade"],
     h_tagalog: ["ᜋᜊᜓᜆᜒ", "mabuti"],
-    zkt: ["—", "—"],
+    zkt: ["𘬥𘱛", "ʃia"],
     juc: ["sain", "sain"],
     omx: ["ခိုဟ်", "kʰɔh"],
     pyx: ["ha", "ha(k)"],

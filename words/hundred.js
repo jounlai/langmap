@@ -1147,6 +1147,8 @@ WORDS.hundred = {
     akk: ["𒈨𒀜", "meʔat"],
     xsa: ["𐩣𐩱𐩩", "miʔat"],
     okz: ["សត", "sat"],
-    kho: ["𑀲𑀢", "sata"]
+    kho: ["𑀲𑀢", "sata"],
+    pt_gw: ["sen", "sẽ"],
+    ho: ["handred", "handred"]
   },
 };

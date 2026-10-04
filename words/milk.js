@@ -1100,6 +1100,7 @@ WORDS.milk = {
     ohu: ["tej", "tɛj"],
     ave: ["𐬞𐬀𐬌𐬌𐬀𐬵", "pajah"],
     okz: ["ក្ឞីរ", "kʰsiːr"],
-    cjy_lv: ["牛奶", "niʌu˦˦ niɛ˧˩˨"]
+    cjy_lv: ["牛奶", "niʌu˦˦ niɛ˧˩˨"],
+    zne: ["momunya", "momuɲa"]
   },
 };

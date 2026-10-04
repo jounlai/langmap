@@ -1070,6 +1070,8 @@ WORDS.mountain = {
     phn: ["𐤄𐤓", "har"],
     kho: ["𑀕𑀭", "ɡara"],
     en_est: ["mountain", "ˈmæʊnʔən"],
-    en_geordie: ["mountain", "ˈmuːntɪn"]
+    en_geordie: ["mountain", "ˈmuːntɪn"],
+    pau: ["rois", "ɾois"],
+    xav: ["ẽtẽ ʼrãihâ", "ɛ̃tɛ̃ ʔɾãihə"]
   }
 };

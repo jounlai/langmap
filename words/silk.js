@@ -768,6 +768,8 @@ WORDS.silk = {
     en_jam: ["silk", "sɪlk"],
     sms: ["šolkk", "ʃolkː"],
     gld: ["сэурэ", "səurə"],
-    bru: ["dai", "daj"]
+    bru: ["dai", "daj"],
+    vmw: ["seda", "seda"],
+    toj: ["seda", "seda"]
   }
 };

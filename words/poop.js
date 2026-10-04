@@ -859,6 +859,12 @@ WORDS.poop = {
     ohu: ["szar", "sɒr"],
     txb: ["𑀯𑁂𑀁𑀱𑀺𑀬𑁂", "wemʂije"],
     ave: ["𐬔𐬏𐬚𐬀", "ɡuːθa"],
-    xav: ["danhana", "daɲaˈna"]
+    xav: ["danhana", "daɲaˈna"],
+    ve: ["malaṱwa", "malat̪wa"],
+    seh: ["matubzwi", "matubzwi"],
+    gcr: ["kaka", "kaka"],
+    bci: ["wakasu", "wakasu"],
+    bum: ["mebi", "mebi"],
+    gil: ["nakotaari", "nakotaːɾi"]
   },
 };

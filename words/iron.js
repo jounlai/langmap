@@ -1104,6 +1104,8 @@ WORDS.iron = {
     tsz: ["tiámu", "ˈtjamu"],
     ptai: ["*ʰlek", "ʰlek"],
     xpu: ["𐤁𐤓𐤆𐤋", "barzel"],
-    okz: ["តេក", "ɗɛːk"]
+    okz: ["តេក", "ɗɛːk"],
+    pt_gw: ["feru", "ˈfɛru"],
+    xav: ["siʼuwazi", "siʔuwaˈzi"]
   },
 };

@@ -929,6 +929,7 @@ WORDS.wheel = {
     txg: ["𘚢", "dʑiej˧˥"],
     ohu: ["kerék", "kɛreːk"],
     cop: ["ⲕⲟⲧ", "kot"],
-    yue_nn: ["车辘", "tʃʰɛ˥˥ lʊk˥"]
+    yue_nn: ["车辘", "tʃʰɛ˥˥ lʊk˥"],
+    cab: ["tubalabala", "tubalabala"]
   }
 };

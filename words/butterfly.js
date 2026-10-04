@@ -861,6 +861,9 @@ WORDS.butterfly = {
     czh_wy: ["蒲翼", "pʰu˩˩ iɔ˥˩"],
     en_jam: ["butterfly", "ˈbɵtəflaɪ"],
     xav: ["piro", "piˈɾɔ"],
-    acf: ["papiyòt", "papijɔt"]
+    acf: ["papiyòt", "papijɔt"],
+    ho: ["kaubebe", "kaubebe"],
+    bzj: ["botaflai", "bɔtaflai"],
+    cnh: ["pelep", "pelep"]
   },
 };

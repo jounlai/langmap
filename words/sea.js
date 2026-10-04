@@ -1042,6 +1042,7 @@ WORDS.sea = {
     pal: ["𐭣𐭫𐭩𐭣𐭠", "drajaː"],
     xto: ["𑀲𑀸𑀫𑀼𑀤𑁆𑀢𑀭𑁆", "saːmudtər"],
     txb: ["𑀲𑀫𑀼𑀤𑁆𑀢𑀭𑁆", "samudtər"],
-    en_jam: ["sea", "siː"]
+    en_jam: ["sea", "siː"],
+    xav: ["â poré", "ə pɔɾɛ"]
   }
 };

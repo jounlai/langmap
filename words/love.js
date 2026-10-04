@@ -1015,7 +1015,7 @@ WORDS.love = {
     txb: ["𑀓𑀸𑀯𑀸", "kaːwaː"],
     phn: ["𐤀𐤇𐤁", "ʔaheb"],
     uga: ["𐎜𐎈𐎁", "ʔaːhab"],
-    xlu: ["—", "—"],
+    xlu: ["azza-", "ˈatsːa"],
     pal: ["𐭲𐭥𐭱𐭩", "doːʃiː"],
     fa_clas: ["عشق", "ʔiʃq"],
     syc: ["ܚܘܒܐ", "ħubbaː"],

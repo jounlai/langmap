@@ -959,7 +959,7 @@ WORDS.blood = {
     txb: ["𑀬𑀲𑀭", "jasar"],
     phn: ["𐤃𐤌", "dam"],
     uga: ["𐎄𐎎", "damu"],
-    xlu: ["—", "—"],
+    xlu: ["āšḫar-", "ˈaːsxar"],
     pal: ["𐭧𐭥𐭭", "xoːn"],
     fa_clas: ["خون", "xuːn"],
     syc: ["ܕܡܐ", "dmaː"],

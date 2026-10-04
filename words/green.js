@@ -1003,6 +1003,10 @@ WORDS.green = {
     nlc: ["sugulamla", "suɡulamla"],
     qxs: ["χueχue", "χueχue"],
     piu: ["kuriinwana", "kuɻiːnwana"],
-    kgg: ["hərgun", "hərɡun"]
+    kgg: ["hərgun", "hərɡun"],
+    zh_song: ["綠", "liu"],
+    pmh: ["हरिय", "harija"],
+    xag: ["dai", "dai"],
+    xng: ["ᠨ᠋ᠣᠬᠤᠬᠠᠨ", "noɣuɣan"]
   }
 };

@@ -1142,6 +1142,8 @@ WORDS.wind = {
     blr: ["kɨn51", "kɨn˥˩"],
     nmn: ["ǂqhùe", "ǂqʰue"],
     blk: ["တလီꩻ", "tə li˧˧"],
-    zh_song: ["風", "fuŋ"]
+    zh_song: ["風", "fuŋ"],
+    pmay: ["*ʔiʔqʼ", "ʔiʔqʼ"],
+    pmh: ["वाय", "ʋaːja"]
   },
 };

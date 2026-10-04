@@ -645,7 +645,7 @@ WORDS.star = {
       p_tun: ["*xōsikta", "xoːsikta"],
       p_aav: ["*smʔaɲ", "smʔaɲ"],
     p_viet: ["*k-raːw", "k-raːw"],
-      ptai: ["—", "—"],
+      ptai: ["*naːw", "naːw"],
       p_hmx: ["—", "—"],
       pafa: ["—", "—"],
       pkar: ["—", "—"],

@@ -1055,6 +1055,10 @@ WORDS.mountain = {
     jqr: ["qaaqa", "qaːqa"],
     yuy: ["uula", "uːla"],
     mjg: ["ghada", "ʁada"],
-    zh_song: ["山", "ʂan"]
+    zh_song: ["山", "ʂan"],
+    ptai: ["*doːj", "doːj"],
+    pmh: ["गिरि", "ɡiri"],
+    xlu: ["watti-", "ˈwatːi"],
+    xag: ["bow", "bu"]
   }
 };

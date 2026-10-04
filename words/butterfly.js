@@ -852,6 +852,8 @@ WORDS.butterfly = {
     lun: ["ipupwila", "ipupwila"],
     mjg: ["xanbalaxji", "ɕanbalaɕtɕi"],
     gym: ["malan", "malan"],
-    kri: ["bɔtaflay", "bɔtaflaj"]
+    kri: ["bɔtaflay", "bɔtaflaj"],
+    zh_song: ["胡蝶", "xu tiɛ"],
+    xct_litpr: ["ཕྱེ་མ་ལེབ", "pʰje ma leb"]
   },
 };

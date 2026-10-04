@@ -1125,6 +1125,7 @@ WORDS.daughter = {
     blr: ["kɔn51 ka31 pon51", "kɔn˥˩ ka˧˩ pon˥˩"],
     kfr: ["ધી", "dʱiː"],
     mjg: ["xjun", "ɕtɕun"],
-    gcr: ["tifi", "tifi"]
+    gcr: ["tifi", "tifi"],
+    zh_song: ["女兒", "niu ɽʅ"]
   },
 };

@@ -849,6 +849,9 @@ WORDS.poop = {
     acn: ["tɕʰi31", "tɕʰi˧˩"],
     gcf: ["chyé", "ʃje"],
     tsz: ["kuatsita", "kʷatsita"],
-    mjg: ["basi", "basɿ"]
+    mjg: ["basi", "basɿ"],
+    pmh: ["गूह", "ɡuːha"],
+    xct: ["རྐྱག་པ", "tɕakpa"],
+    xct_litpr: ["རྐྱག་པ", "tɕakpa"]
   },
 };

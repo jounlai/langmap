@@ -1163,6 +1163,8 @@ WORDS.mouth = {
     mui: ["mulut", "mulut"],
     blk: ["ဖြောင်း", "pʰlɔŋ˥˧"],
     yuy: ["aman", "aman"],
-    zh_song: ["口", "kʰəu"]
+    zh_song: ["口", "kʰəu"],
+    pmh: ["मुह", "muha"],
+    xag: ["ʒ́owmowx̣", "dʑumuχ"]
   }
 };

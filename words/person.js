@@ -1088,6 +1088,9 @@ WORDS.person = {
     yuy: ["kuun", "kuːn"],
     tsz: ["kʼuiripu", "kʰʷiˈɾipu"],
     xav: ["aʼuwẽ", "aʔuˈwɛ̃"],
-    zh_song: ["人", "ɽiən"]
+    zh_song: ["人", "ɽiən"],
+    ptai: ["*ɢwɯn", "ɢwɯn"],
+    pmh: ["मणुस्स", "maɳusːa"],
+    xag: ["išow", "iʃu"]
   }
 };

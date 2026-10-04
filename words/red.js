@@ -585,7 +585,7 @@ WORDS.red = {
     p_tun: ["*pula", "pula"],
     p_aav: ["*roːŋ", "roːŋ"],
     p_viet: ["*tɔh", "tɔh"],
-    ptai: ["—", "—"],
+    ptai: ["*dwiːŋ", "dwiːŋ"],
     p_hmx: ["—", "—"],
     pafa: ["—", "—"],
     pkar: ["*čʼitʼel-", "čʼitʼel"],

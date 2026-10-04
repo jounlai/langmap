@@ -961,7 +961,7 @@ WORDS.tongue = {
     txb: ["𑀓𑀦𑁆𑀢𑁆𑀯𑁄", "kəntwo"],
     phn: ["𐤋𐤔𐤍", "laʃon"],
     uga: ["𐎍𐎌𐎐", "laʃaːnu"],
-    xlu: ["—", "—"],
+    xlu: ["lāli-", "ˈlaːli"],
     pal: ["𐭦𐭥𐭠𐭭", "zuwaːn"],
     fa_clas: ["زبان", "zabaːn"],
     syc: ["ܠܫܢܐ", "liʃːaːnaː"],

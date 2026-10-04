@@ -1066,6 +1066,8 @@ WORDS.horse = {
     cnh: ["rang", "raŋ"],
     tsz: ["kabaiu", "kaˈbaju"],
     pt_gw: ["kabalu", "kaˈbalu"],
-    zh_song: ["馬", "ma"]
+    zh_song: ["馬", "ma"],
+    pmh: ["अस्स", "asːa"],
+    xlu: ["azzu-", "ˈatsːu"]
   }
 };

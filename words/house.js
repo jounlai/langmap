@@ -636,7 +636,7 @@ WORDS.house = {
     crn: ["kíh", "kih"],
     emy: ["otoch", "otoːtʃ"],
     p_ine: ["*dṓm", "dóːm"],
-    p_toc: ["—", "—"],   // no published Proto-Tocharian reconstruction found
+    p_toc: ["*wostŭ", "wostu"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*ipay", "ipay"],
     p_kor: ["—", "—"],
     ptrk: ["*ēb", "ēb"],
@@ -653,7 +653,7 @@ WORDS.house = {
     pban: ["*-jʊ̀", "-jʊ̀"],
     p_sit: ["*k-yim", "k-jim"],
     psem: ["*bayt-", "bayt"],
-    pura: ["—", "—"],
+    pura: ["*kota", "kota"],
     p_dra: ["*il", "il"],
     paus: ["*Rumaq", "Rumaq"],
     zh_song: ["屋", "u"],

@@ -1147,7 +1147,7 @@ WORDS.heart = {
     omy: ["hati", "hati"],
     osn: ["hate", "hate"],
     h_tagalog: ["ᜉᜓᜐᜓ", "puso"],
-    zkt: ["niyàmen", "nijamen"],
+    zkt: ["—", "—"],
     juc: ["niema", "niema"],
     omx: ["စိုတ်", "cət"],
     pyx: ["—", "—"],

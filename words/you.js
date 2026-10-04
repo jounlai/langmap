@@ -1148,7 +1148,7 @@ WORDS.you = {
       omy: ["kamu", "kamu"],
       osn: ["sia", "sia"],
       h_tagalog: ["ᜁᜃᜏ᜔", "ikaw"],
-      zkt: ["ši", "ʃi"],
+      zkt: ["—", "—"],
       juc: ["ši", "ʃi"],
       omx: ["ဗှ်ေ", "peh"],
       pyx: ["naŋ", "naŋ"],

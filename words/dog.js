@@ -1148,9 +1148,9 @@ WORDS.dog = {
     omy: ["anjing", "andʒiŋ"],
     osn: ["anjing", "andʒiŋ"],
     h_tagalog: ["ᜀᜐᜓ", "aso"],
-    zkt: {
+    zkt: { // r50 fix 2026-10-04: ipa was "niaqan"; Kane 2009 reading ńi.qo (West 2011), as the alt below already says
       form: "𘰕𘯛",
-      ipa:  "niaqan",
+      ipa:  "ɲiqo",
       alt: [
         { form: "ńi.qo", script: "Latin (Kane 2009 reading)", source: "Polygram ńi.qo per West 2011, \"A Mirror on the Khitan Language\" (BabelStone Blog)." },
       ],

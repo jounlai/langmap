@@ -1147,7 +1147,7 @@ WORDS.house = {
     omy: ["rumah", "rumah"],
     osn: ["imah", "imah"],
     h_tagalog: ["ᜊᜑᜌ᜔", "bahaj"],
-    zkt: ["boo", "boː"],
+    zkt: ["𘯆𘱦", "ɡoer"],
     juc: ["bo", "bo"],
     omx: ["သ္ၚိ", "sŋiʔ"],
     pyx: ["—", "—"],

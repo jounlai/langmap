@@ -1155,7 +1155,7 @@ WORDS.tree = {
     omy: ["kayu", "kaju"],
     osn: ["tangkal", "taŋkal"],
     h_tagalog: ["ᜃᜑᜓᜌ᜔", "kahoj"],
-    zkt: ["mau", "mau"],
+    zkt: ["—", "—"],
     juc: ["mo", "mo"],
     omx: ["ဆု", "tɕu"],
     pyx: ["—", "—"],

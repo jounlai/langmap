@@ -1150,7 +1150,7 @@ WORDS.love = {
     omy: ["sayang", "sajaŋ"],
     osn: ["nyaah", "ɲaːh"],
     h_tagalog: ["ᜁᜊᜒᜄ᜔", "ibiɡ"],
-    zkt: ["nasun", "nasun"],
+    zkt: ["—", "—"],
     juc: ["beyimbi", "bəjimbi"],
     omx: ["ဆာန်", "cʰan"],
     pyx: ["—", "—"],

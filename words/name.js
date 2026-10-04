@@ -1148,7 +1148,7 @@ WORDS.name = {
       omy: ["ngaran", "ŋaran"],
       osn: ["ngaran", "ŋaran"],
       h_tagalog: ["ᜅᜎᜈ᜔", "ŋalan"],
-      zkt: ["niru", "niru"],
+      zkt: ["𘱤𘰣", "iri"],
       juc: ["gebu", "ɡəbu"],
       omx: ["ယ៟ု", "jəmu"],
       pyx: ["rmiṅ·", "r.miŋ"],

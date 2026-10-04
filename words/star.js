@@ -1141,7 +1141,7 @@ WORDS.star = {
       omy: ["bintang", "bintaŋ"],
       osn: ["béntang", "bentaŋ"],
       h_tagalog: ["ᜊᜒᜆᜓᜁᜈ᜔", "bituʔin"],
-      zkt: ["od", "od"],
+      zkt: ["—", "—"],
       juc: ["ušiha", "uʃixa"],
       omx: ["ကၟာဲ", "həmoa"],
       pyx: ["kar", "karʔ"],

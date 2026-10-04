@@ -1032,7 +1032,7 @@ WORDS.one = {
     elx: ["𒆠𒅕", "kir"],
     xsa: ["𐩱𐩢𐩵", "ʔaħad"],
     kaw: ["ꦌꦏ", "eka"],
-    kho: ["𑀰𑁆𑀰𑀅𑀼", "ɕːau"],
+    kho: ["𑀰𑁆𑀰𑁅", "ɕau"],
     de_lut: ["eyn", "aɪ̯n"],
     gmh: ["ein", "ein"],
     es_sgl: ["uno", "ˈuno"],
@@ -1147,9 +1147,9 @@ WORDS.one = {
     omy: ["sa", "sa"],
     osn: ["hiji", "hidʒi"],
     h_tagalog: ["ᜁᜐ", "isa"],
-    zkt: {
+    zkt: { // r50 fix 2026-10-04: ipa was "omsu"; Aisin Gioro 2012 reads 𘬣 as am; no source found for "omsu" (r50 audit) — the alt below is kept but unverified
       form: "𘬣",
-      ipa:  "omsu",
+      ipa:  "am",
       alt: [
         { form: "omsu", script: "Latin (Kane 2009 reading)", source: "Kane (2009) Index of Graphs #026 — glossed ONE." },
       ],

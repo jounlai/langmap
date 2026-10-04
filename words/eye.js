@@ -1147,7 +1147,7 @@ WORDS.eye = {
     omy: ["mata", "mata"],
     osn: ["panon", "panon"],
     h_tagalog: ["ᜋᜆ", "mata"],
-    zkt: ["nït", "nit"],
+    zkt: ["—", "—"],
     juc: {
       form: "yasa",
       ipa:  "jasa",

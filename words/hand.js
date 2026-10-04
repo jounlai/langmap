@@ -1147,12 +1147,13 @@ WORDS.hand = {
     omy: ["tangan", "taŋan"],
     osn: ["leungeun", "lɯŋɯn"],
     h_tagalog: ["ᜃᜋᜌ᜔", "kamaj"],
-    zkt: ["ɣar", "ɣar"],
+    zkt: ["—", "—"],
     juc: {
       form: "gala",
       ipa:  "ɡala",
       alt: [
         { form: "噶剌", script: "Chinese-character transliteration", source: "女真譯語; 噶剌 = gala" },
+        // r50 note 2026-10-04: Kane 1975 entries 889 and 945 transcribe the characters as ha-la and reconstruct *gala; the form stays gala.
       ],
     },
     omx: ["တၟုိ", "toi"],

@@ -1040,7 +1040,7 @@ WORDS.i = {
       elx: ["𒌋", "u"],
       xsa: ["𐩱𐩬", "ʔana"],
       kaw: ["ꦄꦏꦸ", "aku"],
-      kho: ["aä", "aːə"],
+      kho: ["𑀅𑀬𑁆𑀲𑀼", "azu"],
       de_lut: ["ich", "ɪç"],
       gmh: ["ich", "ix"],
       es_sgl: ["yo", "ʝo"],

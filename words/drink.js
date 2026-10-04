@@ -1147,7 +1147,7 @@ WORDS.drink = {
     omy: ["minum", "minum"],
     osn: ["nginum", "ŋinum"],
     h_tagalog: ["ᜁᜈᜓᜋ᜔", "inom"],
-    zkt: ["umi", "umi"],
+    zkt: ["𘱑", "em"],
     juc: ["umi", "umi"],
     omx: ["သုက်", "sok"],
     pyx: ["—", "—"],

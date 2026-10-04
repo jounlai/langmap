@@ -851,7 +851,7 @@ WORDS.five = {
     omy: ["lima", "lima"],
     osn: ["lima", "lima"],
     h_tagalog: ["ᜎᜒᜋ", "liˈma"],
-    zkt: ["tau", "tau"],
+    zkt: ["𘬦", "tau"],
     juc: ["šunja", "ʃundʒa"],
     omx: ["မသုန်", "msun"],
     pyx: ["pəŋa", "pəŋa"],

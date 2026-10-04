@@ -1184,7 +1184,7 @@ WORDS.four = {
     chb: ["muyhyca", "mɨhɨka"],
     ave: ["𐬗𐬀𐬚𐬡𐬀𐬭", "tʃaθwar"],
     sog: ["ctfʾr", "tʃatfaːr"],
-    zkt: ["𘲃", "dur"],
+    zkt: ["𘲂", "dur"],
     xib: ["laur", "laur"],
     xag: ["bipʼ", "bipʼ"],
     zh_tang: ["四", "si"],

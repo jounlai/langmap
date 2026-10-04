@@ -1148,7 +1148,7 @@ WORDS.two = {
       omy: ["dua", "dua"],
       osn: ["dua", "dua"],
       h_tagalog: ["ᜇᜎᜏ", "dalaˈwa"],
-      zkt: ["jur", "dʒuːr"],
+      zkt: ["𘲝", "dʒur"],
       juc: ["jue", "dʒue"],
       omx: ["ၜါ", "ɓa"],
       pyx: ["kni", "kni"],

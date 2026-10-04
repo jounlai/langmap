@@ -1035,7 +1035,7 @@ WORDS.cat = {
     elx: ["𒋾𒅗𒊏", "tiɡra"],
     xsa: ["—", "—"],
     kaw: ["ꦩꦺꦴꦁ", "moŋ"],
-    kho: ["𑀰𑁆𑀰𑁆𑀭𑀅𑀼", "ʂʂarau"],
+    kho: ["𑀲𑀼𑀲𑀺", "susi"],
     de_lut: ["Katze", "ˈkatsə"],
     gmh: ["katze", "ˈkatsə"],
     es_sgl: ["gato", "ˈɡato"],

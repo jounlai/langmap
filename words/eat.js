@@ -1147,7 +1147,7 @@ WORDS.eat = {
     omy: ["makan", "makan"],
     osn: ["dahar", "dahar"],
     h_tagalog: ["ᜃᜁᜈ᜔", "kain"],
-    zkt: ["idi", "idi"],
+    zkt: ["—", "—"],
     juc: ["jefu", "dʒefu"],
     omx: ["စိ", "tɕiʔ"],
     pyx: ["cyaʔ", "tɕaʔ"],

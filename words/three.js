@@ -1081,7 +1081,7 @@ WORDS.three = {
     omy: ["tiga", "tiɡa"],
     osn: ["tilu", "tilu"],
     h_tagalog: ["ᜆᜆ᜔ᜎᜓ", "tatˈloʔ"],
-    zkt: ["𘯚", "hur"],
+    zkt: ["𘯙", "hur"],
     juc: ["ilan", "ilan"],
     omx: ["ပိ", "poi"],
     pyx: ["nhoḥ", "n.ho(m)H"],

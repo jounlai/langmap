@@ -1148,7 +1148,7 @@ WORDS.water = {
     omy: ["ayar", "ajar"],
     osn: ["cai", "tʃai"],
     h_tagalog: ["ᜆᜓᜊᜒᜄ᜔", "tubiɡ"],
-    zkt: ["muri", "muri"],
+    zkt: ["—", "—"],
     juc: {
       form: "muke",
       ipa:  "muke",

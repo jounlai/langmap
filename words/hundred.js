@@ -1116,7 +1116,7 @@ WORDS.hundred = {
     sog: ["st", "sat"],
     ko_em: ["ᄇᆡᆨ", "pɛk"],
     oko: ["百隱", "*on"],
-    zkt: ["爪", "dʒau"],
+    zkt: ["𘬕", "dʒau"],
     xag: ["baćʼ", "batɕʼ"],
     txg: ["𘊝", "ʔjir˧˥"],
     ko_gor: ["醞", "*on"],

@@ -1150,6 +1150,8 @@ WORDS.sleep = {
     blk: ["ဗေင်ႏ", "beŋ˥˥"],
     tsz: ["kʼuíni", "ˈkʰʷini"],
     xto: ["𑀓𑁆𑀮𑀺𑀲𑁆", "klis"],
-    txb: ["𑀓𑁆𑀮𑀦𑁆𑀢𑁆𑀲𑁆", "klənts"]
+    txb: ["𑀓𑁆𑀮𑀦𑁆𑀢𑁆𑀲𑁆", "klənts"],
+    czh_wy: ["睏", "kʰuɐin˧˥"],
+    wuu_hz: ["睏觉", "kʰuəŋ˦˦˥ tɕiɔ˦˦˥"]
   },
 };

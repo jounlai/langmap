@@ -1047,6 +1047,7 @@ WORDS.book = {
     pal: ["𐭭𐭠𐭬𐭪", "naːmaɡ"],
     xto: ["𑀧𑁄𑀲𑁆𑀢𑀓𑁆", "postak"],
     txb: ["𑀧𑁄𑀲𑁆𑀢𑀓𑁆", "postak"],
-    kaw: ["ꦥꦸꦱ꧀ꦠꦏ", "pustaka"]
+    kaw: ["ꦥꦸꦱ꧀ꦠꦏ", "pustaka"],
+    nan_hai: ["册", "sɛ˥˥"]
   }
 };

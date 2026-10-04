@@ -806,7 +806,7 @@ WORDS.butterfly = {
     wuu_jh: ["蝴蝶", "u˧˩˧ dia˩˦"],
     zh_jn: ["蝴蝶", "xu˦˨ tiə˦˨"],
     zh_km: ["蝴蝶", "xu˧˩ tie˧˩"],
-    zh_hf: ["蝴蝶", "xʉ˦˥ tʰiɐʔ˦"],
+    // zh_hf butterfly removed 2026-10-04 (r50): r47 read it from the MCPDict 合肥 table, which matches this row only 29% (the row writes 陽平 as ˥˥, the table 45); was ["蝴蝶", "xʉ˦˥ tʰiɐʔ˦"]
     es_pr: ["mariposa", "maɾiˈposa"],
     pt_ao: ["borboleta", "buɾbuˈletɐ"],
     en_ke: ["butterfly", "ˈbʌtəflaɪ"],
@@ -857,6 +857,8 @@ WORDS.butterfly = {
     xct_litpr: ["ཕྱེ་མ་ལེབ", "pʰje ma leb"],
     xqa: ["käpäli", "kæpæli"],
     qwc: ["pillpintu", "piʎpintu"],
-    och: ["胡蝶", "*[ɡ]ˤa lˤep"]
+    och: ["胡蝶", "*[ɡ]ˤa lˤep"],
+    czh_wy: ["蒲翼", "pʰu˩˩ iɔ˥˩"],
+    en_jam: ["butterfly", "ˈbɵtəflaɪ"]
   },
 };

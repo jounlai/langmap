@@ -763,6 +763,9 @@ WORDS.silk = {
     sog: ["cγnh", "tʃaɣnaː"],
     pal: ["𐭠𐭯𐭫𐭩𐭱𐭥𐭬", "abreːʃom"],
     kaw: ["ꦱꦸꦠꦿ", "sutra"],
-    okz: ["សូត្រ", "suːt"]
+    okz: ["សូត្រ", "suːt"],
+    nan_ph: ["絲", "si˧˧"],
+    en_jam: ["silk", "sɪlk"],
+    sms: ["šolkk", "ʃolkː"]
   }
 };

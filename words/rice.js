@@ -830,6 +830,9 @@ WORDS.rice = {
     xto: ["𑀓𑁆𑀮𑀼", "klu"],
     txb: ["𑀓𑁆𑀮𑀼", "klu"],
     kaw: ["ꦧꦿꦱ꧀", "bras"],
-    okz: ["តន្ទុល", "ɗandʊl"]
+    okz: ["តន្ទុល", "ɗandʊl"],
+    en_jam: ["rice", "ɹaɪs"],
+    ar_ye: ["رز", "rizz"],
+    sms: ["riss", "risː"]
   }
 };

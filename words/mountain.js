@@ -1068,6 +1068,8 @@ WORDS.mountain = {
     txb: ["𑀱𑀮𑁂", "ʂale"],
     xsa: ["𐩲𐩧", "ʕar"],
     phn: ["𐤄𐤓", "har"],
-    kho: ["𑀕𑀭", "ɡara"]
+    kho: ["𑀕𑀭", "ɡara"],
+    en_est: ["mountain", "ˈmæʊnʔən"],
+    en_geordie: ["mountain", "ˈmuːntɪn"]
   }
 };

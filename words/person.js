@@ -1098,6 +1098,8 @@ WORDS.person = {
     xto: ["𑀦𑀧𑁂𑀁", "napem"],
     txb: ["𑀰𑁅𑀫𑁄", "ɕau̯mo"],
     xpu: ["𐤍𐤐𐤔", "nefeʃ"],
-    xsa: ["𐩱𐩬𐩪", "ʔins"]
+    xsa: ["𐩱𐩬𐩪", "ʔins"],
+    en_jam: ["person", "ˈpɜːsən"],
+    ar_ye: ["شخص", "ʃaxsˤ"]
   }
 };

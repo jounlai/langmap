@@ -1130,6 +1130,7 @@ WORDS.daughter = {
     txg: ["𘇾", "dʑji˧˥"],
     juc: ["saran jui", "saran dʒui"],
     zkt: ["𘬝 𘮽𘯛", "mo boqo"],
-    kho: ["𑀤𑀽𑀢", "duːta"]
+    kho: ["𑀤𑀽𑀢", "duːta"],
+    wuu_jx: ["囡儿", "nɤə˧˩ ŋ̍˧˩"]
   },
 };

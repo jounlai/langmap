@@ -1173,6 +1173,7 @@ WORDS.mouth = {
     ave: ["𐬁𐬵", "aːh"],
     xsa: ["𐩰𐩣", "fam"],
     okz: ["មត", "mat"],
-    kho: ["𑀢𑁆𑀢𑀼𑀭𑁆𑀭", "tːurːa"]
+    kho: ["𑀢𑁆𑀢𑀼𑀭𑁆𑀭", "tːurːa"],
+    ar_ye: ["فم", "fam"]
   }
 };

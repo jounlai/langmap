@@ -1113,7 +1113,7 @@ WORDS.mouth = {
     psem: ["*pay-", "paj"],
     pura: ["*śuwe", "ɕuwe"],
     p_dra: ["*wāy", "waːj"],
-    zh_tang: ["口", "kʰəuX"],
+    zh_tang: ["口", "kʰəw"],
     zh_wenyan_edu: ["口", "hɐu˧˥"],
     txg: ["𗋈", "ŋwu˧˥"],
     nci: ["camatl", "kamatɬ"],

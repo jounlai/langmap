@@ -667,7 +667,7 @@ WORDS.dog = {
     zh_song: ["犬", "kʰiuɛn"],
     zh_wenyan_edu: ["犬", "hyn˧˥"],
     zh_han: ["犬", "kʰiuɛn"],
-    zh_tang: ["犬", "kʰiuɛnX"],
+    zh_tang: ["犬", "kʰwɛn"],
     ja_edo: ["犬", "inɯ"],
     ja_kanbun: ["犬", "inɯ"],
     ja_heian: ["犬", "inu"],

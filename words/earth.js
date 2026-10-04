@@ -116,7 +116,7 @@ WORDS.earth = {
     hak_cn: ["土", "tʰu˧˩"],
     hak_tw: ["土", "tʰu˧˩"],
     och: ["土", "*tʰˤaʔ"],
-    zh_tang: ["土", "tʰuX"],
+    zh_tang: ["土", "tʰɔ"],
     zh_wenyan_edu: ["土", "tʰou˧˥"],
     vi: ["đất", "ɗət˧˥"],
     vi_c: ["đất", "ɗət˧˥"],

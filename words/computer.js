@@ -422,7 +422,7 @@ WORDS.computer = {
     "zh_nj": ["电脑", "tiɛn˦ nɔ˨˩˨"],
     "zh_sc": ["电脑", "tiɛn˨˩˧ nau˥˧"],
     "zh_song": ["算盤", "suɔn pʰuɔn"],
-    "zh_tang": ["籌", "ɖɨu"],
+    "zh_tang": ["籌", "ɖuw"],
     "zh_tj": ["电脑", "tiɛn˥˧ nau˩˧"],
     "zh_wenyan_edu": ["算盤", "syːn˧ pʰuːn˨˩"],
     "zh_wh": ["电脑", "tiɛn˧˥ nau˦˨"],

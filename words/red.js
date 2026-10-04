@@ -600,7 +600,7 @@ WORDS.red = {
     zh_song: ["紅", "xuŋ"],
     zh_wenyan_edu: ["赤", "tsʰɛːk̚˧"],
     zh_han: ["赤", "tɕʰek"],
-    zh_tang: ["赤", "tɕʰiɛk"],
+    zh_tang: ["赤", "cʰiajk"],
     ja_edo: ["赤い", "akai"],
     ja_kanbun: ["赤し", "akaɕi"],
     ja_heian: ["赤し", "akaɕi"],

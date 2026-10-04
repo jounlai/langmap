@@ -1021,7 +1021,7 @@ WORDS.person = {
     p_sit: ["*r-mi(y)-n", "r-mi(j)-n"],
     psem: ["*ʔināš-", "ʔinaːʃ"],
     p_dra: ["*āḷ", "aːɭ"],
-    zh_tang: ["人", "ȵiɪn"],
+    zh_tang: ["人", "ȵin"],
     zh_wenyan_edu: ["人", "jɐn˨˩"],
     xct: ["མི", "mi"],
     xct_litpr: ["མི", "mi"],

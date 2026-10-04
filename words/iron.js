@@ -765,7 +765,7 @@ WORDS.iron = {
     yue_zs: ["鐵", "tʰit˧"],
     cnp: ["铁", "tʰit˨"],
     och: ["鐵", "*l̥ˤik"],
-    zh_tang: ["鐵", "tʰet"],
+    zh_tang: ["鐵", "tʰɛt"],
     zh_song: ["鐵", "tʰiɛ"],
     zh_wenyan_edu: ["鐵", "tʰiːt˧"],
     vi_han: ["鐵", "tʰiət˧˥"],

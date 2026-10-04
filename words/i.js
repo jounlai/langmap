@@ -667,7 +667,7 @@ WORDS.i = {
       zh_song: ["我", "ŋɔ"],
       zh_wenyan_edu: ["我", "ŋɔ˩˧"],
       zh_han: ["我", "ŋɑiˀ"],
-      zh_tang: ["我", "ŋɑ˧˩"],
+      zh_tang: ["我", "ŋa"],
       ja_edo: ["私", "wataɕi"],
       ja_kanbun: ["我", "ware"],
       ja_heian: ["我", "waɾe"],

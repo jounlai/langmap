@@ -608,7 +608,7 @@ WORDS.fish = {
     zh_song: ["魚", "iu"],
     zh_wenyan_edu: ["魚", "jyː˨˩"],
     zh_han: ["魚", "ŋa"],
-    zh_tang: ["魚", "ŋiɔ"],
+    zh_tang: ["魚", "ŋɨə̆"],
     ja_edo: ["魚", "sakana"],
     ja_kanbun: ["魚", "uo"],
     ja_heian: ["魚", "iwo"],

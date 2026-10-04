@@ -434,7 +434,7 @@ WORDS.nose = {
     zh_song: ["鼻", "pi"],
     zh_wenyan_edu: ["鼻", "pei˨"],
     zh_han: ["鼻", "bis"],
-    zh_tang: ["鼻", "biɪ"],
+    zh_tang: ["鼻", "bi"],
     ja_edo: ["鼻", "hana"],
     ja_kanbun: ["鼻", "hana"],
     ja_heian: ["鼻", "ɸana"],

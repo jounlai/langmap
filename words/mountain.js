@@ -992,7 +992,7 @@ WORDS.mountain = {
     p_sit: ["*s-gaŋ", "s-ɡaŋ"],
     paus: ["*bukij", "bukij"],
     och: ["山", "*s-ŋrar"],
-    zh_tang: ["山", "ʃˠɛn"],
+    zh_tang: ["山", "ʂəɨn"],
     zh_wenyan_edu: ["山", "saːn˥"],
     xqa: ["tağ", "taɣ"],
     ar_qur: ["جبل", "dʒabal"],

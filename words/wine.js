@@ -1594,7 +1594,7 @@ WORDS.wine = {
     zh_hf: ["葡萄酒", "pʰu˥˥ tʰɔ˥˥ tɕiɯ˨˦"],
     zh_kf: ["葡萄酒", "pʰu˦˨ tʰau˦˨ tɕiəu˥˧"],
     zh_nj: ["葡萄酒", "pʰu˨˦ tʰɔ˨˦ tɕiəu˨˩˨"],
-    zh_tang: ["葡萄酒", "buo dɑu tsiuX"],
+    zh_tang: ["葡萄酒", "bɔ daw tsuw"], // was ["葡萄酒", "buo dɑu tsiuX"] (zh_tang rebuild 2026-10-04)
 
     // --- Austronesian — missionary wine loan, or Malay anggur ---
     jvn: ["anggur", "aŋɡur"],

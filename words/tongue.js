@@ -605,7 +605,7 @@ WORDS.tongue = {
     zh_song: ["舌", "ʂiɛ"],
     zh_wenyan_edu: ["舌", "siːt˨"],
     zh_han: ["舌", "məlat"],
-    zh_tang: ["舌", "dʑiɛt"],
+    zh_tang: ["舌", "ʑiat"],
     ja_edo: ["舌", "ɕita"],
     ja_kanbun: ["舌", "ɕita"],
     ja_heian: ["舌", "sita"],

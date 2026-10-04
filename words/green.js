@@ -975,7 +975,7 @@ WORDS.green = {
     pura: ["*wiša", "wiʃa"],
     p_dra: ["*pac-", "patʃ"],
     och: ["綠", "*pə.rok"],
-    zh_tang: ["綠", "lɨok"],
+    zh_tang: ["綠", "luawk"],
     zh_wenyan_edu: ["綠", "lʊk˨"],
     xct: ["ལྗང་ཁུ", "ldʑaŋkʰu"],
     xct_litpr: ["ལྗང་ཁུ", "ldʑaŋkʰu"],

@@ -321,7 +321,7 @@ WORDS.cuckoo = {
     zh_song: ["布穀", "pu ku"],
     zh_wenyan_edu: ["布穀", "pou˧ kʊk˥"],
     zh_han: ["布穀", "pɑs kok"],
-    zh_tang: ["布穀", "puoH kuwk"],
+    zh_tang: ["布穀", "pɔ kəwk"],
     ja_edo: ["ほととぎす", "hototoɡisɯ"],
     ja_kanbun: ["杜鵑", "hototoɡisɯ"],
     ja_heian: ["ほととぎす", "ɸototoɡisu"],

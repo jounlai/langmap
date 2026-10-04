@@ -659,7 +659,7 @@ WORDS.mother = {
     zh_song: ["母", "mu"],
     zh_wenyan_edu: ["母", "mou˩˧"],
     zh_han: ["母", "muːʔ"],
-    zh_tang: ["母", "muX"],
+    zh_tang: ["母", "məw"],
     ja_edo: ["おっかさん", "okkasaɴ"],
     ja_kanbun: ["母", "haha"],
     ja_heian: ["母", "ɸaɸa"],

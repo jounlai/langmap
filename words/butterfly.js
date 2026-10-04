@@ -787,7 +787,7 @@ WORDS.butterfly = {
     en_em: ["butterfly", "ˈbʊtərfləi"],
     p_hmx: ["*mpleuᴴ", "mpleu"],
     zh_wenyan_edu: ["胡蝶", "wu˨˩ tiːp˨"],
-    zh_tang: ["胡蝶", "ɦuo dep"],
+    zh_tang: ["胡蝶", "ɦɔ dɛp"],
     ja_kanbun: ["胡蝶", "kotɕoː"],
     ko_mid: ["나·ᄇᆡ", "napʌj"],
     ptrk: ["*kepelek", "kepelek"],

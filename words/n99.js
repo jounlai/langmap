@@ -1376,7 +1376,7 @@ WORDS.n99 = {
                     { form: "九十又九", script: "金文 (Zhou bronze)",
                       source: "齊侯鎛 (Spring and Autumn): 邑二百又九十又九邑 = 299 邑" }
                   ] },
-    zh_tang:    ["九十九", "kɨuX ʑip kɨuX"],
+    zh_tang: ["九十九", "kuw dʑip kuw"], // was ["九十九", "kɨuX ʑip kɨuX"] (zh_tang rebuild 2026-10-04)
     xct:        ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
     xct_litpr:  ["དགུ་བཅུ་གོ་དགུ", "dɡu btɕu ɡo dɡu"],
     bo:         ["དགུ་བཅུ་གོ་དགུ", "ku˥tɕu˥ ko˥ ku˥"],

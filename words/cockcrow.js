@@ -454,7 +454,7 @@ WORDS.cockcrow = {
     ja_heian: ["かけろ", "kakero"],
     ja_chu: ["かげんろ", "kaɡeɴro"],
     ja_edo: ["とうてんこう", "toːteɴkoː"],
-    zh_tang: ["喈喈", "keaj keaj"],
+    zh_tang: ["喈喈", "kəɨj kəɨj"],
     zh_wenyan_edu: ["喈喈", "kaːi˥ kaːi˥"],
     en_em: ["cockadidle-dowe", "kɒk ə ˈdɪdəl doː"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],

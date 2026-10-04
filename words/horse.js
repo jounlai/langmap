@@ -1011,7 +1011,7 @@ WORDS.horse = {
     pmng: ["*morïn", "morin"],
     p_toc: ["*yäkwe", "jəkwe"],
     ptai: ["*maː", "maː"],
-    zh_tang: ["馬", "mˠaX"],
+    zh_tang: ["馬", "maɨ"],
     zh_wenyan_edu: ["馬", "maː˩˧"],
     xct_litpr: ["རྟ", "rta"],
     txg: ["𘆝", "rjijr˧"],

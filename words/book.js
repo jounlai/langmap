@@ -988,7 +988,7 @@ WORDS.book = {
     emy: ["huun", "huːn"],
     xag: ["ǰipʼ", "dʒipʼ"],
     och: ["書", "*s-ta"],
-    zh_tang: ["書", "ɕɨʌ"],
+    zh_tang: ["書", "ɕɨə̆"],
     zh_wenyan_edu: ["書", "syː˥"],
     xct: ["དཔེ་ཆ", "dpe tɕʰa"],
     xct_litpr: ["དཔེ་ཆ", "dpe tɕʰa"],

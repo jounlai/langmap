@@ -670,7 +670,7 @@ WORDS.father = {
     zh_song: ["父", "fu"],
     zh_wenyan_edu: ["父", "fu˨"],
     zh_han: ["父", "biuoʔ"],
-    zh_tang: ["父", "bɨoX"],
+    zh_tang: ["父", "buə̆"],
     ja_edo: ["おとっつぁん", "otottsaɴ"],
     ja_kanbun: ["父", "tɕitɕi"],
     ja_heian: ["父", "titi"],

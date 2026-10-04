@@ -110,7 +110,7 @@ WORDS.wind = {
     p_toc: ["*wyente", "wjente"],   // Wiktionary PT (Adams 2013); A want/wänt, B yente
     p_ryu: ["*kaze", "kaze"],
     och: ["風", "*prəm"],
-    zh_tang: ["風", "pjuŋ"],
+    zh_tang: ["風", "puwŋ"],
     zh_wenyan_edu: ["風", "fʊŋ˥"],
     vi_han: ["風", "fɔŋ͡m˧˧"],
     ja: ["風", "kaze"],

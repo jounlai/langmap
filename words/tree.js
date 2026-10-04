@@ -667,7 +667,7 @@ WORDS.tree = {
     zh_song: ["木", "mu"],
     zh_wenyan_edu: ["木", "mʊk˨"],
     zh_han: ["木", "muok"],
-    zh_tang: ["木", "muk"],
+    zh_tang: ["木", "məwk"],
     ja_edo: ["木", "ki"],
     ja_kanbun: ["木", "ki"],
     ja_heian: ["木", "kï"],

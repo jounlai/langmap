@@ -569,7 +569,7 @@ WORDS.wheel = {
     och: ["輪", "*[r]u[n]"],
     kaw: ["ꦕꦏꦿ", "tʃakra"],
     ko_mid: ["바·회", "pahoj"],
-    zh_tang: ["輪", "liuɪn"],
+    zh_tang: ["輪", "lwin"],
     hit: ["𒄷𒌨𒆠𒅖", "xurkiʃ"],
     uga: ["𐎀𐎔𐎐", "ʔaːpanu"],
     oar: ["גלגל", "ɡalɡal"],

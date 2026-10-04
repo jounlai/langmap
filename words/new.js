@@ -364,7 +364,7 @@ WORDS.new = {
     hch: ["hekwa", "hekʷa"],
     ppl: ["yankwik", "jaŋkʷik"],
     zh_wenyan_edu: ["新", "sɐn˥"],
-    zh_tang: ["新", "siɪn"],
+    zh_tang: ["新", "sin"],
     vi_nom: ["𡤔", "mɤːj˧˥"],
     eo: ["nova", "ˈnova"],
     ia: ["nove", "ˈnove"],

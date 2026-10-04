@@ -1187,7 +1187,7 @@ WORDS.four = {
     zkt: ["𘲃", "dur"],
     xib: ["laur", "laur"],
     xag: ["bipʼ", "bipʼ"],
-    zh_tang: ["四", "siɪH"],
+    zh_tang: ["四", "si"],
     otk: ["𐱅𐰇𐰼𐱅", "tørt"],
     tpn: ["oîoirundyk", "ɔjɔiɾũˈⁿdɨk"],
     txg: ["𗥃", "ljɨr˧"],

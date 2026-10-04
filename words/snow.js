@@ -458,7 +458,7 @@ WORDS.snow = {
     zh_song: ["雪", "siuɛ"],
     zh_wenyan_edu: ["雪", "syːt˧"],
     zh_han: ["雪", "suɑt"],
-    zh_tang: ["雪", "sɥiɛt"],
+    zh_tang: ["雪", "swiat"],
     ja_edo: ["雪", "jɯki"],
     ja_kanbun: ["雪", "jɯki"],
     ja_heian: ["雪", "juki"],

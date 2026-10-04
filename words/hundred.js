@@ -244,7 +244,7 @@ WORDS.hundred = {
 
     // --- Sinitic and Sinoxenic ---------------------------------------------
     och: ["百", "*pˤrak"],
-    zh_tang: ["百", "pˠæk"],
+    zh_tang: ["百", "paɨjk"],
 
     // --- Sinitic — 百 is 陰入, and 白 is its 陽入 minimal pair -----------
     // Every tone below is that row's own value for 陰入, read off its 骨

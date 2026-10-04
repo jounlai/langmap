@@ -660,7 +660,7 @@ WORDS.star = {
       zh_song: ["星", "siəŋ"],
       zh_wenyan_edu: ["星", "sɪŋ˥"],
       zh_han: ["星", "seŋ"],
-      zh_tang: ["星", "sɛjŋ˧"],
+      zh_tang: ["星", "sɛjŋ"],
       ja_edo: ["星", "hoɕi"],
       ja_kanbun: ["星", "hoɕi"],
       ja_heian: ["星", "ɸosi"],

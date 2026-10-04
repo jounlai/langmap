@@ -446,7 +446,7 @@ WORDS.bird = {
     zh_song: ["—", "—"],
     zh_wenyan_edu: ["鳥", "niːu˩˧"],
     zh_han: ["鳥", "teuʔ"],
-    zh_tang: ["鳥", "teu"],
+    zh_tang: ["鳥", "tɛw"],
     ja_edo: ["鳥", "toɾi"],
     ja_kanbun: ["鳥", "toɾi"],
     ja_heian: ["鳥", "toɾi"],

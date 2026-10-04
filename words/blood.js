@@ -603,7 +603,7 @@ WORDS.blood = {
     zh_song: ["血", "xiɛ"],
     zh_wenyan_edu: ["血", "hyːt˧"],
     zh_han: ["血", "m̥ˤik"],
-    zh_tang: ["血", "xwet"],
+    zh_tang: ["血", "hwɛt"],
     ja_edo: ["血", "tɕi"],
     ja_kanbun: ["血", "tɕi"],
     ja_heian: ["血", "ti"],

@@ -490,7 +490,7 @@ WORDS.five = {
     zh_song: ["五", "u"],
     zh_wenyan_edu: ["五", "ŋ̍˩˧"],
     zh_han: ["五", "ŋɑʔ"],
-    zh_tang: ["五", "ŋuo˩˧"],
+    zh_tang: ["五", "ŋɔ"],
     ja_edo: ["五", "ɡo"],
     ja_kanbun: ["五", "itsutsu"],
     ja_heian: ["五つ", "itutu"],

@@ -660,7 +660,7 @@ WORDS.water = {
     zh_song: ["水", "ʂui"],
     zh_wenyan_edu: ["水", "sɵy˧˥"],
     zh_han: ["水", "ɕiwiɪʔ"],
-    zh_tang: ["水", "ɕyɪX"],
+    zh_tang: ["水", "ɕwi"],
     ja_edo: ["水", "midzɯ"],
     ja_kanbun: ["水", "mizɯ"],
     ja_heian: ["水", "midu"],

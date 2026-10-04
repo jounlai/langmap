@@ -1724,7 +1724,7 @@ WORDS.we = {
     zh_song: ["我等", "ŋɔ təŋ"], // was ["我等", "ŋɔ˧˩ təŋ˧˩"] (zh_song rebuild 2026-10-04)
     zh_wenyan_edu: ["我等", "ŋɔ˩˧ tɐŋ˧˥"],
     zh_han: ["我等", "ŋɑiˀ təŋˀ"],
-    zh_tang: ["我等", "ŋɑ˧˩ təŋ˧˩"],
+    zh_tang: ["我等", "ŋa təŋ"], // was ["我等", "ŋɑ˧˩ təŋ˧˩"] (zh_tang rebuild 2026-10-04)
     ja_edo: ["私共", "wataɕidomo"],
     ja_kanbun: ["我等", "waɾeɾa"],
     ja_heian: ["我等", "waɾeɾa"],

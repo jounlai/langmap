@@ -666,7 +666,7 @@ WORDS.eye = {
     zh_song: ["目", "mu"],
     zh_wenyan_edu: ["目", "mʊk˨"],
     zh_han: ["目", "miuk"],
-    zh_tang: ["目", "muk"],
+    zh_tang: ["目", "muwk"],
     ja_edo: ["目", "me"],
     ja_kanbun: ["目", "me"],
     ja_heian: ["目", "me"],

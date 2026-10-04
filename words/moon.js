@@ -659,7 +659,7 @@ WORDS.moon = {
     zh_song: ["月", "iuɛ"],
     zh_wenyan_edu: ["月", "jyt˨"],
     zh_han: ["月", "ŋiuɑt"],
-    zh_tang: ["月", "ŋʉɐt"],
+    zh_tang: ["月", "ŋuat"],
     ja_edo: ["月", "tsɯki"],
     ja_kanbun: ["月", "tsɯki"],
     ja_heian: ["月", "tukï"],

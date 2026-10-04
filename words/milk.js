@@ -1070,7 +1070,7 @@ WORDS.milk = {
     cmg: ["ᠰᠦᠨ", "syn"],
     p_viet: ["*p-rah", "p-rah"],
     pura: ["*lüpsä", "lypsæ"],
-    zh_tang: ["乳", "ȵɨoX"],
+    zh_tang: ["乳", "ȵuə̆"],
     gan_ja: ["牛奶", "ȵiu˩˩ lai˥˧"],
     gan_fz: ["牛奶", "ŋɛu˨˦ lai˧˥"],
     cjy_xz: ["牛奶", "niəu˧˩ næ˧˩˧"],

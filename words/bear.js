@@ -1761,7 +1761,7 @@ WORDS.bear = {
     bzg: ["choma", "tʃoma"],
     ptai: ["*ʰmwɯj", "ʰmwɯj"],
     och: ["熊", "*C.[ɢ]ʷ(r)əm"],
-    zh_tang: ["熊", "hjuwng"],
+    zh_tang: ["熊", "ɦuwŋ"], // was ["熊", "hjuwng"] (zh_tang rebuild 2026-10-04)
     aii: ["ܕܒܐ", "dɪbba"],
     tru: ["ܕܒܐ", "debo"],
     ht: ["lous", "lus"],

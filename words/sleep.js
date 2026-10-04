@@ -398,7 +398,7 @@ WORDS.sleep = {
     zh_song: ["睡", "ʂui"],
     zh_wenyan_edu: ["寐", "mei˨"],
     zh_han: ["寐", "mis"],
-    zh_tang: ["眠", "men"],
+    zh_tang: ["眠", "mɛn"],
     ja_edo: ["寢る", "neɾɯ"],
     ja_kanbun: ["寢ぬ", "inɯ"],
     ja_heian: ["寢", "nu"],

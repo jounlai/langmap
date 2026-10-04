@@ -113,7 +113,7 @@ WORDS.ear = {
     egy: ["𓅓𓋴𓆓𓂋", "mesedʒer"],
     cop: ["ⲙⲁⲁϫⲉ", "maːdʒe"],
     och: ["耳", "*C.nəʔ"],
-    zh_tang: ["耳", "ɲiX"],
+    zh_tang: ["耳", "ȵɨ"],
     zh_wenyan_edu: ["耳", "jiː˩˧"],
     ojp: ["耳", "mimi"],
     p_ine: ["*h₂ṓws", "h₂oːws"],

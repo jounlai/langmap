@@ -440,7 +440,7 @@ WORDS.daughter = {
     zh_cq: ["女儿", "ny˦˨ ɚ˨˩"],
     yue_zs: ["女", "ny˨˩˧"],
     zh_wenyan_edu: ["女", "nɵy˩˧"],
-    zh_tang: ["女", "nrjoX"],
+    zh_tang: ["女", "ɳɨə̆"],
     och: ["女", "*nraʔ"],
     vi_han: ["女", "nɨ˧˧ˀ˥"],
     ja_osa: ["娘", "mɯsɯme"],

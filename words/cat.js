@@ -662,7 +662,7 @@ WORDS.cat = {
     zh_song: ["貓", "mau"],
     zh_wenyan_edu: ["貓", "mau˥"],
     zh_han: ["貓", "mau"],
-    zh_tang: ["貓", "mæw"],
+    zh_tang: ["貓", "maɨw"],
     ja_edo: ["貓", "neko"],
     ja_kanbun: ["貓", "neko"],
     ja_heian: ["貓", "neko"],

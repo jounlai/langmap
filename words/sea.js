@@ -981,7 +981,7 @@ WORDS.sea = {
     pkar: ["*zoɣwa-", "zoɣwa"],
     puaz: ["*mɨma", "mɨma"],
     psem: ["*tihām-", "tihaːm"],
-    zh_tang: ["海", "hʌiX"],
+    zh_tang: ["海", "həj"],
     zh_wenyan_edu: ["海", "hɔːi˧˥"],
     xct: ["རྒྱ་མཚོ", "rɡja mtsʰo"],
     xct_litpr: ["རྒྱ་མཚོ", "rɡja mtsʰo"],

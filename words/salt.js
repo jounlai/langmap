@@ -631,7 +631,7 @@ WORDS.salt = {
     wuu_hz: ["盐", "ɦiᴇ̃˨˩˧"],
     dng: ["ян", "jan˨˦"],
     och: ["鹽", "*[ɢr][o]m"],
-    zh_tang: ["鹽", "jiᴇm"],
+    zh_tang: ["鹽", "jiam"],
     p_sit: ["*g-rjum", "g-rjum"],
 
 

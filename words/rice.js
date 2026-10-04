@@ -740,7 +740,7 @@ WORDS.rice = {
     ja_heian: ["米", "kome"],
     ja_edo: ["米", "kome"],
     zh_wenyan_edu: ["米", "mɐi˩˧"],
-    zh_tang: ["米", "meiX"],
+    zh_tang: ["米", "mɛj"],
     ja_kanbun: ["米", "kome"],
     ja_chu: ["米", "kome"],
     ojp: ["米", "kəmey"],

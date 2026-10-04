@@ -357,7 +357,7 @@ WORDS.head = {
     hch: ["muʼú", "muˈʔu"],
     ppl: ["tzuntekun", "tsuntekun"],
     zh_wenyan_edu: ["首", "sɐu˧˥"],
-    zh_tang: ["頭", "dəu"],
+    zh_tang: ["頭", "dəw"],
     vi_nom: ["頭", "ɗəw˨˩"],
     eo: ["kapo", "ˈkapo"],
     ia: ["capite", "ˈkapite"],

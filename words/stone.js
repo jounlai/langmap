@@ -461,7 +461,7 @@ WORDS.stone = {
     zh_song: ["石", "ʂi"],
     zh_wenyan_edu: ["石", "sɛːk˨"],
     zh_han: ["石", "dʑak"],
-    zh_tang: ["石", "ʑiᴇk"],
+    zh_tang: ["石", "dʑiajk"],
     ja_edo: ["石", "iɕi"],
     ja_kanbun: ["石", "iɕi"],
     ja_heian: ["石", "isi"],

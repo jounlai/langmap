@@ -666,7 +666,7 @@ WORDS.drink = {
     zh_song: ["飲", "iəm"],
     zh_wenyan_edu: ["飲", "jɐm˧˥"],
     zh_han: ["飲", "ʔiəm"],
-    zh_tang: ["飲", "ʔimX"],
+    zh_tang: ["飲", "ʔjim"],
     ja_edo: ["飲む", "nomu"],
     ja_kanbun: ["飲む", "nomɯ"],
     ja_heian: ["飲む", "nomu"],

@@ -667,7 +667,7 @@ WORDS.two = {
       zh_song: ["二", "ɽʅ"],
       zh_wenyan_edu: ["二", "jiː˨"],
       zh_han: ["二", "ȵis"],
-      zh_tang: ["二", "ȵʑi˥˩"],
+      zh_tang: ["二", "ȵi"],
       ja_edo: ["二", "ɲi"],
       ja_kanbun: ["二", "ɲi"],
       ja_heian: ["二", "ɸutatu"],

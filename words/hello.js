@@ -661,7 +661,7 @@ WORDS.hello = {
     zh_song: ["萬福", "ʋan fu"],
     zh_wenyan_edu: ["萬福", "man˨ fʊk˥"],
     zh_han: ["萬福", "miuɑn piuk"],
-    zh_tang: ["萬福", "mʉɐnH piuk"],
+    zh_tang: ["萬福", "muan puwk"],
     ja_edo: ["御機嫌よう", "ɡokiɡeɴjoː"],
     ja_kanbun: ["拝啓", "haikei"],
     ja_heian: ["あなかしこ", "anakasiko"],

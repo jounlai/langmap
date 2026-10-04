@@ -666,7 +666,7 @@ WORDS.hand = {
     zh_song: ["手", "ʂiəu"],
     zh_wenyan_edu: ["手", "sɐu˧˥"],
     zh_han: ["手", "ɕiuʔ"],
-    zh_tang: ["手", "ɕɨuX"],
+    zh_tang: ["手", "ɕuw"],
     ja_edo: ["手", "te"],
     ja_kanbun: ["手", "te"],
     ja_heian: ["手", "te"],

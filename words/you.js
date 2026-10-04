@@ -667,7 +667,7 @@ WORDS.you = {
       zh_song: ["汝", "ɽiu"],
       zh_wenyan_edu: ["汝", "jyː˩˧"],
       zh_han: ["汝", "ȵɑˀ"],
-      zh_tang: ["汝", "ɲɨə˧˩"],
+      zh_tang: ["汝", "ȵɨə̆"],
       ja_edo: ["お前", "omae"],
       ja_kanbun: ["汝", "nandʑi"],
       ja_heian: ["汝", "nare"],

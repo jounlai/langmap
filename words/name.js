@@ -667,7 +667,7 @@ WORDS.name = {
       zh_song: ["名", "miəŋ"],
       zh_wenyan_edu: ["名", "mɪŋ˨˩"],
       zh_han: ["名", "mieŋ"],
-      zh_tang: ["名", "miɛjŋ˧"],
+      zh_tang: ["名", "miajŋ"],
       ja_edo: ["名前", "namae"],
       ja_kanbun: ["名", "na"],
       ja_heian: ["名", "na"],

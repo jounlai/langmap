@@ -657,7 +657,7 @@ WORDS.sun = {
     paus: ["*waRi", "waRi"],
     zh_song: ["日", "ɽi"],
     zh_wenyan_edu: ["日", "jɐt˨"],
-    zh_han: ["日", "ȵit"],
+    zh_han: ["日", "ńǝt"],
     zh_tang: ["日", "ȵit"],
     ja_edo: ["日", "hi"],
     ja_kanbun: ["日", "hi"],

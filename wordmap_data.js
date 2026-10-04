@@ -2010,7 +2010,8 @@ const LANG_DATA = {
   // distinctions than Mandarin (tonal contrasts, final consonants -k/-t/-p).
   zh_wenyan_edu: { name: "Cantonese-read Classical Chinese", native: "粵音文言文", lat: 22.32, lng: 114.17, // Hong Kong
 },
-  zh_han: { name: 'Han Chinese', native: "漢代漢語", lat: 34.26, lng: 108.94,
+  // zh_han 2026-10-04: cells now Starostin's Eastern Han readings (StarLing); pin moved from Chang'an to Luoyang, the Eastern Han capital.
+  zh_han: { name: 'Han Chinese', native: "漢代漢語", lat: 34.62, lng: 112.45,
 },
   zh_tang: { name: 'Tang Chinese', native: "唐代漢語", lat: 34.26, lng: 108.94,
 },

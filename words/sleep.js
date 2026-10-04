@@ -397,7 +397,7 @@ WORDS.sleep = {
     paus: ["*tuduR", "tuduR"],
     zh_song: ["睡", "ʂui"],
     zh_wenyan_edu: ["寐", "mei˨"],
-    zh_han: ["寐", "mis"],
+    zh_han: ["寐", "m(h)jǝś"],
     zh_tang: ["眠", "mɛn"],
     ja_edo: ["寢る", "neɾɯ"],
     ja_kanbun: ["寢ぬ", "inɯ"],

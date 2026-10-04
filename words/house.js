@@ -658,7 +658,7 @@ WORDS.house = {
     paus: ["*Rumaq", "Rumaq"],
     zh_song: ["屋", "u"],
     zh_wenyan_edu: ["屋", "ʊk˥"],
-    zh_han: ["屋", "ʔuok"],
+    zh_han: ["屋", "ʔōk"],
     zh_tang: ["屋", "ʔəwk"],
     ja_edo: ["家", "ie"],
     ja_kanbun: ["家", "ie"],

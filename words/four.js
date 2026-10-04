@@ -873,7 +873,7 @@ WORDS.four = {
     xct: ["བཞི", "bʑi"],
     xct_litpr: ["བཞི", "bʑi"],
     och: ["四", "*s.li[j]-s"],
-    zh_han: ["四", "sis"],
+    zh_han: ["四", "s(h)jǝś"],
     njo: ["pezü", "pezy"],
     pwo: ["လီ", "li"],
     de_lu: ["vier", "fiːɐ̯"],

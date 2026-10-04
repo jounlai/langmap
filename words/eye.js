@@ -665,7 +665,7 @@ WORDS.eye = {
     paus: ["*maCa", "maCa"],
     zh_song: ["目", "mu"],
     zh_wenyan_edu: ["目", "mʊk˨"],
-    zh_han: ["目", "miuk"],
+    zh_han: ["目", "mhǝuk"],
     zh_tang: ["目", "muwk"],
     ja_edo: ["目", "me"],
     ja_kanbun: ["目", "me"],

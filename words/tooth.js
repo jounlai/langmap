@@ -622,7 +622,7 @@ WORDS.tooth = {
     paus: ["*nipen", "nipen"],
     zh_song: ["牙", "ia"],
     zh_wenyan_edu: ["牙", "ŋaː˨˩"],
-    zh_han: ["牙", "m-ɢˤra"],
+    zh_han: ["牙", "ŋrǟ"],
     zh_tang: ["牙", "ŋaɨ"],
     ja_edo: ["齒", "ha"],
     ja_kanbun: ["齒", "ha"],

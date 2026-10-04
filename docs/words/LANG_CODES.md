@@ -1173,7 +1173,7 @@ Total: 1190 codes.
 | `zh_cd` | Chengdu Mandarin | 成都官話 | Sinitic (Mandarin, Southwestern — Cheng-Yu) | ~20M (Chengdu city + plain) |
 | `zh_cq` | Chongqing Mandarin | 重慶官話 | Sinitic (Mandarin, Southwestern / Cheng-Yu cluster) | ~30M (Chongqing + eastern Sichuan) |
 | `zh_db` | Northeastern Mandarin | 東北官話 | Sinitic (Mandarin, Northeastern) | ~85M |
-| `zh_han` | Han Chinese | 漢代漢語 | Sinitic (Old/Eastern Han Chinese) | Extinct |
+| `zh_han` | Han Chinese | 漢代漢語 | Sinitic (Eastern Han Chinese) | Extinct |
 | `zh_hf` | Hefei Mandarin | 合肥官話 | Sinitic (Mandarin, Jianghuai / Hongchao 洪巢片) | ~5M |
 | `zh_jh` | Jianghuai Mandarin | 江淮官話 | Sinitic (Mandarin, Jianghuai) | ~60M |
 | `zh_jn` | Jinan Mandarin | 済南官話 | Sinitic (Mandarin, Ji-Lu / Shandong) | ~7M (urban Jinan and surrounding Lu prefectures) |

@@ -387,7 +387,7 @@ WORDS.egg = {
     p_viet: ["*k-ləːŋʔ", "k-ləːŋʔ"],
     zh_song: ["卵", "luɔn"],
     zh_wenyan_edu: ["卵", "lɵn˩˧"],
-    zh_han: ["卵", "luɑnʔ"],
+    zh_han: ["卵", "rhwā́n"],
     zh_tang: ["卵", "lwan"],
     ja_edo: ["卵", "tamaɡo"],
     ja_kanbun: ["卵", "tamaɡo"],

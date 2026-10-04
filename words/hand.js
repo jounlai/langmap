@@ -665,7 +665,7 @@ WORDS.hand = {
     paus: ["*lima", "lima"],
     zh_song: ["手", "ʂiəu"],
     zh_wenyan_edu: ["手", "sɐu˧˥"],
-    zh_han: ["手", "ɕiuʔ"],
+    zh_han: ["手", "shǝ́w"],
     zh_tang: ["手", "ɕuw"],
     ja_edo: ["手", "te"],
     ja_kanbun: ["手", "te"],

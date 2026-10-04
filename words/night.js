@@ -596,7 +596,7 @@ WORDS.night = {
     paus: ["*beRŋi", "beʀŋi"],
     zh_song: ["夜", "iɛ"],
     zh_wenyan_edu: ["夜", "jɛː˨"],
-    zh_han: ["夜", "[ɢ]Ak-s"],
+    zh_han: ["夜", "źäh"],
     zh_tang: ["夜", "jia"],
     ja_edo: ["夜", "joɾɯ"],
     ja_kanbun: ["夜", "joru"],

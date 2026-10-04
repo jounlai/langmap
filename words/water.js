@@ -659,7 +659,7 @@ WORDS.water = {
     paus: ["*daNum", "daNum"],
     zh_song: ["水", "ʂui"],
     zh_wenyan_edu: ["水", "sɵy˧˥"],
-    zh_han: ["水", "ɕiwiɪʔ"],
+    zh_han: ["水", "ćwǝ́j"],
     zh_tang: ["水", "ɕwi"],
     ja_edo: ["水", "midzɯ"],
     ja_kanbun: ["水", "mizɯ"],

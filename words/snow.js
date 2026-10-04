@@ -457,7 +457,7 @@ WORDS.snow = {
     paus: ["*SuReNa", "SuReNa"],
     zh_song: ["雪", "siuɛ"],
     zh_wenyan_edu: ["雪", "syːt˧"],
-    zh_han: ["雪", "suɑt"],
+    zh_han: ["雪", "sjwat"],
     zh_tang: ["雪", "swiat"],
     ja_edo: ["雪", "jɯki"],
     ja_kanbun: ["雪", "jɯki"],

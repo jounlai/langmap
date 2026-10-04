@@ -658,7 +658,7 @@ WORDS.mother = {
     paus: ["*ina", "ina"],
     zh_song: ["母", "mu"],
     zh_wenyan_edu: ["母", "mou˩˧"],
-    zh_han: ["母", "muːʔ"],
+    zh_han: ["母", "mǝ̄́"],
     zh_tang: ["母", "məw"],
     ja_edo: ["おっかさん", "okkasaɴ"],
     ja_kanbun: ["母", "haha"],

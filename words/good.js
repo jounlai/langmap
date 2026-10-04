@@ -666,7 +666,7 @@ WORDS.good = {
     paus: ["—", "—"],
     zh_song: ["善", "ʂiɛn"],
     zh_wenyan_edu: ["善", "sin˨"],
-    zh_han: ["善", "dʑiɛn"],
+    zh_han: ["善", "ʒ́(h)án"],
     zh_tang: ["善", "dʑian"],
     ja_edo: ["良い", "joi"],
     ja_kanbun: ["良し", "joɕi"],

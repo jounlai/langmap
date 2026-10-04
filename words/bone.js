@@ -579,7 +579,7 @@ WORDS.bone = {
     paus: ["*CuqelaN", "CuqelaN"],
     zh_song: ["骨", "ku"],
     zh_wenyan_edu: ["骨", "kʷɐt˥"],
-    zh_han: ["骨", "kˤut"],
+    zh_han: ["骨", "kwǝ̄t"],
     zh_tang: ["骨", "kwət"],
     ja_edo: ["骨", "hone"],
     ja_kanbun: ["骨", "hone"],

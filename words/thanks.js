@@ -661,7 +661,7 @@ WORDS.thanks = {
     paus: ["—", "—"],
     zh_song: ["謝", "siɛ"],
     zh_wenyan_edu: ["謝", "tsɛ˨"],
-    zh_han: ["謝", "ziɛ"],
+    zh_han: ["謝", "zhäh"],
     zh_tang: ["謝", "zia"],
     ja_edo: ["忝い", "katadʑikenai"],
     ja_kanbun: ["謝す", "ɕasu"],

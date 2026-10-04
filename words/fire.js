@@ -658,7 +658,7 @@ WORDS.fire = {
     paus: ["*Sapuy", "Sapuy"],
     zh_song: ["火", "xuɔ"],
     zh_wenyan_edu: ["火", "fɔ˧˥"],
-    zh_han: ["火", "huɑiʔ"],
+    zh_han: ["火", "m̥ǝ̄́j"],
     zh_tang: ["火", "hwa"],
     ja_edo: ["火", "hi"],
     ja_kanbun: ["火", "hi"],

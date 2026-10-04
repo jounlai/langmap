@@ -489,7 +489,7 @@ WORDS.five = {
     paus: ["*lima", "lima"],
     zh_song: ["五", "u"],
     zh_wenyan_edu: ["五", "ŋ̍˩˧"],
-    zh_han: ["五", "ŋɑʔ"],
+    zh_han: ["五", "ŋhā́"],
     zh_tang: ["五", "ŋɔ"],
     ja_edo: ["五", "ɡo"],
     ja_kanbun: ["五", "itsutsu"],

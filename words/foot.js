@@ -2316,7 +2316,7 @@ WORDS.foot = {
     zh_cd: ["脚", "tɕyo˨˩"],  // Chengdu Mandarin keeps them apart.
     zh_cq: ["脚", "tɕyo˨˩"],  // The row's own 雀 tɕʰio˨˩ is a 藥韻 syllable and fixes the tone; the 見組 medial is撮口 tɕyo per zi.tools, which is the regular split from 精組 tɕʰio.
     zh_db: ["脚", "tɕjau˨˩˦"],  // Northeastern Mandarin took Beijing's colloquial 上聲 reading of 脚 whole (zi.tools 哈爾濱 tɕiau 上聲), but this row spells that rime tɕjau, not the parent's tɕi̯ɑʊ̯.
-    zh_han: ["足", "tsiok"],  // Schuessler LHan 足 = tsiok. 說文 (121 CE) is in-period for this row and settles it: 足 is 「人之足也。在下」 while 腳 is glossed 脛, the shin.
+    zh_han: ["足", "cjok"],  // Schuessler LHan 足 = tsiok. 說文 (121 CE) is in-period for this row and settles it: 足 is 「人之足也。在下」 while 腳 is glossed 脛, the shin. // was ["足", "tsiok"] (zh_han rebuild 2026-10-04)
     zh_hf: ["脚", "tɕiɐʔ˦"],  // Jianghuai Mandarin keeps them apart, as the Nanjing row does; 合肥 carries 腿 tʰe as a live reading. MCPDict 合肥 lists 脚 tɕiɐʔ first — iɐʔ is the regular 藥韻開三 reflex and the table marks the tɕyɐʔ of 角 as 新音. ˦ is this row's value for every checked syllable.
     zh_jh: ["脚", "tɕioʔ˥˥"],  // Nanjing still has the entering tone that Beijing lost, so this is the one Mandarin row in the batch whose foot cell carries a stop coda; 维基百科 notes the [-ʔ] itself is variable while the tone category is not.
     zh_jn: ["脚", "tɕyə˨˩˧"],  // Jinan's rime here is -yə, which the row already writes twice in 雪 ɕyə˨˩˧ and 血 ɕyə˨˩˧, and its 清入 sits on 陰平 ˨˩˧.

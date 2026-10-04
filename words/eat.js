@@ -665,7 +665,7 @@ WORDS.eat = {
     paus: ["*kaen", "kaen"],
     zh_song: ["食", "ʂi"],
     zh_wenyan_edu: ["食", "sɪk˨"],
-    zh_han: ["食", "ʑiək"],
+    zh_han: ["食", "źǝk"],
     zh_tang: ["食", "ʑik"],
     ja_edo: ["食う", "kɯː"],
     ja_kanbun: ["食らふ", "kuɾau"],

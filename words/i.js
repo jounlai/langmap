@@ -666,7 +666,7 @@ WORDS.i = {
       paus: ["*aku", "aku"],
       zh_song: ["我", "ŋɔ"],
       zh_wenyan_edu: ["我", "ŋɔ˩˧"],
-      zh_han: ["我", "ŋɑiˀ"],
+      zh_han: ["我", "ŋhǟ́"],
       zh_tang: ["我", "ŋa"],
       ja_edo: ["私", "wataɕi"],
       ja_kanbun: ["我", "ware"],

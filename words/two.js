@@ -666,7 +666,7 @@ WORDS.two = {
       paus: ["*duSa", "duSa"],
       zh_song: ["二", "ɽʅ"],
       zh_wenyan_edu: ["二", "jiː˨"],
-      zh_han: ["二", "ȵis"],
+      zh_han: ["二", "ńǝś"],
       zh_tang: ["二", "ȵi"],
       ja_edo: ["二", "ɲi"],
       ja_kanbun: ["二", "ɲi"],

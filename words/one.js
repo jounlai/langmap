@@ -658,7 +658,7 @@ WORDS.one = {
     paus: ["*isa", "isa"],
     zh_song: ["一", "i"],
     zh_wenyan_edu: ["一", "jɐt˥"],
-    zh_han: ["一", "ʔiit"],
+    zh_han: ["一", "ʔjǝt"],
     zh_tang: ["一", "ʔit"],
     ja_edo: ["一", "itɕi"],
     ja_kanbun: ["一", "ɸitotu"],

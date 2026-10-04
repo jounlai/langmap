@@ -412,7 +412,7 @@ WORDS.computer = {
     "zh_cd": ["电脑", "tiɛn˨˩˧ nau˥˧"],
     "zh_cq": ["电脑", "tiɛn˨˩˧ nau˦˨"],
     "zh_db": ["电脑", "tiɛn˥˩ nau˨˩˦"],
-    "zh_han": ["籌", "ɖu"],
+    "zh_han": ["籌", "ḍhǝw"],
     "zh_hf": ["电脑", "tiɛn˥˧ nau˨˦"],
     "zh_jh": ["电脑", "tiɛn˦˦ nɔ˨˩˨"],
     "zh_jn": ["电脑", "tiɛn˨˩ nau˥˥"],

@@ -144,7 +144,7 @@ WORDS.woof = {
     aln: ["ham ham", "ham ham"],
     "el_grc": ["αὖ αὖ", "au̯ au̯"],
     "la": ["bau bau", "bau̯ bau̯"],
-    "zh_han": ["狺狺", "ŋɨn ŋɨn"],
+    "zh_han": ["狺狺", "ŋ(h)ǝn ŋ(h)ǝn"],
     "zh_tang": ["狺狺", "ŋjin ŋjin"],
     // zh_song 狺狺 removed 2026-10-04: the row is now 中原音韻 (1324) readings and 狺 is not in the rhyme book (was ["狺狺", "ŋin˧˥ ŋin˧˥"])
     "zh_wenyan_edu": ["汪汪", "wɔːŋ˥ wɔːŋ˥"],

@@ -665,7 +665,7 @@ WORDS.heart = {
     paus: ["*pusuq", "pusuq"],
     zh_song: ["心", "siəm"],
     zh_wenyan_edu: ["心", "sɐm˥"],
-    zh_han: ["心", "siəm"],
+    zh_han: ["心", "sjǝm"],
     zh_tang: ["心", "sim"],
     ja_edo: ["心", "kokoɾo"],
     ja_kanbun: ["心", "kokoɾo"],

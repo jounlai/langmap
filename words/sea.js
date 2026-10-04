@@ -1032,6 +1032,7 @@ WORDS.sea = {
     nrf_gg: ["maïr", "majr"],
     yuy: ["dalii", "daliː"],
     tsz: ["mari", "maɾi"],
-    tar: ["mar", "maɾ"]
+    tar: ["mar", "maɾ"],
+    zh_song: ["海", "xai"]
   }
 };

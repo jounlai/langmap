@@ -1140,6 +1140,7 @@ WORDS.head = {
     blk: ["ကတူႏ", "kəʔ˨˩ tu˥˥"],
     jqr: ["nampʼa", "nampʼa"],
     yuy: ["toloʁui", "toloʁui"],
-    mjg: ["tulighui", "tuliʁui"]
+    mjg: ["tulighui", "tuliʁui"],
+    zh_song: ["頭", "tʰəu"]
   },
 };

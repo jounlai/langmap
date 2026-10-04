@@ -664,7 +664,7 @@ WORDS.you = {
       pura: ["*tun", "tun"],
       p_dra: ["*nī", "nī"],
       paus: ["*iSu", "iSu"],
-      zh_song: ["汝", "ʐiə˧˩"],
+      zh_song: ["汝", "ɽiu"],
       zh_wenyan_edu: ["汝", "jyː˩˧"],
       zh_han: ["汝", "ȵɑˀ"],
       zh_tang: ["汝", "ɲɨə˧˩"],

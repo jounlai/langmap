@@ -1039,6 +1039,7 @@ WORDS.book = {
     blr: ["ka31 nak33", "ka˧˩ nak˧˧"],
     guu: ["ɾipɾo", "ɾipɾo"],
     pt_gw: ["livru", "ˈlivɾu"],
-    tar: ["libro", "libɾo"]
+    tar: ["libro", "libɾo"],
+    zh_song: ["書", "ʂiu"]
   }
 };

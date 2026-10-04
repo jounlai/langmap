@@ -1116,6 +1116,7 @@ WORDS.new = {
     blk: ["တသာ", "tə sa̤˧˩"],
     jqr: ["machaqa", "matʃaqa"],
     yuy: ["ʃənə", "ʃənə"],
-    mjg: ["xni", "ɕni"]
+    mjg: ["xni", "ɕni"],
+    zh_song: ["新", "siən"]
   }
 };

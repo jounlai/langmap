@@ -620,7 +620,7 @@ WORDS.tooth = {
     pura: ["*piŋi", "piŋi"],
     p_dra: ["*pal", "pal"],
     paus: ["*nipen", "nipen"],
-    zh_song: ["牙", "ŋia˩˧"],
+    zh_song: ["牙", "ia"],
     zh_wenyan_edu: ["牙", "ŋaː˨˩"],
     zh_han: ["牙", "m-ɢˤra"],
     zh_tang: ["牙", "ŋaɨ"],

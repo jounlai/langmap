@@ -312,7 +312,7 @@ WORDS.poop = {
     psem: ["*ḫaraʔ-", "haraʔ"],
     pura: ["*pućka", "putɕka"],
     paus: ["*Caqi", "tsaqi"],
-    zh_song: ["屎", "ʂɿ˧˩˧"],
+    zh_song: ["屎", "ʂʅ"],
     zh_wenyan_edu: ["屎", "siː˧˥"],
     zh_han: ["屎", "ɕiʔ"],
     zh_tang: ["屎", "ɕiɪX"],

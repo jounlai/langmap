@@ -1162,6 +1162,7 @@ WORDS.mouth = {
     guu: ["kahikɨ", "kahikɨ"],
     mui: ["mulut", "mulut"],
     blk: ["ဖြောင်း", "pʰlɔŋ˥˧"],
-    yuy: ["aman", "aman"]
+    yuy: ["aman", "aman"],
+    zh_song: ["口", "kʰəu"]
   }
 };

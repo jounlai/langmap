@@ -1229,6 +1229,7 @@ WORDS.salt = {
     pmt: ["miti", "miti"],
     blk: ["တသာႏ", "tə sa˥˥"],
     jqr: ["katyi", "kaci"],
-    yuy: ["daabsən", "daːbsən"]
+    yuy: ["daabsən", "daːbsən"],
+    zh_song: ["鹽", "iɛm"]
   },
 };

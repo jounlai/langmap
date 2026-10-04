@@ -577,7 +577,7 @@ WORDS.bone = {
     pura: ["*luwe", "luwe"],
     p_dra: ["*elumpu", "elumpu"],
     paus: ["*CuqelaN", "CuqelaN"],
-    zh_song: ["骨", "kut"],
+    zh_song: ["骨", "ku"],
     zh_wenyan_edu: ["骨", "kʷɐt˥"],
     zh_han: ["骨", "kˤut"],
     zh_tang: ["骨", "kwət"],

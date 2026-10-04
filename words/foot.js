@@ -2325,7 +2325,7 @@ WORDS.foot = {
     zh_lz: ["脚", "tɕyɛ˩˧"],  // zi.tools gives Lanzhou tɕye, and the nucleus is written ɛ here because that is how this row already writes the same rime in 雪 ɕyɛ˩˧, 血 ɕyɛ˩˧ and 月 yɛ˩˧.
     zh_nj: ["脚", "tɕioʔ˥"],  // Nanjing Mandarin keeps 腳 and 腿 apart; the synonym table also records 跤 as a Nanjing foot word.
     zh_sc: ["脚", "tɕyo˨˩"],  // Southwestern Mandarin sent the whole 入聲 to 陽平, so 脚 lands on the row's own ˨˩ (白 pe˨˩, 一 i˨˩), and the 見組 rime is tɕyo where the row's 雀 tɕʰio shows 精組 keeping -io.
-    zh_song: ["足", "tsu˧˥"],  // The literary register, as the row's own 汝 我等 犬 善 目 食 show — Classical Chinese read in early-Mandarin phonology, not Song vernacular. 腿 is only first attested 魏晉南北朝 as a shin word.
+    zh_song: ["足", "tsiu"],  // The literary register, as the row's own 汝 我等 犬 善 目 食 show — Classical Chinese read in early-Mandarin phonology, not Song vernacular. 腿 is only first attested 魏晉南北朝 as a shin word. // was ["足", "tsu˧˥"] (zh_song rebuild 2026-10-04)
     zh_tang: ["足", "tsɨok"],  // Not 腳: 腳 is live in Tang colloquial (Du Fu 北征「垢膩腳不襪」) but this row is the Qieyun literary register throughout. Zhengzhang MC, bare stop coda per the row's 屋 ʔuk.
     zh_tj: ["脚", "tɕjau˩˧"],  // Tianjin inherits Beijing's colloquial 上聲 reading but not Beijing's pitch — the row's own 鸟 niau˩˧ and 觉 tɕjau˥˧ give both halves of this cell.
     zh_tw: ["腳", "tɕi̯ɑʊ̯˨˩˦"],  // Same word as the mainland row, written traditionally per this row's convention.

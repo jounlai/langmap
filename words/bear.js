@@ -1375,7 +1375,7 @@ WORDS.bear = {
 
     // --- East Asia: 熊 and 곰 -------------------------------------------
     p_sit: ["*d-wam", "d-wam"],
-    zh_song: ["熊", "ɕiʊŋ˧˥"],
+    zh_song: ["熊", "xiuŋ"], // was ["熊", "ɕiʊŋ˧˥"] (zh_song rebuild 2026-10-04)
     zh_wenyan_edu: ["熊", "hʊŋ˨˩"],
     vi_han: ["熊", "huŋ͡m˨˩"],
     zh_tw: ["熊", "ɕiʊŋ˧˥"],

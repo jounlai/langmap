@@ -663,7 +663,7 @@ WORDS.eye = {
     pura: ["*śilmä", "śilmä"],
     p_dra: ["*kaṇ", "kaṇ"],
     paus: ["*maCa", "maCa"],
-    zh_song: ["目", "məwk"],
+    zh_song: ["目", "mu"],
     zh_wenyan_edu: ["目", "mʊk˨"],
     zh_han: ["目", "miuk"],
     zh_tang: ["目", "muk"],

@@ -1212,6 +1212,7 @@ WORDS.four = {
     trm: ["čātā", "tʃaːtaː"],
     blk: ["လစ်ꩻ", "lit˦˥"],
     yuy: ["dørwen", "dørwen"],
-    xav: ["maparane siʼuiwa", "mapaɾane siʔuiwa"]
+    xav: ["maparane siʼuiwa", "mapaɾane siʔuiwa"],
+    zh_song: ["四", "sɿ"]
   },
 };

@@ -663,7 +663,7 @@ WORDS.drink = {
     pura: ["*jëxe-", "jɤxe"],
     p_dra: ["*kuṭi", "kuṭi"],
     paus: ["*inum", "inum"],
-    zh_song: ["飲", "jin˧˩˧"],
+    zh_song: ["飲", "iəm"],
     zh_wenyan_edu: ["飲", "jɐm˧˥"],
     zh_han: ["飲", "ʔiəm"],
     zh_tang: ["飲", "ʔimX"],

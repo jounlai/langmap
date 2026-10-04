@@ -1065,6 +1065,7 @@ WORDS.horse = {
     mjg: ["mori", "mori"],
     cnh: ["rang", "raŋ"],
     tsz: ["kabaiu", "kaˈbaju"],
-    pt_gw: ["kabalu", "kaˈbalu"]
+    pt_gw: ["kabalu", "kaˈbalu"],
+    zh_song: ["馬", "ma"]
   }
 };

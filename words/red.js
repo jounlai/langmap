@@ -597,7 +597,7 @@ WORDS.red = {
     pura: ["—", "—"],
     p_dra: ["*cem-", "cem"],
     paus: ["*ma-iRaq", "ma-iRaq"],
-    zh_song: ["紅", "xuŋ˧˥"],
+    zh_song: ["紅", "xuŋ"],
     zh_wenyan_edu: ["赤", "tsʰɛːk̚˧"],
     zh_han: ["赤", "tɕʰek"],
     zh_tang: ["赤", "tɕʰiɛk"],

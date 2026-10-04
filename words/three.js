@@ -597,7 +597,7 @@ WORDS.three = {
     pura: ["*kolme", "kolme"],
     p_dra: ["*mūnṯu", "muːnʈu"],
     paus: ["*telu", "telu"],
-    zh_song: ["三", "sam˩˧"],
+    zh_song: ["三", "sam"],
     zh_wenyan_edu: ["三", "saːm˥"],
     zh_han: ["三", "srum"],
     zh_tang: ["三", "sam"],

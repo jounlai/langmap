@@ -230,8 +230,6 @@ const DEBT = [
   { code: 'gan_ja', cls: '陰平', why: '三 not in the MCPDict 吉安 table' },
   { code: 'gan_fz', cls: '陽平', why: '盐 not in the MCPDict 撫州 table' },
   // 平聲 — the original list.
-  { code: 'zh_song', cls: '陽平' },
-  { code: 'zh_song', cls: '陰平' },
   { code: 'czh', cls: '陽平' },
   { code: 'cnp', cls: '陰平' },
   { code: 'zh_jh', cls: '陰平' },

@@ -487,7 +487,7 @@ WORDS.five = {
     pura: ["*witte", "witte"],
     p_dra: ["*caymtu", "tʃajntu"],
     paus: ["*lima", "lima"],
-    zh_song: ["五", "ŋuo˩˧"],
+    zh_song: ["五", "u"],
     zh_wenyan_edu: ["五", "ŋ̍˩˧"],
     zh_han: ["五", "ŋɑʔ"],
     zh_tang: ["五", "ŋuo˩˧"],

@@ -656,7 +656,7 @@ WORDS.fire = {
     pura: ["*tule", "tule"],
     p_dra: ["*tī", "tī"],
     paus: ["*Sapuy", "Sapuy"],
-    zh_song: ["火", "xwo˧˩˧"],
+    zh_song: ["火", "xuɔ"],
     zh_wenyan_edu: ["火", "fɔ˧˥"],
     zh_han: ["火", "huɑiʔ"],
     zh_tang: ["火", "xuɑX"],

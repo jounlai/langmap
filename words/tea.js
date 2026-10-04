@@ -1123,7 +1123,7 @@ WORDS.tea = {
     zh_cd: ["茶", "tsʰa˨˩"],
     zh_km: ["茶", "tʂʰᴀ˧˩"], // was ["茶", "tʂʰa˧˩"] (r48 fix 2026-10-03)
     zh_sc: ["茶", "tsʰa˨˩"],
-    zh_song: ["茶", "tʂʰa˧˥"],
+    zh_song: ["茶", "tʂʰa"], // was ["茶", "tʂʰa˧˥"] (zh_song rebuild 2026-10-04)
     zh_tang: ["茶", "ɖˠa"],
     zh_tw: ["茶", "ʈʂʰa˧˥"],
     zh_wenyan_edu: ["茶", "tsʰaː˨˩"],

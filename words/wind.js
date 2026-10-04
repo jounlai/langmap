@@ -1141,6 +1141,7 @@ WORDS.wind = {
     dtp_kzj: ["tongus", "toŋus"],
     blr: ["kɨn51", "kɨn˥˩"],
     nmn: ["ǂqhùe", "ǂqʰue"],
-    blk: ["တလီꩻ", "tə li˧˧"]
+    blk: ["တလီꩻ", "tə li˧˧"],
+    zh_song: ["風", "fuŋ"]
   },
 };

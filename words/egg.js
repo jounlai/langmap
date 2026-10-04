@@ -385,7 +385,7 @@ WORDS.egg = {
     pura: ["*muna", "muna"],
     paus: ["*qiCeluR", "qicəlur"],
     p_viet: ["*k-ləːŋʔ", "k-ləːŋʔ"],
-    zh_song: ["卵", "luɑn"],
+    zh_song: ["卵", "luɔn"],
     zh_wenyan_edu: ["卵", "lɵn˩˧"],
     zh_han: ["卵", "luɑnʔ"],
     zh_tang: ["卵", "luɑn"],

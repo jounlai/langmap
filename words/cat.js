@@ -659,7 +659,7 @@ WORDS.cat = {
     pura: ["—", "—"],
     p_dra: ["—", "—"],
     paus: ["—", "—"],
-    zh_song: ["貓", "mau˧˥"],
+    zh_song: ["貓", "mau"],
     zh_wenyan_edu: ["貓", "mau˥"],
     zh_han: ["貓", "mau"],
     zh_tang: ["貓", "mæw"],

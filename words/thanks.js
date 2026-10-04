@@ -659,7 +659,7 @@ WORDS.thanks = {
     pura: ["—", "—"],
     p_dra: ["—", "—"],
     paus: ["—", "—"],
-    zh_song: ["謝", "ɕjɛ˥˩"],
+    zh_song: ["謝", "siɛ"],
     zh_wenyan_edu: ["謝", "tsɛ˨"],
     zh_han: ["謝", "ziɛ"],
     zh_tang: ["謝", "ziɛH"],

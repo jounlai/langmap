@@ -431,7 +431,7 @@ WORDS.nose = {
     pura: ["*näre", "näre"],
     p_dra: ["*mūkku", "muːkku"],
     paus: ["*ujuŋ", "ujuŋ"],
-    zh_song: ["鼻", "bi"],
+    zh_song: ["鼻", "pi"],
     zh_wenyan_edu: ["鼻", "pei˨"],
     zh_han: ["鼻", "bis"],
     zh_tang: ["鼻", "biɪ"],

@@ -602,7 +602,7 @@ WORDS.tongue = {
     pura: ["*kele", "kele"],
     p_dra: ["*nākku", "naːkːu"],
     paus: ["*Sema", "Sema"],
-    zh_song: ["舌", "ʃiɛt"],
+    zh_song: ["舌", "ʂiɛ"],
     zh_wenyan_edu: ["舌", "siːt˨"],
     zh_han: ["舌", "məlat"],
     zh_tang: ["舌", "dʑiɛt"],

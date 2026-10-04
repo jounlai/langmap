@@ -1183,6 +1183,7 @@ WORDS.ear = {
     qxs: ["ȵikie", "ɲikie"],
     lep: ["ᰉᰫᰲ", "ɲur"],
     blk: ["နားလာႏ", "na˥˧ la˥˥"],
-    yuy: ["tʃəʁən", "tʃəʁən"]
+    yuy: ["tʃəʁən", "tʃəʁən"],
+    zh_song: ["耳", "ɽʅ"]
   },
 };

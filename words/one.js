@@ -656,7 +656,7 @@ WORDS.one = {
     pura: ["*ükte", "ükte"],
     p_dra: ["*oru", "oru"],
     paus: ["*isa", "isa"],
-    zh_song: ["一", "i˥"],
+    zh_song: ["一", "i"],
     zh_wenyan_edu: ["一", "jɐt˥"],
     zh_han: ["一", "ʔiit"],
     zh_tang: ["一", "ʔit"],

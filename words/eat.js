@@ -663,7 +663,7 @@ WORDS.eat = {
     pura: ["*sewe-", "sewe"],
     p_dra: ["*uṇ", "uṇ"],
     paus: ["*kaen", "kaen"],
-    zh_song: ["食", "ʂʐ˧˥"],
+    zh_song: ["食", "ʂi"],
     zh_wenyan_edu: ["食", "sɪk˨"],
     zh_han: ["食", "ʑiək"],
     zh_tang: ["食", "ʑik"],

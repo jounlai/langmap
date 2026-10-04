@@ -656,7 +656,7 @@ WORDS.mother = {
     pura: ["*emä", "emæ"],
     p_dra: ["*amma", "amma"],
     paus: ["*ina", "ina"],
-    zh_song: ["母", "mu˧˩˧"],
+    zh_song: ["母", "mu"],
     zh_wenyan_edu: ["母", "mou˩˧"],
     zh_han: ["母", "muːʔ"],
     zh_tang: ["母", "muX"],

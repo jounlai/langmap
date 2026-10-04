@@ -1227,6 +1227,7 @@ WORDS.black = {
     guu: ["iʃi", "iʃi"],
     blk: ["ဖြေင်း", "pʰleŋ˥˧"],
     yuy: ["xara", "χara"],
-    tsz: ["turhipiti", "tuɽipiti"]
+    tsz: ["turhipiti", "tuɽipiti"],
+    zh_song: ["黑", "xei"]
   },
 };

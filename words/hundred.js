@@ -254,7 +254,7 @@ WORDS.hundred = {
     // from 陽入 at all, so their 百 is only as good as that — flagged in
     // the handoff rather than silently trusted.
     zh_han: ["百", "pɐk"],
-    zh_song: ["百", "pæk"],
+    zh_song: ["百", "pai"],
     yue_gz: ["百", "ɓak̚˧˧"],
     hak_cn: ["百", "pak̚˧"],
     hak_tw: ["百", "pak̚˨"],

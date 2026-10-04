@@ -1993,7 +1993,9 @@ const LANG_DATA = {
 },
   paus: { name: 'Proto-Austronesian', native: 'Proto-Austronesian', lat: 23.70, lng: 121.00,
 },
-  zh_song: { name: "Song-Ming Literary Chinese", native: "宋明文言", lat: 34.80, lng: 114.31,
+  // zh_song relabelled 2026-10-04: was "Song-Ming Literary Chinese" / 宋明文言 at Kaifeng with cells mixing
+  // unsourced LMC-style and Mandarin-like readings; now 中原音韻 (1324) readings per 寧繼福 1985, at Dadu.
+  zh_song: { name: "Early Mandarin (Zhongyuan Yinyun)", native: "中原音韻", lat: 39.90, lng: 116.40,
 },
   // Classroom Classical Chinese (Cantonese pedagogical reading) — the
   // standard Cantonese reading of 文言文 (Literary Chinese) as taught in
@@ -2001,6 +2003,7 @@ const LANG_DATA = {
   // (1) zh_han / zh_tang (reconstructed Old/Middle Chinese pronunciations
   // for historical-linguistic study); (2) zh_song (de-facto Mandarin
   // pedagogical reading of Classical Chinese, despite the "Song" label);
+  // [2026-10-04: zh_song is now Early Mandarin, 中原音韻 1324 readings per Ning 1985.]
   // and (3) ja_kanbun (Japanese kun-yomi rendering). The Cantonese 文言
   // reading is the canonical Sinitic pedagogical reading tradition outside
   // Mandarin and preserves more Middle Chinese-derived phonological

@@ -812,6 +812,7 @@ WORDS.rice = {
     quc: ["arroz", "aros"],
     nch: ["arroz", "aˈros"],
     ngu: ["arroz", "aˈros"],
-    dru: ["pagay", "paˈɡai"]
+    dru: ["pagay", "paˈɡai"],
+    zh_song: ["米", "mi"]
   }
 };

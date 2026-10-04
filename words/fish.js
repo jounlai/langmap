@@ -605,7 +605,7 @@ WORDS.fish = {
     pura: ["*kala", "kala"],
     p_dra: ["*mīn", "miːn"],
     paus: ["*Sikan", "Sikan"],
-    zh_song: ["魚", "ŋiɔ˩˧"],
+    zh_song: ["魚", "iu"],
     zh_wenyan_edu: ["魚", "jyː˨˩"],
     zh_han: ["魚", "ŋa"],
     zh_tang: ["魚", "ŋiɔ"],

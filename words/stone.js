@@ -458,7 +458,7 @@ WORDS.stone = {
     pura: ["*kiwe", "kiwe"],
     p_dra: ["*kal", "kal"],
     paus: ["*batu", "batu"],
-    zh_song: ["石", "ʂʐ˧˥"],
+    zh_song: ["石", "ʂi"],
     zh_wenyan_edu: ["石", "sɛːk˨"],
     zh_han: ["石", "dʑak"],
     zh_tang: ["石", "ʑiᴇk"],

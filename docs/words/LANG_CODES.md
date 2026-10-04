@@ -1182,7 +1182,7 @@ Total: 1190 codes.
 | `zh_lz` | Lanyin Mandarin | 蘭銀官話 | Sinitic (Mandarin, Lan-Yin) | ~17M |
 | `zh_nj` | Nanjing Mandarin | 南京官話 | Sinitic (Mandarin, Jianghuai — Hong-Chao) | ~6M (Nanjing city + Jiangning, Liuhe) |
 | `zh_sc` | Sichuan Mandarin | 四川官話 | Sinitic (Mandarin, Southwestern) | ~120M |
-| `zh_song` | Late Middle Chinese | 近古漢語 | Sinitic (Late Middle Chinese) | Extinct |
+| `zh_song` | Early Mandarin (Zhongyuan Yinyun) | 早期官話（中原音韻） | Sinitic (Early Mandarin) | Extinct |
 | `zh_tang` | Middle Chinese | 中古漢語 | Sinitic (Early Middle Chinese) | Extinct |
 | `zh_tj` | Tianjin Mandarin | 天津官話 | Sinitic (Mandarin, Ji-Lu / Tianjin) | ~10M |
 | `zh_tw` | Taiwan Mandarin | 台灣華語 | Sinitic (Mandarin) | ~23M |

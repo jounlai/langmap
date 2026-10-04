@@ -664,7 +664,7 @@ WORDS.tree = {
     pura: ["*puwi", "puwi"],
     p_dra: ["*maram", "maram"],
     paus: ["*kaSiw", "kaSiw"],
-    zh_song: ["木", "mu˥˩"],
+    zh_song: ["木", "mu"],
     zh_wenyan_edu: ["木", "mʊk˨"],
     zh_han: ["木", "muok"],
     zh_tang: ["木", "muk"],

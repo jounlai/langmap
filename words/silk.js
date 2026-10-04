@@ -753,6 +753,7 @@ WORDS.silk = {
     niu: ["silika", "silika"],
     wls: ["silika", "silika"],
     kj: ["osilki", "osilki"],
-    mjg: ["tiriga", "tiriɡa"]
+    mjg: ["tiriga", "tiriɡa"],
+    zh_song: ["絲", "sɿ"]
   }
 };

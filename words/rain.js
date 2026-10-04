@@ -1120,6 +1120,7 @@ WORDS.rain = {
     wmt: ["manypu", "ˈmaɲpu"],
     aoc: ["konok", "konok"],
     kfr: ["મીં", "mĩː"],
-    blk: ["ခမ်း", "kʰam˥˧"]
+    blk: ["ခမ်း", "kʰam˥˧"],
+    zh_song: ["雨", "iu"]
   },
 };

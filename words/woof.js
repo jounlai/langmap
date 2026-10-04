@@ -146,7 +146,7 @@ WORDS.woof = {
     "la": ["bau bau", "bau̯ bau̯"],
     "zh_han": ["狺狺", "ŋɨn ŋɨn"],
     "zh_tang": ["狺狺", "ŋiɪn ŋiɪn"],
-    "zh_song": ["狺狺", "ŋin˧˥ ŋin˧˥"],
+    // zh_song 狺狺 removed 2026-10-04: the row is now 中原音韻 (1324) readings and 狺 is not in the rhyme book (was ["狺狺", "ŋin˧˥ ŋin˧˥"])
     "zh_wenyan_edu": ["汪汪", "wɔːŋ˥ wɔːŋ˥"],
 
     // --- Pluricentric rows — each reads its own row's vowel where one differs

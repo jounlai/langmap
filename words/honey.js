@@ -210,7 +210,7 @@ WORDS.honey = {
     och: ["蜜", "*mit"],
     zh_han: ["蜜", "mit"],
     zh_tang: ["蜜", "mit"],
-    zh_song: ["蜜", "mit"],
+    zh_song: ["蜜", "mi"],
     zh_wenyan_edu: ["蜜", "mɐt˨"],
     zh_tw: ["蜂蜜", "fɤŋ˥ mi˥˩"],
     vi_han: ["蜜", "mət˨˩"],

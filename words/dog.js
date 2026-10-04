@@ -664,7 +664,7 @@ WORDS.dog = {
     pura: ["*penä", "penæ"],
     p_dra: ["*nāy", "nāy"],
     paus: ["*asu", "asu"],
-    zh_song: ["犬", "kʰɥɛn˧˩˧"],
+    zh_song: ["犬", "kʰiuɛn"],
     zh_wenyan_edu: ["犬", "hyn˧˥"],
     zh_han: ["犬", "kʰiuɛn"],
     zh_tang: ["犬", "kʰiuɛnX"],

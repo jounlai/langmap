@@ -1121,6 +1121,11 @@ WORDS.new = {
     pmh: ["णव", "ɳaʋa"],
     xqa: ["yaŋı", "jaŋɯ"],
     juc: ["ice", "itʃə"],
-    zkt: ["𘬥𘭛", "ʃen"]
+    zkt: ["𘬥𘭛", "ʃen"],
+    gez: ["ሐዲስ", "ħaddis"],
+    arc: ["ܚܕܬܐ", "ħaðtaː"],
+    orv: ["новъ", "novŭ"],
+    qwc: ["musuq", "mosoq"],
+    ohu: ["új", "uːj"]
   }
 };

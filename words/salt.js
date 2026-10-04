@@ -1232,6 +1232,7 @@ WORDS.salt = {
     yuy: ["daabsən", "daːbsən"],
     zh_song: ["鹽", "iɛm"],
     pura: ["*salɜ", "salɜ"],
-    juc: ["datsu", "datsu"]
+    juc: ["datsu", "datsu"],
+    ohu: ["só", "ʃoː"]
   },
 };

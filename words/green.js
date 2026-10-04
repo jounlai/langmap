@@ -1010,6 +1010,8 @@ WORDS.green = {
     xng: ["ᠨ᠋ᠣᠬᠤᠬᠠᠨ", "noɣuɣan"],
     otk: ["𐰖𐰽𐰞", "jaʃɯl"],
     txg: ["𗺭", "dʑjow˧"],
-    juc: ["burha boco", "burxa botʃo"]
+    juc: ["burha boco", "burxa botʃo"],
+    qwc: ["qumir", "qomir"],
+    ohu: ["zöld", "zøld"]
   }
 };

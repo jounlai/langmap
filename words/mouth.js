@@ -1167,6 +1167,8 @@ WORDS.mouth = {
     pmh: ["मुह", "muha"],
     xag: ["ʒ́owmowx̣", "dʑumuχ"],
     xqa: ["ağız", "aɣɯz"],
-    juc: ["angga", "aŋɡa"]
+    juc: ["angga", "aŋɡa"],
+    qwc: ["simi", "simi"],
+    ohu: ["száj", "saːj"]
   }
 };

@@ -1069,6 +1069,8 @@ WORDS.horse = {
     zh_song: ["馬", "ma"],
     pmh: ["अस्स", "asːa"],
     xlu: ["azzu-", "ˈatsːu"],
-    juc: ["muri", "muri"]
+    juc: ["muri", "muri"],
+    ohu: ["ló", "loː"],
+    onw: ["ⲙⲟⲩⲣⲧ", "murt"]
   }
 };

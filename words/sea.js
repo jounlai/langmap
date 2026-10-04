@@ -1035,6 +1035,9 @@ WORDS.sea = {
     tar: ["mar", "maɾ"],
     zh_song: ["海", "xai"],
     xqa: ["täŋiz", "tæŋiz"],
-    juc: ["mede", "mədə"]
+    juc: ["mede", "mədə"],
+    qwc: ["mama qucha", "mama qotʃa"],
+    ohu: ["tenger", "tɛŋɡɛr"],
+    onw: ["ⲑⲁⲗⲁⲥ", "tʰalas"]
   }
 };

@@ -1091,6 +1091,8 @@ WORDS.person = {
     zh_song: ["人", "ɽiən"],
     ptai: ["*ɢwɯn", "ɢwɯn"],
     pmh: ["मणुस्स", "maɳusːa"],
-    xag: ["išow", "iʃu"]
+    xag: ["išow", "iʃu"],
+    qwc: ["runa", "runa"],
+    ohu: ["ember", "ɛmbɛr"]
   }
 };

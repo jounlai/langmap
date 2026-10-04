@@ -820,6 +820,11 @@ WORDS.rice = {
     h_tagalog: ["ᜊᜒᜄᜐ᜔", "biˈɡas"],
     xqa: ["tuturqan", "tuturqan"],
     txg: ["𘌐", "kʰie˧˥"],
-    juc: ["bele", "bələ"]
+    juc: ["bele", "bələ"],
+    gez: ["ራዛ", "raːzaː"],
+    arc: ["ܪܘܙܐ", "ruzzaː"],
+    sog: ["ryzʾkh", "reːzaːk"],
+    och: ["米", "*(C.)mˤ[e]jʔ"],
+    sukh: ["ข้าว", "kʰaːw"]
   }
 };

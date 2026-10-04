@@ -1145,6 +1145,7 @@ WORDS.wind = {
     zh_song: ["風", "fuŋ"],
     pmay: ["*ʔiʔqʼ", "ʔiʔqʼ"],
     pmh: ["वाय", "ʋaːja"],
-    juc: ["edu", "ədu"]
+    juc: ["edu", "ədu"],
+    ohu: ["szél", "seːl"]
   },
 };

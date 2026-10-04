@@ -1230,6 +1230,7 @@ WORDS.black = {
     tsz: ["turhipiti", "tuɽipiti"],
     zh_song: ["黑", "xei"],
     pmh: ["काल", "kaːla"],
-    juc: ["sahalian", "saxalian"]
+    juc: ["sahalian", "saxalian"],
+    ohu: ["fekete", "fɛkɛtɛ"]
   },
 };

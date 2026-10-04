@@ -1060,6 +1060,8 @@ WORDS.mountain = {
     pmh: ["गिरि", "ɡiri"],
     xlu: ["watti-", "ˈwatːi"],
     xag: ["bow", "bu"],
-    txg: ["𘑗", "ŋər˧"]
+    txg: ["𘑗", "ŋər˧"],
+    qwc: ["urqu", "orqo"],
+    ohu: ["hegy", "hɛɟ"]
   }
 };

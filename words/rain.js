@@ -1122,6 +1122,7 @@ WORDS.rain = {
     kfr: ["મીં", "mĩː"],
     blk: ["ခမ်း", "kʰam˥˧"],
     zh_song: ["雨", "iu"],
-    juc: ["agu", "aɡu"]
+    juc: ["agu", "aɡu"],
+    ohu: ["eső", "ɛʃøː"]
   },
 };

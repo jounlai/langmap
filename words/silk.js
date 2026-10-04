@@ -756,6 +756,10 @@ WORDS.silk = {
     mjg: ["tiriga", "tiriɡa"],
     zh_song: ["絲", "sɿ"],
     xct_litpr: ["དར", "dar"],
-    xqa: ["torqu", "torqu"]
+    xqa: ["torqu", "torqu"],
+    gez: ["ሐሪር", "ħariːr"],
+    orv: ["шелкъ", "ʃelkŭ"],
+    ohu: ["selyem", "ʃɛjɛm"],
+    sog: ["cγnh", "tʃaɣnaː"]
   }
 };

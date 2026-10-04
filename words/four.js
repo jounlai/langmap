@@ -1214,6 +1214,7 @@ WORDS.four = {
     yuy: ["dørwen", "dørwen"],
     xav: ["maparane siʼuiwa", "mapaɾane siʔuiwa"],
     zh_song: ["四", "sɿ"],
-    xlu: ["māuwa-", "ˈmaːuwa"]
+    xlu: ["māuwa-", "ˈmaːuwa"],
+    onw: ["ⲕⲉⲙⲥⲟ", "kemso"]
   },
 };

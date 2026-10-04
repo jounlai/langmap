@@ -855,6 +855,8 @@ WORDS.butterfly = {
     kri: ["bɔtaflay", "bɔtaflaj"],
     zh_song: ["胡蝶", "xu tiɛ"],
     xct_litpr: ["ཕྱེ་མ་ལེབ", "pʰje ma leb"],
-    xqa: ["käpäli", "kæpæli"]
+    xqa: ["käpäli", "kæpæli"],
+    qwc: ["pillpintu", "piʎpintu"],
+    och: ["胡蝶", "*[ɡ]ˤa lˤep"]
   },
 };

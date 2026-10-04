@@ -1118,6 +1118,7 @@ WORDS.egg = {
     blk: ["ဒီႏ", "di˥˥"],
     jqr: ["nuru", "nuɾu"],
     yuy: ["bala", "bala"],
-    mjg: ["dige", "diɡe"]
+    mjg: ["dige", "diɡe"],
+    sog: ["mrγyzʾty", "mərɣezaːteː"]
   },
 };

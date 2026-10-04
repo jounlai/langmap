@@ -1042,6 +1042,7 @@ WORDS.book = {
     tar: ["libro", "libɾo"],
     zh_song: ["書", "ʂiu"],
     xqa: ["bitig", "bitiɡ"],
-    otk: ["𐰋𐰃𐱅𐰃𐰏", "bitiɡ"]
+    otk: ["𐰋𐰃𐱅𐰃𐰏", "bitiɡ"],
+    ohu: ["könyv", "køɲv"]
   }
 };

@@ -1145,6 +1145,9 @@ WORDS.head = {
     pmh: ["सीस", "siːsa"],
     txg: ["𗥦", "ɣu˧"],
     juc: ["uju", "udʒu"],
-    zkt: ["𘱘", "nai"]
+    zkt: ["𘱘", "nai"],
+    orv: ["голова", "ɡolova"],
+    qwc: ["uma", "uma"],
+    ohu: ["fő", "føː"]
   },
 };

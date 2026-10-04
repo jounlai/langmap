@@ -1192,6 +1192,7 @@ WORDS.five = {
     woe: ["liime", "liːme"],
     nys: ["maar", "maːɻ"],
     lep: ["ᰑᰅᰫ", "fəŋu"],
-    trm: ["põč", "põtʃ"]
+    trm: ["põč", "põtʃ"],
+    xav: ["ĩmrotõ", "ĩmɾɔˈtɔ̃"]
   },
 };

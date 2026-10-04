@@ -1014,6 +1014,7 @@ WORDS.green = {
     qwc: ["qumir", "qomir"],
     ohu: ["zöld", "zøld"],
     pal: ["𐭮𐭯𐭦", "sabz"],
-    cop: ["ⲟⲩⲟⲧⲟⲩⲉⲧ", "uotuet"]
+    cop: ["ⲟⲩⲟⲧⲟⲩⲉⲧ", "uotuet"],
+    din: ["tɔ̈c", "tɔtʃ"]
   }
 };

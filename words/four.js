@@ -1216,6 +1216,7 @@ WORDS.four = {
     zh_song: ["四", "sɿ"],
     xlu: ["māuwa-", "ˈmaːuwa"],
     onw: ["ⲕⲉⲙⲥⲟ", "kemso"],
-    pal: ["𐭰𐭧𐭠𐭫", "tʃahaːr"]
+    pal: ["𐭰𐭧𐭠𐭫", "tʃahaːr"],
+    aau: ["ihaiha-aw", "ihaiha aw"]
   },
 };

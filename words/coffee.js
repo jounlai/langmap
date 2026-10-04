@@ -116,6 +116,7 @@ WORDS.coffee = {
     sw: "Kahawa — kinywaji kinachotengenezwa kwa nafaka za kahawa zilizochomwa. Neno la kila siku kwa kinywaji: si mmea, si punje mbichi, si mkahawa, wala si rangi.",
   },
   family: {
+    acf: "qahwa",
     lue: "qahwa",
     tum: "qahwa",
     lun: "qahwa",
@@ -659,6 +660,7 @@ WORDS.coffee = {
     other: { color: "#6b7280", emoji: "🫘", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
   data: {
+    acf: ["kafé", "kafe"],
     lue: ["kofi", "kofi"],
     tum: ["khofi", "kʰofi"],
     lun: ["kofi", "kofi"],

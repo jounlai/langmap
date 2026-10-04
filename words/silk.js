@@ -766,6 +766,8 @@ WORDS.silk = {
     okz: ["សូត្រ", "suːt"],
     nan_ph: ["絲", "si˧˧"],
     en_jam: ["silk", "sɪlk"],
-    sms: ["šolkk", "ʃolkː"]
+    sms: ["šolkk", "ʃolkː"],
+    gld: ["сэурэ", "səurə"],
+    bru: ["dai", "daj"]
   }
 };

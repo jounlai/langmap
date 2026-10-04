@@ -859,6 +859,8 @@ WORDS.butterfly = {
     qwc: ["pillpintu", "piʎpintu"],
     och: ["胡蝶", "*[ɡ]ˤa lˤep"],
     czh_wy: ["蒲翼", "pʰu˩˩ iɔ˥˩"],
-    en_jam: ["butterfly", "ˈbɵtəflaɪ"]
+    en_jam: ["butterfly", "ˈbɵtəflaɪ"],
+    xav: ["piro", "piˈɾɔ"],
+    acf: ["papiyòt", "papijɔt"]
   },
 };

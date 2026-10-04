@@ -1150,6 +1150,7 @@ WORDS.head = {
     qwc: ["uma", "uma"],
     ohu: ["fő", "føː"],
     pal: ["𐭮𐭫", "sar"],
-    kho: ["𑀓𑀫𑀮", "kamala"]
+    kho: ["𑀓𑀫𑀮", "kamala"],
+    com: ["paapi", "paːpi"]
   },
 };

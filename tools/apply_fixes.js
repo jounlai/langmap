@@ -110,7 +110,13 @@ for (const [concept, items] of Object.entries(byConcept)) {
         const re = entryRe(o.code);
         const hit = re.exec(src);
         if (!hit) {
-            console.log(`  REFUSED  ${concept} ${o.code} — no such cell (use apply_cells.js to add one)`);
+            // An object-format cell ({ form:, ipa:, alt: [...] }) has no two-column
+            // array to match. Say so: the generic message sent juc fire/dog fixes
+            // from r46 into the "no such cell" pile, where they were missed until r49.
+            const obj = new RegExp(`\\n\\s+["']?${o.code.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}["']?:\\s*\\{`).test(src);
+            console.log(obj
+                ? `  REFUSED  ${concept} ${o.code} — OBJECT-FORMAT cell (form:/ipa:); edit form and ipa by hand`
+                : `  REFUSED  ${concept} ${o.code} — no such cell (use apply_cells.js to add one)`);
             refused++;
             continue;
         }

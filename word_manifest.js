@@ -99,7 +99,7 @@ const WORD_CATEGORIES = [
         label: {
             en: "Experimental", ja: "実験中", ko: "실험 중", zh: "实验中", yue: "實驗中", vi: "Thử nghiệm", th: "ทดลอง", id: "Eksperimental", hi: "प्रयोगात्मक", de: "Experimentell", fr: "Expérimental", it: "Sperimentale", es: "Experimental", pt: "Experimental", ru: "Экспериментальные", uk: "Експериментальні", ar: "تجريبي", he: "ניסיוני", sw: "Majaribio"
         },
-        words: ["blue", "cuckoo", "woof", "cockcrow", "computer", "wifi", "sushi", "tea", "coffee", "sugar", "orange", "n99", "dopamine", "atsign"],
+        words: ["blue", "cuckoo", "woof", "cockcrow", "computer", "wifi", "sushi", "tea", "coffee", "sugar", "orange", "n99", "dopamine", "atsign", "lol"],
     },
 ];
 

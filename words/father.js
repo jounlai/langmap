@@ -986,7 +986,7 @@ WORDS.father = {
     tue: ["pakʉ", "pakɨ"],
     emp: ["zeze", "ˈzeze"],
     kpe: ["laai", "laːi"],
-    bsq: ["gbe", "ɡbe"],
+    bsq: ["ɓa", "ɓa"],
     loz: ["ndate", "ndate"],
     bbc: ["ama", "ama"],
     bts: ["bapa", "bapa"],

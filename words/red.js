@@ -116,7 +116,7 @@ WORDS.red = {
     nez: ["ʼilpʼílp", "ʔilpʼílp"],
     woe: ["paare", "paːɻe"],
     pmt: ["kura", "kuɾa"],
-    bin: ["baba", "baba"],
+    bin: ["baa", "baː"],
     khw: ["لال", "laːl"],
     xav: ["ĩpré", "ĩˈpɾɛ"],
     ter: ["hararáʼiti", "haɾaˈɾaʔiti"],

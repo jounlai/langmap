@@ -906,7 +906,7 @@ WORDS.eye = {
     pwo: ["မဲာ်", "mɛ"],
     lhu: ["mɛhˇ", "mɛ̂ʔ"],
     lis: ["mya", "mʲa"],
-    nxq: ["nyi", "ɲi˧"],
+    nxq: ["mieq", "miə˨˩"],
     shn: ["တႃ", "taː˨˦"],
     jio: ["kɯtou", "kɯ˧˩tou˥"],
     kbp: ["ɛsɩ", "ɛsɪ"],

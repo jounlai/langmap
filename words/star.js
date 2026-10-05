@@ -847,7 +847,7 @@ WORDS.star = {
       anu: ["cero", "tʃero"],
       luo: ["sulwe", "sulwɛ"],
       mas: ["olakira", "olakira"],
-      bfa: ["toŋ", "toŋ"],
+      bfa: ["kaserokoti", "kaserokoti"],
       saq: ["lakira", "lakira"],
       aa: ["cutuk", "ħutuk"],
       shi: ["ⵉⵜⵔⵉ", "itri"],

@@ -739,7 +739,7 @@ WORDS.love = {
     mixtec: ["kúu ini", "kúu ini"],
     zap: ["ranaxhii", "ɾanaʃiː"],
     zts: ["nadxiiebia", "nadʒiːebia"],
-    maz: ["hñu", "ɲ̥u"],
+    maz: ["siya", "sija"],
     mix: ["kúu ini", "kúu ini"],
     mxv: ["kunduu ini", "kundúː iniʔ"],
     toc: ["paʼksuu", "paʔksuː"],

@@ -898,7 +898,7 @@ WORDS.fire = {
     pwo: ["မ့ၣ်ဖါ", "mei pʰa"],
     lhu: ["a-mí", "amí"],
     lis: ["a-mi", "ami"],
-    nxq: ["mee", "mɯ˧"],
+    nxq: ["mi", "mi˧"],
     shn: ["ၾႆး", "faj˥"],
     jio: ["paːi", "paːi˥"],
     kbp: ["miŋ", "miŋ"],

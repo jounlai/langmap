@@ -83,6 +83,16 @@ WORDS.lol = {
     bn: ["হা হা", "ha ha"],
     pa: ["ਹਾਹਾ", "haːhaː"],
     ml: ["ഹഹ", "haha"],
-    my: ["ဟားဟား", "há há"]
+    my: ["ဟားဟား", "há há"],
+    ne: ["हाहा", "haːhaː"],
+    eu: ["karkarkar", "karkarkar"],
+    et: ["hahaha", "ˈhɑhɑhɑ"],
+    sr: ["хахаха", "ˈxaxaxa"],
+    pl: ["xD", "iks dɛ"],
+    de: ["lol", "lɔl"],
+    da: ["lol", "lʌlˀ"],
+    no: ["lol", "lɔlː"],
+    yo: ["ẹ̀rín kèékèé", "ɛ̀ɾĩ́ kèékèé"],
+    eo: ["mdr", "mo do ro"]
   },
 };

@@ -1103,6 +1103,8 @@ WORDS.person = {
     ar_ye: ["شخص", "ʃaxsˤ"],
     kjj: ["хӏаьдми", "ħædmi"],
     fia: ["íd", "íd"],
-    nmn: ["tâa", "taː"]
+    nmn: ["tâa", "taː"],
+    rmt: ["manus", "manus"],
+    hup: ["kʼiwinyaʼa:n", "kʲʼiwinjaʔaːn"]
   }
 };

@@ -1153,6 +1153,7 @@ WORDS.nose = {
     juc: ["sunggi", "suŋɡi"],
     hai: ["kún", "kʰún"],
     fia: ["sòrìŋ", "sòrìŋ"],
-    kqz: ["ǂuib", "ǂuib"]
+    kqz: ["ǂuib", "ǂuib"],
+    rmt: ["pirin", "pirin"]
   },
 };

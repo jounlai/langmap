@@ -770,6 +770,7 @@ WORDS.silk = {
     gld: ["сэурэ", "səurə"],
     bru: ["dai", "daj"],
     vmw: ["seda", "seda"],
-    toj: ["seda", "seda"]
+    toj: ["seda", "seda"],
+    brh: ["اربیشم", "arbeːʃum"]
   }
 };

@@ -1131,6 +1131,7 @@ WORDS.rain = {
     fia: ["áwwí", "áwːí"],
     kqz: ["tūs", "tuːs"],
     ktz: ["gǃà", "ᶢǃà"],
-    nmn: ["ǃkxʼôe", "ǃkxʼoe"]
+    nmn: ["ǃkxʼôe", "ǃkxʼoe"],
+    rmt: ["wars", "wars"]
   },
 };

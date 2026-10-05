@@ -1156,6 +1156,7 @@ WORDS.sleep = {
     hai: ["ḵʼa", "qʼa"],
     fia: ["nèèr-", "nèːr"],
     kqz: ["ǁūm", "ǁʔuːm"],
-    ktz: ["tsʼá", "tsʼá"]
+    ktz: ["tsʼá", "tsʼá"],
+    rmt: ["šuš-", "ʃuʃ"]
   },
 };

@@ -1122,6 +1122,7 @@ WORDS.egg = {
     sog: ["mrγyzʾty", "mərɣezaːteː"],
     hai: ["ḵáw", "qʰáw"],
     fia: ["kúmbúú", "kúmbúː"],
-    nmn: ["ᶢǂúã", "ᶢǂũã"]
+    nmn: ["ᶢǂúã", "ᶢǂũã"],
+    rmt: ["ana", "ana"]
   },
 };

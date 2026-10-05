@@ -1179,6 +1179,9 @@ WORDS.mouth = {
     kwa: ["nɔ̃h", "nɔ̃h"],
     bbl: ["ბაქ", "bak"],
     fia: ["ág", "áɡ"],
-    nmn: ["ǂûe", "ǂue"]
+    nmn: ["ǂûe", "ǂue"],
+    khw: ["اپاک", "aˈpaːk"],
+    rmt: ["zari", "zari"],
+    hup: ["-daʼ", "-daʔ"]
   }
 };

@@ -773,7 +773,7 @@ WORDS.father = {
     oj: ["indede", "indede"],
     atj: ["ohi", "ohi"],
     mic: ["nujj", "nudʒː"],
-    pqm: ["mihtaqs", "mihtaqs"],
+    pqm: ["mihtaqs", "mihtakʷs"],
     abe: ["mitôgwes", "mitõɡwes"],
     umu: ["nóoxw", "noːxw"],
     crk: ["ᓅᐦᑖᐃᐧ", "noːhtaːwij"],

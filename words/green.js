@@ -1018,6 +1018,7 @@ WORDS.green = {
     din: ["tɔ̈c", "tɔtʃ"],
     kwa: ["mɨ̃̂", "mɨ̃̂"],
     kjj: ["сыб", "sɨb"],
-    nus: ["tɔc", "tɔtʃ"]
+    nus: ["tɔc", "tɔtʃ"],
+    rmt: ["axḍar", "axdˤar"]
   }
 };

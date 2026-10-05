@@ -974,6 +974,7 @@ WORDS.snow = {
     mxv: ["nieve", "njeβe"],
     cak: ["nieve", "ˈnjebe"],
     cab: ["niewe", "niewe"],
-    egy: ["𓐠𓏤𓂋𓏤𓈎𓅱𓇲𓏥", "salɡuː"]
+    egy: ["𓐠𓏤𓂋𓏤𓈎𓅱𓇲𓏥", "salɡuː"],
+    kgg: ["yaq", "jaq"]
   }
 };

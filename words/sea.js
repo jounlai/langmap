@@ -1043,6 +1043,8 @@ WORDS.sea = {
     xto: ["𑀲𑀸𑀫𑀼𑀤𑁆𑀢𑀭𑁆", "saːmudtər"],
     txb: ["𑀲𑀫𑀼𑀤𑁆𑀢𑀭𑁆", "samudtər"],
     en_jam: ["sea", "siː"],
-    xav: ["â poré", "ə pɔɾɛ"]
+    xav: ["â poré", "ə pɔɾɛ"],
+    khw: ["سمندار", "samanˈdaːr"],
+    rmt: ["baḥar", "baħar"]
   }
 };

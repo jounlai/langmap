@@ -835,6 +835,7 @@ WORDS.rice = {
     ar_ye: ["رز", "rizz"],
     sms: ["riss", "risː"],
     xav: ["aro", "aˈɾɔ"],
-    gym: ["aro", "aɾo"]
+    gym: ["aro", "aɾo"],
+    tlh: ["ray' tIr", "rajʔ tɪr"]
   }
 };

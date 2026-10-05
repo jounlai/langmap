@@ -1159,6 +1159,7 @@ WORDS.head = {
     fia: ["ùr", "ùr"],
     anu: ["wic", "witʃ"],
     kqz: ["ǃãb", "ǃʔãb"],
-    ktz: ["nǀáí", "ᵑǀáí"]
+    ktz: ["nǀáí", "ᵑǀáí"],
+    rmt: ["siri", "siri"]
   },
 };

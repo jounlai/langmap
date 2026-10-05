@@ -1240,6 +1240,9 @@ WORDS.salt = {
     myz: ["ࡌࡉࡄࡋࡀ", "mihla"],
     aiw: ["sooq", "soːq"],
     fvr: ["kerra", "kɛrːa"],
-    ktz: ["gúí", "ɡúí"]
+    ktz: ["gúí", "ɡúí"],
+    tlh: ["qut na'", "qut naʔ"],
+    rmt: ["lon", "lon"],
+    hup: ["łehqʼonchʼ", "ɬehqʼontʃʼ"]
   },
 };

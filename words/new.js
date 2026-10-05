@@ -1131,6 +1131,7 @@ WORDS.new = {
     okz: ["ថ្មី", "tʰmiː"],
     hai: ["g̱áwtlaa", "ɢáwtɬaː"],
     bbl: ["ცʼინი̆", "tsʼini"],
-    fia: ["míríí", "míríː"]
+    fia: ["míríí", "míríː"],
+    rmt: ["nawa", "nawa"]
   }
 };

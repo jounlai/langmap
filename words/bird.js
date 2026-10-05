@@ -1172,6 +1172,8 @@ WORDS.bird = {
     xpu: ["𐤑𐤐𐤓", "sˤippor"],
     aiw: ["afti", "afti"],
     kqz: ["xʼanis", "xʼanis"],
-    ktz: ["tsʼàmà", "tsʼàmà"]
+    ktz: ["tsʼàmà", "tsʼàmà"],
+    khw: ["بوئیک", "boˈik"],
+    rmt: ["ṭēr", "tˤeːr"]
   },
 };

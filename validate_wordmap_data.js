@@ -858,6 +858,7 @@ if (LANG_NAMES) {
 // Dictionary confirms no culturally fixed greeting or thanks word). This is a
 // documented linguistic fact, not a data gap, so it must not trigger the CI gate.
 let modernDashErrors = 0, oneSidedDashErrors = 0;
+const IPA_OPTIONAL = new Set(['lol']);
 const dso = ctx.DATA_STATUS_OVERRIDES || {};
 for (const code of codes) {
     const isHist = HIST_SET.has(code);
@@ -872,6 +873,10 @@ for (const code of codes) {
         const wDash = isDash(w);
         const iDash = isDash(ipa);
         if (!wDash && !iDash) continue;
+        // Concepts whose forms may be typed-only (no read-aloud form): a real
+        // surface with an empty IPA is a deliberate cell, not a gap. Owner
+        // decision 2026-10-05 for lol (wkwk, KTK, kkkk …). Keep this list short.
+        if (IPA_OPTIONAL.has(id) && !wDash && ipa === '') continue;
         if (wDash && iDash) {
             const unattestedReason = lang.meta?.unattestedReason?.[id];
             const isCulturalAbsence = unattestedReason === 'cultural-absence';

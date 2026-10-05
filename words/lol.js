@@ -93,6 +93,29 @@ WORDS.lol = {
     da: ["lol", "lʌlˀ"],
     no: ["lol", "lɔlː"],
     yo: ["ẹ̀rín kèékèé", "ɛ̀ɾĩ́ kèékèé"],
-    eo: ["mdr", "mo do ro"]
+    eo: ["mdr", "mo do ro"],
+    tl: ["HAHAHAHA", "hahahaha"],
+    // id: lol round 3, slice C (2026-10-05). Settles round-1/2 holds that were held only because the form is not read aloud (Round 3 addendum: empty IPA allowed). RoW = Rest of World, "How different languages laugh online", Amy Thorpe & Ravi Hiranand, 18 Dec 2023, https://restofworld.org/2023/how-people-laugh (typed, not read aloud — no IPA)
+    id: ["wkwk", ""],
+    // mi: mi: Te Aka Māori Dictionary (https://maoridictionary.co.nz/word/48234), kino te kata: "laughing out loud, dying of laughter - the abbreviation of this idiom (KTK) is used as the Māori version of LOL ... the acronym KTK seen largely on social media". RoW: "ktk — Maori — Short for 'kaha te katakata' . (typed, not read aloud — no IPA)
+    mi: ["KTK", ""],
+    // jam: jam: en.wiktionary "DWL" (Jamaican Creole, alt. dwl): "(Internet slang, text messaging) LOL", from dead + wid + laugh, in the category Jamaican Creole internet laughter slang (cites jamaicanpatwah.com). RoW: "dwl — Jamaican Creole — Short for 'dead wid laugh'". Initialism with no reading, so the IPA (typed, not read aloud — no IPA)
+    jam: ["dwl", ""],
+    // pcm: pcm: RoW: "lwkm — Nigerian Pidgin — Short for 'laugh wan kill me'"; "lwkmd — Taking it a step further", so lwkm is the base form and lwkmd the stronger one. Initialism with no reading, so the IPA is empty. RoW only (no second source found). (typed, not read aloud — no IPA)
+    pcm: ["lwkm", ""],
+    // zu: zu: RoW: "kkkk — Zulu — Used in Zulu, Xhosa, Shona, Oromo, and other languages to express laughter". Repeated letters with no sourced reading, so the IPA is empty. (typed, not read aloud — no IPA)
+    zu: ["kkkk", ""],
+    // xh: xh: RoW Zulu entry (above) names Xhosa. IPA empty. (typed, not read aloud — no IPA)
+    xh: ["kkkk", ""],
+    // sn: sn: RoW Zulu entry (above) names Shona. IPA empty. (typed, not read aloud — no IPA)
+    sn: ["kkkk", ""],
+    // om: om: RoW, Oromo entry: "kkk — Oromo — Used to imitate laughing" (the Zulu kkkk entry also names Oromo). The Oromo entry's own spelling is used. IPA empty. (typed, not read aloud — no IPA)
+    om: ["kkk", ""],
+    // so: so: RoW: "hhhh — Somali — Used in Somali, Kinyarwanda, and other languages to imitate laughing". IPA empty. (typed, not read aloud — no IPA)
+    so: ["hhhh", ""],
+    // rw: rw: RoW Somali entry (above) names Kinyarwanda. IPA empty. (typed, not read aloud — no IPA)
+    rw: ["hhhh", ""],
+    // zgh: zgh: RoW: "ⵀⵀⵀⵀ — Tamazight — Translated into English, this can be read as 'hhhh'" (Tifinagh ⵀ = h). Given to zgh (Standard Moroccan Tamazight, the Tifinagh standard). Other Tifinagh rows (tzm, shi, rif) not filled, since RoW names only "Tamazight". IPA empty: no syllabic reading is sourced. (typed, not read aloud — no IPA)
+    zgh: ["ⵀⵀⵀⵀ", ""]
   },
 };

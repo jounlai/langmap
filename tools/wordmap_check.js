@@ -119,7 +119,8 @@ for (const wd of Object.keys(W)) {
     cells++; const c = d[l];
     if (Array.isArray(c)) {
       if (c.length !== 2 || typeof c[0] !== 'string' || typeof c[1] !== 'string') badShape.push({ word: wd, lang: l, val: JSON.stringify(c).slice(0, 60) });
-      else if (!c[0] || !c[1]) gaps.push({ word: wd, lang: l, val: JSON.stringify(c) });
+      // lol may be typed-only (wkwk, KTK): empty IPA allowed there (owner, 2026-10-05)
+      else if (!c[0] || (!c[1] && wd !== 'lol')) gaps.push({ word: wd, lang: l, val: JSON.stringify(c) });
     } else if (c && typeof c === 'object') {
       if (!c.form || !c.ipa) badShape.push({ word: wd, lang: l, val: 'object missing form/ipa: ' + JSON.stringify(c).slice(0, 60) });
     } else badShape.push({ word: wd, lang: l, val: JSON.stringify(c) });

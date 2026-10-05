@@ -129,6 +129,13 @@ WORDS.lol = {
     vi: ["hihi", "hi˧ hi˧"],
     ms: ["haha", "ˈhaha"],
     // ga: ga — RoW (https://restofworld.org/2023/how-people-laugh-online/): "goa — Irish — An abbreviation of 'gáire ós árd,' meaning 'lol' in the Irish language". ga.wikipedia "Teanga SMS" (abbreviation list): "(a)goa - (ag) gáire os ard, nó, asg - ag scairteadh gáire (lol)". Also en.wiktionary "LOL" transla (typed, not read aloud — no IPA)
-    ga: ["goa", ""]
+    ga: ["goa", ""],
+    nl: ["haha", "ˈɦaːɦaː"],
+    cs: ["haha", "ˈɦaɦa"],
+    ca: ["hahaha", "hahaha"],
+    // af: lol round 5, slice F (Africa and the Middle East). 2026-10-05. af: (1) af.wikipedia "LOL (Internet slang)" (https://af.wikipedia.org/wiki/LOL_(Internet_slang)): "Die Afrikaanse ekwivalent wat dikwels gesien word is LMGA, wat staan vir 'lag my gat af'." (2) Urban Dictionary "LMGA" (Trollpatrol747, 23 (no sourced reading — shown as pronunciation unknown)
+    af: ["LMGA", ""],
+    // pt: pt (European Portuguese row) — (1) en.wiktionary "kkk" (Portuguese): synonyms "ah ah ah<qq:Portugal>", and en.wiktionary "ah ah ah" (Portuguese): alternative form "ahahah", "(comics, internet slang) hahaha ... a very common laugh". (2) Philipe Brazuca, "Laugh in Portuguese: kkkk, rsrs and How Brazil (no sourced reading — shown as pronunciation unknown)
+    pt: ["ahahah", ""]
   },
 };

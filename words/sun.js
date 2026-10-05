@@ -283,7 +283,7 @@ WORDS.sun = {
     my: ["နေ", "nè"],
     km: ["ព្រះអាទិត្យ", "prĕəh ʔaːtɨt"],
     lo: ["ຕາເວັນ", "taː˩˧ ven˧˥"],
-    soa: ["ตะวัน", "ta˩˧ wan˧"],
+    soa: ["ตะวัน", "ta˨˦ wan˧˥˦"],
     yo: ["oòrùn", "oòɾũ̀"],
     zu: ["ilanga", "ilaŋɡa"],
     am: ["ፀሐይ", "tsʼɛhaj"],

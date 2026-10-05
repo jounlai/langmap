@@ -2105,7 +2105,7 @@ WORDS.foot = {
     sms: ["jueʹlǧǧ", "ʝuɛlʲɟɟʝʲɘ"],  // One word for the whole lower limb, the Uralic norm.
     sn: ["tsoka", "tsoka"],  // Shona splits them: tsoka is the foot and gumbo the leg, the latter with the page reference to Hannan in the Tervuren lexicostatistic file.
     so: ["cago", "ʕaɡo"],  // Somali splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes gacan as ɡaʕan.
-    soa: ["ตีน", "tiːn˧"],  // The Tai tin/kha split: ตีน against ขา. Thai Song is the Thailand-resident Black Tai, and ABVD's Tai Dam list (Pittayaporn 2021) gives tin¹ 'foot' beside kʰaː¹ 'leg'.
+    soa: ["ตีน", "tiːn˨˦"],  // The Tai tin/kha split: ตีน against ขา. Thai Song is the Thailand-resident Black Tai, and ABVD's Tai Dam list (Pittayaporn 2021) gives tin¹ 'foot' beside kʰaː¹ 'leg'. // was ["ตีน", "tiːn˧"] (r51 audit 2026-10-04)
     sog: ["pʾδ", "paːð"],  // Asha, Compendious Sogdian Dictionary glosses <pʾδ> /pā́δ/ 'foot, leg' outright; the oblique <pδ-> is the same lexeme.
     spp: ["tɔɔgɔ", "tɔːɡɔ"],  // one word for the limb: the Supyire New Testament washes feet and breaks legs with the same tooyi.
     sq: ["këmbë", "kəmbə"],  // Albanian këmbë is one word for the whole lower limb.

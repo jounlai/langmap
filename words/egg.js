@@ -236,7 +236,7 @@ WORDS.egg = {
     ps: ["هګۍ", "haɡəi"],
     az: ["yumurta", "jumuɾˈta"],
     azb: ["يومورتا", "jumurta"],
-    gag: ["yumurta", "jumurta"],
+    gag: ["yımırta", "jɯmɯrta"],
     ug: ["تۇخۇم", "tuxum"],
     kk: ["жұмыртқа", "ʒʊmərtˈqa"],
     ky: ["жумуртка", "dʒumurtˈqa"],

@@ -284,7 +284,7 @@ WORDS.eat = {
     my: ["စား", "sá"],
     km: ["ញ៉ាំ", "ɲam"],
     lo: ["ກິນ", "kin˩˧"],
-    soa: ["กิน", "kin˧"],
+    soa: ["กิน", "kin˨˦"],
     yo: ["jẹ", "dʒɛ"],
     zu: ["ukudla", "ukuɮa"],
     am: ["መብላት", "mɛblat"],

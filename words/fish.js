@@ -287,7 +287,7 @@ WORDS.fish = {
     my: ["ငါး", "ŋá"],
     km: ["ត្រី", "trəj"],
     lo: ["ປາ", "paː˩˧"],
-    soa: ["ปลา", "paː˧"],
+    soa: ["ปลา", "paː˨˦"],
     yo: ["ẹja", "ɛdʒa"],
     zu: ["inhlanzi", "iɬanzi"],
     am: ["አሳ", "asa"],

@@ -501,7 +501,7 @@ WORDS.salt = {
     // --- Mainland Southeast Asia ------------------------------------------
     vi_s: ["muối", "muəj˧˥"],
     sukh: ["เกลือ", "klɯa"],
-    kxm: ["អំបិល", "ʔəmbəl"],
+    kxm: ["អំបិល", "mmel"],
     sat: ["ᱵᱩᱞᱩᱝ", "buluŋ"],
     unr: ["bulung", "buluŋ"],
     hoc: ["bulung", "buluŋ"],
@@ -774,7 +774,7 @@ WORDS.salt = {
     vi_c: ["muối", "muəj˧˥"],
     p_aav: ["*ɓɔːh", "ɓɔːh"],
     p_viet: ["*ɓɔːjʔ", "ɓɔːjʔ"],
-    soa: ["เกลือ", "kɯa˧"],
+    soa: ["เกีย", "kiːa˨˦"],
     th_isan: ["เกือ", "kɯa˥"],
     th_n: ["เกื๋อ", "kɯa˩˧"],
     th_s: ["เกลือ", "klɯa˥"],

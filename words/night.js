@@ -289,7 +289,7 @@ WORDS.night = {
     my: ["ည", "ɲa̰"],
     km: ["យប់", "jup"],
     lo: ["ຄືນ", "kʰɯːn˧˥"],
-    soa: ["คืน", "kʰɯːn˧"],
+    soa: ["คืน", "kʰɯːn˧˥˦"],
     yo: ["alẹ́", "alɛ́"],
     zu: ["ubusuku", "ubusuku"],
     am: ["ሌሊት", "leːlit"],

@@ -474,7 +474,7 @@ WORDS.daughter = {
     lbj: ["བུ་མོ", "bumo"],
     sip: ["བུ་མོ", "bumo"],
     xsr: ["བུ་མོ", "bumo"],
-    rki: ["သမီး", "θəmí"],
+    rki: ["သမီး", "θəméɪɴ"],
     lus: ["fanu", "fanu"],
     cnh: ["fanu", "fanu"],
 
@@ -482,7 +482,7 @@ WORDS.daughter = {
     vi_s: ["con gái", "kɔŋ͡m˧ ɣaːj˧˥"],
     vi_c: ["con gái", "kɔŋ͡m˧ ɣaːj˧˥"],
     sukh: ["ลูกสาว", "luːk saːw"],
-    kxm: ["កូនស្រី", "koːn srəj"],
+    kxm: ["កូនស្រី", "koːn srɛj"],
     kha: ["khun kynthei", "kʰun kintʰei"],
 
     // --- Austronesian — very few of these rows have one word for it ------

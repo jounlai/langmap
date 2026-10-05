@@ -752,7 +752,7 @@ WORDS.wind = {
     nij: ["riwut", "riwut"],
     ami: ["fali", "fali"],
     pwn: ["vali", "vali"],
-    soa: ["ลม", "lom˧"],
+    soa: ["ลม", "lom˧˥˦"],
     tyz: ["lồm", "lom˨˩"],
     vi_c: ["gió", "ʝɔ˧˥"],
     cak: ["kaqʼiqʼ", "kaqʼiqʼ"],

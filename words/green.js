@@ -534,7 +534,7 @@ WORDS.green = {
     sg: ["ngûngunzä", "ŋɡuŋɡunza"],
     mos: ["kẽega", "kẽːɡa"],
     vmw: ["ekori ya mathapa", "ekoɾi ja matʰapa"],
-    rki: ["စိမ်း", "séiɴ"],
+    rki: ["စိမ်း", "sɪ́ɴ"],
     efi: ["awawa", "awawa"],
     snk: ["xalle", "xalːe"],
     emk: ["binkɛndɛlama", "binkɛndɛlama"],

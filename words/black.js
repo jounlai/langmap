@@ -384,7 +384,7 @@ WORDS.black = {
     th_isan: ["ดำ", "dam˧"],
     th_n: ["ดำ", "dam˧"],
     th_s: ["ดำ", "dam˧"],
-    soa: ["ดำ", "dam˧"],
+    soa: ["ดำ", "dam˨˦"],
     sukh: ["ดำ", "dam"],
     za: {
       form: "黯",
@@ -820,7 +820,7 @@ WORDS.black = {
     luy: ["eshimali", "eʃimali"],
     vmw: ["oriipa", "oɾiːpa"],
     shn: ["လမ်", "lam˨˦"],
-    rki: ["မည်း", "mɛ́"],
+    rki: ["မည်း", "mé"],
     snk: ["binne", "binːe"],
     mxc: ["tema", "tema"],
     yao: ["chepiliu", "tʃepiliu"],

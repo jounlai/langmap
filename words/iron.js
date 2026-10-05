@@ -435,7 +435,7 @@ WORDS.iron = {
     obr: ["သံ", "sam"],
     kha: ["nar", "nar"],
     sat: ["ᱢᱮᱬᱦᱮᱫ", "meɳhet"],
-    kxm: ["ដែក", "ɗaek"],
+    kxm: ["ដែក", "ɗɛːʔ"],
     vi_c: ["sắt", "ʂat˧˥"],
     vi_s: ["sắt", "ʂat˧˥"],
     vi_nom: ["鐵", "sat˧˥"],

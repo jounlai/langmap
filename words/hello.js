@@ -283,7 +283,7 @@ WORDS.hello = {
     my: ["မင်္ဂလာပါ", "mìɴɡəlà bà"],
     km: ["សួស្តី", "suəsdəj"],
     lo: ["ສະບາຍດີ", "sa˧˥ baːj˩˧ diː˩˧"],
-    soa: ["สบายดี", "sa˩˧ baːj˩˧ diː˩˧"],
+    soa: ["สบายดี", "sa˨˦ baːj˨˦ diː˨˦"],
     yo: ["ẹ kú", "ɛ kú"],
     zu: ["sawubona", "sawuɓona"],
     am: ["ሰላም", "sɛlam"],

@@ -1087,7 +1087,7 @@ WORDS.n99 = {
     shn: ["ၵဝ်ႈသိပ်းပၢႆၵဝ်ႈ", "kaw˧˨ sip˥ paːj˨˦ kaw˧˨"],
     bug: ["aséra pulona aséra", "asera pulona asera"],
     bjn: ["sambilan puluh sambilan", "sambilan puluh sambilan"],
-    rki: ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"],
+    rki: ["ကိုးဆယ့်ကိုး", "kó sʰḛ kó"], // was ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"] (r51 audit 2026-10-04)
     ii: ["ꈬꊰꈬ", "ɡu˧˧ tsʰi˧˧ ɡu˧˧"],
     wbm: ["tix dim dim", "ti dim dim"],
     hmn: ["cuaj caum cuaj", "cua˥˨ cau˨˩ˀ cua˥˨"],

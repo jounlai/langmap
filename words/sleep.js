@@ -225,7 +225,7 @@ WORDS.sleep = {
     pa: ["ਸੌਣਾ", "sɔːɳaː"],
     pnb: ["سونا", "sɔːɳaː"],
     ne: ["सुत्नु", "sutnu"],
-    dty: ["सुत्नु", "sutnu"],
+    dty: ["सिनु", "sinu"],
     mr: ["झोपणे", "dzʱopəɳe"],
     gu: ["સૂવું", "suːʋũ"],
     si: ["නිදනවා", "nidənəʋaː"],
@@ -584,7 +584,7 @@ WORDS.sleep = {
     shp: ["oxa", "oʂa"],
     rki: ["အိပ်", "eiʔ"],
     cnh: ["it", "ʔit"],
-    kxm: ["គេង", "keːŋ"],
+    kxm: ["ដេក", "deːʔ"],
     xng: ["ᠤᠨᠲᠠ", "unta"],
     ja_kg: ["寝る", "neɾɯ"],
     ja_sd: ["寝る", "neɾɯ"],
@@ -758,7 +758,7 @@ WORDS.sleep = {
     grt: ["tu·a", "tua"],
 
     // --- Tai — นอน, as in Thai
-    soa: ["นอน", "nɔːn˧"],
+    soa: ["นอน", "nɔːn˧˥˦"],
     th_n: ["นอน", "nɔːn˧"],
     th_s: ["นอน", "nɔːn˥"],
     shn: ["ၼွၼ်း", "nɔn˥"],

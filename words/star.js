@@ -284,7 +284,7 @@ WORDS.star = {
       my: ["ကြယ်", "tɕɛ̀"],
       km: ["ផ្កាយ", "pkaːj"],
       lo: ["ດາວ", "daːw˩˧"],
-      soa: ["ดาว", "daːw˩"],
+      soa: ["ดาว", "daːw˨˦"],
       yo: ["ìràwọ̀", "ìràwɔ̀"],
       zu: ["inkanyezi", "iŋkaˈɲeːzi"],
       am: ["ኮከብ", "kokəb"],

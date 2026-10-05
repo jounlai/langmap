@@ -753,7 +753,7 @@ WORDS.tea = {
     wuu_hz: ["茶", "dzɑ˨˩˧"],
     czh_wy: ["茶", "tsʰo˩˩"],
     yrk: ["сяй", "sʲaj"],
-    rki: ["လက်ဖက်", "ləpʰaʔ"],
+    rki: ["လက်ဖက်", "ləpʰɔʔ"], // was ["လက်ဖက်", "ləpʰaʔ"] (r51 audit 2026-10-04)
     nzm: ["sa", "sa"],
     grt: ["cha", "tʃa"],
     brx: ["सा", "sa"],

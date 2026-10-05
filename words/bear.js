@@ -1651,7 +1651,7 @@ WORDS.bear = {
     adx: ["དོམ", "tom"],
     xsr: ["དོམ", "dom"],
     khg: ["དོམ", "toŋ˩˧"],
-    rki: ["ဝက်ဝံ", "wɛˀwʊ̀ɴ"],
+    rki: ["ဝက်ဝံ", "wɔʔwàɴ"], // was ["ဝက်ဝံ", "wɛˀwʊ̀ɴ"] (r51 audit 2026-10-04)
     atb: ["wàm", "vam˥˩"],
     kac: ["tsap", "tsap˥˥"],
     ers: ["xaʴ", "xa˞́"],

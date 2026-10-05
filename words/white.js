@@ -257,7 +257,7 @@ WORDS.white = {
     my: ["ဖြူ", "pʰjù"],
     km: ["ស", "sɑː"],
     lo: ["ຂາວ", "kʰaːw˩˧"],
-    soa: ["ขาว", "kʰaːw˩˧"],
+    soa: ["ขาว", "kʰaːw˨˦"],
     yo: ["funfun", "fũfũ"],
     zu: ["mhlophe", "ˈmɬɔːpʰe"],
     am: ["ነጭ", "nətʃʼ"],

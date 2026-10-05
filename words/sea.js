@@ -514,7 +514,7 @@ WORDS.sea = {
     luy: ["inyanza", "iɲanza"],
     vmw: ["ephareya", "epʰaɾeja"],
     shn: ["ပၢင်ႇလၢႆႇ", "paːŋ˩ laːj˩"],
-    rki: ["ပင်လယ်", "pɪ̀ɴlɛ̀"],
+    rki: ["ပင်လယ်", "pɔ̀ɴlè"],
     efi: ["inyañ", "iɲaŋ"],
     emk: ["kɔɔji", "kɔːdʒi"],
     snk: ["geeji", "ɡeːdʒi"],

@@ -752,7 +752,7 @@ WORDS.honey = {
     yue_dg: ["蜜糖", "mak˧ tʰɔŋ˧˩"],
     yue_nn: ["蜜糖", "mɐt˨ tʰɔŋ˨˩"],
     yue_zs: ["蜜糖", "mɐt˧ tʰɔŋ˥˩"],
-    kxm: ["ទឹកឃ្មុំ", "tɨk kʰmum"],
+    kxm: ["ទឹកឃ្មុំ", "tɨʔ kʰmum"],
     guu: ["puu", "puu"],
     za: ["dangzrwi", "taːŋ˧˩ɣɯi˨˦"],
     wbm: ["rom hia", "rɔm hia"],

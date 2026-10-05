@@ -382,7 +382,7 @@ WORDS.four = {
     // --- Austroasiatic — *punʔ ------------------------------------------
     vi_c: ["bốn", "ɓon˧˥"],
     vi_s: ["bốn", "ɓon˧˥"],
-    kxm: ["បួន", "ɓuən"],
+    kxm: ["បួន", "ɓuːn"],
     okz: ["បួន", "puon"],
     mnw: ["ပန်", "pan"],
     omx: ["ပန်", "pan"],
@@ -957,7 +957,7 @@ WORDS.four = {
     ja_kg: ["四", "joɴ"],
     ja_oki: ["ゆーち", "juːtɕi"],
     ko_jeju: ["늿", "nit̚"],
-    soa: ["สี่", "siː˩"],
+    soa: ["สี่", "siː˧˥"],
     za: {
       form: "四",
       ipa:  "θei˧˥",

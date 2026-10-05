@@ -253,7 +253,7 @@ WORDS.book = {
     fit: ["kirja", "ˈkirjɑ"],
     fkv: ["kirja", "ˈkirjɑ"],
     kpv: ["небӧг", "ˈnʲebɘɡ"],
-    gag: ["kitap", "kiˈtap"],
+    gag: ["kiyat", "kiˈjat"],
     kaa: ["kitap", "kiˈtap"],
     krc: ["китап", "kiˈtap"],
     inh: ["китаб", "kitab"],  // Contested, kept pending a better source. In Nakh languages китаб usually names a religious book (cf. Chechen жайна/китаб), and inh.wikipedia's article for the book concept is titled Дешарг, listing дешарг first of five synonyms and using it in institution names (book publisher, Red Book). That case is good but was reported as moderate confidence, which is not enough to overwrite a standing cell.

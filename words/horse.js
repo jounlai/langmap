@@ -576,7 +576,7 @@ WORDS.horse = {
     ja_hir: ["馬", "ɯma"],
     ja_sd: ["馬", "ɯma"],
     shn: ["မႃႉ", "maː˦˨ˀ"],
-    rki: ["မြင်း", "mrɪ́ɴ"],
+    rki: ["မြင်း", "mrɔ́ɴ"],
     efi: ["enañ mbakara", "enaŋ mbakara"],
     snk: ["si", "si"],
     mxc: ["bhiza", "biza"],

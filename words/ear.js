@@ -824,7 +824,7 @@ WORDS.ear = {
     luo: ["it", "it"],
     rki: ["နား", "na"],
     cnh: ["hna", "hna"],
-    kxm: ["ត្រចៀក", "trɔciək"],
+    kxm: ["ត្រចៀក", "təciːʔ"],
     fon: ["tó", "tó"],
     xog: ["okutu", "okutu"],
     tig: ["እዝን", "ʔəzən"],

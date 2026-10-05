@@ -475,7 +475,7 @@ WORDS.hundred = {
     pmy: ["seratus", "seratus"],
     vi_c: ["trăm", "ʈam˧"],
     vi_s: ["trăm", "ʈam˧"],
-    kxm: ["រយ", "rɔːj"],
+    kxm: ["រយ", "ruːəj"],
     zh_wenyan_edu: ["百", "paːk˧"],
     zh_tw: ["百", "pai˨˩˦"],
     ja_edo: ["百", "hʲakɯ"],

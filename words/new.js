@@ -1128,6 +1128,9 @@ WORDS.new = {
     qwc: ["musuq", "mosoq"],
     ohu: ["új", "uːj"],
     xpu: ["𐤇𐤃𐤔", "ħadaʃ"],
-    okz: ["ថ្មី", "tʰmiː"]
+    okz: ["ថ្មី", "tʰmiː"],
+    hai: ["g̱áwtlaa", "ɢáwtɬaː"],
+    bbl: ["ცʼინი̆", "tsʼini"],
+    fia: ["míríí", "míríː"]
   }
 };

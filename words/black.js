@@ -1236,6 +1236,9 @@ WORDS.black = {
     xto: ["𑀅𑀭𑁆𑀓𑀦𑁆𑀢𑁆", "arkant"],
     txb: ["𑀏𑀭𑁆𑀓𑁂𑀦𑁆𑀢𑁆", "erkent"],
     ave: ["𐬯𐬁𐬨𐬀", "saːma"],
-    kho: ["𑀳𑀲𑁆𑀯", "hasva"]
+    kho: ["𑀳𑀲𑁆𑀯", "hasva"],
+    hai: ["hlg̱ahl", "ɬɢaɬ"],
+    kwa: ["câ", "câ"],
+    fia: ["úrúm", "úrúm"]
   },
 };

@@ -1072,6 +1072,12 @@ WORDS.mountain = {
     en_est: ["mountain", "ˈmæʊnʔən"],
     en_geordie: ["mountain", "ˈmuːntɪn"],
     pau: ["rois", "ɾois"],
-    xav: ["ẽtẽ ʼrãihâ", "ɛ̃tɛ̃ ʔɾãihə"]
+    xav: ["ẽtẽ ʼrãihâ", "ɛ̃tɛ̃ ʔɾãihə"],
+    kry: ["bel", "bel"],
+    kxv: ["hōru", "hoːru"],
+    kjj: ["мыда", "mɨda"],
+    hts: ["xxudle", "ᵑǁˀucʎʼe"],
+    fia: ["mùléé", "mùléː"],
+    kqz: ["ǃareb", "ǃareb"]
   }
 };

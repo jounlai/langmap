@@ -1150,6 +1150,9 @@ WORDS.nose = {
     blk: ["နေ့ဖူ", "neʔ˦˥ pʰu"],
     tsz: ["úrhi", "ˈuɽi"],
     mxv: ["sitin", "sitin"],
-    juc: ["sunggi", "suŋɡi"]
+    juc: ["sunggi", "suŋɡi"],
+    hai: ["kún", "kʰún"],
+    fia: ["sòrìŋ", "sòrìŋ"],
+    kqz: ["ǂuib", "ǂuib"]
   },
 };

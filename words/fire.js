@@ -313,7 +313,7 @@ WORDS.fire = {
     hy: ["կրակ", "kɾɑk"],
     hyw: ["կրակ", "ɡɾɑɡ"],
     nv: ["kǫʼ", "kõːʔ"],
-    koy: ["konh", "konh"],
+    koy: ["kkonʼ", "kːonʔ"],
     haw: ["ahi", "ahi"],
     mi: ["ahi", "ahi"],
     qu: ["nina", "nina"],

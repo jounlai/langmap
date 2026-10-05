@@ -1100,6 +1100,9 @@ WORDS.person = {
     xpu: ["𐤍𐤐𐤔", "nefeʃ"],
     xsa: ["𐩱𐩬𐩪", "ʔins"],
     en_jam: ["person", "ˈpɜːsən"],
-    ar_ye: ["شخص", "ʃaxsˤ"]
+    ar_ye: ["شخص", "ʃaxsˤ"],
+    kjj: ["хӏаьдми", "ħædmi"],
+    fia: ["íd", "íd"],
+    nmn: ["tâa", "taː"]
   }
 };

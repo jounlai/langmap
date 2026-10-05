@@ -1152,6 +1152,10 @@ WORDS.sleep = {
     xto: ["𑀓𑁆𑀮𑀺𑀲𑁆", "klis"],
     txb: ["𑀓𑁆𑀮𑀦𑁆𑀢𑁆𑀲𑁆", "klənts"],
     czh_wy: ["睏", "kʰuɐin˧˥"],
-    wuu_hz: ["睏觉", "kʰuəŋ˦˦˥ tɕiɔ˦˦˥"]
+    wuu_hz: ["睏觉", "kʰuəŋ˦˦˥ tɕiɔ˦˦˥"],
+    hai: ["ḵʼa", "qʼa"],
+    fia: ["nèèr-", "nèːr"],
+    kqz: ["ǁūm", "ǁʔuːm"],
+    ktz: ["tsʼá", "tsʼá"]
   },
 };

@@ -1151,6 +1151,14 @@ WORDS.head = {
     ohu: ["fő", "føː"],
     pal: ["𐭮𐭫", "sar"],
     kho: ["𑀓𑀫𑀮", "kamala"],
-    com: ["paapi", "paːpi"]
+    com: ["paapi", "paːpi"],
+    hai: ["ḵaj", "qʰatʃ"],
+    kxv: ["trāyu", "traːju"],
+    kwa: ["nũh", "nũh"],
+    koy: ["-tłeeʼ", "tɬiːʔ"],
+    fia: ["ùr", "ùr"],
+    anu: ["wic", "witʃ"],
+    kqz: ["ǃãb", "ǃʔãb"],
+    ktz: ["nǀáí", "ᵑǀáí"]
   },
 };

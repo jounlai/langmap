@@ -1147,6 +1147,10 @@ WORDS.wind = {
     pmh: ["वाय", "ʋaːja"],
     juc: ["edu", "ədu"],
     ohu: ["szél", "seːl"],
-    okz: ["ខ្យល", "kʰjɔl"]
+    okz: ["ខ្យល", "kʰjɔl"],
+    hai: ["tajáaw", "tʰadʒɑ́ːw"],
+    kxv: ["gāli", "ɡaːli"],
+    fia: ["tùùg", "tùːɡ"],
+    anu: ["yamo", "jamo"]
   },
 };

@@ -1125,6 +1125,12 @@ WORDS.rain = {
     juc: ["agu", "aɡu"],
     ohu: ["eső", "ɛʃøː"],
     xsa: ["𐩹𐩬𐩣", "ðanam"],
-    okz: ["ផ្លេង", "pʰleːŋ"]
+    okz: ["ផ្លេង", "pʰleːŋ"],
+    hai: ["dál", "dál"],
+    koy: ["konh", "konh"],
+    fia: ["áwwí", "áwːí"],
+    kqz: ["tūs", "tuːs"],
+    ktz: ["gǃà", "ᶢǃà"],
+    nmn: ["ǃkxʼôe", "ǃkxʼoe"]
   },
 };

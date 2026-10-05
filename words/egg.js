@@ -1119,6 +1119,9 @@ WORDS.egg = {
     jqr: ["nuru", "nuɾu"],
     yuy: ["bala", "bala"],
     mjg: ["dige", "diɡe"],
-    sog: ["mrγyzʾty", "mərɣezaːteː"]
+    sog: ["mrγyzʾty", "mərɣezaːteː"],
+    hai: ["ḵáw", "qʰáw"],
+    fia: ["kúmbúú", "kúmbúː"],
+    nmn: ["ᶢǂúã", "ᶢǂũã"]
   },
 };

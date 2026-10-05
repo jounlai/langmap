@@ -1169,10 +1169,13 @@ WORDS.stone = {
     qxs: ["ʁo", "ʁo"],
     itl: ["вач", "βatʃ"],
     rut: ["духул", "duχul"],
-    kjj: ["мыда", "mɨda"],
+    kjj: ["кӏачӏын", "kʼatʃʼɨn"],
     blc: ["t̓x̣t", "tʼχt"],
     blk: ["လုံး", "loŋ˥˧"],
     yuy: ["tʃəluu", "tʃəluː"],
-    xlu: ["assu-", "ˈasːu"]
+    xlu: ["assu-", "ˈasːu"],
+    kry: ["xud", "xud"],
+    kqz: ["ǀuib", "ǀʔuib"],
+    ktz: ["nǃòm", "ᵑǃòm"]
   },
 };

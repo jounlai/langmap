@@ -1237,6 +1237,9 @@ WORDS.salt = {
     xsa: ["𐩣𐩡𐩢", "milħ"],
     okz: ["អំប្យល", "ʔamɓiəl"],
     kho: ["𑀦𑀫𑁆𑀯", "namva"],
-    myz: ["ࡌࡉࡄࡋࡀ", "mihla"]
+    myz: ["ࡌࡉࡄࡋࡀ", "mihla"],
+    aiw: ["sooq", "soːq"],
+    fvr: ["kerra", "kɛrːa"],
+    ktz: ["gúí", "ɡúí"]
   },
 };

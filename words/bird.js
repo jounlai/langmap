@@ -1169,6 +1169,9 @@ WORDS.bird = {
     jqr: ["chʼipi", "tʃʼipi"],
     yuy: ["ʃuun", "ʃuːn"],
     mjg: ["xuu", "ɕuː"],
-    xpu: ["𐤑𐤐𐤓", "sˤippor"]
+    xpu: ["𐤑𐤐𐤓", "sˤippor"],
+    aiw: ["afti", "afti"],
+    kqz: ["xʼanis", "xʼanis"],
+    ktz: ["tsʼàmà", "tsʼàmà"]
   },
 };

@@ -1015,6 +1015,9 @@ WORDS.green = {
     ohu: ["zöld", "zøld"],
     pal: ["𐭮𐭯𐭦", "sabz"],
     cop: ["ⲟⲩⲟⲧⲟⲩⲉⲧ", "uotuet"],
-    din: ["tɔ̈c", "tɔtʃ"]
+    din: ["tɔ̈c", "tɔtʃ"],
+    kwa: ["mɨ̃̂", "mɨ̃̂"],
+    kjj: ["сыб", "sɨb"],
+    nus: ["tɔc", "tɔtʃ"]
   }
 };

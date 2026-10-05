@@ -574,7 +574,7 @@ WORDS.moon = {
     tus: ["hęhts uri:węh", "hɛ̃hts uɾiːwɛ̃h"],
     as: ["জোন", "zon"],
     or: ["ଚନ୍ଦ୍ର", "tʃɔndɾɔ"],
-    bho: ["चाँद", "tʃãːd"],
+    bho: ["चान", "tʃaːn"],
     en_south: ["moon", "muːn"],
     en_app: ["moon", "muːn"],
     en_in: ["moon", "muːn"],

@@ -711,7 +711,7 @@ WORDS.you = {
       myx: ["iwe", "iwe"],
       bxk: ["ewe", "ewe"],
       ki: ["wee", "wɛː"],
-      mer: ["wee", "wɛː"],
+      mer: ["gwe", "ɡwɛ"],
       kam: ["we", "we"],
       ebu: ["we", "wɛ"],
       tn: ["wena", "wena"],

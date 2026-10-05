@@ -624,7 +624,7 @@ WORDS.bone = {
     myx: ["kumba", "kumba"],
     bxk: ["kumba", "kumba"],
     ki: ["ihĩndĩ", "ihende"],
-    mer: ["indindi", "indindi"],
+    mer: ["mwĩndĩndĩ", "mwendende"],
     kam: ["ĩvĩndĩ", "ivindi"],
     ebu: ["ĩvĩndĩ", "evende"],
     tn: ["lerapo", "lerapo"],

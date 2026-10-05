@@ -644,7 +644,7 @@ WORDS.three = {
     myx: ["bisatu", "bisatu"],
     bxk: ["kamataru", "kamataru"],
     ki: ["ithatu", "iðatu"],
-    mer: ["ithatu", "iðatu"],
+    mer: ["ithatũ", "iðato"],
     kam: ["itatu", "itatu"],
     ebu: ["ithatũ", "iðato"],
     tn: ["tharo", "tʰaro"],

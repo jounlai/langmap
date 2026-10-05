@@ -573,7 +573,7 @@ WORDS.sun = {
     tus: ["hęhts", "hɛ̃hts"],
     as: ["সূৰ্য", "xuɹjɔ"],
     or: ["ସୂର୍ଯ୍ୟ", "suːɾjɔ"],
-    bho: ["सूरज", "suːɾədʒ"],
+    bho: ["सुरुज", "suɾudʒ"],
     en_south: ["sun", "sʌn"],
     en_app: ["sun", "sʌn"],
     en_in: ["sun", "sʌn"],

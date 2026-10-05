@@ -369,7 +369,7 @@ WORDS.person = {
     mdf: ["ломань", "lomanʲ"],
     mdh: ["taw", "taw"],
     mdr: ["tau", "tau"],
-    mer: ["mũntũ", "monto"],
+    mer: ["muntũ", "munto"],
     meu: ["taunimanima", "taunimanima"],
     mfe: ["dimounn", "dimun"],
     mga: ["duine", "dunʲe"],

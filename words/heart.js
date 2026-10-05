@@ -710,7 +710,7 @@ WORDS.heart = {
     myx: ["umwoyo", "umwojo"],
     bxk: ["kumwoyo", "kumwojo"],
     ki: ["ngoro", "ŋɡɔɾɔ"],
-    mer: ["ngoro", "ŋɡɔɾɔ"],
+    mer: ["nkoro", "ŋkɔɾɔ"],
     kam: ["ngoo", "ŋɡoː"],
     ebu: ["ngoro", "ŋɡɔɾɔ"],
     tn: ["pelo", "peːlo"],

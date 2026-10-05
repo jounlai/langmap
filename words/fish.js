@@ -652,7 +652,7 @@ WORDS.fish = {
     myx: ["enyeni", "eɲeni"],
     bxk: ["enyeni", "eɲeni"],
     ki: ["ngoyo", "ŋɡɔjɔ"],
-    mer: ["nkuyu", "nkuju"],
+    mer: ["gĩkũyũ", "ɡekojo"],
     kam: ["ikoyo", "ikojo"],
     ebu: ["nthamaki", "nðamaki"],
     tn: ["tlhapi", "tɬʰapi"],

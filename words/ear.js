@@ -879,7 +879,7 @@ WORDS.ear = {
     kim: ["кулак", "kulak"],
     ace: ["geulinyueng", "ɡɯliɲuəŋ"],
     pwn: ["caliŋa", "tsaliŋa"],
-    mer: ["gutu", "ɡutu"],
+    mer: ["gũtũ", "ɡoto"],
     jiv: ["kuish", "kwiʃ"],
     acu: ["kuish", "kwiʃ"],
     nag: ["kan", "kan"],

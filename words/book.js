@@ -559,7 +559,7 @@ WORDS.book = {
     yao: ["chitabu", "tʃitabu"],
     kde: ["chitabu", "tʃitabu"],
     myx: ["shitabo", "ʃitabo"],
-    mer: ["iuku", "iuku"],
+    mer: ["yuku", "juku"],
     kam: ["ĩvuku", "ivuku"],
     yue_ts: ["书", "si˧˧"],
     czh: ["书", "ɕy˧˧"],

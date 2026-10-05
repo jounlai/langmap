@@ -582,7 +582,7 @@ WORDS.name = {
       tus: ["utshe:naʼ", "utsʰeːnaʔ"],
       as: ["নাম", "nam"],
       or: ["ନାମ", "namɔ"],
-      bho: ["नाम", "naːm"],
+      bho: ["नाँव", "nãːʋ"],
       en_south: ["name", "næɪm"],
       en_app: ["name", "neɪm"],
       en_in: ["name", "neːm"],

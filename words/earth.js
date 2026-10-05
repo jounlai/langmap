@@ -1058,7 +1058,7 @@ WORDS.earth = {
     yao: ["litaka", "litaka"],
     kde: ["ulongo", "uloŋɡo"],
     myx: ["liloba", "liloba"],
-    mer: ["mũthetũ", "moðɛto"],
+    mer: ["mũthetu", "moðɛtu"],
     kmb: ["ixi", "iʃi"],
     teo: ["alup", "alup"],
     ii: ["ꊖ", "tsa˧˧"],

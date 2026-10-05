@@ -711,7 +711,7 @@ WORDS.i = {
       myx: ["ise", "ise"],
       bxk: ["ese", "ese"],
       ki: ["niĩ", "niː"],
-      mer: ["nyie", "ɲiɛ"],
+      mer: ["ni", "ni"],
       kam: ["nyie", "ɲie"],
       ebu: ["nie", "niɛ"],
       tn: ["nna", "nːa"],

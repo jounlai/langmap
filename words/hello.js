@@ -705,7 +705,7 @@ WORDS.hello = {
     myx: ["mulembe", "mulembe"],
     bxk: ["mulembe", "mulembe"],
     ki: ["wĩmwega", "wemwɛɡa"],
-    mer: ["mwega", "mwɛɡa"],
+    mer: ["muuga", "muːɡa"],
     kam: ["mwĩaĩle", "mwiaile"],
     ebu: ["mwega", "mwɛɡa"],
     tn: ["dumela", "dumeːla"],

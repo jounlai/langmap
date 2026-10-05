@@ -413,7 +413,7 @@ WORDS.egg = {
     mk: ["јајце", "ˈjajtsɛ"],
     lg: ["eggi", "ˈeɡːi"],
     ki: ["itumbĩ", "itumbe"],
-    mer: ["itumbi", "itumbi"],
+    mer: ["nkara", "ŋkaɾa"],
     kam: ["itumbi", "itumbi"],
     ebu: ["itumbi", "itumbi"],
     tn: ["lee", "lɛɛ"],

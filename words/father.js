@@ -714,7 +714,7 @@ WORDS.father = {
     myx: ["papa", "papa"],
     bxk: ["papa", "papa"],
     ki: ["baba", "baba"],
-    mer: ["baba", "baba"],
+    mer: ["baaba", "baːba"],
     kam: ["asa", "asa"],
     ebu: ["vava", "βaβa"],
     tn: ["rrê", "rːɛ"],

@@ -711,7 +711,7 @@ WORDS.dog = {
     myx: ["imbwa", "imbwa"],
     bxk: ["imbwa", "imbwa"],
     ki: ["ngui", "ŋɡui"],
-    mer: ["ngiti", "ŋɡiti"],
+    mer: ["kurũ", "kuɾo"],
     kam: ["ngitĩ", "ŋɡiti"],
     ebu: ["ngui", "ŋɡui"],
     tn: ["ntša", "ntʃa"],

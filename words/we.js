@@ -1768,7 +1768,7 @@ WORDS.we = {
     myx: ["ifwe", "ifwe"],
     bxk: ["efwe", "efwe"],
     ki: ["ithuĩ", "iðue"],
-    mer: ["twii", "twiː"],
+    mer: ["tuĩ", "tue"], // was ["twii", "twiː"] (r51 audit 2026-10-04)
     kam: ["ithye", "iðje"],
     ebu: ["ithũi", "iðoi"],
     tn: ["rona", "rona"],

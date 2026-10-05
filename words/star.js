@@ -704,7 +704,7 @@ WORDS.star = {
       myx: ["kumunyeenye", "kumuɲeːɲe"],
       bxk: ["kumunyeenye", "kumuɲeːɲe"],
       ki: ["njata", "ɲdʒata"],
-      mer: ["njata", "ɲdʒata"],
+      mer: ["njota", "ɲdʒɔta"],
       kam: ["nzaĩ", "nzai"],
       ebu: ["njata", "ɲdʒata"],
       tn: ["naledi", "naledi"],

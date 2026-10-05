@@ -644,7 +644,7 @@ WORDS.red = {
     myx: ["kumafu", "kumafu"],
     bxk: ["besemu", "βesemu"],
     ki: ["ũtune", "otunɛ"],
-    mer: ["ndune", "ndunɛː"],
+    mer: ["ntuune", "ntuːnɛ"],
     kam: ["ndune", "nduneː"],
     ebu: ["ndune", "ndunɛː"],
     tn: ["khibidu", "kʰibidu"],

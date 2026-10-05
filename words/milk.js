@@ -871,7 +871,7 @@ WORDS.milk = {
     efi: ["mmọñeba", "m̩mɔŋeba"],
     snk: ["xati", "xati"],
     myx: ["kamabeele", "kamabeːle"],
-    mer: ["iria", "iɾia"],
+    mer: ["ĩria", "eɾia"],
     kam: ["iia", "iːa"],
     yue_ts: ["牛奶", "ŋeu˨˨ nai˨˩"],
     czh: ["牛奶", "ŋi˨˩˧ nɔ˦˦"],

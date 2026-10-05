@@ -710,7 +710,7 @@ WORDS.drink = {
     myx: ["khunywa", "kʰuɲwa"],
     bxk: ["khunywa", "kʰuɲwa"],
     ki: ["kũnyua", "koɲua"],
-    mer: ["kũnyũa", "koɲoa"],
+    mer: ["kũnyua", "koɲua"],
     kam: ["kũnywa", "kuɲwa"],
     ebu: ["kũnyua", "koɲua"],
     tn: ["go nwa", "χo nwa"],

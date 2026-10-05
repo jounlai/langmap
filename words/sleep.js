@@ -422,7 +422,7 @@ WORDS.sleep = {
     mk: ["спие", "ˈspiɛ"],
     lg: ["okwebaka", "okweβaka"],
     ki: ["gũkoma", "ɣoˈkɔma"],
-    mer: ["koma", "kɔma"],
+    mer: ["kũmama", "komama"],
     kam: ["koma", "koma"],
     tn: ["go robala", "χo rʊˈbala"],
     st: ["ho robala", "ho rʊˈbala"],

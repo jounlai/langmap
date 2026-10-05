@@ -506,7 +506,7 @@ WORDS.night = {
     tus: ["ahthathu", "ahθaθu"],
     as: ["ৰাতি", "ɹati"],
     or: ["ରାତି", "raːti"],
-    bho: ["रात", "raːt"],
+    bho: ["राति", "raːtɪ"],
     en_south: ["night", "naːt"],
     en_app: ["night", "naɪt"],
     en_in: ["night", "naɪʈ"],

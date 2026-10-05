@@ -706,7 +706,7 @@ WORDS.thanks = {
     myx: ["ole nise", "ole nise"],
     bxk: ["orio", "orio"],
     ki: ["nĩ wega", "ne wɛɡa"],
-    mer: ["nĩ baba", "ne baba"],
+    mer: ["nĩ bwega", "ne bwɛɡa"],
     kam: ["nĩ vinya", "ni viɲa"],
     ebu: ["—", "—"],
     tn: ["ke a leboga", "ke a leboɣa"],

@@ -722,7 +722,7 @@ WORDS.rain = {
     kj: ["omvula", "omvula"],
     mxc: ["mvura", "mvura"],
     ndc: ["mvura", "mvura"],
-    mer: ["mbura", "mbura"],
+    mer: ["ngai", "ŋɡai"],
     ebu: ["mbura", "mbura"],
     cgg: ["enjura", "eɲɟura"],
     ttj: ["enjura", "eɲɟura"],

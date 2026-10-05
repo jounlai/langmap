@@ -703,7 +703,7 @@ WORDS.fire = {
     myx: ["kamulilo", "kamulilo"],
     bxk: ["kamulilo", "kamulilo"],
     ki: ["mwaki", "mwaki"],
-    mer: ["mwaki", "mwaki"],
+    mer: ["mwanki", "mwaŋki"],
     kam: ["mwaki", "mwaki"],
     ebu: ["mwaki", "mwaki"],
     tn: ["molelo", "moleːlo"],

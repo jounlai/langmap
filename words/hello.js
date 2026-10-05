@@ -554,7 +554,7 @@ WORDS.hello = {
     zh_km: ["你好", "ni˥˧ xʌo˥˧"],
     zh_xa: ['你好', 'ni˥˧ xau˥˧'],
     kmu: ["naipa", "naipa"],
-    emi: ["emua", "emua"],
+    emi: ["elue talaua", "elue talaua"],
     hot: ["—", "—"],
     fai: ["ben kaba", "ben kaba"],
     nlc: ["silok", "silok"],

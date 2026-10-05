@@ -863,7 +863,7 @@ WORDS.tooth = {
     pwo: ["မဲ", "mai"],
     lhu: ["ci", "tsi"],
     lis: ["sichi", "sɿ˧˩tɕʰi˧˧"],
-    nxq: ["xu", "xɯ˧"],
+    nxq: ["hee", "xɯ˧"],
     shn: ["ၶဵဝ်ႈ", "kʰew˧˨"],
     jio: ["saŋ", "saŋ˥"],
     kbp: ["kere", "kere"],

@@ -907,7 +907,7 @@ WORDS.two = {
       pwo: ["နီ", "ni˦"],
       lhu: ["nyî", "ɲî"],
       lis: ["nyi", "ɲi˧˧"],
-      nxq: ["nee", "ni˧"],
+      nxq: ["niq", "ɲi˨˩"],
       shn: ["သွင်", "sɔŋ˨˦"],
       jio: ["tʰiau", "tʰiau˩"],
       kbp: ["naalɛ", "naːlɛ"],

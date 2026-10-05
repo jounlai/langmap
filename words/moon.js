@@ -899,7 +899,7 @@ WORDS.moon = {
     pwo: ["လါ", "la"],
     lhu: ["ha-pa", "hapa"],
     lis: ["ha-ba", "haba"],
-    nxq: ["he-mei", "hɯ˧mi˧"],
+    nxq: ["hei-mei", "he˧me˧"],
     shn: ["လိူၼ်", "lɤn˨˦"],
     jio: ["nuən", "nuən˥"],
     kbp: ["fenaɣ", "fenaɣ"],

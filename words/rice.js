@@ -789,7 +789,7 @@ WORDS.rice = {
     nrf_gg: ["riz", "ʁi"],
     niu: ["laisi", "laisi"],
     tvl: ["laisi", "laisi"],
-    wls: ["laisi", "laisi"],
+    wls: ["lāisi", "laːisi"],
     ada: ["omɔ", "omɔ"],
     nzi: ["awule", "awule"],
     zne: ["mapunga", "mapuŋɡa"],

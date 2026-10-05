@@ -333,7 +333,7 @@ WORDS.earth = {
     rgn: ["tëra", "ˈtɛra"],
     wa: ["tere", "tɛːʁ"],
     lad: ["tierra", "tjera"],
-    ast: ["tierra", "ˈtjeɾra"],
+    ast: ["tierra", "ˈtjera"],
     an: ["tierra", "ˈtjera"],
     ext: ["tierra", "ˈtjera"],
     mwl: ["tiarra", "ˈtjarra"],

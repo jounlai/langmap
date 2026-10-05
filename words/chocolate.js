@@ -170,7 +170,7 @@ WORDS.chocolate = {
     ga: ["seacláid", "ˈʃakl̪ˠaːdʲ"],
     cy: ["siocled", "ˈʃɔklɛd"],
     gl: ["chocolate", "tʃokoˈlate"],
-    ast: ["chocolate", "tʃokoˈlate"],
+    ast: ["chicolate", "tʃikoˈlate"],
     sk: ["čokoláda", "ˈtʃokolaːda"],
     sl: ["čokolada", "tʃokoˈlaːda"],
     mk: ["чоколадо", "tʃokoˈlado"],

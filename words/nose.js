@@ -515,7 +515,7 @@ WORDS.nose = {
     csb: ["nos", "nos"],
     rue: ["ніс", "nʲis"],
     fur: ["nâs", "naːs"],
-    ast: ["ñariz", "ɲaˈɾis"],
+    ast: ["nariz", "naˈɾiθ"],
     ext: ["narís", "naˈɾis"],
     fax: ["nariz", "naˈɾis"],
     an: ["naso", "ˈnaso"],
@@ -723,7 +723,7 @@ WORDS.nose = {
     tsj: ["nawung", "nawuŋ"],
     atb: ["no", "no˥˩"],
     yiz: ["nɯbɯ", "nɯ˧˧bɯ˨˩"],
-    nxq: ["nyimer", "ɲi˥mɚ˨˩"],
+    nxq: ["nilmerq", "ɲi˥mɚ˨˩"],
     njo: ["teni", "teni"],
     nzm: ["mineu", "mineu"],
     // --- Austronesian — PMP *ijuŋ in the west, *ŋusuq in Taiwan ----------

@@ -907,7 +907,7 @@ WORDS.you = {
       pwo: ["နါ", "na˦"],
       lhu: ["nɔ̀", "nɔ̀"],
       lis: ["nu", "nu˧˧"],
-      nxq: ["no", "nɔ˧"],
+      nxq: ["nvq", "nv̩˨˩"],
       shn: ["မႂ်း", "maɰ˥"],
       jio: ["məi", "məi˥"],
       kbp: ["ña", "ɲá"],

@@ -387,7 +387,7 @@ WORDS.blue = {
     kha: "grue",
     mnw: "distinct",
     aii: "distinct",
-    pot: "grue",
+    pot: "distinct", // route was grue (r51 audit 2026-10-04)
     arp: "grue",
     chy: "distinct",
     ar_jo: "distinct",
@@ -1106,7 +1106,7 @@ WORDS.blue = {
     kha: ["jyrngam", "dʒərŋam"],
     mnw: ["ဍီု", "ɗɒm"],
     aii: ["ܙܪܘܩܐ", "zroqa"],
-    pot: ["wshkëbgya", "wʃkʌbkja"],
+    pot: ["wichapkwa", "witʃapkwa"], // was ["wshkëbgya", "wʃkʌbkja"] (r51 audit 2026-10-04)
     arp: ["cenéeteeyóó", "tʃenéːteːjóː"],
     chy: ["otáʼtavó", "otáʔtavó"],
     ar_jo: ["أزرق", "ˈʔazraɡ"],

@@ -900,7 +900,7 @@ WORDS.star = {
       pwo: ["ဆၣ်", "sʰã˧"],
       lhu: ["mvuh-keu", "mɯ̀ kɯ̂"],
       lis: ["akw", "a˧˧ kwɿ˧˧"],
-      nxq: ["gee", "kɯ˧"],
+      nxq: ["geeq", "kɯ˨˩"],
       shn: ["လၢဝ်", "laːw˨˦"],
       jio: ["tsaptsin", "tsap˩tsin˥˧"],
       kbp: ["tɩɩŋa", "tɪːŋa"],

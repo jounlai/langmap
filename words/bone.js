@@ -1207,7 +1207,7 @@ WORDS.bone = {
     osc: ["—", "—"],
     pkp: ["ivi", "ivi"],
     qxq: ["sümük", "syˈmyk"],
-    wls: ["ivi", "ivi"],
+    wls: ["hui", "hui"],
     yug: ["аʼт", "aʔt"],
     alq: ["okan", "okan"],
     ckv: ["tiran", "tiʁan"],

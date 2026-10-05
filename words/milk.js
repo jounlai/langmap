@@ -957,7 +957,7 @@ WORDS.milk = {
     cab: ["miligi", "miliɡi"],
     her: ["omaihi", "omaihi"],
     maw: ["bisim", "bisim"],
-    nxq: ["eeno", "ɰɯ˧nø˧"],
+    nxq: ["eeno", "ɰɯ˧no˧"],
     ami: ["hacol", "hatsol"],
     bdq: ["đak toh", "ɗaːk tɔh"],
     kj: ["omashini", "omaʃini"],

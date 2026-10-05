@@ -814,7 +814,7 @@ WORDS.mouth = {
     maw: ["noori", "noːri"],
     mdr: ["nganga", "ŋaŋa"],
     krc: ["ауз", "awuz"],
-    nxq: ["nvlda", "nv̩˥tɑ˧"],
+    nxq: ["nvl", "nv̩˥"],
     bdq: ["ʼbơ̆r", "ɓər"],
     iru: ["vāyi", "vaːji"],
     saq: ["nkutuk", "ŋkutuk"],

@@ -552,7 +552,7 @@ WORDS.love = {
     zh_km: ['爱', 'æ˨˩˨'],
     zh_xa: ['爱', 'ŋai˥˥'],
     kmu: ["avesi", "avesi"],
-    emi: ["talimi", "talimi"],
+    emi: ["aielousi", "aielousi"],
     hot: ["—", "—"],
     fai: ["kunum", "kunum"],
     nlc: ["ngam", "ŋam"],

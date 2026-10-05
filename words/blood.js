@@ -843,7 +843,7 @@ WORDS.blood = {
     pwo: ["သွီ", "θwi"],
     lhu: ["šî", "ʃi"],
     lis: ["si", "sɿ˧˩"],
-    nxq: ["se", "se˧"],
+    nxq: ["sai", "sa˧"],
     shn: ["လိူတ်ႈ", "lɤt˧˨"],
     jio: ["tʰuət", "tʰuət˩"],
     kbp: ["calɩm", "tʃalɪm"],

@@ -847,7 +847,7 @@ WORDS.fish = {
     pwo: ["ယါ", "ja"],
     lhu: ["ngâ", "ŋâ"],
     lis: ["ngua", "ŋua"],
-    nxq: ["ngi", "ŋi˧"],
+    nxq: ["ni", "ɲi˧"],
     shn: ["ပႃ", "paː˨˦"],
     jio: ["tʰou", "tʰou˩"],
     kbp: ["kpakpa", "kpakpa"],

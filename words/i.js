@@ -560,7 +560,7 @@ WORDS.i = {
       zh_km: ["我", "o˥˧"],
       zh_xa: ["我", "ŋɤ˥˧"],
       kmu: ["nagaya", "naɡaja"],
-      emi: ["agi", "aɡi"],
+      emi: ["aghi", "aɣi"],
       hot: ["ya", "ja"],
       fai: ["na", "na"],
       nlc: ["na", "na"],

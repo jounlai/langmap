@@ -560,7 +560,7 @@ WORDS.dog = {
     zh_km: ['狗', 'kəu˥˧'],
     zh_xa: ['狗', 'kou˥˧'],
     kmu: ["ovava", "ovava"],
-    emi: ["kovur", "kovuɾ"],
+    emi: ["paua", "paua"],
     hot: ["avuŋ", "avuŋ"],
     fai: ["kuyak", "kujak"],
     nlc: ["gam", "ɡam"],

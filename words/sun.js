@@ -898,7 +898,7 @@ WORDS.sun = {
     pwo: ["မုၢ်", "mə"],
     lhu: ["mvuhˇ-nyiˉ", "muʔ ɲí"],
     lis: ["mei-lo", "mejlo"],
-    nxq: ["ny-mei", "ɲi˧mi˧"],
+    nxq: ["ni-mei", "ɲi˧me˧"],
     shn: ["ဝၼ်း", "wan˥"],
     jio: ["touvɔːn", "tou˥vɔːn˥"],
     kbp: ["wɩsɩ", "wɪsɪ"],

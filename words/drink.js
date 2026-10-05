@@ -906,7 +906,7 @@ WORDS.drink = {
     pwo: ["အီ", "ʔi"],
     lhu: ["dawˇ", "dàʔ"],
     lis: ["do", "do˧˧"],
-    nxq: ["chil", "tʂʰi˥"],
+    nxq: ["teeq", "tʰɯ˨˩"],
     shn: ["ၵိၼ်", "kin˨˦"],
     jio: ["ɔːk", "ɔːk˥˧"],
     kbp: ["ñɔɔ", "ɲɔː"],

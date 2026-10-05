@@ -1018,7 +1018,7 @@ WORDS.bird = {
     maw: ["niiŋŋa", "niːŋːa"],
     mdr: ["manu-manuq", "manu manuʔ"],
     krc: ["къанатлы", "qanatlɯ"],
-    nxq: ["vlssi", "v̩˥ʑi˧"],
+    nxq: ["vlssi", "v̩˥zi˧"],
     kj: ["odila", "odila"],
     bru: ["chớm", "tʃɤm"],
     rwk: ["ndee", "ndeː"],

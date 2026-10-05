@@ -906,7 +906,7 @@ WORDS.hand = {
     pwo: ["စု", "sʉ"],
     lhu: ["lɔˆ", "lɔ̂"],
     lis: ["la", "la"],
-    nxq: ["lel", "lɯ˥"],
+    nxq: ["laq", "lɑ˨˩"],
     shn: ["မိုဝ်း", "mɯː˥"],
     jio: ["kɯma", "kɯ˧˩ma˥"],
     kbp: ["nesi", "nesi"],

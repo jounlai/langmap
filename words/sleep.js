@@ -1014,7 +1014,7 @@ WORDS.sleep = {
     lue: ["kusavala", "kusavala"],
     lif: ["ᤀᤡᤵᤔᤠ", "ipmaː"],
     cab: ["arúmuga", "aˈɾumuɡa"],
-    nxq: ["yil", "ji˥"],
+    nxq: ["yil", "ʑi˥"],
     iru: ["rongu", "roŋɡu"],
     saq: ["airura", "airura"],
     bru: ["bếq", "ɓeʔ"],

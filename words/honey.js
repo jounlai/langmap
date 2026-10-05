@@ -949,7 +949,7 @@ WORDS.honey = {
     cab: ["maba", "maba"],
     naq: ["danis", "danis"],
     maw: ["sikpaam", "sikpaːm"],
-    nxq: ["bbai", "ba˧"],
+    nxq: ["nbai", "mba˧"],
     ami: ["waneng no ʼodal", "waneŋ no ʔoðal"],
     bdq: ["đak sut", "ɗaːk sut"],
     iru: ["tēnu", "teːnu"],

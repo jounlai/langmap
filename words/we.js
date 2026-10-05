@@ -1934,7 +1934,7 @@ WORDS.we = {
     csb: ["më", "mə"],
     rue: ["мы", "mɨ"], // was ["мы", "mɪ"] (r51 audit 2026-10-04)
     fur: ["nô", "noː"],
-    ast: ["nosotros", "nosoˈtɾos"],
+    ast: ["nosotros", "noˈsotɾos"], // was ["nosotros", "nosoˈtɾos"] (r51 audit 2026-10-04)
     ext: ["nusotrus", "nusoˈtɾus"],
     fax: ["nós", "nɔʃ"],
     an: ["nusatros", "nuˈsatɾos"],

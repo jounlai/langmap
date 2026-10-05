@@ -806,7 +806,7 @@ WORDS.snow = {
     pzh: ["hahela", "hahela"],
     lhm: ["ཁ་བ", "kʰawa˥"],
     lis: ["wa", "wɑ˧˩"], // Fraser 1922 — distinct from frost ni and ice ni hpya
-    nxq: ["bbei", "be˧"],
+    nxq: ["nbei", "mbe˧"],
     sat: ["ᱦᱤᱢ", "him"], // Sanskrit hima
     amw: ["ܬܠܟܐ", "ˈθelka"], // Spitaler/Bergsträsser — inherited Aramaic talgā
     tig: ["ዕጥብ በረድ", "ʕətʼəb barad"], // lit. cotton-ice; bare bäräd alone is hail — Littmann & Höfner

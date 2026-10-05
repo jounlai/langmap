@@ -555,7 +555,7 @@ WORDS.thanks = {
     zh_km: ['谢谢', 'ɕie˨˩˨ ɕie'],
     zh_xa: ['谢谢', 'ɕie˥˥ ɕie'],
     kmu: ["susu", "susu"],
-    emi: ["poasi", "poasi"],
+    emi: ["kaili emasina", "kaili emasina"],
     hot: ["—", "—"],
     fai: ["ngam ngam", "ŋam ŋam"],
     nlc: ["amole", "amole"],

@@ -941,7 +941,7 @@ WORDS.green = {
     dtp_kzj: ["otomou", "oˈtomou"],
     hif: ["hariyar", "hərijər"],
     alq: ["ozhàwashkwà", "ɔʒaːwaʃkwaː"],
-    pot: ["wshkëbgya", "wʃkʌbkja"],
+    pot: ["skebgya", "skʌbkja"],
     osa: ["mąhį́ htóho", "mãhĩ́ htóho"],
     pao: ["puhi", "puhi"],
     djr: ["menydjuṉ", "meɲɟuɳ"],

@@ -552,7 +552,7 @@ WORDS.one = {
     zh_km: ['一', 'i˧˩'],
     zh_xa: ['一', 'i˨˩'],
     kmu: ["magoke", "maɡoke"],
-    emi: ["esa", "esa"],
+    emi: ["sesa", "sesa"],
     hot: ["doŋtom", "dɔŋtɔm"],
     fai: ["makuw", "makuw"],
     nlc: ["hnon", "hnon"],

@@ -840,7 +840,7 @@ WORDS.red = {
     pwo: ["ဂီ", "ɣi"],
     lhu: ["nî", "nî"],
     lis: ["si", "sɿ˧˩"],
-    nxq: ["hheq", "xy˧˩"],
+    nxq: ["hiuq", "xy˨˩"],
     shn: ["လႅင်", "lɛŋ˨˦"],
     jio: ["tʰɯːu", "tʰɯːu˥"],
     kbp: ["kɩsɛm", "kɪsɛm"],

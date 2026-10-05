@@ -1242,7 +1242,7 @@ WORDS.night = {
     fit: ["yö", "yø"],
     hif: ["raat", "raːt"],
     zgh: ["ⵉⴹ", "idˤ"],
-    aln: ["natë", "ˈnatə"],
+    aln: ["natë", "naːt"],
     rmt: ["arat", "arat"],
     fia: ["awa", "awa"],
     fvr: ["lul", "lul"],

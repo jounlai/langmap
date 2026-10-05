@@ -712,7 +712,7 @@ WORDS.stone = {
     bsk: ["dan", "dan"],
     srn: ["ston", "ston"],
     djk: ["ston", "ston"],
-    tkl: ["maka", "maka"],
+    tkl: ["fatu", "fatu"],
     mga: ["cloch", "klox"],
     hbo: ["אֶבֶן", "ˈʔɛvɛn"],
     he_mis: ["אבן", "ˈʔɛvɛn"],

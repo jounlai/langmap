@@ -619,7 +619,7 @@ WORDS.nose = {
     sga: ["srón", "sroːn"],
     srn: ["noso", "noso"],
     djk: ["noso", "noso"],
-    tkl: ["isu", "isu"],
+    tkl: ["ihu", "ihu"],
     mga: ["srón", "sroːn"],
     hbo: ["אַף", "ʔaf"],
     he_mis: ["חוטם", "ˈħotˤem"],
@@ -681,7 +681,7 @@ WORDS.nose = {
     fit: ["nenä", "ˈnenæ"],
     hif: ["naak", "naːk"],
     zgh: ["ⵜⵉⵏⵣⵔⵜ", "tinzərt"],
-    aln: ["hundë", "ˈhundə"],
+    aln: ["hundë", "hund"],
     fud: ["isu", "isu"],
 
     // --- Sinitic — Mandarin 鼻子, each row's own 陽平 contour on 鼻 ------

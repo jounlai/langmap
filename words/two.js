@@ -469,7 +469,7 @@ WORDS.two = {
       lv: ["divi", "ˈdivi"],
       prg: ["dwai", "dwai"],
       sq: ["dy", "dy"],
-      aae: ["dy", "dy"],
+      aae: ["di", "di"],
       et: ["kaks", "kɑks"],
       ht: ["de", "de"],
       jam: ["tuu", "tuː"],

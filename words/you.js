@@ -875,7 +875,7 @@ WORDS.you = {
       dng: ["ни", "ni˧"],
       hsb: ["ty", "tɨ"],
       csb: ["të", "tɜ"],
-      rue: ["ты", "tɪ"],
+      rue: ["ты", "tɨ"],
       fur: ["tu", "tu"],
       ast: ["tu", "tu"],
       ext: ["tú", "tu"],

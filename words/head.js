@@ -997,7 +997,7 @@ WORDS.head = {
     cro: ["aashúua", "aːʃúːa"],
     tlh: ["nach", "natʃ"],
     fra_jer: ["tête", "teit"],
-    pmy: ["kepala", "kəpala"],
+    pmy: ["kepala", "kepala"],
     piu: ["kata", "kata"],
     mpj: ["kata", "kata"],
     njo: ["tekolak", "tekolak"],

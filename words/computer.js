@@ -268,7 +268,7 @@ WORDS.computer = {
     "lv": ["dators", "ˈdatɔrs"],
     "mad": ["komputer", "kɔmˈputər"],
     "mak": ["komputer", "komˈputər"],
-    "max": ["komputer", "komˈputər"],
+    "max": ["komputer", "komˈputer"],
     "mdf": ["компьютер", "kɐmˈpjuter"],
     "mdh": ["kompyuter", "komˈpjutɛr"],
     "mdr": ["komputer", "komˈputər"],

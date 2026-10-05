@@ -515,7 +515,7 @@ WORDS.four = {
     ttj: ["ina", "iːna"],
     pam: ["apat", "ˈʔaːpat"],
     pdc: ["vier", "fiːɐ̯"],
-    pmy: ["empat", "əmpat"],
+    pmy: ["empat", "empat"],
     prs: ["چهار", "tʃahɑːr"],
     pwn: ["sepatj", "səpatʲ"],
     rar: ["ʻā", "ʔaː"],

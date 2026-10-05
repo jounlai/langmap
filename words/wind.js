@@ -364,7 +364,7 @@ WORDS.wind = {
     hyw: ["քամի", "kʰɑˈmi"],
     ka: ["ქარი", "kʰari"],
     sq: ["erë", "ˈɛɾə"],
-    aln: ["erë", "ˈɛɾə"],
+    aln: ["erë", "eːɾ"],
     eu: ["haize", "ˈaise"],
     tpi: ["win", "win"],
     ht: ["van", "vã"],

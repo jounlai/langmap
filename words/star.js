@@ -462,7 +462,7 @@ WORDS.star = {
       lv: ["zvaigzne", "ˈzvaiɡzne"],
       prg: ["lauxnos", "ˈlauksnos"],
       sq: ["yll", "yɫ"],
-      aae: ["yll", "yɫ"],
+      aae: ["ill", "iɫ"],
       et: ["täht", "tæht"],
       ht: ["zetwal", "zetwal"],
       jam: ["staar", "staː"],

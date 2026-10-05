@@ -468,7 +468,7 @@ WORDS.eye = {
     lv: ["acs", "ats"],
     prg: ["ackis", "akis"],
     sq: ["sy", "sy"],
-    aae: ["sy", "sy"],
+    aae: ["si", "si"],
     et: ["silm", "silm"],
     ht: ["je", "ʒe"],
     jam: ["yai", "jaɪ"],

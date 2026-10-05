@@ -1068,7 +1068,7 @@ WORDS.cat = {
     pcc: ["meeuq", "meːu˧˧"],
     ium: ["mbao", "mbao˧"],
     hui: ["pusi", "pusi"],
-    tkl: ["pusi", "pusi"],
+    tkl: ["puhi", "puhi"],
     squ: ["pus", "pus"],
     mga: ["cat", "kat"],
     hbo: ["—", "—"],

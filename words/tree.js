@@ -1080,7 +1080,7 @@ WORDS.tree = {
     pcc: ["faix", "fai˧˩"],
     ium: ["ndiangx", "ndiaŋ˨˧"],
     hui: ["danda", "danda"],
-    tkl: ["lakau", "lakau"],
+    tkl: ["lākau", "laːkau"],
     squ: ["stsékʼas", "stsekʼas"],
     mga: ["crann", "kran"],
     hbo: ["עץ", "ʕeːsˤ"],

@@ -632,7 +632,7 @@ WORDS.sleep = {
     ie: ["dormir", "dorˈmir"],
     io: ["dormar", "dorˈmar"],
     vls: ["sloapn", "sloːpn̩"],
-    fkv: ["nukkua", "ˈnukːuɑ"],
+    fkv: ["nukkuut", "ˈnukːuːt"],
     fit: ["nukkua", "ˈnukːuɑ"],
     zgh: ["ⴳⵏ", "ɡən"],
     aln: ["fle", "fle"],

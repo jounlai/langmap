@@ -542,7 +542,7 @@ WORDS.salt = {
     to: ["māsima", "maːsima"],
     niu: ["masima", "masima"],
     tvl: ["masima", "masima"],
-    tkl: ["masima", "masima"],
+    tkl: ["māhima", "maːhima"],
     wls: ["māsima", "maːsima"],
     fud: ["masima", "masima"],
 

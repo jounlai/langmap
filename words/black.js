@@ -355,7 +355,7 @@ WORDS.black = {
 
     // --- More Austronesian — Malayic *hitam, Batak birong, Polynesian uli
     abs: ["hitam", "hitam"],
-    max: ["hitam", "hitam"],
+    max: ["itam", "itam"],
     mui: ["hitam", "hitam"],
     omy: ["hitam", "hitam"],
     osn: ["hideung", "hidɯŋ"],

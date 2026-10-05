@@ -1932,7 +1932,7 @@ WORDS.we = {
     dng: ["вәму", "və˥˩mu"],
     hsb: ["my", "mɨ"],
     csb: ["më", "mə"],
-    rue: ["мы", "mɪ"],
+    rue: ["мы", "mɨ"], // was ["мы", "mɪ"] (r51 audit 2026-10-04)
     fur: ["nô", "noː"],
     ast: ["nosotros", "nosoˈtɾos"],
     ext: ["nusotrus", "nusoˈtɾus"],

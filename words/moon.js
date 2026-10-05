@@ -1072,7 +1072,7 @@ WORDS.moon = {
     shx: ["paŋ44 kɔ44 le11", "paŋ˦˦ kɔ˦˦ le˩˩"],
     ium: ["hlaax", "hlaː˨˧"],
     hui: ["hina", "hina"],
-    tkl: ["malama", "malama"],
+    tkl: ["māhina", "maːhina"],
     squ: ["lh7álha", "ɬʔaɬa"],
     mga: ["ésca", "eːska"],
     hbo: ["ירח", "jɔːreːaħ"],

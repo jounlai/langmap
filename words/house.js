@@ -485,7 +485,7 @@ WORDS.house = {
     nan_xm: ["厝", "tsʰu˨˩"],
     nan_zz: ["厝", "tsʰu˨˩"],
     osa: ['cí', 'tsí'],
-    pmy: ['rumah', 'ˈrumah'],
+    pmy: ["ruma", "ˈruma"],
     pot: ['wigwam', 'wiɡwam'],
     pzh: ['xuma', 'xuma'],
     wic: ["akhaːrʔa", "akʰaːɾʔa"],

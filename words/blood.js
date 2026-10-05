@@ -926,7 +926,7 @@ WORDS.blood = {
     akb: ["daro", "daro"],
     bjn: ["darah", "darah"],
     abs: ["dara", "dara"],
-    max: ["darah", "darah"],
+    max: ["dara", "dara"],
     mui: ["darah", "darah"],
     sas: ["daraq", "daraʔ"],
     kha: ["snam", "snam"],

@@ -320,7 +320,7 @@ WORDS.wheel = {
     es_sgl: ["rueda", "ˈrweða"],
     fr_class: ["roue", "ʁu"],
     rup: ["aroatã", "aˈro̯atə"],
-    aln: ["rrotë", "ˈrotə"],
+    aln: ["rrotë", "roːt"],
 
     // --- Uralic and Turkic ---------------------------------------------
     krl: ["pyörä", "ˈpyøræ"],
@@ -697,7 +697,7 @@ WORDS.wheel = {
     chk: ["wiil", "wiːl"],
     yap: ["tayapyap", "tajapjap"],
     ho: ["uili", "uili"],
-    meu: ["uili", "uili"],
+    meu: ["ava-keikei", "avakeikei"],
     ch: ["rueda", "ɾuˈeda"],
     ami: ["fiher", "fiher"],
     pwn: ["tjukutjuku", "tʲukutʲuku"],

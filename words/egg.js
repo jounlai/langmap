@@ -597,7 +597,7 @@ WORDS.egg = {
     yug: ["еӈ", "eːŋ"],
     nan_xm: ["卵", "nŋ̍˨˨"],
     nan_zz: ["卵", "nũi˨˨"],
-    pmy: ["telor", "təlor"],
+    pmy: ["telor", "telor"],
     bew: ["telor", "təlor"],
     ie: ["ov", "ov"],
     io: ["ovo", "ˈovo"],
@@ -606,7 +606,7 @@ WORDS.egg = {
     fit: ["muna", "muna"],
     hif: ["anda", "əɳɖaː"],
     zgh: ["ⵜⴰⴳⵍⴰⵢⵜ", "taɡlajt"],
-    aln: ["ve", "vɛ"],
+    aln: ["vo", "vo"],
     fud: ["fuāmoa", "fuaːmoa"],
     // --- Uralic and Siberian — NorthEuraLex orthography plus its IPA
     sma: ["munnie", "ˈmʉnːiɛ"],

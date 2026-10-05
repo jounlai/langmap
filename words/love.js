@@ -982,7 +982,7 @@ WORDS.love = {
     akb: ["holong", "holoŋ"],
     bjn: ["sayang", "sajaŋ"],
     abs: ["sayang", "sajaŋ"],
-    max: ["cinta", "tʃinta"],
+    max: ["sayang", "sajaŋ"],
     mui: ["sayang", "sajaŋ"],
     sas: ["tresne", "trəsnə"],
     kha: ["ieid", "iəid"],

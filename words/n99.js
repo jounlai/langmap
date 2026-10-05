@@ -1095,7 +1095,7 @@ WORDS.n99 = {
     sat: ["ᱟᱨᱮ ᱜᱮᱞ ᱟᱨᱮ", "are ɡel are"],
     bbc: ["sia pulu sia", "sia pulu sia"],
     mak: ["salapampulo assalapang", "salapampulo asːalapaŋ"],
-    max: ["sembilan pulu sembilan", "səmbilan pulu səmbilan"],
+    max: ["sembilan pulu sembilan", "sembilan pulu sembilan"], // was ["sembilan pulu sembilan", "səmbilan pulu səmbilan"] (r51 audit 2026-10-04)
     ban: ["sangang dasa sia", "saŋaŋ dasa sia"],
     sas: ["siwaq pulu siwaq", "siwaʔ pulu siwaʔ"],
     ace: ["sikureueng ploh sikureueng", "sikuɾɯəŋ plɔh sikuɾɯəŋ"],

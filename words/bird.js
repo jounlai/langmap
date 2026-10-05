@@ -1066,7 +1066,7 @@ WORDS.bird = {
     ker: ["kasko", "kasko"],
     atj: ["pirecic", "piɾeʃiʃ"],
     tdh: ["चक्पु", "tsɔkpu"],
-    deg: ["ẹfẹn", "ɛfɛn"],
+    deg: ["ẹfen", "ɛfɛn"],
     huv: ["kiek", "kʲek"],
     emp: ["ĩbana", "ĩbana"],
     crx: ["dutʼai", "dutʼai"],

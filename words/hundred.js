@@ -1149,6 +1149,7 @@ WORDS.hundred = {
     okz: ["សត", "sat"],
     kho: ["𑀲𑀢", "sata"],
     pt_gw: ["sen", "sẽ"],
-    ho: ["handred", "handred"]
+    ho: ["handred", "handred"],
+    ket: ["киʼ", "kʲiʔ"]
   },
 };

@@ -398,7 +398,7 @@ WORDS.house = {
     izz: ["ulo", "ulo"],
     ibb: ["ufọk", "ufɔk"],
     urh: ["uwevwi", "uweβwi"],
-    deg: ["ọsụnẹ", "ɔsunɛ"],
+    deg: ["ụvay", "ʊvaj"],
     ets: ["ukekpe", "ukekpe"],
     iso: ["uwowhe", "uwowhe"],
     ha: ["gida", "ɡida"],

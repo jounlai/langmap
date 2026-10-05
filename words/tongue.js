@@ -412,7 +412,7 @@ WORDS.tongue = {
     izz: ["ire", "ire"],
     ibb: ["edeme", "edeme"],
     urh: ["erebe", "erebe"],
-    deg: ["udem", "udem"],
+    deg: ["ụḍem", "ʊɗɛm"],
     ets: ["olemi", "olemi"],
     iso: ["erou", "eɾou"],
     ha: ["harshe", "harʃeː"],

@@ -407,7 +407,7 @@ WORDS.three = {
     izz: ["ẹto", "ɛtɔ"],
     ibb: ["ita", "ita"],
     urh: ["erha", "eɾa"],
-    deg: ["atọ", "atɔ"],
+    deg: ["ịsay", "ɪsaj"],
     ets: ["ela", "ela"],
     iso: ["isa", "isa"],
     ha: ["uku", "ʔúkù"],

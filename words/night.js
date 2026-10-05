@@ -404,7 +404,7 @@ WORDS.night = {
     izz: ["enyashi", "eɲaʃi"],
     ibb: ["okoneyo", "okonejo"],
     urh: ["aso", "aso"],
-    deg: ["asu", "asu"],
+    deg: ["ạsu", "asʊ"],
     ets: ["eridai", "eridai"],
     iso: ["aso", "aso"],
     ha: ["dare", "dare"],

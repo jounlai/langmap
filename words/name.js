@@ -972,7 +972,7 @@ WORDS.name = {
       mrq: ["ikoa", "ikoa"],
       tiw: ["yintanga", "jintaŋa"],
       lbz: ["nyunda", "ɲunda"],
-      lbz_damin: ["m!ii", "ŋ͡ʘiː"],
+      lbz_damin: ["—", "—"],
       nny: ["nida", "nida"],
       kky: ["gadil", "ˈkatil"],
       guc: ["anülia", "anɨlia"],

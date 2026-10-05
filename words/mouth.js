@@ -1182,6 +1182,7 @@ WORDS.mouth = {
     nmn: ["ǂûe", "ǂue"],
     khw: ["اپاک", "aˈpaːk"],
     rmt: ["zari", "zari"],
-    hup: ["-daʼ", "-daʔ"]
+    hup: ["-daʼ", "-daʔ"],
+    itb: ["vivih", "vivih"]
   }
 };

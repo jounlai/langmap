@@ -398,7 +398,7 @@ WORDS.moon = {
     izz: ["onwa", "oŋwa"],
     ibb: ["ọfiọñ", "ɔfiɔŋ"],
     urh: ["emẹrẹ", "emɛɾɛ"],
-    deg: ["ọsọ", "ɔsɔ"],
+    deg: ["obaam", "obəəm"],
     ets: ["ukpoki", "ukpoki"],
     iso: ["ọwa", "ɔwa"],
     ha: ["wata", "wata"],

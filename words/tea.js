@@ -377,7 +377,7 @@ WORDS.tea = {
     tay: "cha",
     ami: "cha",
     ibb: "te",
-    tll: "te",
+    tll: "cha", // route was te (r51 audit 2026-10-04)
     sas: "te",
     min: "te",
     bjn: "te",
@@ -991,7 +991,7 @@ WORDS.tea = {
     tay: ["ocyaʼ", "otsjaʔ"],
     ami: ["ociya", "otsija"],
     ibb: ["ti", "ti"],
-    tll: ["ti", "ti"],
+    tll: ["tshayi", "tʃaji"], // was ["ti", "ti"] (r51 audit 2026-10-04)
     sas: ["tih", "tih"],
     min: ["teh", "teh"],
     bjn: ["teh", "teh"],

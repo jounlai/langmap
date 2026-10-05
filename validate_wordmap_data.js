@@ -1019,6 +1019,8 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                ebu: new Set(['thanks']),   // r54: nĩ baba not a thanks formula; no Embu source
+                deg: new Set(['love', 'hello', 'thanks']),   // r54: row audited against Kari's lexicon; no Degema source for these
                 blk: new Set(['good', 'love', 'hello', 'snow', 'night']),   // r48 B: wrong-language cells removed, no right-language source yet
                 yuy: new Set(['love', 'hello', 'thanks']),   // r48 B: wrong-language cells removed, no right-language source yet
                 mjg: new Set(['star', 'thanks']),   // r48 B: wrong-language cells removed, no right-language source yet

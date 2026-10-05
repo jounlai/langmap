@@ -399,7 +399,7 @@ WORDS.water = {
     izz: ["mini", "mini"],
     ibb: ["mmọñ", "m̩mɔŋ"],
     urh: ["ame", "ame"],
-    deg: ["mọn", "mɔn"],
+    deg: ["amin", "amin"],
     ets: ["amen", "amen"],
     iso: ["ame", "ame"],
     ha: ["ruwa", "ɾuwaː"],

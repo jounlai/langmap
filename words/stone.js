@@ -1058,7 +1058,7 @@ WORDS.stone = {
     esu: ["teggalquq", "təxalquq"],
     ker: ["pərki", "pəɾki"],
     zts: ["gyia", "ɡʲia"],
-    deg: ["ohin", "ohin"],
+    deg: ["ohinw", "ohiŋʷ"],
     huv: ["piedra", "pʲedɾa"],
     shp: ["makan", "makan"],
     chf: ["jiʼtun", "hiʔtun"],

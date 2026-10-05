@@ -405,7 +405,7 @@ WORDS.heart = {
     izz: ["obi", "obi"],
     ibb: ["esit", "esit"],
     urh: ["udu", "udu"],
-    deg: ["ọkọmpọnị", "ɔkɔmpɔni"],
+    deg: ["ụnwo ivom", "ʊŋʷɔ ivom"],
     ets: ["itsu", "itsu"],
     iso: ["udu", "udu"],
     ha: ["zuciya", "zutʃija"],

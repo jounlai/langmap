@@ -406,7 +406,7 @@ WORDS.you = {
       izz: ["gị", "ɡɪ"],
       ibb: ["afo", "àfò"],
       urh: ["wẹ", "wɛ"],
-      deg: ["wo", "wo"],
+      deg: ["wọọ", "wɔɔ"],
       ets: ["wẹ", "wɛ"],
       iso: ["whẹ", "ʍɛ"],
       ha: ["kai", "kai"],

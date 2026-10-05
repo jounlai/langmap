@@ -406,7 +406,7 @@ WORDS.good = {
     izz: ["oma", "oma"],
     ibb: ["mfọn", "mfɔn"],
     urh: ["ọmaẹjẹ", "ɔmaɛdʒɛ"],
-    deg: ["ekenẹ", "ekenɛ"],
+    deg: ["ovi", "ovi"],
     ets: ["edue", "edue"],
     iso: ["ọwhọ", "ɔwhɔ"],
     ha: ["nagari", "naɡaɾi"],

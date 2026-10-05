@@ -405,7 +405,7 @@ WORDS.eye = {
     izz: ["anya", "aɲa"],
     ibb: ["anyen", "aɲen"],
     urh: ["aro", "aɾo"],
-    deg: ["enẹ", "enɛ"],
+    deg: ["ụnwo ạḍu", "ʊŋʷɔ aɗʊ"],
     ets: ["evua", "evua"],
     iso: ["ẹro", "ɛɾo"],
     ha: ["ido", "idoː"],

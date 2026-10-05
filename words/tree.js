@@ -406,7 +406,7 @@ WORDS.tree = {
     izz: ["osisi", "osisi"],
     ibb: ["eto", "eto"],
     urh: ["orhan", "oɾan"],
-    deg: ["eyo", "ejo"],
+    deg: ["ụtany", "ʊtaɲ"],
     ets: ["orhan", "oɾhan"],
     iso: ["orhan", "oɾan"],
     ha: ["bishiya", "biʃija"],

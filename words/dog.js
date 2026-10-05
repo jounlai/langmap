@@ -406,7 +406,7 @@ WORDS.dog = {
     izz: ["nkita", "ŋkita"],
     ibb: ["ebua", "ebua"],
     urh: ["ebọ", "ebɔ"],
-    deg: ["ifụnị", "ifuni"],
+    deg: ["ạḅuwa", "aɓʊwa"],
     ets: ["agbon", "aɡbon"],
     iso: ["ebọ", "ebɔ"],
     ha: ["kare", "kaɾe"],

@@ -405,7 +405,7 @@ WORDS.eat = {
     izz: ["ri", "ɾi"],
     ibb: ["dia", "dia"],
     urh: ["re", "ɾe"],
-    deg: ["re", "ɾe"],
+    deg: ["ḍi", "ɗi"],
     ets: ["remi", "ɾemi"],
     iso: ["re", "ɾe"],
     ha: ["ci", "tʃiː"],

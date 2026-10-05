@@ -398,7 +398,7 @@ WORDS.one = {
     izz: ["nanụ", "nanʊ"],
     ibb: ["kiet", "kiet"],
     urh: ["ọvo", "ɔvo"],
-    deg: ["ọmọ", "ɔmɔ"],
+    deg: ["ọvu", "ɔvʊ"],
     ets: ["ovo", "ovo"],
     iso: ["ọvo", "ɔvo"],
     ha: ["ɗaya", "ɗaja"],

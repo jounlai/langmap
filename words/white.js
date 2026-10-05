@@ -367,7 +367,7 @@ WORDS.white = {
     izz: ["ọchaa", "ɔtʃaː"],
     ibb: ["afia", "afia"],
     urh: ["fafa", "fafa"],
-    deg: ["fu", "fu"],
+    deg: ["ọfufu", "ɔfʊfʊ"],
     ets: ["pfa", "pfa"],
     iso: ["ọfuafụ", "ɔfuafʊ"],
     ha: ["fari", "faːriː"],

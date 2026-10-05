@@ -406,7 +406,7 @@ WORDS.i = {
       izz: ["mụ", "mʊ"],
       ibb: ["ami", "àmì"],
       urh: ["mẹ", "mɛ"],
-      deg: ["mẹ", "mɛ"],
+      deg: ["mẹẹ", "mɛɛ"],
       ets: ["mẹ", "mɛ"],
       iso: ["mẹ", "mɛ"],
       ha: ["ni", "niː"],

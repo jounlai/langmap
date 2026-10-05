@@ -940,7 +940,7 @@ WORDS.ear = {
     swb: ["kio", "kio"],
     tem: ["a-lens", "alɛns"],
     urh: ["ẹso", "ɛso"],
-    deg: ["usou", "usou"],
+    deg: ["ụsow", "ʊsɔw"],
     ekp: ["ata", "ata"],
     ets: ["eo", "eo"],
     izz: ["ntị", "ntɪ"],

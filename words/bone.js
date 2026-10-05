@@ -387,7 +387,7 @@ WORDS.bone = {
     izz: ["ọkpu", "ɔkpʊ"],
     ibb: ["ọkpọ", "ɔkpɔ"],
     urh: ["ubeku", "ubeku"],
-    deg: ["ubuo", "ubuo"],
+    deg: ["uḅuwo", "uɓuwo"],
     ets: ["ugoa", "uɡoa"],
     iso: ["ubeku", "ubeku"],
     ha: ["ƙashi", "kʼaʃiː"],

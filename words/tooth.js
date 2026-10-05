@@ -430,7 +430,7 @@ WORDS.tooth = {
     izz: ["eze", "eze"],
     ibb: ["edet", "edet"],
     urh: ["akọ", "akɔ"],
-    deg: ["uku", "uku"],
+    deg: ["ụku", "ʊkʊ"],
     ets: ["ako", "ako"],
     iso: ["akọ", "akɔ"],
     ha: ["haƙori", "haƙoːriː"],

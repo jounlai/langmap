@@ -409,7 +409,7 @@ WORDS.father = {
     izz: ["nna", "nːa"],
     ibb: ["ete", "ete"],
     urh: ["ọsẹ", "ɔsɛ"],
-    deg: ["etete", "etete"],
+    deg: ["ọsunomo", "ɔsʊnɔmɔ"],
     ets: ["ada", "ada"],
     iso: ["ọsẹ", "ɔsɛ"],
     ha: ["uba", "ubaː"],

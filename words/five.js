@@ -682,7 +682,7 @@ WORDS.five = {
     naq: ["koro", "koro"],
     kr: ["ugu", "uɡu"],
     men: ["lɔɔlu", "lɔːlu"],
-    dyu: ["looru", "lóːru"],
+    dyu: ["duuru", "dúːru"],
     sus: ["suuli", "suːli"],
     bbo: ["kʋ", "kʊ̄"],
     syl: ["পাঁচ", "faːs"],

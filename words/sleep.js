@@ -1046,7 +1046,7 @@ WORDS.sleep = {
     agu: ["watl", "waːtl"],
     pbb: ["dee", "deː"],
     pyu: ["alrupeʼ", "aɭupəʔ"],
-    deg: ["mẹse", "mɛse"],
+    deg: ["mẹse", "mɛsɛ"],
     huv: ["ameay", "ameaj"],
     djk: ["siibi", "siːbi"],
     emp: ["kãĩ", "kãĩ"],

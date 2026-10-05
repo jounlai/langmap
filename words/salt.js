@@ -1018,7 +1018,7 @@ WORDS.salt = {
     izz: ["unu", "unu"],
     ibb: ["inụñ", "inʌŋ"],
     urh: ["ughwaka", "uɣʷaka"],
-    deg: ["ubuon", "ubuon"],
+    deg: ["uḅuwan", "uɓuwən"],
     ff: ["lamɗam", "lamɗam"],
     snk: ["sappe", "sapːe"],
     bsq: ["tɔ̃", "tɔ̃"],

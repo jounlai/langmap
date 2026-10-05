@@ -815,8 +815,8 @@ WORDS.blue = {
     zh_wenyan_edu: ["青", "tsʰɪŋ˥"],
     vi_han: ["青", "tʰaɲ˧˧"],
     dng: ["лан", "lan˨˦"],
-    nan_zz: ["藍", "lam˩˧"],
-    nan_xm: ["藍", "lam˨˦"],
+    nan_zz: ["蓝", "lam˩˧"], // was ["藍", "lam˩˧"] (zh simplified 2026-10-05)
+    nan_xm: ["蓝", "lam˨˦"], // was ["藍", "lam˨˦"] (zh simplified 2026-10-05)
     nan: ["藍", "nã˨˦"],
     cpx: ["蓝", "laŋ˩˧"],
     yue_zs: ["藍", "lam˥˩"], // was ["藍", "lam˨˩"] (r46 fix 2026-10-03)
@@ -907,7 +907,7 @@ WORDS.blue = {
     es_cl: ["azul", "aˈsul"],
     es_mx: ["azul", "aˈsul"],
     es_an: ["azul", "aˈsul"],
-    nan_qz: ["藍色", "lam˨˦ siak˥"],
+    nan_qz: ["蓝色", "lam˨˦ siak˥"], // was ["藍色", "lam˨˦ siak˥"] (zh simplified 2026-10-05)
     nan_ph: ["藍色", "lam˨˦ siak˥"],
     nan_pn: ["藍色", "lam˨˧ sek˧"],
     nan_hai: ["蓝", "lam˧˩"],

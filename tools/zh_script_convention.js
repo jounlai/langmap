@@ -9,6 +9,9 @@
  * (Wu, Jin, Gan, Xiang, mainland Hakka, mainland Min city dialects, and every
  * zh_* Mandarin city) are written SIMPLIFIED; standard Cantonese (yue), Taiwan
  * Hokkien/Hakka (nan*, hak_tw, hak_hl) and the historical stages are TRADITIONAL.
+ * [2026-10-05: 'nan*' above means the Taiwan/overseas rows (nan, nan_ph, nan_pn).
+ *  The mainland Hokkien city rows nan_zz, nan_xm, nan_qz were converted to
+ *  simplified like nan_te, nan_hai and the other mainland Min rows; 睏 is kept.]
  * Rather than hard-code that, we MEASURE it per code from the shipped data so
  * sushi/computer can be aligned to whatever each code actually uses elsewhere.
  *

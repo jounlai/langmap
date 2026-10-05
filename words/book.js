@@ -354,8 +354,8 @@ WORDS.book = {
     ota: ["كتاب", "kiˈtaːb"],
     // Sinitic and mainland Southeast Asia.
     nan: ["冊", "tsʰeʔ˧˨"],     // Hokkien says 冊, not 書; zh-min-nan.wikipedia titles its Book article "Chheh". Tone written ˦ to match every other 陰入 cell in this row (一 it˦, 血 hueʔ˦, 百 paʔ˦) — see the tone-class note in my report.
-    nan_qz: ["冊", "tsʰeʔ˥"],  // Quanzhou 陰入 5, matching this row's 百 paʔ˥ and 骨 kut˥.
-    nan_zz: ["冊", "tsʰɛʔ˧˨"],  // Zhangzhou chheeh has ɛ, so not a copy of nan.
+    nan_qz: ["册", "tsʰeʔ˥"],  // Quanzhou 陰入 5, matching this row's 百 paʔ˥ and 骨 kut˥.
+    nan_zz: ["册", "tsʰɛʔ˧˨"],  // Zhangzhou chheeh has ɛ, so not a copy of nan.
     nan_pn: ["冊", "tsʰɛʔ˧"],  // Penang follows Zhangzhou in the vowel and this row in the 陰入 spelling.
     nan_te: ["书", "tsɯ˧˧"],   // Teochew takes 書, not 冊. Simplified, as this row is throughout (鸟, 头, 鱼).
     mnp: ["书", "sy˥˦"],       // Jian'ou sṳ́; this row already uses the /y/ vowel (水 sy˨˩).
@@ -852,7 +852,7 @@ WORDS.book = {
     smn: ["kirje", "ˈkirje"],
     mnc: ["ᠪᡳᡨᡥᡝ", "bitxə"],
     ykg: ["кинига", "kiniɡa"],
-    nan_xm: ["冊", "tsʰeʔ˧˨"],
+    nan_xm: ["册", "tsʰeʔ˧˨"],
     szy: ["cudad", "tsudad"],
     cro: ["baawaalaáche", "baːwaːláːtʃe"],
     es_sv: ["libro", "ˈliβɾo"],

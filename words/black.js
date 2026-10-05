@@ -538,9 +538,9 @@ WORDS.black = {
     // the right tone class, read off its 三 (陰平) or 一 (陰入) cell — 黑 is
     // 陰入, 烏 is 陰平, and no value was carried across rows.
     nan: ["烏", "ɔ˦˦"],
-    nan_xm: ["烏", "ɔ˦˦"],
-    nan_zz: ["烏", "ɔ˦˦"],
-    nan_qz: ["烏", "ɔ˧˧"],
+    nan_xm: ["乌", "ɔ˦˦"],
+    nan_zz: ["乌", "ɔ˦˦"],
+    nan_qz: ["乌", "ɔ˧˧"],
     nan_te: ["乌", "ou˧˧"],
     cpx: ["乌", "ɔu˥˧˧"],
     cdo: ["乌", "u˥˥"],

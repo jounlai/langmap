@@ -369,9 +369,9 @@ WORDS.green = {
     mzh: ["watsan", "watsan"],   // Grue: IDS and WOLD both give wa'c̷an / w'atshan for blue and green alike in Wichí, so this repeats the 'blue' cell.
     nan: ["綠", "liɪk˦"],
     nan_pn: ["青色", "tsʰẽ˧˧ sek˧"],
-    nan_qz: ["綠", "liak˨˦"],
+    nan_qz: ["绿", "liak˨˦"],
     nan_te: ["青色", "tsʰẽ˧˧ sek˨"],
-    nan_zz: ["綠", "liɪk̚˩˨˩"],
+    nan_zz: ["绿", "liɪk̚˩˨˩"],
     nap: ["verde", "ˈverdə"],
     naq: ["ǃgam", "ǃɡam"],
     nbl: ["hlaza", "ɬaːza"],   // Nguni luhlaza covers green and blue together; the cell is the same as this row's 'blue', as it is for zu and xh already.
@@ -927,7 +927,7 @@ WORDS.green = {
     mpt: ["itanasit", "itanasit"],
     maw: ["bɛŋkoom", "bɛŋkoːm"],
     zh_jn: ["绿", "ly˨˩"],
-    nan_xm: ["綠", "lik̚˦"],
+    nan_xm: ["绿", "lik̚˦"],
     yue_dg: ["绿", "lok˧"],
     yue_nn: ["绿", "lʊk˨"],
     yue_zs: ["綠", "lʊk˧"],

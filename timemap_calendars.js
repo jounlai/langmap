@@ -94,6 +94,9 @@
         return s.length === 1 ? s + '׳' : s.slice(0, -1) + '״' + s.slice(-1);
     }
     const localeDigits = (n, loc) => Number(n).toLocaleString(loc, { useGrouping: false });
+    const thaiDigits = n => localeDigits(n, 'th-TH-u-nu-thai');
+    const devaDigits = n => localeDigits(n, 'hi-IN-u-nu-deva');
+    const thaiMonth = D => fmt('th-TH', { day: 'numeric', month: 'long' }).formatToParts(D).find(p => p.type === 'month').value;
 
     /* ---------- Intl helpers (arithmetic only) ---------- */
     const fmtCache = {};
@@ -134,6 +137,10 @@
     const LAT_GEN = ['Ianuarii','Februarii','Martii','Aprilis','Maii','Iunii','Iulii','Augusti','Septembris','Octobris','Novembris','Decembris'];
     const LAT_ABBR = ['Ian.','Feb.','Mart.','Apr.','Mai.','Iun.','Iul.','Aug.','Sept.','Oct.','Nov.','Dec.'];
     const GR_GEN = ['Ἰανουαρίου','Φεβρουαρίου','Μαρτίου','Ἀπριλίου','Μαΐου','Ἰουνίου','Ἰουλίου','Αὐγούστου','Σεπτεμβρίου','Ὀκτωβρίου','Νοεμβρίου','Δεκεμβρίου'];
+    // Standard Moroccan Tamazight month names in Tifinagh (CLDR zgh; Chrome ships no zgh data).
+    const AMZ_TFNG = ['ⵉⵏⵏⴰⵢⵔ','ⴱⵕⴰⵢⵕ','ⵎⴰⵕⵚ','ⵉⴱⵔⵉⵔ','ⵎⴰⵢⵢⵓ','ⵢⵓⵏⵢⵓ','ⵢⵓⵍⵢⵓⵣ','ⵖⵓⵛⵜ','ⵛⵓⵜⴰⵏⴱⵉⵔ','ⴽⵜⵓⴱⵔ','ⵏⵓⵡⴰⵏⴱⵉⵔ','ⴷⵓⵊⴰⵏⴱⵉⵔ'];
+    // Indian national calendar months as the Hindi Gazette spells them.
+    const SAKA_HI = ['चैत्र','वैशाख','ज्येष्ठ','आषाढ़','श्रावण','भाद्र','आश्विन','कार्तिक','अग्रहायण','पौष','माघ','फाल्गुन'];
     const AMZ = ['Yennayer','Furar','Meɣres','Yebrir','Mayyu','Yunyu','Yulyu','Ɣuct','Ctembeṛ','Tubeṛ','Wambeṛ','Dujembeṛ'];
     const BN = ['বৈশাখ','জ্যৈষ্ঠ','আষাঢ়','শ্রাবণ','ভাদ্র','আশ্বিন','কার্তিক','অগ্রহায়ণ','পৌষ','মাঘ','ফাল্গুন','চৈত্র'];
     const TZOLKIN = ["Imix","Ik'","Ak'bal","K'an","Chikchan","Kimi","Manik'","Lamat","Muluk","Ok","Chuwen","Eb","Ben","Ix","Men","Kib","Kaban","Etz'nab","Kawak","Ajaw"];
@@ -286,7 +293,7 @@
           note: 'Year = Western year + 543. Sri Lanka, Myanmar and Cambodia count the Buddhist Era one year apart from Thailand.',
           year: '{n} BE',
           from: { y: 1941, m: 1, d: 1 },
-          fmt: (g, D) => ({ native: fmt('th-TH-u-ca-buddhist', DMY).format(D), latin: g.d + '/' + g.m + '/' + (g.y + 543) + ' BE', tr: trGreg(g.y + 543, g.m, g.d) }) },
+          fmt: (g, D) => ({ native: thaiDigits(g.d) + ' ' + thaiMonth(D) + ' พ.ศ. ' + thaiDigits(g.y + 543), latin: g.d + '/' + g.m + '/' + (g.y + 543) + ' BE', tr: trGreg(g.y + 543, g.m, g.d) }) },
         { id: 'chinese', status: 'current', lat: 33.5, lng: 104.0,
           name: 'Chinese lunisolar calendar', region: 'China', type: 'Lunisolar',
           epoch: 'No running year count; years cycle through 60 stem–branch names',
@@ -344,8 +351,8 @@
           note: 'A reformed, fixed calendar. Festivals still follow the many regional Hindu lunisolar calendars.',
           year: 'Śaka {n}',
           from: { y: 1957, m: 3, d: 22 },
-          fmt: (g, D) => { const n = calNum('indian', D), p = parts('hi-IN-u-ca-indian', DMY, D);
-              return { native: p.day + ' ' + p.month + ' ' + p.year + ' शक', latin: n.d + '/' + n.m + '/' + n.y + ' Śaka', tr: trList('indian', n.y, n.m - 1, n.d) }; } },
+          fmt: (g, D) => { const n = calNum('indian', D);
+              return { native: SAKA_HI[n.m - 1] + ' ' + devaDigits(n.d) + ', ' + devaDigits(n.y) + ' शक', latin: n.d + '/' + n.m + '/' + n.y + ' Śaka', tr: trList('indian', n.y, n.m - 1, n.d) }; } },
         { id: 'bengali', status: 'current', lat: 23.9, lng: 90.3,
           name: 'Bengali calendar (Bangabda)', region: 'Bangladesh', type: 'Solar (fixed rules)',
           epoch: 'Bangabda, AD 593', used: 'Official in Bangladesh; the 2019 revision is shown',
@@ -362,7 +369,7 @@
           year: '{n} E.C.',
           from: { y: 8, m: 8, d: 27 },
           fmt: (g, D) => { const n = calNum('ethiopic', D), a = parts('am-u-ca-ethiopic', DMY, D);
-              return { native: a.day + ' ' + a.month + ' ' + a.year + ' ዓ.ም.', latin: n.d + '/' + n.m + '/' + n.y + ' E.C.', tr: trList('ethiopic', n.y, n.m - 1, n.d) }; } },
+              return { native: a.month + ' ' + n.d + ' ቀን ' + n.y + ' ዓ.ም.', latin: n.d + '/' + n.m + '/' + n.y + ' E.C.', tr: trList('ethiopic', n.y, n.m - 1, n.d) }; } },
         { id: 'coptic', status: 'current', lat: 26.6, lng: 30.6,
           name: 'Coptic calendar', region: 'Egypt', type: 'Solar: 12 × 30 days + 5–6 epagomenal days',
           epoch: 'Era of the Martyrs, AD 284 (accession of Diocletian)',
@@ -384,10 +391,10 @@
           name: 'Amazigh (Berber) calendar', region: 'Morocco · Algeria', type: 'Solar (Julian months)',
           epoch: 'Accession of Pharaoh Shoshenq I, 950 BC',
           used: 'Agricultural calendar; Yennayer is a public holiday in Algeria (2018) and Morocco (2024)',
-          note: 'Keeps the Julian month lengths, so Yennayer 1 falls on 14 January today. The year count was proposed in 1980.',
+          note: 'Keeps the Julian month lengths, so Yennayer 1 falls on 14 January today. The year count was proposed in 1980. Months are shown in Tifinagh, the script of Standard Moroccan Tamazight; Kabyle in Algeria writes them in Latin letters (Yennayer, Furar…).',
           from: { y: 1980, m: 1, d: 14 },
           fmt: g => { const J = julianOf(g);
-              return { native: J.d + ' ' + AMZ[J.m - 1] + ' ' + (J.y + 950), latin: J.d + ' ' + AMZ[J.m - 1] + ' ' + (J.y + 950), tr: trList('amazigh', J.y + 950, J.m - 1, J.d) }; } },
+              return { native: J.d + ' ' + AMZ_TFNG[J.m - 1] + ' ' + (J.y + 950), latin: J.d + ' ' + AMZ[J.m - 1] + ' ' + (J.y + 950), tr: trList('amazigh', J.y + 950, J.m - 1, J.d) }; } },
 
         /* ===== Historical — as if they had kept counting ===== */
         { id: 'yuan', status: 'historical', lat: 42.4, lng: 116.2,
@@ -420,6 +427,17 @@
           fmt: (g, D) => { const c = lunar('chinese', D), n = c.relatedYear - 1908;
               return { native: '宣統' + (n === 1 ? '元' : han(n)) + '年' + (c.leap ? '閏' : '') + lunarMonthHan(c.month) + '月' + lunarDay(c.day) + '日',
                        latin: 'Xuantong ' + n + ', ' + (c.leap ? 'leap ' : '') + 'month ' + c.month + ', day ' + c.day,
+                       tr: { kind: 'lunar', n, m: c.month, leap: c.leap, d: c.day } }; } },
+        { id: 'ryukyu', status: 'historical', lat: 26.22, lng: 127.72,
+          name: 'Ryukyu Kingdom: Qing era Guangxu', region: 'Shuri, Ryukyu', type: 'Lunisolar, Chinese era years',
+          epoch: 'Guangxu 1 = 1875; Ryukyu had no era names of its own and dated by Ming, then Qing eras',
+          used: 'Until the kingdom was annexed by Japan in 1879; the court kept using Guangxu after Tokyo ordered it to adopt Meiji in 1875',
+          note: 'Ryukyu took its almanac from the Qing court along with its era names, so its dates followed the Chinese lunisolar calendar. Month and day here follow today’s Chinese calendar.',
+          year: 'Guangxu {n}', gannen: true,
+          from: { y: 1875, m: 2, d: 6 }, endYear: 1879,
+          fmt: (g, D) => { const c = lunar('chinese', D), n = c.relatedYear - 1874;
+              return { native: '光緒' + (n === 1 ? '元' : han(n)) + '年' + (c.leap ? '閏' : '') + lunarMonthHan(c.month) + '月' + lunarDay(c.day) + '日',
+                       latin: 'Guangxu ' + n + ', ' + (c.leap ? 'leap ' : '') + 'month ' + c.month + ', day ' + c.day,
                        tr: { kind: 'lunar', n, m: c.month, leap: c.leap, d: c.day } }; } },
         { id: 'korean_empire', status: 'historical', lat: 37.4, lng: 126.2,
           name: 'Korean Empire era: Yunghui', region: 'Seoul', type: 'Gregorian months, imperial era years',
@@ -465,7 +483,7 @@
           year: 'R.S. {n}',
           from: { y: 1889, m: 4, d: 1 }, endYear: 1912,
           fmt: (g, D) => { const rs = g.m >= 4 ? g.y - 1781 : g.y - 1782;
-              return { native: g.d + ' ' + fmt('th-TH', { day: 'numeric', month: 'long' }).formatToParts(D).find(p => p.type === 'month').value + ' ร.ศ. ' + rs,
+              return { native: thaiDigits(g.d) + ' ' + thaiMonth(D) + ' ร.ศ. ' + thaiDigits(rs),
                        latin: 'R.S. ' + rs + ', ' + g.m + '/' + g.d, tr: trGreg(rs, g.m, g.d) }; } },
         { id: 'iran_imperial', status: 'historical', lat: 35.7, lng: 51.4,
           name: 'Iranian Imperial calendar', region: 'Tehran', type: 'Solar (Solar Hijri months)',
@@ -521,7 +539,7 @@
           name: 'Aztec day count (tonalpohualli)', region: 'Tenochtitlan (Mexico City)', type: '260-day ritual count: 13 numbers × 20 day signs',
           epoch: 'No year 1: the count cycles endlessly; years were named in a 52-year round',
           used: 'Central Mexico until the Spanish conquest (1521); the same 260-day count as the Maya Tzolk’in',
-          note: 'Tenochtitlan fell on 1 Coatl (1 Serpent), 13 August 1521 Julian — the anchor of the Caso correlation used here. Which day the 365-day year began is still debated, so only the day sign is shown.',
+          note: 'Tenochtitlan fell on 1 Coatl (1 Serpent), 13 August 1521 Julian — the anchor of the Caso correlation used here. Which day the 365-day year began is still debated, so only the day sign is shown. The Aztecs painted day signs as pictures, which Unicode does not encode; Nahuatl has been written in Latin letters since the 16th century, and that is how the day is shown.',
           from: { y: 1, m: 1, d: 1 }, endYear: 1521,
           fmt: g => { const days = gregToJdn(g.y, g.m, g.d) - 584283, num = mod(days + 3, 13), sign = mod(days + 19, 20);
               return { native: AZTEC_NUM[num] + ' ' + AZTEC[sign], latin: (num + 1) + ' ' + AZTEC[sign], tr: { kind: 'sign', num: num + 1, mi: sign } }; } },

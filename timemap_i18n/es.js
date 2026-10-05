@@ -417,7 +417,7 @@ window.TM_I18N["es"] = {
    "type": "Solar (meses julianos)",
    "epoch": "Ascenso del faraón Sheshonq I, 950 a. C.",
    "used": "Calendario agrícola; Yennayer es festivo en Argelia (2018) y Marruecos (2024)",
-   "note": "Conserva la duración de los meses julianos, así que el 1 de yennayer cae hoy el 14 de enero. El cómputo de años se propuso en 1980."
+   "note": "Conserva la duración de los meses julianos, así que el 1 de yennayer cae hoy el 14 de enero. El cómputo de años se propuso en 1980. Los meses se muestran en tifinag, la escritura del tamazight estándar marroquí; el cabilio de Argelia los escribe en letras latinas (Yennayer, Furar…)."
   },
   "yuan": {
    "name": "Era de la dinastía Yuan: Zhizheng",
@@ -445,6 +445,15 @@ window.TM_I18N["es"] = {
    "used": "1909–1912, la última era imperial de China",
    "note": "Puyi abdicó en Xuantong 3; la corte de la Ciudad Prohibida siguió usando la era hasta 1924.",
    "year": "del año {n} de la era Xuantong"
+  },
+  "ryukyu": {
+   "name": "Reino de Ryukyu: era Qing Guangxu",
+   "region": "Shuri, Ryukyu",
+   "type": "Lunisolar, años de era china",
+   "epoch": "Guangxu 1 = 1875; Ryukyu no tenía nombres de era propios y databa por las eras Ming y luego Qing",
+   "used": "Hasta la anexión del reino por Japón en 1879; la corte siguió usando Guangxu después de que Tokio le ordenara adoptar Meiji en 1875",
+   "note": "Ryukyu recibía su almanaque de la corte Qing junto con los nombres de era, así que sus fechas seguían el calendario lunisolar chino. Aquí el mes y el día siguen el calendario chino actual.",
+   "year": "del año {n} de la era Guangxu"
   },
   "korean_empire": {
    "name": "Era del Imperio coreano: Yunghui",
@@ -542,7 +551,7 @@ window.TM_I18N["es"] = {
    "type": "Cuenta ritual de 260 días: 13 números × 20 signos de día",
    "epoch": "Sin año 1: la cuenta se repite sin fin; los años se nombraban en un ciclo de 52 años",
    "used": "México central hasta la conquista española (1521); la misma cuenta de 260 días que el tzolkin maya",
-   "note": "Tenochtitlan cayó el día 1 Cóatl (1 Serpiente), 13 de agosto de 1521 juliano, ancla de la correlación de Caso usada aquí. Aún se discute en qué día empezaba el año de 365 días, así que solo se muestra el signo del día."
+   "note": "Tenochtitlan cayó el día 1 Cóatl (1 Serpiente), 13 de agosto de 1521 juliano, ancla de la correlación de Caso usada aquí. Aún se discute en qué día empezaba el año de 365 días, así que solo se muestra el signo del día. Los aztecas pintaban los signos de los días como imágenes, que Unicode no codifica; el náhuatl se escribe en letras latinas desde el siglo XVI, y así se muestra el día."
   },
   "maya": {
    "name": "Cuenta larga maya",

@@ -417,7 +417,7 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch (tháng theo lịch Julius)",
    "epoch": "Pharaoh Shoshenq I lên ngôi, 950 TCN",
    "used": "Lịch nông nghiệp; Yennayer là ngày nghỉ lễ tại Algérie (2018) và Maroc (2024)",
-   "note": "Giữ độ dài tháng của lịch Julius, nên ngày 1 Yennayer hiện rơi vào 14 tháng 1. Cách đếm năm được đề xuất năm 1980."
+   "note": "Giữ độ dài tháng của lịch Julius, nên ngày 1 Yennayer hiện rơi vào 14 tháng 1. Cách đếm năm được đề xuất năm 1980. Tên tháng được hiển thị bằng chữ Tifinagh, chữ viết của tiếng Tamazight chuẩn Maroc; tiếng Kabyle ở Algérie viết chúng bằng chữ Latinh (Yennayer, Furar…)."
   },
   "yuan": {
    "name": "Niên hiệu nhà Nguyên: Chí Chính",
@@ -445,6 +445,15 @@ window.TM_I18N["vi"] = {
    "used": "1909–1912, niên hiệu hoàng đế cuối cùng của Trung Quốc",
    "note": "Phổ Nghi thoái vị năm Tuyên Thống thứ 3; triều đình trong Tử Cấm Thành vẫn dùng niên hiệu này đến năm 1924.",
    "year": "Tuyên Thống thứ {n}"
+  },
+  "ryukyu": {
+   "name": "Vương quốc Lưu Cầu: niên hiệu nhà Thanh Quang Tự",
+   "region": "Shuri, Lưu Cầu",
+   "type": "Âm dương lịch, năm theo niên hiệu Trung Quốc",
+   "epoch": "Quang Tự 1 = 1875; Lưu Cầu không có niên hiệu riêng, dùng niên hiệu nhà Minh rồi nhà Thanh",
+   "used": "Đến khi vương quốc bị Nhật Bản sáp nhập năm 1879; triều đình vẫn dùng Quang Tự sau khi Tokyo ra lệnh chuyển sang niên hiệu Minh Trị năm 1875",
+   "note": "Lưu Cầu nhận lịch từ triều đình nhà Thanh cùng với niên hiệu, nên ngày tháng theo âm dương lịch Trung Quốc. Tháng và ngày ở đây theo âm lịch Trung Quốc ngày nay.",
+   "year": "Quang Tự thứ {n}"
   },
   "korean_empire": {
    "name": "Niên hiệu Đại Hàn Đế quốc: Long Hy",
@@ -542,7 +551,7 @@ window.TM_I18N["vi"] = {
    "type": "Chu kỳ nghi lễ 260 ngày: 13 con số × 20 ký hiệu ngày",
    "epoch": "Không có năm 1: chu kỳ lặp vô tận; năm được đặt tên theo vòng 52 năm",
    "used": "Miền trung Mexico đến khi Tây Ban Nha chinh phục (1521); cùng chu kỳ 260 ngày với Tzolk’in của người Maya",
-   "note": "Tenochtitlan thất thủ vào ngày 1 Coatl (1 Rắn), 13 tháng 8 năm 1521 lịch Julius — mốc của phép đối chiếu Caso dùng ở đây. Năm 365 ngày bắt đầu vào ngày nào vẫn còn tranh cãi, nên chỉ hiển thị ký hiệu ngày."
+   "note": "Tenochtitlan thất thủ vào ngày 1 Coatl (1 Rắn), 13 tháng 8 năm 1521 lịch Julius — mốc của phép đối chiếu Caso dùng ở đây. Năm 365 ngày bắt đầu vào ngày nào vẫn còn tranh cãi, nên chỉ hiển thị ký hiệu ngày. Người Aztec vẽ các ký hiệu ngày thành hình, những hình mà Unicode không mã hóa; tiếng Nahuatl được viết bằng chữ Latinh từ thế kỷ 16, và ngày được hiển thị theo cách đó."
   },
   "maya": {
    "name": "Lịch Đếm dài Maya",

@@ -417,7 +417,7 @@ window.TM_I18N["de"] = {
    "type": "Solar (julianische Monate)",
    "epoch": "Thronbesteigung des Pharaos Scheschonq I., 950 v. Chr.",
    "used": "Landwirtschaftlicher Kalender; Yennayer ist gesetzlicher Feiertag in Algerien (2018) und Marokko (2024)",
-   "note": "Behält die julianischen Monatslängen, daher fällt der 1. Yennayer heute auf den 14. Januar. Die Jahreszählung wurde 1980 vorgeschlagen."
+   "note": "Behält die julianischen Monatslängen, daher fällt der 1. Yennayer heute auf den 14. Januar. Die Jahreszählung wurde 1980 vorgeschlagen. Die Monate werden in Tifinagh angezeigt, der Schrift des marokkanischen Standard-Tamazight; das Kabylische in Algerien schreibt sie in lateinischen Buchstaben (Yennayer, Furar…)."
   },
   "yuan": {
    "name": "Ära der Yuan-Dynastie: Zhizheng",
@@ -445,6 +445,15 @@ window.TM_I18N["de"] = {
    "used": "1909–1912, die letzte kaiserliche Ära Chinas",
    "note": "Puyi dankte im Jahr Xuantong 3 ab; der Hof in der Verbotenen Stadt verwendete die Ära bis 1924 weiter.",
    "year": "Xuantong {n}"
+  },
+  "ryukyu": {
+   "name": "Königreich Ryūkyū: Qing-Ära Guangxu",
+   "region": "Shuri, Ryūkyū",
+   "type": "Lunisolar, chinesische Ärenjahre",
+   "epoch": "Guangxu 1 = 1875; Ryūkyū hatte keine eigenen Ärennamen und datierte nach Ming-, dann nach Qing-Ären",
+   "used": "Bis zur Annexion des Königreichs durch Japan 1879; der Hof blieb bei Guangxu, auch nachdem Tokio 1875 die Einführung von Meiji angeordnet hatte",
+   "note": "Ryūkyū bezog seinen Almanach zusammen mit den Ärennamen vom Qing-Hof, daher folgten seine Daten dem chinesischen Lunisolarkalender. Monat und Tag folgen hier dem heutigen chinesischen Kalender.",
+   "year": "Guangxu {n}"
   },
   "korean_empire": {
    "name": "Ära des Koreanischen Kaiserreichs: Yunghui",
@@ -542,7 +551,7 @@ window.TM_I18N["de"] = {
    "type": "Rituelle Zählung von 260 Tagen: 13 Zahlen × 20 Tageszeichen",
    "epoch": "Kein Jahr 1: Die Zählung läuft endlos im Kreis; Jahre wurden in einem 52-Jahre-Zyklus benannt",
    "used": "Zentralmexiko bis zur spanischen Eroberung (1521); dieselbe 260-Tage-Zählung wie das Tzolk’in der Maya",
-   "note": "Tenochtitlan fiel am 1 Coatl (1 Schlange), dem 13. August 1521 julianisch – der Ankerpunkt der hier verwendeten Caso-Korrelation. An welchem Tag das 365-Tage-Jahr begann, ist noch umstritten, daher wird nur das Tageszeichen gezeigt."
+   "note": "Tenochtitlan fiel am 1 Coatl (1 Schlange), dem 13. August 1521 julianisch – der Ankerpunkt der hier verwendeten Caso-Korrelation. An welchem Tag das 365-Tage-Jahr begann, ist noch umstritten, daher wird nur das Tageszeichen gezeigt. Die Azteken malten die Tageszeichen als Bilder, die Unicode nicht kodiert; Nahuatl wird seit dem 16. Jahrhundert in lateinischen Buchstaben geschrieben, und so wird der Tag angezeigt."
   },
   "maya": {
    "name": "Lange Zählung der Maya",

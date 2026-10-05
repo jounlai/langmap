@@ -417,7 +417,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya jua (miezi ya Juliasi)",
    "epoch": "Kutawazwa kwa Farao Shoshenq I, 950 KK",
    "used": "Kalenda ya kilimo; Yennayer ni sikukuu ya umma Aljeria (2018) na Moroko (2024)",
-   "note": "Inahifadhi urefu wa miezi ya Juliasi, hivyo 1 Yennayer siku hizi huangukia 14 Januari. Hesabu ya miaka ilipendekezwa mwaka 1980."
+   "note": "Inahifadhi urefu wa miezi ya Juliasi, hivyo 1 Yennayer siku hizi huangukia 14 Januari. Hesabu ya miaka ilipendekezwa mwaka 1980. Miezi imeonyeshwa kwa hati ya Tifinagh, hati ya Kitamazight Sanifu cha Moroko; Kikabyle nchini Aljeria huiandika kwa herufi za Kilatini (Yennayer, Furar…)."
   },
   "yuan": {
    "name": "Enzi ya nasaba ya Yuan: Zhizheng",
@@ -445,6 +445,15 @@ window.TM_I18N["sw"] = {
    "used": "1909–1912, enzi ya mwisho ya kifalme ya China",
    "note": "Puyi aliachia kiti cha enzi mwaka Xuantong 3; baraza ndani ya Mji Uliokatazwa liliendelea kutumia enzi hiyo hadi 1924.",
    "year": "Xuantong {n}"
+  },
+  "ryukyu": {
+   "name": "Ufalme wa Ryukyu: enzi ya Qing Guangxu",
+   "region": "Shuri, Ryukyu",
+   "type": "Ya mwezi na jua, miaka ya enzi za Kichina",
+   "epoch": "Guangxu 1 = 1875; Ryukyu haikuwa na majina yake ya enzi, ilitumia enzi za Ming, kisha za Qing",
+   "used": "Hadi ufalme ulipotwaliwa na Japani mwaka 1879; baraza liliendelea kutumia Guangxu baada ya Tokyo kuliamuru kutumia Meiji mwaka 1875",
+   "note": "Ryukyu ilipokea almanaki yake kutoka baraza la Qing pamoja na majina ya enzi, hivyo tarehe zake zilifuata kalenda ya Kichina ya mwezi na jua. Mwezi na siku hapa hufuata kalenda ya Kichina ya leo.",
+   "year": "Guangxu {n}"
   },
   "korean_empire": {
    "name": "Enzi ya Milki ya Korea: Yunghui",
@@ -542,7 +551,7 @@ window.TM_I18N["sw"] = {
    "type": "Hesabu ya kiibada ya siku 260: namba 13 × alama 20 za siku",
    "epoch": "Hakuna mwaka 1: hesabu huzunguka bila mwisho; miaka ilipewa majina katika mzunguko wa miaka 52",
    "used": "Meksiko ya Kati hadi utekaji wa Wahispania (1521); hesabu ile ile ya siku 260 kama Tzolk’in ya Wamaya",
-   "note": "Tenochtitlan ilianguka siku ya 1 Coatl (1 Nyoka), 13 Agosti 1521 kwa Juliasi — msingi wa uwiano wa Caso unaotumika hapa. Siku ambayo mwaka wa siku 365 ulianza bado inajadiliwa, hivyo alama ya siku pekee ndiyo inayoonyeshwa."
+   "note": "Tenochtitlan ilianguka siku ya 1 Coatl (1 Nyoka), 13 Agosti 1521 kwa Juliasi — msingi wa uwiano wa Caso unaotumika hapa. Siku ambayo mwaka wa siku 365 ulianza bado inajadiliwa, hivyo alama ya siku pekee ndiyo inayoonyeshwa. Waazteki walichora alama za siku kama picha, ambazo Unicode haizisimbi; Kinahuatl kimeandikwa kwa herufi za Kilatini tangu karne ya 16, na hivyo ndivyo siku inavyoonyeshwa."
   },
   "maya": {
    "name": "Hesabu Ndefu ya Wamaya",

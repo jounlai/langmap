@@ -417,7 +417,7 @@ window.TM_I18N["id"] = {
    "type": "Matahari (bulan Julian)",
    "epoch": "Naik takhtanya Firaun Shoshenq I, 950 SM",
    "used": "Kalender pertanian; Yennayer menjadi hari libur nasional di Aljazair (2018) dan Maroko (2024)",
-   "note": "Mempertahankan panjang bulan Julian, sehingga 1 Yennayer kini jatuh pada 14 Januari. Hitungan tahunnya diusulkan pada 1980."
+   "note": "Mempertahankan panjang bulan Julian, sehingga 1 Yennayer kini jatuh pada 14 Januari. Hitungan tahunnya diusulkan pada 1980. Nama bulan ditampilkan dalam aksara Tifinagh, aksara bahasa Tamazight Standar Maroko; bahasa Kabyle di Aljazair menuliskannya dengan huruf Latin (Yennayer, Furar…)."
   },
   "yuan": {
    "name": "Era Dinasti Yuan: Zhizheng",
@@ -445,6 +445,15 @@ window.TM_I18N["id"] = {
    "used": "1909–1912, era kekaisaran terakhir Tiongkok",
    "note": "Puyi turun takhta pada Xuantong 3; istana di dalam Kota Terlarang tetap memakai era ini hingga 1924.",
    "year": "Xuantong {n}"
+  },
+  "ryukyu": {
+   "name": "Kerajaan Ryukyu: era Qing Guangxu",
+   "region": "Shuri, Ryukyu",
+   "type": "Lunisolar, tahun era Tiongkok",
+   "epoch": "Guangxu 1 = 1875; Ryukyu tidak memiliki nama era sendiri dan memakai era Ming, lalu era Qing",
+   "used": "Hingga kerajaan dianeksasi Jepang pada 1879; istana tetap memakai Guangxu setelah Tokyo memerintahkannya beralih ke era Meiji pada 1875",
+   "note": "Ryukyu menerima almanaknya dari istana Qing bersama nama eranya, sehingga tanggalnya mengikuti kalender lunisolar Tionghoa. Bulan dan tanggal di sini mengikuti kalender Tionghoa masa kini.",
+   "year": "Guangxu {n}"
   },
   "korean_empire": {
    "name": "Era Kekaisaran Korea: Yunghui",
@@ -542,7 +551,7 @@ window.TM_I18N["id"] = {
    "type": "Hitungan ritual 260 hari: 13 angka × 20 tanda hari",
    "epoch": "Tanpa tahun 1: hitungannya berputar tanpa akhir; tahun dinamai dalam siklus 52 tahun",
    "used": "Meksiko Tengah hingga penaklukan Spanyol (1521); hitungan 260 hari yang sama dengan Tzolk’in suku Maya",
-   "note": "Tenochtitlan jatuh pada 1 Coatl (1 Ular), 13 Agustus 1521 Julian — patokan korelasi Caso yang dipakai di sini. Hari awal tahun 365 hari masih diperdebatkan, jadi hanya tanda hari yang ditampilkan."
+   "note": "Tenochtitlan jatuh pada 1 Coatl (1 Ular), 13 Agustus 1521 Julian — patokan korelasi Caso yang dipakai di sini. Hari awal tahun 365 hari masih diperdebatkan, jadi hanya tanda hari yang ditampilkan. Orang Aztek melukis tanda hari sebagai gambar, yang tidak dikodekan oleh Unicode; bahasa Nahuatl ditulis dengan huruf Latin sejak abad ke-16, dan begitulah hari ditampilkan."
   },
   "maya": {
    "name": "Hitungan Panjang Maya",

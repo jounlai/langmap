@@ -417,7 +417,7 @@ window.TM_I18N["fr"] = {
    "type": "Solaire (mois juliens)",
    "epoch": "Avènement du pharaon Sheshonq Ier, 950 av. J.-C.",
    "used": "Calendrier agricole ; Yennayer est jour férié en Algérie (2018) et au Maroc (2024)",
-   "note": "Conserve la durée des mois juliens : le 1er yennayer tombe donc aujourd’hui le 14 janvier. Le compte des années a été proposé en 1980."
+   "note": "Conserve la durée des mois juliens : le 1er yennayer tombe donc aujourd’hui le 14 janvier. Le compte des années a été proposé en 1980. Les mois sont affichés en tifinagh, l’écriture du tamazight standard marocain ; le kabyle, en Algérie, les écrit en lettres latines (Yennayer, Furar…)."
   },
   "yuan": {
    "name": "Ère de la dynastie Yuan : Zhizheng",
@@ -445,6 +445,15 @@ window.TM_I18N["fr"] = {
    "used": "1909–1912, la dernière ère impériale de la Chine",
    "note": "Puyi a abdiqué en Xuantong 3 ; la cour, dans la Cité interdite, a continué d’utiliser l’ère jusqu’en 1924.",
    "year": "Xuantong {n}"
+  },
+  "ryukyu": {
+   "name": "Royaume de Ryūkyū : ère Qing Guangxu",
+   "region": "Shuri, Ryūkyū",
+   "type": "Luni-solaire, années d’ère chinoise",
+   "epoch": "Guangxu 1 = 1875 ; les Ryūkyū n’avaient pas d’ères propres et dataient selon les ères Ming, puis Qing",
+   "used": "Jusqu’à l’annexion du royaume par le Japon en 1879 ; la cour a continué d’utiliser Guangxu après que Tokyo lui eut ordonné d’adopter Meiji en 1875",
+   "note": "Les Ryūkyū recevaient leur almanach de la cour Qing avec les noms d’ère : leurs dates suivaient donc le calendrier luni-solaire chinois. Ici, le mois et le jour suivent le calendrier chinois actuel.",
+   "year": "Guangxu {n}"
   },
   "korean_empire": {
    "name": "Ère de l’Empire coréen : Yunghui",
@@ -542,7 +551,7 @@ window.TM_I18N["fr"] = {
    "type": "Compte rituel de 260 jours : 13 nombres × 20 signes",
    "epoch": "Pas d’an 1 : le compte tourne sans fin ; les années étaient nommées dans un cycle de 52 ans",
    "used": "Mexique central jusqu’à la conquête espagnole (1521) ; le même compte de 260 jours que le tzolk’in maya",
-   "note": "Tenochtitlan est tombée le 1 Coatl (1 Serpent), 13 août 1521 julien — le point d’ancrage de la corrélation de Caso utilisée ici. Le jour où commençait l’année de 365 jours est encore débattu : seul le signe du jour est donc affiché."
+   "note": "Tenochtitlan est tombée le 1 Coatl (1 Serpent), 13 août 1521 julien — le point d’ancrage de la corrélation de Caso utilisée ici. Le jour où commençait l’année de 365 jours est encore débattu : seul le signe du jour est donc affiché. Les Aztèques peignaient les signes des jours sous forme d’images, qu’Unicode n’encode pas ; le nahuatl s’écrit en lettres latines depuis le XVIe siècle, et c’est ainsi que le jour est affiché."
   },
   "maya": {
    "name": "Compte long maya",

@@ -1157,7 +1157,7 @@ WORDS.good = {
     och: ["好", "*qʰˤuʔ"],
     ojp: ["与之", "josi"],
     p_jpk: ["—", "—"],
-    h_vedic: ["साधु", "saːdʱu"],
+    h_vedic: ["साधु", "saːdʱú"],
     txg: ["𗩴", "new˧˥"], // emptied: 𗏁 is FIVE — the same graph the five cell correctly uses (Tangut pass, 2026-09-13)
     sog: ["nyk", "neːk"],
     otk: ["𐰓𐰏𐰈", "ædɡy"],

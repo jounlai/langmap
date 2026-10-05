@@ -1156,7 +1156,7 @@ WORDS.eat = {
     och: ["食", "*mə-lək"],
     ojp: ["多夫", "tabu"],
     p_jpk: ["—", "—"],
-    h_vedic: ["अत्ति", "atti"],
+    h_vedic: ["अत्ति", "ɐtti"],
     txg: ["𗡅", "dzji˧"], // emptied: 𗅋 is *mji¹ 'not' (Tangut pass, 2026-09-13)
     sog: ["xwartan", "xwartan"],
     otk: ["𐰘𐰃-", "je"],

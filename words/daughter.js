@@ -73,7 +73,7 @@ WORDS.daughter = {
     p_ine: ["*dʰugh₂tḗr", "dʰugh₂téːr"],
     p_toc: ["*t(ŭ)kācēr", "tkaːtseːr"],   // Wiktionary PT; A ckācar, B tkācer
     sa: ["दुहितृ", "duhitr̩"],
-    h_vedic: ["दुहितृ", "duhitr̩"],
+    h_vedic: ["दुहितृ", "duhitŕ̩"],
     pi: ["धीता", "dʱiːtaː"],
     pi_edu: ["dhītā", "dʱiːtaː"],
     el_grc: ["θυγάτηρ", "tʰuɡátɛːr"],

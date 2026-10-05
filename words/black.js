@@ -358,7 +358,7 @@ WORDS.black = {
     max: ["hitam", "hitam"],
     mui: ["hitam", "hitam"],
     omy: ["hitam", "hitam"],
-    osn: ["hideung", "hidəuŋ"],
+    osn: ["hideung", "hidɯŋ"],
     gay: ["item", "item"],
     mrw: ["maitem", "maˈʔitəm"],
     mdh: ["maitem", "maˈʔitəm"],

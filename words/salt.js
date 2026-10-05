@@ -90,7 +90,7 @@ WORDS.salt = {
     lt: ["druska", "ˈdruskɐ"],
     lv: ["sāls", "saːls"],
     sa: ["लवण", "lɐʋɐɳɐ"],
-    h_vedic: ["लवण", "lɐʋɐɳɐ"],
+    h_vedic: ["लवण", "lɐʋɐɳɐ́"],
     pi: ["लोण", "loɳa"],
     pi_edu: ["loṇa", "loɳa"],
     eu: ["gatz", "ɡats̻"],

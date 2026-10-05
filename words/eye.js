@@ -1162,7 +1162,7 @@ WORDS.eye = {
     och: ["目", "*C.m(r)[u]k"],
     ojp: ["目", "mə"],
     p_jpk: ["—", "—"],
-    h_vedic: ["अक्षि", "akʂi"],
+    h_vedic: ["अक्षि", "ɐkʂi"],
     txg: ["𗑉", "mej˧"],
     sog: ["cšm", "tʃaʃm"],
     otk: ["𐰚𐰕", "køz"],

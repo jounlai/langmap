@@ -70,7 +70,7 @@ WORDS.wheel = {
     // --- *kʷekʷlós, the word that puts a floor under the family --------
     p_ine: ["*kʷékʷlos", "kʷékʷlos"],
     sa: ["चक्र", "tɕɐkrɐ"],
-    h_vedic: ["चक्र", "tɕɐkrɐ"],
+    h_vedic: ["चक्र", "tɕɐkrɐ́"],
     pi: ["चक्क", "tʃakka"],
     pi_edu: ["cakka", "tʃakka"],
     el_grc: ["κύκλος", "kýklos"],

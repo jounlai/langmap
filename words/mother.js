@@ -1159,7 +1159,7 @@ WORDS.mother = {
     och: ["母", "*məʔ"],
     ojp: ["母", "papa"],
     p_jpk: ["*əma", "əma"],
-    h_vedic: ["माता", "maːtaː"],
+    h_vedic: ["माता", "maːtáː"],
     txg: ["𗴺", "mja˧"],
     sog: ["mʾtr", "maːtar"],
     otk: ["𐰜𐰏", "øɡ"],

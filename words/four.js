@@ -93,7 +93,7 @@ WORDS.four = {
     sga: ["cethair", "ˈkʲeθərʲ"],
     sa: ["चत्वारः", "tɕatʋaːraɦ"],
     sa_edu: ["चत्वारः", "tʃətʋaːrəɦ"],
-    h_vedic: ["चत्वारः", "tɕatʋaːraɦ"],
+    h_vedic: ["चत्वारः", "tɕɐtʋáːrɐɦ"],
     pi: ["चत्तारि", "tʃattaːri"],
     pi_edu: ["cattāri", "tʃəttaːri"],
     pmh: ["चत्तारि", "tʃəttaːri"],

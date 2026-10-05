@@ -759,7 +759,7 @@ WORDS.silk = {
     xqa: ["torqu", "torqu"],
     gez: ["ሐሪር", "ħariːr"],
     orv: ["шелкъ", "ʃelkŭ"],
-    ohu: ["selyem", "ʃɛjɛm"],
+    ohu: ["selyem", "ʃɛʎɛm"],
     sog: ["cγnh", "tʃaɣnaː"],
     pal: ["𐭠𐭯𐭫𐭩𐭱𐭥𐭬", "abreːʃom"],
     kaw: ["ꦱꦸꦠꦿ", "sutra"],

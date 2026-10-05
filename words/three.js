@@ -1078,7 +1078,7 @@ WORDS.three = {
     qwc: ["kimsa", "kimsa"],
     omc: ["sopæt", "sopæt"],
     chb: ["mica", "mika"],
-    omy: ["tiga", "tiɡa"],
+    omy: ["tlu", "tlu"],
     osn: ["tilu", "tilu"],
     h_tagalog: ["ᜆᜆ᜔ᜎᜓ", "tatˈloʔ"],
     zkt: ["𘯙", "hur"],
@@ -1090,7 +1090,7 @@ WORDS.three = {
     och: ["三", "*s.rum"],
     ojp: ["三", "mitu"],
     p_jpk: ["—", "—"],
-    h_vedic: ["त्रयः", "trajaɦ"],
+    h_vedic: ["त्रयः", "trájɐɦ"],
     txg: ["𘕕", "so˧"], // emptied: 𗌭 is *ku¹ 'then', and the cell also carries ˩, outside this row's two-tone system (Tangut pass, 2026-09-13)
     sog: ["ʾδry", "ðreː"],
     otk: ["𐰇𐰲", "ytʃ"],

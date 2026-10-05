@@ -1163,7 +1163,7 @@ WORDS.hand = {
     och: ["手", "*n̥uʔ"],
     ojp: ["手", "te"],
     p_jpk: ["—", "—"],
-    h_vedic: ["हस्तः", "hastaɦ"],
+    h_vedic: ["हस्तः", "hástɐɦ"],
     txg: ["𗁅", "la˧"],
     sog: ["dst", "dast"],
     otk: ["𐰠𐰟", "eliɡ"],

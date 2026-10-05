@@ -179,7 +179,7 @@ WORDS.rain = {
     es_sv: ["lluvia", "ˈʝuβja"],
     es_an: ["lluvia", "ˈʝuβja"],
     es_sgl: ["lluvia", "ˈʎuvja"],
-    osp: ["lluvia", "ˈʎuvja"],
+    osp: ["lluvia", "ˈʎuβja"],
     pt: ["chuva", "ˈʃuvɐ"],
     pt_br: ["chuva", "ˈʃuvɐ"],
     pt_mz: ["chuva", "ˈʃuvɐ"],

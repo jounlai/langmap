@@ -175,7 +175,7 @@ WORDS.honey = {
     bs: ["med", "meːd"],
     bg: ["мед", "mɛt"],
     mk: ["мед", "mɛt"],
-    h_vedic: ["मधु", "mɐdʱu"],
+    h_vedic: ["मधु", "mɐ́dʱu"],
     sa: ["मधु", "mɐdʱu"],
     sa_edu: ["मधु", "mədʱu"],
     pi: ["मधु", "madʱu"],

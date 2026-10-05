@@ -1076,7 +1076,7 @@ WORDS.night = {
     omc: ["—", "—"],
     chb: ["za", "tsa"],
     omy: ["malam", "malam"],
-    osn: ["peuting", "pəutiŋ"],
+    osn: ["peuting", "pɯtiŋ"],
     h_tagalog: ["ᜄᜊᜒ", "ɡaˈbi"],
     zkt: ["𘰷𘭌", "suni"],
     juc: ["dobori", "dobori"],

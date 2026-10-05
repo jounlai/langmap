@@ -706,7 +706,7 @@ WORDS.snow = {
     juc: ["imanggi", "imaŋɡi"],
     och: ["雪", "*[s]ot"],
     ojp: ["雪", "juki"],
-    h_vedic: ["हिम", "ɦimɐ"],
+    h_vedic: ["हिम", "ɦímɐ"],
     sog: ["wafrā", "wafraː"],
     otk: ["𐰴𐰺", "qar"],
     ami: ["soleda^", "soləðaʔ"],

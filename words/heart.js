@@ -1156,7 +1156,7 @@ WORDS.heart = {
     och: ["心", "*səm"],
     ojp: ["心", "kəkərə"],
     p_jpk: ["—", "—"],
-    h_vedic: ["हृदयम्", "hr̩dajam"],
+    h_vedic: ["हृदयम्", "hŕ̩dɐjɐm"],
     txg: ["𗤶", "njij˧"],
     sog: ["δrzy", "ðərʒeː"],
     otk: ["𐰚𐰭𐰠", "køŋyl"],

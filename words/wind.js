@@ -90,7 +90,7 @@ WORDS.wind = {
     fro: ["vent", "vent"],
     fr_class: ["vent", "vɑ̃"],
     it_dan: ["vento", "ˈvɛnto"],
-    osp: ["viento", "ˈvjento"],
+    osp: ["viento", "ˈβjento"],
     es_sgl: ["viento", "ˈbjento"],
     sa: ["वायुः", "ʋaːjuɦ"],
     sa_edu: ["वायुः", "ʋaːjuɦ"],

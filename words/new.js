@@ -1056,7 +1056,7 @@ WORDS.new = {
     pi_edu: ["nava", "nava"],
     pi: ["नव", "nava"],
     sa_edu: ["नूतनम्", "nuːtanam"],
-    h_vedic: ["नव", "nɐʋɐ"],
+    h_vedic: ["नव", "nɐ́ʋɐ"],
     it_dan: ["novo", "ˈnɔvo"],
     gmy: ["𐀚𐀺", "newos"],
     pal: ["𐭭𐭥𐭪𐭩", "noːɡ"],

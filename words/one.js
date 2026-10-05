@@ -1168,7 +1168,7 @@ WORDS.one = {
     och: ["一", "*ʔi[t]"],
     ojp: ["比登都", "pitətu"],
     p_jpk: ["—", "—"],
-    h_vedic: ["एकः", "eːkaɦ"],
+    h_vedic: ["एकः", "éːkɐɦ"],
     txg: ["𘈩", "lew˧"],
     sog: ["yw", "jɛw"],
     otk: ["𐰋𐰃𐰼", "bir"],

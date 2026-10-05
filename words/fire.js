@@ -1144,7 +1144,7 @@ WORDS.fire = {
     omc: ["oc", "ok"],
     chb: ["gata", "ɡata"],
     omy: ["api", "api"],
-    osn: ["seuneu", "sɯnɯ"],
+    osn: ["apuy", "apuj"],
     h_tagalog: ["ᜀᜉᜓᜌ᜔", "apuj"],
     zkt: ["—", "—"],
     juc: { // r46 fix applied 2026-10-04 (missed then: appliers skip object cells): Kane 1975 starred form; was form "tuwa", ipa "tuwa". The alt below predates the fix and is unverified.
@@ -1161,7 +1161,7 @@ WORDS.fire = {
     och: ["火", "*[qʷʰ]ˤəjʔ"],
     ojp: ["火", "pi"],
     p_jpk: ["—", "—"],
-    h_vedic: ["अग्निः", "aɡniɦ"],
+    h_vedic: ["अग्निः", "ɐɡníɦ"],
     txg: ["𗜐", "mə˧"],
     sog: ["ʾātar", "aːtar"],
     otk: ["𐰆𐱃", "ot"],

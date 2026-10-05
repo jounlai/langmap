@@ -1162,7 +1162,7 @@ WORDS.moon = {
     och: ["月", "*[ŋ]ʷat"],
     ojp: ["月", "tukï"],
     p_jpk: ["—", "—"],
-    h_vedic: ["चन्द्रमाः", "tɕandramaːɦ"],
+    h_vedic: ["चन्द्रमाः", "tɕɐndrɐmaːɦ"],
     txg: ["𗼑", "lhji˧˥"],
     sog: ["mʾx", "maːx"],
     otk: ["𐰀𐰖", "aj"],

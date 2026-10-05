@@ -92,7 +92,7 @@ WORDS.milk = {
     // --- Slavic, Indo-Iranian, and the ones that did something else ---
     cu: ["млѣко", "mlɛːko"],
     sa: ["क्षीर", "kʂiːrɐ"],
-    h_vedic: ["क्षीर", "kʂiːrɐ"],
+    h_vedic: ["क्षीर", "kʂiːrɐ́"],
     pi: ["खीर", "kʰiːra"],
     pi_edu: ["khīra", "kʰiːra"],
     fa: ["شیر", "ʃiːɾ"],

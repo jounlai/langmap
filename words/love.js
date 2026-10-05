@@ -1159,7 +1159,7 @@ WORDS.love = {
     och: ["愛", "*[q]ˤə[p]-s"],
     ojp: ["加奈志", "kanasi"],
     p_jpk: ["—", "—"],
-    h_vedic: ["स्नेहः", "sneːɦaɦ"],
+    h_vedic: ["स्नेहः", "sneːɦɐɦ"],
     txg: ["𘟠", "dzu˧"],
     sog: ["frytk", "friːtak"],
     otk: ["𐰜𐰋", "sæb"],

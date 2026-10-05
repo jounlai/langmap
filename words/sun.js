@@ -1161,7 +1161,7 @@ WORDS.sun = {
     och: ["日", "*C.nik"],
     ojp: ["日", "pi"],
     p_jpk: ["—", "—"],
-    h_vedic: ["सूर्यः", "suːrjaɦ"],
+    h_vedic: ["सूर्यः", "suːrjɐɦ"],
     txg: ["𗾔", "be˧˥"],
     sog: ["xwr", "xwar"],
     otk: ["𐰚𐰇𐰤", "kyn"],

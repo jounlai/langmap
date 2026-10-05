@@ -1108,7 +1108,7 @@ WORDS.wine = {
     ofs: ["wīn", "wiːn"],
     cu: ["вино", "vino"],
     fro: ["vin", "vin"],
-    osp: ["vino", "ˈbino"],
+    osp: ["vino", "ˈβino"], // was ["vino", "ˈbino"] (r51 audit 2026-10-04)
     sga: ["fín", "fʲiːn"],
     cy: ["gwin", "ɡwiːn"],
     ga: ["fíon", "ˈfʲiːn̪ˠ"],

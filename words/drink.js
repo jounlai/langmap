@@ -1043,7 +1043,7 @@ WORDS.drink = {
     de_lut: ["trincken", "ˈtrɪŋkən"],
     gmh: ["trinken", "ˈtrinkən"],
     es_sgl: ["beuer", "beˈβeɾ"],
-    osp: ["bever", "beˈveɾ"],
+    osp: ["bever", "beˈβeɾ"],
     okz: ["ផឹក", "pʰək"],
     osx: ["drinkan", "ˈdrinkan"],
     mos: ["yʋ", "jʊ"],
@@ -1156,7 +1156,7 @@ WORDS.drink = {
     och: ["飲", "*q(r)[u]mʔ"],
     ojp: ["能牟", "nəmu"],
     p_jpk: ["—", "—"],
-    h_vedic: ["पिबति", "pibati"],
+    h_vedic: ["पिबति", "píbɐti"],
     txg: ["𗠰", "tʰji˧"], // emptied: 𘉞 is a verbal agreement suffix (Tangut pass, 2026-09-13)
     sog: ["pi-", "pi"],
     otk: ["𐰃𐰲-", "itʃ"],

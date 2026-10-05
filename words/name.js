@@ -1157,7 +1157,7 @@ WORDS.name = {
       och: ["名", "*C.meŋ"],
       ojp: ["名", "na"],
       p_jpk: ["—", "—"],
-      h_vedic: ["नाम", "naːmɐ"],
+      h_vedic: ["नाम", "náːmɐ"],
       txg: ["𗥠", "mjij˧˥"],
       sog: ["nām", "naːm"],
       otk: ["𐰀𐱃", "at"],

@@ -869,7 +869,7 @@ WORDS.mother = {
     csb: ["mëma", "ˈmɜma"],
     rue: ["мати", "ˈmati"],
     fur: ["mari", "ˈmaːri"],
-    ast: ["ma", "ma"],
+    ast: ["madre", "ˈmaðɾe"],
     ext: ["mai", "mai"],
     fax: ["mai", "mai"],
     an: ["mai", "maj"],

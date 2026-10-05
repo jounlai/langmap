@@ -880,7 +880,7 @@ WORDS.father = {
     csb: ["tatk", "tatk"],
     rue: ["отець", "oˈtɛtsʲ"],
     fur: ["pari", "ˈpaːri"],
-    ast: ["pa", "pa"],
+    ast: ["padre", "ˈpaðɾe"],
     ext: ["pairi", "ˈpajɾi"],
     fax: ["pai", "pai"],
     an: ["pai", "paj"],

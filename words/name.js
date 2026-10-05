@@ -912,7 +912,7 @@ WORDS.name = {
       jio: ["pʰe", "pʰe˥"],
       kbp: ["hɩɖɛ", "hɪɖɛ"],
       ee: ["ŋkɔ", "ŋkɔ"],
-      gej: ["ŋkɔ", "ŋkɔ"],
+      gej: ["nyikɔ", "ɲikɔ"],
       aja: ["nyikɔ", "ɲikɔ"],
       nyn: ["eiziina", "eiziːna"],
       cgg: ["eiziina", "eiziːna"],

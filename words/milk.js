@@ -472,7 +472,7 @@ WORDS.milk = {
     mnk: ["nono", "nono"],
     // Ewe and Igbo build it out of 'breast' + 'water'; both are phrases in origin.
     ee: ["notsi", "notsi"],
-    gej: ["notsi", "notsi"],
+    gej: ["nyinɔsi", "ɲinɔsi"],
     ig: ["mmiri ara", "mːiɾi aɾa"],
     luo: ["chak", "tʃak"],
     ach: ["cak", "tʃak"],

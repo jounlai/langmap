@@ -719,7 +719,7 @@ WORDS.love = {
     ff: ["yiɗde", "jiɗːe"],
     bm: ["kanu", "kanu"],
     dds: ["ibɛ", "ibɛ"],
-    emk: ["kanu", "kanu"],
+    emk: ["kanin", "kanĩ"],
     kao: ["kanu", "kanu"],
     snk: ["ñaxando", "ɲaxando"],
     mwk: ["kanu", "kanu"],

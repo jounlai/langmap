@@ -359,7 +359,7 @@ WORDS.rain = {
     zu: ["imvula", "imˈvula"],
     xh: ["imvula", "imˈvula"],
     ssw: ["imvula", "imˈvula"],
-    nbl: ["imvula", "imˈvula"],
+    nbl: ["izulu", "izulu"],
     nd: ["imvula", "imˈvula"],
     st: ["pula", "ˈpula"],
     tn: ["pula", "ˈpula"],

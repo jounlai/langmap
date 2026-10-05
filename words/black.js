@@ -480,7 +480,7 @@ WORDS.black = {
     ssw: ["mnyama", "mɲaːma"],
     nbl: ["mnyama", "mɲaːma"],
     nd: ["mnyama", "mɲaːma"],
-    ndc: ["tema", "tema"],
+    ndc: ["svipa", "svipa"],
     bem: ["fiita", "fiːta"],
     tum: ["fipa", "fipa"],
     her: ["zorondu", "zorondu"],

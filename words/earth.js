@@ -818,7 +818,7 @@ WORDS.earth = {
     lhm: ["ས", "sa˥"],
     dv: ["ފަސް", "fas"],
     chf: ["lum", "lum"],
-    gej: ["anyigba", "aɲiɡba"],
+    gej: ["anyigbã", "aɲiɡbã"],
     ssw: ["inhlabatsi", "inɬaɓatsi"],
     nbl: ["ihlabathi", "iɬaɓatʰi"],
     usp: ["ulew", "uleːw"],

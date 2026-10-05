@@ -522,7 +522,7 @@ WORDS.mouth = {
     pmng: ["*aman", "aman"],
     pmt: ["vaha", "vaha"],
     wbt: ["jawa", "ɟawa"],
-    ebu: ["kanua", "kanua"],
+    ebu: ["kanyua", "kaɲua"],
     gsw_w: ["Muul", "muːl"],
     ko_bus: ["입", "ip̚"],
     en_ie: ["mouth", "maʊθ"],

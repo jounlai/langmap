@@ -646,7 +646,7 @@ WORDS.three = {
     ki: ["ithatu", "iðatu"],
     mer: ["ithatu", "iðatu"],
     kam: ["itatu", "itatu"],
-    ebu: ["ithatu", "iðatu"],
+    ebu: ["ithatũ", "iðato"],
     tn: ["tharo", "tʰaro"],
     st: ["tharo", "tʰaʀo"],
     ts: ["nharhu", "ɳaɾu"],

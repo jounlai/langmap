@@ -825,7 +825,7 @@ WORDS.bone = {
     jio: ["liək", "liək˩"],
     kbp: ["moyɛ", "mojɛ"],
     ee: ["ƒu", "ɸu"],
-    gej: ["eƒu", "eɸu"],
+    gej: ["epu", "epu"],
     aja: ["xu", "xu"],
     nyn: ["eigufa", "eiɡufa"],
     cgg: ["eigufa", "eiɡufa"],

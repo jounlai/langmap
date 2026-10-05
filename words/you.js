@@ -713,7 +713,7 @@ WORDS.you = {
       ki: ["wee", "wɛː"],
       mer: ["wee", "wɛː"],
       kam: ["we", "we"],
-      ebu: ["wee", "wɛː"],
+      ebu: ["we", "wɛ"],
       tn: ["wena", "wena"],
       st: ["wena", "wena"],
       ts: ["wena", "wena"],

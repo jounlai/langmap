@@ -713,7 +713,7 @@ WORDS.i = {
       ki: ["niĩ", "niː"],
       mer: ["nyie", "ɲiɛ"],
       kam: ["nyie", "ɲie"],
-      ebu: ["nĩĩ", "neː"],
+      ebu: ["nie", "niɛ"],
       tn: ["nna", "nːa"],
       st: ["nna", "nːa"],
       ts: ["mina", "mina"],

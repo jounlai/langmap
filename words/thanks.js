@@ -925,7 +925,7 @@ WORDS.thanks = {
     men: ["bisɛ", "bisɛ"],
     vai: ["ꔤ ꕒꔤꕪ", "i ɓaika"],
     tem: ["sɔŋ", "sɔŋ"],
-    dyu: ["i ni ce", "i ni tʃe"],
+    dyu: ["i ni cɛ", "i ni tʃɛ"],
     bbo: ["baraka", "baraka"],
     spp: ["fenge", "feŋɡe"],
     sus: ["inu wali", "inu wali"],

@@ -2203,7 +2203,7 @@ WORDS.we = {
     agq: ["—", "—"],
     mgo: ["—", "—"],
     dur: ["ba / vo", "ba / vo"],
-    ndc: ["isu", "isu"],
+    ndc: ["isusu", "isusu"], // was ["isu", "isu"] (r51 audit 2026-10-04)
     ote: ["nugähʉ / nugähe", "nuɡãhɨ / nuɡãhe"],
     otq: ["nugähu / nugähe", "nuɡæhu / nuɡæhe"],
     tar: ["tamujé", "tamuhe"],

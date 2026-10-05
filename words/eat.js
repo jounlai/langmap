@@ -726,7 +726,7 @@ WORDS.eat = {
     ff: ["ñaamde", "ɲaːmde"],
     bm: ["dumuni", "dumuni"],
     dds: ["nyaa", "ɲaː"],
-    emk: ["domu", "domu"],
+    emk: ["domun", "domũ"],
     kao: ["domu", "domu"],
     snk: ["lawu", "lawu"],
     mwk: ["don", "don"],

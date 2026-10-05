@@ -605,7 +605,7 @@ WORDS.hundred = {
     // --- Africa — Bantu, Nilotic, Cushitic, Mande, Kwa ---------------------
     ki: ["igana", "iɣana"],
     mer: ["igana", "iɡana"],
-    ebu: ["igana", "iɡana"],
+    ebu: ["ĩgana", "eɡana"],
     suk: ["igana", "iɡana"],
     nym: ["igana", "iɡana"],
     rim: ["ighana", "iɣana"],

@@ -765,7 +765,7 @@ WORDS.daughter = {
     seh: ["mwana wankazi", "mwana wankazi"],
     ngl: ["mwana mwa muthiana", "mwana mwa mutʰiana"],
     kbp: ["pɛlɛ", "pɛlɛ"],
-    gej: ["nyɔ̃nùvi", "ɲɔ̃nuvi"],
+    gej: ["nyɔ̃nùvi", "ɲɔ̃nùvi"],
     nyn: ["omuhara", "omuhara"],
     cgg: ["omuhara", "omuhara"],
     ttj: ["omuhara", "omuhara"],

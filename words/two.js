@@ -713,7 +713,7 @@ WORDS.two = {
       ki: ["igĩrĩ", "iɣeɾe"],
       mer: ["ijĩrĩ", "idʒeɾe"],
       kam: ["ilĩ", "ili"],
-      ebu: ["ijĩrĩ", "idʒeɾe"],
+      ebu: ["igĩrĩ", "iɡeɾe"],
       tn: ["pedi", "pedi"],
       st: ["pedi", "pedi"],
       ts: ["mbirhi", "mbiri"],

@@ -716,7 +716,7 @@ WORDS.father = {
     ki: ["baba", "baba"],
     mer: ["baba", "baba"],
     kam: ["asa", "asa"],
-    ebu: ["baba", "baba"],
+    ebu: ["vava", "βaβa"],
     tn: ["rrê", "rːɛ"],
     st: ["ntate", "ntate"],
     ts: ["tatana", "tatana"],

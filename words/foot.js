@@ -1883,7 +1883,7 @@ WORDS.foot = {
     nch: ["icxitl", "ikʃitɬ"],  // The Huasteca NT opposes moicxi to mometz and breaks ininmetzomiyo, 'their leg-bones', so icxitl is the foot as in Classical Nahuatl.
     nci: ["icxitl", "ikʃitɬ"],  // Nahuatl splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes māitl as maːitɬ.
     nd: ["unyawo", "uɲawo"],  // Zimbabwean Ndebele splits them as Zulu does; Elliott's 1897 dictionary already has unyawo against umlenze for the leg.
-    ndc: ["soka", "soka"],  // Ndau splits soka from the murenje it breaks in John 19; the 2023 Cindau translation writes s where Shona writes ts throughout, and Mark 9:45 gives the singular.
+    ndc: ["tsoka", "tsoka"],  // Ndau splits soka from the murenje it breaks in John 19; the 2023 Cindau translation writes s where Shona writes ts throughout, and Mark 9:45 gives the singular. // was ["soka", "soka"] (r51 audit 2026-10-04)
     nds: ["Foot", "fɔʊ̯t"],  // Foot vs Been.
     ne: ["खुट्टा", "kʰuʈːaː"],  // Schmidt glosses खुट्टा 'foot, feet, leg(s)' in one entry; the rival गोडा is 'foot, leg' too.
     nej: ["tar", "tar"],  // The single Neko wordlist, McElhanon & Voorhoeve 1970, answers its combined leg-foot item with tar and prints nothing narrower — the combined gloss is the questionnaire's, so the route is only as good as that.

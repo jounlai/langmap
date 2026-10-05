@@ -722,7 +722,7 @@ WORDS.cat = {
     ff: ["ullundu", "ulːundu"],
     bm: ["jakuma", "dʒakuma"],
     dds: ["gamma", "ɡamːa"],
-    emk: ["jakuma", "dʒakuma"],
+    emk: ["ɲaari", "ɲaːri"],
     kao: ["jakuma", "dʒakuma"],
     snk: ["mussu", "musːu"],
     mwk: ["ñaakuma", "ɲaːkuma"],

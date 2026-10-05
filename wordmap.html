@@ -1585,6 +1585,7 @@
                 serif;
         }
         .wm-ipa  { unicode-bidi: isolate; direction: ltr; }
+        .ipa-unknown { font-style: italic; opacity: .75; }
         /* Info-panel word table: one type size across all three columns.
            The columns used to run 14 / 16 / 12.5 px, which read as three
            unrelated sizes rather than a hierarchy. Hierarchy now comes from
@@ -3681,7 +3682,7 @@
         }
     })();
     </script>
-    <script src="wordmap_data.js?v=341"></script>
+    <script src="wordmap_data.js?v=342"></script>
     <script src="word_manifest.js?v=855"></script>
     <script src="word_labels.js?v=68"></script>
     <script>
@@ -3704,7 +3705,7 @@
            the order was wrong. */
         const WM_ASSET_VERSION = {
             styles:   134,
-            data:      341,
+            data:      342,
             metaI18n:  16,
             filter:    46,
             names:   203,
@@ -6012,7 +6013,7 @@
             // a meaningful summary.
             const ariaParts = [n];
             if (showWord && word) ariaParts.push(word);
-            if (showIpa && ipa) ariaParts.push('/' + ipa + '/');
+            if (showIpa) ariaParts.push(ipa ? '/' + ipa + '/' : wt('ipaUnknown'));
             const ariaLabel = escapeHtml(ariaParts.filter(Boolean).join(' — '));
             const inCompareCls = (window.__compareList || []).indexOf(code) !== -1 ? ' in-compare' : '';
             let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
@@ -6025,7 +6026,10 @@
             // A legend explains the colours.
             const routeColor = routeColorFor(code);
             if (showWord) html += `<div class="word" dir="auto" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>${w}</div>`;
-            if (showIpa) html += `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>/${i}/</div>`;
+            // Typed-only forms (lol: wkwk, KTK …) carry an empty IPA: say so instead of printing "//".
+            if (showIpa) html += i
+                ? `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>/${i}/</div>`
+                : `<div class="ipa ipa-unknown" dir="auto">(${escapeHtml(wt('ipaUnknown'))})</div>`;
             // "@" concept only: the literal meaning of this language's @ name.
             if (typeof currentWord !== 'undefined' && currentWord === 'atsign') {
                 const mng = atsignMeaning(code);
@@ -8808,7 +8812,7 @@
                         // this column is not always phonemic — for a row marked
                         // phonetic or romanization the slashes were simply wrong.
                         // The compare table already renders it bare.
-                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa">${escapeHtml(entry[1])}</span></td></tr>`;
+                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa${entry[1] ? '' : ' ipa-unknown'}">${entry[1] ? escapeHtml(entry[1]) : '(' + escapeHtml(wt('ipaUnknown')) + ')'}</span></td></tr>`;
                     }
                 }
             }
@@ -9613,7 +9617,7 @@
                         const surface = cell[0] || '';
                         const ipa = cell[1] || '';
                         html += '<td><span class="surface" dir="auto">' + escapeHtml(surface) + '</span>'
-                             + (ipa && ipa !== '—' ? '<span class="ipa">' + escapeHtml(ipa) + '</span>' : '')
+                             + (ipa && ipa !== '—' ? '<span class="ipa">' + escapeHtml(ipa) + '</span>' : (surface && surface !== '—' && !ipa ? '<span class="ipa ipa-unknown">(' + escapeHtml(wt('ipaUnknown')) + ')</span>' : ''))
                              + '</td>';
                     }
                 }
@@ -10246,7 +10250,7 @@
                         const word = entry[0] || '';
                         const ipa = entry[1] || '';
                         html += '<td><div class="wm-form" dir="auto">' + escapeHtml(word) + '</div>'
-                              + (ipa ? '<div class="wm-ipa">' + escapeHtml(ipa) + '</div>' : '')
+                              + (ipa ? '<div class="wm-ipa">' + escapeHtml(ipa) + '</div>' : (word ? '<div class="wm-ipa ipa-unknown">(' + escapeHtml(wt('ipaUnknown')) + ')</div>' : ''))
                               + '</td>';
                     }
                 });

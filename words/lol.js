@@ -92,7 +92,7 @@ WORDS.lol = {
     de: ["lol", "lɔl"],
     da: ["lol", "lʌlˀ"],
     no: ["lol", "lɔlː"],
-    yo: ["ẹ̀rín kèékèé", "ɛ̀ɾĩ́ kèékèé"],
+    // yo removed 2026-10-05 (owner query): ẹ̀rín kèékèé is the dictionary phrase, not what people usually type; the typed short form ẹ̀rín kk has one source only
     eo: ["mdr", "mo do ro"],
     tl: ["HAHAHAHA", "hahahaha"],
     // id: lol round 3, slice C (2026-10-05). Settles round-1/2 holds that were held only because the form is not read aloud (Round 3 addendum: empty IPA allowed). RoW = Rest of World, "How different languages laugh online", Amy Thorpe & Ravi Hiranand, 18 Dec 2023, https://restofworld.org/2023/how-people-laugh (typed, not read aloud — no IPA)

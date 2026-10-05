@@ -1,0 +1,556 @@
+/* timemap_i18n/sw.js — TimeMap strings for UI language "sw".
+ * Same shape as EN in timemap_calendars.js; any missing key falls back to English. */
+window.TM_I18N = window.TM_I18N || {};
+window.TM_I18N["sw"] = {
+ "intlLocale": "sw-TZ",
+ "gannen": false,
+ "ui": {
+  "title": "Ramani ya kalenda",
+  "tagline": "Siku moja, katika kalenda za dunia — na katika zile zilizoacha kuhesabu.",
+  "today": "Leo",
+  "prevDay": "Siku iliyotangulia",
+  "nextDay": "Siku inayofuata",
+  "details": "Maelezo",
+  "fCurrent": "Zinatumika",
+  "fHist": "Za kihistoria",
+  "fGreg": "Gregori",
+  "hCurrent": "Zinazotumika leo",
+  "hHist": "Kama zingeendelea kuhesabu",
+  "hGreg": "Kalenda ya Gregori",
+  "subHist": "Kalenda hizi ziliachwa. Tarehe inaonyesha zingesoma nini leo.",
+  "subGreg": "Kiwango cha dunia, kinaonyeshwa mahali kilipozaliwa na katika nchi chache.",
+  "notYet": "Bado haitumiki katika tarehe hii",
+  "type": "Aina",
+  "epoch": "Mwaka 1",
+  "used": "Matumizi",
+  "ended": "Ilikoma {n} — hesabu inaendelea",
+  "simpleDisplay": "Onyesho rahisi",
+  "settings": "Mipangilio",
+  "fontSize": "Ukubwa wa fonti",
+  "navOrder": "Mpangilio wa maneno",
+  "navWord": "Ramani ya maneno",
+  "navHan": "Ramani ya hanzi",
+  "navName": "Ramani ya Majina",
+  "navTime": "Ramani ya kalenda",
+  "navTree": "Mti"
+ },
+ "dateFmt": "{d} {month} {y}",
+ "yearDefault": "{n}",
+ "lunarMonth": "mwezi wa {m}",
+ "leapMonth": "mwezi wa {m} wa ziada",
+ "lunarFmt": "siku ya {d} ya {month}, {y}",
+ "dayName": "{name}, {y}",
+ "signFmt": "{num} {name}",
+ "months": {
+  "gregorian": [
+   "Januari",
+   "Februari",
+   "Machi",
+   "Aprili",
+   "Mei",
+   "Juni",
+   "Julai",
+   "Agosti",
+   "Septemba",
+   "Oktoba",
+   "Novemba",
+   "Desemba"
+  ],
+  "hebrew": [
+   "Tishri",
+   "Heshvani",
+   "Kislevu",
+   "Tevethi",
+   "Shebati",
+   "Adari I",
+   "Adari",
+   "Adari II",
+   "Nisani",
+   "Iyari",
+   "Siwani",
+   "Tamuzi",
+   "Abu",
+   "Eluli"
+  ],
+  "islamic": [
+   "Muharram",
+   "Safar",
+   "Rabiul Awwal",
+   "Rabiul Akhir",
+   "Jumadal Ula",
+   "Jumadal Akhira",
+   "Rajab",
+   "Shaaban",
+   "Ramadhani",
+   "Shawwal",
+   "Dhul Qaada",
+   "Dhul Hijja"
+  ],
+  "persian": [
+   "Farvardin",
+   "Ordibehesht",
+   "Khordad",
+   "Tir",
+   "Mordad",
+   "Shahrivar",
+   "Mehr",
+   "Aban",
+   "Azar",
+   "Dey",
+   "Bahman",
+   "Esfand"
+  ],
+  "indian": [
+   "Chaitra",
+   "Vaishakha",
+   "Jyeshtha",
+   "Ashadha",
+   "Shravana",
+   "Bhadra",
+   "Ashvin",
+   "Kartika",
+   "Agrahayana",
+   "Pausha",
+   "Magha",
+   "Phalguna"
+  ],
+  "bengali": [
+   "Boishakh",
+   "Joishtho",
+   "Asharh",
+   "Srabon",
+   "Bhadro",
+   "Ashwin",
+   "Kartik",
+   "Ogrohayon",
+   "Poush",
+   "Magh",
+   "Falgun",
+   "Choitro"
+  ],
+  "ethiopic": [
+   "Meskerem",
+   "Tikimt",
+   "Hidar",
+   "Tahsas",
+   "Tir",
+   "Yekatit",
+   "Megabit",
+   "Miyazya",
+   "Ginbot",
+   "Sene",
+   "Hamle",
+   "Nehase",
+   "Pagume"
+  ],
+  "coptic": [
+   "Thout",
+   "Paopi",
+   "Hathor",
+   "Koiak",
+   "Tobi",
+   "Meshir",
+   "Paremhat",
+   "Parmouti",
+   "Pashons",
+   "Paoni",
+   "Epip",
+   "Mesori",
+   "Pi Kogi Enavot"
+  ],
+  "amazigh": [
+   "Yennayer",
+   "Furar",
+   "Meɣres",
+   "Yebrir",
+   "Mayyu",
+   "Yunyu",
+   "Yulyu",
+   "Ɣuct",
+   "Ctembeṛ",
+   "Tubeṛ",
+   "Wambeṛ",
+   "Dujembeṛ"
+  ],
+  "french": [
+   "Vendémiaire",
+   "Brumaire",
+   "Frimaire",
+   "Nivôse",
+   "Pluviôse",
+   "Ventôse",
+   "Germinal",
+   "Floréal",
+   "Prairial",
+   "Messidor",
+   "Thermidor",
+   "Fructidor"
+  ],
+  "frenchSans": [
+   "Siku ya Wema",
+   "Siku ya Kipaji",
+   "Siku ya Kazi",
+   "Siku ya Maoni",
+   "Siku ya Tuzo",
+   "Siku ya Mapinduzi"
+  ],
+  "egyptian": [
+   "Thoth",
+   "Phaophi",
+   "Athyr",
+   "Choiak",
+   "Tybi",
+   "Mechir",
+   "Phamenoth",
+   "Pharmuthi",
+   "Pachon",
+   "Payni",
+   "Epiphi",
+   "Mesore",
+   "siku za nyongeza"
+  ],
+  "aztec": [
+   "Mamba",
+   "Upepo",
+   "Nyumba",
+   "Mjusi",
+   "Nyoka",
+   "Kifo",
+   "Kulungu",
+   "Sungura",
+   "Maji",
+   "Mbwa",
+   "Tumbili",
+   "Nyasi",
+   "Tete",
+   "Jagwa",
+   "Tai",
+   "Tumbusi",
+   "Mwendo",
+   "Gumegume",
+   "Mvua",
+   "Ua"
+  ],
+  "zodiac": [
+   "Panya",
+   "Ng’ombe",
+   "Simbamarara",
+   "Sungura",
+   "Joka",
+   "Nyoka",
+   "Farasi",
+   "Mbuzi",
+   "Tumbili",
+   "Jogoo",
+   "Mbwa",
+   "Nguruwe"
+  ]
+ },
+ "eras": {
+  "Meiji": "Meiji",
+  "Taishō": "Taishō",
+  "Shōwa": "Shōwa",
+  "Heisei": "Heisei",
+  "Reiwa": "Reiwa"
+ },
+ "cal": {
+  "greg_va": {
+   "name": "Kalenda ya Gregori (asili)",
+   "region": "Vatikani / Roma",
+   "type": "Ya jua",
+   "epoch": "Anno Domini — mwaka wa kuzaliwa kwa Kristo kwa mapokeo",
+   "used": "Tangu 15 Oktoba 1582 (hati ya Inter gravissimas, Papa Gregori XIII)",
+   "note": "Ilirekebisha kuteleza kwa kalenda ya Juliasi kwa kuruka siku 10 (baada ya 4 Oktoba 1582 ilifuata 15 Oktoba) na kuondoa siku tatu za mwaka mrefu kila miaka 400."
+  },
+  "greg_uk": {
+   "name": "Kalenda ya Gregori",
+   "region": "Ufalme wa Muungano",
+   "type": "Ya jua",
+   "epoch": "Anno Domini",
+   "used": "Tangu 14 Septemba 1752 (3–13 Septemba 1752 hazikuwahi kuwepo)",
+   "note": "Uingereza na makoloni yake zilibadili miaka 170 baada ya Roma; sheria hiyo hiyo ilihamisha Siku ya Mwaka Mpya kutoka 25 Machi hadi 1 Januari."
+  },
+  "greg_us": {
+   "name": "Kalenda ya Gregori",
+   "region": "Marekani",
+   "type": "Ya jua",
+   "epoch": "Anno Domini",
+   "used": "Tangu 1752, yakiwa makoloni ya Uingereza",
+   "note": "Ni kalenda ile ile ya Uingereza, ila mwezi huandikwa kwanza: 10/5 ni 5 Oktoba Marekani na 10 Mei Uingereza."
+  },
+  "greg_jp": {
+   "name": "Kalenda ya Gregori",
+   "region": "Japani",
+   "type": "Ya jua",
+   "epoch": "Anno Domini",
+   "used": "Tangu 1 Januari 1873 (Meiji 6), ikichukua nafasi ya kalenda ya mwezi na jua ya Tenpō",
+   "note": "Japani ilibadili usiku mmoja: 3 Desemba Meiji 5 ikawa 1 Januari Meiji 6. Majina ya enzi (令和) bado yanatumika pamoja na mwaka wa Kimagharibi."
+  },
+  "japanese": {
+   "name": "Enzi za Kijapani (gengō)",
+   "region": "Japani",
+   "type": "Miezi ya Gregori, miaka ya enzi ya kifalme",
+   "epoch": "Kutawazwa kwa mfalme wa sasa (Reiwa 1 = 2019)",
+   "used": "Tangu 645 (Taika); enzi moja kwa kila utawala tangu 1868",
+   "note": "Hutumika kwenye fomu rasmi, sarafu na magazeti. Mwaka wa kwanza wa enzi huandikwa 元年 (gannen), si 1年.",
+   "year": "{era} {n}"
+  },
+  "roc": {
+   "name": "Kalenda ya Minguo",
+   "region": "Taiwan",
+   "type": "Miezi ya Gregori, miaka ya enzi ya Jamhuri",
+   "epoch": "Kuanzishwa kwa Jamhuri ya China, 1912",
+   "used": "Tangu 1912; rasmi Taiwan",
+   "note": "Mwaka = mwaka wa Kimagharibi − 1911. Huenda sambamba na mwaka wa Juche wa Korea Kaskazini.",
+   "year": "Minguo {n}"
+  },
+  "juche": {
+   "name": "Kalenda ya Juche",
+   "region": "Korea Kaskazini",
+   "type": "Miezi ya Gregori, miaka ya Juche",
+   "epoch": "Kuzaliwa kwa Kim Il Sung, 1912",
+   "used": "Tangu 1997",
+   "note": "Huandikwa pamoja na mwaka wa Kimagharibi kwenye mabano: 주체115(2026)년.",
+   "year": "Juche {n}"
+  },
+  "buddhist": {
+   "name": "Kalenda ya jua ya Kithai",
+   "region": "Thailand",
+   "type": "Ya jua, miaka ya Enzi ya Kibudha",
+   "epoch": "Enzi ya Kibudha: parinirvana ya Buddha, 543 KK kwa hesabu ya Kithai",
+   "used": "Rasmi tangu 1912 (mwaka wa BE), na 1 Januari kama Mwaka Mpya tangu 1941",
+   "note": "Mwaka = mwaka wa Kimagharibi + 543. Sri Lanka, Myanmar na Kambodia huhesabu Enzi ya Kibudha kwa tofauti ya mwaka mmoja na Thailand.",
+   "year": "{n} BE"
+  },
+  "chinese": {
+   "name": "Kalenda ya Kichina ya mwezi na jua",
+   "region": "China",
+   "type": "Ya mwezi na jua",
+   "epoch": "Hakuna hesabu ya miaka inayoendelea; miaka huzunguka katika majina 60 ya shina–tawi",
+   "used": "Huamua Sikukuu ya Majira ya Kuchipua, Sikukuu ya Katikati ya Vuli na sikukuu nyingine",
+   "note": "Miezi hufuata mwezi mpya huko Beijing; mwezi wa ziada huongezwa takriban mara 7 katika miaka 19.",
+   "year": "mwaka wa {gzPy} ({animal})"
+  },
+  "dangi": {
+   "name": "Kalenda ya Kikorea ya mwezi na jua",
+   "region": "Korea Kusini",
+   "type": "Ya mwezi na jua",
+   "epoch": "Hakuna hesabu ya miaka inayoendelea; mzunguko wa miaka 60",
+   "used": "Huamua Seollal na Chuseok",
+   "note": "Kanuni ni zile zile za kalenda ya Kichina lakini hukokotolewa kwa saa za Korea, hivyo mwezi mpya karibu na usiku wa manane unaweza kuanzisha mwezi kwa tofauti ya siku moja.",
+   "year": "mwaka wa {gzPy} ({animal})"
+  },
+  "hebrew": {
+   "name": "Kalenda ya Kiebrania",
+   "region": "Israeli",
+   "type": "Ya mwezi na jua",
+   "epoch": "Anno Mundi: tarehe ya Uumbaji kwa mapokeo, 3761 KK",
+   "used": "Rasmi Israeli pamoja na kalenda ya Gregori",
+   "note": "Miaka na siku huandikwa kwa herufi za Kiebrania (תשפ״ז = 787). Mwaka huanza wakati wa vuli, kwenye Rosh Hashanah."
+  },
+  "islamic": {
+   "name": "Kalenda ya Kiislamu (Hijria)",
+   "region": "Saudi Arabia",
+   "type": "Ya mwezi (bila mwezi wa ziada)",
+   "epoch": "Hijra, kuhamia kwa Muhammad Madina, 622 BK",
+   "used": "Matumizi ya kidini duniani kote; ya kiraia Saudi Arabia (majedwali ya Umm al-Qura)",
+   "note": "Mwaka una takriban siku 354, hivyo Ramadhani husogea mapema kwa takriban siku 11 kila mwaka wa Kimagharibi na huzunguka majira yote katika miaka 33.",
+   "year": "{n} AH"
+  },
+  "persian": {
+   "name": "Kalenda ya Hijria ya jua",
+   "region": "Iran · Afghanistan",
+   "type": "Ya jua (kiastronomia)",
+   "epoch": "Hijra, 622 BK, ikihesabiwa kwa miaka ya jua",
+   "used": "Rasmi Iran tangu 1925 na Afghanistan",
+   "note": "Mwaka huanza wakati kamili wa ikwinoksi ya Machi (Nowruz), jambo linaloifanya kuwa moja ya kalenda sahihi zaidi zinazotumika.",
+   "year": "{n} SH"
+  },
+  "indian": {
+   "name": "Kalenda ya taifa ya India",
+   "region": "India",
+   "type": "Ya jua",
+   "epoch": "Enzi ya Saka, 78 BK",
+   "used": "Rasmi tangu 1957, pamoja na kalenda ya Gregori",
+   "note": "Kalenda iliyorekebishwa na isiyobadilika. Sikukuu bado hufuata kalenda nyingi za kimaeneo za Kihindu za mwezi na jua.",
+   "year": "Saka {n}"
+  },
+  "bengali": {
+   "name": "Kalenda ya Kibengali (Bangabda)",
+   "region": "Bangladesh",
+   "type": "Ya jua (kanuni zisizobadilika)",
+   "epoch": "Bangabda, 593 BK",
+   "used": "Rasmi Bangladesh; marekebisho ya 2019 ndiyo yanayoonyeshwa",
+   "note": "Mwaka Mpya, Pohela Boishakh, umewekwa tarehe 14 Aprili. Bengal Magharibi nchini India hufuata toleo la zamani la kiastronomia, hivyo tarehe huko zinaweza kutofautiana kwa siku moja.",
+   "year": "{n} BS"
+  },
+  "ethiopic": {
+   "name": "Kalenda ya Kiethiopia",
+   "region": "Ethiopia · Eritrea",
+   "type": "Ya jua: miezi 12 ya siku 30 + mwezi wa 13 wa siku 5–6",
+   "epoch": "Enzi ya Umwilisho, 8 BK kwa hesabu ya Gregori",
+   "used": "Rasmi Ethiopia",
+   "note": "Iko nyuma ya hesabu ya Kimagharibi kwa miaka saba au minane; Mwaka Mpya (Enkutatash) huangukia 11 Septemba.",
+   "year": "{n} (Kiethiopia)"
+  },
+  "coptic": {
+   "name": "Kalenda ya Kikopti",
+   "region": "Misri",
+   "type": "Ya jua: 12 × siku 30 + siku 5–6 za nyongeza",
+   "epoch": "Enzi ya Mashahidi, 284 BK (kutawazwa kwa Diokletiani)",
+   "used": "Kanisa la Kikopti; wakulima wa Misri bado hupanda kwa kufuata miezi yake",
+   "note": "Mrithi wa moja kwa moja wa kalenda ya kiraia ya Misri ya kale, ikiwa na siku ya mwaka mrefu iliyoongezwa.",
+   "year": "{n} (Mashahidi)"
+  },
+  "julian": {
+   "name": "Kalenda ya Juliasi (Mtindo wa Kale)",
+   "region": "Kanisa la Kiorthodoksi la Urusi",
+   "type": "Ya jua",
+   "epoch": "Anno Domini",
+   "used": "Ya kiraia Urusi hadi 1918; kalenda ya kanisa leo",
+   "note": "Sasa iko nyuma ya kalenda ya Gregori kwa siku 13, ndiyo maana Krismasi ya Kiorthodoksi ya Urusi huangukia 7 Januari.",
+   "year": "{n} (Mtindo wa Kale)"
+  },
+  "amazigh": {
+   "name": "Kalenda ya Kiamazigh (Kiberber)",
+   "region": "Moroko · Aljeria",
+   "type": "Ya jua (miezi ya Juliasi)",
+   "epoch": "Kutawazwa kwa Farao Shoshenq I, 950 KK",
+   "used": "Kalenda ya kilimo; Yennayer ni sikukuu ya umma Aljeria (2018) na Moroko (2024)",
+   "note": "Inahifadhi urefu wa miezi ya Juliasi, hivyo 1 Yennayer siku hizi huangukia 14 Januari. Hesabu ya miaka ilipendekezwa mwaka 1980."
+  },
+  "yuan": {
+   "name": "Enzi ya nasaba ya Yuan: Zhizheng",
+   "region": "China ya Yuan (Shangdu)",
+   "type": "Ya mwezi na jua, miaka ya enzi ya kifalme",
+   "epoch": "Zhizheng 1 = 1341, Mfalme Huizong (Toghon Temür)",
+   "used": "1341–1368, enzi ya mwisho ya Yuan nchini China",
+   "note": "Kalenda ya Shoushi (1281) ya mwanaastronomia wa Yuan Guo Shoujing ilitumia mwaka wa siku 365.2425 — thamani ya Gregori, miaka 300 kabla ya Gregori. Miezi hapa inafuata kalenda ya Kichina ya leo.",
+   "year": "Zhizheng {n}"
+  },
+  "ming": {
+   "name": "Enzi ya nasaba ya Ming: Chongzhen",
+   "region": "Beijing",
+   "type": "Ya mwezi na jua, miaka ya enzi ya kifalme",
+   "epoch": "Chongzhen 1 = 1628, enzi ya mwisho ya Ming huko Beijing",
+   "used": "1628–1644; Korea ya Joseon iliendelea kuhesabu miaka “baada ya Chongzhen” kwa zaidi ya karne mbili",
+   "note": "Mwezi na siku hufuata kalenda ya Kichina ya leo. Ming ilitumia kanuni za zamani za Datong, ambazo zingeweza kuweka mwezi wa ziada mahali tofauti.",
+   "year": "Chongzhen {n}"
+  },
+  "qing": {
+   "name": "Enzi ya nasaba ya Qing: Xuantong",
+   "region": "China ya Qing",
+   "type": "Ya mwezi na jua, miaka ya enzi ya kifalme",
+   "epoch": "Xuantong 1 = 1909, utawala wa Puyi",
+   "used": "1909–1912, enzi ya mwisho ya kifalme ya China",
+   "note": "Puyi aliachia kiti cha enzi mwaka Xuantong 3; baraza ndani ya Mji Uliokatazwa liliendelea kutumia enzi hiyo hadi 1924.",
+   "year": "Xuantong {n}"
+  },
+  "korean_empire": {
+   "name": "Enzi ya Milki ya Korea: Yunghui",
+   "region": "Seoul",
+   "type": "Miezi ya Gregori, miaka ya enzi ya kifalme",
+   "epoch": "Yunghui 1 = 1907, Mfalme Sunjong",
+   "used": "3 Agosti 1907 – 29 Agosti 1910, jina la mwisho la enzi ya Korea",
+   "note": "Korea ilihamia kalenda ya jua tarehe 1 Januari 1896 (enzi ya Geonyang, “kupokea jua”), hivyo tarehe za Milki ya Korea ni za Gregori, si za mwezi.",
+   "year": "Yunghui {n}"
+  },
+  "joseon": {
+   "name": "Nasaba ya Joseon: enzi ya Kuanzishwa (Gaeguk)",
+   "region": "Korea ya Joseon",
+   "type": "Ya mwezi na jua, miaka tangu kuanzishwa kwa nasaba",
+   "epoch": "Kuanzishwa kwa Joseon, 1392 = Gaeguk 1",
+   "used": "Rasmi 1894–1895 (Mageuzi ya Gabo); kabla ya hapo Joseon iliandika tarehe kwa majina ya enzi za Ming, kisha za Qing",
+   "note": "Joseon ilidumisha kalenda ya mwezi na jua ya mtindo wa Kichina (Siheon-ryeok) hadi Korea ilipohamia kalenda ya jua tarehe 1 Januari 1896.",
+   "year": "Gaeguk {n}"
+  },
+  "nguyen": {
+   "name": "Enzi ya nasaba ya Nguyễn: Bảo Đại",
+   "region": "Huế, Vietnam",
+   "type": "Ya mwezi na jua, miaka ya enzi ya kifalme",
+   "epoch": "Bảo Đại 1 = 1926",
+   "used": "1926–1945, enzi ya mwisho ya nasaba ya mwisho ya Vietnam",
+   "note": "Inaonyeshwa kwa miezi ya kalenda ya Kichina; kalenda ya mwezi ya Vietnam yenyewe hukokotolewa kwa UTC+7 na mara chache hutofautiana kwa siku moja.",
+   "year": "Bảo Đại {n}"
+  },
+  "koki": {
+   "name": "Mwaka wa kifalme wa Japani (Kōki)",
+   "region": "Japani",
+   "type": "Miezi ya Gregori, miaka tangu kuasisiwa kwa ufalme",
+   "epoch": "Kutawazwa kwa kihekaya kwa Mfalme Jimmu, 660 KK",
+   "used": "Katika matumizi rasmi 1872–1945; ndege ya kivita Zero ilipewa jina kutokana na mwaka 2600 (1940)",
+   "note": "Mwaka = mwaka wa Kimagharibi + 660.",
+   "year": "Kōki {n}"
+  },
+  "rattanakosin": {
+   "name": "Enzi ya Rattanakosin",
+   "region": "Siam (Thailand)",
+   "type": "Ya jua, miaka tangu kuanzishwa kwa Bangkok",
+   "epoch": "Kuanzishwa kwa Bangkok, 1782",
+   "used": "1889–1912, chini ya Wafalme Chulalongkorn na Vajiravudh",
+   "note": "Mwaka ulianza tarehe 1 Aprili, kama miaka ya Kithai ilivyokuwa hadi 1941.",
+   "year": "R.S. {n}"
+  },
+  "iran_imperial": {
+   "name": "Kalenda ya Kifalme ya Iran",
+   "region": "Tehran",
+   "type": "Ya jua (miezi ya Hijria ya jua)",
+   "epoch": "Kutawazwa kwa Koreshi Mkuu, 559 KK",
+   "used": "Machi 1976 – Agosti 1978 tu",
+   "note": "Shah alibadilisha mwanzo wa Kiislamu kwa mwanzo wa kifalme usiku mmoja (1355 → 2535); ilibatilishwa miaka miwili baadaye.",
+   "year": "{n} (Kifalme)"
+  },
+  "french_rep": {
+   "name": "Kalenda ya Jamhuri ya Ufaransa",
+   "region": "Ufaransa",
+   "type": "Ya jua: miezi 12 ya wiki tatu za siku 10 + siku 5–6 za sherehe",
+   "epoch": "Kutangazwa kwa Jamhuri, 22 Septemba 1792",
+   "used": "1793–1805, na siku 18 katika Komyuni ya Paris ya 1871",
+   "note": "Miezi imepewa majina kutokana na hali ya hewa (Brumaire = ukungu, Thermidor = joto). Miaka mirefu baada ya mwaka 20 hufuata kanuni iliyopendekezwa na Romme.",
+   "year": "mwaka {n} wa Jamhuri"
+  },
+  "egyptian": {
+   "name": "Kalenda ya kiraia ya Misri ya kale",
+   "region": "Misri (Thebe)",
+   "type": "Ya jua, siku 365 bila siku ya mwaka mrefu: majira 3 × miezi 4 ya siku 30 + siku 5 za ziada",
+   "epoch": "Enzi ya Nabonassar, 747 KK, kama ilivyotumika katika astronomia ya Ptolemi",
+   "used": "Tangu mwanzo wa milenia ya 3 KK; Wamisri wenyewe walihesabu miaka kwa utawala wa mfalme",
+   "note": "Kwa kukosa siku ya mwaka mrefu, husogea siku moja kila miaka minne dhidi ya majira, na hurudi baada ya takriban miaka 1,460 (mzunguko wa Sothi). Majira ni Akhet (mafuriko), Peret (kuota) na Shemu (mavuno).",
+   "year": "Nabonassar {n}"
+  },
+  "roman": {
+   "name": "Kalenda ya Kirumi (AUC)",
+   "region": "Roma",
+   "type": "Ya jua (Juliasi), ikihesabiwa kurudi nyuma kutoka Kalendi, None na Idi",
+   "epoch": "Ab urbe condita: kuanzishwa kwa Roma, 753 KK",
+   "used": "Kalenda ya Juliasi tangu 45 KK; namba za miaka za AUC zilikuwa zaidi hesabu ya wasomi",
+   "note": "Warumi walihesabu siku kurudi nyuma hadi alama inayofuata, wakiijumuisha: “a.d. III Non. Oct.” ni siku ya tatu kabla ya None za Oktoba.",
+   "year": "{n} AUC"
+  },
+  "byzantine": {
+   "name": "Kalenda ya Bizanti",
+   "region": "Konstantinopoli",
+   "type": "Ya jua (Juliasi), mwaka kuanzia 1 Septemba",
+   "epoch": "Uumbaji wa dunia, 5509 KK",
+   "used": "Rasmi katika Milki ya Bizanti 988–1453; Urusi hadi 1700",
+   "note": "Miaka huandikwa kwa herufi za Kigiriki: ͵ζφλεʹ = 7535.",
+   "year": "{n} Anno Mundi"
+  },
+  "aztec": {
+   "name": "Hesabu ya siku ya Waazteki (tonalpohualli)",
+   "region": "Tenochtitlan (Jiji la Meksiko)",
+   "type": "Hesabu ya kiibada ya siku 260: namba 13 × alama 20 za siku",
+   "epoch": "Hakuna mwaka 1: hesabu huzunguka bila mwisho; miaka ilipewa majina katika mzunguko wa miaka 52",
+   "used": "Meksiko ya Kati hadi utekaji wa Wahispania (1521); hesabu ile ile ya siku 260 kama Tzolk’in ya Wamaya",
+   "note": "Tenochtitlan ilianguka siku ya 1 Coatl (1 Nyoka), 13 Agosti 1521 kwa Juliasi — msingi wa uwiano wa Caso unaotumika hapa. Siku ambayo mwaka wa siku 365 ulianza bado inajadiliwa, hivyo alama ya siku pekee ndiyo inayoonyeshwa."
+  },
+  "maya": {
+   "name": "Hesabu Ndefu ya Wamaya",
+   "region": "Eneo la Wamaya (Tikal)",
+   "type": "Hesabu ya siku + Tzolk’in ya siku 260 + Haab’ ya siku 365",
+   "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 Agosti 3114 KK (uwiano wa GMT)",
+   "used": "Maandishi ya Wamaya wa Kipindi cha Kale, takriban 250–909 BK; hesabu ya siku 260 bado inadumishwa katika nyanda za juu za Guatemala",
+   "note": "B’ak’tun mpya ilianza tarehe 21 Desemba 2012 — “mwisho wa dunia” ambao haukutokea."
+  }
+ }
+};

@@ -1,0 +1,556 @@
+/* timemap_i18n/id.js — TimeMap strings for UI language "id".
+ * Same shape as EN in timemap_calendars.js; any missing key falls back to English. */
+window.TM_I18N = window.TM_I18N || {};
+window.TM_I18N["id"] = {
+ "intlLocale": "id-ID",
+ "gannen": false,
+ "ui": {
+  "title": "Peta Kalender",
+  "tagline": "Satu hari dalam kalender-kalender dunia — termasuk yang sudah berhenti menghitung.",
+  "today": "Hari ini",
+  "prevDay": "Hari sebelumnya",
+  "nextDay": "Hari berikutnya",
+  "details": "Detail",
+  "fCurrent": "Dipakai",
+  "fHist": "Historis",
+  "fGreg": "Gregorius",
+  "hCurrent": "Dipakai saat ini",
+  "hHist": "Seandainya terus dihitung",
+  "hGreg": "Kalender Gregorius",
+  "subHist": "Kalender-kalender ini sudah ditinggalkan. Tanggalnya menunjukkan apa yang akan tertera hari ini.",
+  "subGreg": "Standar dunia, ditampilkan di tempat kelahirannya dan di beberapa negara.",
+  "notYet": "Belum dipakai pada tanggal ini",
+  "type": "Jenis",
+  "epoch": "Tahun 1",
+  "used": "Dipakai",
+  "ended": "Berakhir {n} — hitungan dilanjutkan",
+  "simpleDisplay": "Tampilan sederhana",
+  "settings": "Pengaturan",
+  "fontSize": "Ukuran font",
+  "navOrder": "Urutan Kata",
+  "navWord": "Peta Kata",
+  "navHan": "Peta Hanzi",
+  "navName": "Peta Nama",
+  "navTime": "Peta Kalender",
+  "navTree": "Pohon"
+ },
+ "dateFmt": "{d} {month} {y}",
+ "yearDefault": "{n}",
+ "lunarMonth": "bulan ke-{m}",
+ "leapMonth": "bulan kabisat ke-{m}",
+ "lunarFmt": "tanggal {d} {month}, {y}",
+ "dayName": "{name}, {y}",
+ "signFmt": "{num} {name}",
+ "months": {
+  "gregorian": [
+   "Januari",
+   "Februari",
+   "Maret",
+   "April",
+   "Mei",
+   "Juni",
+   "Juli",
+   "Agustus",
+   "September",
+   "Oktober",
+   "November",
+   "Desember"
+  ],
+  "hebrew": [
+   "Tisyri",
+   "Heshwan",
+   "Kislew",
+   "Tewet",
+   "Syewat",
+   "Adar I",
+   "Adar",
+   "Adar II",
+   "Nisan",
+   "Iyar",
+   "Siwan",
+   "Tamus",
+   "Av",
+   "Elul"
+  ],
+  "islamic": [
+   "Muharram",
+   "Safar",
+   "Rabiulawal",
+   "Rabiulakhir",
+   "Jumadilawal",
+   "Jumadilakhir",
+   "Rajab",
+   "Syakban",
+   "Ramadan",
+   "Syawal",
+   "Zulkaidah",
+   "Zulhijah"
+  ],
+  "persian": [
+   "Farvardin",
+   "Ordibehesht",
+   "Khordad",
+   "Tir",
+   "Mordad",
+   "Syahrivar",
+   "Mehr",
+   "Aban",
+   "Azar",
+   "Dey",
+   "Bahman",
+   "Esfand"
+  ],
+  "indian": [
+   "Chaitra",
+   "Vaishakha",
+   "Jyeshtha",
+   "Ashadha",
+   "Shravana",
+   "Bhadra",
+   "Ashvin",
+   "Kartika",
+   "Agrahayana",
+   "Pausha",
+   "Magha",
+   "Phalguna"
+  ],
+  "bengali": [
+   "Boishakh",
+   "Joishtho",
+   "Asharh",
+   "Srabon",
+   "Bhadro",
+   "Ashwin",
+   "Kartik",
+   "Ogrohayon",
+   "Poush",
+   "Magh",
+   "Falgun",
+   "Choitro"
+  ],
+  "ethiopic": [
+   "Meskerem",
+   "Tikimt",
+   "Hidar",
+   "Tahsas",
+   "Tir",
+   "Yekatit",
+   "Megabit",
+   "Miyazya",
+   "Ginbot",
+   "Sene",
+   "Hamle",
+   "Nehase",
+   "Pagume"
+  ],
+  "coptic": [
+   "Thout",
+   "Paopi",
+   "Hathor",
+   "Koiak",
+   "Tobi",
+   "Meshir",
+   "Paremhat",
+   "Parmouti",
+   "Pashons",
+   "Paoni",
+   "Epip",
+   "Mesori",
+   "Pi Kogi Enavot"
+  ],
+  "amazigh": [
+   "Yennayer",
+   "Furar",
+   "Meɣres",
+   "Yebrir",
+   "Mayyu",
+   "Yunyu",
+   "Yulyu",
+   "Ɣuct",
+   "Ctembeṛ",
+   "Tubeṛ",
+   "Wambeṛ",
+   "Dujembeṛ"
+  ],
+  "french": [
+   "Vendémiaire",
+   "Brumaire",
+   "Frimaire",
+   "Nivôse",
+   "Pluviôse",
+   "Ventôse",
+   "Germinal",
+   "Floréal",
+   "Prairial",
+   "Messidor",
+   "Thermidor",
+   "Fructidor"
+  ],
+  "frenchSans": [
+   "Hari Kebajikan",
+   "Hari Kejeniusan",
+   "Hari Kerja",
+   "Hari Opini",
+   "Hari Penghargaan",
+   "Hari Revolusi"
+  ],
+  "egyptian": [
+   "Thoth",
+   "Phaophi",
+   "Athyr",
+   "Choiak",
+   "Tybi",
+   "Mechir",
+   "Phamenoth",
+   "Pharmuthi",
+   "Pachon",
+   "Payni",
+   "Epiphi",
+   "Mesore",
+   "hari tambahan"
+  ],
+  "aztec": [
+   "Buaya",
+   "Angin",
+   "Rumah",
+   "Kadal",
+   "Ular",
+   "Kematian",
+   "Rusa",
+   "Kelinci",
+   "Air",
+   "Anjing",
+   "Monyet",
+   "Rumput",
+   "Buluh",
+   "Jaguar",
+   "Elang",
+   "Burung Nasar",
+   "Gerakan",
+   "Batu Api",
+   "Hujan",
+   "Bunga"
+  ],
+  "zodiac": [
+   "Tikus",
+   "Kerbau",
+   "Macan",
+   "Kelinci",
+   "Naga",
+   "Ular",
+   "Kuda",
+   "Kambing",
+   "Monyet",
+   "Ayam",
+   "Anjing",
+   "Babi"
+  ]
+ },
+ "eras": {
+  "Meiji": "Meiji",
+  "Taishō": "Taishō",
+  "Shōwa": "Shōwa",
+  "Heisei": "Heisei",
+  "Reiwa": "Reiwa"
+ },
+ "cal": {
+  "greg_va": {
+   "name": "Kalender Gregorius (asal)",
+   "region": "Vatikan / Roma",
+   "type": "Matahari",
+   "epoch": "Anno Domini — tahun kelahiran Kristus menurut tradisi",
+   "used": "Sejak 15 Oktober 1582 (bula Inter gravissimas, Paus Gregorius XIII)",
+   "note": "Memperbaiki pergeseran kalender Julian dengan melompati 10 hari (setelah 4 Oktober 1582 langsung 15 Oktober) dan menghapus tiga hari kabisat setiap 400 tahun."
+  },
+  "greg_uk": {
+   "name": "Kalender Gregorius",
+   "region": "Britania Raya",
+   "type": "Matahari",
+   "epoch": "Anno Domini",
+   "used": "Sejak 14 September 1752 (3–13 September 1752 tidak pernah ada)",
+   "note": "Britania dan koloninya beralih 170 tahun setelah Roma; undang-undang yang sama memindahkan Tahun Baru dari 25 Maret ke 1 Januari."
+  },
+  "greg_us": {
+   "name": "Kalender Gregorius",
+   "region": "Amerika Serikat",
+   "type": "Matahari",
+   "epoch": "Anno Domini",
+   "used": "Sejak 1752, sebagai koloni Britania",
+   "note": "Kalender yang sama dengan Britania, tetapi bulan ditulis lebih dulu: 10/5 berarti 5 Oktober di AS dan 10 Mei di Britania."
+  },
+  "greg_jp": {
+   "name": "Kalender Gregorius",
+   "region": "Jepang",
+   "type": "Matahari",
+   "epoch": "Anno Domini",
+   "used": "Sejak 1 Januari 1873 (Meiji 6), menggantikan kalender lunisolar Tenpō",
+   "note": "Jepang beralih dalam semalam: 3 Desember Meiji 5 menjadi 1 Januari Meiji 6. Nama era (令和) masih dipakai di samping tahun Masehi."
+  },
+  "japanese": {
+   "name": "Era Jepang (gengō)",
+   "region": "Jepang",
+   "type": "Bulan Gregorius, tahun era kekaisaran",
+   "epoch": "Naik takhtanya kaisar saat ini (Reiwa 1 = 2019)",
+   "used": "Sejak 645 (Taika); satu era per masa pemerintahan sejak 1868",
+   "note": "Dipakai pada formulir resmi, koin, dan surat kabar. Tahun pertama sebuah era ditulis 元年 (gannen), bukan 1年.",
+   "year": "{era} {n}"
+  },
+  "roc": {
+   "name": "Kalender Minguo",
+   "region": "Taiwan",
+   "type": "Bulan Gregorius, tahun era Republik",
+   "epoch": "Berdirinya Republik Tiongkok, 1912",
+   "used": "Sejak 1912; resmi di Taiwan",
+   "note": "Tahun = tahun Masehi − 1911. Berjalan seiring dengan tahun Juche Korea Utara.",
+   "year": "Minguo {n}"
+  },
+  "juche": {
+   "name": "Kalender Juche",
+   "region": "Korea Utara",
+   "type": "Bulan Gregorius, tahun Juche",
+   "epoch": "Kelahiran Kim Il Sung, 1912",
+   "used": "Sejak 1997",
+   "note": "Ditulis dengan tahun Masehi dalam kurung: 주체115(2026)년.",
+   "year": "Juche {n}"
+  },
+  "buddhist": {
+   "name": "Kalender surya Thailand",
+   "region": "Thailand",
+   "type": "Matahari, tahun Era Buddhis",
+   "epoch": "Era Buddhis: parinirwana Buddha, 543 SM menurut hitungan Thailand",
+   "used": "Resmi sejak 1912 (tahun BE), dengan 1 Januari sebagai Tahun Baru sejak 1941",
+   "note": "Tahun = tahun Masehi + 543. Sri Lanka, Myanmar, dan Kamboja menghitung Era Buddhis berselisih satu tahun dari Thailand.",
+   "year": "{n} BE"
+  },
+  "chinese": {
+   "name": "Kalender lunisolar Tionghoa",
+   "region": "Tiongkok",
+   "type": "Lunisolar",
+   "epoch": "Tanpa hitungan tahun berjalan; tahun berputar melalui 60 nama batang–cabang",
+   "used": "Menentukan Tahun Baru Imlek, Festival Pertengahan Musim Gugur, dan hari raya lainnya",
+   "note": "Bulan mengikuti bulan baru di Beijing; bulan kabisat ditambahkan sekitar 7 kali dalam 19 tahun.",
+   "year": "tahun {gzPy} ({animal})"
+  },
+  "dangi": {
+   "name": "Kalender lunisolar Korea",
+   "region": "Korea Selatan",
+   "type": "Lunisolar",
+   "epoch": "Tanpa hitungan tahun berjalan; siklus 60 tahun",
+   "used": "Menentukan Seollal dan Chuseok",
+   "note": "Aturannya sama dengan kalender Tionghoa tetapi dihitung menurut waktu Korea, sehingga bulan baru menjelang tengah malam bisa membuat awal bulan bergeser satu hari.",
+   "year": "tahun {gzPy} ({animal})"
+  },
+  "hebrew": {
+   "name": "Kalender Ibrani",
+   "region": "Israel",
+   "type": "Lunisolar",
+   "epoch": "Anno Mundi: tanggal penciptaan menurut tradisi, 3761 SM",
+   "used": "Resmi di Israel di samping kalender Gregorius",
+   "note": "Tahun dan tanggal ditulis dengan huruf Ibrani (תשפ״ז = 787). Tahun dimulai pada musim gugur, saat Rosh Hashanah."
+  },
+  "islamic": {
+   "name": "Kalender Islam (Hijriah)",
+   "region": "Arab Saudi",
+   "type": "Bulan (tanpa bulan kabisat)",
+   "epoch": "Hijrah, kepindahan Nabi Muhammad ke Madinah, 622 M",
+   "used": "Keperluan agama di seluruh dunia; sipil di Arab Saudi (tabel Umm al-Qura)",
+   "note": "Setahun sekitar 354 hari, sehingga Ramadan maju sekitar 11 hari setiap tahun Masehi dan melewati semua musim dalam 33 tahun.",
+   "year": "{n} H"
+  },
+  "persian": {
+   "name": "Kalender Hijriah Syamsiah",
+   "region": "Iran · Afganistan",
+   "type": "Matahari (astronomis)",
+   "epoch": "Hijrah, 622 M, dihitung dalam tahun matahari",
+   "used": "Resmi di Iran sejak 1925 dan di Afganistan",
+   "note": "Tahun dimulai tepat pada saat ekuinoks Maret (Nowruz), sehingga menjadi salah satu kalender paling akurat yang masih dipakai.",
+   "year": "{n} HS"
+  },
+  "indian": {
+   "name": "Kalender nasional India",
+   "region": "India",
+   "type": "Matahari",
+   "epoch": "Tarikh Saka, 78 M",
+   "used": "Resmi sejak 1957, di samping kalender Gregorius",
+   "note": "Kalender tetap hasil reformasi. Hari raya tetap mengikuti banyak kalender lunisolar Hindu daerah.",
+   "year": "Saka {n}"
+  },
+  "bengali": {
+   "name": "Kalender Bengali (Bangabda)",
+   "region": "Bangladesh",
+   "type": "Matahari (aturan tetap)",
+   "epoch": "Bangabda, 593 M",
+   "used": "Resmi di Bangladesh; yang ditampilkan revisi 2019",
+   "note": "Tahun Baru, Pohela Boishakh, ditetapkan pada 14 April. Benggala Barat di India memakai versi astronomis yang lebih lama, sehingga tanggal di sana bisa berbeda satu hari.",
+   "year": "{n} Bangabda"
+  },
+  "ethiopic": {
+   "name": "Kalender Etiopia",
+   "region": "Etiopia · Eritrea",
+   "type": "Matahari: 12 bulan berisi 30 hari + bulan ke-13 berisi 5–6 hari",
+   "epoch": "Era Inkarnasi, 8 M menurut hitungan Gregorius",
+   "used": "Resmi di Etiopia",
+   "note": "Tertinggal tujuh atau delapan tahun dari hitungan Masehi; Tahun Baru (Enkutatash) jatuh pada 11 September.",
+   "year": "tahun Etiopia {n}"
+  },
+  "coptic": {
+   "name": "Kalender Koptik",
+   "region": "Mesir",
+   "type": "Matahari: 12 × 30 hari + 5–6 hari tambahan",
+   "epoch": "Era Para Martir, 284 M (naik takhtanya Diokletianus)",
+   "used": "Gereja Koptik; petani Mesir masih menabur benih menurut bulan-bulannya",
+   "note": "Pewaris langsung kalender sipil Mesir kuno, dengan tambahan hari kabisat.",
+   "year": "tahun Martir {n}"
+  },
+  "julian": {
+   "name": "Kalender Julian (Gaya Lama)",
+   "region": "Gereja Ortodoks Rusia",
+   "type": "Matahari",
+   "epoch": "Anno Domini",
+   "used": "Sipil di Rusia hingga 1918; kini kalender gereja",
+   "note": "Kini tertinggal 13 hari dari kalender Gregorius; itulah sebabnya Natal Ortodoks Rusia jatuh pada 7 Januari.",
+   "year": "{n} (Gaya Lama)"
+  },
+  "amazigh": {
+   "name": "Kalender Amazigh (Berber)",
+   "region": "Maroko · Aljazair",
+   "type": "Matahari (bulan Julian)",
+   "epoch": "Naik takhtanya Firaun Shoshenq I, 950 SM",
+   "used": "Kalender pertanian; Yennayer menjadi hari libur nasional di Aljazair (2018) dan Maroko (2024)",
+   "note": "Mempertahankan panjang bulan Julian, sehingga 1 Yennayer kini jatuh pada 14 Januari. Hitungan tahunnya diusulkan pada 1980."
+  },
+  "yuan": {
+   "name": "Era Dinasti Yuan: Zhizheng",
+   "region": "Tiongkok masa Yuan (Shangdu)",
+   "type": "Lunisolar, tahun era kekaisaran",
+   "epoch": "Zhizheng 1 = 1341, Kaisar Huizong (Toghon Temür)",
+   "used": "1341–1368, era Yuan terakhir di Tiongkok",
+   "note": "Kalender Shoushi (1281) karya astronom Yuan Guo Shoujing memakai tahun sepanjang 365,2425 hari — nilai Gregorius, 300 tahun sebelum Gregorius. Bulan di sini mengikuti kalender Tionghoa masa kini.",
+   "year": "Zhizheng {n}"
+  },
+  "ming": {
+   "name": "Era Dinasti Ming: Chongzhen",
+   "region": "Beijing",
+   "type": "Lunisolar, tahun era kekaisaran",
+   "epoch": "Chongzhen 1 = 1628, era Ming terakhir di Beijing",
+   "used": "1628–1644; Joseon Korea terus menghitung tahun “sesudah Chongzhen” selama lebih dari dua abad",
+   "note": "Bulan dan tanggal mengikuti kalender Tionghoa masa kini. Dinasti Ming memakai aturan Datong yang lebih lama, yang bisa menempatkan bulan kabisat secara berbeda.",
+   "year": "Chongzhen {n}"
+  },
+  "qing": {
+   "name": "Era Dinasti Qing: Xuantong",
+   "region": "Tiongkok masa Qing",
+   "type": "Lunisolar, tahun era kekaisaran",
+   "epoch": "Xuantong 1 = 1909, masa pemerintahan Puyi",
+   "used": "1909–1912, era kekaisaran terakhir Tiongkok",
+   "note": "Puyi turun takhta pada Xuantong 3; istana di dalam Kota Terlarang tetap memakai era ini hingga 1924.",
+   "year": "Xuantong {n}"
+  },
+  "korean_empire": {
+   "name": "Era Kekaisaran Korea: Yunghui",
+   "region": "Seoul",
+   "type": "Bulan Gregorius, tahun era kekaisaran",
+   "epoch": "Yunghui 1 = 1907, Kaisar Sunjong",
+   "used": "3 Agustus 1907 – 29 Agustus 1910, nama era Korea yang terakhir",
+   "note": "Korea beralih ke kalender matahari pada 1 Januari 1896 (era Geonyang, “memakai matahari”), sehingga tanggal Kekaisaran Korea adalah Gregorius, bukan bulan.",
+   "year": "Yunghui {n}"
+  },
+  "joseon": {
+   "name": "Dinasti Joseon: era Pendirian (Gaeguk)",
+   "region": "Joseon Korea",
+   "type": "Lunisolar, tahun sejak berdirinya dinasti",
+   "epoch": "Berdirinya Joseon, 1392 = Gaeguk 1",
+   "used": "Resmi 1894–1895 (Reformasi Gabo); sebelumnya Joseon memakai nama era Ming, lalu Qing",
+   "note": "Joseon mempertahankan kalender lunisolar gaya Tiongkok (Siheon-ryeok) sampai Korea beralih ke kalender matahari pada 1 Januari 1896.",
+   "year": "Gaeguk {n}"
+  },
+  "nguyen": {
+   "name": "Era Dinasti Nguyễn: Bảo Đại",
+   "region": "Huế, Vietnam",
+   "type": "Lunisolar, tahun era kekaisaran",
+   "epoch": "Bảo Đại 1 = 1926",
+   "used": "1926–1945, era terakhir dinasti terakhir Vietnam",
+   "note": "Ditampilkan dengan bulan kalender Tionghoa; kalender bulan Vietnam sendiri dihitung untuk UTC+7 dan sesekali berbeda satu hari.",
+   "year": "Bảo Đại {n}"
+  },
+  "koki": {
+   "name": "Tahun kekaisaran Jepang (Kōki)",
+   "region": "Jepang",
+   "type": "Bulan Gregorius, tahun sejak pendirian kekaisaran",
+   "epoch": "Naik takhtanya Kaisar Jimmu menurut legenda, 660 SM",
+   "used": "Dipakai resmi 1872–1945; pesawat tempur Zero dinamai menurut tahun 2600 (1940)",
+   "note": "Tahun = tahun Masehi + 660.",
+   "year": "Kōki {n}"
+  },
+  "rattanakosin": {
+   "name": "Era Rattanakosin",
+   "region": "Siam (Thailand)",
+   "type": "Matahari, tahun sejak berdirinya Bangkok",
+   "epoch": "Berdirinya Bangkok, 1782",
+   "used": "1889–1912, pada masa Raja Chulalongkorn dan Vajiravudh",
+   "note": "Tahun dimulai pada 1 April, seperti tahun Thailand hingga 1941.",
+   "year": "R.S. {n}"
+  },
+  "iran_imperial": {
+   "name": "Kalender Kekaisaran Iran",
+   "region": "Teheran",
+   "type": "Matahari (bulan Hijriah Syamsiah)",
+   "epoch": "Naik takhtanya Koresy Agung, 559 SM",
+   "used": "Hanya Maret 1976 – Agustus 1978",
+   "note": "Syah mengganti epoch Islam dengan epoch monarki dalam semalam (1355 → 2535); keputusan itu dibatalkan dua tahun kemudian.",
+   "year": "tahun Kekaisaran {n}"
+  },
+  "french_rep": {
+   "name": "Kalender Republik Prancis",
+   "region": "Prancis",
+   "type": "Matahari: 12 bulan berisi tiga pekan 10 hari + 5–6 hari perayaan",
+   "epoch": "Proklamasi Republik, 22 September 1792",
+   "used": "1793–1805, dan 18 hari pada Komune Paris 1871",
+   "note": "Nama bulan diambil dari cuaca (Brumaire = kabut, Thermidor = panas). Tahun kabisat setelah tahun ke-20 mengikuti aturan usulan Romme.",
+   "year": "tahun {n} Republik"
+  },
+  "egyptian": {
+   "name": "Kalender sipil Mesir kuno",
+   "region": "Mesir (Thebes)",
+   "type": "Matahari, 365 hari tanpa hari kabisat: 3 musim × 4 bulan berisi 30 hari + 5 hari tambahan",
+   "epoch": "Era Nabonassar, 747 SM, sebagaimana dipakai dalam astronomi Ptolemaios",
+   "used": "Sejak awal milenium ke-3 SM; orang Mesir sendiri menghitung tahun menurut masa pemerintahan raja",
+   "note": "Tanpa hari kabisat, kalender ini bergeser satu hari setiap empat tahun terhadap musim, dan kembali setelah sekitar 1.460 tahun (siklus Sothis). Musimnya adalah Akhet (banjir), Peret (tumbuh), dan Shemu (panen).",
+   "year": "Nabonassar {n}"
+  },
+  "roman": {
+   "name": "Kalender Romawi (AUC)",
+   "region": "Roma",
+   "type": "Matahari (Julian), dihitung mundur dari Kalendae, Nonae, dan Idus",
+   "epoch": "Ab urbe condita: berdirinya Roma, 753 SM",
+   "used": "Kalender Julian sejak 45 SM; angka tahun AUC sebagian besar hitungan para sarjana",
+   "note": "Orang Romawi menghitung hari mundur ke penanda berikutnya, secara inklusif: “a.d. III Non. Oct.” adalah hari ketiga sebelum Nonae Oktober.",
+   "year": "{n} AUC"
+  },
+  "byzantine": {
+   "name": "Kalender Bizantium",
+   "region": "Konstantinopel",
+   "type": "Matahari (Julian), tahun dimulai 1 September",
+   "epoch": "Penciptaan dunia, 5509 SM",
+   "used": "Resmi di Kekaisaran Bizantium 988–1453; di Rusia hingga 1700",
+   "note": "Tahun ditulis dengan huruf Yunani: ͵ζφλεʹ = 7535.",
+   "year": "{n} Anno Mundi"
+  },
+  "aztec": {
+   "name": "Hitungan hari Aztek (tonalpohualli)",
+   "region": "Tenochtitlan (Kota Meksiko)",
+   "type": "Hitungan ritual 260 hari: 13 angka × 20 tanda hari",
+   "epoch": "Tanpa tahun 1: hitungannya berputar tanpa akhir; tahun dinamai dalam siklus 52 tahun",
+   "used": "Meksiko Tengah hingga penaklukan Spanyol (1521); hitungan 260 hari yang sama dengan Tzolk’in suku Maya",
+   "note": "Tenochtitlan jatuh pada 1 Coatl (1 Ular), 13 Agustus 1521 Julian — patokan korelasi Caso yang dipakai di sini. Hari awal tahun 365 hari masih diperdebatkan, jadi hanya tanda hari yang ditampilkan."
+  },
+  "maya": {
+   "name": "Hitungan Panjang Maya",
+   "region": "Wilayah Maya (Tikal)",
+   "type": "Hitungan hari + Tzolk’in 260 hari + Haab’ 365 hari",
+   "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 Agustus 3114 SM (korelasi GMT)",
+   "used": "Prasasti Maya Klasik, sekitar 250–909 M; hitungan 260 hari masih dipakai di dataran tinggi Guatemala",
+   "note": "B’ak’tun baru dimulai pada 21 Desember 2012 — “kiamat” yang tidak pernah terjadi."
+  }
+ }
+};

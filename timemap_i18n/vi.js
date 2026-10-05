@@ -1,0 +1,556 @@
+/* timemap_i18n/vi.js — TimeMap strings for UI language "vi".
+ * Same shape as EN in timemap_calendars.js; any missing key falls back to English. */
+window.TM_I18N = window.TM_I18N || {};
+window.TM_I18N["vi"] = {
+ "intlLocale": "vi-VN",
+ "gannen": false,
+ "ui": {
+  "title": "Bản đồ lịch",
+  "tagline": "Một ngày, trong các bộ lịch của thế giới — và cả những bộ lịch đã ngừng đếm.",
+  "today": "Hôm nay",
+  "prevDay": "Ngày trước",
+  "nextDay": "Ngày sau",
+  "details": "Chi tiết",
+  "fCurrent": "Đang dùng",
+  "fHist": "Đã ngừng dùng",
+  "fGreg": "Gregory",
+  "hCurrent": "Vẫn dùng ngày nay",
+  "hHist": "Nếu vẫn tiếp tục đếm",
+  "hGreg": "Lịch Gregory",
+  "subHist": "Những bộ lịch này đã bị bãi bỏ. Ngày hiển thị là ngày chúng sẽ ghi hôm nay.",
+  "subGreg": "Chuẩn chung của thế giới, hiển thị tại nơi khai sinh và một vài quốc gia.",
+  "notYet": "Chưa được dùng vào ngày này",
+  "type": "Loại",
+  "epoch": "Năm 1",
+  "used": "Thời gian dùng",
+  "ended": "Ngừng dùng năm {n} — số năm được đếm tiếp",
+  "simpleDisplay": "Hiển thị đơn giản",
+  "settings": "Cài đặt",
+  "fontSize": "Cỡ chữ",
+  "navOrder": "Trật tự từ",
+  "navWord": "Bản đồ từ",
+  "navHan": "Bản đồ Hán tự",
+  "navName": "Bản đồ tên",
+  "navTime": "Bản đồ lịch",
+  "navTree": "Cây phả hệ"
+ },
+ "dateFmt": "{d} {month} năm {y}",
+ "yearDefault": "{n}",
+ "lunarMonth": "tháng {m}",
+ "leapMonth": "tháng {m} nhuận",
+ "lunarFmt": "{d} {month} năm {y}",
+ "dayName": "{name} năm {y}",
+ "signFmt": "{num} {name}",
+ "months": {
+  "gregorian": [
+   "tháng 1",
+   "tháng 2",
+   "tháng 3",
+   "tháng 4",
+   "tháng 5",
+   "tháng 6",
+   "tháng 7",
+   "tháng 8",
+   "tháng 9",
+   "tháng 10",
+   "tháng 11",
+   "tháng 12"
+  ],
+  "hebrew": [
+   "tháng Tishri",
+   "tháng Heshvan",
+   "tháng Kislev",
+   "tháng Tevet",
+   "tháng Shevat",
+   "tháng Adar I",
+   "tháng Adar",
+   "tháng Adar II",
+   "tháng Nisan",
+   "tháng Iyar",
+   "tháng Sivan",
+   "tháng Tammuz",
+   "tháng Av",
+   "tháng Elul"
+  ],
+  "islamic": [
+   "tháng Muharram",
+   "tháng Safar",
+   "tháng Rabiʻ I",
+   "tháng Rabiʻ II",
+   "tháng Jumada I",
+   "tháng Jumada II",
+   "tháng Rajab",
+   "tháng Shaʻban",
+   "tháng Ramadan",
+   "tháng Shawwal",
+   "tháng Dhu al-Qiʻdah",
+   "tháng Dhu al-Hijjah"
+  ],
+  "persian": [
+   "tháng Farvardin",
+   "tháng Ordibehesht",
+   "tháng Khordad",
+   "tháng Tir",
+   "tháng Mordad",
+   "tháng Shahrivar",
+   "tháng Mehr",
+   "tháng Aban",
+   "tháng Azar",
+   "tháng Dey",
+   "tháng Bahman",
+   "tháng Esfand"
+  ],
+  "indian": [
+   "tháng Chaitra",
+   "tháng Vaishakha",
+   "tháng Jyeshtha",
+   "tháng Ashadha",
+   "tháng Shravana",
+   "tháng Bhadra",
+   "tháng Ashvin",
+   "tháng Kartika",
+   "tháng Agrahayana",
+   "tháng Pausha",
+   "tháng Magha",
+   "tháng Phalguna"
+  ],
+  "bengali": [
+   "tháng Boishakh",
+   "tháng Joishtho",
+   "tháng Asharh",
+   "tháng Srabon",
+   "tháng Bhadro",
+   "tháng Ashwin",
+   "tháng Kartik",
+   "tháng Ogrohayon",
+   "tháng Poush",
+   "tháng Magh",
+   "tháng Falgun",
+   "tháng Choitro"
+  ],
+  "ethiopic": [
+   "tháng Meskerem",
+   "tháng Tikimt",
+   "tháng Hidar",
+   "tháng Tahsas",
+   "tháng Tir",
+   "tháng Yekatit",
+   "tháng Megabit",
+   "tháng Miyazya",
+   "tháng Ginbot",
+   "tháng Sene",
+   "tháng Hamle",
+   "tháng Nehase",
+   "tháng Pagume"
+  ],
+  "coptic": [
+   "tháng Thout",
+   "tháng Paopi",
+   "tháng Hathor",
+   "tháng Koiak",
+   "tháng Tobi",
+   "tháng Meshir",
+   "tháng Paremhat",
+   "tháng Parmouti",
+   "tháng Pashons",
+   "tháng Paoni",
+   "tháng Epip",
+   "tháng Mesori",
+   "tháng Pi Kogi Enavot"
+  ],
+  "amazigh": [
+   "tháng Yennayer",
+   "tháng Furar",
+   "tháng Meɣres",
+   "tháng Yebrir",
+   "tháng Mayyu",
+   "tháng Yunyu",
+   "tháng Yulyu",
+   "tháng Ɣuct",
+   "tháng Ctembeṛ",
+   "tháng Tubeṛ",
+   "tháng Wambeṛ",
+   "tháng Dujembeṛ"
+  ],
+  "french": [
+   "tháng Vendémiaire",
+   "tháng Brumaire",
+   "tháng Frimaire",
+   "tháng Nivôse",
+   "tháng Pluviôse",
+   "tháng Ventôse",
+   "tháng Germinal",
+   "tháng Floréal",
+   "tháng Prairial",
+   "tháng Messidor",
+   "tháng Thermidor",
+   "tháng Fructidor"
+  ],
+  "frenchSans": [
+   "Ngày Đức hạnh",
+   "Ngày Thiên tài",
+   "Ngày Lao động",
+   "Ngày Dư luận",
+   "Ngày Khen thưởng",
+   "Ngày Cách mạng"
+  ],
+  "egyptian": [
+   "tháng Thoth",
+   "tháng Phaophi",
+   "tháng Athyr",
+   "tháng Choiak",
+   "tháng Tybi",
+   "tháng Mechir",
+   "tháng Phamenoth",
+   "tháng Pharmuthi",
+   "tháng Pachon",
+   "tháng Payni",
+   "tháng Epiphi",
+   "tháng Mesore",
+   "ngày bổ sung"
+  ],
+  "aztec": [
+   "Cá sấu",
+   "Gió",
+   "Nhà",
+   "Thằn lằn",
+   "Rắn",
+   "Cái chết",
+   "Hươu",
+   "Thỏ",
+   "Nước",
+   "Chó",
+   "Khỉ",
+   "Cỏ",
+   "Sậy",
+   "Báo đốm",
+   "Đại bàng",
+   "Kền kền",
+   "Chuyển động",
+   "Đá lửa",
+   "Mưa",
+   "Hoa"
+  ],
+  "zodiac": [
+   "Chuột",
+   "Trâu",
+   "Hổ",
+   "Mèo",
+   "Rồng",
+   "Rắn",
+   "Ngựa",
+   "Dê",
+   "Khỉ",
+   "Gà",
+   "Chó",
+   "Lợn"
+  ]
+ },
+ "eras": {
+  "Meiji": "Minh Trị",
+  "Taishō": "Đại Chính",
+  "Shōwa": "Chiêu Hòa",
+  "Heisei": "Bình Thành",
+  "Reiwa": "Lệnh Hòa"
+ },
+ "cal": {
+  "greg_va": {
+   "name": "Lịch Gregory (nơi khai sinh)",
+   "region": "Vatican / Roma",
+   "type": "Dương lịch",
+   "epoch": "Công nguyên — năm sinh của Chúa Kitô theo truyền thống",
+   "used": "Từ ngày 15 tháng 10 năm 1582 (sắc chỉ Inter gravissimas của Giáo hoàng Grêgôriô XIII)",
+   "note": "Sửa độ lệch của lịch Julius bằng cách bỏ qua 10 ngày (sau ngày 4 tháng 10 năm 1582 là ngày 15 tháng 10) và bớt ba ngày nhuận mỗi 400 năm."
+  },
+  "greg_uk": {
+   "name": "Lịch Gregory",
+   "region": "Vương quốc Anh",
+   "type": "Dương lịch",
+   "epoch": "Công nguyên",
+   "used": "Từ ngày 14 tháng 9 năm 1752 (các ngày 3–13 tháng 9 năm 1752 chưa từng tồn tại)",
+   "note": "Anh và các thuộc địa chuyển đổi muộn hơn Roma 170 năm; cùng đạo luật đó dời ngày đầu năm từ 25 tháng 3 sang 1 tháng 1."
+  },
+  "greg_us": {
+   "name": "Lịch Gregory",
+   "region": "Hoa Kỳ",
+   "type": "Dương lịch",
+   "epoch": "Công nguyên",
+   "used": "Từ năm 1752, khi còn là thuộc địa Anh",
+   "note": "Cùng bộ lịch với Anh, nhưng viết tháng trước: 10/5 là ngày 5 tháng 10 ở Mỹ và ngày 10 tháng 5 ở Anh."
+  },
+  "greg_jp": {
+   "name": "Lịch Gregory",
+   "region": "Nhật Bản",
+   "type": "Dương lịch",
+   "epoch": "Công nguyên",
+   "used": "Từ ngày 1 tháng 1 năm 1873 (Minh Trị 6), thay cho lịch âm dương Thiên Bảo",
+   "note": "Nhật Bản đổi lịch chỉ sau một đêm: ngày 3 tháng 12 năm Minh Trị 5 trở thành ngày 1 tháng 1 năm Minh Trị 6. Niên hiệu (令和) vẫn được dùng song song với năm dương lịch."
+  },
+  "japanese": {
+   "name": "Niên hiệu Nhật Bản (gengō)",
+   "region": "Nhật Bản",
+   "type": "Tháng dương lịch, năm theo niên hiệu",
+   "epoch": "Thiên hoàng hiện tại lên ngôi (Lệnh Hòa 1 = 2019)",
+   "used": "Từ năm 645 (Đại Hóa); mỗi triều một niên hiệu từ năm 1868",
+   "note": "Dùng trên giấy tờ hành chính, tiền xu và báo chí. Năm đầu tiên của một niên hiệu được viết là 元年 (gannen), không phải 1年.",
+   "year": "{era} thứ {n}"
+  },
+  "roc": {
+   "name": "Lịch Dân Quốc",
+   "region": "Đài Loan",
+   "type": "Tháng dương lịch, năm Dân Quốc",
+   "epoch": "Thành lập Trung Hoa Dân Quốc, 1912",
+   "used": "Từ năm 1912; chính thức tại Đài Loan",
+   "note": "Năm = năm dương lịch − 1911. Trùng với năm Chủ thể của Triều Tiên.",
+   "year": "Dân Quốc {n}"
+  },
+  "juche": {
+   "name": "Lịch Chủ thể",
+   "region": "Triều Tiên",
+   "type": "Tháng dương lịch, năm Chủ thể",
+   "epoch": "Năm sinh của Kim Nhật Thành, 1912",
+   "used": "Từ năm 1997",
+   "note": "Viết kèm năm dương lịch trong ngoặc: 주체115(2026)년.",
+   "year": "Chủ thể {n}"
+  },
+  "buddhist": {
+   "name": "Lịch dương Thái Lan",
+   "region": "Thái Lan",
+   "type": "Dương lịch, năm Phật lịch",
+   "epoch": "Phật lịch: năm Đức Phật nhập Niết-bàn, 543 TCN theo cách tính của Thái Lan",
+   "used": "Chính thức từ năm 1912 (năm Phật lịch), lấy 1 tháng 1 làm ngày đầu năm từ năm 1941",
+   "note": "Năm = năm dương lịch + 543. Sri Lanka, Myanmar và Campuchia tính Phật lịch lệch một năm so với Thái Lan.",
+   "year": "Phật lịch {n}"
+  },
+  "chinese": {
+   "name": "Âm lịch Trung Quốc",
+   "region": "Trung Quốc",
+   "type": "Âm dương lịch",
+   "epoch": "Không đếm năm liên tục; năm xoay vòng theo 60 tên can chi",
+   "used": "Xác định Tết Nguyên đán, Tết Trung thu và các ngày lễ khác",
+   "note": "Tháng bắt đầu theo ngày sóc tại Bắc Kinh; khoảng 7 lần trong 19 năm có thêm một tháng nhuận.",
+   "year": "{gzVi}"
+  },
+  "dangi": {
+   "name": "Âm lịch Hàn Quốc",
+   "region": "Hàn Quốc",
+   "type": "Âm dương lịch",
+   "epoch": "Không đếm năm liên tục; chu kỳ 60 năm",
+   "used": "Xác định Tết Seollal và Chuseok",
+   "note": "Cùng quy tắc với âm lịch Trung Quốc nhưng tính theo giờ Hàn Quốc, nên khi ngày sóc rơi gần nửa đêm, tháng có thể bắt đầu lệch một ngày.",
+   "year": "{gzVi}"
+  },
+  "hebrew": {
+   "name": "Lịch Do Thái",
+   "region": "Israel",
+   "type": "Âm dương lịch",
+   "epoch": "Anno Mundi: năm Sáng thế theo truyền thống, 3761 TCN",
+   "used": "Chính thức tại Israel song song với lịch Gregory",
+   "note": "Năm và ngày được viết bằng chữ cái Hebrew (תשפ״ז = 787). Năm mới bắt đầu vào mùa thu, dịp Rosh Hashanah."
+  },
+  "islamic": {
+   "name": "Lịch Hồi giáo (Hijri)",
+   "region": "Ả Rập Xê Út",
+   "type": "Âm lịch (không có tháng nhuận)",
+   "epoch": "Hijra, cuộc di cư của Muhammad đến Medina, năm 622",
+   "used": "Dùng cho tôn giáo trên toàn thế giới; dân sự tại Ả Rập Xê Út (bảng Umm al-Qura)",
+   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm.",
+   "year": "{n} Hijri"
+  },
+  "persian": {
+   "name": "Lịch Hijri dương lịch",
+   "region": "Iran · Afghanistan",
+   "type": "Dương lịch (thiên văn)",
+   "epoch": "Hijra, năm 622, tính theo năm dương lịch",
+   "used": "Chính thức tại Iran từ năm 1925 và tại Afghanistan",
+   "note": "Năm bắt đầu đúng vào thời khắc xuân phân tháng 3 (Nowruz), khiến đây là một trong những bộ lịch chính xác nhất đang được dùng.",
+   "year": "{n} Hijri dương lịch"
+  },
+  "indian": {
+   "name": "Lịch quốc gia Ấn Độ",
+   "region": "Ấn Độ",
+   "type": "Dương lịch",
+   "epoch": "Kỷ nguyên Saka, năm 78",
+   "used": "Chính thức từ năm 1957, song song với lịch Gregory",
+   "note": "Một bộ lịch cố định đã được cải cách. Các lễ hội vẫn theo nhiều bộ âm dương lịch Hindu của từng vùng.",
+   "year": "Saka {n}"
+  },
+  "bengali": {
+   "name": "Lịch Bengal (Bangabda)",
+   "region": "Bangladesh",
+   "type": "Dương lịch (quy tắc cố định)",
+   "epoch": "Bangabda, năm 593",
+   "used": "Chính thức tại Bangladesh; hiển thị theo bản sửa đổi năm 2019",
+   "note": "Năm mới, Pohela Boishakh, cố định vào ngày 14 tháng 4. Bang Tây Bengal của Ấn Độ giữ một phiên bản thiên văn cũ hơn, nên ngày ở đó có thể lệch một ngày.",
+   "year": "{n} Bangabda"
+  },
+  "ethiopic": {
+   "name": "Lịch Ethiopia",
+   "region": "Ethiopia · Eritrea",
+   "type": "Dương lịch: 12 tháng 30 ngày + tháng thứ 13 có 5–6 ngày",
+   "epoch": "Kỷ nguyên Nhập thể, năm 8 theo lịch Gregory",
+   "used": "Chính thức tại Ethiopia",
+   "note": "Chậm hơn năm dương lịch bảy hoặc tám năm; năm mới (Enkutatash) rơi vào ngày 11 tháng 9.",
+   "year": "{n} lịch Ethiopia"
+  },
+  "coptic": {
+   "name": "Lịch Copt",
+   "region": "Ai Cập",
+   "type": "Dương lịch: 12 × 30 ngày + 5–6 ngày bổ sung",
+   "epoch": "Kỷ nguyên Tử đạo, năm 284 (Diocletianus lên ngôi)",
+   "used": "Giáo hội Copt; nông dân Ai Cập vẫn gieo trồng theo các tháng của lịch này",
+   "note": "Hậu duệ trực tiếp của lịch dân sự Ai Cập cổ đại, có thêm ngày nhuận.",
+   "year": "{n} kỷ nguyên Tử đạo"
+  },
+  "julian": {
+   "name": "Lịch Julius (lịch cũ)",
+   "region": "Giáo hội Chính thống giáo Nga",
+   "type": "Dương lịch",
+   "epoch": "Công nguyên",
+   "used": "Dân sự tại Nga đến năm 1918; ngày nay là lịch phụng vụ",
+   "note": "Hiện chậm hơn lịch Gregory 13 ngày, vì thế Giáng sinh của Chính thống giáo Nga rơi vào ngày 7 tháng 1.",
+   "year": "{n} (lịch cũ)"
+  },
+  "amazigh": {
+   "name": "Lịch Amazigh (Berber)",
+   "region": "Maroc · Algérie",
+   "type": "Dương lịch (tháng theo lịch Julius)",
+   "epoch": "Pharaoh Shoshenq I lên ngôi, 950 TCN",
+   "used": "Lịch nông nghiệp; Yennayer là ngày nghỉ lễ tại Algérie (2018) và Maroc (2024)",
+   "note": "Giữ độ dài tháng của lịch Julius, nên ngày 1 Yennayer hiện rơi vào 14 tháng 1. Cách đếm năm được đề xuất năm 1980."
+  },
+  "yuan": {
+   "name": "Niên hiệu nhà Nguyên: Chí Chính",
+   "region": "Trung Quốc thời Nguyên (Thượng Đô)",
+   "type": "Âm dương lịch, năm theo niên hiệu",
+   "epoch": "Chí Chính 1 = 1341, Nguyên Huệ Tông (Thoát Hoan Thiếp Mộc Nhĩ)",
+   "used": "1341–1368, niên hiệu cuối cùng của nhà Nguyên tại Trung Quốc",
+   "note": "Lịch Thụ Thời (1281) của nhà thiên văn Quách Thủ Kính thời Nguyên dùng năm dài 365,2425 ngày — đúng giá trị của lịch Gregory, sớm hơn Grêgôriô 300 năm. Tháng ở đây theo âm lịch Trung Quốc ngày nay.",
+   "year": "Chí Chính thứ {n}"
+  },
+  "ming": {
+   "name": "Niên hiệu nhà Minh: Sùng Trinh",
+   "region": "Bắc Kinh",
+   "type": "Âm dương lịch, năm theo niên hiệu",
+   "epoch": "Sùng Trinh 1 = 1628, niên hiệu cuối cùng của nhà Minh tại Bắc Kinh",
+   "used": "1628–1644; nhà Triều Tiên vẫn đếm năm “sau Sùng Trinh” suốt hơn hai thế kỷ",
+   "note": "Tháng và ngày theo âm lịch Trung Quốc ngày nay. Nhà Minh dùng quy tắc lịch Đại Thống cũ hơn, có thể đặt tháng nhuận khác đi.",
+   "year": "Sùng Trinh thứ {n}"
+  },
+  "qing": {
+   "name": "Niên hiệu nhà Thanh: Tuyên Thống",
+   "region": "Trung Quốc thời Thanh",
+   "type": "Âm dương lịch, năm theo niên hiệu",
+   "epoch": "Tuyên Thống 1 = 1909, triều Phổ Nghi",
+   "used": "1909–1912, niên hiệu hoàng đế cuối cùng của Trung Quốc",
+   "note": "Phổ Nghi thoái vị năm Tuyên Thống thứ 3; triều đình trong Tử Cấm Thành vẫn dùng niên hiệu này đến năm 1924.",
+   "year": "Tuyên Thống thứ {n}"
+  },
+  "korean_empire": {
+   "name": "Niên hiệu Đại Hàn Đế quốc: Long Hy",
+   "region": "Seoul",
+   "type": "Tháng dương lịch, năm theo niên hiệu",
+   "epoch": "Long Hy 1 = 1907, Hoàng đế Thuần Tông",
+   "used": "3 tháng 8 năm 1907 – 29 tháng 8 năm 1910, niên hiệu cuối cùng của Triều Tiên",
+   "note": "Triều Tiên chuyển sang dương lịch ngày 1 tháng 1 năm 1896 (niên hiệu Kiến Dương, “dùng lịch mặt trời”), nên ngày tháng thời Đại Hàn Đế quốc theo lịch Gregory, không phải âm lịch.",
+   "year": "Long Hy thứ {n}"
+  },
+  "joseon": {
+   "name": "Nhà Triều Tiên: kỷ nguyên Khai quốc",
+   "region": "Triều Tiên thời Joseon",
+   "type": "Âm dương lịch, năm tính từ khi lập triều",
+   "epoch": "Lập nước Triều Tiên, 1392 = Khai quốc 1",
+   "used": "Chính thức 1894–1895 (Cải cách Giáp Ngọ); trước đó Triều Tiên dùng niên hiệu nhà Minh, rồi nhà Thanh",
+   "note": "Triều Tiên dùng âm dương lịch kiểu Trung Quốc (lịch Thời Hiến) cho đến khi chuyển sang dương lịch ngày 1 tháng 1 năm 1896.",
+   "year": "Khai quốc thứ {n}"
+  },
+  "nguyen": {
+   "name": "Niên hiệu nhà Nguyễn: Bảo Đại",
+   "region": "Huế, Việt Nam",
+   "type": "Âm dương lịch, năm theo niên hiệu",
+   "epoch": "Bảo Đại 1 = 1926",
+   "used": "1926–1945, niên hiệu cuối cùng của triều đại cuối cùng ở Việt Nam",
+   "note": "Hiển thị theo tháng âm lịch Trung Quốc; âm lịch Việt Nam tính theo múi giờ UTC+7 nên đôi khi lệch một ngày.",
+   "year": "Bảo Đại thứ {n}"
+  },
+  "koki": {
+   "name": "Hoàng kỷ Nhật Bản (Kōki)",
+   "region": "Nhật Bản",
+   "type": "Tháng dương lịch, năm tính từ khi lập quốc",
+   "epoch": "Thiên hoàng Jimmu lên ngôi theo truyền thuyết, 660 TCN",
+   "used": "Dùng chính thức 1872–1945; máy bay tiêm kích Zero được đặt tên theo năm 2600 (1940)",
+   "note": "Năm = năm dương lịch + 660.",
+   "year": "Hoàng kỷ {n}"
+  },
+  "rattanakosin": {
+   "name": "Kỷ nguyên Rattanakosin",
+   "region": "Xiêm (Thái Lan)",
+   "type": "Dương lịch, năm tính từ khi lập Bangkok",
+   "epoch": "Thành lập Bangkok, 1782",
+   "used": "1889–1912, dưới triều vua Chulalongkorn và Vajiravudh",
+   "note": "Năm bắt đầu vào ngày 1 tháng 4, như năm của Thái Lan cho đến năm 1941.",
+   "year": "Rattanakosin {n}"
+  },
+  "iran_imperial": {
+   "name": "Lịch Đế quốc Iran",
+   "region": "Tehran",
+   "type": "Dương lịch (tháng theo lịch Hijri dương lịch)",
+   "epoch": "Cyrus Đại đế lên ngôi, 559 TCN",
+   "used": "Chỉ từ tháng 3 năm 1976 đến tháng 8 năm 1978",
+   "note": "Vua Shah đổi kỷ nguyên Hồi giáo sang kỷ nguyên quân chủ chỉ sau một đêm (1355 → 2535); hai năm sau thì bị bãi bỏ.",
+   "year": "{n} lịch Đế quốc"
+  },
+  "french_rep": {
+   "name": "Lịch Cộng hòa Pháp",
+   "region": "Pháp",
+   "type": "Dương lịch: 12 tháng gồm ba tuần 10 ngày + 5–6 ngày lễ",
+   "epoch": "Tuyên bố thành lập nền Cộng hòa, 22 tháng 9 năm 1792",
+   "used": "1793–1805, và 18 ngày thời Công xã Paris năm 1871",
+   "note": "Tên tháng đặt theo thời tiết (Brumaire = sương mù, Thermidor = nóng). Năm nhuận sau năm thứ 20 theo quy tắc do Romme đề xuất.",
+   "year": "thứ {n} của nền Cộng hòa"
+  },
+  "egyptian": {
+   "name": "Lịch dân sự Ai Cập cổ đại",
+   "region": "Ai Cập (Thebes)",
+   "type": "Dương lịch, 365 ngày không có ngày nhuận: 3 mùa × 4 tháng 30 ngày + 5 ngày bổ sung",
+   "epoch": "Kỷ nguyên Nabonassar, 747 TCN, như trong thiên văn học của Ptolemy",
+   "used": "Từ đầu thiên niên kỷ 3 TCN; người Ai Cập tự đếm năm theo triều vua",
+   "note": "Vì không có ngày nhuận, lịch lệch một ngày so với các mùa sau mỗi bốn năm, và trở lại sau khoảng 1.460 năm (chu kỳ Sothis). Ba mùa là Akhet (lũ), Peret (sinh trưởng) và Shemu (thu hoạch).",
+   "year": "Nabonassar {n}"
+  },
+  "roman": {
+   "name": "Lịch La Mã (AUC)",
+   "region": "Roma",
+   "type": "Dương lịch (Julius), đếm ngược từ Kalendae, Nonae và Idus",
+   "epoch": "Ab urbe condita: thành Roma được xây dựng, 753 TCN",
+   "used": "Lịch Julius từ năm 45 TCN; số năm AUC chủ yếu là cách đếm của học giả",
+   "note": "Người La Mã đếm ngược đến mốc kế tiếp, tính cả hai đầu: “a.d. III Non. Oct.” là ngày thứ ba trước Nonae tháng 10.",
+   "year": "{n} AUC"
+  },
+  "byzantine": {
+   "name": "Lịch Byzantine",
+   "region": "Constantinopolis",
+   "type": "Dương lịch (Julius), năm bắt đầu từ 1 tháng 9",
+   "epoch": "Sáng thế, 5509 TCN",
+   "used": "Chính thức tại Đế quốc Byzantine 988–1453; tại Nga đến năm 1700",
+   "note": "Năm được viết bằng chữ cái Hy Lạp: ͵ζφλεʹ = 7535.",
+   "year": "{n} kể từ Sáng thế"
+  },
+  "aztec": {
+   "name": "Lịch đếm ngày Aztec (tonalpohualli)",
+   "region": "Tenochtitlan (Thành phố Mexico)",
+   "type": "Chu kỳ nghi lễ 260 ngày: 13 con số × 20 ký hiệu ngày",
+   "epoch": "Không có năm 1: chu kỳ lặp vô tận; năm được đặt tên theo vòng 52 năm",
+   "used": "Miền trung Mexico đến khi Tây Ban Nha chinh phục (1521); cùng chu kỳ 260 ngày với Tzolk’in của người Maya",
+   "note": "Tenochtitlan thất thủ vào ngày 1 Coatl (1 Rắn), 13 tháng 8 năm 1521 lịch Julius — mốc của phép đối chiếu Caso dùng ở đây. Năm 365 ngày bắt đầu vào ngày nào vẫn còn tranh cãi, nên chỉ hiển thị ký hiệu ngày."
+  },
+  "maya": {
+   "name": "Lịch Đếm dài Maya",
+   "region": "Vùng Maya (Tikal)",
+   "type": "Đếm ngày + Tzolk’in 260 ngày + Haab’ 365 ngày",
+   "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 tháng 8 năm 3114 TCN (đối chiếu GMT)",
+   "used": "Văn khắc Maya thời Cổ điển, khoảng năm 250–909; chu kỳ 260 ngày vẫn được giữ ở vùng cao nguyên Guatemala",
+   "note": "Một b’ak’tun mới bắt đầu ngày 21 tháng 12 năm 2012 — “ngày tận thế” đã không xảy ra."
+  }
+ }
+};

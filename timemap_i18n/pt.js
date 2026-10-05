@@ -1,0 +1,556 @@
+/* timemap_i18n/pt.js — TimeMap strings for UI language "pt".
+ * Same shape as EN in timemap_calendars.js; any missing key falls back to English. */
+window.TM_I18N = window.TM_I18N || {};
+window.TM_I18N["pt"] = {
+ "intlLocale": "pt-BR",
+ "gannen": false,
+ "ui": {
+  "title": "Mapa de calendários",
+  "tagline": "Um dia nos calendários do mundo — e nos que pararam de contar.",
+  "today": "Hoje",
+  "prevDay": "Dia anterior",
+  "nextDay": "Próximo dia",
+  "details": "Detalhes",
+  "fCurrent": "Em uso",
+  "fHist": "Históricos",
+  "fGreg": "Gregoriano",
+  "hCurrent": "Em uso hoje",
+  "hHist": "Se tivessem continuado a contar",
+  "hGreg": "Calendário gregoriano",
+  "subHist": "Estes calendários foram abandonados. A data mostra o que marcariam hoje.",
+  "subGreg": "O padrão mundial, mostrado em seu local de origem e em alguns países.",
+  "notYet": "Ainda não usado nesta data",
+  "type": "Tipo",
+  "epoch": "Ano 1",
+  "used": "Em uso",
+  "ended": "Terminou em {n} — contagem continuada",
+  "simpleDisplay": "Exibição simples",
+  "settings": "Configurações",
+  "fontSize": "Tamanho da fonte",
+  "navOrder": "Ordem das palavras",
+  "navWord": "Mapa de palavras",
+  "navHan": "Mapa de hanzi",
+  "navName": "Mapa de nomes",
+  "navTime": "Mapa de calendários",
+  "navTree": "Árvore"
+ },
+ "dateFmt": "{d} de {month} {y}",
+ "yearDefault": "de {n}",
+ "lunarMonth": "mês {m}",
+ "leapMonth": "mês intercalar {m}",
+ "lunarFmt": "dia {d} do {month} {y}",
+ "dayName": "{name} {y}",
+ "signFmt": "{num} {name}",
+ "months": {
+  "gregorian": [
+   "janeiro",
+   "fevereiro",
+   "março",
+   "abril",
+   "maio",
+   "junho",
+   "julho",
+   "agosto",
+   "setembro",
+   "outubro",
+   "novembro",
+   "dezembro"
+  ],
+  "hebrew": [
+   "tishrei",
+   "cheshvan",
+   "kislev",
+   "tevet",
+   "shevat",
+   "adar I",
+   "adar",
+   "adar II",
+   "nissan",
+   "iyar",
+   "sivan",
+   "tamuz",
+   "av",
+   "elul"
+  ],
+  "islamic": [
+   "muharram",
+   "safar",
+   "rabi al-awwal",
+   "rabi al-thani",
+   "jumada al-awwal",
+   "jumada al-thani",
+   "rajab",
+   "shaban",
+   "ramadã",
+   "shawwal",
+   "dhu al-qadah",
+   "dhu al-hijjah"
+  ],
+  "persian": [
+   "farvardin",
+   "ordibehesht",
+   "khordad",
+   "tir",
+   "mordad",
+   "shahrivar",
+   "mehr",
+   "aban",
+   "azar",
+   "dey",
+   "bahman",
+   "esfand"
+  ],
+  "indian": [
+   "chaitra",
+   "vaishakha",
+   "jyeshtha",
+   "ashadha",
+   "shravana",
+   "bhadra",
+   "ashvin",
+   "kartika",
+   "agrahayana",
+   "pausha",
+   "magha",
+   "phalguna"
+  ],
+  "bengali": [
+   "boishakh",
+   "joishtho",
+   "asharh",
+   "srabon",
+   "bhadro",
+   "ashwin",
+   "kartik",
+   "ogrohayon",
+   "poush",
+   "magh",
+   "falgun",
+   "choitro"
+  ],
+  "ethiopic": [
+   "meskerem",
+   "tikimt",
+   "hidar",
+   "tahsas",
+   "tir",
+   "yekatit",
+   "megabit",
+   "miyazia",
+   "ginbot",
+   "sene",
+   "hamle",
+   "nehase",
+   "pagume"
+  ],
+  "coptic": [
+   "tout",
+   "paopi",
+   "hathor",
+   "koiak",
+   "tobi",
+   "meshir",
+   "paremhat",
+   "parmouti",
+   "pashons",
+   "paoni",
+   "epip",
+   "mesori",
+   "pi kogi enavot"
+  ],
+  "amazigh": [
+   "yennayer",
+   "furar",
+   "meɣres",
+   "yebrir",
+   "mayyu",
+   "yunyu",
+   "yulyu",
+   "ɣuct",
+   "ctembeṛ",
+   "tubeṛ",
+   "wambeṛ",
+   "dujembeṛ"
+  ],
+  "french": [
+   "vindemiário",
+   "brumário",
+   "frimário",
+   "nivoso",
+   "pluvioso",
+   "ventoso",
+   "germinal",
+   "floreal",
+   "prairial",
+   "messidor",
+   "termidor",
+   "frutidor"
+  ],
+  "frenchSans": [
+   "Dia da Virtude",
+   "Dia do Gênio",
+   "Dia do Trabalho",
+   "Dia da Opinião",
+   "Dia das Recompensas",
+   "Dia da Revolução"
+  ],
+  "egyptian": [
+   "tot",
+   "paofi",
+   "hatir",
+   "coiak",
+   "tibi",
+   "mequir",
+   "famenot",
+   "farmuti",
+   "pacons",
+   "paini",
+   "epifi",
+   "mesore",
+   "epagômenos"
+  ],
+  "aztec": [
+   "Crocodilo",
+   "Vento",
+   "Casa",
+   "Lagarto",
+   "Serpente",
+   "Morte",
+   "Veado",
+   "Coelho",
+   "Água",
+   "Cão",
+   "Macaco",
+   "Erva",
+   "Junco",
+   "Jaguar",
+   "Águia",
+   "Urubu",
+   "Movimento",
+   "Pederneira",
+   "Chuva",
+   "Flor"
+  ],
+  "zodiac": [
+   "Rato",
+   "Boi",
+   "Tigre",
+   "Coelho",
+   "Dragão",
+   "Serpente",
+   "Cavalo",
+   "Cabra",
+   "Macaco",
+   "Galo",
+   "Cão",
+   "Porco"
+  ]
+ },
+ "eras": {
+  "Meiji": "Meiji",
+  "Taishō": "Taishō",
+  "Shōwa": "Shōwa",
+  "Heisei": "Heisei",
+  "Reiwa": "Reiwa"
+ },
+ "cal": {
+  "greg_va": {
+   "name": "Calendário gregoriano (origem)",
+   "region": "Cidade do Vaticano / Roma",
+   "type": "Solar",
+   "epoch": "Anno Domini — o ano tradicional do nascimento de Cristo",
+   "used": "Desde 15 de outubro de 1582 (bula Inter gravissimas, papa Gregório XIII)",
+   "note": "Corrigiu o desvio do calendário juliano pulando 10 dias (4 de outubro de 1582 foi seguido por 15 de outubro) e eliminando três dias bissextos a cada 400 anos."
+  },
+  "greg_uk": {
+   "name": "Calendário gregoriano",
+   "region": "Reino Unido",
+   "type": "Solar",
+   "epoch": "Anno Domini",
+   "used": "Desde 14 de setembro de 1752 (os dias 3 a 13 de setembro de 1752 nunca existiram)",
+   "note": "A Grã-Bretanha e suas colônias mudaram 170 anos depois de Roma; a mesma lei transferiu o Ano-Novo de 25 de março para 1º de janeiro."
+  },
+  "greg_us": {
+   "name": "Calendário gregoriano",
+   "region": "Estados Unidos",
+   "type": "Solar",
+   "epoch": "Anno Domini",
+   "used": "Desde 1752, como colônias britânicas",
+   "note": "O mesmo calendário da Grã-Bretanha, escrito com o mês primeiro: 10/5 é 5 de outubro nos EUA e 10 de maio no Reino Unido."
+  },
+  "greg_jp": {
+   "name": "Calendário gregoriano",
+   "region": "Japão",
+   "type": "Solar",
+   "epoch": "Anno Domini",
+   "used": "Desde 1º de janeiro de 1873 (Meiji 6), substituindo o calendário lunissolar Tenpō",
+   "note": "O Japão mudou da noite para o dia: 3 de dezembro de Meiji 5 virou 1º de janeiro de Meiji 6. Os nomes de era (令和) ainda são usados junto com o ano ocidental."
+  },
+  "japanese": {
+   "name": "Era japonesa (gengō)",
+   "region": "Japão",
+   "type": "Meses gregorianos, anos de era imperial",
+   "epoch": "Ascensão do imperador atual (Reiwa 1 = 2019)",
+   "used": "Desde 645 (Taika); uma era por reinado desde 1868",
+   "note": "Usado em formulários oficiais, moedas e jornais. O primeiro ano de uma era é escrito 元年 (gannen), não 1年.",
+   "year": "do ano {n} da era {era}"
+  },
+  "roc": {
+   "name": "Calendário Minguo",
+   "region": "Taiwan",
+   "type": "Meses gregorianos, anos da era republicana",
+   "epoch": "Fundação da República da China, 1912",
+   "used": "Desde 1912; oficial em Taiwan",
+   "note": "Ano = ano ocidental − 1911. Acompanha o ano Juche da Coreia do Norte.",
+   "year": "do ano {n} da era Minguo"
+  },
+  "juche": {
+   "name": "Calendário Juche",
+   "region": "Coreia do Norte",
+   "type": "Meses gregorianos, anos Juche",
+   "epoch": "Nascimento de Kim Il-sung, 1912",
+   "used": "Desde 1997",
+   "note": "Escrito com o ano ocidental entre parênteses: 주체115(2026)년.",
+   "year": "do ano {n} da era Juche"
+  },
+  "buddhist": {
+   "name": "Calendário solar tailandês",
+   "region": "Tailândia",
+   "type": "Solar, anos da era budista",
+   "epoch": "Era budista: o parinirvana do Buda, 543 a.C. pela contagem tailandesa",
+   "used": "Oficial desde 1912 (ano da era budista), com 1º de janeiro como Ano-Novo desde 1941",
+   "note": "Ano = ano ocidental + 543. Sri Lanka, Mianmar e Camboja contam a era budista com um ano de diferença da Tailândia.",
+   "year": "do ano {n} da era budista"
+  },
+  "chinese": {
+   "name": "Calendário lunissolar chinês",
+   "region": "China",
+   "type": "Lunissolar",
+   "epoch": "Sem contagem contínua de anos; os anos seguem um ciclo de 60 nomes de tronco e ramo",
+   "used": "Define a Festa da Primavera, o Festival do Meio do Outono e outros feriados",
+   "note": "Os meses começam na lua nova em Pequim; um mês intercalar é acrescentado cerca de 7 vezes a cada 19 anos.",
+   "year": "do ano {gzPy} ({animal})"
+  },
+  "dangi": {
+   "name": "Calendário lunissolar coreano",
+   "region": "Coreia do Sul",
+   "type": "Lunissolar",
+   "epoch": "Sem contagem contínua de anos; ciclo de 60 anos",
+   "used": "Define o Seollal e o Chuseok",
+   "note": "As mesmas regras do calendário chinês, mas calculadas para o horário da Coreia, então uma lua nova perto da meia-noite pode fazer o mês começar com um dia de diferença.",
+   "year": "do ano {gzPy} ({animal})"
+  },
+  "hebrew": {
+   "name": "Calendário hebraico",
+   "region": "Israel",
+   "type": "Lunissolar",
+   "epoch": "Anno Mundi: a data tradicional da Criação, 3761 a.C.",
+   "used": "Oficial em Israel junto com o calendário gregoriano",
+   "note": "Anos e dias são escritos com letras hebraicas (תשפ״ז = 787). O ano começa no outono, em Rosh Hashaná."
+  },
+  "islamic": {
+   "name": "Calendário islâmico (hegírico)",
+   "region": "Arábia Saudita",
+   "type": "Lunar (sem mês intercalar)",
+   "epoch": "A Hégira, a mudança de Maomé para Medina, 622 d.C.",
+   "used": "Uso religioso no mundo todo; civil na Arábia Saudita (tabelas de Umm al-Qura)",
+   "note": "Um ano tem cerca de 354 dias, então o Ramadã chega cerca de 11 dias mais cedo a cada ano ocidental e percorre todas as estações em 33 anos.",
+   "year": "do ano {n} da Hégira"
+  },
+  "persian": {
+   "name": "Calendário hegírico solar",
+   "region": "Irã · Afeganistão",
+   "type": "Solar (astronômico)",
+   "epoch": "A Hégira, 622 d.C., contada em anos solares",
+   "used": "Oficial no Irã desde 1925 e no Afeganistão",
+   "note": "O ano começa no momento exato do equinócio de março (Nowruz), o que o torna um dos calendários mais precisos em uso.",
+   "year": "do ano {n} da Hégira solar"
+  },
+  "indian": {
+   "name": "Calendário nacional indiano",
+   "region": "Índia",
+   "type": "Solar",
+   "epoch": "Era Saka, 78 d.C.",
+   "used": "Oficial desde 1957, ao lado do calendário gregoriano",
+   "note": "Um calendário reformado e fixo. As festas ainda seguem os muitos calendários lunissolares hindus regionais.",
+   "year": "do ano {n} da era Saka"
+  },
+  "bengali": {
+   "name": "Calendário bengali (Bangabda)",
+   "region": "Bangladesh",
+   "type": "Solar (regras fixas)",
+   "epoch": "Bangabda, 593 d.C.",
+   "used": "Oficial em Bangladesh; é mostrada a revisão de 2019",
+   "note": "O Ano-Novo, Pohela Boishakh, é fixado em 14 de abril. Bengala Ocidental, na Índia, mantém uma versão astronômica mais antiga, então as datas lá podem diferir em um dia.",
+   "year": "do ano {n} da era bengali"
+  },
+  "ethiopic": {
+   "name": "Calendário etíope",
+   "region": "Etiópia · Eritreia",
+   "type": "Solar: 12 meses de 30 dias + um 13º de 5–6",
+   "epoch": "Era da Encarnação, 8 d.C. pela contagem gregoriana",
+   "used": "Oficial na Etiópia",
+   "note": "Sete ou oito anos atrás da contagem ocidental; o Ano-Novo (Enkutatash) cai em 11 de setembro.",
+   "year": "do ano {n} etíope"
+  },
+  "coptic": {
+   "name": "Calendário copta",
+   "region": "Egito",
+   "type": "Solar: 12 × 30 dias + 5–6 dias epagômenos",
+   "epoch": "Era dos Mártires, 284 d.C. (ascensão de Diocleciano)",
+   "used": "Igreja copta; agricultores egípcios ainda semeiam pelos seus meses",
+   "note": "Herdeiro direto do antigo calendário civil egípcio, com um dia bissexto acrescentado.",
+   "year": "do ano {n} dos Mártires"
+  },
+  "julian": {
+   "name": "Calendário juliano (estilo antigo)",
+   "region": "Igreja Ortodoxa Russa",
+   "type": "Solar",
+   "epoch": "Anno Domini",
+   "used": "Civil na Rússia até 1918; hoje, calendário eclesiástico",
+   "note": "Hoje está 13 dias atrás do calendário gregoriano, e é por isso que o Natal ortodoxo russo cai em 7 de janeiro.",
+   "year": "de {n} (estilo antigo)"
+  },
+  "amazigh": {
+   "name": "Calendário amazigue (berbere)",
+   "region": "Marrocos · Argélia",
+   "type": "Solar (meses julianos)",
+   "epoch": "Ascensão do faraó Sheshonq I, 950 a.C.",
+   "used": "Calendário agrícola; o Yennayer é feriado na Argélia (2018) e no Marrocos (2024)",
+   "note": "Mantém a duração dos meses julianos, então 1º de yennayer cai hoje em 14 de janeiro. A contagem de anos foi proposta em 1980."
+  },
+  "yuan": {
+   "name": "Era da dinastia Yuan: Zhizheng",
+   "region": "China Yuan (Shangdu)",
+   "type": "Lunissolar, anos de era imperial",
+   "epoch": "Zhizheng 1 = 1341, imperador Huizong (Toghon Temür)",
+   "used": "1341–1368, a última era Yuan na China",
+   "note": "O calendário Shoushi (1281), do astrônomo Yuan Guo Shoujing, usava um ano de 365,2425 dias — o valor gregoriano, 300 anos antes de Gregório. Aqui os meses seguem o calendário chinês atual.",
+   "year": "do ano {n} da era Zhizheng"
+  },
+  "ming": {
+   "name": "Era da dinastia Ming: Chongzhen",
+   "region": "Pequim",
+   "type": "Lunissolar, anos de era imperial",
+   "epoch": "Chongzhen 1 = 1628, a última era Ming em Pequim",
+   "used": "1628–1644; a Coreia Joseon continuou contando os anos “depois de Chongzhen” por mais de dois séculos",
+   "note": "Mês e dia seguem o calendário chinês atual. Os Ming usavam as antigas regras Datong, que podiam colocar um mês intercalar em outra posição.",
+   "year": "do ano {n} da era Chongzhen"
+  },
+  "qing": {
+   "name": "Era da dinastia Qing: Xuantong",
+   "region": "China Qing",
+   "type": "Lunissolar, anos de era imperial",
+   "epoch": "Xuantong 1 = 1909, reinado de Puyi",
+   "used": "1909–1912, a última era imperial da China",
+   "note": "Puyi abdicou em Xuantong 3; a corte dentro da Cidade Proibida continuou usando a era até 1924.",
+   "year": "do ano {n} da era Xuantong"
+  },
+  "korean_empire": {
+   "name": "Era do Império Coreano: Yunghui",
+   "region": "Seul",
+   "type": "Meses gregorianos, anos de era imperial",
+   "epoch": "Yunghui 1 = 1907, imperador Sunjong",
+   "used": "De 3 de agosto de 1907 a 29 de agosto de 1910, o último nome de era coreano",
+   "note": "A Coreia adotou o calendário solar em 1º de janeiro de 1896 (era Geonyang, “adotar o sol”), então as datas do Império Coreano são gregorianas, não lunares.",
+   "year": "do ano {n} da era Yunghui"
+  },
+  "joseon": {
+   "name": "Dinastia Joseon: era da fundação (Gaeguk)",
+   "region": "Coreia Joseon",
+   "type": "Lunissolar, anos desde a fundação da dinastia",
+   "epoch": "Fundação de Joseon, 1392 = Gaeguk 1",
+   "used": "Oficial em 1894–1895 (Reforma Gabo); antes disso, Joseon datava pelos nomes de era Ming e depois Qing",
+   "note": "Joseon manteve o calendário lunissolar de estilo chinês (Siheon-ryeok) até a Coreia adotar o calendário solar em 1º de janeiro de 1896.",
+   "year": "do ano {n} da era Gaeguk"
+  },
+  "nguyen": {
+   "name": "Era da dinastia Nguyễn: Bảo Đại",
+   "region": "Huế, Vietnã",
+   "type": "Lunissolar, anos de era imperial",
+   "epoch": "Bảo Đại 1 = 1926",
+   "used": "1926–1945, a última era da última dinastia do Vietnã",
+   "note": "Mostrado com os meses do calendário chinês; o calendário lunar do próprio Vietnã é calculado para UTC+7 e às vezes difere em um dia.",
+   "year": "do ano {n} da era Bảo Đại"
+  },
+  "koki": {
+   "name": "Ano imperial japonês (Kōki)",
+   "region": "Japão",
+   "type": "Meses gregorianos, anos desde a fundação imperial",
+   "epoch": "Ascensão lendária do imperador Jimmu, 660 a.C.",
+   "used": "Uso oficial de 1872 a 1945; o caça Zero tem esse nome por causa do ano 2600 (1940)",
+   "note": "Ano = ano ocidental + 660.",
+   "year": "do ano {n} da era Kōki"
+  },
+  "rattanakosin": {
+   "name": "Era Rattanakosin",
+   "region": "Sião (Tailândia)",
+   "type": "Solar, anos desde a fundação de Bangkok",
+   "epoch": "Fundação de Bangkok, 1782",
+   "used": "1889–1912, sob os reis Chulalongkorn e Vajiravudh",
+   "note": "O ano começava em 1º de abril, como os anos tailandeses até 1941.",
+   "year": "do ano {n} da era Rattanakosin"
+  },
+  "iran_imperial": {
+   "name": "Calendário imperial iraniano",
+   "region": "Teerã",
+   "type": "Solar (meses do calendário hegírico solar)",
+   "epoch": "Ascensão de Ciro, o Grande, 559 a.C.",
+   "used": "Apenas de março de 1976 a agosto de 1978",
+   "note": "O xá trocou da noite para o dia a época islâmica por uma monárquica (1355 → 2535); a mudança foi revertida dois anos depois.",
+   "year": "do ano {n} imperial"
+  },
+  "french_rep": {
+   "name": "Calendário republicano francês",
+   "region": "França",
+   "type": "Solar: 12 meses de três semanas de 10 dias + 5–6 dias de festa",
+   "epoch": "Proclamação da República, 22 de setembro de 1792",
+   "used": "1793–1805, e 18 dias na Comuna de Paris de 1871",
+   "note": "Os meses têm nomes ligados ao clima (brumário = neblina, termidor = calor). Os anos bissextos após o ano 20 seguem a regra proposta por Romme.",
+   "year": "do ano {n} da República"
+  },
+  "egyptian": {
+   "name": "Calendário civil do Antigo Egito",
+   "region": "Egito (Tebas)",
+   "type": "Solar, 365 dias sem dia bissexto: 3 estações × 4 meses de 30 dias + 5 dias extras",
+   "epoch": "Era de Nabonassar, 747 a.C., usada na astronomia de Ptolomeu",
+   "used": "Desde o início do 3º milênio a.C.; os próprios egípcios contavam os anos pelo reinado do rei",
+   "note": "Sem dia bissexto, ele se desloca um dia a cada quatro anos em relação às estações e volta a coincidir após cerca de 1.460 anos (o ciclo sotíaco). As estações são Akhet (cheia), Peret (crescimento) e Shemu (colheita).",
+   "year": "do ano {n} de Nabonassar"
+  },
+  "roman": {
+   "name": "Calendário romano (AUC)",
+   "region": "Roma",
+   "type": "Solar (juliano), contado regressivamente a partir das calendas, nonas e idos",
+   "epoch": "Ab urbe condita: fundação de Roma, 753 a.C.",
+   "used": "Calendário juliano a partir de 45 a.C.; os anos AUC eram sobretudo uma contagem de estudiosos",
+   "note": "Os romanos contavam os dias até o marco seguinte, de forma inclusiva: “a.d. III Non. Oct.” é o terceiro dia antes das nonas de outubro.",
+   "year": "do ano {n} AUC"
+  },
+  "byzantine": {
+   "name": "Calendário bizantino",
+   "region": "Constantinopla",
+   "type": "Solar (juliano), ano a partir de 1º de setembro",
+   "epoch": "Criação do mundo, 5509 a.C.",
+   "used": "Oficial no Império Bizantino de 988 a 1453; na Rússia até 1700",
+   "note": "Os anos são escritos com letras gregas: ͵ζφλεʹ = 7535.",
+   "year": "do ano {n} do mundo"
+  },
+  "aztec": {
+   "name": "Contagem de dias asteca (tonalpohualli)",
+   "region": "Tenochtitlán (Cidade do México)",
+   "type": "Contagem ritual de 260 dias: 13 números × 20 signos de dia",
+   "epoch": "Sem ano 1: a contagem se repete sem fim; os anos eram nomeados num ciclo de 52 anos",
+   "used": "México central até a conquista espanhola (1521); a mesma contagem de 260 dias do Tzolk’in maia",
+   "note": "Tenochtitlán caiu em 1 Coatl (1 Serpente), 13 de agosto de 1521 juliano — a âncora da correlação de Caso usada aqui. Ainda se discute em que dia começava o ano de 365 dias, por isso só o signo do dia é mostrado."
+  },
+  "maya": {
+   "name": "Contagem longa maia",
+   "region": "Área maia (Tikal)",
+   "type": "Contagem de dias + Tzolk’in de 260 dias + Haab’ de 365 dias",
+   "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 de agosto de 3114 a.C. (correlação GMT)",
+   "used": "Inscrições maias do período clássico, cerca de 250–909 d.C.; a contagem de 260 dias ainda é mantida no altiplano da Guatemala",
+   "note": "Um novo b’ak’tun começou em 21 de dezembro de 2012 — o “fim do mundo” que não aconteceu."
+  }
+ }
+};

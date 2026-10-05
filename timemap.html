@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LangMap — Time Map: Today's Date in the World's Calendars</title>
+    <meta name="description" content="Interactive world map of calendars: see any day in the Japanese era, Minguo, Thai Buddhist, Chinese lunisolar, Hebrew, Islamic, Persian, Ethiopian and more — plus Ming, Roman, Byzantine, French Republican and Maya calendars as if they had never stopped counting.">
+    <meta name="keywords" content="time map, world calendars, calendar converter, Japanese era, Reiwa, Minguo, Buddhist Era, Chinese calendar, Hebrew calendar, Hijri, Persian calendar, Ethiopian calendar, Maya Long Count, French Republican calendar, Roman calendar">
+    <meta name="author" content="Jounlai Cho, Heuron Inc.">
+    <meta property="og:title" content="LangMap — Time Map: Today in the World's Calendars">
+    <meta property="og:description" content="Reiwa 8, Minguo 115, 5787, 1448, 1405 — today's date in every calendar on one map, and what year it would be if the Ming dynasty had never fallen.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://langmaps.com/timemap.html">
+    <meta property="og:site_name" content="LangMap">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ja_JP">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="LangMap — Time Map: Today in the World's Calendars">
+    <meta name="twitter:description" content="Today's date in every calendar on one map — including ones that stopped counting centuries ago.">
+    <link rel="canonical" href="https://langmaps.com/timemap.html">
+    <link rel="icon" type="image/png" href="/langmap.png">
+    <link rel="apple-touch-icon" href="/langmap.png">
+    <link rel="manifest" href="/manifest.json">
+    <!-- CARTO key: see namemap.html. Missing, the map works with a watermark. -->
+    <script src="basemap_key.js"></script>
+    <meta name="theme-color" content="#0f766e">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Time Map: Today's Date in the World's Calendars",
+        "url": "https://langmaps.com/timemap.html",
+        "description": "Interactive world map showing any day in the world's current and historical calendars.",
+        "isPartOf": {"@id": "https://langmaps.com/#website"},
+        "inLanguage": ["en", "ja"]
+    }
+    </script>
+    <script>
+        // Production-only GA, same gate as the other pages.
+        if (['langmaps.com', 'www.langmaps.com', 'langmap.heuron.com']
+            .includes(location.hostname)) {
+            const s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
+            document.head.appendChild(s);
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-JZ7JJBCCHG');
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=134">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap">
+    <style>
+        /* ===== TimeMap layout — copied from NameMap so the maps look alike
+                 (header/nav/lang-picker/buttons come from styles.css) ===== */
+        html, body { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; height: 100dvh; margin: 0; padding: 0; overflow: hidden; }
+        body { background: #fff; display: flex; flex-direction: column; }
+        .site-header-bar { margin: 0 !important; flex: 0 0 auto; position: relative; z-index: 1100; }
+        .site-header-bar .logo-badge-time { background: #0f766e; }
+        :root { --tm-accent: #0f766e; --tm-accent-dark: #0b5a54; --tm-accent-tint: #e6f4f2; --tm-hist: #8a5a1c; }
+
+        .tm-script { font-family: 'Noto Sans','Noto Sans Hebrew','Noto Sans Arabic','Noto Sans Devanagari','Noto Sans Bengali','Noto Sans Ethiopic','Noto Sans Thai','Noto Serif JP','Noto Serif SC','Noto Serif KR', sans-serif; }
+
+        .tm-stage { flex: 1 1 auto; position: relative; min-height: 0; }
+        #map { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; height: 100dvh; background: #fff; z-index: 1; }
+
+        .tm-panel {
+            position: absolute; top: 10px; left: 10px; bottom: 26px; z-index: 800;
+            width: 350px; max-width: calc(100% - 20px);
+            display: flex; flex-direction: column; overflow: hidden;
+            background: rgba(255,255,255,0.9);
+            border: 1px solid rgba(0,0,0,0.08); border-radius: 14px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.22);
+            -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+        }
+        .tm-controls {
+            flex: 0 0 auto; padding: 11px 13px;
+            border-bottom: 1px solid rgba(0,0,0,0.08); background: rgba(250,251,252,0.5);
+        }
+        .tm-date-row { display: flex; gap: 6px; align-items: center; }
+        #tm-date {
+            flex: 1 1 auto; min-width: 0; font-size: 15px; padding: 6px 8px; border: 1px solid #d0d3dc;
+            border-radius: 6px; background: #fff; color: #1a1a2e; font-weight: 600; font-family: inherit;
+        }
+        .tm-step-btn, .tm-today-btn {
+            flex: 0 0 auto; height: 34px; min-width: 34px; border: 1px solid #d0d3dc; border-radius: 6px;
+            background: #fff; cursor: pointer; font-size: 15px; line-height: 1; color: #333; padding: 0 8px;
+        }
+        .tm-today-btn { font-size: 13px; font-weight: 600; color: var(--tm-accent-dark); }
+        .tm-step-btn:hover, .tm-today-btn:hover { background: var(--tm-accent-tint); border-color: var(--tm-accent); }
+        .tm-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+        .tm-chip {
+            display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600;
+            padding: 4px 10px; border-radius: 999px; border: 1px solid #d0d3dc; background: #fff;
+            color: #666; cursor: pointer; user-select: none;
+        }
+        .tm-chip[aria-pressed="true"] { background: var(--tm-accent-tint); border-color: var(--tm-accent); color: var(--tm-accent-dark); }
+        .tm-chip .dot { width: 8px; height: 8px; border-radius: 50%; }
+        .tm-dot-greg { background: #8a8f9c; }
+        .tm-dot-current { background: var(--tm-accent); }
+        .tm-dot-hist { background: var(--tm-hist); }
+
+        .tm-info { flex: 1 1 auto; overflow-y: auto; padding: 12px 14px 24px; }
+        .tm-title { font-size: 26px; font-weight: 800; color: #1a1a2e; line-height: 1.1; letter-spacing: -0.5px; }
+        .tm-tagline { font-size: 13px; color: #666; margin: 4px 0 2px; line-height: 1.45; }
+        .tm-section-h {
+            font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px;
+            color: #999; margin: 18px 0 6px; padding-bottom: 4px; border-bottom: 1px solid #eee;
+        }
+        .tm-section-sub { font-size: 12px; color: #999; margin: -2px 0 6px; line-height: 1.4; }
+        .tm-row {
+            display: flex; align-items: flex-start; gap: 8px; padding: 7px 6px; border-radius: 6px;
+            cursor: pointer; border-bottom: 1px solid #f2f2f4;
+        }
+        .tm-row:hover, .tm-row.active { background: var(--tm-accent-tint); }
+        .tm-row .dot { flex: 0 0 auto; width: 9px; height: 9px; border-radius: 50%; margin-top: 6px; }
+        .tm-row-main { flex: 1 1 auto; min-width: 0; }
+        .tm-row-name { font-size: 12px; color: #777; line-height: 1.25; }
+        .tm-row-date { font-size: 16px; font-weight: 700; color: #1a1a2e; line-height: 1.3; overflow-wrap: anywhere; }
+        .tm-row-tr { font-size: 12.5px; color: #555; }
+        .tm-row.is-none .tm-row-date { color: #bbb; font-weight: 400; font-size: 13px; }
+        .tm-row.is-hist .tm-row-date { color: var(--tm-hist); }
+
+        /* ---- Map labels (divIcon): plain text with a white halo, no box ---- */
+        .tm-label {
+            display: inline-flex; flex-direction: column; align-items: center; line-height: 1.12;
+            white-space: nowrap; cursor: pointer; transform: translate(-50%, -50%); text-align: center;
+            text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 4px #fff, 1px 1px 2px #fff, -1px -1px 2px #fff;
+        }
+        .tm-label:hover { z-index: 600 !important; }
+        .tm-label .w { font-weight: 700; font-size: calc(14px * var(--tm-scale, 1)); color: #1a2340; }
+        .tm-label .t { font-size: calc(11.5px * var(--tm-scale, 1)); color: #333; font-weight: 600; margin-top: 1px; }
+        .tm-label .r { font-size: calc(10px * var(--tm-scale, 1)); color: #666; margin-top: 1px; }
+        .tm-label:hover .w { color: var(--tm-accent-dark); }
+        .tm-label.is-greg .w { color: #5b6170; font-weight: 600; }
+        .tm-label.is-hist .w {
+            color: var(--tm-hist);
+            text-decoration: underline dashed; text-decoration-color: rgba(138,90,28,0.5); text-underline-offset: 3px;
+        }
+        .tm-label.is-hist .r { font-style: italic; }
+        .tm-label.is-hist .t { color: #6b4a1a; }
+
+        /* Leaflet popup */
+        .leaflet-popup-content { margin: 12px 14px; min-width: 200px; }
+        .tm-pop-region { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
+        .tm-pop-name { font-size: 15px; font-weight: 700; color: var(--tm-accent-dark); margin: 2px 0 6px; }
+        .tm-pop-date { font-size: 20px; font-weight: 800; color: #1a1a2e; line-height: 1.3; }
+        .tm-pop-tr { font-size: 13.5px; color: #444; font-weight: 600; margin-bottom: 8px; }
+        .tm-pop-badge {
+            display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px;
+            background: #f6ecdf; color: var(--tm-hist); margin-bottom: 6px;
+        }
+        .tm-pop-dl { margin: 0; font-size: 12.5px; color: #444; line-height: 1.45; }
+        .tm-pop-dl dt { font-weight: 700; color: #999; font-size: 11px; text-transform: uppercase; letter-spacing: 0.4px; margin-top: 5px; }
+        .tm-pop-dl dd { margin: 0; }
+        .tm-pop-note { font-size: 12.5px; color: #555; margin-top: 8px; padding-top: 6px; border-top: 1px solid #eee; line-height: 1.45; }
+
+        /* ---- Simple display: hide the panel, keep the date visible ---- */
+        body.chrome-hidden .tm-panel { display: none !important; }
+        body.chrome-hidden .site-header-bar { position: absolute; top: 0; left: 0; right: 0; }
+        .tm-simple-date {
+            display: none; position: absolute; top: 52px; left: 14px; z-index: 815;
+            font-size: 23px; font-weight: 800; color: #1a2340; letter-spacing: -0.3px;
+            text-shadow: 0 0 3px #fff, 0 0 4px #fff, 1px 1px 2px #fff, -1px -1px 2px #fff;
+        }
+        body.chrome-hidden .tm-simple-date { display: block; }
+
+        /* ---- Top-right control stack (HanMap / NameMap style) ---- */
+        .leaflet-control-zoom { display: none !important; }
+        .tm-map-ctl {
+            position: fixed; top: 52px; right: 10px; z-index: 1001;
+            display: flex; flex-direction: column; gap: 6px; align-items: flex-end;
+        }
+        .map-zoom-controls { display: flex; flex-direction: column; box-shadow: 0 2px 6px rgba(0,0,0,0.2); border-radius: 6px; overflow: hidden; }
+        .map-zoom-controls button {
+            width: 32px; height: 32px; border: none; background: rgba(255,255,255,0.92);
+            font-size: 18px; font-weight: 700; cursor: pointer; color: #333; line-height: 32px; padding: 0;
+        }
+        .map-zoom-controls button:hover { background: #fff; }
+        .map-zoom-controls button + button { border-top: 1px solid #ddd; }
+        .tm-map-ctl > .chrome-toggle-btn { margin-left: 0; border-radius: 50%; }
+        .settings-fab {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 44px; height: 44px; min-width: 44px;
+            background: #fff; border: 1px solid #d0d0d0; border-radius: 50%;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.12); color: #444; cursor: pointer; padding: 0;
+            transition: background-color 0.15s, color 0.15s, border-color 0.15s, transform 0.1s;
+        }
+        .settings-fab:hover { background: #f3f4f6; }
+        .settings-fab:active { transform: scale(0.94); }
+        #tm-settings-btn[aria-expanded="true"] { background: #1a73e8; color: #fff; border-color: #1a73e8; }
+        .tm-map-ctl button svg { pointer-events: none; }
+        .size-slider-wrap {
+            display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+            background: rgba(255,255,255,0.92); border-radius: 8px; padding: 6px 4px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        .size-slider-wrap[hidden] { display: none; }
+        .size-step-btn {
+            width: 32px; height: 30px; border: 1px solid #d0d0d0; border-radius: 6px;
+            background: #fff; color: #555; font-size: 16px; font-weight: 700; line-height: 1;
+            cursor: pointer; user-select: none; display: inline-flex; align-items: center; justify-content: center;
+        }
+        .size-step-btn:hover { background: #f3f4f6; border-color: #bbb; color: #333; }
+        .size-step-btn:disabled { opacity: 0.35; cursor: default; }
+        .size-label { font-size: 11px; color: #888; text-align: center; line-height: 1.1; user-select: none; }
+
+        /* ---- Credits (same treatment as NameMap) ---- */
+        .url-watermark {
+            position: fixed; bottom: 0; left: 0; z-index: 1000;
+            font-size: 11px; color: rgba(0,0,0,0.75);
+            background: rgba(255,255,255,0.92); padding: 3px 8px; border-radius: 0 4px 0 0;
+            display: flex; align-items: center; gap: 4px; line-height: 1.2; pointer-events: none;
+        }
+        .url-watermark a { pointer-events: auto; color: inherit; }
+        .leaflet-control-container .leaflet-bottom.leaflet-right { position: fixed; right: 0; bottom: env(safe-area-inset-bottom, 0px); }
+        .leaflet-control-attribution {
+            background: rgba(255,255,255,0.92) !important; color: rgba(0,0,0,0.75) !important;
+            font-size: 11px; line-height: 1.2; padding: 3px 8px; margin: 0 !important; border-radius: 4px 0 0 0;
+        }
+        .leaflet-control-attribution a { color: rgba(0,0,0,0.78) !important; }
+
+        /* ---- Mobile-only bits ---- */
+        .tm-info-close, .tm-sheet-backdrop, .tm-details-btn { display: none; }
+
+        @media (max-width: 780px) {
+            .leaflet-bottom { bottom: env(safe-area-inset-bottom); }
+            .url-watermark { left: env(safe-area-inset-left, 0); right: auto; bottom: 0; font-size: 9px; padding: 2px 6px; }
+            .tm-panel {
+                position: static; display: block; width: auto; max-width: none;
+                background: transparent; border: none; box-shadow: none; overflow: visible;
+                -webkit-backdrop-filter: none; backdrop-filter: none;
+            }
+            .tm-controls {
+                position: absolute; top: 8px; left: 8px; right: auto; z-index: 1050;
+                border: none; background: transparent; padding: 0; pointer-events: none;
+            }
+            .tm-controls > * { pointer-events: auto; }
+            .tm-filters { display: none; }
+            .map-zoom-controls { display: none; }
+            .site-header-bar { gap: 0; }
+            .site-header-bar > .chrome-toggle-btn { margin-left: auto; }
+            .site-header-bar > .chrome-toggle-btn + .hamburger-btn { margin-left: 6px; }
+            /* below the date row, so the gear never crowds the date controls */
+            .tm-map-ctl { top: 112px; }
+            #tm-date, .tm-step-btn, .tm-today-btn, .tm-details-btn {
+                background: rgba(255,255,255,0.7); border: 1px solid rgba(0,0,0,0.12);
+                -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+                box-shadow: 0 1px 6px rgba(0,0,0,0.14);
+            }
+            #tm-date { font-size: 16px; flex: 0 1 auto; width: 9.5em; }
+            .tm-details-btn {
+                display: inline-flex; align-items: center; justify-content: center;
+                flex: 0 0 auto; width: 34px; height: 34px; border-radius: 6px; padding: 0;
+                color: var(--tm-accent-dark); cursor: pointer;
+            }
+            .tm-info {
+                position: fixed; left: 0; right: 0; bottom: 0; z-index: 1400;
+                max-height: 85vh; background: #fff; border-radius: 16px 16px 0 0;
+                box-shadow: 0 -6px 30px rgba(0,0,0,0.3);
+                transform: translateY(110%); transition: transform 0.25s ease;
+                padding: 20px 16px calc(28px + env(safe-area-inset-bottom));
+            }
+            .tm-panel.info-open .tm-info { transform: none; }
+            .tm-info-close {
+                display: flex; align-items: center; justify-content: center;
+                position: sticky; top: 8px; z-index: 5;
+                margin: 0 0 -40px auto; width: 38px; height: 38px;
+                border: none; border-radius: 50%; background: rgba(0,0,0,0.07); color: #333;
+                font-size: 24px; line-height: 1; cursor: pointer;
+            }
+            .tm-panel.info-open ~ .tm-sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35); }
+            .tm-panel.info-open .tm-filters { display: flex; }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
+    <div class="site-header-bar">
+        <a href="index.html" class="logo">LangMap<span class="logo-badge logo-badge-time" aria-label="TimeMap" title="TimeMap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 7.5V12l3 2"/></svg></span></a>
+        <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle">
+        <button type="button" id="chrome-toggle" class="chrome-toggle-btn" aria-label="Simple display" title="Simple display" aria-pressed="false">
+            <svg class="icon-on"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9V3h6M21 9V3h-6M3 15v6h6M21 15v6h-6"/></svg>
+            <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3v6H3M15 3v6h6M9 21v-6H3M15 21v-6h6"/></svg>
+        </button>
+        <label for="hdr-menu-toggle" class="hamburger-btn" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
+        <div class="header-collapse" id="header-collapse">
+            <nav class="header-nav">
+                <a href="index.html" class="header-nav-link" id="nav-order-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg>Word Order</a>
+                <span class="nav-sep">/</span>
+                <a href="wordmap.html" class="header-nav-link" id="nav-word"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>Word Map</a>
+                <span class="nav-sep">/</span>
+                <a href="hanmap.html" class="header-nav-link" id="nav-han"><span style="display:inline-block;font-family:'Noto Serif JP','Noto Serif SC','Noto Serif TC','Noto Serif KR',serif;font-weight:700;vertical-align:-1px;margin-right:3px;font-size:13px">字</span>HanMap</a>
+                <span class="nav-sep">/</span>
+                <a href="namemap.html" class="header-nav-link" id="nav-name"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><path d="M4 21v-7a4 4 0 0 1 4-4h1"/><circle cx="9" cy="6" r="3"/><path d="M14 21v-5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5"/></svg>Name Map</a>
+                <span class="nav-sep">/</span>
+                <span class="header-nav-current" id="nav-time"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:3px" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Time Map</span>
+                <span class="nav-sep">/</span>
+                <a href="tree.html" class="header-nav-link" id="nav-tree-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg>Tree</a>
+            </nav>
+            <select id="header-ui-lang" class="header-ui-lang" aria-label="UI language"></select>
+            <a class="header-url" href="https://langmaps.com">langmaps.com</a>
+        </div>
+    </div>
+    <div class="header-backdrop" id="header-backdrop" aria-hidden="true"></div>
+
+    <div class="tm-stage">
+        <aside class="tm-panel" id="tm-panel">
+            <div class="tm-controls">
+                <div class="tm-date-row">
+                    <button type="button" class="tm-step-btn" id="tm-prev" aria-label="Previous day" title="Previous day">‹</button>
+                    <input type="date" id="tm-date" min="0001-01-01" max="9999-12-31" aria-label="Date">
+                    <button type="button" class="tm-step-btn" id="tm-next" aria-label="Next day" title="Next day">›</button>
+                    <button type="button" class="tm-today-btn" id="tm-today">Today</button>
+                    <button type="button" class="tm-details-btn" id="tm-details-btn" title="Details" aria-label="Details"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><line x1="12" y1="7.6" x2="12.01" y2="7.6"/></svg></button>
+                </div>
+                <div class="tm-filters" id="tm-filters">
+                    <button type="button" class="tm-chip" data-f="current" aria-pressed="true"><span class="dot tm-dot-current"></span><span class="tm-chip-label"></span></button>
+                    <button type="button" class="tm-chip" data-f="historical" aria-pressed="true"><span class="dot tm-dot-hist"></span><span class="tm-chip-label"></span></button>
+                    <button type="button" class="tm-chip" data-f="gregorian" aria-pressed="true"><span class="dot tm-dot-greg"></span><span class="tm-chip-label"></span></button>
+                </div>
+            </div>
+            <div class="tm-info" id="tm-info">
+                <button type="button" class="tm-info-close" id="tm-info-close" aria-label="Close">&times;</button>
+                <div id="tm-info-body"></div>
+            </div>
+        </aside>
+        <div id="map"></div>
+        <div id="tm-simple-date" class="tm-simple-date" aria-hidden="true"></div>
+        <div class="tm-map-ctl" id="tm-map-ctl">
+            <div class="map-zoom-controls" role="group" aria-label="Map zoom">
+                <button type="button" id="tm-zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
+                <button type="button" id="tm-zoom-out" aria-label="Zoom out" title="Zoom out">&minus;</button>
+            </div>
+            <button type="button" id="tm-settings-btn" class="settings-fab" aria-label="Settings" title="Settings" aria-expanded="false" aria-controls="tm-settings-pop">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </button>
+            <div class="size-slider-wrap" id="tm-settings-pop" hidden>
+                <button type="button" class="size-step-btn" id="tm-font-inc" aria-label="Increase label font size">＋</button>
+                <label class="size-label" id="tm-set-fontlabel">Font Size</label>
+                <button type="button" class="size-step-btn" id="tm-font-dec" aria-label="Decrease label font size">−</button>
+            </div>
+        </div>
+        <div class="tm-sheet-backdrop" id="tm-sheet-backdrop" aria-hidden="true"></div>
+    </div>
+
+    <div class="url-watermark">
+        Made by <a href="https://x.com/jounlai" target="_blank" rel="noopener">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" aria-label="GitHub repository"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="timemap_calendars.js?v=2"></script>
+    <script>
+    (function () {
+        'use strict';
+        const { CALENDARS, EN, render, localize, calText, gregParts, toDate, fill } = window.TIMEMAP;
+
+        /* ---------- UI language ----------
+           English is built into timemap_calendars.js; every other language is
+           one file, timemap_i18n/<lang>.js, fetched when first chosen. */
+        const LANGS = [['en','English'],['ja','日本語'],['ko','한국어'],['zh','中文'],['yue','粵語'],
+            ['vi','Tiếng Việt'],['th','ไทย'],['id','Bahasa Indonesia'],['hi','हिन्दी'],['de','Deutsch'],
+            ['fr','Français'],['it','Italiano'],['es','Español'],['pt','Português'],['ru','Русский'],
+            ['uk','Українська'],['ar','العربية'],['he','עברית'],['sw','Kiswahili']];
+        const HAS = Object.fromEntries(LANGS.map(([c]) => [c, true]));
+        const I18N_VERSION = 1;
+        window.TM_I18N = window.TM_I18N || {};
+        const loading = {};
+        function ensureLang(lang){
+            if(lang==='en' || window.TM_I18N[lang]) return Promise.resolve();
+            if(loading[lang]) return loading[lang];
+            return loading[lang] = new Promise(res=>{
+                const s=document.createElement('script');
+                s.src='timemap_i18n/'+lang+'.js?v='+I18N_VERSION;
+                s.onload=()=>res(); s.onerror=()=>{ console.warn('TimeMap: no strings for', lang); res(); };
+                document.head.appendChild(s);
+            });
+        }
+        function getCookie(n){ const m=document.cookie.match(new RegExp('(?:^|;\\s*)'+n+'=([^;]+)')); return m?decodeURIComponent(m[1]):null; }
+        function setCookie(n,v){ document.cookie=n+'='+encodeURIComponent(v)+'; path=/; max-age=31536000; SameSite=Lax'; }
+        function detectLang(){
+            const c=getCookie('wm_uilang'); if(c&&HAS[c]) return c;
+            for(const l of (navigator.languages||[navigator.language||'en'])){
+                const low=(l||'').toLowerCase();
+                if(low==='zh-hk'||low==='zh-mo'||low.startsWith('yue')) return 'yue';
+                const b=low.slice(0,2); if(HAS[b]) return b;
+            }
+            return 'en';
+        }
+        let uiLang = detectLang();
+        const lang = () => uiLang==='en' ? null : (window.TM_I18N[uiLang] || null);
+        function t(k){ const l=lang(); return (l&&l.ui&&l.ui[k]) || EN.ui[k] || k; }
+        const ct = (cal, f) => calText(cal, f, lang());
+        function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+        /* ---------- State ---------- */
+        const GROUPS = ['current','historical','gregorian'];
+        const show = { current: true, historical: true, gregorian: true };
+        let dateStr = todayStr();
+        let map, fontScale = 1, openId = null;
+        const markers = {};
+        const PANEL_WIDTH = 360;
+        // Same country tints as WordMap / NameMap (COUNTRY_PALETTE).
+        const PALETTE = ['rgba(100,149,237,0.20)','rgba(144,238,144,0.20)','rgba(250,128,114,0.20)','rgba(255,255,150,0.20)','rgba(221,160,221,0.20)','rgba(175,238,238,0.20)'];
+
+        function todayStr(){
+            const d=new Date();
+            return String(d.getFullYear()).padStart(4,'0')+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+        }
+        function shiftDay(s, n){
+            const g=gregParts(s); const d=new Date(0); d.setUTCFullYear(g.y, g.m-1, g.d+n);
+            const y=d.getUTCFullYear(); if(y<1||y>9999) return s;
+            return String(y).padStart(4,'0')+'-'+String(d.getUTCMonth()+1).padStart(2,'0')+'-'+String(d.getUTCDate()).padStart(2,'0');
+        }
+        // A calendar's date for the current day: native text + the UI-language line.
+        function dateOf(cal){
+            const g=gregParts(dateStr), r=render(cal, g); if(!r) return null;
+            let tr=''; try { tr=localize(cal, r, lang(), toDate(g)); } catch(e){ console.warn(cal.id, e); }
+            return { native: r.native, tr: tr && tr!==r.native ? tr : '' };
+        }
+
+        /* ---------- Font size ---------- */
+        function applyFontScale(){
+            document.documentElement.style.setProperty('--tm-scale', String(fontScale));
+            document.getElementById('tm-font-inc').disabled = fontScale>=1.6;
+            document.getElementById('tm-font-dec').disabled = fontScale<=0.7;
+            if(map) requestAnimationFrame(relaxLabels);
+        }
+        function setFontScale(s){ fontScale=Math.min(1.6, Math.max(0.7, Math.round(s*10)/10)); applyFontScale(); updateHash(); }
+
+        /* ---------- URL state ---------- */
+        function updateHash(){
+            const parts=['d='+dateStr, 'l='+uiLang, 's='+Math.round(fontScale*100)];
+            const off=GROUPS.filter(g=>!show[g]); if(off.length) parts.push('hide='+off.join(','));
+            if(document.body.classList.contains('chrome-hidden')) parts.push('simple=1');
+            if(map){ const c=map.getCenter(); parts.push('c='+c.lat.toFixed(2)+','+c.lng.toFixed(2)); parts.push('z='+map.getZoom().toFixed(1)); }
+            const h='#'+parts.join('&'); if(location.hash!==h) history.replaceState(null,'',h);
+        }
+        function readState(){
+            const o={}; location.hash.replace(/^#/,'').split('&').forEach(kv=>{ const i=kv.indexOf('='); if(i>0) o[kv.slice(0,i)]=decodeURIComponent(kv.slice(i+1)); });
+            return o;
+        }
+
+        /* ---------- Map ---------- */
+        function initMap(){
+            map = L.map('map', {
+                center: [28, 62], zoom: 2.4, minZoom: 2, maxZoom: 8,
+                worldCopyJump: true, zoomControl: false, zoomSnap: 0.5,
+                maxBounds: [[-84, -1200], [84, 1200]], maxBoundsViscosity: 1.0,
+            });
+            map.on('zoomend', ()=>requestAnimationFrame(relaxLabels));
+            const CARTO_KEY_QS = (typeof window.CARTO_BASEMAP_KEY === 'string' && window.CARTO_BASEMAP_KEY)
+                ? '?key=' + encodeURIComponent(window.CARTO_BASEMAP_KEY) : '';
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png' + CARTO_KEY_QS, {
+                attribution: '&copy; <a href="https://openstreetmap.org">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                subdomains: 'abcd', maxZoom: 19,
+            }).addTo(map);
+            fetch('countries.geojson?v=1').then(r=>r.json()).then(gj=>{
+                const layer = L.geoJSON(gj, { style:(f)=>{
+                    let name = f.properties.ADMIN || f.properties.name || '';
+                    if(name==='Russia'||name==='Russian Federation'||name==='Ukraine') name='Russia/Ukraine';
+                    let h=0; for(let i=0;i<name.length;i++){ h=((h<<5)-h+name.charCodeAt(i))|0; }
+                    return { fillColor: PALETTE[Math.abs(h)%PALETTE.length], fillOpacity:1, color:'#999', weight:0.8, opacity:0.5 };
+                }, interactive: false });
+                layer.addTo(map); layer.bringToBack();
+            }).catch(e=>console.warn('country borders failed', e));
+        }
+
+        function popupHtml(cal){
+            const g=gregParts(dateStr), r=dateOf(cal);
+            let h='<div class="tm-pop-region">'+esc(ct(cal,'region'))+'</div>';
+            h+='<div class="tm-pop-name">'+esc(ct(cal,'name'))+'</div>';
+            if(cal.status==='historical' && cal.endYear && g.y>cal.endYear) h+='<span class="tm-pop-badge">'+esc(fill(t('ended'), { n: cal.endYear }))+'</span>';
+            if(r){
+                h+='<div class="tm-pop-date tm-script" dir="auto">'+esc(r.native)+'</div>';
+                if(r.tr) h+='<div class="tm-pop-tr tm-script" dir="auto">'+esc(r.tr)+'</div>';
+            } else h+='<div class="tm-pop-tr">'+esc(t('notYet'))+'</div>';
+            h+='<dl class="tm-pop-dl"><dt>'+esc(t('type'))+'</dt><dd dir="auto">'+esc(ct(cal,'type'))+'</dd>'
+              +'<dt>'+esc(t('epoch'))+'</dt><dd dir="auto">'+esc(ct(cal,'epoch'))+'</dd>'
+              +'<dt>'+esc(t('used'))+'</dt><dd dir="auto">'+esc(ct(cal,'used'))+'</dd></dl>';
+            if(cal.note) h+='<div class="tm-pop-note" dir="auto">'+esc(ct(cal,'note'))+'</div>';
+            return h;
+        }
+
+        function drawMarkers(){
+            Object.values(markers).forEach(m=>map.removeLayer(m));
+            for(const k in markers) delete markers[k];
+            const onMobile = window.matchMedia('(max-width: 780px)').matches;
+            const padTL = onMobile ? L.point(16, 66) : L.point(PANEL_WIDTH + 16, 72);
+            CALENDARS.forEach(cal=>{
+                if(!show[cal.status]) return;
+                const r=dateOf(cal); if(!r) return;
+                const cls = cal.status==='historical' ? ' is-hist' : cal.status==='gregorian' ? ' is-greg' : '';
+                // native date / the same date in the UI language / calendar name
+                const html='<div class="tm-label'+cls+'"><span class="w tm-script" dir="auto">'+esc(r.native)+'</span>'
+                    +(r.tr ? '<span class="t tm-script" dir="auto">'+esc(r.tr)+'</span>' : '')
+                    +'<span class="r tm-script" dir="auto">'+esc(ct(cal,'name'))+'</span></div>';
+                const icon=L.divIcon({ className:'tm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
+                const mk=L.marker([cal.lat, cal.lng], { icon, riseOnHover:true });
+                mk.bindPopup(()=>popupHtml(cal), { maxWidth: 280, autoPanPaddingTopLeft: padTL, autoPanPaddingBottomRight: L.point(24, 24) });
+                mk.on('popupopen', ()=>{ openId=cal.id; markActive(); });
+                mk.on('popupclose', ()=>{ if(openId===cal.id){ openId=null; markActive(); } });
+                mk.addTo(map); markers[cal.id]=mk;
+            });
+            requestAnimationFrame(relaxLabels);
+        }
+
+        /* Label de-collision, same spiral nudge as NameMap. Current calendars
+           keep their place first, then Gregorian, then historical. */
+        function relaxLabels(){
+            if(!map) return;
+            const pri = { current: 0, gregorian: 1, historical: 2 };
+            const items=[];
+            CALENDARS.forEach(cal=>{
+                const mk=markers[cal.id]; if(!mk) return;
+                const root=mk.getElement && mk.getElement(); if(!root) return;
+                const label=root.querySelector('.tm-label'); if(!label) return;
+                label.style.transform='translate(-50%, -50%)';
+                const pt=map.latLngToContainerPoint(mk.getLatLng()), r=label.getBoundingClientRect();
+                items.push({ label, x:pt.x, y:pt.y, w:r.width||40, h:r.height||16, pr:pri[cal.status] });
+            });
+            items.sort((a,b)=>a.pr-b.pr);
+            const cand=[[0,0]];
+            for(let ring=1; ring<=14; ring++) for(const [ox,oy] of [[0,-1],[0,1],[-1,0],[1,0],[-1,-1],[1,-1],[-1,1],[1,1],[-2,-1],[2,-1],[-2,1],[2,1]]) cand.push([ox*ring*14, oy*ring*12]);
+            const placed=[];
+            const hit=(a,b)=> Math.abs(a.cx-b.cx) < (a.w+b.w)/2+2 && Math.abs(a.cy-b.cy) < (a.h+b.h)/2+2;
+            items.forEach(it=>{
+                let dx=0, dy=0;
+                for(const [ox,oy] of cand){ const box={ cx:it.x+ox, cy:it.y+oy, w:it.w, h:it.h }; if(!placed.some(p=>hit(box,p))){ dx=ox; dy=oy; break; } }
+                placed.push({ cx:it.x+dx, cy:it.y+dy, w:it.w, h:it.h });
+                it.label.style.transform='translate(-50%, -50%) translate('+dx+'px, '+dy+'px)';
+            });
+        }
+
+        /* ---------- Side panel ---------- */
+        function renderPanel(){
+            let h='<div class="tm-title">'+esc(t('title'))+'</div><div class="tm-tagline">'+esc(t('tagline'))+'</div>';
+            const sec = (st, head, sub, dotCls) => {
+                if(!show[st]) return '';
+                let s='<div class="tm-section-h">'+esc(head)+'</div>'+(sub?'<div class="tm-section-sub">'+esc(sub)+'</div>':'');
+                CALENDARS.filter(c=>c.status===st).forEach(cal=>{
+                    const r=dateOf(cal);
+                    s+='<div class="tm-row'+(r?'':' is-none')+(st==='historical'?' is-hist':'')+'" data-id="'+cal.id+'">'
+                      +'<span class="dot '+dotCls+'"></span><div class="tm-row-main">'
+                      +'<div class="tm-row-name" dir="auto">'+esc(ct(cal,'name'))+' · '+esc(ct(cal,'region'))+'</div>'
+                      +'<div class="tm-row-date tm-script" dir="auto">'+esc(r?r.native:t('notYet'))+'</div>'
+                      +(r && r.tr ? '<div class="tm-row-tr tm-script" dir="auto">'+esc(r.tr)+'</div>' : '')
+                      +'</div></div>';
+                });
+                return s;
+            };
+            h+=sec('current', t('hCurrent'), '', 'tm-dot-current');
+            h+=sec('historical', t('hHist'), t('subHist'), 'tm-dot-hist');
+            h+=sec('gregorian', t('hGreg'), t('subGreg'), 'tm-dot-greg');
+            const body=document.getElementById('tm-info-body'); body.innerHTML=h;
+            body.querySelectorAll('.tm-row').forEach(row=>row.addEventListener('click', ()=>focusCal(row.getAttribute('data-id'))));
+            markActive();
+        }
+        function markActive(){
+            document.querySelectorAll('.tm-row').forEach(r=>r.classList.toggle('active', r.getAttribute('data-id')===openId));
+        }
+        function focusCal(id){
+            const mk=markers[id]; if(!mk) return;
+            closeInfoSheet();
+            const desktop=window.matchMedia('(min-width: 781px)').matches;
+            const z=Math.max(map.getZoom(), 4);
+            // centre in the visible area right of the panel on desktop
+            const p=map.project(mk.getLatLng(), z).subtract([desktop ? PANEL_WIDTH/2 : 0, 0]);
+            map.setView(map.unproject(p, z), z, { animate: true });
+            setTimeout(()=>mk.openPopup(), 320);
+        }
+
+        function setDate(s, opts){
+            if(!gregParts(s)) return;
+            dateStr=s; document.getElementById('tm-date').value=s;
+            renderPanel(); drawMarkers();
+            document.getElementById('tm-simple-date').textContent=s;
+            if(openId && markers[openId]) markers[openId].openPopup();
+            if(!opts || opts.hash!==false) updateHash();
+        }
+
+        /* ---------- Mobile sheet + chrome toggle ---------- */
+        function openInfoSheet(){ document.getElementById('tm-panel').classList.add('info-open'); }
+        function closeInfoSheet(){ document.getElementById('tm-panel').classList.remove('info-open'); }
+        function placeChromeToggle(){
+            const btn=document.getElementById('chrome-toggle'), ctl=document.getElementById('tm-map-ctl');
+            const header=document.querySelector('.site-header-bar'), hamburger=document.querySelector('.hamburger-btn');
+            if(window.matchMedia('(min-width: 781px)').matches){ if(btn.parentElement!==ctl) ctl.insertBefore(btn, ctl.firstChild); }
+            else if(btn.parentElement!==header) header.insertBefore(btn, hamburger||null);
+        }
+
+        /* ---------- UI language ---------- */
+        function applyUILang(){
+            document.documentElement.lang = uiLang==='yue' ? 'zh-HK' : uiLang;
+            document.getElementById('tm-today').textContent=t('today');
+            document.getElementById('tm-prev').title=t('prevDay'); document.getElementById('tm-prev').setAttribute('aria-label',t('prevDay'));
+            document.getElementById('tm-next').title=t('nextDay'); document.getElementById('tm-next').setAttribute('aria-label',t('nextDay'));
+            const db=document.getElementById('tm-details-btn'); db.title=t('details'); db.setAttribute('aria-label',t('details'));
+            const cb=document.getElementById('chrome-toggle'); cb.title=t('simpleDisplay'); cb.setAttribute('aria-label',t('simpleDisplay'));
+            const sb=document.getElementById('tm-settings-btn'); sb.title=t('settings'); sb.setAttribute('aria-label',t('settings'));
+            document.getElementById('tm-set-fontlabel').textContent=t('fontSize');
+            const lbl={ current:'fCurrent', historical:'fHist', gregorian:'fGreg' };
+            document.querySelectorAll('.tm-chip').forEach(c=>{ c.querySelector('.tm-chip-label').textContent=t(lbl[c.getAttribute('data-f')]); });
+            const nav={ 'nav-order-label':'navOrder', 'nav-word':'navWord', 'nav-han':'navHan', 'nav-name':'navName', 'nav-time':'navTime', 'nav-tree-label':'navTree' };
+            Object.keys(nav).forEach(id=>{
+                const el=document.getElementById(id); if(!el) return;
+                for(let i=el.childNodes.length-1;i>=0;i--){ const n=el.childNodes[i]; if(n.nodeType===3 && n.textContent.trim()){ n.textContent=t(nav[id]); break; } }
+            });
+            renderPanel(); drawMarkers();
+            if(openId && markers[openId]) markers[openId].openPopup();
+        }
+        function setLang(lang){
+            uiLang=lang; setCookie('wm_uilang', uiLang);
+            ensureLang(uiLang).then(()=>{ if(uiLang===lang){ applyUILang(); updateHash(); } });
+            try{ window.dispatchEvent(new CustomEvent('langmap:uichange',{detail:{lang:uiLang}})); }catch(e){}
+        }
+        function setupLangSelect(){
+            const sel=document.getElementById('header-ui-lang');
+            LANGS.forEach(([code,label])=>{ const o=document.createElement('option'); o.value=code; o.textContent=label; sel.appendChild(o); });
+            sel.value=uiLang;
+            sel.addEventListener('change', ()=>setLang(sel.value));
+        }
+        function syncChips(){ document.querySelectorAll('.tm-chip').forEach(c=>c.setAttribute('aria-pressed', show[c.getAttribute('data-f')]?'true':'false')); }
+
+        /* ---------- Boot ---------- */
+        function boot(){
+            initMap();
+            const st=readState();
+            if(st.l && HAS[st.l]) uiLang=st.l;
+            if(st.s){ const v=parseInt(st.s,10); if(v>=70&&v<=160) fontScale=v/100; }
+            if(st.d && gregParts(st.d)) dateStr=st.d;
+            if(st.hide) st.hide.split(',').forEach(g=>{ if(g in show) show[g]=false; });
+            if(st.simple==='1'){ document.body.classList.add('chrome-hidden'); document.getElementById('chrome-toggle').setAttribute('aria-pressed','true'); }
+            if(st.c && st.z){ const p=st.c.split(','); const lat=+p[0], lng=+p[1], z=+st.z; if(isFinite(lat)&&isFinite(lng)&&isFinite(z)) map.setView([lat,lng], z); }
+            setupLangSelect(); syncChips(); applyFontScale();
+
+            document.getElementById('tm-date').value=dateStr;
+            document.getElementById('tm-date').addEventListener('change', e=>{ if(e.target.value) setDate(e.target.value); });
+            document.getElementById('tm-prev').addEventListener('click', ()=>setDate(shiftDay(dateStr,-1)));
+            document.getElementById('tm-next').addEventListener('click', ()=>setDate(shiftDay(dateStr,1)));
+            document.getElementById('tm-today').addEventListener('click', ()=>setDate(todayStr()));
+            document.querySelectorAll('.tm-chip').forEach(c=>c.addEventListener('click', ()=>{
+                const f=c.getAttribute('data-f'); show[f]=!show[f]; syncChips(); renderPanel(); drawMarkers(); updateHash();
+            }));
+            document.getElementById('tm-details-btn').addEventListener('click', openInfoSheet);
+            document.getElementById('tm-sheet-backdrop').addEventListener('click', closeInfoSheet);
+            document.getElementById('tm-info-close').addEventListener('click', closeInfoSheet);
+            document.getElementById('tm-zoom-in').addEventListener('click', ()=>map.zoomIn());
+            document.getElementById('tm-zoom-out').addEventListener('click', ()=>map.zoomOut());
+            const setBtn=document.getElementById('tm-settings-btn'), pop=document.getElementById('tm-settings-pop');
+            setBtn.addEventListener('click', e=>{ e.stopPropagation(); const open=pop.hasAttribute('hidden');
+                if(open) pop.removeAttribute('hidden'); else pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded', open?'true':'false'); });
+            document.addEventListener('click', e=>{ if(!pop.hasAttribute('hidden') && !pop.contains(e.target) && !setBtn.contains(e.target)){ pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded','false'); } });
+            document.getElementById('tm-font-dec').addEventListener('click', ()=>setFontScale(fontScale-0.1));
+            document.getElementById('tm-font-inc').addEventListener('click', ()=>setFontScale(fontScale+0.1));
+            placeChromeToggle();
+            let rz; window.addEventListener('resize', ()=>{ clearTimeout(rz); rz=setTimeout(placeChromeToggle, 150); });
+            const chromeBtn=document.getElementById('chrome-toggle');
+            chromeBtn.addEventListener('click', ()=>{
+                const hidden=document.body.classList.toggle('chrome-hidden');
+                chromeBtn.setAttribute('aria-pressed', hidden?'true':'false');
+                if(hidden) closeInfoSheet();
+                setTimeout(()=>map.invalidateSize(), 60); updateHash();
+            });
+            map.on('moveend', ()=>{ clearTimeout(boot._mh); boot._mh=setTimeout(updateHash, 250); });
+            window.addEventListener('hashchange', ()=>{
+                const o=readState();
+                if(o.l && HAS[o.l] && o.l!==uiLang){ document.getElementById('header-ui-lang').value=o.l; setLang(o.l); }
+                if(o.d && o.d!==dateStr && gregParts(o.d)) setDate(o.d, { hash:false });
+            });
+
+            document.getElementById('tm-simple-date').textContent=dateStr;
+            applyUILang();   // English (or the fallback) right away…
+            ensureLang(uiLang).then(()=>{ applyUILang(); updateHash(); });   // …then the chosen language
+            updateHash();
+            // Labels are measured for de-collision; measure again once webfonts land.
+            if(document.fonts && document.fonts.ready) document.fonts.ready.then(()=>requestAnimationFrame(relaxLabels));
+
+            window.__langmap = window.__langmap || {};
+            window.__langmap.share = function(){ return { title:'LangMap · '+t('title'), text:t('tagline'), url:location.href }; };
+        }
+        if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+    })();
+    </script>
+    <script src="/pwa.js?v=2"></script>
+    <script src="share-button.js?v=1"></script>
+    <script src="lang-picker.js?v=3"></script>
+</body>
+</html>

@@ -116,6 +116,19 @@ WORDS.lol = {
     // rw: rw: RoW Somali entry (above) names Kinyarwanda. IPA empty. (typed, not read aloud — no IPA)
     rw: ["hhhh", ""],
     // zgh: zgh: RoW: "ⵀⵀⵀⵀ — Tamazight — Translated into English, this can be read as 'hhhh'" (Tifinagh ⵀ = h). Given to zgh (Standard Moroccan Tamazight, the Tifinagh standard). Other Tifinagh rows (tzm, shi, rif) not filled, since RoW names only "Tamazight". IPA empty: no syllabic reading is sourced. (typed, not read aloud — no IPA)
-    zgh: ["ⵀⵀⵀⵀ", ""]
+    zgh: ["ⵀⵀⵀⵀ", ""],
+    sv: ["haha", "haha"],
+    tr: ["hahaha", "hahaha"],
+    lt: ["cha cha cha", "xa xa xa"],
+    lv: ["ha ha", "xa xa"],
+    is: ["híhí", "ˈhiːhi"],
+    hu: ["hahaha", "ˈhɒhɒhɒ"],
+    ka: ["ჰა ჰა ჰა", "ha ha ha"],
+    hy: ["հահա", "hɑˈhɑ"],
+    bg: ["хахаха", "xaxaxa"],
+    vi: ["hihi", "hi˧ hi˧"],
+    ms: ["haha", "ˈhaha"],
+    // ga: ga — RoW (https://restofworld.org/2023/how-people-laugh-online/): "goa — Irish — An abbreviation of 'gáire ós árd,' meaning 'lol' in the Irish language". ga.wikipedia "Teanga SMS" (abbreviation list): "(a)goa - (ag) gáire os ard, nó, asg - ag scairteadh gáire (lol)". Also en.wiktionary "LOL" transla (typed, not read aloud — no IPA)
+    ga: ["goa", ""]
   },
 };

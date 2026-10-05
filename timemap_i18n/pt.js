@@ -550,7 +550,7 @@ window.TM_I18N["pt"] = {
    "type": "Contagem de dias + Tzolk’in de 260 dias + Haab’ de 365 dias",
    "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 de agosto de 3114 a.C. (correlação GMT)",
    "used": "Inscrições maias do período clássico, cerca de 250–909 d.C.; a contagem de 260 dias ainda é mantida no altiplano da Guatemala",
-   "note": "Um novo b’ak’tun começou em 21 de dezembro de 2012 — o “fim do mundo” que não aconteceu."
+   "note": "Mostrado em numerais maias de barras e pontos (um ponto vale 1, uma barra 5, uma concha 0); a forma pontuada 13.0.13.17.16 é a maneira moderna de escrever a mesma contagem. Nos monumentos, cada número ficava ao lado de um glifo que nomeava seu período (b’ak’tun, k’atun, tun, winal, k’in), que o Unicode não codifica. Um novo b’ak’tun começou em 21 de dezembro de 2012 — o “fim do mundo” que não aconteceu."
   }
  }
 };

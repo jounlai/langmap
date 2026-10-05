@@ -687,6 +687,8 @@ function applyUILang() {
     setNavText(document.getElementById('navToTree'), trLabels[currentUILang] || trLabels.en);
     setNavText(document.getElementById('navToHanMap'), hanLabels[currentUILang] || hanLabels.en);
     setNavText(document.getElementById('nav-name'), nameLabels[currentUILang] || nameLabels.en);
+    const timeLabels = {en:"Time Map",ja:"暦マップ",ko:"달력 맵",zh:"历法地图",yue:"曆法地圖",vi:"Bản đồ lịch",th:"แผนที่ปฏิทิน",id:"Peta Kalender",hi:"कैलेंडर मानचित्र",de:"Kalenderkarte",fr:"Carte des calendriers",it:"Mappa dei calendari",es:"Mapa de calendarios",pt:"Mapa de calendários",ru:"Карта календарей",uk:"Карта календарів",ar:"خريطة التقاويم",he:"מפת לוחות שנה",sw:"Ramani ya kalenda"};
+    setNavText(document.getElementById('nav-time'), timeLabels[currentUILang] || timeLabels.en);
     // Footer links. Until 2026-08-31 the footer offered Word Map and Changelog
     // only, plus a row labelled "全言語インデックス (SEO)" that exposed the
     // crawler plumbing to readers and a <details> holding all 70 trivia links —

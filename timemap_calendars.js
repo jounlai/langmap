@@ -168,7 +168,9 @@
         if (days < 0) return null;
         const lc = [144000, 7200, 360, 20, 1].map((u, i, a) => i === 0 ? Math.floor(days / u) : Math.floor(mod(days, a[i - 1]) / u));
         const hp = mod(days + 348, 365);
-        return { lc: lc.join('.'), tz: (mod(days + 3, 13) + 1) + ' ' + TZOLKIN[mod(days + 19, 20)], haab: (hp % 20) + ' ' + HAAB[Math.floor(hp / 20)] };
+        // Inscriptions write each place as a bar-and-dot numeral (Unicode Mayan
+        // Numerals, U+1D2E0 = 0 … U+1D2F3 = 19); the dotted form is modern notation.
+        return { glyphs: lc.map(v => String.fromCodePoint(0x1D2E0 + v)).join(' '), lc: lc.join('.'), tz: (mod(days + 3, 13) + 1) + ' ' + TZOLKIN[mod(days + 19, 20)], haab: (hp % 20) + ' ' + HAAB[Math.floor(hp / 20)] };
     }
     // Egyptian civil calendar: 12 × 30 days + 5 epagomenal, no leap day, counted
     // in Ptolemy's Nabonassar era (1 Thoth year 1 = 26 February 747 BC Julian).
@@ -527,10 +529,10 @@
           name: 'Maya Long Count', region: 'Maya area (Tikal)', type: 'Day count + 260-day Tzolk’in + 365-day Haab’',
           epoch: '13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 August 3114 BC (GMT correlation)',
           used: 'Classic Maya inscriptions, about AD 250–909; the 260-day count is still kept in the Guatemalan highlands',
-          note: 'A new b’ak’tun began on 21 December 2012 — the “end of the world” that wasn’t.',
+          note: 'Shown in Maya bar-and-dot numerals (a dot is 1, a bar is 5, a shell is 0); the dotted 13.0.13.17.16 is the modern way of writing the same count. On monuments each number stood beside a glyph naming its period (b’ak’tun, k’atun, tun, winal, k’in), which Unicode does not encode. A new b’ak’tun began on 21 December 2012 — the “end of the world” that wasn’t.',
           from: { y: 1, m: 1, d: 1 }, endYear: 909,
           fmt: g => { const m = maya(gregToJdn(g.y, g.m, g.d)); if (!m) return null;
-              return { native: m.lc, latin: m.tz + ' · ' + m.haab, tr: { kind: 'fixed', text: m.tz + ' · ' + m.haab } }; } },
+              return { native: m.glyphs, latin: m.lc + ' · ' + m.tz + ' · ' + m.haab, tr: { kind: 'fixed', text: m.lc + ' · ' + m.tz + ' · ' + m.haab } }; } },
     ];
 
     /* ---------- English strings (the source every translation follows) ---------- */

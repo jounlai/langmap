@@ -550,7 +550,7 @@ window.TM_I18N["sw"] = {
    "type": "Hesabu ya siku + Tzolk’in ya siku 260 + Haab’ ya siku 365",
    "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 Agosti 3114 KK (uwiano wa GMT)",
    "used": "Maandishi ya Wamaya wa Kipindi cha Kale, takriban 250–909 BK; hesabu ya siku 260 bado inadumishwa katika nyanda za juu za Guatemala",
-   "note": "B’ak’tun mpya ilianza tarehe 21 Desemba 2012 — “mwisho wa dunia” ambao haukutokea."
+   "note": "Imeonyeshwa kwa tarakimu za Wamaya za mistari na nukta (nukta ni 1, mstari ni 5, gamba ni 0); umbo lenye nukta 13.0.13.17.16 ni njia ya kisasa ya kuandika hesabu hiyo hiyo. Kwenye nguzo za mawe, kila namba ilisimama kando ya glifu inayotaja kipindi chake (b’ak’tun, k’atun, tun, winal, k’in), ambazo Unicode haizisimbi. B’ak’tun mpya ilianza tarehe 21 Desemba 2012 — “mwisho wa dunia” ambao haukutokea."
   }
  }
 };

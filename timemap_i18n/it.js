@@ -550,7 +550,7 @@ window.TM_I18N["it"] = {
    "type": "Conteggio dei giorni + tzolk’in di 260 giorni + haab’ di 365 giorni",
    "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 agosto 3114 a.C. (correlazione GMT)",
    "used": "Iscrizioni maya del periodo classico, circa 250–909 d.C.; il computo di 260 giorni è ancora tenuto negli altopiani del Guatemala",
-   "note": "Un nuovo b’ak’tun è iniziato il 21 dicembre 2012 — la «fine del mondo» che non c’è stata."
+   "note": "Mostrato con i numerali maya a barre e punti (un punto vale 1, una barra 5, una conchiglia 0); la forma puntata 13.0.13.17.16 è il modo moderno di scrivere lo stesso computo. Sui monumenti ogni numero stava accanto a un glifo che ne nominava il periodo (b’ak’tun, k’atun, tun, winal, k’in), che Unicode non codifica. Un nuovo b’ak’tun è iniziato il 21 dicembre 2012 — la «fine del mondo» che non c’è stata."
   }
  },
  "dayOne": "1º"

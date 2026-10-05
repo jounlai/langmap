@@ -550,7 +550,7 @@ window.TM_I18N["vi"] = {
    "type": "Đếm ngày + Tzolk’in 260 ngày + Haab’ 365 ngày",
    "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 tháng 8 năm 3114 TCN (đối chiếu GMT)",
    "used": "Văn khắc Maya thời Cổ điển, khoảng năm 250–909; chu kỳ 260 ngày vẫn được giữ ở vùng cao nguyên Guatemala",
-   "note": "Một b’ak’tun mới bắt đầu ngày 21 tháng 12 năm 2012 — “ngày tận thế” đã không xảy ra."
+   "note": "Hiển thị bằng chữ số gạch-chấm của người Maya (một chấm là 1, một gạch là 5, một vỏ sò là 0); dạng có dấu chấm 13.0.13.17.16 là cách viết hiện đại của cùng con số đó. Trên các bia đá, mỗi con số đứng cạnh một ký tự chỉ chu kỳ của nó (b’ak’tun, k’atun, tun, winal, k’in), những ký tự mà Unicode không mã hóa. Một b’ak’tun mới bắt đầu ngày 21 tháng 12 năm 2012 — “ngày tận thế” đã không xảy ra."
   }
  }
 };

@@ -550,7 +550,7 @@ window.TM_I18N["de"] = {
    "type": "Tageszählung + 260-Tage-Tzolk’in + 365-Tage-Haab’",
    "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11. August 3114 v. Chr. (GMT-Korrelation)",
    "used": "Inschriften der klassischen Maya, etwa 250–909 n. Chr.; die 260-Tage-Zählung wird im Hochland Guatemalas noch geführt",
-   "note": "Ein neues B’ak’tun begann am 21. Dezember 2012 – der „Weltuntergang“, der keiner war."
+   "note": "Dargestellt in Maya-Strich-Punkt-Ziffern (ein Punkt ist 1, ein Strich 5, eine Muschel 0); das gepunktete 13.0.13.17.16 ist die moderne Schreibweise derselben Zählung. Auf Monumenten stand jede Zahl neben einer Glyphe, die ihre Periode benennt (b’ak’tun, k’atun, tun, winal, k’in) und die Unicode nicht kodiert. Ein neues B’ak’tun begann am 21. Dezember 2012 – der „Weltuntergang“, der keiner war."
   }
  }
 };

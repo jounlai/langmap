@@ -55,7 +55,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Sans+Mayan+Numerals&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap">
     <style>
         /* ===== TimeMap layout — copied from NameMap so the maps look alike
                  (header/nav/lang-picker/buttons come from styles.css) ===== */
@@ -65,7 +65,7 @@
         .site-header-bar .logo-badge-time { background: #0f766e; }
         :root { --tm-accent: #0f766e; --tm-accent-dark: #0b5a54; --tm-accent-tint: #e6f4f2; --tm-hist: #8a5a1c; }
 
-        .tm-script { font-family: 'Noto Sans','Noto Sans Hebrew','Noto Sans Arabic','Noto Sans Devanagari','Noto Sans Bengali','Noto Sans Ethiopic','Noto Sans Thai','Noto Serif JP','Noto Serif SC','Noto Serif KR', sans-serif; }
+        .tm-script { font-family: 'Noto Sans','Noto Sans Mayan Numerals','Noto Sans Hebrew','Noto Sans Arabic','Noto Sans Devanagari','Noto Sans Bengali','Noto Sans Ethiopic','Noto Sans Thai','Noto Serif JP','Noto Serif SC','Noto Serif KR', sans-serif; }
 
         .tm-stage { flex: 1 1 auto; position: relative; min-height: 0; }
         #map { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; height: 100dvh; background: #fff; z-index: 1; }
@@ -145,6 +145,9 @@
         }
         .tm-label.is-hist .r { font-style: italic; }
         .tm-label.is-hist .t { color: #6b4a1a; }
+        /* Mayan numerals are drawn small inside the em box; give them room to read. */
+        .tm-label.cal-maya .w { font-size: calc(26px * var(--tm-scale, 1)); letter-spacing: 3px; line-height: 1; }
+        .tm-row[data-id="maya"] .tm-row-date, .tm-pop-date.cal-maya { font-size: 28px; letter-spacing: 3px; line-height: 1.1; }
 
         /* Leaflet popup */
         .leaflet-popup-content { margin: 12px 14px; min-width: 200px; }
@@ -226,6 +229,14 @@
         }
         .leaflet-control-attribution a { color: rgba(0,0,0,0.78) !important; }
 
+        /* Mid widths (641–1000): six nav links + share + language leave no
+           room for langmaps.com beside the logo. */
+        /* Header buttons hug the right edge only in the hamburger layout. */
+        @media (max-width: 640px) { .site-header-bar { gap: 0; } }
+        @media (min-width: 641px) and (max-width: 1000px) {
+            .site-header-bar .header-url { display: none; }
+        }
+
         /* ---- Mobile-only bits ---- */
         .tm-info-close, .tm-sheet-backdrop, .tm-details-btn { display: none; }
 
@@ -244,7 +255,6 @@
             .tm-controls > * { pointer-events: auto; }
             .tm-filters { display: none; }
             .map-zoom-controls { display: none; }
-            .site-header-bar { gap: 0; }
             .site-header-bar > .chrome-toggle-btn { margin-left: auto; }
             .site-header-bar > .chrome-toggle-btn + .hamburger-btn { margin-left: 6px; }
             /* below the date row, so the gear never crowds the date controls */
@@ -355,7 +365,7 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="timemap_calendars.js?v=2"></script>
+    <script src="timemap_calendars.js?v=3"></script>
     <script>
     (function () {
         'use strict';
@@ -369,7 +379,7 @@
             ['fr','Français'],['it','Italiano'],['es','Español'],['pt','Português'],['ru','Русский'],
             ['uk','Українська'],['ar','العربية'],['he','עברית'],['sw','Kiswahili']];
         const HAS = Object.fromEntries(LANGS.map(([c]) => [c, true]));
-        const I18N_VERSION = 1;
+        const I18N_VERSION = 2;
         window.TM_I18N = window.TM_I18N || {};
         const loading = {};
         function ensureLang(lang){
@@ -478,7 +488,7 @@
             h+='<div class="tm-pop-name">'+esc(ct(cal,'name'))+'</div>';
             if(cal.status==='historical' && cal.endYear && g.y>cal.endYear) h+='<span class="tm-pop-badge">'+esc(fill(t('ended'), { n: cal.endYear }))+'</span>';
             if(r){
-                h+='<div class="tm-pop-date tm-script" dir="auto">'+esc(r.native)+'</div>';
+                h+='<div class="tm-pop-date tm-script cal-'+cal.id+'" dir="auto">'+esc(r.native)+'</div>';
                 if(r.tr) h+='<div class="tm-pop-tr tm-script" dir="auto">'+esc(r.tr)+'</div>';
             } else h+='<div class="tm-pop-tr">'+esc(t('notYet'))+'</div>';
             h+='<dl class="tm-pop-dl"><dt>'+esc(t('type'))+'</dt><dd dir="auto">'+esc(ct(cal,'type'))+'</dd>'
@@ -498,7 +508,7 @@
                 const r=dateOf(cal); if(!r) return;
                 const cls = cal.status==='historical' ? ' is-hist' : cal.status==='gregorian' ? ' is-greg' : '';
                 // native date / the same date in the UI language / calendar name
-                const html='<div class="tm-label'+cls+'"><span class="w tm-script" dir="auto">'+esc(r.native)+'</span>'
+                const html='<div class="tm-label'+cls+' cal-'+cal.id+'"><span class="w tm-script" dir="auto">'+esc(r.native)+'</span>'
                     +(r.tr ? '<span class="t tm-script" dir="auto">'+esc(r.tr)+'</span>' : '')
                     +'<span class="r tm-script" dir="auto">'+esc(ct(cal,'name'))+'</span></div>';
                 const icon=L.divIcon({ className:'tm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
@@ -591,7 +601,8 @@
         function placeChromeToggle(){
             const btn=document.getElementById('chrome-toggle'), ctl=document.getElementById('tm-map-ctl');
             const header=document.querySelector('.site-header-bar'), hamburger=document.querySelector('.hamburger-btn');
-            if(window.matchMedia('(min-width: 781px)').matches){ if(btn.parentElement!==ctl) ctl.insertBefore(btn, ctl.firstChild); }
+            // Header only where it collapses into the hamburger (≤640, as on WordMap).
+            if(window.matchMedia('(min-width: 641px)').matches){ if(btn.parentElement!==ctl) ctl.insertBefore(btn, ctl.firstChild); }
             else if(btn.parentElement!==header) header.insertBefore(btn, hamburger||null);
         }
 
@@ -691,5 +702,6 @@
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=1"></script>
     <script src="lang-picker.js?v=3"></script>
+    <script src="nav-short.js?v=1"></script>
 </body>
 </html>

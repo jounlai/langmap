@@ -550,7 +550,7 @@ window.TM_I18N["id"] = {
    "type": "Hitungan hari + Tzolk’in 260 hari + Haab’ 365 hari",
    "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 Agustus 3114 SM (korelasi GMT)",
    "used": "Prasasti Maya Klasik, sekitar 250–909 M; hitungan 260 hari masih dipakai di dataran tinggi Guatemala",
-   "note": "B’ak’tun baru dimulai pada 21 Desember 2012 — “kiamat” yang tidak pernah terjadi."
+   "note": "Ditampilkan dengan angka batang-dan-titik Maya (satu titik = 1, satu batang = 5, cangkang = 0); bentuk bertitik 13.0.13.17.16 adalah cara modern menuliskan hitungan yang sama. Pada monumen, setiap angka berdiri di samping glif yang menamai periodenya (b’ak’tun, k’atun, tun, winal, k’in), yang tidak dikodekan oleh Unicode. B’ak’tun baru dimulai pada 21 Desember 2012 — “kiamat” yang tidak pernah terjadi."
   }
  }
 };

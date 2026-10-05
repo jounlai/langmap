@@ -550,7 +550,7 @@ window.TM_I18N["es"] = {
    "type": "Cuenta de días + tzolkin de 260 días + haab de 365 días",
    "epoch": "13.0.0.0.0 4 Ajaw 8 Kumk’u = 11 de agosto de 3114 a. C. (correlación GMT)",
    "used": "Inscripciones mayas del periodo clásico, aprox. 250–909 d. C.; la cuenta de 260 días aún se mantiene en el altiplano de Guatemala",
-   "note": "Un nuevo baktún empezó el 21 de diciembre de 2012: el «fin del mundo» que no llegó."
+   "note": "Se muestra en numerales mayas de barras y puntos (un punto vale 1, una barra 5, una concha 0); la forma con puntos 13.0.13.17.16 es la manera moderna de escribir la misma cuenta. En los monumentos cada número iba junto a un glifo que nombraba su periodo (b’ak’tun, k’atun, tun, winal, k’in), que Unicode no codifica. Un nuevo baktún empezó el 21 de diciembre de 2012: el «fin del mundo» que no llegó."
   }
  }
 };

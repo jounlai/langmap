@@ -826,7 +826,7 @@ WORDS.milk = {
     mkz: ["amirae", "amiˈrae"],
     dtp_kzj: ["gatas", "ˈɡatas"],
     pot: ["nonagnabo", "nonaɡnabo"],
-    vi_c: ["sữa", "ʂɨə˨˨"],
+    vi_c: ["sữa", "ʂɨə˧˩˨"],
     vi_s: ["sữa", "ʂɨə˨˩˦"],
     th_isan: ["นม", "nom˧"],
     th_n: ["นม", "nom˧"],

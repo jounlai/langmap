@@ -184,7 +184,7 @@ WORDS.bone = {
     wuu: ["骨头", "kuəʔ˥ dɤ˩˧"],
     hak_cn: ["骨头", "kut˧ tʰeu˩˩"],
     vi: ["xương", "sɨəŋ˧"],
-    vi_c: ["xương", "sɨəŋ˧"],
+    vi_c: ["xương", "sɨəŋ˥"],
     vi_s: ["xương", "sɨəŋ˧"],
     th: ["กระดูก", "kra˨˩duːk˨˩"],
     id: ["tulang", "ˈtulaŋ"],

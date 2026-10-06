@@ -373,7 +373,7 @@ WORDS.atsign = {
     ja_aom: ["アットマーク", "atːomaːɡɯ"],
     ko_jeju: ["골뱅이", "kolbɛŋi"],
     ko_hg: ["골뱅이", "kolbɛŋi"],
-    vi_c: ["a còng", "aː˧ kɔŋ͡m˧˨"],
+    vi_c: ["a còng", "aː˥ kɔŋ͡m˦˨"],
     th_isan: ["แอท", "ʔɛːt̚˨˩"],
     th_n: ["แอท", "ʔɛːt̚˨˩"],
     th_s: ["แอท", "ʔɛːt̚˨˩"],

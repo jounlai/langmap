@@ -8,8 +8,8 @@
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 179,
-    "hash": "8cdddc15f9930efc"
+    "version": 180,
+    "hash": "c7becdb8d76d8994"
   },
   "hanmap_trivia.js": {
     "version": 79,
@@ -92,7 +92,7 @@
     "hash": "c0012bf83c59671b"
   },
   "word_manifest.js": {
-    "version": 858,
+    "version": 860,
     "hash": "99fafa5b03aba24a"
   },
   "wordmap_data.js": {

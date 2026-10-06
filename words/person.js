@@ -461,7 +461,7 @@ WORDS.person = {
     peh: ["kuŋ", "kuŋ"],
     pzh: ["saw", "saw"],
     ko_bus: ["사람", "saɾam"],
-    vi_s: ["người", "ŋɨəj˨˩"],
+    vi_s: ["người", "ŋɨj˨˩"],
     rap: ["tagata", "taŋata"],
     ttj: ["omuntu", "omuntu"],
     ty: ["taʻata", "taʔata"],
@@ -537,7 +537,7 @@ WORDS.person = {
     ar_sd: ["زول", "zoːl"],
     ar_tn: ["شخص", "ʃaxsˤ"],
     su: ["jalma", "dʒalma"],
-    vi_c: ["người", "ŋɨəj˧˨"],
+    vi_c: ["người", "ŋɨəj˦˨"],
     th_isan: ["คน", "kʰon˥"],
     za: {
       form: "伝",

@@ -372,8 +372,8 @@ WORDS.black = {
     tkl: ["uli", "uli"],
 
     // --- Austroasiatic, Kra-Dai, Nilotic ---------------------------------
-    vi_c: ["đen", "ɗɛn˧"],
-    vi_s: ["đen", "ɗɛn˧"],
+    vi_c: ["đen", "ɗɛŋ˥"],
+    vi_s: ["đen", "ɗɛŋ˧"],
     mtq: ["đen", "ɗɛn"],
     kxm: ["ខ្មៅ", "kʰmaw"],
     okz: ["ខ្មៅ", "kmau"],

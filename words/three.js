@@ -205,7 +205,7 @@ WORDS.three = {
     wuu: ["三", "sɛ˥˧"],
     hak_cn: ["三", "sam˦˦"],
     vi: ["ba", "ɓaː˧"],
-    vi_c: ["ba", "ɓaː˧"],
+    vi_c: ["ba", "ɓaː˥"],
     vi_s: ["ba", "ɓaː˧"],
     th: ["สาม", "saːm˩˩˦"],
     id: ["tiga", "tiɡa"],

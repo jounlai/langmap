@@ -197,7 +197,7 @@ WORDS.i = {
       wuu: ["我", "ŋu˩˧"],
       hak_cn: ["𠊎", "ŋai˩˩"],
       vi: ["tôi", "toj˧"],
-      vi_c: ["tôi", "toj˧"],
+      vi_c: ["tôi", "toj˥"],
       vi_s: ["tôi", "toj˧"],
       th: ["ผม", "pʰom˩˩˦"],
       id: ["saya", "saja"],

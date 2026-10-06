@@ -198,7 +198,7 @@ WORDS.tree = {
     hak_cn: ["树", "su˥˧"],
     vi: ["cây", "kəj˧"],
     vi_c: ["cây", "kəj˥"],
-    vi_s: ["cây", "kəj˥"],
+    vi_s: ["cây", "kəj˧"],
     th: ["ต้นไม้", "ton˥˩maj˦˥"],
     id: ["pohon", "pohon"],
     ms: ["pokok", "pokoʔ"],

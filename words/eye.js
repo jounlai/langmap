@@ -197,7 +197,7 @@ WORDS.eye = {
     wuu: ["眼睛", "ŋɛ˩ tɕin˥"],
     hak_cn: ["目", "muk˧"],
     vi: ["mắt", "mat˧˥"],
-    vi_c: ["mắt", "maːk˧˥"],
+    vi_c: ["mắt", "mak˧˦"],
     vi_s: ["mắt", "mak˧˥"],
     th: ["ตา", "taː˧"],
     id: ["mata", "mata"],

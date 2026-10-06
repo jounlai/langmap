@@ -655,7 +655,7 @@ WORDS.wheel = {
     hoc: ["cakka", "tʃakka"],
     srb: ["sakkaɖin", "sakkaɖin"],
     sat: ["ᱪᱚᱠ", "tʃɔk"],
-    vi_c: ["bánh xe", "ɓan˩˧ sɛ˥"],
+    vi_c: ["bánh xe", "ɓan˨˦ sɛ˥"],
     tyz: ["bảnh", "ɓaŋ˨˩˧"],
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output

@@ -470,7 +470,7 @@ WORDS.book = {
     ar_gulf: ["كتاب", "kiˈtaːb"],
     vi_s: ["sách", "ʂat˧˥"],
     ko_kp: ["책", "tɕʰɛk̚"],
-    vi_c: ["sách", "ʂat˧˥"],
+    vi_c: ["sách", "ʂat˧˦"],
     th_isan: ["หนังสือ", "naŋ˩˧sɯː˩˧"],
     za: {
       form: "𭨡",

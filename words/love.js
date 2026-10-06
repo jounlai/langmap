@@ -198,7 +198,7 @@ WORDS.love = {
     hak_cn: ["爱", "oi˥˧"],
     vi: ["yêu", "iəw˧"],
     vi_c: ["thương", "tʰɨəŋ˥"],
-    vi_s: ["thương", "tʰɨəŋ˥"],
+    vi_s: ["thương", "tʰɨəŋ˧"],
     th: ["รัก", "rak˦˥"],
     id: ["cinta", "tʃinta"],
     ms: ["cinta", "tʃinta"],

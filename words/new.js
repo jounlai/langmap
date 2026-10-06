@@ -597,7 +597,7 @@ WORDS.new = {
     ar_lev: ["جديد", "ʒdiːd"],
     so: ["cusub", "ʕusub"],
     mg: ["vaovao", "vawˈvaw"],
-    vi_c: ["mới", "mɤːj˧˥"],
+    vi_c: ["mới", "mɤːj˨˦"],
     th_isan: ["ใหม่", "maj˨˩"],
     za: {
       form: "𮄾",

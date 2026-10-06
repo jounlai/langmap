@@ -227,7 +227,7 @@ WORDS.tooth = {
     wuu: ["牙", "ŋa˨˧"],
     hak_cn: ["牙", "ŋa˩˩"],
     vi: ["răng", "zaŋ˧"],
-    vi_c: ["răng", "ɹaŋ˧"],
+    vi_c: ["răng", "ʐaŋ˥"],
     vi_s: ["răng", "ɹaŋ˧"],
     th: ["ฟัน", "fan˧"],
     id: ["gigi", "ˈɡiɡi"],

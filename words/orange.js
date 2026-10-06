@@ -775,7 +775,7 @@ WORDS.orange = {
     wuu: ["橙", "zaŋ˨˧"],
     hak_cn: ["柑仔", "kam˨˦ e˧˩"],
     vi: ["cam", "kaːm˧"],
-    vi_c: ["cam", "kaːm˧"],
+    vi_c: ["cam", "kaːm˥"], // was ["cam", "kaːm˧"] (vi dialect rules 2026-10-06)
     vi_s: ["cam", "kaːm˧"],
     th: ["ส้ม", "som˥˩"],
     id: ["jeruk", "dʒəˈruk"],

@@ -453,7 +453,7 @@ WORDS.sushi = {
     ko_bus: ["초밥", "tɕʰobap̚"],
     ko_jl: ["초밥", "tɕʰobap̚"],
     ko_jeju: ["초밥", "tɕʰobap̚"],
-    vi_c: ["sushi", "ʂu˧ ʂi˧"],
+    vi_c: ["sushi", "ʂu˥ ʂi˥"],
     de_lu: ["Sushi", "ˈzuːʃi"],
     gn: ["súchi", "ˈsuʃi"],
     awa: ["सुशी", "suʃiː"],

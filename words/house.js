@@ -197,7 +197,7 @@ WORDS.house = {
     wuu: ["屋里", "oʔ˥ li"],
     hak_cn: ["屋", "vuk˧"],
     vi: ["nhà", "ɲaː˨˩"],
-    vi_c: ["nhà", "ɲaː˧˨"],
+    vi_c: ["nhà", "ɲaː˦˨"],
     vi_s: ["nhà", "ɲaː˨˩"],
     th: ["บ้าน", "baːn˥˩"],
     id: ["rumah", "rumah"],

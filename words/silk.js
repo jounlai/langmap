@@ -277,7 +277,7 @@ WORDS.silk = {
     tl: ["sutla", "sutˈlaʔ"],
     vi_s: ["lụa", "luə˨˩˨"],
     ko_kp: ["비단", "pidan"],
-    vi_c: ["lụa", "luə˨˨"],
+    vi_c: ["lụa", "luə˧˩"],
     th_isan: ["ไหม", "maj˩˧"],
     za: ["seicouz", "θei˨˦ɕou˧˩"],
     prs: ["ابریشم", "abreːʃam"],

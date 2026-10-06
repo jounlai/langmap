@@ -947,7 +947,7 @@ WORDS.coffee = {
     bew: ["kupi", "kupi"],
     sat: ["ᱠᱚᱯᱷᱤ", "kɔpʰi"],
     mnw: ["ကဝ်ဖှဳ", "kɑwfɪ"],
-    vi_c: ["cà phê", "kaː˧˨ fej˧"],
+    vi_c: ["cà phê", "kaː˦˨ fe˥"], // was ["cà phê", "kaː˧˨ fej˧"] (vi dialect rules 2026-10-06)
     ln: ["kafé", "kafé"],
     tn: ["kofi", "kofi"],
     rn: ["ikawa", "ikawa"],

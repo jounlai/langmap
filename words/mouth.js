@@ -194,7 +194,7 @@ WORDS.mouth = {
     bnn: ["ngulus", "ŋulus"],
     ami: ["ngoyos", "ŋojos"],
     tao: ["ngongoy", "ŋoŋoj"],
-    vi_c: ["miệng", "miəŋ˨˨"],
+    vi_c: ["miệng", "miəŋ˧˩"],
     vi_s: ["miệng", "miəŋ˨˩˨"],
     tr: ["ağız", "aˈɯz"],
     fa: ["دهان", "dæˈhɒːn"],

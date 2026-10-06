@@ -197,7 +197,7 @@ WORDS.water = {
     wuu: ["水", "sz̩˧˥"],
     hak_cn: ["水", "sui˧˩"],
     vi: ["nước", "nɨək˧˥"],
-    vi_c: ["nước", "nɨək˧˥"],
+    vi_c: ["nước", "nɨək˧˦"],
     vi_s: ["nước", "nɨək˧˥"],
     th: ["น้ำ", "nam˦˥"],
     id: ["air", "ˈair"],

@@ -1335,7 +1335,7 @@ WORDS.we = {
     wuu: ["阿拉", "aʔ˧ laʔ˦"],
     hak_cn: ["𠊎兜", "ŋai˩˩ teu˦"],
     vi: ["chúng ta / chúng tôi", "tɕuŋ͡m˧˥ taː˧ / tɕuŋ͡m˧˥ toj˧"],
-    vi_c: ["chúng ta / chúng tôi", "tɕuŋ͡m˧˥ taː˧ / tɕuŋ͡m˧˥ toj˧"],
+    vi_c: ["chúng ta / chúng tôi", "cuŋ͡m˨˦ taː˥ / cuŋ͡m˨˦ toj˥"], // was ["chúng ta / chúng tôi", "tɕuŋ͡m˧˥ taː˧ / tɕuŋ͡m˧˥ toj˧"] (vi dialect rules 2026-10-06)
     vi_s: ["chúng ta / chúng tôi", "cuŋ͡m˧˥ taː˧ / cuŋ͡m˧˥ toj˧"],
     th: ["เรา", "raw˧"],
     id: ["kita / kami", "kita / kami"],

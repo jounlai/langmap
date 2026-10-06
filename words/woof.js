@@ -249,7 +249,7 @@ WORDS.woof = {
     ja_aom: ["ワンワン", "waɴwaɴ"],
     ko_jl: ["멍멍", "məŋməŋ"],
     ko_hg: ["멍멍", "mʌŋmʌŋ"],
-    vi_c: ["gâu gâu", "ɣəw˧ ɣəw˧"],
+    vi_c: ["gâu gâu", "ɣəw˥ ɣəw˥"],
     ar_lev: ["هَوْ هَوْ", "haw haw"],
     de_lu: ["wau wau", "vaʊ vaʊ"],
     de_at: ["wau wau", "vaʊ vaʊ"],

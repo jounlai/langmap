@@ -197,7 +197,7 @@ WORDS.star = {
       wuu: ["星", "ɕin˥˧"],
       hak_cn: ["星仔", "sen˦ ne˧˩"],
       vi: ["sao", "saːw˧"],
-      vi_c: ["sao", "ʂaːw˧"],
+      vi_c: ["sao", "ʂaːw˥"],
       vi_s: ["sao", "ʂaːw˧"],
       th: ["ดาว", "daːw˧"],
       id: ["bintang", "bintaŋ"],

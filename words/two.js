@@ -197,7 +197,7 @@ WORDS.two = {
       wuu: ["二", "ɲi˨˧"],
       hak_cn: ["二", "ŋi˥˧"],
       vi: ["hai", "haːj˧"],
-      vi_c: ["hai", "haːj˧"],
+      vi_c: ["hai", "haːj˥"],
       vi_s: ["hai", "haːj˧"],
       th: ["สอง", "sɔːŋ˩˩˦"],
       id: ["dua", "dua"],

@@ -197,7 +197,7 @@ WORDS.mother = {
     wuu: ["姆妈", "m̩˥ ma˨˩"],
     hak_cn: ["阿姆", "a˥ me˥"],
     vi: ["mẹ", "mɛ˨˩"],
-    vi_c: ["mạ", "maː˨˨"],
+    vi_c: ["mạ", "maː˧˩"],
     vi_s: ["má", "maː˧˥"],
     th: ["แม่", "mɛː˥˩"],
     id: ["ibu", "ibu"],

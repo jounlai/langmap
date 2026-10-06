@@ -1676,7 +1676,7 @@ WORDS.bear = {
     th_n: ["หมี", "miː˩˧"],
     th_s: ["หมี", "miː˩˧"],
     hmn: ["dais", "tai˨˩"],
-    vi_c: ["gấu", "ɣəw˧˥"],
+    vi_c: ["gấu", "ɣəw˨˦"], // was ["gấu", "ɣəw˧˥"] (vi dialect rules 2026-10-06)
     vi_s: ["gấu", "ɣəw˧˥"],
     mtq: ["củ", "kuː"],
     bru: ["sacâu", "sakəw"],

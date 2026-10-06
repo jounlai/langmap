@@ -208,7 +208,7 @@ WORDS.night = {
     wuu: ["夜里", "ɦia˨˧ li˨˧"],
     hak_cn: ["暗晡夜", "am˥ pu˦ ja˥"],
     vi: ["đêm", "ɗem˧"],
-    vi_c: ["đêm", "ɗeːm˧"],
+    vi_c: ["đêm", "ɗem˥"],
     vi_s: ["đêm", "ɗem˧"],
     th: ["คืน", "kʰɯːn˧"],
     id: ["malam", "ˈmalam"],

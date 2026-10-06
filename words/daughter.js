@@ -479,8 +479,8 @@ WORDS.daughter = {
     cnh: ["fanu", "fanu"],
 
     // --- Mainland Southeast Asia — "child" plus "female" -----------------
-    vi_s: ["con gái", "kɔŋ͡m˧ ɣaːj˧˥"],
-    vi_c: ["con gái", "kɔŋ͡m˧ ɣaːj˧˥"],
+    vi_s: ["con gái", "kɔːŋ˧ ɣaːj˧˥"],
+    vi_c: ["con gái", "kɔːŋ˥ ɣaːj˨˦"],
     sukh: ["ลูกสาว", "luːk saːw"],
     kxm: ["កូនស្រី", "koːn srɛj"],
     kha: ["khun kynthei", "kʰun kintʰei"],

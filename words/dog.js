@@ -197,7 +197,7 @@ WORDS.dog = {
     wuu: ["狗", "kɤ˧˥"],
     hak_cn: ["狗", "kieu˧˩"],
     vi: ["chó", "tɕɔ˧˥"],
-    vi_c: ["chó", "tɕɔː˩˧"],
+    vi_c: ["chó", "cɔ˨˦"],
     vi_s: ["chó", "cɔ˧˥"],
     th: ["หมา", "maː˩˩˦"],
     id: ["anjing", "andʒiŋ"],

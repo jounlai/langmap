@@ -516,7 +516,7 @@ WORDS.computer = {
     ko_bus: ["컴퓨터", "kʰʌmpʰjutʰʌ"],
     ko_jl: ["컴퓨터", "kʰəmpʰjutʰə"],
     ko_jeju: ["컴퓨터", "kʰʌmpʰjutʰʌ"],
-    vi_c: ["máy tính", "maj˧˥ tɨn˧˥"],
+    vi_c: ["máy tính", "maj˨˦ tɨn˨˦"],
     de_lu: ["Computer", "kɔmˈpjuːtɐ"],
     ext: ["ordenaol", "oɾðenaˈol"],
     sgs: ["kuompioteris", "kuomˈpʲɔtʲɛrʲɪs"],

@@ -459,7 +459,7 @@ WORDS.cockcrow = {
     en_em: ["cockadidle-dowe", "kɒk ə ˈdɪdəl doː"],
     zh_tw: ["喔喔", "wo˥˩ wo˥˩"],
     vi: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
-    vi_c: ["ò ó o", "ɔ˧˨ ɔ˧˥ ɔ˧"],
+    vi_c: ["ò ó o", "ɔ˦˨ ɔ˨˦ ɔ˥"],
     vi_s: ["ò ó o", "ɔ˨˩ ɔ˧˥ ɔ˧"],
     th: ["เอ้กอี๊เอ้กเอ้ก", "ʔeːk˥˩ ʔiː˦˥ ʔeːk˥˩ ʔeːk˥˩"],
     id: ["kukuruyuk", "kukuˈrujuʔ"],

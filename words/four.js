@@ -380,8 +380,8 @@ WORDS.four = {
     chf: ["chan", "tʃan"],
 
     // --- Austroasiatic — *punʔ ------------------------------------------
-    vi_c: ["bốn", "ɓon˧˥"],
-    vi_s: ["bốn", "ɓon˧˥"],
+    vi_c: ["bốn", "ɓoːŋ˨˦"],
+    vi_s: ["bốn", "ɓoːŋ͡m˧˥"],
     kxm: ["បួន", "ɓuːn"],
     okz: ["បួន", "puon"],
     mnw: ["ပန်", "pan"],

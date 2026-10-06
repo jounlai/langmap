@@ -153,7 +153,7 @@ WORDS.five = {
     wuu: ["五", "ŋ̩˨˧"],
     hak_cn: ["五", "ŋ̍˧˩"],
     vi: ["năm", "nam˧"],
-    vi_c: ["năm", "nam˧"],
+    vi_c: ["năm", "nam˥"],
     vi_s: ["năm", "nam˧"],
     th: ["ห้า", "haː˥˩"],
     id: ["lima", "lima"],

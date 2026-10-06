@@ -180,7 +180,7 @@ WORDS.white = {
     wuu: ["白", "baʔ˩˨"],
     hak_cn: ["白", "pʰak̚˥"],
     vi: ["trắng", "tɕaŋ˧˥"],
-    vi_c: ["trắng", "ʈaŋ˧˥"],
+    vi_c: ["trắng", "ʈaŋ˨˦"],
     vi_s: ["trắng", "ʈaŋ˧˥"],
     th: ["ขาว", "kʰaːw˩˩˦"],
     id: ["putih", "ˈputih"],

@@ -126,7 +126,7 @@ WORDS.poop = {
     wuu: ["屎", "sz̩˧˥"],
     hak_cn: ["屎", "sɨ˧˩"],
     vi: ["cứt", "kɨt̚˧˥"],
-    vi_c: ["phân", "fən˧"],
+    vi_c: ["phân", "fəŋ˥"],
     vi_s: ["phân", "fəŋ˧"],
     th: ["อึ", "ʔɯː˥˩"],
     id: ["pup", "pup"],

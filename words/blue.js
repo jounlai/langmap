@@ -778,7 +778,7 @@ WORDS.blue = {
     ar_sa: ["أزرق", "ˈʔazraɡ"],
     ar_ye: ["أزرق", "ˈʔazraɡ"],
     jvn: ["biru", "biru"],
-    vi_c: ["xanh", "san˧"],
+    vi_c: ["xanh", "san˥"], // was ["xanh", "san˧"] (vi dialect rules 2026-10-06)
     ja_hak: ["青い", "aoi"],
     ket: ["съʼнь", "səʔnʲ"], // was ["съньсь", "sʌɲɕ"] (r31 fix 2026-10-02)
     ii: ["ꀊꃴ", "a˧˧vu˥"],

@@ -197,7 +197,7 @@ WORDS.cat = {
     wuu: ["猫", "mɔ˥"],
     hak_cn: ["猫公", "miau˥ kuŋ˦"],
     vi: ["mèo", "mɛw˨˩"],
-    vi_c: ["mèo", "mɛːw˧˨"],
+    vi_c: ["mèo", "mɛw˦˨"],
     vi_s: ["mèo", "mɛw˨˩"],
     th: ["แมว", "mɛːw˧"],
     id: ["kucing", "kutʃiŋ"],

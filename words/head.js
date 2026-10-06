@@ -606,7 +606,7 @@ WORDS.head = {
     ar_lev: ["راس", "raːs"],
     so: ["madax", "madaħ"],
     mg: ["loha", "ˈluha"],
-    vi_c: ["đầu", "ɗəw˧˨"],
+    vi_c: ["đầu", "ɗəw˦˨"],
     th_isan: ["หัว", "hua˩˧"],
     za: {
       form: "𬼣",

@@ -136,7 +136,7 @@ WORDS.bird = {
     wuu: ["鸟", "ɲiɔ˨˧"],
     hak_cn: ["鸟", "tiau˥˧"],
     vi: ["chim", "tɕim˧"],
-    vi_c: ["chim", "tɕim˧"],
+    vi_c: ["chim", "cim˥"],
     vi_s: ["chim", "cim˧"],
     th: ["นก", "nok˦˥"],
     id: ["burung", "buruŋ"],

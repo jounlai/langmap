@@ -361,7 +361,7 @@ WORDS.rice = {
     ar_gulf: ["عيش", "ʕeːʃ"],
     vi_s: ["gạo", "ɣaːw˨˩˨"],
     ko_kp: ["쌀", "s͈al"],
-    vi_c: ["gạo", "ɣaːw˨˨"],
+    vi_c: ["gạo", "ɣaːw˧˩"],
     th_isan: ["ข้าว", "kʰaw˧"],
     za: {
       form: "𬖙",

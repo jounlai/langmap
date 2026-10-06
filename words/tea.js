@@ -1000,7 +1000,7 @@ WORDS.tea = {
     sat: ["ᱪᱟ", "tʃa"],
     mnw: ["ဍာ်လက်ဖက်", "ɗaʔ ləpʰɛk"],
     vi_s: ["trà", "ʈaː˨˩"],
-    vi_c: ["chè", "tɕɛ˧˨"],
+    vi_c: ["chè", "cɛ˦˨"], // was ["chè", "tɕɛ˧˨"] (vi dialect rules 2026-10-06)
     ln: ["ti", "ti"],
     tn: ["tee", "teː"],
     rn: ["icayi", "itʃaji"],

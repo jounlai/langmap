@@ -279,7 +279,7 @@ WORDS.dopamine = {
     ja_mvi: ["ドーパミン", "doːpamiɴ"],
     ja_rys: ["ドーパミン", "doːpamiɴ"],
     ko_jeju: ["도파민", "topʰamin"],
-    vi_c: ["dopamine", "ɗo˧ paː˧ min˧"],
+    vi_c: ["dopamine", "ɗo˥ paː˥ min˥"],
     vi_s: ["dopamine", "ɗo˧ paː˧ min˧"],
     th_isan: ["โดพามีน", "doː˧ pʰaː˧ miːn˧"],
     th_n: ["โดพามีน", "doː˧ pʰaː˧ miːn˧"],

@@ -109,7 +109,7 @@ WORDS.rain = {
     zh_tang: ["雨", "ɦuə̆"],
     zh_wenyan_edu: ["雨", "jyː˩˧"],
     vi: ["mưa", "mɨə˧"],
-    vi_c: ["mưa", "mɨə˧"],
+    vi_c: ["mưa", "mɨə˥"],
     vi_s: ["mưa", "mɨə˧"],
     vi_han: ["雨", "vu˧˧ˀ˥"],
     th: ["ฝน", "fɔn˩˩˦"],

@@ -473,7 +473,7 @@ WORDS.hundred = {
     cbk: ["cien", "sjen"],
     uln: ["hundert", "ˈhundɛrt"],
     pmy: ["seratus", "seratus"],
-    vi_c: ["trăm", "ʈam˧"],
+    vi_c: ["trăm", "ʈam˥"],
     vi_s: ["trăm", "ʈam˧"],
     kxm: ["រយ", "ruːəj"],
     zh_wenyan_edu: ["百", "paːk˧"],

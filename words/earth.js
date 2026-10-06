@@ -119,7 +119,7 @@ WORDS.earth = {
     zh_tang: ["土", "tʰɔ"],
     zh_wenyan_edu: ["土", "tʰou˧˥"],
     vi: ["đất", "ɗət˧˥"],
-    vi_c: ["đất", "ɗət˧˥"],
+    vi_c: ["đất", "ɗək˧˦"],
     vi_s: ["đất", "ɗək˧˥"],
     vi_han: ["土", "tʰo˧˩˧"],
     th: ["ดิน", "din˧"],

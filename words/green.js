@@ -472,7 +472,7 @@ WORDS.green = {
     ar_lev: ["أخضر", "ˈʔaxdˤar"],
     ar_gulf: ["أخضر", "ˈʔaxðˤar"],
     vi_s: ["xanh lá", "san˧ laː˧˥"],
-    vi_c: ["xanh lá", "san˧ laː˧˥"],
+    vi_c: ["xanh lá", "san˥ laː˨˦"],
     th_isan: ["เขียว", "kʰiaw˩˧"],
     za: {
       form: "𫇯",

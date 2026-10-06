@@ -124,7 +124,7 @@ WORDS.egg = {
     wuu: ["蛋", "dɛ˨˧"],
     hak_cn: ["卵", "lon˧˩"],
     vi: ["trứng", "tɕɨŋ˧˥"],
-    vi_c: ["trứng", "ʈɨŋ˧˥"],
+    vi_c: ["trứng", "ʈɨŋ˨˦"],
     vi_s: ["trứng", "ʈɨŋ˧˥"],
     th: ["ไข่", "kʰaj˨˩"],
     id: ["telur", "təˈlur"],

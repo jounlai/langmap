@@ -397,7 +397,7 @@ WORDS.chocolate = {
     yo: ["ṣokoléètì", "ʃokoléètì"],
     en_in: ["chocolate", "ˈtʃɔːkləʈ"],
     ps: ["چاکلېټ", "tʃɑˈkleʈ"],
-    vi_c: ["sô-cô-la", "ʂo˧ ko˧ laː˧"],
+    vi_c: ["sô-cô-la", "ʂo˥ ko˥ laː˥"],
     en_south: ["chocolate", "ˈtʃɑːklət"],
     en_nz: ["chocolate", "ˈtʃɔklət"],
     de_at: ["Schokolade", "ʃokoˈlaːdə"],

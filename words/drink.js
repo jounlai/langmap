@@ -197,7 +197,7 @@ WORDS.drink = {
     wuu: ["喝", "huəʔ˥"],
     hak_cn: ["饮", "iam˧˩"],
     vi: ["uống", "uəŋ˧˥"],
-    vi_c: ["uống", "uəŋ˩˧"],
+    vi_c: ["uống", "uəŋ˨˦"],
     vi_s: ["uống", "uəŋ˧˥"],
     th: ["ดื่ม", "dɯːm˨˩"],
     id: ["minum", "minum"],

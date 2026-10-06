@@ -1109,7 +1109,7 @@ WORDS.sugar = {
     tet: ["masin-midar", "masin-midar"],
     sat: ["ᱪᱤᱱᱤ", "tʃini"],
     mnw: ["သဂြာ", "həkrɛ̤a"],
-    vi_c: ["đường", "ɗɨəŋ˧˨"],
+    vi_c: ["đường", "ɗɨəŋ˦˨"], // was ["đường", "ɗɨəŋ˧˨"] (vi dialect rules 2026-10-06)
     ln: ["sukáli", "sukáli"],
     tn: ["sukiri", "sukiri"],
     lg: ["ssukaali", "sːukaːli"],

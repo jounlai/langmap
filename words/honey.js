@@ -573,7 +573,7 @@ WORDS.honey = {
     th_n: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
     th_s: ["น้ำผึ้ง", "nam˧˥ pʰɯŋ˥˩"],
     th_isan: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
-    vi_s: ["mật ong", "mək˨˩˨ ɔŋ͡m˧"],
+    vi_s: ["mật ong", "mək˨˩ ɔŋ͡m˧"],
 
     // --- Pacific and the Philippines ---------------------------------------
     // Two more Pacific reflexes of the mel/méli family, carried in by mission
@@ -825,7 +825,7 @@ WORDS.honey = {
     acu: ["wapasa yumiri", "wapasa jumiɾi"],
     nan_te: ["蜂蜜", "pʰaŋ˧˧ bik˦"],
     ar_lev: ["عسل", "ʕasal"],
-    vi_c: ["mật ong", "mət˨˨ ɔŋ͡m˧"],
+    vi_c: ["mật ong", "mək˧˩ ɔŋ͡m˥"],
     ctg: ["মধু", "mɔdʱu"],
     rkt: ["মধু", "modʱu"],
     tn: ["tswina", "tswina"],

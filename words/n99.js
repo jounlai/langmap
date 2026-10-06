@@ -1121,8 +1121,8 @@ WORDS.n99 = {
     pam: ["siam apuluʼt siam", "siˈam ʔaˈpulut siˈam"],
     ilo: ["siam a pulo ket siam", "siˈam a ˈpulo ket siˈam"],
     mg: ["sivy amby sivifolo", "sivʲ ambʲ siviˈfulu"],
-    vi_c: ["chín mươi chín", "tɕiːn˧˥ mɨəj˧ tɕiːn˧˥"],
-    vi_s: ["chín mươi chín", "cɨn˧˥ mɨəj˧ cɨn˧˥"],
+    vi_c: ["chín mươi chín", "cin˨˦ mɨəj˥ cin˨˦"], // was ["chín mươi chín", "tɕiːn˧˥ mɨəj˧ tɕiːn˧˥"] (vi dialect rules 2026-10-06)
+    vi_s: ["chín mươi chín", "cɨn˧˥ mɨj˧ cɨn˧˥"], // was ["chín mươi chín", "cɨn˧˥ mɨəj˧ cɨn˧˥"] (vi dialect rules 2026-10-06)
     awa: ["निन्नानबे", "ninːaːnbe"],
     rkt: ["নিরানব্বই", "niranɔbːoi"],
     mag: ["निनानवे", "ninaːnʋe"],

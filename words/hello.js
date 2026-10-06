@@ -197,7 +197,7 @@ WORDS.hello = {
     wuu: ["侬好", "noŋ˩ hɔ˧˩"],
     hak_cn: ["你好", "ŋi˩˩ ho˧˩"],
     vi: ["xin chào", "sin˧ tɕaːw˨˩"],
-    vi_c: ["xin chào", "siːn˥ tɕaːw˧˨"],
+    vi_c: ["xin chào", "sin˥ caːw˦˨"],
     vi_s: ["xin chào", "sɨn˧ caːw˨˩"],
     th: ["สวัสดี", "sa˨˩wat˨˩diː˧"],
     id: ["halo", "ˈhalo"],

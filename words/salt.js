@@ -499,7 +499,7 @@ WORDS.salt = {
     hns: ["namak", "nəmək"],
 
     // --- Mainland Southeast Asia ------------------------------------------
-    vi_s: ["muối", "muəj˧˥"],
+    vi_s: ["muối", "muj˧˥"],
     sukh: ["เกลือ", "klɯa"],
     kxm: ["អំបិល", "mmel"],
     sat: ["ᱵᱩᱞᱩᱝ", "buluŋ"],
@@ -771,7 +771,7 @@ WORDS.salt = {
     bru: ["boi", "ɓɔːj"],
     bdq: ["boh", "ɓɔh"],
     mtq: ["bỏi", "ɓɔːj"],
-    vi_c: ["muối", "muəj˧˥"],
+    vi_c: ["muối", "muəj˨˦"],
     p_aav: ["*ɓɔːh", "ɓɔːh"],
     p_viet: ["*ɓɔːjʔ", "ɓɔːjʔ"],
     soa: ["เกีย", "kiːa˨˦"],

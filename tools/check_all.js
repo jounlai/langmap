@@ -91,6 +91,10 @@ line('subset claims only rare glyphs', num(s, /overreaching: (\d+)/));
 s = run('hanmap_glyph_served_check.js');
 line('Han Map rare glyphs served', num(s, /unserved: (\d+)/));
 
+// Every Han Map row must be reachable from the language filter (za_sd was not, 2026-10-06).
+s = run('hanmap_group_coverage_check.js --check');
+line('Han Map rows in a filter group', num(s, /violations: (\d+)/));
+
 s = run('korean_hist_font_check.js');
 line('Old Hangul font coverage', num(s, /problems: (\d+)/));
 

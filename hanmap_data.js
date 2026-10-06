@@ -35,11 +35,11 @@
 
 
 
-const HAN_LIST = ["一","二","三","四","五","六","七","八","九","十","天","地","日","月","山","海","水","火","木","土","石","雨","雪","牛","虎","龍","蛇","馬","羊","雞","犬","豬","貓","鳥","魚","頭","目","耳","鼻","口","牙","心","手","足","血","肉","人","女","兒","家","門","飯","茶","錢","年","生","死","行:1","行:2","来","去","走","飛","坐","立","見","聞","知","食","飲","白","黑","紅","黃","青","綠","灰","大","小","多","長:1","長:2","老","遠","熱","冷","香","上","下","左","右","中:1","中:2","央","東","西","南","北","我","你","有","無","不","個"];
+const HAN_LIST = ["一","二","三","四","五","六","七","八","九","十","天","地","日","月","山","海","水","火","木","土","石","鐵","雨","雪","牛","虎","龍","蛇","馬","羊","雞","犬","豬","貓","鳥","魚","頭","目","耳","鼻","口","牙","心","手","足","血","肉","人","女","兒","家","門","飯","茶","錢","年","生","死","行:1","行:2","来","去","走","飛","坐","立","見","聞","知","食","飲","白","黑","紅","黃","青","綠","灰","大","小","多","長:1","長:2","老","遠","熱","冷","香","上","下","左","右","中:1","中:2","央","東","西","南","北","我","你","有","無","不","個"];
 
 const HAN_CATEGORIES = [
   {"key": "numbers", "label": {"en": "Numbers", "ja": "数字", "ko": "숫자", "zh": "数字", "yue": "數字", "vi": "Số đếm", "th": "ตัวเลข", "id": "Angka", "hi": "संख्याएँ", "de": "Zahlen", "fr": "Nombres", "it": "Numeri", "es": "Números", "pt": "Números", "ru": "Числа", "uk": "Числа", "ar": "الأعداد", "he": "מספרים", "sw": "Namba"}, "chars": ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]},
-  {"key": "nature", "label": {"en": "Nature", "ja": "自然", "ko": "자연", "zh": "自然", "yue": "自然", "vi": "Thiên nhiên", "th": "ธรรมชาติ", "id": "Alam", "hi": "प्रकृति", "de": "Natur", "fr": "Nature", "it": "Natura", "es": "Naturaleza", "pt": "Natureza", "ru": "Природа", "uk": "Природа", "ar": "الطبيعة", "he": "טבע", "sw": "Maumbile"}, "chars": ["天", "地", "日", "月", "山", "海", "水", "火", "木", "土", "石", "雨", "雪"]},
+  {"key": "nature", "label": {"en": "Nature", "ja": "自然", "ko": "자연", "zh": "自然", "yue": "自然", "vi": "Thiên nhiên", "th": "ธรรมชาติ", "id": "Alam", "hi": "प्रकृति", "de": "Natur", "fr": "Nature", "it": "Natura", "es": "Naturaleza", "pt": "Natureza", "ru": "Природа", "uk": "Природа", "ar": "الطبيعة", "he": "טבע", "sw": "Maumbile"}, "chars": ["天", "地", "日", "月", "山", "海", "水", "火", "木", "土", "石", "鐵", "雨", "雪"]},
   {"key": "animals", "label": {"en": "Animals", "ja": "動物", "ko": "동물", "zh": "动物", "yue": "動物", "vi": "Động vật", "th": "สัตว์", "id": "Hewan", "hi": "जानवर", "de": "Tiere", "fr": "Animaux", "it": "Animali", "es": "Animales", "pt": "Animais", "ru": "Животные", "uk": "Тварини", "ar": "الحيوانات", "he": "בעלי חיים", "sw": "Wanyama"}, "chars": ["牛", "虎", "龍", "蛇", "馬", "羊", "雞", "犬", "豬", "貓", "鳥", "魚"]},
   {"key": "body", "label": {"en": "Body", "ja": "人体", "ko": "신체", "zh": "人体", "yue": "人體", "vi": "Cơ thể", "th": "ร่างกาย", "id": "Tubuh", "hi": "शरीर", "de": "Körper", "fr": "Corps", "it": "Corpo", "es": "Cuerpo", "pt": "Corpo", "ru": "Тело", "uk": "Тіло", "ar": "الجسم", "he": "גוף", "sw": "Mwili"}, "chars": ["頭", "目", "耳", "鼻", "口", "牙", "心", "手", "足", "血", "肉"]},
   {"key": "life", "label": {"en": "People & life", "ja": "人と暮らし", "ko": "사람과 생활", "zh": "人与生活", "yue": "人與生活", "vi": "Con người & đời sống", "th": "ผู้คนและชีวิต", "id": "Manusia & kehidupan", "hi": "लोग और जीवन", "de": "Menschen & Alltag", "fr": "Personnes et vie", "it": "Persone e vita", "es": "Personas y vida", "pt": "Pessoas e vida", "ru": "Люди и жизнь", "uk": "Люди та життя", "ar": "الناس والحياة", "he": "אנשים וחיים", "sw": "Watu na maisha"}, "chars": ["人", "女", "兒", "家", "門", "飯", "茶", "錢", "年", "生", "死"]},
@@ -23285,6 +23285,230 @@ const HAN_DATA = {
       "zh_phagspa": "ꡃꡞꡓ",
       "dng": "юъ"
     }
+  },
+  "鐵": {
+    "surface": {
+      "ptai": "*hlek.D",
+      "ptb": "*l-tsyak",
+      "pst": "*hljak",
+      "pmgl": "*temür",
+      "ptung": "*sele",
+      "mnc": "sele",
+      "juc": "sele",
+      "txg": "śjow1",
+      "th": "lek",
+      "za_sd": "faz",
+      "za": "tʰit⁵⁵",
+      "vi_nom": "sắt",
+      "vi_s": "Thiết",
+      "vi_c": "Thiết",
+      "vi": "Thiết",
+      "ko_hun": "soe",
+      "ko_kp": "ch'ŏl",
+      "ko": "cheol",
+      "ja_ojp": "teti",
+      "ja_kun": "kurogane",
+      "cpx": "teh",
+      "msj": "tʰie⁵¹",
+      "mnz": "tʰe",
+      "mnp": "tiĕ",
+      "cdo": "tiék",
+      "nan_lei": "tieg4",
+      "nan_hai": "hi9",
+      "nan_th": "tʰiʔ²",
+      "nan_te": "tih4",
+      "nan_my": "thiat",
+      "nan_sg": "thih",
+      "nan_pn": "thih",
+      "nan_zz": "thiat",
+      "nan_qz": "thiat",
+      "nan_xm": "thiat",
+      "nan": "thiat",
+      "hak_hy": "tʰet²¹",
+      "hak_hl": "thiet",
+      "hak_tw": "tied5",
+      "hak_mz": "thiet",
+      "hak_cn": "thiet",
+      "yue_zs": "tit3",
+      "yue_ts": "het1",
+      "yue_nn": "tit3",
+      "yue_gz": "tit3",
+      "yue_dg": "tit3",
+      "yue_mo": "tit3",
+      "yue_hk": "tit3",
+      "yue": "tit3",
+      "cnp_gl": "tʰi⁵",
+      "cnp": "tʰit³",
+      "czh_jx": "tʰiaʔ³²",
+      "czh_wy": "tʰɛ⁵¹",
+      "czh": "tʰeʔ²¹",
+      "hsn_ld": "te¹³",
+      "hsn_sf": "tʰia¹³",
+      "hsn_hy": "tʰie²²",
+      "hsn": "thie²⁴",
+      "gan_yt": "tʰiɛʔ⁵",
+      "gan_fz": "tʰiɛt³²",
+      "gan_ja": "tʰiɛ³³⁴",
+      "gan_yc": "tʰieʔ⁴",
+      "gan": "tʰiɛt⁵",
+      "wuu_qt": "tʰiæʔ⁴²",
+      "wuu_jh": "thiq⁴",
+      "wuu_wz": "thi²¹³",
+      "wuu_sz": "thiq7",
+      "wuu_nb": "thiq7",
+      "wuu_jx": "thiq7",
+      "wuu_hz": "thiq7",
+      "wuu": "thiq7",
+      "zh_phagspa": "tʻė",
+      "zh_yuan": "thie3",
+      "zh_tang": "tʰet",
+      "zh_han": "*l̥ˤik",
+      "dng": "tye¹",
+      "cjy_dt": "tʰiaʔ³²",
+      "cjy_xz": "tʰiɛʔ⁴³",
+      "cjy_lv": "tʰiəʔ⁴",
+      "cjy_cz": "tʰiɛʔ⁵³",
+      "cjy": "thieh²",
+      "zh_xa": "tieq²¹",
+      "zh_wh": "tie²¹³",
+      "zh_tj": "tie¹³",
+      "zh_nj": "teq⁵",
+      "zh_lz": "tie¹³",
+      "zh_km": "tie³¹",
+      "zh_kf": "tie²⁴",
+      "zh_jn": "tie²¹³",
+      "zh_jiao": "tie⁵⁵",
+      "zh_hf": "tieq⁴",
+      "zh_gl": "tie³¹",
+      "zh_db": "tie²¹³",
+      "zh_cq": "tie²¹",
+      "zh_sc": "tie²¹",
+      "zh_cd": "tie²¹",
+      "zh_tw": "tiě",
+      "zh": "tiě"
+    },
+    "ipa": {
+      "ptai": "*hlek̚",
+      "ptb": "*l-tsyak",
+      "pst": "*hljak",
+      "pmgl": "*temyr",
+      "ptung": "*sele",
+      "mnc": "sələ",
+      "juc": "sələ",
+      "txg": "ɕjow˩",
+      "th": "lek̚˨˩",
+      "za_sd": "fa˧˩",
+      "za": "tʰit̚˥˥",
+      "vi_nom": "sat̚˧˥",
+      "vi_s": "tʰiət˦˥",
+      "vi_c": "tʰiət˦˥",
+      "vi": "tʰiət˧˥",
+      "ko_hun": "swe",
+      "ko_kp": "tsʰʌl",
+      "ko": "tɕʰʌl",
+      "ja_ojp": "teti",
+      "ja_kun": "kɯɾoɡane",
+      "cpx": "tʰɛʔ˨˩",
+      "msj": "tʰie˥˩",
+      "mnz": "tʰe˩˨",
+      "mnp": "tʰiɛ˨˦",
+      "cdo": "tʰiɛʔ˨˦",
+      "nan_lei": "tʰiek̚˥",
+      "nan_hai": "hi˥˥",
+      "nan_th": "tʰiʔ˨",
+      "nan_te": "tʰiʔ˨",
+      "nan_my": "tʰiɛt̚˥˧",
+      "nan_sg": "tʰiʔ˧˨",
+      "nan_pn": "tʰiʔ˧",
+      "nan_zz": "tʰiɛt̚˧˨",
+      "nan_qz": "tʰiɛt̚˥",
+      "nan_xm": "tʰiɛt̚˧˨",
+      "nan": "tʰiɛt̚˧˨",
+      "hak_hy": "tʰet̚˨˩",
+      "hak_hl": "tʰiet̚˥",
+      "hak_tw": "tʰiet̚˨",
+      "hak_mz": "tʰiet̚˩",
+      "hak_cn": "tʰiet̚˨",
+      "yue_zs": "tʰit̚˧",
+      "yue_ts": "het̚˧˧",
+      "yue_nn": "tʰit̚˧",
+      "yue_gz": "tʰɪt̚˧˧",
+      "yue_dg": "tʰit̚˧",
+      "yue_mo": "tʰiːt̚˧",
+      "yue_hk": "tʰiːt̚˧",
+      "yue": "tʰiːt̚˧",
+      "cnp_gl": "tʰi˥",
+      "cnp": "tʰit̚˧",
+      "czh_jx": "tʰiaʔ˧˨",
+      "czh_wy": "tʰɛ˥˩",
+      "czh": "tʰeʔ˨˩",
+      "hsn_ld": "tʰe̞˩˧",
+      "hsn_sf": "tʰia˩˧",
+      "hsn_hy": "tʰie˨˨",
+      "hsn": "tʰie˨˦",
+      "gan_yt": "tʰiɛʔ˥",
+      "gan_fz": "tʰiɛt̚˧˨",
+      "gan_ja": "tʰiɛ˧˧˦",
+      "gan_yc": "tʰieʔ˦",
+      "gan": "tʰiɛt̚˥",
+      "wuu_qt": "tʰiæʔ˦˨",
+      "wuu_jh": "tʰiəʔ˦",
+      "wuu_wz": "tʰi˨˩˧",
+      "wuu_sz": "tʰiɪʔ˦˧",
+      "wuu_nb": "tʰiɪʔ˥",
+      "wuu_jx": "tʰieʔ˥",
+      "wuu_hz": "tʰieʔ˥",
+      "wuu": "tʰiɪʔ˥˥",
+      "zh_phagspa": "tʰjɛ",
+      "zh_yuan": "tʰiɛ˨˩˦",
+      "zh_tang": "tʰet̚",
+      "zh_han": "*l̥ˤik",
+      "dng": "tʰje˦",
+      "cjy_dt": "tʰiaʔ˧˨",
+      "cjy_xz": "tʰiɛʔ˦˧",
+      "cjy_lv": "tʰiəʔ˦",
+      "cjy_cz": "tʰiɛʔ˥˧",
+      "cjy": "tʰiəʔ˨",
+      "zh_xa": "tʰiɛ˨˩",
+      "zh_wh": "tʰie˨˩˧",
+      "zh_tj": "tʰie˩˧",
+      "zh_nj": "tʰeʔ˥",
+      "zh_lz": "tʰie˩˧",
+      "zh_km": "tʰie˧˩",
+      "zh_kf": "tʰiɛ˨˦",
+      "zh_jn": "tʰiə˨˩˧",
+      "zh_jiao": "tʰiə˥˥",
+      "zh_hf": "tʰiɐʔ˦",
+      "zh_gl": "tʰie˧˩",
+      "zh_db": "tʰiɛ˨˩˧",
+      "zh_cq": "tʰie˨˩",
+      "zh_sc": "tʰie˨˩",
+      "zh_cd": "tʰie˨˩",
+      "zh_tw": "tʰje˨˩˦",
+      "zh": "tʰje˨˩˦"
+    },
+    "en": {
+      "gloss": "iron",
+      "pinyin_simple": "tiě"
+    },
+    "native": {
+      "mnc": "ᠰᡝᠯᡝ",
+      "juc": "—",
+      "txg": "𘟪",
+      "th": "เหล็ก",
+      "za_sd": "鍅",
+      "vi_nom": "列",
+      "vi_s": "thiết",
+      "vi_c": "thiết",
+      "vi": "thiết",
+      "ko_hun": "쇠",
+      "ko_kp": "철",
+      "ko": "철",
+      "ja_ojp": "テチ",
+      "ja_kun": "くろがね",
+      "zh_phagspa": "ꡉꡦ",
+      "dng": "те"
+    }
   }
 };
 
@@ -27305,25 +27529,25 @@ const HAN_LANG_META = {
       "sw": "Maneno ya mkopo ya Kichina ya mapema katika Kithai"
     },
     "description": {
-      "en": "Thai has never used Chinese characters, and this row is not a reading system. It is a loan stratum: core Thai words that entered Proto-Tai from Chinese around two thousand years ago, long before the Thai script existed, and are still the ordinary everyday words. The numerals are the clearest case — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十), and ยี่ yi (二), which survives in ยี่สิบ 'twenty' — together with ม้า ma 'horse' (馬). Only characters whose Thai word is attributed to an Old or Late Middle Chinese source are filled in. 一 is filled from เอ็ด, the form used inside compounds — สิบเอ็ด 'eleven', ยี่สิบเอ็ด 'twenty-one'. Thai's free word for one, หนึ่ง, is native Tai, but เอ็ด is the Late Middle Chinese loan, exactly as ยี่ is the loan beside native สอง. Neither is 龍: มังกร comes from Sanskrit makara. The much later Teochew loans that came with the Chinese community of Bangkok — โต๊ะ 桌 'table', ก๋วยเตี๋ยว 粿條 'noodles', เก้าอี้ 交椅 'chair' — are a separate stratum, carried by the nan_th row, and none of their characters is in this set.",
-      "ja": "タイ語は漢字を使ったことがなく、この行は字音体系ではない。借用層である。タイ文字が生まれるはるか前、およそ二千年前に中国語からタイ祖語へ入り、今も日常語であり続けている語の層だ。もっとも明瞭なのが数詞で、สาม sam（三）、สี่ si（四）、ห้า ha（五）、หก hok（六）、เจ็ด chet（七）、แปด paet（八）、เก้า kao（九）、สิบ sip（十）、そして「20」ยี่สิบ に残る ยี่ yi（二）。これに ม้า ma「馬」が加わる。収録するのは、タイ語形が上古漢語または中古漢語に由来すると帰せられる字だけである。一 は เอ็ด で入る — สิบเอ็ด「11」、ยี่สิบเอ็ด「21」のように複合数詞の中だけで使う形。単独の「1」หนึ่ง は固有語だが、เอ็ด のほうは後期中古漢語からの借用で、固有語 สอง の傍らに立つ ยี่ とまったく同じ関係にある。龍 も入らない — มังกร はサンスクリット makara から。バンコクの華人社会とともに入ったはるかに新しい潮州語借用（โต๊ะ 桌、ก๋วยเตี๋ยว 粿條、เก้าอี้ 交椅）は別の層で、nan_th 行が担う。その字はこの一覧に一つもない。",
-      "ko": "태국어는 한자를 쓴 적이 없으며, 이 행은 자음(字音) 체계가 아니다. 차용층이다. 태국 문자가 생기기 훨씬 전, 약 2천 년 전에 중국어에서 원시 타이어로 들어와 지금도 일상어로 남아 있는 낱말들이다. 가장 분명한 것이 수사로 สาม sam(三), สี่ si(四), ห้า ha(五), หก hok(六), เจ็ด chet(七), แปด paet(八), เก้า kao(九), สิบ sip(十), 그리고 '스물' ยี่สิบ 에 남은 ยี่ yi(二), 여기에 ม้า ma '말'(馬)이 더해진다. 태국어 낱말이 상고 한어나 중고 한어에서 왔다고 보는 글자만 채운다. 一은 เอ็ด 으로 채운다 — สิบเอ็ด '11', ยี่สิบเอ็ด '21' 처럼 복합 수사 안에서만 쓰는 형태다. 단독형 หนึ่ง 은 고유어지만 เอ็ด 은 후기 중고한어 차용어이며, 고유어 สอง 옆에 선 ยี่ 와 똑같은 관계다. 龍도 아니다 — มังกร 는 산스크리트 makara에서 왔다. 방콕 화인 사회와 함께 들어온 훨씬 나중의 조주어 차용어(โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅)는 별개의 층으로 nan_th 행이 담당하며, 그 글자는 이 목록에 하나도 없다.",
-      "zh": "泰语从未使用过汉字，本行也不是一套字音系统，而是一个借词层：约两千年前、远在泰文出现之前就从汉语进入原始台语、至今仍是日常用词的那批词。最清楚的是数词——สาม sam（三）、สี่ si（四）、ห้า ha（五）、หก hok（六）、เจ็ด chet（七）、แปด paet（八）、เก้า kao（九）、สิบ sip（十），以及保留在「二十」ยี่สิบ 中的 ยี่ yi（二），再加上 ม้า ma「马」（馬）。只收录泰语词被归为上古汉语或中古汉语来源的字。一 收 เอ็ด——只用在合成数词里的那个形式：สิบเอ็ด「十一」、ยี่สิบเอ็ด「二十一」。单说的 หนึ่ง 确是台语固有词，但 เอ็ด 是晚期中古汉语借词，正如固有词 สอง 旁边的 ยี่ 一样。龍 也不收：มังกร 来自梵语 makara。随曼谷华人社群传入的晚近潮州话借词（โต๊ะ 桌、ก๋วยเตี๋ยว 粿條、เก้าอี้ 交椅）属于另一层，由 nan_th 行承担，其用字一个也不在本表之内。",
-      "yue": "泰語從來冇用過漢字，呢一行都唔係一套字音系統，而係一個借詞層：大約兩千年前、喺泰文出現之前就由漢語入到原始台語、到今日仲係日常用詞嘅嗰批詞。最清楚嘅係數詞——สาม sam（三）、สี่ si（四）、ห้า ha（五）、หก hok（六）、เจ็ด chet（七）、แปด paet（八）、เก้า kao（九）、สิบ sip（十），同埋留喺「二十」ยี่สิบ 入面嘅 ยี่ yi（二），再加 ม้า ma「馬」。淨係收泰語詞被歸為上古漢語或者中古漢語來源嘅字。一 收 เอ็ด——淨係喺合成數詞入面用嘅嗰個形式：สิบเอ็ด「十一」、ยี่สิบเอ็ด「二十一」。單講嘅 หนึ่ง 的確係台語固有詞，但 เอ็ด 係晚期中古漢語借詞，同固有詞 สอง 隔籬嘅 ยี่ 一模一樣。龍 都唔收：มังกร 來自梵文 makara。跟住曼谷華人社群入嚟嘅晚近潮州話借詞（โต๊ะ 桌、ก๋วยเตี๋ยว 粿條、เก้าอี้ 交椅）屬於另一層，由 nan_th 行承擔，佢哋嘅用字一個都唔喺呢張表入面。",
-      "vi": "Tiếng Thái chưa bao giờ dùng chữ Hán, và hàng này không phải một hệ thống âm đọc. Đây là một tầng từ mượn: những từ cốt lõi đi từ tiếng Trung vào tiếng Tai nguyên thủy khoảng hai nghìn năm trước, rất lâu trước khi có chữ Thái, và đến nay vẫn là từ thường ngày. Rõ nhất là các số đếm — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十), và ยี่ yi (二) còn sống trong ยี่สิบ 'hai mươi' — cùng với ม้า ma 'ngựa' (馬). Chỉ điền những chữ mà từ tiếng Thái được quy về nguồn Hán thượng cổ hoặc Hán trung cổ. 一 được điền bằng เอ็ด — dạng chỉ dùng trong số ghép: สิบเอ็ด '11', ยี่สิบเอ็ด '21'. Từ độc lập หนึ่ง là từ Tai bản địa, nhưng เอ็ด là từ mượn Hán trung cổ hậu kỳ, đúng như ยี่ đứng bên cạnh สอง bản địa. 龍 cũng không: มังกร đến từ makara tiếng Phạn. Các từ mượn Triều Châu muộn hơn nhiều, theo cộng đồng người Hoa Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — là một tầng khác, do hàng nan_th đảm nhận, và không chữ nào của chúng nằm trong bộ này.",
-      "th": "ภาษาไทยไม่เคยใช้อักษรจีน และแถวนี้ไม่ใช่ระบบเสียงอ่านอักษร แต่เป็นชั้นคำยืม คือคำพื้นฐานที่เข้าสู่ภาษาไทดั้งเดิมจากภาษาจีนเมื่อราวสองพันปีก่อน นานก่อนที่อักษรไทยจะเกิดขึ้น และยังเป็นคำที่ใช้กันทุกวันจนถึงทุกวันนี้ ชัดที่สุดคือคำบอกจำนวน — สาม (三), สี่ (四), ห้า (五), หก (六), เจ็ด (七), แปด (八), เก้า (九), สิบ (十) และ ยี่ (二) ที่ยังเหลืออยู่ใน ยี่สิบ — พร้อมด้วย ม้า (馬) จะบรรจุเฉพาะอักษรที่คำไทยถูกสืบสาวไปถึงภาษาจีนยุคเก่าหรือจีนยุคกลางเท่านั้น 一 ใส่ด้วย เอ็ด ซึ่งใช้เฉพาะในจำนวนประสม เช่น สิบเอ็ด ยี่สิบเอ็ด คำเดี่ยว หนึ่ง เป็นคำไทแท้ แต่ เอ็ด เป็นคำยืมจากจีนยุคกลางตอนปลาย เช่นเดียวกับ ยี่ ที่อยู่คู่กับ สอง ซึ่งเป็นคำไทแท้ 龍 ก็ไม่อยู่ เพราะ มังกร มาจากคำสันสกฤต makara ส่วนคำยืมแต้จิ๋วรุ่นหลังที่มากับชุมชนชาวจีนในกรุงเทพฯ — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — เป็นคนละชั้น อยู่ในแถว nan_th และไม่มีอักษรใดของคำเหล่านั้นอยู่ในชุดนี้",
-      "id": "Bahasa Thai tidak pernah memakai aksara Han, dan baris ini bukan sistem bacaan. Ini lapisan pinjaman: kata-kata inti yang masuk ke Proto-Tai dari bahasa Tionghoa sekitar dua ribu tahun lalu, jauh sebelum aksara Thai ada, dan sampai kini masih kata sehari-hari. Yang paling jelas adalah angka — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十), dan ยี่ yi (二) yang bertahan dalam ยี่สิบ 'dua puluh' — beserta ม้า ma 'kuda' (馬). Hanya aksara yang kata Thai-nya dilacak ke sumber Tionghoa Kuno atau Tionghoa Pertengahan Akhir yang diisi. 一 diisi dengan เอ็ด, bentuk yang hanya dipakai di dalam bilangan majemuk — สิบเอ็ด '11', ยี่สิบเอ็ด '21'. Kata lepasnya, หนึ่ง, memang Tai asli, tetapi เอ็ด adalah pinjaman Tionghoa Pertengahan Akhir, persis seperti ยี่ di samping สอง yang asli. 龍 juga tidak: มังกร berasal dari makara bahasa Sanskerta. Pinjaman Teochew yang jauh lebih belakangan, yang datang bersama komunitas Tionghoa Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — adalah lapisan tersendiri yang dibawa baris nan_th, dan tak satu pun aksaranya ada di sini.",
-      "hi": "थाई ने कभी हान अक्षर नहीं बरते, और यह पंक्ति कोई पठन-प्रणाली नहीं है। यह उधार की एक परत है: वे मूल थाई शब्द जो लगभग दो हज़ार वर्ष पहले, थाई लिपि के जन्म से बहुत पहले, चीनी से आद्य-ताई में आए और आज भी रोज़मर्रा के शब्द हैं। सबसे स्पष्ट हैं संख्याएँ — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) और 'बीस' ยี่สิบ में बचा ยี่ yi (二) — साथ में ม้า ma 'घोड़ा' (馬)। केवल वे अक्षर भरे गए हैं जिनका थाई शब्द प्राचीन चीनी या उत्तर-मध्य चीनी स्रोत से जोड़ा जाता है। 一 में เอ็ด है — वह रूप जो केवल संयुक्त संख्याओं में आता है: สิบเอ็ด '11', ยี่สิบเอ็ด '21'. स्वतंत्र शब्द หนึ่ง देशज ताई है, पर เอ็ด उत्तर-मध्यकालीन चीनी से लिया गया है, ठीक वैसे ही जैसे देशज สอง के साथ ยี่ है। 龍 भी नहीं: มังกร संस्कृत makara से आया है। बैंकॉक के चीनी समुदाय के साथ आए कहीं बाद के तेओचिउ उधार — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — अलग परत हैं, जिन्हें nan_th पंक्ति सँभालती है, और उनका कोई अक्षर इस सूची में नहीं है।",
-      "de": "Thai hat nie chinesische Schriftzeichen benutzt, und diese Zeile ist kein Lesesystem. Sie ist eine Lehnschicht: Kernwörter, die vor rund zweitausend Jahren aus dem Chinesischen ins Urtai kamen, lange bevor es eine thailändische Schrift gab, und bis heute die alltäglichen Wörter sind. Am deutlichsten sind die Zahlwörter — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) und ยี่ yi (二), das in ยี่สิบ 'zwanzig' fortlebt — dazu ม้า ma 'Pferd' (馬). Aufgenommen sind nur Zeichen, deren thailändisches Wort auf eine altchinesische oder spätmittelchinesische Quelle zurückgeführt wird. 一 steht hier als เอ็ด, die nur in zusammengesetzten Zahlen gebrauchte Form — สิบเอ็ด '11', ยี่สิบเอ็ด '21'. Das freie Wort หนึ่ง ist ererbtes Tai, เอ็ด dagegen ein spätmittelchinesisches Lehnwort, genau wie ยี่ neben dem ererbten สอง. 龍 ebenso wenig: มังกร kommt vom Sanskrit makara. Die viel späteren Teochew-Lehnwörter, die mit der chinesischen Gemeinde Bangkoks kamen — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, sind eine eigene Schicht und stehen in der Zeile nan_th; keines ihrer Zeichen kommt hier vor.",
-      "fr": "Le thaï n'a jamais employé les sinogrammes, et cette ligne n'est pas un système de lecture. C'est une couche d'emprunts : des mots du fonds courant entrés en proto-taï depuis le chinois il y a quelque deux mille ans, bien avant l'existence de l'écriture thaïe, et qui restent aujourd'hui les mots de tous les jours. Les numéraux sont le cas le plus net — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) et ยี่ yi (二), qui survit dans ยี่สิบ « vingt » — avec ม้า ma « cheval » (馬). Ne sont renseignés que les caractères dont le mot thaï est rattaché à une source du chinois archaïque ou du chinois médiéval tardif. 一 y figure sous la forme เอ็ด, employée uniquement dans les nombres composés : สิบเอ็ด « onze », ยี่สิบเอ็ด « vingt et un ». Le mot libre หนึ่ง est bien un mot taï hérité, mais เอ็ด est l'emprunt au chinois médiéval tardif, exactement comme ยี่ à côté de สอง. 龍 non plus : มังกร vient du sanskrit makara. Les emprunts teochew bien plus tardifs, venus avec la communauté chinoise de Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, forment une couche distincte, portée par la ligne nan_th, et aucun de leurs caractères ne figure ici.",
-      "it": "Il thai non ha mai usato i caratteri cinesi, e questa riga non è un sistema di lettura. È uno strato di prestiti: parole del fondo comune entrate nel proto-tai dal cinese circa duemila anni fa, molto prima che esistesse la scrittura thai, e ancora oggi le parole di tutti i giorni. I numerali sono il caso più netto — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) e ยี่ yi (二), che sopravvive in ยี่สิบ 'venti' — insieme a ม้า ma 'cavallo' (馬). Sono compilati solo i caratteri la cui parola thai è ricondotta a una fonte del cinese antico o del cinese medievale tardo. 一 c'è come เอ็ด, la forma usata solo nei numeri composti: สิบเอ็ด «undici», ยี่สิบเอ็ด «ventuno». La parola libera หนึ่ง è tai ereditaria, ma เอ็ด è il prestito dal cinese medio tardo, esattamente come ยี่ accanto a สอง. Neppure 龍: มังกร viene dal sanscrito makara. I prestiti teochew molto più tardi, arrivati con la comunità cinese di Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, sono uno strato a sé, portato dalla riga nan_th, e nessuno dei loro caratteri compare qui.",
-      "es": "El tailandés nunca ha usado caracteres chinos, y esta fila no es un sistema de lecturas. Es un estrato de préstamos: palabras del vocabulario básico que entraron en el prototai desde el chino hace unos dos mil años, mucho antes de que existiera la escritura tailandesa, y que siguen siendo las palabras de cada día. Los numerales son el caso más claro — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) y ยี่ yi (二), que pervive en ยี่สิบ 'veinte' — junto con ม้า ma 'caballo' (馬). Solo se rellenan los caracteres cuya palabra tailandesa se atribuye a una fuente del chino antiguo o del chino medieval tardío. 一 figura como เอ็ด, la forma que solo aparece dentro de numerales compuestos: สิบเอ็ด «once», ยี่สิบเอ็ด «veintiuno». La palabra libre หนึ่ง es tai heredada, pero เอ็ด es el préstamo del chino medio tardío, igual que ยี่ junto a สอง. Tampoco 龍: มังกร viene del sánscrito makara. Los préstamos teochew mucho más tardíos, llegados con la comunidad china de Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, son otro estrato, a cargo de la fila nan_th, y ninguno de sus caracteres aparece aquí.",
-      "pt": "O tailandês nunca usou caracteres chineses, e esta linha não é um sistema de leituras. É um estrato de empréstimos: palavras do vocabulário básico que entraram no prototai vindas do chinês há cerca de dois mil anos, muito antes de existir a escrita tailandesa, e que continuam a ser as palavras do dia a dia. Os numerais são o caso mais nítido — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) e ยี่ yi (二), que sobrevive em ยี่สิบ 'vinte' — a par de ม้า ma 'cavalo' (馬). Só se preenchem os caracteres cuja palavra tailandesa é atribuída a uma fonte do chinês antigo ou do chinês medieval tardio. 一 entra como เอ็ด, a forma usada apenas dentro de numerais compostos: สิบเอ็ด «onze», ยี่สิบเอ็ด «vinte e um». A palavra livre หนึ่ง é tai herdada, mas เอ็ด é o empréstimo do chinês médio tardio, tal como ยี่ ao lado de สอง. 龍 também não: มังกร vem do sânscrito makara. Os empréstimos teochew muito posteriores, chegados com a comunidade chinesa de Banguecoque — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, são outro estrato, a cargo da linha nan_th, e nenhum dos seus caracteres aparece aqui.",
-      "ru": "Тайский никогда не пользовался иероглифами, и эта строка — не система чтений. Это заимствованный слой: слова основного словаря, вошедшие в пратайский из китайского около двух тысяч лет назад, задолго до появления тайского письма, и до сих пор остающиеся повседневными. Яснее всего числительные — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) и ยี่ yi (二), уцелевшее в ยี่สิบ «двадцать», — а с ними ม้า ma «лошадь» (馬). Заполняются только те иероглифы, чьё тайское слово возводят к древнекитайскому или позднесреднекитайскому источнику. 一 заполнен формой เอ็ด, которая встречается только внутри составных числительных: สิบเอ็ด «одиннадцать», ยี่สิบเอ็ด «двадцать один». Самостоятельное หนึ่ง действительно исконно тайское, но เอ็ด — заимствование из позднего среднекитайского, ровно как ยี่ рядом с исконным สอง. 龍 тоже: มังกร восходит к санскритскому makara. Гораздо более поздние чаошаньские заимствования, пришедшие с китайской общиной Бангкока — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅, — это отдельный слой, его несёт строка nan_th, и ни один их иероглиф сюда не входит.",
-      "uk": "Тайська ніколи не користувалася ієрогліфами, і цей рядок — не система читань. Це запозичений шар: слова основного словника, що ввійшли в пратайську з китайської близько двох тисяч років тому, задовго до появи тайського письма, і досі лишаються повсякденними. Найясніше це видно на числівниках — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) і ยี่ yi (二), що вціліло в ยี่สิบ «двадцять», — а з ними ม้า ma «кінь» (馬). Заповнюються лише ті ієрогліфи, чиє тайське слово зводять до давньокитайського чи пізньосередньокитайського джерела. 一 заповнено формою เอ็ด, що вживається лише всередині складених числівників: สิบเอ็ด «одинадцять», ยี่สิบเอ็ด «двадцять один». Самостійне หนึ่ง справді питомо тайське, але เอ็ด — запозичення з пізньої середньокитайської, так само як ยี่ поряд із питомим สอง. 龍 теж ні: มังกร походить від санскритського makara. Значно пізніші чаошаньські запозичення, що прийшли з китайською громадою Бангкока — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅, — це окремий шар, який несе рядок nan_th, і жоден їхній ієрогліф сюди не входить.",
-      "ar": "لم تستعمل التايلاندية الحروف الهانزية قط، وهذا الصف ليس نظام قراءات، بل طبقة استعارة: كلمات من صميم المعجم دخلت التايية الأم من الصينية قبل نحو ألفي عام، قبل وجود الخط التايلاندي بزمن طويل، وما زالت كلمات الحياة اليومية. وأوضحها الأعداد — สาม sam (三)، สี่ si (四)، ห้า ha (五)، หก hok (六)، เจ็ด chet (七)، แปด paet (八)، เก้า kao (九)، สิบ sip (十)، و ยี่ yi (二) الباقية في ยี่สิบ «عشرون» — ومعها ม้า ma «الحصان» (馬). ولا تُملأ إلا الحروف التي تُردّ كلمتها التايلاندية إلى أصل من الصينية القديمة أو الصينية الوسيطة المتأخرة. أما 一 فمُدرَج بصيغة เอ็ด، وهي الصيغة التي لا تُستعمل إلا داخل الأعداد المركّبة: สิบเอ็ด «أحد عشر»، ยี่สิบเอ็ด «واحد وعشرون». والكلمة المفردة หนึ่ง تايية أصيلة فعلاً، لكن เอ็ด مستعارة من الصينية الوسيطة المتأخرة، تماماً مثل ยี่ إلى جانب สอง الأصيلة. و 龍 كذلك: فـ มังกร من السنسكريتية makara. والاستعارات التشاوتشوية الأحدث بكثير، التي جاءت مع الجالية الصينية في بانكوك — โต๊ะ 桌، ก๋วยเตี๋ยว 粿條، เก้าอี้ 交椅 — طبقة مستقلة يحملها الصف nan_th، ولا يرد أيٌّ من حروفها هنا.",
-      "he": "התאית מעולם לא השתמשה בתווי האן, והשורה הזאת אינה מערכת קריאה אלא רובד שאילה: מילות ליבה שנכנסו לפרוטו-טאי מן הסינית לפני כאלפיים שנה, הרבה לפני שהיה כתב תאי, ועד היום הן המילים היומיומיות. הברור מכול הוא המספרים — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) ו-ยี่ yi (二), ששרדה ב-ยี่สิบ 'עשרים' — ולצדם ม้า ma 'סוס' (馬). ממולאים רק תווים שהמילה התאית שלהם מיוחסת למקור בסינית עתיקה או בסינית ביניימית מאוחרת. 一 מופיע כאן כ-เอ็ด, הצורה המשמשת רק בתוך מספרים מורכבים: สิบเอ็ด «אחת עשרה», ยี่สิบเอ็ด «עשרים ואחת». המילה העצמאית หนึ่ง היא אמנם טאית מקורית, אך เอ็ด היא שאילה מן הסינית הביניימית המאוחרת, בדיוק כמו ยี่ לצד สอง המקורית. גם 龍 לא: มังกร בא מן הסנסקריט makara. השאילות מטאוצ'או, מאוחרות בהרבה, שהגיעו עם הקהילה הסינית של בנגקוק — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — הן רובד נפרד שנושאת השורה nan_th, ואף אחד מתוויהן אינו כאן.",
-      "sw": "Kithai hakijawahi kutumia herufi za Han, na safu hii si mfumo wa usomaji. Ni tabaka la mkopo: maneno ya msingi yaliyoingia Proto-Tai kutoka Kichina takriban miaka elfu mbili iliyopita, muda mrefu kabla hati ya Kithai haijakuwepo, na hadi leo ni maneno ya kila siku. Yaliyo wazi zaidi ni namba — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十), na ยี่ yi (二) linalosalia katika ยี่สิบ 'ishirini' — pamoja na ม้า ma 'farasi' (馬). Zinajazwa herufi tu ambazo neno lake la Kithai hufuatiliwa hadi chanzo cha Kichina cha Kale au Kichina cha Kati cha Baadaye. 一 limejazwa kwa เอ็ด, umbo linalotumika ndani ya nambari ambatani pekee — สิบเอ็ด '11', ยี่สิบเอ็ด '21'. Neno la pekee หนึ่ง ni asilia la Kitai, lakini เอ็ด ni mkopo kutoka Kichina cha Kati cha Baadaye, kama vile ยี่ kando ya สอง asilia. 龍 pia haimo: มังกร linatoka makara ya Kisanskrit. Mikopo ya Kiteochew ya baadaye zaidi, iliyokuja na jamii ya Wachina wa Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — ni tabaka lingine linalobebwa na safu ya nan_th, na hakuna herufi yao yoyote humu."
+      "en": "Thai has never used Chinese characters, and this row is not a reading system. It is a loan stratum: core Thai words that entered Proto-Tai from Chinese around two thousand years ago, long before the Thai script existed, and are still the ordinary everyday words. The numerals are the clearest case — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十), and ยี่ yi (二), which survives in ยี่สิบ 'twenty' — together with ม้า ma 'horse' (馬). Only characters whose Thai word is attributed to an Old or Late Middle Chinese source are filled in. 一 is filled from เอ็ด, the form used inside compounds — สิบเอ็ด 'eleven', ยี่สิบเอ็ด 'twenty-one'. Thai's free word for one, หนึ่ง, is native Tai, but เอ็ด is the Late Middle Chinese loan, exactly as ยี่ is the loan beside native สอง. Neither is 龍: มังกร comes from Sanskrit makara. The much later Teochew loans that came with the Chinese community of Bangkok — โต๊ะ 桌 'table', ก๋วยเตี๋ยว 粿條 'noodles', เก้าอี้ 交椅 'chair' — are a separate stratum, carried by the nan_th row, and none of their characters is in this set. เหล็ก lek 'iron' (鐵) belongs to the same layer: Proto-Tai *ʰlek, an early Chinese loan (Pittayaporn 2009).",
+      "ja": "タイ語は漢字を使ったことがなく、この行は字音体系ではない。借用層である。タイ文字が生まれるはるか前、およそ二千年前に中国語からタイ祖語へ入り、今も日常語であり続けている語の層だ。もっとも明瞭なのが数詞で、สาม sam（三）、สี่ si（四）、ห้า ha（五）、หก hok（六）、เจ็ด chet（七）、แปด paet（八）、เก้า kao（九）、สิบ sip（十）、そして「20」ยี่สิบ に残る ยี่ yi（二）。これに ม้า ma「馬」が加わる。収録するのは、タイ語形が上古漢語または中古漢語に由来すると帰せられる字だけである。一 は เอ็ด で入る — สิบเอ็ด「11」、ยี่สิบเอ็ด「21」のように複合数詞の中だけで使う形。単独の「1」หนึ่ง は固有語だが、เอ็ด のほうは後期中古漢語からの借用で、固有語 สอง の傍らに立つ ยี่ とまったく同じ関係にある。龍 も入らない — มังกร はサンスクリット makara から。バンコクの華人社会とともに入ったはるかに新しい潮州語借用（โต๊ะ 桌、ก๋วยเตี๋ยว 粿條、เก้าอี้ 交椅）は別の層で、nan_th 行が担う。その字はこの一覧に一つもない。 「鉄」เหล็ก lek（鐵）も同じ層に属する。タイ祖語 *ʰlek で、早い時期の中国語からの借用である（Pittayaporn 2009）。",
+      "ko": "태국어는 한자를 쓴 적이 없으며, 이 행은 자음(字音) 체계가 아니다. 차용층이다. 태국 문자가 생기기 훨씬 전, 약 2천 년 전에 중국어에서 원시 타이어로 들어와 지금도 일상어로 남아 있는 낱말들이다. 가장 분명한 것이 수사로 สาม sam(三), สี่ si(四), ห้า ha(五), หก hok(六), เจ็ด chet(七), แปด paet(八), เก้า kao(九), สิบ sip(十), 그리고 '스물' ยี่สิบ 에 남은 ยี่ yi(二), 여기에 ม้า ma '말'(馬)이 더해진다. 태국어 낱말이 상고 한어나 중고 한어에서 왔다고 보는 글자만 채운다. 一은 เอ็ด 으로 채운다 — สิบเอ็ด '11', ยี่สิบเอ็ด '21' 처럼 복합 수사 안에서만 쓰는 형태다. 단독형 หนึ่ง 은 고유어지만 เอ็ด 은 후기 중고한어 차용어이며, 고유어 สอง 옆에 선 ยี่ 와 똑같은 관계다. 龍도 아니다 — มังกร 는 산스크리트 makara에서 왔다. 방콕 화인 사회와 함께 들어온 훨씬 나중의 조주어 차용어(โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅)는 별개의 층으로 nan_th 행이 담당하며, 그 글자는 이 목록에 하나도 없다. ‘쇠’ เหล็ก lek(鐵)도 같은 층에 속한다. 타이 조어 *ʰlek로, 이른 시기 중국어 차용어이다(Pittayaporn 2009).",
+      "zh": "泰语从未使用过汉字，本行也不是一套字音系统，而是一个借词层：约两千年前、远在泰文出现之前就从汉语进入原始台语、至今仍是日常用词的那批词。最清楚的是数词——สาม sam（三）、สี่ si（四）、ห้า ha（五）、หก hok（六）、เจ็ด chet（七）、แปด paet（八）、เก้า kao（九）、สิบ sip（十），以及保留在「二十」ยี่สิบ 中的 ยี่ yi（二），再加上 ม้า ma「马」（馬）。只收录泰语词被归为上古汉语或中古汉语来源的字。一 收 เอ็ด——只用在合成数词里的那个形式：สิบเอ็ด「十一」、ยี่สิบเอ็ด「二十一」。单说的 หนึ่ง 确是台语固有词，但 เอ็ด 是晚期中古汉语借词，正如固有词 สอง 旁边的 ยี่ 一样。龍 也不收：มังกร 来自梵语 makara。随曼谷华人社群传入的晚近潮州话借词（โต๊ะ 桌、ก๋วยเตี๋ยว 粿條、เก้าอี้ 交椅）属于另一层，由 nan_th 行承担，其用字一个也不在本表之内。 “铁” เหล็ก lek（鐵）也属于这一层：原始台语 *ʰlek，是早期的汉语借词（Pittayaporn 2009）。",
+      "yue": "泰語從來冇用過漢字，呢一行都唔係一套字音系統，而係一個借詞層：大約兩千年前、喺泰文出現之前就由漢語入到原始台語、到今日仲係日常用詞嘅嗰批詞。最清楚嘅係數詞——สาม sam（三）、สี่ si（四）、ห้า ha（五）、หก hok（六）、เจ็ด chet（七）、แปด paet（八）、เก้า kao（九）、สิบ sip（十），同埋留喺「二十」ยี่สิบ 入面嘅 ยี่ yi（二），再加 ม้า ma「馬」。淨係收泰語詞被歸為上古漢語或者中古漢語來源嘅字。一 收 เอ็ด——淨係喺合成數詞入面用嘅嗰個形式：สิบเอ็ด「十一」、ยี่สิบเอ็ด「二十一」。單講嘅 หนึ่ง 的確係台語固有詞，但 เอ็ด 係晚期中古漢語借詞，同固有詞 สอง 隔籬嘅 ยี่ 一模一樣。龍 都唔收：มังกร 來自梵文 makara。跟住曼谷華人社群入嚟嘅晚近潮州話借詞（โต๊ะ 桌、ก๋วยเตี๋ยว 粿條、เก้าอี้ 交椅）屬於另一層，由 nan_th 行承擔，佢哋嘅用字一個都唔喺呢張表入面。 「鐵」เหล็ก lek（鐵）都屬於呢一層：原始台語 *ʰlek，係早期嘅漢語借詞（Pittayaporn 2009）。",
+      "vi": "Tiếng Thái chưa bao giờ dùng chữ Hán, và hàng này không phải một hệ thống âm đọc. Đây là một tầng từ mượn: những từ cốt lõi đi từ tiếng Trung vào tiếng Tai nguyên thủy khoảng hai nghìn năm trước, rất lâu trước khi có chữ Thái, và đến nay vẫn là từ thường ngày. Rõ nhất là các số đếm — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十), và ยี่ yi (二) còn sống trong ยี่สิบ 'hai mươi' — cùng với ม้า ma 'ngựa' (馬). Chỉ điền những chữ mà từ tiếng Thái được quy về nguồn Hán thượng cổ hoặc Hán trung cổ. 一 được điền bằng เอ็ด — dạng chỉ dùng trong số ghép: สิบเอ็ด '11', ยี่สิบเอ็ด '21'. Từ độc lập หนึ่ง là từ Tai bản địa, nhưng เอ็ด là từ mượn Hán trung cổ hậu kỳ, đúng như ยี่ đứng bên cạnh สอง bản địa. 龍 cũng không: มังกร đến từ makara tiếng Phạn. Các từ mượn Triều Châu muộn hơn nhiều, theo cộng đồng người Hoa Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — là một tầng khác, do hàng nan_th đảm nhận, và không chữ nào của chúng nằm trong bộ này. เหล็ก lek 'sắt' (鐵) cũng thuộc lớp này: tiếng Tai nguyên thủy *ʰlek, một từ mượn tiếng Hán sớm (Pittayaporn 2009).",
+      "th": "ภาษาไทยไม่เคยใช้อักษรจีน และแถวนี้ไม่ใช่ระบบเสียงอ่านอักษร แต่เป็นชั้นคำยืม คือคำพื้นฐานที่เข้าสู่ภาษาไทดั้งเดิมจากภาษาจีนเมื่อราวสองพันปีก่อน นานก่อนที่อักษรไทยจะเกิดขึ้น และยังเป็นคำที่ใช้กันทุกวันจนถึงทุกวันนี้ ชัดที่สุดคือคำบอกจำนวน — สาม (三), สี่ (四), ห้า (五), หก (六), เจ็ด (七), แปด (八), เก้า (九), สิบ (十) และ ยี่ (二) ที่ยังเหลืออยู่ใน ยี่สิบ — พร้อมด้วย ม้า (馬) จะบรรจุเฉพาะอักษรที่คำไทยถูกสืบสาวไปถึงภาษาจีนยุคเก่าหรือจีนยุคกลางเท่านั้น 一 ใส่ด้วย เอ็ด ซึ่งใช้เฉพาะในจำนวนประสม เช่น สิบเอ็ด ยี่สิบเอ็ด คำเดี่ยว หนึ่ง เป็นคำไทแท้ แต่ เอ็ด เป็นคำยืมจากจีนยุคกลางตอนปลาย เช่นเดียวกับ ยี่ ที่อยู่คู่กับ สอง ซึ่งเป็นคำไทแท้ 龍 ก็ไม่อยู่ เพราะ มังกร มาจากคำสันสกฤต makara ส่วนคำยืมแต้จิ๋วรุ่นหลังที่มากับชุมชนชาวจีนในกรุงเทพฯ — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — เป็นคนละชั้น อยู่ในแถว nan_th และไม่มีอักษรใดของคำเหล่านั้นอยู่ในชุดนี้ เหล็ก (鐵) ก็อยู่ในชั้นเดียวกัน คือภาษาไทดั้งเดิม *ʰlek ซึ่งยืมจากภาษาจีนในยุคแรก (Pittayaporn 2009)",
+      "id": "Bahasa Thai tidak pernah memakai aksara Han, dan baris ini bukan sistem bacaan. Ini lapisan pinjaman: kata-kata inti yang masuk ke Proto-Tai dari bahasa Tionghoa sekitar dua ribu tahun lalu, jauh sebelum aksara Thai ada, dan sampai kini masih kata sehari-hari. Yang paling jelas adalah angka — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十), dan ยี่ yi (二) yang bertahan dalam ยี่สิบ 'dua puluh' — beserta ม้า ma 'kuda' (馬). Hanya aksara yang kata Thai-nya dilacak ke sumber Tionghoa Kuno atau Tionghoa Pertengahan Akhir yang diisi. 一 diisi dengan เอ็ด, bentuk yang hanya dipakai di dalam bilangan majemuk — สิบเอ็ด '11', ยี่สิบเอ็ด '21'. Kata lepasnya, หนึ่ง, memang Tai asli, tetapi เอ็ด adalah pinjaman Tionghoa Pertengahan Akhir, persis seperti ยี่ di samping สอง yang asli. 龍 juga tidak: มังกร berasal dari makara bahasa Sanskerta. Pinjaman Teochew yang jauh lebih belakangan, yang datang bersama komunitas Tionghoa Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — adalah lapisan tersendiri yang dibawa baris nan_th, dan tak satu pun aksaranya ada di sini. เหล็ก lek 'besi' (鐵) termasuk lapisan yang sama: Proto-Tai *ʰlek, pinjaman awal dari bahasa Tionghoa (Pittayaporn 2009).",
+      "hi": "थाई ने कभी हान अक्षर नहीं बरते, और यह पंक्ति कोई पठन-प्रणाली नहीं है। यह उधार की एक परत है: वे मूल थाई शब्द जो लगभग दो हज़ार वर्ष पहले, थाई लिपि के जन्म से बहुत पहले, चीनी से आद्य-ताई में आए और आज भी रोज़मर्रा के शब्द हैं। सबसे स्पष्ट हैं संख्याएँ — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) और 'बीस' ยี่สิบ में बचा ยี่ yi (二) — साथ में ม้า ma 'घोड़ा' (馬)। केवल वे अक्षर भरे गए हैं जिनका थाई शब्द प्राचीन चीनी या उत्तर-मध्य चीनी स्रोत से जोड़ा जाता है। 一 में เอ็ด है — वह रूप जो केवल संयुक्त संख्याओं में आता है: สิบเอ็ด '11', ยี่สิบเอ็ด '21'. स्वतंत्र शब्द หนึ่ง देशज ताई है, पर เอ็ด उत्तर-मध्यकालीन चीनी से लिया गया है, ठीक वैसे ही जैसे देशज สอง के साथ ยี่ है। 龍 भी नहीं: มังกร संस्कृत makara से आया है। बैंकॉक के चीनी समुदाय के साथ आए कहीं बाद के तेओचिउ उधार — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — अलग परत हैं, जिन्हें nan_th पंक्ति सँभालती है, और उनका कोई अक्षर इस सूची में नहीं है। เหล็ก lek 'लोहा' (鐵) भी इसी परत का है: आद्य-ताई *ʰlek, चीनी से एक प्रारंभिक उधार (Pittayaporn 2009)।",
+      "de": "Thai hat nie chinesische Schriftzeichen benutzt, und diese Zeile ist kein Lesesystem. Sie ist eine Lehnschicht: Kernwörter, die vor rund zweitausend Jahren aus dem Chinesischen ins Urtai kamen, lange bevor es eine thailändische Schrift gab, und bis heute die alltäglichen Wörter sind. Am deutlichsten sind die Zahlwörter — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) und ยี่ yi (二), das in ยี่สิบ 'zwanzig' fortlebt — dazu ม้า ma 'Pferd' (馬). Aufgenommen sind nur Zeichen, deren thailändisches Wort auf eine altchinesische oder spätmittelchinesische Quelle zurückgeführt wird. 一 steht hier als เอ็ด, die nur in zusammengesetzten Zahlen gebrauchte Form — สิบเอ็ด '11', ยี่สิบเอ็ด '21'. Das freie Wort หนึ่ง ist ererbtes Tai, เอ็ด dagegen ein spätmittelchinesisches Lehnwort, genau wie ยี่ neben dem ererbten สอง. 龍 ebenso wenig: มังกร kommt vom Sanskrit makara. Die viel späteren Teochew-Lehnwörter, die mit der chinesischen Gemeinde Bangkoks kamen — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, sind eine eigene Schicht und stehen in der Zeile nan_th; keines ihrer Zeichen kommt hier vor. เหล็ก lek ‚Eisen‘ (鐵) gehört zur selben Schicht: Proto-Tai *ʰlek, eine frühe Entlehnung aus dem Chinesischen (Pittayaporn 2009).",
+      "fr": "Le thaï n'a jamais employé les sinogrammes, et cette ligne n'est pas un système de lecture. C'est une couche d'emprunts : des mots du fonds courant entrés en proto-taï depuis le chinois il y a quelque deux mille ans, bien avant l'existence de l'écriture thaïe, et qui restent aujourd'hui les mots de tous les jours. Les numéraux sont le cas le plus net — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) et ยี่ yi (二), qui survit dans ยี่สิบ « vingt » — avec ม้า ma « cheval » (馬). Ne sont renseignés que les caractères dont le mot thaï est rattaché à une source du chinois archaïque ou du chinois médiéval tardif. 一 y figure sous la forme เอ็ด, employée uniquement dans les nombres composés : สิบเอ็ด « onze », ยี่สิบเอ็ด « vingt et un ». Le mot libre หนึ่ง est bien un mot taï hérité, mais เอ็ด est l'emprunt au chinois médiéval tardif, exactement comme ยี่ à côté de สอง. 龍 non plus : มังกร vient du sanskrit makara. Les emprunts teochew bien plus tardifs, venus avec la communauté chinoise de Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, forment une couche distincte, portée par la ligne nan_th, et aucun de leurs caractères ne figure ici. เหล็ก lek « fer » (鐵) appartient à la même couche : proto-taï *ʰlek, un emprunt ancien au chinois (Pittayaporn 2009).",
+      "it": "Il thai non ha mai usato i caratteri cinesi, e questa riga non è un sistema di lettura. È uno strato di prestiti: parole del fondo comune entrate nel proto-tai dal cinese circa duemila anni fa, molto prima che esistesse la scrittura thai, e ancora oggi le parole di tutti i giorni. I numerali sono il caso più netto — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) e ยี่ yi (二), che sopravvive in ยี่สิบ 'venti' — insieme a ม้า ma 'cavallo' (馬). Sono compilati solo i caratteri la cui parola thai è ricondotta a una fonte del cinese antico o del cinese medievale tardo. 一 c'è come เอ็ด, la forma usata solo nei numeri composti: สิบเอ็ด «undici», ยี่สิบเอ็ด «ventuno». La parola libera หนึ่ง è tai ereditaria, ma เอ็ด è il prestito dal cinese medio tardo, esattamente come ยี่ accanto a สอง. Neppure 龍: มังกร viene dal sanscrito makara. I prestiti teochew molto più tardi, arrivati con la comunità cinese di Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, sono uno strato a sé, portato dalla riga nan_th, e nessuno dei loro caratteri compare qui. เหล็ก lek 'ferro' (鐵) appartiene allo stesso strato: proto-tai *ʰlek, un antico prestito dal cinese (Pittayaporn 2009).",
+      "es": "El tailandés nunca ha usado caracteres chinos, y esta fila no es un sistema de lecturas. Es un estrato de préstamos: palabras del vocabulario básico que entraron en el prototai desde el chino hace unos dos mil años, mucho antes de que existiera la escritura tailandesa, y que siguen siendo las palabras de cada día. Los numerales son el caso más claro — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) y ยี่ yi (二), que pervive en ยี่สิบ 'veinte' — junto con ม้า ma 'caballo' (馬). Solo se rellenan los caracteres cuya palabra tailandesa se atribuye a una fuente del chino antiguo o del chino medieval tardío. 一 figura como เอ็ด, la forma que solo aparece dentro de numerales compuestos: สิบเอ็ด «once», ยี่สิบเอ็ด «veintiuno». La palabra libre หนึ่ง es tai heredada, pero เอ็ด es el préstamo del chino medio tardío, igual que ยี่ junto a สอง. Tampoco 龍: มังกร viene del sánscrito makara. Los préstamos teochew mucho más tardíos, llegados con la comunidad china de Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, son otro estrato, a cargo de la fila nan_th, y ninguno de sus caracteres aparece aquí. เหล็ก lek 'hierro' (鐵) pertenece a la misma capa: prototai *ʰlek, un préstamo temprano del chino (Pittayaporn 2009).",
+      "pt": "O tailandês nunca usou caracteres chineses, e esta linha não é um sistema de leituras. É um estrato de empréstimos: palavras do vocabulário básico que entraram no prototai vindas do chinês há cerca de dois mil anos, muito antes de existir a escrita tailandesa, e que continuam a ser as palavras do dia a dia. Os numerais são o caso mais nítido — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) e ยี่ yi (二), que sobrevive em ยี่สิบ 'vinte' — a par de ม้า ma 'cavalo' (馬). Só se preenchem os caracteres cuja palavra tailandesa é atribuída a uma fonte do chinês antigo ou do chinês medieval tardio. 一 entra como เอ็ด, a forma usada apenas dentro de numerais compostos: สิบเอ็ด «onze», ยี่สิบเอ็ด «vinte e um». A palavra livre หนึ่ง é tai herdada, mas เอ็ด é o empréstimo do chinês médio tardio, tal como ยี่ ao lado de สอง. 龍 também não: มังกร vem do sânscrito makara. Os empréstimos teochew muito posteriores, chegados com a comunidade chinesa de Banguecoque — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 —, são outro estrato, a cargo da linha nan_th, e nenhum dos seus caracteres aparece aqui. เหล็ก lek 'ferro' (鐵) pertence à mesma camada: proto-tai *ʰlek, um empréstimo antigo do chinês (Pittayaporn 2009).",
+      "ru": "Тайский никогда не пользовался иероглифами, и эта строка — не система чтений. Это заимствованный слой: слова основного словаря, вошедшие в пратайский из китайского около двух тысяч лет назад, задолго до появления тайского письма, и до сих пор остающиеся повседневными. Яснее всего числительные — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) и ยี่ yi (二), уцелевшее в ยี่สิบ «двадцать», — а с ними ม้า ma «лошадь» (馬). Заполняются только те иероглифы, чьё тайское слово возводят к древнекитайскому или позднесреднекитайскому источнику. 一 заполнен формой เอ็ด, которая встречается только внутри составных числительных: สิบเอ็ด «одиннадцать», ยี่สิบเอ็ด «двадцать один». Самостоятельное หนึ่ง действительно исконно тайское, но เอ็ด — заимствование из позднего среднекитайского, ровно как ยี่ рядом с исконным สอง. 龍 тоже: มังกร восходит к санскритскому makara. Гораздо более поздние чаошаньские заимствования, пришедшие с китайской общиной Бангкока — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅, — это отдельный слой, его несёт строка nan_th, и ни один их иероглиф сюда не входит. เหล็ก lek «железо» (鐵) относится к тому же слою: пратайское *ʰlek, раннее заимствование из китайского (Pittayaporn 2009).",
+      "uk": "Тайська ніколи не користувалася ієрогліфами, і цей рядок — не система читань. Це запозичений шар: слова основного словника, що ввійшли в пратайську з китайської близько двох тисяч років тому, задовго до появи тайського письма, і досі лишаються повсякденними. Найясніше це видно на числівниках — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) і ยี่ yi (二), що вціліло в ยี่สิบ «двадцять», — а з ними ม้า ma «кінь» (馬). Заповнюються лише ті ієрогліфи, чиє тайське слово зводять до давньокитайського чи пізньосередньокитайського джерела. 一 заповнено формою เอ็ด, що вживається лише всередині складених числівників: สิบเอ็ด «одинадцять», ยี่สิบเอ็ด «двадцять один». Самостійне หนึ่ง справді питомо тайське, але เอ็ด — запозичення з пізньої середньокитайської, так само як ยี่ поряд із питомим สอง. 龍 теж ні: มังกร походить від санскритського makara. Значно пізніші чаошаньські запозичення, що прийшли з китайською громадою Бангкока — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅, — це окремий шар, який несе рядок nan_th, і жоден їхній ієрогліф сюди не входить. เหล็ก lek «залізо» (鐵) належить до того ж шару: пратайське *ʰlek, раннє запозичення з китайської (Pittayaporn 2009).",
+      "ar": "لم تستعمل التايلاندية الحروف الهانزية قط، وهذا الصف ليس نظام قراءات، بل طبقة استعارة: كلمات من صميم المعجم دخلت التايية الأم من الصينية قبل نحو ألفي عام، قبل وجود الخط التايلاندي بزمن طويل، وما زالت كلمات الحياة اليومية. وأوضحها الأعداد — สาม sam (三)، สี่ si (四)، ห้า ha (五)، หก hok (六)، เจ็ด chet (七)، แปด paet (八)، เก้า kao (九)، สิบ sip (十)، و ยี่ yi (二) الباقية في ยี่สิบ «عشرون» — ومعها ม้า ma «الحصان» (馬). ولا تُملأ إلا الحروف التي تُردّ كلمتها التايلاندية إلى أصل من الصينية القديمة أو الصينية الوسيطة المتأخرة. أما 一 فمُدرَج بصيغة เอ็ด، وهي الصيغة التي لا تُستعمل إلا داخل الأعداد المركّبة: สิบเอ็ด «أحد عشر»، ยี่สิบเอ็ด «واحد وعشرون». والكلمة المفردة หนึ่ง تايية أصيلة فعلاً، لكن เอ็ด مستعارة من الصينية الوسيطة المتأخرة، تماماً مثل ยี่ إلى جانب สอง الأصيلة. و 龍 كذلك: فـ มังกร من السنسكريتية makara. والاستعارات التشاوتشوية الأحدث بكثير، التي جاءت مع الجالية الصينية في بانكوك — โต๊ะ 桌، ก๋วยเตี๋ยว 粿條، เก้าอี้ 交椅 — طبقة مستقلة يحملها الصف nan_th، ولا يرد أيٌّ من حروفها هنا. وتنتمي เหล็ก lek «الحديد» (鐵) إلى الطبقة نفسها: التاي البدائية *ʰlek، وهي اقتراض مبكر من الصينية (Pittayaporn 2009).",
+      "he": "התאית מעולם לא השתמשה בתווי האן, והשורה הזאת אינה מערכת קריאה אלא רובד שאילה: מילות ליבה שנכנסו לפרוטו-טאי מן הסינית לפני כאלפיים שנה, הרבה לפני שהיה כתב תאי, ועד היום הן המילים היומיומיות. הברור מכול הוא המספרים — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十) ו-ยี่ yi (二), ששרדה ב-ยี่สิบ 'עשרים' — ולצדם ม้า ma 'סוס' (馬). ממולאים רק תווים שהמילה התאית שלהם מיוחסת למקור בסינית עתיקה או בסינית ביניימית מאוחרת. 一 מופיע כאן כ-เอ็ด, הצורה המשמשת רק בתוך מספרים מורכבים: สิบเอ็ด «אחת עשרה», ยี่สิบเอ็ด «עשרים ואחת». המילה העצמאית หนึ่ง היא אמנם טאית מקורית, אך เอ็ด היא שאילה מן הסינית הביניימית המאוחרת, בדיוק כמו ยี่ לצד สอง המקורית. גם 龍 לא: มังกร בא מן הסנסקריט makara. השאילות מטאוצ'או, מאוחרות בהרבה, שהגיעו עם הקהילה הסינית של בנגקוק — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — הן רובד נפרד שנושאת השורה nan_th, ואף אחד מתוויהן אינו כאן. גם เหล็ก lek 'ברזל' (鐵) שייכת לאותה שכבה: פרוטו־טאי *ʰlek, שאילה מוקדמת מסינית (Pittayaporn 2009).",
+      "sw": "Kithai hakijawahi kutumia herufi za Han, na safu hii si mfumo wa usomaji. Ni tabaka la mkopo: maneno ya msingi yaliyoingia Proto-Tai kutoka Kichina takriban miaka elfu mbili iliyopita, muda mrefu kabla hati ya Kithai haijakuwepo, na hadi leo ni maneno ya kila siku. Yaliyo wazi zaidi ni namba — สาม sam (三), สี่ si (四), ห้า ha (五), หก hok (六), เจ็ด chet (七), แปด paet (八), เก้า kao (九), สิบ sip (十), na ยี่ yi (二) linalosalia katika ยี่สิบ 'ishirini' — pamoja na ม้า ma 'farasi' (馬). Zinajazwa herufi tu ambazo neno lake la Kithai hufuatiliwa hadi chanzo cha Kichina cha Kale au Kichina cha Kati cha Baadaye. 一 limejazwa kwa เอ็ด, umbo linalotumika ndani ya nambari ambatani pekee — สิบเอ็ด '11', ยี่สิบเอ็ด '21'. Neno la pekee หนึ่ง ni asilia la Kitai, lakini เอ็ด ni mkopo kutoka Kichina cha Kati cha Baadaye, kama vile ยี่ kando ya สอง asilia. 龍 pia haimo: มังกร linatoka makara ya Kisanskrit. Mikopo ya Kiteochew ya baadaye zaidi, iliyokuja na jamii ya Wachina wa Bangkok — โต๊ะ 桌, ก๋วยเตี๋ยว 粿條, เก้าอี้ 交椅 — ni tabaka lingine linalobebwa na safu ya nan_th, na hakuna herufi yao yoyote humu. เหล็ก lek 'chuma' (鐵) ni ya tabaka hilo hilo: Kitai cha Awali *ʰlek, mkopo wa mapema kutoka Kichina (Pittayaporn 2009)."
     },
     "sources": [
       "Manomaivibool, Prapin (1975) — A Study of Sino-Thai Lexical Correspondences (PhD dissertation, University of Washington)",
@@ -28939,6 +29163,148 @@ const HAN_LANG_META = {
 const HAN_LANGS = ["gan_yc","gan_ja","gan_fz","gan_yt","cjy_cz","cjy_lv","cjy_xz","hsn_hy","czh_wy","cnp_gl","bca","bo_sino","cdo","cjy","cnp","cpx","czh","dng","gan","hak_cn","hak_hl","hak_mz","hak_tw","hsn","ja","ja_kun","ja_ojp","juc","ko","ko_hun","ko_kp","ko_mid","mnc","mnp","nan","nan_hai","nan_my","nan_pn","nan_qz","nan_sg","nan_te","nan_th","nan_xm","nan_zz","paa","phm","pja","pko","pmgl","pst","ptai","ptb","ptung","sjo","txg","vi","vi_c","vi_nom","vi_ohan","vi_s","wuu","wuu_hz","wuu_jh","wuu_jx","wuu_nb","wuu_sz","wuu_wz","yue","yue_dg","yue_gz","yue_hk","yue_mo","yue_nn","yue_ts","yue_zs","za","zh","zh_cd","zh_cq","zh_db","zh_gl","zh_han","zh_hf","zh_jh","zh_jiao","zh_jn","zh_kf","zh_km","zh_lz","zh_nj","zh_phagspa","zh_sc","zh_tang","zh_tj","zh_tw","zh_wh","zh_xa","zh_yuan","zkt","wuu_qt","hak_hy","hsn_sf","hsn_ld","nan_lei","mnz","czh_jx","cjy_dt","msj","th","za_sd"];
 
 const HAN_VARIANTS = {
+  "鐵": {
+    "ja": [
+      {
+        "native": "テツ",
+        "surface": "tetsu",
+        "ipa": "tetsɯ",
+        "label": "漢音 / Kan-on"
+      },
+      {
+        "native": "テチ",
+        "surface": "techi",
+        "ipa": "tetɕi",
+        "label": "呉音 / Go-on"
+      }
+    ],
+    "cpx": [
+      {
+        "native": "",
+        "surface": "tī",
+        "ipa": "tʰi˩˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "teh",
+        "ipa": "tʰɛʔ˨˩",
+        "label": "文讀"
+      }
+    ],
+    "msj": [
+      {
+        "native": "",
+        "surface": "tʰa⁵¹",
+        "ipa": "tʰa˥˩",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "tʰie⁵¹",
+        "ipa": "tʰie˥˩",
+        "label": "文讀"
+      }
+    ],
+    "nan_lei": [
+      {
+        "native": "",
+        "surface": "ti7",
+        "ipa": "tʰi˥˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "tieg4",
+        "ipa": "tʰiek̚˥",
+        "label": "文讀"
+      }
+    ],
+    "nan_my": [
+      {
+        "native": "",
+        "surface": "thih",
+        "ipa": "tʰiʔ˥˧",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "thiat",
+        "ipa": "tʰiɛt̚˥˧",
+        "label": "文讀"
+      }
+    ],
+    "nan_zz": [
+      {
+        "native": "",
+        "surface": "thih",
+        "ipa": "tʰiʔ˧˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "thiat",
+        "ipa": "tʰiɛt̚˧˨",
+        "label": "文讀"
+      }
+    ],
+    "nan_qz": [
+      {
+        "native": "",
+        "surface": "thih",
+        "ipa": "tʰiʔ˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "thiat",
+        "ipa": "tʰiɛt̚˥",
+        "label": "文讀"
+      }
+    ],
+    "nan_xm": [
+      {
+        "native": "",
+        "surface": "thih",
+        "ipa": "tʰiʔ˧˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "thiat",
+        "ipa": "tʰiɛt̚˧˨",
+        "label": "文讀"
+      }
+    ],
+    "nan": [
+      {
+        "native": "",
+        "surface": "thih",
+        "ipa": "tʰiʔ˧˨",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "thiat",
+        "ipa": "tʰiɛt̚˧˨",
+        "label": "文讀"
+      }
+    ],
+    "wuu_jh": [
+      {
+        "native": "",
+        "surface": "thia⁵⁵",
+        "ipa": "tʰia˥˥",
+        "label": "白讀"
+      },
+      {
+        "native": "",
+        "surface": "thiq⁴",
+        "ipa": "tʰiəʔ˦",
+        "label": "文讀"
+      }
+    ]
+  },
   "雞": {
     "ja": [
       {

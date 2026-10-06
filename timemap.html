@@ -379,7 +379,7 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="timemap_calendars.js?v=5"></script>
+    <script src="timemap_calendars.js?v=7"></script>
     <script>
     (function () {
         'use strict';
@@ -393,7 +393,7 @@
             ['fr','Français'],['it','Italiano'],['es','Español'],['pt','Português'],['ru','Русский'],
             ['uk','Українська'],['ar','العربية'],['he','עברית'],['sw','Kiswahili']];
         const HAS = Object.fromEntries(LANGS.map(([c]) => [c, true]));
-        const I18N_VERSION = 5;
+        const I18N_VERSION = 6;
         window.TM_I18N = window.TM_I18N || {};
         const loading = {};
         function ensureLang(lang){
@@ -507,7 +507,8 @@
                 h+='<div class="tm-pop-date tm-script cal-'+cal.id+'" dir="auto">'+esc(r.native)+'</div>';
                 if(r.tr) h+='<div class="tm-pop-tr tm-script" dir="auto">'+esc(r.tr)+'</div>';
             } else h+='<div class="tm-pop-tr">'+esc(t('notYet'))+'</div>';
-            h+='<dl class="tm-pop-dl"><dt>'+esc(t('type'))+'</dt><dd dir="auto">'+esc(ct(cal,'type'))+'</dd>'
+            const useKey={ official:'hOfficial', popular:'hPopular', religious:'hReligious' }[cal.use];
+            h+='<dl class="tm-pop-dl">'+(useKey ? '<dt>'+esc(t('status'))+'</dt><dd>'+esc(t(useKey))+'</dd>' : '')+'<dt>'+esc(t('type'))+'</dt><dd dir="auto">'+esc(ct(cal,'type'))+'</dd>'
               +'<dt>'+esc(t('epoch'))+'</dt><dd dir="auto">'+esc(ct(cal,'epoch'))+'</dd>'
               +'<dt>'+esc(t('used'))+'</dt><dd dir="auto">'+esc(ct(cal,'used'))+'</dd></dl>';
             if(cal.note) h+='<div class="tm-pop-note" dir="auto">'+esc(ct(cal,'note'))+'</div>';
@@ -530,7 +531,7 @@
                 const icon=L.divIcon({ className:'tm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
                 const mk=L.marker([cal.lat, cal.lng], { icon, riseOnHover:true });
                 mk.bindPopup(()=>popupHtml(cal), { maxWidth: 280, autoPanPaddingTopLeft: padTL, autoPanPaddingBottomRight: L.point(24, 24) });
-                mk.on('popupopen', ()=>{ openId=cal.id; markActive(); });
+                mk.on('popupopen', ()=>{ openId=cal.id; markActive(); const el=mk.getElement&&mk.getElement(); const lb=el&&el.querySelector('.tm-label'); if(lb) lb.style.visibility=''; });
                 mk.on('popupclose', ()=>{ if(openId===cal.id){ openId=null; markActive(); } });
                 mk.addTo(map); markers[cal.id]=mk;
             });
@@ -553,24 +554,31 @@
             });
             items.sort((a,b)=>a.pr-b.pr);
             const cand=[[0,0]];
-            for(let ring=1; ring<=14; ring++) for(const [ox,oy] of [[0,-1],[0,1],[-1,0],[1,0],[-1,-1],[1,-1],[-1,1],[1,1],[-2,-1],[2,-1],[-2,1],[2,1]]) cand.push([ox*ring*14, oy*ring*12]);
+            // Search up to ~110px from the point; a label that finds no free spot is
+            // hidden at this zoom (it reappears when you zoom in) rather than drawn
+            // over another one or pushed into a different country.
+            for(let ring=1; ring<=8; ring++) for(const [ox,oy] of [[0,-1],[0,1],[-1,0],[1,0],[-1,-1],[1,-1],[-1,1],[1,1],[-2,-1],[2,-1],[-2,1],[2,1]]) cand.push([ox*ring*14, oy*ring*12]);
             const placed=[];
             const hit=(a,b)=> Math.abs(a.cx-b.cx) < (a.w+b.w)/2+2 && Math.abs(a.cy-b.cy) < (a.h+b.h)/2+2;
             items.forEach(it=>{
-                let dx=0, dy=0;
-                for(const [ox,oy] of cand){ const box={ cx:it.x+ox, cy:it.y+oy, w:it.w, h:it.h }; if(!placed.some(p=>hit(box,p))){ dx=ox; dy=oy; break; } }
-                placed.push({ cx:it.x+dx, cy:it.y+dy, w:it.w, h:it.h });
-                it.label.style.transform='translate(-50%, -50%) translate('+dx+'px, '+dy+'px)';
+                let spot=null;
+                for(const [ox,oy] of cand){ const box={ cx:it.x+ox, cy:it.y+oy, w:it.w, h:it.h }; if(!placed.some(p=>hit(box,p))){ spot=[ox,oy]; break; } }
+                it.label.style.visibility = spot ? '' : 'hidden';
+                if(!spot) return;
+                placed.push({ cx:it.x+spot[0], cy:it.y+spot[1], w:it.w, h:it.h });
+                it.label.style.transform='translate(-50%, -50%) translate('+spot[0]+'px, '+spot[1]+'px)';
             });
         }
 
         /* ---------- Side panel ---------- */
         function renderPanel(){
             let h='<div class="tm-title">'+esc(t('title'))+'</div><div class="tm-tagline">'+esc(t('tagline'))+'</div>';
+            // st: 'historical' / 'gregorian', or a use of a current calendar ('official' / 'popular' / 'religious').
             const sec = (st, head, sub, dotCls) => {
                 if(st==='historical' ? era!=='historical' : era==='historical') return '';
+                const pick = c => st==='historical' || st==='gregorian' ? c.status===st : (c.status==='current' && c.use===st);
                 let s='<div class="tm-section-h">'+esc(head)+'</div>'+(sub?'<div class="tm-section-sub">'+esc(sub)+'</div>':'');
-                CALENDARS.filter(c=>c.status===st).forEach(cal=>{
+                CALENDARS.filter(pick).forEach(cal=>{
                     const r=dateOf(cal);
                     s+='<div class="tm-row'+(r?'':' is-none')+(st==='historical'?' is-hist':'')+'" data-id="'+cal.id+'">'
                       +'<span class="dot '+dotCls+'"></span><div class="tm-row-main">'
@@ -581,7 +589,9 @@
                 });
                 return s;
             };
-            h+=sec('current', t('hCurrent'), '', 'tm-dot-current');
+            h+=sec('official', t('hOfficial'), '', 'tm-dot-current');
+            h+=sec('popular', t('hPopular'), '', 'tm-dot-current');
+            h+=sec('religious', t('hReligious'), '', 'tm-dot-current');
             h+=sec('historical', t('hHist'), t('subHist'), 'tm-dot-hist');
             h+=sec('gregorian', t('hGreg'), t('subGreg'), 'tm-dot-greg');
             const body=document.getElementById('tm-info-body'); body.innerHTML=h;

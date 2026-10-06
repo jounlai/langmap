@@ -32,7 +32,11 @@ window.TM_I18N["sw"] = {
   "navHan": "Ramani ya hanzi",
   "navName": "Ramani ya Majina",
   "navTime": "Ramani ya kalenda",
-  "navTree": "Mti"
+  "navTree": "Mti",
+  "hOfficial": "Kalenda rasmi",
+  "hPopular": "Kalenda maarufu (si rasmi)",
+  "hReligious": "Kalenda za kidini na za jamii",
+  "status": "Hali"
  },
  "dateFmt": "{d} {month} {y}",
  "yearDefault": "{n}",
@@ -41,6 +45,15 @@ window.TM_I18N["sw"] = {
  "lunarFmt": "siku ya {d} ya {month}, {y}",
  "dayName": "{name}, {y}",
  "signFmt": "{num} {name}",
+ "wukuFmt": "wuku {wuku} (wiki ya {n} kati ya 30)",
+ "akanNext": "Akwasidae ijayo: {date} (baada ya siku {n})",
+ "akanToday": "leo ni {name}",
+ "iceFmt": "wiki ya {w} ya {season}, siku ya {d} ya {month}",
+ "iceExtra": "wiki ya {w} ya {season}, {month}",
+ "iceSeasons": [
+  "kiangazi",
+  "majira ya baridi"
+ ],
  "months": {
   "gregorian": [
    "Januari",
@@ -231,6 +244,100 @@ window.TM_I18N["sw"] = {
    "Mvua",
    "Ua"
   ],
+  "javanese": [
+   "Sura",
+   "Sapar",
+   "Mulud",
+   "Bakda Mulud",
+   "Jumadilawal",
+   "Jumadilakir",
+   "Rejeb",
+   "Ruwah",
+   "Pasa",
+   "Sawal",
+   "Sela",
+   "Besar"
+  ],
+  "nepali": [
+   "Baisakh",
+   "Jestha",
+   "Asar",
+   "Shrawan",
+   "Bhadau",
+   "Asoj",
+   "Kartik",
+   "Mangsir",
+   "Poush",
+   "Magh",
+   "Falgun",
+   "Chaitra"
+  ],
+  "kurdish": [
+   "Xakelêwe",
+   "Gulan",
+   "Cozerdan",
+   "Pûşper",
+   "Gelawêj",
+   "Xermanan",
+   "Rezber",
+   "Gelarêzan",
+   "Sermawez",
+   "Befranbar",
+   "Rêbendan",
+   "Reşeme"
+  ],
+  "bahai": [
+   "Bahá",
+   "Jalál",
+   "Jamál",
+   "ʻAẓamat",
+   "Núr",
+   "Raḥmat",
+   "Kalimát",
+   "Kamál",
+   "Asmáʼ",
+   "ʻIzzat",
+   "Mashíyyat",
+   "ʻIlm",
+   "Qudrat",
+   "Qawl",
+   "Masáʼil",
+   "Sharaf",
+   "Sulṭán",
+   "Mulk",
+   "Ayyám-i-Há",
+   "ʻAláʼ"
+  ],
+  "parsi": [
+   "Fravardin",
+   "Ardibehesht",
+   "Khordad",
+   "Tir",
+   "Amardad",
+   "Shehrevar",
+   "Meher",
+   "Avan",
+   "Adar",
+   "Dae",
+   "Bahman",
+   "Aspandarmad",
+   "siku za Gatha"
+  ],
+  "iceland": [
+   "Harpa",
+   "Skerpla",
+   "Sólmánuður",
+   "Heyannir",
+   "Tvímánuður",
+   "Haustmánuður",
+   "Gormánuður",
+   "Ýlir",
+   "Mörsugur",
+   "Þorri",
+   "Góa",
+   "Einmánuður",
+   "usiku wa ziada (aukanætur)"
+  ],
   "zodiac": [
    "Panya",
    "Ng’ombe",
@@ -309,7 +416,7 @@ window.TM_I18N["sw"] = {
    "region": "Korea Kaskazini",
    "type": "Miezi ya Gregori, miaka ya Juche",
    "epoch": "Kuzaliwa kwa Kim Il Sung, 1912",
-   "used": "Tangu 1997",
+   "used": "1997–2024: Korea Kaskazini iliacha kuchapisha mwaka wa Juche Oktoba 2024",
    "note": "Huandikwa pamoja na mwaka wa Kimagharibi kwenye mabano: 주체115(2026)년.",
    "year": "Juche {n}"
   },
@@ -359,10 +466,10 @@ window.TM_I18N["sw"] = {
   },
   "persian": {
    "name": "Kalenda ya Hijria ya jua",
-   "region": "Iran · Afghanistan",
+   "region": "Iran",
    "type": "Ya jua (kiastronomia)",
    "epoch": "Hijra, 622 BK, ikihesabiwa kwa miaka ya jua",
-   "used": "Rasmi Iran tangu 1925 na Afghanistan",
+   "used": "Rasmi Iran tangu 1925. Afghanistan iliitumia rasmi hadi 2022, serikali ilipohamia Hijria ya mwezi; watu huko bado wanaitumia",
    "note": "Mwaka huanza wakati kamili wa ikwinoksi ya Machi (Nowruz), jambo linaloifanya kuwa moja ya kalenda sahihi zaidi zinazotumika.",
    "year": "{n} SH"
   },
@@ -407,7 +514,7 @@ window.TM_I18N["sw"] = {
    "region": "Kanisa la Kiorthodoksi la Urusi",
    "type": "Ya jua",
    "epoch": "Anno Domini",
-   "used": "Ya kiraia Urusi hadi 1918; kalenda ya kanisa leo",
+   "used": "Ya kiraia Urusi hadi 1918; leo ni kalenda ya makanisa ya Kiorthodoksi ya Urusi, Serbia, Georgia na Yerusalemu, na ya Mlima Athos",
    "note": "Sasa iko nyuma ya kalenda ya Gregori kwa siku 13, ndiyo maana Krismasi ya Kiorthodoksi ya Urusi huangukia 7 Januari.",
    "year": "{n} (Mtindo wa Kale)"
   },
@@ -417,7 +524,102 @@ window.TM_I18N["sw"] = {
    "type": "Ya jua (miezi ya Juliasi)",
    "epoch": "Kutawazwa kwa Farao Shoshenq I, 950 KK",
    "used": "Kalenda ya kilimo; Yennayer ni sikukuu ya umma Aljeria (2018) na Moroko (2024)",
-   "note": "Inahifadhi urefu wa miezi ya Juliasi, hivyo 1 Yennayer siku hizi huangukia 14 Januari. Hesabu ya miaka ilipendekezwa mwaka 1980. Miezi imeonyeshwa kwa hati ya Tifinagh, hati ya Kitamazight Sanifu cha Moroko; Kikabyle nchini Aljeria huiandika kwa herufi za Kilatini (Yennayer, Furar…)."
+   "note": "Inahifadhi urefu wa miezi ya Juliasi, hivyo 1 Yennayer siku hizi huangukia 14 Januari. Hesabu ya miaka ilipendekezwa mwaka 1980. Miezi imeonyeshwa kwa hati ya Tifinagh, hati ya Kitamazight Sanifu cha Moroko; Kikabyle nchini Aljeria huiandika kwa herufi za Kilatini (Yennayer, Furar…). Aljeria huadhimisha Yennayer kama sikukuu ya umma tarehe 12 Januari, Moroko tarehe 14 Januari."
+  },
+  "nepali": {
+   "name": "Vikram Samvat (Nepal)",
+   "region": "Nepal",
+   "type": "Ya jua (kinyota), urefu wa miezi huwekwa kila mwaka",
+   "epoch": "Vikram Samvat, 57 KK",
+   "used": "Kalenda rasmi ya Nepal: nyaraka za serikali, hati za uraia, mwaka wa fedha na mwaka wa shule",
+   "note": "Miezi huwa na siku 29 hadi 32 na huwekwa mapema na kamati ya kalenda ya Nepal (Nepal Panchanga Nirnayak Samiti), hivyo tarehe hutoka kwenye majedwali yake yaliyochapishwa — yanapatikana hapa hadi mwisho wa 2083 VS (Aprili 2027).",
+   "year": "{n} VS"
+  },
+  "vietnamese": {
+   "name": "Kalenda ya Kivietnamu ya mwezi na jua (âm lịch)",
+   "region": "Vietnam",
+   "type": "Ya mwezi na jua",
+   "epoch": "Hakuna hesabu ya miaka inayoendelea; miaka huzunguka katika majina 60 ya shina–tawi",
+   "used": "Si kalenda ya serikali (ni ya Gregori, kwa amri tangu 1967), lakini huamua Tết, siku ya Wafalme wa Hùng na kumbukumbu za kifamilia",
+   "note": "Hukokotolewa kwa saa za Vietnam yenyewe (UTC+7), hivyo mwezi unaweza kuanza siku moja mapema kuliko China — mwaka 1985 Tết ilikuja mwezi mzima mapema (21 Januari, dhidi ya 20 Februari nchini China).",
+   "year": "mwaka wa {gzVi}"
+  },
+  "javanese": {
+   "name": "Kalenda ya Kijava",
+   "region": "Java, Indonesia",
+   "type": "Ya mwezi (kihesabu, windu ya miaka 8) pamoja na wiki ya soko ya siku 5",
+   "epoch": "Anno Javanico: iliendeleza mwaka wa Saka 1555 Sultan Agung alipoiunda mwaka 1633",
+   "used": "Maarufu Java: harusi, selamatan na siku za soko huchaguliwa kwa weton — siku ya wiki pamoja na siku ya pasaran",
+   "note": "Inaonyeshwa pamoja na siku ya wiki na siku ya pasaran (Legi, Pahing, Pon, Wage, Kliwon). Mwaka wa Kijava = mwaka wa Hijria + 512, lakini mwaka wa kihesabu unaweza kuanza siku moja tofauti na ule wa Kiislamu (1 Sura 1960 iliangukia 17 Juni 2026, 1 Muharram 16 Juni).",
+   "year": "{n} AJ"
+  },
+  "pawukon": {
+   "name": "Pawukon ya Bali",
+   "region": "Bali, Indonesia",
+   "type": "Mzunguko wa siku 210: wiki 30 za wuku za siku 7, pamoja na wiki za siku 5 na nyingine zinazokwenda sambamba",
+   "epoch": "Hakuna hesabu ya miaka: mzunguko hujirudia tu",
+   "used": "Sikukuu za Kihindu za Bali na kumbukumbu za mahekalu; Galungan huangukia kila baada ya siku 210 kwenye Buda Kliwon Dungulan",
+   "note": "Inaonyeshwa kama siku ya wiki ya siku 7, siku ya wiki ya siku 5 na wuku. Bali pia hufuata mwaka wa Saka wa mwezi na jua, ambao mwaka mpya wake (Nyepi) ni sikukuu ya kitaifa."
+  },
+  "kurdish": {
+   "name": "Kalenda ya Kikurdi",
+   "region": "Eneo la Kurdistan, Iraq",
+   "type": "Ya jua (miezi ya Hijria ya jua kwa majina ya Kikurdi)",
+   "epoch": "Enzi ya Wamedi, 700 KK: mwaka = mwaka wa Hijria ya jua + 1321",
+   "used": "Matumizi ya kitamaduni miongoni mwa Wakurdi; Newroz (21 Machi), mwaka wake mpya, ni sikukuu rasmi katika Eneo la Kurdistan",
+   "note": "Miezi yake inalingana moja kwa moja na ya kalenda ya Iran — Rezber ni Mehr — hivyo inashiriki mwaka mpya wa Iran kwenye ikwinoksi ya Machi.",
+   "year": "{n} (Kikurdi)"
+  },
+  "akan": {
+   "name": "Kalenda ya Kiakan (Adaduanan)",
+   "region": "Asante, Ghana",
+   "type": "Mzunguko wa siku 42: wiki ya siku 6 ikizunguka dhidi ya wiki ya siku 7",
+   "epoch": "Hakuna hesabu ya miaka: mzunguko wa siku 42 huendelea bila kukoma",
+   "used": "Huamua sherehe za Adae za Asante na mataifa mengine ya Kiakan; majina ya siku ya Kiakan (Kwasi, Kofi…) yanatokana na wiki ya siku 7",
+   "note": "Akwasidae, Adae kuu, huangukia Jumapili kila baada ya siku 42 na hufanyika katika Kasri la Manhyia, Kumasi; Awukudae huangukia Jumatano."
+  },
+  "iceland": {
+   "name": "Kalenda ya Kale ya Kiaisilandi",
+   "region": "Aisilandi",
+   "type": "Ya jua: wiki 52 + wiki ya ziada, ikihesabiwa kwa wiki za kiangazi na za majira ya baridi",
+   "epoch": "Haina hesabu yake ya miaka",
+   "used": "Huchapishwa kila mwaka katika almanaki ya Chuo Kikuu cha Aisilandi; Siku ya Kwanza ya Kiangazi ni sikukuu ya umma, na Bóndadagur (1 Þorri) na Konudagur (1 Góa) huadhimishwa na wengi",
+   "note": "Kiangazi huanza Alhamisi kati ya 19 na 25 Aprili, majira ya baridi Jumamosi mwishoni mwa Oktoba. Kati ya Sólmánuður na Heyannir kuna “usiku wa ziada” nne, na katika baadhi ya miaka wiki ya ziada (sumarauki)."
+  },
+  "bahai": {
+   "name": "Kalenda ya Kibahá’í (Badíʿ)",
+   "region": "Kituo cha Dunia cha Bahá’í, Haifa",
+   "type": "Ya jua: miezi 19 ya siku 19 + siku 4–5 za nyongeza",
+   "epoch": "Tangazo la Báb, 1844 (mwaka 1 BE)",
+   "used": "Wabahá’í duniani kote, kwa karamu, siku takatifu na Mfungo wa siku 19",
+   "note": "Tangu 2015 mwaka huanza kwenye ikwinoksi ya Machi kama inavyoonekana Tehran; tarehe hapa zinafuata jedwali rasmi la Kituo cha Dunia cha Bahá’í hadi 2065. Siku za nyongeza, Ayyám-i-Há, huja kabla ya mwezi wa mwisho, mwezi wa mfungo.",
+   "year": "{n} BE"
+  },
+  "parsi": {
+   "name": "Kalenda ya Kiparsi (Shahanshahi)",
+   "region": "Waparsi, Mumbai",
+   "type": "Ya jua, siku 365 bila siku ya ziada: 12 × 30 + siku 5 za Gatha",
+   "epoch": "Kutawazwa kwa Yazdegerd III, 632 BK (enzi ya Yazdegerdi, Y.Z.)",
+   "used": "Wazoroastria Waparsi wa India; Mwaka Mpya wa Kiparsi (Navroz) ni sikukuu ya umma Maharashtra na Gujarat",
+   "note": "Kila moja ya siku 30 ina jina lake (roj), kama ilivyo kila mwezi (mah). Bila siku ya ziada, Navroz husogea siku moja mapema kila baada ya miaka minne; hesabu ya Qadimi, inayofuatwa na wachache, iko mbele kwa siku 30.",
+   "year": "{n} Y.Z."
+  },
+  "bohra": {
+   "name": "Hijria ya Dawoodi Bohra (ya Kifatimi)",
+   "region": "Dawoodi Bohra, Surat",
+   "type": "Ya mwezi, ya kijedwali: miezi ya siku 30 na 29, miaka mirefu 11 katika 30",
+   "epoch": "Hijra, 622 BK",
+   "used": "Jumuiya ya Dawoodi Bohra duniani kote (takriban milioni moja), kwa Ramadhani, Idi na tarehe zote za kidini",
+   "note": "Kalenda thabiti ya kihesabu iliyorithiwa kutoka kwa Wafatimi, hivyo Idi ya Wabohra inaweza kuja siku moja kabla ya ile ya kuandama kwa mwezi — Idi el-Fitri 1445 ilikuwa 9 Aprili 2024.",
+   "year": "{n} AH"
+  },
+  "kiche": {
+   "name": "Hesabu ya siku ya Wamaya K’iche’ (Cholq’ij)",
+   "region": "Nyanda za juu za Guatemala",
+   "type": "Hesabu ya siku 260: namba 13 × majina 20 ya siku",
+   "epoch": "Hakuna mwaka 1: hesabu imeendelea bila kukatika tangu Wamaya wa kipindi cha Klasiki",
+   "used": "Watunza siku wa Kimaya (ajq’ijab’) kwa sherehe, utabiri na kutoa majina; Wajxaqib’ B’atz’ (8 B’atz’) hufungua mzunguko wao mpya",
+   "note": "Hesabu hai ya leo ni ile ya kale bila kukatika: inaangukia siku ileile na Tzolk’in ya kiklasiki katika uwiano wa Hesabu Ndefu unaotumika hapa. Wajxaqib’ B’atz’ iliangukia 18 Januari 2025 na 22 Juni 2026."
   },
   "yuan": {
    "name": "Enzi ya nasaba ya Yuan: Zhizheng",
@@ -479,7 +681,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya mwezi na jua, miaka ya enzi ya kifalme",
    "epoch": "Bảo Đại 1 = 1926",
    "used": "1926–1945, enzi ya mwisho ya nasaba ya mwisho ya Vietnam",
-   "note": "Inaonyeshwa kwa miezi ya kalenda ya Kichina; kalenda ya mwezi ya Vietnam yenyewe hukokotolewa kwa UTC+7 na mara chache hutofautiana kwa siku moja.",
+   "note": "Miezi inafuata kalenda ya mwezi ya Vietnam, iliyokwenda sambamba na ya China hadi Vietnam Kaskazini ilipoihamishia UTC+7 mwaka 1968; tangu hapo mwezi unaweza kuanza siku moja mapema kuliko China.",
    "year": "Bảo Đại {n}"
   },
   "koki": {

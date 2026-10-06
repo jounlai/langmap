@@ -111,10 +111,100 @@
     const NUM = { day: 'numeric', month: 'numeric', year: 'numeric' };
     // Numeric {y, m, d} in an Intl calendar. Month is the ordinal in the year.
     const calNum = (ca, D) => { const p = parts('en-u-ca-' + ca, NUM, D); return { y: +p.year, m: parseInt(p.month, 10), d: +p.day }; };
-    // Chinese / Korean lunisolar day.
+    /* ---------- Lunisolar (Chinese-type) calendars ----------
+       ICU's Chinese calendar misplaces some months (CNY 2027 on 7 Feb, not
+       6 Feb; CNY 2030 on 2 Feb, not 3 Feb; no leap 6th month in 1987), so it
+       is not used. China comes from a month table built from lunar-javascript
+       (寿星 algorithms, 1900-01-31 … 2100); Korea (UTC+9) and Vietnam (UTC+7)
+       from Hồ Ngọc Đức's algorithm, which matches that table on every day
+       1929–2099 at UTC+8 except one month in 2057 (a new moon at midnight). */
+    const INT = Math.floor, PI = Math.PI;
+    function newMoonDay(k, tz) {
+        const T = k / 1236.85, T2 = T * T, T3 = T2 * T, dr = PI / 180;
+        let Jd1 = 2415020.75933 + 29.53058868 * k + 0.0001178 * T2 - 0.000000155 * T3;
+        Jd1 += 0.00033 * Math.sin((166.56 + 132.87 * T - 0.009173 * T2) * dr);
+        const M = 359.2242 + 29.10535608 * k - 0.0000333 * T2 - 0.00000347 * T3;
+        const Mpr = 306.0253 + 385.81691806 * k + 0.0107306 * T2 + 0.00001236 * T3;
+        const F = 21.2964 + 390.67050646 * k - 0.0016528 * T2 - 0.00000239 * T3;
+        let C1 = (0.1734 - 0.000393 * T) * Math.sin(M * dr) + 0.0021 * Math.sin(2 * dr * M);
+        C1 = C1 - 0.4068 * Math.sin(Mpr * dr) + 0.0161 * Math.sin(dr * 2 * Mpr);
+        C1 = C1 - 0.0004 * Math.sin(dr * 3 * Mpr);
+        C1 = C1 + 0.0104 * Math.sin(dr * 2 * F) - 0.0051 * Math.sin(dr * (M + Mpr));
+        C1 = C1 - 0.0074 * Math.sin(dr * (M - Mpr)) + 0.0004 * Math.sin(dr * (2 * F + M));
+        C1 = C1 - 0.0004 * Math.sin(dr * (2 * F - M)) - 0.0006 * Math.sin(dr * (2 * F + Mpr));
+        C1 = C1 + 0.0010 * Math.sin(dr * (2 * F - Mpr)) + 0.0005 * Math.sin(dr * (2 * Mpr + M));
+        const deltat = T < -11
+            ? 0.001 + 0.000839 * T + 0.0002261 * T2 - 0.00000845 * T3 - 0.000000081 * T * T3
+            : -0.000278 + 0.000265 * T + 0.000262 * T2;
+        return INT(Jd1 + C1 - deltat + 0.5 + tz / 24);
+    }
+    function sunLongitude(jdn, tz) {
+        const T = (jdn - 2451545.5 - tz / 24) / 36525, T2 = T * T, dr = PI / 180;
+        const M = 357.52910 + 35999.05030 * T - 0.0001559 * T2 - 0.00000048 * T * T2;
+        const L0 = 280.46645 + 36000.76983 * T + 0.0003032 * T2;
+        let DL = (1.914600 - 0.004817 * T - 0.000014 * T2) * Math.sin(dr * M);
+        DL += (0.019993 - 0.000101 * T) * Math.sin(dr * 2 * M) + 0.000290 * Math.sin(dr * 3 * M);
+        let L = (L0 + DL) * dr;
+        L = L - PI * 2 * INT(L / (PI * 2));
+        return INT(L / PI * 6);
+    }
+    function lunarMonth11(yy, tz) {
+        const off = gregToJdn(yy, 12, 31) - 2415021, k = INT(off / 29.530588853);
+        let nm = newMoonDay(k, tz);
+        if (sunLongitude(nm, tz) >= 9) nm = newMoonDay(k - 1, tz);
+        return nm;
+    }
+    function leapMonthOffset(a11, tz) {
+        const k = INT((a11 - 2415021.076998695) / 29.530588853 + 0.5);
+        let last, i = 1, arc = sunLongitude(newMoonDay(k + i, tz), tz);
+        do { last = arc; i++; arc = sunLongitude(newMoonDay(k + i, tz), tz); } while (arc !== last && i < 14);
+        return i - 1;
+    }
+    function solarToLunar(dd, mm, yy, tz) {
+        const day = gregToJdn(yy, mm, dd), k = INT((day - 2415021.076998695) / 29.530588853);
+        // k is only an estimate: step back until the new moon is on or before the day
+        let kk = k + 1, monthStart = newMoonDay(kk, tz);
+        while (monthStart > day) monthStart = newMoonDay(--kk, tz);
+        let a11 = lunarMonth11(yy, tz), b11 = a11, lunarYear;
+        if (a11 >= monthStart) { lunarYear = yy; a11 = lunarMonth11(yy - 1, tz); }
+        else { lunarYear = yy + 1; b11 = lunarMonth11(yy + 1, tz); }
+        const lunarDay = day - monthStart + 1, diff = INT((monthStart - a11) / 29);
+        let leap = false, month = diff + 11;
+        if (b11 - a11 > 365) {
+            const lm = leapMonthOffset(a11, tz);
+            if (diff >= lm) { month = diff + 10; if (diff === lm) leap = true; }
+        }
+        if (month > 12) month -= 12;
+        if (month >= 11 && diff < 4) lunarYear -= 1;
+        return { d: lunarDay, m: month, y: lunarYear, leap };
+    }
+    // One char per lunar month from 1 正月 1900 (JDN 2415051): a = 29 days,
+    // b = 30, c = leap month of 29, d = leap month of 30.
+    const CN_START = 2415051, CN_MONTHS = 'abaababbcbbababaabababbbababaabababbbababacbaabbabbbabaabaabbabbabbaababababbadabababababababbabababaabbababbababcabababbbababaabababbbababaabcabbabbbabaabaabbabbbabaabaababbbabadabaababbabbabababaabbababbabababacbabbabbababaabababbabbabaabaadbabbbabaabaababbbbabaabaababbbabbacbaababbabbababaabababbabbababaababadbabbababaabababbabbabaababababbbabcabaababbbbabaabaababbbabbaabcababbabbababaabababbbababaabababbabdababaabababbababbabaabababbabbabaadaabbabbbabaabaababbbabbaabaadabbabbbaabaabababbbababaabababbabbadaababababbabababababababbababababadababbabbaabaababbbabbaabaababbabbbcabaabababbbababaabababbabbabacbabababbabbaababababbababababababadabbabababaabbabbabababaababbabbabadaabababbbababaabababbbababaabcbababbbabaababababbabababababababbcbababababababbabababaababbabbababacbababbbababaabababbbababaabaabbabbbcbaabaabbabbabbaabababababbabcbabababababbabababaababbabbababaabcbabbbababaabababbabbabaabaabbabbbabcabaabbabbbabaabaababbbabababcababbabbabababaababbabbabababaababdabbababaabababbabbabaabaabbabbbabacbaababbbbabaabaababbbabbaabaabcbbabbababaabababbabbababaabababbcbbabaababababbabbabaababababbbabaabcababbbbabaabaababbbabbaabaababbabbcbabaabababbbababaabababbababbcababababbababbaababababbabbabaabacbbabbabbaabaababbbabbaabaababbabbabcbaabababbbababaabababbabbabaabababcbbabababababababbababababababcbbabbaabaababbbabbaabaababbabbbaabcabababbbababaabababbabbabaababababbcbababababababbabababababababbcbababaababbbabababaababbabbababaadababbbababaabababbbababaabaabbabbbcbaababababbabababababababbababababcabbabbabababaababbabbababaabcbabbbababaabaabbbabbabaabaabbabbbabcabaabbabbabababaabbababbabababaabbcbabbabababaababbabbababaabababbbcbabaabababbabbabaabaabbabbbabaadaababbbbabaabaababbbabababaababbabbcbababaababbababbabaabababbabbababcabababbabbabaabaabbabbbabaabacbabbbbabaabaababbbabababaababbabbadabaabababbabbabaababababbabbabaabadababbabbabaabaabbabbbabaabaabcbbbbabaabaababbbabbaabaababbabbabadaabababbbababaabababbababbaabababadabbabbaabababababbbabaabaababbbabbacbaababbbabbaabaababbabbababacbababbbababaabababbabbabaababababbcbababababababbababababaabbabbabababcababbbabababaababbabbababaabcbabbbababaabababbabbabaababababbabcbabababababbabababababababbabababacbabbbabababaababbabbababaabababbbabcbaabaabbbabbabaabaabbabbbaabcbaabbabbabababababababbababababaabdabbabababaababbabbababaabababbbababcabaabbbabbabaaababbabbbabaabcabbabbabababaababbabbabababaabbabadbababaabababbabbababaabababbbababacbaabbbabbabaaababbabbbabaaabababbbcbbaabaababbbabababaab';
+    function cnTable(j) {
+        if (j < CN_START) return null;
+        let start = CN_START, y = 1900, m = 0;
+        for (let i = 0; i < CN_MONTHS.length; i++) {
+            const c = CN_MONTHS.charCodeAt(i) - 97, len = 29 + (c & 1), leap = c >= 2;
+            if (!leap) { m++; if (m > 12) { m = 1; y++; } }
+            if (j < start + len) return { relatedYear: y, month: m, leap, day: j - start + 1 };
+            start += len;
+        }
+        return null;
+    }
+    function lunarAt(g, tz) { const r = solarToLunar(g.d, g.m, g.y, tz); return { relatedYear: r.y, month: r.m, leap: r.leap, day: r.d }; }
+    // ca: 'chinese' (China), 'dangi' (Korea), 'vietnamese' (Vietnam).
     function lunar(ca, D) {
-        const n = parts('en-u-ca-' + ca, { year: 'numeric', month: 'numeric', day: 'numeric' }, D);
-        return { relatedYear: +n.relatedYear, month: parseInt(n.month, 10), leap: /bis/.test(n.month), day: +n.day };
+        const g = { y: D.getUTCFullYear(), m: D.getUTCMonth() + 1, d: D.getUTCDate() };
+        if (ca === 'chinese') return cnTable(gregToJdn(g.y, g.m, g.d)) || lunarAt(g, 8);
+        if (ca === 'vietnamese') {
+            // North Vietnam moved its lunar calendar to UTC+7 from 1968; before that it followed China's.
+            return g.y >= 1968 ? lunarAt(g, 7) : (cnTable(gregToJdn(g.y, g.m, g.d)) || lunarAt(g, 8));
+        }
+        // Korea: UTC+8:30 in 1954–1961 and before 1912, otherwise UTC+9.
+        const j = gregToJdn(g.y, g.m, g.d);
+        const tz = (g.y < 1912 || (j >= gregToJdn(1954, 3, 21) && j < gregToJdn(1961, 8, 10))) ? 8.5 : 9;
+        return lunarAt(g, tz);
     }
     // Sexagenary year index 0–59 (甲子 = 0) from the Gregorian year the lunar year starts in.
     const cycleIdx = relatedYear => mod(relatedYear - 4, 60);
@@ -212,6 +302,132 @@
         return { y, m: Math.floor(off / 30), d: off % 30 + 1, decadi: off % 10 };
     }
 
+
+    /* ---------- Living calendars added from the 2026-10 survey ---------- */
+    const TWI_DAYS = ['Kwasiada','Dwoada','Benada','Wukuada','Yawoada','Fiada','Memeneda'];          // Sun..Sat
+    const JAV_DAYS = ['Ahad','Senèn','Selasa','Rebo','Kemis','Jemuwah','Setu'];                      // Sun..Sat
+    const BALI_DAYS = ['Redite','Soma','Anggara','Buda','Wraspati','Sukra','Saniscara'];             // Sun..Sat
+    const IS_DAYS = ['sunnudagur','mánudagur','þriðjudagur','miðvikudagur','fimmtudagur','föstudagur','laugardagur'];
+    const PASARAN = ['Legi','Pahing','Pon','Wage','Kliwon'];          // index = JDN mod 5 (checked: 27 Jun 2025 = Kliwon)
+    const PANCAWARA = ['Umanis','Paing','Pon','Wage','Kliwon'];       // the same 5-day week, Balinese names
+    const weekday = j => mod(j + 1, 7);                               // 0 = Sunday
+    const JAV_MONTHS = ['Sura','Sapar','Mulud','Bakda Mulud','Jumadilawal','Jumadilakir','Rejeb','Ruwah','Pasa','Sawal','Sela','Besar'];
+    const JAV_YEARS = ['Alip','Ehe','Jimawal','Je','Dal','Be','Wawu','Jimakir'];
+    const WUKU = ['Sinta','Landep','Ukir','Kulantir','Tolu','Gumbreg','Wariga','Warigadean','Julungwangi','Sungsang','Dungulan','Kuningan',
+                  'Langkir','Medangsia','Pujut','Pahang','Krulut','Merakih','Tambir','Medangkungan','Matal','Uye','Menail','Prangbakat',
+                  'Bala','Ugu','Wayang','Kelawu','Dukut','Watugunung'];
+    const KICHE_DAYS = ["Imox","Iq'","Aq'ab'al","K'at","Kan","Kame","Kej","Q'anil","Toj","Tz'i'","B'atz'","E","Aj","I'x","Tz'ikin","Ajmaq","No'j","Tijax","Kawoq","Ajpu"];
+    const KICHE_NUM = ["Jun","Keb'","Oxib'","Kajib'","Job'","Waqib'","Wuqub'","Wajxaqib'","B'elejeb'","Lajuj","Junlajuj","Kablajuj","Oxlajuj"];
+    const KU_MONTHS = ['خاکەلێوە','گوڵان','جۆزەردان','پووشپەڕ','گەلاوێژ','خەرمانان','ڕەزبەر','گەڵاڕێزان','سەرماوەز','بەفرانبار','ڕێبەندان','ڕەشەمە'];
+    const NP_MONTHS = ['बैशाख','जेठ','असार','साउन','भदौ','असोज','कात्तिक','मंसिर','पुस','माघ','फागुन','चैत'];
+    const BAHAI_FA = ['بهاء','جلال','جمال','عظمت','نور','رحمت','کلمات','کمال','اسماء','عزّت','مشیّت','علم','قدرت','قول','مسائل','شرف','سلطان','ملک','ایّام‌ها','علاء'];
+    const BAHAI_LAT = ['Bahá','Jalál','Jamál','ʻAẓamat','Núr','Raḥmat','Kalimát','Kamál','Asmáʼ','ʻIzzat','Mashíyyat','ʻIlm','Qudrat','Qawl','Masáʼil','Sharaf','Sulṭán','Mulk','Ayyám-i-Há','ʻAláʼ'];
+    const PARSI_ROJ = ['Hormazd','Bahman','Ardibehesht','Shehrevar','Aspandad','Khordad','Amardad','Dae-pa-Adar','Adar','Avan','Khorshed','Mohor','Tir','Gosh','Dae-pa-Meher',
+                       'Meher','Srosh','Rashne','Fravardin','Behram','Ram','Govad','Dae-pa-Din','Din','Ashishvangh','Ashtad','Asman','Zamyad','Mareshpand','Aneran'];
+    const PARSI_MAH = ['Fravardin','Ardibehesht','Khordad','Tir','Amardad','Shehrevar','Meher','Avan','Adar','Dae','Bahman','Aspandarmad'];
+    const PARSI_GATHA = ['Ahunavad','Ushtavad','Spentomad','Vohukshathra','Vahishtoisht'];
+    const AR_MONTHS = ['محرم','صفر','ربيع الأول','ربيع الآخر','جمادى الأولى','جمادى الآخرة','رجب','شعبان','رمضان','شوال','ذو القعدة','ذو الحجة'];
+    const IS_MONTHS_GEN = ['hörpu','skerplu','sólmánaðar','heyanna','tvímánaðar','haustmánaðar','gormánaðar','ýlis','mörsugs','þorra','góu','einmánaðar'];
+    const arabDigits = n => localeDigits(n, 'ar-EG');
+    const yearOfJdn = j => jdnToGreg(j).y;
+    function jdnToGreg(j) {
+        const a = j + 32044, b = Math.floor((4 * a + 3) / 146097), c = a - Math.floor(146097 * b / 4);
+        const d = Math.floor((4 * c + 3) / 1461), e = c - Math.floor(1461 * d / 4), m = Math.floor((5 * e + 2) / 153);
+        return { y: 100 * b + d - 4800 + Math.floor(m / 10), m: m + 3 - 12 * Math.floor(m / 10), d: e - Math.floor((153 * m + 2) / 5) + 1 };
+    }
+
+    // Javanese calendar, kurup Asapon: 1 Sura Alip 1867 AJ = Tuesday Pon, 24 March 1936.
+    // 8-year windu; Ehe, Dal and Jimakir have 355 days (checked: 1 Sura 1959 = 27 Jun 2025,
+    // 1 Sura 1960 = 17 Jun 2026, Rabu Kliwon). The kurup runs 120 years, to 1986 AJ.
+    const JAV_EPOCH = gregToJdn(1936, 3, 24), JAV_LEN = [354, 355, 354, 354, 355, 354, 354, 355];
+    function javanese(j) {
+        if (j < JAV_EPOCH) return null;
+        let y = 1867, start = JAV_EPOCH;
+        while (j >= start + JAV_LEN[(y - 1867) % 8]) { start += JAV_LEN[(y - 1867) % 8]; y++; if (y > 1986) return null; }
+        let d = j - start, m = 0;
+        const longYear = JAV_LEN[(y - 1867) % 8] === 355;
+        for (;;) { const len = m % 2 === 0 || (m === 11 && longYear) ? 30 : 29; if (d < len) break; d -= len; m++; }
+        return { y, m, d: d + 1, yearName: JAV_YEARS[(y - 1867) % 8] };
+    }
+    // Balinese Pawukon: 210-day cycle of 30 seven-day wuku. Galungan (Buda Kliwon Dungulan)
+    // fell on 23 Apr 2025 and 17 Jun 2026, so wuku Sinta began on Sunday 9 Feb 2025.
+    const WUKU_EPOCH = gregToJdn(2025, 2, 9);
+    const pawukon = j => { const k = mod(j - WUKU_EPOCH, 210); return { wuku: Math.floor(k / 7), day: k % 7 }; };
+    // Akan 42-day cycle: Akwasidae (day 28) on Sunday 15 Mar 2026; also 8 Jan 1978, 409 cycles earlier.
+    const AKAN_REF = gregToJdn(2026, 3, 15);
+    const akanDay = j => mod(j - AKAN_REF + 27, 42) + 1;   // 1..42; 1 Fɔdwo, 10 Awukudae, 19 Fofi, 28 Akwasidae
+    const AKAN_DABONE = { 1: 'Fɔdwo', 10: 'Awukudae', 19: 'Fofi', 28: 'Akwasidae' };
+    // Nepal's Vikram Samvat: month lengths (29 + digit) as fixed by the Nepal Panchanga
+    // Nirnayak Samiti, 2000–2083 BS, from the bikram-sambat library and cross-checked against
+    // nepali-date-converter (they disagree from 2084, not yet fixed). 1 Baisakh 2000 = 14 Apr 1943.
+    const NP_START = gregToJdn(1943, 4, 14), NP_TABLE = '132321110102223222101011223321101011232321110012132321110102223222101011223321101011232321110012222322011002223222101011223321101011232321110012222322011011223222101011223321101011232321110012222322011011223222101011232321101011232321110102222322101011223222101011232321110011232321110102222322101011223222101011232321110012132321110102223222101011223231101011232321110012132321110102223222101011223321101011232321110012132322011002223222101011223321101011232321110012222322011011223222101011223321101011232321110012222322011011223222101011232321101011232321110012222322101011223222101011232321110011232321110102222322101011223222101011232321110011232321110102223222101011223231101011232321110012132321110102223222101011223321101011232321110012132322010102223222101011223321101011232321110012222322011002223222101011223321101011232321110012222322011011223222101011232321101011232321110012222322101011223222101011232321110011232321110102222322101011223222101011232321110011232321110102223222101011223222101011';
+    function nepali(j) {
+        let off = j - NP_START; if (off < 0) return null;
+        for (let i = 0; i < NP_TABLE.length; i++) {
+            const len = 29 + (+NP_TABLE[i]);
+            if (off < len) return { y: 2000 + Math.floor(i / 12), m: i % 12, d: off + 1 };
+            off -= len;
+        }
+        return null;
+    }
+    // Bahá'í (Badíʿ) calendar. Since 172 BE (2015) Naw-Rúz is fixed by astronomy at Tehran; the
+    // Bahá'í World Centre's table "Badíʿ dates 172 to 221 BE" gives each (digit: 1 = 20 March,
+    // 2 = 21 March). Before 2015 the calendar was tied to the Gregorian: Naw-Rúz on 21 March.
+    const BAHAI_NR = '21122112211221112111211121112111211121112111111111';
+    function bahaiNawRuz(be) {
+        if (be < 172) return gregToJdn(be + 1843, 3, 21);
+        if (be - 172 < BAHAI_NR.length) return gregToJdn(be + 1843, 3, 19 + (+BAHAI_NR[be - 172]));
+        return null;
+    }
+    function bahai(j) {
+        let be = yearOfJdn(j) - 1843; const nr = bahaiNawRuz(be);
+        if (nr == null) return null;
+        if (j < nr) be--;
+        if (be < 1) return null;
+        const start = bahaiNawRuz(be), next = bahaiNawRuz(be + 1), off = j - start;
+        if (off < 342) return { y: be, m: Math.floor(off / 19), d: off % 19 + 1 };
+        if (next == null) return null;
+        const ayyam = next - start - 361;
+        if (off < 342 + ayyam) return { y: be, m: 18, d: off - 341 };
+        return { y: be, m: 19, d: off - 342 - ayyam + 1 };
+    }
+    // Parsi Shahanshahi: 12 × 30 days + 5 Gatha days, no leap day; Navroz of year Y (Yazdegerdi)
+    // = JDN 1952093 + 365 (Y − 1) — 15 Aug 2025 = 1395, 15 Aug 2026 = 1396.
+    function parsi(j) {
+        const off = j - 1952093; if (off < 0) return null;
+        const y = Math.floor(off / 365) + 1, doy = off % 365;
+        return doy < 360 ? { y, m: Math.floor(doy / 30), d: doy % 30 + 1 } : { y, m: 12, d: doy - 359 };
+    }
+    // Dawoodi Bohra (Fatimid) Hijri: tabular, leap years 2, 5, 8, 10, 13, 16, 19, 21, 24, 27, 29
+    // of 30, epoch Thursday 15 Jul 622 (JDN 1948439). 1 Shawwal 1445 = 9 Apr 2024, 1446 = 30 Mar 2025.
+    const BOHRA_LEAP = [2, 5, 8, 10, 13, 16, 19, 21, 24, 27, 29];
+    function bohra(j) {
+        let off = j - 1948439; if (off < 0) return null;
+        let y = 1 + 30 * Math.floor(off / 10631); off %= 10631;
+        const isLeap = yy => BOHRA_LEAP.includes(mod(yy - 1, 30) + 1);
+        for (;;) { const len = isLeap(y) ? 355 : 354; if (off < len) break; off -= len; y++; }
+        let m = 0;
+        for (;;) { const len = m % 2 === 0 || (m === 11 && isLeap(y)) ? 30 : 29; if (off < len) break; off -= len; m++; }
+        return { y, m, d: off + 1 };
+    }
+    // Old Icelandic calendar (Janson, "The Icelandic Calendar"): summer begins on the Thursday
+    // 19–25 April and winter on the Saturday 180 days before the next summer. Months of 30 days;
+    // between Sólmánuður and Heyannir come the 4 aukanætur, plus the 7-day sumarauki in long years.
+    const firstSummerDay = y => { const a = gregToJdn(y, 4, 19); return a + mod(4 - weekday(a), 7); };
+    function iceland(j) {
+        const gy = yearOfJdn(j);
+        let S = firstSummerDay(gy); if (j < S) S = firstSummerDay(gy - 1);
+        const W = firstSummerDay(yearOfJdn(S) + 1) - 180;
+        if (j < W) {
+            const off = j - S, H = W - 90, week = Math.floor(off / 7) + 1;
+            if (off < 90) return { season: 0, week, m: Math.floor(off / 30), d: off % 30 + 1 };
+            if (j < H) return { season: 0, week, m: 12, d: off - 89 };      // aukanætur (+ sumarauki)
+            const h = j - H; return { season: 0, week, m: 3 + Math.floor(h / 30), d: h % 30 + 1 };
+        }
+        const off = j - W;
+        return { season: 1, week: Math.floor(off / 7) + 1, m: 6 + Math.floor(off / 30), d: off % 30 + 1 };
+    }
+
     /* ---------- tr builders ----------
        tr.kind: 'list'  — month from the UI language's months[list][mi]
                 'greg'  — month from months.gregorian[gm-1] (Gregorian or Julian)
@@ -258,7 +474,7 @@
           fmt: (g, D) => ({ native: fmt('ja-JP', DMY).format(D), latin: 'year · month · day', tr: { kind: 'full' } }) },
 
         /* ===== In use today ===== */
-        { id: 'japanese', status: 'current', lat: 37.2, lng: 138.6,
+        { id: 'japanese', status: 'current', use: 'official', lat: 37.2, lng: 138.6,
           name: 'Japanese era (gengō)', region: 'Japan', type: 'Gregorian months, imperial era years',
           epoch: 'Accession of the current emperor (Reiwa 1 = 2019)',
           used: 'Since 645 (Taika); one era per reign since 1868',
@@ -270,7 +486,7 @@
               return { native: eraJa + (n === 1 ? '元' : n) + '年' + g.m + '月' + g.d + '日',
                        latin: (ERA_EN[eraJa] || eraJa) + ' ' + n + ', ' + g.m + '/' + g.d,
                        tr: Object.assign(trGreg(n, g.m, g.d), { era: eraJa, eraKey: ERA_EN[eraJa] || eraJa }) }; } },
-        { id: 'roc', status: 'current', lat: 23.7, lng: 121.0,
+        { id: 'roc', status: 'current', use: 'official', lat: 23.7, lng: 121.0,
           name: 'Minguo calendar', region: 'Taiwan', type: 'Gregorian months, Republic-era years',
           epoch: 'Founding of the Republic of China, 1912', used: 'Since 1912; official in Taiwan',
           note: 'Year = Western year − 1911. It runs in step with North Korea’s Juche year.',
@@ -278,15 +494,15 @@
           from: { y: 1912, m: 1, d: 1 },
           fmt: g => { const n = g.y - 1911;
               return { native: '民國' + (n === 1 ? '元' : n) + '年' + g.m + '月' + g.d + '日', latin: 'Minguo ' + n + ', ' + g.m + '/' + g.d, tr: trGreg(n, g.m, g.d) }; } },
-        { id: 'juche', status: 'current', lat: 40.3, lng: 127.0,
+        { id: 'juche', status: 'historical', lat: 40.3, lng: 127.0,
           name: 'Juche calendar', region: 'North Korea', type: 'Gregorian months, Juche years',
-          epoch: 'Birth of Kim Il Sung, 1912', used: 'Since 1997',
+          epoch: 'Birth of Kim Il Sung, 1912', used: '1997–2024: North Korea stopped printing the Juche year in October 2024',
           note: 'Written with the Western year in brackets: 주체115(2026)년.',
           year: 'Juche {n}',
-          from: { y: 1912, m: 1, d: 1 },
+          from: { y: 1912, m: 1, d: 1 }, endYear: 2024,
           fmt: g => { const n = g.y - 1911;
               return { native: '주체' + n + '(' + g.y + ')년 ' + g.m + '월 ' + g.d + '일', latin: 'Juche ' + n + ', ' + g.m + '/' + g.d, tr: trGreg(n, g.m, g.d) }; } },
-        { id: 'buddhist', status: 'current', lat: 15.6, lng: 100.9,
+        { id: 'buddhist', status: 'current', use: 'official', lat: 15.6, lng: 100.9,
           name: 'Thai solar calendar', region: 'Thailand', type: 'Solar, Buddhist Era years',
           epoch: 'Buddhist Era: the Buddha’s parinirvana, 543 BC by Thai reckoning',
           used: 'Official since 1912 (BE year), with 1 January as New Year since 1941',
@@ -294,7 +510,7 @@
           year: '{n} BE',
           from: { y: 1941, m: 1, d: 1 },
           fmt: (g, D) => ({ native: thaiDigits(g.d) + ' ' + thaiMonth(D) + ' พ.ศ. ' + thaiDigits(g.y + 543), latin: g.d + '/' + g.m + '/' + (g.y + 543) + ' BE', tr: trGreg(g.y + 543, g.m, g.d) }) },
-        { id: 'chinese', status: 'current', lat: 33.5, lng: 104.0,
+        { id: 'chinese', status: 'current', use: 'popular', lat: 33.5, lng: 104.0,
           name: 'Chinese lunisolar calendar', region: 'China', type: 'Lunisolar',
           epoch: 'No running year count; years cycle through 60 stem–branch names',
           used: 'Fixes the Spring Festival, Mid-Autumn and other holidays',
@@ -305,7 +521,7 @@
               return { native: '农历' + cy.gz + '年' + (c.leap ? '闰' : '') + lunarMonthHan(c.month) + '月' + lunarDay(c.day),
                        latin: cy.gzPy + ' year, ' + (c.leap ? 'leap ' : '') + 'month ' + c.month + ', day ' + c.day,
                        tr: Object.assign({ kind: 'lunar', m: c.month, leap: c.leap, d: c.day }, cy) }; } },
-        { id: 'dangi', status: 'current', lat: 35.9, lng: 128.0,
+        { id: 'dangi', status: 'current', use: 'popular', lat: 35.9, lng: 128.0,
           name: 'Korean lunisolar calendar', region: 'South Korea', type: 'Lunisolar',
           epoch: 'No running year count; 60-year cycle', used: 'Fixes Seollal and Chuseok',
           note: 'Same rules as the Chinese calendar but computed for Korean time, so a new moon near midnight can start a month one day apart.',
@@ -315,7 +531,7 @@
               return { native: '음력 ' + cy.gzKo + '년 ' + (c.leap ? '윤' : '') + c.month + '월 ' + c.day + '일',
                        latin: 'lunar ' + (c.leap ? 'leap ' : '') + 'month ' + c.month + ', day ' + c.day,
                        tr: Object.assign({ kind: 'lunar', m: c.month, leap: c.leap, d: c.day }, cy) }; } },
-        { id: 'hebrew', status: 'current', lat: 31.2, lng: 34.9,
+        { id: 'hebrew', status: 'current', use: 'official', lat: 31.2, lng: 34.9,
           name: 'Hebrew calendar', region: 'Israel', type: 'Lunisolar',
           epoch: 'Anno Mundi: the traditional date of Creation, 3761 BC',
           used: 'Official in Israel alongside the Gregorian calendar',
@@ -326,7 +542,7 @@
               return { native: hebrewNumeral(+h.day) + ' ב' + h.month + ' ' + hebrewNumeral(+h.year % 1000),
                        latin: e.day + ' ' + e.month + ' ' + e.year,
                        tr: mi < 0 ? { kind: 'fixed', text: e.day + ' ' + e.month + ' ' + e.year } : trList('hebrew', +e.year, mi, +e.day) }; } },
-        { id: 'islamic', status: 'current', lat: 23.6, lng: 45.0,
+        { id: 'islamic', status: 'current', use: 'official', lat: 23.6, lng: 45.0,
           name: 'Islamic (Hijri) calendar', region: 'Saudi Arabia', type: 'Lunar (no leap month)',
           epoch: 'The Hijra, Muhammad’s move to Medina, AD 622',
           used: 'Religious use worldwide; civil in Saudi Arabia (Umm al-Qura tables)',
@@ -336,16 +552,16 @@
           fmt: (g, D) => { const n = calNum('islamic-umalqura', D);
               return { native: fmt('ar-SA-u-ca-islamic-umalqura', { dateStyle: 'long' }).format(D), latin: n.d + '/' + n.m + '/' + n.y + ' AH',
                        tr: trList('islamic', n.y, n.m - 1, n.d) }; } },
-        { id: 'persian', status: 'current', lat: 32.0, lng: 54.5,
-          name: 'Solar Hijri calendar', region: 'Iran · Afghanistan', type: 'Solar (astronomical)',
+        { id: 'persian', status: 'current', use: 'official', lat: 32.0, lng: 54.5,
+          name: 'Solar Hijri calendar', region: 'Iran', type: 'Solar (astronomical)',
           epoch: 'The Hijra, AD 622, counted in solar years',
-          used: 'Official in Iran since 1925 and in Afghanistan',
+          used: 'Official in Iran since 1925. Afghanistan used it officially until 2022, when the government moved to the lunar Hijri; people there still use it',
           note: 'The year begins at the exact moment of the March equinox (Nowruz), which makes it one of the most accurate calendars in use.',
           year: '{n} SH',
           from: { y: 622, m: 3, d: 22 },
           fmt: (g, D) => { const n = calNum('persian', D), p = parts('fa-IR-u-ca-persian', DMY, D);
               return { native: p.day + ' ' + p.month + ' ' + p.year, latin: n.d + '/' + n.m + '/' + n.y + ' SH', tr: trList('persian', n.y, n.m - 1, n.d) }; } },
-        { id: 'indian', status: 'current', lat: 22.5, lng: 78.5,
+        { id: 'indian', status: 'current', use: 'official', lat: 22.5, lng: 78.5,
           name: 'Indian national calendar', region: 'India', type: 'Solar',
           epoch: 'Śaka era, AD 78', used: 'Official since 1957, beside the Gregorian calendar',
           note: 'A reformed, fixed calendar. Festivals still follow the many regional Hindu lunisolar calendars.',
@@ -353,7 +569,7 @@
           from: { y: 1957, m: 3, d: 22 },
           fmt: (g, D) => { const n = calNum('indian', D);
               return { native: SAKA_HI[n.m - 1] + ' ' + devaDigits(n.d) + ', ' + devaDigits(n.y) + ' शक', latin: n.d + '/' + n.m + '/' + n.y + ' Śaka', tr: trList('indian', n.y, n.m - 1, n.d) }; } },
-        { id: 'bengali', status: 'current', lat: 23.9, lng: 90.3,
+        { id: 'bengali', status: 'current', use: 'official', lat: 23.9, lng: 90.3,
           name: 'Bengali calendar (Bangabda)', region: 'Bangladesh', type: 'Solar (fixed rules)',
           epoch: 'Bangabda, AD 593', used: 'Official in Bangladesh; the 2019 revision is shown',
           note: 'New Year, Pohela Boishakh, is fixed on 14 April. West Bengal in India keeps an older astronomical version, so dates there can differ by a day.',
@@ -362,7 +578,7 @@
           fmt: g => { const b = bengali(g);
               return { native: localeDigits(b.d, 'bn-BD') + ' ' + BN[b.m] + ' ' + localeDigits(b.y, 'bn-BD') + ' বঙ্গাব্দ',
                        latin: b.d + '/' + (b.m + 1) + '/' + b.y + ' BS', tr: trList('bengali', b.y, b.m, b.d) }; } },
-        { id: 'ethiopic', status: 'current', lat: 9.0, lng: 39.5,
+        { id: 'ethiopic', status: 'current', use: 'official', lat: 9.0, lng: 39.5,
           name: 'Ethiopian calendar', region: 'Ethiopia · Eritrea', type: 'Solar: 12 months of 30 days + a 13th of 5–6',
           epoch: 'Incarnation era, AD 8 by the Gregorian count', used: 'Official in Ethiopia',
           note: 'Seven or eight years behind the Western count; New Year (Enkutatash) falls on 11 September.',
@@ -370,7 +586,7 @@
           from: { y: 8, m: 8, d: 27 },
           fmt: (g, D) => { const n = calNum('ethiopic', D), a = parts('am-u-ca-ethiopic', DMY, D);
               return { native: a.month + ' ' + n.d + ' ቀን ' + n.y + ' ዓ.ም.', latin: n.d + '/' + n.m + '/' + n.y + ' E.C.', tr: trList('ethiopic', n.y, n.m - 1, n.d) }; } },
-        { id: 'coptic', status: 'current', lat: 26.6, lng: 30.6,
+        { id: 'coptic', status: 'current', use: 'religious', lat: 26.6, lng: 30.6,
           name: 'Coptic calendar', region: 'Egypt', type: 'Solar: 12 × 30 days + 5–6 epagomenal days',
           epoch: 'Era of the Martyrs, AD 284 (accession of Diocletian)',
           used: 'Coptic Church; Egyptian farmers still sow by its months',
@@ -379,22 +595,126 @@
           from: { y: 284, m: 8, d: 29 },
           fmt: (g, D) => { const n = calNum('coptic', D), a = parts('ar-EG-u-ca-coptic', DMY, D);
               return { native: a.day + ' ' + a.month + ' ' + a.year + ' للشهداء', latin: n.d + '/' + n.m + '/' + n.y + ' A.M.', tr: trList('coptic', n.y, n.m - 1, n.d) }; } },
-        { id: 'julian', status: 'current', lat: 58.0, lng: 45.0,
+        { id: 'julian', status: 'current', use: 'religious', lat: 58.0, lng: 45.0,
           name: 'Julian calendar (Old Style)', region: 'Russian Orthodox Church', type: 'Solar',
-          epoch: 'Anno Domini', used: 'Civil in Russia until 1918; church calendar today',
+          epoch: 'Anno Domini', used: 'Civil in Russia until 1918; today the church calendar of the Russian, Serbian, Georgian and Jerusalem Orthodox churches and Mount Athos',
           note: 'Now 13 days behind the Gregorian calendar, which is why Russian Orthodox Christmas falls on 7 January.',
           year: '{n} (Old Style)',
           from: { y: 1, m: 1, d: 1 },
           fmt: g => { const J = julianOf(g);
               return { native: J.d + ' ' + RU_GEN[J.m - 1] + ' ' + J.y + ' г. (ст. ст.)', latin: J.d + '/' + J.m + '/' + J.y + ' O.S.', tr: trGreg(J.y, J.m, J.d) }; } },
-        { id: 'amazigh', status: 'current', lat: 31.5, lng: -2.0,
+        { id: 'amazigh', status: 'current', use: 'popular', lat: 31.5, lng: -2.0,
           name: 'Amazigh (Berber) calendar', region: 'Morocco · Algeria', type: 'Solar (Julian months)',
           epoch: 'Accession of Pharaoh Shoshenq I, 950 BC',
           used: 'Agricultural calendar; Yennayer is a public holiday in Algeria (2018) and Morocco (2024)',
-          note: 'Keeps the Julian month lengths, so Yennayer 1 falls on 14 January today. The year count was proposed in 1980. Months are shown in Tifinagh, the script of Standard Moroccan Tamazight; Kabyle in Algeria writes them in Latin letters (Yennayer, Furar…).',
+          note: 'Keeps the Julian month lengths, so Yennayer 1 falls on 14 January today. The year count was proposed in 1980. Months are shown in Tifinagh, the script of Standard Moroccan Tamazight; Kabyle in Algeria writes them in Latin letters (Yennayer, Furar…). Algeria keeps Yennayer as a public holiday on 12 January, Morocco on 14 January.',
           from: { y: 1980, m: 1, d: 14 },
           fmt: g => { const J = julianOf(g);
               return { native: J.d + ' ' + AMZ_TFNG[J.m - 1] + ' ' + (J.y + 950), latin: J.d + ' ' + AMZ[J.m - 1] + ' ' + (J.y + 950), tr: trList('amazigh', J.y + 950, J.m - 1, J.d) }; } },
+
+        { id: 'nepali', status: 'current', use: 'official', lat: 27.7, lng: 85.3,
+          name: 'Vikram Samvat (Nepal)', region: 'Nepal', type: 'Solar (sidereal), month lengths fixed each year',
+          epoch: 'Vikram Samvat, 57 BC', used: 'Official calendar of Nepal: government documents, citizenship papers, the fiscal and school year',
+          note: 'Months run 29 to 32 days and are fixed in advance by Nepal’s calendar committee (Nepal Panchanga Nirnayak Samiti), so dates come from its published tables — available here to the end of 2083 VS (April 2027).',
+          year: '{n} VS',
+          from: { y: 1943, m: 4, d: 14 },
+          fmt: g => { const n = nepali(gregToJdn(g.y, g.m, g.d)); if (!n) return null;
+              return { native: 'वि.सं. ' + devaDigits(n.y) + ' ' + NP_MONTHS[n.m] + ' ' + devaDigits(n.d) + ' गते', latin: n.d + '/' + (n.m + 1) + '/' + n.y + ' VS', tr: trList('nepali', n.y, n.m, n.d) }; } },
+        { id: 'vietnamese', status: 'current', use: 'popular', lat: 21.0, lng: 105.8,
+          name: 'Vietnamese lunisolar calendar (âm lịch)', region: 'Vietnam', type: 'Lunisolar',
+          epoch: 'No running year count; years cycle through 60 stem–branch names',
+          used: 'Not the state calendar (Gregorian is, by decree since 1967), but it fixes Tết, the Hùng Kings’ day and family anniversaries',
+          note: 'Computed for Vietnam’s own time zone (UTC+7), so a month can start a day earlier than in China — in 1985 Tết came a whole month earlier (21 January, against 20 February in China).',
+          year: 'year {gzVi}',
+          from: { y: 1, m: 1, d: 1 },
+          fmt: (g, D) => { const c = lunar('vietnamese', D), cy = cycle(c.relatedYear);
+              return { native: 'ngày ' + c.day + ' tháng ' + c.month + (c.leap ? ' nhuận' : '') + ' năm ' + cy.gzVi,
+                       latin: (c.leap ? 'leap ' : '') + 'month ' + c.month + ', day ' + c.day + ', ' + cy.gzVi,
+                       tr: Object.assign({ kind: 'lunar', m: c.month, leap: c.leap, d: c.day }, cy) }; } },
+        { id: 'javanese', status: 'current', use: 'popular', lat: -7.8, lng: 110.4,
+          name: 'Javanese calendar', region: 'Java, Indonesia', type: 'Lunar (arithmetic, 8-year windu) with a 5-day market week',
+          epoch: 'Anno Javanico: continued from the Saka year 1555 when Sultan Agung created it in 1633',
+          used: 'Popular in Java: weddings, selamatan and market days are chosen by weton — the weekday plus the pasaran day',
+          note: 'Shown with the weekday and the pasaran day (Legi, Pahing, Pon, Wage, Kliwon). Javanese year = Hijri year + 512, but the arithmetic year can start a day apart from the Islamic one (1 Sura 1960 fell on 17 June 2026, 1 Muharram on 16 June).',
+          year: '{n} AJ',
+          from: { y: 1936, m: 3, d: 24 },
+          fmt: g => { const j = gregToJdn(g.y, g.m, g.d), v = javanese(j); if (!v) return null;
+              return { native: JAV_DAYS[weekday(j)] + ' ' + PASARAN[mod(j, 5)] + ', ' + v.d + ' ' + JAV_MONTHS[v.m] + ' ' + v.y + ' ' + v.yearName,
+                       latin: JAV_DAYS[weekday(j)] + ' ' + PASARAN[mod(j, 5)] + ', ' + v.d + ' ' + JAV_MONTHS[v.m] + ' ' + v.y + ' AJ', tr: trList('javanese', v.y, v.m, v.d) }; } },
+        { id: 'pawukon', status: 'current', use: 'popular', lat: -8.45, lng: 115.25,
+          name: 'Balinese Pawukon', region: 'Bali, Indonesia', type: '210-day cycle: 30 wuku weeks of 7 days, with 5-day and other weeks running alongside',
+          epoch: 'No year count: the cycle simply repeats',
+          used: 'Bali’s Hindu festivals and temple anniversaries; Galungan falls every 210 days on Buda Kliwon Dungulan',
+          note: 'Shown as the 7-day weekday, the 5-day weekday and the wuku. Bali also keeps a lunisolar Saka year, whose new year (Nyepi) is a national holiday.',
+          from: { y: 1, m: 1, d: 1 },
+          fmt: g => { const j = gregToJdn(g.y, g.m, g.d), p = pawukon(j);
+              const nat = BALI_DAYS[weekday(j)] + ' ' + PANCAWARA[mod(j, 5)] + ' · wuku ' + WUKU[p.wuku];
+              return { native: nat, latin: nat, tr: { kind: 'wuku', n: p.wuku + 1, wuku: WUKU[p.wuku] } }; } },
+        { id: 'kurdish', status: 'current', use: 'popular', lat: 36.2, lng: 44.0,
+          name: 'Kurdish calendar', region: 'Kurdistan Region, Iraq', type: 'Solar (Solar Hijri months under Kurdish names)',
+          epoch: 'The Median era, 700 BC: year = Solar Hijri year + 1321',
+          used: 'Cultural use among Kurds; Newroz (21 March), its new year, is an official holiday in the Kurdistan Region',
+          note: 'The months match the Iranian calendar one for one — Rezber is Mehr — so it shares the Iranian new year at the March equinox.',
+          year: '{n} (Kurdish)',
+          from: { y: 622, m: 3, d: 22 },
+          fmt: (g, D) => { const n = calNum('persian', D), y = n.y + 1321;
+              return { native: arabDigits(n.d) + ' ' + KU_MONTHS[n.m - 1] + ' ' + arabDigits(y), latin: n.d + '/' + n.m + '/' + y + ' (Kurdish)', tr: trList('kurdish', y, n.m - 1, n.d) }; } },
+        { id: 'akan', status: 'current', use: 'popular', lat: 6.7, lng: -1.6,
+          name: 'Akan calendar (Adaduanan)', region: 'Asante, Ghana', type: '42-day cycle: a 6-day week turning against the 7-day week',
+          epoch: 'No year count: the 42-day cycle runs continuously',
+          used: 'Sets the Adae festivals of the Asante and other Akan states; Akan day names (Kwasi, Kofi…) come from the 7-day week',
+          note: 'Akwasidae, the main Adae, falls on a Sunday every 42 days and is held at Manhyia Palace in Kumasi; Awukudae falls on a Wednesday.',
+          from: { y: 1, m: 1, d: 1 },
+          fmt: (g, D) => { const j = gregToJdn(g.y, g.m, g.d), k = akanDay(j), dab = AKAN_DABONE[k];
+              const toNext = mod(28 - k, 42), next = jdnToGreg(j + toNext);
+              return { native: TWI_DAYS[weekday(j)] + (dab ? ' · ' + dab : ''), latin: TWI_DAYS[weekday(j)] + ', day ' + k + ' of 42',
+                       tr: { kind: 'akan', today: dab || null, n: toNext, next } }; } },
+        { id: 'iceland', status: 'current', use: 'popular', lat: 64.9, lng: -18.5,
+          name: 'Old Icelandic calendar', region: 'Iceland', type: 'Solar: 52 weeks + a leap week, counted in weeks of summer and winter',
+          epoch: 'No year count of its own',
+          used: 'Printed every year in the University of Iceland’s almanac; the First Day of Summer is a public holiday, and Bóndadagur (1 Þorri) and Konudagur (1 Góa) are widely kept',
+          note: 'Summer begins on the Thursday between 19 and 25 April, winter on a Saturday in late October. Between Sólmánuður and Heyannir come four “extra nights”, and a leap week (sumarauki) in some years.',
+          from: { y: 1700, m: 4, d: 19 },
+          fmt: g => { const j = gregToJdn(g.y, g.m, g.d), r = iceland(j);
+              const nat = IS_DAYS[weekday(j)] + ' í ' + r.week + '. viku ' + (r.season ? 'vetrar' : 'sumars') + (r.m === 12 ? ', aukanætur' : ', ' + r.d + '. dagur ' + IS_MONTHS_GEN[r.m]);
+              return { native: nat, latin: (r.season ? 'winter' : 'summer') + ' week ' + r.week, tr: { kind: 'iceland', w: r.week, season: r.season, m: r.m, d: r.d } }; } },
+        { id: 'bahai', status: 'current', use: 'religious', lat: 32.8, lng: 34.99,
+          name: 'Bahá’í calendar (Badíʿ)', region: 'Bahá’í World Centre, Haifa', type: 'Solar: 19 months of 19 days + 4–5 intercalary days',
+          epoch: 'The Báb’s declaration, 1844 (year 1 BE)',
+          used: 'Bahá’ís worldwide, for feasts, holy days and the 19-day Fast',
+          note: 'Since 2015 the year begins at the March equinox as seen in Tehran; dates here follow the Bahá’í World Centre’s official table to 2065. The intercalary days, Ayyám-i-Há, come before the last month, the month of fasting.',
+          year: '{n} BE',
+          from: { y: 1844, m: 3, d: 21 },
+          fmt: g => { const b = bahai(gregToJdn(g.y, g.m, g.d)); if (!b) return null;
+              const fa = n => localeDigits(n, 'fa-IR');
+              return { native: fa(b.d) + ' ' + BAHAI_FA[b.m] + ' ' + fa(b.y) + ' بدیع', latin: b.d + ' ' + BAHAI_LAT[b.m] + ' ' + b.y + ' B.E.', tr: trList('bahai', b.y, b.m, b.d) }; } },
+        { id: 'parsi', status: 'current', use: 'religious', lat: 19.0, lng: 72.85,
+          name: 'Parsi calendar (Shahanshahi)', region: 'Parsis, Mumbai', type: 'Solar, 365 days with no leap day: 12 × 30 + 5 Gatha days',
+          epoch: 'Accession of Yazdegerd III, AD 632 (Yazdegerdi era, Y.Z.)',
+          used: 'The Parsi Zoroastrians of India; Parsi New Year (Navroz) is a public holiday in Maharashtra and Gujarat',
+          note: 'Each of the 30 days has its own name (roj), as each month (mah) does. With no leap day, Navroz moves a day earlier every four years; the minority Qadimi reckoning runs 30 days ahead.',
+          year: '{n} Y.Z.',
+          from: { y: 632, m: 6, d: 16 },
+          fmt: g => { const p = parsi(gregToJdn(g.y, g.m, g.d)); if (!p) return null;
+              const nat = p.m < 12 ? 'Roj ' + PARSI_ROJ[p.d - 1] + ', Mah ' + PARSI_MAH[p.m] + ', ' + p.y + ' Y.Z.' : 'Gatha ' + PARSI_GATHA[p.d - 1] + ', ' + p.y + ' Y.Z.';
+              return { native: nat, latin: nat, tr: trList('parsi', p.y, p.m, p.d) }; } },
+        { id: 'bohra', status: 'current', use: 'religious', lat: 21.19, lng: 72.83,
+          name: 'Dawoodi Bohra Hijri (Fatimid)', region: 'Dawoodi Bohras, Surat', type: 'Lunar, tabular: months of 30 and 29 days, 11 leap years in 30',
+          epoch: 'The Hijra, AD 622',
+          used: 'The Dawoodi Bohra community worldwide (about one million), for Ramadan, Eid and all religious dates',
+          note: 'A fixed arithmetic calendar inherited from the Fatimids, so the Bohras’ Eid can come a day before the moon-sighted one — Eid al-Fitr 1445 was on 9 April 2024.',
+          year: '{n} AH',
+          from: { y: 622, m: 7, d: 15 },
+          fmt: g => { const b = bohra(gregToJdn(g.y, g.m, g.d)); if (!b) return null;
+              return { native: arabDigits(b.d) + ' ' + AR_MONTHS[b.m] + ' ' + arabDigits(b.y) + ' هـ', latin: b.d + '/' + (b.m + 1) + '/' + b.y + ' AH', tr: trList('islamic', b.y, b.m, b.d) }; } },
+        { id: 'kiche', status: 'current', use: 'religious', lat: 14.94, lng: -91.11,
+          name: 'K’iche’ Maya day count (Cholq’ij)', region: 'Guatemalan highlands', type: '260-day count: 13 numbers × 20 day names',
+          epoch: 'No year 1: the count has run unbroken since the Classic Maya',
+          used: 'Maya daykeepers (ajq’ijab’) for ceremonies, divination and naming; Wajxaqib’ B’atz’ (8 B’atz’) opens their new cycle',
+          note: 'The living count is the ancient one without a break: it falls on the same day as the classic Tzolk’in in the Long Count correlation used here. Wajxaqib’ B’atz’ fell on 18 January 2025 and 22 June 2026.',
+          from: { y: 1, m: 1, d: 1 },
+          fmt: g => { const days = gregToJdn(g.y, g.m, g.d) - 584283, n = mod(days + 3, 13), s = mod(days + 19, 20);
+              return { native: KICHE_NUM[n] + ' ' + KICHE_DAYS[s], latin: (n + 1) + ' ' + KICHE_DAYS[s], tr: { kind: 'fixed', text: (n + 1) + ' ' + KICHE_DAYS[s] } }; } },
 
         /* ===== Historical — as if they had kept counting ===== */
         { id: 'yuan', status: 'historical', lat: 42.4, lng: 116.2,
@@ -461,10 +781,10 @@
         { id: 'nguyen', status: 'historical', lat: 16.5, lng: 107.6,
           name: 'Nguyễn dynasty era: Bảo Đại', region: 'Huế, Vietnam', type: 'Lunisolar, imperial era years',
           epoch: 'Bảo Đại 1 = 1926', used: '1926–1945, the last era of Vietnam’s last dynasty',
-          note: 'Shown with Chinese-calendar months; Vietnam’s own lunar calendar is computed for UTC+7 and occasionally differs by a day.',
+          note: 'Months follow the Vietnamese lunar calendar, which tracked China’s until North Vietnam moved it to UTC+7 in 1968; since then a month can start a day earlier than in China.',
           year: 'Bảo Đại {n}', gannen: true,
           from: { y: 1926, m: 2, d: 13 }, endYear: 1945,
-          fmt: (g, D) => { const c = lunar('chinese', D), n = c.relatedYear - 1925;
+          fmt: (g, D) => { const c = lunar('vietnamese', D), n = c.relatedYear - 1925;
               return { native: '保大' + (n === 1 ? '元' : han(n)) + '年' + (c.leap ? '閏' : '') + lunarMonthHan(c.month) + '月' + lunarDay(c.day) + '日',
                        latin: 'Bảo Đại ' + n + ', ' + (c.leap ? 'leap ' : '') + 'month ' + c.month + ', day ' + c.day,
                        tr: { kind: 'lunar', n, m: c.month, leap: c.leap, d: c.day } }; } },
@@ -566,6 +886,8 @@
             type: 'Type', epoch: 'Year 1', used: 'In use', ended: 'Ended {n} — continued count',
             simpleDisplay: 'Simple display', settings: 'Settings', fontSize: 'Font Size',
             navOrder: 'Word Order', navWord: 'Word Map', navHan: 'HanMap', navName: 'Name Map', navTime: 'Time Map', navTree: 'Tree',
+            hOfficial: 'Official calendars', hPopular: 'Popular calendars (not official)', hReligious: 'Religious and community calendars',
+            status: 'Status',
         },
         // Order of a full date. {y} is the calendar's year text, {month} the month name, {d} the day.
         dateFmt: '{d} {month} {y}',
@@ -578,6 +900,13 @@
         dayName: '{name}, {y}',
         // A day of the Aztec 260-day count: number + day sign.
         signFmt: '{num} {name}',
+        // Balinese Pawukon: {wuku} = week name, {n} = its place in the 30.
+        wukuFmt: 'wuku {wuku} (week {n} of 30)',
+        // Akan: {date} = next Akwasidae, {n} = days until it; {name} = today's Adae.
+        akanNext: 'next Akwasidae: {date} (in {n} days)', akanToday: 'today is {name}',
+        // Old Icelandic: {w} = week number, {season} from iceSeasons, {d} {month} = day of month.
+        iceFmt: 'week {w} of {season}, day {d} of {month}', iceExtra: 'week {w} of {season}, {month}',
+        iceSeasons: ['summer', 'winter'],
         months: {
             gregorian: ['January','February','March','April','May','June','July','August','September','October','November','December'],
             hebrew: ['Tishri','Heshvan','Kislev','Tevet','Shevat','Adar I','Adar','Adar II','Nisan','Iyar','Sivan','Tammuz','Av','Elul'],
@@ -592,6 +921,12 @@
             frenchSans: ['Virtue Day','Genius Day','Labour Day','Opinion Day','Rewards Day','Revolution Day'],
             egyptian: ['Thoth','Phaophi','Athyr','Choiak','Tybi','Mechir','Phamenoth','Pharmuthi','Pachon','Payni','Epiphi','Mesore','epagomenal days'],
             aztec: ['Crocodile','Wind','House','Lizard','Serpent','Death','Deer','Rabbit','Water','Dog','Monkey','Grass','Reed','Jaguar','Eagle','Vulture','Movement','Flint','Rain','Flower'],
+            javanese: ['Sura','Sapar','Mulud','Bakda Mulud','Jumadilawal','Jumadilakir','Rejeb','Ruwah','Pasa','Sawal','Sela','Besar'],
+            nepali: ['Baisakh','Jestha','Asar','Shrawan','Bhadau','Asoj','Kartik','Mangsir','Poush','Magh','Falgun','Chaitra'],
+            kurdish: ['Xakelêwe','Gulan','Cozerdan','Pûşper','Gelawêj','Xermanan','Rezber','Gelarêzan','Sermawez','Befranbar','Rêbendan','Reşeme'],
+            bahai: ['Bahá','Jalál','Jamál','ʻAẓamat','Núr','Raḥmat','Kalimát','Kamál','Asmáʼ','ʻIzzat','Mashíyyat','ʻIlm','Qudrat','Qawl','Masáʼil','Sharaf','Sulṭán','Mulk','Ayyám-i-Há','ʻAláʼ'],
+            parsi: ['Fravardin','Ardibehesht','Khordad','Tir','Amardad','Shehrevar','Meher','Avan','Adar','Dae','Bahman','Aspandarmad','Gatha days'],
+            iceland: ['Harpa','Skerpla','Sólmánuður','Heyannir','Tvímánuður','Haustmánuður','Gormánuður','Ýlir','Mörsugur','Þorri','Góa','Einmánuður','the extra nights (aukanætur)'],
             zodiac: ['Rat','Ox','Tiger','Rabbit','Dragon','Snake','Horse','Goat','Monkey','Rooster','Dog','Pig'],
         },
         // Japanese era names as the UI language writes them.
@@ -617,6 +952,15 @@
         if (tr.kind === 'fixed') return tr.text;
         if (tr.kind === 'full') return fmt(txt(L, ['intlLocale']), DMY).format(D);
         if (tr.kind === 'sign') return fill(txt(L, ['signFmt']), { num: tr.num, name: txt(L, ['months', 'aztec'])[tr.mi] });
+        if (tr.kind === 'wuku') return fill(txt(L, ['wukuFmt']), { n: tr.n, wuku: tr.wuku });
+        if (tr.kind === 'akan') {
+            if (tr.today) return fill(txt(L, ['akanToday']), { name: tr.today });
+            return fill(txt(L, ['akanNext']), { n: tr.n, date: fmt(txt(L, ['intlLocale']), { month: 'long', day: 'numeric' }).format(toDate(tr.next)) });
+        }
+        if (tr.kind === 'iceland') {
+            const v = { w: tr.w, season: txt(L, ['iceSeasons'])[tr.season], d: tr.d, month: txt(L, ['months', 'iceland'])[tr.m] };
+            return fill(txt(L, [tr.m === 12 ? 'iceExtra' : 'iceFmt']), v);
+        }
         const n = (tr.n === 1 && cal.gannen && txt(L, ['gannen'])) ? '元' : tr.n;
         const zodiac = txt(L, ['months', 'zodiac']);
         const vars = { n, gz: tr.gz, gzKo: tr.gzKo, gzVi: tr.gzVi, gzPy: tr.gzPy, animal: tr.animal != null ? zodiac[tr.animal] : '',
@@ -644,8 +988,8 @@
         try { return cal.fmt(g, toDate(g)); } catch (e) { return null; }
     }
 
-    const api = { CALENDARS, EN, TEXT_FIELDS, render, localize, calText, txt, fill, gregParts, toDate, gregToJdn, jdnToJulian,
-                  roman, han, lunarDay, greekNum, hebrewNumeral, romanDate, maya, bengali, frenchRepublican, egyptian };
+    const api = { CALENDARS, EN, TEXT_FIELDS, render, localize, jdnToGreg, calText, txt, fill, gregParts, toDate, gregToJdn, jdnToJulian,
+                  roman, han, lunarDay, greekNum, hebrewNumeral, romanDate, maya, bengali, frenchRepublican, egyptian, javanese, pawukon, akanDay, nepali, bahai, parsi, bohra, iceland };
     if (typeof module !== 'undefined' && module.exports) module.exports = api;
     else root.TIMEMAP = api;
 })(this);

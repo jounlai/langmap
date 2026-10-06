@@ -32,7 +32,11 @@ window.TM_I18N["id"] = {
   "navHan": "Peta Hanzi",
   "navName": "Peta Nama",
   "navTime": "Peta Kalender",
-  "navTree": "Pohon"
+  "navTree": "Pohon",
+  "hOfficial": "Kalender resmi",
+  "hPopular": "Kalender populer (tidak resmi)",
+  "hReligious": "Kalender keagamaan dan komunitas",
+  "status": "Status"
  },
  "dateFmt": "{d} {month} {y}",
  "yearDefault": "{n}",
@@ -41,6 +45,15 @@ window.TM_I18N["id"] = {
  "lunarFmt": "tanggal {d} {month}, {y}",
  "dayName": "{name}, {y}",
  "signFmt": "{num} {name}",
+ "wukuFmt": "wuku {wuku} (minggu ke-{n} dari 30)",
+ "akanNext": "Akwasidae berikutnya: {date} ({n} hari lagi)",
+ "akanToday": "hari ini: {name}",
+ "iceFmt": "minggu ke-{w} {season}, hari ke-{d} bulan {month}",
+ "iceExtra": "minggu ke-{w} {season}, {month}",
+ "iceSeasons": [
+  "musim panas",
+  "musim dingin"
+ ],
  "months": {
   "gregorian": [
    "Januari",
@@ -231,6 +244,100 @@ window.TM_I18N["id"] = {
    "Hujan",
    "Bunga"
   ],
+  "javanese": [
+   "Sura",
+   "Sapar",
+   "Mulud",
+   "Bakda Mulud",
+   "Jumadilawal",
+   "Jumadilakir",
+   "Rejeb",
+   "Ruwah",
+   "Pasa",
+   "Sawal",
+   "Sela",
+   "Besar"
+  ],
+  "nepali": [
+   "Baisakh",
+   "Jestha",
+   "Asar",
+   "Shrawan",
+   "Bhadau",
+   "Asoj",
+   "Kartik",
+   "Mangsir",
+   "Poush",
+   "Magh",
+   "Falgun",
+   "Chaitra"
+  ],
+  "kurdish": [
+   "Xakelêwe",
+   "Gulan",
+   "Cozerdan",
+   "Pûşper",
+   "Gelawêj",
+   "Xermanan",
+   "Rezber",
+   "Gelarêzan",
+   "Sermawez",
+   "Befranbar",
+   "Rêbendan",
+   "Reşeme"
+  ],
+  "bahai": [
+   "Bahá",
+   "Jalál",
+   "Jamál",
+   "ʻAẓamat",
+   "Núr",
+   "Raḥmat",
+   "Kalimát",
+   "Kamál",
+   "Asmáʼ",
+   "ʻIzzat",
+   "Mashíyyat",
+   "ʻIlm",
+   "Qudrat",
+   "Qawl",
+   "Masáʼil",
+   "Sharaf",
+   "Sulṭán",
+   "Mulk",
+   "Ayyám-i-Há",
+   "ʻAláʼ"
+  ],
+  "parsi": [
+   "Fravardin",
+   "Ardibehesht",
+   "Khordad",
+   "Tir",
+   "Amardad",
+   "Shehrevar",
+   "Meher",
+   "Avan",
+   "Adar",
+   "Dae",
+   "Bahman",
+   "Aspandarmad",
+   "hari Gatha"
+  ],
+  "iceland": [
+   "Harpa",
+   "Skerpla",
+   "Sólmánuður",
+   "Heyannir",
+   "Tvímánuður",
+   "Haustmánuður",
+   "Gormánuður",
+   "Ýlir",
+   "Mörsugur",
+   "Þorri",
+   "Góa",
+   "Einmánuður",
+   "malam-malam tambahan (aukanætur)"
+  ],
   "zodiac": [
    "Tikus",
    "Kerbau",
@@ -309,7 +416,7 @@ window.TM_I18N["id"] = {
    "region": "Korea Utara",
    "type": "Bulan Gregorius, tahun Juche",
    "epoch": "Kelahiran Kim Il Sung, 1912",
-   "used": "Sejak 1997",
+   "used": "1997–2024: Korea Utara berhenti mencantumkan tahun Juche pada Oktober 2024",
    "note": "Ditulis dengan tahun Masehi dalam kurung: 주체115(2026)년.",
    "year": "Juche {n}"
   },
@@ -359,10 +466,10 @@ window.TM_I18N["id"] = {
   },
   "persian": {
    "name": "Kalender Hijriah Syamsiah",
-   "region": "Iran · Afganistan",
+   "region": "Iran",
    "type": "Matahari (astronomis)",
    "epoch": "Hijrah, 622 M, dihitung dalam tahun matahari",
-   "used": "Resmi di Iran sejak 1925 dan di Afganistan",
+   "used": "Resmi di Iran sejak 1925. Afganistan memakainya secara resmi hingga 2022, ketika pemerintahnya beralih ke Hijriah kamariah; masyarakat di sana masih memakainya",
    "note": "Tahun dimulai tepat pada saat ekuinoks Maret (Nowruz), sehingga menjadi salah satu kalender paling akurat yang masih dipakai.",
    "year": "{n} HS"
   },
@@ -407,7 +514,7 @@ window.TM_I18N["id"] = {
    "region": "Gereja Ortodoks Rusia",
    "type": "Matahari",
    "epoch": "Anno Domini",
-   "used": "Sipil di Rusia hingga 1918; kini kalender gereja",
+   "used": "Sipil di Rusia hingga 1918; kini kalender gerejawi Gereja Ortodoks Rusia, Serbia, Georgia, dan Yerusalem serta Gunung Athos",
    "note": "Kini tertinggal 13 hari dari kalender Gregorius; itulah sebabnya Natal Ortodoks Rusia jatuh pada 7 Januari.",
    "year": "{n} (Gaya Lama)"
   },
@@ -417,7 +524,102 @@ window.TM_I18N["id"] = {
    "type": "Matahari (bulan Julian)",
    "epoch": "Naik takhtanya Firaun Shoshenq I, 950 SM",
    "used": "Kalender pertanian; Yennayer menjadi hari libur nasional di Aljazair (2018) dan Maroko (2024)",
-   "note": "Mempertahankan panjang bulan Julian, sehingga 1 Yennayer kini jatuh pada 14 Januari. Hitungan tahunnya diusulkan pada 1980. Nama bulan ditampilkan dalam aksara Tifinagh, aksara bahasa Tamazight Standar Maroko; bahasa Kabyle di Aljazair menuliskannya dengan huruf Latin (Yennayer, Furar…)."
+   "note": "Mempertahankan panjang bulan Julian, sehingga 1 Yennayer kini jatuh pada 14 Januari. Hitungan tahunnya diusulkan pada 1980. Nama bulan ditampilkan dalam aksara Tifinagh, aksara bahasa Tamazight Standar Maroko; bahasa Kabyle di Aljazair menuliskannya dengan huruf Latin (Yennayer, Furar…). Aljazair menetapkan Yennayer sebagai hari libur nasional pada 12 Januari, Maroko pada 14 Januari."
+  },
+  "nepali": {
+   "name": "Vikram Samvat (Nepal)",
+   "region": "Nepal",
+   "type": "Matahari (sideris), panjang bulan ditetapkan setiap tahun",
+   "epoch": "Vikram Samvat, 57 SM",
+   "used": "Kalender resmi Nepal: dokumen pemerintah, surat kewarganegaraan, tahun anggaran dan tahun ajaran",
+   "note": "Panjang bulan 29 hingga 32 hari dan ditetapkan sebelumnya oleh komite kalender Nepal (Nepal Panchanga Nirnayak Samiti), sehingga tanggalnya diambil dari tabel terbitannya — tersedia di sini hingga akhir 2083 VS (April 2027).",
+   "year": "{n} VS"
+  },
+  "vietnamese": {
+   "name": "Kalender lunisolar Vietnam (âm lịch)",
+   "region": "Vietnam",
+   "type": "Lunisolar",
+   "epoch": "Tanpa hitungan tahun berjalan; tahun berputar melalui 60 nama batang–cabang",
+   "used": "Bukan kalender negara (yang resmi adalah Gregorius, berdasarkan dekret sejak 1967), tetapi menentukan Tết, hari Raja-Raja Hùng, dan peringatan keluarga",
+   "note": "Dihitung untuk zona waktu Vietnam sendiri (UTC+7), sehingga sebuah bulan bisa dimulai sehari lebih awal daripada di Tiongkok — pada 1985 Tết datang sebulan penuh lebih awal (21 Januari, sedangkan di Tiongkok 20 Februari).",
+   "year": "tahun {gzVi}"
+  },
+  "javanese": {
+   "name": "Kalender Jawa",
+   "region": "Jawa, Indonesia",
+   "type": "Bulan (aritmetis, windu 8 tahun) dengan pekan pasaran 5 hari",
+   "epoch": "Anno Javanico: melanjutkan tahun Saka 1555 ketika Sultan Agung menciptakannya pada 1633",
+   "used": "Populer di Jawa: hari pernikahan, selamatan, dan hari pasar dipilih menurut weton — hari dalam sepekan ditambah hari pasaran",
+   "note": "Ditampilkan dengan hari dan hari pasaran (Legi, Pahing, Pon, Wage, Kliwon). Tahun Jawa = tahun Hijriah + 512, tetapi tahun aritmetisnya bisa dimulai selisih sehari dari tahun Islam (1 Sura 1960 jatuh pada 17 Juni 2026, 1 Muharram pada 16 Juni).",
+   "year": "{n} AJ"
+  },
+  "pawukon": {
+   "name": "Pawukon Bali",
+   "region": "Bali, Indonesia",
+   "type": "Siklus 210 hari: 30 wuku masing-masing 7 hari, dengan pekan 5 hari dan pekan lain berjalan bersamaan",
+   "epoch": "Tanpa hitungan tahun: siklusnya terus berulang",
+   "used": "Hari raya Hindu dan odalan pura di Bali; Galungan jatuh setiap 210 hari pada Buda Kliwon Dungulan",
+   "note": "Ditampilkan sebagai hari dalam pekan 7 hari, hari dalam pekan 5 hari, dan wuku. Bali juga memakai tahun Saka lunisolar, yang tahun barunya (Nyepi) adalah hari libur nasional."
+  },
+  "kurdish": {
+   "name": "Kalender Kurdi",
+   "region": "Wilayah Kurdistan, Irak",
+   "type": "Matahari (bulan Hijriah Syamsiah dengan nama Kurdi)",
+   "epoch": "Era Media, 700 SM: tahun = tahun Hijriah Syamsiah + 1321",
+   "used": "Dipakai secara budaya oleh orang Kurdi; Newroz (21 Maret), tahun barunya, adalah hari libur resmi di Wilayah Kurdistan",
+   "note": "Bulan-bulannya sepadan satu per satu dengan kalender Iran — Rezber adalah Mehr — sehingga tahun barunya sama dengan tahun baru Iran pada ekuinoks Maret.",
+   "year": "{n} (Kurdi)"
+  },
+  "akan": {
+   "name": "Kalender Akan (Adaduanan)",
+   "region": "Asante, Ghana",
+   "type": "Siklus 42 hari: pekan 6 hari berputar terhadap pekan 7 hari",
+   "epoch": "Tanpa hitungan tahun: siklus 42 hari berjalan terus-menerus",
+   "used": "Menentukan perayaan Adae di Asante dan negara-negara Akan lainnya; nama hari Akan (Kwasi, Kofi…) berasal dari pekan 7 hari",
+   "note": "Akwasidae, Adae utama, jatuh pada hari Minggu setiap 42 hari dan digelar di Istana Manhyia di Kumasi; Awukudae jatuh pada hari Rabu."
+  },
+  "iceland": {
+   "name": "Kalender Islandia Kuno",
+   "region": "Islandia",
+   "type": "Matahari: 52 minggu + minggu kabisat, dihitung dalam minggu musim panas dan musim dingin",
+   "epoch": "Tanpa hitungan tahun sendiri",
+   "used": "Dicetak setiap tahun dalam almanak Universitas Islandia; Hari Pertama Musim Panas adalah hari libur umum, dan Bóndadagur (1 Þorri) serta Konudagur (1 Góa) dirayakan secara luas",
+   "note": "Musim panas dimulai pada hari Kamis antara 19 dan 25 April, musim dingin pada hari Sabtu di akhir Oktober. Di antara Sólmánuður dan Heyannir ada empat “malam tambahan”, dan pada tahun-tahun tertentu ada minggu kabisat (sumarauki)."
+  },
+  "bahai": {
+   "name": "Kalender Bahá’í (Badíʿ)",
+   "region": "Pusat Dunia Bahá’í, Haifa",
+   "type": "Matahari: 19 bulan × 19 hari + 4–5 hari sisipan",
+   "epoch": "Deklarasi Sang Báb, 1844 (tahun 1 EB)",
+   "used": "Umat Bahá’í di seluruh dunia, untuk perayaan, hari suci, dan Puasa 19 hari",
+   "note": "Sejak 2015 tahun dimulai pada ekuinoks Maret menurut Teheran; tanggal di sini mengikuti tabel resmi Pusat Dunia Bahá’í hingga 2065. Hari sisipan, Ayyám-i-Há, datang sebelum bulan terakhir, yaitu bulan puasa.",
+   "year": "{n} EB"
+  },
+  "parsi": {
+   "name": "Kalender Parsi (Shahanshahi)",
+   "region": "Kaum Parsi, Mumbai",
+   "type": "Matahari, 365 hari tanpa hari kabisat: 12 × 30 + 5 hari Gatha",
+   "epoch": "Naik takhtanya Yazdegerd III, 632 M (era Yazdegerdi, Y.Z.)",
+   "used": "Kaum Zoroaster Parsi di India; Tahun Baru Parsi (Navroz) adalah hari libur umum di Maharashtra dan Gujarat",
+   "note": "Masing-masing dari 30 hari punya nama sendiri (roj), begitu pula setiap bulan (mah). Tanpa hari kabisat, Navroz maju sehari setiap empat tahun; perhitungan Qadimi yang dianut minoritas lebih dulu 30 hari.",
+   "year": "{n} Y.Z."
+  },
+  "bohra": {
+   "name": "Hijriah Dawoodi Bohra (Fatimiyah)",
+   "region": "Dawoodi Bohra, Surat",
+   "type": "Bulan, tabular: bulan 30 dan 29 hari, 11 tahun kabisat dalam 30 tahun",
+   "epoch": "Hijrah, 622 M",
+   "used": "Komunitas Dawoodi Bohra di seluruh dunia (sekitar satu juta orang), untuk Ramadan, Idulfitri dan Iduladha, dan semua tanggal keagamaan",
+   "note": "Kalender aritmetis tetap warisan Dinasti Fatimiyah, sehingga Lebaran kaum Bohra bisa jatuh sehari sebelum yang ditetapkan dengan rukyat — Idulfitri 1445 jatuh pada 9 April 2024.",
+   "year": "{n} H"
+  },
+  "kiche": {
+   "name": "Hitungan hari Maya K’iche’ (Cholq’ij)",
+   "region": "Dataran tinggi Guatemala",
+   "type": "Hitungan 260 hari: 13 angka × 20 nama hari",
+   "epoch": "Tanpa tahun 1: hitungan ini berjalan tanpa putus sejak Maya Klasik",
+   "used": "Para penjaga hari Maya (ajq’ijab’) untuk upacara, ramalan, dan pemberian nama; Wajxaqib’ B’atz’ (8 B’atz’) membuka siklus baru mereka",
+   "note": "Hitungan yang hidup hingga kini adalah hitungan kuno itu tanpa putus: jatuh pada hari yang sama dengan Tzolk’in klasik dalam korelasi Hitungan Panjang yang dipakai di sini. Wajxaqib’ B’atz’ jatuh pada 18 Januari 2025 dan 22 Juni 2026."
   },
   "yuan": {
    "name": "Era Dinasti Yuan: Zhizheng",
@@ -479,7 +681,7 @@ window.TM_I18N["id"] = {
    "type": "Lunisolar, tahun era kekaisaran",
    "epoch": "Bảo Đại 1 = 1926",
    "used": "1926–1945, era terakhir dinasti terakhir Vietnam",
-   "note": "Ditampilkan dengan bulan kalender Tionghoa; kalender bulan Vietnam sendiri dihitung untuk UTC+7 dan sesekali berbeda satu hari.",
+   "note": "Bulan mengikuti kalender bulan Vietnam, yang sejalan dengan kalender Tiongkok hingga Vietnam Utara memindahkannya ke UTC+7 pada 1968; sejak itu awal bulan bisa jatuh sehari lebih awal daripada di Tiongkok.",
    "year": "Bảo Đại {n}"
   },
   "koki": {

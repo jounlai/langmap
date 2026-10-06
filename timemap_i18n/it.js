@@ -30,7 +30,11 @@ window.TM_I18N["it"] = {
   "navHan": "Mappa hanzi",
   "navName": "Mappa dei nomi",
   "navTime": "Mappa dei calendari",
-  "navTree": "Albero"
+  "navTree": "Albero",
+  "hOfficial": "Calendari ufficiali",
+  "hPopular": "Calendari popolari (non ufficiali)",
+  "hReligious": "Calendari religiosi e comunitari",
+  "status": "Stato"
  },
  "dateFmt": "{d} {month} {y}",
  "yearDefault": "{n}",
@@ -39,6 +43,15 @@ window.TM_I18N["it"] = {
  "lunarFmt": "giorno {d} del {month}, {y}",
  "dayName": "{name}, {y}",
  "signFmt": "{num} {name}",
+ "wukuFmt": "wuku {wuku} (settimana {n} di 30)",
+ "akanNext": "prossimo Akwasidae: {date} (tra {n} giorni)",
+ "akanToday": "oggi è {name}",
+ "iceFmt": "settimana {w} dell’{season}, {d} {month}",
+ "iceExtra": "settimana {w} dell’{season}, {month}",
+ "iceSeasons": [
+  "estate",
+  "inverno"
+ ],
  "months": {
   "gregorian": [
    "gennaio",
@@ -229,6 +242,100 @@ window.TM_I18N["it"] = {
    "Pioggia",
    "Fiore"
   ],
+  "javanese": [
+   "sura",
+   "sapar",
+   "mulud",
+   "bakda mulud",
+   "jumadilawal",
+   "jumadilakir",
+   "rejeb",
+   "ruwah",
+   "pasa",
+   "sawal",
+   "sela",
+   "besar"
+  ],
+  "nepali": [
+   "baisakh",
+   "jestha",
+   "asar",
+   "shrawan",
+   "bhadau",
+   "asoj",
+   "kartik",
+   "mangsir",
+   "poush",
+   "magh",
+   "falgun",
+   "chaitra"
+  ],
+  "kurdish": [
+   "xakelêwe",
+   "gulan",
+   "cozerdan",
+   "pûşper",
+   "gelawêj",
+   "xermanan",
+   "rezber",
+   "gelarêzan",
+   "sermawez",
+   "befranbar",
+   "rêbendan",
+   "reşeme"
+  ],
+  "bahai": [
+   "Bahá",
+   "Jalál",
+   "Jamál",
+   "ʻAẓamat",
+   "Núr",
+   "Raḥmat",
+   "Kalimát",
+   "Kamál",
+   "Asmáʼ",
+   "ʻIzzat",
+   "Mashíyyat",
+   "ʻIlm",
+   "Qudrat",
+   "Qawl",
+   "Masáʼil",
+   "Sharaf",
+   "Sulṭán",
+   "Mulk",
+   "Ayyám-i-Há",
+   "ʻAláʼ"
+  ],
+  "parsi": [
+   "fravardin",
+   "ardibehesht",
+   "khordad",
+   "tir",
+   "amardad",
+   "shehrevar",
+   "meher",
+   "avan",
+   "adar",
+   "dae",
+   "bahman",
+   "aspandarmad",
+   "gatha"
+  ],
+  "iceland": [
+   "harpa",
+   "skerpla",
+   "sólmánuður",
+   "heyannir",
+   "tvímánuður",
+   "haustmánuður",
+   "gormánuður",
+   "ýlir",
+   "mörsugur",
+   "þorri",
+   "góa",
+   "einmánuður",
+   "notti supplementari (aukanætur)"
+  ],
   "zodiac": [
    "Topo",
    "Bue",
@@ -309,7 +416,7 @@ window.TM_I18N["it"] = {
    "region": "Corea del Nord",
    "type": "Mesi gregoriani, anni Juche",
    "epoch": "Nascita di Kim Il-sung, 1912",
-   "used": "Dal 1997",
+   "used": "1997–2024: la Corea del Nord ha smesso di stampare l’anno Juche nell’ottobre 2024",
    "note": "Si scrive con l’anno occidentale tra parentesi: 주체115(2026)년.",
    "year": "Juche {n}"
   },
@@ -359,10 +466,10 @@ window.TM_I18N["it"] = {
   },
   "persian": {
    "name": "Calendario persiano (Egira solare)",
-   "region": "Iran · Afghanistan",
+   "region": "Iran",
    "type": "Solare (astronomico)",
    "epoch": "L’Egira, 622 d.C., contata in anni solari",
-   "used": "Ufficiale in Iran dal 1925 e in Afghanistan",
+   "used": "Ufficiale in Iran dal 1925. L’Afghanistan lo ha usato ufficialmente fino al 2022, quando il governo è passato all’Egira lunare; la popolazione lo usa ancora",
    "note": "L’anno inizia nell’istante esatto dell’equinozio di marzo (Nowruz), il che lo rende uno dei calendari in uso più precisi.",
    "year": "{n} dell’Egira solare"
   },
@@ -407,7 +514,7 @@ window.TM_I18N["it"] = {
    "region": "Chiesa ortodossa russa",
    "type": "Solare",
    "epoch": "Anno Domini",
-   "used": "Civile in Russia fino al 1918; oggi calendario liturgico",
+   "used": "Civile in Russia fino al 1918; oggi calendario liturgico delle Chiese ortodosse russa, serba, georgiana e di Gerusalemme e del Monte Athos",
    "note": "Oggi è 13 giorni indietro rispetto al calendario gregoriano, ed è per questo che il Natale ortodosso russo cade il 7 gennaio.",
    "year": "{n} (vecchio stile)"
   },
@@ -417,7 +524,102 @@ window.TM_I18N["it"] = {
    "type": "Solare (mesi giuliani)",
    "epoch": "Ascesa al trono del faraone Sheshonq I, 950 a.C.",
    "used": "Calendario agricolo; Yennayer è festa nazionale in Algeria (2018) e in Marocco (2024)",
-   "note": "Mantiene la durata dei mesi giuliani, quindi il 1º yennayer cade oggi il 14 gennaio. Il conteggio degli anni fu proposto nel 1980. I mesi sono mostrati in tifinagh, la scrittura del tamazight standard marocchino; il cabilo, in Algeria, li scrive in lettere latine (Yennayer, Furar…)."
+   "note": "Mantiene la durata dei mesi giuliani, quindi il 1º yennayer cade oggi il 14 gennaio. Il conteggio degli anni fu proposto nel 1980. I mesi sono mostrati in tifinagh, la scrittura del tamazight standard marocchino; il cabilo, in Algeria, li scrive in lettere latine (Yennayer, Furar…). Yennayer è festa nazionale il 12 gennaio in Algeria e il 14 gennaio in Marocco."
+  },
+  "nepali": {
+   "name": "Vikram Samvat (Nepal)",
+   "region": "Nepal",
+   "type": "Solare (siderale), durata dei mesi fissata ogni anno",
+   "epoch": "Vikram Samvat, 57 a.C.",
+   "used": "Calendario ufficiale del Nepal: documenti governativi, certificati di cittadinanza, anno fiscale e scolastico",
+   "note": "I mesi durano da 29 a 32 giorni e sono fissati in anticipo dal comitato nepalese del calendario (Nepal Panchanga Nirnayak Samiti), quindi le date provengono dalle sue tabelle pubblicate — disponibili qui fino alla fine del 2083 VS (aprile 2027).",
+   "year": "{n} VS"
+  },
+  "vietnamese": {
+   "name": "Calendario lunisolare vietnamita (âm lịch)",
+   "region": "Vietnam",
+   "type": "Lunisolare",
+   "epoch": "Nessun conteggio continuo degli anni; gli anni ruotano in un ciclo di 60 nomi (tronchi celesti e rami terrestri)",
+   "used": "Non è il calendario dello Stato (lo è il gregoriano, per decreto dal 1967), ma fissa il Tết, la festa dei re Hùng e gli anniversari di famiglia",
+   "note": "Calcolato per il fuso orario del Vietnam (UTC+7), quindi un mese può iniziare un giorno prima che in Cina — nel 1985 il Tết arrivò addirittura un mese intero prima (21 gennaio, contro il 20 febbraio in Cina).",
+   "year": "anno {gzVi}"
+  },
+  "javanese": {
+   "name": "Calendario giavanese",
+   "region": "Giava, Indonesia",
+   "type": "Lunare (aritmetico, windu di 8 anni) con una settimana di mercato di 5 giorni",
+   "epoch": "Anno Javanico: prosegue l’anno saka 1555, quando il sultano Agung lo creò nel 1633",
+   "used": "Diffuso a Giava: matrimoni, selamatan e giorni di mercato si scelgono in base al weton — il giorno della settimana più il giorno pasaran",
+   "note": "Mostrato con il giorno della settimana e il giorno pasaran (Legi, Pahing, Pon, Wage, Kliwon). Anno giavanese = anno dell’Egira + 512, ma l’anno aritmetico può iniziare con un giorno di scarto rispetto a quello islamico (il 1º sura 1960 è caduto il 17 giugno 2026, il 1º muharram il 16 giugno).",
+   "year": "{n} AJ"
+  },
+  "pawukon": {
+   "name": "Pawukon balinese",
+   "region": "Bali, Indonesia",
+   "type": "Ciclo di 210 giorni: 30 settimane wuku di 7 giorni, con settimane di 5 giorni e altre in parallelo",
+   "epoch": "Nessun conteggio degli anni: il ciclo semplicemente si ripete",
+   "used": "Feste indù e anniversari dei templi di Bali; il Galungan cade ogni 210 giorni, nel Buda Kliwon Dungulan",
+   "note": "Mostrato come giorno della settimana di 7 giorni, giorno della settimana di 5 giorni e wuku. Bali tiene anche un anno saka lunisolare, il cui capodanno (Nyepi) è festa nazionale."
+  },
+  "kurdish": {
+   "name": "Calendario curdo",
+   "region": "Regione del Kurdistan, Iraq",
+   "type": "Solare (mesi del calendario persiano con nomi curdi)",
+   "epoch": "L’era meda, 700 a.C.: anno = anno del calendario persiano + 1321",
+   "used": "Uso culturale tra i curdi; il Newroz (21 marzo), il suo capodanno, è festa ufficiale nella Regione del Kurdistan",
+   "note": "I mesi corrispondono uno a uno a quelli del calendario iraniano — rezber è mehr — quindi condivide il capodanno iraniano all’equinozio di marzo.",
+   "year": "{n} (curdo)"
+  },
+  "akan": {
+   "name": "Calendario akan (Adaduanan)",
+   "region": "Ashanti, Ghana",
+   "type": "Ciclo di 42 giorni: una settimana di 6 giorni che ruota contro quella di 7",
+   "epoch": "Nessun conteggio degli anni: il ciclo di 42 giorni scorre ininterrotto",
+   "used": "Fissa le feste Adae degli Ashanti e di altri stati akan; i nomi akan dei giorni (Kwasi, Kofi…) derivano dalla settimana di 7 giorni",
+   "note": "L’Akwasidae, il principale Adae, cade di domenica ogni 42 giorni e si tiene al palazzo Manhyia di Kumasi; l’Awukudae cade di mercoledì."
+  },
+  "iceland": {
+   "name": "Antico calendario islandese",
+   "region": "Islanda",
+   "type": "Solare: 52 settimane + una settimana intercalare, contate in settimane d’estate e d’inverno",
+   "epoch": "Nessun conteggio proprio degli anni",
+   "used": "Stampato ogni anno nell’almanacco dell’Università d’Islanda; il Primo giorno d’estate è festa nazionale, e il Bóndadagur (1º þorri) e il Konudagur (1º góa) sono molto sentiti",
+   "note": "L’estate inizia il giovedì tra il 19 e il 25 aprile, l’inverno di sabato a fine ottobre. Tra sólmánuður e heyannir cadono quattro «notti supplementari», e in alcuni anni una settimana intercalare (sumarauki)."
+  },
+  "bahai": {
+   "name": "Calendario bahá’í (Badíʿ)",
+   "region": "Centro mondiale bahá’í, Haifa",
+   "type": "Solare: 19 mesi di 19 giorni + 4–5 giorni intercalari",
+   "epoch": "La dichiarazione del Báb, 1844 (anno 1 E.B.)",
+   "used": "I bahá’í di tutto il mondo, per le feste, i giorni sacri e il digiuno di 19 giorni",
+   "note": "Dal 2015 l’anno inizia all’equinozio di marzo come avviene a Teheran; le date seguono qui la tabella ufficiale del Centro mondiale bahá’í fino al 2065. I giorni intercalari, Ayyám-i-Há, precedono l’ultimo mese, quello del digiuno.",
+   "year": "{n} E.B."
+  },
+  "parsi": {
+   "name": "Calendario parsi (shahanshahi)",
+   "region": "Parsi, Mumbai",
+   "type": "Solare, 365 giorni senza giorno bisestile: 12 × 30 + 5 giorni gatha",
+   "epoch": "Ascesa al trono di Yazdegerd III, 632 d.C. (era di Yazdegerd, Y.Z.)",
+   "used": "I parsi zoroastriani dell’India; il capodanno parsi (Navroz) è festa pubblica nel Maharashtra e nel Gujarat",
+   "note": "Ognuno dei 30 giorni ha un proprio nome (roj), come ogni mese (mah). Senza giorno bisestile, il Navroz anticipa di un giorno ogni quattro anni; il computo qadimi, minoritario, è avanti di 30 giorni.",
+   "year": "{n} Y.Z."
+  },
+  "bohra": {
+   "name": "Egira dei Dawoodi Bohra (fatimide)",
+   "region": "Dawoodi Bohra, Surat",
+   "type": "Lunare, tabulare: mesi di 30 e 29 giorni, 11 anni bisestili su 30",
+   "epoch": "L’Egira, 622 d.C.",
+   "used": "La comunità dawoodi bohra nel mondo (circa un milione di fedeli), per il Ramadan, l’Eid e tutte le date religiose",
+   "note": "Un calendario aritmetico fisso ereditato dai Fatimidi, perciò l’Eid dei Bohra può cadere un giorno prima di quello stabilito con l’avvistamento della luna — l’Eid al-Fitr 1445 fu il 9 aprile 2024.",
+   "year": "{n} dell’Egira"
+  },
+  "kiche": {
+   "name": "Computo dei giorni maya k’iche’ (Cholq’ij)",
+   "region": "Altipiani del Guatemala",
+   "type": "Computo di 260 giorni: 13 numeri × 20 nomi di giorni",
+   "epoch": "Nessun anno 1: il computo prosegue ininterrotto dai Maya del periodo classico",
+   "used": "I custodi dei giorni maya (ajq’ijab’), per cerimonie, divinazione e imposizione del nome; Wajxaqib’ B’atz’ (8 B’atz’) apre il loro nuovo ciclo",
+   "note": "Il computo vivente è quello antico, senza interruzioni: cade nello stesso giorno dello tzolk’in classico secondo la correlazione del Lungo computo usata qui. Wajxaqib’ B’atz’ è caduto il 18 gennaio 2025 e il 22 giugno 2026."
   },
   "yuan": {
    "name": "Era della dinastia Yuan: Zhizheng",
@@ -479,7 +681,7 @@ window.TM_I18N["it"] = {
    "type": "Lunisolare, anni delle ere imperiali",
    "epoch": "Bảo Đại 1 = 1926",
    "used": "1926–1945, l’ultima era dell’ultima dinastia del Vietnam",
-   "note": "Mostrato con i mesi del calendario cinese; il calendario lunare vietnamita è calcolato per UTC+7 e talvolta differisce di un giorno.",
+   "note": "I mesi seguono il calendario lunare vietnamita, che coincideva con quello cinese finché il Vietnam del Nord non lo spostò su UTC+7 nel 1968; da allora un mese può iniziare un giorno prima che in Cina.",
    "year": "Bảo Đại {n}"
   },
   "koki": {

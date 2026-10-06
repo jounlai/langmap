@@ -32,7 +32,11 @@ window.TM_I18N["vi"] = {
   "navHan": "Bản đồ Hán tự",
   "navName": "Bản đồ tên",
   "navTime": "Bản đồ lịch",
-  "navTree": "Cây phả hệ"
+  "navTree": "Cây phả hệ",
+  "hOfficial": "Lịch chính thức",
+  "hPopular": "Lịch phổ biến (không chính thức)",
+  "hReligious": "Lịch tôn giáo và cộng đồng",
+  "status": "Vị thế"
  },
  "dateFmt": "{d} {month} năm {y}",
  "yearDefault": "{n}",
@@ -41,6 +45,15 @@ window.TM_I18N["vi"] = {
  "lunarFmt": "{d} {month} năm {y}",
  "dayName": "{name} năm {y}",
  "signFmt": "{num} {name}",
+ "wukuFmt": "wuku {wuku} (tuần thứ {n}/30)",
+ "akanNext": "Akwasidae kế tiếp: {date} (còn {n} ngày)",
+ "akanToday": "hôm nay là {name}",
+ "iceFmt": "tuần thứ {w} của mùa {season}, ngày {d} tháng {month}",
+ "iceExtra": "tuần thứ {w} của mùa {season}, {month}",
+ "iceSeasons": [
+  "hè",
+  "đông"
+ ],
  "months": {
   "gregorian": [
    "tháng 1",
@@ -231,6 +244,100 @@ window.TM_I18N["vi"] = {
    "Mưa",
    "Hoa"
   ],
+  "javanese": [
+   "tháng Sura",
+   "tháng Sapar",
+   "tháng Mulud",
+   "tháng Bakda Mulud",
+   "tháng Jumadilawal",
+   "tháng Jumadilakir",
+   "tháng Rejeb",
+   "tháng Ruwah",
+   "tháng Pasa",
+   "tháng Sawal",
+   "tháng Sela",
+   "tháng Besar"
+  ],
+  "nepali": [
+   "tháng Baisakh",
+   "tháng Jestha",
+   "tháng Asar",
+   "tháng Shrawan",
+   "tháng Bhadau",
+   "tháng Asoj",
+   "tháng Kartik",
+   "tháng Mangsir",
+   "tháng Poush",
+   "tháng Magh",
+   "tháng Falgun",
+   "tháng Chaitra"
+  ],
+  "kurdish": [
+   "tháng Xakelêwe",
+   "tháng Gulan",
+   "tháng Cozerdan",
+   "tháng Pûşper",
+   "tháng Gelawêj",
+   "tháng Xermanan",
+   "tháng Rezber",
+   "tháng Gelarêzan",
+   "tháng Sermawez",
+   "tháng Befranbar",
+   "tháng Rêbendan",
+   "tháng Reşeme"
+  ],
+  "bahai": [
+   "tháng Bahá",
+   "tháng Jalál",
+   "tháng Jamál",
+   "tháng ʻAẓamat",
+   "tháng Núr",
+   "tháng Raḥmat",
+   "tháng Kalimát",
+   "tháng Kamál",
+   "tháng Asmáʼ",
+   "tháng ʻIzzat",
+   "tháng Mashíyyat",
+   "tháng ʻIlm",
+   "tháng Qudrat",
+   "tháng Qawl",
+   "tháng Masáʼil",
+   "tháng Sharaf",
+   "tháng Sulṭán",
+   "tháng Mulk",
+   "ngày Ayyám-i-Há",
+   "tháng ʻAláʼ"
+  ],
+  "parsi": [
+   "tháng Fravardin",
+   "tháng Ardibehesht",
+   "tháng Khordad",
+   "tháng Tir",
+   "tháng Amardad",
+   "tháng Shehrevar",
+   "tháng Meher",
+   "tháng Avan",
+   "tháng Adar",
+   "tháng Dae",
+   "tháng Bahman",
+   "tháng Aspandarmad",
+   "ngày Gatha"
+  ],
+  "iceland": [
+   "Harpa",
+   "Skerpla",
+   "Sólmánuður",
+   "Heyannir",
+   "Tvímánuður",
+   "Haustmánuður",
+   "Gormánuður",
+   "Ýlir",
+   "Mörsugur",
+   "Þorri",
+   "Góa",
+   "Einmánuður",
+   "các đêm thêm (aukanætur)"
+  ],
   "zodiac": [
    "Chuột",
    "Trâu",
@@ -309,7 +416,7 @@ window.TM_I18N["vi"] = {
    "region": "Triều Tiên",
    "type": "Tháng dương lịch, năm Chủ thể",
    "epoch": "Năm sinh của Kim Nhật Thành, 1912",
-   "used": "Từ năm 1997",
+   "used": "1997–2024: Triều Tiên ngừng in năm Chủ thể từ tháng 10 năm 2024",
    "note": "Viết kèm năm dương lịch trong ngoặc: 주체115(2026)년.",
    "year": "Chủ thể {n}"
   },
@@ -359,10 +466,10 @@ window.TM_I18N["vi"] = {
   },
   "persian": {
    "name": "Lịch Hijri dương lịch",
-   "region": "Iran · Afghanistan",
+   "region": "Iran",
    "type": "Dương lịch (thiên văn)",
    "epoch": "Hijra, năm 622, tính theo năm dương lịch",
-   "used": "Chính thức tại Iran từ năm 1925 và tại Afghanistan",
+   "used": "Chính thức tại Iran từ năm 1925. Afghanistan dùng chính thức đến năm 2022, khi chính quyền chuyển sang lịch Hijri âm lịch; người dân ở đó vẫn dùng lịch này",
    "note": "Năm bắt đầu đúng vào thời khắc xuân phân tháng 3 (Nowruz), khiến đây là một trong những bộ lịch chính xác nhất đang được dùng.",
    "year": "{n} Hijri dương lịch"
   },
@@ -407,7 +514,7 @@ window.TM_I18N["vi"] = {
    "region": "Giáo hội Chính thống giáo Nga",
    "type": "Dương lịch",
    "epoch": "Công nguyên",
-   "used": "Dân sự tại Nga đến năm 1918; ngày nay là lịch phụng vụ",
+   "used": "Dân sự tại Nga đến năm 1918; ngày nay là lịch phụng vụ của các giáo hội Chính thống giáo Nga, Serbia, Gruzia, Jerusalem và Núi Athos",
    "note": "Hiện chậm hơn lịch Gregory 13 ngày, vì thế Giáng sinh của Chính thống giáo Nga rơi vào ngày 7 tháng 1.",
    "year": "{n} (lịch cũ)"
   },
@@ -417,7 +524,102 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch (tháng theo lịch Julius)",
    "epoch": "Pharaoh Shoshenq I lên ngôi, 950 TCN",
    "used": "Lịch nông nghiệp; Yennayer là ngày nghỉ lễ tại Algérie (2018) và Maroc (2024)",
-   "note": "Giữ độ dài tháng của lịch Julius, nên ngày 1 Yennayer hiện rơi vào 14 tháng 1. Cách đếm năm được đề xuất năm 1980. Tên tháng được hiển thị bằng chữ Tifinagh, chữ viết của tiếng Tamazight chuẩn Maroc; tiếng Kabyle ở Algérie viết chúng bằng chữ Latinh (Yennayer, Furar…)."
+   "note": "Giữ độ dài tháng của lịch Julius, nên ngày 1 Yennayer hiện rơi vào 14 tháng 1. Cách đếm năm được đề xuất năm 1980. Tên tháng được hiển thị bằng chữ Tifinagh, chữ viết của tiếng Tamazight chuẩn Maroc; tiếng Kabyle ở Algérie viết chúng bằng chữ Latinh (Yennayer, Furar…). Algérie lấy ngày 12 tháng 1 làm ngày nghỉ lễ Yennayer, còn Maroc lấy ngày 14 tháng 1."
+  },
+  "nepali": {
+   "name": "Lịch Vikram Samvat (Nepal)",
+   "region": "Nepal",
+   "type": "Dương lịch (theo năm sao), độ dài tháng được ấn định mỗi năm",
+   "epoch": "Kỷ nguyên Vikram Samvat, năm 57 TCN",
+   "used": "Lịch chính thức của Nepal: văn bản nhà nước, giấy tờ quốc tịch, năm tài chính và năm học",
+   "note": "Mỗi tháng dài 29 đến 32 ngày và được ủy ban lịch của Nepal (Nepal Panchanga Nirnayak Samiti) ấn định trước, nên ngày tháng lấy từ các bảng do ủy ban công bố — ở đây có đến hết năm 2083 VS (tháng 4 năm 2027).",
+   "year": "Vikram Samvat {n}"
+  },
+  "vietnamese": {
+   "name": "Âm lịch Việt Nam",
+   "region": "Việt Nam",
+   "type": "Âm dương lịch",
+   "epoch": "Không đếm năm liên tục; năm xoay vòng theo 60 tên can chi",
+   "used": "Không phải lịch nhà nước (lịch Gregory là lịch chính thức theo nghị định từ năm 1967), nhưng dùng để định ngày Tết, Giỗ Tổ Hùng Vương và ngày giỗ trong gia đình",
+   "note": "Tính theo múi giờ của Việt Nam (UTC+7), nên một tháng có thể bắt đầu sớm hơn Trung Quốc một ngày — năm 1985 Tết đến sớm hơn cả một tháng (21 tháng 1, so với 20 tháng 2 ở Trung Quốc).",
+   "year": "{gzVi}"
+  },
+  "javanese": {
+   "name": "Lịch Java",
+   "region": "Java, Indonesia",
+   "type": "Âm lịch (tính theo số học, chu kỳ windu 8 năm) kèm tuần chợ 5 ngày",
+   "epoch": "Anno Javanico: nối tiếp năm Saka 1555 khi Sultan Agung lập ra lịch này năm 1633",
+   "used": "Phổ biến ở Java: ngày cưới, lễ selamatan và ngày chợ được chọn theo weton — thứ trong tuần cộng ngày pasaran",
+   "note": "Hiển thị kèm thứ trong tuần và ngày pasaran (Legi, Pahing, Pon, Wage, Kliwon). Năm Java = năm Hijri + 512, nhưng năm tính theo số học có thể bắt đầu lệch một ngày so với năm Hồi giáo (1 Sura 1960 rơi vào 17 tháng 6 năm 2026, còn 1 Muharram vào 16 tháng 6).",
+   "year": "{n} (lịch Java)"
+  },
+  "pawukon": {
+   "name": "Lịch Pawukon của Bali",
+   "region": "Bali, Indonesia",
+   "type": "Chu kỳ 210 ngày: 30 tuần wuku, mỗi tuần 7 ngày, cùng tuần 5 ngày và các loại tuần khác chạy song song",
+   "epoch": "Không đếm năm: chu kỳ cứ thế lặp lại",
+   "used": "Các lễ hội Hindu và ngày kỷ niệm đền ở Bali; lễ Galungan đến mỗi 210 ngày, vào ngày Buda Kliwon Dungulan",
+   "note": "Hiển thị thứ trong tuần 7 ngày, ngày trong tuần 5 ngày và tuần wuku. Bali cũng giữ năm Saka theo âm dương lịch, có ngày đầu năm (Nyepi) là ngày lễ quốc gia."
+  },
+  "kurdish": {
+   "name": "Lịch Kurd",
+   "region": "Vùng Kurdistan, Iraq",
+   "type": "Dương lịch (các tháng của lịch Hijri dương lịch với tên tiếng Kurd)",
+   "epoch": "Kỷ nguyên Media, năm 700 TCN: năm = năm Hijri dương lịch + 1321",
+   "used": "Người Kurd dùng trong văn hóa; Newroz (21 tháng 3), ngày đầu năm, là ngày lễ chính thức ở Vùng Kurdistan",
+   "note": "Các tháng khớp từng tháng một với lịch Iran — Rezber chính là Mehr — nên năm mới trùng với năm mới Iran vào xuân phân tháng 3.",
+   "year": "{n} (lịch Kurd)"
+  },
+  "akan": {
+   "name": "Lịch Akan (Adaduanan)",
+   "region": "Asante, Ghana",
+   "type": "Chu kỳ 42 ngày: tuần 6 ngày xoay vòng so với tuần 7 ngày",
+   "epoch": "Không đếm năm: chu kỳ 42 ngày chạy liên tục",
+   "used": "Định ngày các lễ Adae của người Asante và các vương quốc Akan khác; tên theo ngày sinh của người Akan (Kwasi, Kofi…) lấy từ tuần 7 ngày",
+   "note": "Akwasidae, lễ Adae chính, rơi vào Chủ nhật mỗi 42 ngày và được tổ chức tại cung Manhyia ở Kumasi; Awukudae rơi vào thứ Tư."
+  },
+  "iceland": {
+   "name": "Lịch Iceland cổ",
+   "region": "Iceland",
+   "type": "Dương lịch: 52 tuần cộng một tuần nhuận, đếm theo tuần của mùa hè và mùa đông",
+   "epoch": "Không có cách đếm năm riêng",
+   "used": "In hằng năm trong niên lịch của Đại học Iceland; Ngày đầu mùa hè là ngày nghỉ lễ, còn Bóndadagur (1 Þorri) và Konudagur (1 Góa) được giữ rộng rãi",
+   "note": "Mùa hè bắt đầu vào thứ Năm trong khoảng 19 đến 25 tháng 4, mùa đông vào một thứ Bảy cuối tháng 10. Giữa Sólmánuður và Heyannir có bốn “đêm thêm”, và một số năm có thêm một tuần nhuận (sumarauki)."
+  },
+  "bahai": {
+   "name": "Lịch Bahá’í (Badíʿ)",
+   "region": "Trung tâm Thế giới Bahá’í, Haifa",
+   "type": "Dương lịch: 19 tháng, mỗi tháng 19 ngày + 4–5 ngày nhuận",
+   "epoch": "Lời tuyên bố của Đức Báb, năm 1844 (năm 1 BE)",
+   "used": "Tín đồ Bahá’í trên toàn thế giới, cho các lễ, ngày thánh và kỳ chay 19 ngày",
+   "note": "Từ năm 2015, năm bắt đầu vào xuân phân tháng 3 tính theo Tehran; ngày tháng ở đây theo bảng chính thức của Trung tâm Thế giới Bahá’í đến năm 2065. Các ngày nhuận, Ayyám-i-Há, đứng trước tháng cuối cùng, tháng ăn chay.",
+   "year": "{n} (lịch Bahá’í)"
+  },
+  "parsi": {
+   "name": "Lịch Parsi (Shahanshahi)",
+   "region": "Người Parsi, Mumbai",
+   "type": "Dương lịch, 365 ngày, không có ngày nhuận: 12 × 30 + 5 ngày Gatha",
+   "epoch": "Yazdegerd III lên ngôi, năm 632 (kỷ nguyên Yazdegerd, Y.Z.)",
+   "used": "Người Parsi theo đạo Zoroaster ở Ấn Độ; Tết Parsi (Navroz) là ngày nghỉ lễ ở Maharashtra và Gujarat",
+   "note": "Mỗi ngày trong 30 ngày có tên riêng (roj), mỗi tháng (mah) cũng vậy. Vì không có ngày nhuận, Navroz sớm hơn một ngày sau mỗi bốn năm; cách tính Qadimi của thiểu số đi trước 30 ngày.",
+   "year": "Yazdegerd {n}"
+  },
+  "bohra": {
+   "name": "Lịch Hijri của Dawoodi Bohra (Fatimid)",
+   "region": "Người Dawoodi Bohra, Surat",
+   "type": "Âm lịch, theo bảng: tháng 30 và 29 ngày, 11 năm nhuận trong 30 năm",
+   "epoch": "Hijra, năm 622",
+   "used": "Cộng đồng Dawoodi Bohra trên toàn thế giới (khoảng một triệu người), cho Ramadan, Eid và mọi ngày tôn giáo",
+   "note": "Một bộ lịch số học cố định thừa hưởng từ nhà Fatimid, nên Eid của người Bohra có thể sớm hơn một ngày so với Eid định theo trăng — Eid al-Fitr năm 1445 rơi vào 9 tháng 4 năm 2024.",
+   "year": "{n} Hijri"
+  },
+  "kiche": {
+   "name": "Lịch đếm ngày Maya K’iche’ (Cholq’ij)",
+   "region": "Cao nguyên Guatemala",
+   "type": "Đếm 260 ngày: 13 con số × 20 tên ngày",
+   "epoch": "Không có năm 1: phép đếm chạy liên tục từ thời Maya cổ điển",
+   "used": "Các thầy giữ ngày Maya (ajq’ijab’) dùng cho nghi lễ, bói toán và đặt tên; Wajxaqib’ B’atz’ (8 B’atz’) mở đầu chu kỳ mới của họ",
+   "note": "Phép đếm còn sống chính là phép đếm cổ, không hề gián đoạn: nó trùng ngày với Tzolk’in cổ điển theo cách quy đổi Long Count dùng ở đây. Wajxaqib’ B’atz’ rơi vào 18 tháng 1 năm 2025 và 22 tháng 6 năm 2026."
   },
   "yuan": {
    "name": "Niên hiệu nhà Nguyên: Chí Chính",
@@ -479,7 +681,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm dương lịch, năm theo niên hiệu",
    "epoch": "Bảo Đại 1 = 1926",
    "used": "1926–1945, niên hiệu cuối cùng của triều đại cuối cùng ở Việt Nam",
-   "note": "Hiển thị theo tháng âm lịch Trung Quốc; âm lịch Việt Nam tính theo múi giờ UTC+7 nên đôi khi lệch một ngày.",
+   "note": "Tháng theo âm lịch Việt Nam, vốn trùng với âm lịch Trung Quốc cho đến khi miền Bắc chuyển sang tính theo múi giờ UTC+7 năm 1968; từ đó một tháng có thể bắt đầu sớm hơn Trung Quốc một ngày.",
    "year": "Bảo Đại thứ {n}"
   },
   "koki": {

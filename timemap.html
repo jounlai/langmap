@@ -94,14 +94,28 @@
         }
         .tm-today-btn { font-size: 13px; font-weight: 600; color: var(--tm-accent-dark); }
         .tm-step-btn:hover, .tm-today-btn:hover { background: var(--tm-accent-tint); border-color: var(--tm-accent); }
-        .tm-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
-        .tm-chip {
-            display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 600;
-            padding: 4px 10px; border-radius: 999px; border: 1px solid #d0d3dc; background: #fff;
-            color: #666; cursor: pointer; user-select: none;
+        /* Era switch — WordMap's Modern / Historical radio pill, verbatim. */
+        .tm-era-row { margin-top: 8px; }
+        .radio-switch {
+            display: inline-flex; border-radius: 20px; overflow: hidden;
+            border: 1px solid #d0d0d0; background: #f0f0f0;
         }
-        .tm-chip[aria-pressed="true"] { background: var(--tm-accent-tint); border-color: var(--tm-accent); color: var(--tm-accent-dark); }
-        .tm-chip .dot { width: 8px; height: 8px; border-radius: 50%; }
+        .radio-switch .radio-opt {
+            font-size: 11px; padding: 4px 12px; border: none; background: transparent;
+            color: #777; cursor: pointer; font-weight: 500; white-space: nowrap;
+            transition: all 0.25s ease; position: relative;
+            flex: 1; text-align: center;
+        }
+        .radio-switch .radio-opt:not(:last-child)::after {
+            content: ''; position: absolute; right: 0; top: 20%; height: 60%;
+            border-right: 1px solid #ccc;
+        }
+        .radio-switch .radio-opt.active {
+            background: #4a6cf7; color: #fff;
+            box-shadow: 0 1px 4px rgba(74,108,247,0.35);
+        }
+        .radio-switch .radio-opt.active::after { border-right: none; }
+        .radio-switch .radio-opt:hover:not(.active) { background: #e8e8e8; }
         .tm-dot-greg { background: #8a8f9c; }
         .tm-dot-current { background: var(--tm-accent); }
         .tm-dot-hist { background: var(--tm-hist); }
@@ -253,7 +267,6 @@
                 border: none; background: transparent; padding: 0; pointer-events: none;
             }
             .tm-controls > * { pointer-events: auto; }
-            .tm-filters { display: none; }
             .map-zoom-controls { display: none; }
             .site-header-bar > .chrome-toggle-btn { margin-left: auto; }
             .site-header-bar > .chrome-toggle-btn + .hamburger-btn { margin-left: 6px; }
@@ -286,7 +299,6 @@
                 font-size: 24px; line-height: 1; cursor: pointer;
             }
             .tm-panel.info-open ~ .tm-sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35); }
-            .tm-panel.info-open .tm-filters { display: flex; }
         }
     </style>
     <script src="nav-short.js?v=5"></script>
@@ -331,10 +343,11 @@
                     <button type="button" class="tm-today-btn" id="tm-today">Today</button>
                     <button type="button" class="tm-details-btn" id="tm-details-btn" title="Details" aria-label="Details"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><line x1="12" y1="7.6" x2="12.01" y2="7.6"/></svg></button>
                 </div>
-                <div class="tm-filters" id="tm-filters">
-                    <button type="button" class="tm-chip" data-f="current" aria-pressed="true"><span class="dot tm-dot-current"></span><span class="tm-chip-label"></span></button>
-                    <button type="button" class="tm-chip" data-f="historical" aria-pressed="true"><span class="dot tm-dot-hist"></span><span class="tm-chip-label"></span></button>
-                    <button type="button" class="tm-chip" data-f="gregorian" aria-pressed="true"><span class="dot tm-dot-greg"></span><span class="tm-chip-label"></span></button>
+                <div class="tm-era-row">
+                    <div class="radio-switch" id="tm-era" role="radiogroup" aria-label="Era (modern / historical)">
+                        <button type="button" class="radio-opt active" data-era="modern" role="radio" aria-checked="true"></button>
+                        <button type="button" class="radio-opt" data-era="historical" role="radio" aria-checked="false"></button>
+                    </div>
                 </div>
             </div>
             <div class="tm-info" id="tm-info">
@@ -380,7 +393,7 @@
             ['fr','Français'],['it','Italiano'],['es','Español'],['pt','Português'],['ru','Русский'],
             ['uk','Українська'],['ar','العربية'],['he','עברית'],['sw','Kiswahili']];
         const HAS = Object.fromEntries(LANGS.map(([c]) => [c, true]));
-        const I18N_VERSION = 3;
+        const I18N_VERSION = 5;
         window.TM_I18N = window.TM_I18N || {};
         const loading = {};
         function ensureLang(lang){
@@ -411,8 +424,10 @@
         function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
         /* ---------- State ---------- */
-        const GROUPS = ['current','historical','gregorian'];
-        const show = { current: true, historical: true, gregorian: true };
+        // Era mode, as on WordMap: modern = calendars in use + the Gregorian
+        // markers; historical = the ones that stopped counting.
+        let era = 'modern';
+        const inEra = cal => era === 'historical' ? cal.status === 'historical' : cal.status !== 'historical';
         let dateStr = todayStr();
         let map, fontScale = 1, openId = null;
         const markers = {};
@@ -448,7 +463,7 @@
         /* ---------- URL state ---------- */
         function updateHash(){
             const parts=['d='+dateStr, 'l='+uiLang, 's='+Math.round(fontScale*100)];
-            const off=GROUPS.filter(g=>!show[g]); if(off.length) parts.push('hide='+off.join(','));
+            if(era==='historical') parts.push('era=hist');
             if(document.body.classList.contains('chrome-hidden')) parts.push('simple=1');
             if(map){ const c=map.getCenter(); parts.push('c='+c.lat.toFixed(2)+','+c.lng.toFixed(2)); parts.push('z='+map.getZoom().toFixed(1)); }
             const h='#'+parts.join('&'); if(location.hash!==h) history.replaceState(null,'',h);
@@ -505,7 +520,7 @@
             const onMobile = window.matchMedia('(max-width: 780px)').matches;
             const padTL = onMobile ? L.point(16, 66) : L.point(PANEL_WIDTH + 16, 72);
             CALENDARS.forEach(cal=>{
-                if(!show[cal.status]) return;
+                if(!inEra(cal)) return;
                 const r=dateOf(cal); if(!r) return;
                 const cls = cal.status==='historical' ? ' is-hist' : cal.status==='gregorian' ? ' is-greg' : '';
                 // native date / the same date in the UI language / calendar name
@@ -553,7 +568,7 @@
         function renderPanel(){
             let h='<div class="tm-title">'+esc(t('title'))+'</div><div class="tm-tagline">'+esc(t('tagline'))+'</div>';
             const sec = (st, head, sub, dotCls) => {
-                if(!show[st]) return '';
+                if(st==='historical' ? era!=='historical' : era==='historical') return '';
                 let s='<div class="tm-section-h">'+esc(head)+'</div>'+(sub?'<div class="tm-section-sub">'+esc(sub)+'</div>':'');
                 CALENDARS.filter(c=>c.status===st).forEach(cal=>{
                     const r=dateOf(cal);
@@ -617,8 +632,7 @@
             const cb=document.getElementById('chrome-toggle'); cb.title=t('simpleDisplay'); cb.setAttribute('aria-label',t('simpleDisplay'));
             const sb=document.getElementById('tm-settings-btn'); sb.title=t('settings'); sb.setAttribute('aria-label',t('settings'));
             document.getElementById('tm-set-fontlabel').textContent=t('fontSize');
-            const lbl={ current:'fCurrent', historical:'fHist', gregorian:'fGreg' };
-            document.querySelectorAll('.tm-chip').forEach(c=>{ c.querySelector('.tm-chip-label').textContent=t(lbl[c.getAttribute('data-f')]); });
+            syncEra();
             const nav={ 'nav-order-label':'navOrder', 'nav-word':'navWord', 'nav-han':'navHan', 'nav-name':'navName', 'nav-time':'navTime', 'nav-tree-label':'navTree' };
             Object.keys(nav).forEach(id=>{
                 const el=document.getElementById(id); if(!el) return;
@@ -638,7 +652,23 @@
             sel.value=uiLang;
             sel.addEventListener('change', ()=>setLang(sel.value));
         }
-        function syncChips(){ document.querySelectorAll('.tm-chip').forEach(c=>c.setAttribute('aria-pressed', show[c.getAttribute('data-f')]?'true':'false')); }
+        function syncEra(){
+            const n={ modern: CALENDARS.filter(c=>c.status!=='historical').length, historical: CALENDARS.filter(c=>c.status==='historical').length };
+            const narrow=window.matchMedia('(max-width: 640px)').matches;   // counts dropped on phones, as on WordMap
+            document.querySelectorAll('#tm-era .radio-opt').forEach(b=>{
+                const k=b.getAttribute('data-era'), on=k===era;
+                b.classList.toggle('active', on); b.setAttribute('aria-checked', on?'true':'false');
+                const label=t(k==='modern'?'fCurrent':'fHist');
+                b.textContent = narrow ? label : label+' ('+n[k]+')';
+            });
+        }
+        function setEra(e){
+            if(e===era) return;
+            era=e; openId=null; syncEra(); renderPanel(); drawMarkers(); updateHash();
+            // Historical calendars include the Americas; fit whatever is shown.
+            const pts=Object.values(markers).map(m=>m.getLatLng());
+            if(pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.15), { paddingTopLeft: window.matchMedia('(min-width: 781px)').matches ? [PANEL_WIDTH, 40] : [10, 120], maxZoom: 4 });
+        }
 
         /* ---------- Boot ---------- */
         function boot(){
@@ -647,19 +677,17 @@
             if(st.l && HAS[st.l]) uiLang=st.l;
             if(st.s){ const v=parseInt(st.s,10); if(v>=70&&v<=160) fontScale=v/100; }
             if(st.d && gregParts(st.d)) dateStr=st.d;
-            if(st.hide) st.hide.split(',').forEach(g=>{ if(g in show) show[g]=false; });
+            if(st.era==='hist') era='historical';
             if(st.simple==='1'){ document.body.classList.add('chrome-hidden'); document.getElementById('chrome-toggle').setAttribute('aria-pressed','true'); }
             if(st.c && st.z){ const p=st.c.split(','); const lat=+p[0], lng=+p[1], z=+st.z; if(isFinite(lat)&&isFinite(lng)&&isFinite(z)) map.setView([lat,lng], z); }
-            setupLangSelect(); syncChips(); applyFontScale();
+            setupLangSelect(); syncEra(); applyFontScale();
 
             document.getElementById('tm-date').value=dateStr;
             document.getElementById('tm-date').addEventListener('change', e=>{ if(e.target.value) setDate(e.target.value); });
             document.getElementById('tm-prev').addEventListener('click', ()=>setDate(shiftDay(dateStr,-1)));
             document.getElementById('tm-next').addEventListener('click', ()=>setDate(shiftDay(dateStr,1)));
             document.getElementById('tm-today').addEventListener('click', ()=>setDate(todayStr()));
-            document.querySelectorAll('.tm-chip').forEach(c=>c.addEventListener('click', ()=>{
-                const f=c.getAttribute('data-f'); show[f]=!show[f]; syncChips(); renderPanel(); drawMarkers(); updateHash();
-            }));
+            document.querySelectorAll('#tm-era .radio-opt').forEach(b=>b.addEventListener('click', ()=>setEra(b.getAttribute('data-era'))));
             document.getElementById('tm-details-btn').addEventListener('click', openInfoSheet);
             document.getElementById('tm-sheet-backdrop').addEventListener('click', closeInfoSheet);
             document.getElementById('tm-info-close').addEventListener('click', closeInfoSheet);
@@ -672,7 +700,7 @@
             document.getElementById('tm-font-dec').addEventListener('click', ()=>setFontScale(fontScale-0.1));
             document.getElementById('tm-font-inc').addEventListener('click', ()=>setFontScale(fontScale+0.1));
             placeChromeToggle();
-            let rz; window.addEventListener('resize', ()=>{ clearTimeout(rz); rz=setTimeout(placeChromeToggle, 150); });
+            let rz; window.addEventListener('resize', ()=>{ clearTimeout(rz); rz=setTimeout(()=>{ placeChromeToggle(); syncEra(); }, 150); });
             const chromeBtn=document.getElementById('chrome-toggle');
             chromeBtn.addEventListener('click', ()=>{
                 const hidden=document.body.classList.toggle('chrome-hidden');
@@ -685,6 +713,7 @@
                 const o=readState();
                 if(o.l && HAS[o.l] && o.l!==uiLang){ document.getElementById('header-ui-lang').value=o.l; setLang(o.l); }
                 if(o.d && o.d!==dateStr && gregParts(o.d)) setDate(o.d, { hash:false });
+                const e=o.era==='hist'?'historical':'modern'; if(e!==era) setEra(e);
             });
 
             document.getElementById('tm-simple-date').textContent=dateStr;

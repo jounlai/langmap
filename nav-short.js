@@ -15,6 +15,7 @@
  * (ja マップ, ko 맵/지도, zh 地图, yue 地圖): 単語 / 漢字 / 名前 / 暦.
  * Indonesian drops its prefix "Peta " the same way: Kata / Hanzi / Nama / Kalender.
  * [2026-10-06: every language now has a short header label — see SHORT.]
+ * [2026-10-06: en added (Words / Hanzi / Names / Calendars); de HanMap -> Hanzi.]
  *
  * Labels follow WordMap's NAV_* tables (NAV_TIME = timemap_i18n navTime).
  */
@@ -46,11 +47,12 @@
     // 2026-10-06: vi showed "Bản đồ …", id "Peta …"). Missing keys fall back
     // to LABELS + RULES.
     var SHORT = {
+        en: {"word":"Words","han":"Hanzi","name":"Names","time":"Calendars"},
         vi: {"word":"Từ","han":"Hán tự","name":"Tên","time":"Lịch"},
         th: {"word":"คำ","han":"ตัวอักษร","name":"ชื่อ","time":"ปฏิทิน"},
         id: {"word":"Kata","han":"Hanzi","name":"Nama","time":"Kalender"},
         hi: {"word":"शब्द","han":"हान्ज़ी","name":"नाम","time":"कैलेंडर"},
-        de: {"word":"Wörter","name":"Namen","time":"Kalender"},
+        de: {"word":"Wörter","han":"Hanzi","name":"Namen","time":"Kalender"},
         fr: {"order":"Ordre","word":"Mots","han":"Hanzi","name":"Prénoms","time":"Calendriers"},
         it: {"order":"Ordine","word":"Parole","han":"Hanzi","name":"Nomi","time":"Calendari"},
         es: {"order":"Orden","word":"Palabras","han":"Hanzi","name":"Nombres","time":"Calendarios"},

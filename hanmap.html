@@ -2804,7 +2804,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=4"></script>
+    <script src="nav-short.js?v=5"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
@@ -7331,8 +7331,12 @@
         // blank with nothing in the console. Two days in production.
         function hanmapStripChineseWrapper(name) {
             if (!name) return name;
-            const m = /^[^()（）]+[\s]*[(（]([^()（）]+)[)）]\s*$/.exec(name);
-            return m ? m[1].trim() : name;
+            const m = /^([^()（）]+?)[\s]*[(（]([^()（）]+)[)）]\s*$/.exec(name);
+            // Strip only a real "Chinese (…)" wrapper. Names that carry their own
+            // bracket — 江淮官話（揚州）, Yue (Huazhou, Gaoyang) — used to lose
+            // everything outside it and render as just 揚州 / Gaoyang (2026-10-06).
+            if (!m || !/chin|中国|中國|중국|trung|จีน|cina|tionghoa|चीनी|китай|صين|סינית|kichina|cinese/i.test(m[1])) return name;
+            return m[2].trim();
         }
 
         function hanmapIsSinitic(code) {

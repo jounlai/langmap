@@ -14,7 +14,7 @@
  * full names. In the header a bare "map" suffix is dropped
  * (ja マップ, ko 맵/지도, zh 地图, yue 地圖): 単語 / 漢字 / 名前 / 暦.
  * Indonesian drops its prefix "Peta " the same way: Kata / Hanzi / Nama / Kalender.
- * Other languages keep the full label, since "Map" is part of the phrase.
+ * [2026-10-06: every language now has a short header label — see SHORT.]
  *
  * Labels follow WordMap's NAV_* tables (NAV_TIME = timemap_i18n navTime).
  */
@@ -40,6 +40,26 @@
         ar: {"order":"ترتيب الكلمات","word":"خريطة الكلمات","han":"خريطة الحروف","name":"خريطة الأسماء","time":"خريطة التقاويم","tree":"الشجرة"},
         he: {"order":"סדר מילים","word":"מפת מילים","han":"מפת תווים","name":"מפת שמות","time":"מפת לוחות שנה","tree":"אילן"},
         sw: {"order":"Mpangilio wa maneno","word":"Ramani ya maneno","han":"Ramani ya hanzi","name":"Ramani ya majina","time":"Ramani ya kalenda","tree":"Mti"},
+    };
+    // Short header labels (wide screens only): the word for "map" is dropped
+    // in every language, as ja/ko/zh/yue already were via RULES (owner,
+    // 2026-10-06: vi showed "Bản đồ …", id "Peta …"). Missing keys fall back
+    // to LABELS + RULES.
+    var SHORT = {
+        vi: {"word":"Từ","han":"Hán tự","name":"Tên","time":"Lịch"},
+        th: {"word":"คำ","han":"ตัวอักษร","name":"ชื่อ","time":"ปฏิทิน"},
+        id: {"word":"Kata","han":"Hanzi","name":"Nama","time":"Kalender"},
+        hi: {"word":"शब्द","han":"हान्ज़ी","name":"नाम","time":"कैलेंडर"},
+        de: {"word":"Wörter","name":"Namen","time":"Kalender"},
+        fr: {"order":"Ordre","word":"Mots","han":"Hanzi","name":"Prénoms","time":"Calendriers"},
+        it: {"order":"Ordine","word":"Parole","han":"Hanzi","name":"Nomi","time":"Calendari"},
+        es: {"order":"Orden","word":"Palabras","han":"Hanzi","name":"Nombres","time":"Calendarios"},
+        pt: {"order":"Ordem","word":"Palavras","han":"Hanzi","name":"Nomes","time":"Calendários"},
+        ru: {"word":"Слова","han":"Иероглифы","name":"Имена","time":"Календари"},
+        uk: {"word":"Слова","han":"Ієрогліфи","name":"Імена","time":"Календарі"},
+        ar: {"word":"الكلمات","han":"الحروف","name":"الأسماء","time":"التقاويم"},
+        he: {"word":"מילים","han":"תווים","name":"שמות","time":"לוחות שנה"},
+        sw: {"order":"Mpangilio","word":"Maneno","han":"Hanzi","name":"Majina","time":"Kalenda"},
     };
     // id: the 'map' word is a prefix (Peta Kata …), dropped like ja マップ (owner, 2026-10-06).
     var RULES = [/\s*マップ$/, /\s*맵$/, /\s*지도$/, /地图$/, /地圖$/, /^Peta\s+/];
@@ -86,7 +106,8 @@
         var items = document.querySelectorAll('.site-header-bar .header-nav > a, .site-header-bar .header-nav > span:not(.nav-sep)');
         for (var i = 0; i < items.length; i++) {
             var k = keyOf(items[i]); if (!k || !L[k]) continue;
-            var s = shortOf(L[k]);
+            var S = SHORT[lang()] || {};
+            var s = S[k] || shortOf(L[k]);
             if (items[i].getAttribute('data-short') !== s) items[i].setAttribute('data-short', s);
         }
     }

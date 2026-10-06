@@ -13,6 +13,7 @@
  * never edited, so the hamburger drawer (≤640px) still shows the page's own
  * full names. In the header a bare "map" suffix is dropped
  * (ja マップ, ko 맵/지도, zh 地图, yue 地圖): 単語 / 漢字 / 名前 / 暦.
+ * Indonesian drops its prefix "Peta " the same way: Kata / Hanzi / Nama / Kalender.
  * Other languages keep the full label, since "Map" is part of the phrase.
  *
  * Labels follow WordMap's NAV_* tables (NAV_TIME = timemap_i18n navTime).
@@ -40,7 +41,8 @@
         he: {"order":"סדר מילים","word":"מפת מילים","han":"מפת תווים","name":"מפת שמות","time":"מפת לוחות שנה","tree":"אילן"},
         sw: {"order":"Mpangilio wa maneno","word":"Ramani ya maneno","han":"Ramani ya hanzi","name":"Ramani ya majina","time":"Ramani ya kalenda","tree":"Mti"},
     };
-    var RULES = [/\s*マップ$/, /\s*맵$/, /\s*지도$/, /地图$/, /地圖$/];
+    // id: the 'map' word is a prefix (Peta Kata …), dropped like ja マップ (owner, 2026-10-06).
+    var RULES = [/\s*マップ$/, /\s*맵$/, /\s*지도$/, /地图$/, /地圖$/, /^Peta\s+/];
     function shortOf(text) {
         for (var i = 0; i < RULES.length; i++) if (RULES[i].test(text)) return text.replace(RULES[i], '').trim() || text;
         return text;

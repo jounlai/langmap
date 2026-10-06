@@ -54,6 +54,19 @@ window.TM_I18N["vi"] = {
   "hè",
   "đông"
  ],
+ "mmFmt": "ngày {d} {phase}, {month} năm {y}",
+ "mmMoonFmt": "{phase} {month} năm {y}",
+ "mmPhases": [
+  "trăng lên",
+  "ngày rằm",
+  "trăng xuống",
+  "ngày sóc"
+ ],
+ "khFmt": "ngày {d} {phase}, {month} năm Phật lịch {n}",
+ "khPhases": [
+  "trăng lên",
+  "trăng xuống"
+ ],
  "months": {
   "gregorian": [
    "tháng 1",
@@ -338,6 +351,40 @@ window.TM_I18N["vi"] = {
    "Einmánuður",
    "các đêm thêm (aukanætur)"
   ],
+  "myanmar": [
+   "tháng Waso thứ nhất",
+   "tháng Tagu",
+   "tháng Kason",
+   "tháng Nayon",
+   "tháng Waso",
+   "tháng Wagaung",
+   "tháng Tawthalin",
+   "tháng Thadingyut",
+   "tháng Tazaungmon",
+   "tháng Nadaw",
+   "tháng Pyatho",
+   "tháng Tabodwe",
+   "tháng Tabaung",
+   "tháng Tagu muộn",
+   "tháng Kason muộn",
+   "tháng Waso thứ hai"
+  ],
+  "khmer": [
+   "tháng Mikasar",
+   "tháng Bos",
+   "tháng Meak",
+   "tháng Phalkun",
+   "tháng Chet",
+   "tháng Pisak",
+   "tháng Jesth",
+   "tháng Asadh",
+   "tháng Srap",
+   "tháng Phatrobot",
+   "tháng Assoch",
+   "tháng Kadeuk",
+   "tháng Asadh thứ nhất",
+   "tháng Asadh thứ hai"
+  ],
   "zodiac": [
    "Chuột",
    "Trâu",
@@ -620,6 +667,50 @@ window.TM_I18N["vi"] = {
    "epoch": "Không có năm 1: phép đếm chạy liên tục từ thời Maya cổ điển",
    "used": "Các thầy giữ ngày Maya (ajq’ijab’) dùng cho nghi lễ, bói toán và đặt tên; Wajxaqib’ B’atz’ (8 B’atz’) mở đầu chu kỳ mới của họ",
    "note": "Phép đếm còn sống chính là phép đếm cổ, không hề gián đoạn: nó trùng ngày với Tzolk’in cổ điển theo cách quy đổi Long Count dùng ở đây. Wajxaqib’ B’atz’ rơi vào 18 tháng 1 năm 2025 và 22 tháng 6 năm 2026."
+  },
+  "tibetan": {
+   "name": "Lịch Tạng (phái Phugpa)",
+   "region": "Tây Tạng · người Tạng lưu vong",
+   "type": "Âm dương lịch, có ngày bị bỏ qua và ngày lặp lại",
+   "epoch": "Năm vương triều Tạng: tính từ vị vua đầu tiên, năm 127 TCN (2026–27 là năm 2153)",
+   "used": "Người Tạng ở Trung Quốc và lưu vong, Ladakh, Sikkim và Phật tử vùng Himalaya; Losar, Tết của lịch này, là ngày nghỉ ở Khu tự trị Tây Tạng",
+   "note": "Mỗi ngày lịch mang số của ngày âm đang diễn ra lúc bình minh, nên có số bị bỏ qua hoặc lặp lại. Tính theo “Tibetan Calendar Mathematics” của Svante Janson, đối chiếu với các bảng ngày Tết và mọi ngày bị bỏ qua, lặp lại trong năm 2012 của ông.",
+   "year": "Tạng lịch {n} ({gzVi})"
+  },
+  "mongolian": {
+   "name": "Âm lịch Mông Cổ",
+   "region": "Mông Cổ",
+   "type": "Âm dương lịch, có ngày bị bỏ qua và ngày lặp lại (kiểu lịch Tạng)",
+   "epoch": "Không đếm năm liên tục; năm được gọi theo ngũ hành và con giáp trong chu kỳ 60 năm",
+   "used": "Không phải lịch nhà nước (lịch Gregory là lịch chính thức từ năm 1948), nhưng dùng để định Tsagaan Sar (Tết) và ngày sinh Thành Cát Tư Hãn, cả hai đều là ngày nghỉ lễ",
+   "note": "Là bản Tân Genden (Tögs Buyant) của lịch Tạng, soạn năm 1786; năm mới có thể lệch một ngày hoặc một tháng so với Tây Tạng — Tsagaan Sar năm 2025 rơi vào 1 tháng 3, còn Losar vào 28 tháng 2.",
+   "year": "{gzVi}"
+  },
+  "bhutanese": {
+   "name": "Lịch Bhutan",
+   "region": "Bhutan",
+   "type": "Âm dương lịch, có ngày bị bỏ qua và ngày lặp lại (kiểu lịch Tạng)",
+   "epoch": "Không đếm năm liên tục; năm được gọi theo ngũ hành, âm dương và con giáp",
+   "used": "Đồng chính thức: các đạo luật của Bhutan ghi cả ngày theo lịch Bhutan lẫn lịch Gregory; Losar và các ngày lễ Phật giáo theo lịch này",
+   "note": "Khác với Tây Tạng, tháng nhuận mang số của tháng liền trước, và tên các ngày trong tuần của Bhutan lệch một ngày so với Tây Tạng.",
+   "year": "{gzVi}"
+  },
+  "myanmar": {
+   "name": "Lịch Myanmar",
+   "region": "Myanmar",
+   "type": "Âm dương lịch: 12 tháng, có năm thêm tháng thứ 13 (Waso thứ hai) và thêm một ngày",
+   "epoch": "Kỷ nguyên Myanmar (ME), năm 638",
+   "used": "Đồng chính thức: văn bản nhà nước ghi ngày theo lịch Myanmar bên cạnh lịch Gregory; Thingyan (Tết) và các lễ hội ngày rằm theo lịch này",
+   "note": "Mỗi tháng đếm riêng nửa trăng lên và nửa trăng xuống, mỗi nửa từ 1 đến 15. Tính theo phương pháp của Yan Naing Aye; Hội đồng Tư vấn Lịch vẫn có thể điều chỉnh các năm sắp tới, nên ngày trong tương lai chỉ là tạm tính.",
+   "year": "{n} lịch Myanmar"
+  },
+  "khmer": {
+   "name": "Âm lịch Khmer (chhankitek)",
+   "region": "Campuchia",
+   "type": "Âm dương lịch, có năm thêm tháng nhuận hoặc ngày nhuận",
+   "epoch": "Phật lịch: năm mới bắt đầu vào ngày sau lễ Visak Bochea, đi trước cách tính của Thái Lan một năm",
+   "used": "Xác định lễ Visak Bochea, Pchum Ben, Lễ hội nước và các ngày nghỉ lễ khác",
+   "note": "Ngày được đếm 1–15 trong nửa trăng lên (កើត) và 1–15 trong nửa trăng xuống (រោច). Tính bằng thuật toán chhankitek, giống thư viện momentkh."
   },
   "yuan": {
    "name": "Niên hiệu nhà Nguyên: Chí Chính",

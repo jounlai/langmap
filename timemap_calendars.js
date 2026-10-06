@@ -428,6 +428,188 @@
         return { season: 1, week: Math.floor(off / 7) + 1, m: 6 + Math.floor(off / 30), d: off % 30 + 1 };
     }
 
+
+    /* ---------- Tibetan family (Janson, "Tibetan Calendar Mathematics", 2014) ----------
+       Phugpa (Tibet), New Genden (Mongolia, App. A.3), Bhutan (App. A.4). Checked against the
+       paper's Table 9 (New Year 2000–2030, all three) and Table 8 (every skipped and repeated day
+       of 2012, all three). */
+    const TIB_VARIANTS = {
+        // Y0/M0 epoch month, beta = initial intercalation index, c = rounding constant (65 − L),
+        // leap: 'before' (leap month precedes regular month M, same number) when ix ∈ {L, L+1};
+        //       'after'  (Bhutan: leap follows regular month M, same number) when ix ∈ {57, 58}.
+        phugpa:  { Y0: 806,  M0: 3, beta: 61, c: 17, leap: 'before', L: 48, m0: 2015501 + 4783 / 5656, s0: 743 / 804, a0: 475 / 3528 },
+        mongol:  { Y0: 1747, M0: 3, beta: 10, c: 19, leap: 'before', L: 46, m0: 2359237 + 2603 / 2828, s0: 397 / 402, a0: 1523 / 1764 },
+        bhutan:  { Y0: 1754, M0: 3, beta: 2,  c: 6,  leap: 'after',  L: 57, m0: 2361807 + 52 / 707,    s0: 1 / 67,    a0: 17 / 147 },
+    };
+    const tm1 = 167025 / 5656, tm2 = tm1 / 30, s1 = 65 / 804, s2 = s1 / 30, a1 = 253 / 3528, a2 = 1 / 28;
+    const MOON = [0, 5, 10, 15, 19, 22, 24, 25], SUN = [0, 6, 10, 11];
+    const frac = x => x - Math.floor(x);
+    function tibTab(table, quarter, x) {          // periodic table: rises over `quarter` steps, period 4·quarter
+        const P = quarter * 4, t = mod(x, P);
+        const at = i => { i = mod(i, P); if (i <= quarter) return table[i]; if (i <= 2 * quarter) return table[2 * quarter - i]; return -at(i - 2 * quarter); };
+        const i = Math.floor(t), f = t - i;
+        return at(i) + (at(i + 1) - at(i)) * f;
+    }
+    function tibTrueDate(V, d, n) {
+        const mean = n * tm1 + d * tm2 + V.m0;
+        const anM = frac(n * a1 + d * a2 + V.a0);
+        const sun = frac(n * s1 + d * s2 + V.s0);
+        const moonEqu = tibTab(MOON, 7, 28 * anM);
+        const sunEqu = tibTab(SUN, 3, 12 * frac(sun - 0.25));
+        return mean + moonEqu / 60 - sunEqu / 60;
+    }
+    // True month count of (Y, M, leap) and whether a leap month M exists in year Y.
+    function tibMonthInfo(V, Y, M) {
+        const Ms = 12 * (Y - V.Y0) + M - V.M0, ix = mod(2 * Ms + V.beta, 65);
+        const n = Math.floor((67 * Ms + V.beta + V.c) / 65);
+        const hasLeap = ix === V.L || ix === V.L + 1;
+        return { n, hasLeap, leapN: V.leap === 'before' ? n - 1 : n + 1 };
+    }
+    // Calendar day JD -> { Y, M, leap, d }.
+    function tibFromJd(V, J, gy) {
+        // months around the Gregorian year, in order
+        const seq = [];
+        for (let Y = gy - 1; Y <= gy + 1; Y++) for (let M = 1; M <= 12; M++) {
+            const mi = tibMonthInfo(V, Y, M);
+            if (mi.hasLeap && V.leap === 'before') seq.push({ Y, M, leap: true, n: mi.leapN });
+            seq.push({ Y, M, leap: false, n: mi.n });
+            if (mi.hasLeap && V.leap === 'after') seq.push({ Y, M, leap: true, n: mi.leapN });
+        }
+        for (const mo of seq) {
+            const start = Math.floor(tibTrueDate(V, 30, mo.n - 1)), end = Math.floor(tibTrueDate(V, 30, mo.n));
+            if (J > start && J <= end) {
+                let d = 1; while (Math.floor(tibTrueDate(V, d, mo.n)) < J) d++;
+                return { Y: mo.Y, M: mo.M, leap: mo.leap, d, n: mo.n };
+            }
+        }
+        return null;
+    }
+
+    /* ---------- Myanmar (Yan Naing Aye) and Khmer chhankitek ----------
+       Ported from mm-cal-js and @thyrith/momentkh (both MIT); identical to them on every day
+       1950–2039. Myanmar ME 1388 = 2026; the Calendar Advisory Board can still adjust future years. */
+    // Myanmar calendar: Yan Naing Aye's algorithm (port of mm-cal-js, MIT), modern eras only.
+    const SY = 1577917828 / 4320000, LM = 1577917828 / 53433336, MO = 1954168.050623;
+    function mmConstants(my) {
+        let EI, WO, NM, EW = 0, fme, wte;
+        if (my > 1312) { EI = 3; WO = -0.5; NM = 8; fme = [[1377, 1]]; wte = [1344, 1345]; }
+        else if (my >= 1217) { EI = 2; WO = -1; NM = 4; fme = [[1234, 1], [1261, -1]]; wte = [1263, 1264]; }
+        else if (my >= 1100) { EI = 1.3; WO = -0.85; NM = -1; fme = [[1120, 1], [1126, -1], [1150, 1], [1172, -1], [1207, 1]]; wte = [1201, 1202]; }
+        else return null;
+        const f = fme.find(x => x[0] === my); if (f) WO += f[1];
+        if (wte.includes(my)) EW = 1;
+        return { EI, WO, NM, EW };
+    }
+    function mmWatat(my) {
+        const c = mmConstants(my);
+        const TA = (SY / 12 - LM) * (12 - c.NM);
+        let ed = (SY * (my + 3739)) % LM;
+        if (ed < TA) ed += LM;
+        const fm = Math.round(SY * my + MO - ed + 4.5 * LM + c.WO);
+        let watat = 0;
+        if (c.EI >= 2) { const TW = LM - (SY / 12 - LM) * c.NM; if (ed >= TW) watat = 1; }
+        else { watat = ((my * 7 + 2) % 19 + 19) % 19; watat = Math.floor(watat / 12); }
+        watat ^= c.EW;
+        return { fm, watat };
+    }
+    function mmYear(my) {
+        const y2 = mmWatat(my); let myt = y2.watat, yd = 0, y1;
+        do { yd++; y1 = mmWatat(my - yd); } while (y1.watat === 0 && yd < 3);
+        if (myt) { const nd = (y2.fm - y1.fm) % 354; myt = Math.floor(nd / 31) + 1; }
+        return { myt, tg1: y1.fm + 354 * yd - 102 };
+    }
+    // jdn -> { my, mm (0 = 1st Waso, 1..12 Tagu..Tabaung, 13/14 late Tagu/Kason, 4 = (2nd) Waso), md, ml, myt }
+    function myanmar(jdn) {
+        const my = Math.floor((jdn - 0.5 - MO) / SY);
+        if (my < 1100) return null;
+        const yo = mmYear(my);
+        let dd = jdn - yo.tg1 + 1;
+        const b = Math.floor(yo.myt / 2), c = Math.floor(1 / (yo.myt + 1));
+        const myl = 354 + (1 - c) * 30 + b;
+        const mmt = Math.floor((dd - 1) / myl);
+        dd -= mmt * myl;
+        const a = Math.floor((dd + 423) / 512);
+        let mm = Math.floor((dd - b * a + c * a * 30 + 29.26) / 29.544);
+        const e = Math.floor((mm + 12) / 16), f = Math.floor((mm + 11) / 16);
+        const md = dd - Math.floor(29.544 * mm - 29.26) - b * e + c * f * 30;
+        mm += f * 3 - e * 4 + 12 * mmt;
+        let ml = 30 - (mm % 2);
+        if (mm === 3) ml += b;
+        // moon phase 0 waxing, 1 full moon, 2 waning, 3 new moon; fortnight day 1..15
+        const mp = Math.floor((md + 1) / 16) + Math.floor(md / 16) + Math.floor(md / ml);
+        const fd = md - 15 * Math.floor(md / 16);
+        return { my, mm, md, ml, myt: yo.myt, mp, fd };
+    }
+
+    // Khmer chhankitek (port of momentkh's month/day arithmetic, MIT). BE year only.
+    const aharkun = be => Math.floor((be * 292207 + 499) / 800) + 4;
+    const kromthupul = be => 800 - ((be * 292207 + 499) % 800);
+    const avoman = be => (aharkun(be) * 11 + 25) % 692;
+    const bodithey = be => { const a = aharkun(be); return (Math.floor((a * 11 + 25) / 692) + a + 29) % 30; };
+    const solarLeap = be => kromthupul(be) <= 207;
+    function leapDayCalc(be) {
+        const av = avoman(be);
+        if (av === 0 && avoman(be - 1) === 137) return true;
+        if (solarLeap(be)) return av < 127;
+        if (av === 137 && avoman(be + 1) === 0) return false;
+        return av < 138;
+    }
+    function leapMonth(be) {
+        const b = bodithey(be), bn = bodithey(be + 1);
+        if (b === 25 && bn === 5) return false;
+        return (b === 24 && bn === 6) || b >= 25 || b < 6;
+    }
+    function leapType(be) {
+        if (leapMonth(be)) return 1;
+        if (leapDayCalc(be)) return 2;
+        if (leapMonth(be - 1)) { let p = be - 1; for (;;) { if (leapDayCalc(p)) return 2; p--; if (!leapMonth(p)) return 0; } }
+        return 0;
+    }
+    // month index: 0 Migasir … 5 Pisakh, 6 Jesth, 7 Asadh … 11 Kadeuk; 12/13 Pathamasadh / Tutiyasadh
+    function khMonthDays(m, be) { const t = leapType(be); if (m === 6 && t === 2) return 30; if (m === 12 || m === 13) return t === 1 ? 30 : 0; return m % 2 === 0 ? 29 : 30; }
+    const khYearDays = be => { const t = leapType(be); return t === 1 ? 384 : t === 2 ? 355 : 354; };
+    function khNext(m, be) { const t = leapType(be); if (m === 6 && t === 1) return 12; if (m === 11) return 0; if (m === 12) return 13; if (m === 13) return 8; return m + 1; }
+    const maybeBE = (y, m) => m <= 4 ? y + 543 : y + 544;
+    function khmerLunar(jdn) {
+        let epoch = 2415021;                 // 1 Jan 1900 = 1 kaet Bos (month 1)
+        let month = 1, diff = jdn - epoch;
+        if (diff < 0) return null;
+        for (;;) { const g = jdnToGreg(epoch), n = khYearDays(maybeBE(g.y + 1, g.m)); if (diff > n) { diff -= n; epoch += n; } else break; }
+        for (;;) { const g = jdnToGreg(epoch), be = maybeBE(g.y, g.m), n = khMonthDays(month, be); if (diff > n) { diff -= n; epoch += n; month = khNext(month, be); } else break; }
+        const t = jdnToGreg(jdn), finalBE = maybeBE(t.y, t.m), tot = khMonthDays(month, finalBE);
+        if (diff >= tot) { diff = diff % tot; month = khNext(month, finalBE); }
+        return { month, dayNum: diff };     // dayNum 0..29: 0–14 kaet (waxing) 1–15, 15–29 roch (waning) 1–15
+    }
+
+
+    const digitsIn = zero => n => String(n).replace(/[0-9]/g, c => String.fromCharCode(zero + (+c)));
+    const tibDigits = digitsIn(0x0F20), mmDigits = digitsIn(0x1040), khDigits = digitsIn(0x17E0);
+    const TIB_ELEM = ['ཤིང', 'མེ', 'ས', 'ལྕགས', 'ཆུ'];
+    const TIB_ANIMAL = ['བྱི', 'གླང', 'སྟག', 'ཡོས', 'འབྲུག', 'སྦྲུལ', 'རྟ', 'ལུག', 'སྤྲེལ', 'བྱ', 'ཁྱི', 'ཕག'];
+    // e.g. 2026 = མེ་ཕོ་རྟ་ལོ (fire-male-horse year)
+    const tibYearName = Y => { const i = cycleIdx(Y); return TIB_ELEM[(i % 10) >> 1] + '་' + (i % 2 ? 'མོ' : 'ཕོ') + '་' + TIB_ANIMAL[i % 12] + '་ལོ'; };
+    const MN_COLOUR = ['Хөх', 'Улаан', 'Шар', 'Цагаан', 'Хар'];     // wood, fire, earth, iron, water
+    const MN_ANIMAL = ['хулганан', 'үхэр', 'бар', 'туулай', 'луу', 'могой', 'морин', 'хонин', 'бичин', 'тахиа', 'нохой', 'гахай'];
+    const MM_MONTHS = ['ပဌမဝါဆို', 'တန်ခူး', 'ကဆုန်', 'နယုန်', 'ဝါဆို', 'ဝါခေါင်', 'တော်သလင်း', 'သီတင်းကျွတ်', 'တန်ဆောင်မုန်း', 'နတ်တော်', 'ပြာသို',
+                       'တပို့တွဲ', 'တပေါင်း', 'နှောင်းတန်ခူး', 'နှောင်းကဆုန်', 'ဒုတိယဝါဆို'];
+    const KH_MONTHS = ['មិគសិរ', 'បុស្ស', 'មាឃ', 'ផល្គុន', 'ចេត្រ', 'ពិសាខ', 'ជេស្ឋ', 'អាសាឍ', 'ស្រាពណ៍', 'ភទ្របទ', 'អស្សុជ', 'កត្ដិក', 'បឋមាសាឍ', 'ទុតិយាសាឍ'];
+    const KH_DAYS = ['អាទិត្យ', 'ចន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហស្បតិ៍', 'សុក្រ', 'សៅរ៍'];
+    // Tibetan-family date for a Gregorian day; the calendar year Y is the Gregorian year Losar falls in.
+    function tibDate(variant, g) {
+        const r = tibFromJd(TIB_VARIANTS[variant], gregToJdn(g.y, g.m, g.d), g.y);
+        return r && { Y: r.Y, M: r.M, leap: r.leap, d: r.d };
+    }
+    // Khmer BE turns on 1 roch Pisakh (the day after Visak Bochea).
+    const khBEcache = {};
+    function khmerBE(j) {
+        const y = jdnToGreg(j).y;
+        if (khBEcache[y] == null) {
+            khBEcache[y] = Infinity;
+            for (let x = gregToJdn(y, 4, 1); x < gregToJdn(y, 7, 1); x++) { const k = khmerLunar(x); if (k && k.month === 5 && k.dayNum === 15) { khBEcache[y] = x; break; } }
+        }
+        return j >= khBEcache[y] ? y + 544 : y + 543;
+    }
+
     /* ---------- tr builders ----------
        tr.kind: 'list'  — month from the UI language's months[list][mi]
                 'greg'  — month from months.gregorian[gm-1] (Gregorian or Julian)
@@ -716,6 +898,63 @@
           fmt: g => { const days = gregToJdn(g.y, g.m, g.d) - 584283, n = mod(days + 3, 13), s = mod(days + 19, 20);
               return { native: KICHE_NUM[n] + ' ' + KICHE_DAYS[s], latin: (n + 1) + ' ' + KICHE_DAYS[s], tr: { kind: 'fixed', text: (n + 1) + ' ' + KICHE_DAYS[s] } }; } },
 
+        { id: 'tibetan', status: 'current', use: 'popular', lat: 29.65, lng: 91.1,
+          name: 'Tibetan calendar (Phugpa)', region: 'Tibet · Tibetans in exile', type: 'Lunisolar, with skipped and doubled days',
+          epoch: 'Tibetan royal year: the first king, 127 BC (2026–27 is 2153)',
+          used: 'Tibetans in China and in exile, Ladakh, Sikkim and Himalayan Buddhists; Losar, its new year, is a holiday in the Tibet Autonomous Region',
+          note: 'Each calendar day takes the number of the lunar day current at dawn, so a number can be skipped or repeated. Computed after Svante Janson’s “Tibetan Calendar Mathematics”, checked against his tables of New Years and of every skipped and repeated day in 2012.',
+          year: 'Tibetan year {n} ({animal})',
+          from: { y: 1027, m: 2, d: 1 },
+          fmt: (g, D) => { const t = tibDate('phugpa', g); if (!t) return null;
+              return { native: 'བོད་ལོ་' + tibDigits(t.Y + 127) + ' ' + tibYearName(t.Y) + '། ཟླ་' + tibDigits(t.M) + (t.leap ? ' ལྷག' : '') + ' ཚེས་' + tibDigits(t.d),
+                       latin: 'Tibetan year ' + (t.Y + 127) + ', ' + (t.leap ? 'leap ' : '') + 'month ' + t.M + ', day ' + t.d,
+                       tr: Object.assign({ kind: 'lunar', n: t.Y + 127, m: t.M, leap: t.leap, d: t.d }, cycle(t.Y)) }; } },
+        { id: 'mongolian', status: 'current', use: 'popular', lat: 47.9, lng: 106.9,
+          name: 'Mongolian lunar calendar', region: 'Mongolia', type: 'Lunisolar, with skipped and doubled days (Tibetan type)',
+          epoch: 'No running year count; years named by element and animal in a 60-year cycle',
+          used: 'Not the state calendar (Gregorian is, since 1948), but it sets Tsagaan Sar, the new year, and Chinggis Khaan’s birthday, both public holidays',
+          note: 'The New Genden (Tögs Buyant) version of the Tibetan calendar, created in 1786; it can start the year a day or a month apart from Tibet — Tsagaan Sar 2025 fell on 1 March, Losar on 28 February.',
+          year: '{animal} year',
+          from: { y: 1747, m: 4, d: 9 },
+          fmt: (g, D) => { const t = tibDate('mongol', g); if (!t) return null;
+              return { native: MN_COLOUR[cycleIdx(t.Y) % 10 >> 1] + ' ' + MN_ANIMAL[cycleIdx(t.Y) % 12] + ' жилийн ' + (t.leap ? 'илүү ' : '') + t.M + '-р сарын ' + t.d,
+                       latin: (t.leap ? 'leap ' : '') + 'month ' + t.M + ', day ' + t.d,
+                       tr: Object.assign({ kind: 'lunar', m: t.M, leap: t.leap, d: t.d }, cycle(t.Y)) }; } },
+        { id: 'bhutanese', status: 'current', use: 'official', lat: 27.47, lng: 89.64,
+          name: 'Bhutanese calendar', region: 'Bhutan', type: 'Lunisolar, with skipped and doubled days (Tibetan type)',
+          epoch: 'No running year count; years named by element, gender and animal',
+          used: 'Co-official: Bhutan’s Acts carry both the Bhutanese and the Gregorian date; Losar and Buddhist holidays follow it',
+          note: 'Unlike Tibet, a leap month takes the number of the month before it, and the Bhutanese weekday names run one day apart from Tibet’s.',
+          year: '{animal} year',
+          from: { y: 1754, m: 4, d: 22 },
+          fmt: (g, D) => { const t = tibDate('bhutan', g); if (!t) return null;
+              return { native: tibYearName(t.Y) + '། ཟླ་' + tibDigits(t.M) + (t.leap ? ' ལྷག' : '') + ' ཚེས་' + tibDigits(t.d),
+                       latin: (t.leap ? 'leap ' : '') + 'month ' + t.M + ', day ' + t.d,
+                       tr: Object.assign({ kind: 'lunar', m: t.M, leap: t.leap, d: t.d }, cycle(t.Y)) }; } },
+        { id: 'myanmar', status: 'current', use: 'official', lat: 19.75, lng: 96.1,
+          name: 'Myanmar calendar', region: 'Myanmar', type: 'Lunisolar: 12 months, with a 13th (2nd Waso) and an extra day in some years',
+          epoch: 'Myanmar Era (ME), AD 638',
+          used: 'Co-official: government documents carry the Myanmar date beside the Gregorian; Thingyan (new year) and the full-moon festivals follow it',
+          note: 'Months count the waxing and waning moon separately, 1–15 each. Computed with Yan Naing Aye’s method; the Calendar Advisory Board can still adjust years ahead, so future dates are provisional.',
+          year: '{n} ME',
+          from: { y: 1738, m: 4, d: 10 },
+          fmt: g => { const m = myanmar(gregToJdn(g.y, g.m, g.d)); if (!m) return null;
+              const mi = m.mm === 4 && m.myt ? 15 : m.mm, mname = MM_MONTHS[mi];
+              const phase = m.mp === 0 ? 'လဆန်း ' + mmDigits(m.fd) + ' ရက်' : m.mp === 1 ? 'လပြည့်' : m.mp === 2 ? 'လဆုတ် ' + mmDigits(m.fd) + ' ရက်' : 'လကွယ်';
+              return { native: mmDigits(m.my) + ' ခုနှစ်၊ ' + mname + phase, latin: 'ME ' + m.my + ', month ' + mi + ', ' + ['waxing', 'full moon', 'waning', 'new moon'][m.mp] + ' ' + m.fd,
+                       tr: { kind: 'myanmar', n: m.my, mi, mp: m.mp, fd: m.fd } }; } },
+        { id: 'khmer', status: 'current', use: 'popular', lat: 11.55, lng: 104.92,
+          name: 'Khmer lunar calendar (chhankitek)', region: 'Cambodia', type: 'Lunisolar, with a leap month or leap day in some years',
+          epoch: 'Buddhist Era: the year turns the day after Visak Bochea, one year ahead of Thailand’s count',
+          used: 'Sets Visak Bochea, Pchum Ben, the Water Festival and other public holidays',
+          note: 'Days are counted 1–15 in the waxing half (កើត) and 1–15 in the waning half (រោច). Computed with the chhankitek arithmetic, the same as the momentkh library.',
+          from: { y: 1900, m: 1, d: 1 },
+          fmt: g => { const j = gregToJdn(g.y, g.m, g.d), k = khmerLunar(j); if (!k) return null;
+              const be = khmerBE(j), d = k.dayNum % 15 + 1, waning = k.dayNum >= 15;
+              return { native: 'ថ្ងៃ' + KH_DAYS[weekday(j)] + ' ' + khDigits(d) + (waning ? 'រោច' : 'កើត') + ' ខែ' + KH_MONTHS[k.month] + ' ព.ស. ' + khDigits(be),
+                       latin: d + (waning ? ' roch' : ' kaet') + ', month ' + k.month + ', BE ' + be,
+                       tr: { kind: 'khmer', n: be, mi: k.month, waning, d } }; } },
+
         /* ===== Historical — as if they had kept counting ===== */
         { id: 'yuan', status: 'historical', lat: 42.4, lng: 116.2,
           name: 'Yuan dynasty era: Zhizheng', region: 'Yuan China (Shangdu)', type: 'Lunisolar, imperial era years',
@@ -907,6 +1146,11 @@
         // Old Icelandic: {w} = week number, {season} from iceSeasons, {d} {month} = day of month.
         iceFmt: 'week {w} of {season}, day {d} of {month}', iceExtra: 'week {w} of {season}, {month}',
         iceSeasons: ['summer', 'winter'],
+        // Myanmar: {phase} from mmPhases (waxing, full moon, waning, new moon), {d} = day of the fortnight.
+        mmFmt: '{phase} day {d} of {month}, {y}', mmMoonFmt: '{phase} of {month}, {y}',
+        mmPhases: ['waxing', 'full moon', 'waning', 'new moon'],
+        // Khmer: {d} 1–15 of the waxing or waning half, {n} = Buddhist Era year.
+        khFmt: '{phase} day {d} of {month}, BE {n}', khPhases: ['waxing', 'waning'],
         months: {
             gregorian: ['January','February','March','April','May','June','July','August','September','October','November','December'],
             hebrew: ['Tishri','Heshvan','Kislev','Tevet','Shevat','Adar I','Adar','Adar II','Nisan','Iyar','Sivan','Tammuz','Av','Elul'],
@@ -927,6 +1171,8 @@
             bahai: ['Bahá','Jalál','Jamál','ʻAẓamat','Núr','Raḥmat','Kalimát','Kamál','Asmáʼ','ʻIzzat','Mashíyyat','ʻIlm','Qudrat','Qawl','Masáʼil','Sharaf','Sulṭán','Mulk','Ayyám-i-Há','ʻAláʼ'],
             parsi: ['Fravardin','Ardibehesht','Khordad','Tir','Amardad','Shehrevar','Meher','Avan','Adar','Dae','Bahman','Aspandarmad','Gatha days'],
             iceland: ['Harpa','Skerpla','Sólmánuður','Heyannir','Tvímánuður','Haustmánuður','Gormánuður','Ýlir','Mörsugur','Þorri','Góa','Einmánuður','the extra nights (aukanætur)'],
+            myanmar: ['First Waso','Tagu','Kason','Nayon','Waso','Wagaung','Tawthalin','Thadingyut','Tazaungmon','Nadaw','Pyatho','Tabodwe','Tabaung','Late Tagu','Late Kason','Second Waso'],
+            khmer: ['Mikasar','Boss','Meak','Phalkun','Chet','Pisakh','Jesth','Asadh','Srap','Phatrobot','Assoch','Kadeuk','First Asadh','Second Asadh'],
             zodiac: ['Rat','Ox','Tiger','Rabbit','Dragon','Snake','Horse','Goat','Monkey','Rooster','Dog','Pig'],
         },
         // Japanese era names as the UI language writes them.
@@ -952,6 +1198,12 @@
         if (tr.kind === 'fixed') return tr.text;
         if (tr.kind === 'full') return fmt(txt(L, ['intlLocale']), DMY).format(D);
         if (tr.kind === 'sign') return fill(txt(L, ['signFmt']), { num: tr.num, name: txt(L, ['months', 'aztec'])[tr.mi] });
+        if (tr.kind === 'myanmar') {
+            const v = { y: fill(calText(cal, 'year', L) || txt(L, ['yearDefault']), { n: tr.n }), month: txt(L, ['months', 'myanmar'])[tr.mi],
+                        phase: txt(L, ['mmPhases'])[tr.mp], d: tr.fd };
+            return fill(txt(L, [tr.mp === 0 || tr.mp === 2 ? 'mmFmt' : 'mmMoonFmt']), v);
+        }
+        if (tr.kind === 'khmer') return fill(txt(L, ['khFmt']), { d: tr.d, phase: txt(L, ['khPhases'])[tr.waning ? 1 : 0], month: txt(L, ['months', 'khmer'])[tr.mi], n: tr.n });
         if (tr.kind === 'wuku') return fill(txt(L, ['wukuFmt']), { n: tr.n, wuku: tr.wuku });
         if (tr.kind === 'akan') {
             if (tr.today) return fill(txt(L, ['akanToday']), { name: tr.today });

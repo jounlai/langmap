@@ -54,6 +54,19 @@ window.TM_I18N["es"] = {
   "verano",
   "invierno"
  ],
+ "mmFmt": "día {d} de la {phase} de {month} {y}",
+ "mmMoonFmt": "{phase} de {month} {y}",
+ "mmPhases": [
+  "luna creciente",
+  "luna llena",
+  "luna menguante",
+  "luna nueva"
+ ],
+ "khFmt": "día {d} de la luna {phase} de {month} del año {n} de la era budista",
+ "khPhases": [
+  "creciente",
+  "menguante"
+ ],
  "months": {
   "gregorian": [
    "enero",
@@ -338,6 +351,40 @@ window.TM_I18N["es"] = {
    "einmánuður",
    "noches adicionales (aukanætur)"
   ],
+  "myanmar": [
+   "primer waso",
+   "tagu",
+   "kason",
+   "nayon",
+   "waso",
+   "wagaung",
+   "tawthalin",
+   "thadingyut",
+   "tazaungmon",
+   "nadaw",
+   "pyatho",
+   "tabodwe",
+   "tabaung",
+   "tagu tardío",
+   "kason tardío",
+   "segundo waso"
+  ],
+  "khmer": [
+   "mikasar",
+   "boss",
+   "meak",
+   "phalkun",
+   "chet",
+   "pisakh",
+   "jesth",
+   "asadh",
+   "srap",
+   "phatrobot",
+   "assoch",
+   "kadeuk",
+   "primer asadh",
+   "segundo asadh"
+  ],
   "zodiac": [
    "Rata",
    "Buey",
@@ -620,6 +667,50 @@ window.TM_I18N["es"] = {
    "epoch": "Sin año 1: la cuenta corre sin interrupción desde los mayas clásicos",
    "used": "Los guías espirituales mayas (ajq’ijab’), para ceremonias, adivinación y la elección de nombres; Wajxaqib’ B’atz’ (8 B’atz’) abre su nuevo ciclo",
    "note": "La cuenta viva es la antigua sin interrupción: cae en el mismo día que el tzolkin clásico según la correlación de la cuenta larga usada aquí. Wajxaqib’ B’atz’ cayó el 18 de enero de 2025 y el 22 de junio de 2026."
+  },
+  "tibetan": {
+   "name": "Calendario tibetano (Phugpa)",
+   "region": "Tíbet · tibetanos en el exilio",
+   "type": "Lunisolar, con días omitidos y duplicados",
+   "epoch": "Año real tibetano: el primer rey, 127 a. C. (2026–27 es el 2153)",
+   "used": "Tibetanos en China y en el exilio, Ladakh, Sikkim y budistas del Himalaya; el Losar, su año nuevo, es festivo en la Región Autónoma del Tíbet",
+   "note": "Cada día del calendario toma el número del día lunar vigente al amanecer, así que un número puede saltarse o repetirse. Calculado según «Tibetan Calendar Mathematics» de Svante Janson y contrastado con sus tablas de años nuevos y de todos los días omitidos y repetidos en 2012.",
+   "year": "del año tibetano {n} ({animal})"
+  },
+  "mongolian": {
+   "name": "Calendario lunar mongol",
+   "region": "Mongolia",
+   "type": "Lunisolar, con días omitidos y duplicados (de tipo tibetano)",
+   "epoch": "Sin cómputo continuo de años; los años se nombran por elemento y animal en un ciclo de 60 años",
+   "used": "No es el calendario oficial (lo es el gregoriano desde 1948), pero fija el Tsagaan Sar, el año nuevo, y el cumpleaños de Gengis Kan, ambos festivos",
+   "note": "La versión Nuevo Genden (Tögs Buyant) del calendario tibetano, creada en 1786; puede empezar el año con un día o un mes de diferencia respecto del Tíbet: el Tsagaan Sar de 2025 cayó el 1 de marzo, y el Losar, el 28 de febrero.",
+   "year": "del año del signo {animal}"
+  },
+  "bhutanese": {
+   "name": "Calendario butanés",
+   "region": "Bután",
+   "type": "Lunisolar, con días omitidos y duplicados (de tipo tibetano)",
+   "epoch": "Sin cómputo continuo de años; los años se nombran por elemento, género y animal",
+   "used": "Cooficial: las leyes de Bután llevan la fecha butanesa y la gregoriana; el Losar y las fiestas budistas se rigen por él",
+   "note": "A diferencia del Tíbet, un mes intercalar toma el número del mes anterior, y los nombres butaneses de los días de la semana van desfasados un día respecto de los tibetanos.",
+   "year": "del año del signo {animal}"
+  },
+  "myanmar": {
+   "name": "Calendario birmano",
+   "region": "Myanmar",
+   "type": "Lunisolar: 12 meses, con un 13.º (segundo waso) y un día extra algunos años",
+   "epoch": "Era birmana (ME), 638 d. C.",
+   "used": "Cooficial: los documentos del gobierno llevan la fecha birmana junto a la gregoriana; el Thingyan (año nuevo) y las fiestas de luna llena se rigen por él",
+   "note": "Los meses cuentan por separado la luna creciente y la menguante, del 1 al 15 cada una. Calculado con el método de Yan Naing Aye; la Junta Asesora del Calendario aún puede ajustar años venideros, así que las fechas futuras son provisionales.",
+   "year": "del año {n} de la era birmana"
+  },
+  "khmer": {
+   "name": "Calendario lunar jemer (chhankitek)",
+   "region": "Camboya",
+   "type": "Lunisolar, con un mes o un día intercalar algunos años",
+   "epoch": "Era budista: el año cambia el día después de Visak Bochea, un año por delante del cómputo de Tailandia",
+   "used": "Fija Visak Bochea, Pchum Ben, el Festival del Agua y otras fiestas oficiales",
+   "note": "Los días se cuentan del 1 al 15 en la mitad creciente (កើត) y del 1 al 15 en la mitad menguante (រោច). Calculado con la aritmética chhankitek, la misma que usa la biblioteca momentkh."
   },
   "yuan": {
    "name": "Era de la dinastía Yuan: Zhizheng",

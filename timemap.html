@@ -55,7 +55,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Sans+Mayan+Numerals&family=Noto+Sans+Tifinagh&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Hebrew:wght@400;700&family=Noto+Sans+Arabic:wght@400;700&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&family=Noto+Sans+Ethiopic:wght@400;700&family=Noto+Sans+Thai:wght@400;700&family=Noto+Sans+Mayan+Numerals&family=Noto+Sans+Tifinagh&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Myanmar:wght@400;700&family=Noto+Sans+Khmer:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+KR:wght@400;700&display=swap">
     <style>
         /* ===== TimeMap layout — copied from NameMap so the maps look alike
                  (header/nav/lang-picker/buttons come from styles.css) ===== */
@@ -65,7 +65,7 @@
         .site-header-bar .logo-badge-time { background: #0f766e; }
         :root { --tm-accent: #0f766e; --tm-accent-dark: #0b5a54; --tm-accent-tint: #e6f4f2; --tm-hist: #8a5a1c; }
 
-        .tm-script { font-family: 'Noto Sans','Noto Sans Mayan Numerals','Noto Sans Tifinagh','Noto Sans Hebrew','Noto Sans Arabic','Noto Sans Devanagari','Noto Sans Bengali','Noto Sans Ethiopic','Noto Sans Thai','Noto Serif JP','Noto Serif SC','Noto Serif KR', sans-serif; }
+        .tm-script { font-family: 'Noto Sans','Noto Sans Mayan Numerals','Noto Sans Tifinagh','Noto Serif Tibetan','Noto Sans Myanmar','Noto Sans Khmer','Noto Sans Hebrew','Noto Sans Arabic','Noto Sans Devanagari','Noto Sans Bengali','Noto Sans Ethiopic','Noto Sans Thai','Noto Serif JP','Noto Serif SC','Noto Serif KR', sans-serif; }
 
         .tm-stage { flex: 1 1 auto; position: relative; min-height: 0; }
         #map { position: fixed; top: 0; left: 0; width: 100%; height: 100vh; height: 100dvh; background: #fff; z-index: 1; }
@@ -379,7 +379,7 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="timemap_calendars.js?v=7"></script>
+    <script src="timemap_calendars.js?v=8"></script>
     <script>
     (function () {
         'use strict';
@@ -393,7 +393,7 @@
             ['fr','Français'],['it','Italiano'],['es','Español'],['pt','Português'],['ru','Русский'],
             ['uk','Українська'],['ar','العربية'],['he','עברית'],['sw','Kiswahili']];
         const HAS = Object.fromEntries(LANGS.map(([c]) => [c, true]));
-        const I18N_VERSION = 6;
+        const I18N_VERSION = 7;
         window.TM_I18N = window.TM_I18N || {};
         const loading = {};
         function ensureLang(lang){
@@ -689,7 +689,8 @@
             if(st.d && gregParts(st.d)) dateStr=st.d;
             if(st.era==='hist') era='historical';
             if(st.simple==='1'){ document.body.classList.add('chrome-hidden'); document.getElementById('chrome-toggle').setAttribute('aria-pressed','true'); }
-            if(st.c && st.z){ const p=st.c.split(','); const lat=+p[0], lng=+p[1], z=+st.z; if(isFinite(lat)&&isFinite(lng)&&isFinite(z)) map.setView([lat,lng], z); }
+            // animate:false — an animated zoom is still running when boot reads the centre back.
+            if(st.c && st.z){ const p=st.c.split(','); const lat=+p[0], lng=+p[1], z=+st.z; if(isFinite(lat)&&isFinite(lng)&&isFinite(z)) map.setView([lat,lng], z, { animate:false }); }
             setupLangSelect(); syncEra(); applyFontScale();
 
             document.getElementById('tm-date').value=dateStr;

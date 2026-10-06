@@ -54,6 +54,19 @@ window.TM_I18N["sw"] = {
   "kiangazi",
   "majira ya baridi"
  ],
+ "mmFmt": "siku ya {d} ya {phase} wa {month}, {y}",
+ "mmMoonFmt": "{phase} wa {month}, {y}",
+ "mmPhases": [
+  "mwezi unaoongezeka",
+  "mwezi mpevu",
+  "mwezi unaopungua",
+  "mwezi mpya"
+ ],
+ "khFmt": "siku ya {d} ya {phase} wa {month}, {n} BE",
+ "khPhases": [
+  "mwezi unaoongezeka",
+  "mwezi unaopungua"
+ ],
  "months": {
   "gregorian": [
    "Januari",
@@ -338,6 +351,40 @@ window.TM_I18N["sw"] = {
    "Einmánuður",
    "usiku wa ziada (aukanætur)"
   ],
+  "myanmar": [
+   "Waso ya Kwanza",
+   "Tagu",
+   "Kason",
+   "Nayon",
+   "Waso",
+   "Wagaung",
+   "Tawthalin",
+   "Thadingyut",
+   "Tazaungmon",
+   "Nadaw",
+   "Pyatho",
+   "Tabodwe",
+   "Tabaung",
+   "Tagu ya Mwisho",
+   "Kason ya Mwisho",
+   "Waso ya Pili"
+  ],
+  "khmer": [
+   "Mikasar",
+   "Boss",
+   "Meak",
+   "Phalkun",
+   "Chet",
+   "Pisakh",
+   "Jesth",
+   "Asadh",
+   "Srap",
+   "Phatrobot",
+   "Assoch",
+   "Kadeuk",
+   "Asadh ya Kwanza",
+   "Asadh ya Pili"
+  ],
   "zodiac": [
    "Panya",
    "Ng’ombe",
@@ -620,6 +667,50 @@ window.TM_I18N["sw"] = {
    "epoch": "Hakuna mwaka 1: hesabu imeendelea bila kukatika tangu Wamaya wa kipindi cha Klasiki",
    "used": "Watunza siku wa Kimaya (ajq’ijab’) kwa sherehe, utabiri na kutoa majina; Wajxaqib’ B’atz’ (8 B’atz’) hufungua mzunguko wao mpya",
    "note": "Hesabu hai ya leo ni ile ya kale bila kukatika: inaangukia siku ileile na Tzolk’in ya kiklasiki katika uwiano wa Hesabu Ndefu unaotumika hapa. Wajxaqib’ B’atz’ iliangukia 18 Januari 2025 na 22 Juni 2026."
+  },
+  "tibetan": {
+   "name": "Kalenda ya Kitibeti (Phugpa)",
+   "region": "Tibet · Watibeti walio uhamishoni",
+   "type": "Ya mwezi na jua, yenye siku zinazorukwa na zinazorudiwa",
+   "epoch": "Mwaka wa kifalme wa Tibet: mfalme wa kwanza, 127 KK (2026–27 ni 2153)",
+   "used": "Watibeti walio China na walio uhamishoni, Ladakh, Sikkim na Wabudha wa Himalaya; Losar, mwaka wake mpya, ni sikukuu katika Eneo la Kujitawala la Tibet",
+   "note": "Kila siku ya kalenda huchukua namba ya siku ya mwezi inayoendelea alfajiri, kwa hiyo namba inaweza kurukwa au kurudiwa. Imekokotolewa kufuata “Tibetan Calendar Mathematics” ya Svante Janson, na kuhakikiwa dhidi ya majedwali yake ya Miaka Mipya na ya kila siku iliyorukwa na kurudiwa mwaka 2012.",
+   "year": "mwaka wa Kitibeti {n} ({animal})"
+  },
+  "mongolian": {
+   "name": "Kalenda ya mwezi ya Kimongolia",
+   "region": "Mongolia",
+   "type": "Ya mwezi na jua, yenye siku zinazorukwa na zinazorudiwa (aina ya Kitibeti)",
+   "epoch": "Hakuna hesabu ya miaka inayoendelea; miaka hupewa majina kwa elementi na mnyama katika mzunguko wa miaka 60",
+   "used": "Si kalenda ya serikali (ni ya Gregori tangu 1948), lakini huamua Tsagaan Sar, mwaka mpya, na siku ya kuzaliwa ya Chinggis Khaan, zote mbili sikukuu za umma",
+   "note": "Toleo la Genden Mpya (Tögs Buyant) la kalenda ya Kitibeti, lililoundwa mwaka 1786; linaweza kuanza mwaka siku moja au mwezi mmoja tofauti na Tibet — Tsagaan Sar 2025 iliangukia 1 Machi, Losar 28 Februari.",
+   "year": "mwaka wa {gzPy} ({animal})"
+  },
+  "bhutanese": {
+   "name": "Kalenda ya Kibhutani",
+   "region": "Bhutan",
+   "type": "Ya mwezi na jua, yenye siku zinazorukwa na zinazorudiwa (aina ya Kitibeti)",
+   "epoch": "Hakuna hesabu ya miaka inayoendelea; miaka hupewa majina kwa elementi, jinsia na mnyama",
+   "used": "Rasmi sambamba: Sheria za Bhutan hubeba tarehe ya Kibhutani na ya Gregori; Losar na sikukuu za Kibudha hufuata kalenda hii",
+   "note": "Tofauti na Tibet, mwezi wa ziada huchukua namba ya mwezi uliotangulia, na majina ya siku za wiki ya Kibhutani yanatofautiana kwa siku moja na yale ya Tibet.",
+   "year": "mwaka wa {gzPy} ({animal})"
+  },
+  "myanmar": {
+   "name": "Kalenda ya Myanmar",
+   "region": "Myanmar",
+   "type": "Ya mwezi na jua: miezi 12, na mwezi wa 13 (Waso ya Pili) na siku ya ziada katika baadhi ya miaka",
+   "epoch": "Enzi ya Myanmar (ME), 638 BK",
+   "used": "Rasmi sambamba: nyaraka za serikali hubeba tarehe ya Myanmar kando ya ile ya Gregori; Thingyan (mwaka mpya) na sikukuu za mwezi mpevu hufuata kalenda hii",
+   "note": "Miezi huhesabu kipindi cha mwezi kuongezeka na cha mwezi kupungua kando, 1–15 kila kimoja. Imekokotolewa kwa mbinu ya Yan Naing Aye; Bodi ya Ushauri ya Kalenda bado inaweza kurekebisha miaka ijayo, kwa hiyo tarehe za baadaye ni za muda.",
+   "year": "{n} ME"
+  },
+  "khmer": {
+   "name": "Kalenda ya mwezi ya Kikhmer (chhankitek)",
+   "region": "Kambodia",
+   "type": "Ya mwezi na jua, yenye mwezi wa ziada au siku ya ziada katika baadhi ya miaka",
+   "epoch": "Enzi ya Kibudha: mwaka hubadilika siku inayofuata Visak Bochea, mwaka mmoja mbele ya hesabu ya Thailand",
+   "used": "Huamua Visak Bochea, Pchum Ben, Sikukuu ya Maji na sikukuu nyingine za umma",
+   "note": "Siku huhesabiwa 1–15 katika nusu ya mwezi kuongezeka (កើត) na 1–15 katika nusu ya mwezi kupungua (រោច). Imekokotolewa kwa hesabu ya chhankitek, sawa na maktaba ya momentkh."
   },
   "yuan": {
    "name": "Enzi ya nasaba ya Yuan: Zhizheng",

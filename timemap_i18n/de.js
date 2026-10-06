@@ -52,6 +52,19 @@ window.TM_I18N["de"] = {
   "Sommer",
   "Winter"
  ],
+ "mmFmt": "{month}, {d}. Tag {phase}, {y}",
+ "mmMoonFmt": "{month}, {phase}, {y}",
+ "mmPhases": [
+  "des zunehmenden Mondes",
+  "Vollmond",
+  "des abnehmenden Mondes",
+  "Neumond"
+ ],
+ "khFmt": "{month}, {d}. Tag {phase}, {n} BE",
+ "khPhases": [
+  "des zunehmenden Mondes",
+  "des abnehmenden Mondes"
+ ],
  "months": {
   "gregorian": [
    "Januar",
@@ -335,6 +348,40 @@ window.TM_I18N["de"] = {
    "Góa",
    "Einmánuður",
    "Zusatznächte (aukanætur)"
+  ],
+  "myanmar": [
+   "Erster Waso",
+   "Tagu",
+   "Kason",
+   "Nayon",
+   "Waso",
+   "Wagaung",
+   "Tawthalin",
+   "Thadingyut",
+   "Tazaungmon",
+   "Nadaw",
+   "Pyatho",
+   "Tabodwe",
+   "Tabaung",
+   "Später Tagu",
+   "Später Kason",
+   "Zweiter Waso"
+  ],
+  "khmer": [
+   "Mikasar",
+   "Boss",
+   "Meak",
+   "Phalkun",
+   "Chet",
+   "Pisakh",
+   "Jesth",
+   "Asadh",
+   "Srap",
+   "Phatrobot",
+   "Assoch",
+   "Kadeuk",
+   "Erster Asadh",
+   "Zweiter Asadh"
   ],
   "zodiac": [
    "Ratte",
@@ -620,6 +667,50 @@ window.TM_I18N["de"] = {
    "epoch": "Kein Jahr 1: Die Zählung läuft seit den klassischen Maya ununterbrochen",
    "used": "Maya-Tageshüter (ajq’ijab’) für Zeremonien, Wahrsagung und Namensgebung; Wajxaqib’ B’atz’ (8 B’atz’) eröffnet ihren neuen Zyklus",
    "note": "Die lebendige Zählung ist die alte, ohne Unterbrechung: Sie fällt auf denselben Tag wie das klassische Tzolk’in in der hier verwendeten Korrelation der Langen Zählung. Wajxaqib’ B’atz’ fiel auf den 18. Januar 2025 und den 22. Juni 2026."
+  },
+  "tibetan": {
+   "name": "Tibetischer Kalender (Phugpa)",
+   "region": "Tibet · Exiltibeter",
+   "type": "Lunisolar, mit ausgelassenen und verdoppelten Tagen",
+   "epoch": "Tibetisches Königsjahr: der erste König, 127 v. Chr. (2026–27 ist 2153)",
+   "used": "Tibeter in China und im Exil, Ladakh, Sikkim und Buddhisten im Himalaya; Losar, sein Neujahr, ist im Autonomen Gebiet Tibet ein Feiertag",
+   "note": "Jeder Kalendertag trägt die Nummer des Mondtages, der bei Tagesanbruch gilt; daher kann eine Nummer ausfallen oder sich wiederholen. Berechnet nach Svante Jansons „Tibetan Calendar Mathematics“, geprüft an seinen Tabellen der Neujahrstage und aller ausgelassenen und wiederholten Tage im Jahr 2012.",
+   "year": "tibetisches Jahr {n} ({animal})"
+  },
+  "mongolian": {
+   "name": "Mongolischer Mondkalender",
+   "region": "Mongolei",
+   "type": "Lunisolar, mit ausgelassenen und verdoppelten Tagen (tibetischer Typ)",
+   "epoch": "Keine fortlaufende Jahreszählung; die Jahre sind in einem 60-Jahres-Zyklus nach Element und Tier benannt",
+   "used": "Nicht der Staatskalender (das ist seit 1948 der gregorianische), legt aber Tsagaan Sar, das Neujahr, und den Geburtstag Dschingis Khans fest, beides gesetzliche Feiertage",
+   "note": "Die 1786 geschaffene Neue-Genden-Version (Tögs Buyant) des tibetischen Kalenders; ihr Jahr kann einen Tag oder einen Monat versetzt zu Tibet beginnen – Tsagaan Sar 2025 fiel auf den 1. März, Losar auf den 28. Februar.",
+   "year": "Jahr {gzPy} ({animal})"
+  },
+  "bhutanese": {
+   "name": "Bhutanischer Kalender",
+   "region": "Bhutan",
+   "type": "Lunisolar, mit ausgelassenen und verdoppelten Tagen (tibetischer Typ)",
+   "epoch": "Keine fortlaufende Jahreszählung; die Jahre sind nach Element, Geschlecht und Tier benannt",
+   "used": "Mitamtlich: Bhutans Gesetze tragen sowohl das bhutanische als auch das gregorianische Datum; Losar und die buddhistischen Feiertage richten sich nach ihm",
+   "note": "Anders als in Tibet trägt ein Schaltmonat die Nummer des vorangehenden Monats, und die bhutanischen Wochentagsnamen sind gegenüber den tibetischen um einen Tag versetzt.",
+   "year": "Jahr {gzPy} ({animal})"
+  },
+  "myanmar": {
+   "name": "Myanmarischer Kalender",
+   "region": "Myanmar",
+   "type": "Lunisolar: 12 Monate, in manchen Jahren mit einem 13. (2. Waso) und einem zusätzlichen Tag",
+   "epoch": "Myanmar-Ära (ME), 638 n. Chr.",
+   "used": "Mitamtlich: Behördendokumente tragen das myanmarische Datum neben dem gregorianischen; Thingyan (Neujahr) und die Vollmondfeste richten sich nach ihm",
+   "note": "Die Monate zählen zunehmenden und abnehmenden Mond getrennt, jeweils 1–15. Berechnet nach der Methode von Yan Naing Aye; der Kalenderbeirat kann künftige Jahre noch anpassen, daher sind künftige Daten vorläufig.",
+   "year": "{n} ME"
+  },
+  "khmer": {
+   "name": "Khmer-Mondkalender (Chhankitek)",
+   "region": "Kambodscha",
+   "type": "Lunisolar, in manchen Jahren mit einem Schaltmonat oder Schalttag",
+   "epoch": "Buddhistische Ära: Das Jahr wechselt am Tag nach Visak Bochea, der Zählung Thailands um ein Jahr voraus",
+   "used": "Legt Visak Bochea, Pchum Ben, das Wasserfest und andere gesetzliche Feiertage fest",
+   "note": "Die Tage werden in der zunehmenden Hälfte (កើត) von 1 bis 15 und in der abnehmenden Hälfte (រោច) von 1 bis 15 gezählt. Berechnet mit der Chhankitek-Arithmetik, wie in der Bibliothek momentkh."
   },
   "yuan": {
    "name": "Ära der Yuan-Dynastie: Zhizheng",

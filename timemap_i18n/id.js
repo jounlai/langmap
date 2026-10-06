@@ -54,6 +54,19 @@ window.TM_I18N["id"] = {
   "musim panas",
   "musim dingin"
  ],
+ "mmFmt": "hari ke-{d} {phase} {month}, {y}",
+ "mmMoonFmt": "{phase} {month}, {y}",
+ "mmPhases": [
+  "paruh terang",
+  "purnama",
+  "paruh gelap",
+  "bulan mati"
+ ],
+ "khFmt": "hari ke-{d} {phase} {month}, {n} BE",
+ "khPhases": [
+  "paruh terang",
+  "paruh gelap"
+ ],
  "months": {
   "gregorian": [
    "Januari",
@@ -338,6 +351,40 @@ window.TM_I18N["id"] = {
    "Einmánuður",
    "malam-malam tambahan (aukanætur)"
   ],
+  "myanmar": [
+   "Waso Pertama",
+   "Tagu",
+   "Kason",
+   "Nayon",
+   "Waso",
+   "Wagaung",
+   "Tawthalin",
+   "Thadingyut",
+   "Tazaungmon",
+   "Nadaw",
+   "Pyatho",
+   "Tabodwe",
+   "Tabaung",
+   "Tagu Akhir",
+   "Kason Akhir",
+   "Waso Kedua"
+  ],
+  "khmer": [
+   "Mikasar",
+   "Boss",
+   "Meak",
+   "Phalkun",
+   "Chet",
+   "Pisakh",
+   "Jesth",
+   "Asadh",
+   "Srap",
+   "Phatrobot",
+   "Assoch",
+   "Kadeuk",
+   "Asadh Pertama",
+   "Asadh Kedua"
+  ],
   "zodiac": [
    "Tikus",
    "Kerbau",
@@ -620,6 +667,50 @@ window.TM_I18N["id"] = {
    "epoch": "Tanpa tahun 1: hitungan ini berjalan tanpa putus sejak Maya Klasik",
    "used": "Para penjaga hari Maya (ajq’ijab’) untuk upacara, ramalan, dan pemberian nama; Wajxaqib’ B’atz’ (8 B’atz’) membuka siklus baru mereka",
    "note": "Hitungan yang hidup hingga kini adalah hitungan kuno itu tanpa putus: jatuh pada hari yang sama dengan Tzolk’in klasik dalam korelasi Hitungan Panjang yang dipakai di sini. Wajxaqib’ B’atz’ jatuh pada 18 Januari 2025 dan 22 Juni 2026."
+  },
+  "tibetan": {
+   "name": "Kalender Tibet (Phugpa)",
+   "region": "Tibet · Orang Tibet di pengasingan",
+   "type": "Lunisolar, dengan hari yang dilompati dan digandakan",
+   "epoch": "Tahun kerajaan Tibet: raja pertama, 127 SM (2026–27 adalah 2153)",
+   "used": "Orang Tibet di Tiongkok dan di pengasingan, Ladakh, Sikkim, dan umat Buddha Himalaya; Losar, tahun barunya, adalah hari libur di Daerah Otonom Tibet",
+   "note": "Setiap hari kalender memakai nomor hari lunar yang berlaku saat fajar, sehingga sebuah nomor bisa terlompati atau terulang. Dihitung menurut “Tibetan Calendar Mathematics” karya Svante Janson, dicocokkan dengan tabelnya tentang Tahun Baru serta setiap hari yang terlompati dan terulang pada 2012.",
+   "year": "tahun Tibet {n} ({animal})"
+  },
+  "mongolian": {
+   "name": "Kalender lunar Mongolia",
+   "region": "Mongolia",
+   "type": "Lunisolar, dengan hari yang dilompati dan digandakan (tipe Tibet)",
+   "epoch": "Tanpa hitungan tahun berjalan; tahun dinamai menurut unsur dan hewan dalam siklus 60 tahun",
+   "used": "Bukan kalender negara (sejak 1948 kalender Gregorius), tetapi menentukan Tsagaan Sar, tahun baru, dan hari lahir Chinggis Khaan, keduanya hari libur nasional",
+   "note": "Versi Genden Baru (Tögs Buyant) dari kalender Tibet, disusun pada 1786; awal tahunnya bisa berselisih sehari atau sebulan dari Tibet — Tsagaan Sar 2025 jatuh pada 1 Maret, Losar pada 28 Februari.",
+   "year": "tahun {gzPy} ({animal})"
+  },
+  "bhutanese": {
+   "name": "Kalender Bhutan",
+   "region": "Bhutan",
+   "type": "Lunisolar, dengan hari yang dilompati dan digandakan (tipe Tibet)",
+   "epoch": "Tanpa hitungan tahun berjalan; tahun dinamai menurut unsur, jenis kelamin, dan hewan",
+   "used": "Resmi berdampingan: undang-undang Bhutan memuat tanggal Bhutan dan tanggal Gregorius; Losar dan hari raya Buddha mengikutinya",
+   "note": "Berbeda dengan Tibet, bulan kabisat memakai nomor bulan sebelumnya, dan nama-nama hari Bhutan berselisih satu hari dari nama hari Tibet.",
+   "year": "tahun {gzPy} ({animal})"
+  },
+  "myanmar": {
+   "name": "Kalender Myanmar",
+   "region": "Myanmar",
+   "type": "Lunisolar: 12 bulan, dengan bulan ke-13 (Waso Kedua) dan satu hari tambahan pada tahun tertentu",
+   "epoch": "Era Myanmar (ME), 638 M",
+   "used": "Resmi berdampingan: dokumen pemerintah memuat tanggal Myanmar di samping tanggal Gregorius; Thingyan (tahun baru) dan festival bulan purnama mengikutinya",
+   "note": "Setiap bulan menghitung paruh terang dan paruh gelap secara terpisah, masing-masing 1–15. Dihitung dengan metode Yan Naing Aye; Dewan Penasihat Kalender masih dapat menyesuaikan tahun-tahun mendatang, sehingga tanggal masa depan bersifat sementara.",
+   "year": "{n} ME"
+  },
+  "khmer": {
+   "name": "Kalender lunar Khmer (chhankitek)",
+   "region": "Kamboja",
+   "type": "Lunisolar, dengan bulan kabisat atau hari kabisat pada tahun tertentu",
+   "epoch": "Era Buddha: tahun berganti sehari setelah Visak Bochea, satu tahun lebih maju dari hitungan Thailand",
+   "used": "Menentukan Visak Bochea, Pchum Ben, Festival Air, dan hari libur nasional lainnya",
+   "note": "Hari dihitung 1–15 pada paruh terang (កើត) dan 1–15 pada paruh gelap (រោច). Dihitung dengan aritmetika chhankitek, sama seperti pustaka momentkh."
   },
   "yuan": {
    "name": "Era Dinasti Yuan: Zhizheng",

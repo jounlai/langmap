@@ -269,6 +269,7 @@ const uiHint = qs.ui, nameHint = qs.name; // 表示初期値のみ（正はデ�
 - 素材: `assets/tshirt/langmap-chest-mark.svg`（このリポジトリ同梱）。
 - 「世界言語マップ / LangMap」＋地球グリフ。単色（`currentColor`）。**濃紺 #1b2a44 を既定**、濃色シャツでは白に反転。
 - 印刷幅の目安 **約 60mm**、左胸 or センター上部。
+- **［2026-10-06 差し替え］** 新デザイン：地球グリフなし。上段「LangMap」（Cormorant SC 700）、下段「世界言語マップ」（Shippori Mincho 800）＋左右の短い罫線。実寸 **90×30mm**（SVG に width/height 指定済み）。単色 #1b2a44 は同じ。フォントは入稿前にアウトライン化すること（印刷所側に書体が無いと別フォントに化ける）。
 
 ### 色
 

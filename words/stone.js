@@ -536,7 +536,7 @@ WORDS.stone = {
     kbd: ["мывэ", "məwa"],
     xmf: ["ქუა", "kua"],
     os: ["дур", "dur"],
-    ty: ["ōfaʻi", "oːfaʔi"],
+    ty: ["ʻōfaʻi", "ʔoːfaʔi"],
     niu: ["maka", "maka"],
     tvl: ["fatu", "fatu"],
     rap: ["maʻea", "maʔea"],
@@ -1077,7 +1077,7 @@ WORDS.stone = {
     nan_ph: ["石頭", "tsioʔ˨˦ tʰau˨˦"],
     bxk: ["libaale", "libaːle"],
     kfy: ["ढूंगो", "ɖʱuːŋɡo"],
-    gym: ["jä", "hæ"],
+    gym: ["jä", "hɔ"],
     vai: ["ꔖꘋ", "sɛŋ"],
     dng: ["шыту", "ʂɨ˨˦tʰou˥˩"],
     nmf: ["ngalung", "ŋaluŋ"],
@@ -1176,6 +1176,9 @@ WORDS.stone = {
     xlu: ["assu-", "ˈasːu"],
     kry: ["xud", "xud"],
     kqz: ["ǀuib", "ǀʔuib"],
-    ktz: ["nǃòm", "ᵑǃòm"]
+    ktz: ["nǃòm", "ᵑǃòm"],
+    kpe: ["kɔni", "kɔni"],
+    cay: ["ga̱hsgwa:ʼ", "ɡḁhskwaːʔ"],
+    koy: ["leʼone", "leʔone"]
   },
 };

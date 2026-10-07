@@ -1076,6 +1076,13 @@ WORDS.horse = {
     xto: ["𑀬𑀼𑀓𑁆", "juk"],
     txb: ["𑀬𑀓𑁆𑀯𑁂", "jakwe"],
     anu: ["okweeny", "okweːɲ"],
-    mvf: ["mori", "mori"]
+    mvf: ["mori", "mori"],
+    pot: ["nékdosha", "nekdoʃa"],
+    fit: ["hevonen", "ˈheʋonen"],
+    fkv: ["hevonen", "ˈheʋonen"],
+    hup: ["łingʼ", "ɬiŋʔ"],
+    ie: ["cavalle", "kaˈvale"],
+    win: ["šųųkxéte", "ʃũːˈkxete"],
+    ono: ["gohsádę·s", "ɡohsádɛ̃ːs"]
   }
 };

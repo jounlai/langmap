@@ -1047,6 +1047,14 @@ WORDS.sea = {
     khw: ["سمندار", "samanˈdaːr"],
     rmt: ["baḥar", "baħar"],
     rom: ["more", "more"],
-    drs: ["abbaayya", "abːaːjːa"]
+    drs: ["abbaayya", "abːaːjːa"],
+    pot: ["kche gami", "ktʃɛ ɡami"],
+    wmt: ["jawurlata", "ˈɟawuɭata"],
+    abe: ["sobagw", "sobaɡʷ"],
+    myp: ["piigiotigai", "piiɡiotiɡai"],
+    cic: ["okhata", "okhata"],
+    kdt: ["thle̤ː", "tʰleː"],
+    yur: ["peeshkaahl", "piʃkaːɬ"],
+    ayl: ["بحر", "bħar"]
   }
 };

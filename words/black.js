@@ -374,7 +374,7 @@ WORDS.black = {
     // --- Austroasiatic, Kra-Dai, Nilotic ---------------------------------
     vi_c: ["đen", "ɗɛŋ˥"],
     vi_s: ["đen", "ɗɛŋ˧"],
-    mtq: ["đen", "ɗɛn"],
+    mtq: ["dầm", "jəm"],
     kxm: ["ខ្មៅ", "kʰmaw"],
     okz: ["ខ្មៅ", "kmau"],
     sat: ["ᱦᱮᱸᱫᱮ", "hɛnde"],
@@ -1241,6 +1241,9 @@ WORDS.black = {
     kwa: ["câ", "câ"],
     fia: ["úrúm", "úrúm"],
     khw: ["ݰا", "ʂa"],
-    anu: ["cøl", "tʃøl"]
+    anu: ["cøl", "tʃøl"],
+    cay: ["swę́ʼda̱ʼę:ʼ", "swɛ̃́ʔdḁʔɛ̃ːʔ"],
+    fit: ["musta", "ˈmustɑ"],
+    abe: ["mkazawi", "mkazawi"]
   },
 };

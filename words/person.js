@@ -632,7 +632,7 @@ WORDS.person = {
     zza: ["merdim", "mɛrˈdim"],
     sdh: ["کەس", "kæs"],
     rom: ["manuš", "maˈnuʃ"],
-    kru: ["मेत", "meːt"],
+    kru: ["आल", "aːl"],
     kok: ["मनीस", "məˈniːs"],
     doi: ["मनुक्ख", "mənukːʰ"],
     brh: ["بندغ", "bandaɣ"],
@@ -1106,6 +1106,11 @@ WORDS.person = {
     nmn: ["tâa", "taː"],
     rmt: ["manus", "manus"],
     hup: ["kʼiwinyaʼa:n", "kʲʼiwinjaʔaːn"],
-    sip: ["མི", "mi"]
+    sip: ["མི", "mi"],
+    fit: ["ihminen", "ˈihminen"],
+    khv: ["гьадам", "hadam"],
+    tca: ["duü̃xü̃", "duɨ̃ʔɨ̃"],
+    fkv: ["ihminen", "ˈihminen"],
+    cjm: ["ꨂꨣꩃ", "ʔuraːŋ"]
   }
 };

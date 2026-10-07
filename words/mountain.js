@@ -259,7 +259,7 @@ WORDS.mountain = {
     guc: ["uuchi", "uːtʃi"],
     gv: ["slieau", "slʲuː"],
     h_vedic: ["पर्वत", "ˈpɐrʋɐtɐ"],
-    ha: ["dutse", "ˈdutse"],  // Hausa dutse is one word for stone, rock and mountain, so this matches the standing stone cell exactly. The draft read dúːtsʼèː, which is arguably the better Hausa — ⟨ts⟩ is ejective and the vowels are long — but this row writes ⟨ts⟩ plain (tsuntsu /tsúntsúː/) and marks tone in only 5 of 71 cells. Unifying on the standing form rather than half-correcting the row; the ⟨ts⟩ and tone questions want a row audit.
+    ha: ["tsauni", "tsauniː"],  // Hausa dutse is one word for stone, rock and mountain, so this matches the standing stone cell exactly. The draft read dúːtsʼèː, which is arguably the better Hausa — ⟨ts⟩ is ejective and the vowels are long — but this row writes ⟨ts⟩ plain (tsuntsu /tsúntsúː/) and marks tone in only 5 of 71 cells. Unifying on the standing form rather than half-correcting the row; the ⟨ts⟩ and tone questions want a row audit.
     hak_cn: ["山", "san˦˦"],
     hak_hl: ["山", "san˥˧"],
     hak_tw: ["山", "san˨˦"],
@@ -574,7 +574,7 @@ WORDS.mountain = {
     quz: ["urqu", "urqu"],
     ja_aom: ["山", "jama"],
     pwo: ["ခိၪလီၩ့", "kʰo lauɴ"],
-    hni: ["haoldaol", "xɔ˥˥dɔ˥˥"],
+    hni: ["haolgaoq", "xɔ˥˥ɡɔ˧˩"],
     lis: ["ko", "ko˦˦"],
     khg: ["རི", "ri"],
     bts: ["dolog", "doloɡ"],
@@ -1080,6 +1080,10 @@ WORDS.mountain = {
     fia: ["mùléé", "mùléː"],
     kqz: ["ǃareb", "ǃareb"],
     rmt: ["jabal", "dʒabal"],
-    soa: ["ภูเขา", "pʰuː˧˥˦ kʰaw˨˦"]
+    soa: ["ภูเขา", "pʰuː˧˥˦ kʰaw˨˦"],
+    dbl: ["gambil", "ˈɡambil"],
+    win: ["xee", "xeː"],
+    ayl: ["جبل", "ʒbal"],
+    acw: ["جبل", "dʒabal"]
   }
 };

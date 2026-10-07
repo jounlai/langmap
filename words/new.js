@@ -1134,6 +1134,11 @@ WORDS.new = {
     fia: ["míríí", "míríː"],
     rmt: ["nawa", "nawa"],
     anu: ["nyään", "ɲaːn"],
-    soa: ["ใหม่", "maj˧˥"]
+    soa: ["ใหม่", "maj˧˥"],
+    fit: ["uusi", "ˈuːsi"],
+    fkv: ["uusi", "ˈuːsi"],
+    myp: ["xasí", "ʔasí"],
+    cro: ["hilaaké", "hilaːké"],
+    pqm: ["pileyu", "pileju"]
   }
 };

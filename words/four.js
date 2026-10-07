@@ -800,7 +800,7 @@ WORDS.four = {
     bhb: ["चार", "tʃaːr"],
     dag: ["anahi", "anahi"],
     frp: ["quatro", "ˈkatrə"],
-    hni: ["oel", "ø˥˥"],
+    hni: ["yuvq", "ø˧˩"],
     kgg: ["pigu", "piɡu"],
     tzm: ["ⴽⴽⵓⵥ", "kːuzˤ"],
     yiz: ["ɬi", "ɬi˧˧"],
@@ -823,7 +823,7 @@ WORDS.four = {
     itl: ["чʼаӄ", "tʃʼaq"],
     new: ["प्ये", "pje"],
     rmf: ["staar", "staːr"],
-    lbe: ["мукьа", "muqʼa"],
+    lbe: ["мукьва", "muqʼwa"],
     rwk: ["fiini", "fiːni"],
     kjp: ["လီ", "li˧"],
     bfa: ["ŋwan", "ŋwan"],
@@ -875,7 +875,7 @@ WORDS.four = {
     och: ["四", "*s.li[j]-s"],
     zh_han: ["四", "s(h)jǝś"],
     njo: ["pezü", "pezy"],
-    pwo: ["လီ", "li"],
+    pwo: ["လံ", "li"],
     de_lu: ["vier", "fiːɐ̯"],
     lb: ["véier", "ˈvəiɐ"],
     gcr: ["kat", "kat"],
@@ -1219,6 +1219,7 @@ WORDS.four = {
     pal: ["𐭰𐭧𐭠𐭫", "tʃahaːr"],
     aau: ["ihaiha-aw", "ihaiha aw"],
     cni: ["otsipasati", "otsipasati"],
-    tdh: ["ब्लले", "bləle"]
+    tdh: ["ब्लले", "bləle"],
+    cjm: ["ꨚꩀ", "paʔ"]
   },
 };

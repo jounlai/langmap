@@ -996,7 +996,7 @@ WORDS.honey = {
     cr: ["ᐋᒨᓰᐦᒋᑲᐣ", "aːmoːsiːhtʃikan"],
     atj: ["amo naminas", "amo naminas"],
     pyu: ["kawalruwan", "kawaɭuwan"],
-    mix: ["tuxi", "duʃi"],
+    mix: ["ntuxi", "ndǔʃì"],
     rmf: ["meeda", "meːda"],
     cho: ["foi bila", "foi bila"],
     mus: ["fo-encvmpe", "fo intʃəmpi"],
@@ -1117,6 +1117,8 @@ WORDS.honey = {
     xsa: ["𐩵𐩨𐩪", "dibs"],
     okz: ["មធុ", "madʰuː"],
     anu: ["maar kïc", "maːr kitʃ"],
-    soa: ["น้ำผึ้ง", "nam˦˧ pʰɯŋ˧"]
+    soa: ["น้ำผึ้ง", "nam˦˧ pʰɯŋ˧"],
+    niu: ["meli", "meli"],
+    tsz: ["tékolmena", "ˈtekolmena"]
   },
 };

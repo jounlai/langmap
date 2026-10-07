@@ -840,7 +840,7 @@ WORDS.nose = {
     abq: ["пынцӏа", "pəntsʼa"],
     lzz: ["ჩხვინდი", "tʃxvindi"],
     xmf: ["ჩხვინდი", "tʃxvindi"],
-    sva: ["ნეფხვნა", "nepʰxwna"],
+    sva: ["ნეფხუ̂ნა", "nepʰxwna"],
     // --- Uralic — nenä's cognates, and the Samoyedic p-forms ------------
     smj: ["njunnje", "ɲunːje"],
     sms: ["njuuʹnn", "ɲuːnːʲ"],
@@ -1154,6 +1154,7 @@ WORDS.nose = {
     hai: ["kún", "kʰún"],
     fia: ["sòrìŋ", "sòrìŋ"],
     kqz: ["ǂuib", "ǂuib"],
-    rmt: ["pirin", "pirin"]
+    rmt: ["pirin", "pirin"],
+    pot: ["jash", "dʒaʃ"]
   },
 };

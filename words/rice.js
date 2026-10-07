@@ -837,6 +837,17 @@ WORDS.rice = {
     xav: ["aro", "aˈɾɔ"],
     gym: ["aro", "aɾo"],
     tlh: ["ray' tIr", "rajʔ tɪr"],
-    zap: ["arros", "aɾos"]
+    zap: ["arros", "aɾos"],
+    njo: ["jang", "tʃaŋ"],
+    slr: ["tüturğan", "tyturʁɑn"],
+    pot: ["mnomen", "mnomɪn"],
+    kos: ["rais", "rais"],
+    wmt: ["juraji", "ˈɟuɻaɟi"],
+    srb: ["ronko", "roŋko"],
+    fkv: ["riisi", "ˈriːsi"],
+    win: ["sįį", "sĩː"],
+    ie: ["ris", "ris"],
+    myp: ["xahóikasí", "ʔahóikasí"],
+    kdt: ["ŋkaːw", "ŋkaːw"]
   }
 };

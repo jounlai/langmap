@@ -1019,6 +1019,7 @@ WORDS.green = {
     kwa: ["mɨ̃̂", "mɨ̃̂"],
     kjj: ["сыб", "sɨb"],
     nus: ["tɔc", "tɔtʃ"],
-    rmt: ["axḍar", "axdˤar"]
+    rmt: ["axḍar", "axdˤar"],
+    fkv: ["vihree", "ˈʋihreː"]
   }
 };

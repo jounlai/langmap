@@ -588,7 +588,9 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 // filling a row is what settles what the row's convention is, and a defect
 // that was hiding in a tie becomes visible. Closing these needs the tone for
 // each word in each language, which is per-cell research, not a sweep.
-const TONE_POLICY_DEBT = 57;
+// r59 (2026-10-07): +1, tca person duü̃xü̃ — added toneless like the row's 11
+// other bare Ticuna cells (bear, bird, bone, book …); the row needs a tone pass.
+const TONE_POLICY_DEBT = 58;
 s = run('tone_policy_check.js --check');
 {
     const n = num(s, /violations: (\d+)/);

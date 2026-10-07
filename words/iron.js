@@ -625,7 +625,7 @@ WORDS.iron = {
     urh: ["ogba", "oɡba"],
     ekp: ["uci", "utʃi"],
     deg: ["ikulele", "ikulele"],
-    kbp: ["ñɩɣtʋ", "ɲɪɣtʋ"],
+    kbp: ["ñɩɣtʋ", "ɲɪɣtʊ"],
 
     // --- Bantu — *-uma and *-tale, each with its own class prefix ---------
     suk: ["jisinza", "dʒisinza"],
@@ -1106,6 +1106,12 @@ WORDS.iron = {
     xpu: ["𐤁𐤓𐤆𐤋", "barzel"],
     okz: ["តេក", "ɗɛːk"],
     pt_gw: ["feru", "ˈfɛru"],
-    xav: ["siʼuwazi", "siʔuwaˈzi"]
+    xav: ["siʼuwazi", "siʔuwaˈzi"],
+    kfa: ["ಇರ್ಂಬ್", "irmbɨ"],
+    cay: ["ga̱hnyǫ́ʼǫhsraʼ", "ɡḁhɲṍʔõhsraʔ"],
+    ie: ["ferre", "ˈfere"],
+    niu: ["lapatoa", "lapatoa"],
+    win: ["mą́ąs", "mãːs"],
+    kdt: ["taːʔ", "taːʔ"]
   },
 };

@@ -1134,6 +1134,7 @@ WORDS.daughter = {
     wuu_jx: ["囡儿", "nɤə˧˩ ŋ̍˧˩"],
     srh: ["razen", "ɾazen"],
     soa: ["ลูกสาว", "luːk˦ saːw˨˦"],
-    fan: ["ngoan", "ŋɡoan"]
+    fan: ["ngoan", "ŋɡoan"],
+    khw: ["ژور", "ʒuːr"]
   },
 };

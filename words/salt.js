@@ -1243,6 +1243,7 @@ WORDS.salt = {
     ktz: ["gúí", "ɡúí"],
     tlh: ["qut na'", "qut naʔ"],
     rmt: ["lon", "lon"],
-    hup: ["łehqʼonchʼ", "ɬehqʼontʃʼ"]
+    hup: ["łehqʼonchʼ", "ɬehqʼontʃʼ"],
+    koy: ["sole", "sole"]
   },
 };

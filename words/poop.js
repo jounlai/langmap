@@ -867,6 +867,13 @@ WORDS.poop = {
     bum: ["mebi", "mebi"],
     gil: ["nakotaari", "nakotaːɾi"],
     nyo: ["amazi", "amazi"],
-    nym: ["maafi", "maːfi"]
+    nym: ["maafi", "maːfi"],
+    pot: ["mowech", "mowetʃ"],
+    cay: ["oʼdaʼ", "oʔdaʔ"],
+    fit: ["kakka", "ˈkɑkːɑ"],
+    fkv: ["kaakka", "ˈkɑːkːɑ"],
+    win: ["wakere", "wakeɾe"],
+    kdt: ["klɑːŋ", "klɑːŋ"],
+    mhy: ["edeh", "edeh"]
   },
 };

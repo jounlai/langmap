@@ -865,6 +865,10 @@ WORDS.butterfly = {
     ho: ["kaubebe", "kaubebe"],
     bzj: ["botaflai", "bɔtaflai"],
     cnh: ["pelep", "pelep"],
-    dsh: ["arab", "arab"]
+    dsh: ["arab", "arab"],
+    pot: ["mémégé", "memeɡe"],
+    fkv: ["päivälintu", "ˈpæiʋæˌlintu"],
+    myp: ["sibíoí", "sibíoí"],
+    kdt: ["mphlaːp mphlaːp", "mpʰlaːp mpʰlaːp"]
   },
 };

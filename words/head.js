@@ -868,7 +868,7 @@ WORDS.head = {
     adi: ["dumpo", "dumpo"],
     nv: ["atsiitsʼiin", "atsiːtsʼiːn"],
     ngu: ["tzontecomitl", "tsonteˈkomitɬ"],
-    gym: ["dokwä", "dokwɨ"],
+    gym: ["dokwä", "dokwɔ"],
     frp: ["téta", "ˈteta"],
     ab: ["ахы", "aχə"],
     lzz: ["თი", "tʰi"],
@@ -1161,6 +1161,11 @@ WORDS.head = {
     kqz: ["ǃãb", "ǃʔãb"],
     ktz: ["nǀáí", "ᵑǀáí"],
     rmt: ["siri", "siri"],
-    soa: ["หัว", "huːa˨˦"]
+    soa: ["หัว", "huːa˨˦"],
+    fit: ["pää", "pæː"],
+    abe: ["mdup", "mdup"],
+    fkv: ["pää", "pæː"],
+    kdt: ["plɑː", "plɑː"],
+    zgh: ["ⵉⵅⴼ", "iχf"]
   },
 };

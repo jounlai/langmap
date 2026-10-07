@@ -684,7 +684,7 @@ WORDS.snow = {
     crx: ["yus̲", "jus"],
     tsi: ["maadm", "maːdm̩"],
     thp: ["swúxwt", "swuxʷt"],
-    wbl: ["варф", "warf"],
+    wbl: ["—", "—"],
     rki: ["နှင်း", "n̥ɪɴ"],
     cnh: ["vur", "vur"],
     xng: ["ᠴᠠᠰᠤᠨ", "tʃasun"],
@@ -978,6 +978,7 @@ WORDS.snow = {
     kgg: ["yaq", "jaq"],
     yan: ["mukus pihni", "mukus pihni"],
     ndc: ["chando", "tʃando"],
-    grt: ["borop", "borop"]
+    grt: ["borop", "borop"],
+    pt_gw: ["nevi", "ˈnɛvi"]
   }
 };

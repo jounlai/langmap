@@ -1151,6 +1151,11 @@ WORDS.wind = {
     hai: ["tajáaw", "tʰadʒɑ́ːw"],
     kxv: ["gāli", "ɡaːli"],
     fia: ["tùùg", "tùːɡ"],
-    anu: ["yamo", "jamo"]
+    anu: ["yamo", "jamo"],
+    haj: ["batas", "batas"],
+    dbl: ["gulubu", "ˈɡulubu"],
+    win: ["caac", "tʃaːtʃ"],
+    ono: ["ó·wæʼ", "óːwæʔ"],
+    wic: ["niweʔeːrʔa", "niweʔeːɾʔa"]
   },
 };

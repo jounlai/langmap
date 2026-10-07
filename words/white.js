@@ -764,7 +764,7 @@ WORDS.white = {
     pwo: ["ဝါ", "wa"],
     lhu: ["hpu", "pʰu"],
     shn: ["ၶၢဝ်", "kʰaːw˨˦"],
-    kbp: ["kʊhʊlʊmɩŋ", "kʊhʊlʊmɪŋ"],
+    kbp: ["kʋhʋlʋmɩŋ", "kʊhʊlʊmɪŋ"],
     ee: ["ɣi", "ɣi"],
     nyn: ["kwera", "kwera"],
     cgg: ["kwera", "kwera"],

@@ -252,7 +252,7 @@ WORDS.five = {
     lbj: ["ལྔ", "ŋa"],
     khg: ["ལྔ", "ŋa"],
     ii: ["ꉬ", "ŋɯ˧˧"],
-    hni: ["ngaq", "ŋa˧˩"],
+    hni: ["ngavq", "ŋa˧˩"],
     th_isan: ["ห้า", "haː˥˩"],
     th_n: ["ห้า", "haː˥˩"],
     th_s: ["ห้า", "haː˥˩"],
@@ -1193,6 +1193,7 @@ WORDS.five = {
     nys: ["maar", "maːɻ"],
     lep: ["ᰑᰅᰫ", "fəŋu"],
     trm: ["põč", "põtʃ"],
-    xav: ["ĩmrotõ", "ĩmɾɔˈtɔ̃"]
+    xav: ["ĩmrotõ", "ĩmɾɔˈtɔ̃"],
+    tue: ["sikabõhẽyẽ", "siˈkabõhẽjẽ"]
   },
 };

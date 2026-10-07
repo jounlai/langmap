@@ -774,6 +774,11 @@ WORDS.silk = {
     brh: ["اربیشم", "arbeːʃum"],
     rom: ["svila", "svila"],
     tet: ["seda", "seda"],
-    kbp: ["sotu", "sotu"]
+    kbp: ["sotu", "sotu"],
+    njo: ["lota sü", "lota sə"],
+    fkv: ["silkki", "ˈsilkːi"],
+    vot: ["šolkkõ", "ˈʃolkːɤ"],
+    kdt: ["soːt", "soːt"],
+    zgh: ["ⴰⵎⵟⵟⴰⵍⴼⵓ", "amtˤːalfu"]
   }
 };

@@ -448,7 +448,7 @@ WORDS.sleep = {
     lkt: ["ištíma", "iʃˈtima"],
     kl: ["sinippoq", "siˈnippɔq"],
     os: ["хуыссын", "xʷəssən"],
-    ty: ["taoto", "taoto"],
+    ty: ["taʻoto", "taʔoto"],
     niu: ["mohe", "mohe"],
     tvl: ["moe", "moe"],
     rap: ["moe", "moe"],
@@ -767,7 +767,7 @@ WORDS.sleep = {
 
     // --- Austroasiatic
     sat: ["ᱡᱟᱯᱤᱫ", "dʒapid"],
-    mtq: ["ngủ", "ŋu"],
+    mtq: ["táy", "taj"],
 
     // --- Caucasus
     av: ["кьижизе", "tɬʼiʒize"],
@@ -802,7 +802,7 @@ WORDS.sleep = {
     tar: ["kochí", "kotʃi"],
     zap: ["rasi", "ɾasi"],
     zts: ["rasi", "ɾasi"],
-    mix: ["kixi", "kiʃi"],
+    mix: ["kusu", "kùsù"],
     mxv: ["kixi", "kiʃi"],
 
     // --- North America and the Caribbean
@@ -1158,6 +1158,10 @@ WORDS.sleep = {
     kqz: ["ǁūm", "ǁʔuːm"],
     ktz: ["tsʼá", "tsʼá"],
     rmt: ["šuš-", "ʃuʃ"],
-    dds: ["girii yeyyee", "ɡiriː jejːeː"]
+    dds: ["girii yeyyee", "ɡiriː jejːeː"],
+    njo: ["ayip", "ajip"],
+    pot: ["mbé", "mbe"],
+    win: ["nąą", "nãː"],
+    myp: ["xaití", "ʔaití"]
   },
 };

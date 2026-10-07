@@ -1049,6 +1049,8 @@ WORDS.book = {
     txb: ["𑀧𑁄𑀲𑁆𑀢𑀓𑁆", "postak"],
     kaw: ["ꦥꦸꦱ꧀ꦠꦏ", "pustaka"],
     nan_hai: ["册", "sɛ˥˥"],
-    dje: ["tira", "tira"]
+    dje: ["tira", "tira"],
+    tsz: ["karakata", "kaɾakata"],
+    en_geordie: ["book", "bʊk"]
   }
 };

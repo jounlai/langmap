@@ -1137,7 +1137,7 @@ WORDS.hundred = {
     bin: ["iyisẹn", "ijisɛ̃"],
     iso: ["ẹgba", "ɛɡba"],
     fvr: ["fírí", "fírí"],
-    enq: ["wane andate", "wane andate"],
+    enq: ["andate", "andate"],
     na: ["aibu", "aibu"],
     khw: ["شور", "ʃoːr"],
     blr: ["ti31 roi31", "ti˧˩ roi˧˩"],
@@ -1152,6 +1152,10 @@ WORDS.hundred = {
     ho: ["handred", "handred"],
     ket: ["киʼ", "kʲiʔ"],
     shn: ["ပၢၵ်ႇၼိုင်ႈ", "paːk˩ nɯŋ˧˨"],
-    iru: ["nūru", "nuːɾu"]
+    iru: ["nūru", "nuːɾu"],
+    cay: ["sgá:t dewę́ʼnyawe:ʼ", "skáːt dewɛ̃́ʔɲaweːʔ"],
+    itl: ["туʼус", "tuʔus"],
+    yle: ["yonoy:a", "jonojːa"],
+    ik: ["tallimakipiaq", "talːimakipiaq"]
   },
 };

@@ -1024,7 +1024,7 @@ WORDS.bird = {
     rwk: ["ndee", "ndeː"],
     urh: ["ọphran", "ɔɸɾan"],
     iso: ["evra", "evɾa"],
-    gym: ["nukwä", "nukwɨ"],
+    gym: ["nukwä", "nukwɔ"],
     frp: ["usél", "yˈzel"],
     lzz: ["კინჩი", "kʼintʃi"],
     tab: ["ничхир", "nitʃxir"],

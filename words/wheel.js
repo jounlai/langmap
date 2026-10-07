@@ -563,7 +563,7 @@ WORDS.wheel = {
     mus: ["emfulotkv", "imfolotkə"],
     arp: ["hotíí", "hotíː"],
     pot: ["détpese", "detpese"],
-    guc: ["ooʼui", "oːʔui"],
+    guc: ["—", "—"],
     cuk: ["yanda", "janda"],
     moh: ["okakwenta", "okakʷenta"],
     och: ["輪", "*[r]u[n]"],
@@ -713,7 +713,7 @@ WORDS.wheel = {
     wbp: ["wirli", "wiɭi"],
     djr: ["ḻuku", "ɭuku"],
     ygr: ["vili", "vili"],
-    hui: ["ge", "ɡe"],
+    hui: ["garo ge", "ɡaɾo ɡe"],
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
@@ -936,6 +936,8 @@ WORDS.wheel = {
     mzh: ["mak kolo", "mak kolo"],
     kjb: ["rueda", "rweda"],
     poh: ["kotokaq", "kotokaq"],
-    drs: ["mole", "mole"]
+    drs: ["mole", "mole"],
+    kos: ["wil", "wil"],
+    niu: ["veli", "veli"]
   }
 };

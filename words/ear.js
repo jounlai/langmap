@@ -783,7 +783,7 @@ WORDS.ear = {
     usp: ["xikin", "ʃikin"],
     tzh: ["chikin", "tʃikin"],
     mixtec: ["soho", "soho"],
-    mix: ["soho", "soho"],
+    mix: ["soʼo", "sòʔō"],
     mxv: ["soho", "soho"],
     zap: ["diaga", "diaɡa"],
     zts: ["diaga", "diaɡa"],
@@ -883,7 +883,7 @@ WORDS.ear = {
     jiv: ["kuish", "kwiʃ"],
     acu: ["kuish", "kwiʃ"],
     nag: ["kan", "kan"],
-    mtq: ["tai", "taj"],
+    mtq: ["thai", "tʰaːj"],
     sid: ["macca", "matʃa"],
     umb: ["okutwi", "okutwi"],
     uln: ["Ohr", "or"],
@@ -1188,6 +1188,8 @@ WORDS.ear = {
     okz: ["ច្រច្យក", "crəciːək"],
     hai: ["gyúu", "ɡʲúː"],
     hup: ["-chiwʼ", "-tʃiwʔ"],
-    soa: ["หู", "huː˨˦"]
+    soa: ["หู", "huː˨˦"],
+    pot: ["tog", "toɡ"],
+    ono: ["ohų́hdaʼ", "ohṹhdaʔ"]
   },
 };

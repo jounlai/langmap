@@ -773,7 +773,7 @@ WORDS.rain = {
     meu: ["medu", "medu"],
     ho: ["medu", "medu"],
     pon: ["keteu", "ketew"],
-    tay: ["quyux", "qujux"],
+    tay: ["qwalax", "qwalax"],
     adx: ["ཆར་པ", "tɕʰarpa"],
     khg: ["ཆར་པ", "tɕʰãpa"],
     bft: ["ཆར་པ", "tʃʰarpa"],
@@ -1132,6 +1132,9 @@ WORDS.rain = {
     kqz: ["tūs", "tuːs"],
     ktz: ["gǃà", "ᶢǃà"],
     nmn: ["ǃkxʼôe", "ǃkxʼoe"],
-    rmt: ["wars", "wars"]
+    rmt: ["wars", "wars"],
+    haj: ["mek", "mek"],
+    abe: ["soglon", "soɡlon"],
+    yur: ["ten", "ten"]
   },
 };

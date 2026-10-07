@@ -1126,6 +1126,13 @@ WORDS.egg = {
     rmt: ["ana", "ana"],
     anu: ["tøŋ gwienø", "tøŋ ɡwienø"],
     mev: ["nyàà", "ɲàː"],
-    soa: ["ไข่", "kʰaj˧˥"]
+    soa: ["ไข่", "kʰaj˧˥"],
+    njo: ["entsü", "əntsɯ"],
+    pot: ["waw", "waw"],
+    cay: ["oʼnhǫ́hsaʼ", "oʔnhṍhsaʔ"],
+    win: ["hiicgé", "hiːˈtʃɡe"],
+    ono: ["oʼnhų́hsaʼ", "oʔnhṹhsaʔ"],
+    wic: ["nikwiːkʔa", "nikʷiːkʔa"],
+    kdt: ["nthrɛ̤ːl", "ntʰrɛːl"]
   },
 };

@@ -3705,6 +3705,8 @@
         // the concept (not a Sino-loan):
         //   - Explicit native-reading layers: ja_kun, ko_hun, vi_nom
         //   - Modern non-Sinitic Sinosphere langs: mnc, sjo, za, bca
+        //     (+ za_sd, 2026-10-08: the Sawndip row writes the same native
+        //     Zhuang words as za — ndeu 'one', song 'two' — so it is kun too)
         //   - Extinct non-Sinitic in the Sinosphere: juc, txg, zkt
         //   - NON-Sino-Tibetan proto-languages (native roots, not Sinitic
         //     ancestors): pko, pja, ptung, paa, ptai, pmgl, phm
@@ -3713,7 +3715,7 @@
         //   belong under 古代語 (ANCIENT_SINO_CODES), NOT here.
         const KUN_CODES = [
             'ja_kun', 'ko_hun', 'vi_nom',
-            'mnc', 'sjo', 'za', 'bca',
+            'mnc', 'sjo', 'za', 'za_sd', 'bca',
             'juc', 'txg', 'zkt',
             'pko', 'pja', 'ptung', 'paa', 'ptai', 'pmgl', 'phm',
         ];
@@ -9555,7 +9557,7 @@
             // non-ST native-root reconstructions → 訓読 badge.
             const HAN_KUN_BADGE_CODES = new Set([
                 'ja_kun', 'ko_hun', 'vi_nom',
-                'mnc', 'sjo', 'juc', 'txg', 'zkt', 'za', 'bca',
+                'mnc', 'sjo', 'juc', 'txg', 'zkt', 'za', 'za_sd', 'bca',
                 'pko', 'pja', 'ptung', 'paa', 'ptai', 'pmgl', 'phm',
             ]);
             const isAncient = HAN_ANCIENT_CODES.has(code);

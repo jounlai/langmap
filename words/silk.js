@@ -755,7 +755,7 @@ WORDS.silk = {
     kj: ["osilki", "osilki"],
     mjg: ["tiriga", "tiriɡa"],
     zh_song: ["絲", "sɿ"],
-    xct_litpr: ["དར", "dar"],
+    xct_litpr: ["དར", "tʰaː"],
     xqa: ["torqu", "torqu"],
     gez: ["ሐሪር", "ħariːr"],
     orv: ["шелкъ", "ʃelkŭ"],
@@ -771,6 +771,9 @@ WORDS.silk = {
     bru: ["dai", "daj"],
     vmw: ["seda", "seda"],
     toj: ["seda", "seda"],
-    brh: ["اربیشم", "arbeːʃum"]
+    brh: ["اربیشم", "arbeːʃum"],
+    rom: ["svila", "svila"],
+    tet: ["seda", "seda"],
+    kbp: ["sotu", "sotu"]
   }
 };

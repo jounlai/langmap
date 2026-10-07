@@ -1026,7 +1026,7 @@ WORDS.hello = {
     goh: ["heil", "heil"],
     gez: ["ሰላም", "salaːm"],
     gmy: ["—", "—"],
-    xct_litpr: ["བཀྲ་ཤིས་བདེ་ལེགས", "bkra ɕis bde leɡs"],
+    xct_litpr: ["བཀྲ་ཤིས་བདེ་ལེགས", "ʈʂəɕi tele"],
     xct: ["བཀྲ་ཤིས་བདེ་ལེགས", "bkra ɕis bde leɡs"],
     xpu: ["𐤔𐤋𐤌", "ʃalom"],
     xhu: ["𒄭𒇻", "hilːu"],

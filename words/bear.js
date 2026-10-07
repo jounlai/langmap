@@ -1395,14 +1395,14 @@ WORDS.bear = {
     ko_kp: ["곰", "kom"],
     bo: ["དོམ", "tom˩˧"],
     xct: ["དོམ", "dom"],
-    xct_litpr: ["དོམ", "dom"],
+    xct_litpr: ["དོམ", "tʰom"], // was ["དོམ", "dom"] (vi dialect rules 2026-10-06)
     dz: ["དོམ", "dom"],
 
     // --- Southeast Asia: Khmer arrives at the Slavic kenning alone ----
     my: ["ဝက်ဝံ", "wɛʔ wʊ̀ɴ"],
     km: ["ខ្លាឃ្មុំ", "kʰlaː kʰmum"],
     lo: ["ໝີ", "miː˩˧"],
-    sukh: ["หมี", "miː"],
+    sukh: ["หมี", "m̊iː"], // was ["หมี", "miː"] (vi dialect rules 2026-10-06)
     ms: ["beruang", "bəruaŋ"],
     kaw: ["ꦧꦂꦮꦁ", "barwaŋ"],
     tl: ["oso", "ˈʔoso"],

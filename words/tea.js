@@ -1123,7 +1123,7 @@ WORDS.tea = {
     wuu_wz: ["茶", "dzo˧˩"],
     xal: ["цә", "tsæ"],
     xct: ["ཇ", "dʑa"],
-    xct_litpr: ["ཇ", "dʑa"],
+    xct_litpr: ["ཇ", "tɕʰa"], // was ["ཇ", "dʑa"] (vi dialect rules 2026-10-06)
     yue: ["茶", "tsʰaː˨˩"],
     zh: ["茶", "ʈʂʰä˧˥"],
     zh_cd: ["茶", "tsʰa˨˩"],
@@ -1271,13 +1271,13 @@ WORDS.tea = {
     ar_gulf: ["شاي", "ʃaːj"],
     ar_iq: ["شاي", "ʃaːj"],
     abv: ["شاي", "ʃaːj"],
-    afb: ["شاي", "ʃaːj"],
-    acw: ["شاي", "ʃaːj"],
+    afb: ["چاي", "tʃaːj"], // was ["شاي", "ʃaːj"] (vi dialect rules 2026-10-06)
+    acw: ["شاهي", "ʃaːhi"], // was ["شاي", "ʃaːj"] (vi dialect rules 2026-10-06)
     ar_eg: ["شاي", "ʃaːj"],
     ar_ma: ["أتاي", "ʔataːj"],  // 2026-10-02: Moroccan everyday tea is atay (from the sea-route te, via Dutch/Min); شاي is the Standard Arabic word (r26 flag)
     ar_tn: ["تاي", "teːj"], // was ["شاي", "ʃaːj"] (r29 fix 2026-10-02)
     ar_sd: ["شاي", "ʃaːj"],
-    ayl: ["شاي", "ʃaːj"],
+    ayl: ["شاهي", "ʃaːhi"], // was ["شاي", "ʃaːj"] (vi dialect rules 2026-10-06)
     arq: ["أتاي", "ʔataːj"], // was ["شاي", "ʃaːj"] (r29 fix 2026-10-02)
 
     en_us: ["tea", "tiː"],

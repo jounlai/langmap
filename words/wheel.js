@@ -907,7 +907,7 @@ WORDS.wheel = {
     ja_chu: ["輪", "wa"],
     ko_em: ["바회", "pahwe"],
     cmg: ["ᠬᠦᠷᠳᠦ", "kyrdy"],
-    xct_litpr: ["འཁོར་ལོ", "kʰor lo"],
+    xct_litpr: ["འཁོར་ལོ", "kʰo lo"],
     tpn: ["ybyrapararanga", "ɨβɨɾapaɾaˈɾãŋa"],
     gan_yc: ["轮子", "lun˧˧ tsɿ˨˩"],
     gan_fz: ["轮子", "tyn˨˦ tsɿ˧˥"],
@@ -930,6 +930,12 @@ WORDS.wheel = {
     ohu: ["kerék", "kɛreːk"],
     cop: ["ⲕⲟⲧ", "kot"],
     yue_nn: ["车辘", "tʃʰɛ˥˥ lʊk˥"],
-    cab: ["tubalabala", "tubalabala"]
+    cab: ["tubalabala", "tubalabala"],
+    myx: ["kumukuwu", "kumukuwu"],
+    nzm: ["pigua", "piɡua"],
+    mzh: ["mak kolo", "mak kolo"],
+    kjb: ["rueda", "rweda"],
+    poh: ["kotokaq", "kotokaq"],
+    drs: ["mole", "mole"]
   }
 };

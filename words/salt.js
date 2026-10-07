@@ -410,7 +410,7 @@ WORDS.salt = {
     // --- Tibetic and neighbours ------------------------------------------
     bo: ["ཚྭ", "tsʰa˥"],
     xct: ["ཚྭ", "tsʰwa"],
-    xct_litpr: ["ཚྭ", "tsʰwa"],
+    xct_litpr: ["ཚྭ", "tsʰa"],
     dz: ["ཚྭ", "tsʰa"],
     xsr: ["ཚྭ", "tsʰa"],
     sip: ["ཚྭ", "tsʰa"],

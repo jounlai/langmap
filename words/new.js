@@ -740,7 +740,7 @@ WORDS.new = {
     pwo: ["ၥၫ့", "θaɴ"],
     hni: ["siivq", "sɿ˧˩"],
     lis: ["shi", "ʃi˧˩"],
-    khg: ["གསར་པ", "sarpa"],
+    khg: ["གསར་པ", "sa˥˥ba˥˧"],
     brx: ["गोदान", "ɡodan"],
     bts: ["baru", "baru"],
     mas: ["ŋejuk", "ŋedʒuk"],
@@ -1074,7 +1074,7 @@ WORDS.new = {
     pkar: ["*max-", "max"],
     onw: ["ⲙⲓⲣⲓ", "miri"],
     xct: ["གསར་པ", "ɡsarpa"],
-    xct_litpr: ["གསར་པ", "ɡsarpa"],
+    xct_litpr: ["གསར་པ", "saːpa"],
     txg: ["𗆧", "sjiw˧"],
     cu: ["новъ", "novŭ"],
     ota: ["یكی", "jeˈni"],
@@ -1132,6 +1132,8 @@ WORDS.new = {
     hai: ["g̱áwtlaa", "ɢáwtɬaː"],
     bbl: ["ცʼინი̆", "tsʼini"],
     fia: ["míríí", "míríː"],
-    rmt: ["nawa", "nawa"]
+    rmt: ["nawa", "nawa"],
+    anu: ["nyään", "ɲaːn"],
+    soa: ["ใหม่", "maj˧˥"]
   }
 };

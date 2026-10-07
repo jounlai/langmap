@@ -973,7 +973,7 @@ WORDS.sea = {
     oko: ["海等", "*patʌl"],
     sux: ["𒀀𒀊𒁀", "aabba"],
     emy: ["kʼahkʼ nab", "kʼahkʼ nab"],
-    sukh: ["ทะเล", "tʰaleː"],
+    sukh: ["ทะเล", "daleː"],
     xng: ["ᠳᠠᠯᠠᠢ", "dalai"],
     ptrk: ["*teŋiŕ", "teŋiŕ"],
     pmng: ["*dalai", "dalai"],
@@ -984,7 +984,7 @@ WORDS.sea = {
     zh_tang: ["海", "həj"],
     zh_wenyan_edu: ["海", "hɔːi˧˥"],
     xct: ["རྒྱ་མཚོ", "rɡja mtsʰo"],
-    xct_litpr: ["རྒྱ་མཚོ", "rɡja mtsʰo"],
+    xct_litpr: ["རྒྱ་མཚོ", "ɟa tsʰo"],
     txg: ["𗃰", "xej˧"],
     ota: ["دكز", "deˈniz"],
     otk: ["𐱃𐰞𐰆𐰖", "taluj"],
@@ -1045,6 +1045,8 @@ WORDS.sea = {
     en_jam: ["sea", "siː"],
     xav: ["â poré", "ə pɔɾɛ"],
     khw: ["سمندار", "samanˈdaːr"],
-    rmt: ["baḥar", "baħar"]
+    rmt: ["baḥar", "baħar"],
+    rom: ["more", "more"],
+    drs: ["abbaayya", "abːaːjːa"]
   }
 };

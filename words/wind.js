@@ -445,7 +445,7 @@ WORDS.wind = {
     tum: ["mphepo", "ˈmpʰepo"],
     sd: ["هوا", "ɦəʋaː"],
     bo: ["རླུང", "luŋ˥"],
-    xct: ["རླུང", "luŋ"],
+    xct: ["རླུང", "rluŋ"],
     p_sit: ["*qV-lij", "qV-lij"],
     dz: ["རླུང་མ", "luŋma"],
     chr: ["ᎤᏃᎴ", "unole"],

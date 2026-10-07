@@ -1079,6 +1079,7 @@ WORDS.mountain = {
     hts: ["xxudle", "ᵑǁˀucʎʼe"],
     fia: ["mùléé", "mùléː"],
     kqz: ["ǃareb", "ǃareb"],
-    rmt: ["jabal", "dʒabal"]
+    rmt: ["jabal", "dʒabal"],
+    soa: ["ภูเขา", "pʰuː˧˥˦ kʰaw˨˦"]
   }
 };

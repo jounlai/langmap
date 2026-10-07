@@ -426,8 +426,8 @@ WORDS.iron = {
     // --- Tibeto-Burman, Mon-Khmer, Munda ---------------------------------
     bo: ["ལྕགས", "tɕaʔ˥˧"],
     dz: ["ལྕགས", "tɕa"],
-    xct: ["ལྕགས", "ldʑaɡs"],
-    xct_litpr: ["ལྕགས", "ldʑaɡs"],
+    xct: ["ལྕགས", "ltɕaɡs"],
+    xct_litpr: ["ལྕགས", "tɕa"],
     xsr: ["ལྕའ", "tɕaː"],
     new: ["नँ", "nʌ̃"],
     lep: ["ᰎᰪᰰᰈᰬᰵ", "pundʒeŋ"],
@@ -439,7 +439,7 @@ WORDS.iron = {
     vi_c: ["sắt", "ʂak˧˦"],
     vi_s: ["sắt", "ʂak˧˥"],
     vi_nom: ["鐵", "sat˧˥"],
-    sukh: ["เหล็ก", "lek"],
+    sukh: ["เหล็ก", "l̥ek"],
     shn: ["လဵၵ်း", "lek˥"],
 
     // --- Elsewhere ---------------------------------------------------------
@@ -874,7 +874,7 @@ WORDS.iron = {
     pwo: ["ထၭ", "tʰaʔ"],
     hni: ["saol", "sɔ˥˥"],
     lis: ["xo", "xo˦˦"],
-    khg: ["ལྕགས", "tɕak"],
+    khg: ["ལྕགས", "tɕaʔ˥˧"],
     mni: ["ꯌꯣꯠ", "jot"],
     brx: ["सोर", "sor"],
     max: ["besi", "besi"],

@@ -1013,7 +1013,7 @@ WORDS.horse = {
     ptai: ["*maː", "maː"],
     zh_tang: ["馬", "maɨ"],
     zh_wenyan_edu: ["馬", "maː˩˧"],
-    xct_litpr: ["རྟ", "rta"],
+    xct_litpr: ["རྟ", "ta"],
     txg: ["𘆝", "rjijr˧"],
     tpn: ["kabaru", "kaβaˈɾu"],
     p_sit: ["*s/m-raŋ", "s/m-raŋ"],
@@ -1074,6 +1074,8 @@ WORDS.horse = {
     onw: ["ⲙⲟⲩⲣⲧ", "murt"],
     pal: ["𐭠𐭮𐭯", "asp"],
     xto: ["𑀬𑀼𑀓𑁆", "juk"],
-    txb: ["𑀬𑀓𑁆𑀯𑁂", "jakwe"]
+    txb: ["𑀬𑀓𑁆𑀯𑁂", "jakwe"],
+    anu: ["okweeny", "okweːɲ"],
+    mvf: ["mori", "mori"]
   }
 };

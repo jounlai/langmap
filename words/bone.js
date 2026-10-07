@@ -1065,7 +1065,7 @@ WORDS.bone = {
     tar: ["ochí", "otʃi"],
     orv: ["кость", "kostĭ"],
     xsc: ["—", "—"],
-    sukh: ["ดูก", "duːk"],
+    sukh: ["ดูก", "ʔduːk"],
     xmr: ["—", "—"],
     onw: ["ⲅⲓⲥⲣⲓ", "ɡisri"],
     qwc: ["tullu", "tuʎu"],

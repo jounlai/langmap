@@ -851,7 +851,7 @@ WORDS.poop = {
     tsz: ["kuatsita", "kʷatsita"],
     mjg: ["basi", "basɿ"],
     pmh: ["गूह", "ɡuːha"],
-    xct: ["རྐྱག་པ", "tɕakpa"],
+    xct: ["རྐྱག་པ", "rkjakpa"],
     xct_litpr: ["རྐྱག་པ", "tɕakpa"],
     xqa: ["bütgü", "bytɡy"],
     gez: ["ኵስሕ", "kʷəsħ"],
@@ -865,6 +865,8 @@ WORDS.poop = {
     gcr: ["kaka", "kaka"],
     bci: ["wakasu", "wakasu"],
     bum: ["mebi", "mebi"],
-    gil: ["nakotaari", "nakotaːɾi"]
+    gil: ["nakotaari", "nakotaːɾi"],
+    nyo: ["amazi", "amazi"],
+    nym: ["maafi", "maːfi"]
   },
 };

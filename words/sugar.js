@@ -1147,7 +1147,7 @@ WORDS.sugar = {
     es_py: ["azúcar", "aˈsukaɾ"],
     es_pa: ["azúcar", "aˈsukaɾ"],
     en_my: ["sugar", "ˈʃʊɡə"],
-    ayl: ["سكر", "ˈsukkar"],
+    ayl: ["سكر", "ˈsukkur"], // was ["سكر", "ˈsukkar"] (vi dialect rules 2026-10-06)
     abv: ["سكر", "ˈsukkar"],
     afb: ["سكر", "ˈsukkar"],
     acw: ["سكر", "ˈsukkar"],

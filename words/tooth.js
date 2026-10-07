@@ -1095,7 +1095,7 @@ WORDS.tooth = {
     tar: ["ramé", "rame"],
     orv: ["зѫбъ", "zɔ̃bŭ"],
     xsc: ["—", "—"],
-    sukh: ["ฟัน", "fan"],
+    sukh: ["ฟัน", "van"],
     xmr: ["—", "—"],
     onw: ["—", "—"],
     qwc: ["kiru", "kiɾu"],

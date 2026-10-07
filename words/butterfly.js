@@ -854,7 +854,7 @@ WORDS.butterfly = {
     gym: ["malan", "malan"],
     kri: ["bɔtaflay", "bɔtaflaj"],
     zh_song: ["胡蝶", "xu tiɛ"],
-    xct_litpr: ["ཕྱེ་མ་ལེབ", "pʰje ma leb"],
+    xct_litpr: ["ཕྱེ་མ་ལེབ", "tɕʰe ma lep"],
     xqa: ["käpäli", "kæpæli"],
     qwc: ["pillpintu", "piʎpintu"],
     och: ["胡蝶", "*[ɡ]ˤa lˤep"],
@@ -864,6 +864,7 @@ WORDS.butterfly = {
     acf: ["papiyòt", "papijɔt"],
     ho: ["kaubebe", "kaubebe"],
     bzj: ["botaflai", "bɔtaflai"],
-    cnh: ["pelep", "pelep"]
+    cnh: ["pelep", "pelep"],
+    dsh: ["arab", "arab"]
   },
 };

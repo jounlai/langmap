@@ -991,7 +991,7 @@ WORDS.book = {
     zh_tang: ["書", "ɕɨə̆"],
     zh_wenyan_edu: ["書", "syː˥"],
     xct: ["དཔེ་ཆ", "dpe tɕʰa"],
-    xct_litpr: ["དཔེ་ཆ", "dpe tɕʰa"],
+    xct_litpr: ["དཔེ་ཆ", "pe tɕʰa"],
     cu: ["кънигꙑ", "kŭniɡɨ"],
     ar_qur: ["كتاب", "kitaːb"],
     tpn: ["kûatiara", "kʷatiˈaɾa"],
@@ -1048,6 +1048,7 @@ WORDS.book = {
     xto: ["𑀧𑁄𑀲𑁆𑀢𑀓𑁆", "postak"],
     txb: ["𑀧𑁄𑀲𑁆𑀢𑀓𑁆", "postak"],
     kaw: ["ꦥꦸꦱ꧀ꦠꦏ", "pustaka"],
-    nan_hai: ["册", "sɛ˥˥"]
+    nan_hai: ["册", "sɛ˥˥"],
+    dje: ["tira", "tira"]
   }
 };

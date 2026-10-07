@@ -558,7 +558,7 @@ WORDS.head = {
     ty: ["upoʻo", "upoʔo"],
     kde: ["mutwe", "mutwe"],
     xct: ["མགོ", "mɡo"],
-    xct_litpr: ["མགོ", "mɡo"],
+    xct_litpr: ["མགོ", "ko"],
     myp: ["ʔapapai", "ʔapapai"],
     rim: ["itwe", "itwe"],
     rn: ["umutwe", "umutwe"],
@@ -738,7 +738,7 @@ WORDS.head = {
     pwo: ["ခိၪ", "kʰo"],
     hni: ["wuqduq", "u˧˩du˧˩"],
     lis: ["o-du", "o˥˥du˧˧"],
-    khg: ["མགོ", "ɡo"],
+    khg: ["མགོ", "ŋɡo˧˩"],
     brx: ["खर", "kʰoro"],
     bts: ["ulu", "ulu"],
     mas: ["ɛlukunya", "ɛlʊkʊɲa"],
@@ -1160,6 +1160,7 @@ WORDS.head = {
     anu: ["wic", "witʃ"],
     kqz: ["ǃãb", "ǃʔãb"],
     ktz: ["nǀáí", "ᵑǀáí"],
-    rmt: ["siri", "siri"]
+    rmt: ["siri", "siri"],
+    soa: ["หัว", "huːa˨˦"]
   },
 };

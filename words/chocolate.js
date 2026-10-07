@@ -232,7 +232,7 @@ WORDS.chocolate = {
     fur: ["cjocolate", "cokoˈlate"],
     fy: ["sûkelade", "suːkəˈlaːdə"],
     gd: ["teòclaid", "ˈtʲʰɔːxkl̪ˠɪtʲ"],
-    gcr: ["chokola", "ʃokoˈla"],
+    gcr: ["chokola", "ʃokola"],
     gsw: ["Schoggi", "ˈʃɔkːi"],
     haw: ["kokoleka", "kokoleka"],
     hil: ["tsokolate", "tʃokoˈlate"],

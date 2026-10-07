@@ -468,11 +468,11 @@ WORDS.daughter = {
     // --- Tibetan bu mo, and the Tibeto-Burman "child + female" pattern ---
     bo: ["བུ་མོ", "pʰumo˥"],
     xct: ["བུ་མོ", "bumo"],
-    xct_litpr: ["བུ་མོ", "bumo"],
+    xct_litpr: ["བུ་མོ", "pʰumo"],
     dz: ["བུ་མོ", "bumo"],
     bft: ["བུ་མོ", "bumo"],
-    lbj: ["བུ་མོ", "bumo"],
-    sip: ["བུ་མོ", "bumo"],
+    lbj: ["བུ་མོ", "bomo"],
+    sip: ["བུམ", "bum"],
     xsr: ["བུ་མོ", "bumo"],
     rki: ["သမီး", "θəméɪɴ"],
     lus: ["fanu", "fanu"],
@@ -1132,6 +1132,8 @@ WORDS.daughter = {
     zkt: ["𘬝 𘮽𘯛", "mo boqo"],
     kho: ["𑀤𑀽𑀢", "duːta"],
     wuu_jx: ["囡儿", "nɤə˧˩ ŋ̍˧˩"],
-    srh: ["razen", "ɾazen"]
+    srh: ["razen", "ɾazen"],
+    soa: ["ลูกสาว", "luːk˦ saːw˨˦"],
+    fan: ["ngoan", "ŋɡoan"]
   },
 };

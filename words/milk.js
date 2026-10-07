@@ -1105,6 +1105,8 @@ WORDS.milk = {
     khw: ["ݯھیر", "ʈʂʰiːr"],
     tsi: ["miʼis", "miʔis"],
     pqm: ["molaqs", "molakʷs"],
-    wbl: ["жарж", "ʒarʒ"]
+    wbl: ["жарж", "ʒarʒ"],
+    anu: ["caak", "tʃaːk"],
+    sad: ["jikʼe", "ɟikʼe"]
   },
 };

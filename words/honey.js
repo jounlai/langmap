@@ -414,7 +414,7 @@ WORDS.honey = {
     acw: ["عسل", "ʕasal"],
     ar_eg: ["عسل", "ʕasal"],
     ar_sd: ["عسل", "ʕasal"],
-    ayl: ["عسل", "ʕasal"],
+    ayl: ["عسل", "ʕsal"],
     ar_ma: ["عسل", "ʕsəl"],
     ar_tn: ["عسل", "ʕsəl"],
     arq: ["عسل", "ʕsəl"],
@@ -1089,7 +1089,7 @@ WORDS.honey = {
     ko_mid: ["·ᄢᅮᆯ", "pskul"],
     ko_em: ["ᄭᅮᆯ", "k͈ul"],
     pkar: ["*tapl-", "tapl"],
-    xct_litpr: ["སྦྲང་རྩི", "sbraŋ rtsi"],
+    xct_litpr: ["སྦྲང་རྩི", "ʈʂəŋ tsi"],
     lbz_damin: ["m!iwu", "ŋ͡ʘiwu"],
     cjy_xz: ["蜂蜜", "fəŋ˧˩ miəʔ˦˧"],
     czh_wy: ["蜂蜜", "fɔm˦˦ mi˥˩"],
@@ -1115,6 +1115,8 @@ WORDS.honey = {
     juc: ["hitsu", "xitsu"],
     xpu: ["𐤍𐤐𐤕", "nofet"],
     xsa: ["𐩵𐩨𐩪", "dibs"],
-    okz: ["មធុ", "madʰuː"]
+    okz: ["មធុ", "madʰuː"],
+    anu: ["maar kïc", "maːr kitʃ"],
+    soa: ["น้ำผึ้ง", "nam˦˧ pʰɯŋ˧"]
   },
 };

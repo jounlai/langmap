@@ -89,7 +89,7 @@ WORDS.fish = {
     pt_mo: ["peixe", "ˈpajʃɨ"],
     lb: ["Fësch", "fəʃ"],
     gcr: ["pwason", "pwasɔ̃"],
-    acf: ["pwason", "pwasɔ̃"],
+    acf: ["pwéson", "pwesɔ̃"],
     gan_yc: ["鱼", "ȵy˧˧"],
     gan_ja: ["鱼", "ŋiɛ˩˩"],
     gan_fz: ["鱼", "ȵiɛ˨˦"],

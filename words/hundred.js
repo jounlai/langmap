@@ -488,7 +488,7 @@ WORDS.hundred = {
     // --- Tibeto-Burman -----------------------------------------------------
     p_sit: ["*r-gya", "rɡja"],
     xct: ["བརྒྱ", "brɡja"],
-    xct_litpr: ["བརྒྱ", "brɡja"],
+    xct_litpr: ["བརྒྱ", "ca"],
     obr: ["ရာ", "raː"],
     my: ["ရာ", "jà"],
 
@@ -1150,6 +1150,8 @@ WORDS.hundred = {
     kho: ["𑀲𑀢", "sata"],
     pt_gw: ["sen", "sẽ"],
     ho: ["handred", "handred"],
-    ket: ["киʼ", "kʲiʔ"]
+    ket: ["киʼ", "kʲiʔ"],
+    shn: ["ပၢၵ်ႇၼိုင်ႈ", "paːk˩ nɯŋ˧˨"],
+    iru: ["nūru", "nuːɾu"]
   },
 };

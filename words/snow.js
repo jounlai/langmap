@@ -261,7 +261,7 @@ WORDS.snow = {
     cdo: ["雪", "suɔʔ˨˦"],
     bo: ["ཁ་བ", "kʰawa˥"],
     bft: ["ཁ་བ", "kʰawa"],
-    lbj: ["ཁ་བ", "kʰawa"],
+    lbj: ["ཁ", "kʰa"],
     khg: ["ཁ་བ", "kʰawa"],
     cng: ["pe", "pe"],
     ii: ["ꃰ", "vo˧˧"],
@@ -546,7 +546,7 @@ WORDS.snow = {
     dz: ["ཁ་བ", "kʰawa"],
     xsr: ["ཁ་བ", "kʰawa"],
     xkz: ["ka", "ka"],
-    sip: ["ཁ་བ", "kʰawa"],
+    sip: ["ཁ་བོ", "kʰau"],
     min: ["salju", "saldʒu"],
     ban: ["salju", "saldʒu"],
     shi: ["ⴰⴷⴼⵍ", "adfil"],
@@ -657,7 +657,7 @@ WORDS.snow = {
     it_dan: ["neve", "ˈneve"],
     goh: ["snēo", "sneːo"],
     xct_litpr: ["ཁ་བ", "kʰawa"],
-    xct: ["ཁ་བ", "kʰawa"],
+    xct: ["ཁ་བ", "kʰaba"],
     de_lut: ["Schnee", "ʃneː"],
     gmh: ["snē", "sneː"],
     es_sgl: ["nieve", "ˈnjeve"],
@@ -975,6 +975,9 @@ WORDS.snow = {
     cak: ["nieve", "ˈnjebe"],
     cab: ["niewe", "niewe"],
     egy: ["𓐠𓏤𓂋𓏤𓈎𓅱𓇲𓏥", "salɡuː"],
-    kgg: ["yaq", "jaq"]
+    kgg: ["yaq", "jaq"],
+    yan: ["mukus pihni", "mukus pihni"],
+    ndc: ["chando", "tʃando"],
+    grt: ["borop", "borop"]
   }
 };

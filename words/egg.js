@@ -66,8 +66,8 @@ WORDS.egg = {
     en_ng2: ["egg", "ɛɡ"],
     pt_mo: ["ovo", "ˈovu"],
     lb: ["Ee", "eː"],
-    gcr: ["zé", "ze"],
-    acf: ["ze", "ze"],
+    gcr: ["dizé", "dize"],
+    acf: ["zé", "ze"],
     ik: ["mannik", "manːik"],
     es_bo: ["huevo", "ˈweβo"],
     es_py: ["huevo", "ˈweβo"],
@@ -544,7 +544,7 @@ WORDS.egg = {
     goh: ["ei", "ɛi"],
     gez: ["አንቆቅሆ", "ʔanqoqəho"],
     xct_litpr: ["སྒོ་ང", "ɡoŋa"],
-    xct: ["སྒོ་ང", "ɡoŋa"],
+    xct: ["སྒོ་ང", "sɡoŋa"],
     kaw: ["ꦲꦼꦟ꧀ꦝꦺꦴꦒ꧀", "əɳɖoɡ"],
     de_lut: ["Ey", "aɪ̯"],
     gmh: ["ei", "ɛi"],
@@ -1123,6 +1123,9 @@ WORDS.egg = {
     hai: ["ḵáw", "qʰáw"],
     fia: ["kúmbúú", "kúmbúː"],
     nmn: ["ᶢǂúã", "ᶢǂũã"],
-    rmt: ["ana", "ana"]
+    rmt: ["ana", "ana"],
+    anu: ["tøŋ gwienø", "tøŋ ɡwienø"],
+    mev: ["nyàà", "ɲàː"],
+    soa: ["ไข่", "kʰaj˧˥"]
   },
 };

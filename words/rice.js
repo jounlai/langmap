@@ -816,7 +816,7 @@ WORDS.rice = {
     zh_song: ["米", "mi"],
     pmh: ["तंडुल", "taɳɖula"],
     xct: ["འབྲས", "bras"],
-    xct_litpr: ["འབྲས", "bras"],
+    xct_litpr: ["འབྲས", "ʈʂɛː"],
     h_tagalog: ["ᜊᜒᜄᜐ᜔", "biˈɡas"],
     xqa: ["tuturqan", "tuturqan"],
     txg: ["𘌐", "kʰie˧˥"],
@@ -836,6 +836,7 @@ WORDS.rice = {
     sms: ["riss", "risː"],
     xav: ["aro", "aˈɾɔ"],
     gym: ["aro", "aɾo"],
-    tlh: ["ray' tIr", "rajʔ tɪr"]
+    tlh: ["ray' tIr", "rajʔ tɪr"],
+    zap: ["arros", "aɾos"]
   }
 };

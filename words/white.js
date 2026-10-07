@@ -693,7 +693,7 @@ WORDS.white = {
     lus: ["vâr", "var"],
     dz: ["དཀར་པོ", "kaːp"],
     xsr: ["དཀར་པོ", "karpo"],
-    sip: ["དཀར་པོ", "karpo"],
+    sip: ["དཀར་པོ", "kaːpu"],
     min: ["putiah", "putiah"],
     nia: ["afusi", "afusi"],
     ban: ["putih", "putih"],
@@ -872,7 +872,7 @@ WORDS.white = {
     goh: ["wīz", "wiːts"],
     gez: ["ጸዓዳ", "sˤaʕaːdaː"],
     gmy: ["𐀩𐀄𐀒", "leukos"],
-    xct_litpr: ["དཀར་པོ", "dkar po"],
+    xct_litpr: ["དཀར་པོ", "kaː po"],
     xct: ["དཀར་པོ", "dkar po"],
     xpu: ["𐤋𐤁𐤍", "laban"],
     kaw: ["ꦥꦸꦠꦶꦃ", "putih"],
@@ -973,7 +973,7 @@ WORDS.white = {
     otq: ["tꞌaxi", "tʼaʃi"],
     tar: ["rosá", "rosa"],
     orv: ["бѣлъ", "bʲelŭ"],
-    sukh: ["ขาว", "kʰaːw"],
+    sukh: ["ขาว", "kʰaːw"], // r57: xaːw (Proto-Tai *x) held — the word is spelled ข, not ฃ; Sukhothai value unconfirmed
     onw: ["ⳟⲟⲩⲗⲟⲩ", "ŋulu"],
     qwc: ["yuraq", "juraq"],
     chb: ["pquyhisio", "pkɨhisio"],
@@ -1199,6 +1199,8 @@ WORDS.white = {
     p_aav: ["*ɓɔːk", "ɓɔːk"],
     pura: ["*wëlketa", "wɤlketa"],
     dsh: ["edh", "eð"],
-    na: ["bərəbər", "bərəbər"]
+    na: ["bərəbər", "bərəbər"],
+    anu: ["tar", "tar"],
+    gej: ["ɣe", "ɣe"]
   },
 };

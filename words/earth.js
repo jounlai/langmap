@@ -715,7 +715,7 @@ WORDS.earth = {
     mpj: ["manta", "manta"],
     bft: ["ས", "sa"],
     lbj: ["ས", "sa"],
-    khg: ["ས", "sa"],
+    khg: ["ས", "sʰa˥˧"],
     xsr: ["ས", "sa"],
     sip: ["ས", "sa"],
     anp: ["माटी", "maːʈiː"],

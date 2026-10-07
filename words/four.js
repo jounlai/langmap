@@ -762,7 +762,7 @@ WORDS.four = {
     ja_mvi: ["四つ", "juːtsɨ"],
     agq: ["cìakɔ̀", "tʃìakɔ̀"],
     blc: ["mus", "mus"],
-    khg: ["བཞི", "ʑi"],
+    khg: ["བཞི", "ʑe"],
     ngu: ["nahui", "nawi"],
     nhw: ["nahui", "nawi"],
     umb: ["kwãla", "kwalã"],
@@ -871,7 +871,7 @@ WORDS.four = {
     cpx: ["四", "ɬi˦˨"],
     bft: ["བཞི", "bʒi"],
     xct: ["བཞི", "bʑi"],
-    xct_litpr: ["བཞི", "bʑi"],
+    xct_litpr: ["བཞི", "ɕi"],
     och: ["四", "*s.li[j]-s"],
     zh_han: ["四", "s(h)jǝś"],
     njo: ["pezü", "pezy"],
@@ -1217,6 +1217,8 @@ WORDS.four = {
     xlu: ["māuwa-", "ˈmaːuwa"],
     onw: ["ⲕⲉⲙⲥⲟ", "kemso"],
     pal: ["𐭰𐭧𐭠𐭫", "tʃahaːr"],
-    aau: ["ihaiha-aw", "ihaiha aw"]
+    aau: ["ihaiha-aw", "ihaiha aw"],
+    cni: ["otsipasati", "otsipasati"],
+    tdh: ["ब्लले", "bləle"]
   },
 };

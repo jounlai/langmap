@@ -575,12 +575,6 @@
     "ruling": "circular",
     "note": "Classical Tibetan མིང ming; PST *r-miŋ rests on Tibetan among others."
   },
-  "xct|nose": {
-    "form": "na",
-    "proto": "p_sit",
-    "ruling": "circular",
-    "note": "Classical Tibetan སྣ sna; PST *s-na rests on it. SEPARATE ISSUE, not a leak: the IPA writes na and drops the s- prescript, which Classical Tibetan pronounced. Worth a transcription pass, not a provenance one."
-  },
   "xng|five": {
     "form": "tabun",
     "proto": "pmng",
@@ -802,12 +796,6 @@
     "proto": "ptrk",
     "ruling": "circular",
     "note": "Old Turkic (Orkhon) is the principal basis of the Proto-Turkic reconstruction. Ruled 2026-10-03 (round 45)."
-  },
-  "sukh|black": {
-    "form": "dam",
-    "proto": "ptai",
-    "ruling": "inherited",
-    "note": "Sukhothai (Ramkhamhaeng inscription) attests the Tai word unchanged from Proto-Tai (r45 slice 3). Ruled 2026-10-03 (round 45)."
   },
   "sukh|horse": {
     "form": "maː",

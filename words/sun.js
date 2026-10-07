@@ -80,7 +80,7 @@ WORDS.sun = {
       pt_mo: ["sol", "sol"],
       lb: ["Sonn", "zon"],
       gcr: ["solèy", "sɔlɛj"],
-      acf: ["solèy", "solɛj"],
+      acf: ["sòlèy", "sɔlɛj"],
       gan_yc: ["日", "ȵiʔ˦"],
       gan_ja: ["日头", "lɛ˧˧˦ tʰɛu˩˩"],
       gan_fz: ["日头", "ȵit˥ xɛu˨˦"],

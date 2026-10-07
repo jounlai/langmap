@@ -557,7 +557,7 @@ WORDS.sleep = {
     it_dan: ["dormire", "dorˈmire"],
     goh: ["slāfan", "ˈslɑːfan"],
     gez: ["ኖመ", "noːma"],
-    xct_litpr: ["ཉལ", "ɲal"],
+    xct_litpr: ["ཉལ", "ɲɛː"],
     xct: ["ཉལ", "ɲal"],
     kaw: ["ꦠꦸꦫꦸ", "turu"],
     de_lut: ["schlaffen", "ˈʃlafən"],
@@ -752,7 +752,7 @@ WORDS.sleep = {
     bft: ["ཉལ", "ɲal"],
     lbj: ["ཉལ", "ɲal"],
     xsr: ["ཉལ", "ɲal"],
-    sip: ["ཉལ", "ɲal"],
+    sip: ["ཉལ", "ɲɛː"],
     dz: ["ཉལ", "ɲɛː"],
     obr: ["အိပ်", "ʔip"],
     grt: ["tu·a", "tua"],
@@ -1157,6 +1157,7 @@ WORDS.sleep = {
     fia: ["nèèr-", "nèːr"],
     kqz: ["ǁūm", "ǁʔuːm"],
     ktz: ["tsʼá", "tsʼá"],
-    rmt: ["šuš-", "ʃuʃ"]
+    rmt: ["šuš-", "ʃuʃ"],
+    dds: ["girii yeyyee", "ɡiriː jejːeː"]
   },
 };

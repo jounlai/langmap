@@ -698,7 +698,7 @@ WORDS.drink = {
     kru: ["ओंकना", "oŋkːnaː"],
     mad: ["ngenom", "ŋənɔm"],
     hil: ["inom", "ʔinom"],
-    cbk: ["bebe", "beˈbe"],
+    cbk: ["toma", "toˈma"],
     bal: ["نوشاگ", "noʃaːɡ"],
     ak: ["nom", "nom"],
     ada: ["nu", "nu"],

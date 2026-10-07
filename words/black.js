@@ -297,7 +297,7 @@ WORDS.black = {
     // --- Tibeto-Burman -------------------------------------------------
     bo: ["ནག་པོ", "naʔpo˩˧"],
     xct: ["ནག་པོ", "nag po"],
-    xct_litpr: ["ནག་པོ", "naɡpo"],
+    xct_litpr: ["ནག་པོ", "nako"],
     bft: ["ནག་པོ", "naɡpo"],
     dz: ["ནགཔ", "naːp"],
     my: ["မည်း", "mɛ́"],
@@ -385,7 +385,7 @@ WORDS.black = {
     th_n: ["ดำ", "dam˧"],
     th_s: ["ดำ", "dam˧"],
     soa: ["ดำ", "dam˨˦"],
-    sukh: ["ดำ", "dam"],
+    sukh: ["ดำ", "ʔdam"],
     za: {
       form: "黯",
       ipa:  "ɗam˨˦",
@@ -640,7 +640,7 @@ WORDS.black = {
     afb: ["أسود", "ˈʔaswad"],
     acw: ["أسود", "ˈʔaswad"],
     ar_sd: ["أسود", "ˈaswad"],
-    ayl: ["أسود", "ˈʔaswad"],
+    ayl: ["أسود", "ˈʔaswid"],
     ar_tn: ["أكحل", "akħal"],
     arq: ["كحل", "kħal"],
     ar_qur: ["أسود", "ʔaswadu"],
@@ -1240,6 +1240,7 @@ WORDS.black = {
     hai: ["hlg̱ahl", "ɬɢaɬ"],
     kwa: ["câ", "câ"],
     fia: ["úrúm", "úrúm"],
-    khw: ["ݰا", "ʂa"]
+    khw: ["ݰا", "ʂa"],
+    anu: ["cøl", "tʃøl"]
   },
 };

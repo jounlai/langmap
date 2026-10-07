@@ -228,7 +228,7 @@ WORDS.iron = {
     ar_tn: ["حديد", "ħadiːd"],
     ar_sd: ["حديد", "ħadiːd"],
     ayl: ["حديد", "ħadiːd"],
-    arq: ["حديد", "ħadiːd"],
+    arq: ["حديد", "ħdiːd"],
 
     // --- Germanic — *īsarną, and the lects that never diphthongised ī -----
     en_us: ["iron", "ˈaɪɚn"],
@@ -748,7 +748,7 @@ WORDS.iron = {
     gan_fz: ["铁", "tʰiɛt˨"],
     hsn: ["铁", "tʰie˨˦"],
     hsn_hy: ["铁", "tʰie˨˨"],
-    czh: ["铁", "tʰiəʔ˨˦"],
+    czh: ["铁", "tʰiɛ˥"],
     czh_wy: ["铁", "tʰɛ˥˩"],
     hak_cn: ["铁", "tʰiet˧"],
     hak_tw: ["鐵", "tʰiet˨"],

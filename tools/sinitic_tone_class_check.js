@@ -192,6 +192,9 @@ const ALLOW = [
 //   yue_ts is already reported by --wide for a self-contradictory 陰上 and is
 //   blocking a 朱古力 cell; fixing that row settles both at once.
 const DEBT = [
+  // r60 (2026-10-07): gan_fz 陰入/陽平 and czh 陽平 entries removed — the r60
+  // audit re-took those rows from MCPDict 臨川上頓渡 / 屯溪 and they now agree.
+  { code: 'gan', cls: '陽平', why: 'MCPDict 南昌 itself splits the class: 熊 紅 鹽 牙 人 猫 tone 5 (45), 魚 茶 tone 2 (24) — data, not a slip (r60)' },
   // Added 2026-09-24, and these two are a different shape from the rest of the
   // 入聲 list: here the NEW cells are the correct ones and the row is wrong.
   //
@@ -217,7 +220,6 @@ const DEBT = [
   { code: 'nan_zz', cls: '陰入' },
   { code: 'hak_cn', cls: '陽入' },
   { code: 'gan_yc', cls: '陰入' },
-  { code: 'gan_fz', cls: '陰入' },
   { code: 'czh', cls: '陽入' },
   { code: 'cjy_xz', cls: '陽入' },
   { code: 'hsn_yz', cls: '陰入' },
@@ -228,9 +230,7 @@ const DEBT = [
   // unsourced tones. Fill them from a fuller source rather than nudging them.
   { code: 'gan_ja', cls: '陰入', why: '喝, 吃 not in the MCPDict 吉安 table (1,171 characters)' },
   { code: 'gan_ja', cls: '陰平', why: '三 not in the MCPDict 吉安 table' },
-  { code: 'gan_fz', cls: '陽平', why: '盐 not in the MCPDict 撫州 table' },
   // 平聲 — the original list.
-  { code: 'czh', cls: '陽平' },
   { code: 'cnp', cls: '陰平' },
   { code: 'zh_jh', cls: '陰平' },
   { code: 'wuu_nb', cls: '陽平' },

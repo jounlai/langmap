@@ -324,7 +324,7 @@ WORDS.black = {
 
     // --- Caucasian -----------------------------------------------------
     ce: ["ӏаьржа", "ʕærʒa"],
-    inh: ["ӏаьржа", "ʕærʒa"],
+    inh: ["ӏаьржа", "ʕæːrʒa"],
     av: ["чӏегӏераб", "tʃʼeʕerab"],
     lez: ["чӏулав", "tʃʼulav"],
     ady: ["шӏуцӏэ", "ʃʷʼətsʼa"],
@@ -354,9 +354,9 @@ WORDS.black = {
     rap: ["uri", "uɾi"],
 
     // --- More Austronesian — Malayic *hitam, Batak birong, Polynesian uli
-    abs: ["hitam", "hitam"],
+    abs: ["itang", "itaŋ"],
     max: ["itam", "itam"],
-    mui: ["hitam", "hitam"],
+    mui: ["item", "itəm"],
     omy: ["hitam", "hitam"],
     osn: ["hideung", "hidɯŋ"],
     gay: ["item", "item"],
@@ -478,7 +478,7 @@ WORDS.black = {
 
     // --- Niger-Congo ---------------------------------------------------
     ssw: ["mnyama", "mɲaːma"],
-    nbl: ["mnyama", "mɲaːma"],
+    nbl: ["nzima", "nzima"],
     nd: ["mnyama", "mɲaːma"],
     ndc: ["svipa", "svipa"],
     bem: ["fiita", "fiːta"],
@@ -778,7 +778,7 @@ WORDS.black = {
     zh_jh: ["黑", "xəʔ˥˥"],
     cjy: ["黑", "xəʔ˨"],
     hsn: ["黑", "xə˨˦"],
-    gan: ["黑", "hɛʔ˥"],
+    gan: ["黑", "hɛt˥"],
     mnp: ["乌", "u˥˦"],
     zh_tj: ["黑", "xei˨˩"],
     zh_wh: ["黑", "xɤ˨˩˧"],
@@ -829,7 +829,7 @@ WORDS.black = {
     mer: ["njirũ", "ndʒiɾo"],
     kam: ["nziũ", "nziu"],
     yue_ts: ["黑", "haːk̚˥˥"],
-    czh: ["黑", "xɤʔ˨˦"],
+    czh: ["黑", "xə˥"],
     laj: ["acol", "atʃol"],
     nyn: ["kwiragura", "kwiraɡura"],
     cgg: ["kwiragura", "kwiraɡura"],
@@ -1053,7 +1053,7 @@ WORDS.black = {
     vi_han: ["黑", "hak˧˥"],
     nan_ph: ["烏", "ɔ˧˧"],
     lrc: ["سی", "si"],
-    pnb: ["کالا", "kaːlaː"],
+    pnb: ["کالا", "kaːɭaː"],
     haz: ["سیاه", "sijɒ"],
     de_at: ["schwarz", "ʃvarts"],
     nus: ["car", "tʃar"],

@@ -305,7 +305,7 @@ WORDS.daughter = {
     ltg: ["meita", "ˈmeita"],
 
     // --- Uralic — Finnic *tütär, and a separate Permic/Volga word --------
-    krl: ["tytär", "ˈtytær"],
+    krl: ["tytär", "ˈtʲytʲær"],
     olo: ["tytär", "ˈtytær"],
     vep: ["tütär", "ˈtytær"],
     vot: ["tütär", "ˈtytær"],
@@ -361,7 +361,7 @@ WORDS.daughter = {
     acw: ["بنت", "bint"],
     ar_sa: ["بنت", "bint"],
     ar_ye: ["بنت", "bint"],
-    mey: ["بنت", "bint"],
+    mey: ["منت", "mənt"],
     ar_ma: ["بنت", "bənt"],
     arq: ["بنت", "bənt"],
     ar_tn: ["بنت", "bənt"],
@@ -621,7 +621,7 @@ WORDS.daughter = {
     ess: ["паник", "panik"],
     gan: ["女", "ȵy˨˩˧"],
     hsn: ["女", "ny˦˩"],
-    czh: ["女", "ny˧˩"],
+    czh: ["女", "ȵy˨˦"],
     czh_wy: ["女", "li˧˩"],
     yue_ts: ["女", "ⁿdui˥˥"],
     yue_nn: ["女", "ny˧˥"],

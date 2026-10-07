@@ -676,7 +676,7 @@ WORDS.mouth = {
     mer: ["kanyua", "kaɲua"],
     yue_ts: ["口", "heu˥˥"],
     hak_tw: ["嘴", "tsoi˥"],
-    czh: ["嘴", "tɕy˦˦"],
+    czh: ["嘴", "tse˧˩"],
     cpx: ["喙", "tsʰui˦˨"],
     luo: ["dhok", "ðok"],
     laj: ["dog", "doɡ"],

@@ -562,7 +562,7 @@ WORDS.book = {
     mer: ["yuku", "juku"],
     kam: ["ĩvuku", "ivuku"],
     yue_ts: ["书", "si˧˧"],
-    czh: ["书", "ɕy˧˧"],
+    czh: ["书", "ɕy˩˩"],
     cpx: ["册", "tsʰa˩˩"],
     din: ["athör", "at̪ɔr"],
     laj: ["buk", "buk"],

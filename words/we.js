@@ -1220,7 +1220,7 @@ WORDS.we = {
     gcr: ["nou", "nu"],
     acf: ["nou", "nu"],
     gan_yc: ["我勒", "ŋo˧˥ lə"], // was ["我勒", "ŋo˨˩˧ lə"] (r46 fix 2026-10-03)
-    gan_ja: ["我东", "ŋo˧˩ tuŋ˦˨"],
+    gan_ja: ["我东", "ŋo˥˧ tuŋ˧˧˦"], // was ["我东", "ŋo˧˩ tuŋ˦˨"] (vi dialect rules 2026-10-06)
     gan_fz: ["—", "—"],
     cjy_lv: ["俺们", "ɣæ̃˥˧ mə"],
     cjy_xz: ["咱们 / 我们", "tsa˥˧ mə / ŋɤ˧˩ mə"],
@@ -1924,7 +1924,7 @@ WORDS.we = {
     mnp: ["俺人 / 我人", "aŋ˥˦ neiŋ˧˧ / uɛ˦˨ neiŋ˧˧"],
     nan_te: ["俺 / 阮", "naŋ˥˨ / uaŋ˥˨"],
     yue_ts: ["我", "ŋɔi˨˩"],
-    czh: ["我人", "ŋo˧˩ ʐən˨˩˧"],
+    czh: ["我人", "a˨˦ ȵin˦˦"], // was ["我人", "ŋo˧˩ ʐən˨˩˧"] (vi dialect rules 2026-10-06)
     cnp: ["我哋", "ŋo˨˩ ti˨˩"],
     zh_jh: ["我们", "o˨˩˨ mən"],
     zh_tj: ["我们", "wo˩˧ mən"],
@@ -2115,7 +2115,7 @@ WORDS.we = {
     gmh: ["wir", "wir"],
     es_sgl: ["nosotros", "nosˈotros"],
     osp: ["nós", "nos"],
-    okz: ["យើង", "jeːŋ"],
+    okz: ["យើង", "jɤːŋ"], // r60: Angkorian value (Jenner), was jeːŋ
     osx: ["wī", "wiː"],
     mos: ["tõnd", "tõnd"],
     maw: ["tidima", "tidima"],

@@ -98,7 +98,7 @@ WORDS.butterfly = {
     cdo: ["蝴蝶", "hu˥˧ tieʔ˥"],  // Sinitic 蝴蝶; IPA is the realised sandhi form (蝴 53→33, and 蝶 t- lenites to l- between vowels), not the citation tones
     cho: ["hatapushik", "hatapoʃik"],  // Byington also records haahtapushik and hatapushi; the Choctaw Nation of Oklahoma dictionary spells the word hʋtapushik (reached via Wiktionary, which cites it)
     chp: ["yágoli", "jáɡoli"],  // formation not stated in the source
-    cjy: ["蝴蝶", "xu˩ tiəʔ˥˦"],  // the general Chinese word; earlier written 胡蝶. Taiyuan also has the diminutive 蝴蝶兒
+    cjy: ["蝴蝶", "xu˦˥ tiəʔ˥˦"],  // the general Chinese word; earlier written 胡蝶. Taiyuan also has the diminutive 蝴蝶兒
     ckb: ["پەپوولە", "pɛpuːlɛ"],  // a reduplicated pe-pû-le, matching Kurmanji p'irp'irok, Zazaki filfilik and Hebrew parpar; Sorani keeps it distinct from پەروانە perwane 'moth'
     dak: ["kímama", "kímama"],  // reduplicative in shape; Riggs also records the diminutive kimamana, Williamson a variant kimimana
     gu: ["પતંગિયું", "pətəŋɡijũ"],  // a diminutive of પતંગ patang 'flying insect, moth' (Sanskrit pataṅgá 'flying creature', Turner CDIAL p. 436) - a different root from the titlī of Hindi-Urdu-Punjabi
@@ -326,7 +326,7 @@ WORDS.butterfly = {
     jya: ["kʰai pa lolo", "kʰai pa lolo"],  // Reduplicated lo-lo in the last element; the database's Maerkang Soman rGyalrong.
     shx: ["pi35pɔ53", "pi˧˥pɔ˥˧"],  // Reduplicative pi-pɔ.
     yue: ["蝴蝶", "wuː˨˩ tiːp˨"],  // The same 蝴蝶 as Mandarin, read wu4 dip6. Beida also records a second Guangzhou word, pɐŋ⁵⁵ʃa⁵³.
-    gan: ["蝴蝶", "fu˥ tʰiɛt˥"],  // The same 蝴蝶 as Mandarin, in its regular Nanchang Gan reading.
+    gan: ["蝴蝶", "fu˦˥ tʰiɛt˥"],  // The same 蝴蝶 as Mandarin, in its regular Nanchang Gan reading.
     hsn: ["蝴蝶", "xu˩˧ tʰie˨˦"],  // The same 蝴蝶 as Mandarin, in its regular Changsha Xiang reading.
     ain: ["ヘポラㇷ゚", "hepoɾap"],  // Tamura adds that a moth is apeetun-heporap 'fire-borrowing butterfly' or kunne-heporap 'night butterfly', and a butterfly proper can be tókap-heporap 'daytime butterfly', though normally just heporap.
     swi: ["ʔba3", "ʔba˧˧"],  // IDS's Sui is a different lect from the row's Miaocao village speech (it has qam4 'head' for the row's ku3, śi5 'four' for hi5), so the vowel is taken on trust.

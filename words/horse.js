@@ -584,7 +584,7 @@ WORDS.horse = {
     yao: ["falasi", "falasi"],
     mer: ["mbarathi", "mbaɾaði"],
     yue_ts: ["马", "ma˨˩"],
-    czh: ["马", "mo˦˦"],
+    czh: ["马", "muːə˨˦"],
     cpx: ["马", "pɒ˦˥˧"],
     din: ["mathiaŋ", "mat̪iaŋ"],
     luo: ["faras", "faras"],

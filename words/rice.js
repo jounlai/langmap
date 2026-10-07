@@ -442,7 +442,7 @@ WORDS.rice = {
     kde: ["nnyele", "nɲele"],
     kam: ["mũsele", "musele"],
     yue_ts: ["米", "mai˥˥"],
-    czh: ["米", "mɿ˦˦"],
+    czh: ["米", "me˨˦"],
     cpx: ["米", "pi˦˥˧"],
     luo: ["ochele", "otʃele"],
     ay: ["arusa", "aɾusa"],

@@ -541,7 +541,7 @@ WORDS.green = {
     tum: ["biriŵira", "biɾiβiɾa"],
     kam: ["ngilini", "ŋɡilini"],
     yue_ts: ["绿", "lɵk̚˨˨"],
-    czh: ["绿", "nɤʔ˨˧"],
+    czh: ["绿", "liu˩˩"],
     nyn: ["kibabi", "kibabi"],
     cgg: ["kinyaasi", "tʃiɲaːsi"],
     fon: ["amamǔ", "amamǔ"],

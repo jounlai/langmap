@@ -1392,7 +1392,7 @@ WORDS.foot = {
     cuk: ["nag", "nak"],  // Daniel 2:33 sets e-malimar 'its legs' against e-nagmar 'its feet', both Kuna New Testaments wash nag through John 13, and Holmer and Constenla list the same naka 'foot' beside mali 'leg'.
     cv: ["ура лаппи", "uˈra laˈpi"],  // Chuvash ура лаппи is 'leg-palm', built on ура.
     cy: ["troed", "troːɨ̯d"],  // troed vs coes.
-    czh: ["脚", "tɕio˨˦"],  // Tunxi glosses 腳 ʨio as 下肢 outright, calls the thigh 大髈 rather than 大腿 and a lame man 折腳, and every Hui point names the knee 腳膝頭; MCPDict 屯溪, 钱惠英 2008 and the Tunxi rhyme table (藥 under io) all write the syllable open, and ˨˦ is this row's 陰入 on nine cells.
+    czh: ["脚", "tɕio˥"],  // Tunxi glosses 腳 ʨio as 下肢 outright, calls the thigh 大髈 rather than 大腿 and a lame man 折腳, and every Hui point names the knee 腳膝頭; MCPDict 屯溪, 钱惠英 2008 and the Tunxi rhyme table (藥 under io) all write the syllable open, and ˨˦ is this row's 陰入 on nine cells. // was ["脚", "tɕio˨˦"] (vi dialect rules 2026-10-06)
     da: ["fod", "foˀð"],  // fod vs ben.
     dag: ["napɔŋ", "napɔŋ"],  // napɔŋ is glossed 'leg-and-foot' in the Dagbani Dictionary, where gbali is only the thigh.
     dak: ["sihá", "sihá"],  // Riggs makes sihá the foot and hú the leg, and the Dakota New Testament washes siha at John 13:5 against minape 'my hand' before it breaks hu at 19:31-33.
@@ -1935,7 +1935,7 @@ WORDS.foot = {
     ohu: ["láb", "laːb"],  // ÚESz s.v. láb: the 1267 sense is glossed 'Bein, Fuß' — one word for the limb from the earliest Old Hungarian data, as the modern hu row still is; lábfej and lábszár are later compounds on it.
     oj: ["nizid", "nizid"],  // Ojibwe splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes ninij as ninidʒ.
     ojp: ["足", "asi"],  // PJ *asi runs the whole limb (日本国語大辞典: 股関節から足先まで), as the compounds 足占 a-ura and 足結 a-yupi show.
-    okz: ["ជើង", "cɤːŋ"],  // Jenner's Angkorian Khmer A1040 glosses jeṅ 'Lower limb: foot (pāda), leg', passim over 254 inscriptional occurrences; IPA is Jenner's own modern-Khmer citation value, as this row's ភ្លើង pʰlɤːŋ already is.
+    okz: ["ជើង", "ɟɤːŋ"],  // r60: IPA moved to Jenner's Angkorian value with the row's 16-cell switch (was cɤːŋ). Earlier note: Jenner's Angkorian Khmer A1040 glosses jeṅ 'Lower limb: foot (pāda), leg', passim over 254 inscriptional occurrences; IPA is Jenner's own modern-Khmer citation value, as this row's ភ្លើង pʰlɤːŋ already is.
     olk: ["ebmal", "ebmal"],  // Hamilton's Kowanyama dictionary gives ebmal 'foot, toe' for both Olkola and Oykangand, with ebmal iba 'sole of foot' beside it, against odndo 'shin, lower leg' and ubman 'thigh'; amun and arrbmbun are the Uw Ilbmbanhdhiy respect forms, not the everyday word.
     olo: ["jalgu", "ˈjalɡu"],  // One word for the whole lower limb, the Uralic norm.
     om: ["miilla", "miːlːa"],  // Oromo splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes harka as haɾka.

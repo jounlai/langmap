@@ -966,7 +966,7 @@ WORDS.n99 = {
     ngu: ["napoajli huan majtlactli huan chicnahui", "napoahli wan mahtɬaktɬi wan tʃiknawi"],
     ng: ["omilongo omugoyi nomugoyi", "omiloŋɡo omuɡoji nomuɡoji"],
     new: ["गुइगु", "ɡuiɡu"],
-    ndc: ["makumi mapfumbamwe na mapfumbamwe", "makumi mapfumbamwe na mapfumbamwe"],
+    ndc: ["makumi mapfumbamwe nepfumbamwe", "makumi mapfumbamwe nepfumbamwe"], // was ["makumi mapfumbamwe na mapfumbamwe", "makumi mapfumbamwe na mapfumbamwe"] (vi dialect rules 2026-10-06)
     nd: ["amatshumi aficamunwemunye lesificamunwemunye", "amatʃumi afiǀamunwemunje lesifiǀamunwemunje"],
     nbl: ["amatjhumi alithoba nethoba", "amatʃʰumi alitʰoɓa netʰoɓa"],
     naq: ["khoesedisikhoeseǀa", "kʰoesedisikʰoeseǀa"],
@@ -1221,7 +1221,7 @@ WORDS.n99 = {
     te: ["తొంభై తొమ్మిది", "t̪ombʱai t̪omːidi"],
     mnp: ["九十九", "kiu˨˩ si˥˦ kiu˨˩"],
     cdo: ["九十九", "kau˧˧ sɛiʔ˥ kau˧˧"],
-    gan: ["九十九", "tɕiu˨˩˧ sɨʔ˨ tɕiu˨˩˧"],
+    gan: ["九十九", "tɕiu˨˩˧ sɨt˨ tɕiu˨˩˧"], // was ["九十九", "tɕiu˨˩˧ sɨʔ˨ tɕiu˨˩˧"] (vi dialect rules 2026-10-06)
     cnp: ["九十九", "kɐu˧˧ sɐp˨ kɐu˧˧"],
     hak_tw: ["九十九", "kiu˧˩ sɨp˥ kiu˧˩"],
     nan: ["九十九", "kau˥˧ tsap˦ kau˥˧"],
@@ -1239,7 +1239,7 @@ WORDS.n99 = {
     haz: ["نود و نه", "nawad u no"],
     prs: ["نود و نه", "nawad u no"],
     thr: ["निन्यानवे", "ninjaːnəʋe"],
-    pnb: ["ننانوے", "nənaːnʋeː"],
+    pnb: ["نڑھنویں", "nəɽɦɪnʋẽː"], // was ["ننانوے", "nənaːnʋeː"] (vi dialect rules 2026-10-06)
     pms: ["novanteneuv", "nuvanteˈnøv"],
     vec: ["novantanove", "novantaˈnove"],
     nap: ["nuvantanove", "nuvantaˈnɔvə"],
@@ -1464,7 +1464,7 @@ WORDS.n99 = {
     ar_tn: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
     ar_sd: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
     ayl: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
-    arq: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
+    arq: ["تسعة وتسعين", "tasʕa w tasʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     en_us: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ca: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_au: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],

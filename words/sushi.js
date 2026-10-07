@@ -189,7 +189,7 @@ WORDS.sushi = {
     "fy": ["sushi", "ˈsuʃi"],
     "ga": ["sushi", "ˈsʊʃiː"],
     "gag": ["suşi", "suˈʃi"],
-    "gan": ["寿司", "sɨu˨˩ sz̩˦˨"],
+    "gan": ["寿司", "siu˨˩ sz̩˦˨"],
     "gay": ["sushi", "ˈsuʃi"],
     "gl": ["sushi", "ˈsuʃi"],
     "gmh": ["stocvisch", "ˈstɔkfiʃ"],

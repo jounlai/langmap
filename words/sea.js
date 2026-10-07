@@ -526,7 +526,7 @@ WORDS.sea = {
     myx: ["inyaantsa", "iɲaːntsa"],
     kam: ["ũkanga", "ukaŋɡa"],
     yue_ts: ["海", "hɔi˥˥"],
-    czh: ["海", "xa˦˦"],
+    czh: ["海", "xuə˧˩"],
     cpx: ["海", "hai˦˥˧"],
     luo: ["nam", "nam"],
     laj: ["nam", "nam"],

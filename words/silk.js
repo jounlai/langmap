@@ -354,7 +354,7 @@ WORDS.silk = {
     kde: ["halili", "halili"],
     mer: ["hariri", "haɾiɾi"],
     yue_ts: ["丝", "ɬu˧˧"],
-    czh: ["丝", "sɿ˧˧"],
+    czh: ["丝", "sɿ˩˩"],
     nyn: ["riiri", "riːri"],
     ssw: ["silika", "silika"],
     xog: ["liiri", "liːri"],

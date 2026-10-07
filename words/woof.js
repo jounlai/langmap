@@ -253,6 +253,7 @@ WORDS.woof = {
     ar_lev: ["هَوْ هَوْ", "haw haw"],
     de_lu: ["wau wau", "vaʊ vaʊ"],
     de_at: ["wau wau", "vaʊ vaʊ"],
-    de_ch: ["wau wau", "vaʊ vaʊ"]
+    de_ch: ["wau wau", "vaʊ vaʊ"],
+    vi_nom: ["呴呴", "ɣəw˧ ɣəw˧"]  // Nôm 呴 (Hv khẩu câu, 口+句) for gâu: a Nôm dictionary entry "Gâu* (Hv khẩu câu) Tiếng chó: Gâu gâu" (sent by the owner, 2026-10-08) and en.wiktionary gâu (Nôm 呴, 𠯜). Doubled as gâu gâu, like the vi cell.
   },
 };

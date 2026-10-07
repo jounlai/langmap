@@ -226,7 +226,7 @@ WORDS.green = {
     ckb: ["سەوز", "sæwz"],
     cmg: ["ᠨᠣᠭᠤᠭᠠᠨ", "noɣuɣan"],
     cnh: ["hring", "hriŋ"],
-    cnp: ["綠", "løk˨˦"],
+    cnp: ["綠", "lœk˨˦"],
     cpx: ["绿", "lɒʔ˦"],
     cr: ["ᐊᐢᑭᐦᑕᒁᐤ", "askihtakwaːw"],
     crh: ["yeşil", "jeˈʃil"],

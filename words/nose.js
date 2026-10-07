@@ -552,7 +552,7 @@ WORDS.nose = {
     pms: ["nas", "nas"],
     mwl: ["nariç", "naˈɾis"],
     pnt: ["μύτ", "mit"],
-    hno: ["نک", "nakː"],
+    hno: ["نک", "nak"],
     bhb: ["नाक", "naːk"],
     myz: ["ࡍࡄࡉࡓࡀ", "nhira"],
     dsb: ["nos", "nos"],

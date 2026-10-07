@@ -633,7 +633,7 @@ WORDS.new = {
     hyw: ["նոր", "noɾ"],
     jvn: ["anyar", "aɲar"],
     zh_nj: ["新", "ɕin˧˩"],
-    cnp: ["新", "ɬɐn˥˦"],
+    cnp: ["新", "ɬɐn˥˧"],
     zh_lz: ["新", "ɕin˧˩"],
     wuu_nb: ["新", "ɕin˥˧"],
     wuu_sz: ["新", "sin˦˦"],

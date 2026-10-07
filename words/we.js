@@ -1925,7 +1925,7 @@ WORDS.we = {
     nan_te: ["俺 / 阮", "naŋ˥˨ / uaŋ˥˨"],
     yue_ts: ["我", "ŋɔi˨˩"],
     czh: ["我人", "a˨˦ ȵin˦˦"], // was ["我人", "ŋo˧˩ ʐən˨˩˧"] (vi dialect rules 2026-10-06)
-    cnp: ["我哋", "ŋo˨˩ ti˨˩"],
+    cnp: ["我哋", "ŋo˨˦ ti˨˨"], // was ["我哋", "ŋo˨˩ ti˨˩"] (vi dialect rules 2026-10-06)
     zh_jh: ["我们", "o˨˩˨ mən"],
     zh_tj: ["我们", "wo˩˧ mən"],
     zh_lz: ["我们", "vɤ˦˦˨ mən"],

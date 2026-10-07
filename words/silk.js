@@ -305,7 +305,7 @@ WORDS.silk = {
     en_yk: ["silk", "sɪlk"],
     ko_hg: ["비단", "pidan"],
     wuu_jx: ["丝", "sɿ˥˩"],
-    cnp: ["丝", "ɬi˥˦"],
+    cnp: ["丝", "ɬi˥˧"],
     zh_lz: ["丝", "sz̩˧˩"],
     wuu_nb: ["丝", "sz̩˥˧"],
     wuu_sz: ["丝", "sz̩˦˦"],

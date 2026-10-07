@@ -103,7 +103,7 @@ WORDS.daughter = {
 
     // --- Semitic: the feminine of "son" -------------------------------
     psem: ["*bint-", "bint"],
-    hbo: ["בת", "bat"],
+    hbo: ["בת", "baθ"],
     he_mis: ["בת", "bat"],
     ar_qur: ["بنت", "bint"],
     arc: ["ܒܪܬܐ", "bartaː"],

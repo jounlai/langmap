@@ -824,7 +824,7 @@ WORDS.sleep = {
     hak_hl: ["睡目", "ʃoi˧˧ muk˥"],
     yue_dg: ["瞓觉", "fɐn˦˦˧ kau˦˦˧"],
     yue_nn: ["瞓觉", "fɐn˧˧ kɛu˧˧"],
-    yue_zs: ["瞓覺", "fɐn˧ kaːu˧"],
+    yue_zs: ["瞇覺", "mi˥˥ kau˧˧"],
 
     // --- Uralic and Siberia
     krl: ["muata", "ˈmuɑtɑ"],

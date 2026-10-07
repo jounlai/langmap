@@ -804,7 +804,7 @@ WORDS.blood = {
     nan_te: ["血", "hueʔ˨"],
     yue_ts: ["血", "hut˥˥"],
     czh: ["血", "ɕyɛ˥"],
-    cnp: ["血", "hyt˨"],
+    cnp: ["血", "hyt˧"],
     zh_jh: ["血", "ɕyeʔ˥˥"],
     zh_tj: ["血", "ɕye˨˩"],
     zh_lz: ["血", "ɕyɛ˩˧"],

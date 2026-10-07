@@ -863,7 +863,7 @@ WORDS.cat = {
     nan_te: ["猫", "ŋiau˧˧"],
     yue_ts: ["猫", "miau˨˨"],
     czh: ["猫", "mə˩˩"],
-    cnp: ["猫", "mau˦˦"],
+    cnp: ["猫", "mɛu˥˥"],
     zh_jh: ["猫", "mɔ˧˧"],
     zh_tj: ["猫", "mau˨˩"],
     zh_lz: ["猫", "mau˥˧"],

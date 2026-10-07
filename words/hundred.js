@@ -855,7 +855,7 @@ WORDS.hundred = {
     ff: ["teemedere", "teːmedeɾe"],
     ko_yb: ["백", "pɛk̚"],
     ko_hg: ["백", "pɛk̚"],
-    cnp: ["百", "pak˨"],
+    cnp: ["百", "piɐk˧"],
     zh_lz: ["百", "pə˩˧"],
     wuu_wz: ["百", "pa˧˩˧"],
     kln: ["bogol", "boɡol"],

@@ -1123,7 +1123,7 @@ WORDS.four = {
     syl: ["চাইর", "sair"],
     ctg: ["চাইর", "tʃaːir"],
     rkt: ["চাইর", "tʃaiɾ"],
-    cnp: ["四", "si˦˦"],
+    cnp: ["四", "ɬi˥˥"],
     zh_lz: ["四", "sz̩˩˧"],
     luy: ["tsine", "tsine"],
     ii: ["ꇖ", "lɿ˧˧"],

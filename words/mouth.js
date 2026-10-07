@@ -772,7 +772,7 @@ WORDS.mouth = {
     tll: ["unyo", "uɲo"],
     mlq: ["da", "da"],
     bfa: ["kutuk", "kutuk"],
-    aja: ["aglan", "aɡlã"],
+    aja: ["enu", "enu"],
     loz: ["mulomo", "mulomo"],
     lue: ["kanwa", "kanwa"],
     ewo: ["anyu", "aɲu"],

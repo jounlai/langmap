@@ -1222,7 +1222,7 @@ WORDS.n99 = {
     mnp: ["九十九", "kiu˨˩ si˥˦ kiu˨˩"],
     cdo: ["九十九", "kau˧˧ sɛiʔ˥ kau˧˧"],
     gan: ["九十九", "tɕiu˨˩˧ sɨt˨ tɕiu˨˩˧"], // was ["九十九", "tɕiu˨˩˧ sɨʔ˨ tɕiu˨˩˧"] (vi dialect rules 2026-10-06)
-    cnp: ["九十九", "kɐu˧˧ sɐp˨ kɐu˧˧"],
+    cnp: ["九十九", "kɐu˧˧ ʃɐp˨ kɐu˧˧"], // was ["九十九", "kɐu˧˧ sɐp˨ kɐu˧˧"] (vi dialect rules 2026-10-06)
     hak_tw: ["九十九", "kiu˧˩ sɨp˥ kiu˧˩"],
     nan: ["九十九", "kau˥˧ tsap˦ kau˥˧"],
     wuu_nb: ["九十九", "tɕiʏ˧˨˥ zəʔ˩˨ tɕiʏ˧˨˥"],

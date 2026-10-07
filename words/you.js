@@ -1116,7 +1116,7 @@ WORDS.you = {
       fon: ["hwɛ̀", "hwɛ̀"],
       kri: ["yu", "ju"],
       dag: ["nyini", "ɲini"],
-      xog: ["gwe", "ɡwe"],
+      xog: ["iwe", "iwe"],
       teo: ["ijo", "iɟo"],
       dyo: ["au", "au"],
       bci: ["wɔ", "wɔ"],

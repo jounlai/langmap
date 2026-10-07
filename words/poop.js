@@ -444,7 +444,7 @@ WORDS.poop = {
     bm: ["bo", "bo"],
     sn: ["tsvina", "tsvina"],
     dyu: ["bo", "bo"],
-    cnp: ["屎", "si˧˧"],
+    cnp: ["屎", "ʃi˧˧"],
     kln: ["ng'atatek", "ŋatatek"],
     tt: ["тизәк", "tiˈzæk"],
     mn_cn: ["ᠪᠠᠭᠠᠰᠤ", "paːs"],

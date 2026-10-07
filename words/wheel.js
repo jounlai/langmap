@@ -396,7 +396,7 @@ WORDS.wheel = {
     bra: ["पहिया", "pəɦijaː"],
     mag: ["पहिया", "pəɦijaː"],
     bgc: ["पहिया", "pəɦijaː"],
-    doi: ["पहिया", "pəɦijaː"],
+    doi: ["पेहिया", "peːɦijaː"],
     hif: ["pahiya", "pəɦijaː"],
     lo: ["ລໍ້", "lɔː˥˨"],
     th_isan: ["ล้อ", "lɔː˦˥"],

@@ -224,7 +224,7 @@ WORDS.person = {
     ckt: ["оравэтԓьан", "orawetɬʔan"],
     cmg: ["ᠬᠦᠮᠦᠨ", "kymyn"],
     cnh: ["mi", "mi"],
-    cnp: ["人", "ȵən˨˩"],
+    cnp: ["人", "ȵɐn˨˩"],
     co: ["persona", "perˈsona"],
     cop: ["ⲣⲱⲙⲉ", "roːme"],
     cpx: ["侬", "naŋ˩˧"],

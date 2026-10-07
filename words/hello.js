@@ -861,7 +861,7 @@ WORDS.hello = {
     nan_te: ["汝好", "lɯ˥˨ ho˥˨"],
     yue_ts: ["你好", "nei˧˧ hau˧˧"],
     czh: ["你好", "n̩˦˦ xə˧˩"],
-    cnp: ["你好", "nei˦˨ hou˦˨"],
+    cnp: ["你好", "ni˨˦ hau˧˧"],
     zh_jh: ["你好", "ni˨˩˦ xau˨˩˦"],
     zh_tj: ["你好", "ni˨˩˧ xau˨˩˧"],
     zh_lz: ["你好", "ni˥˧ xau˥˧"],

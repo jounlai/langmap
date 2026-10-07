@@ -711,7 +711,7 @@ WORDS.rain = {
     mix: ["savi", "saβi"],
     mxv: ["savi", "saβi"],
     zap: ["nisaguié", "nisaɡie"],
-    gun: ["ama", "ama"],
+    gun: ["oky", "okɨ"],
     yrl: ["amana", "amana"],
     cni: ["inkani", "iŋkani"],
     jqr: ["jallu", "haʎu"],

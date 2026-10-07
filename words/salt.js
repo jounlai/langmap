@@ -98,7 +98,7 @@ WORDS.salt = {
     // --- Ancient Near East and Egypt ----------------------------------
     akk: ["𒋰𒌅", "tˤaːbtu"],
     psem: ["*milḥ-", "milħ"],
-    hbo: ["מלח", "ˈmelaħ"],
+    hbo: ["מלח", "ˈmɛlaħ"],
     he_mis: ["מלח", "ˈmelaħ"],
     arc: ["ܡܠܚܐ", "melħaː"],
     ar_qur: ["ملح", "milħ"],
@@ -395,7 +395,7 @@ WORDS.salt = {
     yue_nn: ["盐", "jim˨˩"],
     yue_zs: ["鹽", "im˥˩"],
     yue_ts: ["盐", "jiam˨˨"],
-    cnp: ["盐", "jiːm˨˩"],
+    cnp: ["盐", "jim˨˩"],
     nan: ["鹽", "iam˨˦"],
     nan_xm: ["盐", "iam˨˦"],
     nan_zz: ["盐", "iam˩˧"],

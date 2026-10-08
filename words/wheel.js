@@ -213,7 +213,7 @@ WORDS.wheel = {
     afb: ["عجلة", "ʕadʒala"],
     acw: ["عجلة", "ʕadʒala"],
     ar_eg: ["عجلة", "ʕadʒala"],
-    ar_ma: ["عجلة", "ʕadʒala"],
+    ar_ma: ["رويضة", "rwiːdˤa"],
     ar_tn: ["عجلة", "ʕadʒala"],
     ar_sd: ["عجلة", "ʕadʒala"],
     ayl: ["عجلة", "ʕadʒala"],

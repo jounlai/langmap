@@ -543,7 +543,7 @@ WORDS.father = {
     oar: ['אב', 'ʔab'],
     pao: ['naa', 'naː'],
     rut: ['дид', 'did'],
-    kim: ['ача', 'atʃa'],
+    kim: ["ата", "ata"],
     tpn: ['tuba', 'ˈtuβa'],
     uln: ['papa', 'papa'],
     wmt: ['kirta', 'ˈkiʈa'],

@@ -998,7 +998,7 @@ WORDS.red = {
     bsk: ["báardom", "ˈbaːrdom"],
     yai: ["surx", "surx"],
     srn: ["redi", "redi"],
-    djk: ["redi", "redi"],
+    djk: ["lebi", "lebi"],
     srm: ["beéé", "beˈeː"],
     kwk: ["ƛ̕aq̓wa", "tɬʼaqʼʷa"],
     blc: ["mukʷ", "mukʷ"],

@@ -516,7 +516,7 @@ WORDS.hello = {
     bdk: ['салам', 'salam'],
     sdo: ['—', '—'],
     dbl: ['—', '—'],
-    nrf_gg: ['bouônjour', 'bwɔ̃ˈʒuːr'],
+    nrf_gg: ["banjour", "bɑ̃ˈʒuːr"],
     fra_jer: ['bouônjour', 'bwɔ̃ˈʒuːr'],
     gsw_w: ['Tagwol', 'ˈtaɡʋol'],
     huz: ['—', '—'],

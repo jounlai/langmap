@@ -236,7 +236,7 @@ WORDS.green = {
     ctu: ["yäx", "jɨʃ"],
     cu: ["зеленъ", "zelenŭ"],
     cv: ["ешӗл", "jeˈʒɘl"],
-    dlg: ["күөх", "kyøx"],
+    dlg: ["күөк", "kyøk"],
     doi: ["हरा", "ɦəraː"],
     dsb: ["zeleny", "ˈzɛlɛnɨ"],
     dtp: ["otomou", "otomou"],

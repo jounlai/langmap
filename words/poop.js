@@ -589,7 +589,7 @@ WORDS.poop = {
     urh: ["isọn", "isɔ̃"],
     tll: ["tumi", "tumi"],
     bfa: ["kin", "kin"],
-    ttj: ["amazi", "amazi"],
+    ttj: ["amaazi", "amaːzi"],
     loz: ["ñanda", "ɲanda"],
     lue: ["tuji", "tudʒi"],
     nn: ["bæsj", "bæʃ"],

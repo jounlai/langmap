@@ -679,7 +679,7 @@ WORDS.night = {
     zts: ["gel", "ɡel"],
     maz: ["xomü", "ʃomɨ"],
     mix: ["chikuaa", "tʃikʷaː"],
-    mxv: ["chikuaa", "tʃikʷaː"],
+    mxv: ["ñuu", "ɲuː"],
     toc: ["tsisni", "tsisni"],
     huv: ["ngwiats", "ŋʷiats"],
     ay: ["aruma", "aruma"],

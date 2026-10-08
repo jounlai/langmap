@@ -224,7 +224,7 @@ WORDS.iron = {
     afb: ["حديد", "ħadiːd"],
     acw: ["حديد", "ħadiːd"],
     ar_eg: ["حديد", "ħadiːd"],
-    ar_ma: ["حديد", "ħadiːd"],
+    ar_ma: ["حديد", "ħdiːd"],
     ar_tn: ["حديد", "ħadiːd"],
     ar_sd: ["حديد", "ħadiːd"],
     ayl: ["حديد", "ħadiːd"],

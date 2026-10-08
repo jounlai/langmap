@@ -252,6 +252,19 @@ WORDS.wifi = {
     sat: ["ᱣᱟᱭᱯᱷᱟᱭ", "wajpʰaj"],
     dv: ["ވައި-ފައި", "ʋaifai"],
     ne: ["वाइ-फाई", "waipʰai"],
-    yi: ["ווײַ־פֿײַ", "ˈvaɪfaɪ"]
+    yi: ["ווײַ־פֿײַ", "ˈvaɪfaɪ"],
+    es_py: ["wifi", "ˈwajfaj"],
+    bg: ["Wi-Fi", "uajfaj"],
+    new: ["वाइफाइ", "waːipʰaːi"],
+    dty: ["वाइफाइ", "waːipʰaːi"],
+    en_app: ["Wi-Fi", "ˈwaɪfaː"],
+    ps: ["وای فای", "waːj faːj"],
+    my: ["ဝိုင်ဖိုင်", "wàiɴpʰàiɴ"],
+    tg: ["вай-фай", "vajfaj"],
+    am: ["ዋይ-ፋይ", "wajfaj"],
+    sl: ["Wi-Fi", "ˈʋiːˈfiː"],
+    hr: ["Wi-Fi", "ʋifi"],
+    es_bo: ["wifi", "ˈwajfaj"],
+    en_south: ["Wi-Fi", "ˈwaːfaː"]
   }
 };

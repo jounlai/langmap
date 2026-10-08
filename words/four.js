@@ -125,7 +125,7 @@ WORDS.four = {
     pmay: ["*kaŋibʼ", "kaŋiɓ"],
 
     // --- Proto-languages ----------------------------------------------
-    p_jpn: ["*yo", "jo"],
+    p_jpn: ["*yə", "yə"],
     p_ryu: ["*yo", "jo"],
     p_kor: ["*neyh", "nejh"],
     ptrk: ["*tȫrt", "tøːrt"],
@@ -570,7 +570,7 @@ WORDS.four = {
     sad: ["hakaxi", "hakaxi"],
     sms: ["nellj", "ˈnieʎː"],
     srr: ["nahik", "nahik"],
-    suk: ["inne", "inːe"],
+    suk: ["ine", "ine"],
     ab: ["пшьба", "pʃba"],
     ach: ["angwen", "aŋwɛn"],
     adi: ["api", "api"],

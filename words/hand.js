@@ -539,7 +539,7 @@ WORDS.hand = {
     oar: ['יד', 'jad'],
     pao: ['mai', 'mai'],
     rut: ['хыл', 'χɨl'],
-    kim: ['хол', 'xol'],
+    kim: ["ӄол", "qol"],
     tpn: ['pó', 'po'],
     uln: ["hand", "hant"],
     wmt: ['marnin', 'ˈmaɳin'],

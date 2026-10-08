@@ -514,7 +514,7 @@ WORDS.one = {
     bdk: ['са', 'sa'],
     sdo: ["isaʼ", "iˈsaʔ"],
     dbl: ['yara', 'ˈjara'],
-    nrf_gg: ['yun', 'jœ̃'],
+    nrf_gg: ["iun", "jœ̃"],
     fra_jer: ['ieune', 'jøːn'],
     gsw_w: ['eis', 'æɪ̯s'],
     huz: ['гьəнс', 'həns'],

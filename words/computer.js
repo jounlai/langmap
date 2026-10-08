@@ -656,6 +656,22 @@ WORDS.computer = {
     ng: ["okompiuta", "okompiuta"],
     bci: ["ɔrdinatɛli", "ɔrdinatɛli"],
     nbl: ["ikhomphyutha", "ikʰompʰjutʰa"],
-    lad: ["kontador", "kontaˈðoɾ"]
+    lad: ["kontador", "kontaˈðoɾ"],
+    zap: ["computadora", "komputadoɾa"],
+    ff: ["ordinateer", "oɾdinateːr"],
+    dtp_kzj: ["tokud", "tokud"],
+    chr: ["ᎠᏍᏆᎾᎪᏗᏍᎩ", "asɡʷanaɡodisɡi"],
+    aja: ["ɔdinatɛɛ", "ɔdinatɛː"],
+    pcd: ["ordinateu", "ɔʁdinatø"],
+    frp: ["ordenator", "ɔrdənaˈtur"],
+    mev: ["kɔ̃pitɔ", "kɔ̃pitɔ"],
+    vmw: ["komputatore", "komputatoɾe"],
+    tzm: ["ⴰⵎⵙⵙⵓⴷⵙ", "amsːudəs"],
+    shi: ["ⴰⵎⵙⵙⵓⴷⵙ", "amsːuds"],
+    mrq: ["maihini ʻoʻo uiʻa", "maihini ʔoʔo uiʔa"],
+    cho: ["isht holhtina", "iʃt hoɬtina"],
+    her: ["okombiuta", "okombiuta"],
+    kek: ["ululchʼiichʼ", "ulultʃʼiːtʃʼ"],
+    tao: ["tiannaw", "tiannaw"]
   },
 };

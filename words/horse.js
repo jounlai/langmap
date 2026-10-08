@@ -698,7 +698,7 @@ WORDS.horse = {
     tll: ["falasa", "falasa"],
     bfa: ["kusan", "kusan"],
     aja: ["esɔ", "esɔ"],
-    ttj: ["embaraasi", "embaraːsi"],
+    ttj: ["embarasi", "embarasi"],
     spp: ["shɔngɔ", "ʃɔŋɡɔ"],
     loz: ["pizi", "pizi"],
     lue: ["kavalu", "kavalu"],

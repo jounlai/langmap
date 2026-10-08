@@ -482,7 +482,7 @@ WORDS.rain = {
     wa: ["plouve", "pluːf"],
     pcd: ["pleuve", "plœv"],
     nrf: ["plyie", "pʎi"],
-    nrf_gg: ["plyie", "pʎi"],
+    nrf_gg: ["pllie", "pʎi"],
     fra_jer: ["plyie", "pʎi"],
     rm: ["plievgia", "ˈpliəvdʒa"],
     fr_lu: ["pluie", "plɥi"],

@@ -907,7 +907,7 @@ WORDS.fire = {
     aja: ["ezo", "ezo"],
     nyn: ["omuriro", "omuriro"],
     cgg: ["omuriro", "omuriro"],
-    ttj: ["omuriro", "omuriro"],
+    ttj: ["omurro", "omurro"],
     nyo: ["omuriro", "omuriro"],
     luy: ["omuliro", "omuliro"],
     ssw: ["umlilo", "umlilo"],

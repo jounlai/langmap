@@ -610,7 +610,7 @@ WORDS.mouth = {
     mwr: ["मूंडो", "muːɳɖo"],
     ar_iq: ["حلگ", "ˈħaliɡ"],
     ar_tn: ["فم", "fomː"],
-    ar_gulf: ["حلج", "ħalj"],
+    ar_gulf: ["حلج", "ħaldʒ"],
     th_isan: ["ปาก", "paːk˨˩"],
     za: {
       form: "咟",

@@ -421,7 +421,7 @@ WORDS.salt = {
     lhm: ["ཚྭ་", "tsʰa˥"],
     rki: ["ဆား", "sʰá"],
     lus: ["chi", "tʃi"],
-    cnh: ["chi", "tʃi"],
+    cnh: ["ci", "tsi"],
     mni: ["ꯊꯨꯝ", "tʰum"],
 
     // --- Arabic, Aramaic, Berber ------------------------------------------
@@ -614,7 +614,7 @@ WORDS.salt = {
     pis: ["sol", "sol"],
     bi: ["sol", "sol"],
     srn: ["sowtu", "sowtu"],
-    djk: ["sowtu", "sowtu"],
+    djk: ["sawtu", "sawtu"],
 
     // --- Isolate ------------------------------------------------------------
     ain: ["シッポ", "ʃippo"],

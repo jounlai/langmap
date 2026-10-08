@@ -1077,7 +1077,7 @@ WORDS.new = {
     xct_litpr: ["གསར་པ", "saːpa"],
     txg: ["𗆧", "sjiw˧"],
     cu: ["новъ", "novŭ"],
-    ota: ["یكی", "jeˈni"],
+    ota: ["یكی", "jeˈŋi"],
     ar_qur: ["جديد", "dʒadiːd"],
     he_mis: ["חדש", "ħaˈdaʃ"],
     p_viet: ["*ɓəːjʔ", "ɓəːjʔ"],

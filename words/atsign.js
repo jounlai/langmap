@@ -396,6 +396,11 @@ WORDS.atsign = {
     ckb: ["ئەت", "ʔɛt"],
     prs: ["ات", "at"],
     sco: ["at", "at"],
-    ast: ["arroba", "aˈroβa"]
+    ast: ["arroba", "aˈroβa"],
+    szl: ["afa", "ˈafa"],
+    gsw: ["Affenschwanz", "ˈafənʃvants"],
+    ky: ["маймылча", "mɑjmɯlˈtʃɑ"],
+    xal: ["эт", "et"],
+    fra_jer: ["à", "a"]
   },
 };

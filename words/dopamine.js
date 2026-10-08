@@ -312,6 +312,14 @@ WORDS.dopamine = {
     qu: ["dopamina", "dopamina"],
     ig: ["dopamine", "dopamine"],
     li: ["dopamine", "doːpaˈminə"],
-    pnb: ["ڈوپامین", "ɖoːpaːmiːn"]
+    pnb: ["ڈوپامین", "ɖoːpaːmiːn"],
+    mai: ["डोपामाइन", "ɖoːpaːmaːin"],
+    nan: ["tô-phá-mín", "to˨˦ pʰa˥˧ min˥˧"],
+    wae: ["Dopamin", "dopaˈmiːn"],
+    dsb: ["dopamin", "ˈdɔpamin"],
+    mzn: ["دوپامین", "dopɒːmin"],
+    gsw_w: ["Dopamin", "dopaˈmiːn"],
+    mwl: ["dopamina", "dopaˈminɐ"],
+    hyw: ["տոփամին", "dopʰɑˈmin"]
   },
 };

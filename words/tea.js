@@ -987,7 +987,7 @@ WORDS.tea = {
     bar: ["Tee", "tɛː"],
     szl: ["tyj", "tɨj"],
     stq: ["Tee", "teː"],
-    nrf_gg: ["tée", "te"],
+    nrf_gg: ["thée", "te"], // was ["tée", "te"] (vi dialect rules 2026-10-06)
     nrf: ["thée", "te"],
     fra_jer: ["thée", "te"],
     kru: ["चाह", "tʃaːɦ"],

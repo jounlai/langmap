@@ -840,7 +840,7 @@ WORDS.mouth = {
     oj: ["odoon", "odoːn"],
     evn: ["амӈа", "amŋa"],
     gld: ["аӈма", "aŋma"],
-    sjo: ["ᠠᠩᡤᠠ", "aŋɡa"],
+    sjo: ["ᠠᠩᡤᠠ", "ɑŋ"],
     ruq: ["gură", "ˈɡurə"],
     ja_mvi: ["口", "futsɨ"],
     poh: ["chiʼhis", "tʃiʔhis"],

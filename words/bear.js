@@ -296,7 +296,7 @@ WORDS.bear = {
     yap: "loan",
     srb: "inherited",
     unr: "inherited",
-    hoc: "inherited",
+    hoc: "loan", // route was inherited (vi dialect rules 2026-10-06)
     pyu: "inherited",
     ilo: "loan",
     akb: "inherited",
@@ -1166,7 +1166,7 @@ WORDS.bear = {
     yap: ["bear", "beːr"],
     srb: ["kembud", "kəmbud"],
     unr: ["bana", "bana"],
-    hoc: ["bana", "bana"],
+    hoc: ["balu", "balu"], // was ["bana", "bana"] (vi dialect rules 2026-10-06)
     pyu: ["trumay", "ʈumaj"],
     ilo: ["oso", "ˈʔoso"],
     akb: ["gompul", "ɡompul"],

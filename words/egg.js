@@ -724,7 +724,7 @@ WORDS.egg = {
     mch: ["iʼmoi", "iʔmoi"],
     // --- Niger-Congo — many rows say 'hen's egg' or carry only a class prefix plus stem
     efi: ["nsen", "n̩sen"],
-    ibb: ["nsen unen", "n̩sen unen"],
+    ibb: ["ñkwaunen", "ŋkwaunen"],
     emk: ["kili", "kili"],
     mlq: ["kilo", "kilo"],
     mnk: ["kiloo", "kiloː"],
@@ -751,7 +751,7 @@ WORDS.egg = {
     // --- Songhai — one word across the Niger bend
     khq: ["gunguri", "ɡuŋɡuri"],
     dje: ["gunguri", "ɡuŋɡuri"],
-    ses: ["gunguri", "ɡuŋɡuri"],
+    ses: ["guuri", "ɡuːri"],
     // --- Austroasiatic and Dravidian
     sat: ["ᱵᱤᱞᱤ", "bili"],
     kha: ["pylleng", "pəlːeŋ"],
@@ -847,9 +847,9 @@ WORDS.egg = {
     bor: ["ba", "ba"],
     osa: ["hpáata", "hpáːta"],
     nhx: ["itecsis", "iteksis"],
-    nch: ["totoltetl", "totoltetɬ"],
-    nhw: ["totoltetl", "totoltetɬ"],
-    nhe: ["totoltetl", "totolˈtetɬ"],
+    nch: ["tejsistli", "tehsistɬi"],
+    nhw: ["tecsistli", "teksistɬi"],
+    nhe: ["tejquistli", "tehkistɬi"],
     ngu: ["totoltetl", "totolˈtetɬ"],
     // --- Australia and the Pacific rim
     aer: ["kwarte", "kʷaʈə"],

@@ -632,7 +632,7 @@ WORDS.book = {
     gor: ["buku", "ˈbuku"],
     ljp: ["buku", "buku"],
     unr: ["kitab", "kitab"],
-    hoc: ["kitab", "kitab"],
+    hoc: ["puti", "puti"],
     mnw: ["လိက်အုပ်", "lòik up"],
     kjp: ["လိက်", "lái"],
     tyz: ["xéc", "sɛk˥"],

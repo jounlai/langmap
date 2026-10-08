@@ -387,6 +387,15 @@ WORDS.atsign = {
     de_lu: ["Klammeraffe", "ˈklamɐˌʔafə"],
     zh_db: ["艾特", "aɪ̯˥˩ tʰɤ˥˩"],
     co: ["ciuvodda", "tʃuˈvɔɖɖa"],
-    ku: ["at", "ɑːt"]
+    ku: ["at", "ɑːt"],
+    nrf: ["à", "a"],
+    se: ["bussáseaibi", "ˈpusːaˌseɑjpi"],
+    kl: ["aajusaq", "aːjusaq"],
+    hyw: ["շնիկ", "ʃəˈniɡ"],
+    guc: ["aroowa", "aroːwa"],
+    ckb: ["ئەت", "ʔɛt"],
+    prs: ["ات", "at"],
+    sco: ["at", "at"],
+    ast: ["arroba", "aˈroβa"]
   },
 };

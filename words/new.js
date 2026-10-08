@@ -87,7 +87,7 @@ WORDS.new = {
     p_aav: ["*tmeːʔ", "tmeːʔ"],
     // Nugteren 2011 heads it *sini (?~ *sine); the row is Nugteren-based
     // (*sibaɣun, *čilaɣun, *hulaɣan), so his headword wins over EDAL's. 531.
-    pmng: ["*sini", "sini"],
+    pmng: ["*sine", "sine"],
     // EDAL prints *jaŋɨ; ï is this row's own spelling of that vowel in all
     // eight other cells (*adïg, *balïk, *tïl, *ït), which EDAL also prints
     // with ɨ. Round 531.
@@ -876,7 +876,7 @@ WORDS.new = {
     usp: ["akʼ", "akʼ"],
     kmu: ["haegafa", "haeɡafa"],
     oj: ["oshki", "oʃki"],
-    sjo: ["ᡳᠴᡝ", "itʃə"],
+    sjo: ["ᡳᠴᡝ", "itʂʰɘ"],
     poh: ["akʼ", "akʼ"],
     cuk: ["binid", "binid"],
     mic: ["pilei", "bilei"],
@@ -1069,7 +1069,7 @@ WORDS.new = {
     sux: ["𒉋", "ɡibil"],
     emy: ["achʼ", "atʃʼ"],
     cmg: ["ᠰᠢᠨᠡ", "ʃine"],
-    xng: ["ᠰᠢᠨᠡ", "ʃine"],
+    xng: ["ᠰᠢᠨᠡ", "ʃini"],
     p_tun: ["*xirkekǖn", "xirkekyːn"],
     pkar: ["*max-", "max"],
     onw: ["ⲙⲓⲣⲓ", "miri"],

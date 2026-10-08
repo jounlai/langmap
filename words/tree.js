@@ -1067,7 +1067,7 @@ WORDS.tree = {
     hoc: ["daru", "daru"],
     enq: ["ita", "ita"],
     xpr: ["dār", "daːr"],
-    xqa: ["ığač", "ɯɣatʃ"],
+    xqa: ["yığač", "jɯɣatʃ"],
     sga: ["crann", "kran"],
     bsk: ["tom", "tom"],
     yai: ["diraxt", "diˈraxt"],

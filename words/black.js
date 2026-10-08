@@ -366,7 +366,7 @@ WORDS.black = {
     bto: ["itom", "iˈtom"],
     gor: ["moyitomo", "mojiˈtomo"],
     bbc: ["birong", "biroŋ"],
-    akb: ["birong", "biroŋ"],
+    akb: ["lomlom", "lomlom"],
     bts: ["birong", "biroŋ"],
     tvl: ["uli", "uli"],
     tkl: ["uli", "uli"],

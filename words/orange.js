@@ -1129,7 +1129,7 @@ WORDS.orange = {
     kw: ["owraval", "ɔwˈraval"],
     zza: ["pirteqal", "pɪɾtɛˈqal"],
     hr: ["naranča", "ˈnaraɲtʃa"],
-    bs: ["naranča", "ˈnaraɲtʃa"],
+    bs: ["narandža", "nǎraːndʒa"], // was ["naranča", "ˈnaraɲtʃa"] (vi dialect rules 2026-10-06)
     fa_clas: ["نارنج", "naːrandʒ"],
     fr_class: ["orange", "ɔʁɑ̃ʒ"],
     it_dan: ["arancia", "aˈrantʃa"],

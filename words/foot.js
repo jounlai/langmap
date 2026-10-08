@@ -2093,7 +2093,7 @@ WORDS.foot = {
     sid: ["lekka", "ˈlekːa"],  // One word for the limb.
     sip: ["རྐངམ", "kaːm"],  // Yliniemi 2019 lists རྐངམ kaːm against the honorific ཞབས ɕàp and gives Denjongke no separate leg word.
     sjd: ["ла̄бпь", "laːbp"],  // NorthEuraLex splits them, but WOLD returns jūll’k (= ю̄лльк) for both, so Kildin may well pattern with the other Saami languages; ла̄бпь is cognate with Finnish lapa 'blade, sole'.
-    sjo: ["ᠪᡝᡨᡥᡝ", "bətʰə"],  // ᠪᡝᡨᡥᡝ covers both, as it does in the Manchu row; the Tungusic etymon is *begdi.
+    sjo: ["ᠪᡝᡨᡥᡝ", "bɘtk"],  // r66: spoken Xibe pronunciation (Li Shulan 1986 via Oskolskaya 2021), was the written-Manchu reading bətʰə. ᠪᡝᡨᡥᡝ covers both, as it does in the Manchu row; the Tungusic etymon is *begdi.
     sk: ["noha", "nɔɦa"],  // As Czech.
     skr: ["پیر", "peːɾ"],  // پیر vs ڄنگھ — Lahnda keeps the split Hindi and Urdu have.
     sl: ["stopalo", "stɔpàːlɔ"],  // Sources disagree: NorthEuraLex returns nôga for both, Wiktionary lemmatises stopalo for the foot. Classed distinct on the Wiktionary reading.

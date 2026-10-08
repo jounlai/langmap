@@ -231,7 +231,7 @@ WORDS.poop = {
     ha: ["kashi", "kaʃi"],
     so: ["saxaro", "saħaro"],
     rw: ["amase", "amase"],
-    rn: ["amase", "amase"],
+    rn: ["amavyi", "amavji"],
     xh: ["amasimba", "amasimba"],
     en_aave: ["poop", "puːp"],
     en_nz: ["poo", "puː"],

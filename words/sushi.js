@@ -459,6 +459,14 @@ WORDS.sushi = {
     awa: ["सुशी", "suʃiː"],
     ppl: ["sushi", "suʃi"],
     pwn: ["susi", "susi"],
-    pnb: ["سوشی", "suːʃiː"]
+    pnb: ["سوشی", "suːʃiː"],
+    dag: ["sushi", "suʃi"],
+    chr: ["ᏑᏏ", "susi"],
+    yue_zs: ["壽司", "sɐu˧˧ si˥˥"],
+    czh_wy: ["寿司", "sɑ˥˩ sɿ˦˦"],
+    ab: ["суши", "suʃi"],
+    pap: ["sushi", "suʃi"],
+    om: ["sushi", "suʃi"],
+    tok: ["moku Susi", "moku susi"]
   },
 };

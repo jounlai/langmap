@@ -432,8 +432,8 @@ WORDS.sleep = {
     kg: ["kuleka", "kuˈleka"],
     ff: ["ɗaanaade", "ɗaːnaːde"],
     bm: ["sunɔgɔ", "sunɔɡɔ"],
-    ses: ["kani", "ˈkani"],
-    dje: ["kani", "kani"],
+    ses: ["jirbi", "dʒirbi"],
+    dje: ["jirbi", "dʒirbi"],
     kab: ["ṭṭes", "tˤtˤəs"],
     yua: ["wenel", "wenel"],
     tzo: ["vay", "vaj"],
@@ -891,7 +891,7 @@ WORDS.sleep = {
 
     // --- Munda and Palaungic
     unr: ["durum", "durum"],
-    hoc: ["durum", "durum"],
+    hoc: ["duum", "duːm"],
     wbm: ["it", "ʔit"],
     srh: ["khuvd", "xuvd"],
     rbb: ["ɁiɁ", "ʔiʔ"],

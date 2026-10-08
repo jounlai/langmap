@@ -907,7 +907,7 @@ WORDS.milk = {
     gor: ["susu", "ˈsusu"],
     ljp: ["susu", "susu"],
     unr: ["toa", "toa"],
-    hoc: ["toa", "toa"],
+    hoc: ["towa", "towa"],
     grt: ["sok", "sok"],
     mnw: ["ဍာ်တှ်", "ɗaʔ tɔh"],
     mtq: ["khã", "kʰaː"],

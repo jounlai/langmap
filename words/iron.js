@@ -643,7 +643,7 @@ WORDS.iron = {
     kam: ["kyũma", "kjuma"],
     ebu: ["cuma", "tʃuːma"],
     nyn: ["ekyoma", "eˈkjoma"],
-    cgg: ["ekyoma", "ekjoma"],
+    cgg: ["obutare", "obutare"],
     ttj: ["ekyoma", "ekjoma"],
     nyo: ["ekyoma", "ekjoma"],
     xog: ["ekyuma", "ekjuma"],

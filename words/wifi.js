@@ -233,6 +233,25 @@ WORDS.wifi = {
     be: ["Wi-Fi", "vajˈfaj"],
     sr: ["вај-фај", "ˈʋajfaj"],
     az: ["Wi-Fi", "vɑjˈfɑj"],
-    pnb: ["وائی-فائی", "ʋaːiːfaːiː"]
+    pnb: ["وائی-فائی", "ʋaːiːfaːiː"],
+    gu: ["વાઇફાઇ", "ʋaːɪfaːɪ"],
+    lt: ["vaifajus", "vɐɪˈfɑːjʊs"],
+    om: ["waayifaayii", "waːjifaːjiː"],
+    wo: ["wifi", "wifi"],
+    fon: ["wifi", "wifi"],
+    nn: ["wifi", "ˈviːfi"],
+    ar_ma: ["ويفي", "wifi"],
+    sd: ["وائي فائي", "vaːiː faːiː"],
+    vmf: ["Wi-Fi", "ˈvaɪfaɪ"],
+    mnw: ["ဝဲါဝှာင်", "wɑɪfɑɪ"],
+    guc: ["Wai-Pai", "waipai"],
+    kw: ["DiWi", "ˈdiwi"],
+    ks: ["ویفی", "viːfiː"],
+    tok: ["nasin Wapa", "nasin wapa"],
+    mi: ["ahokore", "ahokoɾe"],
+    sat: ["ᱣᱟᱭᱯᱷᱟᱭ", "wajpʰaj"],
+    dv: ["ވައި-ފައި", "ʋaifai"],
+    ne: ["वाइ-फाई", "waipʰai"],
+    yi: ["ווײַ־פֿײַ", "ˈvaɪfaɪ"]
   }
 };

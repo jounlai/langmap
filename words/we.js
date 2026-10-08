@@ -1511,7 +1511,7 @@ WORDS.we = {
     tk: ["biz", "biz"],
     mn_cn: ["ᠪᠢᠳᠡ", "bid"],
     mnc: ["ᠮᡠᠰᡝ / ᠪᡝ", "musə / bə"],
-    sjo: ["ᠮᡠᠰᡝ / ᠪᡝ", "musə / bə"],
+    sjo: ["ᠮᡠᠰᡝ / ᠪᡝ", "mɘs / bo"], // was ["ᠮᡠᠰᡝ / ᠪᡝ", "musə / bə"] (vi dialect rules 2026-10-06)
     ar_eg: ["إحنا", "ˈeħna"],
     ar_lev: ["نحنا", "ˈniħna"],
     ar_gulf: ["إحنا", "ˈɪħna"],
@@ -1526,7 +1526,7 @@ WORDS.we = {
     ig: ["anyị", "aɲɪ"],
     bom: ["wot", "wot"],
     tiv: ["se", "se"],
-    efi: ["nnyịn", "nɲin"],
+    efi: ["nnyin", "nɲin"], // was ["nnyịn", "nɲin"] (vi dialect rules 2026-10-06)
     ekp: ["ye", "je"],
     izz: ["anyi", "aɲi"], // was ["anyị", "aɲɪ"] (vi dialect rules 2026-10-06)
     ibb: ["nnyịn", "ǹɲìn"],

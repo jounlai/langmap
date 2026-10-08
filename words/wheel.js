@@ -221,7 +221,7 @@ WORDS.wheel = {
 
     // --- Constructed ---------------------------------------------------
     eo: ["rado", "ˈrado"],
-    io: ["rado", "ˈrado"],
+    io: ["roto", "ˈroto"],
     ia: ["rota", "ˈrɔta"],
 
     // --- *kʷekʷlós — the English side of the same word -----------------

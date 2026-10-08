@@ -236,7 +236,7 @@ WORDS.hundred = {
 
     // --- Mongolic and Tungusic ---------------------------------------------
     pmng: ["*ǰagun", "dʒaɡun"],
-    xng: ["ᠵᠠᠭᠤᠨ", "dʒaɡun"],
+    xng: ["ᠵᠠᠭᠤᠨ", "dʒaun"],
     cmg: ["ᠵᠠᠭᠤᠨ", "dʒaɡun"],
     mn: ["зуу", "tsuː"],
     p_tun: ["*taŋgū", "taŋɡuː"],
@@ -301,7 +301,7 @@ WORDS.hundred = {
     nbl: ["ikhulu", "iˈkʰulu"],
     nd: ["ikhulu", "iˈkʰulu"],
     ssw: ["likhulu", "liˈkʰulu"],
-    rn: ["ijana", "idʒana"],
+    rn: ["ijana", "iʒana"],
     st: ["lekgolo", "leχolo"],
     nso: ["lekgolo", "leχolo"],
     tn: ["lekgolo", "leχolo"],

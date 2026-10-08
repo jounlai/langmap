@@ -828,7 +828,7 @@ WORDS.four = {
     kjp: ["လီ", "li˧"],
     bfa: ["ŋwan", "ŋwan"],
     kfr: ["ચાર", "tʃaːr"],
-    sjo: ["ᡩᡠᡳᠨ", "duin"],
+    sjo: ["ᡩᡠᡳᠨ", "dujin"],
     czh: ["四", "sɿ˦˦"],
     gan: ["四", "sɿ˦˥"],
     mnp: ["四", "si˧˧"],

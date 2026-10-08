@@ -389,7 +389,7 @@ WORDS.father = {
     tk: ["kaka", "kaka"],
     mn_cn: ["ᠠᠪᠤ", "ɑβu"],
     mnc: ["ᠠᠮᠠ", "ama"],
-    sjo: ["ᠠᠮᠠ", "ama"],
+    sjo: ["ᠠᠮᠠ", "ɑmɘ"],
     ar_eg: ["أب", "ʔab"],
     ar_lev: ["أب", "ʔab"],
     ar_gulf: ["أب", "ʔab"],

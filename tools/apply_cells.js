@@ -158,8 +158,14 @@ function main() {
 
         const lines = (dry ? block : fs.readFileSync(p, 'utf8').slice(start, start + newBlock.length)).split('\n');
         while (lines.length && !lines[lines.length - 1].trim()) lines.pop();
-        if (lines.length && !lines[lines.length - 1].trimEnd().endsWith(',')) {
-            lines[lines.length - 1] = `${lines[lines.length - 1].trimEnd()},`;
+        // The old last line can end in a // comment (woof's vi_nom did, 2026-10-08):
+        // then the comma goes after the entry's closing ], not after the comment,
+        // or the comment swallows it and the next entry is a syntax error.
+        if (lines.length) {
+            const last = lines[lines.length - 1].trimEnd();
+            const m = last.match(/^(\s*[^/]*?[\]"'])(,?)(\s*\/\/.*)$/);
+            if (m) { if (!m[2]) lines[lines.length - 1] = m[1] + ',' + m[3]; }
+            else if (!last.endsWith(',')) lines[lines.length - 1] = `${last},`;
         }
         fresh[fresh.length - 1] = fresh[fresh.length - 1].replace(/,$/, '');
         lines.push(...fresh, '');

@@ -152,7 +152,7 @@ WORDS.stone = {
     de: ["Stein", "ʃtaɪn"],
     fr: ["pierre", "pjɛʁ"],
     pcd: ["pière", "pjɛʁ"],
-    nrf: ["pierre", "pjɛr"],
+    nrf: ["pièrre", "pjɛr"],
     it: ["pietra", "ˈpjɛːtra"],
     es: ["piedra", "ˈpjeðɾa"],
     es_mx: ["piedra", "ˈpjeðɾa"],

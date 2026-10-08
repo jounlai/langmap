@@ -802,7 +802,7 @@ WORDS.dog = {
     niu: ["kuli", "kuli"],
     tvl: ["kuli", "kuli"],
     rap: ["paihega", "paiheŋa"],
-    rar: ["kurī", "kuɾiː"],
+    rar: ["puakaoa", "puakaoa"],
     mh: ["kidu", "kʲidˠu"],
     gil: ["kamea", "kamea"],
     ch: ["gaʼlågu", "ɡaʔˈlɑɡu"],

@@ -395,7 +395,7 @@ WORDS.mother = {
     tiv: ["ngo", "ŋɡo"],
     efi: ["eka", "eka"],
     ekp: ["nne", "nːe"],
-    izz: ["nne", "nːe"],
+    izz: ["ne", "ne"],
     ibb: ["eka", "eka"],
     urh: ["onie", "onie"],
     deg: ["onomo", "onomo"],

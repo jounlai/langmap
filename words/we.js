@@ -1528,7 +1528,7 @@ WORDS.we = {
     tiv: ["se", "se"],
     efi: ["nnyịn", "nɲin"],
     ekp: ["ye", "je"],
-    izz: ["anyị", "aɲɪ"],
+    izz: ["anyi", "aɲi"], // was ["anyị", "aɲɪ"] (vi dialect rules 2026-10-06)
     ibb: ["nnyịn", "ǹɲìn"],
     urh: ["avware", "aʋare"],
     deg: ["eni", "eni"],

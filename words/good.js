@@ -892,7 +892,7 @@ WORDS.good = {
     myv: ["паро", "paro"],
     mdf: ["цебярь", "tsʲebʲarʲ"],
     krl: ["hyvä", "ˈhyvæ"],
-    olo: ["hüvä", "ˈhyvæ"],
+    olo: ["hyvä", "ˈhyvæ"],
     vep: ["hüvä", "ˈhyvæ"],
     vot: ["üvä", "ˈyvæ"],
     liv: ["jõvā", "jəvaː"],

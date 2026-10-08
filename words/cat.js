@@ -887,7 +887,7 @@ WORDS.cat = {
     myv: ["катка", "katka"],
     mdf: ["катка", "katka"],
     krl: ["kažin", "ˈkaʒin"],
-    olo: ["kazi", "ˈkazi"],
+    olo: ["kaži", "ˈkɑʒi"],
     vep: ["kaži", "ˈkaʒi"],
     vot: ["kassi", "ˈkasːi"],
     liv: ["kaš", "kaʃ"],

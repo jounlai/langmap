@@ -403,7 +403,7 @@ WORDS.name = {
       tiv: ["iti", "iˈti"],
       efi: ["enyiñ", "eɲiŋ"],
       ekp: ["ewa", "ɛˈwa"],
-      izz: ["aha", "aha"],
+      izz: ["ẹpha", "ɛɸa"],
       ibb: ["anyịn̄", "aɲɪŋ"],
       urh: ["odẹ", "odɛ"],
       deg: ["ini", "ini"],  // Thomas & Williamson, Delta Edo wordlist p.71: "name (110) … DEGEMA iní (a-)"; Kari 2004 lists eni 'we' and ini 'name' side by side. The cell had held the 1PL pronoun, which the `we` cell correctly carries.

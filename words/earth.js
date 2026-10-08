@@ -369,7 +369,7 @@ WORDS.earth = {
     lt: ["žemė", "ˈʒʲɛmʲeː"],
     sgs: ["žemė", "ʒʲɛmʲeː"],
     lv: ["zeme", "ˈzɛme"],
-    ltg: ["zeme", "ˈzemæ"],
+    ltg: ["zeme", "ˈzʲæmʲæ"],
     prg: ["semmē", "ˈsɛmmeː"],
     el: ["γη", "ʝi"],
     el_grc: ["γῆ", "ɡɛ̂ː"],

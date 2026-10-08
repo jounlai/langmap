@@ -292,7 +292,7 @@ WORDS.milk = {
     szl: ["mlyko", "ˈmlɨkɔ"],
     rue: ["молоко", "moloˈko"],
     orv: ["молоко", "moloko"],
-    ltg: ["piens", "piens"],
+    ltg: ["pīns", "pʲiːnts"],
     prg: ["dadan", "dadan"],
 
     // --- Celtic, Albanian, Greek ----------------------------------------

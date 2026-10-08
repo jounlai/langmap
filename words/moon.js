@@ -884,7 +884,7 @@ WORDS.moon = {
     myv: ["ков", "kov"],
     mdf: ["ков", "kov"],
     krl: ["kuu", "kuː"],
-    olo: ["kuu", "kuː"],
+    olo: ["kuudam", "ˈkuːdɑm"],
     vep: ["kuu", "kuː"],
     vot: ["kuu", "kuː"],
     liv: ["kūʼ", "kuː"],

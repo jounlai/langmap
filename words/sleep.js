@@ -628,7 +628,7 @@ WORDS.sleep = {
     nan_zz: ["困", "kʰun˨˩"],
     pmy: ["tidor", "tidor"],
     bew: ["tidur", "tidur"],
-    ltg: ["gulēt", "ˈɡuleːt"],
+    ltg: ["gulēt", "ˈɡulʲæːtʲ"],
     ie: ["dormir", "dorˈmir"],
     io: ["dormar", "dorˈmar"],
     vls: ["sloapn", "sloːpn̩"],

@@ -375,7 +375,7 @@ WORDS.snow = {
     rmy: ["iv", "iv"],
     rmf: ["iiv", "iːv"],
     pcm: ["snow", "sno"],
-    tpi: ["sno", "sno"],
+    tpi: ["ais", "ais"],
     hwc: ["snow", "snoʊ"],
     se: ["muohta", "muohta"],
     sma: ["lopme", "ˈlopme"],

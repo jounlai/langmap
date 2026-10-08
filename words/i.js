@@ -403,7 +403,7 @@ WORDS.i = {
       tiv: ["mo", "mɔ"],
       efi: ["ami", "aˈmi"],
       ekp: ["ma", "ma"],
-      izz: ["mụ", "mʊ"],
+      izz: ["mu", "mu"],
       ibb: ["ami", "àmì"],
       urh: ["mẹ", "mɛ"],
       deg: ["mẹẹ", "mɛɛ"],

@@ -302,7 +302,7 @@ WORDS.daughter = {
     dsb: ["źowka", "ˈʑɔwka"],
     rue: ["донька", "ˈdonʲka"],
     szl: ["cera", "ˈtsɛra"],
-    ltg: ["meita", "ˈmeita"],
+    ltg: ["meita", "ˈmʲæi̯ta"],
 
     // --- Uralic — Finnic *tütär, and a separate Permic/Volga word --------
     krl: ["tytär", "ˈtʲytʲær"],

@@ -1243,7 +1243,7 @@ WORDS.fish = {
     zh_kf: ["鱼", "y˦˨"],
     zh_nj: ["鱼", "y˨˦"],
     bew: ["ikan", "ˈikan"],
-    ltg: ["zivs", "zifs"],
+    ltg: ["zivs", "zʲiwsʲ"],
     djr: ["guya", "ɡuja"],
     ie: ["pisce", "ˈpistse"],
     io: ["fisho", "ˈfiʃo"],

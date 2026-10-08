@@ -123,7 +123,7 @@ WORDS.father = {
       abv: ["أب", "ʔəb"],
       afb: ["أب", "ʔɑb"],
       acw: ["أبو", "ʔabu"],
-      swb: ["baba", "baba"],
+      swb: ["ɓaɓa", "ɓaɓa"],
       adx: ["ཕ་", "pʰɑ"],
       qxs: ["pə", "pə"],
       duu: ["pa", "pa"],

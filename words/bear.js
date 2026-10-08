@@ -63,6 +63,9 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    gcr: "loan",
+    dyu: "loan",
+    kjp: "inherited",
     quc: "loan",
     vmw: "loan",
     kg: "loan",
@@ -930,6 +933,9 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    gcr: ["lous", "lus"],
+    dyu: ["urusi wara", "urusi wara"],
+    kjp: ["ထင့်", "tʰâɴ"],
     quc: ["oso", "oso"],
     vmw: ["ursu", "uɾsu"],
     kg: ["urse", "urse"],
@@ -1120,7 +1126,7 @@ WORDS.bear = {
     nij: ["bahuang", "bahuaŋ"],
     rcf: ["lours", "luʁs"],
     niu: ["urosa", "urosa"],
-    rar: ["daba", "daba"],
+    rar: ["pea", "pea"], // was ["daba", "daba"] (vi dialect rules 2026-10-06)
     ty: ["daba", "daba"],
     jvn: ["bruwang", "bruwaŋ"],
     tsg: ["baluwang", "baluwaŋ"],

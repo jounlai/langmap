@@ -403,7 +403,7 @@ WORDS.you = {
       tiv: ["we", "we"],
       efi: ["afo", "aˈfo"],
       ekp: ["yo", "jo"],
-      izz: ["gị", "ɡɪ"],
+      izz: ["ngu", "ŋɡu"],
       ibb: ["afo", "àfò"],
       urh: ["wẹ", "wɛ"],
       deg: ["wọọ", "wɔɔ"],

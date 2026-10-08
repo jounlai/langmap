@@ -785,7 +785,7 @@ WORDS.five = {
     mos: ["nu", "nu"],
     kln: ["muut", "muːt"],
     mfe: ["senk", "sɛ̃k"],
-    rcf: ["senk", "sɛ̃k"],
+    rcf: ["sink", "sɛ̃k"],
     crs: ["senk", "sɛ̃k"],
     gcf: ["senk", "sɛ̃k"],
     mnk: ["luulu", "luːlu"],

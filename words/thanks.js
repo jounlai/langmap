@@ -1117,7 +1117,7 @@ WORDS.thanks = {
     tcy: ["ಸೊಲ್ಮೆಲು", "solmelu"],
     haz: ["تشکر", "taʃakkur"],
     tly: ["minnətdar", "minnətdaɾ"],
-    kaa: ["rahmet", "ɾaχmet"],
+    kaa: ["raxmet", "ɾaχmet"],
     bej: ["baraʼoo", "baɾaʕoː"],
     tig: ["የቀንየለይ", "jəqanjəlej"],
     ssy: ["galatto", "ɡalatto"],

@@ -324,7 +324,7 @@ WORDS.person = {
     khq: ["boro", "boro"],
     ki: ["mũndũ", "mondo"],
     kim: ["киши", "kiʃi"],
-    kj: ["omunhu", "omuɲu"],  // Left as is, deliberately. This IPA was carried over from the Shona cell, which was wrong there — but Oshikwanyama orthography may genuinely use ⟨nh⟩ for /ɲ/, so the two need checking separately rather than being corrected together.
+    kj: ["omunhu", "omun̥u"],  // Left as is, deliberately. This IPA was carried over from the Shona cell, which was wrong there — but Oshikwanyama orthography may genuinely use ⟨nh⟩ for /ɲ/, so the two need checking separately rather than being corrected together.
     kjh: ["кізі", "kizi"],
     kky: ["bama", "bama"],
     kl: ["inuk", "inuk"],

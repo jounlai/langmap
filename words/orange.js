@@ -1102,7 +1102,7 @@ WORDS.orange = {
     ast: ["naranxa", "naˈɾaŋʃa"],
     ext: ["naranja", "naˈɾaŋha"],
     fax: ["laranxa", "laˈɾaŋʃa"],
-    an: ["naranja", "naˈɾaŋxa"],
+    an: ["narancha", "naˈɾantʃa"], // was ["naranja", "naˈɾaŋxa"] (vi dialect rules 2026-10-06)
     wa: ["orandje", "ɔʁɑ̃dʒ"],
     kpv: ["апельсин", "apelʲˈsin"],
     koi: ["апельсин", "apelʲˈsin"],

@@ -878,7 +878,7 @@ WORDS.head = {
     nrf: ["tête", "tɛːt"],
     tru: ["ܪܝܫܐ", "riʃo"],
     ixl: ["viʼ", "viʔ"],
-    usp: ["bʼa", "ɓa"],
+    usp: ["bʼaa", "ɓaː"],
     oj: ["oshtigwaan", "oʃtiɡwaːn"],
     sjo: ["ᡠᠵᡠ", "udʐo"],
     nlc: ["huk", "huk"],

@@ -1654,7 +1654,7 @@ WORDS.foot = {
     ja_osa: ["足", "aɕi"],  // Osaka differs from Tokyo in pitch and in lexis, and 足 aɕi has no dialectal alternant — the row's own 舌 ɕita, which Tohoku voices and Kansai does not, is the control.
     ja_rys: ["ぱん", "paɴ"],  // JLect’s Yaeyama ぱん answers 足 with ティーパン ‘hands and feet’ and カタパン 一足; the Kohama cognate ぱい is glossed ‘leg, foot’.
     ja_sd: ["足", "aɕi"],  // Sendai voices the intervocalic stops — 舌 ɕida against ɕita is the nearest case — but 足 aɕi has no stop between its vowels, so the lenition has no target.
-    jam: ["fʊt", "fʊt"],  // Both English words survive, but IDS lists fʊt under 'leg' too, so the boundary is soft.
+    jam: ["fut", "fʊt"],  // r70: surface had the IPA letter ʊ; the Jamaican NT spells fut (MAT 5:35 "Gad put op im fut pan"). Earlier note: Both English words survive, but IDS lists fʊt under 'leg' too, so the boundary is soft.
     jbo: ["jamfu", "ˈʒamfu"],  // jbovlaste defines jamfu as the foot and tuple as the leg; the stress mark follows this row, which marks 57 of 59.
     jio: ["hɔːk", "hɔːk˥˧"],  // Norquest's Jiamao column answers both 腳 and 腿 with hɔːk9, the borrowed reflex of Proto-Hlai *khok; the other Hlai lects keep haː1 for 腿 and Jiamao has no reflex of it, so the loan took over the whole limb.
     jiu: ["ʃɔ33khi33", "ʃɔ˧˧kʰi˧˧"],  // ZMYYC 263.34 ʃɔ³³kʰi³³ 'foot' against 264.34 a³³phɹɔ³³ 'leg' — Jino keeps a separate word for each.

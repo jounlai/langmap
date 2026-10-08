@@ -233,7 +233,7 @@ WORDS.green = {
     crk: ["ᐊᐢᑭᐦᑕᒁᐤ", "askihtakwaːw"],
     crs: ["ver", "ver"],
     csb: ["zelony", "zɛˈlɔnɨ"],
-    ctu: ["yäx", "jɨʃ"],
+    ctu: ["yäjyäx", "jɨhjɨʃ"],
     cu: ["зеленъ", "zelenŭ"],
     cv: ["ешӗл", "jeˈʒɘl"],
     dlg: ["күөк", "kyøk"],
@@ -397,7 +397,7 @@ WORDS.green = {
     pap: ["bèrdè", "ˈbɛrdɛ"],
     pdc: ["grie", "ɡriː"],
     pdt: ["jreen", "jɾeːn"],
-    pkp: ["yengayenga", "jeŋajeŋa"],   // Grue: ABVD elicits it for green and it is already this row's 'blue'.
+    pkp: ["yengayenga", "ðeŋaðeŋa"],   // Grue: ABVD elicits it for green and it is already this row's 'blue'.
     pms: ["verd", "vɛrt"],
     pnb: ["ہرا", "ɦəraː"],
     pon: ["pohndipw", "poːndipʷ"],

@@ -312,7 +312,7 @@ WORDS.wheel = {
     sc: ["roda", "ˈroda"],
     fur: ["ruede", "ˈrwede"],
     ast: ["rueda", "ˈrweða"],
-    ext: ["rueda", "ˈrweða"],
+    ext: ["ruea", "ˈrwea"],
     an: ["rueda", "ˈrweða"],
     ca_va: ["roda", "ˈrɔða"],
     lad: ["rueda", "ˈrweða"],

@@ -724,7 +724,7 @@ WORDS.book = {
     hui: ["mbuga", "mbuɡa"],
     tru: ["ܟܬܒܐ", "kθowo"],
     ixl: ["uʼuj", "uʔuχ"],
-    usp: ["wuj", "wux"],
+    usp: ["wuuj", "wuːx"],
     kmu: ["avo", "avo"],
     pjt: ["nyiri", "ɲiɻi"],
     oj: ["mazinaʼigan", "mazinaʔiɡan"],

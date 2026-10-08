@@ -672,6 +672,12 @@ WORDS.computer = {
     cho: ["isht holhtina", "iʃt hoɬtina"],
     her: ["okombiuta", "okombiuta"],
     kek: ["ululchʼiichʼ", "ulultʃʼiːtʃʼ"],
-    tao: ["tiannaw", "tiannaw"]
+    tao: ["tiannaw", "tiannaw"],
+    teo: ["akompiuta", "akompiuta"],
+    kha: ["kompiwtor", "kompiwtɔr"],
+    dag: ["komputer", "komputer"],
+    new: ["कम्प्युतर", "kʌmpjutʌr"],
+    naq: ["komputers", "komputers"],
+    pon: ["komputer", "komputer"]
   },
 };

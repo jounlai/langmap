@@ -473,7 +473,7 @@ WORDS.eat = {
     ht: ["manje", "mãʒe"],
     jam: ["nyam", "ɲam"],
     bah: ["eat", "iːt"],
-    bzj: ["nyam", "ɲam"],
+    bzj: ["eet", "iːt"],
     pap: ["kome", "kome"],
     kea: ["kume", "kume"],
     rom: ["xal", "xal"],

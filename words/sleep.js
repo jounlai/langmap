@@ -308,7 +308,7 @@ WORDS.sleep = {
     ht: ["dòmi", "dɔmi"],
     jam: ["sliip", "sliːp"],
     bah: ["sliip", "sliːp"],
-    bzj: ["sliip", "sliːp"],
+    bzj: ["sleep", "sliːp"],
     pap: ["drumi", "ˈdrumi"],
     kea: ["durmi", "ˈduɾmi"],
     rom: ["sovel", "ˈsovel"],
@@ -720,7 +720,7 @@ WORDS.sleep = {
     bxk: ["khukona", "kʰukona"],
     ebu: ["kũmama", "komama"],
     toi: ["koona", "koːna"],
-    ng: ["okukofa", "okukofa"],
+    ng: ["okukotha", "okukoθa"],
     kj: ["okukofa", "okukofa"],
 
     // --- West Africa

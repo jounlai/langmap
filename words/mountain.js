@@ -382,7 +382,7 @@ WORDS.mountain = {
     nzm: ["peloa", "peloa"],
     unr: ["buru", "buru"],
     aln: ["mal", "mal"],
-    nyo: ["omusozi", "omusozi"],
+    nyo: ["orusozi", "orusozi"],
     ko_bus: ["산", "san"],
     ja_sd: ["山", "jama"],
     es_co: ["montaña", "monˈtaɲa"],

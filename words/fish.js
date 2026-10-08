@@ -246,7 +246,7 @@ WORDS.fish = {
     ksb: ["samaki", "samaki"],
     jmc: ["kunga", "kuŋɡa"],
     sbp: ["iswi", "iswi"],
-    rwk: ["samaki", "samaki"],
+    rwk: ["ikunga", "ikuŋɡa"],
     asu: ["samaki", "samaki"],
     tl: ["isda", "ʔisˈdaʔ"],
     agt: ["ikan", "ʔiˈkan"],

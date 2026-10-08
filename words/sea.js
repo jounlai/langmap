@@ -408,7 +408,7 @@ WORDS.sea = {
     wa: ["mér", "meːʁ"],
     sga: ["muir", "murʲ"],
     mlm: ["hai3", "hai˥˧"],
-    jam: ["si", "si"],
+    jam: ["sii", "siː"],
     se: ["mearra", "ˈmeɑrːa"],
     swi: ["haai3", "haːi˧˧"],
     enf: ["more", "mɔrʲɛ"],

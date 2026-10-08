@@ -429,7 +429,7 @@ WORDS.black = {
     bra: ["कारो", "kaːro"],
     skr: ["کالا", "kaːlaː"],
     nag: ["kala", "kala"],
-    mwr: ["कालो", "kaːɭo"],
+    mwr: ["काळौ", "kaːɭɔ"],
 
     // --- Creoles — each one takes its lexifier's word, worn down ---------
     gcr: ["nwè", "nwɛ"],
@@ -584,7 +584,7 @@ WORDS.black = {
     usp: ["qʼeq", "qʼeq"],
     tzo: ["ikʼal", "ikʼal"],
     tzh: ["ihkʼal", "ihkʼal"],
-    ctu: ["ikʼ", "ikʼ"],
+    ctu: ["iʼikʼ", "iʔikʼ"],
 
     // --- Uto-Aztecan; Nawat lost the tɬ Nahuatl kept -------------------
     nci: ["tlīltic", "tɬiːltik"],

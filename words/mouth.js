@@ -313,7 +313,7 @@ WORDS.mouth = {
     bm: ["da", "da"],
     bug: ["timu", "timu"],
     bxr: ["аман", "aman"],
-    bzj: ["mout", "mout"],
+    bzj: ["mowt", "mout"],
     ca_va: ["boca", "ˈbɔka"],
     cak: ["chiʼ", "tʃiʔ"],
     cbk: ["boca", "ˈboka"],

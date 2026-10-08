@@ -633,7 +633,7 @@ WORDS.hello = {
     nhw: ["niltze", "niltse"],
     nhe: ["nimitzpaca", "nimitspaka"],
     hch: ["kekuanenki", "kekwanenki"],
-    ngu: ["niltze", "niltse"],
+    ngu: ["panolti", "panolti"],
     ppl: ["ne pakua", "ne pakwa"],
     crn: ["keʼkuanenki", "keʔkwanenki"],
     emy: ["bix a beel", "biʃ a beːl"],

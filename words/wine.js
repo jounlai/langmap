@@ -1320,9 +1320,9 @@ WORDS.wine = {
     sco: ["wine", "wəin"],
 
     // --- English-lexifier creoles ------------------------------------------
-    jam: ["wine", "waɪn"],
+    jam: ["wain", "wain"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
     bah: ["wine", "waɪn"],
-    bzj: ["wine", "waɪn"],
+    bzj: ["wain", "waɪn"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
     kri: ["wayn", "wain"],
     pcm: ["wine", "waɪn"],
     hwc: ["wine", "waɪn"],
@@ -1361,7 +1361,7 @@ WORDS.wine = {
     ca_va: ["vi", "vi"],
     ast: ["vinu", "ˈbinu"],
     ext: ["vinu", "ˈbinu"],
-    an: ["vino", "ˈbino"],
+    an: ["vin", "bin"], // was ["vino", "ˈbino"] (vi dialect rules 2026-10-06)
     lad: ["vino", "ˈvino"],
     nap: ["vino", "ˈvinə"],
     scn: ["vinu", "ˈvinu"],

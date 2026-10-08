@@ -265,6 +265,10 @@ WORDS.wifi = {
     sl: ["Wi-Fi", "ˈʋiːˈfiː"],
     hr: ["Wi-Fi", "ʋifi"],
     es_bo: ["wifi", "ˈwajfaj"],
-    en_south: ["Wi-Fi", "ˈwaːfaː"]
+    en_south: ["Wi-Fi", "ˈwaːfaː"],
+    et: ["wifi", "ˈʋifi"],
+    vi_c: ["wifi", "ɣwaːj˥ faːj˥"],
+    ug: ["سىمسىز تور", "simsiz tor"],
+    anp: ["वाई-फाई", "ʋaːiːfaːiː"]
   }
 };

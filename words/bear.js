@@ -1739,7 +1739,7 @@ WORDS.bear = {
     xkz: ["wam", "wam"],
     lbj: ["དྲེན་མོ", "drenmo"],
     adx: ["དོམ", "tom"],
-    xsr: ["དོམ", "dom"],
+    xsr: ["དོམ", "tʰom"], // was ["དོམ", "dom"] (vi dialect rules 2026-10-06)
     khg: ["དོམ", "toŋ˩˧"],
     rki: ["ဝက်ဝံ", "wɔʔwàɴ"], // was ["ဝက်ဝံ", "wɛˀwʊ̀ɴ"] (r51 audit 2026-10-04)
     atb: ["wàm", "vam˥˩"],

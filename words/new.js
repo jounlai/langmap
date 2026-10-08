@@ -653,7 +653,7 @@ WORDS.new = {
     ko_kp: ["새로운", "sɛɾoun"],
     ko_yb: ["새로운", "sɛɾoun"],
     ks: ["نۆو", "nov"],
-    bgq: ["नवो", "nəʋo"],
+    bgq: ["नुओ", "nuo"],
     mey: ["جديد", "ʒdiːd"],
     ti: ["ሓድሽ", "ħaddɨʃ"],
     kab: ["ajdid", "aʒdid"],

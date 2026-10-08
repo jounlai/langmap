@@ -831,7 +831,7 @@ WORDS.daughter = {
     tzo: ["tzeb", "tseɓ"],
     tzh: ["antsil nichʼan", "antsil nitʃʼan"],
     quc: ["miʼal", "miʔal"],
-    cak: ["miʼal", "miʔal"],
+    cak: ["meʼal", "meʔal"],
     kek: ["rabʼin", "raɓin"],
     poh: ["ixqʼun", "iʃqʼun"],
     kjb: ["kutzʼin", "kutsʼin"],

@@ -1154,7 +1154,7 @@ WORDS.tea = {
     hsn: ["茶", "tsa˩˧"],
     ja: ["お茶", "otɕa"],
     ka: ["ჩაი", "tʃʰai"],
-    kaa: ["шай", "ʃaj"],
+    kaa: ["shay", "ʃaj"], // was ["шай", "ʃaj"] (vi dialect rules 2026-10-06)
     kjh: ["чай", "tʃaj"],
     kk: ["шай", "ʃɑj"],
     kn: ["ಚಹಾ", "tʃəɦaː"],

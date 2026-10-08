@@ -961,7 +961,7 @@ WORDS.coffee = {
     dty: ["कफी", "kəpʰiː"],
     mai: ["कफी", "kəpʰiː"],
     awa: ["कफी", "kəpʰiː"],
-    gil: ["kobee", "kobeː"],
+    gil: ["kobe", "kobe"], // was ["kobee", "kobeː"] (vi dialect rules 2026-10-06)
     mh: ["kọpe", "kɒːbʲe"],
     hmn: ["kas fes", "ka˨˩ fe˨˩"],
     nia: ["kofi", "kofi"],

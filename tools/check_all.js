@@ -590,7 +590,12 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 // each word in each language, which is per-cell research, not a sweep.
 // r59 (2026-10-07): +1, tca person duü̃xü̃ — added toneless like the row's 11
 // other bare Ticuna cells (bear, bird, bone, book …); the row needs a tone pass.
-const TONE_POLICY_DEBT = 58;
+// r72 (2026-10-08): +11. Mohawk (moh): 7 cells now carry FirstVoices' grave
+// accents (falling tone) in the spelling, which the row's IPA has never
+// written — a whole-row tone pass, not a per-cell fix. Bai (bca): the r72
+// rebuild made the row majority-Chao, which exposes 3 old toneless cells
+// (hello, thanks, we). njo/duu/ers: one old cell each tipped the same way.
+const TONE_POLICY_DEBT = 69;
 s = run('tone_policy_check.js --check');
 {
     const n = num(s, /violations: (\d+)/);

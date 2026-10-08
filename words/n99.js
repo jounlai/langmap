@@ -918,7 +918,7 @@ WORDS.n99 = {
     toj: ["chan tajbʼe sok bʼalun lajune", "tʃan tahɓe sok ɓalun lahune"],
     tll: ["akumi divwa la divwa", "akumi divwa la divwa"],
     tkl: ["iva hefuluiva", "iva hefuluiva"],
-    tet: ["siwi nulu resin siwi", "siwi nulu resin siwi"],
+    tet: ["sia-nulu resin sia", "sia-nulu resin sia"], // was ["siwi nulu resin siwi", "siwi nulu resin siwi"] (vi dialect rules 2026-10-06)
     tcy: ["ಸೊನ್ಪತ್ತೊರ್ಂಬ", "sonpattormba"],
     tcs: ["nainti nain", "nainti nain"],
     tab: ["урчӏвцӏурна урчӏвуб", "urtʃʼvtsʼurna urtʃʼʷub"],
@@ -1176,7 +1176,7 @@ WORDS.n99 = {
     kam: ["mĩongo kenda na kenda", "mioŋɡo kenda na kenda"],
     snk: ["tankabe do kabu", "tãkabe do kabu"],
     emk: ["bikɔnɔndɔ ni kɔnɔndɔ", "bikɔnɔndɔ ni kɔnɔndɔ"],
-    bci: ["ablangwlan nin ngwlan", "ablaŋɡʷlã nĩ ŋɡʷlã"],
+    bci: ["ablangwlan-nin-ngwlan", "ablaŋɡʷlã nĩ ŋɡʷlã"], // was ["ablangwlan nin ngwlan", "ablaŋɡʷlã nĩ ŋɡʷlã"] (vi dialect rules 2026-10-06)
     sg: ["balegumbaya na gumbaya", "baleɡumbaja na ɡumbaja"],
     nso: ["masome a senyane le senyane", "masome a seɲane le seɲane"],
     ssw: ["emashumi layimfica nemfica", "emaʃumi lajimfiǀa nemfiǀa"],

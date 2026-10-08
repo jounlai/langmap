@@ -56,7 +56,7 @@ WORDS.blue = {
   },
   family: {
     ltg: "distinct",
-    qxs: "grue",
+    qxs: "borrowed", // route was grue (vi dialect rules 2026-10-06)
     blc: "distinct",
     bal: "grue",
     aa: "distinct",
@@ -847,7 +847,7 @@ WORDS.blue = {
   },
   data: {
     ltg: ["zyls", "zɨls"],
-    qxs: ["χueχue", "χueχue"],
+    qxs: ["lanȵi", "lanɲi"], // was ["χueχue", "χueχue"] (vi dialect rules 2026-10-06)
     blc: ["qwit", "qʷit"],
     bal: ["سبز", "sabz"],
     aa: ["kucliní", "kuħlini"],
@@ -1287,7 +1287,7 @@ WORDS.blue = {
     ar: ["أزرق", "ˈʔazraq"],  // MSA أزرق against أخضر. The root z-r-q is the same one that in Aramaic covers both ends of the cool range, but Arabic separates them.
     ar_lev: ["أزرق", "ˈʔazraʔ"],  // Levantine Arabic أزرق against أخضر, the MSA pair with the qaf realised as a glottal stop. WALS 134A codes Lebanese Arabic as 'Green and blue', i.e. two separate basic terms.
     ast: ["azul", "aˈθul"],  // Asturian azul against verde.
-    av: ["хъахӏилаб", "qʼaˈħilab"],  // Avar хъахӏилаб vs гӏурччинаб. IDS's Avar dialect entries also give зодикьераб 'sky-under-coloured' and цӏахӏилаб, showing several competing blue terms across the dialects.
+    av: ["хъахӏилаб", "qaħilab"],  // Avar хъахӏилаб vs гӏурччинаб. IDS's Avar dialect entries also give зодикьераб 'sky-under-coloured' and цӏахӏилаб, showing several competing blue terms across the dialects. // was ["хъахӏилаб", "qʼaˈħilab"] (vi dialect rules 2026-10-06)
     ay: ["larama", "laɾama"],  // Distinct because IDS gives different forms for blue and green in the same elicitation. Cf. neighbouring Chipaya, which borrowed both larama and chʼoxña from Aymara.
     az: ["göy", "ɟœj"],  // Azerbaijani göy covers blue and reaches into green (göy-göyərti 'greens, herbs'); mavi, the Arabic loan, is the competing narrow blue. NorthEuraLex lists both, göy first.
     ba: ["күк", "kyk"],  // Bashkir күк against йәшел; Wiktionary gives the Persian loan зәңгәр as the narrow blue, which is exactly the pattern a grue term attracts.
@@ -1575,7 +1575,7 @@ WORDS.blue = {
     szl: ["modry", "ˈmɔdrɨ"],  // Silesian modry against zielōny — the West Slavic modrý blue, not Polish niebieski.
     szy: ["sumilaway", "sumilawaj"],  // Class INFERRED: the same Sakizaya dictionary keeps green separate (langdaw 綠色 id 72feb20d-e309-f011-bd64-00155db40116, langdaway 綠色的), and the 撒奇萊雅語 學習詞表 gives langdaway for 綠色的 with no blue item at all. Only the -ay form sumilaway is attested; the row's red/white use the bare sumanah/sanglac, whose -ay counterparts sumanahay/sanglacay also exist in the same dictionary, so the mismatch is in the source, not introduced here. Frequency is low (1), so this is a thinly attested word.
     ta: ["நீலம்", "niːlam"],  // Tamil நீலம் against பச்சை.
-    tab: ["укӏуб", "uˈkʼub"],  // Tabasaran укӏуб vs чруб.
+    tab: ["укӏуб", "ukʼub"],  // Tabasaran укӏуб vs чруб. // was ["укӏуб", "uˈkʼub"] (vi dialect rules 2026-10-06)
     tao: ["mogaraw", "moɡaraw"],  // Yami/Tao has no clean blue/green split in this source: mogaraw is listed for 'blue' (Imorod, Iraralay) and for 'green' (Imorod, Babuyan magaraw), and the Imorod 'green' entry adds ma-rehem glossed 'dark blue (the color of deep ocean)'. TYM lists masohaw first under Imorod 'blue', but masohaw is 'yellow' in the Ivatan and Babuyan columns of item 728, so I did not use it. The row's red/white (mivalah, malavang) match the Imorod column. Marked uncertain: a Yami dictionary (Rau, Dong & Chang 2012) would settle which of mogaraw / masohaw is the everyday sky term.
     tar: ["siyóname", "siˈjoname"],  // WCS Tarahumara (Central) also lists siyó as a basic term (World Color Survey language 92). Accent placement follows the row's sitákame / siˈtakame convention.
     tay: ["mtasiq", "mtasiq"],  // Squliq Atayal, matching the row's mtalah / plqwiʼ. A blue-specific mslyaw ~ kslyaw 藍色 also exists in the same dictionary, and both of its example sentences are about the sky ("blaq kayal nyaʼ soniʼ ru mslyaw ngayan qu kayal nyaʼ." = 今天天氣很好，天空藍藍一片。, id 304f89b7-6709-f011-bd64-00155db40116, frequency 6 against mtasiq's 23). I have given the basic grue term as the brief directs; if the atlas would rather show the blue-specific word, mslyaw /mslijaw/ is the alternative.

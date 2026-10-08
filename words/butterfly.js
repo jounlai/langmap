@@ -269,7 +269,7 @@ WORDS.butterfly = {
     ay: ["pilpintu", "pilpintu"],  // Reduplicative pil-pin-; shared with Quechua pillpintu.
     gn: ["panambi", "panaˈmbi"],  // IDS writes panaᵐbi; respelled mb, as in the row's own mbarakaja.
     agr: ["wámpishuk", "wámpiʃuk"],
-    arn: ["llampüdkeñ", "ʎampɨðkeɲ"],  // Augusta separates the diurnal llampüdkeñ from tontón 'mariposa nocturna' (moth) — the IDS Mapudungun entry, a reduplicated tonton, is that moth word; llamkellamke is a reduplicated synonym of llampüdkeñ
+    arn: ["llampüzkeñ", "ʎampɨðkeɲ"],  // Augusta separates the diurnal llampüdkeñ from tontón 'mariposa nocturna' (moth) — the IDS Mapudungun entry, a reduplicated tonton, is that moth word; llamkellamke is a reduplicated synonym of llampüdkeñ
     mch: ["matutu", "matutu"],
     mzh: ["chukuk", "tʃukuk"],  // IDS transcribes čukuk; respelled ch, as in the row's own mishi orthography.
     kgp: ["toto", "toto"],  // Fully reduplicated to-to.
@@ -528,7 +528,7 @@ WORDS.butterfly = {
     mk: ["пеперутка", "pɛpɛˈrutka"],
     li: ["kapel", "kaˈpɛl"],
     sc: ["cabagasu", "kaβaˈɣazu"],
-    tsg: ["kabakaba", "kabakaba"],
+    tsg: ["kabaꞌ-kabaꞌ", "kabaʔkabaʔ"],
     mdh: ["paro-paro", "paroˈparo"],
     ljp: ["halibambang", "halibambaŋ"],
     hoc: ["pampal", "pampal"],

@@ -905,7 +905,7 @@ WORDS.sleep = {
 
     // --- The Americas, second pass
     mus: ["nocetv", "notʃitə"],
-    cic: ["nusi", "nusi"],
+    cic: ["nosi", "nosi"],
     jiv: ["kanarta", "kanaɾta"],
     acu: ["kanarta", "kanaɾta"],
     poh: ["wirik", "wirik"],
@@ -1153,7 +1153,7 @@ WORDS.sleep = {
     txb: ["𑀓𑁆𑀮𑀦𑁆𑀢𑁆𑀲𑁆", "klənts"],
     czh_wy: ["睏", "kʰuɐin˧˥"],
     wuu_hz: ["睏觉", "kʰuəŋ˦˦˥ tɕiɔ˦˦˥"],
-    hai: ["ḵʼa", "qʼa"],
+    hai: ["ḵʼada", "qʼada"],
     fia: ["nèèr-", "nèːr"],
     kqz: ["ǁūm", "ǁʔuːm"],
     ktz: ["tsʼá", "tsʼá"],

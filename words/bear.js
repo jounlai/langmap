@@ -938,7 +938,7 @@ WORDS.bear = {
     kjp: ["ထင့်", "tʰâɴ"],
     quc: ["oso", "oso"],
     vmw: ["ursu", "uɾsu"],
-    kg: ["urse", "urse"],
+    kg: ["beli", "beli"], // was ["urse", "urse"] (vi dialect rules 2026-10-06)
     tsz: ["osu", "osu"],
     ixl: ["oso", "oso"],
     kqn: ["mbeyala", "mbejala"],
@@ -952,7 +952,7 @@ WORDS.bear = {
     luy: ["itubu", "itubu"],
     ngu: ["oso", "ˈoso"],
     chf: ["oso", "ˈoso"],
-    kek: ["oso", "ˈoso"],
+    kek: ["oos", "oːs"], // was ["oso", "ˈoso"] (vi dialect rules 2026-10-06)
     yle: ["mbeyê", "mbejə"],
     huv: ["oso", "oso"],
     shp: ["oso", "oso"],
@@ -1028,7 +1028,7 @@ WORDS.bear = {
     jiu: ["a33ø44", "a˧˧ø˦˦"],
     clk: ["jɑŋ55hoŋ55", "jɑŋ˥˥hoŋ˥˥"],
     nuf: ["khui55uɑ35", "kʰui˥˥uɑ˧˥"],
-    njo: ["shirem", "ʃiɹem"],
+    njo: ["shim", "ʃim"], // was ["shirem", "ʃiɹem"] (vi dialect rules 2026-10-06)
     nzm: ["hegum", "heɡum"],
     nmf: ["singom", "siŋom"],
     acn: ["ɔm55", "ɔm˥˥"],
@@ -1511,7 +1511,7 @@ WORDS.bear = {
     nv: ["shash", "ʃaʃ"],
     apw: ["shash", "ʃaʃ"],
     chr: ["ᏲᎾ", "jona"],
-    moh: ["ohkwári", "ohkwári"],
+    moh: ["ohkwá:ri", "ohkwáːri"], // was ["ohkwári", "ohkwári"] (vi dialect rules 2026-10-06)
     lkt: ["matȟó", "matʰó"],
     osa: ["wasápe", "wasápe"],
     qwc: ["ukumari", "ukumaɾi"],

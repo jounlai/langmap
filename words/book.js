@@ -410,7 +410,7 @@ WORDS.book = {
     nso: ["puku", "puku"],     // Borrowed from English book; nso.wikipedia's Puku article discusses dipuku tša go gatišitšwego 'printed books'.
     luo: ["buk", "buk"],       // English–Dholuo Dictionary (1997) splits three ways in one source: "book (n) buk", "paper (n) kalatas", "letter (n) oboke, barua, nyukta".
     mas: ["embuku", "embuku"],  // Payne & Ole-Kotikash, Maa Online Dictionary: "em-búku … n. Book. Embúku ɛná. This is a book." The same dictionary keeps ɛn-kardási 'paper' and ɛm-pálāī 'written paper, letter' separate. It also lists ɛn-kɨtábu, but embúku carries the everyday example sentences.
-    mnk: ["bukoo", "bukoː"],   // Two Mandinka dictionaries (English–Mandinka 1965, Lexique Mandinque-Français 1968), both of which write it buko in their pre-standard orthography — the same books write kuno where this row has kunoo, so the definite -oo is a house normalisation, not a new form. The 1965 dictionary lists "Arabic book" as a separate sense, which is where kitaaboo sits.
+    mnk: ["kitaaboo", "kitaːboː"],   // Two Mandinka dictionaries (English–Mandinka 1965, Lexique Mandinque-Français 1968), both of which write it buko in their pre-standard orthography — the same books write kuno where this row has kunoo, so the definite -oo is a house normalisation, not a new form. The 1965 dictionary lists "Arabic book" as a separate sense, which is where kitaaboo sits.
     om: ["kitaaba", "kitaːba"],  // om.wikipedia's book article says outright that kitaaba is the widely known and used word, against barroo/barreeffa as technical and macaafa as religious.
     nbl: ["incwadi", "iŋǀʷadi"],  // Nguni incwadi does also cover 'letter' and 'document', but it is genuinely the ordinary word for a book — there is no other — so it falls under the concept's "unless" clause rather than the paper-word rule. nr.wikipedia's Iincwadi opens "Incwadi kulibuthelelo lamaphepha ahlanganisweko" (a collection of bound pages) and keeps amaphepha 'paper' distinct. nc is the nasalised dental click, ncw labialised; U+01C0, the same click family as this map's iǃanda.
     nd: ["incwadi", "iŋǀʷadi"],   // Wiktionary's Northern Ndebele entry glosses it only 'book'; see the nbl note for the rest.
@@ -869,7 +869,7 @@ WORDS.book = {
     ivv: ["libro", "libro"],
     piu: ["piipa", "piːpa"],
     men: ["kɔlɔ", "kɔlɔ"],
-    njo: ["kaket", "kaket"],
+    njo: ["kaküt", "kakət"],
     pkp: ["puka", "puka"],
     mhy: ["buku", "buku"],
     cic: ["holisso", "holisːo"],

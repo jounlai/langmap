@@ -1252,7 +1252,7 @@ WORDS.we = {
     xav: ["wa norĩ", "wa noɾĩ"],
     ter: ["ûti", "ˈuːti"],
     bor: ["pagi / cegi", "paɡi / tʃeɡi"],
-    trn: ["viti", "witi"],
+    trn: ["witi", "witi"], // was ["viti", "witi"] (vi dialect rules 2026-10-06)
     ake: ["urüʼnokon / ina", "uɾɯʔnokon / ina"],
     aoc: ["urönokon / ina", "uɾønokon / ina"],
     gun: ["nhande / ore", "ɲãnde / oɾe"],
@@ -1270,7 +1270,7 @@ WORDS.we = {
     bca: ["nga", "ŋa"],
     atb: ["nga-nhung / ngamoq", "ŋa˥˥n̥uŋ˥˥ / ŋa˥˥moʔ˥˥"],
     prk: ["—", "—"],
-    slr: ["biser", "biser"],
+    slr: ["piser", "pʰisɤɹ"], // was ["biser", "biser"] (vi dialect rules 2026-10-06)
     ybe: ["mɨs", "mɯs"],
     yuy: ["budas / buda", "budas / buda"], // was ["будас / буда", "budas / buda"] (r48 B fix 2026-10-03)
     mjg: ["buda", "puda"],
@@ -2271,7 +2271,7 @@ WORDS.we = {
     nut: ["rầu", "rəw˨˩"],
     quc: ["uj", "ux"],
     cak: ["röj", "rʊx"],
-    kek: ["laʼo", "laʔo"],
+    kek: ["laaʼo", "laːʔo"], // was ["laʼo", "laʔo"] (vi dialect rules 2026-10-06)
     poh: ["hoj", "hox"],
     kjb: ["ayonh", "ʔajoŋ"],
     ctu: ["joñonla / joñon lojon", "hoɲonla / hoɲon lohon"],

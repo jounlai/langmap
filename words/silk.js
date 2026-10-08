@@ -488,7 +488,7 @@ WORDS.silk = {
     gym: ["seda", "seda"],
     ab: ["абырфын", "abərfən"],
     ses: ["alharru", "alharru"],
-    arn: ["seya", "seja"],
+    arn: ["seza", "seða"],
     kpv: ["шӧвк", "ʃɵvk"],
     myv: ["парсей", "parsej"],
     bi: ["silik", "silik"],

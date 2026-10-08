@@ -428,7 +428,7 @@ WORDS.hundred = {
     smn: ["čuođi", "ˈtʃuoði"],
     mrj: ["шӱдӹ", "ʃydə"],
     liv: ["sadā", "ˈsadaː"],
-    mns: ["сот", "sot"],
+    mns: ["са̄т", "saːt"],
     kca: ["сот", "sot"],
 
     // Romani šel is Sanskrit शतम् — the satem form, carried out of India.
@@ -561,7 +561,7 @@ WORDS.hundred = {
     min: ["saratuih", "saratuih"],
     sda: ["saratu", "saratu"],
     mdr: ["sangatus", "saŋatus"],
-    bug: ["saratuʼ", "saraˈtuʔ"],
+    bug: ["sératu", "seratu"],
     mad: ["saratos", "saratos"],
     sas: ["satus", "satus"],
     nia: ["ötu", "ɤtu"],
@@ -648,7 +648,7 @@ WORDS.hundred = {
     ada: ["lafa", "lafa"],
     bci: ["ya", "ja"],
     mos: ["koabga", "koabɡa"],
-    dag: ["kobga", "kobɡa"],
+    dag: ["kɔbiga", "kɔbiɡa"],
     mnk: ["keme", "keme"],
     kao: ["keme", "keme"],
     dyu: ["kɛmɛ", "kɛ̀mɛ́"],
@@ -656,7 +656,7 @@ WORDS.hundred = {
     bbo: ["jɔlɩ", "ɟɔ̄lɪ̀"],
     tem: ["kɛmɛ", "kɛmɛ"],
     snk: ["kame", "kãme"],
-    men: ["hɔndo", "hɔ́ndo"],   // from English hundred
+    men: ["hɔndɔ", "hɔndɔ"],   // from English hundred
     bsq: ["hɔ̃dɛɖɛ", "hɔ̃dɛɖɛ"],   // from English hundred
     mev: ["wũ", "wũ"],
     ee: ["alafa", "alafa"],
@@ -676,10 +676,10 @@ WORDS.hundred = {
     cro: ["pilakisée", "pilakiséː"],
     cic: ["talhipa", "taɬipa"],
     mus: ["cokpe", "tʃokpi"],
-    bla: ["kiipippo", "kiːpipːo"],
+    bla: ["kiipíppo", "kiːpípːo"],
     pot: ["ngotwak", "ŋɡotwak"],
     nv: ["neeznádiin", "neːznáːtiːn"],   // ten tens — neeznáá is this row's ten, -diin the decade suffix
-    esu: ["yuinaak talliman", "juinaːk taɬiman"],   // five twenties: yuinaq is twenty, talliman this row's own five
+    esu: ["yuinaat talliman", "juinaːt taɬiman"],   // five twenties: yuinaq is twenty, talliman this row's own five
     cuk: ["dulatar", "dulataɾ"],   // five persons — dula twenty, atar this row's own five
     quc: ["jokʼal", "xokʼal"],   // five twenties, on the Mayan vigesimal count
     cak: ["wokʼal", "wokʼal"],   // five twenties
@@ -710,7 +710,7 @@ WORDS.hundred = {
     cnh: ["za", "za"],
     lus: ["za", "za"],
     nmf: ["shakha", "ʃakʰə"],   // sha is the hundred, kha this row's own one
-    njo: ["nuklang", "nuklaŋ"],
+    njo: ["noklang", "noklaŋ"],
     nzm: ["heiket", "heiket"],   // hei is the hundred, ket the enclitic one
     kac: ["tsa", "tsa˧"],
     tsj: ["gya", "ɡʲa"],   // the Tibetan བརྒྱ carried east into Tshangla
@@ -887,7 +887,7 @@ WORDS.hundred = {
     yue_ts: ["百", "paːk̚˧˧"],
     din: ["buɔt", "buɔt"],
     ay: ["pataka", "pataka"],
-    fon: ["kanweko", "kãweko"],
+    fon: ["kanwe ko", "kãwe ko"],
     ii: ["ꉐ", "ha˧˧"],
     pcc: ["bas", "pa˧˥"],
     ace: ["reutôh", "ɾɯtoh"],
@@ -1016,7 +1016,7 @@ WORDS.hundred = {
     moh: ["tewenʼniáwe", "tewʌ̃ʔnjáwe"],
     chy: ["mahtóhtȯhnóʼe", "mahtóhtohnóʔe"],
     ium: ["baeqv", "pæʔ˥˥"],
-    yap: ["raqay", "raʔaj"],
+    yap: ["raʼay", "raʔaj"],
     aqc: ["баӏш", "baˤʃ"],
     mgo: ["ɨkɨ fibɨ̀", "ɨkɨ fibɨ̀"],
     dbq: ["bələk", "bələk"],
@@ -1070,7 +1070,7 @@ WORDS.hundred = {
     thp: ["x̣əcpq̓íqn̓kst", "χətspqʼiqnˀkst"],
     sjd: ["чӯдтҍ", "tʃuːdtʲ"],
     zgh: ["ⵜⵉⵎⵉⴹⵉ", "timidˤi"],
-    kpe: ["nguŋ", "ŋuŋ"],
+    kpe: ["ŋuŋ", "ŋuŋ"],
     rut: ["веш", "weʃ"],
     wym: ["hundyt", "ˈhundɨt"],
     pau: ["dart", "ðart"],
@@ -1156,6 +1156,6 @@ WORDS.hundred = {
     cay: ["sgá:t dewę́ʼnyawe:ʼ", "skáːt dewɛ̃́ʔɲaweːʔ"],
     itl: ["туʼус", "tuʔus"],
     yle: ["yonoy:a", "jonojːa"],
-    ik: ["tallimakipiaq", "talːimakipiaq"]
+    ik: ["tallimakipiat", "talːimakipiat"]
   },
 };

@@ -1024,6 +1024,12 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                one: new Set(['father', 'eat', 'drink']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
+                com: new Set(['blood', 'love']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
+                sce: new Set(['hello', 'thanks', 'heart']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
+                bor: new Set(['love']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
+                ers: new Set(['bone']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
+                chk: new Set(['poop']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
                 sva: new Set(['love']),   // r58: ხოჩა was the row's 'good'; no Svan noun 'love' found
                 pwo: new Set(['name']),   // r58: မဲ was S'gaw 'tooth'; Pwo မံၩ့ found (MAT 1:21) but no IPA source
                 guc: new Set(['wheel']),   // r58: ooʼui copied from foot; Wayuu dictionary behind a bot wall
@@ -1031,9 +1037,9 @@ for (const code of codes) {
                 ebu: new Set(['thanks']),   // r54: nĩ baba not a thanks formula; no Embu source
                 deg: new Set(['love', 'hello', 'thanks']),   // r54: row audited against Kari's lexicon; no Degema source for these
                 blk: new Set(['good', 'love', 'hello', 'snow', 'night']),   // r48 B: wrong-language cells removed, no right-language source yet
-                yuy: new Set(['love', 'hello', 'thanks']),   // r48 B: wrong-language cells removed, no right-language source yet
+                yuy: new Set(['love', 'hello', 'thanks', 'cat']),   // r48 B: wrong-language cells removed, no right-language source yet
                 mjg: new Set(['star', 'thanks']),   // r48 B: wrong-language cells removed, no right-language source yet
-                ake: new Set(['house']),   // r47: enna was 'nose' (Webonary akawaio)
+                ake: new Set(['house', 'love']),   // r47: enna was 'nose' (Webonary akawaio)
                 jiu: new Set(['bone', 'hello', 'thanks']),
                 pmi: new Set(['hello', 'thanks']),
                 twm: new Set(['bone', 'hello', 'thanks']),

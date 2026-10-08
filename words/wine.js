@@ -934,7 +934,7 @@ WORDS.wine = {
   data: {
     djr: ["borum wiyikaʼ", "boɻum wijikaʔ"],
     pwo: ["စဘံၭထံၫ", "sə ɓeiʔ tʰi"],
-    woe: ["waaine", "waːine"],
+    woe: ["waain", "waːine"], // was ["waaine", "waːine"] (vi dialect rules 2026-10-06)
     nut: ["lảu", "laːw˨˩˧"],
     mus: ["ue-homē-cate", "oihomiːtʃáːti"],
     bm: ["diwɛn", "diwɛn"],
@@ -1525,7 +1525,7 @@ WORDS.wine = {
     ote: ["vinu", "ˈbinu"],
     quc: ["vino", "ˈbino"],
     cak: ["vino", "ˈbino"],
-    kek: ["vino", "ˈbino"],
+    kek: ["bʼiin", "ɓiːn"], // was ["vino", "ˈbino"] (vi dialect rules 2026-10-06)
     ctu: ["vino", "ˈbino"],
     bzd: ["vino", "ˈbino"],
     cuk: ["vino", "ˈbino"],
@@ -1802,7 +1802,7 @@ WORDS.wine = {
     zne: ["vino", "vino"],
     bfa: ["binyo", "biɲo"],
     teo: ["ebino", "ebino"],
-    ach: ["vino", "vino"],
+    ach: ["bwino", "bwino"], // was ["vino", "vino"] (vi dialect rules 2026-10-06)
     luo: ["divai", "divai"],
     mos: ["divẽ", "divẽ"],
     dag: ["wain", "wain"],
@@ -1815,7 +1815,7 @@ WORDS.wine = {
     gaa: ["wain", "wain"],
     ak: ["bobesa", "bobesa"],
     bci: ["duvɛn", "duvɛ̃"],
-    dyu: ["duvɛn", "duvɛ̃"],
+    dyu: ["divɛn", "divɛ̃"], // was ["duvɛn", "duvɛ̃"] (vi dialect rules 2026-10-06)
     khq: ["duwẽ", "duwẽ"],
     mnk: ["wayinoo", "wajinoː"],
     dyo: ["wayin", "wajin"],

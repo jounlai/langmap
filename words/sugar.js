@@ -952,7 +952,7 @@ WORDS.sugar = {
     kmb: ["sukidi", "suˈkidi"],
     mnk: ["sukuro", "sukuro"],
     sus: ["suka", "suka"],
-    mos: ["sikare", "sikare"],
+    mos: ["sʋkre", "sʊkre"], // was ["sikare", "sikare"] (vi dialect rules 2026-10-06)
     mey: ["سكر", "səkkər"],
     snk: ["sukkara", "sukːara"],
     mas: ["esukari", "esukari"],
@@ -1205,7 +1205,7 @@ WORDS.sugar = {
     lg: ["ssukaali", "sːukaːli"],
     rn: ["isukari", "isukaɾi"],
     ki: ["cukari", "tʃukaːɾi"],
-    arn: ["asuküra", "asukɨɾa"],
+    arn: ["asukura", "asukuɾa"], // was ["asuküra", "asukɨɾa"] (vi dialect rules 2026-10-06)
     yur: ["repchem", "reptʃem"],
     arp: ["niisiscooʼ", "niːsistʃoːʔ"],
     chy: ["véʼkeemahpe", "véʔkeemahpe"],

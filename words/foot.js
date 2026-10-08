@@ -1844,7 +1844,7 @@ WORDS.foot = {
     mnw: ["ဇိုၚ်", "càŋ"],  // Shorto's Dictionary of Modern Spoken Mon glosses ဇိုၚ် 'lower limb, leg, foot' with 'he has a bad leg' and 'wash your feet' under the one entry; modern Mon keeps what Old Mon ဇုင် already had.
     moc: ["lapiaʔ", "lapiaʔ"],  // IDS splits Mocoví l-apiaʔ from li-či, and this row's lqaiʔlaʁat is IDS's l-ḳaiʔlaʁat.
     moh: ["ohsì:taʼ", "ohsìːtaʔ"],  // The 1818 Mohawk John washes radighsige 'their feet' at 13:5 and breaks honwarenghsyakon 'his legs' at 19:33 while 19:36 leaves raoghstyen 'his bone' whole; the citation noun is Maracle's ohsì:taʼ, against ohsí:naʼ for the leg.
-    mos: ["karga", "karɡa"],  // The modern entry gives one word for the limb.
+    mos: ["naoore", "naoːre"],  // r72: Webonary Mooré naoore "foot, leg, paw, wheel" (pied, patte, roue de véhicule); karga is the dedicated "wheel" headword, now in the wheel cell. IPA per row (doubled vowel = ː, as koom koːm). Earlier note: The modern entry gives one word for the limb.
     mpj: ["jina", "cina"],  // Revelation 10:1 makes junta the leg and John 13:5 makes jina the foot, and the Wati dictionaries agree — Pintupi-Luritja tjunta, Kukatja kanytji.
     mpt: ["sikir", "sikir"],  // Mian keeps them apart. The source form is already a phonetic transcription.
     mr: ["पाय", "paj"],  // पाय covers the whole limb, like Bengali পা and unlike Hindi.
@@ -2281,7 +2281,7 @@ WORDS.foot = {
     yai: ["pōda", "ˈpoːda"],  // pōda covers both; Andreev–Peshchereva's texts use it for the leg as well as the foot.
     yan: ["kal", "kal"],  // Constenla's Misumalpan comparison gives Mayangna kal against barahmak 'leg', and its tin and wakal are this row's own ting and wakal.
     yao: ["lukongolo", "lukoŋɡolo"],  // Sanderson's 1922 grammar gives lukongolo for both foot and leg; likau and likumbo are the spoor, not the foot.
-    yap: ["qaay", "ʔaːj"],  // Jensen glosses the same paradigm 'his leg' in one place and 'my foot' in another, and the Yapese Bible uses ay for the feet washed at John 13:5 and for the legs broken at John 19:31-32, where yil 'bone' at John 19:36 is the control. rifrif u ay, ABVD's other answer, is the flat of the limb, not a second lexeme.
+    yap: ["ay", "ʔaːj"],  // Jensen glosses the same paradigm 'his leg' in one place and 'my foot' in another, and the Yapese Bible uses ay for the feet washed at John 13:5 and for the legs broken at John 19:31-32, where yil 'bone' at John 19:36 is the control. rifrif u ay, ABVD's other answer, is the flat of the limb, not a second lexeme. // was ["qaay", "ʔaːj"] (vi dialect rules 2026-10-06)
     ybe: ["azaq", "ɑzɑq"],  // azaq is the *adak reflex Shor and Khakas also keep; Chen Zongzhen's list sets but against it as 'leg', but Western Yugur already has utuq and jota for the thigh, so the split is unconfirmed.
     ygr: ["iya", "ija"],  // Scott's Yagaria list answers both leg and foot with the same stem, as the Hira dialect does with degiyaʔ; the tone accent is his and this row does not write it.
     yi: ["פֿוס", "fus"],  // Unlike German Fuß, Yiddish פֿוס covers the whole lower limb — a genuine split from the German pattern.

@@ -469,7 +469,7 @@ WORDS.milk = {
     mwk: ["nɔnɔ", "nɔnɔ"],
     mlq: ["nono", "nono"],
     kao: ["nɔnɔ", "nɔnɔ"],
-    mnk: ["nono", "nono"],
+    mnk: ["nonoo", "nonoː"],
     // Ewe and Igbo build it out of 'breast' + 'water'; both are phrases in origin.
     ee: ["notsi", "notsi"],
     gej: ["nyinɔsi", "ɲinɔsi"],
@@ -1084,7 +1084,7 @@ WORDS.milk = {
     one: ["onú:taʼ", "onṹːtaʔ"],
     wuu_jh: ["牛奶", "ȵiu˧˩˧ nɑ˥˧˥"],
     bin: ["ewẹn", "ewɛ̃"],
-    kpe: ["ngini-ya", "ŋini ja"],
+    kpe: ["ŋíni-ya", "ŋíni ja"],
     dsh: ["eeno", "eːno"],
     pzh: ["nunuh", "nunuh"],
     szy: ["hacul", "hatsul"],

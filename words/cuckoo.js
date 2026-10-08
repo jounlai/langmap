@@ -146,7 +146,7 @@ WORDS.cuckoo = {
     kjh: ["кӧӧк", "køːk"],
     alt: ["кӱӱк", "kyːk"],
     cv: ["куккук", "kukˈkuk"],
-    bxr: ["хүхы", "xyˈxɘ"],
+    bxr: ["хүбхүү", "xypxyː"],
     kca: ["кӓви", "ˈkæwi"],
     ckt: ["ӄэӄӄуӄ", "qəqˈquq"],
     kpy: ["ӄаккук", "qakkuk"],

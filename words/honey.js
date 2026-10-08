@@ -519,7 +519,7 @@ WORDS.honey = {
     bbl: ["მოცʼ", "motsʼ"],
     ab: ["ацха", "atsxa"],
     ady: ["шъоу", "ʂʷəw"],
-    kbd: ["фо", "fʷa"],
+    kbd: ["фо", "faw"],
 
     // --- Semitic, Cushitic, Berber ----------------------------------------
     oar: ["דבשא", "debʃaː"],
@@ -671,7 +671,7 @@ WORDS.honey = {
     cuk: ["achanis", "atʃanis"],
     quc: ["kabʼ", "kaɓ"],
     cak: ["kabʼ", "kaɓ"],
-    kek: ["kabʼ", "kaɓ"],
+    kek: ["xyaʼal kabʼ", "ʃjaʔal kaɓ"],
     poh: ["kaabʼ", "kaːɓ"],
     usp: ["kabʼ", "kaɓ"],
     ctu: ["chab", "tʃaɓ"],
@@ -760,7 +760,7 @@ WORDS.honey = {
     tdh: ["खुदो", "kʰudo"],
     dag: ["shiri", "ʃiri"],
     bar: ["Heng", "hɛŋ"],
-    mos: ["siido", "siːdo"],
+    mos: ["sɩɩdo", "sɪːdo"],
     sgs: ["medos", "mʲædos"],
     ie: ["miel", "miˈel"],
     hif: ["madh", "madʱ"],
@@ -858,7 +858,7 @@ WORDS.honey = {
     fon: ["wǐin", "wǐĩ"],
     bci: ["awɛma nzue", "awɛma nzue"],
     kmb: ["uiki", "wiki"],
-    teo: ["esike", "esike"],
+    teo: ["asik", "asik"],
     pam: ["pulut", "puˈlut"],
     pag: ["dilo", "dilo"],
     bbc: ["situak ni loba", "situak ni loba"],
@@ -944,7 +944,7 @@ WORDS.honey = {
     nzi: ["wolɛ", "wolɛ"],
     kqn: ["buki", "buki"],
     mev: ["zɔ́ɔ́ nyɔ́nɔ́", "zɔ́ː ɲɔ́nɔ́"],
-    tzo: ["pom", "pom"],
+    tzo: ["ajapom", "ahapom"],
     zap: ["dxiña yaga", "dʒiɲa jaɡa"],
     cab: ["maba", "maba"],
     naq: ["danis", "danis"],
@@ -1108,7 +1108,7 @@ WORDS.honey = {
     blr: ["ʔum51 pheh31", "ʔum˥˩ pʰeh˧˩"],
     bwi: ["doni", "doni"],
     nys: ["nguk", "ŋuk"],
-    gil: ["aia karewe manibeeru", "aia kaɾewe manibeːɾu"],
+    gil: ["meri", "meɾi"],
     wls: ["meli", "meli"],
     gcr: ["myèl", "mjɛl"],
     txg: ["𗋮", "ɕiwe˧"],
@@ -1119,6 +1119,6 @@ WORDS.honey = {
     anu: ["maar kïc", "maːr kitʃ"],
     soa: ["น้ำผึ้ง", "nam˦˧ pʰɯŋ˧"],
     niu: ["meli", "meli"],
-    tsz: ["tékolmena", "ˈtekolmena"]
+    tsz: ["tékua", "ˈtekʷa"]
   },
 };

@@ -3062,6 +3062,11 @@
                 <span aria-hidden="true">🧩</span>
                 <span class="trivia-btn-label" id="quiz-btn-label">Which word?</span>
             </button>
+            <button type="button" class="trivia-btn game-btn" id="master-open"
+                    aria-haspopup="dialog" title="Name 10 words of one language">
+                <span aria-hidden="true">🏅</span>
+                <span class="trivia-btn-label" id="master-btn-label">Language Master</span>
+            </button>
             <!-- Header right cluster (unified with index/tree, 2026-07-05):
                  [Share icon (share-button.js)] [lang-picker (lang-picker.js)]
                  [URL], flushed right by CSS. The hidden native <select> feeds
@@ -7848,6 +7853,8 @@
         // family/speaker meta is present before filtering the language pool.
         window.__langmap = window.__langmap || {};
         window.__langmap.loadMeta = loadMeta;
+        // master.js (Language Master) shows a language's description before its quiz.
+        window.__langmap.loadLangDesc = loadLangDesc;
         // Expose the language-detail opener for the "Language of the day" toast.
         window.__langmap.showLangInfo = function (code, opts) { return showLangInfo(code, opts); };
         // ...and the map pan, so the toast can fly to the language too (the
@@ -11973,5 +11980,7 @@
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
     <script src="my-languages.js?v=24"></script>
+    <!-- Language Master game (🏅 in the Play menu): pick a language, name 10 of its words. -->
+    <script src="master.js?v=1"></script>
 </body>
 </html>

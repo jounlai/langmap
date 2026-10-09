@@ -967,7 +967,7 @@ WORDS.wine = {
     tsu: ["emi", "emi"],
     tob: ["lataʁa", "lataʁa"],
     tll: ["wanu", "wanu"],
-    tca: ["bínu", "binu"],
+    tca: ["binu", "binu"], // was ["bínu", "binu"] (vi dialect rules 2026-10-06)
     pyu: ["kutra", "kuʈa"],
     plg: ["lataʁa", "lataʁa"],
     pkp: ["uwaina", "uwaina"],
@@ -1184,7 +1184,7 @@ WORDS.wine = {
     pl: ["wino", "ˈvinɔ"],
     cs: ["víno", "ˈviːno"],
     sk: ["víno", "ˈviːno"],
-    sl: ["vino", "ˈʋiːno"],
+    sl: ["vino", "ˈʋiːnɔ"], // was ["vino", "ˈʋiːno"] (vi dialect rules 2026-10-06)
     hr: ["vino", "ʋino"],
     sr: ["вино", "ʋino"],
     bs: ["vino", "ʋino"],
@@ -1392,8 +1392,8 @@ WORDS.wine = {
     rue: ["вино", "viˈno"],
     szl: ["wino", "ˈvinɔ"],
     csb: ["wino", "ˈvinɔ"],
-    hsb: ["wino", "ˈvinɔ"],
-    dsb: ["wino", "ˈvino"],
+    hsb: ["wino", "ˈwinɔ"], // was ["wino", "ˈvinɔ"] (vi dialect rules 2026-10-06)
+    dsb: ["wino", "ˈvʲinɔ"], // was ["wino", "ˈvino"] (vi dialect rules 2026-10-06)
 
     // --- Other Indo-European ------------------------------------------------
     gmy: ["𐀺𐀜", "woinos"],
@@ -1731,7 +1731,7 @@ WORDS.wine = {
     oar: ["חמרא", "ħamraː"],
     xpu: ["𐤉𐤍", "jeːn"],
     tig: ["ነቢት", "nɐbiːt"],
-    egy: ["𓇋𓂋𓊪𓏊", "juːɾap"],
+    egy: ["𓇋𓂋𓊪𓏊", "irep"], // was ["𓇋𓂋𓊪𓏊", "juːɾap"] (vi dialect rules 2026-10-06)
     ar_ma: ["شراب", "ʃraːb"],
     arq: ["شراب", "ʃrab"],
     ar_tn: ["شراب", "ʃrab"],

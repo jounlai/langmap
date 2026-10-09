@@ -737,7 +737,7 @@ WORDS.n99 = {
     // regular — is naŭ-dek-naŭ, nine-ten-nine.
     mt: "plural",
     af: "unit",
-    eo: "mult", sl: "mult", sk: "mult", hr: "mult", sr: "mult", bs: "mult", mk: "mult", lv: "mult",
+    eo: "mult", sl: "unit", sk: "mult", hr: "mult", sr: "mult", bs: "mult", mk: "mult", lv: "mult",
     be: "dec", ca: "dec", gl: "dec", oc: "dec",
     hi: "opaque", bn: "opaque", ur: "opaque"
   },
@@ -1108,7 +1108,7 @@ WORDS.n99 = {
         { form: "gouj cib gouj", script: "Latin (Sawcuengh)", source: "1957/1982 official orthography" },
       ],
     },
-    tyz: ["cẩu slíp cẩu", "kəw˨˩˧ ɬip˧˥ kəw˨˩˧"],
+    tyz: ["cẩu slíp cẩu", "kəw˨˩˧ ɬip̚˧˥ kəw˨˩˧"], // was ["cẩu slíp cẩu", "kəw˨˩˧ ɬip˧˥ kəw˨˩˧"] (vi dialect rules 2026-10-06)
     th_s: ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
     th_isan: ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
     th_n: ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
@@ -1240,7 +1240,7 @@ WORDS.n99 = {
     prs: ["نود و نه", "nawad u no"],
     thr: ["निन्यानवे", "ninjaːnəʋe"],
     pnb: ["نڑھنویں", "nəɽɦɪnʋẽː"], // was ["ننانوے", "nənaːnʋeː"] (vi dialect rules 2026-10-06)
-    pms: ["novanteneuv", "nuvanteˈnøv"],
+    pms: ["novanteneuv", "nuvanteˈnøw"], // was ["novanteneuv", "nuvanteˈnøv"] (vi dialect rules 2026-10-06)
     vec: ["novantanove", "novantaˈnove"],
     nap: ["nuvantanove", "nuvantaˈnɔvə"],
     scn: ["novantanovi", "nɔvantaˈnɔvi"],
@@ -1324,7 +1324,7 @@ WORDS.n99 = {
     mt:     ["disgħa u disgħin", "ˈdɪsa w dɪˈsɛjn"],
     af:     ["nege-en-negentig", "ˈnɪəxə ən ˈnɪəxəntəx"],
     eo:     ["naŭdek naŭ", "ˈnaudek ˈnau"],
-    sl:     ["devetdeset devet", "dɛʋɛtˈdɛsɛt ˈdɛʋɛt"],
+    sl:     ["devetindevetdeset", "dɛˈʋeːtindɛˈʋeːddɛsɛt"],  // r73: Slovene says unit-and-tens (SSKJ/en.wiktionary devetindevetdeset), route unit; was "devetdeset devet" (tens-first, the Croatian/Serbian order).
     sk:     ["deväťdesiat deväť", "ˈdɛvɛcdɛsɪat ˈdɛvɛc"],
     hr:     ["devedeset devet", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
     sr:     ["деведесет девет", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
@@ -1365,7 +1365,7 @@ WORDS.n99 = {
     otk:      ["𐱃𐰸𐰆𐰕 𐰆𐰣 𐱃𐰸𐰆𐰕", "toquz on toquz"],
     qwc:      ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     cop:      ["ⲡⲥⲧⲁⲓⲟⲩⲯⲓⲥ", "pstaiupsis"],
-    egy:      ["𓎎𓐂", "pesedʒiu pesedʒ"],
+    egy: ["𓎎𓐂", "pesedʒiuː pesedʒuː"], // was ["𓎎𓐂", "pesedʒiu pesedʒ"] (vi dialect rules 2026-10-06)
     ko_gor:     ["鴉訓鴉好", "*ahʌn ahop"],
     ko_mid:     ["아ᄒᆞᆫ아홉", "ahʌnahop"],
     ko_em:      ["아흔아홉", "ahɯnahop"],

@@ -416,7 +416,7 @@ WORDS.butterfly = {
     hak_cn: ["蝴蝶", "fu˩˩ tʰiap˥"],
     nan_te: ["尾蝶", "bue˥˨ iaʔ˦"],
     zh_wh: ["蝴蝶", "fu˨˩˧ tie˨˩˧"],
-    ne: ["पुतली", "putali"],
+    ne: ["पुतली", "putli"],
     mai: ["तितली", "titliː"],
     mwr: ["तितली", "titliː"],
     ar_eg: ["فراشة", "faˈɾaːʃa"],
@@ -679,7 +679,7 @@ WORDS.butterfly = {
     de_at: ["Schmetterling", "ˈʃmɛtɐlɪŋ"],
     en_app: ["butterfly", "ˈbʌɾɚflaː"],
     kbd: ["хьэндырабгъуэ", "ħandərabʁʷa"],
-    dng: ["хўтезы", "xu˨˦tʰie˥˩tsɨ"],
+    dng: ["хўте", "xu˨˦tʰiə˥˩"],
     ja_oki: ["はべる", "habeɾu"],
     bzh: ["beluk", "ᵐbəl̪uk"],
     tay: ["kperay", "kpəraj"],
@@ -869,6 +869,9 @@ WORDS.butterfly = {
     pot: ["mémégé", "memeɡe"],
     fkv: ["päivälintu", "ˈpæiʋæˌlintu"],
     myp: ["sibíoí", "sibíoí"],
-    kdt: ["mphlaːp mphlaːp", "mpʰlaːp mpʰlaːp"]
+    kdt: ["mphlaːp mphlaːp", "mpʰlaːp mpʰlaːp"],
+    khw: ["پلمنڈوک", "pulmunˈɖuk"],
+    ja_mvi: ["ぱびﾙ", "pabiɿ"],
+    ie: ["papilion", "papiliˈon"]
   },
 };

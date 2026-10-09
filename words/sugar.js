@@ -782,7 +782,7 @@ WORDS.sugar = {
     kjh: ["сахар", "saxar"],
     ak: ["asikre", "asikre"],
     ium: ["dorngh", "tɔŋ˧˩"],
-    tyz: ["thương", "tʰɨəŋ˧˧"],
+    tyz: ["thương", "tʰɨəŋ˧˥"], // was ["thương", "tʰɨəŋ˧˧"] (vi dialect rules 2026-10-06)
     th_s: ["น้ำตาล", "nam˧˥ taːn˥"],
     umb: ["osuka", "osuka"],
     czh: ["糖", "tʰau˦˦"],

@@ -316,7 +316,7 @@ WORDS.dopamine = {
     mai: ["डोपामाइन", "ɖoːpaːmaːin"],
     nan: ["tô-phá-mín", "to˨˦ pʰa˥˧ min˥˧"],
     wae: ["Dopamin", "dopaˈmiːn"],
-    dsb: ["dopamin", "ˈdɔpamin"],
+    dsb: ["dopamin", "ˈdɔpamʲin"],
     mzn: ["دوپامین", "dopɒːmin"],
     gsw_w: ["Dopamin", "dopaˈmiːn"],
     mwl: ["dopamina", "dopaˈminɐ"],

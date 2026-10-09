@@ -227,12 +227,6 @@
     "ruling": "circular",
     "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
   },
-  "ojp|dog": {
-    "form": "inu",
-    "proto": "p_jpn",
-    "ruling": "circular",
-    "note": "Old Japanese is the primary evidence FOR Proto-Japonic; Omodaka and Vovin build the reconstruction on these Man'yogana-attested forms. The proto row agrees with ojp because it was derived from it."
-  },
   "ojp|ear": {
     "form": "mimi",
     "proto": "p_jpn,p_ryu",
@@ -479,18 +473,6 @@
     "ruling": "circular",
     "note": "Old Turkic (Orkhon and Yenisei inscriptions) is the primary witness FOR Proto-Turkic; the reconstruction is built on it, so agreement is the method, not a copy. Ruled at ROW level on that structural ground — individual cells were not re-verified against a dictionary."
   },
-  "pyx|star": {
-    "form": "kar",
-    "proto": "p_sit",
-    "ruling": "leak",
-    "note": "leak, known and accepted for now. Declared evidence: inferred, source Tibeto-Burman comparative (*s-kar) — the cell says what it is, which is why review 546 left it standing while emptying the eleven that claimed direct attestation. kar· does occur twice in the corpus (inscription 027) but no source glosses it. OPEN POLICY QUESTION: whether a comparandum belongs in a surface-form column at all."
-  },
-  "pyx|you": {
-    "form": "naŋ",
-    "proto": "p_sit",
-    "ruling": "leak",
-    "note": "leak, known and accepted for now. Declared evidence: inferred, source Tibeto-Burman comparative (*naŋ). naṅ· occurs once (inscription 178), unglossed. Same open policy question as pyx|star. Note obr|you holds the identical form and IS attested."
-  },
   "sukh|bird": {
     "form": "nok",
     "proto": "ptai",
@@ -689,12 +671,6 @@
     "ruling": "circular",
     "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
   },
-  "xqa|star": {
-    "form": "jultuz",
-    "proto": "ptrk",
-    "ruling": "circular",
-    "note": "Karakhanid, i.e. the language of Kashgari's Diwan Lughat al-Turk, is with Old Turkic the primary witness for Proto-Turkic. Row-level ruling on the structural relationship; cells not individually re-verified."
-  },
   "xqa|stone": {
     "form": "taš",
     "proto": "ptrk",
@@ -862,5 +838,17 @@
     "proto": "p_toc",
     "ruling": "circular",
     "note": "Tocharian B erkent 'black' is attested (Thomas, Tocharisches Elementarbuch II glossary); the Proto-Tocharian form is reconstructed from it and its A cognate. Attested, not a copy (r49, 2026-10-04)."
+  },
+  "ocm|father": {
+    "form": "ama",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Cham ama, inherited unchanged from PAn *ama (Cham inscriptions; r73). Ruled 2026-10-09."
+  },
+  "ocm|mother": {
+    "form": "ina",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Cham ina, inherited unchanged from PAn *ina (Cham inscriptions; r73). Ruled 2026-10-09."
   }
 }

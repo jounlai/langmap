@@ -416,7 +416,7 @@ WORDS.sushi = {
     "vi_s": ["sushi", "ʂu˧ ʂi˧"],
     "wuu_jx": ["寿司", "ze˩˩˦ sɿ˥˩"],
     bew: ["sushi", "ˈsuʃi"],
-    io: ["sushio", "ˈsuʃio"],
+    io: ["sushi", "ˈsuʃi"],
     fit: ["susji", "ˈsuʃi"],
     zgh: ["ⵙⵓⵛⵉ", "suʃi"],
     aln: ["sushi", "ˈsuʃi"],
@@ -472,6 +472,7 @@ WORDS.sushi = {
     ko_hg: ["초밥", "tɕʰobap̚"],
     ext: ["sushi", "ˈsusi"],
     ko_kp: ["초밥", "tɕʰobap̚"],
-    rw: ["sushi", "suʃi"]
+    rw: ["sushi", "suʃi"],
+    jbo: ["cidjrsuci", "ʃidʒrˈsuʃi"]
   },
 };

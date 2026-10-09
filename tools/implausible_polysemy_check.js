@@ -86,6 +86,9 @@ const CROSS = {
 // row. Prefer the row-level key: "this pair is fine everywhere" is a much
 // stronger claim than it looks, and grue is the only one this atlas can make.
 const ACCEPTED = {
+    'myp:father|mother': 'Pirahã baíxi is "parent", one word for mother and father '
+        + '(Everett; the r73 audit sourced both cells to it). The language has no '
+        + 'separate term, so both cells carry it. r73, 2026-10-09.',
     'blue|green': 'grue. A single term covering both is one of the most common '
         + 'colour systems on earth, and the atlas records the language rather '
         + 'than splitting it. 31 rows across Bantu, Uto-Aztecan, Algonquian, '

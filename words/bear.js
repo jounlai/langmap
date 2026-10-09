@@ -63,6 +63,8 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    ie: "inherited",
+    hsn_yz: "inherited",
     gcr: "loan",
     dyu: "loan",
     kjp: "inherited",
@@ -933,6 +935,8 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    ie: ["urso", "ˈurso"],
+    hsn_yz: ["熊", "ʑioŋ˩˩˨"],
     gcr: ["lous", "lus"],
     dyu: ["urusi wara", "urusi wara"],
     kjp: ["ထင့်", "tʰâɴ"],
@@ -998,7 +1002,7 @@ WORDS.bear = {
     mos: ["wurs", "wurs"],
     dag: ["bɛɛ", "bɛː"],
     ses: ["urs", "urs"],
-    blk: ["ထမ်", "tʰa̤m˧˩"],
+    blk: ["ထမ်ꩻ", "tʰam˧˧"], // was ["ထမ်", "tʰa̤m˧˩"] (vi dialect rules 2026-10-06)
     fud: ["uluso", "uluso"],
     kos: ["pacr", "pɛr"],
     ahk: ["ka hm", "kʰa˨˩hm̩˥"],
@@ -1232,7 +1236,7 @@ WORDS.bear = {
     // --- Indo-European: the inherited word, kept ----------------------
     // *h₂ŕ̥tḱos survives here. English keeps it only in "Arctic".
     p_ine: ["*h₂ŕ̥tḱos", "h₂ŕ̥tḱos"],
-    hit: ["𒄯𒁖𒂵𒀸", "xartaɡːaʃ"],
+    hit: ["𒄯𒁖𒂵𒀸", "xartaɡːas"], // was ["𒄯𒁖𒂵𒀸", "xartaɡːaʃ"] (vi dialect rules 2026-10-06)
     la: ["ursus", "ˈursus"],
     el_grc: ["ἄρκτος", "árktos"],
     el_kath: ["ἄρκτος", "ˈarktos"],
@@ -1280,10 +1284,10 @@ WORDS.bear = {
     orv: ["медвѣдь", "medvʲedʲ"],
     be: ["мядзведзь", "mʲadzʲˈvʲedzʲ"],
     pl: ["niedźwiedź", "ˈɲɛdʑvʲɛtɕ"],
-    hsb: ["mjedwjedź", "ˈmjɛdwjɛtɕ"],
+    hsb: ["mjedwjedź", "ˈmjɛdɥɛtʃ"], // was ["mjedwjedź", "ˈmjɛdwjɛtɕ"] (vi dialect rules 2026-10-06)
     cs: ["medvěd", "ˈmɛdvjɛt"],
     sk: ["medveď", "ˈmɛdvɛc"],
-    sl: ["medved", "mɛdˈʋeːt"],
+    sl: ["medved", "ˈmɛːdʋɛt"], // was ["medved", "mɛdˈʋeːt"] (vi dialect rules 2026-10-06)
     hr: ["medvjed", "ˈmɛdʋjɛd"],
     bs: ["medvjed", "ˈmɛdʋjɛd"],
     sr: ["медвед", "ˈmɛdʋɛd"],
@@ -1470,7 +1474,7 @@ WORDS.bear = {
     vi_han: ["熊", "huŋ͡m˨˩"],
     zh_tw: ["熊", "ɕiʊŋ˧˥"],
     nan: ["熊", "him˨˦"],
-    dng: ["щүн", "ɕyn˨˦"],
+    dng: ["щүн", "ɕyŋ˨˦"], // was ["щүн", "ɕyn˨˦"] (vi dialect rules 2026-10-06)
     p_jpn: ["*kuma", "kuma"],
     ojp: ["熊", "kuma"],
     ja_heian: ["熊", "kuma"],
@@ -1673,7 +1677,7 @@ WORDS.bear = {
     quz: ["ukuku", "ukuku"],
     quy: ["ukumari", "ukumaɾi"],
     guc: ["jeesü", "heːsɨ"],
-    emp: ["wi", "wi"],
+    emp: ["ui", "ui"], // was ["wi", "wi"] (vi dialect rules 2026-10-06)
     chb: ["guia", "ɡuia"],
 
     // --- 2026-08-31 bear pass 2: Germanic + Romance/Slavic/Celtic (out_germanic.tsv, out_romance_slavic.tsv)
@@ -1733,7 +1737,7 @@ WORDS.bear = {
     // --- 2026-08-31 bear pass 2: Tibeto-Burman, Kra-Dai, Hmong-Mien, Vietic, Iranian and Indo-Aryan (out_asia.tsv)
     lus: ["savawm", "savɔm"],
     grt: ["makbil", "makbil"],
-    mni: ["ꯁꯋꯣꯝ", "sawɔm"],
+    mni: ["ꯁꯑꯣꯝ", "səom"], // was ["ꯁꯋꯣꯝ", "sawɔm"] (vi dialect rules 2026-10-06)
     new: ["माकःधुँ", "maːkaːdʱũ"],
     sat: ["ᱵᱟᱱᱟ", "bana"],
     xkz: ["wam", "wam"],

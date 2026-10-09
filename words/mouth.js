@@ -249,7 +249,7 @@ WORDS.mouth = {
     si: ["කට", "kaʈə"],
     ku: ["dev", "dɛv"],
     tg: ["даҳон", "daˈhɔn"],
-    ps: ["خوله", "xʷəla"],
+    ps: ["خوله", "xwlə"],
     bo: ["ཁ", "kʰa˥"],
     ta: ["வாய்", "ʋaːj"],
     te: ["నోరు", "ˈnoːru"],
@@ -742,7 +742,7 @@ WORDS.mouth = {
     sco: ["mooth", "muθ"],
     sc: ["bucca", "ˈbukka"],
     ljp: ["banguk", "baŋuk"],
-    tyz: ["pác", "paːk˥"],
+    tyz: ["pác", "paːk̚˧˥"],
     nut: ["pác", "paːk˥"],
     ada: ["nya", "ɲa"],
     bom: ["nu", "nu"],
@@ -940,7 +940,7 @@ WORDS.mouth = {
     ab: ["аҿы", "aʈʂʼə"],
     vai: ["ꕞ", "la"],
     byn: ["አብ", "ʔəb"],
-    dng: ["зуй", "tsuei˥˩"],
+    dng: ["зуй", "tsuei˨˦"],
     cab: ["iumaü", "iumaɨ"],
     tzh: ["tiʼ", "tiʔ"],
     spp: ["ɲwɔge", "ɲwɔɡe"],
@@ -1078,7 +1078,7 @@ WORDS.mouth = {
     xpu: ["𐤐", "peː"],
     uga: ["𐎔", "puː"],
     syc: ["ܦܘܡܐ", "puːmaː"],
-    hit: ["𒀀𒄿𒅖", "ajʃ"],
+    hit: ["𒀀𒄿𒅖", "ajs"],
     omx: ["ပါၚ်", "paiŋ"],
     h_tagalog: ["ᜊᜒᜊᜒᜄ᜔", "biˈbiɡ"],
     kaw: ["ꦕꦁꦏꦼꦩ꧀", "tʃaŋkəm"],
@@ -1187,6 +1187,8 @@ WORDS.mouth = {
     dsh: ["afo", "afo"],
     pot: ["don", "don"],
     yur: ["ʼne-luehl", "ʔneluɬ"],
-    ayl: ["فم", "fumm"]
+    ayl: ["فم", "fumm"],
+    hsn_yz: ["嘴", "tsueɪ˥˥"],
+    fvr: ["útò", "útò"]
   }
 };

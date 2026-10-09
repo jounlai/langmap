@@ -105,7 +105,7 @@ WORDS.rice = {
     hu: ["rizs", "riʒ"],
     eu: ["arroz", "aˈros"],
     af: ["rys", "rɛis"],
-    lb: ["Räis", "ʁæɪs"],  // Was Reis /ʁaɪs/, a verbatim copy of the de cell above. Luxembourgish is Räis (Wiktionary, grain sense, [ʀæˑɪ̯s]); the IPA here follows this row's own wäiss /væɪs/, the same -äis rime.
+    lb: ["Räis", "ʁæːɪ̯s"],  // Was Reis /ʁaɪs/, a verbatim copy of the de cell above. Luxembourgish is Räis (Wiktionary, grain sense, [ʀæˑɪ̯s]); the IPA here follows this row's own wäiss /væɪs/, the same -äis rime.
     yi: ["רײַז", "raɪz"],
     fo: ["rís", "rʊis"],
     cs: ["rýže", "ˈriːʒɛ"],
@@ -848,6 +848,9 @@ WORDS.rice = {
     win: ["sįį", "sĩː"],
     ie: ["ris", "ris"],
     myp: ["xahóikasí", "ʔahóikasí"],
-    kdt: ["ŋkaːw", "ŋkaːw"]
+    kdt: ["ŋkaːw", "ŋkaːw"],
+    khw: ["گرینج", "ɡrindʒ"],
+    kjg: ["ʰŋɔʔ", "ʰŋɔʔ"],
+    hsn_yz: ["米", "mi˥˥"]
   }
 };

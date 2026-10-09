@@ -1024,6 +1024,23 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                lb: new Set(['atsign']),   // r73: wrong cell removed; no sourced form found
+                lt: new Set(['wifi']),   // r73: wrong cell removed; no sourced form found
+                se: new Set(['atsign']),   // r73: wrong cell removed; no sourced form found
+                kjp: new Set(['house', 'cat', 'thanks', 'hello']),   // r73: wrong cell removed; no sourced form found
+                brx: new Set(['thanks']),   // r73: wrong cell removed; no sourced form found
+                mra: new Set(['honey']),   // r73: wrong cell removed; no sourced form found
+                srb: new Set(['mother']),   // r73: wrong cell removed; no sourced form found
+                hsn_yz: new Set(['tongue', 'bone', 'poop', 'tree']),   // r73: wrong cell removed; no sourced form found
+                dng: new Set(['cuckoo']),   // r73: wrong cell removed; no sourced form found
+                ja_mvi: new Set(['love', 'hello', 'good']),   // r73: wrong cell removed; no sourced form found
+                tiw: new Set(['hello']),   // r73: wrong cell removed; no sourced form found
+                myp: new Set(['star', 'heart', 'love', 'hello']),   // r73: wrong cell removed; no sourced form found
+                bsk: new Set(['sea', 'book', 'hello', 'thanks']),   // r73: wrong cell removed; no sourced form found
+                fvr: new Set(['snow', 'cat']),   // r73: wrong cell removed; no sourced form found
+                tyz: new Set(['hello']),   // r73: wrong cell removed; no sourced form found
+                lun: new Set(['hello', 'snow']),   // r73: wrong cell removed; no sourced form found
+                pt_gw: new Set(['poop']),   // r73: wrong cell removed; no sourced form found
                 one: new Set(['father', 'eat', 'drink']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
                 com: new Set(['blood', 'love']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found
                 sce: new Set(['hello', 'thanks', 'heart']),   // r72: wrong-meaning or wrong-language cell removed; no sourced form found

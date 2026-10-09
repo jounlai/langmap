@@ -70,6 +70,8 @@ WORDS.tea = {
   },
   // cha = overland Silk-Road route; te = Dutch sea route; other = Latin herba root.
   family: {
+    hsn_yz: "cha",
+    khw: "cha",
     blc: "te",
     pcm: "te",
     quc: "te",
@@ -726,6 +728,8 @@ WORDS.tea = {
     leaf: { color: "#4d7c0f", emoji: "🍃", en: "neither route · the leaf itself", ja: "どちらの経路でもない・葉そのもの", ko: "두 경로 어느 쪽도 아님 · 잎 그 자체", zh: "两条路线都不是・叶子本身", yue: "兩條路線都唔係・葉本身", vi: "không theo đường nào · chính là chiếc lá", th: "ไม่ใช่ทั้งสองเส้นทาง · ตัวใบเอง", id: "bukan salah satu jalur · daunnya sendiri", hi: "किसी मार्ग से नहीं · पत्ता ही", de: "keine der Routen · das Blatt selbst", fr: "ni l'une ni l'autre route · la feuille même", it: "nessuna delle due rotte · la foglia stessa", es: "ninguna de las dos rutas · la hoja misma", pt: "nenhuma das rotas · a própria folha", ru: "ни один из путей · сам лист", uk: "жоден із шляхів · сам листок", ar: "لا هذا الطريق ولا ذاك · الورقة نفسها", he: "לא זה ולא זה · העלה עצמו", sw: "si njia yoyote kati ya hizo · jani lenyewe" },
   },
   data: {
+    hsn_yz: ["茶", "za˩˩˨"],
+    khw: ["چاے", "tʃaj"],
     blc: ["tii", "tiː"],
     pcm: ["tea", "ti"],
     quc: ["té", "te"],
@@ -840,7 +844,7 @@ WORDS.tea = {
     rki: ["လက်ဖက်", "ləpʰɔʔ"], // was ["လက်ဖက်", "ləpʰaʔ"] (r51 audit 2026-10-04)
     nzm: ["sa", "sa"],
     grt: ["cha", "tʃa"],
-    brx: ["सा", "sa"],
+    brx: ["साहा", "saha"], // was ["सा", "sa"] (vi dialect rules 2026-10-06)
     mni: ["ꯆꯥ", "tʃa"],
     ii: ["ꆿꒉ", "la˥˥ʑɿ˧˧"],
     acn: ["tʂhaʔ31", "tʂʰaʔ˧˩"],
@@ -943,7 +947,7 @@ WORDS.tea = {
     prs: ["چای", "tʃɑːj"],
     mwr: ["चा", "tʃaː"],
     bs: ["čaj", "tʃaːj"],
-    tyz: ["chè", "tɕɛ˨˩"],
+    tyz: ["chè", "cɛ˧˨"], // was ["chè", "tɕɛ˨˩"] (vi dialect rules 2026-10-06)
     cic: ["tii", "tiː"],
     shn: ["ၼမ်ႉၼဵင်ႈ", "nam˦˨ˀ neŋ˧˨"],
     moh: ["tí", "ti"],

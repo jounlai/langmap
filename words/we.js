@@ -1498,7 +1498,7 @@ WORDS.we = {
     ml: ["നമ്മൾ / ഞങ്ങൾ", "nəmːaɭ / ɲaŋːaɭ"],
     tg: ["мо", "mɔ"],
     ku: ["em", "ɛm"],
-    ckb: ["ئێمە", "eːme"],
+    ckb: ["ئێمە", "eːmæ"], // was ["ئێمە", "eːme"] (vi dialect rules 2026-10-06)
     sdh: ["ئیمە", "iːme"],
     ps: ["موږ", "muːʐ"],
     az: ["biz", "biz"],
@@ -1671,7 +1671,7 @@ WORDS.we = {
     la: ["nōs", "noːs"],
     el_grc: ["ἡμεῖς", "hɛːmêːs"],
     el_kath: ["ἡμεῖς", "iˈmis"],
-    egy: ["𓇋𓈖𓈖", "ʔaˈnan"],
+    egy: ["𓇋𓈖𓈖", "inen"], // was ["𓇋𓈖𓈖", "ʔaˈnan"] (vi dialect rules 2026-10-06)
     enm: ["we", "weː"],
     en_em: ["we", "wiː"],
     ang: ["wē", "weː"],
@@ -1929,7 +1929,7 @@ WORDS.we = {
     zh_jh: ["我们", "o˨˩˨ mən"],
     zh_tj: ["我们", "wo˩˧ mən"],
     zh_lz: ["我们", "vɤ˦˦˨ mən"],
-    dng: ["вәму", "və˥˩mu"],
+    dng: ["вәму", "və˥˩mu˨˦"], // was ["вәму", "və˥˩mu"] (vi dialect rules 2026-10-06)
     hsb: ["my", "mɨ"],
     csb: ["më", "mə"],
     rue: ["мы", "mɨ"], // was ["мы", "mɪ"] (r51 audit 2026-10-04)
@@ -2008,7 +2008,7 @@ WORDS.we = {
     chy: ["nénéehóvema / nánéehóvéme", "nénéːhóvema / nánéːhóvéme"],
     arp: ["nenéénínoʼ / nenééníniʼ", "nenéːnínoʔ / nenéːníniʔ"],
     kio: ["nɔ́", "nɔ́"], // was ["nɔ́ɔ", "nɔ́ː"] (r31 fix 2026-10-02)
-    lmo: ["nun", "nun"],
+    lmo: ["nun", "nyn"], // was ["nun", "nun"] (vi dialect rules 2026-10-06)
     pms: ["noi", "nuj"],
     mwl: ["nós", "nɔs"],
     pnt: ["εμείς", "eˈmis"],
@@ -2049,7 +2049,7 @@ WORDS.we = {
     tpy: ["ka wan / ha wan", "ka wan / ha wan"],
     jup: ["ʔǝ̃d", "ʔə̃d"],
     kwa: ["ʔid", "ʔid"],
-    myp: ["ti atiso", "ti atiso"],
+    myp: ["tiatiso", "tiatiso"], // was ["ti atiso", "ti atiso"] (vi dialect rules 2026-10-06)
     tue: ["bãrĩ / ʉ̃sã", "bãˈɾĩ / ɨ̃ˈsã"], // was ["bãʼrĩ / ʉ̃sã", "bãʔɾĩ / ɨ̃sã"] (r31 fix 2026-10-02)
     emp: ["tachi / dai", "tatʃi / dai"],
     kpe: ["kú", "kú"],
@@ -2150,7 +2150,7 @@ WORDS.we = {
     he_mis: ["אָנוּ", "ʔaˈnu"],
     hy_grab: ["մեք", "mekʰ"],
     mpt: ["nībo / nī", "niːbo / niː"],
-    ygr: ["lai", "lai"],
+    ygr: ["lagaea", "laɡaea"], // was ["lai", "lai"] (vi dialect rules 2026-10-06)
     roo: ["vigei / igei", "βiɡei / iɡei"],
     quz: ["ñuqanchis / ñuqayku", "ɲoˈqantʃis / ɲoˈqajku"],
     quy: ["ñuqanchik / ñuqayku", "ɲuˈqantʃik / ɲuˈqajku"],
@@ -2173,7 +2173,7 @@ WORDS.we = {
     ko_hg: ["우리", "uɾi"],
     ko_jl: ["우리", "uɾi"],
     nan_pn: ["咱 / 阮", "lan˦˦˥ / uaŋ˧˧"],
-    mra: ["a", "ʔa"],
+    mra: ["ʔa thəŋ", "ʔa tʰəŋ"], // was ["a", "ʔa"] (vi dialect rules 2026-10-06)
     wuu_nb: ["阿拉", "ɐʔ˧˧ lɐʔ˧˦"],
     yue_gz: ["我哋", "ŋɔ˩˧ tei˨˨"],
     khb: ["ᦣᧁ / ᦎᦴ", "haw˥˩ / tuː˥"],
@@ -2252,8 +2252,8 @@ WORDS.we = {
     cpx: ["㑚 / 我辈", "naʔ˦ / kuaʔ˦ puei˦˨"],
     mfa: ["kito", "kito"],
     mtq: ["chúng tôi", "cuŋ toj"],
-    tyz: ["rầu", "rəw˨˩"],
-    kjp: ["ပ", "hə̀"],
+    tyz: ["rầu", "rəw˧˨"], // was ["rầu", "rəw˨˩"] (vi dialect rules 2026-10-06)
+    kjp: ["ပ်ု", "hə̀"], // was ["ပ", "hə̀"] (vi dialect rules 2026-10-06)
     kac: ["anhte", "an˥˥tʰe˧"],
     wbm: ["ix", "ʔiʔ"],
     blr: ["ʔet33 ti31", "ʔet˧˧ ti˧˩"],
@@ -2385,7 +2385,7 @@ WORDS.we = {
     aln: ["na", "na"],
     rmt: ["eme", "eme"],
     fia: ["ùu", "ùː"],
-    fvr: ["kí", "kí"],
+    fvr: ["kɨ́", "kɪ́"], // was ["kí", "kí"] (vi dialect rules 2026-10-06)
     fud: ["tātou / mātou", "taːtou / maːtou"],
     tca: ["yixemax / tomax", "ji˥ʔe˦maʔ˨ / to˧maʔ˦"],
     wrh: ["ngiyani", "ŋiˈjani"],

@@ -121,7 +121,7 @@ WORDS.woof = {
     "sco": ["wowff", "wʌuf"],
     "si": ["බුඃ බුඃ", "buh buh"],
     "sk": ["haf haf", "ɦaf ɦaf"],
-    "sl": ["hov hov", "xou xou"],
+    "sl": ["hov hov", "xɔʋ xɔʋ"],
     "sq": ["ham ham", "ham ham"],
     "sr": ["ав ав", "aʋ aʋ"],
     "su": ["gogog", "ˈɡɔɡɔɡ"],

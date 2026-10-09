@@ -253,7 +253,7 @@ WORDS.atsign = {
     // === More Western Europe ===
     gl: ["arroba", "aˈrɔβɐ"],
     oc: ["arròba", "aˈrɔβɔ"],
-    lb: ["Afeschwanz", "ˈafəʃvants"],
+    lb: ["—", "—"],
     fo: ["kurla", "ˈkʰʊɭa"],
     af: ["aapstert", "ˈɑːpstɛrt"],
     // === Baltic ===
@@ -389,7 +389,7 @@ WORDS.atsign = {
     co: ["ciuvodda", "tʃuˈvɔɖɖa"],
     ku: ["at", "ɑːt"],
     nrf: ["à", "a"],
-    se: ["bussáseaibi", "ˈpusːaˌseɑjpi"],
+    se: ["—", "—"],
     kl: ["aajusaq", "aːjusaq"],
     hyw: ["շնիկ", "ʃəˈniɡ"],
     guc: ["aroowa", "aroːwa"],

@@ -235,7 +235,7 @@ WORDS.wifi = {
     az: ["Wi-Fi", "vɑjˈfɑj"],
     pnb: ["وائی-فائی", "ʋaːiːfaːiː"],
     gu: ["વાઇફાઇ", "ʋaːɪfaːɪ"],
-    lt: ["vaifajus", "vɐɪˈfɑːjʊs"],
+    lt: ["—", "—"],
     om: ["waayifaayii", "waːjifaːjiː"],
     wo: ["wifi", "wifi"],
     fon: ["wifi", "wifi"],

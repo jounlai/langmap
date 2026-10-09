@@ -54,6 +54,7 @@ WORDS.foot = {
     sw: "Mguu — sehemu ya mwili unayosimamia, chini ya kifundo. Si kipimo cha urefu, si mteremko wa mlima wala mwisho wa kitanda, wala si kitenzi. Pale lugha ina neno moja kwa mguu mzima, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    cia: "leg+foot",
     mlq: "leg+foot",
     nan_ph: "leg+foot",
     aa: "leg+foot",
@@ -1196,6 +1197,7 @@ WORDS.foot = {
     "unknown": {"color": "#b45309", "emoji": "❓", "en": "not determined · no leg word attested", "ja": "未判定・脚の語が未確認", "ko": "미판정 · 다리 낱말이 확인되지 않음", "zh": "未判定・未见表示腿的词", "yue": "未判定 · 未見表示腿嘅詞", "vi": "chưa xác định · không thấy từ chỉ 'chân trên'", "th": "ยังไม่ระบุ · ไม่พบคำว่าขา", "id": "belum ditentukan · kata untuk tungkai tidak terekam", "hi": "अनिर्धारित · टाँग का शब्द अप्रमाणित", "de": "nicht bestimmt · kein Bein-Wort belegt", "fr": "non déterminé · aucun mot pour « jambe » attesté", "it": "non determinato · nessuna parola per «gamba» attestata", "es": "sin determinar · no se atestigua palabra para «pierna»", "pt": "por determinar · sem palavra atestada para «perna»", "ru": "не определено · слово «нога» не засвидетельствовано", "uk": "не визначено · слово «нога» не засвідчене", "ar": "غير محدَّد · لا كلمة مُثبتة للساق", "he": "לא נקבע · לא מתועדת מילה לרגל", "sw": "haijabainishwa · hakuna neno la mguu lililothibitishwa"},
   },
   data: {
+    cia: ["kake", "kake"],
     mlq: ["sinŋo", "sĩŋo"],
     nan_ph: ["跤", "kʰa˧˧"],
     p_viet: ["*ciɲ", "ciɲ"],
@@ -1601,10 +1603,10 @@ WORDS.foot = {
     hop: ["kukʼat", "kukʔat"],  // The Hopi NT gives kuk'at 'his foot' at Acts 3:7 against hok̇ayamuy 'their legs' at John 19:32; the 3sg-possessed shape matches this row's own hand cell maaʼt.
     hot: ["va", "va"],  // Hote's lower-limb noun is obligatorily possessed — yaveŋ, vem, veŋiŋ, va — and the same stem washes the disciples' feet at John 13:5 and takes the soldiers' hammer at John 19:31-32, where the phrase is veŋiŋlokwaŋ 'their leg bones' and John 19:36 confirms lokwaŋ as the bone. ABVD prints the third-person va.
     hr: ["noga", "nǒɡa"],  // noga covers the lower limb; stopalo is the anatomical foot.
-    hsb: ["noha", "ˈnɔha"],  // As Lower Sorbian and Czech.
+    hsb: ["noha", "ˈnɔɦa"],  // As Lower Sorbian and Czech. // was ["noha", "ˈnɔha"] (vi dialect rules 2026-10-06)
     hsn: ["脚", "tɕio˨˦"],  // Changsha builds the shank on the foot word — 小腿 is 腳欛子 — and neighbouring Loudi uses 腳欛子 for the leg itself. MCPDict 長沙 脚 tɕio7; ˨˦ is Changsha's 入聲 and this row's value on all nine 陰入 cells.
     hsn_hy: ["脚", "tɕio˨˨"],  // Hengyang has no 腿 at any level: the thigh is 大腳把子 and the shank 小腳把子, both built on 腳. MCPDict 衡陽 脚 tɕio7. Tone written ˨˩ with the row's own 陰入 majority (一 i˨˩, 雪 ɕye˨˩, 屋 u˨˩) — the ˨˦ on its 血 百 铁 骨 is Changsha's 24, not Hengyang's.
-    hsn_yz: ["脚", "tɕio˥˦"],  // As Hengyang and Changsha. Segments from MCPDict 零陵/永州官話 腳 tɕio; tone ˥˦ with the row's 一 it˥˦ 雪 ɕye˥˦ 日 nit˥˦ 月 ŋɔ̃˥˦, which is the 53 that both published 永州土話 systems give for 入聲.
+    hsn_yz: ["脚", "tɕyo˧˧"],  // As Hengyang and Changsha. Segments from MCPDict 零陵/永州官話 腳 tɕio; tone ˥˦ with the row's 一 it˥˦ 雪 ɕye˥˦ 日 nit˥˦ 月 ŋɔ̃˥˦, which is the 53 that both published 永州土話 systems give for 入聲. // was ["脚", "tɕio˥˦"] (vi dialect rules 2026-10-06)
     ht: ["pye", "pje"],  // pye vs janm, following the French split.
     hts: ["uphukwa", "ʔupʰukʷa"],  // Bleek's Bushman Dictionary 249 glosses the Hadza stem 'leg, hind leg, foot, footprint' in one entry; pàtákùšé-yà is only the sole. // was ["ʼupukhwa", "ʔupʰukʰʷa"] (r33 fix 2026-10-02)
     hu: ["láb", "laːb"],  // láb covers both; lábfej ('leg-head') is the foot-specific compound and lábszár the shank. kéz/kar behaves the same on the arm.
@@ -1848,7 +1850,7 @@ WORDS.foot = {
     mpj: ["jina", "cina"],  // Revelation 10:1 makes junta the leg and John 13:5 makes jina the foot, and the Wati dictionaries agree — Pintupi-Luritja tjunta, Kukatja kanytji.
     mpt: ["sikir", "sikir"],  // Mian keeps them apart. The source form is already a phonetic transcription.
     mr: ["पाय", "paj"],  // पाय covers the whole limb, like Bengali পা and unlike Hindi.
-    mra: ["ɟɤɤŋ", "ɟɤːŋ"],  // Rischel's Minor Mlabri gives ɟɤɤŋ 'foot'; there is no whole-limb leg word, bluuʔ being the thigh and gurmɔr the lower leg, and the etymon is Khmu's leg word.
+    mra: ["ʒəŋ", "ʒəŋ"],  // Rischel's Minor Mlabri gives ɟɤɤŋ 'foot'; there is no whole-limb leg word, bluuʔ being the thigh and gurmɔr the lower leg, and the etymon is Khmu's leg word. // was ["ɟɤɤŋ", "ɟɤːŋ"] (vi dialect rules 2026-10-06)
     mrj: ["ял лапа", "jal lɑpɑ"],  // Hill Mari builds the foot word as ял лапа, literally 'leg-palm', on the bare leg word ял — the third pattern.
     mro: ["klong", "kləŋ"],  // Luce 1985:88 Q.54 kləŋ¹ 'leg, foot' as one lexeme, matching Grierson LSI 1904:396 Klong; kʰɔʔ (Lewin 1869:147 Khouk) is the bound form that builds 'toes'. Neither Lewin nor Grierson has a leg item at all. Plain Latin per this row's Matisoff-file convention, which carries no tone.
     mrq: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Marquesas reflex of PPn *waqe 'Leg, foot'. No stress mark, as on the other Polynesian rows.
@@ -2018,7 +2020,7 @@ WORDS.foot = {
     pt_ao: ["pé", "pɛ"],  // The Angolan row's signature is unreduced unstressed vowels, and pé has no unstressed vowel at all — its own café /kaˈfɛ/ carries the cell.
     pt_br: ["pé", "pɛ"],  // Every process that separates this row from European Portuguese needs a coda or a second syllable; pé has neither, and the row's own café /kaˈfɛ/ gives the vowel.
     pt_cv: ["pé", "pɛ"],  // Cape Verdean Portuguese lenites between vowels and pé has no consonant in that position, so the row's own café /kaˈfɛ/ is the whole derivation — the Creole spoken beside it is a different row's business.
-    pt_gw: ["pé", "pɛ"],  // This row writes the Portuguese side of the continuum — mãu and ólhu, not Kriol mon and udju — so pé stands against perna as in pt.
+    pt_gw: ["pe", "pɛ"],  // This row writes the Portuguese side of the continuum — mãu and ólhu, not Kriol mon and udju — so pé stands against perna as in pt. // was ["pé", "pɛ"] (vi dialect rules 2026-10-06)
     pt_mo: ["pé", "pɛ"],  // As Portuguese: pé vs perna.
     pt_mz: ["pé", "pɛ"],  // Mozambican Portuguese differs from Lisbon in the unstressed vowels, which pé does not have; the row's own café /kaˈfɛ/ and mel /mɛl/ set it.
     ptai: ["*tiːn", "tiːn"],  // Pittayaporn's Proto-Tai *tiːn 'foot' against *xaː 'leg' — the tin/kha split the za row still shows.
@@ -2096,7 +2098,7 @@ WORDS.foot = {
     sjo: ["ᠪᡝᡨᡥᡝ", "bɘtk"],  // r66: spoken Xibe pronunciation (Li Shulan 1986 via Oskolskaya 2021), was the written-Manchu reading bətʰə. ᠪᡝᡨᡥᡝ covers both, as it does in the Manchu row; the Tungusic etymon is *begdi.
     sk: ["noha", "nɔɦa"],  // As Czech.
     skr: ["پیر", "peːɾ"],  // پیر vs ڄنگھ — Lahnda keeps the split Hindi and Urdu have.
-    sl: ["stopalo", "stɔpàːlɔ"],  // Sources disagree: NorthEuraLex returns nôga for both, Wiktionary lemmatises stopalo for the foot. Classed distinct on the Wiktionary reading.
+    sl: ["stopalo", "stɔˈpaːlɔ"],  // Sources disagree: NorthEuraLex returns nôga for both, Wiktionary lemmatises stopalo for the foot. Classed distinct on the Wiktionary reading. // was ["stopalo", "stɔpàːlɔ"] (vi dialect rules 2026-10-06)
     slr: ["ayax", "ɑjɑχ"],  // ayax covers both in Ma Wei et al.'s Salar-Uyghur-Chinese dictionary; ABVD's 'b. leg' inʤix is incik, the shin.
     sm: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Samoan reflex of PPn *waqe 'Leg'. No stress mark, as on the other Polynesian rows.
     sma: ["juelkie", "jʉɛlkiɛ"],  // One word for the whole lower limb, the Uralic norm.
@@ -2198,7 +2200,7 @@ WORDS.foot = {
     txg: ["𗭒", "kʰjɨ˧"],  // Li Fanwen (2008) *khjɨ¹, corroborated by Gong 2001:25 via HPTB; < PST *krəj 'foot, leg'.
     ty: ["ʻāvae", "ʔaːvae"],  // POLLEX glosses Tahitian ʻāvae 'pied, jambe, patte' — foot and leg together. The ʻokina and macron are copied from this row's own ʻereʻere and ʻārevareva cells.
     tyv: ["бут", "but"],  // бут covers both; Tuvan адак has moved to 'bottom part', so the limb word here is *būt.
-    tyz: ["tin", "tin˧˧"],  // Wiktionary glosses Tày tin 'foot' and derives it from *tiːnᴬ, the foot etymon, not from *p.qaːᴬ 'leg', which Tày keeps as kha.
+    tyz: ["tin", "tin˧˥"],  // Wiktionary glosses Tày tin 'foot' and derives it from *tiːnᴬ, the foot etymon, not from *p.qaːᴬ 'leg', which Tày keeps as kha. // was ["tin", "tin˧˧"] (vi dialect rules 2026-10-06)
     tzh: ["ok", "ok"],  // PMED lists TZE ok as plain 'pie' beside akan 'pie, pierna', so Tzeltal keeps the foot apart where the Tzotzil row's okol does not.
     tzm: ["ⴰⴹⴰⵔ", "adˤar"],  // Berber aḍar covers foot and leg; the Tarifit cognate is explicitly glossed for both.
     tzo: ["okol", "ʔokol"],  // Mayan languages commonly use one term (cf. Q'eqchi' oq); Tzotzil okol covers the limb.

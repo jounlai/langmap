@@ -827,7 +827,7 @@ WORDS.orange = {
     es_bo: ["naranja", "naˈɾaŋxa"],
     es_py: ["naranja", "naˈɾaŋxa"],
     es_pa: ["naranja", "naˈɾaŋha"],
-    en_my: ["orange", "ˈɒɹɪndʒ"],
+    en_my: ["orange", "ˈɔɹɪndʒ"], // was ["orange", "ˈɒɹɪndʒ"] (vi dialect rules 2026-10-06)
     pt_gw: ["laranja", "laˈranʒa"],
     ayl: ["برتقال", "burtuˈɡaːl"],
     swb: ["trundra", "tɾundɾa"],
@@ -1020,10 +1020,10 @@ WORDS.orange = {
     be: ["апельсін", "apʲelʲˈsʲin"],
     cs: ["pomeranč", "ˈpomɛrantʃ"],
     sk: ["pomaranč", "ˈpomarantʃ"],
-    sl: ["pomaranča", "pɔmaˈɾaːntʃa"],
+    sl: ["pomaranča", "pɔmaˈraːntʃa"], // was ["pomaranča", "pɔmaˈɾaːntʃa"] (vi dialect rules 2026-10-06)
     sr: ["наранџа", "ˈnarandʒa"],
     bg: ["портокал", "pɔrtoˈkal"],
-    lt: ["apelsinas", "apɛlʲˈsʲinɐs"],
+    lt: ["apelsinas", "ɐpʲɛlʲˈsʲɪnɐs"], // was ["apelsinas", "apɛlʲˈsʲinɐs"] (vi dialect rules 2026-10-06)
     lv: ["apelsīns", "apɛlˈsiːns"],
     sq: ["portokall", "pɔrtɔˈkalː"],
     et: ["apelsin", "ˈɑpelsin"],
@@ -1181,7 +1181,7 @@ WORDS.orange = {
     zh_kf: ["橙", "tʂʰɤŋ˦˨"],
     zh_nj: ["橙", "tʂʰɤŋ˨˦"],
     ltg: ["apelsins", "apelˈsins"],
-    ie: ["orangie", "oˈrandʒie"],
+    ie: ["orange", "oˈranʒe"], // was ["orangie", "oˈrandʒie"] (vi dialect rules 2026-10-06)
     io: ["oranjo", "oˈranʒo"],
     vls: ["sinaasappel", "ˈsinɑsɑpəl"],
     aln: ["portokall", "pɔrtɔˈkalː"],

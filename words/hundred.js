@@ -356,7 +356,7 @@ WORDS.hundred = {
     vec: ["sento", "ˈsento"],
     fur: ["cent", "tʃent"],
     lmo: ["cent", "tʃent"],
-    pms: ["sent", "seŋt"],
+    pms: ["sent", "sɛŋt"],
     rup: ["sutã", "ˈsutə"],
     wa: ["cint", "sɛ̃"],
 
@@ -906,7 +906,7 @@ WORDS.hundred = {
     ksw: ["တကယၤ", "takaja"],
     pwo: ["လယၩ", "lə ja"],
     lis: ["hya", "hɛ˧˧"],
-    mni: ["ꯆꯥꯃ", "tʃama"],
+    mni: ["ꯆꯥꯃ", "tʃamə"],
     brx: ["जौसे", "dʒause"],
     max: ["saratus", "saratus"],
     seh: ["dzana", "dzana"],
@@ -1031,7 +1031,7 @@ WORDS.hundred = {
     abs: ["saratus", "saratus"],
     frp: ["cent", "θɛ̃"],
     byn: ["ሊኽ", "lix"],
-    dng: ["йибый", "i˨˦pei˥˩"],
+    dng: ["йибый", "i˨˦pei˨˦"],
     bft: ["བརྒྱ་གཅིག", "bɡja tɕik"],
     ja_oki: ["百", "çaːku"],
     lbe: ["ттуршва", "tːurʃwa"],
@@ -1142,7 +1142,7 @@ WORDS.hundred = {
     khw: ["شور", "ʃoːr"],
     blr: ["ti31 roi31", "ti˧˩ roi˧˩"],
     sce: ["be", "bə"],
-    cia: ["amohono", "amohono"],
+    cia: ["hacu", "hatʃu"],
     juc: ["tanggu", "taŋɡu"],
     akk: ["𒈨𒀜", "meʔat"],
     xsa: ["𐩣𐩱𐩩", "miʔat"],
@@ -1156,6 +1156,8 @@ WORDS.hundred = {
     cay: ["sgá:t dewę́ʼnyawe:ʼ", "skáːt dewɛ̃́ʔɲaweːʔ"],
     itl: ["туʼус", "tuʔus"],
     yle: ["yonoy:a", "jonojːa"],
-    ik: ["tallimakipiat", "talːimakipiat"]
+    ik: ["tallimakipiat", "talːimakipiat"],
+    gon: ["नूर", "nuːr"],
+    hsn_yz: ["百", "pe˧˧"]
   },
 };

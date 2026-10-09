@@ -83,7 +83,7 @@ WORDS.mountain = {
     bg: ["планина", "plɐniˈna"],
     sr: ["планина", "planina"],
     hr: ["planina", "planina"],
-    sl: ["gora", "ˈɡoːra"],
+    sl: ["gora", "ˈɡɔːra"],
     el: ["βουνό", "vuˈno"],
     hi: ["पहाड़", "pəˈɦaːɽ"],
     bn: ["পাহাড়", "paˈhaɽ"],
@@ -223,7 +223,7 @@ WORDS.mountain = {
     dyu: ["kulu", "kulu"],
     dz: ["རི", "ri"],
     ee: ["to", "to"],
-    egy: ["𓈋", "ɟuːw"],
+    egy: ["𓈋", "dʒuː"],
     el_grc: ["ὄρος", "óros"],
     el_kath: ["ὄρος", "ˈoros"],
     en_au: ["mountain", "ˈmæɔntən"],
@@ -604,7 +604,7 @@ WORDS.mountain = {
     ljp: ["gunung", "ɡunuŋ"],
     hoc: ["buru", "buru"],
     mtq: ["tồl", "tol"],
-    tyz: ["pù", "pu˨˩"],
+    tyz: ["pù", "pu˧˨"],
     nut: ["phja", "pʰjaː˧˧"],
     ja_kg: ["山", "jama"],
     bom: ["raku", "raku"],
@@ -729,7 +729,7 @@ WORDS.mountain = {
     mxv: ["iku", "iku"],
     hch: ["yemuri", "jemuri"],
     car: ["wypy", "wɨpɨ"],
-    tiw: ["jipunyini", "dʒipuɲini"],
+    tiw: ["jupunyini", "dʒupuɲini"],
     yrk: ["хой", "xoj"],
     xkz: ["la", "la"],
     stq: ["Bierich", "ˈbiːrɪx"],
@@ -1084,6 +1084,9 @@ WORDS.mountain = {
     dbl: ["gambil", "ˈɡambil"],
     win: ["xee", "xeː"],
     ayl: ["جبل", "ʒbal"],
-    acw: ["جبل", "dʒabal"]
+    acw: ["جبل", "dʒabal"],
+    cia: ["gunu", "ɡunu"],
+    hsn_yz: ["山", "sã˧˧"],
+    fvr: ["fúgó", "fúɡó"]
   }
 };

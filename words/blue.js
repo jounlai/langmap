@@ -55,6 +55,7 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    ie: "distinct",
     ltg: "distinct",
     qxs: "borrowed", // route was grue (vi dialect rules 2026-10-06)
     blc: "distinct",
@@ -846,6 +847,7 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    ie: ["blu", "blu"],
     ltg: ["zyls", "zɨls"],
     qxs: ["lanȵi", "lanɲi"], // was ["χueχue", "χueχue"] (vi dialect rules 2026-10-06)
     blc: ["qwit", "qʷit"],
@@ -958,7 +960,7 @@ WORDS.blue = {
     ug: ["كۆك", "køk"],
     zh_wenyan_edu: ["青", "tsʰɪŋ˥"],
     vi_han: ["青", "tʰaɲ˧˧"],
-    dng: ["лан", "lan˨˦"],
+    dng: ["лан", "læ̃˨˦"], // was ["лан", "lan˨˦"] (vi dialect rules 2026-10-06)
     nan_zz: ["蓝", "lam˩˧"], // was ["藍", "lam˩˧"] (zh simplified 2026-10-05)
     nan_xm: ["蓝", "lam˨˦"], // was ["藍", "lam˨˦"] (zh simplified 2026-10-05)
     nan: ["藍", "nã˨˦"],
@@ -973,7 +975,7 @@ WORDS.blue = {
     gan_ja: ["蓝", "lan˩˩"], // was ["蓝", "lan˦˥"] (vi dialect rules 2026-10-06)
     gan_fz: ["蓝", "lam˨˦"], // was ["蓝", "lam˦˥"] (r46 fix 2026-10-03)
     gan_yc: ["蓝", "lan˧˧"], // was ["蓝", "lan˥"] (r46 fix 2026-10-03)
-    hsn_yz: ["蓝", "lã˩˧"],
+    hsn_yz: ["蓝", "lã˩˩˨"], // was ["蓝", "lã˩˧"] (vi dialect rules 2026-10-06)
     hsn_hy: ["蓝", "lan˩˩˨"],
     hsn: ["蓝", "lan˩˧"],
     wuu_jh: ["蓝", "lɑ˧˩˧"], // was ["蓝", "lã˧˩˧"] (r48 fix 2026-10-03)
@@ -1095,7 +1097,7 @@ WORDS.blue = {
     moh: ["orónhia", "oɾṹhja"],
     yan: ["sangni", "saŋni"],
     jiv: ["sámek", "ˈsamek"],
-    tyz: ["kheo", "kʰɛːw˧˧"],
+    tyz: ["kheo", "kʰɛw˧˧"], // was ["kheo", "kʰɛːw˧˧"] (vi dialect rules 2026-10-06)
     ja_kanbun: ["青し", "aoɕi"],
     sa_edu: ["नीलः", "niːlaɦ"],
     khw: ["اوݯ", "ɔʈʂ"], // was ["اوچ", "otʃ"] (r42 fix 2026-10-03)

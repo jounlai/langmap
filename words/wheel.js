@@ -78,14 +78,14 @@ WORDS.wheel = {
     ang: ["hwēol", "ˈhweːol"],
     enm: ["whel", "hweːl"],
     non: ["hjól", "hjoːl"],
-    txb: ["𑀓𑁄𑀓𑀮𑁂", "kokale"],
+    txb: ["—", "—"],
     cu: ["коло", "kolo"],
 
     // --- ...and the family's second wheel word, *Hrot-o- ---------------
     la: ["rota", "ˈrota"],
     sga: ["roth", "roθ"],
     mga: ["roth", "roθ"],
-    lt: ["ratas", "ˈraːtas"],
+    lt: ["ratas", "ˈrɑːtɐs"],
     lv: ["ritenis", "ˈritenis"],
     goh: ["rad", "rat"],
     gmh: ["rat", "rat"],
@@ -114,7 +114,7 @@ WORDS.wheel = {
     pl: ["koło", "ˈkɔwɔ"],
     cs: ["kolo", "ˈkolo"],
     sk: ["koleso", "ˈkoleso"],
-    sl: ["kolo", "ˈkoːlo"],
+    sl: ["kolo", "kɔˈloː"],
     hr: ["kotač", "kotatʃ"],
     sr: ["точак", "totʃak"],
     bg: ["колело", "kolɛˈlo"],
@@ -282,7 +282,7 @@ WORDS.wheel = {
     orv: ["коло", "kolo"],
     szl: ["koło", "ˈkɔwɔ"],
     hsb: ["koleso", "ˈkɔlɛsɔ"],
-    dsb: ["kólaso", "ˈkɔlasɔ"],
+    dsb: ["kólaso", "ˈkɛlasɔ"],
     rue: ["колесо", "ˈkolɛso"],
     // Bosnian takes točak with Serbian, not kolo with Czech
     bs: ["točak", "ˈtotʃak"],
@@ -570,7 +570,7 @@ WORDS.wheel = {
     kaw: ["ꦕꦏꦿ", "tʃakra"],
     ko_mid: ["바·회", "pahoj"],
     zh_tang: ["輪", "lwin"],
-    hit: ["𒄷𒌨𒆠𒅖", "xurkiʃ"],
+    hit: ["𒄷𒌨𒆠𒅖", "xurkis"],
     uga: ["𐎀𐎔𐎐", "ʔaːpanu"],
     oar: ["גלגל", "ɡalɡal"],
     sux: ["𒄑𒌢", "ŋeʃumbin"],
@@ -656,7 +656,7 @@ WORDS.wheel = {
     srb: ["sakkaɖin", "sakkaɖin"],
     sat: ["ᱪᱚᱠ", "tʃɔk"],
     vi_c: ["bánh xe", "ɓan˨˦ sɛ˥"],
-    tyz: ["bảnh", "ɓaŋ˨˩˧"],
+    tyz: ["bảnh", "ɓajŋ̟˨˩˧"],
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
@@ -938,6 +938,7 @@ WORDS.wheel = {
     poh: ["kotokaq", "kotokaq"],
     drs: ["mole", "mole"],
     kos: ["wil", "wil"],
-    niu: ["veli", "veli"]
+    niu: ["veli", "veli"],
+    hsn_yz: ["轮子", "lə̃˩˩˨ tsɿ˥˥"]
   }
 };

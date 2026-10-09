@@ -1069,7 +1069,7 @@ WORDS.coffee = {
     es_bo: ["café", "kaˈfe"],
     es_py: ["café", "kaˈfe"],
     es_pa: ["café", "kaˈfe"],
-    en_my: ["coffee", "ˈkɒfi"],
+    en_my: ["coffee", "ˈkɔfi"], // was ["coffee", "ˈkɒfi"] (vi dialect rules 2026-10-06)
     ayl: ["قهوة", "ˈɡahwa"],
     abv: ["قهوة", "ˈɡahwa"], // was ["قهوة", "ˈqahwa"] (vi dialect rules 2026-10-06)
     afb: ["قهوة", "ˈɡahwa"],

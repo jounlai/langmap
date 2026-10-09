@@ -94,7 +94,7 @@ WORDS.wind = {
     es_sgl: ["viento", "ˈbjento"],
     sa: ["वायुः", "ʋaːjuɦ"],
     sa_edu: ["वायुः", "ʋaːjuɦ"],
-    h_vedic: ["वात", "ˈʋaːtɐ"],
+    h_vedic: ["वात", "ʋáːtɐ"],
     pi: ["वात", "ʋaːtɐ"],
     pi_edu: ["vāta", "ʋaːtɐ"],
     cu: ["вѣтръ", "ˈvʲɛtrŭ"],
@@ -221,7 +221,7 @@ WORDS.wind = {
     en_za: ["wind", "wɪnd"],
     en_ie: ["wind", "wɪnd"],
     en_sco: ["wind", "wɪnd"],
-    en_in: ["wind", "wɪnɖ"],
+    en_in: ["wind", "ʋɪnɖ"],
     ru: ["ветер", "ˈvʲetʲɪr"],
     uk: ["вітер", "ˈʋitɛr"],
     be: ["вецер", "ˈvʲetsʲɛr"],
@@ -475,7 +475,7 @@ WORDS.wind = {
     dv: ["ވައި", "ʋəi"],
     ave: ["𐬬𐬁𐬙𐬀", "ˈʋaːta"],
     ko_em: ["바람", "paɾam"],
-    sga: ["gáeth", "ɣaːiθʲ"],
+    sga: ["gáeth", "ɡaːiθ"],
     psem: ["*rīḥ-", "riːħ"],
     tet: ["anin", "ˈanin"],
     zdj: ["upepo", "uˈpepo"],
@@ -1158,6 +1158,8 @@ WORDS.wind = {
     ono: ["ó·wæʼ", "óːwæʔ"],
     wic: ["niweʔeːrʔa", "niweʔeːɾʔa"],
     hsn_yz: ["风", "xoŋ˧˧"],
-    xht: ["pizil", "pizil"]
+    xht: ["pizil", "pizil"],
+    prk: ["npaeng", "bʰaɯŋ"],
+    kxm: ["ខ្យល់", "kʰjɑl"]
   },
 };

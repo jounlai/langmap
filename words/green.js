@@ -272,7 +272,7 @@ WORDS.green = {
     gv: ["glass", "ɡlaːs"],
     h_vedic: ["हरितः", "háritɐɦ"],
     hak_cn: ["绿", "liʊk̚˥"],
-    hak_tw: ["綠", "liuk̚˥"],
+    hak_tw: ["綠", "liuk˥"],
     haz: ["سبز", "sabz"],
     he_mis: ["ירוק", "jaˈroq"],
     hil: ["berde", "ˈbɛrde"],
@@ -464,7 +464,7 @@ WORDS.green = {
     zh_db: ["绿", "ly˥˩"],
     mnp: ["绿", "ly˦˨"],
     zh_tj: ["绿", "ly˥˧"],
-    zh_wh: ["绿", "nəu˨˩˧"],
+    zh_wh: ["绿", "nou˨˩˧"],
     zh_zz: ["绿", "ly˨˦"],
     sd: ["سائو", "saːio"],
     mwr: ["हरियो", "ɦərijo"],
@@ -629,7 +629,7 @@ WORDS.green = {
     xmf: ["წვანე", "tsʼvane"],
     swg: ["grea", "ɡreə̯"],
     hwc: ["green", "ɡɹiːn"],
-    sah: ["күөх", "kyˈøx"],
+    sah: ["күөх", "kyøx"],
     tyv: ["ногаан", "noɣaːn"],
     pis: ["grin", "ɡrin"],
     rup: ["veardi", "ˈve̯ardi"],
@@ -740,7 +740,7 @@ WORDS.green = {
     vo: ["grünik", "ɡryˈnik"],
     smn: ["ruánáá", "ˈruanaː"],
     kfa: ["ಪಚ್ಚೆ", "patʃtʃe"],
-    en_wls: ["green", "ɡɹiːn"],
+    en_wls: ["green", "ɡɾiːn"],
     es_sv: ["verde", "ˈbeɾðe"],
     es_do: ["verde", "ˈbeɾðe"],
     pt_mz: ["verde", "ˈveɾde"],
@@ -756,7 +756,7 @@ WORDS.green = {
     ar_ps: ["أخضر", "ˈʔaxdˤar"],
     acw: ["أخضر", "ˈʔaxdˤar"],
     es_ve: ["verde", "ˈbeɾðe"],
-    ca_va: ["verd", "veɾt"],
+    ca_va: ["verd", "vɛɾt"],
     pt_cv: ["verde", "ˈveɾdɨ"],
     pt_mo: ["verde", "ˈveɾdɨ"],
     en_brum: ["green", "ɡɹiːn"],
@@ -1021,6 +1021,7 @@ WORDS.green = {
     nus: ["tɔc", "tɔtʃ"],
     rmt: ["axḍar", "axdˤar"],
     fkv: ["vihree", "ˈʋihreː"],
-    hsn_yz: ["绿", "lu˩˩˨"]
+    hsn_yz: ["绿", "lu˩˩˨"],
+    prk: ["glāi", "kla̤i"]
   }
 };

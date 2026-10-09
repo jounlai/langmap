@@ -462,7 +462,7 @@ WORDS.person = {
     pzh: ["saw", "saw"],
     ko_bus: ["사람", "saɾam"],
     vi_s: ["người", "ŋɨj˨˩"],
-    rap: ["tagata", "taŋata"],
+    rap: ["tangata", "taŋata"],
     ttj: ["omuntu", "omuntu"],
     ty: ["taʻata", "taʔata"],
     rbb: ["taɁiː", "taʔiː"],
@@ -523,7 +523,7 @@ WORDS.person = {
     zh_jh: ["人", "ʐən˧˥"],
     zh_db: ["人", "ʐən˧˥"],
     zh_tj: ["人", "ʐən˦˥"],
-    zh_wh: ["人", "ɻən˨˩˧"],
+    zh_wh: ["人", "nən˨˩˧"],
     zh_zz: ["人", "ʐən˦˨"],
     ta: ["ஆள்", "aːɭ"],
     ps: ["انسان", "inˈsɑːn"],
@@ -1116,6 +1116,8 @@ WORDS.person = {
     hsn_yz: ["人", "ʑĩ˩˩˨"],
     bsk: ["sis", "sis"],
     fvr: ["dùó", "dùó"],
-    ocm: ["urāṅ", "uraːŋ"]
+    ocm: ["urāṅ", "uraːŋ"],
+    prk: ["būi", "pṳi"],
+    hif: ["admi", "ədmiː"]
   }
 };

@@ -70,6 +70,11 @@ WORDS.tea = {
   },
   // cha = overland Silk-Road route; te = Dutch sea route; other = Latin herba root.
   family: {
+    hoc: "cha",
+    prk: "cha",
+    wbm: "cha",
+    acf: "te",
+    fit: "te",
     hsn_yz: "cha",
     khw: "cha",
     blc: "te",
@@ -728,6 +733,11 @@ WORDS.tea = {
     leaf: { color: "#4d7c0f", emoji: "🍃", en: "neither route · the leaf itself", ja: "どちらの経路でもない・葉そのもの", ko: "두 경로 어느 쪽도 아님 · 잎 그 자체", zh: "两条路线都不是・叶子本身", yue: "兩條路線都唔係・葉本身", vi: "không theo đường nào · chính là chiếc lá", th: "ไม่ใช่ทั้งสองเส้นทาง · ตัวใบเอง", id: "bukan salah satu jalur · daunnya sendiri", hi: "किसी मार्ग से नहीं · पत्ता ही", de: "keine der Routen · das Blatt selbst", fr: "ni l'une ni l'autre route · la feuille même", it: "nessuna delle due rotte · la foglia stessa", es: "ninguna de las dos rutas · la hoja misma", pt: "nenhuma das rotas · a própria folha", ru: "ни один из путей · сам лист", uk: "жоден із шляхів · сам листок", ar: "لا هذا الطريق ولا ذاك · الورقة نفسها", he: "לא זה ולא זה · העלה עצמו", sw: "si njia yoyote kati ya hizo · jani lenyewe" },
   },
   data: {
+    hoc: ["chaa", "tʃaː"],
+    prk: ["qax", "tɕʰaʔ"],
+    wbm: ["chax", "tɕʰaʔ"],
+    acf: ["dité", "dite"],
+    fit: ["tee", "teː"],
     hsn_yz: ["茶", "za˩˩˨"],
     khw: ["چاے", "tʃaj"],
     blc: ["tii", "tiː"],
@@ -912,7 +922,7 @@ WORDS.tea = {
     ca_va: ["te", "te"],
     ar_lev: ["شاي", "ʃaːj"],
     emk: ["dute", "dute"],
-    bm: ["dutɛ", "dutɛ"],
+    bm: ["dute", "dute"], // was ["dutɛ", "dutɛ"] (vi dialect rules 2026-10-06)
     wuu_jh: ["茶", "dzuɑ˧˩˧"],
     yue_nn: ["茶", "tʃʰa˨˩"],
     nan_hai: ["茶", "ɗɛ˧˩"],
@@ -1104,7 +1114,7 @@ WORDS.tea = {
     pot: ["ti", "ti"],
     oj: ["aniibiish", "aniːbiːʃ"],
     tig: ["ሻሂ", "ʃahi"],
-    aa: ["saahí", "ʃaːhi"],
+    aa: ["shaahí", "ʃaːhi"], // was ["saahí", "ʃaːhi"] (vi dialect rules 2026-10-06)
     tzm: ["ⴰⵜⴰⴳ", "ataɡ"],
     zgh: ["ⴰⵜⴰⵢ", "ataj"],
     rif: ["ⴰⵜⴰⵢ", "ataj"],
@@ -1127,7 +1137,7 @@ WORDS.tea = {
     alt: ["чай", "tʃaj"],
     am: ["ሻይ", "ʃaj"],
     ar: ["شاي", "ʃaːj"],
-    as: ["চাহ", "sah"],
+    as: ["চাহ", "saɦ"], // was ["চাহ", "sah"] (vi dialect rules 2026-10-06)
     az: ["çay", "tʃɑj"],
     ba: ["сәй", "sæj"],
     bal: ["چا", "tʃaː"],
@@ -1354,7 +1364,7 @@ WORDS.tea = {
     ar_lb: ["شاي", "ʃaːj"],
     ar_jo: ["شاي", "ʃaːj"],
     ar_ps: ["شاي", "ʃaːj"],
-    ar_ye: ["شاي", "ʃaːj"],
+    ar_ye: ["شاهي", "ˈʃaːhi"], // was ["شاي", "ʃaːj"] (vi dialect rules 2026-10-06)
     ar_sa: ["شاي", "ʃaːj"],
     ar_gulf: ["شاي", "ʃaːj"],
     ar_iq: ["شاي", "ʃaːj"],

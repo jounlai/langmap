@@ -576,7 +576,7 @@ WORDS.egg = {
     kri: ["eg", "ɛɡ"],
     tcy: ["ತತ್ತಿ", "t̪at̪ːi"],
     kaa: ["máyek", "mæjek"],
-    orv: ["ꙗйце", "jaˈjɪtsɛ"],
+    orv: ["ꙗице", "jajitsʲɛ"],
     sukh: ["ไข่", "kʰaj"],
     qwc: ["runtu", "ɾuntu"],
     h_tagalog: ["ᜁᜆ᜔ᜎᜓᜄ᜔", "itˈloɡ"],
@@ -607,7 +607,7 @@ WORDS.egg = {
     hif: ["anda", "əɳɖaː"],
     zgh: ["ⵜⴰⴳⵍⴰⵢⵜ", "taɡlajt"],
     aln: ["vo", "vo"],
-    fud: ["fuāmoa", "fuaːmoa"],
+    fud: ["fua", "fua"],
     // --- Uralic and Siberian — NorthEuraLex orthography plus its IPA
     sma: ["munnie", "ˈmʉnːiɛ"],
     sms: ["mââʹnn", "mɐːnːʲɘ"],
@@ -789,7 +789,7 @@ WORDS.egg = {
     zh_jh: ["鸡蛋", "tɕi˧˧ tan˦˦"],
     cjy: ["鸡蛋", "tɕi˩ tæ̃˦˥"],
     hsn: ["蛋", "tan˨˩"],
-    wuu_sz: ["蛋", "dɛ˨˧˩"],
+    wuu_sz: ["蛋", "dᴇ˨˧˩"],
     wuu_nb: ["蛋", "dɛ˨˧"],
     wuu_hz: ["蛋", "dᴇ̃˩˧"],
     wuu_jx: ["蛋", "dɛ˩˩˦"],
@@ -814,7 +814,7 @@ WORDS.egg = {
     sgs: ["kiaušis", "ˈkʲauʃɪs"],
     frr: ["oi", "ɔi̯"],
     fr_af: ["œuf", "œf"],
-    an: ["güego", "ˈɡweɣo"],
+    an: ["uego", "ˈweɣo"],
     ext: ["güevu", "ˈɡweβu"],
     vo: ["nög", "nøɡ"],
     srm: ["óbo", "óbo"],
@@ -857,7 +857,7 @@ WORDS.egg = {
     dru: ["batuku", "batuku"],
     bbl: ["გაგაჼ", "ɡaɡã"],
     // --- Asia
-    dz: ["སྒཽང་རྡོག", "ɡoŋdo"],
+    dz: ["སྒོང་རྡོག", "ɡoŋdo"],
     sce: ["endegvei", "əndəɣəi"],
     peh: ["əndəgi", "əndəɡi"],
     kim: ["нюмурһа", "ɲumurha"],
@@ -1134,6 +1134,8 @@ WORDS.egg = {
     ono: ["oʼnhų́hsaʼ", "oʔnhṹhsaʔ"],
     wic: ["nikwiːkʔa", "nikʷiːkʔa"],
     kdt: ["nthrɛ̤ːl", "ntʰrɛːl"],
-    fvr: ["dɨróŋ", "dɪróŋ"]
+    fvr: ["dɨróŋ", "dɪróŋ"],
+    adx: ["སྒོང་ང", "ɡoŋŋa"],
+    prk: ["dom", "tɔm"]
   },
 };

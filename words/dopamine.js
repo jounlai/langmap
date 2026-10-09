@@ -74,7 +74,7 @@ WORDS.dopamine = {
       tob: ["—","—"],
       kgp: ["—","—"],
     "en": ["dopamine", "ˈdoʊpəmiːn"],
-    "en_us": ["dopamine", "ˈdoʊpəmiːn"],
+    "en_us": ["dopamine", "ˈdoʊpəˌmin"],
     "en_au": ["dopamine", "ˈdəʉpəmiːn"],
     "zh": ["多巴胺", "twɔ˥ pä˥ an˥˩"],
     "zh_tw": ["多巴胺", "twɔ˥ pä˥ an˥˩"],

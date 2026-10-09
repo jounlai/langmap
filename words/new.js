@@ -135,7 +135,7 @@ WORDS.new = {
     ar_ye: ["جديد", "dʒadiːd"],
     ar_sa: ["جديد", "dʒidiːd"],
     ar_lb: ["جديد", "ʒdiːd"],
-    en_wls: ["new", "njuː"],
+    en_wls: ["new", "nɪʊ"],
     en_jam: ["new", "njuː"],
     en_ng: ["new", "njuː"],
     en_ph: ["new", "njuː"],
@@ -147,7 +147,7 @@ WORDS.new = {
     pt_cv: ["novo", "ˈnovu"],
     en_us: ["new", "nu"],
     en_ca: ["new", "njuː"],
-    en_za: ["new", "njuː"],
+    en_za: ["new", "njʉː"],
     pt_ao: ["novo", "ˈnovu"],
     es_ve: ["nuevo", "ˈnweβo"],
     ja: ["新しい", "ataɾaɕiː"],
@@ -423,7 +423,7 @@ WORDS.new = {
     mrj: ["у", "u"],
     myv: ["од", "od"],
     mdf: ["од", "od"],
-    krl: ["uuzi", "ˈuːzi"],
+    krl: ["uuši", "ˈuːʃi"],
     olo: ["uuzi", "uːzi"],
     vep: ["uz'", "uzʲ"],
     liv: ["ūž", "uːʒ"],
@@ -1108,7 +1108,7 @@ WORDS.new = {
     pmi: ["ɕi55ɕi55mə53", "ɕi˥˥ɕi˥˥mə˥˧"],
     twm: ["se55ro53", "se˥˥ro˥˧"],
     qxs: ["tsʰi", "tsʰi"],
-    dlg: ["һаҥа", "haŋa"],
+    dlg: ["һаӈа", "haŋa"],
     wmt: ["jalangjalang", "ˈɟalaŋɟalaŋ"],
     guu: ["tute", "tute"],
     na: ["etaimeduw", "etaimeduw"],
@@ -1145,6 +1145,8 @@ WORDS.new = {
     ja_mvi: ["みㇲ゙", "miz̩"],
     tca: ["ngexwacaxü̃", "ŋeʔwakaʔɨ̃"],
     fvr: ["dɨwwô", "dɪwːô"],
-    egy: ["𓌳𓄿𓅱𓏛", "mauːi"]
+    egy: ["𓌳𓄿𓅱𓏛", "mauːi"],
+    gcr: ["nouvo", "nuvo"],
+    prk: ["kraox", "kʰrauʔ"]
   }
 };

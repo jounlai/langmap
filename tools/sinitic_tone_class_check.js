@@ -120,6 +120,7 @@ const CLASS = {
 // correct data, not row inconsistency, so they are excluded from the class
 // rather than carried as debt.
 const ALLOW = [
+  { code: /^zh_wh$/, ch: '熊', why: 'MCPDict 武漢 (《武汉方言研究》) has 熊 ɕioŋ1 = 55, not 陽平 213 — an irregular reading, printed as such. r74, 2026-10-09' },
   { code: /^yue/, ch: '名', why: 'colloquial meng2 — 陽上變調 to 35, the regular Cantonese changed tone' },
   { code: /^yue/, ch: '橙', why: 'caang2 — the same 變調' },
   // Checked against Wiktionary's 各地讀音 on 2026-08-31 and NOT an error: both
@@ -222,8 +223,6 @@ const DEBT = [
   { code: 'gan_yc', cls: '陰入' },
   { code: 'czh', cls: '陽入' },
   { code: 'cjy_xz', cls: '陽入' },
-  { code: 'hsn_yz', cls: '陰入' },
-  { code: 'hsn_yz', cls: '陽入' },
   { code: 'yue_ts', cls: '陽入' },
   // r46 (2026-10-03): the Gan rows were re-based on MCPDict, but these cells
   // use characters the MCPDict tables do not have, so they keep their old,

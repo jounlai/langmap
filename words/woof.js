@@ -255,6 +255,7 @@ WORDS.woof = {
     de_at: ["wau wau", "vaʊ vaʊ"],
     de_ch: ["wau wau", "vaʊ vaʊ"],
     vi_nom: ["呴呴", "ɣəw˧ ɣəw˧"],  // Nôm 呴 (Hv khẩu câu, 口+句) for gâu: a Nôm dictionary entry "Gâu* (Hv khẩu câu) Tiếng chó: Gâu gâu" (sent by the owner, 2026-10-08) and en.wiktionary gâu (Nôm 呴, 𠯜). Doubled as gâu gâu, like the vi cell.,
-    nan: ["哮哮", "hãuʔ˧˨ hãuʔ˧˨"]  // 台日大辭典 (1932) #68944 hauⁿh-hauⁿh-pūi 哮哮吠 '狗teh吠ê款式' (ChhoeTaigi; the sound a barking dog makes); (#68942 hauⁿh-hauⁿh 殽殽 is a different word, 'bitten'.) Reader comment 2026-10-08 gave hauⁿh-hauⁿh. 陰入 ˧˨ as the row's 血 冊.
+    nan: ["哮哮", "hãuʔ˧˨ hãuʔ˧˨"],  // 台日大辭典 (1932) #68944 hauⁿh-hauⁿh-pūi 哮哮吠 '狗teh吠ê款式' (ChhoeTaigi; the sound a barking dog makes); (#68942 hauⁿh-hauⁿh 殽殽 is a different word, 'bitten'.) Reader comment 2026-10-08 gave hauⁿh-hauⁿh. 陰入 ˧˨ as the row's 血 冊.
+    ca_va: ["bub-bub", "ˌbubˈbup"]
   },
 };

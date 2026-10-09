@@ -268,7 +268,7 @@ WORDS.salt = {
     en_ng: ["salt", "sɔlt"],
     en_ng2: ["salt", "sɔlt"],
     en_ke: ["salt", "sɔlt"],
-    en_jam: ["salt", "sɑːlt"],
+    en_jam: ["salt", "sɔːlt"],
     sco: ["saut", "sɑːt"],
     de_at: ["Salz", "salts"],
     de_ch: ["Salz", "salts"],
@@ -296,7 +296,7 @@ WORDS.salt = {
     hyw: ["աղ", "ɑʁ"],
     se: ["sálti", "ˈsaːlti"],
     vro: ["suul", "suːl"],
-    krl: ["suola", "ˈsuola"],
+    krl: ["šuola", "ˈʃuola"],
     olo: ["suolu", "ˈsuolu"],
     fkv: ["suola", "ˈsuolɑ"],
     fit: ["suola", "ˈsuolɑ"],
@@ -372,8 +372,8 @@ WORDS.salt = {
     zh_sc: ["盐", "iɛn˨˩"],
     zh_cd: ["盐", "jɛn˨˩"],
     zh_cq: ["盐", "jɛn˨˩"],
-    zh_wh: ["盐", "jɛn˨˩˧"],
-    zh_zz: ["盐", "jɛn˦˨"],
+    zh_wh: ["盐", "iɛn˨˩˧"],
+    zh_zz: ["盐", "ian˦˨"],
     zh_kf: ["盐", "ian˦˨"],
     zh_jn: ["盐", "iɛ̃˦˨"],
     zh_km: ["盐", "iɛ̃˧˩"],
@@ -544,7 +544,7 @@ WORDS.salt = {
     tvl: ["masima", "masima"],
     tkl: ["māhima", "maːhima"],
     wls: ["māsima", "maːsima"],
-    fud: ["masima", "masima"],
+    fud: ["paʻatai", "paʔatai"],
 
     // --- Africa — kɔgɔ, munyu, letswai ------------------------------------
     ig: ["nnu", "nːu"],
@@ -758,7 +758,7 @@ WORDS.salt = {
 
 
     // --- Austroasiatic *ɓɔːh, Tai *klwɯə, Hmong-Mien *ntsjəuX — almost no borrowing ---
-    prk: ["kih", "kih"],
+    prk: ["gīh", "ki̤h"],
     wbm: ["kih", "kih"],
     srh: ["namodhj", "namoðdʑ"],
     lwl: ["kih", "kih"],
@@ -847,7 +847,7 @@ WORDS.salt = {
     sid: ["maxine", "matʼine"],
     drs: ["maxine", "matʼine"],
     kxc: ["sookitta", "soːkitːa"],
-    aa: ["asbo", "asbo"],
+    aa: ["qasbó", "ʕasbo"],
     ssy: ["mulxu", "mulħu"],
     fia: ["imiid", "imiːd"],
 

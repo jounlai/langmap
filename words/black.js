@@ -281,7 +281,7 @@ WORDS.black = {
     mhr: ["шеме", "ʃeme"],
 
     // --- Indo-Aryan / Indo-Iranian -------------------------------------
-    as: ["ক’লা", "kɔla"],
+    as: ["ক’লা", "kola"],
     or: ["କଳା", "kɔɭaː"],
     sd: ["ڪارو", "kaːro"],
     kok: ["काळो", "kaːɭo"],
@@ -299,7 +299,7 @@ WORDS.black = {
     xct: ["ནག་པོ", "nag po"],
     xct_litpr: ["ནག་པོ", "nako"],
     bft: ["ནག་པོ", "naɡpo"],
-    dz: ["ནགཔ", "naːp"],
+    dz: ["གནགཔོ", "nap"],
     my: ["မည်း", "mɛ́"],
     new: ["हाकु", "haku"],
     mni: ["ꯑꯃꯨꯕ", "əmubə"],
@@ -348,10 +348,10 @@ WORDS.black = {
     jvn: ["ireng", "irəŋ"],
     bjn: ["hirang", "hiraŋ"],
     tet: ["metan", "metan"],
-    ty: ["ʻereʻere", "ʔereʔere"],
+    ty: ["ʻereʻere", "ʔeɾeʔeɾe"],
     niu: ["uli", "uli"],
     rar: ["kerekere", "keɾekeɾe"],
-    rap: ["uri", "uɾi"],
+    rap: ["uri uri", "uɾi uɾi"],
 
     // --- More Austronesian — Malayic *hitam, Batak birong, Polynesian uli
     abs: ["itang", "itaŋ"],
@@ -383,7 +383,7 @@ WORDS.black = {
     kha: ["iong", "ioŋ"],
     th_isan: ["ดำ", "dam˧"],
     th_n: ["ดำ", "dam˧"],
-    th_s: ["ดำ", "dam˧"],
+    th_s: ["ดำ", "dam˥"],
     soa: ["ดำ", "dam˨˦"],
     sukh: ["ดำ", "ʔdam"],
     za: {
@@ -472,7 +472,7 @@ WORDS.black = {
     // --- Tibetic varieties — no tone in these rows, so none written -------
     // Amdo takes /nakwo/, not /nakpo/: its own དམར་པོ is written marwo,
     // so this row lenites the suffix consonant and the black cell follows.
-    adx: ["ནག་པོ", "nakwo"],
+    adx: ["ནག་པོ", "naχkwo"],
     lbj: ["ནག་པོ", "nakpo"],
     khg: ["ནག་པོ", "nakpo"],
 
@@ -782,7 +782,7 @@ WORDS.black = {
     mnp: ["乌", "u˥˦"],
     zh_tj: ["黑", "xei˨˩"],
     zh_wh: ["黑", "xɤ˨˩˧"],
-    zh_zz: ["黑", "xei˨˦"],
+    zh_zz: ["黑", "xɛ˨˦"],
     prs: ["سیاه", "sijɑːh"],
     mag: ["करिया", "kərijaː"],
     hne: ["करिया", "kərijaː"],
@@ -1249,6 +1249,7 @@ WORDS.black = {
     hsn_yz: ["黑", "xe˧˧"],
     tca: ["waxüxü̃", "waʔɨʔɨ̃"],
     fvr: ["dìkkó", "dìkːó"],
-    ocm: ["hitam", "hitam"]
+    ocm: ["hitam", "hitam"],
+    prk: ["lūng", "lṳŋ"]
   },
 };

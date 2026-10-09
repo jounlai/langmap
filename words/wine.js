@@ -47,6 +47,8 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    prk: "other",
+    wbm: "other",
     djr: "other",
     pwo: "other",
     woe: "ie",
@@ -932,6 +934,8 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    prk: ["rom blix siad", "rɔm pliʔ siat"],
+    wbm: ["rawm plix siiet", "rɔm pliʔ siat"],
     djr: ["borum wiyikaʼ", "boɻum wijikaʔ"],
     pwo: ["စဘံၭထံၫ", "sə ɓeiʔ tʰi"],
     woe: ["waain", "waːine"], // was ["waaine", "waːine"] (vi dialect rules 2026-10-06)
@@ -1005,7 +1009,7 @@ WORDS.wine = {
     pbb: ["vxino", "βʲino"],
     wmt: ["wayin", "ˈwajin"],
     ygr: ["vaeni", "vaeni"],
-    aa: ["qinab kamri", "ʕinab kamri"],
+    aa: ["kamri", "kamri"], // was ["qinab kamri", "ʕinab kamri"] (vi dialect rules 2026-10-06)
     kfa: ["ದ್ರಾಕ್ಷಿರಸ", "d̪raːkʂirasa"],
     cni: ["ovaja", "oβaha"],
     ilo: ["arak", "ˈʔarak"],
@@ -1075,7 +1079,7 @@ WORDS.wine = {
     kru: ["अंगुर रासी", "aŋɡuɾ raːsiː"],
     ctg: ["আংগুর রস", "aŋɡur rɔs"],
     rkt: ["আংগুর রস", "aŋɡur rɔs"],
-    bgq: ["दाख गो रस", "daːkʰ ɡo rəs"],
+    bgq: ["दाखरस", "daːkʰrəs"], // was ["दाख गो रस", "daːkʰ ɡo rəs"] (vi dialect rules 2026-10-06)
     xnr: ["अंगूरा दा रस", "aŋɡuːraː daː ras"],
     kfy: ["अंगूर रस", "aŋɡuːr rəs"],
     gbm: ["दाखमधु", "daːkʰmədʱu"],
@@ -1615,11 +1619,11 @@ WORDS.wine = {
     nan_pn: ["葡萄酒", "pʰu˨˧ to˨˧ tsiu˦˦˥"],
     wuu_nb: ["葡萄酒", "bu˨˨˧ dɔ˨˨˧ tɕiʏ˧˨˥"],
     hak_tw: ["葡萄酒", "pʰu˩˩ tʰo˩˩ tsiu˧˩"],
-    wuu_sz: ["葡萄酒", "bəʔ˨˧ dæ˨˨˧ tsøʏ˥˩"],
+    wuu_sz: ["葡萄酒", "bəʔ˨˧ dɐ˨˨˧ tsøʏ˥˩"], // was ["葡萄酒", "bəʔ˨˧ dæ˨˨˧ tsøʏ˥˩"] (vi dialect rules 2026-10-06)
     wuu_wz: ["葡萄酒", "bøy˧˩ dɜ˧˩ tɕɤu˧˥"],
     nan_qz: ["葡萄酒", "pʰu˨˦ to˨˦ tsiu˥˥˦"],
     zh_wh: ["葡萄酒", "pʰu˨˩˧ tʰau˨˩˧ tɕiou˦˨"],
-    zh_zz: ["葡萄酒", "pʰu˦˨ tʰau˦˨ tɕiəu˥˧"],
+    zh_zz: ["葡萄酒", "pʰu˦˨ tʰau˦˨ tɕiou˥˧"], // was ["葡萄酒", "pʰu˦˨ tʰau˦˨ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     hak_hl: ["葡萄酒", "pʰu˥˥ tʰo˥˥ tsiu˨˦"],
     cpx: ["葡萄酒", "pu˩˧ tʰo˩˧ tsiu˦˥˧"],
     wuu_hz: ["葡萄酒", "bu˨˨˧ dɔ˨˨˧ tɕiɤɯ˥˧"],

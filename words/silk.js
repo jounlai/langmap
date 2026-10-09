@@ -162,7 +162,7 @@ WORDS.silk = {
     ca_va: ["seda", "ˈseða"],
     cbk: ["seda", "ˈseda"],
     cdo: ["丝", "si˥˥"],
-    ceb: ["seda", "ˈseda"],
+    ceb: ["sida", "ˈsida"],
     ch: ["seda", "ˈseda"],
     cjy: ["丝", "sɹ̩˩"],
     ckb: ["ئاوریشم", "ʔaːu̯ɾiːʃəm"],
@@ -262,8 +262,8 @@ WORDS.silk = {
     zh_jh: ["丝", "sɹ̩˧˩"],
     zh_db: ["丝", "sɹ̩˥"],
     zh_tj: ["丝", "sɹ̩˨˩"],
-    zh_wh: ["丝", "sɹ̩˥˥"],
-    zh_zz: ["丝", "sɹ̩˨˦"],
+    zh_wh: ["丝", "sɿ˥˥"],
+    zh_zz: ["丝", "sɿ˨˦"],
     sd: ["پٽ", "paʈu"],
     mwr: ["रेसम", "reːsəm"],
     ar_eg: ["حرير", "ħaˈɾiːɾ"],
@@ -781,6 +781,14 @@ WORDS.silk = {
     kdt: ["soːt", "soːt"],
     zgh: ["ⴰⵎⵟⵟⴰⵍⴼⵓ", "amtˤːalfu"],
     hsn_yz: ["丝", "sɿ˧˧"],
-    ie: ["seta", "ˈseta"]
+    ie: ["seta", "ˈseta"],
+    fit: ["silkki", "ˈsilkːi"],
+    ar_ps: ["حرير", "ħaˈriːr"],
+    afb: ["حرير", "ħariːr"],
+    acw: ["حرير", "ħariːr"],
+    prk: ["man brēi", "man pre̤"],
+    bew: ["sutra", "sutra"],
+    unr: ["lumang", "lumaŋ"],
+    kxm: ["សូត្រ", "soːt"]
   }
 };

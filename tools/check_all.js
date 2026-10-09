@@ -747,7 +747,9 @@ line('Sinitic tone letters present', num(s, /violations: (\d+)/), num(s, /stale:
 // somewhere else rather than creating one.
 // r73 (2026-10-09): +1, hsn_yz mouth 嘴 — the row was rebuilt from MCPDict 冷水灘;
 // the word choice still needs a Yongzhou dial-syn source.
-const LEXICAL_IMPORT_DEBT = 13;
+// r74 (2026-10-09): +1, wuu_sz house 房子 — Wiktionary dial-syn gives 房子 for Suzhou;
+// the old 屋里 means 'at home'. Agreeing with Mandarin is correct here.
+const LEXICAL_IMPORT_DEBT = 14;
 s = run('sinitic_lexical_import_check.js --check');
 {
     const n = num(s, /mandarin-shaped cells: (\d+)/);

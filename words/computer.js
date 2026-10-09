@@ -153,7 +153,7 @@ WORDS.computer = {
     "en_sg": ["computer", "kɔmˈpjutə"],
     "en_south": ["computer", "kəmˈpjuːɾɚ"],
     "en_us": ["computer", "kəmˈpjutɚ"],
-    "en_wls": ["computer", "kəmˈpjuːtə"],
+    "en_wls": ["computer", "kəmˈpɪʊtə"],
     "en_yk": ["computer", "kəmˈpjuːtə"],
     "en_za": ["computer", "kəmˈpjʉːtə"],
     "enm": ["rekenere", "ˈrɛkənɛːrə"],
@@ -399,7 +399,7 @@ WORDS.computer = {
     "wuu_hz": ["电脑", "diᴇ̃˩˧ nɔ˥˧"],
     "wuu_jh": ["电脑", "diã˩˦ nɑu˥˧˥"],
     "wuu_nb": ["电脑", "di˩˩˧ nɔ˩˩˧"],
-    "wuu_sz": ["电脑", "dɪ˨˧˩ næ˨˧˩"],
+    "wuu_sz": ["电脑", "dɪ˨˧˩ nɐ˨˧˩"],
     "xal": ["компьютер", "komˈpjuter"],
     "xct": ["རྩིས་པ", "rtsis pa"],
     "xh": ["ikhompyutha", "ikʰompjutʰa"],
@@ -427,7 +427,7 @@ WORDS.computer = {
     "zh_wenyan_edu": ["算盤", "syːn˧ pʰuːn˨˩"],
     "zh_wh": ["电脑", "tiɛn˧˥ nau˦˨"],
     "zh_xa": ["电脑", "tiã˥˥ nau˥˧"],
-    "zh_zz": ["电脑", "tiɛn˧˩˨ nau˥˧"],
+    "zh_zz": ["电脑", "tian˧˩˨ nau˥˧"],
     "zu": ["ikhompiyutha", "ikʰompijutʰa"],
     "ab": ["акомпиутер", "akompiˈuter"],
     "abv": ["كمبيوتر", "kambjuːtar"],
@@ -678,6 +678,8 @@ WORDS.computer = {
     dag: ["komputer", "komputer"],
     new: ["कम्प्युतर", "kʌmpjutʌr"],
     naq: ["komputers", "komputers"],
-    pon: ["komputer", "komputer"]
+    pon: ["komputer", "komputer"],
+    wuu_wz: ["电脑", "di˨˨ nɜ˧˦"],
+    acf: ["konpyouta", "kɔ̃pjuta"]
   },
 };

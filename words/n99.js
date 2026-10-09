@@ -1089,11 +1089,11 @@ WORDS.n99 = {
     bjn: ["sambilan puluh sambilan", "sambilan puluh sambilan"],
     rki: ["ကိုးဆယ့်ကိုး", "kó sʰḛ kó"], // was ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"] (r51 audit 2026-10-04)
     ii: ["ꈬꊰꈬ", "ɡu˧˧ tsʰi˧˧ ɡu˧˧"],
-    wbm: ["tix dim dim", "ti dim dim"],
+    wbm: ["tixdim dim", "tiʔdim dim"], // was ["tix dim dim", "ti dim dim"] (vi dialect rules 2026-10-06)
     hmn: ["cuaj caum cuaj", "cua˥˨ cau˨˩ˀ cua˥˨"],
     mni: ["ꯃꯔꯤꯐꯨꯇꯔꯥꯃꯥꯄꯟ", "məripʰutəraːmaːpən"],
     sat: ["ᱟᱨᱮ ᱜᱮᱞ ᱟᱨᱮ", "are ɡel are"],
-    bbc: ["sia pulu sia", "sia pulu sia"],
+    bbc: ["siapulu sia", "siapulu sia"], // was ["sia pulu sia", "sia pulu sia"] (vi dialect rules 2026-10-06)
     mak: ["salapampulo assalapang", "salapampulo asːalapaŋ"],
     max: ["sembilan pulu sembilan", "sembilan pulu sembilan"], // was ["sembilan pulu sembilan", "səmbilan pulu səmbilan"] (r51 audit 2026-10-04)
     ban: ["sangang dasa sia", "saŋaŋ dasa sia"],
@@ -1230,7 +1230,7 @@ WORDS.n99 = {
     hsn: ["九十九", "tɕiəu˦˩ sɹ̩˨˦ tɕiəu˦˩"],
     cjy: ["九十九", "tɕiəu˥˧ səʔ˥˦ tɕiəu˥˧"],
     zh_lz: ["九十九", "tɕiou˦˦˨ ʂɨ˥˧ tɕiou˦˦˨"],
-    zh_zz: ["九十九", "tɕiəu˥˧ ʂʅ˦˨ tɕiəu˥˧"],
+    zh_zz: ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"], // was ["九十九", "tɕiəu˥˧ ʂʅ˦˨ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     zh_db: ["九十九", "tɕjoʊ̯˧˩˧ ʂʐ̩˧˥ tɕjoʊ̯˧˩˧"],
     zh_jh: ["九十九", "tɕiɤɯ˨˩˦ ʂʅʔ˥˥ tɕiɤɯ˨˩˦"],
     zh_sc: ["九十九", "tɕiəu˥˧ sɿ˨˩ tɕiəu˥˧"],
@@ -1319,7 +1319,7 @@ WORDS.n99 = {
     su:    ["salapan puluh salapan", "salapan puluh salapan"],
     min:   ["sambilan puluah sambilan", "sambilan puluah sambilan"],
     my:    ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"],
-    or:    ["ଅନେଶୋତ", "ɔneʃotɔ"],
+    or: ["ଅନେଶତ", "ɔneʃɔtɔ"], // was ["ଅନେଶୋତ", "ɔneʃotɔ"] (vi dialect rules 2026-10-06)
     nci:   ["nāppōhualli oncaxtōlli onnāhui", "naːpːoːˈwalːi onkaʃˈtoːlːi onˈnaːwi"],
     mt:     ["disgħa u disgħin", "ˈdɪsa w dɪˈsɛjn"],
     af:     ["nege-en-negentig", "ˈnɪəxə ən ˈnɪəxəntəx"],
@@ -1407,7 +1407,7 @@ WORDS.n99 = {
     zh_xa:  ["九十九", "tɕiɤu˥˧ ʂɿ˨˦ tɕiɤu˥˧"],
     zh_jn:  ["九十九", "tɕiou˥˥ ʂʅ˦˨ tɕiou˥˥"],
     zh_km: ["九十九", "tɕiəu˥˧ ʂʅ˧˩ tɕiəu˥˧"], // was ["九十九", "tɕiəu˥˧ ʂʅ˧˩ tɕiəu˥˧"] (r48 fix 2026-10-03)
-    zh_wh:  ["九十九", "tɕiou˦˨ sz̩˨˩˧ tɕiou˦˨"],
+    zh_wh: ["九十九", "tɕiou˦˨ sɿ˨˩˧ tɕiou˦˨"], // was ["九十九", "tɕiou˦˨ sz̩˨˩˧ tɕiou˦˨"] (vi dialect rules 2026-10-06)
     zh_kf:  ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"],
     zh_tj:  ["九十九", "tɕiou˨˩˧ ʂʅ˦˥ tɕiou˨˩˧"],
     hsn_hy: ["九十九", "tɕiu˧˧ ɕi˩˩˨ tɕiu˧˧"],

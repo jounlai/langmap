@@ -350,7 +350,7 @@ WORDS.wheel = {
     zh_db: ["轮子", "lwən˧˥ tsɨ"],
     zh_tj: ["轮子", "lwən˦˥ tsɨ"],
     zh_lz: ["轮子", "lwən˥˧ tsɨ"],
-    zh_zz: ["轮子", "lwən˦˨ tsɨ"],
+    zh_zz: ["轮子", "luən˦˨ tsɿ"],
     zh_jn: ["轱轮儿", "ku˨˩˧ luɚ"],
     zh_kf: ["轮子", "lwən˦˨ tsɨ"],
     zh_xa: ["车轱辘子", "tʂʰɤ˨˩ ku˨˩ lu tsɿ"],
@@ -441,7 +441,7 @@ WORDS.wheel = {
     pis: ["wil", "wil"],
     bi: ["wil", "wil"],
     ht: ["wou", "wu"],
-    acf: ["wou", "wu"],
+    acf: ["woul", "wul"],
     gcf: ["wou", "wu"],
     mfe: ["larou", "laru"],
     crs: ["larou", "laru"],
@@ -639,7 +639,7 @@ WORDS.wheel = {
     mnw: ["ခလှာ", "həla"],
     pll: ["kənleŋ", "kənleŋ"],
     wbm: ["ling:", "liɲ"],
-    prk: ["ling:", "liɲ"],
+    prk: ["ling", "liɲ"],
     kdt: ["kɑŋ", "kɑŋ"],
     za: {
       form: "𮝄",
@@ -660,7 +660,7 @@ WORDS.wheel = {
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
-    mey: ["كراع", "kraːʕ"],
+    mey: ["—", "—"],
     huv: ["arrueda", "arweda"],
     shp: ["karotae", "kaɾotae"],
     roo: ["viriviria", "βiɾiβiɾia"],
@@ -686,7 +686,7 @@ WORDS.wheel = {
     fj: ["yava", "java"],
     to: ["veʻeteka", "veʔeteka"],
     tvl: ["teka", "teka"],
-    rap: ["tutu", "tutu"],
+    rap: ["—", "—"],
     rtm: ["tokiri", "tokiɾi"],
     pmt: ["huira", "huira"],
     ty: ["huira", "huiɾa"],

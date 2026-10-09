@@ -247,7 +247,7 @@ WORDS.rice = {
     gcr: ["douri", "duʁi"],
     gd: ["rìs", "rˠiːʃ"],
     gmh: ["rīs", "riːs"],
-    h_vedic: ["व्रीहि", "ʋriːhi"],
+    h_vedic: ["व्रीहि", "ʋriːhí"],
     hak_cn: ["米", "mi˧˩"],
     hak_hl: ["米", "mi˨˦"],
     hak_tw: ["米", "mi˧˩"],
@@ -637,7 +637,7 @@ WORDS.rice = {
     mic: ["tuliʼjeweieʼl", "duliːdʒewejeːl"],
     chr: ["ᎦᏃᎮᎾ", "ɡanohena"],
     kjh: ["ах тараан", "ax taraːn"],
-    rap: ["raiti", "raiti"],
+    rap: ["raiti", "ɾaiti"],
     arp: ["hiʼíiisóónoʼ", "hiʔíːisóːnoʔ"],
     dds: ["ara", "ara"],
     ruq: ["uriz", "uˈriz"],
@@ -851,6 +851,11 @@ WORDS.rice = {
     kdt: ["ŋkaːw", "ŋkaːw"],
     khw: ["گرینج", "ɡrindʒ"],
     kjg: ["ʰŋɔʔ", "ʰŋɔʔ"],
-    hsn_yz: ["米", "mi˥˥"]
+    hsn_yz: ["米", "mi˥˥"],
+    fit: ["riisi", "ˈriːsi"],
+    zdj: ["maele", "maele"],
+    wbm: ["gaox", "ɡauʔ"],
+    prk: ["mgaox", "ɡauʔ"],
+    bew: ["beras", "bəras"]
   }
 };

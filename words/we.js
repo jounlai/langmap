@@ -1295,7 +1295,7 @@ WORDS.we = {
     ar_sy: ["نحنا", "ˈniħna"],
     ar_ye: ["احنا", "ˈʔiħna"],
     ar_sa: ["احنا", "ˈiħna"],
-    ar_lb: ["نحنا", "ˈniħna"],
+    ar_lb: ["نحنا", "ˈnaħna"], // was ["نحنا", "ˈniħna"] (vi dialect rules 2026-10-06)
     en_wls: ["we", "wiː"],
     en_jam: ["we", "wiː"],
     en_ng: ["we", "wi"],
@@ -1636,7 +1636,7 @@ WORDS.we = {
     bho: ["हमनी", "ɦəmniː"],
     en_south: ["we", "wi"],
     en_app: ["we", "wi"],
-    en_in: ["we", "wiː"],
+    en_in: ["we", "ʋiː"], // was ["we", "wiː"] (vi dialect rules 2026-10-06)
     en_ie: ["we", "wiː"],
     en_sco: ["we", "wiː"],
     en_yk: ["we", "wiː"],
@@ -1835,7 +1835,7 @@ WORDS.we = {
     lkt: ["uŋkíyepi", "ũkíjepi"],
     kl: ["uagut", "uaɣut"],
     ce: ["вай / тхо", "vaj / txʷo"],
-    inh: ["вай / тхо", "vaj / txo"],
+    inh: ["вай / тхо", "waj / txo"], // was ["вай / тхо", "vaj / txo"] (vi dialect rules 2026-10-06)
     av: ["нилъ / ниж", "niɬ / niʒ"],
     lez: ["чун", "tʃun"],
     dar: ["нуша", "nuʃa"],
@@ -2227,7 +2227,7 @@ WORDS.we = {
     och: ["我", "*ŋˤajʔ"],
     ojp: ["我等", "ware"],
     p_jpk: ["—", "—"],
-    h_vedic: ["वयम्", "ʋɐˈjɐm"],
+    h_vedic: ["वयम्", "ʋɐjɐ́m"], // was ["वयम्", "ʋɐˈjɐm"] (vi dialect rules 2026-10-06)
     txg: ["—", "—"],
     sog: ["mʾx", "maːx"],
     otk: ["𐰋𐰃𐰕", "biz"],
@@ -2243,7 +2243,7 @@ WORDS.we = {
     ssf: ["ita / yamin", "ʔita / jamin"],
     hak_tw: ["𫣆兜 / 𠊎兜", "en˨˦teu˨˦ / ŋai˩˩teu˨˦"],
     wuu_sz: ["伲", "ȵi˨˧˩"],
-    wuu_wz: ["我倈", "ŋ˧˩ lai˧˩"],
+    wuu_wz: ["我倈", "ŋ̍˧˦ le˧˩"], // was ["我倈", "ŋ˧˩ lai˧˩"] (vi dialect rules 2026-10-06)
     nan_qz: ["咱 / 阮", "lan˥˥˦ / ɡuan˥˥˦"],
     nan_hai: ["我侬", "va˨˩˧ naŋ˧˩"],
     zh_wh: ["我们", "ŋo˦˨ mən"],
@@ -2384,7 +2384,7 @@ WORDS.we = {
     zgh: ["ⵏⴽⴽⵏⵉ", "nəkːni"],
     aln: ["na", "na"],
     rmt: ["eme", "eme"],
-    fia: ["ùu", "ùː"],
+    fia: ["ùù", "ùː"], // was ["ùu", "ùː"] (vi dialect rules 2026-10-06)
     fvr: ["kɨ́", "kɪ́"], // was ["kí", "kí"] (vi dialect rules 2026-10-06)
     fud: ["tātou / mātou", "taːtou / maːtou"],
     tca: ["yixemax / tomax", "ji˥ʔe˦maʔ˨ / to˧maʔ˦"],

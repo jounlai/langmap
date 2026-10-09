@@ -314,7 +314,7 @@ WORDS.mouth = {
     bug: ["timu", "timu"],
     bxr: ["аман", "aman"],
     bzj: ["mowt", "mout"],
-    ca_va: ["boca", "ˈbɔka"],
+    ca_va: ["boca", "ˈboka"],
     cak: ["chiʼ", "tʃiʔ"],
     cbk: ["boca", "ˈboka"],
     cdo: ["喙", "tsʰui˨˩˧"],
@@ -342,7 +342,7 @@ WORDS.mouth = {
     din: ["thok", "t̪ɔk"],
     dje: ["me", "me"],
     djk: ["mofu", "mofu"],
-    dlg: ["аньах", "anʲax"],
+    dlg: ["аньак", "anʲak"],
     dv: ["އަނގަ", "aŋɡa"],
     dyu: ["da", "da"],
     dz: ["ཁ", "kʰa"],
@@ -427,7 +427,7 @@ WORDS.mouth = {
     koi: ["вом", "vom"],
     kok: ["तोंड", "toːɳɖ"],
     kpv: ["вом", "vom"],
-    krl: ["suu", "suː"],
+    krl: ["šuu", "ʃuː"],
     ksh: ["Muul", "muːl"],
     kum: ["авуз", "aˈwuz"],
     kw: ["ganow", "ˈɡanɔʊ"],
@@ -675,7 +675,7 @@ WORDS.mouth = {
     tum: ["mlomo", "m̩lomo"],
     mer: ["kanyua", "kaɲua"],
     yue_ts: ["口", "heu˥˥"],
-    hak_tw: ["嘴", "tsoi˥"],
+    hak_tw: ["嘴", "tsoi˥˥"],
     czh: ["嘴", "tse˧˩"],
     cpx: ["喙", "tsʰui˦˨"],
     luo: ["dhok", "ðok"],
@@ -1189,6 +1189,9 @@ WORDS.mouth = {
     yur: ["ʼne-luehl", "ʔneluɬ"],
     ayl: ["فم", "fumm"],
     hsn_yz: ["嘴", "tsueɪ˥˥"],
-    fvr: ["útò", "útò"]
+    fvr: ["útò", "útò"],
+    zdj: ["hanywa", "haɲwa"],
+    prk: ["nqeeih", "dʑʰɯih"],
+    hoc: ["aa", "aː"]
   }
 };

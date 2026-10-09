@@ -303,7 +303,7 @@ WORDS.butterfly = {
     tzo: ["pepen", "pepen"],  // Reduplicated pe-pen, like Qʼeqchiʼ peepem. WOLD's entry is the Zinacantán variety.
     car: ["palanpalan", "palanpalan"],  // Fully reduplicated palan-palan.
     jup: ["bʼebʼěp", "bʼebʼěp"],  // WOLD glosses the formation simply as 'Reduplication'.
-    ote: ["tu̲xu̲mu", "tuxumu"],
+    ote: ["tu̲xu̲mu", "tuʃumu"],
     crs: ["papiyon", "papijɔ̃"],  // From French papillon.
     dsb: ["mjatel", "ˈmʲatɛl"],  // The Slavic *motylь root, as in Polish motyl and Czech motýl.
     orh: ["kɔldɪkan", "kɔldɪkan"],
@@ -434,7 +434,7 @@ WORDS.butterfly = {
     syl: ["চকর", "sɔxɔɾ"],
     rkt: ["চিতি", "tʃiti"],
     ln: ["lipekápeka", "lipekápeka"],
-    bm: ["nfirinfirinin", "nfirinfirinin"],
+    bm: ["nfirinfirin", "nfirinfirin"],
     dyu: ["firinfirin", "firinfirin"],
     es_gt: ["mariposa", "maɾiˈposa"],
     es_ec: ["mariposa", "maɾiˈposa"],
@@ -468,7 +468,7 @@ WORDS.butterfly = {
     emk: ["firinfirinlen", "fiɾinfiɾinlen"],
     yao: ["chipuluputwa", "tʃipuluputwa"],
     kde: ["imbulukuta", "imbulukuta"],
-    hak_tw: ["揚蝶仔", "ioŋ˩˩ iak̚˥ e˧˩"],
+    hak_tw: ["揚蝶仔", "ioŋ˩˩ iak˥ e˧˩"],
     cpx: ["模蝶", "pɔu˩˧ tiaʔ˦"],
     laj: ["kapwopwo", "kapwopwo"],
     cgg: ["ekinyugunyugu", "etʃiɲuɡuɲuɡu"],
@@ -872,6 +872,8 @@ WORDS.butterfly = {
     kdt: ["mphlaːp mphlaːp", "mpʰlaːp mpʰlaːp"],
     khw: ["پلمنڈوک", "pulmunˈɖuk"],
     ja_mvi: ["ぱびﾙ", "pabiɿ"],
-    ie: ["papilion", "papiliˈon"]
+    ie: ["papilion", "papiliˈon"],
+    prk: ["būng bīang", "pṳŋ pi̤aŋ"],
+    bew: ["kupu-kupu", "kupukupu"]
   },
 };

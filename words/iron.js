@@ -183,13 +183,13 @@ WORDS.iron = {
     es_cu: ["hierro", "ˈjero"],
     es_pe: ["hierro", "ˈjero"],
     es_an: ["hierro", "ˈjero"],
-    es_ve: ["hierro", "ˈjero"],
-    es_bo: ["hierro", "ˈjero"],
+    es_ve: ["hierro", "ˈʝero"],
+    es_bo: ["hierro", "ˈʝero"],
     es_uy: ["hierro", "ˈjero"],
-    es_pr: ["hierro", "ˈjero"],
-    es_do: ["hierro", "ˈjero"],
-    es_gt: ["hierro", "ˈjero"],
-    es_ec: ["hierro", "ˈjero"],
+    es_pr: ["hierro", "ˈʝero"],
+    es_do: ["hierro", "ˈʝero"],
+    es_gt: ["hierro", "ˈʝero"],
+    es_ec: ["hierro", "ˈʝero"],
     es_cr: ["hierro", "ˈjero"],
     es_hn: ["hierro", "ˈjero"],
     es_ni: ["hierro", "ˈjero"],
@@ -266,7 +266,7 @@ WORDS.iron = {
     gsw: ["Ise", "ˈiːsə"],
     bar: ["Eisn", "ˈaisn̩"],
     de_at: ["Eisen", "ˈaɪsn̩"],
-    de_ch: ["Eisen", "ˈaɪzən"],
+    de_ch: ["Eisen", "ˈaɪsən"],
     de_lu: ["Eisen", "ˈaɪ̯zn̩"],
     de_lut: ["Eisen", "ˈaɪzən"],
     lb: ["Eisen", "ˈɑɪzən"],
@@ -386,7 +386,7 @@ WORDS.iron = {
 
     // --- Caucasus — three families, three unrelated words ------------------
     ce: ["эчиг", "etʃiɡ"],
-    inh: ["аьшк", "æʃk"],
+    inh: ["аьшк", "ɛ̯aʃkʲ"],
     av: ["махх", "maxː"],
     lez: ["ракь", "raqʼ"],
     dar: ["мегь", "meh"],
@@ -425,7 +425,7 @@ WORDS.iron = {
 
     // --- Tibeto-Burman, Mon-Khmer, Munda ---------------------------------
     bo: ["ལྕགས", "tɕaʔ˥˧"],
-    dz: ["ལྕགས", "tɕa"],
+    dz: ["ལྕགས", "tɕaːk"],
     xct: ["ལྕགས", "ltɕaɡs"],
     xct_litpr: ["ལྕགས", "tɕa"],
     xsr: ["ལྕའ", "tɕaː"],
@@ -1116,6 +1116,8 @@ WORDS.iron = {
     khw: ["چومر", "ˈtʃumur"],
     kjg: ["cndroh", "cndroh"],
     hsn_yz: ["铁", "tʰie˧˧"],
-    djr: ["balaʼ", "balaʔ"]
+    djr: ["balaʼ", "balaʔ"],
+    prk: ["hleig", "lʰek"],
+    hoc: ["meed", "meːɖ"]
   },
 };

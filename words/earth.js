@@ -152,7 +152,7 @@ WORDS.earth = {
     hi: ["मिट्टी", "mɪʈːiː"],
     ur: ["مٹی", "mɪʈːiː"],
     bn: ["মাটি", "maʈi"],
-    as: ["মাটি", "maʈi"],
+    as: ["মাটি", "mati"],
     pa: ["ਮਿੱਟੀ", "mɪʈːiː"],
     pnb: ["مٹی", "mɪʈːiː"],
     gu: ["માટી", "maːʈiː"],
@@ -165,7 +165,7 @@ WORDS.earth = {
     sa_edu: ["भूमि", "bʱuːmi"],
     pi: ["पठवी", "pɐʈʰɐʋiː"],
     pi_edu: ["pathavī", "pɐʈʰɐʋiː"],
-    h_vedic: ["भूमिः", "bʱuːmiɦ"],
+    h_vedic: ["भूमिः", "bʱúːmiɦ"],
     ta: ["மண்", "maɳ"],
     te: ["మట్టి", "maʈːi"],
     kn: ["ಮಣ್ಣು", "maɳːu"],
@@ -648,7 +648,7 @@ WORDS.earth = {
     rmy: ["phuv", "pʰuv"],
     nd: ["inhlabathi", "inɬaɓaːtʰi"],
     av: ["ракь", "ratɬʼ"],
-    inh: ["лаьтта", "lætːa"],
+    inh: ["лаьтта", "lɛ̯atta"],
     kum: ["топуракъ", "topuraq"],
     gun: ["yvy", "ɨˈvɨ"],
     ppl: ["tal", "ˈtaːl"],
@@ -657,7 +657,7 @@ WORDS.earth = {
     pau: ["chutem", "ˈʔutɛm"],
     lus: ["lei", "ˈlei̯"],
     sat: ["ᱚᱛ", "ɔt"],
-    ty: ["repo", "repo"],
+    ty: ["repo", "ɾepo"],
     tet: ["rai", "ˈrai"],
     lkt: ["makȟá", "maˈkʰa"],
     gan_ja: ["土", "tʰu˥˧"],
@@ -908,7 +908,7 @@ WORDS.earth = {
     duu: ["ɑmɹɑ", "ɑmɹɑ"],
     ers: ["mɛli", "mɛli"],
     cng: ["zəp", "zəp"],
-    wbm: ["tɛʔ", "tɛʔ"],
+    wbm: ["tiex", "tɛʔ"],
     srh: ["sit", "sit"],
     rbb: ["kataːj", "kataːj"],
     blr: ["ka31 tɛ51", "ka˧˩ tɛ˥˩"],
@@ -1186,6 +1186,7 @@ WORDS.earth = {
     fia: ["gùr", "ɡùr"],
     nmn: ["ǂkxʼûm", "ǂkxʼum"],
     rmt: ["bīṭ", "biːtˤ"],
-    xht: ["araz", "araz"]
+    xht: ["araz", "araz"],
+    prk: ["diex", "tɛʔ"]
   }
 };

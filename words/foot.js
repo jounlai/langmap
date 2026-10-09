@@ -54,6 +54,7 @@ WORDS.foot = {
     sw: "Mguu — sehemu ya mwili unayosimamia, chini ya kifundo. Si kipimo cha urefu, si mteremko wa mlima wala mwisho wa kitanda, wala si kitenzi. Pale lugha ina neno moja kwa mguu mzima, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    bew: "leg+foot",
     cia: "leg+foot",
     mlq: "leg+foot",
     nan_ph: "leg+foot",
@@ -1197,6 +1198,7 @@ WORDS.foot = {
     "unknown": {"color": "#b45309", "emoji": "❓", "en": "not determined · no leg word attested", "ja": "未判定・脚の語が未確認", "ko": "미판정 · 다리 낱말이 확인되지 않음", "zh": "未判定・未见表示腿的词", "yue": "未判定 · 未見表示腿嘅詞", "vi": "chưa xác định · không thấy từ chỉ 'chân trên'", "th": "ยังไม่ระบุ · ไม่พบคำว่าขา", "id": "belum ditentukan · kata untuk tungkai tidak terekam", "hi": "अनिर्धारित · टाँग का शब्द अप्रमाणित", "de": "nicht bestimmt · kein Bein-Wort belegt", "fr": "non déterminé · aucun mot pour « jambe » attesté", "it": "non determinato · nessuna parola per «gamba» attestata", "es": "sin determinar · no se atestigua palabra para «pierna»", "pt": "por determinar · sem palavra atestada para «perna»", "ru": "не определено · слово «нога» не засвидетельствовано", "uk": "не визначено · слово «нога» не засвідчене", "ar": "غير محدَّد · لا كلمة مُثبتة للساق", "he": "לא נקבע · לא מתועדת מילה לרגל", "sw": "haijabainishwa · hakuna neno la mguu lililothibitishwa"},
   },
   data: {
+    bew: ["kaki", "kaki"],
     cia: ["kake", "kake"],
     mlq: ["sinŋo", "sĩŋo"],
     nan_ph: ["跤", "kʰa˧˧"],
@@ -1271,7 +1273,7 @@ WORDS.foot = {
     arn: ["ṉamuṉ", "n̪amun̪"],  // Mapudungun splits them. Surface is WOLD's orthography, IPA follows IDS's n̯amun̯.
     arp: ["wóʼoo3", "wóʔoːθ"],  // Cowell & Moss's body-part table gives wo-ʼoot as the independent noun on the 'foot' row and again on the 'leg' row, and their neutral-possessive paradigm — béecét 'one's hand', bénes 'one's arm', wonóʼ 'one's ankle' — is where wóʼoo3 'one's leg' belongs; the Arapaho Atlas speaker answers both 'my foot' and 'my leg' with nóʼoo3.
     arq: ["رجل", "rʒəl"],  // The Algerian New Testament washes feet with رَجلين at John 13:5 and breaks the crucified men's رْكايَب, their knees, at John 19:32 rather than reach for a leg word; Living Arabic's North African dictionary glosses رْجل both 'foot' and 'leg up to the knee'.
-    as: ["ভৰি", "bʱoɹi"],  // ভৰি is the human lower limb as a whole; ঠেং is used of animals.
+    as: ["ভৰি", "bʱɔɹi"],  // ভৰি is the human lower limb as a whole; ঠেং is used of animals. // was ["ভৰি", "bʱoɹi"] (vi dialect rules 2026-10-06)
     ast: ["pie", "pje"],  // pie vs pierna.
     asu: ["ivunda", "ivunda"],  // Chasu splits them: Kotz's 1909 Pare grammar puts ivunda in the i-/ma- class for the foot and kugu in the ku-/ma- class for the leg.
     atb: ["hkyî", "kʰji˥˩"],  // TBL 0103.30 khji⁵¹ 'foot'; Matisoff's Body Parts file gives khji⁵¹tok⁵⁵ for the leg, the same expansion Burmese makes with ခြေထောက်, and Luce glosses the bare word 'foot, leg'. // was ["khyi51", "kʰji˥˩"] (r35 fix 2026-10-02)
@@ -2011,7 +2013,7 @@ WORDS.foot = {
     ppl: ["ikshi", "ikʃi"],  // Campbell's Pipil lexicon gives (i)kxi 'pie, pata' against the separate leg stem mets- 'pierna', free in nu-metsku:yu 'my leg'; metsti is the moon, as this row's own moon cell says.
     pqm: ["ʼsit", "sit"],  // Passamaquoddy files ʼsit 'h/ foot' and ʼkat 'h/ leg (including foot)' as two dependent nouns, and glosses its own example sentence 'nsit (nkat)'.
     prg: ["nagē", "naɡeː"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes rancko as ranko.
-    prk: ["caong", "tʃaɔŋ"],  // Watkins' Wa dictionary glosses caong 'foot, leg' in one sense and prints the proverb 'near for the eyes, far for the caong'; plawng: caong is the leg-specific compound on the same head.
+    prk: ["jāong", "tɕa̤uŋ"],  // Watkins' Wa dictionary glosses caong 'foot, leg' in one sense and prints the proverb 'near for the eyes, far for the caong'; plawng: caong is the leg-specific compound on the same head. // was ["caong", "tʃaɔŋ"] (vi dialect rules 2026-10-06)
     prs: ["پا", "pɑː"],  // Kabul Dari keeps the long a unrounded, and this row writes it that way in ماه mɑːh and خانه xɑːna, so پا is pɑː rather than Tehran's pɒː.
     ps: ["پښه", "pʂa"],  // پښه is 'foot, leg' in one word; لېنګی is the marked 'leg' and پنډۍ the calf.
     psem: ["*rigl-", "rigl"],  // Militarev labels *rigl- Common WEST Semitic and withholds his "→ Proto-Semitic" line, calling the Geʿez cognation a mythetymology; what licenses the projection back is East Semitic, Akkadian riglu 'hoof, foot'. The route is the one thing not in doubt — every West Semitic row on this map takes rigl- for the whole limb.

@@ -257,7 +257,7 @@ WORDS.hundred = {
     zh_song: ["百", "pai"],
     yue_gz: ["百", "ɓak̚˧˧"],
     hak_cn: ["百", "pak̚˧"],
-    hak_tw: ["百", "pak̚˨"],
+    hak_tw: ["百", "pak˨"],
     wuu: ["百", "paʔ˥"],
     nan: ["百", "paʔ˧˨"],
     nan_xm: ["百", "paʔ˧˨"],
@@ -378,7 +378,7 @@ WORDS.hundred = {
     en_ph: ["hundred", "ˈhʌndɹəd"],
     en_sg: ["hundred", "ˈhʌndɹəd"],
     en_my: ["hundred", "ˈhandɹɛd"],
-    en_wls: ["hundred", "ˈhʌndɹəd"],
+    en_wls: ["hundred", "ˈhʌndɾəd"],
     en_ck: ["hundred", "ˈhʌndɹəd"],
     en_au: ["hundred", "ˈhandɹəd"],
     en_nz: ["hundred", "ˈhandɹəd"],
@@ -445,7 +445,7 @@ WORDS.hundred = {
     ar_lb: ["مية", "ˈmijje"],
     ar_jo: ["مية", "ˈmijje"],
     ar_ps: ["مية", "ˈmijje"],
-    ar_ye: ["مية", "ˈmijja"],
+    ar_ye: ["مية", "ˈmija"],
     ar_sa: ["مية", "ˈmijja"],
     ar_gulf: ["مية", "ˈmijja"],
     abv: ["مية", "ˈmijja"],
@@ -596,8 +596,8 @@ WORDS.hundred = {
     tkl: ["helau", "helau"],
     tvl: ["selau", "selau"],
     pkp: ["lau", "lau"],   // the native Polynesian *rau, beside a borrowed aanele
-    rap: ["rau", "rau"],   // native rau, beside the English loan hanere
-    ty: ["hānere", "haːnere"],   // from English hundred; the older native rau survives beside it
+    rap: ["rau", "ɾau"],   // native rau, beside the English loan hanere
+    ty: ["hānere", "haːneɾe"],   // from English hundred; the older native rau survives beside it
     pmt: ["hānere", "haːnere"],   // from English hundred
     rar: ["ʻānere", "ʔaːnere"],   // from English hundred
     ch: ["sientu", "sjentu"],   // Spanish loan, like this row's own dos and tres
@@ -721,7 +721,7 @@ WORDS.hundred = {
     mra: ["rɔy", "rɔj"],   // the Thai ร้อย, borrowed
     bdq: ["hreng", "hreŋ"],
     bru: ["culam", "kulam"],
-    prk: ["yeh", "jɛh"],
+    prk: ["yīeh", "ʑi̤ɛh"],
     // --- Devanagari, Arabic, Tibetan, Cyrillic and the other scripts -------
     bgc: ["सौ", "sɔː"],
     hne: ["सौ", "səu"],
@@ -774,7 +774,7 @@ WORDS.hundred = {
     // --- Sinitic — 百 is 陰入; each tone is that row's own, read off its 骨 ----
     zh_tj: ["百", "pai˩˧"],
     zh_jn: ["百", "pei˨˩˧"],
-    zh_zz: ["百", "pai˨˦"],
+    zh_zz: ["百", "pɛ˨˦"],
     zh_kf: ["百", "pɛ˨˦"],
     zh_xa: ["百", "pei˨˩"],
     zh_wh: ["百", "pɤ˨˩˧"],
@@ -942,7 +942,7 @@ WORDS.hundred = {
     izz: ["ụkporo ise", "ʊkpoɾo ise"],
     urh: ["ujorin", "udʒoɾĩ"],
     gaa: ["oha", "oha"],
-    ng: ["ethele", "etele"],
+    ng: ["ethele", "eθele"],
     lue: ["likulukaji", "likulukadʒi"],
     nn: ["hundre", "ˈhʉndrə"],
     pnt: ["εκατόν", "ekaˈton"],

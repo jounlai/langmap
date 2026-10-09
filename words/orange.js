@@ -67,6 +67,7 @@ WORDS.orange = {
     sw: "Chungwa — tunda tamu la jamii ya michungwa, na ramani ya majibu manne tofauti kwa swali lilelile. Tunda hili lilifika Ulaya mara mbili. Chungwa chungu lilikuja nchi kavu na biashara ya Kiajemi na Kiarabu enzi za kati, likibeba neno la Kisanskriti नारङ्ग: نارنج → Kihispania naranja, Kiitaliano arancia, Kifaransa na Kiingereza orange. Chungwa tamu lilikuja baharini katika karne ya 16 kwa meli za Kireno, na nusu ya Mediterania ya mashariki ikaliita tu kwa jina la wafanyabiashara hao — Kigiriki πορτοκάλι, Kituruki portakal, Kiarabu برتقال, Kiamhari ብርቱካን, Kijojia ფორთოხალი, Kiajemi پرتقال. Ulaya ya Kaskazini ilichukua jibu la tatu kutoka kwa wafanyabiashara wa Kiholanzi, walioliita \"tufaha kutoka Uchina\": sinaasappel, Apfelsine, апельсин, appelsiini. Na sehemu kubwa ya dunia iliendelea tu na neno lake yenyewe.",
   },
   family: {
+    fit: "china",
     tlh: "naranj",
     ab: "portakal",
     zne: "naranj",
@@ -624,6 +625,7 @@ WORDS.orange = {
     local: {"color":"#6b7280","emoji":"🏡","en":"its own word","ja":"自前の語","ko":"고유어","zh":"自有的詞","yue":"自己本身嘅詞","vi":"từ của riêng mình","th":"คำของตัวเอง","id":"kata sendiri","hi":"अपना ही शब्द","de":"eigenes Wort","fr":"mot propre","it":"parola propria","es":"palabra propia","pt":"palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمته الخاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    fit: ["appelsiini", "ˈɑpːelsiːni"],
     tlh: ["tera' na'ran", "tʰɛraʔ naʔran"],
     ab: ["апатырқал", "apatʼərkal"],
     zne: ["oronzi", "oɾonzi"],
@@ -816,7 +818,7 @@ WORDS.orange = {
     es_ni: ["naranja", "naˈɾaŋha"],
     es_sv: ["naranja", "naˈɾaŋha"],
     ar_jo: ["برتقال", "burtuˈqaːl"],
-    ar_ps: ["برتقان", "burduˈʔaːn"],
+    ar_ps: ["برتقان", "burtuˈʔaːn"], // was ["برتقان", "burduˈʔaːn"] (vi dialect rules 2026-10-06)
     fr_lu: ["orange", "ɔʁɑ̃ʒ"],
     fr_cm: ["orange", "ɔʁɑ̃ʒ"],
     de_lu: ["Orange", "oˈʁãːʒə"],
@@ -836,12 +838,12 @@ WORDS.orange = {
     es_gt: ["naranja", "naˈɾaŋha"],
     es_ec: ["naranja", "naˈɾaŋxa"],
     es_uy: ["naranja", "naˈɾaŋxa"],
-    ar_sy: ["برتقان", "burtuˈʔaːn"],
+    ar_sy: ["برتقان", "birtˈʔaːn"], // was ["برتقان", "burtuˈʔaːn"] (vi dialect rules 2026-10-06)
     ar_ye: ["برتقال", "burtuˈqaːl"],
     ar_sa: ["برتقال", "burtuˈɡaːl"],
-    ar_lb: ["برتقان", "burtuˈʔaːn"],
-    en_wls: ["orange", "ˈɒɹɪndʒ"],
-    en_jam: ["orange", "ˈɒɹɪndʒ"],
+    ar_lb: ["برتقان", "birtˈʔaːn"], // was ["برتقان", "burtuˈʔaːn"] (vi dialect rules 2026-10-06)
+    en_wls: ["orange", "ˈɒɾɪndʒ"], // was ["orange", "ˈɒɹɪndʒ"] (vi dialect rules 2026-10-06)
+    en_jam: ["orange", "ˈɔɹɪndʒ"], // was ["orange", "ˈɒɹɪndʒ"] (vi dialect rules 2026-10-06)
     en_ng: ["orange", "ˈɔɹɪndʒ"],
     en_ph: ["orange", "ˈɔɹɪndʒ"],
     en_ke: ["orange", "ˈɔɹɪndʒ"],
@@ -853,11 +855,11 @@ WORDS.orange = {
     nl_be: ["sinaasappel", "ˈsinɑsɑpəl"],
     en_us: ["orange", "ˈɔɹɪndʒ"],
     en_ca: ["orange", "ˈɔɹɪndʒ"],
-    en_za: ["orange", "ˈɔːɹɪndʒ"],
+    en_za: ["orange", "ˈɒɹɪndʒ"], // was ["orange", "ˈɔːɹɪndʒ"] (vi dialect rules 2026-10-06)
     de_ch: ["Orange", "oˈraŋʒə"],
     pt_ao: ["laranja", "laˈɾɐ̃ʒa"],
     es_ve: ["naranja", "naˈɾaŋha"],
-    ca_va: ["taronja", "taˈɾoɲdʒa"],
+    ca_va: ["taronja", "taˈɾɔɲdʒa"], // was ["taronja", "taˈɾoɲdʒa"] (vi dialect rules 2026-10-06)
     ja: ["オレンジ", "oɾendʑi"],
     ja_osa: ["オレンジ", "oɾendʑi"],
     ja_aom: ["オレンジ", "oɾendʑi"],
@@ -1036,7 +1038,7 @@ WORDS.orange = {
     se: ["appelsiidna", "ˈapːelsiːdna"],
     smn: ["appelsiin", "ˈapːelsiːn"],
     vro: ["apõlsin", "ˈapɤlsin"],
-    as: ["কমলা", "komola"],
+    as: ["কমলা", "kɔmɔla"], // was ["কমলা", "komola"] (vi dialect rules 2026-10-06)
     or: ["କମଳା", "kɔmɔɭa"],
     en_south: ["orange", "ˈɔːɹɪndʒ"],
     en_app: ["orange", "ˈɔːɹɪndʒ"],
@@ -1156,7 +1158,7 @@ WORDS.orange = {
     nan_qz: ["柑仔", "kam˧˧ ma˥˥˦"],
     nan_hai: ["柑仔", "ka˨˧ kia˨˩˧"],
     zh_wh: ["橙", "tsʰən˨˩˧"],
-    zh_zz: ["橙", "tʂʰɤŋ˦˨"],
+    zh_zz: ["橙", "tʂʰəŋ˦˨"], // was ["橙", "tʂʰɤŋ˦˨"] (vi dialect rules 2026-10-06)
     hak_hl: ["柑仔", "kam˥˧ ɤ˥˥"], // was ["柑仔", "kam˥˧ e˨˦"] (r46 fix 2026-10-03)
     lld: ["naranza", "naˈrantsa"],
     ota: ["پرتقال", "poɾtaˈkal"],

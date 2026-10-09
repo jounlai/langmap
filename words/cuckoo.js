@@ -87,7 +87,7 @@ WORDS.cuckoo = {
     pt_mz: ["cuco", "ˈkuku"],
     pt_cv: ["cuco", "ˈkuku"],
     nl_be: ["koekoek", "ˈkukuk"],
-    en_us: ["cuckoo", "ˈkʊkuː"],
+    en_us: ["cuckoo", "ˈkuku"],
     en_ca: ["cuckoo", "ˈkʊkuː"],
     en_za: ["cuckoo", "ˈkʊkuː"],
     de_ch: ["Kuckuck", "ˈkʊkʊk"],
@@ -471,7 +471,7 @@ WORDS.cuckoo = {
     hak_tw: ["杜鵑", "tʰu˥˥ kien˨˦"],
     nan_qz: ["豆仔鸟", "tau˨˨ a˥˥ tsiau˥˥"],
     zh_wh: ["布谷鸟", "pu˧˥ ku˨˩˧ niau˦˨"],
-    zh_zz: ["布谷鸟", "pu˧˩˨ ku˨˦ niau˥˧"],
+    zh_zz: ["布谷鸟", "pu˧˩˨ ku˨˦ tiau˥˧"],
     hak_hl: ["杜鵑", "tʰu˧˧ kien˥˧"],
     cpx: ["布谷", "pɔu˦˨ kɒʔ˨˩"],
     tyz: ["khảm khắc", "kʰaːm˨˩˧ kʰak̚˧˥"],
@@ -532,6 +532,8 @@ WORDS.cuckoo = {
     zh_sc: ["阳雀", "iaŋ˨˩ tɕʰio˨˩"],
     ext: ["cucu", "ˈkuku"],
     frr_amr: ["kukütj", "kuˈkytj"],
-    bsk: ["kápo", "ˈkapo"]
+    bsk: ["kápo", "ˈkapo"],
+    wbm: ["eeppid", "ʔɯp pit"],
+    prk: ["eeb bīd", "ʔɯp pi̤t"]
   },
 };

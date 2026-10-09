@@ -55,6 +55,11 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    h_vedic: "dark",
+    unr: "borrowed",
+    bew: "distinct",
+    otk: "grue",
+    fit: "distinct",
     ie: "distinct",
     ltg: "distinct",
     qxs: "borrowed", // route was grue (vi dialect rules 2026-10-06)
@@ -847,6 +852,11 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    h_vedic: ["नील", "níːlɐ"],
+    unr: ["lil", "lil"],
+    bew: ["biru", "biru"],
+    otk: ["𐰚𐰇𐰚", "køk"],
+    fit: ["sininen", "ˈsininen"],
     ie: ["blu", "blu"],
     ltg: ["zyls", "zɨls"],
     qxs: ["lanȵi", "lanɲi"], // was ["χueχue", "χueχue"] (vi dialect rules 2026-10-06)
@@ -1228,7 +1238,7 @@ WORDS.blue = {
     sco: ["blue", "bluː"],
     en_sco: ["blue", "bluː"],
     en_ie: ["blue", "bluː"],
-    en_wls: ["blue", "bluː"],
+    en_wls: ["blue", "blɪʊ"], // was ["blue", "bluː"] (vi dialect rules 2026-10-06)
     en_aave: ["blue", "blu"],
     en_south: ["blue", "bluː"],
     en_us: ["blue", "blu"],
@@ -1549,7 +1559,7 @@ WORDS.blue = {
     rw: ["ubururu", "ubururu"],  // Loan chain English blue > Swahili buluu > Kinyarwanda ubururu. Inherited green is icyatsi (icyatsi kibisi), a noun from 'grass/weed'; there is no inherited basic blue term.
     sa: ["नील", "niːlɐ"],  // Sanskrit nīla- covers dark blue and runs into black (nīla-kaṇṭha, and of storm clouds); harita- is the green/yellow-green term. IDS gives nīla- against harita-.
     sad: ["bulu", "bulu"],  // Sandawe bulu is a loan (English/Swahili buluu); the inherited green is ɟaaŋga. Sandawe, like its Khoisan-area neighbours, has no inherited basic blue.
-    sah: ["күөх", "kyˈøx"],  // Sakha күөх is given by NorthEuraLex for BOTH blue and green, and WOLD records the blue reading as χallaːn küöχ, literally 'sky küöχ' — a modifier is needed to pick out blue. A clear grue.
+    sah: ["күөх", "kyøx"],  // Sakha күөх is given by NorthEuraLex for BOTH blue and green, and WOLD records the blue reading as χallaːn küöχ, literally 'sky küöχ' — a modifier is needed to pick out blue. A clear grue. // was ["күөх", "kyˈøx"] (vi dialect rules 2026-10-06)
     saq: ["kapatei", "kapatei"],  // The gloss defines a blue-only range ('from dark blue to colour of the sky'), which is why it is classed distinct; the dictionary does not separately state what the Samburu green term is. Standard orthography is kápátéí, written toneless to match the row's nanyokie/naibor.
     se: ["alit", "ˈalit"],  // Northern Sámi alit vs ruoná.
     sel: ["норяй", "ˈnorʲaj"],  // Selkup норяй vs патый.

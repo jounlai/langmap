@@ -63,6 +63,7 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    prk: "inherited",
     ie: "inherited",
     hsn_yz: "inherited",
     gcr: "loan",
@@ -935,6 +936,7 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    prk: ["grih", "krih"],
     ie: ["urso", "ˈurso"],
     hsn_yz: ["熊", "ʑioŋ˩˩˨"],
     gcr: ["lous", "lus"],
@@ -1366,7 +1368,7 @@ WORDS.bear = {
     hbo: ["דֹּב", "doːv"],
     cop: ["ⲗⲁⲃⲟⲓ", "laβɔj"],
     he_mis: ["דוב", "dov"],
-    arc: ["ܕܒܐ", "debaː"],
+    arc: ["ܕܒܐ", "debbaː"], // was ["ܕܒܐ", "debaː"] (vi dialect rules 2026-10-06)
     syc: ["ܕܒܐ", "debaː"],
     ar_qur: ["دب", "dubb"],
     gez: ["ድብ", "dəbb"],
@@ -1380,7 +1382,7 @@ WORDS.bear = {
     vot: ["karu", "ˈkaru"],
     vro: ["kahr", "kɑhr"],
     // Karelian and Veps say what Finnish only says as a circumlocution.
-    krl: ["kondii", "ˈkondiː"],
+    krl: ["kontie", "ˈkontie̯"], // was ["kondii", "ˈkondiː"] (vi dialect rules 2026-10-06)
     vep: ["kondi", "ˈkondi"],
     liv: ["okš", "okʃ"],
     hu: ["medve", "ˈmɛdvɛ"],
@@ -1571,10 +1573,10 @@ WORDS.bear = {
     en_app: ["bear", "bɛɹ"],
     en_south: ["bear", "bɛɹ"],
     en_ph: ["bear", "bɛɹ"],
-    en_jam: ["bear", "bɛə"],
+    en_jam: ["bear", "beːɹ"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_au: ["bear", "bɛə"],
     en_nz: ["bear", "bɛə"],
-    en_za: ["bear", "bɛə"],
+    en_za: ["bear", "beː"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_scouse: ["bear", "bɛə"],
     en_geordie: ["bear", "bɛə"],
     en_brum: ["bear", "bɛə"],
@@ -1586,7 +1588,7 @@ WORDS.bear = {
     en_ke: ["bear", "bɛə"],
     en_sg: ["bear", "bɛə"],
     en_my: ["bear", "bɛə"],
-    en_wls: ["bear", "bɛə"],
+    en_wls: ["bear", "bɛː"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_yk: ["bear", "bɛə"],
     en_ck: ["bear", "bɛə"],
 
@@ -1651,11 +1653,11 @@ WORDS.bear = {
     zh_sc: ["熊", "ɕioŋ˨˩"],
     zh_cd: ["熊", "ɕioŋ˨˩"],
     zh_cq: ["熊", "ɕioŋ˨˩"],
-    zh_wh: ["熊", "ɕioŋ˨˩˧"],
+    zh_wh: ["熊", "ɕioŋ˥˥"], // was ["熊", "ɕioŋ˨˩˧"] (vi dialect rules 2026-10-06)
     zh_km: ["熊", "ɕioŋ˧˩"], // was ["熊", "ɕioɲ˧˩"] (r48 fix 2026-10-03)
     zh_xa: ["熊", "ɕyŋ˨˦"],
     zh_kf: ["熊", "ɕyəŋ˦˨"],
-    zh_zz: ["熊", "ɕyŋ˦˨"],
+    zh_zz: ["熊", "ɕyuŋ˦˨"], // was ["熊", "ɕyŋ˦˨"] (vi dialect rules 2026-10-06)
     zh_jn: ["熊", "ɕiuŋ˦˨"],
     zh_tj: ["熊", "ɕyŋ˦˥"],
     zh_lz: ["熊", "ɕyŋ˥˧"],

@@ -615,7 +615,7 @@ WORDS.milk = {
     och: ["乳", "*noʔ"],
     hak_tw: ["牛奶", "ŋiu˩˩ nen˥˥"],
     nan_qz: ["牛奶", "ɡu˨˦ lin˧˧"],
-    zh_wh: ["牛奶", "niəu˨˩˧ nai˦˨"],
+    zh_wh: ["牛奶", "niou˨˩˧ nai˦˨"],
     zh_zz: ["牛奶", "niou˦˨ nai˥˧"],
     hak_hl: ["牛奶", "ŋiu˥˥ nen˩˩"],
     cpx: ["牛奶", "ku˩˧ nɛŋ˥˧˧"],
@@ -853,7 +853,7 @@ WORDS.milk = {
     zh_jh: ["牛奶", "liəɯ˧˥ lɛ˨˩˦"],
     cnp: ["牛奶", "ȵɐu˨˩ nai˨˦"],
     wuu_nb: ["牛奶", "ȵiʏ˨˩˧ na˩˩˧"],
-    wuu_sz: ["牛奶", "ȵiʏ˨˨˧ na˨˧˩"],
+    wuu_sz: ["牛奶", "ȵiʏ˨˨˧ nɑ˨˧˩"],
     wuu_wz: ["牛奶", "ŋau˧˩ na˧˦"],
     nan_hai: ["牛奶", "ku˧˩ ne˨˧"],
     kln: ["chego", "tʃeɡo"],
@@ -1111,6 +1111,8 @@ WORDS.milk = {
     tsz: ["lechi", "letʃi"],
     koy: ["tlʼooʼ", "tɬʼoːʔ"],
     kdt: ["nom", "nom"],
-    hsn_yz: ["牛奶", "ȵiəɯ˩˩˨ næ˥˥"]
+    hsn_yz: ["牛奶", "ȵiəɯ˩˩˨ næ˥˥"],
+    prk: ["deeih", "tɯih"],
+    kxm: ["ទឹកដោះ", "tɨʔ ɗah"]
   },
 };

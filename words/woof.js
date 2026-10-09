@@ -106,7 +106,7 @@ WORDS.woof = {
     "mi": ["au au", "au au"],
     "mk": ["ав ав", "af af"],
     "ml": ["ബൗ ബൗ", "bau bau"],
-    "mn": ["хав хав", "xaw xaw"],
+    "mn": ["хав хав", "xaw xaw"],  // mn.wiktionary хав, sense V: "хав хав аялга (нохой зэрэг амьтан хуцах аялга)" — the bark of a dog; IPA [xaw] as given there. A reader suggested хов хов (2026-10-09); mn.wiktionary хов has no bark sense (gossip / an intensifier), so the cell stays.
     "mr": ["भो भो", "bʱoː bʱoː"],
     "ms": ["gonggong", "ɡɔŋɡɔŋ"],
     "ne": ["भौ भौ", "bʱʌu bʱʌu"],

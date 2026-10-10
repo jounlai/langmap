@@ -317,11 +317,18 @@
             mid.appendChild(el('div', 'font-weight:700;font-size:18px;line-height:1.5', esc(pk(T.failed).replace('{score}', state.score))));
         }
         box.appendChild(mid);
-        box.appendChild(btn(pk(T.again), true, function () {
-            var set = makeSet(code); if (!set) return;
-            state.qs = set; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'quiz'; render();
-        }));
-        box.appendChild(btn(pk(T.back), false, function () { state.screen = 'pick'; render(); }));
+        var toPick = function () { state.screen = 'pick'; state.filter = ''; render(); };
+        if (won) {
+            // A badge earned: the next step is the next language, so the
+            // language list (with the new badge on its shelf) is the main button.
+            box.appendChild(btn(pk(T.back), true, toPick));
+        } else {
+            box.appendChild(btn(pk(T.again), true, function () {
+                var set = makeSet(code); if (!set) return;
+                state.qs = set; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'quiz'; render();
+            }));
+            box.appendChild(btn(pk(T.back), false, toPick));
+        }
         box.appendChild(btn(pk(T.close), false, hide));
     }
 

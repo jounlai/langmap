@@ -39,6 +39,7 @@
         family: {en:'Family', ja:'語族', ko:'어족', zh:'语系', yue:'語系', vi:'Ngữ hệ', th:'ตระกูลภาษา', id:'Rumpun', hi:'भाषा-परिवार', de:'Sprachfamilie', fr:'Famille', it:'Famiglia', es:'Familia', pt:'Família', ru:'Семья', uk:'Родина', ar:'العائلة', he:'משפחה', sw:'Familia'},
         speakers: {en:'Speakers', ja:'話者数', ko:'화자 수', zh:'使用人数', yue:'使用人數', vi:'Số người nói', th:'จำนวนผู้พูด', id:'Penutur', hi:'वक्ता', de:'Sprecher', fr:'Locuteurs', it:'Parlanti', es:'Hablantes', pt:'Falantes', ru:'Носители', uk:'Мовці', ar:'المتحدثون', he:'דוברים', sw:'Wazungumzaji'},
         rule: {en:'To master it: 9 of 10 correct', ja:'マスター条件：10問中9問以上の正解', ko:'마스터 조건: 10문제 중 9문제 이상 정답', zh:'成为大师的条件：10题答对9题以上', yue:'大師條件：10題答啱9題或以上', vi:'Điều kiện: đúng ít nhất 9/10 câu', th:'เงื่อนไข: ตอบถูกอย่างน้อย 9 จาก 10 ข้อ', id:'Syarat: benar minimal 9 dari 10', hi:'शर्त: 10 में से कम से कम 9 सही', de:'Bedingung: mindestens 9 von 10 richtig', fr:'Condition : au moins 9 bonnes réponses sur 10', it:'Condizione: almeno 9 risposte giuste su 10', es:'Condición: al menos 9 aciertos de 10', pt:'Condição: pelo menos 9 de 10 certas', ru:'Условие: не меньше 9 верных из 10', uk:'Умова: щонайменше 9 правильних з 10', ar:'الشرط: 9 إجابات صحيحة على الأقل من 10', he:'התנאי: לפחות 9 תשובות נכונות מתוך 10', sw:'Sharti: angalau 9 sahihi kati ya 10'},
+        keys: {en:'Keys: 1–4 to answer · Space for next', ja:'キー操作：1〜4で回答・スペースで次へ', ko:'키보드: 1~4로 답하기 · 스페이스로 다음', zh:'键盘：1–4 作答 · 空格键下一题', yue:'鍵盤：1–4 答題 · 空白鍵下一題', vi:'Phím: 1–4 để trả lời · Space để tiếp', th:'คีย์: 1–4 ตอบ · Space ไปต่อ', id:'Tombol: 1–4 untuk menjawab · Spasi untuk lanjut', hi:'कुंजियाँ: 1–4 उत्तर · Space अगला', de:'Tasten: 1–4 antworten · Leertaste weiter', fr:'Touches : 1–4 pour répondre · Espace pour continuer', it:'Tasti: 1–4 per rispondere · Spazio per avanti', es:'Teclas: 1–4 para responder · Espacio para seguir', pt:'Teclas: 1–4 para responder · Espaço para avançar', ru:'Клавиши: 1–4 — ответ · Пробел — далее', uk:'Клавіші: 1–4 — відповідь · Пробіл — далі', ar:'المفاتيح: 1–4 للإجابة · المسافة للتالي', he:'מקשים: 1–4 לתשובה · רווח להמשך', sw:'Vitufe: 1–4 kujibu · Space kuendelea'},
         ruleShort: {en:'9/10 to master', ja:'9/10でマスター', ko:'9/10이면 마스터', zh:'9/10即为大师', yue:'9/10就係大師', vi:'9/10 là thành thạo', th:'9/10 เป็นเซียน', id:'9/10 untuk menguasai', hi:'9/10 पर मास्टर', de:'9/10 zum Meistern', fr:'9/10 pour maîtriser', it:'9/10 per padroneggiare', es:'9/10 para dominar', pt:'9/10 para dominar', ru:'9/10 — мастер', uk:'9/10 — майстер', ar:'9/10 للإتقان', he:'9/10 לשליטה', sw:'9/10 kuwa bingwa'},
         left: {en:'Mistakes left: {n}', ja:'あと{n}問ミスできます', ko:'남은 실수 가능 횟수: {n}', zh:'还可以错{n}题', yue:'仲可以錯{n}題', vi:'Còn được sai {n} câu', th:'ผิดได้อีก {n} ข้อ', id:'Sisa kesalahan: {n}', hi:'बची गलतियाँ: {n}', de:'Noch {n} Fehler erlaubt', fr:'Erreurs restantes : {n}', it:'Errori rimasti: {n}', es:'Errores restantes: {n}', pt:'Erros restantes: {n}', ru:'Можно ошибиться ещё: {n}', uk:'Можна помилитися ще: {n}', ar:'الأخطاء المتبقية: {n}', he:'טעויות שנותרו: {n}', sw:'Makosa yaliyobaki: {n}'},
         out: {en:'Too many mistakes for the badge this time — you can still finish.', ja:'今回はバッジ獲得ならず。最後まで挑戦できます。', ko:'이번에는 배지를 받을 수 없어요. 끝까지 풀 수는 있어요.', zh:'这次拿不到徽章了，但可以答完。', yue:'今次攞唔到徽章，但可以答埋。', vi:'Lần này không đạt huy hiệu — bạn vẫn có thể làm tiếp.', th:'รอบนี้ไม่ได้เหรียญแล้ว แต่ยังเล่นต่อได้', id:'Kali ini lencana lepas — kamu masih bisa menyelesaikan.', hi:'इस बार बैज नहीं मिलेगा — फिर भी पूरा कर सकते हैं।', de:'Diesmal kein Abzeichen – du kannst trotzdem weiterspielen.', fr:'Pas de badge cette fois — vous pouvez finir quand même.', it:'Niente distintivo stavolta — puoi comunque finire.', es:'Esta vez no hay insignia, pero puedes terminar.', pt:'Desta vez sem selo — mas pode terminar.', ru:'В этот раз без значка — но можно доиграть.', uk:'Цього разу без значка — але можна дограти.', ar:'لا شارة هذه المرة — يمكنك الإكمال مع ذلك.', he:'הפעם בלי תג — אפשר להמשיך עד הסוף.', sw:'Mara hii hakuna beji — bado unaweza kumaliza.'},
@@ -131,6 +132,30 @@
 
     // ---- UI ----------------------------------------------------------------
     var modal = null, box = null, state = { screen: 'pick', code: null, qs: [], idx: 0, score: 0, chosen: -1, filter: '' };
+    // Auto-advance: 5 s after an answer the quiz moves on by itself; the Next
+    // button counts down. Any manual move (click, Space, Enter) cancels it.
+    var AUTO = 5, autoT = null, autoLeft = 0;
+    function stopAuto() { if (autoT) { clearInterval(autoT); autoT = null; } }
+    function answer(i) {
+        var q = state.qs[state.idx]; if (!q || state.chosen >= 0 || !q.options[i]) return;
+        state.chosen = i; if (q.options[i].s === q.answer) state.score++;
+        stopAuto(); autoLeft = AUTO;
+        autoT = setInterval(function () {
+            autoLeft--;
+            var nb = document.getElementById('lm-master-next');
+            if (autoLeft <= 0) { advance(); return; }
+            if (nb) nb.textContent = nextLabel() + ' (' + autoLeft + ')';
+        }, 1000);
+        render();
+    }
+    function nextLabel() { return state.idx + 1 >= TOTAL ? pk(T.see) : pk(T.next); }
+    function advance() {
+        stopAuto();
+        if (state.screen !== 'quiz' || state.chosen < 0) return;
+        state.idx++; state.chosen = -1;
+        if (state.idx >= TOTAL) { state.screen = 'result'; if (state.score >= PASS) saveBadge(state.code, state.score); }
+        render();
+    }
     function el(tag, css, html) { var e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
     function build() {
         modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px');
@@ -138,7 +163,18 @@
         box.id = 'lm-master-box'; box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true');
         modal.appendChild(box);
         modal.addEventListener('click', function (e) { if (e.target === modal) hide(); });
-        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && modal && modal.style.display !== 'none') hide(); });
+        document.addEventListener('keydown', function (e) {
+            if (!modal || modal.style.display === 'none') return;
+            if (e.key === 'Escape') { hide(); return; }
+            if (state.screen !== 'quiz' || e.ctrlKey || e.metaKey || e.altKey) return;
+            var t = e.target; if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
+            if (state.chosen < 0) {
+                var n = '1234'.indexOf(e.key);               // 1–4 pick an answer
+                if (n >= 0) { e.preventDefault(); answer(n); }
+            } else if (e.key === ' ' || e.key === 'Spacebar' || e.key === 'Enter') {
+                e.preventDefault(); advance();               // Space / Enter: next
+            }
+        });
         document.body.appendChild(modal);
     }
     function setOpen(on) {
@@ -146,7 +182,7 @@
         if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash();
     }
     function show() { if (!modal) build(); modal.style.display = 'flex'; render(); setOpen(true); }
-    function hide() { if (modal) modal.style.display = 'none'; setOpen(false); }
+    function hide() { stopAuto(); if (modal) modal.style.display = 'none'; setOpen(false); }
 
     function header(right) {
         box.dir = /^(ar|he)/.test(ui()) ? 'rtl' : 'ltr';
@@ -282,25 +318,27 @@
                 else if (i === state.chosen) css += ';border-color:#e2a3af;background:#fdf1f3;color:#c0405a';
                 else css += ';opacity:.55';
             }
-            var b = el('button', css,
-                '<span style="font-size:20px;line-height:1.2" dir="auto">' + esc(o.s) + '</span>'
+            var b = el('button', css + ';position:relative',
+                '<span aria-hidden="true" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">' + (i + 1) + '</span>'
+                + '<span style="font-size:20px;line-height:1.2" dir="auto">' + esc(o.s) + '</span>'
                 + (o.ipa ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">/' + esc(o.ipa) + '/</span>' : '')
                 + (answered && !isAns ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">= ' + esc(labelOf(o.con)) + '</span>' : ''));
             b.type = 'button';
-            if (!answered) b.addEventListener('click', function () { state.chosen = i; if (isAns) state.score++; render(); });
+            b.setAttribute('aria-keyshortcuts', String(i + 1));
+            if (!answered) b.addEventListener('click', function () { answer(i); });
             mid.appendChild(b);
         });
         box.appendChild(mid);
         var ok = answered && q.options[state.chosen].s === q.answer;
         box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:16px;margin:4px 0 0;flex:none;color:' + (ok ? '#0d9f6e' : '#d4506a') + ';visibility:' + (answered ? 'visible' : 'hidden'), esc(answered ? (ok ? pk(T.correct) : pk(T.wrong)) : pk(T.correct))));
-        var nb = btn(state.idx + 1 >= TOTAL ? pk(T.see) : pk(T.next), true, function () {
-            state.idx++; state.chosen = -1;
-            if (state.idx >= TOTAL) { state.screen = 'result'; if (state.score >= PASS) saveBadge(state.code, state.score); }
-            render();
-        });
+        var nb = btn(nextLabel() + (answered && autoT ? ' (' + autoLeft + ')' : ''), true, advance);
+        nb.id = 'lm-master-next'; nb.setAttribute('aria-keyshortcuts', 'Space');
         nb.style.visibility = answered ? 'visible' : 'hidden';
         box.appendChild(nb);
+        if (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches)
+            box.appendChild(el('div', 'text-align:center;font-size:11px;color:#aab1bd;margin-top:6px;flex:none', esc(pk(T.keys))));
         box.appendChild(btn(pk(T.quit), false, function () {
+            stopAuto();
             if (!window.confirm(pk(T.quitask))) return;
             state.qs = []; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'intro'; render();
         }));

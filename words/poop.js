@@ -878,6 +878,11 @@ WORDS.poop = {
     cia: ["taki", "taki"],
     zdj: ["madzi", "madzi"],
     prk: ["aing", "ʔaɲ"],
-    bew: ["tai", "tai"]
+    bew: ["tai", "tai"],
+    bca: ["sɿ", "sɿ˧˧"],
+    jya: ["tə-pʰʃɛ", "təpʰʃɛ"],
+    nez: ["cʼáyn", "tsʼájn"],
+    kky: ["mangga", "maŋɡa"],
+    chp: ["tsą́", "tsã́"]
   },
 };

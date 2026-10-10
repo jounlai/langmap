@@ -1196,6 +1196,7 @@ WORDS.five = {
     xav: ["ĩmrotõ", "ĩmɾɔˈtɔ̃"],
     tue: ["sikabõhẽyẽ", "siˈkabõhẽjẽ"],
     xht: ["apa", "apa"],
-    hoc: ["mooya", "moːja"]
+    hoc: ["mooya", "moːja"],
+    squ: ["tsíyichis", "tsijitʃis"]
   },
 };

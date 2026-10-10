@@ -55,6 +55,13 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    chp: "distinct",
+    nez: "distinct",
+    jya: "borrowed",
+    ude: "distinct",
+    bca: "distinct",
+    squ: "distinct",
+    kqz: "distinct",
     h_vedic: "dark",
     unr: "borrowed",
     bew: "distinct",
@@ -852,6 +859,13 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    chp: ["déhtłʼës", "déhtɬʼes"],
+    nez: ["yoosyóos", "joːsjóːs"],
+    jya: ["sŋon mbo", "sŋonmbo"],
+    ude: ["дуӈмалиғи", "duŋmaliɣi"],
+    bca: ["tɕʰɛ̃", "tɕʰɛ̃˥˥"],
+    squ: ["skwáyel", "skʷajəl"],
+    kqz: ["ǃnoā", "ǃnoaː"],
     h_vedic: ["नील", "níːlɐ"],
     unr: ["lil", "lil"],
     bew: ["biru", "biru"],
@@ -1603,7 +1617,7 @@ WORDS.blue = {
     to: ["lanu moana", "lanu moana"],  // Tongan lanu moana 'deep-sea colour' against lanu mata 'green'. IDS also gives pulū, the English loan. Both Tongan cool-range terms are lanu + a noun, so the split is phrasal rather than lexical; ʻuliʻuli covers dark including blue-black.
     tob: ["malaʁadaik", "malaʁadaik"],  // Hyphens dropped and ḳ→q following this row's own IDS-derived cells (IDS y-apagaḳ appears in the row as japagaq).
     tr: ["mavi", "maːˈvi"],  // Turkish mavi is an Arabic loan (māʾī 'watery'). It sits on top of inherited gök 'sky', which is still the blue/grue term in older and dialectal usage (gök gözlü, göğermek) and remains the blue word in most other Turkic languages.
-    trn: ["—", "—"],  // CONVENTION MISMATCH, DELIBERATE: IDS cites the bound stem. This row's other cells prefix it (IDS -hopu 'white' appears in the row as tjopu), so the row form is probably tiripu, but I did not want to invent the prefixed shape. Class (distinct) is firm: separate blue and green lexemes in the same elicitation.
+    trn: ["ripu", "ɾipu"],  // CONVENTION MISMATCH, DELIBERATE: IDS cites the bound stem. This row's other cells prefix it (IDS -hopu 'white' appears in the row as tjopu), so the row form is probably tiripu, but I did not want to invent the prefixed shape. Class (distinct) is firm: separate blue and green lexemes in the same elicitation.
     trv: ["mgkarats", "mŋ̩kaɾats"],  // Truku (Seediq) mgkarats against mgsama 'green'.
     ts: ["rihlaza", "riɬaza"],  // Cuenod's English-Tsonga entries: 'blue, (n.) rihlaza 11' and, under 'colour', 'green and blue --s, rihlaza'. So one term covers both, as in Nguni (cognate of -luhlaza). Beside it Tsonga has the specific blue words wasi 9 and the English loan blue 1, marked '(n., Eng.)' under 'blue colour'; nkuxe is dark green.
     tsg: ["bilu", "biˈlu"],  // Borrowed from Malay biru. The dictionary's own subentry 'bilu awan' = 'sky blue' settles that this is the sky-colour word. gaddung 'green' (itself a Brunei Malay loan) is sometimes glossed 'green, blue' in other sources, but the Tausug dictionary keeps them apart. IPA [bɪˈlu] from Wiktionary's tsg-pr; final stress matches this row's puˈla / ʔiˈtum.

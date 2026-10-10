@@ -239,7 +239,7 @@ WORDS.name = {
       sw: ["jina", "ˈdʒina"],
       suk: ["lina", "ˈlina"],
       nym: ["lina", "ˈlina"],
-      rim: ["izina", "izina"],
+      rim: ["rina", "ɾina"],
       ksb: ["izina", "izina"],
       jmc: ["irina", "irina"],
       sbp: ["litawa", "litawa"],

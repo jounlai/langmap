@@ -874,6 +874,9 @@ WORDS.butterfly = {
     ja_mvi: ["ぱびﾙ", "pabiɿ"],
     ie: ["papilion", "papiliˈon"],
     prk: ["būng bīang", "pṳŋ pi̤aŋ"],
-    bew: ["kupu-kupu", "kupukupu"]
+    bew: ["kupu-kupu", "kupukupu"],
+    bca: ["koulɛtsɿ", "kou˥˥lɛ˦˦tsɿ˧˧"],
+    kky: ["walbuulbul", "walbuːlbul"],
+    adt: ["vurruka", "vuruka"]
   },
 };

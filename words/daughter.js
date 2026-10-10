@@ -1137,6 +1137,10 @@ WORDS.daughter = {
     fan: ["ngoan", "ŋɡoan"],
     khw: ["ژور", "ʒuːr"],
     myp: ["hoísai", "hoísai"],
-    prk: ["gon nbun", "kɔn bun"]
+    prk: ["gon nbun", "kɔn bun"],
+    kqz: ["õas", "õas"],
+    ktz: ["ǂxàè", "ᵏǂᵡàè"],
+    trn: ["chicha", "tʃitʃa"],
+    gon: ["मिय्यड", "mijjaɖ"]
   },
 };

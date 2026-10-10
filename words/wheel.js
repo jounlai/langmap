@@ -939,6 +939,9 @@ WORDS.wheel = {
     drs: ["mole", "mole"],
     kos: ["wil", "wil"],
     niu: ["veli", "veli"],
-    hsn_yz: ["轮子", "lə̃˩˩˨ tsɿ˥˥"]
+    hsn_yz: ["轮子", "lə̃˩˩˨ tsɿ˥˥"],
+    kqz: ["ǃnaris", "ǃnaris"],
+    jya: ["kʰor lo", "kʰorlo"],
+    chp: ["dechën bąth", "detʃen bãθ"]
   }
 };

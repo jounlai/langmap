@@ -1113,6 +1113,14 @@ WORDS.milk = {
     kdt: ["nom", "nom"],
     hsn_yz: ["牛奶", "ȵiəɯ˩˩˨ næ˥˥"],
     prk: ["deeih", "tɯih"],
-    kxm: ["ទឹកដោះ", "tɨʔ ɗah"]
+    kxm: ["ទឹកដោះ", "tɨʔ ɗah"],
+    kqz: ["bīb", "biːb"],
+    bca: ["pɑtsɛ", "pɑ˦˨tsɛ˦˦"],
+    jya: ["tə lo", "təlo"],
+    nez: ["qáhas", "qáhas"],
+    kky: ["guyuu", "ɡujuː"],
+    chp: ["ɂejëretthʼué", "ʔetʃeretθʼué"],
+    trn: ["chenyomo", "tʃenʲomo"],
+    adt: ["ukarta ngama", "ukaʈa ŋama"]
   },
 };

@@ -856,6 +856,13 @@ WORDS.rice = {
     zdj: ["maele", "maele"],
     wbm: ["gaox", "ɡauʔ"],
     prk: ["mgaox", "ɡauʔ"],
-    bew: ["beras", "bəras"]
+    bew: ["beras", "bəras"],
+    one: ["watnʌʼʌ́:kwas", "watnʌ̃ʔʌ̃́ːkwas"],
+    bfq: ["அக்கி", "akːi"],
+    bca: ["me", "me˧˧"],
+    jya: ["kʰʂi", "kʰʂi"],
+    nez: ["seheywéekuʼs", "sehejwéːkuʔs"],
+    tsi: ["miyuup", "mijuːp"],
+    chp: ["tłʼolágaze", "tɬʼoláɡaze"]
   }
 };

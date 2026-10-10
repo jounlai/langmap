@@ -1138,6 +1138,15 @@ WORDS.rain = {
     yur: ["ten", "ten"],
     hsn_yz: ["雨", "y˥˥"],
     myp: ["pii", "pii"],
-    prk: ["hliex", "lʰɛʔ"]
+    prk: ["hliex", "lʰɛʔ"],
+    nej: ["wai", "wai"],
+    dbl: ["gambal", "ˈɡambal"],
+    bca: ["vɤ", "vɤ˧˧"],
+    jya: ["tə-mu", "təmu"],
+    trn: ["tgiwo", "tçiwo"],
+    kgg: ["taŋ", "taŋ"],
+    adt: ["awi unha-unha", "awi un̪aun̪a"],
+    yle: ["tpii", "tpiː"],
+    gon: ["पिर्रु", "pirru"]
   },
 };

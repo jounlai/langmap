@@ -1164,6 +1164,13 @@ WORDS.sleep = {
     win: ["nąą", "nãː"],
     myp: ["xaití", "ʔaití"],
     khw: ["پوریک", "poˈrik"],
-    prk: ["id", "ʔit"]
+    prk: ["id", "ʔit"],
+    dbl: ["bungil", "ˈbuŋil"],
+    bfq: ["oɾəgədə", "oɾəɡədə"],
+    bca: ["tsʰɛ̃", "tsʰɛ̃˧˧"],
+    jya: ["ka-rma", "karma"],
+    tsi: ["xstʼox", "xstʼox"],
+    kky: ["waarrnggu", "waːrŋɡu"],
+    chp: ["thetį", "θetĩ"]
   },
 };

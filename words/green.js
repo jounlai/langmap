@@ -1022,6 +1022,13 @@ WORDS.green = {
     rmt: ["axḍar", "axdˤar"],
     fkv: ["vihree", "ˈʋihreː"],
     hsn_yz: ["绿", "lu˩˩˨"],
-    prk: ["glāi", "kla̤i"]
+    prk: ["glāi", "kla̤i"],
+    kqz: ["ǃkxʼam", "ǃkxʼam"],
+    squ: ["tlʼestlʼís", "tɬʼəstɬʼis"],
+    bca: ["lu", "lu˦˦"],
+    ude: ["исэмпэ", "isəmpə"],
+    jya: ["ldʒaŋ kə", "ldʒaŋkə"],
+    nez: ["palóot", "palóːt"],
+    trn: ["jeʼchu", "heʔtʃu"]
   }
 };

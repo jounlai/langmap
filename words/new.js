@@ -1147,6 +1147,14 @@ WORDS.new = {
     fvr: ["dɨwwô", "dɪwːô"],
     egy: ["𓌳𓄿𓅱𓏛", "mauːi"],
     gcr: ["nouvo", "nuvo"],
-    prk: ["kraox", "kʰrauʔ"]
+    prk: ["kraox", "kʰrauʔ"],
+    kqz: ["ǀʼāsa", "ǀʔaːsa"],
+    bfq: ["ostə", "ostə"],
+    bca: ["ɕĩ", "ɕĩ˥˥"],
+    jya: ["kə-ʃək", "kəʃək"],
+    nez: ["kímti", "kímti"],
+    kky: ["nhilaa", "n̪ilaː"],
+    chp: ["degóth", "deɡóθ"],
+    trn: ["ʼrajru", "ʔɾahɾu"]
   }
 };

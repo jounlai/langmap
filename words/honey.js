@@ -1121,6 +1121,11 @@ WORDS.honey = {
     niu: ["meli", "meli"],
     tsz: ["tékua", "ˈtekʷa"],
     prk: ["rom hia", "rɔm hia"],
-    bew: ["madu", "madu"]
+    bew: ["madu", "madu"],
+    one: ["óshes", "óshes"],
+    kqz: ["danis", "danis"],
+    jya: ["mba mbu ndʑo ndzɐ", "mbambundʑondzɐ"],
+    chp: ["tłʼıstthó nı", "tɬʼistθó ni"],
+    gon: ["तेने", "tene"]
   },
 };

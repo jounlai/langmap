@@ -1191,6 +1191,15 @@ WORDS.ear = {
     soa: ["หู", "huː˨˦"],
     pot: ["tog", "toɡ"],
     ono: ["ohų́hdaʼ", "ohṹhdaʔ"],
-    prk: ["hyaog", "ʑʰauk"]
+    prk: ["hyaog", "ʑʰauk"],
+    omc: ["medquic", "medkik"],
+    kqz: ["ǁnãub", "ǁnãub"],
+    bca: ["jĩtɯkũã", "jĩ˧˧tɯ˨˩kũã˥˥"],
+    jya: ["tə-rna", "tərna"],
+    nez: ["macʼáyo", "matsʼájo"],
+    kky: ["milga", "milɡa"],
+    chp: ["dënedzaghé", "denedzaʁé"],
+    yle: ["ngwene", "ŋʷene"],
+    gon: ["केव", "keʋ"]
   },
 };

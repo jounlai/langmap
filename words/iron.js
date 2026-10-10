@@ -1118,6 +1118,10 @@ WORDS.iron = {
     hsn_yz: ["铁", "tʰie˧˧"],
     djr: ["balaʼ", "balaʔ"],
     prk: ["hleig", "lʰek"],
-    hoc: ["meed", "meːɖ"]
+    hoc: ["meed", "meːɖ"],
+    kqz: ["ǀkxʼurib", "ǀkxʼurib"],
+    bca: ["tʰe", "tʰe˦˦"],
+    jya: ["ʃam", "ʃam"],
+    trn: ["gero", "çeɾo"]
   },
 };

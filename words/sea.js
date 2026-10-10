@@ -1060,6 +1060,13 @@ WORDS.sea = {
     tca: ["naxtaxa", "naʔtaʔa"],
     wbm: ["rawm sigrit sigra", "rɔm siɡrit siɡra"],
     prk: ["rom si mgrid si mgra", "rɔm siɡrit siɡra"],
-    hoc: ["doreya", "doreja"]
+    hoc: ["doreya", "doreja"],
+    one: ["kanyatalá:ke", "kanjataláːke"],
+    kqz: ["huriǁamma", "huriǁamːa"],
+    jya: ["rɟjɐ mtsho", "rɟjɐmtsʰo"],
+    nez: ["ʼeteyéekuus", "ʔetejéːkuːs"],
+    kky: ["dhalun", "d̪alun"],
+    chp: ["tucho", "tutʃo"],
+    gon: ["समुद्रम", "samudram"]
   }
 };

@@ -1250,6 +1250,16 @@ WORDS.black = {
     tca: ["waxüxü̃", "waʔɨʔɨ̃"],
     fvr: ["dìkkó", "dìkːó"],
     ocm: ["hitam", "hitam"],
-    prk: ["lūng", "lṳŋ"]
+    prk: ["lūng", "lṳŋ"],
+    one: ["oʼswʌ́:taʼ", "oʔswʌ̃́ːtaʔ"],
+    kqz: ["ǂnū", "ǂnuː"],
+    squ: ["ḵʼex̱ ḵʼíx̱", "qʼəχ qʼiχ"],
+    bfq: ["kappə", "kapːə"],
+    bca: ["xɯ", "xɯ˦˦"],
+    jya: ["kə-nɐk", "kənɐk"],
+    nez: ["cimúuxcimux", "tsimúːxtsimux"],
+    tsi: ["tʼuʼutsk", "tʼuʔutsk"],
+    chp: ["delzen", "delzen"],
+    trn: ["siso", "siso"]
   },
 };

@@ -1220,6 +1220,10 @@ WORDS.four = {
     aau: ["ihaiha-aw", "ihaiha aw"],
     cni: ["otsipasati", "otsipasati"],
     tdh: ["ब्लले", "bləle"],
-    cjm: ["ꨚꩀ", "paʔ"]
+    cjm: ["ꨚꩀ", "paʔ"],
+    squ: ["x̱a7útsen", "χaʔutsən"],
+    bca: ["ɕi", "ɕi˦˦"],
+    jya: ["kə-wdi", "kəwdi"],
+    tsi: ["txaalpx", "txaːlpx"]
   },
 };

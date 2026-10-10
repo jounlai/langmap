@@ -92,7 +92,7 @@ WORDS.love = {
       bla: ["—", "—"],
       hop: ["—", "—"],
       com: ["—", "—"],
-      one: ["—", "—"],
+      one: ["kanolukhwásla", "kanolũkʰwásla"],
       ono: ["gaonihsdá:wę", "ɡaonihsdáːwɛ̃"],
       win: ["—", "—"],
       cro: ["íchisshe", "ítʃiʃːe"],

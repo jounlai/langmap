@@ -1057,6 +1057,14 @@ WORDS.book = {
     zdj: ["shio", "ʃio"],
     afb: ["كتاب", "kitaːb"],
     prk: ["pug lāi", "pʰuk la̤i"],
-    bew: ["buku", "buku"]
+    bew: ["buku", "buku"],
+    one: ["kahyatúhsliʼ", "kahjatṹhsliʔ"],
+    kqz: ["ǂxanis", "ǂxanis"],
+    bca: ["sɤtsʰuɛ", "sɤ˥˥tsʰuɛ˦˦"],
+    jya: ["tə tha", "tətʰa"],
+    nez: ["tíimʼes", "tíːmʔes"],
+    tsi: ["buk", "buk"],
+    chp: ["ɂerehtłʼís", "ʔerehtɬʼís"],
+    gon: ["पुस्तकम", "pustakam"]
   }
 };

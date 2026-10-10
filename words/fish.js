@@ -772,7 +772,7 @@ WORDS.fish = {
     lus: ["sangha", "saŋha"],
     dz: ["ཉ", "ɲa"],
     xsr: ["ཉ", "ɲa"],
-    xkz: ["nga", "ŋa"],
+    xkz: ["nya", "ɲa"],
     sip: ["ཉ", "ɲa"],
     min: ["ikan", "ˈikan"],
     nia: ["iʼa", "iːʔa"],

@@ -1158,6 +1158,10 @@ WORDS.hundred = {
     yle: ["yonoy:a", "jonojːa"],
     ik: ["tallimakipiat", "talːimakipiat"],
     gon: ["नूर", "nuːr"],
-    hsn_yz: ["百", "pe˧˧"]
+    hsn_yz: ["百", "pe˧˧"],
+    umu: ["nkwətaːpóxkə", "nkwətaːpoxkə"],
+    bca: ["apɛ", "a˧˩pɛ˦˦"],
+    nez: ["puuteʼéptit", "puːteʔéptit"],
+    chp: ["łónona", "ɬónona"]
   },
 };

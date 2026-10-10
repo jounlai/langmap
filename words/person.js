@@ -1118,6 +1118,15 @@ WORDS.person = {
     fvr: ["dùó", "dùó"],
     ocm: ["urāṅ", "uraːŋ"],
     prk: ["būi", "pṳi"],
-    hif: ["admi", "ədmiː"]
+    hif: ["admi", "ədmiː"],
+    kqz: ["khoeb", "kʰoeb"],
+    wrh: ["gibirr", "ˈɡibir"],
+    bfq: ["kanɖə", "kanɖə"],
+    bca: ["jĩkɛ̃jĩ", "jĩ˨˩kɛ̃˥˥jĩ˨˩"],
+    ude: ["нӣ", "niː"],
+    xul: ["wurrunbill", "wuɻunbil"],
+    jya: ["tə-rmi", "tərmi"],
+    nez: ["titóoqan", "titóːqan"],
+    kgg: ["niu", "niu"]
   }
 };

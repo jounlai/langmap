@@ -1246,6 +1246,10 @@ WORDS.salt = {
     hup: ["łehqʼonchʼ", "ɬehqʼontʃʼ"],
     koy: ["sole", "sole"],
     cia: ["gara", "ɡara"],
-    khw: ["تروپ", "trup"]
+    khw: ["تروپ", "trup"],
+    one: ["teyohyó:tsis", "tejohjóːdʒis"],
+    kqz: ["ǂkxʼōb", "ǂkxʼoːb"],
+    bca: ["pĩ", "pĩ˥˥"],
+    jya: ["tsʰɐ", "tsʰɐ"]
   },
 };

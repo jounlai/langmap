@@ -1173,6 +1173,13 @@ WORDS.head = {
     xht: ["kaš", "kaʃ"],
     zdj: ["hitswa", "hitswa"],
     prk: ["gaing", "kaɲ"],
-    hif: ["muuṛ", "muːɽ"]
+    hif: ["muuṛ", "muːɽ"],
+    bfq: ["manɖe", "manɖe"],
+    bca: ["tɯpo", "tɯ˨˩po˨˩"],
+    ude: ["дили", "dili"],
+    jya: ["tako", "tako"],
+    nez: ["húusus", "húːsus"],
+    chp: ["dënetthí", "denetθí"],
+    trn: ["chuti", "tʃuti"]
   },
 };

@@ -1146,7 +1146,7 @@ WORDS.blood = {
     cuk: ["abe", "abe"],
     chf: ["chʼichʼ", "tʃʼitʃʼ"],
     agu: ["chichʼ", "tʃitʃʼ"],
-    ixl: ["kʼikʼ", "kʼikʼ"],
+    ixl: ["kaq", "kaq"],
     mam: ["chikʼ", "tʃikʼ"],
     wal: ["suutta", "suːtːa"],
     sid: ["munde", "munde"],

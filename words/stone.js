@@ -1183,6 +1183,9 @@ WORDS.stone = {
     khw: ["بوہت", "boht"],
     gon: ["बंडा", "baɳɖa"],
     xht: ["pīp", "piːp"],
-    prk: ["si māox", "sima̤uʔ"]
+    prk: ["si māox", "sima̤uʔ"],
+    bca: ["tɕokʰue", "tɕo˦˨kʰue˥˥"],
+    jya: ["ndʑə lək", "ndʑələk"],
+    nez: ["píswe", "píswe"]
   },
 };

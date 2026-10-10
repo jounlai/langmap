@@ -1157,6 +1157,14 @@ WORDS.nose = {
     rmt: ["pirin", "pirin"],
     pot: ["jash", "dʒaʃ"],
     fvr: ["dòrmí", "dòrmí"],
-    prk: ["mēeih", "mɯ̤ih"]
+    prk: ["mēeih", "mɯ̤ih"],
+    one: ["oʼnyúhsaʼ", "oʔnjṹhsaʔ"],
+    bca: ["ɤ̃kʰɤtɯ", "ɤ̃˧˩kʰɤ˦˦tɯ˦˨"],
+    jya: ["tə-ʃna", "təʃna"],
+    nez: ["núusnu", "núːsnu"],
+    tsi: ["tsʼa̱x", "tsʼax"],
+    kky: ["budhiil", "bud̪iːl"],
+    chp: ["dënetsį", "denetsĩ"],
+    trn: ["siri", "siɾi"]
   },
 };

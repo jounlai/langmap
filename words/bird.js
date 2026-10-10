@@ -1178,6 +1178,12 @@ WORDS.bird = {
     gon: ["पिट्टे", "piʈʈə"],
     xht: ["ašti", "aʃti"],
     zdj: ["nuni", "nuni"],
-    prk: ["sim", "sim"]
+    prk: ["sim", "sim"],
+    one: ["otsiʼtʌ́haʼ", "odʒiʔtʌ̃́haʔ"],
+    bca: ["tsoutsɿ", "tsou˦˦tsɿ˧˧"],
+    jya: ["kə-wjam", "kəwjam"],
+    nez: ["payóopayo", "pajóːpajo"],
+    tsi: ["tsʼuʼuts", "tsʼuʔuts"],
+    chp: ["įyese", "ĩjese"]
   },
 };

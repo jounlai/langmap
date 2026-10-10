@@ -1187,6 +1187,10 @@ WORDS.earth = {
     nmn: ["ǂkxʼûm", "ǂkxʼum"],
     rmt: ["bīṭ", "biːtˤ"],
     xht: ["araz", "araz"],
-    prk: ["diex", "tɛʔ"]
+    prk: ["diex", "tɛʔ"],
+    dbl: ["jaju", "ˈɟaɟu"],
+    bca: ["tʰusɿ", "tʰu˧˧sɿ˧˧"],
+    ude: ["на̄", "naː"],
+    jya: ["sɐ ʒə", "sɐʒə"]
   }
 };

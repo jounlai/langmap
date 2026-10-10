@@ -399,7 +399,7 @@ WORDS.one = {
     ibb: ["keed", "kèèd"],
     urh: ["ọvo", "ɔvo"],
     deg: ["ọvu", "ɔvʊ"],
-    ets: ["ovo", "ovo"],
+    ets: ["ɔkpa", "ɔkpa"],
     iso: ["ọvo", "ɔvo"],
     ha: ["ɗaya", "ɗaja"],
     xed: ["kələ", "kələ"],

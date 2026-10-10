@@ -789,6 +789,10 @@ WORDS.silk = {
     prk: ["man brēi", "man pre̤"],
     bew: ["sutra", "sutra"],
     unr: ["lumang", "lumaŋ"],
-    kxm: ["សូត្រ", "soːt"]
+    kxm: ["សូត្រ", "soːt"],
+    one: ["kaʼnhehsatʌ́sha", "kaʔnhehsatʌ̃́sha"],
+    bca: ["tsʰotsi", "tsʰo˥˥tsi˧˩"],
+    jya: ["kho ʃtʃən", "kʰoʃtʃən"],
+    chp: ["lasué", "lasué"]
   }
 };

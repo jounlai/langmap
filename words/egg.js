@@ -1136,6 +1136,15 @@ WORDS.egg = {
     kdt: ["nthrɛ̤ːl", "ntʰrɛːl"],
     fvr: ["dɨróŋ", "dɪróŋ"],
     adx: ["སྒོང་ང", "ɡoŋŋa"],
-    prk: ["dom", "tɔm"]
+    prk: ["dom", "tɔm"],
+    one: ["oʼnhúhsaʼ", "oʔnhṹhsaʔ"],
+    bca: ["se", "se˦˨"],
+    ude: ["умукта", "umukta"],
+    jya: ["pka tʃu ŋɡam", "pkatʃuŋɡam"],
+    nez: ["táamʼam", "táːmʔam"],
+    tsi: ["łgumat", "ɬɡumat"],
+    chp: ["eghézé", "eʁézé"],
+    trn: ["wrayʼa", "wɾajʔa"],
+    yle: ["w:uu", "wːuː"]
   },
 };

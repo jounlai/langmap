@@ -1160,6 +1160,14 @@ WORDS.wind = {
     hsn_yz: ["风", "xoŋ˧˧"],
     xht: ["pizil", "pizil"],
     prk: ["npaeng", "bʰaɯŋ"],
-    kxm: ["ខ្យល់", "kʰjɑl"]
+    kxm: ["ខ្យល់", "kʰjɑl"],
+    one: ["owe:lá", "oweːlá"],
+    kqz: ["ǂʼoab", "ǂʔoab"],
+    bca: ["pisɿ", "pi˥˥sɿ˥˥"],
+    ude: ["эди", "ədi"],
+    jya: ["kʰa li", "kʰali"],
+    nez: ["háatya", "háːtja"],
+    tsi: ["baask", "baːsk"],
+    chp: ["nįtsʼi", "nĩtsʼi"]
   },
 };

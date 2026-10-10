@@ -12031,7 +12031,46 @@
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
     <script src="my-languages.js?v=24"></script>
-    <!-- Language Master game (🏅 in the Play menu): pick a language, name 10 of its words. -->
-    <script src="master.js?v=6"></script>
+    <!-- Language Master game (🏅 in the Play menu). master.js is parked as
+         text/plain (not fetched at first paint, as hanmap_trivia.js is) and
+         injected the first time the game opens. The stub below only labels
+         the launcher and loads the module on demand. -->
+    <script type="text/plain" id="master-src" src="master.js?v=8"></script>
+    <script>
+    (function () {
+        'use strict';
+        var TITLE = {en:'Language Master', ja:'言語マスター', ko:'언어 마스터', zh:'语言大师', yue:'語言大師', vi:'Bậc thầy ngôn ngữ', th:'เซียนภาษา', id:'Master Bahasa', hi:'भाषा मास्टर', de:'Sprachmeister', fr:'Maître des langues', it:'Maestro di lingue', es:'Maestro de idiomas', pt:'Mestre de idiomas', ru:'Мастер языка', uk:'Майстер мови', ar:'سيّد اللغة', he:'אלוף השפה', sw:'Bingwa wa Lugha'};
+        var TAG = {en:'Name 10 words of one language', ja:'ひとつの言語の単語を10問', ko:'한 언어의 단어 10문제', zh:'一种语言的10个单词', yue:'一種語言嘅10個詞', vi:'10 từ của một ngôn ngữ', th:'คำ 10 คำของภาษาเดียว', id:'10 kata dari satu bahasa', hi:'एक भाषा के 10 शब्द', de:'10 Wörter einer Sprache', fr:'10 mots d’une langue', it:'10 parole di una lingua', es:'10 palabras de un idioma', pt:'10 palavras de um idioma', ru:'10 слов одного языка', uk:'10 слів однієї мови', ar:'10 كلمات من لغة واحدة', he:'10 מילים משפה אחת', sw:'Maneno 10 ya lugha moja'};
+        function ui() { return (window.__langmap && window.__langmap.uiLang) || 'en'; }
+        function pk(m) { var u = ui(); return m[u] || m[u.split('_')[0]] || m.en; }
+        function count() { try { return Object.keys(JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {}).length; } catch (e) { return 0; } }
+        function label() {
+            if (window.__lmMasterLoaded) return;      // master.js localizes itself once loaded
+            var l = document.getElementById('master-btn-label'); if (l) l.textContent = pk(TITLE);
+            var b = document.getElementById('master-open'); if (b) { var n = count(); b.title = pk(TAG) + (n ? ' · 🏅 ' + n : ''); }
+        }
+        var loading = null;
+        function open() {
+            if (window.__lmMasterOpen) { window.__lmMasterOpen(); return; }
+            if (!loading) loading = new Promise(function (res) {
+                var ref = document.getElementById('master-src');
+                var s = document.createElement('script');
+                s.src = (ref && ref.getAttribute('src')) || 'master.js';
+                s.onload = s.onerror = function () { res(); };
+                document.head.appendChild(s);
+            });
+            loading.then(function () { if (window.__lmMasterOpen) window.__lmMasterOpen(); });
+        }
+        function init() {
+            var b = document.getElementById('master-open');
+            if (b && !b._stub) { b._stub = true; b.addEventListener('click', function (e) { if (!window.__lmMasterLoaded) { e.stopImmediatePropagation(); open(); } }); }
+            window.__wmGames = window.__wmGames || {};
+            if (!window.__wmGames.master) window.__wmGames.master = open;
+            label();
+            window.addEventListener('langmap:uichange', label);
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+    })();
+    </script>
 </body>
 </html>

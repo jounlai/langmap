@@ -33,6 +33,13 @@
         title: {en:'Language Master', ja:'言語マスター', ko:'언어 마스터', zh:'语言大师', yue:'語言大師', vi:'Bậc thầy ngôn ngữ', th:'เซียนภาษา', id:'Master Bahasa', hi:'भाषा मास्टर', de:'Sprachmeister', fr:'Maître des langues', it:'Maestro di lingue', es:'Maestro de idiomas', pt:'Mestre de idiomas', ru:'Мастер языка', uk:'Майстер мови', ar:'سيّد اللغة', he:'אלוף השפה', sw:'Bingwa wa Lugha'},
         sub: {en:'Pick a language, then name 10 of its words. Get 9 right to master it and earn its badge.', ja:'言語を選んで、その言語の単語を10問当てよう。9問以上正解でマスター、バッジがもらえます。', ko:'언어를 골라 그 언어의 단어 10문제를 맞혀 보세요. 9문제 이상 맞히면 마스터, 배지를 받습니다.', zh:'选一种语言，答对它的10个单词中的9个即可成为大师并获得徽章。', yue:'揀一種語言，答啱佢10個詞入面9個就係大師，攞到徽章。', vi:'Chọn một ngôn ngữ rồi đoán 10 từ của nó. Đúng 9 câu là thành thạo và nhận huy hiệu.', th:'เลือกภาษา แล้วทายคำของภาษานั้น 10 ข้อ ตอบถูก 9 ข้อขึ้นไปจะได้เป็นเซียนและรับเหรียญตรา', id:'Pilih bahasa, lalu tebak 10 katanya. Benar 9 berarti kamu menguasainya dan dapat lencana.', hi:'कोई भाषा चुनें और उसके 10 शब्द पहचानें। 9 सही होने पर आप मास्टर बनेंगे और बैज मिलेगा।', de:'Wähle eine Sprache und errate 10 ihrer Wörter. Mit 9 richtigen meisterst du sie und bekommst ihr Abzeichen.', fr:'Choisissez une langue, puis trouvez 10 de ses mots. 9 bonnes réponses : vous la maîtrisez et gagnez son badge.', it:'Scegli una lingua e indovina 10 sue parole. Con 9 giuste la padroneggi e ottieni il distintivo.', es:'Elige un idioma y acierta 10 de sus palabras. Con 9 aciertos lo dominas y ganas su insignia.', pt:'Escolha um idioma e acerte 10 das suas palavras. Com 9 acertos você o domina e ganha o selo.', ru:'Выберите язык и угадайте 10 его слов. 9 верных ответов — и вы мастер, значок ваш.', uk:'Оберіть мову й вгадайте 10 її слів. 9 правильних — і ви майстер, значок ваш.', ar:'اختر لغة ثم تعرّف على 10 من كلماتها. أجب عن 9 إجابة صحيحة لتتقنها وتنال شارتها.', he:'בחרו שפה וזהו 10 ממילותיה. 9 תשובות נכונות — שלטתם בה וקיבלתם את התג שלה.', sw:'Chagua lugha, kisha taja maneno yake 10. Pata 9 sahihi ili uwe bingwa na upate beji yake.'},
         tag: {en:'Name 10 words of one language', ja:'ひとつの言語の単語を10問', ko:'한 언어의 단어 10문제', zh:'一种语言的10个单词', yue:'一種語言嘅10個詞', vi:'10 từ của một ngôn ngữ', th:'คำ 10 คำของภาษาเดียว', id:'10 kata dari satu bahasa', hi:'एक भाषा के 10 शब्द', de:'10 Wörter einer Sprache', fr:'10 mots d’une langue', it:'10 parole di una lingua', es:'10 palabras de un idioma', pt:'10 palavras de um idioma', ru:'10 слов одного языка', uk:'10 слів однієї мови', ar:'10 كلمات من لغة واحدة', he:'10 מילים משפה אחת', sw:'Maneno 10 ya lugha moja'},
+        brag: {en:'Show off my badges', ja:'バッジを自慢する', ko:'배지 자랑하기', zh:'炫耀我的徽章', yue:'晒吓我嘅徽章', vi:'Khoe huy hiệu', th:'อวดเหรียญตรา', id:'Pamerkan lencanaku', hi:'मेरे बैज दिखाएँ', de:'Abzeichen zeigen', fr:'Montrer mes badges', it:'Mostra i miei distintivi', es:'Presumir mis insignias', pt:'Exibir meus selos', ru:'Похвастаться значками', uk:'Похизуватися значками', ar:'تباهَ بشاراتي', he:'להשוויץ בתגים', sw:'Onyesha beji zangu'},
+        collection: {en:'My badge collection', ja:'バッジコレクション', ko:'배지 컬렉션', zh:'我的徽章收藏', yue:'我嘅徽章收藏', vi:'Bộ sưu tập huy hiệu', th:'คอลเลกชันเหรียญตรา', id:'Koleksi lencanaku', hi:'मेरा बैज संग्रह', de:'Meine Abzeichen', fr:'Ma collection de badges', it:'I miei distintivi', es:'Mi colección de insignias', pt:'Minha coleção de selos', ru:'Моя коллекция значков', uk:'Моя колекція значків', ar:'مجموعة شاراتي', he:'אוסף התגים שלי', sw:'Mkusanyiko wa beji zangu'},
+        count: {en:'{n} languages mastered', ja:'{n}言語をマスター', ko:'{n}개 언어 마스터', zh:'已掌握 {n} 种语言', yue:'搞掂咗 {n} 種語言', vi:'Đã thành thạo {n} ngôn ngữ', th:'เป็นเซียน {n} ภาษา', id:'{n} bahasa dikuasai', hi:'{n} भाषाएँ मास्टर', de:'{n} Sprachen gemeistert', fr:'{n} langues maîtrisées', it:'{n} lingue padroneggiate', es:'{n} idiomas dominados', pt:'{n} idiomas dominados', ru:'Освоено языков: {n}', uk:'Опановано мов: {n}', ar:'أتقنت {n} لغة', he:'{n} שפות נשלטו', sw:'Lugha {n} zimemudu'},
+        shareImg: {en:'Share as image', ja:'画像でシェア', ko:'이미지로 공유', zh:'以图片分享', yue:'用圖片分享', vi:'Chia sẻ dạng ảnh', th:'แชร์เป็นรูปภาพ', id:'Bagikan sebagai gambar', hi:'छवि के रूप में साझा करें', de:'Als Bild teilen', fr:'Partager en image', it:'Condividi come immagine', es:'Compartir como imagen', pt:'Compartilhar como imagem', ru:'Поделиться картинкой', uk:'Поділитися зображенням', ar:'شارك كصورة', he:'שיתוף כתמונה', sw:'Shiriki kama picha'},
+        save: {en:'Download image', ja:'画像を保存', ko:'이미지 저장', zh:'保存图片', yue:'儲存圖片', vi:'Tải ảnh', th:'บันทึกรูปภาพ', id:'Unduh gambar', hi:'छवि डाउनलोड करें', de:'Bild speichern', fr:'Télécharger l’image', it:'Scarica immagine', es:'Descargar imagen', pt:'Baixar imagem', ru:'Скачать картинку', uk:'Завантажити зображення', ar:'تنزيل الصورة', he:'הורדת תמונה', sw:'Pakua picha'},
+        shareText: {en:'I mastered {n} languages in LangMap’s Language Master! 🏅', ja:'LangMapの言語マスターで{n}言語をマスターしました！🏅', ko:'LangMap 언어 마스터에서 {n}개 언어를 마스터했어요! 🏅', zh:'我在 LangMap 的语言大师里掌握了 {n} 种语言！🏅', yue:'我喺 LangMap 語言大師搞掂咗 {n} 種語言！🏅', vi:'Mình đã thành thạo {n} ngôn ngữ trong Language Master của LangMap! 🏅', th:'ฉันเป็นเซียน {n} ภาษาในเกมเซียนภาษาของ LangMap! 🏅', id:'Aku menguasai {n} bahasa di Master Bahasa LangMap! 🏅', hi:'मैंने LangMap के भाषा मास्टर में {n} भाषाएँ मास्टर कीं! 🏅', de:'Ich habe im LangMap-Sprachmeister {n} Sprachen gemeistert! 🏅', fr:'J’ai maîtrisé {n} langues dans Maître des langues de LangMap ! 🏅', it:'Ho padroneggiato {n} lingue in Maestro di lingue di LangMap! 🏅', es:'¡Dominé {n} idiomas en Maestro de idiomas de LangMap! 🏅', pt:'Dominei {n} idiomas no Mestre de idiomas do LangMap! 🏅', ru:'Я освоил(а) {n} языков в «Мастере языка» LangMap! 🏅', uk:'Я опанував(ла) {n} мов у «Майстрі мови» LangMap! 🏅', ar:'أتقنت {n} لغة في لعبة سيّد اللغة على LangMap! 🏅', he:'שלטתי ב-{n} שפות באלוף השפה של LangMap! 🏅', sw:'Nimekuwa bingwa wa lugha {n} kwenye Bingwa wa Lugha wa LangMap! 🏅'},
+        other: {en:'Other', ja:'その他', ko:'기타', zh:'其他', yue:'其他', vi:'Khác', th:'อื่น ๆ', id:'Lainnya', hi:'अन्य', de:'Sonstige', fr:'Autres', it:'Altro', es:'Otros', pt:'Outros', ru:'Другие', uk:'Інші', ar:'أخرى', he:'אחר', sw:'Nyingine'},
         search: {en:'Search a language…', ja:'言語を検索…', ko:'언어 검색…', zh:'搜索语言…', yue:'搜尋語言…', vi:'Tìm ngôn ngữ…', th:'ค้นหาภาษา…', id:'Cari bahasa…', hi:'भाषा खोजें…', de:'Sprache suchen…', fr:'Rechercher une langue…', it:'Cerca una lingua…', es:'Buscar un idioma…', pt:'Buscar um idioma…', ru:'Найти язык…', uk:'Знайти мову…', ar:'ابحث عن لغة…', he:'חיפוש שפה…', sw:'Tafuta lugha…'},
         badges: {en:'Your badges', ja:'獲得したバッジ', ko:'획득한 배지', zh:'已获得的徽章', yue:'攞到嘅徽章', vi:'Huy hiệu của bạn', th:'เหรียญตราของคุณ', id:'Lencanamu', hi:'आपके बैज', de:'Deine Abzeichen', fr:'Vos badges', it:'I tuoi distintivi', es:'Tus insignias', pt:'Seus selos', ru:'Ваши значки', uk:'Ваші значки', ar:'شاراتك', he:'התגים שלך', sw:'Beji zako'},
         none: {en:'No badges yet — master a language to earn one.', ja:'まだバッジはありません。言語をマスターして手に入れよう。', ko:'아직 배지가 없습니다. 언어를 마스터해 보세요.', zh:'还没有徽章——掌握一种语言来获得吧。', yue:'仲未有徽章，搞掂一種語言就有。', vi:'Chưa có huy hiệu — hãy thành thạo một ngôn ngữ.', th:'ยังไม่มีเหรียญตรา ลองเป็นเซียนสักภาษาดูสิ', id:'Belum ada lencana — kuasai satu bahasa untuk mendapatkannya.', hi:'अभी कोई बैज नहीं — कोई भाषा मास्टर करें।', de:'Noch keine Abzeichen – meistere eine Sprache.', fr:'Pas encore de badge — maîtrisez une langue pour en gagner un.', it:'Nessun distintivo — padroneggia una lingua per ottenerne uno.', es:'Aún no tienes insignias: domina un idioma para ganar una.', pt:'Ainda sem selos — domine um idioma para ganhar um.', ru:'Значков пока нет — освойте язык, чтобы получить.', uk:'Значків поки немає — опануйте мову, щоб отримати.', ar:'لا شارات بعد — أتقن لغة لتنال واحدة.', he:'עדיין אין תגים — שלטו בשפה כדי לקבל.', sw:'Bado huna beji — kuwa bingwa wa lugha upate moja.'},
@@ -183,7 +190,7 @@
     }
     // A badge colour per language family, so a collection reads as a map of families.
     function hue(code) {
-        var fam = (((LD()[code] || {}).meta || {}).family || code).split(/[ (,]/)[0];
+        var fam = branchOf(code) || code;
         var h = 0; for (var i = 0; i < fam.length; i++) h = (h * 31 + fam.charCodeAt(i)) % 360;
         return h;
     }
@@ -198,6 +205,59 @@
             + '</svg>';
     }
     function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+
+
+    // ---- grouping: related badges sit together ----------------------------
+    // By language family, then by the family's inner branch, then by name —
+    // so Spanish, Portuguese and Italian land next to each other.
+    function famOf(code) { return String(((LD()[code] || {}).meta || {}).family || ''); }
+    function famTop(code) { return famOf(code).split(/[(,/—]/)[0].trim(); }
+    // Two family names the shared translation table lacks.
+    var FAM_T = {
+        'Indo-European': {en:'Indo-European', ja:'インド・ヨーロッパ語族', ko:'인도유럽어족', zh:'印欧语系', yue:'印歐語系', vi:'Ngữ hệ Ấn-Âu', th:'ตระกูลภาษาอินโด-ยูโรเปียน', id:'Rumpun Indo-Eropa', hi:'हिंद-यूरोपीय', de:'Indogermanisch', fr:'Indo-européen', it:'Indoeuropee', es:'Indoeuropeo', pt:'Indo-europeu', ru:'Индоевропейские', uk:'Індоєвропейські', ar:'الهندو-أوروبية', he:'הודו-אירופיות', sw:'Kihindi-Kiulaya'},
+        'Uralic': {en:'Uralic', ja:'ウラル語族', ko:'우랄어족', zh:'乌拉尔语系', yue:'烏拉爾語系', vi:'Ngữ hệ Ural', th:'ตระกูลภาษายูราลิก', id:'Rumpun Ural', hi:'यूरालिक', de:'Uralisch', fr:'Ouralien', it:'Uraliche', es:'Urálico', pt:'Urálico', ru:'Уральские', uk:'Уральські', ar:'الأورالية', he:'אורליות', sw:'Kiurali'}
+    };
+    function famLabel(f) {
+        if (!f) return pk(T.other);
+        if (FAM_T[f]) return pk(FAM_T[f]);
+        var mi = (typeof META_I18N !== 'undefined' && META_I18N) ? (META_I18N[ui()] || META_I18N[ui().split('_')[0]] || {}) : {};
+        return mi[f] || f;
+    }
+    // meta.family names a branch for some rows (Romance, Slavic, Bantu) and
+    // the whole family for others ("Indo-European (Slavic)"), so map branches
+    // up to their family: one shelf section per family, branches adjacent in it.
+    var FAMILY_OF = {
+        'Indo-European': /^(Indo-European|Romance|Italic|Germanic|Slavic|Baltic|Celtic|Indo-Aryan|Iranian|Indo-Iranian|Hellenic|Greek|Albanian|Armenian|Anatolian|Tocharian|Nuristani)/i,
+        'Sino-Tibetan': /^(Sino-Tibetan|Sinitic|Chinese|Mandarin|Tibeto-Burman|Tibetic|Lolo|Burmish|Karen|Qiangic|Kuki|Naga|Bodish)/i,
+        'Niger-Congo': /^(Niger-Congo|Bantu|Benue|Volta|Kwa|Gur|Atlantic|Adamawa|Ubangi|Kru|Gbe|Yoruboid|Igboid|Edoid|Mande)/i,
+        'Afro-Asiatic': /^(Afro-Asiatic|Afroasiatic|Semitic|Arabic|Cushitic|Berber|Chadic|Omotic|Egyptian)/i,
+        'Austronesian': /^(Austronesian|Malayo|Polynesian|Oceanic|Philippine|Formosan|Micronesian)/i,
+        'Uralic': /^(Uralic|Finnic|Ugric|Samoyed|Sami)/i,
+        'Turkic': /^Turkic/i, 'Japonic': /^(Japonic|Japanese|Ryukyuan)/i, 'Koreanic': /^Korean/i,
+        'Kra-Dai': /^(Kra-Dai|Tai|Tai-Kadai)/i, 'Austroasiatic': /^(Austroasiatic|Mon-Khmer|Vietic|Munda)/i,
+        'Dravidian': /^Dravidian/i, 'Mongolic': /^Mongolic/i, 'Tungusic': /^Tungusic/i
+    };
+    function famMajor(code) {
+        var f = famTop(code);
+        for (var k in FAMILY_OF) if (FAMILY_OF[k].test(f)) return k;
+        return f;
+    }
+    // The branch inside the family, read either way the row writes it.
+    function branchOf(code) {
+        var f = famOf(code), top = famTop(code);
+        if (top === famMajor(code)) { var m = f.match(/\(([^,)]+)/); return m ? m[1].trim() : top; }
+        return top;
+    }
+    function grouped(codes) {
+        var g = {};
+        codes.forEach(function (c) { var f = famMajor(c); (g[f] = g[f] || []).push(c); });
+        var keys = Object.keys(g).sort(function (a, b) { return (g[b].length - g[a].length) || a.localeCompare(b); });
+        if (keys.indexOf('') > 0) { keys.splice(keys.indexOf(''), 1); keys.push(''); }
+        return keys.map(function (f) {
+            return { fam: f, codes: g[f].sort(function (a, b) { return branchOf(a).localeCompare(branchOf(b)) || famOf(a).localeCompare(famOf(b)) || nameOf(a).localeCompare(nameOf(b)); }) };
+        });
+    }
+    function orderedBadges() { var out = []; grouped(Object.keys(loadBadges())).forEach(function (gr) { out = out.concat(gr.codes); }); return out; }
 
     // ---- UI ----------------------------------------------------------------
     var modal = null, box = null, state = { screen: 'pick', code: null, qs: [], idx: 0, score: 0, chosen: -1, filter: '' };
@@ -270,6 +330,7 @@
         if (state.screen === 'pick') renderPick();
         else if (state.screen === 'intro') renderIntro();
         else if (state.screen === 'quiz') renderQuiz();
+        else if (state.screen === 'shelf') renderShelf();
         else renderResult();
     }
 
@@ -291,12 +352,15 @@
         if (!codes.length) shelf.appendChild(el('div', 'font-size:13px;color:#9aa1ad', esc(pk(T.none))));
         else {
             var row = el('div', 'display:flex;gap:6px;overflow-x:auto;padding-bottom:4px');
-            codes.forEach(function (c) {
+            orderedBadges().forEach(function (c) {
                 var b = el('button', 'border:0;background:none;padding:0;cursor:pointer;flex:none', badgeSVG(c, 52));
                 b.type = 'button'; b.title = nameOf(c); b.addEventListener('click', function () { pick(c); });
                 row.appendChild(b);
             });
             shelf.appendChild(row);
+            var bragB = el('button', 'margin-top:4px;padding:6px 12px;border:1px solid #f0c36d;border-radius:999px;background:#fff8e6;color:#8a5a00;font-weight:700;font-size:13px;cursor:pointer', '🏅 ' + esc(pk(T.brag)));
+            bragB.type = 'button'; bragB.addEventListener('click', function () { state.screen = 'shelf'; render(); });
+            shelf.appendChild(bragB);
         }
         box.appendChild(shelf);
         var inp = el('input', 'width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #d8dbe2;border-radius:10px;font-size:15px;flex:none');
@@ -414,6 +478,79 @@
             state.qs = []; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'intro'; render();
         }));
     }
+
+    function renderShelf() {
+        var codes = Object.keys(loadBadges());
+        header('🏅 ' + codes.length);
+        box.appendChild(el('div', 'font-weight:800;font-size:17px;flex:none', esc(pk(T.collection))));
+        box.appendChild(el('div', 'color:#667;font-size:13px;margin-bottom:6px;flex:none', esc(pk(T.count).replace('{n}', codes.length))));
+        var mid = el('div', 'flex:1;min-height:0;overflow-y:auto');
+        grouped(codes).forEach(function (gr) {
+            mid.appendChild(el('div', 'font-size:12px;font-weight:700;color:#8a93a3;margin:10px 0 4px;border-bottom:1px solid #eef0f3;padding-bottom:2px', esc(famLabel(gr.fam)) + ' · ' + gr.codes.length));
+            var wrap = el('div', 'display:flex;flex-wrap:wrap;gap:8px');
+            gr.codes.forEach(function (c) {
+                var cell = el('button', 'border:0;background:none;padding:0;cursor:pointer;width:68px;display:flex;flex-direction:column;align-items:center;gap:2px',
+                    badgeSVG(c, 60) + '<span style="font-size:11px;color:#556;line-height:1.2;text-align:center;word-break:break-word">' + esc(nameOf(c)) + '</span>');
+                cell.type = 'button'; cell.addEventListener('click', function () { pick(c); });
+                wrap.appendChild(cell);
+            });
+            mid.appendChild(wrap);
+        });
+        box.appendChild(mid);
+        var canShare = false;
+        try { canShare = !!(navigator.canShare && navigator.canShare({ files: [new File([new Blob([''], { type: 'image/png' })], 'a.png', { type: 'image/png' })] })); } catch (e) {}
+        if (canShare) box.appendChild(btn(pk(T.shareImg), true, function () { cardBlob(function (blob) {
+            var f = new File([blob], 'langmap-badges.png', { type: 'image/png' });
+            navigator.share({ files: [f], text: shareText(), url: shareUrl() }).catch(function () {});
+        }); }));
+        box.appendChild(btn(pk(T.save), !canShare, function () { cardBlob(function (blob) {
+            var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'langmap-badges.png';
+            document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+        }); }));
+        box.appendChild(btn(pk(T.back), false, function () { state.screen = 'pick'; render(); }));
+    }
+    function shareUrl() { return 'https://langmaps.com/wordmap.html#play=master'; }
+    function shareText() { return pk(T.shareText).replace('{n}', Object.keys(loadBadges()).length); }
+    // The share card: drawn with canvas primitives (no SVG images), grouped by
+    // family like the collection screen.
+    function cardBlob(done) {
+        var groups = grouped(Object.keys(loadBadges()));
+        var W = 1080, PAD = 60, R = 58, CELL = 150, perRow = Math.floor((W - 2 * PAD) / CELL);
+        var h = 250;
+        groups.forEach(function (g) { h += 56 + Math.ceil(g.codes.length / perRow) * (CELL + 18); });
+        h += 110;
+        var cv = document.createElement('canvas'); cv.width = W; cv.height = Math.max(h, 600);
+        var x = cv.getContext('2d');
+        var FONT = "'Noto Sans','Noto Sans JP','Noto Sans KR','Noto Sans SC','Noto Sans Arabic','Noto Sans Hebrew','Noto Sans Devanagari','Noto Sans Thai',sans-serif";
+        x.fillStyle = '#fbf8f1'; x.fillRect(0, 0, W, cv.height);
+        x.fillStyle = '#1b2a44'; x.textAlign = 'center';
+        x.font = '800 64px ' + FONT; x.fillText('🏅 ' + pk(T.title), W / 2, 110);
+        x.font = '600 36px ' + FONT; x.fillStyle = '#8a5a00'; x.fillText(pk(T.count).replace('{n}', Object.keys(loadBadges()).length), W / 2, 170);
+        var y = 240;
+        groups.forEach(function (g) {
+            x.textAlign = 'left'; x.fillStyle = '#8a93a3'; x.font = '700 28px ' + FONT;
+            x.fillText(famLabel(g.fam) + ' · ' + g.codes.length, PAD, y + 30);
+            x.fillStyle = '#e4e0d6'; x.fillRect(PAD, y + 42, W - 2 * PAD, 2);
+            y += 56;
+            g.codes.forEach(function (c, i) {
+                var col = i % perRow, rw = Math.floor(i / perRow);
+                var cx = PAD + col * CELL + CELL / 2, cy = y + rw * (CELL + 18) + R + 6, hu = hue(c);
+                x.beginPath(); x.arc(cx, cy, R, 0, Math.PI * 2); x.fillStyle = 'hsl(' + hu + ',55%,42%)'; x.fill();
+                x.setLineDash([5, 5]); x.lineWidth = 3; x.strokeStyle = 'hsl(' + hu + ',70%,82%)';
+                x.beginPath(); x.arc(cx, cy, R - 9, 0, Math.PI * 2); x.stroke(); x.setLineDash([]);
+                var n = (LD()[c] || {}).native || nameOf(c); if (n.length > 9) n = n.slice(0, 8) + '…';
+                x.textAlign = 'center'; x.fillStyle = '#fff'; x.font = '700 ' + (n.length > 6 ? 17 : 22) + 'px ' + FONT; x.fillText(n, cx, cy + 2);
+                x.fillStyle = 'hsl(' + hu + ',80%,88%)'; x.font = '800 12px ' + FONT; x.fillText(pk(T.master), cx, cy + 24);
+                x.fillStyle = '#556'; x.font = '500 18px ' + FONT;
+                var nm = nameOf(c); if (nm.length > 14) nm = nm.slice(0, 13) + '…';
+                x.fillText(nm, cx, cy + R + 22);
+            });
+            y += Math.ceil(g.codes.length / perRow) * (CELL + 18);
+        });
+        x.textAlign = 'center'; x.fillStyle = '#1b2a44'; x.font = '700 30px ' + FONT;
+        x.fillText('langmaps.com', W / 2, cv.height - 50);
+        cv.toBlob(function (b) { if (b) done(b); }, 'image/png');
+    }
     function renderResult() {
         var won = state.score >= PASS, code = state.code;
         header('★' + state.score + '/' + TOTAL);
@@ -431,6 +568,7 @@
             // A badge earned: the next step is the next language, so the
             // language list (with the new badge on its shelf) is the main button.
             box.appendChild(btn(pk(T.back), true, toPick));
+            box.appendChild(btn('🏅 ' + pk(T.brag), false, function () { state.screen = 'shelf'; render(); }));
         } else {
             box.appendChild(btn(pk(T.again), true, function () {
                 var set = makeSet(code); if (!set) return;
@@ -455,6 +593,8 @@
         if (modal && modal.style.display !== 'none') render();
     }
     function init() {
+        window.__lmMasterLoaded = true;
+        window.__lmMasterOpen = openGame;
         var b = document.getElementById('master-open');
         if (b && !b._wired) { b._wired = true; b.addEventListener('click', openGame); }
         window.__wmGames = window.__wmGames || {}; window.__wmGames.master = openGame;

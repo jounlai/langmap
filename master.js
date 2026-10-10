@@ -38,6 +38,15 @@
         none: {en:'No badges yet — master a language to earn one.', ja:'まだバッジはありません。言語をマスターして手に入れよう。', ko:'아직 배지가 없습니다. 언어를 마스터해 보세요.', zh:'还没有徽章——掌握一种语言来获得吧。', yue:'仲未有徽章，搞掂一種語言就有。', vi:'Chưa có huy hiệu — hãy thành thạo một ngôn ngữ.', th:'ยังไม่มีเหรียญตรา ลองเป็นเซียนสักภาษาดูสิ', id:'Belum ada lencana — kuasai satu bahasa untuk mendapatkannya.', hi:'अभी कोई बैज नहीं — कोई भाषा मास्टर करें।', de:'Noch keine Abzeichen – meistere eine Sprache.', fr:'Pas encore de badge — maîtrisez une langue pour en gagner un.', it:'Nessun distintivo — padroneggia una lingua per ottenerne uno.', es:'Aún no tienes insignias: domina un idioma para ganar una.', pt:'Ainda sem selos — domine um idioma para ganhar um.', ru:'Значков пока нет — освойте язык, чтобы получить.', uk:'Значків поки немає — опануйте мову, щоб отримати.', ar:'لا شارات بعد — أتقن لغة لتنال واحدة.', he:'עדיין אין תגים — שלטו בשפה כדי לקבל.', sw:'Bado huna beji — kuwa bingwa wa lugha upate moja.'},
         family: {en:'Family', ja:'語族', ko:'어족', zh:'语系', yue:'語系', vi:'Ngữ hệ', th:'ตระกูลภาษา', id:'Rumpun', hi:'भाषा-परिवार', de:'Sprachfamilie', fr:'Famille', it:'Famiglia', es:'Familia', pt:'Família', ru:'Семья', uk:'Родина', ar:'العائلة', he:'משפחה', sw:'Familia'},
         speakers: {en:'Speakers', ja:'話者数', ko:'화자 수', zh:'使用人数', yue:'使用人數', vi:'Số người nói', th:'จำนวนผู้พูด', id:'Penutur', hi:'वक्ता', de:'Sprecher', fr:'Locuteurs', it:'Parlanti', es:'Hablantes', pt:'Falantes', ru:'Носители', uk:'Мовці', ar:'المتحدثون', he:'דוברים', sw:'Wazungumzaji'},
+        rule: {en:'To master it: 9 of 10 correct', ja:'マスター条件：10問中9問以上の正解', ko:'마스터 조건: 10문제 중 9문제 이상 정답', zh:'成为大师的条件：10题答对9题以上', yue:'大師條件：10題答啱9題或以上', vi:'Điều kiện: đúng ít nhất 9/10 câu', th:'เงื่อนไข: ตอบถูกอย่างน้อย 9 จาก 10 ข้อ', id:'Syarat: benar minimal 9 dari 10', hi:'शर्त: 10 में से कम से कम 9 सही', de:'Bedingung: mindestens 9 von 10 richtig', fr:'Condition : au moins 9 bonnes réponses sur 10', it:'Condizione: almeno 9 risposte giuste su 10', es:'Condición: al menos 9 aciertos de 10', pt:'Condição: pelo menos 9 de 10 certas', ru:'Условие: не меньше 9 верных из 10', uk:'Умова: щонайменше 9 правильних з 10', ar:'الشرط: 9 إجابات صحيحة على الأقل من 10', he:'התנאי: לפחות 9 תשובות נכונות מתוך 10', sw:'Sharti: angalau 9 sahihi kati ya 10'},
+        ruleShort: {en:'9/10 to master', ja:'9/10でマスター', ko:'9/10이면 마스터', zh:'9/10即为大师', yue:'9/10就係大師', vi:'9/10 là thành thạo', th:'9/10 เป็นเซียน', id:'9/10 untuk menguasai', hi:'9/10 पर मास्टर', de:'9/10 zum Meistern', fr:'9/10 pour maîtriser', it:'9/10 per padroneggiare', es:'9/10 para dominar', pt:'9/10 para dominar', ru:'9/10 — мастер', uk:'9/10 — майстер', ar:'9/10 للإتقان', he:'9/10 לשליטה', sw:'9/10 kuwa bingwa'},
+        left: {en:'Mistakes left: {n}', ja:'あと{n}問ミスできます', ko:'남은 실수 가능 횟수: {n}', zh:'还可以错{n}题', yue:'仲可以錯{n}題', vi:'Còn được sai {n} câu', th:'ผิดได้อีก {n} ข้อ', id:'Sisa kesalahan: {n}', hi:'बची गलतियाँ: {n}', de:'Noch {n} Fehler erlaubt', fr:'Erreurs restantes : {n}', it:'Errori rimasti: {n}', es:'Errores restantes: {n}', pt:'Erros restantes: {n}', ru:'Можно ошибиться ещё: {n}', uk:'Можна помилитися ще: {n}', ar:'الأخطاء المتبقية: {n}', he:'טעויות שנותרו: {n}', sw:'Makosa yaliyobaki: {n}'},
+        out: {en:'Too many mistakes for the badge this time — you can still finish.', ja:'今回はバッジ獲得ならず。最後まで挑戦できます。', ko:'이번에는 배지를 받을 수 없어요. 끝까지 풀 수는 있어요.', zh:'这次拿不到徽章了，但可以答完。', yue:'今次攞唔到徽章，但可以答埋。', vi:'Lần này không đạt huy hiệu — bạn vẫn có thể làm tiếp.', th:'รอบนี้ไม่ได้เหรียญแล้ว แต่ยังเล่นต่อได้', id:'Kali ini lencana lepas — kamu masih bisa menyelesaikan.', hi:'इस बार बैज नहीं मिलेगा — फिर भी पूरा कर सकते हैं।', de:'Diesmal kein Abzeichen – du kannst trotzdem weiterspielen.', fr:'Pas de badge cette fois — vous pouvez finir quand même.', it:'Niente distintivo stavolta — puoi comunque finire.', es:'Esta vez no hay insignia, pero puedes terminar.', pt:'Desta vez sem selo — mas pode terminar.', ru:'В этот раз без значка — но можно доиграть.', uk:'Цього разу без значка — але можна дограти.', ar:'لا شارة هذه المرة — يمكنك الإكمال مع ذلك.', he:'הפעם בלי תג — אפשר להמשיך עד הסוף.', sw:'Mara hii hakuna beji — bado unaweza kumaliza.'},
+        quit: {en:'Quit', ja:'やめる', ko:'그만하기', zh:'退出', yue:'唔玩', vi:'Dừng', th:'เลิก', id:'Berhenti', hi:'छोड़ें', de:'Abbrechen', fr:'Abandonner', it:'Esci', es:'Salir', pt:'Sair', ru:'Выйти', uk:'Вийти', ar:'إنهاء', he:'יציאה', sw:'Acha'},
+        quitask: {en:'Quit this test? Your answers so far will not count.', ja:'この挑戦をやめますか？ここまでの回答は記録されません。', ko:'이 도전을 그만할까요? 지금까지의 답은 기록되지 않습니다.', zh:'要退出吗？目前的作答不会记录。', yue:'唔玩住？到而家嘅答案唔會記錄。', vi:'Dừng bài này? Câu trả lời sẽ không được tính.', th:'เลิกทำแบบทดสอบนี้? คำตอบที่ผ่านมาจะไม่ถูกนับ', id:'Berhenti? Jawabanmu tidak akan dihitung.', hi:'यह टेस्ट छोड़ें? अब तक के उत्तर नहीं गिने जाएँगे।', de:'Test abbrechen? Deine Antworten zählen dann nicht.', fr:'Abandonner ? Vos réponses ne compteront pas.', it:'Uscire? Le risposte date non conteranno.', es:'¿Salir? Tus respuestas no contarán.', pt:'Sair? Suas respostas não vão contar.', ru:'Выйти? Ответы не засчитаются.', uk:'Вийти? Відповіді не зарахуються.', ar:'إنهاء الاختبار؟ لن تُحتسب إجاباتك.', he:'לצאת? התשובות עד כה לא ייספרו.', sw:'Acha jaribio? Majibu yako hayatahesabiwa.'},
+        uiSame: {en:'This is your interface language, so it would be too easy. Switch the interface to another language to take this test.', ja:'表示言語と同じ言語なので簡単すぎます。挑戦するには表示言語をほかの言語に切り替えてください。', ko:'표시 언어와 같은 언어라 너무 쉽습니다. 도전하려면 표시 언어를 다른 언어로 바꿔 주세요.', zh:'这是你的界面语言，太简单了。请把界面切换成其他语言再挑战。', yue:'呢個係你嘅介面語言，太易喇。轉第二種介面語言再挑戰啦。', vi:'Đây là ngôn ngữ giao diện của bạn nên quá dễ. Hãy đổi giao diện sang ngôn ngữ khác để làm bài.', th:'นี่คือภาษาที่ใช้แสดงผลอยู่ จึงง่ายเกินไป เปลี่ยนภาษาที่แสดงผลก่อนจึงจะทำได้', id:'Ini bahasa antarmukamu, jadi terlalu mudah. Ganti bahasa antarmuka untuk mengikuti tes ini.', hi:'यह आपकी इंटरफ़ेस भाषा है, इसलिए बहुत आसान होगा। यह टेस्ट देने के लिए इंटरफ़ेस भाषा बदलें।', de:'Das ist deine Oberflächensprache – zu leicht. Stelle die Oberfläche auf eine andere Sprache um.', fr:'C’est votre langue d’interface : trop facile. Changez la langue de l’interface pour passer ce test.', it:'È la lingua dell’interfaccia: troppo facile. Cambia lingua dell’interfaccia per fare il test.', es:'Es el idioma de la interfaz, así que sería demasiado fácil. Cambia el idioma de la interfaz para hacer esta prueba.', pt:'É o idioma da interface, então seria fácil demais. Troque o idioma da interface para fazer este teste.', ru:'Это язык интерфейса — слишком легко. Переключите интерфейс на другой язык.', uk:'Це мова інтерфейсу — надто легко. Перемкніть інтерфейс на іншу мову.', ar:'هذه لغة الواجهة، فسيكون الأمر سهلًا جدًا. غيّر لغة الواجهة لخوض هذا الاختبار.', he:'זו שפת הממשק שלך, ולכן זה קל מדי. החליפו את שפת הממשק כדי להיבחן.', sw:'Hii ni lugha ya kiolesura chako, kwa hiyo ni rahisi mno. Badilisha lugha ya kiolesura ili ufanye jaribio hili.'},
+        uiTag: {en:'interface language', ja:'表示言語', ko:'표시 언어', zh:'界面语言', yue:'介面語言', vi:'ngôn ngữ giao diện', th:'ภาษาที่แสดง', id:'bahasa antarmuka', hi:'इंटरफ़ेस भाषा', de:'Oberflächensprache', fr:'langue d’interface', it:'lingua dell’interfaccia', es:'idioma de la interfaz', pt:'idioma da interface', ru:'язык интерфейса', uk:'мова інтерфейсу', ar:'لغة الواجهة', he:'שפת הממשק', sw:'lugha ya kiolesura'},
+        already: {en:'Already mastered on {date} ({score}/10). Play again any time.', ja:'{date}にマスター済み（{score}/10）。何度でも挑戦できます。', ko:'{date}에 마스터함 ({score}/10). 언제든 다시 도전할 수 있어요.', zh:'已于{date}掌握（{score}/10），可以随时再挑战。', yue:'{date}已經搞掂（{score}/10），幾時都可以再玩。', vi:'Đã thành thạo ngày {date} ({score}/10). Có thể chơi lại bất cứ lúc nào.', th:'เป็นเซียนแล้วเมื่อ {date} ({score}/10) เล่นซ้ำได้ตลอด', id:'Sudah dikuasai pada {date} ({score}/10). Main lagi kapan saja.', hi:'{date} को मास्टर किया ({score}/10)। कभी भी फिर खेलें।', de:'Bereits gemeistert am {date} ({score}/10). Jederzeit nochmal spielbar.', fr:'Déjà maîtrisée le {date} ({score}/10). Rejouez quand vous voulez.', it:'Già padroneggiata il {date} ({score}/10). Rigioca quando vuoi.', es:'Ya dominado el {date} ({score}/10). Juega otra vez cuando quieras.', pt:'Já dominado em {date} ({score}/10). Jogue de novo quando quiser.', ru:'Уже освоен {date} ({score}/10). Можно сыграть снова.', uk:'Уже опановано {date} ({score}/10). Можна зіграти знову.', ar:'أُتقنت بتاريخ {date} ({score}/10). العب مجددًا متى شئت.', he:'נשלטה ב-{date} ({score}/10). אפשר לשחק שוב מתי שרוצים.', sw:'Uliimudu tarehe {date} ({score}/10). Cheza tena wakati wowote.'},
         start: {en:'Start — 10 questions', ja:'スタート（10問）', ko:'시작 (10문제)', zh:'开始（10题）', yue:'開始（10題）', vi:'Bắt đầu — 10 câu', th:'เริ่ม — 10 ข้อ', id:'Mulai — 10 soal', hi:'शुरू करें — 10 प्रश्न', de:'Start – 10 Fragen', fr:'Commencer — 10 questions', it:'Inizia — 10 domande', es:'Empezar — 10 preguntas', pt:'Começar — 10 perguntas', ru:'Начать — 10 вопросов', uk:'Почати — 10 питань', ar:'ابدأ — 10 أسئلة', he:'התחלה — 10 שאלות', sw:'Anza — maswali 10'},
         back: {en:'Choose another language', ja:'ほかの言語を選ぶ', ko:'다른 언어 선택', zh:'选择其他语言', yue:'揀第二種語言', vi:'Chọn ngôn ngữ khác', th:'เลือกภาษาอื่น', id:'Pilih bahasa lain', hi:'दूसरी भाषा चुनें', de:'Andere Sprache wählen', fr:'Choisir une autre langue', it:'Scegli un’altra lingua', es:'Elegir otro idioma', pt:'Escolher outro idioma', ru:'Выбрать другой язык', uk:'Обрати іншу мову', ar:'اختر لغة أخرى', he:'בחירת שפה אחרת', sw:'Chagua lugha nyingine'},
         q: {en:'What is “{word}” in {lang}?', ja:'{lang}で「{word}」は？', ko:'{lang}로 「{word}」는?', zh:'{lang}的「{word}」是哪个？', yue:'{lang}嘅「{word}」係邊個？', vi:'“{word}” trong {lang} là gì?', th:'“{word}” ใน{lang}คือคำไหน?', id:'Apa “{word}” dalam {lang}?', hi:'{lang} में “{word}” क्या है?', de:'Was heißt „{word}“ auf {lang}?', fr:'Comment dit-on « {word} » en {lang} ?', it:'Come si dice “{word}” in {lang}?', es:'¿Cómo se dice «{word}» en {lang}?', pt:'Como se diz “{word}” em {lang}?', ru:'Как будет «{word}» на языке {lang}?', uk:'Як буде «{word}» мовою {lang}?', ar:'ما «{word}» في {lang}؟', he:'מה זה „{word}” ב{lang}?', sw:'“{word}” kwa {lang} ni nini?'},
@@ -80,6 +89,9 @@
         });
         return out;
     }
+    // A row in the reader's own interface language (or one of its varieties)
+    // would be a giveaway, so it cannot be taken while that UI is on.
+    function isUiLang(code) { var base = ui().split('_')[0]; return code === base || code.indexOf(base + '_') === 0; }
     function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
     function makeSet(code) {
         var cells = cellsOf(code);
@@ -97,6 +109,7 @@
         var b = loadBadges(), prev = b[code];
         if (!prev || score > prev.score) b[code] = { score: score, date: new Date().toISOString().slice(0, 10) };
         try { localStorage.setItem(STORE, JSON.stringify(b)); } catch (e) {}
+        var bt = document.getElementById('master-open'); if (bt) bt.title = pk(T.tag) + ' · 🏅 ' + Object.keys(b).length;
     }
     // A badge colour per language family, so a collection reads as a map of families.
     function hue(code) {
@@ -194,7 +207,8 @@
             rows.slice(0, 200).forEach(function (r) {
                 var it = el('button', 'display:flex;width:100%;align-items:center;justify-content:space-between;gap:8px;padding:9px 6px;border:0;border-bottom:1px solid #f1f2f5;background:none;cursor:pointer;text-align:start;font-size:15px;color:#222',
                     '<span><span>' + esc(r.name) + '</span>' + (r.native && r.native !== r.name ? ' <span style="color:#9aa1ad;font-size:13px" dir="auto">' + esc(r.native) + '</span>' : '') + '</span>'
-                    + (r.done ? '<span style="font-size:12px;color:#0d7a55;white-space:nowrap">🏅 ' + esc(pk(T.mastered)) + '</span>' : ''));
+                    + (r.done ? '<span style="font-size:12px;color:#0d7a55;white-space:nowrap">🏅 ' + esc(pk(T.mastered)) + '</span>'
+                        : isUiLang(r.code) ? '<span style="font-size:12px;color:#9aa1ad;white-space:nowrap">' + esc(pk(T.uiTag)) + '</span>' : ''));
                 it.type = 'button'; it.addEventListener('click', function () { pick(r.code); });
                 list.appendChild(it);
             });
@@ -226,6 +240,8 @@
         mid.appendChild(el('div', 'margin-top:6px', badgeSVG(code, 84)));
         mid.appendChild(el('div', 'font-weight:800;font-size:22px', esc(nameOf(code))));
         if (r.native && r.native !== nameOf(code)) mid.appendChild(el('div', 'color:#667;font-size:16px', '<span dir="auto">' + esc(r.native) + '</span>'));
+        var had = loadBadges()[code];
+        if (had) mid.appendChild(el('div', 'color:#0d7a55;background:#eef9f3;border:1px solid #bfe6d2;border-radius:10px;padding:8px 12px;font-size:14px;font-weight:600', '🏅 ' + esc(pk(T.already).replace('{date}', had.date).replace('{score}', had.score))));
         var facts = [];
         var mi = (typeof META_I18N !== 'undefined' && META_I18N) ? (META_I18N[ui()] || META_I18N[ui().split('_')[0]] || {}) : {};
         if (m.family) facts.push('<b>' + esc(pk(T.family)) + '</b> ' + esc(mi[m.family] || m.family));
@@ -236,7 +252,10 @@
         if (d) mid.appendChild(el('div', 'color:#333;font-size:14px;line-height:1.6;text-align:start;background:#f6f7f9;border-radius:10px;padding:10px 12px', esc(d)));
         else if (!ready) mid.appendChild(el('div', 'color:#9aa1ad;font-size:14px', esc(pk(T.loading))));
         box.appendChild(mid);
-        if (ready) {
+        if (isUiLang(code)) {
+            box.appendChild(el('div', 'color:#8a5a00;background:#fff7e6;border:1px solid #f0d9a8;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.5;margin-top:8px;flex:none', esc(pk(T.uiSame))));
+        } else if (ready) {
+            box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:15px;color:#b45309;background:#fff4e5;border-radius:10px;padding:8px;margin-top:8px;flex:none', '🎯 ' + esc(pk(T.rule))));
             var set = makeSet(code);
             if (set) box.appendChild(btn(pk(T.start), true, function () {
                 state.qs = set; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'quiz'; render();
@@ -248,6 +267,9 @@
     function renderQuiz() {
         var q = state.qs[state.idx], answered = state.chosen >= 0;
         header((state.idx + 1) + '/' + TOTAL + ' · ★' + state.score);
+        var miss = (state.idx + (answered ? 1 : 0)) - state.score, leftN = (TOTAL - PASS) - miss;
+        box.appendChild(el('div', 'text-align:center;font-size:13px;font-weight:700;flex:none;border-radius:8px;padding:5px;' + (leftN >= 0 ? 'color:#b45309;background:#fff4e5' : 'color:#7a8291;background:#f3f4f6'),
+            leftN >= 0 ? '🎯 ' + esc(pk(T.ruleShort)) + ' · ' + esc(pk(T.left).replace('{n}', leftN)) : esc(pk(T.out))));
         var mid = el('div', 'flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;justify-content:safe center');
         var qtext = pk(T.q).replace('{word}', '<b style="color:#222">' + esc(labelOf(q.con)) + '</b>').replace('{lang}', '<b style="color:#222">' + esc(nameOf(state.code)) + '</b>');
         mid.appendChild(el('div', 'color:#556;font-size:17px;margin-bottom:14px;line-height:1.5;text-align:center', qtext));
@@ -278,7 +300,10 @@
         });
         nb.style.visibility = answered ? 'visible' : 'hidden';
         box.appendChild(nb);
-        box.appendChild(btn(pk(T.close), false, hide));
+        box.appendChild(btn(pk(T.quit), false, function () {
+            if (!window.confirm(pk(T.quitask))) return;
+            state.qs = []; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'intro'; render();
+        }));
     }
     function renderResult() {
         var won = state.score >= PASS, code = state.code;
@@ -310,7 +335,7 @@
     }
     function localize() {
         var l = document.getElementById('master-btn-label'); if (l) l.textContent = pk(T.title);
-        var b = document.getElementById('master-open'); if (b) b.title = pk(T.tag);
+        var n = Object.keys(loadBadges()).length; var b = document.getElementById('master-open'); if (b) b.title = pk(T.tag) + (n ? ' · 🏅 ' + n : '');
         if (modal && modal.style.display !== 'none') render();
     }
     function init() {

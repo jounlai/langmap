@@ -739,7 +739,7 @@ WORDS.mountain = {
     abq: ["щхъа", "ɕqa"],
     tcs: ["maunten", "maunten"],
     ekp: ["ebu", "eɓu"],
-    bbo: ["wɔɔ", "wɔː"],
+    bbo: ["tolo", "tolo"],
     rar: ["maunga", "mauŋa"],
     mzh: ["chenaj", "tʃenax"],
     gum: ["tun", "tun"],

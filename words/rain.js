@@ -806,7 +806,7 @@ WORDS.rain = {
     ace: ["ujeuën", "uɟɯən"],
     pmy: ["ujan", "udʒan"],
     abs: ["ujang", "udʒaŋ"],
-    mdh: ["uran", "uran"],
+    mdh: ["ulan", "ˈʔulan"],
     trv: ["quyux", "qujux"],
     cnh: ["ruah", "rua"],
     blt: ["ꪶꪠꪙ", "fon˨"],

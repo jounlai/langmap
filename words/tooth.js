@@ -1137,7 +1137,7 @@ WORDS.tooth = {
     hak_hl: ["牙", "ŋa˥˥"],
     cpx: ["齿", "kʰi˦˥˧"],
     mfa: ["gigi", "ɡiɡi"],
-    mtq: ["săng", "saŋ"],
+    mtq: ["thăng", "tʰaŋ"],
     tyz: ["khẻo", "kʰɛw˨˩˧"],
     kjp: ["မဲ", "mɛ́"],
     kac: ["wa", "wa˧"],

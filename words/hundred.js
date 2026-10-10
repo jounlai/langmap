@@ -438,7 +438,7 @@ WORDS.hundred = {
     as: ["এশ", "ex"],
     or: ["ଶହେ", "ʃɔɦe"],
     rmy: ["šel", "ʃel"],
-    rmf: ["šel", "ʃel"],
+    rmf: ["ȟeel", "xeːl"],
 
     // --- Arabic dialects — Levantine mīyye, Gulf mīyya, Maghrebi mya ------
     ar_sy: ["مية", "ˈmijje"],

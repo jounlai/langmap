@@ -941,7 +941,7 @@ WORDS.ear = {
     tem: ["a-lens", "alɛns"],
     urh: ["ẹso", "ɛso"],
     deg: ["ụsow", "ʊsɔw"],
-    ekp: ["ata", "ata"],
+    ekp: ["ẹtẹ", "ɛtɛ"],
     ets: ["eo", "eo"],
     izz: ["nchị", "ntʃɪ"],
     maw: ["tubri", "tubri"],

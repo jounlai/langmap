@@ -451,7 +451,7 @@ WORDS.eat = {
     vec: ["magnàr", "maˈɲar"],
     co: ["manghjà", "manˈɟa"],
     lij: ["mangiâ", "mandʒaː"],
-    rgn: ["mâgna", "ˈmaɲa"],
+    rgn: ["magnê", "maˈɲeː"],
     egl: ["magnèr", "maˈɲɛɾ"],
     frp: ["mengiér", "mendʒje"],
     ca: ["menjar", "mənʒa"],

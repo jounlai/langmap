@@ -129,7 +129,7 @@ WORDS.night = {
     ake: ["ewaron", "ewaɾon"],
     aoc: ["ewaron", "ewaɾon"],
     gun: ["pytũ", "pɨtũ"],
-    zdj: ["uku", "uku"],
+    zdj: ["masihu", "masihu"],
     ayl: ["ليل", "liːl"],
     abv: ["ليل", "leːl"],
     afb: ["ليل", "leːl"],

@@ -776,7 +776,7 @@ WORDS.blood = {
     ace: ["darah", "darɔh"],
     gay: ["rayoh", "rajɔh"],
     bug: ["dara", "dara"],
-    mdr: ["rara", "rara"],
+    mdr: ["ceraq", "tʃɛraʔ"],
     cia: ["rea", "rea"],
     war: ["dugo", "duˈɡoʔ"],
     bik: ["dugo", "duˈɡoʔ"],

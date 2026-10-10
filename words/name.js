@@ -246,7 +246,7 @@ WORDS.name = {
       rwk: ["irina", "irina"],
       asu: ["izina", "izina"],
       tl: ["pangalan", "paˈŋalan"],
-      agt: ["ngahan", "ˈŋahan"],
+      agt: ["ngagan", "ˈŋaɡan"],
       itb: ["ngaran", "ŋaran"],
       ivv: ["ngaran", "ŋaran"],
       mn: ["нэр", "ner"],

@@ -1034,7 +1034,7 @@ WORDS.bear = {
     jiu: ["a33ø44", "a˧˧ø˦˦"],
     clk: ["jɑŋ55hoŋ55", "jɑŋ˥˥hoŋ˥˥"],
     nuf: ["khui55uɑ35", "kʰui˥˥uɑ˧˥"],
-    njo: ["shim", "ʃim"], // was ["shirem", "ʃiɹem"] (vi dialect rules 2026-10-06)
+    njo: ["shirem", "ʃiɹem"], // was ["shirem", "ʃiɹem"] (vi dialect rules 2026-10-06) // was ["shim", "ʃim"] (vi dialect rules 2026-10-06)
     nzm: ["hegum", "heɡum"],
     nmf: ["singom", "siŋom"],
     acn: ["ɔm55", "ɔm˥˥"],

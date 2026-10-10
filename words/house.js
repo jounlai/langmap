@@ -497,7 +497,7 @@ WORDS.house = {
     zh_kf: ['屋', 'u˨˦'],
     zh_nj: ['房子', 'fɑŋ˩˧ tsɿ'],
     bbl: ['ცʼა', 'tsʼa'],
-    bzg: ['ruma', 'ruma'],
+    bzg: ["don", "don"],
     dru: ['daane', 'daːne'],
     hup: ['xontah', 'xontɑh'],
     kfa: ['ಮನೆ', 'mane'],

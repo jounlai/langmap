@@ -387,7 +387,7 @@ WORDS.person = {
     mnw: ["မၞိဟ်", "mənih"],
     mrq: ["ʻenana", "ʔenana"],
     mrw: ["taw", "taw"],
-    mui: ["urang", "uraŋ"],
+    mui: ["wong", "woŋ"],
     mus: ["este", "isti"],
     mwl: ["pessona", "pɨˈsona"],
     nag: ["manu", "manu"],

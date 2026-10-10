@@ -939,7 +939,7 @@ WORDS.iron = {
     kfx: ["लोहा", "loɦaː"],
     tru: ["ܦܪܙܠܐ", "parzlo"],
     ixl: ["chʼichʼ", "tʃʼitʃʼ"],
-    usp: ["chʼiʼchʼ", "tʃʼiʔtʃʼ"],
+    usp: ["chʼiichʼ", "tʃʼiːtʃʼ"],
     poh: ["chʼihchʼ", "tʃʼihtʃʼ"],
     cuk: ["esgoro", "esɡoɾo"],
     mic: ["qasawoʼq", "xasawoːx"],

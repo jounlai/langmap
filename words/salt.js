@@ -1014,7 +1014,7 @@ WORDS.salt = {
     bin: ["umwẹ", "umwɛ̃"],
     tiv: ["bar", "baɾ"],
     efi: ["inuñ", "inuŋ"],
-    ekp: ["ada", "ada"],
+    ekp: ["aɗa", "aɗa"],
     izz: ["unu", "unu"],
     ibb: ["inụñ", "inʌŋ"],
     urh: ["ughwaka", "uɣʷaka"],

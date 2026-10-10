@@ -932,7 +932,7 @@ WORDS.two = {
       vai: ["ꗱꘌꕟ", "fèːrà"],
       tem: ["ka-rəŋ", "rəŋ"],
       dyu: ["fila", "fìla"],
-      bbo: ["pla", "plà"],
+      bbo: ["pala", "pálà"],
       spp: ["shuunni", "ʃùːnːì"],
       sus: ["firin", "firin"],
       syl: ["দুই", "dui"],

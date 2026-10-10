@@ -867,7 +867,7 @@ WORDS.mouth = {
     agx: ["сив", "siw"],
     abq: ["шӏа", "ʃʼa"],
     tcs: ["maut", "maut"],
-    ekp: ["unu", "unu"],
+    ekp: ["ụnụ", "ʊnʊ"],
     bbo: ["dʋʋ", "dʊː"],
     jvn: ["cangkem", "tʃaŋkəm"],
     xul: ["dhambir", "d̪ambiɻ"],

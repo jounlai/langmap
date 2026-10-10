@@ -213,7 +213,7 @@ WORDS.egg = {
     shx: ["ka11", "ka˩˩"],
     hmn: ["qe", "qe˧"],
     jv: ["endhog", "ənɖɔɡ"],
-    jvn: ["endhog", "ənɖʰɔɡ"],
+    jvn: ["endhog", "ənɖɔɡ"],
     su: ["endog", "əndɔɡ"],
     ceb: ["itlog", "ʔitˈloɡ"],
     ilo: ["itlog", "ʔitˈloɡ"],

@@ -1201,7 +1201,7 @@ WORDS.water = {
     hne: ["पानी", "paːni"],
     mnw: ["ဍာ်", "ɗaʔ"],
     bru: ["daak", "daːk"],
-    bdq: ["dak", "dak"],
+    bdq: ["đak", "ɗaːk"],
     lwl: ["lʼauem", "lᵊʔaɨ̯m"],
     grt: ["chi·", "tʃi"],
     nut: ["nặm", "naːm˨˩"],

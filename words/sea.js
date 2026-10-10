@@ -286,7 +286,7 @@ WORDS.sea = {
     mag: ["समुन्दर", "səmundər"],
     mak: ["tamparang", "tamˈparaŋ"],
     mdf: ["моря", "ˈmorʲa"],
-    mdh: ["ragat", "ˈraɡat"],
+    mdh: ["lagat", "ˈlaɡat"],
     meu: ["davara", "davara"],
     mfe: ["lamer", "lamer"],
     mg: ["ranomasina", "ranuˈmasina"],

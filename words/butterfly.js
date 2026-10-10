@@ -619,7 +619,7 @@ WORDS.butterfly = {
     frr: ["flenerk", "ˈflenərk"],
     an: ["paxarela", "paʃaˈɾela"],
     abq: ["лымхӏарыгӏв", "ləmħarəʁʷ"],
-    bbo: ["kɛŋkɛlɛɛnʋʋ", "kɛŋkɛlɛːnʊː"],
+    bbo: ["—", "—"],
     tcs: ["bataplai", "bataplai"],
     rar: ["pepe", "pepe"],
     wba: ["warowaro", "waɾowaɾo"],

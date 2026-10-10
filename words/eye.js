@@ -641,7 +641,7 @@ WORDS.eye = {
     ngu: ["ixtololo", "iʃtololo"],
     ppl: ["ish", "iʃ"],
     crn: ["húi", "hwi"],
-    emy: ["ich", "itʃ"],
+    emy: ["ut", "ut"],
     p_ine: ["*h₃ékʷ-", "h₃ékʷ"],
     p_toc: ["*ëk", "ək"],   // no published Proto-Tocharian reconstruction found
     p_jpn: ["*may", "may"],
@@ -931,7 +931,7 @@ WORDS.eye = {
     vai: ["ꕰ", "ɲa"],
     tem: ["ari", "ari"],
     dyu: ["ɲɛ", "ɲɛ"],
-    bbo: ["ɲɛ", "ɲɛ"],
+    bbo: ["ɲono", "ɲono"],
     spp: ["fyaha", "fjaha"],
     sus: ["ya", "ja"],
     syl: ["ছকু", "ʃoku"],

@@ -702,7 +702,7 @@ WORDS.book = {
     nhe: ["amoxtli", "aˈmoʃtɬi"],
     guc: ["karaloukta", "karaloukta"],
     cab: ["líburu", "ˈlibuɾu"],
-    ctu: ["jun", "hun"],
+    ctu: ["juñ", "huɲ"],
     maw: ["bukku", "bukːu"],
     bto: ["libro", "libˈɾo"],
     nxq: ["tei'ee", "tʰe˧ɰɯ˧"],

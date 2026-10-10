@@ -39,7 +39,8 @@
         family: {en:'Family', ja:'語族', ko:'어족', zh:'语系', yue:'語系', vi:'Ngữ hệ', th:'ตระกูลภาษา', id:'Rumpun', hi:'भाषा-परिवार', de:'Sprachfamilie', fr:'Famille', it:'Famiglia', es:'Familia', pt:'Família', ru:'Семья', uk:'Родина', ar:'العائلة', he:'משפחה', sw:'Familia'},
         speakers: {en:'Speakers', ja:'話者数', ko:'화자 수', zh:'使用人数', yue:'使用人數', vi:'Số người nói', th:'จำนวนผู้พูด', id:'Penutur', hi:'वक्ता', de:'Sprecher', fr:'Locuteurs', it:'Parlanti', es:'Hablantes', pt:'Falantes', ru:'Носители', uk:'Мовці', ar:'المتحدثون', he:'דוברים', sw:'Wazungumzaji'},
         rule: {en:'To master it: 9 of 10 correct', ja:'マスター条件：10問中9問以上の正解', ko:'마스터 조건: 10문제 중 9문제 이상 정답', zh:'成为大师的条件：10题答对9题以上', yue:'大師條件：10題答啱9題或以上', vi:'Điều kiện: đúng ít nhất 9/10 câu', th:'เงื่อนไข: ตอบถูกอย่างน้อย 9 จาก 10 ข้อ', id:'Syarat: benar minimal 9 dari 10', hi:'शर्त: 10 में से कम से कम 9 सही', de:'Bedingung: mindestens 9 von 10 richtig', fr:'Condition : au moins 9 bonnes réponses sur 10', it:'Condizione: almeno 9 risposte giuste su 10', es:'Condición: al menos 9 aciertos de 10', pt:'Condição: pelo menos 9 de 10 certas', ru:'Условие: не меньше 9 верных из 10', uk:'Умова: щонайменше 9 правильних з 10', ar:'الشرط: 9 إجابات صحيحة على الأقل من 10', he:'התנאי: לפחות 9 תשובות נכונות מתוך 10', sw:'Sharti: angalau 9 sahihi kati ya 10'},
-        keys: {en:'Keys: 1–4 to answer · Space for next', ja:'キー操作：1〜4で回答・スペースで次へ', ko:'키보드: 1~4로 답하기 · 스페이스로 다음', zh:'键盘：1–4 作答 · 空格键下一题', yue:'鍵盤：1–4 答題 · 空白鍵下一題', vi:'Phím: 1–4 để trả lời · Space để tiếp', th:'คีย์: 1–4 ตอบ · Space ไปต่อ', id:'Tombol: 1–4 untuk menjawab · Spasi untuk lanjut', hi:'कुंजियाँ: 1–4 उत्तर · Space अगला', de:'Tasten: 1–4 antworten · Leertaste weiter', fr:'Touches : 1–4 pour répondre · Espace pour continuer', it:'Tasti: 1–4 per rispondere · Spazio per avanti', es:'Teclas: 1–4 para responder · Espacio para seguir', pt:'Teclas: 1–4 para responder · Espaço para avançar', ru:'Клавиши: 1–4 — ответ · Пробел — далее', uk:'Клавіші: 1–4 — відповідь · Пробіл — далі', ar:'المفاتيح: 1–4 للإجابة · المسافة للتالي', he:'מקשים: 1–4 לתשובה · רווח להמשך', sw:'Vitufe: 1–4 kujibu · Space kuendelea'},
+        keys: {en:'Keys: 1–4 to answer · Space or Enter for next', ja:'キー操作：1〜4で回答・スペース／エンターで次へ', ko:'키보드: 1~4로 답하기 · 스페이스/엔터로 다음', zh:'键盘：1–4 作答 · 空格或回车下一题', yue:'鍵盤：1–4 答題 · 空白鍵或Enter下一題', vi:'Phím: 1–4 để trả lời · Space để tiếp', th:'คีย์: 1–4 ตอบ · Space ไปต่อ', id:'Tombol: 1–4 untuk menjawab · Spasi untuk lanjut', hi:'कुंजियाँ: 1–4 उत्तर · Space अगला', de:'Tasten: 1–4 antworten · Leertaste weiter', fr:'Touches : 1–4 pour répondre · Espace pour continuer', it:'Tasti: 1–4 per rispondere · Spazio per avanti', es:'Teclas: 1–4 para responder · Espacio para seguir', pt:'Teclas: 1–4 para responder · Espaço para avançar', ru:'Клавиши: 1–4 — ответ · Пробел — далее', uk:'Клавіші: 1–4 — відповідь · Пробіл — далі', ar:'المفاتيح: 1–4 للإجابة · المسافة للتالي', he:'מקשים: 1–4 לתשובה · רווח להמשך', sw:'Vitufe: 1–4 kujibu · Space kuendelea'},
+        dialectNote: {en:'Dialect mode: the choices are the same word in neighbouring dialects — tell them apart by spelling and pronunciation. If another dialect says it exactly the same way, that choice is correct too.', ja:'方言モード：選択肢は同じ単語の周辺の方言形です。文字や発音の違いで見分けてください。ほかの方言とまったく同じ形なら、それも正解です。', ko:'방언 모드: 선택지는 같은 단어의 주변 방언형입니다. 철자와 발음 차이로 구별하세요. 다른 방언과 형태가 똑같으면 그것도 정답입니다.', zh:'方言模式：选项是同一个词在周边方言中的说法，请靠字形和读音分辨。若与其他方言完全相同，也算正确。', yue:'方言模式：選項係同一個詞喺附近方言嘅講法，要靠字同讀音分。如果同其他方言一模一樣，都算啱。', vi:'Chế độ phương ngữ: các lựa chọn là cùng một từ ở các phương ngữ lân cận — phân biệt bằng chữ viết và cách đọc. Nếu phương ngữ khác nói y hệt thì cũng đúng.', th:'โหมดภาษาถิ่น: ตัวเลือกคือคำเดียวกันในภาษาถิ่นใกล้เคียง แยกด้วยตัวสะกดและเสียงอ่าน ถ้าภาษาถิ่นอื่นพูดเหมือนกันทุกอย่างก็ถือว่าถูก', id:'Mode dialek: pilihan adalah kata yang sama dalam dialek-dialek tetangga — bedakan dari ejaan dan pengucapan. Jika dialek lain persis sama, itu juga benar.', hi:'बोली मोड: विकल्प पड़ोसी बोलियों में वही शब्द हैं — वर्तनी और उच्चारण से पहचानें। किसी दूसरी बोली में बिल्कुल वही रूप हो तो वह भी सही है।', de:'Dialektmodus: Die Antworten sind dasselbe Wort in benachbarten Dialekten – unterscheide sie an Schreibung und Aussprache. Sagt ein anderer Dialekt es genauso, zählt das auch.', fr:'Mode dialecte : les choix sont le même mot dans des dialectes voisins — distinguez-les par l’orthographe et la prononciation. Si un autre dialecte le dit exactement pareil, c’est juste aussi.', it:'Modalità dialetto: le scelte sono la stessa parola in dialetti vicini — distinguile da grafia e pronuncia. Se un altro dialetto la dice uguale, vale anche quella.', es:'Modo dialecto: las opciones son la misma palabra en dialectos vecinos; distíngelas por la escritura y la pronunciación. Si otro dialecto la dice igual, también vale.', pt:'Modo dialeto: as opções são a mesma palavra em dialetos vizinhos — distinga pela grafia e pronúncia. Se outro dialeto diz igualzinho, também vale.', ru:'Режим диалектов: варианты — то же слово в соседних диалектах; различайте по написанию и произношению. Если другой диалект говорит точно так же, это тоже верно.', uk:'Режим діалектів: варіанти — те саме слово в сусідніх діалектах; розрізняйте за написанням і вимовою. Якщо інший діалект каже так само, це теж правильно.', ar:'وضع اللهجات: الخيارات هي الكلمة نفسها في لهجات مجاورة — ميّز بينها بالكتابة والنطق. إذا قالتها لهجة أخرى بالشكل نفسه تمامًا فهي صحيحة أيضًا.', he:'מצב ניבים: האפשרויות הן אותה מילה בניבים שכנים — הבחינו לפי כתיב והגייה. אם ניב אחר אומר בדיוק אותו דבר, גם זה נכון.', sw:'Hali ya lahaja: chaguo ni neno lilelile katika lahaja jirani — zitofautishe kwa tahajia na matamshi. Lahaja nyingine ikilisema vivyo hivyo, hilo pia ni sahihi.'},
         ruleShort: {en:'9/10 to master', ja:'9/10でマスター', ko:'9/10이면 마스터', zh:'9/10即为大师', yue:'9/10就係大師', vi:'9/10 là thành thạo', th:'9/10 เป็นเซียน', id:'9/10 untuk menguasai', hi:'9/10 पर मास्टर', de:'9/10 zum Meistern', fr:'9/10 pour maîtriser', it:'9/10 per padroneggiare', es:'9/10 para dominar', pt:'9/10 para dominar', ru:'9/10 — мастер', uk:'9/10 — майстер', ar:'9/10 للإتقان', he:'9/10 לשליטה', sw:'9/10 kuwa bingwa'},
         left: {en:'Mistakes left: {n}', ja:'あと{n}問ミスできます', ko:'남은 실수 가능 횟수: {n}', zh:'还可以错{n}题', yue:'仲可以錯{n}題', vi:'Còn được sai {n} câu', th:'ผิดได้อีก {n} ข้อ', id:'Sisa kesalahan: {n}', hi:'बची गलतियाँ: {n}', de:'Noch {n} Fehler erlaubt', fr:'Erreurs restantes : {n}', it:'Errori rimasti: {n}', es:'Errores restantes: {n}', pt:'Erros restantes: {n}', ru:'Можно ошибиться ещё: {n}', uk:'Можна помилитися ще: {n}', ar:'الأخطاء المتبقية: {n}', he:'טעויות שנותרו: {n}', sw:'Makosa yaliyobaki: {n}'},
         out: {en:'Too many mistakes for the badge this time — you can still finish.', ja:'今回はバッジ獲得ならず。最後まで挑戦できます。', ko:'이번에는 배지를 받을 수 없어요. 끝까지 풀 수는 있어요.', zh:'这次拿不到徽章了，但可以答完。', yue:'今次攞唔到徽章，但可以答埋。', vi:'Lần này không đạt huy hiệu — bạn vẫn có thể làm tiếp.', th:'รอบนี้ไม่ได้เหรียญแล้ว แต่ยังเล่นต่อได้', id:'Kali ini lencana lepas — kamu masih bisa menyelesaikan.', hi:'इस बार बैज नहीं मिलेगा — फिर भी पूरा कर सकते हैं।', de:'Diesmal kein Abzeichen – du kannst trotzdem weiterspielen.', fr:'Pas de badge cette fois — vous pouvez finir quand même.', it:'Niente distintivo stavolta — puoi comunque finire.', es:'Esta vez no hay insignia, pero puedes terminar.', pt:'Desta vez sem selo — mas pode terminar.', ru:'В этот раз без значка — но можно доиграть.', uk:'Цього разу без значка — але можна дограти.', ar:'لا شارة هذه المرة — يمكنك الإكمال مع ذلك.', he:'הפעם בלי תג — אפשר להמשיך עד הסוף.', sw:'Mara hii hakuna beji — bado unaweza kumaliza.'},
@@ -92,16 +93,79 @@
     }
     // A row in the reader's own interface language (or one of its varieties)
     // would be a giveaway, so it cannot be taken while that UI is on.
-    function isUiLang(code) { var base = ui().split('_')[0]; return code === base || code.indexOf(base + '_') === 0; }
+    // Its dialects stay playable: dialect mode quizzes them against each other.
+    function isUiLang(code) { return code === ui().split('_')[0]; }
     function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-    function makeSet(code) {
-        var cells = cellsOf(code);
-        if (cells.length < MIN_CELLS) return null;
-        var picks = shuffle(cells).slice(0, TOTAL);
-        return picks.map(function (ans) {
-            var others = shuffle(cells.filter(function (c) { return c.s !== ans.s; })).slice(0, CHOICES - 1);
-            return { con: ans.con, options: shuffle([ans].concat(others)), answer: ans.s };
+    // ---- dialect mode ------------------------------------------------------
+    // A dialect row quizzed against its own other words is too easy (they are
+    // mostly the standard language's). So for a dialect the four choices are
+    // the SAME concept in neighbouring dialects of the same language — the
+    // reader has to tell them apart by spelling or pronunciation. A choice is
+    // identified by spelling + IPA, so a neighbour that shares the target's
+    // exact word is the same choice, and it is the correct one.
+    function baseOf(code) {
+        var r = LD()[code] || {}, m = r.meta || {};
+        if (m.parentCode) return m.parentCode;
+        var i = code.indexOf('_');
+        return (i > 0 && LD()[code.slice(0, i)]) ? code.slice(0, i) : null;
+    }
+    // The language a variety belongs to: follow parentCode / code prefix up to
+    // the top (es_pr -> es_mx -> es), so all its varieties count as neighbours.
+    function rootOf(code) {
+        var seen = {}, c = code, b;
+        while ((b = baseOf(c)) && !seen[b]) { seen[b] = 1; c = b; }
+        return c;
+    }
+    function siblingsOf(code) {
+        if (!baseOf(code)) return [];
+        var root = rootOf(code), d = LD(), me = d[code] || {}, out = [];
+        Object.keys(d).forEach(function (k) {
+            if (k === code || EXC().has(k)) return;
+            if (k === root || rootOf(k) === root) out.push(k);
         });
+        var dist = function (k) { var r = d[k]; return (typeof r.lat === 'number' && typeof me.lat === 'number') ? Math.hypot(r.lat - me.lat, r.lng - me.lng) : 999; };
+        return out.sort(function (a, b) { return dist(a) - dist(b); }).slice(0, 16);
+    }
+    function cellOf(code, con) {
+        var e = ((LD()[code] || {}).words || {})[con], s2, ipa;
+        if (Array.isArray(e)) { s2 = e[0]; ipa = e[1]; } else if (e && typeof e === 'object') { s2 = e.form; ipa = e.ipa; }
+        return (s2 && s2 !== '—') ? { s: s2, ipa: ipa || '' } : null;
+    }
+    function dialectQ(code, con, sibs) {
+        var me = cellOf(code, con); if (!me) return null;
+        var key = function (c) { return c.s + '|' + c.ipa; };
+        var ans = { s: me.s, ipa: me.ipa, con: con, key: key(me), who: [code] }, opts = [ans], byKey = {};
+        byKey[ans.key] = ans;
+        sibs.forEach(function (k) {                  // nearest first
+            var c = cellOf(k, con); if (!c) return;
+            var o = byKey[key(c)];
+            if (o) { o.who.push(k); return; }          // same word as an existing choice
+            if (opts.length >= CHOICES) return;
+            o = { s: c.s, ipa: c.ipa, con: con, key: key(c), who: [k] };
+            byKey[o.key] = o; opts.push(o);
+        });
+        return opts.length >= CHOICES ? { con: con, options: shuffle(opts), answer: ans.key, dialect: true } : null;
+    }
+    function makeSet(code) {
+        var cells = cellsOf(code), sibs = siblingsOf(code), qs = [], used = {};
+        if (sibs.length >= CHOICES - 1) {
+            shuffle(cells).forEach(function (c) {
+                if (qs.length >= TOTAL) return;
+                var q = dialectQ(code, c.con, sibs); if (q) { qs.push(q); used[c.con] = 1; }
+            });
+        }
+        // Ordinary questions (the row's own words) for a non-dialect, or to top
+        // up a dialect that has fewer than 10 concepts its neighbours split on.
+        if (qs.length < TOTAL) {
+            if (cells.length < MIN_CELLS) return qs.length >= TOTAL ? qs : null;
+            shuffle(cells.filter(function (c) { return !used[c.con]; })).slice(0, TOTAL - qs.length).forEach(function (ans) {
+                var others = shuffle(cells.filter(function (c) { return c.s !== ans.s; })).slice(0, CHOICES - 1)
+                    .map(function (c) { return { s: c.s, ipa: c.ipa, con: c.con, key: c.s }; });
+                var a = { s: ans.s, ipa: ans.ipa, con: ans.con, key: ans.s };
+                qs.push({ con: ans.con, options: shuffle([a].concat(others)), answer: a.key });
+            });
+        }
+        return shuffle(qs);
     }
 
     // ---- badges (this browser only) ---------------------------------------
@@ -138,7 +202,7 @@
     function stopAuto() { if (autoT) { clearInterval(autoT); autoT = null; } }
     function answer(i) {
         var q = state.qs[state.idx]; if (!q || state.chosen >= 0 || !q.options[i]) return;
-        state.chosen = i; if (q.options[i].s === q.answer) state.score++;
+        state.chosen = i; if (q.options[i].key === q.answer) state.score++;
         stopAuto(); autoLeft = AUTO;
         autoT = setInterval(function () {
             autoLeft--;
@@ -257,7 +321,7 @@
     function pick(code) {
         state.code = code; state.screen = 'intro'; render();
         var jobs = [];
-        if (window.__wmEnsureLangWords) jobs.push(window.__wmEnsureLangWords(code));
+        if (window.__wmEnsureLangWords) [code].concat(siblingsOf(code)).forEach(function (k) { jobs.push(window.__wmEnsureLangWords(k)); });
         if (window.__langmap && window.__langmap.loadLangDesc) jobs.push(window.__langmap.loadLangDesc(code));
         Promise.all(jobs).then(function () { if (state.screen === 'intro' && state.code === code) render(); }, function () {});
     }
@@ -283,7 +347,7 @@
         if (m.family) facts.push('<b>' + esc(pk(T.family)) + '</b> ' + esc(mi[m.family] || m.family));
         if (m.speakers) facts.push('<b>' + esc(pk(T.speakers)) + '</b> ' + esc(m.speakers));
         if (facts.length) mid.appendChild(el('div', 'color:#556;font-size:13px;line-height:1.6', facts.join('<br>')));
-        var ready = !window.__wmLangWordsLoaded || window.__wmLangWordsLoaded(code);
+        var ready = !window.__wmLangWordsLoaded || [code].concat(siblingsOf(code)).every(function (k) { return window.__wmLangWordsLoaded(k); });
         var d = descOf(code);
         if (d) mid.appendChild(el('div', 'color:#333;font-size:14px;line-height:1.6;text-align:start;background:#f6f7f9;border-radius:10px;padding:10px 12px', esc(d)));
         else if (!ready) mid.appendChild(el('div', 'color:#9aa1ad;font-size:14px', esc(pk(T.loading))));
@@ -292,6 +356,7 @@
             box.appendChild(el('div', 'color:#8a5a00;background:#fff7e6;border:1px solid #f0d9a8;border-radius:10px;padding:10px 12px;font-size:14px;line-height:1.5;margin-top:8px;flex:none', esc(pk(T.uiSame))));
         } else if (ready) {
             box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:15px;color:#b45309;background:#fff4e5;border-radius:10px;padding:8px;margin-top:8px;flex:none', '🎯 ' + esc(pk(T.rule))));
+            if (siblingsOf(code).length >= CHOICES - 1) box.appendChild(el('div', 'font-size:12.5px;line-height:1.5;color:#3b5b8a;background:#eef4fb;border-radius:10px;padding:8px 10px;margin-top:6px;flex:none', '🗺️ ' + esc(pk(T.dialectNote))));
             var set = makeSet(code);
             if (set) box.appendChild(btn(pk(T.start), true, function () {
                 state.qs = set; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'quiz'; render();
@@ -311,7 +376,7 @@
         mid.appendChild(el('div', 'color:#556;font-size:17px;margin-bottom:14px;line-height:1.5;text-align:center', qtext));
         q.options.forEach(function (o, i) {
             var css = 'width:100%;box-sizing:border-box;min-height:58px;padding:8px 12px;margin-bottom:7px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;color:#222;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center';
-            var isAns = o.s === q.answer;
+            var isAns = o.key === q.answer;
             if (answered) {
                 css = css.replace('cursor:pointer', 'cursor:default');
                 if (isAns) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55';
@@ -322,14 +387,15 @@
                 '<span aria-hidden="true" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">' + (i + 1) + '</span>'
                 + '<span style="font-size:20px;line-height:1.2" dir="auto">' + esc(o.s) + '</span>'
                 + (o.ipa ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">/' + esc(o.ipa) + '/</span>' : '')
-                + (answered && !isAns ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">= ' + esc(labelOf(o.con)) + '</span>' : ''));
+                + (answered && q.dialect ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">' + esc(o.who.map(nameOf).slice(0, 2).join(' · ') + (o.who.length > 2 ? ' +' + (o.who.length - 2) : '')) + '</span>'
+                    : answered && !isAns ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">= ' + esc(labelOf(o.con)) + '</span>' : ''));
             b.type = 'button';
             b.setAttribute('aria-keyshortcuts', String(i + 1));
             if (!answered) b.addEventListener('click', function () { answer(i); });
             mid.appendChild(b);
         });
         box.appendChild(mid);
-        var ok = answered && q.options[state.chosen].s === q.answer;
+        var ok = answered && q.options[state.chosen].key === q.answer;
         box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:16px;margin:4px 0 0;flex:none;color:' + (ok ? '#0d9f6e' : '#d4506a') + ';visibility:' + (answered ? 'visible' : 'hidden'), esc(answered ? (ok ? pk(T.correct) : pk(T.wrong)) : pk(T.correct))));
         var nb = btn(nextLabel() + (answered && autoT ? ' (' + autoLeft + ')' : ''), true, advance);
         nb.id = 'lm-master-next'; nb.setAttribute('aria-keyshortcuts', 'Space');

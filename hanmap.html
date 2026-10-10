@@ -12584,9 +12584,21 @@
         function el(tag, css, html) { const e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
         function build() {
             modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px;font-family:inherit');
-            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;height:min(94vh,650px);overflow:hidden;padding:20px 22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column');
+            const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;height:min(94vh,670px);overflow:hidden;padding:20px 22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column');
             box.id = 'lm-hquiz-box';
             modal.appendChild(box);
+            // Keyboard, as in Language Master: 1–N answer, Space/Enter next, Esc closes.
+            document.addEventListener('keydown', e => {
+                if (!modal || modal.style.display === 'none') return;
+                if (e.key === 'Escape') { hide(); return; }
+                if (e.ctrlKey || e.metaKey || e.altKey) return;
+                const t = e.target; if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
+                if (!qs.length || idx >= qs.length) return;
+                if (!answered) {
+                    const n = '123456789'.indexOf(e.key);
+                    if (n >= 0 && n < qs[idx].options.length) { e.preventDefault(); answer(n); }
+                } else if (e.key === ' ' || e.key === 'Spacebar' || e.key === 'Enter') { e.preventDefault(); next(); }
+            });
             // Short screens: the five options sat in a scrolling middle band and
             // three of them were below the fold at 500px. Shrink the character,
             // prompt, option buttons and spacing in two steps so all five fit.
@@ -12602,6 +12614,7 @@
   #lm-hquiz-box .hq-fb { margin: 4px 0 0 !important; font-size: 15px !important; }
   #lm-hquiz-box .hq-next { margin-top: 6px !important; padding: 10px !important; }
   #lm-hquiz-box .hq-close { margin-top: 4px !important; padding: 6px !important; }
+  #lm-hquiz-box .hq-keys { display: none !important; }
 }
 @media (max-height: 600px) {
   #lm-hquiz-box { padding: 10px 16px !important; }
@@ -12619,6 +12632,9 @@
             document.body.appendChild(modal);
         }
         function hide() { if (modal) modal.style.display = 'none'; if (window.__hmOpenGame === 'hquiz') { window.__hmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
+        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); }
+        function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); }
+        const KEYS = {"en": "Keys: 1–{n} to answer · Space or Enter for next · Esc to close", "ja": "キー操作：1〜{n}で回答・スペース／エンターで次へ・Escで閉じる", "ko": "키보드: 1~{n}로 답하기 · 스페이스/엔터로 다음 · Esc로 닫기", "zh": "键盘：1–{n} 作答 · 空格或回车下一题 · Esc 关闭", "yue": "鍵盤：1–{n} 答題 · 空白鍵或Enter下一題 · Esc 關閉", "vi": "Phím: 1–{n} để trả lời · Space để tiếp · Esc để đóng", "th": "คีย์: 1–{n} ตอบ · Space ไปต่อ · Esc ปิด", "id": "Tombol: 1–{n} untuk menjawab · Spasi untuk lanjut · Esc untuk menutup", "hi": "कुंजियाँ: 1–{n} उत्तर · Space अगला · Esc बंद", "de": "Tasten: 1–{n} antworten · Leertaste weiter · Esc schließen", "fr": "Touches : 1–{n} pour répondre · Espace pour continuer · Échap pour fermer", "it": "Tasti: 1–{n} per rispondere · Spazio per avanti · Esc per chiudere", "es": "Teclas: 1–{n} para responder · Espacio para seguir · Esc para cerrar", "pt": "Teclas: 1–{n} para responder · Espaço para avançar · Esc para fechar", "ru": "Клавиши: 1–{n} — ответ · Пробел — далее · Esc — закрыть", "uk": "Клавіші: 1–{n} — відповідь · Пробіл — далі · Esc — закрити", "ar": "المفاتيح: 1–{n} للإجابة · المسافة للتالي · Esc للإغلاق", "he": "מקשים: 1–{n} לתשובה · רווח להמשך · Esc לסגירה", "sw": "Vitufe: 1–{n} kujibu · Space kuendelea · Esc kufunga"};
         function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
         function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); window.__hmOpenGame = 'hquiz'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
         const accent = 'var(--accent, #2e6fb8)';
@@ -12657,10 +12673,10 @@
                         else if (i === chosen) css += ';border-color:#e2a3af;background:#fdf1f3;color:#c0405a';
                         else css += ';opacity:.5';
                     }
-                    const b = el('button', css);
-                    b.className = 'hq-opt';
-                    b.innerHTML = `<div style="line-height:1.15">${txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#9aa1ad;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
-                    if (!answered) b.addEventListener('click', () => { answered = true; chosen = i; if (o.correct) score++; render(); });
+                    const b = el('button', css + ';position:relative');
+                    b.className = 'hq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
+                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#9aa1ad;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
+                    if (!answered) b.addEventListener('click', () => answer(i));
                     mid.appendChild(b);
                 });
                 box.appendChild(mid);
@@ -12670,10 +12686,15 @@
                 const fb = el('div', `text-align:center;font-weight:800;font-size:16px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct));
                 fb.className = 'hq-fb'; box.appendChild(fb);
                 const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:${accent};color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none;visibility:${answered ? 'visible' : 'hidden'}`);
-                nb.className = 'hq-next';
+                nb.className = 'hq-next'; nb.setAttribute('aria-keyshortcuts', 'Space');
                 nb.textContent = !answered ? pk(Q.next) : ((idx + 1 >= TOTAL) ? pk(Q.result).replace('{score}', score).replace('{total}', TOTAL) : pk(Q.next));
-                if (answered) nb.addEventListener('click', () => { idx++; answered = false; chosen = -1; render(); });
+                if (answered) nb.addEventListener('click', next);
                 box.appendChild(nb);
+                // Key hint for mouse/keyboard devices only (as in Language Master).
+                if (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+                    const kh = el('div', 'text-align:center;font-size:11px;color:#aab1bd;margin-top:6px;flex:none', pk(KEYS).replace('{n}', q.options.length));
+                    kh.className = 'hq-keys'; box.appendChild(kh);
+                }
             }
             const cl = el('button', 'width:100%;margin-top:10px;padding:8px;border:0;background:none;color:#999;font-size:14px;cursor:pointer', pk(Q.close));
             cl.className = 'hq-close';

@@ -429,7 +429,7 @@ WORDS.cockcrow = {
     pt_cv: ["cocorocó", "kokoɾoˈkɔ"],
     en_us: ["cock-a-doodle-doo", "ˌkɑkəˌdudəlˈdu"],
     en_ca: ["cock-a-doodle-doo", "ˌkɑkəduːdlˈduː"],
-    en_za: ["cock-a-doodle-doo", "ˌkɒkəduːdlˈduː"],
+    en_za: ["cock-a-doodle-doo", "ˌkɒkədʉːdlˈdʉː"],
     pt_ao: ["cocorocó", "kokoɾoˈkɔ"],
     es_ve: ["quiquiriquí", "kikiɾiˈki"],
     ja: ["コケコッコー", "kokekokːoː"],
@@ -577,6 +577,7 @@ WORDS.cockcrow = {
     ku: ["qîq qîq", ""],
     tt: ["кикрикүк", ""],
     co: ["cuccurucù", ""],
-    vro: ["kikerikii", ""]
+    vro: ["kikerikii", ""],
+    zh_han: ["喈喈", "krǝ̄j krǝ̄j"]
   },
 };

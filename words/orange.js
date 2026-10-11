@@ -67,6 +67,12 @@ WORDS.orange = {
     sw: "Chungwa — tunda tamu la jamii ya michungwa, na ramani ya majibu manne tofauti kwa swali lilelile. Tunda hili lilifika Ulaya mara mbili. Chungwa chungu lilikuja nchi kavu na biashara ya Kiajemi na Kiarabu enzi za kati, likibeba neno la Kisanskriti नारङ्ग: نارنج → Kihispania naranja, Kiitaliano arancia, Kifaransa na Kiingereza orange. Chungwa tamu lilikuja baharini katika karne ya 16 kwa meli za Kireno, na nusu ya Mediterania ya mashariki ikaliita tu kwa jina la wafanyabiashara hao — Kigiriki πορτοκάλι, Kituruki portakal, Kiarabu برتقال, Kiamhari ብርቱካን, Kijojia ფორთოხალი, Kiajemi پرتقال. Ulaya ya Kaskazini ilichukua jibu la tatu kutoka kwa wafanyabiashara wa Kiholanzi, walioliita \"tufaha kutoka Uchina\": sinaasappel, Apfelsine, апельсин, appelsiini. Na sehemu kubwa ya dunia iliendelea tu na neno lake yenyewe.",
   },
   family: {
+    ohu: "naranj",
+    de_lut: "naranj",
+    zh_han: "local",
+    ja_heian: "local",
+    ja_edo: "local",
+    zh_wenyan_edu: "local",
     hoc: "portakal",
     ja_chu: "local",
     zh_tang: "local",
@@ -673,6 +679,12 @@ WORDS.orange = {
     local: {"color":"#6b7280","emoji":"🏡","en":"its own word","ja":"自前の語","ko":"고유어","zh":"自有的詞","yue":"自己本身嘅詞","vi":"từ của riêng mình","th":"คำของตัวเอง","id":"kata sendiri","hi":"अपना ही शब्द","de":"eigenes Wort","fr":"mot propre","it":"parola propria","es":"palabra propia","pt":"palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمته الخاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    ohu: ["narancs", "nɒrɒntʃ"],
+    de_lut: ["Pomeranze", "pɔməˈrantsə"],
+    zh_han: ["橘", "kjwǝt"],
+    ja_heian: ["橘", "tatibana"],
+    ja_edo: ["蜜柑", "mikaɴ"],
+    zh_wenyan_edu: ["橘", "kʷɐt˥"],
     hoc: ["santara", "santara"],
     ja_chu: ["蜜柑", "mikkan"],
     zh_tang: ["橙", "ɖəɨjŋ"],
@@ -1102,7 +1114,7 @@ WORDS.orange = {
     nds: ["Apelsien", "apəlˈziːn"],
     yi: ["מאַראַנץ", "marants"],
     is: ["appelsína", "ˈaʰpɛlˌsiːna"],
-    gd: ["orainds", "ˈɔɾɛntʃ"],
+    gd: ["orainds", "ˈɔrɪntʲʃ"], // was ["orainds", "ˈɔɾɛntʃ"] (vi dialect rules 2026-10-06)
     br: ["orañjez", "oˈrãʒɛs"],
     nap: ["arancia", "aˈrantʃə"],
     scn: ["aranciu", "aˈrantʃu"],
@@ -1209,7 +1221,7 @@ WORDS.orange = {
     myv: ["апельсин", "apelʲˈsin"],
     mdf: ["апельсин", "apelʲˈsin"],
     krl: ["apelʼsiini", "ˈɑpelʲsiːni"],
-    olo: ["apel'siini", "apelʲˈsiːni"],
+    olo: ["apel'siini", "ˈapelʲsiːni"], // was ["apel'siini", "apelʲˈsiːni"] (vi dialect rules 2026-10-06)
     vep: ["apel'sin", "apelʲˈsin"],
     mzn: ["پتقال", "pæteɣɒl"], // was ["پرتقال", "poɾteɣɒl"] (r29 fix 2026-10-02)
     glk: ["پرتخال", "pəɾtəxɒl"], // was ["پرتقال", "poɾteɣɒl"] (r29 fix 2026-10-02)
@@ -1278,11 +1290,11 @@ WORDS.orange = {
     zh_hf: ["橙", "tʂʰɤŋ˥˥"],
     zh_kf: ["橙", "tʂʰɤŋ˦˨"],
     zh_nj: ["橙", "tʂʰɤŋ˨˦"],
-    ltg: ["apelsins", "apelˈsins"],
+    ltg: ["apelsins", "ˈapʲælʲsʲints"], // was ["apelsins", "apelˈsins"] (vi dialect rules 2026-10-06)
     ie: ["orange", "oˈranʒe"], // was ["orangie", "oˈrandʒie"] (vi dialect rules 2026-10-06)
     io: ["oranjo", "oˈranʒo"],
     vls: ["sinaasappel", "ˈsinɑsɑpəl"],
-    aln: ["portokall", "pɔrtɔˈkalː"],
+    aln: ["portokall", "pɔɾtɔˈkaɫ"], // was ["portokall", "pɔrtɔˈkalː"] (vi dialect rules 2026-10-06)
     vi_nom: ["柑", "kaːm˧"],
   },
 };

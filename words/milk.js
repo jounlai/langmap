@@ -301,7 +301,7 @@ WORDS.milk = {
     mga: ["as", "as"],
     br: ["laezh", "leːs"],
     kw: ["leth", "lɛθ"],
-    aln: ["tâmbël", "ˈtambəl"],
+    aln: ["tâmbël", "ˈtɑ̃mbəl"],
     pnt: ["γάλαν", "ˈɣalan"],
 
     // --- Indo-Aryan — dūdh from Sanskrit dugdha -------------------------
@@ -334,7 +334,7 @@ WORDS.milk = {
     hno: ["دُدھ", "dʊdʱ"],
     skr: ["دُدھ", "dʊdːʱ"],
     sd: ["کير", "kʰiːru"],
-    dv: ["ކިރު", "kiru"],
+    dv: ["ކިރު", "kiɾu"],
     hns: ["dudh", "duːdʱ"],
     hif: ["dudh", "duːdʱ"],
     nag: ["dudh", "dudʱ"],
@@ -512,7 +512,7 @@ WORDS.milk = {
     mnc: ["ᠰᡠᠨ", "sun"],
 
     // --- Dravidian ----------------------------------------------------------
-    tcy: ["ಪೇರ್", "peːr"],
+    tcy: ["ಪೇರ್", "peːɾɯ"],
     kfa: ["ಪಾಲ್", "paːlɨ"],
     gon: ["पाल", "paːl"],
     iru: ["pāl", "paːl"],
@@ -666,7 +666,7 @@ WORDS.milk = {
     aqc: ["наӏкь", "naˤkɬʼ"],
     tkr: ["няк", "nʲak"],
     liv: ["sēmḑa", "ˈseːmdʲa"],
-    mns: ["сяквит", "ɕakwit"],
+    mns: ["сяквит", "sʲakwit"],
     bsk: ["mamú", "mamu"],
     ani: ["шив", "ʃiv"],
     bdk: ["йух", "jux"],
@@ -818,7 +818,7 @@ WORDS.milk = {
     xto: ["𑀫𑀮𑁆𑀓𑁂", "malke"],
     txb: ["𑀫𑀮𑁆𑀓𑁆𑀯𑁂𑀭𑁆", "malkwer"],
     phn: ["𐤇𐤋𐤁", "ħalab"],
-    xpu: ["𐤇𐤋𐤁", "ħalab"],
+    xpu: ["𐤇𐤋𐤁", "ħaliːb"],
     uga: ["𐎈𐎍𐎁", "ħalabu"],
     mdh: ["gatas", "ɡaˈtas"],
     dtp: ["gatas", "ɡatas"],
@@ -1102,7 +1102,7 @@ WORDS.milk = {
     okz: ["ក្ឞីរ", "kʰsiːr"],
     cjy_lv: ["牛奶", "niʌu˦˦ niɛ˧˩˨"],
     zne: ["momunya", "momuɲa"],
-    khw: ["ݯھیر", "ʈʂʰiːr"],
+    khw: ["ݯھیر", "ʈʂʰir"],
     tsi: ["miʼis", "miʔis"],
     pqm: ["molaqs", "molakʷs"],
     wbl: ["жарж", "ʒarʒ"],
@@ -1131,6 +1131,8 @@ WORDS.milk = {
     mcf: ["shuma", "ʃuma"],
     zh_han: ["乳", "ńwá"],
     ojp: ["ち", "ti"],
-    pkar: ["*(s)ʒ₁e-", "dze"]
+    pkar: ["*(s)ʒ₁e-", "dze"],
+    xpr: ["šift", "ʃift"],
+    p_jpn: ["*ti", "ti"]
   },
 };

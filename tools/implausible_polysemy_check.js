@@ -86,6 +86,7 @@ const CROSS = {
 // row. Prefer the row-level key: "this pair is fine everywhere" is a much
 // stronger claim than it looks, and grue is the only one this atlas can make.
 const ACCEPTED = {
+    'sux:mouth|nose': 'Sumerian 𒅗 is read ka "mouth" and kiri3 "nose" (ePSD2 o0031473 kag; kiri3 is the same sign) — one logogram, two words. r88, 2026-10-12.',
     'enf:eye|heart': 'Forest Enets сэй sɛj "eye" and сԑй sæj "heart" (NorthEuraLex, ASJP): two words whose Latin transliteration in this row falls together; the IPA keeps them apart. r83, 2026-10-12.',
     'mgo:bone|foot': 'Metaʼ əwu is both: the NT uses it for "a bone of his" (JHN 19:36) and "flesh and bones" (LUK 24:39), and for foot. r83, 2026-10-12.',
     'mcf:mouth|tongue': 'Matsés ana is "tongue" in the NT (MRK 7:33, LUK 16:24) and in Amazonian Voices; the mouth cell holding the same form is unverified — open item, review 562. r83, 2026-10-12.',

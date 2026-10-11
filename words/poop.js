@@ -895,6 +895,7 @@ WORDS.poop = {
     dds: ["bede", "bede"],
     mev: ["gbō", "ɡbo˧"],
     one: ["o:tá:", "oːtáː"],
-    ofs: ["skern", "skern"]
+    ofs: ["skern", "skern"],
+    aa: ["caara", "ħaːra"]
   },
 };

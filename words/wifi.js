@@ -159,7 +159,7 @@ WORDS.wifi = {
     ko_jeju: ["와이파이", "waipʰai"],
     th_isan: ["ไวไฟ", "waj˧faj˧"],
     th_n: ["ไวไฟ", "waj˧faj˧"],
-    th_s: ["ไวไฟ", "waj˧faj˧"],
+    th_s: ["ไวไฟ", "waj˥faj˥"],
     es_cr: ["wifi", "ˈwajfaj"],
     es_hn: ["wifi", "ˈwajfaj"],
     es_ni: ["wifi", "ˈwajfaj"],

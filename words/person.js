@@ -675,7 +675,7 @@ WORDS.person = {
     rhg: ["manúc", "manuʃ"],
     xnr: ["माणु", "maːɳuː"],
     bqi: ["آدم", "ɒːdom"],
-    tcy: ["ನರಮಾನಿ", "naramaːni"],
+    tcy: ["ನರಮಾನಿ", "naɾamaːni"],
     drs: ["manjo", "mandʒo"],
     tmh: ["ⵡⴰⴷⵎ", "əwadəm"],
     tig: ["ነፈር", "nafar"],
@@ -1080,7 +1080,7 @@ WORDS.person = {
     twm: ["mi13", "mi˩˧"],
     qxs: ["mə", "mə˧˧"],
     lep: ["ᰕᰛᰩ", "mərɔ"],
-    khw: ["روے", "ɾɔɪ"],
+    khw: ["روے", "roj"],
     yux: ["шоромо", "ʃoromə"],
     guu: ["jãnõmãmɨ", "jãnõmãmɨ"],
     bew: ["orang", "oraŋ"],
@@ -1097,7 +1097,7 @@ WORDS.person = {
     pal: ["𐭬𐭫𐭲𐭥𐭬", "mardoːm"],
     xto: ["𑀦𑀧𑁂𑀁", "napem"],
     txb: ["𑀰𑁅𑀫𑁄", "ɕau̯mo"],
-    xpu: ["𐤍𐤐𐤔", "nefeʃ"],
+    xpu: ["𐤀𐤔", "ʔiːʃ"],
     xsa: ["𐩱𐩬𐩪", "ʔins"],
     en_jam: ["person", "ˈpɜːsən"],
     ar_ye: ["شخص", "ʃaxsˤ"],
@@ -1138,6 +1138,8 @@ WORDS.person = {
     ofs: ["manniska", "ˈmanːiska"],
     xpr: ["mrd", "mard"],
     pkar: ["*ḳac₁-", "kʼats"],
-    xsc: ["oior", "ojor"]
+    xsc: ["oior", "ojor"],
+    puaz: ["*takaC", "takaC"],
+    abe: ["alnôba", "alnɔ̃ba"]
   }
 };

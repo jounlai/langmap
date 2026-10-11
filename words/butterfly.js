@@ -303,7 +303,7 @@ WORDS.butterfly = {
     tzo: ["pepen", "pepen"],  // Reduplicated pe-pen, like Qʼeqchiʼ peepem. WOLD's entry is the Zinacantán variety.
     car: ["palanpalan", "palanpalan"],  // Fully reduplicated palan-palan.
     jup: ["bʼebʼěp", "bʼebʼěp"],  // WOLD glosses the formation simply as 'Reduplication'.
-    ote: ["tu̲xu̲mu", "tuʃumu"],
+    ote: ["tu̲xu̲mu", "tɨʃɨmu"],
     crs: ["papiyon", "papijɔ̃"],  // From French papillon.
     dsb: ["mjatel", "ˈmʲatɛl"],  // The Slavic *motylь root, as in Polish motyl and Czech motýl.
     orh: ["kɔldɪkan", "kɔldɪkan"],
@@ -429,7 +429,7 @@ WORDS.butterfly = {
     vi_c: ["bươm bướm", "ɓɨəm˥ ɓɨəm˨˦"],
     th_isan: ["แมงกะเบื้อ", "mɛːŋ˥ ka˨˩ bɯa˧"],
     en_in: ["butterfly", "ˈbʌʈɚflaɪ"],
-    as: ["পখিলা", "pɔkʰila"],
+    as: ["পখিলা", "pokʰila"],
     bal: ["پاتۆ", "paːtoː"],
     syl: ["চকর", "sɔxɔɾ"],
     rkt: ["চিতি", "tʃiti"],
@@ -842,7 +842,7 @@ WORDS.butterfly = {
     seh: ["bemberuwa", "bemberuwa"],
     kbp: ["fiidiviu", "fiːdiviu"],
     ng: ["okambilimbili", "okambilimbili"],
-    kj: ["onghanga", "oŋɡaŋɡa"],
+    kj: ["onghanga", "oŋ̊aŋ̊a"],
     lue: ["kauyauya", "kaujauja"],
     bum: ["évulabebas", "evulabebas"],
     ndc: ["berepeswa", "beɾepeswa"],
@@ -896,6 +896,8 @@ WORDS.butterfly = {
     ptai: ["*ɓɤːj", "ɓɤːj"],
     de_lut: ["Pfeifholter", "ˈpfaɪfhɔltər"],
     sux: ["𒄵", "ɡiriʃ"],
-    sva: ["პერპელ", "pʼerpʼel"]
+    sva: ["პერპელ", "pʼerpʼel"],
+    sa: ["पतङ्ग", "pɐtɐŋɡɐ"],
+    pura: ["*lȣ̈ppɜ", "lȣ̈ppɜ"]
   },
 };

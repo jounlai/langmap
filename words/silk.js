@@ -395,7 +395,7 @@ WORDS.silk = {
     rhg: ["recóm", "reʃom"],
     xnr: ["रेशम", "reːʃəm"],
     bqi: ["اوریشم", "awriʃem"],
-    tcy: ["ರೇಶ್ಮೆ", "reːʃme"],
+    tcy: ["ರೇಶ್ಮೆ", "ɾeːʃme"],
     tmh: ["ⵍⵅⵔⴻⵔⵏ", "ələxərerən"],
     sco: ["silk", "sɪlk"],
     li: ["ziej", "ziː"],

@@ -55,6 +55,15 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    pmh: "grue",
+    emy: "grue",
+    nci: "distinct",
+    pi: "dark",
+    sux: "distinct",
+    sog: "distinct",
+    arc: "distinct",
+    mga: "distinct",
+    ptrk: "grue",
     hoc: "borrowed",
     egy: "grue",
     it_dan: "distinct",
@@ -896,6 +905,8 @@ WORDS.blue = {
     zh: "distinct",
     zh_tw: "distinct",
     zu: "grue",
+    zh_song: "distinct", // r88: route for the new blue cell,
+    qwc: "distinct", // r88: route for the new blue cell
   },
   routes: {
     "distinct": {"color": "#2563eb", "emoji": "🔵", "en": "blue has its own word", "ja": "青に専用の語", "ko": "파랑에 고유한 낱말", "zh": "蓝有专词", "yue": "藍有專詞", "vi": "lam có từ riêng", "th": "น้ำเงินมีคำเฉพาะ", "id": "biru punya katanya sendiri", "hi": "नीले का अपना शब्द", "de": "eigenes Wort für Blau", "fr": "le bleu a son mot", "it": "il blu ha una parola propria", "es": "el azul tiene palabra propia", "pt": "o azul tem palavra própria", "ru": "у синего своё слово", "uk": "синій має власне слово", "ar": "للأزرق كلمته الخاصة", "he": "לכחול מילה משלו", "sw": "buluu lina neno lake"},
@@ -904,6 +915,15 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    pmh: ["णील", "ɳiːla"],
+    emy: ["yax", "jaʃ"],
+    nci: ["texotli", "teʃohtɬi"],
+    pi: ["नील", "niːla"],
+    sux: ["𒍝𒆳", "zaɡin"],
+    sog: ["kpʾwt", "kapoːt"],
+    arc: ["ܙܪܩܐ", "zaːrqaː"],
+    mga: ["gorm", "ɡorm"],
+    ptrk: ["*kȫk", "køːk"],
     hoc: ["niil", "niːl"],
     egy: ["𓇅", "wadʒ"],
     it_dan: ["azzurro", "adˈdzurro"],
@@ -1214,7 +1234,7 @@ WORDS.blue = {
     tyz: ["kheo", "kʰɛw˧˧"], // was ["kheo", "kʰɛːw˧˧"] (vi dialect rules 2026-10-06)
     ja_kanbun: ["青し", "aoɕi"],
     sa_edu: ["नीलः", "niːlaɦ"],
-    khw: ["اوݯ", "ɔʈʂ"], // was ["اوچ", "otʃ"] (r42 fix 2026-10-03)
+    khw: ["اوݯ", "oʈʂ"], // was ["اوچ", "otʃ"] (r42 fix 2026-10-03) // was ["اوݯ", "ɔʈʂ"] (vi dialect rules 2026-10-06)
     pbb: ["çẽy", "tsẽj"], // was ["çẽy", "çẽj"] (vi dialect rules 2026-10-06) // was ["çẽy", "tsẽj"] (vi dialect rules 2026-10-06)
     mus: ["holatte", "holatːi"],
     ain: ["シウニン", "siwnin"],
@@ -1361,7 +1381,7 @@ WORDS.blue = {
     sat: ["ᱞᱤᱞ", "lil"],
     guc: ["wüitüsü", "wɨitɨsɨ"],
     cab: ["dínguti", "ˈdiŋɡuti"],
-    ttj: ["bururu", "bururu"],
+    ttj: ["bururu", "βururu"], // was ["bururu", "bururu"] (vi dialect rules 2026-10-06)
     arn: ["kallfü", "kaʎfɨ"],
     kha: ["jyrngam", "dʒərŋam"],
     mnw: ["ဍီု", "ɗɒm"],
@@ -1749,5 +1769,7 @@ WORDS.blue = {
     zh: ["蓝", "lan˧˥"],  // Modern Mandarin 蓝 lán against 绿 lǜ. The older grue term is 青 qīng, which ran from yellow-green through deep blue to black and survives in 青草, 青天, 青丝 — Chinese split the range historically rather than lexically.
     zh_tw: ["藍", "lan˧˥"],  // Taiwan Mandarin, traditional 藍 for the same term as zh.
     zu: ["luhlaza", "luˈɬaːza"],  // One basic term for blue and green. Blue is specified as luhlaza okwesibhakabhaka 'like the sky', green as luhlaza okotshani 'like grass'. Also 'raw, unripe, clear (of water)'. Cited as a relative stem to match -bomvu/-mhlophe/-mnyama in this row.
+    zh_song: ["藍", "lam"],
+    qwc: ["anqas", "anqas"]
   },
 };

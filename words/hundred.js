@@ -609,7 +609,7 @@ WORDS.hundred = {
     suk: ["igana", "iɡana"],
     nym: ["igana", "iɡana"],
     rim: ["ighana", "iɣana"],
-    ttj: ["kikumi", "tʃikumi"],
+    ttj: ["kikumi", "kikumi"],
     nyn: ["igana", "iɡana"],
     bem: ["umwanda", "umwanda"],
     loz: ["mwanda", "mwanda"],
@@ -1139,7 +1139,7 @@ WORDS.hundred = {
     fvr: ["fírí", "fírí"],
     enq: ["andate", "andate"],
     na: ["aibu", "aibu"],
-    khw: ["شور", "ʃoːr"],
+    khw: ["شور", "ʃor"],
     blr: ["ti31 roi31", "ti˧˩ roi˧˩"],
     sce: ["be", "bə"],
     cia: ["hacu", "hatʃu"],
@@ -1172,6 +1172,7 @@ WORDS.hundred = {
     jup: ["cẽ́", "tʃẽ́"],
     mjg: ["nige jang", "niɡe tɕaŋ"],
     ess: ["ю̄к талъимат", "juːk taɬimat"],
-    kxv: ["pāsa kōḍe", "paːsa koːɖe"]
+    kxv: ["pāsa kōḍe", "paːsa koːɖe"],
+    xpr: ["sad", "sad"]
   },
 };

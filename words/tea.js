@@ -70,6 +70,9 @@ WORDS.tea = {
   },
   // cha = overland Silk-Road route; te = Dutch sea route; other = Latin herba root.
   family: {
+    aln: "cha",
+    ja_kanbun: "cha",
+    ja_edo: "cha",
     ja_chu: "cha",
     en_em: "te",
     cnp: "cha",
@@ -760,6 +763,9 @@ WORDS.tea = {
     leaf: { color: "#4d7c0f", emoji: "🍃", en: "neither route · the leaf itself", ja: "どちらの経路でもない・葉そのもの", ko: "두 경로 어느 쪽도 아님 · 잎 그 자체", zh: "两条路线都不是・叶子本身", yue: "兩條路線都唔係・葉本身", vi: "không theo đường nào · chính là chiếc lá", th: "ไม่ใช่ทั้งสองเส้นทาง · ตัวใบเอง", id: "bukan salah satu jalur · daunnya sendiri", hi: "किसी मार्ग से नहीं · पत्ता ही", de: "keine der Routen · das Blatt selbst", fr: "ni l'une ni l'autre route · la feuille même", it: "nessuna delle due rotte · la foglia stessa", es: "ninguna de las dos rutas · la hoja misma", pt: "nenhuma das rotas · a própria folha", ru: "ни один из путей · сам лист", uk: "жоден із шляхів · сам листок", ar: "لا هذا الطريق ولا ذاك · الورقة نفسها", he: "לא זה ולא זה · העלה עצמו", sw: "si njia yoyote kati ya hizo · jani lenyewe" },
   },
   data: {
+    aln: ["çaj", "tʃaj"],
+    ja_kanbun: ["茶", "tɕa"],
+    ja_edo: ["茶", "tɕa"],
     ja_chu: ["茶", ""],
     en_em: ["tee", ""],
     cnp: ["茶", "tʃa˨˩"],
@@ -935,14 +941,14 @@ WORDS.tea = {
     cjy_lv: ["茶", "tsʰa˦˦"],
     yue_ts: ["茶", "tsʰa˨˨"],
     yue_dg: ["茶", "tʃʰa˧˩"],
-    mns: ["ся̄й", "ɕaːj"],
+    mns: ["ся̄й", "sʲaːj"], // was ["ся̄й", "ɕaːj"] (vi dialect rules 2026-10-06)
     udm: ["чай", "tɕaj"],
     kpv: ["чай", "tɕaj"], // was ["чай", "tʃaj"] (vi dialect rules 2026-10-06)
     mdf: ["чай", "tʃaj"],
     myv: ["чай", "tʃaj"],
     mrj: ["чӓй", "tʃæj"],
     mhr: ["чай", "tʃaj"],
-    olo: ["čuaju", "ˈtʃuɑju"],
+    olo: ["čuaju", "ˈtʃuaju"], // was ["čuaju", "ˈtʃuɑju"] (vi dialect rules 2026-10-06)
     krl: ["čuaju", "ˈtʃuaju"],
     vot: ["čaaju", "ˈtʃaːju"],
     vep: ["čai", "tʃai"],
@@ -959,7 +965,7 @@ WORDS.tea = {
     dsb: ["tej", "tɛj"],
     teo: ["ecai", "etʃai"],
     nez: ["písqu", "písqu"],
-    djr: ["dilip", "dilip"],
+    djr: ["dhilip", "d̪ilip"], // was ["dilip", "dilip"] (vi dialect rules 2026-10-06)
     ak: ["tii", "tiː"],
     dag: ["tii", "tiː"],
     din: ["cai", "tʃai"],
@@ -1312,7 +1318,7 @@ WORDS.tea = {
     fur: ["tè", "tɛ"],
     fy: ["tee", "teː"],
     ga: ["tae", "t̪ˠeː"],
-    gd: ["tì", "tʲiː"],
+    gd: ["tì", "tʃʰiː"], // was ["tì", "tʲiː"] (vi dialect rules 2026-10-06)
     gl: ["té", "tɛ"],
     gsw: ["Tee", "teː"],
     gv: ["tey", "teː"],

@@ -195,7 +195,7 @@ WORDS.green = {
     ar_tn: ["أخضر", "ˈaxdˤaɾ"],
     arn: ["karü", "kaɾɨ"],
     arq: ["خضر", "xdˤaɾ"],
-    as: ["সেউজীয়া", "xeuzia"],
+    as: ["সেউজীয়া", "xɛuzia"],
     ast: ["verde", "ˈbeɾðe"],
     ay: ["chʼuxña", "tʃʼuxɲa"],
     ayl: ["أخضر", "ˈʔaxdˤar"],
@@ -342,7 +342,7 @@ WORDS.green = {
     lld: ["vërt", "vərt"],
     lmo: ["verd", "vert"],
     lo: ["ຂຽວ", "kʰiːəw˩˧"],
-    ltg: ["zaļš", "zaʎʃ"],
+    ltg: ["zaļš", "zalʲʃ"],
     lus: ["hring", "hriŋ"],
     mad: ["bhiru", "bʱiru"],   // Grue, and the same cell as this row's 'blue'. ABVD records Madurese green as biru, without the aspiration mark that distinguishes bh from b — the aspirated spelling is the dictionary one.
     mak: ["moncong bulo", "moɲtʃoŋ bulo"],   // Literally 'bamboo colour', but lemmatised as the colour noun by Wiktionary and elicited as green by ABVD.
@@ -860,7 +860,7 @@ WORDS.green = {
     cro: ["shúa", "ʃúa"],
     atb: ["nyuì", "ŋjui˥˩"],
     pmt: ["matie", "matie"],
-    khw: ["اوݯ", "ɔʈʂ"],
+    khw: ["اوݯ", "oʈʂ"],
     adx: ["ལྗང་ཁུ", "dʑaŋkʰə"],
     duu: ["pɯɕiŋ", "pɯɕiŋ"],
     njo: ["tajem", "tadʒəm"],
@@ -1040,6 +1040,7 @@ WORDS.green = {
     ojp: ["あを", "awo"],
     p_aav: ["*kciʔ", "kciʔ"],
     aja: ["makpafan", "makpafã"],
-    chp: ["dzeretłʼes látʼį", "dzeretɬʼes látʼĩ"]
+    chp: ["dzeretłʼes látʼį", "dzeretɬʼes látʼĩ"],
+    sux: ["𒅊", "siɡ"]
   }
 };

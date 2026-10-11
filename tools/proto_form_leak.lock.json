@@ -856,5 +856,17 @@
     "proto": "ptrk",
     "ruling": "inherited",
     "note": "Karakhanid at (Kashgari) inherited unchanged from Proto-Turkic *at. Ruled 2026-10-12 (r87)."
+  },
+  "ojp|milk": {
+    "form": "ti",
+    "proto": "p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese ti \"milk, breast\" (ONCOJ) continues Proto-Japonic *ti. Ruled 2026-10-12 (r88)."
+  },
+  "osn|three": {
+    "form": "telu",
+    "proto": "paus",
+    "ruling": "inherited",
+    "note": "Old Sundanese telu (inscriptions) continues PAn *telu. Ruled 2026-10-12 (r88)."
   }
 }

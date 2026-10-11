@@ -172,7 +172,7 @@ WORDS.black = {
     co: ["neru", "ˈneru"],
     sc: ["nieddu", "ˈnieddu"],
     rm: ["nair", "nair"],
-    an: ["negro", "ˈneɡɾo"],
+    an: ["negro", "ˈneɣɾo"],
     nap: ["niro", "ˈnirə"],
     scn: ["nìuru", "ˈniuru"],
     lij: ["neigro", "ˈnejɡru"],
@@ -1267,6 +1267,10 @@ WORDS.black = {
     rim: ["njiutiki", "ndʒiutiki"],
     ja_rys: ["っふさん", "ɸɸusaɴ"],
     zh_han: ["黑", "m̥ǝ̄k"],
-    xpr: ["syʾw", "sjaːw"]
+    xpr: ["syʾw", "sjaːw"],
+    puaz: ["*tuku", "tuku"],
+    sux: ["𒈪", "ɡiɡːi"],
+    emy: ["ikʼ", "ikʼ"],
+    aiw: ["chʼelmi", "tʃʼelˈmi"]
   },
 };

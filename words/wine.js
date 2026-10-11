@@ -47,6 +47,12 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    ett: "ie",
+    ja_kanbun: "other",
+    zh_han: "other",
+    sog: "other",
+    xlu: "other",
+    ja_edo: "other",
     xpr: "other",
     onw: "other",
     chb: "ie",
@@ -952,6 +958,12 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    ett: ["vinum", "ˈwinum"],
+    ja_kanbun: ["葡萄酒", "bɯdoːɕɯ"],
+    zh_han: ["蒲陶酒", "bhā lhǝ̄w cjǝ́w"],
+    sog: ["mδw", "maðu"],
+    xlu: ["maddu-", "ˈmatːu"],
+    ja_edo: ["葡萄酒", "bɯdoːɕɯ"],
     xpr: ["my", "maj"],
     onw: ["ⲟⲣⲡⲁ", "orpa"],
     chb: ["fin", "fin"],
@@ -1045,7 +1057,7 @@ WORDS.wine = {
     pbb: ["vxino", "βʲino"],
     wmt: ["wayin", "ˈwajin"],
     ygr: ["vaeni", "vaeni"],
-    aa: ["kamri", "kamri"], // was ["qinab kamri", "ʕinab kamri"] (vi dialect rules 2026-10-06)
+    aa: ["qinabak bicsen kamri", "ʕinabak biħsen kamri"], // was ["qinab kamri", "ʕinab kamri"] (vi dialect rules 2026-10-06) // was ["kamri", "kamri"] (vi dialect rules 2026-10-06)
     kfa: ["ದ್ರಾಕ್ಷಿರಸ", "draːkʂirasa"], // was ["ದ್ರಾಕ್ಷಿರಸ", "d̪raːkʂirasa"] (vi dialect rules 2026-10-06)
     cni: ["ovaja", "oβaha"],
     ilo: ["arak", "ˈʔarak"],
@@ -1111,7 +1123,7 @@ WORDS.wine = {
     gsw_als: ["Win", "viːn"],
     gsw_w: ["Wii", "ʋiː"],
     itl: ["вино", "vino"],
-    tcy: ["ದ್ರಾಕ್ಷಾರಸ", "d̪raːkʂaːrasa"],
+    tcy: ["ದ್ರಾಕ್ಷಾರಸ", "draːkʂaːɾasa"], // was ["ದ್ರಾಕ್ಷಾರಸ", "d̪raːkʂaːrasa"] (vi dialect rules 2026-10-06)
     kru: ["अंगुर रासी", "aŋɡuɾ raːsiː"],
     ctg: ["আংগুর রস", "aŋɡur rɔs"],
     rkt: ["আংগুর রস", "aŋɡur rɔs"],
@@ -1615,7 +1627,7 @@ WORDS.wine = {
     lbj: ["རྒུན་ཆང", "rɡuntɕʰaŋ"],
     th_isan: ["ไวน์", "waj˧"],
     th_n: ["ไวน์", "waj˧"],
-    th_s: ["ไวน์", "waj˧"],
+    th_s: ["ไวน์", "waj˥"], // was ["ไวน์", "waj˧"] (vi dialect rules 2026-10-06)
     hmn: ["cawv txiv hmab", "caɨ˨˦ tsi˨˦ m̥a˥"],
     new: ["दाखमद्य", "daːkʰmʌdjʌ"],
     lif: ["ᤆᤧᤸᤗᤧᤰᤛᤣ᤹ ᤌᤡ᤺", "tʃɛllɛkseʔ tʰiː"],
@@ -1800,7 +1812,7 @@ WORDS.wine = {
     ki: ["ndibei", "ndibɛi"],
     mer: ["ndibei", "ndibɛi"],
     kam: ["mbinyu", "mbiɲu"],
-    suk: ["divai", "divai"],
+    suk: ["mvinya", "mviɲa"], // was ["divai", "divai"] (vi dialect rules 2026-10-06)
     nym: ["mvinyo", "mviɲo"],
     rim: ["divai", "divai"],
     ksb: ["mvinyo", "mviɲo"],
@@ -1911,7 +1923,7 @@ WORDS.wine = {
     fra_jer: ["vîn", "vĩ"],
     xfa: ["uinom", "ˈwiːnom"],
     xum: ["uinu", "ˈwiːnu"],
-    ltg: ["veins", "veins"],
+    ltg: ["veins", "vʲæi̯nts"], // was ["veins", "veins"] (vi dialect rules 2026-10-06)
     vls: ["wyn", "win"],
     aln: ["venë", "vɛːn"],
   },

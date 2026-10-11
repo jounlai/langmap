@@ -137,7 +137,7 @@ WORDS.book = {
     ne: ["किताब", "kiˈtab"],
     si: ["පොත", "ˈpotə"],
     or: ["ବହି", "bɔhi"],
-    as: ["কিতাপ", "kiˈtap"],
+    as: ["কিতাপ", "kitap"],
     sd: ["ڪتاب", "kɪˈtaːb"],
     ps: ["کتاب", "kiˈtɑːb"],
     tg: ["китоб", "kiˈtob"],
@@ -299,7 +299,7 @@ WORDS.book = {
     kbp: ["takayaɣ", "takajaɣ"],
     kg: ["buku", "buku"],  // mukanda stood here from the Kongo Wikipedia title, but its root nkanda is glossed 'skin, paper, letter, document' in Kongo, and mukanda itself is Kituba 'letter' — the paper-word line this concept declines to cross. búku has its own Kongo entry glossed 'book'. IPA drops the tone mark, as this row does throughout (mboté /mbote/, kûlu /kulu/).
     ki: ["ibuku", "iβuku"],
-    kj: ["embo", "ˈembo"],
+    kj: ["embo", "embo"],
     her: ["embo", "ˈembo"],
     gn: ["aranduka", "aɾanduˈka"],
     gil: ["boki", "ˈboki"],
@@ -332,7 +332,7 @@ WORDS.book = {
     pdt: ["Buak", "buak"],
     mga: ["lebor", "ˈlʲeβər"],  // Attested as the title of the period's own manuscripts — Lebor na hUidre, Lebor Gabála Érenn, Lebor Laignech; eDIL 29673. β follows this row's own dub → duβ, though Middle Irish had probably already shifted lenited β to v.
     pnt: ["βιβλίον", "viˈvlion"],  // The -ν ending is this row's habit (άρκον, κόκκαλον, άστρον), and it differs from the el cell βιβλίο.
-    ltg: ["gruomota", "ˈɡruomɔta"],
+    ltg: ["gruomota", "ˈɡruɔ̯mɔta"],
     orv: ["кънига", "kŭnʲiɡa"],   // Sreznevsky I:1391. IPA in this row's transliteration flavour (азъ azŭ, бѣлъ bʲelŭ) rather than a period-specific reading.
     // Uralic and the Russian north. NorthEuraLex 0.9 parameter 408_book, cross-checked
     // against 407_letter for each language so the book word is not just the letter word.
@@ -432,7 +432,7 @@ WORDS.book = {
     es_ar: ["libro", "ˈliβɾo"],
     es_pe: ["libro", "ˈliβɾo"],
     cng: ["zət phi", "zət pʰi"],
-    ote: ["he̲ʼmi", "heʔmi"],
+    ote: ["he̲ʼmi", "hɛʔmi"],
     nuf: ["uɔʴ55su35ɑ55", "uɔ˞˥˥su˧˥ɑ˥˥"],
     rap: ["puka", "puka"],
     vep: ["kirj", "kirj"],
@@ -1077,6 +1077,13 @@ WORDS.book = {
     mch: ["jajeeda", "haheːɾ̠a"],
     mjg: ["pujiu", "pʰudʑiu"],
     zh_han: ["書", "ća"],
-    ptai: ["*sɯː", "sɯː"]
+    ptai: ["*sɯː", "sɯː"],
+    xpr: ["nibēg", "nibeːɡ"],
+    xng: ["ᠪᠢᠴᠢᠭ", "bitʃiɡ"],
+    sux: ["𒁾", "dub"],
+    qwc: ["qillqa", "qiʎqa"],
+    pmay: ["*huʔnh", "huʔŋ"],
+    ett: ["zich", "tsikʰ"],
+    ayl: ["كتاب", "ktaːb"]
   }
 };

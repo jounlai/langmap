@@ -291,7 +291,7 @@ WORDS.salt = {
     // --- Rest of Europe -------------------------------------------------
     rue: ["сіль", "silʲ"],
     szl: ["sōl", "sol"],
-    ltg: ["suoļs", "suoʎs"],
+    ltg: ["suoļs", "suɔ̯lʲs"],
     sgs: ["druska", "druska"],
     hyw: ["աղ", "ɑʁ"],
     se: ["sálti", "ˈsaːlti"],
@@ -340,7 +340,7 @@ WORDS.salt = {
 
     // --- Mongolic -------------------------------------------------------
     bxr: ["дабһан", "dabhan"],
-    xal: ["давсн", "davsn"],
+    xal: ["давсн", "dawsn̩"],
     mn_cn: ["ᠳᠠᠪᠤᠰᠤ", "dabusu"],
     cmg: ["ᠳᠠᠪᠤᠰᠤᠨ", "dabusun"],
     xng: ["ᠳᠠᠪᠤᠰᠤᠨ", "dabusun"],
@@ -735,7 +735,7 @@ WORDS.salt = {
     frr: ["sålt", "sɔlt"],
     frr_amr: ["saalt", "saːlt"],
     bar: ["Soiz", "sɔɪts"],
-    gd: ["salann", "ˈsaɫən"],
+    gd: ["salann", "ˈs̪al̪ˠən̪ˠ"],
     rgn: ["sêl", "seːl"],
     frp: ["sal", "sal"],
     lmo: ["sal", "sal"],
@@ -829,7 +829,7 @@ WORDS.salt = {
     // --- Himalayan and Gheg additions --------------------------------
     brx: ["संख्रि", "sɯŋkʰri"],
     lep: ["ᰟᰩᰮ", "vom"],
-    aln: ["krypë", "kryp"],
+    aln: ["krypë", "kɾyp"],
 
 
     // --- Nilotic, Cushitic and Omotic: native words, Bantu loans, Arabic milḥ on the coast ---
@@ -1258,6 +1258,7 @@ WORDS.salt = {
     tok: ["namako", "ˈnamako"],
     yan: ["kuma", "kuma"],
     zh_han: ["鹽", "źam"],
-    xpr: ["nmydk", "nameːdk"]
+    xpr: ["nmydk", "nameːdk"],
+    suk: ["munhu", "munhu"]
   },
 };

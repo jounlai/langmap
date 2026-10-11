@@ -243,7 +243,7 @@ WORDS.honey = {
     crh: ["bal", "bal"],
     kk: ["бал", "bɑl"],
     ky: ["бал", "bal"],
-    kaa: ["bal", "bal"],
+    kaa: ["pal", "pal"],
     tt: ["бал", "bal"],
     ba: ["бал", "bal"],
     cv: ["пыл", "pɯl"],               // regular Chuvash p- for Common Turkic b-
@@ -462,7 +462,7 @@ WORDS.honey = {
     // šāt is neither, an inherited Iranian word of its own.
     pa: ["ਸ਼ਹਿਦ", "ʃəɦəd"],
     or: ["ମହୁ", "mɔɦu"],
-    as: ["মৌ", "mɔu"],
+    as: ["মৌ", "moʊ"],
     dv: ["މާމުއި", "maːmui"],
     ps: ["شات", "ʃɑt"],
     rmy: ["avdžin", "avdʒin"],   // Romani took the Persian angubīn, not madhu
@@ -604,7 +604,7 @@ WORDS.honey = {
     bho: ["मधु", "mədʱu"],
     kam: ["ũkĩ", "uki"],
     ks: ["ماچھ", "maːtsʰ"],
-    ltg: ["mads", "mads"],
+    ltg: ["mads", "mats"],
     li: ["honing", "ˈhoːnɪŋ"],
     lij: ["amê", "aˈmeː"],
     lol: ["mpako", "mpako"],
@@ -630,7 +630,7 @@ WORDS.honey = {
     tsg: ["tunub", "tunub"],
     tet: ["bani-been", "bani-beːn"],
     trv: ["beyuq", "bejuq"],
-    ttj: ["obwoki", "obwoki"],
+    ttj: ["obwoki", "oβwoki"],
     tpn: ["eíra", "eˈiɾa"],
     io: ["mielo", "ˈmi̯elo"],
     wa: ["låme", "lɔːm"],
@@ -1143,6 +1143,7 @@ WORDS.honey = {
     ake: ["teusan", "teusan"],
     spp: ["sɛɛre", "sɛːre"],
     yle: ["mty:aa", "mtʲãː"],
-    xpr: ["ʾngwbyn", "anɡubeːn"]
+    xpr: ["ʾngwbyn", "anɡubeːn"],
+    ett: ["math", "maθ"]
   },
 };

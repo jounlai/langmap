@@ -606,6 +606,8 @@ WORDS.chocolate = {
     wuu_hz: ["巧克力", "tɕʰiɔ˥˧ kʰaʔ˥ lieʔ˨"],
     cdo: ["巧克力", "kʰieu˧˧ kʰaiʔ˨˦ liʔ˥"],
     mnp: ["巧克力", "kʰiau˨˩ kʰɛ˨˦ li˦˨"],
-    fr_class: ["chocolat", "ʃɔkɔˈla"]
+    fr_class: ["chocolat", "ʃɔkɔˈla"],
+    ja_edo: ["しょくらあと", ""],
+    en_em: ["chocolate", ""]
   }
 };

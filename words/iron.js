@@ -191,7 +191,7 @@ WORDS.iron = {
     es_gt: ["hierro", "ˈʝero"],
     es_ec: ["hierro", "ˈʝero"],
     es_cr: ["hierro", "ˈjero"],
-    es_hn: ["hierro", "ˈjero"],
+    es_hn: ["hierro", "ˈʝero"],
     es_ni: ["hierro", "ˈjero"],
     es_sv: ["hierro", "ˈjero"],
     es_py: ["hierro", "ˈjero"],
@@ -335,10 +335,10 @@ WORDS.iron = {
     // --- Baltic — *gelž-, the Slavic word's own cousin ---------------------
     prg: ["gelso", "ˈɡelso"],
     sgs: ["gelžis", "ˈɡʲɛlʒʲɪs"],
-    ltg: ["dzeļzs", "dzʲeʎzs"],
+    ltg: ["dzeļzs", "dzʲælʲss"],
 
     // --- Celtic — íarn, and Brythonic haearn / houarn / horn -------------
-    gd: ["iarann", "ˈiəɾən̪ˠ"],
+    gd: ["iarann", "ˈiərˠən̪ˠ"],
     br: ["houarn", "ˈhuːaɾn"],
     kw: ["horn", "hɔɾn"],
 
@@ -817,7 +817,7 @@ WORDS.iron = {
     nzm: ["hegei", "heɡei"],
     nmf: ["mari", "mari"],
     cng: ["suʴ mu", "suʴ mu"],
-    ote: ["bo̲jä", "bohã"],
+    ote: ["bo̲jä", "bøhã"],
     uby: ["wəcʼwa", "wətsʼʷa"],
     ets: ["akure", "akuɾe"],
     srm: ["félu", "félu"],
@@ -884,7 +884,7 @@ WORDS.iron = {
     nag: ["luha", "luha"],
     rhg: ["luwá", "luwa"],
     bqi: ["آهن", "ɒːhan"],
-    tcy: ["ಕರ್ಬ", "karba"],
+    tcy: ["ಕರ್ಬ", "kaɾba"],
     drs: ["sibiljo", "sibildʒo"],
     tmh: ["ⵜⵥⵓⵍⵉ", "təzˤoli"],
     rgn: ["fër", "fɛːɾ"],
@@ -1138,6 +1138,9 @@ WORDS.iron = {
     yur: ["pegemeepʼ", "peɣemipʼ"],
     tpn: ["itá", "iˈta"],
     zh_han: ["鐵", "l̥iǝ̄t"],
-    xpr: ["ʾswn", "aːsun"]
+    xpr: ["ʾswn", "aːsun"],
+    p_sit: ["*l-tsyak", "l-tsjak"],
+    qwc: ["qʼillay", "qʼiʎaj"],
+    paus: ["*Namat", "Namat"]
   },
 };

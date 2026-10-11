@@ -121,10 +121,9 @@ const ALIAS = {
 const TRANSCRIBED = /reconstruct|none|no native|n\/a|undeciph|hieroglyph|not written|unwritten|attested only/i;
 
 const DEBT = new Map([
-  ['yuy', 'declares Mongolian script (historical) and Latin romanization, but 97% of the data is Cyrillic'],
+  ['sog', 'declares Sogdian script; the cells are the standard Latin transliteration, whose β γ δ θ the check reads as Greek (r88, 2026-10-12)'],
   ['oar', 'declares the Old Aramaic alphabet; the data is Hebrew square script, which is standard scholarly practice but is not what the field says'],
   ['xve', 'declares the Venetic alphabet; a third of the data is Greek letters'],
-  ['luz', 'declares Perso-Arabic (informal); the data is Latin — same shape as trm'],
   ['trm', 'declares Perso-Arabic but the data is a scholarly Latin transcription; Tregami has near-zero literacy — cf. wbl, which says so outright'],
   ['enf', 'declares Cyrillic but the data is Latin, while its Samoyedic neighbours yrk/sel/nio carry Cyrillic surfaces'],
 ]);

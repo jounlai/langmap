@@ -339,7 +339,7 @@ WORDS.sushi = {
     "th": ["ซูชิ", "suː˧tɕʰiʔ˦˥"],
     "th_isan": ["ซูชิ", "suː˧tɕʰiʔ˦˥"],
     "th_n": ["ซูชิ", "suː˧tɕʰiʔ˦˥"],
-    "th_s": ["ซูชิ", "suː˧tɕʰiʔ˧˥"],
+    "th_s": ["ซูชิ", "suː˥tɕʰiʔ˧˥"],
     "tk": ["suşi", "suˈʃi"],
     "tl": ["sushi", "ˈsuʃi"],
     "tr": ["suşi", "ˈsuʃi"],
@@ -426,7 +426,7 @@ WORDS.sushi = {
     es_cr: ["sushi", "ˈsusi"],
     es_hn: ["sushi", "ˈsusi"],
     es_ni: ["sushi", "ˈsusi"],
-    es_sv: ["sushi", "ˈsusi"],
+    es_sv: ["sushi", "ˈsuʃi"],
     es_py: ["sushi", "ˈsusi"],
     es_pa: ["sushi", "ˈsusi"],
 

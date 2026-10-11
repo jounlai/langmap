@@ -63,6 +63,7 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    yao: "loan",
     de_lut: "taboo",
     p_hmx: "inherited",
     p_dra: "inherited",
@@ -939,6 +940,8 @@ WORDS.bear = {
     wbm: "inherited",
     to: "loan",
     rtm: "loan",
+    sux: "inherited", // r88: route for the new bear cell,
+    cmg: "inherited", // r88: route for the new bear cell
   },
   routes: {
     inherited: { color: "#0d9f6e", emoji: "🐻", en: "the old word, kept", ja: "古い語のまま", ko: "옛말 그대로", zh: "沿用固有词", yue: "沿用固有詞", vi: "giữ từ cũ", th: "ยังใช้คำเดิม", id: "kata lama, tetap", hi: "पुराना शब्द, बरकरार", de: "das alte Wort, behalten", fr: "le mot ancien, gardé", it: "la parola antica, mantenuta", es: "la palabra antigua, conservada", pt: "a palavra antiga, mantida", ru: "старое слово, сохранено", uk: "давнє слово, збережене", ar: "الكلمة القديمة، محفوظة", he: "המילה הישנה, נשמרה", sw: "neno la zamani, limebaki" },
@@ -948,6 +951,7 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    yao: ["dubu", "dubu"],
     de_lut: ["Bär", "bɛːr"],
     p_hmx: ["*qrep", "qrep"],
     p_dra: ["*eḷVñc-", "eɭVɲtʃ"],
@@ -1267,7 +1271,7 @@ WORDS.bear = {
     el_grc: ["ἄρκτος", "árktos"],
     el_kath: ["ἄρκτος", "ˈarktos"],
     el: ["αρκούδα", "arˈkuða"],
-    pnt: ["άρκον", "ˈaɾkon"],
+    pnt: ["άρκος", "ˈarkos"], // was ["άρκον", "ˈaɾkon"] (vi dialect rules 2026-10-06)
     sa: ["ऋक्षः", "r̥kʂɐɦ"],
     h_vedic: ["ऋक्षः", "ŕ̩kʂɐɦ"], // was ["ऋक्षः", "ŕ̥kʂaɦ"] (r51 audit 2026-10-04) // was ["ऋक्षः", "ŕ̥kʂɐɦ"] (vi dialect rules 2026-10-06)
     sa_edu: ["ऋक्षः", "rikʃəɦ"],
@@ -1351,7 +1355,7 @@ WORDS.bear = {
     lad: ["lonso", "ˈlonso"],
     mt: ["ors", "ors"],
     sq: ["ari", "ˈari"],
-    aln: ["ari", "aˈri"],
+    aln: ["ari", "aˈɾi"], // was ["ari", "aˈri"] (vi dialect rules 2026-10-06)
     eo: ["urso", "ˈurso"],
     ia: ["urso", "ˈurso"],
     vo: ["ber", "ber"],
@@ -1731,7 +1735,7 @@ WORDS.bear = {
     csb: ["miedwiédz", "mʲɛdvjets"],
     rue: ["медвідь", "ˈmedvidʲ"],
     sgs: ["meška", "mʲɛʃka"],
-    ltg: ["luocs", "luots"],
+    ltg: ["luocs", "luɔ̯tsʲsʲ"], // was ["luocs", "luots"] (vi dialect rules 2026-10-06)
     gv: ["maghouin", "maˈɣuːnʲ"],
     mga: ["mathgamain", "maθɣəvənʲ"],
 
@@ -1750,7 +1754,7 @@ WORDS.bear = {
     abq: ["мшвы", "mʃʷə"],
     sva: ["და̈შდუ̂", "dæʃdw"], // was ["და̈შდვ", "dæʃdv"] (vi dialect rules 2026-10-06)
     hyw: ["արջ", "aɾtʃ"],
-    olo: ["kondii", "kondiː"],
+    olo: ["kondii", "ˈkondiː"], // was ["kondii", "kondiː"] (vi dialect rules 2026-10-06)
     smj: ["biernna", "piɛrnːa"],
     smn: ["kuob'žâ", "kuobdʒɐ"], // was ["kuob'žâ", "kuɔbdʒa"] (vi dialect rules 2026-10-06)
     sms: ["kueʹbǯǯ", "kuɛbʲddʒʲɘ"],
@@ -1812,7 +1816,7 @@ WORDS.bear = {
     anp: ["भालू", "bʱaːluː"],
     gbm: ["रिख", "rikʰ"],
     mag: ["रीछ", "riːtʃʰ"],
-    tcy: ["ಕರಡಿ", "karaɖi"],
+    tcy: ["ಕರಡಿ", "kaɾaɖi"], // was ["ಕರಡಿ", "karaɖi"] (vi dialect rules 2026-10-06)
     dv: ["ސާރިދޯޅު", "saːɾidoːɭu"],
     rmy: ["riči", "ritʃi"],
     azb: ["آیی", "ajɯ"],
@@ -1912,5 +1916,7 @@ WORDS.bear = {
     wbm: ["krih", "krih"],
     to: ["pea", "pea"],
     rtm: ["pea", "pea"],
+    sux: ["𒊍", "az"],
+    cmg: ["ᠪᠠᠭᠠᠪᠠᠭᠠᠢ", "baɣabaɣai"]
   },
 };

@@ -875,6 +875,9 @@ WORDS.rice = {
     ter: ["nakaku", "nakaku"],
     dje: ["mo", "mo"],
     zh_han: ["米", "mhiǝ̄́j"],
-    de_lut: ["Reis", "raɪs"]
+    de_lut: ["Reis", "raɪs"],
+    p_sit: ["*b-ras", "b-ras"],
+    ohu: ["rizskása", "riʒkaːʃɒ"],
+    ayl: ["رز", "ruzz"]
   }
 };

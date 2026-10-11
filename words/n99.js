@@ -919,7 +919,7 @@ WORDS.n99 = {
     tll: ["akumi divwa la divwa", "akumi divwa la divwa"],
     tkl: ["iva hefuluiva", "iva hefuluiva"],
     tet: ["sia-nulu resin sia", "sia-nulu resin sia"], // was ["siwi nulu resin siwi", "siwi nulu resin siwi"] (vi dialect rules 2026-10-06)
-    tcy: ["ಸೊನ್ಪತ್ತೊರ್ಂಬ", "sonpattormba"],
+    tcy: ["ಸೊನ್ಪತ್ತೊರ್ಂಬ", "sonpattoɾmba"], // was ["ಸೊನ್ಪತ್ತೊರ್ಂಬ", "sonpattormba"] (vi dialect rules 2026-10-06)
     tcs: ["nainti nain", "nainti nain"],
     tab: ["урчӏвцӏурна урчӏвуб", "urtʃʼʷtsʼurna urtʃʼʷub"], // was ["урчӏвцӏурна урчӏвуб", "urtʃʼvtsʼurna urtʃʼʷub"] (vi dialect rules 2026-10-06)
     sus: ["tongo solomanaani nun solomanaani", "toŋɡo solomanaːni nun solomanaːni"],
@@ -951,7 +951,7 @@ WORDS.n99 = {
     pbb: ["nowenta y nwewe", "nowenta i nwewe"],
     pap: ["nobent'i nuebe", "nobenti nwebe"],
     os: ["нудӕс ӕмӕ цыппарыссӕдз", "nudæs æmæ tsɨpparɨssædz"],
-    olo: ["yheksäkymmen yheksä", "yheksækymːen yheksæ"],
+    olo: ["yheksäkymmen yheksä", "ˈyheksækymːen ˈyheksæ"], // was ["yheksäkymmen yheksä", "yheksækymːen yheksæ"] (vi dialect rules 2026-10-06)
     nzm: ["riaksekui ze sekui", "riaksekui ze sekui"],
     nzi: ["abulahɔnla nee ngɔnla", "abulahɔ̃lã neː ŋɡɔ̃lã"],
     nyo: ["kyenda na mwenda", "tʃenda na mwenda"],
@@ -994,7 +994,7 @@ WORDS.n99 = {
     kpv: ["ӧкмысдас ӧкмыс", "ɘkmɨsdas ɘkmɨs"], // was ["ӧкмысдас ӧкмыс", "ɵkmɨsdas ɵkmɨs"] (vi dialect rules 2026-10-06)
     koi: ["ӧкмысдас ӧкмыс", "ɵkmɨsdas ɵkmɨs"],
     kjh: ["тоғызон тоғыс", "toɣɯzon toɣɯs"],
-    kj: ["omilongo omugoi nomugoi", "omiloŋɡo oŋŋɡoi noŋŋɡoi"],
+    kj: ["omilongo omugoi nomugoi", "omiloŋɡo omuɡoi nomuɡoi"], // was ["omilongo omugoi nomugoi", "omiloŋɡo oŋŋɡoi noŋŋɡoi"] (vi dialect rules 2026-10-06)
     kha: ["khyndaiphew khyndai", "kʰɨndaːjpʰew kʰɨndaːj"],
     kfa: ["ತೊಂಬತೊಯಿಂಬದ್", "tombatojimbadɨ"],
     kca: ["йӑрсот йӑрәтйаӈ", "jărsot jărətjaŋ"],
@@ -1165,7 +1165,7 @@ WORDS.n99 = {
     ar_lev: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     kde: ["tisini na tisa", "tisini na tisa"],
     tum: ["makhumi ghankhonde na ghanayi na vinkhonde na vinayi", "makʰumi ɣaŋkʰonde na ɣanaji na viŋkʰonde na vinaji"],
-    yao: ["makumi nsano ni ncece kwisa nsano ni ncece", "makumi nsano ni ntʃetʃe kwisa nsano ni ntʃetʃe"],
+    yao: ["makumi msano ni mcece kwisa msano ni mcece", "makumi msano ni mtʃetʃe kwisa msano ni mtʃetʃe"], // was ["makumi nsano ni ncece kwisa nsano ni ncece", "makumi nsano ni ntʃetʃe kwisa nsano ni ntʃetʃe"] (vi dialect rules 2026-10-06)
     toi: ["makumi aali fuka afuka", "makumi aːli fuka afuka"],
     kmb: ["makuinhi ivua ni ivua", "makwiɲi ivwa ni ivwa"],
     myx: ["kamakhumi syeenda na syeenda", "kamakʰumi sjeːnda na sjeːnda"],

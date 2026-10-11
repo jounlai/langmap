@@ -746,7 +746,7 @@ WORDS.mouth = {
     nut: ["pác", "paːk˥"],
     ada: ["nya", "ɲa"],
     bom: ["nu", "nu"],
-    ngl: ["mwaano", "mwaːno"],
+    ngl: ["mwano", "mwano"],
     aoz: ["fefan", "fefan"],
     lus: ["kâ", "ka"],
     lhu: ["mɔ̀ʼ-qɔ", "mɔ̀ʔqɔ"],
@@ -1180,7 +1180,7 @@ WORDS.mouth = {
     bbl: ["ბაქ", "bak"],
     fia: ["ág", "áɡ"],
     nmn: ["ǂûe", "ǂue"],
-    khw: ["اپاک", "aˈpaːk"],
+    khw: ["اپاک", "aˈpak"],
     rmt: ["zari", "zari"],
     hup: ["-daʼ", "-daʔ"],
     itb: ["vivih", "vivih"],
@@ -1214,6 +1214,9 @@ WORDS.mouth = {
     sgw: ["አም", "am"],
     mbc: ["mutá", "mutá"],
     ar_qur: ["فم", "fam"],
-    zh_han: ["口", "khwā́"]
+    zh_han: ["口", "khwā́"],
+    xpr: ["rumb", "rumb"],
+    sux: ["𒅗", "kaɡ"],
+    mro: ["nor", "nɔr"]
   }
 };

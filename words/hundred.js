@@ -615,7 +615,7 @@ WORDS.hundred = {
     loz: ["mwanda", "mwanda"],
     lua: ["lukama", "lukama"],
     lol: ["nkama", "nkama"],
-    tll: ["lokama", "lokama"],
+    tll: ["lukama", "lukama"],
     kmb: ["hama", "hama"],
     umb: ["ocita", "otʃita"],
     her: ["esere", "esere"],
@@ -703,7 +703,7 @@ WORDS.hundred = {
     tly: ["sa", "sa"],
     luz: ["sad", "sad"],
     hif: ["sau", "səu"],
-    hoc: ["sao", "sao"],   // borrowed from the Indo-Aryan neighbours, beside a native vigesimal mi hisi
+    hoc: ["mi sao", "mi sao"],   // borrowed from the Indo-Aryan neighbours, beside a native vigesimal mi hisi
     bsk: ["tha", "tʰaː"],
     kha: ["spah", "spaʔ"],
     grt: ["ritcha", "ritʃa"],
@@ -965,7 +965,7 @@ WORDS.hundred = {
     vai: ["ꖽꗒ", "hɔnɗɔ"],
     spp: ["ŋkuu", "ŋkuː"],
     rwk: ["iyana", "ijana"],
-    bzj: ["honjrid", "hɔndʒɾɪd"],
+    bzj: ["honjrid", "hondʒrid"],
     nch: ["cien", "sjen"],
     nhw: ["cien", "sjen"],
     nhe: ["cien", "sjen"],
@@ -1171,6 +1171,7 @@ WORDS.hundred = {
     dsh: ["kuɗ", "kuɗ"],
     jup: ["cẽ́", "tʃẽ́"],
     mjg: ["nige jang", "niɡe tɕaŋ"],
-    ess: ["ю̄к талъимат", "juːk taɬimat"]
+    ess: ["ю̄к талъимат", "juːk taɬimat"],
+    kxv: ["pāsa kōḍe", "paːsa koːɖe"]
   },
 };

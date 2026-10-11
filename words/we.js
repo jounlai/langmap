@@ -54,6 +54,7 @@ WORDS.we = {
     sw: "\"Sisi\", umbo la kamusi: kiwakilishi cha nafsi ya kwanza wingi katika umbo la kiima au umbo huru, katika usajili wa kawaida — si umbo la unyenyekevu, la heshima wala la kifalme. Pale lugha inapotofautisha kisarufi \"sisi\" kinachomjumuisha msikilizaji na \"sisi\" kisichomjumuisha, maumbo yote mawili huandikwa, kinachojumuisha kwanza, na ramani huzipa lugha hizo rangi yake. Huhesabiwa tofauti iliyo katika viwakilishi huru pekee; ikiwa iko katika kiambishi cha kitenzi tu, lugha huhesabiwa kuwa na neno moja.",
   },
   family: {
+    p_aav: "clusive",
     qxs: "clusive",
     nan_ph: "clusive",
     gsw_als: "single",
@@ -1422,7 +1423,7 @@ WORDS.we = {
     zu: ["thina", "ˈtʰiːna"],
     am: ["እኛ", "ɨɲːa"],
     aiw: ["wota", "woˈta"],
-    sgw: ["የና", "jəna"],
+    sgw: ["ይና", "jɨna"], // was ["የና", "jəna"] (vi dialect rules 2026-10-06)
     mg: ["isika / izahay", "iˈsika / izaˈhaj"],
     ain: ["アオカ / チョカ", "aoka / tɕoka"],
     fi: ["me", "me"],
@@ -1483,7 +1484,7 @@ WORDS.we = {
     sm: ["tātou / mātou", "taːtou / maːtou"],
     to: ["kitautolu / kimautolu", "kitautolu / kimautolu"],
     pau: ["kid / kemam", "kið / kəˈmam"],
-    sd: ["اسين", "asĩː"],
+    sd: ["اسين", "əsĩː"], // was ["اسين", "asĩː"] (vi dialect rules 2026-10-06)
     pa: ["ਅਸੀਂ", "əsĩː"],
     pnb: ["اسیں", "əsĩː"],
     ne: ["हामी", "haːmi"],
@@ -1530,7 +1531,7 @@ WORDS.we = {
     efi: ["nnyin", "nɲin"], // was ["nnyịn", "nɲin"] (vi dialect rules 2026-10-06)
     ekp: ["ye", "je"],
     izz: ["anyi", "aɲi"], // was ["anyị", "aɲɪ"] (vi dialect rules 2026-10-06)
-    ibb: ["nnyịn", "ǹɲìn"],
+    ibb: ["ñnyịn", "ǹɲìn"], // was ["nnyịn", "ǹɲìn"] (vi dialect rules 2026-10-06)
     urh: ["avwanre", "aβwanɾe"], // was ["avware", "aʋare"] (vi dialect rules 2026-10-06)
     deg: ["eni", "eni"],
     ets: ["mae", "mae"],
@@ -1693,8 +1694,8 @@ WORDS.we = {
     hit: ["𒌑𒂊𒌍", "weːs"],
     nci: ["tehhuāntin", "teʔˈwaːntin"],
     nhx: ["tejame̱n / nejame̱n", "tehameːn / nehameːn"], // was ["tejamen / nejamen", "teˈhamen / neˈhamen"] (vi dialect rules 2026-10-06)
-    nch: ["tohuanti", "toˈwanti"],
-    nhw: ["tohuanti", "toˈwanti"],
+    nch: ["tojuanti", "tohˈwanti"], // was ["tohuanti", "toˈwanti"] (vi dialect rules 2026-10-06)
+    nhw: ["tojuanti", "toˈhwanti"], // was ["tohuanti", "toˈwanti"] (vi dialect rules 2026-10-06)
     nhe: ["tojuanti", "toˈhwanti"], // was ["tohuanti", "toˈwanti"] (vi dialect rules 2026-10-06) // was ["tojuanti", "toˈhwanti"] (vi dialect rules 2026-10-06)
     hch: ["tame", "ˈtame"],
     ngu: ["tejuamej", "teˈwameh"],
@@ -1708,7 +1709,7 @@ WORDS.we = {
     ptrk: ["*biŕ", "biz"],
     pmng: ["*bida / *ba", "bida / ba"],
     p_tun: ["*münti / *büe", "mynti / bye"],
-    p_aav: ["—", "—"],
+    p_aav: ["*hiːʔ", "hiːʔ"],
     p_viet: ["—", "—"],
     ptai: ["—", "—"],
     p_hmx: ["—", "—"],
@@ -1771,7 +1772,7 @@ WORDS.we = {
     ki: ["ithuĩ", "iðue"],
     mer: ["tuĩ", "tue"], // was ["twii", "twiː"] (r51 audit 2026-10-04)
     kam: ["ithye", "iðje"],
-    ebu: ["ithũi", "iðoi"],
+    ebu: ["tue", "tuɛ"], // was ["ithũi", "iðoi"] (vi dialect rules 2026-10-06)
     tn: ["rona", "rona"],
     st: ["rona", "rona"],
     ts: ["hina", "hina"],
@@ -1785,8 +1786,8 @@ WORDS.we = {
     ff: ["enen / minen", "enen / minen"],
     bm: ["an", "án"],
     dds: ["ɛmmɛ", "ɛmːɛ"],
-    emk: ["an", "án"],
-    kao: ["an", "án"],
+    emk: ["an", "an"], // was ["an", "án"] (vi dialect rules 2026-10-06)
+    kao: ["an", "an"], // was ["an", "án"] (vi dialect rules 2026-10-06)
     snk: ["o", "o"],
     mwk: ["an", "án"],
     mlq: ["ilan / ntelu", "ilã / n̩telu"],
@@ -1971,7 +1972,7 @@ WORDS.we = {
     kbp: ["ɖa", "ɖa"],
     ee: ["mí", "mí"],
     gej: ["mí", "mí"],
-    aja: ["mí", "mí"],
+    aja: ["mi", "mi"], // was ["mí", "mí"] (vi dialect rules 2026-10-06)
     nyn: ["itwe", "itwe"],
     cgg: ["itwe", "itwe"],
     ttj: ["itwe", "itwe"],

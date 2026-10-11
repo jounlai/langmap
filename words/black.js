@@ -486,10 +486,10 @@ WORDS.black = {
     her: ["zorondu", "zorondu"],
     ig: ["ojii", "odʒiː"],
     efi: ["obubit", "obubit"],
-    ibb: ["obubit", "obubit"],
+    ibb: ["abubịd", "abubɪd"],
     fon: ["wiwi", "wiwi"],
     mnk: ["fiŋ", "fiŋ"],
-    emk: ["fin", "fiɲ"],
+    emk: ["fin", "fin"],
     dag: ["sabinli", "sabinli"],
 
     // --- Classical & older Indo-European -------------------------------
@@ -962,7 +962,7 @@ WORDS.black = {
     lzz: ["უჩა", "utʃa"],
     kfx: ["काल़ा", "kaːɭaː"],
     hns: ["karia", "kəriaː"],
-    tab: ["кӏару", "kʼaru"],
+    tab: ["кӏаруб", "kʼarub"],
     gd: ["dubh", "t̪uh"],
     nrf: ["nièr", "njɛr"],
     kos: ["sroalsroal", "ʂoalʂoal"],
@@ -1197,7 +1197,7 @@ WORDS.black = {
     duu: ["nɑʔ", "nɑʔ"],
     kdt: ["twɛɲ", "twɛɲ"],
     mra: ["pha dam", "pʰa dam"],
-    niv: ["вылвылы", "vɨlvɨlɨ"],
+    niv: ["вылвылы", "vɯlvɯlɯ"],
     atb: ["noq", "noʔ˨˩"],
     tob: ["naweʔ", "naweʔ"],
     plg: ["leedaʁaik", "leedaʁaik"],
@@ -1265,6 +1265,8 @@ WORDS.black = {
     xav: ["ĩʼrãdâ", "ĩʔɾãˈdə"],
     yur: ["loʼogey", "loʔoɣej"],
     rim: ["njiutiki", "ndʒiutiki"],
-    ja_rys: ["っふさん", "ɸɸusaɴ"]
+    ja_rys: ["っふさん", "ɸɸusaɴ"],
+    zh_han: ["黑", "m̥ǝ̄k"],
+    xpr: ["syʾw", "sjaːw"]
   },
 };

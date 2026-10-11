@@ -644,7 +644,7 @@ WORDS.green = {
     bdq: ["jơk", "ɟəːk"],
     bzj: ["green", "ɡriːn"],
     ty: ["matie", "matie"],
-    dz: ["ཧོནམ", "høːm"],
+    dz: ["ཧོནམ", "høm"],
     frp: ["vèrd", "vɛr"],
     kfx: ["हौरा", "hɔraː"],
     usp: ["rax", "raʃ"],
@@ -1035,6 +1035,11 @@ WORDS.green = {
     mev: ["béìzɛ̀", "be˥i˩zɛ˩"],
     tsz: ["xunhupiti", "ʃuŋupiti"],
     ssy: ["andharh", "anɖaɽ"],
-    ter: ["hononoʼiti", "hononoʔiti"]
+    ter: ["hononoʼiti", "hononoʔiti"],
+    zh_han: ["綠", "rok"],
+    ojp: ["あを", "awo"],
+    p_aav: ["*kciʔ", "kciʔ"],
+    aja: ["makpafan", "makpafã"],
+    chp: ["dzeretłʼes látʼį", "dzeretɬʼes látʼĩ"]
   }
 };

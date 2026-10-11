@@ -850,5 +850,11 @@
     "proto": "paus",
     "ruling": "inherited",
     "note": "Old Cham ina, inherited unchanged from PAn *ina (Cham inscriptions; r73). Ruled 2026-10-09."
+  },
+  "xqa|horse": {
+    "form": "at",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Karakhanid at (Kashgari) inherited unchanged from Proto-Turkic *at. Ruled 2026-10-12 (r87)."
   }
 }

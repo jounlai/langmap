@@ -209,7 +209,7 @@ WORDS.poop = {
     te: ["మలం", "malam"],
     kn: ["ಕಕ್ಕ", "kakːa"],
     ml: ["അപ്പി", "appi"],
-    tg: ["гӯҳ", "ɡuːh"],
+    tg: ["гӯҳ", "ɡɵh"],
     ku: ["gû", "ɡuː"],
     ckb: ["گوو", "ɡuː"],
     ps: ["سوپه", "ˈsʊpa"],
@@ -588,7 +588,7 @@ WORDS.poop = {
     izz: ["nshị", "nʃɪ"],
     urh: ["isọn", "isɔ̃"],
     tll: ["tumi", "tumi"],
-    bfa: ["kin", "kin"],
+    bfa: ["korodo", "korodo"],
     ttj: ["amaazi", "amaːzi"],
     loz: ["ñanda", "ɲanda"],
     lue: ["tuji", "tudʒi"],
@@ -643,7 +643,7 @@ WORDS.poop = {
     poh: ["saaʼ", "saːʔ"],
     cuk: ["saa", "saː"],
     mic: ["miʼjan", "miːdʒan"],
-    apw: ["bichan", "bitʃʰan"],
+    apw: ["bichan", "bitʃan"],
     alt: ["бок", "bok"],
     sip: ["སྐྱག་ཀོ", "kʲakko"],
     crk: ["ᒣᔨ", "meːji"],
@@ -894,6 +894,7 @@ WORDS.poop = {
     duu: ["ni", "ni˥˥"],
     dds: ["bede", "bede"],
     mev: ["gbō", "ɡbo˧"],
-    one: ["o:tá:", "oːtáː"]
+    one: ["o:tá:", "oːtáː"],
+    ofs: ["skern", "skern"]
   },
 };

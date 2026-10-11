@@ -643,7 +643,7 @@ WORDS.book = {
     ngl: ["liivuru", "liːvuɾu"],
     tet: ["livru", "livɾu"],
     aoz: ["sulat", "sulat"],
-    dz: ["དེབ", "dep"],
+    dz: ["ཀི་ལྟབ", "kitap"],
     nia: ["buku", "buku"],
     lhu: ["lìʼ", "lìʔ"],
     akb: ["buku", "buku"],
@@ -713,7 +713,7 @@ WORDS.book = {
     bru: ["tâm saráq", "tam saraʔ"],
     cnh: ["cauk", "tsauk"],
     rwk: ["kitabu", "kitabu"],
-    bzj: ["buk", "bʊk"],
+    bzj: ["buk", "buk"],
     bra: ["किताब", "kitaːb"],
     nv: ["naaltsoos", "nɑːltsoːs"],
     ngu: ["libro", "ˈlibro"],
@@ -928,7 +928,7 @@ WORDS.book = {
     tkr: ["китаб", "kitab"],
     bdk: ["дафтар", "daftar"],
     khv: ["гьише", "hiʃe"],
-    niv: ["питӻы", "pitɣɯ"],
+    niv: ["питғы", "pitɣɯ"],
     zh_jn: ["书", "ʂu˨˩˧"],
     zh_hf: ["书", "ʂʉ˨˩˨"],
     zh_cq: ["书", "su˥"],
@@ -1075,6 +1075,8 @@ WORDS.book = {
     duu: ["dʑiɟe", "dʑi˥˥ɟe˥˥"],
     atb: ["laiká bùk", "lai˨˩ka̱˥˥puk˨˩"],
     mch: ["jajeeda", "haheːɾ̠a"],
-    mjg: ["pujiu", "pʰudʑiu"]
+    mjg: ["pujiu", "pʰudʑiu"],
+    zh_han: ["書", "ća"],
+    ptai: ["*sɯː", "sɯː"]
   }
 };

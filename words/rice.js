@@ -873,6 +873,8 @@ WORDS.rice = {
     yur: ["raas", "ɹaːs"],
     kxm: ["បាយ", "ɓaːj"],
     ter: ["nakaku", "nakaku"],
-    dje: ["mo", "mo"]
+    dje: ["mo", "mo"],
+    zh_han: ["米", "mhiǝ̄́j"],
+    de_lut: ["Reis", "raɪs"]
   }
 };

@@ -54,6 +54,7 @@ WORDS.foot = {
     sw: "Mguu — sehemu ya mwili unayosimamia, chini ya kifundo. Si kipimo cha urefu, si mteremko wa mlima wala mwisho wa kitanda, wala si kitenzi. Pale lugha ina neno moja kwa mguu mzima, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    yue_dg: "leg+foot",
     dds: "leg+foot",
     mgo: "leg+foot",
     kwk: "leg+foot",
@@ -1202,6 +1203,7 @@ WORDS.foot = {
     "unknown": {"color": "#b45309", "emoji": "❓", "en": "not determined · no leg word attested", "ja": "未判定・脚の語が未確認", "ko": "미판정 · 다리 낱말이 확인되지 않음", "zh": "未判定・未见表示腿的词", "yue": "未判定 · 未見表示腿嘅詞", "vi": "chưa xác định · không thấy từ chỉ 'chân trên'", "th": "ยังไม่ระบุ · ไม่พบคำว่าขา", "id": "belum ditentukan · kata untuk tungkai tidak terekam", "hi": "अनिर्धारित · टाँग का शब्द अप्रमाणित", "de": "nicht bestimmt · kein Bein-Wort belegt", "fr": "non déterminé · aucun mot pour « jambe » attesté", "it": "non determinato · nessuna parola per «gamba» attestata", "es": "sin determinar · no se atestigua palabra para «pierna»", "pt": "por determinar · sem palavra atestada para «perna»", "ru": "не определено · слово «нога» не засвидетельствовано", "uk": "не визначено · слово «нога» не засвідчене", "ar": "غير محدَّد · لا كلمة مُثبتة للساق", "he": "לא נקבע · לא מתועדת מילה לרגל", "sw": "haijabainishwa · hakuna neno la mguu lililothibitishwa"},
   },
   data: {
+    yue_dg: ["脚", "kœ˧˦"],
     dds: ["kubɔ", "kubɔ"],
     mgo: ["əwu", "əwu"],
     kwk: ["gugwa̱ʼyu", "ɡuɡʷəʔju"],
@@ -1347,7 +1349,7 @@ WORDS.foot = {
     bzd: ["klö̀", "klø"],  // Bribri splits klö̀ from tuʼ, which is what the NT breaks at John 19:32. The low tone needs a combining grave this row has not used before.
     bzg: ["asiel", "asiel"],  // Happart 1840:14 'Asiél, the leg of a man or beast'; he has no foot headword at all and builds every foot expression on it — chauch o asiel 'under the foot', morr' o asiel 'the bottom of the foot' — while thigh, calf, knee, shin, ankle and heel are all lexicalised around it.
     bzh: ["vaha", "βaʁa"],  // One stem does both jobs in the Mapos text — vahaj for the disciples' feet at John 13:5 and for the legs the soldiers break at John 19:31-32 — and John 19:36 names seḳë as the bone, so the leg passage is not a bone phrase; ABVD's Headwaters list (id 1691) gives the same word as ßaɣa.
-    bzj: ["fut", "fʊt"],  // Belize Kriol breaks 'ih fut dehn' where the Greek has legs, so fut runs the whole limb as Sranan futu and Papiamento pia do.
+    bzj: ["fut", "fut"],  // Belize Kriol breaks 'ih fut dehn' where the Greek has legs, so fut runs the whole limb as Sranan futu and Papiamento pia do. // was ["fut", "fʊt"] (vi dialect rules 2026-10-06)
     ca: ["peu", "pɛw"],  // peu vs cama.
     ca_va: ["peu", "pɛw"],  // The AVL's own normative dictionary transcribes peu [pɛ́w], and the row's neu /nɛw/ — the same rime, also byte-identical to Barcelona — shows why Valencian's vowel reduction cannot separate them here.
     cab: ["ugúdi", "uɡudi"],  // Garifuna washes nugúdi and breaks lúruna, so ugúdi is the foot and úruna the leg.
@@ -2322,7 +2324,7 @@ WORDS.foot = {
       ],
     },  // The Tai tin/kha split.
     zap: ["ñee", "ɲeː"],  // Pickett's Vocabulario zapoteco del Istmo glosses the single entry ñee 'pie, pierna', and the Isthmus NT proves it: it washes ñee at John 13:5 and breaks the same ñee at 19:32, keeping dxita for the bone at 19:36.
-    zdj: ["mndu", "ᵐndu"],  // mndu covers foot and leg together, and the Shingazidja body-part list builds komwa mndu for the ankle and nkoo ya mndu for the heel on the same word.
+    zdj: ["mndu", "mndu"],  // mndu covers foot and leg together, and the Shingazidja body-part list builds komwa mndu for the ankle and nkoo ya mndu for the heel on the same word. // was ["mndu", "ᵐndu"] (vi dialect rules 2026-10-06)
     zgh: ["ⴰⴹⴰⵔ", "adˤar"],  // The standard's three source varieties all take this root for the whole limb — Tashelhit ⴰⴹⴰⵔ 'foot, leg', Central Atlas ⴰⴹⴰⵕ and Tarifit ḍar, whose Bible uses one word for feet washed and legs broken — and it is written here with plain ⵔ, as the tzm row writes it.
     zh: ["脚", "tɕi̯ɑʊ̯˨˩˦"],  // Mandarin keeps 脚 (foot) apart from 腿 (leg). Script per this row's simplified convention.
     zh_cd: ["脚", "tɕyo˨˩"],  // Chengdu Mandarin keeps them apart.

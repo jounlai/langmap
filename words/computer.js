@@ -344,7 +344,7 @@ WORDS.computer = {
     "sas": ["komputer", "komˈputər"],
     "sc": ["computer", "komˈpjuter"],
     "scn": ["computer", "komˈpjuter"],
-    "sd": ["ڪمپيوٽر", "kəmpjuːʈaru"],
+    "sd": ["ڪمپيوٽر", "kəmpjuːʈər"],
     "sda": ["komputer", "komˈputər"],
     "se": ["dihtor", "ˈtiːhtor"],
     "si": ["පරිගණකය", "pəɾiɡəɳəkəjə"],
@@ -364,7 +364,7 @@ WORDS.computer = {
     "ta": ["கணினி", "kaɳini"],
     "te": ["కంప్యూటర్", "kampjuːʈar"],
     "tet": ["komputadór", "komputaˈdoɾ"],
-    "tg": ["компютер", "kɔmpjutɛr"],
+    "tg": ["компютер", "kompjuter"],
     "th": ["คอมพิวเตอร์", "kʰɔm˧pʰiw˧tɤː˥˩"],
     "th_isan": ["คอมพิวเตอร์", "kʰɔm˧pʰiw˧tɤː˥˩"],
     "th_n": ["คอมพิวเตอร์", "kʰɔm˧pʰiw˧tɤː˥˩"],
@@ -455,7 +455,7 @@ WORDS.computer = {
     "mai": ["कम्प्युटर", "kəmpjuʈər"],
     "mwl": ["cumputador", "kũputaˈðoɾ"],
     "sco": ["computer", "kəmˈpjutər"],
-    "tab": ["компьютер", "kɐmˈpjuter"],
+    "tab": ["компьютер", ""],
     "vep": ["tedomašin", "ˈtedomaʃin"],
     "vi_nom": ["盤倂", "ɓaːn˨˩ tiɲ˧˥"],
     "vro": ["puutri", "ˈpuːtri"],
@@ -716,6 +716,10 @@ WORDS.computer = {
     lus: ["computer", ""],
     sg: ["ordinateur", ""],
     cnh: ["computer", ""],
-    cbk: ["computer", ""]
+    cbk: ["computer", ""],
+    gan_fz: ["电脑", "tʰiɛn˧˧ lau˧˥"],
+    cjy_xz: ["电脑", "tiɛ̃˥˨ nɔ˧˩˧"],
+    cnp: ["电脑", "tin˨˨ nau˨˦"],
+    chp: ["satsán bení hųlį", "satsán bení hũlĩ"]
   },
 };

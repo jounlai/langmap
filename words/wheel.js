@@ -431,7 +431,7 @@ WORDS.wheel = {
 
     // --- Creoles — the wheel arrived with the word for it -----------------
     jam: ["wiil", "wiːl"],
-    bzj: ["wiil", "wiːl"],
+    bzj: ["weel", "wiːl"],
     bah: ["wheel", "wiːl"],
     hwc: ["wheel", "wiːl"],
     pcm: ["wil", "wil"],
@@ -945,6 +945,9 @@ WORDS.wheel = {
     chp: ["dechën bąth", "detʃen bãθ"],
     hai: ["ḵán ḵʼíiyunaangw", "qʰán qʼíːjunaːŋw"],
     abe: ["wakôlikws", "wakɔ̃likʷs"],
-    kwk: ["ka̱lxsidzeʼ", "kəlxsidzeʔ"]
+    kwk: ["ka̱lxsidzeʼ", "kəlxsidzeʔ"],
+    cjy_xz: ["轮子", "luəŋ˧˩ tsɿ˧˩˧"],
+    cnp: ["车轮", "tʃʰe˥˧ lɐn˨˩"],
+    zh_han: ["輪", "rwǝn"]
   }
 };

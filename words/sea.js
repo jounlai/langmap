@@ -207,7 +207,7 @@ WORDS.sea = {
     cu: ["морѥ", "morje"],
     cv: ["тинӗс", "ˈtinɘs"],
     de_ch: ["Meer", "meːr"],
-    dlg: ["байгал", "bɑjˈɡɑl"],
+    dlg: ["байгал", "bajˈɡal"],
     dsb: ["mórjo", "ˈmɨrʲɔ"],
     dv: ["މޫދު", "muːdu"],
     ee: ["atsiaƒu", "atsiaɸu"],
@@ -315,7 +315,7 @@ WORDS.sea = {
     nds: ["See", "zeː"],
     nia: ["asi", "asi"],
     niu: ["tahi", "tahi"],
-    niv: ["ӄерҏӄ", "qer̥q"],
+    niv: ["ӄер̌ӄ", "qer̥q"],
     nn: ["hav", "hɑːʋ"],
     nog: ["тенъиз", "teŋiz"],
     non: ["haf", "hav"],
@@ -503,7 +503,7 @@ WORDS.sea = {
     tzm: ["ⵍⴱⵃⵔ", "ləbħəɾ"],
     suk: ["nyanza", "ɲanza"],
     tiv: ["zegemnger", "zeɡemŋɡɛɾ"],
-    ibb: ["akpa inyañ", "akpa iɲaŋ"],
+    ibb: ["akpainyañ", "akpaiɲaŋ"],
     lg: ["ennyanja", "eɲːaɲdʒa"],
     lua: ["mbuwu", "mbuwu"],
     kg: ["mbu", "mbu"],
@@ -606,7 +606,7 @@ WORDS.sea = {
     tet: ["tasi", "tasi"],
     aoz: ["tasi", "tasi"],
     new: ["समुद्र", "sʌmudrʌ"],
-    dz: ["རྒྱ་མཚོ", "dʑatsʰo"],
+    dz: ["རྒྱ་མཚོ", "dʑamtsʰo"],
     lhu: ["lâ-chɨ̂-g̈ɨ̂", "lâtsʰɯ̂ɣɯ̂"],
     khb: ["ᦉᦖᦳᧆ", "samut˧˥"],
     kac: ["panglai", "paŋ˧lai˧"],
@@ -1082,6 +1082,8 @@ WORDS.sea = {
     wym: ["mjer", "mjer"],
     djr: ["moṉuk", "moɳuk"],
     kmu: ["hage li", "haɡe li"],
-    brx: ["लैथो", "lɯitʰo"]
+    brx: ["लैथो", "lɯitʰo"],
+    zh_han: ["海", "m̥ǝ̄́"],
+    kxv: ["samduri", "samduri"]
   }
 };

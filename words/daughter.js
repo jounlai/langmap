@@ -469,7 +469,7 @@ WORDS.daughter = {
     bo: ["བུ་མོ", "pʰumo˥"],
     xct: ["བུ་མོ", "bumo"],
     xct_litpr: ["བུ་མོ", "pʰumo"],
-    dz: ["བུམོ", "bumo"],
+    dz: ["བུམོ", "bum"],
     bft: ["བུ་མོ", "bumo"],
     lbj: ["བུ་མོ", "bomo"],
     sip: ["བུམ", "bum"],
@@ -559,7 +559,7 @@ WORDS.daughter = {
     ht: ["pitit fi", "pitit fi"],
     pap: ["yu muhé", "ju muhe"],
     jam: ["daata", "daːta"],
-    bzj: ["daata", "dɑːtə"],
+    bzj: ["daata", "daːta"],
     bah: ["daughter", "dɑːtə"],
     hwc: ["dawta", "dɑːtə"],
     srn: ["umapikin", "umapikin"],
@@ -1146,8 +1146,10 @@ WORDS.daughter = {
     hai: ["gujáangaa", "ɡudʒɑ́ːŋaː"],
     bor: ["onaregody aredy", "onaɾeɡodɨ aɾedɨ"],
     kxv: ["māŋga", "maːŋɡa"],
-    sad: ["thamesi ǁnosu", "tʰamesi ǁnosu"],
+    sad: ["thames", "tʰames"],
     gqu: ["li42 məi35", "li˦˨ məi˧˥"],
-    xav: ["daʼra sipiʼõ", "daʔɾa sipiʔɔ̃"]
+    xav: ["daʼra sipiʼõ", "daʔɾa sipiʔɔ̃"],
+    zh_han: ["女", "ṇá"],
+    chp: ["seyaz tsʼékui", "sejaz tsʼékui"]
   },
 };

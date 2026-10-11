@@ -148,7 +148,7 @@ WORDS.salt = {
 
     // --- Asia, Africa, Pacific -------------------------------------------
     fa: ["نمک", "næˈmæk"],
-    tg: ["намак", "namak"],
+    tg: ["намак", "naˈmak"],
     ps: ["مالګه", "maːlɡa"],
     ur: ["نمک", "nəmək"],
     bn: ["নুন", "nun"],
@@ -606,7 +606,7 @@ WORDS.salt = {
     pt_gw: ["sal", "sal"],
     jam: ["saalt", "saːlt"],
     bah: ["salt", "sɑːlt"],
-    bzj: ["saalt", "sɑːlt"],
+    bzj: ["saalt", "saːlt"],
     hwc: ["salt", "sɑlt"],
     pcm: ["salt", "sɔlt"],
     kri: ["sɔl", "sɔl"],
@@ -1016,7 +1016,7 @@ WORDS.salt = {
     efi: ["inuñ", "inuŋ"],
     ekp: ["aɗa", "aɗa"],
     izz: ["unu", "unu"],
-    ibb: ["inụñ", "inʌŋ"],
+    ibb: ["inʌñ", "inʌŋ"],
     urh: ["ughweraka", "uɣʷeɾaka"],
     deg: ["uḅuwan", "uɓuwən"],
     ff: ["lamɗam", "lamɗam"],
@@ -1068,7 +1068,7 @@ WORDS.salt = {
     kwk: ["da̱msxi", "dəmsxi"],
     tsi: ["moon", "muːn"],
     cr: ["ᓰᐑᐦᑖᑲᐣ", "siːwiːhtaːkan"],
-    chp: ["dedhai", "deðai"],
+    chp: ["dedhay", "deðaj"],
     mic: ["salawei", "salawei"],
     pqm: ["salawey", "salawej"],
     abe: ["siwan", "siwan"],
@@ -1256,6 +1256,8 @@ WORDS.salt = {
     gon: ["होव्वोर", "hoʋʋoɾ"],
     sad: ["uuhlii", "uːɬiː"],
     tok: ["namako", "ˈnamako"],
-    yan: ["kuma", "kuma"]
+    yan: ["kuma", "kuma"],
+    zh_han: ["鹽", "źam"],
+    xpr: ["nmydk", "nameːdk"]
   },
 };

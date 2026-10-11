@@ -63,6 +63,11 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    de_lut: "taboo",
+    p_hmx: "inherited",
+    p_dra: "inherited",
+    pal: "inherited",
+    zh_han: "inherited",
     ppl: "coined",
     sce: "loan",
     mjg: "loan",
@@ -943,6 +948,11 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    de_lut: ["Bär", "bɛːr"],
+    p_hmx: ["*qrep", "qrep"],
+    p_dra: ["*eḷVñc-", "eɭVɲtʃ"],
+    pal: ["𐭧𐭫𐭮", "xirs"],
+    zh_han: ["熊", "whǝm"],
     ppl: ["tekwani metzkujkutu", "teːˈkʷani metskuhkutu"],
     sce: ["gouxin", "kəwˈɕin"],
     mjg: ["haxun", "xaɕun"],
@@ -1452,12 +1462,12 @@ WORDS.bear = {
     evn: ["хомоты", "xomoti"], // was ["хомоты", "homotɨ"] (vi dialect rules 2026-10-06)
     eve: ["накат", "nakat"],
     gld: ["мапа", "mapa"],
-    ude: ["мафа", "mafa"],
+    ude: ["мафа", "maɸa"], // was ["мафа", "mafa"] (vi dialect rules 2026-10-06)
 
     // --- Northeast Asia and the Arctic --------------------------------
     // Ainu: iso is the everyday word, but hunters said kamuy 'god' instead.
     ain: ["イソ", "iso"],
-    niv: ["чхыф", "tʃʰxɤf"],
+    niv: ["чхыф", "tʃʰxɯf"], // was ["чхыф", "tʃʰxɤf"] (vi dialect rules 2026-10-06)
     ket: ["ӄой", "qoj"],
     ckt: ["кэйӈын", "kejŋən"],
     kpy: ["кайӈын", "kajŋən"], // was ["кайӈын", "kajŋɯn"] (vi dialect rules 2026-10-06)
@@ -1506,7 +1516,7 @@ WORDS.bear = {
     bo: ["དོམ", "tom˩˧"],
     xct: ["དོམ", "dom"],
     xct_litpr: ["དོམ", "tʰom"], // was ["དོམ", "dom"] (vi dialect rules 2026-10-06)
-    dz: ["དོམ", "dom"],
+    dz: ["དོམ", "doːm"], // was ["དོམ", "dom"] (vi dialect rules 2026-10-06)
 
     // --- Southeast Asia: Khmer arrives at the Slavic kenning alone ----
     my: ["ဝက်ဝံ", "wɛʔ wʊ̀ɴ"],
@@ -1738,7 +1748,7 @@ WORDS.bear = {
     huz: ["сы", "sɨ"],
     khv: ["зе", "ze"],
     abq: ["мшвы", "mʃʷə"],
-    sva: ["და̈შდვ", "dæʃdv"],
+    sva: ["და̈შდუ̂", "dæʃdw"], // was ["და̈შდვ", "dæʃdv"] (vi dialect rules 2026-10-06)
     hyw: ["արջ", "aɾtʃ"],
     olo: ["kondii", "kondiː"],
     smj: ["biernna", "piɛrnːa"],

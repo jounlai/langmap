@@ -613,7 +613,7 @@ WORDS.ear = {
     brx: ["खोमा", "kʰɯma"],
     mni: ["ꯅꯥꯀꯣꯡ", "nakoŋ"],
     na: ["iyungen", "ijuŋen"],
-    zdj: ["shishio", "ʃiʃo"],
+    zdj: ["shishio", "ʃiʃio"],
     vi_nom: ["𦖻", "taj˧"],
     vi_han: ["耳", "ɲi˧˧ˀ˥"],
     afb: ["أذن", "əðun"],
@@ -624,7 +624,7 @@ WORDS.ear = {
     dar: ["лихӏи", "liħi"],
     tab: ["иб", "ib"],
     mhr: ["пылыш", "pələʃ"],
-    niv: ["нос", "nos"],
+    niv: ["мла", "mla"],
     ain: ["キサㇻ", "kisaɾa"],
     ki: ["gũtũ", "ɣoto"],
     frr: ["uur", "ˈuːɐ̯"],
@@ -1098,7 +1098,7 @@ WORDS.ear = {
     psi: ["کن", "kan"],
     asu: ["isikio", "isikio"],
     bfa: ["swot", "swot"],
-    aja: ["eto", "eto"],
+    aja: ["etɔ", "etɔ"],
     lue: ["litwitwi", "litwitwi"],
     pcd: ["eureille", "œʁɛj"],
     lif: ["ᤏᤧᤰᤂᤥ᤹", "nɛkkʰoʔ"],
@@ -1201,6 +1201,7 @@ WORDS.ear = {
     chp: ["dënedzaghé", "denedzaʁé"],
     yle: ["ngwene", "ŋʷɛɳɛ"],
     gon: ["केव", "keʋ"],
-    xkz: ["na", "nà"]
+    xkz: ["na", "nà"],
+    zh_han: ["耳", "ń́ǝ́"]
   },
 };

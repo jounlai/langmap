@@ -215,7 +215,7 @@ WORDS.butterfly = {
     ce: ["полла", "polːə"],
     av: ["кӏалкӏучӏ", "kʼalkʼutʃʼ"],  // Reduplicative kʼal-kʼu-. IDS records a dozen different Avar dialect words for this one insect.
     lez: ["чепелукь", "tʃepeluqʼ"],
-    dar: ["къабулдан", "ɢabuldan"],  // IDS records eighteen different Dargwa dialect words for this one insect.
+    dar: ["къабулдан", "qːabuldan"],  // IDS records eighteen different Dargwa dialect words for this one insect.
     ddo: ["кьандилу", "tɬʼandilu"],
     lbe: ["чӏимучӏали", "tʃʼimutʃʼali"],  // Reduplicative tʃʼi-...-tʃʼa-.
     ady: ["хьампӏырашъу", "ħaːmpʼəˈraːʂʷə"],
@@ -863,7 +863,7 @@ WORDS.butterfly = {
     xav: ["piro", "piˈɾɔ"],
     acf: ["papiyòt", "papijɔt"],
     ho: ["kaubebe", "kaubebe"],
-    bzj: ["botaflai", "bɔtaflai"],
+    bzj: ["botaflai", "botaflai"],
     cnh: ["pelep", "pelep"],
     dsh: ["arab", "arab"],
     pot: ["mémégé", "memeɡe"],
@@ -888,6 +888,14 @@ WORDS.butterfly = {
     mev: ["lólógbɛ̀ìgbɛ̀ì", "lo˥lo˥ɡbɛ˩i˩ɡbɛ˩i˩"],
     one: ["kana:wʌ́", "kanaːwʌ̃́"],
     gej: ["abèbe", "abèbe"],
-    ter: ["vaka vaka", "waka waka"]
+    ter: ["vaka vaka", "waka waka"],
+    cnp: ["蝴蝶", "hu˨˩ tip˨"],
+    zh_han: ["胡蝶", "ɣā l(h)iāp"],
+    h_tagalog: ["ᜉᜇᜓᜉᜇᜓ", "paɾupaˈɾo"],
+    osx: ["fīfoldara", "ˈfiːfoldara"],
+    ptai: ["*ɓɤːj", "ɓɤːj"],
+    de_lut: ["Pfeifholter", "ˈpfaɪfhɔltər"],
+    sux: ["𒄵", "ɡiriʃ"],
+    sva: ["პერპელ", "pʼerpʼel"]
   },
 };

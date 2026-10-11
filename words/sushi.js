@@ -488,6 +488,11 @@ WORDS.sushi = {
     kbp: ["sushi", ""],
     fj: ["sushi", ""],
     haw: ["sushi", ""],
-    tn: ["sushi", ""]
+    tn: ["sushi", ""],
+    gan_fz: ["寿司", "ɕiu˧˧ sɿ˩˩"],
+    cjy_xz: ["寿司", "ʂəu˥˨ sɿ˧˩˧"],
+    hsn_yz: ["寿司", "ʑiəɯ˨˦ sɿ˧˧"],
+    czh: ["寿司", "ɕiu˩˩ sɿ˩˩"],
+    cnp: ["寿司", "ʃɐu˨˨ ɬi˥˧"]
   },
 };

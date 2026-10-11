@@ -482,7 +482,7 @@ WORDS.mouth = {
     nij: ["nyama", "ɲama"],
     nio: ["ӈаӈ", "ŋɐŋ"],
     niu: ["gutu", "ŋutu"],
-    niv: ["ыӈг", "ɤŋɡ"],
+    niv: ["ави", "avi"],
     nog: ["авыз", "aˈwɯz"],
     non: ["munnr", "munːr"],
     nrf: ["bouoche", "bwɔʃ"],
@@ -829,7 +829,7 @@ WORDS.mouth = {
     tzo: ["e", "e"],
     gym: ["kada", "kada"],
     frp: ["boche", "ˈbotʃe"],
-    tab: ["ушв", "uʃv"],
+    tab: ["ушв", "uʃʷ"],
     kfx: ["मुँह", "mũh"],
     hns: ["muh", "mũːh"],
     kos: ["oalu", "oalu"],
@@ -1037,7 +1037,7 @@ WORDS.mouth = {
     kgg: ["ata", "ata"],
     kxm: ["មាត់", "mɨət"],
     bzg: ["ranied", "ranied"],
-    sdo: ["bebaʼ", "bəbaʔ"],
+    sdo: ["babaʼ", "babaʔ"],
     itl: ["ӄэсҳ", "qesχ"],
     ale: ["агилг̆их̆", "aɡilɣiχ"],
     aln: ["gojë", "ɡoj"],
@@ -1212,6 +1212,8 @@ WORDS.mouth = {
     pcc: ["bas", "pa˧˥"],
     bsq: ["wɔ̃", "wɔ̃"],
     sgw: ["አም", "am"],
-    mbc: ["mutá", "mutá"]
+    mbc: ["mutá", "mutá"],
+    ar_qur: ["فم", "fam"],
+    zh_han: ["口", "khwā́"]
   }
 };

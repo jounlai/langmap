@@ -98,7 +98,7 @@ WORDS.new = {
     p_ine: ["*néwos", "néwos"],
     khq: ["taawo", "taːwo"],
     vi_han: ["新", "tən˧˧"],
-    emp: ["jiwidi", "hiwidi"],
+    emp: ["djiwidi", "ʒiwiɗi"],
     yao: ["jasambano", "dʒasambano"],
     tkl: ["fou", "fou"],
     es_cr: ["nuevo", "ˈnweβo"],
@@ -1026,7 +1026,7 @@ WORDS.new = {
     jio: ["ɲau", "ɲau˥"],
     xav: ["ĩté", "ĩˈtɛ"],
     bor: ["maiwu", "maiwu"],
-    mpj: ["nyuwanpa", "ɲuwanpa"],
+    mpj: ["jalykarra", "caʎkara"],
     xsr: ["གསམ་པ", "samba"],
     ake: ["emennaʼ", "emennaʔ"],
     crx: ["ʼandidi", "ʔandidi"],
@@ -1165,6 +1165,8 @@ WORDS.new = {
     yur: ["chaʼanar", "tʃaʔanaɹ"],
     cay: ["á:se:ʼ", "áːseːʔ"],
     tiw: ["awirankini", "awiɾankini"],
-    cjs: ["наа", "naː"]
+    cjs: ["наа", "naː"],
+    dng: ["щин", "ɕiŋ˨˦"],
+    zh_han: ["新", "sjǝn"]
   }
 };

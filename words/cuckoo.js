@@ -534,6 +534,11 @@ WORDS.cuckoo = {
     frr_amr: ["kukütj", "kuˈkytj"],
     bsk: ["kápo", "ˈkapo"],
     wbm: ["eeppid", "ʔɯp pit"],
-    prk: ["eeb bīd", "ʔɯp pi̤t"]
+    prk: ["eeb bīd", "ʔɯp pi̤t"],
+    wuu: ["布谷鸟", "pu˧˥ koʔ˥ ɲiɔ˨˧"],
+    osx: ["gôk", "ɡoːk"],
+    h_vedic: ["अन्यवाप", "ɐnjɐʋaːpɐ́"],
+    gld: ["кэкӯ", "kəkuː"],
+    evn: ["кукты", "kukti"]
   },
 };

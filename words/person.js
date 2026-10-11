@@ -213,7 +213,7 @@ WORDS.person = {
     chb: ["muysca", "mɨska"],
     chk: ["aramas", "aramas"],
     cho: ["hattak", "hatːak"],
-    chp: ["dëne", "denɛ"],
+    chp: ["dëne", "dene"],
     chr: ["ᏴᏫ", "jə̃wi"],
     chy: ["voʼėstane", "voʔestane"],
     cia: ["mia", "mia"],
@@ -850,7 +850,7 @@ WORDS.person = {
     ctu: ["kixtyañu", "kiʃtʲaɲu"],
     vai: ["ꗞ", "mo"],
     frp: ["pèrsona", "pɛrˈsona"],
-    bzj: ["persn", "pɛrsn̩"],
+    bzj: ["persn", "persn̩"],
     aiw: ["ed", "ʔed"],
     bsq: ["nyɔ", "ɲɔ"],
     gej: ["agbetɔ", "aɡbetɔ"],
@@ -1133,6 +1133,11 @@ WORDS.person = {
     adx: ["མི", "ȵə"],
     kgp: ["kanhgág", "kaɲŋəŋ"],
     ppl: ["takat", "ˈtakat"],
-    aau: ["uwrsa", "uwɾsa"]
+    aau: ["uwrsa", "uwɾsa"],
+    zh_han: ["人", "ń́ǝn"],
+    ofs: ["manniska", "ˈmanːiska"],
+    xpr: ["mrd", "mard"],
+    pkar: ["*ḳac₁-", "kʼats"],
+    xsc: ["oior", "ojor"]
   }
 };

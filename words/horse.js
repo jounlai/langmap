@@ -421,7 +421,7 @@ WORDS.horse = {
     nhe: ["cahuayo", "kaˈwajo"],
     nhx: ["cahua̱yoj", "kaˈwaːjoh"],
     nia: ["kudo", "kudo"],
-    niv: ["мурӈ", "murŋ"],
+    niv: ["мур̌", "mur̥"],
     nn: ["hest", "hɛst"],
     nog: ["ат", "at"],
     non: ["hestr", "hestr"],
@@ -562,7 +562,7 @@ WORDS.horse = {
     tzm: ["ⴰⵢⵉⵙ", "ajis"],
     suk: ["falasa", "falasa"],
     tiv: ["nyinya", "ɲiɲa"],
-    ibb: ["enañ mbakara", "enaŋ mbakara"],
+    ibb: ["enañmbakara", "enaŋmbakara"],
     lg: ["embalaasi", "embalaːsi"],
     lua: ["kabalu", "kabalu"],
     kg: ["mpunda", "mpunda"],
@@ -733,7 +733,7 @@ WORDS.horse = {
     ebu: ["mbarathi", "mbaɾaði"],
     kqn: ["mbili", "mbili"],
     mev: ["sòo", "sòː"],
-    nhw: ["cahuayoj", "kaˈwajoh"],
+    nhw: ["cahuayo", "kaˈwajo"],
     cab: ["gabáyu", "ɡaˈbaju"],
     her: ["okakambe", "okakambe"],
     maw: ["yoofu", "joːfu"],
@@ -1058,7 +1058,7 @@ WORDS.horse = {
     kim: ["аът", "aʔt"],
     dtp_kzj: ["kudaʼ", "kudaʔ"],
     blr: ["ka31 hɔŋ51", "ka˧˩ hɔŋ˥˩"],
-    wmt: ["dimana", "ˈdimana"],
+    wmt: ["timana", "ˈtimana"],
     szy: ["kabayu", "kabaju"],
     niu: ["solofanua", "solofanua"],
     blk: ["သေ", "se̤˧˩"],
@@ -1108,6 +1108,11 @@ WORDS.horse = {
     ygr: ["silumata", "silumata"],
     tok: ["soweli", "soweli"],
     mix: ["kiti", "kìt̪ǐ"],
-    mch: ["kawaayu", "kawaːju"]
+    mch: ["kawaayu", "kawaːju"],
+    zh_han: ["馬", "mrǟ́"],
+    ett: ["damnos", "ˈdamnos"],
+    p_ryu: ["*Cma", "Cma"],
+    xpr: ["ʾsp", "asp"],
+    xqa: ["at", "at"]
   }
 };

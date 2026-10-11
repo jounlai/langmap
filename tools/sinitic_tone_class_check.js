@@ -230,7 +230,6 @@ const DEBT = [
   { code: 'gan_ja', cls: '陰入', why: '喝, 吃 not in the MCPDict 吉安 table (1,171 characters)' },
   { code: 'gan_ja', cls: '陰平', why: '三 not in the MCPDict 吉安 table' },
   // 平聲 — the original list.
-  { code: 'cnp', cls: '陰平' },
   { code: 'zh_jh', cls: '陰平' },
   { code: 'wuu_nb', cls: '陽平' },
 ];

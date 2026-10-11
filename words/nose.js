@@ -494,7 +494,7 @@ WORDS.nose = {
     pjt: ["mulya", "ˈmulja"],
     bpy: ["নাক", "nak"],
     lus: ["hnar", "hnar"],
-    dz: ["སྣ", "na"],
+    dz: ["ལྷ་པ", "ɬapa"],
     xsr: ["སྣ", "na"],
     sip: ["སྣ", "n̥a"],
     min: ["iduang", "iduaŋ"],
@@ -966,7 +966,7 @@ WORDS.nose = {
     bor: ["eno", "eno"],
     gun: ["xĩ", "ʃĩ"],
     // --- Creoles, pidgins, and Khoekhoe --------------------------------
-    bzj: ["nuoz", "nuoz"],
+    bzj: ["noaz", "noːz"],
     rcf: ["né", "ne"],
     nag: ["nak", "nak"],
     naq: ["ǂguis", "ǂɡuis"],
@@ -980,7 +980,7 @@ WORDS.nose = {
     gum: ["kimtsig", "kimtsik"],
     kos: ["fwac", "fwɛ"],
     myp: ["xitaoí", "ʔitaoí"],
-    wba: ["kari", "kaɾi"],
+    wba: ["hikari", "hikaɾi"],
     ebu: ["ĩniũrũ", "enioɾo"],
     bzg: ["not", "not"],
     srb: ["mʼu", "mʔu"],
@@ -1044,7 +1044,7 @@ WORDS.nose = {
     asu: ["fua", "fua"],
     urh: ["uwen", "uwẽ"],
     gaa: ["gugɔŋ", "ɡuɡɔŋ"],
-    tll: ["ohembe", "ohembe"],
+    tll: ["ohembe", "ɔhɛmbɛ"],
     lue: ["lizulu", "lizulu"],
     dar: ["къянкъ", "qːaˤnqː"],
     nzi: ["bonyi", "boɲi"],
@@ -1170,6 +1170,8 @@ WORDS.nose = {
     mpt: ["múkûng", "mukuŋ"],
     xav: ["danhisiʼre", "daɲisiˈʔɾe"],
     yur: ["ʼner-pʼernʼ", "ʔnɚpʼɚʔn"],
-    ter: ["kiri", "kiɾi"]
+    ter: ["kiri", "kiɾi"],
+    cjy_xz: ["鼻子", "pʰiɛʔ˦˧ tsɿ˧˩˧"],
+    hoc: ["muta", "muʈa"]
   },
 };

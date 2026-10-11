@@ -392,7 +392,7 @@ WORDS.iron = {
     dar: ["мегь", "meh"],
     agx: ["рукь", "ruqʼ"],
     tab: ["рукь", "ruqʼ"],
-    lbe: ["мах", "max"],
+    lbe: ["мах", "maχ"],
     aqc: ["лацут", "ˈlatsut"],
     ady: ["гъучӏы", "ʁʷətʃʼə"],
     kbd: ["гъущӏ", "ʁʷəɕʼ"],
@@ -641,7 +641,7 @@ WORDS.iron = {
     ki: ["kĩgera", "keˈɣɛra"],
     mer: ["chuma", "tʃuːma"],
     kam: ["kyũma", "kjuma"],
-    ebu: ["cuma", "tʃuːma"],
+    ebu: ["cuma", "tʃuma"],
     nyn: ["ekyoma", "eˈkjoma"],
     cgg: ["obutare", "obutare"],
     ttj: ["ekyoma", "ekjoma"],
@@ -933,7 +933,7 @@ WORDS.iron = {
     bru: ["tac", "tak"],
     cnh: ["thir", "tʰir"],
     rwk: ["minya", "miɲa"],
-    bzj: ["aiyan", "ajan"],
+    bzj: ["aiyan", "aijan"],
     lbj: ["ལྕགས", "ltʃaks"],
     frp: ["fèr", "fɛr"],
     kfx: ["लोहा", "loɦaː"],
@@ -1135,6 +1135,9 @@ WORDS.iron = {
     blc: ["—", "—"],
     nlc: ["besi", "besi"],
     tok: ["kiwen", "ˈkiwen"],
-    yur: ["pegemeepʼ", "peɣemipʼ"]
+    yur: ["pegemeepʼ", "peɣemipʼ"],
+    tpn: ["itá", "iˈta"],
+    zh_han: ["鐵", "l̥iǝ̄t"],
+    xpr: ["ʾswn", "aːsun"]
   },
 };

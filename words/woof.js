@@ -274,6 +274,7 @@ WORDS.woof = {
     ku: ["hew-hew", ""],
     ia: ["hau hau", ""],
     tt: ["һау", ""],
-    ug: ["ھاۋ-ھاۋ", ""]
+    ug: ["ھاۋ-ھاۋ", ""],
+    en_em: ["bowgh-wawgh", ""]
   },
 };

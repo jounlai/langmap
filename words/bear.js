@@ -63,6 +63,12 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    ppl: "coined",
+    sce: "loan",
+    mjg: "loan",
+    kxv: "inherited",
+    kjg: "inherited",
+    kmu: "loan",
     tsi: "inherited",
     prk: "inherited",
     ie: "inherited",
@@ -937,6 +943,12 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    ppl: ["tekwani metzkujkutu", "teːˈkʷani metskuhkutu"],
+    sce: ["gouxin", "kəwˈɕin"],
+    mjg: ["haxun", "xaɕun"],
+    kxv: ["ouḍi", "ouɖi"],
+    kjg: ["huəl", "huəl"],
+    kmu: ["pea", "pea"],
     tsi: ["ol", "ol"],
     prk: ["grih", "krih"],
     ie: ["urso", "ˈurso"],
@@ -1112,7 +1124,7 @@ WORDS.bear = {
     ctg: ["ভাল্যুক", "balːuk"],
     rkt: ["ভাল্লুক", "bʱalluk"],
     kfa: ["ಕರಡಿ", "karaɖi"],
-    ium: ["jiepv", "tɕiep˥˥"],
+    ium: ["jiepv", "tɕiep˦"], // was ["jiepv", "tɕiep˥˥"] (vi dialect rules 2026-10-06)
     esu: ["taqukaq", "taqukaq"],
     pis: ["bea", "bea"],
     jam: ["bier", "biɛr"],
@@ -1257,7 +1269,7 @@ WORDS.bear = {
     br: ["arzh", "ars"],
     sga: ["art", "art"],
     os: ["арс", "ars"],
-    hy: ["արջ", "aɾdʒ"],
+    hy: ["արջ", "ɑɾtʃʰ"], // was ["արջ", "aɾdʒ"] (vi dialect rules 2026-10-06)
     hy_grab: ["արջ", "ɑrdʒ"],
     // Punjabi and Gujarati keep the ṛkṣa reflex where Hindi prefers भालू.
     pa: ["ਰਿੱਛ", "rɪtʃʰ"],
@@ -1295,7 +1307,7 @@ WORDS.bear = {
     hr: ["medvjed", "ˈmɛdʋjɛd"],
     bs: ["medvjed", "ˈmɛdʋjɛd"],
     sr: ["медвед", "ˈmɛdʋɛd"],
-    bg: ["мечка", "ˈmɛtʃka"],
+    bg: ["мечка", "ˈmɛtʃkɐ"], // was ["мечка", "ˈmɛtʃka"] (vi dialect rules 2026-10-06)
     mk: ["мечка", "ˈmɛtʃka"],
     // Baltic: "the shaggy one".
     prg: ["clokis", "ˈklokis"],
@@ -1437,7 +1449,7 @@ WORDS.bear = {
     xal: ["аю", "aju"],
     mnc: ["ᠯᡝᡶᡠ", "ləfu"],
     // Evenki хомоты is the plain word; амака 'grandfather' is the hunting name.
-    evn: ["хомоты", "homotɨ"],
+    evn: ["хомоты", "xomoti"], // was ["хомоты", "homotɨ"] (vi dialect rules 2026-10-06)
     eve: ["накат", "nakat"],
     gld: ["мапа", "mapa"],
     ude: ["мафа", "mafa"],
@@ -1691,7 +1703,7 @@ WORDS.bear = {
     de_ch: ["Bär", "bɛːr"],
     sco: ["beir", "biːɹ"],
     fo: ["bjørn", "bjœɹn"],
-    stq: ["Boar", "boːɐ"],
+    stq: ["Boar", "bɔːr"], // was ["Boar", "boːɐ"] (vi dialect rules 2026-10-06)
     wym: ["baor", "baoɐ"],
     vls: ["beir", "beːr"],
     li: ["beer", "beːr"],
@@ -1768,12 +1780,12 @@ WORDS.bear = {
     khb: ["ᦖᦲ", "miː"],
     shn: ["မီ", "miː˨˦"],
     blt: ["ꪢꪲ", "miː˨"], // was ["ꪢꪲ", "miː˨˦"] (r31 fix 2026-10-02)
-    pcc: ["moil", "moi˧˥"],
+    pcc: ["moil", "moi˨˦"], // was ["moil", "moi˧˥"] (vi dialect rules 2026-10-06)
     nut: ["mui", "mui˧˧"],
     th_isan: ["หมี", "miː˩˧"],
     th_n: ["หมี", "miː˩˧"],
     th_s: ["หมี", "miː˩˧"],
-    hmn: ["dais", "tai˨˩"],
+    hmn: ["dais", "dai˨˩"], // was ["dais", "tai˨˩"] (vi dialect rules 2026-10-06)
     vi_c: ["gấu", "ɣəw˨˦"], // was ["gấu", "ɣəw˧˥"] (vi dialect rules 2026-10-06)
     vi_s: ["gấu", "ɣəw˧˥"],
     mtq: ["củ", "kuː"],

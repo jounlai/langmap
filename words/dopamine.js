@@ -149,7 +149,7 @@ WORDS.dopamine = {
     "lo": ["ໂດປາມີນ", "doː˩˧paː˩˧miːn˧˥"],
     "lt": ["dopaminas", "dɔpɐˈmʲinɐs"],
     "lv": ["dofamīns", "ˈdɔfamiːns"],
-    "mk": ["допамин", "ˈdopamin"],
+    "mk": ["допамин", "dɔpaˈmin"],
     "ml": ["ഡോപാമിൻ", "ɖoːpaːmin"],
     "mr": ["डोपामिन", "ɖoːpaːmin"],
     "ms": ["dopamin", "dopaˈmin"],

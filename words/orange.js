@@ -67,6 +67,15 @@ WORDS.orange = {
     sw: "Chungwa — tunda tamu la jamii ya michungwa, na ramani ya majibu manne tofauti kwa swali lilelile. Tunda hili lilifika Ulaya mara mbili. Chungwa chungu lilikuja nchi kavu na biashara ya Kiajemi na Kiarabu enzi za kati, likibeba neno la Kisanskriti नारङ्ग: نارنج → Kihispania naranja, Kiitaliano arancia, Kifaransa na Kiingereza orange. Chungwa tamu lilikuja baharini katika karne ya 16 kwa meli za Kireno, na nusu ya Mediterania ya mashariki ikaliita tu kwa jina la wafanyabiashara hao — Kigiriki πορτοκάλι, Kituruki portakal, Kiarabu برتقال, Kiamhari ብርቱካን, Kijojia ფორთოხალი, Kiajemi پرتقال. Ulaya ya Kaskazini ilichukua jibu la tatu kutoka kwa wafanyabiashara wa Kiholanzi, walioliita \"tufaha kutoka Uchina\": sinaasappel, Apfelsine, апельсин, appelsiini. Na sehemu kubwa ya dunia iliendelea tu na neno lake yenyewe.",
   },
   family: {
+    bla: "local",
+    ter: "naranj",
+    xkz: "local",
+    mix: "local",
+    mev: "local",
+    kwk: "naranj",
+    woe: "local",
+    win: "local",
+    ekp: "local",
     tsi: "local",
     nez: "local",
     fit: "china",
@@ -444,7 +453,7 @@ WORDS.orange = {
     scn: "naranj",
     vec: "naranj",
     co: "naranj",
-    lij: "naranj",
+    lij: "local", // route was naranj (vi dialect rules 2026-10-06)
     rgn: "naranj",
     egl: "naranj",
     frp: "naranj",
@@ -627,6 +636,15 @@ WORDS.orange = {
     local: {"color":"#6b7280","emoji":"🏡","en":"its own word","ja":"自前の語","ko":"고유어","zh":"自有的詞","yue":"自己本身嘅詞","vi":"từ của riêng mình","th":"คำของตัวเอง","id":"kata sendiri","hi":"अपना ही शब्द","de":"eigenes Wort","fr":"mot propre","it":"parola propria","es":"palabra propia","pt":"palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمته الخاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    bla: ["áótahkóínaamm", "áótaxkóínaːmː"],
+    ter: ["naranga", "naɾaŋɡa"],
+    xkz: ["tshalu", "tsʰalu"],
+    mix: ["tikuaa", "tikwàá"],
+    mev: ["gɛ̄ŋ́", "ɡɛ˧ŋ˥"],
+    kwk: ["aya̱ndzis", "ajəndzis"],
+    woe: ["gurugur", "ɡuɻuɡuɻu"],
+    win: ["wažązí", "waʒãˈzi"],
+    ekp: ["aledu", "aledu"],
     tsi: ["ksitʼa̱xtʼoox", "ksitʼaxtʼuːx"],
     nez: ["mímqas", "mímqas"],
     fit: ["appelsiini", "ˈɑpːelsiːni"],
@@ -678,7 +696,7 @@ WORDS.orange = {
     ach: ["mucungwa", "mutʃuŋwa"],
     mxv: ["naranja", "naˈɾaŋxa"],
     bbc: ["jeruk", "dʒeruk"],
-    pcc: ["gaaml", "ɡaːm˨˦"],
+    pcc: ["gaaml", "kaːm˨˦"], // was ["gaaml", "ɡaːm˨˦"] (vi dialect rules 2026-10-06)
     gan_ja: ["橙", "tsʰən˩˩"],
     czh_wy: ["橙", "tsʰɔ̃˩˩"],
     hai: ["áanjans", "ɑ́ːndʒans"],
@@ -732,7 +750,7 @@ WORDS.orange = {
     luo: ["machunga", "matʃuŋɡa"],
     fon: ["gbŏ", "ɡbǒ"],
     mos: ["orãase", "oɾãːse"],
-    snk: ["lemburu", "lemburu"],
+    snk: ["lenburu", "lemburu"], // was ["lemburu", "lemburu"] (vi dialect rules 2026-10-06)
     maw: ["leemu", "leːmu"],
     dag: ["leemu", "leːmu"],
     ak: ["akutu", "akutu"],
@@ -775,7 +793,7 @@ WORDS.orange = {
     niu: ["moli", "moli"],
     ksh: ["Appelsin", "apəlˈsiːn"],
     car: ["apyrysina", "apɨɾɨsina"],
-    srm: ["apeesína", "apeːˈsina"],
+    srm: ["apeesína", "apeːsína"], // was ["apeesína", "apeːˈsina"] (vi dialect rules 2026-10-06)
     djk: ["apeesina", "apeːsina"],
     aa: ["burtukán", "burtukan"],
     ki: ["icungwa", "itʃuŋɡwa"],
@@ -883,7 +901,7 @@ WORDS.orange = {
     nan: ["柑仔", "kam˦˦ ma˥˧"],
     zh_tw: ["柳丁", "ljoʊ̯˧˩˧ tiŋ"],
     wuu: ["橙", "zaŋ˨˧"],
-    hak_cn: ["柑仔", "kam˨˦ e˧˩"],
+    hak_cn: ["柑仔", "kam˦ e˧˩"], // was ["柑仔", "kam˨˦ e˧˩"] (vi dialect rules 2026-10-06)
     vi: ["cam", "kaːm˧"],
     vi_c: ["cam", "kaːm˥"], // was ["cam", "kaːm˧"] (vi dialect rules 2026-10-06)
     vi_s: ["cam", "kaːm˧"],
@@ -939,7 +957,7 @@ WORDS.orange = {
     eu: ["laranja", "laɾanʃa"],
     cy: ["oren", "ˈɔrɛn"],
     ka: ["ფორთოხალი", "pʰortʰoxali"],
-    hy: ["նարինջ", "naˈɾindʒ"],
+    hy: ["նարինջ", "nɑˈɾindʒ"], // was ["նարինջ", "naˈɾindʒ"] (vi dialect rules 2026-10-06)
     hyw: ["նարինճ", "naˈɾintʃ"],
     haw: ["ʻalani", "ʔalani"],
     mi: ["ārani", "aːɾani"],
@@ -964,7 +982,7 @@ WORDS.orange = {
     dv: ["އޮރެންޖު", "orendʒu"],
     te: ["నారింజ", "naːɾindʒa"],
     kn: ["ಕಿತ್ತಳೆ", "kitːaɭe"],
-    ml: ["ഓറഞ്ച്", "oːɾaɲdʒɨ"],
+    ml: ["ഓറഞ്ച്", "oːraɲdʒɨ"], // was ["ഓറഞ്ച്", "oːɾaɲdʒɨ"] (vi dialect rules 2026-10-06)
     tg: ["афлесун", "afleˈsun"],
     ku: ["pirteqal", "pɪɾtɛˈqal"],
     ckb: ["پرتەقاڵ", "pɪɾtɛˈqaɫ"],
@@ -988,7 +1006,7 @@ WORDS.orange = {
     ar_tn: ["برتقال", "burtɡaːl"],
     ar_sd: ["برتقان", "burtuˈɡaːn"],
     ti: ["ብርቱኳን", "bɨrtukʷan"],
-    mt: ["larinġ", "laˈrɪndʒ"],
+    mt: ["larinġ", "laˈrɪntʃ"], // was ["larinġ", "laˈrɪndʒ"] (vi dialect rules 2026-10-06)
     ig: ["oroma", "oɾoma"],
     ha: ["lemu", "leːmuː"],
     wo: ["soraas", "soraːs"],
@@ -1016,7 +1034,7 @@ WORDS.orange = {
     scn: ["aranciu", "aˈrantʃu"],
     vec: ["naranza", "naˈraŋsa"],
     co: ["aranciu", "aˈrantʃu"],
-    lij: ["naranza", "naˈraŋza"],
+    lij: ["çetrón", "seˈtruŋ"], // was ["naranza", "naˈraŋza"] (vi dialect rules 2026-10-06)
     rgn: ["naranza", "naˈraŋza"],
     egl: ["naranza", "naˈraŋza"],
     frp: ["orenge", "orɛ̃ʒ"],
@@ -1028,7 +1046,7 @@ WORDS.orange = {
     sk: ["pomaranč", "ˈpomarantʃ"],
     sl: ["pomaranča", "pɔmaˈraːntʃa"], // was ["pomaranča", "pɔmaˈɾaːntʃa"] (vi dialect rules 2026-10-06)
     sr: ["наранџа", "ˈnarandʒa"],
-    bg: ["портокал", "pɔrtoˈkal"],
+    bg: ["портокал", "portoˈkal"], // was ["портокал", "pɔrtoˈkal"] (vi dialect rules 2026-10-06)
     lt: ["apelsinas", "ɐpʲɛlʲˈsʲɪnɐs"], // was ["apelsinas", "apɛlʲˈsʲinɐs"] (vi dialect rules 2026-10-06)
     lv: ["apelsīns", "apɛlˈsiːns"],
     sq: ["portokall", "pɔrtɔˈkalː"],
@@ -1081,7 +1099,7 @@ WORDS.orange = {
     ia: ["orange", "oˈrandʒe"],
     hil: ["kahel", "kaˈhel"],
     bal: ["موسمبی", "musambiː"],
-    mk: ["портокал", "pɔrtɔˈkal"],
+    mk: ["портокал", "ˈpɔrtɔkaɫ"], // was ["портокал", "pɔrtɔˈkal"] (vi dialect rules 2026-10-06)
     lg: ["omucungwa", "omutʃuŋɡwa"],
     tn: ["namune", "namune"],
     st: ["lamunu", "lamunu"],

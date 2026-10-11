@@ -121,7 +121,7 @@ WORDS.green = {
     hr: ["zelen", "zelen"],
     sl: ["zelen", "zɛˈlɛn"],
     sk: ["zelený", "ˈzɛleniː"],
-    bg: ["зелен", "zeˈlɛn"],
+    bg: ["зелен", "zɛˈlɛn"],
     lt: ["žalias", "ˈʒɑːlʲɛs"],
     lv: ["zaļš", "zaʎʃ"],
     et: ["roheline", "ˈroheline"],
@@ -295,7 +295,7 @@ WORDS.green = {
     itb: ["maharem", "maharɨm"],
     itl: ["фӆлаҳ", "ɸɬlaχ"],
     ivv: ["maarem", "maarɨm"],
-    ja_oki: ["おーさん", "oːsaɴ"],
+    ja_oki: ["おーさん", "ʔoːsaɴ"],
     jam: ["griin", "ɡɹiːn"],  // Was grin, which in Cassidy-JLU spells /ɡrɪn/ — a different word. jam.wikipedia has griin 20 times and grin not once ("Yelo a di kola bitwiin griin ah arinj"); Cassidy writes /iː/ as ⟨ii⟩, as in chrii 'three'.
     gcf: ["vè", "vɛ"],        // Guadeloupe is vè, not the Haitian/St Lucian vèt: the colour table this comes from also gives wouj/blan/nwè/blé, which match this row exactly. Weaker than the others here — Ludwig/Telchid and Tourneux & Barbotin were out of reach.
     gcr: ["vèrt", "vɛʁt"],    // fr.wiktionary's Guianese entry, with Lingua Libre recordings by Cayenne speakers; gcr.wikipedia uses it 33 times (té vèrt, bwa vèrt). Genuinely not a copy of gcf's vè.
@@ -355,7 +355,7 @@ WORDS.green = {
     mh: ["maroro", "mʲɑːrˠɔːrˠɔ"],   // The native term; kūriin is the English loan, used of one flat shade. MEOD glosses maroro as the green of patterned or mottled things, which is what Marshallese reaches for of vegetation.
     mhr: ["ужар", "uˈʒar"],
     min: ["ijau", "idʒau"],
-    ml: ["പച്ച", "patʃːə"],
+    ml: ["പച്ച", "patʃːa"],
     mlm: ["śau1", "ɕau˦˨"],
     mmd: ["ju1", "ju˦˨"],
     mn: ["ногоон", "nɔɡɔːŋ"],
@@ -419,7 +419,7 @@ WORDS.green = {
     es_co: ["verde", "ˈbeɾðe"],
     es_an: ["verde", "ˈbeɾðe"],
     shx: ["ka35 pʰɤ54 kʰun31", "ka˧˥ pʰɤ˥˦ kʰun˧˩"],
-    agr: ["samɨkbau", "samɨkbau"],
+    agr: ["samekbau", "samɨkbau"],
     bjn: ["hijau", "hidʒau"],
     fr_class: ["vert", "vɛʁt"],
     myp: ["xahoasai", "ʔahoasai"],
@@ -662,7 +662,7 @@ WORDS.green = {
     nhx: ["xoxoctiꞌ", "ʃoʃoktiʔ"],
     mxv: ["kuii", "kʷiː"],
     xkz: ["’ngunti", "ŋunti"],
-    stq: ["gräin", "ɡrɛɪ̯n"],
+    stq: ["gräin", "ɣrɛɪ̯n"],
     frr: ["green", "ɡreːn"],
     abq: ["удзышва", "udzəʃʷa"],
     tcs: ["grin", "ɡrin"],
@@ -673,7 +673,7 @@ WORDS.green = {
     arp: ["cenéeteeyóó", "tʃenéːteːjóː"],
     bzd: ["tsipátsipà", "tsipátsipa"],
     pwn: ["liljuas", "ɭiʎuas"],
-    tok: ["laso", "laso"],
+    tok: ["laso", "ˈlaso"],
     vro: ["rohilinõ", "rohilinɤ"],
     toj: ["yaʼax", "jaʔaʃ"],
     agu: ["txaʼx", "tʃaʔʃ"],
@@ -729,7 +729,7 @@ WORDS.green = {
     de_at: ["grün", "ɡryːn"],
     en_app: ["green", "ɡɹiːn"],
     to: ["lanu mata", "lanu mata"],
-    byn: ["ቍጣን", "kʷʼətʼan"],
+    byn: ["ቍጣን", "kʷʼɨtʼan"],
     dng: ["лю", "liou˨˦"],
     saq: ["nanyori", "naɲori"],
     shn: ["ၶဵဝ်", "kʰew˨˦"],
@@ -841,7 +841,7 @@ WORDS.green = {
     rap: ["rito mata", "ɾito mata"],
     trm: ["palašó", "palaʃo"],
     hts: ["nxawejjene", "ᵑǁawetʃʼene"],
-    tkr: ["чыван", "tʃɨvan"],
+    tkr: ["чыван", "tʃɨwan"],
     rtm: ["čarava", "tʃarava"],
     cho: ["okchamali", "oktʃamali"],
     emp: ["pãwãrã", "pãwãˈɾã"],
@@ -1029,6 +1029,12 @@ WORDS.green = {
     ude: ["исэмпэ", "isəmpə"],
     jya: ["ldʒaŋ kə", "ldʒaŋkə"],
     nez: ["palóot", "palóːt"],
-    trn: ["jeʼchu", "heʔtʃu"]
+    trn: ["jeʼchu", "heʔtʃu"],
+    nys: ["nodjam dordong", "nodʒam doɖoŋ"],
+    abe: ["askaskui", "askaskwi"],
+    mev: ["béìzɛ̀", "be˥i˩zɛ˩"],
+    tsz: ["xunhupiti", "ʃuŋupiti"],
+    ssy: ["andharh", "anɖaɽ"],
+    ter: ["hononoʼiti", "hononoʔiti"]
   }
 };

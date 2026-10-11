@@ -163,7 +163,7 @@ WORDS.butterfly = {
     cy: ["glöyn byw", "ˈɡlɔɨn ˈbɪu"],  // Literally 'living ember' (glöyn 'ember' + byw 'living'); the alternative iâr fach yr haf is 'little hen of the summer'.
     br: ["balafenn", "balaˈfɛn"],
     eu: ["tximeleta", "tʃimeleta"],  // Basque has unusually many regional words for this insect; NorthEuraLex also records pinpirin. tximeleta is the standard form.
-    hy: ["թիթեռ", "tʰitʰɛr"],  // Reduplicated t'it'-.
+    hy: ["թիթեռ", "tʰiˈtʰer"],  // Reduplicated t'it'-.
     ka: ["პეპელა", "pʼepʼela"],  // Reduplicated pe-pe-la.
     ar: ["فراشة", "faraːʃa"],  // farāša; the same word is used for moths.
     he: ["פרפר", "paʁˈpaʁ"],  // Reduplicated par-par.
@@ -307,7 +307,7 @@ WORDS.butterfly = {
     crs: ["papiyon", "papijɔ̃"],  // From French papillon.
     dsb: ["mjatel", "ˈmʲatɛl"],  // The Slavic *motylь root, as in Polish motyl and Czech motýl.
     orh: ["kɔldɪkan", "kɔldɪkan"],
-    srm: ["adömítö", "adømítø"],
+    srm: ["adömítö", "adɔmítɔ"],
     hmn: ["npuj npaim", "ᵐbu˥˨ ᵐbai˨˩ˀ"],  // Reduplicative npuj-npaim. WOLD's entry is White Hmong, written here in the RPA orthography the row already uses; the tone values are my reading of the RPA final letters.
     djr: ["boṉba", "boɳba"],
     piu: ["pintapinta", "pintapinta"],  // Fully reduplicated pinta-pinta.
@@ -363,7 +363,7 @@ WORDS.butterfly = {
     nci: ["pāpālōtl", "paːpaːloːtɬ"],  // borrowed into Mexican Spanish as papalote
     tar: ["nakarópari", "nakaropari"],  // the dictionary spells it nacarópari in SIL orthography; respelled c→k, hu→w to match this row (cf. its ca'huara → kaʼwá, ba'hui → bawí)
     hch: ["kipï", "kipɨ"],  // McIntosh & Grimes's c is /k/ (their ciye 'tree' = this row's kiyé) and their ɨ is this row's ï; the second vowel is legible only through OCR, hence the low confidence
-    nv: ["kʼaalógii", "kʼaːlóɡiː"],  // the Analytical Lexicon gives no etymology for it
+    nv: ["kʼaalógii", "kʼɑ̀ːlókìː"],  // the Analytical Lexicon gives no etymology for it
     acu: ["shimpiampu", "ʃimpiampu"],  // The database also records wámpang, glossed 'giant blue butterfly'.
     ake: ["wagau", "waɡau"],  // Cognate with the Pemón wakau on the neighbouring row.
     aoc: ["wakau", "wakau"],  // Cognate with the Akawaio wagau on the neighbouring row.
@@ -467,7 +467,7 @@ WORDS.butterfly = {
     efi: ["ọfọñekpo", "ɔfɔŋekpo"],
     emk: ["firinfirinlen", "fiɾinfiɾinlen"],
     yao: ["chipuluputwa", "tʃipuluputwa"],
-    kde: ["imbulukuta", "imbulukuta"],
+    kde: ["lipuluputu", "lipuluputu"],
     hak_tw: ["揚蝶仔", "ioŋ˩˩ iak˥ e˧˩"],
     cpx: ["模蝶", "pɔu˩˧ tiaʔ˦"],
     laj: ["kapwopwo", "kapwopwo"],
@@ -525,7 +525,7 @@ WORDS.butterfly = {
     sco: ["butterflee", "ˈbʌtərfliː"],
     rgn: ["parpàia", "parˈpaja"],
     lv: ["tauriņš", "ˈtauriɲʃ"],
-    mk: ["пеперутка", "pɛpɛˈrutka"],
+    mk: ["пеперутка", "pɛˈpɛrutka"],
     li: ["kapel", "kaˈpɛl"],
     sc: ["cabagasu", "kaβaˈɣazu"],
     tsg: ["kabaꞌ-kabaꞌ", "kabaʔkabaʔ"],
@@ -548,7 +548,7 @@ WORDS.butterfly = {
     pll: ["kərla", "kərla"],
     tji: ["tasi", "tʰa˥˥si˥˥"],
     sda: ["kalubambang", "kalubambaŋ"],
-    tzh: ["pehpen", "pehpen"],
+    tzh: ["pejpen", "pehpen"],
     mam: ["pakaʼl", "pakaʔl"],
     aii: ["ܦܪܚܘܢܝܬܐ", "parxoniːta"],
     mt: ["farfett", "farˈfɛtː"],
@@ -653,7 +653,7 @@ WORDS.butterfly = {
     fax: ["maripoixha", "maɾiˈpoiʒa"],
     kjh: ["ӧрбекей", "ørbekej"],
     kjb: ["tzolol", "tsolol"],
-    chy: ["hevávahkema", "hevávahkema"],
+    chy: ["hevávȧhkema", "hevávahkema"],
     ium: ["sopc bang", "sop˨˩ paŋ˧"],
     tao: ["pahapahad no anito", "pahapahad no anito"],
     yap: ["taloolbëy", "taloːlbəj"],
@@ -877,6 +877,17 @@ WORDS.butterfly = {
     bew: ["kupu-kupu", "kupukupu"],
     bca: ["koulɛtsɿ", "kou˥˥lɛ˦˦tsɿ˧˧"],
     kky: ["walbuulbul", "walbuːlbul"],
-    adt: ["vurruka", "vuruka"]
+    adt: ["vurruka", "vuruka"],
+    mra: ["rɨp phɛp", "rɨp pʰɛp"],
+    cia: ["kalelema", "kalelema"],
+    hai: ["stlʼaḵam", "stɬʼaqʰam"],
+    kjg: ["tlaːmpaːm", "tlaːmpaːm"],
+    bor: ["baragadu", "baɾaɡadu"],
+    win: ["mįįmįké", "mĩːmĩˈke"],
+    dds: ["gɔmbu-gɔmbɛy", "ɡɔmbuɡɔmbɛj"],
+    mev: ["lólógbɛ̀ìgbɛ̀ì", "lo˥lo˥ɡbɛ˩i˩ɡbɛ˩i˩"],
+    one: ["kana:wʌ́", "kanaːwʌ̃́"],
+    gej: ["abèbe", "abèbe"],
+    ter: ["vaka vaka", "waka waka"]
   },
 };

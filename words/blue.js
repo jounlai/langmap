@@ -55,6 +55,21 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    ter: "grue",
+    adx: "grue",
+    cay: "distinct",
+    yur: "distinct",
+    mev: "borrowed",
+    duu: "distinct",
+    xav: "grue",
+    thp: "distinct",
+    enf: "distinct",
+    kwk: "distinct",
+    abe: "distinct",
+    kjg: "grue",
+    hai: "distinct",
+    cia: "distinct",
+    mra: "borrowed",
     chp: "distinct",
     nez: "distinct",
     jya: "borrowed",
@@ -859,6 +874,21 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    ter: ["hononoʼiti", "hononoʔiti"],
+    adx: ["སྔོན་པོ", "hŋonpo"],
+    cay: ["aǫ́hyaęʼ", "aṍhjaɛ̃ʔ"],
+    yur: ["skoyon", "skojon"],
+    mev: ["ɓūléèzɛ̀", "ɓu˧le˥e˩zɛ˩"],
+    duu: ["muçin", "mu˥˥çin˥˥"],
+    xav: ["ĩʼuzé", "ĩʔuˈzɛ"],
+    thp: ["ʔesqʷəzqʷəzt", "ʔesqʷəzqʷəzt"],
+    enf: ["ɕudraha", "ɕudraha"],
+    kwk: ["dzasa", "dzasa"],
+    abe: ["wlôwi", "wlɔ̃wi"],
+    kjg: ["siːw", "siːw"],
+    hai: ["g̱uhlahl", "ɢuɬaɬ"],
+    cia: ["kakanda", "kakanda"],
+    mra: ["si fa", "si fa"],
     chp: ["déhtłʼës", "déhtɬʼes"],
     nez: ["yoosyóos", "joːsjóːs"],
     jya: ["sŋon mbo", "sŋonmbo"],
@@ -965,7 +995,7 @@ WORDS.blue = {
     rki: ["ပြာ", "prà"],
     cbk: ["azul", "aˈsul"],
     ngu: ["azul", "aˈsul"],
-    nhx: ["azultiꞌ", "asultiʔ"],
+    nhx: ["aso̱ltiꞌ", "asoːltiʔ"], // was ["azultiꞌ", "asultiʔ"] (vi dialect rules 2026-10-06)
     nch: ["azultic", "aˈsultik"],
     nhe: ["azultic", "aˈsultik"],
     nhw: ["azultic", "aˈsultik"],
@@ -1128,7 +1158,7 @@ WORDS.blue = {
     pbb: ["çẽy", "çẽj"],
     mus: ["holatte", "holatːi"],
     ain: ["シウニン", "siwnin"],
-    xmf: ["ლენი", "leni"],
+    xmf: ["ლურჯი", "lurdʒi"], // was ["ლენი", "leni"] (vi dialect rules 2026-10-06)
     pnb: ["نیلا", "niːlaː"],
     zza: ["kewe", "kɛwɛ"],
     glk: ["آبی", "ɒbi"],
@@ -1147,7 +1177,7 @@ WORDS.blue = {
     lo: ["ຟ້າ", "faː˥˨"],
     ko_jl: ["파랗다", "pʰaratʰa"],
     mn_cn: ["ᠬᠥᠬᠡ", "xɵx"],
-    ja_oki: ["おーさん", "oːsaɴ"],
+    ja_oki: ["おーさん", "ʔoːsaɴ"], // was ["おーさん", "oːsaɴ"] (vi dialect rules 2026-10-06)
     ja_kg: ["青か", "aoka"],
     ja_aom: ["青い", "aoi"],
     ja_hir: ["青い", "aoi"],
@@ -1156,7 +1186,7 @@ WORDS.blue = {
     hyw: ["կապոյտ", "ɡɑˈbujd"],
     bs: ["plav", "plaʋ"],
     frr_amr: ["blä", "blɛː"],
-    frr: ["blä", "blɛː"],
+    frr: ["ween", "veːn"], // was ["blä", "blɛː"] (vi dialect rules 2026-10-06)
     bar: ["blau", "blaʊ"],
     stq: ["blau", "blaːu̯"],
     pcd: ["bleu", "blø"],
@@ -1186,15 +1216,15 @@ WORDS.blue = {
     rcf: ["blë", "blɛ"],
     nds: ["blau", "blaʊ"],
     esu: ["qiugliq", "qiuɣɬiq"],
-    bzd: ["si̱è̱", "sĩẽ̀"],
+    bzd: ["siè̱", "siẽ̀"], // was ["si̱è̱", "sĩẽ̀"] (vi dialect rules 2026-10-06)
     pi_edu: ["nīla", "niːlɐ"],
     agt: ["asul", "asul"],
     emp: ["pãwãrã", "pãwãˈɾã"],
     mch: ["sheene", "ʃeːne"],
-    ium: ["mbuov", "buo˥˧"],
+    ium: ["mbuov", "buo˦"], // was ["mbuov", "buo˥˧"] (vi dialect rules 2026-10-06)
     hmn: ["xiav", "siə˨˦"],
     tlh: ["SuD", "ʂuɖ"],
-    tok: ["laso", "laso"],
+    tok: ["laso", "ˈlaso"], // was ["laso", "laso"] (vi dialect rules 2026-10-06)
     jbo: ["blanu", "ˈblanu"],
     vo: ["blövik", "bløˈvik"],
     ia: ["blau", "blau"],
@@ -1607,7 +1637,7 @@ WORDS.blue = {
     tay: ["mtasiq", "mtasiq"],  // Squliq Atayal, matching the row's mtalah / plqwiʼ. A blue-specific mslyaw ~ kslyaw 藍色 also exists in the same dictionary, and both of its example sentences are about the sky ("blaq kayal nyaʼ soniʼ ru mslyaw ngayan qu kayal nyaʼ." = 今天天氣很好，天空藍藍一片。, id 304f89b7-6709-f011-bd64-00155db40116, frequency 6 against mtasiq's 23). I have given the basic grue term as the brief directs; if the atlas would rather show the blue-specific word, mslyaw /mslijaw/ is the alternative.
     te: ["నీలము", "niːlamu"],  // Telugu నీలము against ఆకుపచ్చ.
     tet: ["biru", "biru"],  // Donor: Malay/Indonesian biru. Tetun's own matak is 'green, raw, unripe, fresh' (Morris: "mata-k | green, still growing, immature; raw (not cooked), new, fresh") and does not cover blue; lumut is 'slime; green, the colour of slime'; taun is the indigo bush used for blue dye. The Portuguese loan azúl is also current, especially in Tetun Dili — Tetun Wikipedia writes both ("kór leten hosi azúl", Bandeira Azerbaijaun nian; "kór biru nian", Grañén). Either choice is class `borrowed`; I give biru because it is the form in both Tetum dictionaries and the row's code is tet (Tetum) rather than tdt (Tetun Dili). NOTE the 1907/1930s Portuguese-Tetun colour list (Vocabulário português-tétun, archive.org/details/vocabulario-portugues-tetun) lists Prêto/Branco/Vermelho/Verde/Amarelo/Cinzento but has no entry for Azul at all.
-    tg: ["обӣ", "obiː"],  // Tajik обӣ, literally 'watery', the Persian ābi; green is сабз.
+    tg: ["обӣ", "obi"],  // Tajik обӣ, literally 'watery', the Persian ābi; green is сабз. // was ["обӣ", "obiː"] (vi dialect rules 2026-10-06)
     th: ["น้ำเงิน", "nam˦˥ ŋɤn˧"],  // Thai separates blue from เขียว 'green' cleanly, and has two blues like Russian: น้ำเงิน (dark/true blue) and ฟ้า 'sky' (light blue). IDS gives both สีน้ำเงิน and สีฟ้า. น้ำเงิน is the unmarked basic term.
     ti: ["ሰማያዊ", "sɐmajawi"],  // Tigrinya ሰማያዊ, derived from ሰማይ 'sky'.
     tkl: ["lanumoana", "lanumoana"],  // Blue and green are lexically separate, but neither is monolexemic: lanumoana is 'sea-colour' and meamata is 'raw-thing'. The inherited dark term uli is already the row's black cell.

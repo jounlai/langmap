@@ -70,6 +70,13 @@ WORDS.tea = {
   },
   // cha = overland Silk-Road route; te = Dutch sea route; other = Latin herba root.
   family: {
+    mjg: "cha",
+    pcc: "cha",
+    dds: "te",
+    enf: "cha",
+    kwk: "te",
+    win: "leaf",
+    zdj: "cha",
     chp: "te",
     tsi: "te",
     jya: "cha",
@@ -737,6 +744,13 @@ WORDS.tea = {
     leaf: { color: "#4d7c0f", emoji: "🍃", en: "neither route · the leaf itself", ja: "どちらの経路でもない・葉そのもの", ko: "두 경로 어느 쪽도 아님 · 잎 그 자체", zh: "两条路线都不是・叶子本身", yue: "兩條路線都唔係・葉本身", vi: "không theo đường nào · chính là chiếc lá", th: "ไม่ใช่ทั้งสองเส้นทาง · ตัวใบเอง", id: "bukan salah satu jalur · daunnya sendiri", hi: "किसी मार्ग से नहीं · पत्ता ही", de: "keine der Routen · das Blatt selbst", fr: "ni l'une ni l'autre route · la feuille même", it: "nessuna delle due rotte · la foglia stessa", es: "ninguna de las dos rutas · la hoja misma", pt: "nenhuma das rotas · a própria folha", ru: "ни один из путей · сам лист", uk: "жоден із шляхів · сам листок", ar: "لا هذا الطريق ولا ذاك · الورقة نفسها", he: "לא זה ולא זה · העלה עצמו", sw: "si njia yoyote kati ya hizo · jani lenyewe" },
   },
   data: {
+    mjg: ["qa", "tɕʰa"],
+    pcc: ["xaz", "ɕa˩˩"],
+    dds: ["tee", "teː"],
+    enf: ["tʃaj", "tʃaj"],
+    kwk: ["di", "di"],
+    win: ["nąąʼáp", "nãːˈʔap"],
+    zdj: ["tshai", "tʃai"],
     chp: ["lidí", "lidí"],
     tsi: ["dii", "diː"],
     jya: ["tʂʰa", "tʂʰa"],
@@ -891,7 +905,7 @@ WORDS.tea = {
     yue_dg: ["茶", "tʃʰa˧˩"],
     mns: ["ся̄й", "ɕaːj"],
     udm: ["чай", "tɕaj"],
-    kpv: ["чай", "tʃaj"],
+    kpv: ["чай", "tɕaj"], // was ["чай", "tʃaj"] (vi dialect rules 2026-10-06)
     mdf: ["чай", "tʃaj"],
     myv: ["чай", "tʃaj"],
     mrj: ["чӓй", "tʃæj"],
@@ -975,7 +989,7 @@ WORDS.tea = {
     ain: ["チャ", "tɕa"],
     xmf: ["ჩაი", "tʃʰai"],
     lzz: ["ჩაჲი", "tʃʰaji"],
-    chr: ["ᎤᎦᎶᎬ", "uɡaloɡə̃"],
+    chr: ["ᎤᎦᎶᎦ", "uɡaloɡa"], // was ["ᎤᎦᎶᎬ", "uɡaloɡə̃"] (vi dialect rules 2026-10-06)
     anp: ["चाय", "tʃaːj"],
     pnb: ["چاہ", "tʃáː"],
     zza: ["çay", "tʃaj"],
@@ -1104,7 +1118,7 @@ WORDS.tea = {
     bew: ["té", "te"],
     tet: ["xá", "ʃa"],
     sat: ["ᱪᱟ", "tʃa"],
-    mnw: ["ဍာ်လက်ဖက်", "ɗaʔ ləpʰɛk"],
+    mnw: ["ဍာ်လက်ဖက်", "ɗaik ləpʰɛk"], // was ["ဍာ်လက်ဖက်", "ɗaʔ ləpʰɛk"] (vi dialect rules 2026-10-06)
     vi_s: ["trà", "ʈaː˨˩"],
     vi_c: ["chè", "cɛ˦˨"], // was ["chè", "tɕɛ˧˨"] (vi dialect rules 2026-10-06)
     ln: ["ti", "ti"],
@@ -1161,7 +1175,7 @@ WORDS.tea = {
     cs: ["čaj", "tʃaj"],
     cv: ["чей", "tɕej"],
     czh: ["茶", "tsɔ˦˦"], // was ["茶", "tsʰo˦˦"] (vi dialect rules 2026-10-06)
-    dv: ["ސައި", "saːi"],
+    dv: ["ސައި", "sai"], // was ["ސައި", "saːi"] (vi dialect rules 2026-10-06)
     dz: ["ཇ", "tɕa"],
     el: ["τσάι", "ˈtsai"],
     fa: ["چای", "tʃɒːj"],
@@ -1179,14 +1193,14 @@ WORDS.tea = {
     kaa: ["shay", "ʃaj"], // was ["шай", "ʃaj"] (vi dialect rules 2026-10-06)
     kjh: ["чай", "tʃaj"],
     kk: ["шай", "ʃɑj"],
-    kn: ["ಚಹಾ", "tʃəɦaː"],
+    kn: ["ಚಹಾ", "tʃahaː"], // was ["ಚಹಾ", "tʃəɦaː"] (vi dialect rules 2026-10-06)
     ko: ["차", "tɕʰa"],
     ku: ["çay", "tʃaj"],
     ky: ["чай", "tʃaj"],
     lo: ["ຊາ", "saː˧˥"],
     lrc: ["چای", "tʃɒːj"],
     mk: ["чај", "tʃaj"],
-    ml: ["ചായ", "tʃaːjə"],
+    ml: ["ചായ", "tʃaːja"], // was ["ചായ", "tʃaːjə"] (vi dialect rules 2026-10-06)
     mn: ["цай", "tsʰɛː"],
     mnc: ["ᠴᠠᡳ", "tʃai"],
     mr: ["चहा", "tʃəɦaː"],
@@ -1210,7 +1224,7 @@ WORDS.tea = {
     sq: ["çaj", "tʃaj"],
     sr: ["чај", "tʃâːj"],
     sw: ["chai", "tʃai"],
-    tg: ["чой", "tʃɔj"],
+    tg: ["чой", "tʃoj"], // was ["чой", "tʃɔj"] (vi dialect rules 2026-10-06)
     th: ["ชา", "tɕʰaː˧"],
     ti: ["ሻሂ", "ʃahi"],
     tk: ["çaý", "tʃaːj"],
@@ -1274,7 +1288,7 @@ WORDS.tea = {
     he: ["תה", "te"],
     ht: ["te", "te"],
     hu: ["tea", "ˈtɛɒ"],
-    hy: ["թեյ", "tʰɛj"],
+    hy: ["թեյ", "tʰej"], // was ["թեյ", "tʰɛj"] (vi dialect rules 2026-10-06)
     ia: ["the", "te"],
     id: ["teh", "tɛh"],
     ig: ["tii", "tiː"],
@@ -1293,7 +1307,7 @@ WORDS.tea = {
     mi: ["tī", "tiː"],
     mnp: ["茶", "ta˧˧"],
     ms: ["teh", "teh"],
-    mt: ["te", "te"],
+    mt: ["te", "tɛː"], // was ["te", "te"] (vi dialect rules 2026-10-06)
     nan: ["茶", "te˨˦"],
     nan_pn: ["茶", "tɛ˨˧"],
     nan_qz: ["茶", "te˨˦"],

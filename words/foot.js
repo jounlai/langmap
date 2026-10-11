@@ -54,6 +54,10 @@ WORDS.foot = {
     sw: "Mguu — sehemu ya mwili unayosimamia, chini ya kifundo. Si kipimo cha urefu, si mteremko wa mlima wala mwisho wa kitanda, wala si kitenzi. Pale lugha ina neno moja kwa mguu mzima, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    dds: "leg+foot",
+    mgo: "leg+foot",
+    kwk: "leg+foot",
+    tca: "distinct",
     bew: "leg+foot",
     cia: "leg+foot",
     mlq: "leg+foot",
@@ -1198,6 +1202,10 @@ WORDS.foot = {
     "unknown": {"color": "#b45309", "emoji": "❓", "en": "not determined · no leg word attested", "ja": "未判定・脚の語が未確認", "ko": "미판정 · 다리 낱말이 확인되지 않음", "zh": "未判定・未见表示腿的词", "yue": "未判定 · 未見表示腿嘅詞", "vi": "chưa xác định · không thấy từ chỉ 'chân trên'", "th": "ยังไม่ระบุ · ไม่พบคำว่าขา", "id": "belum ditentukan · kata untuk tungkai tidak terekam", "hi": "अनिर्धारित · टाँग का शब्द अप्रमाणित", "de": "nicht bestimmt · kein Bein-Wort belegt", "fr": "non déterminé · aucun mot pour « jambe » attesté", "it": "non determinato · nessuna parola per «gamba» attestata", "es": "sin determinar · no se atestigua palabra para «pierna»", "pt": "por determinar · sem palavra atestada para «perna»", "ru": "не определено · слово «нога» не засвидетельствовано", "uk": "не визначено · слово «нога» не засвідчене", "ar": "غير محدَّد · لا كلمة مُثبتة للساق", "he": "לא נקבע · לא מתועדת מילה לרגל", "sw": "haijabainishwa · hakuna neno la mguu lililothibitishwa"},
   },
   data: {
+    dds: ["kubɔ", "kubɔ"],
+    mgo: ["əwu", "əwu"],
+    kwk: ["gugwa̱ʼyu", "ɡuɡʷəʔju"],
+    tca: ["nacutü", "nakutɨ"],
     bew: ["kaki", "kaki"],
     cia: ["kake", "kake"],
     mlq: ["sinŋo", "sĩŋo"],
@@ -1400,7 +1408,7 @@ WORDS.foot = {
     da: ["fod", "foˀð"],  // fod vs ben.
     dag: ["napɔŋ", "napɔŋ"],  // napɔŋ is glossed 'leg-and-foot' in the Dagbani Dictionary, where gbali is only the thigh.
     dak: ["sihá", "sihá"],  // Riggs makes sihá the foot and hú the leg, and the Dakota New Testament washes siha at John 13:5 against minape 'my hand' before it breaks hu at 19:31-33.
-    dar: ["кьяш", "qʼjaʃ"],  // The bare word covers both; the compound is available for the foot specifically.
+    dar: ["кьяш", "qʼaˤʃ"],  // The bare word covers both; the compound is available for the foot specifically. // was ["кьяш", "qʼjaʃ"] (vi dialect rules 2026-10-06)
     dbl: ["jina", "ˈɟina"],  // Dixon's Dyirbal wordlist has dyina for the foot against ŋaga for the leg, written here with the j and ng this row uses for those sounds.
     dbq: ["ngə̀z", "ŋɡə̀z"],  // Mouchet's Le parler daba glosses ngaz 'patte, pied' and files jambe on the same word; Kraft's Daba list has ngə̀z for the leg and pòxol for the thigh.
     ddo: ["рори", "rori"],  // Sources disagree on which root is which; classed distinct on NorthEuraLex.
@@ -1580,7 +1588,7 @@ WORDS.foot = {
     ha: ["ƙafa", "kʼáfàː"],  // Hausa ƙafa is the whole lower limb; hannu likewise covers hand and arm, so this row's hand cell behaves the same way.
     hai: ["stʼáay", "stʼɑ́ːj"],  // IDS splits Northern Haida stˀáay from ḳˀulúu; this row's own stʼáat fixes the reading.
     haj: ["theng", "ʈʰeŋ"],  // ঠেং generalised to the whole lower limb, where Bengali keeps it as a colloquial leg word only; thengpata is the foot-specific compound.
-    hak_cn: ["脚", "kiok̚˧"],  // Hakka 腳 covers the lower limb.
+    hak_cn: ["脚", "kiok̚˩"],  // Hakka 腳 covers the lower limb. // was ["脚", "kiok̚˧"] (vi dialect rules 2026-10-06)
     hak_hl: ["腳", "kiok˥"],  // As mainland Hakka. // was ["腳", "kiok˥˥"] (r46 fix 2026-10-03)
     hak_tw: ["腳", "ki̯ok̚˨"],  // As mainland Hakka.
     har: ["igir", "iɡir"],  // Leslau, Comparative Dictionary of Geez 11, s.v. ʾəgr 'foot': Har. igir, ingir, beside Amh. əgər and Te. ʾəgər; written in this row's Latin transcription, as its iji 'hand' is.
@@ -2087,7 +2095,7 @@ WORDS.foot = {
     sg: ["gerê", "ɡɛrɛ"],  // gerê covers the limb — the Sango word for the leg, ngbëndä-gerê, is defined in the ACCT dictionary as a part of the gerê.
     sga: ["cos", "kos"],  // The Irish leg+foot pattern is already Old Irish; traig is the foot-specific word.
     sgs: ["pieda", "pʲieːda"],  // Samogitian turns Lithuanian ė into ie, as the row's own tievs and doktie do, and the Samogitian Wikipedia's own anatomy article names pieda against kuojė — a cleaner split than the lt parent's, which IDS gives kója for on both sides.
-    sgw: ["እግር", "ɨɡɨr"],  // Leslau CDG 11 gives Gur. əgər for the same ʾəgr root; class follows the Amharic and Tigrinya cognates, and the IPA is the plain reading of the orthography, as this row's እጅ ɨdʒ is.
+    sgw: ["ኧግር", "ɛɡɨr"],  // Leslau CDG 11 gives Gur. əgər for the same ʾəgr root; class follows the Amharic and Tigrinya cognates, and the IPA is the plain reading of the orthography, as this row's እጅ ɨdʒ is. // was ["እግር", "ɨɡɨr"] (vi dialect rules 2026-10-06)
     shi: ["ⴰⴹⴰⵔ", "adˤar"],  // Wiktionary's Tashelhit ⴰⴹⴰⵔ is 'foot' and 'leg' in one entry, and the Berber Swadesh table repeats aḍaṛ unchanged from the foot row to the leg row; same word and same class as the tzm row.
     shn: ["တိၼ်", "tin˨˦"],  // Wiktionary gives Shan တိၼ် tǐn 'foot' from Proto-Tai *tiːnᴬ, and IDS 409 sets tin.3 against ၶႃ kha:.3 'leg'. The IPA is Wiktionary's, not the row's: this row transcribes the unmarked orthographic tone three different ways.
     shp: ["tae", "taɨ"],  // IDS gives Shipibo taɨ against kiši, and the NT breaks kishi for the legs while washing tae.
@@ -2219,7 +2227,7 @@ WORDS.foot = {
     ur: ["پاؤں", "paːõː"],  // Same split as Hindi.
     urh: ["owọ", "owɔ"],  // owọ covers the limb, as obọ does on the arm; the 1854 foot word úkōwọ́ is a compound on it.
     usp: ["aqan", "aqan"],  // Uspanteko keeps the K'iche' aqan but not the K'iche' route — PMED has (r)aaʼ 'muslo, pierna' and the NT breaks raʼ at John 19:32.
-    uz: ["oyoq", "ojoq"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes qoʻl as qol.
+    uz: ["oyoq", "ɒjɒq"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes qoʻl as qol. // was ["oyoq", "ojoq"] (vi dialect rules 2026-10-06)
     vai: ["ꔞꘋ", "keŋ"],  // Koelle's 1854 Vei vocabulary has one entry, ken- 'foot, leg', with ken-goro for the sole.
     ve: ["mulenzhe", "mulenʒe"],  // mulenzhe covers the limb in present-day Tshivenḓa; Mafela notes in Lexikos 18 that Marole's 1932 word list still kept lunayo apart for the foot.
     vec: ["pìe", "ˈpie"],  // pìe vs ganba; the plural is piè, which is why both spellings are in the dictionaries.

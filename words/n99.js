@@ -923,7 +923,7 @@ WORDS.n99 = {
     tcs: ["nainti nain", "nainti nain"],
     tab: ["урчӏвцӏурна урчӏвуб", "urtʃʼvtsʼurna urtʃʼʷub"],
     sus: ["tongo solomanaani nun solomanaani", "toŋɡo solomanaːni nun solomanaːni"],
-    srm: ["nëniteni-ku-nëni", "nɛniteni ku nɛni"],
+    srm: ["nëigiteni-ku-nëigi", "nɛiɡiteni ku nɛiɡi"], // was ["nëniteni-ku-nëni", "nɛniteni ku nɛni"] (vi dialect rules 2026-10-06)
     spp: ["beecyɛɛre ná kɛ ná baacyɛɛre", "beːtʃɛːre na kɛ na baːtʃɛːre"],
     sid: ["honsayina honse", "honsajina honse"],
     shp: ["iskon chonka iskon", "iskon tʃonka iskon"],
@@ -943,7 +943,7 @@ WORDS.n99 = {
     rap: ["iva ʻahuru mā iva", "iva ʔahuɾu maː iva"],
     quy: ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     quc: ["junmuchʼ bʼelej lajuj", "xunmutʃʼ ɓelex laxux"],
-    poh: ["belejlaj roʼkʼahl", "belehlah roʔkʼahl"],
+    poh: ["belejlaj roʼkʼahl", "belexlax roʔkʼahl"], // was ["belejlaj roʼkʼahl", "belehlah roʔkʼahl"] (vi dialect rules 2026-10-06)
     pis: ["naenti-naen", "naenti naen"],
     pdt: ["näajen-un-näajentich", "ˈnɛːajənʊnˌnɛːajəntɪç"],
     pdc: ["nein un neinzich", "naɪn ʊn naɪntsɪç"],
@@ -991,7 +991,7 @@ WORDS.n99 = {
     kum: ["токъсан тогъуз", "toqsan toʁuz"],
     krc: ["токъсан тогъуз", "toqsan toʁuz"],
     kqn: ["makumi atanu na ana ne itanu na ina", "makumi atanu na ana ne itanu na ina"],
-    kpv: ["ӧкмысдас ӧкмыс", "ɵkmɨsdas ɵkmɨs"],
+    kpv: ["ӧкмысдас ӧкмыс", "ɘkmɨsdas ɘkmɨs"], // was ["ӧкмысдас ӧкмыс", "ɵkmɨsdas ɵkmɨs"] (vi dialect rules 2026-10-06)
     koi: ["ӧкмысдас ӧкмыс", "ɵkmɨsdas ɵkmɨs"],
     kjh: ["тоғызон тоғыс", "toɣɯzon toɣɯs"],
     kj: ["omilongo omugoi nomugoi", "omiloŋɡo oŋŋɡoi noŋŋɡoi"],
@@ -1084,7 +1084,7 @@ WORDS.n99 = {
     mlq: ["bixononto-nin-xononto", "bixonontoninxononto"],
     nan_ph: ["九十九", "kau˥˥˦ tsap˨˦ kau˥˥˦"],
     vi_han: ["九十九", "kɨw˧˩˧ tʰəp˨˩˨ kɨw˧˩˧"],
-    shn: ["ၵဝ်ႈသိပ်းပၢႆၵဝ်ႈ", "kaw˧˨ sip˥ paːj˨˦ kaw˧˨"],
+    shn: ["ၵဝ်ႈသိပ်းၵဝ်ႈ", "kaw˧˨ sip˥ kaw˧˨"], // was ["ၵဝ်ႈသိပ်းပၢႆၵဝ်ႈ", "kaw˧˨ sip˥ paːj˨˦ kaw˧˨"] (vi dialect rules 2026-10-06)
     bug: ["aséra pulona aséra", "asera pulona asera"],
     bjn: ["sambilan puluh sambilan", "sambilan puluh sambilan"],
     rki: ["ကိုးဆယ့်ကိုး", "kó sʰḛ kó"], // was ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"] (r51 audit 2026-10-04)
@@ -1156,7 +1156,7 @@ WORDS.n99 = {
     kab: ["tesɛa u tesɛin", "təsʕa u təsʕin"],
     ti: ["ተስዓን ትሽዓተን", "təsʕan tɨʃʕatən"],
     azb: ["دوخسان دوققوز", "doxˈsɑn doɡˈɡuz"],
-    uz: ["toʻqson toʻqqiz", "tøqˈsɒn tøqˈqiz"],
+    uz: ["toʻqson toʻqqiz", "toqˈsɒn toqˈqiz"], // was ["toʻqson toʻqqiz", "tøqˈsɒn tøqˈqiz"] (vi dialect rules 2026-10-06)
     rif: ["ⵜⵙⵄⴰ ⵓ ⵜⵙⵄⵉⵏ", "təsʕa u təsʕin"],
     wal: ["uddufun tammanne uddufuna", "udːufun tamːanːe udːufuna"],
     om: ["sagaltamii sagal", "saɡaltamiː saɡal"],
@@ -1329,7 +1329,7 @@ WORDS.n99 = {
     hr:     ["devedeset devet", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
     sr:     ["деведесет девет", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
     bs:     ["devedeset devet", "dɛʋɛˈdɛsɛt ˈdɛʋɛt"],
-    mk:     ["деведесет и девет", "dɛvɛˈdɛsɛt i ˈdɛvɛt"],
+    mk: ["деведесет и девет", "dɛˈvɛdɛsɛt i ˈdɛvɛt"], // was ["деведесет и девет", "dɛvɛˈdɛsɛt i ˈdɛvɛt"] (vi dialect rules 2026-10-06)
     lv:     ["deviņdesmit deviņi", "ˈdeviɲdesmit ˈdeviɲi"],
     be:     ["дзевяноста дзевяць", "dzʲevʲaˈnosta ˈdzʲevʲatsʲ"],
     ca:     ["noranta-nou", "nuˈɾantə ˈnɔw"],

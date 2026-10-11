@@ -1,5 +1,5 @@
 /**
- * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 40 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
+ * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 39 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
  */
 WORDS.we = {
   emoji: "👥",
@@ -54,6 +54,7 @@ WORDS.we = {
     sw: "\"Sisi\", umbo la kamusi: kiwakilishi cha nafsi ya kwanza wingi katika umbo la kiima au umbo huru, katika usajili wa kawaida — si umbo la unyenyekevu, la heshima wala la kifalme. Pale lugha inapotofautisha kisarufi \"sisi\" kinachomjumuisha msikilizaji na \"sisi\" kisichomjumuisha, maumbo yote mawili huandikwa, kinachojumuisha kwanza, na ramani huzipa lugha hizo rangi yake. Huhesabiwa tofauti iliyo katika viwakilishi huru pekee; ikiwa iko katika kiambishi cha kitenzi tu, lugha huhesabiwa kuwa na neno moja.",
   },
   family: {
+    qxs: "clusive",
     nan_ph: "clusive",
     gsw_als: "single",
     es_cr: "single",
@@ -1158,7 +1159,7 @@ WORDS.we = {
     lbj: "unknown",
     khg: "unknown",
     ker: "clusive",
-    dbq: "unknown",
+    dbq: "clusive", // route was unknown (vi dialect rules 2026-10-06)
     dsh: "unknown",
     bzh: "clusive",
     dnj: "clusive",
@@ -1263,7 +1264,7 @@ WORDS.we = {
     acw: ["إحنا", "ˈiħna"],
     swb: ["wasi", "wasi"],
     adx: ["ང་ཚོ", "ŋatsʰo"],
-    qxs: ["—", "—"],
+    qxs: ["tsuətʰyɑ / qɑtʰyɑ", "tsuə˧˩tʰyɑ˥˥ / qɑ˧˩tʰyɑ˥˥"],
     duu: ["rvng / ing", "ɹɯŋ / iŋ"],
     jya: ["ŋəɲe", "ŋəɲe"],
     ers: ["—", "—"],
@@ -1442,7 +1443,7 @@ WORDS.we = {
     ka: ["ჩვენ", "tʃʰven"],
     lzz: ["ჩქუ", "tʃku"],
     sva: ["ნა̈ჲ", "næj"],
-    hy: ["մենք", "mɛnkʰ"],
+    hy: ["մենք", "menkʰ"], // was ["մենք", "mɛnkʰ"] (vi dialect rules 2026-10-06)
     hyw: ["մենք", "mɛnkʰ"],
     nv: ["nihí", "nihí"],
     koy: ["—", "—"],
@@ -1495,8 +1496,8 @@ WORDS.we = {
     dv: ["އަހަރެމެން", "aharemen"],
     te: ["మనము / మేము", "manamu / meːmu"],
     kn: ["ನಾವು", "naːʋu"],
-    ml: ["നമ്മൾ / ഞങ്ങൾ", "nəmːaɭ / ɲaŋːaɭ"],
-    tg: ["мо", "mɔ"],
+    ml: ["നമ്മൾ / ഞങ്ങൾ", "namːaɭ / ɲaŋːaɭ"], // was ["നമ്മൾ / ഞങ്ങൾ", "nəmːaɭ / ɲaŋːaɭ"] (vi dialect rules 2026-10-06)
+    tg: ["мо", "mo"], // was ["мо", "mɔ"] (vi dialect rules 2026-10-06)
     ku: ["em", "ɛm"],
     ckb: ["ئێمە", "eːmæ"], // was ["ئێمە", "eːme"] (vi dialect rules 2026-10-06)
     sdh: ["ئیمە", "iːme"],
@@ -1530,19 +1531,19 @@ WORDS.we = {
     ekp: ["ye", "je"],
     izz: ["anyi", "aɲi"], // was ["anyị", "aɲɪ"] (vi dialect rules 2026-10-06)
     ibb: ["nnyịn", "ǹɲìn"],
-    urh: ["avware", "aʋare"],
+    urh: ["avwanre", "aβwanɾe"], // was ["avware", "aʋare"] (vi dialect rules 2026-10-06)
     deg: ["eni", "eni"],
     ets: ["mae", "mae"],
     iso: ["ma", "ma"],
     ha: ["mu", "muː"],
     xed: ["ámú / áŋní", "ámú / áŋní"],
     ker: ["áŋ / are", "áŋ / aɾe"],
-    dbq: ["hikwân", "hikʷãŋ"],
+    dbq: ["min tokon / ni", "min tokon / ni"], // was ["hikwân", "hikʷãŋ"] (vi dialect rules 2026-10-06)
     wo: ["nun", "nun"],
     srr: ["in", "in"],
     so: ["innaga / annaga", "inːaɡa / anːaɡa"],
     om: ["nuti", "nuti"],
-    kxc: ["inu", "inu"],
+    kxc: ["ino", "ino"], // was ["inu", "inu"] (vi dialect rules 2026-10-06)
     drs: ["noʼo", "noʔo"],
     dsh: ["nyinyi", "ɲiɲi"],
     rw: ["twebwe", "twebwe"],
@@ -1566,7 +1567,7 @@ WORDS.we = {
     wae: ["wir", "vir"],
     nds: ["wi", "viː"],
     ksh: ["mir", "miɐ"],
-    pdc: ["mir", "mir"],
+    pdc: ["mir", "miːɐ̯"], // was ["mir", "mir"] (vi dialect rules 2026-10-06)
     pdt: ["wie", "viː"],
     yi: ["מיר", "mir"],
     is: ["við", "vɪːð"],
@@ -1588,7 +1589,7 @@ WORDS.we = {
     sk: ["my", "mi"],
     sl: ["mi", "miː"],
     sr: ["ми", "miː"],
-    bg: ["ние", "ˈnie"],
+    bg: ["ние", "ˈniɛ"], // was ["ние", "ˈnie"] (vi dialect rules 2026-10-06)
     lt: ["mes", "mɛs"],
     sgs: ["mes", "mɛs"],
     lv: ["mēs", "meːs"],
@@ -1628,7 +1629,7 @@ WORDS.we = {
     vro: ["mi", "mi"],
     gn: ["ñande / ore", "ɲãnde / oɾe"],
     yrl: ["yandé", "jãˈde"],
-    chr: ["ᎢᏗ", "iˈdi"],
+    chr: ["ᎠᏴ", "ajə̃"], // was ["ᎢᏗ", "iˈdi"] (vi dialect rules 2026-10-06)
     cay: ["i:ʼ", "iːʔ"],
     tus: ["í:ʼ", "iːʔ"],
     as: ["আমি", "ami"],
@@ -1649,7 +1650,7 @@ WORDS.we = {
     en_est: ["we", "wiː"],
     en_sg: ["we", "wi"],
     fy: ["wy", "vi"],
-    frr: ["wi", "vi"],
+    frr: ["we", "ve"], // was ["wi", "vi"] (vi dialect rules 2026-10-06)
     frr_amr: ["wi", "vi"],
     li: ["veer", "veːr"],
     nn: ["me", "meː"],
@@ -1691,7 +1692,7 @@ WORDS.we = {
     akk: ["𒉌𒉡", "niːnu"],
     hit: ["𒌑𒂊𒌍", "weːs"],
     nci: ["tehhuāntin", "teʔˈwaːntin"],
-    nhx: ["tejamen / nejamen", "teˈhamen / neˈhamen"],
+    nhx: ["tejame̱n / nejame̱n", "tehameːn / nehameːn"], // was ["tejamen / nejamen", "teˈhamen / neˈhamen"] (vi dialect rules 2026-10-06)
     nch: ["tohuanti", "toˈwanti"],
     nhw: ["tohuanti", "toˈwanti"],
     nhe: ["tohuanti", "toˈwanti"],
@@ -1807,7 +1808,7 @@ WORDS.we = {
     maz: ["nuzgöji / nuzgöjme", "nuzɣøhi / nuzɣøhme"],
     mix: ["yóʼó / ruʼu", "jóʔó / ɾuʔu"],
     mxv: ["yóʼó / yuʼu", "jóʔó / juʔu"],
-    toc: ["aquinín", "akinín"],
+    toc: ["akinín", "akinín"], // was ["aquinín", "akinín"] (vi dialect rules 2026-10-06)
     huv: ["ikootsa / xikona", "ikoːtsa / ʃikona"],
     ay: ["jiwasa / nanaka", "xiwasa / nanaka"],
     jqr: ["jiwsa", "hiwsa"],
@@ -2140,8 +2141,8 @@ WORDS.we = {
     kwk: ["nugwaʼnts / nugwaʼnuʼxw", "nuɡʷaʔnts / nuɡʷaʔnuʔxʷ"],
     blc: ["łmił", "ɬmiɬ"],
     sad: ["sũ", "sṹ"],
-    pcc: ["rauz / dul", "zau˩˩ / du˧˥"],
-    ium: ["yie mbuo", "ji˧ ɓuo˧"],
+    pcc: ["rauz / dul", "ðɐu˩˩ / tu˨˦"], // was ["rauz / dul", "zau˩˩ / du˧˥"] (vi dialect rules 2026-10-06)
+    ium: ["yie mbuo", "ji˧ buo˧"], // was ["yie mbuo", "ji˧ ɓuo˧"] (vi dialect rules 2026-10-06)
     hui: ["ina", "ina"],
     tkl: ["tātou / mātou", "taːtou / maːtou"],
     squ: ["numalh", "numaɬ"],
@@ -2149,7 +2150,7 @@ WORDS.we = {
     hbo: ["אֲנַחְנוּ", "ʔanaħˈnuː"],
     he_mis: ["אָנוּ", "ʔaˈnu"],
     hy_grab: ["մեք", "mekʰ"],
-    mpt: ["nībo / nī", "niːbo / niː"],
+    mpt: ["níbó / ní", "nibo / ni"], // was ["nībo / nī", "niːbo / niː"] (vi dialect rules 2026-10-06)
     ygr: ["lagaea", "laɡaea"], // was ["lai", "lai"] (vi dialect rules 2026-10-06)
     roo: ["vigei / igei", "βiɡei / iɡei"],
     quz: ["ñuqanchis / ñuqayku", "ɲoˈqantʃis / ɲoˈqajku"],
@@ -2196,7 +2197,7 @@ WORDS.we = {
     kaa: ["biz", "biz"],
     bej: ["hinin", "hinin"],
     tig: ["ሕና", "ħəna"],
-    byn: ["ይን", "jən"],
+    byn: ["ይን", "jɨn"], // was ["ይን", "jən"] (vi dialect rules 2026-10-06)
     ssy: ["nanu", "nanu"],
     ewo: ["bia", "bjá"],
     bum: ["bia", "bja"],
@@ -2263,11 +2264,11 @@ WORDS.we = {
     ahk: ["aduma / ngama", "a˨˩du˧ma̰˨˩ / ŋa˧ma̰˨˩"],
     dtp: ["tokou / yahai", "tokou / jahai"],
     hne: ["हमन", "həmən"],
-    mnw: ["ပိုဲ", "poa"],
+    mnw: ["ပိုဲ", "poi"], // was ["ပိုဲ", "poa"] (vi dialect rules 2026-10-06)
     bru: ["hái / hếq", "haj / heʔ"],
     bdq: ["bơn / nhon", "bən / ɲon"],
     lwl: ["ʔɛ", "ʔɛ"],
-    grt: ["chinga / anʼching", "tʃiŋa / anʔtʃiŋ"],
+    grt: ["chinga / an·ching", "tʃiŋa / anʔtʃiŋ"], // was ["chinga / anʼching", "tʃiŋa / anʔtʃiŋ"] (vi dialect rules 2026-10-06)
     nut: ["rầu", "rəw˨˩"],
     quc: ["uj", "ux"],
     cak: ["röj", "rʊx"],

@@ -118,7 +118,7 @@ WORDS.black = {
     hr: ["crn", "tsrn"],
     sr: ["црн", "tsrn"],
     bg: ["черен", "ˈtʃɛrɛn"],
-    mk: ["црн", "tsrn"],
+    mk: ["црн", "tsr̩n"],
 
     // --- Other Europe -------------------------------------------------
     el: ["μαύρο", "ˈmavro"],
@@ -129,7 +129,7 @@ WORDS.black = {
     mt: ["iswed", "ˈiswet"],
 
     // --- Celtic -------------------------------------------------------
-    cy: ["du", "diː"],
+    cy: ["du", "dɨː"],
     br: ["du", "dyː"],
 
     // --- Turkic / Iranian ---------------------------------------------
@@ -146,7 +146,7 @@ WORDS.black = {
     si: ["කළු", "kaɭu"],
     ta: ["கருப்பு", "karuppu"],
     te: ["నలుపు", "nalupu"],
-    ml: ["കറുപ്പ്", "kaɾuppɨ"],
+    ml: ["കറുപ്പ്", "karuppɨ"],
     kn: ["ಕಪ್ಪು", "kappu"],
 
     // --- Mainland Southeast Asia --------------------------------------
@@ -155,7 +155,7 @@ WORDS.black = {
 
     // --- Caucasus -----------------------------------------------------
     ka: ["შავი", "ʃavi"],
-    hy: ["սև", "sɛv"],
+    hy: ["սև", "sev"],
 
     // --- Africa -------------------------------------------------------
     zu: ["mnyama", "ˈmɲaːma"],
@@ -203,7 +203,7 @@ WORDS.black = {
     az: ["qara", "ɡɑˈɾɑ"],
     kk: ["қара", "qɑˈrɑ"],
     ky: ["кара", "qɑˈrɑ"],
-    uz: ["qora", "qɔˈrɑ"],
+    uz: ["qora", "qɒˈɾa"],
     tk: ["gara", "ɡɑˈrɑ"],
     tt: ["кара", "qɑˈrɑ"],
     ba: ["ҡара", "qɑˈrɑ"],
@@ -276,7 +276,7 @@ WORDS.black = {
     myv: ["раужо", "ˈrauʒo"],
     mdf: ["равжа", "ˈravʒa"],
     koi: ["сьӧд", "sʲɘd"],
-    kpv: ["сьӧд", "sʲɘd"],
+    kpv: ["сьӧд", "ɕɘd"],
     udm: ["сьӧд", "sʲɘd"],
     mhr: ["шеме", "ʃeme"],
 
@@ -451,7 +451,7 @@ WORDS.black = {
     tpi: ["blakpela", "blakpela"],
     srn: ["blaka", "blaka"],
     djk: ["baaka", "baːka"],
-    srm: ["baaka", "baːka"],
+    srm: ["baáka", "baáka"],
     uln: ["schwarz", "ʃvarts"],
     pmy: ["hitam", "hitam"],
 
@@ -523,7 +523,7 @@ WORDS.black = {
     nn: ["svart", "svɑrt"],
     fo: ["svartur", "ˈsvaʂtʊɹ"],
     li: ["zwart", "zʋart"],
-    stq: ["swaat", "svaːt"],
+    stq: ["swot", "svɔt"],
     gv: ["doo", "duː"],
     kw: ["du", "dyː"],
     bs: ["crn", "tsrn"],
@@ -583,12 +583,12 @@ WORDS.black = {
     kjb: ["qʼeq", "qʼeq"],
     usp: ["qʼeq", "qʼeq"],
     tzo: ["ikʼal", "ikʼal"],
-    tzh: ["ihkʼal", "ihkʼal"],
+    tzh: ["ijkʼal", "ihkʼal"],
     ctu: ["iʼikʼ", "iʔikʼ"],
 
     // --- Uto-Aztecan; Nawat lost the tɬ Nahuatl kept -------------------
     nci: ["tlīltic", "tɬiːltik"],
-    nhx: ["tliltik", "tɬiltik"],
+    nhx: ["pi̱stiꞌ", "piːstiʔ"],
     ppl: ["tiltik", "tiltik"],
     hop: ["qömvi", "qømvi"],
 
@@ -597,7 +597,7 @@ WORDS.black = {
     iu: ["ᕿᕐᓂᖅᑐᖅ", "qiʁniqtuq"],
     chr: ["ᎬᎾᎨ", "ɡə̃naɡe"],
     oj: ["makadewaa", "makadewaː"],
-    mic: ["maqteweʼk", "maxteweːɡ"],
+    mic: ["maqtaweʼg", "maxtaweːɡ"],
 
     // --- Turkic — one word from the Orkhon runes to Qashqai -----------
     otk: ["𐰴𐰺𐰀", "qara"],
@@ -735,7 +735,7 @@ WORDS.black = {
     nzm: ["ketikbe", "ketikbe"],
     gsw_w: ["schwarz", "ʃvarts"],
     ja_sd: ["黒い", "kɯɾoi"],
-    agr: ["bukusɨa", "bukusɨa"],
+    agr: ["bukusea", "bukusɨa"],
     dtp: ["oitom", "oitom"],
     kky: ["munyi", "muɲi"],
     myp: ["kopaíai", "kopaíai"],
@@ -840,7 +840,7 @@ WORDS.black = {
     sas: ["bideng", "bidəŋ"],
     ii: ["ꀉꆈ", "a˧˦nɔ˧˧"],
     pcc: ["foonx", "foːn˧˩"],
-    hmn: ["dub", "tu˥"],
+    hmn: ["dub", "du˥"],
     wbm: ["lung", "luŋ"],
     zza: ["sîya", "siːja"],
     sdh: ["سیا", "siˈjɑː"],
@@ -904,7 +904,7 @@ WORDS.black = {
     izz: ["ojii", "odʒiː"],
     urh: ["biebi", "biebi"],
     gaa: ["diŋ", "diŋ"],
-    tll: ["tshudu", "tʃudu"],
+    tll: ["tshududu", "tʃududu"],
     bfa: ["lurwö", "lurwɔ"],
     aja: ["eyu", "eju"],
     ttj: ["kwiragura", "kwiraɡura"],
@@ -1058,7 +1058,7 @@ WORDS.black = {
     de_at: ["schwarz", "ʃvarts"],
     nus: ["car", "tʃar"],
     ab: ["аиқәаҵәа", "ajkʷʰatsʼʷa"],
-    byn: ["ንሺራዅ", "nəʃiraxʷ"],
+    byn: ["ንሺራዅ", "nɨʃiraxʷ"],
     dng: ["хи", "xi˨˦"],
     spp: ["niŋgwɔhɔ", "niŋɡwɔhɔ"],
     lbe: ["лухӏисса", "luħisːa"],
@@ -1068,7 +1068,7 @@ WORDS.black = {
     maz: ["potjü", "potʰɨ"],
     tay: ["mqalux", "mqalux"],
     ckt: ["нувӄин", "nuwqin"],
-    xed: ["ŋra", "ŋra"],
+    xed: ["ŋəra", "ŋəra"],
     agq: ["ləŋ", "ləŋ"],
     dds: ["gɛŋ", "ɡɛŋ"],
     mrq: ["keʻekeʻe", "keʔekeʔe"],
@@ -1260,6 +1260,11 @@ WORDS.black = {
     nez: ["cimúuxcimux", "tsimúːxtsimux"],
     tsi: ["tʼuʼutsk", "tʼuʔutsk"],
     chp: ["delzen", "delzen"],
-    trn: ["siso", "siso"]
+    trn: ["siso", "siso"],
+    tpy: ["tsidat", "tsidat"],
+    xav: ["ĩʼrãdâ", "ĩʔɾãˈdə"],
+    yur: ["loʼogey", "loʔoɣej"],
+    rim: ["njiutiki", "ndʒiutiki"],
+    ja_rys: ["っふさん", "ɸɸusaɴ"]
   },
 };

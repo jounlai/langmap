@@ -86,6 +86,7 @@ const CROSS = {
 // row. Prefer the row-level key: "this pair is fine everywhere" is a much
 // stronger claim than it looks, and grue is the only one this atlas can make.
 const ACCEPTED = {
+    'tok:moon|star': 'Toki Pona mun is any heavenly body seen at night — moon and star alike (pu, Lang 2014). The constructed language has ~120 roots by design. r81, 2026-10-11.',
     'myp:father|mother': 'Pirahã baíxi is "parent", one word for mother and father '
         + '(Everett; the r73 audit sourced both cells to it). The language has no '
         + 'separate term, so both cells carry it. r73, 2026-10-09.',

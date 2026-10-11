@@ -1024,6 +1024,19 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                yao: new Set(['thanks']),   // r80: wrong cell removed; no sourced form found
+                srr: new Set(['sun']),   // r80: wrong cell removed; no sourced form found
+                tmh: new Set(['night']),   // r80: wrong cell removed; no sourced form found
+                pll: new Set(['wheel', 'hello', 'thanks']),   // r80: wrong cell removed; no sourced form found
+                bfa: new Set(['wheel']),   // r80: wrong cell removed; no sourced form found
+                nv: new Set(['cuckoo']),   // r80: wrong cell removed; no sourced form found
+                pdc: new Set(['silk', 'poop']),   // r80: wrong cell removed; no sourced form found
+                toc: new Set(['love']),   // r80: wrong cell removed; no sourced form found
+                wba: new Set(['iron']),   // r80: wrong cell removed; no sourced form found
+                nhx: new Set(['hello']),   // r80: wrong cell removed; no sourced form found
+                chy: new Set(['you']),   // r80: wrong cell removed; no sourced form found
+                stq: new Set(['silk']),   // r80: wrong cell removed; no sourced form found
+                amw: new Set(['fire', 'fish']),   // r80: wrong cell removed; no sourced form found
                 dyo: new Set(['mother']),   // r79: wrong cell removed; no sourced form found
                 bbo: new Set(['butterfly']),   // r75: wrong cell removed; no sourced form found
                 mro: new Set(['good', 'white']),   // r75: wrong cell removed; no sourced form found
@@ -1090,7 +1103,7 @@ for (const code of codes) {
                 agq: new Set(['we']),
                 mgo: new Set(['we']),
                 koy: new Set(['we']),
-                yiz: new Set(['we', 'love']),  // love added 2026-10-02 (r25flags)
+                yiz: new Set(['we', 'love', 'hello', 'thanks']),  // love added 2026-10-02 (r25flags)
                 // 2026-10-01 flag round (r23flags): published cells removed as
                 // wrong, with no sourced replacement. ksb hello was "nashukuru"
                 // ("I thank"). aiw love/cat/house/eat/drink/hello/thanks were
@@ -1100,7 +1113,7 @@ for (const code of codes) {
                 // no general Blin word (greetings are by time of day) and thanks
                 // ቀንየለይ was Tigrinya/Tigre.
                 ksb: new Set(['hello']),
-                aiw: new Set(['love', 'cat', 'house', 'eat', 'drink', 'hello', 'thanks']),
+                aiw: new Set(['love', 'cat', 'house', 'eat', 'drink', 'hello', 'thanks', 'blood']),
                 mlq: new Set(['hello', 'thanks']),  // fire/fish filled from the Kéniéba texts on 2026-10-01
                 byn: new Set(['hello', 'thanks']),
                 // 2026-10-02 flag round r25flags: wrong cells removed, no sourced
@@ -1121,7 +1134,7 @@ for (const code of codes) {
                 // their dictionaries (SIL 1987/2004; Poolaw 2023; Miller 2019), hot and
                 // mpt against their NT and ABVD/Fedden. These cells were wrong and no
                 // source gives a replacement (mpt thanks hok is 'scorpion'; hot has no f).
-                hot: new Set(['love', 'hello', 'thanks']), mpt: new Set(['thanks']),
+                hot: new Set(['love', 'hello', 'thanks']), mpt: new Set(['thanks', 'hello']),
                 kio: new Set(['love']), xav: new Set(['cat', 'hello', 'thanks']),
                 hts: new Set(['house', 'love', 'cat', 'thanks']),
                 // 2026-10-02 flag round r35: atb re-spelled from the Zaiwa NT + Sun 1991;

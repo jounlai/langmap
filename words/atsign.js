@@ -242,7 +242,7 @@ WORDS.atsign = {
     hr: ["manki", "ˈmaŋki"],
     ro: ["coadă de maimuță", "ˈko̯adə de majˈmutsə"],
     // === Caucasus & Central Asia ===
-    hy: ["շնիկ", "ʃnik"],
+    hy: ["շնիկ", "ʃəˈnik"],
     ka: ["ეთ-ი", "etʰi"],
     kk: ["айқұлақ", "ɑjqʊlɑq"],
     tr: ["et", "et"],
@@ -262,7 +262,7 @@ WORDS.atsign = {
     lt: ["eta", "ɛˈtaː"],
     // === More Eastern & Southeastern Europe ===
     sl: ["afna", "ˈaːfna"],
-    mk: ["мајмунче", "ˈmajmuntʃe"],
+    mk: ["мајмунче", "ˈmajmuntʃɛ"],
     be: ["слімак", "ˈslʲimak"],
     // === More Caucasus & Central Asia ===
     az: ["ət", "æt"],

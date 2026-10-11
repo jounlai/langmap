@@ -172,8 +172,8 @@ WORDS.hundred = {
     hr: ["sto", "stoː"],
     sr: ["сто", "stoː"],
     bs: ["sto", "stoː"],
-    bg: ["сто", "sto"],
-    mk: ["сто", "sto"],
+    bg: ["сто", "stɔ"],
+    mk: ["сто", "stɔ"],
     be: ["сто", "sto"],
 
     // --- Celtic ------------------------------------------------------------
@@ -208,7 +208,7 @@ WORDS.hundred = {
     gez: ["ምእት", "məʔət"],
     ti: ["ሚእቲ", "miʔti"],
     am: ["መቶ", "məto"],
-    mt: ["mija", "ˈmɪja"],
+    mt: ["mija", "ˈmiːja"],
     ar_eg: ["مية", "mejja"],
     ar_lev: ["مية", "mijje"],
     ar_ma: ["مية", "mja"],
@@ -256,7 +256,7 @@ WORDS.hundred = {
     zh_han: ["百", "prāk"],
     zh_song: ["百", "pai"],
     yue_gz: ["百", "ɓak̚˧˧"],
-    hak_cn: ["百", "pak̚˧"],
+    hak_cn: ["百", "pak̚˩"],
     hak_tw: ["百", "pak˨"],
     wuu: ["百", "paʔ˥"],
     nan: ["百", "paʔ˧˨"],
@@ -285,7 +285,7 @@ WORDS.hundred = {
     myv: ["сядо", "ˈsʲado"],
     mdf: ["сяда", "ˈsʲada"],
     udm: ["сю", "sʲu"],
-    kpv: ["сё", "sʲo"],
+    kpv: ["сё", "ɕo"],
     koi: ["сё", "sʲo"],
     mhr: ["шӱдӧ", "ʃydø"],
 
@@ -457,7 +457,7 @@ WORDS.hundred = {
     ayl: ["مية", "ˈmija"],
     ar_sd: ["مية", "ˈmija"],
     mey: ["مية", "ˈmijja"],
-    aii: ["ܡܐܐ", "maː"],
+    aii: ["ܐܡܐܐ", "ʔɪmma"],
 
     // --- Creoles and mainland Southeast Asia --------------------------------
     gcr: ["san", "sã"],
@@ -640,7 +640,7 @@ WORDS.hundred = {
     ssy: ["bool", "boːl"],
     aa: ["bool", "boːl"],
     drs: ["dhibba", "ɗibba"],
-    kxc: ["dhippa", "ɗipːa"],
+    kxc: ["dippa", "ɗipːa"],
     aiw: ["mato", "mato"],   // beside a vigesimal circumlocution, edonq-baab its, five persons eaten
     wal: ["xeeta", "tʼeːta"],
     efi: ["ikie", "ikie"],   // Chan's Efik hundred is a gloss slip on its own one; ikie is read off its 200, ikie iba, and confirmed by Ibibio
@@ -693,7 +693,7 @@ WORDS.hundred = {
     gv: ["keead", "kʲiːd"],   // the Goidelic form, beside Irish céad
     fo: ["hundrað", "ˈhʊndɹa"],
     gsw: ["hundert", "ˈhʊndərt"],
-    stq: ["hunnert", "ˈhunərt"],
+    stq: ["hunnert", "ˈhʊnərd"],
     pcd: ["chint", "ʃɛ̃"],
     fax: ["cen", "θeŋ"],
     ruq: ["sută", "ˈsutə"],   // the Slavic loan Romanian also took
@@ -715,7 +715,7 @@ WORDS.hundred = {
     kac: ["tsa", "tsa˧"],
     tsj: ["gya", "ɡʲa"],   // the Tibetan བརྒྱ carried east into Tshangla
     jya: ["pərjɐ", "pərjɐ"],   // the same Tibetan brgya, behind a Gyalrong prefix
-    yiz: ["xo", "xo˧˧"],
+    yiz: ["xo", "xo˨˨"],
     nxq: ["xi", "ɕi˧"],
     mtq: ["tlăm", "tlam"],   // the cluster Vietnamese trăm lost
     mra: ["rɔy", "rɔj"],   // the Thai ร้อย, borrowed
@@ -758,7 +758,7 @@ WORDS.hundred = {
     ddo: ["бишон", "biʃon"],
     ani: ["бешонугу", "beʃonuɡu"],
     bxr: ["зуун", "zuːn"],
-    xal: ["зун", "zuːn"],
+    xal: ["зун", "zun"],
     kim: ["чүс", "tʃys"],
     ude: ["таӈгу", "taŋɡu"],   // the Tungusic *taŋgū that Manchu writes ᡨᠠᠩᡤᡡ
     gld: ["таӈгу", "taŋɡu"],
@@ -768,7 +768,7 @@ WORDS.hundred = {
     yrk: ["юрˮ", "jurʔ"],
     nio: ["дир", "dʲir"],
     sel: ["тоон", "toːn"],
-    chr: ["ᏍᎪᎯᏥᏆ", "sɡohitsɡwa"],   // ten-something: ᏍᎪᎯ is this row's own ten
+    chr: ["ᏍᎪᎯᏥᏆ", "sɡohitsikʷa"],   // ten-something: ᏍᎪᎯ is this row's own ten
     ain: ["アシㇰネ ホㇳネ", "aʃikne hotne"],   // five twenties — hotne is twenty, ashikne this row's own five
     blk: ["ရျာꩻ", "rja˧˧"],
     // --- Sinitic — 百 is 陰入; each tone is that row's own, read off its 骨 ----
@@ -827,7 +827,7 @@ WORDS.hundred = {
     cho: ["talhepa", "taɬipa"],
     xkz: ["gya", "ɟa"],   // the Tibetan བརྒྱ once more,
     myx: ["sitondo", "sitondo"],
-    sbp: ["imiya", "imija"],
+    sbp: ["ligana", "liɡana"],
     jmc: ["iyana", "ijana"],
     mrq: ["ʻau", "ʔau"],
     bjn: ["saratus", "saratus"],
@@ -940,7 +940,7 @@ WORDS.hundred = {
     ksb: ["gana", "ɡana"],
     asu: ["ighana", "iɣana"],
     izz: ["ụkporo ise", "ʊkpoɾo ise"],
-    urh: ["ujorin", "udʒoɾĩ"],
+    urh: ["ujori", "udʒoɾi"],
     gaa: ["oha", "oha"],
     ng: ["ethele", "eθele"],
     lue: ["likulukaji", "likulukadʒi"],
@@ -983,7 +983,7 @@ WORDS.hundred = {
     mic: ["kaskʼptnnaqan", "ɡaskəptənːaxan"],
     apw: ["gonenadín", "ɡonenadín"],
     jiv: ["sian", "sian"],
-    srm: ["höndö", "hɔndɔ"],
+    srm: ["hö́ndö", "hɔ́ndɔ"],
     ers: ["zɑ", "zɑ˥˥"],
     crk: ["ᒥᑖᑕᐦᑐᒥᑕᓇᐤ", "mitaːtahtomitanaw"],
     otq: ["nthebe", "ntʰebe"],
@@ -996,7 +996,7 @@ WORDS.hundred = {
     tsu: ["seʼconza", "seʔtsonza"],
     emi: ["kateva ai", "kateva ai"],
     ygr: ["hateleti", "hateleti"],
-    tok: ["ale", "ale"],
+    tok: ["ale", "ˈale"],
     jbo: ["panono", "paˈnono"],
     ko_jeju: ["벡", "pek̚"],
     mh: ["jibukwi", "tʲibukʷi"],
@@ -1006,7 +1006,7 @@ WORDS.hundred = {
     ppl: ["tzunti", "tsunti"],
     lld: ["cënt", "tʃənt"],
     atj: ["mitato mitana", "mitato mitana"],
-    zts: ["gaiyua", "ɡaijua"],
+    zts: ["gayuaa", "ɡajuaː"],
     deg: ["itany isuwon", "itaɲ isuwon"],
     huv: ["akoik miow", "akoik miow"],
     djk: ["ondoo", "ondoː"],
@@ -1014,7 +1014,7 @@ WORDS.hundred = {
     acu: ["pachak", "patʃak"],
     ame: ["c̈harroch c̈harraʼ", "tʂaɻotʃ tʂaɻaʔ"],
     moh: ["tewenʼniáwe", "tewʌ̃ʔnjáwe"],
-    chy: ["mahtóhtȯhnóʼe", "mahtóhtohnóʔe"],
+    chy: ["noʼka mȧhtóhtȯhnóʼe", "noʔka mahtóhtohnóʔe"],
     ium: ["baeqv", "pæʔ˥˥"],
     yap: ["raʼay", "raʔaj"],
     aqc: ["баӏш", "baˤʃ"],
@@ -1040,7 +1040,7 @@ WORDS.hundred = {
     mlq: ["keme", "keme"],
     chf: ["cien", "sjen"],
     usp: ["jun cient", "hun sjent"],
-    tdh: ["को सङ", "ko saŋ"],
+    tdh: ["को सङ", "ko sʌŋ"],
     car: ["ainatone-kariʼna", "ainatone kaɾiʔna"],
     crn: ["anxɨ́te", "anˈʃɨte"],
     ckt: ["мытԓыӈӄԓеккэн", "mətɬəŋqɬekken"],
@@ -1080,7 +1080,7 @@ WORDS.hundred = {
     nrf_gg: ["chent", "ʃɑ̃"],
     ja_mvi: ["百", "mumu"],
     kjj: ["пан", "pʰan"],
-    tkr: ["ваӏш", "vaʕʃ"],
+    tkr: ["ваӏш", "waˤʃ"],
     bdk: ["фухъад", "fuqad"],
     udi: ["бач̍", "batʃʼ"],
     khv: ["бешону", "beʃonu"],
@@ -1162,6 +1162,15 @@ WORDS.hundred = {
     umu: ["nkwətaːpóxkə", "nkwətaːpoxkə"],
     bca: ["apɛ", "a˧˩pɛ˦˦"],
     nez: ["puuteʼéptit", "puːteʔéptit"],
-    chp: ["łónona", "ɬónona"]
+    chp: ["łónona", "ɬónona"],
+    hai: ["hándad", "hándad"],
+    zdj: ["djana", "dʒana"],
+    abe: ["nguedatgua", "ŋɡwedatɡwa"],
+    yuy: ["dʒuun", "dʒuːn"],
+    blc: ["tsʼicwlxs", "tsʼixʷlχs"],
+    dsh: ["kuɗ", "kuɗ"],
+    jup: ["cẽ́", "tʃẽ́"],
+    mjg: ["nige jang", "niɡe tɕaŋ"],
+    ess: ["ю̄к талъимат", "juːk taɬimat"]
   },
 };

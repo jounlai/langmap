@@ -6041,7 +6041,9 @@
                 if (mng) html += `<div class="meaning" dir="auto">${escapeHtml(mng)}</div>`;
             }
             if (showName) {
-                html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${n}</div>`;
+                // Language Master's map mode puts a medal on each mastered language.
+                const medal = (window.__lmMedals && window.__lmMedals.has(code)) ? '🏅 ' : '';
+                html += `<div class="name" dir="auto" ${c ? `style="color:${c}"` : ''}>${medal}${n}</div>`;
                 // Historical languages carry meta.period ("~700 BCE–600 CE"): show
                 // it as a second name line so the label reads name-over-period.
                 // ONLY on the historical map. Four rows have a period AND living
@@ -7874,6 +7876,15 @@
             } catch (_) {}
         };
         window.__langmap.clearSpotlight = function () { try { window.__langmap.setSpotlight([]); } catch (_) {} };
+        // Frame a set of languages (Language Master's map mode shows the mastered ones).
+        window.__langmap.fitCodes = function (codes) {
+            try {
+                const pts = (codes || []).map(c => LANG_DATA[c]).filter(r => r && typeof r.lat === 'number').map(r => [r.lat, r.lng]);
+                if (!pts.length || typeof map === 'undefined' || !map.fitBounds) return;
+                if (pts.length === 1) map.setView(pts[0], Math.max(map.getZoom(), 5));
+                else map.fitBounds(pts, { padding: [80, 80], maxZoom: 6 });
+            } catch (_) {}
+        };
         // Let feature modules (my-languages.js) ask the page to rewrite the URL
         // hash so their own state (appended via getMyLangHashParam) is persisted.
         window.__langmap.updateHash = function (opts) { try { updateHash(opts || {}); } catch (_) {} };
@@ -8452,6 +8463,10 @@
                 const lbl = inCmp ? lObj.remove : lObj.add;
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
+                // Language Master: take this language's test straight from its modal.
+                const MT = { en: 'Take the master test', ja: 'マスターテストに挑戦', ko: '마스터 테스트 도전', zh: '挑战大师测试', yue: '挑戰大師測試', vi: 'Thi bậc thầy', th: 'ทดสอบเป็นเซียน', id: 'Ikut tes master', hi: 'मास्टर टेस्ट दें', de: 'Meistertest machen', fr: 'Passer le test de maître', it: 'Fai il test da maestro', es: 'Hacer la prueba de maestro', pt: 'Fazer o teste de mestre', ru: 'Пройти тест мастера', uk: 'Пройти тест майстра', ar: 'خُض اختبار الإتقان', he: 'מבחן אלוף', sw: 'Fanya jaribio la ubingwa' };
+                let mastered = false; try { mastered = !!(JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {})[code]; } catch (_) {}
+                html += `<button type="button" class="compare-add-btn lm-master-try${mastered ? ' added' : ''}" data-master="${escapeHtml(code)}">🏅 ${escapeHtml(MT[uiLang] || MT[uiLang.split('_')[0]] || MT.en)}</button>`;
             })();
             // (The custom-goods "make a T-shirt" hand-off is no longer a small
             // button here — it's an image promo card appended at the BOTTOM of
@@ -9730,6 +9745,8 @@
         document.getElementById('compare-clear').addEventListener('click', clearCompare);
         // Delegate compare-add-btn clicks inside the language modal
         infoContent.addEventListener('click', e => {
+            const mt = e.target.closest('.lm-master-try');
+            if (mt) { if (window.__lmMasterOpenLang) window.__lmMasterOpenLang(mt.dataset.master); return; }
             const btn = e.target.closest('.compare-add-btn');
             if (!btn) return;
             const code = btn.dataset.code;
@@ -12001,9 +12018,12 @@
                 const desc = (g.title && g.title !== name) ? g.title : '';
                 const it = document.createElement('button');
                 it.type = 'button'; it.className = 'play-menu-item'; it.setAttribute('role', 'menuitem');
+                const num = m.children.length + 1;
                 it.innerHTML = '<span aria-hidden="true">' + (icon ? icon.textContent : '🎲') + '</span>'
                     + '<span class="play-menu-item-txt"><span>' + name + '</span>'
-                    + (desc ? '<span class="play-menu-item-sub">' + desc + '</span>' : '') + '</span>';
+                    + (desc ? '<span class="play-menu-item-sub">' + desc + '</span>' : '') + '</span>'
+                    + (num <= 9 ? '<kbd class="wm-kbd" aria-hidden="true">' + num + '</kbd>' : '');
+                if (num <= 9) it.setAttribute('aria-keyshortcuts', String(num));
                 it.addEventListener('click', () => { close(); g.click(); });
                 m.appendChild(it);
             });
@@ -12012,8 +12032,37 @@
         function close() { const m = menu(); if (m) m.classList.remove('open'); const b = btn(); if (b) b.setAttribute('aria-expanded', 'false'); }
         function toggle() { const m = menu(); if (m && m.classList.contains('open')) close(); else open(); }
         function localize() { const l = document.getElementById('play-menu-label'); if (l) l.textContent = playLabel(); const b = btn(); if (b) b.title = playLabel(); }
+        // Keyboard (desktop): P opens the Play menu, 1–9 starts a game, Esc closes.
+        // Chips (.wm-kbd) show the keys on hover/fine-pointer devices only.
+        function anyGameOpen() {
+            return ['lm-langle-box', 'lm-quiz-box', 'lm-master-box'].some(id => { const x = document.getElementById(id); return x && x.parentElement && x.parentElement.style.display !== 'none'; })
+                || !!document.querySelector('#trivia-modal.visible, .mylang-overlay.open');
+        }
         function init() {
             const b = btn(); if (!b || b._wired) return; b._wired = true;
+            if (!document.getElementById('wm-kbd-css')) {
+                const st = document.createElement('style'); st.id = 'wm-kbd-css';
+                st.textContent = '.wm-kbd{display:none;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;font-weight:700;border:1px solid currentColor;border-radius:5px;padding:0 5px;line-height:16px;opacity:.6;margin-inline-start:auto}'
+                    + '@media (hover:hover) and (pointer:fine){.wm-kbd{display:inline-block}}#play-menu-btn .wm-kbd{margin-inline-start:6px}';
+                document.head.appendChild(st);
+            }
+            if (!b.querySelector('.wm-kbd')) { const k = document.createElement('kbd'); k.className = 'wm-kbd'; k.setAttribute('aria-hidden', 'true'); k.textContent = 'P'; b.appendChild(k); b.setAttribute('aria-keyshortcuts', 'P'); }
+            document.addEventListener('keydown', e => {
+                if (e.ctrlKey || e.metaKey || e.altKey) return;
+                const t = e.target; if (t && (/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName) || t.isContentEditable)) return;
+                const m = menu(), isOpen = m && m.classList.contains('open');
+                if (isOpen && /^[1-9]$/.test(e.key)) {
+                    const it = m.querySelectorAll('.play-menu-item')[+e.key - 1];
+                    if (it) { e.preventDefault(); it.click(); }
+                    return;
+                }
+                if ((e.key === 'p' || e.key === 'P') && !anyGameOpen()) { e.preventDefault(); toggle(); return; }
+                // Langle has no Escape of its own: close it like a click on its backdrop.
+                if (e.key === 'Escape') {
+                    const lb = document.getElementById('lm-langle-box');
+                    if (lb && lb.parentElement && lb.parentElement.style.display !== 'none') lb.parentElement.click();
+                }
+            });
             b.addEventListener('click', e => { e.stopPropagation(); toggle(); });
             document.addEventListener('click', e => { const m = menu(); if (m && m.classList.contains('open') && !m.contains(e.target) && !b.contains(e.target)) close(); });
             document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
@@ -12035,7 +12084,7 @@
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=8"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=11"></script>
     <script>
     (function () {
         'use strict';
@@ -12050,8 +12099,9 @@
             var b = document.getElementById('master-open'); if (b) { var n = count(); b.title = pk(TAG) + (n ? ' · 🏅 ' + n : ''); }
         }
         var loading = null;
-        function open() {
-            if (window.__lmMasterOpen) { window.__lmMasterOpen(); return; }
+        function open(code) {
+            if (typeof code !== 'string') code = null;
+            if (window.__lmMasterOpen) { window.__lmMasterOpen(code); return; }
             if (!loading) loading = new Promise(function (res) {
                 var ref = document.getElementById('master-src');
                 var s = document.createElement('script');
@@ -12059,13 +12109,14 @@
                 s.onload = s.onerror = function () { res(); };
                 document.head.appendChild(s);
             });
-            loading.then(function () { if (window.__lmMasterOpen) window.__lmMasterOpen(); });
+            loading.then(function () { if (window.__lmMasterOpen) window.__lmMasterOpen(code); });
         }
         function init() {
             var b = document.getElementById('master-open');
             if (b && !b._stub) { b._stub = true; b.addEventListener('click', function (e) { if (!window.__lmMasterLoaded) { e.stopImmediatePropagation(); open(); } }); }
             window.__wmGames = window.__wmGames || {};
             if (!window.__wmGames.master) window.__wmGames.master = open;
+            window.__lmMasterOpenLang = function (code) { open(code); };
             label();
             window.addEventListener('langmap:uichange', label);
         }

@@ -48,6 +48,9 @@
         rule: {en:'To master it: 9 of 10 correct', ja:'マスター条件：10問中9問以上の正解', ko:'마스터 조건: 10문제 중 9문제 이상 정답', zh:'成为大师的条件：10题答对9题以上', yue:'大師條件：10題答啱9題或以上', vi:'Điều kiện: đúng ít nhất 9/10 câu', th:'เงื่อนไข: ตอบถูกอย่างน้อย 9 จาก 10 ข้อ', id:'Syarat: benar minimal 9 dari 10', hi:'शर्त: 10 में से कम से कम 9 सही', de:'Bedingung: mindestens 9 von 10 richtig', fr:'Condition : au moins 9 bonnes réponses sur 10', it:'Condizione: almeno 9 risposte giuste su 10', es:'Condición: al menos 9 aciertos de 10', pt:'Condição: pelo menos 9 de 10 certas', ru:'Условие: не меньше 9 верных из 10', uk:'Умова: щонайменше 9 правильних з 10', ar:'الشرط: 9 إجابات صحيحة على الأقل من 10', he:'התנאי: לפחות 9 תשובות נכונות מתוך 10', sw:'Sharti: angalau 9 sahihi kati ya 10'},
         keys: {en:'Keys: 1–4 to answer · Space or Enter for next', ja:'キー操作：1〜4で回答・スペース／エンターで次へ', ko:'키보드: 1~4로 답하기 · 스페이스/엔터로 다음', zh:'键盘：1–4 作答 · 空格或回车下一题', yue:'鍵盤：1–4 答題 · 空白鍵或Enter下一題', vi:'Phím: 1–4 để trả lời · Space để tiếp', th:'คีย์: 1–4 ตอบ · Space ไปต่อ', id:'Tombol: 1–4 untuk menjawab · Spasi untuk lanjut', hi:'कुंजियाँ: 1–4 उत्तर · Space अगला', de:'Tasten: 1–4 antworten · Leertaste weiter', fr:'Touches : 1–4 pour répondre · Espace pour continuer', it:'Tasti: 1–4 per rispondere · Spazio per avanti', es:'Teclas: 1–4 para responder · Espacio para seguir', pt:'Teclas: 1–4 para responder · Espaço para avançar', ru:'Клавиши: 1–4 — ответ · Пробел — далее', uk:'Клавіші: 1–4 — відповідь · Пробіл — далі', ar:'المفاتيح: 1–4 للإجابة · المسافة للتالي', he:'מקשים: 1–4 לתשובה · רווח להמשך', sw:'Vitufe: 1–4 kujibu · Space kuendelea'},
         dialectNote: {en:'Dialect mode: the choices are the same word in neighbouring dialects — tell them apart by how they are written. If another dialect writes it the same way, that choice is correct too.', ja:'方言モード：選択肢は同じ単語の周辺の方言形です。書き方の違いで見分けてください。ほかの方言と同じ書き方なら、それも正解です。', ko:'방언 모드: 선택지는 같은 단어의 주변 방언형입니다. 철자와 발음 차이로 구별하세요. 다른 방언과 형태가 똑같으면 그것도 정답입니다.', zh:'方言模式：选项是同一个词在周边方言中的说法，请靠字形和读音分辨。若与其他方言完全相同，也算正确。', yue:'方言模式：選項係同一個詞喺附近方言嘅講法，要靠字同讀音分。如果同其他方言一模一樣，都算啱。', vi:'Chế độ phương ngữ: các lựa chọn là cùng một từ ở các phương ngữ lân cận — phân biệt bằng chữ viết và cách đọc. Nếu phương ngữ khác nói y hệt thì cũng đúng.', th:'โหมดภาษาถิ่น: ตัวเลือกคือคำเดียวกันในภาษาถิ่นใกล้เคียง แยกด้วยตัวสะกดและเสียงอ่าน ถ้าภาษาถิ่นอื่นพูดเหมือนกันทุกอย่างก็ถือว่าถูก', id:'Mode dialek: pilihan adalah kata yang sama dalam dialek-dialek tetangga — bedakan dari ejaan dan pengucapan. Jika dialek lain persis sama, itu juga benar.', hi:'बोली मोड: विकल्प पड़ोसी बोलियों में वही शब्द हैं — वर्तनी और उच्चारण से पहचानें। किसी दूसरी बोली में बिल्कुल वही रूप हो तो वह भी सही है।', de:'Dialektmodus: Die Antworten sind dasselbe Wort in benachbarten Dialekten – unterscheide sie an Schreibung und Aussprache. Sagt ein anderer Dialekt es genauso, zählt das auch.', fr:'Mode dialecte : les choix sont le même mot dans des dialectes voisins — distinguez-les par l’orthographe et la prononciation. Si un autre dialecte le dit exactement pareil, c’est juste aussi.', it:'Modalità dialetto: le scelte sono la stessa parola in dialetti vicini — distinguile da grafia e pronuncia. Se un altro dialetto la dice uguale, vale anche quella.', es:'Modo dialecto: las opciones son la misma palabra en dialectos vecinos; distíngelas por la escritura y la pronunciación. Si otro dialecto la dice igual, también vale.', pt:'Modo dialeto: as opções são a mesma palavra em dialetos vizinhos — distinga pela grafia e pronúncia. Se outro dialeto diz igualzinho, também vale.', ru:'Режим диалектов: варианты — то же слово в соседних диалектах; различайте по написанию и произношению. Если другой диалект говорит точно так же, это тоже верно.', uk:'Режим діалектів: варіанти — те саме слово в сусідніх діалектах; розрізняйте за написанням і вимовою. Якщо інший діалект каже так само, це теж правильно.', ar:'وضع اللهجات: الخيارات هي الكلمة نفسها في لهجات مجاورة — ميّز بينها بالكتابة والنطق. إذا قالتها لهجة أخرى بالشكل نفسه تمامًا فهي صحيحة أيضًا.', he:'מצב ניבים: האפשרויות הן אותה מילה בניבים שכנים — הבחינו לפי כתיב והגייה. אם ניב אחר אומר בדיוק אותו דבר, גם זה נכון.', sw:'Hali ya lahaja: chaguo ni neno lilelile katika lahaja jirani — zitofautishe kwa tahajia na matamshi. Lahaja nyingine ikilisema vivyo hivyo, hilo pia ni sahihi.'},
+        mapMode: {en:'Show my mastered languages on the map', ja:'マスターした言語を地図に表示', ko:'마스터한 언어를 지도에 표시', zh:'在地图上显示已掌握的语言', yue:'喺地圖顯示搞掂咗嘅語言', vi:'Hiện các ngôn ngữ đã thành thạo trên bản đồ', th:'แสดงภาษาที่เป็นเซียนบนแผนที่', id:'Tampilkan bahasa yang dikuasai di peta', hi:'मास्टर की गई भाषाएँ मानचित्र पर दिखाएँ', de:'Gemeisterte Sprachen auf der Karte zeigen', fr:'Afficher mes langues maîtrisées sur la carte', it:'Mostra le lingue padroneggiate sulla mappa', es:'Ver mis idiomas dominados en el mapa', pt:'Ver meus idiomas dominados no mapa', ru:'Показать освоенные языки на карте', uk:'Показати опановані мови на мапі', ar:'اعرض لغاتي المتقنة على الخريطة', he:'הצגת השפות שנשלטו על המפה', sw:'Onyesha lugha nilizozimudu kwenye ramani'},
+        mapOn: {en:'Showing your {n} mastered languages', ja:'マスターした{n}言語を表示中', ko:'마스터한 {n}개 언어 표시 중', zh:'正在显示你掌握的 {n} 种语言', yue:'顯示緊你搞掂嘅 {n} 種語言', vi:'Đang hiện {n} ngôn ngữ đã thành thạo', th:'กำลังแสดง {n} ภาษาที่เป็นเซียน', id:'Menampilkan {n} bahasa yang dikuasai', hi:'आपकी {n} मास्टर भाषाएँ दिख रही हैं', de:'Deine {n} gemeisterten Sprachen', fr:'Vos {n} langues maîtrisées', it:'Le tue {n} lingue padroneggiate', es:'Mostrando tus {n} idiomas dominados', pt:'Mostrando seus {n} idiomas dominados', ru:'Показаны ваши освоенные языки: {n}', uk:'Показано ваші опановані мови: {n}', ar:'عرض لغاتك المتقنة ({n})', he:'מוצגות {n} השפות שנשלטו', sw:'Inaonyesha lugha {n} ulizozimudu'},
+        exit: {en:'Show all', ja:'すべて表示', ko:'모두 표시', zh:'全部显示', yue:'全部顯示', vi:'Hiện tất cả', th:'แสดงทั้งหมด', id:'Tampilkan semua', hi:'सभी दिखाएँ', de:'Alle zeigen', fr:'Tout afficher', it:'Mostra tutto', es:'Ver todos', pt:'Ver todos', ru:'Показать все', uk:'Показати всі', ar:'عرض الكل', he:'הצג הכול', sw:'Onyesha zote'},
         ruleShort: {en:'9/10 to master', ja:'9/10でマスター', ko:'9/10이면 마스터', zh:'9/10即为大师', yue:'9/10就係大師', vi:'9/10 là thành thạo', th:'9/10 เป็นเซียน', id:'9/10 untuk menguasai', hi:'9/10 पर मास्टर', de:'9/10 zum Meistern', fr:'9/10 pour maîtriser', it:'9/10 per padroneggiare', es:'9/10 para dominar', pt:'9/10 para dominar', ru:'9/10 — мастер', uk:'9/10 — майстер', ar:'9/10 للإتقان', he:'9/10 לשליטה', sw:'9/10 kuwa bingwa'},
         left: {en:'Mistakes left: {n}', ja:'あと{n}問ミスできます', ko:'남은 실수 가능 횟수: {n}', zh:'还可以错{n}题', yue:'仲可以錯{n}題', vi:'Còn được sai {n} câu', th:'ผิดได้อีก {n} ข้อ', id:'Sisa kesalahan: {n}', hi:'बची गलतियाँ: {n}', de:'Noch {n} Fehler erlaubt', fr:'Erreurs restantes : {n}', it:'Errori rimasti: {n}', es:'Errores restantes: {n}', pt:'Erros restantes: {n}', ru:'Можно ошибиться ещё: {n}', uk:'Можна помилитися ще: {n}', ar:'الأخطاء المتبقية: {n}', he:'טעויות שנותרו: {n}', sw:'Makosa yaliyobaki: {n}'},
         out: {en:'Too many mistakes for the badge this time — you can still finish.', ja:'今回はバッジ獲得ならず。最後まで挑戦できます。', ko:'이번에는 배지를 받을 수 없어요. 끝까지 풀 수는 있어요.', zh:'这次拿不到徽章了，但可以答完。', yue:'今次攞唔到徽章，但可以答埋。', vi:'Lần này không đạt huy hiệu — bạn vẫn có thể làm tiếp.', th:'รอบนี้ไม่ได้เหรียญแล้ว แต่ยังเล่นต่อได้', id:'Kali ini lencana lepas — kamu masih bisa menyelesaikan.', hi:'इस बार बैज नहीं मिलेगा — फिर भी पूरा कर सकते हैं।', de:'Diesmal kein Abzeichen – du kannst trotzdem weiterspielen.', fr:'Pas de badge cette fois — vous pouvez finir quand même.', it:'Niente distintivo stavolta — puoi comunque finire.', es:'Esta vez no hay insignia, pero puedes terminar.', pt:'Desta vez sem selo — mas pode terminar.', ru:'В этот раз без значка — но можно доиграть.', uk:'Цього разу без значка — але можна дограти.', ar:'لا شارة هذه المرة — يمكنك الإكمال مع ذلك.', he:'הפעם בלי תג — אפשר להמשיך עד הסוף.', sw:'Mara hii hakuna beji — bado unaweza kumaliza.'},
@@ -273,7 +276,7 @@
             autoLeft--;
             var nb = document.getElementById('lm-master-next');
             if (autoLeft <= 0) { advance(); return; }
-            if (nb) nb.textContent = nextLabel() + ' (' + autoLeft + ')';
+            if (nb && nb.firstChild) nb.firstChild.nodeValue = nextLabel() + ' (' + autoLeft + ')';
         }, 1000);
         render();
     }
@@ -286,23 +289,46 @@
         render();
     }
     function el(tag, css, html) { var e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
+    // Desktop-only key chips: shown on fine-pointer/hover devices, hidden on touch.
+    var KCSS = '#lm-master-box, #lm-master-box button, #lm-master-box input { font-family: ' + serifStack() + '; }'
+        + ' .lm-kbd { display:none; font-family: ui-monospace, SFMono-Regular, Menlo, monospace !important; font-size:11px; font-weight:700;'
+        + ' border:1px solid currentColor; border-radius:5px; padding:0 5px; line-height:16px; opacity:.7; margin-inline-start:8px; vertical-align:1px; }'
+        + ' @media (hover:hover) and (pointer:fine) { .lm-kbd { display:inline-block; } }';
+    function serifStack() {
+        // The map labels' own font stack, so the game reads like the map.
+        try { var w = document.querySelector('.lang-label .word'); if (w) return getComputedStyle(w).fontFamily; } catch (e) {}
+        return "'Gentium Plus','Noto Serif','Noto Serif JP','Noto Serif SC','Noto Serif KR',Georgia,serif";
+    }
+    function kbd(k) { return '<kbd class="lm-kbd">' + esc(k) + '</kbd>'; }
+    var KEYNAME = { Enter: 'Enter', Escape: 'Esc', Backspace: '⌫', ' ': 'Space' };
     function build() {
         modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px');
         box = el('div', 'background:#fff;color:#222;border-radius:14px;max-width:460px;width:100%;height:min(92vh,660px);overflow:hidden;padding:20px 22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column;box-sizing:border-box');
         box.id = 'lm-master-box'; box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true');
         modal.appendChild(box);
+        var st = document.createElement('style'); st.textContent = KCSS; document.head.appendChild(st);
         modal.addEventListener('click', function (e) { if (e.target === modal) hide(); });
+        // Every button on every screen registers its key in state.keys during
+        // render(); this one handler dispatches them.
         document.addEventListener('keydown', function (e) {
             if (!modal || modal.style.display === 'none') return;
-            if (e.key === 'Escape') { hide(); return; }
-            if (state.screen !== 'quiz' || e.ctrlKey || e.metaKey || e.altKey) return;
-            var t = e.target; if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
-            if (state.chosen < 0) {
-                var n = '1234'.indexOf(e.key);               // 1–4 pick an answer
-                if (n >= 0) { e.preventDefault(); answer(n); }
-            } else if (e.key === ' ' || e.key === 'Spacebar' || e.key === 'Enter') {
-                e.preventDefault(); advance();               // Space / Enter: next
+            if (e.ctrlKey || e.metaKey || e.altKey) return;
+            var t = e.target, typing = t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName);
+            if (state.screen === 'quiz') {
+                if (state.chosen < 0) { var n = '1234'.indexOf(e.key); if (n >= 0) { e.preventDefault(); answer(n); return; } }
+                else if (e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); advance(); return; }
             }
+            if (state.screen === 'pick' && state.listNav && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter')) {
+                e.preventDefault(); state.listNav(e.key); return;
+            }
+            var k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+            if (typing && k.length === 1) return;        // letters type into the search box
+            if (typing && k === 'Backspace') return;
+            if (typing && k === 'Escape') { t.blur(); e.preventDefault(); return; }   // Esc leaves the search box first
+            var fn = state.keys && state.keys[k];
+            if (fn) { e.preventDefault(); fn(); }
+            else if (k === 'Escape') hide();
+            else if (state.screen === 'pick' && state.search && k.length === 1 && !typing) state.search.focus();   // start typing a name
         });
         document.body.appendChild(modal);
     }
@@ -318,15 +344,17 @@
         box.appendChild(el('div', 'display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;flex:none',
             '<div style="font-weight:800;font-size:20px">🏅 ' + esc(pk(T.title)) + '</div><div style="color:#8a93a3;font-weight:600;font-size:14px">' + (right || '') + '</div>'));
     }
-    function btn(label, primary, onClick) {
+    function btn(label, primary, onClick, key) {
         var b = el('button', primary
             ? 'width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:var(--accent,#2e6fb8);color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none'
-            : 'width:100%;margin-top:8px;padding:8px;border:0;background:none;color:#7a8291;font-size:14px;cursor:pointer;flex:none', esc(label));
-        b.type = 'button'; b.addEventListener('click', onClick); return b;
+            : 'width:100%;margin-top:8px;padding:8px;border:0;background:none;color:#7a8291;font-size:14px;cursor:pointer;flex:none', esc(label) + (key ? kbd(KEYNAME[key] || key.toUpperCase()) : ''));
+        b.type = 'button'; b.addEventListener('click', onClick);
+        if (key) { state.keys[key.length === 1 ? key.toLowerCase() : key] = onClick; b.setAttribute('aria-keyshortcuts', KEYNAME[key] || key.toUpperCase()); }
+        return b;
     }
     function render() {
         if (!box) return;
-        box.innerHTML = '';
+        box.innerHTML = ''; state.keys = {}; state.listNav = null; state.search = null;
         if (state.screen === 'pick') renderPick();
         else if (state.screen === 'intro') renderIntro();
         else if (state.screen === 'quiz') renderQuiz();
@@ -358,34 +386,50 @@
                 row.appendChild(b);
             });
             shelf.appendChild(row);
-            var bragB = el('button', 'margin-top:4px;padding:6px 12px;border:1px solid #f0c36d;border-radius:999px;background:#fff8e6;color:#8a5a00;font-weight:700;font-size:13px;cursor:pointer', '🏅 ' + esc(pk(T.brag)));
-            bragB.type = 'button'; bragB.addEventListener('click', function () { state.screen = 'shelf'; render(); });
+            var bragB = el('button', 'margin-top:4px;padding:6px 12px;border:1px solid #f0c36d;border-radius:999px;background:#fff8e6;color:#8a5a00;font-weight:700;font-size:13px;cursor:pointer', '🏅 ' + esc(pk(T.brag)) + kbd('B'));
+            var toShelf = function () { state.screen = 'shelf'; render(); };
+            bragB.type = 'button'; bragB.addEventListener('click', toShelf); state.keys.b = toShelf;
             shelf.appendChild(bragB);
         }
         box.appendChild(shelf);
         var inp = el('input', 'width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid #d8dbe2;border-radius:10px;font-size:15px;flex:none');
         inp.type = 'search'; inp.placeholder = pk(T.search); inp.value = state.filter; inp.setAttribute('aria-label', pk(T.search));
         box.appendChild(inp);
-        var list = el('div', 'flex:1;min-height:0;overflow-y:auto;margin-top:8px;border-top:1px solid #eef0f3');
+        box.appendChild(el('div', 'font-size:11px;color:#9aa1ad;margin-top:4px;flex:none', '<span class="lm-kbd" style="margin:0">/</span><span class="lm-kbd">↑↓</span><span class="lm-kbd">Enter</span>'));
+        var list = el('div', 'flex:1;min-height:0;overflow-y:auto;margin-top:6px;border-top:1px solid #eef0f3');
         box.appendChild(list);
         var all = langList().sort(function (a, b) { return (b.spk - a.spk) || a.name.localeCompare(b.name); });
         function fill() {
             var q = state.filter.trim().toLowerCase();
             var rows = q ? all.filter(function (r) { return (r.name + ' ' + r.en + ' ' + r.native + ' ' + r.code).toLowerCase().indexOf(q) >= 0; }) : all;
             list.innerHTML = '';
+            state.hi = 0; var items = [];
             rows.slice(0, 200).forEach(function (r) {
                 var it = el('button', 'display:flex;width:100%;align-items:center;justify-content:space-between;gap:8px;padding:9px 6px;border:0;border-bottom:1px solid #f1f2f5;background:none;cursor:pointer;text-align:start;font-size:15px;color:#222',
                     '<span><span>' + esc(r.name) + '</span>' + (r.native && r.native !== r.name ? ' <span style="color:#9aa1ad;font-size:13px" dir="auto">' + esc(r.native) + '</span>' : '') + '</span>'
                     + (r.done ? '<span style="font-size:12px;color:#0d7a55;white-space:nowrap">🏅 ' + esc(pk(T.mastered)) + '</span>'
                         : isUiLang(r.code) ? '<span style="font-size:12px;color:#9aa1ad;white-space:nowrap">' + esc(pk(T.uiTag)) + '</span>' : ''));
                 it.type = 'button'; it.addEventListener('click', function () { pick(r.code); });
+                it._code = r.code; items.push(it);
                 list.appendChild(it);
             });
+            // Up/Down move a highlight through the list and Enter opens it; the
+            // search box keeps focus, so typing still filters.
+            function paint() { items.forEach(function (x, i) { x.style.background = i === state.hi ? '#eef4fb' : 'none'; }); if (items[state.hi]) items[state.hi].scrollIntoView({ block: 'nearest' }); }
+            state.listNav = function (key) {
+                if (!items.length) return;
+                if (key === 'ArrowDown') state.hi = Math.min(items.length - 1, state.hi + 1);
+                else if (key === 'ArrowUp') state.hi = Math.max(0, state.hi - 1);
+                else if (key === 'Enter') { pick(items[state.hi]._code); return; }
+                paint();
+            };
+            paint();
         }
         inp.addEventListener('input', function () { state.filter = inp.value; fill(); });
         fill();
-        box.appendChild(btn(pk(T.close), false, hide));
-        setTimeout(function () { try { inp.focus(); } catch (e) {} }, 30);
+        box.appendChild(btn(pk(T.close), false, hide, 'Escape'));
+        state.keys['/'] = function () { inp.focus(); };
+        state.search = inp;
     }
     function pick(code) {
         state.code = code; state.screen = 'intro'; render();
@@ -429,10 +473,10 @@
             if (set && set[0] && set[0].dialect) box.appendChild(el('div', 'font-size:12.5px;line-height:1.5;color:#3b5b8a;background:#eef4fb;border-radius:10px;padding:8px 10px;margin-top:6px;flex:none', '🗺️ ' + esc(pk(T.dialectNote))));
             if (set) box.appendChild(btn(pk(T.start), true, function () {
                 state.qs = set; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'quiz'; render();
-            }));
+            }, 'Enter'));
             else box.appendChild(el('div', 'color:#c0405a;font-size:14px;text-align:center;margin-top:8px', esc(pk(T.short))));
         }
-        box.appendChild(btn(pk(T.back), false, function () { state.screen = 'pick'; render(); }));
+        box.appendChild(btn(pk(T.back), false, function () { state.screen = 'pick'; render(); }, 'Backspace'));
     }
     function renderQuiz() {
         var q = state.qs[state.idx], answered = state.chosen >= 0;
@@ -453,7 +497,7 @@
                 else css += ';opacity:.55';
             }
             var b = el('button', css + ';position:relative',
-                '<span aria-hidden="true" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">' + (i + 1) + '</span>'
+                '<span aria-hidden="true" class="lm-kbd" style="position:absolute;top:6px;inset-inline-start:8px;margin:0;color:#aab1bd">' + (i + 1) + '</span>'
                 + '<span style="font-size:20px;line-height:1.2" dir="auto">' + esc(o.s) + '</span>'
                 + (o.ipa ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">/' + esc(o.ipa) + '/</span>' : '')
                 + (answered && q.dialect ? '<span style="font-size:12px;color:#8a93a3;margin-top:2px">' + esc(o.who.map(nameOf).slice(0, 2).join(' · ') + (o.who.length > 2 ? ' +' + (o.who.length - 2) : '')) + '</span>'
@@ -466,17 +510,16 @@
         box.appendChild(mid);
         var ok = answered && q.options[state.chosen].key === q.answer;
         box.appendChild(el('div', 'text-align:center;font-weight:800;font-size:16px;margin:4px 0 0;flex:none;color:' + (ok ? '#0d9f6e' : '#d4506a') + ';visibility:' + (answered ? 'visible' : 'hidden'), esc(answered ? (ok ? pk(T.correct) : pk(T.wrong)) : pk(T.correct))));
-        var nb = btn(nextLabel() + (answered && autoT ? ' (' + autoLeft + ')' : ''), true, advance);
+        var nb = btn(nextLabel() + (answered && autoT ? ' (' + autoLeft + ')' : ''), true, advance, 'Enter');
+        if (!answered) delete state.keys.Enter;
         nb.id = 'lm-master-next'; nb.setAttribute('aria-keyshortcuts', 'Space');
         nb.style.visibility = answered ? 'visible' : 'hidden';
         box.appendChild(nb);
-        if (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches)
-            box.appendChild(el('div', 'text-align:center;font-size:11px;color:#aab1bd;margin-top:6px;flex:none', esc(pk(T.keys))));
         box.appendChild(btn(pk(T.quit), false, function () {
             stopAuto();
             if (!window.confirm(pk(T.quitask))) return;
             state.qs = []; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'intro'; render();
-        }));
+        }, 'q'));
     }
 
     function renderShelf() {
@@ -502,12 +545,13 @@
         if (canShare) box.appendChild(btn(pk(T.shareImg), true, function () { cardBlob(function (blob) {
             var f = new File([blob], 'langmap-badges.png', { type: 'image/png' });
             navigator.share({ files: [f], text: shareText(), url: shareUrl() }).catch(function () {});
-        }); }));
+        }); }, 's'));
         box.appendChild(btn(pk(T.save), !canShare, function () { cardBlob(function (blob) {
             var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'langmap-badges.png';
             document.body.appendChild(a); a.click(); setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
-        }); }));
-        box.appendChild(btn(pk(T.back), false, function () { state.screen = 'pick'; render(); }));
+        }); }, 'd'));
+        box.appendChild(btn('🗺️ ' + pk(T.mapMode), false, function () { mapMode(true); hide(); }, 'm'));
+        box.appendChild(btn(pk(T.back), false, function () { state.screen = 'pick'; render(); }, 'Backspace'));
     }
     function shareUrl() { return 'https://langmaps.com/wordmap.html#play=master'; }
     function shareText() { return pk(T.shareText).replace('{n}', Object.keys(loadBadges()).length); }
@@ -521,7 +565,7 @@
         h += 110;
         var cv = document.createElement('canvas'); cv.width = W; cv.height = Math.max(h, 600);
         var x = cv.getContext('2d');
-        var FONT = "'Noto Sans','Noto Sans JP','Noto Sans KR','Noto Sans SC','Noto Sans Arabic','Noto Sans Hebrew','Noto Sans Devanagari','Noto Sans Thai',sans-serif";
+        var FONT = serifStack();
         x.fillStyle = '#fbf8f1'; x.fillRect(0, 0, W, cv.height);
         x.fillStyle = '#1b2a44'; x.textAlign = 'center';
         x.font = '800 64px ' + FONT; x.fillText('🏅 ' + pk(T.title), W / 2, 110);
@@ -567,20 +611,49 @@
         if (won) {
             // A badge earned: the next step is the next language, so the
             // language list (with the new badge on its shelf) is the main button.
-            box.appendChild(btn(pk(T.back), true, toPick));
-            box.appendChild(btn('🏅 ' + pk(T.brag), false, function () { state.screen = 'shelf'; render(); }));
+            box.appendChild(btn(pk(T.back), true, toPick, 'Enter'));
+            box.appendChild(btn('🏅 ' + pk(T.brag), false, function () { state.screen = 'shelf'; render(); }, 'b'));
         } else {
             box.appendChild(btn(pk(T.again), true, function () {
                 var set = makeSet(code); if (!set) return;
                 state.qs = set; state.idx = 0; state.score = 0; state.chosen = -1; state.screen = 'quiz'; render();
-            }));
-            box.appendChild(btn(pk(T.back), false, toPick));
+            }, 'Enter'));
+            box.appendChild(btn(pk(T.back), false, toPick, 'Backspace'));
         }
-        box.appendChild(btn(pk(T.close), false, hide));
+        box.appendChild(btn(pk(T.close), false, hide, 'Escape'));
+    }
+
+    // ---- map mode: only the mastered languages, each with its medal --------
+    // The map's own spotlight (window.__langmap.setSpotlight) narrows the
+    // labels to these codes; window.__lmMedals tells the label renderer to put
+    // a 🏅 on them. A pill on the map turns it off again (Esc too).
+    var pill = null;
+    function mapMode(on) {
+        var codes = Object.keys(loadBadges());
+        if (on && !codes.length) on = false;
+        window.__lmMedals = on ? new Set(codes) : null;
+        if (window.__langmap && window.__langmap.setSpotlight) window.__langmap.setSpotlight(on ? codes : []);
+        if (on && window.__langmap && window.__langmap.fitCodes) window.__langmap.fitCodes(codes);
+        if (pill) { pill.remove(); pill = null; }
+        if (!on) return;
+        pill = el('div', 'position:fixed;left:50%;transform:translateX(-50%);bottom:28px;z-index:100001;background:#fff8e6;color:#8a5a00;border:1px solid #f0c36d;border-radius:999px;padding:8px 10px 8px 16px;box-shadow:0 4px 16px rgba(0,0,0,.15);display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px;font-family:' + serifStack().replace(/"/g, "'"),
+            '<span>🏅 ' + esc(pk(T.mapOn).replace('{n}', codes.length)) + '</span>');
+        var x = el('button', 'border:0;border-radius:999px;background:#8a5a00;color:#fff;font-weight:700;font-size:13px;padding:5px 12px;cursor:pointer', esc(pk(T.exit)) + kbd('Esc'));
+        x.type = 'button'; x.addEventListener('click', function () { mapMode(false); });
+        pill.appendChild(x); document.body.appendChild(pill);
+        if (!pill._esc) document.addEventListener('keydown', function onEsc(e) {
+            if (e.key === 'Escape' && pill && (!modal || modal.style.display === 'none')) { mapMode(false); }
+        });
     }
 
     // ---- launcher ----------------------------------------------------------
-    function openGame() {
+    function openGame(code) {
+        if (typeof code === 'string' && LD()[code]) {
+            var lm2 = window.__langmap && window.__langmap.loadMeta;
+            show(); pick(code);
+            ((window._wmMetaLoaded || !lm2) ? Promise.resolve() : lm2()).then(function () { if (state.screen === 'intro') render(); }, function () {});
+            return;
+        }
         var lm = window.__langmap && window.__langmap.loadMeta;
         var meta = (window._wmMetaLoaded || !lm) ? Promise.resolve() : lm();
         state.screen = state.screen === 'quiz' ? 'quiz' : 'pick';
@@ -595,6 +668,7 @@
     function init() {
         window.__lmMasterLoaded = true;
         window.__lmMasterOpen = openGame;
+        window.__lmMasterMap = mapMode;
         var b = document.getElementById('master-open');
         if (b && !b._wired) { b._wired = true; b.addEventListener('click', openGame); }
         window.__wmGames = window.__wmGames || {}; window.__wmGames.master = openGame;

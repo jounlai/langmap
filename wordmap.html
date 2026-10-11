@@ -1880,6 +1880,8 @@
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
         .lm-master-try { display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin: 12px 0 2px; padding: 8px 10px; border: 1px dashed #e6c77a; border-radius: 10px; background: #fffaf0; color: #6b5420; text-align: start; cursor: pointer; font: inherit; }
         .lm-master-try:hover { background: #fff3dc; }
+        .lm-master-try.got { border-style: solid; border-color: #9fd6b8; background: #eef9f3; color: #0d5c3f; }
+        .lm-master-try.got .lm-mt-go { color: #0d7a55; border-color: #9fd6b8; }
         .lm-mt-medal { font-size: 20px; flex: none; }
         .lm-mt-txt { flex: 1; display: flex; flex-direction: column; gap: 1px; font-size: 11.5px; line-height: 1.35; }
         .lm-mt-txt b { font-size: 12.5px; }
@@ -7865,6 +7867,24 @@
         window.__langmap.loadMeta = loadMeta;
         // master.js (Language Master) shows a language's description before its quiz.
         window.__langmap.loadLangDesc = loadLangDesc;
+        window.__lmMasterCard = function (code) {
+            const T = {
+                q: { en: 'Do you know this language?', ja: 'この言語、わかりますか？', ko: '이 언어, 알고 있나요?', zh: '你懂这种语言吗？', yue: '你識呢種語言嗎？', vi: 'Bạn có biết ngôn ngữ này?', th: 'คุณรู้ภาษานี้ไหม?', id: 'Kamu paham bahasa ini?', hi: 'क्या आप यह भाषा जानते हैं?', de: 'Kennst du diese Sprache?', fr: 'Connaissez-vous cette langue ?', it: 'Conosci questa lingua?', es: '¿Conoces este idioma?', pt: 'Você conhece este idioma?', ru: 'Знаете этот язык?', uk: 'Знаєте цю мову?', ar: 'هل تعرف هذه اللغة؟', he: 'מכירים את השפה הזאת?', sw: 'Unaijua lugha hii?' },
+                d: { en: 'Take the 10-question master test — 9 right earns its badge.', ja: '10問のマスターテストで9問正解すると、認定バッジがもらえます。', ko: '10문제 마스터 테스트에서 9문제를 맞히면 인증 배지를 받아요.', zh: '参加10题大师测试，答对9题即可获得认证徽章。', yue: '做10題大師測試，答啱9題就攞到認證徽章。', vi: 'Làm bài thi 10 câu — đúng 9 câu để nhận huy hiệu.', th: 'ทำแบบทดสอบ 10 ข้อ ตอบถูก 9 ข้อรับเหรียญตรา', id: 'Ikuti tes 10 soal — benar 9 untuk dapat lencana.', hi: '10 प्रश्नों का टेस्ट दें — 9 सही पर बैज मिलेगा।', de: 'Mach den 10-Fragen-Test – 9 richtige bringen das Abzeichen.', fr: 'Passez le test en 10 questions — 9 bonnes réponses pour le badge.', it: 'Fai il test da 10 domande: con 9 giuste ottieni il distintivo.', es: 'Haz la prueba de 10 preguntas: con 9 aciertos ganas la insignia.', pt: 'Faça o teste de 10 perguntas — 9 certas valem o selo.', ru: 'Пройдите тест из 10 вопросов — 9 верных дают значок.', uk: 'Пройдіть тест із 10 питань — 9 правильних дають значок.', ar: 'خُض اختبارًا من 10 أسئلة — 9 إجابات صحيحة تمنحك الشارة.', he: 'עשו מבחן של 10 שאלות — 9 נכונות מזכות בתג.', sw: 'Fanya jaribio la maswali 10 — sahihi 9 upate beji.' },
+                go: { en: 'Try it', ja: '挑戦する', ko: '도전하기', zh: '去挑战', yue: '去挑戰', vi: 'Thử ngay', th: 'ลองเลย', id: 'Coba', hi: 'आज़माएँ', de: 'Los', fr: 'Essayer', it: 'Prova', es: 'Probar', pt: 'Tentar', ru: 'Попробовать', uk: 'Спробувати', ar: 'جرّب', he: 'לנסות', sw: 'Jaribu' },
+                got: { en: 'Badge earned!', ja: '認定バッジ獲得済み！', ko: '인증 배지 획득!', zh: '已获得认证徽章！', yue: '已攞到認證徽章！', vi: 'Đã nhận huy hiệu!', th: 'ได้รับเหรียญตราแล้ว!', id: 'Lencana sudah didapat!', hi: 'बैज मिल गया!', de: 'Abzeichen erhalten!', fr: 'Badge obtenu !', it: 'Distintivo ottenuto!', es: '¡Insignia conseguida!', pt: 'Selo conquistado!', ru: 'Значок получен!', uk: 'Значок отримано!', ar: 'نلت الشارة!', he: 'התג הושג!', sw: 'Beji imepatikana!' },
+                when: { en: 'Mastered on {date} ({score}/10).', ja: '{date}にマスター（{score}/10）。', ko: '{date}에 마스터 ({score}/10).', zh: '{date}掌握（{score}/10）。', yue: '{date}搞掂（{score}/10）。', vi: 'Thành thạo ngày {date} ({score}/10).', th: 'เป็นเซียนเมื่อ {date} ({score}/10)', id: 'Dikuasai {date} ({score}/10).', hi: '{date} को मास्टर ({score}/10)।', de: 'Gemeistert am {date} ({score}/10).', fr: 'Maîtrisée le {date} ({score}/10).', it: 'Padroneggiata il {date} ({score}/10).', es: 'Dominado el {date} ({score}/10).', pt: 'Dominado em {date} ({score}/10).', ru: 'Освоен {date} ({score}/10).', uk: 'Опановано {date} ({score}/10).', ar: 'أُتقنت في {date} ({score}/10).', he: 'נשלטה ב-{date} ({score}/10).', sw: 'Uliimudu {date} ({score}/10).' },
+                again: { en: 'Play again', ja: 'もう一度', ko: '다시 하기', zh: '再来一次', yue: '再嚟', vi: 'Chơi lại', th: 'เล่นอีก', id: 'Main lagi', hi: 'फिर खेलें', de: 'Nochmal', fr: 'Rejouer', it: 'Rigioca', es: 'Otra vez', pt: 'De novo', ru: 'Ещё раз', uk: 'Ще раз', ar: 'مرة أخرى', he: 'שוב', sw: 'Tena' }
+            };
+            const pk = m => m[uiLang] || m[uiLang.split('_')[0]] || m.en;
+            let got = null; try { got = (JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {})[code] || null; } catch (_) {}
+            const q = got ? pk(T.got) : pk(T.q);
+            const d = got ? pk(T.when).replace('{date}', got.date).replace('{score}', got.score) : pk(T.d);
+            return `<button type="button" class="lm-master-try${got ? ' got' : ''}" data-master="${escapeHtml(code)}">`
+                + `<span class="lm-mt-medal" aria-hidden="true">🏅</span>`
+                + `<span class="lm-mt-txt"><b>${escapeHtml(q)}</b><span>${escapeHtml(d)}</span></span>`
+                + `<span class="lm-mt-go">${escapeHtml(got ? pk(T.again) : pk(T.go))}</span></button>`;
+        };
         // Expose the language-detail opener for the "Language of the day" toast.
         window.__langmap.showLangInfo = function (code, opts) { return showLangInfo(code, opts); };
         // ...and the map pan, so the toast can fly to the language too (the
@@ -8784,21 +8804,9 @@
             };
             // Language Master invitation: a light, playful card between the facts and
             // the word list — a side feature, so neither at the top nor buried
-            // (owner, 2026-10-12). The whole card opens the test for this language.
-            (function () {
-                const T = {
-                    q: { en: 'Do you know this language?', ja: 'この言語、わかりますか？', ko: '이 언어, 알고 있나요?', zh: '你懂这种语言吗？', yue: '你識呢種語言嗎？', vi: 'Bạn có biết ngôn ngữ này?', th: 'คุณรู้ภาษานี้ไหม?', id: 'Kamu paham bahasa ini?', hi: 'क्या आप यह भाषा जानते हैं?', de: 'Kennst du diese Sprache?', fr: 'Connaissez-vous cette langue ?', it: 'Conosci questa lingua?', es: '¿Conoces este idioma?', pt: 'Você conhece este idioma?', ru: 'Знаете этот язык?', uk: 'Знаєте цю мову?', ar: 'هل تعرف هذه اللغة؟', he: 'מכירים את השפה הזאת?', sw: 'Unaijua lugha hii?' },
-                    d: { en: 'Take the 10-question master test — 9 right earns its badge.', ja: '10問のマスターテストで9問正解すると、認定バッジがもらえます。', ko: '10문제 마스터 테스트에서 9문제를 맞히면 인증 배지를 받아요.', zh: '参加10题大师测试，答对9题即可获得认证徽章。', yue: '做10題大師測試，答啱9題就攞到認證徽章。', vi: 'Làm bài thi 10 câu — đúng 9 câu để nhận huy hiệu.', th: 'ทำแบบทดสอบ 10 ข้อ ตอบถูก 9 ข้อรับเหรียญตรา', id: 'Ikuti tes 10 soal — benar 9 untuk dapat lencana.', hi: '10 प्रश्नों का टेस्ट दें — 9 सही पर बैज मिलेगा।', de: 'Mach den 10-Fragen-Test – 9 richtige bringen das Abzeichen.', fr: 'Passez le test en 10 questions — 9 bonnes réponses pour le badge.', it: 'Fai il test da 10 domande: con 9 giuste ottieni il distintivo.', es: 'Haz la prueba de 10 preguntas: con 9 aciertos ganas la insignia.', pt: 'Faça o teste de 10 perguntas — 9 certas valem o selo.', ru: 'Пройдите тест из 10 вопросов — 9 верных дают значок.', uk: 'Пройдіть тест із 10 питань — 9 правильних дають значок.', ar: 'خُض اختبارًا من 10 أسئلة — 9 إجابات صحيحة تمنحك الشارة.', he: 'עשו מבחן של 10 שאלות — 9 נכונות מזכות בתג.', sw: 'Fanya jaribio la maswali 10 — sahihi 9 upate beji.' },
-                    go: { en: 'Try it', ja: '挑戦する', ko: '도전하기', zh: '去挑战', yue: '去挑戰', vi: 'Thử ngay', th: 'ลองเลย', id: 'Coba', hi: 'आज़माएँ', de: 'Los', fr: 'Essayer', it: 'Prova', es: 'Probar', pt: 'Tentar', ru: 'Попробовать', uk: 'Спробувати', ar: 'جرّب', he: 'לנסות', sw: 'Jaribu' },
-                    done: { en: 'Mastered — play again', ja: 'マスター済み・もう一度', ko: '마스터함 · 다시 하기', zh: '已掌握 · 再来一次', yue: '搞掂咗 · 再嚟', vi: 'Đã thành thạo · chơi lại', th: 'เป็นเซียนแล้ว · เล่นอีก', id: 'Dikuasai · main lagi', hi: 'मास्टर · फिर खेलें', de: 'Gemeistert · nochmal', fr: 'Maîtrisée · rejouer', it: 'Padroneggiata · rigioca', es: 'Dominado · otra vez', pt: 'Dominado · de novo', ru: 'Освоен · ещё раз', uk: 'Опановано · ще раз', ar: 'مُتقنة · مرة أخرى', he: 'נשלטה · שוב', sw: 'Umeimudu · tena' }
-                };
-                const pk = m => m[uiLang] || m[uiLang.split('_')[0]] || m.en;
-                let mastered = false; try { mastered = !!(JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {})[code]; } catch (_) {}
-                html += `<button type="button" class="lm-master-try" data-master="${escapeHtml(code)}">`
-                    + `<span class="lm-mt-medal" aria-hidden="true">🏅</span>`
-                    + `<span class="lm-mt-txt"><b>${escapeHtml(pk(T.q))}</b><span>${escapeHtml(pk(T.d))}</span></span>`
-                    + `<span class="lm-mt-go">${escapeHtml(mastered ? pk(T.done) : pk(T.go))}</span></button>`;
-            })();
+            // (owner, 2026-10-12). Built by window.__lmMasterCard so master.js can
+            // repaint it the moment a badge is earned.
+            html += window.__lmMasterCard ? window.__lmMasterCard(code) : '';
             html += nextTshirtNudge();
             html += '<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px">';
             html += `<thead><tr style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;
@@ -12105,7 +12113,7 @@
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=11"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=12"></script>
     <script>
     (function () {
         'use strict';

@@ -481,6 +481,13 @@ WORDS.sushi = {
     as: ["চুশ্বি", ""],
     to: ["sushi", ""],
     rar: ["sushi", ""],
-    kw: ["sushi", ""]
+    kw: ["sushi", ""],
+    nso: ["sushi", ""],
+    kl: ["sushi", ""],
+    tpi: ["sushi", ""],
+    kbp: ["sushi", ""],
+    fj: ["sushi", ""],
+    haw: ["sushi", ""],
+    tn: ["sushi", ""]
   },
 };

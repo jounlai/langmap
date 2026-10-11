@@ -328,6 +328,21 @@ WORDS.dopamine = {
     new: ["डोपामिन", ""],
     to: ["dopamine", ""],
     mt: ["dopamine", ""],
-    gd: ["dopamain", ""]
+    gd: ["dopamain", ""],
+    ts: ["dopamine", ""],
+    sm: ["dopamine", ""],
+    nso: ["dopamine", ""],
+    so: ["dopamine", ""],
+    dag: ["dopamine", ""],
+    mg: ["dopamine", ""],
+    bar: ["Dopamin", ""],
+    lmo: ["dopamina", ""],
+    mn: ["допамин", ""],
+    sn: ["dopamine", ""],
+    tpi: ["dopamine", ""],
+    quz: ["dopamina", ""],
+    vep: ["dofamin", ""],
+    mad: ["dopamin", ""],
+    quy: ["dopamina", ""]
   },
 };

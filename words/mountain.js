@@ -838,7 +838,7 @@ WORDS.mountain = {
     smn: ["vääri", "ˈvæːri"],
     frr_amr: ["berag", "ˈberax"],
     ykg: ["анаа", "anaː"],
-    kfa: ["ಕುಂದ್", "kundə"],
+    kfa: ["ಕುಂದ್", "kundɨ"],
     ssf: ["huzun", "huðun"],
     pao: ["kaipa", "kaipa"],
     nan_xm: ["山", "suã˦˦"],

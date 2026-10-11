@@ -324,7 +324,7 @@ WORDS.butterfly = {
     nzm: ["timpiangbe", "timpiaŋbe"],
     njo: ["shinü", "ʃinɨ"],  // Marrison's Ao Chungli form; the Mongsen lects have an unrelated chubi / chumi.
     jya: ["kʰai pa lolo", "kʰai pa lolo"],  // Reduplicated lo-lo in the last element; the database's Maerkang Soman rGyalrong.
-    shx: ["pi35pɔ53", "pi˧˥pɔ˥˧"],  // Reduplicative pi-pɔ.
+    shx: ["—", "—"],  // Reduplicative pi-pɔ.
     yue: ["蝴蝶", "wuː˨˩ tiːp˨"],  // The same 蝴蝶 as Mandarin, read wu4 dip6. Beida also records a second Guangzhou word, pɐŋ⁵⁵ʃa⁵³.
     gan: ["蝴蝶", "fu˦˥ tʰiɛt˥"],  // The same 蝴蝶 as Mandarin, in its regular Nanchang Gan reading.
     hsn: ["蝴蝶", "xu˩˧ tʰie˨˦"],  // The same 蝴蝶 as Mandarin, in its regular Changsha Xiang reading.
@@ -618,7 +618,7 @@ WORDS.butterfly = {
     stq: ["Flitterke", "ˈflɪtərkə"],
     frr: ["flenerk", "ˈflenərk"],
     an: ["paxarela", "paʃaˈɾela"],
-    abq: ["лымхӏарыгӏв", "ləmħarəʁʷ"],
+    abq: ["лымхӏарыгӏв", "ləmħarəʕʷ"],
     bbo: ["—", "—"],
     tcs: ["bataplai", "bataplai"],
     rar: ["pepe", "pepe"],

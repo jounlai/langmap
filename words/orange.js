@@ -899,7 +899,7 @@ WORDS.orange = {
     zh: ["橙", "ʈʂʰɤŋ˧˥"],
     yue: ["橙", "tsʰaːŋ˩˧"],
     nan: ["柑仔", "kam˦˦ ma˥˧"],
-    zh_tw: ["柳丁", "ljoʊ̯˧˩˧ tiŋ"],
+    zh_tw: ["柳丁", "ljoʊ̯˧˩˧ tiŋ˥"], // was ["柳丁", "ljoʊ̯˧˩˧ tiŋ"] (vi dialect rules 2026-10-06)
     wuu: ["橙", "zaŋ˨˧"],
     hak_cn: ["柑仔", "kam˦ e˧˩"], // was ["柑仔", "kam˨˦ e˧˩"] (vi dialect rules 2026-10-06)
     vi: ["cam", "kaːm˧"],

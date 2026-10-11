@@ -1024,6 +1024,17 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                nys: new Set(['cat']),   // r83: wrong cell removed; no sourced form found
+                olk: new Set(['love', 'house', 'drink']),   // r83: wrong cell removed; no sourced form found
+                wbt: new Set(['love']),   // r83: wrong cell removed; no sourced form found
+                tlh: new Set(['rice']),   // r83: wrong cell removed; no sourced form found
+                abe: new Set(['love']),   // r83: wrong cell removed; no sourced form found
+                adt: new Set(['cat', 'thanks']),   // r83: wrong cell removed; no sourced form found
+                kgp: new Set(['iron']),   // r83: wrong cell removed; no sourced form found
+                blc: new Set(['iron', 'hundred']),   // r83: wrong cell removed; no sourced form found
+                kxv: new Set(['fire']),   // r83: wrong cell removed; no sourced form found
+                mcf: new Set(['three', 'name', 'heart']),   // r83: wrong cell removed; no sourced form found
+                bbl: new Set(['star', 'good', 'love']),   // r83: wrong cell removed; no sourced form found
                 yao: new Set(['thanks']),   // r80: wrong cell removed; no sourced form found
                 srr: new Set(['sun']),   // r80: wrong cell removed; no sourced form found
                 tmh: new Set(['night']),   // r80: wrong cell removed; no sourced form found
@@ -1093,7 +1104,7 @@ for (const code of codes) {
                 mlm: new Set(['heart', 'cat', 'love', 'hello', 'thanks']),
                 kmc: new Set(['cat', 'love', 'hello', 'thanks']),
                 gqu: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree', 'sun']),
-                shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree']),
+                shx: new Set(['cat', 'heart', 'love', 'hello', 'thanks', 'tree', 'butterfly']),
                 peh: new Set(['cat', 'love', 'hello', 'thanks']),
                 orh: new Set(['cat', 'love', 'hello', 'thanks']),
                 acn: new Set(['cat', 'love', 'hello', 'thanks']),
@@ -1102,7 +1113,7 @@ for (const code of codes) {
                 dds: new Set(['fish']),
                 agq: new Set(['we']),
                 mgo: new Set(['we']),
-                koy: new Set(['we']),
+                koy: new Set(['we', 'hello']),
                 yiz: new Set(['we', 'love', 'hello', 'thanks']),  // love added 2026-10-02 (r25flags)
                 // 2026-10-01 flag round (r23flags): published cells removed as
                 // wrong, with no sourced replacement. ksb hello was "nashukuru"

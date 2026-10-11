@@ -889,7 +889,7 @@ WORDS.blue = {
     hai: ["g̱uhlahl", "ɢuɬaɬ"],
     cia: ["kakanda", "kakanda"],
     mra: ["si fa", "si fa"],
-    chp: ["déhtłʼës", "déhtɬʼes"],
+    chp: ["déhtłʼéz", "déhtɬʼéz"], // was ["déhtłʼës", "déhtɬʼes"] (vi dialect rules 2026-10-06)
     nez: ["yoosyóos", "joːsjóːs"],
     jya: ["sŋon mbo", "sŋonmbo"],
     ude: ["дуӈмалиғи", "duŋmaliɣi"],
@@ -904,7 +904,7 @@ WORDS.blue = {
     ie: ["blu", "blu"],
     ltg: ["zyls", "zɨls"],
     qxs: ["lanȵi", "lanɲi"], // was ["χueχue", "χueχue"] (vi dialect rules 2026-10-06)
-    blc: ["qwit", "qʷit"],
+    blc: ["qʷit", "qʷit"], // was ["qwit", "qʷit"] (vi dialect rules 2026-10-06)
     bal: ["سبز", "sabz"],
     aa: ["kucliní", "kuħlini"],
     sva: ["ჲჷრჟი", "jərʒi"],
@@ -1557,7 +1557,7 @@ WORDS.blue = {
     nog: ["коьк", "køk"],  // Nogai коьк against йасыл.
     non: ["blár", "blaːr"],  // Old Norse blár covers blue but also the blue-black of bruises, ravens and 'blámenn'; it sits at the dark end rather than being a pure blue. IDS gives blār against grœnn for green.
     nso: ["tala", "tala"],  // Dedicated MA study of exactly this question: 'Like other Bantu languages, Sepedi tends to utilise one basic colour term (tala) to refer to both the colour concepts blue and green', and of all the terms collected 'only the term tala blue/green ... can be regarded as basic'. Blue is most often specified as talalerata / botala bja legodimo 'blue of the sky'; the Afrikaans loans polousela / lousela (< blousel) exist but are not basic.
-    nuf: ["ȵɯ35ȵɯ31", "ȵɯ˧˥ȵɯ˧˩"],  // Nusu (Bijiang): Sun's wordlist gives the identical ȵɯ³⁵ȵɯ³¹ for BOTH blue and green.
+    nuf: ["ȵɯ35ȵɯ31", "ɲɯ˧˥ɲɯ˧˩"],  // Nusu (Bijiang): Sun's wordlist gives the identical ȵɯ³⁵ȵɯ³¹ for BOTH blue and green. // was ["ȵɯ35ȵɯ31", "ȵɯ˧˥ȵɯ˧˩"] (vi dialect rules 2026-10-06)
     nv: ["dootłʼizh", "tòːtɬʼìʒ"],  // One term for blue+green+turquoise. dootłʼizhii is the narrower 'turquoise' noun; yágo dootłʼizhí 'sky blue' is a derived specification, not a separate basic term.
     nys: ["wooyan", "wujan"],  // Blue and green are separate words in the Noongar colour vocabulary taught today (wooyan vs nodjam/dordong); purple is the compound mirda-wooyan, literally 'red-blue', which presupposes wooyan as a basic term. This is a modern, fully differentiated palette: the older Noongar Dictionary, 2nd edition (Whitehurst 1997, https://archive.org/details/noongar-dictionary-second-edition) has entries for mirda 'red', moorn 'black' and djendal 'white' but no English headword 'blue' at all. The row's yurnin/tel and this form are in the same Noongar Boodjar orthography, whose vowel key gives oo 'as in book or sometimes boot' and rn as the retroflex nasal.
     oar: ["זרק", "zraːq"],  // Old Aramaic zrāq/zmār for blue beside yrāq/yarqān for green — the same z/y-r-q root serves both ends of the cool range, the standard Northwest Semitic yrq pattern.
@@ -1565,7 +1565,7 @@ WORDS.blue = {
     oj: ["ozhaawashkwaa", "oʒaːwaʃkwaː"],  // vii form chosen to match the row's miskwaa / waabishkaa / makadewaa. Animate counterpart ozhaawashkozi, same gloss 'is blue, is green'.
     olo: ["sinine", "ˈsinine"],  // Livvi sinine vs vihandu / heinänkarvaine 'hay-coloured'.
     or: ["ନେଳି", "neɭi"],  // Odia ନେଳି against ସବୁଜ.
-    orh: ["tʃaŋgɛ:n", "tʃaŋɡɛːn"],  // WOLD gives Oroqen tʃaŋgɛ:n and ʃɪ:la for blue, both scored as showing no evidence of borrowing. WOLD supplies no orthography and the row's other colour cells are in a phonemic Latin transcription, so the surface repeats the transcription.
+    orh: ["tʃaŋgɛɛn", "tʃaŋɡɛɛn"],  // WOLD gives Oroqen tʃaŋgɛ:n and ʃɪ:la for blue, both scored as showing no evidence of borrowing. WOLD supplies no orthography and the row's other colour cells are in a phonemic Latin transcription, so the surface repeats the transcription. // was ["tʃaŋgɛ:n", "tʃaŋɡɛːn"] (vi dialect rules 2026-10-06)
     os: ["цъӕх", "tsʼæx"],  // Ossetian цъæх is given for BOTH blue and green in IDS and in NorthEuraLex — one term across the cool range; кæрдæгхуыз 'grass-coloured' is the descriptive green.
     osa: ["htóho", "htóho"],  // The CSD's Osage entry itself is glossed simply 'blue'; the class comes from the cognate set, whose other Dhegiha members are glossed 'blue, green'.
     otq: ["kꞌangi", "kʼaŋi"],  // CROSS-VARIETY: WOLD's Otomi is Mezquital Otomi (ote), not Querétaro Otomi (otq). k'angi is pan-Otomian (cf. Mazahua canga in the WCS). Recorded as distinct, not grue, because WOLD gives a separate green lexeme k'ants'i for the same variety. Correction (2026-10-03, r39): the Querétaro Otomi NT itself uses kꞌangi for green things (REV 9:4), green grass (MRK 6:39, REV 8:7), emerald (REV 4:3), sapphire (REV 21:19) and jacinth (REV 9:17) — one word for blue and green — so the route is now grue; WOLD's separate green word is Mezquital's.

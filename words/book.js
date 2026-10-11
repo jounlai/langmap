@@ -966,7 +966,7 @@ WORDS.book = {
     ty: ["puta", "puta"],
     wuu_wz: ["书", "sɿ˧˧"],
     xsr: ["ཀི་ཏབ", "kitap"],
-    mzh: ["liwulu", "liwulu"],
+    mzh: ["liwlu", "liwlu"],
     sva: ["ლა̈ირ", "læir"],
     ers: ["ndʒondzɿpu", "ndʒo˥˥ndzɿ˥˥pu˧˧"],
     syc: ["ܟܬܒܐ", "ktaːβaː"],

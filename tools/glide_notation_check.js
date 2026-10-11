@@ -52,7 +52,12 @@ const violations = [];
 // Americanist transcription) is never flagged, and neither is a y that stands
 // for the front rounded vowel, because that y is not in the surface.
 const SURF_Y = /y[aeiouáàâäãåéèêëíìîïóòôöõúùûüāēīōū]/i;
+// Rows whose orthography uses y for the front rounded VOWEL before another
+// vowel, so a surface "ye" is /ye/, not a glide: Inari Sámi kyeli /kyeli/,
+// pyeri, čyeti — and jyel'gi has its glide in the j (r83, 2026-10-12).
+const VOWEL_Y = new Set(['smn']);
 for (const [code, cells] of rows) {
+    if (VOWEL_Y.has(code)) continue;
     const cand = cells.filter((c) => SURF_Y.test(c.s));
     if (cand.length < 2) continue;
     const toJ = cand.filter((c) => /j/.test(c.i));

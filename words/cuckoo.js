@@ -502,7 +502,7 @@ WORDS.cuckoo = {
     zh_jn: ["喀咕", "kʰa˨˩˧ ku˨˩˧"],
     zh_km: ["阳雀", "iã˧˩ tɕʰio˧˩"],
     zh_xa: ["布谷鸟", "pu˥˥ ku˨˩ niau˥˧"],
-    bbl: ["გუგუტ", "ɡuɡutː"],
+    bbl: ["გუგუტტ", "ɡuɡutː"],
     kry: ["—", "—"],
     yug: ["хохпынʲ", "xoxpɨɲ"],
     haj: ["কুলুকুনী", "kuluˈkuni"],

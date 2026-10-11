@@ -730,7 +730,7 @@ WORDS.coffee = {
     wbm: ["kha: feue:", "kʰa fɤi"],
     nbl: ["ikofi", "ikofi"],
     tlh: ["qa'vIn", "qʰɑʔvɪn"],
-    blc: ["kupi", "kʷupi"],
+    blc: ["kupi", "kupi"], // was ["kupi", "kʷupi"] (vi dialect rules 2026-10-06)
     osa: ["mąhkása", "mãhkása"],
     ndc: ["khofi", "kʰofi"],
     ttj: ["kaawa", "kaːwa"],

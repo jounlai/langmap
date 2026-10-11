@@ -55,7 +55,8 @@ const MARKS = new Map([
 /* Rows where more than one mark is CORRECT, because they are different letters.
  * Semitic transcription needs both ʾ alef U+02BE and ʿ ayin U+02BF, and they
  * contrast — collapsing them would destroy a distinction, not tidy one. */
-const ALLOW = new Set(['psem']);
+// bbl (Bats, Georgian script): ʼ marks pharyngealisation/ejection (ჰʼ ħ, ცʼ tsʼ) and ʻ marks the lateral fricative (ლʻ ɬ) — two letters, not one apostrophe written two ways (r83, 2026-10-12).
+const ALLOW = new Set(['psem', 'bbl']);
 
 /* Unresolved, and each needs an orthography decision rather than a vote:
  *   liv — Livonian palatalisation, 2 U+02BC / 2 U+2019 / 1 ASCII, a three-way tie

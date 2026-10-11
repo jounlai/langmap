@@ -1007,7 +1007,7 @@ WORDS.wine = {
     mhr: ["йошкар арака", "joʃkar araka"],
     mgo: ["mɨnoʼ", "mɨnoʔ"],
     men: ["ndɔ", "ndɔ"],
-    mbc: ["woʔ", "woʔ"],
+    mbc: ["wuku", "wuku"], // was ["woʔ", "woʔ"] (vi dialect rules 2026-10-06)
     maw: ["daam", "daam"],
     laj: ["koŋo", "koŋo"],
     krl: ["viina", "ˈviːna"],
@@ -1024,7 +1024,7 @@ WORDS.wine = {
     ker: ["kumuy bə atələələm", "kumuj bə atələːləm"],
     ess: ["вино", "vinɔ"],
     vai: ["ꔠꔪ ꗬ", "ɡɛpi kpɛ"],
-    mch: ["chääjedöödö eccudu", "tʃɨːʒedəːdə ekːudu"],
+    mch: ["chööjedüüdü ekkudu", "tʃəːhedɨːdɨ ekːudu"], // was ["chääjedöödö eccudu", "tʃɨːʒedəːdə ekːudu"] (vi dialect rules 2026-10-06)
     bdq: ["sik hơmu", "sik həmu"],
     moh: ["otsítsia", "otsítsja"],
     toc: ["vino", "bino"],
@@ -1117,7 +1117,7 @@ WORDS.wine = {
     emp: ["uva b̶a", "uba ɓa"],
     ay: ["vino", "vino"],
     ivv: ["vino", "vino"],
-    pqm: ["mekwpahak", "mekʷpahak"],
+    pqm: ["meqpahak", "mekʷpahak"], // was ["mekwpahak", "mekʷpahak"] (vi dialect rules 2026-10-06)
     tao: ["potaw cyo", "potaw tsjo"],
     sat: ["ᱫᱟᱨᱠᱷᱟ ᱨᱟᱥᱟ", "darkʰa rasa"],
     ff: ["wiiñu", "wiːɲu"], // was ["inaboojam", "inaboːdʒam"] (vi dialect rules 2026-10-06)
@@ -1726,7 +1726,7 @@ WORDS.wine = {
     ddo: ["ша", "ʃa"],
     bbl: ["ვეჼ", "vẽ"],
     ab: ["аҩы", "aɥˤə"],
-    abq: ["чагӏыр", "tʃaʁər"],
+    abq: ["чагӏыр", "tɕaʕər"], // was ["чагӏыр", "tʃaʁər"] (vi dialect rules 2026-10-06)
     ady: ["санэ", "saːna"],
     kbd: ["санэ", "sana"],
     uby: ["baqʼəsma", "baqʼəsma"],

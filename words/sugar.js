@@ -934,7 +934,7 @@ WORDS.sugar = {
     brx: ["सिनि", "sini"],
     lus: ["chithlum", "tʃitʰlum"],
     mni: ["ꯆꯤꯅꯤ", "tʃini"],
-    pmi: ["bʉ35", "bʉ˧˥"],
+    pmi: ["bu̵35", "bʉ˧˥"], // was ["bʉ35", "bʉ˧˥"] (vi dialect rules 2026-10-06)
     clk: ["pu31rɯm55", "pu˧˩rɯm˥˥"],
     acn: ["năm31muai31", "năm˧˩muai˧˩"],
     cbk: ["azucar", "aˈsukar"],
@@ -1061,12 +1061,12 @@ WORDS.sugar = {
     kmc: ["taŋ212", "taŋ˨˩˨"],
     mlm: ["ta:ŋ2", "taːŋ˩˨˩"],
     mmd: ["ta:ŋ2", "taːŋ˨˧˩"],
-    swi: ["taang2", "taːŋ˧˩"],
+    swi: ["taaŋ2", "taːŋ˧˩"], // was ["taang2", "taːŋ˧˩"] (vi dialect rules 2026-10-06)
     mzh: ["asukwi", "asukʷi"],
     jup: ["ʔacúka", "ʔatʃúka"],
     sva: ["შაქარ", "ʃakʰar"],
     niv: ["сета", "seta"],
-    cay: ["nawéʼdaʼ", "nawéʔdaʔ"],
+    cay: ["nawę́ʼdaʼ", "nawɛ̃́ʔdaʔ"], // was ["nawéʼdaʼ", "nawéʔdaʔ"] (vi dialect rules 2026-10-06)
     tiw: ["tingati", "tiŋati"],
     poh: ["asuukar", "asuːkar"],
     itz: ["chʼuuk", "tʃʼuːk"],

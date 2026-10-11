@@ -1852,7 +1852,7 @@ WORDS.we = {
     ady: ["тэ", "ta"],
     kbd: ["дэ", "da"],
     ab: ["ҳара", "ħaˈra"],
-    abq: ["ҳара", "ħaˈra"],
+    abq: ["хӏара", "ħaˈra"], // was ["ҳара", "ħaˈra"] (vi dialect rules 2026-10-06)
     uby: ["ʃʁʷała", "ʃʁʷaɬa"],
     xmf: ["ჩქი", "tʃkʰi"],
     os: ["мах", "max"],
@@ -2002,7 +2002,7 @@ WORDS.we = {
     cho: ["pishno", "piʃno"],
     mus: ["pome", "pomi"],
     esu: ["wangkuta", "waŋkuta"],
-    ess: ["хвангкута", "xʷaŋkuta"],
+    ess: ["ху̌аӈкута", "xwaŋkuta"], // was ["хвангкута", "xʷaŋkuta"] (vi dialect rules 2026-10-06)
     ale: ["тимис", "timis"],
     apw: ["nohwí", "nohwí"],
     dak: ["uŋkiyepi", "ũkijepi"],
@@ -2041,14 +2041,14 @@ WORDS.we = {
     tob: ["qomiʔ", "qomiʔ"],
     plg: ["qoʔmi", "qoʔmi"],
     moc: ["qomiʔ", "qomiʔ"],
-    mbc: ["uurînîkon / anna", "uːrɨnɨkon / anna"],
+    mbc: ["uurɨʔnɨkon / anna", "uurɨʔnɨkon / anna"], // was ["uurînîkon / anna", "uːrɨnɨkon / anna"] (vi dialect rules 2026-10-06)
     kpj: ["dʒiarɨ̃ boho", "dʒiarɨ̃ boho"],
     guu: ["pəmakə", "pəmakə"],
     bwi: ["wha", "wha"],
     cag: ["kaswaatʃa / jiwaatʃeeɬ", "kaswaatʃa / jiwaatʃeeɬ"],
     crt: ["sam", "sam"],
     tpy: ["ka wan / ha wan", "ka wan / ha wan"],
-    jup: ["ʔǝ̃d", "ʔə̃d"],
+    jup: ["ʔɨ́n", "ʔɨ́n"], // was ["ʔǝ̃d", "ʔə̃d"] (vi dialect rules 2026-10-06)
     kwa: ["ʔid", "ʔid"],
     myp: ["tiatiso", "tiatiso"], // was ["ti atiso", "ti atiso"] (vi dialect rules 2026-10-06)
     tue: ["bãrĩ / ʉ̃sã", "bãˈɾĩ / ɨ̃ˈsã"], // was ["bãʼrĩ / ʉ̃sã", "bãʔɾĩ / ɨ̃sã"] (r31 fix 2026-10-02)

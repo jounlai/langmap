@@ -506,7 +506,7 @@ WORDS.silk = {
     hch: ["tsera", "tsera"],
     frr: ["siisen", "ˈsiːsən"],
     krl: ["šulku", "ˈʃulku"],
-    abq: ["чыльа", "tʃəlʲa"],
+    abq: ["чыльа", "tɕəɮa"],
     tcs: ["silk", "silk"],
     rar: ["tīrika", "tiːɾika"],
     jvn: ["sutra", "sutrɔ"],

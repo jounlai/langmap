@@ -1216,7 +1216,7 @@ WORDS.foot = {
     aau: ["sune", "sune"],  // Foley and Laycock both gloss sune 'leg' and the New Testament washes it in Luke 7:38; John 19:32 breaks oiow, which John 19:36 fixes as 'bone', not a second leg word.
     ab: ["ашьапы", "ɑʃɑpʼɨ"],  // ашьапы covers both; the compound is the foot-specific form.
     abe: ["mzid", "mzid"],  // The Western Abenaki dictionary gives foot as mzid and leg as wkôt, the pair Laurent set side by side in 1884 — melji ta mezid, wpedin ta wkod.
-    abq: ["шьапы", "ʂapə"],  // Abaza шьапы covers the limb as Abkhaz ашьапы does; the foot-specific ащапӏблахъ and ащапӏмхӏаста are built on it.
+    abq: ["щапӏы", "ɕapʼə"],  // Abaza шьапы covers the limb as Abkhaz ашьапы does; the foot-specific ащапӏблахъ and ащапӏмхӏаста are built on it. // was ["шьапы", "ʂapə"] (vi dialect rules 2026-10-06)
     abs: ["kaki", "kaki"],  // Ambon Malay keeps Malay kaki, which the ACD glosses 'foot; leg; base' in one entry. Stress unmarked: this row marks only 9% of its polysyllables.
     abv: ["رجل", "ridʒil"],  // The Living Arabic Gulf dictionary glosses رِجِل 'leg' and 'foot' under one headword; Bahrani keeps ج as dʒ and this row's أذن ʔiðin and خشم xaʃim break the final cluster with a copy vowel, so ridʒil rather than the Qatari row's riːl.
     ace: ["gaki", "ɡaki"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes jaroe as dʒaɾoe.
@@ -1572,7 +1572,7 @@ WORDS.foot = {
     gon: ["काल", "kaːl"],  // DEDR 1479 carries Go. kāl straight through with the gloss 'leg, foot', from Burrow and Bhattacharya's Gondi Vocabulary 652.
     gor: ["oʼato", "ʔoˈʔato"],  // The Gorontalo Bible washes oʼato at John 13:5, breaks it at John 19:31-32 with tula'u 'bone' at John 19:36 as the control, and uses it again for the legs like marble pillars at Song of Songs 5:15; paladu, the ACD's only other entry, is the sole of the foot. ABVD Hulondalo answers leg/foot with ʔoʔato.
     got: ["𐍆𐍉𐍄𐌿𐍃", "foːtus"],  // Wright's Glossary and Lehmann s.v. fōtus, which renders Greek πούς alone. Route unknown: σκέλος falls outside the preserved text, so IDS leaves Gothic 4-350 blank.
-    gqu: ["pu31 ko35", "pu˧˩ ko˧˥"],  // Gelao uses one expression for the whole lower limb, against the tin/kha split of its Tai neighbours.
+    gqu: ["qa24", "qa˨˦"],  // Gelao uses one expression for the whole lower limb, against the tin/kha split of its Tai neighbours. // was ["pu31 ko35", "pu˧˩ ko˧˥"] (vi dialect rules 2026-10-06)
     grt: ["ja·pa", "dʒapa"],  // Burling's Mandi dictionary has ja· for the whole lower limb and ja·pa 'sole of the foot, foot' — the same -pa that makes jakpa the palm of the hand.
     gsw: ["Fuess", "fuəs"],  // MHG uo stayed a diphthong in Alemannic and this row shows it four times over (guet, Bluet, Buech, Mueter), so Fuess cannot be the parent's monophthongal Fuß.
     gsw_w: ["Füess", "fyəs"],  // Füess vs Bei, which in Wallis covers 'leg' and 'bone' alike.
@@ -1725,7 +1725,7 @@ WORDS.foot = {
     km: ["ជើង", "cəːŋ"],  // One word for the lower limb.
     kmb: ["kinama", "kinama"],  // kinama covers the limb: Pereira do Nascimento's 1903 Portuguese-Kimbundu dictionary gives the same word, word for word, for pé and for perna.
     kmc: ["tin55", "tin˥˥"],  // Kam keeps tin apart from pa. Surface and IPA follow this row's own convention of writing the IDS tone number as digits and as tone letters.
-    kmh: ["tb", "təb"],  // Pawley's tob is 'leg' and the Kalam New Testament washes the same word in John 13:8; written tb here as this row writes tn for the hand and nb for the sun.
+    kmh: ["tob", "tob"],  // Pawley's tob is 'leg' and the Kalam New Testament washes the same word in John 13:8; written tb here as this row writes tn for the hand and nb for the sun. // was ["tb", "təb"] (vi dialect rules 2026-10-06)
     kmu: ["aiya", "aija"],  // Luke 7:38 weeps at Jesus' aiya and John 19:33 declines to break it, so one possessed noun covers the limb; the a- prefix is the one this row already writes in avu and agu.
     kn: ["ಕಾಲು", "kaːlu"],  // Kittel files 'walking on foot' and 'to tie the leg or legs' under the one headword ಕಾಲು, and DEDR 1479 glosses Ka. kāl 'foot, leg down to the knee'; ಪಾದ is the foot proper and ಅಂಗಾಲ್ the sole.
     ko: ["발", "pal"],  // Korean splits 발 from 다리, and 손/팔 the same way on the arm — the opposite of its Japanese neighbour.
@@ -1821,7 +1821,7 @@ WORDS.foot = {
     maz: ["ngua", "ŋɡwa"],  // The Mazahua NT breaks o̱ ngua for the legs, the same ngua it washes for the feet — one word, against the ote row's distinct wa.
     mbc: ["puu", "puu"],  // IDS gives Macushi uʔ-pu against i-peʔ, and the NT breaks pîsi for the legs while washing puu.
     mcf: ["taë", "taˈɨ"],  // Matsés breaks nidte for the legs and stands at Esusën taëno, 'at Jesus' feet'.
-    mch: ["uhu", "uhu"],  // Cáceres's Ye'kwana lexicon glosses uju 'pie' beside jetü 'muslo' — IDS's De'kwana hūdu against hētɨ — and it is spelt with h here because this row writes /h/ as h in hāna and yeʼhö.
+    mch: ["uju", "uhu"],  // Cáceres's Ye'kwana lexicon glosses uju 'pie' beside jetü 'muslo' — IDS's De'kwana hūdu against hētɨ — and it is spelt with h here because this row writes /h/ as h in hāna and yeʼhö. // was ["uhu", "uhu"] (vi dialect rules 2026-10-06)
     mdf: ["пильге", "pilʲɡe"],  // пильге covers both; пильгелапа ('leg-palm') is the foot-specific compound.
     mdh: ["ai", "ʔai"],  // ACD s.v. Maguindanao ai 'foot, leg' in one entry — the *qaqay reflex, as Maranao aʼi already is on this map.
     men: ["kɔwɔ", "kɔwɔ"],  // Migeod 1908 glosses Mende kɔwɔ 'foot, leg generally', and the Mende New Testament washes gɔwɔ in John 13 and breaks gɔwɔ in John 19 — one word, with the strong grade as the citation form.
@@ -2008,7 +2008,7 @@ WORDS.foot = {
     pll: ["ɟɯŋ", "ɟɯŋ"],  // Milne 1931 jǖng 'foot', glossed 'foot, leg' by Shorto; grɔŋ is only the leg from ankle to knee, as blu is the thigh and bɔn the calf.
     pmay: ["*ʔooq", "ʔoːq"],  // Proto-Mayan *ʔooq 'foot', distinct from the leg — the split the modern Mayan rows keep.
     pmh: ["पाअ", "paːa"],  // CDIAL 8056 pā́da- > Pk. pāa-, with the intervocalic -d- lost (Pischel §187). The OIA pāda/jaṅghā split is inherited unchanged.
-    pmi: ["tʂhə53", "tʂʰə˥˧"],  // ZMYYC 263.10 Taoba tʂʰə⁵³ 'foot' against 264.10 pʐɐ⁵⁵dʑɛ⁵³ 'leg' — a separate root, as in the Qinghua column.
+    pmi: ["tʂhə53", "ʈʂʰə˥˧"],  // ZMYYC 263.10 Taoba tʂʰə⁵³ 'foot' against 264.10 pʐɐ⁵⁵dʑɛ⁵³ 'leg' — a separate root, as in the Qinghua column. // was ["tʂhə53", "tʂʰə˥˧"] (vi dialect rules 2026-10-06)
     pmng: ["*köl", "køl"],  // Nugteren's comparative lexicon: *köl 'foot', often also 'leg'.
     pms: ["pé", "pe"],  // pé vs gamba. IPA is the plain reading of the orthography, following how this row's own hand cell writes man as maŋ.
     pmt: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Tuamotu reflex of PPn *waqe 'Leg'. No stress mark, as on the other Polynesian rows.

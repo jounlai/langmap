@@ -309,7 +309,7 @@ WORDS.iron = {
     // --- Smaller lects, and the odd corners of the family -----------------
     ext: ["hierru", "ˈhjeru"],
     fax: ["ferru", "ˈferu"],
-    mwl: ["fierro", "ˈfjɛru"],
+    mwl: ["fierro", "ˈfjeru"],
     lld: ["fer", "fɛr"],
     ruq: ["ier", "jer"],
     egl: ["fèr", "fɛr"],
@@ -480,7 +480,7 @@ WORDS.iron = {
     ik: ["saviksraq", "savikʂaq"],
     kl: ["savimineq", "savimineq"],
     yua: ["máaskab", "maːskab"],
-    kgp: ["kyfé", "kɨfe"],
+    kgp: ["—", "—"],
 
     // --- Proto-languages that do have the word ----------------------------
     ptrk: ["*temür", "temür"],
@@ -541,7 +541,7 @@ WORDS.iron = {
     rap: ["auri", "auɾi"],
 
     // --- Uralic — Baltic *rauda in the west, *kertä in the east ----------
-    smn: ["ryevdi", "ˈrjevdi"],
+    smn: ["ryevdi", "ryevdi"],
     sms: ["ruʹvdd", "ruvdː"],
     sjd: ["рӯввьт", "ruːvʲt"],
     liv: ["rōda", "ˈroːdɑ"],
@@ -789,7 +789,7 @@ WORDS.iron = {
     ia: ["ferro", "ˈfɛrro"],
     vo: ["lel", "lel"],
     jbo: ["tirse", "ˈtirse"],
-    tlh: ["baS", "baʂ"],
+    tlh: ["'uSqan", "ʔuʂqan"],
 
     // --- Philippine and Formosan — sourced per row, not extrapolated -----
     // Taiwan's languages each have their own word and they share almost
@@ -824,8 +824,8 @@ WORDS.iron = {
     lic: ["go:i1", "ɡoːi˥˧"],
     yiz: ["xɯ", "xɯ˨˨"],
     orh: ["ʃələ", "ʃələ"],
-    blr: ["ʔa31 ŋak33", "ʔa˧˩ ŋak˧˧"],
-    swi: ["śət7", "ɕət˥˥"],
+    blr: ["lek33", "lek˧˧"],
+    swi: ["ɕət7", "ɕət˥˥"],
     enf: ["byasi", "bʲasi"],
     rtm: ["ʻia", "ʔia"],
     kek: ["chʼiichʼ", "tʃʼiːtʃʼ"],
@@ -885,7 +885,7 @@ WORDS.iron = {
     rhg: ["luwá", "luwa"],
     bqi: ["آهن", "ɒːhan"],
     tcy: ["ಕರ್ಬ", "karba"],
-    drs: ["sibilo", "sibilo"],
+    drs: ["sibiljo", "sibildʒo"],
     tmh: ["ⵜⵥⵓⵍⵉ", "təzˤoli"],
     rgn: ["fër", "fɛːɾ"],
     unr: ["mered", "meɽeɖ"],
@@ -995,7 +995,7 @@ WORDS.iron = {
     ium: ["hlieqv", "l̥ieʔ˥˥"],
     kpy: ["пылвынтын", "pəlvəntən"],
     ddo: ["гер", "ɡer"],
-    mgo: ["ətənɨ", "ətənɨ"],
+    mgo: ["ɨka", "ɨka"],
     nan_ph: ["鐵", "tʰiʔ˥"],
     lrc: ["آهن", "ɒhen"],
     nan_hai: ["铁", "hi˥˥"],
@@ -1085,7 +1085,7 @@ WORDS.iron = {
     atb: ["shamtoq", "ʃam˥˩to̱ʔ˥˥"],
     gum: ["tsandzøn", "tsantsən"],
     mcf: ["shocosh", "ʃokoʃ"],
-    mch: ["sajadadi", "sahaːɾ̠aɾ̠i"],
+    mch: ["sejaadadi", "sehaːɾ̠aɾ̠i"],
     cag: ["klesaniɬ", "klesaniɬ"],
     crt: ["ot", "ot"],
     tue: ["kõbẽ", "kõˈbẽ"],
@@ -1107,7 +1107,7 @@ WORDS.iron = {
     okz: ["តេក", "ɗɛːk"],
     pt_gw: ["feru", "ˈfɛru"],
     xav: ["siʼuwazi", "siʔuwaˈzi"],
-    kfa: ["ಇರ್ಂಬ್", "irmbɨ"],
+    kfa: ["ಇರ್ಂಬ್", "irɨmbɨ"],
     cay: ["ga̱hnyǫ́ʼǫhsraʼ", "ɡḁhɲṍʔõhsraʔ"],
     ie: ["ferre", "ˈfere"],
     niu: ["lapatoa", "lapatoa"],
@@ -1132,7 +1132,7 @@ WORDS.iron = {
     bzg: ["dippi", "dipːi"],
     sad: ["keeya", "keːja"],
     kwk: ["dza̱xʼa̱n", "dzəxʔən"],
-    blc: ["xitsʼlh", "χitsʼɬ"],
+    blc: ["—", "—"],
     nlc: ["besi", "besi"],
     tok: ["kiwen", "ˈkiwen"],
     yur: ["pegemeepʼ", "peɣemipʼ"]

@@ -845,7 +845,7 @@ WORDS.tea = {
     pis: ["ti", "ti"],
     mad: ["tèh", "tɛh"],
     iba: ["te", "te"],
-    atj: ["nipicapo", "nipiʃapo"],
+    atj: ["nipicwapo", "nipiʃwapo"], // was ["nipicapo", "nipiʃapo"] (vi dialect rules 2026-10-06)
     blt: ["ꪵꪋ", "tɕɛː˥"],
     ium: ["zaah", "tsaː˧˩"],
     nbl: ["itiye", "iˈtije"],

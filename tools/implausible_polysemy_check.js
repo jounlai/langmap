@@ -86,6 +86,9 @@ const CROSS = {
 // row. Prefer the row-level key: "this pair is fine everywhere" is a much
 // stronger claim than it looks, and grue is the only one this atlas can make.
 const ACCEPTED = {
+    'enf:eye|heart': 'Forest Enets сэй sɛj "eye" and сԑй sæj "heart" (NorthEuraLex, ASJP): two words whose Latin transliteration in this row falls together; the IPA keeps them apart. r83, 2026-10-12.',
+    'mgo:bone|foot': 'Metaʼ əwu is both: the NT uses it for "a bone of his" (JHN 19:36) and "flesh and bones" (LUK 24:39), and for foot. r83, 2026-10-12.',
+    'mcf:mouth|tongue': 'Matsés ana is "tongue" in the NT (MRK 7:33, LUK 16:24) and in Amazonian Voices; the mouth cell holding the same form is unverified — open item, review 562. r83, 2026-10-12.',
     'tok:moon|star': 'Toki Pona mun is any heavenly body seen at night — moon and star alike (pu, Lang 2014). The constructed language has ~120 roots by design. r81, 2026-10-11.',
     'myp:father|mother': 'Pirahã baíxi is "parent", one word for mother and father '
         + '(Everett; the r73 audit sourced both cells to it). The language has no '

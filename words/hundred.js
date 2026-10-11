@@ -348,7 +348,7 @@ WORDS.hundred = {
     ast: ["cien", "θjen"],
     ext: ["cien", "θjen"],
     an: ["cient", "θjent"],
-    mwl: ["cien", "sjen"],
+    mwl: ["cien", "sjẽŋ"],
     scn: ["centu", "ˈtʃɛntu"],
     nap: ["ciento", "ˈtʃjentə"],
     co: ["centu", "ˈtʃɛntu"],
@@ -425,7 +425,7 @@ WORDS.hundred = {
 
     // --- More Uralic -------------------------------------------------------
     smj: ["tjuohte", "ˈtʃuohte"],
-    smn: ["čuođi", "ˈtʃuoði"],
+    smn: ["čyeti", "tʃyeti"],
     mrj: ["шӱдӹ", "ʃydə"],
     liv: ["sadā", "ˈsadaː"],
     mns: ["са̄т", "saːt"],
@@ -639,7 +639,7 @@ WORDS.hundred = {
     bej: ["shee", "ʃeː"],
     ssy: ["bool", "boːl"],
     aa: ["bool", "boːl"],
-    drs: ["dhibba", "ɗibba"],
+    drs: ["dhibba", "ɗibːa"],
     kxc: ["dippa", "ɗipːa"],
     aiw: ["mato", "mato"],   // beside a vigesimal circumlocution, edonq-baab its, five persons eaten
     wal: ["xeeta", "tʼeːta"],
@@ -741,7 +741,7 @@ WORDS.hundred = {
     wbl: ["сад", "sad"],   // the Persian loan; the inherited count is panz bist, five twenties
     dv: ["ސަތޭކަ", "sateːka"],
     tcy: ["ನೂದು", "nuːdu"],   // Dravidian *nūṟu, as in Tamil நூறு
-    kfa: ["ನೂರ್", "nuːɾə"],
+    kfa: ["ನೂರ್", "nuːrɨ"],
     sat: ["ᱥᱟᱭ", "sae"],   // an Indo-Aryan loan; the inherited count is mɔɽɛ gɛl, five tens
     tru: ["ܡܐ", "mo"],
     tig: ["ምእት", "mɨʔɨt"],   // the Geʽez ምእት unchanged
@@ -761,7 +761,7 @@ WORDS.hundred = {
     xal: ["зун", "zun"],
     kim: ["чүс", "tʃys"],
     ude: ["таӈгу", "taŋɡu"],   // the Tungusic *taŋgū that Manchu writes ᡨᠠᠩᡤᡡ
-    gld: ["таӈгу", "taŋɡu"],
+    gld: ["таӈго", "taŋɡo"],
     sjo: ["ᡨᠠᠩᡤᡡ", "taŋɡuː"],
     eve: ["няма", "ɲama"],
     evn: ["нама", "nama"],
@@ -1064,7 +1064,7 @@ WORDS.hundred = {
     ter: ["póhuti séndu", "ˈpohuti ˈsendu"],
     bew: ["seratus", "səratus"],
     huz: ["гьəᴴсчӏитӏ", "hə̃stʃʼitʼ"],
-    pqm: ["qotatq", "kʷotatkʷ"],
+    pqm: ["ʼqotatq", "kʷotatkʷ"],
     lun: ["nkulakaji", "nkulakadʒi"],
     kwk: ["lakʼa̱nd", "lakʼənd"],
     thp: ["x̣əcpq̓íqn̓kst", "χətspqʼiqnˀkst"],
@@ -1155,7 +1155,7 @@ WORDS.hundred = {
     iru: ["nūru", "nuːɾu"],
     cay: ["sgá:t dewę́ʼnyawe:ʼ", "skáːt dewɛ̃́ʔɲaweːʔ"],
     itl: ["туʼус", "tuʔus"],
-    yle: ["yonoy:a", "jonojːa"],
+    yle: ["yonoy:a", "jonojã"],
     ik: ["tallimakipiat", "talːimakipiat"],
     gon: ["नूर", "nuːr"],
     hsn_yz: ["百", "pe˧˧"],
@@ -1167,7 +1167,7 @@ WORDS.hundred = {
     zdj: ["djana", "dʒana"],
     abe: ["nguedatgua", "ŋɡwedatɡwa"],
     yuy: ["dʒuun", "dʒuːn"],
-    blc: ["tsʼicwlxs", "tsʼixʷlχs"],
+    blc: ["—", "—"],
     dsh: ["kuɗ", "kuɗ"],
     jup: ["cẽ́", "tʃẽ́"],
     mjg: ["nige jang", "niɡe tɕaŋ"],

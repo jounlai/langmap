@@ -972,7 +972,7 @@ WORDS.n99 = {
     naq: ["khoesedisikhoeseǀa", "kʰoesedisikʰoeseǀa"],
     nag: ["ninyanve", "ninjanve"],
     myv: ["вейксэньгемень вейксэ", "vʲejksenʲɡʲemenʲ vʲejkse"],
-    mwl: ["nobenta i nuobe", "noβentɐ i nwoβɨ"],
+    mwl: ["nobenta i nuobe", "nuˈβẽtɐ i ˈnwoβɨ"], // was ["nobenta i nuobe", "noβentɐ i nwoβɨ"] (vi dialect rules 2026-10-06)
     mrj: ["ӹндекшлу ӹндекш", "əndekʃlu əndekʃ"],
     mnk: ["taŋ kononto niŋ kononto", "taŋ kononto niŋ kononto"],
     mhy: ["suei pulu suei", "suei pulu suei"],

@@ -981,7 +981,7 @@ WORDS.bear = {
     mwr: ["भालू", "bʱaːluː"],
     bew: ["biruang", "biruaŋ"],
     mh: ["pāār", "pʲæːrˠ"],
-    mzh: ["sulaj", "sulax"],
+    mzh: ["selaj", "selax"], // was ["sulaj", "sulax"] (vi dialect rules 2026-10-06)
     slr: ["atıq", "ɑtɯχ"],
     wbp: ["piira", "piːɻa"],
     roo: ["bea", "bea"],
@@ -1742,7 +1742,7 @@ WORDS.bear = {
     hyw: ["արջ", "aɾtʃ"],
     olo: ["kondii", "kondiː"],
     smj: ["biernna", "piɛrnːa"],
-    smn: ["kuob'žâ", "kuɔbdʒa"],
+    smn: ["kuob'žâ", "kuobdʒɐ"], // was ["kuob'žâ", "kuɔbdʒa"] (vi dialect rules 2026-10-06)
     sms: ["kueʹbǯǯ", "kuɛbʲddʒʲɘ"],
     kca: ["мойпар", "mojpar"],
     mns: ["во̄рто̄лнут", "woːrtoːlnut"],
@@ -1820,7 +1820,7 @@ WORDS.bear = {
     dak: ["mathó", "matʰó"],
     hai: ["táan", "tʰɑ́ːn"],
     one: ["ohkwa:lí", "ohkwaːlí"],
-    cay: ["hnyagwái:", "hɲaɡwáːi"],
+    cay: ["hnyagwaiʼ", "hɲaɡwaiʔ"], // was ["hnyagwái:", "hɲaɡwáːi"] (vi dialect rules 2026-10-06)
     tus: ["uhčíhręʼ", "əhtʃihɾə̃ʔ"],
     chp: ["sas", "sas"],
     crx: ["sus", "sus"],
@@ -1829,7 +1829,7 @@ WORDS.bear = {
     pqm: ["muwin", "muwiːn"],
     mez: ["awǣhsaeh", "awæːhsæh"],
     squ: ["míx̱alh", "miχaɬ"],
-    thp: ["špéʔeč", "ʃpeʔetʃ"],
+    thp: ["spéʔec", "speʔets"], // was ["špéʔeč", "ʃpeʔetʃ"] (vi dialect rules 2026-10-06)
     ik: ["akłaq", "akɬaq"],
     pao: ["padooa", "pʰaɾua"],
     cuk: ["wiob", "wiob"],

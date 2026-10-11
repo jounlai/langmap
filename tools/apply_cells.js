@@ -82,7 +82,10 @@ function main() {
         const line = raw.replace(/^ACCEPT\t/, '').trimEnd();
         if (!line.trim() || line.trim().startsWith('#')) continue;
         const parts = line.split('\t').map((p) => p.trim());
-        if (parts.length !== 4 || !parts.every(Boolean)) {
+        // Concepts whose IPA may be empty (validate_wordmap_data.js IPA_OPTIONAL).
+        const ipaOptional = ['lol', 'wifi', 'computer', 'sushi', 'chocolate', 'dopamine', 'atsign'].includes(parts[0]);
+        if (parts.length === 3 && ipaOptional) parts.push('');
+        if (parts.length !== 4 || !(parts[0] && parts[1] && parts[2] && (parts[3] || ipaOptional))) {
             console.log(`  MALFORMED  ${raw.slice(0, 80)}`);
             bad++;
             continue;

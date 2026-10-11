@@ -88,7 +88,7 @@
          guards against a script re-appearing in the data without a font. -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Devanagari&family=Noto+Serif+Bengali&family=Noto+Serif+Gujarati&family=Noto+Serif+Gurmukhi&family=Noto+Serif+Oriya&family=Noto+Serif+Tamil&family=Noto+Serif+Telugu&family=Noto+Serif+Kannada&family=Noto+Serif+Malayalam&family=Noto+Serif+Sinhala&family=Noto+Serif+Thai&family=Noto+Serif+Lao&family=Noto+Serif+Khmer&family=Noto+Serif+Myanmar&family=Noto+Serif+Georgian&family=Noto+Serif+Armenian&family=Noto+Serif+Hebrew&family=Noto+Serif+Ethiopic&family=Noto+Naskh+Arabic&family=Noto+Sans+Syriac&family=Noto+Sans+Canadian+Aboriginal&family=Noto+Sans+Thaana&family=Noto+Sans+Cherokee&family=Noto+Sans+Meetei+Mayek&family=Noto+Sans+Lepcha&family=Noto+Sans+Syloti+Nagri&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Brahmi&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Avestan&family=Noto+Sans+Old+South+Arabian&family=Noto+Sans+Inscriptional+Pahlavi&family=Noto+Sans+Phoenician&family=Noto+Sans+Gothic&family=Noto+Sans+Ugaritic&family=Noto+Sans+Limbu&family=Noto+Sans+Vai&family=Noto+Sans+Mandaic&family=Noto+Sans+Javanese&family=Noto+Sans+Tai+Viet&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Devanagari&family=Noto+Serif+Bengali&family=Noto+Serif+Gujarati&family=Noto+Serif+Gurmukhi&family=Noto+Serif+Oriya&family=Noto+Serif+Tamil&family=Noto+Serif+Telugu&family=Noto+Serif+Kannada&family=Noto+Serif+Malayalam&family=Noto+Serif+Sinhala&family=Noto+Serif+Thai&family=Noto+Serif+Lao&family=Noto+Serif+Khmer&family=Noto+Serif+Myanmar:wght@400;700&family=Noto+Serif+Georgian&family=Noto+Serif+Armenian&family=Noto+Serif+Hebrew&family=Noto+Serif+Ethiopic&family=Noto+Naskh+Arabic&family=Noto+Sans+Syriac&family=Noto+Sans+Canadian+Aboriginal&family=Noto+Sans+Thaana&family=Noto+Sans+Cherokee&family=Noto+Sans+Meetei+Mayek&family=Noto+Sans+Lepcha&family=Noto+Sans+Syloti+Nagri&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Sans+Yi&family=Charis+SIL:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Old+Turkic&family=Noto+Sans+Mongolian&family=Noto+Sans+Sogdian&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Manichaean&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Sans+Meroitic&family=Noto+Sans+Sundanese&family=Noto+Sans+Tagalog&family=Noto+Sans+Coptic&family=Noto+Sans+New+Tai+Lue&family=Noto+Sans+Anatolian+Hieroglyphs&family=Noto+Sans+Cuneiform&family=Noto+Sans+Brahmi&family=Noto+Sans+Linear+B&family=Noto+Sans+Old+Persian&family=Noto+Sans+Avestan&family=Noto+Sans+Old+South+Arabian&family=Noto+Sans+Inscriptional+Pahlavi&family=Noto+Sans+Phoenician&family=Noto+Sans+Gothic&family=Noto+Sans+Ugaritic&family=Noto+Sans+Limbu&family=Noto+Sans+Vai&family=Noto+Sans+Mandaic&family=Noto+Sans+Javanese&family=Noto+Sans+Tai+Viet&display=swap">
     <!-- Old Hangul Jamo (U+1100-11FF) for ko_mid / ko_em is now served
          from a self-hosted Noto Serif KR subset with explicit
          unicode-range scoping; see the @font-face block below. -->
@@ -1585,7 +1585,9 @@
                 serif;
         }
         .wm-ipa  { unicode-bidi: isolate; direction: ltr; }
-        .ipa-unknown { font-style: italic; opacity: .75; }
+        /* A spelling with no sourced pronunciation (lol, modern loans): a quiet "/?/",
+           the full words in its tooltip and aria-label (owner, 2026-10-12). */
+        .ipa-unknown { opacity: .4; font-style: normal; letter-spacing: .05em; }
         /* Info-panel word table: one type size across all three columns.
            The columns used to run 14 / 16 / 12.5 px, which read as three
            unrelated sizes rather than a hierarchy. Hierarchy now comes from
@@ -6034,7 +6036,7 @@
             // Typed-only forms (lol: wkwk, KTK …) carry an empty IPA: say so instead of printing "//".
             if (showIpa) html += i
                 ? `<div class="ipa" dir="ltr" ${routeColor || c ? `style="color:${routeColor || c}"` : ''}>/${i}/</div>`
-                : `<div class="ipa ipa-unknown" dir="auto">(${escapeHtml(wt('ipaUnknown'))})</div>`;
+                : `<div class="ipa ipa-unknown" dir="ltr" title="${escapeHtml(wt('ipaUnknown'))}">/?/</div>`;
             // "@" concept only: the literal meaning of this language's @ name.
             if (typeof currentWord !== 'undefined' && currentWord === 'atsign') {
                 const mng = atsignMeaning(code);
@@ -8834,7 +8836,7 @@
                         // this column is not always phonemic — for a row marked
                         // phonetic or romanization the slashes were simply wrong.
                         // The compare table already renders it bare.
-                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa${entry[1] ? '' : ' ipa-unknown'}">${entry[1] ? escapeHtml(entry[1]) : '(' + escapeHtml(wt('ipaUnknown')) + ')'}</span></td></tr>`;
+                        html += `<tr><td>${escapeHtml(wLabel)}</td><td><span class="wm-form" dir="auto">${escapeHtml(entry[0])}</span>${evMark}${altLine}</td><td style="${ipaStyle}"><span class="wm-ipa${entry[1] ? '' : ' ipa-unknown'}"${entry[1] ? '' : ` title="${escapeHtml(wt('ipaUnknown'))}"`}>${entry[1] ? escapeHtml(entry[1]) : '/?/'}</span></td></tr>`;
                     }
                 }
             }
@@ -9639,7 +9641,7 @@
                         const surface = cell[0] || '';
                         const ipa = cell[1] || '';
                         html += '<td><span class="surface" dir="auto">' + escapeHtml(surface) + '</span>'
-                             + (ipa && ipa !== '—' ? '<span class="ipa">' + escapeHtml(ipa) + '</span>' : (surface && surface !== '—' && !ipa ? '<span class="ipa ipa-unknown">(' + escapeHtml(wt('ipaUnknown')) + ')</span>' : ''))
+                             + (ipa && ipa !== '—' ? '<span class="ipa">' + escapeHtml(ipa) + '</span>' : (surface && surface !== '—' && !ipa ? '<span class="ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">/?/</span>' : ''))
                              + '</td>';
                     }
                 }
@@ -10274,7 +10276,7 @@
                         const word = entry[0] || '';
                         const ipa = entry[1] || '';
                         html += '<td><div class="wm-form" dir="auto">' + escapeHtml(word) + '</div>'
-                              + (ipa ? '<div class="wm-ipa">' + escapeHtml(ipa) + '</div>' : (word ? '<div class="wm-ipa ipa-unknown">(' + escapeHtml(wt('ipaUnknown')) + ')</div>' : ''))
+                              + (ipa ? '<div class="wm-ipa">' + escapeHtml(ipa) + '</div>' : (word ? '<div class="wm-ipa ipa-unknown" title="' + escapeHtml(wt('ipaUnknown')) + '">/?/</div>' : ''))
                               + '</td>';
                     }
                 });

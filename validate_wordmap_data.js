@@ -858,7 +858,9 @@ if (LANG_NAMES) {
 // Dictionary confirms no culturally fixed greeting or thanks word). This is a
 // documented linguistic fact, not a data gap, so it must not trigger the CI gate.
 let modernDashErrors = 0, oneSidedDashErrors = 0;
-const IPA_OPTIONAL = new Set(['lol']);
+// Modern loans join lol (owner, 2026-10-12): a sourced spelling may stand with no
+// sourced pronunciation; the map shows a quiet "/?/".
+const IPA_OPTIONAL = new Set(['lol', 'wifi', 'computer', 'sushi', 'chocolate', 'dopamine', 'atsign']);
 const dso = ctx.DATA_STATUS_OVERRIDES || {};
 for (const code of codes) {
     const isHist = HIST_SET.has(code);

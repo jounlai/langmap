@@ -571,7 +571,7 @@ WORDS.poop = {
     kaa: ["boq", "boq"],
     kac: ["hkyi", "kʰji˥˥"],
     dtp: ["taiiʼ", "taiːʔ"],
-    tji: ["sie", "sie˨˩"],
+    tji: ["se", "sie˨˩"],
     nij: ["tai", "tai"],
     sda: ["tai", "tai"],
     yua: ["taʼ", "taʔ"],

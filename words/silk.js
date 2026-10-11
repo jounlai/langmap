@@ -533,7 +533,7 @@ WORDS.silk = {
     rm: ["saida", "ˈsai̯da"],
     kjh: ["чібек", "tʃibek"],
     nog: ["йибек", "jibek"],
-    moh: ["kà:nheks", "kaːnheks"],
+    moh: ["kà:nheks", "kàːnheks"],
     chy: ["séokaevėšéʼhóno", "séokaeveʃéʔhóno"],
     ium: ["fei", "fei˧"],
     kpy: ["чолкочол", "tʃolkotʃol"],

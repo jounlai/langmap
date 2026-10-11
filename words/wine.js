@@ -165,7 +165,7 @@ WORDS.wine = {
     qu: "ie",
     quz: "ie",
     quy: "ie",
-    roo: "ie",
+    roo: "other", // route was ie (vi dialect rules 2026-10-06)
     kln: "ie",
     saq: "other",
     mas: "other",
@@ -817,7 +817,7 @@ WORDS.wine = {
     efi: "ie",
     ibb: "ie",
     tiv: "ie",
-    urh: "ie",
+    urh: "other", // route was ie (vi dialect rules 2026-10-06)
     wo: "ie",
     ln: "ie",
     lg: "ie",
@@ -1063,7 +1063,7 @@ WORDS.wine = {
     qu: ["vino", "ˈbino"],
     quz: ["vino", "ˈbino"],
     quy: ["vino", "ˈbino"],
-    roo: ["wain", "wain"],
+    roo: ["vuropa ovi", "βuɾopa oβi"], // was ["wain", "wain"] (vi dialect rules 2026-10-06)
     kln: ["divai", "divai"],
     saq: ["naichuo e lmusabibu", "naitʃuo e lmusabibu"],
     mas: ["enaisho oo sabibu", "enaiʃo oː sabibu"],
@@ -1747,7 +1747,7 @@ WORDS.wine = {
     mdf: ["вина", "vina"],
     myv: ["вина", "vina"],
     kca: ["ўна", "wuna"],
-    sjd: ["выннҍ", "vɨnʲː"],
+    sjd: ["выннҍ", "vɨɲː"], // was ["выннҍ", "vɨnʲː"] (vi dialect rules 2026-10-06) // was ["выннҍ", "vɨɲː"] (vi dialect rules 2026-10-06)
     liv: ["vīnõ", "ˈviːnə"],
     vep: ["vin", "vin"],
     vro: ["vein", "vein"],
@@ -1779,7 +1779,7 @@ WORDS.wine = {
     efi: ["wine", "wain"],
     ibb: ["wain", "wain"],
     tiv: ["wain", "wain"],
-    urh: ["iwaini", "iwaini"],
+    urh: ["udi", "udi"], // was ["iwaini", "iwaini"] (vi dialect rules 2026-10-06) // was ["udi", "udi"] (vi dialect rules 2026-10-06)
     wo: ["biiñ", "biːɲ"],
     ln: ["vinyo", "viɲo"],
     lg: ["wayini", "wajini"],
@@ -1893,7 +1893,7 @@ WORDS.wine = {
     djk: ["win", "win"],
     srm: ["wín", "wín"], // was ["win", "win"] (vi dialect rules 2026-10-06)
     stq: ["Wien", "vin"],
-    wym: ["wȧjn", "vɔjn"],
+    wym: ["wajn", "vajn"], // was ["wȧjn", "vɔjn"] (vi dialect rules 2026-10-06)
     fra_jer: ["vîn", "vĩ"],
     xfa: ["uinom", "ˈwiːnom"],
     xum: ["uinu", "ˈwiːnu"],

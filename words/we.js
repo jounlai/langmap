@@ -1255,7 +1255,7 @@ WORDS.we = {
     bor: ["pagi / cegi", "paɡi / tʃeɡi"],
     trn: ["witi", "witi"], // was ["viti", "witi"] (vi dialect rules 2026-10-06)
     ake: ["urüʼnokon / ina", "uɾɯʔnokon / ina"],
-    aoc: ["urönokon / ina", "uɾønokon / ina"],
+    aoc: ["urönokon / ina", "uɾənokon / ina"], // was ["urönokon / ina", "uɾønokon / ina"] (vi dialect rules 2026-10-06) // was ["urönokon / ina", "uɾənokon / ina"] (vi dialect rules 2026-10-06)
     gun: ["nhande / ore", "ɲãnde / oɾe"],
     zdj: ["wasi", "wasi"],
     ayl: ["حنا", "ħna"],
@@ -1408,7 +1408,7 @@ WORDS.we = {
     sel: ["ме", "me"],
     kca: ["муӈ", "muŋ"],
     ckt: ["мури", "muri"],
-    kpy: ["муйи", "muji"],
+    kpy: ["мую", "muju"], // was ["муйи", "muji"] (vi dialect rules 2026-10-06)
     itl: ["музан", "muzaʔn"],
     ykg: ["мит", "mit"],
     yux: ["мит", "mit"],
@@ -1695,7 +1695,7 @@ WORDS.we = {
     nhx: ["tejame̱n / nejame̱n", "tehameːn / nehameːn"], // was ["tejamen / nejamen", "teˈhamen / neˈhamen"] (vi dialect rules 2026-10-06)
     nch: ["tohuanti", "toˈwanti"],
     nhw: ["tohuanti", "toˈwanti"],
-    nhe: ["tohuanti", "toˈwanti"],
+    nhe: ["tojuanti", "toˈhwanti"], // was ["tohuanti", "toˈwanti"] (vi dialect rules 2026-10-06) // was ["tojuanti", "toˈhwanti"] (vi dialect rules 2026-10-06)
     hch: ["tame", "ˈtame"],
     ngu: ["tejuamej", "teˈwameh"],
     ppl: ["tejemet", "teˈhemet"],
@@ -2011,7 +2011,7 @@ WORDS.we = {
     kio: ["nɔ́", "nɔ́"], // was ["nɔ́ɔ", "nɔ́ː"] (r31 fix 2026-10-02)
     lmo: ["nun", "nyn"], // was ["nun", "nun"] (vi dialect rules 2026-10-06)
     pms: ["noi", "nuj"],
-    mwl: ["nós", "nɔs"],
+    mwl: ["nós", "nos"], // was ["nós", "nɔs"] (vi dialect rules 2026-10-06) // was ["nós", "nos"] (vi dialect rules 2026-10-06)
     pnt: ["εμείς", "eˈmis"],
     hno: ["اَسِیں", "əsĩː"],
     bhb: ["हामु", "haːmu"],
@@ -2285,7 +2285,7 @@ WORDS.we = {
     mam: ["aqoʼ", "aˈqoʔ"],
     wal: ["nuuni", "nuːni"],
     sid: ["ninke", "ninke"],
-    tji: ["angni", "aŋ˧˥ȵi˧˥"],
+    tji: ["angni", "aŋ˧˥ȵi˥˥"], // was ["angni", "aŋ˧˥ȵi˧˥"] (vi dialect rules 2026-10-06) // was ["angni", "aŋ˧˥ȵi˥˥"] (vi dialect rules 2026-10-06)
     nij: ["itah / ikei", "itah / ikei"],
     sda: ["kita / kami", "kita / kami"],
     lld: ["nëus", "ˈnəus"],

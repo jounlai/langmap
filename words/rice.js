@@ -487,7 +487,7 @@ WORDS.rice = {
     pwo: ["ဂူၫဆၪ", "ɣɯ sʰa"],
     hni: ["ceil", "tsʰe˥˥"],
     lis: ["dza-phu", "dzɑ˧˧pʰu˧˧"],
-    khg: ["འབྲས", "dʐe"],
+    khg: ["འབྲས", "ndʐe˩˧"],
     brx: ["मायरं", "mairoŋ"],
     bts: ["boras", "boras"],
     abs: ["baras", "baras"],

@@ -410,7 +410,7 @@ WORDS.chocolate = {
     mdr: ["sikolaq", "sikolaʔ"],
     cab: ["chuguladi", "tʃuɡuladi"],
     bzh: ["bööḳ atë", "ᵐbɔːq ate"],
-    mwl: ["choclate", "tʃoˈklatɨ"],
+    mwl: ["choclate", "tʃuˈklatɨ"],
     kjh: ["шоколад", "ʃokolad"],
     smn: ["suklaa", "ˈsuklaː"],
     afb: ["ككاو", "kaˈkːaːw"],

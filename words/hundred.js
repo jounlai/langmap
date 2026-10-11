@@ -584,7 +584,7 @@ WORDS.hundred = {
     trv: ["kbekuy", "kbəkuj"],
     tay: ["kbhul", "kβhul"],
     tao: ["ranaw", "ranaw"],
-    roo: ["vovoto", "βoβoto"],
+    roo: ["katai vovoto", "katai βoβoto"],
     mkz: ["rasa", "rasa"],
     aoz: ["natun", "natun"],   // one hundred is natun=es, with the metathesis Meto puts on a phrase-final noun
     meu: ["sinahu", "sinahu"],
@@ -655,7 +655,7 @@ WORDS.hundred = {
     sus: ["kɛmɛ", "kɛmɛ"],
     bbo: ["jɔlɩ", "ɟɔ̄lɪ̀"],
     tem: ["kɛmɛ", "kɛmɛ"],
-    snk: ["kame", "kãme"],
+    snk: ["kame", "kame"],
     men: ["hɔndɔ", "hɔndɔ"],   // from English hundred
     bsq: ["hɔ̃dɛɖɛ", "hɔ̃dɛɖɛ"],   // from English hundred
     mev: ["wũ", "wũ"],
@@ -1068,7 +1068,7 @@ WORDS.hundred = {
     lun: ["nkulakaji", "nkulakadʒi"],
     kwk: ["lakʼa̱nd", "lakʼənd"],
     thp: ["x̣əcpq̓íqn̓kst", "χətspqʼiqnˀkst"],
-    sjd: ["чӯдтҍ", "tʃuːdtʲ"],
+    sjd: ["чӯдть", "tʃuːdtʲ"],
     zgh: ["ⵜⵉⵎⵉⴹⵉ", "timidˤi"],
     kpe: ["ŋuŋ", "ŋuŋ"],
     rut: ["веш", "weʃ"],
@@ -1155,7 +1155,7 @@ WORDS.hundred = {
     iru: ["nūru", "nuːɾu"],
     cay: ["sgá:t dewę́ʼnyawe:ʼ", "skáːt dewɛ̃́ʔɲaweːʔ"],
     itl: ["туʼус", "tuʔus"],
-    yle: ["yonoy:a", "jonojã"],
+    yle: ["yonoy:a", "jɔɳɔjã"],
     ik: ["tallimakipiat", "talːimakipiat"],
     gon: ["नूर", "nuːr"],
     hsn_yz: ["百", "pe˧˧"],

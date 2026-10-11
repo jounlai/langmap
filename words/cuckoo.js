@@ -349,7 +349,7 @@ WORDS.cuckoo = {
     av: ["гагу", "ɡaɡu"],
     lez: ["кукупӏ", "kːukːupʼ"],
     dar: ["гегуг", "ɡeɡuɡ"],
-    agx: ["кекку", "kːekːu"],
+    agx: ["кекку", "kekːu"],
     ddo: ["куку", "kuku"],
     lbe: ["ччикку", "tʃːikːu"],
     tab: ["кукум", "kukum"],

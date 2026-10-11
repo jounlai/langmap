@@ -1174,7 +1174,7 @@ WORDS.n99 = {
     xog: ["kyenda na mwenda", "kjenda na mwenda"],
     mer: ["mĩrongo kenda na kenda", "meɾɔŋɡɔ kɛnda na kɛnda"],
     kam: ["mĩongo kenda na kenda", "mioŋɡo kenda na kenda"],
-    snk: ["tankabe do kabu", "tãkabe do kabu"],
+    snk: ["tankabe do kabu", "taŋkabe do kabu"], // was ["tankabe do kabu", "tãkabe do kabu"] (vi dialect rules 2026-10-06) // was ["tankabe do kabu", "taŋkabe do kabu"] (vi dialect rules 2026-10-06)
     emk: ["bikɔnɔndɔ ni kɔnɔndɔ", "bikɔnɔndɔ ni kɔnɔndɔ"],
     bci: ["ablangwlan-nin-ngwlan", "ablaŋɡʷlã nĩ ŋɡʷlã"], // was ["ablangwlan nin ngwlan", "ablaŋɡʷlã nĩ ŋɡʷlã"] (vi dialect rules 2026-10-06)
     sg: ["balegumbaya na gumbaya", "baleɡumbaja na ɡumbaja"],

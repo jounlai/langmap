@@ -259,7 +259,7 @@ WORDS.dopamine = {
     en_ph: ["dopamine", "ˈdoʊpəmiːn"],
     en_sg: ["dopamine", "ˈdəʊpəmiːn"],
     en_my: ["dopamine", "ˈdoːpamiːn"],
-    en_jam: ["dopamine", "ˈdoʊpəmiːn"],
+    en_jam: ["dopamine", "ˈdoːpəmiːn"],
     en_wls: ["dopamine", "ˈdəʊpəmiːn"],
     en_yk: ["dopamine", "ˈdəʊpəmiːn"],
     en_ck: ["dopamine", "ˈdəʊpəmiːn"],

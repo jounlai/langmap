@@ -1049,7 +1049,7 @@ WORDS.blue = {
     mnk: ["buluuriŋo", "buluːriŋo"],
     nzi: ["buluwu", "buluwu"],
     ebu: ["vururu", "βuɾuɾu"],
-    xog: ["bululu", "bululu"],
+    xog: ["bbululu", "bːululu"], // was ["bululu", "bululu"] (vi dialect rules 2026-10-06)
     laj: ["bululu", "bululu"],
     ach: ["mabulu", "mabulu"],
     teo: ["lobululu", "lobululu"],
@@ -1155,7 +1155,7 @@ WORDS.blue = {
     ja_kanbun: ["青し", "aoɕi"],
     sa_edu: ["नीलः", "niːlaɦ"],
     khw: ["اوݯ", "ɔʈʂ"], // was ["اوچ", "otʃ"] (r42 fix 2026-10-03)
-    pbb: ["çẽy", "çẽj"],
+    pbb: ["çẽy", "tsẽj"], // was ["çẽy", "çẽj"] (vi dialect rules 2026-10-06) // was ["çẽy", "tsẽj"] (vi dialect rules 2026-10-06)
     mus: ["holatte", "holatːi"],
     ain: ["シウニン", "siwnin"],
     xmf: ["ლურჯი", "lurdʒi"], // was ["ლენი", "leni"] (vi dialect rules 2026-10-06)
@@ -1339,7 +1339,7 @@ WORDS.blue = {
     an: ["azul", "aˈθul"],  // Aragonese azul against verde.
     ang: ["hǣwen", "hæːwen"],  // Old English had no reflex of blue; hǣwen (also blǣwen) is the blue term, alongside grēne. IDS gives hǣwen for Old English. The modern word blue is a later Anglo-Norman loan.
     ani: ["решинкьелӏи", "reʃinkʼeˈlːi"],  // Andi (Muni) решинкьелӏи vs ххочи. The main IDS Andi entry lists хочи for both blue and green, so the cool range is only partly split in Andic.
-    aqc: ["наӏгъдут", "naʕɬˈdut"],  // Archi наӏгъдут vs оӏловттут. WOLD analyses the blue term as naˤɮ-du-t 'milk-ADJZR' and scores it as showing no evidence of borrowing.
+    aqc: ["наӏгъдут", "naˤɮdut"],  // Archi наӏгъдут vs оӏловттут. WOLD analyses the blue term as naˤɮ-du-t 'milk-ADJZR' and scores it as showing no evidence of borrowing. // was ["наӏгъдут", "naʕɬˈdut"] (vi dialect rules 2026-10-06) // was ["наӏгъдут", "naˤɮdut"] (vi dialect rules 2026-10-06)
     ar: ["أزرق", "ˈʔazraq"],  // MSA أزرق against أخضر. The root z-r-q is the same one that in Aramaic covers both ends of the cool range, but Arabic separates them.
     ar_lev: ["أزرق", "ˈʔazraʔ"],  // Levantine Arabic أزرق against أخضر, the MSA pair with the qaf realised as a glottal stop. WALS 134A codes Lebanese Arabic as 'Green and blue', i.e. two separate basic terms.
     ast: ["azul", "aˈθul"],  // Asturian azul against verde.

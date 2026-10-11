@@ -973,7 +973,7 @@ WORDS.bear = {
     ngu: ["oso", "ˈoso"],
     chf: ["oso", "ˈoso"],
     kek: ["oos", "oːs"], // was ["oso", "ˈoso"] (vi dialect rules 2026-10-06)
-    yle: ["mbeyê", "mbejə"],
+    yle: ["mbeyê", "mbɛjə"], // was ["mbeyê", "mbejə"] (vi dialect rules 2026-10-06) // was ["mbeyê", "mbɛjə"] (vi dialect rules 2026-10-06)
     huv: ["oso", "oso"],
     shp: ["oso", "oso"],
     enq: ["bea", "bea"],
@@ -1127,7 +1127,7 @@ WORDS.bear = {
     ium: ["jiepv", "tɕiep˦"], // was ["jiepv", "tɕiep˥˥"] (vi dialect rules 2026-10-06)
     esu: ["taqukaq", "taqukaq"],
     pis: ["bea", "bea"],
-    jam: ["bier", "biɛr"],
+    jam: ["bier", "bier"], // was ["bier", "biɛr"] (vi dialect rules 2026-10-06) // was ["bier", "bier"] (vi dialect rules 2026-10-06)
     kri: ["bia", "ˈbia"],
     mbc: ["urso", "urso"],
     gym: ["oso", "oso"],
@@ -1336,7 +1336,7 @@ WORDS.bear = {
     fur: ["ors", "ors"],
     lld: ["lors", "lors"],
     rup: ["ursã", "ˈursə"],
-    mwl: ["urso", "ˈursu"],
+    mwl: ["urso", "ˈuɾsu"], // was ["urso", "ˈursu"] (vi dialect rules 2026-10-06) // was ["urso", "ˈuɾsu"] (vi dialect rules 2026-10-06)
     // Ladino and Ladin fused the article onto the noun: l' + onso.
     lad: ["lonso", "ˈlonso"],
     mt: ["ors", "ors"],
@@ -1460,7 +1460,7 @@ WORDS.bear = {
     niv: ["чхыф", "tʃʰxɤf"],
     ket: ["ӄой", "qoj"],
     ckt: ["кэйӈын", "kejŋən"],
-    kpy: ["кайӈын", "kajŋɯn"],
+    kpy: ["кайӈын", "kajŋən"], // was ["кайӈын", "kajŋɯn"] (vi dialect rules 2026-10-06)
     itl: ["массу", "masːu"],
     kl: ["nanoq", "nanoq"],
     iu: ["ᓇᓄᖅ", "nanuq"],
@@ -1688,7 +1688,7 @@ WORDS.bear = {
     jiv: ["chai", "tʃai"],
     agr: ["chayú", "tʃajú"],
     acu: ["chayu", "tʃaju"],
-    pbb: ["eʼsxavy", "eʔʃaβj"],
+    pbb: ["eʼsxavy", "eʔʃaβʲ"], // was ["eʼsxavy", "eʔʃaβj"] (vi dialect rules 2026-10-06) // was ["eʼsxavy", "eʔʃaβʲ"] (vi dialect rules 2026-10-06)
     gum: ["wig", "wik"], // was ["wig", "wiɡ"] (r35 fix 2026-10-02)
     quz: ["ukuku", "ukuku"],
     quy: ["ukumari", "ukumaɾi"],
@@ -1704,7 +1704,7 @@ WORDS.bear = {
     sco: ["beir", "biːɹ"],
     fo: ["bjørn", "bjœɹn"],
     stq: ["Boar", "bɔːr"], // was ["Boar", "boːɐ"] (vi dialect rules 2026-10-06)
-    wym: ["baor", "baoɐ"],
+    wym: ["baor", "baɔr"], // was ["baor", "baoɐ"] (vi dialect rules 2026-10-06)
     vls: ["beir", "beːr"],
     li: ["beer", "beːr"],
     pdt: ["Boa", "boːa"],
@@ -1826,7 +1826,7 @@ WORDS.bear = {
     crx: ["sus", "sus"],
     koy: ["sis", "sis"],
     atj: ["masko", "masko"],
-    pqm: ["muwin", "muwiːn"],
+    pqm: ["muwin", "muwin"], // was ["muwin", "muwiːn"] (vi dialect rules 2026-10-06) // was ["muwin", "muwin"] (vi dialect rules 2026-10-06)
     mez: ["awǣhsaeh", "awæːhsæh"],
     squ: ["míx̱alh", "miχaɬ"],
     thp: ["spéʔec", "speʔets"], // was ["špéʔeč", "ʃpeʔetʃ"] (vi dialect rules 2026-10-06)

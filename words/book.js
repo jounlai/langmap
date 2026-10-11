@@ -252,7 +252,7 @@ WORDS.book = {
     hsb: ["kniha", "ˈkniɦa"],
     fit: ["kirja", "ˈkirjɑ"],
     fkv: ["kirja", "ˈkirjɑ"],
-    kpv: ["небӧг", "ˈnʲebɘɡ"],
+    kpv: ["небӧг", "ˈɲebɘɡ"],
     gag: ["kiyat", "kiˈjat"],
     kaa: ["kitap", "kiˈtap"],
     krc: ["китап", "kiˈtap"],
@@ -291,7 +291,7 @@ WORDS.book = {
     ilo: ["libro", "ˈlibɾo"],
     ff: ["deftere", "deftere"],
     fon: ["wémà", "wémà"],
-    gej: ["wémà", "wémà"],
+    gej: ["xoma", "xoma"],
     gaa: ["wolo", "wolo"],
     ig: ["akwụkwọ", "akʷʊkʷɔ"],  // On the same leaf→paper→book line this concept declines elsewhere (Yup'ik kalikaq, Hmong ntawv), and kept only because the evidence is stronger: Wiktionary's Igbo entry is a stub glossing just 'leaf', but ig.wikipedia's Akwụkwọ article is the book article — illustrated with a dictionary (akwụkwọ ọkọwa okwu) and a library (ọba akwụkwọ) — and Igbo builds ụlọ akwụkwọ 'school' on it. Its own opening gloss, "a thing used for writing", still leans paper. A dedicated Igbo dictionary would settle it.
     iso: ["ụbị", "ʊbɪ"],
@@ -316,7 +316,7 @@ WORDS.book = {
     lij: ["libbro", "ˈlibru"],
     lld: ["liber", "ˈliber"],
     lmo: ["liber", "ˈliber"],
-    mwl: ["lhibro", "ˈʎibɾu"],  // The Mirandese form proper; libro is the Sendinese variant.
+    mwl: ["lhibro", "ˈʎiβɾu"],  // The Mirandese form proper; libro is the Sendinese variant.
     nap: ["libbro", "ˈlibbərə"],
     nn: ["bok", "buːk"],       // Identical to the no cell, and deliberately so: Nynorsk and Bokmål both write bok. Added because nn is a separate written standard with its own ISO code, not a variety suffix — the batch rule about not copying a parent is aimed at xx_yy codes.
     nrf: ["livre", "livʁ"],    // Character-for-character the fr cell, but Norman is its own Oïl language rather than a French variety. A Jèrriais-specific length mark ([liːvʁ]) is plausible and was not sourceable.
@@ -699,7 +699,7 @@ WORDS.book = {
     lol: ["bonkanda", "bonkanda"],
     mev: ["kii", "kiː"],
     nhw: ["libro", "ˈlibro"],
-    nhe: ["amoxtli", "aˈmoʃtɬi"],
+    nhe: ["amatl", "amatɬ"],
     guc: ["karaloukta", "karaloukta"],
     cab: ["líburu", "ˈlibuɾu"],
     ctu: ["juñ", "huɲ"],

@@ -302,7 +302,7 @@ WORDS.sea = {
     mrj: ["тангыж", "taŋɡəʒ"],
     mrq: ["tai", "tai"],
     mrw: ["ragat", "raɡat"],
-    mwl: ["mar", "mar"],
+    mwl: ["mar", "maɾ"],
     myv: ["иневедь", "ˈinʲevedʲ"],  // NorthEuraLex elicited the Russian loan моря here; Wiktionary lemmatises the native compound ine 'big' + ved' 'water' and lists моря only as a synonym, so the compound is taken as the everyday word.
     nan: ["海", "hai˥˧"],
     nan_hai: ["海", "hai˨˩˧"],
@@ -571,7 +571,7 @@ WORDS.sea = {
     pwo: ["မၫဆမံၭ", "ma sʰə meiʔ"],
     hni: ["lao'laoma", "lɔ˧˧lɔ˧˧ma˧˧"],
     lis: ["e-lu-be", "e˦˦lu˧˩be˧˧"],
-    khg: ["རྒྱ་མཚོ", "dʑatsʰo"],
+    khg: ["རྒྱ་མཚོ", "dʑa˩˧tsʰo˥˧"],
     bts: ["laut", "laut"],
     kha: ["duriaw", "duriaw"],
     ve: ["lwanzhe", "lwanʒe"],
@@ -663,7 +663,7 @@ WORDS.sea = {
     mev: ["mɛ̀ĩ́", "mɛ̀ĩ́"],
     nch: ["hueyatl", "ˈwejatɬ"],
     nhw: ["hueyatl", "ˈwejatɬ"],
-    nhe: ["hueyiatl", "weˈjiatɬ"],
+    nhe: ["hueyi atl", "weˈji atɬ"],
     zap: ["nisadoʼ", "nisadoʔ"],
     cak: ["palow", "palow"],
     ctu: ["ñajb", "ɲahɓ"],
@@ -1081,6 +1081,7 @@ WORDS.sea = {
     ahk: ["i ma laq shaq", "i˨˩ma˧la̰˧ʃa̰˧"],
     wym: ["mjer", "mjer"],
     djr: ["moṉuk", "moɳuk"],
-    kmu: ["hage li", "haɡe li"]
+    kmu: ["hage li", "haɡe li"],
+    brx: ["लैथो", "lɯitʰo"]
   }
 };

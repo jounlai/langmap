@@ -1029,13 +1029,18 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                yle: new Set(['thanks']),   // r86: wrong cell removed; no sourced form found
+                gej: new Set(['cat']),   // r86: wrong cell removed; no sourced form found
+                urh: new Set(['butterfly', 'thanks']),   // r86: wrong cell removed; no sourced form found
+                mic: new Set(['wheel']),   // r86: wrong cell removed; no sourced form found
+                kpy: new Set(['love']),   // r86: wrong cell removed; no sourced form found
                 czh: new Set(['ear']),   // r85: wrong cell removed; no sourced form found
                 mnw: new Set(['hello']),   // r85: wrong cell removed; no sourced form found
                 sjo: new Set(['tree', 'love', 'hello']),   // r85: wrong cell removed; no sourced form found
                 hni: new Set(['cuckoo']),   // r85: wrong cell removed; no sourced form found
                 nys: new Set(['cat']),   // r83: wrong cell removed; no sourced form found
                 olk: new Set(['love', 'house', 'drink']),   // r83: wrong cell removed; no sourced form found
-                wbt: new Set(['love']),   // r83: wrong cell removed; no sourced form found
+                wbt: new Set(['love', 'thanks']),   // r83: wrong cell removed; no sourced form found
                 tlh: new Set(['rice']),   // r83: wrong cell removed; no sourced form found
                 abe: new Set(['love']),   // r83: wrong cell removed; no sourced form found
                 adt: new Set(['cat', 'thanks']),   // r83: wrong cell removed; no sourced form found

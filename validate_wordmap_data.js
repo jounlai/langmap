@@ -859,8 +859,11 @@ if (LANG_NAMES) {
 // documented linguistic fact, not a data gap, so it must not trigger the CI gate.
 let modernDashErrors = 0, oneSidedDashErrors = 0;
 // Modern loans join lol (owner, 2026-10-12): a sourced spelling may stand with no
-// sourced pronunciation; the map shows a quiet "/?/".
-const IPA_OPTIONAL = new Set(['lol', 'wifi', 'computer', 'sushi', 'chocolate', 'dopamine', 'atsign']);
+// sourced pronunciation; the map shows a quiet "/?/". Extended the same day to the
+// route-coloured loans (coffee, tea, sugar, orange) and the onomatopoeia (woof,
+// cockcrow): their spelling is a written convention that sources print far more
+// often than a transcription.
+const IPA_OPTIONAL = new Set(['lol', 'wifi', 'computer', 'sushi', 'chocolate', 'dopamine', 'atsign', 'coffee', 'tea', 'sugar', 'orange', 'woof', 'cockcrow']);
 const dso = ctx.DATA_STATUS_OVERRIDES || {};
 for (const code of codes) {
     const isHist = HIST_SET.has(code);

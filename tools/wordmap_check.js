@@ -121,7 +121,7 @@ for (const wd of Object.keys(W)) {
       if (c.length !== 2 || typeof c[0] !== 'string' || typeof c[1] !== 'string') badShape.push({ word: wd, lang: l, val: JSON.stringify(c).slice(0, 60) });
       // lol may be typed-only (wkwk, KTK): empty IPA allowed there (owner, 2026-10-05)
       // and the modern loans (wifi, computer, sushi, chocolate, dopamine, atsign), 2026-10-12
-      else if (!c[0] || (!c[1] && !['lol', 'wifi', 'computer', 'sushi', 'chocolate', 'dopamine', 'atsign'].includes(wd))) gaps.push({ word: wd, lang: l, val: JSON.stringify(c) });
+      else if (!c[0] || (!c[1] && !['lol', 'wifi', 'computer', 'sushi', 'chocolate', 'dopamine', 'atsign', 'coffee', 'tea', 'sugar', 'orange', 'woof', 'cockcrow'].includes(wd))) gaps.push({ word: wd, lang: l, val: JSON.stringify(c) });
     } else if (c && typeof c === 'object') {
       if (!c.form || !c.ipa) badShape.push({ word: wd, lang: l, val: 'object missing form/ipa: ' + JSON.stringify(c).slice(0, 60) });
     } else badShape.push({ word: wd, lang: l, val: JSON.stringify(c) });

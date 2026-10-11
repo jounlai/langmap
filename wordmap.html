@@ -1878,8 +1878,12 @@
         }
         .compare-add-btn:hover { background: #e8f0fe; }
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
-        .lm-master-try { display: inline-block; margin: 2px 0 0 8px; padding: 2px 4px; border: 0; background: none; color: #8a93a3; font-size: 11.5px; cursor: pointer; text-decoration: underline; text-decoration-color: #d5d9e0; text-underline-offset: 2px; }
-        .lm-master-try:hover { color: #5a6270; }
+        .lm-master-try { display: flex; align-items: center; gap: 10px; width: 100%; box-sizing: border-box; margin: 12px 0 2px; padding: 8px 10px; border: 1px dashed #e6c77a; border-radius: 10px; background: #fffaf0; color: #6b5420; text-align: start; cursor: pointer; font: inherit; }
+        .lm-master-try:hover { background: #fff3dc; }
+        .lm-mt-medal { font-size: 20px; flex: none; }
+        .lm-mt-txt { flex: 1; display: flex; flex-direction: column; gap: 1px; font-size: 11.5px; line-height: 1.35; }
+        .lm-mt-txt b { font-size: 12.5px; }
+        .lm-mt-go { flex: none; font-size: 12px; font-weight: 700; color: #8a5a00; border: 1px solid #e6c77a; border-radius: 999px; padding: 3px 10px; background: #fff; white-space: nowrap; }
         /* Custom-goods hand-off to Makoto Gadgets; see docs/custom_goods_handoff.md.
            Refined navy pill (matches the product), used by the compare panel. */
         .tshirt-cta-btn {
@@ -8467,11 +8471,6 @@
                 const lbl = inCmp ? lObj.remove : lObj.add;
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
-                // Language Master: take this language's test straight from its modal.
-                const MT = { en: 'Take the master test', ja: 'マスターテストに挑戦', ko: '마스터 테스트 도전', zh: '挑战大师测试', yue: '挑戰大師測試', vi: 'Thi bậc thầy', th: 'ทดสอบเป็นเซียน', id: 'Ikut tes master', hi: 'मास्टर टेस्ट दें', de: 'Meistertest machen', fr: 'Passer le test de maître', it: 'Fai il test da maestro', es: 'Hacer la prueba de maestro', pt: 'Fazer o teste de mestre', ru: 'Пройти тест мастера', uk: 'Пройти тест майстра', ar: 'خُض اختبار الإتقان', he: 'מבחן אלוף', sw: 'Fanya jaribio la ubingwa' };
-                let mastered = false; try { mastered = !!(JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {})[code]; } catch (_) {}
-                // A side feature: a small muted text link, not a button as loud as "compare" (owner, 2026-10-12).
-                html += `<button type="button" class="lm-master-try" data-master="${escapeHtml(code)}">🏅 ${escapeHtml(MT[uiLang] || MT[uiLang.split('_')[0]] || MT.en)}${mastered ? ' ✓' : ''}</button>`;
             })();
             // (The custom-goods "make a T-shirt" hand-off is no longer a small
             // button here — it's an image promo card appended at the BOTTOM of
@@ -8783,6 +8782,23 @@
                 const href = buildTshirtHref({ mode: 'single', codes: [code], names: [getNicknameOrName(code, lang)], natives: [lang.native || ''], formals: [displayName], uiLang });
                 return tshirtNudgeHtml(href, pick(msg.title), pick(msg.sub).replace('{lang}', displayName));
             };
+            // Language Master invitation: a light, playful card between the facts and
+            // the word list — a side feature, so neither at the top nor buried
+            // (owner, 2026-10-12). The whole card opens the test for this language.
+            (function () {
+                const T = {
+                    q: { en: 'Do you know this language?', ja: 'この言語、わかりますか？', ko: '이 언어, 알고 있나요?', zh: '你懂这种语言吗？', yue: '你識呢種語言嗎？', vi: 'Bạn có biết ngôn ngữ này?', th: 'คุณรู้ภาษานี้ไหม?', id: 'Kamu paham bahasa ini?', hi: 'क्या आप यह भाषा जानते हैं?', de: 'Kennst du diese Sprache?', fr: 'Connaissez-vous cette langue ?', it: 'Conosci questa lingua?', es: '¿Conoces este idioma?', pt: 'Você conhece este idioma?', ru: 'Знаете этот язык?', uk: 'Знаєте цю мову?', ar: 'هل تعرف هذه اللغة؟', he: 'מכירים את השפה הזאת?', sw: 'Unaijua lugha hii?' },
+                    d: { en: 'Take the 10-question master test — 9 right earns its badge.', ja: '10問のマスターテストで9問正解すると、認定バッジがもらえます。', ko: '10문제 마스터 테스트에서 9문제를 맞히면 인증 배지를 받아요.', zh: '参加10题大师测试，答对9题即可获得认证徽章。', yue: '做10題大師測試，答啱9題就攞到認證徽章。', vi: 'Làm bài thi 10 câu — đúng 9 câu để nhận huy hiệu.', th: 'ทำแบบทดสอบ 10 ข้อ ตอบถูก 9 ข้อรับเหรียญตรา', id: 'Ikuti tes 10 soal — benar 9 untuk dapat lencana.', hi: '10 प्रश्नों का टेस्ट दें — 9 सही पर बैज मिलेगा।', de: 'Mach den 10-Fragen-Test – 9 richtige bringen das Abzeichen.', fr: 'Passez le test en 10 questions — 9 bonnes réponses pour le badge.', it: 'Fai il test da 10 domande: con 9 giuste ottieni il distintivo.', es: 'Haz la prueba de 10 preguntas: con 9 aciertos ganas la insignia.', pt: 'Faça o teste de 10 perguntas — 9 certas valem o selo.', ru: 'Пройдите тест из 10 вопросов — 9 верных дают значок.', uk: 'Пройдіть тест із 10 питань — 9 правильних дають значок.', ar: 'خُض اختبارًا من 10 أسئلة — 9 إجابات صحيحة تمنحك الشارة.', he: 'עשו מבחן של 10 שאלות — 9 נכונות מזכות בתג.', sw: 'Fanya jaribio la maswali 10 — sahihi 9 upate beji.' },
+                    go: { en: 'Try it', ja: '挑戦する', ko: '도전하기', zh: '去挑战', yue: '去挑戰', vi: 'Thử ngay', th: 'ลองเลย', id: 'Coba', hi: 'आज़माएँ', de: 'Los', fr: 'Essayer', it: 'Prova', es: 'Probar', pt: 'Tentar', ru: 'Попробовать', uk: 'Спробувати', ar: 'جرّب', he: 'לנסות', sw: 'Jaribu' },
+                    done: { en: 'Mastered — play again', ja: 'マスター済み・もう一度', ko: '마스터함 · 다시 하기', zh: '已掌握 · 再来一次', yue: '搞掂咗 · 再嚟', vi: 'Đã thành thạo · chơi lại', th: 'เป็นเซียนแล้ว · เล่นอีก', id: 'Dikuasai · main lagi', hi: 'मास्टर · फिर खेलें', de: 'Gemeistert · nochmal', fr: 'Maîtrisée · rejouer', it: 'Padroneggiata · rigioca', es: 'Dominado · otra vez', pt: 'Dominado · de novo', ru: 'Освоен · ещё раз', uk: 'Опановано · ще раз', ar: 'مُتقنة · مرة أخرى', he: 'נשלטה · שוב', sw: 'Umeimudu · tena' }
+                };
+                const pk = m => m[uiLang] || m[uiLang.split('_')[0]] || m.en;
+                let mastered = false; try { mastered = !!(JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {})[code]; } catch (_) {}
+                html += `<button type="button" class="lm-master-try" data-master="${escapeHtml(code)}">`
+                    + `<span class="lm-mt-medal" aria-hidden="true">🏅</span>`
+                    + `<span class="lm-mt-txt"><b>${escapeHtml(pk(T.q))}</b><span>${escapeHtml(pk(T.d))}</span></span>`
+                    + `<span class="lm-mt-go">${escapeHtml(mastered ? pk(T.done) : pk(T.go))}</span></button>`;
+            })();
             html += nextTshirtNudge();
             html += '<table style="margin-top:10px;border-top:1px solid #eee;padding-top:8px">';
             html += `<thead><tr style="color:#999;font-size:10px;text-transform:uppercase;letter-spacing:0.04em"><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('concept') || 'Concept')}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('wordCol') || wt('word'))}</th><th style="text-align:left;font-weight:500;padding-bottom:4px">${escapeHtml(wt('ipaCol') || wt('ipa'))}</th></tr></thead>`;

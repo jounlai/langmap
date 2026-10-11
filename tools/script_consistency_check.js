@@ -117,7 +117,7 @@ const MIXED_OK = {
        "entry 20528 has NO 漢字 field — it prints the romanisation alone and glosses it " +
        "\u501f\u81ea\u65e5\u8a9e\u300c\u30c1\u30e7\u30b3\u30ec\u30fc\u30c8\u300d. The Han form 芝居力 exists but en.wiktionary marks it " +
        "'dated in Taiwanese Hokkien', and writing 巧克力 instead would silently convert a " +
-       "Japanese borrowing into a Mandarin one. Do not convert; the alternative is an empty cell.",
+       "Japanese borrowing into a Mandarin one. Do not convert; the alternative is an empty cell. Later Latin cells: dopamine tô-phá-mín, sushi sú-sih (Japanese loan; iTaigi writes it in romanisation only, r-2026-10-11).",
   nan_pn: "Penang Hokkien: 1 Latin cell, `chocolate` = coklat, among 64 Han. meta.script is " +
        "already 'Han characters / Latin (mixed)'. The word is the Malay one taken whole; " +
        "en.wiktionary lemmatises it at `coklat` and its own Penang example sentences embed " +

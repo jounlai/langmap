@@ -271,7 +271,7 @@ WORDS.sushi = {
     "mt": ["sushi", "ˈsuːʃi"],
     "mui": ["sushi", "ˈsuʃi"],
     "my": ["ဆူရှီ", "sʰùʃì"],
-    "nan": ["壽司", "su˥˧ siʔ˧˨"],
+    "nan": ["sú-sih", "su˥˧ siʔ˧˨"],  // Japanese loan すし, written in POJ: iTaigi gives sú-sih for 壽司 (壽司 itself reads siu-si, the Mandarin-style word). Was 壽司 with this reading — a reader pointed out the mismatch, 2026-10-11.
     "nan_pn": ["壽司", "siu˨˨ su˧˦"],
     "nan_qz": ["寿司", "siu˦˩ sɯ˧˧"],
     "nan_te": ["寿司", "siu˩˩ si˧˧"],

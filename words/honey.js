@@ -1138,6 +1138,10 @@ WORDS.honey = {
     yur: ["repchem", "reptʃem"],
     cay: ["otséhsdaʼ", "otséhsdaʔ"],
     rim: ["ruke", "ruke"],
-    mjg: ["zangna bali", "tsaŋna pali"]
+    mjg: ["zangna bali", "tsaŋna pali"],
+    agt: ["tahu", "tahu"],
+    ake: ["teusan", "teusan"],
+    spp: ["sɛɛre", "sɛːre"],
+    yle: ["mty:aa", "mtʲãː"]
   },
 };

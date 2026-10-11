@@ -1079,6 +1079,8 @@ WORDS.sea = {
     dds: ["dibe", "dibe"],
     qxs: ["ɕye", "ɕye˧˧"],
     ahk: ["i ma laq shaq", "i˨˩ma˧la̰˧ʃa̰˧"],
-    wym: ["mjer", "mjer"]
+    wym: ["mjer", "mjer"],
+    djr: ["moṉuk", "moɳuk"],
+    kmu: ["hage li", "haɡe li"]
   }
 };

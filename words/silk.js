@@ -803,6 +803,7 @@ WORDS.silk = {
     wym: ["zajd", "zajd"],
     bsq: ["sékè", "sékè"],
     mbc: ["seeta", "seeta"],
-    sbp: ["haliili", "haliːli"]
+    sbp: ["haliili", "haliːli"],
+    kos: ["silk", "silk"]
   }
 };

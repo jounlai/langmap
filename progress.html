@@ -38,6 +38,8 @@
            hides both: the living figure is dragged down by corpora nobody can
            add to, and the historical one is flattered by living languages. */
         .sum { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 8px; }
+        .sum .main { flex-basis: 100%; border-color: #c9a227; background: #fffaf0; }
+        .sum .main b { font-size: 2.1em; }
         .sum div {
             flex: 1 1 165px; border: 1px solid #e3e3e3; border-radius: 8px;
             padding: 10px 14px; background: #fafafa;
@@ -172,7 +174,7 @@
         <p class="lead" style="margin-top:22px" id="foot"></p>
     </div>
 
-    <script src="progress_data.js?v=177"></script>
+    <script src="progress_data.js?v=178"></script>
     <script>
     (function () {
         'use strict';
@@ -257,8 +259,20 @@
             }
             var lv = tot(p.living), hs = tot(p.hist);
             var all = [lv[0] + hs[0], lv[1] + hs[1]];
+            // Headline (owner, 2026-10-12): living languages × the words every
+            // language is expected to have (core + filling in). Partial 🧪 words
+            // and historical rows have gaps that are often the right answer, so
+            // they are shown beside it, not folded into it.
+            var mainF = 0, mainT = 0;
+            for (var w2 = 0; w2 < W; w2++) {
+                if (WORDS[w2][3] === 'partial') continue;
+                mainF += count(w2, p.living); mainT += p.living.length;
+            }
             document.getElementById('sum').innerHTML =
-                  '<div><b>' + pct(all[0], all[1]).toFixed(1) + '%</b>'
+                  '<div class="main"><b>' + pct(mainF, mainT).toFixed(1) + '%</b>'
+                    + '<span>living languages &times; main words</span><em>' + fmt(mainF) + ' of ' + fmt(mainT)
+                    + ' cells &middot; core and filling-in words, without the partial 🧪 ones</em></div>'
+                + '<div><b>' + pct(all[0], all[1]).toFixed(1) + '%</b>'
                     + '<span>overall</span><em>' + fmt(all[0]) + ' of ' + fmt(all[1]) + ' cells</em></div>'
                 + '<div><b>' + pct(lv[0], lv[1]).toFixed(1) + '%</b>'
                     + '<span>living languages</span><em>' + fmt(lv[0]) + ' of ' + fmt(lv[1])

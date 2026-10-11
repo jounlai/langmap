@@ -1127,6 +1127,7 @@ WORDS.milk = {
     hai: ["masmúus tlʼánuwaay", "masmúːs tɬʼánuwaːj"],
     bor: ["mokuru kuru", "mokuɾu kuɾu"],
     abe: ["todosnôbo", "todosnɔ̃bo"],
-    win: ["ceewáznį", "tʃeːˈwaznĩ"]
+    win: ["ceewáznį", "tʃeːˈwaznĩ"],
+    mcf: ["shuma", "ʃuma"]
   },
 };

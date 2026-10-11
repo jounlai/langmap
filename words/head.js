@@ -1184,6 +1184,7 @@ WORDS.head = {
     peh: ["tɵrɵŋ", "tɵrɵŋ"],
     adx: ["མགོ", "nɡo"],
     wym: ["hiöet", "hiøet"],
-    ii: ["ꀂꏾ", "i˧˧tɕʰi˧˧"]
+    ii: ["ꀂꏾ", "i˧˧tɕʰi˧˧"],
+    pao: ["kwo", "kʷo"]
   },
 };

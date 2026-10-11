@@ -1147,6 +1147,7 @@ WORDS.daughter = {
     bor: ["onaregody aredy", "onaɾeɡodɨ aɾedɨ"],
     kxv: ["māŋga", "maːŋɡa"],
     sad: ["thamesi ǁnosu", "tʰamesi ǁnosu"],
-    gqu: ["li42 məi35", "li˦˨ məi˧˥"]
+    gqu: ["li42 məi35", "li˦˨ məi˧˥"],
+    xav: ["daʼra sipiʼõ", "daʔɾa sipiʔɔ̃"]
   },
 };

@@ -1878,6 +1878,8 @@
         }
         .compare-add-btn:hover { background: #e8f0fe; }
         .compare-add-btn.added { background: #1a73e8; color: #fff; }
+        .lm-master-try { display: inline-block; margin: 2px 0 0 8px; padding: 2px 4px; border: 0; background: none; color: #8a93a3; font-size: 11.5px; cursor: pointer; text-decoration: underline; text-decoration-color: #d5d9e0; text-underline-offset: 2px; }
+        .lm-master-try:hover { color: #5a6270; }
         /* Custom-goods hand-off to Makoto Gadgets; see docs/custom_goods_handoff.md.
            Refined navy pill (matches the product), used by the compare panel. */
         .tshirt-cta-btn {
@@ -8468,7 +8470,8 @@
                 // Language Master: take this language's test straight from its modal.
                 const MT = { en: 'Take the master test', ja: 'マスターテストに挑戦', ko: '마스터 테스트 도전', zh: '挑战大师测试', yue: '挑戰大師測試', vi: 'Thi bậc thầy', th: 'ทดสอบเป็นเซียน', id: 'Ikut tes master', hi: 'मास्टर टेस्ट दें', de: 'Meistertest machen', fr: 'Passer le test de maître', it: 'Fai il test da maestro', es: 'Hacer la prueba de maestro', pt: 'Fazer o teste de mestre', ru: 'Пройти тест мастера', uk: 'Пройти тест майстра', ar: 'خُض اختبار الإتقان', he: 'מבחן אלוף', sw: 'Fanya jaribio la ubingwa' };
                 let mastered = false; try { mastered = !!(JSON.parse(localStorage.getItem('lm_master_v1') || '{}') || {})[code]; } catch (_) {}
-                html += `<button type="button" class="compare-add-btn lm-master-try${mastered ? ' added' : ''}" data-master="${escapeHtml(code)}">🏅 ${escapeHtml(MT[uiLang] || MT[uiLang.split('_')[0]] || MT.en)}</button>`;
+                // A side feature: a small muted text link, not a button as loud as "compare" (owner, 2026-10-12).
+                html += `<button type="button" class="lm-master-try" data-master="${escapeHtml(code)}">🏅 ${escapeHtml(MT[uiLang] || MT[uiLang.split('_')[0]] || MT.en)}${mastered ? ' ✓' : ''}</button>`;
             })();
             // (The custom-goods "make a T-shirt" hand-off is no longer a small
             // button here — it's an image promo card appended at the BOTTOM of

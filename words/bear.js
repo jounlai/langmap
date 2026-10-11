@@ -1259,7 +1259,7 @@ WORDS.bear = {
     el: ["αρκούδα", "arˈkuða"],
     pnt: ["άρκον", "ˈaɾkon"],
     sa: ["ऋक्षः", "r̥kʂɐɦ"],
-    h_vedic: ["ऋक्षः", "ŕ̥kʂɐɦ"], // was ["ऋक्षः", "ŕ̥kʂaɦ"] (r51 audit 2026-10-04)
+    h_vedic: ["ऋक्षः", "ŕ̩kʂɐɦ"], // was ["ऋक्षः", "ŕ̥kʂaɦ"] (r51 audit 2026-10-04) // was ["ऋक्षः", "ŕ̥kʂɐɦ"] (vi dialect rules 2026-10-06)
     sa_edu: ["ऋक्षः", "rikʃəɦ"],
     pi: ["अच्छ", "atʃːʰa"],
     pi_edu: ["accha", "atʃːʰa"],
@@ -1766,7 +1766,7 @@ WORDS.bear = {
     kac: ["tsap", "tsap˥˥"],
     ers: ["xaʴ", "xa˞́"],
     cng: ["ti", "ti"],
-    qxs: ["ti", "ti"],
+    qxs: ["ti", "ti˧˧"], // was ["ti", "ti"] (vi dialect rules 2026-10-06)
     ii: ["ꊈ", "ɣo˧˧"],
     nxq: ["ggvq", "ɡv̩˨˩"],
     za: {

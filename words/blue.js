@@ -1620,7 +1620,7 @@ WORDS.blue = {
     sn: ["bhuluu", "buluː"],  // The dictionary states the origin explicitly as English. Shona's inherited colour adjectives are the three-term set -tsvuku / -chena / -tema; modern green is likewise the English loan girini. Variant spelling bhuruu is commoner in Shona orthography, which otherwise lacks l.
     so: ["buluug", "buˈluːɡ"],  // Somali buluug is an English loan (blue). The inherited system has cas/cad/madow and no basic blue; cagaar covers green and extends over blue-green.
     sr: ["плав", "plaːʋ"],  // Serbian плав against зелен, the same system as Croatian; модар is the darker blue.
-    srm: ["baáu", "baˈau"],  // Saramaccan baáu, scored by WOLD as clearly borrowed — from Dutch blauw rather than from the English-lexifier core.
+    srm: ["baáu", "baáu"],  // Saramaccan baáu, scored by WOLD as clearly borrowed — from Dutch blauw rather than from the English-lexifier core. // was ["baáu", "baˈau"] (vi dialect rules 2026-10-06)
     ssf: ["madishlum", "madiʃlum"],  // Given in the ma- stative form to match the row's mashinaw / mapuzi. Blust glosses the root 'green/blue' outright, so Thao is a clear grue language.
     ssw: ["luhlata", "luɬaːta"],  // siSwati cognate of Zulu/Xhosa -luhlaza; one term for blue and green. An English-derived bula also circulates for blue but -luhlata is the basic term.
     st: ["tala", "tala"],  // One term for blue and green, as across Sotho-Tswana. Blue is specified as botala ba leholimo 'the tala of the sky', green as botala ba jwang 'the tala of the grass'. Cited as the stem to match -khubelu/-tshweu/-ntsho in this row.

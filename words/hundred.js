@@ -604,7 +604,7 @@ WORDS.hundred = {
     cab: ["san", "saŋ"],   // from French cent, like Haitian san
     // --- Africa — Bantu, Nilotic, Cushitic, Mande, Kwa ---------------------
     ki: ["igana", "iɣana"],
-    mer: ["igana", "iɡana"],
+    mer: ["ĩgana", "eɡana"],
     ebu: ["ĩgana", "eɡana"],
     suk: ["igana", "iɡana"],
     nym: ["igana", "iɡana"],
@@ -1101,7 +1101,7 @@ WORDS.hundred = {
     blt: ["ꪭ꫁ꪮꪥ", "hɔj˧˩ˀ"],
     mvf: ["jong", "ʥoŋ"],
     lwl: ["ʼyuea", "ʔᵊjɨa̯"],
-    mch: ["hyaatodea soto", "hjaːtodea soto"],
+    mch: ["hyaatodea soto", "hjaːtoɾ̠ea soto"],
     mzh: ["sien", "sjen"],
     sva: ["აშირ", "aʃir"],
     jio: ["kɯːn", "kɯːn˥"],
@@ -1123,7 +1123,7 @@ WORDS.hundred = {
     p_hmx: ["*pæk", "pæk"],
     duu: ["ɕɑ", "ɕɑ"],
     kdt: ["muːj ruʌj", "muːj ruʌj"],
-    qxs: ["tʂʰi", "tʂʰi"],
+    qxs: ["tʂʰi", "tʂʰi˥˥"],
     srh: ["sad", "sad"],
     atb: ["rashô", "ʒa˨˩ʃo˥˩"],
     adx: ["བརྒྱ་ཐམ་པ", "dʑatʰamba"],

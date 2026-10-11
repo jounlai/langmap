@@ -134,7 +134,7 @@ WORDS.dopamine = {
     "gu": ["ડોપામાઇન", "ɖoːpaːˈmaːɪn"],
     "ha": ["Dopamine", "dopamine"],
     "hr": ["dopamin", "doˈpamiːn"],
-    "hy": ["Դոֆամին", "dofaˈmin"],
+    "hy": ["դոֆամին", "dofɑˈmin"],
     "is": ["dópamín", "ˈtouːpaˌmin"],
     "jv": ["dopamin", "dopaˈmin"],
     "ka": ["დოფამინი", "ˈdopʰamini"],
@@ -320,6 +320,14 @@ WORDS.dopamine = {
     mzn: ["دوپامین", "dopɒːmin"],
     gsw_w: ["Dopamin", "dopaˈmiːn"],
     mwl: ["dopamina", "dopaˈminɐ"],
-    hyw: ["տոփամին", "dopʰɑˈmin"]
+    hyw: ["տոփամին", "dopʰɑˈmin"],
+    sco: ["dopamine", ""],
+    bik: ["dopamine", ""],
+    ba: ["дофамин", ""],
+    tcy: ["ಡೋಪಮೈನ್", ""],
+    new: ["डोपामिन", ""],
+    to: ["dopamine", ""],
+    mt: ["dopamine", ""],
+    gd: ["dopamain", ""]
   },
 };

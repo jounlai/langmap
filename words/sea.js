@@ -596,7 +596,7 @@ WORDS.sea = {
     gor: ["deheto", "deˈheto"],
     unr: ["samundar", "samundar"],
     grt: ["sagal", "saɡal"],
-    mnw: ["မှာသၟိတ်", "hma həmɛt"],
+    mnw: ["သၟာသၟိတ်", "hma həmɛt"],
     mtq: ["pế", "pe"],
     tyz: ["hải", "haːj˨˩˧"],
     nut: ["hải", "haːj˨˩˧"],

@@ -1157,7 +1157,7 @@ WORDS.mouth = {
     car: ["pota", "pota"],
     pmi: ["ȵõ35", "ɲõ˧˥"],
     twm: ["khᴀ53", "kʰᴀ˥˧"],
-    qxs: ["χqɑ", "χqɑ"],
+    qxs: ["χqɑ", "χqɑ˥˥"],
     kpj: ["irɨ", "irɨ"],
     guu: ["kahikɨ", "kahikɨ"],
     mui: ["mulut", "mulut"],

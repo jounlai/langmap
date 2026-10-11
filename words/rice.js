@@ -780,7 +780,7 @@ WORDS.rice = {
     mez: ["manōmaeh", "manoːmæh"],
     pmi: ["tɕhyø35", "tɕʰyø˧˥"],
     twm: ["dem13", "dem˩˧"],
-    qxs: ["qʰə", "qʰə"],
+    qxs: ["qʰə", "qʰə˧˧"],
     adx: ["འབྲས", "ndʐe"],
     dur: ["tʉ́d hó̧d", "tʉd hõd"],
     guu: ["atoɾoso", "atoɾoso"],

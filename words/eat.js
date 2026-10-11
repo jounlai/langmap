@@ -125,7 +125,7 @@ WORDS.eat = {
       acw: ["ياكل", "jaːkil"],
       swb: ["ula", "ula"],
       adx: ["ཟ་", "sa"],
-      qxs: ["dʒɿ", "dʒɿ"],
+      qxs: ["dʒɿ", "dʒɿ˧˧"],
       duu: ["kɑi", "kɑi"],
       jya: ["ka-za", "kaza"],
       ers: ["dzɿ", "dzɿ"],

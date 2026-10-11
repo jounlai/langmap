@@ -1166,7 +1166,7 @@ WORDS.stone = {
     szy: ["baʼtu", "baʔtu"],
     mez: ["aqsan", "aʔsan"],
     umu: ["asun", "əsən"],
-    qxs: ["ʁo", "ʁo"],
+    qxs: ["ʁo", "ʁo˨˦˩"],
     itl: ["вач", "βatʃ"],
     rut: ["духул", "duχul"],
     kjj: ["кӏачӏын", "kʼatʃʼɨn"],

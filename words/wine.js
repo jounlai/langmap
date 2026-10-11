@@ -1024,7 +1024,7 @@ WORDS.wine = {
     ker: ["kumuy bə atələələm", "kumuj bə atələːləm"],
     ess: ["вино", "vinɔ"],
     vai: ["ꔠꔪ ꗬ", "ɡɛpi kpɛ"],
-    mch: ["chööjedüüdü ekkudu", "tʃəːhedɨːdɨ ekːudu"], // was ["chääjedöödö eccudu", "tʃɨːʒedəːdə ekːudu"] (vi dialect rules 2026-10-06)
+    mch: ["chööjedüüdü ekkudu", "tʃəːheɾ̠ɨːɾ̠ɨ ekːuɾ̠u"], // was ["chääjedöödö eccudu", "tʃɨːʒedəːdə ekːudu"] (vi dialect rules 2026-10-06) // was ["chööjedüüdü ekkudu", "tʃəːhedɨːdɨ ekːudu"] (vi dialect rules 2026-10-06)
     bdq: ["sik hơmu", "sik həmu"],
     moh: ["otsítsia", "otsítsja"],
     toc: ["vino", "bino"],
@@ -1032,7 +1032,7 @@ WORDS.wine = {
     wmt: ["wayin", "ˈwajin"],
     ygr: ["vaeni", "vaeni"],
     aa: ["kamri", "kamri"], // was ["qinab kamri", "ʕinab kamri"] (vi dialect rules 2026-10-06)
-    kfa: ["ದ್ರಾಕ್ಷಿರಸ", "d̪raːkʂirasa"],
+    kfa: ["ದ್ರಾಕ್ಷಿರಸ", "draːkʂirasa"], // was ["ದ್ರಾಕ್ಷಿರಸ", "d̪raːkʂirasa"] (vi dialect rules 2026-10-06)
     cni: ["ovaja", "oβaha"],
     ilo: ["arak", "ˈʔarak"],
     bik: ["arak", "ˈʔaɾak"],
@@ -1861,7 +1861,7 @@ WORDS.wine = {
     pt_gw: ["biñu", "ˈbiɲu"],
     hns: ["wien", "win"],
     sa: ["द्राक्षारसः", "draːkʂaːrasaɦ"],
-    h_vedic: ["सुरा", "suraː"],
+    h_vedic: ["सुरा", "súraː"], // was ["सुरा", "suraː"] (vi dialect rules 2026-10-06)
     pi: ["सुरा", "suraː"],
     pmh: ["सुरा", "suraː"],
     dty: ["वाइन", "waːin"],

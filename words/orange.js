@@ -567,7 +567,7 @@ WORDS.orange = {
     pms: "naranj",
     mwl: "naranj",
     pnt: "portakal",
-    dsb: "naranj",
+    dsb: "china", // route was naranj (vi dialect rules 2026-10-06)
     gv: "naranj",
     kw: "local",
     zza: "portakal",
@@ -679,7 +679,7 @@ WORDS.orange = {
     wls: ["moli", "moli"],
     pdc: ["Arrentsch", "ˈarəntʃ"],
     lol: ["lilala", "lilala"],
-    dng: ["чынзы", "tʂʰəŋ˨˦tsɨ"],
+    dng: ["чынзы", "tʂʰəŋ˨˦tsɹ̩"], // was ["чынзы", "tʂʰəŋ˨˦tsɨ"] (vi dialect rules 2026-10-06)
     hch: ["naraacáxi", "naɾaːˈkaʃi"],
     srh: ["nuranǰi", "nuɾandʑi"],
     dur: ["ləmɔ́", "ləmɔ"],
@@ -1148,7 +1148,7 @@ WORDS.orange = {
     pms: ["aransa", "aˈraŋsa"],
     mwl: ["lharanja", "ʎaˈɾɐ̃ʒa"], // was ["laranja", "laˈɾɐ̃ʒa"] (r29 fix 2026-10-02)
     pnt: ["πορτοκάλ", "portoˈkal"],
-    dsb: ["pomerantša", "ˈpɔmɛrantʃa"],
+    dsb: ["apelsina", "ˈapɛlsina"], // was ["pomerantša", "ˈpɔmɛrantʃa"] (vi dialect rules 2026-10-06)
     gv: ["oarn", "ɔːrn"],
     kw: ["owraval", "ɔwˈraval"],
     zza: ["pirteqal", "pɪɾtɛˈqal"],

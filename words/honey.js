@@ -878,7 +878,7 @@ WORDS.honey = {
     quz: ["miskʼi", "miskʼi"],
     ksw: ["ကနဲစီ", "kanɛsɔ"],
     pwo: ["န့ၫစၩ့", "nɪ saɴ"],
-    hni: ["biaqqul", "bja˧˩tɕʰu˥˥"],
+    hni: ["biaqeel", "bja˧˩ɯ˥˥"],
     khg: ["སྦྲང་རྩི", "dʐaŋtsi"],
     abs: ["madu", "madu"],
     max: ["madu", "madu"],

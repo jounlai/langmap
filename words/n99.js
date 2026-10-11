@@ -1297,7 +1297,7 @@ WORDS.n99 = {
     yo:    ["ọ̀kàndínlọ́gọ́rùn-ún", "ɔ̀kãdĩ́lɔ́ɡɔ́ɾṹṹ"],
     sq:    ["nëntëdhjetë e nëntë", "nəntəˈðjetə e ˈnəntə"],
     el:    ["ενενήντα εννέα", "eneˈninda eˈnea"],
-    hy:    ["իննսունինը", "innsuˈninə"],
+    hy: ["իննսունինը", "innəsuˈninə"], // was ["իննսունինը", "innsuˈninə"] (vi dialect rules 2026-10-06)
     mn:    ["ерэн ес", "jeren jes"],
     th:    ["เก้าสิบเก้า", "kaːw˥˩ sip˨˩ kaːw˥˩"],
     fa:    ["نود و نه", "næˈvæd o noh"],
@@ -1306,7 +1306,7 @@ WORDS.n99 = {
     uk:    ["дев'яносто дев'ять", "dewjɐˈnɔstɔ ˈdɛwjɐtʲ"],
     cs:    ["devadesát devět", "ˈdɛvadɛsaːt ˈdɛvjɛt"],
     ro:    ["nouăzeci și nouă", "nowəˈzetʃʲ ʃi ˈnowə"],
-    bg:    ["деветдесет и девет", "devedeˈset i ˈdevet"],
+    bg: ["деветдесет и девет", "dɛvɛddɛˈsɛt i ˈdɛvɛt"], // was ["деветдесет и девет", "devedeˈset i ˈdevet"] (vi dialect rules 2026-10-06)
     kk:    ["тоқсан тоғыз", "toqˈsan toˈʁəz"],
     km:    ["កៅសិបប្រាំបួន", "kawsəp praːmɓuən"],
     ms:    ["sembilan puluh sembilan", "səmbilan puluh səmbilan"],
@@ -1386,7 +1386,7 @@ WORDS.n99 = {
     ht:       ["katrevendiznèf", "katɾevɛ̃diznɛf"],
     pt:       ["noventa e nove", "nuˈvẽtɐ i ˈnɔvɨ"],
     lmo:      ["novanta-neuv", "nuˈvanta ˈnøf"],
-    ml:       ["തൊണ്ണൂറ്റൊമ്പത്", "t̪oɳːuːtːombat̪ɨ"],
+    ml: ["തൊണ്ണൂറ്റൊമ്പത്", "t̪oɳːuːtːombad̪ɨ"], // was ["തൊണ്ണൂറ്റൊമ്പത്", "t̪oɳːuːtːombat̪ɨ"] (vi dialect rules 2026-10-06)
     mnc:      ["ᡠᠶᡠᠨᠵᡠ ᡠᠶᡠᠨ", "ujundʒu ujun"],
     mi:       ["iwa tekau mā iwa", "iwa tekau maː iwa"],
     tpi:      ["nainpela ten nain", "nainpela ten nain"],

@@ -1584,7 +1584,7 @@ WORDS.foot = {
     gv: ["cass", "kaːs"],  // As Irish and Scottish Gaelic: cass is the whole lower limb.
     gym: ["ngoto", "ŋoto"],  // Ngäbere splits: the NT washes ngoto and breaks ngüre.
     h_tagalog: ["ᜉᜀ", "paˈʔa"],  // Baybayin ᜉᜀ paa, one word for the limb — the Tagalog reflex of Austronesian *qaqay.
-    h_vedic: ["पात्", "paːt"],  // Mayrhofer EWAia II s.v. pád- (RV+), nom. sg. pā́t as the row writes consonant-stem nominatives. jaṅghā- is the shank.
+    h_vedic: ["पात्", "páːt"],  // Mayrhofer EWAia II s.v. pád- (RV+), nom. sg. pā́t as the row writes consonant-stem nominatives. jaṅghā- is the shank. // was ["पात्", "paːt"] (vi dialect rules 2026-10-06)
     ha: ["ƙafa", "kʼáfàː"],  // Hausa ƙafa is the whole lower limb; hannu likewise covers hand and arm, so this row's hand cell behaves the same way.
     hai: ["stʼáay", "stʼɑ́ːj"],  // IDS splits Northern Haida stˀáay from ḳˀulúu; this row's own stʼáat fixes the reading.
     haj: ["theng", "ʈʰeŋ"],  // ঠেং generalised to the whole lower limb, where Bengali keeps it as a colloquial leg word only; thengpata is the foot-specific compound.
@@ -2131,7 +2131,7 @@ WORDS.foot = {
     ssw: ["lunyawo", "luɲawo"],  // siSwati splits them like its Nguni neighbours, with umlente for the leg where Zulu has umlenze.
     ssy: ["iba", "iba"],  // Class inferred from the Afar cognate. IPA is the plain reading of the orthography, following how this row's own hand cell writes gaba as ɡaba.
     st: ["leoto", "leoto"],  // leoto covers the whole lower limb: Casalis's 1905 English-Sotho vocabulary gives it for foot and for leg alike, and serope is the thigh.
-    stq: ["Fout", "foʊt"],  // Fout vs Been, as German.
+    stq: ["Fout", "foːu̯t"],  // Fout vs Been, as German. // was ["Fout", "foʊt"] (vi dialect rules 2026-10-06)
     su: ["suku", "suku"],  // The same suku that is already on this map as Old Sundanese; bitis is the lower leg and paha the thigh, neither a rival. sampéan is the refined-register word.
     suk: ["lupambala", "lupambala"],  // Sukuma keeps mhambala apart from the magulu it breaks in John 19; the 2000 and 2015 Bibles both wash mhambala and Mark 9:45 gives the singular lupambala.
     sukh: ["ตีน", "tiːn"],  // จารึกวัดศรีชุม 2/32 lists แข้ง–ขา against มือ–ตีน in one breath, so Sukhothai already keeps the Tai tin/kha split; ตีน is also the plain word for a monk's feet at 2/14. เท้า is 'as far as' in this corpus, not a body part.

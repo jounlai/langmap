@@ -2289,7 +2289,7 @@ WORDS.we = {
     nij: ["itah / ikei", "itah / ikei"],
     sda: ["kita / kami", "kita / kami"],
     lld: ["nëus", "ˈnəus"],
-    stq: ["wie", "viː"],
+    stq: ["wie", "vi"], // was ["wie", "viː"] (vi dialect rules 2026-10-06)
     wym: ["wir", "vir"],
     yuc: ["ʼõdi / nõdi", "ʔõdi / nõdi"],
     kgg: ["tok", "tok"],

@@ -1033,7 +1033,7 @@ WORDS.book = {
     es_ni: ["libro", "ˈliβɾo"],
     pmi: ["dʑi35dʑi35", "dʑi˧˥dʑi˧˥"],
     twm: ["ji13ci53", "ji˩˧ci˥˧"],
-    qxs: ["ʒɿʒɿ", "ʒɿʒɿ"],
+    qxs: ["ʒɿʒɿ", "ʒɿ˧˩ʒɿ˧˧"],
     adx: ["དཔེ་ཆ", "χwetɕa"],
     bsk: ["—", "—"],
     blr: ["ka31 nak33", "ka˧˩ nak˧˧"],
@@ -1074,7 +1074,7 @@ WORDS.book = {
     win: ["wagáx", "waˈɡax"],
     duu: ["dʑiɟe", "dʑi˥˥ɟe˥˥"],
     atb: ["laiká bùk", "lai˨˩ka̱˥˥puk˨˩"],
-    mch: ["jajeeda", "haheːda"],
+    mch: ["jajeeda", "haheːɾ̠a"],
     mjg: ["pujiu", "pʰudʑiu"]
   }
 };

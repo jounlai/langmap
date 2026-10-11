@@ -401,6 +401,7 @@ WORDS.atsign = {
     gsw: ["Affenschwanz", "ˈafənʃvants"],
     ky: ["маймылча", "mɑjmɯlˈtʃɑ"],
     xal: ["эт", "et"],
-    fra_jer: ["à", "a"]
+    fra_jer: ["à", "a"],
+    csb: ["smôrzcz", ""]
   },
 };

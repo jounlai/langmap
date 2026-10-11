@@ -98,7 +98,7 @@ WORDS.snow = {
     afb: ["ثلج", "θaldʒ"],
     acw: ["ثلج", "taldʒ"],
     adx: ["ཁངས", "kʰaŋ"],
-    qxs: ["məpɑ", "məpɑ"],
+    qxs: ["məpɑ", "mə˧˩pɑ˥˥"],
     duu: ["tɯwɑn", "tɯwɑn"],
     jya: ["ta-jpa", "tajpa"],
     ers: ["zɿ", "zɿ"],

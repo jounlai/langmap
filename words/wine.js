@@ -47,6 +47,7 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    pau: "ie",
     kpe: "other",
     dng: "other",
     ett: "ie",
@@ -224,7 +225,6 @@ WORDS.wine = {
     gbm: "other",
     ium: "other",
     ami: "other",
-    ik: "other",
     iu: "ie",
     aoc: "ie",
     pis: "ie",
@@ -960,6 +960,7 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    pau: ["bilong", "biloŋ"],
     kpe: ["ŋwã̂ai", "ŋwã̂ːi"],
     dng: ["путоҗю", "pʰu˨˦tʰɔ˨˦tɕiou˥˩"],
     ett: ["vinum", "ˈwinum"],
@@ -1137,7 +1138,7 @@ WORDS.wine = {
     gbm: ["दाखमधु", "daːkʰmədʱu"],
     ium: ["aʼngunc diuv", "aŋun˨˩ tiu˦"],
     ami: ["fadisosoʼ a ^pah", "faðisosoʔ a ʔpah"],
-    ik: ["misuġuq", "misuʁuq"],
+    ik: ["—", "—"],
     iu: ["ᐅᐂᓂ", "uvaːni"],
     aoc: ["vino", "bino"],
     pis: ["waen", "waen"],

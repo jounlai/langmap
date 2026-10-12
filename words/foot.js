@@ -1639,7 +1639,7 @@ WORDS.foot = {
     ie: ["pede", "ˈpede"],  // Occidental-Interlingue keeps pede apart from gambe ‘leg’, as its Romance sources do.
     ig: ["ụkwụ", "ʊkʷʊ"],  // ụkwụ covers the whole lower limb; the leg-specific word ogwe ụkwụ is a compound on it (CMS Dictionary of the Ibo Language, 1923).
     ii: ["ꏸꑭ", "tɕɿ˧˧ɕɿ˧˧"],  // Gerner's Nuosu grammar writes the foot ꏸꑭ jy xy, ZMYYC 263.21 tɕɿ³³ɕɿ³³; the leg is 264.21 bu³³le³³, the *bwal root Hani and Akha also keep, so Nuosu sits with Loloish against Burmish.
-    ik: ["isigak", "isiɡak"],  // The Iñupiaq New Testament washes isigatka at John 13:6 and breaks niu- at 19:31-33, keeping sauniq for the bones at 19:36, so isigak splits from niu.
+    ik: ["isigak", "isiɣak"],  // The Iñupiaq New Testament washes isigatka at John 13:6 and breaks niu- at 19:31-33, keeping sauniq for the bones at 19:36, so isigak splits from niu. // was ["isigak", "isiɡak"] (vi dialect rules 2026-10-06)
     ilo: ["saka", "ˈsaka"],  // ACD s.v. Ilokano sáka 'foot, leg' in one entry; dapán is the sole and lúlod the shin, neither a rival leg word.
     inh: ["ког", "koɡ"],  // As Chechen.
     io: ["pedo", "ˈpedo"],  // As Esperanto.

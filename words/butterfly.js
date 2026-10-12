@@ -184,7 +184,7 @@ WORDS.butterfly = {
     hu: ["lepke", "ˈlɛpkɛ"],  // pillangó is the common alternative, also recorded by IDS.
     krl: ["liipukkaini", "ˈliːpukːɑini"],
     olo: ["liipukku", "ˈliːpukːu"],
-    vep: ["lipkaine", "ˈlipkɑine"],
+    vep: ["lipkaine", "ˈlipkaine"],
     liv: ["li’bla’bbiņ", "liˀblɑˀbːiɲ"],  // Reduplicated lib-lab- with vowel alternation; NorthEuraLex records a second Livonian form libālabā.
     kpv: ["бобув", "bobuv"],  // Reduplicated bo-buv; cf. Komi-Permyak бабыв and Udmurt бубыли.
     koi: ["бабыв", "babɨv"],  // Reduplicated ba-bɨv.
@@ -595,7 +595,7 @@ WORDS.butterfly = {
     co: ["farfalla", "farˈfalla"],
     ast: ["caparina", "kapaˈɾina"],
     csb: ["mòtil", "ˈmwɛtil"],
-    frp: ["parpelyon", "parpəˈʎõ"],
+    frp: ["parpelyon", "parpəˈʎɔ̃"],
     lzz: ["ფარფალი", "pʰarpʰali"],
     pdc: ["Fleddermaus", "ˈflɛdərmaʊs"],
     ia: ["papilion", "papiliˈon"],

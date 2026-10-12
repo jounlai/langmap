@@ -55,6 +55,8 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    com: "grue",
+    frp: "distinct",
     atj: "distinct",
     prk: "grue",
     grt: "dark",
@@ -919,6 +921,8 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    com: ["ebibitʉ", "ebibitɨ"],
+    frp: ["blu", "bly"],
     atj: ["waseskonaw", "waseskonaw"],
     prk: ["glāi", "kla̤i"],
     grt: ["gisim", "ɡisim"],
@@ -1535,7 +1539,7 @@ WORDS.blue = {
     hy: ["կապույտ", "kɑˈpujt"],  // Eastern Armenian կապույտ against կանաչ 'green'.
     iba: ["biru", "biɾu"],  // Class uncertain: Wiktionary and Wikipedia give two separate lexemes (biru 'blue', gadung 'green') but neither addresses whether one covers the other in real usage; Richards' An Iban-English Dictionary was not available to check. IPA uses ɾ to match this row's existing mirah/miɾah.
     id: ["biru", "ˈbiru"],  // Indonesian biru against hijau. WOLD scores biru as showing very little evidence of borrowing. The word descends from Old Javanese birū, which WAS a grue term (pale blue through greenish blue to turquoise) — the split is an Indonesian innovation.
-    ik: ["suŋauraaq", "suŋauʁaːq"],  // North Alaskan Iñupiaq: blue is suŋauraaq and green suŋaaqtaaq — the same suŋa- root with different derivational suffixes, so the cool range is one root specified two ways rather than two colour words.
+    ik: ["suŋauraaq", "suŋauʐaːq"],  // North Alaskan Iñupiaq: blue is suŋauraaq and green suŋaaqtaaq — the same suŋa- root with different derivational suffixes, so the cool range is one root specified two ways rather than two colour words. // was ["suŋauraaq", "suŋauʁaːq"] (vi dialect rules 2026-10-06)
     ilo: ["asul", "aˈsul"],  // The archive.org OCR of Rubino's page renders acute-accented vowels as digraphs — 'asiil' = asúl, 'nalabfiga' = nalabága, 'puriw' = puraw, 'kol6r' = kolór, 'b6rde' = bérde. The red/white/black forms in that list (nalabága, puraw, nangisit) are exactly this row's existing cells, so the list is the right register. asúl is from Spanish azul; green is the separate Spanish loan bérde.
     inh: ["сийна", "ˈsijna"],  // Ingush сийна vs баьццара, matching Chechen.
     is: ["blár", "plauːr̥"],  // blár vs grænn. NorthEuraLex gives plɑur̥; written here in the row's own style (cf. hvítur/kʰviːtʏr).
@@ -1561,7 +1565,7 @@ WORDS.blue = {
     ki: ["bururu", "bururu"],  // Benson: 'bururu, (ma-), n. cl. 14/(6) ... washing blue, blueness; cf. mburuu ... [E. BLUE]' — the etymology is marked in the dictionary. Gikuyu's inherited terms are -eru 'white', -irũ 'black/dark', -tune 'red', -ruru 'green, fresh'; there was no basic blue, and Benson's example for 'blue sky' is matu mairũ, literally 'dark clouds'.
     kjj: ["цӏарцӏар", "tsʼartsʼar"],  // Khinalug цӏарцӏар vs гог / сыб.
     kk: ["көк", "køk"],  // Kazakh көк is the inherited Turkic 'sky/blue' term and is used of green growing things as well (көк шөп 'green grass'); жасыл is the narrow green.
-    kl: ["tungujorpoq", "tuŋuˈjɔʁpɔq"],  // Kalaallisut tungujorpoq vs qorsooqqippoq. tungujortoq covers blue and shades toward violet/dark; the two are separate stems.
+    kl: ["tungujorpoq", "tuŋujoʁpoq"],  // Kalaallisut tungujorpoq vs qorsooqqippoq. tungujortoq covers blue and shades toward violet/dark; the two are separate stems. // was ["tungujorpoq", "tuŋuˈjɔʁpɔq"] (vi dialect rules 2026-10-06)
     kln: ["arus", "arus"],  // Blue and green are separate lexemes in Hollis's list. Elsewhere in the same book arus is glossed 'blue (black)' of a bullock (Tap-arus-ei 'the owner of the blue (black) bullock'), i.e. it doubles as a dark cattle-coat term, so the blue-black edge is fuzzy even though green is clearly a different word. Hollis's pirir / lei correspond to this row's birirben / leel.
     km: ["ខៀវ", "kʰiəw"],  // Khmer ខៀវ against បៃតង 'green'.
     kmb: ["mulombe", "mulombe"],  // Assis Junior glosses mulombe as the noun 'azul' and as an adjective 'azul carregado ... azulado; sombrio; escuro' — blue and dark/sombre are the same word (cf. kulomba 'toldar, enevoar, escurecer' = to cloud over, darken). Silva Maia's Portuguese-Kimbundu entry for 'Azul' likewise lists mulombe (beside anili, from Portuguese anil 'indigo'). Convention note: this row cites red/white as ku- infinitives (kusuka, kuzela) but there is no 'to be blue' verb, so the noun/adjective is given.

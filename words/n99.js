@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    tsz: "vig",
     urh: "sub",
     car: "vig",
     kpe: "quin",
@@ -1547,5 +1548,6 @@ WORDS.n99 = {
     en_yk: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ck: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     vi_nom: ["𠃩𨒒𠃩", "tɕin˧˥ mɨəj˧ tɕin˧˥"],
+    tsz: ["tʼámu ekuatse témpeni iúmu tʼámu", "ˈtʰamu ekʷatse ˈtempeni ˈjumu ˈtʰamu"]
   }
 };

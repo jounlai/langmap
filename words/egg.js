@@ -483,7 +483,7 @@ WORDS.egg = {
     mdf: ["ал", "al"],
     krl: ["muna", "ˈmunɑ"],
     olo: ["jäiččy", "ˈjæitʃːy"],
-    vep: ["muna", "muna"],
+    vep: ["muna", "ˈmuna"],
     vot: ["muna", "muna"],
     liv: ["munā", "munaː"],
     mzn: ["مرغانه", "mærɣɒːne"],
@@ -500,7 +500,7 @@ WORDS.egg = {
     syl: ["ডিম", "dim"],
     mag: ["अंडा", "əɳɖaː"],
     doi: ["आंडा", "aːɳɖaː"],
-    esu: ["kayangaq", "kajaˈŋaq"],
+    esu: ["kayanguq", "kajaŋuq"],
     dak: ["witka", "witˈka"],
     lmo: ["öv", "øf"],
     pms: ["euv", "øw"],
@@ -747,7 +747,7 @@ WORDS.egg = {
     ksb: ["tagi", "taɡi"],
     maw: ["jalli", "dʒalli"],
     bsq: ["gɛ̃", "ɡɛ̃"],
-    bin: ["ekẹrẹ", "ekɛrɛ"],
+    bin: ["ekẹn", "ekɛ̃"],
     // --- Songhai — one word across the Niger bend
     khq: ["gunguri", "ɡuŋɡuri"],
     dje: ["gunguri", "ɡuŋɡuri"],
@@ -1008,7 +1008,7 @@ WORDS.egg = {
     ja_rys: ["卵", "tunaɡa"],
     xkz: ["khauti", "kʰauti"],
     abq: ["квтӏагъь", "kʷtʼaʁʲ"],
-    ekp: ["ukwa", "ukwa"],
+    ekp: ["ụkwa", "ʊkwa"],
     bbo: ["wɔɔnʋʋ", "wɔːnʊː"],
     mzh: ["lhichʼu", "ɬitʃʼu"],
     arp: ["noon", "noːn"],
@@ -1156,6 +1156,8 @@ WORDS.egg = {
     ter: ["kopútoe", "koˈputoe"],
     aa: ["naala", "naːla"],
     olk: ["onmon", "onmon"],
-    ktz: ["nǃù", "ᵑǃù"]
+    ktz: ["nǃù", "ᵑǃù"],
+    lij_t: ["öu", "ˈøːu"],
+    brh: ["خایۃ", "xaːja"]
   },
 };

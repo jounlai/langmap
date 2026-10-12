@@ -612,7 +612,7 @@ WORDS.horse = {
     doi: ["घोड़ा", "ɡʱoɽaː"],
     gbm: ["घोड़ू", "ɡʱoɽuː"],
     kfy: ["घोड़ो", "ɡʱoɽo"],
-    brh: ["هلی", "hulːiː"],
+    brh: ["ہلی", "hulːiː"],
     en_sg: ["horse", "hɔs"],
     fr_be: ["cheval", "ʃəˈval"],
     fr_ch: ["cheval", "ʃəˈval"],
@@ -678,7 +678,7 @@ WORDS.horse = {
     khb: ["ᦙᦱᧉ", "maː˩"],
     kac: ["gumra", "ɡum˧˩ʒa˧˩"],
     pll: ["brəŋ", "brəŋ"],
-    ahk: ["maw", "mɔ˨˩"],
+    ahk: ["mah", "mɔ˨˩"],
     dtp: ["kudaʼ", "kudaʔ"],
     tji: ["ma", "ma˥˧"],
     nij: ["kuda", "kuda"],
@@ -792,7 +792,7 @@ WORDS.horse = {
     frr: ["haingst", "haɪ̯ŋst"],
     abq: ["тшы", "tʃə"],
     tcs: ["os", "os"],
-    ekp: ["inyanya", "ɨɲaɲa"],
+    ekp: ["ịnyanya", "ɪɲaɲa"],
     bbo: ["suo", "suo"],
     rar: ["ʻoroʻenua", "ʔoɾoʔenua"],
     agx: ["хӏайван", "ħajwan"],
@@ -972,7 +972,7 @@ WORDS.horse = {
     dsh: ["farich", "faritʃ"],
     dur: ["goʼoy", "ɡoʔoj"],
     mey: ["فرس", "vras"],
-    zap: ["maniʼ", "maniʔ"],
+    zap: ["mani", "mani"],
     wuu_wz: ["马", "mo˧˦"],
     aae: ["kalë", "ˈkalə"],
     sva: ["ჩა̈ჟ", "tʃʰæʒ"],
@@ -1064,7 +1064,7 @@ WORDS.horse = {
     blk: ["သေ", "se̤˧˩"],
     mjg: ["mori", "mori"],
     cnh: ["rang", "raŋ"],
-    tsz: ["kabaiu", "kaˈbaju"],
+    tsz: ["tekechu", "teketʃu"],
     pt_gw: ["kabalu", "kaˈbalu"],
     zh_song: ["馬", "ma"],
     pmh: ["अस्स", "asːa"],
@@ -1115,6 +1115,7 @@ WORDS.horse = {
     xpr: ["ʾsp", "asp"],
     xqa: ["at", "at"],
     olk: ["athayarr", "at̪ajar"],
-    slr: ["at", "ɑtʰ"]
+    slr: ["at", "ɑtʰ"],
+    lij_t: ["cavallu", "kaˈvalu"]
   }
 };

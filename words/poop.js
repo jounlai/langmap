@@ -900,6 +900,7 @@ WORDS.poop = {
     nzm: ["heba", "heba"],
     olk: ["adna", "adna"],
     njo: ["sü", "sə"],
-    mra: ["ʔjak", "ʔjak"]
+    mra: ["ʔjak", "ʔjak"],
+    bla: ["iʼstáán", "iʔstáːn"]
   },
 };

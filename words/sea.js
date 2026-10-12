@@ -174,7 +174,7 @@ WORDS.sea = {
     ar_ma: ["بحر", "bħar"],
     ar_tn: ["بحر", "bħar"],
     arc: ["ܝܡܐ", "jammaː"],
-    arn: ["lafken", "lafken"],
+    arn: ["ḻafkeṉ", "l̪afken̪"],
     arq: ["بحر", "bħar"],
     as: ["সাগৰ", "xaɡɔɹ"],
     ast: ["mar", "maɾ"],
@@ -1091,6 +1091,7 @@ WORDS.sea = {
     bca: ["ko", "ko˨˩"],
     gum: ["mar", "maɾ"],
     men: ["gboya", "ɡboja"],
-    hot: ["ŋgwêk", "ŋɡwek"]
+    hot: ["ŋgwêk", "ŋɡwek"],
+    lij_t: ["mò", "mɔ"]
   }
 };

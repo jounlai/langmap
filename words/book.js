@@ -321,7 +321,7 @@ WORDS.book = {
     nn: ["bok", "buːk"],       // Identical to the no cell, and deliberately so: Nynorsk and Bokmål both write bok. Added because nn is a separate written standard with its own ISO code, not a variety suffix — the batch rule about not copying a parent is aimed at xx_yy codes.
     nrf: ["livre", "livʁ"],    // Character-for-character the fr cell, but Norman is its own Oïl language rather than a French variety. A Jèrriais-specific length mark ([liːvʁ]) is plausible and was not sourceable.
     pcd: ["live", "liv"],
-    pms: ["lìber", "ˈliber"],
+    pms: ["lìber", "ˈlibɛr"],
     osp: ["libro", "ˈliβɾo"],
     // Germanic older stages and the continental minority standards.
     non: ["bók", "boːk"],      // Old Norse bók runs beech → book; sense 3 is the book proper, with the usage example lesa á bók 'to read a book'.
@@ -750,7 +750,7 @@ WORDS.book = {
     tiw: ["jurra", "dʒuɾa"],
     trv: ["patis", "patis"],
     ja_rys: ["本", "hoɴ"],
-    yrk: ["падарˮ", "padarʔ"],
+    yrk: ["падарˮ", "padərʔ"],
     stq: ["Bouk", "boːu̯k"],
     krl: ["kirja", "ˈkirjɑ"],
     agx: ["китаб", "kitab"],
@@ -1087,6 +1087,8 @@ WORDS.book = {
     ayl: ["كتاب", "ktaːb"],
     ktz: ["ǂxanù", "ᵏǂᵡanù"],
     anu: ["wëëlö", "weːlo"],
-    soa: ["หนังสือ", "naŋ˨˦ sɯː˨˦"]
+    soa: ["หนังสือ", "naŋ˨˦ sɯː˨˦"],
+    lij_t: ["libbru", "ˈlibru"],
+    com: ["tʉnihatʉbopʉ", "tɨnihatɨbopɨ"]
   }
 };

@@ -1240,7 +1240,7 @@ WORDS.we = {
     cro: ["balee", "baleː"],
     hai: ["tʼaláng", "tʼaláŋ"],
     cic: ["poshnoʼ", "poʃnoʔ"],
-    ik: ["uvagut", "uvaɡut"],
+    ik: ["uvagut", "uvaɣut"], // was ["uvagut", "uvaɡut"] (vi dialect rules 2026-10-06)
     na: ["adei / amei", "adei / amei"],
     es_bo: ["nosotros", "noˈsotɾos"],
     es_py: ["nosotros", "noˈsotɾos"],
@@ -2217,7 +2217,7 @@ WORDS.we = {
     xmr: ["—", "—"],
     onw: ["ⲉⲣ", "er"],
     qwc: ["ñuqanchik / ñuqayku", "ɲoqantʃik / ɲoqajku"],
-    omc: ["mœich", "məwitʃ"],
+    omc: ["mæich", "mæitʃ"], // was ["mœich", "məwitʃ"] (vi dialect rules 2026-10-06)
     chb: ["chie", "tʃie"],
     omy: ["kita / kami", "kita / kami"],
     osn: ["urang", "uraŋ"],
@@ -2318,7 +2318,7 @@ WORDS.we = {
     ktz: ["mǃá / èǃá", "mǃá / èǃá"], // was ["mǃa", "mǃa"] (vi dialect rules 2026-10-06)
     kxv: ["māru / māmbu", "maːru / maːmbu"],
     lhm: ["—", "—"],
-    lij_t: ["nuiâtri", "nuˈjaːtri"],
+    lij_t: ["niotri", "ˈnjɔːtri"], // was ["nuiâtri", "nuˈjaːtri"] (vi dialect rules 2026-10-06)
     mcf: ["nuqui", "nuki"],
     mkz: ["fi / ini", "fi / ini"],
     mpj: ["—", "—"],

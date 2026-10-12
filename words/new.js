@@ -524,7 +524,7 @@ WORDS.new = {
     khv: ["эцӏну", "etsʼnu"],
     kjj: ["таза", "tʰaza"],
     kpf: ["irakŋâ", "irakŋɐ"],
-    lij_t: ["neûvu", "ˈnøvu"],
+    lij_t: ["nöu", "ˈnøːu"],
     mkz: ["supa", "ˈsupa"],
     rut: ["цӏинды", "tsʼindɨ"],
     tpn: ["pysasu", "pɨsaˈsu"],
@@ -1170,6 +1170,7 @@ WORDS.new = {
     zh_han: ["新", "sjǝn"],
     olk: ["ikum", "ikum"],
     nus: ["pay", "paj"],
-    spp: ["nivɔnŋɔ", "nivɔnŋɔ"]
+    spp: ["nivɔnŋɔ", "nivɔnŋɔ"],
+    bbo: ["ŋwun", "ŋwun"]
   }
 };

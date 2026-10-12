@@ -417,7 +417,7 @@ WORDS.cuckoo = {
     ctg: ["কোগিল", "koˈɡil"],
     mag: ["कोइल", "koil"],
     lmo: ["cùcch", "kuk"],
-    pms: ["coco", "ˈkuku"],
+    pms: ["covo", "ˈkuvu"],
     pnt: ["κούκος", "ˈkukos"],
     dsb: ["kukawa", "ˈkukawa"],
     gv: ["cooag", "ˈkuːaɡ"],

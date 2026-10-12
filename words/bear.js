@@ -63,6 +63,7 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    bin: "unknown",
     bca: "unknown",
     pll: "inherited",
     yao: "loan",
@@ -953,6 +954,7 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    bin: ["akpakomiza", "akpakomiza"],
     bca: ["tɕĩ", "tɕĩ˥˥"],
     pll: ["khrer", "kʰrer"],
     yao: ["dubu", "dubu"],
@@ -1430,7 +1432,7 @@ WORDS.bear = {
     mrj: ["мӧскӓ", "møskæ"],
     myv: ["овто", "ovto"],
     mdf: ["офта", "ofta"],
-    yrk: ["варк", "wark"],
+    yrk: ["варк", "wərk"], // was ["варк", "wark"] (vi dialect rules 2026-10-06)
     nio: ["ӈарка", "ŋarka"],
 
     // --- Turkic: *adïg, then ayı ---------------------------------------
@@ -1730,7 +1732,7 @@ WORDS.bear = {
     ca_va: ["ós", "os"],
     rgn: ["órs", "ors"],
     egl: ["aurs", "aurs"],
-    frp: ["ors", "ɔrs"],
+    frp: ["ôrs", "ɔrs"], // was ["ors", "ɔrs"] (vi dialect rules 2026-10-06)
     pcd: ["ors", "ɔʁs"],
     wa: ["oûsse", "uːs"],
     vec: ["orso", "ˈorso"],

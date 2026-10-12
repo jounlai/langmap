@@ -581,7 +581,7 @@ WORDS.rain = {
     shn: ["ၽူၼ်", "pʰon˨˦"],
     luy: ["efula", "eˈfula"],
     kam: ["mbua", "ˈmbua"],
-    tum: ["vula", "ˈvula"],
+    tum: ["vura", "vuɾa"],
     bug: ["bosi", "ˈbosi"],
     sga: ["fras", "fras"],
     egy: ["𓎛𓅱𓏏𓇲", "huːt"],
@@ -661,7 +661,7 @@ WORDS.rain = {
     agx: ["угъал", "uʁal"],
     ani: ["цӏцӏа", "tsʼːa"],
     aqc: ["ххеӏл", "χːeˤl"],
-    arn: ["mawün", "mawɨn̪"],
+    arn: ["mawüṉ", "mawɨn̪"],
     bbl: ["ყარ", "qʼar"],
     bdk: ["маф", "maf"],
     ddo: ["хъема", "qema"],
@@ -873,7 +873,7 @@ WORDS.rain = {
     enq: ["apu", "apu"],
     ers: ["guɑ", "ɡuɑ˧˧"],
     ess: ["ныпсюк", "nɨpsjuk"],
-    esu: ["ellalluk", "əɬːaɬuk"],
+    esu: ["ellalluk", "əɬaɬuk"],
     gbm: ["बरखा", "bəɾkʰaː"],
     hni: ["aoqsseil", "ɔ˧˩ze˥˥"],
     itl: ["чуфчуф", "tʃuɸtʃuɸ"],
@@ -1165,6 +1165,7 @@ WORDS.rain = {
     fvr: ["kʋ̀y", "kʊ̀j"],
     anu: ["køth", "køt̪"],
     men: ["njɛi", "ndʒɛi"],
-    bsq: ["ní", "ní"]
+    bsq: ["ní", "ní"],
+    bin: ["amẹ", "amɛ̃"]
   },
 };

@@ -446,7 +446,7 @@ WORDS.sleep = {
     oj: ["nibaa", "nibaː"],
     crk: ["ᓂᐹᐤ", "nipaːw"],
     lkt: ["ištíma", "iʃˈtima"],
-    kl: ["sinippoq", "siˈnippɔq"],
+    kl: ["sinippoq", "sinipːoq"],
     os: ["хуыссын", "xʷəssən"],
     ty: ["taʻoto", "taʔoto"],
     niu: ["mohe", "mohe"],
@@ -492,7 +492,7 @@ WORDS.sleep = {
     myv: ["удомс", "udoms"],
     mdf: ["удомс", "udəms"],
     olo: ["muata", "ˈmuata"],
-    vep: ["magata", "mɑɡɑtɑ"],
+    vep: ["magata", "ˈmaɡata"],
     liv: ["maggõ", "mɑɡːə"],
     crh: ["yuqlamaq", "juqlaˈmaq"],
     tt: ["йоклау", "jɤqˈɫaw"],
@@ -514,7 +514,7 @@ WORDS.sleep = {
     meu: ["mahuta", "maˈhuta"],
     pon: ["meir", "mejr"],
     kos: ["motul", "motul"],
-    vmw: ["orupa", "oˈɾupa"],
+    vmw: ["orupa", "oɾupa"],
     dsb: ["spaś", "spaɕ"],
     gv: ["cadley", "ˈkaðlə"],
     kw: ["koska", "ˈkɔska"],
@@ -666,7 +666,7 @@ WORDS.sleep = {
     mjg: ["qaa", "tɕʰaː"],
     peh: ["təra-", "təra"],
     mvf: ["ntiraa", "ntəraa"],
-    yrk: ["хонась", "xonasʲ"],
+    yrk: ["хонёсь", "xonʲosʲ"],
 
     // --- Germanic and Romance minorities
     vmf: ["schlafe", "ʃlaːfə"],
@@ -677,7 +677,7 @@ WORDS.sleep = {
     ruq: ["durmiri", "durˈmiri"],
     nrf_gg: ["dormi", "dɔrˈmi"],
     fra_jer: ["dormi", "dɔrˈmi"],
-    lij_t: ["dormî", "durˈmiː"],
+    lij_t: ["durmì", "durˈmi"],
     rmf: ["sovel", "ˈsovel"],
 
     // --- Iranian — *xwafs- against the xwāb- of Persian

@@ -888,7 +888,7 @@ WORDS.nose = {
     wae: ["Nasu", "ˈnaːsu"],
     gsw_w: ["Nase", "ˈnaːsə"],
     wym: ["nōs", "noːs"],
-    lij_t: ["naso", "ˈnazu"],
+    lij_t: ["nozu", "ˈnɔːzu"],
     ltg: ["nuoss", "nuɔ̯ss"],
     uln: ["Nase", "ˈnasɛ"],
     // --- Austroasiatic — *muh straight across Munda, Mon and Bahnaric ---
@@ -1037,7 +1037,7 @@ WORDS.nose = {
     ngl: ["ephula", "epʰula"],
     new: ["न्हास", "nʱaːsʌ"],
     lhu: ["nā-qhɔ̂", "nȁqʰɔ̂"],
-    ahk: ["na meh", "na˥mɤ˥"],
+    ahk: ["na meh", "na˥mɛ˥"],
     tji: ["engqi", "ən˧˥tɕʰi˥˥"],
     mam: ["txaʼn", "tʃaʔn"],
     mixtec: ["yuxijni", "juʃihni"],

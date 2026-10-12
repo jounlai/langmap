@@ -294,7 +294,7 @@ WORDS.iron = {
     vec: ["fero", "ˈfɛro"],
     co: ["ferru", "ˈfɛrru"],
     lij: ["færo", "ˈfɛːru"],
-    lij_t: ["færo", "ˈfɛru"],
+    lij_t: ["feru", "ˈfɛːru"],
     sc: ["ferru", "ˈferru"],
     fur: ["fiêr", "fjeːr"],
     rm: ["fier", "fjɛr"],

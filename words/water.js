@@ -1143,7 +1143,7 @@ WORDS.water = {
     xmr: ["𐦠𐦶", "ato"],
     onw: ["ⲁⲙⲁⲛ", "aman"],
     qwc: ["unu", "unu"],
-    omc: ["lā", "laː"],
+    omc: ["la", "laː"],
     chb: ["sié", "sje"],
     omy: ["air", "air"],
     osn: ["cai", "tʃai"],

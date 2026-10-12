@@ -808,7 +808,7 @@ WORDS.green = {
     aln: ["jeshil", "jeˈʃil"],
     kfy: ["हरियो", "ɦərijo"],
     gsw_w: ["grie", "ɡriə"],
-    lij_t: ["verde", "ˈverde"],
+    lij_t: ["verde", "ˈvɛrde"],
     sva: ["ჲჷრჟი", "jərʒi"],
     bdk: ["йашил", "jaʃil"],
     udi: ["йаьшил", "jæʃil"],
@@ -1041,6 +1041,8 @@ WORDS.green = {
     p_aav: ["*kciʔ", "kciʔ"],
     aja: ["makpafan", "makpafã"],
     chp: ["dzeretłʼes látʼį", "dzeretɬʼes látʼĩ"],
-    sux: ["𒅊", "siɡ"]
+    sux: ["𒅊", "siɡ"],
+    bla: ["ótssko", "ótsːko"],
+    com: ["ebibitʉ", "ebibitɨ"]
   }
 };

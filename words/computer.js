@@ -323,7 +323,7 @@ WORDS.computer = {
     "pi": ["गणक", "ɡɐɳɐkɐ"],
     "pi_edu": ["gaṇaka", "ɡɐɳɐkɐ"],
     "pl": ["komputer", "kɔmˈputɛr"],
-    "pms": ["computer", "komˈpjuter"],
+    "pms": ["compiùter", "kumˈpjytɛr"],
     "pnt": ["υπολογιστής", "ipoloʝiˈstis"],
     "prs": ["کمپیوتر", "kampjuːtar"],
     "ps": ["کمپیوټر", "kampjuːʈər"],
@@ -628,7 +628,7 @@ WORDS.computer = {
     rtm: ["kompiuta", "kompiuta"],
     tkl: ["komepiuta", "komepiuta"],
     dtp: ["tokud", "tokud"],
-    ik: ["qaqasauraq", "qaqasauraq"],
+    ik: ["qaqasauraq", "qaqasauʐaq"],
     din: ["makuɛ̈n", "makuɛn"],
     yue_zs: ["電腦", "tin˧˧ nou˨˩˧"],
     czh_wy: ["电脑", "tʰĩ˥˩ lɔ˧˩"],
@@ -721,6 +721,7 @@ WORDS.computer = {
     cjy_xz: ["电脑", "tiɛ̃˥˨ nɔ˧˩˧"],
     cnp: ["电脑", "tin˨˨ nau˨˦"],
     chp: ["satsán bení hųlį", "satsán bení hũlĩ"],
-    atj: ["kanokepitcikan", "kanokepitʃikan"]
+    atj: ["kanokepitcikan", "kanokepitʃikan"],
+    com: ["taa tekwapʉha pooitʉ", "taː tekʷapɨha poːitɨ"]
   },
 };

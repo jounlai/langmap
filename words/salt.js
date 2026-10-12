@@ -573,7 +573,7 @@ WORDS.salt = {
     ssw: ["luswayi", "luswaji"],
     ln: ["mongwa", "moŋɡwa"],
     kg: ["mungwa", "muŋɡwa"],
-    tum: ["mchere", "m̩tʃere"],
+    tum: ["muchere", "mutʃeɾe"],
 
     // --- The Americas ------------------------------------------------------
     qu: ["kachi", "ˈkatʃi"],
@@ -737,9 +737,9 @@ WORDS.salt = {
     bar: ["Soiz", "sɔɪts"],
     gd: ["salann", "ˈs̪al̪ˠən̪ˠ"],
     rgn: ["sêl", "seːl"],
-    frp: ["sal", "sal"],
+    frp: ["sâl", "sal"],
     lmo: ["sal", "sal"],
-    lij_t: ["sâ", "saː"],
+    lij_t: ["sò", "sɔ"],
     wa: ["sé", "se"],
     nrf: ["sé", "se"],
     fra_jer: ["sé", "se"],
@@ -1166,7 +1166,7 @@ WORDS.salt = {
     sgw: ["አሶ", "aso"],
     nzi: ["ngyenle", "ndʑenle"],
     mev: ["wèĩ", "wèĩ"],
-    naq: ["ǂōb", "ǂoːp"],
+    naq: ["ǂō-i", "ǂoːi"],
     maw: ["yaarim", "jaːrim"],
     mdr: ["sia", "sia"],
     kj: ["omongwa", "omoŋɡwa"],
@@ -1261,6 +1261,8 @@ WORDS.salt = {
     xpr: ["nmydk", "nameːdk"],
     suk: ["munhu", "munhu"],
     olk: ["ilbmbu", "ilbmbu"],
-    anu: ["acäbö", "atʃabo"]
+    anu: ["acäbö", "atʃabo"],
+    com: ["onaabi", "onaːbi"],
+    ahk: ["sa deuq", "sa˨˩dɤ̰˧"]
   },
 };

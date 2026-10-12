@@ -108,7 +108,7 @@ WORDS.black = {
     fi: ["musta", "ˈmustɑ"],
     et: ["must", "must"],
     lv: ["melns", "ˈmelns"],
-    lt: ["juodas", "ˈjuodɐs"],
+    lt: ["juodas", "ˈjuɔdɐs"],
 
     // --- Slavic -------------------------------------------------------
     pl: ["czarny", "ˈtʂarnɨ"],
@@ -170,7 +170,7 @@ WORDS.black = {
     ast: ["negru", "ˈneɣɾu"],
     oc: ["negre", "ˈneɣɾe"],
     co: ["neru", "ˈneru"],
-    sc: ["nieddu", "ˈnieddu"],
+    sc: ["nieddu", "niˈeɖɖu"],
     rm: ["nair", "nair"],
     an: ["negro", "ˈneɣɾo"],
     nap: ["niro", "ˈnirə"],
@@ -990,7 +990,7 @@ WORDS.black = {
     yrk: ["париденя", "parʲidʲenʲa"],
     xkz: ["nyunti", "ɲunti"],
     frr: ["suurt", "suːrt"],
-    krl: ["mušta", "ˈmuʃta"],
+    krl: ["mušta", "ˈmuʃtɑ"],
     abq: ["квайчӏва", "kʷajtʃʷʼa"],
     ekp: ["uyi", "uji"],
     bbo: ["guun", "ɡuːn"],

@@ -1310,7 +1310,7 @@ WORDS.blue = {
     emp: ["pãwãrã", "pãwãˈɾã"],
     mch: ["sheene", "ʃeːne"],
     ium: ["mbuov", "buo˦"], // was ["mbuov", "buo˥˧"] (vi dialect rules 2026-10-06)
-    hmn: ["xiav", "siə˨˦"],
+    hmn: ["xiav", "sia˨˦"], // was ["xiav", "siə˨˦"] (vi dialect rules 2026-10-06)
     tlh: ["SuD", "ʂuɖ"],
     tok: ["laso", "ˈlaso"], // was ["laso", "laso"] (vi dialect rules 2026-10-06)
     jbo: ["blanu", "ˈblanu"],
@@ -1769,7 +1769,7 @@ WORDS.blue = {
     yap: ["yarraq", "jarːaʔ"],  // yarraq and warraq are dialect variants of one word: the y-entry glosses it 'the color blue, blue-green, purple, violet' and defines it in Yapese as 'a colour like the colour of the sky', adding that it was formerly also said of unripe (green) leaves; the w-entry glosses the same word 'the color green'. The English finder also gives raqën maak'eef ('colour of the sky') for 'blue' and the English loan giriin for 'green'.
     ygr: ["gumo", "ɡumo"],  // One adjective covering green, blue and turquoise; homophonous with gúmo₁ 'species of green-blue or turquoise beetle', from which it derives. Renck's English index has no standalone entry for 'blue' at all — it lists gumo₃ under 'green' alongside several other green expressions — which is itself evidence that Yagaria encodes no separate blue. Renck marks stress with an acute (gúmo); written here without it to match the row's gola'/efe'.
     yi: ["בלוי", "blɔj"],  // Yiddish בלוי against גרין, both from the German stock.
-    ykg: ["хомоньэй", "xomoˈnʲej"],  // Tundra Yukaghir: NorthEuraLex gives хомоньэ- for blue and хомоньэй for green — the same stem. The finite/attributive хомоньэй is used here.
+    ykg: ["хомоньэй", "xomonʲej"],  // Tundra Yukaghir: NorthEuraLex gives хомоньэ- for blue and хомоньэй for green — the same stem. The finite/attributive хомоньэй is used here. // was ["хомоньэй", "xomoˈnʲej"] (vi dialect rules 2026-10-06)
     yo: ["dúdú", "dúdú"],  // Three-term system (funfun / pupa / dúdú), all three already in this row; dúdú is the dark/cool term and the blue cell is deliberately identical to the black cell. Modern blue-specific expressions exist beside it: búlùú (< English 'blue'), àwọ̀ aró 'colour of dye', and aró / ayinrin (indigo, light blue) — Crowther (1843) Vocabulary of the Yoruba Language already has "Ayinrin, s. light blue".
     yrk: ["тӑнзинена", "tənzʲiˈnʲeːna"],  // Tundra Nenets тӑнзинена vs илебей; IDS also records numlaxa 'sky-like'.
     yua: ["yaʼax", "jaʔaʃ"],  // Form copied from https://en.wiktionary.org/wiki/ya%CA%BCax (Yucatec Maya). The Wiktionary gloss is only 'green', but both sources above show the term covers the sky's blue as well.

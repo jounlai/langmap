@@ -220,7 +220,7 @@ WORDS.mouth = {
     sr: ["уста", "usta"],
     hr: ["usta", "usta"],
     sl: ["usta", "ˈuːsta"],
-    lt: ["burna", "bʊrˈna"],
+    lt: ["burna", "bʊrˈnɐ"],
     lv: ["mute", "ˈmute"],
     et: ["suu", "suː"],
     fi: ["suu", "suː"],
@@ -895,7 +895,7 @@ WORDS.mouth = {
     ppl: ["ten", "ten"],
     lld: ["bocia", "ˈbotʃa"],
     atj: ["otoninan", "otoninan"],
-    tdh: ["सि", "si"],
+    tdh: ["सि", "siː"],
     zts: ["ruu", "ɾuː"],
     mix: ["yuʼu", "juʔú"],
     deg: ["enu", "enu"],
@@ -1218,6 +1218,10 @@ WORDS.mouth = {
     xpr: ["rumb", "rumb"],
     sux: ["𒅗", "kaɡ"],
     mro: ["nor", "nɔr"],
-    olk: ["ewa", "ewa"]
+    olk: ["ewa", "ewa"],
+    enf: ["na ɕe", "na ɕʲɛ"],
+    anu: ["dhøk", "d̪øk"],
+    soa: ["ปาก", "paːk˧˥"],
+    mxv: ["yuʼu", "juʔu"]
   }
 };

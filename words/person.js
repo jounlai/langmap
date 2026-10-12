@@ -119,7 +119,7 @@ WORDS.person = {
     be: ["чалавек", "tʂalaˈvʲɛk"],
     mk: ["човек", "ˈtʃɔvɛk"],
     bs: ["čovjek", "ˈtʃoʋjɛk"],
-    lt: ["žmogus", "ʒmoːˈɡus"],
+    lt: ["žmogus", "ʒmoːˈɡʊs"],
     lv: ["cilvēks", "ˈtsilvɛːks"],
     et: ["inimene", "ˈinimene"],
     mt: ["bniedem", "ˈbnɪːdɛm"],
@@ -680,7 +680,7 @@ WORDS.person = {
     tmh: ["ⵡⴰⴷⵎ", "əwadəm"],
     tig: ["ነፈር", "nafar"],
     sco: ["body", "ˈbʌdi"],
-    sc: ["persone", "perˈsɔne"],
+    sc: ["persone", "perˈsone"],
     tsg: ["tau", "taʔu"],
     ljp: ["jelema", "dʒələma"],
     unr: ["horo", "hoɽo"],
@@ -1140,6 +1140,12 @@ WORDS.person = {
     pkar: ["*ḳac₁-", "kʼats"],
     xsc: ["oior", "ojor"],
     puaz: ["*takaC", "takaC"],
-    abe: ["alnôba", "alnɔ̃ba"]
+    abe: ["alnôba", "alnɔ̃ba"],
+    ktz: ["jù", "ʒù"],
+    anu: ["dhaanhø", "d̪aːn̪ø"],
+    kmu: ["vea", "vea"],
+    soa: ["คน", "kʰon˧˥˦"],
+    nhx: ["ta̱gaꞌ", "taːɡaʔ"],
+    roo: ["oirato", "oiɾato"]
   }
 };

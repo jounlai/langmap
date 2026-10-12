@@ -276,7 +276,7 @@ WORDS.hundred = {
     // --- Uralic — every one of these is the Indo-Iranian loan Finnish shows
     se: ["čuođi", "ˈtʃuoði"],
     vro: ["sada", "ˈsada"],
-    krl: ["šata", "ˈʃata"],
+    krl: ["šata", "ˈʃɑtɑ"],
     olo: ["sada", "ˈsada"],
     vep: ["sada", "ˈsada"],
     vot: ["sata", "ˈsata"],

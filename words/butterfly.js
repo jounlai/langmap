@@ -160,7 +160,7 @@ WORDS.butterfly = {
     no: ["sommerfugl", "ˈsɔmərfʉːl"],  // Compound 'summer' + 'bird' — fugl is this row's own word for bird.
     da: ["sommerfugl", "ˈsɔmɐfuːˀl"],  // Compound 'summer' + 'bird' — fugl is this row's own word for bird.
     ga: ["féileacán", "fʲeːlʲəkaːn̪ˠ"],
-    cy: ["glöyn byw", "ˈɡlɔɨn ˈbɪu"],  // Literally 'living ember' (glöyn 'ember' + byw 'living'); the alternative iâr fach yr haf is 'little hen of the summer'.
+    cy: ["glöyn byw", "ˈɡloːɨn ˈbɪu"],  // Literally 'living ember' (glöyn 'ember' + byw 'living'); the alternative iâr fach yr haf is 'little hen of the summer'.
     br: ["balafenn", "balaˈfɛn"],
     eu: ["tximeleta", "tʃimeleta"],  // Basque has unusually many regional words for this insect; NorthEuraLex also records pinpirin. tximeleta is the standard form.
     hy: ["թիթեռ", "tʰiˈtʰer"],  // Reduplicated t'it'-.
@@ -527,7 +527,7 @@ WORDS.butterfly = {
     lv: ["tauriņš", "ˈtauriɲʃ"],
     mk: ["пеперутка", "pɛˈpɛrutka"],
     li: ["kapel", "kaˈpɛl"],
-    sc: ["cabagasu", "kaβaˈɣazu"],
+    sc: ["cabagasu", "kabaˈɡazu"],
     tsg: ["kabaꞌ-kabaꞌ", "kabaʔkabaʔ"],
     mdh: ["paro-paro", "paroˈparo"],
     ljp: ["halibambang", "halibambaŋ"],

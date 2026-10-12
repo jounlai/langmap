@@ -1029,6 +1029,7 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                ktz: new Set(['love', 'thanks']),   // r90: wrong cell removed; no sourced form found
                 ibb: new Set(['cat']),   // r87: wrong cell removed; no sourced form found
                 yle: new Set(['thanks']),   // r86: wrong cell removed; no sourced form found
                 gej: new Set(['cat']),   // r86: wrong cell removed; no sourced form found
@@ -1160,7 +1161,7 @@ for (const code of codes) {
                 // their dictionaries (SIL 1987/2004; Poolaw 2023; Miller 2019), hot and
                 // mpt against their NT and ABVD/Fedden. These cells were wrong and no
                 // source gives a replacement (mpt thanks hok is 'scorpion'; hot has no f).
-                hot: new Set(['love', 'hello', 'thanks']), mpt: new Set(['thanks', 'hello']),
+                hot: new Set(['love', 'hello', 'thanks']), mpt: new Set(['thanks', 'hello', 'love']),
                 kio: new Set(['love']), xav: new Set(['cat', 'hello', 'thanks']),
                 hts: new Set(['house', 'love', 'cat', 'thanks']),
                 // 2026-10-02 flag round r35: atb re-spelled from the Zaiwa NT + Sun 1991;

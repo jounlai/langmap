@@ -123,7 +123,7 @@ WORDS.book = {
     oc: ["libre", "ˈliβɾe"],
     ast: ["llibru", "ˈʎiβɾu"],
     co: ["libru", "ˈlibru"],
-    sc: ["libru", "ˈliβɾu"],
+    sc: ["libru", "ˈlibru"],
     rm: ["cudesch", "ˈkudɛʃ"],
     ht: ["liv", "liv"],
     mk: ["книга", "ˈkniɡa"],
@@ -173,7 +173,7 @@ WORDS.book = {
     ca_va: ["llibre", "ˈʎibɾe"],
     ang: ["bōc", "boːk"],
     bar: ["Buach", "buɐx"],
-    cy: ["llyfr", "ɬɪvr"],
+    cy: ["llyfr", "ɬɨvr"],
     dsb: ["knigły", "ˈknʲiɡwɨ"],
     el_grc: ["βιβλίον", "biblíon"],
     el_kath: ["βιβλίον", "viˈvlion"],
@@ -752,7 +752,7 @@ WORDS.book = {
     ja_rys: ["本", "hoɴ"],
     yrk: ["падарˮ", "padarʔ"],
     stq: ["Bouk", "boːu̯k"],
-    krl: ["kirja", "ˈkirja"],
+    krl: ["kirja", "ˈkirjɑ"],
     agx: ["китаб", "kitab"],
     abq: ["книга", "kniɡa"],
     tcs: ["buk", "buk"],
@@ -1084,6 +1084,9 @@ WORDS.book = {
     qwc: ["qillqa", "qiʎqa"],
     pmay: ["*huʔnh", "huʔŋ"],
     ett: ["zich", "tsikʰ"],
-    ayl: ["كتاب", "ktaːb"]
+    ayl: ["كتاب", "ktaːb"],
+    ktz: ["ǂxanù", "ᵏǂᵡanù"],
+    anu: ["wëëlö", "weːlo"],
+    soa: ["หนังสือ", "naŋ˨˦ sɯː˨˦"]
   }
 };

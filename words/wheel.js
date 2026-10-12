@@ -948,6 +948,11 @@ WORDS.wheel = {
     kwk: ["ka̱lxsidzeʼ", "kəlxsidzeʔ"],
     cjy_xz: ["轮子", "luəŋ˧˩ tsɿ˧˩˧"],
     cnp: ["车轮", "tʃʰe˥˧ lɐn˨˩"],
-    zh_han: ["輪", "rwǝn"]
+    zh_han: ["輪", "rwǝn"],
+    izz: ["ọkpa ọgba-kperekpere", "ɔkpa ɔɡba kpeɾekpeɾe"],
+    sus: ["sanyi radigilinxi", "saɲi ɾadiɡilinxi"],
+    hch: ["mɨxikɨrawi", "mɨʃikɨrawi"],
+    kpe: ["káraŋ", "káraŋ"],
+    mnk: ["sareeti siŋo", "sareːti siŋo"]
   }
 };

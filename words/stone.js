@@ -1190,6 +1190,7 @@ WORDS.stone = {
     hai: ["ḵwaa", "qʰʷaː"],
     thp: ["sxén̓x", "sxenˀx"],
     ett: ["tul", "tul"],
-    olk: ["munggar", "muŋɡaɻ"]
+    olk: ["munggar", "muŋɡaɻ"],
+    fvr: ["dítɔ́", "dítɔ́"]
   },
 };

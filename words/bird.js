@@ -346,7 +346,7 @@ WORDS.bird = {
     bah: ["bird", "bɜːd"],
     bzj: ["berd", "berd"],
     pap: ["para", "ˈpara"],
-    kea: ["pásaru", "pasaɾu"],
+    kea: ["pásaru", "ˈpasaɾu"],
     rom: ["čirikli", "tʃirikli"],
     rmy: ["čiriklo", "tʃiˈriklo"],
     rmf: ["čiriklo", "tʃiriklo"],
@@ -1190,6 +1190,8 @@ WORDS.bird = {
     bej: ["kilay", "kilaj"],
     woe: ["mal", "malʉ"],
     dsh: ["kimir", "kimir"],
-    kpe: ["ŋɔni", "ŋɔni"]
+    kpe: ["ŋɔni", "ŋɔni"],
+    zts: ["maniin", "maniːn"],
+    anu: ["weny", "weɲ"]
   },
 };

@@ -79,7 +79,7 @@ WORDS.nose = {
     abv: ["خشم", "xaʃim"],
     afb: ["خشم", "xaʃim"],
     acw: ["خشم", "xuʃum"],
-    adx: ["སྣ", "na"],
+    adx: ["སྣ", "hna"],
     slr: ["purun", "pʰurun"],
     dlg: ["мунну", "munnu"],
     bfq: ["மூக்கு", "muːkːu"],
@@ -92,7 +92,7 @@ WORDS.nose = {
     ar_ye: ["نخرة", "ˈnuxra"],
     ar_sa: ["خشم", "xaʃim"],
     ar_lb: ["مناخير", "manaˈxiːr"],
-    en_wls: ["nose", "noʊz"],
+    en_wls: ["nose", "noːz"],
     en_jam: ["nose", "noːz"],
     en_ng: ["nose", "noːs"],
     en_ph: ["nose", "noʊs"],
@@ -200,7 +200,7 @@ WORDS.nose = {
     ro: ["nas", "nas"],
     ga: ["srón", "sˠɾˠoːnˠ"],
     eu: ["sudur", "s̻uður"],
-    cy: ["trwyn", "truːɨ̯n"],
+    cy: ["trwyn", "truːɨn"],
     ka: ["ცხვირი", "tsxviri"],
     hy: ["քիթ", "kʰitʰ"],
     hyw: ["քիթ", "kʰit"],
@@ -1174,6 +1174,7 @@ WORDS.nose = {
     cjy_xz: ["鼻子", "pʰiɛʔ˦˧ tsɿ˧˩˧"],
     hoc: ["muta", "muʈa"],
     olk: ["ulbmul", "ulbmul"],
-    mcf: ["dëbiate", "dɨbjatɪ"]
+    mcf: ["dëbiate", "dɨbjatɪ"],
+    adi: ["nyobung", "ɲobuŋ"]
   },
 };

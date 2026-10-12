@@ -1079,7 +1079,7 @@ WORDS.sugar = {
     wbp: ["juka", "ɟuka"],
     dag: ["sichiri", "sitʃiri"],
     luo: ["sukari", "sukari"],
-    kmb: ["sukidi", "suˈkidi"],
+    kmb: ["sukidi", "sukidi"], // was ["sukidi", "suˈkidi"] (vi dialect rules 2026-10-06)
     mnk: ["sukuro", "sukuro"],
     sus: ["suka", "suka"],
     mos: ["sʋkre", "sʊkre"], // was ["sikare", "sikare"] (vi dialect rules 2026-10-06)
@@ -1250,7 +1250,7 @@ WORDS.sugar = {
     gil: ["tioka", "sioka"],
     pon: ["suke", "suke"],
     mh: ["jukwa", "tʲuɡʷɑ"],
-    hmn: ["piam thaj", "piã˨˩ˀ tʰa˥˨"],
+    hmn: ["piam thaj", "pia˨˩ˀ tʰa˥˨"], // was ["piam thaj", "piã˨˩ˀ tʰa˥˨"] (vi dialect rules 2026-10-06)
     nia: ["gulo", "ɡulo"],
     djk: ["sukuu", "sukuː"],
     gcr: ["sik", "sik"],

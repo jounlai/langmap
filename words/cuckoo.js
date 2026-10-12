@@ -413,7 +413,7 @@ WORDS.cuckoo = {
     shn: ["ၼူၵ်ႉတွင်ႉလေႃး", "nok˦˨ˀ tɔŋ˦˨ˀ lɔː˥"],
     ssw: ["phezukwemkhono", "pʰɛzukwɛmˈkʰono"],
     nd: ["inkanku", "iⁿˈkaŋku"],
-    rhg: ["kuilá", "kuiˈla"],
+    rhg: ["kuilá", "kuila"],
     ctg: ["কোগিল", "koˈɡil"],
     mag: ["कोइल", "koil"],
     lmo: ["cùcch", "kuk"],
@@ -539,6 +539,7 @@ WORDS.cuckoo = {
     osx: ["gôk", "ɡoːk"],
     h_vedic: ["अन्यवाप", "ɐnjɐʋaːpɐ́"],
     gld: ["кэкӯ", "kəkuː"],
-    evn: ["кукты", "kukti"]
+    evn: ["кукты", "kukti"],
+    ykg: ["кукун нодо", "kukun nodo"]
   },
 };

@@ -110,7 +110,7 @@ WORDS.sleep = {
     ja: ["寝る", "neɾɯ"],
     ja_osa: ["寝る", "neɾɯ"],
     ja_aom: ["寝る", "neɾɯ"],
-    ja_oki: ["にんじゅん", "nindʑuŋ"],
+    ja_oki: ["にんじゅん", "nindʑuɴ"],
     ja_hak: ["寝る", "neɾɯ"],
     ja_kyo: ["寝る", "neɾɯ"],
     ja_hir: ["寝る", "neɾɯ"],
@@ -161,7 +161,7 @@ WORDS.sleep = {
     mn: ["унтах", "ʊntax"],
     sah: ["утуй", "uˈtuj"],
     tyv: ["удуур", "uˈduːr"],
-    cv: ["ҫывӑр", "ɕɯʋər"],
+    cv: ["ҫывӑр", "ɕɯvər"],
     bxr: ["унтаха", "untaxa"],
     my: ["အိပ်", "ʔeɪʔ"],
     km: ["ដេក", "deːk"],
@@ -748,7 +748,7 @@ WORDS.sleep = {
     trv: ["mtaqi", "mtaqi"],
 
     // --- Tibetic and neighbours
-    adx: ["ཉལ་", "ɲal"],
+    adx: ["ཉལ་", "ȵal"],
     bft: ["ཉལ", "ɲal"],
     lbj: ["ཉལ", "ɲal"],
     xsr: ["ཉལ", "ɲal"],
@@ -1186,6 +1186,10 @@ WORDS.sleep = {
     olk: ["elwan udnanh", "elwan udnan̪"],
     slr: ["uxlağusı", "uχlɑʁusɨ"],
     cnp: ["睡觉", "ʃui˨˨ kau˥˥"],
-    hsn_yz: ["睡觉", "zueɪ˨˦ kɔ˨˦"]
+    hsn_yz: ["睡觉", "zueɪ˨˦ kɔ˨˦"],
+    enf: ["kodiɕ", "kɔdiɕʲ"],
+    fvr: ["ʔʋ̀ŋ-", "ʔʊ̀ŋ"],
+    yle: ["dpî", "ʈpɨ"],
+    bom: ["nevwa", "nevwa"]
   },
 };

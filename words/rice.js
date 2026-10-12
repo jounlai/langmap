@@ -645,7 +645,7 @@ WORDS.rice = {
     smn: ["riisi", "ˈriːsi"],
     afb: ["عيش", "ʕeːʃ"],
     nan_xm: ["米", "bi˥˧"],
-    en_wls: ["rice", "ɹaɪs"],
+    en_wls: ["rice", "ɾaɪs"],
     szy: ["belac", "bəlats"],
     cro: ["bisheetchichée", "biʃeːttʃitʃéː"],
     pt_mz: ["arroz", "ɐˈʁoʃ"],

@@ -388,7 +388,7 @@ WORDS.milk = {
 
     // --- Uralic ----------------------------------------------------------
     se: ["mielki", "ˈmielki"],
-    krl: ["maito", "ˈmaito"],
+    krl: ["maito", "ˈmɑi̯to"],
     olo: ["maido", "ˈmaido"],
     vep: ["maid", "maid"],
     fkv: ["maito", "ˈmaito"],
@@ -641,7 +641,7 @@ WORDS.milk = {
     twm: ["jo13", "jo˩˧"],
     eve: ["өкэнь", "økəɲ"],
     yrk: ["молока", "molaka"],
-    enf: ["molka", "molka"],
+    enf: ["molka", "mɔɫka"],
     nio: ["ними", "nimi"],
     sel: ["нима", "nima"],
     kca: ["эсам йиңк", "esam jiŋk"],
@@ -1134,6 +1134,8 @@ WORDS.milk = {
     pkar: ["*(s)ʒ₁e-", "dze"],
     xpr: ["šift", "ʃift"],
     p_jpn: ["*ti", "ti"],
-    olk: ["abum olgng", "abum olɡŋ"]
+    olk: ["abum olgng", "abum olɡŋ"],
+    ktz: ["kù", "kù"],
+    mhy: ["susu", "susu"]
   },
 };

@@ -399,7 +399,7 @@ WORDS.silk = {
     tmh: ["ⵍⵅⵔⴻⵔⵏ", "ələxərerən"],
     sco: ["silk", "sɪlk"],
     li: ["ziej", "ziː"],
-    sc: ["seda", "ˈsɛða"],
+    sc: ["seda", "ˈseda"],
     av: ["дарай", "daraj"],
     kbd: ["дарий", "darij"],
     mfe: ["laswa", "laswa"],

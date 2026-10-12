@@ -87,7 +87,7 @@ WORDS.salt = {
     cy: ["halen", "ˈhalɛn"],
     hy_grab: ["աղ", "aɫ"],
     hy: ["աղ", "ɑʁ"],
-    lt: ["druska", "ˈdruskɐ"],
+    lt: ["druska", "drʊˈskɐ"],
     lv: ["sāls", "saːls"],
     sa: ["लवण", "lɐʋɐɳɐ"],
     h_vedic: ["लवण", "lɐʋɐɳɐ́"],
@@ -1239,7 +1239,7 @@ WORDS.salt = {
     kho: ["𑀦𑀫𑁆𑀯", "namva"],
     myz: ["ࡌࡉࡄࡋࡀ", "mihla"],
     aiw: ["sooq", "soːkʼ"],
-    fvr: ["kerra", "kɛrːa"],
+    fvr: ["kèrrà", "kɛ̀rːà"],
     ktz: ["gúí", "ɡúí"],
     tlh: ["qut na'", "qut naʔ"],
     rmt: ["lon", "lon"],
@@ -1260,6 +1260,7 @@ WORDS.salt = {
     zh_han: ["鹽", "źam"],
     xpr: ["nmydk", "nameːdk"],
     suk: ["munhu", "munhu"],
-    olk: ["ilbmbu", "ilbmbu"]
+    olk: ["ilbmbu", "ilbmbu"],
+    anu: ["acäbö", "atʃabo"]
   },
 };

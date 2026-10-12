@@ -115,7 +115,8 @@ const DEBT = {};
 // was refused. The ratchet is against growth through laziness, not against
 // growth.
 // 2026-10-12 (r89): foot 18 -> 19. wuu_jx 脚 is new and its Jiaxing table glosses 長腳 as 長腿 — a hint, not a source, for leg+foot; Shanghai is 'distinct'. Left 'unknown' rather than claimed. we 40 -> 39, bear 4 -> 3.
-const UNDECIDED = { we: { route: 'unknown', max: 39 }, bear: { route: 'unknown', max: 3 }, foot: { route: 'unknown', max: 19 } };
+// 2026-10-12 (r90): bear 3 -> 4 — bca tɕĩ (Allen, Jianchuan Bai) is sourced but its origin is not; we 39 -> 37.
+const UNDECIDED = { we: { route: 'unknown', max: 37 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 19 } };
 
 let violations = 0;
 const notes = [];

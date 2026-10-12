@@ -222,7 +222,7 @@ WORDS.new = {
     ro: ["nou", "now"],
     ga: ["nua", "n̪ˠuə"],
     eu: ["berri", "beri"],
-    cy: ["newydd", "ˈnɛwɨð"],
+    cy: ["newydd", "ˈnɛuɨð"],
     ka: ["ახალი", "axali"],
     hy: ["նոր", "noɾ"],
     haw: ["hou", "hou"],
@@ -963,7 +963,7 @@ WORDS.new = {
     maz: ["dadyo", "dadjo"],
     aiw: ["killa", "kilːˈa"],
     mlq: ["kuto", "kuto"],
-    tdh: ["लाले", "lale"],
+    tdh: ["लाले", "laːle"],
     toc: ["xasasti", "ʃasasti"],
     ygr: ["souva", "souva"],
     ker: ["kimirwi", "kimiɾwi"],
@@ -1168,6 +1168,8 @@ WORDS.new = {
     cjs: ["наа", "naː"],
     dng: ["щин", "ɕiŋ˨˦"],
     zh_han: ["新", "sjǝn"],
-    olk: ["ikum", "ikum"]
+    olk: ["ikum", "ikum"],
+    nus: ["pay", "paj"],
+    spp: ["nivɔnŋɔ", "nivɔnŋɔ"]
   }
 };

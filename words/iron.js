@@ -1142,6 +1142,9 @@ WORDS.iron = {
     p_sit: ["*l-tsyak", "l-tsjak"],
     qwc: ["qʼillay", "qʼiʎaj"],
     paus: ["*Namat", "Namat"],
-    pll: ["hir", "hir"]
+    pll: ["hir", "hir"],
+    ktz: ["ǃaq", "ǃaˤ"],
+    anu: ["nywïëny", "ɲwieɲ"],
+    yle: ["nkichi", "ŋɡitʃi"]
   },
 };

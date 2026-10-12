@@ -259,7 +259,7 @@ WORDS.woof = {
     ca_va: ["bub-bub", "ˌbubˈbup"],
     ltg: ["vau vau", ""],
     nn: ["vov", "ʋuːʋ"],
-    ko_jeju: ["웡웡", "wəŋwəŋ"],
+    ko_jeju: ["웡웡", "wʌŋwʌŋ"],
     vls: ["woef", ""],
     oc: ["bau-bau", ""],
     ast: ["guau", ""],

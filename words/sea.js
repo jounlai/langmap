@@ -119,7 +119,7 @@ WORDS.sea = {
     be: ["мора", "ˈmɔra"],
     mk: ["море", "ˈmɔrɛ"],
     bs: ["more", "more"],
-    lt: ["jūra", "ˈjuːra"],
+    lt: ["jūra", "ˈjuːrɐ"],
     lv: ["jūra", "ˈjuːra"],
     et: ["meri", "ˈmeri"],
     mt: ["baħar", "ˈbaħar"],
@@ -591,7 +591,7 @@ WORDS.sea = {
     tig: ["በሐር", "baħar"],
     sco: ["sea", "siː"],
     rgn: ["mêr", "meːɾ"],
-    sc: ["mare", "ˈmaɾe"],
+    sc: ["mare", "ˈmare"],
     tsg: ["dagat", "daɡat"],
     gor: ["deheto", "deˈheto"],
     unr: ["samundar", "samundar"],
@@ -1087,6 +1087,10 @@ WORDS.sea = {
     kxv: ["samduri", "samduri"],
     bzd: ["dayë", "dajə"],
     ers: ["ŋkhuɑ", "ŋkʰuɑ˥˥"],
-    olk: ["uland", "uland"]
+    olk: ["uland", "uland"],
+    bca: ["ko", "ko˨˩"],
+    gum: ["mar", "maɾ"],
+    men: ["gboya", "ɡboja"],
+    hot: ["ŋgwêk", "ŋɡwek"]
   }
 };

@@ -188,7 +188,7 @@ WORDS.rain = {
     pt_gw: ["cuba", "ˈtʃuba"],
     pt_mo: ["chuva", "ˈʃuvɐ"],
     ca: ["pluja", "ˈpluʒə"],
-    ca_va: ["pluja", "ˈpluʒa"],
+    ca_va: ["pluja", "ˈpludʒa"],
     gl: ["choiva", "ˈtʃoi̯βa"],
     ast: ["lluvia", "ˈʎuβja"],
     ext: ["lluvia", "ˈʎuβja"],
@@ -262,7 +262,7 @@ WORDS.rain = {
     lv: ["lietus", "liɛtus"],
     ga: ["báisteach", "ˈbˠaːʃtʲəx"],
     gd: ["uisge", "ɯʃkʲə"],
-    cy: ["glaw", "ɡlau̯"],
+    cy: ["glaw", "ɡlaːu"],
     br: ["glav", "ɡlɑːw"],
     kw: ["glaw", "ɡlɛu"],
     gv: ["fliaghey", "ˈfljaːə"],
@@ -927,7 +927,7 @@ WORDS.rain = {
     blr: ["lei51", "lei˥˩"],
     woe: ["ut", "uːte"],
     yao: ["ula", "ula"],
-    yap: ["nʼuw", "nʔuw"],
+    yap: ["nʼuw", "nʼuw"],
     ybe: ["jaɣmər", "jɑɣmər"],
     ygr: ["gona", "ɡona"],
     ykg: ["тивэ", "tiwe"],
@@ -1161,6 +1161,10 @@ WORDS.rain = {
     wbp: ["minyira", "miɲiɻa"],
     ote: ["däʼye", "dãʔje"],
     xed: ["ìmí", "ìmí"],
-    olk: ["unyan", "uɲan"]
+    olk: ["unyan", "uɲan"],
+    fvr: ["kʋ̀y", "kʊ̀j"],
+    anu: ["køth", "køt̪"],
+    men: ["njɛi", "ndʒɛi"],
+    bsq: ["ní", "ní"]
   },
 };

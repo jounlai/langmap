@@ -863,9 +863,9 @@ WORDS.coffee = {
     ig: ["kọfị", "kɔfɪ"],
     atj: ["kapi", "kapi"],
     uby: ["kʼahwa", "kʼahwa"],
-    krl: ["kahvi", "ˈkahvi"],
+    krl: ["kahvi", "ˈkɑhvi"], // was ["kahvi", "ˈkahvi"] (vi dialect rules 2026-10-06)
     cay: ["ká:fih", "káːfih"],
-    rhg: ["kofí", "koˈfi"],
+    rhg: ["kofí", "kofi"], // was ["kofí", "koˈfi"] (vi dialect rules 2026-10-06)
     pdc: ["Kaffi", "ˈkafi"],
     mdh: ["kapi", "kaˈpi"],
     mrw: ["kahawa", "kahawa"],
@@ -923,7 +923,7 @@ WORDS.coffee = {
     kpe: ["kofe", "kofe"],
     ee: ["kafe", "kafe"],
     luo: ["kahawa", "kahawa"],
-    kmb: ["kafé", "kaˈfe"],
+    kmb: ["kafé", "kafe"], // was ["kafé", "kaˈfe"] (vi dialect rules 2026-10-06)
     snk: ["kefe", "kefe"],
     mas: ["kashawa", "kaʃawa"],
     kr: ["kofi", "kofi"],
@@ -1231,7 +1231,7 @@ WORDS.coffee = {
     ro: ["cafea", "kaˈfe̯a"],
     ga: ["caife", "ˈkafʲə"],
     eu: ["kafe", "kafe"],
-    cy: ["coffi", "ˈkɔfi"],
+    cy: ["coffi", "ˈkɔfɪ"], // was ["coffi", "ˈkɔfi"] (vi dialect rules 2026-10-06)
     ka: ["ყავა", "qʼava"],
     hy: ["սուրճ", "suɾtʃ"],
     haw: ["kope", "kope"],

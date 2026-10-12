@@ -132,7 +132,7 @@ WORDS.honey = {
     gl: ["mel", "mɛl"],
     oc: ["mèl", "mɛl"],
     co: ["mele", "ˈmɛle"],
-    sc: ["mele", "ˈmɛle"],
+    sc: ["mele", "ˈmele"],
     vec: ["miel", "mjɛl"],
     scn: ["meli", "ˈmɛli"],
     fur: ["mîl", "miːl"],
@@ -1145,6 +1145,10 @@ WORDS.honey = {
     yle: ["mty:aa", "mtʲãː"],
     xpr: ["ʾngwbyn", "anɡubeːn"],
     ett: ["math", "maθ"],
-    olk: ["oyjo", "ojɟo"]
+    olk: ["oyjo", "ojɟo"],
+    adi: ["ngullang", "ŋullaŋ"],
+    zts: ["dzɨny", "dzɨɲ"],
+    fud: ["meli", "meli"],
+    ho: ["hani", "hani"]
   },
 };

@@ -481,7 +481,7 @@ WORDS.egg = {
     mhr: ["муно", "muno"],
     myv: ["ал", "al"],
     mdf: ["ал", "al"],
-    krl: ["muna", "muna"],
+    krl: ["muna", "ˈmunɑ"],
     olo: ["jäiččy", "ˈjæitʃːy"],
     vep: ["muna", "muna"],
     vot: ["muna", "muna"],
@@ -818,7 +818,7 @@ WORDS.egg = {
     ext: ["güevu", "ˈɡweβu"],
     vo: ["nög", "nøɡ"],
     srm: ["óbo", "óbo"],
-    rhg: ["dhim", "dim"],
+    rhg: ["dhim", "ɖim"],
     tly: ["uvə", "uvə"],
     sd: ["آنو", "aːno"],
     sdh: ["خا", "xaː"],
@@ -1100,7 +1100,7 @@ WORDS.egg = {
     xav: ["siʼaʼre", "siʔaˈʔɾe"],
     maz: ["blanquillo", "blaŋˈkijo"],
     umu: ["wáhwal", "wahwal"],
-    thp: ["heʔúšeʔ", "heʔuʃeʔ"],
+    thp: ["heʔúseʔ", "heʔuseʔ"],
     kio: ["tʼą́y", "tʼã́j"],
     aoc: ["pumoi", "pumoi"],
     ake: ["pïmoi", "pɨmoi"],
@@ -1155,6 +1155,7 @@ WORDS.egg = {
     wym: ["e", "e"],
     ter: ["kopútoe", "koˈputoe"],
     aa: ["naala", "naːla"],
-    olk: ["onmon", "onmon"]
+    olk: ["onmon", "onmon"],
+    ktz: ["nǃù", "ᵑǃù"]
   },
 };

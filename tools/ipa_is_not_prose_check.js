@@ -40,6 +40,9 @@ const vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
 const MAX = 50;
+// n99 is a phrase, not a word: Carib 99 is 'four persons, ten on top, four-and-five'
+// (car, Mt 18:12, 65 characters). The prose tests above still apply to it. r90, 2026-10-12.
+const MAX_N99 = 80;
 const PUNCT = /[,;—–]/;
 /* An arrow or an ellipsis means the field is describing a change rather than
  * recording a value: `ʒaˈʒɨ → taˈʒɨ` and `anaˈtapu → aŋaˈtapu` both reached a commit
@@ -71,7 +74,7 @@ for (const [id, w] of Object.entries(WORDS)) {
         const why = PUNCT.test(ipa) ? 'sentence punctuation'
             : ARROW.test(ipa) ? 'an arrow or ellipsis — a description, not a value'
             : / or /.test(ipa) ? 'the word "or"'
-            : [...ipa].length > MAX ? `${[...ipa].length} characters, cap ${MAX}`
+            : [...ipa].length > (id === 'n99' ? MAX_N99 : MAX) ? `${[...ipa].length} characters, cap ${id === 'n99' ? MAX_N99 : MAX}`
             : null;
         if (why) violations.push({ code, id, surface, ipa, why });
     }

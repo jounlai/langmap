@@ -8,6 +8,12 @@
  * cell only where the variety demonstrably types it differently from its
  * parent (partial-word policy). Added 2026-10-05 at the owner's request.
  *
+ * EVIDENCE: two independent sources until 2026-10-12; from then (owner) ONE
+ * reliable source that states the form for that language, with none
+ * contradicting it. A source about a country (a world map's country label)
+ * is accepted where the country's main language is the row's; a source about
+ * a script ("common in India") is not evidence for each language using it.
+ *
  * New entries: see docs/words/CONTRIBUTING.md
  */
 WORDS.lol = {
@@ -136,6 +142,13 @@ WORDS.lol = {
     // af: lol round 5, slice F (Africa and the Middle East). 2026-10-05. af: (1) af.wikipedia "LOL (Internet slang)" (https://af.wikipedia.org/wiki/LOL_(Internet_slang)): "Die Afrikaanse ekwivalent wat dikwels gesien word is LMGA, wat staan vir 'lag my gat af'." (2) Urban Dictionary "LMGA" (Trollpatrol747, 23 (no sourced reading — shown as pronunciation unknown)
     af: ["LMGA", ""],
     // pt: pt (European Portuguese row) — (1) en.wiktionary "kkk" (Portuguese): synonyms "ah ah ah<qq:Portugal>", and en.wiktionary "ah ah ah" (Portuguese): alternative form "ahahah", "(comics, internet slang) hahaha ... a very common laugh". (2) Philipe Brazuca, "Laugh in Portuguese: kkkk, rsrs and How Brazil (no sourced reading — shown as pronunciation unknown)
-    pt: ["ahahah", ""]
+    pt: ["ahahah", ""],
+    es_cr: ["jajaja", "ˈhahaha"],
+    ro: ["hahaha", "hahaha"],
+    bs: ["hahaha", "xaxaxa"],
+    jv: ["ha ha ha", "ha ha ha"],
+    su: ["ha ha ha", "ha ha ha"],
+    kab: ["mst", ""],
+    srr: ["dbmk", ""]
   },
 };

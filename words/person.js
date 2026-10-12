@@ -1146,6 +1146,8 @@ WORDS.person = {
     kmu: ["vea", "vea"],
     soa: ["คน", "kʰon˧˥˦"],
     nhx: ["ta̱gaꞌ", "taːɡaʔ"],
-    roo: ["oirato", "oiɾato"]
+    roo: ["oirato", "oiɾato"],
+    obr: ["လော", "lo"],
+    nxq: ["xi", "ɕi˧"]
   }
 };

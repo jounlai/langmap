@@ -1092,6 +1092,7 @@ WORDS.sea = {
     gum: ["mar", "maɾ"],
     men: ["gboya", "ɡboja"],
     hot: ["ŋgwêk", "ŋɡwek"],
-    lij_t: ["mò", "mɔ"]
+    lij_t: ["mò", "mɔ"],
+    kry: ["ʕil", "ʕil"]
   }
 };

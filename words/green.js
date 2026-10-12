@@ -1043,6 +1043,9 @@ WORDS.green = {
     chp: ["dzeretłʼes látʼį", "dzeretɬʼes látʼĩ"],
     sux: ["𒅊", "siɡ"],
     bla: ["ótssko", "ótsːko"],
-    com: ["ebibitʉ", "ebibitɨ"]
+    com: ["ebibitʉ", "ebibitɨ"],
+    xpr: ["zarγōnag", "zarɣoːnaɡ"],
+    dta: ["nasən", "nasən"],
+    mrq: ["ʻoutiteʻe", "ʔoutiteʔe"]
   }
 };

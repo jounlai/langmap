@@ -810,6 +810,7 @@ WORDS.silk = {
     ojp: ["きぬ", "kinu"],
     it_dan: ["seta", "ˈseta"],
     sid: ["shalaala", "ʃalaːla"],
-    pt_gw: ["seda", "ˈseda"]
+    pt_gw: ["seda", "ˈseda"],
+    khb: ["ᦶᦣ", "hɛː"]
   }
 };

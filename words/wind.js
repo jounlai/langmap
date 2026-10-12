@@ -1175,6 +1175,7 @@ WORDS.wind = {
     yuy: ["salɢən", "salɢən"],
     zh_han: ["風", "prǝm"],
     olk: ["opon", "opon"],
-    gon: ["वळि", "ʋaɭi"]
+    gon: ["वळि", "ʋaɭi"],
+    obr: ["လိယ်", "lij"]
   },
 };

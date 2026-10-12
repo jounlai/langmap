@@ -1175,6 +1175,9 @@ WORDS.nose = {
     hoc: ["muta", "muʈa"],
     olk: ["ulbmul", "ulbmul"],
     mcf: ["dëbiate", "dɨbjatɪ"],
-    adi: ["nyobung", "ɲobuŋ"]
+    adi: ["nyobung", "ɲobuŋ"],
+    xpr: ["nāwič", "naːwitʃ"],
+    nmn: ["ǀnùhɲa", "ǀnṳɲa"],
+    nlc: ["u", "u"]
   },
 };

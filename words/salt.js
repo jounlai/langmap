@@ -1263,6 +1263,7 @@ WORDS.salt = {
     olk: ["ilbmbu", "ilbmbu"],
     anu: ["acäbö", "atʃabo"],
     com: ["onaabi", "onaːbi"],
-    ahk: ["sa deuq", "sa˨˩dɤ̰˧"]
+    ahk: ["sa deuq", "sa˨˩dɤ̰˧"],
+    ude: ["сʼаи", "sʔai"]
   },
 };

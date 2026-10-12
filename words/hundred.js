@@ -1174,6 +1174,7 @@ WORDS.hundred = {
     ess: ["ю̄к талъимат", "juːk taɬimat"],
     kxv: ["pāsa kōḍe", "paːsa koːɖe"],
     xpr: ["sad", "sad"],
-    tyz: ["pác", "paːk̚˧˥"]
+    tyz: ["pác", "paːk̚˧˥"],
+    chb: ["guehyzca", "ɡwehɨzka"]
   },
 };

@@ -1193,6 +1193,9 @@ WORDS.bird = {
     kpe: ["ŋɔni", "ŋɔni"],
     zts: ["maniin", "maniːn"],
     anu: ["weny", "weɲ"],
-    lij_t: ["ôxéllu", "oːˈʒelu"]
+    lij_t: ["ôxéllu", "oːˈʒelu"],
+    ii: ["ꉌꊭ", "hɛ˧˧tsɿ̠˧˧"],
+    nmn: ["ǀgūhʼu", "ᶢǀṳʔu"],
+    adt: ["kuRukuku", "kuɹukuku"]
   },
 };

@@ -994,6 +994,7 @@ WORDS.snow = {
     bzd: ["mochka", "motʃka"],
     gum: ["wañi", "waɲi"],
     mzh: ["fwiyʼet", "fʷiʔjet"],
-    kpe: ["kɔ́lɛ", "kɔ́lɛ"]
+    kpe: ["kɔ́lɛ", "kɔ́lɛ"],
+    jiv: ["etsétsentai", "eˈtsetsentai"]
   }
 };

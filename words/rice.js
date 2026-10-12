@@ -881,6 +881,8 @@ WORDS.rice = {
     ayl: ["رز", "ruzz"],
     pll: ["rəko", "rəko"],
     olk: ["arrpo", "arpo"],
-    mra: ["juuk", "juːk"]
+    mra: ["juuk", "juːk"],
+    kmc: ["qɐu31", "qɐu˧˩"],
+    ddo: ["пулав", "pulaw"]
   }
 };

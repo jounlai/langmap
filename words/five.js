@@ -1205,6 +1205,7 @@ WORDS.five = {
     prg: ["pēnkjāi", "peːnkjaːi"],
     ter: ["singu", "siŋɡu"],
     kxv: ["pāsa", "paːsa"],
-    puaz: ["*cipo", "cipo"]
+    puaz: ["*cipo", "cipo"],
+    kjg: ["haː", "haː"]
   },
 };

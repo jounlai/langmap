@@ -868,5 +868,11 @@
     "proto": "paus",
     "ruling": "inherited",
     "note": "Old Sundanese telu (inscriptions) continues PAn *telu. Ruled 2026-10-12 (r88)."
+  },
+  "obr|wind": {
+    "form": "lij",
+    "proto": "p_sit",
+    "ruling": "inherited",
+    "note": "Old Burmese လိယ် lij 'wind' (Sagart et al. 2019 Sino-Tibetan database; en.wiktionary လေ etym.) continues the atlas's Proto-Sino-Tibetan *qV-lij. Ruled 2026-10-12 (r92)."
   }
 }

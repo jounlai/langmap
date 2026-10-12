@@ -1124,6 +1124,9 @@ WORDS.mountain = {
     anu: ["kïdi", "kidi"],
     mpj: ["yapu", "japu"],
     tdh: ["पोप्चङ", "poptsʌŋ"],
-    jup: ["hih", "hih"]
+    jup: ["hih", "hih"],
+    lic: ["hwou3", "hwou˩˩"],
+    afb: ["جبل", "ˈdʒibal"],
+    tpn: ["ybytyra", "ɨβɨtɨɾa"]
   }
 };

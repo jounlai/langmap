@@ -1274,6 +1274,10 @@ WORDS.black = {
     aiw: ["chʼelmi", "tʃʼelˈmi"],
     dur: ["dii", "dii"],
     olk: ["olpon", "olpon"],
-    kjp: ["သိုင့်", "θə̂ɴ"]
+    kjp: ["သိုင့်", "θə̂ɴ"],
+    mpj: ["maru-maru", "maɻumaɻu"],
+    nha: ["wurʼada", "wuɾʔada"],
+    nmn: ["ǂáʼɲa", "ǂaʔɲa"],
+    adt: ["maRu", "maɹu"]
   },
 };

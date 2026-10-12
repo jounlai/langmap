@@ -1202,6 +1202,7 @@ WORDS.white = {
     na: ["bərəbər", "bərəbər"],
     anu: ["tar", "tar"],
     gej: ["ɣe", "ɣe"],
-    olk: ["aral", "aɻal"]
+    olk: ["aral", "aɻal"],
+    nmn: ["ǃnúɲa", "ǃnuɲa"]
   },
 };

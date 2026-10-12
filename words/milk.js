@@ -1137,6 +1137,8 @@ WORDS.milk = {
     olk: ["abum olgng", "abum olɡŋ"],
     ktz: ["kù", "kù"],
     mhy: ["susu", "susu"],
-    lij_t: ["lete", "ˈlɛːte"]
+    lij_t: ["lete", "ˈlɛːte"],
+    ii: ["ꀉꆂ", "a˧˦nɛ˧˧"],
+    nha: ["milgi", "milɡi"]
   },
 };

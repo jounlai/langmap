@@ -1206,6 +1206,7 @@ WORDS.ear = {
     aiw: ["qaam", "kʼaːm"],
     ess: ["сигутык", "siɡutɨk"],
     olk: ["adndur", "adnduɻ"],
-    kpe: ["wóli", "wóli"]
+    kpe: ["wóli", "wóli"],
+    nmn: ["ǂnùhã", "ǂnṳã"]
   },
 };

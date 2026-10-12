@@ -1222,6 +1222,7 @@ WORDS.mouth = {
     enf: ["na ɕe", "na ɕʲɛ"],
     anu: ["dhøk", "d̪øk"],
     soa: ["ปาก", "paːk˧˥"],
-    mxv: ["yuʼu", "juʔu"]
+    mxv: ["yuʼu", "juʔu"],
+    wmt: ["lirra", "lira"]
   }
 };

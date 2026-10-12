@@ -1201,6 +1201,9 @@ WORDS.earth = {
     ktz: ["kxà", "kxʼà"],
     gon: ["बूमि", "buːmi"],
     anu: ["piny", "piɲ"],
-    men: ["pɔlɔ", "pɔlɔ"]
+    men: ["pɔlɔ", "pɔlɔ"],
+    obr: ["မ္လိယ်", "mlij"],
+    cjs: ["тобрақ", "tobraq"],
+    nha: ["uthulu", "ut̪ulu"]
   }
 };

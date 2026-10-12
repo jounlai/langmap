@@ -114,7 +114,8 @@ const DEBT = {};
 // in the instrument, not a fact about Azhe, and it is the same reason Karajá
 // was refused. The ratchet is against growth through laziness, not against
 // growth.
-const UNDECIDED = { we: { route: 'unknown', max: 40 }, bear: { route: 'unknown', max: 4 }, foot: { route: 'unknown', max: 18 } };
+// 2026-10-12 (r89): foot 18 -> 19. wuu_jx 脚 is new and its Jiaxing table glosses 長腳 as 長腿 — a hint, not a source, for leg+foot; Shanghai is 'distinct'. Left 'unknown' rather than claimed. we 40 -> 39, bear 4 -> 3.
+const UNDECIDED = { we: { route: 'unknown', max: 39 }, bear: { route: 'unknown', max: 3 }, foot: { route: 'unknown', max: 19 } };
 
 let violations = 0;
 const notes = [];

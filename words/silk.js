@@ -308,7 +308,7 @@ WORDS.silk = {
     cnp: ["丝", "ɬi˥˧"],
     zh_lz: ["丝", "sz̩˧˩"],
     wuu_nb: ["丝", "sz̩˥˧"],
-    wuu_sz: ["丝", "sz̩˦˦"],
+    wuu_sz: ["丝", "sɿ˦˦"],
     wuu_wz: ["丝", "sɿ˧˧"],
     kln: ["aririt", "aririt"],
     ja_osa: ["絹", "kinɯ"],
@@ -798,7 +798,7 @@ WORDS.silk = {
     hai: ["sálg", "sálɡ"],
     abe: ["silki", "silki"],
     win: ["zeeną́ba", "zeːˈnãba"],
-    duu: ["ɡuceɟɔ̆ʔ", "ɡu˥˥ce˥˥ɟɔ̆ʔ˥˥"],
+    duu: ["ɡuceɟɔʔ", "ɡuceɟɔʔ"],
     swb: ["hariri", "hariri"],
     wym: ["zajd", "zajd"],
     bsq: ["sékè", "sékè"],
@@ -809,6 +809,7 @@ WORDS.silk = {
     h_tagalog: ["ᜐᜓᜆ᜔ᜎ", "sutˈlaʔ"],
     ojp: ["きぬ", "kinu"],
     it_dan: ["seta", "ˈseta"],
-    sid: ["shalaala", "ʃalaːla"]
+    sid: ["shalaala", "ʃalaːla"],
+    pt_gw: ["seda", "ˈseda"]
   }
 };

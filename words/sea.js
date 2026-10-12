@@ -296,7 +296,7 @@ WORDS.sea = {
     min: ["lauik", "lauiʔ"],
     mkz: ["meti", "meti"],
     mnc: ["ᠮᡝᡩᡝᡵᡳ", "mətəri"],
-    mni: ["ꯏꯄꯥꯛ", "ipak"],
+    mni: ["ꯏꯄꯥꯛ", "ípak"],
     mnp: ["海", "xuɛ˨˩"],
     mns: ["ся̄рысь", "sʲaːrɪsʲ"],
     mrj: ["тангыж", "taŋɡəʒ"],
@@ -743,7 +743,7 @@ WORDS.sea = {
     agu: ["pitzʼpuj aʼ", "pitsʼpuh aʔ"],
     atj: ["kitcikami", "kitʃikami"],
     pyu: ["lrevek", "ɭəvək"],
-    zts: ["nyisdo", "ɲisdo"],
+    zts: ["nisdoo", "nisdoː"],
     cho: ["okhata", "okhata"],
     mus: ["uehvtkv", "oihatkə"],
     huv: ["ndek", "ndek"],
@@ -1074,7 +1074,7 @@ WORDS.sea = {
     ybe: ["taley", "talej"],
     win: ["teeją́", "teːˈdʒã"],
     ker: ["kan kəmtəŋ", "kan kəmtəŋ"],
-    duu: ["su", "su˥˥"],
+    duu: ["su", "su"],
     ygr: ["hage nina", "haɡe nina"],
     dds: ["dibe", "dibe"],
     qxs: ["ɕye", "ɕye˧˧"],
@@ -1084,6 +1084,9 @@ WORDS.sea = {
     kmu: ["hage li", "haɡe li"],
     brx: ["लैथो", "lɯitʰo"],
     zh_han: ["海", "m̥ǝ̄́"],
-    kxv: ["samduri", "samduri"]
+    kxv: ["samduri", "samduri"],
+    bzd: ["dayë", "dajə"],
+    ers: ["ŋkhuɑ", "ŋkʰuɑ˥˥"],
+    olk: ["uland", "uland"]
   }
 };

@@ -454,7 +454,7 @@ WORDS.mouth = {
     mlm: ["pa:k7", "paːk˦˨"],
     mmd: ["pa:k7", "paːk˦˦"],
     mnc: ["ᠠᠩᡤᠠ", "aŋɡa"],
-    mni: ["ꯆꯤꯟ", "tʃin"],
+    mni: ["ꯆꯤꯟ", "tʃín"],
     mnp: ["喙", "tsʰy˧˧"],
     mns: ["сӯп", "suːp"],
     mnw: ["ပါၚ်", "paiŋ"],
@@ -488,7 +488,7 @@ WORDS.mouth = {
     nrf: ["bouoche", "bwɔʃ"],
     nso: ["molomo", "molomo"],
     nus: ["thok", "t̪ɔk"],
-    nv: ["azééʼ", "àzéːʔ"],
+    nv: ["azééʼ", "ʔɑ̀zéːʔ"],
     ny: ["kamwa", "ˈkamʷa"],
     nyn: ["akanwa", "akanwa"],
     nyo: ["akanwa", "akanwa"],
@@ -896,7 +896,7 @@ WORDS.mouth = {
     lld: ["bocia", "ˈbotʃa"],
     atj: ["otoninan", "otoninan"],
     tdh: ["सि", "si"],
-    zts: ["ru", "ɾu"],
+    zts: ["ruu", "ɾuː"],
     mix: ["yuʼu", "juʔú"],
     deg: ["enu", "enu"],
     cho: ["iti", "iti"],
@@ -1217,6 +1217,7 @@ WORDS.mouth = {
     zh_han: ["口", "khwā́"],
     xpr: ["rumb", "rumb"],
     sux: ["𒅗", "kaɡ"],
-    mro: ["nor", "nɔr"]
+    mro: ["nor", "nɔr"],
+    olk: ["ewa", "ewa"]
   }
 };

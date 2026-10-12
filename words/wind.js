@@ -949,7 +949,7 @@ WORDS.wind = {
     kmb: ["kitembu", "kitembu"],
     teo: ["ekwam", "ekʷam"],
     ii: ["ꃅꆳ", "mu˧˧ɬɿ˧˧"],
-    pcc: ["rumz", "ðum˩˩"],
+    pcc: ["rumx", "ðum˧˩"],
     wbm: ["bhaung", "bʰaɯŋ"],
     kru: ["ताका", "taːkaː"],
     sid: ["bubbe", "bubːe"],
@@ -1173,6 +1173,7 @@ WORDS.wind = {
     kjg: ["hndrəːj", "hndrəːj"],
     abe: ["kzelômsen", "kzelɔ̃msen"],
     yuy: ["salɢən", "salɢən"],
-    zh_han: ["風", "prǝm"]
+    zh_han: ["風", "prǝm"],
+    olk: ["opon", "opon"]
   },
 };

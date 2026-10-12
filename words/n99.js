@@ -207,6 +207,14 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    hak_hl: "mult",
+    czh_wy: "mult",
+    wuu_jx: "mult",
+    gan_yc: "mult",
+    hsn_yz: "mult",
+    cjy_xz: "mult",
+    gan_fz: "mult",
+    pt_gw: "dec",
     zh_cd: "mult",
     yap: "subunit",
     xnr: "opaque",
@@ -903,6 +911,14 @@ WORDS.n99 = {
     }
   },
   data: {
+    hak_hl: ["九十九", "kiu˨˦ ʃip˨ kiu˨˦"],
+    czh_wy: ["九十九", "tɕiɑ˨ sɑ˥˩ tɕiɑ˨"],
+    wuu_jx: ["九十九", "tɕiəu˦˦ zəʔ˩˨ tɕiəu˦˦"],
+    gan_yc: ["九十九", "tʃɪu˨˩ ʃɪʔ˦ tʃɪu˨˩"],
+    hsn_yz: ["九十九", "tɕiəɯ˥˥ ʃʒ̍˧˧ tɕiəɯ˥˥"],
+    cjy_xz: ["九十九", "tɕiəu˧˩˧ ʂəʔ˦˧ tɕiəu˧˩˧"],
+    gan_fz: ["九十九", "tɕiu˧˥ ɕip˥ tɕiu˧˥"],
+    pt_gw: ["noventa i novi", "noˈventa i ˈnovi"],
     zh_cd: ["九十九", "tɕiəu˥˧ sɿ˨˩ tɕiəu˥˧"],
     yap: ["mereb i ragag nge mereb", "meːreːb iː raɡaːɡ ŋeː meːreːb"],
     xnr: ["नड़ीनूयें", "nəɽiːnuːjẽ"],
@@ -1091,7 +1107,7 @@ WORDS.n99 = {
     ii: ["ꈬꊰꈬ", "ɡu˧˧ tsʰi˧˧ ɡu˧˧"],
     wbm: ["tixdim dim", "tiʔdim dim"], // was ["tix dim dim", "ti dim dim"] (vi dialect rules 2026-10-06)
     hmn: ["cuaj caum cuaj", "cua˥˨ cau˨˩ˀ cua˥˨"],
-    mni: ["ꯃꯔꯤꯐꯨꯇꯔꯥꯃꯥꯄꯟ", "məripʰutəraːmaːpən"],
+    mni: ["ꯃꯔꯤꯐꯨꯇꯔꯥꯃꯥꯄꯟ", "məripʰutərámapən"], // was ["ꯃꯔꯤꯐꯨꯇꯔꯥꯃꯥꯄꯟ", "məripʰutəraːmaːpən"] (vi dialect rules 2026-10-06)
     sat: ["ᱟᱨᱮ ᱜᱮᱞ ᱟᱨᱮ", "are ɡel are"],
     bbc: ["siapulu sia", "siapulu sia"], // was ["sia pulu sia", "sia pulu sia"] (vi dialect rules 2026-10-06)
     mak: ["salapampulo assalapang", "salapampulo asːalapaŋ"],

@@ -126,7 +126,7 @@ WORDS.black = {
     hu: ["fekete", "ˈfɛkɛtɛ"],
     sq: ["i zi", "i ˈzi"],
     eu: ["beltz", "bels̻"],
-    mt: ["iswed", "ˈiswet"],
+    mt: ["iswed", "ˈɪswɛt"],
 
     // --- Celtic -------------------------------------------------------
     cy: ["du", "dɨː"],
@@ -175,7 +175,7 @@ WORDS.black = {
     an: ["negro", "ˈneɣɾo"],
     nap: ["niro", "ˈnirə"],
     scn: ["nìuru", "ˈniuru"],
-    lij: ["neigro", "ˈnejɡru"],
+    lij: ["néigro", "ˈnejɡru"],
     pms: ["nèir", "nɛjr"],
     lmo: ["negher", "ˈneɡer"],
     fur: ["neri", "ˈneri"],
@@ -613,7 +613,7 @@ WORDS.black = {
     kjh: ["хара", "xɑˈrɑ"],
     cjs: ["қара", "qaˈra"],
     dlg: ["кара", "kara"],
-    slr: ["qara", "qaˈra"],
+    slr: ["qara", "qɑɻɑ"],
     ybe: ["qara", "qɑˈrɑ"],
     kim: ["ӄара", "qaˈra"],
     azb: ["قارا", "ɡɑˈɾɑ"],
@@ -890,7 +890,7 @@ WORDS.black = {
     lhu: ["nâʼ", "nâʔ"],
     khb: ["ᦡᧄ", "dam˥"],
     kac: ["chyang", "tʃaŋ˧"],
-    pll: ["yim", "jim"],
+    pll: ["jim", "jim"],
     ahk: ["naq", "na̰˧"],
     tji: ["langga", "lan˧˥ka˥˥"],
     nij: ["babilem", "babiləm"],
@@ -970,7 +970,7 @@ WORDS.black = {
     pjt: ["maṟu", "maɻu"],
     gld: ["сахарин", "saxarin"],
     ruq: ["negru", "ˈneɡru"],
-    nlc: ["miding", "midiŋ"],
+    nlc: ["mirin", "mirin"],
     cuk: ["sichid", "sitʃid"],
     apw: ["diłhił", "diɬhiɬ"],
     jiv: ["mukusa", "mukusa"],
@@ -1271,6 +1271,9 @@ WORDS.black = {
     puaz: ["*tuku", "tuku"],
     sux: ["𒈪", "ɡiɡːi"],
     emy: ["ikʼ", "ikʼ"],
-    aiw: ["chʼelmi", "tʃʼelˈmi"]
+    aiw: ["chʼelmi", "tʃʼelˈmi"],
+    dur: ["dii", "dii"],
+    olk: ["olpon", "olpon"],
+    kjp: ["သိုင့်", "θə̂ɴ"]
   },
 };

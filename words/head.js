@@ -118,7 +118,7 @@ WORDS.head = {
     abv: ["راس", "raːs"],
     afb: ["راس", "raːs"],
     acw: ["راس", "raːs"],
-    slr: ["baş", "bɑʃ"],
+    slr: ["baş", "pɑɕ"],
     es_pr: ["cabeza", "kaˈβesa"],
     es_do: ["cabeza", "kaˈβesa"],
     es_gt: ["cabeza", "kaˈβesa"],
@@ -310,7 +310,7 @@ WORDS.head = {
     se: ["oaivi", "ˈoɑjvi"],
     sma: ["åejjie", "oæjːiɛ"],
     smj: ["oajvve", "ˈoajvːe"],
-    smn: ["uáivi", "uaivi"],
+    smn: ["uái'vi", "uaivi"],
     sms: ["vueiʹvv", "vuɛivːʲɘ"],
     sjd: ["вуэййв", "vuejːv"],
     yrl: ["akanga", "akaŋa"],
@@ -866,7 +866,7 @@ WORDS.head = {
     lbj: ["མགོ", "ɡo"],
     ho: ["kwarana", "kʷarana"],
     adi: ["dumpo", "dumpo"],
-    nv: ["atsiitsʼiin", "atsiːtsʼiːn"],
+    nv: ["atsiitsʼiin", "ʔɑ̀tsʰìːtsʼìːn"],
     ngu: ["tzontecomitl", "tsonteˈkomitɬ"],
     gym: ["dokwä", "dokwɔ"],
     frp: ["téta", "ˈteta"],
@@ -1186,6 +1186,8 @@ WORDS.head = {
     wym: ["hiöet", "hiøet"],
     ii: ["ꀂꏾ", "i˧˧tɕʰi˧˧"],
     pao: ["kwo", "kʷo"],
-    zh_han: ["首", "śǝ́w"]
+    zh_han: ["首", "śǝ́w"],
+    olk: ["eka", "eka"],
+    kpe: ["ŋuŋ", "ŋuŋ"]
   },
 };

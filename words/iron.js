@@ -321,7 +321,7 @@ WORDS.iron = {
     haj: ["luha", "luɦa"],
     kok: ["लोक्कंड", "lokːəɳɖ"],
     brh: ["اهین", "aːhin"],
-    bsk: ["ćhumár", "tɕʰumar"],
+    bsk: ["ćímar", "ˈtɕimar"],
 
     // --- Slavic — *želězo -------------------------------------------------
     szl: ["żelazo", "ʒɛˈlazɔ"],
@@ -541,7 +541,7 @@ WORDS.iron = {
     rap: ["auri", "auɾi"],
 
     // --- Uralic — Baltic *rauda in the west, *kertä in the east ----------
-    smn: ["ryevdi", "ryevdi"],
+    smn: ["ryev'di", "ryevdi"],
     sms: ["ruʹvdd", "ruvdː"],
     sjd: ["рӯввьт", "ruːvʲːt"],
     liv: ["rōda", "ˈroːdɑ"],
@@ -1125,7 +1125,7 @@ WORDS.iron = {
     trn: ["gero", "çeɾo"],
     aoc: ["ipotü", "ipotɨ"],
     gon: ["कच्चि", "kattʃi"],
-    mra: ["lhek", "lhek"],
+    mra: ["hlek", "hlek"],
     cia: ["ase", "ase"],
     hai: ["yaʼáatsʼ", "jaʔɑ́ːtsʼ"],
     bor: ["meriri", "meɾiɾi"],
@@ -1141,6 +1141,7 @@ WORDS.iron = {
     xpr: ["ʾswn", "aːsun"],
     p_sit: ["*l-tsyak", "l-tsjak"],
     qwc: ["qʼillay", "qʼiʎaj"],
-    paus: ["*Namat", "Namat"]
+    paus: ["*Namat", "Namat"],
+    pll: ["hir", "hir"]
   },
 };

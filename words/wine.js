@@ -47,6 +47,7 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    dng: "other",
     ett: "ie",
     ja_kanbun: "other",
     zh_han: "other",
@@ -958,6 +959,7 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    dng: ["путоҗю", "pʰu˨˦tʰɔ˨˦tɕiou˥˩"],
     ett: ["vinum", "ˈwinum"],
     ja_kanbun: ["葡萄酒", "bɯdoːɕɯ"],
     zh_han: ["蒲陶酒", "bhā lhǝ̄w cjǝ́w"],
@@ -1667,7 +1669,7 @@ WORDS.wine = {
     nan_pn: ["葡萄酒", "pʰu˨˧ to˨˧ tsiu˦˦˥"],
     wuu_nb: ["葡萄酒", "bu˨˨˧ dɔ˨˨˧ tɕiʏ˧˨˥"],
     hak_tw: ["葡萄酒", "pʰu˩˩ tʰo˩˩ tsiu˧˩"],
-    wuu_sz: ["葡萄酒", "bəʔ˨˧ dɐ˨˨˧ tsøʏ˥˩"], // was ["葡萄酒", "bəʔ˨˧ dæ˨˨˧ tsøʏ˥˩"] (vi dialect rules 2026-10-06)
+    wuu_sz: ["葡萄酒", "bəʔ˧ dɐ˨˨˧ tsøʏ˥˩"], // was ["葡萄酒", "bəʔ˨˧ dæ˨˨˧ tsøʏ˥˩"] (vi dialect rules 2026-10-06) // was ["葡萄酒", "bəʔ˨˧ dɐ˨˨˧ tsøʏ˥˩"] (vi dialect rules 2026-10-06)
     wuu_wz: ["葡萄酒", "bøy˧˩ dɜ˧˩ tɕɤu˧˥"],
     nan_qz: ["葡萄酒", "pʰu˨˦ to˨˦ tsiu˥˥˦"],
     zh_wh: ["葡萄酒", "pʰu˨˩˧ tʰau˨˩˧ tɕiou˦˨"],

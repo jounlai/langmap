@@ -123,7 +123,7 @@ WORDS.mountain = {
     lt: ["kalnas", "ˈkalnas"],
     lv: ["kalns", "kalns"],
     et: ["mägi", "ˈmæɡi"],
-    mt: ["muntanja", "mʊnˈtanja"],
+    mt: ["muntanja", "munˈtanja"],
     gd: ["beinn", "peiɲː"],
     br: ["menez", "ˈmeːnɛs"],
     mn: ["уул", "uːɮ"],

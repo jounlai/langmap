@@ -352,7 +352,7 @@ WORDS.hundred = {
     scn: ["centu", "ˈtʃɛntu"],
     nap: ["ciento", "ˈtʃjentə"],
     co: ["centu", "ˈtʃɛntu"],
-    lij: ["çento", "ˈseŋtu"],
+    lij: ["çénto", "ˈseŋtu"],
     vec: ["sento", "ˈsento"],
     fur: ["cent", "tʃent"],
     lmo: ["cent", "tʃent"],
@@ -678,7 +678,7 @@ WORDS.hundred = {
     mus: ["cokpe", "tʃokpi"],
     bla: ["kiipíppo", "kiːpípːo"],
     pot: ["ngotwak", "ŋɡotwak"],
-    nv: ["neeznádiin", "neːznáːtiːn"],   // ten tens — neeznáá is this row's ten, -diin the decade suffix
+    nv: ["neeznádiin", "nèːznɑ́tìːn"],   // ten tens — neeznáá is this row's ten, -diin the decade suffix
     esu: ["yuinaat talliman", "juinaːt taɬiman"],   // five twenties: yuinaq is twenty, talliman this row's own five
     cuk: ["dulatar", "dulataɾ"],   // five persons — dula twenty, atar this row's own five
     quc: ["jokʼal", "xokʼal"],   // five twenties, on the Mayan vigesimal count
@@ -704,7 +704,7 @@ WORDS.hundred = {
     luz: ["sad", "sad"],
     hif: ["sau", "səu"],
     hoc: ["mi sao", "mi sao"],   // borrowed from the Indo-Aryan neighbours, beside a native vigesimal mi hisi
-    bsk: ["tha", "tʰaː"],
+    bsk: ["tha", "tʰa"],
     kha: ["spah", "spaʔ"],
     grt: ["ritcha", "ritʃa"],
     cnh: ["za", "za"],
@@ -1130,7 +1130,7 @@ WORDS.hundred = {
     maz: ["ciento", "ˈsjento"],
     tob: ["ʃien", "ʃien"],
     plg: ["sien jʔaʁaik", "sien jʔaʁaik"],
-    one: ["tewʌhnyáwelu", "tewʌ̃hnjáwelu"],
+    one: ["tewʌhnyáwelu", "tewʌ̃hnjáwelũ"],
     tus: ["kayáhstih", "kajahstih"],
     hup: ["łaʼ-dikin", "ɬaʔdikʲin"],
     crx: ["whunizyat whunizyai", "xʷunizjat xʷunizjai"],
@@ -1173,6 +1173,7 @@ WORDS.hundred = {
     mjg: ["nige jang", "niɡe tɕaŋ"],
     ess: ["ю̄к талъимат", "juːk taɬimat"],
     kxv: ["pāsa kōḍe", "paːsa koːɖe"],
-    xpr: ["sad", "sad"]
+    xpr: ["sad", "sad"],
+    tyz: ["pác", "paːk̚˧˥"]
   },
 };

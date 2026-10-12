@@ -54,6 +54,7 @@ WORDS.foot = {
     sw: "Mguu — sehemu ya mwili unayosimamia, chini ya kifundo. Si kipimo cha urefu, si mteremko wa mlima wala mwisho wa kitanda, wala si kitenzi. Pale lugha ina neno moja kwa mguu mzima, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    wuu_jx: "unknown",
     yue_dg: "leg+foot",
     dds: "leg+foot",
     mgo: "leg+foot",
@@ -1203,6 +1204,7 @@ WORDS.foot = {
     "unknown": {"color": "#b45309", "emoji": "❓", "en": "not determined · no leg word attested", "ja": "未判定・脚の語が未確認", "ko": "미판정 · 다리 낱말이 확인되지 않음", "zh": "未判定・未见表示腿的词", "yue": "未判定 · 未見表示腿嘅詞", "vi": "chưa xác định · không thấy từ chỉ 'chân trên'", "th": "ยังไม่ระบุ · ไม่พบคำว่าขา", "id": "belum ditentukan · kata untuk tungkai tidak terekam", "hi": "अनिर्धारित · टाँग का शब्द अप्रमाणित", "de": "nicht bestimmt · kein Bein-Wort belegt", "fr": "non déterminé · aucun mot pour « jambe » attesté", "it": "non determinato · nessuna parola per «gamba» attestata", "es": "sin determinar · no se atestigua palabra para «pierna»", "pt": "por determinar · sem palavra atestada para «perna»", "ru": "не определено · слово «нога» не засвидетельствовано", "uk": "не визначено · слово «нога» не засвідчене", "ar": "غير محدَّد · لا كلمة مُثبتة للساق", "he": "לא נקבע · לא מתועדת מילה לרגל", "sw": "haijabainishwa · hakuna neno la mguu lililothibitishwa"},
   },
   data: {
+    wuu_jx: ["脚", "tɕiɑʔ˥"],
     yue_dg: ["脚", "kœ˧˦"],
     dds: ["kubɔ", "kubɔ"],
     mgo: ["əwu", "əwu"],
@@ -1592,7 +1594,7 @@ WORDS.foot = {
     haj: ["theng", "ʈʰeŋ"],  // ঠেং generalised to the whole lower limb, where Bengali keeps it as a colloquial leg word only; thengpata is the foot-specific compound.
     hak_cn: ["脚", "kiok̚˩"],  // Hakka 腳 covers the lower limb. // was ["脚", "kiok̚˧"] (vi dialect rules 2026-10-06)
     hak_hl: ["腳", "kiok˥"],  // As mainland Hakka. // was ["腳", "kiok˥˥"] (r46 fix 2026-10-03)
-    hak_tw: ["腳", "ki̯ok̚˨"],  // As mainland Hakka.
+    hak_tw: ["腳", "kiok˨"],  // As mainland Hakka. // was ["腳", "ki̯ok̚˨"] (vi dialect rules 2026-10-06)
     har: ["igir", "iɡir"],  // Leslau, Comparative Dictionary of Geez 11, s.v. ʾəgr 'foot': Har. igir, ingir, beside Amh. əgər and Te. ʾəgər; written in this row's Latin transcription, as its iji 'hand' is.
     haw: ["wāwae", "waːwae"],  // One word for the whole lower limb, the Polynesian norm. IPA is the plain reading of the orthography, following how this row's own hand cell writes lima as ˈlima.
     haz: ["پای", "pɒj"],  // As Persian: پای covers both; ساق is the shank.
@@ -1868,7 +1870,7 @@ WORDS.foot = {
     mrq: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Marquesas reflex of PPn *waqe 'Leg, foot'. No stress mark, as on the other Polynesian rows.
     mrw: ["aʼi", "aʔi"],  // a'i covers the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes lima as lima.
     ms: ["kaki", "ˈkaki"],  // As Indonesian.
-    mt: ["sieq", "siːʔ"],  // Maltese keeps the Arabic pattern.
+    mt: ["sieq", "sɪːʔ"],  // Maltese keeps the Arabic pattern. // was ["sieq", "siːʔ"] (vi dialect rules 2026-10-06)
     mtq: ["chân", "cən"],  // Ferlus reconstructs one proto-Vietic *ɟiːŋ 'jambe, pied' and prints Mường Bi cən¹ spelled chân; kaŋ⁵, the cognate of Vietnamese cẳng, is the colloquial shank. Tone 1 is unmarked, as this row leaves it.
     mus: ["ele", "ili"],  // The 1906 Creek NT washes elen at John 13:5 and breaks elen at 19:32 while leaving e fune 'his bone' whole at 19:36, so one word covers foot and leg; Loughridge's own dictionary entry hvckewv 'leg, shank' never appears in his translation.
     mvf: ["kol", "kol"],  // kol covers both in Georg's Mongghul; the Naringhol dialect says kuor for the same word.
@@ -2266,7 +2268,7 @@ WORDS.foot = {
     wuu_jh: ["脚", "tɕiəʔ˦"],  // Jinhua is the Wu point that centralises this rime to iəʔ, which is what keeps its foot cell apart from the five Taihu rows around it. // was ["脚", "tɕiəʔ˥"] (r48 fix 2026-10-03)
     wuu_nb: ["脚", "tɕiɐʔ˥˥"],  // Ningbo's nucleus is ɐ and not Shanghai's a, and the row writes 陰入 with two tone letters — both differences are its own, from 百 pɐʔ˥˥.
     wuu_sz: ["脚", "tɕiɑʔ˥"],  // Suzhou's rime is iɑʔ against Shanghai's iaʔ, which is the one thing separating this cell from the parent's; the ˥ is the row's own 陰入 value, not Wiktionary's 43.
-    wuu_wz: ["脚", "tɕia˧˩˧"],  // Wenzhou is the Wu point with no stop codas left, so its foot cell has no ʔ — the row's own 血 ɕy˧˩˧ and 雪 ɕy˧˩˧ show the same loss and give the 陰入 contour.
+    wuu_wz: ["脚", "tɕa˧˩˧"],  // Wenzhou is the Wu point with no stop codas left, so its foot cell has no ʔ — the row's own 血 ɕy˧˩˧ and 雪 ɕy˧˩˧ show the same loss and give the 陰入 contour. // was ["脚", "tɕia˧˩˧"] (vi dialect rules 2026-10-06)
     wym: ["füs", "fys"],  // As German. IPA is the plain reading of the orthography, following how this row's own moon cell writes mün as myn.
     xag: ["tur", "tur"],  // Gippert & Schulze gloss towr 'foot, leg' and its plural towr-m-owx̣ 'feet, legs'; it is in running text at John 13:6. Written to this row's phonemic convention (kowl → kʼul, so towr → tur) and with no ejective, because the edition contrasts t with ṭ and prints plain t here.
     xal: ["көл", "køl"],  // көл covers both, as Mongolian хөл does.

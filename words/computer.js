@@ -305,7 +305,7 @@ WORDS.computer = {
     "no": ["datamaskin", "ˈdɑːtamaˌʃiːn"],
     "nog": ["компьютер", "kɐmˈpjuter"],
     "nso": ["khomphutha", "kʰompʰutʰa"],
-    "nv": ["béésh nitsékeesí", "péːʃ nìtsékèːsí"],
+    "nv": ["béésh nitsékeesí", "péːʃ nìtsʰékʰèːsí"],
     "ny": ["kompyuta", "kompjuta"],
     "oc": ["ordinator", "urdinaˈtu"],
     "och": ["籌", "*dru"],
@@ -720,6 +720,7 @@ WORDS.computer = {
     gan_fz: ["电脑", "tʰiɛn˧˧ lau˧˥"],
     cjy_xz: ["电脑", "tiɛ̃˥˨ nɔ˧˩˧"],
     cnp: ["电脑", "tin˨˨ nau˨˦"],
-    chp: ["satsán bení hųlį", "satsán bení hũlĩ"]
+    chp: ["satsán bení hųlį", "satsán bení hũlĩ"],
+    atj: ["kanokepitcikan", "kanokepitʃikan"]
   },
 };

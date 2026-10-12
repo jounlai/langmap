@@ -192,7 +192,7 @@ WORDS.chocolate = {
     kk: ["шоколад", "ʃokɐˈlat"],
     ky: ["шоколад", "ʃokoˈlad"],
     uz: ["shokolad", "ʃokoˈlad"],
-    mt: ["ċikkulata", "tʃikːuˈlata"],
+    mt: ["ċikkulata", "tʃɪkkuˈlaːta"],
     am: ["ቸኮሌት", "tʃəkoˈlet"],
     jv: ["coklat", "ˈtʃoklat"],
     su: ["cokelat", "tʃoˈkəlat"],
@@ -608,6 +608,14 @@ WORDS.chocolate = {
     mnp: ["巧克力", "kʰiau˨˩ kʰɛ˨˦ li˦˨"],
     fr_class: ["chocolat", "ʃɔkɔˈla"],
     ja_edo: ["しょくらあと", ""],
-    en_em: ["chocolate", ""]
+    en_em: ["chocolate", ""],
+    wuu_nb: ["巧克力", "tɕʰio˧˨˥ kʰɐʔ˥˥ liɪʔ˩˨"],
+    yue_zs: ["朱古力", "tsy˥˥ ku˨˩˧ lɪk˧"],
+    zh_nj: ["巧克力", "tɕʰiɔ˨˩˨ kʰəʔ˥ liʔ˥"],
+    cjy: ["巧克力", "tɕʰiau˥˧ kʰəʔ˨ liəʔ˨"],
+    wuu_jx: ["巧克力", "tɕʰiɔ˧˨˧ kʰəʔ˥ lieʔ˥"],
+    yue_dg: ["巧克力", "hau˧˥ hak˥ lək˧"],
+    zh_hf: ["巧克力", "tɕʰiɔ˨˦ kʰɐʔ˦ ȵiəʔ˦"],
+    zh_cq: ["巧克力", "tɕʰiau˦˨ kʰe˨˩ li˨˩"]
   }
 };

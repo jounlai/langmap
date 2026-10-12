@@ -211,7 +211,7 @@ WORDS.butterfly = {
     ykg: ["самналдьэгэй", "samnaldʲeɡej"],
     ckt: ["кʼопаԓготкочьын", "qopaɬɣotkotɕʔən"],
     itl: ["вэвэчҳ", "βeβetʃχ"],  // Reduplicated ve-ve-.
-    ess: ["яӄылъыӈытаӄ", "jaqɨtɬɨŋɡɨtaq"],
+    ess: ["яӄылъыӈытаӄ", "jaqɨɬɨŋɨtaq"],
     ce: ["полла", "polːə"],
     av: ["кӏалкӏучӏ", "kʼalkʼutʃʼ"],  // Reduplicative kʼal-kʼu-. IDS records a dozen different Avar dialect words for this one insect.
     lez: ["чепелукь", "tʃepeluqʼ"],
@@ -322,7 +322,7 @@ WORDS.butterfly = {
     lus: ["phengphehlep", "pʰeŋpʰehlep"],  // Reduplicative pheng-phe-; Marrison writes the morpheme break as pheng◦phehlep.
     nmf: ["konghang", "koŋhaŋ"],
     nzm: ["timpiangbe", "timpiaŋbe"],
-    njo: ["shinü", "ʃinɨ"],  // Marrison's Ao Chungli form; the Mongsen lects have an unrelated chubi / chumi.
+    njo: ["shinü", "ʃinə"],  // Marrison's Ao Chungli form; the Mongsen lects have an unrelated chubi / chumi.
     jya: ["kʰai pa lolo", "kʰai pa lolo"],  // Reduplicated lo-lo in the last element; the database's Maerkang Soman rGyalrong.
     shx: ["—", "—"],  // Reduplicative pi-pɔ.
     yue: ["蝴蝶", "wuː˨˩ tiːp˨"],  // The same 蝴蝶 as Mandarin, read wu4 dip6. Beida also records a second Guangzhou word, pɐŋ⁵⁵ʃa⁵³.
@@ -355,7 +355,7 @@ WORDS.butterfly = {
     tzm: ["ⵉⴱⵔⴱⵉⵍⵍⵓ", "ibərbilːu"],  // masculine iberbillu beside a feminine/diminutive tiberbillutt; written in the Latin orthography this row already uses for agḍiḍ and tamellalt
     cr: ["ᑲᒫᒪᐠ", "kamaːmak"],  // the diminutive kamâmakos ᑲᒫᒪᑯᐢ is 'small butterfly, moth', so this word is the butterfly proper
     oj: ["memengwaa", "memeŋɡwaː"],
-    chr: ["ᎧᎹᎹ", "kamama"],  // the same word also means 'elephant'; final syllable is repeated (ka-ma-ma)
+    chr: ["ᎧᎹᎹ", "kʰamaːmã"],  // the same word also means 'elephant'; final syllable is repeated (ka-ma-ma)
     moh: ["tsiʼktsinén:nawen", "tsiʔktsinéːnawen"],  // its first element tsi'k- is shared with tsi'ks 'fly' and tsi'kskó:wa 'horse fly' in the same list; IPA is my reading of the orthography, not from the source
     yua: ["péepen", "peːpen"],  // reduplication, from proto-Mayan *pehpen (Kaufman & Justeson 2003)
     quc: ["pepe", "pepe"],  // reduplication, from proto-Mayan *pehpen; the ALMG vocabulary lists penpen as a second reduplicated variant
@@ -483,7 +483,7 @@ WORDS.butterfly = {
     bjn: ["kupu-kupu", "kupukupu"],
     bik: ["kulagbaw", "kulaɡˈbaw"],
     bug: ["kalubampa", "kalubampa"],
-    pcc: ["mbax", "ɓa˧˩"],
+    pcc: ["mbucmbax", "ɓu˥˧ɓa˧˩"],
     wbm: ["pung piang", "puŋ piaŋ"],
     zza: ["perperike", "pɛrpɛˈɾike"],
     kru: ["पापला", "paːplaː"],
@@ -551,7 +551,7 @@ WORDS.butterfly = {
     tzh: ["pejpen", "pehpen"],
     mam: ["pakaʼl", "pakaʔl"],
     aii: ["ܦܪܚܘܢܝܬܐ", "parxoniːta"],
-    mt: ["farfett", "farˈfɛtː"],
+    mt: ["farfett", "farˈfɛt"],
     dty: ["पुतली", "putali"],
     tly: ["lüləpər", "lyləpəɾ"],
     nan_pn: ["尾蝶", "bue˦˦˥ iaʔ˦"],
@@ -640,7 +640,7 @@ WORDS.butterfly = {
     ker: ["akəwalkəwal", "akəwalkəwal"],
     ppl: ["papalut", "papalut"],
     atj: ["kwakwapito", "kwakwapito"],
-    zts: ["bëguidy", "bəɡidj"],
+    zts: ["beguidy", "beɡidj"],
     mix: ["tikuaa", "tikʷaː"],
     lkt: ["kimímila", "kimímila"],
     huv: ["miük", "miɨk"],
@@ -800,7 +800,7 @@ WORDS.butterfly = {
     fr_lu: ["papillon", "papijɔ̃"],
     en_ng2: ["butterfly", "ˈbʌtəflaɪ"],
     duu: ["blɑkkwɑɹ", "blɑkkwɑɹ"],
-    slr: ["kegelik", "kekelix"],
+    slr: ["kegelik", "kʰekelix"],
     yue_dg: ["蝴蝶", "fu˧˩ tit˧"],
     yue_nn: ["蝴蝶", "wu˨˩ tip˨"],
     wuu_jh: ["蝴蝶", "u˧˩˧ dia˩˦"],
@@ -898,6 +898,9 @@ WORDS.butterfly = {
     sux: ["𒄵", "ɡiriʃ"],
     sva: ["პერპელ", "pʼerpʼel"],
     sa: ["पतङ्ग", "pɐtɐŋɡɐ"],
-    pura: ["*lȣ̈ppɜ", "lȣ̈ppɜ"]
+    pura: ["*lȣ̈ppɜ", "lȣ̈ppɜ"],
+    olk: ["imilam", "imilam"],
+    zh_nj: ["蝴蝶儿", "xu˨˦ tʰiʔ˥ ɚ˨˦"],
+    zh_hf: ["蝴蝶", "xʉ˥˥ tʰiɐʔ˦"]
   },
 };

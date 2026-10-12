@@ -357,7 +357,7 @@ WORDS.bird = {
     se: ["loddi", "ˈlotːi"],
     sma: ["ledtie", "ˈleːtie"],
     smj: ["lådde", "lɔtɛ"],
-    smn: ["lodde", "ˈlodde"],
+    smn: ["lodde", "ˈlodːe"],
     vro: ["tsirk", "tsirk"],
     gn: ["guyra", "ɡʷɨɾa"],
     yrl: ["wirá", "wiˈɾa"],
@@ -727,7 +727,7 @@ WORDS.bird = {
     ami: ["ayam", "ˈajam"],
     hak_tw: ["鳥仔", "tiau˨˦ e˧˩"],
     wuu_sz: ["鸟", "ȵiɐ˥˩"],
-    wuu_wz: ["鸟", "ȵa˧˥"],
+    wuu_wz: ["鸟", "ȵa˧˦"],
     nan_qz: ["鸟", "tsiau˥˥˦"],
     nan_hai: ["鸟", "tsiau˨˩˧"],
     zh_wh: ["鸟", "niau˦˨"],
@@ -957,7 +957,7 @@ WORDS.bird = {
     sas: ["kedit", "kədit"],
     bug: ["manuʼ-manuʼ", "manuʔmanuʔ"],
     mfa: ["bughong", "buɣoŋ"],
-    pcc: ["rog", "ðɔk˧"],
+    pcc: ["rog", "ðok˧"],
     kru: ["ओरा", "oɾaː"],
     mzn: ["مرغ", "mærɣ"],
     brh: ["چک", "tʃuk"],
@@ -1189,6 +1189,7 @@ WORDS.bird = {
     peh: ["bandʒir", "bandʒir"],
     bej: ["kilay", "kilaj"],
     woe: ["mal", "malʉ"],
-    dsh: ["kimir", "kimir"]
+    dsh: ["kimir", "kimir"],
+    kpe: ["ŋɔni", "ŋɔni"]
   },
 };

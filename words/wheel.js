@@ -662,7 +662,7 @@ WORDS.wheel = {
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
     mey: ["—", "—"],
     huv: ["arrueda", "arweda"],
-    shp: ["karotae", "kaɾotae"],
+    shp: ["karotae", "kaɾotaɨ"],
     roo: ["viriviria", "βiɾiβiɾia"],
     ain: ["シカリプ", "ɕikaɾip"],
     ilo: ["pilid", "pilid"],
@@ -722,7 +722,7 @@ WORDS.wheel = {
     bla: ["oʼtakáínakaʼsi", "oʔtakáːínakaʔsi"],
     cro: ["baaiihulé", "baːiːhulé"],
     win: ["hogís", "hoˈɡis"],
-    cay: ["węʼníhsga:ʼ", "wẽʔníhsɡaːʔ"],
+    cay: ["węʼníhsga:ʼ", "wɛ̃ʔníhsɡaːʔ"],
     cr: ["ᐅᑎᐦᑎᐱᐸᔨᐤ", "otihtipipajiw"],
     oj: ["detibised", "detibised"],
     pqm: ["wahkaliqs", "wahkalikʷs"],

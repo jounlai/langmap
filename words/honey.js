@@ -388,7 +388,7 @@ WORDS.honey = {
     en_yk: ["honey", "ˈhʊni"],
 
     // --- Turkic *bal and the West Slavic reflexes of *medъ -----------------
-    slr: ["bal", "bal"],
+    slr: ["bal", "pɑl"],
     ybe: ["bal", "bal"],
     kum: ["бал", "bal"],
     nog: ["бал", "bal"],
@@ -704,7 +704,7 @@ WORDS.honey = {
     djk: ["oniki", "oniki"],
     ter: ["mópo", "ˈmopo"],
     trn: ["mopomo", "moˈpomo"],
-    mra: ["—", "—"],
+    mra: ["thɛɛw", "tʰɛːw"],
     udi: ["уч̍", "utʃʼ"],
     bm: ["di", "di"],
     acf: ["siwo myèl", "siwo mjɛl"],
@@ -800,7 +800,7 @@ WORDS.honey = {
     tyv: ["ары чигири", "arɯ tɕiɡiri"],
     kjh: ["мӧӧт", "møːt"],
     eve: ["мёд", "mʲod"],
-    ess: ["ӄуӷля", "quɣlʲa"],
+    ess: ["ӄуӷля", "quɣlja"],
     xsr: ["སྦྲང", "raŋ"],
     bik: ["tangguli", "taŋɡuli"],
     ofs: ["hunich", "ˈhunix"],
@@ -1050,7 +1050,7 @@ WORDS.honey = {
     piu: ["ngalypuru", "ŋaʎpuɻu"],
     mpj: ["karluwari", "kaɭuwaɻi"],
     men: ["kɔmi", "kɔmi"],
-    njo: ["mojitzü", "modʒitsə"],
+    njo: ["mojitzü", "motʃitsə"],
     pkp: ["meli", "meli"],
     cic: ["fohiʼ", "fohiʔ"],
     ckv: ["wanu", "wanu"],
@@ -1144,6 +1144,7 @@ WORDS.honey = {
     spp: ["sɛɛre", "sɛːre"],
     yle: ["mty:aa", "mtʲãː"],
     xpr: ["ʾngwbyn", "anɡubeːn"],
-    ett: ["math", "maθ"]
+    ett: ["math", "maθ"],
+    olk: ["oyjo", "ojɟo"]
   },
 };

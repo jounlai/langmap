@@ -55,6 +55,10 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    atj: "distinct",
+    prk: "grue",
+    grt: "dark",
+    pll: "distinct",
     pmh: "grue",
     emy: "grue",
     nci: "distinct",
@@ -915,6 +919,10 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    atj: ["waseskonaw", "waseskonaw"],
+    prk: ["glāi", "kla̤i"],
+    grt: ["gisim", "ɡisim"],
+    pll: ["kjo", "kjo"],
     pmh: ["णील", "ɳiːla"],
     emy: ["yax", "jaʃ"],
     nci: ["texotli", "teʃohtɬi"],
@@ -959,7 +967,7 @@ WORDS.blue = {
     cay: ["aǫ́hyaęʼ", "aṍhjaɛ̃ʔ"],
     yur: ["skoyon", "skojon"],
     mev: ["ɓūléèzɛ̀", "ɓu˧le˥e˩zɛ˩"],
-    duu: ["muçin", "mu˥˥çin˥˥"],
+    duu: ["muçin", "muçin"], // was ["muçin", "mu˥˥çin˥˥"] (vi dialect rules 2026-10-06)
     xav: ["ĩʼuzé", "ĩʔuˈzɛ"],
     thp: ["ʔesqʷəzqʷəzt", "ʔesqʷəzqʷəzt"],
     enf: ["ɕudraha", "ɕudraha"],
@@ -975,7 +983,7 @@ WORDS.blue = {
     ude: ["дуӈмалиғи", "duŋmaliɣi"],
     bca: ["tɕʰɛ̃", "tɕʰɛ̃˥˥"],
     squ: ["skwáyel", "skʷajəl"],
-    kqz: ["ǃnoā", "ǃnoaː"],
+    kqz: ["ǃnoa", "ǃnoa"], // was ["ǃnoā", "ǃnoaː"] (vi dialect rules 2026-10-06)
     h_vedic: ["नील", "níːlɐ"],
     unr: ["lil", "lil"],
     bew: ["biru", "biru"],
@@ -1028,12 +1036,12 @@ WORDS.blue = {
     eve: ["чӯлбаня̄", "tʃuːlbaɲaː"],
     cjs: ["кӧк", "køk"],
     kac: ["panglai nsam", "paŋ˧lai˧ n̩sam˥˥"],
-    one: ["olú:yaʼ", "olúːjaʔ"],
+    one: ["olú:yaʼ", "olṹːjaʔ"], // was ["olú:yaʼ", "olúːjaʔ"] (vi dialect rules 2026-10-06)
     mdr: ["magavu", "maɡavu"],
     mwr: ["नीळौ", "niːɭɔ"],
     ks: ["نیٛوٗل", "nʲuːl"],
     gcr: ["blé", "ble"],
-    slr: ["gök", "ɡøk"],
+    slr: ["gök", "køk"], // was ["gök", "ɡøk"] (vi dialect rules 2026-10-06)
     om: ["cuquliisa", "tʃukʼuliːsa"],
     pqm: ["musqonocihte", "muskʷonotʃihte"],
     lwl: ["snga", "sᵊŋa"],
@@ -1486,7 +1494,7 @@ WORDS.blue = {
     enq: ["sakapae", "sakapae"],  // The dictionary's English index sends both 'blue' and 'green' to the same word, and the main entry glosses it only 'green' — a single term covering green and blue. -pae is the stative colour formative (cf. salyépae 'yellow' on the same page). (M) = the Mai dialect (Lang's dialect key, p.xiv). Lang marks tone with an acute on the first syllable (sákapae); written here without it to match the row's kone/kyeo. Narrower terms exist: wené pyápae 'blue/purple/aqua' and limbi limbi pípae 'blue-gray (?)'.
     eo: ["blua", "ˈblua"],  // Esperanto blua against verda; the adjective in -a to match the row's ruĝa/blanka/nigra.
     es: ["azul", "aˈθul"],  // azul vs verde. azul is an old Arabic loan (lāzaward 'lapis lazuli') that displaced Latin caeruleus; fully nativised, so distinct rather than borrowed.
-    ess: ["сюӈаӷьюкыӽтаӄ", "sjuŋɣajukɨxˈtaq"],  // NorthEuraLex gives two clearly different lexemes — сюӈаӷьюкыӽтаӄ for blue against ӄигуӷмылӈуӄ for green — and the blue is built on the same suŋa- root as Iñupiaq suŋauraaq. WALS 134A nevertheless codes Siberian Yupik as grue. The conflict is recorded rather than resolved; the form is firm, the class is not.
+    ess: ["сюӈаӷьюкыӽтаӄ", "sjuŋaɣjukɨχtaq"],  // NorthEuraLex gives two clearly different lexemes — сюӈаӷьюкыӽтаӄ for blue against ӄигуӷмылӈуӄ for green — and the blue is built on the same suŋa- root as Iñupiaq suŋauraaq. WALS 134A nevertheless codes Siberian Yupik as grue. The conflict is recorded rather than resolved; the form is firm, the class is not. // was ["сюӈаӷьюкыӽтаӄ", "sjuŋɣajukɨxˈtaq"] (vi dialect rules 2026-10-06)
     et: ["sinine", "ˈsinine"],  // sinine vs roheline.
     eu: ["urdin", "urˈdin"],  // Basque urdin vs berde. urdin is inherited and originally covered a blue-grey-green range (ur 'water'); it still names grey hair and mould, while berde is a Romance loan carrying green.
     evn: ["диктэмэ", "dʒiktəˈmə"],  // Evenki диктэмэ vs чуларин.

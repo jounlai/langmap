@@ -101,7 +101,7 @@ WORDS.snow = {
     qxs: ["məpɑ", "mə˧˩pɑ˥˥"],
     duu: ["tɯwɑn", "tɯwɑn"],
     jya: ["ta-jpa", "tajpa"],
-    ers: ["zɿ", "zɿ"],
+    ers: ["zɿ", "zɿ˥˥"],
     bca: ["sue", "sui˦˦"],
     atb: ["kyoq", "kjoʔ˨˩"],
     prk: ["hra", "rʰa"],
@@ -114,7 +114,7 @@ WORDS.snow = {
     cjs: ["қар", "qar"],
     dlg: ["каар", "kaːr"],
     blk: ["—", "—"],
-    njo: ["rürjep", "ɹɯtʃɯp"],
+    njo: ["rürjep", "ɹəɹtʃep"],
     es_pr: ["nieve", "ˈnjeβe"],
     es_do: ["nieve", "ˈnjeβe"],
     es_gt: ["nieve", "ˈnjeβe"],
@@ -319,7 +319,7 @@ WORDS.snow = {
     mey: ["ثلج", "θɛlʒ"],
     ar_tn: ["ثلج", "tɛlʒ"],
     ar_sd: ["تلج", "taldʒ"],
-    mt: ["borra", "bɔrra"],
+    mt: ["borra", "ˈbɔrra"],
     so: ["baraf", "baraf"],
     xh: ["ikhephu", "ikʰepʰu"],
     en_aave: ["snow", "snoʊ"],
@@ -608,7 +608,7 @@ WORDS.snow = {
     apw: ["zas", "zas"],
     dak: ["wá", "wá"],
     chy: ["héstaʼse", "héstaʔse"],
-    arp: ["híií", "híːi"],
+    arp: ["híii", "híiː"],
     lmo: ["nev", "nɛf"],
     pms: ["fiòca", "ˈfjɔka"],
     mwl: ["niebe", "ˈnjeβɨ"],
@@ -844,7 +844,7 @@ WORDS.snow = {
     kio: ["tʼól", "tʼól"], // Poolaw 2023; Harrington 1928 — cp. tʼou to be cold
     pao: ["nɨbabi", "nɨpapi"], // UACV 2075 *nɨpa; the harvested pɨpa-pi was an n/p misreading
     ale: ["каниих̆", "qaniːχ"], // Comparative Eskimo Dictionary, PE *qaniɣ
-    ess: ["анигу", "aniɣu"], // snow on the ground; falling snow is qanik
+    ess: ["анигу", "aniɡu"], // snow on the ground; falling snow is qanik
     quc: ["saq tew", "saq tew"], // ALMG — saq white + tew cold; granizo is saqbʼach
     kjb: ["chew", "tʃew"], // ALMG — Nieve, hielo
     tzo: ["taiv", "taiv"], // frost/snowfall polyseme; ta xyal taiv it is snowing
@@ -990,6 +990,7 @@ WORDS.snow = {
     ahk: ["ngeh", "ŋɛ˥"],
     bzh: ["beggob", "ᵐbəɣoᵐb"],
     sgw: ["በረጀ", "bɐrɐdʒɐ"],
-    swb: ["uv̄amba", "uβamba"]
+    swb: ["uv̄amba", "uβamba"],
+    bzd: ["mochka", "motʃka"]
   }
 };

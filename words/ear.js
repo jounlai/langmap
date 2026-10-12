@@ -215,7 +215,7 @@ WORDS.ear = {
     pt_ao: ["orelha", "oˈɾeʎɐ"],
     pt_mz: ["orelha", "oˈɾeʎɐ"],
     pt_cv: ["orelha", "oˈɾeʎɐ"],
-    pt_gw: ["orelha", "oˈɾeʎɐ"],
+    pt_gw: ["oreja", "oˈɾedʒa"],
     ro: ["ureche", "uˈreke"],
     ca: ["orella", "uˈɾeʎə"],
     ca_va: ["orella", "oˈɾeʎa"],
@@ -492,7 +492,7 @@ WORDS.ear = {
     tpi: ["yau", "jau"],
     kri: ["yes", "jes"],
     hwc: ["ear", "iɚ"],
-    nv: ["jaaʼ", "tʃaːʔ"],
+    nv: ["ajaaʼ", "ʔɑ̀tʃɑ̀ːʔ"],
     qu: ["rinri", "ɾinɾi"],
     quz: ["rinri", "rinri"],
     quy: ["rinri", "ɾinɾi"],
@@ -1038,7 +1038,7 @@ WORDS.ear = {
     wmt: ["pina", "ˈpina"],
     djr: ["mäkiriʼ", "maːkiɻiʔ"],
     wba: ["kohoko", "kohoko"],
-    bsk: ["-ltúmal", "ltumal"],
+    bsk: ["-ltúmal", "lˈtumal"],
     tsz: ["kutsïkua", "kuˈtsɨkʷa"],
     jqr: ["jinchu", "hintʃu"],
     gum: ["kalu", "kalu"],
@@ -1203,6 +1203,9 @@ WORDS.ear = {
     gon: ["केव", "keʋ"],
     xkz: ["na", "nà"],
     zh_han: ["耳", "ń́ǝ́"],
-    aiw: ["qaam", "kʼaːm"]
+    aiw: ["qaam", "kʼaːm"],
+    ess: ["сигутык", "siɡutɨk"],
+    olk: ["adndur", "adnduɻ"],
+    kpe: ["wóli", "wóli"]
   },
 };

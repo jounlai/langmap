@@ -204,7 +204,7 @@ WORDS.nose = {
     ka: ["ცხვირი", "tsxviri"],
     hy: ["քիթ", "kʰitʰ"],
     hyw: ["քիթ", "kʰit"],
-    nv: ["áchįįh", "átʃĩːh"],
+    nv: ["áchį́į́h", "ʔɑ́tʃʰĩ́ːh"],
     haw: ["ihu", "ihu"],
     mi: ["ihu", "ihu"],
     qu: ["sinqa", "ˈsinqa"],
@@ -279,7 +279,7 @@ WORDS.nose = {
     arq: ["نيف", "nif"],
     ar_tn: ["نيف", "niːf"],
     ti: ["ኣፍንጫ", "ʔafəntʃa"],
-    mt: ["imnieħer", "ɪmˈniːħɛr"],
+    mt: ["imnieħer", "ɪmˈnɪːħɛr"],
     ig: ["imi", "īmī"],
     ha: ["hanci", "hantʃi"],
     wo: ["bakkan", "bakːan"],
@@ -879,7 +879,7 @@ WORDS.nose = {
     haj: ["nak", "nak"],
     // Burushaski body parts are cited with the possessive slot, as the row's
     // own 'ear' -lčin and 'hand' -rin already are.
-    bsk: ["-múpuṣ", "mupoʂ"],
+    bsk: ["-múpuṣ", "ˈmupuʂ"],
     kru: ["मुई", "mui"],
     brh: ["بامس", "baːmus"],
     kxv: ["mungeli", "muŋɡeli"],
@@ -895,7 +895,7 @@ WORDS.nose = {
     kjg: ["muh", "muh"],
     bru: ["muh", "muh"],
     bdq: ["muh", "muh"],
-    mra: ["moh", "mɔh"],
+    mra: ["mɔh", "mɔh"],
     mnw: ["မိုဟ်", "mùh"],
     sat: ["ᱢᱩ", "mũ"],
     unr: ["mu", "mũ"],
@@ -1172,6 +1172,8 @@ WORDS.nose = {
     yur: ["ʼner-pʼernʼ", "ʔnɚpʼɚʔn"],
     ter: ["kiri", "kiɾi"],
     cjy_xz: ["鼻子", "pʰiɛʔ˦˧ tsɿ˧˩˧"],
-    hoc: ["muta", "muʈa"]
+    hoc: ["muta", "muʈa"],
+    olk: ["ulbmul", "ulbmul"],
+    mcf: ["dëbiate", "dɨbjatɪ"]
   },
 };

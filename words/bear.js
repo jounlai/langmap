@@ -63,6 +63,7 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    pll: "inherited",
     yao: "loan",
     de_lut: "taboo",
     p_hmx: "inherited",
@@ -951,6 +952,7 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    pll: ["khrer", "kʰrer"],
     yao: ["dubu", "dubu"],
     de_lut: ["Bär", "bɛːr"],
     p_hmx: ["*qrep", "qrep"],
@@ -996,7 +998,7 @@ WORDS.bear = {
     bew: ["biruang", "biruaŋ"],
     mh: ["pāār", "pʲæːrˠ"],
     mzh: ["selaj", "selax"], // was ["sulaj", "sulax"] (vi dialect rules 2026-10-06)
-    slr: ["atıq", "ɑtɯχ"],
+    slr: ["atıq", "ɑtʰɯχ"], // was ["atıq", "ɑtɯχ"] (vi dialect rules 2026-10-06)
     wbp: ["piira", "piːɻa"],
     roo: ["bea", "bea"],
     yrl: ["ursu", "uɾsu"],
@@ -1542,7 +1544,7 @@ WORDS.bear = {
     umu: ["maxkw", "maxkʷ"],
     chy: ["náhkohe", "náhkohe"],
     arp: ["wox", "wox"],
-    nv: ["shash", "ʃaʃ"],
+    nv: ["shash", "ʃɑ̀ʃ"], // was ["shash", "ʃaʃ"] (vi dialect rules 2026-10-06)
     apw: ["shash", "ʃaʃ"],
     chr: ["ᏲᎾ", "jona"],
     moh: ["ohkwá:ri", "ohkwáːri"], // was ["ohkwári", "ohkwári"] (vi dialect rules 2026-10-06)
@@ -1778,7 +1780,7 @@ WORDS.bear = {
     rki: ["ဝက်ဝံ", "wɔʔwàɴ"], // was ["ဝက်ဝံ", "wɛˀwʊ̀ɴ"] (r51 audit 2026-10-04)
     atb: ["wàm", "vam˥˩"],
     kac: ["tsap", "tsap˥˥"],
-    ers: ["xaʴ", "xa˞́"],
+    ers: ["xaʴ", "xaʴ˥˥"], // was ["xaʴ", "xa˞́"] (vi dialect rules 2026-10-06)
     cng: ["ti", "ti"],
     qxs: ["ti", "ti˧˧"], // was ["ti", "ti"] (vi dialect rules 2026-10-06)
     ii: ["ꊈ", "ɣo˧˧"],
@@ -1912,7 +1914,7 @@ WORDS.bear = {
     // --- 2026-08-31 bear pass 2: last IDS/NEL rows (out_misc3.tsv)
     ess: ["кайӈа", "kajŋa"],
     rom: ["riči", "ritʃi"],
-    mra: ["bɛk", "bɛk"],
+    mra: ["biɯk", "biɯk"], // was ["bɛk", "bɛk"] (vi dialect rules 2026-10-06)
     wbm: ["krih", "krih"],
     to: ["pea", "pea"],
     rtm: ["pea", "pea"],

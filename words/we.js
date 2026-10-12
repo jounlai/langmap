@@ -54,6 +54,8 @@ WORDS.we = {
     sw: "\"Sisi\", umbo la kamusi: kiwakilishi cha nafsi ya kwanza wingi katika umbo la kiima au umbo huru, katika usajili wa kawaida — si umbo la unyenyekevu, la heshima wala la kifalme. Pale lugha inapotofautisha kisarufi \"sisi\" kinachomjumuisha msikilizaji na \"sisi\" kisichomjumuisha, maumbo yote mawili huandikwa, kinachojumuisha kwanza, na ramani huzipa lugha hizo rangi yake. Huhesabiwa tofauti iliyo katika viwakilishi huru pekee; ikiwa iko katika kiambishi cha kitenzi tu, lugha huhesabiwa kuwa na neno moja.",
   },
   family: {
+    njo: "clusive",
+    ers: "clusive",
     p_aav: "clusive",
     qxs: "clusive",
     nan_ph: "clusive",
@@ -78,7 +80,6 @@ WORDS.we = {
     cjy_xz: "clusive",
     mhy: "clusive",
     hsn_hy: "single",
-    hsn_yz: "single",
     bla: "clusive",
     hop: "single",
     com: "clusive",
@@ -1198,6 +1199,7 @@ WORDS.we = {
     ktz: "unknown",
     kry: "clusive",
     tca: "clusive",
+    prk: "clusive",
   },
   routes: {
     clusive: { color: "#7c3aed", emoji: "👥", en: "two words · inclusive ≠ exclusive", ja: "二語・「あなたを含む/含まない」を区別", ko: "두 낱말 · 듣는 이를 넣느냐 빼느냐", zh: "两个词・包括式与排除式有别", yue: "兩個詞 · 包括式同排除式有別", vi: "hai từ · bao gộp ≠ loại trừ", th: "สองคำ · รวมผู้ฟัง ≠ ไม่รวมผู้ฟัง", id: "dua kata · inklusif ≠ eksklusif", hi: "दो शब्द · समावेशी ≠ अपवर्जी", de: "zwei Wörter · inklusiv ≠ exklusiv", fr: "deux mots · inclusif ≠ exclusif", it: "due parole · inclusivo ≠ esclusivo", es: "dos palabras · inclusivo ≠ exclusivo", pt: "duas palavras · inclusivo ≠ exclusivo", ru: "два слова · инклюзив ≠ эксклюзив", uk: "два слова · інклюзив ≠ ексклюзив", ar: "كلمتان · شاملة ≠ غير شاملة", he: "שתי מילים · כוללת ≠ בלעדית", sw: "maneno mawili · jumuishi ≠ tengefu" },
@@ -1224,10 +1226,10 @@ WORDS.we = {
     gan_yc: ["我勒", "ŋo˧˥ lə"], // was ["我勒", "ŋo˨˩˧ lə"] (r46 fix 2026-10-03)
     gan_ja: ["我东", "ŋo˥˧ tuŋ˧˧˦"], // was ["我东", "ŋo˧˩ tuŋ˦˨"] (vi dialect rules 2026-10-06)
     gan_fz: ["—", "—"],
+    hsn_yz: ["—", "—"],
     cjy_lv: ["俺们", "ɣæ̃˥˧ mə"],
     cjy_xz: ["咱们 / 我们", "tsa˥˧ mə / ŋɤ˧˩ mə"],
     hsn_hy: ["我伲", "ŋo˨˩ ȵin˩˩"],
-    hsn_yz: ["我们", "ŋo˦˩ mə̃n˨˨"],
     czh_wy: ["—", "—"],
     bla: ["kiistónnoon / niistónnaan", "kiːstónːoːn / niːstónːaːn"],
     hop: ["itam", "ʔitam"],
@@ -1266,12 +1268,12 @@ WORDS.we = {
     swb: ["wasi", "wasi"],
     adx: ["ང་ཚོ", "ŋatsʰo"],
     qxs: ["tsuətʰyɑ / qɑtʰyɑ", "tsuə˧˩tʰyɑ˥˥ / qɑ˧˩tʰyɑ˥˥"],
-    duu: ["rvng / ing", "ɹɯŋ / iŋ"],
+    duu: ["ɹɑŋ / iŋ", "ɹɑŋ / iŋ"], // was ["rvng / ing", "ɹɯŋ / iŋ"] (vi dialect rules 2026-10-06)
     jya: ["ŋəɲe", "ŋəɲe"],
-    ers: ["—", "—"],
+    ers: ["jorɿ / ɑrɿ", "jo˥˥rɿ˥˥ / ɑ˥˥rɿ˥˥"],
     bca: ["nga", "ŋa"],
     atb: ["nga-nhung / ngamoq", "ŋa˥˥n̥uŋ˥˥ / ŋa˥˥moʔ˥˥"],
-    prk: ["—", "—"],
+    prk: ["eix / ix", "ʔeʔ / ʔiʔ"], // was ["—", "—"] (vi dialect rules 2026-10-06)
     slr: ["piser", "pʰisɤɹ"], // was ["biser", "biser"] (vi dialect rules 2026-10-06)
     ybe: ["mɨs", "mɯs"],
     yuy: ["budas / buda", "budas / buda"], // was ["будас / буда", "budas / buda"] (r48 B fix 2026-10-03)
@@ -1282,7 +1284,7 @@ WORDS.we = {
     dlg: ["биһиги", "bihiɡi"],
     kdt: ["hmai", "m̥aj"],
     blk: ["နီ", "ni̤˧˩"], // was ["နီ", "ni"] (r48 B fix 2026-10-03)
-    njo: ["—", "—"],
+    njo: ["asenok / onok", "asenok / onok"],
     srb: ["anlen", "anlen"],
     kjg: ["iʔ", "ʔiʔ"],
     mro: ["—", "—"],
@@ -2008,7 +2010,7 @@ WORDS.we = {
     apw: ["nohwí", "nohwí"],
     dak: ["uŋkiyepi", "ũkijepi"],
     chy: ["nénéehóvema / nánéehóvéme", "nénéːhóvema / nánéːhóvéme"],
-    arp: ["nenéénínoʼ / nenééníniʼ", "nenéːnínoʔ / nenéːníniʔ"],
+    arp: ["nenéenínoʼ / nenéeníniʼ", "nenéːnínoʔ / nenéːníniʔ"], // was ["nenéénínoʼ / nenééníniʼ", "nenéːnínoʔ / nenéːníniʔ"] (vi dialect rules 2026-10-06)
     kio: ["nɔ́", "nɔ́"], // was ["nɔ́ɔ", "nɔ́ː"] (r31 fix 2026-10-02)
     lmo: ["nun", "nyn"], // was ["nun", "nun"] (vi dialect rules 2026-10-06)
     pms: ["noi", "nuj"],
@@ -2204,7 +2206,7 @@ WORDS.we = {
     bum: ["bia", "bja"],
     agq: ["—", "—"],
     mgo: ["—", "—"],
-    dur: ["ba / vo", "ba / vo"],
+    dur: ["ba / vɔ́", "ba / vɔ"], // was ["ba / vo", "ba / vo"] (vi dialect rules 2026-10-06)
     ndc: ["isusu", "isusu"], // was ["isu", "isu"] (r51 audit 2026-10-04)
     ote: ["nugähʉ / nugähe", "nuɡãhɨ / nuɡãhe"],
     otq: ["nugähu / nugähe", "nuɡæhu / nuɡæhe"],
@@ -2243,7 +2245,7 @@ WORDS.we = {
     pyu: ["taita / mimi", "taita / mimi"],
     szy: ["kita / kami", "kita / kami"],
     ssf: ["ita / yamin", "ʔita / jamin"],
-    hak_tw: ["𫣆兜 / 𠊎兜", "en˨˦teu˨˦ / ŋai˩˩teu˨˦"],
+    hak_tw: ["𫣆兜 / 𠊎兜", "en˨˦ teu˨˦ / ŋai˩˩ teu˨˦"], // was ["𫣆兜 / 𠊎兜", "en˨˦teu˨˦ / ŋai˩˩teu˨˦"] (vi dialect rules 2026-10-06)
     wuu_sz: ["伲", "ȵi˨˧˩"],
     wuu_wz: ["我倈", "ŋ̍˧˦ le˧˩"], // was ["我倈", "ŋ˧˩ lai˧˩"] (vi dialect rules 2026-10-06)
     nan_qz: ["咱 / 阮", "lan˥˥˦ / ɡuan˥˥˦"],

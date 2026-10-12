@@ -562,7 +562,7 @@ WORDS.new = {
     ja_kyo: ["新しい", "ataɾaɕiː"],
     nym: ["pya", "pja"],
     nmf: ["kathar", "katʰar"],
-    grt: ["gital", "ɡital"],
+    grt: ["gittal", "ɡittal"],
     kdt: ["tamaj", "təmaj"],
     agt: ["bagu", "baɡu"],
     pyu: ["bekal", "bəkaɭ"],
@@ -862,7 +862,7 @@ WORDS.new = {
     bra: ["नयौ", "nəjaʊ"],
     lbj: ["སོ་མ", "soma"],
     ho: ["matamata", "matamata"],
-    nv: ["ániid", "ániːt"],
+    nv: ["ániid", "ʔɑ́nìːt"],
     ngu: ["yencuic", "ˈjenkʷik"],
     gym: ["btin", "btin"],
     ab: ["аҿыц", "aʈʂʼətsʰ"],
@@ -919,7 +919,7 @@ WORDS.new = {
     esu: ["nutaraq", "nutaraq"],
     cr: ["ᐅᐢᑳᔨ", "oskaːji"],
     atj: ["ocki", "oʃki"],
-    zts: ["ncweby", "nkwebj"],
+    zts: ["cuby", "kubj"],
     mix: ["tsaa", "tsáà"],
     deg: ["ọfany", "ɔfaɲ"],
     cho: ["himona", "himona"],
@@ -1167,6 +1167,7 @@ WORDS.new = {
     tiw: ["awirankini", "awiɾankini"],
     cjs: ["наа", "naː"],
     dng: ["щин", "ɕiŋ˨˦"],
-    zh_han: ["新", "sjǝn"]
+    zh_han: ["新", "sjǝn"],
+    olk: ["ikum", "ikum"]
   }
 };

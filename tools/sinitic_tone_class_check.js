@@ -121,6 +121,7 @@ const CLASS = {
 // rather than carried as debt.
 const ALLOW = [
   { code: /^zh_wh$/, ch: '熊', why: 'MCPDict 武漢 (《武汉方言研究》) has 熊 ɕioŋ1 = 55, not 陽平 213 — an irregular reading, printed as such. r74, 2026-10-09' },
+  { code: /^cnp$/, ch: '橙', why: 'MCPDict 南寧亭子 has 橙 tʃʰaŋ2 (陰上 33) for the fruit, the changed tone Cantonese also has (caang4→2); the 陽平 reading is marked 又. r89, 2026-10-12' },
   { code: /^yue/, ch: '名', why: 'colloquial meng2 — 陽上變調 to 35, the regular Cantonese changed tone' },
   { code: /^yue/, ch: '橙', why: 'caang2 — the same 變調' },
   // Checked against Wiktionary's 各地讀音 on 2026-08-31 and NOT an error: both

@@ -1078,7 +1078,7 @@ for (const code of codes) {
                 brx: new Set(['thanks']),   // r73: wrong cell removed; no sourced form found
                 mra: new Set(['honey']),   // r73: wrong cell removed; no sourced form found
                 srb: new Set(['mother']),   // r73: wrong cell removed; no sourced form found
-                hsn_yz: new Set(['tongue', 'bone', 'poop', 'tree']),   // r73: wrong cell removed; no sourced form found
+                hsn_yz: new Set(['tongue', 'bone', 'poop', 'tree', 'we']),   // r73: wrong cell removed; no sourced form found
                 dng: new Set(['cuckoo']),   // r73: wrong cell removed; no sourced form found
                 ja_mvi: new Set(['love', 'hello', 'good']),   // r73: wrong cell removed; no sourced form found
                 tiw: new Set(['hello']),   // r73: wrong cell removed; no sourced form found

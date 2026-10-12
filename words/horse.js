@@ -154,7 +154,7 @@ WORDS.horse = {
     ceb: ["kabayo", "kaˈbajo"],
     mi: ["hōiho", "hoːiho"],
     haw: ["lio", "lio"],
-    mt: ["żiemel", "ˈziːmɛl"],
+    mt: ["żiemel", "ˈzɪːmɛl"],
     sq: ["kalë", "ˈkalə"],
     hy: ["ձի", "dzi"],
     ka: ["ცხენი", "tsxeni"],
@@ -962,7 +962,7 @@ WORDS.horse = {
     mbc: ["kaware", "kaware"],
     ake: ["kaware", "kawaɾe"],
     kmh: ["kaj hos", "kadʒ hos"],
-    mcf: ["cabachu", "kabatʃu"],
+    mcf: ["cabayo", "kabajo"],
     roo: ["hos", "hos"],
     kfa: ["ಕುದ್ರೆ", "kudre"],
     wls: ["hōsi", "hoːsi"],
@@ -1106,13 +1106,15 @@ WORDS.horse = {
     hai: ["gyuudáan", "ɡʲuːdɑ́ːn"],
     abe: ["ases", "ases"],
     ygr: ["silumata", "silumata"],
-    tok: ["soweli", "soweli"],
+    tok: ["soweli", "ˈsoweli"],
     mix: ["kiti", "kìt̪ǐ"],
     mch: ["kawaayu", "kawaːju"],
     zh_han: ["馬", "mrǟ́"],
     ett: ["damnos", "ˈdamnos"],
     p_ryu: ["*Cma", "Cma"],
     xpr: ["ʾsp", "asp"],
-    xqa: ["at", "at"]
+    xqa: ["at", "at"],
+    olk: ["athayarr", "at̪ajar"],
+    slr: ["at", "ɑtʰ"]
   }
 };

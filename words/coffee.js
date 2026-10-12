@@ -965,10 +965,10 @@ WORDS.coffee = {
     moh: ["káwhe", "káwhe"], // was ["káwhe", "ˈkawhe"] (vi dialect rules 2026-10-06) // was ["káwhe", "káwhe"] (vi dialect rules 2026-10-06)
     cho: ["kafi", "kafi"],
     apw: ["tudiłhiłi", "tudiɬhiɬi"], // was ["tudiłhiłi", "tutiɬhiɬi"] (vi dialect rules 2026-10-06)
-    nv: ["gohwééh", "kohʷéːh"],
+    nv: ["gohwééh", "kòhʷéːh"], // was ["gohwééh", "kohʷéːh"] (vi dialect rules 2026-10-06)
     xmf: ["ყავა", "qʼava"],
     lzz: ["კავე", "kʼave"],
-    chr: ["ᎧᏫ", "kahwi"],
+    chr: ["ᎧᏫ", "kʰaːhw̥ĩ"], // was ["ᎧᏫ", "kahwi"] (vi dialect rules 2026-10-06)
     mzn: ["قهوه", "ɢæhˈve"],
     anp: ["कॉफी", "kɔfiː"],
     pnb: ["کافی", "kɑːfiː"],
@@ -1118,7 +1118,7 @@ WORDS.coffee = {
     lg: ["kaawa", "kaːwa"],
     ki: ["kahũa", "kahowa"],
     yur: ["kopeen", "kɔpin"],
-    arp: ["wooʼteenoowuʼ", "woːʔteːnoːwuʔ"],
+    arp: ["wooʼtéénoówuʼ", "woːʔtéːnoówuʔ"], // was ["wooʼteenoowuʼ", "woːʔteːnoːwuʔ"] (vi dialect rules 2026-10-06)
     chy: ["moʼȯhtávėhohpe", "moʔohtávehohpe"],
     pqm: ["kahpe", "kahpe"],
     cr: ["ᐱᐦᑲᐦᑌᐚᐳᕀ", "pihkahteːwaːpoj"],

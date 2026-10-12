@@ -646,9 +646,9 @@ WORDS.salt = {
     nxq: ["ce", "tsʰe˧"],
     tji: ["labu", "la˧˥pu˥˥"],
     qxs: ["tsʰɿ", "tsʰɿ˧˧"],
-    ers: ["tshɿ", "tsʰɿ"],
+    ers: ["tshɿ", "tsʰɿ˧˧"],
     cng: ["tshə", "tsʰə"],
-    duu: ["svla", "sɯlaʔ"],
+    duu: ["sɯlɑʔ", "sɯlɑʔ"],
     new: ["चि", "tʃi"],
 
 
@@ -753,7 +753,7 @@ WORDS.salt = {
     bal: ["واد", "waːd"],
     jpr: ["נמך", "næmæk"],
     rhg: ["nun", "nun"],
-    bsk: ["bayú", "baˈjuː"],
+    bsk: ["bayú", "baˈju"],
     mad: ["buja", "budʒa"],
 
 
@@ -1055,7 +1055,7 @@ WORDS.salt = {
     cic: ["hapiʼ", "hapiʔ"],
     ik: ["taġiuq", "taʁiuq"],
     nez: ["kéetwenʼes", "kéːtwenʔes"],
-    cay: ["ojikeʼdaʼ", "odʒikeʔdaʔ"],
+    cay: ["ojíkeʼdaʼ", "odʒíkeʔdaʔ"],
     moh: ["tyohyòtsis", "tjohjòtsis"],
     chr: ["ᎠᎹ", "aːmã"],
     cho: ["hapi", "hapi"],
@@ -1259,6 +1259,7 @@ WORDS.salt = {
     yan: ["kuma", "kuma"],
     zh_han: ["鹽", "źam"],
     xpr: ["nmydk", "nameːdk"],
-    suk: ["munhu", "munhu"]
+    suk: ["munhu", "munhu"],
+    olk: ["ilbmbu", "ilbmbu"]
   },
 };

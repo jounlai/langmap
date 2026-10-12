@@ -67,6 +67,9 @@ WORDS.orange = {
     sw: "Chungwa — tunda tamu la jamii ya michungwa, na ramani ya majibu manne tofauti kwa swali lilelile. Tunda hili lilifika Ulaya mara mbili. Chungwa chungu lilikuja nchi kavu na biashara ya Kiajemi na Kiarabu enzi za kati, likibeba neno la Kisanskriti नारङ्ग: نارنج → Kihispania naranja, Kiitaliano arancia, Kifaransa na Kiingereza orange. Chungwa tamu lilikuja baharini katika karne ya 16 kwa meli za Kireno, na nusu ya Mediterania ya mashariki ikaliita tu kwa jina la wafanyabiashara hao — Kigiriki πορτοκάλι, Kituruki portakal, Kiarabu برتقال, Kiamhari ብርቱካን, Kijojia ფორთოხალი, Kiajemi پرتقال. Ulaya ya Kaskazini ilichukua jibu la tatu kutoka kwa wafanyabiashara wa Kiholanzi, walioliita \"tufaha kutoka Uchina\": sinaasappel, Apfelsine, апельсин, appelsiini. Na sehemu kubwa ya dunia iliendelea tu na neno lake yenyewe.",
   },
   family: {
+    cnp: "local",
+    atj: "local",
+    pll: "local",
     ohu: "naranj",
     de_lut: "naranj",
     zh_han: "local",
@@ -679,6 +682,9 @@ WORDS.orange = {
     local: {"color":"#6b7280","emoji":"🏡","en":"its own word","ja":"自前の語","ko":"고유어","zh":"自有的詞","yue":"自己本身嘅詞","vi":"từ của riêng mình","th":"คำของตัวเอง","id":"kata sendiri","hi":"अपना ही शब्द","de":"eigenes Wort","fr":"mot propre","it":"parola propria","es":"palabra propia","pt":"palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمته الخاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    cnp: ["橙", "tʃʰaŋ˧˧"],
+    atj: ["wapimin ka osawacaket", "wapimin ka osawaʃaket"],
+    pll: ["məcɔk", "məcɔk"],
     ohu: ["narancs", "nɒrɒntʃ"],
     de_lut: ["Pomeranze", "pɔməˈrantsə"],
     zh_han: ["橘", "kjwǝt"],
@@ -702,7 +708,7 @@ WORDS.orange = {
     awa: ["संतरा", ""],
     sgs: ["apelsėns", ""],
     krc: ["апельсин", ""],
-    njo: ["jemben", "dʒemben"],
+    njo: ["jemben", "tʃemben"], // was ["jemben", "dʒemben"] (vi dialect rules 2026-10-06)
     za: ["makdoengj", ""],
     lhu: ["maˉ cuˉ", ""],
     quy: ["naranja", ""],
@@ -1262,7 +1268,7 @@ WORDS.orange = {
     haz: ["پرتقال", "poɾtaɣɒl"],
     hak_tw: ["柑仔", "kam˨˦ e˧˩"],
     wuu_sz: ["橙", "zã˨˨˧"],
-    wuu_wz: ["橙", "zaŋ˧˩"],
+    wuu_wz: ["甜橙", "di˧˩ dziɛ˧˩"], // was ["橙", "zaŋ˧˩"] (vi dialect rules 2026-10-06)
     nan_qz: ["柑仔", "kam˧˧ ma˥˥˦"],
     nan_hai: ["柑仔", "ka˨˧ kia˨˩˧"],
     zh_wh: ["橙", "tsʰən˨˩˧"],

@@ -581,7 +581,7 @@ WORDS.milk = {
     kl: ["immuk", "imːuk"],
     iu: ["ᐃᒻᒧᒃ", "imːuk"],
     ik: ["immuk", "imːuk"],
-    nv: ["abeʼ", "àpèʔ"],
+    nv: ["abeʼ", "ʔɑ̀pèʔ"],
     lkt: ["asáŋpi", "aˈsãpi"],
     // Classical Nahuatl names it 'breast water' too.
     nci: ["chīchīhualāyōtl", "tʃiːtʃiːwalaːjoːtɬ"],
@@ -655,7 +655,7 @@ WORDS.milk = {
     sva: ["ლჷჯე", "lədʒe"],
     sma: ["mielhkie", "ˈmielʰkie"],
     smj: ["mielkke", "ˈmielkːe"],
-    smn: ["mielkki", "ˈmielkːi"],
+    smn: ["miel'kki", "ˈmielkːi"],
     sms: ["mieʹlǩǩ", "mielʲkʲː"],
     sjd: ["ма̄ййт", "maːjːt"],
     dar: ["ниъ", "niʔ"],
@@ -667,7 +667,7 @@ WORDS.milk = {
     tkr: ["няк", "nʲak"],
     liv: ["sēmḑa", "ˈseːmdʲa"],
     mns: ["сяквит", "sʲakwit"],
-    bsk: ["mamú", "mamu"],
+    bsk: ["mamú", "maˈmu"],
     ani: ["шив", "ʃiv"],
     bdk: ["йух", "jux"],
     huz: ["гьиᴴ", "hĩ"],
@@ -676,7 +676,7 @@ WORDS.milk = {
     bbl: ["შურ", "ʃur"],
     kry: ["yux", "jux"],
     hmn: ["kua mis", "kua˧ mi˨˩"],
-    chr: ["ᎤᏅᏗ", "unə̃di"],
+    chr: ["ᎤᏅᏗ", "uːnə̃ːti"],
     tzo: ["lech", "letʃ"],
     ay: ["millkʼi", "miʎkʼi"],
     qwc: ["ñukñu", "ɲukɲu"],
@@ -705,7 +705,7 @@ WORDS.milk = {
     chb: ["chuexiu", "tʃwesiu"],
     kek: ["leech", "leːtʃ"],
     osa: ["paazénii", "paːzéniː"],
-    duu: ["nuŋ", "nuŋ˥˥"],
+    duu: ["nuŋ", "nuŋ"],
     ers: ["ȵoȵo", "ɲo˥˥ɲo˥˥"],
     atb: ["naú", "nau˥˥"],
     nrf: ["lait", "lɛ"],
@@ -1133,6 +1133,7 @@ WORDS.milk = {
     ojp: ["ち", "ti"],
     pkar: ["*(s)ʒ₁e-", "dze"],
     xpr: ["šift", "ʃift"],
-    p_jpn: ["*ti", "ti"]
+    p_jpn: ["*ti", "ti"],
+    olk: ["abum olgng", "abum olɡŋ"]
   },
 };

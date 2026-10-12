@@ -863,7 +863,7 @@ WORDS.green = {
     khw: ["اوݯ", "oʈʂ"],
     adx: ["ལྗང་ཁུ", "dʑaŋkʰə"],
     duu: ["pɯɕiŋ", "pɯɕiŋ"],
-    njo: ["tajem", "tadʒəm"],
+    njo: ["tajüm", "tatʃəm"],
     ybe: ["jahsïl", "jɑhˈsɯl"],
     yuy: ["noʁoon", "noʁoːn"],
     bor: ["kaworureu", "kawoɾuɾew"],

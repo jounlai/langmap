@@ -13,6 +13,15 @@
  * contradicting it. A source about a country (a world map's country label)
  * is accepted where the country's main language is the row's; a source about
  * a script ("common in India") is not evidence for each language using it.
+ * CORPUS COUNTS (owner, 2026-10-12) also count as that one source: in the
+ * language's FineWeb-2 web text (first 100,000 documents) the form's family
+ * must be the most frequent laughter, in at least 30 documents, twice the next
+ * laughter form, and on at least 10 distinct sites. Only h-type laughter
+ * (ha, ха, هه, హ, ཧ …) and jaja: k- and j- strings in these corpora were
+ * mostly reduplicated words (Igbo jijiji 'tremble', Sango kue kue kue 'all').
+ * Corpora that are machine-translated or another language under the label
+ * (Fiji Hindi = Hinglish, Gilaki = Persian, Samoan/Corsican MT sites) are not
+ * used. Tool: ~/langmap-work/fw2/ (scan.py, decide.py, ctx2.py).
  *
  * New entries: see docs/words/CONTRIBUTING.md
  */
@@ -149,6 +158,19 @@ WORDS.lol = {
     jv: ["ha ha ha", "ha ha ha"],
     su: ["ha ha ha", "ha ha ha"],
     kab: ["mst", ""],
-    srr: ["dbmk", ""]
+    srr: ["dbmk", ""],
+    gl: ["jajaja", ""],
+    bo: ["ཧཧཧ", ""],
+    bar: ["hahaha", ""],
+    hr: ["hahaha", ""],
+    li: ["hahaha", ""],
+    mk: ["хахаха", ""],
+    pap: ["hahaha", ""],
+    rn: ["hahaha", ""],
+    sd: ["هاهاها", ""],
+    sl: ["hahaha", ""],
+    sq: ["hahaha", ""],
+    sw: ["hahaha", ""],
+    te: ["హహహ", ""]
   },
 };

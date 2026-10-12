@@ -14,7 +14,7 @@
  * is accepted where the country's main language is the row's; a source about
  * a script ("common in India") is not evidence for each language using it.
  * CORPUS COUNTS (owner, 2026-10-12) also count as that one source: in the
- * language's FineWeb-2 web text (first 100,000 documents) the form's family
+ * language's FineWeb-2 web text (first 100,000 documents, 300,000 on a second pass) the form's family
  * must be the most frequent laughter, in at least 30 documents, twice the next
  * laughter form, and on at least 10 distinct sites. Only h-type laughter
  * (ha, ха, هه, హ, ཧ …) and jaja: k- and j- strings in these corpora were
@@ -171,6 +171,9 @@ WORDS.lol = {
     sl: ["hahaha", ""],
     sq: ["hahaha", ""],
     sw: ["hahaha", ""],
-    te: ["హహహ", ""]
+    te: ["హహహ", ""],
+    fy: ["hahaha", ""],
+    ht: ["hahaha", ""],
+    kn: ["ಹಹಹ", ""]
   },
 };

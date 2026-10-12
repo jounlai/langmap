@@ -28,3 +28,7 @@ boilerplate, gil/fj too few sites, and hif (Hinglish), glk (Persian), sm/co
 (machine-translated sites), wo (French) were not the row's language.
 Added: gl jajaja, bo ཧཧཧ, bar, hr, li, pap, rn, sl, sq, sw hahaha, mk
 хахаха, sd هاهاها, te హహహ (IPA empty).
+Second pass, 300,000 documents for the 49 near misses: fy, ht hahaha, kn ಹಹಹ
+added. ta ஹஹஹ passed the count but its contexts were erotic-story moaning,
+not laughter — rejected. am (spam-heavy), mn (хахаха vs ххх), ceb (ha vs
+he), ckb/ps (ههه vs هاها) have no single dominant form.

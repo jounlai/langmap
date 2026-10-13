@@ -189,9 +189,11 @@ $goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
   <a href="<?= e(seo_goods_href($code, $lang, $ui)) ?>" rel="nofollow noopener" target="_blank">
     <img src="<?= e($goods_photo) ?>" alt="" width="760" height="744" loading="lazy" decoding="async">
     <span class="seo-goods-text">
-      <span class="seo-goods-title"><?= e(seo_t($ui, 'goods_title')) ?></span>
-      <span class="seo-goods-lede"><?= e(seo_t($ui, 'goods_lede')) ?></span>
-      <span class="seo-goods-btn"><?= e(seo_t($ui, 'goods_sub', ['name' => $name])) ?></span>
+      <?php $spk = seo_speaker_count($lang); ?>
+      <span class="seo-goods-title"><?= e($spk ? seo_t($ui, 'goods_title_n', ['n' => seo_people($spk, $ui)]) : seo_t($ui, 'goods_title')) ?></span>
+      <span class="seo-goods-lede"><?= e(seo_t($ui, 'goods_lede', ['name' => $name, 'w' => (string) count($words)])) ?></span>
+      <span class="seo-goods-note"><?= e(seo_t($ui, 'goods_note')) ?></span>
+      <span class="seo-goods-btn"><?= e(seo_t($ui, 'goods_sub')) ?></span>
     </span>
   </a>
 </div>

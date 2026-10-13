@@ -60,6 +60,57 @@ const SEO_SITE = 'https://langmaps.com';
  * Singapore English), because that is what a reader wants printed across a
  * chest; the formal name travels alongside in formal= so nothing is lost.
  */
+/* Speaker count for the goods card headline ("Wear a language spoken by about
+   4,000 people"). meta.speakers is free text ("~4K", "~9.5M L1 (Honduras)",
+   "~50–100 fluent + ~250–300 total", "~50K ethnic"): only a single leading
+   figure that is plainly a speaker count is used. Ranges, L2 / ethnic /
+   heritage / combined figures and historical rows return null, and the card
+   falls back to its fixed title. */
+function seo_speaker_count(array $lang): ?int
+{
+    if (!empty($lang['excluded'])) return null;
+    $raw = trim((string) (($lang['meta'] ?? [])['speakers'] ?? ''));
+    if (!preg_match('/^~?\s*([\d][\d.,]*)\s*([KMB])?(?=\s|$)(.*)$/u', $raw, $m)) return null;
+    $rest = $m[3];
+    if (preg_match('/^\s*[–-]|L2|ethnic|heritage|semi|combined|signers|revival|extinct/iu', $rest)) return null;
+    $n = (float) str_replace(',', '', $m[1]);
+    $n *= ['' => 1, 'K' => 1e3, 'M' => 1e6, 'B' => 1e9][strtoupper($m[2] ?? '')];
+    return $n >= 1 ? (int) round($n) : null;
+}
+
+function seo_people(int $n, string $ui): string
+{
+    $grp = fn(int $x, string $sep) => number_format($x, 0, '', $sep);
+    $east = ['ja' => ['億', '万', ','], 'zh' => ['亿', '万', ','], 'yue' => ['億', '萬', ','], 'ko' => ['억 ', '만', ',']];
+    if (isset($east[$ui])) {
+        [$oku, $man, $sep] = $east[$ui];
+        if ($n < 10000) return $grp($n, $sep);
+        $tail = $ui === 'ko' ? ' ' : '';   // 약 2,000만 명, but 약 4,000명
+        if ($n < 100000000) return $grp((int) round($n / 1e4), $sep) . $man . $tail;
+        $o = intdiv($n, 100000000); $r = (int) round(($n % 100000000) / 1e4);
+        return $o . $oku . ($r ? $grp($r, $sep) . $man : '') . $tail;
+    }
+    $dec = in_array($ui, ['de','fr','it','es','pt','ru','uk','id','vi'], true) ? ',' : '.';
+    $sep = in_array($ui, ['fr','ru','uk'], true) ? "\u{202F}" : ($dec === ',' ? '.' : ',');
+    if ($n < 1000000) return $grp($n, $sep);
+    $big = $n >= 1e9;
+    $x = $big ? $n / 1e9 : $n / 1e6;
+    $num = rtrim(rtrim(number_format($x, $x < 10 ? 1 : 0, $dec, $sep), '0'), $dec);
+    $one = ($num === '1');
+    $W = [
+      'en' => ['million','million','billion','billion'], 'de' => ['Million','Millionen','Milliarde','Milliarden'],
+      'fr' => ['million','millions','milliard','milliards'], 'it' => ['milione','milioni','miliardo','miliardi'],
+      'es' => ['millón','millones','mil millones','mil millones'], 'pt' => ['milhão','milhões','bilhão','bilhões'],
+      'ru' => ['млн','млн','млрд','млрд'], 'uk' => ['млн','млн','млрд','млрд'], 'id' => ['juta','juta','miliar','miliar'],
+      'vi' => ['triệu','triệu','tỷ','tỷ'], 'th' => ['ล้าน','ล้าน','พันล้าน','พันล้าน'], 'hi' => ['मिलियन','मिलियन','अरब','अरब'],
+      'ar' => ['مليون','مليون','مليار','مليار'], 'he' => ['מיליון','מיליון','מיליארד','מיליארד'], 'sw' => ['milioni','milioni','bilioni','bilioni'],
+    ][$ui] ?? ['million','million','billion','billion'];
+    $w = $W[($big ? 2 : 0) + ($one ? 0 : 1)];
+    if ($ui === 'sw') return $w . ' ' . $num;
+    if ($ui === 'th') return $num . ' ' . $w;
+    return $num . ' ' . $w;
+}
+
 function seo_goods_href(string $code, array $lang, string $ui): string
 {
     $names = $lang['names'] ?? [];
@@ -758,9 +809,11 @@ const SEO_T = [
         'where' => 'Where it is spoken',
         'open_app' => 'Open {name} in the interactive map →',
         'goods_title' => 'Wear this language',
-        'goods_sub' => 'Preview a {name} T-shirt design (free) →',
-        'goods_lede' => 'Pick the words you like, printed in the same typeface the map uses.',
-        'goods_peek' => '👕 You can also put {name} words on a T-shirt (below)',
+        'goods_sub' => 'See the design →',
+        'goods_lede' => 'Pick any of the {w} {name} words on this page — printed in the same typeface as the map.',
+        'goods_peek' => '👕 The words of this language can also go on a T-shirt (below)',
+        'goods_title_n' => 'Wear a language spoken by about {n} people.',
+        'goods_note' => 'You try the design on our partner shop\'s page, and decide whether to order after you have seen it.',
         'open_app_wm' => 'Open the interactive Word Map →',
         'open_app_hm' => 'Open the interactive Han Map →',
         'related' => 'Comparisons & other languages',
@@ -817,9 +870,11 @@ const SEO_T = [
         'where' => '話される地域',
         'open_app' => '{name}をインタラクティブマップで開く →',
         'goods_title' => 'この言語を、着る。',
-        'goods_sub' => '{name}のTシャツのデザインを見てみる（無料）→',
-        'goods_lede' => '好きな単語を選ぶだけ。マップと同じ書体でプリントされます。',
-        'goods_peek' => '👕 {name}の単語でTシャツも作れます（ページ下へ）',
+        'goods_sub' => 'デザインを見てみる →',
+        'goods_lede' => '{name}の{w}語から、好きなものを選ぶだけ。地図と同じ書体でプリントされます。',
+        'goods_peek' => '👕 この言語の単語は、Tシャツにもできます（ページ下）',
+        'goods_title_n' => '約{n}人が話す言葉を、身につける。',
+        'goods_note' => 'デザインは提携ショップのページで試せます。注文するかは、見てから決められます。',
         'open_app_wm' => 'インタラクティブな Word Map を開く →',
         'open_app_hm' => 'インタラクティブな Han Map を開く →',
         'related' => '関連言語・比較',
@@ -876,9 +931,11 @@ const SEO_T = [
         'where' => '사용 지역',
         'open_app' => '인터랙티브 지도에서 {name} 열기 →',
         'goods_title' => '이 언어로 나만의 티셔츠를',
-        'goods_sub' => '{name} 티셔츠 디자인 미리 보기 (무료) →',
-        'goods_lede' => '마음에 드는 단어를 고르기만 하면 끝. 지도와 똑같은 글씨체로 프린트해 드려요.',
-        'goods_peek' => '👕 {name} 단어로 티셔츠도 만들 수 있어요 (아래로)',
+        'goods_sub' => '디자인 보기 →',
+        'goods_lede' => '{name} 단어 {w}개 중 마음에 드는 것만 고르세요. 지도와 같은 글씨체로 프린트됩니다.',
+        'goods_peek' => '👕 이 언어의 단어로 티셔츠도 만들 수 있어요 (아래)',
+        'goods_title_n' => '약 {n}명이 쓰는 말을, 입어 보세요.',
+        'goods_note' => '디자인은 제휴 쇼핑몰 페이지에서 해 볼 수 있어요. 주문은 보고 나서 정하면 됩니다.',
         'open_app_wm' => '인터랙티브 Word Map 열기 →',
         'open_app_hm' => '인터랙티브 Han Map 열기 →',
         'related' => '관련 언어와 비교',
@@ -935,9 +992,11 @@ const SEO_T = [
         'where' => '使用地区',
         'open_app' => '在交互式地图中打开{name} →',
         'goods_title' => '把这门语言穿上身',
-        'goods_sub' => '免费预览{name}T恤设计 →',
-        'goods_lede' => '挑几个喜欢的词，用和地图上一样的字体印在T恤上。',
-        'goods_peek' => '👕 还可以用{name}的单词做T恤（见下方）',
+        'goods_sub' => '看看设计 →',
+        'goods_lede' => '从{w}个{name}单词里挑你喜欢的就行，用和地图一样的字体印出来。',
+        'goods_peek' => '👕 这门语言的单词也能印在T恤上（见下方）',
+        'goods_title_n' => '约{n}人说的语言，穿在身上。',
+        'goods_note' => '设计可在合作商店的页面上试做，看过之后再决定是否下单。',
         'open_app_wm' => '打开交互式 Word Map →',
         'open_app_hm' => '打开交互式 Han Map →',
         'related' => '相关语言与比较',
@@ -994,9 +1053,11 @@ const SEO_T = [
         'where' => '使用地區',
         'open_app' => '喺互動地圖打開{name} →',
         'goods_title' => '將呢種語言着上身',
-        'goods_sub' => '免費睇吓{name}T恤設計 →',
-        'goods_lede' => '揀幾個中意嘅詞，用同地圖一樣嘅字體印喺衫上。',
-        'goods_peek' => '👕 仲可以用{name}嘅詞整T恤（睇下面）',
+        'goods_sub' => '睇吓設計 →',
+        'goods_lede' => '喺{w}個{name}詞入面揀你中意嘅就得，用同地圖一樣嘅字體印出嚟。',
+        'goods_peek' => '👕 呢種語言嘅詞都可以印落T恤（睇下面）',
+        'goods_title_n' => '約{n}人講嘅語言，着上身。',
+        'goods_note' => '設計可以喺合作商店嘅網頁度試整，睇完先決定落唔落單。',
         'open_app_wm' => '打開互動 Word Map →',
         'open_app_hm' => '打開互動 Han Map →',
         'related' => '相關語言同比較',
@@ -1053,9 +1114,11 @@ const SEO_T = [
         'where' => 'Nơi được sử dụng',
         'open_app' => 'Mở {name} trên bản đồ tương tác →',
         'goods_title' => 'Mặc ngôn ngữ này',
-        'goods_sub' => 'Xem thử mẫu áo {name} (miễn phí) →',
-        'goods_lede' => 'Chỉ cần chọn những từ bạn thích. Chữ sẽ được in bằng đúng kiểu chữ trên bản đồ.',
-        'goods_peek' => '👕 Bạn cũng có thể in từ {name} lên áo thun (xem bên dưới)',
+        'goods_sub' => 'Xem thiết kế →',
+        'goods_lede' => 'Chỉ cần chọn từ bạn thích trong {w} từ của {name} — in bằng đúng kiểu chữ trên bản đồ.',
+        'goods_peek' => '👕 Từ của ngôn ngữ này cũng có thể in lên áo thun (bên dưới)',
+        'goods_title_n' => 'Khoác lên mình ngôn ngữ của khoảng {n} người.',
+        'goods_note' => 'Bạn thử thiết kế trên trang của cửa hàng đối tác, xem xong rồi mới quyết định có đặt hay không.',
         'open_app_wm' => 'Mở Word Map tương tác →',
         'open_app_hm' => 'Mở Han Map tương tác →',
         'related' => 'Ngôn ngữ liên quan & so sánh',
@@ -1112,9 +1175,11 @@ const SEO_T = [
         'where' => 'พื้นที่ที่ใช้พูด',
         'open_app' => 'เปิด{name}ในแผนที่แบบโต้ตอบ →',
         'goods_title' => 'สวมภาษานี้',
-        'goods_sub' => 'ลองดูแบบเสื้อ{name} (ฟรี) →',
-        'goods_lede' => 'เลือกคำที่ชอบ แล้วสกรีนลงเสื้อด้วยฟอนต์เดียวกับในแผนที่',
-        'goods_peek' => '👕 นำคำใน{name}ไปสกรีนเสื้อยืดได้ด้วย (ดูด้านล่าง)',
+        'goods_sub' => 'ดูแบบเสื้อ →',
+        'goods_lede' => 'เลือกคำที่ชอบจาก {w} คำใน{name} แล้วสกรีนด้วยฟอนต์เดียวกับแผนที่',
+        'goods_peek' => '👕 คำในภาษานี้นำไปสกรีนเสื้อยืดได้ด้วย (ด้านล่าง)',
+        'goods_title_n' => 'สวมภาษาที่ผู้คนราว {n}คนพูด',
+        'goods_note' => 'ลองออกแบบได้ที่หน้าร้านค้าพาร์ทเนอร์ ดูแล้วค่อยตัดสินใจว่าจะสั่งหรือไม่',
         'open_app_wm' => 'เปิด Word Map แบบโต้ตอบ →',
         'open_app_hm' => 'เปิด Han Map แบบโต้ตอบ →',
         'related' => 'ภาษาที่เกี่ยวข้องและการเปรียบเทียบ',
@@ -1171,9 +1236,11 @@ const SEO_T = [
         'where' => 'Tempat dituturkan',
         'open_app' => 'Lihat {name} di peta interaktif →',
         'goods_title' => 'Kenakan bahasa ini',
-        'goods_sub' => 'Lihat desain kaus {name} (gratis) →',
-        'goods_lede' => 'Tinggal pilih kata favoritmu, dicetak dengan jenis huruf yang sama seperti di peta.',
-        'goods_peek' => '👕 Kata {name} juga bisa dicetak di kaus (lihat di bawah)',
+        'goods_sub' => 'Lihat desainnya →',
+        'goods_lede' => 'Pilih saja kata favoritmu dari {w} kata {name} — dicetak dengan huruf yang sama seperti di peta.',
+        'goods_peek' => '👕 Kata-kata bahasa ini juga bisa jadi kaus (di bawah)',
+        'goods_title_n' => 'Kenakan bahasa yang dituturkan sekitar {n} orang.',
+        'goods_note' => 'Desainnya dicoba di halaman toko mitra kami; pesan atau tidak, putuskan setelah melihatnya.',
         'open_app_wm' => 'Buka Word Map interaktif →',
         'open_app_hm' => 'Buka Han Map interaktif →',
         'related' => 'Bahasa terkait & perbandingan',
@@ -1230,9 +1297,11 @@ const SEO_T = [
         'where' => 'कहाँ बोली जाती है',
         'open_app' => '{name} को इंटरैक्टिव मानचित्र में खोलें →',
         'goods_title' => 'इस भाषा को पहनें',
-        'goods_sub' => '{name} टी-शर्ट का डिज़ाइन देखें (मुफ़्त) →',
-        'goods_lede' => 'अपने पसंदीदा शब्द चुनें — नक़्शे वाले उसी टाइपफ़ेस में छपेंगे।',
-        'goods_peek' => '👕 {name} के शब्द टी-शर्ट पर भी छपवा सकते हैं (नीचे देखें)',
+        'goods_sub' => 'डिज़ाइन देखें →',
+        'goods_lede' => '{name} के {w} शब्दों में से अपने पसंदीदा चुनें — नक़्शे वाले उसी टाइपफ़ेस में छपेंगे।',
+        'goods_peek' => '👕 इस भाषा के शब्द टी-शर्ट पर भी छप सकते हैं (नीचे)',
+        'goods_title_n' => 'लगभग {n} लोगों की भाषा, अब पहनने के लिए।',
+        'goods_note' => 'डिज़ाइन हमारे साझेदार स्टोर के पेज पर आज़माएँ; ऑर्डर करना है या नहीं, देखने के बाद तय करें।',
         'open_app_wm' => 'इंटरैक्टिव Word Map खोलें →',
         'open_app_hm' => 'इंटरैक्टिव Han Map खोलें →',
         'related' => 'तुलना और अन्य भाषाएँ',
@@ -1289,9 +1358,11 @@ const SEO_T = [
         'where' => 'Wo die Sprache gesprochen wird',
         'open_app' => '{name} in der interaktiven Karte öffnen →',
         'goods_title' => 'Trag diese Sprache',
-        'goods_sub' => '{name}: T-Shirt-Entwurf ansehen (kostenlos) →',
-        'goods_lede' => 'Such dir Wörter aus – gedruckt in derselben Schrift wie auf der Karte.',
-        'goods_peek' => '👕 {name}-Wörter gibt es auch als T-Shirt (siehe unten)',
+        'goods_sub' => 'Entwurf ansehen →',
+        'goods_lede' => '{name}: {w} Wörter zur Auswahl — gedruckt in derselben Schrift wie auf der Karte.',
+        'goods_peek' => '👕 Die Wörter dieser Sprache gibt es auch als T-Shirt (unten)',
+        'goods_title_n' => 'Trag eine Sprache, die rund {n} Menschen sprechen.',
+        'goods_note' => 'Den Entwurf probierst du auf der Seite unseres Partnershops aus – bestellen kannst du danach, wenn er dir gefällt.',
         'open_app_wm' => 'Die interaktive Word Map öffnen →',
         'open_app_hm' => 'Die interaktive Han Map öffnen →',
         'related' => 'Verwandte Sprachen & Vergleiche',
@@ -1348,9 +1419,11 @@ const SEO_T = [
         'where' => 'Où elle est parlée',
         'open_app' => 'Ouvrir {name} dans la carte interactive →',
         'goods_title' => 'Portez cette langue',
-        'goods_sub' => 'Voir un t-shirt en {name} (gratuit) →',
-        'goods_lede' => 'Choisissez vos mots préférés : ils sont imprimés dans la même police que sur la carte.',
-        'goods_peek' => '👕 Les mots en {name} existent aussi en t-shirt (voir plus bas)',
+        'goods_sub' => 'Voir le design →',
+        'goods_lede' => 'Choisissez parmi les {w} mots en {name} — imprimés dans la même police que la carte.',
+        'goods_peek' => '👕 Les mots de cette langue existent aussi en t-shirt (plus bas)',
+        'goods_title_n' => 'Portez une langue parlée par environ {n} personnes.',
+        'goods_note' => 'Le design s\'essaie sur la page de notre boutique partenaire ; vous décidez de commander après l\'avoir vu.',
         'open_app_wm' => 'Ouvrir la Word Map interactive →',
         'open_app_hm' => 'Ouvrir la Han Map interactive →',
         'related' => 'Langues apparentées et comparaisons',
@@ -1407,9 +1480,11 @@ const SEO_T = [
         'where' => 'Dove si parla',
         'open_app' => 'Apri {name} sulla mappa interattiva →',
         'goods_title' => 'Indossa questa lingua',
-        'goods_sub' => 'Guarda una t-shirt in {name} (gratis) →',
-        'goods_lede' => 'Scegli le parole che preferisci, stampate con lo stesso carattere della mappa.',
-        'goods_peek' => '👕 Le parole in {name} anche su una t-shirt (vedi sotto)',
+        'goods_sub' => 'Guarda il design →',
+        'goods_lede' => 'Scegli tra le {w} parole in {name} — stampate con lo stesso carattere della mappa.',
+        'goods_peek' => '👕 Le parole di questa lingua anche su una t-shirt (sotto)',
+        'goods_title_n' => 'Indossa una lingua parlata da circa {n} persone.',
+        'goods_note' => 'Il design si prova sulla pagina del nostro negozio partner: decidi se ordinare dopo averlo visto.',
         'open_app_wm' => 'Apri la Word Map interattiva →',
         'open_app_hm' => 'Apri la Han Map interattiva →',
         'related' => 'Altre lingue e confronti',
@@ -1466,9 +1541,11 @@ const SEO_T = [
         'where' => 'Dónde se habla',
         'open_app' => 'Abrir {name} en el mapa interactivo →',
         'goods_title' => 'Ponte este idioma',
-        'goods_sub' => 'Ver un diseño de camiseta en {name} (gratis) →',
-        'goods_lede' => 'Elige las palabras que quieras: se estampan con la misma tipografía del mapa.',
-        'goods_peek' => '👕 Las palabras en {name} también en camiseta (ver abajo)',
+        'goods_sub' => 'Ver el diseño →',
+        'goods_lede' => 'Elige entre las {w} palabras en {name}: se estampan con la tipografía del mapa.',
+        'goods_peek' => '👕 Las palabras de esta lengua también en camiseta (abajo)',
+        'goods_title_n' => 'Viste una lengua que hablan unas {n} personas.',
+        'goods_note' => 'El diseño se prueba en la página de nuestra tienda asociada; decides si pedir después de verlo.',
         'open_app_wm' => 'Abrir el Word Map interactivo →',
         'open_app_hm' => 'Abrir el Han Map interactivo →',
         'related' => 'Lenguas relacionadas y comparaciones',
@@ -1525,9 +1602,11 @@ const SEO_T = [
         'where' => 'Onde é falada',
         'open_app' => 'Ver {name} no mapa interativo →',
         'goods_title' => 'Vista este idioma',
-        'goods_sub' => 'Ver uma camiseta em {name} (grátis) →',
-        'goods_lede' => 'Escolha as palavras que quiser, estampadas na mesma tipografia do mapa.',
-        'goods_peek' => '👕 As palavras em {name} também em camiseta (veja abaixo)',
+        'goods_sub' => 'Ver o design →',
+        'goods_lede' => 'Escolha entre as {w} palavras em {name} — estampadas na mesma tipografia do mapa.',
+        'goods_peek' => '👕 As palavras desta língua também numa camiseta (abaixo)',
+        'goods_title_n' => 'Vista uma língua falada por cerca de {n} pessoas.',
+        'goods_note' => 'O design é testado na página da nossa loja parceira; você decide se encomenda depois de ver.',
         'open_app_wm' => 'Abrir o Word Map interativo →',
         'open_app_hm' => 'Abrir o Han Map interativo →',
         'related' => 'Outras línguas e comparações',
@@ -1584,9 +1663,11 @@ const SEO_T = [
         'where' => 'Где на нём говорят',
         'open_app' => 'Открыть на интерактивной карте: {name} →',
         'goods_title' => 'Носи этот язык',
-        'goods_sub' => 'Посмотреть дизайн футболки: {name} (бесплатно) →',
-        'goods_lede' => 'Выбери слова — их напечатают тем же шрифтом, что и на карте.',
-        'goods_peek' => '👕 Слова ({name}) можно напечатать на футболке — см. ниже',
+        'goods_sub' => 'Посмотреть дизайн →',
+        'goods_lede' => 'Выберите любые слова ({name}) из списка выше — их напечатают тем же шрифтом, что и на карте.',
+        'goods_peek' => '👕 Слова этого языка можно напечатать на футболке (ниже)',
+        'goods_title_n' => 'Язык, на котором говорят около {n} человек, — на футболке.',
+        'goods_note' => 'Дизайн собирается на странице нашего магазина-партнёра; заказывать или нет — решаете, когда увидите.',
         'open_app_wm' => 'Открыть интерактивную карту Word Map →',
         'open_app_hm' => 'Открыть интерактивную карту Han Map →',
         'related' => 'Родственные языки и сравнения',
@@ -1643,9 +1724,11 @@ const SEO_T = [
         'where' => 'Де нею розмовляють',
         'open_app' => 'Відкрити на інтерактивній карті: {name} →',
         'goods_title' => 'Носи цю мову',
-        'goods_sub' => 'Переглянути дизайн футболки — {name} (безкоштовно) →',
-        'goods_lede' => 'Вибери слова — їх надрукують тим самим шрифтом, що й на карті.',
-        'goods_peek' => '👕 Слова ({name}) можна надрукувати на футболці — див. нижче',
+        'goods_sub' => 'Переглянути дизайн →',
+        'goods_lede' => 'Виберіть будь-які слова ({name}) зі списку вище — їх надрукують тим самим шрифтом, що й на карті.',
+        'goods_peek' => '👕 Слова цієї мови можна надрукувати на футболці (нижче)',
+        'goods_title_n' => 'Мова, якою говорять близько {n} людей, — на футболці.',
+        'goods_note' => 'Дизайн збирається на сторінці нашого магазину-партнера; замовляти чи ні — вирішуєте, коли побачите.',
         'open_app_wm' => 'Відкрити інтерактивну Word Map →',
         'open_app_hm' => 'Відкрити інтерактивну Han Map →',
         'related' => 'Класифікація та порівняння',
@@ -1702,9 +1785,11 @@ const SEO_T = [
         'where' => 'أين تُستخدم؟',
         'open_app' => 'فتح {name} في الخريطة التفاعلية ←',
         'goods_title' => 'ارتدِ هذه اللغة',
-        'goods_sub' => 'شاهد تصميم تي شيرت بكلمات {name} (مجانًا) ←',
-        'goods_lede' => 'لا عليك سوى اختيار الكلمات التي تعجبك؛ تُطبع بالخط نفسه الذي تستخدمه الخريطة.',
-        'goods_peek' => '👕 يمكنك أيضًا طباعة كلمات {name} على تي شيرت (انظر أدناه)',
+        'goods_sub' => 'شاهد التصميم ←',
+        'goods_lede' => 'اختر ما يعجبك من {w} كلمة في {name}؛ تُطبع بخط الخريطة نفسه.',
+        'goods_peek' => '👕 يمكن طباعة كلمات هذه اللغة على تي شيرت أيضًا (أدناه)',
+        'goods_title_n' => 'ارتدِ لغةً يتحدّثها نحو {n} شخص.',
+        'goods_note' => 'تجرّب التصميم في صفحة المتجر الشريك، وتقرّر الطلب بعد أن تراه.',
         'open_app_wm' => 'فتح Word Map التفاعلية ←',
         'open_app_hm' => 'فتح Han Map التفاعلية ←',
         'related' => 'لغات ذات صلة ومقارنات',
@@ -1761,9 +1846,11 @@ const SEO_T = [
         'where' => 'היכן מדוברת',
         'open_app' => 'לפתוח את {name} במפה האינטראקטיבית ←',
         'goods_title' => 'ללבוש את השפה הזאת',
-        'goods_sub' => 'לראות עיצוב חולצה ב{name} (בחינם) ←',
-        'goods_lede' => 'בחרו את המילים שאתם אוהבים, והן יודפסו באותו הגופן שבמפה.',
-        'goods_peek' => '👕 אפשר גם להדפיס מילים ב{name} על חולצה (ראו למטה)',
+        'goods_sub' => 'לראות את העיצוב ←',
+        'goods_lede' => 'בחרו מילים מתוך {w} המילים ב{name} — הן יודפסו באותו הגופן שבמפה.',
+        'goods_peek' => '👕 את המילים של השפה הזאת אפשר גם להדפיס על חולצה (למטה)',
+        'goods_title_n' => 'ללבוש שפה שמדברים בה כ־{n} אנשים.',
+        'goods_note' => 'את העיצוב מנסים בעמוד של החנות השותפה; מחליטים אם להזמין אחרי שרואים.',
         'open_app_wm' => 'לפתוח את Word Map האינטראקטיבית ←',
         'open_app_hm' => 'לפתוח את Han Map האינטראקטיבית ←',
         'related' => 'שפות להשוואה',
@@ -1820,9 +1907,11 @@ const SEO_T = [
         'where' => 'Maeneo inakozungumzwa',
         'open_app' => 'Fungua {name} kwenye ramani shirikishi →',
         'goods_title' => 'Vaa lugha hii',
-        'goods_sub' => 'Tazama muundo wa fulana ya {name} (bure) →',
-        'goods_lede' => 'Chagua tu maneno unayopenda — huchapishwa kwa fonti ile ile ya ramani.',
-        'goods_peek' => '👕 Maneno ya {name} yanaweza pia kuchapishwa kwenye fulana (tazama chini)',
+        'goods_sub' => 'Tazama muundo →',
+        'goods_lede' => 'Chagua tu maneno unayopenda kati ya maneno {w} ya {name} — huchapishwa kwa fonti ile ile ya ramani.',
+        'goods_peek' => '👕 Maneno ya lugha hii yanaweza pia kuchapishwa kwenye fulana (chini)',
+        'goods_title_n' => 'Vaa lugha inayozungumzwa na watu takriban {n}.',
+        'goods_note' => 'Muundo unajaribiwa kwenye ukurasa wa duka letu mshirika; unaamua kuagiza baada ya kuuona.',
         'open_app_wm' => 'Fungua Word Map shirikishi →',
         'open_app_hm' => 'Fungua Han Map shirikishi →',
         'related' => 'Lugha za kulinganisha',
@@ -3293,6 +3382,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-goods-title { display: block; font-size: 1.4rem; font-weight: 700;
   line-height: 1.25; margin: 0 0 .35rem; color: #2a2118; }
 .seo-goods-lede { display: block; color: #6b6053; font-size: .98rem; line-height: 1.55; }
+.seo-goods-note { display: block; color: #8a7f70; font-size: .82rem; line-height: 1.5; margin-top: .45rem; }
 .seo-goods-btn { display: inline-block; margin-top: .95rem; background: #1b2a44;
   color: #f4efe6; font-weight: 700; padding: .62rem 1.2rem; border-radius: 999px; }
 .seo-goods > a:hover .seo-goods-btn { background: #26385a; }

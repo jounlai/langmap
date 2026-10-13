@@ -1662,7 +1662,7 @@ WORDS.wine = {
     zh_wenyan_edu: ["葡萄酒", "pʰou˨˩ tʰou˨˩ tsɐu˧˥"],
     vi_han: ["葡萄酒", "ɓo˨˩ ɗaːw˨˩ tɨw˧˩˧"],
     cjy: ["葡萄酒", "pʰu˩ tʰau˩ tɕiəu˥˧"],
-    hsn: ["葡萄酒", "pu˩˧ tɒu˩˧ tɕiəu˦˩"],
+    hsn: ["葡萄酒", "pu˩˧ tau˩˧ tsiəu˦˩"], // was ["葡萄酒", "pu˩˧ tɒu˩˧ tɕiəu˦˩"] (vi dialect rules 2026-10-06)
     gan: ["葡萄酒", "pʰu˨˦ tʰau˨˦ tɕiu˨˩˧"],
     mnp: ["葡萄酒", "pu˨˩ tau˨˩ tsiu˨˩"],
     nan_te: ["葡萄酒", "pʰu˥˥ tʰo˥˥ tsiu˥˨"],
@@ -1773,7 +1773,7 @@ WORDS.wine = {
     mn_cn: ["ᠳᠠᠷᠠᠰᠤ", "darasu"],
     xal: ["чаһр", "tʃaɣr̩"],
     bxr: ["дарһан", "darhan"],
-    sce: ["putoujiu", "putəudʑiəu"], // was ["darasun", "darasuŋ"] (r29 fix 2026-10-02)
+    sce: ["putoujiu", "pʰutʰəwˈtɕju"], // was ["darasun", "darasuŋ"] (r29 fix 2026-10-02) // was ["putoujiu", "putəudʑiəu"] (vi dialect rules 2026-10-06)
     kpv: ["вина", "vina"],
     koi: ["вина", "vina"],
     udm: ["вина", "vina"],
@@ -1909,7 +1909,7 @@ WORDS.wine = {
     tcs: ["wain", "wain"],
     frr: ["win", "vɪn"],
     frr_amr: ["win", "vɪn"],
-    thr: ["दाखरस", "daːkʰras"],
+    thr: ["दाखरस", "daːkʰrəs"], // was ["दाखरस", "daːkʰras"] (vi dialect rules 2026-10-06)
     cbk: ["vino", "ˈbino"],
     bi: ["waen", "waen"],
     nag: ["angur ros", "aŋur ros"],

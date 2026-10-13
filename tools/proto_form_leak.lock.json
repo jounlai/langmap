@@ -874,5 +874,17 @@
     "proto": "p_sit",
     "ruling": "inherited",
     "note": "Old Burmese လိယ် lij 'wind' (Sagart et al. 2019 Sino-Tibetan database; en.wiktionary လေ etym.) continues the atlas's Proto-Sino-Tibetan *qV-lij. Ruled 2026-10-12 (r92)."
+  },
+  "sukh|one": {
+    "form": "nɯːŋ",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai-era Old Thai one continues the atlas's Proto-Tai one. Ruled 2026-10-13 (r94)."
+  },
+  "xng|good": {
+    "form": "sajin",
+    "proto": "pmng",
+    "ruling": "inherited",
+    "note": "Middle Mongol sayin 'good' continues the atlas's Proto-Mongolic good. Ruled 2026-10-13 (r94)."
   }
 }

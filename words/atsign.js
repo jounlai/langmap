@@ -318,7 +318,7 @@ WORDS.atsign = {
 
     pt_ao: ["arroba", "ɐˈʁɔβɐ"],
     pt_mz: ["arroba", "ɐˈʁɔβɐ"],
-    pt_mo: ["arroba", "ɐˈʁɔβɐ"],
+    pt_mo: ["arroba", "ɐˈʁoβɐ"],
     pt_cv: ["arroba", "ɐˈʁɔβɐ"],
 
     ar_sy: ["آت", "ʔaːt"],

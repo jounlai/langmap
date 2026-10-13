@@ -269,7 +269,7 @@ WORDS.rice = {
     kbd: ["прунж", "prunʒ"],
     kg: ["loso", "loso"],
     kha: ["khaw", "kʰaw"],
-    ki: ["mũceere", "motʃɛːrɛ"],
+    ki: ["mũceere", "motʃɛːɾɛ"],
     kjj: ["ппарынцӏ", "pːarɨntsʼ"],
     ko_jeju: ["ᄊᆞᆯ", "s͈ʌl"],
     ko_mid: ["ᄡᆞᆯ", "psʌl"],
@@ -883,6 +883,7 @@ WORDS.rice = {
     olk: ["arrpo", "arpo"],
     mra: ["juuk", "juːk"],
     kmc: ["qɐu31", "qɐu˧˩"],
-    ddo: ["пулав", "pulaw"]
+    ddo: ["пулав", "pulaw"],
+    ses: ["ŋaari", "ŋaːri"]
   }
 };

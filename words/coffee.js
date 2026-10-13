@@ -999,7 +999,7 @@ WORDS.coffee = {
     chr: ["ᎧᏫ", "kʰaːhw̥ĩ"], // was ["ᎧᏫ", "kahwi"] (vi dialect rules 2026-10-06)
     mzn: ["قهوه", "ɢæhˈve"],
     anp: ["कॉफी", "kɔfiː"],
-    pnb: ["کافی", "kɑːfiː"],
+    pnb: ["کافی", "kaːfiː"], // was ["کافی", "kɑːfiː"] (vi dialect rules 2026-10-06)
     zza: ["qahwe", "qahˈwe"],
     egl: ["cafà", "kaˈfa"],
     pdt: ["Koffe", "ˈkɔfə"],

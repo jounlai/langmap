@@ -207,6 +207,9 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    izz: "vig",
+    mtq: "mult",
+    pwo: "mult",
     tsz: "vig",
     urh: "sub",
     car: "vig",
@@ -931,10 +934,13 @@ WORDS.n99 = {
     }
   },
   data: {
+    izz: ["ụkporo ẹno l'iri lẹ tete", "ʊkpoɾo ɛnɔ liɾi lɛ tete"],
+    mtq: ["chỉn mươl chỉn", "cin mɨəl cin"],
+    pwo: ["ခွံၫဆံၫခွံၫ", "kʰwi sʰi kʰwi"],
     urh: ["ọvo nuro vwẹ ujori", "ɔvo nuɾo βwɛ udʒoɾi"],
     car: ["okupaʼen-kariʼna ituʼponaka ainapatoro ituʼponaka okupaʼen-toʼima", "okupaʔen kaɾiʔna ituʔponaka ainapatoɾo ituʔponaka okupaʔen toʔima"],
     kpe: ["buu lɔ́ɔlu mɛi náaŋ kao lɔ́ɔlu mɛi náaŋ", "buː lɔ́ːlu mɛi náːŋ kao lɔ́ːlu mɛi náːŋ"],
-    hui: ["pira dirani dira", "piɾa diɾani diɾa"],
+    hui: ["pira dirani dira", "pira dirani dira"], // was ["pira dirani dira", "piɾa diɾani diɾa"] (vi dialect rules 2026-10-06)
     dag: ["kɔbigayinika", "kɔbiɡajinika"],
     swb: ["tuswini na shendra", "tuswini na ʃendɾa"],
     nhx: ["noventa y nueve", "noˈbenta i ˈnwebe"],
@@ -964,7 +970,7 @@ WORDS.n99 = {
     xed: ["təmbay mbsak təmbay mida", "təmbaj mbsak təmbaj mida"],
     xal: ["йирн йисн", "jirn̩ jisn"],
     wls: ["hivagofulu ma hiva", "hivaŋofulu ma hiva"],
-    usp: ["junmuchʼ bʼelejlajuj", "hunmutʃʼ ɓelexlaxux"],
+    usp: ["junmuchʼ bʼelejlajuj", "χunmutʃʼ ɓeleχlaχuχ"], // was ["junmuchʼ bʼelejlajuj", "hunmutʃʼ ɓelexlaxux"] (vi dialect rules 2026-10-06)
     udm: ["укмыстон укмыс", "ukmɨston ukmɨs"],
     tyv: ["тозан тос", "tozan tos"],
     tvl: ["iva sefulu iva", "iva sefulu iva"],
@@ -1018,7 +1024,7 @@ WORDS.n99 = {
     nn: ["nittini", "ˈnɪtːiˌniː"],
     nmf: ["hangchikoda chiko", "haŋtʃikoda tʃiko"],
     nij: ["jalatien puluh jalatien", "dʒalatien puluh dʒalatien"],
-    ngu: ["napoajli huan majtlactli huan chicnahui", "napoahli wan mahtɬaktɬi wan tʃiknawi"],
+    ngu: ["napoajli uan majtlaktli uan chiknaui", "napoahli wan mahtɬaktɬi wan tʃiknawi"], // was ["napoajli huan majtlactli huan chicnahui", "napoahli wan mahtɬaktɬi wan tʃiknawi"] (vi dialect rules 2026-10-06)
     ng: ["omilongo omugoyi nomugoyi", "omiloŋɡo omuɡoji nomuɡoji"],
     new: ["गुइगु", "ɡuiɡu"],
     ndc: ["makumi mapfumbamwe nepfumbamwe", "makumi mapfumbamwe nepfumbamwe"], // was ["makumi mapfumbamwe na mapfumbamwe", "makumi mapfumbamwe na mapfumbamwe"] (vi dialect rules 2026-10-06)
@@ -1282,7 +1288,7 @@ WORDS.n99 = {
     nan: ["九十九", "kau˥˧ tsap˦ kau˥˧"],
     wuu_nb: ["九十九", "tɕiʏ˧˨˥ zəʔ˩˨ tɕiʏ˧˨˥"],
     wuu_sz: ["九十九", "tɕiʏ˥˩ zəʔ˧ tɕiʏ˥˩"],
-    hsn: ["九十九", "tɕiəu˦˩ sɹ̩˨˦ tɕiəu˦˩"],
+    hsn: ["九十九", "tɕiəu˦˩ ʂʅ˨˦ tɕiəu˦˩"], // was ["九十九", "tɕiəu˦˩ sɹ̩˨˦ tɕiəu˦˩"] (vi dialect rules 2026-10-06)
     cjy: ["九十九", "tɕiəu˥˧ səʔ˥˦ tɕiəu˥˧"],
     zh_lz: ["九十九", "tɕiou˦˦˨ ʂɨ˥˧ tɕiou˦˦˨"],
     zh_zz: ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"], // was ["九十九", "tɕiəu˥˧ ʂʅ˦˨ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
@@ -1411,7 +1417,7 @@ WORDS.n99 = {
     ang:      ["nigon and hundnigontig", "ˈniɣon and hundˈniɣontiɣ"],
     sa:       ["नवनवति", "nɐʋɐnɐʋɐti"],
     h_vedic:  ["नवनवति", "nɐʋɐnɐʋɐtí"],
-    hbo:      ["תשעים ותשעה", "tiʃʕiːm vətiʃʕɔː"],
+    hbo: ["תשעים ותשעה", "tiʃʕiːm vəθiʃʕɔː"], // was ["תשעים ותשעה", "tiʃʕiːm vətiʃʕɔː"] (vi dialect rules 2026-10-06)
     syc:      ["ܬܫܥܝܢ ܘܬܫܥܐ", "teʃʕiːn wteʃʕaː"],
     non:      ["níu ok níu tigir", "niːu ɔk niːu ˈtiɣir"],
     cu:       ["девѧть десѧтъ и девѧть", "devɛ̃tĭ desɛ̃tŭ i devɛ̃tĭ"],

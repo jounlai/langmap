@@ -210,7 +210,7 @@ WORDS.computer = {
     "hi": ["कंप्यूटर", "kəmpjuːʈəɾ"],
     "hil": ["kompyuter", "komˈpjutɛr"],
     "hr": ["računalo", "ˈratʃunalo"],
-    "hsn": ["电脑", "ti̯ẽ˦˥ lɒu̯˦˩"],
+    "hsn": ["电脑", "tiẽ˦˥ lau˦˩"],
     "ht": ["òdinatè", "ɔdinaˈtɛ"],
     "hu": ["számítógép", "ˈsaːmiːtoːɡeːp"],
     "hy": ["համակարգիչ", "hɑmɑkɑɾˈkʰitʃʰ"],
@@ -346,7 +346,7 @@ WORDS.computer = {
     "scn": ["computer", "komˈpjuter"],
     "sd": ["ڪمپيوٽر", "kəmpjuːʈər"],
     "sda": ["komputer", "komˈputər"],
-    "se": ["dihtor", "ˈtiːhtor"],
+    "se": ["dihtor", "ˈtihtor"],
     "si": ["පරිගණකය", "pəɾiɡəɳəkəjə"],
     "sk": ["počítač", "ˈpotʃiːtatʃ"],
     "sl": ["računalnik", "ratʃuˈnaːlnik"],
@@ -488,7 +488,7 @@ WORDS.computer = {
     fr_lu: ["ordinateur", "ɔʁdinatœʁ"],
     fr_cm: ["ordinateur", "ɔʁdinatœʁ"],
 
-    pt_mo: ["computador", "kõputɐˈdoɾ"],
+    pt_mo: ["computador", "kõputɐˈðoɾ"],
 
     ar_ma: ["حاسوب", "ħaːsuːb"],
     ar_tn: ["حاسوب", "ħaːsuːb"],

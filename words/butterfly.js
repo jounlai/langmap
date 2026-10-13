@@ -327,7 +327,7 @@ WORDS.butterfly = {
     shx: ["—", "—"],  // Reduplicative pi-pɔ.
     yue: ["蝴蝶", "wuː˨˩ tiːp˨"],  // The same 蝴蝶 as Mandarin, read wu4 dip6. Beida also records a second Guangzhou word, pɐŋ⁵⁵ʃa⁵³.
     gan: ["蝴蝶", "fu˦˥ tʰiɛt˥"],  // The same 蝴蝶 as Mandarin, in its regular Nanchang Gan reading.
-    hsn: ["蝴蝶", "xu˩˧ tʰie˨˦"],  // The same 蝴蝶 as Mandarin, in its regular Changsha Xiang reading.
+    hsn: ["蝴蝶", "fu˩˧ tʰie˨˦"],  // The same 蝴蝶 as Mandarin, in its regular Changsha Xiang reading.
     ain: ["ヘポラㇷ゚", "hepoɾap"],  // Tamura adds that a moth is apeetun-heporap 'fire-borrowing butterfly' or kunne-heporap 'night butterfly', and a butterfly proper can be tókap-heporap 'daytime butterfly', though normally just heporap.
     swi: ["ʔba3", "ʔba˧˧"],  // IDS's Sui is a different lect from the row's Miaocao village speech (it has qam4 'head' for the row's ku3, śi5 'four' for hi5), so the vowel is taken on trust.
     mmd: ["phuŋ6 pa4", "pʰuŋ˨˩˧ pa˨˦"],  // A two-syllable name; IDS's Maonan list matches this row almost item for item, both going back to 梁敏 1980.
@@ -710,7 +710,7 @@ WORDS.butterfly = {
     es_ve: ["mariposa", "maɾiˈposa"],
     ca_va: ["papallona", "papaˈʎona"],
     pt_cv: ["borboleta", "buɾbuˈletɐ"],
-    pt_mo: ["borboleta", "buɾbuˈletɐ"],
+    pt_mo: ["borboleta", "buɾβuˈletɐ"],
     en_brum: ["butterfly", "ˈbʊtəflɑɪ"],
     en_ph: ["butterfly", "ˈbʌtɚflaɪ"],
     hsn_hy: ["哈老婆婆", "xa˧˧ lau˧˧ po˩˩˨ po˩˩˨"],
@@ -794,7 +794,7 @@ WORDS.butterfly = {
     fro: ["papeillon", "papeˈʎõn"],
     ota: ["كلبك", "keleˈbek"],
     fa_clas: ["پروانه", "parwaːna"],
-    xct: ["ཕྱེ་མ་ལེབ", "pʰje ma leb"],
+    xct: ["ཕྱེ་མ་ལེབ", "pʰje ma lep"],
     cjy_lv: ["蝴蝶", "xu˦˦ tʰiəʔ˨˧"],
     yue_zs: ["蝴蝶", "hu˥˩ tip˧"],
     fr_lu: ["papillon", "papijɔ̃"],
@@ -901,6 +901,7 @@ WORDS.butterfly = {
     pura: ["*lȣ̈ppɜ", "lȣ̈ppɜ"],
     olk: ["imilam", "imilam"],
     zh_nj: ["蝴蝶儿", "xu˨˦ tʰiʔ˥ ɚ˨˦"],
-    zh_hf: ["蝴蝶", "xʉ˥˥ tʰiɐʔ˦"]
+    zh_hf: ["蝴蝶", "xʉ˥˥ tʰiɐʔ˦"],
+    enq: ["kuli kambilyo", "kuli kambiʎo"]
   },
 };

@@ -407,7 +407,7 @@ WORDS.cockcrow = {
     fr_lu: ["cocorico", "kɔkɔʁiko"],
     fr_cm: ["cocorico", "kɔkɔʁiko"],
     en_ng2: ["cock-a-doodle-doo", "ˌkɔkəduːdlˈduː"],
-    pt_mo: ["cocorocó", "kokoɾoˈkɔ"],
+    pt_mo: ["cocorocó", "kɔkɔɾɔˈkɔ"],
     es_bo: ["quiquiriquí", "kikiɾiˈki"],
     es_py: ["quiquiriquí", "kikiɾiˈki"],
     es_pa: ["quiquiriquí", "kikiɾiˈki"],

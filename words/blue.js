@@ -1233,7 +1233,7 @@ WORDS.blue = {
     lrc: ["کیو", "kiːw"],
     thr: ["निलो", "nilo"],
     hns: ["blaaw", "blaːw"],
-    sce: ["kugie", "kuɡiə"],
+    sce: ["kugie", "kʰuˈkjə"], // was ["kugie", "kuɡiə"] (vi dialect rules 2026-10-06)
     th_n: ["น้ำเงิน", "nam˦˥ ŋɤn˧"],
     blt: ["ꪵꪄꪫ", "kʰɛw˨"], // tone: unmarked high-class ꪄ = ˨˦, as ꪼꪎ sai˨˦ (2026-10-02) // was ["ꪵꪄꪫ", "kʰiaw˨˦"] (r31 fix 2026-10-02)
     nut: ["kheo", "kʰɛːw˧˧"],
@@ -1721,7 +1721,7 @@ WORDS.blue = {
     su: ["bulao", "bulao"],  // Donor is Dutch blauw (Coolsma 1913 says so outright for the variant spelling bilao). bulao is the everyday (basa loma) word and is explicitly the colour of the bright clear daytime sky in the su.wiktionary example. Answers to the sub-brief's Sundanese question: héjo is green only (Coolsma: 'HEDJO, groen'), NOT also blue, and bulao is not used for green. Rivals recorded: paul 'light blue' (Coolsma: 'PAOEL, lichtblauw'; su.wiktionary: used of colour seen at a distance, e.g. 'Langit lénglang katénjo paul'), which is the headword Sundanese Wikipedia uses; and biru (Coolsma: 'BIROE, blauw, nl. marine blauw, hemelsblauw, purperachtig'), which has no entry in su.wiktionary and is felt as the Indonesian word.
     sv: ["blå", "bloː"],  // blå vs grön.
     sw: ["buluu", "buluː"],  // Loan from English 'blue'; invariable, used as rangi ya buluu / -a buluu. Beside it Swahili has the Arabic loan samawati (< سَمَاوَات, pl. of سَمَاء 'sky'), glossed 'azure, light blue', and the inherited green term kijani (< jani 'leaf'). No inherited grue term: blue and green are both named from things (leaf / sky) or borrowed.
-    swi: ["śu1", "ɕu˩˩"],  // Sui: IDS gives the identical form śu.1 for BOTH blue and green. One cool-range term, no split.
+    swi: ["ȶhu1", "ȶʰu˩˩"],  // Sui: IDS gives the identical form śu.1 for BOTH blue and green. One cool-range term, no split. // was ["śu1", "ɕu˩˩"] (vi dialect rules 2026-10-06)
     szl: ["modry", "ˈmɔdrɨ"],  // Silesian modry against zielōny — the West Slavic modrý blue, not Polish niebieski.
     szy: ["sumilaway", "sumilawaj"],  // Class INFERRED: the same Sakizaya dictionary keeps green separate (langdaw 綠色 id 72feb20d-e309-f011-bd64-00155db40116, langdaway 綠色的), and the 撒奇萊雅語 學習詞表 gives langdaway for 綠色的 with no blue item at all. Only the -ay form sumilaway is attested; the row's red/white use the bare sumanah/sanglac, whose -ay counterparts sumanahay/sanglacay also exist in the same dictionary, so the mismatch is in the source, not introduced here. Frequency is low (1), so this is a thinly attested word.
     ta: ["நீலம்", "niːlam"],  // Tamil நீலம் against பச்சை.

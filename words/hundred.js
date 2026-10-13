@@ -197,7 +197,7 @@ WORDS.hundred = {
     // --- Semitic and the Near East ----------------------------------------
     psem: ["*miʾat-", "miʔat"],
     ar_qur: ["مائة", "miʔa"],
-    hbo: ["מאה", "meːˈʔaː"],
+    hbo: ["מאה", "meːˈʔɔː"],
     he_mis: ["מאה", "meˈʔa"],
     arc: ["ܡܐܐ", "maː"],
     syc: ["ܡܐܐ", "maː"],
@@ -341,7 +341,7 @@ WORDS.hundred = {
     pt_br: ["cem", "sẽj̃"],
     pt_ao: ["cem", "sẽj̃"],
     pt_mz: ["cem", "sẽj̃"],
-    pt_mo: ["cem", "sẽj̃"],
+    pt_mo: ["cem", "sɐ̃j̃"],
     pt_cv: ["cem", "sẽj̃"],
 
     ca_va: ["cent", "sent"],
@@ -719,7 +719,7 @@ WORDS.hundred = {
     nxq: ["xi", "ɕi˧"],
     mtq: ["tlăm", "tlam"],   // the cluster Vietnamese trăm lost
     mra: ["rɔy", "rɔj"],   // the Thai ร้อย, borrowed
-    bdq: ["hreng", "hreŋ"],
+    bdq: ["hrĕng", "hreŋ"],
     bru: ["culam", "kulam"],
     prk: ["yīeh", "ʑi̤ɛh"],
     // --- Devanagari, Arabic, Tibetan, Cyrillic and the other scripts -------
@@ -782,7 +782,7 @@ WORDS.hundred = {
     zh_cd: ["百", "pai˨˩"],
     zh_km: ["百", "pə˧˩"],
     zh_sc: ["百", "pe˨˩"],
-    hsn: ["百", "pe˨˦"],
+    hsn: ["百", "pɤ˨˦"],
     hsn_hy: ["百", "pe˨˨"],
     gan_yc: ["百", "paʔ˦"],
     gan_ja: ["百", "pa˧˧˦"],
@@ -969,7 +969,7 @@ WORDS.hundred = {
     nch: ["cien", "sjen"],
     nhw: ["cien", "sjen"],
     nhe: ["cien", "sjen"],
-    ngu: ["ciento", "ˈsjento"],
+    ngu: ["makuilpoajli", "makʷilpoahli"],
     gym: ["gre ketarike", "ɡɾe ketaɾike"],
     lzz: ["ოში", "oʃi"],
     hns: ["sau", "səu"],
@@ -1039,7 +1039,7 @@ WORDS.hundred = {
     bum: ["ntet", "ntet"],
     mlq: ["keme", "keme"],
     chf: ["cien", "sjen"],
-    usp: ["jun cient", "hun sjent"],
+    usp: ["jun cient", "χun sjent"],
     tdh: ["को सङ", "ko sʌŋ"],
     car: ["ainatone-kariʼna", "ainatone kaɾiʔna"],
     crn: ["anxɨ́te", "anˈʃɨte"],
@@ -1141,7 +1141,7 @@ WORDS.hundred = {
     na: ["aibu", "aibu"],
     khw: ["شور", "ʃor"],
     blr: ["ti31 roi31", "ti˧˩ roi˧˩"],
-    sce: ["be", "bə"],
+    sce: ["be", "pə"],
     cia: ["hacu", "hatʃu"],
     juc: ["tanggu", "taŋɡu"],
     akk: ["𒈨𒀜", "meʔat"],
@@ -1175,6 +1175,7 @@ WORDS.hundred = {
     kxv: ["pāsa kōḍe", "paːsa koːɖe"],
     xpr: ["sad", "sad"],
     tyz: ["pác", "paːk̚˧˥"],
-    chb: ["guehyzca", "ɡwehɨzka"]
+    chb: ["guehyzca", "ɡwehɨzka"],
+    xsr: ["ཟ་ཡི", "saji"]
   },
 };

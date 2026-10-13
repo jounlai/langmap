@@ -240,7 +240,7 @@ WORDS.sea = {
     ha: ["teku", "teːku"],
     hak_cn: ["海", "hoi˧˩"],
     hak_tw: ["海", "hoi˧˩"],
-    hbo: ["יָם", "jaːm"],
+    hbo: ["יָם", "jɔːm"],
     hil: ["dagat", "ˈdaɡat"],
     hit: ["𒀀𒊒𒈾𒀸", "arunas"],
     ho: ["davara", "davara"],
@@ -463,7 +463,7 @@ WORDS.sea = {
     sn: ["gungwa", "ɡuŋɡwa"],
     ts: ["lwandle", "lwandɮe"],
     dyu: ["kɔgɔji", "kɔɡɔdʒi"],
-    ar_lb: ["بحر", "baħɾ"],
+    ar_lb: ["بحر", "baħr"],
     nl_be: ["zee", "zeː"],
     es_ve: ["mar", "maɾ"],
     ca_va: ["mar", "maɾ"],
@@ -718,7 +718,7 @@ WORDS.sea = {
     xal: ["теңгс", "teŋɡs"],
     nhx: ["láma̱r", "ˈlamaːr"],
     otq: ["ñhonthe", "ɲ̥ontʰe"],
-    mxv: ["tyañuʼu", "caɲuʔu"],
+    mxv: ["tiañuʼu", "caɲuʔu"],
     hch: ["haramara", "haramara"],
     car: ["parana", "paɾana"],
     tiw: ["winga", "wiŋa"],
@@ -892,7 +892,7 @@ WORDS.sea = {
     en_my: ["sea", "siː"],
     sjd: ["ме̄рр", "meːrː"],
     vot: ["meri", "ˈmeri"],
-    sce: ["hai", "xai"],
+    sce: ["hai", "xɑj"],
     hop: ["paatuwaqatsi", "paːtɨwaqatsi"],
     zgh: ["ⵉⵍⵍ", "ilː"],
     bin: ["okun", "okũ"],
@@ -1093,6 +1093,7 @@ WORDS.sea = {
     men: ["gboya", "ɡboja"],
     hot: ["ŋgwêk", "ŋɡwek"],
     lij_t: ["mò", "mɔ"],
-    kry: ["ʕil", "ʕil"]
+    kry: ["ʕil", "ʕil"],
+    ki: ["iria", "iɾia"]
   }
 };

@@ -68,7 +68,7 @@ WORDS.poop = {
     fr_lu: ["caca", "kaka"],
     fr_cm: ["caca", "kaka"],
     en_ng2: ["poop", "puːp"],
-    pt_mo: ["cocó", "kuˈkɔ"],
+    pt_mo: ["cocó", "kɔˈkɔ"],
     lb: ["Kacka", "ˈkɑkaː"],
     gan_yc: ["屎", "ʂɨ˨˩˥"],
     gan_ja: ["屎", "sɿ˥˧"],
@@ -329,7 +329,7 @@ WORDS.poop = {
     ia: ["caca", "ˈkaka"],
     jbo: ["kalci", "ˈkalʃi"],
     cjy: ["屎", "sz̩˥˧"],
-    hsn: ["屎", "sz̩˦˩"],
+    hsn: ["屎", "ʂʅ˦˩"],
     gan: ["屎", "sɿ˨˩˧"],
     mai: ["टट्टी", "ʈəʈːiː"],
     hil: ["tae", "taʔe"],
@@ -377,7 +377,7 @@ WORDS.poop = {
     gmh: ["schîze", "ʃiːtsə"],
     sga: ["cac", "kak"],
     mga: ["cac", "kak"],
-    hbo: ["חרא", "ħaraːʔ"],
+    hbo: ["חרא", "ħaˈrɔːʔ"],
     hy_grab: ["աղբ", "ɑʁb"],
     ja_kg: ["うんち", "ɯ̃ɴtɕi̥"],
     ja_sd: ["うんち", "ɯ̃ɴtɕi"],
@@ -905,6 +905,7 @@ WORDS.poop = {
     swi: ["qe4", "qe˥˩"],
     obr: ["ခ္လိယ်း", "kʰlijh"],
     atb: ["hkyi", "kʰji˨˩"],
-    mcf: ["chimu", "tʃimu"]
+    mcf: ["chimu", "tʃimu"],
+    ng: ["omapumba", "omapumba"]
   },
 };

@@ -2086,7 +2086,7 @@ WORDS.foot = {
     sat: ["ᱡᱟᱝᱜᱟ", "dʒaŋɡa"],  // Campbell p.254 reads 'Janga. The foot, the leg.' — one entry, and the New Testament uses it for both while ᱡᱟᱝ stays the bone. Mundari and Ho take kaṭa instead of this root.
     sbp: ["iligulu", "iliɡulu"],  // Sangu amagulu are washed in John 13 and broken in John 19, and Mark 9:45 gives the class-5 singular iligulu, the same shape as this row's iliho.
     sc: ["pei", "pei"],  // As Italian. IPA is the plain reading of the orthography, following how this row's own hand cell writes manu as manu.
-    sce: ["kon", "kon"],  // kon covers both; the Dongxiang New Testament washes feet with kon in John 13:5 and breaks shigharai, the shin, in John 19:32.
+    sce: ["kon", "kʰon"],  // kon covers both; the Dongxiang New Testament washes feet with kon in John 13:5 and breaks shigharai, the shin, in John 19:32. // was ["kon", "kon"] (vi dialect rules 2026-10-06)
     scn: ["pedi", "ˈpɛdi"],  // pedi vs jamma/gamma.
     sco: ["fit", "fɪt"],  // As English. IPA is the plain reading of the orthography, following how this row's own hand cell writes haund as hɑːnd.
     sd: ["پير", "peːru"],  // پير vs ٽنگ, the same split as Urdu and Punjabi. IPA is the plain reading of the orthography, following how this row's own stone cell writes پٿر as ˈpətʰəru.
@@ -2169,7 +2169,7 @@ WORDS.foot = {
     th_n: ["ตี๋น", "tiːn˩˧"],  // Northern Thai keeps the inherited Tai tin that Central Thai demoted to a rude word, and the row's own ต๋า taː˩˧ and กิ๋น kin˩˧ give both the ๋ spelling and the ˩˧ its *t- initial requires.
     th_s: ["ตีน", "tiːn˥"],  // Southern Thai writes this class with no tone mark and reads it ˥ — ตา taː˥ and กิน kin˥ in this very row — so ตีน comes out tiːn˥ and not the parent's เท้า.
     thp: ["sqwaxt", "sqʷaxt"],  // The Thompson sketch's English index sends 'foot' to 'leg' and glosses the free noun s/qʷaxt as 'leg, foot', the same word Good wrote Squaxt in 1880; the row's blood cell peteleʼ is that sketch's petale?, so the orthography follows its own swúxwt.
-    thr: ["गोड़", "ɡoːɽ"],  // As Bhojpuri: गोड़ for the whole lower limb.
+    thr: ["टाँग", "ʈãːɡ"],  // As Bhojpuri: गोड़ for the whole lower limb. // was ["गोड़", "ɡoːɽ"] (vi dialect rules 2026-10-06)
     ti: ["እግሪ", "ʔɨɡri"],  // Class inferred from the Amharic cognate. IPA is the plain reading of the orthography, following how this row's own hand cell writes ኢድ as ʔid.
     tig: ["እግር", "ʔəɡər"],  // Littmann–Höfner, Wörterbuch der Tigrē-Sprache 386, glosses እግር 'Fuß — foot'; the only Tigre entries they gloss 'Bein' are a 'hip, leg' and a 'shank, leg, groin' word, so this one carries the limb as in Amharic and Tigrinya.
     tiv: ["nguhar", "ŋɡuhar"],  // nguhar covers the limb — the Tiv New Testament pairs it with uwegh for hand and uses its plural angahar for the legs broken at the cross.

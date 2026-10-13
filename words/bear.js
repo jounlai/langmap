@@ -63,6 +63,7 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    pwo: "inherited",
     bin: "unknown",
     bca: "unknown",
     pll: "inherited",
@@ -954,6 +955,7 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    pwo: ["ဖုၫထၫ့", "pʰɯ tʰaɴ"],
     bin: ["akpakomiza", "akpakomiza"],
     bca: ["tɕĩ", "tɕĩ˥˥"],
     pll: ["khrer", "kʰrer"],
@@ -1317,7 +1319,7 @@ WORDS.bear = {
     sv: ["björn", "bjœːɳ"],
     // Slavic: "the honey-eater".
     cu: ["медвѣдь", "medvædʲ"],
-    orv: ["медвѣдь", "medvʲedʲ"],
+    orv: ["медвѣдь", "medvʲedĭ"], // was ["медвѣдь", "medvʲedʲ"] (vi dialect rules 2026-10-06)
     be: ["мядзведзь", "mʲadzʲˈvʲedzʲ"],
     pl: ["niedźwiedź", "ˈɲɛdʑvʲɛtɕ"],
     hsb: ["mjedwjedź", "ˈmjɛdɥɛtʃ"], // was ["mjedwjedź", "ˈmjɛdwjɛtɕ"] (vi dialect rules 2026-10-06)
@@ -1656,7 +1658,7 @@ WORDS.bear = {
     cjy: ["熊", "ɕyuŋ˩"],
     cjy_lv: ["熊", "ɕyʌŋ˦˦"],
     cjy_xz: ["熊", "ɕyəŋ˧˩"], // was ["熊", "ɕyəŋ˩˩"] (r46 fix 2026-10-03)
-    hsn: ["熊", "ɕin˩˧"],
+    hsn: ["熊", "ɕioŋ˩˧"], // was ["熊", "ɕin˩˧"] (vi dialect rules 2026-10-06)
     hsn_hy: ["熊", "ɕin˩˩˨"],
     czh: ["熊", "ɕin˦˦"], // was ["熊", "ɕin˨˩˧"] (vi dialect rules 2026-10-06)
     czh_wy: ["熊", "ɕiɔm˩˩"], // was ["熊", "ɕiɔm˨˩˧"] (r29 fix 2026-10-02)
@@ -1808,7 +1810,7 @@ WORDS.bear = {
     hmn: ["dais", "dai˨˩"], // was ["dais", "tai˨˩"] (vi dialect rules 2026-10-06)
     vi_c: ["gấu", "ɣəw˨˦"], // was ["gấu", "ɣəw˧˥"] (vi dialect rules 2026-10-06)
     vi_s: ["gấu", "ɣəw˧˥"],
-    mtq: ["củ", "kuː"],
+    mtq: ["củ", "ku"], // was ["củ", "kuː"] (vi dialect rules 2026-10-06)
     bru: ["sacâu", "sakəw"],
     khw: ["اوہڅ", "ohts"],
     zza: ["heş", "hɛʃ"],
@@ -1913,7 +1915,7 @@ WORDS.bear = {
     oar: ["דבא", "dubbaː"],
     tig: ["ድብ", "dəbb"],
     tly: ["xərs", "xəɾs"],
-    bdq: ["chơgơu", "tʃəɡəu"],
+    bdq: ["chơgơu", "cəɡəw"], // was ["chơgơu", "tʃəɡəu"] (vi dialect rules 2026-10-06)
 
     // --- 2026-08-31 bear pass 2: last IDS/NEL rows (out_misc3.tsv)
     ess: ["кайӈа", "kajŋa"],

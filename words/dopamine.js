@@ -217,7 +217,7 @@ WORDS.dopamine = {
 
     pt_ao: ["dopamina", "dupɐˈminɐ"],
     pt_mz: ["dopamina", "dupɐˈminɐ"],
-    pt_mo: ["dopamina", "dupɐˈminɐ"],
+    pt_mo: ["dopamina", "dɔpɐˈminɐ"],
     pt_cv: ["dopamina", "dupɐˈminɐ"],
 
     ar_sy: ["دوبامين", "duːbaːˈmiːn"],

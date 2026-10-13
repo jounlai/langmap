@@ -129,26 +129,12 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 <?php endif; ?>
 
 
-<?php /* The goods hand-off, the same link the app's language modal carries.
-         It sits between the map and the word list, not below them: the words
-         are what goes on the shirt, and two earlier placements further down
-         the page were reported as "no link here" by the person who asked for
-         the feature. The photo is picked per language so 1,187 pages are not
-         the same picture; all three show the same product.
-         rel=nofollow because it is an outbound commercial link on an indexed
-         page, and the image is alt="" because the link's own text already
-         says where it goes. */
-$goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
-<div class="seo-goods">
-  <a href="<?= e(seo_goods_href($code, $lang, $ui)) ?>" rel="nofollow noopener" target="_blank">
-    <img src="<?= e($goods_photo) ?>" alt="" width="760" height="744" loading="lazy" decoding="async">
-    <span class="seo-goods-text">
-      <span class="seo-goods-title"><?= e(seo_t($ui, 'goods_title')) ?></span>
-      <span class="seo-goods-lede"><?= e(seo_t($ui, 'goods_lede')) ?></span>
-      <span class="seo-goods-btn"><?= e(seo_t($ui, 'goods_sub', ['name' => $name])) ?></span>
-    </span>
-  </a>
-</div>
+<?php /* Where the goods card used to sit. It moved below the word list
+         (2026-10-13, owner): a first-time visitor who came for the language met
+         a shop card before the words and read the page as an ad. This one line
+         keeps the offer findable here — the reason the card was moved UP twice
+         before — without selling ahead of the content. */ ?>
+<p class="seo-goods-peek"><a href="#seo-goods"><?= e(seo_t($ui, 'goods_peek', ['name' => $name])) ?></a></p>
 
 <section class="seo-section">
   <h2><?= e(seo_t($ui, 'words_heading', ['name' => $name, 'w' => (string) count($words)])) ?></h2>
@@ -187,6 +173,28 @@ $goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
   </div>
 
 </section>
+
+<?php /* The goods hand-off, the same link the app's language modal carries.
+         It sits right after the word list (2026-10-13): the reader has seen the
+         words first, so "wear these" follows from the page instead of
+         interrupting it. A one-line pointer above the list (.seo-goods-peek)
+         keeps it findable — two earlier placements further down were
+         reported as "no link here". The photo is picked per language so 1,187 pages are not
+         the same picture; all three show the same product.
+         rel=nofollow because it is an outbound commercial link on an indexed
+         page, and the image is alt="" because the link's own text already
+         says where it goes. */
+$goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
+<div class="seo-goods" id="seo-goods">
+  <a href="<?= e(seo_goods_href($code, $lang, $ui)) ?>" rel="nofollow noopener" target="_blank">
+    <img src="<?= e($goods_photo) ?>" alt="" width="760" height="744" loading="lazy" decoding="async">
+    <span class="seo-goods-text">
+      <span class="seo-goods-title"><?= e(seo_t($ui, 'goods_title')) ?></span>
+      <span class="seo-goods-lede"><?= e(seo_t($ui, 'goods_lede')) ?></span>
+      <span class="seo-goods-btn"><?= e(seo_t($ui, 'goods_sub', ['name' => $name])) ?></span>
+    </span>
+  </a>
+</div>
 
 <?php $sources = $meta['sources'] ?? []; if ($sources): ?>
 <section class="seo-section">

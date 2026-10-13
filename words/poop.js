@@ -590,7 +590,7 @@ WORDS.poop = {
     tll: ["tumi", "tumi"],
     bfa: ["korodo", "korodo"],
     ttj: ["amaazi", "amaːzi"],
-    loz: ["ñanda", "ɲanda"],
+    loz: ["ñanda", "ŋanda"],
     lue: ["tuji", "tudʒi"],
     nn: ["bæsj", "bæʃ"],
     pcd: ["brin", "bʁɛ̃"],
@@ -908,6 +908,7 @@ WORDS.poop = {
     mcf: ["chimu", "tʃimu"],
     ng: ["omapumba", "omapumba"],
     dje: ["toosi", "toːsi"],
-    tlh: ["qeQ", "qʰɛqχ"]
+    tlh: ["qeQ", "qʰɛqχ"],
+    bft: ["སྐྱག་པ", "kjakpa"]
   },
 };

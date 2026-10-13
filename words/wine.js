@@ -1506,7 +1506,7 @@ WORDS.wine = {
     awa: ["शराब", "ʃəraːb"],
     mag: ["शराब", "ʃəraːb"],
     anp: ["शराब", "ʃəraːb"],
-    hne: ["शराब", "ʃəraːb"],
+    hne: ["अंगूर के मंद", "əŋɡuːr ke mənd"], // was ["शराब", "ʃəraːb"] (vi dialect rules 2026-10-06)
     bra: ["शराब", "ʃəraːb"],
     bgc: ["शराब", "ʃəraːb"],
     mwr: ["शराब", "ʃəraːb"],
@@ -1763,7 +1763,7 @@ WORDS.wine = {
     ady: ["санэ", "saːna"],
     kbd: ["санэ", "sana"],
     uby: ["baqʼəsma", "baqʼəsma"],
-    kum: ["чагъыр", "tʃaʁɨr"],
+    kum: ["чагъыр", "tʃaʁɯr"], // was ["чагъыр", "tʃaʁɨr"] (vi dialect rules 2026-10-06)
     nog: ["шагыр", "ʃaɡɨr"],
     krc: ["чагъыр", "tʃaʁɯr"],
     cv: ["эрех", "eˈrex"],
@@ -1801,7 +1801,7 @@ WORDS.wine = {
     wal: ["woine eessa", "woine eːsːa"],
     xed: ["ima inabi", "ima inabi"],
     os: ["сӕн", "sæn"],
-    glk: ["شراب", "ʃarɒb"],
+    glk: ["شراو", "ʃarɒw"], // was ["شراب", "ʃarɒb"] (vi dialect rules 2026-10-06)
     bal: ["شراب", "ʃaraːb"],
     rhg: ["córab", "ʃɔrab"], // was ["šoraf", "ʃoraf"] (vi dialect rules 2026-10-06)
     gon: ["अंगुर पानकम", "aŋɡur paːnkam"],

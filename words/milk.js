@@ -778,7 +778,7 @@ WORDS.milk = {
     apw: ["ibeʼ", "ibeʔ"],
     meu: ["rata", "rata"],
     pon: ["milik", "milik"],
-    kos: ["titi", "titi"],
+    kos: ["mil", "mil"],
     kgp: ["leite", "lejte"],
     emp: ["jub̶a", "huˈɓa"],
     yap: ["milik", "milik"],

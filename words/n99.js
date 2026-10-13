@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    chf: "dec",
     tlh: "mult",
     izz: "vig",
     mtq: "mult",
@@ -935,6 +936,7 @@ WORDS.n99 = {
     }
   },
   data: {
+    chf: ["noventa y nueve", "noˈβenta i ˈnweβe"],
     tlh: ["HutmaH Hut", "xutʰmɑx xutʰ"],
     izz: ["ụkporo ẹno l'iri lẹ tete", "ʊkpoɾo ɛnɔ liɾi lɛ tete"],
     mtq: ["chỉn mươl chỉn", "cin mɨəl cin"],
@@ -1186,7 +1188,7 @@ WORDS.n99 = {
     mg: ["sivy amby sivifolo", "sivʲ ambʲ siviˈfulu"],
     vi_c: ["chín mươi chín", "cin˨˦ mɨəj˥ cin˨˦"], // was ["chín mươi chín", "tɕiːn˧˥ mɨəj˧ tɕiːn˧˥"] (vi dialect rules 2026-10-06)
     vi_s: ["chín mươi chín", "cɨn˧˥ mɨj˧ cɨn˧˥"], // was ["chín mươi chín", "cɨn˧˥ mɨəj˧ cɨn˧˥"] (vi dialect rules 2026-10-06)
-    awa: ["निन्नानबे", "ninːaːnbe"],
+    awa: ["निन्नान्बे", "ninːaːnbeː"], // was ["निन्नानबे", "ninːaːnbe"] (vi dialect rules 2026-10-06)
     rkt: ["নিরানব্বই", "niranɔbːoi"],
     mag: ["निनानवे", "ninaːnʋe"],
     mwr: ["निनांणू", "ninãːɳuː"],

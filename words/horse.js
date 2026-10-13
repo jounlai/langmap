@@ -202,7 +202,7 @@ WORDS.horse = {
     bal: ["اسپ", "asp"],
     ckb: ["ئەسپ", "ɛsp"],
     as: ["ঘোঁৰা", "ɡʱʊ̃ɹa"],
-    awa: ["घोड़ा", "ɡʱoɽaː"],
+    awa: ["घोड़ा", "ɡʱoːɽaː"],
     bho: ["घोड़ा", "ɡʱoɽaː"],
     bgc: ["घोड़ा", "ɡʱoɽaː"],
     anp: ["घोड़ा", "ɡʱoɽaː"],
@@ -1116,6 +1116,7 @@ WORDS.horse = {
     xqa: ["at", "at"],
     olk: ["athayarr", "at̪ajar"],
     slr: ["at", "ɑtʰ"],
-    lij_t: ["cavallu", "kaˈvalu"]
+    lij_t: ["cavallu", "kaˈvalu"],
+    mhy: ["kuda", "kuda"]
   }
 };

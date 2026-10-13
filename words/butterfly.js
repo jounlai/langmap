@@ -373,7 +373,7 @@ WORDS.butterfly = {
     wmt: ["pirrpirntipirnti", "pirpiɳʈipiɳʈi"],  // Reduplicated pirrpirnti-pirnti.
     com: ["ueyahkorooʼ", "uejahkoɾo"],  // The database gives the form in a Spanish-influenced orthography.
     mcf: ["podochued", "podotʃued"],  // The database also records tucudu.
-    nij: ["kakupu", "kakupuʔ"],  // Reduplicative ka-kupu — the same kupu root that Javanese and Indonesian reduplicate as kupu-kupu.
+    nij: ["kakupu", "kakupu"],  // Reduplicative ka-kupu — the same kupu root that Javanese and Indonesian reduplicate as kupu-kupu.
     dtp: ["kuhibambang", "kuhibambaŋ"],  // Contains the reduplicative bam-bang also seen in Acehnese bambang. Smith writes kuhibambaŋ; respelled ng, as in the row's own tombolog/bohuang orthography.
     shn: ["ၵၢပ်ႇမိူဝ်ႈ", "kaːp˩ mɤː˧˨"],  // a two-element compound; IDS records a Northern Shan variant with w- instead of m- in the second element
     guc: ["julirü", "huliɾɨ"],
@@ -902,6 +902,7 @@ WORDS.butterfly = {
     olk: ["imilam", "imilam"],
     zh_nj: ["蝴蝶儿", "xu˨˦ tʰiʔ˥ ɚ˨˦"],
     zh_hf: ["蝴蝶", "xʉ˥˥ tʰiɐʔ˦"],
-    enq: ["kuli kambilyo", "kuli kambiʎo"]
+    enq: ["kuli kambilyo", "kuli kambiʎo"],
+    acw: ["فراشة", "faraːʃa"]
   },
 };

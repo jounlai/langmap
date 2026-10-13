@@ -313,7 +313,7 @@ WORDS.sleep = {
     kea: ["durmi", "ˈduɾmi"],
     rom: ["sovel", "ˈsovel"],
     rmy: ["sovel", "soˈvel"],
-    pcm: ["slip", "slip"],
+    pcm: ["sleep", "slip"],
     tpi: ["slip", "slip"],
     ho: ["mahuta", "maˈhuta"],
     tcs: ["slip", "slip"],
@@ -927,7 +927,7 @@ WORDS.sleep = {
     // --- Fourth pass, from the comparative datasets
     efi: ["de", "dɛ"],
     kde: ["kugona", "kuɡona"],
-    rim: ["kurara", "kuɾaɾa"],
+    rim: ["uraa", "uɾaː"],
     sms: ["vuâđđed", "vuaðːed"],
     sgs: ["miegotė", "mʲɪɛɡoːteː"],
     nog: ["уйклав", "ujqlaw"],

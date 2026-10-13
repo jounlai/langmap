@@ -1122,12 +1122,12 @@ WORDS.bear = {
     cak: ["oso", "ˈoso"],
     yua: ["oso", "oso"],
     tzh: ["oso", "oso"],
-    tzo: ["oso", "oso"],
+    tzo: ["oso", "ʔoso"], // was ["oso", "oso"] (vi dialect rules 2026-10-06)
     dty: ["भालु", "bʱaːlu"],
     hif: ["bhaalu", "bʱaːluː"],
     awa: ["भालू", "bʱaːluː"],
     thr: ["भलुआ", "bʱəluaː"],
-    hne: ["भालू", "bʱaːlu"],
+    hne: ["भालू", "bʱaːluː"], // was ["भालू", "bʱaːlu"] (vi dialect rules 2026-10-06)
     ext: ["ossu", "ˈosu"],
     fra_jer: ["ourse", "urs"],
     frr_amr: ["beer", "beːr"],
@@ -1206,7 +1206,7 @@ WORDS.bear = {
     lol: ["ours", "urs"],
     bum: ["urs", "urs"],
     yap: ["bear", "beːr"],
-    srb: ["kembud", "kəmbud"],
+    srb: ["kombud", "kombud"], // was ["kembud", "kəmbud"] (vi dialect rules 2026-10-06)
     unr: ["bana", "bana"],
     hoc: ["balu", "balu"], // was ["bana", "bana"] (vi dialect rules 2026-10-06)
     pyu: ["trumay", "ʈumaj"],
@@ -1353,7 +1353,7 @@ WORDS.bear = {
     sc: ["ursu", "ˈursu"],
     scn: ["ursu", "ˈursu"],
     nap: ["urzo", "ˈurtsə"],
-    lmo: ["ors", "ors"],
+    lmo: ["ors", "urs"], // was ["ors", "ors"] (vi dialect rules 2026-10-06)
     pms: ["ors", "urs"],
     fur: ["ors", "ors"],
     lld: ["lors", "lors"],

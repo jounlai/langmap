@@ -143,7 +143,7 @@ WORDS.silk = {
     jv: ["sutra", "ˈsutrɔ"],
     su: ["sutra", "ˈsutra"],
     et: ["siid", "siːd"],
-    ps: ["ورېښم", "wreːˈʂəm"],
+    ps: ["ورېښم", "wreˈʂəm"],
     km: ["សូត្រ", "soːt"],
     eo: ["silko", "ˈsilko"],
     ady: ["данэ", "daːna"],

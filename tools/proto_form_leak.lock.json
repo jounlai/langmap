@@ -886,5 +886,17 @@
     "proto": "pmng",
     "ruling": "inherited",
     "note": "Middle Mongol sayin 'good' continues the atlas's Proto-Mongolic good. Ruled 2026-10-13 (r94)."
+  },
+  "ojp|blue": {
+    "form": "awo",
+    "proto": "p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese awo 'blue/green' (one grue word) continues the atlas's Proto-Japonic *awo. Ruled 2026-10-13 (r96)."
+  },
+  "ojp|green": {
+    "form": "awo",
+    "proto": "p_jpn",
+    "ruling": "inherited",
+    "note": "Old Japanese awo 'blue/green' (one grue word) continues the atlas's Proto-Japonic *awo. Ruled 2026-10-13 (r96)."
   }
 }

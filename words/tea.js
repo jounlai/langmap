@@ -1276,7 +1276,7 @@ WORDS.tea = {
     or: ["ଚା", "tʃaː"],
     ota: ["چای", "tʃaj"],
     pa: ["ਚਾਹ", "tʃaː˨˩"],
-    ps: ["چای", "tʃaːj"],
+    ps: ["چای", "tʃɑi"], // was ["چای", "tʃaːj"] (vi dialect rules 2026-10-06)
     pt: ["chá", "ʃa"],
     pt_br: ["chá", "ʃa"],
     ro: ["ceai", "tʃe̯aj"],

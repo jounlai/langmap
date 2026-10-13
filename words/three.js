@@ -481,7 +481,7 @@ WORDS.three = {
     rom: ["trin", "trin"],
     rmy: ["trin", "trin"],
     rmf: ["trin", "trin"],
-    pcm: ["tri", "tri"],
+    pcm: ["three", "tri"],
     tpi: ["tripela", "tripɛla"],
     ho: ["toi", "toi"],
     kmh: ["omŋal nokom", "omŋal nokom"],

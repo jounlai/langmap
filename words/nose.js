@@ -340,7 +340,7 @@ WORDS.nose = {
     rom: ["nakh", "nakʰ"],
     rmy: ["nakh", "nakʰ"],
     rmf: ["nakh", "nakʰ"],
-    pcm: ["nose", "noːs"],
+    pcm: ["nose", "nos"],
     tpi: ["nus", "nus"],
     tcs: ["nos", "nos"],
     pis: ["nos", "nos"],
@@ -787,7 +787,7 @@ WORDS.nose = {
     ssw: ["likhala", "likʰala"],
     ts: ["nhompfu", "nʱompfu"],
     mxc: ["mhino", "mʱino"],
-    loz: ["ngo", "ŋo"],
+    loz: ["ngo", "ŋɡo"],
     // --- West Africa — Manding nun, Igboid imi, Gbe ŋɔti ----------------
     kao: ["nun", "nũ"],
     mwk: ["nun", "nũ"],

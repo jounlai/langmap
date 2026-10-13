@@ -323,7 +323,7 @@ WORDS.daughter = {
 
     // --- Turkic — the word is "girl" everywhere --------------------------
     ug: ["قىز", "qiz"],
-    tk: ["gyz", "ɡɯz"],
+    tk: ["gyz", "ɡɯːz"],
     gag: ["kız", "kɯz"],
     crh: ["qız", "qɯz"],
     kaa: ["qız", "qɯz"],
@@ -415,7 +415,7 @@ WORDS.daughter = {
     mai: ["बेटी", "beʈiː"],
     mag: ["बेटी", "beʈiː"],
     anp: ["बेटी", "beʈiː"],
-    awa: ["बेटी", "beʈiː"],
+    awa: ["बेटी", "beːʈiː"],
     bra: ["बेटी", "beʈiː"],
     mwr: ["बेटी", "beːʈiː"],
     hne: ["बेटी", "beʈiː"],

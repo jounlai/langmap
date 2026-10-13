@@ -340,7 +340,7 @@ WORDS.person = {
     kry: ["admi", "admi"],
     ksh: ["Minsch", "mɪnʃ"],
     ksw: ["ပှၤ", "pɣa̤˨˩"],
-    kum: ["адам", "ɑˈdɑm"],
+    kum: ["адам", "aˈdam"],
     kw: ["den", "deːn"],
     lad: ["persona", "perˈsona"],
     laj: ["dano", "dano"],

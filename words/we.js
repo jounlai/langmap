@@ -1051,7 +1051,7 @@ WORDS.we = {
     toj: "clusive",
     bzd: "clusive",
     cuk: "single",
-    chf: "single",
+    chf: "clusive", // route was single (vi dialect rules 2026-10-06)
     agu: "single",
     ixl: "single",
     wal: "single",
@@ -1274,7 +1274,7 @@ WORDS.we = {
     atb: ["nga-nhung / ngamoq", "ŋa˥˥n̥uŋ˥˥ / ŋa˥˥moʔ˥˥"],
     prk: ["eix / ix", "ʔeʔ / ʔiʔ"], // was ["—", "—"] (vi dialect rules 2026-10-06)
     slr: ["piser", "pʰisɤɹ"], // was ["biser", "biser"] (vi dialect rules 2026-10-06)
-    ybe: ["mɨs", "mɯs"],
+    ybe: ["mïs", "mɯs"], // was ["mɨs", "mɯs"] (vi dialect rules 2026-10-06)
     yuy: ["budas / buda", "budas / buda"], // was ["будас / буда", "budas / buda"] (r48 B fix 2026-10-03)
     mjg: ["buda", "puda"],
     sce: ["matan / bijien", "mɑˈtʰɑn / piˈtɕjən"], // was ["matan / bijien", "matan / pitɕiən"] (vi dialect rules 2026-10-06)
@@ -1454,7 +1454,7 @@ WORDS.we = {
     qu: ["ñuqanchik / ñuqayku", "ɲuˈqantʃik / ɲuˈqajku"],
     zh_db: ["咱们 / 我们", "tsan˧˥ mən / wɔ˨˩˦ mən"],
     zh_sc: ["我们", "ŋo˥˧ mən˨˩"],
-    cdo: ["我各侬", "ŋuai˧˧ kɔʔ˨˦ nøyŋ˥˧"],
+    cdo: ["我各侬", "ŋuai˧˧ koʔ˨˦ nøyŋ˥˧"], // was ["我各侬", "ŋuai˧˧ kɔʔ˨˦ nøyŋ˥˧"] (vi dialect rules 2026-10-06)
     bo: ["ང་ཚོ", "ŋa˩˧tsʰo˥"],
     bft: ["ང་ཏང", "ŋataŋ"],
     lbj: ["ང་ཞ", "ŋaʒa"],
@@ -1503,7 +1503,7 @@ WORDS.we = {
     ku: ["em", "ɛm"],
     ckb: ["ئێمە", "eːmæ"], // was ["ئێمە", "eːme"] (vi dialect rules 2026-10-06)
     sdh: ["ئیمە", "iːme"],
-    ps: ["موږ", "muːʐ"],
+    ps: ["موږ", "muʐ"], // was ["موږ", "muːʐ"] (vi dialect rules 2026-10-06)
     az: ["biz", "biz"],
     azb: ["بیز", "biz"],
     gag: ["biz", "biz"],
@@ -1979,7 +1979,7 @@ WORDS.we = {
     ttj: ["itwe", "itwe"],
     nyo: ["itwe", "itwe"],
     luy: ["efwe", "efwe"],
-    ssw: ["tsine", "tsíne"],
+    ssw: ["tsine", "tsiné"], // was ["tsine", "tsíne"] (vi dialect rules 2026-10-06)
     nbl: ["thina", "tʰina"],
     nd: ["thina", "tʰina"],
     nso: ["rena", "rena"],
@@ -2073,7 +2073,7 @@ WORDS.we = {
     yap: ["gadaed / gamaed", "ɡadaːd / ɡamaːd"], // was ["gadaed / gamaed", "ɡadɛːd / ɡamɛːd"] (vi dialect rules 2026-10-06)
     chk: ["kich / áám", "kitʃ / aːm"],
     gbm: ["हम", "ham"],
-    kfy: ["हम", "ham"],
+    kfy: ["हम", "həm"], // was ["हम", "ham"] (vi dialect rules 2026-10-06)
     xnr: ["अहां", "əɦãː"], // was ["असां", "əsãː"] (vi dialect rules 2026-10-06)
     hr: ["mi", "mi"],
     bs: ["mi", "mi"],
@@ -2281,7 +2281,7 @@ WORDS.we = {
     toj: ["keʼntik / keʼntikon", "keʔntik / keʔntikon"],
     bzd: ["seʼ / saʼ", "seʔ / saʔ"],
     cuk: ["anmar", "anmar"],
-    chf: ["noʼonla", "noʔonla"],
+    chf: ["noʼonla / noʼon tʼokob", "noʔonla / noʔon tʼokob"], // was ["noʼonla", "noʔonla"] (vi dialect rules 2026-10-06)
     agu: ["oʼ", "oʔ"],
     ixl: ["oʼ", "oʔ"],
     mam: ["aqoʼ", "aˈqoʔ"],
@@ -2370,7 +2370,7 @@ WORDS.we = {
     wic: ["—", "—"],
     wuu_jh: ["我郎", "ɑ˥˧˥ lɑŋ˧˩˧"], // was ["我郎", "ŋu˩˧ laŋ˩˧"] (r48 fix 2026-10-03)
     wuu_jx: ["伲", "ɲi˨˧"],
-    yue_zs: ["我哋", "ŋɔ˩˧ tei˨"],
+    yue_zs: ["我哋", "ŋɔ˨˩˧ ti˧˧"], // was ["我哋", "ŋɔ˩˧ tei˨"] (vi dialect rules 2026-10-06)
     zh_cd: ["我们", "ŋo˥˧ mən"],
     zh_hf: ["我们", "uə˨˦ mən"],
     zh_kf: ["咱 / 俺", "tsan˦˨ / an˥˧"],

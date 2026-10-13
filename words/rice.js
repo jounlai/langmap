@@ -340,7 +340,7 @@ WORDS.rice = {
     mmd: ["u5", "u˦˦"],
     fr_class: ["riz", "ri"],
     orh: ["kandu", "kandu"],
-    tzo: ["aros", "aros"],
+    tzo: ["aros", "ʔaros"],
     swi: ["ʔau4", "ʔau˥˩"],
     rtm: ["raisi", "raisi"],
     kek: ["aros", "aros"],
@@ -744,7 +744,7 @@ WORDS.rice = {
     ja_kanbun: ["米", "kome"],
     ja_chu: ["米", "kome"],
     ojp: ["米", "kəmey"],
-    p_jpn: ["*kəmay", "kəmay"],
+    p_jpn: ["*kəmay", "kəmaj"],
     he_mis: ["אורז", "ʔoˈrez"],
     gan_yc: ["米", "mi˨˩"],
     gan_fz: ["米", "mi˧˥"],
@@ -884,6 +884,7 @@ WORDS.rice = {
     mra: ["juuk", "juːk"],
     kmc: ["qɐu31", "qɐu˧˩"],
     ddo: ["пулав", "pulaw"],
-    ses: ["ŋaari", "ŋaːri"]
+    ses: ["ŋaari", "ŋaːri"],
+    bft: ["འབྲས", "bras"]
   }
 };

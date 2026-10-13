@@ -93,6 +93,8 @@ WORDS.sugar = {
     sw: "Sukari — kitu chenye fuwele na ladha tamu kinachotumika kutia utamu katika chakula na vinywaji. Neno la kawaida la nyumbani: si kivumishi 'tamu', si asali wala shira, si maana ya kikemia (sukari ya damu), wala si mwanzi wa sukari.",
   },
   family: {
+    nuf: "tang", // r96: ɕɔ̃˧˥dɔ˧˥ = Chinese 砂糖 shātáng (suntb Bijiang Nusu)
+    bto: "assukkar",
     dje: "sharkara",
     swg: "sharkara",
     pcm: "sharkara",
@@ -854,6 +856,7 @@ WORDS.sugar = {
     other: { color: "#6b7280", emoji: "🌾", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
   data: {
+    bto: ["asukar", "aˈsukar"],
     dje: ["sukar", "sukar"],
     swg: ["Zucker", ""],
     pcm: ["sugar", ""],
@@ -1605,5 +1608,6 @@ WORDS.sugar = {
     zh_km: ["糖", "tʰᴀ̃˧˩"], // was ["糖", "tʰaŋ˧˩"] (r48 fix 2026-10-03)
     nan_xm: ["糖", "tʰŋ̍˨˦"],
     io: ["sukro", "ˈsukro"],
+    nuf: ["ɕɔ̃35dɔ35", "ɕɔ̃˧˥dɔ˧˥"]
   },
 };

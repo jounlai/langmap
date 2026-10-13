@@ -437,7 +437,7 @@ WORDS.computer = {
     "ar_jo": ["كمبيوتر", "kambjuːtar"],
     "ar_ps": ["كمبيوتر", "kambjuːtar"],
     "av": ["компьютер", "kɐmˈpjuter"],
-    "awa": ["कंप्यूटर", "kəmpjuːʈəɾ"],
+    "awa": ["कंप्यूटर", "kəmpjuːʈər"],
     "ayl": ["كمبيوتر", "kambjuːtar"],
     "bar": ["Rechna", "ˈrɛçnɐ"],
     "bho": ["कंप्यूटर", "kəmpjuːʈəɾ"],

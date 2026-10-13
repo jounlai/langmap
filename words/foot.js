@@ -1363,7 +1363,7 @@ WORDS.foot = {
     cdo: ["跤", "kʰa˥˥"],  // Eastern Min patterns with Southern Min: 跤 covers the limb, 跤腿 specifies the leg.
     ce: ["ког", "koɡ"],  // ког covers the lower limb.
     ceb: ["tiil", "tiˈʔil"],  // Wolff has tiil 'foot' and batíis 'leg, esp. the lower leg' as separate headwords, so Cebuano splits the way Tagalog does even though tiil reaches the leg too.
-    cgg: ["ekigyere", "ekiɡjere"],  // Rukiga shares one Bible with Runyankore, which washes ebigyere and breaks amaguru; gy is written as this row writes ekyoma, not as Rukiga phonology would.
+    cgg: ["ekigyere", "etʃiɡjere"],  // Rukiga shares one Bible with Runyankore, which washes ebigyere and breaks amaguru; gy is written as this row writes ekyoma, not as Rukiga phonology would. // was ["ekigyere", "ekiɡjere"] (vi dialect rules 2026-10-06)
     ch: ["addeng", "ˈaddeŋ"],  // The Chamorro Bible washes y adeng y disipulo at John 13:5 and breaks y adengñija at John 19:31-32, with tolang 'bone' at John 19:36 as the control, so one word carries the limb; påtas, the only rival, is the animal's foot (cuatro patasñija 'four-footed beasts', Acts 10:12).
     chb: ["quihicha", "kihitʃa"],  // Muisca quihicha 'foot', separate from the leg word.
     chf: ["ok", "ok"],  // Tabasco Chontal washes yoc at John 13:5 and breaks yoc at John 19:32, one word where the Chol row beside it switches to aʼ.
@@ -1691,13 +1691,13 @@ WORDS.foot = {
     kao: ["sin", "sin"],  // Monteil's 1915 Khassonké vocabulary heads one entry, Sinʼ (-go) 'jambe, patte, pied', so one word covers the whole limb.
     kaw: ["ꦱꦸꦏꦸ", "suku"],  // Zoetmulder OJED 1844 glosses suku 'foot (also of a mountain), leg' in one entry — one word for the limb, as Old Sundanese suku already is on this map. jöṅ is the elevated 'at the feet of' word and does not reach the leg.
     kbd: ["лъакъуэ", "ɬaqʷa"],  // Class inferred from the Adyghe parallel.
-    kbp: ["nɩŋgbaŋaɣ", "nɪŋɡbaŋaɣ"],  // nɩŋgbaŋaɣ is glossed both jambe and pied in the 1999 Kabiyè-French dictionary, where Koelle's 1854 list still had a separate foot word kūare.
+    kbp: ["naŋgbaŋaɣ", "naŋɡbaŋaɣ"],  // nɩŋgbaŋaɣ is glossed both jambe and pied in the 1999 Kabiyè-French dictionary, where Koelle's 1854 list still had a separate foot word kūare. // was ["nɩŋgbaŋaɣ", "nɪŋɡbaŋaɣ"] (vi dialect rules 2026-10-06)
     kca: ["кур", "kur"],  // кур covers both.
     kde: ["likambatu", "likambatu"],  // Chimakonde splits them, against the Swahili pattern: Johnson's 1923 Newala vocabulary has likambatu for the foot and lidodo for the leg.
     kdt: ["ɟɯːŋ", "ɟɯːŋ"],  // Prasert's Kui dictionary confines ɟɯːŋ to the foot and to the legs of inanimate objects and gives ŋkhɑ̤ŋ for the leg of people and animals, on which the calf tɑːn ŋkhɑ̤ŋ is built.
     kea: ["pé", "pɛ"],  // Follows Portuguese. IPA is the plain reading of the orthography, following how this row's own hand cell writes mon as mɔ̃.
     kek: ["oq", "oq"],  // WOLD splits them, though the Tzotzil cognate okol covers both. IPA is the plain reading of the orthography, following how this row's own hand cell writes ruqʼ as ruqʼ.
-    ker: ["kampar", "kampar"],  // Kera kampar is washed in John 13 and broken in John 19, with kəskəŋ standing as the bone at John 19:36 — this row's own bone cell.
+    ker: ["kampar", "kampaɾ"],  // Kera kampar is washed in John 13 and broken in John 19, with kəskəŋ standing as the bone at John 19:36 — this row's own bone cell. // was ["kampar", "kampar"] (vi dialect rules 2026-10-06)
     ket: ["киʼсь", "kʲiʔɕ"],  // киʼсь answers both concepts in NorthEuraLex; буль is the other leg word.
     kfa: ["ಕಾಲ್", "kaːl"],  // DEDR 1479 glosses Koḍ. ka·lï 'leg, foot, quarter'. Kolipakam's fieldwork answers 'foot' with aṅgāl, the flat of the leg, but that is Kodava's sole word beside kālï, not a replacement for it.
     kfr: ["પગ", "pəɡ"],  // Kachchhi takes the Gujarati પગ, not Sindhi پيرُ, and the Gujarati one-word pattern with it.
@@ -2126,7 +2126,7 @@ WORDS.foot = {
     spp: ["tɔɔgɔ", "tɔːɡɔ"],  // one word for the limb: the Supyire New Testament washes feet and breaks legs with the same tooyi.
     sq: ["këmbë", "kəmbə"],  // Albanian këmbë is one word for the whole lower limb.
     sr: ["нога", "ˈnoɡa"],  // As Croatian: нога covers the lower limb, стопало is the anatomical foot.
-    srb: ["jeng", "dʒeŋ"],  // Ramamurti glosses ʤeːŋ-ən 'leg, foot' in one entry and builds toe, sole, heel, ankle and knee on it; ayang is the bone. Length is dropped as this row already dropped it from his si:-n.
+    srb: ["jʼeng", "dʒʔeŋ"],  // Ramamurti glosses ʤeːŋ-ən 'leg, foot' in one entry and builds toe, sole, heel, ankle and knee on it; ayang is the bone. Length is dropped as this row already dropped it from his si:-n. // was ["jeng", "dʒeŋ"] (vi dialect rules 2026-10-06)
     srh: ["pedh", "peð"],  // Shaw's Ghalchah vocabulary glosses the one word 'leg, foot' and answers the leg slots beside it with Persian lang and paichah, as Wakhi пуд does. The vowel is the row's plain e: Shaw writes ⟨ii⟩ for /ɵ/ in dhiist and riisht and ⟨e⟩ here.
     srm: ["fútu", "fútu"],  // The English-derived foot covers the whole limb — the mirror image of Tok Pisin's lek.
     srn: ["futu", "futu"],  // Class inferred from Saramaccan. IPA is the plain reading of the orthography, following how this row's own hand cell writes anu as anu.

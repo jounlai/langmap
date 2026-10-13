@@ -160,7 +160,7 @@ WORDS.honey = {
     yi: ["האָניק", "ˈhɔnik"],
 
     // --- Balto-Slavic and Indo-Iranian: the *médʰu branch --------------
-    prg: ["meddo", "medːo"],
+    prg: ["meddo", "medo"],
     lt: ["medus", "mʲɛˈdʊs"],
     lv: ["medus", "ˈmɛdus"],
     cu: ["медъ", "medŭ"],
@@ -423,7 +423,7 @@ WORDS.honey = {
 
     // --- Romance and Albanian — Latin mel, and *mélit in Albanian ----------
     it_dan: ["miele", "ˈmjɛːle"],
-    lmo: ["mel", "mɛl"],
+    lmo: ["mel", "meːl"],
     pms: ["amel", "aˈmel"],
     lld: ["mel", "mɛl"],
     egl: ["mêl", "meːl"],
@@ -713,7 +713,7 @@ WORDS.honey = {
     bgc: ["शहद", "ʃəɦəd"],
     ch: ["miet", "miet"],
     dyu: ["li", "li"],
-    hne: ["मंधरस", "məndʱəɾəs"],
+    hne: ["मंधरस", "məndʱərəs"],
     hns: ["madh", "madʱ"],
     lbj: ["རང་རྩི", "raŋ tsi"],
     luo: ["mor kich", "mor kitʃ"],
@@ -871,7 +871,7 @@ WORDS.honey = {
     kfy: ["मौ", "mɔu"],
     jam: ["oni", "ɔni"],
     dje: ["yu", "ju"],
-    kbp: ["tʋŋ nʋm", "tʊŋ nʊm"],
+    kbp: ["tʋŋ num", "tʊŋ num"],
     nbl: ["iliju", "ilidʒu"],
     sus: ["kumi", "kumi"],
     toi: ["buci", "butʃi"],
@@ -944,7 +944,7 @@ WORDS.honey = {
     nzi: ["wolɛ", "wolɛ"],
     kqn: ["buki", "buki"],
     mev: ["zɔ́ɔ́ nyɔ́nɔ́", "zɔ́ː ɲɔ́nɔ́"],
-    tzo: ["ajapom", "ahapom"],
+    tzo: ["ajapom", "ʔahapom"],
     zap: ["dxiña yaga", "dʒiɲa jaɡa"],
     cab: ["maba", "maba"],
     naq: ["danis", "danis"],
@@ -1062,7 +1062,7 @@ WORDS.honey = {
     thp: ["ƛ̓əxtmin", "tɬʼəxtmin"],
     roo: ["koisi ovi", "koisi oβi"],
     hop: ["momospala", "momospala"],
-    mhy: ["rio wani", "rio wani"],
+    mhy: ["riu wani", "riu wani"],
     dru: ["valu", "vaɭu"],
     kmc: ["mət212 taŋ212", "mət˨˩˨ taŋ˨˩˨"],
     bsk: ["mac̣híi", "maˈʈʂʰiː"],

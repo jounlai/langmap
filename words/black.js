@@ -194,8 +194,8 @@ WORDS.black = {
     // --- More Slavic --------------------------------------------------
     be: ["чорны", "ˈtʂornɨ"],
     rue: ["чорный", "ˈtʃornɨj"],
-    csb: ["czôrny", "ˈtʃɔrni"],
-    szl: ["czorny", "ˈtʂɔrnɨ"],
+    csb: ["czôrny", "ˈtʃɞrni"],
+    szl: ["czŏrny", "ˈtʂɔrnɪ"],
     dsb: ["carny", "ˈtsarnɨ"],
     hsb: ["čorny", "ˈtʃɔrnɨ"],
 
@@ -232,7 +232,7 @@ WORDS.black = {
     kg: ["ndombe", "ndombe"],
     lg: ["ddugavu", "dduɡavu"],
     rw: ["umukara", "umukara"],
-    rn: ["umukara", "umukara"],
+    rn: ["umukara", "umukaɾa"],
     ny: ["chakuda", "tʃakuda"],
     sn: ["tema", "tema"],
     st: ["ntšo", "ntsʰɔ"],
@@ -440,10 +440,10 @@ WORDS.black = {
     crs: ["nwar", "nwar"],
     pt_gw: ["pretu", "ˈpɾetu"],
     kea: ["pretu", "ˈpɾetu"],
-    cbk: ["negro", "ˈneɡro"],
+    cbk: ["negro", "ˈneɡɾo"],
     jam: ["blak", "blak"],
     bzj: ["blak", "blak"],
-    tcs: ["blak", "blak"],
+    tcs: ["blaik", "blaik"],
     pis: ["blak", "blak"],
     bi: ["blak", "blak"],
     bah: ["black", "blak"],
@@ -626,7 +626,7 @@ WORDS.black = {
     ie: ["nigri", "ˈniɡri"],
     vo: ["blägik", "blɛˈɡik"],
     tok: ["pimeja", "ˈpimeja"],
-    tlh: ["qIj", "qɪdʒ"],
+    tlh: ["qIj", "qʰɪdʒ"],
     jbo: ["xekri", "ˈxekri"],
 
     // --- Arabic dialects; Maghrebi uses a different root entirely -------

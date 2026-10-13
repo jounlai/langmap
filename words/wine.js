@@ -1382,7 +1382,7 @@ WORDS.wine = {
     jam: ["wain", "wain"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
     bah: ["wine", "waɪn"],
     bzj: ["wain", "wain"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06) // was ["wain", "waɪn"] (vi dialect rules 2026-10-06)
-    kri: ["wayn", "wain"],
+    kri: ["wayn", "wajn"], // was ["wayn", "wain"] (vi dialect rules 2026-10-06)
     pcm: ["wine", "waɪn"],
     hwc: ["wine", "waɪn"],
     tpi: ["wain", "wain"],
@@ -1604,7 +1604,7 @@ WORDS.wine = {
     hui: ["waini iba", "waini iba"],
     nv: ["wáán", "wɑ́ːn"],
     mic: ["moqopaʼq", "moxobaːx"], // was ["moqopaʼq", "moɣobaːx"] (vi dialect rules 2026-10-06)
-    gym: ["uba döi", "uba døi"],
+    gym: ["uba döi", "uba dɤi"], // was ["uba döi", "uba døi"] (vi dialect rules 2026-10-06)
     toj: ["yaalel tzʼusub", "jaːlel tsʼusub"],
     arn: ["pulku", "pulku"],
     oj: ["mazhoominaaboo", "maʒoːminaːboː"],

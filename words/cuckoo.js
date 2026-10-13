@@ -148,7 +148,7 @@ WORDS.cuckoo = {
     cv: ["куккук", "kukˈkuk"],
     bxr: ["хүбхүү", "xypxyː"],
     kca: ["кӓви", "ˈkæwi"],
-    ckt: ["ӄэӄӄуӄ", "qəqˈquq"],
+    ckt: ["ӄэӄӄуӄ", "qeqːuq"],
     kpy: ["ӄаккук", "qakkuk"],
     itl: ["ӄэӄуӄ", "qəquq"],
     ket: ["ӄоӄпунь", "qɔqˈpunʲ"],
@@ -381,7 +381,7 @@ WORDS.cuckoo = {
     zh_lz: ["布谷鸟", "pu˩˧ ku˩˧ niau˦˦˨"],
     dng: ["—", "—"],
     hsb: ["kokula", "ˈkɔkula"],
-    csb: ["kùkówka", "kuˈkovka"],
+    csb: ["kùkówka", "kwuˈkwofka"],
     rue: ["зозуля", "zoˈzulʲa"],
     fur: ["cuc", "kuk"],
     ast: ["cuquiellu", "kuˈkjeʎu"],
@@ -443,7 +443,7 @@ WORDS.cuckoo = {
     tsg: ["saguksuk", "saˈɡuksuk"],
     hr: ["kukavica", "kûkaʋitsa"],
     bs: ["kukavica", "kûkaʋitsa"],
-    iba: ["bubut", "ˈbubut"],
+    iba: ["bubut", "bubut"],
     xal: ["көкә", "køˈkæ"],
     fro: ["cucu", "kuˈky"],
     fr_class: ["coucou", "kuˈku"],
@@ -541,6 +541,7 @@ WORDS.cuckoo = {
     gld: ["кэкӯ", "kəkuː"],
     evn: ["кукты", "kukti"],
     ykg: ["кукун нодо", "kukun nodo"],
-    pwo: ["ထိၪမၩ့စၫ့ပဲၩ့ပီၫ့", "tʰʊ maɴ saɴ paiɴ pauɴ"]
+    pwo: ["ထိၪမၩ့စၫ့ပဲၩ့ပီၫ့", "tʰʊ maɴ saɴ paiɴ pauɴ"],
+    pkp: ["kāleva", "kaːleva"]
   },
 };

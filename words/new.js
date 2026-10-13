@@ -810,7 +810,7 @@ WORDS.new = {
     rcf: ["nouvo", "nuvo"],
     pnt: ["καινούργος", "ceˈnurɣos"],
     cbk: ["nuevo", "ˈnwebo"],
-    szl: ["nowy", "ˈnɔvɨ"],
+    szl: ["nowy", "ˈnɔvɪ"],
     sgs: ["naus", "nɐʊs"],
     rue: ["новый", "ˈnovɨj"],
     xmf: ["ახალი", "axali"],
@@ -1171,6 +1171,7 @@ WORDS.new = {
     olk: ["ikum", "ikum"],
     nus: ["pay", "paj"],
     spp: ["nivɔnŋɔ", "nivɔnŋɔ"],
-    bbo: ["ŋwun", "ŋwun"]
+    bbo: ["ŋwun", "ŋwun"],
+    dje: ["taji", "tadʒi"]
   }
 };

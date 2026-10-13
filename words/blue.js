@@ -1466,7 +1466,7 @@ WORDS.blue = {
     chr: ["ᏌᎪᏂᎨ", "saɡoniɡe"],  // CLASS NOT FIRMLY SOURCED. Form is solid. Cherokee green ᎢᏤᏳᏍᏗ is transparently 'new/fresh thing', which is the profile of a derived rather than basic green, so ᏌᎪᏂᎨ may well be a grue term; I found no WCS/Berlin-Kay statement for Cherokee. Short form ᏌᎪᏂᎨ chosen to match the row's ᎩᎦᎨ rather than ᎩᎦᎨᎢ.
     cic: ["okchamali", "oktʃamali"],  // Kay & Maffi 2013 (WALS 134A) independently code the related Muskogean language Mikasuki as 'Green/blue'.
     ckb: ["شین", "ʃiːn"],  // Sorani شین is the same word as Kurmanji şîn and covers the same blue/green range; سەوز carries narrow green.
-    ckt: ["ныԓиԓиԓкʼин", "nəɬiɬiɬˈqin"],  // Chukchi нылилилк'ин vs нывытэчгытрык'эн (the green built on вытвыт 'leaf, grass').
+    ckt: ["ныԓиԓиԓӄин", "nəɬiɬiɬqin"],  // Chukchi нылилилк'ин vs нывытэчгытрык'эн (the green built on вытвыт 'leaf, grass'). // was ["ныԓиԓиԓкʼин", "nəɬiɬiɬˈqin"] (vi dialect rules 2026-10-06)
     ckv: ["puli", "puli"],  // Kavalan has a single basic term for blue+green. The row's red/white (tebari, busar) are this dictionary's tebaRi / busaR with R lower-cased, so puli needs no adaptation. Reduplicated Rapupuli = 'pale green / pale blue'.
     clk: ["pɹu55", "pɹu˥˥"],  // Idu pɹu⁵⁵ against tiŋ⁵⁵kɹiɑ⁵⁵ 'green'.
     cng: ["phiɑʴwa", "pʰiɑʴwa"],  // Northern Qiang (Mawo) phiɑʴwa against ʐɑn ku 'green'.
@@ -1689,7 +1689,7 @@ WORDS.blue = {
     rar: ["auīka", "auiːka"],  // Blue and green are separate basic terms (auīka vs matie). The inherited dark term uri/uriuri still covers 'dark green (of foliage), blue (as the sea), black (of pigs)' — recorded as the older grue/dark layer, not the sky word.
     rm: ["blau", "blaw"],  // Romansh blau against verd; Wiktionary lists the idiom variants blo and blov.
     rmy: ["vuneto", "vuˈneto"],  // Vlax Romani takes both cool-range terms from the surrounding languages: vuneto 'blue' and zeleno 'green' are Slavic/Romanian loans. IDS brackets both, marking them as such.
-    rn: ["ubururu", "ubururu"],  // Same form and same loan chain as Kinyarwanda. Flagged: the source is a shared Rwanda-Rundi entry, not a Kirundi-specific dictionary.
+    rn: ["ubururu", "ubuɾuɾu"],  // Same form and same loan chain as Kinyarwanda. Flagged: the source is a shared Rwanda-Rundi entry, not a Kirundi-specific dictionary. // was ["ubururu", "ubururu"] (vi dialect rules 2026-10-06)
     ro: ["albastru", "alˈbastru"],  // albastru vs verde. WOLD: no evidence for borrowing — albastru continues Latin albaster, a rare case of a blue term from a 'whitish' root.
     rtm: ["čarava", "tʃarava"],  // Rotuman: IDS gives the identical form čarava for BOTH blue and green — one term over the whole cool range.
     ru: ["синий", "ˈsʲinʲɪj"],  // Russian is the textbook two-blue language: синий (dark blue) and голубой (light/sky blue) are both basic terms — IDS lists both for the concept. синий is the unmarked member and is given here; голубой is the literal colour of a clear sky.
@@ -1722,7 +1722,7 @@ WORDS.blue = {
     sv: ["blå", "bloː"],  // blå vs grön.
     sw: ["buluu", "buluː"],  // Loan from English 'blue'; invariable, used as rangi ya buluu / -a buluu. Beside it Swahili has the Arabic loan samawati (< سَمَاوَات, pl. of سَمَاء 'sky'), glossed 'azure, light blue', and the inherited green term kijani (< jani 'leaf'). No inherited grue term: blue and green are both named from things (leaf / sky) or borrowed.
     swi: ["ȶhu1", "ȶʰu˩˩"],  // Sui: IDS gives the identical form śu.1 for BOTH blue and green. One cool-range term, no split. // was ["śu1", "ɕu˩˩"] (vi dialect rules 2026-10-06)
-    szl: ["modry", "ˈmɔdrɨ"],  // Silesian modry against zielōny — the West Slavic modrý blue, not Polish niebieski.
+    szl: ["modry", "ˈmɔdrɪ"],  // Silesian modry against zielōny — the West Slavic modrý blue, not Polish niebieski. // was ["modry", "ˈmɔdrɨ"] (vi dialect rules 2026-10-06)
     szy: ["sumilaway", "sumilawaj"],  // Class INFERRED: the same Sakizaya dictionary keeps green separate (langdaw 綠色 id 72feb20d-e309-f011-bd64-00155db40116, langdaway 綠色的), and the 撒奇萊雅語 學習詞表 gives langdaway for 綠色的 with no blue item at all. Only the -ay form sumilaway is attested; the row's red/white use the bare sumanah/sanglac, whose -ay counterparts sumanahay/sanglacay also exist in the same dictionary, so the mismatch is in the source, not introduced here. Frequency is low (1), so this is a thinly attested word.
     ta: ["நீலம்", "niːlam"],  // Tamil நீலம் against பச்சை.
     tab: ["укӏуб", "ukʼub"],  // Tabasaran укӏуб vs чруб. // was ["укӏуб", "uˈkʼub"] (vi dialect rules 2026-10-06)

@@ -204,7 +204,7 @@ WORDS.wheel = {
     ar_sy: ["دولاب", "duˈlaːb"],
     ar_lb: ["دولاب", "duˈlaːb"],
     ar_jo: ["دولاب", "duˈlaːb"],
-    ar_ps: ["عجلة", "ʕadʒala"],
+    ar_ps: ["عجلة", "ʕaʒala"],
     ar_ye: ["عجلة", "ʕadʒala"],
     ar_sa: ["عجلة", "ʕadʒala"],
     ar_iq: ["عجلة", "ʕadʒala"],
@@ -682,7 +682,7 @@ WORDS.wheel = {
     bts: ["galapang", "ɡalapaŋ"],
     bbc: ["roda", "roda"],
     sda: ["lentenan", "lentenan"],
-    iba: ["peruda", "pəˈruda"],
+    iba: ["peruda", "pəruda"],
     fj: ["yava", "java"],
     to: ["veʻeteka", "veʔeteka"],
     tvl: ["teka", "teka"],
@@ -805,7 +805,7 @@ WORDS.wheel = {
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there
-    na: ["ekabiroro", "ekabirɔrɔ"],
+    na: ["—", "—"],
 
     // --- harvested 2026-08-31 from the wheel sub-agents' vetted output
     // (~/langmap-work/wheel2/in/*.jsonl); every line carries its own source there

@@ -235,7 +235,7 @@ WORDS.hundred = {
     cv: ["ҫӗр", "ɕɘr"],
 
     // --- Mongolic and Tungusic ---------------------------------------------
-    pmng: ["*ǰagun", "dʒaɡun"],
+    pmng: ["*ǰaxun", "dʒaxun"],
     xng: ["ᠵᠠᠭᠤᠨ", "dʒaun"],
     cmg: ["ᠵᠠᠭᠤᠨ", "dʒaɡun"],
     mn: ["зуу", "tsuː"],
@@ -364,7 +364,7 @@ WORDS.hundred = {
     en_us: ["hundred", "ˈhʌndɹəd"],
     en_ca: ["hundred", "ˈhʌndɹəd"],
     en_za: ["hundred", "ˈhʌndɹəd"],
-    en_in: ["hundred", "ˈhʌnɖɹəɖ"],
+    en_in: ["hundred", "ˈhʌnɖrəɖ"],
     en_ie: ["hundred", "ˈhʌndɹəd"],
     en_sco: ["hundred", "ˈhʌndɹəd"],
     en_wc: ["hundred", "ˈhʌndɹəd"],
@@ -489,7 +489,7 @@ WORDS.hundred = {
     p_sit: ["*r-gya", "rɡja"],
     xct: ["བརྒྱ", "brɡja"],
     xct_litpr: ["བརྒྱ", "ca"],
-    obr: ["ရာ", "rjaː"],
+    obr: ["ရျာ", "rjaː"],
     my: ["ရာ", "jà"],
 
     // --- Tai and Austroasiatic ---------------------------------------------
@@ -1055,7 +1055,7 @@ WORDS.hundred = {
     frr_amr: ["hunert", "ˈhʊnɐt"],
     ykg: ["истуо", "istuo"],
     szy: ["lasubu", "lasubu"],
-    tlh: ["vatlh", "vatɬ"],
+    tlh: ["vatlh", "vɑtɬ"],
     fra_jer: ["chent", "ʃɑ̃"],
     piu: ["yantaṯa", "jantaʈa"],
     mpj: ["yantarta", "jantaʈa"],

@@ -76,7 +76,6 @@ WORDS.we = {
     acf: "single",
     gan_yc: "single",
     gan_ja: "single",
-    cjy_lv: "single",
     cjy_xz: "clusive",
     mhy: "clusive",
     hsn_hy: "single",
@@ -1227,7 +1226,7 @@ WORDS.we = {
     gan_ja: ["我东", "ŋo˥˧ tuŋ˧˧˦"], // was ["我东", "ŋo˧˩ tuŋ˦˨"] (vi dialect rules 2026-10-06)
     gan_fz: ["—", "—"],
     hsn_yz: ["—", "—"],
-    cjy_lv: ["俺们", "ɣæ̃˥˧ mə"],
+    cjy_lv: ["—", "—"],
     cjy_xz: ["咱们 / 我们", "tsa˥˧ mə / ŋɤ˧˩ mə"],
     hsn_hy: ["我伲", "ŋo˨˩ ȵin˩˩"],
     czh_wy: ["—", "—"],
@@ -1382,7 +1381,7 @@ WORDS.we = {
     rwk: ["ise", "ise"],
     asu: ["uswi", "uswi"],
     tl: ["tayo / kami", "ˈtaːjo / kaˈmi"],
-    agt: ["sikitam / sikami", "sikitam / sikami"],
+    agt: ["ikitam / ikami", "ʔikitam / ʔikami"], // was ["sikitam / sikami", "sikitam / sikami"] (vi dialect rules 2026-10-06)
     itb: ["yaten / yamen", "jatɨn / jamɨn"],
     ivv: ["yaten / yamen", "jatɨn / jamɨn"],
     mn: ["бид", "bid"],
@@ -1434,7 +1433,7 @@ WORDS.we = {
     el: ["εμείς", "eˈmis"],
     nl: ["wij", "ʋɛi"],
     pl: ["my", "mɨ"],
-    szl: ["my", "mɨ"],
+    szl: ["my", "mɪ"], // was ["my", "mɨ"] (vi dialect rules 2026-10-06)
     uk: ["ми", "mɪ"],
     sv: ["vi", "viː"],
     no: ["vi", "viː"],
@@ -1817,7 +1816,7 @@ WORDS.we = {
     jqr: ["jiwsa", "hiwsa"],
     cni: ["arori / narori", "aɾoɾi / naɾoɾi"],
     ame: ["ya", "ja"],
-    gym: ["nun", "nun"],
+    gym: ["nun", "nũ"], // was ["nun", "nun"] (vi dialect rules 2026-10-06)
     yan: ["mayang / yangna", "majaŋ / jaŋna"],
     jiv: ["ii", "iː"],
     agr: ["ii", "iː"],
@@ -1935,7 +1934,7 @@ WORDS.we = {
     zh_lz: ["我们", "vɤ˦˦˨ mən"],
     dng: ["вәму", "və˥˩mu˨˦"], // was ["вәму", "və˥˩mu"] (vi dialect rules 2026-10-06)
     hsb: ["my", "mɨ"],
-    csb: ["më", "mə"],
+    csb: ["më", "mɜ"], // was ["më", "mə"] (vi dialect rules 2026-10-06)
     rue: ["мы", "mɨ"], // was ["мы", "mɪ"] (r51 audit 2026-10-04)
     fur: ["nô", "noː"],
     ast: ["nosotros", "noˈsotɾos"], // was ["nosotros", "nosoˈtɾos"] (r51 audit 2026-10-04)

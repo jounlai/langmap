@@ -208,7 +208,7 @@ WORDS.woof = {
     en_au: ["woof", "wʊf"],
     en_nz: ["woof", "wʊf"],
     en_za: ["woof", "wʊf"],
-    en_in: ["woof", "wʊf"],
+    en_in: ["woof", "ʋʊf"],
     en_ie: ["woof", "wʊf"],
     en_sco: ["woof", "wʊf"],
     en_scouse: ["woof", "wʊf"],

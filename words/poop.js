@@ -98,7 +98,7 @@ WORDS.poop = {
     pt_mz: ["cocó", "koˈkɔ"],
     pt_cv: ["cocó", "kuˈkɔ"],
     nl_be: ["poep", "pup"],
-    en_us: ["poop", "puːp"],
+    en_us: ["poop", "pup"],
     en_ca: ["poop", "puːp"],
     en_za: ["poo", "pʉː"],
     de_ch: ["Kacke", "ˈkakə"],
@@ -906,6 +906,8 @@ WORDS.poop = {
     obr: ["ခ္လိယ်း", "kʰlijh"],
     atb: ["hkyi", "kʰji˨˩"],
     mcf: ["chimu", "tʃimu"],
-    ng: ["omapumba", "omapumba"]
+    ng: ["omapumba", "omapumba"],
+    dje: ["toosi", "toːsi"],
+    tlh: ["qeQ", "qʰɛqχ"]
   },
 };

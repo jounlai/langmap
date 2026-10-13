@@ -147,7 +147,7 @@ WORDS.iron = {
     mr: ["लोखंड", "lokʰəɳɖə"],
     gu: ["લોખંડ", "lokʰəɳɖ"],
     pa: ["ਲੋਹਾ", "loːɦaː"],
-    ne: ["फलाम", "pʰalaːm"],
+    ne: ["फलाम", "pʰʌlaːm"],
     si: ["යකඩ", "jakəɖə"],
     ta: ["இரும்பு", "irumbu"],
     te: ["ఇనుము", "inumu"],
@@ -215,7 +215,7 @@ WORDS.iron = {
     ar_sy: ["حديد", "ħadiːd"],
     ar_lb: ["حديد", "ħadiːd"],
     ar_jo: ["حديد", "ħadiːd"],
-    ar_ps: ["حديد", "ħadiːd"],
+    ar_ps: ["حديد", "ħaˈdiːd"],
     ar_ye: ["حديد", "ħadiːd"],
     ar_sa: ["حديد", "ħadiːd"],
     ar_iq: ["حديد", "ħadiːd"],
@@ -324,7 +324,7 @@ WORDS.iron = {
     bsk: ["ćímar", "ˈtɕimar"],
 
     // --- Slavic — *želězo -------------------------------------------------
-    szl: ["żelazo", "ʒɛˈlazɔ"],
+    szl: ["żelazo", "ʐɛˈlazɔ"],
     hsb: ["železo", "ˈʒɛlɛzɔ"],
     dsb: ["zelezo", "ˈzɛlɛzɔ"],
     csb: ["żelazło", "ʒɛˈlazwɔ"],
@@ -447,7 +447,7 @@ WORDS.iron = {
     oko: ["薩", "*so"],
     lus: ["thîr", "tʰiːr"],
     ksw: ["ထး", "tʰa"],
-    khb: ["ᦵᦜᧅ", "lek"],
+    khb: ["ᦵᦜᧅ", "lek˧˥"],
     mpj: ["yayinpa", "jajinpa"],
 
     // --- Creoles — the lexifier's word, worn down -------------------------
@@ -522,14 +522,14 @@ WORDS.iron = {
     mdr: ["bassi", "basːi"],
     mak: ["bassi", "ˈbasːi"],
     bbc: ["bosi", "bosi"],
-    iba: ["besi", "ˈbəsi"],
+    iba: ["besi", "bəsi"],
     tet: ["besi", "ˈbesi"],
     sas: ["besi", "bəsi"],
     nij: ["wasi", "wasi"],
     ceb: ["puthaw", "putˈhaw"],
     war: ["puthaw", "putˈhaw"],
     mrw: ["potaw", "potaw"],
-    mdh: ["putaw", "puˈtaw"],
+    mdh: ["putaw", "ˈputaw"],
     ilo: ["landok", "lanˈdok"],
     hil: ["salsalon", "salsaˈlon"],
     mg: ["vy", "vi"],
@@ -537,7 +537,7 @@ WORDS.iron = {
     mi: ["rino", "ɾino"],
     sm: ["uʻamea", "uʔamea"],
     to: ["ukamea", "ukamea"],
-    gil: ["biti", "ˈpisi"],
+    gil: ["biti", "ˈbisi"],
     rap: ["auri", "auɾi"],
 
     // --- Uralic — Baltic *rauda in the west, *kertä in the east ----------
@@ -633,7 +633,7 @@ WORDS.iron = {
     ksb: ["kiama", "kiama"],
     jmc: ["minya", "miɲa"],
     sbp: ["ishuuma", "iʃuːma"],
-    rn: ["icuma", "iˈtʃuma"],
+    rn: ["icuma", "itʃuma"],
     rw: ["icyuma", "iˈtʃuma"],
     yao: ["chisyano", "tʃisjano"],
     lg: ["ekyuma", "eˈtʃuːma"],
@@ -671,7 +671,7 @@ WORDS.iron = {
     ndc: ["simbi", "simbi"],
     ny: ["chitsulo", "tʃiˈtsulo"],
     ln: ["ebendé", "eˈɓende"],
-    kg: ["kibende", "kiˈbende"],
+    kg: ["kibende", "kibende"],
     lol: ["loolo", "loolo"],
     tll: ["luwulu", "luwulu"],
     umb: ["utale", "utale"],
@@ -701,7 +701,7 @@ WORDS.iron = {
     // --- Berber uzzal, Chadic, Ethiosemitic, Aramaic parzlā ---------------
     shi: ["ⵓⵣⵣⴰⵍ", "uzzal"],
     rif: ["ⵓⵣⵣⴰⵔ", "uzːaɾ"],
-    tzm: ["ⵓⵣⵣⴰⵍ", "uzzal"],
+    tzm: ["ⵓⵣⵣⴰⵍ", "uzːal"],
     zgh: ["ⵓⵣⵣⴰⵍ", "uzːal"],
     kab: ["uzzal", "uzzal"],
     xed: ["kfur", "kfur"],
@@ -789,7 +789,7 @@ WORDS.iron = {
     ia: ["ferro", "ˈfɛrro"],
     vo: ["lel", "lel"],
     jbo: ["tirse", "ˈtirse"],
-    tlh: ["'uSqan", "ʔuʂqan"],
+    tlh: ["'uSqan", "ʔuʂqʰɑn"],
 
     // --- Philippine and Formosan — sourced per row, not extrapolated -----
     // Taiwan's languages each have their own word and they share almost

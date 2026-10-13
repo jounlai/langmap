@@ -1602,7 +1602,7 @@ WORDS.bear = {
     // --- English — rhotic or not, taken from each row's own star ----------
     en_us: ["bear", "bɛɹ"],
     en_ca: ["bear", "bɛɹ"],
-    en_in: ["bear", "bɛɹ"],
+    en_in: ["bear", "bɛr"], // was ["bear", "bɛɹ"] (vi dialect rules 2026-10-06)
     en_ie: ["bear", "bɛɹ"],
     en_sco: ["bear", "bɛɹ"],
     en_wc: ["bear", "bɛɹ"],
@@ -1739,8 +1739,8 @@ WORDS.bear = {
     wa: ["oûsse", "uːs"],
     vec: ["orso", "ˈorso"],
     lij: ["orso", "ˈɔrsu"],
-    szl: ["niedźwiydź", "ɲɛdʑvɘtɕ"],
-    csb: ["miedwiédz", "mʲɛdvjets"],
+    szl: ["niedźwiydź", "ˈɲɛdʑvjɪtɕ"], // was ["niedźwiydź", "ɲɛdʑvɘtɕ"] (vi dialect rules 2026-10-06)
+    csb: ["miedwiédz", "ˈmjɛdvjets"], // was ["miedwiédz", "mʲɛdvjets"] (vi dialect rules 2026-10-06)
     rue: ["медвідь", "ˈmedvidʲ"],
     sgs: ["meška", "mʲɛʃka"],
     ltg: ["luocs", "luɔ̯tsʲsʲ"], // was ["luocs", "luots"] (vi dialect rules 2026-10-06)
@@ -1799,7 +1799,7 @@ WORDS.bear = {
         { form: "𪻄", script: "Sawndip (古壮字)", source: "attested variant glyph beside the primary form 𤞦 — Sawndip was never standardised" },
       ],
     },
-    khb: ["ᦖᦲ", "miː"],
+    khb: ["ᦖᦲ", "miː˥"], // was ["ᦖᦲ", "miː"] (vi dialect rules 2026-10-06)
     shn: ["မီ", "miː˨˦"],
     blt: ["ꪢꪲ", "miː˨"], // was ["ꪢꪲ", "miː˨˦"] (r31 fix 2026-10-02)
     pcc: ["moil", "moi˨˦"], // was ["moil", "moi˧˥"] (vi dialect rules 2026-10-06)

@@ -1290,7 +1290,7 @@ WORDS.foot = {
     asu: ["ivunda", "ivunda"],  // Chasu splits them: Kotz's 1909 Pare grammar puts ivunda in the i-/ma- class for the foot and kugu in the ku-/ma- class for the leg.
     atb: ["hkyî", "kʰji˥˩"],  // TBL 0103.30 khji⁵¹ 'foot'; Matisoff's Body Parts file gives khji⁵¹tok⁵⁵ for the leg, the same expansion Burmese makes with ခြေထောက်, and Luce glosses the bare word 'foot, leg'. // was ["khyi51", "kʰji˥˩"] (r35 fix 2026-10-02)
     atj: ["osit", "osit"],  // The Atikamekw dictionary splits osit 'son pied' from oskat 'sa jambe, sa patte', and ALA's speakers give nisit against niskat.
-    av: ["хӏетӏе", "ħjetʼje"],  // Avar has separate words, though the dialect material shows хӏетӏе reaching the leg too.
+    av: ["хӏетӏе", "ħetʼe"],  // Avar has separate words, though the dialect material shows хӏетӏе reaching the leg too. // was ["хӏетӏе", "ħjetʼje"] (vi dialect rules 2026-10-06)
     ave: ["𐬞𐬀𐬛", "pad"],  // Bartholomae s.v. pad- 'Fuß'; IDS gives Avestan 4-370 pad- against paitištāna- 'leg'.
     awa: ["गोड़", "ɡoːɽ"],  // As Bhojpuri: गोड़ is the whole limb — Awadhi speaks of a गोड़ मा चोट, an injury to the leg.
     ay: ["kayu", "kaju"],  // Aymara splits them, where its Quechua neighbour uses one word. IPA is the plain reading of the orthography, following how this row's own hand cell writes ampara as ampaɾa.
@@ -2065,7 +2065,7 @@ WORDS.foot = {
     rmf: ["piero", "ˈpiero"],  // Unlike the rest of Romani, Finnish Kaale splits piero from xeera 'leg'.
     rmt: ["pɔw", "pɔw"],  // pɔw covers the lower limb, as Romani punro does.
     rmy: ["punro", "ˈpunro"],  // As Romani: punro is both, and the old leg word heroj has narrowed to the trouser-leg.
-    rn: ["ikirenge", "ikirenɡe"],  // Kirundi splits them: the 1908 Grammaire kirundi has ukuguru for the leg, and the foot is ikirenge, the same word Kinyarwanda carries on this map.
+    rn: ["ikirenge", "ikiɾenɡe"],  // Kirundi splits them: the 1908 Grammaire kirundi has ukuguru for the leg, and the foot is ikirenge, the same word Kinyarwanda carries on this map. // was ["ikirenge", "ikirenɡe"] (vi dialect rules 2026-10-06)
     ro: ["picior", "piˈtʃor"],  // Romanian is the Romance outlier: one word picior for the whole lower limb, where every other big Romance language splits pie/pierna. labă (WOLD) is 'paw', not the everyday foot word.
     rom: ["punro", "ˈpunro"],  // punro is the whole lower limb; heroj, the Greek loan, is the archaic leg word.
     roo: ["kokoto", "kokoto"],  // One word for the limb: the Rotokas New Testament washes kokoto in John 13:8 and breaks it in John 19:32, and Matthew 18:8 pairs it with kove for the hand.
@@ -2179,7 +2179,7 @@ WORDS.foot = {
     tkl: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Tokelau reflex of PPn *waqe 'Lower limb, including foot'. No stress mark, as on the other Polynesian rows.
     tkr: ["мыкӏли", "mɨkʼli"],  // IDS 4-370 мыкӏли against 4-350 къелʼ and 4-372 мыӏкьпи ‘heel’ — three separate words in one elicitation.
     tl: ["paa", "paˈʔa"],  // Tagalog splits paa from binti — Philippine languages often do, where western Austronesian mostly does not.
-    tlh: ["qam", "qʰam"],  // The Klingon lexicon's own note settles it: the qam is attached to the 'uS, the leg, through the ngIb, the ankle.
+    tlh: ["qam", "qʰɑm"],  // The Klingon lexicon's own note settles it: the qam is attached to the 'uS, the leg, through the ngIb, the ankle. // was ["qam", "qʰam"] (vi dialect rules 2026-10-06)
     tll: ["dikaka", "dikaka"],  // Otetela splits them: dikaka is the foot and lokolo the leg, the class-11 cognate of the Ciluba mukolo next door.
     tly: ["lıng", "lɨŋɡ"],  // lıng covers the whole lower limb, as Gilaki and Mazanderani لینگ.
     tmh: ["ⴰⴹⴰⵔ", "adˤar"],  // The Tamasheq New Testament washes feet with iḍarăn at John 13:5 and breaks legs with iḍarăn at John 19:32, and the Berber Swadesh table gives Tuareg aḍăṛ for foot and leg alike.

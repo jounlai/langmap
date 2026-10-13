@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    tlh: "mult",
     izz: "vig",
     mtq: "mult",
     pwo: "mult",
@@ -934,6 +935,7 @@ WORDS.n99 = {
     }
   },
   data: {
+    tlh: ["HutmaH Hut", "xutʰmɑx xutʰ"],
     izz: ["ụkporo ẹno l'iri lẹ tete", "ʊkpoɾo ɛnɔ liɾi lɛ tete"],
     mtq: ["chỉn mươl chỉn", "cin mɨəl cin"],
     pwo: ["ခွံၫဆံၫခွံၫ", "kʰwi sʰi kʰwi"],
@@ -1071,7 +1073,7 @@ WORDS.n99 = {
     hwc: ["ninety nine", "nainti nain"],
     her: ["omirongo muvyu na muvyu", "omiroŋɡo muvju na muvju"],
     hch: ["nauka tewiyari heimana tamamata heimana ʼatanauka", "nauka tewijari heimana tamamata heimana ʔatanauka"],
-    gym: ["gre ketabkä bti krä jätäbti krä ökän", "ɡɾe ketabkæ bti kɾæ hætæbti kɾæ ɤkæn"],
+    gym: ["gre ketabkä bti krä jätäbti krä ökän", "ɡɾe ketabkɔ bti kɾɔ hɔtɔbti kɾɔ ɤkɔn"], // was ["gre ketabkä bti krä jätäbti krä ökän", "ɡɾe ketabkæ bti kɾæ hætæbti kɾæ ɤkæn"] (vi dialect rules 2026-10-06)
     gil: ["ruabwi ma ruaiwa", "ruabʷi ma ruaiwa"],
     gd: ["naoi-deug agus ceithir-fichead", "n̪ˠɯːi tʲiək akəs kʲehɪɾʲ fiçət"],
     gbm: ["निन्याणबे", "ninjaːɳbe"],
@@ -1084,7 +1086,7 @@ WORDS.n99 = {
     dty: ["उनान्सय", "unaːnsəj"],
     dtp: ["siam nohopod om siam", "siam nohopod om siam"],
     dsh: ["tomon saal a saal", "tomon saːl a saːl"],
-    djk: ["neigintenti a neigin", "nɛiɡintenti a nɛiɡin"],
+    djk: ["neigintenti a neigin", "neiɡintenti a neiɡin"], // was ["neigintenti a neigin", "nɛiɡintenti a nɛiɡin"] (vi dialect rules 2026-10-06)
     drs: ["sallane tommenna sallane", "salːane tomːenːa salːane"],
     co: ["nuvanta nove", "nuˈvanta ˈnɔve"],
     cnh: ["sawmkua le pakua", "sɔmkua le pakua"],
@@ -1321,7 +1323,7 @@ WORDS.n99 = {
     gn: ["porundypa porundy", "poɾudɨpa poɾudɨ"],
     ay: ["llätunka tunka llätunkani", "ʎaːtunka tunka ʎaːtunkani"],
     qu: ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
-    kri: ["naynti-nayn", "nainti nain"],
+    kri: ["naynti-nayn", "najnti najn"], // was ["naynti-nayn", "nainti nain"] (vi dialect rules 2026-10-06)
     jam: ["nainti-nain", "nainti nain"],
     srn: ["neigitenti-na-neigi", "neiɡitenti na neiɡi"],
     en:    ["ninety-nine", "ˈnaɪnti ˈnaɪn"],

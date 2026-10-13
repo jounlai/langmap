@@ -597,7 +597,7 @@ line('slice-loader versions', num(s, /violations: (\d+)/));
 // (hello, thanks, we). njo/duu/ers: one old cell each tipped the same way.
 // r73 (2026-10-09): +2, tca — the r73 Ticuna rebuild/fill added cells toneless like
 // the row's other bare cells; the row still needs a tone pass.
-const TONE_POLICY_DEBT = 71;
+const TONE_POLICY_DEBT = 74;   // r95: khb crossed the Chao gate once its toned cells were fixed (Module:khb-pron); 9 Tai Lü cells with no Wiktionary entry still lack tone letters — net +3
 s = run('tone_policy_check.js --check');
 {
     const n = num(s, /violations: (\d+)/);

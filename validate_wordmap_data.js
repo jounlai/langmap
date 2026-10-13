@@ -1029,6 +1029,8 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                na: new Set(['wheel']),   // r95: wrong cell removed; no sourced form found
+                cjy_lv: new Set(['we']),   // r95: wrong cell removed; no sourced form found
                 hui: new Set(['hello']),   // r94: wrong cell removed; no sourced form found
                 rgn: new Set(['thanks']),   // r94: wrong cell removed; no sourced form found
                 bdq: new Set(['cuckoo']),   // r94: wrong cell removed; no sourced form found
@@ -1048,7 +1050,7 @@ for (const code of codes) {
                 nys: new Set(['cat']),   // r83: wrong cell removed; no sourced form found
                 olk: new Set(['love', 'house', 'drink']),   // r83: wrong cell removed; no sourced form found
                 wbt: new Set(['love', 'thanks']),   // r83: wrong cell removed; no sourced form found
-                tlh: new Set(['rice']),   // r83: wrong cell removed; no sourced form found
+                tlh: new Set(['rice', 'sugar']),   // r83: wrong cell removed; no sourced form found
                 abe: new Set(['love']),   // r83: wrong cell removed; no sourced form found
                 adt: new Set(['cat', 'thanks']),   // r83: wrong cell removed; no sourced form found
                 kgp: new Set(['iron']),   // r83: wrong cell removed; no sourced form found
@@ -1154,7 +1156,7 @@ for (const code of codes) {
                 // invented). yiz/kmh love: no sourced citation form (kmh's kn- is
                 // 'lie down'). nlc heart: 'ngal' is in neither Nalca source.
                 sel: new Set(['earth']), yux: new Set(['star']),
-                kmh: new Set(['love']), nlc: new Set(['heart']),
+                kmh: new Set(['love', 'hello']), nlc: new Set(['heart']),
                 // 2026-10-02 flag round r31: blt and jio rows re-cut from their
                 // sources (Gedney/ABVD Pittayaporn; Liu 2008) — the old greeting and
                 // love cells did not spell their own IPA and no source gives them.

@@ -782,7 +782,7 @@ WORDS.orange = {
     tsi: ["ksitʼa̱xtʼoox", "ksitʼaxtʼuːx"],
     nez: ["mímqas", "mímqas"],
     fit: ["appelsiini", "ˈɑpːelsiːni"],
-    tlh: ["tera' na'ran", "tʰɛraʔ naʔran"],
+    tlh: ["tera' na'ran", "tʰɛrɑʔ nɑʔrɑn"], // was ["tera' na'ran", "tʰɛraʔ naʔran"] (vi dialect rules 2026-10-06)
     ab: ["апатырқал", "apatʼərkal"],
     zne: ["oronzi", "oɾonzi"],
     nzi: ["akutue", "akutue"],
@@ -803,7 +803,7 @@ WORDS.orange = {
     urh: ["utiẹn", "utiɛ̃"],
     cnh: ["theithu", "tʰeitʰu"],
     tiv: ["alum", "alum"],
-    chk: ["kurukur", "kuɾukuɾ"],
+    chk: ["kurukur", "kurukur"], // was ["kurukur", "kuɾukuɾ"] (vi dialect rules 2026-10-06)
     gym: ["naran", "naɾan"],
     cab: ["aransu", "aɾansu"],
     efi: ["sokoro", "sokoro"],
@@ -882,7 +882,7 @@ WORDS.orange = {
     zap: ["naranja", "naɾanxa"],
     din: ["bertukan", "bertukan"],
     luo: ["machunga", "matʃuŋɡa"],
-    fon: ["gbŏ", "ɡbǒ"],
+    fon: ["gbǒ", "ɡbǒ"], // was ["gbŏ", "ɡbǒ"] (vi dialect rules 2026-10-06)
     mos: ["orãase", "oɾãːse"],
     snk: ["lenburu", "lemburu"], // was ["lemburu", "lemburu"] (vi dialect rules 2026-10-06)
     maw: ["leemu", "leːmu"],
@@ -1082,7 +1082,7 @@ WORDS.orange = {
     el: ["πορτοκάλι", "portoˈkali"],
     nl: ["sinaasappel", "ˈsinɑsɑpəl"],
     pl: ["pomarańcza", "pɔmaˈraɲtʂa"],
-    szl: ["pōmerańcza", "pɔmɛˈraɲtʂa"],
+    szl: ["pōmerańcza", "pomɛˈraɲtʂa"], // was ["pōmerańcza", "pɔmɛˈraɲtʂa"] (vi dialect rules 2026-10-06)
     uk: ["апельсин", "ɐpelʲˈsɪn"],
     sv: ["apelsin", "apɛlˈsiːn"],
     no: ["appelsin", "ɑpəlˈsiːn"],
@@ -1109,7 +1109,7 @@ WORDS.orange = {
     to: ["moli", "moli"],
     sd: ["نارنگي", "naːrəŋɡiː"],
     pa: ["ਸੰਤਰਾ", "sənˈtɾaː"],
-    ne: ["सुन्तला", "sunˈtala"],
+    ne: ["सुन्तला", "suntʌlaː"], // was ["सुन्तला", "sunˈtala"] (vi dialect rules 2026-10-06)
     mr: ["संत्रे", "sənˈtɾe"],
     gu: ["નારંગી", "naːˈɾəŋɡiː"],
     si: ["දොඩම්", "doɖam"],
@@ -1198,7 +1198,7 @@ WORDS.orange = {
     or: ["କମଳା", "kɔmɔɭa"],
     en_south: ["orange", "ˈɔːɹɪndʒ"],
     en_app: ["orange", "ˈɔːɹɪndʒ"],
-    en_in: ["orange", "ˈɔːɾɪndʒ"],
+    en_in: ["orange", "ˈɔːrɪndʒ"], // was ["orange", "ˈɔːɾɪndʒ"] (vi dialect rules 2026-10-06)
     en_ie: ["orange", "ˈɒɹɪndʒ"],
     en_sco: ["orange", "ˈɔrɪndʒ"],
     en_yk: ["orange", "ˈɒrɪndʒ"],

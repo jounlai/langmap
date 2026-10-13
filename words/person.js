@@ -134,7 +134,7 @@ WORDS.person = {
     tt: ["кеше", "keˈʃe"],
     gu: ["વ્યક્તિ", "ˈʋjəkti"],
     mr: ["माणूस", "ˈmaːɳuːs"],
-    ne: ["मान्छे", "ˈmantsʰe"],
+    ne: ["मान्छे", "maːntsʰe"],
     te: ["మనిషి", "maˈniʃi"],
     ku: ["mirov", "mɨˈrov"],
     tg: ["одам", "oˈdam"],
@@ -301,7 +301,7 @@ WORDS.person = {
     hy_grab: ["մարդ", "mɑrd"],
     hyw: ["մարդ", "mɑɾt"],
     ia: ["persona", "perˈsona"],
-    iba: ["orang", "ˈoraŋ"],
+    iba: ["orang", "oraŋ"],
     ig: ["mmadụ", "mmadʊ"],
     ik: ["iñuk", "iɲuk"],
     ilo: ["tao", "ˈtao"],
@@ -317,7 +317,7 @@ WORDS.person = {
     kaa: ["adam", "ɑˈdɑm"],
     kab: ["bnadem", "bnadəm"],
     kac: ["masha", "məʃa˧˩"],
-    kbd: ["цӏыху", "tsʼəxʷ"],
+    kbd: ["цӏыху", "tsʼəxʷə"],
     ket: ["кет", "keʔt"],
     kg: ["muntu", "muntu"],
     kha: ["briew", "briw"],
@@ -548,7 +548,7 @@ WORDS.person = {
       ],
     },
     ug: ["ئادەم", "ɑdɛm"],
-    en_in: ["person", "ˈpɝsən"],
+    en_in: ["person", "ˈpərsən"],
     en_au: ["person", "ˈpɜːsən"],
     en_south: ["person", "ˈpɝsən"],
     prs: ["انسان", "insɑːn"],
@@ -909,7 +909,7 @@ WORDS.person = {
     gqu: ["tɕʰi55", "tɕʰi˥˥"],
     bwi: ["newíki", "newíki"],
     tpy: ["iau", "iau"],
-    moc: ["qom leʔek", "qom leʔek"],
+    moc: ["qom", "qom"],
     huz: ["инсан", "insan"],
     pt_gw: ["jinti", "ˈdʒinti"],
     koy: ["dinaa", "dinaː"],
@@ -1148,6 +1148,7 @@ WORDS.person = {
     nhx: ["ta̱gaꞌ", "taːɡaʔ"],
     roo: ["oirato", "oiɾato"],
     obr: ["လော", "lo"],
-    nxq: ["xi", "ɕi˧"]
+    nxq: ["xi", "ɕi˧"],
+    xht: ["zari", "zari"]
   }
 };

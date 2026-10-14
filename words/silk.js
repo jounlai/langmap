@@ -815,6 +815,7 @@ WORDS.silk = {
     bum: ["silik", "silik"],
     wae: ["Siida", "ˈsiːda"],
     pot: ["zénbawégen", "zenbaweɡən"],
-    sdo: ["sitara", "sitara"]
+    sdo: ["sitara", "sitara"],
+    mrq: ["kirita", "kiɾita"]
   }
 };

@@ -415,7 +415,7 @@ WORDS.hand = {
     wo: ["loxo", "lɔxɔ"],
     srr: ["ɓay", "ɓaj"],
     so: ["gacan", "ɡaʕan"],
-    om: ["harka", "haɾka"],
+    om: ["harka", "harka"],
     kxc: ["harka", "harka"],
     drs: ["anga", "aŋɡa"],
     dsh: ["gil", "ɡil"],

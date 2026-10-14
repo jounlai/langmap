@@ -259,7 +259,7 @@ WORDS.ear = {
     en_nz: ["ear", "iə"],
     en_za: ["ear", "ɪə"],
     en_ie: ["ear", "iːɹ"],
-    en_sco: ["ear", "ir"],
+    en_sco: ["ear", "iɹ"],
     en_in: ["ear", "iːr"],
     en_ph: ["ear", "iɹ"],
     en_ng: ["ear", "ia"],
@@ -975,7 +975,7 @@ WORDS.ear = {
     ude: ["куай", "kuʔai"],
     brh: ["خف", "xaf"],
     kru: ["ख़ेबदा", "xebdaː"],
-    kxv: ["kiriyu", "kiɾiju"],
+    kxv: ["kiriyu", "kiriju"],
     kfa: ["ಕೆಮಿ", "kemi"],
     bfq: ["kivi", "kiʋi"],
     el_kath: ["οὖς", "us"],
@@ -1211,6 +1211,7 @@ WORDS.ear = {
     pwo: ["နါ", "na"],
     dyo: ["kawos", "kawos"],
     wic: ["aːcʔa", "aːtsʔa"],
-    koy: ["-dzaghaʼ", "tsaɣaʔ"]
+    koy: ["-dzaghaʼ", "tsaɣaʔ"],
+    tca: ["naxpaxchinü", "naʔpaʔtʃinɨ"]
   },
 };

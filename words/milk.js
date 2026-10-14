@@ -1146,6 +1146,15 @@ WORDS.milk = {
     tus: ["unehraʼseh", "unehɾaʔseh"],
     sdo: ["susu", "susu"],
     kio: ["kɔ́lzèp", "kɔ́lzèp"],
-    hup: ["-tsʼo:ʼ", "-tsʼoːʔ"]
+    hup: ["-tsʼo:ʼ", "-tsʼoːʔ"],
+    kgg: ["ambu", "ambu"],
+    wrh: ["ngamun", "ˈŋamun"],
+    wbt: ["ngama", "ŋama"],
+    srb: ["ədub", "ədub"],
+    yle: ["ngmo", "ŋmɔ"],
+    mvf: ["sun", "sun"],
+    fia: ["su", "su"],
+    mrq: ["vaiū", "vaiuː"],
+    wmt: ["ngamarna", "ˈŋamaɳa"]
   },
 };

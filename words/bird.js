@@ -787,7 +787,7 @@ WORDS.bird = {
     ale: ["сах̆", "saχ"],
     ckt: ["гатԓе", "ɣatɬe"],
     gld: ["гаса", "ɡasa"],
-    ket: ["кеӈассель", "kʲɛŋasːʲɛʎ"],
+    ket: ["кеӈассель", "kɛŋasːʲɛʎ"],
     yux: ["нодо", "nodo"],
     ykg: ["чирэмэ", "tʃireme"],
     koi: ["кай", "kaj"],
@@ -846,7 +846,7 @@ WORDS.bird = {
     ckv: ["alam", "aˈlam"],
     ssf: ["rumfaz", "ɾumfað"],
     // Palauan has no noun for it at all — the phrase is 'flying animal'
-    pau: ["suebek el charm", "suəbək əl ʔarm"],
+    pau: ["suebek el charm", "suəbək əl ʔaɾm"],
 
     // --- Mayan — Chʼolan mut against Kʼichean tzʼikin and the Mamean chʼit
     chf: ["mut", "mut"],
@@ -1006,7 +1006,7 @@ WORDS.bird = {
     adi: ["pettang", "pettaŋ"],
     sgw: ["አን", "an"],
     kxc: ["xampira", "χampira"],
-    ssy: ["kimbir", "kimbir"],
+    ssy: ["kimbir", "kimbiɾ"],
     pis: ["bed", "bed"],
     ses: ["ciraw", "tʃiraw"],
     nzi: ["anloma", "anloma"],
@@ -1204,6 +1204,9 @@ WORDS.bird = {
     yuc: ["sene", "sene"],
     tus: ["čiʼneʼ", "tʃiʔneʔ"],
     sdo: ["manuk", "manuk"],
-    hup: ["kʼiya:wh", "kʲʼijaːhʷ"]
+    hup: ["kʼiya:wh", "kʲʼijaːhʷ"],
+    olk: ["ant", "ant"],
+    kim: ["ӄушӄаш", "quʃqaʃ"],
+    mvf: ["xuu", "ɕuu"]
   },
 };

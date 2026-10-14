@@ -774,7 +774,7 @@ WORDS.father = {
     atj: ["otawi", "otawi"],
     mic: ["nujj", "nudʒː"],
     pqm: ["mihtaqsit", "mihtakʷsit"],
-    abe: ["mitôgwes", "mitɔ̃ɡwes"],
+    abe: ["mitôgwes", "mitɔ̃ɡʷes"],
     umu: ["nóoxw", "noːxʷ"],
     crk: ["ᓅᐦᑖᐏᕀ", "noːhtaːwij"],
     yur: ["totos", "tɔtɔʂ"],

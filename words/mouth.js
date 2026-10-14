@@ -509,7 +509,7 @@ WORDS.mouth = {
     pag: ["sangi", "saˈŋi"],
     pam: ["asbuk", "əsˈbuk"],
     pap: ["boka", "ˈboka"],
-    pau: ["ngor", "ŋor"],
+    pau: ["ngor", "ŋoɾ"],
     pcd: ["bouque", "buk"],
     pdt: ["Mul", "muːl"],
     peh: ["aman", "aman"],
@@ -1234,6 +1234,7 @@ WORDS.mouth = {
     koy: ["-lo", "lo"],
     kio: ["sɔ́ɔ̀l", "sɔ́ɔ̀l"],
     dbl: ["ngan.gu", "ˈŋanɡu"],
-    cjm: ["ꨚꨝꩍ", "pabah"]
+    cjm: ["ꨚꨝꩍ", "pabah"],
+    na: ["aanaquan", "aanakʷan"]
   }
 };

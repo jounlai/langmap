@@ -264,7 +264,7 @@ WORDS.rice = {
     is: ["hrísgrjón", "ˈr̥iːskrjouːn"],
     iso: ["osikapa", "osikapa"],
     ja_oki: ["米", "kumi"],
-    jam: ["rais", "rais"],
+    jam: ["rais", "ɹais"],
     jbo: ["rismi", "ˈrismi"],
     kbd: ["прунж", "prunʒ"],
     kg: ["loso", "loso"],
@@ -320,7 +320,7 @@ WORDS.rice = {
     ota: ["برنج", "biˈɾintʃ"],
     pam: ["abias", "ʔaˈbjas"],
     pap: ["aros", "aˈros"],
-    pau: ["beras", "bəˈras"],
+    pau: ["beras", "bəˈɾas"],
     paus: ["*beRas", "beRas"],
     pcm: ["rais", "raɪs"],
     pdt: ["Riess", "ɾiːs"],
@@ -892,6 +892,8 @@ WORDS.rice = {
     sdo: ["sungkoi", "suŋkoi"],
     kio: ["ì:ógûè:", "ìːóɡûèː"],
     hup: ["qo:-nehwa:n", "qoːnehwaːn"],
-    haj: ["চৗল", "tʃɯl"]
+    haj: ["চৗল", "tʃɯl"],
+    yiz: ["dzotɕɪ", "dzo˨˨tɕɪ˥˥"],
+    mrq: ["karaihi", "kaɾaihi"]
   }
 };

@@ -368,7 +368,7 @@ WORDS.wind = {
     eu: ["haize", "ˈais̻e"],
     tpi: ["win", "win"],
     ht: ["van", "vã"],
-    jam: ["briiz", "briːz"],
+    jam: ["briiz", "bɹiːz"],
     pap: ["bientu", "ˈbjentu"],
     kea: ["bentu", "ˈbentu"],
     mfe: ["divan", "diˈvã"],
@@ -1185,6 +1185,8 @@ WORDS.wind = {
     byn: ["ወልወል", "wəlwəl"],
     trm: ["bās", "baːs"],
     aiw: ["zhoga", "ʒoɡa"],
-    kjp: ["လီ", "lì"]
+    kjp: ["လီ", "lì"],
+    srb: ["ringe", "riŋɡe"],
+    kim: ["ӄат", "qat"]
   },
 };

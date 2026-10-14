@@ -336,7 +336,7 @@ WORDS.wheel = {
     tt: ["тәгәрмәч", "tæɡærmætɕ"],
     ba: ["тәгәрмәс", "tæɡærmæs"],
     ky: ["дөңгөлөк", "døŋɡøløk"],
-    tk: ["tigir", "tiɡir"],
+    tk: ["tigir", "tiɡiɾ"],
     ug: ["چاق", "tʃɑq"],
     tyv: ["дугуй", "duɣuj"],
     sah: ["көлөһө", "køløhø"],
@@ -565,7 +565,7 @@ WORDS.wheel = {
     pot: ["détpese", "detpəsə"],
     guc: ["—", "—"],
     cuk: ["yanda", "janda"],
-    moh: ["okakwenta", "okakʷenta"],
+    moh: ["okakwenta", "okakwenta"],
     och: ["輪", "*[r]u[n]"],
     kaw: ["ꦕꦏꦿ", "tʃakra"],
     ko_mid: ["바·회", "pahoj"],
@@ -950,12 +950,13 @@ WORDS.wheel = {
     cnp: ["车轮", "tʃʰe˥˧ lɐn˨˩"],
     zh_han: ["輪", "rwǝn"],
     izz: ["ọkpa ọgba-kperekpere", "ɔkpa ɔɡba kpeɾekpeɾe"],
-    sus: ["sanyi radigilinxi", "saɲi ɾadiɡilinxi"],
+    sus: ["sanyi radigilinxi", "saɲi radiɡilinxi"],
     hch: ["mɨxikɨrawi", "mɨrikɨɾawi"],
     kpe: ["káraŋ", "káraŋ"],
     mnk: ["sareeti siŋo", "sareːti siŋo"],
     mam: ["rwed", "rwed"],
     wae: ["Rad", "rad"],
-    sdo: ["jurung", "dʒuruŋ"]
+    sdo: ["jurung", "dʒuruŋ"],
+    mrq: ["huira", "huiɾa"]
   }
 };

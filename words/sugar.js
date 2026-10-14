@@ -93,6 +93,10 @@ WORDS.sugar = {
     sw: "Sukari — kitu chenye fuwele na ladha tamu kinachotumika kutia utamu katika chakula na vinywaji. Neno la kawaida la nyumbani: si kivumishi 'tamu', si asali wala shira, si maana ya kikemia (sukari ya damu), wala si mwanzi wa sukari.",
   },
   family: {
+    itb: "assukkar",
+    mrq: "other",
+    srb: "sharkara",
+    kgg: "chini",
     aiw: "other",
     hup: "other",
     kio: "other",
@@ -869,6 +873,10 @@ WORDS.sugar = {
     other: { color: "#6b7280", emoji: "🌾", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
   data: {
+    itb: ["asookar", "asookar"],
+    mrq: ["mānini", "maːnini"],
+    srb: ["sakkara", "sakkara"],
+    kgg: ["tsini", "tsini"],
     aiw: ["malqi", "malkʼi"],
     hup: ["kinsintoʼ", "kinsintoʔ"],
     kio: ["pénhą̀:", "pénhã̀ː"],
@@ -1227,7 +1235,7 @@ WORDS.sugar = {
     hai: ["súgaa", "súɡaː"],
     kgp: ["asuka", "aʃuka"],
     khw: ["شوکھور", "ʃoˈkʰor"],
-    huv: ["asucre", "asukre"],
+    huv: ["asucre", "asukɾe"], // was ["asucre", "asukre"] (vi dialect rules 2026-10-06)
     tzo: ["asuka", "ʔasuka"],
     tzh: ["sakil asukal", "sakil asukal"],
     ctu: ["asukal", "asukal"],
@@ -1332,7 +1340,7 @@ WORDS.sugar = {
     ho: ["suga", "suɡa"],
     mg: ["siramamy", "siraˈmami"],
     fj: ["suka", "suka"],
-    ilo: ["asukar", "ʔaˈsukar"],
+    ilo: ["asukar", "ʔaˈsukaɾ"], // was ["asukar", "ʔaˈsukar"] (vi dialect rules 2026-10-06)
     hil: ["kalamay", "kalamaj"],
     war: ["asukar", "ʔaˈsukaɾ"],
     wls: ["suka", "suka"],
@@ -1367,7 +1375,7 @@ WORDS.sugar = {
     gay: ["gule", "ɡulə"],
     ljp: ["gula", "ɡula"],
     ace: ["saka", "saka"],
-    ff: ["sukar", "sukar"],
+    ff: ["sukar", "sukaɾ"], // was ["sukar", "sukar"] (vi dialect rules 2026-10-06)
     ssw: ["shukela", "ʃukela"],
     aii: ["ܫܟܪ", "ʃɪkkar"],
     wo: ["suuker", "suːkɛr"],
@@ -1540,7 +1548,7 @@ WORDS.sugar = {
     kk: ["қант", "qɑnt"],
     ky: ["кант", "qɑnt"], // was ["кант", "kant"] (vi dialect rules 2026-10-06)
     uz: ["shakar", "ʃaˈkar"],
-    tk: ["şeker", "ʃeˈker"],
+    tk: ["şeker", "ʃeˈkeɾ"], // was ["şeker", "ʃeˈker"] (vi dialect rules 2026-10-06)
     ar_eg: ["سكر", "ˈsukkar"],
     ar_gulf: ["سكر", "ˈsukkar"],
     ar_iq: ["سكر", "ˈsukkar"],

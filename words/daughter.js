@@ -515,7 +515,7 @@ WORDS.daughter = {
     lg: ["omuwala", "omuwala"],
     ki: ["mwarĩ", "mwaɾe"],
     tn: ["morwadi", "morwadi"],
-    st: ["moradi", "moɾadi"],
+    st: ["moradi", "moradi"],
     nso: ["morwedi", "morwedi"],
     nd: ["indodakazi", "indodakazi"],
     nbl: ["indodakazi", "indodakazi"],
@@ -845,7 +845,7 @@ WORDS.daughter = {
     jvn: ["anak wédok", "anaʔ wedɔʔ"],
     fj: ["luve yalewa", "luβe jalewa"],
     rtm: ["leʻ hạni", "leʔ hɔni"],
-    pau: ["ngalek el redil", "ŋalɛk ɛl rəðil"],
+    pau: ["ngalek el redil", "ŋalɛk ɛl ɾəðil"],
     ho: ["natuna kekeni", "natuna kekeni"],
     emi: ["natuna vause", "natuna vause"],
     hot: ["nalavi", "nalavi"],
@@ -1161,6 +1161,9 @@ WORDS.daughter = {
     sdo: ["anak dayung", "anak dajuŋ"],
     kio: ["í:thá:", "íːtʰáː"],
     kwa: ["tôg", "tôɡ"],
-    dyo: ["ajaŋa", "aɟaŋa"]
+    dyo: ["ajaŋa", "aɟaŋa"],
+    kgg: ["niŋgitse", "niŋɡitse"],
+    mvf: ["xjun", "ɕʥun"],
+    mrq: ["moʻī", "moʔiː"]
   },
 };

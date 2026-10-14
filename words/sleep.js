@@ -480,7 +480,7 @@ WORDS.sleep = {
     fur: ["durmî", "durˈmiː"],
     ast: ["dormir", "doɾˈmiɾ"],
     ext: ["dormil", "doɾˈmil"],
-    fax: ["durmir", "durˈmir"],
+    fax: ["durmir", "duɾˈmiɾ"],
     an: ["dormir", "doɾˈmiɾ"],
     rup: ["dormu", "ˈdormu"],
     wa: ["doirmi", "dwaʁˈmi"],
@@ -1194,12 +1194,13 @@ WORDS.sleep = {
     doi: ["सौना", "sɔːnaː"],
     bum: ["ôyo", "ɔjo"],
     cjs: ["узу", "uzu"],
-    ets: ["woẹre", "woɛre"],
+    ets: ["woẹre", "woɛɾe"],
     pmh: ["सुव", "suʋa"],
     wic: ["hiʔinck", "hiʔintsk"],
     yuc: ["tsa", "tsa"],
     sdo: ["buʼus", "buʔus"],
     hup: ["mił", "miɬ"],
-    aiw: ["leema", "leːma"]
+    aiw: ["leema", "leːma"],
+    wrh: ["yuray", "ˈjuɻaj"]
   },
 };

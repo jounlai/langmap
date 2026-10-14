@@ -1083,7 +1083,7 @@ WORDS.wine = {
     aa: ["qinabak bicsen kamri", "ʕinabak biħsen kamri"], // was ["qinab kamri", "ʕinab kamri"] (vi dialect rules 2026-10-06) // was ["kamri", "kamri"] (vi dialect rules 2026-10-06)
     kfa: ["ದ್ರಾಕ್ಷಿರಸ", "draːkʂirasa"], // was ["ದ್ರಾಕ್ಷಿರಸ", "d̪raːkʂirasa"] (vi dialect rules 2026-10-06)
     cni: ["ovaja", "oβaha"],
-    ilo: ["arak", "ˈʔarak"],
+    ilo: ["arak", "ˈʔaɾak"], // was ["arak", "ˈʔarak"] (vi dialect rules 2026-10-06)
     bik: ["arak", "ˈʔaɾak"],
     qxq: ["şərab", "ʃærɑb"],
     yue_zs: ["葡萄酒", "pʰu˥˩ tʰou˥˩ tsɐu˨˩˧"], // was ["葡萄酒", "pʰu˨˩ tʰou˨˩ tsɐu˧˥"] (r46 fix 2026-10-03)
@@ -1493,7 +1493,7 @@ WORDS.wine = {
     // --- Turkic — şarap from Arabic, but bor is the old native word ---------
     tt: ["шәраб", "ʃærab"],
     ba: ["шарап", "ʃarap"],
-    tk: ["şerap", "ʃerap"],
+    tk: ["şerap", "ʃeɾap"], // was ["şerap", "ʃerap"] (vi dialect rules 2026-10-06)
     ug: ["شاراب", "ʃɑrɑp"], // was ["شاراب", "ʃaˈrab"] (vi dialect rules 2026-10-06)
     azb: ["شراب", "ʃæˈɾab"],
     xqa: ["bor", "bor"],

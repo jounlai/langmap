@@ -289,7 +289,7 @@ WORDS.book = {
     ium: ["sou", "sou˧"],
     iba: ["bup", "bup"],
     ilo: ["libro", "ˈlibɾo"],
-    ff: ["deftere", "deftere"],
+    ff: ["deftere", "defteɾe"],
     fon: ["wémà", "wémà"],
     gej: ["xoma", "xoma"],
     gaa: ["wolo", "wolo"],
@@ -307,7 +307,7 @@ WORDS.book = {
     fud: ["tosi", "tosi"],
     ho: ["buka", "ˈbuka"],
     kos: ["puk", "puk"],    // "Puk ac Mwe rit" heads the Kosraean publications section on jw.org, and the 1902 Kosraean NT spells it buk ("BUK LUN RUT"); modern Lee orthography does not write voiced stops. Not to be confused with puhk 'sand'. Same English loan as Chuukese and Mokilese puk.
-    itz: ["Juʼumilxok", "huʔumilʃok"],  // ALMG's Vocabulario Itzaʼ keeps a clean three-way split: juʼum 'paper', juʼumilxok 'paper-of-reading' = libro, juʼumiltzʼiibʼ 'paper-of-writing' = cuaderno. Not in ALMG's own neologism list, so it is not a coinage.
+    itz: ["juʼumilxok", "huʔumilʃok"],  // ALMG's Vocabulario Itzaʼ keeps a clean three-way split: juʼum 'paper', juʼumilxok 'paper-of-reading' = libro, juʼumiltzʼiibʼ 'paper-of-writing' = cuaderno. Not in ALMG's own neologism list, so it is not a coinage.
     enq: ["buku", "buku"],   // SIL's Enga Dictionary on Webonary, which keeps pepa 'paper' and yoko 'leaf, leaf of paper' as separate entries — so this is not a written-thing catch-all. The source writes a tone mark (búku); this row marks neither tone nor, usually, stress.
     // Latin liber and Germanic *bōk- through the smaller west-European standards.
     kw: ["lyver", "ˈlɪvɛr"],   // kw.wikipedia's Lyver defines it as "sett a folennow kelmys war-barth yntra dew gudhlen" — pages bound between two covers — and names paper separately (folennow a baper), so the paper/book split is in the source.
@@ -790,7 +790,7 @@ WORDS.book = {
     emp: ["karta", "kaɾta"],
     chk: ["puk", "puk"],
     udi: ["гирк", "ɡirk"],
-    crn: ["yuʼuxari", "juʔuʃaɾi"],
+    crn: ["yuʼuxari", "juʔuʃaɽi"],
     cni: ["sankenarentsi", "saŋkenaɾentsi"],
     acu: ["papi", "papi"],
     ame: ["quelloc", "keʎok"],
@@ -1100,6 +1100,11 @@ WORDS.book = {
     kio: ["kút", "kút"],
     dyo: ["eliibar", "eliːbar"],
     hup: ["ʼa:kʼiwilaw", "ʔaːkʲʼiwilaw"],
-    aiw: ["kilkima", "kilkima"]
+    aiw: ["kilkima", "kilkima"],
+    kgg: ["haq", "haq"],
+    wrh: ["garrandarang", "ˈɡarandaɻaŋ"],
+    srb: ["potti", "potti"],
+    mrq: ["kōtūʻomia", "koːtuːʔomia"],
+    itb: ["libro", "libro"]
   }
 };

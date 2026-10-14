@@ -1094,7 +1094,7 @@ WORDS.n99 = {
     her: ["omirongo muvyu na muvyu", "omiroŋɡo muvju na muvju"],
     hch: ["nauka tewiyari heimana tamamata heimana ʼatanauka", "nauka tewijaɾi heimana tamamata heimana ʔatanauka"], // was ["nauka tewiyari heimana tamamata heimana ʼatanauka", "nauka tewijari heimana tamamata heimana ʔatanauka"] (vi dialect rules 2026-10-06)
     gym: ["gre ketabkä bti krä jätäbti krä ökän", "ɡɾe ketabkɔ bti kɾɔ hɔtɔbti kɾɔ ɤkɔn"], // was ["gre ketabkä bti krä jätäbti krä ökän", "ɡɾe ketabkæ bti kɾæ hætæbti kɾæ ɤkæn"] (vi dialect rules 2026-10-06)
-    gil: ["ruabwi ma ruaiwa", "ruabʷi ma ruaiwa"],
+    gil: ["ruabwi ma ruaiwa", "ɾuabʷi ma ɾuaiwa"], // was ["ruabwi ma ruaiwa", "ruabʷi ma ruaiwa"] (vi dialect rules 2026-10-06)
     gd: ["naoi-deug agus ceithir-fichead", "n̪ˠɯːi tʲiək akəs kʲehɪɾʲ fiçət"],
     gbm: ["निन्याणबे", "ninjaːɳbe"],
     gag: ["doksan dokuz", "doksan dokuz"],

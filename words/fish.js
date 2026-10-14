@@ -410,7 +410,7 @@ WORDS.fish = {
     ibb: ["iyak", "ijak"],
     urh: ["eri", "eɾi"],
     deg: ["esen", "esen"],
-    ets: ["eseri", "eseri"],
+    ets: ["eseri", "eseɾi"],
     iso: ["eri", "eɾi"],
     ha: ["kifi", "kiːfiː"],
     xed: ["klipi", "klipi"],

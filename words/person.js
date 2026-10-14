@@ -318,7 +318,7 @@ WORDS.person = {
     kab: ["bnadem", "bnadəm"],
     kac: ["masha", "məʃa˧˩"],
     kbd: ["цӏыху", "tsʼəxʷə"],
-    ket: ["кеʼт", "kʲɛʔt"],
+    ket: ["кеʼт", "kɛʔt"],
     kg: ["muntu", "muntu"],
     kha: ["briew", "briew"],
     khq: ["boro", "boro"],

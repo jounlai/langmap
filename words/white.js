@@ -527,7 +527,7 @@ WORDS.white = {
     hch: ["tuxame", "turame"],
     ngu: ["istak", "istak"],
     ppl: ["istak", "istak"],
-    crn: ["cuaínaraʼa", "kwaˈinaɾaʔa"],
+    crn: ["cuaínaraʼa", "kwaˈinaɽaʔa"],
     emy: ["sak", "sak"],
     p_ine: ["*h₂erǵ-", "h₂erǵ"],
     p_toc: ["*ārkwi", "aːrkwi"],   // Wiktionary PT (Adams 2013); A ārki, B ārkwi
@@ -680,7 +680,7 @@ WORDS.white = {
     nha: ["wilidi", "wilidi"],  // CHIRILA, Nhanda rows keyed to Blevins: wilidi 'white'. wiliri is in CHIRILA but in Payungu/Thalanyji/Jiwarli, meaning 'wide' — cross-language contamination.
     adt: ["upa", "upa"],
     nys: ["djardak", "dʒaɖak"],  // Whitehurst 1992, the CurtinX CAS1x glossary, the Noongar learner's guide and mayakeniny all give djardak/djaadak. The cell held tel, which is in none of them.
-    xul: ["daguru-gurag", "daɡuɾuɡuɾaɡ"],
+    xul: ["daguru-gurag", "daɡuɻuɡuɻaɡ"],
     wbt: ["mirtamirta", "miʈamiʈa"],
     mni: ["ꯑꯉꯧꯕ", "əŋəubə"],
     bpy: ["ধলা", "dʱɔla"],
@@ -788,7 +788,7 @@ WORDS.white = {
     ctg: ["ধলা", "dɔla"],
     mag: ["उज्जर", "udʒːər"],
     doi: ["चिट्टा", "tʃiʈːaː"],
-    moh: ["karà:ken", "kaɾàːken"],
+    moh: ["karà:ken", "karàːken"],
     cho: ["tohbi", "tohbi"],
     mus: ["hatke", "hatki"],
     apw: ["łigai", "ɬiɡai"],

@@ -1210,6 +1210,8 @@ WORDS.five = {
     haj: ["pac", "patʃ"],
     asu: ["sano", "sano"],
     wic: ["iskwiːc", "iskʷiːts"],
-    koy: ["kʼeełtsʼidnaal", "kʼiːɬtsʼidnaːl"]
+    koy: ["kʼeełtsʼidnaal", "kʼiːɬtsʼidnaːl"],
+    myp: ["baágiso", "baáɡiso"],
+    itz: ["joʼ", "hoʔ"]
   },
 };

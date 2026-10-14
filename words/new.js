@@ -202,7 +202,7 @@ WORDS.new = {
     ykg: ["ньидьэрпэ", "nʲidʲerpe"],
     yux: ["илльэ", "iʎʎə"],
     niv: ["чуз", "tʃʰuz"],
-    ket: ["киʼ", "kʲiʔ"],
+    ket: ["киʼ", "kiʔ"],
     my: ["အသစ်", "ʔəθɪʔ"],
     km: ["ថ្មី", "tʰməj"],
     lo: ["ໃໝ່", "maj˧"],
@@ -1186,6 +1186,8 @@ WORDS.new = {
     kio: ["sɔ́ttèdɔ̀:", "sɔ́ttèdɔ̀ː"],
     iru: ["pudiya", "pudija"],
     kwa: ["bûj", "bûj"],
-    kfr: ["નયો", "nəjo"]
+    kfr: ["નયો", "nəjo"],
+    wrh: ["dhalanggirr", "ˈd̪alaŋɡir"],
+    kim: ["няа", "ɲaː"]
   }
 };

@@ -204,7 +204,7 @@ WORDS.black = {
     kk: ["қара", "qɑˈrɑ"],
     ky: ["кара", "qɑˈrɑ"],
     uz: ["qora", "qɒˈɾa"],
-    tk: ["gara", "ɡɑˈrɑ"],
+    tk: ["gara", "ɡɑˈɾɑ"],
     tt: ["кара", "qɑˈrɑ"],
     ba: ["ҡара", "qɑˈrɑ"],
     ug: ["قارا", "qɑˈrɑ"],
@@ -859,7 +859,7 @@ WORDS.black = {
     aa: ["datá", "data"],
     shy: ["aberkan", "abərkan"],
     kbp: ["kɩkpɛɛdɩm", "kɪkpɛːdɪm"],
-    sus: ["fɔɔrɛ", "fɔːɾɛ"],
+    sus: ["fɔɔrɛ", "fɔːrɛ"],
     toi: ["siya", "sija"],
     ksw: ["သူ", "θu"],
     pwo: ["ၥၧၫ့", "θə"],
@@ -1038,7 +1038,7 @@ WORDS.black = {
     emp: ["pãĩma", "pãĩma"],
     olo: ["mustu", "ˈmustu"],
     chk: ["chochol", "tʃotʃol"],
-    crn: ["xuʼumuaraʼa", "ʃuʔumwaɾaʔa"],
+    crn: ["xuʼumuaraʼa", "ʃuʔumwaɽaʔa"],
     crx: ["dulhgus", "duɬɡus"],
     cni: ["potsitari", "potsitaɾi"],
     ame: ["quellue", "keʎwe"],
@@ -1293,6 +1293,7 @@ WORDS.black = {
     trm: ["kāčå", "kaːtʃɔ"],
     kio: ["khǫ́:gyádɔ́:", "kʰṍːɡjádɔ́ː"],
     iru: ["karuppu", "kaɾupːu"],
-    hup: ["łiwhin", "ɬihʷin"]
+    hup: ["łiwhin", "ɬihʷin"],
+    yux: ["эмбэй", "embej"]
   },
 };

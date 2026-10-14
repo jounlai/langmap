@@ -275,7 +275,7 @@ WORDS.horse = {
     en_ca: ["horse", "hɔɹs"],
     en_app: ["horse", "hɔːɹs"],
     en_ie: ["horse", "hɔɹs"],
-    en_sco: ["horse", "hɔɾs"],
+    en_sco: ["horse", "hɔɹs"],
     en_in: ["horse", "hɔːrs"],
     en_ph: ["horse", "hɔɹs"],
     en_jam: ["horse", "hɔːs"],
@@ -720,7 +720,7 @@ WORDS.horse = {
     xsr: ["རྟ", "ta"],
     sgw: ["ፈረዝ", "fɐrɐz"],
     kxc: ["farta", "farta"],
-    ssy: ["faras", "faras"],
+    ssy: ["faras", "faɾas"],
     pap: ["kabai", "kaˈbai"],
     pis: ["hos", "hos"],
     ses: ["bari", "bari"],
@@ -1129,6 +1129,9 @@ WORDS.horse = {
     omc: ["col", "kol"],
     kio: ["tsę̂", "tsẽ̂"],
     iru: ["kutire", "kutiɾe"],
-    kwa: ["xabalʼ", "xabalʼ"]
+    kwa: ["xabalʼ", "xabalʼ"],
+    srb: ["kurta", "kurta"],
+    ude: ["муи", "mui"],
+    itb: ["kabaayo", "kabaajo"]
   }
 };

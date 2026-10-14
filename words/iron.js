@@ -581,7 +581,7 @@ WORDS.iron = {
     tyv: ["демир", "demir"],
     kim: ["дэмир", "demir"],
     dlg: ["тимир", "timir"],
-    tk: ["demir", "demir"],
+    tk: ["demir", "demiɾ"],
     ug: ["تۆمۈر", "tømyr"],
     bxr: ["түмэр", "tymer"],
     xal: ["төмр", "tøˈmər"],
@@ -602,7 +602,7 @@ WORDS.iron = {
     mnk: ["nee", "neː"],
     snk: ["mexe", "mexe"],
     men: ["kɔlu", "kɔlu"],
-    sus: ["wure", "wuɾe"],
+    sus: ["wure", "wure"],
     kpe: ["kɔli", "kɔli"],
     dnj: ["pȉɤ", "pȉɤ"],
     mev: ["pɛkulu", "pɛkulu"],
@@ -917,7 +917,7 @@ WORDS.iron = {
     lif: ["ᤑᤧᤴᤈᤣ᤹", "pʰɛndʒɛʔ"],
     sgw: ["ብረት", "bɨrɐt"],
     kxc: ["sipla", "sipla"],
-    ssy: ["birit", "birit"],
+    ssy: ["birit", "biɾit"],
     ksh: ["Ieser", "ˈiːzɐ"],
     arn: ["pañilwe", "paɲilwe"],
     enq: ["aene", "aene"],
@@ -1152,6 +1152,8 @@ WORDS.iron = {
     yuc: ["sine", "sine"],
     koy: ["tsobeeʼ", "tsʰobiːʔ"],
     trm: ["čumä", "tʃumæ"],
-    hup: ["tse:łchʼeʼ", "tseːɬtʃʼeʔ"]
+    hup: ["tse:łchʼeʼ", "tseːɬtʃʼeʔ"],
+    srb: ["luang", "luaŋ"],
+    mrq: ["puhipuhi", "puhipuhi"]
   },
 };

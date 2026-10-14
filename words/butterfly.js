@@ -529,7 +529,7 @@ WORDS.butterfly = {
     li: ["kapel", "kaˈpɛl"],
     sc: ["cabagasu", "kabaˈɡazu"],
     tsg: ["kabaꞌ-kabaꞌ", "kabaʔkabaʔ"],
-    mdh: ["paro-paro", "paroˈparo"],
+    mdh: ["paro-paro", "paɾoˈpaɾo"],
     ljp: ["halibambang", "halibambaŋ"],
     hoc: ["pampal", "pampal"],
     grt: ["me·pilip", "meʔpilip"],
@@ -912,6 +912,8 @@ WORDS.butterfly = {
     sdo: ["taribambang", "taribambaŋ"],
     kio: ["khɔ̀ibátôlé", "kʰɔ̀jbátôlé"],
     dyo: ["kapontipont", "kapontipont"],
-    hup: ["kʼidiwischʼe", "kʲʼidiwistʃʼe"]
+    hup: ["kʼidiwischʼe", "kʲʼidiwistʃʼe"],
+    srb: ["kungkudibud", "kuŋkudibud"],
+    mrq: ["pepe", "pepe"]
   },
 };

@@ -560,7 +560,7 @@ WORDS.iron = {
     kpv: ["кӧрт", "kɘrt"],
     koi: ["кӧрт", "kɘrt"],
     udm: ["корт", "kort"],
-    mhr: ["кӱртньӧ", "kyrtnʲø"],
+    mhr: ["кӱртньӧ", "kyrtɲø"],
     mrj: ["кӹртни", "kɯrtni"],
     myv: ["кшни", "kʃnʲi"],
     mdf: ["кшни", "kʃnʲi"],
@@ -1148,6 +1148,10 @@ WORDS.iron = {
     yle: ["nkichi", "ŋɡitʃi"],
     shy: ["uzzal", "uzːal"],
     tsi: ["tʼuʼutsk", "tʼuʔutsk"],
-    ain: ["カネ", "kane"]
+    ain: ["カネ", "kane"],
+    yuc: ["sine", "sine"],
+    koy: ["tsobeeʼ", "tsʰobiːʔ"],
+    trm: ["čumä", "tʃumæ"],
+    hup: ["tse:łchʼeʼ", "tseːɬtʃʼeʔ"]
   },
 };

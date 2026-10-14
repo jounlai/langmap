@@ -798,7 +798,7 @@ WORDS.person = {
     mzh: ["wichi", "witʃi"],
     arp: ["hinenítee", "hineníteː"],
     tar: ["pagótami", "paɡotami"],
-    bzd: ["pëʼ", "pəʔ"],
+    bzd: ["pëʼ", "pɪʔ"],
     kca: ["хо̆йат", "xojat"],
     yan: ["muih", "muih"],
     tok: ["jan", "jan"],
@@ -939,7 +939,7 @@ WORDS.person = {
     sce: ["kun", "kʰun"],
     mcf: ["matses", "matses"],
     zgh: ["ⴰⴼⴳⴰⵏ", "afɡan"],
-    bin: ["ọmwa", "ɔmwã"],
+    bin: ["ọmwa", "ɔʋ̃ã"],
     zh_cd: ["人", "zən˨˩"],
     zh_km: ["人", "ʐə̃ĩ˧˩"],
     zh_hf: ["人", "ʐən˦˥"],
@@ -1155,6 +1155,11 @@ WORDS.person = {
     qxq: ["adam", "aˈdam"],
     nmf: ["mi", "mi"],
     trm: ["madas", "madas"],
-    itz: ["mak", "mak"]
+    itz: ["mak", "mak"],
+    lbz: ["dangka", "daŋka"],
+    yuc: ["gotʼe", "ɡotʼe"],
+    uln: ["mensh", "mɛnʃ"],
+    kwa: ["dəw", "dəw"],
+    dyo: ["an", "an"]
   }
 };

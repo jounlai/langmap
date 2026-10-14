@@ -54,6 +54,7 @@ WORDS.we = {
     sw: "\"Sisi\", umbo la kamusi: kiwakilishi cha nafsi ya kwanza wingi katika umbo la kiima au umbo huru, katika usajili wa kawaida — si umbo la unyenyekevu, la heshima wala la kifalme. Pale lugha inapotofautisha kisarufi \"sisi\" kinachomjumuisha msikilizaji na \"sisi\" kisichomjumuisha, maumbo yote mawili huandikwa, kinachojumuisha kwanza, na ramani huzipa lugha hizo rangi yake. Huhesabiwa tofauti iliyo katika viwakilishi huru pekee; ikiwa iko katika kiambishi cha kitenzi tu, lugha huhesabiwa kuwa na neno moja.",
   },
   family: {
+    wic: "clusive",
     p_jpk: "unknown",
     oko: "unknown",
     p_ryu: "unknown",
@@ -1950,7 +1951,7 @@ WORDS.we = {
     wa: ["nos", "nɔ"], // was ["nos", "nɔs"] (vi dialect rules 2026-10-06)
     kpv: ["ми", "mi"],
     koi: ["ми", "mi"],
-    udm: ["асьмеос / ми", "asʲmeos / mi"],
+    udm: ["асьмеос / ми", "aɕmeos / mi"], // was ["асьмеос / ми", "asʲmeos / mi"] (vi dialect rules 2026-10-06)
     mhr: ["ме", "me"],
     mrj: ["мӓ", "mæ"],
     myv: ["минь", "mʲiɲ"], // was ["минь", "minʲ"] (vi dialect rules 2026-10-06)
@@ -2371,7 +2372,7 @@ WORDS.we = {
     pmy: ["kitorang", "kitoraŋ"],
     pot: ["ginan / ninan", "ɡinan / ninan"], // was ["kinan / ninan", "kinan / ninan"] (vi dialect rules 2026-10-06)
     pzh: ["ita / yami", "ita / jami"],
-    wic: ["—", "—"],
+    wic: ["naciraːkʔih / nacaːkʔih", "natsiɾaːkʔih / natsaːkʔih"],
     wuu_jh: ["我郎", "ɑ˥˧˥ lɑŋ˧˩˧"], // was ["我郎", "ŋu˩˧ laŋ˩˧"] (r48 fix 2026-10-03)
     wuu_jx: ["伲", "ɲi˨˧"],
     yue_zs: ["我哋", "ŋɔ˨˩˧ ti˧˧"], // was ["我哋", "ŋɔ˩˧ tei˨"] (vi dialect rules 2026-10-06)

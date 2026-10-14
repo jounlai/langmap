@@ -418,7 +418,7 @@ WORDS.new = {
     ruq: ["nou", "now"],
     kpv: ["выль", "vɨʎ"],
     koi: ["виль", "viʎ"],
-    udm: ["выль", "vɨlʲ"],
+    udm: ["выль", "vɨʎ"],
     mhr: ["у", "u"],
     mrj: ["у", "u"],
     myv: ["од", "od"],
@@ -1178,6 +1178,14 @@ WORDS.new = {
     blt: ["ꪻꪢ꪿", "maɯ˦˥"],
     nmn: ["ǁqṵ", "ǁqṵ"],
     itz: ["tumunbʼen", "tumunɓen"],
-    pot: ["wshkeya", "wʃkəja"]
+    pot: ["wshkeya", "wʃkəja"],
+    wic: ["hoʔos", "hoʔos"],
+    koy: ["atʼaghłdeeʼee", "atʼaɣɬdiːʔiː"],
+    sdo: ["bauh", "bauh"],
+    kao: ["kuta", "kuta"],
+    kio: ["sɔ́ttèdɔ̀:", "sɔ́ttèdɔ̀ː"],
+    iru: ["pudiya", "pudija"],
+    kwa: ["bûj", "bûj"],
+    kfr: ["નયો", "nəjo"]
   }
 };

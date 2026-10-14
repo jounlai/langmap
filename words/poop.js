@@ -909,6 +909,7 @@ WORDS.poop = {
     ng: ["omapumba", "omapumba"],
     dje: ["toosi", "toːsi"],
     tlh: ["qeQ", "qʰɛqχ"],
-    bft: ["སྐྱག་པ", "kjakpa"]
+    bft: ["སྐྱག་པ", "kjakpa"],
+    omc: ["ñiet", "ɲiet"]
   },
 };

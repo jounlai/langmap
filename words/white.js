@@ -374,7 +374,7 @@ WORDS.white = {
     xed: ["ŋúhlín", "ŋúɬín"],
     dbq: ["màbɨ̀rrɨn", "màbɨ̀rːɨn"],
     wo: ["weex", "wɛːx"],
-    srr: ["rangu", "raŋɡu"],
+    srr: ["rangu", "ɾaŋɡu"],
     so: ["cad", "ʕad"],
     om: ["adii", "adiː"],
     rw: ["umweru", "umweru"],
@@ -674,7 +674,7 @@ WORDS.white = {
     aoz: ["mutiʼ", "mutiʔ"],
     bi: ["waet", "waet"],
     pjt: ["piṟanpa", "piɻanpa"],
-    wbp: ["kardirri", "kaɖiɾi"],
+    wbp: ["kardirri", "kaɽiri"],
     piu: ["tjulkura", "culkuɻa"],
     aer: ["mperlkere", "mpeɭkeɾe"],
     nha: ["wilidi", "wilidi"],  // CHIRILA, Nhanda rows keyed to Blevins: wilidi 'white'. wiliri is in CHIRILA but in Payungu/Thalanyji/Jiwarli, meaning 'wide' — cross-language contamination.
@@ -975,7 +975,7 @@ WORDS.white = {
     orv: ["бѣлъ", "bʲelŭ"],
     sukh: ["ขาว", "kʰaːw"], // r57: xaːw (Proto-Tai *x) held — the word is spelled ข, not ฃ; Sukhothai value unconfirmed
     onw: ["ⳟⲟⲩⲗⲟⲩ", "ŋulu"],
-    qwc: ["yuraq", "juraq"],
+    qwc: ["yuraq", "juɾaq"],
     chb: ["apquyhyzyn mague", "apkɨhɨzɨn maɡwe"],
     omy: ["putih", "putih"],
     osn: ["bodas", "bodas"],
@@ -1203,6 +1203,14 @@ WORDS.white = {
     anu: ["tar", "tar"],
     gej: ["ɣe", "ɣe"],
     olk: ["aral", "aɻal"],
-    nmn: ["ǃnúɲa", "ǃnuɲa"]
+    nmn: ["ǃnúɲa", "ǃnuɲa"],
+    wic: ["khac", "kʰats"],
+    yuc: ["ʼyaka", "ʔjaka"],
+    tus: ["uhwarya:keʼ", "uhwaɾjaːkeʔ"],
+    koy: ["lakkʼuł", "lakʼuɬ"],
+    sdo: ["budaʼ", "budaʔ"],
+    kio: ["tʼą́ydɔ́:", "tʼã́jdɔ́ː"],
+    iru: ["velle", "velːe"],
+    aiw: ["tsaami", "tsaːmi"]
   },
 };

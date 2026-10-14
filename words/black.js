@@ -277,7 +277,7 @@ WORDS.black = {
     mdf: ["равжа", "ˈravʒa"],
     koi: ["сьӧд", "ɕɘd"],
     kpv: ["сьӧд", "ɕɘd"],
-    udm: ["сьӧд", "sʲɘd"],
+    udm: ["сьӧд", "ɕɘd"],
     mhr: ["шеме", "ʃeme"],
 
     // --- Indo-Aryan / Indo-Iranian -------------------------------------
@@ -743,7 +743,7 @@ WORDS.black = {
     pon: ["toantoal", "tɔntɔl"],
     rtm: ["kele", "kele"],
     wba: ["ana", "ana"],
-    wbp: ["kirdily", "kiɖiʎ"],
+    wbp: ["kirdily", "kiɽiʎ"],
     ko_hg: ["까맣다", "k͈amatʰa"],
     ko_jl: ["까맣다", "k͈amatʰa"],
     nym: ["pi", "pi"],
@@ -1284,6 +1284,15 @@ WORDS.black = {
     wae: ["schwartz", "ʃvarts"],
     itz: ["bʼox", "ɓoʃ"],
     pot: ["mkedéwa", "mkədewa"],
-    p_viet: ["*-jəm", "-jəm"]
+    p_viet: ["*-jəm", "-jəm"],
+    wic: ["kaːrʔiːs", "kaːɾʔiːs"],
+    yuc: ["ʼispi", "ʔispi"],
+    tus: ["kahésči", "kahestʃi"],
+    koy: ["daałitłʼits", "daːɬitɬʼits"],
+    sdo: ["bihis", "bihis"],
+    trm: ["kāčå", "kaːtʃɔ"],
+    kio: ["khǫ́:gyádɔ́:", "kʰṍːɡjádɔ́ː"],
+    iru: ["karuppu", "kaɾupːu"],
+    hup: ["łiwhin", "ɬihʷin"]
   },
 };

@@ -197,7 +197,7 @@ WORDS.green = {
     arq: ["خضر", "xdˤər"],
     as: ["সেউজীয়া", "xɛuzia"],
     ast: ["verde", "ˈbeɾðe"],
-    ay: ["chʼuxña", "tʃʼuxɲa"],
+    ay: ["chʼuxña", "tʃʼuχɲa"],
     ayl: ["أخضر", "ˈʔaxdˤar"],
     azb: ["یاشیل", "jaˈʃɯl"],
     ba: ["йәшел", "jæˈʃel"],
@@ -307,7 +307,7 @@ WORDS.green = {
     kaw: ["ꦲꦶꦗꦺꦴ", "hidʒo"],
     kca: ["восты", "ˈwostɪ"],
     kea: ["verdi", "ˈveɾdi"],
-    kek: ["rax", "raʃ"],
+    kek: ["rax", "ɾaʃ"],
     ket: ["съʼнь", "sʌʔɲ"],
     khb: ["ᦵᦃᧁ", "xew˥"],
     khv: ["хъаилӏе", "qaiˈtɬe"],
@@ -684,7 +684,7 @@ WORDS.green = {
     atj: ["ocawackwaw", "oʃawaʃkwaw"],
     tdh: ["गिगिम", "ɡiɡim"],
     zts: ["nga", "ŋa"],
-    mix: ["kuii", "kwìjí"],
+    mix: ["kuii", "kʷìjí"],
     rmf: ["grönt", "ɡrønt"],
     mus: ["lane", "lani"],
     chf: ["yäx", "jɨʃ"],
@@ -1016,7 +1016,7 @@ WORDS.green = {
     pal: ["𐭮𐭯𐭦", "sabz"],
     cop: ["ⲟⲩⲟⲧⲟⲩⲉⲧ", "uotuet"],
     din: ["tɔ̈c", "tɔtʃ"],
-    kwa: ["mɨ̃̂", "mɨ̃̂"],
+    kwa: ["mɨ̃̌h", "mɨ̃̌h"],
     kjj: ["сыб", "sɨb"],
     nus: ["tɔc", "tɔc"],
     rmt: ["axḍar", "axdˤar"],
@@ -1049,6 +1049,11 @@ WORDS.green = {
     mrq: ["ʻoutiteʻe", "ʔoutiteʔe"],
     p_jpn: ["*awo", "awo"],
     ada: ["mumu", "mumu"],
-    iso: ["ọrọrọ", "ɔɾɔɾɔ"]
+    iso: ["ọrọrọ", "ɔɾɔɾɔ"],
+    wic: ["kawʔac", "kawʔats"],
+    yuc: ["hidzv", "hidzʌ̃"],
+    tus: ["uhé:reh", "uheːɾeh"],
+    sdo: ["maraʼ", "maraʔ"],
+    kio: ["sɔ́ihyé:dɔ̀:", "sɔ́jhjéːdɔ̀ː"]
   }
 };

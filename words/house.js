@@ -1182,7 +1182,7 @@ WORDS.house = {
     mfa: ["ghumoh", "ɣumɔh"],
     mtq: ["nhà", "ɲaː"],
     tyz: ["rườn", "rɨən˧˨"],
-    kjp: ["—", "—"],
+    kjp: ["ၯိင်း", "ɣéiɴ"],
     kac: ["nta", "n̩ta˥˩"],
     wbm: ["nyiex", "ɲiɛʔ"],
     srh: ["ched", "tɕed"],

@@ -579,7 +579,7 @@ WORDS.nose = {
     mui: ["idung", "iduŋ"],
     sas: ["irung", "iruŋ"],
     kha: ["khmut", "kʰmut"],
-    mns: ["нёл", "ɲol"],
+    mns: ["нёл", "nʲol"],
     tsg: ["ilung", "ˈʔiluŋ"],
     gbm: ["नाक", "naːk"],
     kfy: ["नाक", "naːk"],
@@ -1073,7 +1073,7 @@ WORDS.nose = {
     mix: ["xichi", "ʃìtʃì"],
     deg: ["isuveny", "isuveɲ"],
     huv: ["oxing", "oʃiŋ"],
-    shp: ["rekin", "ɾɨkin"],
+    shp: ["rekin", "ɻɨkin"],
     crn: ["tzúʼuri", "ˈtsuʔuri"],
     crx: ["ʼunintsis", "ʔunintsis"],
     cni: ["noirina", "noiɾina"],
@@ -1181,6 +1181,11 @@ WORDS.nose = {
     nlc: ["u", "u"],
     luz: ["noft", "noft"],
     alq: ["nidjàsh", "nidʒaːʃ"],
-    wic: ["tisʔa", "tisʔa"]
+    wic: ["tisʔa", "tisʔa"],
+    yuc: ["dapʼi", "dapʼi"],
+    tus: ["uʼtyéhseh", "uʔtjehseh"],
+    omc: ["fon", "fon"],
+    koy: ["-ntsiyh", "ntsʰijh"],
+    hup: ["-nchwiwh", "-ntʃʷihʷ"]
   },
 };

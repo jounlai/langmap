@@ -81,8 +81,8 @@ WORDS.bird = {
     en_my: ["bird", "bɜːd"],
     tsz: ["kuini", "kʷini"],
     pmt: ["manu", "manu"],
-    bin: ["ahianmwẹ", "ahjãmwɛ̃"],
-    gun: ["guyra", "ɡɨˈɾa"],
+    bin: ["ahianmwẹ", "aɦjãʋ̃ɛ̃"],
+    gun: ["guyra", "ɡʷɨˈɾa"],
     ayl: ["طير", "tˤiːr"],
     abv: ["طير", "tˤeːr"],
     afb: ["طير", "tˤeːr"],
@@ -996,7 +996,7 @@ WORDS.bird = {
     izz: ["ẹnu", "ɛnu"],
     gaa: ["loofɔlɔ", "loːfɔlɔ"],
     tll: ["fudu", "fudu"],
-    bfa: ["kwenti", "kʷenti"],
+    bfa: ["kwenti", "kwenti"],
     aja: ["xevi", "xevi"],
     ng: ["ondhila", "onðila"],
     lue: ["kajila", "kaʒila"],
@@ -1200,6 +1200,10 @@ WORDS.bird = {
     dyo: ["esua", "ɛsua"],
     kfr: ["પંખી", "pəŋkʰiː"],
     wae: ["Vogoll", "ˈfoɡol"],
-    alq: ["pineshìnjish", "pineʃiːnʒiʃ"]
+    alq: ["pineshìnjish", "pineʃiːnʒiʃ"],
+    yuc: ["sene", "sene"],
+    tus: ["čiʼneʼ", "tʃiʔneʔ"],
+    sdo: ["manuk", "manuk"],
+    hup: ["kʼiya:wh", "kʲʼijaːhʷ"]
   },
 };

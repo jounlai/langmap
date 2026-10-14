@@ -741,7 +741,7 @@ WORDS.rain = {
     kri: ["ren", "ren"],
     kln: ["ropta", "ropta"],
     emk: ["sanji", "sandʒi"],
-    mwk: ["sanji", "saɲɟi"],
+    mwk: ["sanji", "sandʒi"],
     mlq: ["sanjiyo", "sandʒijo"],
     afb: ["مطر", "ˈmʊtˤər"],
     abv: ["مطر", "mətˤar"],
@@ -1173,6 +1173,15 @@ WORDS.rain = {
     piu: ["yipulyulyu", "jipuʎuʎu"],
     otq: ["ꞌye", "ʔje"],
     toj: ["jaʼ", "haʔ"],
-    itz: ["jaʼ", "haʔ"]
+    itz: ["jaʼ", "haʔ"],
+    lbz: ["wunda", "wunda"],
+    yuc: ["tsẽʼẽ", "tsẽʔẽ"],
+    tus: ["wé:tu:č", "weːtuːtʃ"],
+    sdo: ["ujan", "udʒan"],
+    umu: ["sóokŭlaan", "soːkə̆laːn"],
+    osa: ["nížu", "níʒu"],
+    dyo: ["kalub", "kalub"],
+    hup: ["na:nyay", "naːnjaj"],
+    cjm: ["ꨨꨎꩆ", "hadʑan"]
   },
 };

@@ -851,7 +851,7 @@ WORDS.snow = {
     toj: ["sakal kʼinal", "sakal kʼinal"], // lit. white land — Lenkersdorf
     nch: ["sital set", "sital set"], // lit. star-ice; contrasted with tesihuit hail at Job 38:22
     nhw: ["sitlal setl", "sitɬal setɬ"], // lit. star-ice; contrasted with tesihuitl hail
-    gun: ["yroʼy apĩgue", "ɨɾoʔɨ apĩŋɡwe"], // Dooley, Léxico Guarani Mbyá — Neve, granizo fino
+    gun: ["yroʼy apĩgue", "ɨɾoʔɨ apĩŋɡʷe"], // Dooley, Léxico Guarani Mbyá — Neve, granizo fino
     gn: ["yrypyʼa veve", "ɨɾɨpɨʔa veve"], // neologism, lit. flying ice; yrypyʼa alone is hielo,
     nmf: ["horam", "horam"],
     orh: ["ɪmana", "ɪmana"],
@@ -968,7 +968,7 @@ WORDS.snow = {
     niu: ["kiona", "kiona"],
     lun: ["—", "—"],
     seh: ["neve", "neve"],
-    bin: ["isonorhọ", "isonoɾɔ"],
+    bin: ["isonorhọ", "isonoɹ̝̊ɔ"],
     ng: ["olumi", "olumi"],
     ngl: ["mucharapo", "mutʃʰaɾapo"],
     mxv: ["nieve", "njeβe"],
@@ -997,6 +997,7 @@ WORDS.snow = {
     kpe: ["kɔ́lɛ", "kɔ́lɛ"],
     jiv: ["etsétsentai", "eˈtsetsentai"],
     kr: ["mafi", "mafi"],
-    laj: ["pee", "peː"]
+    laj: ["pee", "peː"],
+    tus: ["uwi:threh", "uwiːθɾeh"]
   }
 };

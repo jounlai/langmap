@@ -1178,7 +1178,7 @@ WORDS.five = {
     aau: ["iha sirom", "iha siɾom"],
     djr: ["goŋ-waŋgany", "ɡoŋwaŋɡaɲ"],
     fai: ["auok kal", "auok kal"],
-    wbp: ["rdaka-pala", "ɖakapala"],
+    wbp: ["rdaka-pala", "ɽakapala"],
     mpt: ["asuke asuke make", "asuke asuke make"],
     nlc: ["lambadya", "lambadja"],
     tdh: ["ङोले", "ŋole"],
@@ -1208,6 +1208,8 @@ WORDS.five = {
     puaz: ["*cipo", "cipo"],
     kjg: ["haː", "haː"],
     haj: ["pac", "patʃ"],
-    asu: ["sano", "sano"]
+    asu: ["sano", "sano"],
+    wic: ["iskwiːc", "iskʷiːts"],
+    koy: ["kʼeełtsʼidnaal", "kʼiːɬtsʼidnaːl"]
   },
 };

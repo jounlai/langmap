@@ -791,7 +791,7 @@ WORDS.milk = {
     rki: ["နို့", "no̰"],
     quc: ["leche", "letʃe"],
     ctu: ["chuʼ", "tʃuʔ"],
-    bzd: ["tsuʼdiö", "tsuʔdiø"],
+    bzd: ["tsuʼdiö", "tsuʔdiʊ"],
     cuk: ["nunis", "nunis"],
     chf: ["leche", "letʃe"],
     agu: ["lech", "letʃ"],
@@ -976,7 +976,7 @@ WORDS.milk = {
     abq: ["хшы", "χʃə"],
     bbo: ["ɲiɲien", "ɲiɲien"],
     tsu: ["nunʼu", "nunʔu"],
-    emi: ["rarumi ssu", "ɾarumi sːu"],
+    emi: ["rarumi ssu", "ɾaɾumi sːu"],
     sbp: ["utupyo", "utupjo"],
     yan: ["tāwas", "taːwas"],
     ygr: ["duna", "duna"],
@@ -1141,6 +1141,11 @@ WORDS.milk = {
     ii: ["ꀉꆂ", "a˧˦nɛ˧˧"],
     nha: ["milgi", "milɡi"],
     xng: ["ᠰᠦᠨ", "syn"],
-    itz: ["kaʼyim", "kaʔjim"]
+    itz: ["kaʼyim", "kaʔjim"],
+    yuc: ["toshi", "toʃi"],
+    tus: ["unehraʼseh", "unehɾaʔseh"],
+    sdo: ["susu", "susu"],
+    kio: ["kɔ́lzèp", "kɔ́lzèp"],
+    hup: ["-tsʼo:ʼ", "-tsʼoːʔ"]
   },
 };

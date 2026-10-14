@@ -174,7 +174,7 @@ WORDS.book = {
     ang: ["bōc", "boːk"],
     bar: ["Buach", "buɐx"],
     cy: ["llyfr", "ɬɨvr"],
-    dsb: ["knigły", "ˈknʲiɡwɨ"],
+    dsb: ["knigły", "ˈkɲiɡwɨ"],
     el_grc: ["βιβλίον", "biblíon"],
     el_kath: ["βιβλίον", "viˈvlion"],
     cv: ["кӗнеке", "kɘneˈɡe"],
@@ -338,7 +338,7 @@ WORDS.book = {
     // against 407_letter for each language so the book word is not just the letter word.
     liv: ["rǭntõz", "ˈrɔːntəz"],  // 407_letter is a different word, kēra. õ → ə follows this row's jõvā → jəvaː; NorthEuraLex itself writes rɔːntɨz.
     mdf: ["книга", "kɲiɡa"],   // Native кинига exists but loses badly in inflected prose on mdf.wikipedia (книгань 46, кинигань 5). 407_letter is сёрма.
-    mhr: ["книга", "knʲiɡa"],
+    mhr: ["книга", "kɲiɡa"],
     mrj: ["книгӓ", "kniɣæ"],   // The Hill Mari -ӓ form, not книга: mrj.wikipedia has 67 against 9. ӓ is U+04D3.
     mns: ["кнӣга", "kniːɣa"],  // NorthEuraLex offers нэпак too, but gives that same form for 407_letter — the paper/written-thing word, as with the Khanty нэпек this file already declined. ӣ precomposed U+04E3.
     myv: ["книга", "kɲiɡa"],   // Against myv.wikipedia's article title Кинига, which is a purist outlier: in inflected running prose книгась/книганть/книгань score 21/28/49 and кинигась/кинигань score 0.
@@ -761,7 +761,7 @@ WORDS.book = {
     jvn: ["buku", "buku"],
     wba: ["karata", "kaɾata"],
     arp: ["wo3onohóe", "woθonohóe"],
-    bzd: ["ayë́jkuö", "ajə́hkuø"],
+    bzd: ["ayë́jkuö", "ajɪ́hkuʊ"],
     tsu: ["tposʉ", "tposɨ"],
     bnn: ["patasan", "patasan"],
     hot: ["kapya", "kapja"],
@@ -784,7 +784,7 @@ WORDS.book = {
     mus: ["nakcokv", "naktʃokə"],
     lkt: ["wówapi", "wówapi"],
     huv: ["nawiig", "nawiːɡ"],
-    shp: ["kirika", "kiɾika"],
+    shp: ["kirika", "kiɻika"],
     chf: ["jun", "hun"],
     djk: ["buku", "buku"],
     emp: ["karta", "kaɾta"],
@@ -971,7 +971,7 @@ WORDS.book = {
     ers: ["ndʒondzɿpu", "ndʒo˥˥ndzɿ˥˥pu˧˧"],
     syc: ["ܟܬܒܐ", "kθaːβaː"],
     osn: ["apus", "apus"],
-    chb: ["quanne", "kwanːe"],
+    chb: ["quanne", "kʷanːe"],
     hy_grab: ["գիրք", "ɡiɾkʰ"],
     en_em: ["booke", "buːk"],
     de_lut: ["Buch", "buːx"],
@@ -1092,6 +1092,14 @@ WORDS.book = {
     com: ["tʉnihatʉbopʉ", "tɨnihatɨbopɨ"],
     haj: ["boi", "bɔɪ"],
     qxq: ["kitab", "kiˈtab"],
-    pot: ["mzen'egen", "mzənʔəɡən"]
+    pot: ["mzen'egen", "mzənʔəɡən"],
+    wic: ["khaːkiːsʔa", "kʰaːkiːsʔa"],
+    tus: ["uhyatéhsteh", "uhjatehsteh"],
+    wbl: ["китоб", "kitob"],
+    koy: ["bidohzilʼeeghee", "bidohzilʔiːɣiː"],
+    kio: ["kút", "kút"],
+    dyo: ["eliibar", "eliːbar"],
+    hup: ["ʼa:kʼiwilaw", "ʔaːkʲʼiwilaw"],
+    aiw: ["kilkima", "kilkima"]
   }
 };

@@ -1115,7 +1115,7 @@ WORDS.n99 = {
     cbk: ["noventa y nueve", "noˈbenta i ˈnwebe"],
     cab: ["gádürü-wein-díisi-néfu", "ɡadɨɾɨ wein diːsi nefu"],
     bzj: ["nainti-nain", "nainti nain"],
-    bzd: ["dabom su̱li̱yök ki̱ su̱li̱tu", "dabom sũlĩjøk kĩ sũlĩtu"],
+    bzd: ["dabom su̱li̱yök ki̱ su̱li̱tu", "dabom sũlĩjʊk kĩ sũlĩtu"], // was ["dabom su̱li̱yök ki̱ su̱li̱tu", "dabom sũlĩjøk kĩ sũlĩtu"] (vi dialect rules 2026-10-06)
     bxr: ["ерэн юһэн", "jereŋ juheŋ"], // was ["ерэн юһэн", "jeren juhen"] (vi dialect rules 2026-10-06)
     bxk: ["kamakhumi tisa na tisa", "kamaxumi tisa na tisa"],
     bum: ["mewôm ébul a ébul", "mewɔm ebul a ebul"],

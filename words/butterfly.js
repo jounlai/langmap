@@ -908,6 +908,10 @@ WORDS.butterfly = {
     zh_jh: ["蝴蝶", "xu˩˧ tieʔ˥˥"],
     wuu_hz: ["蝴蝶儿", "ɦu˨˩˧ dieʔ˨ əl˨˩˧"],
     saq: ["sampiripiri", "sampiripiri"],
-    p_viet: ["*paːmʔ", "paːmʔ"]
+    p_viet: ["*paːmʔ", "paːmʔ"],
+    sdo: ["taribambang", "taribambaŋ"],
+    kio: ["khɔ̀ibátôlé", "kʰɔ̀jbátôlé"],
+    dyo: ["kapontipont", "kapontipont"],
+    hup: ["kʼidiwischʼe", "kʲʼidiwistʃʼe"]
   },
 };

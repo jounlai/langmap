@@ -284,7 +284,7 @@ WORDS.hundred = {
     fit: ["sata", "ˈsɑtɑ"],
     myv: ["сядо", "ˈsʲado"],
     mdf: ["сяда", "ˈsʲada"],
-    udm: ["сю", "sʲu"],
+    udm: ["сю", "ɕu"],
     kpv: ["сё", "ɕo"],
     koi: ["сё", "ɕo"],
     mhr: ["шӱдӧ", "ʃydø"],
@@ -1179,6 +1179,9 @@ WORDS.hundred = {
     xsr: ["ཟ་ཡི", "saji"],
     haj: ["so", "sɔ"],
     wae: ["Hunnert", "ˈhʊnːərt"],
-    tsi: ["tʼekʼyil", "tʼekʲʼil"]
+    tsi: ["tʼekʼyil", "tʼekʲʼil"],
+    yuc: ["ʼishtʼætʼe", "ʔiʃtʼætʼe"],
+    omc: ["na palæc", "na palæk"],
+    kio: ["kɔ́:dòkhį̀:", "kɔ́ːdòkʰĩ̀ː"]
   },
 };

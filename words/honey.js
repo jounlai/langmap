@@ -1153,6 +1153,11 @@ WORDS.honey = {
     nut: ["mèng thưưng", "mɛŋ˨˩ tʰɯːŋ˧˧"],
     wae: ["Hunig", "ˈhuniɡ"],
     itz: ["kabʼ", "kaɓ"],
-    pot: ["amo zisbakwet", "amo zisbakwət"]
+    pot: ["amo zisbakwet", "amo zisbakwət"],
+    tus: ["ruʼtahke uthré:weh", "ɾuʔtahke uθɾeːweh"],
+    kio: ["tʼèlséppènhà:", "tʼèlséppènhàː"],
+    kwa: ["næ̃̂g", "næ̃̂ɡ"],
+    osa: ["hkilǫ́ɣemąį", "hkilṍɣemãĩ"],
+    aiw: ["kuri", "kuri"]
   },
 };

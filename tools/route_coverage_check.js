@@ -123,7 +123,8 @@ const DEBT = {};
 // r103: bear 7 -> 10 — ada osisiblisi, iso adaka, bsq kìɖìǒ: Bible-attested words whose origin no source gives.
 // r107: we 36 -> 40 — ptai *raw, p_hmx *N-pɔu, p_ryu *wa, oko 吾里: one unlabelled reconstructed/attested form each, so 'unknown' by the we-column rule.
 // r108: we 40 -> 41 — p_jpk *wa (one unlabelled form).
-const UNDECIDED = { we: { route: 'unknown', max: 41 }, bear: { route: 'unknown', max: 10 }, foot: { route: 'unknown', max: 20 } };
+// r110: foot 20 -> 22 — ets iyekowẹ (ASJP foot only) and one more single-gloss foot fill; leg not attested.
+const UNDECIDED = { we: { route: 'unknown', max: 41 }, bear: { route: 'unknown', max: 10 }, foot: { route: 'unknown', max: 22 } };
 
 let violations = 0;
 const notes = [];

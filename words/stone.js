@@ -880,7 +880,7 @@ WORDS.stone = {
     mdh: ["watu", "waˈtu"],
     sdo: ["batu", "baˈtu"],
     pyu: ["barasa", "barasa"],
-    nia: ["kara", "kaɾa"],
+    nia: ["kara", "kara"],
     mrq: ["keʻa", "keʔa"],
     fud: ["maka", "maka"],
     pkp: ["watu", "watu"],
@@ -1198,6 +1198,10 @@ WORDS.stone = {
     dyo: ["ewal", "ewal"],
     har: ["ūn", "uːn"],
     nha: ["wurʼa", "wuɻʔa"],
-    wic: ["ʔikaʔa", "ʔikaʔa"]
+    wic: ["ʔikaʔa", "ʔikaʔa"],
+    yuc: ["ti", "ti"],
+    kao: ["bere", "beɾe"],
+    kio: ["tsʼó:", "tsʼóː"],
+    hup: ["tse", "tse"]
   },
 };

@@ -417,7 +417,7 @@ WORDS.silk = {
     new: ["रेसम", "ɾesəmə"],
     lus: ["maimaw", "maimɔ"],
     dz: ["འབུ་རས", "burɛː"],
-    nia: ["sotöra", "sotɤɾa"],
+    nia: ["sotöra", "sotɤra"],
     lhu: ["pu-pha", "pupʰa"],
     akb: ["surto", "surto"],
     kaa: ["jipek", "ʒipek"],
@@ -814,6 +814,7 @@ WORDS.silk = {
     khb: ["ᦶᦣ", "hɛː"],
     bum: ["silik", "silik"],
     wae: ["Siida", "ˈsiːda"],
-    pot: ["zénbawégen", "zenbaweɡən"]
+    pot: ["zénbawégen", "zenbaweɡən"],
+    sdo: ["sitara", "sitara"]
   }
 };

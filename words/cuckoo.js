@@ -436,7 +436,7 @@ WORDS.cuckoo = {
     crt: ["—", "—"],
     tpy: ["—", "—"],
     jup: ["—", "—"],
-    kwa: ["—", "—"],
+    kwa: ["ʔɔ̃t", "ʔɔ̃t"],
     emp: ["b̶ijũẽ", "ɓiˈhũẽ"],
     bjn: ["bubut", "ˈbubut"],
     mns: ["куккук", "kukˈkuk"],
@@ -548,6 +548,7 @@ WORDS.cuckoo = {
     dnj: ["gbídhō", "ɡbíɗō"],
     ce: ["оттйокх", "otːjoq"],
     pon: ["likopirei", "likopirei"],
-    sel: ["щяӄая", "ɕaqaja"]
+    sel: ["щяӄая", "ɕaqaja"],
+    kio: ["dɔ̀álkù:", "dɔ̀álkùː"]
   },
 };

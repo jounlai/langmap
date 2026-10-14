@@ -1165,6 +1165,11 @@ WORDS.egg = {
     gum: ["srug", "ʂuk"],
     nha: ["warla", "waɭa"],
     deg: ["ukiye ọhoho", "ukije ɔhɔhɔ"],
-    uby: ["dɛmatɕʼ", "dɛmatɕʼ"]
+    uby: ["dɛmatɕʼ", "dɛmatɕʼ"],
+    tus: ["uʼnhéhseh", "uʔnhehseh"],
+    omc: ["mellu", "meʎu"],
+    koy: ["kʼaghaazaʼ", "kʼaɣaːzaʔ"],
+    sdo: ["tulo", "tulo"],
+    hup: ["-we:wheʼ", "-weːhʷeʔ"]
   },
 };

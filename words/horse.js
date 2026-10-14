@@ -237,7 +237,7 @@ WORDS.horse = {
     ctu: ["kawayuʼ", "kawajuʔ"],
     cuk: ["moli", "moli"],
     ckt: ["конэкон", "konekon"],
-    alq: ["pejòshkwe", "peʒɔːʃkʷe"],
+    alq: ["pejòshkwe", "peʒɔːʃkwe"],
     arn: ["kawellu", "kaweʎu"],
     ay: ["kawallu", "kawaʎu"],
     crs: ["seval", "seval"],
@@ -1121,6 +1121,14 @@ WORDS.horse = {
     dyo: ["epiling", "epiliŋ"],
     itz: ["tzimin", "tsimin"],
     nha: ["nguutu", "ŋuːtu"],
-    deg: ["ạsu", "asʊ"]
+    deg: ["ạsu", "asʊ"],
+    lbz: ["yarraman", "jaɾaman"],
+    wic: ["kawaːrah", "kawaːɾah"],
+    yuc: ["pʼate", "pʼate"],
+    tus: ["aha:th", "ahaːθ"],
+    omc: ["col", "kol"],
+    kio: ["tsę̂", "tsẽ̂"],
+    iru: ["kutire", "kutiɾe"],
+    kwa: ["xabalʼ", "xabalʼ"]
   }
 };

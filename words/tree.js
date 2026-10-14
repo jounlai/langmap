@@ -109,7 +109,7 @@ WORDS.tree = {
       nez: ["tewlíikt", "tewlíːkt"],
       woe: ["ira", "iɻa"],
       pmt: ["rākau", "raːkau"],
-      bin: ["erhan", "eɾã"],
+      bin: ["erhan", "eɹ̝̊ã"],
       khw: ["کان", "kan"],
       xav: ["wede", "weˈde"],
       ter: ["tikóti", "tiˈkoti"],

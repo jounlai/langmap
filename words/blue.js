@@ -55,6 +55,12 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    hup: "grue",
+    kwa: "grue",
+    kio: "grue",
+    sdo: "borrowed",
+    tus: "distinct",
+    yuc: "grue",
     el_kath: "distinct",
     twm: "distinct",
     shy: "distinct",
@@ -930,6 +936,12 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    hup: ["łitsow", "ɬitsow"],
+    kwa: ["mɨ̃̌h", "mɨ̃̌h"],
+    kio: ["sɔ́ihyé:dɔ̀:", "sɔ́jhjéːdɔ̀ː"],
+    sdo: ["biru", "biru"],
+    tus: ["utihé:ryeh", "utiheːɾjeh"],
+    yuc: ["hidzv", "hidzʌ̃"],
     el_kath: ["κυανοῦς", "ciaˈnus"],
     twm: ["ŋᴀu53", "ŋᴀu˥˧"],
     shy: ["azenzari", "azənzari"],
@@ -1278,7 +1290,7 @@ WORDS.blue = {
     agu: ["xew", "ʂew"], // was ["xew", "ʃew"] (vi dialect rules 2026-10-06)
     poh: ["rax", "raʃ"],
     usp: ["xaar", "ʃaːr"],
-    kek: ["rax", "raʃ"],
+    kek: ["rax", "ɾaʃ"], // was ["rax", "raʃ"] (vi dialect rules 2026-10-06)
     cak: ["räx", "rəʃ"],
     chf: ["yäx", "jɨʃ"],
     tzh: ["yax", "jaʃ"],
@@ -1800,6 +1812,6 @@ WORDS.blue = {
     zh_tw: ["藍", "lan˧˥"],  // Taiwan Mandarin, traditional 藍 for the same term as zh.
     zu: ["luhlaza", "luˈɬaːza"],  // One basic term for blue and green. Blue is specified as luhlaza okwesibhakabhaka 'like the sky', green as luhlaza okotshani 'like grass'. Also 'raw, unripe, clear (of water)'. Cited as a relative stem to match -bomvu/-mhlophe/-mnyama in this row.
     zh_song: ["藍", "lam"],
-    qwc: ["anqas", "anqas"]
+    qwc: ["anqas", "aŋqas"], // was ["anqas", "anqas"] (vi dialect rules 2026-10-06)
   },
 };

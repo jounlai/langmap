@@ -880,7 +880,7 @@ WORDS.salt = {
     toc: ["mátzat", "mátsat"],
     huv: ["kiniük", "kiniɨk"],
     gym: ["mren", "mɾẽ"],
-    bzd: ["dayë", "dajə"],
+    bzd: ["dayë", "dajɪ"],
     cuk: ["balu", "palu"],
     chb: ["nygua", "nɨɡua"],
     cni: ["tivi", "tiβi"],
@@ -1265,6 +1265,12 @@ WORDS.salt = {
     com: ["onaabi", "onaːbi"],
     ahk: ["sa deuq", "sa˨˩dɤ̰˧"],
     ude: ["сʼаи", "sʔai"],
-    dyo: ["musis", "musis"]
+    dyo: ["musis", "musis"],
+    wic: ["kaːhiːc", "kaːhiːts"],
+    yuc: ["tapi", "tapi"],
+    tus: ["čikheʼ", "tʃikheʔ"],
+    sdo: ["guloʼ", "ɡuloʔ"],
+    kio: ["ɔ́:thą́tʼą́y", "ɔ́ːtʰã́tʼã́j"],
+    cjm: ["ꨦꨣꨩ", "saraː"]
   },
 };

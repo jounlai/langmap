@@ -299,7 +299,7 @@ WORDS.four = {
     vro: ["neli", "ˈneli"],
     kpv: ["нёль", "ɲoʎ"],
     koi: ["нёль", "ɲoʎ"],
-    udm: ["ньыль", "ɲɨlʲ"],
+    udm: ["ньыль", "ɲɨʎ"],
     mhr: ["ныл", "nəl"],
     mrj: ["нӹл", "nɯl"],
     myv: ["ниле", "ˈɲilʲe"],
@@ -735,7 +735,7 @@ WORDS.four = {
     frr: ["fjouer", "ˈfçɔʊ̯ɐ"],
     frr_amr: ["fjauer", "ˈfçaʊ̯ɐ"],
     ium: ["biei", "pjei˧"],
-    bzd: ["tkë́l", "tkə́l"],
+    bzd: ["tkë́l", "tkɪ́l"],
     enf: ["tet", "tæt"],
     ks: ["ژور", "tsoːr"],
     sdo: ["umpat", "umpat"],
@@ -1104,7 +1104,7 @@ WORDS.four = {
     wic: ["taːkwic", "taːkʷits"],
     tiw: ["yatapinti", "jatapinti"],
     bru: ["pôn", "põːn"],
-    wbp: ["jirrama-kari-jirrama-kari", "ɟiɾamakaɾiɟiɾamakaɾi"],
+    wbp: ["jirrama-kari-jirrama-kari", "ɟiramakariɟiramakari"],
     mhy: ["epat", "epat"],
     myx: ["tsine", "tsine"],
     sbp: ["sina", "sina"],
@@ -1234,6 +1234,10 @@ WORDS.four = {
     na: ["aeoq", "ˈæi̯ʌkʷ"],
     tpy: ["uʃtaxme", "uʃtaxme"],
     asu: ["ne", "ne"],
-    deg: ["ini", "ini"]
+    deg: ["ini", "ini"],
+    yuc: ["dæthlæ", "dæɬæ"],
+    omc: ["nopæt", "nopæt"],
+    koy: ["dinkʼee", "dinkʼiː"],
+    haj: ["চৗৰ", "tʃɯr"]
   },
 };

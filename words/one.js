@@ -506,7 +506,7 @@ WORDS.one = {
     luz: ['yak', 'jak'],
     osc: ['—', '—'],
     pkp: ["tayi", "taði"],
-    qxq: ['bir', 'biɾ'],
+    qxq: ["bir", "bir"],
     wls: ['tahi', 'tahi'],
     yug: ["ус", "us"],
     aau: ["kamon", "kamon"],

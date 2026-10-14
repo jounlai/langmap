@@ -530,7 +530,7 @@ WORDS.hundred = {
     // --- Africa --------------------------------------------------------------
     so: ["boqol", "boqol"],
     om: ["dhibba", "ɗibːa"],
-    ha: ["ɗari", "ɗariː"],
+    ha: ["ɗari", "ɗaɽiː"],
     wo: ["téeméer", "teːmeːr"],
     bm: ["kɛmɛ", "kɛmɛ"],
     ig: ["narị", "naɾɪ"],
@@ -1183,6 +1183,9 @@ WORDS.hundred = {
     yuc: ["ʼishtʼætʼe", "ʔiʃtʼætʼe"],
     omc: ["na palæc", "na palæk"],
     kio: ["kɔ́:dòkhį̀:", "kɔ́ːdòkʰĩ̀ː"],
-    srb: ["molloi-kudi", "molloikudi"]
+    srb: ["molloi-kudi", "molloikudi"],
+    pao: ["wahaʼyu manigimanoʼyu", "wahaʔju maniɡimanoʔju"],
+    gsw_w: ["hunnert", "ˈhʊnːərt"],
+    lij_t: ["sentu", "ˈsɛŋtu"]
   },
 };

@@ -67,6 +67,10 @@ WORDS.orange = {
     sw: "Chungwa — tunda tamu la jamii ya michungwa, na ramani ya majibu manne tofauti kwa swali lilelile. Tunda hili lilifika Ulaya mara mbili. Chungwa chungu lilikuja nchi kavu na biashara ya Kiajemi na Kiarabu enzi za kati, likibeba neno la Kisanskriti नारङ्ग: نارنج → Kihispania naranja, Kiitaliano arancia, Kifaransa na Kiingereza orange. Chungwa tamu lilikuja baharini katika karne ya 16 kwa meli za Kireno, na nusu ya Mediterania ya mashariki ikaliita tu kwa jina la wafanyabiashara hao — Kigiriki πορτοκάλι, Kituruki portakal, Kiarabu برتقال, Kiamhari ብርቱካን, Kijojia ფორთოხალი, Kiajemi پرتقال. Ulaya ya Kaskazini ilichukua jibu la tatu kutoka kwa wafanyabiashara wa Kiholanzi, walioliita \"tufaha kutoka Uchina\": sinaasappel, Apfelsine, апельсин, appelsiini. Na sehemu kubwa ya dunia iliendelea tu na neno lake yenyewe.",
   },
   family: {
+    cia: "local",
+    toc: "naranj",
+    sip: "local",
+    gay: "local",
     mrq: "naranj",
     srb: "local",
     bah: "naranj",
@@ -714,6 +718,10 @@ WORDS.orange = {
     local: {"color":"#6b7280","emoji":"🏡","en":"its own word","ja":"自前の語","ko":"고유어","zh":"自有的詞","yue":"自己本身嘅詞","vi":"từ của riêng mình","th":"คำของตัวเอง","id":"kata sendiri","hi":"अपना ही शब्द","de":"eigenes Wort","fr":"mot propre","it":"parola propria","es":"palabra propia","pt":"palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمته الخاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    cia: ["munte", "munte"],
+    toc: ["laxix", "laʃiʃ"],
+    sip: ["ཚ་ལུམ", "tsʰalum"],
+    gay: ["asam", "asam"],
     mrq: ["ʻānani", "ʔaːnani"],
     srb: ["kaməla", "kaməla"],
     bah: ["oreenge", "aɹiːndʒ"],
@@ -806,7 +814,7 @@ WORDS.orange = {
     fit: ["appelsiini", "ˈɑpːelsiːni"],
     tlh: ["tera' na'ran", "tʰɛrɑʔ nɑʔrɑn"], // was ["tera' na'ran", "tʰɛraʔ naʔran"] (vi dialect rules 2026-10-06)
     ab: ["апатырқал", "apʼatʼərkʰal"], // was ["апатырқал", "apatʼərkal"] (vi dialect rules 2026-10-06)
-    zne: ["oronzi", "oɾonzi"],
+    zne: ["oronzi", "oronzi"], // was ["oronzi", "oɾonzi"] (vi dialect rules 2026-10-06)
     nzi: ["akutue", "akutue"],
     seh: ["laranja", "larandʒa"],
     ada: ["akutu", "akutu"],
@@ -1010,7 +1018,7 @@ WORDS.orange = {
     en_my: ["orange", "ˈɔɹɪndʒ"], // was ["orange", "ˈɒɹɪndʒ"] (vi dialect rules 2026-10-06)
     pt_gw: ["laranja", "laˈranʒa"],
     ayl: ["برتقال", "burtuˈɡaːl"],
-    swb: ["trundra", "tɾundɾa"],
+    swb: ["trundra", "ʈuɳɖa"], // was ["trundra", "tɾundɾa"] (vi dialect rules 2026-10-06)
     es_pr: ["china", "ˈtʃina"],
     es_do: ["naranja", "naˈɾaŋha"],
     es_gt: ["naranja", "naˈɾaŋha"],
@@ -1350,7 +1358,7 @@ WORDS.orange = {
     zh_jn: ["橙", "tʂʰəŋ˦˨"], // was ["橙", "tʂʰɤŋ˦˨"] (vi dialect rules 2026-10-06)
     zh_km: ["橙", "tʂʰə̃ĩ˧˩"], // was ["橙", "tʂʰɤŋ˧˩"] (r48 fix 2026-10-03)
     zh_xa: ["橙", "tʂʰəŋ˨˦"], // was ["橙", "tʂʰɤŋ˨˦"] (vi dialect rules 2026-10-06)
-    qxq: ["portağal", "poɾtaˈɣal"],
+    qxq: ["portağal", "portaˈɣal"], // was ["portağal", "poɾtaˈɣal"] (vi dialect rules 2026-10-06)
     nan_xm: ["柑仔", "kam˦˦ ma˥˧"],
     nan_zz: ["柑仔", "kam˦˦ ma˥˧"],
     wuu_jh: ["橙", "dʑiŋ˧˩˧"],

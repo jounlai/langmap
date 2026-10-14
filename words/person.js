@@ -342,7 +342,7 @@ WORDS.person = {
     ksw: ["ပှၤ", "pɣa̤˨˩"],
     kum: ["адам", "aˈdam"],
     kw: ["den", "dɛːn"],
-    lad: ["persona", "perˈsona"],
+    lad: ["persona", "peɾˈsona"],
     laj: ["dano", "dano"],
     lbe: ["инсан", "insan"],
     lbj: ["མི", "mi"],
@@ -657,7 +657,7 @@ WORDS.person = {
     toi: ["muntu", "muntu"],
     dag: ["ninsala", "ninsala"],
     quc: ["winaq", "winaq"],
-    quz: ["runa", "runa"],
+    quz: ["runa", "ɾuna"],
     pwo: ["ၦၡၩ", "pə ɕa"],
     hni: ["col", "tsʰo˥˥"],
     lis: ["tsho-za", "tsʰo˦˦zɑ˧˩"],
@@ -1069,7 +1069,7 @@ WORDS.person = {
     en_ke: ["person", "ˈpɜːsən"],
     en_geordie: ["person", "ˈpøːsən"],
     en_est: ["person", "ˈpɜːsən"],
-    swb: ["mutru", "mutɾu"],
+    swb: ["mutru", "muʈu"],
     kpe: ["nuu", "nuː"],
     zdj: ["mndru", "mndʳu"],
     dsh: ["maadhat", "maːðat"],
@@ -1160,6 +1160,7 @@ WORDS.person = {
     yuc: ["gotʼe", "ɡotʼe"],
     uln: ["mensh", "mɛnʃ"],
     kwa: ["dəw", "dəw"],
-    dyo: ["an", "an"]
+    dyo: ["an", "an"],
+    bor: ["boe", "boe"]
   }
 };

@@ -117,7 +117,7 @@ WORDS.horse = {
     af: ["perd", "pɛrt"],
     lb: ["Päerd", "pɛːɐt"],
     yi: ["פֿערד", "fɛrd"],
-    fo: ["hestur", "ˈhɛstʊr"],
+    fo: ["hestur", "ˈhɛstʊɹ"],
     oc: ["caval", "kaˈβal"],
     co: ["cavallu", "kaˈvallu"],
     sc: ["cabaddu", "kaˈbaɖɖu"],
@@ -164,7 +164,7 @@ WORDS.horse = {
     zu: ["ihhashi", "iˈɦaːʃi"],
     xh: ["ihashe", "iˈhaʃe"],
     so: ["faras", "faras"],
-    rw: ["ifarashi", "ifaraʃi"],
+    rw: ["ifarashi", "ifaɾaʃi"],
     qu: ["kawallu", "kaˈwaʎu"],
     gn: ["kavaju", "kaʋaˈdʒu"],
     eo: ["ĉevalo", "tʃeˈvalo"],
@@ -648,7 +648,7 @@ WORDS.horse = {
     fan: ["nkabele", "ŋkabele"],
     ndc: ["hachi", "hatʃi"],
     rmy: ["grast", "ɡrast"],
-    nag: ["ghora", "ɡʱoɾa"],
+    nag: ["ghora", "ɡʱora"],
     rhg: ["gúra", "ɡura"],
     xnr: ["घोड़ा", "ɡʱoːɽaː"],
     bqi: ["اسب", "asb"],
@@ -849,7 +849,7 @@ WORDS.horse = {
     nap: ["cavallo", "kaˈvallə"],
     lrc: ["اسب", "æsb"],
     en_aave: ["horse", "hɔːs"],
-    zne: ["farasi", "faɾasi"],
+    zne: ["farasi", "farasi"],
     nan_hai: ["马", "vɛ˨˩˧"],
     ach: ["aguragura", "aɡuraɡura"],
     pcm: ["horse", "hɔs"],
@@ -1132,6 +1132,9 @@ WORDS.horse = {
     kwa: ["xabalʼ", "xabalʼ"],
     srb: ["kurta", "kurta"],
     ude: ["муи", "mui"],
-    itb: ["kabaayo", "kabaajo"]
+    itb: ["kabaayo", "kabaajo"],
+    gay: ["kude", "kudə"],
+    mlq: ["suwo", "suwo"],
+    gsw_w: ["Ross", "ros"]
   }
 };

@@ -125,7 +125,8 @@ const DEBT = {};
 // r108: we 40 -> 41 — p_jpk *wa (one unlabelled form).
 // r110: foot 20 -> 22 — ets iyekowẹ (ASJP foot only) and one more single-gloss foot fill; leg not attested.
 // r111: we 42 (yle nmo, one unlabelled NT form), bear 11 (kgg s˙i, Watters, no etymology), foot 23 (itz ok 'su pie', no leg word).
-const UNDECIDED = { we: { route: 'unknown', max: 42 }, bear: { route: 'unknown', max: 11 }, foot: { route: 'unknown', max: 23 } };
+// r112: bear 12 — yan dangkatakalbas (Bible, beside layan 'lion'), origin unknown.
+const UNDECIDED = { we: { route: 'unknown', max: 42 }, bear: { route: 'unknown', max: 12 }, foot: { route: 'unknown', max: 23 } };
 
 let violations = 0;
 const notes = [];

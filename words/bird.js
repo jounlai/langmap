@@ -971,7 +971,7 @@ WORDS.bird = {
     bts: ["manuk-manuk", "manukˈmanuk"],
     bxk: ["enyuni", "eɲuni"],
     dnj: ["bhȁan", "mã̏ː"],
-    nag: ["chiriya", "tʃiɾija"],
+    nag: ["chiriya", "tʃirija"],
     xnr: ["पंछी", "pəntʃʰiː"],
     bqi: ["بالنده", "bɒːlende"],
     tmh: ["ⴻⴳⴹⴻⴹ", "eɡədˤedˤ"],

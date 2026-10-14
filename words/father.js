@@ -455,7 +455,7 @@ WORDS.father = {
     vec: ["pare", "pare"],
     co: ["babbu", "ˈbabbu"],
     lij: ["poæ", "pwɛː"],
-    rgn: ["pêdar", "ˈpeːdaɾ"],
+    rgn: ["pêdar", "ˈpeːdar"],
     egl: ["pèder", "ˈpɛːder"],
     frp: ["pâre", "par"],
     ca: ["pare", "ˈpaɾə"],

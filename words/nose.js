@@ -74,7 +74,7 @@ WORDS.nose = {
     es_py: ["nariz", "naˈɾis"],
     es_pa: ["nariz", "naˈɾih"],
     en_my: ["nose", "noːs"],
-    pt_gw: ["naris", "naˈɾis"],
+    pt_gw: ["naris", "naˈris"],
     pmt: ["ihu", "ihu"],
     abv: ["خشم", "xaʃim"],
     afb: ["خشم", "xaʃim"],
@@ -266,7 +266,7 @@ WORDS.nose = {
     ug: ["بۇرۇن", "burun"],
     kk: ["мұрын", "mʊˈɾɯn"],
     ky: ["мурун", "muˈrun"],
-    uz: ["burun", "burun"],
+    uz: ["burun", "buɾun"],
     tk: ["burun", "buˈɾun"],
     mn_cn: ["ᠬᠠᠮᠠᠷ", "xamar"],
     mnc: ["ᠣᡶᠣᡵᠣ", "oforo"],
@@ -1186,6 +1186,8 @@ WORDS.nose = {
     tus: ["uʼtyéhseh", "uʔtjehseh"],
     omc: ["fon", "fon"],
     koy: ["-ntsiyh", "ntsʰijh"],
-    hup: ["-nchwiwh", "-ntʃʷihʷ"]
+    hup: ["-nchwiwh", "-ntʃʷihʷ"],
+    toc: ["kinkán", "kinkán"],
+    ewo: ["dzoe", "dzoe"]
   },
 };

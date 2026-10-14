@@ -292,7 +292,7 @@ WORDS.cuckoo = {
     frr: ["Kukütj", "kuˈkytj"],
     li: ["kókkók", "ˈkɔkɔk"],
     nn: ["gauk", "ɡæʉk"],
-    fo: ["geykur", "ˈtʃɛiːkʊr"],
+    fo: ["geykur", "ˈtʃɛiːkʊɹ"],
     fr_qc: ["coucou", "kuku"],
     fr_af: ["coucou", "kuku"],
     fr_be: ["coucou", "kuku"],

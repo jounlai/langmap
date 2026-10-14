@@ -545,7 +545,7 @@ WORDS.cockcrow = {
     nl_be: ["kukeleku", "kykələˈky"],
     ca_va: ["quiquiriquic", "kikiɾiˈkik"],
     gd: ["gog a ghuidhe ghaoidhe", "ˌkok ə ˌɣɯjə ˈɣɤjə"],
-    fo: ["kakkulárakó", "ˈkakːʊˌlɔaraˈkɔu"],
+    fo: ["kakkulárakó", "ˈkakːʊˌlɔaɹaˈkɔu"],
     lt: ["kakariekū", ""],
     ltg: ["kikerigū", ""],
     si: ["කුක්කු කූක් කූ", ""],

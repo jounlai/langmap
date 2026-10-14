@@ -571,7 +571,7 @@ WORDS.mountain = {
     toi: ["cilundu", "tʃilundu"],
     mnk: ["konkoo", "koŋkoː"],
     quc: ["juyubʼ", "xujuɓ"],
-    quz: ["urqu", "urqu"],
+    quz: ["urqu", "uɾqu"],
     ja_aom: ["山", "jama"],
     pwo: ["ခိၪလီၩ့", "kʰo lauɴ"],
     hni: ["haolgaoq", "xɔ˥˥ɡɔ˧˩"],
@@ -589,7 +589,7 @@ WORDS.mountain = {
     fan: ["nkol", "ŋkol"],
     ndc: ["mutunhu", "mutunʰu"],
     rmy: ["plaj", "plaj"],
-    nag: ["pahar", "pahaɾ"],
+    nag: ["pahar", "pahar"],
     rhg: ["faár", "faːr"],
     xnr: ["प्हाड़", "pʰaːɽ"],
     bqi: ["کُه", "koh"],
@@ -1153,6 +1153,10 @@ WORDS.mountain = {
     mrq: ["mōuka", "moːuka"],
     ude: ["вэ", "we"],
     mkz: ["umurafa", "umuˈrafa"],
-    itb: ["tokon", "tokon"]
+    itb: ["tokon", "tokon"],
+    mlq: ["kuro", "kuɾo"],
+    pzh: ["binayu", "binaju"],
+    sip: ["རི", "ri"],
+    lij_t: ["munte", "ˈmuŋte"]
   }
 };

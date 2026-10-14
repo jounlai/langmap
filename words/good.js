@@ -812,7 +812,7 @@ WORDS.good = {
     pjt: ["palya", "paʎa"],
     wbp: ["ngurrju", "ŋurɟu"],
     piu: ["palya", "paʎa"],
-    aer: ["mwarre", "mʷarə"],
+    aer: ["mwarre", "mʷaɾə"],
     nha: ["kuʼarlu", "kuʔaɭu"],
     olk: ["olong", "oloŋ"],
     adt: ["warnrdu", "waɳʈu"],

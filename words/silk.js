@@ -293,7 +293,7 @@ WORDS.silk = {
     ny: ["silika", "silika"],
     tn: ["silika", "silika"],
     st: ["silika", "silika"],
-    rw: ["hariri", "hariri"],
+    rw: ["hariri", "haɾiɾi"],
     sn: ["sirika", "sirika"],
     rn: ["ihariri", "ihaɾiɾi"],
     ts: ["silika", "silika"],
@@ -562,7 +562,7 @@ WORDS.silk = {
     shn: ["လၢႆႈ", "laːj˧˨"],
     awa: ["रेसम", "reːsəm"],
     mzn: ["ابریشم", "abriʃem"],
-    ndc: ["sirika", "siɾika"],
+    ndc: ["sirika", "sirika"],
     ljp: ["sutra", "sutʁa"],
     de_at: ["Seide", "ˈsaɪ̯də"],
     en_app: ["silk", "sɪlk"],
@@ -816,6 +816,8 @@ WORDS.silk = {
     wae: ["Siida", "ˈsiːda"],
     pot: ["zénbawégen", "zenbaweɡən"],
     sdo: ["sitara", "sitara"],
-    mrq: ["kirita", "kiɾita"]
+    mrq: ["kirita", "kiɾita"],
+    gsw_w: ["Siida", "ˈsiːda"],
+    lij_t: ["sea", "ˈsɛːa"]
   }
 };

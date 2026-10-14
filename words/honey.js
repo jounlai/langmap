@@ -991,7 +991,7 @@ WORDS.honey = {
     bnn: ["vanu", "vanu"],
     kmh: ["bojm magi", "bodʒim maɡi"],
     pbb: ["çxhiʼdx mil", "tʃʰiʔdʲ mil"],
-    aer: ["arwengalkere", "arwəŋalkəɾə"],
+    aer: ["arwengalkere", "aɻʷəŋalkəɻə"],
     esu: ["paatakaaq", "paːtakaːq"],
     cr: ["ᐋᒨᓰᐦᒋᑲᐣ", "aːmoːsiːhtʃikan"],
     atj: ["amo naminas", "amo naminas"],
@@ -1137,7 +1137,7 @@ WORDS.honey = {
     gqu: ["mo42 ji31", "mo˦˨ ji˧˩"],
     yur: ["repchem", "ɹeptʃem"],
     cay: ["otséhsdaʼ", "otséhsdaʔ"],
-    rim: ["ruke", "ruke"],
+    rim: ["ruke", "ɾuke"],
     mjg: ["zangna bali", "tsaŋna pali"],
     agt: ["tahu", "tahu"],
     ake: ["teusan", "teusan"],
@@ -1160,6 +1160,11 @@ WORDS.honey = {
     osa: ["hkilǫ́ɣemąį", "hkilṍɣemãĩ"],
     aiw: ["kuri", "kuri"],
     kgg: ["twi-yi gidaŋ", "twiji ɡidaŋ"],
-    srb: ["adangda", "adaŋda"]
+    srb: ["adangda", "adaŋda"],
+    gay: ["madu", "madu"],
+    gsw_w: ["Hunig", "ˈhunɪɡ"],
+    lij_t: ["amé", "aˈme"],
+    cia: ["golano vani", "ɡolano βani"],
+    sad: ["chiŋ", "tʃʰiŋ"]
   },
 };

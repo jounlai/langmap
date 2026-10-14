@@ -890,7 +890,7 @@ WORDS.mouth = {
     pon: ["ahu", "aːu"],
     toj: ["tiʼ", "tiʔ"],
     agu: ["tziʼaj", "tsiʔah"],
-    aer: ["arrakerte", "arakəʈə"],
+    aer: ["arrakerte", "aɾakəʈə"],
     ker: ["ku", "ku"],
     ppl: ["ten", "teːŋ"],
     lld: ["bocia", "ˈbotʃa"],

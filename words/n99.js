@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    sip: "mult",
     zh_han: "mult",
     zh_song: "mult",
     got: "dec",
@@ -945,6 +946,7 @@ WORDS.n99 = {
     }
   },
   data: {
+    sip: ["དགུ་བཅུ་གོ་དགུ", "ɡuptɕu ɡoɡu"],
     zh_han: ["九十九", "kǝ́w ɡjǝp kǝ́w"],
     zh_song: ["九十九", "kiəu ʂi kiəu"],
     got: ["𐌽𐌹𐌿𐌽𐍄𐌴𐌷𐌿𐌽𐌳 𐌾𐌰𐌷 𐌽𐌹𐌿𐌽", "ˈniunteːhund jah niun"], // was ["𐌽𐌹𐌿𐌽𐍄𐌴𐌷𐌿𐌽𐌳 𐌾𐌰𐌷 𐌽𐌹𐌿𐌽", "ˈniunteːhund jah ˈniun"] (vi dialect rules 2026-10-06)
@@ -964,7 +966,7 @@ WORDS.n99 = {
     kpe: ["buu lɔ́ɔlu mɛi náaŋ kao lɔ́ɔlu mɛi náaŋ", "buː lɔ́ːlu mɛi náːŋ kao lɔ́ːlu mɛi náːŋ"],
     hui: ["pira dirani dira", "pira dirani dira"], // was ["pira dirani dira", "piɾa diɾani diɾa"] (vi dialect rules 2026-10-06)
     dag: ["kɔbigayinika", "kɔbiɡajinika"],
-    swb: ["tuswini na shendra", "tuswini na ʃendɾa"],
+    swb: ["tuswini na shendra", "tuswini na ʃeɳɖa"], // was ["tuswini na shendra", "tuswini na ʃendɾa"] (vi dialect rules 2026-10-06)
     nhx: ["noventa y nueve", "noˈbenta i ˈnwebe"],
     soa: ["เก้าสิบเก้า", "kaw˧ sip˧˥ kaw˧"],
     men: ["numu naani gbɔyɔngɔ maahu puu maahu taalu", "numu naːni ɡbɔjɔŋɡɔ maːhu puː maːhu taːlu"],

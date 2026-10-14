@@ -153,7 +153,7 @@ WORDS.wheel = {
     tr: ["tekerlek", "teceɾˈlec"],
     az: ["təkər", "tæˈcæɾ"],
     kk: ["дөңгелек", "døŋɡelek"],
-    uz: ["gʻildirak", "ɣildirak"],
+    uz: ["gʻildirak", "ɣildiɾak"],
     mn: ["дугуй", "dʊɡʊj"],
     ms: ["roda", "roda"],
     tl: ["gulong", "ɡuˈloŋ"],
@@ -532,7 +532,7 @@ WORDS.wheel = {
     ng: ["okugulutemba", "okuɡulutemba"],
     lue: ["lifumbo", "lifumbo"],
     lun: ["kafumbu", "kafumbu"],
-    ndc: ["vhiri", "viɾi"],
+    ndc: ["vhiri", "viri"],
     sg: ["ruu", "ruː"],
     dag: ["kalinli", "kalinli"],
     mos: ["karga", "karɡa"],
@@ -957,6 +957,9 @@ WORDS.wheel = {
     mam: ["rwed", "rwed"],
     wae: ["Rad", "rad"],
     sdo: ["jurung", "dʒuruŋ"],
-    mrq: ["huira", "huiɾa"]
+    mrq: ["huira", "huiɾa"],
+    gay: ["roda", "rɔda"],
+    gsw_als: ["Ràd", "rɒːt"],
+    gsw_w: ["Rat", "rat"]
   }
 };

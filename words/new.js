@@ -1188,6 +1188,7 @@ WORDS.new = {
     kwa: ["bûj", "bûj"],
     kfr: ["નયો", "nəjo"],
     wrh: ["dhalanggirr", "ˈd̪alaŋɡir"],
-    kim: ["няа", "ɲaː"]
+    kim: ["няа", "ɲaː"],
+    sip: ["གསར་པུ", "saːpu"]
   }
 };

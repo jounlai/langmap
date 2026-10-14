@@ -187,7 +187,7 @@ WORDS.daughter = {
     xh: ["intombi", "inˈtombi"],
     am: ["ሴት ልጅ", "set lɨdʒ"],
     ha: ["ʼya", "ʔjaː"],
-    yo: ["ọmọbìnrin", "ɔmɔbĩ̀rĩ"],
+    yo: ["ọmọbìnrin", "ɔmɔbĩ̀ɾĩ"],
 
     // --- English, dialect by dialect ------------------------------------
     en_us: ["daughter", "ˈdɔɾɚ"],
@@ -677,7 +677,7 @@ WORDS.daughter = {
     shn: ["လုၵ်ႈယိင်း", "luk˧˨ jiŋ˥"],
     bin: ["ọmọ okhuo", "ɔmɔ oxuo"],
     zdj: ["mwana-mshe", "mwana mʃe"],
-    swb: ["mwana mutrumushe", "mwana mutrumuʃe"],
+    swb: ["mwana mutrumushe", "mwana muʈumuʃe"],
     suk: ["nshike", "nʃike"],
     nym: ["mwana mukima", "mwana mukima"],
     rim: ["muncha", "muntʃa"],
@@ -1017,7 +1017,7 @@ WORDS.daughter = {
     brx: ["फिसाजो", "pʰisadʒo"],
     bts: ["boru", "boru"],
     abs: ["ana parangpuang", "ana paraŋpuaŋ"],
-    nag: ["chukri", "tʃukɾi"],
+    nag: ["chukri", "tʃukri"],
     xnr: ["कुड़ी", "kuɽiː"],
     bqi: ["دهدر", "dohdar"],
     tcy: ["ಮಗಲ್", "maɡalɯ"],
@@ -1164,6 +1164,10 @@ WORDS.daughter = {
     dyo: ["ajaŋa", "aɟaŋa"],
     kgg: ["niŋgitse", "niŋɡitse"],
     mvf: ["xjun", "ɕʥun"],
-    mrq: ["moʻī", "moʔiː"]
+    mrq: ["moʻī", "moʔiː"],
+    gay: ["anak banan", "anak banan"],
+    pao: ["padɨ", "patɨ"],
+    bzg: ["sjiem mammali", "ʃiem mamːali"],
+    gsw_als: ["Tochter", "dɔxtər"]
   },
 };

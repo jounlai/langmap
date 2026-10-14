@@ -176,7 +176,7 @@ WORDS.milk = {
     haw: ["waiū", "waiuː"],
     mi: ["miraka", "miɾaka"],
     ha: ["madara", "madara"],
-    yo: ["wàrà", "wàrà"],
+    yo: ["wàrà", "wàɾà"],
     am: ["ወተት", "wətət"],
     so: ["caano", "ʕaːno"],
     zu: ["ubisi", "uˈɓisi"],
@@ -357,7 +357,7 @@ WORDS.milk = {
     lrc: ["شیر", "ʃir"],
     bqi: ["شیر", "ʃir"],
     mzn: ["شیر", "ʃir"],
-    luz: ["šir", "ʃir"],
+    luz: ["šir", "ʃiɾ"],
     jpr: ["שיר", "ʃiːr"],
     zza: ["şit", "ʃit"],
     os: ["ӕхсыр", "æxsɨr"],
@@ -1155,6 +1155,11 @@ WORDS.milk = {
     mvf: ["sun", "sun"],
     fia: ["su", "su"],
     mrq: ["vaiū", "vaiuː"],
-    wmt: ["ngamarna", "ˈŋamaɳa"]
+    wmt: ["ngamarna", "ˈŋamaɳa"],
+    gay: ["susu", "susu"],
+    pao: ["mɨdɨki", "mɨtɨki"],
+    gsw_als: ["Mìlch", "mɪlx"],
+    gsw_w: ["Milch", "mɪlx"],
+    pmt: ["pounave", "pounave"]
   },
 };

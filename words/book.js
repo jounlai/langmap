@@ -602,7 +602,7 @@ WORDS.book = {
     sus: ["buki", "buki"],
     dag: ["buku", "buku"],
     quc: ["wuj", "wux"],
-    quz: ["liwru", "liwru"],
+    quz: ["liwru", "liwɾu"],
     ja_aom: ["本", "hoɴ"],
     ksw: ["လံာ်", "li"],
     pwo: ["လံၬ", "leiʔ"],
@@ -627,7 +627,7 @@ WORDS.book = {
     tmh: ["ⵍⴽⵜⵜⴰⴱ", "əlkəttab"],
     tig: ["ክታብ", "kɨtab"],
     sco: ["buik", "bjʌk"],
-    rgn: ["lìvar", "ˈlivaɾ"],
+    rgn: ["lìvar", "ˈlivar"],
     tsg: ["būk", "buːk"],
     gor: ["buku", "ˈbuku"],
     ljp: ["buku", "buku"],
@@ -1038,7 +1038,7 @@ WORDS.book = {
     bsk: ["—", "—"],
     blr: ["ka31 nak33", "ka˧˩ nak˧˧"],
     guu: ["ɾipɾo", "ɾipɾo"],
-    pt_gw: ["libru", "ˈlibɾu"],
+    pt_gw: ["libru", "ˈlibru"],
     tar: ["libro", "libɾo"],
     zh_song: ["書", "ʂiu"],
     xqa: ["bitig", "bitiɡ"],
@@ -1105,6 +1105,9 @@ WORDS.book = {
     wrh: ["garrandarang", "ˈɡarandaɻaŋ"],
     srb: ["potti", "potti"],
     mrq: ["kōtūʻomia", "koːtuːʔomia"],
-    itb: ["libro", "libro"]
+    itb: ["libro", "libro"],
+    gay: ["buku", "buku"],
+    pao: ["pipo", "pipo"],
+    gsw_w: ["Büech", "byə̯x"]
   }
 };

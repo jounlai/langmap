@@ -191,7 +191,7 @@ WORDS.butterfly = {
     udm: ["бубыли", "bubɨlʲi"],  // Reduplicated bu-bɨ-.
     mhr: ["лыве", "ləve"],
     mrj: ["лӹпӹ", "lɯpɯ"],  // Reduplicative lɨ-pɨ shape.
-    myv: ["нимиляв", "ɲimʲilʲav"],
+    myv: ["нимиляв", "nʲimʲilʲav"],
     mdf: ["мелав", "mʲelav"],
     se: ["beaiveloddi", "ˈpeɑjveˌlotːi"],  // Compound beaivi 'sun' + loddi 'bird' — loddi is this row's own word for bird.
     smj: ["biejvvelådde", "ˈbiejvːeˌlɔdːɛ"],  // Compound 'sun' + lådde 'bird' — lådde is this row's own word for bird.
@@ -515,7 +515,7 @@ WORDS.butterfly = {
     brx: ["सिख्रि", "sikʰri"],
     bts: ["ampul-ampul", "ampulˈampul"],
     kha: ["ka thapbalieh", "ka tʰapbalɛʔ"],
-    zne: ["fufurafu", "fufuɾafu"],
+    zne: ["fufurafu", "fufurafu"],
     toi: ["inkoonkolekwa", "iŋkoːŋkolekwa"],
     ach: ["lapwopwo", "lapwopwo"],
     rhg: ["bénbení", "benbeni"],
@@ -845,7 +845,7 @@ WORDS.butterfly = {
     kj: ["onghanga", "oŋ̊aŋ̊a"],
     lue: ["kauyauya", "kaujauja"],
     bum: ["évulabebas", "evulabebas"],
-    ndc: ["berepeswa", "beɾepeswa"],
+    ndc: ["berepeswa", "berepeswa"],
     wal: ["muqo", "mukʼo"],
     nzi: ["ɛbolakɔlɛ", "ɛbolakɔlɛ"],
     nbl: ["iviyaviyani", "ivijavijani"],
@@ -914,6 +914,11 @@ WORDS.butterfly = {
     dyo: ["kapontipont", "kapontipont"],
     hup: ["kʼidiwischʼe", "kʲʼidiwistʃʼe"],
     srb: ["kungkudibud", "kuŋkudibud"],
-    mrq: ["pepe", "pepe"]
+    mrq: ["pepe", "pepe"],
+    pao: ["tsoʼapa", "tsoʔapa"],
+    gsw_w: ["Pfiifoltra", "ˈpfiːfoltra"],
+    kpf: ["eteŋ eteŋ", "eteŋ eteŋ"],
+    mpt: ["bebuali", "bebuali"],
+    toc: ["xpipilekg", "ʃpipileq"]
   },
 };

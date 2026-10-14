@@ -279,7 +279,7 @@ WORDS.poop = {
     en_wc: ["poo", "puː"],
     en_est: ["poo", "puː"],
     en_sg: ["poop", "puːp"],
-    fo: ["kúkur", "kʉːkʊr"],
+    fo: ["kúkur", "kʉːkʊɹ"],
     fr_qc: ["caca", "kaka"],
     fr_af: ["caca", "kaka"],
     fr_be: ["caca", "kaka"],
@@ -913,6 +913,10 @@ WORDS.poop = {
     omc: ["ñiet", "ɲiet"],
     kgg: ["yaŋ", "jaŋ"],
     ekp: ["ịshị", "ɪʃɪ"],
-    mvf: ["basi", "basə"]
+    mvf: ["basi", "basə"],
+    pao: ["kwidapɨ", "kʷitapɨ"],
+    toc: ["kgatsasa", "qatsasa"],
+    anu: ["cieth", "tʃiet̪"],
+    sad: ["choʼ", "tʃʰoʔ"]
   },
 };

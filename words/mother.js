@@ -444,7 +444,7 @@ WORDS.mother = {
     vec: ["mare", "ˈmare"],
     co: ["mamma", "ˈmamma"],
     lij: ["moæ", "mwɛː"],
-    rgn: ["mêdar", "ˈmeːdaɾ"],
+    rgn: ["mêdar", "ˈmeːdar"],
     egl: ["mèder", "ˈmɛːder"],
     frp: ["mâre", "mar"],
     ca: ["mare", "ˈmaɾə"],

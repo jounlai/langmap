@@ -54,6 +54,7 @@ WORDS.we = {
     sw: "\"Sisi\", umbo la kamusi: kiwakilishi cha nafsi ya kwanza wingi katika umbo la kiima au umbo huru, katika usajili wa kawaida — si umbo la unyenyekevu, la heshima wala la kifalme. Pale lugha inapotofautisha kisarufi \"sisi\" kinachomjumuisha msikilizaji na \"sisi\" kisichomjumuisha, maumbo yote mawili huandikwa, kinachojumuisha kwanza, na ramani huzipa lugha hizo rangi yake. Huhesabiwa tofauti iliyo katika viwakilishi huru pekee; ikiwa iko katika kiambishi cha kitenzi tu, lugha huhesabiwa kuwa na neno moja.",
   },
   family: {
+    gon: "clusive",
     yle: "unknown",
     wic: "clusive",
     p_jpk: "unknown",
@@ -1293,7 +1294,7 @@ WORDS.we = {
     srb: ["anlen", "anlen"],
     kjg: ["iʔ", "ʔiʔ"],
     mro: ["—", "—"],
-    gon: ["—", "—"],
+    gon: ["मनम / मोमोट", "manam / momoʈ"],
     bfq: ["naanga", "naːŋɡa"],
     har: ["əññāč", "ɨɲːaːtʃ"], // was ["iññāch", "iɲːaːtʃ"] (vi dialect rules 2026-10-06)
     es_pr: ["nosotros", "noˈsotɾoh"],
@@ -1589,9 +1590,9 @@ WORDS.we = {
     rgn: ["nun", "nun"],
     egl: ["nuèter", "nuˈɛːter"],
     frp: ["nos", "no"],
-    ca: ["nosaltres", "nuˈzaltrəs"],
+    ca: ["nosaltres", "nuˈzaltɾəs"], // was ["nosaltres", "nuˈzaltrəs"] (vi dialect rules 2026-10-06)
     gl: ["nós", "nɔs"],
-    oc: ["nosautres", "nuˈzawtres"],
+    oc: ["nosautres", "nuˈzawtɾes"], // was ["nosautres", "nuˈzawtres"] (vi dialect rules 2026-10-06)
     be: ["мы", "mɨ"],
     cs: ["my", "mɪ"],
     sk: ["my", "mi"],
@@ -1673,7 +1674,7 @@ WORDS.we = {
     es_cu: ["nosotros", "noˈsotɾoh"],
     es_pe: ["nosotros", "noˈsotɾos"],
     es_an: ["nosotros", "noˈsotɾoh"],
-    lad: ["mozotros", "moˈzotros"],
+    lad: ["mozotros", "moˈzotɾos"], // was ["mozotros", "moˈzotros"] (vi dialect rules 2026-10-06)
     rm: ["nus", "nus"],
     sc: ["nois", "ˈnois"],
     iu: ["ᐅᕙᒍᑦ", "uˈvaɡut"],
@@ -2122,7 +2123,7 @@ WORDS.we = {
     kho: ["—", "—"],
     de_lut: ["wir", "viːr"],
     gmh: ["wir", "wir"],
-    es_sgl: ["nosotros", "noˈsotros"], // was ["nosotros", "nosˈotros"] (vi dialect rules 2026-10-06)
+    es_sgl: ["nosotros", "noˈsotɾos"], // was ["nosotros", "nosˈotros"] (vi dialect rules 2026-10-06) // was ["nosotros", "noˈsotros"] (vi dialect rules 2026-10-06)
     osp: ["nós", "nos"],
     okz: ["យើង", "jɤːŋ"], // r60: Angkorian value (Jenner), was jeːŋ
     osx: ["wī", "wiː"],
@@ -2286,7 +2287,7 @@ WORDS.we = {
     ctu: ["joñonla / joñon lojon", "hoɲonla / hoɲon lohon"],
     toj: ["keʼntik / keʼntikon", "keʔntik / keʔntikon"],
     bzd: ["seʼ / saʼ", "seʔ / saʔ"],
-    cuk: ["anmar", "anmar"],
+    cuk: ["anmar", "anmaɾ"], // was ["anmar", "anmar"] (vi dialect rules 2026-10-06)
     chf: ["noʼonla / noʼon tʼokob", "noʔonla / noʔon tʼokob"], // was ["noʼonla", "noʔonla"] (vi dialect rules 2026-10-06)
     agu: ["oʼ", "oʔ"],
     ixl: ["oʼ", "oʔ"],

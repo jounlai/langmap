@@ -93,6 +93,11 @@ WORDS.sugar = {
     sw: "Sukari — kitu chenye fuwele na ladha tamu kinachotumika kutia utamu katika chakula na vinywaji. Neno la kawaida la nyumbani: si kivumishi 'tamu', si asali wala shira, si maana ya kikemia (sukari ya damu), wala si mwanzi wa sukari.",
   },
   family: {
+    toc: "assukkar",
+    pmt: "sharkara",
+    lij_t: "sharkara",
+    gsw_als: "sharkara",
+    pao: "other",
     itb: "assukkar",
     mrq: "other",
     srb: "sharkara",
@@ -873,6 +878,11 @@ WORDS.sugar = {
     other: { color: "#6b7280", emoji: "🌾", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
   data: {
+    toc: ["asukalh", "asukaɬ"],
+    pmt: ["tihota", "tihota"],
+    lij_t: ["süccau", "ˈsykaw"],
+    gsw_als: ["Zucker", "tsʊkər"],
+    pao: ["pihabi", "pihapi"],
     itb: ["asookar", "asookar"],
     mrq: ["mānini", "maːnini"],
     srb: ["sakkara", "sakkara"],
@@ -890,7 +900,7 @@ WORDS.sugar = {
     dnj: ["sűka̋dhű", "sűka̋ɗű"],
     cro: ["baachikúa", "baːtʃikúa"],
     mbc: ["aʔkiʔku", "aʔkiʔku"],
-    bto: ["asukar", "aˈsukar"],
+    bto: ["asukar", "aˈsukaɾ"], // was ["asukar", "aˈsukar"] (vi dialect rules 2026-10-06)
     dje: ["sukar", "sukar"],
     swg: ["Zucker", ""],
     pcm: ["sugar", ""],
@@ -976,7 +986,7 @@ WORDS.sugar = {
     lua: ["nsukadi", "nsukadi"],
     bci: ["sukwla", "sukʷla"],
     tlh: ["—", "—"],
-    ndc: ["sikiri", "sikiɾi"],
+    ndc: ["sikiri", "sikiri"], // was ["sikiri", "sikiɾi"] (vi dialect rules 2026-10-06)
     kjh: ["сахар", "saxar"],
     ak: ["asikre", "asikre"],
     ium: ["dorngh", "tɔŋ˧˩"],
@@ -988,7 +998,7 @@ WORDS.sugar = {
     ngu: ["azúcar", "aˈsukar"],
     ts: ["chukela", "tʃʰukela"], // was ["chukela", "tʃukela"] (vi dialect rules 2026-10-06)
     pau: ["sukal", "sukal"],
-    zne: ["sukari", "sukaɾi"],
+    zne: ["sukari", "sukari"], // was ["sukari", "sukaɾi"] (vi dialect rules 2026-10-06)
     tiv: ["shogar", "ʃoɡar"],
     nrf_gg: ["chucre", "ʃykr"],
     mam: ["azúcar", "aˈsukar"],
@@ -1095,7 +1105,7 @@ WORDS.sugar = {
     pmi: ["bu̵35", "bʉ˧˥"], // was ["bʉ35", "bʉ˧˥"] (vi dialect rules 2026-10-06)
     clk: ["pu31rɯm55", "pu˧˩rɯm˥˥"],
     acn: ["năm31muai31", "năm˧˩muai˧˩"],
-    cbk: ["azucar", "aˈsukar"],
+    cbk: ["azucar", "aˈsukaɾ"], // was ["azucar", "aˈsukar"] (vi dialect rules 2026-10-06)
     yrl: ["asukirí", "asukiɾi"],
     gn: ["asuka", "asuka"],
     nhe: ["tzopelictli", "tsopeliktɬi"],
@@ -1159,7 +1169,7 @@ WORDS.sugar = {
     shp: ["asokaro", "asokaɻo"], // was ["asokaro", "asokaɾo"] (vi dialect rules 2026-10-06)
     quy: ["asukar", "aˈsukaɾ"],
     qu: ["asukar", "aˈsukaɾ"],
-    quz: ["asukar", "aˈsukar"],
+    quz: ["asukar", "aˈsukaɾ"], // was ["asukar", "aˈsukar"] (vi dialect rules 2026-10-06)
     kea: ["sukra", "ˈsukɾɐ"],
     lmo: ["zuccher", "syˈkeːr"],
     wa: ["souke", "suk"],
@@ -1335,7 +1345,7 @@ WORDS.sugar = {
     kl: ["sukkut", "sukːut"],
     ay: ["asukara", "asukaɾa"], // was ["azúcar", "asukar"] (vi dialect rules 2026-10-06)
     sn: ["shuga", "ʃuɡa"],
-    rw: ["isukari", "isukari"],
+    rw: ["isukari", "isukaɾi"], // was ["isukari", "isukari"] (vi dialect rules 2026-10-06)
     ny: ["shuga", "ʃuɡa"],
     ho: ["suga", "suɡa"],
     mg: ["siramamy", "siraˈmami"],
@@ -1547,7 +1557,7 @@ WORDS.sugar = {
     ug: ["شېكەر", "ʃeˈkɛr"],
     kk: ["қант", "qɑnt"],
     ky: ["кант", "qɑnt"], // was ["кант", "kant"] (vi dialect rules 2026-10-06)
-    uz: ["shakar", "ʃaˈkar"],
+    uz: ["shakar", "ʃaˈkaɾ"], // was ["shakar", "ʃaˈkar"] (vi dialect rules 2026-10-06)
     tk: ["şeker", "ʃeˈkeɾ"], // was ["şeker", "ʃeˈker"] (vi dialect rules 2026-10-06)
     ar_eg: ["سكر", "ˈsukkar"],
     ar_gulf: ["سكر", "ˈsukkar"],

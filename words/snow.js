@@ -248,7 +248,7 @@ WORDS.snow = {
     eu: ["elur", "elur"],
     cy: ["eira", "ˈeira"],
     ka: ["თოვლი", "tʰovli"],
-    lzz: ["მთვირი", "mtviri"],
+    lzz: ["მთვირი", "mtʰviri"],
     sva: ["მუს", "mus"],
     hy: ["ձյուն", "dzjun"],
     hyw: ["ձիւն", "tsjun"],
@@ -330,7 +330,7 @@ WORDS.snow = {
     de_at: ["Schnee", "ʃneː"],
     gsw: ["Schnee", "ʃneː"],
     swg: ["Schnee", "ʃneː"],
-    bar: ["Schnee", "ʃneː"],
+    bar: ["Schnee", "ʃnɛː"],
     vmf: ["Schnee", "ʃneː"],
     wae: ["Schnee", "ʃneː"],
     nds: ["Snee", "sneː"],
@@ -810,7 +810,7 @@ WORDS.snow = {
     sat: ["ᱦᱤᱢ", "him"], // Sanskrit hima
     amw: ["ܬܠܟܐ", "ˈθelka"], // Spitaler/Bergsträsser — inherited Aramaic talgā
     tig: ["ዕጥብ በረድ", "ʕətʼəb barad"], // lit. cotton-ice; bare bäräd alone is hail — Littmann & Höfner
-    ha: ["dusar ƙanƙara", "dusaɾ kʼankʼara"], // lit. chaff of ice; ƙanƙara alone is ice/hail
+    ha: ["dusar ƙanƙara", "dusaɾ kʼankʼaraː"], // lit. chaff of ice; ƙanƙara alone is ice/hail
     naq: ["tsâmaros", "tsãːmaros"], // Krönlein 1889; distinct from ǃkhoab ice
     loz: ["litwa", "ˈlitwa"], // distinct from litwitwi mist, silami frost, limbwewewe hail
     ny: ["chipale chofewa", "tʃipale tʃofewa"],

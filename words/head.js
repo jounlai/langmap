@@ -259,7 +259,7 @@ WORDS.head = {
     gag: ["baş", "baʃ"],
     ug: ["باش", "baʃ"],
     kk: ["бас", "bas"],
-    ky: ["баш", "baʃ"],
+    ky: ["баш", "bɑʃ"],
     uz: ["bosh", "bɒʃ"],
     tk: ["baş", "bɑʃ"],
     mnc: ["ᡠᠵᡠ", "udʒu"],
@@ -499,7 +499,7 @@ WORDS.head = {
     tay: ["tunux", "tunux"],
     bnn: ["bungu", "buŋu"],
     trv: ["tunux", "tunux"],
-    tsu: ["fŋuu", "fŋuu"],
+    tsu: ["fnguu", "fŋuu"],
     tao: ["oo", "oo"],
     ssf: ["punuq", "punuq"],
     hak_tw: ["頭那", "tʰeu˩˩ na˩˩"],
@@ -1152,7 +1152,7 @@ WORDS.head = {
     pal: ["𐭮𐭫", "sar"],
     kho: ["𑀓𑀫𑀮", "kamala"],
     com: ["paapi", "paːpi"],
-    hai: ["ḵaj", "qʰatʃ"],
+    hai: ["ḵaj", "qʰadʒ"],
     kxv: ["trāju", "traːju"],
     kwa: ["nũh", "nũh"],
     koy: ["-tłeeʼ", "tɬiːʔ"],
@@ -1189,6 +1189,7 @@ WORDS.head = {
     zh_han: ["首", "śǝ́w"],
     olk: ["eka", "eka"],
     kpe: ["ŋuŋ", "ŋuŋ"],
-    luz: ["sar", "sar"]
+    luz: ["sar", "sar"],
+    ha: ["kai", "kai"]
   },
 };

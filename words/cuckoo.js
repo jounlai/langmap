@@ -544,6 +544,7 @@ WORDS.cuckoo = {
     pwo: ["ထိၪမၩ့စၫ့ပဲၩ့ပီၫ့", "tʰʊ maɴ saɴ paiɴ pauɴ"],
     pkp: ["kāleva", "kaːleva"],
     dyu: ["kibaro", "kibaro"],
-    dag: ["kulinoo", "kulinoː"]
+    dag: ["kulinoo", "kulinoː"],
+    dnj: ["gbídhō", "ɡbíɗō"]
   },
 };

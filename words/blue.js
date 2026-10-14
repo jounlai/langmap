@@ -55,6 +55,7 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    bej: "grue",
     cgg: "borrowed",
     mhy: "distinct",
     p_jpn: "grue",
@@ -925,6 +926,7 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    bej: ["sootaay", "soːtaːj"],
     cgg: ["bururu", "bururu"],
     mhy: ["biru", "biru"],
     p_jpn: ["*awo", "awo"],
@@ -1185,7 +1187,7 @@ WORDS.blue = {
     kea: ["azul", "aˈzul"],
     pt_mz: ["azul", "ɐˈzul"],
     pt_mo: ["azul", "ɐˈzul"],
-    pt_cv: ["azul", "ɐˈzuɫ"],
+    pt_cv: ["azul", "ɐˈzul"], // was ["azul", "ɐˈzuɫ"] (vi dialect rules 2026-10-06)
     pt_ao: ["azul", "aˈzul"],
     pt_br: ["azul", "aˈzuw"],
     es_bo: ["azul", "aˈsul"],
@@ -1313,7 +1315,7 @@ WORDS.blue = {
     rup: ["albastru", "alˈbastru"],
     nrf: ["bliu", "bljø"],
     fra_jer: ["bliu", "bljø"],
-    rcf: ["blë", "blɛ"],
+    rcf: ["blé", "ble"], // was ["blë", "blɛ"] (vi dialect rules 2026-10-06)
     nds: ["blau", "blaʊ"],
     esu: ["qiugliq", "qiuɣɬiq"],
     bzd: ["siè̱", "siẽ̀"], // was ["si̱è̱", "sĩẽ̀"] (vi dialect rules 2026-10-06)
@@ -1569,7 +1571,7 @@ WORDS.blue = {
     kg: ["bule", "bule"],  // The everyday modern word is the loan bule, shared with Lingala and Kituba where the etymology (French bleu) is given explicitly; the Kongo entry itself carries no etymology, hence 'uncertain'. Both older dictionaries show Kikongo had no inherited blue term: Butaye renders 'bleu' as nitu zulu (lit. 'colour of the sky') or nitu ndombe, and under 'Couleur' lists only 'nitu ndombe, noir ou bleu fonce; mpembe/ndundu, blanc; zulu, bleu de ciel; kaya, vert; ...'; Laman glosses ndombe 'sombre, noir, bleu, brun, fonce' with ndombe ya simba 'bleu, bleu clair'. So the inherited pattern is the `dark` type (blue subsumed under black), and ndombe is already this row's black cell.
     kgp: ["tánh", "təɲ"],  // [2026-10-02: surface now in the row's Kaingang spelling, tánh, per Wiesemann's dictionary (r24/r25 flag); the caveat below described the earlier IPA-in-surface cell.] ORTHOGRAPHY CAVEAT: IDS gives a phonemic transcription only. This row's kusũg/kusũŋ and kupri come from the same IDS list, so the Kaingang orthographic shape of /təɲ/ (probably tánh) is not established here.
     khg: ["སྔོན་པོ", "ŋ̊enbo"],  // Khams (Dege) ŋ̊en⁵⁵bo⁵³ in Sun's wordlist; same lexeme as Written Tibetan sngon po, tones dropped to match the row's marpo/karpo.
-    khv: ["хъаилӏе", "qʼaiˈlʼe"],  // Khvarshi: the Inkhokvari dialect gives the identical form хъаилӏе for blue and for green. Other Khvarshi dialects in IDS use a 'sky-coloured' phrase for blue instead.
+    khv: ["хъаилӏе", "qaiˈtɬe"],  // Khvarshi: the Inkhokvari dialect gives the identical form хъаилӏе for blue and for green. Other Khvarshi dialects in IDS use a 'sky-coloured' phrase for blue instead. // was ["хъаилӏе", "qʼaiˈlʼe"] (vi dialect rules 2026-10-06)
     ki: ["bururu", "bururu"],  // Benson: 'bururu, (ma-), n. cl. 14/(6) ... washing blue, blueness; cf. mburuu ... [E. BLUE]' — the etymology is marked in the dictionary. Gikuyu's inherited terms are -eru 'white', -irũ 'black/dark', -tune 'red', -ruru 'green, fresh'; there was no basic blue, and Benson's example for 'blue sky' is matu mairũ, literally 'dark clouds'.
     kjj: ["цӏарцӏар", "tsʼartsʼar"],  // Khinalug цӏарцӏар vs гог / сыб.
     kk: ["көк", "køk"],  // Kazakh көк is the inherited Turkic 'sky/blue' term and is used of green growing things as well (көк шөп 'green grass'); жасыл is the narrow green.
@@ -1699,7 +1701,7 @@ WORDS.blue = {
     ro: ["albastru", "alˈbastru"],  // albastru vs verde. WOLD: no evidence for borrowing — albastru continues Latin albaster, a rare case of a blue term from a 'whitish' root.
     rtm: ["čarava", "tʃarava"],  // Rotuman: IDS gives the identical form čarava for BOTH blue and green — one term over the whole cool range.
     ru: ["синий", "ˈsʲinʲɪj"],  // Russian is the textbook two-blue language: синий (dark blue) and голубой (light/sky blue) are both basic terms — IDS lists both for the concept. синий is the unmarked member and is given here; голубой is the literal colour of a clear sky.
-    rut: ["хьылынды", "ħɨlɨnˈdɨ"],  // Rutul хьылынды vs шилды; all four IDS Rutul dialects agree.
+    rut: ["хьылынды", "xɨlɨnˈdɨ"],  // Rutul хьылынды vs шилды; all four IDS Rutul dialects agree. // was ["хьылынды", "ħɨlɨnˈdɨ"] (vi dialect rules 2026-10-06)
     rw: ["ubururu", "ubururu"],  // Loan chain English blue > Swahili buluu > Kinyarwanda ubururu. Inherited green is icyatsi (icyatsi kibisi), a noun from 'grass/weed'; there is no inherited basic blue term.
     sa: ["नील", "niːlɐ"],  // Sanskrit nīla- covers dark blue and runs into black (nīla-kaṇṭha, and of storm clouds); harita- is the green/yellow-green term. IDS gives nīla- against harita-.
     sad: ["bulu", "bulu"],  // Sandawe bulu is a loan (English/Swahili buluu); the inherited green is ɟaaŋga. Sandawe, like its Khoisan-area neighbours, has no inherited basic blue.

@@ -1384,7 +1384,7 @@ WORDS.n99 = {
     su:    ["salapan puluh salapan", "salapan puluh salapan"],
     min:   ["sambilan puluah sambilan", "sambilan puluah sambilan"],
     my:    ["ကိုးဆယ့်ကိုး", "kó sʰɛ̰ kó"],
-    or: ["ଅନେଶତ", "ɔneʃɔtɔ"], // was ["ଅନେଶୋତ", "ɔneʃotɔ"] (vi dialect rules 2026-10-06)
+    or: ["ଅନେଶତ", "ɔnesɔtɔ"], // was ["ଅନେଶୋତ", "ɔneʃotɔ"] (vi dialect rules 2026-10-06) // was ["ଅନେଶତ", "ɔneʃɔtɔ"] (vi dialect rules 2026-10-06)
     nci:   ["nāppōhualli oncaxtōlli onnāhui", "naːpːoːˈwalːi onkaʃˈtoːlːi onˈnaːwi"],
     mt:     ["disgħa u disgħin", "ˈdɪsa w dɪˈsɛjn"],
     af:     ["nege-en-negentig", "ˈnɪəxə ən ˈnɪəxəntəx"],
@@ -1402,9 +1402,9 @@ WORDS.n99 = {
     oc:     ["nonanta-nòu", "nuˈnantɔ ˈnɔw"],
     tt:     ["туксан тугыз", "tuksan tuˈɣɯz"],
     ba:     ["туҡһан туғыҙ", "tuqhan tuˈɣɯð"],
-    ky:     ["токсон тогуз", "tokson toˈɡuz"],
+    ky: ["токсон тогуз", "toqˈson toˈʁuz"], // was ["токсон тогуз", "tokson toˈɡuz"] (vi dialect rules 2026-10-06)
     tk:     ["togsan dokuz", "toʁˈsɑn doˈkuz"],
-    ug:     ["توقسان توققۇز", "toqsan toqˈquz"],
+    ug: ["توقسان توققۇز", "toqsɑn toqquz"], // was ["توقسان توققۇز", "toqsan toqˈquz"] (vi dialect rules 2026-10-06)
     az:     ["doxsan doqquz", "doxˈsɑn doɡˈɡuz"],
     cv: ["тӑхӑрвуннӑ тӑхӑр", "təxərvunːə ˈtəxər"], // was ["тӑхӑрвуннӑ тӑхӑр", "təxərʋunːə ˈtəxər"] (vi dialect rules 2026-10-06)
     to:     ["hivangofulu mā hiva", "hivaŋofulu maː hiva"],
@@ -1520,7 +1520,7 @@ WORDS.n99 = {
     ar_ye: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     ar_sa: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     ar_gulf: ["تسعة وتسعين", "tisʕa w tisʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
-    ar_iq: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
+    ar_iq: ["تسعة وتسعين", "tisʕa w tisʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     abv: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     afb: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     acw: ["تسعة وتسعين", "tisʕa w tisʕiːn"],

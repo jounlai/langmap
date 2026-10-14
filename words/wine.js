@@ -47,6 +47,7 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    dnj: "other",
     cmg: "other",
     orh: "other",
     pau: "ie",
@@ -961,6 +962,7 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    dnj: ["dlɔ̏ɔ", "dlɔ̏ː"],
     cmg: ["ᠳᠠᠷᠠᠰᠤ", "darasu"],
     orh: ["arakɪ", "arakɪ"],
     pau: ["bilong", "biloŋ"],
@@ -1279,13 +1281,13 @@ WORDS.wine = {
     ne: ["वाइन", "wain"], // was ["मदिरा", "mədiɾaː"] (r29 fix 2026-10-02)
     kk: ["шарап", "ʃarap"],
     uz: ["sharob", "ʃarɒb"], // was ["sharob", "ʃarob"] (vi dialect rules 2026-10-06)
-    ky: ["шарап", "ʃarap"],
+    ky: ["шарап", "ʃɑˈrɑp"], // was ["шарап", "ʃarap"] (vi dialect rules 2026-10-06)
     mn: ["дарс", "dars"],
     ms: ["wain", "wain"],
     tl: ["alak", "ˈʔalak"],
     h_tagalog: ["ᜀᜎᜃ᜔", "ˈʔalak"],
     am: ["ወይን", "wɐjn"],
-    ha: ["ruwan inabi", "ɾuwan inabi"], // was ["giya", "ɡija"] (r29 fix 2026-10-02)
+    ha: ["ruwan inabi", "ɾuwan inabiː"], // was ["giya", "ɡija"] (r29 fix 2026-10-02) // was ["ruwan inabi", "ɾuwan inabi"] (vi dialect rules 2026-10-06)
     zu: ["iwayini", "iwaˈjini"],
     mg: ["divay", "divaj"],
 
@@ -1479,7 +1481,7 @@ WORDS.wine = {
     tt: ["шәраб", "ʃærab"],
     ba: ["шарап", "ʃarap"],
     tk: ["şerap", "ʃerap"],
-    ug: ["شاراب", "ʃaˈrab"],
+    ug: ["شاراب", "ʃɑrɑp"], // was ["شاراب", "ʃaˈrab"] (vi dialect rules 2026-10-06)
     azb: ["شراب", "ʃæˈɾab"],
     xqa: ["bor", "bor"],
     ohu: ["bor", "bor"],

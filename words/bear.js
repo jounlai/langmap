@@ -1453,7 +1453,7 @@ WORDS.bear = {
     tk: ["aýy", "ajɯ"],
     uz: ["ayiq", "ajiq"],
     kk: ["аю", "ajuw"],
-    ky: ["аюу", "ajuː"],
+    ky: ["аюу", "ɑˈjuː"], // was ["аюу", "ajuː"] (vi dialect rules 2026-10-06)
     kaa: ["ayıw", "ajɯw"],
     tt: ["аю", "aju"],
     ba: ["айыу", "ajɯw"],

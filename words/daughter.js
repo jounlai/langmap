@@ -186,7 +186,7 @@ WORDS.daughter = {
     zu: ["indodakazi", "indodaˈkazi"],
     xh: ["intombi", "inˈtombi"],
     am: ["ልጅ", "lɨdʒ"],
-    ha: ["ʼya", "ʔja"],
+    ha: ["ʼya", "ʔjaː"],
     yo: ["ọmọbìnrin", "ɔmɔbĩrĩ"],
 
     // --- English, dialect by dialect ------------------------------------
@@ -225,7 +225,7 @@ WORDS.daughter = {
     fy: ["dochter", "ˈdɔxtər"],
     vls: ["dochter", "ˈdɔxtər"],
     li: ["dochter", "dɔxtər"],
-    nds: ["Dochter", "dɔxtɐ"],
+    nds: ["Dochter", "ˈdɔxtɐ"],
     ksh: ["Dochter", "dɔxtɐ"],
     vmf: ["Dochder", "dɔxdɐ"],
     pdc: ["Dochder", "dɔxdər"],
@@ -507,7 +507,7 @@ WORDS.daughter = {
     hil: ["anak nga babayi", "anak ŋa babaji"],
     war: ["anak nga babaye", "anak ŋa babaje"],
     bik: ["aki na babayi", "aki na babaji"],
-    ilo: ["anak a babai", "ʔanak a babai"],
+    ilo: ["anak a babai", "ʔaˈnak a baˈbaʔi"],
     pam: ["anak a babai", "ʔanak a babai"],
 
     // --- Africa ----------------------------------------------------------
@@ -790,7 +790,7 @@ WORDS.daughter = {
     sg: ["môlengê-wâlï", "molenɡe wali"],
     toi: ["mwana musimbi", "mwana musimbi"],
     mos: ["bi-pugla", "bipuɡla"],
-    maw: ["bipuŋŋa", "bipuŋa"],
+    maw: ["bipuŋŋa", "bipuŋːa"],
     fon: ["vǐ nyɔ̌nu", "vǐ ɲɔ̌nu"],
     dag: ["bipuɣiŋga", "bipuɣiŋɡa"],
     xog: ["omughala", "omuɣala"],

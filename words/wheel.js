@@ -337,7 +337,7 @@ WORDS.wheel = {
     ba: ["тәгәрмәс", "tæɡærmæs"],
     ky: ["дөңгөлөк", "døŋɡøløk"],
     tk: ["tigir", "tiɡir"],
-    ug: ["چاق", "tʃaq"],
+    ug: ["چاق", "tʃɑq"],
     tyv: ["дугуй", "duɣuj"],
     sah: ["көлөһө", "køløhø"],
     crh: ["teker", "teˈker"],

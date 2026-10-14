@@ -610,7 +610,7 @@ WORDS.black = {
     krc: ["къара", "qaˈra"],
     gag: ["kara", "kaˈra"],
     alt: ["кара", "qɑˈrɑ"],
-    kjh: ["хара", "xɑˈrɑ"],
+    kjh: ["хара", "xaˈra"],
     cjs: ["қара", "qaˈra"],
     dlg: ["кара", "kara"],
     slr: ["qara", "qɑɻɑ"],
@@ -866,7 +866,7 @@ WORDS.black = {
     hni: ["nav", "na˧˧"],
     lis: ["nae", "nɛ˦˦"],
     brx: ["गोसोम", "ɡɯsɯm"],
-    seh: ["psipa", "psipa"],
+    seh: ["swipa", "swipa"],
     bxk: ["mali", "mali"],
     fan: ["vine", "vine"],
     ach: ["macol", "matʃol"],
@@ -1279,6 +1279,7 @@ WORDS.black = {
     nha: ["wurʼada", "wuɾʔada"],
     nmn: ["ǂáʼɲa", "ǂaʔɲa"],
     adt: ["maRu", "maɹu"],
-    haj: ["kala", "kala"]
+    haj: ["kala", "kala"],
+    dnj: ["tīi", "tīː"]
   },
 };

@@ -342,7 +342,7 @@ WORDS.hundred = {
     pt_ao: ["cem", "sẽj̃"],
     pt_mz: ["cem", "sẽj̃"],
     pt_mo: ["cem", "sɐ̃j̃"],
-    pt_cv: ["cem", "sẽj̃"],
+    pt_cv: ["cem", "sɐ̃j̃"],
 
     ca_va: ["cent", "sent"],
     ast: ["cien", "θjen"],
@@ -419,7 +419,7 @@ WORDS.hundred = {
     krc: ["жюз", "ʒyz"],
     dlg: ["һүүс", "hyːs"],
     tyv: ["чүс", "tɕys"],
-    kjh: ["чӱс", "tɕys"],
+    kjh: ["чӱс", "tʃys"],
     cjs: ["чӱс", "tʃys"],
     alt: ["јӱс", "dʒys"],
 
@@ -436,7 +436,7 @@ WORDS.hundred = {
     bho: ["सौ", "sɔː"],
     sd: ["سؤ", "soː"],
     as: ["এশ", "ex"],
-    or: ["ଶହେ", "ʃɔɦe"],
+    or: ["ଶହେ", "sɔɦe"],
     rmy: ["šel", "ʃel"],
     rmf: ["ȟeel", "xeːl"],
 
@@ -530,7 +530,7 @@ WORDS.hundred = {
     // --- Africa --------------------------------------------------------------
     so: ["boqol", "boqol"],
     om: ["dhibba", "ɗibba"],
-    ha: ["ɗari", "ɗari"],
+    ha: ["ɗari", "ɗariː"],
     wo: ["téeméer", "teːmeːr"],
     bm: ["kɛmɛ", "kɛmɛ"],
     ig: ["narị", "naɾɪ"],

@@ -1442,7 +1442,7 @@ WORDS.we = {
     eu: ["gu", "ɡu"],
     cy: ["ni", "niː"],
     ka: ["ჩვენ", "tʃʰven"],
-    lzz: ["ჩქუ", "tʃku"],
+    lzz: ["ჩქუ", "tʃkʰu"], // was ["ჩქუ", "tʃku"] (vi dialect rules 2026-10-06)
     sva: ["ნა̈ჲ", "næj"],
     hy: ["մենք", "menkʰ"], // was ["մենք", "mɛnkʰ"] (vi dialect rules 2026-10-06)
     hyw: ["մենք", "mɛnkʰ"],
@@ -2238,7 +2238,7 @@ WORDS.we = {
     tay: ["itaʼ / sami", "itaʔ / sami"],
     bnn: ["kata / kaimin", "kata / kaimin"],
     trv: ["ita / yami", "ʔita / jami"],
-    tsu: ["aʼati / aʼami", "aʔati / aʔami"],
+    tsu: ["aʼto / aʼmi", "aʔto / aʔmi"], // was ["aʼati / aʼami", "aʔati / aʔami"] (vi dialect rules 2026-10-06)
     tao: ["yaten / yamen", "jatən / jamən"],
     pyu: ["taita / mimi", "taita / mimi"],
     szy: ["kita / kami", "kita / kami"],
@@ -2360,7 +2360,7 @@ WORDS.we = {
     haj: ["amra", "amra"],
     dtp_kzj: ["tokou / zikoi", "tokou / zikoi"],
     mez: ["kenaq / nenaq", "kɛnaʔ / nɛnaʔ"],
-    nan_xm: ["咱 / 阮", "lan˥˧ / ɡuan˥˧"],
+    nan_xm: ["咱 / 阮", "lan˥˧ / ɡun˥˧"], // was ["咱 / 阮", "lan˥˧ / ɡuan˥˧"] (vi dialect rules 2026-10-06)
     nan_zz: ["咱 / 阮", "lan˥˧ / ɡuan˥˧"],
     osa: ["ąkóta", "ãkóta"],
     pmy: ["kitorang", "kitoraŋ"],

@@ -93,6 +93,8 @@ WORDS.sugar = {
     sw: "Sukari — kitu chenye fuwele na ladha tamu kinachotumika kutia utamu katika chakula na vinywaji. Neno la kawaida la nyumbani: si kivumishi 'tamu', si asali wala shira, si maana ya kikemia (sukari ya damu), wala si mwanzi wa sukari.",
   },
   family: {
+    kjb: "assukkar",
+    dnj: "sharkara",
     cro: "other",
     mbc: "other",
     nuf: "tang", // r96: ɕɔ̃˧˥dɔ˧˥ = Chinese 砂糖 shātáng (suntb Bijiang Nusu)
@@ -858,6 +860,8 @@ WORDS.sugar = {
     other: { color: "#6b7280", emoji: "🌾", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
   data: {
+    kjb: ["askal", "askal"],
+    dnj: ["sűka̋dhű", "sűka̋ɗű"],
     cro: ["baachikúa", "baːtʃikúa"],
     mbc: ["aʔkiʔku", "aʔkiʔku"],
     bto: ["asukar", "aˈsukar"],
@@ -1093,7 +1097,7 @@ WORDS.sugar = {
     mdf: ["захар", "ˈzaxar"],
     myv: ["сахор", "ˈsaxor"],
     mrj: ["сакыр", "ˈsakɨr"],
-    mhr: ["сакыр", "ˈsakɨr"],
+    mhr: ["сакыр", "ˈsakər"], // was ["сакыр", "ˈsakɨr"] (vi dialect rules 2026-10-06)
     olo: ["zuahari", "ˈzuahari"], // was ["zuahari", "ˈzuɑhɑri"] (vi dialect rules 2026-10-06)
     krl: ["šokeri", "ˈʃokeri"], // was ["suaharo", "ˈsuaharo"] (vi dialect rules 2026-10-06)
     vot: ["suukkuri", "ˈsuːkːuri"],
@@ -1516,7 +1520,7 @@ WORDS.sugar = {
     azb: ["شکر", "ʃæˈkæɾ"],
     ug: ["شېكەر", "ʃeˈkɛr"],
     kk: ["қант", "qɑnt"],
-    ky: ["кант", "kant"],
+    ky: ["кант", "qɑnt"], // was ["кант", "kant"] (vi dialect rules 2026-10-06)
     uz: ["shakar", "ʃaˈkar"],
     tk: ["şeker", "ʃeˈker"],
     ar_eg: ["سكر", "ˈsukkar"],

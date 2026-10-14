@@ -410,7 +410,7 @@ WORDS.sushi = {
     "lb": ["Sushi", "ˈsuʃi"],
     "lbe": ["суши", "suˈʃi"],
     "lo": ["ຊູຊິ", "suː˧˥si˧"],
-    "mi": ["huhi", "huhi"],
+    "mi": ["—", "—"],
     "ne": ["सुशी", "susi"],
     "or": ["ସୁଶି", "susi"],
     "vi_s": ["sushi", "ʂu˧ ʂi˧"],

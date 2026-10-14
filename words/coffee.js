@@ -1056,7 +1056,7 @@ WORDS.coffee = {
     pau: ["kohi", "kohi"],
     jam: ["kaafi", "kaːfi"],
     rcf: ["kafé", "kafe"],
-    ksh: ["Kaffe", "ˈkafə"],
+    ksh: ["Kaffee", "ˈkafə"], // was ["Kaffe", "ˈkafə"] (vi dialect rules 2026-10-06)
     gsw_als: ["Kàffee", "kʰɒfeː"], // was ["Kàffee", "kɒfeː"] (vi dialect rules 2026-10-06)
     gsw: ["Kafi", "ˈkafi"],
     mak: ["kopi", "ˈkopi"],
@@ -1084,7 +1084,7 @@ WORDS.coffee = {
     mai: ["कफी", "kəpʰiː"],
     awa: ["कफी", "kəpʰiː"],
     gil: ["kobe", "kobe"], // was ["kobee", "kobeː"] (vi dialect rules 2026-10-06)
-    mh: ["kọpe", "kɒːbʲe"],
+    mh: ["ko̧pe", "kæwpʲej"], // was ["kọpe", "kɒːbʲe"] (vi dialect rules 2026-10-06)
     hmn: ["kas fes", "ka˨˩ fe˨˩"],
     nia: ["kofi", "kofi"],
     djk: ["kofi", "kofi"],

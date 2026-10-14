@@ -207,6 +207,8 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    vro: "mult",
+    crh: "dec",
     wa: "dec",
     yi: "unit",
     li: "unit",
@@ -939,6 +941,8 @@ WORDS.n99 = {
     }
   },
   data: {
+    vro: ["ütessäkümmend ütessä", "ytesːækymːend ytesːæ"],
+    crh: ["doqsan doquz", "doqsan doquz"],
     wa: ["nonante-nouv", "nɔnãtnuːf"],
     yi: ["נײַן און נײַנציק", "naɪ̯n ʊn ˈnaɪ̯ntsɪk"],
     li: ["neugenenneugetig", "nøːɣənənøːɣətɪç"],
@@ -1063,7 +1067,7 @@ WORDS.n99 = {
     krc: ["токъсан тогъуз", "toqsan toʁuz"],
     kqn: ["makumi atanu na ana ne itanu na ina", "makumi atanu na ana ne itanu na ina"],
     kpv: ["ӧкмысдас ӧкмыс", "ɘkmɨsdas ɘkmɨs"], // was ["ӧкмысдас ӧкмыс", "ɵkmɨsdas ɵkmɨs"] (vi dialect rules 2026-10-06)
-    koi: ["ӧкмысдас ӧкмыс", "ɵkmɨsdas ɵkmɨs"],
+    koi: ["ӧкмысдас ӧкмыс", "ɘkmɨsdas ɘkmɨs"], // was ["ӧкмысдас ӧкмыс", "ɵkmɨsdas ɵkmɨs"] (vi dialect rules 2026-10-06)
     kjh: ["тоғызон тоғыс", "toɣɯzon toɣɯs"],
     kj: ["omilongo omugoi nomugoi", "omiloŋɡo omuɡoi nomuɡoi"], // was ["omilongo omugoi nomugoi", "omiloŋɡo oŋŋɡoi noŋŋɡoi"] (vi dialect rules 2026-10-06)
     kha: ["khyndaiphew khyndai", "kʰɨndaːjpʰew kʰɨndaːj"],
@@ -1080,7 +1084,7 @@ WORDS.n99 = {
     hyw: ["իննսունըինը", "innəsunəˈinə"],
     hwc: ["ninety nine", "nainti nain"],
     her: ["omirongo muvyu na muvyu", "omiroŋɡo muvju na muvju"],
-    hch: ["nauka tewiyari heimana tamamata heimana ʼatanauka", "nauka tewijari heimana tamamata heimana ʔatanauka"],
+    hch: ["nauka tewiyari heimana tamamata heimana ʼatanauka", "nauka tewijaɾi heimana tamamata heimana ʔatanauka"], // was ["nauka tewiyari heimana tamamata heimana ʼatanauka", "nauka tewijari heimana tamamata heimana ʔatanauka"] (vi dialect rules 2026-10-06)
     gym: ["gre ketabkä bti krä jätäbti krä ökän", "ɡɾe ketabkɔ bti kɾɔ hɔtɔbti kɾɔ ɤkɔn"], // was ["gre ketabkä bti krä jätäbti krä ökän", "ɡɾe ketabkæ bti kɾæ hætæbti kɾæ ɤkæn"] (vi dialect rules 2026-10-06)
     gil: ["ruabwi ma ruaiwa", "ruabʷi ma ruaiwa"],
     gd: ["naoi-deug agus ceithir-fichead", "n̪ˠɯːi tʲiək akəs kʲehɪɾʲ fiçət"],
@@ -1343,11 +1347,11 @@ WORDS.n99 = {
     it: ["novantanove", "novantaˈnɔve"], // was ["novantanove", "novantaˈnove"] (vi dialect rules 2026-10-06)
     da: ["nioghalvfems", "niɔhalˈfɛmˀs"], // was ["nioghalvfems", "ˈniɔhalˀfɛms"] (vi dialect rules 2026-10-06)
     sv:    ["nittionio", "ˈnɪtːiuˌniːu"],
-    is:    ["níutíu og níu", "ˈniːʏtʰiːʏ ɔɣ ˈniːʏ"],
+    is: ["níutíu og níu", "ˈniːjʏtʰiːjʏ ɔɣ ˈniːjʏ"], // was ["níutíu og níu", "ˈniːʏtʰiːʏ ɔɣ ˈniːʏ"] (vi dialect rules 2026-10-06)
     eu: ["laurogeita hemeretzi", "lauɾoɣeita emeɾets̻i"], // was ["laurogeita hemeretzi", "lauɾoɣeita emeɾetsi"] (vi dialect rules 2026-10-06)
     ka: ["ოთხმოცდაცხრამეტი", "otʰxmotsʰdatsʰxrametʼi"], // was ["ოთხმოცდაცხრამეტი", "otʰxmotsdatsxɾametʰi"] (vi dialect rules 2026-10-06)
     cy:    ["naw deg naw", "nau dɛɡ nau"],
-    br:    ["naontek ha pevar-ugent", "nãwntek a pewaɾˈyːɡɛn"],
+    br: ["naontek ha pevar-ugent", "nãwntek a pewarˈyːɡɛn"], // was ["naontek ha pevar-ugent", "nãwntek a pewaɾˈyːɡɛn"] (vi dialect rules 2026-10-06)
     ga:    ["nócha a naoi", "ˈn̪ˠoːxə ə ˈn̪ˠiː"],
     ko:    ["아흔아홉", "ahɯnahop̚"],
     sw:    ["tisini na tisa", "tiˈsini na ˈtisa"],
@@ -1562,7 +1566,7 @@ WORDS.n99 = {
     en_jam: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_wls: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_yk: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
-    en_ck: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    en_ck: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     vi_nom: ["𠃩𨒒𠃩", "tɕin˧˥ mɨəj˧ tɕin˧˥"],
     tsz: ["tʼámu ekuatse témpeni iúmu tʼámu", "ˈtʰamu ekʷatse ˈtempeni ˈjumu ˈtʰamu"]
   }

@@ -770,7 +770,7 @@ WORDS.orange = {
     kr: ["lemuun", ""],
     ivv: ["kutay", ""],
     cic: ["tako̱lo laknaʼ", ""],
-    lep: ["ᰘᰶᰜᰪᰮ", "tsʰʌlɯm"],
+    lep: ["ᰘᰶᰜᰪᰮ", "tsʰəlɯm"], // was ["ᰘᰶᰜᰪᰮ", "tsʰʌlɯm"] (vi dialect rules 2026-10-06)
     shy: ["čina", ""],
     rki: ["လိမ္မော်", ""],
     skr: ["سنگترہ", ""],
@@ -793,7 +793,7 @@ WORDS.orange = {
     nez: ["mímqas", "mímqas"],
     fit: ["appelsiini", "ˈɑpːelsiːni"],
     tlh: ["tera' na'ran", "tʰɛrɑʔ nɑʔrɑn"], // was ["tera' na'ran", "tʰɛraʔ naʔran"] (vi dialect rules 2026-10-06)
-    ab: ["апатырқал", "apatʼərkal"],
+    ab: ["апатырқал", "apʼatʼərkʰal"], // was ["апатырқал", "apatʼərkal"] (vi dialect rules 2026-10-06)
     zne: ["oronzi", "oɾonzi"],
     nzi: ["akutue", "akutue"],
     seh: ["laranja", "larandʒa"],
@@ -824,7 +824,7 @@ WORDS.orange = {
     pdc: ["Arrentsch", "ˈarəntʃ"],
     lol: ["lilala", "lilala"],
     dng: ["чынзы", "tʂʰəŋ˨˦tsɹ̩"], // was ["чынзы", "tʂʰəŋ˨˦tsɨ"] (vi dialect rules 2026-10-06)
-    hch: ["naraacáxi", "naɾaːˈkaʃi"],
+    hch: ["naraacáxi", "naɾaːˈkari"], // was ["naraacáxi", "naɾaːˈkaʃi"] (vi dialect rules 2026-10-06)
     srh: ["nuranǰi", "nuɾandʑi"],
     dur: ["ləmɔ́", "ləmɔ"],
     mwr: ["संतरौ", "sə̃ntəɾɔ"],
@@ -927,7 +927,7 @@ WORDS.orange = {
     mak: ["lemo tene", "lemo tene"],
     bzd: ["àsh balòbalo", "aʃ balobalo"],
     kl: ["appelsiina", "apːəlsiːna"],
-    mh: ["oran", "wɔrˠɑnʲ"],
+    mh: ["oran", "wɛrˠænʲ"], // was ["oran", "wɔrˠɑnʲ"] (vi dialect rules 2026-10-06)
     sa: ["नारङ्गः", "naːraŋɡaɦ"],
     gil: ["aoranti", "aoɾansi"],
     rar: ["ʻānani", "ʔaːnani"],
@@ -955,7 +955,7 @@ WORDS.orange = {
     ts: ["lamula", "lamula"],
     tet: ["sabraka", "sabraka"],
     ckv: ["mulu", "mulu"],
-    bnn: ["izuk", "izuk"],
+    bnn: ["izuk", "iðuk"], // was ["izuk", "izuk"] (vi dialect rules 2026-10-06)
     tao: ["vazcinok", "vaztsinok"],
     trv: ["mami", "mami"],
     tay: ["yutak", "jutak"],
@@ -1171,7 +1171,7 @@ WORDS.orange = {
     bar: ["Orange", "oˈraŋʒn"],
     nds: ["Apelsien", "apəlˈziːn"],
     yi: ["מאַראַנץ", "maˈrants"], // was ["מאַראַנץ", "marants"] (vi dialect rules 2026-10-06)
-    is: ["appelsína", "ˈaʰpɛlˌsiːna"],
+    is: ["appelsína", "ˈahpɛlˌsiːna"], // was ["appelsína", "ˈaʰpɛlˌsiːna"] (vi dialect rules 2026-10-06)
     gd: ["orainds", "ˈɔrɪntʲʃ"], // was ["orainds", "ˈɔɾɛntʃ"] (vi dialect rules 2026-10-06)
     br: ["orañjez", "oˈrãʒɛs"],
     nap: ["arancia", "aˈrantʃə"],
@@ -1284,7 +1284,7 @@ WORDS.orange = {
     mzn: ["پتقال", "pæteɣɒl"], // was ["پرتقال", "poɾteɣɒl"] (r29 fix 2026-10-02)
     glk: ["پرتخال", "pəɾtəxɒl"], // was ["پرتقال", "poɾteɣɒl"] (r29 fix 2026-10-02)
     lrc: ["پرتقال", "poɾteɣɒl"],
-    crh: ["portaqal", "poɾtaˈqal"],
+    crh: ["portaqal", "portaˈqal"], // was ["portaqal", "poɾtaˈqal"] (vi dialect rules 2026-10-06)
     tt: ["әфлисун", "æfliˈsun"],
     ba: ["әфлисун", "æfliˈsun"],
     nso: ["namune", "namune"],

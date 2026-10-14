@@ -79,7 +79,7 @@ WORDS.woof = {
     "eu": ["au au", "au au"],
     "fa": ["واق واق", "vɒːɢ vɒːɢ"],
     "fi": ["hau hau", "hɑu hɑu"],
-    "fo": ["voff voff", "vɔfː vɔfː"],
+    "fo": ["voff voff", "vɔːf vɔːf"],
     "fr": ["ouaf ouaf", "waf waf"],
     "ga": ["bhuf bhuf", "wʊf wʊf"],
     "gd": ["af af", "af af"],

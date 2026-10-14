@@ -929,7 +929,7 @@ WORDS.bear = {
     tru: "inherited",
     ht: "loan",
     bzj: "loan",
-    pap: "loan",
+    pap: "inherited", // route was loan (vi dialect rules 2026-10-06)
     mfe: "loan",
     crs: "loan",
     jbo: "inherited",
@@ -1016,7 +1016,7 @@ WORDS.bear = {
     fai: ["beya", "beja"],
     mwr: ["भालू", "bʱaːluː"],
     bew: ["biruang", "biruaŋ"],
-    mh: ["pāār", "pʲæːrˠ"],
+    mh: ["pāār", "pʲæjærˠ"], // was ["pāār", "pʲæːrˠ"] (vi dialect rules 2026-10-06)
     mzh: ["selaj", "selax"], // was ["sulaj", "sulax"] (vi dialect rules 2026-10-06)
     slr: ["atıq", "ɑtʰɯχ"], // was ["atıq", "ɑtɯχ"] (vi dialect rules 2026-10-06)
     wbp: ["piira", "piːɻa"],
@@ -1363,7 +1363,7 @@ WORDS.bear = {
     an: ["onso", "ˈonso"],
     oc: ["ors", "uɾs"],
     rm: ["urs", "urs"],
-    co: ["orsu", "ˈorsu"],
+    co: ["orsu", "ˈɔrsu"], // was ["orsu", "ˈorsu"] (vi dialect rules 2026-10-06)
     sc: ["ursu", "ˈursu"],
     scn: ["ursu", "ˈursu"],
     nap: ["urzo", "ˈurtsə"],
@@ -1516,7 +1516,7 @@ WORDS.bear = {
     ddo: ["зе", "ze"],
     ady: ["мышъэ", "məʂa"],
     kbd: ["мыщэ", "məɕa"],
-    ab: ["амшә", "amʂʷ"],
+    ab: ["амшә", "amʃʷ"], // was ["амшә", "amʂʷ"] (vi dialect rules 2026-10-06)
     eu: ["hartz", "arts̻"], // was ["hartz", "arts"] (vi dialect rules 2026-10-06)
 
     // --- East Asia: 熊 and 곰 -------------------------------------------
@@ -1738,7 +1738,7 @@ WORDS.bear = {
     nl_be: ["beer", "beːr"],
     de_ch: ["Bär", "bɛːr"],
     sco: ["beir", "biːr"], // was ["beir", "biːɹ"] (vi dialect rules 2026-10-06)
-    fo: ["bjørn", "bjœɹn"],
+    fo: ["bjørn", "pjœtn"], // was ["bjørn", "bjœɹn"] (vi dialect rules 2026-10-06)
     stq: ["Boar", "bɔːr"], // was ["Boar", "boːɐ"] (vi dialect rules 2026-10-06)
     wym: ["baor", "baɔr"], // was ["baor", "baoɐ"] (vi dialect rules 2026-10-06)
     vls: ["beir", "beːr"],
@@ -1890,7 +1890,7 @@ WORDS.bear = {
     pam: ["osu", "ˈosu"],
     ami: ["tomay", "tomaj"],
     tay: ["ngarux", "ŋarux"],
-    pwn: ["cumay", "tsumai"],
+    pwn: ["cumai", "tsumai"], // was ["cumay", "tsumai"] (vi dialect rules 2026-10-06)
     dru: ["cumay", "tsuˈmai"],
     szy: ["tumay", "tumai"],
     ckv: ["tumay", "tuˈmai"],
@@ -1912,7 +1912,7 @@ WORDS.bear = {
     tru: ["ܕܒܐ", "debo"],
     ht: ["lous", "lus"],
     bzj: ["byaa", "bjaː"],
-    pap: ["ber", "ber"],
+    pap: ["oso", "ˈoso"], // was ["ber", "ber"] (vi dialect rules 2026-10-06)
     mfe: ["lours", "luʁs"], // was ["lours", "lurs"] (vi dialect rules 2026-10-06)
     crs: ["lours", "lurs"],
     jbo: ["cribe", "ˈʃribe"],

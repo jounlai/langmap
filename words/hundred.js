@@ -148,7 +148,7 @@ WORDS.hundred = {
     // --- Modern Germanic --------------------------------------------------
     nl: ["honderd", "ˈɦɔndərt"],
     af: ["honderd", "ˈɦɔndərt"],
-    fy: ["hûndert", "ˈhuːndərt"],
+    fy: ["hûndert", "ˈhundət"],
     is: ["hundrað", "ˈhʏntrað"],
     da: ["hundrede", "ˈhunɐðð̩"],
     no: ["hundre", "ˈhʉndrə"],
@@ -160,7 +160,7 @@ WORDS.hundred = {
     gl: ["cen", "θɛŋ"],
     oc: ["cent", "sen"],
     ro: ["sută", "ˈsutə"],              // Slavic loan, alone among its numerals
-    rm: ["tschient", "tʃient"],
+    rm: ["tschient", "tʃjɛnt"],
     sc: ["chentu", "ˈkentu"],
     lad: ["sien", "sjen"],
 
@@ -275,7 +275,7 @@ WORDS.hundred = {
 
     // --- Uralic — every one of these is the Indo-Iranian loan Finnish shows
     se: ["čuođi", "ˈtʃuoði"],
-    vro: ["sada", "ˈsada"],
+    vro: ["sada", "ˈsɑdɑ"],
     krl: ["šata", "ˈʃɑtɑ"],
     olo: ["sada", "ˈsada"],
     vep: ["sada", "ˈsada"],
@@ -286,7 +286,7 @@ WORDS.hundred = {
     mdf: ["сяда", "ˈsʲada"],
     udm: ["сю", "sʲu"],
     kpv: ["сё", "ɕo"],
-    koi: ["сё", "sʲo"],
+    koi: ["сё", "ɕo"],
     mhr: ["шӱдӧ", "ʃydø"],
 
     // --- Austronesian ----------------------------------------------------
@@ -379,7 +379,7 @@ WORDS.hundred = {
     en_sg: ["hundred", "ˈhandɹəd"],
     en_my: ["hundred", "ˈhandɹɛd"],
     en_wls: ["hundred", "ˈhʌndɾəd"],
-    en_ck: ["hundred", "ˈhʌndɹəd"],
+    en_ck: ["hundred", "ˈhɐndɹəd"],
     en_au: ["hundred", "ˈhɐndɹəd"],
     en_nz: ["hundred", "ˈhɐndɹəd"],
     en_scouse: ["hundred", "ˈhʊndɹəd"],
@@ -421,7 +421,7 @@ WORDS.hundred = {
     tyv: ["чүс", "tɕys"],
     kjh: ["чӱс", "tʃys"],
     cjs: ["чӱс", "tʃys"],
-    alt: ["јӱс", "dʒys"],
+    alt: ["јӱс", "dʲys"],
 
     // --- More Uralic -------------------------------------------------------
     smj: ["tjuohte", "ˈtʃuohte"],
@@ -631,7 +631,7 @@ WORDS.hundred = {
     luo: ["mia", "mia"],   // Swahili loan
     ach: ["miya", "mija"],   // Swahili loan
     laj: ["mia", "miə"],   // Swahili loan
-    anu: ["dipa", "dipa"],
+    anu: ["dïpa", "dipa"],
     teo: ["akwatat", "akʷatat"],
     srr: ["teemeed", "teːmeːd"],   // the same word as Wolof téeméer
     dje: ["zangu", "zaŋɡu"],
@@ -720,7 +720,7 @@ WORDS.hundred = {
     mtq: ["tlăm", "tlam"],   // the cluster Vietnamese trăm lost
     mra: ["rɔy", "rɔj"],   // the Thai ร้อย, borrowed
     bdq: ["hrĕng", "hreŋ"],
-    bru: ["culam", "kulam"],
+    bru: ["culám", "kulam"],
     prk: ["yīeh", "ʑi̤ɛh"],
     // --- Devanagari, Arabic, Tibetan, Cyrillic and the other scripts -------
     bgc: ["सौ", "sɔː"],
@@ -999,7 +999,7 @@ WORDS.hundred = {
     tok: ["ale", "ˈale"],
     jbo: ["panono", "paˈnono"],
     ko_jeju: ["벡", "pek̚"],
-    mh: ["jibukwi", "tʲibukʷi"],
+    mh: ["jibukwi", "tʲipˠikʷij"],
     pon: ["epwiki", "epʷiki"],
     toj: ["joʼ winkeʼ", "hoʔ winkeʔ"],
     cr: ["ᒥᑖᑕᐦᑐᒥᑕᓇᐤ", "mitaːtahtomitanaw"],
@@ -1106,7 +1106,7 @@ WORDS.hundred = {
     sva: ["აშირ", "aʃir"],
     jio: ["kɯːn", "kɯːn˥"],
     agu: ["jun cient", "hun sjent"],
-    hch: ["xeitsienituyari", "ʃeitsienitujari"],
+    hch: ["xeitsienituyari", "reitsienitujaɾi"],
     kmu: ["vani hataleti", "vani hataleti"],
     toc: ["ciento", "sjento"],
     egy: ["𓍢", "ʃet"],

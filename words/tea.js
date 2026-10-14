@@ -812,7 +812,7 @@ WORDS.tea = {
     efi: ["tea", ""],
     ivv: ["tsa", ""],
     wbl: ["чой", ""],
-    lep: ["ᰆᰨ", ""],
+    lep: ["ᰆᰨ", "co"], // was ["ᰆᰨ", ""] (vi dialect rules 2026-10-06)
     ses: ["attay", ""],
     bpy: ["চা", ""],
     inh: ["чай", ""],
@@ -951,7 +951,7 @@ WORDS.tea = {
     brx: ["साहा", "saha"], // was ["सा", "sa"] (vi dialect rules 2026-10-06)
     mni: ["ꯆꯥ", "tʃa"],
     ii: ["ꆿꒉ", "la˥ʑɿ˧˧"], // was ["ꆿꒉ", "la˥˥ʑɿ˧˧"] (vi dialect rules 2026-10-06)
-    acn: ["tʂhaʔ31", "tʂʰaʔ˧˩"],
+    acn: ["tʂʰaʔ31", "tʂʰaʔ˧˩"], // was ["tʂhaʔ31", "tʂʰaʔ˧˩"] (vi dialect rules 2026-10-06)
     twm: ["tɕa35", "tɕa˧˥"],
     xkz: ["ja", "ɟa"],
     xsr: ["ཇ", "dʑa"],
@@ -1134,7 +1134,7 @@ WORDS.tea = {
     mag: ["चाह", "tʃaːɦ"],
     awa: ["चाह", "tʃaːɦ"],
     gil: ["ti", "si"], // was ["ii", "iː"] (vi dialect rules 2026-10-06)
-    mh: ["ti", "tˠi"],
+    mh: ["ti", "tˠij"], // was ["ti", "tˠi"] (vi dialect rules 2026-10-06)
     nia: ["tesi", "tesi"],
     su: ["entéh", "enteh"],
     djk: ["te", "te"],

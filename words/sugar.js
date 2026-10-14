@@ -222,7 +222,7 @@ WORDS.sugar = {
     mxv: "assukkar",
     rap: "sharkara",
     lic: "tang",
-    nxq: "tang",
+    nxq: "other", // route was tang (vi dialect rules 2026-10-06)
     pcc: "tang",
     acf: "sharkara",
     bsk: "sharkara",
@@ -989,7 +989,7 @@ WORDS.sugar = {
     mxv: ["azúcar", "aˈsukaɾ"],
     rap: ["tihota", "tihota"],
     lic: ["nom3 tha:ŋ3", "nom˩˩ tʰaːŋ˩˩"],
-    nxq: ["beftaiq", "pɤ˩˧tʰa˨˩"],
+    nxq: ["nbai", "mba˧"], // was ["beftaiq", "pɤ˩˧tʰa˨˩"] (vi dialect rules 2026-10-06)
     pcc: ["diangz", "tiaŋ˩˩"],
     acf: ["sik", "sik"],
     bsk: ["shakar", "ʂakar"],
@@ -999,7 +999,7 @@ WORDS.sugar = {
     ng: ["osuuka", "osuːka"],
     chk: ["suke", "suke"],
     yap: ["suga", "suɡa"],
-    nzi: ["asikyɛlɛ", "asikjɛlɛ"],
+    nzi: ["asikyɛlɛ", "asitɕɛlɛ"], // was ["asikyɛlɛ", "asikjɛlɛ"] (vi dialect rules 2026-10-06)
     gaa: ["sikli", "sikli"],
     ada: ["sikli", "sikli"],
     iso: ["isugẹ", "isuɡɛ"],
@@ -1080,7 +1080,7 @@ WORDS.sugar = {
     ket: ["саар", "saːr"],
     mnc: ["ᡧᠠᡨᠠᠨ", "ʃaˈtan"],
     orh: ["ʃatan", "ʃatan"],
-    tyv: ["чигир", "tʃiˈɣir"],
+    tyv: ["чигир", "tɕiˈɣir"], // was ["чигир", "tʃiˈɣir"] (vi dialect rules 2026-10-06)
     gag: ["şeker", "ʃeˈker"],
     kaa: ["qant", "qant"],
     crh: ["şeker", "ʃeˈker"],
@@ -1167,7 +1167,7 @@ WORDS.sugar = {
     zh_nj: ["糖", "tʰaŋ˨˦"],
     zh_tj: ["糖", "tʰɑŋ˦˥"],
     zh_jn: ["糖", "tʰɑŋ˦˨"],
-    ab: ["ашьақар", "aʃakar"],
+    ab: ["ашьақар", "aʃakʰar"], // was ["ашьақар", "aʃakar"] (vi dialect rules 2026-10-06)
     ady: ["шъоущыгъу", "ʃʷawɕəʁʷ"],
     kbd: ["фошыгъу", "fawʃəʁʷ"],
     kjj: ["къаьнд", "qænd"],
@@ -1291,7 +1291,7 @@ WORDS.sugar = {
     bho: ["चीनी", "tʃiːniː"],
     gil: ["tioka", "sioka"],
     pon: ["suke", "suke"],
-    mh: ["jukwa", "tʲuɡʷɑ"],
+    mh: ["jukwa", "tʲikʷæɰ"], // was ["jukwa", "tʲuɡʷɑ"] (vi dialect rules 2026-10-06)
     hmn: ["piam thaj", "pia˨˩ˀ tʰa˥˨"], // was ["piam thaj", "piã˨˩ˀ tʰa˥˨"] (vi dialect rules 2026-10-06)
     nia: ["gulo", "ɡulo"],
     djk: ["sukuu", "sukuː"],
@@ -1361,7 +1361,7 @@ WORDS.sugar = {
     ckv: ["waneng", "waˈnəŋ"],
     bnn: ["kamasia", "kamasia"],
     tay: ["kmsyaʼ", "kmsjaʔ"],
-    ami: ["waneng", "waneŋ"],
+    ami: ["waneng", "wanəŋ"], // was ["waneng", "waneŋ"] (vi dialect rules 2026-10-06)
     st: ["tswekere", "tswekere"],
     tll: ["sukadi", "sukadi"],
     mad: ["ghulâ", "ɡʱulɤ"], // was ["ghulâ", "ɡʱulɐ"] (vi dialect rules 2026-10-06)
@@ -1544,7 +1544,7 @@ WORDS.sugar = {
     yi: ["צוקער", "ˈtsʊkər"], // was ["צוקער", "ˈtsukər"] (vi dialect rules 2026-10-06)
     is: ["sykur", "ˈsɪːkʏr"],
     gd: ["siùcar", "ˈʃuːxkəɾ"],
-    br: ["sukr", "sykɾ"],
+    br: ["sukr", "sykr"], // was ["sukr", "sykɾ"] (vi dialect rules 2026-10-06)
     nap: ["zùccaro", "ˈtsukkərə"],
     scn: ["zuccuru", "ˈtsukkuru"],
     co: ["zuccheru", "ˈdzukkeru"],

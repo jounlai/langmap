@@ -288,7 +288,7 @@ WORDS.butterfly = {
     kmh: ["gogaŋ", "ɡoɡaŋ"],  // reduplicative go-gaŋ; the database also records a variant gugaŋ
     th: ["ผีเสื้อ", "pʰiː˩˩˦sɯa̯˥˩"],  // Compound ผี 'ghost, spirit' + เสื้อ; WOLD glosses it phǐi-sʉ̂a '[ghost-garment]'. The same word still means 'tutelary spirit'.
     sah: ["үрүмэччи", "yrymetʃːi"],  // the general word; NorthEuraLex also lists лыах, which the Sakha dictionary defines as a larger kind of butterfly (NEL writes чч as cː, rewritten here as the row-style affricate tɕː)
-    acn: ["phă31ʐam35tʂam55", "pʰă˧˩ʐam˧˥tʂam˥˥"],
+    acn: ["pʰă31ʐam35tʂam55", "pʰă˧˩ʐam˧˥tʂam˥˥"],
     clk: ["e55phi31ɦuŋ̩55gɑ55", "e˥˥pʰi˧˩ɦuŋ̩˥˥ɡɑ˥˥"],
     jiu: ["pu33ɬo33pu33tʃɯ33", "pu˧˧ɬo˧˧pu˧˧tʃɯ˧˧"],  // Reduplicative pu-…-pu-.
     nuf: ["phɑ53ɬɑ55", "pʰɑ˥˧ɬɑ˥˥"],
@@ -362,7 +362,7 @@ WORDS.butterfly = {
     cak: ["palamax", "palamaʃ"],  // Kaqchikel has dropped the pan-Mayan *pehpen word (Kaufman's PMED still records pepe for the Itzapa variety); variants malax / amalax
     nci: ["pāpālōtl", "paːpaːloːtɬ"],  // borrowed into Mexican Spanish as papalote
     tar: ["nakarópari", "nakaropari"],  // the dictionary spells it nacarópari in SIL orthography; respelled c→k, hu→w to match this row (cf. its ca'huara → kaʼwá, ba'hui → bawí)
-    hch: ["kipï", "kipɨ"],  // McIntosh & Grimes's c is /k/ (their ciye 'tree' = this row's kiyé) and their ɨ is this row's ï; the second vowel is legible only through OCR, hence the low confidence
+    hch: ["kɨpí", "kɨˈpi"],  // McIntosh & Grimes's c is /k/ (their ciye 'tree' = this row's kiyé) and their ɨ is this row's ï; the second vowel is legible only through OCR, hence the low confidence
     nv: ["kʼaalógii", "kʼɑ̀ːlókìː"],  // the Analytical Lexicon gives no etymology for it
     acu: ["shimpiampu", "ʃimpiampu"],  // The database also records wámpang, glossed 'giant blue butterfly'.
     ake: ["wagau", "waɡau"],  // Cognate with the Pemón wakau on the neighbouring row.
@@ -631,12 +631,12 @@ WORDS.butterfly = {
     jbo: ["toldi", "ˈtoldi"],
     hsb: ["mjetel", "ˈmjɛtɛl"],
     ko_jeju: ["나비", "nabi"],
-    mh: ["babbūb", "bɑbːɯb"],
+    mh: ["babbūb", "pˠæpˠpˠipˠ"],
     pon: ["lipahrourou", "lipaːrowrow"],
     toj: ["pejpen", "pehpen"],
     aer: ["intelyapelyape", "intəʎapəʎapə"],
     niu: ["pepe", "pepe"],
-    en_ck: ["butterfly", "ˈbɐʔəflaɪ"],
+    en_ck: ["butterfly", "ˈbɐʔəflɑɪ"],
     ker: ["akəwalkəwal", "akəwalkəwal"],
     ppl: ["papalut", "paːˈpaːluːt"],
     atj: ["kwakwapito", "kwakwapito"],

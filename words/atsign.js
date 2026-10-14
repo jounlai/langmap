@@ -223,7 +223,7 @@ WORDS.atsign = {
     eu: ["a bildua", "a βilˈdua"],
     cy: ["malwen", "ˈmalwɛn"],
     ga: ["ag", "aɡ"],
-    is: ["atmerki", "ˈaːtmɛrcɪ"],
+    is: ["at-merki", "ˈaːtmɛrcɪ"],
     // === Northern Europe ===
     fi: ["kissanhäntä", "ˈkisːɑnhæntæ"],
     sv: ["snabel-a", "ˈsnɑːbɛlɑː"],

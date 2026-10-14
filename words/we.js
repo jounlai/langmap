@@ -1,5 +1,5 @@
 /**
- * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 37 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
+ * we — the map's first typological word: who counts as "us". Roughly a third of the world's languages do something English cannot: they split the first person plural into an INCLUSIVE "we" (me and you) and an EXCLUSIVE "we" (me and them, not you). Indonesian kita vs kami, Vietnamese chúng ta vs chúng tôi, Tok Pisin yumi vs mipela, Quechua ñuqanchik vs ñuqayku, Somali innaga vs annaga. Say the wrong one and you have either invited someone in or shut them out, grammatically, with no way to hedge. The colours here are that distinction rather than an etymology, and the split is not a neat map of families: Indo-European mostly lacks it, yet Gujarati આપણે/અમે and Marathi आपण/आम्ही have it outright; the Sinosphere mostly lacks it, yet northern Mandarin opposes 咱们 to 我们 and Hokkien opposes 咱 lán to 阮 goán. Tungusic — Evenki мит/бу, Manchu ᠮᡠᠰᡝ/ᠪᡝ — has it throughout. Two cautions the data forced. Where a language marks clusivity only on the verb and not in its free pronouns, as all six Iroquoian languages and the Siouan languages here do, this map counts it as one word, because one word is what a speaker says. And where a language has no dedicated plural pronoun at all, "we" is simply the same word as "I" — which is why 我 stands unchanged in Old, Middle and Classical Chinese, and why Cherokee and Ho-Chunk repeat their singular. Where a language has both forms, both are printed, inclusive first. A third colour marks the rows where nobody has yet sourced the answer — 36 of them, each needing one attested inclusive/exclusive pair — because a reader cannot otherwise tell an undecided language from one the map has no word for.
  */
 WORDS.we = {
   emoji: "👥",
@@ -1170,7 +1170,7 @@ WORDS.we = {
     zh_lz: "unknown",
     dng: "unknown",
     lis: "unknown",
-    nxq: "unknown",
+    nxq: "clusive", // route was unknown (vi dialect rules 2026-10-06)
     chy: "clusive",
     arp: "clusive",
     bhb: "unknown",
@@ -1367,7 +1367,7 @@ WORDS.we = {
     he: ["אנחנו", "aˈnaχnu"],
     tr: ["biz", "biz"],
     fa: ["ما", "mɒː"],
-    jpr: ["מא", "mɒ"],
+    jpr: ["מא", "mɒː"], // was ["מא", "mɒ"] (vi dialect rules 2026-10-06)
     prs: ["ما", "mɑː"],
     trm: ["awë", "awə"],
     sw: ["sisi", "ˈsisi"],
@@ -1577,7 +1577,7 @@ WORDS.we = {
     nap: ["nuje", "ˈnujə"],
     scn: ["nuàutri", "nuˈawtri"],
     vec: ["noaltri", "noˈaltri"],
-    co: ["noi", "ˈnoi"],
+    co: ["noi", "nɔj"], // was ["noi", "ˈnoi"] (vi dialect rules 2026-10-06)
     lij: ["niâtri", "ˈnjaːtri"],
     rgn: ["nun", "nun"],
     egl: ["nuèter", "nuˈɛːter"],
@@ -1763,7 +1763,7 @@ WORDS.we = {
     ak: ["yɛn", "jɛ̀n"],
     ada: ["wɔ", "wɔ"],
     gaa: ["wɔ", "wɔ̀"],
-    nzi: ["yɛ", "jɛ̀"],
+    nzi: ["yɛ", "jɛ"], // was ["yɛ", "jɛ̀"] (vi dialect rules 2026-10-06)
     mk: ["ние", "ˈniɛ"],
     lg: ["ffe", "fːe"],
     zne: ["ani", "ani"],
@@ -1864,7 +1864,7 @@ WORDS.we = {
     rar: ["tātou / mātou", "taːtou / maːtou"],
     mh: ["kōj / kōm", "kɔtʲ / kɔm"],
     gil: ["ngaira", "ŋaira"],
-    ch: ["hita / hami", "ˈhitæ / ˈhæmi"],
+    ch: ["hita / hami", "ˈhita / ˈhami"], // was ["hita / hami", "ˈhitæ / ˈhæmi"] (vi dialect rules 2026-10-06)
     tet: ["ita / ami", "ita / ami"],
     aoz: ["hit / hai", "hit / hai"],
     bi: ["yumi / mifala", "jumi / mifala"],
@@ -1897,7 +1897,7 @@ WORDS.we = {
     nia: ["yaʼita / yaʼaga", "jaʔita / jaʔaɡa"],
     ban: ["iraga", "iraɡə"], // was ["iraga", "iraɡa"] (vi dialect rules 2026-10-06)
     ace: ["geutanyoe / kamoe", "ɡɯtaɲɔə / kamɔə"],
-    gay: ["kitə / kami", "kitə / kami"],
+    gay: ["kite / kami", "kitə / kami"], // was ["kitə / kami", "kitə / kami"] (vi dialect rules 2026-10-06)
     bug: ["idiʼ", "idiʔ"],
     mdr: ["itaq nasang / yamiq", "itaʔ nasaŋ / jamiʔ"], // was ["ikiq / ingkaiq", "ikiʔ / iŋkaiʔ"] (vi dialect rules 2026-10-06)
     cia: ["ingkita / isami", "iŋkita / isami"],
@@ -1948,8 +1948,8 @@ WORDS.we = {
     udm: ["асьмеос / ми", "asʲmeos / mi"],
     mhr: ["ме", "me"],
     mrj: ["мӓ", "mæ"],
-    myv: ["минь", "minʲ"],
-    mdf: ["минь", "minʲ"],
+    myv: ["минь", "mʲiɲ"], // was ["минь", "minʲ"] (vi dialect rules 2026-10-06)
+    mdf: ["минь", "mʲinʲ"], // was ["минь", "minʲ"] (vi dialect rules 2026-10-06)
     krl: ["myö", "myø̯"], // was ["myö", "myø"] (vi dialect rules 2026-10-06)
     olo: ["myö", "myø"],
     vep: ["mö", "mø"],
@@ -1966,7 +1966,7 @@ WORDS.we = {
     pwo: ["ပ", "pə"],
     lhu: ["ngà hɨ", "ŋà hɯ"], // was ["ngà hɨ", "ŋà hɨ"] (vi dialect rules 2026-10-06)
     lis: ["ngua nu", "ŋwa˧˧nu˧˩"],
-    nxq: ["ngemgeeq", "ŋə˧ŋɡɯ˨˩"],
+    nxq: ["ngemgeeq", "ŋə˧ŋɡɯ˨˩"], // was ["ngemgeeq", "ŋə˧ŋɡɯ˨˩"] (vi dialect rules 2026-10-06)
     shn: ["ႁဝ်း", "haw˥"],
     jio: ["au / tei", "au˥ / tei˥"], // was ["tei", "tei˧"] (r31 fix 2026-10-02)
     kbp: ["ɖa", "ɖa"],

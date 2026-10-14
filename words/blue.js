@@ -201,7 +201,7 @@ WORDS.blue = {
     bbc: "distinct",
     urh: "borrowed",
     iso: "borrowed",
-    nxq: "grue",
+    nxq: "distinct", // route was grue (vi dialect rules 2026-10-06)
     czh_wy: "distinct",
     ngl: "distinct",
     kam: "borrowed",
@@ -1074,7 +1074,7 @@ WORDS.blue = {
     bbc: ["balau", "balau"],
     urh: ["iblu", "iblu"],
     iso: ["iburu", "ibuɾu"],
-    nxq: ["herq", "hɚ˨˩"],
+    nxq: ["bie", "piə˧"], // was ["herq", "hɚ˨˩"] (vi dialect rules 2026-10-06)
     czh_wy: ["蓝", "lum˩˩"],
     ngl: ["kirim", "kiɾim"],
     kam: ["mbuluu", "mbuluː"],
@@ -1519,11 +1519,11 @@ WORDS.blue = {
     fa: ["آبی", "ʔɒːˈbi"],  // آبی (< آب 'water') vs سبز 'green'.
     fi: ["sininen", "ˈsininen"],  // sininen vs vihreä.
     fj: ["karakarawa", "karakarawa"],  // One term covers blue and green; POc *kara-karawa 'blue-green'. Fijian drokadroka 'green' (< droka 'unripe') is the later narrowing.
-    fo: ["bláur", "ˈblɔaːɹʊɹ"],  // Faroese bláur against grønur.
+    fo: ["bláur", "ˈplɔɑːvʊɹ"],  // Faroese bláur against grønur. // was ["bláur", "ˈblɔaːɹʊɹ"] (vi dialect rules 2026-10-06)
     fon: ["fefe", "fefe"],  // fefe fits this row's reduplicated colour adjectives (vɔvɔ, wéwé, wiwi). Delafosse's gloss runs 'bleu, azuré, violet' with no green sense, and 'vert' is a separate word (vlivè, also 'unripe'), so the term is treated as blue-specific — but he makes no explicit statement about the blue-green boundary, so the class is an inference from the two entries.
     fr: ["bleu", "blø"],  // bleu vs vert; bleu is itself a Frankish loan into Gallo-Romance, long nativised.
     fud: ["ʻusi", "ʔusi"],  // The one East Futunan term POLLEX records with a 'blue' gloss is the dark-colour term: Grézel 'bleu; noir foncé'. Cognates: Rennellese ʔusi 'blue, as ocean or sky, green, as grass', Samoan -usi 'green or blue', Tuvaluan usi 'deep green (of leaves), jet black (of hair)'. A modern Futunan dictionary (Moyse-Faurie) was not reachable, so a separate recent blue word cannot be ruled out.
-    fy: ["blau", "blau"],  // West Frisian blau against grien.
+    fy: ["blau", "blɔu"],  // West Frisian blau against grien. // was ["blau", "blau"] (vi dialect rules 2026-10-06)
     ga: ["gorm", "ˈɡɔɾˠəmˠ"],  // Irish splits the cool range differently from English: gorm is blue (and of dark skin), glas covers green of growing things and grey, uaine is artificial green. gorm is the blue term, but the boundary is not the English one.
     gaa: ["bla", "bla"],  // Donor is explicit in the source ('engl.'), so the class is secure; what is uncertain is the modern spelling — Zimmermann's 1858 bla may today be written blu. Ga green (ŋoli) and black (diŋ) are separate terms, so the loan is not sitting on top of a grue term.
     gd: ["gorm", "ˈkɔɾɔm"],  // Scottish Gaelic gorm is blue (and of dark skin and of grass in some collocations), while glas covers green and grey — the Goidelic division of the cool range, not the English one. Middle Irish glas was a blanket term from green to blue.
@@ -1628,7 +1628,7 @@ WORDS.blue = {
     men: ["bulu", "bulu"],  // Blue and green are separate terms in Migeod's list, which also supplies this row's kpou 'red'. The attributive form is bulungo. The word looks like the same wandering English 'blue' found in Mampruli bulu and Wolof bulô, but Migeod gives no etymology, so the class is left distinct rather than borrowed. OCR renders the citation form 'Bulw.'; 'bulu' is read from the attributive bulungo.
     meu: ["gadokagadoka", "ɡadokaɡadoka"],  // Lawes' colour list keeps gadogagadoga for blue+green and gives separate terms for the dark end: korema korema 'black, also dark brown', dahuludahulu 'dark blue, also violet', uriuri 'brown'. Karukaru is 'green (unripe)' only.
     mg: ["manga", "ˈmaŋɡa"],  // Malagasy manga against maitso 'green'. WOLD scores manga as showing no evidence of borrowing.
-    mh: ["būļu", "bʲɯlʲɯ"],  // Marshallese būļu is an English loan (blue); the inherited term maroro covers green and blue-green.
+    mh: ["būļu", "pˠilˠiw"],  // Marshallese būļu is an English loan (blue); the inherited term maroro covers green and blue-green. // was ["būļu", "bʲɯlʲɯ"] (vi dialect rules 2026-10-06)
     mhr: ["канде", "ˈkande"],  // Meadow Mari канде vs ужар. NorthEuraLex writes the stress-marked ка́нде; the plain orthographic form is given here to match the row's йошкар/ошо.
     mi: ["kahurangi", "kahuɾaŋi"],  // Māori kahurangi (also kikorangi) for blue, kākāriki for green. Before European contact Māori did not separate them — the survey records one term used for both — and IDS still lists puruu, the English loan, as the blue.
     mic: ["ewneʼg", "ewneːɡ"],  // ORTHOGRAPHY CAVEAT: ewneʼg is the Listuguj spelling; the other cells in this row (mekwek, wapeʼk, maqteweʼk) are Smith-Francis, where this would be written ewneʼk. Not changed, because I could not source the Smith-Francis spelling directly.

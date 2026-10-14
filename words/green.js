@@ -106,8 +106,8 @@ WORDS.green = {
     yi: ["גרין", "ɡrɪn"],
     fo: ["grønur", "ˈɡrøːnʊr"],
     gl: ["verde", "ˈbeɾðe"],
-    oc: ["verd", "bet"],
-    co: ["verde", "ˈverde"],
+    oc: ["verd", "bert"],
+    co: ["verde", "ˈvɛrde"],
     sc: ["birde", "ˈbirde"],
     fur: ["vert", "vɛrt"],
     rm: ["verd", "vɛrt"],
@@ -155,7 +155,7 @@ WORDS.green = {
     itz: ["yaʼax", "jaʔaʃ"],   // ALMG's Itzaʼ vocabulary entry 1574 for verde; its Indumentaria volume uses the same word of indigo dye against Spanish "azul", so grue. Itzaʼ chʼoj exists but names the añil plant, not the colour.
     ixl: ["chaʼx", "tʃaʔʂ"],   // ALMG Ixil, Cotzal/Nebaj form (Chajul has tchaʼx), and Kaufman's OKMA form. Blue is undetermined: that vocabulary has no Azul headword at all, so this row's grue status is open rather than settled.
     huv: ["nateaik", "natʲaik"],  // Stairs & Stairs' Huave dictionary, and the World Color Survey has 23 of 25 speakers naming it with green foci. Distinct rather than grue: 24 of 25 gave the Spanish loan azul for blue, and the dictionary has no azul entry. ⟨c⟩ → k and ⟨tea⟩ = /tʲa/ follow this row's own kawak and kiet /kʲet/.
-    hch: ["siïraïyeme", "siɨraɨjeme"],  // Lower confidence than the rest: McIntosh & Grimes, Grimes 1981 and the Glosario Wixárika all put this first for 'verde', but it is a long derived form and Grimes also glosses yuavi as "verde, azul de color". A modern speaker source would settle whether this is what one reaches for pointing at grass.
+    hch: ["siɨraɨyeme", "siɨɾaɨjeme"],  // Lower confidence than the rest: McIntosh & Grimes, Grimes 1981 and the Glosario Wixárika all put this first for 'verde', but it is a long derived form and Grimes also glosses yuavi as "verde, azul de color". A modern speaker source would settle whether this is what one reaches for pointing at grass.
     ka: ["მწვანე", "mtsʼvane"],
     kbd: ["удзыфэ", "wədzəfa"],  // udz 'grass' + фэ 'colour', the same compound as Adyghe уцышъо already in this row; Wiktionary lemmatises both as colour adjectives, so they are lexicalised terms rather than the ad-hoc "leaf-coloured" descriptions this concept declines — the same reading that lets Swahili kijani in.
     am: ["አረንጓዴ", "arənˈɡʷade"],
@@ -184,7 +184,7 @@ WORDS.green = {
     ain: ["シウニン", "siwnin"],
     akb: ["rata", "rata"],
     akk: ["𒅊", "warqu"],
-    alt: ["јажыл", "ɟaˈʒɯl"],
+    alt: ["јажыл", "dʲaˈʒɯl"],
     an: ["verde", "ˈbeɾde"],
     ang: ["grēne", "ɡreːne"],
     anp: ["हरियर", "ɦərijər"],
@@ -328,7 +328,7 @@ WORDS.green = {
     kri: ["grin", "ɡrin"],
     krl: ["vihanta", "ˈvihanta"],
     ks: ["سَبٕز", "sabɨz"],
-    ksh: ["jröön", "jʁøːn"],
+    ksh: ["grön", "jʁøːn"],
     kum: ["яшыл", "jaˈʃɯl"],
     kw: ["gwyrdh", "ɡwɪrð"],   // The artificial-green term, and the one a Cornish colour chart gives for green; glas (already this row's 'blue') is what covers plants and the sea, so Cornish is grue on the natural side and lexicalised on the made side.
     la: ["viridis", "ˈwɪrɪdɪs"],
@@ -352,7 +352,7 @@ WORDS.green = {
     mdh: ["gadung", "ˈɡaduŋ"],
     meu: ["gadokagadoka", "ɡadokaɡadoka"],
     mfe: ["ver", "vɛʁ"],
-    mh: ["maroro", "mʲɑːrˠɔːrˠɔ"],   // The native term; kūriin is the English loan, used of one flat shade. MEOD glosses maroro as the green of patterned or mottled things, which is what Marshallese reaches for of vegetation.
+    mh: ["maroro", "mʲæɰrˠɛwrˠɛw"],   // The native term; kūriin is the English loan, used of one flat shade. MEOD glosses maroro as the green of patterned or mottled things, which is what Marshallese reaches for of vegetation.
     mhr: ["ужар", "uˈʒar"],
     min: ["ijau", "idʒau"],
     ml: ["പച്ച", "patʃːa"],
@@ -640,7 +640,7 @@ WORDS.green = {
     tzo: ["yaxal", "jaʃal"],
     zap: ["naberde", "naberde"],
     mdr: ["mekurarraq", "mekurarːaʔ"],
-    nxq: ["herq", "hɚ˨˩"],
+    nxq: ["herq", "xɚ˨˩"],
     bdq: ["jơk", "ɟəːk"],
     bzj: ["green", "ɡriːn"],
     ty: ["matie", "matie"],

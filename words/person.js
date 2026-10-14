@@ -108,7 +108,7 @@ WORDS.person = {
     hy: ["մարդ", "mɑɾtʰ"],
     ka: ["ადამიანი", "adamiani"],
     af: ["mens", "mɛns"],
-    is: ["manneskja", "ˈmanːɛskja"],
+    is: ["manneskja", "ˈmanːɛsca"],
     lb: ["Mënsch", "mənʃ"],
     yi: ["מענטש", "mɛntʃ"],
     gl: ["persoa", "peɾˈsoa"],
@@ -235,7 +235,7 @@ WORDS.person = {
     cuk: ["dule", "tule"],
     cv: ["ҫын", "ɕɯn"],
     dar: ["адам", "adam"],
-    dds: ["inde", "indɛ"],
+    dds: ["ndɛ", "ndɛ"],
     din: ["raan", "raːn"],
     dje: ["boro", "boro"],
     djk: ["sama", "sama"],
@@ -1152,6 +1152,7 @@ WORDS.person = {
     xht: ["zari", "zari"],
     ar_iq: ["شخص", "ʃaxis"],
     kfr: ["માડુ", "maːɽu"],
-    qxq: ["adam", "aˈdam"]
+    qxq: ["adam", "aˈdam"],
+    nmf: ["mi", "mi"]
   }
 };

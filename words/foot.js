@@ -1682,7 +1682,7 @@ WORDS.foot = {
     jiu: ["ʃɔ33khi33", "ʃɔ˧˧kʰi˧˧"],  // ZMYYC 263.34 ʃɔ³³kʰi³³ 'foot' against 264.34 a³³phɹɔ³³ 'leg' — Jino keeps a separate word for each.
     jiv: ["nawe", "nawe"],  // Shuar breaks kaṉkajin for the legs and washes nawer for the feet, as Achuar does.
     jmc: ["urende", "uɾende"],  // Grollemund's ALGAB gives Machame urende for the leg and the Machame Bible washes marende in John 13 — John 19 breaks 'bones' here, which is the bone control, not a second lexeme.
-    jpr: ["פא", "pɒ"],  // Judeo-Persian is Persian in Hebrew letters: פא is one word for the whole lower limb, as Persian پا.
+    jpr: ["פא", "pɒː"],  // Judeo-Persian is Persian in Hebrew letters: פא is one word for the whole lower limb, as Persian پا. // was ["פא", "pɒ"] (vi dialect rules 2026-10-06)
     jqr: ["kayu", "kaju"],  // kayu answers both foot and leg for Jaqaru and for Kawki in Heggarty's Andean survey, the same survey that records chaki against chanka for Quechua and kayu against chara for Aymara.
     juc: ["betie", "bətie"],  // Grube's 1896 edition of the 女真譯語, entry 505 'Fuss' = bethe. Manchu bethe is 'foot, leg' (Norman), and the atlas's mnc row already carries it as leg+foot. // was ["bethe", "bətxə"] (r46 fix 2026-10-03)
     jup: ["ɟʼib", "ɟʼib"],  // Epps's pot scene names both at once – cɨ̌ʔ, a lower leg, poking out, then húp=jʼib, a human foot – and ASJP's JUPDA T"ib is the same ɟʼib.
@@ -1748,7 +1748,7 @@ WORDS.foot = {
     ko_kp: ["발", "pal"],  // North Korean's departures are lexical and orthographic — 닭알 for 달걀 — and 발 pal is a CVC monosyllable none of them touches.
     ko_mid: ["·발", "pal"],  // 발〮 is 거성 — one bangjeom, written as this row's prefix dot — first attested 석보상절 (1447). 다리 ᄃᆞ리 is a separate lexeme in the same text.
     ko_yb: ["발", "pal"],  // Yanbian follows the northern lexicon in the kinship terms but keeps 발, and nothing in the row's phonology changes a plain CVC.
-    koi: ["кокпыдӧс", "kokpɨdəs"],  // Komi-Permyak derives the foot word from the leg word кок, where its Komi-Zyrian sister just uses кок for both.
+    koi: ["кокпыдӧс", "kokpɨdɘs"],  // Komi-Permyak derives the foot word from the leg word кок, where its Komi-Zyrian sister just uses кок for both. // was ["кокпыдӧс", "kokpɨdəs"] (vi dialect rules 2026-10-06)
     kok: ["पाय", "paːj"],  // पाय covers the whole limb, as in Marathi: Maffei answers both Foot and Leg with the one word.
     kos: ["ne", "ne"],  // Lee's free form is ne and every foot part is built on it — kapihn ne 'the back of the foot', puhsran ne 'top of the foot', fuhkuhn ne 'ankle', and under poh 'blister' the example is falken niyacl 'the sole of his foot', which shows falkac to be the sole and footprint rather than a rival. The Kosraean Bible then washes nien mwet tumal lutlut at John 13:5 and breaks nien mwet at John 19:31-32, with sri 'bone' at John 19:36 as the control.
     koy: ["-kkaaʼ", "kːaːʔ"],  // Eliza Jones's Koyukon dictionary heads 'his foot' bakkaaʼ and 'his leg' bitłʼinaʼ, and bitłʼinaʼ is also 'his bones' — the same stem as this row's tlʼin.
@@ -1946,7 +1946,7 @@ WORDS.foot = {
     nyn: ["ekigyere", "ekiɡjere"],  // Runyankore splits ekigyere from okuguru — the Runyankore-Rukiga Bible washes ebigyere in John 13 and breaks amaguru in John 19.
     nyo: ["ekigere", "ekiɡere"],  // Runyoro splits them: Maddox's 1902 Lunyoro grammar gives ekigere beside ekirenge for the foot and okuguru for the leg.
     nys: ["djen", "dʒen"],  // Whitehurst's two halves print the pair, foot djen, djin against maat 'leg (shin bone)'; the Noongar Bible spells the foot djena and keeps maat for 'spouse'.
-    nzi: ["gyakɛ", "ɡʲakɛ"],  // Delafosse 1904 had Zéma gyake for the foot, and both Nzema Bibles wash gyakɛ in John 13 and break gyakɛ in John 19 — one word for the limb.
+    nzi: ["gyakɛ", "dʑakɛ"],  // Delafosse 1904 had Zéma gyake for the foot, and both Nzema Bibles wash gyakɛ in John 13 and break gyakɛ in John 19 — one word for the limb. // was ["gyakɛ", "ɡʲakɛ"] (vi dialect rules 2026-10-06)
     nzm: ["mipidei", "mipidei"],  // Marrison has mipi for the leg and mipidei built on it for the foot, as mipa covers hand and arm together.
     oar: ["רגל", "reɡel"],  // CAL, Common Aramaic רגל for the whole limb.
     obr: ["ခြိယ်", "kʰrij"],  // Old Burmese ခြိယ်, the ancestor of Burmese ခြေ — one word for the limb.

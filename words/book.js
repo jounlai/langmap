@@ -66,7 +66,7 @@ WORDS.book = {
     sv: ["bok", "buːk"],
     da: ["bog", "bɔːˀw"],
     no: ["bok", "buːk"],
-    is: ["bók", "pouk"],
+    is: ["bók", "pouːk"],
     fr: ["livre", "livʁ"],
     es: ["libro", "ˈliβɾo"],
     it: ["libro", "ˈliːbro"],
@@ -183,7 +183,7 @@ WORDS.book = {
     bxr: ["ном", "nom"],
     cmg: ["ᠨᠣᠮ", "nom"],
     crh: ["kitap", "kiˈtap"],
-    ab: ["ашәҟәы", "aʂʷqʷʼə"],
+    ab: ["ашәҟәы", "aʃʷqʷʼə"],
     ady: ["тхылъ", "txəɬ"],
     av: ["тӏехь", "tʼex"],
     ar_eg: ["كتاب", "keˈtaːb"],
@@ -244,7 +244,7 @@ WORDS.book = {
     goh: ["buoh", "buox"],
     gmh: ["buoch", "buox"],
     gsw: ["Buech", "buəx"],
-    ksh: ["Booch", "boːx"],
+    ksh: ["Boch", "boːx"],
     got: ["𐌱𐍉𐌺𐍉𐍃", "ˈboːkoːs"],
     ga: ["leabhar", "ˈlʲauəɾˠ"],
     gd: ["leabhar", "ˈʎɔəɾ"],
@@ -271,7 +271,7 @@ WORDS.book = {
     kca: ["книга", "kniɣa"],   // Its other kca form, ӆуӈатти нэпек 'reading paper', is a phrase.
     ket: ["книга", "kɲiɡa"],
     itl: ["книга", "kniɡa"],
-    koi: ["небӧг", "ˈnʲebɘɡ"],  // NorthEuraLex gives Komi-Permyak книга, but koi.wikipedia writes небӧг in running prose ("Коми небӧг лэдзанін", a book publisher). Taking the native literary word, which also matches the kpv cell — the two standards share it.
+    koi: ["небӧг", "ˈɲebɘɡ"],  // NorthEuraLex gives Komi-Permyak книга, but koi.wikipedia writes небӧг in running prose ("Коми небӧг лэдзанін", a book publisher). Taking the native literary word, which also matches the kpv cell — the two standards share it.
     kjh: ["кинде", "kinˈde"],   // Wiktionary's кинде page has no Khakas section and does have an Eastern Mari one where it means 'bread', which is why this looked unsafe; the Russian–Khakas school dictionary settles it ("Книга ж. 1. кинде; книга для чтения хығырҷаӊ кинде"). The Mari homograph is a coincidence.
     esu: ["naaqerkaq", "naːqəʁkaq"],  // Jacobson glosses naaqerkaq only 'book', against kalikat 'book; magazine; papers' — so this is the one that stays on the right side of the paper-word line. IPA from the orthography, not quoted.
     ik: ["makpiġaat", "makpiʁaːt"],   // MacLean glosses it 'book, sheets of paper', with a separate makpiġaaq 'piece of paper' — the split is what supports the book reading. IPA from the orthography.
@@ -442,7 +442,7 @@ WORDS.book = {
     orh: ["bitəgə", "bitəɣə"],
     sga: ["lebor", "ˈlʲeβur"],
     kry: ["kitab", "kitab"],
-    pwn: ["sapitj", "sapitʲ"],
+    pwn: ["sunatj", "sunatʲ"],
     tzo: ["vun", "vun"],
     clk: ["kɑ31ko55", "kɑ˧˩ko˥˥"],
     se: ["girji", "ˈkirji"],
@@ -697,7 +697,7 @@ WORDS.book = {
     ebu: ["ĩvuku", "evuku"],
     kqn: ["buku", "buku"],
     lol: ["bonkanda", "bonkanda"],
-    mev: ["kii", "kiː"],
+    mev: ["kíí", "kíː"],
     nhw: ["libro", "ˈlibro"],
     nhe: ["amatl", "amatɬ"],
     guc: ["karaloukta", "karaloukta"],
@@ -705,8 +705,8 @@ WORDS.book = {
     ctu: ["juñ", "huɲ"],
     maw: ["bukku", "bukːu"],
     bto: ["libro", "libˈɾo"],
-    nxq: ["tei'ee", "tʰe˧ɰɯ˧"],
-    ami: ["cudad", "tsuðad"],
+    nxq: ["teiwee", "tʰe˧ɣɯ˧"],
+    ami: ["codad", "tsoðað"],
     saq: ["mbuku", "mbuku"],
     naq: ["ǂkhanis", "ǂkʰanis"],
     spp: ["semɛ", "semɛ"],
@@ -745,7 +745,7 @@ WORDS.book = {
     nhx: ["a̱maꞌ", "aːmaʔ"],
     otq: ["heꞌmi", "heʔmi"],
     mxv: ["tutu", "tutu"],
-    hch: ["xapa", "ʃapa"],
+    hch: ["xapa", "rapa"],
     car: ["kareta", "kaɾeta"],
     tiw: ["jurra", "dʒuɾa"],
     trv: ["patis", "patis"],

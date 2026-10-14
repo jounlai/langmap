@@ -127,7 +127,7 @@ WORDS.dopamine = {
     "dv": ["ޑޯޕަމީން", "ɖoːpamiːn"],
     "et": ["dopamiin", "ˈdopɑmiːn"],
     "eu": ["dopamina", "dopaˈmina"],
-    "fo": ["Dopamin", "doːpaˈmiːn"],
+    "fo": ["dopamin", "doːpaˈmiːn"],
     "fy": ["dopamine", "doːpaˈminə"],
     "ga": ["dopaimín", "ˈd̪ˠɔpˠɪˌmʲiːnʲ"],
     "gl": ["dopamina", "dopaˈmina"],

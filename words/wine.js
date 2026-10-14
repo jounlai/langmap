@@ -47,6 +47,8 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    pi_edu: "other",
+    deg: "other",
     bnn: "other",
     dnj: "other",
     cmg: "other",
@@ -962,6 +964,8 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    pi_edu: ["surā", "suraː"],
+    deg: ["uḍi", "uɗi"],
     bnn: ["davus", "davus"],
     dnj: ["dlɔ̏ɔ", "dlɔ̏ː"],
     cmg: ["ᠳᠠᠷᠠᠰᠤ", "darasu"],
@@ -1007,7 +1011,7 @@ WORDS.wine = {
     unr: ["bino", "bino"],
     dur: ["doo", "doo"], // was ["və̧́ŋ", "və̃ŋ"] (vi dialect rules 2026-10-06)
     jiv: ["winiu", "winiu"],
-    pot: ["shomenabo", "ʃomenabo"],
+    pot: ["shomenabo", "ʃomənabo"], // was ["shomenabo", "ʃomenabo"] (vi dialect rules 2026-10-06)
     pwn: ["vava", "vava"],
     bej: ["haab", "haːb"],
     mpj: ["wama", "wama"],
@@ -1015,7 +1019,7 @@ WORDS.wine = {
     iso: ["enwaene", "enwaene"],
     lic: ["bi:ŋ2 phu3 tha:u3", "biːŋ˥˥ pʰu˩˩ tʰaːu˩˩"],
     nxq: ["—", "—"],
-    sma: ["vijne", "vijne"],
+    sma: ["vijne", "ˈβijnɛ"], // was ["vijne", "vijne"] (vi dialect rules 2026-10-06)
     ks: ["مَس", "mas"],
     gld: ["араки", "araki"],
     evn: ["араки", "araki"],
@@ -1658,7 +1662,7 @@ WORDS.wine = {
     gan_yc: ["—", "—"],
     gan_ja: ["葡萄酒", "pʰu˦˥ tʰau˦˥ tɕiu˨˩˧"],
     cjy_lv: ["葡萄酒", "pʰu˦˦ tʰou˦˦ tɕiʌu˧˩˨"],
-    cjy_xz: ["葡萄酒", "pʰu˩˩ tʰɔ˩˩ tɕiəu˥˧"],
+    cjy_xz: ["葡萄酒", "pʰu˧˩ tʰɔ˧˩ tɕiəu˧˩˧"], // was ["葡萄酒", "pʰu˩˩ tʰɔ˩˩ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     hsn_hy: ["葡萄酒", "pu˩˩˨ tau˩˩˨ tɕiu˧˧"],
     wuu: ["葡萄酒", "bu˨˧ dɔ˨˧ tɕiɤ˧˥"],
     zh_sc: ["葡萄酒", "pʰu˨˩ tʰau˨˩ tɕiəu˥˧"],

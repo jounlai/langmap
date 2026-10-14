@@ -618,6 +618,8 @@ WORDS.chocolate = {
     zh_hf: ["巧克力", "tɕʰiɔ˨˦ kʰɐʔ˦ ȵiəʔ˦"],
     zh_cq: ["巧克力", "tɕʰiau˦˨ kʰe˨˩ li˨˩"],
     dje: ["sokola", "sokola"],
-    mn_cn: ["ᠱᠣᠻᠣᠯᠠᠳ᠋", ""]
+    mn_cn: ["ᠱᠣᠻᠣᠯᠠᠳ᠋", ""],
+    pot: ["jakonat", "dʒakonat"],
+    en_ng2: ["chocolate", ""]
   }
 };

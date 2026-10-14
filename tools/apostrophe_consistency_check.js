@@ -59,12 +59,12 @@ const MARKS = new Map([
 const ALLOW = new Set(['psem', 'bbl']);
 
 /* Unresolved, and each needs an orthography decision rather than a vote:
- *   liv — Livonian palatalisation, 2 U+02BC / 2 U+2019 / 1 ASCII, a three-way tie
+ *   liv — Livonian palatalisation; settled in r106 (the row now writes one apostrophe), entry removed
  *   uk  — the Ukrainian apostrophe; DSTU and Unicode both name U+02BC, but the
  *         row is 4 ASCII to 1 U+2019 and `be` next door is consistently ASCII
  *   as  — Assamese marks a vowel with it; the row has one of each, in two cells
  */
-const DEBT = new Set(['liv', 'uk', 'as']);
+const DEBT = new Set(['uk', 'as']);
 
 const ctx = vm.createContext({});
 vm.runInContext('this.window = this; this.WORDS = window.WORDS = {};', ctx);

@@ -196,8 +196,8 @@ WORDS.butterfly = {
     se: ["beaiveloddi", "ˈpeɑjveˌlotːi"],  // Compound beaivi 'sun' + loddi 'bird' — loddi is this row's own word for bird.
     smj: ["biejvvelådde", "ˈbiejvːeˌlɔdːɛ"],  // Compound 'sun' + lådde 'bird' — lådde is this row's own word for bird.
     smn: ["piäi'vááloddááš", "ˈpiæivaːˌlodːaːʃ"],  // Compound 'sun' + lodde 'bird' plus a diminutive — lodde is this row's own word for bird.
-    sms: ["äʹllbaž", "alːʲbʲɒʒ"],  // the Kola Sámi word, cognate with Kildin а̄лльп, rather than the 'day-bird' compound of the western Sámi languages; NEL also lists pei´vvlå´dd for Skolt, and which of the two is the everyday word is unchecked. Surface kept verbatim from NEL (´ not ʹ), as the row itself does in nâ´stt
-    sma: ["biejjielåbloe", "ˈpiejːieˌlɔblʊə"],  // Begins with biejjie 'sun', like the other Sámi forms.
+    sms: ["äʹllbaž", "ˈalːʲbʲɒʒ"],  // the Kola Sámi word, cognate with Kildin а̄лльп, rather than the 'day-bird' compound of the western Sámi languages; NEL also lists pei´vvlå´dd for Skolt, and which of the two is the everyday word is unchecked. Surface kept verbatim from NEL (´ not ʹ), as the row itself does in nâ´stt
+    sma: ["biejjielåbloe", "ˈpiɛjːiɛˌlɔbluʌ"],  // Begins with biejjie 'sun', like the other Sámi forms.
     sjd: ["а̄лльп", "aːʎːp"],  // Not a 'sun-bird' compound, unlike the other Sámi rows; WOLD independently records the same word as āll’p.
     mns: ["ла̄панты", "laːpantɪ"],
     kca: ["ӆапата", "ɬapata"],
@@ -283,7 +283,7 @@ WORDS.butterfly = {
     tue: ["bõbõrõ", "bõˈbõɾõ"],  // Reduplicated bõ-bõ-.
     emp: ["bagabaga", "baɡabaɡa"],  // a reduplication of baga; hyphen/apostrophe of the source's phonemic notation not reproduced
     shp: ["pëpë", "pɨ̃pɨ̃"],  // a reduplication; the source's vowels are nasal, which the practical orthography used here does not show
-    tsi: ["ba̱xbog̱mgyemk", "baxboɢm̩ɡʲemk"],  // compound ending in gyemk 'sun/moon/heat' (so stated in the dictionary); Kitkatla dialect has wa̱xwog̱mgyemk, and adabiis 'beautiful' is also used
+    tsi: ["ba̱xbog̱mgyemk", "bʌχboɢm̩ɡʲemk"],  // compound ending in gyemk 'sun/moon/heat' (so stated in the dictionary); Kitkatla dialect has wa̱xwog̱mgyemk, and adabiis 'beautiful' is also used
     kpj: ["otʃiʃa", "otʃiʃa"],
     kmh: ["gogaŋ", "ɡoɡaŋ"],  // reduplicative go-gaŋ; the database also records a variant gugaŋ
     th: ["ผีเสื้อ", "pʰiː˩˩˦sɯa̯˥˩"],  // Compound ผี 'ghost, spirit' + เสื้อ; WOLD glosses it phǐi-sʉ̂a '[ghost-garment]'. The same word still means 'tutelary spirit'.
@@ -774,7 +774,7 @@ WORDS.butterfly = {
     ixl: ["naaviʼ", "naːviʔ"],
     xkz: ["pipaling", "pipaliŋ"],
     ar_qur: ["فراش", "faraːʃ"],
-    el_grc: ["ψυχή", "psykʰɛ̌ː"],
+    el_grc: ["ψυχή", "psyːkʰɛ̌ː"],
     hy_grab: ["թիթեռն", "tʰitʰeɾn"],
     it_dan: ["farfalla", "farˈfalla"],
     ja_heian: ["蝶", "teɸu"],
@@ -782,7 +782,7 @@ WORDS.butterfly = {
     txg: ["𗍘𗉌", "pja˧ pju˧˥"],
     vi_nom: ["𧊉", "ɓɨəm˧˥"],
     cmg: ["ᠡᠷᠪᠡᠬᠡᠢ", "erbekei"],
-    non: ["fífrildi", "fiːfrildi"],
+    non: ["fífrildi", "ˈfiːfrildi"],
     el_kath: ["πεταλούδα", "petaˈluða"],
     en_em: ["butterfly", "ˈbʊtərfləi"],
     p_hmx: ["*mpleuᴴ", "mpleu"],
@@ -906,6 +906,7 @@ WORDS.butterfly = {
     acw: ["فراشة", "faraːʃa"],
     har: ["aḥmära kitāb", "ɑħmərɑ kitaːb"],
     zh_jh: ["蝴蝶", "xu˩˧ tieʔ˥˥"],
-    wuu_hz: ["蝴蝶儿", "ɦu˨˩˧ dieʔ˨ əl˨˩˧"]
+    wuu_hz: ["蝴蝶儿", "ɦu˨˩˧ dieʔ˨ əl˨˩˧"],
+    saq: ["sampiripiri", "sampiripiri"]
   },
 };

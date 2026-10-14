@@ -1085,7 +1085,7 @@ WORDS.we = {
     rut: "single",
     kim: "single",
     tpn: "clusive",
-    uln: "single",
+    uln: "unknown", // route was single (vi dialect rules 2026-10-06)
     wmt: "clusive",
     wuu_hz: "single",
     xag: "single",
@@ -1180,7 +1180,7 @@ WORDS.we = {
     kky: "clusive",
     mbc: "clusive",
     kpj: "unknown",
-    guu: "unknown",
+    guu: "clusive", // route was unknown (vi dialect rules 2026-10-06)
     cag: "clusive",
     pcc: "clusive",
     mpt: "clusive",
@@ -1226,7 +1226,7 @@ WORDS.we = {
     gan_fz: ["—", "—"],
     hsn_yz: ["—", "—"],
     cjy_lv: ["—", "—"],
-    cjy_xz: ["咱们 / 我们", "tsa˥˧ mə / ŋɤ˧˩ mə"],
+    cjy_xz: ["咱们 / 我们", "tsa˥˧ mə / ŋɛ˧˩˧ mə"], // was ["咱们 / 我们", "tsa˥˧ mə / ŋɤ˧˩ mə"] (vi dialect rules 2026-10-06)
     hsn_hy: ["我伲", "ŋo˨˩ ȵin˩˩"],
     czh_wy: ["—", "—"],
     bla: ["kiistónnoon / niistónnaan", "kiːstónːoːn / niːstónːaːn"],
@@ -1405,7 +1405,7 @@ WORDS.we = {
     ude: ["минти / бу", "minti / bu"],
     yrk: ["маняˮ", "manʲaʔ"],
     enf: ["modiny", "mɔdiɲ"], // was ["modinaʔ", "modinaʔ"] (vi dialect rules 2026-10-06)
-    nio: ["мəӈ", "məŋ"],
+    nio: ["мыӈ", "mɨŋ"], // was ["мəӈ", "məŋ"] (vi dialect rules 2026-10-06)
     sel: ["ме", "me"],
     kca: ["мўӈ", "muŋ"], // was ["муӈ", "muŋ"] (vi dialect rules 2026-10-06)
     ckt: ["мури", "muri"],
@@ -1414,7 +1414,7 @@ WORDS.we = {
     ykg: ["мит", "mit"],
     yux: ["мит", "mit"],
     niv: ["мер / ньыӈ", "mer / ɲəŋ"],
-    ket: ["әтн", "ɤtn"],
+    ket: ["әтн", "ətn"], // was ["әтн", "ɤtn"] (vi dialect rules 2026-10-06)
     my: ["ငါတို့", "ŋàto̰"],
     km: ["យើង", "jəːŋ"],
     lo: ["ເຮົາ", "haw˧˥"],
@@ -1625,7 +1625,7 @@ WORDS.we = {
     sma: ["mijjieh", "ˈmijːiɛh"],
     smj: ["mij", "mij"],
     smn: ["mij", "mij"],
-    sms: ["mij", "mij"],
+    sms: ["mij", "miʝɐ"], // was ["mij", "mij"] (vi dialect rules 2026-10-06)
     sjd: ["мыйй", "mɨjː"],
     vro: ["mi", "mi"],
     gn: ["ñande / ore", "ɲãnde / oɾe"],
@@ -1682,7 +1682,7 @@ WORDS.we = {
     got: ["𐍅𐌴𐌹𐍃", "wiːs"],
     cu: ["мꙑ", "mɨ"],
     pi: ["मयं", "majaŋ"],
-    pi_edu: ["mayaṃ", "mɐˈjɐŋ"],
+    pi_edu: ["mayaṃ", "majaŋ"], // was ["mayaṃ", "mɐˈjɐŋ"] (vi dialect rules 2026-10-06)
     pmh: ["अम्हे", "amhe"],
     cop: ["ⲁⲛⲟⲛ", "aˈnon"],
     arc: ["ܐܢܚܢܢ", "ʔanaħnan"],
@@ -1872,7 +1872,7 @@ WORDS.we = {
     wbp: ["ngalipa / nganimpa", "ŋalipa / ŋanimpa"],
     piu: ["nganana", "ŋanana"], // was ["nganana", "ŋanaɳa"] (vi dialect rules 2026-10-06)
     aer: ["anwerne", "ˈanwəɳə"],
-    nha: ["ngayinu", "ŋajinu"],
+    nha: ["nganhu", "ŋan̪u"], // was ["ngayinu", "ŋajinu"] (vi dialect rules 2026-10-06)
     olk: ["apul / anhdhan", "apul / an̪d̪an"],
     adt: ["ngarlpurla", "ŋaɭpuɭa"],
     nys: ["ngalak", "ŋalak"],
@@ -2017,7 +2017,7 @@ WORDS.we = {
     hno: ["اَسِیں", "əsĩː"],
     bhb: ["हामु", "haːmu"],
     cja: ["دري", "drej"],
-    cjm: ["ꨁꨓꨩ", "itaː"],
+    cjm: ["ꨁꨓꨩ", "ʔitaː"], // was ["ꨁꨓꨩ", "itaː"] (vi dialect rules 2026-10-06)
     meu: ["ita / ai", "ita / ai"],
     pon: ["kitail / kiht", "kitajl / kiht"],
     kos: ["kut", "kut"],
@@ -2044,7 +2044,7 @@ WORDS.we = {
     moc: ["qomiʔ", "qomiʔ"],
     mbc: ["uurɨʔnɨkon / anna", "uurɨʔnɨkon / anna"], // was ["uurînîkon / anna", "uːrɨnɨkon / anna"] (vi dialect rules 2026-10-06)
     kpj: ["dʒiarɨ̃ boho", "dʒiarɨ̃ boho"],
-    guu: ["pəmakə", "pəmakə"],
+    guu: ["pəmakɨ / jamakɨ", "pəmakɨ / jamakɨ"], // was ["pəmakə", "pəmakə"] (vi dialect rules 2026-10-06)
     bwi: ["wha", "wha"],
     cag: ["kaswaatʃa / jiwaatʃaeɬ", "kaswaatʃa / jiwaatʃaeɬ"], // was ["kaswaatʃa / jiwaatʃeeɬ", "kaswaatʃa / jiwaatʃeeɬ"] (vi dialect rules 2026-10-06)
     crt: ["sam", "sam"],
@@ -2159,7 +2159,7 @@ WORDS.we = {
     shp: ["noa", "noa"],
     cab: ["wagía", "waɡia"],
     crx: ["neni", "neni"],
-    tsi: ["nüüm", "nuːm"],
+    tsi: ["ʼnüüm", "ʔnɯːm"], // was ["nüüm", "nuːm"] (vi dialect rules 2026-10-06)
     thp: ["nmímɬ", "nmimɬ"], // was ["nemimlh", "nəmimɬ"] (vi dialect rules 2026-10-06)
     wbl: ["сак", "sak"],
     psi: ["اما", "amaː"],
@@ -2325,7 +2325,7 @@ WORDS.we = {
     rut: ["йе", "je"],
     kim: ["бис", "bis"],
     tpn: ["îandé / oré", "ɲãˈdɛ / oˈɾɛ"],
-    uln: ["wi", "vi"],
+    uln: ["wi", "vi"], // was ["wi", "vi"] (vi dialect rules 2026-10-06)
     wmt: ["ngalimpa / nganimpa", "ŋalimpa / ŋanimpa"],
     wuu_hz: ["我们", "ŋoᵘ˥˧ məŋ"], // was ["我们", "ŋo˩˧ mən"] (r48 fix 2026-10-03)
     xag: ["yan", "jan"],
@@ -2359,12 +2359,12 @@ WORDS.we = {
     ckv: ["aita / aimi", "aita / aimi"],
     haj: ["amra", "amra"],
     dtp_kzj: ["tokou / zikoi", "tokou / zikoi"],
-    mez: ["kenaq / nenaq", "kɛnaʔ / nɛnaʔ"],
+    mez: ["kenaq / nenaq", "kenaʔ / nenaʔ"], // was ["kenaq / nenaq", "kɛnaʔ / nɛnaʔ"] (vi dialect rules 2026-10-06)
     nan_xm: ["咱 / 阮", "lan˥˧ / ɡun˥˧"], // was ["咱 / 阮", "lan˥˧ / ɡuan˥˧"] (vi dialect rules 2026-10-06)
     nan_zz: ["咱 / 阮", "lan˥˧ / ɡuan˥˧"],
     osa: ["ąkóta", "ãkóta"],
     pmy: ["kitorang", "kitoraŋ"],
-    pot: ["kinan / ninan", "kinan / ninan"],
+    pot: ["ginan / ninan", "ɡinan / ninan"], // was ["kinan / ninan", "kinan / ninan"] (vi dialect rules 2026-10-06)
     pzh: ["ita / yami", "ita / jami"],
     wic: ["—", "—"],
     wuu_jh: ["我郎", "ɑ˥˧˥ lɑŋ˧˩˧"], // was ["我郎", "ŋu˩˧ laŋ˩˧"] (r48 fix 2026-10-03)

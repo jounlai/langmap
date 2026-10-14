@@ -93,6 +93,8 @@ WORDS.sugar = {
     sw: "Sukari — kitu chenye fuwele na ladha tamu kinachotumika kutia utamu katika chakula na vinywaji. Neno la kawaida la nyumbani: si kivumishi 'tamu', si asali wala shira, si maana ya kikemia (sukari ya damu), wala si mwanzi wa sukari.",
   },
   family: {
+    pmh: "sharkara",
+    guu: "assukkar",
     kjb: "assukkar",
     dnj: "sharkara",
     cro: "other",
@@ -860,6 +862,8 @@ WORDS.sugar = {
     other: { color: "#6b7280", emoji: "🌾", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
   data: {
+    pmh: ["सक्करा", "sakːaraː"],
+    guu: ["asuka", "asuka"],
     kjb: ["askal", "askal"],
     dnj: ["sűka̋dhű", "sűka̋ɗű"],
     cro: ["baachikúa", "baːtʃikúa"],
@@ -899,7 +903,7 @@ WORDS.sugar = {
     ja_edo: ["砂糖", "satoː"],
     ja_chu: ["砂糖", ""],
     it_dan: ["zucchero", "ˈdzukkero"],
-    pi: ["सक्खरा", ""],
+    pi: ["सक्खरा", "sakːʰaraː"], // was ["सक्खरा", ""] (vi dialect rules 2026-10-06)
     zh_tang: ["糖", "daŋ"],
     fro: ["çucre", "ˈtsykrə"],
     enm: ["sugre", "ˈsiu̯ɡər"],
@@ -939,7 +943,7 @@ WORDS.sugar = {
     sad: ["sukar", "sukar"],
     cia: ["gola", "ɡola"],
     chp: ["súgah", "súɡah"],
-    tsi: ["suga̱", "suɡa"],
+    tsi: ["suga̱", "suɡʌ"], // was ["suga̱", "suɡa"] (vi dialect rules 2026-10-06)
     jya: ["ʃa ka ra", "ʃakara"],
     bca: ["soto", "so˥˥to˧˩"],
     one: ["onutákliʼ", "onũtákliʔ"],
@@ -1074,11 +1078,11 @@ WORDS.sugar = {
     gn: ["asuka", "asuka"],
     nhe: ["tzopelictli", "tsopeliktɬi"],
     nch: ["chanchaka", "tʃantʃaka"],
-    dak: ["čaŋhaŋpi", "tʃaŋhaŋpi"],
+    dak: ["čaŋhaŋpi", "tʃãhãpi"], // was ["čaŋhaŋpi", "tʃaŋhaŋpi"] (vi dialect rules 2026-10-06)
     lkt: ["čhaŋháŋpi", "tʃʰãhã́pi"],
     ykg: ["саакар", "saːkar"],
     ket: ["саар", "saːr"],
-    mnc: ["ᡧᠠᡨᠠᠨ", "ʃaˈtan"],
+    mnc: ["ᡧᠠᡨᠠᠨ", "ʃatan"], // was ["ᡧᠠᡨᠠᠨ", "ʃaˈtan"] (vi dialect rules 2026-10-06)
     orh: ["ʃatan", "ʃatan"],
     tyv: ["чигир", "tɕiˈɣir"], // was ["чигир", "tʃiˈɣir"] (vi dialect rules 2026-10-06)
     gag: ["şeker", "ʃeˈker"],
@@ -1103,11 +1107,11 @@ WORDS.sugar = {
     vot: ["suukkuri", "ˈsuːkːuri"],
     vep: ["sahar", "ˈsahar"],
     fkv: ["sokkeri", "ˈsokːeri"],
-    liv: ["tsukkõr", "ˈtsukːɤr"],
+    liv: ["tsukkõr", "ˈtsukːər"], // was ["tsukkõr", "ˈtsukːɤr"] (vi dialect rules 2026-10-06)
     vro: ["tsukri", "tsukri"],
     sjd: ["са̄хар", "saːxar"],
     smj: ["såhkår", "sohkor"],
-    sma: ["dïjnehke", "dɨjneʰke"],
+    sma: ["dïjnehke", "ˈtɨjnɛhkɛ"], // was ["dïjnehke", "dɨjneʰke"] (vi dialect rules 2026-10-06)
     sms: ["säähhar", "sæːhːar"],
     smn: ["sukkâr", "sukːɐr"],
     csb: ["cëczer", "ˈtsɜtʃɛr"], // was ["cëczer", "ˈtsətʃɛr"] (vi dialect rules 2026-10-06)
@@ -1261,7 +1265,7 @@ WORDS.sugar = {
     fra_jer: ["chucre", "ʃykr"],
     kru: ["चीनी", "tʃiːniː"],
     rar: ["tuka", "tuka"],
-    pi_edu: ["sakkharā", "sakːʰaɾaː"],
+    pi_edu: ["sakkharā", "sakːʰaraː"], // was ["sakkharā", "sakːʰaɾaː"] (vi dialect rules 2026-10-06)
     sa_edu: ["शर्करा", "ɕɐɾkɐɾaː"], // was ["शर्करा", "ɕarkaraː"] (vi dialect rules 2026-10-06)
     jam: ["shuga", "ʃuɡa"],
     ie: ["sucre", "ˈsukre"],
@@ -1378,14 +1382,14 @@ WORDS.sugar = {
     rn: ["isukari", "isukaɾi"],
     ki: ["cukari", "tʃukaːɾi"],
     arn: ["asukura", "asukuɾa"], // was ["asuküra", "asukɨɾa"] (vi dialect rules 2026-10-06)
-    yur: ["repchem", "reptʃem"],
+    yur: ["repchem", "ɹeptʃem"], // was ["repchem", "reptʃem"] (vi dialect rules 2026-10-06)
     arp: ["niisíscooʼ", "niːsístʃoːʔ"], // was ["niisiscooʼ", "niːsistʃoːʔ"] (vi dialect rules 2026-10-06)
     chy: ["véʼkeemahpe", "véʔkeemahpe"],
     pqm: ["sukol", "sukol"],
     mic: ["sismoʼqon", "sismoːxon"],
     cr: ["ᓰᐏᓂᑲᐣ", "siːwinikan"],
     crk: ["ᓰᐏᓂᑲᐣ", "siːwinikan"],
-    pot: ["zisbakwet", "sispakwɪt"],
+    pot: ["zisbakwet", "zisbakwət"], // was ["zisbakwet", "sispakwɪt"] (vi dialect rules 2026-10-06)
     oj: ["ziinzibaakwad", "ziːnzibaːkwad"],
     ha: ["sukari", "sukariː"],
     tig: ["ስከር", "sɨkkar"],

@@ -1422,7 +1422,7 @@ WORDS.bear = {
     akk: ["𒊍", "asu"],
     uga: ["𐎄𐎁", "dubbu"],
     hbo: ["דֹּב", "doːv"],
-    cop: ["ⲗⲁⲃⲟⲓ", "laβɔj"],
+    cop: ["ⲗⲁⲃⲟⲓ", "laboj"], // was ["ⲗⲁⲃⲟⲓ", "laβɔj"] (vi dialect rules 2026-10-06)
     he_mis: ["דוב", "dov"],
     arc: ["ܕܒܐ", "debbaː"], // was ["ܕܒܐ", "debaː"] (vi dialect rules 2026-10-06)
     syc: ["ܕܒܐ", "debaː"],
@@ -1445,7 +1445,7 @@ WORDS.bear = {
     ohu: ["medve", "mɛdvɛ"],
     se: ["guovža", "ˈkuovtʃa"],
     // Southern Sámi borrowed the Norse euphemism instead: bïerne ~ bjørn.
-    sma: ["bïerne", "ˈpiːrne"],
+    sma: ["bïerne", "ˈpɨɛrnɛ"], // was ["bïerne", "ˈpiːrne"] (vi dialect rules 2026-10-06)
     sjd: ["та̄лл", "taːlː"],
     kpv: ["ош", "oʃ"],
     koi: ["ош", "oʃ"],
@@ -1498,9 +1498,9 @@ WORDS.bear = {
 
     // --- Northeast Asia and the Arctic --------------------------------
     // Ainu: iso is the everyday word, but hunters said kamuy 'god' instead.
-    ain: ["イソ", "iso"],
+    ain: ["キムンカムイ", "kimunkamuj"], // was ["イソ", "iso"] (vi dialect rules 2026-10-06)
     niv: ["чхыф", "tʃʰxɯf"], // was ["чхыф", "tʃʰxɤf"] (vi dialect rules 2026-10-06)
-    ket: ["ӄой", "qoj"],
+    ket: ["ӄой", "qɔj"], // was ["ӄой", "qoj"] (vi dialect rules 2026-10-06)
     ckt: ["кэйӈын", "kejŋən"],
     kpy: ["кайӈын", "kajŋən"], // was ["кайӈын", "kajŋɯn"] (vi dialect rules 2026-10-06)
     itl: ["массу", "masːu"],
@@ -1863,7 +1863,7 @@ WORDS.bear = {
     hai: ["táan", "tʰɑ́ːn"],
     one: ["ohkwa:lí", "ohkwaːlí"],
     cay: ["hnyagwaiʼ", "hɲaɡwaiʔ"], // was ["hnyagwái:", "hɲaɡwáːi"] (vi dialect rules 2026-10-06)
-    tus: ["uhčíhręʼ", "əhtʃihɾə̃ʔ"],
+    tus: ["uhčíhręʼ", "uhtʃihɾɛ̃ʔ"], // was ["uhčíhręʼ", "əhtʃihɾə̃ʔ"] (vi dialect rules 2026-10-06)
     chp: ["sas", "sas"],
     crx: ["sus", "sus"],
     koy: ["sis", "sis"],
@@ -1898,7 +1898,7 @@ WORDS.bear = {
     tay: ["ngarux", "ŋarux"],
     pwn: ["cumai", "tsumai"], // was ["cumay", "tsumai"] (vi dialect rules 2026-10-06)
     dru: ["cumay", "tsuˈmai"],
-    szy: ["tumay", "tumai"],
+    szy: ["tumay", "tumaj"], // was ["tumay", "tumai"] (vi dialect rules 2026-10-06)
     ckv: ["tumay", "tuˈmai"],
     haw: ["pea", "pea"],
     mi: ["pea", "pea"],

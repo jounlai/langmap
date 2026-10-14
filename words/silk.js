@@ -106,7 +106,7 @@ WORDS.silk = {
     yi: ["זײַד", "zaɪ̯d"],
     gl: ["seda", "ˈseða"],
     oc: ["seda", "ˈsedɔ"],
-    la: ["sericum", "ˈseːrɪkum"],
+    la: ["sēricum", "ˈseːrikum"],
     ast: ["seda", "ˈseða"],
     co: ["seta", "ˈseta"],
     sk: ["hodváb", "ˈɦɔdvaːp"],
@@ -220,7 +220,7 @@ WORDS.silk = {
     nap: ["seta", "ˈsetə"],
     niv: ["чарб", "tʃʰarb"],
     nn: ["silke", "ˈsɪlkə"],
-    non: ["silki", "silki"],
+    non: ["silki", "ˈsilki"],
     och: ["絲", "*[s]ə"],
     om: ["arrii", "arːiː"],
     or: ["ପାଟ", "paʈɔ"],
@@ -229,8 +229,8 @@ WORDS.silk = {
     ota: ["ایپك", "iˈpek"],
     pam: ["sutla", "ˈsutləʔ"],
     pdt: ["Sied", "ziːt"],
-    pi: ["कोसिय", "kosija"],
-    pi_edu: ["kosiya", "kosija"],
+    pi: ["कोसेय्य", "kosejːa"],
+    pi_edu: ["koseyya", "kosejːa"],
     pms: ["seda", "ˈseda"],
     fr_sn: ["soie", "swa"],
     fr_ci: ["soie", "swa"],
@@ -634,7 +634,7 @@ WORDS.silk = {
     es_hn: ["seda", "ˈseða"],
     es_pa: ["seda", "ˈseða"],
     en_my: ["silk", "sɪlk"],
-    sma: ["silhke", "silʰke"],
+    sma: ["silhke", "ˈsilhkɛ"],
     rut: ["йипак", "jipak"],
     kmc: ["ɕu212", "ɕu˨˩˨"],
     mmd: ["tɕɔn5", "tɕɔn˦˦"],
@@ -813,6 +813,7 @@ WORDS.silk = {
     pt_gw: ["seda", "ˈseda"],
     khb: ["ᦶᦣ", "hɛː"],
     bum: ["silik", "silik"],
-    wae: ["Siida", "ˈsiːda"]
+    wae: ["Siida", "ˈsiːda"],
+    pot: ["zénbawégen", "zenbaweɡən"]
   }
 };

@@ -947,7 +947,7 @@ WORDS.coffee = {
     vot: ["koffi", "ˈkofːi"],
     vep: ["kofe", "ˈkofe"],
     fkv: ["kaffi", "ˈkɑfːi"],
-    liv: ["kaffe", "ˈkafːe"],
+    liv: ["kaffe", "ˈkɑfːɛ"], // was ["kaffe", "ˈkafːe"] (vi dialect rules 2026-10-06)
     vro: ["kohv́", "kohvʲ"],
     sjd: ["кофе", "kofʲe"],
     smj: ["káffa", "kaːfːa"],

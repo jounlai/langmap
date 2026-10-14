@@ -964,7 +964,7 @@ WORDS.tea = {
     dak: ["waȟpe", "waχpe"],
     lkt: ["waȟpé", "waχpé"],
     ykg: ["чай", "tʃaj"], // was ["чаай", "tʃaːj"] (vi dialect rules 2026-10-06)
-    ket: ["сяʼй", "sʲaʔj"],
+    ket: ["сяʼй", "ɕaʔj"], // was ["сяʼй", "sʲaʔj"] (vi dialect rules 2026-10-06)
     orh: ["tʃaj", "tʃaj"],
     gag: ["çay", "tʃaj"],
     azb: ["چای", "tʃɑj"],
@@ -984,14 +984,14 @@ WORDS.tea = {
     mhr: ["чай", "tʃaj"],
     olo: ["čuaju", "ˈtʃuaju"], // was ["čuaju", "ˈtʃuɑju"] (vi dialect rules 2026-10-06)
     krl: ["čuaju", "ˈtʃuaju"],
-    vot: ["čaaju", "ˈtʃaːju"],
+    vot: ["tšaaju", "ˈtʃaːju"], // was ["čaaju", "ˈtʃaːju"] (vi dialect rules 2026-10-06)
     vep: ["čai", "tʃai"],
     fkv: ["tee", "teː"],
-    liv: ["tēj", "teːj"],
+    liv: ["tēj", "tɛːj"], // was ["tēj", "teːj"] (vi dialect rules 2026-10-06)
     vro: ["tsäi", "tsæi"],
     sjd: ["чайй", "tʃajː"], // was ["ча̄йй", "tʃaːjː"] (vi dialect rules 2026-10-06) // was ["чайй", "tʃajː"] (vi dialect rules 2026-10-06)
     smj: ["tedja", "tɛdʒɑ"], // was ["tiedja", "tie̯dja"] (vi dialect rules 2026-10-06)
-    sms: ["čee", "tʃeː"],
+    sms: ["čee", "tʃeːɐ"], // was ["čee", "tʃeː"] (vi dialect rules 2026-10-06)
     smn: ["teejâ", "teːjɐ"],
     se: ["deadja", "ˈteɑtja"],
     csb: ["arbata", "arˈbata"],
@@ -1119,7 +1119,7 @@ WORDS.tea = {
     sco: ["tea", "tiː"],
     ch: ["cha", "tʃa"],
     gcr: ["té", "te"],
-    szy: ["ucya", "utʃja"],
+    szy: ["ucya", "utsja"], // was ["ucya", "utʃja"] (vi dialect rules 2026-10-06)
     dtp: ["teh", "teh"],
     jbo: ["tcati", "ˈtʃati"],
     io: ["teo", "ˈteo"],

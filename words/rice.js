@@ -212,7 +212,7 @@ WORDS.rice = {
     dyu: ["malo", "malo"],
     ee: ["mɔlu", "mɔlu"],
     efi: ["edesi", "edesi"],
-    el_grc: ["ὄρυζα", "óryza"],
+    el_grc: ["ὄρυζα", "óryzda"],
     el_kath: ["ὄρυζα", "ˈoriza"],
     en_au: ["rice", "ɹɑɪs"],
     en_em: ["rice", "rəis"],
@@ -278,7 +278,7 @@ WORDS.rice = {
     ks: ["تۆمُل", "tɔmul"],
     kum: ["дюгю", "dyɡy"],
     kw: ["ris", "riːs"],
-    la: ["oryza", "oˈryːza"],
+    la: ["orȳza", "oˈryːza"],
     lad: ["arroz", "aˈroz"],
     lbe: ["ппиринж", "pːirinʒ"],
     lez: ["дуьгуь", "dyɡy"],
@@ -840,7 +840,7 @@ WORDS.rice = {
     zap: ["arros", "aɾos"],
     njo: ["jang", "tʃaŋ"],
     slr: ["tüturğan", "tʰyturʁɑn"],
-    pot: ["mnomen", "mnomɪn"],
+    pot: ["mnomen", "mnomən"],
     kos: ["rais", "rais"],
     wmt: ["juraji", "ˈɟuɻaɟi"],
     srb: ["ronko", "roŋko"],
@@ -887,6 +887,7 @@ WORDS.rice = {
     ses: ["ŋaari", "ŋaːri"],
     bft: ["འབྲས", "bras"],
     ksh: ["Ries", "ʁiːs"],
-    lep: ["ᰣᰦᰙᰩᰮ", "ʔazɔm"]
+    lep: ["ᰣᰦᰙᰩᰮ", "ʔazɔm"],
+    vot: ["riissuurima", "ˈriːsːuːrima"]
   }
 };

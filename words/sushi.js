@@ -285,7 +285,7 @@ WORDS.sushi = {
     "nn": ["sushi", "ˈsʉːʃi"],
     "no": ["sushi", "ˈsʉːʃi"],
     "nog": ["суши", "suˈʃi"],
-    "non": ["skreið", "ˈskreið"],
+    "non": ["skreið", "skreið"],
     "obr": ["ငါးပိ", "ŋaːpiʔ"],
     "oc": ["sushi", "ˈsuʃi"],
     "och": ["鮓", "*tsˤraʔ"],

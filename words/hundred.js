@@ -113,9 +113,9 @@ WORDS.hundred = {
     sa: ["शतम्", "ɕɐtɐm"],
     sa_edu: ["शतम्", "ɕɐtɐm"],
     h_vedic: ["शतम्", "ɕɐtɐ́m"],
-    pi: ["सतं", "sɐtɐ̃"],
-    pmh: ["साअ", "saa"],
-    pi_edu: ["sataṃ", "sətəŋ"],
+    pi: ["सतं", "sataŋ"],
+    pmh: ["सय", "saja"],
+    pi_edu: ["sataṃ", "sataŋ"],
     cu: ["съто", "sŭto"],
     orv: ["съто", "sŭto"],
     lt: ["šimtas", "ˈʃʲɪmtɐs"],
@@ -124,7 +124,7 @@ WORDS.hundred = {
     // --- Rest of Indo-European ------------------------------------------
     enm: ["hundred", "ˈhundrəd"],
     en_em: ["hundred", "ˈhʊndrəd"],
-    non: ["hundrað", "hundrɑð"],
+    non: ["hundrað", "ˈhundrɑð"],
     gmh: ["hundert", "ˈhundərt"],
     de_lut: ["hundert", "ˈhʊndərt"],
     fro: ["cent", "tsent"],
@@ -427,7 +427,7 @@ WORDS.hundred = {
     smj: ["tjuohte", "ˈtʃuohte"],
     smn: ["čyeti", "tʃyeti"],
     mrj: ["шӱдӹ", "ʃyðɯ"],
-    liv: ["sadā", "ˈsadaː"],
+    liv: ["sadā", "ˈsɑdɑː"],
     mns: ["са̄т", "saːt"],
     kca: ["сот", "sot"],
 
@@ -677,7 +677,7 @@ WORDS.hundred = {
     cic: ["talhipa", "taɬipa"],
     mus: ["cokpe", "tʃokpi"],
     bla: ["kiipíppo", "kiːpípːo"],
-    pot: ["ngotwak", "ŋɡotwak"],
+    pot: ["ngot wak", "ŋɡot wak"],
     nv: ["neeznádiin", "nèːznɑ́tìːn"],   // ten tens — neeznáá is this row's ten, -diin the decade suffix
     esu: ["yuinaat talliman", "juinaːt taɬiman"],   // five twenties: yuinaq is twenty, talliman this row's own five
     cuk: ["dulatar", "dulataɾ"],   // five persons — dula twenty, atar this row's own five
@@ -697,8 +697,8 @@ WORDS.hundred = {
     pcd: ["chint", "ʃɛ̃"],
     fax: ["cen", "θeŋ"],
     ruq: ["sută", "ˈsutə"],   // the Slavic loan Romanian also took
-    sms: ["čuâđ", "tʃuaʰtʲ"],
-    sma: ["tjuetie", "ˈtʃuetie"],
+    sms: ["čueʹtt", "tʃuɛtːʲɘ"],
+    sma: ["tjuetie", "ˈtʃʉɛtiɛ"],
     yai: ["sad", "sad"],
     tly: ["sa", "sa"],
     luz: ["sad", "sad"],
@@ -769,7 +769,7 @@ WORDS.hundred = {
     nio: ["дир", "dʲir"],
     sel: ["тон", "ton"],
     chr: ["ᏍᎪᎯᏥᏆ", "sɡohitsikʷa"],   // ten-something: ᏍᎪᎯ is this row's own ten
-    ain: ["アシㇰネ ホㇳネ", "aʃikne hotne"],   // five twenties — hotne is twenty, ashikne this row's own five
+    ain: ["アシㇰネ ホㇳネ", "aɕikne hotne"],   // five twenties — hotne is twenty, ashikne this row's own five
     blk: ["ရျာꩻ", "rja˧˧"],
     // --- Sinitic — 百 is 陰入; each tone is that row's own, read off its 骨 ----
     zh_tj: ["百", "pai˩˧"],
@@ -1112,7 +1112,7 @@ WORDS.hundred = {
     egy: ["𓍢", "ʃet"],
     omx: ["ကၠံ", "klɔm"],
     h_tagalog: ["ᜇᜀᜈ᜔", "daˈʔan"],
-    ofs: ["hundred", "hundred"],
+    ofs: ["hundred", "ˈhundred"],
     sog: ["st", "sat"],
     ko_em: ["ᄇᆡᆨ", "pɛk"],
     oko: ["百隱", "*on"],
@@ -1178,6 +1178,7 @@ WORDS.hundred = {
     chb: ["guehyzca", "ɡwehɨzka"],
     xsr: ["ཟ་ཡི", "saji"],
     haj: ["so", "sɔ"],
-    wae: ["Hunnert", "ˈhʊnːərt"]
+    wae: ["Hunnert", "ˈhʊnːərt"],
+    tsi: ["tʼekʼyil", "tʼekʼjil"]
   },
 };

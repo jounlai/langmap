@@ -207,6 +207,8 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    got: "dec",
+    ar_qur: "plural",
     vro: "mult",
     crh: "dec",
     wa: "dec",
@@ -941,6 +943,8 @@ WORDS.n99 = {
     }
   },
   data: {
+    got: ["𐌽𐌹𐌿𐌽𐍄𐌴𐌷𐌿𐌽𐌳 𐌾𐌰𐌷 𐌽𐌹𐌿𐌽", "ˈniunteːhund jah ˈniun"],
+    ar_qur: ["تسع وتسعون", "tisʕun wa tisʕuːn"],
     vro: ["ütessäkümmend ütessä", "ytesːækymːend ytesːæ"],
     crh: ["doqsan doquz", "doqsan doquz"],
     wa: ["nonante-nouv", "nɔnãtnuːf"],
@@ -1427,8 +1431,8 @@ WORDS.n99 = {
     zu:     ["amashumi ayisishiyagalolunye nesishiyagalolunye", "amaʃumi ajisiʃijaɡaloˈluɲe nesiʃijaɡaloˈluɲe"],
     ojp:      ["ここのそあまりここのつ", "kəkənəsə amari kəkənətu"],
     ja_heian: ["つくも", "tukumo"],
-    el_grc:   ["ἐνενήκοντα ἐννέα", "enenɛ́ːkonta ennéa"],
-    ang:      ["nigon and hundnigontig", "ˈniɣon and hundˈniɣontiɣ"],
+    el_grc: ["ἐνενήκοντα ἐννέα", "enenɛ̌ːkonta ennéa"], // was ["ἐνενήκοντα ἐννέα", "enenɛ́ːkonta ennéa"] (vi dialect rules 2026-10-06)
+    ang: ["nigon and hundnigontiġ", "ˈniɣon ɑnd hundˈniɣontij"], // was ["nigon and hundnigontig", "ˈniɣon and hundˈniɣontiɣ"] (vi dialect rules 2026-10-06)
     sa:       ["नवनवति", "nɐʋɐnɐʋɐti"],
     h_vedic:  ["नवनवति", "nɐʋɐnɐʋɐtí"],
     hbo: ["תשעים ותשעה", "tiʃʕiːm vəθiʃʕɔː"], // was ["תשעים ותשעה", "tiʃʕiːm vətiʃʕɔː"] (vi dialect rules 2026-10-06)

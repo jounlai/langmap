@@ -55,6 +55,7 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    el_kath: "distinct",
     twm: "distinct",
     shy: "distinct",
     ctg: "distinct",
@@ -929,6 +930,7 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    el_kath: ["κυανοῦς", "ciaˈnus"],
     twm: ["ŋᴀu53", "ŋᴀu˥˧"],
     shy: ["azenzari", "azənzari"],
     ctg: ["নীল", "nil"],
@@ -955,7 +957,7 @@ WORDS.blue = {
     hoc: ["niil", "niːl"],
     egy: ["𓇅", "wadʒ"],
     it_dan: ["azzurro", "adˈdzurro"],
-    en_em: ["blew", "bljuː"],
+    en_em: ["blew", "blɪu̯"], // was ["blew", "bljuː"] (vi dialect rules 2026-10-06)
     ohu: ["kék", "keːk"],
     peo: ["𐎣𐎱𐎢𐎫𐎣", "kapautaka"],
     och: ["青", "*[s.r̥]ˤeŋ"],
@@ -967,7 +969,7 @@ WORDS.blue = {
     osp: ["celestre", "tseˈlestɾe"],
     ojp: ["あを", "awo"],
     hy_grab: ["կապոյտ", "kɑpojt"],
-    ofs: ["wêden", "ˈweːdən"],
+    ofs: ["wēden", "ˈweːden"], // was ["wêden", "ˈweːdən"] (vi dialect rules 2026-10-06)
     osx: ["blāo", "blaːo"],
     chb: ["chysquyco", "tʃɨskɨko"],
     pmng: ["*köke", "køke"],
@@ -985,7 +987,7 @@ WORDS.blue = {
     ter: ["hononoʼiti", "hononoʔiti"],
     adx: ["སྔོན་པོ", "hŋonpo"],
     cay: ["aǫ́hyaęʼ", "aṍhjaɛ̃ʔ"],
-    yur: ["skoyon", "skojon"],
+    yur: ["skoyon", "skɔjɔn"], // was ["skoyon", "skojon"] (vi dialect rules 2026-10-06)
     mev: ["ɓūléèzɛ̀", "ɓu˧le˥e˩zɛ˩"],
     duu: ["muçin", "muçin"], // was ["muçin", "mu˥˥çin˥˥"] (vi dialect rules 2026-10-06)
     xav: ["ĩʼuzé", "ĩʔuˈzɛ"],
@@ -1265,7 +1267,7 @@ WORDS.blue = {
     khw: ["اوݯ", "oʈʂ"], // was ["اوچ", "otʃ"] (r42 fix 2026-10-03) // was ["اوݯ", "ɔʈʂ"] (vi dialect rules 2026-10-06)
     pbb: ["çẽy", "tsẽj"], // was ["çẽy", "çẽj"] (vi dialect rules 2026-10-06) // was ["çẽy", "tsẽj"] (vi dialect rules 2026-10-06)
     mus: ["holatte", "holatːi"],
-    ain: ["シウニン", "siwnin"],
+    ain: ["シウニン", "ɕiwnin"], // was ["シウニン", "siwnin"] (vi dialect rules 2026-10-06)
     xmf: ["ლურჯი", "lurdʒi"], // was ["ლენი", "leni"] (vi dialect rules 2026-10-06)
     pnb: ["نیلا", "niːlaː"],
     zza: ["kewe", "kɛwɛ"],
@@ -1325,7 +1327,7 @@ WORDS.blue = {
     nds: ["blau", "blaʊ"],
     esu: ["qiugliq", "qiuɣɬiq"],
     bzd: ["siè̱", "siẽ̀"], // was ["si̱è̱", "sĩẽ̀"] (vi dialect rules 2026-10-06)
-    pi_edu: ["nīla", "niːlɐ"],
+    pi_edu: ["nīla", "niːla"], // was ["nīla", "niːlɐ"] (vi dialect rules 2026-10-06)
     agt: ["asul", "asul"],
     emp: ["pãwãrã", "pãwãˈɾã"],
     mch: ["sheene", "ʃeːne"],
@@ -1445,7 +1447,7 @@ WORDS.blue = {
     ak: ["tuntum", "tuntum"],  // Akan basic system is the three-term one already in this row (kɔkɔɔ / fitaa / tuntum); Christaller states explicitly that tuntum covers dark blue and dark green as well as black. Blue-specific words exist beside it: bruu/bru (< English 'blue'), bibiri 'dark-blue indigo cloth/colour', hoa 'light blue'. Modern everyday sky-blue is usually bruu; the basic-term answer is tuntum.
     ami: ["langdaway", "laŋdawaj"],  // One root langdaw ~ kangdaw covers blue and green across Amis. In the Xiuguluan variety documented by the official dictionary langdaw(ay) is glossed 'blue' and kangdaw(ay) 'green'; in Nanshi Amis langdaway is the word for green. The Amis Moedict dictionary glosses langdaw outright as 青色，綠色，藍色 'cyan, green, blue'. Row red/white (kahengangay, fohecalay) are the 秀姑巒阿美語 學習詞表 forms, so the -ay adjectival form langdaway matches. Green-specific alternative: kangdaway.
     an: ["azul", "aˈθul"],  // Aragonese azul against verde.
-    ang: ["hǣwen", "hæːwen"],  // Old English had no reflex of blue; hǣwen (also blǣwen) is the blue term, alongside grēne. IDS gives hǣwen for Old English. The modern word blue is a later Anglo-Norman loan.
+    ang: ["hǣwen", "ˈhæːwen"],  // Old English had no reflex of blue; hǣwen (also blǣwen) is the blue term, alongside grēne. IDS gives hǣwen for Old English. The modern word blue is a later Anglo-Norman loan. // was ["hǣwen", "hæːwen"] (vi dialect rules 2026-10-06)
     ani: ["решинкьелӏи", "reʃintɬʼetɬi"],  // Andi (Muni) решинкьелӏи vs ххочи. The main IDS Andi entry lists хочи for both blue and green, so the cool range is only partly split in Andic. // was ["решинкьелӏи", "reʃinkʼeˈlːi"] (vi dialect rules 2026-10-06)
     aqc: ["наӏгъдут", "naˤɮdut"],  // Archi наӏгъдут vs оӏловттут. WOLD analyses the blue term as naˤɮ-du-t 'milk-ADJZR' and scores it as showing no evidence of borrowing. // was ["наӏгъдут", "naʕɬˈdut"] (vi dialect rules 2026-10-06) // was ["наӏгъдут", "naˤɮdut"] (vi dialect rules 2026-10-06)
     ar: ["أزرق", "ˈʔazraq"],  // MSA أزرق against أخضر. The root z-r-q is the same one that in Aramaic covers both ends of the cool range, but Arabic separates them.
@@ -1663,7 +1665,7 @@ WORDS.blue = {
     nmn: ["ᶢǀa̤ʕi", "ᶢǀa̤ʕi"],  // Taa: the identical form is given for blue and for green.
     no: ["blå", "bloː"],  // Bokmål blå vs grønn.
     nog: ["коьк", "køk"],  // Nogai коьк against йасыл.
-    non: ["blár", "blaːr"],  // Old Norse blár covers blue but also the blue-black of bruises, ravens and 'blámenn'; it sits at the dark end rather than being a pure blue. IDS gives blār against grœnn for green.
+    non: ["blár", "blɑːr"],  // Old Norse blár covers blue but also the blue-black of bruises, ravens and 'blámenn'; it sits at the dark end rather than being a pure blue. IDS gives blār against grœnn for green. // was ["blár", "blaːr"] (vi dialect rules 2026-10-06)
     nso: ["tala", "tala"],  // Dedicated MA study of exactly this question: 'Like other Bantu languages, Sepedi tends to utilise one basic colour term (tala) to refer to both the colour concepts blue and green', and of all the terms collected 'only the term tala blue/green ... can be regarded as basic'. Blue is most often specified as talalerata / botala bja legodimo 'blue of the sky'; the Afrikaans loans polousela / lousela (< blousel) exist but are not basic.
     nuf: ["ȵɯ35ȵɯ31", "ɲɯ˧˥ɲɯ˧˩"],  // Nusu (Bijiang): Sun's wordlist gives the identical ȵɯ³⁵ȵɯ³¹ for BOTH blue and green. // was ["ȵɯ35ȵɯ31", "ȵɯ˧˥ȵɯ˧˩"] (vi dialect rules 2026-10-06)
     nv: ["dootłʼizh", "tòːtɬʼìʒ"],  // One term for blue+green+turquoise. dootłʼizhii is the narrower 'turquoise' noun; yágo dootłʼizhí 'sky blue' is a derived specification, not a separate basic term.
@@ -1721,10 +1723,10 @@ WORDS.blue = {
     sjd: ["алехь", "ˈaʎeç"],  // Kildin Sámi алехь vs руэнн. WOLD scores it as no evidence for borrowing — the inherited Saami blue root, unlike Southern Sámi's Scandinavian loan.
     sk: ["modrý", "ˈmɔdriː"],  // modrý vs zelený; belasý is the lighter sky-blue.
     sl: ["moder", "ˈmoːdər"],  // moder vs zelen; NorthEuraLex cites the definite móder.
-    sma: ["plaave", "ˈpʰlaːve"],  // Southern Sámi plaave is a Scandinavian loan (blå), as is kruana 'green' (grøn) — the whole cool range is borrowed from Norwegian/Swedish.
+    sma: ["plaave", "ˈpʰlɑːβɛ"],  // Southern Sámi plaave is a Scandinavian loan (blå), as is kruana 'green' (grøn) — the whole cool range is borrowed from Norwegian/Swedish. // was ["plaave", "ˈpʰlaːve"] (vi dialect rules 2026-10-06)
     smj: ["alek", "ˈalek"],  // Lule Sámi alek vs ruodná.
     smn: ["čuov'jâd", "ˈtʃuovjɐd"],  // Inari Sámi čuov'jâd vs ruánáá.
-    sms: ["ââʹliǩ", "ˈɐːlʲic"],  // Skolt Sámi ââ´liǩ vs ruânn, cognate with North Sámi alit.
+    sms: ["ââʹliǩ", "ˈɐːlʲicç"],  // Skolt Sámi ââ´liǩ vs ruânn, cognate with North Sámi alit. // was ["ââʹliǩ", "ˈɐːlʲic"] (vi dialect rules 2026-10-06)
     sn: ["bhuluu", "buluː"],  // The dictionary states the origin explicitly as English. Shona's inherited colour adjectives are the three-term set -tsvuku / -chena / -tema; modern green is likewise the English loan girini. Variant spelling bhuruu is commoner in Shona orthography, which otherwise lacks l.
     so: ["buluug", "buˈluːɡ"],  // Somali buluug is an English loan (blue). The inherited system has cas/cad/madow and no basic blue; cagaar covers green and extends over blue-green.
     sr: ["плав", "plâːʋ"],  // Serbian плав against зелен, the same system as Croatian; модар is the darker blue. // was ["плав", "plaːʋ"] (vi dialect rules 2026-10-06)

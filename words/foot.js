@@ -2027,7 +2027,7 @@ WORDS.foot = {
     pnt: ["ποδάρ", "poˈðar"],  // As modern Greek, ποδάρ' covers the whole lower limb; αντζίν is only the shank.
     poh: ["ooq", "oːq"],  // PMED gives PCH ERG-oq 'pie' and #a 'pierna'; the Poqomchiʼ NT breaks ri tuuk for the legs and washes wo̱k for the feet.
     pon: ["patehn neh", "pateːn neː"],  // Rehg & Sohl give neh 'leg' and patehn neh 'foot; hoof', and their English finderlist answers foot with the compound alone — the 'flat of the leg' pattern this concept already has in Chuvash and Kazakh.
-    pot: ["zet", "zɛt"],  // The Citizen Potawatomi dictionary that gave this row nibet and shkishek also gives zet 'foot' against kat 'leg'.
+    pot: ["zet", "zət"],  // The Citizen Potawatomi dictionary that gave this row nibet and shkishek also gives zet 'foot' against kat 'leg'. // was ["zet", "zɛt"] (vi dialect rules 2026-10-06)
     ppl: ["ikshi", "ikʃi"],  // Campbell's Pipil lexicon gives (i)kxi 'pie, pata' against the separate leg stem mets- 'pierna', free in nu-metsku:yu 'my leg'; metsti is the moon, as this row's own moon cell says.
     pqm: ["ʼsit", "sit"],  // Passamaquoddy files ʼsit 'h/ foot' and ʼkat 'h/ leg (including foot)' as two dependent nouns, and glosses its own example sentence 'nsit (nkat)'.
     prg: ["nagē", "naɡeː"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes rancko as ranko.
@@ -2121,7 +2121,7 @@ WORDS.foot = {
     sl: ["stopalo", "stɔˈpaːlɔ"],  // Sources disagree: NorthEuraLex returns nôga for both, Wiktionary lemmatises stopalo for the foot. Classed distinct on the Wiktionary reading. // was ["stopalo", "stɔpàːlɔ"] (vi dialect rules 2026-10-06)
     slr: ["ayax", "ɑjɑχ"],  // ayax covers both in Ma Wei et al.'s Salar-Uyghur-Chinese dictionary; ABVD's 'b. leg' inʤix is incik, the shin.
     sm: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Samoan reflex of PPn *waqe 'Leg'. No stress mark, as on the other Polynesian rows.
-    sma: ["juelkie", "jʉɛlkiɛ"],  // One word for the whole lower limb, the Uralic norm.
+    sma: ["juelkie", "ˈjʉɛlkiɛ"],  // One word for the whole lower limb, the Uralic norm. // was ["juelkie", "jʉɛlkiɛ"] (vi dialect rules 2026-10-06)
     smj: ["juolgge", "jʊuɔlɡːɛ"],  // One word for the whole lower limb, the Uralic norm.
     smn: ["jyel'gi", "jyelɡi"],  // One word for the whole lower limb, the Uralic norm.
     sms: ["jueʹlǧǧ", "ʝuɛlʲɟɟʝʲɘ"],  // One word for the whole lower limb, the Uralic norm.

@@ -378,7 +378,7 @@ WORDS.poop = {
     sga: ["cac", "kak"],
     mga: ["cac", "kak"],
     hbo: ["חרא", "ħaˈrɔːʔ"],
-    hy_grab: ["աղբ", "ɑʁb"],
+    hy_grab: ["աղբ", "aɫb"],
     ja_kg: ["うんち", "ɯ̃ɴtɕi̥"],
     ja_sd: ["うんち", "ɯ̃ɴtɕi"],
     ko_hg: ["똥", "t͈oŋ"],

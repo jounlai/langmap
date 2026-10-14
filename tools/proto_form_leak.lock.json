@@ -708,10 +708,10 @@
     "note": "Tocharian A ku, attested; same construction."
   },
   "ojp|bird": {
-    "form": "tori",
+    "form": "təri",
     "proto": "p_jpn,p_ryu",
     "ruling": "circular",
-    "note": "Old Japanese tori 鳥 (Man'yōshū) is one of the attestations Proto-Japonic *tori is reconstructed from. Surfaced 2026-09-29 when review 547 corrected the row's one ɾ to the r it writes everywhere else (kurosi, kasira, kəkərə)."
+    "note": "Old Japanese tori 鳥 (Man'yōshū) is one of the attestations Proto-Japonic *tori is reconstructed from. Surfaced 2026-09-29 when review 547 corrected the row's one ɾ to the r it writes everywhere else (kurosi, kasira, kəkərə). Re-ruled 2026-10-15 (r108): ONCOJ ə vowel now written."
   },
   "xqa|hand": {
     "form": "elig",
@@ -744,10 +744,10 @@
     "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
   },
   "ojp|person": {
-    "form": "pito",
+    "form": "pitə",
     "proto": "p_ryu",
     "ruling": "circular",
-    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45)."
+    "note": "Old Japanese is the principal basis of the Proto-Japonic reconstruction; Proto-Ryukyuan forms coincide where the word is unchanged. Ruled 2026-10-03 (round 45). Re-ruled 2026-10-15 (r108): ONCOJ ə vowel now written."
   },
   "omx|earth": {
     "form": "tiʔ",
@@ -922,5 +922,11 @@
     "proto": "ptrk",
     "ruling": "inherited",
     "note": "Karakhanid til 'tongue' (Kashgari) continues the atlas's Proto-Turkic form. Ruled 2026-10-15 (r107)."
+  },
+  "otk|tongue": {
+    "form": "til",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Old Turkic til 'tongue' (Orkhon) continues the atlas's Proto-Turkic form. Ruled 2026-10-15 (r108)."
   }
 }

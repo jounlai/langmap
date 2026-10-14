@@ -578,7 +578,7 @@ WORDS.new = {
     rmf: ["neevo", "neːvo"],
     tzo: ["achʼ", "ʔatʃʼ"],
     clk: ["me55eŋ55", "me˥˥eŋ˥˥"],
-    sog: ["nawē", "naweː"],
+    sog: ["nwy", "naweː"],
     chk: ["ffé", "fːe"],
     acu: ["yamaram", "jamaɾam"],
     zh_sc: ["新", "ɕin˥"],
@@ -1177,6 +1177,7 @@ WORDS.new = {
     dyo: ["wunkul", "wunkul"],
     blt: ["ꪻꪢ꪿", "maɯ˦˥"],
     nmn: ["ǁqṵ", "ǁqṵ"],
-    itz: ["tumunbʼen", "tumunɓen"]
+    itz: ["tumunbʼen", "tumunɓen"],
+    pot: ["wshkeya", "wʃkəja"]
   }
 };

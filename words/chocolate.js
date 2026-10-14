@@ -478,7 +478,7 @@ WORDS.chocolate = {
     en_est: ["chocolate", "ˈtʃɒkləʔ"],
     en_scouse: ["chocolate", "ˈtʃɒklət̪s"],
     nan_ph: ["芝居力", "tsiak˥ ku˧˧ laʔ˨˦"],
-    sms: ["čokklad", "tʃokːlad"],
+    sms: ["čokklad", "ˈtʃokːlɒd"],
     tet: ["xoklate", "ʃoklate"],
     mrw: ["sikolati", "sikolati"],
     dag: ["chokileeti", "tʃokileːti"],

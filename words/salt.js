@@ -368,7 +368,7 @@ WORDS.salt = {
     // --- Sinitic — 鹽 is 陽平 everywhere -------------------------------
     zh_tw: ["鹽", "jɛn˧˥"],
     zh_db: ["盐", "jɛn˧˥"],
-    zh_tj: ["盐", "jɛn˦˥"],
+    zh_tj: ["盐", "ian˦˥"],
     zh_sc: ["盐", "iɛn˨˩"],
     zh_cd: ["盐", "iɛn˨˩"],
     zh_cq: ["盐", "iɛn˨˩"],
@@ -1117,7 +1117,7 @@ WORDS.salt = {
     myx: ["kumuunyu", "kumuːɲu"],
     sbp: ["umuunyo", "umuːɲo"],
     ksb: ["munyu", "muɲu"],
-    pzh: ["pahah", "pahah"],
+    pzh: ["pahar", "pahaɾ"],
     jmc: ["shumbi", "ʃumbi"],
     mvf: ["dabsi", "dabsə"],
     rim: ["munyu", "muɲu"],

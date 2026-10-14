@@ -967,8 +967,8 @@ WORDS.blue = {
     fr_class: ["bleu", "blø"],
     ota: ["ماوی", "maːˈviː"],
     osp: ["celestre", "tseˈlestɾe"],
-    ojp: ["あを", "awo"],
-    hy_grab: ["կապոյտ", "kɑpojt"],
+    ojp: ["青", "awo"], // was ["あを", "awo"] (vi dialect rules 2026-10-06)
+    hy_grab: ["կապոյտ", "kapojt"], // was ["կապոյտ", "kɑpojt"] (vi dialect rules 2026-10-06)
     ofs: ["wēden", "ˈweːden"], // was ["wêden", "ˈweːdən"] (vi dialect rules 2026-10-06)
     osx: ["blāo", "blaːo"],
     chb: ["chysquyco", "tʃɨskɨko"],
@@ -1013,7 +1013,7 @@ WORDS.blue = {
     fit: ["sininen", "ˈsininen"],
     ie: ["blu", "blu"],
     ltg: ["zyls", "zɨls"],
-    qxs: ["lanȵi", "lanɲi"], // was ["χueχue", "χueχue"] (vi dialect rules 2026-10-06)
+    qxs: ["lanȵi", "lan˧˩ɲi˧˧"], // was ["χueχue", "χueχue"] (vi dialect rules 2026-10-06) // was ["lanȵi", "lanɲi"] (vi dialect rules 2026-10-06)
     blc: ["qʷit", "qʷit"], // was ["qwit", "qʷit"] (vi dialect rules 2026-10-06)
     bal: ["سبز", "sabz"],
     aa: ["kucliní", "kuħlini"],
@@ -1090,7 +1090,7 @@ WORDS.blue = {
     jvn: ["biru", "biru"],
     vi_c: ["xanh", "san˥"], // was ["xanh", "san˧"] (vi dialect rules 2026-10-06)
     ja_hak: ["青い", "aoi"],
-    ket: ["съʼнь", "səʔnʲ"], // was ["съньсь", "sʌɲɕ"] (r31 fix 2026-10-02)
+    ket: ["съʼнь", "sʌʔɲ"], // was ["съньсь", "sʌɲɕ"] (r31 fix 2026-10-02) // was ["съʼнь", "səʔnʲ"] (vi dialect rules 2026-10-06)
     ii: ["ꀊꃴ", "a˧˧vu˥"],
     gum: ["pilli", "piʎi"],
     tsi: ["gwisgwaask", "ɡʷisɡʷaːsk"],

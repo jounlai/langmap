@@ -1312,7 +1312,7 @@ WORDS.bear = {
     sga: ["art", "art"],
     os: ["арс", "ars"],
     hy: ["արջ", "ɑɾtʃʰ"], // was ["արջ", "aɾdʒ"] (vi dialect rules 2026-10-06)
-    hy_grab: ["արջ", "ɑrdʒ"],
+    hy_grab: ["արջ", "aɾdʒ"], // was ["արջ", "ɑrdʒ"] (vi dialect rules 2026-10-06)
     // Punjabi and Gujarati keep the ṛkṣa reflex where Hindi prefers भालू.
     pa: ["ਰਿੱਛ", "ɾɪttʃʰ"], // was ["ਰਿੱਛ", "rɪtʃʰ"] (vi dialect rules 2026-10-06)
     gu: ["રીંછ", "ɾĩtʃʰ"], // was ["રીંછ", "rĩːtʃʰ"] (vi dialect rules 2026-10-06)

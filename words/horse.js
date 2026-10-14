@@ -868,7 +868,7 @@ WORDS.horse = {
     tay: ["rmeʼ", "rməʔ"],
     toc: ["kawayu", "kawaju"],
     mwl: ["cabalho", "kaˈβaʎu"],
-    pyu: ["eva", "əva"],
+    pyu: ["ba", "ba"],
     xed: ["plis", "plis"],
     dds: ["soŋ", "soŋ"],
     yai: ["asp", "asp"],

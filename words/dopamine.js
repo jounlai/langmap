@@ -304,7 +304,7 @@ WORDS.dopamine = {
     yue_zs: ["多巴胺", "tɔ˥˥ pa˥˥ ɔn˧˧"],
     gan_yc: ["多巴胺", "to˧˥ pa˧˥ ŋon˨˩˧"],
     pms: ["dopamin-a", "dupaˈmiŋa"],
-    wuu_nb: ["多巴胺", "təu˥˨ pa˥˨ ɐɪ˦˦"],
+    wuu_nb: ["多巴胺", "təu˥˨ pa˥˨ ɐɪ˥˥"],
     skr: ["ڈوپامین", "ɖoːpaːmiːn"],
     pap: ["dopamina", "dopamina"],
     ilo: ["dopamina", "dopamina"],

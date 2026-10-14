@@ -122,7 +122,8 @@ const DEBT = {};
 // r101: bear 6 -> 7 — ee sisiblisi (Ewe Bible, 1 Sam 17:34), origin unknown.
 // r103: bear 7 -> 10 — ada osisiblisi, iso adaka, bsq kìɖìǒ: Bible-attested words whose origin no source gives.
 // r107: we 36 -> 40 — ptai *raw, p_hmx *N-pɔu, p_ryu *wa, oko 吾里: one unlabelled reconstructed/attested form each, so 'unknown' by the we-column rule.
-const UNDECIDED = { we: { route: 'unknown', max: 40 }, bear: { route: 'unknown', max: 10 }, foot: { route: 'unknown', max: 20 } };
+// r108: we 40 -> 41 — p_jpk *wa (one unlabelled form).
+const UNDECIDED = { we: { route: 'unknown', max: 41 }, bear: { route: 'unknown', max: 10 }, foot: { route: 'unknown', max: 20 } };
 
 let violations = 0;
 const notes = [];

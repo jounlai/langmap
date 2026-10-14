@@ -833,7 +833,7 @@ WORDS.rice = {
     okz: ["តន្ទុល", "ɗandʊl"],
     en_jam: ["rice", "ɹaɪs"],
     ar_ye: ["رز", "rizz"],
-    sms: ["riss", "risː"],
+    sms: ["riss", "risːɐ"],
     xav: ["aro", "aˈɾɔ"],
     gym: ["aro", "aɾo"],
     tlh: ["—", "—"],

@@ -108,6 +108,9 @@ const CHECK=process.argv.includes("--check");
 // will tell you if you deleted one too early.
 const MIXED_OK = {
   // --- deliberate: the row's orthography really is mixed ---
+  // Sogdian is cited in the standard scholarly transliteration (Gharib, Sims-Williams), which
+  // writes β γ δ θ with Greek letters inside Latin text. r108, 2026-10-15.
+  sog: 'Sogdian transliteration uses Greek β γ δ θ by convention',
   // These two are NOT waiting to be converted, unlike everything below the
   // next divider. Both rows declare romanisation in meta.script, and the one
   // word involved has no Han spelling in the source at all — so there is

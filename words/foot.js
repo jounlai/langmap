@@ -1797,7 +1797,7 @@ WORDS.foot = {
     lij: ["pê", "peː"],  // pê vs gamba.
     lij_t: ["pé", "peː"],  // As Ligurian pê, but the Carloforte minidizionario spells it pé; pé vs gamba.
     lis: ["hchi-hpa", "tɕʰi˧˧pʰɛ˧˥"],  // Fraser 1922 hchi³-hpá² 'foot' against ZMYYC 264.27 bo⁴⁴vu³¹ 'leg', a different root; ipa from TBL 0103.40.
-    liv: ["jālga", "jɑːlɡɑ"],  // One word for the whole lower limb, the Uralic norm.
+    liv: ["jālga", "ˈjɑːlɡɑ"],  // One word for the whole lower limb, the Uralic norm. // was ["jālga", "jɑːlɡɑ"] (vi dialect rules 2026-10-06)
     ljp: ["kukut", "kukut"],  // The ACD reconstructs Proto-Lampungic *kukut and glosses it 'leg, foot' in one entry, and the Lampung Api New Testament bears that out for the modern reflex — cukut washes at John 13:5 and breaks at John 19:31-32, with tulan 'bone' at John 19:36 as the control.
     lkt: ["sihá", "sihá"],  // Lakota splits sihá from hú; the pitch accent goes into both fields, as this row's napé does.
     lld: ["pe", "pe"],  // pe vs giama; the plural piesc is what the running text shows.
@@ -2048,7 +2048,7 @@ WORDS.foot = {
     puaz: ["*tala", "tala"],  // Sapir and VVH28 reconstruct *tala 'foot' — Stubbs's set 937, with TO tad, NT tára, Tr rará — while set 944 reconstructs *huNkaC 'leg' on Mn húqa, Hp hokya and Cora ïïka, so the proto-language has both.
     pura: ["*jalka", "jalka"],  // Proto-Uralic *jalka 'foot, leg' — the Finnic and Samoyedic reflexes run the whole limb.
     pwo: ["ခၪ့", "kʰàɴ"],  // Kato's Western Pwo texts gloss khàɴ 'leg' and Jones 1961 #44 gives Bassein khàn 'foot'; the spelling is the Western Pwo ခၪ့ of Proto-Karen *khaŋᴮ.
-    pyu: ["kuy", "kui"],  // kuy is washed at John 13:5 and broken at John 19:31-33, with ukak 'bone' at John 19:36 as the control; the ACD's dapal 'foot' and paʔa 'thigh' stand outside the Bible's usage and ABVD's Katipul list answers leg/foot with kuy.
+    pyu: ["kuy", "kuj"],  // kuy is washed at John 13:5 and broken at John 19:31-33, with ukak 'bone' at John 19:36 as the control; the ACD's dapal 'foot' and paʔa 'thigh' stand outside the Bible's usage and ABVD's Katipul list answers leg/foot with kuy. // was ["kuy", "kui"] (vi dialect rules 2026-10-06)
     pzh: ["karaw", "kaɾaw"],  // Li & Tsuchida, Pazih Dictionary 142, one entry: 'karaw 腳 foot；腿 leg', and their English index answers both 'foot' and 'leg' with it alone. dapal is the sole of the foot, not a rival.
     qu: ["chaki", "ˈtʃaki"],  // chaki covers foot and leg. IPA is the plain reading of the Quechua orthography, as in this row's hand cell maki. // was ["chaki", "tʃaki"] (vi dialect rules 2026-10-06)
     quc: ["aqan", "aqan"],  // Kaufman's PMED glosses KCH aqan 'pie, pierna' in one entry, and the K'iche' NT breaks the same rakan at John 19:32 that it washes at 13:5; aaʼ is the thigh.
@@ -2287,7 +2287,7 @@ WORDS.foot = {
     xkz: ["tawa", "tawa"],  // Hyslop's Kurtöp grammar files tawa as the reflex of rkang-pa and glosses tawa=i thila, literally 'leg's thumb', as the big toe of a foot.
     xlu: ["pāta-", "ˈpaːta"],  // Melchert, Cuneiform Luwian Lexicon s.v. pāta-. Route unknown: the GLD names talla- as a candidate 'human leg' for Hittite and only guesses at Luwian.
     xmf: ["კუჩხი", "kʼutʃxi"],  // Class inferred from Georgian and from the Svan cognate ჭიშხ 'foot, leg'. IPA is the plain reading of the orthography, following how this row's own hand cell writes ხე as xe.
-    xmr: ["𐦯𐦴", "ˈsata"],  // Rilly's glossary p. 184, 'st — foot, feet', read with the inherent vowel as this row's 𐦨𐦯 masa and 𐦠𐦶 ato are. Route unknown: no Meroitic leg word is attested.
+    xmr: ["𐦯𐦴", "sata"],  // Rilly's glossary p. 184, 'st — foot, feet', read with the inherent vowel as this row's 𐦨𐦯 masa and 𐦠𐦶 ato are. Route unknown: no Meroitic leg word is attested. // was ["𐦯𐦴", "ˈsata"] (vi dialect rules 2026-10-06)
     xng: ["ᠬᠥᠯ", "køl"],  // Nugteren's comparative lexicon gives *köl 'foot, often also leg', with MMo Secret History kol (H103) and 華夷譯語 köl (M72).
     xnr: ["पैर", "pɛːr"],  // As Punjabi: पैर vs टंग.
     xog: ["ekigere", "ekiɡere"],  // Lusoga splits them as Luganda does: the Lusoga Bible washes ebigere in John 13 but breaks amagulu in John 19, and Mark 9:45 gives the singular ekigere.

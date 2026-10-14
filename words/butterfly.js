@@ -185,7 +185,7 @@ WORDS.butterfly = {
     krl: ["liipukkaini", "ˈliːpukːɑini"],
     olo: ["liipukku", "ˈliːpukːu"],
     vep: ["lipkaine", "ˈlipkaine"],
-    liv: ["li’bla’bbiņ", "liˀblɑˀbːiɲ"],  // Reduplicated lib-lab- with vowel alternation; NorthEuraLex records a second Livonian form libālabā.
+    liv: ["li’bla’bbiņ", "ˈliˀblɑˀbːiɲ"],  // Reduplicated lib-lab- with vowel alternation; NorthEuraLex records a second Livonian form libālabā.
     kpv: ["бобув", "bobuv"],  // Reduplicated bo-buv; cf. Komi-Permyak бабыв and Udmurt бубыли.
     koi: ["бабыв", "babɨv"],  // Reduplicated ba-bɨv.
     udm: ["бубыли", "bubɨlʲi"],  // Reduplicated bu-bɨ-.

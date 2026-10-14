@@ -508,7 +508,7 @@ WORDS.black = {
     non: ["svartr", "svɑrtr"],
     sga: ["dub", "duβ"],
     mga: ["dub", "duβ"],
-    hy_grab: ["սեաւ", "sɛaw"],
+    hy_grab: ["սեաւ", "seaw"],
     prg: ["kirsnan", "ˈkirsnan"],
     // Added 2026-09-05. The *kr̥snós branch, which the row could already show
     // in Old Prussian kirsnan and Sanskrit कृष्णः but nowhere between them.
@@ -771,7 +771,7 @@ WORDS.black = {
     wmt: ["kurnkurn", "kuɳkuɳ"],
     aae: ["i zi", "i zi"],
     enf: ["polzeda", "pɔɫzʲɛda"],
-    sog: ["šāw", "ʃaːw"],
+    sog: ["sʾw", "saːw"],
     trv: ["mqalux", "mqalux"],
     acu: ["shuwin", "ʃuwin"],
     zh_sc: ["黑", "xɛ˨˩"],
@@ -1283,7 +1283,7 @@ WORDS.black = {
     dnj: ["tīi", "tīː"],
     wae: ["schwartz", "ʃvarts"],
     itz: ["bʼox", "ɓoʃ"],
-    pot: ["mkedéwa", "mkedewa"],
+    pot: ["mkedéwa", "mkədewa"],
     p_viet: ["*-jəm", "-jəm"]
   },
 };

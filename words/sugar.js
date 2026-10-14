@@ -898,7 +898,7 @@ WORDS.sugar = {
     sog: ["skkry", "sakkareː"],
     arc: ["ܫܟܪ", "ʃekkar"],
     pal: ["𐭱𐭪𐭥", "ʃakar"],
-    hy_grab: ["շաքար", "ʃɑkʰɑr"],
+    hy_grab: ["շաքար", "ʃakʰaɾ"], // was ["շաքար", "ʃɑkʰɑr"] (vi dialect rules 2026-10-06)
     es_sgl: ["açúcar", "aˈtsukaɾ"],
     ja_edo: ["砂糖", "satoː"],
     ja_chu: ["砂糖", "satɔː"], // was ["砂糖", ""] (vi dialect rules 2026-10-06)
@@ -1112,7 +1112,7 @@ WORDS.sugar = {
     sjd: ["са̄хар", "saːxar"],
     smj: ["såhkår", "sohkor"],
     sma: ["dïjnehke", "ˈtɨjnɛhkɛ"], // was ["dïjnehke", "dɨjneʰke"] (vi dialect rules 2026-10-06)
-    sms: ["säähhar", "sæːhːar"],
+    sms: ["säähhar", "ˈsaːxːɒr"], // was ["säähhar", "sæːhːar"] (vi dialect rules 2026-10-06)
     smn: ["sukkâr", "sukːɐr"],
     csb: ["cëczer", "ˈtsɜtʃɛr"], // was ["cëczer", "ˈtsətʃɛr"] (vi dialect rules 2026-10-06)
     hsb: ["cokor", "ˈtsɔkɔr"],

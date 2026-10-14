@@ -90,7 +90,7 @@ WORDS.daughter = {
     prg: ["duckti", "duktiː"],
     txb: ["𑀢𑁆𑀓𑀸𑀘𑁂𑀭𑁆", "tkaːtɕer"],
     xto: ["𑀘𑁆𑀓𑀸𑀘𑀭𑁆", "tskaːtsar"],
-    hy_grab: ["դուստր", "dustr"],
+    hy_grab: ["դուստր", "dustɾ"],
     pal: ["𐭣𐭥𐭧𐭲", "duxt"],
 
     // --- ...and the branches that replaced it -------------------------
@@ -917,7 +917,7 @@ WORDS.daughter = {
     ptrk: ["*kï̄rᶻ", "kɯːŕ"],
     uby: ["pχʲa", "pʰχʲa"],
     obr: ["သ္မိဟ်", "smih"],
-    sog: ["ẟwγt", "ðuɣd"],
+    sog: ["δwγt", "ðuɣd"],
     pkar: ["*asul-", "asul"],
     ohu: ["leány", "leaːɲ"],
     puaz: ["*mala", "mala"],
@@ -1069,7 +1069,7 @@ WORDS.daughter = {
     lrc: ["دختر", "doxtær"],
     za: ["lwgmbwk", "lɯk˧ɓɯk˥"],
     kru: ["तंग्दा", "taŋdaː"],
-    wuu_nb: ["囡", "nø˩˧"],
+    wuu_nb: ["囡", "nø˧˩˧"],
     sas: ["anak nine", "anak ninə"],
     max: ["ana parampuang", "ana parampuaŋ"],
     gcf: ["fi", "fi"],

@@ -765,7 +765,7 @@ WORDS.wheel = {
     sma: ["jårrehtse", "ˈjɔrːɛhtsɛ"],
     smj: ["juvlla", "ˈjuvlːa"],
     smn: ["jorree", "ˈjorːeː"],
-    sms: ["kååʹlez", "kɔːlʲez"],
+    sms: ["kååʹlez", "ˈkɔːlʲɛz"],
     sjd: ["коалес", "koales"],
     vo: ["luib", "luˈib"],
     tok: ["sike", "ˈsike"],

@@ -914,7 +914,7 @@ WORDS.coffee = {
     mdh: ["kapi", "kaˈpi"],
     mrw: ["kahawa", "kahawa"],
     ivv: ["kapi", "kapi"],
-    sma: ["kaaffe", "ˈkaːfːe"],
+    sma: ["kaaffe", "ˈkɑːfːɛ"], // was ["kaaffe", "ˈkaːfːe"] (vi dialect rules 2026-10-06)
     yue_zs: ["咖啡", "ka˧˧ fɛ˥˥"],
     koi: ["кофе", "ˈkofe"],
     ja_rys: ["コーヒー", "koːhiː"],

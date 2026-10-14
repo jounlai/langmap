@@ -371,7 +371,7 @@ WORDS.book = {
     pau: ["hong", "hoŋ"],      // From Japanese 本. Josephs' dictionary runs its fixed expressions on hong (llel a hong 'page of a book'), and keeps babier — "[From German] paper; letter; book" — as the paper word, which is the side of the line this concept declines.
     // Oceania and the creoles.
     meu: ["buka", "buka"],     // Lawes 1888 marks it "(Introduced.)"; it is the source of the Hiri Motu cell already in this file.
-    mh: ["bok", "pˠokʷ"],      // Marshallese bok has six homonyms — blister, chicken pox, bladder, warping, climax, sand — of which only this one is the English loan 'book'.
+    mh: ["bok", "pˠekʷ"],      // Marshallese bok has six homonyms — blister, chicken pox, bladder, warping, climax, sand — of which only this one is the English loan 'book'.
     niu: ["tohi", "tohi"],     // Sperlich's own dictionary is titled Tohi Vagahau Niue. The English loan pepa was declined as the paper word, and lau is 'leaf, page'.
     pmt: ["puta", "puta"],
     pon: ["pwuhk", "pʷuːk"],
@@ -972,7 +972,7 @@ WORDS.book = {
     syc: ["ܟܬܒܐ", "kθaːβaː"],
     osn: ["apus", "apus"],
     chb: ["quanne", "kwanːe"],
-    hy_grab: ["գիրք", "ɡirkʰ"],
+    hy_grab: ["գիրք", "ɡiɾkʰ"],
     en_em: ["booke", "buːk"],
     de_lut: ["Buch", "buːx"],
     sa_edu: ["पुस्तकम्", "pustɐkɐm"],

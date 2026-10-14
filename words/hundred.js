@@ -132,7 +132,7 @@ WORDS.hundred = {
     it_dan: ["cento", "ˈtʃɛnto"],
     osp: ["ciento", "ˈtsjento"],
     es_sgl: ["ciento", "ˈtsjento"],
-    hy_grab: ["հարիւր", "hariwr"],
+    hy_grab: ["հարիւր", "haɾiwɾ"],
     hy: ["հարյուր", "haɾˈjuɾ"],
     pal: ["𐭮𐭣", "sad"],
     fa_clas: ["صد", "sad"],

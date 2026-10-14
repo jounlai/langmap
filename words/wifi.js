@@ -255,7 +255,7 @@ WORDS.wifi = {
     yi: ["ווײַ־פֿײַ", "ˈvaɪ̯faɪ̯"],
     es_py: ["wifi", "ˈwajfaj"],
     bg: ["Wi-Fi", "uajfaj"],
-    new: ["वाइफाइ", "waːipʰaːi"],
+    new: ["वाइफाइ", "waipʰai"],
     dty: ["वाइफाइ", "waːipʰaːi"],
     en_app: ["Wi-Fi", "ˈwaɪfaː"],
     ps: ["وای فای", "waːj faːj"],

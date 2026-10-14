@@ -884,7 +884,7 @@ WORDS.orange = {
     nhw: ["lalax", "ˈlalaːʃ"],
     nhe: ["alaxox", "ˈalaʃoːʃ"],
     liv: ["appõlsin", "ˈɑpːəlsin"], // was ["appõlsin", "ˈapːəlsin"] (vi dialect rules 2026-10-06)
-    sms: ["appelsiin", "apːelsiːn"],
+    sms: ["appelsiin", "ˈapːɛlsiːn"], // was ["appelsiin", "apːelsiːn"] (vi dialect rules 2026-10-06)
     sma: ["appelsijne", "ˈapːɛlsijnɛ"], // was ["appelsijne", "ˈapːelsijne"] (vi dialect rules 2026-10-06)
     fkv: ["appelsiini", "ˈɑpːelsiːni"],
     gag: ["portokal", "portoˈkal"],

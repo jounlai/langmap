@@ -85,7 +85,6 @@ WORDS.we = {
     one: "single",
     ono: "single",
     win: "single",
-    cro: "single",
     hai: "single",
     cic: "single",
     ik: "single",
@@ -1236,7 +1235,7 @@ WORDS.we = {
     one: ["iʼí", "iʔí"],
     ono: ["iʼ", "iʔ"],
     win: ["nee", "neː"],
-    cro: ["balee", "baleː"],
+    cro: ["—", "—"],
     hai: ["tʼaláng", "tʼaláŋ"],
     cic: ["poshnoʼ", "poʃnoʔ"],
     ik: ["uvagut", "uvaɣut"], // was ["uvagut", "uvaɡut"] (vi dialect rules 2026-10-06)
@@ -1637,7 +1636,7 @@ WORDS.we = {
     as: ["আমি", "ami"],
     or: ["ଆମେ", "ame"],
     bho: ["हमनी", "ɦəmniː"],
-    en_south: ["we", "wi"],
+    en_south: ["we", "wiː"], // was ["we", "wi"] (vi dialect rules 2026-10-06)
     en_app: ["we", "wi"],
     en_in: ["we", "ʋiː"], // was ["we", "wiː"] (vi dialect rules 2026-10-06)
     en_ie: ["we", "wiː"],
@@ -1871,7 +1870,7 @@ WORDS.we = {
     bi: ["yumi / mifala", "jumi / mifala"],
     pjt: ["nganana", "ŋanaɳa"],
     wbp: ["ngalipa / nganimpa", "ŋalipa / ŋanimpa"],
-    piu: ["nganana", "ŋanaɳa"],
+    piu: ["nganana", "ŋanana"], // was ["nganana", "ŋanaɳa"] (vi dialect rules 2026-10-06)
     aer: ["anwerne", "ˈanwəɳə"],
     nha: ["ngayinu", "ŋajinu"],
     olk: ["apul / anhdhan", "apul / an̪d̪an"],
@@ -1900,7 +1899,7 @@ WORDS.we = {
     ace: ["geutanyoe / kamoe", "ɡɯtaɲɔə / kamɔə"],
     gay: ["kitə / kami", "kitə / kami"],
     bug: ["idiʼ", "idiʔ"],
-    mdr: ["ikiq / ingkaiq", "ikiʔ / iŋkaiʔ"],
+    mdr: ["itaq nasang / yamiq", "itaʔ nasaŋ / jamiʔ"], // was ["ikiq / ingkaiq", "ikiʔ / iŋkaiʔ"] (vi dialect rules 2026-10-06)
     cia: ["ingkita / isami", "iŋkita / isami"],
     war: ["kita / kami", "kita / kami"],
     bik: ["kita / kami", "kita / kami"],
@@ -1965,7 +1964,7 @@ WORDS.we = {
     krc: ["биз", "biz"],
     ksw: ["ပှၤ", "pɣa˨˩"],  // Suspect, flagged not changed. ပှၤ is Sgaw Karen for 'person' — it is now the person cell too, sourced from Wiktionary — and the row's own pronouns are ယၤ 'I' and နၤ 'you', neither of which this resembles. A plural built on 'person' is possible, but the clusivity class above is recorded as "single" on this form, and one unlabelled form is not evidence for that.
     pwo: ["ပ", "pə"],
-    lhu: ["ngà hɨ", "ŋà hɨ"],
+    lhu: ["ngà hɨ", "ŋà hɯ"], // was ["ngà hɨ", "ŋà hɨ"] (vi dialect rules 2026-10-06)
     lis: ["ngua nu", "ŋwa˧˧nu˧˩"],
     nxq: ["ngemgeeq", "ŋə˧ŋɡɯ˨˩"],
     shn: ["ႁဝ်း", "haw˥"],
@@ -2047,7 +2046,7 @@ WORDS.we = {
     kpj: ["dʒiarɨ̃ boho", "dʒiarɨ̃ boho"],
     guu: ["pəmakə", "pəmakə"],
     bwi: ["wha", "wha"],
-    cag: ["kaswaatʃa / jiwaatʃeeɬ", "kaswaatʃa / jiwaatʃeeɬ"],
+    cag: ["kaswaatʃa / jiwaatʃaeɬ", "kaswaatʃa / jiwaatʃaeɬ"], // was ["kaswaatʃa / jiwaatʃeeɬ", "kaswaatʃa / jiwaatʃeeɬ"] (vi dialect rules 2026-10-06)
     crt: ["sam", "sam"],
     tpy: ["ka wan / ha wan", "ka wan / ha wan"],
     jup: ["ʔɨ́n", "ʔɨ́n"], // was ["ʔǝ̃d", "ʔə̃d"] (vi dialect rules 2026-10-06)

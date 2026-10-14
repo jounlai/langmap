@@ -835,7 +835,7 @@ WORDS.head = {
     pis: ["hed", "hed"],
     ses: ["boŋ", "boŋ"],
     bi: ["hed", "hed"],
-    ext: ["cabeça", "kaˈβesa"],
+    ext: ["cabeça", "kaˈβeθa"],
     rup: ["cap", "kap"],
     jmc: ["nrwe", "nɾwe"],
     nzi: ["ti", "ti"],
@@ -902,7 +902,7 @@ WORDS.head = {
     mxv: ["xini", "ʃini"],
     car: ["upuʼpo", "upuʔpo"],
     tiw: ["pungintaga", "puŋintaɡa"],
-    ja_rys: ["頭", "tsɨburu"],
+    ja_rys: ["頭", "tsɨbuɾu"],
     eve: ["дыл", "dɨl"],
     stq: ["Haud", "haːu̯d"],
     frr: ["hood", "hoːd"],
@@ -1091,7 +1091,7 @@ WORDS.head = {
     sux: ["𒊕", "saŋ"],
     emy: ["jol", "hol"],
     sukh: ["หัว", "hua"],
-    cmg: ["ᠲᠣᠯᠣᠭᠠᠢ", "toloɣai"],
+    cmg: ["ᠲᠣᠯᠤᠭᠠᠢ", "toluɣai"],
     p_toc: ["*ćäpālä", "tɕəpaːlə"],
     onw: ["ⲟⲩⲣ", "ur"],
     xag: ["bul", "bul"],
@@ -1188,6 +1188,7 @@ WORDS.head = {
     pao: ["kwo", "kʷo"],
     zh_han: ["首", "śǝ́w"],
     olk: ["eka", "eka"],
-    kpe: ["ŋuŋ", "ŋuŋ"]
+    kpe: ["ŋuŋ", "ŋuŋ"],
+    luz: ["sar", "sar"]
   },
 };

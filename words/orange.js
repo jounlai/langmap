@@ -1102,7 +1102,7 @@ WORDS.orange = {
     th_isan: ["ส้ม", "som˥˩"],
     th_n: ["ส้ม", "som˥˩"],
     th_s: ["ส้ม", "som˥˩"],
-    jv: ["jeruk", "dʒəruk"],
+    jv: ["jeruk", "dʒəruʔ"], // was ["jeruk", "dʒəruk"] (vi dialect rules 2026-10-06)
     su: ["jeruk", "dʒəruk"],
     ceb: ["kahil", "kaˈhil"],
     ilo: ["kahel", "kaˈhel"],
@@ -1296,7 +1296,7 @@ WORDS.orange = {
     es_sgl: ["naranja", "naˈɾaŋxa"],
     mfe: ["zoranz", "zoʁãz"],
     rcf: ["zoranj", "zoʁãʒ"],
-    crs: ["zoranz", "zoʁãz"],
+    crs: ["zoranz", "zorãz"], // was ["zoranz", "zoʁãz"] (vi dialect rules 2026-10-06)
     gcf: ["zowanj", "zowãʒ"],
     bqi: ["پرتقال", "poɾteɣɒl"],
     srn: ["apresina", "apresina"], // was ["alanya", "alaɲa"] (r29 fix 2026-10-02)

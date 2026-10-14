@@ -357,7 +357,7 @@ WORDS.mountain = {
     os: ["хох", "xox"],
     osp: ["montanna", "monˈtaɲa"],
     osx: ["berg", "berɡ"],
-    ota: ["طاغ", "daɣ"],
+    ota: ["طاغ", "daʁ"],
     otk: ["𐱃𐰍", "taɣ"],
     pag: ["palandey", "palanˈdɨj"],
     pam: ["bunduk", "bunˈduk"],
@@ -694,7 +694,7 @@ WORDS.mountain = {
     gym: ["ngitio", "ŋitio"],
     frp: ["montagne", "mɔ̃ˈtaɲe"],
     tab: ["дагъ", "daʁ"],
-    kfx: ["ढौग", "ɖʱɔːɡ"],
+    kfx: ["ढौग", "ɖʱɔɡ"],
     hns: ["pahaar", "pəɦaːr"],
     hui: ["hari", "hari"],
     kos: ["eol", "eol"],
@@ -1128,6 +1128,7 @@ WORDS.mountain = {
     lic: ["hwou3", "hwou˩˩"],
     afb: ["جبل", "ˈdʒibal"],
     tpn: ["ybytyra", "ɨβɨtɨɾa"],
-    wrh: ["dhirrayn", "ˈd̪irajn"]
+    wrh: ["dhirrayn", "ˈd̪irajn"],
+    kgg: ["dibaŋ", "dibaŋ"]
   }
 };

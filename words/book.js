@@ -190,7 +190,7 @@ WORDS.book = {
     ar_lev: ["كتاب", "ktaːb"],
     ar_ma: ["كتاب", "ktab"],
     ar_tn: ["كتاب", "kteːb"],
-    arq: ["كتاب", "ktab"],
+    arq: ["كتاب", "ktaːb"],
     arc: ["ܟܬܒܐ", "ktaːβaː"],
     aii: ["ܟܬܵܒ݂ܵܐ", "kθaːwa"],
     cop: ["ϫⲱⲙ", "tʃoːm"],
@@ -1089,6 +1089,7 @@ WORDS.book = {
     anu: ["wëëlö", "weːlo"],
     soa: ["หนังสือ", "naŋ˨˦ sɯː˨˦"],
     lij_t: ["libbru", "ˈlibru"],
-    com: ["tʉnihatʉbopʉ", "tɨnihatɨbopɨ"]
+    com: ["tʉnihatʉbopʉ", "tɨnihatɨbopɨ"],
+    haj: ["boi", "bɔɪ"]
   }
 };

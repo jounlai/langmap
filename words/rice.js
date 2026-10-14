@@ -317,7 +317,7 @@ WORDS.rice = {
     om: ["ruuzii", "ruːziː"],
     os: ["пырындз", "pərəndz"],
     osp: ["arroz", "aˈrots"],
-    ota: ["برنج", "biˈrintʃ"],
+    ota: ["برنج", "biˈɾintʃ"],
     pam: ["abias", "ʔaˈbjas"],
     pap: ["aros", "aˈros"],
     pau: ["beras", "bəˈras"],

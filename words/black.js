@@ -219,7 +219,7 @@ WORDS.black = {
     tl: ["itim", "ʔiˈtim"],
     itb: ["mavaeng", "mavaɨŋ"],
     ivv: ["mavaheng", "mavahɨŋ"],
-    ceb: ["itom", "iˈtom"],
+    ceb: ["itom", "ʔiˈtom"],
     mg: ["mainty", "ˈmaintɨ"],
     haw: ["ʻeleʻele", "ʔeleʔele"],
     mi: ["mangu", "maŋu"],
@@ -514,7 +514,7 @@ WORDS.black = {
     // in Old Prussian kirsnan and Sanskrit कृष्णः but nowhere between them.
     p_ine: ["*kr̥snós", "kr̥snós"],
     h_vedic: ["कृष्णः", "kr̩ʂɳɐ́ɦ"],
-    cu: ["чрьнъ", "tʃrʲnŭ"],
+    cu: ["чрьнъ", "tʃrĭnŭ"],
     orv: ["чьрнъ", "tʃĭrnŭ"],
     fro: ["noir", "ˈnojr"],
     p_toc: ["*erkent", "erkent"],
@@ -526,7 +526,7 @@ WORDS.black = {
     stq: ["swot", "svɔt"],
     gv: ["doo", "duː"],
     kw: ["du", "dyː"],
-    bs: ["crn", "tsrn"],
+    bs: ["crn", "tsr̩n"],
     ga: ["dubh", "d̪ˠʊvˠ"],
     da: ["sort", "sɒːˀd"],
 
@@ -605,7 +605,7 @@ WORDS.black = {
     ota: ["قره", "kaˈɾa"],
     crh: ["qara", "qɑˈrɑ"],
     kaa: ["qara", "qɑˈrɑ"],
-    nog: ["кара", "qɑˈrɑ"],
+    nog: ["кара", "qaˈra"],
     kum: ["къара", "qaˈra"],
     krc: ["къара", "qaˈra"],
     gag: ["kara", "kaˈra"],
@@ -1278,6 +1278,7 @@ WORDS.black = {
     mpj: ["maru-maru", "maɻumaɻu"],
     nha: ["wurʼada", "wuɾʔada"],
     nmn: ["ǂáʼɲa", "ǂaʔɲa"],
-    adt: ["maRu", "maɹu"]
+    adt: ["maRu", "maɹu"],
+    haj: ["kala", "kala"]
   },
 };

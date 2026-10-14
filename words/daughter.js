@@ -296,7 +296,7 @@ WORDS.daughter = {
     hyw: ["դուստր", "tustɾ"],
 
     // --- Slavic and Baltic ----------------------------------------------
-    cu: ["дъщи", "dʊʃti"],
+    cu: ["дъщи", "dŭʃti"],
     orv: ["дочи", "dotʃi"],
     hsb: ["dźowka", "ˈdʒɔwka"],
     dsb: ["źowka", "ˈʑɔwka"],
@@ -342,7 +342,7 @@ WORDS.daughter = {
 
     // --- Mongolic and Tungusic ------------------------------------------
     xal: ["күүкн", "kyːkn"],
-    bxr: ["басаган", "basaɡan"],
+    bxr: ["басаган", "basaɡaŋ"],
     cmg: ["ᠥᠬᠢᠨ", "økin"],
     xng: ["ᠥᠬᠢᠨ", "økin"],
     mnc: ["ᠰᠠᡵᡤᠠᠨ ᠵᡠᡳ", "sarɡan dʒui"],
@@ -387,7 +387,7 @@ WORDS.daughter = {
     shy: ["yelli", "jəlli"],
     tzm: ["ⵢⵍⵍⵉ", "jəlːi"],
     zgh: ["ⵢⵍⵍⵉ", "jəlli"],
-    shi: ["ⵉⵍⵍⵉ", "illi"],
+    shi: ["ⵉⵍⵍⵉ", "ilːi"],
 
     // --- Iranian — *dugdar held east of the Zagros -----------------------
     ave: ["𐬛𐬎𐬔𐬆𐬛𐬀𐬭", "duɡədar"],
@@ -896,7 +896,7 @@ WORDS.daughter = {
     yiz: ["nɯ", "nɯ˧˧"],
     hni: ["ssaqmiq", "za˧˩mi˧˩"],
     mni: ["ꯏꯆꯥꯅꯨꯄꯤ", "ítʃanupi"],
-    lhu: ["a-ya-mi", "ɔ˧˩ʑa˥˧mi˥˧"],
+    lhu: ["yâ-mî", "jâmî"],
     lis: ["zamu", "zɑ˧˩mɯ˧˩"],
     nxq: ["mil", "mi˥"],
     kac: ["num sha", "num˧ʃa˧˩"],
@@ -976,7 +976,7 @@ WORDS.daughter = {
     gsw_w: ["Techter", "ˈtɛxtər"],
     bpy: ["জিলক", "dʒilɔk"],
     trm: ["ǰu", "dʒu"],
-    kfx: ["शोहड़ी", "ˈʃoɦɽiː"],
+    kfx: ["बेटी", "beʈiː"],
     lmn: ["बेटी", "ˈbeːʈiː"],
     thr: ["लौड़िया", "ˈlɔːɽijaː"],
     nhx: ["isihua̱piltzi̱n", "isiwaːpiltsiːn"],
@@ -1152,6 +1152,7 @@ WORDS.daughter = {
     zh_han: ["女", "ṇá"],
     chp: ["seyaz tsʼékui", "sejaz tsʼékui"],
     pt_gw: ["fiju femia", "ˈfidʒu ˈfemia"],
-    mhy: ["anak wawei", "anak wawei"]
+    mhy: ["anak wawei", "anak wawei"],
+    cjs: ["қыс", "qɯs"]
   },
 };

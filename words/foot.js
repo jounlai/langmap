@@ -54,6 +54,7 @@ WORDS.foot = {
     sw: "Mguu — sehemu ya mwili unayosimamia, chini ya kifundo. Si kipimo cha urefu, si mteremko wa mlima wala mwisho wa kitanda, wala si kitenzi. Pale lugha ina neno moja kwa mguu mzima, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    mdr: "unknown",
     wuu_jx: "unknown",
     yue_dg: "leg+foot",
     dds: "leg+foot",
@@ -1204,6 +1205,7 @@ WORDS.foot = {
     "unknown": {"color": "#b45309", "emoji": "❓", "en": "not determined · no leg word attested", "ja": "未判定・脚の語が未確認", "ko": "미판정 · 다리 낱말이 확인되지 않음", "zh": "未判定・未见表示腿的词", "yue": "未判定 · 未見表示腿嘅詞", "vi": "chưa xác định · không thấy từ chỉ 'chân trên'", "th": "ยังไม่ระบุ · ไม่พบคำว่าขา", "id": "belum ditentukan · kata untuk tungkai tidak terekam", "hi": "अनिर्धारित · टाँग का शब्द अप्रमाणित", "de": "nicht bestimmt · kein Bein-Wort belegt", "fr": "non déterminé · aucun mot pour « jambe » attesté", "it": "non determinato · nessuna parola per «gamba» attestata", "es": "sin determinar · no se atestigua palabra para «pierna»", "pt": "por determinar · sem palavra atestada para «perna»", "ru": "не определено · слово «нога» не засвидетельствовано", "uk": "не визначено · слово «нога» не засвідчене", "ar": "غير محدَّد · لا كلمة مُثبتة للساق", "he": "לא נקבע · לא מתועדת מילה לרגל", "sw": "haijabainishwa · hakuna neno la mguu lililothibitishwa"},
   },
   data: {
+    mdr: ["lette", "letːe"],
     wuu_jx: ["脚", "tɕiɑʔ˥"],
     yue_dg: ["脚", "kœ˧˦"],
     dds: ["kubɔ", "kubɔ"],
@@ -1268,7 +1270,7 @@ WORDS.foot = {
     aqc: ["ахъ", "aq"],  // IDS 4-370 and 4-350 both answer ахъ; Aghul’s and Rutul’s neighbours build a foot compound, Archi does not.
     ar: ["قدم", "qadam"],  // Written Standard Arabic splits قدم from ساق; the colloquial رجل, which every spoken dialect row below uses, covers both. The hand row يد likewise stands against ذراع.
     ar_eg: ["رجل", "riɡil"],  // Colloquial Arabic collapses what MSA splits.
-    ar_gulf: ["ريل", "reːl"],  // Feghali's 2008 Gulf lexicon glosses ريل 'foot; leg' for the whole coast — the very form the Najdi row names when it says its own ridʒil is not the coastal ريل.
+    ar_gulf: ["ريل", "riːl"],  // Feghali's 2008 Gulf lexicon glosses ريل 'foot; leg' for the whole coast — the very form the Najdi row names when it says its own ridʒil is not the coastal ريل. // was ["ريل", "reːl"] (vi dialect rules 2026-10-06)
     ar_iq: ["رجل", "ˈrɪdʒɪl"],  // Baghdad breaks final clusters with a copy vowel — قلب ɡalub and ملح miliħ in this row — so the colloquial رجل comes out ridʒil rather than the ar_eg row's riɡil.
     ar_jo: ["إجر", "ʔiʒr"],  // Living Arabic Project's Levantine dictionary glosses إِجِر 'leg, used loosely as foot as well' and calls it commoner than رِجِل throughout the Levant; this row's ودن widn leaves the final cluster unbroken, so it lands on the ar_lev parent's ʔiʒr.
     ar_lb: ["إجر", "ʔiʒr"],  // Beirut and the generic Levantine row write the short i the same way — بنت bint, منيح mniːħ — so this cell lands on the parent's value while the Damascus row beside it does not.

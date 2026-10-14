@@ -420,7 +420,7 @@ WORDS.butterfly = {
     mai: ["तितली", "titliː"],
     mwr: ["तितली", "titliː"],
     ar_eg: ["فراشة", "faˈɾaːʃa"],
-    ar_ma: ["فرططو", "fəɾtˤutˤtˤu"],
+    ar_ma: ["فرططو", "fərtˤutˤtˤu"],
     ar_lev: ["فراشة", "faˈɾaːʃe"],
     ar_tn: ["فرططو", "fartˤatˤtˤu"],
     ar_gulf: ["طرفشانة", "tˤerfeˈʃaːna"],

@@ -197,7 +197,7 @@ WORDS.chocolate = {
     jv: ["coklat", "ˈtʃoklat"],
     su: ["cokelat", "tʃoˈkəlat"],
     tl: ["tsokolate", "tʃokoˈlate"],
-    ceb: ["tsokolate", "tʃokoˈlate"],
+    ceb: ["tsokolate", "tsokoˈlate"],
     mn: ["шоколад", "ʃokoˈlad"],
     eo: ["ĉokolado", "tʃokoˈlado"],
     an: ["chicolate", "tʃikoˈlate"],

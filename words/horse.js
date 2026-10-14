@@ -176,7 +176,7 @@ WORDS.horse = {
     ca_va: ["cavall", "kaˈvaʎ"],
     csb: ["kóń", "kwoɲ"],
     dsb: ["kóń", "kɛɲ"],
-    cu: ["конь", "konʲ"],
+    cu: ["конь", "konĭ"],
     el_grc: ["ἵππος", "hípːos"],
     el_kath: ["ἵππος", "ˈipos"],
     akk: ["𒀲𒆳𒊏", "sisuː"],
@@ -197,7 +197,7 @@ WORDS.horse = {
     dlg: ["ат", "at"],
     cv: ["лаша", "laʒa"],
     azb: ["آت", "at"],
-    bxr: ["морин", "morin"],
+    bxr: ["морин", "moriŋ"],
     cmg: ["ᠮᠣᠷᠢᠨ", "morin"],
     bal: ["اسپ", "asp"],
     ckb: ["ئەسپ", "ɛsp"],
@@ -277,7 +277,7 @@ WORDS.horse = {
     en_ie: ["horse", "hɔɹs"],
     en_sco: ["horse", "hɔɾs"],
     en_in: ["horse", "hɔːrs"],
-    en_ph: ["horse", "hɔrs"],
+    en_ph: ["horse", "hɔɹs"],
     en_jam: ["horse", "hɔːs"],
     en_au: ["horse", "hoːs"],
     en_nz: ["horse", "hoːs"],
@@ -1117,6 +1117,7 @@ WORDS.horse = {
     olk: ["athayarr", "at̪ajar"],
     slr: ["at", "ɑtʰ"],
     lij_t: ["cavallu", "kaˈvalu"],
-    mhy: ["kuda", "kuda"]
+    mhy: ["kuda", "kuda"],
+    dyo: ["epiling", "epiliŋ"]
   }
 };

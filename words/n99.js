@@ -1091,14 +1091,14 @@ WORDS.n99 = {
     djk: ["neigintenti a neigin", "neiɡintenti a neiɡin"], // was ["neigintenti a neigin", "nɛiɡintenti a nɛiɡin"] (vi dialect rules 2026-10-06)
     drs: ["sallane tommenna sallane", "salːane tomːenːa salːane"],
     co: ["nuvanta nove", "nuˈvanta ˈnɔve"],
-    cnh: ["sawmkua le pakua", "sɔmkua le pakua"],
+    cnh: ["sawmkua le pakua", "sawmkua le pakua"], // was ["sawmkua le pakua", "sɔmkua le pakua"] (vi dialect rules 2026-10-06)
     cho: ["pokoli chakkali akocha chakkali", "pokoli tʃakːali akotʃa tʃakːali"],
     chk: ["tiwe me tiu", "tiwe me tiu"],
     cbk: ["noventa y nueve", "noˈbenta i ˈnwebe"],
     cab: ["gádürü-wein-díisi-néfu", "ɡadɨɾɨ wein diːsi nefu"],
     bzj: ["nainti-nain", "nainti nain"],
     bzd: ["dabom su̱li̱yök ki̱ su̱li̱tu", "dabom sũlĩjøk kĩ sũlĩtu"],
-    bxr: ["ерэн юһэн", "jeren juhen"],
+    bxr: ["ерэн юһэн", "jereŋ juheŋ"], // was ["ерэн юһэн", "jeren juhen"] (vi dialect rules 2026-10-06)
     bxk: ["kamakhumi tisa na tisa", "kamaxumi tisa na tisa"],
     bum: ["mewôm ébul a ébul", "mewɔm ebul a ebul"],
     bsq: ["kpáɖá-nyɔ hĩinyɛ ɓaɖa-bùè sè mɛ̀nɛ̌ìn-hĩinyɛ", "kpáɖáɲɔ hĩːɲɛ ɓaɖabùè sè mɛ̀nɛ̌ìnhĩːɲɛ"],
@@ -1191,7 +1191,7 @@ WORDS.n99 = {
     awa: ["निन्नान्बे", "ninːaːnbeː"], // was ["निन्नानबे", "ninːaːnbe"] (vi dialect rules 2026-10-06)
     rkt: ["নিরানব্বই", "niranɔbːoi"],
     mag: ["निनानवे", "ninaːnʋe"],
-    mwr: ["निनांणू", "ninãːɳuː"],
+    mwr: ["निन्याणवे", "ninjaːɳʋeː"], // was ["निनांणू", "ninãːɳuː"] (vi dialect rules 2026-10-06)
     ks: ["نَمہٕ نَمَتھ", "namɨ namatʰ"],
     skr: ["نڑانوے", "nəɽaːnʋeː"],
     sd: ["نوانوي", "nəʋaːnəʋeː"],
@@ -1255,7 +1255,7 @@ WORDS.n99 = {
     fon: ["kanwe afɔtɔn-nukún-ɛnɛ", "kãwe afɔtɔ̃-nukṹ-ɛnɛ"],
     ibb: ["anaañ mme duob mme usʌkkeed", "anaːŋ m̩me duob m̩me usʌkːeːd"], // was ["anaŋ ye duop ye usukeed", "anaŋ je duop je usukeːd"] (vi dialect rules 2026-10-06)
     efi: ["anaŋ ye efurenaŋ", "anaŋ je efurenaŋ"],
-    tiv: ["akunduanyiingber kar utaankarunyiin", "akunduaɲiːɡber kar utaːnkaruɲiː"],
+    tiv: ["akunduanyiingber kar utaankarunyiin", "akunduaɲiːnɡber kar utaːnkaruɲiːn"], // was ["akunduanyiingber kar utaankarunyiin", "akunduaɲiːɡber kar utaːnkaruɲiː"] (vi dialect rules 2026-10-06)
     suk: ["makumi kenda na kenda", "makʊmi kenda na kenda"],
     umb: ["akwi ecea lecea", "akwi etʃea letʃea"],
     luy: ["amakhumi tisa na tisa", "amaxumi tisa na tisa"],
@@ -1519,13 +1519,13 @@ WORDS.n99 = {
     ar_ps: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     ar_ye: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     ar_sa: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
-    ar_gulf: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
+    ar_gulf: ["تسعة وتسعين", "tisʕa w tisʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     ar_iq: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
     abv: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     afb: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     acw: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     ar_eg: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
-    ar_ma: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
+    ar_ma: ["تسعة وتسعين", "tisʕa w tisʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     ar_tn: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
     ar_sd: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
     ayl: ["تسعة وتسعين", "tisʕa w tisʕiːn"],

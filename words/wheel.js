@@ -248,7 +248,7 @@ WORDS.wheel = {
     en_ng2: ["wheel", "wiːl"],
     en_ke: ["wheel", "wiːl"],
     en_my: ["wheel", "wiːl"],
-    en_ph: ["wheel", "wiːl"],
+    en_ph: ["wheel", "wil"],
     en_wls: ["wheel", "wiːl"],
     en_sg: ["wheel", "wiːl"],
     en_jam: ["wheel", "wiːl"],
@@ -341,7 +341,7 @@ WORDS.wheel = {
     tyv: ["дугуй", "duɣuj"],
     sah: ["көлөһө", "køløhø"],
     crh: ["teker", "teˈker"],
-    ota: ["چرخ", "tʃarx"],
+    ota: ["چرخ", "tʃaɾx"],
     // Kurmanji takes the Turkish word, Sorani the Persian one
     ku: ["teker", "tɛˈkɛɾ"],
 
@@ -417,7 +417,7 @@ WORDS.wheel = {
     max: ["roda", "roda"],
     pmy: ["roda", "roda"],
     tet: ["roda", "roda"],
-    ceb: ["ligid", "liˈɡid"],
+    ceb: ["ligid", "ˈliɡid"],
     mg: ["kodia", "kudia"],
     haw: ["huila", "huila"],
     mi: ["wīra", "wiːɾa"],
@@ -479,7 +479,7 @@ WORDS.wheel = {
     bin: ["owẹ imọto", "owɛ imɔto"], // Edo Bible EZK 1:15, 1:19 — the cart's foot (r91)
     yo: ["táyà", "tájà"],
     ig: ["wiil", "wiːl"],
-    tiv: ["ikyaver", "ikjaver"],
+    tiv: ["ikaver", "ikaver"],
     urh: ["adjugẹn", "adʒuɡɛ̃"],
     iso: ["ẹtẹ", "ɛtɛ"],
     wo: ["ruu", "ruː"],

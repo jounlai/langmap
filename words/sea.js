@@ -502,7 +502,7 @@ WORDS.sea = {
     rif: ["ⵔⴻⴱⵃⴰⵔ", "rəbħaɾ"],
     tzm: ["ⵍⴱⵃⵔ", "ləbħər"],
     suk: ["nyanza", "ɲanza"],
-    tiv: ["zegemnger", "zeɡemŋɡɛɾ"],
+    tiv: ["zegemnger", "zeɡemŋɡer"],
     ibb: ["akpainyañ", "akpaiɲaŋ"],
     lg: ["ennyanja", "eɲːaɲdʒa"],
     lua: ["mbuwu", "mbuwu"],
@@ -722,7 +722,7 @@ WORDS.sea = {
     hch: ["haramara", "haramara"],
     car: ["parana", "paɾana"],
     tiw: ["winga", "wiŋa"],
-    ja_rys: ["海", "tumoːrɨ"],
+    ja_rys: ["海", "tumoːɾɨ"],
     yrk: ["ямʼ", "jamʔ"],
     stq: ["See", "seː"],
     frr: ["siie", "ˈsiːə"],
@@ -1094,6 +1094,10 @@ WORDS.sea = {
     hot: ["ŋgwêk", "ŋɡwek"],
     lij_t: ["mò", "mɔ"],
     kry: ["ʕil", "ʕil"],
-    ki: ["iria", "iɾia"]
+    ki: ["iria", "iɾia"],
+    pmi: ["xuɐ53", "xuɐ˥˧"],
+    cjs: ["талай", "talaj"],
+    dyo: ["fal", "fal"],
+    abv: ["بحر", "bəħər"]
   }
 };

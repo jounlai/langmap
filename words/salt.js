@@ -81,7 +81,7 @@ WORDS.salt = {
     goh: ["salz", "salts"],
     gmh: ["salz", "salts"],
     non: ["salt", "salt"],
-    cu: ["соль", "solɪ"],
+    cu: ["соль", "solĭ"],
     sga: ["salann", "ˈsalan"],
     mga: ["salann", "ˈsalan"],
     cy: ["halen", "ˈhalɛn"],
@@ -339,7 +339,7 @@ WORDS.salt = {
     cv: ["тӑвар", "təvar"],
 
     // --- Mongolic -------------------------------------------------------
-    bxr: ["дабһан", "dabhan"],
+    bxr: ["дабһан", "dabhaŋ"],
     xal: ["давсн", "dawsn̩"],
     mn_cn: ["ᠳᠠᠪᠤᠰᠤ", "dabusu"],
     cmg: ["ᠳᠠᠪᠤᠰᠤᠨ", "dabusun"],
@@ -452,7 +452,7 @@ WORDS.salt = {
     tig: ["ጨው", "tʃʼəw"],
     kab: ["tisent", "tisənt"],
     shy: ["tisent", "tisənt"],
-    shi: ["ⵜⵉⵙⵏⵜ", "tisənt"],
+    shi: ["ⵜⵉⵙⵏⵜ", "tisnt"],
     tzm: ["ⵜⵉⵙⵏⵜ", "tisənt"],
     zgh: ["ⵜⵉⵙⵏⵜ", "tisənt"],
     rif: ["ⵜⵉⵙⵏⵜ", "θisənθ"],
@@ -641,7 +641,7 @@ WORDS.salt = {
     ii: ["ꋂ", "tsʰɯ˧˧"],
     yiz: ["tsʰo", "tsʰo˨˩"],
     hni: ["caqdevq", "tsʰa˧˩dɤ˧˩"],
-    lhu: ["á-lɛ̀", "álɛ̀"],
+    lhu: ["á-lɛ̀ʼ", "álɛ̀ʔ"],
     lis: ["tsha-bo", "tsʰɑ˧˩bo˧˧"],
     nxq: ["ce", "tsʰe˧"],
     tji: ["labu", "la˧˥pu˥˥"],
@@ -1012,7 +1012,7 @@ WORDS.salt = {
 
     // --- West Africa: Mande *kɔ, Chadic ɬugwul, and Kanuri manda along the trade routes ---
     bin: ["umwẹ", "umwɛ̃"],
-    tiv: ["bar", "baɾ"],
+    tiv: ["bar", "bar"],
     efi: ["inuñ", "inuŋ"],
     ekp: ["aɗa", "aɗa"],
     izz: ["unu", "unu"],
@@ -1264,6 +1264,7 @@ WORDS.salt = {
     anu: ["acäbö", "atʃabo"],
     com: ["onaabi", "onaːbi"],
     ahk: ["sa deuq", "sa˨˩dɤ̰˧"],
-    ude: ["сʼаи", "sʔai"]
+    ude: ["сʼаи", "sʔai"],
+    dyo: ["musis", "musis"]
   },
 };

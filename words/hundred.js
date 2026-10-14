@@ -218,7 +218,7 @@ WORDS.hundred = {
     ptrk: ["*jǖz", "jyːz"],
     xqa: ["yüz", "jyz"],
     otk: ["𐰘𐰇𐰕", "jyz"],
-    ota: ["يوز", "jyz"],
+    ota: ["یوز", "jyz"],
     tr: ["yüz", "jyz"],
     az: ["yüz", "jyz"],
     azb: ["یوز", "jyz"],
@@ -237,7 +237,7 @@ WORDS.hundred = {
     // --- Mongolic and Tungusic ---------------------------------------------
     pmng: ["*ǰaxun", "dʒaxun"],
     xng: ["ᠵᠠᠭᠤᠨ", "dʒaun"],
-    cmg: ["ᠵᠠᠭᠤᠨ", "dʒaɡun"],
+    cmg: ["ᠵᠠᠭᠤᠨ", "dʒaɣun"],
     mn: ["зуу", "tsuː"],
     p_tun: ["*taŋgū", "taŋɡuː"],
     mnc: ["ᡨᠠᠩᡤᡡ", "taŋɡuː"],
@@ -281,7 +281,7 @@ WORDS.hundred = {
     vep: ["sada", "ˈsada"],
     vot: ["sata", "ˈsata"],
     fkv: ["sata", "ˈsata"],
-    fit: ["sata", "ˈsata"],
+    fit: ["sata", "ˈsɑtɑ"],
     myv: ["сядо", "ˈsʲado"],
     mdf: ["сяда", "ˈsʲada"],
     udm: ["сю", "sʲu"],
@@ -447,7 +447,7 @@ WORDS.hundred = {
     ar_ps: ["مية", "ˈmijje"],
     ar_ye: ["مية", "ˈmija"],
     ar_sa: ["مية", "ˈmijja"],
-    ar_gulf: ["مية", "ˈmijja"],
+    ar_gulf: ["امية", "imja"],
     abv: ["مية", "ˈmijja"],
     afb: ["مية", "ˈmijja"],
     acw: ["مية", "ˈmijja"],
@@ -599,7 +599,7 @@ WORDS.hundred = {
     rap: ["rau", "ɾau"],   // native rau, beside the English loan hanere
     ty: ["hānere", "haːneɾe"],   // from English hundred; the older native rau survives beside it
     pmt: ["hānere", "haːnere"],   // from English hundred
-    rar: ["ʻānere", "ʔaːnere"],   // from English hundred
+    rar: ["ʻānere", "ʔaːneɾe"],   // from English hundred
     ch: ["sientu", "sjentu"],   // Spanish loan, like this row's own dos and tres
     cab: ["san", "saŋ"],   // from French cent, like Haitian san
     // --- Africa — Bantu, Nilotic, Cushitic, Mande, Kwa ---------------------
@@ -757,7 +757,7 @@ WORDS.hundred = {
     agx: ["верш", "werʃ"],
     ddo: ["бишон", "biʃon"],
     ani: ["бешонугу", "beʃonuɡu"],
-    bxr: ["зуун", "zuːn"],
+    bxr: ["зуун", "zuːŋ"],
     xal: ["зун", "zun"],
     kim: ["чүс", "tʃys"],
     ude: ["таӈгу", "taŋɡu"],   // the Tungusic *taŋgū that Manchu writes ᡨᠠᠩᡤᡡ
@@ -851,7 +851,7 @@ WORDS.hundred = {
     syl: ["একশ", "ekʃɔ"],
     ctg: ["একশ", "ekʃɔ"],
     bhb: ["सो", "soː"],
-    rkt: ["একশ", "ekso"],
+    rkt: ["একশো", "ekso"],
     ff: ["teemedere", "teːmedeɾe"],
     ko_yb: ["백", "pɛk̚"],
     ko_hg: ["백", "pɛk̚"],
@@ -872,7 +872,7 @@ WORDS.hundred = {
     shi: ["ⵎⵢⴰ", "mja"],
     rif: ["ⵎⵢⴰ", "mja"],
     tzm: ["ⵎⵢⴰ", "mja"],
-    tiv: ["deri", "dɛɾi"],
+    tiv: ["deri", "deri"],
     kg: ["nkama", "nkama"],
     kr: ["miya", "mija"],
     sg: ["ngbangbo oko", "ŋɡbaŋɡbɔ oko"],
@@ -1176,6 +1176,7 @@ WORDS.hundred = {
     xpr: ["sad", "sad"],
     tyz: ["pác", "paːk̚˧˥"],
     chb: ["guehyzca", "ɡwehɨzka"],
-    xsr: ["ཟ་ཡི", "saji"]
+    xsr: ["ཟ་ཡི", "saji"],
+    haj: ["so", "sɔ"]
   },
 };

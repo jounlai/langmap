@@ -312,7 +312,7 @@ WORDS.mouth = {
     bin: ["unu", "unu"],
     bm: ["da", "da"],
     bug: ["timu", "timu"],
-    bxr: ["аман", "aman"],
+    bxr: ["аман", "amaŋ"],
     bzj: ["mowt", "mout"],
     ca_va: ["boca", "ˈboka"],
     cak: ["chiʼ", "tʃiʔ"],
@@ -1223,6 +1223,8 @@ WORDS.mouth = {
     anu: ["dhøk", "d̪øk"],
     soa: ["ปาก", "paːk˧˥"],
     mxv: ["yuʼu", "juʔu"],
-    wmt: ["lirra", "lira"]
+    wmt: ["lirra", "lira"],
+    dyo: ["butum", "butum"],
+    haj: ["muk", "muk"]
   }
 };

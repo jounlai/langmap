@@ -147,7 +147,7 @@ WORDS.sushi = {
     "en_ph": ["sushi", "ˈsuʃi"],
     "en_sco": ["sushi", "ˈsʉʃi"],
     "en_sg": ["sushi", "ˈsuʃi"],
-    "en_south": ["sushi", "ˈsuʃi"],
+    "en_south": ["sushi", "ˈsuːʃi"],
     "en_us": ["sushi", "ˈsuʃi"],
     "en_wls": ["sushi", "ˈsuːʃi"],
     "en_yk": ["sushi", "ˈsuːʃɪ"],

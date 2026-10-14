@@ -47,6 +47,7 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    cmg: "other",
     orh: "other",
     pau: "ie",
     kpe: "other",
@@ -675,7 +676,6 @@ WORDS.wine = {
     // Lakota
     lkt: "other",
     // Sinitic — 葡萄酒 'grape liquor' in every lect
-    gan_yc: "other",
     gan_ja: "other",
     cjy_lv: "other",
     cjy_xz: "other",
@@ -961,6 +961,7 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    cmg: ["ᠳᠠᠷᠠᠰᠤ", "darasu"],
     orh: ["arakɪ", "arakɪ"],
     pau: ["bilong", "biloŋ"],
     kpe: ["ŋwã̂ai", "ŋwã̂ːi"],
@@ -1640,7 +1641,7 @@ WORDS.wine = {
     lif: ["ᤆᤧᤸᤗᤧᤰᤛᤣ᤹ ᤌᤡ᤺", "tʃɛllɛkseʔ tʰiː"],
     lus: ["uain", "uain"],
     kha: ["wain", "wain"],
-    cnh: ["misur hang", "misur haŋ"],
+    cnh: ["mitsur hang", "mitsur haŋ"], // was ["misur hang", "misur haŋ"] (vi dialect rules 2026-10-06)
     mnw: ["ဍာ်ဇဗျေတ်", "ɗaʔ cəpjat"],
     bru: ["blŏ́ng nho", "blɔŋ ɲɔ"],
 
@@ -1651,7 +1652,7 @@ WORDS.wine = {
     lkt: ["mníša", "mníʃa"],
 
     // --- Sinitic — 葡萄酒 'grape liquor' in every lect ---
-    gan_yc: ["葡萄酒", "pʰu˥ tʰau˥ tɕiu˨˩˧"],
+    gan_yc: ["—", "—"],
     gan_ja: ["葡萄酒", "pʰu˦˥ tʰau˦˥ tɕiu˨˩˧"],
     cjy_lv: ["葡萄酒", "pʰu˦˦ tʰou˦˦ tɕiʌu˧˩˨"],
     cjy_xz: ["葡萄酒", "pʰu˩˩ tʰɔ˩˩ tɕiəu˥˧"],
@@ -1764,7 +1765,7 @@ WORDS.wine = {
     kbd: ["санэ", "sana"],
     uby: ["baqʼəsma", "baqʼəsma"],
     kum: ["чагъыр", "tʃaʁɯr"], // was ["чагъыр", "tʃaʁɨr"] (vi dialect rules 2026-10-06)
-    nog: ["шагыр", "ʃaɡɨr"],
+    nog: ["шагыр", "ʃaɡɯr"], // was ["шагыр", "ʃaɡɨr"] (vi dialect rules 2026-10-06)
     krc: ["чагъыр", "tʃaʁɯr"],
     cv: ["эрех", "eˈrex"],
     sah: ["вино", "vino"],
@@ -1772,7 +1773,7 @@ WORDS.wine = {
     dlg: ["арагы", "araɡɯ"], // was ["арагы", "araɣɯ"] (vi dialect rules 2026-10-06)
     mn_cn: ["ᠳᠠᠷᠠᠰᠤ", "darasu"],
     xal: ["чаһр", "tʃaɣr̩"],
-    bxr: ["дарһан", "darhan"],
+    bxr: ["дарһан", "darhaŋ"], // was ["дарһан", "darhan"] (vi dialect rules 2026-10-06)
     sce: ["putoujiu", "pʰutʰəwˈtɕju"], // was ["darasun", "darasuŋ"] (r29 fix 2026-10-02) // was ["putoujiu", "putəudʑiəu"] (vi dialect rules 2026-10-06)
     kpv: ["вина", "vina"],
     koi: ["вина", "vina"],

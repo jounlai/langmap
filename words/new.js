@@ -121,7 +121,7 @@ WORDS.new = {
     pmt: ["hoou", "hoou"],
     khw: ["نوغ", "noɣ"],
     ayl: ["جديد", "ʒdiːd"],
-    abv: ["جديد", "ʒidiːd"],
+    abv: ["جديد", "dʒidiːd"],
     afb: ["جديد", "dʒidiːd"],
     acw: ["جديد", "dʒadiːd"],
     slr: ["yañı", "jɑŋɯ"],
@@ -138,7 +138,7 @@ WORDS.new = {
     en_wls: ["new", "nɪʊ"],
     en_jam: ["new", "njuː"],
     en_ng: ["new", "njuː"],
-    en_ph: ["new", "njuː"],
+    en_ph: ["new", "nju"],
     en_ke: ["new", "njuː"],
     fr_sn: ["nouveau", "nuvo"],
     fr_ci: ["nouveau", "nuvo"],
@@ -468,7 +468,7 @@ WORDS.new = {
     mrw: ["bego", "bəɡo"],
     tsg: ["baꞌgu", "baʔɡu"],
     hr: ["nov", "nôʋ"],
-    bs: ["nov", "nôv"],
+    bs: ["nov", "nôʋ"],
     iba: ["baru", "baru"],
     xal: ["шин", "ʃin"],
     ave: ["𐬥𐬀𐬎𐬎𐬀", "nava"],
@@ -1172,6 +1172,8 @@ WORDS.new = {
     nus: ["pay", "paj"],
     spp: ["nivɔnŋɔ", "nivɔnŋɔ"],
     bbo: ["ŋwun", "ŋwun"],
-    dje: ["taji", "tadʒi"]
+    dje: ["taji", "tadʒi"],
+    ets: ["gbomi", "ɡbomi"],
+    dyo: ["wunkul", "wunkul"]
   }
 };

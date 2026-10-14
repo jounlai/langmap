@@ -340,7 +340,7 @@ WORDS.computer = {
     "rw": ["mudasobwa", "mudasobwa"],
     "sa": ["गणक", "ɡɐɳɐkɐ"],
     "sa_edu": ["संगणकः", "sɐŋɡɐɳɐkɐh"],
-    "sah": ["көмпүүтэр", "kømpyːˈter"],
+    "sah": ["көмпүүтэр", "kømˈpyːter"],
     "sas": ["komputer", "komˈputər"],
     "sc": ["computer", "komˈpjuter"],
     "scn": ["computer", "komˈpjuter"],

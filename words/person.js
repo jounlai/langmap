@@ -899,7 +899,7 @@ WORDS.person = {
     pt_cv: ["pessoa", "pɨˈsoɐ"],
     pt_mo: ["pessoa", "pɨˈsoɐ"],
     en_brum: ["person", "ˈpɜːsən"],
-    en_ph: ["person", "ˈpɛrsɔn"],
+    en_ph: ["person", "ˈpɛɹsɔn"],
     hsn_hy: ["人", "ɕin˩˩˨"],
     sms: ["ooumaž", "oːumaʒ"],
     ter: ["xâne", "ˈʃaːne"],

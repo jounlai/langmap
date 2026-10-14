@@ -1169,7 +1169,7 @@ WORDS.blue = {
     lmo: ["blö", "blø"],
     am: ["ሰማያዊ", "sɐmajawi"],
     ar_tn: ["أزرق", "ˈazɾaq"],
-    ar_ma: ["زرق", "zɾəq"],
+    ar_ma: ["زرق", "zrəq"], // was ["زرق", "zɾəq"] (vi dialect rules 2026-10-06)
     ar_sy: ["أزرق", "ˈʔazraʔ"],
     ar_lb: ["أزرق", "ˈʔazraʔ"],
     ar_eg: ["أزرق", "ˈʔazɾaʔ"],

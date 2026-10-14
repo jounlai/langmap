@@ -175,6 +175,7 @@ WORDS.lol = {
     fy: ["hahaha", ""],
     ht: ["hahaha", ""],
     kn: ["ಹಹಹ", ""],
-    es_mx: ["jajaja", "ˈxaxaxa"]
+    es_mx: ["jajaja", "ˈxaxaxa"],
+    fi: ["lol", "lol"]
   },
 };

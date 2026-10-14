@@ -1294,7 +1294,7 @@ WORDS.tea = {
     sl: ["čaj", "tʃaːj"],
     so: ["shaah", "ʃaːh"],
     sq: ["çaj", "tʃaj"],
-    sr: ["чај", "tʃâːj"],
+    sr: ["чај", "tʃâj"], // was ["чај", "tʃâːj"] (vi dialect rules 2026-10-06)
     sw: ["chai", "ˈtʃai"], // was ["chai", "tʃai"] (vi dialect rules 2026-10-06)
     tg: ["чой", "tʃoj"], // was ["чой", "tʃɔj"] (vi dialect rules 2026-10-06)
     th: ["ชา", "tɕʰaː˧"],
@@ -1302,14 +1302,14 @@ WORDS.tea = {
     tk: ["çaý", "tʃaːj"],
     tl: ["tsaa", "tʃaˈʔa"], // was ["tsaa", "tsaˈʔa"] (vi dialect rules 2026-10-06)
     tr: ["çay", "tʃaj"],
-    tt: ["чәй", "tʃæj"],
+    tt: ["чәй", "tɕæj"], // was ["чәй", "tʃæj"] (vi dialect rules 2026-10-06)
     tyv: ["шай", "ʃaj"],
     ug: ["چاي", "tʃɑj"], // was ["چاي", "tʃaj"] (vi dialect rules 2026-10-06)
     uk: ["чай", "tʃai̯"], // was ["чай", "tʃɑj"] (vi dialect rules 2026-10-06)
     ur: ["چائے", "tʃaːeː"],
     uz: ["choy", "tʃɒj"],
     vi: ["trà", "tɕaː˨˩"],
-    wo: ["àttaaya", "attaːja"],
+    wo: ["àttaaya", "atːaːja"], // was ["àttaaya", "attaːja"] (vi dialect rules 2026-10-06)
     wuu: ["茶", "zo˨˧"],
     wuu_sz: ["茶", "zu˨˨˧"],
     wuu_wz: ["茶", "dzo˧˩"],
@@ -1330,7 +1330,7 @@ WORDS.tea = {
     an: ["te", "te"],
     ast: ["té", "te"],
     br: ["te", "teː"],
-    ca: ["te", "tɛ"],
+    ca: ["te", "te"], // was ["te", "tɛ"] (vi dialect rules 2026-10-06)
     cdo: ["茶", "ta˥˧"],
     co: ["tè", "tɛ"],
     cpx: ["茶", "tɒ˩˧"],
@@ -1389,7 +1389,7 @@ WORDS.tea = {
     nap: ["tè", "tɛ"],
     nds: ["Tee", "teː"],
     nl: ["thee", "teː"],
-    no: ["te", "tʰeː"],
+    no: ["te", "teː"], // was ["te", "tʰeː"] (vi dialect rules 2026-10-06)
     ny: ["tiyi", "ˈtiji"],
     oc: ["tè", "tɛ"],
     pap: ["té", "te"],
@@ -1402,7 +1402,7 @@ WORDS.tea = {
     sm: ["tī", "tiː"],
     sn: ["tii", "tiː"],
     st: ["tee", "teː"],
-    sv: ["te", "tʰeː"],
+    sv: ["te", "teː"], // was ["te", "tʰeː"] (vi dialect rules 2026-10-06)
     ta: ["தேநீர்", "t̪eːniːɾ"],
     te: ["టీ", "ʈiː"],
     to: ["tī", "tiː"],

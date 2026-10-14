@@ -65,7 +65,7 @@ WORDS.butterfly = {
     sn: ["shaveshave", "ʃaveʃave"],  // reduplication of shave; variant shavishavi; the dictionary also lists bembenene, bemha, betepesu, fufura, nharira as synonyms
     st: ["serurubele", "seruruˈbele"],  // class 7, pl. dirurubele; same word as Tswana and Northern Sotho serurubele
     tn: ["serurubele", "seruruˈbele"],  // class 7, pl. dirurubele; also covers moths
-    ts: ["phapharhati", "pʰapʰaˈrati"],  // class 5; built on a reduplicated phapha- (cf. Ronga phaphalati 'papillon', Junod 1896, Grammaire ronga); the same dictionary gives xivuva 7 as 'any butterfly, (gen.) moth'
+    ts: ["phapharhati", "pʰapʰarʱati"],  // class 5; built on a reduplicated phapha- (cf. Ronga phaphalati 'papillon', Junod 1896, Grammaire ronga); the same dictionary gives xivuva 7 as 'any butterfly, (gen.) moth'
     ug: ["كېپىنەك", "kepinɛk"],  // Schwarz glosses it as Lepidoptera, i.e. it covers moths too; same Turkic root as Kazakh kepelek, Uzbek kapalak, Turkish kelebek
     wo: ["lëpp-lëpp", "ləpləp"],  // a reduplication; the older Holy Ghost Fathers dictionary glosses 'Phalene' (moth) as lepalepa u gudi, literally 'butterfly of the night'
     bem: ["icipelebesha", "itʃipelebeːʃa"],  // class 7 ici-; the dictionary glosses it 'butterfly (gen.)', i.e. the generic term
@@ -106,7 +106,7 @@ WORDS.butterfly = {
     kg: ["lumbembambemba", "lumbembambemba"],  // reduplicated stem -bemba-bemba with class 10 lu- prefix
     ki: ["kĩĩhuruta", "keːhuruːta"],  // class 7 noun (pl. ciĩhuruta); covers moths as well as butterflies
     kwk: ["ha̱mumu", "həmumu"],  // reduplicative in shape (ha̱-mu-mu)
-    lo: ["ແມງກະເບື້ອ", "mɛːŋ˧˥ ka˧˥ bɨa˥˨"],  // compound of ແມງ 'insect' + ກະເບື້ອ, which on its own means 'moth'; the whole word covers butterflies and moths
+    lo: ["ແມງກະເບື້ອ", "mɛːŋ˧˥ ka˧˥ bɯːə̯˥˨"],  // compound of ແມງ 'insect' + ກະເບື້ອ, which on its own means 'moth'; the whole word covers butterflies and moths
     luo: ["oguyo", "oɡujo"],  // Odaga gives oguyo for 'moth' and defines 'larva' as an insect that grows and turns into an oguyo; no separate butterfly word is listed
     mas: ["ɔsampurimpuri", "ɔsampurimpuri"],  // reduplicated (sampúri-mpúri); the northern/Samburu form sampíripíri is likewise reduplicated
     mr: ["फुलपाखरू", "pʰulpaːkʰɾuː"],  // a compound of फूल 'flower' + पाखरू 'bird' (पाखरू < Sanskrit पक्षिरूप, Turner CDIAL 7637) - literally 'flower-bird'
@@ -116,7 +116,7 @@ WORDS.butterfly = {
     or: ["ପ୍ରଜାପତି", "pɾɔdʒaːpɔti"],  // the Sanskrit divine name prajāpati 'lord of creatures' used for the insect; Bengali প্রজাপতি is the same
     pa: ["ਤਿਤਲੀ", "tɪtliː"],  // same word as Hindi-Urdu titlī, from Prakrit tittiri- (Turner CDIAL p. 331)
     pjt: ["pinta-pinta", "pintapinta"],  // reduplicated; the dictionary glosses it 'butterfly, moth', so it covers moths too
-    qu: ["pillpintu", "piʎpintu"],  // covers Lepidoptera generally, i.e. moths as well
+    qu: ["pillpintu", "piʎˈpintu"],  // covers Lepidoptera generally, i.e. moths as well
     sat: ["ᱯᱤᱯᱤᱲᱤᱭᱟᱹᱝ", "pipiɽijɔŋ"],  // Ol Chiki spelling varies across sources (ᱯᱤᱯᱲᱤᱚᱝ is also attested); Campbell's 1899 example 'the moth was burnt' shows the word covers moths too
     sr: ["лептир", "lêptiːr"],  // a 19th-century learned coinage from Ancient Greek λεπίς 'scale' + πτερόν 'wing'; covers moths too, which are disambiguated as ноћни лептир 'night butterfly'
     su: ["kukupu", "kukupu"],  // reduplication of kupu, here the reduced type CV-CVCV; Coolsma's gloss shows it covers moths as well ('nachtvlinder, mot')
@@ -749,7 +749,7 @@ WORDS.butterfly = {
     mhy: ["laluŋ", "laluŋ"],
     ale: ["аг̆лак̆иидах̆", "aɣlaqiːðaχ"],
     th_n: ["ก่ำเบ้อ", "kam˨˩bɤː˥˩"],
-    zh_tj: ["蝴蝶", "fu˦˥ tjɛ˦˥"],
+    zh_tj: ["蝴蝶", "fu˦˥ tie˦˥"],
     zh_cq: ["蝴蝶", "fu˨˩ tie˨˩"],
     kim: ["үзүдэк", "yzydek"],
     jio: ["kaŋkɔŋ", "kaŋ˥kɔŋ˥"],
@@ -812,7 +812,7 @@ WORDS.butterfly = {
     en_ke: ["butterfly", "ˈbʌtəflaɪ"],
     en_scouse: ["butterfly", "ˈbʊt̪səflaɪ"],
     en_geordie: ["butterfly", "ˈbʊtəflaɪ"],
-    en_est: ["butterfly", "ˈbʌʔəflɑɪ"],
+    en_est: ["butterfly", "ˈbʌtəflɑɪ"],
     iso: ["ẹvbovbo", "ɛʋoʋo"],
     ngl: ["nikurunthu", "nikuɾuntʰu"],
     ssf: ["kurari", "kuɾaɾi"],

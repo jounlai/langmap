@@ -217,7 +217,7 @@ WORDS.atsign = {
     es_uy: ["arroba", "aˈroβa"],
     es_ve: ["arroba", "aˈroβa"],
     es_sgl: ["arroba", "aˈroβa"],
-    pt: ["arroba", "ɐˈʁɔβɐ"],
+    pt: ["arroba", "ɐˈʁobɐ"],
     pt_br: ["arroba", "aˈʁobɐ"],
     ca: ["arrova", "əˈrɔβə"],
     eu: ["a bildua", "a βilˈdua"],
@@ -234,11 +234,11 @@ WORDS.atsign = {
     uk: ["равлик", "ˈrau̯ɫek"],
     pl: ["małpa", "ˈmawpa"],
     cs: ["zavináč", "ˈzavɪnaːtʃ"],
-    sk: ["zavináč", "ˈzavɪnaːtʃ"],
+    sk: ["zavináč", "ˈzavinaːtʃ"],
     hu: ["kukac", "ˈkukɒts"],
     el: ["παπάκι", "paˈpaci"],
     bg: ["маймунка", "mɐjˈmunkɐ"],
-    sr: ["мајмунче", "ˈmajmuntʃe"],
+    sr: ["мајмунче", "mǎjmuntʃe"],
     hr: ["manki", "ˈmaŋki"],
     ro: ["coadă de maimuță", "ˈko̯adə de majˈmutsə"],
     // === Caucasus & Central Asia ===
@@ -263,7 +263,7 @@ WORDS.atsign = {
     // === More Eastern & Southeastern Europe ===
     sl: ["afna", "ˈaːfna"],
     mk: ["мајмунче", "ˈmajmuntʃɛ"],
-    be: ["слімак", "ˈslʲimak"],
+    be: ["слімак", "sʲlʲiˈmak"],
     // === More Caucasus & Central Asia ===
     az: ["ət", "æt"],
     uz: ["kuchukcha", "kutʃukˈtʃa"],
@@ -402,6 +402,7 @@ WORDS.atsign = {
     ky: ["маймылча", "mɑjmɯlˈtʃɑ"],
     xal: ["эт", "et"],
     fra_jer: ["à", "a"],
-    csb: ["smôrzcz", ""]
+    csb: ["smôrzcz", ""],
+    scn: ["a cummirciali", ""]
   },
 };

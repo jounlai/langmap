@@ -960,7 +960,7 @@ WORDS.sugar = {
     czh: ["糖", "tʰau˦˦"],
     pt_gw: ["asukar", "asukar"],
     ngu: ["azúcar", "aˈsukar"],
-    ts: ["chukela", "tʃukela"],
+    ts: ["chukela", "tʃʰukela"], // was ["chukela", "tʃukela"] (vi dialect rules 2026-10-06)
     pau: ["sukal", "sukal"],
     zne: ["sukari", "sukaɾi"],
     tiv: ["shogar", "ʃoɡar"],
@@ -1150,13 +1150,13 @@ WORDS.sugar = {
     cpx: ["糖", "tʰɒŋ˩˧"],
     nan_hai: ["糖", "ho˧˩"],
     nan_pn: ["糖", "tʰŋ̍˨˧"],
-    nan_te: ["糖", "tʰəŋ˥˥"],
+    nan_te: ["糖", "tʰɯŋ˥˥"], // was ["糖", "tʰəŋ˥˥"] (vi dialect rules 2026-10-06)
     cdo: ["糖", "tʰouŋ˥˧"],
     mnp: ["糖", "tʰɔŋ˧˧"],
     hak_hl: ["糖", "tʰoŋ˥˥"],
     gan: ["糖", "tʰɔŋ˨˦"],
     cjy: ["糖", "tʰɒ̃˩"],
-    zh_xa: ["糖", "tʰɑɣ̃˨˦"],
+    zh_xa: ["糖", "tʰaŋ˨˦"], // was ["糖", "tʰɑɣ̃˨˦"] (vi dialect rules 2026-10-06)
     zh_kf: ["糖", "tʰaŋ˦˨"],
     zh_wh: ["糖", "tʰaŋ˨˩˧"],
     zh_cq: ["糖", "tʰaŋ˨˩"], // was ["糖", "tʰɑŋ˨˩"] (vi dialect rules 2026-10-06)
@@ -1364,7 +1364,7 @@ WORDS.sugar = {
     ami: ["waneng", "waneŋ"],
     st: ["tswekere", "tswekere"],
     tll: ["sukadi", "sukadi"],
-    mad: ["ghulâ", "ɡʱulɐ"],
+    mad: ["ghulâ", "ɡʱulɤ"], // was ["ghulâ", "ɡʱulɐ"] (vi dialect rules 2026-10-06)
     sas: ["gule", "ɡulə"],
     min: ["gulo", "ɡulo"],
     bjn: ["gula", "ɡula"],
@@ -1477,7 +1477,7 @@ WORDS.sugar = {
     cv: ["сахӑр", "ˈsaxər"],
     my: ["သကြား", "ðədʑá"], // was ["သကြား", "θədʑá"] (vi dialect rules 2026-10-06)
     km: ["ស្ករ", "skɑː"],
-    lo: ["ນ້ຳຕານ", "naːm˥˨ taːn˩˧"],
+    lo: ["ນ້ຳຕານ", "nam˥˨ taːn˩˧"], // was ["ນ້ຳຕານ", "naːm˥˨ taːn˩˧"] (vi dialect rules 2026-10-06)
     yo: ["ṣúgà", "ʃúɡà"],
     zu: ["ushukela", "uʃuˈkeːla"], // was ["ushukela", "uʃuˈkɛːla"] (vi dialect rules 2026-10-06)
     am: ["ስኳር", "sɨkʷar"],
@@ -1556,7 +1556,7 @@ WORDS.sugar = {
     cs: ["cukr", "ˈtsukr̩"], // was ["cukr", "tsukr̩"] (vi dialect rules 2026-10-06)
     sk: ["cukor", "ˈtsukor"],
     sl: ["sladkor", "ˈslaːtkɔr"],
-    sr: ["шећер", "ˈʃɛtɕeːr"],
+    sr: ["шећер", "ʃětɕer"], // was ["шећер", "ˈʃɛtɕeːr"] (vi dialect rules 2026-10-06)
     bg: ["захар", "ˈzaxɐr"],
     lt: ["cukrus", "ˈtsʊkrʊs"],
     lv: ["cukurs", "ˈtsukurs"],

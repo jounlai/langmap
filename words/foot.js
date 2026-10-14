@@ -2048,7 +2048,7 @@ WORDS.foot = {
     pwo: ["ခၪ့", "kʰàɴ"],  // Kato's Western Pwo texts gloss khàɴ 'leg' and Jones 1961 #44 gives Bassein khàn 'foot'; the spelling is the Western Pwo ခၪ့ of Proto-Karen *khaŋᴮ.
     pyu: ["kuy", "kui"],  // kuy is washed at John 13:5 and broken at John 19:31-33, with ukak 'bone' at John 19:36 as the control; the ACD's dapal 'foot' and paʔa 'thigh' stand outside the Bible's usage and ABVD's Katipul list answers leg/foot with kuy.
     pzh: ["karaw", "kaɾaw"],  // Li & Tsuchida, Pazih Dictionary 142, one entry: 'karaw 腳 foot；腿 leg', and their English index answers both 'foot' and 'leg' with it alone. dapal is the sole of the foot, not a rival.
-    qu: ["chaki", "tʃaki"],  // chaki covers foot and leg. IPA is the plain reading of the Quechua orthography, as in this row's hand cell maki.
+    qu: ["chaki", "ˈtʃaki"],  // chaki covers foot and leg. IPA is the plain reading of the Quechua orthography, as in this row's hand cell maki. // was ["chaki", "tʃaki"] (vi dialect rules 2026-10-06)
     quc: ["aqan", "aqan"],  // Kaufman's PMED glosses KCH aqan 'pie, pierna' in one entry, and the K'iche' NT breaks the same rakan at John 19:32 that it washes at 13:5; aaʼ is the thigh.
     quy: ["chaki", "tʃaki"],  // As the Cusco row: chaki covers foot and leg, and this row marks stress on only 15 of 52, so the IPA is bare.
     quz: ["chaki", "tʃaki"],  // Southern Quechua chaki runs the whole lower limb, as the qu and qwc rows on this map already have it; chaka is the hip.
@@ -2129,7 +2129,7 @@ WORDS.foot = {
     sog: ["pʾδ", "paːð"],  // Asha, Compendious Sogdian Dictionary glosses <pʾδ> /pā́δ/ 'foot, leg' outright; the oblique <pδ-> is the same lexeme.
     spp: ["tɔɔgɔ", "tɔːɡɔ"],  // one word for the limb: the Supyire New Testament washes feet and breaks legs with the same tooyi.
     sq: ["këmbë", "kəmbə"],  // Albanian këmbë is one word for the whole lower limb.
-    sr: ["нога", "ˈnoɡa"],  // As Croatian: нога covers the lower limb, стопало is the anatomical foot.
+    sr: ["нога", "nǒɡa"],  // As Croatian: нога covers the lower limb, стопало is the anatomical foot. // was ["нога", "ˈnoɡa"] (vi dialect rules 2026-10-06)
     srb: ["jʼeng", "dʒʔeŋ"],  // Ramamurti glosses ʤeːŋ-ən 'leg, foot' in one entry and builds toe, sole, heel, ankle and knee on it; ayang is the bone. Length is dropped as this row already dropped it from his si:-n. // was ["jeng", "dʒeŋ"] (vi dialect rules 2026-10-06)
     srh: ["pedh", "peð"],  // Shaw's Ghalchah vocabulary glosses the one word 'leg, foot' and answers the leg slots beside it with Persian lang and paichah, as Wakhi пуд does. The vowel is the row's plain e: Shaw writes ⟨ii⟩ for /ɵ/ in dhiist and riisht and ⟨e⟩ here.
     srm: ["fútu", "fútu"],  // The English-derived foot covers the whole limb — the mirror image of Tok Pisin's lek.
@@ -2347,7 +2347,7 @@ WORDS.foot = {
     zh_sc: ["脚", "tɕyo˨˩"],  // Southwestern Mandarin sent the whole 入聲 to 陽平, so 脚 lands on the row's own ˨˩ (白 pe˨˩, 一 i˨˩), and the 見組 rime is tɕyo where the row's 雀 tɕʰio shows 精組 keeping -io.
     zh_song: ["足", "tsiu"],  // The literary register, as the row's own 汝 我等 犬 善 目 食 show — Classical Chinese read in early-Mandarin phonology, not Song vernacular. 腿 is only first attested 魏晉南北朝 as a shin word. // was ["足", "tsu˧˥"] (zh_song rebuild 2026-10-04)
     zh_tang: ["足", "tsuawk"],  // Not 腳: 腳 is live in Tang colloquial (Du Fu 北征「垢膩腳不襪」) but this row is the Qieyun literary register throughout. Zhengzhang MC, bare stop coda per the row's 屋 ʔuk. // was ["足", "tsɨok"] (zh_tang rebuild 2026-10-04)
-    zh_tj: ["脚", "tɕjau˩˧"],  // Tianjin inherits Beijing's colloquial 上聲 reading but not Beijing's pitch — the row's own 鸟 niau˩˧ and 觉 tɕjau˥˧ give both halves of this cell.
+    zh_tj: ["脚", "tɕiɑu˨˩"],  // Tianjin inherits Beijing's colloquial 上聲 reading but not Beijing's pitch — the row's own 鸟 niau˩˧ and 觉 tɕjau˥˧ give both halves of this cell. // was ["脚", "tɕjau˩˧"] (vi dialect rules 2026-10-06)
     zh_tw: ["腳", "tɕi̯ɑʊ̯˨˩˦"],  // Same word as the mainland row, written traditionally per this row's convention.
     zh_wenyan_edu: ["足", "tsʊk˥"],  // Literary Chinese with a Cantonese reading, so the lexeme is the Classical 足 opposed to 脛/股 — spoken Cantonese 腳 is the separate yue row.
     zh_wh: ["脚", "tɕio˨˩˧"],  // Wuhan's 藥韻 rime is io (约若虐学削 in the 武汉话 rime table) and its 入聲 is 陽平 ˨˩˧, both of which the row already writes in 熊 ɕioŋ˨˩˧ and 白 pɤ˨˩˧.

@@ -63,6 +63,7 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    ee: "unknown",
     ny: "unknown",
     cro: "inherited",
     lhu: "inherited",
@@ -958,6 +959,7 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    ee: ["sisiblisi", "sisiblisi"],
     ny: ["chimbalangondo", "tʃimbalaŋɡondo"],
     cro: ["daxpitchée", "daχpittʃéː"],
     lhu: ["yɛ̀-mí-tɔ̄", "jɛ̀mítɔ̏"],
@@ -1319,14 +1321,14 @@ WORDS.bear = {
     nds: ["Boor", "boːr"],
     yi: ["בער", "bɛr"],
     is: ["björn", "pjœrtn̥"],
-    da: ["bjørn", "bjœɐ̯n"],
+    da: ["bjørn", "bjœɐ̯ˀn"], // was ["bjørn", "bjœɐ̯n"] (vi dialect rules 2026-10-06)
     no: ["bjørn", "bjœːɳ"],
     nn: ["bjørn", "bjœːɳ"],
     sv: ["björn", "bjœːɳ"],
     // Slavic: "the honey-eater".
     cu: ["медвѣдь", "medvædĭ"], // was ["медвѣдь", "medvædʲ"] (vi dialect rules 2026-10-06)
     orv: ["медвѣдь", "medvʲedĭ"], // was ["медвѣдь", "medvʲedʲ"] (vi dialect rules 2026-10-06)
-    be: ["мядзведзь", "mʲadzʲˈvʲedzʲ"],
+    be: ["мядзведзь", "mʲadzʲˈvʲetsʲ"], // was ["мядзведзь", "mʲadzʲˈvʲedzʲ"] (vi dialect rules 2026-10-06)
     pl: ["niedźwiedź", "ˈɲɛdʑvʲɛtɕ"],
     hsb: ["mjedwjedź", "ˈmjɛdɥɛtʃ"], // was ["mjedwjedź", "ˈmjɛdwjɛtɕ"] (vi dialect rules 2026-10-06)
     cs: ["medvěd", "ˈmɛdvjɛt"],
@@ -1334,7 +1336,7 @@ WORDS.bear = {
     sl: ["medved", "ˈmɛːdʋɛt"], // was ["medved", "mɛdˈʋeːt"] (vi dialect rules 2026-10-06)
     hr: ["medvjed", "ˈmɛdʋjɛd"],
     bs: ["medvjed", "ˈmɛdʋjɛd"],
-    sr: ["медвед", "ˈmɛdʋɛd"],
+    sr: ["медвед", "mědʋed"], // was ["медвед", "ˈmɛdʋɛd"] (vi dialect rules 2026-10-06)
     bg: ["мечка", "ˈmɛtʃkɐ"], // was ["мечка", "ˈmɛtʃka"] (vi dialect rules 2026-10-06)
     mk: ["мечка", "ˈmɛtʃka"],
     // Baltic: "the shaggy one".
@@ -1472,7 +1474,7 @@ WORDS.bear = {
     kjh: ["аба", "aba"],
 
     // --- Mongolic and Tungusic ----------------------------------------
-    mn: ["баавгай", "baːwɡaj"],
+    mn: ["баавгай", "baːwɡɛː"], // was ["баавгай", "baːwɡaj"] (vi dialect rules 2026-10-06)
     bxr: ["баабгай", "baːbɡaj"],
     xal: ["аю", "aju"],
     mnc: ["ᠯᡝᡶᡠ", "ləfu"],
@@ -1531,7 +1533,7 @@ WORDS.bear = {
     ko_mid: [":곰", "kom"],
     ko_em: ["곰", "kom"],
     ko_kp: ["곰", "kom"],
-    bo: ["དོམ", "tom˩˧"],
+    bo: ["དོམ", "tʰom˩˧"], // was ["དོམ", "tom˩˧"] (vi dialect rules 2026-10-06)
     xct: ["དོམ", "dom"],
     xct_litpr: ["དོམ", "tʰom"], // was ["དོམ", "dom"] (vi dialect rules 2026-10-06)
     dz: ["དོམ", "doːm"], // was ["དོམ", "dom"] (vi dialect rules 2026-10-06)
@@ -1563,7 +1565,7 @@ WORDS.bear = {
     lkt: ["matȟó", "matʰó"],
     osa: ["wasápe", "wasápe"],
     qwc: ["ukumari", "ukumaɾi"],
-    qu: ["ukumari", "ukumaɾi"],
+    qu: ["ukumari", "ukuˈmaɾi"], // was ["ukumari", "ukumaɾi"] (vi dialect rules 2026-10-06)
     ay: ["jukumari", "xukumaɾi"],
 
     // --- Africa: established loans only ----------------------------------
@@ -1650,7 +1652,7 @@ WORDS.bear = {
     ar_sd: ["دب", "dubb"],
     ayl: ["دب", "dubb"],
     ar_ma: ["دب", "dobb"],
-    ar_tn: ["دب", "dobb"],
+    ar_tn: ["دب", "dəbb"], // was ["دب", "dobb"] (vi dialect rules 2026-10-06)
     arq: ["دب", "dobb"],
     vi_nom: ["𤠰", "ɣəw˧˥"],
     // --- harvested 2026-08-31 from the bear agent's Sinitic pass before it

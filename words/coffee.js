@@ -116,6 +116,7 @@ WORDS.coffee = {
     sw: "Kahawa — kinywaji kinachotengenezwa kwa nafaka za kahawa zilizochomwa. Neno la kila siku kwa kinywaji: si mmea, si punje mbichi, si mkahawa, wala si rangi.",
   },
   family: {
+    zh_nj: "qahwa",
     zh_jh: "qahwa",
     tsu: "qahwa",
     dnj: "qahwa",
@@ -761,6 +762,7 @@ WORDS.coffee = {
     other: { color: "#6b7280", emoji: "🫘", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
   data: {
+    zh_nj: ["咖啡", "kʰa˧˩ fei˧˩"],
     zh_jh: ["咖啡", "kʰa˧˩ fei˧˩"],
     tsu: ["khafei", ""],
     dnj: ["ka̋fle̋e", "ka̋fle̋ː"],
@@ -967,7 +969,7 @@ WORDS.coffee = {
     snk: ["kefe", "kefe"],
     mas: ["kashawa", "kaʃawa"],
     kr: ["kofi", "kofi"],
-    qu: ["kaphiy", "kapʰij"],
+    qu: ["kaphiy", "ˈkapʰij"], // was ["kaphiy", "kapʰij"] (vi dialect rules 2026-10-06)
     quz: ["kaphiy", "kapʰij"],
     kea: ["kafé", "kaˈfɛ"],
     wa: ["cafè", "kaˈfɛ"],
@@ -1134,7 +1136,7 @@ WORDS.coffee = {
     ssw: ["likhofi", "likʰofi"],
     kbp: ["kɔfɩ", "kɔfɪ"],
     aii: ["ܩܗܘܐ", "qahwa"],
-    wo: ["kafe", "kafe"],
+    wo: ["kafe", "kafɛ"], // was ["kafe", "kafe"] (vi dialect rules 2026-10-06)
     bik: ["kape", "kaˈpe"],
     kos: ["kohfi", "kɔfi"],
     dru: ["kahwi", "ˈkahwi"],
@@ -1267,7 +1269,7 @@ WORDS.coffee = {
     uk: ["кава", "ˈkaʋɐ"], // was ["кава", "ˈkavɐ"] (vi dialect rules 2026-10-06)
     sv: ["kaffe", "ˈkafːɛ"],
     no: ["kaffe", "ˈkɑfːə"],
-    da: ["kaffe", "ˈkʰafə"],
+    da: ["kaffe", "ˈkʰɑfə"], // was ["kaffe", "ˈkʰafə"] (vi dialect rules 2026-10-06)
     ro: ["cafea", "kaˈfe̯a"],
     ga: ["caife", "ˈkafʲə"],
     eu: ["kafe", "kafe"],
@@ -1336,7 +1338,7 @@ WORDS.coffee = {
     cs: ["káva", "ˈkaːva"],
     sk: ["káva", "ˈkaːva"],
     sl: ["kava", "ˈkaːʋa"],
-    sr: ["кафа", "ˈkafa"],
+    sr: ["кафа", "kǎfa"], // was ["кафа", "ˈkafa"] (vi dialect rules 2026-10-06)
     bg: ["кафе", "kɐˈfɛ"],
     lt: ["kava", "kɐˈvɐ"],
     lv: ["kafija", "ˈkafija"],

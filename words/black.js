@@ -116,7 +116,7 @@ WORDS.black = {
     sk: ["čierny", "ˈtʃjerni"],
     sl: ["črn", "tʃərn"],
     hr: ["crn", "tsrn"],
-    sr: ["црн", "tsrn"],
+    sr: ["црн", "tsr̩̂ːn"],
     bg: ["черен", "ˈtʃɛrɛn"],
     mk: ["црн", "tsr̩n"],
 
@@ -165,7 +165,7 @@ WORDS.black = {
     so: ["madow", "madow"],
 
     // --- Romance ------------------------------------------------------
-    ca: ["negre", "ˈneɣɾə"],
+    ca: ["negre", "ˈnɛɣɾə"],
     gl: ["negro", "ˈneɣɾo"],
     ast: ["negru", "ˈneɣɾu"],
     oc: ["negre", "ˈneɣɾe"],
@@ -230,7 +230,7 @@ WORDS.black = {
     // --- Bantu --------------------------------------------------------
     ln: ["moindo", "moindo"],
     kg: ["ndombe", "ndombe"],
-    lg: ["ddugavu", "dduɡavu"],
+    lg: ["ddugavu", "dːuɡavu"],
     rw: ["umukara", "umukara"],
     rn: ["umukara", "umukaɾa"],
     ny: ["chakuda", "tʃakuda"],
@@ -260,7 +260,7 @@ WORDS.black = {
     ar_iq: ["أسود", "ˈʔaswad"],
     ar_gulf: ["أسود", "ˈʔaswad"],
     ar_ma: ["كحل", "kħəl"],
-    ti: ["ጸሊም", "sˤɐlːim"],
+    ti: ["ጸሊም", "tsʼɐlːim"],
     ha: ["baƙi", "bakʼiː"],
     om: ["gurraacha", "ɡurːaːtʃaː"],
     cop: ["ⲕⲁⲙⲉ", "kame"],
@@ -456,7 +456,7 @@ WORDS.black = {
     pmy: ["hitam", "hitam"],
 
     // --- Andean, Tupian, Arctic ------------------------------------------
-    qu: ["yana", "jana"],
+    qu: ["yana", "ˈjana"],
     quz: ["yana", "jana"],
     quy: ["yana", "jana"],
     qwc: ["yana", "jana"],
@@ -528,7 +528,7 @@ WORDS.black = {
     kw: ["du", "dyː"],
     bs: ["crn", "tsr̩n"],
     ga: ["dubh", "d̪ˠʊvˠ"],
-    da: ["sort", "sɒːˀd"],
+    da: ["sort", "sɒˀd"],
 
     p_sit: ["*nək", "nək"],
 
@@ -680,7 +680,7 @@ WORDS.black = {
     es_py: ["negro", "ˈneɣɾo"],
     es_pa: ["negro", "ˈneɣɾo"],
 
-    fr_qc: ["noir", "nwaʁ"],
+    fr_qc: ["noir", "nwɑʁ"],
     fr_be: ["noir", "nwaʁ"],
     fr_ch: ["noir", "nwaʁ"],
     fr_lu: ["noir", "nwaʁ"],

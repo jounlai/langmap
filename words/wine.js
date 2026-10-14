@@ -1248,7 +1248,7 @@ WORDS.wine = {
     sk: ["víno", "ˈviːno"],
     sl: ["vino", "ˈʋiːnɔ"], // was ["vino", "ˈʋiːno"] (vi dialect rules 2026-10-06)
     hr: ["vino", "ʋino"],
-    sr: ["вино", "ʋino"],
+    sr: ["вино", "ʋǐːno"], // was ["вино", "ʋino"] (vi dialect rules 2026-10-06)
     bs: ["vino", "ʋino"],
     bg: ["вино", "viˈnɔ"], // was ["вино", "viˈno"] (vi dialect rules 2026-10-06)
     mk: ["вино", "ˈvinɔ"], // was ["вино", "ˈvino"] (vi dialect rules 2026-10-06)
@@ -1365,10 +1365,10 @@ WORDS.wine = {
     en_brum: ["wine", "waɪn"],
     en_manc: ["wine", "waɪn"],
     en_wc: ["wine", "waɪn"],
-    en_est: ["wine", "waɪn"],
+    en_est: ["wine", "wɑɪn"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
     en_em: ["wine", "wəin"],
     en_south: ["wine", "waːn"],
-    en_app: ["wine", "waɪn"],
+    en_app: ["wine", "waːn"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
     en_aave: ["wine", "waːn"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
     en_in: ["wine", "ʋaɪn"],
     en_sg: ["wine", "waɪn"],
@@ -1532,7 +1532,7 @@ WORDS.wine = {
     ja_kg: ["ワイン", "waiɴ"],
     ja_sd: ["ワイン", "waiɴ"],
     ko_kp: ["포도주", "pododʑu"],
-    ko_bus: ["포도주", "pododʑu"],
+    ko_bus: ["포도주", "pʰododʑu"], // was ["포도주", "pododʑu"] (vi dialect rules 2026-10-06)
     ko_yb: ["포도주", "pododʑu"],
 
     // --- Austronesian ---------------------------------------------------------
@@ -1632,7 +1632,7 @@ WORDS.wine = {
     rki: ["စပျစ်ရည်", "səbjaɪʔ ɹè"], // was ["စပျစ်ရည်", "səbjiˀ ɹì"] (r51 audit 2026-10-04)
     km: ["ស្រាទំពាំងបាយជូរ", "sraː tumpĕəŋ ɓaːj cuː"], // was ["ស្រាទំពាំងបាយជូរ", "sraː tumpeəŋ ɓaːj cuː"] (vi dialect rules 2026-10-06)
     lo: ["ແວງ", "ʋɛːŋ˧˥"],
-    bo: ["རྒུན་ཆང་", "kỹ˩˨tɕaŋ"],
+    bo: ["རྒུན་ཆང་", "kỹ˩˧tɕaŋ"], // was ["རྒུན་ཆང་", "kỹ˩˨tɕaŋ"] (vi dialect rules 2026-10-06)
     xct: ["རྒུན་ཆང", "rɡun tɕʰaŋ"],
     lbj: ["རྒུན་ཆང", "rɡuntɕʰaŋ"],
     th_isan: ["ไวน์", "waj˧"],
@@ -1796,7 +1796,7 @@ WORDS.wine = {
     egy: ["𓇋𓂋𓊪𓏊", "irep"], // was ["𓇋𓂋𓊪𓏊", "juːɾap"] (vi dialect rules 2026-10-06)
     ar_ma: ["شراب", "ʃraːb"],
     arq: ["شراب", "ʃrab"],
-    ar_tn: ["شراب", "ʃrab"],
+    ar_tn: ["شراب", "ʃraːb"], // was ["شراب", "ʃrab"] (vi dialect rules 2026-10-06)
     kab: ["ccṛab", "ʃːrˤab"],
     rif: ["ⴱⵉⵏⵓ", "binu"],
     so: ["khamri", "χamri"],

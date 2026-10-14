@@ -55,6 +55,7 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    ctg: "distinct",
     bej: "grue",
     cgg: "borrowed",
     mhy: "distinct",
@@ -926,6 +927,7 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    ctg: ["নীল", "nil"],
     bej: ["sootaay", "soːtaːj"],
     cgg: ["bururu", "bururu"],
     mhy: ["biru", "biru"],
@@ -1345,10 +1347,10 @@ WORDS.blue = {
     gsw: ["blau", "blɑu"],
     nn: ["blå", "bloː"],
     li: ["blauw", "blɑu"],
-    nl_be: ["blauw", "blɑu"],
+    nl_be: ["blauw", "blɔu"], // was ["blauw", "blɑu"] (vi dialect rules 2026-10-06)
     de_lu: ["blau", "blaʊ̯"],
     de_ch: ["blau", "blaʊ"],
-    de_at: ["blau", "blaʊ"],
+    de_at: ["blau", "blaʊ̯"], // was ["blau", "blaʊ"] (vi dialect rules 2026-10-06)
     sq: ["blu", "blu"],
     pdc: ["bloh", "bloː"],
     kxv: ["nili", "nili"],
@@ -1689,7 +1691,7 @@ WORDS.blue = {
     pt: ["azul", "ɐˈzuɫ"],  // azul vs verde; same Arabic etymology as Spanish.
     pwn: ["cangiangia", "tsaŋiaŋia"],  // 北排灣語 (Northern Paiwan), the variety the row's qudjidjilj/vuqavuqalj come from; cangiangia matches their reduplicated '…色的' shape. Class is INFERRED, not stated: the same dictionary keeps green separate (matjak 綠色/深綠, liljualjuas 綠色的, quljangas 青綠色) and the cangia example is about the sky, so blue looks distinct from green here. Caveat worth flagging: Paiwan cangia, Puyuma tremangiya and Amis tangiya '(pale) blue' resemble one another; I found no etymology for them in the ACD, so the possibility that this is a shared loan (which would make the class `borrowed`) is unresolved.
     pyu: ["tremangiya", "ʈəmaŋija"],  // 南王卑南語 (Nanwang Puyuma). Class INFERRED: green is a separate word in the same dictionary (miraat 綠/綠色, id ab574e9e-6d09-f011-bd64-00155db40116), and inunaw is 'dark blue'. ORTHOGRAPHY FLAG: the row's red cell is spelled "midarang"; the dictionary and the 南王卑南語 學習詞表 both spell it midrarang (dr = /ɖ/, giving the row's own IPA /miɖaraŋ/), so the row appears to have dropped the r of the digraph. I have kept the dictionary spelling tremangiya (tr = /ʈ/); if the atlas deliberately writes those digraphs without the r, this cell would be temangiya. See the cangia caveat under pwn — tremangiya may be the same areal word.
-    qu: ["anqas", "aŋqas"],  // NOT borrowed in Southern Quechua: anqas is inherited (also the indigo plant). Spanish asul has however displaced it in some varieties — WOLD scores Imbabura Quechua asul 'blue' and birdi 'green' as '1. clearly borrowed' (https://github.com/lexibank/wold), so northern Quichua would be class 'borrowed'.
+    qu: ["anqas", "ˈaŋqas"],  // NOT borrowed in Southern Quechua: anqas is inherited (also the indigo plant). Spanish asul has however displaced it in some varieties — WOLD scores Imbabura Quechua asul 'blue' and birdi 'green' as '1. clearly borrowed' (https://github.com/lexibank/wold), so northern Quichua would be class 'borrowed'. // was ["anqas", "aŋqas"] (vi dialect rules 2026-10-06)
     quc: ["xar", "ʃaɾ"],  // Spelling rax (the Wiktionary alternative form) chosen to match this row's kaq / saq / qʼeq, which are ALMG orthography. // was ["rax", "raʃ"] (r29 fix 2026-10-02)
     quy: ["anqas", "aŋqas"],  // Form/class are for Quechua generally and for Cusco-Collao specifically; I found no Ayacucho-Chanka-specific source. Ayacucho may use Spanish asul more heavily.
     quz: ["anqas", "aŋqas"],  // qhusi and uqi are also listed but are 'grey/dun' shades rather than the sky term.
@@ -1721,7 +1723,7 @@ WORDS.blue = {
     sms: ["ââʹliǩ", "ˈɐːlʲic"],  // Skolt Sámi ââ´liǩ vs ruânn, cognate with North Sámi alit.
     sn: ["bhuluu", "buluː"],  // The dictionary states the origin explicitly as English. Shona's inherited colour adjectives are the three-term set -tsvuku / -chena / -tema; modern green is likewise the English loan girini. Variant spelling bhuruu is commoner in Shona orthography, which otherwise lacks l.
     so: ["buluug", "buˈluːɡ"],  // Somali buluug is an English loan (blue). The inherited system has cas/cad/madow and no basic blue; cagaar covers green and extends over blue-green.
-    sr: ["плав", "plaːʋ"],  // Serbian плав against зелен, the same system as Croatian; модар is the darker blue.
+    sr: ["плав", "plâːʋ"],  // Serbian плав against зелен, the same system as Croatian; модар is the darker blue. // was ["плав", "plaːʋ"] (vi dialect rules 2026-10-06)
     srm: ["baáu", "baáu"],  // Saramaccan baáu, scored by WOLD as clearly borrowed — from Dutch blauw rather than from the English-lexifier core. // was ["baáu", "baˈau"] (vi dialect rules 2026-10-06)
     ssf: ["madishlum", "madiʃlum"],  // Given in the ma- stative form to match the row's mashinaw / mapuzi. Blust glosses the root 'green/blue' outright, so Thao is a clear grue language.
     ssw: ["luhlata", "luɬaːta"],  // siSwati cognate of Zulu/Xhosa -luhlaza; one term for blue and green. An English-derived bula also circulates for blue but -luhlata is the basic term.

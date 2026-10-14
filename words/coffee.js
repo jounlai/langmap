@@ -1228,12 +1228,12 @@ WORDS.coffee = {
     th: ["กาแฟ", "kaː˧ fɛː˧"],
     id: ["kopi", "ˈkopi"],
     ms: ["kopi", "ˈkopi"],
-    hi: ["कॉफ़ी", "kɔːfiː"],
-    bn: ["কফি", "kofi"],
+    hi: ["कॉफ़ी", "kɔfiː"], // was ["कॉफ़ी", "kɔːfiː"] (vi dialect rules 2026-10-06)
+    bn: ["কফি", "kɔfi"], // was ["কফি", "kofi"] (vi dialect rules 2026-10-06)
     ur: ["کافی", "kaːfiː"],
     ta: ["காபி", "kaːbi"],
     en: ["coffee", "ˈkɒfi"],
-    de: ["Kaffee", "ˈkafeː"],
+    de: ["Kaffee", "ˈkafe"], // was ["Kaffee", "ˈkafeː"] (vi dialect rules 2026-10-06)
     fr: ["café", "kafe"],
     it: ["caffè", "kafˈfɛ"],
     es: ["café", "kaˈfe"],

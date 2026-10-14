@@ -131,7 +131,7 @@ WORDS.butterfly = {
     ko: ["나비", "nabi"],  // Moth is a separate word, 나방 nabang.
     zh: ["蝴蝶", "xu˧˥ tjɛ˧˥"],  // Bisyllabic 蝴蝶 húdié; WOLD glosses it hu2-die2 '[Western.Barbarians-moth/butterfly]'. Moth is 蛾 é.
     hi: ["तितली", "tɪtliː"],
-    bn: ["প্রজাপতি", "prɔdʒapɔti"],  // Sanskrit loan prajāpati 'lord of creatures'.
+    bn: ["প্রজাপতি", "pɾodʒapoti"],  // Sanskrit loan prajāpati 'lord of creatures'.
     ta: ["வண்ணத்துப்பூச்சி", "vaɳːatːupːuːtʃːi"],  // Compound of vaṇṇam 'colour' + pūcci 'insect'.
     ml: ["ചിത്രശലഭം", "tʃitraɕalabʰam"],  // Sanskrit compound citra 'variegated' + śalabha 'moth, grasshopper'.
     te: ["సీతాకోకచిలుక", "siːtaːkoːkatʃiluka"],
@@ -376,7 +376,7 @@ WORDS.butterfly = {
     nij: ["kakupu", "kakupu"],  // Reduplicative ka-kupu — the same kupu root that Javanese and Indonesian reduplicate as kupu-kupu.
     dtp: ["kuhibambang", "kuhibambaŋ"],  // Contains the reduplicative bam-bang also seen in Acehnese bambang. Smith writes kuhibambaŋ; respelled ng, as in the row's own tombolog/bohuang orthography.
     shn: ["ၵၢပ်ႇမိူဝ်ႈ", "kaːp˩ mɤː˧˨"],  // a two-element compound; IDS records a Northern Shan variant with w- instead of m- in the second element
-    guc: ["julirü", "huliɾɨ"],
+    guc: ["julirü", "hulirɨ"],
     kaw: ["ꦏꦸꦥꦸꦏꦸꦥꦸ", "kupukupu"],  // a reduplication; Zoetmulder notes only one kakawin passage has kupu unreduplicated
     pyu: ["aribanglranglrawan", "aɾibaŋɭaŋɭawan"],  // ACD records Puyuma Hali-vaŋbaŋ 'butterfly, moth' from PAN *baŋbaŋ with the *qali- spirit-world prefix
     dru: ["lialivarane", "ɭiaɭiˈvaɾanə"],  // initial reduplication lia-li-; ACD files it under PAN *qaNi-, the spirit-world prefix
@@ -403,7 +403,7 @@ WORDS.butterfly = {
     ets: ["aviẹviẹ", "aviɛviɛ"],
     es_sgl: ["mariposa", "maɾiˈposa"],
     tem: ["atatka", "atatka"],
-    fr_class: ["papillon", "papiˈʎɔ̃"],
+    fr_class: ["papillon", "papiʎɔ̃"],
     cni: ["tsampi", "tsampi"],
     enf: ["leblyuku", "ʎɛbʎuku"],
     es_mx: ["mariposa", "maɾiˈposa"],
@@ -411,7 +411,7 @@ WORDS.butterfly = {
     es_cl: ["mariposa", "maɾiˈposa"],
     es_cu: ["mariposa", "maɾiˈposa"],
     es_an: ["mariposa", "maɾiˈposa"],
-    zh_sc: ["蝴蝶", "fu˨˩ tie˨˩"],
+    zh_sc: ["蝴蝶", "fu˨˩ tiɛ˨˩"],
     wuu: ["蝴蝶", "ɦu˨˧ diɪʔ˩˨"],
     hak_cn: ["蝴蝶", "fu˩˩ tʰiap˥"],
     nan_te: ["尾蝶", "bue˥˨ iaʔ˦"],
@@ -705,7 +705,7 @@ WORDS.butterfly = {
     uby: ["χapʼraːɕʷa", "χapʼraːɕʷa"],
     ckv: ["pulaw", "pulaw"],
     yur: ["ʼwerrpʼ", "ʔwɚːpʼ"],
-    nan_zz: ["蝴蝶", "ɔ˩˧ tiap̚˩˨˩"],
+    nan_zz: ["尾蝶", "bue˥˧ iaʔ˩˨˩"],
     ar_ps: ["فراشة", "faˈraːʃe"],
     es_ve: ["mariposa", "maɾiˈposa"],
     ca_va: ["papallona", "papaˈʎona"],
@@ -786,7 +786,7 @@ WORDS.butterfly = {
     el_kath: ["πεταλούδα", "petaˈluða"],
     en_em: ["butterfly", "ˈbʊtərfləi"],
     p_hmx: ["*mpleuᴴ", "mpleu"],
-    zh_wenyan_edu: ["胡蝶", "wu˨˩ tiːp˨"],
+    zh_wenyan_edu: ["胡蝶", "wuː˨˩ tiːp˨"],
     zh_tang: ["胡蝶", "ɦɔ dɛp"],
     ja_kanbun: ["胡蝶", "kotɕoː"],
     ko_mid: ["나·ᄇᆡ", "napʌj"],
@@ -903,6 +903,7 @@ WORDS.butterfly = {
     zh_nj: ["蝴蝶儿", "xu˨˦ tʰiʔ˥ ɚ˨˦"],
     zh_hf: ["蝴蝶", "xʉ˥˥ tʰiɐʔ˦"],
     enq: ["kuli kambilyo", "kuli kambiʎo"],
-    acw: ["فراشة", "faraːʃa"]
+    acw: ["فراشة", "faraːʃa"],
+    har: ["aḥmära kitāb", "ɑħmərɑ kitaːb"]
   },
 };

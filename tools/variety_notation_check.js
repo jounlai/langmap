@@ -56,6 +56,8 @@ const ALLOW = {
     // European Portuguese takes the first. A placement difference, not a
     // missing mark: both rows write a stress, in different places.
     'pt_br|sushi': 'BP suˈʃi against EP ˈsuʃi — real placement difference',
+    'pt_br|wine': 'BP nasalises the vowel before ɲ (ˈvĩɲu); EP and the African varieties do not — real (hand-set 2026-10-06)',
+    'ar_eg|four': 'Egyptian stresses the heavy penult (ʔarˈbaʕa, Wiktionary); Levantine and Gulf stress the first syllable — real',
 };
 
 /** How many siblings must agree before a lone spelling counts as the odd one. */

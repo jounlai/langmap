@@ -72,7 +72,7 @@ WORDS.green = {
     pt_br: ["verde", "ˈveʁdʒi"],
     ro: ["verde", "ˈverde"],
     ca: ["verd", "bɛrt"],
-    ru: ["зелёный", "zʲɪˈlʲonɨj"],
+    ru: ["зелёный", "zʲɪˈlʲɵnɨj"],
     uk: ["зелений", "zeˈlɛnɪj"],
     pl: ["zielony", "ʑɛˈlɔnɨ"],
     cs: ["zelený", "ˈzɛlɛniː"],
@@ -86,7 +86,7 @@ WORDS.green = {
     id: ["hijau", "ˈhidʒau"],
     ms: ["hijau", "ˈhidʒau"],
     tl: ["berde", "ˈbɛɾde"],
-    hi: ["हरा", "ɦəˈraː"],
+    hi: ["हरा", "ɦəˈɾaː"],
     bn: ["সবুজ", "ʃobudʒ"],
     ta: ["பச்சை", "patːɕai"],
     te: ["ఆకుపచ్చ", "aːkupatʃːa"],
@@ -139,7 +139,7 @@ WORDS.green = {
     gu: ["લીલો", "ˈliːlo"],
     mr: ["हिरवा", "ɦiɾʋaː"],
     ne: ["हरियो", "ɦəɾijo"],
-    ur: ["ہرا", "ɦəˈraː"],
+    ur: ["ہرا", "ɦəˈɾaː"],
     si: ["කොළ", "koɭə"],
     or: ["ସବୁଜ", "sɔbudʒɔ"],
     jv: ["ijo", "ˈidʒo"],
@@ -153,7 +153,7 @@ WORDS.green = {
     // Mesoamerica, from the ALMG vocabularies and Kaufman & Justeson's PMED.
     // Mayan *raʔx is a grue etymon, and the daughters here still are.
     itz: ["yaʼax", "jaʔaʃ"],   // ALMG's Itzaʼ vocabulary entry 1574 for verde; its Indumentaria volume uses the same word of indigo dye against Spanish "azul", so grue. Itzaʼ chʼoj exists but names the añil plant, not the colour.
-    ixl: ["chaʼx", "tʃaʔʃ"],   // ALMG Ixil, Cotzal/Nebaj form (Chajul has tchaʼx), and Kaufman's OKMA form. Blue is undetermined: that vocabulary has no Azul headword at all, so this row's grue status is open rather than settled.
+    ixl: ["chaʼx", "tʃaʔʂ"],   // ALMG Ixil, Cotzal/Nebaj form (Chajul has tchaʼx), and Kaufman's OKMA form. Blue is undetermined: that vocabulary has no Azul headword at all, so this row's grue status is open rather than settled.
     huv: ["nateaik", "natʲaik"],  // Stairs & Stairs' Huave dictionary, and the World Color Survey has 23 of 25 speakers naming it with green foci. Distinct rather than grue: 24 of 25 gave the Spanish loan azul for blue, and the dictionary has no azul entry. ⟨c⟩ → k and ⟨tea⟩ = /tʲa/ follow this row's own kawak and kiet /kʲet/.
     hch: ["siïraïyeme", "siɨraɨjeme"],  // Lower confidence than the rest: McIntosh & Grimes, Grimes 1981 and the Glosario Wixárika all put this first for 'verde', but it is a long derived form and Grimes also glosses yuavi as "verde, azul de color". A modern speaker source would settle whether this is what one reaches for pointing at grass.
     ka: ["მწვანე", "mtsʼvane"],
@@ -371,7 +371,7 @@ WORDS.green = {
     nan_pn: ["青色", "tsʰẽ˧˧ sek˧"],
     nan_qz: ["绿", "liak˨˦"],
     nan_te: ["青色", "tsʰẽ˧˧ sek˨"],
-    nan_zz: ["绿", "liɪk̚˩˨˩"],
+    nan_zz: ["绿", "lik̚˩˨˩"],
     nap: ["verde", "ˈverdə"],
     naq: ["ǃgam", "ǃɡam"],
     nbl: ["hlaza", "ɬaːza"],   // Nguni luhlaza covers green and blue together; the cell is the same as this row's 'blue', as it is for zu and xh already.
@@ -627,7 +627,7 @@ WORDS.green = {
     rue: ["зеленый", "zeˈlenɨj"],
     dar: ["шиниша", "ʃiniʃa"],
     xmf: ["წვანე", "tsʼvane"],
-    swg: ["grea", "ɡreə̯"],
+    swg: ["grea", "ɡreɐ"],
     hwc: ["green", "ɡɹiːn"],
     sah: ["күөх", "kyøx"],
     tyv: ["ногаан", "noɣaːn"],
@@ -1011,7 +1011,7 @@ WORDS.green = {
     otk: ["𐰖𐰽𐰞", "jaʃɯl"],
     txg: ["𗺭", "dʑjow˧"],
     juc: ["burha boco", "burxa botʃo"],
-    qwc: ["qumir", "qomir"],
+    qwc: ["qumir", "qumiɾ"],
     ohu: ["zöld", "zøld"],
     pal: ["𐭮𐭯𐭦", "sabz"],
     cop: ["ⲟⲩⲟⲧⲟⲩⲉⲧ", "uotuet"],

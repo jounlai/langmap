@@ -1268,7 +1268,7 @@ WORDS.bear = {
     es: ["oso", "ˈoso"],
     es_mx: ["oso", "ˈoso"],
     pt: ["urso", "ˈuɾsu"],
-    pt_br: ["urso", "ˈuɾsu"],
+    pt_br: ["urso", "ˈuʁsu"], // was ["urso", "ˈuɾsu"] (vi dialect rules 2026-10-06)
     ru: ["медведь", "mʲɪdˈvʲetʲ"],
     uk: ["ведмідь", "wɛdˈmidʲ"],
     ar: ["دب", "dubb"],
@@ -1298,7 +1298,7 @@ WORDS.bear = {
     hy: ["արջ", "ɑɾtʃʰ"], // was ["արջ", "aɾdʒ"] (vi dialect rules 2026-10-06)
     hy_grab: ["արջ", "ɑrdʒ"],
     // Punjabi and Gujarati keep the ṛkṣa reflex where Hindi prefers भालू.
-    pa: ["ਰਿੱਛ", "rɪtʃʰ"],
+    pa: ["ਰਿੱਛ", "ɾɪttʃʰ"], // was ["ਰਿੱਛ", "rɪtʃʰ"] (vi dialect rules 2026-10-06)
     gu: ["રીંછ", "rĩːtʃʰ"],
     mr: ["अस्वल", "əsʋəl"],
 
@@ -1366,7 +1366,7 @@ WORDS.bear = {
     // Ladino and Ladin fused the article onto the noun: l' + onso.
     lad: ["lonso", "ˈlonso"],
     mt: ["ors", "ors"],
-    sq: ["ari", "ˈari"],
+    sq: ["ari", "aˈɾi"], // was ["ari", "ˈari"] (vi dialect rules 2026-10-06)
     aln: ["ari", "aˈɾi"], // was ["ari", "aˈri"] (vi dialect rules 2026-10-06)
     eo: ["urso", "ˈurso"],
     ia: ["urso", "ˈurso"],
@@ -1690,7 +1690,7 @@ WORDS.bear = {
     yue_zs: ["熊", "hʊŋ˥˩"], // was ["熊", "hʊŋ˨˩"] (r46 fix 2026-10-03)
     cnp: ["熊", "jœŋ˨˩"],
     zh_db: ["熊", "ɕyŋ˧˥"],
-    zh_sc: ["熊", "ɕioŋ˨˩"],
+    zh_sc: ["熊", "ɕyoŋ˨˩"], // was ["熊", "ɕioŋ˨˩"] (vi dialect rules 2026-10-06)
     zh_cd: ["熊", "ɕioŋ˨˩"],
     zh_cq: ["熊", "ɕioŋ˨˩"],
     zh_wh: ["熊", "ɕioŋ˥˥"], // was ["熊", "ɕioŋ˨˩˧"] (vi dialect rules 2026-10-06)
@@ -1875,7 +1875,7 @@ WORDS.bear = {
     mrw: ["barowang", "barowaŋ"],
     ban: ["beruang", "bəruaŋ"],
     ceb: ["oso", "ˈoso"],
-    war: ["oso", "ˈoso"],
+    war: ["uso", "ˈʔuso"], // was ["oso", "ˈoso"] (vi dialect rules 2026-10-06)
     bik: ["oso", "ˈoso"],
     pam: ["osu", "ˈosu"],
     ami: ["tomay", "tomaj"],

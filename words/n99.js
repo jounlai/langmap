@@ -1067,7 +1067,7 @@ WORDS.n99 = {
     kac: ["jahku shi jahku", "dʒəkʰu˧˩ ʃi˧ dʒəkʰu˧˩"],
     kaa: ["toqsan toǵız", "toqsan toʁɯz"],
     jmc: ["makumi kyeenda na kyeenda", "makumi kjeːnda na kjeːnda"],
-    ixl: ["bʼelelaval toʼkʼal", "ɓelelaʋal toʔkʼal"],
+    ixl: ["bʼelelaval toʼkʼal", "ɓelelaval toʔkʼal"], // was ["bʼelelaval toʼkʼal", "ɓelelaʋal toʔkʼal"] (vi dialect rules 2026-10-06)
     ivv: ["sasiam aya poho kano sasiam", "sasiam aja poho kano sasiam"],
     ium: ["juov ziepc juov", "tɕuo˦ tsiep˨˩ tɕuo˦"],
     iba: ["semilan puluh semilan", "səmilan puluh səmilan"],
@@ -1298,7 +1298,7 @@ WORDS.n99 = {
     zh_zz: ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"], // was ["九十九", "tɕiəu˥˧ ʂʅ˦˨ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     zh_db: ["九十九", "tɕjoʊ̯˧˩˧ ʂʐ̩˧˥ tɕjoʊ̯˧˩˧"],
     zh_jh: ["九十九", "tɕiɤɯ˨˩˦ ʂʅʔ˥˥ tɕiɤɯ˨˩˦"],
-    zh_sc: ["九十九", "tɕiəu˥˧ sɿ˨˩ tɕiəu˥˧"],
+    zh_sc: ["九十九", "tɕiəu˥˧ sɹ̩˨˩ tɕiəu˥˧"], // was ["九十九", "tɕiəu˥˧ sɿ˨˩ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     glk: ["نود و نه", "nəvəd o no"],
     lrc: ["نود و نه", "nʌwʌd o no"],
     haz: ["نود و نه", "nawad u no"],
@@ -1322,16 +1322,16 @@ WORDS.n99 = {
     ps: ["نه نوي", "nəh nəˈwi"],
     ce: ["дезткъе итт исс", "destqʼe itː isː"],
     dje: ["wayyegga cindi yegga", "wajːeɡːa tʃindi jeɡːa"],
-    gn: ["porundypa porundy", "poɾudɨpa poɾudɨ"],
+    gn: ["porundypa porundy", "poɾundɨpa poɾundɨ"], // was ["porundypa porundy", "poɾudɨpa poɾudɨ"] (vi dialect rules 2026-10-06)
     ay: ["llätunka tunka llätunkani", "ʎaːtunka tunka ʎaːtunkani"],
     qu: ["isqun chunka isqunniyuq", "isqun tʃunka isqunnijuq"],
     kri: ["naynti-nayn", "najnti najn"], // was ["naynti-nayn", "nainti nain"] (vi dialect rules 2026-10-06)
     jam: ["nainti-nain", "nainti nain"],
     srn: ["neigitenti-na-neigi", "neiɡitenti na neiɡi"],
     en:    ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
-    de:    ["neunundneunzig", "ˈnɔʏnʊntˌnɔʏntsɪç"],
+    de: ["neunundneunzig", "ˈnɔʏ̯nʊntˌnɔʏ̯ntsɪç"], // was ["neunundneunzig", "ˈnɔʏnʊntˌnɔʏntsɪç"] (vi dialect rules 2026-10-06)
     nl:    ["negenennegentig", "ˈneːɣənənˌneːɣəntəx"],
-    fr:    ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
+    fr: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
     fr_be: ["nonante-neuf", "nɔnɑ̃tnœf"],
     es:    ["noventa y nueve", "noˈβenta i ˈnweβe"],
     it:    ["novantanove", "novantaˈnove"],
@@ -1345,10 +1345,10 @@ WORDS.n99 = {
     ga:    ["nócha a naoi", "ˈn̪ˠoːxə ə ˈn̪ˠiː"],
     ko:    ["아흔아홉", "ahɯnahop̚"],
     sw:    ["tisini na tisa", "tiˈsini na ˈtisa"],
-    hi:    ["निन्यानवे", "ninjaːnəʋeː"],
+    hi: ["निन्यानवे", "nɪnjaːnəʋeː"], // was ["निन्यानवे", "ninjaːnəʋeː"] (vi dialect rules 2026-10-06)
     bn:    ["নিরানব্বই", "niranobːoi"],
     ne:    ["उनान्सय", "unaːnsʌj"],
-    ja:    ["九十九", "kʲɯːdʑɯːkʲɯː"],
+    ja: ["九十九", "kʲɯːʑɯːkʲɯː"], // was ["九十九", "kʲɯːdʑɯːkʲɯː"] (vi dialect rules 2026-10-06)
     zh:    ["九十九", "tɕjoʊ̯˨˩˦ ʂʐ̩˧˥ tɕjoʊ̯˨˩˦"],
     vi:    ["chín mươi chín", "tɕin˧˥ mɨəj˧ tɕin˧˥"],
     ar:    ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
@@ -1502,9 +1502,9 @@ WORDS.n99 = {
     es_pa: ["noventa y nueve", "noˈβenta i ˈnweβe"],
     fr_qc: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
     fr_lu: ["nonante-neuf", "nɔnɑ̃tnœf"],
-    fr_af: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
+    fr_af: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
     fr_sn: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
-    fr_ci: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
+    fr_ci: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
     fr_ht: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
     fr_cm: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
     fr_ch: ["nonante-neuf", "nɔnɑ̃tnœf"],
@@ -1524,10 +1524,10 @@ WORDS.n99 = {
     abv: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     afb: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     acw: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
-    ar_eg: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
+    ar_eg: ["تسعة وتسعين", "tisʕa w tisʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     ar_ma: ["تسعة وتسعين", "tisʕa w tisʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     ar_tn: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
-    ar_sd: ["تسعة وتسعون", "tisʕa wa tisʕuːn"],
+    ar_sd: ["تسعة وتسعين", "tisʕa wa tisʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     ayl: ["تسعة وتسعين", "tisʕa w tisʕiːn"],
     arq: ["تسعة وتسعين", "tasʕa w tasʕiːn"], // was ["تسعة وتسعون", "tisʕa wa tisʕuːn"] (vi dialect rules 2026-10-06)
     en_us: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],

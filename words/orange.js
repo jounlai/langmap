@@ -67,6 +67,7 @@ WORDS.orange = {
     sw: "Chungwa — tunda tamu la jamii ya michungwa, na ramani ya majibu manne tofauti kwa swali lilelile. Tunda hili lilifika Ulaya mara mbili. Chungwa chungu lilikuja nchi kavu na biashara ya Kiajemi na Kiarabu enzi za kati, likibeba neno la Kisanskriti नारङ्ग: نارنج → Kihispania naranja, Kiitaliano arancia, Kifaransa na Kiingereza orange. Chungwa tamu lilikuja baharini katika karne ya 16 kwa meli za Kireno, na nusu ya Mediterania ya mashariki ikaliita tu kwa jina la wafanyabiashara hao — Kigiriki πορτοκάλι, Kituruki portakal, Kiarabu برتقال, Kiamhari ብርቱካን, Kijojia ფორთოხალი, Kiajemi پرتقال. Ulaya ya Kaskazini ilichukua jibu la tatu kutoka kwa wafanyabiashara wa Kiholanzi, walioliita \"tufaha kutoka Uchina\": sinaasappel, Apfelsine, апельсин, appelsiini. Na sehemu kubwa ya dunia iliendelea tu na neno lake yenyewe.",
   },
   family: {
+    osp: "naranj",
     ruq: "portakal",
     dnj: "local",
     acw: "portakal",
@@ -706,6 +707,7 @@ WORDS.orange = {
     local: {"color":"#6b7280","emoji":"🏡","en":"its own word","ja":"自前の語","ko":"고유어","zh":"自有的詞","yue":"自己本身嘅詞","vi":"từ của riêng mình","th":"คำของตัวเอง","id":"kata sendiri","hi":"अपना ही शब्द","de":"eigenes Wort","fr":"mot propre","it":"parola propria","es":"palabra propia","pt":"palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمته الخاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    osp: ["naranja", "naˈɾanʒa"],
     ruq: ["purtucală", "purtuˈkalə"],
     dnj: ["kwi̋ ȁ dhɤ̄ŋ̏", "kwi̋ ȁ ɗɤ̄ŋ̏"],
     acw: ["برتقال", "burtuɡaːl"],
@@ -844,7 +846,7 @@ WORDS.orange = {
     kbp: ["leemuu", "leːmuː"],
     emp: ["larãjã", "laɾãhã"],
     nmf: ["komola", "komola"],
-    lus: ["serthlum", "sertʰlum"],
+    lus: ["serthlum", "sertlʰum"], // was ["serthlum", "sertʰlum"] (vi dialect rules 2026-10-06)
     mni: ["ꯀꯣꯝꯂꯥ", "komla"],
     gcr: ["zoranj", "zoʁãʒ"],
     mrj: ["апельсин", "apelʲsin"],
@@ -1037,7 +1039,7 @@ WORDS.orange = {
     ko_jeju: ["오렌지", "oɾendʑi"],
     ko_yb: ["오렌지", "oɾendʑi"],
     zh: ["橙", "ʈʂʰɤŋ˧˥"],
-    yue: ["橙", "tsʰaːŋ˩˧"],
+    yue: ["橙", "tsʰaːŋ˧˥"], // was ["橙", "tsʰaːŋ˩˧"] (vi dialect rules 2026-10-06)
     nan: ["柑仔", "kam˦˦ ma˥˧"],
     zh_tw: ["柳丁", "ljoʊ̯˧˩˧ tiŋ˥"], // was ["柳丁", "ljoʊ̯˧˩˧ tiŋ"] (vi dialect rules 2026-10-06)
     wuu: ["橙", "zaŋ˨˧"],
@@ -1046,11 +1048,11 @@ WORDS.orange = {
     vi_c: ["cam", "kaːm˥"], // was ["cam", "kaːm˧"] (vi dialect rules 2026-10-06)
     vi_s: ["cam", "kaːm˧"],
     th: ["ส้ม", "som˥˩"],
-    id: ["jeruk", "dʒəˈruk"],
+    id: ["jeruk", "dʒəˈruʔ"], // was ["jeruk", "dʒəˈruk"] (vi dialect rules 2026-10-06)
     ms: ["oren", "ˈoren"],
     hi: ["संतरा", "sənˈtɾaː"],
-    bn: ["কমলা", "komla"],
-    ur: ["سنگترہ", "səŋɡˈtəɾa"],
+    bn: ["কমলা", "kɔmla"], // was ["কমলা", "komla"] (vi dialect rules 2026-10-06)
+    ur: ["سنگترہ", "səŋɡtəɾaː"], // was ["سنگترہ", "səŋɡˈtəɾa"] (vi dialect rules 2026-10-06)
     ta: ["ஆரஞ்சு", "aːɾaɲtʃu"],
     en: ["orange", "ˈɒɹɪndʒ"],
     de: ["Orange", "oˈʁãːʒə"],
@@ -1066,9 +1068,9 @@ WORDS.orange = {
     ar: ["برتقال", "burtuqaːl"],
     he: ["תפוז", "taˈpuz"],
     tr: ["portakal", "poɾtaˈkaɫ"],
-    fa: ["پرتقال", "poɾteɣɒːl"],
+    fa: ["پرتقال", "poɾteˈɢɒːl"], // was ["پرتقال", "poɾteɣɒːl"] (vi dialect rules 2026-10-06)
     prs: ["پرتقال", "poɾtaɣɑːl"],
-    sw: ["chungwa", "tʃuŋɡwa"],
+    sw: ["chungwa", "ˈtʃuŋɡwa"], // was ["chungwa", "tʃuŋɡwa"] (vi dialect rules 2026-10-06)
     tl: ["dalandan", "dalanˈdan"],
     mn: ["жүрж", "dʒyrdʒ"],
     sah: ["апельсин", "apelʲˈsin"],
@@ -1189,7 +1191,7 @@ WORDS.orange = {
     bg: ["портокал", "portoˈkal"], // was ["портокал", "pɔrtoˈkal"] (vi dialect rules 2026-10-06)
     lt: ["apelsinas", "ɐpʲɛlʲˈsʲɪnɐs"], // was ["apelsinas", "apɛlʲˈsʲinɐs"] (vi dialect rules 2026-10-06)
     lv: ["apelsīns", "apɛlˈsiːns"],
-    sq: ["portokall", "pɔrtɔˈkalː"],
+    sq: ["portokall", "pɔɾtɔˈkaɫ"], // was ["portokall", "pɔrtɔˈkalː"] (vi dialect rules 2026-10-06)
     et: ["apelsin", "ˈɑpelsin"],
     ht: ["zoranj", "zoɾãʒ"],
     jam: ["arinj", "arɪndʒ"], // was ["arinj", "ˈarɪndʒ"] (vi dialect rules 2026-10-06) // was ["arinj", "arɪndʒ"] (vi dialect rules 2026-10-06)

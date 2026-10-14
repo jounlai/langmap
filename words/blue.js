@@ -1045,7 +1045,7 @@ WORDS.blue = {
     bdq: ["jơk", "ɟəːk"],
     nyn: ["bururu", "bururu"],
     loz: ["tala", "tala"],
-    lus: ["dumpâwl", "dumpɔl"],
+    lus: ["dumpâwl", "dumpɔːl"], // was ["dumpâwl", "dumpɔl"] (vi dialect rules 2026-10-06)
     csb: ["mòdri", "ˈmwɛdri"],
     eve: ["чӯлбаня̄", "tʃuːlbaɲaː"],
     cjs: ["кӧк", "køk"],

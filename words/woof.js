@@ -237,7 +237,7 @@ WORDS.woof = {
     ko_kp: ["멍멍", "mʌŋmʌŋ"],
     ko_yb: ["멍멍", "mʌŋmʌŋ"],
     vi_s: ["gâu gâu", "ɣəw˧ ɣəw˧"],
-    zh_sc: ["汪汪", "wan˥ wan˥"],
+    zh_sc: ["汪汪", "uaŋ˥ uaŋ˥"],
     zh_cq: ["汪汪", "waŋ˥ waŋ˥"],
     zh_xa: ["汪汪", "vaɣ̃˨˩ vaɣ̃˨˩"],
     zh_cd: ["汪汪", "wan˥˥ wan˥˥"],

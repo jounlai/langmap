@@ -1059,7 +1059,7 @@ WORDS.wine = {
     luz: ["šarâb", "ʃaˈɾɑːb"],
     ker: ["kumuy bə atələələm", "kumuj bə atələːləm"],
     ess: ["вино", "vinɔ"],
-    vai: ["ꔠꔪ ꗬ", "ɡɛpi kpɛ"],
+    vai: ["ꔠꔪ ꗬ", "ɡepi kpɛ"], // was ["ꔠꔪ ꗬ", "ɡɛpi kpɛ"] (vi dialect rules 2026-10-06)
     mch: ["chööjedüüdü ekkudu", "tʃəːheɾ̠ɨːɾ̠ɨ ekːuɾ̠u"], // was ["chääjedöödö eccudu", "tʃɨːʒedəːdə ekːudu"] (vi dialect rules 2026-10-06) // was ["chööjedüüdü ekkudu", "tʃəːhedɨːdɨ ekːudu"] (vi dialect rules 2026-10-06)
     bdq: ["sik hơmu", "sik həmu"],
     moh: ["otsítsia", "otsítsja"],
@@ -1186,7 +1186,7 @@ WORDS.wine = {
     es: ["vino", "ˈbino"],
     es_mx: ["vino", "ˈbino"],
     pt: ["vinho", "ˈviɲu"],
-    pt_br: ["vinho", "ˈviɲu"],
+    pt_br: ["vinho", "ˈvĩɲu"], // was ["vinho", "ˈviɲu"] (vi dialect rules 2026-10-06)
     ru: ["вино", "vʲɪˈno"],
     uk: ["вино", "ʋɪˈnɔ"],
     ar: ["نبيذ", "nabiːð"],
@@ -1270,7 +1270,7 @@ WORDS.wine = {
     az: ["şərab", "ʃæˈɾab"],
     fa: ["شراب", "ʃæˈɾɒːb"],
     tg: ["шароб", "ʃarob"],
-    ur: ["شراب", "ʃəraːb"],
+    ur: ["شراب", "ʃəɾaːb"], // was ["شراب", "ʃəraːb"] (vi dialect rules 2026-10-06)
     bn: ["ওয়াইন", "o̯ai̯n"], // was ["মদ", "mɔd"] (r29 fix 2026-10-02)
     mr: ["वाईन", "ʋaːiːn"],
     ta: ["வைன்", "ʋaɪn"], // was ["மது", "mad̪u"] (r33 fix 2026-10-02)
@@ -1339,7 +1339,7 @@ WORDS.wine = {
     abv: ["نبيذ", "nabiːð"],
     afb: ["نبيذ", "nabiːð"],
     acw: ["نبيد", "nibiːd"],
-    ar_eg: ["نبيذ", "nabiːð"],
+    ar_eg: ["نبيت", "nebiːt"], // was ["نبيذ", "nabiːð"] (vi dialect rules 2026-10-06)
 
     crh: ["şarap", "ʃaˈrap"],
     gag: ["şarap", "ʃaˈrap"],
@@ -1441,7 +1441,7 @@ WORDS.wine = {
     ruq: ["vin", "vin"],
     wa: ["vin", "vɛ̃"],
     pcd: ["vin", "vɛ̃"],
-    nrf: ["vin", "vɛ̃"],
+    nrf: ["vîn", "vĩ"], // was ["vin", "vɛ̃"] (vi dialect rules 2026-10-06)
 
     // --- French-lexifier creoles — the article came along with the noun -----
     ht: ["diven", "divɛ̃"],
@@ -1469,7 +1469,7 @@ WORDS.wine = {
     lzz: ["ღვინი", "ɣvini"],
     mt: ["inbid", "ɪmˈbiːt"], // was ["inbid", "ɪnˈbiːt"] (vi dialect rules 2026-10-06)
     ar_lev: ["نبيذ", "nabiːð"],
-    ar_sd: ["نبيذ", "nabiːð"],
+    ar_sd: ["خمرة", "xamra"], // was ["نبيذ", "nabiːð"] (vi dialect rules 2026-10-06)
 
     // --- Caucasus — the Persian čaɣir word, not the Kartvelian one ----------
     ce: ["чагӏар", "tʃaʁar"],

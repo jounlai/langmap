@@ -1100,7 +1100,7 @@ WORDS.we = {
     dru: "clusive",
     hup: "single",
     kfa: "single",
-    kfr: "single",
+    kfr: "clusive", // route was single (vi dialect rules 2026-10-06)
     luz: "single",
     pkp: "clusive",
     qxq: "single",
@@ -1288,7 +1288,7 @@ WORDS.we = {
     mro: ["—", "—"],
     gon: ["—", "—"],
     bfq: ["naanga", "naːŋɡa"],
-    har: ["iññāch", "iɲːaːtʃ"],
+    har: ["əññāč", "ɨɲːaːtʃ"], // was ["iññāch", "iɲːaːtʃ"] (vi dialect rules 2026-10-06)
     es_pr: ["nosotros", "noˈsotɾoh"],
     es_do: ["nosotros", "noˈsotɾoh"],
     es_gt: ["nosotros", "noˈsotɾos"],
@@ -1331,7 +1331,7 @@ WORDS.we = {
     ko_jeju: ["우리", "uɾi"],
     ko_yb: ["우리", "uɾi"],
     zh: ["咱们 / 我们", "tsan˧˥ mən / wo˨˩˦ mən"],
-    yue: ["我哋", "ŋɔ˩˧ tei˨"],
+    yue: ["我哋", "ŋɔː˩˧ tei˨"], // was ["我哋", "ŋɔ˩˧ tei˨"] (vi dialect rules 2026-10-06)
     nan: ["咱 / 阮", "lan˥˧ / ɡun˥˧"],
     zh_tw: ["我們", "wo˨˩˦ mən"],
     wuu: ["阿拉", "aʔ˧ laʔ˦"],
@@ -1724,7 +1724,7 @@ WORDS.we = {
     p_dra: ["*ñām / *yām", "ɲaːm / jaːm"],
     paus: ["*kita / *kami", "kita / kami"],
     zh_song: ["我等", "ŋɔ təŋ"], // was ["我等", "ŋɔ˧˩ təŋ˧˩"] (zh_song rebuild 2026-10-04)
-    zh_wenyan_edu: ["我等", "ŋɔ˩˧ tɐŋ˧˥"],
+    zh_wenyan_edu: ["我等", "ŋɔː˩˧ tɐŋ˧˥"], // was ["我等", "ŋɔ˩˧ tɐŋ˧˥"] (vi dialect rules 2026-10-06)
     zh_han: ["我等", "ŋhǟ́ tǝ̄́ŋ"], // was ["我等", "ŋɑiˀ təŋˀ"] (zh_han rebuild 2026-10-04)
     zh_tang: ["我等", "ŋa təŋ"], // was ["我等", "ŋɑ˧˩ təŋ˧˩"] (zh_tang rebuild 2026-10-04)
     ja_edo: ["私共", "wataɕidomo"],
@@ -1755,7 +1755,7 @@ WORDS.we = {
     bra: ["हम", "ɦəm"],
     skr: ["اساں", "əsãː"],
     sat: ["ᱟᱵᱚ / ᱟᱞᱮ", "abo / ale"],
-    kru: ["नम / एम", "nam / eːm"],
+    kru: ["नाम / एम", "naːm / eːm"], // was ["नम / एम", "nam / eːm"] (vi dialect rules 2026-10-06)
     mad: ["ban baʼna kabbi / sengkoʼ kabbi", "ban baʔna kabbi / səŋkoʔ kabbi"],
     hil: ["kita / kami", "kiˈta / kaˈmi"],
     cbk: ["kita / kame", "kiˈta / kaˈme"],
@@ -1901,7 +1901,7 @@ WORDS.we = {
     bug: ["idiʼ", "idiʔ"],
     mdr: ["itaq nasang / yamiq", "itaʔ nasaŋ / jamiʔ"], // was ["ikiq / ingkaiq", "ikiʔ / iŋkaiʔ"] (vi dialect rules 2026-10-06)
     cia: ["ingkita / isami", "iŋkita / isami"],
-    war: ["kita / kami", "kita / kami"],
+    war: ["kita / kami", "kiˈta / kaˈmi"], // was ["kita / kami", "kita / kami"] (vi dialect rules 2026-10-06)
     bik: ["kita / kami", "kita / kami"],
     bto: ["kitā / kamī", "kita / kami"],
     tum: ["ise", "ise"],
@@ -2133,7 +2133,7 @@ WORDS.we = {
     enq: ["naima", "naima"],
     xpr: ["amāh", "amaːh"],
     xqa: ["biz", "biz"],
-    sga: ["sní", "snʲiː"],
+    sga: ["sní", "sʲnʲiː"], // was ["sní", "snʲiː"] (vi dialect rules 2026-10-06)
     bsk: ["mi", "mi"],
     yai: ["mox", "mox"],
     srn: ["wi", "wi"],
@@ -2154,7 +2154,7 @@ WORDS.we = {
     mpt: ["níbó / ní", "nibo / ni"], // was ["nībo / nī", "niːbo / niː"] (vi dialect rules 2026-10-06)
     ygr: ["lagaea", "laɡaea"], // was ["lai", "lai"] (vi dialect rules 2026-10-06)
     roo: ["vigei / igei", "βiɡei / iɡei"],
-    quz: ["ñuqanchis / ñuqayku", "ɲoˈqantʃis / ɲoˈqajku"],
+    quz: ["ñuqanchis / ñuqayku", "ɲuˈqantʃis / ɲuˈqajku"], // was ["ñuqanchis / ñuqayku", "ɲoˈqantʃis / ɲoˈqajku"] (vi dialect rules 2026-10-06)
     quy: ["ñuqanchik / ñuqayku", "ɲuˈqantʃik / ɲuˈqajku"],
     shp: ["noa", "noa"],
     cab: ["wagía", "waɡia"],
@@ -2214,7 +2214,7 @@ WORDS.we = {
     sukh: ["เรา", "raw"],
     xmr: ["—", "—"],
     onw: ["ⲉⲣ", "er"],
-    qwc: ["ñuqanchik / ñuqayku", "ɲoqantʃik / ɲoqajku"],
+    qwc: ["ñuqanchik / ñuqayku", "ɲuqantʃik / ɲuqajku"], // was ["ñuqanchik / ñuqayku", "ɲoqantʃik / ɲoqajku"] (vi dialect rules 2026-10-06)
     omc: ["mæich", "mæitʃ"], // was ["mœich", "məwitʃ"] (vi dialect rules 2026-10-06)
     chb: ["chie", "tʃie"],
     omy: ["kita / kami", "kita / kami"],
@@ -2347,7 +2347,7 @@ WORDS.we = {
     dru: ["kuta / kunai", "kuta / kunai"],
     hup: ["nehe", "nehe"],
     kfa: ["ನಂಗ", "naŋɡa"],
-    kfr: ["અસીં", "əsĩː"],
+    kfr: ["પાણ / અસીં", "paːɳ / əsĩː"], // was ["અસીં", "əsĩː"] (vi dialect rules 2026-10-06)
     kry: ["jin / žin", "jin / ʒin"],
     luz: ["ima", "iˈma"],
     osc: ["—", "—"],

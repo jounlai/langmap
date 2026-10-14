@@ -1064,7 +1064,7 @@ WORDS.sugar = {
     nmf: ["chini", "tʃini"],
     grt: ["chini", "tʃini"],
     brx: ["सिनि", "sini"],
-    lus: ["chithlum", "tʃitʰlum"],
+    lus: ["chithlum", "tsitlʰum"], // was ["chithlum", "tʃitʰlum"] (vi dialect rules 2026-10-06)
     mni: ["ꯆꯤꯅꯤ", "tʃini"],
     pmi: ["bu̵35", "bʉ˧˥"], // was ["bʉ35", "bʉ˧˥"] (vi dialect rules 2026-10-06)
     clk: ["pu31rɯm55", "pu˧˩rɯm˥˥"],
@@ -1463,7 +1463,7 @@ WORDS.sugar = {
     es: ["azúcar", "aˈθukaɾ"],
     es_mx: ["azúcar", "aˈsukaɾ"],
     pt: ["açúcar", "ɐˈsukaɾ"],
-    pt_br: ["açúcar", "aˈsukaɾ"],
+    pt_br: ["açúcar", "aˈsukɐʁ"], // was ["açúcar", "aˈsukaɾ"] (vi dialect rules 2026-10-06)
     ru: ["сахар", "ˈsaxər"],
     ar: ["سكر", "ˈsukkar"],
     he: ["סוכר", "suˈkaʁ"],
@@ -1505,7 +1505,7 @@ WORDS.sugar = {
     sm: ["suka", "suka"],
     to: ["suka", "suka"],
     sd: ["کنڊ", "kʰənɖʊ"], // was ["کنڊ", "kʰanɖu"] (vi dialect rules 2026-10-06)
-    pa: ["ਖੰਡ", "kʰəɳɖ"],
+    pa: ["ਖੰਡ", "kʰəɳɖ˥"], // was ["ਖੰਡ", "kʰəɳɖ"] (vi dialect rules 2026-10-06)
     ne: ["चिनी", "tsini"],
     mr: ["साखर", "ˈsaːkʰəɾ"],
     gu: ["ખાંડ", "kʰaːɳɖ"],
@@ -1560,7 +1560,7 @@ WORDS.sugar = {
     bg: ["захар", "ˈzaxɐr"],
     lt: ["cukrus", "ˈtsʊkrʊs"],
     lv: ["cukurs", "ˈtsukurs"],
-    sq: ["sheqer", "ʃɛˈcɛr"],
+    sq: ["sheqer", "ʃɛˈcɛɾ"], // was ["sheqer", "ʃɛˈcɛr"] (vi dialect rules 2026-10-06)
     et: ["suhkur", "ˈsuhkur"],
     ht: ["sik", "sik"],
     se: ["sohkar", "ˈsohkar"],

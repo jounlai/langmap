@@ -77,7 +77,7 @@ WORDS.honey = {
     ko: ["꿀", "k͈ul"],
     zh: ["蜂蜜", "fɤŋ˥ mi˥˩"],
     yue: ["蜜糖", "mɐt˨ tʰɔːŋ˨˩"],
-    vi: ["mật ong", "mət˨˩ ɔŋ͡m˧"],
+    vi: ["mật ong", "mət˧˨ʔ ɔŋ͡m˧"],
     th: ["น้ำผึ้ง", "nam˦˥ pʰɯŋ˥˩"],
     id: ["madu", "ˈmadu"],
     hi: ["शहद", "ʃəɦəd"],
@@ -460,7 +460,7 @@ WORDS.honey = {
     // --- Indo-Aryan and Iranian ------------------------------------------
     // Punjabi took the Perso-Arabic šahd; Odia and Assamese keep *médʰu; Pashto
     // šāt is neither, an inherited Iranian word of its own.
-    pa: ["ਸ਼ਹਿਦ", "ʃəɦəd"],
+    pa: ["ਸ਼ਹਿਦ", "ʃɛː˦d"],
     or: ["ମହୁ", "mɔɦu"],
     as: ["মৌ", "moʊ"],
     dv: ["މާމުއި", "maːmui"],
@@ -544,7 +544,7 @@ WORDS.honey = {
     zh_jh: ["蜂蜜", "fə̃˧˩ miʔ˥˥"],
     zh_cq: ["蜂蜜", "foŋ˥ mi˨˩"],
     zh_cd: ["蜂蜜", "foŋ˥˥ mi˨˩"],
-    zh_sc: ["蜂蜜", "foŋ˥˥ mi˨˩"],
+    zh_sc: ["蜂蜜", "foŋ˥ mi˨˩"],
     zh_wh: ["蜂蜜", "foŋ˥˥ mi˨˩˧"],
     zh_km: ["蜂蜜", "foŋ˦˦ mi˧˩"],
     zh_kf: ["蜂蜜", "fəŋ˨˦ mi˨˦"],
@@ -714,7 +714,7 @@ WORDS.honey = {
     ch: ["miet", "miet"],
     dyu: ["li", "li"],
     hne: ["मंधरस", "məndʱərəs"],
-    hns: ["madh", "madʱ"],
+    hns: ["madh", "mədʱ"],
     lbj: ["རང་རྩི", "raŋ tsi"],
     luo: ["mor kich", "mor kitʃ"],
     mai: ["मधु", "mədʱu"],

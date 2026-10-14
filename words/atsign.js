@@ -174,7 +174,7 @@ WORDS.atsign = {
     ko: ["골뱅이", "kolbɛŋi"],
     zh: ["艾特", "aɪ̯˥˩ tʰɤ˥˩"],
     zh_tw: ["小老鼠", "ɕi̯ɑʊ̯˨˩˦ lɑʊ̯˨˩˦ ʂu˨˩˦"],
-    yue: ["at", "ɛːt̚˥"],
+    yue: ["at", "ɛːt˥"],
     // === Southeast & South Asia ===
     vi: ["a còng", "aː˧ kɔŋ͡m˨˩"],
     id: ["et", "ɛt"],
@@ -192,7 +192,7 @@ WORDS.atsign = {
     en_ph: ["at", "at"],
     // === Western Europe ===
     nl: ["apenstaartje", "ˈaːpənstaːrtjə"],
-    de: ["Klammeraffe", "ˈklamɐʔˌafə"],
+    de: ["Klammeraffe", "ˈklamɐˌʔafə"],
     fr: ["arobase", "aʁɔbaz"],
     fr_qc: ["a commercial", "a kɔmɛʁsjal"],
     fr_be: ["arobase", "aʁɔbaz"],
@@ -218,7 +218,7 @@ WORDS.atsign = {
     es_ve: ["arroba", "aˈroβa"],
     es_sgl: ["arroba", "aˈroβa"],
     pt: ["arroba", "ɐˈʁɔβɐ"],
-    pt_br: ["arroba", "aˈʁɔbɐ"],
+    pt_br: ["arroba", "aˈʁobɐ"],
     ca: ["arrova", "əˈrɔβə"],
     eu: ["a bildua", "a βilˈdua"],
     cy: ["malwen", "ˈmalwɛn"],

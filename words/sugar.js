@@ -1223,7 +1223,7 @@ WORDS.sugar = {
     shn: ["ၵိူဝ်ဝၢၼ်", "kɤː˨˦ waːn˨˦"],
     moh: ["otsikhè:ta", "otsikʰèːta"], // was ["otsikhè:ta", "otsiˈkʰɛːta"] (vi dialect rules 2026-10-06) // was ["otsikhè:ta", "otsikʰèːta"] (vi dialect rules 2026-10-06)
     cho: ["hapi champuli", "hapi tʃampoli"],
-    nv: ["áshįįh łikan", "ʔáʃĩːh ɬikɑn"],
+    nv: ["áshįįh łikan", "ʔɑ́ʃĩ̀ːh ɬìkʰɑ̀n"], // was ["áshįįh łikan", "ʔáʃĩːh ɬikɑn"] (vi dialect rules 2026-10-06)
     ain: ["サト", "sato"],
     xmf: ["შანქარი", "ʃankʰari"],
     lzz: ["შექერი", "ʃekʰeri"],
@@ -1272,7 +1272,7 @@ WORDS.sugar = {
     rcf: ["sik", "sik"],
     ksh: ["Zucker", "ˈtsʊkɐ"],
     gsw: ["Zucker", "ˈtsʊkːər"],
-    mak: ["golla", "ˈɡolla"],
+    mak: ["golla", "ˈɡolːa"], // was ["golla", "ˈɡolla"] (vi dialect rules 2026-10-06)
     skr: ["کھنڈ", "kʰənɖ"],
     pdc: ["Zucker", "tsʊkər"],
     ltg: ["cukrys", "ˈtsukrɨs"],
@@ -1475,7 +1475,7 @@ WORDS.sugar = {
     fa: ["شکر", "ʃeˈkæɾ"],
     sw: ["sukari", "suˈkari"],
     tl: ["asukal", "ʔaˈsukal"],
-    mn: ["элсэн чихэр", "ˈelsəŋ tʃʰixər"],
+    mn: ["элсэн чихэр", "elseŋ tʃʰixer"], // was ["элсэн чихэр", "ˈelsəŋ tʃʰixər"] (vi dialect rules 2026-10-06)
     sah: ["саахар", "ˈsaːxar"],
     alt: ["чикир", "tʃiˈkir"],
     cv: ["сахӑр", "ˈsaxər"],

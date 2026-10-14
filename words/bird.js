@@ -311,7 +311,7 @@ WORDS.bird = {
     bar: ["Vogl", "foːɡl̩"],
     vmf: ["Vogel", "ˈfoːɡl̩"],
     nds: ["Vagel", "ˈfaːɣəl"],
-    ksh: ["Vugel", "fʊɡəl"],
+    ksh: ["Vugel", "ˈfʊɡəl"],
     pdc: ["Voggel", "fɔɡəl"],
     pdt: ["Voagel", "foəɡəl"],
     yi: ["פֿויגל", "ˈfɔɪ̯ɡl̩"],
@@ -609,7 +609,7 @@ WORDS.bird = {
     kos: ["won", "won"],
     myz: ["ࡑࡉࡐࡓࡀ", "sˤipra"],
     dsb: ["ptašk", "ptaʃk"],
-    gv: ["ushag", "ˈuʒaɡ"],
+    gv: ["ushag", "ˈuʃaɡ"],
     kw: ["edhen", "ɛðɛn"],
     zza: ["mıriçık", "mɨritʃɨk"],
     mrq: ["manu", "manu"],
@@ -798,7 +798,7 @@ WORDS.bird = {
     dlg: ["көтөр", "køtør"],
     // Ob-Ugric and Samoyedic have no simplex noun — the everyday word is a compound,
     // literally 'winged animal', built on the same 'animal' stem as the neighbours.
-    kca: ["тохӆаӈ вой", "toχɬaŋ woj"],
+    kca: ["тохӆаӈ вой", "toxɬaŋ woj"],
     mns: ["товлыӈ ӯй", "towlɪŋ uːj"],
     yrk: ["тиртя сармик", "tʲirtʲa sarmʲik"],
 

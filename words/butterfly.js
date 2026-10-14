@@ -343,7 +343,7 @@ WORDS.butterfly = {
     ig: ["ulukurubụba", "ulukuɾubʊba"],  // tone marks dropped to match the row's other Igbo cells
     so: ["balanbaallis", "balanbaːlːis"],  // Zorc & Osman list three further synonyms (baalalley, baalleybaro, babbisjinni); baalalley is built on baal 'feather, leaf'
     xh: ["ibhabhathane", "ibʱabʱaˈtʰaːne"],  // Kropf files it immediately under uku-bhabha 'to flutter like a bird in a trap; to fly'; it covers moths as well as butterflies
-    km: ["មេអំបៅ", "meː ʔɑmbaw"],  // first element មេ 'mother, female head'; the same dictionary also records a reduplicated synonym ប្ល៉ាក់ប្ល៉ាត plak-plaat
+    km: ["មេអំបៅ", "meː ʔɑmˈɓaw"],  // first element មេ 'mother, female head'; the same dictionary also records a reduplicated synonym ប្ល៉ាក់ប្ល៉ាត plak-plaat
     si: ["සමනලයා", "samanalajaː"],  // the -යා suffix is the animate-noun ending also seen in the row's බල්ලා, පූසා, කුරුල්ලා
     af: ["skoenlapper", "ˈskunlapər"],  // literally 'shoe-patcher, cobbler' (Dutch schoen 'shoe' + lappen 'to patch'), from the patchwork look of the wings; synonym vlinder
     za: ["mbaj", "ɓa˥"],  // cf. Bouyei mbax 'butterfly'; the dialectal mbungqmbaj is an alliterative two-syllable expansion of the same root
@@ -521,7 +521,7 @@ WORDS.butterfly = {
     rhg: ["bénbení", "benbeni"],
     tcy: ["ಪಂತೆ", "pante"],
     tmh: ["ⴰⵍⴼⴰⵇⵇⵉ", "alfaqːi"],
-    hyw: ["թիթեռ", "tʰiˈtʰeɾ"],
+    hyw: ["թիթեռ", "tʰiˈtʰɛɾ"],
     sco: ["butterflee", "ˈbʌtərfliː"],
     rgn: ["parpàia", "parˈpaja"],
     lv: ["tauriņš", "ˈtauriɲʃ"],

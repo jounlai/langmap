@@ -314,7 +314,7 @@ WORDS.tooth = {
     am: ["ጥርስ", "tʼɨrs"],
     aiw: ["achʼi", "atsʼi"],
     sgw: ["ስን", "sən"],
-    mg: ["nify", "nifi"],
+    mg: ["nify", "ˈnifi"],
     ain: ["ニマㇰ", "nimak"],
     fi: ["hammas", "ˈhɑmːɑs"],
     hu: ["fog", "foɡ"],

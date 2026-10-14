@@ -130,7 +130,7 @@ WORDS.iron = {
     oc: ["fèrre", "ˈfɛre"],
     sq: ["hekur", "ˈhɛkuɾ"],
     lt: ["geležis", "ɡʲɛlʲɛˈʒʲɪs"],
-    lv: ["dzelzs", "dzelzs"],
+    lv: ["dzelzs", "dzɛls"],
     hu: ["vas", "vɒʃ"],
     fi: ["rauta", "ˈrɑutɑ"],
     et: ["raud", "rɑud"],
@@ -345,7 +345,7 @@ WORDS.iron = {
     // --- Albanian hekur, Armenian erkatʰ, Tocharian eñcuwo ---------------
     aln: ["hekur", "ˈhɛkuɾ"],
     aae: ["hekur", "ˈhɛkuɾ"],
-    hyw: ["երկաթ", "jeɾˈɡɑtʰ"],
+    hyw: ["երկաթ", "jɛɾˈɡɑtʰ"],
     txb: ["𑀏𑀜𑁆𑀘𑀼𑀯𑁄", "eɲtɕuwo"],
 
     // --- Iranian — āhan in the east, āsin in the west, one root ----------
@@ -396,7 +396,7 @@ WORDS.iron = {
     aqc: ["лацут", "ˈlatsut"],
     ady: ["гъучӏы", "ʁʷətʃʼə"],
     kbd: ["гъущӏ", "ʁʷəɕʼ"],
-    ab: ["аиха", "aixa"],
+    ab: ["аиха", "ajxa"],
     xmf: ["რკინა", "rkʼina"],
     lzz: ["ერკინა", "erkʼina"],
     sva: ["ბერეჟ", "bereʒ"],
@@ -1000,7 +1000,7 @@ WORDS.iron = {
     lrc: ["آهن", "ɒhen"],
     nan_hai: ["铁", "hi˥˥"],
     sdh: ["ئاسن", "ɑːsɪn"],
-    pcm: ["iron", "aiɔn"],
+    pcm: ["iron", "aɪɔn"],
     mzn: ["آهن", "ɒhan"],
     bgq: ["लोह", "loːɦ"],
     mwr: ["लोह", "loːɦ"],

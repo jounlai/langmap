@@ -809,7 +809,7 @@ WORDS.horse = {
     hot: ["bokhos", "bɔkʰɔs"],
     emi: ["ooso", "ooso"],
     wbp: ["nantuwu", "nantuwu"],
-    kca: ["ӆов", "ɬow"],
+    kca: ["ӆов", "ɬɔːβ"],
     yan: ["aras", "aɾas"],
     vro: ["hopõn", "hopɤn"],
     pon: ["oahs", "ɔːs"],

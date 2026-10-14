@@ -1939,7 +1939,7 @@ WORDS.foot = {
     nuf: ["khɹi35", "kʰɹi˧˥"],  // ZMYYC 263.45 Bijiang kʰɹi³⁵ 'foot' against 264.45 bɔ̃³⁵ 'leg', the *bwal root — the same pair Hani and Lisu keep.
     nus: ["cio̱o̱k", "cɔːk"],  // Nuer keeps one word where Dinka does not: cio̱o̱k (pl. ciök) washes feet at John 13:5 and is what the soldiers break at John 19:32; cɔ̱w is the bone. // was ["cio̱o̱k", "tɕɔːk"] (vi dialect rules 2026-10-06)
     nut: ["tin", "tin˧˧"],  // IDS 413 sets Nùng tən.1 'foot' against kha.2 'leg'; the spelling is the Tày-Nùng orthography this row shares with tyz.
-    nv: ["akeeʼ", "ʔàkʰèːʔ"],  // Navajo splits them; both are obligatorily possessed, matching the row's hand cell álaʼ.
+    nv: ["akeeʼ", "ʔɑ̀kʰèːʔ"],  // Navajo splits them; both are obligatorily possessed, matching the row's hand cell álaʼ. // was ["akeeʼ", "ʔàkʰèːʔ"] (vi dialect rules 2026-10-06)
     nxq: ["kee", "kʰɯ˧"],  // ZMYYC 263.28 Lijiang kʰɯ³³ 'foot' against 264.28 nda³³ba³¹ 'leg', the *bwal root Burmish lost — Naxi falls on the Loloish side of that line. Spelled kee because this row's own dog cell writes the identical kʰɯ³³ that way; *krəy 'foot' and *kʷəy 'dog' fell together in Naxi.
     ny: ["phazi", "ˈpʰazí"],  // Chichewa splits them.
     nym: ["kugulu", "kuɡulu"],  // Velten's 1901 Kinyamwezi wordlist gives kugulu for Bein and Fuss alike; the ku- is the class-15 noun prefix, not an infinitive.

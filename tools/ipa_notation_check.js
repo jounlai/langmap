@@ -124,7 +124,7 @@ function main() {
         return m(p) - m(q);
     });
     console.log(`${rows.length} rows write one sound two ways\n`);
-    for (const [code, name, f] of rows.slice(0, 40)) {
+    for (const [code, name, f] of (args.includes("--all") ? rows : rows.slice(0, 40))) {
         const worst = f.reduce((p, x) =>
             Math.min(x.a.length, x.b.length) < Math.min(p.a.length, p.b.length) ? x : p);
         console.log(`  ${code.padEnd(10)}${(name || '').slice(0, 24).padEnd(25)}`

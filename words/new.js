@@ -376,7 +376,7 @@ WORDS.new = {
     ebu: ["gĩcerũ", "ɡetʃɛɾo"],
     agr: ["yamajam", "jamaham"],
     arn: ["we", "we"],
-    lkt: ["tȟéča", "txétʃa"],
+    lkt: ["tȟéča", "tˣétʃa"],
     inh: ["керда", "kerda"],
     lez: ["цӏийи", "tsʼiji"],
     dar: ["сагаси", "saɡasi"],

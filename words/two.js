@@ -396,7 +396,7 @@ WORDS.two = {
       mey: ["اثنين", "aθˈnajn"],
       ar_tn: ["زوز", "zuːz"],
       ar_sd: ["اتنين", "itˈneːn"],
-      ti: ["ክልተ", "kɨlɨtːɐ"],
+      ti: ["ክልተ", "kɨlɨttɐ"],
       mt: ["tnejn", "tnɛjn"],
       ig: ["abụọ", "abʊɔ"],
       bom: ["bà", "bà"],

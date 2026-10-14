@@ -413,7 +413,7 @@ WORDS.blood = {
     deg: ["ịjzalam", "ɪzalam"],
     ets: ["atale", "atale"],
     iso: ["azẹ", "azɛ"],
-    ha: ["jini", "dʒìníː"],
+    ha: ["jini", "dʒíníː"],
     xed: ["us", "us"],
     ker: ["kor", "koɾ"],
     dbq: ["ɓiɓiž", "ɓiɓiʒ"],

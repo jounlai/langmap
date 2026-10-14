@@ -981,7 +981,7 @@ WORDS.coffee = {
     ar_lev: ["قهوة", "ˈʔahwe"],
     emk: ["kafe", "kafe"],
     bm: ["kafe", "kafe"],
-    ab: ["акаҳуа", "akaħʷa"],
+    ab: ["акаҳуа", "akʼaħʷa"], // was ["акаҳуа", "akaħʷa"] (vi dialect rules 2026-10-06)
     aqc: ["копе", "kope"],
     lez: ["къагьве", "qahwe"],
     dar: ["кофе", "kofe"],
@@ -1258,11 +1258,11 @@ WORDS.coffee = {
     alt: ["кофе", "ˈkofe"],
     cv: ["кофе", "ˈkofe"],
     my: ["ကော်ဖီ", "kɔ̀pʰì"],
-    km: ["កាហ្វេ", "kaː feː"],
+    km: ["កាហ្វេ", "kaːˈfeː"], // was ["កាហ្វេ", "kaː feː"] (vi dialect rules 2026-10-06)
     lo: ["ກາເຟ", "kaː˩˧ feː˧˥"],
     yo: ["kọfí", "kɔfí"],
     zu: ["ikhofi", "iˈkʰofi"],
-    am: ["ቡና", "bunna"],
+    am: ["ቡና", "bunːa"], // was ["ቡና", "bunna"] (vi dialect rules 2026-10-06)
     fi: ["kahvi", "ˈkɑhʋi"],
     hu: ["kávé", "ˈkaːveː"],
     el: ["καφές", "kaˈfes"],

@@ -47,6 +47,7 @@ WORDS.wine = {
     sw: "Mvinyo — maji ya zabibu yaliyochachushwa. Neno hili linavuka familia tatu zisizohusiana kuzunguka Kaukasia, na nani alikopa kwa nani bado halijulikani.",
   },
   family: {
+    szy: "other",
     pi_edu: "other",
     deg: "other",
     bnn: "other",
@@ -964,6 +965,7 @@ WORDS.wine = {
     other: { color: "#6b7280", emoji: "🛤️", en: "named locally or borrowed later", ja: "現地語または後代の借用", ko: "현지어 또는 후대의 차용", zh: "本地命名或后世借入", yue: "本地命名或者後世借入", vi: "gọi theo bản địa hoặc vay mượn về sau", th: "ตั้งชื่อในท้องถิ่นหรือยืมภายหลัง", id: "dinamai setempat atau dipinjam kemudian", hi: "स्थानीय नाम या बाद का उधार", de: "einheimisch benannt oder später entlehnt", fr: "nommé localement ou emprunté plus tard", it: "denominato localmente o preso in prestito più tardi", es: "nombrado localmente o tomado más tarde", pt: "nomeado localmente ou tomado mais tarde", ru: "местное название или позднее заимствование", uk: "місцева назва або пізніше запозичення", ar: "تسمية محلية أو اقتراض متأخر", he: "שם מקומי או שאילה מאוחרת", sw: "limepewa jina la kienyeji au limekopwa baadaye" },
   },
   data: {
+    szy: ["epah", "əpah"],
     pi_edu: ["surā", "suraː"],
     deg: ["uḍi", "uɗi"],
     bnn: ["davus", "davus"],
@@ -1291,10 +1293,10 @@ WORDS.wine = {
     ms: ["wain", "wain"],
     tl: ["alak", "ˈʔalak"],
     h_tagalog: ["ᜀᜎᜃ᜔", "ˈalak"], // was ["ᜀᜎᜃ᜔", "ˈʔalak"] (vi dialect rules 2026-10-06)
-    am: ["ወይን", "wɐjn"],
+    am: ["ወይን", "wəjn"], // was ["ወይን", "wɐjn"] (vi dialect rules 2026-10-06)
     ha: ["ruwan inabi", "ɾuwan inabiː"], // was ["giya", "ɡija"] (r29 fix 2026-10-02) // was ["ruwan inabi", "ɾuwan inabi"] (vi dialect rules 2026-10-06)
     zu: ["iwayini", "iwaˈjini"],
-    mg: ["divay", "divaj"],
+    mg: ["divay", "diˈvaj"], // was ["divay", "divaj"] (vi dialect rules 2026-10-06)
 
     // --- Pluricentric rows — all carry the Latin word ---------------------
     es_ar: ["vino", "ˈbino"],
@@ -1743,7 +1745,7 @@ WORDS.wine = {
     ljp: ["anggor", "aŋɡor"],
     tkl: ["uaina", "uaina"],
     gor: ["angguru", "aŋˈɡuru"],
-    mak: ["anggoroʼ", "aŋˈɡoroʔ"],
+    mak: ["anggoroʼ", "ˈaŋɡoroʔ"], // was ["anggoroʼ", "aŋˈɡoroʔ"] (vi dialect rules 2026-10-06)
     dtp: ["waig dot anggur", "waiɡ dot aŋɡur"],
     nij: ["anggor", "aŋɡor"],
     sda: ["uai anggoroʼ", "uai aŋɡoroʔ"],

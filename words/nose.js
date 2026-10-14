@@ -179,7 +179,7 @@ WORDS.nose = {
     twm: ["nᴀ53", "nᴀ˥˧"],
     dta: ["hamara", "hamara"],
     my: ["နှာခေါင်း", "n̥əkʰáʊɴ"],
-    km: ["ច្រមុះ", "crɑmoh"],
+    km: ["ច្រមុះ", "crɑˈmoh"],
     lo: ["ດັງ", "daŋ˩˧"],
     yo: ["imú", "imú"],
     zu: ["ikhala", "iˈkʰala"],
@@ -889,7 +889,7 @@ WORDS.nose = {
     gsw_w: ["Nasa", "ˈnasa"],
     wym: ["nōs", "noːs"],
     lij_t: ["nozu", "ˈnɔːzu"],
-    ltg: ["nuoss", "nuɔ̯ss"],
+    ltg: ["daguns", "ˈdaɡunts"],
     uln: ["Nase", "ˈnasɛ"],
     // --- Austroasiatic — *muh straight across Munda, Mon and Bahnaric ---
     kjg: ["muh", "muh"],
@@ -934,7 +934,7 @@ WORDS.nose = {
     khq: ["nine", "nine"],
     dje: ["nine", "nine"],
     // --- Mayan — juʼ in the west, tzaʼm/niʼ elsewhere -------------------
-    usp: ["tzaʼm", "tsaʔm"],
+    usp: ["tzaam", "tsaːm"],
     cak: ["tzaʼn", "tsaʔn"],
     poh: ["juʼ", "xuʔ"],
     agu: ["juʼ", "huʔ"],

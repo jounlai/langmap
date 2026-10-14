@@ -1029,6 +1029,7 @@ for (const code of codes) {
             // after any harvest, because a stale entry silently licenses a marker
             // nobody is still looking for.
             const MODERN_UNSOURCED_ALLOW = {
+                szy: new Set(['chocolate']),   // r109: wrong cell removed; no sourced form found
                 ain: new Set(['wheel']),   // r106: wrong cell removed; no sourced form found
                 tus: new Set(['tree', 'star', 'mother', 'moon', 'drink', 'eat', 'hello']),   // r106: wrong cell removed; no sourced form found
                 ter: new Set(['hello']),   // r106: wrong cell removed; no sourced form found

@@ -189,7 +189,7 @@ WORDS.head = {
     enf: ["eba", "ɛba"],
     nio: ["ӈойбуо", "ŋojbʷo"],
     sel: ["олы", "olɨ"],
-    kca: ["ох", "oχ"],
+    kca: ["о̆х", "ox"],
     ckt: ["ԓевыт", "ɬewət"],
     itl: ["ктхыӈ", "ktxiŋ"],
     ykg: ["йуо", "juo"],

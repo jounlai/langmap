@@ -1176,7 +1176,7 @@ WORDS.bear = {
     rap: ["oso", "oso"],
     sas: ["beruang", "bəruaŋ"],
     ljp: ["beruang", "bəʁuaŋ"],
-    mak: ["beruang", "bəruaŋ"],
+    mak: ["beruang", "beruaŋ"], // was ["beruang", "bəruaŋ"] (vi dialect rules 2026-10-06)
     sda: ["beruang", "beruaŋ"],
     gor: ["boruangi", "boruaŋi"],
     mad: ["baruwang", "baruwaŋ"],
@@ -1381,7 +1381,7 @@ WORDS.bear = {
     mwl: ["urso", "ˈuɾsu"], // was ["urso", "ˈursu"] (vi dialect rules 2026-10-06) // was ["urso", "ˈuɾsu"] (vi dialect rules 2026-10-06)
     // Ladino and Ladin fused the article onto the noun: l' + onso.
     lad: ["lonso", "ˈlonso"],
-    mt: ["ors", "ors"],
+    mt: ["ors", "ɔrs"], // was ["ors", "ors"] (vi dialect rules 2026-10-06)
     sq: ["ari", "aˈɾi"], // was ["ari", "ˈari"] (vi dialect rules 2026-10-06)
     aln: ["ari", "aˈɾi"], // was ["ari", "aˈri"] (vi dialect rules 2026-10-06)
     eo: ["urso", "ˈurso"],
@@ -1574,7 +1574,7 @@ WORDS.bear = {
     apw: ["shash", "ʃaʃ"],
     chr: ["ᏲᎾ", "jona"],
     moh: ["ohkwá:ri", "ohkwáːri"], // was ["ohkwári", "ohkwári"] (vi dialect rules 2026-10-06)
-    lkt: ["matȟó", "matxó"], // was ["matȟó", "matʰó"] (vi dialect rules 2026-10-06)
+    lkt: ["matȟó", "matˣó"], // was ["matȟó", "matʰó"] (vi dialect rules 2026-10-06) // was ["matȟó", "matxó"] (vi dialect rules 2026-10-06)
     osa: ["wasápe", "wasápe"],
     qwc: ["ukumari", "ukumaɾi"],
     qu: ["ukumari", "ukuˈmaɾi"], // was ["ukumari", "ukumaɾi"] (vi dialect rules 2026-10-06)
@@ -1822,7 +1822,7 @@ WORDS.bear = {
     khb: ["ᦖᦲ", "miː˥"], // was ["ᦖᦲ", "miː"] (vi dialect rules 2026-10-06)
     shn: ["မီ", "miː˨˦"],
     blt: ["ꪢꪲ", "miː˨"], // was ["ꪢꪲ", "miː˨˦"] (r31 fix 2026-10-02)
-    pcc: ["moil", "moi˨˦"], // was ["moil", "moi˧˥"] (vi dialect rules 2026-10-06)
+    pcc: ["moil", "moːi˨˦"], // was ["moil", "moi˧˥"] (vi dialect rules 2026-10-06) // was ["moil", "moi˨˦"] (vi dialect rules 2026-10-06)
     nut: ["mi", "mi˧˧"], // was ["mui", "mui˧˧"] (vi dialect rules 2026-10-06)
     th_isan: ["หมี", "miː˩˧"],
     th_n: ["หมี", "miː˩˧"],
@@ -1890,7 +1890,7 @@ WORDS.bear = {
     gay: ["telkah", "təlkah"],
     mrw: ["barowang", "barowaŋ"],
     ban: ["beruang", "bəruaŋ"],
-    ceb: ["oso", "ˈoso"],
+    ceb: ["oso", "ˈʔoso"], // was ["oso", "ˈoso"] (vi dialect rules 2026-10-06)
     war: ["uso", "ˈʔuso"], // was ["oso", "ˈoso"] (vi dialect rules 2026-10-06)
     bik: ["oso", "ˈoso"],
     pam: ["osu", "ˈosu"],

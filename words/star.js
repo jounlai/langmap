@@ -1063,7 +1063,7 @@ WORDS.star = {
       kwk: ["t̓ut̓u", "tʼutʼu"],
       blc: ["mixmikʼł", "mixmikʼɬ"],
       sad: ["hĩǀáwã", "hĩ́ǀáwã̀ː"],
-      pcc: ["ndaux", "ɗɐu˧˩"],
+      pcc: ["ndaaulndis", "ɗaːu˨˦ɗi˧˥"],
       ium: ["hleix", "l̥ei˨˧"],
       hui: ["yapibiya", "japibija"],
       tkl: ["fetū", "fetuː"],

@@ -176,7 +176,7 @@ WORDS.green = {
     gym: ["rerebare", "ɾeɾebaɾe"], // Ngäbere NT, five occurrences, all colour — including Rev 4:3 glossing it against the emerald. Constenla's kare was rejected: the Talking Dictionary that matches this row word for word has kare as the verb 'to sing', with no colour sense.
     jiv: ["sámek", "ˈsamek"],      // Pellizzaro's Chicham dictionary via northperulex; the Shuar NT has numi sameka 'the green tree' at Luke 23:31. Shuar ⟨e⟩ is phonemically [ɨ] and both sources write samɨk, but this row renders ⟨e⟩ as e throughout (penker → peŋkeɾ), so e it is.
     eo: ["verda", "ˈverda"],
-    ab: ["аиаҵәа", "ajatsʼʷa"],
+    ab: ["аиаҵәа", "ajatsʷʼa"],
     ace: ["ijo", "iɟo"],
     acf: ["vèt", "vɛt"],
     ady: ["уцышъо", "wətsəʂʷa"],
@@ -283,7 +283,7 @@ WORDS.green = {
     hsn: ["绿", "ləu˨˦"],
     huz: ["ничду", "nitʃdu"],
     hy_grab: ["կանաչ", "kanatʃ"],
-    hyw: ["կանաչ", "ɡɑˈnɑtʃ"],
+    hyw: ["կանաչ", "ɡɑˈnɑtʃʰ"],
     ia: ["verde", "ˈverde"],
     iba: ["ijau", "idʒau"],
     ie: ["verd", "verd"],
@@ -314,7 +314,7 @@ WORDS.green = {
     kjb: ["yax", "jaʂ"],
     kl: ["qorsuk", "qoχsuk"],
     kln: ["nyalil", "ɲalil"],
-    km: ["បៃតង", "ɓajtɑːŋ"],
+    km: ["បៃតង", "ɓajˈtɑːŋ"],
     kmh: ["kmab", "kmab"],
     kn: ["ಹಸಿರು", "hasiru"],
     ko_em: ["푸르다", "puɾɯda"],
@@ -338,7 +338,7 @@ WORDS.green = {
     lic: ["khi:u1", "kʰiːu˥˧"],   // Grue: IDS gives khi:u.1 for both blue and green in Baoting Hlai, which is why this repeats the cell already in 'blue'.
     lij: ["vèrde", "ˈvɛrde"],
     liv: ["ǭļaz", "ˈɔːʎɑz"],   // Wiktionary lemmatises it at ǭļaz; NorthEuraLex writes the same word ōļaz, without the ogonek that Livonian orthography needs.
-    lkt: ["tȟózi", "txózi"],   // Literally tȟó 'blue' + zí 'yellow'. Lakota can also say plain tȟó of green things, so this is the specific term inside a grue system, not a separate basic colour.
+    lkt: ["tȟózi", "tˣózi"],   // Literally tȟó 'blue' + zí 'yellow'. Lakota can also say plain tȟó of green things, so this is the specific term inside a grue system, not a separate basic colour.
     lld: ["vërt", "vərt"],
     lmo: ["verd", "vert"],
     lo: ["ຂຽວ", "kʰiːə̯w˩˧"],
@@ -808,7 +808,7 @@ WORDS.green = {
     aln: ["jeshil", "jeˈʃil"],
     kfy: ["हरियो", "ɦərijo"],
     gsw_w: ["grie", "ɡriə"],
-    lij_t: ["verde", "ˈvɛrde"],
+    lij_t: ["verde", "ˈvɛːrde"],
     sva: ["ჲჷრჟი", "jərʒi"],
     bdk: ["йашил", "jaʃil"],
     udi: ["йаьшил", "jæʃil"],
@@ -919,7 +919,7 @@ WORDS.green = {
     tob: ["dadala", "dadala"],
     plg: ["dadala", "dadala"],
     cag: ["nipewajʃi", "nipewajʃi"],
-    tsi: ["mełiitk", "məɬiːtk"],
+    tsi: ["mełiitk", "meɬiːtk"],
     bej: ["sootaay", "soːtaːj"],
     her: ["tarazu", "tarazu"],
     sad: ["jaanga", "ɟaːŋɡa"],

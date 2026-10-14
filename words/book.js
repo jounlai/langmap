@@ -790,7 +790,7 @@ WORDS.book = {
     emp: ["karta", "kaɾta"],
     chk: ["puk", "puk"],
     udi: ["гирк", "ɡirk"],
-    crn: ["liibru", "ˈliːbɾu"],
+    crn: ["yuʼuxari", "juʔuʃaɾi"],
     cni: ["sankenarentsi", "saŋkenaɾentsi"],
     acu: ["papi", "papi"],
     ame: ["quelloc", "keʎok"],

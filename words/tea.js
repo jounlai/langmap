@@ -1035,7 +1035,7 @@ WORDS.tea = {
     kbd: ["шай", "ʃaːj"],
     aqc: ["чий", "tʃij"],
     ady: ["щай", "ɕaːj"],
-    ab: ["ачаи", "atʃai"],
+    ab: ["ачаи", "atʃʰai"], // was ["ачаи", "atʃai"] (vi dialect rules 2026-10-06)
     dar: ["чай", "tʃaj"],
     lez: ["чай", "tʃaj"],
     lbe: ["чяй", "tʃjaj"],

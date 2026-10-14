@@ -290,7 +290,7 @@ WORDS.good = {
     am: ["ጥሩ", "tʼɨru"],
     aiw: ["laqami", "lakʼaˈmi"],
     sgw: ["ወኼ", "wɐxe"],
-    mg: ["tsara", "tsara"],
+    mg: ["tsara", "ˈtsara"],
     ain: ["ピㇼカ", "piɾka"],
     fi: ["hyvä", "hyʋæ"],
     hu: ["jó", "joː"],

@@ -102,7 +102,7 @@ WORDS.mountain = {
     ar: ["جبل", "ˈdʒabal"],
     he: ["הר", "haʁ"],
     tr: ["dağ", "daː"],
-    sw: ["mlima", "ˈmlima"],
+    sw: ["mlima", "mˈlima"],
     fi: ["vuori", "ˈʋuori"],
     hu: ["hegy", "hɛɟ"],
     eu: ["mendi", "ˈmendi"],

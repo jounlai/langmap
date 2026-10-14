@@ -1086,7 +1086,7 @@ WORDS.sea = {
     zh_han: ["海", "m̥ǝ̄́"],
     kxv: ["samduri", "samduri"],
     bzd: ["dayë", "dajə"],
-    ers: ["ŋkhuɑ", "ŋkʰuɑ˥˥"],
+    ers: ["ŋkʰuɑ", "ŋkʰuɑ˥˥"],
     olk: ["uland", "uland"],
     bca: ["ko", "ko˨˩"],
     gum: ["mar", "maɾ"],

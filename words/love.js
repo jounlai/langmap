@@ -458,7 +458,7 @@ WORDS.love = {
     bg: ["любов", "lʲoˈbɔf"],
     lt: ["meilė", "ˈmʲɛɪlʲeː"],
     sgs: ["meilė", "mʲɛileː"],
-    lv: ["mīlestība", "miːlɛstiːba"],
+    lv: ["mīlestība", "ˈmiːlɛstiːba"],
     prg: ["milīt", "miliːt"],
     sq: ["dashuri", "daʃuɾi"],
     aae: ["dashuri", "daʃuɾi"],

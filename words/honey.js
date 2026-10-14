@@ -549,7 +549,7 @@ WORDS.honey = {
     zh_km: ["蜂蜜", "foŋ˦˦ mi˧˩"],
     zh_kf: ["蜂蜜", "fəŋ˨˦ mi˨˦"],
     zh_zz: ["蜂蜜", "fəŋ˨˦ mi˨˦"],
-    zh_xa: ["蜂蜜", "fəŋ˨˩ mi˨˩"],
+    zh_xa: ["蜂蜜", "fəŋ˨˩ mi"],
     // Min Nan reads 蜂 with the colloquial phang, not the literary hong.
     nan: ["蜂蜜", "pʰaŋ˦˦ bit˦"],
     nan_xm: ["蜂蜜", "pʰaŋ˦˦ bit̚˦"],
@@ -1000,7 +1000,7 @@ WORDS.honey = {
     rmf: ["meeda", "meːda"],
     cho: ["foi bila", "foi bila"],
     mus: ["fo-encvmpe", "fo intʃəmpi"],
-    lkt: ["tȟuȟmáǧa čhaŋháŋpi", "txuχmáɣa tʃʰãhã́pi"],
+    lkt: ["tȟuȟmáǧa čhaŋháŋpi", "tˣuχmáɣa tʃʰãhã́pi"],
     huv: ["kün", "kɨn"],
     crn: ["searate", "seaɾate"],
     crx: ["tsʼihnatlʼuz", "tsʼihnatɬʼuz"],

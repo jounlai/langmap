@@ -170,7 +170,7 @@ WORDS.person = {
     ami: ["tamdaw", "tamðaw"],
     amw: ["ܒܪܢܫܐ", "barnoːʃa"],
     an: ["persona", "peɾˈsona"],
-    ang: ["mann", "mɑnn"],
+    ang: ["mann", "mɑnː"],
     ani: ["гьекӏа", "hekʼa"],
     aoz: ["atoni", "atoni"],
     aqc: ["адам", "adam"],

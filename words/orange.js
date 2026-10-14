@@ -67,6 +67,7 @@ WORDS.orange = {
     sw: "Chungwa — tunda tamu la jamii ya michungwa, na ramani ya majibu manne tofauti kwa swali lilelile. Tunda hili lilifika Ulaya mara mbili. Chungwa chungu lilikuja nchi kavu na biashara ya Kiajemi na Kiarabu enzi za kati, likibeba neno la Kisanskriti नारङ्ग: نارنج → Kihispania naranja, Kiitaliano arancia, Kifaransa na Kiingereza orange. Chungwa tamu lilikuja baharini katika karne ya 16 kwa meli za Kireno, na nusu ya Mediterania ya mashariki ikaliita tu kwa jina la wafanyabiashara hao — Kigiriki πορτοκάλι, Kituruki portakal, Kiarabu برتقال, Kiamhari ብርቱካን, Kijojia ფორთოხალი, Kiajemi پرتقال. Ulaya ya Kaskazini ilichukua jibu la tatu kutoka kwa wafanyabiashara wa Kiholanzi, walioliita \"tufaha kutoka Uchina\": sinaasappel, Apfelsine, апельсин, appelsiini. Na sehemu kubwa ya dunia iliendelea tu na neno lake yenyewe.",
   },
   family: {
+    szy: "local",
     vot: "china",
     ctg: "local",
     osp: "naranj",
@@ -709,6 +710,7 @@ WORDS.orange = {
     local: {"color":"#6b7280","emoji":"🏡","en":"its own word","ja":"自前の語","ko":"고유어","zh":"自有的詞","yue":"自己本身嘅詞","vi":"từ của riêng mình","th":"คำของตัวเอง","id":"kata sendiri","hi":"अपना ही शब्द","de":"eigenes Wort","fr":"mot propre","it":"parola propria","es":"palabra propia","pt":"palavra própria","ru":"собственное слово","uk":"власне слово","ar":"كلمته الخاصة","he":"מילה משלה","sw":"neno lake lenyewe"},
   },
   data: {
+    szy: ["kama", "kama"],
     vot: ["apelsina", "ˈapelsina"],
     ctg: ["হঁলা", "hɔ̃la"],
     osp: ["naranja", "naˈɾanʒa"],
@@ -831,7 +833,7 @@ WORDS.orange = {
     dur: ["ləmɔ́", "ləmɔ"],
     mwr: ["संतरौ", "sə̃ntəɾɔ"],
     dtp: ["limau", "limau"],
-    nv: ["chʼil łitsxooí", "tʃʼil ɬitsʰxoːí"],
+    nv: ["chʼil łitsxooí", "tʃʼìl ɬìtsʰxòːí"], // was ["chʼil łitsxooí", "tʃʼil ɬitsʰxoːí"] (vi dialect rules 2026-10-06)
     hmn: ["txiv kab ntxwv", "tsi˨˦ ka˥ ⁿdzɨ˨˦"],
     abe: ["wasawas", "wasawas"],
     pnb: ["نارنگی", "naːɾəŋɡiː"],
@@ -877,7 +879,7 @@ WORDS.orange = {
     piu: ["yaarinytji", "jaːɻiɲci"],
     smj: ["appelsijnna", "ˈapːelsijnːa"],
     cjy_lv: ["橙", "tsʰʌŋ˦˦"],
-    lkt: ["tȟaspáŋzi", "txaspã́zi"], // was ["tȟaspáŋzi", "tʰaspã́zi"] (vi dialect rules 2026-10-06)
+    lkt: ["tȟaspáŋzi", "tˣaspã́zi"], // was ["tȟaspáŋzi", "tʰaspã́zi"] (vi dialect rules 2026-10-06) // was ["tȟaspáŋzi", "txaspã́zi"] (vi dialect rules 2026-10-06)
     gun: ["narã", "naˈɾã"],
     gn: ["narã", "naˈɾã"],
     nch: ["lalax", "ˈlalaːʃ"],
@@ -1292,7 +1294,7 @@ WORDS.orange = {
     nso: ["namune", "namune"],
     lmo: ["naranz", "naˈrans"],
     pms: ["portugal", "purtyˈɡal"], // was ["aransa", "aˈraŋsa"] (vi dialect rules 2026-10-06)
-    mwl: ["lharanja", "ʎaˈɾɐ̃ʒa"], // was ["laranja", "laˈɾɐ̃ʒa"] (r29 fix 2026-10-02)
+    mwl: ["lharanja", "ʎaˈɾɐ̃ʒɐ"], // was ["laranja", "laˈɾɐ̃ʒa"] (r29 fix 2026-10-02) // was ["lharanja", "ʎaˈɾɐ̃ʒa"] (vi dialect rules 2026-10-06)
     pnt: ["πορτοκάλ", "portoˈkal"],
     dsb: ["apelsina", "ˈapɛlsina"], // was ["pomerantša", "ˈpɔmɛrantʃa"] (vi dialect rules 2026-10-06)
     gv: ["oarn", "ɔːrn"],

@@ -255,7 +255,7 @@ WORDS.sleep = {
     arq: ["رقد", "rɡəd"],
     ar_tn: ["رقد", "rqad"],
     ar_sd: ["نام", "naːm"],
-    ti: ["ደቀሰ", "dɐkʼɐsɐ"],
+    ti: ["ምድቃስ", "mɨdkʼkʼas"],
     mt: ["raqad", "ˈraʔat"],
     wo: ["nelaw", "nɛlaw"],
     so: ["hurdo", "hurdo"],

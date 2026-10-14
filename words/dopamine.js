@@ -319,7 +319,7 @@ WORDS.dopamine = {
     dsb: ["dopamin", "ˈdɔpamʲin"],
     mzn: ["دوپامین", "dopɒːmin"],
     gsw_w: ["Dopamin", "dopaˈmiːn"],
-    mwl: ["dopamina", "dopaˈminɐ"],
+    mwl: ["dopamina", "dupaˈminɐ"],
     hyw: ["տոփամին", "dopʰɑˈmin"],
     sco: ["dopamine", ""],
     bik: ["dopamine", ""],

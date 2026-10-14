@@ -1418,7 +1418,7 @@ WORDS.we = {
     itl: ["музан", "muzaʔn"],
     ykg: ["мит", "mit"],
     yux: ["мит", "mit"],
-    niv: ["мер / ньыӈ", "mer / ɲəŋ"],
+    niv: ["мер / ньыӈ", "mer / ɲɯŋ"], // was ["мер / ньыӈ", "mer / ɲəŋ"] (vi dialect rules 2026-10-06)
     ket: ["әтн", "ətn"], // was ["әтн", "ɤtn"] (vi dialect rules 2026-10-06)
     my: ["ငါတို့", "ŋàto̰"],
     km: ["យើង", "jəːŋ"],
@@ -1451,7 +1451,7 @@ WORDS.we = {
     sva: ["ნა̈ჲ", "næj"],
     hy: ["մենք", "menkʰ"], // was ["մենք", "mɛnkʰ"] (vi dialect rules 2026-10-06)
     hyw: ["մենք", "mɛnkʰ"],
-    nv: ["nihí", "nihí"],
+    nv: ["nihí", "nìhí"], // was ["nihí", "nihí"] (vi dialect rules 2026-10-06)
     koy: ["—", "—"],
     haw: ["kākou / mākou", "kaːkou / maːkou"],
     mi: ["tātou / mātou", "taːtou / maːtou"],
@@ -2189,7 +2189,7 @@ WORDS.we = {
     pag: ["sikatayo / sikami", "sikatajo / sikami"],
     mdh: ["sekitanu / sekami", "səkitanu / səkami"],
     gor: ["ito / ami", "ʔito / ʔami"],
-    mak: ["ikatte / ikambe", "ikaʔte / ikambe"],
+    mak: ["ikatte / ikambe", "iˈkatːe / iˈkambe"], // was ["ikatte / ikambe", "ikaʔte / ikambe"] (vi dialect rules 2026-10-06)
     fon: ["mǐ", "mǐ"],
     kri: ["wi", "wi"],
     dag: ["tinima", "tinima"],

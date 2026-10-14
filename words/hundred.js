@@ -238,7 +238,7 @@ WORDS.hundred = {
     pmng: ["*ǰaxun", "dʒaxun"],
     xng: ["ᠵᠠᠭᠤᠨ", "dʒaun"],
     cmg: ["ᠵᠠᠭᠤᠨ", "dʒaɣun"],
-    mn: ["зуу", "tsʊː"],
+    mn: ["зуу", "dzʊː"],
     p_tun: ["*taŋgu", "taŋɡu"],
     mnc: ["ᡨᠠᠩᡤᡡ", "taŋɡuː"],
 
@@ -358,7 +358,7 @@ WORDS.hundred = {
     lmo: ["cent", "tʃent"],
     pms: ["sent", "sɛŋt"],
     rup: ["sutã", "ˈsutə"],
-    wa: ["cint", "sɛ̃"],
+    wa: ["cint", "sɛ̃t"],
 
     // --- English — the vowel is each row's own STRUT, read off its blood --
     en_us: ["hundred", "ˈhʌndɹəd"],
@@ -429,7 +429,7 @@ WORDS.hundred = {
     mrj: ["шӱдӹ", "ʃyðɯ"],
     liv: ["sadā", "ˈsɑdɑː"],
     mns: ["са̄т", "saːt"],
-    kca: ["сот", "sot"],
+    kca: ["сот", "sɔːt"],
 
     // Romani šel is Sanskrit शतम् — the satem form, carried out of India.
     dty: ["सय", "səj"],
@@ -1179,6 +1179,6 @@ WORDS.hundred = {
     xsr: ["ཟ་ཡི", "saji"],
     haj: ["so", "sɔ"],
     wae: ["Hunnert", "ˈhʊnːərt"],
-    tsi: ["tʼekʼyil", "tʼekʼjil"]
+    tsi: ["tʼekʼyil", "tʼekʲʼil"]
   },
 };

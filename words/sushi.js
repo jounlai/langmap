@@ -170,7 +170,7 @@ WORDS.sushi = {
     "es_uy": ["sushi", "ˈsuʃi"],
     "es_ve": ["sushi", "ˈsusi"],
     "et": ["suši", "ˈsuʃi"],
-    "eu": ["sushi", "s̺uʃi"],
+    "eu": ["sushi", "suʃi"],
     "fa": ["سوشی", "suːʃiː"],
     "fa_clas": ["شورماهی", "ʃuːr maːˈhiː"],
     "fi": ["sushi", "ˈsuʃi"],

@@ -1020,7 +1020,7 @@ WORDS.sugar = {
     gor: ["hula", "hula"],
     bew: ["gula", "ɡula"],
     fon: ["suklè", "suklè"],
-    new: ["चिनी", "tsiniː"],
+    new: ["चिनी", "tɕiniː"], // was ["चिनी", "tsiniː"] (vi dialect rules 2026-10-06)
     pis: ["suga", "suɡa"],
     rhg: ["siní", "sini"],
     car: ["sukulu", "sukulu"],
@@ -1541,7 +1541,7 @@ WORDS.sugar = {
     sco: ["shuggar", "ˈʃʌɡər"],
     af: ["suiker", "ˈsœɪkər"],
     nds: ["Sucker", "ˈzʊkɐ"],
-    yi: ["צוקער", "ˈtsukər"],
+    yi: ["צוקער", "ˈtsʊkər"], // was ["צוקער", "ˈtsukər"] (vi dialect rules 2026-10-06)
     is: ["sykur", "ˈsɪːkʏr"],
     gd: ["siùcar", "ˈʃuːxkəɾ"],
     br: ["sukr", "sykɾ"],

@@ -127,7 +127,7 @@ WORDS.wheel = {
     sq: ["rrotë", "ˈrotə"],
     hu: ["kerék", "ˈkɛreːk"],
     fi: ["pyörä", "ˈpyøræ"],
-    et: ["ratas", "ˈratas"],
+    et: ["ratas", "ˈrɑtɑs"],
     eu: ["gurpil", "ɡurpil"],
     ka: ["ბორბალი", "borbali"],
     hy: ["անիվ", "ɑˈniv"],
@@ -274,7 +274,7 @@ WORDS.wheel = {
     tcy: ["ಚಕ್ರ", "tʃakɾa"],
     hne: ["चक्का", "tʃəkkaː"],
     hy_grab: ["անիւ", "aniw"],
-    hyw: ["անիւ", "aˈniv"],
+    hyw: ["անիւ", "ɑˈniv"],
     prg: ["kelan", "kelan"],
     xto: ["𑀓𑀼𑀓𑀮𑁆", "kukəl"],
 
@@ -283,7 +283,7 @@ WORDS.wheel = {
     szl: ["koło", "ˈkɔwɔ"],
     hsb: ["koleso", "ˈkɔlɛsɔ"],
     dsb: ["kólaso", "ˈkɛlasɔ"],
-    rue: ["колесо", "ˈkolɛso"],
+    rue: ["колесо", "ˈkoleso"],
     // Bosnian takes točak with Serbian, not kolo with Czech
     bs: ["točak", "ˈtotʃak"],
 
@@ -443,7 +443,7 @@ WORDS.wheel = {
     ht: ["wou", "wu"],
     acf: ["woul", "wul"],
     gcf: ["wou", "wu"],
-    mfe: ["larou", "laru"],
+    mfe: ["larou", "laʁu"],
     crs: ["larou", "laru"],
     kea: ["roda", "ˈrɔdɐ"],
     pt_gw: ["roda", "ˈrɔda"],
@@ -683,7 +683,7 @@ WORDS.wheel = {
     bbc: ["roda", "roda"],
     sda: ["lentenan", "lentenan"],
     iba: ["peruda", "pəruda"],
-    fj: ["yava", "java"],
+    fj: ["yava", "jaβa"],
     to: ["veʻeteka", "veʔeteka"],
     tvl: ["teka", "teka"],
     rap: ["—", "—"],
@@ -843,7 +843,7 @@ WORDS.wheel = {
     ljp: ["ruda", "ʁuda"],
     grt: ["chakka", "tʃakka"],
     bom: ["hara", "hara"],
-    new: ["घःचाः", "ɡʱʌtʃaː"],
+    new: ["घःचाः", "ɡʱəːtɕaː"],
     dz: ["འཁོར་ལོ", "kʰoːlo"],
     nia: ["gaolo-gaolo", "ɡaoloɡaolo"],
     tji: ["cielunzi", "tsʰie˥˥luən˨˩tsi˨˩"],
@@ -953,6 +953,7 @@ WORDS.wheel = {
     sus: ["sanyi radigilinxi", "saɲi ɾadiɡilinxi"],
     hch: ["mɨxikɨrawi", "mɨʃikɨrawi"],
     kpe: ["káraŋ", "káraŋ"],
-    mnk: ["sareeti siŋo", "sareːti siŋo"]
+    mnk: ["sareeti siŋo", "sareːti siŋo"],
+    mam: ["rwed", "rwed"]
   }
 };

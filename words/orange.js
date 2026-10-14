@@ -1098,11 +1098,11 @@ WORDS.orange = {
     no: ["appelsin", "ɑpəlˈsiːn"],
     da: ["appelsin", "ɑb̥l̩ˈsiːˀn"], // was ["appelsin", "ˌæbəlˈsiːˀn"] (vi dialect rules 2026-10-06)
     ga: ["oráiste", "ˈɔɾˠaːʃtʲə"],
-    eu: ["laranja", "laɾanʃa"],
+    eu: ["laranja", "laɾanja"], // was ["laranja", "laɾanʃa"] (vi dialect rules 2026-10-06)
     cy: ["oren", "ˈɔrɛn"],
     ka: ["ფორთოხალი", "pʰortʰoxali"],
     hy: ["նարինջ", "nɑˈɾindʒ"], // was ["նարինջ", "naˈɾindʒ"] (vi dialect rules 2026-10-06)
-    hyw: ["նարինճ", "naˈɾintʃ"],
+    hyw: ["նարինջ", "nɑˈɾintʃʰ"], // was ["նարինճ", "naˈɾintʃ"] (vi dialect rules 2026-10-06)
     haw: ["ʻalani", "ʔalani"],
     mi: ["ārani", "aːɾani"],
     zh_db: ["橙", "tʂʰɤŋ˧˥"],
@@ -1170,7 +1170,7 @@ WORDS.orange = {
     gsw: ["Orange", "oˈraŋʒə"],
     bar: ["Orange", "oˈraŋʒn"],
     nds: ["Apelsien", "apəlˈziːn"],
-    yi: ["מאַראַנץ", "marants"],
+    yi: ["מאַראַנץ", "maˈrants"], // was ["מאַראַנץ", "marants"] (vi dialect rules 2026-10-06)
     is: ["appelsína", "ˈaʰpɛlˌsiːna"],
     gd: ["orainds", "ˈɔrɪntʲʃ"], // was ["orainds", "ˈɔɾɛntʃ"] (vi dialect rules 2026-10-06)
     br: ["orañjez", "oˈrãʒɛs"],
@@ -1271,7 +1271,7 @@ WORDS.orange = {
     ext: ["naranja", "naˈɾaŋha"],
     fax: ["laranxa", "laˈɾaŋʃa"],
     an: ["narancha", "naˈɾantʃa"], // was ["naranja", "naˈɾaŋxa"] (vi dialect rules 2026-10-06)
-    wa: ["orandje", "ɔʁɑ̃dʒ"],
+    wa: ["orandje", "ɔʁãtʃ"], // was ["orandje", "ɔʁɑ̃dʒ"] (vi dialect rules 2026-10-06)
     kpv: ["апельсин", "apelʲˈsin"],
     koi: ["апельсин", "apelʲˈsin"],
     udm: ["апельсин", "apelʲˈsin"],

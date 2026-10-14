@@ -565,7 +565,7 @@ WORDS.cockcrow = {
     sq: ["kikiriki", ""],
     ar_lev: ["كوكو", "kuːkuː"],
     bs: ["kukuriku", ""],
-    yi: ["קוקעריקו", "kʊkəʁɪˈkʊ"],
+    yi: ["קוקעריקו", "kʊkərɪˈkʊ"],
     mt: ["kukuriku", ""],
     mr: ["कुकूच-कू", ""],
     udm: ["кокорикок", ""],

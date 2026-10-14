@@ -103,7 +103,7 @@ WORDS.green = {
     af: ["groen", "xrun"],
     fy: ["grien", "ɡriən"],
     lb: ["gréng", "ɡʁɛːŋ"],
-    yi: ["גרין", "ɡrin"],
+    yi: ["גרין", "ɡrɪn"],
     fo: ["grønur", "ˈɡrøːnʊr"],
     gl: ["verde", "ˈbeɾðe"],
     oc: ["verd", "bet"],
@@ -351,7 +351,7 @@ WORDS.green = {
     mdf: ["пиже", "ˈpiʒe"],
     mdh: ["gadung", "ˈɡaduŋ"],
     meu: ["gadokagadoka", "ɡadokaɡadoka"],
-    mfe: ["ver", "vɛr"],
+    mfe: ["ver", "vɛʁ"],
     mh: ["maroro", "mʲɑːrˠɔːrˠɔ"],   // The native term; kūriin is the English loan, used of one flat shade. MEOD glosses maroro as the green of patterned or mottled things, which is what Marshallese reaches for of vegetation.
     mhr: ["ужар", "uˈʒar"],
     min: ["ijau", "idʒau"],
@@ -601,7 +601,7 @@ WORDS.green = {
     ja_kg: ["緑", "midoɾi"],
     sm: ["lanumeamata", "lanumeamata"],
     tet: ["matak", "matak"],
-    new: ["वाउँ", "wãũ"],
+    new: ["वाउँ", "waũ"],
     nia: ["owugeʼe", "owuɡeʔe"],
     lhu: ["nɔ́", "nɔ́"],
     kac: ["tsit", "tsit˧˩"],
@@ -611,10 +611,10 @@ WORDS.green = {
     sda: ["maido", "maido"],
     yua: ["yaʼax", "jaʔaʃ"],
     tzh: ["yax", "jaʃ"],
-    mam: ["txaʼx", "tʃaʔʃ"],
+    mam: ["txaʼx", "ʈʂaʔʂ"],
     mixtec: ["kuii", "kʷiː"],
     quy: ["qumir", "qumiɾ"],
-    bra: ["हरौ", "ɦəraʊ"],
+    bra: ["हरौ", "ɦərɔː"],
     tly: ["kavu", "kavu"],
     hak_hl: ["青", "tsʰiaŋ˥˧"],
     ksb: ["manimani", "manimani"],
@@ -1018,7 +1018,7 @@ WORDS.green = {
     din: ["tɔ̈c", "tɔtʃ"],
     kwa: ["mɨ̃̂", "mɨ̃̂"],
     kjj: ["сыб", "sɨb"],
-    nus: ["tɔc", "tɔtʃ"],
+    nus: ["tɔc", "tɔc"],
     rmt: ["axḍar", "axdˤar"],
     fkv: ["vihree", "ˈʋihreː"],
     hsn_yz: ["绿", "lu˩˩˨"],
@@ -1047,6 +1047,8 @@ WORDS.green = {
     xpr: ["zarγōnag", "zarɣoːnaɡ"],
     dta: ["nasən", "nasən"],
     mrq: ["ʻoutiteʻe", "ʔoutiteʔe"],
-    p_jpn: ["*awo", "awo"]
+    p_jpn: ["*awo", "awo"],
+    ada: ["mumu", "mumu"],
+    iso: ["ọrọrọ", "ɔɾɔɾɔ"]
   }
 };

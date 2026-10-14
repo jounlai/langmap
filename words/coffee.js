@@ -794,7 +794,7 @@ WORDS.coffee = {
     fr_class: ["café", "kafe"],
     cnp: ["咖啡", "kʰa˥˧ fi˥˧"],
     dz: ["ཀཱ་ཕི", ""],
-    new: ["कफी", ""],
+    new: ["कफी", "kəpʰiː"], // was ["कफी", ""] (vi dialect rules 2026-10-06)
     dag: ["kɔfi", ""],
     gor: ["kopi", ""],
     frp: ["câfè", ""],
@@ -1057,7 +1057,7 @@ WORDS.coffee = {
     jam: ["kaafi", "kaːfi"],
     rcf: ["kafé", "kafe"],
     ksh: ["Kaffe", "ˈkafə"],
-    gsw_als: ["Kàffee", "kɒfeː"],
+    gsw_als: ["Kàffee", "kʰɒfeː"], // was ["Kàffee", "kɒfeː"] (vi dialect rules 2026-10-06)
     gsw: ["Kafi", "ˈkafi"],
     mak: ["kopi", "ˈkopi"],
     gv: ["caffee", "ˈkafiː"],
@@ -1325,7 +1325,7 @@ WORDS.coffee = {
     sco: ["coffee", "ˈkɔfi"],
     af: ["koffie", "ˈkɔfi"],
     nds: ["Koffie", "ˈkɔfi"],
-    yi: ["קאַווע", "ˈkave"],
+    yi: ["קאַווע", "ˈkavə"], // was ["קאַווע", "ˈkave"] (vi dialect rules 2026-10-06)
     is: ["kaffi", "ˈkʰafːɪ"],
     gd: ["cofaidh", "ˈkʰɔfɪ"],
     br: ["kafe", "ˈkafe"],

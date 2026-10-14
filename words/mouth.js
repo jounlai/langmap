@@ -204,7 +204,7 @@ WORDS.mouth = {
     is: ["munnur", "ˈmʏnːʏr"],
     af: ["mond", "mɔnt"],
     lb: ["Mond", "mont"],
-    yi: ["מויל", "mɔjl"],
+    yi: ["מויל", "mɔɪ̯l"],
     ca: ["boca", "ˈbokə"],
     gl: ["boca", "ˈboka"],
     oc: ["boca", "ˈbukɔ"],
@@ -225,7 +225,7 @@ WORDS.mouth = {
     et: ["suu", "suː"],
     fi: ["suu", "suː"],
     hu: ["száj", "saːj"],
-    eu: ["aho", "ˈaho"],
+    eu: ["aho", "ˈao"],
     mt: ["ħalq", "ħalʔ"],
     ga: ["béal", "bʲeːl̪ˠ"],
     gd: ["beul", "pial̪ˠ"],
@@ -404,7 +404,7 @@ WORDS.mouth = {
     hop: ["moʼa", "moʔa"],
     ht: ["bouch", "buʃ"],
     hy_grab: ["բերան", "beˈɾɑn"],
-    hyw: ["բերան", "pɛˈɾɑn"],
+    hyw: ["բերան", "pʰɛˈɾɑn"],
     ia: ["bucca", "ˈbuka"],
     iba: ["mulut", "mulut"],
     ibb: ["inua", "inua"],
@@ -498,7 +498,7 @@ WORDS.mouth = {
     om: ["afaan", "afaːn"],
     or: ["ମୁଖ", "mukʰɔ"],
     orv: ["уста", "uˈsta"],
-    os: ["ком", "kom"],
+    os: ["дзых", "dzɨx"],
     osp: ["boca", "ˈboka"],
     osx: ["mūth", "muːθ"],
     ota: ["آغز", "aˈʁɯz"],
@@ -741,7 +741,7 @@ WORDS.mouth = {
     tig: ["አፍ", "ʔaf"],
     sco: ["mooth", "muθ"],
     sc: ["bucca", "ˈbukka"],
-    ljp: ["banguk", "baŋuk"],
+    ljp: ["banguk", "baŋuʔ"],
     tyz: ["pác", "paːk̚˧˥"],
     nut: ["pác", "paːk˥"],
     ada: ["nya", "ɲa"],
@@ -1225,6 +1225,7 @@ WORDS.mouth = {
     mxv: ["yuʼu", "juʔu"],
     wmt: ["lirra", "lira"],
     dyo: ["butum", "butum"],
-    haj: ["muk", "muk"]
+    haj: ["muk", "muk"],
+    qxq: ["ağız", "aˈʁɯz"]
   }
 };

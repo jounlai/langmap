@@ -63,6 +63,9 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    bsq: "unknown",
+    iso: "unknown",
+    ada: "unknown",
     ee: "unknown",
     ny: "unknown",
     cro: "inherited",
@@ -959,6 +962,9 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    bsq: ["kìɖìǒ", "kìɖìǒ"],
+    iso: ["adaka", "adaka"],
+    ada: ["osisiblisi", "osisiblisi"],
     ee: ["sisiblisi", "sisiblisi"],
     ny: ["chimbalangondo", "tʃimbalaŋɡondo"],
     cro: ["daxpitchée", "daχpittʃéː"],
@@ -1235,7 +1241,7 @@ WORDS.bear = {
     tn: ["bera", "bɛra"],
     st: ["bere", "bɛrɛ"],
     ndc: ["bheya", "bʱeja"],
-    nd: ["ibhere", "ibʱere"],
+    nd: ["ibhere", "ibere"], // was ["ibhere", "ibʱere"] (vi dialect rules 2026-10-06)
     nbl: ["ibhere", "ibʱere"],
     ssw: ["libhele", "libʱele"],
     kam: ["nduva", "nduβa"], // was ["nduva", "nduva"] (vi dialect rules 2026-10-06)
@@ -1363,7 +1369,7 @@ WORDS.bear = {
     nap: ["urzo", "ˈurtsə"],
     lmo: ["ors", "urs"], // was ["ors", "ors"] (vi dialect rules 2026-10-06)
     pms: ["ors", "urs"],
-    fur: ["ors", "ors"],
+    fur: ["ors", "ɔrs"], // was ["ors", "ors"] (vi dialect rules 2026-10-06)
     lld: ["lors", "lors"],
     rup: ["ursã", "ˈursə"],
     mwl: ["urso", "ˈuɾsu"], // was ["urso", "ˈursu"] (vi dialect rules 2026-10-06) // was ["urso", "ˈuɾsu"] (vi dialect rules 2026-10-06)
@@ -1506,12 +1512,12 @@ WORDS.bear = {
     av: ["ци", "tsi"],
     dar: ["синка", "sinka"],
     lbe: ["цуша", "tsuʃa"],
-    lez: ["сев", "sev"],
+    lez: ["сев", "sew"], // was ["сев", "sev"] (vi dialect rules 2026-10-06)
     ddo: ["зе", "ze"],
     ady: ["мышъэ", "məʂa"],
     kbd: ["мыщэ", "məɕa"],
     ab: ["амшә", "amʂʷ"],
-    eu: ["hartz", "arts"],
+    eu: ["hartz", "arts̻"], // was ["hartz", "arts"] (vi dialect rules 2026-10-06)
 
     // --- East Asia: 熊 and 곰 -------------------------------------------
     p_sit: ["*d-wam", "d-wam"],
@@ -1622,8 +1628,8 @@ WORDS.bear = {
     en_nz: ["bear", "beə"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_za: ["bear", "beː"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_scouse: ["bear", "bɛə"],
-    en_geordie: ["bear", "bɛə"],
-    en_brum: ["bear", "bɛə"],
+    en_geordie: ["bear", "bɛː"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
+    en_brum: ["bear", "bɛː"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_manc: ["bear", "bɛː"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_est: ["bear", "bɛə"],
     en_aave: ["bear", "bɛə"],
@@ -1731,12 +1737,12 @@ WORDS.bear = {
     lb: ["Bier", "biə̯ɐ̯"],
     nl_be: ["beer", "beːr"],
     de_ch: ["Bär", "bɛːr"],
-    sco: ["beir", "biːɹ"],
+    sco: ["beir", "biːr"], // was ["beir", "biːɹ"] (vi dialect rules 2026-10-06)
     fo: ["bjørn", "bjœɹn"],
     stq: ["Boar", "bɔːr"], // was ["Boar", "boːɐ"] (vi dialect rules 2026-10-06)
     wym: ["baor", "baɔr"], // was ["baor", "baoɐ"] (vi dialect rules 2026-10-06)
     vls: ["beir", "beːr"],
-    li: ["beer", "beːr"],
+    li: ["baer", "bɛːr"], // was ["beer", "beːr"] (vi dialect rules 2026-10-06)
     pdt: ["Boa", "boːa"],
     frr: ["Beer", "beːr"],
     ca_va: ["ós", "os"],
@@ -1769,7 +1775,7 @@ WORDS.bear = {
     khv: ["зе", "ze"],
     abq: ["мшвы", "mʃʷə"],
     sva: ["და̈შდუ̂", "dæʃdw"], // was ["და̈შდვ", "dæʃdv"] (vi dialect rules 2026-10-06)
-    hyw: ["արջ", "aɾtʃ"],
+    hyw: ["արջ", "ɑɾtʃʰ"], // was ["արջ", "aɾtʃ"] (vi dialect rules 2026-10-06)
     olo: ["kondii", "ˈkondiː"], // was ["kondii", "kondiː"] (vi dialect rules 2026-10-06)
     smj: ["biernna", "piɛrnːa"],
     smn: ["kuob'žâ", "kuobdʒɐ"], // was ["kuob'žâ", "kuɔbdʒa"] (vi dialect rules 2026-10-06)
@@ -1784,7 +1790,7 @@ WORDS.bear = {
     lus: ["savawm", "savɔm"],
     grt: ["makbil", "makbil"],
     mni: ["ꯁꯑꯣꯝ", "səom"], // was ["ꯁꯋꯣꯝ", "sawɔm"] (vi dialect rules 2026-10-06)
-    new: ["माकःधुँ", "maːkaːdʱũ"],
+    new: ["माकःधुँ", "makəːdʱũ"], // was ["माकःधुँ", "maːkaːdʱũ"] (vi dialect rules 2026-10-06)
     sat: ["ᱵᱟᱱᱟ", "bana"],
     xkz: ["wam", "wam"],
     lbj: ["དྲེན་མོ", "drenmo"],
@@ -1811,7 +1817,7 @@ WORDS.bear = {
     shn: ["မီ", "miː˨˦"],
     blt: ["ꪢꪲ", "miː˨"], // was ["ꪢꪲ", "miː˨˦"] (r31 fix 2026-10-02)
     pcc: ["moil", "moi˨˦"], // was ["moil", "moi˧˥"] (vi dialect rules 2026-10-06)
-    nut: ["mui", "mui˧˧"],
+    nut: ["mi", "mi˧˧"], // was ["mui", "mui˧˧"] (vi dialect rules 2026-10-06)
     th_isan: ["หมี", "miː˩˧"],
     th_n: ["หมี", "miː˩˧"],
     th_s: ["หมี", "miː˩˧"],
@@ -1907,7 +1913,7 @@ WORDS.bear = {
     ht: ["lous", "lus"],
     bzj: ["byaa", "bjaː"],
     pap: ["ber", "ber"],
-    mfe: ["lours", "lurs"],
+    mfe: ["lours", "luʁs"], // was ["lours", "lurs"] (vi dialect rules 2026-10-06)
     crs: ["lours", "lurs"],
     jbo: ["cribe", "ˈʃribe"],
     io: ["urso", "ˈurso"],

@@ -1093,7 +1093,7 @@ WORDS.blue = {
     tue: ["sɨ̃bẽ", "sɨ̃ˈbẽ"], // was ["sɨ̃ʼbẽ", "sɨ̃ʔbẽ"] (r31 fix 2026-10-02)
     ses: ["bula", "bula"],
     mni: ["ꯍꯤꯒꯣꯛ", "híɡok"],
-    new: ["वँचु", "wãtsu"],
+    new: ["वँचु", "wɔ̃tɕu"], // was ["वँचु", "wãtsu"] (vi dialect rules 2026-10-06)
     lbj: ["སྔོན་པོ", "ŋonpo"],
     lhu: ["nɔ́", "nɔ́"],
     ers: ["ba", "ba˥˥"],
@@ -1605,7 +1605,7 @@ WORDS.blue = {
     la: ["caeruleus", "kaeˈruleus"],  // Latin caeruleus (< caelum 'sky') against viridis. Latin's blue vocabulary is notoriously unstable (caeruleus, lividus, caesius, glaucus) and this is the sky term.
     lb: ["blo", "bloː"],  // Luxembourgish blo against gréng. Wiktionary cites the capitalised noun Blo; the row's other colour cells are adjectives, so the lower-case adjective is given.
     lbe: ["някӏсса", "njakʼsːa"],  // Lak някӏсса vs щюлисса; хьхьинякӏсса in the Shali dialect adds 'dark'. Palochka matched to the row. // was ["някӏсса", "ˈɲakʼsːa"] (vi dialect rules 2026-10-06)
-    lez: ["вили", "ˈʋili"],  // Lezgian вили vs къацу; all three IDS Lezgian dialects agree.
+    lez: ["вили", "ˈwili"],  // Lezgian вили vs къацу; all three IDS Lezgian dialects agree. // was ["вили", "ˈʋili"] (vi dialect rules 2026-10-06)
     lg: ["bululu", "bululu"],  // Loan from English 'blue'. Luganda's inherited green is kiragala. Spelling: the dictionary prints bululu; as a class-5 noun it is commonly written bbululu (cf. this row's -ddugavu), so the gemination may need checking against a scholarly Luganda dictionary.
     lic: ["khi:u1", "kʰiːu˥˧"],  // Hlai (Baoting): IDS gives khi:u.1 for BOTH blue and green.
     liv: ["siņņi", "ˈsiɲːi"],  // Livonian siņņi vs ōļaz / mõltsi.
@@ -1786,7 +1786,7 @@ WORDS.blue = {
     xh: ["luhlaza", "luˈɬaːza"],  // Same grue term as Zulu; disambiguated as luhlaza okwesibhakabhaka 'sky-coloured' vs luhlaza okotshani 'grass-coloured'. Xhosa also has the Afrikaans loan blowu (< blou) for blue specifically (en.wiktionary.org/wiki/blowu), but luhlaza is the basic term.
     yap: ["yarraq", "jarːaʔ"],  // yarraq and warraq are dialect variants of one word: the y-entry glosses it 'the color blue, blue-green, purple, violet' and defines it in Yapese as 'a colour like the colour of the sky', adding that it was formerly also said of unripe (green) leaves; the w-entry glosses the same word 'the color green'. The English finder also gives raqën maak'eef ('colour of the sky') for 'blue' and the English loan giriin for 'green'.
     ygr: ["gumo", "ɡumo"],  // One adjective covering green, blue and turquoise; homophonous with gúmo₁ 'species of green-blue or turquoise beetle', from which it derives. Renck's English index has no standalone entry for 'blue' at all — it lists gumo₃ under 'green' alongside several other green expressions — which is itself evidence that Yagaria encodes no separate blue. Renck marks stress with an acute (gúmo); written here without it to match the row's gola'/efe'.
-    yi: ["בלוי", "blɔj"],  // Yiddish בלוי against גרין, both from the German stock.
+    yi: ["בלוי", "blɔɪ̯"],  // Yiddish בלוי against גרין, both from the German stock. // was ["בלוי", "blɔj"] (vi dialect rules 2026-10-06)
     ykg: ["хомоньэй", "xomonʲej"],  // Tundra Yukaghir: NorthEuraLex gives хомоньэ- for blue and хомоньэй for green — the same stem. The finite/attributive хомоньэй is used here. // was ["хомоньэй", "xomoˈnʲej"] (vi dialect rules 2026-10-06)
     yo: ["dúdú", "dúdú"],  // Three-term system (funfun / pupa / dúdú), all three already in this row; dúdú is the dark/cool term and the blue cell is deliberately identical to the black cell. Modern blue-specific expressions exist beside it: búlùú (< English 'blue'), àwọ̀ aró 'colour of dye', and aró / ayinrin (indigo, light blue) — Crowther (1843) Vocabulary of the Yoruba Language already has "Ayinrin, s. light blue".
     yrk: ["тӑнзинена", "tənzʲiˈnʲeːna"],  // Tundra Nenets тӑнзинена vs илебей; IDS also records numlaxa 'sky-like'.

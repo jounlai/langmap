@@ -1534,7 +1534,7 @@ WORDS.foot = {
     fi: ["jalka", "jɑlkɑ"],  // Finnish jalka is the whole lower limb; jalkaterä ('leg-blade') is the foot-specific compound. Its hand cell käsi behaves the same way against käsivarsi 'arm'.
     fia: ["óóy", "óːj"],  // Werner's Nobiin grammar 372 carries foot and leg on the one entry — the polysemy the Old Nubian cell names but cannot attest for Old Nubian itself.
     fit: ["jalka", "ˈjɑlkɑ"],  // Meänkielen sanakirja glosses jalka as ben and fot alike; Meänkieli keeps the Finnish pattern.
-    fj: ["yava", "java"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes liga as liŋa.
+    fj: ["yava", "jaβa"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes liga as liŋa. // was ["yava", "java"] (vi dialect rules 2026-10-06)
     fkv: ["jalka", "ˈjɑlkɑ"],  // The Kven dictionary gives jalka both Norwegian words, bein and fot; jalkaterä ('leg-blade') is the foot-specific compound, as in Finnish.
     fo: ["fótur", "ˈfɔuːtʊɹ"],  // Like Icelandic: one word for the whole lower limb.
     fon: ["afɔ", "afɔ"],  // afɔ covers the limb and the older foot word áfọ̄-gúdo is a compound on it, the pair this map's Ewe cell already names.
@@ -1787,7 +1787,7 @@ WORDS.foot = {
     lbz: ["jaa", "dʒaː"],  // Lardil jaa. Route unknown: no source prints a Lardil word for 'leg' to compare it with.
     lbz_damin: ["nguuwii", "ŋuːwiː"],  // Hale and Nash print the whole of Damin's body vocabulary in five items, and nguuwii is the only one for a limb: it glosses 'hand, foot'. A two-hundred-word register does not separate the foot from the leg — it does not separate the foot from the hand.
     lep: ["ᰣᰦᰋᰩᰵ", "ʔatʰɔŋ"],  // Mainwaring and Grünwedel s.v. a-thóng: 'the foot; the leg'. Plaisier heads it 'leg' but hangs thongjóm 'toe', thongtung 'heel' and thongpyol 'footprint' on the same root.
-    lez: ["кӏвач", "kʼa̹tʃ"],  // кӏвач covers both; дабан (IDS's 'foot') is the heel/sole.
+    lez: ["кӏвач", "kʼʷatʃ"],  // кӏвач covers both; дабан (IDS's 'foot') is the heel/sole. // was ["кӏвач", "kʼa̹tʃ"] (vi dialect rules 2026-10-06)
     lg: ["ekigere", "etʃiɡere"],  // Luganda splits them: Snoxall's dictionary has ekigere for the foot against okugulu for the leg, and the Luganda Bible writes the plural ebigere.
     lhm: ["རྐང་པ", "kaŋpa˥"],  // Vesalainen 2014 Table 2.3 lists kaŋpa / honorific ɕap glossed 'foot, leg' in one entry, and the Lhomi–Nepali–English dictionary's काङ्ब kaŋbʌ likewise 'foot; leg'; neither has a separate leg word, and thigh and ankle are unrelated. Tone ˥ is sourced, not inferred — the sketch names kaŋpa outright as a high-register word. The Tibetan spelling is this row's own Written Tibetan convention, as no Lhomi source gives one.
     lhu: ["khɨ-šɛ", "kʰɯʃɛ"],  // Matisoff's Lahu khɨ-šɛ 'foot' against khɨ-g̈ɔ̂ 'leg', ZMYYC 263.33 and 264.33; both are built on khɨ, which Luce glosses 'foot, leg', but neither on the other.
@@ -1937,7 +1937,7 @@ WORDS.foot = {
     nrf_gg: ["pid", "pi"],  // As Norman: pid vs gàmbe. IPA is the plain reading of the orthography, following how this row's own hand cell writes main as mɛ̃.
     nso: ["leoto", "leoto"],  // leoto covers the limb in Sesotho sa Leboa as it does in Sesotho, against Setswana next door, which keeps lonao for the foot.
     nuf: ["khɹi35", "kʰɹi˧˥"],  // ZMYYC 263.45 Bijiang kʰɹi³⁵ 'foot' against 264.45 bɔ̃³⁵ 'leg', the *bwal root — the same pair Hani and Lisu keep.
-    nus: ["cio̱o̱k", "tɕɔːk"],  // Nuer keeps one word where Dinka does not: cio̱o̱k (pl. ciök) washes feet at John 13:5 and is what the soldiers break at John 19:32; cɔ̱w is the bone.
+    nus: ["cio̱o̱k", "cɔːk"],  // Nuer keeps one word where Dinka does not: cio̱o̱k (pl. ciök) washes feet at John 13:5 and is what the soldiers break at John 19:32; cɔ̱w is the bone. // was ["cio̱o̱k", "tɕɔːk"] (vi dialect rules 2026-10-06)
     nut: ["tin", "tin˧˧"],  // IDS 413 sets Nùng tən.1 'foot' against kha.2 'leg'; the spelling is the Tày-Nùng orthography this row shares with tyz.
     nv: ["akeeʼ", "ʔàkʰèːʔ"],  // Navajo splits them; both are obligatorily possessed, matching the row's hand cell álaʼ.
     nxq: ["kee", "kʰɯ˧"],  // ZMYYC 263.28 Lijiang kʰɯ³³ 'foot' against 264.28 nda³³ba³¹ 'leg', the *bwal root Burmish lost — Naxi falls on the Loloish side of that line. Spelled kee because this row's own dog cell writes the identical kʰɯ³³ that way; *krəy 'foot' and *kʷəy 'dog' fell together in Naxi.
@@ -2306,7 +2306,7 @@ WORDS.foot = {
     yap: ["ay", "ʔaːj"],  // Jensen glosses the same paradigm 'his leg' in one place and 'my foot' in another, and the Yapese Bible uses ay for the feet washed at John 13:5 and for the legs broken at John 19:31-32, where yil 'bone' at John 19:36 is the control. rifrif u ay, ABVD's other answer, is the flat of the limb, not a second lexeme. // was ["qaay", "ʔaːj"] (vi dialect rules 2026-10-06)
     ybe: ["azaq", "ɑzɑq"],  // azaq is the *adak reflex Shor and Khakas also keep; Chen Zongzhen's list sets but against it as 'leg', but Western Yugur already has utuq and jota for the thigh, so the split is unconfirmed.
     ygr: ["iya", "ija"],  // Scott's Yagaria list answers both leg and foot with the same stem, as the Hira dialect does with degiyaʔ; the tone accent is his and this row does not write it.
-    yi: ["פֿוס", "fus"],  // Unlike German Fuß, Yiddish פֿוס covers the whole lower limb — a genuine split from the German pattern.
+    yi: ["פֿוס", "fʊs"],  // Unlike German Fuß, Yiddish פֿוס covers the whole lower limb — a genuine split from the German pattern. // was ["פֿוס", "fus"] (vi dialect rules 2026-10-06)
     ykg: ["аримэ", "arime"],  // Tundra Yukaghir keeps them apart.
     yle: ["yi", "ji"],  // Levinson's Table 1 gives yi for the lower leg and foot together against kpââlî for the upper leg, and says flatly there is no separate term for the foot and no fixed phrase that would pick one out. Homophonous with the row's tree cell, which is Levinson's own tree/body table.
     yo: ["ẹsẹ̀", "ɛsɛ̀"],  // ẹsẹ̀ covers the lower limb; the older foot word is a compound on it. IPA is the plain reading of the orthography, following how this row's own hand cell writes ọwọ́ as ɔwɔ́.

@@ -649,7 +649,7 @@ WORDS.salt = {
     ers: ["tshɿ", "tsʰɿ˧˧"],
     cng: ["tshə", "tsʰə"],
     duu: ["sɯlɑʔ", "sɯlɑʔ"],
-    new: ["चि", "tʃi"],
+    new: ["चि", "tɕi"],
 
 
     // --- Reconstructed, ancient and constructed ----------------------
@@ -797,7 +797,7 @@ WORDS.salt = {
     khb: ["ᦵᦂᦲ", "kɤː˥"],
     blt: ["ꪹꪀ", "kɯə˨"],
     tyz: ["cưa", "kɨə˧˧"],
-    nut: ["cưa", "kɯə˧˧"],
+    nut: ["cư", "kɯ˧˧"],
     ptai: ["*klwɯə", "klwɯə"],
     hmn: ["ntsev", "ᶯdʐe˨˦"],
     ium: ["nzauv", "dzau˦"],
@@ -1151,13 +1151,13 @@ WORDS.salt = {
     dnj: ["wèe", "wèː"],
     toi: ["munyo", "muɲo"],
     grt: ["kasim", "kasim"],
-    ada: ["ŋo", "ŋo"],
+    ada: ["ngo", "ŋo"],
     bom: ["nevwashe", "nevwaʃe"],
     ngl: ["mwapa", "mwapa"],
     srr: ["jem", "dʒem"],
     nia: ["asio", "asio"],
     pll: ["sɔʔ", "sɔʔ"],
-    bra: ["लौन", "laʊn"],
+    bra: ["लौन", "lɔːn"],
     psi: ["لوڼ", "loːɳ"],
     asu: ["munyu", "muɲu"],
     aja: ["eje", "edʒe"],

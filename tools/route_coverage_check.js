@@ -120,7 +120,8 @@ const DEBT = {};
 // r97: foot 19 -> 20 — mdr lette 'foot' (Wiktionary, Sagitta) with no leg word attested.
 // r100: bear 5 -> 6 — ny chimbalangondo (attested; origin not sourced).
 // r101: bear 6 -> 7 — ee sisiblisi (Ewe Bible, 1 Sam 17:34), origin unknown.
-const UNDECIDED = { we: { route: 'unknown', max: 37 }, bear: { route: 'unknown', max: 7 }, foot: { route: 'unknown', max: 20 } };
+// r103: bear 7 -> 10 — ada osisiblisi, iso adaka, bsq kìɖìǒ: Bible-attested words whose origin no source gives.
+const UNDECIDED = { we: { route: 'unknown', max: 37 }, bear: { route: 'unknown', max: 10 }, foot: { route: 'unknown', max: 20 } };
 
 let violations = 0;
 const notes = [];

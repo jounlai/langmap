@@ -1479,7 +1479,7 @@ WORDS.we = {
     su: ["urang", "uraŋ"],
     ceb: ["kita / kami", "kiˈta / kaˈmi"],
     ilo: ["datayo / dakami", "dataˈjo / dakaˈmi"],
-    fj: ["keda / keimami", "kenda / kejmami"],
+    fj: ["keda / keimami", "kenda / keimami"], // was ["keda / keimami", "kenda / kejmami"] (vi dialect rules 2026-10-06)
     rtm: ["ʻis / ʻạmis", "ʔis / ʔɔmis"],
     sm: ["tātou / mātou", "taːtou / maːtou"],
     to: ["kitautolu / kimautolu", "kitautolu / kimautolu"],
@@ -1570,7 +1570,7 @@ WORDS.we = {
     ksh: ["mir", "miɐ"],
     pdc: ["mir", "miːɐ̯"], // was ["mir", "mir"] (vi dialect rules 2026-10-06)
     pdt: ["wie", "viː"],
-    yi: ["מיר", "mir"],
+    yi: ["מיר", "mɪr"], // was ["מיר", "mir"] (vi dialect rules 2026-10-06)
     is: ["við", "vɪːð"],
     gd: ["sinn", "ʃiɲ"],
     br: ["ni", "ni"],
@@ -1880,7 +1880,7 @@ WORDS.we = {
     wbt: ["parrawarta", "parawaʈa"],
     mni: ["ꯑꯩꯈꯣꯏ", "əikʰoi"],
     bpy: ["আমি", "ami"],
-    new: ["झी / जिपिं", "dʑʱiː / dʑipĩ"],
+    new: ["झी / जिपिं", "dʑʱiː / dʑipĩː"], // was ["झी / जिपिं", "dʑʱiː / dʑipĩ"] (vi dialect rules 2026-10-06)
     lif: ["ᤀᤠᤏᤡ᤹ / ᤀᤠᤏᤡᤃᤧ", "aniʔ / aniɡɛ"],
     tdh: ["गुइ / गुकु", "ɡui / ɡuku"],
     brx: ["जों", "zɯŋ"],
@@ -1942,7 +1942,7 @@ WORDS.we = {
     an: ["nusatros", "nuˈsatɾos"],
     rup: ["noi", "noj"],
     ruq: ["noi", "noj"],
-    wa: ["nos", "nɔs"],
+    wa: ["nos", "nɔ"], // was ["nos", "nɔs"] (vi dialect rules 2026-10-06)
     kpv: ["ми", "mi"],
     koi: ["ми", "mi"],
     udm: ["асьмеос / ми", "asʲmeos / mi"],
@@ -2174,10 +2174,10 @@ WORDS.we = {
     ja_sd: ["おらほ", "oɾaho"],
     ko_hg: ["우리", "uɾi"],
     ko_jl: ["우리", "uɾi"],
-    nan_pn: ["咱 / 阮", "lan˦˦˥ / uaŋ˧˧"],
+    nan_pn: ["咱 / 我儂", "lan˦˦˥ / ua˦˦˥ laŋ˨˧"], // was ["咱 / 阮", "lan˦˦˥ / uaŋ˧˧"] (vi dialect rules 2026-10-06)
     mra: ["ʔa thəŋ", "ʔa tʰəŋ"], // was ["a", "ʔa"] (vi dialect rules 2026-10-06)
     wuu_nb: ["阿拉", "ɐʔ˧˧ lɐʔ˧˦"],
-    yue_gz: ["我哋", "ŋɔ˩˧ tei˨˨"],
+    yue_gz: ["我哋", "ŋɔ˨˩˦ tei˨˨"], // was ["我哋", "ŋɔ˩˧ tei˨˨"] (vi dialect rules 2026-10-06)
     khb: ["ᦣᧁ / ᦎᦴ", "haw˥˩ / tuː˥"],
     blt: ["ꪹꪭꪱ", "haw˥"], // was ["ꪹꪭꪱ", "haw˧"] (r31 fix 2026-10-02)
     pam: ["ikatamu / ikami", "ʔikataˈmu / ʔikaˈmi"], // was ["ikatamu / ikami", "ʔikatamu / ʔikami"] (vi dialect rules 2026-10-06)

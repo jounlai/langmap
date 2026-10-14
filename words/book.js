@@ -118,7 +118,7 @@ WORDS.book = {
     af: ["boek", "buk"],
     fy: ["boek", "buk"],
     lb: ["Buch", "buχ"],
-    yi: ["בוך", "bux"],
+    yi: ["בוך", "bʊx"],
     br: ["levr", "lɛvr"],
     oc: ["libre", "ˈliβɾe"],
     ast: ["llibru", "ˈʎiβɾu"],
@@ -276,7 +276,7 @@ WORDS.book = {
     esu: ["naaqerkaq", "naːqəʁkaq"],  // Jacobson glosses naaqerkaq only 'book', against kalikat 'book; magazine; papers' — so this is the one that stays on the right side of the paper-word line. IPA from the orthography, not quoted.
     ik: ["makpiġaat", "makpiʁaːt"],   // MacLean glosses it 'book, sheets of paper', with a separate makpiġaaq 'piece of paper' — the split is what supports the book reading. IPA from the orthography.
     iu: ["ᕿᒥᕐᕈᐊᑦ", "qimiʁːuat"],   // iu.wikipedia's title for the book article, and Wiktionary's translation. IPA from the orthography (rr = ʁː).
-    hyw: ["գիրք", "kiɾk"],
+    hyw: ["գիրք", "kʰiɾkʰ"],
     hbo: ["סֵפֶר", "ˈseːfɛr"],
     gez: ["መጽሐፍ", "mɐtsʼħɐf"],
     fa_clas: ["کتاب", "kiˈtaːb"],
@@ -294,7 +294,7 @@ WORDS.book = {
     gej: ["xoma", "xoma"],
     gaa: ["wolo", "wolo"],
     ig: ["akwụkwọ", "akʷʊkʷɔ"],  // On the same leaf→paper→book line this concept declines elsewhere (Yup'ik kalikaq, Hmong ntawv), and kept only because the evidence is stronger: Wiktionary's Igbo entry is a stub glossing just 'leaf', but ig.wikipedia's Akwụkwọ article is the book article — illustrated with a dictionary (akwụkwọ ọkọwa okwu) and a library (ọba akwụkwọ) — and Igbo builds ụlọ akwụkwọ 'school' on it. Its own opening gloss, "a thing used for writing", still leans paper. A dedicated Igbo dictionary would settle it.
-    iso: ["ụbị", "ʊbɪ"],
+    iso: ["obe", "obe"],
     kab: ["adlis", "adlis"],
     kbp: ["takayaɣ", "takajaɣ"],
     kg: ["buku", "buku"],  // mukanda stood here from the Kongo Wikipedia title, but its root nkanda is glossed 'skin, paper, letter, document' in Kongo, and mukanda itself is Kituba 'letter' — the paper-word line this concept declines to cross. búku has its own Kongo entry glossed 'book'. IPA drops the tone mark, as this row does throughout (mboté /mbote/, kûlu /kulu/).
@@ -303,7 +303,7 @@ WORDS.book = {
     her: ["embo", "ˈembo"],
     gn: ["aranduka", "aɾanduˈka"],
     gil: ["boki", "ˈboki"],
-    fj: ["ivola", "ivola"],
+    fj: ["ivola", "iβola"],
     fud: ["tosi", "tosi"],
     ho: ["buka", "ˈbuka"],
     kos: ["puk", "puk"],    // "Puk ac Mwe rit" heads the Kosraean publications section on jw.org, and the 1902 Kosraean NT spells it buk ("BUK LUN RUT"); modern Lee orthography does not write voiced stops. Not to be confused with puhk 'sand'. Same English loan as Chuukese and Mokilese puk.
@@ -387,7 +387,7 @@ WORDS.book = {
     // word for paper, which is what the Bible translations make easy to see.
     mai: ["पोथी", "potʰiː"],   // A three-way choice — Wiktionary lemmatises both पोथी and पुस्तक as Maithili 'book', and raw frequency favours the Sanskrit learned borrowing पुस्तक (mai.wikipedia 198 to 55). Took the inherited form, which is what this file's neighbours do where the colloquial word competes with the tatsama (hi/ne/pa/as/gbm/kru all take a किताब-type word over पुस्तक). Maithili spells the Perso-Arabic one किताप.
     mwr: ["पोथी", "potʰiː"],   // Lāḷasa, Rājasthānī Sabada Kosa p.2606, and a second Rajasthani dictionary via Wiktionary. Not carried over from mai: Hindi पोथी means only 'booklet', so this is one source per language.
-    new: ["सफू", "sapʰuː"],    // Manandhar's Newari–English Dictionary marks किताब् as the Hindi loan and refers it to saphuu, which its own examples use. Its word for paper is भ्वं, and the Newar NT writes "मसी व भ्वंतं मखु" 'not with ink and paper' against 269 uses of सफू.
+    new: ["सफू", "səpʰuː"],    // Manandhar's Newari–English Dictionary marks किताब् as the Hindi loan and refers it to saphuu, which its own examples use. Its word for paper is भ्वं, and the Newar NT writes "मसी व भ्वंतं मखु" 'not with ink and paper' against 269 uses of सफू.
     mni: ["ꯂꯥꯏꯔꯤꯛ", "lairik"],  // Sharma's Learners' Manipuri–English Dictionary p.169, with lāirik tampham 'school' and lāirik khāo 'satchel'. The Meitei NT writes che 'paper' separately. mni.wikipedia's article title spells it ꯂꯥꯏꯂꯤꯛ; took the dictionary's ꯔ.
     lif: ["ᤛᤠᤵᤐᤴ", "sappan"],   // Limbu NT, 72 occurrences, cross-checked in both editions against the Devanagari साप्पन्. A clean three-way split there: ᤛᤰᤀᤡᤱᤄᤱ 'paper', ᤛᤠᤶᤕᤥᤛᤠᤵᤗᤠ 'scripture', ᤛᤠᤵᤐᤴ 'book'. The vowel is short (U+1920), not the kemphreng-marked long one.
     lep: ["ᰇᰨ", "cʰo"],        // Wiktionary citing LEED p.310, corroborated by Mainwaring–Grünwedel, whose 'paper' headword is the separate co-gu (from Tibetan shog-bu). Everyday compounds confirm it: co-lep 'page', co-lem fot 'to open a book'.
@@ -655,7 +655,7 @@ WORDS.book = {
     sda: ["suraʼ", "suraʔ"],
     yua: ["juʼun", "huʔun"],
     tzh: ["jun", "hun"],
-    mam: ["uʼjbʼil", "uʔxɓil"],
+    mam: ["uʼjbʼil", "uʔχɓil"],
     mixtec: ["tutu", "tutu"],
     quy: ["libru", "libɾu"],
     dty: ["किताब", "kitaːb"],
@@ -1090,6 +1090,7 @@ WORDS.book = {
     soa: ["หนังสือ", "naŋ˨˦ sɯː˨˦"],
     lij_t: ["libbru", "ˈlibru"],
     com: ["tʉnihatʉbopʉ", "tɨnihatɨbopɨ"],
-    haj: ["boi", "bɔɪ"]
+    haj: ["boi", "bɔɪ"],
+    qxq: ["kitab", "kiˈtab"]
   }
 };

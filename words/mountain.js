@@ -283,7 +283,7 @@ WORDS.mountain = {
     jbo: ["cmana", "ˈʃmana"],
     kaa: ["taw", "tɑw"],
     kab: ["adrar", "adrar"],
-    kac: ["bum", "bum"],
+    kac: ["bum", "bum˧˩"],
     kbd: ["бгы", "bɣə"],
     kek: ["tzuul", "tsuːl"],
     kg: ["mongo", "moŋɡo"],
@@ -338,7 +338,7 @@ WORDS.mountain = {
     nci: ["tepētl", "ˈtepeːtɬ"],
     nd: ["intaba", "inˈtaːɓa"],
     nds: ["Barg", "barx"],
-    new: ["च्वापुगुं", "tswaːpuɡũ"],
+    new: ["च्वापुगुं", "tɕwapuɡũː"],
     nia: ["hili", "ˈhili"],
     nio: ["дикә", "dʲikə"],
     niv: ["пал", "pal"],
@@ -561,7 +561,7 @@ WORDS.mountain = {
     egl: ["muntâgna", "muŋˈtaːɲa"],
     jam: ["mountn", "mountn"],
     tpi: ["maunten", "maunten"],
-    srn: ["bergi", "ˈbɛrɡi"],
+    srn: ["bergi", "ˈberɡi"],
     wal: ["deriya", "derija"],
     sid: ["gaara", "ɡaːra"],
     thr: ["पहाड़", "pəɦaːɽ"],
@@ -1129,6 +1129,8 @@ WORDS.mountain = {
     afb: ["جبل", "ˈdʒibal"],
     tpn: ["ybytyra", "ɨβɨtɨɾa"],
     wrh: ["dhirrayn", "ˈd̪irajn"],
-    kgg: ["dibaŋ", "dibaŋ"]
+    kgg: ["dibaŋ", "dibaŋ"],
+    kmc: ["tɕən212", "tɕən˨˩˨"],
+    nus: ["päm", "pəm"]
   }
 };

@@ -803,7 +803,7 @@ WORDS.tea = {
     ja_chu: ["茶", ""],
     en_em: ["tee", ""],
     cnp: ["茶", "tʃa˨˩"],
-    new: ["च्या", ""],
+    new: ["च्या", "tɕja"], // was ["च्या", ""] (vi dialect rules 2026-10-06)
     sda: ["teh", ""],
     frr: ["tee", ""],
     mxv: ["té", ""],
@@ -1410,7 +1410,7 @@ WORDS.tea = {
     vec: ["tè", "tɛ"],
     wa: ["té", "te"],
     xh: ["iti", "iːti"], // was ["iti", "iˈti"] (vi dialect rules 2026-10-06)
-    yi: ["טיי", "tɛj"],
+    yi: ["טיי", "tɛɪ̯"], // was ["טיי", "tɛj"] (vi dialect rules 2026-10-06)
     yo: ["tíì", "tíì"],
     zu: ["itiye", "iˈtije"], // was ["itiye", "iˈtijɛ"] (vi dialect rules 2026-10-06)
     // --- other ---

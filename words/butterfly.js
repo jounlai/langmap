@@ -333,7 +333,7 @@ WORDS.butterfly = {
     mmd: ["phuŋ6 pa4", "pʰuŋ˨˩˧ pa˨˦"],  // A two-syllable name; IDS's Maonan list matches this row almost item for item, both going back to 梁敏 1980.
     lic: ["pɯ1 tshom1", "pɯ˥˧ tsʰom˥˧"],  // pɯ1 is the recurring first element of flying-creature names in the same list: bat pɯ1 guːk7, fly pɯ1 hweːŋ3, grasshopper pɯ1 keȶ7.
     kn: ["ಚಿಟ್ಟೆ", "tʃiʈːe"],  // NorthEuraLex gives the Sanskrit loan ಪತಂಗ instead; ಚಿಟ್ಟೆ is the ordinary Kannada word, and Kittel also records ಪಾತರಗಿತ್ತಿ.
-    yi: ["פֿלאַטערל", "flatərl"],  // flatern 'to flutter' + diminutive -l; the rival IDS form זומער־פֿייגעלע zumer-feygele is a compound 'summer + little bird'
+    yi: ["פֿלאַטערל", "ˈflatərl̩"],  // flatern 'to flutter' + diminutive -l; the rival IDS form זומער־פֿייגעלע zumer-feygele is a compound 'summer + little bird'
     lt: ["drugelis", "druˈɡʲæːlʲɪs"],  // lexicalised diminutive of drugys (the form IDS and NEL give), which in ordinary use also means 'moth' and 'fever'; peteliškė is a common rival
     om: ["billaacha", "bilːaːtʃa"],  // COED also records the simile akka billaachaa fiiguu 'to run like a butterfly' = to run very fast
     my: ["လိပ်ပြာ", "leɪʔpjà"],  // the same word is the ordinary word for 'soul, spirit' (sense 2 in the Myanmar–English Dictionary)
@@ -540,7 +540,7 @@ WORDS.butterfly = {
     bom: ["tangapurus", "taŋɡapurus"],
     srr: ["mbidafit", "mbidafit"],
     tet: ["borboleta", "borboleta"],
-    new: ["लापा", "laːpaː"],
+    new: ["लापा", "lapa"],
     dz: ["ཕྱེམ་ལ", "tɕʰemla"],
     nia: ["kawa-kawa", "kawakawa"],
     lhu: ["pù-lú-qā", "pùlúqȁ"],
@@ -552,7 +552,7 @@ WORDS.butterfly = {
     mam: ["pakaʼl", "pakaʔl"],
     aii: ["ܦܪܚܘܢܝܬܐ", "parxoniːta"],
     mt: ["farfett", "farˈfɛt"],
-    dty: ["पुतली", "putali"],
+    dty: ["पुतली", "putəli"],
     tly: ["lüləpər", "lyləpəɾ"],
     nan_pn: ["尾蝶", "bue˦˦˥ iaʔ˦"],
     hak_hl: ["蝶仔", "ʒak˨ ɤ˥˥"],
@@ -711,7 +711,7 @@ WORDS.butterfly = {
     ca_va: ["papallona", "papaˈʎona"],
     pt_cv: ["borboleta", "buɾbuˈletɐ"],
     pt_mo: ["borboleta", "buɾβuˈletɐ"],
-    en_brum: ["butterfly", "ˈbʊtəflɑɪ"],
+    en_brum: ["butterfly", "ˈbʊtəflɔɪ"],
     en_ph: ["butterfly", "ˈbʌtɚflaɪ"],
     hsn_hy: ["哈老婆婆", "xa˧˧ lau˧˧ po˩˩˨ po˩˩˨"],
     wls: ["pepe", "pepe"],
@@ -813,7 +813,7 @@ WORDS.butterfly = {
     en_scouse: ["butterfly", "ˈbʊt̪səflaɪ"],
     en_geordie: ["butterfly", "ˈbʊtəflaɪ"],
     en_est: ["butterfly", "ˈbʌtəflɑɪ"],
-    iso: ["ẹvbovbo", "ɛʋoʋo"],
+    iso: ["ẹwowo", "ɛwowo"],
     ngl: ["nikurunthu", "nikuɾuntʰu"],
     ssf: ["kurari", "kuɾaɾi"],
     trv: ["klaway", "klawaj"],
@@ -905,6 +905,7 @@ WORDS.butterfly = {
     enq: ["kuli kambilyo", "kuli kambiʎo"],
     acw: ["فراشة", "faraːʃa"],
     har: ["aḥmära kitāb", "ɑħmərɑ kitaːb"],
-    zh_jh: ["蝴蝶", "xu˩˧ tieʔ˥˥"]
+    zh_jh: ["蝴蝶", "xu˩˧ tieʔ˥˥"],
+    wuu_hz: ["蝴蝶儿", "ɦu˨˩˧ dieʔ˨ əl˨˩˧"]
   },
 };

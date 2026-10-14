@@ -207,6 +207,9 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    wa: "dec",
+    yi: "unit",
+    li: "unit",
     chf: "dec",
     tlh: "mult",
     izz: "vig",
@@ -936,6 +939,9 @@ WORDS.n99 = {
     }
   },
   data: {
+    wa: ["nonante-nouv", "nɔnãtnuːf"],
+    yi: ["נײַן און נײַנציק", "naɪ̯n ʊn ˈnaɪ̯ntsɪk"],
+    li: ["neugenenneugetig", "nøːɣənənøːɣətɪç"],
     chf: ["noventa y nueve", "noˈβenta i ˈnweβe"],
     tlh: ["HutmaH Hut", "xutʰmɑx xutʰ"],
     izz: ["ụkporo ẹno l'iri lẹ tete", "ʊkpoɾo ɛnɔ liɾi lɛ tete"],
@@ -1023,7 +1029,7 @@ WORDS.n99 = {
     nym: ["makumi kenda na kenda", "makumi kenda na kenda"],
     nv: ["náhástʼédiindóó baʼaan náhástʼéí", "náhástʼétiːntóː paʔaːn náhástʼéí"],
     nut: ["cảu slíp cảu", "kaw˨˩˧ ɬip˧˥ kaw˨˩˧"],
-    nus: ["jiɛn bäŋuan wi̱cdɛ bäŋuan", "ɟiɛn bʌŋwan wicdɛ bʌŋwan"],
+    nus: ["jiɛn bäŋuan wi̱cdɛ bäŋuan", "ɟiɛn bəŋwan wicdɛ bəŋwan"], // was ["jiɛn bäŋuan wi̱cdɛ bäŋuan", "ɟiɛn bʌŋwan wicdɛ bʌŋwan"] (vi dialect rules 2026-10-06)
     nog: ["токсан тогыз", "toqsan toʁɯz"],
     nn: ["nittini", "ˈnɪtːiˌniː"],
     nmf: ["hangchikoda chiko", "haŋtʃikoda tʃiko"],
@@ -1042,7 +1048,7 @@ WORDS.n99 = {
     mnk: ["taŋ kononto niŋ kononto", "taŋ kononto niŋ kononto"],
     mhy: ["suei pulu suei", "suei pulu suei"],
     mhr: ["индешле индеш", "indeʃle indeʃ"],
-    mfe: ["katrovin-diznef", "katrovɛ̃diznɛf"],
+    mfe: ["katrovin-diznef", "katʁovɛ̃diznɛf"], // was ["katrovin-diznef", "katrovɛ̃diznɛf"] (vi dialect rules 2026-10-06)
     mdf: ["вейхксогемонь вейхксые", "vʲejxksoɡʲemonʲ vʲejxksɨje"],
     mas: ["ntomoni naaudo o naaudo", "ntomoni naːudo o naːudo"],
     lus: ["sawmkua leh pakua", "sɔmkua leʔ pakua"],
@@ -1050,7 +1056,7 @@ WORDS.n99 = {
     lue: ["makumi atanu naawana navatanu navawana", "makumi atanu naːwana navatanu navawana"],
     lol: ["ntuku ibwa la ibwa", "ntuku ibwa la ibwa"],
     ljp: ["siwa puluh siwa", "siwa puluh siwa"],
-    lez: ["кьудкъанни цӏекӏуьд", "qʼudqːanːi tsʼekʼyd"],
+    lez: ["кьудкъанни цӏекӏуьд", "qʼudqanːi tsʼekʼyd"], // was ["кьудкъанни цӏекӏуьд", "qʼudqːanːi tsʼekʼyd"] (vi dialect rules 2026-10-06)
     ksw: ["ခွံဆံခွံ", "kʰwi sʰi kʰwi"],
     ksb: ["milongo kenda na kenda", "miloŋɡo keːnda na keːnda"],
     kum: ["токъсан тогъуз", "toqsan toʁuz"],
@@ -1135,7 +1141,7 @@ WORDS.n99 = {
     ca_va: ["noranta-nou", "noˈɾanta ˈnɔw"],
     nl_be: ["negenennegentig", "ˈneːɣənənˌneːɣəntəx"],
     de_ch: ["neunundneunzig", "ˈnɔɪ̯nʊntˌnɔɪ̯ntsɪk"],
-    de_lu: ["neunundneunzig", "ˈnɔʏnʊntˌnɔʏntsɪç"],
+    de_lu: ["neunundneunzig", "ˈnɔʏ̯nʊntˌnɔʏ̯ntsɪç"], // was ["neunundneunzig", "ˈnɔʏnʊntˌnɔʏntsɪç"] (vi dialect rules 2026-10-06)
     jvn: ["sangang puluh sanga", "saŋaŋ puluh sɔŋɔ"],
     ja_kg: ["九十九", "kʲɯːdʑɯːkʲɯː"],
     ja_kyo: ["九十九", "kʲɯːdʑɯːkʲɯː"],
@@ -1338,7 +1344,7 @@ WORDS.n99 = {
     da: ["nioghalvfems", "niɔhalˈfɛmˀs"], // was ["nioghalvfems", "ˈniɔhalˀfɛms"] (vi dialect rules 2026-10-06)
     sv:    ["nittionio", "ˈnɪtːiuˌniːu"],
     is:    ["níutíu og níu", "ˈniːʏtʰiːʏ ɔɣ ˈniːʏ"],
-    eu:    ["laurogeita hemeretzi", "lauɾoɣeita emeɾetsi"],
+    eu: ["laurogeita hemeretzi", "lauɾoɣeita emeɾets̻i"], // was ["laurogeita hemeretzi", "lauɾoɣeita emeɾetsi"] (vi dialect rules 2026-10-06)
     ka: ["ოთხმოცდაცხრამეტი", "otʰxmotsʰdatsʰxrametʼi"], // was ["ოთხმოცდაცხრამეტი", "otʰxmotsdatsxɾametʰi"] (vi dialect rules 2026-10-06)
     cy:    ["naw deg naw", "nau dɛɡ nau"],
     br:    ["naontek ha pevar-ugent", "nãwntek a pewaɾˈyːɡɛn"],
@@ -1408,7 +1414,7 @@ WORDS.n99 = {
     az:     ["doxsan doqquz", "doxˈsɑn doɡˈɡuz"],
     cv: ["тӑхӑрвуннӑ тӑхӑр", "təxərvunːə ˈtəxər"], // was ["тӑхӑрвуннӑ тӑхӑр", "təxərʋunːə ˈtəxər"] (vi dialect rules 2026-10-06)
     to:     ["hivangofulu mā hiva", "hivaŋofulu maː hiva"],
-    fj:     ["ciwasagavulu ka ciwa", "ðiwasaŋavulu ka ðiwa"],
+    fj: ["ciwasagavulu ka ciwa", "ðiwasaŋaβulu ka ðiwa"], // was ["ciwasagavulu ka ciwa", "ðiwasaŋavulu ka ðiwa"] (vi dialect rules 2026-10-06)
     sm:     ["ivasefulu ma le iva", "ivasefulu ma le iva"],
     quz:    ["isqun chunka isqunniyuq", "ˈisqun ˈtʃunka isqunniˈjuq"],
     ig:     ["iri itoolu na itoolu", "iɾi itoːlu na itoːlu"],
@@ -1539,8 +1545,8 @@ WORDS.n99 = {
     en_ie: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_sco: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_scouse: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
-    en_geordie: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
-    en_brum: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    en_geordie: ["ninety-nine", "ˈnɛɪnti ˈnɛɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
+    en_brum: ["ninety-nine", "ˈnɔɪnti ˈnɔɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_manc: ["ninety-nine", "ˈnaɪntɛ ˈnaɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_wc: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_est: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)

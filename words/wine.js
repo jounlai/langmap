@@ -1361,8 +1361,8 @@ WORDS.wine = {
     en_yk: ["wine", "waɪn"],
     en_ck: ["wine", "waɪn"],
     en_scouse: ["wine", "waɪn"],
-    en_geordie: ["wine", "waɪn"],
-    en_brum: ["wine", "waɪn"],
+    en_geordie: ["wine", "wɛɪn"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
+    en_brum: ["wine", "wɔɪn"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
     en_manc: ["wine", "waɪn"],
     en_wc: ["wine", "waɪn"],
     en_est: ["wine", "wɑɪn"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
@@ -1407,7 +1407,7 @@ WORDS.wine = {
     nl_be: ["wijn", "wɛin"],
     fy: ["wyn", "viːn"],
     li: ["wien", "ʋiːn"],
-    yi: ["ווײַן", "vajn"],
+    yi: ["ווײַן", "vaɪ̯n"], // was ["ווײַן", "vajn"] (vi dialect rules 2026-10-06)
 
     // --- Celtic — borrowed from Latin with the Church ----------------------
     mga: ["fín", "fiːn"],
@@ -1439,7 +1439,7 @@ WORDS.wine = {
     rm: ["vin", "vin"],
     rup: ["yin", "jin"],
     ruq: ["vin", "vin"],
-    wa: ["vin", "vɛ̃"],
+    wa: ["vén", "vɛ̃"], // was ["vin", "vɛ̃"] (vi dialect rules 2026-10-06)
     pcd: ["vin", "vɛ̃"],
     nrf: ["vîn", "vĩ"], // was ["vin", "vɛ̃"] (vi dialect rules 2026-10-06)
 
@@ -1451,7 +1451,7 @@ WORDS.wine = {
 
     // --- Slavic -------------------------------------------------------------
     orv: ["вино", "vino"],
-    rue: ["вино", "viˈno"],
+    rue: ["вино", "ˈvɪno"], // was ["вино", "viˈno"] (vi dialect rules 2026-10-06)
     szl: ["wino", "ˈvinɔ"],
     csb: ["wino", "ˈvinɔ"],
     hsb: ["wino", "ˈwinɔ"], // was ["wino", "ˈvinɔ"] (vi dialect rules 2026-10-06)
@@ -1510,7 +1510,7 @@ WORDS.wine = {
     mag: ["शराब", "ʃəraːb"],
     anp: ["शराब", "ʃəraːb"],
     hne: ["अंगूर के मंद", "əŋɡuːr ke mənd"], // was ["शराब", "ʃəraːb"] (vi dialect rules 2026-10-06)
-    bra: ["शराब", "ʃəraːb"],
+    bra: ["शराब", "səraːb"], // was ["शराब", "ʃəraːb"] (vi dialect rules 2026-10-06)
     bgc: ["शराब", "ʃəraːb"],
     mwr: ["शराब", "ʃəraːb"],
     hif: ["sharab", "ʃəraːb"],
@@ -1684,7 +1684,7 @@ WORDS.wine = {
     zh_zz: ["葡萄酒", "pʰu˦˨ tʰau˦˨ tɕiou˥˧"], // was ["葡萄酒", "pʰu˦˨ tʰau˦˨ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     hak_hl: ["葡萄酒", "pʰu˥˥ tʰo˥˥ tsiu˨˦"],
     cpx: ["葡萄酒", "pu˩˧ tʰo˩˧ tsiu˦˥˧"],
-    wuu_hz: ["葡萄酒", "bu˨˨˧ dɔ˨˨˧ tɕiɤɯ˥˧"],
+    wuu_hz: ["葡萄酒", "bu˨˩˧ dɔ˨˩˧ tɕʏ˥˧"], // was ["葡萄酒", "bu˨˨˧ dɔ˨˨˧ tɕiɤɯ˥˧"] (vi dialect rules 2026-10-06)
     yue_dg: ["葡萄酒", "pʰɐu˧˩ tʰɐu˧˩ tʃau˧˥"],
     yue_nn: ["葡萄酒", "pʰu˨˩ tʰu˨˩ tʃɐu˧˥"], // was ["葡萄酒", "pʰu˨˩ tʰu˨˩ tsɐu˧˥"] (r48 fix 2026-10-03)
     zh_cq: ["葡萄酒", "pʰu˨˩ tʰau˨˩ tɕiəu˦˨"],

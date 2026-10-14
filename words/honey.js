@@ -117,7 +117,7 @@ WORDS.honey = {
     kw: ["mel", "meːl"],
     hy_grab: ["մեղր", "meʁɾ"],
     hy: ["մեղր", "ˈmeʁəɾ"],
-    hyw: ["մեղր", "mɛʁɾ"],
+    hyw: ["մեղր", "ˈmɛʁəɾ"],
     sq: ["mjaltë", "ˈmjaltə"],
 
     // --- Romance: Latin mel all the way down ---------------------------
@@ -157,7 +157,7 @@ WORDS.honey = {
     nl: ["honing", "ˈɦoːnɪŋ"],
     af: ["heuning", "ˈɦɪønɪŋ"],
     fy: ["huning", "ˈhynɪŋ"],
-    yi: ["האָניק", "ˈhɔnik"],
+    yi: ["האָניק", "ˈhɔnɪk"],
 
     // --- Balto-Slavic and Indo-Iranian: the *médʰu branch --------------
     prg: ["meddo", "medo"],
@@ -506,7 +506,7 @@ WORDS.honey = {
     dar: ["варъа", "warʔa"],
     lbe: ["ницӏ", "nitsʼ"],
     aqc: ["имцӏ", "imtsʼ"],
-    lez: ["вирт", "virt"],
+    lez: ["вирт", "wirt"],
     tab: ["йиччв", "jitʃːʷ"],
     tkr: ["итв", "itʷ"],
     rut: ["ит", "it"],
@@ -614,7 +614,7 @@ WORDS.honey = {
     xmf: ["თოფური", "tʰopʰuri"],
     nci: ["neuctli", "nekʷtɬi"],
     nv: ["tsísʼná bitłʼizh", "tsʰísʔnɑ́ pìtɬʼìʒ"],
-    new: ["कस्ति", "kʌsti"],
+    new: ["कस्ति", "kəsti"],
     nrf: ["mié", "mje"],
     nrf_gg: ["miel", "mjɛl"],
     fra_jer: ["myi", "mji"],
@@ -679,7 +679,7 @@ WORDS.honey = {
     ixl: ["kabʼ", "kaɓ"],
     toj: ["chab", "tʃaɓ"],
     agu: ["kabʼ", "kaɓ"],
-    mam: ["taʼl xiiʼ", "taʔl ʃiːʔ"],
+    mam: ["taʼl xiiʼ", "taʔl ʂiːʔ"],
     lg: ["omubisi gwʼenjuki", "omubisi ɡweɲdʒuki"],
     sms: ["miõtt", "miətː"],
     sma: ["hååneske", "hoːnɛskɛ"],
@@ -784,7 +784,7 @@ WORDS.honey = {
     myp: ["xaáhái", "ʔaáhái"],
     sg: ["ngûlavu", "ŋɡulavu"],
     swb: ["ngizi", "ŋizi"],
-    yua: ["kaab", "kaːb"],
+    yua: ["kaab", "kaːɓ"],
     rif: ["ⵜⴰⵎⵎⵏⵜ", "θamːənt"],
     nd: ["uluju", "uludʒu"],
     pmay: ["*kaabʼ", "kaːɓ"],
@@ -1149,6 +1149,7 @@ WORDS.honey = {
     adi: ["ngullang", "ŋullaŋ"],
     zts: ["dzɨny", "dzɨɲ"],
     fud: ["meli", "meli"],
-    ho: ["hani", "hani"]
+    ho: ["hani", "hani"],
+    nut: ["mèng thưưng", "mɛŋ˨˩ tʰɯːŋ˧˧"]
   },
 };

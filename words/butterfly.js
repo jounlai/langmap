@@ -151,7 +151,7 @@ WORDS.butterfly = {
     cs: ["motýl", "ˈmotiːl"],  // Slavic *motylь.
     sk: ["motýľ", "ˈmotiːʎ"],  // Slavic *motylь.
     sl: ["metulj", "mɛˈtuːl"],  // Slavic *motylь.
-    hr: ["leptir", "ˈleptiːr"],
+    hr: ["leptir", "lêptiːr"],
     bg: ["пеперуда", "pɛpɛˈrudɐ"],  // Reduplicated pe-pe-ruda.
     el: ["πεταλούδα", "petaˈluða"],  // From πέταλο 'leaf'.
     nl: ["vlinder", "ˈvlɪndər"],
@@ -159,7 +159,7 @@ WORDS.butterfly = {
     is: ["fiðrildi", "ˈfɪðrɪltɪ"],  // Cognate with Swedish fjäril; the same reduplicated *pVl-pVl- root as Latin papilio.
     no: ["sommerfugl", "ˈsɔmərfʉːl"],  // Compound 'summer' + 'bird' — fugl is this row's own word for bird.
     da: ["sommerfugl", "ˈsɔmɐfuːˀl"],  // Compound 'summer' + 'bird' — fugl is this row's own word for bird.
-    ga: ["féileacán", "fʲeːlʲəkaːn̪ˠ"],
+    ga: ["féileacán", "ˈfʲeːlʲəkaːn̪ˠ"],
     cy: ["glöyn byw", "ˈɡloːɨn ˈbɪu"],  // Literally 'living ember' (glöyn 'ember' + byw 'living'); the alternative iâr fach yr haf is 'little hen of the summer'.
     br: ["balafenn", "balaˈfɛn"],
     eu: ["tximeleta", "tʃimeleta"],  // Basque has unusually many regional words for this insect; NorthEuraLex also records pinpirin. tximeleta is the standard form.
@@ -212,7 +212,7 @@ WORDS.butterfly = {
     ckt: ["ӄопаԓготкочьын", "qopaɬɣotkotɕʔən"],
     itl: ["вэвэчҳ", "βeβetʃχ"],  // Reduplicated ve-ve-.
     ess: ["яӄылъыӈытаӄ", "jaqɨɬɨŋɨtaq"],
-    ce: ["полла", "polːə"],
+    ce: ["полла", "polːa"],
     av: ["кӏалкӏучӏ", "kʼalkʼutʃʼ"],  // Reduplicative kʼal-kʼu-. IDS records a dozen different Avar dialect words for this one insect.
     lez: ["чепелукь", "tʃepeluqʼ"],
     dar: ["къабулдан", "qːabuldan"],  // IDS records eighteen different Dargwa dialect words for this one insect.
@@ -446,7 +446,7 @@ WORDS.butterfly = {
     ja_hir: ["蝶", "tɕoː"],
     jvn: ["kupu", "kupu"],
     zh_lz: ["叶蝶子", "jə˩˧ tiɛ˧˩ tsɨ"],
-    wuu_nb: ["蝴蝶", "ɦu˨˩˧ diɪʔ˩˨"],
+    wuu_nb: ["蝴蝶", "ɦu˧˩˧ diɐʔ˩˨"],
     wuu_sz: ["蝴蝶", "ɦəu˨˨˧ diɪʔ˧"],
     nan_qz: ["尾蝶", "bə˥˥˦ iaʔ˨˦"],
     kln: ["taburburiet", "taburburiet"],
@@ -458,12 +458,12 @@ WORDS.butterfly = {
     ks: ["پَنہٕ پونٛپُر", "panɨpõːpur"],
     bgq: ["तितली", "titliː"],
     ee: ["kpakpaluʋui", "kpakpaluʋui"],
-    nso: ["serurubele", "seruruˈbele"],
+    nso: ["serurubele", "seruruˈβele"],
     sg: ["püpülenge", "pupulenɡe"],
     ja_sd: ["蝶", "tɕoː"],
     ko_yb: ["나비", "nabi"],
     ko_hg: ["나붕이", "nabuŋi"],
-    rki: ["လိပ်ပြာ", "leiʔprà"],
+    rki: ["လိပ်ပြာ", "leɪʔprà"],
     efi: ["ọfọñekpo", "ɔfɔŋekpo"],
     emk: ["firinfirinlen", "fiɾinfiɾinlen"],
     yao: ["chipuluputwa", "tʃipuluputwa"],
@@ -663,7 +663,7 @@ WORDS.butterfly = {
     fr_qc: ["papillon", "papijɔ̃"],
     en_ie: ["butterfly", "ˈbʊtəɹflaɪ"],
     pnb: ["تتلی", "tɪtliː"],
-    yue_ts: ["蝴蝶", "vu˨˨ iap̚˧˨"],
+    yue_ts: ["蝴蝶", "ʋu˨˨ ʔiep˧˨"],
     en_au: ["butterfly", "ˈbɐɾəflɑɪ"],
     en_sco: ["butterfly", "ˈbʌtəɹflaɪ"],
     en_sg: ["butterfly", "ˈbatəflaɪ"],
@@ -674,7 +674,7 @@ WORDS.butterfly = {
     nan_hai: ["飞蝶", "ɓue˨˧ ia˧˧"],
     zh_db: ["蝴蝶儿", "xu˧˥ tjɐɻ˧˥"],
     en_south: ["butterfly", "ˈbʌɾɚflaː"],
-    en_nz: ["butterfly", "ˈbɐtəflɑe"],
+    en_nz: ["butterfly", "ˈbɐtəflɑɪ"],
     zh_zz: ["蝴蝶儿", "xu˦˨ tiɛɻ˦˨"],
     de_at: ["Schmetterling", "ˈʃmɛtɐlɪŋ"],
     en_app: ["butterfly", "ˈbʌɾɚflaː"],
@@ -835,7 +835,7 @@ WORDS.butterfly = {
     pag: ["kompapey", "kompapəj"],
     bin: ["ebalabala", "ebalabala"],
     ada: ["kutu", "kutu"],
-    kam: ["kĩmbalutwʼa", "kimbalutwa"],
+    kam: ["kĩmbalutwʼa", "kembalutwa"],
     ve: ["tshisusu", "tʃʰisusu"],
     kqn: ["kipupulwa", "kipupulwa"],
     tum: ["bulawura", "bulawuɾa"],
@@ -901,7 +901,7 @@ WORDS.butterfly = {
     pura: ["*lȣ̈ppɜ", "lȣ̈ppɜ"],
     olk: ["imilam", "imilam"],
     zh_nj: ["蝴蝶儿", "xu˨˦ tʰiʔ˥ ɚ˨˦"],
-    zh_hf: ["蝴蝶", "xʉ˥˥ tʰiɐʔ˦"],
+    zh_hf: ["蝴蝶", "xʉ˦˥ tʰiɐʔ˦"],
     enq: ["kuli kambilyo", "kuli kambiʎo"],
     acw: ["فراشة", "faraːʃa"],
     har: ["aḥmära kitāb", "ɑħmərɑ kitaːb"],

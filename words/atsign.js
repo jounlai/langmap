@@ -184,7 +184,7 @@ WORDS.atsign = {
     en_us: ["at", "æt"],
     en_ca: ["at", "æt"],
     en_au: ["at", "æt"],
-    en_nz: ["at", "ɛt"],
+    en_nz: ["at", "æt"],
     en_ie: ["at", "at"],
     en_za: ["at", "æt"],
     en_in: ["at", "æʈ"],
@@ -251,7 +251,7 @@ WORDS.atsign = {
     ar: ["آت", "ʔaːt"],
     fa: ["ات", "ʔæt"],
     // === More Western Europe ===
-    gl: ["arroba", "aˈrɔβɐ"],
+    gl: ["arroba", "aˈrɔβa"],
     oc: ["arròba", "aˈrɔβɔ"],
     lb: ["—", "—"],
     fo: ["kurla", "ˈkʰʊɭa"],
@@ -317,7 +317,7 @@ WORDS.atsign = {
     fr_cm: ["arobase", "aʁɔbaz"],
 
     pt_ao: ["arroba", "ɐˈʁobɐ"],
-    pt_mz: ["arroba", "ɐˈʁɔβɐ"],
+    pt_mz: ["arroba", "ɐˈʁobɐ"],
     pt_mo: ["arroba", "ɐˈʁoβɐ"],
     pt_cv: ["arroba", "ɐˈʁobɐ"],
 
@@ -403,6 +403,7 @@ WORDS.atsign = {
     xal: ["эт", "et"],
     fra_jer: ["à", "a"],
     csb: ["smôrzcz", ""],
-    scn: ["a cummirciali", ""]
+    scn: ["a cummirciali", ""],
+    sdh: ["ئەت", "æt"]
   },
 };

@@ -116,6 +116,7 @@ WORDS.coffee = {
     sw: "Kahawa — kinywaji kinachotengenezwa kwa nafaka za kahawa zilizochomwa. Neno la kila siku kwa kinywaji: si mmea, si punje mbichi, si mkahawa, wala si rangi.",
   },
   family: {
+    ce: "qahwa",
     zh_nj: "qahwa",
     zh_jh: "qahwa",
     tsu: "qahwa",
@@ -762,6 +763,7 @@ WORDS.coffee = {
     other: { color: "#6b7280", emoji: "🫘", en: "a native or unrelated word", ja: "固有語または無関係の語", ko: "고유어 또는 무관한 낱말", zh: "本土词或无关的词", yue: "本土詞或者無關嘅詞", vi: "từ bản địa hoặc không liên quan", th: "คำพื้นเมืองหรือคำที่ไม่เกี่ยวข้อง", id: "kata asli atau tak berkaitan", hi: "देशज या असंबद्ध शब्द", de: "ein eigenes oder nicht verwandtes Wort", fr: "un mot propre ou sans rapport", it: "una parola propria o non imparentata", es: "una palabra propia o sin relación", pt: "uma palavra própria ou sem relação", ru: "своё или неродственное слово", uk: "власне або неспоріднене слово", ar: "كلمة أصلية أو غير ذات صلة", he: "מילה מקורית או לא קשורה", sw: "neno la asili au lisilohusiana" },
   },
   data: {
+    ce: ["кофе", ""],
     zh_nj: ["咖啡", "kʰa˧˩ fei˧˩"],
     zh_jh: ["咖啡", "kʰa˧˩ fei˧˩"],
     tsu: ["khafei", ""],
@@ -918,7 +920,7 @@ WORDS.coffee = {
     ja_rys: ["コーヒー", "koːhiː"],
     ja_mvi: ["コーヒー", "koːhiː"],
     ja_oki: ["コーヒー", "koːhiː"],
-    wuu_nb: ["咖啡", "kʰa˥˧ fi˥˧"],
+    wuu_nb: ["咖啡", "kʰa˥˨ fi˥˨"], // was ["咖啡", "kʰa˥˧ fi˥˧"] (vi dialect rules 2026-10-06)
     mni: ["ꯀꯣꯐꯤ", "kopʰi"],
     cbk: ["cafe", "kaˈfe"],
     gn: ["kafe", "kafe"],
@@ -1358,7 +1360,7 @@ WORDS.coffee = {
     en_scouse: ["coffee", "ˈkɒfi"],
     en_geordie: ["coffee", "ˈkɒfi"],
     en_brum: ["coffee", "ˈkɒfi"],
-    en_manc: ["coffee", "ˈkɒfi"],
+    en_manc: ["coffee", "ˈkɒfɛ"], // was ["coffee", "ˈkɒfi"] (vi dialect rules 2026-10-06)
     en_wc: ["coffee", "ˈkɒfi"],
     en_est: ["coffee", "ˈkɒfi"],
     en_sg: ["coffee", "ˈkɔfi"],
@@ -1389,7 +1391,7 @@ WORDS.coffee = {
     ba: ["ҡәһүә", "qæhˈwæ"],
     lmo: ["cafè", "kaˈfɛ"],
     kw: ["koffi", "ˈkɔfi"],
-    hr: ["kava", "ˈkaːʋa"],
+    hr: ["kava", "kǎʋa"], // was ["kava", "ˈkaːʋa"] (vi dialect rules 2026-10-06)
     bs: ["kahva", "ˈkaxʋa"],
     ach: ["kawa", "kawa"],
     tig: ["ቡን", "bun"],
@@ -1398,7 +1400,7 @@ WORDS.coffee = {
     nan_qz: ["咖啡", "ko˧˧ pi˧˧"],
     wal: ["tukkiya", "tukːija"],
     sid: ["buna", "buna"],
-    zh_km: ["咖啡", "kʰa˦˦ fei˦˦"],
+    zh_km: ["咖啡", "kʰᴀ˦˦ fei˦˦"], // was ["咖啡", "kʰa˦˦ fei˦˦"] (vi dialect rules 2026-10-06)
     nan_xm: ["咖啡", "ko˦˦ pi˦˦"],
     io: ["kafeo", "kaˈfeo"],
   },

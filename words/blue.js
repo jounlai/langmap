@@ -55,6 +55,7 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    shy: "distinct",
     ctg: "distinct",
     bej: "grue",
     cgg: "borrowed",
@@ -927,6 +928,7 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    shy: ["azenzari", "azənzari"],
     ctg: ["নীল", "nil"],
     bej: ["sootaay", "soːtaːj"],
     cgg: ["bururu", "bururu"],
@@ -1140,7 +1142,7 @@ WORDS.blue = {
     wuu_wz: ["蓝", "la˧˩"],
     wuu_hz: ["蓝", "lᴇ̃˨˩˧"], // was ["蓝", "læ̃˨˩˧"] (r48 fix 2026-10-03)
     wuu_jx: ["蓝", "lɛ˧˩"], // was ["蓝", "lɛ˨˧"] (r46 fix 2026-10-03)
-    wuu_nb: ["蓝", "lɛ˨˨˧"],
+    wuu_nb: ["蓝", "lɛ˧˩˧"], // was ["蓝", "lɛ˨˨˧"] (vi dialect rules 2026-10-06)
     wuu_sz: ["蓝", "lᴇ˨˨˧"],
     wuu: ["蓝", "lɛ˨˧"],
     zap: ["azul", "asul"],
@@ -1220,7 +1222,7 @@ WORDS.blue = {
     mnp: ["蓝", "laŋ˧˧"],
     zh_zz: ["蓝", "lan˦˨"],
     zh_xa: ["蓝", "lã˨˦"],
-    zh_kf: ["蓝", "lan˦˨"],
+    zh_kf: ["蓝", "lan˥˧"], // was ["蓝", "lan˦˨"] (vi dialect rules 2026-10-06)
     zh_wh: ["蓝", "nan˨˩˧"],
     zh_sc: ["蓝", "nan˨˩"],
     zh_km: ["蓝", "lᴀ̃˧˩"], // was ["蓝", "lã˧˩"] (r48 fix 2026-10-03)
@@ -1229,7 +1231,7 @@ WORDS.blue = {
     zh_db: ["蓝", "lan˧˥"],
     zh_lz: ["蓝", "lɛn˥˧"],
     zh_jh: ["蓝", "lan˩˧"], // was ["蓝", "lã˧˥"] (vi dialect rules 2026-10-06)
-    zh_hf: ["蓝", "læ̃˥˥"],
+    zh_hf: ["蓝", "lɐ̃˦˥"], // was ["蓝", "læ̃˥˥"] (vi dialect rules 2026-10-06)
     zh_nj: ["蓝", "lan˨˦"],
     zh_tj: ["蓝", "lan˦˥"],
     zh_jn: ["蓝", "lã˦˨"],
@@ -1279,7 +1281,7 @@ WORDS.blue = {
     ctu: ["yäjyäx", "jɨhjɨʃ"], // was ["yäx", "jɨʃ"] (vi dialect rules 2026-10-06)
     shn: ["သွမ်ႇ", "sɔm˩"],
     lo: ["ຟ້າ", "faː˥˨"],
-    ko_jl: ["파랗다", "pʰaratʰa"],
+    ko_jl: ["파랗다", "pʰaɾatʰa"], // was ["파랗다", "pʰaratʰa"] (vi dialect rules 2026-10-06)
     mn_cn: ["ᠬᠥᠬᠡ", "xɵx"],
     ja_oki: ["おーさん", "ʔoːsaɴ"], // was ["おーさん", "oːsaɴ"] (vi dialect rules 2026-10-06)
     ja_kg: ["青か", "aoka"],
@@ -1456,7 +1458,7 @@ WORDS.blue = {
     be: ["сіні", "ˈsʲinʲi"],  // сіні vs зялёны; also блакітны for light blue.
     bfa: ["lomurye", "lomurje"],  // Given in the masculine lo- form to match the row's lolong. Bari has a separate green stem (ngen / ngeman 'be verdant'), so blue is not grue here. Owen glosses this row's 'red' differently (lotor), so the row's red may come from another source.
     bg: ["син", "sin"],  // син vs зелен.
-    bik: ["asul", "aˈsul"],  // Spanish loan (azul), and the everyday sky term: bcl.wikipedia's article is titled 'Asul' and opens 'An asul saro sa mga kolor kan balangaw... Asul an kolor kan kalangitan kun mayo nin dampog'. Wiktionary gives bughaw as a synonym, but Mintz's dictionary has no bughaw entry. Blue and green (berde) are separate.
+    bik: ["asul", "ʔaˈsul"],  // Spanish loan (azul), and the everyday sky term: bcl.wikipedia's article is titled 'Asul' and opens 'An asul saro sa mga kolor kan balangaw... Asul an kolor kan kalangitan kun mayo nin dampog'. Wiktionary gives bughaw as a synonym, but Mintz's dictionary has no bughaw entry. Blue and green (berde) are separate. // was ["asul", "aˈsul"] (vi dialect rules 2026-10-06)
     bjn: ["biru", "biru"],  // Class uncertain: the evidence is a native-language encyclopaedia article (partly translated from English), not a statement about Banjar colour semantics. Form is safe — biru is the ordinary Banjar word and Banjar keeps the Malayic inherited stock (habang, hirang) elsewhere in this row.
     bla: ["ótssko", "ótsːko"],  // Class disputed, so filed as distinct on the narrower reading: Galt Museum lists Otsskoinaattsi 'blue' against a separate Saiaaksimokoinaattsi 'green', while native-languages.org glosses the bare stem ótssko "green or blue". Both agree on blue, so only blue carries the cell; green is left unmapped until the dispute is settled. This stem sat in red until now — red is máóhk.
     bm: ["bulaman", "bulaman"],  // Delafosse marks bula as a loan from French 'bleu'. The inherited system has no blue-specific term: fi/fin-ma is 'noir' ou 'bleu foncé' (Delafosse PAG_232-233) and firisi / f'ri-si is 'bleu clair ou vert clair' (PAG_239). Green today is binkɛnɛman 'grass-coloured'. Final -n written ɲ in the IPA to match this row's bilen/bileɲ, fin/fiɲ.
@@ -1468,7 +1470,7 @@ WORDS.blue = {
     bxr: ["хүхэ", "xyˈxe"],  // Buryat хүхэ, the cognate of Mongolian хөх, against ногоон.
     ca: ["blau", "blaw"],  // blau vs verd.
     cag: ["jaka", "jaka"],  // IDS y written j here, exactly as this row's red yuk → juk/juk. Green in Nivaclé is a descriptive phrase, so the blue term is the basic one.
-    ce: ["сиина", "ˈsiːna"],  // Chechen сийна vs баьццара. IDS glosses сийна as 'стигалан басахь' — sky-coloured. The Akkin dialect in IDS uses син for both blue and green, so the split is not uniform across Nakh.
+    ce: ["сийна", "ˈsiːna"],  // Chechen сийна vs баьццара. IDS glosses сийна as 'стигалан басахь' — sky-coloured. The Akkin dialect in IDS uses син for both blue and green, so the split is not uniform across Nakh. // was ["сиина", "ˈsiːna"] (vi dialect rules 2026-10-06)
     ceb: ["asul", "ʔaˈsul"],  // Cebuano asul, the same Spanish loan as Tagalog's. The native pair is pughaw 'blue' and lunhaw 'green', named as such in the blue–green survey.
     ch: ["åsut", "ɑsut"],  // Spanish loan, as is betde 'green' (< verde). Chamorro keeps inherited terms only for red (agaga'), white (å'paka'), black (åttilong); the blue/green pair is wholly Spanish. Corroborated by the colour table in ch.wikipedia s.v. Åsut.
     chk: ["araw", "araw"],  // Only the form is directly sourced. Classed grue because araw is the regular Chuukese reflex of Proto-Chuukic *karawa 'blue, green', whose Woleaian cognate gaaraweraw is glossed '(to be) green, blue' in Sohn & Tawerilmang, and no separate Chuukese basic green term turned up. The Trukese-English Dictionary itself was not reachable; it should be checked.
@@ -1544,7 +1546,7 @@ WORDS.blue = {
     hil: ["asul", "aˈsul"],  // Motus (1971) *Hiligaynon Dictionary* glosses tagúm simply 'blue' (cited in the ACD), but Kaufmann shows tágum is the indigo plant/dye; asúl is the ordinary sky-colour word. Green is berde / lunhaw.
     ho: ["gadoka gadoka", "ɡadoka ɡadoka"],  // The same term is listed for blue and for green; bulu is the English loan alternative. Hiri Motu inherits the Motu grue term (Motu gadogagadoga).
     hop: ["sakwa", "sakʷa"],  // sakwa covers the blue-green range (sakwa is the turquoise/blue stripe of the Hopi flag and the word in sakwa qa'ö 'blue corn').
-    hr: ["plav", "plaːʋ"],  // plav vs zelen; modar is the darker blue. Note plav also means 'blond' of hair.
+    hr: ["plav", "plâːʋ"],  // plav vs zelen; modar is the darker blue. Note plav also means 'blond' of hair. // was ["plav", "plaːʋ"] (vi dialect rules 2026-10-06)
     hts: ["tikitʃe", "tikitʃe"],  // Hadza: the sound-symbolism database gives effectively the same form for blue (tikitʃe) and green (t̪ikitʃe). The surface repeats the source's transcription, as the row's other colour cells do.
     hu: ["kék", "keːk"],  // kék vs zöld; kék is an early Turkic loan (cf. kök) but is the sole basic blue.
     huz: ["гьасас (кьер)", "haˈsas"],  // Hunzib гьасас (кьер) 'sky (colour)' vs ничду.
@@ -1567,7 +1569,7 @@ WORDS.blue = {
     jiu: ["a33lɯ33", "a˧˧lɯ˧˧"],  // Jinuo a³³lɯ³³ against a³³ny⁵⁵ 'green'.
     jup: ["pɔ̃pɔ̃h", "pɔ̃pɔ̃h"],  // Hup: the sound-symbolism database gives the identical pɔ̃pɔ̃h for blue and for green, and WOLD gives pɔ̃pɔ̃´h (a reduplication) with no evidence of borrowing. The class is solid; the surface repeats the source's transcription and may not be the row's practical orthography.
     jv: ["biru", "biru"],  // Modern Javanese biru against ijo. Old Javanese birū was one term across pale blue, greyish blue, greenish blue and turquoise, so this row is the modern end of a grue that has split.
-    ka: ["ლურჯი", "ˈlurdʒi"],  // Georgian ლურჯი vs მწვანე. ცისფერი 'sky-coloured' is the lighter blue, so Georgian has a two-blue system; ლურჯი is the basic term.
+    ka: ["ლურჯი", "lurdʒi"],  // Georgian ლურჯი vs მწვანე. ცისფერი 'sky-coloured' is the lighter blue, so Georgian has a two-blue system; ლურჯი is the basic term. // was ["ლურჯი", "ˈlurdʒi"] (vi dialect rules 2026-10-06)
     kab: ["azegzaw", "azɡzaw"],  // Kabyle azegzaw is used for both green and blue; the Wikipedia survey names Shilha and Kabyle explicitly. Standard Amazigh has coined azerwal for narrow blue.
     kca: ["рых восты", "rɪx ˈwostɪ"],  // Khanty has no bare word for blue: восты alone is GREEN (so NorthEuraLex and IDS), and blue is рых восты, literally 'berry восты'. IDS gives the alternative etar̃xar̃ɨ 'sky-like'. One cool-range term specified by a modifier — a grue, and the cell gives the full blue expression.
     kg: ["bule", "bule"],  // The everyday modern word is the loan bule, shared with Lingala and Kituba where the etymology (French bleu) is given explicitly; the Kongo entry itself carries no etymology, hence 'uncertain'. Both older dictionaries show Kikongo had no inherited blue term: Butaye renders 'bleu' as nitu zulu (lit. 'colour of the sky') or nitu ndombe, and under 'Couleur' lists only 'nitu ndombe, noir ou bleu fonce; mpembe/ndundu, blanc; zulu, bleu de ciel; kaya, vert; ...'; Laman glosses ndombe 'sombre, noir, bleu, brun, fonce' with ndombe ya simba 'bleu, bleu clair'. So the inherited pattern is the `dark` type (blue subsumed under black), and ndombe is already this row's black cell.

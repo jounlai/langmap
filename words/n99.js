@@ -1129,7 +1129,7 @@ WORDS.n99 = {
     ada: ["nyingmi nɛɛ kɛ nɛɛ", "ɲiŋ͡mi nɛː kɛ nɛː"],
     ach: ["pyere abongwen wiye abongwen", "pjere aboŋwɛn wije aboŋwɛn"],
     abs: ["sambilang pulu sambilang", "sambilaŋ pulu sambilaŋ"],
-    zh_hf: ["九十九", "tɕiɯ˨˦ ʂəʔ˦ tɕiɯ˨˦"],
+    zh_hf: ["九十九", "tɕiɤɯ˨˦ ʂəʔ˦ tɕiɤɯ˨˦"], // was ["九十九", "tɕiɯ˨˦ ʂəʔ˦ tɕiɯ˨˦"] (vi dialect rules 2026-10-06)
     rmy: ["enjavardeš thaj enja", "enjavardeʃ tʰaj enja"],
     ext: ["noventa i nuevi", "noˈβenta i ˈnweβi"],
     ca_va: ["noranta-nou", "noˈɾanta ˈnɔw"],
@@ -1161,9 +1161,9 @@ WORDS.n99 = {
     bbc: ["siapulu sia", "siapulu sia"], // was ["sia pulu sia", "sia pulu sia"] (vi dialect rules 2026-10-06)
     mak: ["salapampulo assalapang", "salapampulo asːalapaŋ"],
     max: ["sembilan pulu sembilan", "sembilan pulu sembilan"], // was ["sembilan pulu sembilan", "səmbilan pulu səmbilan"] (r51 audit 2026-10-04)
-    ban: ["sangang dasa sia", "saŋaŋ dasa sia"],
+    ban: ["sangang dasa sia", "saŋaŋ dasə siə"], // was ["sangang dasa sia", "saŋaŋ dasa sia"] (vi dialect rules 2026-10-06)
     sas: ["siwaq pulu siwaq", "siwaʔ pulu siwaʔ"],
-    ace: ["sikureueng ploh sikureueng", "sikuɾɯəŋ plɔh sikuɾɯəŋ"],
+    ace: ["sikureueng ploh sikureueng", "sikurɯəŋ plɔh sikurɯəŋ"], // was ["sikureueng ploh sikureueng", "sikuɾɯəŋ plɔh sikuɾɯəŋ"] (vi dialect rules 2026-10-06)
     mad: ["sangang polo sangaʼ", "saŋaŋ pɔlɔ saŋaʔ"],
     pcc: ["guc xib guc", "ku˥˧ ɕip˧˧ ku˥˧"],
     za: {
@@ -1180,7 +1180,7 @@ WORDS.n99 = {
     lo: ["ເກົ້າສິບເກົ້າ", "kaw˥˨ sip˧˥ kaw˥˨"], // was ["ເກົ້າສິບເກົ້າ", "kaːw˥˨ sip˧˥ kaːw˥˨"] (vi dialect rules 2026-10-06)
     ceb: ["nobentay nuybe", "noˈbɛntaj ˈnujbe"],
     war: ["kasiyaman kag siyam", "kasijaˈman kaɡ siˈjam"],
-    bik: ["nobenta y nwebe", "noˈbɛnta i ˈnwebe"],
+    bik: ["nobenta y nwebe", "noˈbenta i ˈnwebe"], // was ["nobenta y nwebe", "noˈbɛnta i ˈnwebe"] (vi dialect rules 2026-10-06)
     hil: ["nobentay nwebe", "noˈbɛntaj ˈnwebe"],
     pag: ["siamaplo tan siam", "siamaˈplo tan siˈam"],
     pam: ["siam apuluʼt siam", "siˈam ʔaˈpulut siˈam"],
@@ -1195,7 +1195,7 @@ WORDS.n99 = {
     ks: ["نَمہٕ نَمَتھ", "namɨ namatʰ"],
     skr: ["نڑانوے", "nəɽaːnʋeː"],
     sd: ["نوانوي", "nəʋaːnəʋeː"],
-    rom: ["enjavardeš thaj enja", "enjavardɛʃ tʰaj enja"],
+    rom: ["enjavardeš thaj enja", "enjavardeʃ tʰaj enja"], // was ["enjavardeš thaj enja", "enjavardɛʃ tʰaj enja"] (vi dialect rules 2026-10-06)
     rhg: ["nobboi-now", "nɔbːɔinow"],
     syl: ["নিরান্নব্বই", "niranːɔbːoi"],
     bgc: ["निन्यानवे", "nɪnjaːnʋeː"],
@@ -1215,8 +1215,8 @@ WORDS.n99 = {
     ko_bus: ["아흔아홉", "ahɯnahop̚"],
     ko_kp: ["아흔아홉", "ahɯnahop̚"],
     ja_sd: ["九十九", "kʲɯːdʑɯːkʲɯː"],
-    ja_hak: ["九十九", "kʲɯːdʑɯːkʲɯː"],
-    ja_hir: ["九十九", "kʲɯːdʑɯːkʲɯː"],
+    ja_hak: ["九十九", "kʲɯːʑɯːkʲɯː"], // was ["九十九", "kʲɯːdʑɯːkʲɯː"] (vi dialect rules 2026-10-06)
+    ja_hir: ["九十九", "kʲɯːʑɯːkʲɯː"], // was ["九十九", "kʲɯːdʑɯːkʲɯː"] (vi dialect rules 2026-10-06)
     ja_osa: ["九十九", "kʲɯːdʑɯːkʲɯː"],
     kab: ["tesɛa u tesɛin", "təsʕa u təsʕin"],
     ti: ["ተስዓን ትሽዓተን", "tɐsʕan tɨʃʕatɐn"], // was ["ተስዓን ትሽዓተን", "təsʕan tɨʃʕatən"] (vi dialect rules 2026-10-06)
@@ -1238,12 +1238,12 @@ WORDS.n99 = {
     nyn: ["makumi mwenda na mwenda", "makumi mwenda na mwenda"],
     xog: ["kyenda na mwenda", "kjenda na mwenda"],
     mer: ["mĩrongo kenda na kenda", "meɾɔŋɡɔ kɛnda na kɛnda"],
-    kam: ["mĩongo kenda na kenda", "mioŋɡo kenda na kenda"],
+    kam: ["mĩongo kenda na kenda", "meɔŋɡɔ kɛnda na kɛnda"], // was ["mĩongo kenda na kenda", "mioŋɡo kenda na kenda"] (vi dialect rules 2026-10-06)
     snk: ["tankabe do kabu", "taŋkabe do kabu"], // was ["tankabe do kabu", "tãkabe do kabu"] (vi dialect rules 2026-10-06) // was ["tankabe do kabu", "taŋkabe do kabu"] (vi dialect rules 2026-10-06)
     emk: ["bikɔnɔndɔ ni kɔnɔndɔ", "bikɔnɔndɔ ni kɔnɔndɔ"],
     bci: ["ablangwlan-nin-ngwlan", "ablaŋɡʷlã nĩ ŋɡʷlã"], // was ["ablangwlan nin ngwlan", "ablaŋɡʷlã nĩ ŋɡʷlã"] (vi dialect rules 2026-10-06)
     sg: ["balegumbaya na gumbaya", "baleɡumbaja na ɡumbaja"],
-    nso: ["masome a senyane le senyane", "masome a seɲane le seɲane"],
+    nso: ["masome a senyane a metšo ye senyane", "masome a seɲane a metʃo je seɲane"], // was ["masome a senyane le senyane", "masome a seɲane le seɲane"] (vi dialect rules 2026-10-06)
     ssw: ["emashumi layimfica nemfica", "emaʃumi lajimfiǀa nemfiǀa"],
     mxc: ["makumi mapfumbamwe namapfumbamwe", "makumi mapfumbamwe namapfumbamwe"],
     bem: ["amakumi pabula na pabula", "amakumi pabula na pabula"],
@@ -1290,7 +1290,7 @@ WORDS.n99 = {
     cnp: ["九十九", "kɐu˧˧ ʃɐp˨ kɐu˧˧"], // was ["九十九", "kɐu˧˧ sɐp˨ kɐu˧˧"] (vi dialect rules 2026-10-06)
     hak_tw: ["九十九", "kiu˧˩ sɨp˥ kiu˧˩"],
     nan: ["九十九", "kau˥˧ tsap˦ kau˥˧"],
-    wuu_nb: ["九十九", "tɕiʏ˧˨˥ zəʔ˩˨ tɕiʏ˧˨˥"],
+    wuu_nb: ["九十九", "tɕiʏ˧˨˥ zɹ̩ʷœʔ˩˨ tɕiʏ˧˨˥"], // was ["九十九", "tɕiʏ˧˨˥ zəʔ˩˨ tɕiʏ˧˨˥"] (vi dialect rules 2026-10-06)
     wuu_sz: ["九十九", "tɕiʏ˥˩ zəʔ˧ tɕiʏ˥˩"],
     hsn: ["九十九", "tɕiəu˦˩ ʂʅ˨˦ tɕiəu˦˩"], // was ["九十九", "tɕiəu˦˩ sɹ̩˨˦ tɕiəu˦˩"] (vi dialect rules 2026-10-06)
     cjy: ["九十九", "tɕiəu˥˧ səʔ˥˦ tɕiəu˥˧"],
@@ -1320,7 +1320,7 @@ WORDS.n99 = {
     ku: ["nod û neh", "noːd uː nɛh"],
     ckb: ["نەوەد و نۆ", "næwæd u noː"],
     ps: ["نه نوي", "nəh nəˈwi"],
-    ce: ["дезткъе итт исс", "destqʼe itː isː"],
+    ce: ["дезткъе ткъоьсна", "destʼqʼe tʼqʼɥ̯øsna"], // was ["дезткъе итт исс", "destqʼe itː isː"] (vi dialect rules 2026-10-06)
     dje: ["wayyegga cindi yegga", "wajːeɡːa tʃindi jeɡːa"],
     gn: ["porundypa porundy", "poɾundɨpa poɾundɨ"], // was ["porundypa porundy", "poɾudɨpa poɾudɨ"] (vi dialect rules 2026-10-06)
     ay: ["llätunka tunka llätunkani", "ʎaːtunka tunka ʎaːtunkani"],
@@ -1339,7 +1339,7 @@ WORDS.n99 = {
     sv:    ["nittionio", "ˈnɪtːiuˌniːu"],
     is:    ["níutíu og níu", "ˈniːʏtʰiːʏ ɔɣ ˈniːʏ"],
     eu:    ["laurogeita hemeretzi", "lauɾoɣeita emeɾetsi"],
-    ka:    ["ოთხმოცდაცხრამეტი", "otʰxmotsdatsxɾametʰi"],
+    ka: ["ოთხმოცდაცხრამეტი", "otʰxmotsʰdatsʰxrametʼi"], // was ["ოთხმოცდაცხრამეტი", "otʰxmotsdatsxɾametʰi"] (vi dialect rules 2026-10-06)
     cy:    ["naw deg naw", "nau dɛɡ nau"],
     br:    ["naontek ha pevar-ugent", "nãwntek a pewaɾˈyːɡɛn"],
     ga:    ["nócha a naoi", "ˈn̪ˠoːxə ə ˈn̪ˠiː"],
@@ -1398,7 +1398,7 @@ WORDS.n99 = {
     lv:     ["deviņdesmit deviņi", "ˈdeviɲdesmit ˈdeviɲi"],
     be:     ["дзевяноста дзевяць", "dzʲevʲaˈnosta ˈdzʲevʲatsʲ"],
     ca:     ["noranta-nou", "nuˈɾantə ˈnɔw"],
-    gl:     ["noventa e nove", "noˈβɛnta e ˈnoβe"],
+    gl: ["noventa e nove", "noˈβenta e ˈnɔβe"], // was ["noventa e nove", "noˈβɛnta e ˈnoβe"] (vi dialect rules 2026-10-06)
     oc:     ["nonanta-nòu", "nuˈnantɔ ˈnɔw"],
     tt:     ["туксан тугыз", "tuksan tuˈɣɯz"],
     ba:     ["туҡһан туғыҙ", "tuqhan tuˈɣɯð"],
@@ -1457,7 +1457,7 @@ WORDS.n99 = {
     tpi:      ["nainpela ten nain", "nainpela ten nain"],
     yue:    ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"],
     yue_zs: ["九十九", "kɐu˨˩˧ sɐp˧ kɐu˨˩˧"], // was ["九十九", "kɐu˧˥ sɐp˨ kɐu˧˥"] (r46 fix 2026-10-03)
-    yue_ts: ["九十九", "kiu˧˧ sip˨ kiu˧˧"],
+    yue_ts: ["九十九", "kiu˥˥ sip˧˨ kiu˥˥"], // was ["九十九", "kiu˧˧ sip˨ kiu˧˧"] (vi dialect rules 2026-10-06)
     yue_dg: ["九十九", "kau˧˥ ʃɔk˧ kau˧˥"],
     yue_nn: ["九十九", "kɐu˧˥ ʃɐp˨ kɐu˧˥"], // was ["九十九", "kɐu˧˥ ɬɐp˨ kɐu˧˥"] (r48 fix 2026-10-03)
     nan_te: ["九十九", "kau˥˨ tsap˦ kau˥˨"],
@@ -1473,7 +1473,7 @@ WORDS.n99 = {
     zh_jn:  ["九十九", "tɕiou˥˥ ʂʅ˦˨ tɕiou˥˥"],
     zh_km: ["九十九", "tɕiəu˥˧ ʂʅ˧˩ tɕiəu˥˧"], // was ["九十九", "tɕiəu˥˧ ʂʅ˧˩ tɕiəu˥˧"] (r48 fix 2026-10-03)
     zh_wh: ["九十九", "tɕiou˦˨ sɿ˨˩˧ tɕiou˦˨"], // was ["九十九", "tɕiou˦˨ sz̩˨˩˧ tɕiou˦˨"] (vi dialect rules 2026-10-06)
-    zh_kf:  ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"],
+    zh_kf: ["九十九", "tɕiou˦˦ ʂʅ˥˧ tɕiou˦˦"], // was ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"] (vi dialect rules 2026-10-06)
     zh_tj: ["九十九", "tɕiou˩˧ ʂʅ˦˥ tɕiou˩˧"], // was ["九十九", "tɕiou˨˩˧ ʂʅ˦˥ tɕiou˨˩˧"] (vi dialect rules 2026-10-06)
     hsn_hy: ["九十九", "tɕiu˧˧ ɕi˩˩˨ tɕiu˧˧"],
 
@@ -1505,7 +1505,7 @@ WORDS.n99 = {
     fr_af: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
     fr_sn: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
     fr_ci: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
-    fr_ht: ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"],
+    fr_ht: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
     fr_cm: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
     fr_ch: ["nonante-neuf", "nɔnɑ̃tnœf"],
     pt_br: ["noventa e nove", "noˈvẽtɐ i ˈnɔvi"],
@@ -1533,7 +1533,7 @@ WORDS.n99 = {
     en_us: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ca: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_au: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
-    en_nz: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    en_nz: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_za: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"],
     en_in: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_ie: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
@@ -1541,7 +1541,7 @@ WORDS.n99 = {
     en_scouse: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_geordie: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_brum: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
-    en_manc: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
+    en_manc: ["ninety-nine", "ˈnaɪntɛ ˈnaɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_wc: ["ninety-nine", "ˈnaɪnti ˈnaɪn"],
     en_est: ["ninety-nine", "ˈnɑɪnti ˈnɑɪn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)
     en_app: ["ninety-nine", "ˈnaːnti ˈnaːn"], // was ["ninety-nine", "ˈnaɪnti ˈnaɪn"] (vi dialect rules 2026-10-06)

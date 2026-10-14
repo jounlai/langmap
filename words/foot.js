@@ -54,6 +54,7 @@ WORDS.foot = {
     sw: "Mguu — sehemu ya mwili unayosimamia, chini ya kifundo. Si kipimo cha urefu, si mteremko wa mlima wala mwisho wa kitanda, wala si kitenzi. Pale lugha ina neno moja kwa mguu mzima, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    mfa: "leg+foot",
     dnj: "compound",
     mdr: "unknown",
     wuu_jx: "unknown",
@@ -1206,6 +1207,7 @@ WORDS.foot = {
     "unknown": {"color": "#b45309", "emoji": "❓", "en": "not determined · no leg word attested", "ja": "未判定・脚の語が未確認", "ko": "미판정 · 다리 낱말이 확인되지 않음", "zh": "未判定・未见表示腿的词", "yue": "未判定 · 未見表示腿嘅詞", "vi": "chưa xác định · không thấy từ chỉ 'chân trên'", "th": "ยังไม่ระบุ · ไม่พบคำว่าขา", "id": "belum ditentukan · kata untuk tungkai tidak terekam", "hi": "अनिर्धारित · टाँग का शब्द अप्रमाणित", "de": "nicht bestimmt · kein Bein-Wort belegt", "fr": "non déterminé · aucun mot pour « jambe » attesté", "it": "non determinato · nessuna parola per «gamba» attestata", "es": "sin determinar · no se atestigua palabra para «pierna»", "pt": "por determinar · sem palavra atestada para «perna»", "ru": "не определено · слово «нога» не засвидетельствовано", "uk": "не визначено · слово «нога» не засвідчене", "ar": "غير محدَّد · لا كلمة مُثبتة للساق", "he": "לא נקבע · לא מתועדת מילה לרגל", "sw": "haijabainishwa · hakuna neno la mguu lililothibitishwa"},
   },
   data: {
+    mfa: ["kaki", "kaki"],
     dnj: ["gɛ̏ndhɛ̋", "ɡɛ̃̏ɗɛ̋"],
     mdr: ["lette", "letːe"],
     wuu_jx: ["脚", "tɕiɑʔ˥"],
@@ -1426,7 +1428,7 @@ WORDS.foot = {
     de_lu: ["Fuß", "fuːs"],  // As German: Fuß vs Bein. The row writes weiß with ß, so the ß spelling stands.
     de_lut: ["Fus", "fuːs"],  // Luther 1545, Ps. 91:12 'du deinen fus nicht an einen ſtein ſtöſſeſt'. Grimm keeps Fusz 'pes' from Bein 'crus'.
     deg: ["avi", "avi"],  // avi covers foot and leg alike in Kari's Degema wordlists, which give no separate foot word.
-    din: ["cök", "tʃɔk"],  // Dinka splits them: the SIL Dinka–English dictionary has cök for the foot and the track it leaves, against diɛɛr 'leg, shin', and the New Testament washes feet with cök at John 13:5 but breaks kuɔ̈l at John 19:32.
+    din: ["cök", "tʃok"],  // Dinka splits them: the SIL Dinka–English dictionary has cök for the foot and the track it leaves, against diɛɛr 'leg, shin', and the New Testament washes feet with cök at John 13:5 but breaks kuɔ̈l at John 19:32. // was ["cök", "tʃɔk"] (vi dialect rules 2026-10-06)
     dje: ["ce", "tʃe"],  // The Peace Corps Zarma manual lists ce for 'les jambes' and uses the same ce for a single swollen foot; Zarma keeps the vowel short where the Malian Songhay rows write cee.
     djk: ["futu", "futu"],  // Aukan breaks 'den bon fu a man futu', the bones of the man's futu, so one word covers the limb as in Sranan.
     djr: ["ḻuku", "ɭuku"],  // John 19:32 breaks yaŋara and John 13:6 washes ḻuku, the same word this row already carries in its wheel cell.
@@ -1691,7 +1693,7 @@ WORDS.foot = {
     kaa: ["ayaq", "ajaq"],  // ayaq covers both; put is the thigh, and Karakalpak does not build the Kazakh compound аяқ-басы.
     kab: ["aḍar", "adˤar"],  // Dallet, Dictionnaire kabyle–français, root ḌR: aḍar, pl. iḍarren, 'Pied. Patte. Jambe.'; the competing aqʷejjir is glossed 'Pied; patte. Jambe depuis le genou', the same range again.
     kac: ["lagaw", "laɡo˧"],  // Sun's TBL gives the same lagaw for foot and for leg, as Marrison does; labop is the calf and lahtaw the leg just above the ankle.
-    kam: ["kũũ", "kuː"],  // Hinde 1904 already had Kamba kuu for the foot, and the Kikamba Bible pairs kũũ with kwʼoko at Matthew 18:8 and breaks maũũ in John 19.
+    kam: ["kũũ", "koː"],  // Hinde 1904 already had Kamba kuu for the foot, and the Kikamba Bible pairs kũũ with kwʼoko at Matthew 18:8 and breaks maũũ in John 19. // was ["kũũ", "kuː"] (vi dialect rules 2026-10-06)
     kao: ["sin", "sin"],  // Monteil's 1915 Khassonké vocabulary heads one entry, Sinʼ (-go) 'jambe, patte, pied', so one word covers the whole limb.
     kaw: ["ꦱꦸꦏꦸ", "suku"],  // Zoetmulder OJED 1844 glosses suku 'foot (also of a mountain), leg' in one entry — one word for the limb, as Old Sundanese suku already is on this map. jöṅ is the elevated 'at the feet of' word and does not reach the leg.
     kbd: ["лъакъуэ", "ɬaqʷa"],  // Class inferred from the Adyghe parallel.
@@ -1815,13 +1817,13 @@ WORDS.foot = {
     lus: ["ke", "ke"],  // Lorrain's Lushai dictionary and VanBik's Proto-Kuki-Chin #283 both gloss ke 'foot, leg'; ke-phah 'sole of the foot' is the only foot-specific form, and phei is a second whole-limb word.
     luy: ["eshilenje", "eʃilendʒe"],  // The Luwanga and Lunyore Bibles both wash ebilenje in John 13 and break ebilenje in John 19, and Mark 9:45 gives the singular in the esh- spelling this row's eshikumba uses.
     luz: ["pâ", "pɑː"],  // As Northern Luri.
-    lv: ["kāja", "kaːja"],  // kāja denotes the whole lower limb; pēda is the foot-specific word, and IDS lists both under 'foot'. Compare Lithuanian, where the same two-way set is classed the other way.
+    lv: ["kāja", "ˈkaːja"],  // kāja denotes the whole lower limb; pēda is the foot-specific word, and IDS lists both under 'foot'. Compare Lithuanian, where the same two-way set is classed the other way. // was ["kāja", "kaːja"] (vi dialect rules 2026-10-06)
     lwl: ["cuang", "cua̯ŋ"],  // [2026-10-02: respelled in the Bo Luang orthography the row was rebuilt to (Wiktionary จวง cuang); the note below gives the earlier phonemic form.] Mitani's Bo Luang vocabulary gives cuaŋ, the Eastern form of proto Wa-Lawa *ɟoŋ, and Huffman files the one Lawa word under both 'foot' and 'leg'. The Western Lawa New Testament confirms it: John 19 breaks ซอัง, which John 19:36 shows is the bone.
     lzz: ["კუჩხე", "kʼutʃxe"],  // Laz კუჩხე covers the foot and the whole limb, as Georgian ფეხი and Svan ჭიშხ do; Proto-Kartvelian *ḳwarc₁x-.
     mad: ["soko", "sɔkɔ"],  // Madurese washes soko at John 13:5 but breaks bettes at John 19:31-33, and Song of Songs 5:15 gives bettes again for the legs like marble pillars, so bettes is a leg word in its own right and not just the calf; tolang is the bone at John 19:36 and bangkong the thigh at Daniel 2:32.
     mag: ["गोड़", "ɡoːɽ"],  // As Bhojpuri and Maithili गोड़: one word for the whole lower limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes हाथ as haːtʰ.
     mai: ["गोड़", "ɡoːɽ"],  // As Bhojpuri: गोड़ is the Bihari word for the whole lower limb, and Jha's dictionary glosses it 'leg, foot' in one entry.
-    mak: ["bangkeng", "ˈbaŋkəŋ"],  // One entry covers foot and leg alike; bitisiʔ is the calf, not a rival.
+    mak: ["bangkeng", "ˈbaŋkeŋ"],  // One entry covers foot and leg alike; bitisiʔ is the calf, not a rival. // was ["bangkeng", "ˈbaŋkəŋ"] (vi dialect rules 2026-10-06)
     mam: ["qan", "qan"],  // PMED glosses MAM qan 'pie, pierna'; the Mam NT breaks tken at John 19:32, and kux is the thigh.
     mas: ["enkeju", "ɛnkɛdʒʊ"],  // Payne and Ole-Kotikash define ɛnkɛjʉ́ as the leg from hip to the tips of the toes, and the plural ɨnkɛjɛ́k as 'legs, feet'; the only rival, enkódóós, is marked contemptuous. Surface and IPA are this row's own wheel cell, the dictionary's sense 2.
     maw: ["napɔŋŋu", "napɔŋːu"],  // napɔŋŋu is 'foot, leg' in Naden's Mampruli dictionary, with gbari the thigh and nɔbri the lower leg — the same one-word limb Mossi karga shows.
@@ -2315,7 +2317,7 @@ WORDS.foot = {
     yue: ["腳", "kœːk̚˧"],  // Cantonese 腳 goek3 runs the whole way up the limb; 髀 is the thigh. This is the southern-Sinitic pattern against Mandarin's 脚/腿 split.
     yue_gz: ["脚", "ke̯ɛk̚˧˧"],  // Gaozhou kept the old ek rime in this very word — the source names 脚 as one of the hold-outs against Guangzhou's œk — so the cell is kiak̚ and not the parent's kœːk̚. // was ["脚", "kœːk̚˧"] (r39 fix 2026-10-03)
     yue_nn: ["脚", "kœk˧"],  // The Nanning romanisation's own rime table uses 腳 as the exemplar defining oek [œːk̚] at 下陰入 [33], so this cell is sourced on the character itself. The row's preserved ek in 食 ʃek˨ is a different rime — the ik [ek̚/ɪk̚] of 激, 曾攝 — and does not reach 宕攝. Simplified per this row's convention. // was ["脚", "kœːk̚˧"] (r48 fix 2026-10-03)
-    yue_ts: ["脚", "kiak̚˧˧"],  // Taken to follow Cantonese.
+    yue_ts: ["脚", "kiak˧˧"],  // Taken to follow Cantonese. // was ["脚", "kiak̚˧˧"] (vi dialect rules 2026-10-06)
     yue_zs: ["腳", "kœk˧"],  // As Guangzhou: 腳 runs the whole way up the limb and the thigh is 大髀, the same 髀 the yue row names. MCPDict 中山 脚 kœk, the same tone index as 百, so ˧ — this row's 中入, against the ˥ it writes on the short-vowelled 骨 kʷɐt˥ and 一 jɐt˥. // was ["腳", "kœːk̚˧"] (r46 fix 2026-10-03)
     yug: ["бул", "bul"],  // Werner 2011: 145 through the GLD's Yeniseian list, which calls бул quite distinct from киʼс 'leg' (Werner 2011: 85); the row transliterates Werner's Latin into Cyrillic throughout, and Yugh has the plain -l where Ket has буль. This inverts our ket cell, which reports NorthEuraLex faithfully — Werner glosses both words нога and the two databases split it the opposite ways.
     yur: ["mechkah", "metʃkah"],  // Yurok's dependent noun is me-chkah 'somebody's foot', which Georgiana Trull's book lists a few lines above meehl 'leg'.

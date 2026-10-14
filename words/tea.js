@@ -795,7 +795,7 @@ WORDS.tea = {
     pau: ["tii", "tiː"],
     bla: ["siksikimíí", "siksikimíː"],
     bca: ["tsou", "tsou˨˩"],
-    wuu_nb: ["茶", "dzo˨˦"],
+    wuu_nb: ["茶", "dzo˧˩˧"], // was ["茶", "dzo˨˦"] (vi dialect rules 2026-10-06)
     ess: ["ӄаюӄ", "qajuq"],
     aln: ["çaj", "tʃaj"],
     ja_kanbun: ["茶", "tɕa"],
@@ -950,7 +950,7 @@ WORDS.tea = {
     grt: ["cha", "tʃa"],
     brx: ["साहा", "saha"], // was ["सा", "sa"] (vi dialect rules 2026-10-06)
     mni: ["ꯆꯥ", "tʃa"],
-    ii: ["ꆿꒉ", "la˥˥ʑɿ˧˧"],
+    ii: ["ꆿꒉ", "la˥ʑɿ˧˧"], // was ["ꆿꒉ", "la˥˥ʑɿ˧˧"] (vi dialect rules 2026-10-06)
     acn: ["tʂhaʔ31", "tʂʰaʔ˧˩"],
     twm: ["tɕa35", "tɕa˧˥"],
     xkz: ["ja", "ɟa"],
@@ -1022,13 +1022,13 @@ WORDS.tea = {
     nan_hai: ["茶", "ɗɛ˧˩"],
     hak_hl: ["茶", "tsʰa˥˥"],
     zh_xa: ["茶", "tsʰa˨˦"],
-    zh_kf: ["茶", "tʂʰa˦˨"],
+    zh_kf: ["茶", "tʂʰa˥˧"], // was ["茶", "tʂʰa˦˨"] (vi dialect rules 2026-10-06)
     zh_wh: ["茶", "tsʰa˨˩˧"],
     zh_cq: ["茶", "tsʰa˨˩"],
     zh_db: ["茶", "tʂʰa˧˥"],
     zh_lz: ["茶", "tʂʰa˥˧"],
     zh_jh: ["茶", "tsʰa˩˧"], // was ["茶", "tsʰa˧˥"] (vi dialect rules 2026-10-06)
-    zh_hf: ["茶", "tʂʰa˥˥"],
+    zh_hf: ["茶", "tʂʰa˦˥"], // was ["茶", "tʂʰa˥˥"] (vi dialect rules 2026-10-06)
     zh_nj: ["茶", "tʂʰa˨˦"],
     zh_tj: ["茶", "tsʰɑ˦˥"],
     zh_jn: ["茶", "tʂʰa˦˨"],
@@ -1175,7 +1175,7 @@ WORDS.tea = {
     kbp: ["tii", "tiː"],
     aii: ["ܟܐܝ", "tʃaːj"],
     chk: ["ttii", "tːiː"],
-    bik: ["tsa", "tsa"],
+    bik: ["tsa", "tʃa"], // was ["tsa", "tsa"] (vi dialect rules 2026-10-06)
     kos: ["ti", "ti"],
     trv: ["ocya", "otsja"],
     dru: ["ucia", "uˈtsia"],
@@ -1258,7 +1258,7 @@ WORDS.tea = {
     hak_cn: ["茶", "tsʰa˩˩"],
     hak_tw: ["茶", "tsʰa˩˩"],
     hi: ["चाय", "tʃaːj"],
-    hr: ["čaj", "tʃaːj"],
+    hr: ["čaj", "tʃâj"], // was ["čaj", "tʃaːj"] (vi dialect rules 2026-10-06)
     hsn: ["茶", "tsa˩˧"],
     ja: ["お茶", "otɕa"],
     ka: ["ჩაი", "tʃʰai"],

@@ -1115,7 +1115,7 @@ WORDS.wine = {
     yai: ["šarob", "ʃaˈrob"],
     lrc: ["شرو", "ʃerow"],
     bqi: ["شراو", "ʃarɒːw"],
-    sdh: ["شراو", "ʃɪɾaːw"],
+    sdh: ["شراو", "ʃɪɾɑːw"], // was ["شراو", "ʃɪɾaːw"] (vi dialect rules 2026-10-06)
     shn: ["ၼမ်ႉမၢၵ်ႇၸပိတ်ႉ", "nam˦˨ˀ maːk˩ tsa˨˦ pit˦˨ˀ"],
     cho: ["oka pa̱ki", "oka pãki"],
     yan: ["wain", "wain"],
@@ -1151,7 +1151,7 @@ WORDS.wine = {
     dtp_kzj: ["anggur", "aŋɡur"],
     niu: ["uaina", "uaina"],
     emp: ["uva b̶a", "uba ɓa"],
-    ay: ["vino", "vino"],
+    ay: ["winu", "winu"], // was ["vino", "vino"] (vi dialect rules 2026-10-06)
     ivv: ["vino", "vino"],
     pqm: ["meqpahak", "mekʷpahak"], // was ["mekwpahak", "mekʷpahak"] (vi dialect rules 2026-10-06)
     tao: ["potaw cyo", "potaw tsjo"],
@@ -1215,7 +1215,7 @@ WORDS.wine = {
     osp: ["vino", "ˈβino"], // was ["vino", "ˈbino"] (r51 audit 2026-10-04)
     sga: ["fín", "fʲiːn"],
     cy: ["gwin", "ɡwiːn"],
-    ga: ["fíon", "ˈfʲiːn̪ˠ"],
+    ga: ["fíon", "fʲiːn̪ˠ"], // was ["fíon", "ˈfʲiːn̪ˠ"] (vi dialect rules 2026-10-06)
 
     // --- Semitic *wayn- ------------------------------------------------
     psem: ["*wayn-", "wajn"],
@@ -1247,7 +1247,7 @@ WORDS.wine = {
     cs: ["víno", "ˈviːno"],
     sk: ["víno", "ˈviːno"],
     sl: ["vino", "ˈʋiːnɔ"], // was ["vino", "ˈʋiːno"] (vi dialect rules 2026-10-06)
-    hr: ["vino", "ʋino"],
+    hr: ["vino", "ʋǐːno"], // was ["vino", "ʋino"] (vi dialect rules 2026-10-06)
     sr: ["вино", "ʋǐːno"], // was ["вино", "ʋino"] (vi dialect rules 2026-10-06)
     bs: ["vino", "ʋino"],
     bg: ["вино", "viˈnɔ"], // was ["вино", "viˈno"] (vi dialect rules 2026-10-06)
@@ -1488,7 +1488,7 @@ WORDS.wine = {
 
     // --- Iranian -------------------------------------------------------------
     prs: ["شراب", "ʃaˈrɑːb"],
-    haz: ["شراب", "ʃaˈrɑːb"],
+    haz: ["شراب", "ʃaˈrɒb"], // was ["شراب", "ʃaˈrɑːb"] (vi dialect rules 2026-10-06)
     ku: ["şerab", "ʃɛˈɾɑːb"], // was ["şerab", "ʃɛˈɾab"] (vi dialect rules 2026-10-06)
     ckb: ["شەراب", "ʃɛˈɾɑːb"],
     ps: ["شراب", "ʃaˈraːb"],
@@ -1533,7 +1533,7 @@ WORDS.wine = {
     ja_sd: ["ワイン", "waiɴ"],
     ko_kp: ["포도주", "pododʑu"],
     ko_bus: ["포도주", "pʰododʑu"], // was ["포도주", "pododʑu"] (vi dialect rules 2026-10-06)
-    ko_yb: ["포도주", "pododʑu"],
+    ko_yb: ["포도주", "pʰododʑu"], // was ["포도주", "pododʑu"] (vi dialect rules 2026-10-06)
 
     // --- Austronesian ---------------------------------------------------------
     haw: ["waina", "waina"],
@@ -1669,13 +1669,13 @@ WORDS.wine = {
     gan: ["葡萄酒", "pʰu˨˦ tʰau˨˦ tɕiu˨˩˧"],
     mnp: ["葡萄酒", "pu˨˩ tau˨˩ tsiu˨˩"],
     nan_te: ["葡萄酒", "pʰu˥˥ tʰo˥˥ tsiu˥˨"],
-    yue_ts: ["葡萄酒", "pʰu˨˨ hau˨˨ tiu˥˥"],
+    yue_ts: ["葡萄酒", "pʰu˨˨ hɑu˨˨ tiu˥˥"], // was ["葡萄酒", "pʰu˨˨ hau˨˨ tiu˥˥"] (vi dialect rules 2026-10-06)
     cnp: ["葡萄酒", "pu˨˩ tau˨˩ tʃɐu˧˧"], // was ["葡萄酒", "pu˨˩ tau˨˩ tsɐu˧˧"] (vi dialect rules 2026-10-06)
     zh_jh: ["葡萄酒", "pʰu˨˨˦ tʰɔ˨˨˦ tɕiɤɯ˨˩˦"],
     zh_tj: ["葡萄酒", "pʰu˦˥ tʰɑu˦˥ tɕiou˩˧"],
     zh_lz: ["葡萄酒", "pʰu˥˧ tʰɔ˥˧ tɕiou˦˦˨"],
     nan_pn: ["葡萄酒", "pʰu˨˧ to˨˧ tsiu˦˦˥"],
-    wuu_nb: ["葡萄酒", "bu˨˨˧ dɔ˨˨˧ tɕiʏ˧˨˥"],
+    wuu_nb: ["葡萄酒", "bu˧˩˧ dɔ˧˩˧ tɕiʏ˧˨˥"], // was ["葡萄酒", "bu˨˨˧ dɔ˨˨˧ tɕiʏ˧˨˥"] (vi dialect rules 2026-10-06)
     hak_tw: ["葡萄酒", "pʰu˩˩ tʰo˩˩ tsiu˧˩"],
     wuu_sz: ["葡萄酒", "bəʔ˧ dɐ˨˨˧ tsøʏ˥˩"], // was ["葡萄酒", "bəʔ˨˧ dæ˨˨˧ tsøʏ˥˩"] (vi dialect rules 2026-10-06) // was ["葡萄酒", "bəʔ˨˧ dɐ˨˨˧ tsøʏ˥˩"] (vi dialect rules 2026-10-06)
     wuu_wz: ["葡萄酒", "bøy˧˩ dɜ˧˩ tɕɤu˧˥"],
@@ -1689,14 +1689,14 @@ WORDS.wine = {
     yue_nn: ["葡萄酒", "pʰu˨˩ tʰu˨˩ tʃɐu˧˥"], // was ["葡萄酒", "pʰu˨˩ tʰu˨˩ tsɐu˧˥"] (r48 fix 2026-10-03)
     zh_cq: ["葡萄酒", "pʰu˨˩ tʰau˨˩ tɕiəu˦˨"],
     zh_jn: ["葡萄酒", "pʰu˦˨ tʰɔ˦˨ tɕiou˥˥"],
-    zh_km: ["葡萄酒", "pʰu˧˩ tʰɔ˧˩ tɕiou˥˧"],
+    zh_km: ["葡萄酒", "pʰu˧˩ tʰʌo˧˩ tɕiəu˥˧"], // was ["葡萄酒", "pʰu˧˩ tʰɔ˧˩ tɕiou˥˧"] (vi dialect rules 2026-10-06)
     zh_xa: ["葡萄酒", "pʰu˨˦ tʰau˨˦ tɕiɤu˥˧"],
     nan_xm: ["葡萄酒", "pʰu˨˦ to˨˦ tsiu˥˧"],
     nan_zz: ["葡萄酒", "pʰo˩˧ to˩˧ tsiu˥˧"],
     wuu_jh: ["葡萄酒", "bu˧˩˧ dɑu˧˩˧ tsiu˥˧˥"],
     zh_cd: ["葡萄酒", "pʰu˨˩ tʰau˨˩ tɕiəu˥˧"],
-    zh_hf: ["葡萄酒", "pʰu˥˥ tʰɔ˥˥ tɕiɯ˨˦"],
-    zh_kf: ["葡萄酒", "pʰu˦˨ tʰau˦˨ tɕiəu˥˧"],
+    zh_hf: ["葡萄酒", "pʰʉ˦˥ tʰɔ˦˥ tɕiɤɯ˨˦"], // was ["葡萄酒", "pʰu˥˥ tʰɔ˥˥ tɕiɯ˨˦"] (vi dialect rules 2026-10-06)
+    zh_kf: ["葡萄酒", "pʰu˥˧ tʰau˥˧ tɕiou˦˦"], // was ["葡萄酒", "pʰu˦˨ tʰau˦˨ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     zh_nj: ["葡萄酒", "pʰu˨˦ tʰɔ˨˦ tɕiəu˨˩˨"],
     zh_tang: ["葡萄酒", "bɔ daw tsuw"], // was ["葡萄酒", "buo dɑu tsiuX"] (zh_tang rebuild 2026-10-04)
 
@@ -1821,7 +1821,7 @@ WORDS.wine = {
     lg: ["wayini", "wajini"],
     ki: ["ndibei", "ndibɛi"],
     mer: ["ndibei", "ndibɛi"],
-    kam: ["mbinyu", "mbiɲu"],
+    kam: ["ndivai", "ndiβai"], // was ["mbinyu", "mbiɲu"] (vi dialect rules 2026-10-06)
     suk: ["mvinya", "mviɲa"], // was ["divai", "divai"] (vi dialect rules 2026-10-06)
     nym: ["mvinyo", "mviɲo"],
     rim: ["divai", "divai"],
@@ -1837,7 +1837,7 @@ WORDS.wine = {
     rn: ["umuvinyu", "umuviɲu"],
     tn: ["beine", "beine"],
     st: ["veine", "veine"],
-    nso: ["beine", "beine"],
+    nso: ["beine", "βeine"], // was ["beine", "beine"] (vi dialect rules 2026-10-06)
     ts: ["vhinyo", "viɲo"],
     ve: ["waini", "waini"],
     ssw: ["liwayini", "liwajini"],

@@ -37,7 +37,9 @@ const PAIRS = [
   '團团','圓圆','邊边','紅红','綠绿','號号','萬万','與与','雲云','電电','腦脑',
   // added 2026-08 after the review rally: 布穀/布谷 and 伏鳩仔/伏鸠仔 slipped
   // through because these pairs were missing, so the cells read as 'neutral'.
-  '穀谷','鳩鸠','雀雀','貓猫','華华','漢汉','廣广','韓韩','體体','發发','舊旧',
+  // '雀雀' removed 2026-10-14: 雀 is the same character in both scripts, so the
+  // pair put it in TRAD and called Taishanese 雀仔 (bird) traditional.
+  '穀谷','鳩鸠','貓猫','華华','漢汉','廣广','韓韩','體体','發发','舊旧',
   '觀观','歡欢','樂乐','機机','業业','傳传','專专','轉转','節节','聲声','葉叶',
   '蘭兰','嶺岭','歲岁','氣气','種种','稱称','親亲','豬猪','雙双','雜杂','驢驴',
   // added 2026-09-05 after a reader question about 齒: the same gap as the

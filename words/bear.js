@@ -1238,7 +1238,7 @@ WORDS.bear = {
     nd: ["ibhere", "ibʱere"],
     nbl: ["ibhere", "ibʱere"],
     ssw: ["libhele", "libʱele"],
-    kam: ["nduva", "nduva"],
+    kam: ["nduva", "nduβa"], // was ["nduva", "nduva"] (vi dialect rules 2026-10-06)
     nyo: ["edubu", "edubu"],
     ttj: ["edubu", "edubu"],
     cgg: ["edubu", "edubu"],
@@ -1334,7 +1334,7 @@ WORDS.bear = {
     cs: ["medvěd", "ˈmɛdvjɛt"],
     sk: ["medveď", "ˈmɛdvɛc"],
     sl: ["medved", "ˈmɛːdʋɛt"], // was ["medved", "mɛdˈʋeːt"] (vi dialect rules 2026-10-06)
-    hr: ["medvjed", "ˈmɛdʋjɛd"],
+    hr: ["medvjed", "mědʋjed"], // was ["medvjed", "ˈmɛdʋjɛd"] (vi dialect rules 2026-10-06)
     bs: ["medvjed", "ˈmɛdʋjɛd"],
     sr: ["медвед", "mědʋed"], // was ["медвед", "ˈmɛdʋɛd"] (vi dialect rules 2026-10-06)
     bg: ["мечка", "ˈmɛtʃkɐ"], // was ["мечка", "ˈmɛtʃka"] (vi dialect rules 2026-10-06)
@@ -1619,12 +1619,12 @@ WORDS.bear = {
     en_ph: ["bear", "bɛɹ"],
     en_jam: ["bear", "beːɹ"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_au: ["bear", "bɛə"],
-    en_nz: ["bear", "bɛə"],
+    en_nz: ["bear", "beə"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_za: ["bear", "beː"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_scouse: ["bear", "bɛə"],
     en_geordie: ["bear", "bɛə"],
     en_brum: ["bear", "bɛə"],
-    en_manc: ["bear", "bɛə"],
+    en_manc: ["bear", "bɛː"], // was ["bear", "bɛə"] (vi dialect rules 2026-10-06)
     en_est: ["bear", "bɛə"],
     en_aave: ["bear", "bɛə"],
     en_ng: ["bear", "bɛə"],
@@ -1673,7 +1673,7 @@ WORDS.bear = {
     wuu: ["熊", "ɦioŋ˨˧"],
     wuu_sz: ["熊", "ɦioŋ˨˨˧"],
     wuu_hz: ["熊", "ɦioŋ˨˩˧"],
-    wuu_nb: ["熊", "ɦioŋ˨˩˧"],
+    wuu_nb: ["熊", "ɦyoŋ˧˩˧"], // was ["熊", "ɦioŋ˨˩˧"] (vi dialect rules 2026-10-06)
     wuu_jx: ["熊", "ɦioŋ˧˩"], // was ["熊", "ɦioŋ˨˧"] (r46 fix 2026-10-03)
     wuu_wz: ["熊", "ɦioŋ˧˩"],
     wuu_jh: ["熊", "ioŋ˧˩˧"], // was ["熊", "ɦioŋ˧˩˧"] (r48 fix 2026-10-03)
@@ -1688,7 +1688,7 @@ WORDS.bear = {
     nan_zz: ["熊", "him˩˧"],
     nan_pn: ["熊", "him˨˧"],
     nan_hai: ["熊", "hiɔŋ˧˩"],
-    yue_ts: ["熊", "huŋ˨˨"],
+    yue_ts: ["熊", "həɯŋ˨˨"], // was ["熊", "huŋ˨˨"] (vi dialect rules 2026-10-06)
     yue_dg: ["熊", "joŋ˧˩"],
     yue_nn: ["熊", "jʊŋ˨˩"], // was ["熊", "juŋ˨˩"] (r48 fix 2026-10-03)
     yue_zs: ["熊", "hʊŋ˥˩"], // was ["熊", "hʊŋ˨˩"] (r46 fix 2026-10-03)
@@ -1700,13 +1700,13 @@ WORDS.bear = {
     zh_wh: ["熊", "ɕioŋ˥˥"], // was ["熊", "ɕioŋ˨˩˧"] (vi dialect rules 2026-10-06)
     zh_km: ["熊", "ɕioŋ˧˩"], // was ["熊", "ɕioɲ˧˩"] (r48 fix 2026-10-03)
     zh_xa: ["熊", "ɕyŋ˨˦"],
-    zh_kf: ["熊", "ɕyəŋ˦˨"],
+    zh_kf: ["熊", "ɕyəŋ˥˧"], // was ["熊", "ɕyəŋ˦˨"] (vi dialect rules 2026-10-06)
     zh_zz: ["熊", "ɕyuŋ˦˨"], // was ["熊", "ɕyŋ˦˨"] (vi dialect rules 2026-10-06)
     zh_jn: ["熊", "ɕiuŋ˦˨"],
     zh_tj: ["熊", "ɕyŋ˦˥"],
     zh_lz: ["熊", "ɕyŋ˥˧"],
     zh_nj: ["熊", "ɕioŋ˨˦"],
-    zh_hf: ["熊", "ɕiəŋ˥˥"],
+    zh_hf: ["熊", "ɕiəŋ˦˥"], // was ["熊", "ɕiəŋ˥˥"] (vi dialect rules 2026-10-06)
     zh_jh: ["熊", "ɕioŋ˩˧"], // was ["熊", "ɕioŋ˧˥"] (vi dialect rules 2026-10-06)
 
     // --- 2026-08-31, the bear agent's South America pass
@@ -1874,7 +1874,7 @@ WORDS.bear = {
     iba: ["jugam", "dʒuɡam"],
     dtp: ["bohuang", "bohuaŋ"],
     sdo: ["buhang", "buˈhaŋ"],
-    ace: ["cagèë", "tʃaɡɛə"],
+    ace: ["cagèë", "caɡɛə"], // was ["cagèë", "tʃaɡɛə"] (vi dialect rules 2026-10-06)
     gay: ["telkah", "təlkah"],
     mrw: ["barowang", "barowaŋ"],
     ban: ["beruang", "bəruaŋ"],
@@ -1911,7 +1911,7 @@ WORDS.bear = {
     crs: ["lours", "lurs"],
     jbo: ["cribe", "ˈʃribe"],
     io: ["urso", "ˈurso"],
-    nso: ["bêrê", "bɛrɛ"],
+    nso: ["bêrê", "βɛrɛ"], // was ["bêrê", "bɛrɛ"] (vi dialect rules 2026-10-06)
     shy: ["abubaz", "abubaz"],
     ote: ["ʼmuhu", "ʔmuhu"],
 

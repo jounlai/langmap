@@ -88,7 +88,7 @@ WORDS.iron = {
     cy: ["haearn", "ˈheɨarn"],
     hy_grab: ["երկաթ", "erkatʰ"],
     hy: ["երկաթ", "jeɾˈkɑtʰ"],
-    sa: ["अयस्", "ˈajas"],
+    sa: ["अयस्", "ɐjɐs"],
     h_vedic: ["अयस्", "ɐ́jɐs"],
     pi: ["अयो", "ajo"],
     pmh: ["लोह", "loha"],
@@ -340,7 +340,7 @@ WORDS.iron = {
     // --- Celtic — íarn, and Brythonic haearn / houarn / horn -------------
     gd: ["iarann", "ˈiərˠən̪ˠ"],
     br: ["houarn", "ˈhuːarn"],
-    kw: ["horn", "hɔɾn"],
+    kw: ["horn", "hɔrn"],
 
     // --- Albanian hekur, Armenian erkatʰ, Tocharian eñcuwo ---------------
     aln: ["hekur", "ˈhɛkuɾ"],
@@ -361,7 +361,7 @@ WORDS.iron = {
     os: ["ӕфсӕн", "æfsæn"],
 
     // --- Indo-Aryan — Sanskrit loha, and the odd ones out ----------------
-    sa_edu: ["लोहम्", "loɦam"],
+    sa_edu: ["लोहम्", "loːɦɐm"],
     pnb: ["لوہا", "loːɦaː"],
     skr: ["لوہا", "loːɦaː"],
     hno: ["لوہا", "loːɦaː"],
@@ -561,7 +561,7 @@ WORDS.iron = {
     koi: ["кӧрт", "kɘrt"],
     udm: ["корт", "kort"],
     mhr: ["кӱртньӧ", "kyrtnʲø"],
-    mrj: ["кӹртни", "kʉrtnʲi"],
+    mrj: ["кӹртни", "kɯrtni"],
     myv: ["кшни", "kʃnʲi"],
     mdf: ["кшни", "kʃnʲi"],
     yrk: ["еся", "jesʲa"],
@@ -786,7 +786,7 @@ WORDS.iron = {
     azb: ["دمیر", "dæmiɾ"],
     eo: ["fero", "ˈfero"],
     io: ["fero", "ˈfero"],
-    ia: ["ferro", "ˈfɛrro"],
+    ia: ["ferro", "ˈferro"],
     vo: ["lel", "lel"],
     jbo: ["tirse", "ˈtirse"],
     tlh: ["'uSqan", "ʔuʂqʰɑn"],
@@ -806,7 +806,7 @@ WORDS.iron = {
     bnn: ["ngul-a", "ŋulʔa"],
     trv: ["xiluy", "xiluj"],
     tao: ["vahalang", "vahalaŋ"],
-    pyu: ["batulrayaw", "batuɭajaw"],
+    pyu: ["batulrayaw", "batulajaw"],
     szy: ["mukin", "mukin"],
     dru: ["adreme", "aˈɖəmə"],
     ckv: ["balis", "baˈlis"],

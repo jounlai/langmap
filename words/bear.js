@@ -63,6 +63,9 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    tao: "loan",
+    trm: "inherited",
+    twm: "inherited",
     bsq: "unknown",
     iso: "unknown",
     ada: "unknown",
@@ -962,6 +965,9 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    tao: ["syong", "sjoŋ"],
+    trm: ["voć", "vots"],
+    twm: ["ɔm13", "ɔm˩˧"],
     bsq: ["kìɖìǒ", "kìɖìǒ"],
     iso: ["adaka", "adaka"],
     ada: ["osisiblisi", "osisiblisi"],
@@ -1025,7 +1031,7 @@ WORDS.bear = {
     mcf: ["oso", "oso"],
     nhx: ["oso", "oso"],
     bla: ["kiááyo", "kiáːjo"],
-    lwl: ["khleh", "kʰleh"],
+    lwl: ["khreh", "kʰreh"], // was ["khleh", "kʰleh"] (vi dialect rules 2026-10-06)
     uby: ["məšwa", "məʃʷa"],
     ngl: ["ursu", "uɾsu"],
     kea: ["ursu", "ˈuɾsu"],
@@ -1079,7 +1085,7 @@ WORDS.bear = {
     nch: ["oso", "oso"],
     adi: ["situm", "situm"],
     cnh: ["vom", "vom"],
-    lhm: ["དོམ", "dom˩"],
+    lhm: ["དོམ", "dʰom˩"], // was ["དོམ", "dom˩"] (vi dialect rules 2026-10-06)
     tsj: ["omsha", "omɕa"],
     jiu: ["a33ø44", "a˧˧ø˦˦"],
     clk: ["jɑŋ55hoŋ55", "jɑŋ˥˥hoŋ˥˥"],
@@ -1294,9 +1300,9 @@ WORDS.bear = {
     el_kath: ["ἄρκτος", "ˈarktos"],
     el: ["αρκούδα", "arˈkuða"],
     pnt: ["άρκος", "ˈarkos"], // was ["άρκον", "ˈaɾkon"] (vi dialect rules 2026-10-06)
-    sa: ["ऋक्षः", "r̥kʂɐɦ"],
+    sa: ["ऋक्षः", "r̩kʂɐh"], // was ["ऋक्षः", "r̥kʂɐɦ"] (vi dialect rules 2026-10-06)
     h_vedic: ["ऋक्षः", "ŕ̩kʂɐɦ"], // was ["ऋक्षः", "ŕ̥kʂaɦ"] (r51 audit 2026-10-04) // was ["ऋक्षः", "ŕ̥kʂɐɦ"] (vi dialect rules 2026-10-06)
-    sa_edu: ["ऋक्षः", "rikʃəɦ"],
+    sa_edu: ["ऋक्षः", "r̩kʂɐh"], // was ["ऋक्षः", "rikʃəɦ"] (vi dialect rules 2026-10-06)
     pi: ["अच्छ", "atʃːʰa"],
     pi_edu: ["accha", "atʃːʰa"],
     pmh: ["अच्छ", "atʃːʰa"],
@@ -1568,7 +1574,7 @@ WORDS.bear = {
     apw: ["shash", "ʃaʃ"],
     chr: ["ᏲᎾ", "jona"],
     moh: ["ohkwá:ri", "ohkwáːri"], // was ["ohkwári", "ohkwári"] (vi dialect rules 2026-10-06)
-    lkt: ["matȟó", "matʰó"],
+    lkt: ["matȟó", "matxó"], // was ["matȟó", "matʰó"] (vi dialect rules 2026-10-06)
     osa: ["wasápe", "wasápe"],
     qwc: ["ukumari", "ukumaɾi"],
     qu: ["ukumari", "ukuˈmaɾi"], // was ["ukumari", "ukumaɾi"] (vi dialect rules 2026-10-06)
@@ -1780,7 +1786,7 @@ WORDS.bear = {
     smj: ["biernna", "piɛrnːa"],
     smn: ["kuob'žâ", "kuobdʒɐ"], // was ["kuob'žâ", "kuɔbdʒa"] (vi dialect rules 2026-10-06)
     sms: ["kueʹbǯǯ", "kuɛbʲddʒʲɘ"],
-    kca: ["мойпар", "mojpar"],
+    kca: ["мойпәр", "mɔːjpər"], // was ["мойпар", "mojpar"] (vi dialect rules 2026-10-06)
     mns: ["во̄рто̄лнут", "woːrtoːlnut"],
     sel: ["ӄорӄы", "qorqɨ"],
     enf: ["boglya", "bɔɡʎa"],
@@ -1902,7 +1908,7 @@ WORDS.bear = {
     p_viet: ["*c-guːʔ", "c-guːʔ"],
     bnn: ["tumaz", "tumað"],
     tsu: ["cmoi", "tsmoi"],
-    trv: ["sumay", "sumaj"],
+    trv: ["kumay", "kumaj"], // was ["sumay", "sumaj"] (vi dialect rules 2026-10-06)
     ssf: ["cumay", "θumai"],
     bzg: ["choma", "tʃoma"],
     ptai: ["*ʰmwɯj", "ʰmwɯj"],

@@ -1065,7 +1065,7 @@ WORDS.we = {
     kgg: "single",
     ota: "single",
     cmg: "clusive",
-    ani: "single",
+    ani: "clusive", // route was single (vi dialect rules 2026-10-06)
     bdk: "single",
     dbl: "single",
     nrf_gg: "single",
@@ -1407,7 +1407,7 @@ WORDS.we = {
     enf: ["modiny", "mɔdiɲ"], // was ["modinaʔ", "modinaʔ"] (vi dialect rules 2026-10-06)
     nio: ["мəӈ", "məŋ"],
     sel: ["ме", "me"],
-    kca: ["муӈ", "muŋ"],
+    kca: ["мўӈ", "muŋ"], // was ["муӈ", "muŋ"] (vi dialect rules 2026-10-06)
     ckt: ["мури", "muri"],
     kpy: ["мую", "muju"], // was ["муйи", "muji"] (vi dialect rules 2026-10-06)
     itl: ["музан", "muzaʔn"],
@@ -1868,7 +1868,7 @@ WORDS.we = {
     tet: ["ita / ami", "ita / ami"],
     aoz: ["hit / hai", "hit / hai"],
     bi: ["yumi / mifala", "jumi / mifala"],
-    pjt: ["nganana", "ŋanaɳa"],
+    pjt: ["nganaṉa", "ŋanaɳa"], // was ["nganana", "ŋanaɳa"] (vi dialect rules 2026-10-06)
     wbp: ["ngalipa / nganimpa", "ŋalipa / ŋanimpa"],
     piu: ["nganana", "ŋanana"], // was ["nganana", "ŋanaɳa"] (vi dialect rules 2026-10-06)
     aer: ["anwerne", "ˈanwəɳə"],
@@ -1985,7 +1985,7 @@ WORDS.we = {
     fan: ["bie", "bje"],
     naq: ["sada / sida", "sada / sida"],
     hts: ["onebee / ôbee", "onebeʔe / oːbeʔe"],
-    nmn: ["īh", "iː"],
+    nmn: ["īh", "i̤"], // was ["īh", "iː"] (vi dialect rules 2026-10-06)
     kr: ["andi", "andi"],
     men: ["mu", "mu"],
     vai: ["ꖷ", "mù"],
@@ -2301,7 +2301,7 @@ WORDS.we = {
     xht: ["—", "—"],
     txr: ["—", "—"],
     aau: ["—", "—"],
-    ani: ["илӏил", "itɬʼil"],
+    ani: ["илӏил / ищил", "itɬil / iʃːil"], // was ["илӏил", "itɬʼil"] (vi dialect rules 2026-10-06)
     bdk: ["йин", "jin"],
     sdo: ["ami", "ami"],
     dbl: ["ngana", "ŋana"],

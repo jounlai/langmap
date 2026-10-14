@@ -378,7 +378,7 @@ WORDS.butterfly = {
     shn: ["ၵၢပ်ႇမိူဝ်ႈ", "kaːp˩ mɤː˧˨"],  // a two-element compound; IDS records a Northern Shan variant with w- instead of m- in the second element
     guc: ["julirü", "hulirɨ"],
     kaw: ["ꦏꦸꦥꦸꦏꦸꦥꦸ", "kupukupu"],  // a reduplication; Zoetmulder notes only one kakawin passage has kupu unreduplicated
-    pyu: ["aribanglranglrawan", "aɾibaŋɭaŋɭawan"],  // ACD records Puyuma Hali-vaŋbaŋ 'butterfly, moth' from PAN *baŋbaŋ with the *qali- spirit-world prefix
+    pyu: ["aribanglranglrawan", "aribaŋlaŋlawan"],  // ACD records Puyuma Hali-vaŋbaŋ 'butterfly, moth' from PAN *baŋbaŋ with the *qali- spirit-world prefix
     dru: ["lialivarane", "ɭiaɭiˈvaɾanə"],  // initial reduplication lia-li-; ACD files it under PAN *qaNi-, the spirit-world prefix
     kry: ["kübelek", "kybelek"],  // resembles Turkic kelebek / Azerbaijani kəpənək; IDS also records паьмпаьл (pämpäl), a reduplication
     din: ["dap", "dap"],  // the only butterfly entry in the dictionary, and it is marked for the Malual (SWm) dialect and glossed 'small butterfly'; the same work has ateel (Rek) 'big moth'
@@ -740,7 +740,7 @@ WORDS.butterfly = {
     en_ca: ["butterfly", "ˈbʌɾɚflaɪ"],
     en_manc: ["butterfly", "ˈbʊtəflaɪ"],
     en_my: ["butterfly", "ˈbatəflaɪ"],
-    kw: ["tykki Duw", "ˈtɪki dyʊ"],
+    kw: ["tykki Duw", "ˌtɪki ˈdyʊ"],
     vot: ["unilintu", "ˈunilintu"],
     zh_cd: ["蝴蝶", "fu˨˩ tie˨˩"],
     mlm: ["wa3", "wa˥˧"],

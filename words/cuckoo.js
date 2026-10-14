@@ -147,7 +147,7 @@ WORDS.cuckoo = {
     alt: ["кӱӱк", "kyːk"],
     cv: ["куккук", "kukˈkuk"],
     bxr: ["хүбхүү", "xypxyː"],
-    kca: ["кӓви", "ˈkæwi"],
+    kca: ["кӓви", "keːβi"],
     ckt: ["ӄэӄӄуӄ", "qeqːuq"],
     kpy: ["ӄаккук", "qakkuk"],
     itl: ["ӄэӄуӄ", "qəquq"],
@@ -486,7 +486,7 @@ WORDS.cuckoo = {
     stq: ["Kukuuk", "ˈkukuk"],
     ota: ["غوغوق", "ɡuˈɡuk"],
     cmg: ["ᠬᠦᠬᠦᠭᠡ", "kɵkɵˈɡe"],
-    ani: ["гиггу", "ɡiɡːu"],
+    ani: ["гугу", "ɡuɡu"],
     bdk: ["гугутӏ", "ɡuɡutʼ"],
     nrf_gg: ["coucou", "kuˈku"],
     fra_jer: ["coucou", "kuˈku"],
@@ -531,7 +531,7 @@ WORDS.cuckoo = {
     en_est: ["cuckoo", "ˈkʊkuː"],
     zh_sc: ["阳雀", "iaŋ˨˩ tɕʰyo˨˩"],
     ext: ["cucu", "ˈkuku"],
-    frr_amr: ["kukütj", "kuˈkytj"],
+    frr_amr: ["kukütj", "kuˈkytʲ"],
     bsk: ["kápo", "ˈkapo"],
     wbm: ["eeppid", "ʔɯp pit"],
     prk: ["eeb bīd", "ʔɯp pi̤t"],
@@ -546,6 +546,8 @@ WORDS.cuckoo = {
     dyu: ["kibaro", "kibaro"],
     dag: ["kulinoo", "kulinoː"],
     dnj: ["gbídhō", "ɡbíɗō"],
-    ce: ["оттйокх", "otːjoq"]
+    ce: ["оттйокх", "otːjoq"],
+    pon: ["likopirei", "likopirei"],
+    sel: ["щяӄая", "ɕaqaja"]
   },
 };

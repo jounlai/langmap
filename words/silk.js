@@ -687,7 +687,7 @@ WORDS.silk = {
     ar_qur: ["حرير", "ħariːr"],
     el_grc: ["σηρικόν", "sɛːrikón"],
     hy_grab: ["մետաքս", "metɑkʰs"],
-    sa_edu: ["कौशेयम्", "kauɕejam"],
+    sa_edu: ["कौशेयम्", "kau̯ɕeːjɐm"],
     syc: ["ܩܙ", "qaz"],
     de_lut: ["Seide", "ˈzaɪdə"],
     ja_heian: ["絹", "kinu"],
@@ -695,7 +695,7 @@ WORDS.silk = {
     otk: ["𐰸𐰆𐱃𐰖", "qutaj"],
     sga: ["síta", "ˈsʲiːda"],
     cmg: ["ᠲᠣᠷᠭ᠎ᠠ", "torɣa"],
-    sa: ["कौशेय", "kɐuɕeːjɐ"],
+    sa: ["कौशेय", "kau̯ɕeːjɐ"],
     el_kath: ["μέταξα", "ˈmetaksa"],
     en_em: ["silke", "sɪlk"],
     zh_wenyan_edu: ["絲", "siː˥"],
@@ -812,6 +812,7 @@ WORDS.silk = {
     sid: ["shalaala", "ʃalaːla"],
     pt_gw: ["seda", "ˈseda"],
     khb: ["ᦶᦣ", "hɛː"],
-    bum: ["silik", "silik"]
+    bum: ["silik", "silik"],
+    wae: ["Siida", "ˈsiːda"]
   }
 };

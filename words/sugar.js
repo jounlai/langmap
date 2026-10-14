@@ -1096,7 +1096,7 @@ WORDS.sugar = {
     kpv: ["сакар", "ˈsakar"],
     mdf: ["захар", "ˈzaxar"],
     myv: ["сахор", "ˈsaxor"],
-    mrj: ["сакыр", "ˈsakɨr"],
+    mrj: ["сакыр", "ˈsakər"], // was ["сакыр", "ˈsakɨr"] (vi dialect rules 2026-10-06)
     mhr: ["сакыр", "ˈsakər"], // was ["сакыр", "ˈsakɨr"] (vi dialect rules 2026-10-06)
     olo: ["zuahari", "ˈzuahari"], // was ["zuahari", "ˈzuɑhɑri"] (vi dialect rules 2026-10-06)
     krl: ["šokeri", "ˈʃokeri"], // was ["suaharo", "ˈsuaharo"] (vi dialect rules 2026-10-06)
@@ -1262,7 +1262,7 @@ WORDS.sugar = {
     kru: ["चीनी", "tʃiːniː"],
     rar: ["tuka", "tuka"],
     pi_edu: ["sakkharā", "sakːʰaɾaː"],
-    sa_edu: ["शर्करा", "ɕarkaraː"],
+    sa_edu: ["शर्करा", "ɕɐɾkɐɾaː"], // was ["शर्करा", "ɕarkaraː"] (vi dialect rules 2026-10-06)
     jam: ["shuga", "ʃuɡa"],
     ie: ["sucre", "ˈsukre"],
     rcf: ["sik", "sik"],
@@ -1452,7 +1452,7 @@ WORDS.sugar = {
     id: ["gula", "ˈɡula"],
     ms: ["gula", "ˈɡula"],
     hi: ["चीनी", "tʃiːniː"],
-    sa: ["शर्करा", "ɕɐrkɐraː"],
+    sa: ["शर्करा", "ɕɐɾkɐɾaː"], // was ["शर्करा", "ɕɐrkɐraː"] (vi dialect rules 2026-10-06)
     bn: ["চিনি", "tʃini"],
     ur: ["چینی", "tʃiːniː"],
     ta: ["சர்க்கரை", "sarkkaɾai"],

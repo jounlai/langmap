@@ -91,7 +91,7 @@ WORDS.milk = {
 
     // --- Slavic, Indo-Iranian, and the ones that did something else ---
     cu: ["млѣко", "mlæko"],
-    sa: ["क्षीर", "kʂiːrɐ"],
+    sa: ["क्षीर", "kʂiːɾɐ"],
     h_vedic: ["क्षीर", "kʂiːrɐ́"],
     pi: ["खीर", "kʰiːra"],
     pi_edu: ["khīra", "kʰiːra"],
@@ -342,7 +342,7 @@ WORDS.milk = {
     rhg: ["dud", "dud"],
     rom: ["thud", "tʰud"],
     rmy: ["thud", "tʰud"],
-    sa_edu: ["दुग्धम्", "duɡdʱam"],
+    sa_edu: ["दुग्धम्", "duɡdʱɐm"],
     pmh: ["दुद्ध", "dudːʱa"],
 
     // --- Iranian — šīr, the same word Persian has ------------------------
@@ -398,7 +398,7 @@ WORDS.milk = {
     koi: ["йӧв", "jɘv"],
     udm: ["йӧл", "jɘl"],
     mhr: ["шӧр", "ʃør"],
-    mrj: ["шӧр", "ʃør"],
+    mrj: ["шӹшер", "ʃɯʃer"],
     myv: ["ловсо", "ˈlovso"],
     mdf: ["лофца", "ˈloftsa"],
 
@@ -582,7 +582,7 @@ WORDS.milk = {
     iu: ["ᐃᒻᒧᒃ", "imːuk"],
     ik: ["immuk", "imːuk"],
     nv: ["abeʼ", "ʔɑ̀pèʔ"],
-    lkt: ["asáŋpi", "aˈsãpi"],
+    lkt: ["asáŋpi", "asã́pi"],
     // Classical Nahuatl names it 'breast water' too.
     nci: ["chīchīhualāyōtl", "tʃiːtʃiːwalaːjoːtɬ"],
     gn: ["kamby", "kambɨ"],
@@ -644,7 +644,7 @@ WORDS.milk = {
     enf: ["molka", "mɔɫka"],
     nio: ["ними", "nimi"],
     sel: ["нима", "nima"],
-    kca: ["эсам йиңк", "esam jiŋk"],
+    kca: ["мис йик", "mis jik"],
     ckt: ["ԓывээръын", "ɬəweːrʔən"],
     itl: ["лукʼәл", "lukʔəl"],
     ykg: ["иисии", "iːsiː"],
@@ -776,7 +776,7 @@ WORDS.milk = {
     spp: ["jirimɛ", "dʒirimɛ"],
     sus: ["xiɲɛ", "xiɲɛ"],
     apw: ["ibeʼ", "ibeʔ"],
-    meu: ["rata", "rata"],
+    meu: ["rata", "ɾata"],
     pon: ["milik", "milik"],
     kos: ["mil", "mil"],
     kgp: ["leite", "lejte"],
@@ -796,7 +796,7 @@ WORDS.milk = {
     chf: ["leche", "letʃe"],
     agu: ["lech", "letʃ"],
     wal: ["maatta", "maːtːa"],
-    aau: ["muhi", "muhi"],
+    aau: ["mu-hi", "muhi"],
     kxv: ["pālu", "paːlu"],
     zdj: ["dziwa", "dziwa"],
     swb: ["dziya", "dzija"],
@@ -840,7 +840,7 @@ WORDS.milk = {
     xkz: ["ju", "ɟu"],
     pban: ["*-bɪ́cɪ̀", "-bɪ́cɪ̀"],
     ak: ["nufusu", "nufusu"],
-    trv: ["nunuh", "nunuh"],
+    trv: ["—", "—"],
     naq: ["dai-i", "daii"],
     piu: ["mimi", "mimi"],
     wba: ["amiho", "amiho"],
@@ -984,7 +984,7 @@ WORDS.milk = {
     toj: ["lech", "letʃ"],
     cr: ["ᑐᐦᑑᓵᐳᕀ", "tohtoːsaːpoj"],
     niu: ["huhu", "huhu"],
-    pyu: ["susu", "susu"],
+    pyu: ["miruku", "miruku"],
     mix: ["xikui", "ʃikʷi"],
     rmf: ["thund", "tʰund"],
     cho: ["pishukchi", "piʃoktʃi"],
@@ -1140,6 +1140,7 @@ WORDS.milk = {
     lij_t: ["lete", "ˈlɛːte"],
     ii: ["ꀉꆂ", "a˧˦nɛ˧˧"],
     nha: ["milgi", "milɡi"],
-    xng: ["ᠰᠦᠨ", "syn"]
+    xng: ["ᠰᠦᠨ", "syn"],
+    itz: ["kaʼyim", "kaʔjim"]
   },
 };

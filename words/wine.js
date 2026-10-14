@@ -979,7 +979,7 @@ WORDS.wine = {
     onw: ["ⲟⲣⲡⲁ", "orpa"],
     chb: ["fin", "fin"],
     pmng: ["*darasun", "darasun"],
-    sa_edu: ["द्राक्षारसः", "draːkʂaːrasaɦ"],
+    sa_edu: ["द्राक्षारसः", "dɾaːkʂaːɾɐsɐh"], // was ["द्राक्षारसः", "draːkʂaːrasaɦ"] (vi dialect rules 2026-10-06)
     tpn: ["kaûĩ", "kãˈwĩ"],
     xct_litpr: ["རྒུན་ཆང", "kỹ tɕaŋ"],
     tiw: ["yingwatinga", "jiŋwatiŋa"],
@@ -1031,7 +1031,7 @@ WORDS.wine = {
     tob: ["lataʁa", "lataʁa"],
     tll: ["wanu", "wanu"],
     tca: ["binu", "binu"], // was ["bínu", "binu"] (vi dialect rules 2026-10-06)
-    pyu: ["kutra", "kuʈa"],
+    pyu: ["eraw", "əraw"], // was ["kutra", "kuʈa"] (vi dialect rules 2026-10-06)
     plg: ["lataʁa", "lataʁa"],
     pkp: ["uwaina", "uwaina"],
     pam: ["alak", "ʔalak"],
@@ -1569,7 +1569,7 @@ WORDS.wine = {
     fai: ["wain", "wain"],
     nhx: ["vino", "ˈbino"],
     ngu: ["vino", "ˈbino"],
-    crn: ["viinu", "ˈbiːnu"],
+    crn: ["viinu", "ˈβiːnu"], // was ["viinu", "ˈbiːnu"] (vi dialect rules 2026-10-06)
     usp: ["vin", "bin"],
     maz: ["vino", "ˈbino"],
     mxv: ["vino", "ˈbino"],
@@ -1783,7 +1783,7 @@ WORDS.wine = {
     udm: ["вина", "vina"],
     mdf: ["вина", "vina"],
     myv: ["вина", "vina"],
-    kca: ["ўна", "wuna"],
+    kca: ["ўна", "una"], // was ["ўна", "wuna"] (vi dialect rules 2026-10-06)
     sjd: ["выннҍ", "vɨɲː"], // was ["выннҍ", "vɨnʲː"] (vi dialect rules 2026-10-06) // was ["выннҍ", "vɨɲː"] (vi dialect rules 2026-10-06)
     liv: ["vīnõ", "ˈviːnə"],
     vep: ["vin", "vin"],
@@ -1897,7 +1897,7 @@ WORDS.wine = {
     // --- Indo-European long tail, creoles and fragmentary Italic ---
     pt_gw: ["biñu", "ˈbiɲu"],
     hns: ["wien", "win"],
-    sa: ["द्राक्षारसः", "draːkʂaːrasaɦ"],
+    sa: ["द्राक्षारसः", "dɾaːkʂaːɾɐsɐh"], // was ["द्राक्षारसः", "draːkʂaːrasaɦ"] (vi dialect rules 2026-10-06)
     h_vedic: ["सुरा", "súraː"], // was ["सुरा", "suraː"] (vi dialect rules 2026-10-06)
     pi: ["सुरा", "suraː"],
     pmh: ["सुरा", "suraː"],

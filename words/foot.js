@@ -1698,7 +1698,7 @@ WORDS.foot = {
     kaw: ["ꦱꦸꦏꦸ", "suku"],  // Zoetmulder OJED 1844 glosses suku 'foot (also of a mountain), leg' in one entry — one word for the limb, as Old Sundanese suku already is on this map. jöṅ is the elevated 'at the feet of' word and does not reach the leg.
     kbd: ["лъакъуэ", "ɬaqʷa"],  // Class inferred from the Adyghe parallel.
     kbp: ["naŋgbaŋaɣ", "naŋɡbaŋaɣ"],  // nɩŋgbaŋaɣ is glossed both jambe and pied in the 1999 Kabiyè-French dictionary, where Koelle's 1854 list still had a separate foot word kūare. // was ["nɩŋgbaŋaɣ", "nɪŋɡbaŋaɣ"] (vi dialect rules 2026-10-06)
-    kca: ["кур", "kur"],  // кур covers both.
+    kca: ["кўр", "kur"],  // кур covers both. // was ["кур", "kur"] (vi dialect rules 2026-10-06)
     kde: ["likambatu", "likambatu"],  // Chimakonde splits them, against the Swahili pattern: Johnson's 1923 Newala vocabulary has likambatu for the foot and lidodo for the leg.
     kdt: ["ɟɯːŋ", "ɟɯːŋ"],  // Prasert's Kui dictionary confines ɟɯːŋ to the foot and to the legs of inanimate objects and gives ŋkhɑ̤ŋ for the leg of people and animals, on which the calf tɑːn ŋkhɑ̤ŋ is built.
     kea: ["pé", "pɛ"],  // Follows Portuguese. IPA is the plain reading of the orthography, following how this row's own hand cell writes mon as mɔ̃.
@@ -2010,7 +2010,7 @@ WORDS.foot = {
     pi_edu: ["pāda", "paːda"],  // As pi, transliterated per this teaching row's IAST convention.
     pis: ["leg", "leɡ"],  // Jourdan glosses leg as leg, foot AND ankle, and walking is wokabaot long leg; the Pijin scriptures put leg where the Greek has a foot at Matthew 10:14, 18:8, Mark 9:45 and Revelation 10:1, so leg runs the limb as Tok Pisin's lek does. fut survives beside it, but Jourdan gives fut 'leg' as a second sense, so the two are synonyms rather than a pair.
     piu: ["tjina", "cina"],  // Hansen & Hansen split tjina 'foot' from tjunta 'leg; thigh', and the Luritja Bible breaks tjunta tarrka at John 19:31.
-    pjt: ["tjina", "cɪnɐ"],  // John 19:31-33 breaks tjaḻpa three times and John 13 washes tjina; the Pintupi-Luritja dictionary glosses tjaḻpa 'lower leg area' independently.
+    pjt: ["tjina", "cina"],  // John 19:31-33 breaks tjaḻpa three times and John 13 washes tjina; the Pintupi-Luritja dictionary glosses tjaḻpa 'lower leg area' independently. // was ["tjina", "cɪnɐ"] (vi dialect rules 2026-10-06)
     pkar: ["*berq-", "berq"],  // Proto-Karen *berq- for the lower limb.
     pkp: ["vae", "vae"],  // One word for the limb, the Polynesian norm; POLLEX glosses the Pukapuka reflex of PPn *waqe 'Foot, leg'. No stress mark, as on the other Polynesian rows.
     pl: ["stopa", "ˈstɔpa"],  // Polish is the West Slavic outlier: stopa is the ordinary word for the foot, against Czech/Slovak noha for both.

@@ -55,6 +55,7 @@ WORDS.blue = {
     sw: "Buluu — rangi ya anga la mchana lililo wazi, kwa neno la kila siku. Si jina la rangi ya kupaka wala ya kutia nguo, wala si neno la fasihi pekee. Pale lugha ina neno moja la msingi linalofunika buluu na kijani, neno hilo ndilo linaloandikwa, na ramani inaeleza hivyo.",
   },
   family: {
+    twm: "distinct",
     shy: "distinct",
     ctg: "distinct",
     bej: "grue",
@@ -928,6 +929,7 @@ WORDS.blue = {
     "dark": {"color": "#334155", "emoji": "⬛", "en": "the word also covers dark or black", "ja": "暗い・黒も覆う語", "ko": "어둠·검정도 덮는 낱말", "zh": "该词兼指暗与黑", "yue": "呢個詞兼指暗同黑", "vi": "từ này bao cả tối và đen", "th": "คำนี้ครอบทั้งมืดและดำ", "id": "katanya juga mencakup gelap atau hitam", "hi": "यह शब्द गहरे या काले को भी ढकता है", "de": "das Wort deckt auch dunkel oder schwarz ab", "fr": "le mot couvre aussi le sombre ou le noir", "it": "la parola copre anche scuro o nero", "es": "la palabra cubre también oscuro o negro", "pt": "a palavra cobre também escuro ou preto", "ru": "слово охватывает и тёмное, и чёрное", "uk": "слово охоплює й темне, і чорне", "ar": "الكلمة تشمل الداكن أو الأسود أيضًا", "he": "המילה מכסה גם כהה או שחור", "sw": "neno hilo lajumuisha giza au weusi"},
   },
   data: {
+    twm: ["ŋᴀu53", "ŋᴀu˥˧"],
     shy: ["azenzari", "azənzari"],
     ctg: ["নীল", "nil"],
     bej: ["sootaay", "soːtaːj"],
@@ -1090,7 +1092,7 @@ WORDS.blue = {
     ii: ["ꀊꃴ", "a˧˧vu˥"],
     gum: ["pilli", "piʎi"],
     tsi: ["gwisgwaask", "ɡʷisɡʷaːsk"],
-    tue: ["sɨ̃bẽ", "sɨ̃ˈbẽ"], // was ["sɨ̃ʼbẽ", "sɨ̃ʔbẽ"] (r31 fix 2026-10-02)
+    tue: ["sʉ̃bẽ", "sɨ̃ˈbẽ"], // was ["sɨ̃ʼbẽ", "sɨ̃ʔbẽ"] (r31 fix 2026-10-02) // was ["sɨ̃bẽ", "sɨ̃ˈbẽ"] (vi dialect rules 2026-10-06)
     ses: ["bula", "bula"],
     mni: ["ꯍꯤꯒꯣꯛ", "híɡok"],
     new: ["वँचु", "wɔ̃tɕu"], // was ["वँचु", "wãtsu"] (vi dialect rules 2026-10-06)
@@ -1259,7 +1261,7 @@ WORDS.blue = {
     jiv: ["sámek", "ˈsamek"],
     tyz: ["kheo", "kʰɛw˧˧"], // was ["kheo", "kʰɛːw˧˧"] (vi dialect rules 2026-10-06)
     ja_kanbun: ["青し", "aoɕi"],
-    sa_edu: ["नीलः", "niːlaɦ"],
+    sa_edu: ["नीलः", "niːlɐh"], // was ["नीलः", "niːlaɦ"] (vi dialect rules 2026-10-06)
     khw: ["اوݯ", "oʈʂ"], // was ["اوچ", "otʃ"] (r42 fix 2026-10-03) // was ["اوݯ", "ɔʈʂ"] (vi dialect rules 2026-10-06)
     pbb: ["çẽy", "tsẽj"], // was ["çẽy", "çẽj"] (vi dialect rules 2026-10-06) // was ["çẽy", "tsẽj"] (vi dialect rules 2026-10-06)
     mus: ["holatte", "holatːi"],
@@ -1271,7 +1273,7 @@ WORDS.blue = {
     mzn: ["کهو", "kæhu"],
     tly: ["kavu", "kavu"],
     toj: ["yaʼax", "jaʔaʃ"],
-    agu: ["xew", "ʃew"],
+    agu: ["xew", "ʂew"], // was ["xew", "ʃew"] (vi dialect rules 2026-10-06)
     poh: ["rax", "raʃ"],
     usp: ["xaar", "ʃaːr"],
     kek: ["rax", "raʃ"],
@@ -1318,7 +1320,7 @@ WORDS.blue = {
     fr_af: ["bleu", "blø"],
     rup: ["albastru", "alˈbastru"],
     nrf: ["bliu", "bljø"],
-    fra_jer: ["bliu", "bljø"],
+    fra_jer: ["bliu", "bʎø"], // was ["bliu", "bljø"] (vi dialect rules 2026-10-06)
     rcf: ["blé", "ble"], // was ["blë", "blɛ"] (vi dialect rules 2026-10-06)
     nds: ["blau", "blaʊ"],
     esu: ["qiugliq", "qiuɣɬiq"],
@@ -1444,7 +1446,7 @@ WORDS.blue = {
     ami: ["langdaway", "laŋdawaj"],  // One root langdaw ~ kangdaw covers blue and green across Amis. In the Xiuguluan variety documented by the official dictionary langdaw(ay) is glossed 'blue' and kangdaw(ay) 'green'; in Nanshi Amis langdaway is the word for green. The Amis Moedict dictionary glosses langdaw outright as 青色，綠色，藍色 'cyan, green, blue'. Row red/white (kahengangay, fohecalay) are the 秀姑巒阿美語 學習詞表 forms, so the -ay adjectival form langdaway matches. Green-specific alternative: kangdaway.
     an: ["azul", "aˈθul"],  // Aragonese azul against verde.
     ang: ["hǣwen", "hæːwen"],  // Old English had no reflex of blue; hǣwen (also blǣwen) is the blue term, alongside grēne. IDS gives hǣwen for Old English. The modern word blue is a later Anglo-Norman loan.
-    ani: ["решинкьелӏи", "reʃinkʼeˈlːi"],  // Andi (Muni) решинкьелӏи vs ххочи. The main IDS Andi entry lists хочи for both blue and green, so the cool range is only partly split in Andic.
+    ani: ["решинкьелӏи", "reʃintɬʼetɬi"],  // Andi (Muni) решинкьелӏи vs ххочи. The main IDS Andi entry lists хочи for both blue and green, so the cool range is only partly split in Andic. // was ["решинкьелӏи", "reʃinkʼeˈlːi"] (vi dialect rules 2026-10-06)
     aqc: ["наӏгъдут", "naˤɮdut"],  // Archi наӏгъдут vs оӏловттут. WOLD analyses the blue term as naˤɮ-du-t 'milk-ADJZR' and scores it as showing no evidence of borrowing. // was ["наӏгъдут", "naʕɬˈdut"] (vi dialect rules 2026-10-06) // was ["наӏгъдут", "naˤɮdut"] (vi dialect rules 2026-10-06)
     ar: ["أزرق", "ˈʔazraq"],  // MSA أزرق against أخضر. The root z-r-q is the same one that in Aramaic covers both ends of the cool range, but Arabic separates them.
     ar_lev: ["أزرق", "ˈʔazraʔ"],  // Levantine Arabic أزرق against أخضر, the MSA pair with the qaf realised as a glottal stop. WALS 134A codes Lebanese Arabic as 'Green and blue', i.e. two separate basic terms.
@@ -1643,7 +1645,7 @@ WORDS.blue = {
     mos: ["bʋla", "bʊla"],  // Donor named in the source (French bleu). Mooré's inherited basic terms are the three already in this row (miuugu, peelga, sablga); the Wiktionary synonyms koobr gelle / yir gelle are descriptive phrases, not basic terms. No source found on whether sablga 'black' also covers blue, so the inherited side of the picture is not settled.
     mpj: ["maru-maru", "maɻumaɻu"],  // Martu Wangka has no blue term: blue is named with the black/dark term maru-maru, while green has its own word yukuri-yukuri. Hargrave reports the SIL fieldworker James Marsh's judgement that maru-maru 'black' and miji-miji 'red' "are the only terms he has heard used as general colour names", and one speaker named all 330 WCS chips with just those two.
     mr: ["निळा", "niɭaː"],  // Marathi निळा against हिरवा.
-    mrj: ["симсӹ", "ˈsimsə"],  // Hill Mari симсӹ vs ыжар.
+    mrj: ["симсӹ", "ˈsimsɯ"],  // Hill Mari симсӹ vs ыжар. // was ["симсӹ", "ˈsimsə"] (vi dialect rules 2026-10-06)
     mrq: ["moho", "moho"],  // Dordillon keeps blue (moho) and green (ti teé / outi teé) apart. Early contact wordlists record a dark/grue layer instead: POLLEX cites Crook for Marquesan kaikai 'Black, blue, green, any dark colour' and pako 'Black, blue, or green'.
     mrw: ["biro", "ˈbiro"],  // Malay loan (biru), but the ordinary blue term; gadong 'green' is a separate Brunei Malay loan. The 1967 scan (https://archive.org/download/ERIC_ED013450/ERIC_ED013450_djvu.txt) also shows BIRO aligned with the gloss BLUE in the A-section (between BIRMODA 'Bermuda grass' and BIROAR). Stress unmarked in the source; /ˈbiro/ assumes the regular penult, matching this row's maˈriɡaʔ / maˈpotiʔ.
     ms: ["biru", "ˈbiru"],  // Malay biru against hijau, the same word and split as Indonesian.
@@ -1703,7 +1705,7 @@ WORDS.blue = {
     rmy: ["vuneto", "vuˈneto"],  // Vlax Romani takes both cool-range terms from the surrounding languages: vuneto 'blue' and zeleno 'green' are Slavic/Romanian loans. IDS brackets both, marking them as such.
     rn: ["ubururu", "ubuɾuɾu"],  // Same form and same loan chain as Kinyarwanda. Flagged: the source is a shared Rwanda-Rundi entry, not a Kirundi-specific dictionary. // was ["ubururu", "ubururu"] (vi dialect rules 2026-10-06)
     ro: ["albastru", "alˈbastru"],  // albastru vs verde. WOLD: no evidence for borrowing — albastru continues Latin albaster, a rare case of a blue term from a 'whitish' root.
-    rtm: ["čarava", "tʃarava"],  // Rotuman: IDS gives the identical form čarava for BOTH blue and green — one term over the whole cool range.
+    rtm: ["jarava", "tʃarava"],  // Rotuman: IDS gives the identical form čarava for BOTH blue and green — one term over the whole cool range. // was ["čarava", "tʃarava"] (vi dialect rules 2026-10-06)
     ru: ["синий", "ˈsʲinʲɪj"],  // Russian is the textbook two-blue language: синий (dark blue) and голубой (light/sky blue) are both basic terms — IDS lists both for the concept. синий is the unmarked member and is given here; голубой is the literal colour of a clear sky.
     rut: ["хьылынды", "xɨlɨnˈdɨ"],  // Rutul хьылынды vs шилды; all four IDS Rutul dialects agree. // was ["хьылынды", "ħɨlɨnˈdɨ"] (vi dialect rules 2026-10-06)
     rw: ["ubururu", "ubururu"],  // Loan chain English blue > Swahili buluu > Kinyarwanda ubururu. Inherited green is icyatsi (icyatsi kibisi), a noun from 'grass/weed'; there is no inherited basic blue term.

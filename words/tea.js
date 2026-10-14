@@ -807,7 +807,7 @@ WORDS.tea = {
     sda: ["teh", ""],
     frr: ["tee", ""],
     mxv: ["té", ""],
-    pon: ["tea", ""],
+    pon: ["dih", "diː"], // was ["tea", ""] (vi dialect rules 2026-10-06)
     dtp_kzj: ["tii", ""],
     efi: ["tea", ""],
     ivv: ["tsa", ""],
@@ -990,7 +990,7 @@ WORDS.tea = {
     liv: ["tēj", "teːj"],
     vro: ["tsäi", "tsæi"],
     sjd: ["чайй", "tʃajː"], // was ["ча̄йй", "tʃaːjː"] (vi dialect rules 2026-10-06) // was ["чайй", "tʃajː"] (vi dialect rules 2026-10-06)
-    smj: ["tiedja", "tie̯dja"],
+    smj: ["tedja", "tɛdʒɑ"], // was ["tiedja", "tie̯dja"] (vi dialect rules 2026-10-06)
     sms: ["čee", "tʃeː"],
     smn: ["teejâ", "teːjɐ"],
     se: ["deadja", "ˈteɑtja"],
@@ -1101,7 +1101,7 @@ WORDS.tea = {
     kru: ["चाह", "tʃaːɦ"],
     rar: ["tī", "tiː"],
     rtm: ["tī", "tiː"],
-    sa_edu: ["चायम्", "tɕaːjam"],
+    sa_edu: ["चायम्", "tɕaːjɐm"], // was ["चायम्", "tɕaːjam"] (vi dialect rules 2026-10-06)
     jam: ["tii", "tiː"],
     syl: ["চা", "sa"],
     gsw_als: ["Tee", "teː"],
@@ -1369,7 +1369,7 @@ WORDS.tea = {
     jv: ["teh", "tɛh"],
     kab: ["latay", "lataj"], // was ["latay", "laθaj"] (vi dialect rules 2026-10-06)
     km: ["តែ", "tae"],
-    kw: ["te", "teː"],
+    kw: ["te", "tɛː"], // was ["te", "teː"] (vi dialect rules 2026-10-06)
     lb: ["Téi", "tɜɪ̯"],
     li: ["tei", "tɛi"],
     lij: ["tè", "tɛ"],

@@ -69,7 +69,7 @@ WORDS.wheel = {
 
     // --- *kʷekʷlós, the word that puts a floor under the family --------
     p_ine: ["*kʷékʷlos", "kʷékʷlos"],
-    sa: ["चक्र", "tɕɐkrɐ"],
+    sa: ["चक्र", "tɕɐkɾɐ"],
     h_vedic: ["चक्र", "tɕɐkrɐ́"],
     pi: ["चक्क", "tʃakka"],
     pi_edu: ["cakka", "tʃakka"],
@@ -222,7 +222,7 @@ WORDS.wheel = {
     // --- Constructed ---------------------------------------------------
     eo: ["rado", "ˈrado"],
     io: ["roto", "ˈroto"],
-    ia: ["rota", "ˈrɔta"],
+    ia: ["rota", "ˈrota"],
 
     // --- *kʷekʷlós — the English side of the same word -----------------
     en_us: ["wheel", "wil"],
@@ -260,7 +260,7 @@ WORDS.wheel = {
     fy: ["tsjil", "tsjɪl"],
 
     // --- *kʷekʷlós further east — cakra, caxra, calx ------------------
-    sa_edu: ["चक्रम्", "tɕakram"],
+    sa_edu: ["चक्रम्", "tɕɐkɾɐm"],
     ave: ["𐬗𐬀𐬑𐬭𐬀", "tʃaxra"],
     os: ["цалх", "tsalx"],
     fa_clas: ["چرخ", "tʃarx"],
@@ -299,7 +299,7 @@ WORDS.wheel = {
     yi: ["ראָד", "rɔd"],
     de_lut: ["Rad", "raːt"],
     gd: ["roth", "rˠɔh"],
-    kw: ["ros", "roːz"],
+    kw: ["ros", "rɔːz"],
     vro: ["ratas", "ˈrɑtɑs"],
     mt: ["rota", "ˈrɔːta"],
     scn: ["rota", "ˈrɔta"],
@@ -609,7 +609,7 @@ WORDS.wheel = {
     pdt: ["Raut", "ɾaʊt"],
     stq: ["Jool", "juːl"],
     frr: ["fiilj", "fiːlʲ"],
-    frr_amr: ["wel", "vel"],
+    frr_amr: ["—", "—"],
     pdc: ["Raad", "rɔːt"],
     wa: ["rowe", "ʁɔw"],
     lmo: ["roeuda", "ˈrøːda"],
@@ -732,7 +732,7 @@ WORDS.wheel = {
     iu: ["ᐊᒃᓴᓗᐊᖅ", "aksaluaq"],
     ik: ["aksraligaun", "akʂaliɣaun"],
     nez: ["weyelikilíikt", "wejelikilíːkt"],
-    car: ["tarara", "tarara"],
+    car: ["tarara", "taɾaɾa"],
     ket: ["илтәп", "iltəp"],
     tzo: ["karos", "karos"],
     ppl: ["rweda", "rweda"],
@@ -954,6 +954,7 @@ WORDS.wheel = {
     hch: ["mɨxikɨrawi", "mɨrikɨɾawi"],
     kpe: ["káraŋ", "káraŋ"],
     mnk: ["sareeti siŋo", "sareːti siŋo"],
-    mam: ["rwed", "rwed"]
+    mam: ["rwed", "rwed"],
+    wae: ["Rad", "rad"]
   }
 };

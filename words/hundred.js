@@ -111,7 +111,7 @@ WORDS.hundred = {
     osx: ["hund", "hund"],
     goh: ["hunt", "hunt"],
     sa: ["शतम्", "ɕɐtɐm"],
-    sa_edu: ["शतम्", "ʃətəm"],
+    sa_edu: ["शतम्", "ɕɐtɐm"],
     h_vedic: ["शतम्", "ɕɐtɐ́m"],
     pi: ["सतं", "sɐtɐ̃"],
     pmh: ["साअ", "saa"],
@@ -426,7 +426,7 @@ WORDS.hundred = {
     // --- More Uralic -------------------------------------------------------
     smj: ["tjuohte", "ˈtʃuohte"],
     smn: ["čyeti", "tʃyeti"],
-    mrj: ["шӱдӹ", "ʃydə"],
+    mrj: ["шӱдӹ", "ʃyðɯ"],
     liv: ["sadā", "ˈsadaː"],
     mns: ["са̄т", "saːt"],
     kca: ["сот", "sot"],
@@ -581,7 +581,7 @@ WORDS.hundred = {
     pwn: ["taidai", "taidai"],
     bnn: ["saba", "saba"],   // the bare hundred root — one hundred is tas-saba
     ssf: ["shaba", "ʃaba"],   // same root as Bunun saba
-    trv: ["kbekuy", "kbəkuj"],
+    trv: ["kbkuy", "kbkuj"],
     tay: ["kbhul", "kbhul"],
     tao: ["ranaw", "ranaw"],
     roo: ["katai vovoto", "katai βoβoto"],
@@ -670,7 +670,7 @@ WORDS.hundred = {
     arn: ["pataka", "pataka"],
     quz: ["pachak", "ˈpatʃak"],
     jqr: ["pachak", "patʃak"],
-    lkt: ["opáwiŋǧe", "opáwĩʁe"],
+    lkt: ["opáwiŋǧe", "opáwĩɣe"],
     dak: ["opáwiŋǧe", "opáwĩɣe"],
     win: ["hogihí", "hoɡihi"],
     cro: ["pilakisée", "pilakiséː"],
@@ -690,7 +690,7 @@ WORDS.hundred = {
     emp: ["cien", "sjen"],   // Spanish loan
     // --- Europe, the Caucasus rim and mainland Asia ------------------------
     kw: ["kans", "kans"],   // Celtic centum, beside Welsh cant and Breton kant
-    gv: ["keead", "kʲiːd"],   // the Goidelic form, beside Irish céad
+    gv: ["keead", "kʲiəd"],   // the Goidelic form, beside Irish céad
     fo: ["hundrað", "ˈhʊndɹa"],
     gsw: ["hundert", "ˈhʊndərt"],
     stq: ["hunnert", "ˈhʊnərd"],
@@ -756,7 +756,7 @@ WORDS.hundred = {
     lez: ["виш", "wiʃ"],
     agx: ["верш", "werʃ"],
     ddo: ["бишон", "biʃon"],
-    ani: ["бешонугу", "beʃonuɡu"],
+    ani: ["бешенугу", "beʃenuɡu"],
     bxr: ["зуун", "zuːŋ"],
     xal: ["зун", "zun"],
     kim: ["чүс", "tʃys"],
@@ -767,7 +767,7 @@ WORDS.hundred = {
     evn: ["нама", "nama"],
     yrk: ["юрˮ", "jurʔ"],
     nio: ["дир", "dʲir"],
-    sel: ["тоон", "toːn"],
+    sel: ["тон", "ton"],
     chr: ["ᏍᎪᎯᏥᏆ", "sɡohitsikʷa"],   // ten-something: ᏍᎪᎯ is this row's own ten
     ain: ["アシㇰネ ホㇳネ", "aʃikne hotne"],   // five twenties — hotne is twenty, ashikne this row's own five
     blk: ["ရျာꩻ", "rja˧˧"],
@@ -1177,6 +1177,7 @@ WORDS.hundred = {
     tyz: ["pác", "paːk̚˧˥"],
     chb: ["guehyzca", "ɡwehɨzka"],
     xsr: ["ཟ་ཡི", "saji"],
-    haj: ["so", "sɔ"]
+    haj: ["so", "sɔ"],
+    wae: ["Hunnert", "ˈhʊnːərt"]
   },
 };

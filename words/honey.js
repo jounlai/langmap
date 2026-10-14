@@ -216,7 +216,7 @@ WORDS.honey = {
     vi_han: ["蜜", "mət˨˩"],
     ja_kanbun: ["蜜", "mitsɯ"],
     ja_heian: ["蜜", "mitu"],
-    ja_chu: ["蜜", "mitu"],
+    ja_chu: ["蜜", "mitsu"],
     ja_edo: ["蜂蜜", "hatɕimitsɯ"],
     ko_kp: ["꿀", "k͈ul"],
 
@@ -305,7 +305,7 @@ WORDS.honey = {
     mg: ["tantely", "tanˈteli"],
 
     // --- Africa ------------------------------------------------------------
-    pban: ["*-jókì", "-jókì"],
+    pban: ["*-jíkɪ̀", "-jíkɪ̀"],
     zu: ["uju", "udʒu"],
     xh: ["ubusi", "ubusi"],
     sn: ["uchi", "utʃi"],
@@ -419,10 +419,10 @@ WORDS.honey = {
     ar_tn: ["عسل", "ʕsəl"],
     arq: ["عسل", "ʕsəl"],
     en_jam: ["honey", "ˈhɵni"],
-    vi_nom: ["蜜螉", "mət˨˩ ɔŋ͡m˧"],
+    vi_nom: ["蜜螉", "mət˧˨ʔ ɔŋ͡m˧"],
 
     // --- Romance and Albanian — Latin mel, and *mélit in Albanian ----------
-    it_dan: ["miele", "ˈmjɛːle"],
+    it_dan: ["miele", "ˈmjɛle"],
     lmo: ["mel", "meːl"],
     pms: ["amel", "aˈmel"],
     lld: ["miel", "mjɛl"],
@@ -818,7 +818,7 @@ WORDS.honey = {
     nmf: ["khuira", "kʰuira"],
     nzm: ["ngkuidi", "ŋkuidi"],
     wrh: ["ngarruu", "ˈŋaruː"],
-    uby: ["šwanə", "ʃʷanə"],
+    uby: ["śwanə", "ɕʷanə"],
     lic: ["nom3 ko:i1", "nom˩˩ koːi˥˧"],
     swi: ["taaŋ2 luk8", "taːŋ˧˩ luk˧˩"],
     rtm: ["hanē", "haneː"],
@@ -1084,7 +1084,7 @@ WORDS.honey = {
     mh: ["ōne", "ɰenʲej"],
     kjb: ["yalkabʼ", "jalkaɓ"],
     h_tagalog: ["ᜉᜓᜎᜓᜆ᜔", "puˈlot"],
-    xlu: ["malli-", "ˈmalːi"],
+    xlu: ["mallit-", "ˈmalːit"],
     sog: ["ʾnkwpyn", "aŋɡupeːn"],
     ko_mid: ["·ᄢᅮᆯ", "pskul"],
     ko_em: ["ᄭᅮᆯ", "k͈ul"],

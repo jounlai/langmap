@@ -90,6 +90,7 @@ const ACCEPTED = {
     'enf:eye|heart': 'Forest Enets сэй sɛj "eye" and сԑй sæj "heart" (NorthEuraLex, ASJP): two words whose Latin transliteration in this row falls together; the IPA keeps them apart. r83, 2026-10-12.',
     'mgo:bone|foot': 'Metaʼ əwu is both: the NT uses it for "a bone of his" (JHN 19:36) and "flesh and bones" (LUK 24:39), and for foot. r83, 2026-10-12.',
     'mcf:mouth|tongue': 'Matsés ana is "tongue" in the NT (MRK 7:33, LUK 16:24) and in Amazonian Voices; the mouth cell holding the same form is unverified — open item, review 562. r83, 2026-10-12.',
+    'lbz_damin:foot|hand': 'Damin, the Lardil initiation register, has about 200 words for the whole lexicon; nguuwii covers both limbs (Hale 1973). r107, 2026-10-15.',
     'sux:mouth|tooth': 'Sumerian 𒅗 KA is read ka (mouth), kiri3 (nose) and zu2 (tooth): one sign, three readings (en.wiktionary 𒅗; ePSD2). r106, 2026-10-14.',
     'sux:nose|tooth': 'Sumerian 𒅗 KA = kiri3 nose and zu2 tooth, one sign (see sux:mouth|tooth). r106, 2026-10-14.',
     'yur:moon|sun': 'Yurok wonewsleg is "moon, sun" — the only sun noun in the Yurok Language Project dictionary. r106, 2026-10-14.',

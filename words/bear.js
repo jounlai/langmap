@@ -1293,7 +1293,7 @@ WORDS.bear = {
 
     // --- Indo-European: the inherited word, kept ----------------------
     // *h₂ŕ̥tḱos survives here. English keeps it only in "Arctic".
-    p_ine: ["*h₂ŕ̥tḱos", "h₂ŕ̥tḱos"],
+    p_ine: ["*h₂ŕ̥tḱos", "h₂ŕ̩tḱos"], // was ["*h₂ŕ̥tḱos", "h₂ŕ̥tḱos"] (vi dialect rules 2026-10-06)
     hit: ["𒄯𒁖𒂵𒀸", "xartaɡːas"], // was ["𒄯𒁖𒂵𒀸", "xartaɡːaʃ"] (vi dialect rules 2026-10-06)
     la: ["ursus", "ˈursus"],
     el_grc: ["ἄρκτος", "árktos"],
@@ -1425,7 +1425,7 @@ WORDS.bear = {
     cop: ["ⲗⲁⲃⲟⲓ", "laboj"], // was ["ⲗⲁⲃⲟⲓ", "laβɔj"] (vi dialect rules 2026-10-06)
     he_mis: ["דוב", "dov"],
     arc: ["ܕܒܐ", "debbaː"], // was ["ܕܒܐ", "debaː"] (vi dialect rules 2026-10-06)
-    syc: ["ܕܒܐ", "debaː"],
+    syc: ["ܕܒܐ", "debbaː"], // was ["ܕܒܐ", "debaː"] (vi dialect rules 2026-10-06)
     ar_qur: ["دب", "dubb"],
     gez: ["ድብ", "dəbb"],
     am: ["ድብ", "dɨb"],
@@ -1458,7 +1458,7 @@ WORDS.bear = {
     nio: ["ӈарка", "ŋarka"],
 
     // --- Turkic: *adïg, then ayı ---------------------------------------
-    ptrk: ["*adïg", "adïɣ"],
+    ptrk: ["*adïg", "adɯɣ"], // was ["*adïg", "adïɣ"] (vi dialect rules 2026-10-06)
     otk: ["𐰑𐰍", "adɯɣ"],
     xqa: ["adhığ", "aðɯɣ"],
     ota: ["آیی", "aˈjɯ"],
@@ -1905,7 +1905,7 @@ WORDS.bear = {
 
     // --- 2026-08-31 bear pass 2: Formosan/PAn, ancient languages, creoles and misc (out_misc.tsv)
     paus: ["*Cumay", "Cumay"],
-    p_viet: ["*c-guːʔ", "c-guːʔ"],
+    p_viet: ["*c-guːʔ", "c-ɡuːʔ"], // was ["*c-guːʔ", "c-guːʔ"] (vi dialect rules 2026-10-06)
     bnn: ["tumaz", "tumað"],
     tsu: ["cmoi", "tsmoi"],
     trv: ["kumay", "kumaj"], // was ["sumay", "sumaj"] (vi dialect rules 2026-10-06)

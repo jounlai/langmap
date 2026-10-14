@@ -70,7 +70,7 @@ WORDS.daughter = {
     sw: ["binti", "ˈbinti"],
 
     // --- *dʰugh₂tḗr, branch by branch ---------------------------------
-    p_ine: ["*dʰugh₂tḗr", "dʰugh₂téːr"],
+    p_ine: ["*dʰugh₂tḗr", "dʰuɡh₂téːr"],
     p_toc: ["*t(ŭ)kācēr", "tkaːtseːr"],   // Wiktionary PT; A ckācar, B tkācer
     sa: ["दुहितृ", "duɦitr̩"],
     h_vedic: ["दुहितृ", "duhitŕ̩"],
@@ -368,7 +368,7 @@ WORDS.daughter = {
     ayl: ["بنت", "bint"],
     ar_sd: ["بت", "bitt"],
     mt: ["bint", "bɪnt"],
-    syc: ["ܒܪܬܐ", "bartaː"],
+    syc: ["ܒܪܬܐ", "barθaː"],
     tru: ["ܒܪܬܐ", "barθo"],
     aii: ["ܒܪܵܬܵܐ", "ˈbrata"],
     oar: ["ברת", "bart"],
@@ -462,7 +462,7 @@ WORDS.daughter = {
     // ᄒᆞ다 hʌda), and ko_em ᄯᆞᆯ is the same word.
     ko_jeju: ["ᄄᆞᆯ", "t͈ʌl"],
     ko_mid: ["·ᄯᆞᆯ", "stʌl"],
-    ko_em: ["ᄯᆞᆯ", "t͈ʌl"],
+    ko_em: ["ᄯᆞᆯ", "t͈al"],
     ain: ["マッネポ", "matnepo"],
 
     // --- Tibetan bu mo, and the Tibeto-Burman "child + female" pattern ---
@@ -914,7 +914,7 @@ WORDS.daughter = {
     tdh: ["जौमो", "dzaumo"],
     egy: ["𓅭𓏏", "zat"],
     otk: ["𐰶𐰃𐰕", "qɯz"],
-    ptrk: ["*kï̄rᶻ", "kï̄rᶻ"],
+    ptrk: ["*kï̄rᶻ", "kɯːŕ"],
     uby: ["pχʲa", "pʰχʲa"],
     obr: ["သ္မိဟ်", "smih"],
     sog: ["ẟwγt", "ðuɣd"],
@@ -1101,9 +1101,9 @@ WORDS.daughter = {
     wuu_wz: ["女儿", "na˧˦ ŋ̍˧˩"],
     nan_hai: ["查某囝", "sa˧˩ mɔu˨˩˧ kia˨˩˧"],
     nzm: ["pena", "pena"],
-    xlu: ["duttariyati-", "ˈdutːarijati"],
+    xlu: ["tuwatri-", "ˈtuwatri"],
     cms: ["bilia", "ˈbilia"],
-    ja_kanbun: ["女", "musɯme"],
+    ja_kanbun: ["女", "mɯsɯme"],
     nci: ["ichpōchtli", "itʃpoːtʃtɬi"],
     gan_yc: ["女", "ȵy˨˩"],
     gan_ja: ["女", "ȵy˥˧"],

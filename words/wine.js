@@ -1212,7 +1212,7 @@ WORDS.wine = {
     enm: ["wyn", "wiːn"],
     non: ["vín", "viːn"],
     goh: ["wīn", "wiːn"],
-    gmh: ["wīn", "viːn"],
+    gmh: ["wîn", "wiːn"], // was ["wīn", "viːn"] (vi dialect rules 2026-10-06)
     osx: ["wīn", "wiːn"],
     ofs: ["wīn", "wiːn"],
     cu: ["вино", "vino"],
@@ -1226,10 +1226,10 @@ WORDS.wine = {
     psem: ["*wayn-", "wajn"],
     hbo: ["יין", "ˈjajin"],
     he_mis: ["יין", "ˈjajin"],
-    uga: ["𐎊𐎐", "jenu"],
+    uga: ["𐎊𐎐", "jeːnu"], // was ["𐎊𐎐", "jenu"] (vi dialect rules 2026-10-06)
     arc: ["ܚܡܪܐ", "ħamraː"],
     ar_qur: ["خمر", "xamr"],
-    gez: ["ወይን", "wɐjn"],
+    gez: ["ወይን", "wajn"], // was ["ወይን", "wɐjn"] (vi dialect rules 2026-10-06)
     akk: ["𒅗𒊏𒉡", "karaːnu"],
     cop: ["ⲏⲣⲡ", "eːrp"],
 
@@ -1415,7 +1415,7 @@ WORDS.wine = {
     yi: ["ווײַן", "vaɪ̯n"], // was ["ווײַן", "vajn"] (vi dialect rules 2026-10-06)
 
     // --- Celtic — borrowed from Latin with the Church ----------------------
-    mga: ["fín", "fiːn"],
+    mga: ["fín", "fʲiːn"], // was ["fín", "fiːn"] (vi dialect rules 2026-10-06)
     gd: ["fìon", "fiən"],
     gv: ["feeyn", "fiːn"],
     br: ["gwin", "ɡwiːn"],
@@ -1469,7 +1469,7 @@ WORDS.wine = {
 
     // --- Semitic and Kartvelian, more of them -------------------------------
     phn: ["𐤉𐤍", "jeːn"],
-    syc: ["ܚܡܪܐ", "ħamrɔ"],
+    syc: ["ܚܡܪܐ", "ħamraː"], // was ["ܚܡܪܐ", "ħamrɔ"] (vi dialect rules 2026-10-06)
     ti: ["ወይኒ", "wɐjni"],
     lzz: ["ღვინი", "ɣvini"],
     mt: ["inbid", "ɪmˈbiːt"], // was ["inbid", "ɪnˈbiːt"] (vi dialect rules 2026-10-06)

@@ -264,7 +264,7 @@ WORDS.black = {
     ha: ["baƙi", "bakʼiː"],
     om: ["gurraacha", "ɡurːaːtʃaː"],
     cop: ["ⲕⲁⲙⲉ", "kame"],
-    syc: ["ܐܘܟܡܐ", "ʔukːaːmaː"],
+    syc: ["ܐܘܟܡܐ", "ʔukkaːmaː"],
 
     // --- Uralic --------------------------------------------------------
     se: ["čáhppat", "ˈtʃaːhpːat"],
@@ -503,7 +503,7 @@ WORDS.black = {
     ofs: ["swart", "swart"],
     osx: ["swart", "swart"],
     goh: ["swarz", "swarts"],
-    gmh: ["swarz", "svarts"],
+    gmh: ["swarz", "swarts"],
     de_lut: ["schwartz", "ʃvarts"],
     non: ["svartr", "svɑrtr"],
     sga: ["dub", "duβ"],
@@ -512,7 +512,7 @@ WORDS.black = {
     prg: ["kirsnan", "ˈkirsnan"],
     // Added 2026-09-05. The *kr̥snós branch, which the row could already show
     // in Old Prussian kirsnan and Sanskrit कृष्णः but nowhere between them.
-    p_ine: ["*kr̥snós", "kr̥snós"],
+    p_ine: ["*kr̥snós", "kr̩snós"],
     h_vedic: ["कृष्णः", "kr̩ʂɳɐ́ɦ"],
     cu: ["чрьнъ", "tʃrĭnŭ"],
     orv: ["чьрнъ", "tʃĭrnŭ"],
@@ -530,7 +530,7 @@ WORDS.black = {
     ga: ["dubh", "d̪ˠʊvˠ"],
     da: ["sort", "sɒˀd"],
 
-    p_sit: ["*nək", "nək"],
+    p_sit: ["*s-nak", "s-nak"],
 
     // --- Sinitic ------------------------------------------------------
     // The lexical split matters more than the phonology here: Southern Min
@@ -562,7 +562,7 @@ WORDS.black = {
     ja_hak: ["黒い", "kɯɾoi"],
     ja_oki: ["くるさん", "kuɾusaɴ"],
     ja_chu: ["黒し", "kuɾoɕi"],
-    ja_heian: ["黒し", "kuɾoɕi"],
+    ja_heian: ["黒し", "kuɾosi"],
     ojp: ["黒し", "kurosi"],
     p_jpn: ["*kuro", "kuro"],
 
@@ -651,7 +651,7 @@ WORDS.black = {
     // Kemet, "the black land", and it is still there in Coptic ⲕⲁⲙⲉ above.
     hbo: ["שָׁחֹר", "ʃɔːˈħoːr"],
     he_mis: ["שחור", "ʃaˈħor"],
-    gez: ["ጸሊም", "sˤalːim"],
+    gez: ["ጸሊም", "sˤalliːm"],
     akk: ["𒍝𒀠𒈬", "sˤalmu"],
     egy: ["𓆎𓅓", "kem"],
 
@@ -1236,7 +1236,7 @@ WORDS.black = {
     xto: ["𑀅𑀭𑁆𑀓𑀦𑁆𑀢𑁆", "arkant"],
     txb: ["𑀏𑀭𑁆𑀓𑁂𑀦𑁆𑀢𑁆", "erkent"],
     ave: ["𐬯𐬁𐬨𐬀", "saːma"],
-    kho: ["𑀳𑀲𑁆𑀯", "hasva"],
+    kho: ["𑀳𑀭𑁆𑀬𑀸𑀲", "harjaːsa"],
     hai: ["hlg̱ahl", "ɬɢaɬ"],
     kwa: ["câ", "câ"],
     fia: ["úrúm", "úrúm"],
@@ -1283,6 +1283,7 @@ WORDS.black = {
     dnj: ["tīi", "tīː"],
     wae: ["schwartz", "ʃvarts"],
     itz: ["bʼox", "ɓoʃ"],
-    pot: ["mkedéwa", "mkedewa"]
+    pot: ["mkedéwa", "mkedewa"],
+    p_viet: ["*-jəm", "-jəm"]
   },
 };

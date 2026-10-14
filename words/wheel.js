@@ -276,7 +276,7 @@ WORDS.wheel = {
     hy_grab: ["անիւ", "aniw"],
     hyw: ["անիւ", "ɑˈniv"],
     prg: ["kelan", "kelan"],
-    xto: ["𑀓𑀼𑀓𑀮𑁆", "kukəl"],
+    xto: ["𑀯𑀭𑁆𑀓𑀦𑁆𑀢𑁆", "wərkənt"],
 
     // --- Slavic *kolo — the same root, no reduplication ----------------
     orv: ["коло", "kolo"],
@@ -318,7 +318,7 @@ WORDS.wheel = {
     lad: ["rueda", "ˈrweða"],
     osp: ["rueda", "ˈrweða"],
     es_sgl: ["rueda", "ˈrweða"],
-    fr_class: ["roue", "ʁu"],
+    fr_class: ["roue", "ru"],
     rup: ["aroatã", "aˈro̯atə"],
     aln: ["rrotë", "roːt"],
 
@@ -452,7 +452,7 @@ WORDS.wheel = {
     // --- Ancient Near East and the Aegean ---------------------------------
     // Linear B a-mo, on the Knossos chariot tablets — Greek's other wheel word
     gmy: ["𐀀𐀗", "harmo"],
-    syc: ["ܓܝܓܠܐ", "ɡiːɡlaː"],
+    syc: ["ܓܝܓܠܐ", "ɡiːɣlaː"],
     aii: ["ܓܝܓܠܐ", "ɡiɡla"],
     tru: ["ܓܝܓܠܐ", "ɡiɡlo"],
     he_mis: ["גלגל", "ɡalˈɡal"],

@@ -1987,7 +1987,7 @@ WORDS.foot = {
     p_ryu: ["*asi", "asi"],  // Proto-Ryukyuan *asi, tone class B, with reflexes in all four branches (Okinawan ashi, Miyako asï, Yaeyama asï, Yonaguni achi).
     p_sit: ["*r-kaŋ", "r-kaŋ"],  // Matisoff HPTB §7.1 files FOOT and LEG under one etymon, *r-kaŋ & *keŋ 'leg / foot / stem / stalk' (STC n.218).
     p_toc: ["*peine", "peine"],  // The only reconstruction the literature offers is a dual. Adams 2013: 432, as the GLD's Tocharian B list item 31 reads him, takes B paine and A pem back to Proto-Tocharian *pei-ne, with *pei- reflecting the PIE dual *pode, and makes the singulars A pe and B paiyye backformations from it; no singular is reconstructed anywhere. Route unknown: B ckacko 'leg, shin, calf' has no Tocharian A cognate to project, which is why the xto row is unknown here too.
-    p_tun: ["*palgan", "palgan"],  // *palgan 'foot' against *begdi 'leg' — Cincius TMS II: 312 and I: 118-119, which Wiktionary's Proto-Tungusic list (the one this row follows) and StarLing's Tungus database print independently, each giving 'foot' first for the one and 'leg' first for the other; Benzing 1955: 45 and Fuchs 1968: 102 stand behind *palgan, and a third etymon *pagdiki carries 'sole'. Distinct at the proto-stage even though Manchu bethe and Evenki xalgan both went one-word later, from opposite etyma.
+    p_tun: ["*palgan", "palɡan"],  // *palgan 'foot' against *begdi 'leg' — Cincius TMS II: 312 and I: 118-119, which Wiktionary's Proto-Tungusic list (the one this row follows) and StarLing's Tungus database print independently, each giving 'foot' first for the one and 'leg' first for the other; Benzing 1955: 45 and Fuchs 1968: 102 stand behind *palgan, and a third etymon *pagdiki carries 'sole'. Distinct at the proto-stage even though Manchu bethe and Evenki xalgan both went one-word later, from opposite etyma. // was ["*palgan", "palgan"] (vi dialect rules 2026-10-06)
     pa: ["ਪੈਰ", "pɛːɾ"],  // As Hindi/Urdu.
     pag: ["sali", "saˈli"],  // Benton has salí 'foot, leg' but also bikkíng and saláp 'the entire leg' as headwords of their own, and the Pangasinan Bible keeps the two apart where it counts — sali for the feet washed at John 13:5, bikking for the legs broken at John 19:31-33 and for the statue's iron legs at Daniel 2:33.
     pal: ["𐭯𐭠𐭣𐭩", "paːj"],  // MacKenzie CPD 65 glosses pāy 'foot, leg; foot (12 in.)' outright — one lexeme for the limb, with padistān as the marked 'leg'.
@@ -2153,7 +2153,7 @@ WORDS.foot = {
     swb: ["mundru", "mundɾu"],  // mundru is the whole lower limb in Shimaore; the sole has its own word, karo (Cornice's grammar and the Ylangue limb vocabulary).
     swg: ["Fuaß", "fuas"],  // The Swabian Fuaß is the whole lower limb, not just the foot — a break from the German Fuß vs Bein split.
     swi: ["tin1", "tin˩˩"],  // IDS 415 gives Sui tin.1 for the foot against pa.1 for the leg; the Kam-Sui rows keep the tin/kha split as the Tai rows do. ABVD's own leg/foot entry for Sui, ȶau4, is IDS's calf word and was not used.
-    syc: ["ܪܓܠܐ", "reɡlaː"],  // As arc: Sokoloff 1434a-b, one entry for leg and foot.
+    syc: ["ܪܓܠܐ", "reɣlaː"],  // As arc: Sokoloff 1434a-b, one entry for leg and foot. // was ["ܪܓܠܐ", "reɡlaː"] (vi dialect rules 2026-10-06)
     syl: ["ফাও", "fau"],  // ফাও covers both: the dictionary's own entry reads 'foot; leg', as Bengali পা does.
     szl: ["stopa", "ˈstɔpa"],  // Silesian goes with Polish, not Czech: stopa against noga for the leg.
     ta: ["கால்", "kaːl"],  // Tamil கால் covers the whole lower limb; பாதம் is the foot proper.

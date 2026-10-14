@@ -100,7 +100,7 @@ WORDS.hundred = {
     la: ["centum", "ˈkentum"],          // centum, the label for the /k/ side
     ave: ["𐬯𐬀𐬙𐬆𐬨", "satəm"],            // satəm, the label for the /s/ side
     txb: ["𑀓𑀦𑁆𑀢𑁂", "kante"],            // centum at the far east — the counterexample
-    xto: ["𑀓𑀦𑁆𑀢𑁆", "kænt"],
+    xto: ["𑀓𑀦𑁆𑀢𑁆", "kənt"],
     el_grc: ["ἑκατόν", "hekatón"],
     el_kath: ["ἑκατόν", "ekaˈton"],
     el: ["εκατό", "ekaˈto"],
@@ -195,7 +195,7 @@ WORDS.hundred = {
     vo: ["tum", "tum"],
 
     // --- Semitic and the Near East ----------------------------------------
-    psem: ["*miʾat-", "miʔat"],
+    psem: ["*miʔat-", "miʔat"],
     ar_qur: ["مائة", "miʔa"],
     hbo: ["מאה", "meːˈʔɔː"],
     he_mis: ["מאה", "meˈʔa"],
@@ -215,7 +215,7 @@ WORDS.hundred = {
     cop: ["ϣⲉ", "ʃe"],
 
     // --- Turkic ------------------------------------------------------------
-    ptrk: ["*jǖz", "jyːz"],
+    ptrk: ["*jǖŕ", "jyːŕ"],
     xqa: ["yüz", "jyz"],
     otk: ["𐰘𐰇𐰕", "jyz"],
     ota: ["یوز", "jyz"],
@@ -239,7 +239,7 @@ WORDS.hundred = {
     xng: ["ᠵᠠᠭᠤᠨ", "dʒaun"],
     cmg: ["ᠵᠠᠭᠤᠨ", "dʒaɣun"],
     mn: ["зуу", "tsʊː"],
-    p_tun: ["*taŋgū", "taŋɡuː"],
+    p_tun: ["*taŋgu", "taŋɡu"],
     mnc: ["ᡨᠠᠩᡤᡡ", "taŋɡuː"],
 
     // --- Sinitic and Sinoxenic ---------------------------------------------
@@ -269,7 +269,7 @@ WORDS.hundred = {
     zh_nj: ["百", "pəʔ˥"],
     zh_hf: ["百", "pəʔ˦"],
     zh_db: ["百", "pai˨˩˦"],
-    vi_han: ["百", "ɓak̚˧˥"],
+    vi_han: ["百", "ɓak˧˥"],
     ja_kanbun: ["百", "momo"],
     ja_chu: ["百", "momo"],
 
@@ -493,7 +493,7 @@ WORDS.hundred = {
     my: ["ရာ", "jà"],
 
     // --- Tai and Austroasiatic ---------------------------------------------
-    ptai: ["*rɔːj", "rɔːj"],
+    ptai: ["*roːj", "roːj"],
     sukh: ["ร้อย", "rɔːj"],
     km: ["រយ", "rɔːj"],
 

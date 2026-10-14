@@ -72,7 +72,7 @@ WORDS.new = {
     // level U. Surface is byte-identical to uralonet; the IPA field resolves
     // the palatalisation mark the way the row resolves *śata -> ɕata. 531.
     pura: ["*wuδ̕e", "wuðʲe"],
-    p_sit: ["*g-sar", "g-sar"],
+    p_sit: ["*g-sar", "ɡ-sar"],
     // BLR3 2495, status DER, derived from 2491 *-pɪ́ 'be burnt; be hot; be
     // ripe'. OPEN: BLR3 is no longer queryable online, and Schadeberg 2003
     // prints 'new' as *=pɪ́-a (HH?) — High-High, not the H-L here. His own ?
@@ -92,7 +92,7 @@ WORDS.new = {
     // eight other cells (*adïg, *balïk, *tïl, *ït), which EDAL also prints
     // with ɨ. Round 531.
     ptrk: ["*jaŋï", "jaŋɯ"],
-    p_kor: ["*sai", "sai"],
+    p_kor: ["*say", "saj"],
     p_jpn: ["*nipi-", "nipi"],
     p_toc: ["*ñäwe", "ɲəwe"],
     p_ine: ["*néwos", "néwos"],
@@ -474,10 +474,10 @@ WORDS.new = {
     ave: ["𐬥𐬀𐬎𐬎𐬀", "nava"],
     xto: ["𑀜𑀼", "ɲu"],
     txb: ["𑀜𑀼𑀯𑁂", "ɲuwe"],
-    fro: ["novel", "noˈvɛl"],
+    fro: ["novel", "nuˈvɛl"],
     fr_class: ["nouveau", "nuvo"],
     goh: ["niuwi", "ˈniuwi"],
-    gmh: ["niuwe", "ˈniuwə"],
+    gmh: ["niuwe", "ˈnyːwə"],
     osp: ["nuevo", "ˈnweβo"],
     osx: ["niuwi", "ˈniuwi"],
     mnk: ["kuta", "kuta"],
@@ -1050,7 +1050,7 @@ WORDS.new = {
     kaw: ["ꦲꦚꦂ", "haɲar"],
     xlu: ["nāwa-", "ˈnaːwa"],
     hy_grab: ["նոր", "noɾ"],
-    mga: ["núa", "ˈnuːa"],
+    mga: ["núa", "nuːə"],
     got: ["𐌽𐌹𐌿𐌾𐌹𐍃", "ˈniujis"],
     de_lut: ["new", "nɔɪ̯"],
     pi_edu: ["nava", "nava"],
@@ -1122,7 +1122,7 @@ WORDS.new = {
     xqa: ["yaŋı", "jaŋɯ"],
     juc: ["ice", "itʃə"],
     zkt: ["𘬥𘭛", "ʃɛn"],
-    gez: ["ሐዲስ", "ħaddis"],
+    gez: ["ሐዲስ", "ħaddiːs"],
     arc: ["ܚܕܬܐ", "ħaðtaː"],
     orv: ["новъ", "novŭ"],
     qwc: ["musuq", "musuq"],

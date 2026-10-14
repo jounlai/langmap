@@ -888,7 +888,7 @@ WORDS.sugar = {
     wuu_nb: ["糖", "dɔ̃˧˩˧"], // was ["糖", "dɔ̃˨˦"] (vi dialect rules 2026-10-06)
     atj: ["sisipaskot", "sisipaskot"],
     aln: ["sheqer", "ʃeˈceɾ"],
-    syc: ["ܫܟܪ", "ʃɛkkar"],
+    syc: ["ܫܟܪ", "ʃekkar"], // was ["ܫܟܪ", "ʃɛkkar"] (vi dialect rules 2026-10-06)
     gmh: ["zucker", "ˈtsukːər"],
     de_lut: ["Zucker", "ˈtsʊkər"],
     ohu: ["nádméz", "naːdmeːz"],
@@ -901,7 +901,7 @@ WORDS.sugar = {
     hy_grab: ["շաքար", "ʃɑkʰɑr"],
     es_sgl: ["açúcar", "aˈtsukaɾ"],
     ja_edo: ["砂糖", "satoː"],
-    ja_chu: ["砂糖", ""],
+    ja_chu: ["砂糖", "satɔː"], // was ["砂糖", ""] (vi dialect rules 2026-10-06)
     it_dan: ["zucchero", "ˈdzukkero"],
     pi: ["सक्खरा", "sakːʰaraː"], // was ["सक्खरा", ""] (vi dialect rules 2026-10-06)
     zh_tang: ["糖", "daŋ"],
@@ -910,7 +910,7 @@ WORDS.sugar = {
     en_em: ["sugar", ""],
     zh_song: ["糖", "tʰaŋ"],
     fa_clas: ["شکر", "ʃakar"],
-    fr_class: ["sucre", "sykʁ"],
+    fr_class: ["sucre", "sykr"], // was ["sucre", "sykʁ"] (vi dialect rules 2026-10-06)
     cnp: ["白糖", "piɐk˨ taŋ˨˩"],
     iu: ["ᓱᑲᖅ", ""],
     awa: ["चीनी", ""],

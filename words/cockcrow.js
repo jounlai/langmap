@@ -586,6 +586,7 @@ WORDS.cockcrow = {
     yue_ts: ["喔喔", "ʔəɯk˥˥ ʔəɯk˥˥"],
     zh_db: ["喔喔", "wo˥ wo˥"],
     dnj: ["kɔ̏kɔ̏ŋkɔ́ɔ̏", "kɔ̏kɔ̏ŋkɔ́ɔ̏"],
-    ar: ["كُوكُوكُوكُو", "kuːkuːkuːkuː"]
+    ar: ["كُوكُوكُوكُو", "kuːkuːkuːkuː"],
+    zh_song: ["喈喈", "kiai kiai"]
   },
 };

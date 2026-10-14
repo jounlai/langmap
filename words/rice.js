@@ -246,7 +246,7 @@ WORDS.rice = {
     gcf: ["diri", "diʁi"],
     gcr: ["douri", "duʁi"],
     gd: ["rìs", "rˠiːʃ"],
-    gmh: ["rīs", "riːs"],
+    gmh: ["rîs", "riːs"],
     h_vedic: ["व्रीहि", "ʋriːhí"],
     hak_cn: ["米", "mi˧˩"],
     hak_hl: ["米", "mi˨˦"],

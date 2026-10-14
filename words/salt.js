@@ -109,7 +109,7 @@ WORDS.salt = {
 
     // --- East Asia: a separate world ------------------------------------
     zh_wenyan_edu: ["鹽", "jiːm˨˩"],
-    vi_han: ["鹽", "iəm˧˧"],
+    vi_han: ["鹽", "ziəm˧˧"],
     ja_edo: ["塩", "ɕio"],
     ko_em: ["소곰", "soɡom"],
 
@@ -632,7 +632,7 @@ WORDS.salt = {
     dng: ["ян", "iæ̃˨˦"],
     och: ["鹽", "*[ɢr][o]m"],
     zh_tang: ["鹽", "jiam"],
-    p_sit: ["*g-rjum", "g-rjum"],
+    p_sit: ["*g-ryum", "ɡ-rjum"],
 
 
     // --- Tibeto-Burman: PTB *g-ryum in the Sal branch, *tsa in Qiangic and Lolo ---
@@ -661,7 +661,7 @@ WORDS.salt = {
     ko_gor: ["蘇甘", "*swokwom"],
     ptrk: ["*tūŕ", "tuːŕ"],
     pmng: ["*dabusun", "dabusun"],
-    p_dra: ["*cuppu", "cuppu"],
+    p_dra: ["*cuppu", "tʃuppu"],
     sux: ["𒁵", "mun"],
     txb: ["𑀲𑀮𑁆𑀬𑀺𑀬𑁂", "saʎije"],
     pal: ["𐭭𐭬𐭪", "namak"],
@@ -801,7 +801,7 @@ WORDS.salt = {
     ptai: ["*klwɯə", "klwɯə"],
     hmn: ["ntsev", "ᶯdʐe˨˦"],
     ium: ["nzauv", "dzau˦"],
-    p_hmx: ["*ntsjəuX", "ntsjəu"],
+    p_hmx: ["*ntsjəuˣ", "ntsjəu"],
 
 
     // --- New Guinea trade salt, and the Australian loans that replaced it ---
@@ -998,7 +998,7 @@ WORDS.salt = {
     paus: ["*qasiRa", "qasiRa"],
     pmay: ["*ʔaʔtzʼaam", "ʔaʔtsʼaːm"],
     pban: ["*-jínyʊ̀", "-jíɲʊ̀"],
-    puaz: ["*ona", "ona"],
+    puaz: ["*omCa", "omCa"],
 
 
     // --- Zaiwa -------------------------------------------------------
@@ -1127,7 +1127,7 @@ WORDS.salt = {
     nmf: ["machi", "matʃi"],
     nzm: ["nehai", "nehai"],
     yai: ["namak", "naˈmak"],
-    uby: ["ǯʲə", "dʒʲə"],
+    uby: ["ǯə", "dʒə"],
     ets: ["umeri", "umeri"],
     kry: ["qʼel", "qʼel"],
     bhb: ["लूण", "luːɳ"],
@@ -1231,7 +1231,7 @@ WORDS.salt = {
     jqr: ["katyi", "kaci"],
     yuy: ["daabsən", "daːbsən"],
     zh_song: ["鹽", "iɛm"],
-    pura: ["*salɜ", "salɜ"],
+    pura: ["—", "—"],
     juc: ["datsu", "datsu"],
     ohu: ["só", "ʃoː"],
     xsa: ["𐩣𐩡𐩢", "milħ"],

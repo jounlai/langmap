@@ -1301,9 +1301,9 @@ WORDS.orange = {
     hr: ["naranča", "nǎraːntʃa"], // was ["naranča", "ˈnaraɲtʃa"] (vi dialect rules 2026-10-06)
     bs: ["narandža", "nǎraːndʒa"], // was ["naranča", "ˈnaraɲtʃa"] (vi dialect rules 2026-10-06)
     fa_clas: ["نارنج", "naːrandʒ"],
-    fr_class: ["orange", "ɔʁɑ̃ʒ"],
+    fr_class: ["orange", "ɔrɑ̃ʒ"], // was ["orange", "ɔʁɑ̃ʒ"] (vi dialect rules 2026-10-06)
     it_dan: ["arancia", "aˈrantʃa"],
-    es_sgl: ["naranja", "naˈɾaŋxa"],
+    es_sgl: ["naranja", "naˈɾaŋʃa"], // was ["naranja", "naˈɾaŋxa"] (vi dialect rules 2026-10-06)
     mfe: ["zoranz", "zoʁãz"],
     rcf: ["zoranz", "zoʁãz"], // was ["zoranj", "zoʁãʒ"] (vi dialect rules 2026-10-06)
     crs: ["zoranz", "zorãz"], // was ["zoranz", "zoʁãz"] (vi dialect rules 2026-10-06)

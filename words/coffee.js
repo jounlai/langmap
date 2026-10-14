@@ -788,7 +788,7 @@ WORDS.coffee = {
     aln: ["kafe", "kaˈfɛ"],
     ota: ["قهوه", "kahˈve"],
     fa_clas: ["قهوه", "qahˈwa"],
-    ja_edo: ["カウヒイ", ""],
+    ja_edo: ["カウヒイ", "koːhiː"], // was ["カウヒイ", ""] (vi dialect rules 2026-10-06)
     hoc: ["kaba", "kaba"],
     en_em: ["coffee", ""],
     fr_class: ["café", "kafe"],

@@ -898,5 +898,29 @@
     "proto": "p_jpn",
     "ruling": "inherited",
     "note": "Old Japanese awo 'blue/green' (one grue word) continues the atlas's Proto-Japonic *awo. Ruled 2026-10-13 (r96)."
+  },
+  "ojp|fire": {
+    "form": "pi",
+    "proto": "p_ryu",
+    "ruling": "inherited",
+    "note": "Old Japanese pi 'fire' and Proto-Ryukyuan *pi both continue Proto-Japonic *pi — shared inheritance, not a leak. Ruled 2026-10-15 (r107)."
+  },
+  "ojp|hand": {
+    "form": "te",
+    "proto": "p_ryu",
+    "ruling": "inherited",
+    "note": "Old Japanese te 'hand' and Proto-Ryukyuan *te both continue Proto-Japonic *te. Ruled 2026-10-15 (r107)."
+  },
+  "sukh|we": {
+    "form": "raw",
+    "proto": "ptai",
+    "ruling": "inherited",
+    "note": "Sukhothai Thai raw 'we' continues the atlas's Proto-Tai *raw. Ruled 2026-10-15 (r107)."
+  },
+  "xqa|tongue": {
+    "form": "til",
+    "proto": "ptrk",
+    "ruling": "inherited",
+    "note": "Karakhanid til 'tongue' (Kashgari) continues the atlas's Proto-Turkic form. Ruled 2026-10-15 (r107)."
   }
 }

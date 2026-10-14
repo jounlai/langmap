@@ -54,13 +54,13 @@ WORDS.head = {
   },
   data: {
     paus: ["*quluh", "quluh"],
-    p_dra: ["*talay", "talay"],
-    pura: ["*päŋe", "päŋe"],
+    p_dra: ["*talay", "talaj"],
+    pura: ["*päŋe", "pæŋe"],
     psem: ["*raʔš-", "raʔš"],
     // STEDT #386 prints PTB *m/s-gaw; the alternating prefix is simplified
     // here because no other cell in this row carries a slash. OPEN: check
     // whether other p_sit cells silently simplified the same way. Round 531.
-    p_sit: ["*m-gaw", "m-gaw"],
+    p_sit: ["*m-gaw", "m-ɡaw"],
     pban: ["*-tʊ́è", "-tʊ́è"],
     // Stubbs 1153, but tagged [SUA] only — Northern Uto-Aztecan uses a
     // different etymon in every branch, and Stubbs notes "even though Yq
@@ -68,14 +68,14 @@ WORDS.head = {
     // new.js, which spans both divisions. Round 528.
     puaz: ["*moʔo", "moʔo"],
     pkar: ["*taw-", "taw"],
-    p_hmx: ["*S-phreiX", "S-pʰrei"],
+    p_hmx: ["*S-phreiˣ", "S-pʰrei"],
     // Pittayaporn 2009 App. B note 2 goes further than "compare 頭": "This
     // etymon is not found in NT, and might in fact be a post-PT loanword."
     // His other 'head' entry *krawC is disqualified by his note 1 as really
     // 'hair knot'. Round 528.
     ptai: ["*truə", "truə"],
     p_aav: ["*ɓoːkʔ", "ɓoːkʔ"],
-    p_tun: ["*dili", "dili"],
+    p_tun: ["*dïlï", "dɯlɯ"],
     // Nugteren 2011 (LOT 289) prints *tolagaï; WM is toluɣai. The string
     // first shipped here, *tolugai, matched neither, and used ASCII g where
     // this row writes ɣ in every back-vowel gamma (*sibaɣun, *ɣajar,
@@ -469,10 +469,10 @@ WORDS.head = {
     ave: ["𐬯𐬀𐬭𐬀𐬵", "sarah"],
     xto: ["𑀮𑀧𑁆", "lap"],
     txb: ["𑀆𑀰𑁆𑀘𑁂", "aːɕtɕe"],
-    fro: ["chief", "tʃjɛf"],
+    fro: ["chief", "tʃjeːf"],
     fr_class: ["tête", "tɛːt"],
     goh: ["houbit", "ˈhoubit"],
-    gmh: ["houbet", "ˈhoubət"],
+    gmh: ["houbet", "ˈhou̯bət"],
     osp: ["cabeça", "kaˈbetsa"],
     osx: ["hōbid", "ˈhoːβid"],
     mnk: ["kuŋo", "kuŋo"],
@@ -1092,7 +1092,7 @@ WORDS.head = {
     emy: ["jol", "xol"],
     sukh: ["หัว", "hua"],
     cmg: ["ᠲᠣᠯᠤᠭᠠᠢ", "toluɣai"],
-    p_toc: ["*ćäpālä", "tɕəpaːlə"],
+    p_toc: ["—", "—"],
     onw: ["ⲟⲩⲣ", "ur"],
     xag: ["bul", "bul"],
     cu: ["глава", "ɡlava"],

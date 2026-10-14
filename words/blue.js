@@ -978,12 +978,12 @@ WORDS.blue = {
     es_sgl: ["azul", "aˈdzul"],
     zh_han: ["青", "shiēŋ"],
     tpn: ["oby", "oˈβɨ"],
-    syc: ["ܙܪܩܐ", "zɑrqɑ"],
+    syc: ["ܙܪܩܐ", "zaːrqaː"], // was ["ܙܪܩܐ", "zɑrqɑ"] (vi dialect rules 2026-10-06)
     ar_qur: ["أزرق", "ʔazraqu"],
     ja_edo: ["青い", "aoi"],
     ja_heian: ["青", "awo"],
     xct_litpr: ["སྔོན་པོ", "ŋø̃po"],
-    ko_mid: ["프르다", "pʰɨɾɨda"],
+    ko_mid: ["프르다", "pʰɨɾɨta"], // was ["프르다", "pʰɨɾɨda"] (vi dialect rules 2026-10-06)
     ter: ["hononoʼiti", "hononoʔiti"],
     adx: ["སྔོན་པོ", "hŋonpo"],
     cay: ["aǫ́hyaęʼ", "aṍhjaɛ̃ʔ"],

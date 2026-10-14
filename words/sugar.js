@@ -1159,10 +1159,10 @@ WORDS.sugar = {
     zh_xa: ["糖", "tʰɑɣ̃˨˦"],
     zh_kf: ["糖", "tʰaŋ˦˨"],
     zh_wh: ["糖", "tʰaŋ˨˩˧"],
-    zh_cq: ["糖", "tʰɑŋ˨˩"],
+    zh_cq: ["糖", "tʰaŋ˨˩"], // was ["糖", "tʰɑŋ˨˩"] (vi dialect rules 2026-10-06)
     zh_sc: ["糖", "tʰaŋ˨˩"],
     zh_cd: ["糖", "tʰaŋ˨˩"],
-    zh_jh: ["糖", "tʰaŋ˧˥"],
+    zh_jh: ["糖", "tʰaŋ˩˧"], // was ["糖", "tʰaŋ˧˥"] (vi dialect rules 2026-10-06)
     zh_hf: ["糖", "tʰɑ̃˥˥"],
     zh_nj: ["糖", "tʰaŋ˨˦"],
     zh_tj: ["糖", "tʰɑŋ˦˥"],
@@ -1475,18 +1475,18 @@ WORDS.sugar = {
     sah: ["саахар", "ˈsaːxar"],
     alt: ["чикир", "tʃiˈkir"],
     cv: ["сахӑр", "ˈsaxər"],
-    my: ["သကြား", "θədʑá"],
+    my: ["သကြား", "ðədʑá"], // was ["သကြား", "θədʑá"] (vi dialect rules 2026-10-06)
     km: ["ស្ករ", "skɑː"],
     lo: ["ນ້ຳຕານ", "naːm˥˨ taːn˩˧"],
     yo: ["ṣúgà", "ʃúɡà"],
-    zu: ["ushukela", "uʃuˈkɛːla"],
+    zu: ["ushukela", "uʃuˈkeːla"], // was ["ushukela", "uʃuˈkɛːla"] (vi dialect rules 2026-10-06)
     am: ["ስኳር", "sɨkʷar"],
     fi: ["sokeri", "ˈsokeri"],
     hu: ["cukor", "ˈtsukor"],
     el: ["ζάχαρη", "ˈzaxari"],
     nl: ["suiker", "ˈsœʏkər"],
     pl: ["cukier", "ˈtsukʲɛr"],
-    uk: ["цукор", "ˈtsukor"],
+    uk: ["цукор", "ˈtsukɔr"], // was ["цукор", "ˈtsukor"] (vi dialect rules 2026-10-06)
     sv: ["socker", "ˈsɔkːɛr"],
     no: ["sukker", "ˈsʊkːər"],
     da: ["sukker", "ˈsɔɡɐ"],
@@ -1510,13 +1510,13 @@ WORDS.sugar = {
     mr: ["साखर", "ˈsaːkʰəɾ"],
     gu: ["ખાંડ", "kʰaːɳɖ"],
     si: ["සීනි", "siːni"],
-    te: ["చక్కెర", "tʃakkeɾa"],
+    te: ["చక్కెర", "tʃakːeɾa"], // was ["చక్కెర", "tʃakkeɾa"] (vi dialect rules 2026-10-06)
     kn: ["ಸಕ್ಕರೆ", "sakkaɾe"],
     ml: ["പഞ്ചസാര", "paɲtʃasaːɾa"],
     tg: ["шакар", "ʃaˈkar"],
-    ku: ["şekir", "ʃɛˈkɪr"],
+    ku: ["şekir", "ʃɛˈkɪɾ"], // was ["şekir", "ʃɛˈkɪr"] (vi dialect rules 2026-10-06)
     ckb: ["شەکر", "ʃɛˈkɪr"],
-    az: ["şəkər", "ʃæˈkæɾ"],
+    az: ["şəkər", "ʃæˈcæɾ"], // was ["şəkər", "ʃæˈkæɾ"] (vi dialect rules 2026-10-06)
     azb: ["شکر", "ʃæˈkæɾ"],
     ug: ["شېكەر", "ʃeˈkɛr"],
     kk: ["қант", "qɑnt"],
@@ -1535,7 +1535,7 @@ WORDS.sugar = {
     so: ["sonkor", "sonkor"],
     om: ["sukkaara", "sukːaːra"],
     xh: ["iswekile", "isweˈkiːle"],
-    en_aave: ["sugar", "ˈʃʊɡɚ"],
+    en_aave: ["sugar", "ˈʃʊɡə"], // was ["sugar", "ˈʃʊɡɚ"] (vi dialect rules 2026-10-06)
     en_nz: ["sugar", "ˈʃʊɡə"],
     en_au: ["sugar", "ˈʃʊɡə"],
     sco: ["shuggar", "ˈʃʌɡər"],

@@ -231,7 +231,7 @@ WORDS.atsign = {
     no: ["krøllalfa", "ˈkrœlːɑlfɑ"],
     // === Eastern & Southeastern Europe ===
     ru: ["собака", "sɐˈbakə"],
-    uk: ["равлик", "ˈrɑu̯lɪk"],
+    uk: ["равлик", "ˈrau̯ɫek"],
     pl: ["małpa", "ˈmawpa"],
     cs: ["zavináč", "ˈzavɪnaːtʃ"],
     sk: ["zavináč", "ˈzavɪnaːtʃ"],
@@ -274,7 +274,7 @@ WORDS.atsign = {
     ms: ["di", "di"],
     // === More national standard languages (read "@" as borrowed "at"/"et"
     //     in the local script, unless a distinctive local name is noted). ===
-    th: ["แอท", "ʔɛːt̚˨˩"],
+    th: ["แอท", "ʔɛːt˨˩"],
     ta: ["அட்", "aʈ"],
     te: ["ఎట్", "eʈ"],
     kn: ["ಎಟ್", "eʈ"],
@@ -316,7 +316,7 @@ WORDS.atsign = {
     fr_lu: ["arobase", "aʁɔbaz"],
     fr_cm: ["arobase", "aʁɔbaz"],
 
-    pt_ao: ["arroba", "ɐˈʁɔβɐ"],
+    pt_ao: ["arroba", "ɐˈʁobɐ"],
     pt_mz: ["arroba", "ɐˈʁɔβɐ"],
     pt_mo: ["arroba", "ɐˈʁoβɐ"],
     pt_cv: ["arroba", "ɐˈʁobɐ"],

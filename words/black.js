@@ -92,7 +92,7 @@ WORDS.black = {
     es: ["negro", "ˈneɣɾo"],
     pt: ["preto", "ˈpɾetu"],
     ru: ["чёрный", "ˈtɕɵrnɨj"],
-    uk: ["чорний", "ˈtʃɔrnɪj"],
+    uk: ["чорний", "ˈtʃɔrnei̯"],
     ar: ["أسود", "ˈʔaswad"],
     he: ["שחור", "ʃaˈχoʁ"],
     sw: ["nyeusi", "ɲeˈusi"],
@@ -144,13 +144,13 @@ WORDS.black = {
     pa: ["ਕਾਲਾ", "kaːɭaː"],
     ne: ["कालो", "kaːlo"],
     si: ["කළු", "kaɭu"],
-    ta: ["கருப்பு", "karuppu"],
+    ta: ["கருப்பு", "kaɾuppu"],
     te: ["నలుపు", "nalupu"],
     ml: ["കറുപ്പ്", "karuppɨ"],
     kn: ["ಕಪ್ಪು", "kappu"],
 
     // --- Mainland Southeast Asia --------------------------------------
-    km: ["ខ្មៅ", "kmaw"],
+    km: ["ខ្មៅ", "kʰmaw"],
     lo: ["ດຳ", "dam˩˧"],
 
     // --- Caucasus -----------------------------------------------------
@@ -161,7 +161,7 @@ WORDS.black = {
     zu: ["mnyama", "ˈmɲaːma"],
     xh: ["mnyama", "mɲaːma"],
     yo: ["dúdú", "dúdú"],
-    am: ["ጥቁር", "tʼɨqur"],
+    am: ["ጥቁር", "tʼɨkʼur"],
     so: ["madow", "madow"],
 
     // --- Romance ------------------------------------------------------
@@ -215,12 +215,12 @@ WORDS.black = {
     // --- Austronesian -------------------------------------------------
     ms: ["hitam", "ˈhitam"],
     jv: ["ireng", "irəŋ"],
-    su: ["hideung", "hidəuŋ"],
+    su: ["hideung", "hidɯŋ"],
     tl: ["itim", "ʔiˈtim"],
     itb: ["mavaeng", "mavaɨŋ"],
     ivv: ["mavaheng", "mavahɨŋ"],
     ceb: ["itom", "ʔiˈtom"],
-    mg: ["mainty", "ˈmaintɨ"],
+    mg: ["mainty", "ˈmainti"],
     haw: ["ʻeleʻele", "ʔeleʔele"],
     mi: ["mangu", "maŋu"],
     sm: ["uliuli", "uliuli"],
@@ -235,7 +235,7 @@ WORDS.black = {
     rn: ["umukara", "umukaɾa"],
     ny: ["chakuda", "tʃakuda"],
     sn: ["tema", "tema"],
-    st: ["ntšo", "ntsʰɔ"],
+    st: ["ntsho", "ntsʰɔ"],
     tn: ["ntsho", "ntsʰɔ"],
     nso: ["ntsho", "ntsʰɔ"],
     ts: ["ntima", "ntima"],
@@ -699,7 +699,7 @@ WORDS.black = {
     // English: the vowel is read off each row's own cat/hand, not assumed.
     en_us: ["black", "blæk"],
     en_ca: ["black", "blæk"],
-    en_au: ["black", "blæːk"],
+    en_au: ["black", "blæk"],
     en_nz: ["black", "blæk"],
     en_za: ["black", "blæk"],
     en_in: ["black", "blæk"],

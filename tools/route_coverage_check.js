@@ -118,7 +118,8 @@ const DEBT = {};
 // 2026-10-12 (r90): bear 3 -> 4 — bca tɕĩ (Allen, Jianchuan Bai) is sourced but its origin is not; we 39 -> 37.
 // r91: bear 4 -> 5 — bin akpakomiza (Edo Bible, 1SA 17:34, 2KI 2:24) attested, origin unknown.
 // r97: foot 19 -> 20 — mdr lette 'foot' (Wiktionary, Sagitta) with no leg word attested.
-const UNDECIDED = { we: { route: 'unknown', max: 37 }, bear: { route: 'unknown', max: 5 }, foot: { route: 'unknown', max: 20 } };
+// r100: bear 5 -> 6 — ny chimbalangondo (attested; origin not sourced).
+const UNDECIDED = { we: { route: 'unknown', max: 37 }, bear: { route: 'unknown', max: 6 }, foot: { route: 'unknown', max: 20 } };
 
 let violations = 0;
 const notes = [];

@@ -195,7 +195,7 @@ WORDS.honey = {
     fa: ["عسل", "æsæl"],
     prs: ["عسل", "asal"],
     tg: ["асал", "aˈsal"],
-    ku: ["hingiv", "hɪnˈɡiv"],
+    ku: ["hingiv", "hɪnˈɡɪv"],
     ckb: ["هەنگوین", "hɛnɡwiːn"],
 
     // --- Old Chinese 蜜 and Tocharian mit ------------------------------
@@ -297,12 +297,12 @@ WORDS.honey = {
     jv: ["madu", "madu"],
     kaw: ["ꦩꦣꦸ", "madu"],
     su: ["madu", "madu"],
-    tl: ["pulot", "puˈlot"],
+    tl: ["pulot", "ˈpulot"],
 
     // --- Pacific and Madagascar -------------------------------------------
     haw: ["meli", "meli"],           // μέλι again, by way of the missionary Bible
     sm: ["meli", "meli"],
-    mg: ["tantely", "tanˈtelʲ"],
+    mg: ["tantely", "tanˈteli"],
 
     // --- Africa ------------------------------------------------------------
     pban: ["*-jókì", "-jókì"],
@@ -379,7 +379,7 @@ WORDS.honey = {
     en_my: ["honey", "ˈhani"],
     en_wls: ["honey", "ˈhʌni"],
     en_ck: ["honey", "ˈhʌni"],
-    en_au: ["honey", "ˈhani"],
+    en_au: ["honey", "ˈhɐni"],
     en_nz: ["honey", "ˈhani"],
     en_scouse: ["honey", "ˈhʊni"],
     en_geordie: ["honey", "ˈhʊni"],
@@ -541,7 +541,7 @@ WORDS.honey = {
     zh_db: ["蜂蜜", "fɤŋ˥ mi˥˩"],
     zh_hf: ["蜂蜜", "fəŋ˨˩˨ miʔ˦"],
     zh_nj: ["蜂蜜", "fən˧˩ miʔ˥"],
-    zh_jh: ["蜂蜜", "fə̃˧˩ miʔ˥˥"],
+    zh_jh: ["蜂蜜", "fəŋ˧˩ miʔ˥˥"],
     zh_cq: ["蜂蜜", "foŋ˥ mi˨˩"],
     zh_cd: ["蜂蜜", "foŋ˥˥ mi˨˩"],
     zh_sc: ["蜂蜜", "foŋ˥ mi˨˩"],
@@ -754,7 +754,7 @@ WORDS.honey = {
     yue_zs: ["蜜糖", "mɐt˧ tʰɔŋ˥˩"],
     kxm: ["ទឹកឃ្មុំ", "tɨʔ kʰmum"],
     guu: ["puu", "puu"],
-    za: ["dangzrwi", "taːŋ˧˩ɣɯi˨˦"],
+    za: ["dangzrwi", "taːŋ˧˩ɣɯːi˨˦"],
     wbm: ["rawm hia", "rɔm hia"],
     lus: ["khuaizu", "kʰuaizu"],
     tdh: ["खुदो", "kʰudo"],

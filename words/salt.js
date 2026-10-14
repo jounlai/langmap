@@ -105,7 +105,7 @@ WORDS.salt = {
     gez: ["ጼው", "sˤeːw"],
     cop: ["ϩⲙⲟⲩ", "hmu"],
     ti: ["ጨው", "tʃʼɐw"],
-    am: ["ጨው", "tʃʼɐw"],
+    am: ["ጨው", "tʃʼəw"],
 
     // --- East Asia: a separate world ------------------------------------
     zh_wenyan_edu: ["鹽", "jiːm˨˩"],
@@ -114,7 +114,7 @@ WORDS.salt = {
     ko_em: ["소곰", "soɡom"],
 
     // --- Modern Europe --------------------------------------------------
-    nl: ["zout", "zʌut"],
+    nl: ["zout", "zɑu̯t"],
     af: ["sout", "səut"],
     sv: ["salt", "salt"],
     no: ["salt", "sɑlt"],
@@ -158,11 +158,11 @@ WORDS.salt = {
     ne: ["नुन", "nun"],
     si: ["ලුණු", "luɳu"],
     ta: ["உப்பு", "uppu"],
-    te: ["ఉప్పు", "uppu"],
+    te: ["ఉప్పు", "upːu"],
     ml: ["ഉപ്പ്", "uppɨ"],
     kn: ["ಉಪ್ಪು", "uppu"],
     my: ["ဆား", "sʰá"],
-    km: ["អំបិល", "ʔɑmbəl"],
+    km: ["អំបិល", "ʔɑmɓəl"],
     lo: ["ເກືອ", "kɯa˩˧"],
     tr: ["tuz", "tuz"],
     az: ["duz", "duz"],
@@ -179,11 +179,11 @@ WORDS.salt = {
     mi: ["tote", "tote"],
     sm: ["masima", "masima"],
     ha: ["gishiri", "ɡiʃiriː"],
-    yo: ["iyọ̀", "ijɔ"],
+    yo: ["iyọ̀", "ijɔ̀"],
     zu: ["usawoti", "usaˈwoti"],
-    xh: ["ityuwa", "iˈtjuwa"],
+    xh: ["ityuwa", "icuːwa"],
     so: ["cusbo", "ʕusbo"],
-    mg: ["sira", "sirə"],
+    mg: ["sira", "sira"],
 
     // --- Romance, sal all the way down ----------------------------------
     es_ar: ["sal", "sal"],
@@ -370,8 +370,8 @@ WORDS.salt = {
     zh_db: ["盐", "jɛn˧˥"],
     zh_tj: ["盐", "jɛn˦˥"],
     zh_sc: ["盐", "iɛn˨˩"],
-    zh_cd: ["盐", "jɛn˨˩"],
-    zh_cq: ["盐", "jɛn˨˩"],
+    zh_cd: ["盐", "iɛn˨˩"],
+    zh_cq: ["盐", "iɛn˨˩"],
     zh_wh: ["盐", "iɛn˨˩˧"],
     zh_zz: ["盐", "ian˦˨"],
     zh_kf: ["盐", "ian˦˨"],
@@ -623,7 +623,7 @@ WORDS.salt = {
     // --- Sinitic: 鹽 is 陽平 — tone taken from each row's own 鱼 ---------
     zh_nj: ["盐", "iɛn˨˦"],
     zh_hf: ["盐", "iĩ˥˥"],
-    zh_jh: ["盐", "iɛn˧˥"],
+    zh_jh: ["盐", "ian˩˧"],
     cdo: ["盐", "sieŋ˥˧"],
     mnp: ["盐", "iŋ˧˧"],
     cpx: ["盐", "iɛŋ˩˧"],

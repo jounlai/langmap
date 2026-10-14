@@ -132,9 +132,9 @@ WORDS.butterfly = {
     zh: ["蝴蝶", "xu˧˥ tjɛ˧˥"],  // Bisyllabic 蝴蝶 húdié; WOLD glosses it hu2-die2 '[Western.Barbarians-moth/butterfly]'. Moth is 蛾 é.
     hi: ["तितली", "tɪtliː"],
     bn: ["প্রজাপতি", "pɾodʒapoti"],  // Sanskrit loan prajāpati 'lord of creatures'.
-    ta: ["வண்ணத்துப்பூச்சி", "vaɳːatːupːuːtʃːi"],  // Compound of vaṇṇam 'colour' + pūcci 'insect'.
+    ta: ["வண்ணத்துப்பூச்சி", "ʋaɳːat̪ːupːuːtʃːi"],  // Compound of vaṇṇam 'colour' + pūcci 'insect'.
     ml: ["ചിത്രശലഭം", "tʃitraɕalabʰam"],  // Sanskrit compound citra 'variegated' + śalabha 'moth, grasshopper'.
-    te: ["సీతాకోకచిలుక", "siːtaːkoːkatʃiluka"],
+    te: ["సీతాకోకచిలుక", "siːt̪aːkoːkatʃiluka"],
     en: ["butterfly", "ˈbʌtəflaɪ"],  // Opaque compound 'butter' + 'fly', from Old English butorflēoge; WOLD glosses it 'BUTTER + FLY'.
     de: ["Schmetterling", "ˈʃmɛtɐlɪŋ"],  // From East Central German Schmetten 'cream' (cf. Czech smetana) — the same milk-thief folk belief behind English butterfly.
     fr: ["papillon", "papijɔ̃"],  // From Latin papilio.
@@ -145,7 +145,7 @@ WORDS.butterfly = {
     ro: ["fluture", "ˈfluture"],  // WOLD rates fluture 'perhaps borrowed'; it is cognate with Albanian flutur.
     la: ["pāpiliō", "paːˈpɪlioː"],  // Reduplicative *pal-pal- shape; ancestor of French papillon and Catalan papallona.
     ru: ["бабочка", "ˈbabətɕkə"],  // Diminutive of баба 'old woman'; Vasmer links it to a belief that the dead return as butterflies.
-    uk: ["метелик", "meˈtelɪk"],  // East/West Slavic *motylь root, unlike Russian бабочка.
+    uk: ["метелик", "meˈtɛɫek"],  // East/West Slavic *motylь root, unlike Russian бабочка.
     be: ["матыль", "maˈtɨlʲ"],  // Slavic *motylь.
     pl: ["motyl", "ˈmɔtɨl"],  // Slavic *motylь; Russian бабочка and Bulgarian пеперуда are separate formations.
     cs: ["motýl", "ˈmotiːl"],  // Slavic *motylь.
@@ -445,7 +445,7 @@ WORDS.butterfly = {
     ja_kyo: ["蝶", "tɕoː"],
     ja_hir: ["蝶", "tɕoː"],
     jvn: ["kupu", "kupu"],
-    zh_lz: ["叶蝶子", "jə˩˧ tiɛ˥˧ tsɨ"],
+    zh_lz: ["叶蝶子", "jə˩˧ tiɛ˧˩ tsɨ"],
     wuu_nb: ["蝴蝶", "ɦu˨˩˧ diɪʔ˩˨"],
     wuu_sz: ["蝴蝶", "ɦəu˨˨˧ diɪʔ˧"],
     nan_qz: ["尾蝶", "bə˥˥˦ iaʔ˨˦"],
@@ -667,7 +667,7 @@ WORDS.butterfly = {
     en_au: ["butterfly", "ˈbɐɾəflɑɪ"],
     en_sco: ["butterfly", "ˈbʌtəɹflaɪ"],
     en_sg: ["butterfly", "ˈbatəflaɪ"],
-    en_aave: ["butterfly", "ˈbʌɾɚflaː"],
+    en_aave: ["butterfly", "ˈbʌɾəflaː"],
     ksw: ["ဆီကပ့ၤ", "so̰ka̰pè"],
     pt_br: ["borboleta", "boʁboˈletɐ"],
     en_yk: ["butterfly", "ˈbʊtəflaɪ"],
@@ -904,6 +904,7 @@ WORDS.butterfly = {
     zh_hf: ["蝴蝶", "xʉ˥˥ tʰiɐʔ˦"],
     enq: ["kuli kambilyo", "kuli kambiʎo"],
     acw: ["فراشة", "faraːʃa"],
-    har: ["aḥmära kitāb", "ɑħmərɑ kitaːb"]
+    har: ["aḥmära kitāb", "ɑħmərɑ kitaːb"],
+    zh_jh: ["蝴蝶", "xu˩˧ tieʔ˥˥"]
   },
 };

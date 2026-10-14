@@ -63,6 +63,7 @@ WORDS.bear = {
     sw: "Dubu — mnyama mkubwa wa familia ya Ursidae. Nusu ya lugha za Kihindi-Ulaya ziliacha neno la asili kwa kuhofia kwamba kulitaja jina lake ni kumwita, zikaanza kumwita «yule wa kahawia» au «mlaji wa asali».",
   },
   family: {
+    ny: "unknown",
     cro: "inherited",
     lhu: "inherited",
     pwo: "inherited",
@@ -957,6 +958,7 @@ WORDS.bear = {
     unknown: { color: "#94a3b8", emoji: "❓", en: "not yet determined", ja: "未判定", ko: "미판정", zh: "尚未判定", yue: "重未判定", vi: "chưa xác định", th: "ยังไม่ระบุ", id: "belum ditentukan", hi: "अनिर्धारित", de: "noch offen", fr: "non déterminé", it: "non determinato", es: "sin determinar", pt: "por determinar", ru: "не определено", uk: "не визначено", ar: "لم يُحدَّد بعد", he: "טרם נקבע", sw: "haijabainishwa" },
   },
   data: {
+    ny: ["chimbalangondo", "tʃimbalaŋɡondo"],
     cro: ["daxpitchée", "daχpittʃéː"],
     lhu: ["yɛ̀-mí-tɔ̄", "jɛ̀mítɔ̏"],
     pwo: ["ဖုၫထၫ့", "pʰɯ tʰaɴ"],
@@ -1219,7 +1221,7 @@ WORDS.bear = {
     abs: ["beruang", "bəruaŋ"],
     ho: ["bea", "bea"],
     fj: ["bea", "mbea"],
-    mg: ["bera", "beɾa"],
+    mg: ["bera", "bera"], // was ["bera", "beɾa"] (vi dialect rules 2026-10-06)
     kha: ["dngiem", "dŋiem"],
     sg: ["urse", "urse"],
     lg: ["eddubu", "edːubu"],
@@ -1270,7 +1272,7 @@ WORDS.bear = {
     pt: ["urso", "ˈuɾsu"],
     pt_br: ["urso", "ˈuʁsu"], // was ["urso", "ˈuɾsu"] (vi dialect rules 2026-10-06)
     ru: ["медведь", "mʲɪdˈvʲetʲ"],
-    uk: ["ведмідь", "wɛdˈmidʲ"],
+    uk: ["ведмідь", "ʋedˈmʲidʲ"], // was ["ведмідь", "wɛdˈmidʲ"] (vi dialect rules 2026-10-06)
     ar: ["دب", "dubb"],
     he: ["דוב", "dov"],
     sw: ["dubu", "ˈdubu"],
@@ -1299,7 +1301,7 @@ WORDS.bear = {
     hy_grab: ["արջ", "ɑrdʒ"],
     // Punjabi and Gujarati keep the ṛkṣa reflex where Hindi prefers भालू.
     pa: ["ਰਿੱਛ", "ɾɪttʃʰ"], // was ["ਰਿੱਛ", "rɪtʃʰ"] (vi dialect rules 2026-10-06)
-    gu: ["રીંછ", "rĩːtʃʰ"],
+    gu: ["રીંછ", "ɾĩtʃʰ"], // was ["રીંછ", "rĩːtʃʰ"] (vi dialect rules 2026-10-06)
     mr: ["अस्वल", "əsʋəl"],
 
     // --- Indo-European: the euphemisms --------------------------------
@@ -1399,7 +1401,7 @@ WORDS.bear = {
     ta: ["கரடி", "kaɾaɖi"],
     ml: ["കരടി", "kaɾaɖi"],
     kn: ["ಕರಡಿ", "kaɾaɖi"],
-    te: ["ఎలుగుబంటి", "eluɡubanʈi"],
+    te: ["ఎలుగుబంటి", "eluɡubaɳʈi"], // was ["ఎలుగుబంటి", "eluɡubanʈi"] (vi dialect rules 2026-10-06)
 
     // --- Semitic: *dubb- straight through -----------------------------
     psem: ["*dubb-", "dubb"],
@@ -1447,7 +1449,7 @@ WORDS.bear = {
     xqa: ["adhığ", "aðɯɣ"],
     ota: ["آیی", "aˈjɯ"],
     tr: ["ayı", "aˈjɯ"],
-    az: ["ayı", "aˈjɯ"],
+    az: ["ayı", "ɑˈjɯ"], // was ["ayı", "aˈjɯ"] (vi dialect rules 2026-10-06)
     gag: ["ayı", "aˈjɯ"],
     crh: ["ayuv", "ajuw"],
     tk: ["aýy", "ajɯ"],
@@ -1703,7 +1705,7 @@ WORDS.bear = {
     zh_lz: ["熊", "ɕyŋ˥˧"],
     zh_nj: ["熊", "ɕioŋ˨˦"],
     zh_hf: ["熊", "ɕiəŋ˥˥"],
-    zh_jh: ["熊", "ɕioŋ˧˥"],
+    zh_jh: ["熊", "ɕioŋ˩˧"], // was ["熊", "ɕioŋ˧˥"] (vi dialect rules 2026-10-06)
 
     // --- 2026-08-31, the bear agent's South America pass
     // (~/langmap-work/bear2/out_americas3.tsv has the source per row). Only the

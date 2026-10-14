@@ -108,7 +108,7 @@ WORDS.woof = {
     "ml": ["ബൗ ബൗ", "bau bau"],
     "mn": ["хав хав", "xaw xaw"],  // mn.wiktionary хав, sense V: "хав хав аялга (нохой зэрэг амьтан хуцах аялга)" — the bark of a dog; IPA [xaw] as given there. A reader suggested хов хов (2026-10-09); mn.wiktionary хов has no bark sense (gossip / an intensifier), so the cell stays.
     "mr": ["भो भो", "bʱoː bʱoː"],
-    "ms": ["gonggong", "ɡɔŋɡɔŋ"],
+    "ms": ["gonggong", "ˈɡoŋɡoŋ"],
     "ne": ["भौ भौ", "bʱʌu bʱʌu"],
     "nl": ["waf waf", "ʋɑf ʋɑf"],
     "no": ["voff voff", "vɔf vɔf"],
@@ -132,7 +132,7 @@ WORDS.woof = {
     "tl": ["aw aw", "ʔaw ʔaw"],
     "paus": ["*qawqaw", "qawqaw"],  // Proto-Austronesian (ACD/Blust, set 27685) — reflex: Tagalog aw-aw; reconstructed sound-symbolic form
     "tr": ["hav hav", "hav hav"],
-    "uk": ["гав-гав", "ɦɑu ɦɑu"],
+    "uk": ["гав-гав", "ɦau̯ ɦau̯"],
     "ur": ["بھَو بھَو", "bʱəʊ bʱəʊ"],
     "uz": ["vov-vov", "vɒv vɒv"],
     "vi": ["gâu gâu", "ɣəw˧ ɣəw˧"],
@@ -240,7 +240,7 @@ WORDS.woof = {
     zh_sc: ["汪汪", "uaŋ˥ uaŋ˥"],
     zh_cq: ["汪汪", "waŋ˥ waŋ˥"],
     zh_xa: ["汪汪", "vaɣ̃˨˩ vaɣ̃˨˩"],
-    zh_cd: ["汪汪", "wan˥˥ wan˥˥"],
+    zh_cd: ["汪汪", "waŋ˥˥ waŋ˥˥"],
     ja_osa: ["ワンワン", "waɴwaɴ"],
     ko_bus: ["멍멍", "mʌŋmʌŋ"],
     vi_han: ["狺狺", "ŋən˧˧ ŋən˧˧"],

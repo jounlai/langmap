@@ -98,7 +98,7 @@ WORDS.chocolate = {
     ro: ["ciocolată", "tʃokoˈlatə"],
     ca: ["xocolata", "ʃukuˈlatə"],
     ru: ["шоколад", "ʂəkɐˈɫat"],
-    uk: ["шоколад", "ʃokoˈlad"],
+    uk: ["шоколад", "ʃɔkɔˈɫad"],
     pl: ["czekolada", "tʂɛkɔˈlada"],
     cs: ["čokoláda", "ˈtʃokolaːda"],
     bg: ["шоколад", "ʃokoˈlat"],
@@ -110,7 +110,7 @@ WORDS.chocolate = {
     fi: ["suklaa", "ˈsuklɑː"],
     hu: ["csokoládé", "ˈtʃokolaːdeː"],
     tr: ["çikolata", "tʃikoˈlata"],
-    az: ["şokolad", "ʃokoˈlad"],
+    az: ["şokolad", "ʃɑkɑˈlɑt"],
     eu: ["txokolate", "tʃokolate"],
     ja: ["チョコレート", "tɕokoɾeːto"],
     ko: ["초콜릿", "tɕʰokʰolːit̚"],
@@ -146,7 +146,7 @@ WORDS.chocolate = {
     wuu: ["巧克力", "tɕʰiɔ˧˥ kʰəʔ˥ liɪʔ˩˨"],
     zh_tw: ["巧克力", "tɕʰjɑʊ˧˩˧ kʰɤ˥˩ li˥˩"],
     vi: ["sô-cô-la", "so˧ ko˧ laː˧"],
-    th: ["ช็อกโกแลต", "tɕʰɔk˦˥koːlɛːt˦˥"],
+    th: ["ช็อกโกแลต", "tɕʰɔk˦˥koː˧lɛt˦˥"],
     // Laos changed carrier with its prestige language. Kerr (1972) and Patterson
     // (1995) both give ໂຊໂກລາ and both label it FRENCH; modern Lao replaced that
     // with this English/Thai-shaped form. Spelling settled on evidence, not a
@@ -186,8 +186,8 @@ WORDS.chocolate = {
     bn: ["চকোলেট", "tʃokolɛʈ"],
     ur: ["چاکلیٹ", "ˈtʃaːkleːʈ"],
     ne: ["चकलेट", "tsʌkleʈ"],
-    ta: ["சாக்லேட்", "ˈtʃaːkleːʈ"],
-    te: ["చాక్లెట్", "ˈtʃaːkleʈ"],
+    ta: ["சாக்லேட்", "tʃaːkleːʈ"],
+    te: ["చాక్లెట్", "tʃaːkleʈ"],
     tg: ["шоколад", "ʃokoˈlad"],
     kk: ["шоколад", "ʃokɐˈlat"],
     ky: ["шоколад", "ʃokoˈlad"],

@@ -1056,7 +1056,7 @@ WORDS.blue = {
     ks: ["نیٛوٗل", "nʲuːl"],
     gcr: ["blé", "ble"],
     slr: ["gök", "køk"], // was ["gök", "ɡøk"] (vi dialect rules 2026-10-06)
-    om: ["cuquliisa", "tʃukʼuliːsa"],
+    om: ["cuquliisa", "tʃʼukʼuliːsa"], // was ["cuquliisa", "tʃukʼuliːsa"] (vi dialect rules 2026-10-06)
     pqm: ["musqonocihte", "muskʷonotʃihte"],
     lwl: ["snga", "sᵊŋa"],
     brh: ["خرن", "xarːun"],
@@ -1169,7 +1169,7 @@ WORDS.blue = {
     kry: ["yeksərğur", "jeksærʁur"],
     kbd: ["щхъуантӏэ", "ɕχʷaːntʼa"], // was ["шхъуантӏэ", "ʃχʷaːntʼa"] (r29 fix 2026-10-02)
     lmo: ["blö", "blø"],
-    am: ["ሰማያዊ", "sɐmajawi"],
+    am: ["ሰማያዊ", "səmajawi"], // was ["ሰማያዊ", "sɐmajawi"] (vi dialect rules 2026-10-06)
     ar_tn: ["أزرق", "ˈazɾaq"],
     ar_ma: ["زرق", "zrəq"], // was ["زرق", "zɾəq"] (vi dialect rules 2026-10-06)
     ar_sy: ["أزرق", "ˈʔazraʔ"],
@@ -1226,7 +1226,7 @@ WORDS.blue = {
     zh_cd: ["蓝", "nan˨˩"],
     zh_db: ["蓝", "lan˧˥"],
     zh_lz: ["蓝", "lɛn˥˧"],
-    zh_jh: ["蓝", "lã˧˥"],
+    zh_jh: ["蓝", "lan˩˧"], // was ["蓝", "lã˧˥"] (vi dialect rules 2026-10-06)
     zh_hf: ["蓝", "læ̃˥˥"],
     zh_nj: ["蓝", "lan˨˦"],
     zh_tj: ["蓝", "lan˦˥"],
@@ -1684,7 +1684,7 @@ WORDS.blue = {
     pmy: ["biru", "ˈbiɾu"],  // IPA taken verbatim from Kluge's own transcription, which already matches the row's style (row red: merah/ˈmeɾa). Kluge also records reduplicated biru~biru 'be very blue' (p. 212) and nyonyor 'be black and blue' (p. 582).
     pon: ["mei", "mei"],  // Green is expressed by the separate compounds pohndihpw / pohntehndipw ('on-grass', 'on-leaf'); blue is the simple stem mei. Distinct from mei 'breadfruit' and Mei₁ 'May' (< English).
     prg: ["galimban", "ɡaˈlimban"],  // Old Prussian galimban against zal'an 'green'; attested in the Elbing vocabulary.
-    prs: ["آبی", "ɑːbi"],  // Dari آبی against سبز, as in Iranian Persian.
+    prs: ["آبی", "ɑːbiː"],  // Dari آبی against سبز, as in Iranian Persian. // was ["آبی", "ɑːbi"] (vi dialect rules 2026-10-06)
     ps: ["شین", "ʃin"],  // Pashto شین covers blue and green alike — it is the word for the sky and for growing crops; زرغون is the narrower green. NorthEuraLex gives شین for blue with اسماني رنګه 'sky-coloured' as the disambiguating alternative.
     pt: ["azul", "ɐˈzuɫ"],  // azul vs verde; same Arabic etymology as Spanish.
     pwn: ["cangiangia", "tsaŋiaŋia"],  // 北排灣語 (Northern Paiwan), the variety the row's qudjidjilj/vuqavuqalj come from; cangiangia matches their reduplicated '…色的' shape. Class is INFERRED, not stated: the same dictionary keeps green separate (matjak 綠色/深綠, liljualjuas 綠色的, quljangas 青綠色) and the cangia example is about the sky, so blue looks distinct from green here. Caveat worth flagging: Paiwan cangia, Puyuma tremangiya and Amis tangiya '(pale) blue' resemble one another; I found no etymology for them in the ACD, so the possibility that this is a shared loan (which would make the class `borrowed`) is unresolved.
@@ -1761,7 +1761,7 @@ WORDS.blue = {
     tzo: ["yox", "joʃ"],  // WOLD's transcription yosh = yox in the standard Tzotzil orthography of this row's tsajal / sak / ikʼal.
     udi: ["гогин", "ɡoˈɡin"],  // Udi гогин vs йаьшил (the green is an Azerbaijani loan, yaşıl).
     udm: ["лыз", "lɨz"],  // Udmurt лыз vs вож; чагыр is the lighter sky-blue.
-    uk: ["синій", "ˈsɪnʲij"],  // синій vs зелений; Ukrainian also has блакитний for light blue, parallel to Russian голубой.
+    uk: ["синій", "ˈsɪnʲii̯"],  // синій vs зелений; Ukrainian also has блакитний for light blue, parallel to Russian голубой. // was ["синій", "ˈsɪnʲij"] (vi dialect rules 2026-10-06)
     ur: ["نیلا", "niːlaː"],  // Urdu نیلا against سبز.
     uz: ["zangori", "zaŋɡɒˈri"],  // Uzbek zangori (a Persian loan, zangār) vs yashil; ko'k survives as 'sky' and in ko'kat 'greens', the old grue term.
     vai: ["dsiron", "dʒiron"],  // The class is explicitly sourced — Koelle's single gloss is 'blue, green'. What is uncertain is the surface: this is Koelle's 1854 transcription (ds = /dʒ/, trailing hyphen marks a bound stem) and no modern Vai spelling was found to confirm it. Do not publish the form without a modern check.

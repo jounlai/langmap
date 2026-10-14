@@ -1379,7 +1379,7 @@ WORDS.we = {
     sbp: ["ose", "ose"],
     rwk: ["ise", "ise"],
     asu: ["uswi", "uswi"],
-    tl: ["tayo / kami", "ˈtaːjo / kaˈmi"],
+    tl: ["tayo / kami", "ˈtajo / kaˈmi"], // was ["tayo / kami", "ˈtaːjo / kaˈmi"] (vi dialect rules 2026-10-06)
     agt: ["ikitam / ikami", "ʔikitam / ʔikami"], // was ["sikitam / sikami", "sikitam / sikami"] (vi dialect rules 2026-10-06)
     itb: ["yaten / yamen", "jatɨn / jamɨn"],
     ivv: ["yaten / yamen", "jatɨn / jamɨn"],

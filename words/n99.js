@@ -1185,7 +1185,7 @@ WORDS.n99 = {
     pag: ["siamaplo tan siam", "siamaˈplo tan siˈam"],
     pam: ["siam apuluʼt siam", "siˈam ʔaˈpulut siˈam"],
     ilo: ["siam a pulo ket siam", "siˈam a ˈpulo ket siˈam"],
-    mg: ["sivy amby sivifolo", "sivʲ ambʲ siviˈfulu"],
+    mg: ["sivy amby sivifolo", "sivi ambi siviˈfulu"], // was ["sivy amby sivifolo", "sivʲ ambʲ siviˈfulu"] (vi dialect rules 2026-10-06)
     vi_c: ["chín mươi chín", "cin˨˦ mɨəj˥ cin˨˦"], // was ["chín mươi chín", "tɕiːn˧˥ mɨəj˧ tɕiːn˧˥"] (vi dialect rules 2026-10-06)
     vi_s: ["chín mươi chín", "cɨn˧˥ mɨj˧ cɨn˧˥"], // was ["chín mươi chín", "cɨn˧˥ mɨəj˧ cɨn˧˥"] (vi dialect rules 2026-10-06)
     awa: ["निन्नान्बे", "ninːaːnbeː"], // was ["निन्नानबे", "ninːaːnbe"] (vi dialect rules 2026-10-06)
@@ -1283,7 +1283,7 @@ WORDS.n99 = {
     kru: ["नायदोय नाय", "naːjdoj naːj"],
     brh: ["نود و نه", "navad o noh"],
     kn: ["ತೊಂಬತ್ತೊಂಬತ್ತು", "tombatːombatːu"],
-    te: ["తొంభై తొమ్మిది", "t̪ombʱai t̪omːidi"],
+    te: ["తొంభై తొమ్మిది", "t̪ombʱai t̪omːid̪i"], // was ["తొంభై తొమ్మిది", "t̪ombʱai t̪omːidi"] (vi dialect rules 2026-10-06)
     mnp: ["九十九", "kiu˨˩ si˥˦ kiu˨˩"],
     cdo: ["九十九", "kau˧˧ sɛiʔ˥ kau˧˧"],
     gan: ["九十九", "tɕiu˨˩˧ sɨt˨ tɕiu˨˩˧"], // was ["九十九", "tɕiu˨˩˧ sɨʔ˨ tɕiu˨˩˧"] (vi dialect rules 2026-10-06)
@@ -1297,12 +1297,12 @@ WORDS.n99 = {
     zh_lz: ["九十九", "tɕiou˦˦˨ ʂɨ˥˧ tɕiou˦˦˨"],
     zh_zz: ["九十九", "tɕiou˥˧ ʂʅ˦˨ tɕiou˥˧"], // was ["九十九", "tɕiəu˥˧ ʂʅ˦˨ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     zh_db: ["九十九", "tɕjoʊ̯˧˩˧ ʂʐ̩˧˥ tɕjoʊ̯˧˩˧"],
-    zh_jh: ["九十九", "tɕiɤɯ˨˩˦ ʂʅʔ˥˥ tɕiɤɯ˨˩˦"],
+    zh_jh: ["九十九", "tɕiəu˨˩˨ ʂʅʔ˥˥ tɕiəu˨˩˨"], // was ["九十九", "tɕiɤɯ˨˩˦ ʂʅʔ˥˥ tɕiɤɯ˨˩˦"] (vi dialect rules 2026-10-06)
     zh_sc: ["九十九", "tɕiəu˥˧ sɹ̩˨˩ tɕiəu˥˧"], // was ["九十九", "tɕiəu˥˧ sɿ˨˩ tɕiəu˥˧"] (vi dialect rules 2026-10-06)
     glk: ["نود و نه", "nəvəd o no"],
     lrc: ["نود و نه", "nʌwʌd o no"],
     haz: ["نود و نه", "nawad u no"],
-    prs: ["نود و نه", "nawad u no"],
+    prs: ["نود و نه", "nawad u noh"], // was ["نود و نه", "nawad u no"] (vi dialect rules 2026-10-06)
     thr: ["निन्यानवे", "ninjaːnəʋe"],
     pnb: ["نڑھنویں", "nəɽɦɪnʋẽː"], // was ["ننانوے", "nənaːnʋeː"] (vi dialect rules 2026-10-06)
     pms: ["novanteneuv", "nuvanteˈnøw"], // was ["novanteneuv", "nuvanteˈnøv"] (vi dialect rules 2026-10-06)
@@ -1334,7 +1334,7 @@ WORDS.n99 = {
     fr: ["quatre-vingt-dix-neuf", "katʁəvɛ̃diznœf"], // was ["quatre-vingt-dix-neuf", "katʁəvɛ̃disnœf"] (vi dialect rules 2026-10-06)
     fr_be: ["nonante-neuf", "nɔnɑ̃tnœf"],
     es:    ["noventa y nueve", "noˈβenta i ˈnweβe"],
-    it:    ["novantanove", "novantaˈnove"],
+    it: ["novantanove", "novantaˈnɔve"], // was ["novantanove", "novantaˈnove"] (vi dialect rules 2026-10-06)
     da:    ["nioghalvfems", "ˈniɔhalˀfɛms"],
     sv:    ["nittionio", "ˈnɪtːiuˌniːu"],
     is:    ["níutíu og níu", "ˈniːʏtʰiːʏ ɔɣ ˈniːʏ"],
@@ -1359,7 +1359,7 @@ WORDS.n99 = {
     hu:    ["kilencvenkilenc", "ˈkilɛntsvɛnˌkilɛnts"],
     fi:    ["yhdeksänkymmentäyhdeksän", "ˈyhdeksænˌkymmentæˌyhdeksæn"],
     la:    ["ūndēcentum", "uːndeːˈkentum"],
-    yo:    ["ọ̀kàndínlọ́gọ́rùn-ún", "ɔ̀kãdĩ́lɔ́ɡɔ́ɾṹṹ"],
+    yo: ["ọ̀kàndínlọ́gọ́rùn-ún", "ɔ̀kã̀dĩ́lɔ́ɡɔ́ɾũ̀ṹ"], // was ["ọ̀kàndínlọ́gọ́rùn-ún", "ɔ̀kãdĩ́lɔ́ɡɔ́ɾṹṹ"] (vi dialect rules 2026-10-06)
     sq:    ["nëntëdhjetë e nëntë", "nəntəˈðjetə e ˈnəntə"],
     el:    ["ενενήντα εννέα", "eneˈninda eˈnea"],
     hy: ["իննսունինը", "innəsuˈninə"], // was ["իննսունինը", "innsuˈninə"] (vi dialect rules 2026-10-06)
@@ -1368,15 +1368,15 @@ WORDS.n99 = {
     fa:    ["نود و نه", "næˈvæd o noh"],
     he:    ["תשעים ותשע", "tiʃˈʔim veˈteʃa"],
     lt:    ["devyniasdešimt devyni", "dʲɛvʲɪnʲɛsˈdʲɛʃʲɪmt dʲɛˈvʲɪnʲi"],
-    uk:    ["дев'яносто дев'ять", "dewjɐˈnɔstɔ ˈdɛwjɐtʲ"],
+    uk: ["дев'яносто дев'ять", "deʋjɐˈnɔstɔ ˈdɛʋjɐtʲ"], // was ["дев'яносто дев'ять", "dewjɐˈnɔstɔ ˈdɛwjɐtʲ"] (vi dialect rules 2026-10-06)
     cs:    ["devadesát devět", "ˈdɛvadɛsaːt ˈdɛvjɛt"],
     ro:    ["nouăzeci și nouă", "nowəˈzetʃʲ ʃi ˈnowə"],
     bg: ["деветдесет и девет", "dɛvɛddɛˈsɛt i ˈdɛvɛt"], // was ["деветдесет и девет", "devedeˈset i ˈdevet"] (vi dialect rules 2026-10-06)
     kk:    ["тоқсан тоғыз", "toqˈsan toˈʁəz"],
-    km:    ["កៅសិបប្រាំបួន", "kawsəp praːmɓuən"],
+    km: ["កៅសិបប្រាំបួន", "kawsəp pramɓuən"], // was ["កៅសិបប្រាំបួន", "kawsəp praːmɓuən"] (vi dialect rules 2026-10-06)
     ms:    ["sembilan puluh sembilan", "səmbilan puluh səmbilan"],
     id:    ["sembilan puluh sembilan", "səmbilan puluh səmbilan"],
-    ta:    ["தொண்ணூற்று ஒன்பது", "toɳɳuːtru onbad̪u"],
+    ta: ["தொண்ணூற்று ஒன்பது", "t̪oɳɳuːtru onbad̪u"], // was ["தொண்ணூற்று ஒன்பது", "toɳɳuːtru onbad̪u"] (vi dialect rules 2026-10-06)
     ur:    ["ننانوے", "nənaːnəʋeː"],
     wo:    ["juróom-ñeenti fukk ak juróom-ñeent", "dʒuˈroːmɲeːnti fukː ak dʒuˈroːmɲeːnt"],
     am:    ["ዘጠና ዘጠኝ", "zətʼəna zətʼəɲː"],

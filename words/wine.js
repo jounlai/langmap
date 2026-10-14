@@ -1188,7 +1188,7 @@ WORDS.wine = {
     pt: ["vinho", "ˈviɲu"],
     pt_br: ["vinho", "ˈvĩɲu"], // was ["vinho", "ˈviɲu"] (vi dialect rules 2026-10-06)
     ru: ["вино", "vʲɪˈno"],
-    uk: ["вино", "ʋɪˈnɔ"],
+    uk: ["вино", "ʋeˈnɔ"], // was ["вино", "ʋɪˈnɔ"] (vi dialect rules 2026-10-06)
     ar: ["نبيذ", "nabiːð"],
     he: ["יין", "ˈjajin"],
     sw: ["mvinyo", "mˈviɲo"],
@@ -1267,14 +1267,14 @@ WORDS.wine = {
 
     // --- Asia, Africa ----------------------------------------------------
     tr: ["şarap", "ʃaˈɾap"],
-    az: ["şərab", "ʃæˈɾab"],
+    az: ["şərab", "ʃæˈɾɑb"], // was ["şərab", "ʃæˈɾab"] (vi dialect rules 2026-10-06)
     fa: ["شراب", "ʃæˈɾɒːb"],
     tg: ["шароб", "ʃarob"],
     ur: ["شراب", "ʃəɾaːb"], // was ["شراب", "ʃəraːb"] (vi dialect rules 2026-10-06)
     bn: ["ওয়াইন", "o̯ai̯n"], // was ["মদ", "mɔd"] (r29 fix 2026-10-02)
     mr: ["वाईन", "ʋaːiːn"],
     ta: ["வைன்", "ʋaɪn"], // was ["மது", "mad̪u"] (r33 fix 2026-10-02)
-    te: ["ద్రాక్షారసం", "d̪raːkʂaːrasam"],
+    te: ["ద్రాక్షారసం", "d̪ɾaːkʂaːɾasam"], // was ["ద్రాక్షారసం", "d̪raːkʂaːrasam"] (vi dialect rules 2026-10-06)
     ml: ["വീഞ്ഞ്", "ʋiːɲːɨ"],
     kn: ["ವೈನ್", "ʋain"],
     si: ["වයින්", "ʋajin"],
@@ -1369,7 +1369,7 @@ WORDS.wine = {
     en_em: ["wine", "wəin"],
     en_south: ["wine", "waːn"],
     en_app: ["wine", "waɪn"],
-    en_aave: ["wine", "waɪn"],
+    en_aave: ["wine", "waːn"], // was ["wine", "waɪn"] (vi dialect rules 2026-10-06)
     en_in: ["wine", "ʋaɪn"],
     en_sg: ["wine", "waɪn"],
     en_ph: ["wine", "waɪn"],
@@ -1468,7 +1468,7 @@ WORDS.wine = {
     ti: ["ወይኒ", "wɐjni"],
     lzz: ["ღვინი", "ɣvini"],
     mt: ["inbid", "ɪmˈbiːt"], // was ["inbid", "ɪnˈbiːt"] (vi dialect rules 2026-10-06)
-    ar_lev: ["نبيذ", "nabiːð"],
+    ar_lev: ["نبيد", "nbiːd"], // was ["نبيذ", "nabiːð"] (vi dialect rules 2026-10-06)
     ar_sd: ["خمرة", "xamra"], // was ["نبيذ", "nabiːð"] (vi dialect rules 2026-10-06)
 
     // --- Caucasus — the Persian čaɣir word, not the Kartvelian one ----------
@@ -1489,7 +1489,7 @@ WORDS.wine = {
     // --- Iranian -------------------------------------------------------------
     prs: ["شراب", "ʃaˈrɑːb"],
     haz: ["شراب", "ʃaˈrɑːb"],
-    ku: ["şerab", "ʃɛˈɾab"],
+    ku: ["şerab", "ʃɛˈɾɑːb"], // was ["şerab", "ʃɛˈɾab"] (vi dialect rules 2026-10-06)
     ckb: ["شەراب", "ʃɛˈɾɑːb"],
     ps: ["شراب", "ʃaˈraːb"],
 
@@ -1628,9 +1628,9 @@ WORDS.wine = {
     ko_jl: ["포도주", "pododʑu"],
     vi_c: ["rượu vang", "ʐɨəw˧˩ vaːŋ˥"], // was ["rượu vang", "ɹɨəw˨˨ vaŋ˧"] (vi dialect rules 2026-10-06)
     vi_s: ["rượu vang", "ɹɨw˨˩˨ jaːŋ˧"], // was ["rượu vang", "ɹɨəw˨˩˨ vaŋ˧"] (vi dialect rules 2026-10-06)
-    my: ["ဝိုင်", "wàiɴ"],
+    my: ["ဝိုင်", "wàɪɴ"], // was ["ဝိုင်", "wàiɴ"] (vi dialect rules 2026-10-06)
     rki: ["စပျစ်ရည်", "səbjaɪʔ ɹè"], // was ["စပျစ်ရည်", "səbjiˀ ɹì"] (r51 audit 2026-10-04)
-    km: ["ស្រាទំពាំងបាយជូរ", "sraː tumpeəŋ ɓaːj cuː"],
+    km: ["ស្រាទំពាំងបាយជូរ", "sraː tumpĕəŋ ɓaːj cuː"], // was ["ស្រាទំពាំងបាយជូរ", "sraː tumpeəŋ ɓaːj cuː"] (vi dialect rules 2026-10-06)
     lo: ["ແວງ", "ʋɛːŋ˧˥"],
     bo: ["རྒུན་ཆང་", "kỹ˩˨tɕaŋ"],
     xct: ["རྒུན་ཆང", "rɡun tɕʰaŋ"],

@@ -417,7 +417,7 @@ WORDS.orange = {
     he: "local",
     tr: "portakal",
     fa: "portakal",
-    prs: "portakal",
+    prs: "local", // route was portakal (vi dialect rules 2026-10-06)
     sw: "local",
     tl: "naranj",
     mn: "local",
@@ -1021,7 +1021,7 @@ WORDS.orange = {
     en_ca: ["orange", "ˈɔɹɪndʒ"],
     en_za: ["orange", "ˈɒɹɪndʒ"], // was ["orange", "ˈɔːɹɪndʒ"] (vi dialect rules 2026-10-06)
     de_ch: ["Orange", "oˈraŋʒə"],
-    pt_ao: ["laranja", "laˈɾɐ̃ʒa"],
+    pt_ao: ["laranja", "laˈɾɐ̃ʒɐ"], // was ["laranja", "laˈɾɐ̃ʒa"] (vi dialect rules 2026-10-06)
     es_ve: ["naranja", "naˈɾaŋha"],
     ca_va: ["taronja", "taˈɾɔɲdʒa"], // was ["taronja", "taˈɾoɲdʒa"] (vi dialect rules 2026-10-06)
     ja: ["オレンジ", "oɾendʑi"],
@@ -1042,7 +1042,7 @@ WORDS.orange = {
     yue: ["橙", "tsʰaːŋ˧˥"], // was ["橙", "tsʰaːŋ˩˧"] (vi dialect rules 2026-10-06)
     nan: ["柑仔", "kam˦˦ ma˥˧"],
     zh_tw: ["柳丁", "ljoʊ̯˧˩˧ tiŋ˥"], // was ["柳丁", "ljoʊ̯˧˩˧ tiŋ"] (vi dialect rules 2026-10-06)
-    wuu: ["橙", "zaŋ˨˧"],
+    wuu: ["橙", "zã˨˧"], // was ["橙", "zaŋ˨˧"] (vi dialect rules 2026-10-06)
     hak_cn: ["柑仔", "kam˦ e˧˩"], // was ["柑仔", "kam˨˦ e˧˩"] (vi dialect rules 2026-10-06)
     vi: ["cam", "kaːm˧"],
     vi_c: ["cam", "kaːm˥"], // was ["cam", "kaːm˧"] (vi dialect rules 2026-10-06)
@@ -1053,7 +1053,7 @@ WORDS.orange = {
     hi: ["संतरा", "sənˈtɾaː"],
     bn: ["কমলা", "kɔmla"], // was ["কমলা", "komla"] (vi dialect rules 2026-10-06)
     ur: ["سنگترہ", "səŋɡtəɾaː"], // was ["سنگترہ", "səŋɡˈtəɾa"] (vi dialect rules 2026-10-06)
-    ta: ["ஆரஞ்சு", "aːɾaɲtʃu"],
+    ta: ["ஆரஞ்சு", "aːɾaɲdʒu"], // was ["ஆரஞ்சு", "aːɾaɲtʃu"] (vi dialect rules 2026-10-06)
     en: ["orange", "ˈɒɹɪndʒ"],
     de: ["Orange", "oˈʁãːʒə"],
     fr: ["orange", "ɔʁɑ̃ʒ"],
@@ -1069,7 +1069,7 @@ WORDS.orange = {
     he: ["תפוז", "taˈpuz"],
     tr: ["portakal", "poɾtaˈkaɫ"],
     fa: ["پرتقال", "poɾteˈɢɒːl"], // was ["پرتقال", "poɾteɣɒːl"] (vi dialect rules 2026-10-06)
-    prs: ["پرتقال", "poɾtaɣɑːl"],
+    prs: ["مالته", "mɑːlta"], // was ["پرتقال", "poɾtaɣɑːl"] (vi dialect rules 2026-10-06)
     sw: ["chungwa", "ˈtʃuŋɡwa"], // was ["chungwa", "tʃuŋɡwa"] (vi dialect rules 2026-10-06)
     tl: ["dalandan", "dalanˈdan"],
     mn: ["жүрж", "dʒyrdʒ"],
@@ -1078,13 +1078,13 @@ WORDS.orange = {
     alt: ["апельсин", "apelʲˈsin"],
     cv: ["апельсин", "apelʲˈsin"],
     bxr: ["жүрж", "dʒyrdʒ"],
-    my: ["လိမ္မော်", "leɪ̯mmɔ̀"],
+    my: ["လိမ္မော်", "lèɪɴmɔ̀"], // was ["လိမ္မော်", "leɪ̯mmɔ̀"] (vi dialect rules 2026-10-06)
     km: ["ក្រូច", "kroːc"],
     lo: ["ໝາກກ້ຽງ", "maːk˧˩kiaŋ˥˨"],
     yo: ["ọsan", "ɔsã"],
     zu: ["iwolintshi", "iwolintʃi"],
     am: ["ብርቱካን", "bɨrtukan"],
-    mg: ["voasary", "vuˈsarʲ"],
+    mg: ["voasary", "vuaˈsari"], // was ["voasary", "vuˈsarʲ"] (vi dialect rules 2026-10-06)
     fi: ["appelsiini", "ˈɑpːelsiːni"],
     hu: ["narancs", "ˈnɒrɒntʃ"],
     el: ["πορτοκάλι", "portoˈkali"],
@@ -1122,15 +1122,15 @@ WORDS.orange = {
     gu: ["નારંગી", "naːˈɾəŋɡiː"],
     si: ["දොඩම්", "doɖam"],
     dv: ["އޮރެންޖު", "orendʒu"],
-    te: ["నారింజ", "naːɾindʒa"],
+    te: ["నారింజ", "naːɾiɲdʒa"], // was ["నారింజ", "naːɾindʒa"] (vi dialect rules 2026-10-06)
     kn: ["ಕಿತ್ತಳೆ", "kitːaɭe"],
     ml: ["ഓറഞ്ച്", "oːraɲdʒɨ"], // was ["ഓറഞ്ച്", "oːɾaɲdʒɨ"] (vi dialect rules 2026-10-06)
     tg: ["афлесун", "afleˈsun"],
-    ku: ["pirteqal", "pɪɾtɛˈqal"],
+    ku: ["pirteqal", "pɪɾtɛˈqɑːl"], // was ["pirteqal", "pɪɾtɛˈqal"] (vi dialect rules 2026-10-06)
     ckb: ["پرتەقاڵ", "pɪɾtɛˈqaːɫ"], // was ["پرتەقاڵ", "pɪɾtɛˈqaɫ"] (vi dialect rules 2026-10-06)
     sdh: ["پرتەقاڵ", "pɪɾtɛˈqaɫ"],
     ps: ["مالټه", "maːlʈa"],
-    az: ["portağal", "poɾtaˈɣal"],
+    az: ["portağal", "poɾtɑˈɣɑl"], // was ["portağal", "poɾtaˈɣal"] (vi dialect rules 2026-10-06)
     azb: ["پرتقال", "poɾtaˈɣal"],
     ug: ["ئاپېلسىن", "ɑpelsin"], // was ["ئاپېلسىن", "apelsin"] (vi dialect rules 2026-10-06)
     kk: ["апельсин", "ɑpelʲˈsin"],
@@ -1152,7 +1152,7 @@ WORDS.orange = {
     ig: ["oroma", "oɾoma"],
     ha: ["lemu", "leːmuː"],
     wo: ["soraas", "soraːs"],
-    so: ["liin", "liːn"],
+    so: ["liin macaan", "liːn maʕaːn"], // was ["liin", "liːn"] (vi dialect rules 2026-10-06)
     rw: ["icunga", "itʃuŋɡa"],
     rn: ["icunga", "itʃuŋɡa"],
     xh: ["iorenji", "iorendʒi"],
@@ -1258,7 +1258,7 @@ WORDS.orange = {
     ks: ["نارنگی", "naːrəŋɡiː"],
     nan_te: ["柑仔", "kam˥˥ ma˥˧"],
     yue_ts: ["橙", "tsʰaːŋ˩˧"],
-    zh_jh: ["橙", "tʂʰɤŋ˧˥"],
+    zh_jh: ["橙", "tsʰəŋ˩˧"], // was ["橙", "tʂʰɤŋ˧˥"] (vi dialect rules 2026-10-06)
     zh_tj: ["橙", "tʂʰɤŋ˦˥"],
     zh_lz: ["橙", "tʂʰɤŋ˥˧"],
     hsb: ["pomeranča", "ˈpɔmɛrantʃa"],

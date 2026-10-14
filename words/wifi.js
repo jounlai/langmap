@@ -89,7 +89,7 @@ WORDS.wifi = {
     th: ["ไวไฟ", "waj˧faj˧"],   // ไว-ไฟ, both mid tone (Wiktionary th-pron)        // ไว-ไฟ (Wiktionary th-pron)
     hi: ["वाई-फ़ाई", "ʋaːiːfaːiː"],
     ru: ["Wi-Fi", "vɐjˈfaj"],      // usually written "Wi-Fi"; вайфай is the informal spelling (Wiktionary ru-IPA вайфа́й)
-    uk: ["Wi-Fi", "ʋɐjˈfɑj"],      // written "Wi-Fi"; вайфай informal
+    uk: ["Wi-Fi", "ʋɐi̯ˈfai̯"],      // written "Wi-Fi"; вайфай informal
     ar: ["واي فاي", "waːjfaːj"],
     he: ["Wi-Fi", "vajfaj"],       // written "Wi-Fi" in Hebrew text
     zh: ["Wi-Fi", "waɪ̯˥ faɪ̯˥˩"],   // Mandarin wāi-fài (Wiktionary zh-pron m=wāifài, /waɪ̯⁵⁵ faɪ̯⁵¹/)
@@ -259,7 +259,7 @@ WORDS.wifi = {
     dty: ["वाइफाइ", "waːipʰaːi"],
     en_app: ["Wi-Fi", "ˈwaɪfaː"],
     ps: ["وای فای", "waːj faːj"],
-    my: ["ဝိုင်ဖိုင်", "wàiɴpʰàiɴ"],
+    my: ["ဝိုင်ဖိုင်", "wàɪɴpʰàɪɴ"],
     tg: ["вай-фай", "vajfaj"],
     am: ["ዋይ-ፋይ", "wajfaj"],
     sl: ["Wi-Fi", "ˈʋiːˈfiː"],

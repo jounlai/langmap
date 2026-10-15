@@ -489,7 +489,7 @@ WORDS.new = {
     yai: ["nawa", "ˈnawa"],
     shp: ["bena", "bɨna"],
     pam: ["bayu", "ˈbaju"],
-    pag: ["balo", "balo"],
+    pag: ["balo", "ˈbalo"],
     mdh: ["bagu", "baˈɡu"],
     gor: ["bohu", "bohu"],
     mak: ["beru", "ˈberu"],

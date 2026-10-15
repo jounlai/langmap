@@ -521,7 +521,7 @@ WORDS.i = {
       ani: ["ден", "dẽ"],
       bdk: ["зын", "zɨn"],
       sdo: ["aku", "aku"],
-      dbl: ["ngaja", "ŋaɟa"],
+      dbl: ["ngaja", "ˈŋaɟa"],
       nrf_gg: ["jé", "ʒe"],
       fra_jer: ["jé", "ʒe"],
       gsw_w: ["ich", "ɪç"],

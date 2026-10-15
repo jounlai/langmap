@@ -813,7 +813,7 @@ WORDS.orange = {
     tll: ["ɔranjɛ", ""],
     lue: ["lilalanja", ""],
     bla: ["áótahkóínaamm", "áótaxkóínaːmː"],
-    ter: ["naranga", "naɾaŋɡa"],
+    ter: ["naranga", "ˈnaɾaŋɡa"],
     xkz: ["tshalu", "tsʰalu"],
     mix: ["tikuaa", "tikʷàá"], // was ["tikuaa", "tikwàá"] (vi dialect rules 2026-10-06)
     mev: ["gɛ̄ŋ́", "ɡɛ˧ŋ˥"],

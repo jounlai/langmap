@@ -1035,7 +1035,7 @@ WORDS.green = {
     mev: ["béìzɛ̀", "be˥i˩zɛ˩"],
     tsz: ["xunhupiti", "ʃuŋupiti"],
     ssy: ["andharh", "anɖaɽ"],
-    ter: ["hononoʼiti", "hononoʔiti"],
+    ter: ["hononoʼiti", "honoˈnoʔiti"],
     zh_han: ["綠", "rok"],
     ojp: ["青", "awo"],
     p_aav: ["*kciʔ", "kciʔ"],

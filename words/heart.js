@@ -681,7 +681,7 @@ WORDS.heart = {
     vi_nom: ["𢁑𢙭", "tɕaːj˧˥ tim˧"],
     eo: ["koro", "ˈkoro"],
     vo: ["lad", "lad"],
-    ia: ["corde", "korde"],
+    ia: ["corde", "ˈkorde"],
     tok: ["pilin", "ˈpilin"],
     tlh: ["tIq", "tʰɪqʰ"],
     jbo: ["risna", "ˈrisna"],

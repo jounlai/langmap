@@ -1196,7 +1196,7 @@ WORDS.four = {
     blr: ["pun35", "pun˧˥"],
     qxs: ["dʒɿ", "dʒɿ˧˧"],
     adx: ["བཞི", "hʑə"],
-    ter: ["koaturu", "koatuɾu"],
+    ter: ["koaturu", "koˈatuɾu"],
     mch: ["aaʼköiʼchea", "aːʔkəiʔtʃea"],
     tob: ["kowaatro", "kowaatro"],
     plg: ["kwaatrolqa", "kwaatrolqa"],

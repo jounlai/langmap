@@ -1397,7 +1397,7 @@ WORDS.tea = {
     lij: ["tè", "tɛ"],
     lmo: ["tè", "tɛ"],
     lv: ["tēja", "ˈtɛːja"],
-    mg: ["dite", "dite"], // was ["dite", "ditə"] (vi dialect rules 2026-10-06)
+    mg: ["dite", "ˈdite"], // was ["dite", "ditə"] (vi dialect rules 2026-10-06)
     mi: ["tī", "tiː"],
     mnp: ["茶", "ta˧˧"],
     ms: ["teh", "teh"],

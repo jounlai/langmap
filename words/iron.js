@@ -161,7 +161,7 @@ WORDS.iron = {
     twm: ["lek53", "lek˥˧"],
     km: ["ដែក", "ɗaek"],
     lo: ["ເຫຼັກ", "lek˧˥"],
-    tr: ["demir", "demiɾ"],
+    tr: ["demir", "deˈmiɾ"],
     az: ["dəmir", "dæˈmiɾ"],
     kk: ["темір", "tʲemɘr"],
     ky: ["темир", "teˈmir"],
@@ -772,7 +772,7 @@ WORDS.iron = {
 
     // --- Turkic — *temür, and Esperanto/Lojban/Klingon --------------------
     crh: ["demir", "demir"],
-    gag: ["demir", "demir"],
+    gag: ["demir", "deˈmir"],
     kaa: ["temir", "temir"],
     nog: ["темир", "temir"],
     kum: ["темир", "temir"],

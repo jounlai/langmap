@@ -1014,7 +1014,7 @@ WORDS.sugar = {
     th_s: ["น้ำตาล", "nam˧˥ taːn˥"],
     umb: ["osuka", "osuka"],
     czh: ["糖", "tʰau˦˦"],
-    pt_gw: ["asukar", "asukar"],
+    pt_gw: ["asukar", "aˈsukar"],
     ngu: ["azúcar", "aˈsukar"],
     ts: ["chukela", "tʃʰukela"], // was ["chukela", "tʃukela"] (vi dialect rules 2026-10-06)
     pau: ["sukal", "sukal"],
@@ -1371,7 +1371,7 @@ WORDS.sugar = {
     mg: ["siramamy", "siraˈmami"],
     fj: ["suka", "suka"],
     ilo: ["asukar", "ʔaˈsukaɾ"], // was ["asukar", "ʔaˈsukar"] (vi dialect rules 2026-10-06)
-    hil: ["kalamay", "kalamaj"],
+    hil: ["kalamay", "kaˈlamaj"],
     war: ["asukar", "ʔaˈsukaɾ"],
     wls: ["suka", "suka"],
     niu: ["suka", "suka"],

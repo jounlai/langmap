@@ -1113,7 +1113,7 @@ WORDS.bear = {
     gun: ["kaguare-jagua", "kaɡuaɾeʒaɡuˈa"],
     yux: ["мээмээ", "meːmeː"],
     orh: ["ətirkəən", "ətirkəən"],
-    qxq: ["ayı", "ɑjɯ"],
+    qxq: ["ayı", "ɑˈjɯ"],
     jya: ["tə-wam", "təwam"],
     pmi: ["guẽ55", "ɡuẽ˥˥"],
     hni: ["haq'aol", "xa˧˩ɔ˥˥"],
@@ -1216,7 +1216,7 @@ WORDS.bear = {
     rap: ["oso", "oso"],
     sas: ["beruang", "bəruaŋ"],
     ljp: ["beruang", "bəʁuaŋ"],
-    mak: ["beruang", "beruaŋ"], // was ["beruang", "bəruaŋ"] (vi dialect rules 2026-10-06)
+    mak: ["beruang", "beˈruaŋ"], // was ["beruang", "bəruaŋ"] (vi dialect rules 2026-10-06)
     sda: ["beruang", "beruaŋ"],
     gor: ["boruangi", "boruaŋi"],
     mad: ["baruwang", "baruwaŋ"],
@@ -1275,7 +1275,7 @@ WORDS.bear = {
     abs: ["beruang", "bəruaŋ"],
     ho: ["bea", "bea"],
     fj: ["bea", "mbea"],
-    mg: ["bera", "bera"], // was ["bera", "beɾa"] (vi dialect rules 2026-10-06)
+    mg: ["bera", "ˈbera"], // was ["bera", "beɾa"] (vi dialect rules 2026-10-06)
     kha: ["dngiem", "dŋiem"],
     sg: ["urse", "urse"],
     lg: ["eddubu", "edːubu"],

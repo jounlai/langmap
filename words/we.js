@@ -2313,7 +2313,7 @@ WORDS.we = {
     ani: ["илӏил / ищил", "itɬil / iʃːil"], // was ["илӏил", "itɬʼil"] (vi dialect rules 2026-10-06)
     bdk: ["йин", "jin"],
     sdo: ["ami", "ami"],
-    dbl: ["ngana", "ŋana"],
+    dbl: ["ngana", "ˈŋana"],
     nrf_gg: ["nous", "nu"],
     fra_jer: ["nous", "nu"],
     gsw_w: ["wier", "ʋiər"],

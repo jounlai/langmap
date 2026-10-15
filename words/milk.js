@@ -587,7 +587,7 @@ WORDS.milk = {
     nci: ["chīchīhualāyōtl", "tʃiːtʃiːwalaːjoːtɬ"],
     gn: ["kamby", "kambɨ"],
     gun: ["kamby", "kambɨ"],
-    tpn: ["kamby", "kambɨ"],
+    tpn: ["kamby", "kamˈbɨ"],
 
     // --- Deep reconstructions, and the oldest writing --------------------------
     sux: ["𒂵", "ɡa"],

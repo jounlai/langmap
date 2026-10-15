@@ -247,7 +247,7 @@ WORDS.chocolate = {
     ko_kp: ["쵸콜레트", "tɕʰokʰolːetʰɯ"],
     ks: ["چاکلیٹ", "tʃaːkleːʈ"],
     ksh: ["Schokelad", "ʃokəˈlaːt"],
-    ku: ["çoklata", "tʃoklata"],  // ku.wikipedia's article gives three circulating forms — çoklata, çoklêt, çîkolate — and takes çoklata as the headword.
+    ku: ["çoklata", "tʃoklaˈta"],  // ku.wikipedia's article gives three circulating forms — çoklata, çoklêt, çîkolate — and takes çoklata as the headword.
     kum: ["шикалат", "ʃikaˈlat"],
     kw: ["choklet", "ˈtʃɔklɛt"],
     lad: ["chikolata", "tʃikoˈlata"],
@@ -273,7 +273,7 @@ WORDS.chocolate = {
     olo: ["šokoluadu", "ˈʃokoluadu"],
     or: ["ଚକୋଲେଟ", "tʃɔkoleʈɔ"],
     os: ["шоколад", "ʃokolad"],
-    ota: ["چوقولاته", "tʃokolata"],
+    ota: ["چوقولاته", "tʃokoˈlata"],
     pam: ["suklati", "sukˈlati"],
     pap: ["chukulati", "tʃukuˈlati"],
     pdt: ["Schaklitz", "ˈʃaklɪts"],

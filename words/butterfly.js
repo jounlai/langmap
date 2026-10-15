@@ -102,7 +102,7 @@ WORDS.butterfly = {
     ckb: ["پەپوولە", "pɛpuːlɛ"],  // a reduplicated pe-pû-le, matching Kurmanji p'irp'irok, Zazaki filfilik and Hebrew parpar; Sorani keeps it distinct from پەروانە perwane 'moth'
     dak: ["kímama", "kímama"],  // reduplicative in shape; Riggs also records the diminutive kimamana, Williamson a variant kimimana
     gu: ["પતંગિયું", "pətəŋɡijũ"],  // a diminutive of પતંગ patang 'flying insect, moth' (Sanskrit pataṅgá 'flying creature', Turner CDIAL p. 436) - a different root from the titlī of Hindi-Urdu-Punjabi
-    hil: ["alibangbang", "ʔalibaŋbaŋ"],  // reduplicated -bangbang, from Proto-Malayo-Polynesian *baŋbaŋ; the same word names the Bauhinia tree, for its butterfly-shaped leaves
+    hil: ["alibangbang", "ʔaliˈbaŋbaŋ"],  // reduplicated -bangbang, from Proto-Malayo-Polynesian *baŋbaŋ; the same word names the Bauhinia tree, for its butterfly-shaped leaves
     kg: ["lumbembambemba", "lumbembambemba"],  // reduplicated stem -bemba-bemba with class 10 lu- prefix
     ki: ["kĩĩhuruta", "keːhuruːta"],  // class 7 noun (pl. ciĩhuruta); covers moths as well as butterflies
     kwk: ["ha̱mumu", "həmumu"],  // reduplicative in shape (ha̱-mu-mu)
@@ -852,7 +852,7 @@ WORDS.butterfly = {
     lun: ["ipupwila", "ipupwila"],
     mjg: ["xanbalaxji", "ɕanbalaɕtɕi"],
     gym: ["malan", "malan"],
-    kri: ["bɔtaflay", "bɔtaflaj"],
+    kri: ["bɔtaflay", "ˈbɔtaflaj"],
     zh_song: ["胡蝶", "xu tiɛ"],
     xct_litpr: ["ཕྱེ་མ་ལེབ", "tɕʰe ma lep"],
     xqa: ["käpäli", "kæpæli"],

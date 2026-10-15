@@ -1044,7 +1044,7 @@ WORDS.blue = {
     ja_heian: ["青", "awo"],
     xct_litpr: ["སྔོན་པོ", "ŋø̃po"],
     ko_mid: ["프르다", "pʰɨɾɨta"], // was ["프르다", "pʰɨɾɨda"] (vi dialect rules 2026-10-06)
-    ter: ["hononoʼiti", "hononoʔiti"],
+    ter: ["hononoʼiti", "honoˈnoʔiti"],
     adx: ["སྔོན་པོ", "hŋonpo"],
     cay: ["aǫ́hyaęʼ", "aṍhjaɛ̃ʔ"],
     yur: ["skoyon", "skɔjɔn"], // was ["skoyon", "skojon"] (vi dialect rules 2026-10-06)

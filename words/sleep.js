@@ -592,7 +592,7 @@ WORDS.sleep = {
     ko_jl: ["자다", "tɕada"],
     nan_pn: ["睏", "kʰun˨˩"],
     pam: ["tudtud", "tudtud"],
-    mak: ["attinro", "attinro"],
+    mak: ["attinro", "atˈtinro"],
     kri: ["slip", "slip"],
     orv: ["съпати", "sŭpati"],
     sukh: ["นอน", "nɔːn"],

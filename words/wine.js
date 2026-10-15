@@ -1054,8 +1054,8 @@ WORDS.wine = {
     pyu: ["eraw", "əraw"], // was ["kutra", "kuʈa"] (vi dialect rules 2026-10-06)
     plg: ["lataʁa", "lataʁa"],
     pkp: ["uwaina", "uwaina"],
-    pam: ["alak", "ʔalak"],
-    pag: ["alak", "ʔalak"],
+    pam: ["alak", "ˈʔalak"],
+    pag: ["alak", "ˈʔalak"],
     olo: ["viinu", "ˈviːnu"],
     nus: ["kɔaŋ", "kɔaŋ"],
     mtq: ["hão", "haːw"],
@@ -1093,7 +1093,7 @@ WORDS.wine = {
     cni: ["ovaja", "oβaha"],
     ilo: ["arak", "ˈʔaɾak"], // was ["arak", "ˈʔarak"] (vi dialect rules 2026-10-06)
     bik: ["arak", "ˈʔaɾak"],
-    qxq: ["şərab", "ʃærɑb"],
+    qxq: ["şərab", "ʃæˈrɑb"],
     yue_zs: ["葡萄酒", "pʰu˥˩ tʰou˥˩ tsɐu˨˩˧"], // was ["葡萄酒", "pʰu˨˩ tʰou˨˩ tsɐu˧˥"] (r46 fix 2026-10-03)
     sms: ["vijnn", "viʝnːɐ"], // was ["vijnn", "vijnː"] (vi dialect rules 2026-10-06)
     yrl: ["vinyu", "viɲu"],

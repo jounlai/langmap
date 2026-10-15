@@ -236,7 +236,7 @@ WORDS.egg = {
     ps: ["هګۍ", "haɡəi"],
     az: ["yumurta", "jumuɾˈtɑ"],
     azb: ["یومورتا", "jumuɾˈtɑ"],
-    gag: ["yımırta", "jɯmɯrta"],
+    gag: ["yımırta", "jɯmɯrˈta"],
     ug: ["تۇخۇم", "tuxum"],
     kk: ["жұмыртқа", "ʒʊmərtˈqa"],
     ky: ["жумуртка", "dʒumurtˈqɑ"],
@@ -669,7 +669,7 @@ WORDS.egg = {
     wmt: ["kampiny", "kampiɲ"],
     djr: ["mapuʼ", "mapuʔ"],
     wrh: ["gabuuga", "ˈɡabuːɡa"],
-    dbl: ["bambu", "bambu"],
+    dbl: ["bambu", "ˈbambu"],
     kky: ["gundil", "ɡundil"],
     // --- Austronesian — Proto-Austronesian *qateluR behind telur, tenaruh, adulo, tontolu
     nia: ["adulo", "adulo"],

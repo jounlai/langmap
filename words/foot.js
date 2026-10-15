@@ -1660,7 +1660,7 @@ WORDS.foot = {
     hy: ["ոտք", "votkʰ"],  // ոտք covers the whole limb; srunkʰ is the shank.
     hy_grab: ["ոտն", "otn"],  // Bedrossian 566; the GLD Classical Armenian list states outright that 'leg' is srun. The modern hy row is leg+foot — the merger is post-classical.
     hyw: ["ոտք", "vodkʰ"],  // Western Armenian voices classical տ — the row does it in սիրտ siɾd and տուն dun — while keeping ք aspirated, so ոտք is vodkʰ where Eastern Armenian has votkʰ.
-    ia: ["pede", "pede"],  // Follows the Romance split. IPA is the plain reading of the orthography, following how this row's own hand cell writes mano as mano.
+    ia: ["pede", "ˈpede"],  // Follows the Romance split. IPA is the plain reading of the orthography, following how this row's own hand cell writes mano as mano.
     iba: ["kaki", "kaki"],  // Wiktionary glosses Iban kaki 'leg; foot' in one entry, and betis is the lower leg, not a rival.
     ibb: ["ukot", "ukot"],  // ukot covers foot and leg — the Uyo Ibibio Dictionary gives them in one gloss, 'leg and/or foot'.
     id: ["kaki", "ˈkaki"],  // kaki is the whole lower limb; tungkai is a technical 'limb'. tangan/lengan splits the arm, so the row's hand cell behaves differently.
@@ -1863,7 +1863,7 @@ WORDS.foot = {
     mey: ["كراع", "kraːʕ"],  // Elhoussein's Basic English–Hassaniya Dictionary gives Foot: krāʕ, and the Hassaniyya Genesis washes feet with كرعيكم at 18:4 and 24:32; the same kurāʕ root the Sudanese row has, where Living Arabic glosses كُرَاْع 'leg, foot'.
     mez: ["osēt", "oseːt"],  // Hoffman's Menomini vocabulary keeps miset' 'foot' apart from miqkat' 'leg, oqka't his or her leg', and Bloomfield's texts have nisētan 'my feet' beside nihkat 'my leg'.
     mfe: ["lipie", "lipje"],  // Follows French. IPA is the plain reading of the orthography, following how this row's own hand cell writes lame as lame.
-    mg: ["tongotra", "tonɡotra"],  // Malagasy tongotra is the ordinary word for the lower limb; no separate leg word is recorded here, so the class is inferred. IPA is the plain reading of the orthography, following how this row's own hand cell writes tanana as tanana.
+    mg: ["tongotra", "ˈtonɡotra"],  // Malagasy tongotra is the ordinary word for the lower limb; no separate leg word is recorded here, so the class is inferred. IPA is the plain reading of the orthography, following how this row's own hand cell writes tanana as tanana.
     mga: ["cos", "kos"],  // eDIL glosses cos(s) 'leg, foot'; traig is the marked 'foot, sole'. Matches the sga row.
     mh: ["ne", "ne"],  // The Marshallese-English Dictionary gives ne 'Leg; foot; wheel; paw' in one entry. IPA is the plain reading of the orthography, following how this row's own bone cell writes di as ti.
     mhr: ["йол", "jol"],  // йол covers both.
@@ -1996,7 +1996,7 @@ WORDS.foot = {
     osn: ["suku", "suku"],  // Old Sundanese suku covers the whole lower limb, as modern Sundanese does.
     osp: ["pie", "pje"],  // pie vs pierna.
     osx: ["fōt", "foːt"],  // Tiefenbach s.v. fōt; Old Saxon scinka glosses Latin tibia (OED s.v. shank).
-    ota: ["آیاق", "ajak"],  // Ottoman ayak still covered the limb; modern Turkish bacak took the leg. IPA is the plain reading of the orthography, following how this row's own hand cell writes ال as el.
+    ota: ["آیاق", "aˈjak"],  // Ottoman ayak still covered the limb; modern Turkish bacak took the leg. IPA is the plain reading of the orthography, following how this row's own hand cell writes ال as el.
     ote: ["wa", "wa"],  // Mezquital Otomi's own NT uses one word for both: yá ua is washed at John 13:5 and broken at 19:31-33. Querétaro Otomi and Mazahua do the same. IPA is the plain reading of the orthography, following how this row's own hand cell writes 'ye as ʔje.
     otk: ["𐰑𐰴", "adaq"],  // The inherited Turkic one-word pattern. IPA is the plain reading of the orthography, following how this row's own hand cell writes 𐰘𐰠𐰏 as eliɡ.
     otq: ["wa", "wa"],  // Querétaro Otomi breaks yá wa at John 19:32, the same wa it washes at 13:6; note this contradicts the ote row, which carries wa as distinct.
@@ -2101,7 +2101,7 @@ WORDS.foot = {
     ru: ["нога", "nɐˈɡa"],  // Everyday Russian нога is the whole lower limb; ступня/стопа are the anatomical foot-only words NorthEuraLex picked for 'foot'.
     rue: ["нога", "ˈnoha"],  // As Ukrainian: нога covers the lower limb, стопа is the anatomical foot.
     rup: ["cicior", "tʃiˈtʃor"],  // As Romanian picior: one word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes mânâ as ˈmɨnɨ.
-    ruq: ["picior", "pitʃor"],  // Class inferred from the other Eastern Romance languages. IPA is the plain reading of the orthography, following how this row's own hand cell writes mâna as ˈmɨna.
+    ruq: ["picior", "piˈtʃor"],  // Class inferred from the other Eastern Romance languages. IPA is the plain reading of the orthography, following how this row's own hand cell writes mâna as ˈmɨna.
     rut: ["гъил", "ʁil"],  // IDS 4-370 gives гъилды хьуъды 'the under of the leg', but the Borchino Khnow dialect makes do with гъил alone — the phrase is the questionnaire disambiguating a merged sense.
     rw: ["ikirenge", "ikirenɡe"],  // Kinyarwanda splits them. IPA is the plain reading of the orthography, following how this row's own hand cell writes ikiganza as ikiɡanza.
     rwk: ["urende", "uɾende"],  // Rwa marende are washed in John 13 and broken in John 19, with ifua as the bone, and Mark 9:45 gives the singular urende.
@@ -2152,7 +2152,7 @@ WORDS.foot = {
     soa: ["ตีน", "tiːn˨˦"],  // The Tai tin/kha split: ตีน against ขา. Thai Song is the Thailand-resident Black Tai, and ABVD's Tai Dam list (Pittayaporn 2021) gives tin¹ 'foot' beside kʰaː¹ 'leg'. // was ["ตีน", "tiːn˧"] (r51 audit 2026-10-04)
     sog: ["pʾδ", "paːð"],  // Asha, Compendious Sogdian Dictionary glosses <pʾδ> /pā́δ/ 'foot, leg' outright; the oblique <pδ-> is the same lexeme.
     spp: ["tɔɔgɔ", "tɔːɡɔ"],  // one word for the limb: the Supyire New Testament washes feet and breaks legs with the same tooyi.
-    sq: ["këmbë", "kəmbə"],  // Albanian këmbë is one word for the whole lower limb.
+    sq: ["këmbë", "ˈkəmbə"],  // Albanian këmbë is one word for the whole lower limb.
     sr: ["нога", "nǒɡa"],  // As Croatian: нога covers the lower limb, стопало is the anatomical foot. // was ["нога", "ˈnoɡa"] (vi dialect rules 2026-10-06)
     srb: ["jʼeng", "dʒʔeŋ"],  // Ramamurti glosses ʤeːŋ-ən 'leg, foot' in one entry and builds toe, sole, heel, ankle and knee on it; ayang is the bone. Length is dropped as this row already dropped it from his si:-n. // was ["jeng", "dʒeŋ"] (vi dialect rules 2026-10-06)
     srh: ["pedh", "peð"],  // Shaw's Ghalchah vocabulary glosses the one word 'leg, foot' and answers the leg slots beside it with Persian lang and paichah, as Wakhi пуд does. The vowel is the row's plain e: Shaw writes ⟨ii⟩ for /ɵ/ in dhiist and riisht and ⟨e⟩ here.
@@ -2221,7 +2221,7 @@ WORDS.foot = {
     tpi: ["lek", "lek"],  // English leg has been generalised to the whole lower limb; fut is the narrower borrowing. han does the same on the arm in this row's hand cell.
     tpn: ["py", "pɨ"],  // Navarro 412 s.v. py 'pé (de pessoa), pata (de animal)', against (t)etymã 'perna' at 122 — Old Tupi splits them, and the derivatives (pysã 'toe', pytá 'heel' vs etymã-kanga 'shin') split with them.
     tpy: ["pitsʔ", "pitsʔ"],  // IDS gives Trumai pitsʔ for the foot against dak for the leg, and this row's hand cell kat is IDS's (ha) kat.
-    tr: ["ayak", "ajak"],  // Turkish is the Turkic language that has innovated a separate leg word (bacak, from Persian); most of the family uses one term.
+    tr: ["ayak", "aˈjak"],  // Turkish is the Turkic language that has innovated a separate leg word (bacak, from Persian); most of the family uses one term.
     trn: ["iype", "ijpe"],  // IDS splits Trinitario -iype from -pueɣe, and this row's hand cell wupe is IDS's -wupe with the hyphen dropped.
     tru: ["ܪܓܠܐ", "raɣlo"],  // Ritter's Ṭuroyo Wörterbuch has raglo 'Fuss' and the derived b-raglo 'einbeinig', one-legged, so the one word covers the limb; the contrasting qaqe is 'Unterschenkel', the shank.
     trv: ["papak", "papak"],  // papak is the foot washed at John 13:5, the leg the greaves go on at 1 Samuel 17:6 and the leg like a marble pillar at Song of Songs 5:15 — 393 occurrences against 25 of bteriq, which Genesis 24:2 and 32:25 show to be the thigh — so the split the ACD's qaqai and ABVD's btəriq seemed to promise is not there.

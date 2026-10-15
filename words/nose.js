@@ -871,7 +871,7 @@ WORDS.nose = {
     glk: ["دماغ", "dəmaɣ"],
     zza: ["zınci", "zɨndʒi"],
     yai: ["nays", "najs"],
-    khw: ["نسکار", "naskaːr"],
+    khw: ["نسکار", "nasˈkaːr"],
     trm: ["nās", "naːs"],
     wbl: ["мис", "mis"],
     tly: ["vıni", "vɨni"],

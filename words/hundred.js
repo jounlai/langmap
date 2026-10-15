@@ -815,7 +815,7 @@ WORDS.hundred = {
     ie: ["cent", "tsent"],
     io: ["cent", "tsent"],
     bfq: ["nuuru", "nuːru"],   // Dravidian *nūṟu
-    mak: ["sibilangngang", "sibilaŋːaŋ"],
+    mak: ["sibilangngang", "sibiˈlaŋːaŋ"],
     rtm: ["tarau", "tarau"],   // the Polynesian *rau under a prefix
     dru: ["iday", "idaj"],
     mas: ["ip", "iːp"],

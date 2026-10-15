@@ -833,7 +833,7 @@ WORDS.night = {
     tt: ["төн", "tøn"],
     ba: ["төн", "tøn"],
     krc: ["кече", "ketʃe"],
-    ksw: ["မုၢ်နၤ", "mu˧na˧"],
+    ksw: ["မုၢ်နၤ", "mɨ˧na˧"],
     pwo: ["နၩ", "na"],
     lhu: ["ɔ̀-há", "ɔ̀há"],
     lis: ["sakhua", "sa˦˦kʰua˧˧"],

@@ -1113,7 +1113,7 @@ WORDS.tree = {
     mra: ["lam", "lam"],
     wuu_nb: ["树", "zɿ˩˩˧"],
     yue_gz: ["树", "si˨˩"],
-    khb: ["ᦂᦸᦺᦙᧉ", "kɔː mai"],
+    khb: ["ᦂᦸᦺᦙᧉ", "kɔː˥ maj˩"],
     blt: ["ꪼꪣ꫁", "maj˧˩ˀ"],
     pam: ["dutung", "ˈdutuŋ"],
     pag: ["kiew", "kiˈəw"],

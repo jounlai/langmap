@@ -127,7 +127,8 @@ const DEBT = {};
 // r111: we 42 (yle nmo, one unlabelled NT form), bear 11 (kgg s˙i, Watters, no etymology), foot 23 (itz ok 'su pie', no leg word).
 // r112: bear 12 — yan dangkatakalbas (Bible, beside layan 'lion'), origin unknown.
 // r114: bear 16 — kln magalaluut, mer, jmc ngare, gej sisiblìsi: Bible words (each beside 'lion'), origins unsourced.
-const UNDECIDED = { we: { route: 'unknown', max: 42 }, bear: { route: 'unknown', max: 16 }, foot: { route: 'unknown', max: 23 } };
+// r115: bear 20, foot 24 — Bible/dictionary words with no etymology or no leg word (see review_594).
+const UNDECIDED = { we: { route: 'unknown', max: 42 }, bear: { route: 'unknown', max: 20 }, foot: { route: 'unknown', max: 24 } };
 
 let violations = 0;
 const notes = [];

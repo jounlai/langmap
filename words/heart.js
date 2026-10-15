@@ -1191,7 +1191,7 @@ WORDS.heart = {
     pll: ["nuər", "nuər"],
     ahk: ["nui ma", "nɯ˧ma˧"],
     dtp: ["ginawo", "ɡinawo"],
-    hne: ["हिरदय", "hirdəj"],
+    hne: ["हिरदय", "ɦirdəj"],
     mnw: ["ဂြိုဟ်", "krɜ̀h"],
     bru: ["pahỡm", "pəham"],
     bdq: ["jơhngơ̆m", "ɟəhŋəm"],

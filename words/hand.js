@@ -1198,7 +1198,7 @@ WORDS.hand = {
     pll: ["ti", "ɗiː"],
     ahk: ["a laq", "a˨˩la̰˨˩"],
     dtp: ["longon", "ˈloŋon"],
-    hne: ["हांथ", "hãːtʰ"],
+    hne: ["हांथ", "ɦãːtʰ"],
     mnw: ["တဲ", "toa"],
     bru: ["atĩ", "ʔati"],
     bdq: ["ti", "tiː"],

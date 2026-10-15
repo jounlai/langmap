@@ -550,6 +550,7 @@ WORDS.cuckoo = {
     pon: ["likopirei", "likopirei"],
     sel: ["щяӄая", "ɕaqaja"],
     kio: ["dɔ̀álkù:", "dɔ̀álkùː"],
-    mvf: ["gugu xuu", "ɡuɡu ɕuu"]
+    mvf: ["gugu xuu", "ɡuɡu ɕuu"],
+    yrk: ["хутий", "xutʲij"]
   },
 };

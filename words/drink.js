@@ -1105,7 +1105,7 @@ WORDS.drink = {
     mra: ["wək", "wək"],
     wuu_nb: ["吃", "tɕʰyoʔ˥˥"],
     yue_gz: ["—", "—"],
-    khb: ["ᦂᦲᧃᦓᧄᧉ", "kin nam"],
+    khb: ["ᦂᦲᧃᦓᧄᧉ", "kin˥ nam˩"],
     blt: ["ꪀꪲꪙ ꪙꪾ꫁", "kin˨ nam˧˩ˀ"],
     pam: ["minum", "miˈnum"],
     pag: ["oninom", "ʔoniˈnom"],

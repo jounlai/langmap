@@ -822,6 +822,8 @@ WORDS.silk = {
     tok: ["len", "len"],
     ja_rys: ["絹", "itɕu"],
     ik: ["qivliqiak", "qivliqiak"],
-    vls: ["zyde", "ˈziːdə"]
+    vls: ["zyde", "ˈziːdə"],
+    drs: ["haarre", "haːrːe"],
+    cjs: ["торғу", "torɣu"]
   }
 };

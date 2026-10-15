@@ -1113,6 +1113,7 @@ WORDS.sea = {
     wrh: ["gadhang", "ˈɡad̪aŋ"],
     srb: ["gəning", "ɡəniŋ"],
     kim: ["далай", "dalaj"],
-    din: ["adɛkdiɛt", "adɛkdiɛt"]
+    din: ["adɛkdiɛt", "adɛkdiɛt"],
+    gym: ["mren", "mɾẽ"]
   }
 };

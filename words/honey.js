@@ -1104,7 +1104,7 @@ WORDS.honey = {
     ssf: ["fulhia wa madahun", "fuɬia wa madahun"],
     khw: ["مݯھی", "maʈʂʰi"],
     gbm: ["सौद", "sɔd"],
-    khb: ["ᦓᧄᧉᦕᦹᧂᧉ", "nam pʰɯŋ"],
+    khb: ["ᦓᧄᧉᦕᦹᧂᧉ", "nam˩ pʰɯŋ˩˧"],
     blr: ["ʔum51 pheh31", "ʔum˥˩ pʰeh˧˩"],
     bwi: ["doni", "doni"],
     nys: ["ngook", "ŋuk"],
@@ -1165,6 +1165,7 @@ WORDS.honey = {
     gsw_w: ["Hunig", "ˈhunɪɡ"],
     lij_t: ["amé", "aˈme"],
     cia: ["golano vani", "ɡolano βani"],
-    sad: ["chiŋ", "tʃʰiŋ"]
+    sad: ["chiŋ", "tʃʰiŋ"],
+    bts: ["manisan", "manisan"]
   },
 };

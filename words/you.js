@@ -1106,7 +1106,7 @@ WORDS.you = {
       mra: ["mɛ", "mɛ"],
       wuu_nb: ["侬", "nəu˩˩˧"],
       yue_gz: ["—", "—"],
-      khb: ["ᦙᦹᧂ", "mɯŋ˧"],
+      khb: ["ᦙᦹᧂ", "mɯŋ˥˩"],
       blt: ["ꪣꪳꪉ", "mɯŋ˥"],
       pam: ["ika", "ˈʔika"],
       pag: ["sika", "sika"],

@@ -1190,6 +1190,7 @@ WORDS.hundred = {
     aja: ["kavehowi", "kavehowi"],
     woe: ["sebiugiuw", "sebʉɡʉw"],
     vls: ["hoenderd", "ˈhundərt"],
-    nut: ["pác", "paːk˥"]
+    nut: ["pác", "paːk˥"],
+    kpy: ["ыстон", "əston"]
   },
 };

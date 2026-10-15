@@ -1161,6 +1161,8 @@ WORDS.milk = {
     gsw_als: ["Mìlch", "mɪlx"],
     gsw_w: ["Milch", "mɪlx"],
     pmt: ["pounave", "pounave"],
-    ja_rys: ["乳", "tsɨː"]
+    ja_rys: ["乳", "tsɨː"],
+    tar: ["leche", "letʃe"],
+    zgh: ["ⴰⵖⵖⵓ", "aʁːu"]
   },
 };

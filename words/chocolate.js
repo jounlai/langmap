@@ -620,6 +620,7 @@ WORDS.chocolate = {
     dje: ["sokola", "sokola"],
     mn_cn: ["ᠱᠣᠻᠣᠯᠠᠳ᠋", ""],
     pot: ["jakonat", "dʒakonat"],
-    en_ng2: ["chocolate", ""]
+    en_ng2: ["chocolate", ""],
+    pmy: ["coklat", ""]
   }
 };

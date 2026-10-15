@@ -169,7 +169,7 @@ WORDS.ear = {
     th_isan: ["หู", "huː˩˧"],
     lo: ["ຫູ", "huː˩˧"],
     shn: ["ႁူ", "huː˨˦"],
-    khb: ["ᦣᦴ", "huː"],
+    khb: ["ᦣᦴ", "huː˥"],
     srh: ["Gewl", "ʁewl"],
     rbb: ["ʨhok", "tɕʰok"],
     blr: ["ja31 juk51", "ja˧˩ juk˥˩"],

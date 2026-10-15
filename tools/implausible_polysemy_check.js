@@ -90,6 +90,7 @@ const ACCEPTED = {
     'enf:eye|heart': 'Forest Enets сэй sɛj "eye" and сԑй sæj "heart" (NorthEuraLex, ASJP): two words whose Latin transliteration in this row falls together; the IPA keeps them apart. r83, 2026-10-12.',
     'mgo:bone|foot': 'Metaʼ əwu is both: the NT uses it for "a bone of his" (JHN 19:36) and "flesh and bones" (LUK 24:39), and for foot. r83, 2026-10-12.',
     'mcf:mouth|tongue': 'Matsés ana is "tongue" in the NT (MRK 7:33, LUK 16:24) and in Amazonian Voices; the mouth cell holding the same form is unverified — open item, review 562. r83, 2026-10-12.',
+    'mev:foot|wheel': 'Mann dictionary entry "gà̰ n 1 pied 2 roue", and the French index gives gà̰ as the only word for roue: the dictionary lists wheel as a sense of the word itself, not as a phrase. r115, 2026-10-15.',
     'myp:five|four': 'Pirahã has no exact numerals: hói, hoí and baágiso "many" cover all quantities, and Everett 1983 (via Johansson et al. 2020) gives baágiso for THREE through TWENTY. r111, 2026-10-15.',
     'myp:five|three': 'Pirahã baágiso "many" for every quantity from three up (see myp:five|four). r111, 2026-10-15.',
     'myp:four|three': 'Pirahã baágiso "many" for every quantity from three up (see myp:five|four). r111, 2026-10-15.',

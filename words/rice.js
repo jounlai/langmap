@@ -900,6 +900,8 @@ WORDS.rice = {
     gsw_w: ["Riiss", "riːs"],
     ssf: ["zashuq", "ðaʃuq"],
     ik: ["kumauraq", "kumauʐaq"],
-    vls: ["rys", "ris"]
+    vls: ["rys", "ris"],
+    abv: ["عيش", "ʕeːʃ"],
+    tsj: ["khu", "kʰu"]
   }
 };

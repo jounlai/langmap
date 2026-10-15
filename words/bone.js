@@ -1118,7 +1118,7 @@ WORDS.bone = {
     pll: ["kəʔaŋ", "kaʔaːŋ"],
     ahk: ["sha yoe", "ʃa˨˩jø˨˩"],
     dtp: ["tulang", "tulaŋ"],
-    hne: ["हाड़ा", "haːɽaː"],
+    hne: ["हाड़ा", "ɦaːɽaː"],
     mnw: ["ဇုတ်", "cùt"],
     bru: ["nghang", "ŋhaŋ"],
     bdq: ["kơting", "kətiːŋ"],

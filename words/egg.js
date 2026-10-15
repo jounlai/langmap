@@ -1173,6 +1173,7 @@ WORDS.egg = {
     hup: ["-we:wheʼ", "-weːhʷeʔ"],
     aja: ["klokloʒin", "klokloʒĩ"],
     kpe: ["ɣáloŋ", "ɣáloŋ"],
-    zts: ["dzɨtbɨdy", "dzɨtbɨdj"]
+    zts: ["dzɨtbɨdy", "dzɨtbɨdj"],
+    cuk: ["akwa", "akwa"]
   },
 };

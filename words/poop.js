@@ -933,6 +933,11 @@ WORDS.poop = {
     ahk: ["ke", "kʰe˨˩"],
     naq: ["xaub", "xaub"],
     lun: ["tuji", "tudʒi"],
-    gun: ["tepoxi", "tepoˈʃi"]
+    gun: ["tepoxi", "tepoˈʃi"],
+    nus: ["waw", "waw"],
+    pmy: ["tay", "taj"],
+    rom: ["khul", "kʰul"],
+    kj: ["omatudi", "omatudi"],
+    her: ["ombonḓi", "ombond̪i"]
   },
 };

@@ -1190,6 +1190,7 @@ WORDS.new = {
     wrh: ["dhalanggirr", "ˈd̪alaŋɡir"],
     kim: ["няа", "ɲaː"],
     sip: ["གསར་པུ", "saːpu"],
-    one: ["a:sé", "aːsé"]
+    one: ["a:sé", "aːsé"],
+    ko_jeju: ["세", "se"]
   }
 };

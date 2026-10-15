@@ -1001,6 +1001,8 @@ WORDS.snow = {
     tus: ["uwi:threh", "uwiːθɾeh"],
     wrh: ["gunama", "ˈɡunama"],
     aoz: ["sen-sene", "sensene"],
-    zts: ["guɨy", "ɡɨj"]
+    zts: ["guɨy", "ɡɨj"],
+    nus: ["thäc", "t̪əc"],
+    ksb: ["kau", "kau"]
   }
 };

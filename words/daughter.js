@@ -1168,6 +1168,7 @@ WORDS.daughter = {
     gay: ["anak banan", "anak banan"],
     pao: ["padɨ", "patɨ"],
     bzg: ["sjiem mammali", "ʃiem mamːali"],
-    gsw_als: ["Tochter", "dɔxtər"]
+    gsw_als: ["Tochter", "dɔxtər"],
+    hop: ["maana", "maːna"]
   },
 };

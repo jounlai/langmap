@@ -581,7 +581,7 @@ WORDS.wind = {
     gld: ["хэдун", "xədun"],
     kpy: ["кытэг", "kəteɣ"],
     yrl: ["iwitú", "iwiˈtu"],
-    rgn: ["vènt", "vɛt"],
+    rgn: ["vènt", "vɛnt"],
     ki: ["rũhuho", "ɾohuːhɔ"],
     gun: ["yvytu", "ɨvɨˈtu"],
     crk: ["ᔫᑎᐣ", "joːtin"],

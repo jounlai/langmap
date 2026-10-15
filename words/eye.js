@@ -754,7 +754,7 @@ WORDS.eye = {
     ay: ["nayra", "najɾa"],
     jqr: ["nayra", "najɾa"],
     cni: ["noki", "noki"],
-    ame: ["oqueño", "okeɲo"],
+    ame: ["colloʼyets", "koʎoʔjets"],
     gym: ["okwä", "okwɔ"],
     yan: ["minikpa", "minikpa"],
     jiv: ["jii", "hiː"],

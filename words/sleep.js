@@ -1207,6 +1207,7 @@ WORDS.sleep = {
     one: ["waki:tá:s", "wakiːtáːs"],
     cay: ["agída̱ʼǫh", "aɡídḁʔõh"],
     woe: ["masiur", "masʉɻ"],
-    ja_rys: ["にぶん", "nibuɴ"]
+    ja_rys: ["にぶん", "nibuɴ"],
+    pqm: ["kuhu", "kuhu"]
   },
 };

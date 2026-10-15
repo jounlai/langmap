@@ -1038,7 +1038,7 @@ WORDS.honey = {
     tay: ["buq na hzing", "buq na hziŋ"],
     toc: ["táxkat", "táʃkat"],
     ckt: ["ръорамытӄымыт", "rʔoramətqəmət"],
-    xed: ["zuɗum", "zuɗum"],
+    xed: ["zúɗúm", "zúɗúm"],
     dds: ["igɛ", "iɡɛ"],
     yai: ["asal", "asal"],
     yrl: ["íra", "ˈiɾa"],

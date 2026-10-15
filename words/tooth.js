@@ -711,7 +711,7 @@ WORDS.tooth = {
     ay: ["laka chʼakha", "laka tʃʼakʰa"],
     jqr: ["shimi", "ʃimi"],
     cni: ["nayi", "naji"],
-    ame: ["athoch", "aðotʃ"],
+    ame: ["asots", "asots"],
     gym: ["tu", "tu"],
     yan: ["an", "an"],
     jiv: ["nai", "nai"],

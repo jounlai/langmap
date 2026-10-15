@@ -963,6 +963,7 @@ WORDS.wheel = {
     gsw_w: ["Rat", "rat"],
     one: ["okahkwʌ́:taʼ", "okahkwʌ̃́ːtaʔ"],
     lbj: ["ཁོར་ལོ", "kʰorlo"],
-    bzd: ["wö̀shki", "wʊʃki"]
+    bzd: ["wö̀shki", "wʊʃki"],
+    ahk: ["a beuq", "a˥bɤ̰˧"],
   }
 };

@@ -391,7 +391,7 @@ WORDS.bone = {
     ets: ["ugoa", "uɡoa"],
     iso: ["ugbonwa", "uɡbonwa"],
     ha: ["ƙashi", "kʼaʃiː"],
-    xed: ["ghudzif", "ɣudzif"],
+    xed: ["ghùdzìf", "ɣùdzìf"],
     ker: ["kəskəŋ", "kəskəŋ"],
     dbq: ["gengirizl", "ɡeŋɡiriɮ"],
     wo: ["yax", "jax"],

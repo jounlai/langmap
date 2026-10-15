@@ -1047,7 +1047,7 @@ WORDS.hundred = {
     ker: ["kəsi", "kəsi"],
     dur: ["tȩmɛre", "tẽmɛre"],
     nhx: ["cien", "sjen"],
-    xed: ["dərmək", "dərmək"],
+    xed: ["də́rmə́k", "də́rmə́k"],
     mxv: ["ciento", "sjento"],
     dds: ["tɛmdɛrɛ", "tɛmdɛrɛ"],
     shp: ["pacha", "patʃa"],
@@ -1167,7 +1167,7 @@ WORDS.hundred = {
     zdj: ["djana", "dʒana"],
     abe: ["nguedatgua", "ŋɡʷedatɡʷa"],
     yuy: ["dʒuun", "dʒuːn"],
-    blc: ["—", "—"],
+    blc: ["cʼixʷlχs", "tsʼixʷlχs"],
     dsh: ["kuɗ", "kuɗ"],
     jup: ["cẽ́", "tʃẽ́"],
     mjg: ["nige jang", "niɡe tɕaŋ"],
@@ -1188,6 +1188,8 @@ WORDS.hundred = {
     gsw_w: ["hunnert", "ˈhʊnːərt"],
     lij_t: ["sentu", "ˈsɛŋtu"],
     aja: ["kavehowi", "kavehowi"],
-    woe: ["sebiugiuw", "sebʉɡʉw"]
+    woe: ["sebiugiuw", "sebʉɡʉw"],
+    vls: ["hoenderd", "ˈhundərt"],
+    nut: ["pác", "paːk˥"]
   },
 };

@@ -755,7 +755,7 @@ WORDS.name = {
       ay: ["suti", "suti"],
       jqr: ["shutyi", "ʃuci"],
       cni: ["ivairo", "iβaiɾo"],
-      ame: ["resh", "ɾeʃ"],
+      ame: ["sochñets", "sotʃɲets"],
       gym: ["kä", "kɔ"],
       yan: ["ayang", "ajaŋ"],
       jiv: ["naari", "naːɾi"],

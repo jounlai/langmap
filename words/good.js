@@ -755,7 +755,7 @@ WORDS.good = {
     ay: ["suma", "suma"],
     jqr: ["shuma", "ʃuma"],
     cni: ["kameetsa", "kameːtsa"],
-    ame: ["paretem", "paɾetem"],
+    ame: ["cohuen", "kowen"],
     gym: ["kuin", "kwĩ"],
     yan: ["yamni", "jamni"],
     jiv: ["penker", "peŋkeɾ"],

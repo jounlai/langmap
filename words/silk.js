@@ -820,6 +820,8 @@ WORDS.silk = {
     gsw_w: ["Siida", "ˈsiːda"],
     lij_t: ["sea", "ˈsɛːa"],
     tok: ["len", "len"],
-    ja_rys: ["絹", "itɕu"]
+    ja_rys: ["絹", "itɕu"],
+    ik: ["qivliqiak", "qivliqiak"],
+    vls: ["zyde", "ˈziːdə"]
   }
 };

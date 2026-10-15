@@ -954,7 +954,7 @@ WORDS.mouth = {
     kmh: ["megmgan", "meɡməɡan"],
     dur: ["ya̧g", "jãɡ"],
     sad: ["ǃnum", "ǃⁿum"],
-    xed: ["wa", "wa"],
+    xed: ["wì", "wì"],
     agq: ["dzughu", "dzuɣu"],
     dds: ["kɛnnɛ", "kɛnːɛ"],
     aae: ["grikë", "ˈɡɾikə"],

@@ -754,7 +754,7 @@ WORDS.heart = {
     ay: ["chuyma", "tʃujma"],
     jqr: ["kurasunha", "kuɾasunha"],
     cni: ["nosanto", "nosanto"],
-    ame: ["nemueñ", "nemweɲ"],
+    ame: ["yoc̈hrets", "jotʂɾets"],
     gym: ["brukwä", "bɾukwɔ"],
     yan: ["mâ", "maː"],
     jiv: ["enentai", "enentai"],

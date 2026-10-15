@@ -983,7 +983,7 @@ WORDS.head = {
     tdh: ["बुइ", "bwi"],
     xkz: ["guyung", "ɡujuŋ"],
     dur: ["yúú", "juː"],
-    xed: ["ghəŋ", "ɣəŋ"],
+    xed: ["ghə́ŋ", "ɣə́ŋ"],
     agq: ["kətuw", "kətuw"],
     dds: ["kuu", "kuː"],
     dsh: ["met", "met"],
@@ -1207,6 +1207,7 @@ WORDS.head = {
     dyo: ["fukow", "fukow"],
     hup: ["-tseʼ", "-tseʔ"],
     haj: ["matha", "matʰa"],
-    one: ["onútsiʼ", "onṹtsiʔ"]
+    one: ["onútsiʼ", "onṹtsiʔ"],
+    ik: ["niaquq", "niaquq"]
   },
 };

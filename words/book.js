@@ -1108,6 +1108,7 @@ WORDS.book = {
     itb: ["libro", "libro"],
     gay: ["buku", "buku"],
     pao: ["pipo", "pipo"],
-    gsw_w: ["Büech", "byə̯x"]
+    gsw_w: ["Büech", "byə̯x"],
+    vls: ["boek", "buk"]
   }
 };

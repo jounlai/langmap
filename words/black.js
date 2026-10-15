@@ -1298,6 +1298,7 @@ WORDS.black = {
     sip: ["ནག་ཀུ", "naku"],
     lij_t: ["nàigru", "ˈnajɡru"],
     mcf: ["chëshë", "tʃɨʃɨ"],
-    bor: ["čoreu", "tʃoɾew"]
+    bor: ["čoreu", "tʃoɾew"],
+    ik: ["maŋaqtaaq", "maŋaqtaːq"]
   },
 };

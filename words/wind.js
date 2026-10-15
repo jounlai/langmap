@@ -1064,7 +1064,7 @@ WORDS.wind = {
     bzd: ["siwa̱ʼ", "siwãʔ"],
     dur: ["sápéém", "sapeːm"],
     sad: ["wekheŋ", "wekʰeŋ"],
-    xed: ["falak", "falak"],
+    xed: ["fàlák", "fàlák"],
     agq: ["kwɛ̌ɛ", "kwɛ̌ː"],
     dds: ["gɛɛdɛ", "ɡɛːdɛ"],
     frr_amr: ["winj", "vɪɲ"],
@@ -1188,6 +1188,7 @@ WORDS.wind = {
     kjp: ["လီ", "lì"],
     srb: ["ringe", "riŋɡe"],
     kim: ["ӄат", "qat"],
-    kdt: ["jaːl", "jaːl"]
+    kdt: ["jaːl", "jaːl"],
+    pqm: ["wocawson", "wotʃawson"]
   },
 };

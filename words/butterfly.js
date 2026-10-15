@@ -919,6 +919,10 @@ WORDS.butterfly = {
     gsw_w: ["Pfiifoltra", "ˈpfiːfoltra"],
     kpf: ["eteŋ eteŋ", "eteŋ eteŋ"],
     mpt: ["bebuali", "bebuali"],
-    toc: ["xpipilekg", "ʃpipileq"]
+    toc: ["xpipilekg", "ʃpipileq"],
+    abe: ["mamijola", "mamidʒola"],
+    ik: ["taqalukisaq", "taqalukisaq"],
+    usp: ["pepe", "pepe"],
+    bgc: ["पटबीजणा", "pəʈbiːdʒɳaː"]
   },
 };

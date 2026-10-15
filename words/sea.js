@@ -809,7 +809,7 @@ WORDS.sea = {
     fai: ["yol wok", "jol wok"],
     toj: ["niwan jaʼ", "niwan haʔ"],
     ekp: ["olimini", "olimini"],
-    xed: ["drəf", "drəf"],
+    xed: ["drə̀f", "drə̀f"],
     cni: ["inkajare", "iŋkahaɾe"],
     bnn: ["ning-av", "niŋʔav"],
     aae: ["det", "dɛt"],
@@ -1112,6 +1112,7 @@ WORDS.sea = {
     nha: ["wilu", "wilu"],
     wrh: ["gadhang", "ˈɡad̪aŋ"],
     srb: ["gəning", "ɡəniŋ"],
-    kim: ["далай", "dalaj"]
+    kim: ["далай", "dalaj"],
+    din: ["adɛkdiɛt", "adɛkdiɛt"]
   }
 };

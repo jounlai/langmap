@@ -897,6 +897,9 @@ WORDS.rice = {
     mrq: ["karaihi", "kaɾaihi"],
     gay: ["oros", "ɔrɔs"],
     gsw_als: ["Riss", "ris"],
-    gsw_w: ["Riiss", "riːs"]
+    gsw_w: ["Riiss", "riːs"],
+    ssf: ["zashuq", "ðaʃuq"],
+    ik: ["kumauraq", "kumauʐaq"],
+    vls: ["rys", "ris"]
   }
 };

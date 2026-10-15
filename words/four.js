@@ -1240,6 +1240,7 @@ WORDS.four = {
     koy: ["dinkʼee", "dinkʼiː"],
     haj: ["চৗৰ", "tʃɯɾ"],
     myp: ["baágiso", "baáɡiso"],
-    wmt: ["kurriny kurriny", "kuriɲ kuriɲ"]
+    wmt: ["kurriny kurriny", "kuriɲ kuriɲ"],
+    vls: ["vier", "viːr"]
   },
 };

@@ -939,7 +939,7 @@ WORDS.moon = {
     ess: ["танӄиӄ", "tanqiq"],
     ale: ["тугидах̆", "tuɣiðaχ"],
     apw: ["tłʼéʼgonaʼáí", "tɬʼéʔɡonaʔáí"],
-    dak: ["haŋyétuwí", "haŋjétuwí"],
+    dak: ["haŋyétuwí", "hãjétuwí"],
     chy: ["taaʼéešeʼhe", "taːʔéeʃeʔhe"],
     arp: ["biikóusíis", "biːkóusíis"],
     kio: ["pʼɔ́:", "pʼɔ́ː"],

@@ -860,7 +860,7 @@ WORDS.person = {
     bzh: ["mehö", "meʁɔ"],
     tdh: ["मु़चु़", "mytsy"],
     ker: ["hulum", "hulum"],
-    xed: ["mndu", "mndu"],
+    xed: ["mndú", "mndú"],
     agq: ["ghùw", "ɣùw"],
     nzm: ["ziemmena", "ziemːena"],
     crx: ["dune", "dune"],
@@ -1162,6 +1162,7 @@ WORDS.person = {
     kwa: ["dəw", "dəw"],
     dyo: ["an", "an"],
     bor: ["boe", "boe"],
-    wym: ["menś", "menʃ"]
+    wym: ["menś", "menʃ"],
+    vls: ["mens", "mɛns"]
   }
 };

@@ -966,7 +966,7 @@ WORDS.snow = {
     mrw: ["ilo", "ilo"],
     mmd: ["tɕu5", "tɕu˦˦"],
     niu: ["kiona", "kiona"],
-    lun: ["—", "—"],
+    lun: ["nvula yachishika yitooka", "nvula jatʃiʃika jitoːka"],
     seh: ["neve", "neve"],
     bin: ["isonorhọ", "isonoɹ̝̊ɔ"],
     ng: ["olumi", "olumi"],
@@ -1000,6 +1000,7 @@ WORDS.snow = {
     laj: ["pee", "peː"],
     tus: ["uwi:threh", "uwiːθɾeh"],
     wrh: ["gunama", "ˈɡunama"],
-    aoz: ["sen-sene", "sensene"]
+    aoz: ["sen-sene", "sensene"],
+    zts: ["guɨy", "ɡɨj"]
   }
 };

@@ -405,7 +405,7 @@ WORDS.sun = {
     ker: ["cəwa", "tʃə́wá"],
     dbq: ["pic", "pitʃ"],
     wo: ["jant", "dʒant"],
-    srr: ["—", "—"],
+    srr: ["njeeƈ", "ndʒeːʄ̊"],
     so: ["qorrax", "qorːaħ"],
     om: ["aduu", "aduː"],
     kxc: ["piirtuta", "piːrtuta"],

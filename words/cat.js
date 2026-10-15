@@ -750,7 +750,7 @@ WORDS.cat = {
     ay: ["phisi", "pʰisi"],
     jqr: ["phishi", "pʰiʃi"],
     cni: ["mishito", "miʃito"],
-    ame: ["michi", "mitʃi"],
+    ame: ["mech", "metʃ"],
     gym: ["mishi", "miʃi"],
     yan: ["mistuh", "mistuh"],
     jiv: ["míchik", "ˈmitʃik"],

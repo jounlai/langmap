@@ -1183,6 +1183,8 @@ WORDS.rain = {
     dyo: ["kalub", "kalub"],
     hup: ["na:nyay", "naːnjaj"],
     cjm: ["ꨨꨎꩆ", "hadʑan"],
-    one: ["yokʌno:lú", "jokʌ̃noːlṹ"]
+    one: ["yokʌno:lú", "jokʌ̃noːlṹ"],
+    pqm: ["komiwon", "komiwon"],
+    bci: ["nzue", "nzue"]
   },
 };

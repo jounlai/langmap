@@ -693,7 +693,7 @@ WORDS.tongue = {
     ay: ["laxra", "laχɾa"],
     jqr: ["naxra", "naχɾa"],
     cni: ["nene", "nene"],
-    ame: ["ñeñech", "ɲeɲetʃ"],
+    ame: ["ñeñets", "ɲeɲets"],
     gym: ["tidrö", "tidɾɤ"],
     yan: ["tû", "tuː"],
     jiv: ["inai", "inai"],

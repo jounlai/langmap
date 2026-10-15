@@ -1061,6 +1061,9 @@ WORDS.green = {
     dbq: ["vediɗ vediɗ", "vediɗ vediɗ"],
     kpe: ["laa-ŋunu", "laː ŋunu"],
     ja_rys: ["びぃろーとぅ", "bɨɾoːtu"],
-    bzh: ["nimewis", "niməˠwitʃ"]
+    bzh: ["nimewis", "niməˠwitʃ"],
+    bxk: ["lubookha", "luβoːxa"],
+    xnr: ["सैला", "sɛːlaː"],
+    ebu: ["ngirini", "ŋɡiɾini"]
   }
 };

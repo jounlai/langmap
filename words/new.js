@@ -970,7 +970,7 @@ WORDS.new = {
     dur: ["ʼmaŋ", "ʔmaŋ"],
     sad: ["ǁae", "ǁaé"],
     ja_rys: ["みぃーさーん", "mɨːsaːɴ"],
-    xed: ["lfiɗa", "lfiɗa"],
+    xed: ["lfíɗ", "lfíɗ"],
     dds: ["kanda", "kanda"],
     nzm: ["karchibe", "kartʃibe"],
     aae: ["i ri", "i ɾi"],

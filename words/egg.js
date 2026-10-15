@@ -1172,6 +1172,7 @@ WORDS.egg = {
     sdo: ["tulo", "tulo"],
     hup: ["-we:wheʼ", "-weːhʷeʔ"],
     aja: ["klokloʒin", "klokloʒĩ"],
-    kpe: ["ɣáloŋ", "ɣáloŋ"]
+    kpe: ["ɣáloŋ", "ɣáloŋ"],
+    zts: ["dzɨtbɨdy", "dzɨtbɨdj"]
   },
 };

@@ -1087,7 +1087,7 @@ WORDS.stone = {
     bzh: ["ġelönġ", "ᶰɢəl̪ɔɴ"],
     xkz: ["gor", "ɡor"],
     dur: ["ʼyɛgɛ", "ʔjɛɡɛ"],
-    xed: ["pala", "pala"],
+    xed: ["pálà", "pálà"],
     agq: ["tia", "tia"],
     dds: ["tibu", "tibu"],
     nzm: ["tingchu", "tiŋtʃu"],

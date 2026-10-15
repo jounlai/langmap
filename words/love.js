@@ -747,7 +747,7 @@ WORDS.love = {
     ay: ["munasiña", "munasiɲa"],
     jqr: ["munasiña", "munasiɲa"],
     cni: ["nonintsi", "nonintsi"],
-    ame: ["ehueñ", "eweɲ"],
+    ame: ["muereñets", "mweɾeɲets"],
     gym: ["tare", "taɾe"],
     yan: ["walai", "walai"],
     jiv: ["anentaiti", "anentaiti"],

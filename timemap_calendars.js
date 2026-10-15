@@ -181,11 +181,18 @@
     // One char per lunar month from 1 正月 1900 (JDN 2415051): a = 29 days,
     // b = 30, c = leap month of 29, d = leap month of 30.
     const CN_START = 2415051, CN_MONTHS = 'abaababbcbbababaabababbbababaabababbbababacbaabbabbbabaabaabbabbabbaababababbadabababababababbabababaabbababbababcabababbbababaabababbbababaabcabbabbbabaabaabbabbbabaabaababbbabadabaababbabbabababaabbababbabababacbabbabbababaabababbabbabaabaadbabbbabaabaababbbbabaabaababbbabbacbaababbabbababaabababbabbababaababadbabbababaabababbabbabaababababbbabcabaababbbbabaabaababbbabbaabcababbabbababaabababbbababaabababbabdababaabababbababbabaabababbabbabaadaabbabbbabaabaababbbabbaabaadabbabbbaabaabababbbababaabababbabbadaababababbabababababababbababababadababbabbaabaababbbabbaabaababbabbbcabaabababbbababaabababbabbabacbabababbabbaababababbababababababadabbabababaabbabbabababaababbabbabadaabababbbababaabababbbababaabcbababbbabaababababbabababababababbcbababababababbabababaababbabbababacbababbbababaabababbbababaabaabbabbbcbaabaabbabbabbaabababababbabcbabababababbabababaababbabbababaabcbabbbababaabababbabbabaabaabbabbbabcabaabbabbbabaabaababbbabababcababbabbabababaababbabbabababaababdabbababaabababbabbabaabaabbabbbabacbaababbbbabaabaababbbabbaabaabcbbabbababaabababbabbababaabababbcbbabaababababbabbabaababababbbabaabcababbbbabaabaababbbabbaabaababbabbcbabaabababbbababaabababbababbcababababbababbaababababbabbabaabacbbabbabbaabaababbbabbaabaababbabbabcbaabababbbababaabababbabbabaabababcbbabababababababbababababababcbbabbaabaababbbabbaabaababbabbbaabcabababbbababaabababbabbabaababababbcbababababababbabababababababbcbababaababbbabababaababbabbababaadababbbababaabababbbababaabaabbabbbcbaababababbabababababababbababababcabbabbabababaababbabbababaabcbabbbababaabaabbbabbabaabaabbabbbabcabaabbabbabababaabbababbabababaabbcbabbabababaababbabbababaabababbbcbabaabababbabbabaabaabbabbbabaadaababbbbabaabaababbbabababaababbabbcbababaababbababbabaabababbabbababcabababbabbabaabaabbabbbabaabacbabbbbabaabaababbbabababaababbabbadabaabababbabbabaababababbabbabaabadababbabbabaabaabbabbbabaabaabcbbbbabaabaababbbabbaabaababbabbabadaabababbbababaabababbababbaabababadabbabbaabababababbbabaabaababbbabbacbaababbbabbaabaababbabbababacbababbbababaabababbabbabaababababbcbababababababbababababaabbabbabababcababbbabababaababbabbababaabcbabbbababaabababbabbabaababababbabcbabababababbabababababababbabababacbabbbabababaababbabbababaabababbbabcbaabaabbbabbabaabaabbabbbaabcbaabbabbabababababababbababababaabdabbabababaababbabbababaabababbbababcabaabbbabbabaaababbabbbabaabcabbabbabababaababbabbabababaabbabadbababaabababbabbababaabababbbababacbaabbbabbabaaababbabbbabaaabababbbcbbaabaababbbabababaab';
-    function cnTable(j) {
-        if (j < CN_START) return null;
-        let start = CN_START, y = 1900, m = 0;
-        for (let i = 0; i < CN_MONTHS.length; i++) {
-            const c = CN_MONTHS.charCodeAt(i) - 97, len = 29 + (c & 1), leap = c >= 2;
+    // Korea's own month table, 1900–2050, from the Korea Astronomy and Space Science
+    // Institute data (via the korean-lunar-calendar package). The UTC+9 approximation
+    // below misses months whose new moon falls near Korean midnight (2005-12 starts on
+    // the 2nd, not the 1st) and Korea's own leap months (2017: 윤5월, where China has
+    // 闰六月). Same encoding as CN_MONTHS. Added 2026-10-15 after a check against KASI.
+    const KR_START = 2415051, KR_MONTHS = 'abaababbcbbababaabababbbababaabababbbababacbaabbabbbabaabaabbabbabbaababababbadabababababababbabababaabbababbababcabababbbababaabababbbababaabcabbabbbabaabaabbabbbabaabaababbbabbcababaabbabbabababababababbabababacbabbabbababaabababbbababaababcbbabbabaabaabbabbbabaabaababbbabbacbaababbabbabababaabbababbababaababbcbabbababaabababbabbabaabababbabbabcabaabbabbbabaabaababbbabbaabcababbabbbaabaabababbbababaabababbabdababaabababbabbababaabababbabbabaadabababbbabaabaababbbabbaabaadabbabbbaabaabababbbababaabababbabbadaababababbabbabaababababbabbabaabadababbabbaabaababbbabbaabaababbabbbcabaabababbbababaabababbbababacbababbabbabaababababbababababababadbababababaabbabbabbaabaababbabbbaadaabababbbababaabababbbababaabcbabbabbabaababababbabababababababbcbababababababbabababaababbabbababacbababbbababaabababbbababaabaabbbabbcbaabaabbabbabbaababababbababcbabababababbabababaabbababbababaabcbabbbababaabababbbababaabaabbbabbabcabaabbabbbabaabaababbbabababcbaabbabbabababaabbababbabababaababdabbababaabababbabbabaabaabbabbbabacbaabbabbbabaabaababbbabbaabaabcbbabbababaabababbabbababaababbabcbbababaabababbabbabaabababbabbabaabcabbabbbabaabaababbbabbaabaababbabbcbabaabababbbababaabababbabbabcbaabababbababbabaabababbabbabaabacbbabbbabaabaababbbabbaabaababbabbbacbaabababbbababaabababbabbabaabababcbbabababababababbabbaababababcbbabbaabaababbbabbaabaababbabbbaabcabababbbababaabababbabbabaababababdbabaababababbababababababababbcbababaababbbabababaababbabbababacbababbbababaabababbbababaabababbabbcbaababababbabababababababbababababcbababbabababaababbabbababaabcbabbbababaabababbbababaabaabbbabbabcabaabbabbabbaabaabbababbabababababcbabbabababaababbabbababaabababbbcbabaabababbbababaabaabbabbbabaadaabbabbbabaabaababbbabababaababbabbcbababaababbabbabababaababbabbababcabababbabbabaabaabbabbbabaabacbabbbbabaabaababbbabbaabaababbabbadabaabababbabbababaabababbabbababaadababbab';
+    function cnTable(j, START, MONTHS) {
+        START = START || CN_START; MONTHS = MONTHS || CN_MONTHS;
+        if (j < START) return null;
+        let start = START, y = 1900, m = 0;
+        for (let i = 0; i < MONTHS.length; i++) {
+            const c = MONTHS.charCodeAt(i) - 97, len = 29 + (c & 1), leap = c >= 2;
             if (!leap) { m++; if (m > 12) { m = 1; y++; } }
             if (j < start + len) return { relatedYear: y, month: m, leap, day: j - start + 1 };
             start += len;
@@ -201,8 +208,11 @@
             // North Vietnam moved its lunar calendar to UTC+7 from 1968; before that it followed China's.
             return g.y >= 1968 ? lunarAt(g, 7) : (cnTable(gregToJdn(g.y, g.m, g.d)) || lunarAt(g, 8));
         }
-        // Korea: UTC+8:30 in 1954–1961 and before 1912, otherwise UTC+9.
+        // Korea: KASI's table where it reaches; beyond it, UTC+8:30 in 1954–1961 and
+        // before 1912, otherwise UTC+9.
         const j = gregToJdn(g.y, g.m, g.d);
+        const kr = cnTable(j, KR_START, KR_MONTHS);
+        if (kr) return kr;
         const tz = (g.y < 1912 || (j >= gregToJdn(1954, 3, 21) && j < gregToJdn(1961, 8, 10))) ? 8.5 : 9;
         return lunarAt(g, tz);
     }

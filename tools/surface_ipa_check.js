@@ -84,13 +84,17 @@ function illegalSyllable(ip) {
   if (ip == null) return null;
   const b = String(ip).replace(/[˥˦˧˨˩]/g, '');
   if (/[mnŋlrszʐʂʑɕʮʯ]̩[ʔ]/.test(b)) return 'syllabic-consonant + glottal stop';
-  if (/[ɿʅʮʯ][ʔ]/.test(b)) return 'apical vowel + glottal stop';
+  // Nanjing keeps the glottal stop after an apical vowel: MCPDict 南京 十 ʂʅʔ5,
+  // 日 ɻʅʔ5, 石/食 ʂʅʔ5 (HNT review 2026-10-15). The rule stays for Wu, where
+  // such a syllable is impossible (#73); zh_nj is exempt.
+  if (/[ɿʅʮʯ][ʔ]/.test(b) && !illegalSyllable.apicalGlottalOk) return 'apical vowel + glottal stop';
   if (/[mnŋ]̩[p̚t̚k̚]/.test(b)) return 'syllabic nasal + oral stop';
   return null;
 }
 const cHits = [];
 for (const x of cells) {
   if (!SINITIC(x.lang)) continue;
+  illegalSyllable.apicalGlottalOk = (x.lang === 'zh_nj');
   const r = illegalSyllable(x.ipa);
   if (r) cHits.push({ ...x, kind: r });
 }

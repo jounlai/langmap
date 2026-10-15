@@ -85,6 +85,11 @@ function toneSig(ipa) {
 //         UNexplained outliers — a regression guard. `lang|char`.
 const EXCEPTIONS = new Set([
   // tier 5 (2026-10-02), each checked against its source table:
+  // HNT review 2026-10-15: colloquial readings that left the entering tone, and a
+  // literary reading in 陰去 — each as MCPDict / Wiktionary list it:
+  'cjy|六',      // 太原 everyday numeral liəu45 (MCPDict 太原), not the checked luəʔ
+  'cjy|肉',      // 太原 zəu45 (MCPDict zəʊ5; Wiktionary rou3)
+  'cdo|飯',      // 福州 文讀 huaŋ5 (陰去 213) — MCPDict 福州; the 白讀 is in 陽去
   'cjy|綠',      // 太原 luəʔ7 陰入 (MCPDict 太原; Wiktionary j=lueh4) — 次濁入 in 陰入
   'mnp|豬',      // 建甌 kṳ̌ is 訓讀（豨）, another etymon (MCPDict 訓“豨”)
   'nan_hai|綠',  // 海口 文讀 lok7 陰入 beside 白讀 liak8 (MCPDict 海口)

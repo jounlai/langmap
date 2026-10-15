@@ -639,12 +639,12 @@
         { id: 'greg_uk', status: 'gregorian', lat: 52.6, lng: -1.6,
           name: 'Gregorian calendar', region: 'United Kingdom', type: 'Solar', epoch: 'Anno Domini',
           used: 'Since 14 September 1752 (3–13 September 1752 never happened)',
-          note: 'Britain and its colonies switched 170 years after Rome; the same act moved New Year’s Day from 25 March to 1 January.',
+          note: 'Britain and its colonies switched 170 years after Rome. The same act moved New Year’s Day from 25 March to 1 January in England, Wales, Ireland and the colonies; Scotland had already made that change in 1600.',
           from: { y: 1752, m: 9, d: 14 },
           fmt: (g, D) => ({ native: fmt('en-GB', DMY).format(D), latin: 'day · month · year', tr: { kind: 'full' } }) },
         { id: 'greg_us', status: 'gregorian', lat: 39.5, lng: -98.5,
           name: 'Gregorian calendar', region: 'United States', type: 'Solar', epoch: 'Anno Domini',
-          used: 'Since 1752, as British colonies',
+          used: 'Since 1752 in the British colonies; Spanish and French lands used it from 1582 (or from their founding), Alaska from 1867',
           note: 'Same calendar as Britain, written month-first: 10/5 is 5 October in the US and 10 May in the UK.',
           from: { y: 1752, m: 9, d: 14 },
           fmt: (g, D) => ({ native: fmt('en-US', DMY).format(D), latin: 'month · day · year', tr: { kind: 'full' } }) },
@@ -664,14 +664,14 @@
           year: '{era} {n}', gannen: true,
           from: { y: 1873, m: 1, d: 1 },
           fmt: (g, D) => { const p = parts('ja-JP-u-ca-japanese', { era: 'long', year: 'numeric' }, D);
-              const n = +p.year, eraJa = p.era, ERA_EN = { '明治': 'Meiji', '大正': 'Taishō', '昭和': 'Shōwa', '平成': 'Heisei', '令和': 'Reiwa' };
+              const n = p.year === '元' ? 1 : +p.year, eraJa = p.era, ERA_EN = { '明治': 'Meiji', '大正': 'Taishō', '昭和': 'Shōwa', '平成': 'Heisei', '令和': 'Reiwa' };
               return { native: eraJa + (n === 1 ? '元' : n) + '年' + g.m + '月' + g.d + '日',
                        latin: (ERA_EN[eraJa] || eraJa) + ' ' + n + ', ' + g.m + '/' + g.d,
                        tr: Object.assign(trGreg(n, g.m, g.d), { era: eraJa, eraKey: ERA_EN[eraJa] || eraJa }) }; } },
         { id: 'roc', status: 'current', use: 'official', lat: 23.7, lng: 121.0,
           name: 'Minguo calendar', region: 'Taiwan', type: 'Gregorian months, Republic-era years',
           epoch: 'Founding of the Republic of China, 1912', used: 'Since 1912; official in Taiwan',
-          note: 'Year = Western year − 1911. It runs in step with North Korea’s Juche year.',
+          note: 'Year = Western year − 1911. North Korea’s Juche years, counted from the same 1912 start until 2024, carried the same numbers.',
           year: 'Minguo {n}', gannen: true,
           from: { y: 1912, m: 1, d: 1 },
           fmt: g => { const n = g.y - 1911;
@@ -679,7 +679,7 @@
         { id: 'juche', status: 'historical', lat: 40.3, lng: 127.0,
           name: 'Juche calendar', region: 'North Korea', type: 'Gregorian months, Juche years',
           epoch: 'Birth of Kim Il Sung, 1912', used: '1997–2024: North Korea stopped printing the Juche year in October 2024',
-          note: 'Written with the Western year in brackets: 주체115(2026)년.',
+          note: 'Dates were written with the Western year in brackets, as in 주체113(2024)년.',
           year: 'Juche {n}',
           from: { y: 1912, m: 1, d: 1 }, endYear: 2024,
           fmt: g => { const n = g.y - 1911;
@@ -687,7 +687,7 @@
         { id: 'buddhist', status: 'current', use: 'official', lat: 15.6, lng: 100.9,
           name: 'Thai solar calendar', region: 'Thailand', type: 'Solar, Buddhist Era years',
           epoch: 'Buddhist Era: the Buddha’s parinirvana, 543 BC by Thai reckoning',
-          used: 'Official since 1912 (BE year), with 1 January as New Year since 1941',
+          used: 'Buddhist Era years official since 1912; New Year moved from 1 April to 1 January in 1941',
           note: 'Year = Western year + 543. Sri Lanka, Myanmar and Cambodia count the Buddhist Era one year apart from Thailand.',
           year: '{n} BE',
           from: { y: 1941, m: 1, d: 1 },
@@ -696,7 +696,7 @@
           name: 'Chinese lunisolar calendar', region: 'China', type: 'Lunisolar',
           epoch: 'No running year count; years cycle through 60 stem–branch names',
           used: 'Fixes the Spring Festival, Mid-Autumn and other holidays',
-          note: 'Months follow the new moon at Beijing; a leap month is added about 7 times in 19 years.',
+          note: 'Each month starts on the day of the new moon in Beijing time (UTC+8, the 120°E meridian); a leap month is added about 7 times in 19 years.',
           year: '{gzPy} year ({animal})',
           from: { y: 1, m: 1, d: 1 },
           fmt: (g, D) => { const c = lunar('chinese', D), cy = cycle(c.relatedYear);
@@ -706,7 +706,7 @@
         { id: 'dangi', status: 'current', use: 'popular', lat: 35.9, lng: 128.0,
           name: 'Korean lunisolar calendar', region: 'South Korea', type: 'Lunisolar',
           epoch: 'No running year count; 60-year cycle', used: 'Fixes Seollal and Chuseok',
-          note: 'Same rules as the Chinese calendar but computed for Korean time, so a new moon near midnight can start a month one day apart.',
+          note: 'Same rules as the Chinese calendar but computed for Korean time, so a new moon near midnight can start a month one day apart, and now and then the leap month falls elsewhere (2012: a leap 3rd month in Korea, a leap 4th month in China).',
           year: '{gzPy} year ({animal})',
           from: { y: 1, m: 1, d: 1 },
           fmt: (g, D) => { const c = lunar('dangi', D), cy = cycle(c.relatedYear);

@@ -8,8 +8,8 @@
     "hash": "af605212ac66624c"
   },
   "hanmap_data.js": {
-    "version": 186,
-    "hash": "6d92eba9490e310a"
+    "version": 188,
+    "hash": "6cc636ec0c0b713d"
   },
   "hanmap_trivia.js": {
     "version": 80,
@@ -52,8 +52,8 @@
     "hash": "1725c7a21734a986"
   },
   "namemap_names_ext.js": {
-    "version": 6,
-    "hash": "dad42f33f740096d"
+    "version": 7,
+    "hash": "f25b826fe1025314"
   },
   "nav-short.js": {
     "version": 6,
@@ -88,8 +88,8 @@
     "hash": "4581006a69c80b30"
   },
   "timemap_calendars.js": {
-    "version": 12,
-    "hash": "fc0d77ba620235fe"
+    "version": 13,
+    "hash": "5b7228bb2c977a47"
   },
   "word_labels.js": {
     "version": 68,

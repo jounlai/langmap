@@ -21,3 +21,10 @@ etymology hedged in all 19 languages; ja background prose made natural
 ## Round 4 (omar aisha khadija abdullah hassan · husayn zaynab nicholas helen catherine)
 64 patches (59 accepted, 5 amended): Turkish Ayşe and the other Islamic
 names' forms and IPA; prose hedges in 19 languages.
+
+## Round 5 (margaret philip theodore anthony julia · lakshmi arjun sita ganesh priya)
+73 patches, all accepted.
+
+## The five rounds together
+All 50 names reviewed (forms, IPA, trees, people, prose in 19 languages):
+302 patches applied, 0 rejected.

@@ -31,3 +31,13 @@ ahead of the Thai count only from Visak Bochea to 31 December; myanmar clean
 against Yan Naing Aye's mmcal.
 UI languages pt ru uk ar (never reviewed before): 58 fixes, 52 of them 13
 stale fields × 4 languages that had not followed later English edits.
+
+## Round 5
+Calendars iran_imperial french_rep egyptian roman byzantine aztec maya: five
+clean; french_rep note — only half the month names are weather words, and
+Romme's leap rule was proposed in 1795 and never adopted.
+UI languages he sw: 37 fixes.
+
+## The five rounds together
+All 51 calendars and all 18 UI-language files reviewed: 229 patches applied;
+one real engine bug (Japanese era first year printed NaN) fixed.

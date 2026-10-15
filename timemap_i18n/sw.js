@@ -86,7 +86,7 @@ window.TM_I18N["sw"] = {
    "Tishri",
    "Heshvani",
    "Kislevu",
-   "Tevethi",
+   "Tebethi",
    "Shebati",
    "Adari I",
    "Adari",
@@ -422,14 +422,14 @@ window.TM_I18N["sw"] = {
    "type": "Ya jua",
    "epoch": "Anno Domini",
    "used": "Tangu 14 Septemba 1752 (3–13 Septemba 1752 hazikuwahi kuwepo)",
-   "note": "Uingereza na makoloni yake zilibadili miaka 170 baada ya Roma; sheria hiyo hiyo ilihamisha Siku ya Mwaka Mpya kutoka 25 Machi hadi 1 Januari."
+   "note": "Uingereza na makoloni yake zilibadili miaka 170 baada ya Roma. Sheria hiyo hiyo ilihamisha Siku ya Mwaka Mpya kutoka 25 Machi hadi 1 Januari katika Uingereza, Welisi, Ayalandi na makoloni; Uskoti ilikuwa imeshafanya mabadiliko hayo mwaka 1600."
   },
   "greg_us": {
    "name": "Kalenda ya Gregori",
    "region": "Marekani",
    "type": "Ya jua",
    "epoch": "Anno Domini",
-   "used": "Tangu 1752, yakiwa makoloni ya Uingereza",
+   "used": "Tangu 1752 katika makoloni ya Uingereza; maeneo ya Hispania na Ufaransa yaliitumia tangu 1582 (au tangu kuanzishwa kwake), na Alaska tangu 1867",
    "note": "Ni kalenda ile ile ya Uingereza, ila mwezi huandikwa kwanza: 10/5 ni 5 Oktoba Marekani na 10 Mei Uingereza."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["sw"] = {
    "type": "Miezi ya Gregori, miaka ya enzi ya Jamhuri",
    "epoch": "Kuanzishwa kwa Jamhuri ya China, 1912",
    "used": "Tangu 1912; rasmi Taiwan",
-   "note": "Mwaka = mwaka wa Kimagharibi − 1911. Huenda sambamba na mwaka wa Juche wa Korea Kaskazini.",
+   "note": "Mwaka = mwaka wa Kimagharibi − 1911. Miaka ya Juche ya Korea Kaskazini, iliyohesabiwa kuanzia mwanzo ule ule wa 1912 hadi 2024, ilikuwa na namba zile zile.",
    "year": "Minguo {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["sw"] = {
    "type": "Miezi ya Gregori, miaka ya Juche",
    "epoch": "Kuzaliwa kwa Kim Il Sung, 1912",
    "used": "1997–2024: Korea Kaskazini iliacha kuchapisha mwaka wa Juche Oktoba 2024",
-   "note": "Huandikwa pamoja na mwaka wa Kimagharibi kwenye mabano: 주체115(2026)년.",
+   "note": "Tarehe ziliandikwa pamoja na mwaka wa Kimagharibi kwenye mabano, kama 주체113(2024)년.",
    "year": "Juche {n}"
   },
   "buddhist": {
@@ -472,7 +472,7 @@ window.TM_I18N["sw"] = {
    "region": "Thailand",
    "type": "Ya jua, miaka ya Enzi ya Kibudha",
    "epoch": "Enzi ya Kibudha: parinirvana ya Buddha, 543 KK kwa hesabu ya Kithai",
-   "used": "Rasmi tangu 1912 (mwaka wa BE), na 1 Januari kama Mwaka Mpya tangu 1941",
+   "used": "Miaka ya Enzi ya Kibudha ni rasmi tangu 1912; mwaka 1941 Mwaka Mpya ulihamishwa kutoka 1 Aprili hadi 1 Januari",
    "note": "Mwaka = mwaka wa Kimagharibi + 543. Sri Lanka, Myanmar na Kambodia huhesabu Enzi ya Kibudha kwa tofauti ya mwaka mmoja na Thailand.",
    "year": "{n} BE"
   },
@@ -482,7 +482,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya mwezi na jua",
    "epoch": "Hakuna hesabu ya miaka inayoendelea; miaka huzunguka katika majina 60 ya shina–tawi",
    "used": "Huamua Sikukuu ya Majira ya Kuchipua, Sikukuu ya Katikati ya Vuli na sikukuu nyingine",
-   "note": "Miezi hufuata mwezi mpya huko Beijing; mwezi wa ziada huongezwa takriban mara 7 katika miaka 19.",
+   "note": "Kila mwezi huanza siku ya mwezi mpya kwa saa za Beijing (UTC+8, meridiani ya 120°E); mwezi wa ziada huongezwa takriban mara 7 katika miaka 19.",
    "year": "mwaka wa {gzPy} ({animal})"
   },
   "dangi": {
@@ -491,7 +491,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya mwezi na jua",
    "epoch": "Hakuna hesabu ya miaka inayoendelea; mzunguko wa miaka 60",
    "used": "Huamua Seollal na Chuseok",
-   "note": "Kanuni ni zile zile za kalenda ya Kichina lakini hukokotolewa kwa saa za Korea, hivyo mwezi mpya karibu na usiku wa manane unaweza kuanzisha mwezi kwa tofauti ya siku moja.",
+   "note": "Kanuni ni zile zile za kalenda ya Kichina lakini hukokotolewa kwa saa za Korea, hivyo mwezi mpya karibu na usiku wa manane unaweza kuanzisha mwezi kwa tofauti ya siku moja, na mara kwa mara mwezi wa ziada huangukia mahali pengine (2012: mwezi wa 3 wa ziada Korea, mwezi wa 4 wa ziada China).",
    "year": "mwaka wa {gzPy} ({animal})"
   },
   "hebrew": {
@@ -507,7 +507,7 @@ window.TM_I18N["sw"] = {
    "region": "Saudi Arabia",
    "type": "Ya mwezi (bila mwezi wa ziada)",
    "epoch": "Hijra, kuhamia kwa Muhammad Madina, 622 BK",
-   "used": "Matumizi ya kidini duniani kote; ya kiraia Saudi Arabia (majedwali ya Umm al-Qura)",
+   "used": "Matumizi ya kidini duniani kote; rasmi Saudi Arabia (majedwali ya Umm al-Qura), ingawa mishahara ya serikali imelipwa kwa kalenda ya Gregori tangu 2016",
    "note": "Mwaka una takriban siku 354, hivyo Ramadhani husogea mapema kwa takriban siku 11 kila mwaka wa Kimagharibi na huzunguka majira yote katika miaka 33.",
    "year": "{n} AH"
   },
@@ -517,7 +517,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya jua (kiastronomia)",
    "epoch": "Hijra, 622 BK, ikihesabiwa kwa miaka ya jua",
    "used": "Rasmi Iran tangu 1925. Afghanistan iliitumia rasmi hadi 2022, serikali ilipohamia Hijria ya mwezi; watu huko bado wanaitumia",
-   "note": "Mwaka huanza wakati kamili wa ikwinoksi ya Machi (Nowruz), jambo linaloifanya kuwa moja ya kalenda sahihi zaidi zinazotumika.",
+   "note": "Mwaka huanza siku ya ikwinoksi ya Machi (Nowruz): ikwinoksi ikitokea kabla ya adhuhuri kwa saa za Tehran, siku hiyo ndiyo 1 Farvardin, la sivyo ni siku inayofuata. Kuufungamanisha mwaka na ikwinoksi halisi kunaifanya kuwa moja ya kalenda sahihi zaidi zinazotumika.",
    "year": "{n} SH"
   },
   "indian": {
@@ -535,7 +535,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya jua (kanuni zisizobadilika)",
    "epoch": "Bangabda, 593 BK",
    "used": "Rasmi Bangladesh; marekebisho ya 2019 ndiyo yanayoonyeshwa",
-   "note": "Mwaka Mpya, Pohela Boishakh, umewekwa tarehe 14 Aprili. Bengal Magharibi nchini India hufuata toleo la zamani la kiastronomia, hivyo tarehe huko zinaweza kutofautiana kwa siku moja.",
+   "note": "Mwaka Mpya, Pohela Boishakh, umewekwa tarehe 14 Aprili. Bengal Magharibi nchini India hufuata toleo la zamani la kiastronomia, hivyo tarehe huko zinaweza kutofautiana kwa siku chache.",
    "year": "{n} BS"
   },
   "ethiopic": {
@@ -544,7 +544,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya jua: miezi 12 ya siku 30 + mwezi wa 13 wa siku 5–6",
    "epoch": "Enzi ya Umwilisho, 8 BK kwa hesabu ya Gregori",
    "used": "Rasmi Ethiopia",
-   "note": "Iko nyuma ya hesabu ya Kimagharibi kwa miaka saba au minane; Mwaka Mpya (Enkutatash) huangukia 11 Septemba.",
+   "note": "Iko nyuma ya hesabu ya Kimagharibi kwa miaka saba au minane; Mwaka Mpya (Enkutatash) huangukia 11 Septemba, au 12 Septemba katika mwaka unaotangulia mwaka mrefu wa Gregori.",
    "year": "{n} (Kiethiopia)"
   },
   "coptic": {
@@ -657,7 +657,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya mwezi, ya kijedwali: miezi ya siku 30 na 29, miaka mirefu 11 katika 30",
    "epoch": "Hijra, 622 BK",
    "used": "Jumuiya ya Dawoodi Bohra duniani kote (takriban milioni moja), kwa Ramadhani, Idi na tarehe zote za kidini",
-   "note": "Kalenda thabiti ya kihesabu iliyorithiwa kutoka kwa Wafatimi, hivyo Idi ya Wabohra inaweza kuja siku moja kabla ya ile ya kuandama kwa mwezi — Idi el-Fitri 1445 ilikuwa 9 Aprili 2024.",
+   "note": "Kalenda thabiti ya kihesabu iliyorithiwa kutoka kwa Wafatimi, hivyo Idi ya Wabohra inaweza kuja siku moja au mbili kabla ya ile ya kuandama kwa mwezi — Idi el-Fitri 1445 ilikuwa 9 Aprili 2024, dhidi ya 10 Aprili Saudi Arabia na Pakistan na 11 Aprili katika sehemu kubwa ya India.",
    "year": "{n} AH"
   },
   "kiche": {
@@ -683,7 +683,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya mwezi na jua, yenye siku zinazorukwa na zinazorudiwa (aina ya Kitibeti)",
    "epoch": "Hakuna hesabu ya miaka inayoendelea; miaka hupewa majina kwa elementi na mnyama katika mzunguko wa miaka 60",
    "used": "Si kalenda ya serikali (ni ya Gregori tangu 1948), lakini huamua Tsagaan Sar, mwaka mpya, na siku ya kuzaliwa ya Chinggis Khaan, zote mbili sikukuu za umma",
-   "note": "Toleo la Genden Mpya (Tögs Buyant) la kalenda ya Kitibeti, lililoundwa mwaka 1786; linaweza kuanza mwaka siku moja au mwezi mmoja tofauti na Tibet — Tsagaan Sar 2025 iliangukia 1 Machi, Losar 28 Februari.",
+   "note": "Toleo la Genden Mpya (Tögs Buyant) la kalenda ya Kitibeti, lililotungwa na mtawa Sümbe Khambo Ishbaljir katika karne ya 18 (1747 kwa maelezo mengi; Berzin anataja 1786); linaweza kuanza mwaka siku moja au mwezi mmoja tofauti na Tibet — Tsagaan Sar 2025 iliangukia 1 Machi, Losar 28 Februari.",
    "year": "mwaka wa {gzPy} ({animal})"
   },
   "bhutanese": {
@@ -708,9 +708,9 @@ window.TM_I18N["sw"] = {
    "name": "Kalenda ya mwezi ya Kikhmer (chhankitek)",
    "region": "Kambodia",
    "type": "Ya mwezi na jua, yenye mwezi wa ziada au siku ya ziada katika baadhi ya miaka",
-   "epoch": "Enzi ya Kibudha: mwaka hubadilika siku inayofuata Visak Bochea, mwaka mmoja mbele ya hesabu ya Thailand",
+   "epoch": "Enzi ya Kibudha: mwaka hubadilika siku inayofuata Visak Bochea, hivyo kuanzia hapo hadi 31 Desemba huwa mwaka mmoja mbele ya hesabu ya Thailand",
    "used": "Huamua Visak Bochea, Pchum Ben, Sikukuu ya Maji na sikukuu nyingine za umma",
-   "note": "Siku huhesabiwa 1–15 katika nusu ya mwezi kuongezeka (កើត) na 1–15 katika nusu ya mwezi kupungua (រោច). Imekokotolewa kwa hesabu ya chhankitek, sawa na maktaba ya momentkh."
+   "note": "Siku huhesabiwa 1–15 katika nusu ya mwezi kuongezeka (កើត) na 1–14 au 1–15 katika nusu ya mwezi kupungua (រោច), kwa kuwa mwezi una siku 29 au 30. Imekokotolewa kwa hesabu ya chhankitek, sawa na maktaba ya momentkh."
   },
   "yuan": {
    "name": "Enzi ya nasaba ya Yuan: Zhizheng",
@@ -763,7 +763,7 @@ window.TM_I18N["sw"] = {
    "type": "Ya mwezi na jua, miaka tangu kuanzishwa kwa nasaba",
    "epoch": "Kuanzishwa kwa Joseon, 1392 = Gaeguk 1",
    "used": "Rasmi 1894–1895 (Mageuzi ya Gabo); kabla ya hapo Joseon iliandika tarehe kwa majina ya enzi za Ming, kisha za Qing",
-   "note": "Joseon ilidumisha kalenda ya mwezi na jua ya mtindo wa Kichina (Siheon-ryeok) hadi Korea ilipohamia kalenda ya jua tarehe 1 Januari 1896.",
+   "note": "Joseon ilidumisha kalenda ya mwezi na jua ya mtindo wa Kichina (kalenda ya Datong ya Ming, kisha tangu 1653 Siheon-ryeok ya Qing) hadi Korea ilipohamia kalenda ya jua tarehe 1 Januari 1896.",
    "year": "Gaeguk {n}"
   },
   "nguyen": {
@@ -789,7 +789,7 @@ window.TM_I18N["sw"] = {
    "region": "Siam (Thailand)",
    "type": "Ya jua, miaka tangu kuanzishwa kwa Bangkok",
    "epoch": "Kuanzishwa kwa Bangkok, 1782",
-   "used": "1889–1912, chini ya Wafalme Chulalongkorn na Vajiravudh",
+   "used": "1 Aprili 1889 – 31 Machi 1913 (R.S. 108–131), chini ya Wafalme Chulalongkorn na Vajiravudh",
    "note": "Mwaka ulianza tarehe 1 Aprili, kama miaka ya Kithai ilivyokuwa hadi 1941.",
    "year": "R.S. {n}"
   },

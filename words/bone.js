@@ -1145,7 +1145,7 @@ WORDS.bone = {
     sda: ["buku", "buku"],
     lld: ["os", "ɔs"],
     stq: ["Bunke", "ˈbʊŋkə"],
-    wym: ["knocha", "knoxa"],
+    wym: ["knocha", "ˈknoxa"],
     yuc: ["weshʼe", "weʃʼe"],
     kgg: ["guhu", "ɡuhu"],
     ota: ["كمیك", "keˈmik"],

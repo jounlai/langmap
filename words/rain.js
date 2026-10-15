@@ -261,7 +261,7 @@ WORDS.rain = {
     lt: ["lietus", "ˈlʲiɛtʊs"],
     lv: ["lietus", "ˈliɛtus"],
     ga: ["báisteach", "ˈbˠaːʃtʲəx"],
-    gd: ["uisge", "ɯʃkʲə"],
+    gd: ["uisge", "ˈɯʃkʲə"],
     cy: ["glaw", "ɡlaːu"],
     br: ["glav", "ɡlɑːw"],
     kw: ["glaw", "ɡlaʊ"],

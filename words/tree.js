@@ -568,7 +568,7 @@ WORDS.tree = {
     tcs: ["tri", "tri"],
     pis: ["tri", "tri"],
     hwc: ["tree", "tɹiː"],
-    se: ["muorra", "muɔrːa"],
+    se: ["muorra", "ˈmuɔrːa"],
     sma: ["moere", "ˈmuʌrɛ"],
     smj: ["muorra", "muɔrːa"],
     smn: ["muorâ", "muorɐ"],

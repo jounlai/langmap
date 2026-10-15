@@ -106,7 +106,7 @@ WORDS.honey = {
     el_grc: ["μέλι", "méli"],
     el_kath: ["μέλι", "ˈmeli"],
     el: ["μέλι", "ˈmeli"],
-    got: ["𐌼𐌹𐌻𐌹𐌸", "miliθ"],          // Gothic kept *mélit where the rest of Germanic did not
+    got: ["𐌼𐌹𐌻𐌹𐌸", "ˈmiliθ"],          // Gothic kept *mélit where the rest of Germanic did not
     sga: ["mil", "mʲilʲ"],
     mga: ["mil", "mʲilʲ"],
     ga: ["mil", "mʲɪlʲ"],

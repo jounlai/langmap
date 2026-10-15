@@ -1553,7 +1553,7 @@ WORDS.foot = {
     fan: ["abo", "abɔ"],  // abo covers the limb — Largeau's 1901 Fang dictionary files it under jambe and uses it of the foot throughout.
     fax: ["pe", "pɛ"],  // As Galician pé: pe vs pelna, the Fala reflex of perna.
     ff: ["koyngal", "kojŋɡal"],  // koyngal is one entry for pied, jambe and patte; Pozdniakov files it under *Qoos, whose Serer reflex xoos narrowed to the shin.
-    fi: ["jalka", "jɑlkɑ"],  // Finnish jalka is the whole lower limb; jalkaterä ('leg-blade') is the foot-specific compound. Its hand cell käsi behaves the same way against käsivarsi 'arm'.
+    fi: ["jalka", "ˈjɑlkɑ"],  // Finnish jalka is the whole lower limb; jalkaterä ('leg-blade') is the foot-specific compound. Its hand cell käsi behaves the same way against käsivarsi 'arm'.
     fia: ["óóy", "óːj"],  // Werner's Nobiin grammar 372 carries foot and leg on the one entry — the polysemy the Old Nubian cell names but cannot attest for Old Nubian itself.
     fit: ["jalka", "ˈjɑlkɑ"],  // Meänkielen sanakirja glosses jalka as ben and fot alike; Meänkieli keeps the Finnish pattern.
     fj: ["yava", "jaβa"],  // One word for the limb. IPA is the plain reading of the orthography, following how this row's own hand cell writes liga as liŋa. // was ["yava", "java"] (vi dialect rules 2026-10-06)
@@ -1603,7 +1603,7 @@ WORDS.foot = {
     goh: ["fuoz", "fuo̯s"],  // fuoz vs bein.
     gon: ["काल", "kaːl"],  // DEDR 1479 carries Go. kāl straight through with the gloss 'leg, foot', from Burrow and Bhattacharya's Gondi Vocabulary 652.
     gor: ["oʼato", "ʔoˈʔato"],  // The Gorontalo Bible washes oʼato at John 13:5, breaks it at John 19:31-32 with tula'u 'bone' at John 19:36 as the control, and uses it again for the legs like marble pillars at Song of Songs 5:15; paladu, the ACD's only other entry, is the sole of the foot. ABVD Hulondalo answers leg/foot with ʔoʔato.
-    got: ["𐍆𐍉𐍄𐌿𐍃", "foːtus"],  // Wright's Glossary and Lehmann s.v. fōtus, which renders Greek πούς alone. Route unknown: σκέλος falls outside the preserved text, so IDS leaves Gothic 4-350 blank.
+    got: ["𐍆𐍉𐍄𐌿𐍃", "ˈfoːtus"],  // Wright's Glossary and Lehmann s.v. fōtus, which renders Greek πούς alone. Route unknown: σκέλος falls outside the preserved text, so IDS leaves Gothic 4-350 blank.
     gqu: ["qa24", "qa˨˦"],  // Gelao uses one expression for the whole lower limb, against the tin/kha split of its Tai neighbours. // was ["pu31 ko35", "pu˧˩ ko˧˥"] (vi dialect rules 2026-10-06)
     grt: ["ja·pa", "dʒapa"],  // Burling's Mandi dictionary has ja· for the whole lower limb and ja·pa 'sole of the foot, foot' — the same -pa that makes jakpa the palm of the hand.
     gsw: ["Fuess", "fuəs"],  // MHG uo stayed a diphthong in Alemannic and this row shows it four times over (guet, Bluet, Buech, Mueter), so Fuess cannot be the parent's monophthongal Fuß.
@@ -2138,7 +2138,7 @@ WORDS.foot = {
     sip: ["རྐངམ", "kaːm"],  // Yliniemi 2019 lists རྐངམ kaːm against the honorific ཞབས ɕàp and gives Denjongke no separate leg word.
     sjd: ["ла̄бпь", "laːbp"],  // NorthEuraLex splits them, but WOLD returns jūll’k (= ю̄лльк) for both, so Kildin may well pattern with the other Saami languages; ла̄бпь is cognate with Finnish lapa 'blade, sole'.
     sjo: ["ᠪᡝᡨᡥᡝ", "bɘtk"],  // r66: spoken Xibe pronunciation (Li Shulan 1986 via Oskolskaya 2021), was the written-Manchu reading bətʰə. ᠪᡝᡨᡥᡝ covers both, as it does in the Manchu row; the Tungusic etymon is *begdi.
-    sk: ["noha", "nɔɦa"],  // As Czech.
+    sk: ["noha", "ˈnɔɦa"],  // As Czech.
     skr: ["پیر", "peːɾ"],  // پیر vs ڄنگھ — Lahnda keeps the split Hindi and Urdu have.
     sl: ["stopalo", "stɔˈpaːlɔ"],  // Sources disagree: NorthEuraLex returns nôga for both, Wiktionary lemmatises stopalo for the foot. Classed distinct on the Wiktionary reading. // was ["stopalo", "stɔpàːlɔ"] (vi dialect rules 2026-10-06)
     slr: ["ayax", "ɑjɑχ"],  // ayax covers both in Ma Wei et al.'s Salar-Uyghur-Chinese dictionary; ABVD's 'b. leg' inʤix is incik, the shin.

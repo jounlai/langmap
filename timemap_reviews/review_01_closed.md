@@ -23,3 +23,11 @@ Calendars pawukon kurdish akan iceland bahai parsi bohra kiche tibetan
 mongolian bhutanese — nine clean (Galungan 2025/26, Tsagaan Sar/Losar,
 Navroz 2023–28, Akwasidae checked against the engine), 2 fixes.
 UI languages de fr it es: 41 fixes (40 accepted, 1 amended).
+
+## Round 4
+Calendars myanmar khmer yuan ming qing ryukyu korean_empire joseon nguyen koki
+rattanakosin: 12 fixes — yuan and joseon start dates; the Khmer year is one
+ahead of the Thai count only from Visak Bochea to 31 December; myanmar clean
+against Yan Naing Aye's mmcal.
+UI languages pt ru uk ar (never reviewed before): 58 fixes, 52 of them 13
+stale fields × 4 languages that had not followed later English edits.

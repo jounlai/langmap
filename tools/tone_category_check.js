@@ -94,6 +94,7 @@ const EXCEPTIONS = new Set([
   'czh|上',      // 歙縣 ɕia3 (35, 上聲) for 上 '~山、~头' (MCPDict 歙縣) — the verb keeps 上聲
   'wuu_jh|犬',   // 金華 文讀 tɕʰyã 55 (MCPDict 金華), not 上聲 535
   'wuu_jh|左',   // 金華 白讀 tsuɤ 55 (MCPDict 金華) — 左 read in 陰去, as in many Wu dialects
+  'zh_jiao|左',  // 膠遼 左 tsuə1 (陰平 213) in the MCPDict table the row follows
   'cjy|綠',      // 太原 luəʔ7 陰入 (MCPDict 太原; Wiktionary j=lueh4) — 次濁入 in 陰入
   'mnp|豬',      // 建甌 kṳ̌ is 訓讀（豨）, another etymon (MCPDict 訓“豨”)
   'nan_hai|綠',  // 海口 文讀 lok7 陰入 beside 白讀 liak8 (MCPDict 海口)

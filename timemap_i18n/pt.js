@@ -422,14 +422,14 @@ window.TM_I18N["pt"] = {
    "type": "Solar",
    "epoch": "Anno Domini",
    "used": "Desde 14 de setembro de 1752 (os dias 3 a 13 de setembro de 1752 nunca existiram)",
-   "note": "A Grã-Bretanha e suas colônias mudaram 170 anos depois de Roma; a mesma lei transferiu o Ano-Novo de 25 de março para 1º de janeiro."
+   "note": "A Grã-Bretanha e suas colônias mudaram 170 anos depois de Roma. A mesma lei transferiu o Ano-Novo de 25 de março para 1º de janeiro na Inglaterra, no País de Gales, na Irlanda e nas colônias; a Escócia já tinha feito essa mudança em 1600."
   },
   "greg_us": {
    "name": "Calendário gregoriano",
    "region": "Estados Unidos",
    "type": "Solar",
    "epoch": "Anno Domini",
-   "used": "Desde 1752, como colônias britânicas",
+   "used": "Desde 1752 nas colônias britânicas; os territórios espanhóis e franceses o usavam desde 1582 (ou desde sua fundação), e o Alasca desde 1867",
    "note": "O mesmo calendário da Grã-Bretanha, escrito com o mês primeiro: 10/5 é 5 de outubro nos EUA e 10 de maio no Reino Unido."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["pt"] = {
    "type": "Meses gregorianos, anos da era republicana",
    "epoch": "Fundação da República da China, 1912",
    "used": "Desde 1912; oficial em Taiwan",
-   "note": "Ano = ano ocidental − 1911. Acompanha o ano Juche da Coreia do Norte.",
+   "note": "Ano = ano ocidental − 1911. Os anos Juche da Coreia do Norte, contados a partir do mesmo início (1912) até 2024, tinham os mesmos números.",
    "year": "do ano {n} da era Minguo"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["pt"] = {
    "type": "Meses gregorianos, anos Juche",
    "epoch": "Nascimento de Kim Il-sung, 1912",
    "used": "1997–2024: a Coreia do Norte deixou de imprimir o ano Juche em outubro de 2024",
-   "note": "Escrito com o ano ocidental entre parênteses: 주체115(2026)년.",
+   "note": "As datas eram escritas com o ano ocidental entre parênteses, como em 주체113(2024)년.",
    "year": "do ano {n} da era Juche"
   },
   "buddhist": {
@@ -472,7 +472,7 @@ window.TM_I18N["pt"] = {
    "region": "Tailândia",
    "type": "Solar, anos da era budista",
    "epoch": "Era budista: o parinirvana do Buda, 543 a.C. pela contagem tailandesa",
-   "used": "Oficial desde 1912 (ano da era budista), com 1º de janeiro como Ano-Novo desde 1941",
+   "used": "Anos da era budista oficiais desde 1912; o Ano-Novo passou de 1º de abril para 1º de janeiro em 1941",
    "note": "Ano = ano ocidental + 543. Sri Lanka, Mianmar e Camboja contam a era budista com um ano de diferença da Tailândia.",
    "year": "do ano {n} da era budista"
   },
@@ -482,7 +482,7 @@ window.TM_I18N["pt"] = {
    "type": "Lunissolar",
    "epoch": "Sem contagem contínua de anos; os anos seguem um ciclo de 60 nomes de tronco e ramo",
    "used": "Define a Festa da Primavera, o Festival do Meio do Outono e outros feriados",
-   "note": "Os meses começam na lua nova em Pequim; um mês intercalar é acrescentado cerca de 7 vezes a cada 19 anos.",
+   "note": "Cada mês começa no dia da lua nova pelo horário de Pequim (UTC+8, o meridiano de 120° L); um mês intercalar é acrescentado cerca de 7 vezes a cada 19 anos.",
    "year": "do ano {gzPy} ({animal})"
   },
   "dangi": {
@@ -491,7 +491,7 @@ window.TM_I18N["pt"] = {
    "type": "Lunissolar",
    "epoch": "Sem contagem contínua de anos; ciclo de 60 anos",
    "used": "Define o Seollal e o Chuseok",
-   "note": "As mesmas regras do calendário chinês, mas calculadas para o horário da Coreia, então uma lua nova perto da meia-noite pode fazer o mês começar com um dia de diferença.",
+   "note": "As mesmas regras do calendário chinês, mas calculadas para o horário da Coreia, então uma lua nova perto da meia-noite pode fazer o mês começar com um dia de diferença, e às vezes o mês intercalar cai em outro lugar (2012: mês intercalar 3 na Coreia, mês intercalar 4 na China).",
    "year": "do ano {gzPy} ({animal})"
   },
   "hebrew": {
@@ -507,7 +507,7 @@ window.TM_I18N["pt"] = {
    "region": "Arábia Saudita",
    "type": "Lunar (sem mês intercalar)",
    "epoch": "A Hégira, a mudança de Maomé para Medina, 622 d.C.",
-   "used": "Uso religioso no mundo todo; civil na Arábia Saudita (tabelas de Umm al-Qura)",
+   "used": "Uso religioso no mundo todo; oficial na Arábia Saudita (tabelas de Umm al-Qura), embora desde 2016 os salários públicos sejam pagos pelo calendário gregoriano",
    "note": "Um ano tem cerca de 354 dias, então o Ramadã chega cerca de 11 dias mais cedo a cada ano ocidental e percorre todas as estações em 33 anos.",
    "year": "do ano {n} da Hégira"
   },
@@ -517,7 +517,7 @@ window.TM_I18N["pt"] = {
    "type": "Solar (astronômico)",
    "epoch": "A Hégira, 622 d.C., contada em anos solares",
    "used": "Oficial no Irã desde 1925. O Afeganistão o usou oficialmente até 2022, quando o governo passou para a Hégira lunar; a população de lá ainda o usa",
-   "note": "O ano começa no momento exato do equinócio de março (Nowruz), o que o torna um dos calendários mais precisos em uso.",
+   "note": "O ano começa no dia do equinócio de março (Nowruz): se o equinócio ocorre antes do meio-dia no horário de Teerã, esse dia é 1º de farvardin; se não, é o dia seguinte. Atrelar o ano ao equinócio real faz dele um dos calendários mais precisos em uso.",
    "year": "do ano {n} da Hégira solar"
   },
   "indian": {
@@ -535,7 +535,7 @@ window.TM_I18N["pt"] = {
    "type": "Solar (regras fixas)",
    "epoch": "Bangabda, 593 d.C.",
    "used": "Oficial em Bangladesh; é mostrada a revisão de 2019",
-   "note": "O Ano-Novo, Pohela Boishakh, é fixado em 14 de abril. Bengala Ocidental, na Índia, mantém uma versão astronômica mais antiga, então as datas lá podem diferir em um dia.",
+   "note": "O Ano-Novo, Pohela Boishakh, é fixado em 14 de abril. Bengala Ocidental, na Índia, mantém uma versão astronômica mais antiga, então as datas lá podem diferir em alguns dias.",
    "year": "do ano {n} da era bengali"
   },
   "ethiopic": {
@@ -544,7 +544,7 @@ window.TM_I18N["pt"] = {
    "type": "Solar: 12 meses de 30 dias + um 13º de 5–6",
    "epoch": "Era da Encarnação, 8 d.C. pela contagem gregoriana",
    "used": "Oficial na Etiópia",
-   "note": "Sete ou oito anos atrás da contagem ocidental; o Ano-Novo (Enkutatash) cai em 11 de setembro.",
+   "note": "Sete ou oito anos atrás da contagem ocidental; o Ano-Novo (Enkutatash) cai em 11 de setembro, ou em 12 de setembro no ano anterior a um ano bissexto gregoriano.",
    "year": "do ano {n} etíope"
   },
   "coptic": {
@@ -657,7 +657,7 @@ window.TM_I18N["pt"] = {
    "type": "Lunar, tabular: meses de 30 e 29 dias, 11 anos bissextos a cada 30",
    "epoch": "A Hégira, 622 d.C.",
    "used": "A comunidade bohra dawoodi no mundo todo (cerca de um milhão de pessoas), para o Ramadã, o Eid e todas as datas religiosas",
-   "note": "Um calendário aritmético fixo herdado dos fatímidas, então o Eid dos bohras pode cair um dia antes do definido pela observação da lua — o Eid al-Fitr de 1445 foi em 9 de abril de 2024.",
+   "note": "Um calendário aritmético fixo herdado dos fatímidas, então o Eid dos bohras pode cair um ou dois dias antes do definido pela observação da lua — o Eid al-Fitr de 1445 foi em 9 de abril de 2024, contra 10 de abril na Arábia Saudita e no Paquistão e 11 de abril na maior parte da Índia.",
    "year": "do ano {n} da Hégira"
   },
   "kiche": {
@@ -683,7 +683,7 @@ window.TM_I18N["pt"] = {
    "type": "Lunissolar, com dias pulados e duplicados (tipo tibetano)",
    "epoch": "Sem contagem contínua de anos; os anos são nomeados por elemento e animal num ciclo de 60 anos",
    "used": "Não é o calendário oficial (o gregoriano é, desde 1948), mas define o Tsagaan Sar, o ano-novo, e o aniversário de Gengis Khan, ambos feriados",
-   "note": "A versão Novo Genden (Tögs Buyant) do calendário tibetano, criada em 1786; pode começar o ano com um dia ou um mês de diferença em relação ao Tibete — o Tsagaan Sar de 2025 caiu em 1º de março; o Losar, em 28 de fevereiro.",
+   "note": "A versão Novo Genden (Tögs Buyant) do calendário tibetano, elaborada pelo monge Sümbe Khambo Ishbaljir no século XVIII (em 1747, segundo a maioria dos relatos; Berzin dá 1786); pode começar o ano com um dia ou um mês de diferença em relação ao Tibete — o Tsagaan Sar de 2025 caiu em 1º de março; o Losar, em 28 de fevereiro.",
    "year": "do ano do signo {animal}"
   },
   "bhutanese": {

@@ -17,3 +17,7 @@ vi Phaolô two syllables; thomas/abraham/isaac/jacob forms and IPA; prose in
 48 patches (46 accepted, 2 amended). el Μωυσής rom Moysís; Matthew
 etymology hedged in all 19 languages; ja background prose made natural
 (Greek and Latin were both written モユセス).
+
+## Round 4 (omar aisha khadija abdullah hassan · husayn zaynab nicholas helen catherine)
+64 patches (59 accepted, 5 amended): Turkish Ayşe and the other Islamic
+names' forms and IPA; prose hedges in 19 languages.

@@ -194,7 +194,7 @@ WORDS.blood = {
     ja_kyo: ["血", "tɕi"],
     ja_hir: ["血", "tɕi"],
     ja_mvi: ["あかつ", "akatsɨ"],
-    ja_rys: ["つぃ", "tsɨ"],
+    ja_rys: ["つぃー", "tsɨː"],
     ko: ["피", "pʰi"],
     ko_kp: ["피", "pʰi"],
     ko_bus: ["피", "pʰi"],

@@ -1187,6 +1187,7 @@ WORDS.wind = {
     aiw: ["zhoga", "ʒoɡa"],
     kjp: ["လီ", "lì"],
     srb: ["ringe", "riŋɡe"],
-    kim: ["ӄат", "qat"]
+    kim: ["ӄат", "qat"],
+    kdt: ["jaːl", "jaːl"]
   },
 };

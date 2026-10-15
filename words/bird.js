@@ -1207,6 +1207,7 @@ WORDS.bird = {
     hup: ["kʼiya:wh", "kʲʼijaːhʷ"],
     olk: ["ant", "ant"],
     kim: ["ӄушӄаш", "quʃqaʃ"],
-    mvf: ["xuu", "ɕuu"]
+    mvf: ["xuu", "ɕuu"],
+    itl: ["ийон", "ijon"]
   },
 };

@@ -1265,7 +1265,7 @@ WORDS.black = {
     xav: ["ĩʼrãdâ", "ĩʔɾãˈdə"],
     yur: ["loʼogey", "lɔʔɔɣej"],
     rim: ["njiutiki", "ndʒiutiki"],
-    ja_rys: ["っふさん", "ɸɸusaɴ"],
+    ja_rys: ["っふさーん", "ɸɸusaːɴ"],
     zh_han: ["黑", "m̥ǝ̄k"],
     xpr: ["syʾw", "sjaːw"],
     puaz: ["*tuku", "tuku"],

@@ -107,7 +107,7 @@ WORDS.thanks = {
       pt_gw: ["obrigadu", "obriɡadu"],
       tsz: ["diosï meyamu", "diosɨ meˈjamu"],
       nez: ["qeʼciyéwʼyewʼ", "qeʔtsijéwʔjewʔ"],
-      woe: ["—", "—"],
+      woe: ["gashigeshig", "ɡaʃiɡeʃiɡ"],
       pmt: ["—", "—"],
       bin: ["ù rú èsé", "ù rú èsé"],
       khw: ["شکریہ", "ʃukrijaː"],

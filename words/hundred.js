@@ -1186,6 +1186,8 @@ WORDS.hundred = {
     srb: ["molloi-kudi", "molloikudi"],
     pao: ["wahaʼyu manigimanoʼyu", "wahaʔju maniɡimanoʔju"],
     gsw_w: ["hunnert", "ˈhʊnːərt"],
-    lij_t: ["sentu", "ˈsɛŋtu"]
+    lij_t: ["sentu", "ˈsɛŋtu"],
+    aja: ["kavehowi", "kavehowi"],
+    woe: ["sebiugiuw", "sebʉɡʉw"]
   },
 };

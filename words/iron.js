@@ -1154,6 +1154,7 @@ WORDS.iron = {
     trm: ["čumä", "tʃumæ"],
     hup: ["tse:łchʼeʼ", "tseːɬtʃʼeʔ"],
     srb: ["luang", "luaŋ"],
-    mrq: ["puhipuhi", "puhipuhi"]
+    mrq: ["puhipuhi", "puhipuhi"],
+    itl: ["зэљэзаʼ", "zelʲezaʔ"]
   },
 };

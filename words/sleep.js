@@ -1203,6 +1203,10 @@ WORDS.sleep = {
     aiw: ["leema", "leːma"],
     wrh: ["yuray", "ˈjuɻaj"],
     spp: ["ŋɔɔ", "ŋɔ́ː"],
-    rwk: ["ilala", "ilala"]
+    rwk: ["ilala", "ilala"],
+    one: ["waki:tá:s", "wakiːtáːs"],
+    cay: ["agída̱ʼǫh", "aɡídḁʔõh"],
+    woe: ["masiur", "masʉɻ"],
+    ja_rys: ["にぶん", "nibuɴ"]
   },
 };

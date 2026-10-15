@@ -1235,6 +1235,7 @@ WORDS.mouth = {
     kio: ["sɔ́ɔ̀l", "sɔ́ɔ̀l"],
     dbl: ["ngan.gu", "ˈŋanɡu"],
     cjm: ["ꨚꨝꩍ", "pabah"],
-    na: ["aanaquan", "aanakʷan"]
+    na: ["aanaquan", "aanakʷan"],
+    kpe: ["lá", "lá"]
   }
 };

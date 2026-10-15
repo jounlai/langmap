@@ -960,6 +960,7 @@ WORDS.wheel = {
     mrq: ["huira", "huiɾa"],
     gay: ["roda", "rɔda"],
     gsw_als: ["Ràd", "rɒːt"],
-    gsw_w: ["Rat", "rat"]
+    gsw_w: ["Rat", "rat"],
+    one: ["okahkwʌ́:taʼ", "okahkwʌ̃́ːtaʔ"]
   }
 };

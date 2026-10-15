@@ -1206,6 +1206,7 @@ WORDS.head = {
     kio: ["ɔ́lthêm", "ɔ́ltʰêm"],
     dyo: ["fukow", "fukow"],
     hup: ["-tseʼ", "-tseʔ"],
-    haj: ["matha", "matʰa"]
+    haj: ["matha", "matʰa"],
+    one: ["onútsiʼ", "onṹtsiʔ"]
   },
 };

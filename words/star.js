@@ -184,7 +184,7 @@ WORDS.star = {
       ja_kyo: ["星", "hoɕi"],
       ja_hir: ["星", "hoɕi"],
       ja_mvi: ["ぷすぃ", "pusɿ"],
-      ja_rys: ["ぷし", "puɕi"],
+      ja_rys: ["ぷす", "pusu"],
       ko: ["별", "pjʌl"],
       ko_kp: ["별", "pjʌl"],
       ko_bus: ["별", "pjʌl"],

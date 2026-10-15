@@ -1157,6 +1157,7 @@ WORDS.mountain = {
     mlq: ["kuro", "kuɾo"],
     pzh: ["binayu", "binaju"],
     sip: ["རི", "ri"],
-    lij_t: ["munte", "ˈmuŋte"]
+    lij_t: ["munte", "ˈmuŋte"],
+    kpe: ["yée", "jée"]
   }
 };

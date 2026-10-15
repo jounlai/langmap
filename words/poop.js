@@ -917,6 +917,8 @@ WORDS.poop = {
     pao: ["kwidapɨ", "kʷitapɨ"],
     toc: ["kgatsasa", "qatsasa"],
     anu: ["cieth", "tʃiet̪"],
-    sad: ["choʼ", "tʃʰoʔ"]
+    sad: ["choʼ", "tʃʰoʔ"],
+    itl: ["ӄэлал", "qelal"],
+    aoz: ["maklafu", "maklafu"]
   },
 };

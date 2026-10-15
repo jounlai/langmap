@@ -1170,6 +1170,8 @@ WORDS.egg = {
     omc: ["mellu", "meʎu"],
     koy: ["kʼaghaazaʼ", "kʼaɣaːzaʔ"],
     sdo: ["tulo", "tulo"],
-    hup: ["-we:wheʼ", "-weːhʷeʔ"]
+    hup: ["-we:wheʼ", "-weːhʷeʔ"],
+    aja: ["klokloʒin", "klokloʒĩ"],
+    kpe: ["ɣáloŋ", "ɣáloŋ"]
   },
 };

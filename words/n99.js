@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    njo: "dec",
     sip: "mult",
     zh_han: "mult",
     zh_song: "mult",
@@ -946,6 +947,7 @@ WORDS.n99 = {
     }
   },
   data: {
+    njo: ["tukur-tuku", "tukuɹ tuku"],
     sip: ["དགུ་བཅུ་གོ་དགུ", "ɡuptɕu ɡoɡu"],
     zh_han: ["九十九", "kǝ́w ɡjǝp kǝ́w"],
     zh_song: ["九十九", "kiəu ʂi kiəu"],

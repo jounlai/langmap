@@ -999,6 +999,7 @@ WORDS.snow = {
     kr: ["mafi", "mafi"],
     laj: ["pee", "peː"],
     tus: ["uwi:threh", "uwiːθɾeh"],
-    wrh: ["gunama", "ˈɡunama"]
+    wrh: ["gunama", "ˈɡunama"],
+    aoz: ["sen-sene", "sensene"]
   }
 };

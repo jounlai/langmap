@@ -969,7 +969,7 @@ WORDS.new = {
     ker: ["kimirwi", "kimiɾwi"],
     dur: ["ʼmaŋ", "ʔmaŋ"],
     sad: ["ǁae", "ǁaé"],
-    ja_rys: ["みぃーさん", "mɨːsaɴ"],
+    ja_rys: ["みぃーさーん", "mɨːsaːɴ"],
     xed: ["lfiɗa", "lfiɗa"],
     dds: ["kanda", "kanda"],
     nzm: ["karchibe", "kartʃibe"],
@@ -1189,6 +1189,7 @@ WORDS.new = {
     kfr: ["નયો", "nəjo"],
     wrh: ["dhalanggirr", "ˈd̪alaŋɡir"],
     kim: ["няа", "ɲaː"],
-    sip: ["གསར་པུ", "saːpu"]
+    sip: ["གསར་པུ", "saːpu"],
+    one: ["a:sé", "aːsé"]
   }
 };

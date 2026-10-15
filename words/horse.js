@@ -1135,6 +1135,7 @@ WORDS.horse = {
     itb: ["kabaayo", "kabaajo"],
     gay: ["kude", "kudə"],
     mlq: ["suwo", "suwo"],
-    gsw_w: ["Ross", "ros"]
+    gsw_w: ["Ross", "ros"],
+    kdt: ["sɛh", "sɛh"]
   }
 };

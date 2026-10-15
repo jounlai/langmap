@@ -54,6 +54,7 @@ WORDS.we = {
     sw: "\"Sisi\", umbo la kamusi: kiwakilishi cha nafsi ya kwanza wingi katika umbo la kiima au umbo huru, katika usajili wa kawaida — si umbo la unyenyekevu, la heshima wala la kifalme. Pale lugha inapotofautisha kisarufi \"sisi\" kinachomjumuisha msikilizaji na \"sisi\" kisichomjumuisha, maumbo yote mawili huandikwa, kinachojumuisha kwanza, na ramani huzipa lugha hizo rangi yake. Huhesabiwa tofauti iliyo katika viwakilishi huru pekee; ikiwa iko katika kiambishi cha kitenzi tu, lugha huhesabiwa kuwa na neno moja.",
   },
   family: {
+    aau: "single",
     gon: "clusive",
     yle: "unknown",
     wic: "clusive",
@@ -2308,7 +2309,7 @@ WORDS.we = {
     cms: ["—", "—"],
     xht: ["—", "—"],
     txr: ["—", "—"],
-    aau: ["—", "—"],
+    aau: ["hrom", "hɾom"],
     ani: ["илӏил / ищил", "itɬil / iʃːil"], // was ["илӏил", "itɬʼil"] (vi dialect rules 2026-10-06)
     bdk: ["йин", "jin"],
     sdo: ["ami", "ami"],

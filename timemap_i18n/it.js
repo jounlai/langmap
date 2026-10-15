@@ -508,7 +508,7 @@ window.TM_I18N["it"] = {
    "type": "Lunare (senza mese intercalare)",
    "epoch": "L’Egira, il trasferimento di Maometto a Medina, 622 d.C.",
    "used": "Uso religioso in tutto il mondo; ufficiale in Arabia Saudita (tavole Umm al-Qura), anche se dal 2016 gli stipendi pubblici vi sono pagati secondo il calendario gregoriano",
-   "note": "Un anno dura circa 354 giorni, quindi il Ramadan anticipa di circa 11 giorni ogni anno occidentale e percorre tutte le stagioni in 33 anni.",
+   "note": "Un anno dura circa 354 giorni, quindi il Ramadan anticipa di circa 11 giorni ogni anno occidentale e percorre tutte le stagioni in 33 anni. Le date dal 1937 al 2077 seguono il calendario Umm al-Qura, che l’Arabia Saudita calcola in anticipo invece di attendere l’avvistamento della luna nuova, anche se le autorità possono ancora spostare di un giorno l’inizio di Ramadan, Shawwal o Dhu l-Hijja dopo un avvistamento. Le date anteriori al 1937 sono approssimative.",
    "year": "{n} dell’Egira"
   },
   "persian": {

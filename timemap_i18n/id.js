@@ -508,7 +508,7 @@ window.TM_I18N["id"] = {
    "type": "Bulan (tanpa bulan kabisat)",
    "epoch": "Hijrah, kepindahan Nabi Muhammad ke Madinah, 622 M",
    "used": "Keperluan agama di seluruh dunia; sipil di Arab Saudi (tabel Umm al-Qura)",
-   "note": "Setahun sekitar 354 hari, sehingga Ramadan maju sekitar 11 hari setiap tahun Masehi dan melewati semua musim dalam 33 tahun.",
+   "note": "Setahun sekitar 354 hari, sehingga Ramadan maju sekitar 11 hari setiap tahun Masehi dan melewati semua musim dalam 33 tahun. Tanggal dari tahun 1937 hingga 2077 mengikuti kalender Umm al-Qura, yang dihitung Arab Saudi jauh-jauh hari alih-alih menunggu rukyat hilal, meskipun pihak berwenang masih dapat menggeser awal Ramadan, Syawal, atau Zulhijah satu hari setelah rukyat. Tanggal sebelum 1937 bersifat perkiraan.",
    "year": "{n} H"
   },
   "persian": {

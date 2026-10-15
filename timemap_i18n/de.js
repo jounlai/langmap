@@ -508,7 +508,7 @@ window.TM_I18N["de"] = {
    "type": "Lunar (ohne Schaltmonat)",
    "epoch": "Die Hidschra, Mohammeds Auswanderung nach Medina, 622 n. Chr.",
    "used": "Weltweit religiös genutzt; in Saudi-Arabien amtlich (Umm-al-Qura-Tabellen), doch staatliche Gehälter werden dort seit 2016 nach dem gregorianischen Kalender gezahlt",
-   "note": "Ein Jahr hat etwa 354 Tage, daher rückt der Ramadan jedes westliche Jahr etwa 11 Tage nach vorn und durchläuft in 33 Jahren alle Jahreszeiten.",
+   "note": "Ein Jahr hat etwa 354 Tage, daher rückt der Ramadan jedes westliche Jahr etwa 11 Tage nach vorn und durchläuft in 33 Jahren alle Jahreszeiten. Die Datumsangaben von 1937 bis 2077 folgen dem Umm-al-Qura-Kalender, den Saudi-Arabien im Voraus berechnet, statt auf die Sichtung der Mondsichel zu warten; dennoch können die Behörden den Beginn von Ramadan, Schawwal oder Dhu l-hiddscha nach einer Sichtung um einen Tag verschieben. Datumsangaben vor 1937 sind Näherungswerte.",
    "year": "{n} n. H."
   },
   "persian": {

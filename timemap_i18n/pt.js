@@ -508,7 +508,7 @@ window.TM_I18N["pt"] = {
    "type": "Lunar (sem mês intercalar)",
    "epoch": "A Hégira, a mudança de Maomé para Medina, 622 d.C.",
    "used": "Uso religioso no mundo todo; oficial na Arábia Saudita (tabelas de Umm al-Qura), embora desde 2016 os salários públicos sejam pagos pelo calendário gregoriano",
-   "note": "Um ano tem cerca de 354 dias, então o Ramadã chega cerca de 11 dias mais cedo a cada ano ocidental e percorre todas as estações em 33 anos.",
+   "note": "Um ano tem cerca de 354 dias, então o Ramadã chega cerca de 11 dias mais cedo a cada ano ocidental e percorre todas as estações em 33 anos. As datas de 1937 a 2077 seguem o calendário de Umm al-Qura, que a Arábia Saudita calcula com antecedência em vez de esperar o avistamento da lua nova, embora as autoridades ainda possam deslocar em um dia o início do Ramadã, do Shawwal ou do Dhu al-Hijjah após um avistamento. As datas anteriores a 1937 são aproximadas.",
    "year": "do ano {n} da Hégira"
   },
   "persian": {

@@ -508,7 +508,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm lịch (không có tháng nhuận)",
    "epoch": "Hijra, cuộc di cư của Muhammad đến Medina, năm 622",
    "used": "Dùng cho tôn giáo trên toàn thế giới; dân sự tại Ả Rập Xê Út (bảng Umm al-Qura)",
-   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm.",
+   "note": "Một năm khoảng 354 ngày, nên tháng Ramadan sớm hơn khoảng 11 ngày mỗi năm dương lịch và đi hết một vòng các mùa trong 33 năm. Các ngày từ năm 1937 đến 2077 theo lịch Umm al-Qura, do Ả Rập Xê Út tính trước thay vì chờ nhìn thấy trăng non, dù nhà chức trách vẫn có thể dời ngày bắt đầu tháng Ramadan, Shawwal hoặc Dhu al-Hijjah một ngày sau khi quan sát trăng. Các ngày trước năm 1937 chỉ là gần đúng.",
    "year": "{n} Hijri"
   },
   "persian": {

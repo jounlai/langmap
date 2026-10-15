@@ -28,3 +28,11 @@ names' forms and IPA; prose hedges in 19 languages.
 ## The five rounds together
 All 50 names reviewed (forms, IPA, trees, people, prose in 19 languages):
 302 patches applied, 0 rejected.
+
+## Second pass (2026-10-15) — all 50 names again, IPA checked against Wiktionary
+150 patches: 145 applied (141 accepted, 4 amended), 5 rejected by the checker
+(Jacob for Filipino would break the row's Spanish-route policy; a misread
+Paris list for French Isaac; Swahili suleimani follows the row's deliberate
+epenthetic -i; Tagalog /ˈsaɾaʔ/ is the town Sarà, not the name; Sita Devi
+entries are genuine). Notable: the Spanish bearer for Catherine is Catalina
+de Erauso; Polish Teodor IPA; Tagalog Adan.

@@ -508,7 +508,7 @@ window.TM_I18N["es"] = {
    "type": "Lunar (sin mes intercalar)",
    "epoch": "La Hégira, el traslado de Mahoma a Medina, 622 d. C.",
    "used": "Uso religioso en todo el mundo; oficial en Arabia Saudí (tablas de Umm al-Qura), aunque desde 2016 los sueldos públicos se pagan allí según el calendario gregoriano",
-   "note": "Un año dura unos 354 días, así que el ramadán se adelanta unos 11 días cada año occidental y recorre todas las estaciones en 33 años.",
+   "note": "Un año dura unos 354 días, así que el ramadán se adelanta unos 11 días cada año occidental y recorre todas las estaciones en 33 años. Las fechas de 1937 a 2077 siguen el calendario de Umm al-Qura, que Arabia Saudí calcula de antemano en lugar de esperar al avistamiento de la luna nueva, aunque las autoridades aún pueden desplazar un día el inicio del ramadán, el shawwal o el dulhiyya tras un avistamiento. Las fechas anteriores a 1937 son aproximadas.",
    "year": "del año {n} de la Hégira"
   },
   "persian": {

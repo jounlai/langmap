@@ -401,6 +401,23 @@
         if (off < 342 + ayyam) return { y: be, m: 18, d: off - 341 };
         return { y: be, m: 19, d: off - 342 - ayyam + 1 };
     }
+    // Umm al-Qura calendar, 1356–1500 AH (14 Mar 1937 – 16 Nov 2077): month lengths from R. H. van
+    // Gent's Umm al-Qura table (the KFUPM Dhahran conversion table to 1411 AH, then the KACST rules;
+    // identical to the hijridate library). Three hex digits per year, bit 11 = Muharram, set = 30 days.
+    // ICU's islamic-umalqura disagrees before 1420 AH and from 1451 AH (2029), where its month starts
+    // fail the current rule (conjunction before sunset and moonset after sunset at Mecca on the 29th),
+    // so ICU is used only outside this range. The KFUPM table gives Shaʿbān 1364 28 days; kept as published.
+    const UQ_START = 2428607, UQ_MASKS = '2B2AABD26E92AABAAAAAAAABAAEAABAAAAAAAABAB6AAAA5754B555AB3AA64EA95BAAA555AAAB4AB655AAAAAB2ECAB2AB6AAAABAB4AAB2ABA2BAA6B4ABA55AAAB5556D2B54AEA57526E936AAAD555AA5B52BA95B49BA4DB25D52DAA5AD4AEA56D4BD23D91DA95B4AB5A56D2B693B49B6556A9754B6A56CAAD555B29B92BA95D4ADA55AAAB595749764BAA5B52B6A56D2AE9572A75535A95D49BA4DD26D535AAAAD4B6A57527A95B4AB5536C9AE4B6A96B4ADA55D25D92DC96D4AD6556D2B693749B64D72AB54B6A5752B6956B2AD94DC95D4AEA56CAAD5556C97';
+    function umalqura(j) {
+        let off = j - UQ_START; if (off < 0) return null;
+        for (let i = 0; i < 1740; i++) {
+            const y = Math.floor(i / 12), m = i % 12;
+            const len = i === 103 ? 28 : (parseInt(UQ_MASKS.substr(3 * y, 3), 16) >> (11 - m) & 1) ? 30 : 29;
+            if (off < len) return { y: 1356 + y, m, d: off + 1 };
+            off -= len;
+        }
+        return null;
+    }
     // Parsi Shahanshahi: 12 × 30 days + 5 Gatha days, no leap day; Navroz of year Y (Yazdegerdi)
     // = JDN 1952093 + 365 (Y − 1) — 15 Aug 2025 = 1395, 15 Aug 2026 = 1396.
     function parsi(j) {
@@ -738,11 +755,11 @@
           name: 'Islamic (Hijri) calendar', region: 'Saudi Arabia', type: 'Lunar (no leap month)',
           epoch: 'The Hijra, Muhammad’s move to Medina, AD 622',
           used: 'Religious use worldwide; official in Saudi Arabia (Umm al-Qura tables), though state salaries have been paid by the Gregorian calendar since 2016',
-          note: 'A year is about 354 days, so Ramadan moves about 11 days earlier each Western year and goes round the seasons in 33 years.',
+          note: 'A year is about 354 days, so Ramadan moves about 11 days earlier each Western year and goes round the seasons in 33 years. Dates from 1937 to 2077 follow the Umm al-Qura calendar, which Saudi Arabia works out in advance instead of waiting to sight the moon, though the authorities can still move Ramadan, Shawwal or Dhu al-Hijja by a day after a sighting. Dates before 1937 are approximate.',
           year: '{n} AH',
           from: { y: 622, m: 7, d: 19 },
-          fmt: (g, D) => { const n = calNum('islamic-umalqura', D);
-              return { native: fmt('ar-SA-u-ca-islamic-umalqura', { dateStyle: 'long' }).format(D), latin: n.d + '/' + n.m + '/' + n.y + ' AH',
+          fmt: (g, D) => { const u = umalqura(gregToJdn(g.y, g.m, g.d)), n = u ? { y: u.y, m: u.m + 1, d: u.d } : calNum('islamic-umalqura', D);
+              return { native: u ? arabDigits(n.d) + ' ' + AR_MONTHS[u.m] + ' ' + arabDigits(n.y) + ' هـ' : fmt('ar-SA-u-ca-islamic-umalqura', { dateStyle: 'long' }).format(D), latin: n.d + '/' + n.m + '/' + n.y + ' AH',
                        tr: trList('islamic', n.y, n.m - 1, n.d) }; } },
         { id: 'persian', status: 'current', use: 'official', lat: 32.0, lng: 54.5,
           name: 'Solar Hijri calendar', region: 'Iran', type: 'Solar (astronomical)',

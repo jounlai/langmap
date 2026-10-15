@@ -71,7 +71,12 @@ body {
        body font-family extension). Tibetan fallback is now scoped to
        the elements that actually contain Tibetan codepoints
        (.segment, .node.leaf .native) below. */
-    font-family: 'Noto Sans KR Old Jamo', 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
+    /* No Old Jamo face here (2026-10-15). At the front of the BODY chain it decomposed
+       any modern syllable missing from its subset whenever the same word held one it
+       does carry: Name Map showed 필립보 as ㅍㅣㄹㄹㅣㅂ보 in PC Chrome. It now lives only
+       in the rules that render Old Hangul (.segment, tree .node.leaf .native, and the
+       serif word displays in wordmap.html / hanmap.html). */
+    font-family: 'Segoe UI', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', sans-serif;
     background: #f0f2f5;
     min-height: 100vh;
     padding: 20px;

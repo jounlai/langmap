@@ -12,3 +12,8 @@ checked. namemap_i18n rebuilt; __nmI18nVersion 2.
 43 patches, all accepted. paul: uk Павло pɐu̯ˈlɔ, ka პავლე pʼavle (ejective),
 vi Phaolô two syllables; thomas/abraham/isaac/jacob forms and IPA; prose in
 17 i18n languages. Held: ro Pavel vs Paul (no frequency source).
+
+## Round 3 (moses solomon matthew adam noah · gabriel elijah sarah anna elizabeth)
+48 patches (46 accepted, 2 amended). el Μωυσής rom Moysís; Matthew
+etymology hedged in all 19 languages; ja background prose made natural
+(Greek and Latin were both written モユセス).

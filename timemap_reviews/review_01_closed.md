@@ -17,3 +17,9 @@ Gregorian calendar since 2016; persian — the year begins on the equinox DAY
 (the before/after-noon Tehran rule), not at the exact moment; indian clean
 (one Hindi Gazette spelling held, PDF unreadable); bengali …
 UI languages vi th id hi: 23 fixes (22 accepted, 1 amended).
+
+## Round 3
+Calendars pawukon kurdish akan iceland bahai parsi bohra kiche tibetan
+mongolian bhutanese — nine clean (Galungan 2025/26, Tsagaan Sar/Losar,
+Navroz 2023–28, Akwasidae checked against the engine), 2 fixes.
+UI languages de fr it es: 41 fixes (40 accepted, 1 amended).

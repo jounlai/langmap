@@ -884,7 +884,7 @@
           name: 'Dawoodi Bohra Hijri (Fatimid)', region: 'Dawoodi Bohras, Surat', type: 'Lunar, tabular: months of 30 and 29 days, 11 leap years in 30',
           epoch: 'The Hijra, AD 622',
           used: 'The Dawoodi Bohra community worldwide (about one million), for Ramadan, Eid and all religious dates',
-          note: 'A fixed arithmetic calendar inherited from the Fatimids, so the Bohras’ Eid can come a day before the moon-sighted one — Eid al-Fitr 1445 was on 9 April 2024.',
+          note: 'A fixed arithmetic calendar inherited from the Fatimids, so the Bohras’ Eid can come a day or two before the moon-sighted one — Eid al-Fitr 1445 was on 9 April 2024, against 10 April in Saudi Arabia and Pakistan and 11 April in most of India.',
           year: '{n} AH',
           from: { y: 622, m: 7, d: 15 },
           fmt: g => { const b = bohra(gregToJdn(g.y, g.m, g.d)); if (!b) return null;
@@ -913,7 +913,7 @@
           name: 'Mongolian lunar calendar', region: 'Mongolia', type: 'Lunisolar, with skipped and doubled days (Tibetan type)',
           epoch: 'No running year count; years named by element and animal in a 60-year cycle',
           used: 'Not the state calendar (Gregorian is, since 1948), but it sets Tsagaan Sar, the new year, and Chinggis Khaan’s birthday, both public holidays',
-          note: 'The New Genden (Tögs Buyant) version of the Tibetan calendar, created in 1786; it can start the year a day or a month apart from Tibet — Tsagaan Sar 2025 fell on 1 March, Losar on 28 February.',
+          note: 'The New Genden (Tögs Buyant) version of the Tibetan calendar, drawn up by the monk Sümbe Khambo Ishbaljir in the 18th century (1747 in most accounts; Berzin gives 1786); it can start the year a day or a month apart from Tibet — Tsagaan Sar 2025 fell on 1 March, Losar on 28 February.',
           year: '{animal} year',
           from: { y: 1747, m: 4, d: 9 },
           fmt: (g, D) => { const t = tibDate('mongol', g); if (!t) return null;

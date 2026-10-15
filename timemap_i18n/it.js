@@ -422,14 +422,14 @@ window.TM_I18N["it"] = {
    "type": "Solare",
    "epoch": "Anno Domini",
    "used": "Dal 14 settembre 1752 (i giorni 3–13 settembre 1752 non sono mai esistiti)",
-   "note": "La Gran Bretagna e le sue colonie lo adottarono 170 anni dopo Roma; la stessa legge spostò il Capodanno dal 25 marzo al 1º gennaio."
+   "note": "La Gran Bretagna e le sue colonie lo adottarono 170 anni dopo Roma. La stessa legge spostò il Capodanno dal 25 marzo al 1º gennaio in Inghilterra, Galles, Irlanda e nelle colonie; la Scozia lo aveva già fatto nel 1600."
   },
   "greg_us": {
    "name": "Calendario gregoriano",
    "region": "Stati Uniti",
    "type": "Solare",
    "epoch": "Anno Domini",
-   "used": "Dal 1752, come colonie britanniche",
+   "used": "Dal 1752 nelle colonie britanniche; i territori spagnoli e francesi lo usavano dal 1582 (o dalla loro fondazione), l’Alaska dal 1867",
    "note": "Lo stesso calendario della Gran Bretagna, ma con il mese scritto per primo: 10/5 è il 5 ottobre negli Stati Uniti e il 10 maggio nel Regno Unito."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["it"] = {
    "type": "Mesi gregoriani, anni della Repubblica",
    "epoch": "Fondazione della Repubblica di Cina, 1912",
    "used": "Dal 1912; ufficiale a Taiwan",
-   "note": "Anno = anno occidentale − 1911. Procede di pari passo con l’anno Juche della Corea del Nord.",
+   "note": "Anno = anno occidentale − 1911. Gli anni Juche della Corea del Nord, contati fino al 2024 a partire dallo stesso inizio (1912), avevano gli stessi numeri.",
    "year": "Minguo {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["it"] = {
    "type": "Mesi gregoriani, anni Juche",
    "epoch": "Nascita di Kim Il-sung, 1912",
    "used": "1997–2024: la Corea del Nord ha smesso di stampare l’anno Juche nell’ottobre 2024",
-   "note": "Si scrive con l’anno occidentale tra parentesi: 주체115(2026)년.",
+   "note": "Le date si scrivevano con l’anno occidentale tra parentesi, come in 주체113(2024)년.",
    "year": "Juche {n}"
   },
   "buddhist": {
@@ -482,7 +482,7 @@ window.TM_I18N["it"] = {
    "type": "Lunisolare",
    "epoch": "Nessun conteggio continuo degli anni; gli anni ruotano in un ciclo di 60 nomi (tronchi celesti e rami terrestri)",
    "used": "Fissa la Festa di Primavera, la Festa di metà autunno e altre festività",
-   "note": "I mesi seguono la luna nuova a Pechino; un mese intercalare viene aggiunto circa 7 volte in 19 anni.",
+   "note": "Ogni mese inizia il giorno della luna nuova secondo l’ora di Pechino (UTC+8, meridiano 120° E); un mese intercalare viene aggiunto circa 7 volte in 19 anni.",
    "year": "anno {gzPy} ({animal})"
   },
   "dangi": {
@@ -491,7 +491,7 @@ window.TM_I18N["it"] = {
    "type": "Lunisolare",
    "epoch": "Nessun conteggio continuo degli anni; ciclo di 60 anni",
    "used": "Fissa Seollal e Chuseok",
-   "note": "Stesse regole del calendario cinese, ma calcolato sull’ora coreana: una luna nuova vicina alla mezzanotte può far iniziare un mese con un giorno di differenza.",
+   "note": "Stesse regole del calendario cinese, ma calcolato sull’ora coreana: una luna nuova vicina alla mezzanotte può far iniziare un mese con un giorno di differenza, e talvolta il mese intercalare cade altrove (2012: mese intercalare 3 in Corea, mese intercalare 4 in Cina).",
    "year": "anno {gzPy} ({animal})"
   },
   "hebrew": {
@@ -507,7 +507,7 @@ window.TM_I18N["it"] = {
    "region": "Arabia Saudita",
    "type": "Lunare (senza mese intercalare)",
    "epoch": "L’Egira, il trasferimento di Maometto a Medina, 622 d.C.",
-   "used": "Uso religioso in tutto il mondo; civile in Arabia Saudita (tavole Umm al-Qura)",
+   "used": "Uso religioso in tutto il mondo; ufficiale in Arabia Saudita (tavole Umm al-Qura), anche se dal 2016 gli stipendi pubblici vi sono pagati secondo il calendario gregoriano",
    "note": "Un anno dura circa 354 giorni, quindi il Ramadan anticipa di circa 11 giorni ogni anno occidentale e percorre tutte le stagioni in 33 anni.",
    "year": "{n} dell’Egira"
   },
@@ -517,7 +517,7 @@ window.TM_I18N["it"] = {
    "type": "Solare (astronomico)",
    "epoch": "L’Egira, 622 d.C., contata in anni solari",
    "used": "Ufficiale in Iran dal 1925. L’Afghanistan lo ha usato ufficialmente fino al 2022, quando il governo è passato all’Egira lunare; la popolazione lo usa ancora",
-   "note": "L’anno inizia nell’istante esatto dell’equinozio di marzo (Nowruz), il che lo rende uno dei calendari in uso più precisi.",
+   "note": "L’anno inizia il giorno dell’equinozio di marzo (Nowruz): se l’equinozio cade prima di mezzogiorno, ora di Teheran, quel giorno è il 1º farvardin, altrimenti lo è il giorno dopo. Legare l’anno all’equinozio reale lo rende uno dei calendari in uso più precisi.",
    "year": "{n} dell’Egira solare"
   },
   "indian": {
@@ -535,7 +535,7 @@ window.TM_I18N["it"] = {
    "type": "Solare (regole fisse)",
    "epoch": "Bangabda, 593 d.C.",
    "used": "Ufficiale in Bangladesh; è mostrata la revisione del 2019",
-   "note": "Il Capodanno, Pohela Boishakh, è fissato al 14 aprile. Il Bengala Occidentale, in India, mantiene una versione astronomica più antica, quindi lì le date possono differire di un giorno.",
+   "note": "Il Capodanno, Pohela Boishakh, è fissato al 14 aprile. Il Bengala Occidentale, in India, mantiene una versione astronomica più antica, quindi lì le date possono differire di qualche giorno.",
    "year": "{n} BS"
   },
   "ethiopic": {
@@ -544,7 +544,7 @@ window.TM_I18N["it"] = {
    "type": "Solare: 12 mesi di 30 giorni + un 13º di 5–6",
    "epoch": "Era dell’Incarnazione, 8 d.C. secondo il computo gregoriano",
    "used": "Ufficiale in Etiopia",
-   "note": "Sette o otto anni indietro rispetto al computo occidentale; il Capodanno (Enkutatash) cade l’11 settembre.",
+   "note": "Sette o otto anni indietro rispetto al computo occidentale; il Capodanno (Enkutatash) cade l’11 settembre, o il 12 settembre nell’anno che precede un anno bisestile gregoriano.",
    "year": "{n} (etiope)"
   },
   "coptic": {

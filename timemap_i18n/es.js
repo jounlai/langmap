@@ -129,7 +129,7 @@ window.TM_I18N["es"] = {
   "indian": [
    "chaitra",
    "vaishakha",
-   "yiaishtha",
+   "jyeshtha",
    "ashadha",
    "shravana",
    "bhadra",
@@ -422,14 +422,14 @@ window.TM_I18N["es"] = {
    "type": "Solar",
    "epoch": "Anno Domini",
    "used": "Desde el 14 de septiembre de 1752 (del 3 al 13 de septiembre de 1752 nunca existieron)",
-   "note": "Gran Bretaña y sus colonias cambiaron 170 años después que Roma; la misma ley trasladó el día de Año Nuevo del 25 de marzo al 1 de enero."
+   "note": "Gran Bretaña y sus colonias cambiaron 170 años después que Roma. La misma ley trasladó el día de Año Nuevo del 25 de marzo al 1 de enero en Inglaterra, Gales, Irlanda y las colonias; Escocia ya había hecho ese cambio en 1600."
   },
   "greg_us": {
    "name": "Calendario gregoriano",
    "region": "Estados Unidos",
    "type": "Solar",
    "epoch": "Anno Domini",
-   "used": "Desde 1752, como colonias británicas",
+   "used": "Desde 1752 en las colonias británicas; los territorios españoles y franceses lo usaban desde 1582 (o desde su fundación), y Alaska desde 1867",
    "note": "El mismo calendario que Gran Bretaña, pero con el mes primero: 10/5 es el 5 de octubre en EE. UU. y el 10 de mayo en el Reino Unido."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["es"] = {
    "type": "Meses gregorianos, años de la era republicana",
    "epoch": "Fundación de la República de China, 1912",
    "used": "Desde 1912; oficial en Taiwán",
-   "note": "Año = año occidental − 1911. Va a la par con el año Juche de Corea del Norte.",
+   "note": "Año = año occidental − 1911. Los años Juche de Corea del Norte, contados hasta 2024 desde el mismo inicio (1912), llevaban los mismos números.",
    "year": "del año {n} de la era Minguo"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["es"] = {
    "type": "Meses gregorianos, años Juche",
    "epoch": "Nacimiento de Kim Il-sung, 1912",
    "used": "1997–2024: Corea del Norte dejó de imprimir el año Juche en octubre de 2024",
-   "note": "Se escribe con el año occidental entre paréntesis: 주체115(2026)년.",
+   "note": "Las fechas se escribían con el año occidental entre paréntesis, como en 주체113(2024)년.",
    "year": "del año {n} de la era Juche"
   },
   "buddhist": {
@@ -482,7 +482,7 @@ window.TM_I18N["es"] = {
    "type": "Lunisolar",
    "epoch": "Sin cómputo continuo de años; los años siguen un ciclo de 60 nombres de tronco y rama",
    "used": "Fija la Fiesta de la Primavera, el Festival del Medio Otoño y otras fiestas",
-   "note": "Los meses empiezan con la luna nueva en Pekín; se añade un mes intercalar unas 7 veces cada 19 años.",
+   "note": "Cada mes empieza el día de la luna nueva según la hora de Pekín (UTC+8, meridiano 120° E); se añade un mes intercalar unas 7 veces cada 19 años.",
    "year": "del año {gzPy} ({animal})"
   },
   "dangi": {
@@ -491,7 +491,7 @@ window.TM_I18N["es"] = {
    "type": "Lunisolar",
    "epoch": "Sin cómputo continuo de años; ciclo de 60 años",
    "used": "Fija el Seollal y el Chuseok",
-   "note": "Las mismas reglas que el calendario chino, pero calculadas para la hora de Corea, así que una luna nueva cerca de la medianoche puede adelantar o retrasar un día el inicio del mes.",
+   "note": "Las mismas reglas que el calendario chino, pero calculadas para la hora de Corea, así que una luna nueva cerca de la medianoche puede adelantar o retrasar un día el inicio del mes, y a veces el mes intercalar cae en otro lugar (2012: mes intercalar 3 en Corea, mes intercalar 4 en China).",
    "year": "del año {gzPy} ({animal})"
   },
   "hebrew": {
@@ -507,7 +507,7 @@ window.TM_I18N["es"] = {
    "region": "Arabia Saudí",
    "type": "Lunar (sin mes intercalar)",
    "epoch": "La Hégira, el traslado de Mahoma a Medina, 622 d. C.",
-   "used": "Uso religioso en todo el mundo; civil en Arabia Saudí (tablas de Umm al-Qura)",
+   "used": "Uso religioso en todo el mundo; oficial en Arabia Saudí (tablas de Umm al-Qura), aunque desde 2016 los sueldos públicos se pagan allí según el calendario gregoriano",
    "note": "Un año dura unos 354 días, así que el ramadán se adelanta unos 11 días cada año occidental y recorre todas las estaciones en 33 años.",
    "year": "del año {n} de la Hégira"
   },
@@ -517,7 +517,7 @@ window.TM_I18N["es"] = {
    "type": "Solar (astronómico)",
    "epoch": "La Hégira, 622 d. C., contada en años solares",
    "used": "Oficial en Irán desde 1925. Afganistán lo usó oficialmente hasta 2022, cuando el gobierno pasó a la Hégira lunar; allí la gente aún lo usa",
-   "note": "El año empieza en el momento exacto del equinoccio de marzo (Nouruz), lo que lo convierte en uno de los calendarios en uso más precisos.",
+   "note": "El año empieza el día del equinoccio de marzo (Nouruz): si el equinoccio llega antes del mediodía, hora de Teherán, ese día es el 1 de farvardín; si no, lo es el día siguiente. Vincular el año al equinoccio real lo convierte en uno de los calendarios en uso más precisos.",
    "year": "del año {n} de la Hégira solar"
   },
   "indian": {
@@ -535,7 +535,7 @@ window.TM_I18N["es"] = {
    "type": "Solar (reglas fijas)",
    "epoch": "Bangabda, 593 d. C.",
    "used": "Oficial en Bangladés; se muestra la revisión de 2019",
-   "note": "El Año Nuevo, Pohela Boishakh, está fijado el 14 de abril. Bengala Occidental, en la India, mantiene una versión astronómica más antigua, así que allí las fechas pueden diferir en un día.",
+   "note": "El Año Nuevo, Pohela Boishakh, está fijado el 14 de abril. Bengala Occidental, en la India, mantiene una versión astronómica más antigua, así que allí las fechas pueden diferir en unos días.",
    "year": "del año {n} de la era bengalí"
   },
   "ethiopic": {
@@ -544,7 +544,7 @@ window.TM_I18N["es"] = {
    "type": "Solar: 12 meses de 30 días + un 13.º de 5–6",
    "epoch": "Era de la Encarnación, 8 d. C. según el cómputo gregoriano",
    "used": "Oficial en Etiopía",
-   "note": "Va siete u ocho años por detrás del cómputo occidental; el Año Nuevo (Enkutatash) cae el 11 de septiembre.",
+   "note": "Va siete u ocho años por detrás del cómputo occidental; el Año Nuevo (Enkutatash) cae el 11 de septiembre, o el 12 de septiembre en el año anterior a un bisiesto gregoriano.",
    "year": "del año {n} etíope"
   },
   "coptic": {

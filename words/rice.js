@@ -902,6 +902,7 @@ WORDS.rice = {
     ik: ["kumauraq", "kumauʐaq"],
     vls: ["rys", "ris"],
     abv: ["عيش", "ʕeːʃ"],
-    tsj: ["khu", "kʰu"]
+    tsj: ["khu", "kʰu"],
+    roo: ["rais", "ɾais"]
   }
 };

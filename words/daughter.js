@@ -1169,6 +1169,7 @@ WORDS.daughter = {
     pao: ["padɨ", "patɨ"],
     bzg: ["sjiem mammali", "ʃiem mamːali"],
     gsw_als: ["Tochter", "dɔxtər"],
-    hop: ["maana", "maːna"]
+    hop: ["maana", "maːna"],
+    glk: ["دختر", "duxtəɾ"]
   },
 };

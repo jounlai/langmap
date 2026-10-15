@@ -938,6 +938,14 @@ WORDS.poop = {
     pmy: ["tay", "taj"],
     rom: ["khul", "kʰul"],
     kj: ["omatudi", "omatudi"],
-    her: ["ombonḓi", "ombond̪i"]
+    her: ["ombonḓi", "ombond̪i"],
+    ruq: ["căcat", "kəˈkat"],
+    enq: ["ii", "iː"],
+    kwk: ["ma̱nak", "mənak"],
+    roo: ["opoko", "opoko"],
+    kos: ["fohk", "fɔk"],
+    tig: ["ሐርዕ", "ħarəʕ"],
+    bin: ["isan", "isã"],
+    kqn: ["tuvwi", "tuvwi"]
   },
 };

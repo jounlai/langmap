@@ -1163,6 +1163,7 @@ WORDS.milk = {
     pmt: ["pounave", "pounave"],
     ja_rys: ["乳", "tsɨː"],
     tar: ["leche", "letʃe"],
-    zgh: ["ⴰⵖⵖⵓ", "aʁːu"]
+    zgh: ["ⴰⵖⵖⵓ", "aʁːu"],
+    roo: ["rovi", "ɾoβi"]
   },
 };

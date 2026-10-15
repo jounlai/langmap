@@ -881,7 +881,7 @@ WORDS.mountain = {
     fud: ["maʻuga", "maʔuŋa"],
     yux: ["пиэ", "peː"],
     moc: ["soʁonaʁa", "soʁonaʁa"],
-    huz: ["гухӏ", "ɡuħ"],
+    huz: ["мару", "maru"],
     blc: ["smt", "smt"],
     chp: ["ttheshéth", "tθeʃéθ"],
     pt_gw: ["monti", "ˈmonti"],

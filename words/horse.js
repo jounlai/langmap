@@ -1137,6 +1137,7 @@ WORDS.horse = {
     mlq: ["suwo", "suwo"],
     gsw_w: ["Ross", "ros"],
     kdt: ["sɛh", "sɛh"],
-    prg: ["russis", "rusis"]
+    prg: ["russis", "rusis"],
+    kos: ["ohsr", "ɔʂ"]
   }
 };

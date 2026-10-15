@@ -312,7 +312,7 @@ WORDS.fish = {
     cy: ["pysgodyn", "pəsˈɡɔdɨn"],
     ka: ["თევზი", "tʰevzi"],
     lzz: ["ჩხომი", "tʃxomi"],
-    sva: ["ცუზ", "tsuz"],
+    sva: ["ცუზ", "tsʰuz"],
     hy: ["ձուկ", "dzuk"],
     hyw: ["ձուկ", "tsʰuɡ"],
     nv: ["łóóʼ", "ɬóːʔ"],

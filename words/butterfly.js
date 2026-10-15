@@ -923,6 +923,8 @@ WORDS.butterfly = {
     abe: ["mamijola", "mamidʒola"],
     ik: ["taqalukisaq", "taqalukisaq"],
     usp: ["pepe", "pepe"],
-    bgc: ["पटबीजणा", "pəʈbiːdʒɳaː"]
+    bgc: ["पटबीजणा", "pəʈbiːdʒɳaː"],
+    nyo: ["ekihoiholya", "ekihoiholja"],
+    kos: ["sacliki", "sɛliki"]
   },
 };

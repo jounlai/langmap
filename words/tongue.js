@@ -1024,7 +1024,7 @@ WORDS.tongue = {
     quy: ["qallu", "qaʎu"],
     shp: ["jana", "hana"],
     cab: ["iñeñei", "iɲeɲei"],
-    crx: ["ecula", "etsula"],
+    crx: ["ʼut̲s̲oola", "ʔutsoːla"],
     tsi: ["duula", "duːla"],
     thp: ["tə̣ɬeʔ", "təɬeʔ"],
     wbl: ["зик", "zik"],

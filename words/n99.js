@@ -207,6 +207,7 @@ WORDS.n99 = {
   },
   // Which structure each row uses. Colours the map; see `routes` below.
   family: {
+    crx: "mult",
     bts: "dec",
     czh: "mult",
     agr: "dec",
@@ -953,6 +954,7 @@ WORDS.n99 = {
     }
   },
   data: {
+    crx: ["ʼilho hooloh whunizyai ʼon ʼat ʼilho hooloh", "ʔiɬo hoːloh xʷunizjai ʔon ʔat ʔiɬo hoːloh"],
     bts: ["siah puluh siah", "siah puluh siah"],
     czh: ["九十九", "tɕiu˧˩ ɕi˩˩ tɕiu˧˩"],
     agr: ["noventa y nueve", "noˈbenta i ˈnwebe"],

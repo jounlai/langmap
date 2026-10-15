@@ -1194,7 +1194,7 @@ WORDS.tooth = {
     gsw_w: ["Zant", "tsant"],
     huz: ["сылə", "sɨlə"],
     khv: ["сел", "sel"],
-    kjj: ["цулоз", "tsuloz"],
+    kjj: ["цулоз", "tsʰuloz"],
     kpf: ["sât", "sɐt"],
     kqz: ["ǁũb", "ǁũb"],
     ktz: ["nǁah", "ᵑǁa̤"],

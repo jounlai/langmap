@@ -427,7 +427,7 @@ WORDS.silk = {
     nij: ["sutra", "sutra"],
     sda: ["saʼbe", "saʔbe"],
     yua: ["seda", "seda"],
-    tzh: ["seda", "seda"],
+    tzh: ["sera", "sera"],
     mam: ["seda", "seda"],
     quy: ["seda", "seda"],
     aii: ["ܐܒܪܝܣܡ", "abriːsim"],
@@ -824,6 +824,10 @@ WORDS.silk = {
     ik: ["qivliqiak", "qivliqiak"],
     vls: ["zyde", "ˈziːdə"],
     drs: ["haarre", "haːrːe"],
-    cjs: ["торғу", "torɣu"]
+    cjs: ["торғу", "torɣu"],
+    brx: ["रेसम", "resom"],
+    roo: ["gausisi varo", "ɡausisi βaɾo"],
+    bin: ["esiliki", "esiliki"],
+    ibb: ["sịrek", "sɪrek"]
   }
 };

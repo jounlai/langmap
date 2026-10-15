@@ -128,7 +128,8 @@ const DEBT = {};
 // r112: bear 12 — yan dangkatakalbas (Bible, beside layan 'lion'), origin unknown.
 // r114: bear 16 — kln magalaluut, mer, jmc ngare, gej sisiblìsi: Bible words (each beside 'lion'), origins unsourced.
 // r115: bear 20, foot 24 — Bible/dictionary words with no etymology or no leg word (see review_594).
-const UNDECIDED = { we: { route: 'unknown', max: 42 }, bear: { route: 'unknown', max: 20 }, foot: { route: 'unknown', max: 24 } };
+// r116: bear 22 — ibb amọnikọd (2025 Ibibio Bible), tlh mIl'oD (Klingon dictionary: Earth bears).
+const UNDECIDED = { we: { route: 'unknown', max: 42 }, bear: { route: 'unknown', max: 22 }, foot: { route: 'unknown', max: 24 } };
 
 let violations = 0;
 const notes = [];

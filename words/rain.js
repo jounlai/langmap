@@ -614,7 +614,7 @@ WORDS.rain = {
     tab: ["мархь", "marx"],
     inh: ["догӏа", "ˈdoʁa"],
     lzz: ["ჭიმა", "tʃʼima"],
-    sva: ["უჩხა", "utʃxa"],
+    sva: ["უჩხა", "utʃʰxa"],
     niv: ["лых", "lɯx"],
     rom: ["briśind", "briˈʃind"],
     pdc: ["Regge", "ˈrɛɡə"],

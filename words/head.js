@@ -1208,6 +1208,7 @@ WORDS.head = {
     hup: ["-tseʼ", "-tseʔ"],
     haj: ["matha", "matʰa"],
     one: ["onútsiʼ", "onṹtsiʔ"],
-    ik: ["niaquq", "niaquq"]
+    ik: ["niaquq", "niaquq"],
+    zne: ["ri", "ri"]
   },
 };

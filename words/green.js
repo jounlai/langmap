@@ -690,7 +690,7 @@ WORDS.green = {
     chf: ["yäx", "jɨʃ"],
     djk: ["guun", "ɡuːn"],
     crn: ["jamuámua", "haˈmwamwa"],
-    crx: ["dultlʼuz", "dutɬʼuz"],
+    crx: ["dultlʼuz", "dultɬʼuz"],
     cni: ["kenashi", "kenaʃi"],
     ame: ["aspan", "aspan"],
     fax: ["verdi", "ˈbeɾdi"],
@@ -1064,6 +1064,7 @@ WORDS.green = {
     bzh: ["nimewis", "niməˠwitʃ"],
     bxk: ["lubookha", "luβoːxa"],
     xnr: ["सैला", "sɛːlaː"],
-    ebu: ["ngirini", "ŋɡiɾini"]
+    ebu: ["ngirini", "ŋɡiɾini"],
+    kqn: ["maanzha mataamba", "maːnʒa mataːmba"]
   }
 };

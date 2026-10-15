@@ -307,7 +307,7 @@ WORDS.hello = {
     cy: ["helô", "hɛˈloː"],
     ka: ["გამარჯობა", "ɡamardʒoba"],
     lzz: ["ბრუნდი", "brundi"],
-    sva: ["ხოჩა ლადა̈ღ", "xotʃa ladæɣ"],
+    sva: ["ხოჩა ლადა̈ღ", "xotʃʰa ladæɣ"],
     hy: ["բարև", "bɑˈɾev"],
     hyw: ["բարեւ", "pʰɑˈɾɛv"],
     nv: ["yáʼátʼééh", "jɑ́ʔɑ́tʼéːh"],

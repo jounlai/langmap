@@ -1003,6 +1003,8 @@ WORDS.snow = {
     aoz: ["sen-sene", "sensene"],
     zts: ["guɨy", "ɡɨj"],
     nus: ["thäc", "t̪əc"],
-    ksb: ["kau", "kau"]
+    ksb: ["kau", "kau"],
+    bom: ["nemuk-fwala", "nemukfwala"],
+    rtm: ["sinou", "sinou"]
   }
 };

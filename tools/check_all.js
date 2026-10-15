@@ -409,6 +409,11 @@ line('pre-compressed .br freshness', num(s, /stale: (\d+)/));
 // ja_on and es_eu (no such rows), ine (an ISO family code, not a language).
 s = run('trivia_button_check.js --check');
 line('trivia button targets exist', num(s, /dead targets: (\d+)/));
+// Trivia overlays load at runtime only: a syntax error in one (an unescaped
+// apostrophe in a single-quoted title, 2026-10-15) silently drops that UI
+// language back to English. tools/trivia_parse_check.js evaluates every file.
+s = run('trivia_parse_check.js --check');
+line('trivia files parse', num(s, /fail to parse or miss articles: (\d+)/));
 
 // Two writing systems fused inside one word — the signature of a generation or
 // hand-edit accident in a language nobody on the project reads. Two sat in the

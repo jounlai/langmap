@@ -72,6 +72,67 @@ const CITED = {
     // 業 is the kanji whose go-on ごう and kan-on ぎょう are being compared.
     'japanese-go-on-bias': ['業吴音读', '業吳音讀', '業吳音读'],
 };
+// 2026-10-15 trivia pass (zh translations of the English corrections): cited
+// written forms — Japanese kanji and words, Korean hanja, Min and Cantonese
+// characters under discussion, coin inscriptions, the 乾隆 era name (乾 is the
+// simplified form as well) and a personal name given in its original script.
+const CITED_20261015 = {
+    "kanbun-kaeriten-system": [
+        "「〜に於いて」",
+        "「於」"
+    ],
+    "khitan-large-small-scripts": [
+        "乾隆"
+    ],
+    "hangul-sinosphere-context": [
+        "崔萬理"
+    ],
+    "chu-nom-vietnam-script": [
+        "「沒」"
+    ],
+    "go-on-kan-on-to-on": [
+        "南無"
+    ],
+    "min-nan-wenbai": [
+        "飛 白读",
+        "禮拜一"
+    ],
+    "korean-toumeop-rule": [
+        "來在词首",
+        "來日",
+        "未來"
+    ],
+    "kokuji-japan-made-chars": [
+        "“動”"
+    ],
+    "hakka-diaspora-language": [
+        "「𠊎講客」"
+    ],
+    "japanese-shinjitai-postwar": [
+        "「誰」",
+        "岡、阪"
+    ],
+    "ko-mid-eastguk-jeongun": [
+        "「發」"
+    ],
+    "kokugo-versus-kango": [
+        "美麗"
+    ],
+    "tang-empire-multilingual-coins": [
+        "「開元」",
+        "「開通元寶」",
+        "和同開珎"
+    ],
+    "korean-eumhun-tradition": [
+        "「時衣」"
+    ],
+    "cantonese-script-uniquely": [
+        "「個」",
+        "「無」"
+    ]
+};
+for (const [k, v] of Object.entries(CITED_20261015)) CITED[k] = (CITED[k] || []).concat(v);
+
 
 function articles(file, pick) {
     const ctx = vm.createContext({});

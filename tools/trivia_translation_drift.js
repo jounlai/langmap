@@ -42,6 +42,11 @@ const CHECK = process.argv.includes('--check');
 // Additions reviewed and accepted, as {articleId: {number: why}}. Applies to
 // every UI language of that article.
 const ALLOW = {
+    // 2026-10-15 trivia pass: number formats, not new facts.
+    'naxi-dongba-living-pictograms.hi': { '20000': 'hi writes 320,000 in Indian grouping, 3,20,000; the guard reads the tail as 20000' },
+    'sino-tibetan-cognates.th': { '1400': 'th writes 1.4 billion as 1,400 ล้าน (1,400 million)' },
+    'esperanto-zamenhof.ja': { '1000000': 'ja renders "rounded to the nearest million" as 100万単位で丸めた' },
+    'aymara-time-reversed.ja': { '2500000': 'ja writes "two and a half million" as 約250万人' },
     // Reviewed additions. Each is a figure the English leaves implicit or omits,
     // which the translation states — checked and correct, not draft residue.
     'min-nan-wenbai': { '2014': 'ja dates the Baxter\u2013Sagart reconstruction the English cites without a year; Old Chinese: A New Reconstruction is 2014' },

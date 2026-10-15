@@ -991,7 +991,7 @@ WORDS.night = {
     enq: ["kuka", "kuka"],
     xpr: ["ʾxšp", "xʃap"],
     xqa: ["tün", "tyn"],
-    sga: ["adaig", "aðəɣʲ"],
+    sga: ["adaig", "ˈaðəɣʲ"],
     bsk: ["thap", "tʰap"],
     yai: ["xišap", "xiˈʃap"],
     srn: ["neti", "neti"],

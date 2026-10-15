@@ -668,7 +668,7 @@ WORDS.snow = {
     bqi: ["برف", "barf"],
     xpr: ["wafr", "wafr"],
     xqa: ["qar", "qar"],
-    sga: ["snechtae", "sʲnʲexte"],
+    sga: ["snechtae", "ˈsʲnʲexte"],
     bsk: ["ge", "ɡe"],
     yai: ["wafr", "wafr"],
     kwk: ["neʼ", "neʔ"],

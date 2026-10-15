@@ -1784,7 +1784,7 @@ WORDS.foot = {
     kr: ["shi", "ʃi"],  // Koelle's 1854 Bornu grammar cuts a leg with si, and his Polyglotta Africana files ṣī under both leg and foot, the foot-specific form being a compound on it.
     krc: ["аякъ", "ajaq"],  // аякъ covers both; табан is the sole, the same word the Bashkir row names.
     kri: ["fut", "fut"],  // The Peace Corps Krio manual glosses fut '(1) foot, leg' in one line, so Krio widens the English word where Jamaican keeps fʊt narrow.
-    krl: ["jalka", "jɑlkɑ"],  // One word for the whole lower limb, the Uralic norm.
+    krl: ["jalka", "ˈjɑlkɑ"],  // One word for the whole lower limb, the Uralic norm.
     kru: ["ख़ेड्ड", "xeɖː"],  // Kurukh keeps the route and drops the etymon: DEDR 1479 has no Kurukh reflex of *kāl at all, and DEDR 1943 glosses xeḍḍ 'foot, leg' in one entry, beside Malto qeḍu 'the legs, the feet'.
     kry: ["qil", "qil"],  // As Tabasaran and Rutul: IDS 4-370 къили кьаьн 'the under of the leg' is the questionnaire's narrow-slot answer, not a lexicalised compound, and къил alone serves.
     ks: ["کھۄر", "kʰɔr"],  // کھۄر vs زَنٛگ. Kashmiri splits them, with the Hindi belt and against its eastern neighbours.

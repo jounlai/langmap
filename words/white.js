@@ -483,7 +483,7 @@ WORDS.white = {
     frr_amr: ["witj", "vɪtʲ"],
     li: ["wit", "ʋɪt"],
     nn: ["kvit", "kviːt"],
-    fo: ["hvítur", "kvʊiːtʊɹ"],
+    fo: ["hvítur", "ˈkvʊiːtʊɹ"],
     fr_qc: ["blanc", "blã"],
     fr_af: ["blanc", "blɑ̃"],
     fr_be: ["blanc", "blɑ̃"],

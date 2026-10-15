@@ -426,7 +426,7 @@ WORDS.sun = {
     af: ["son", "sɔn"],
     de_at: ["Sonne", "ˈsɔnə"],
     gsw: ["Sunne", "ˈsʊnə"],
-    swg: ["Sonne", "sonə"],
+    swg: ["Sonne", "ˈsonə"],
     bar: ["Sun", "sun"],
     vmf: ["Sunn", "sʊn"],
     wae: ["Sunna", "sʊnːa"],

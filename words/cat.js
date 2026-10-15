@@ -591,7 +591,7 @@ WORDS.cat = {
     frr_amr: ["kaat", "kaːt"],
     li: ["kat", "kat"],
     nn: ["katt", "kɑtː"],
-    fo: ["ketta", "tʃɛhta"],
+    fo: ["ketta", "ˈtʃɛhta"],
     fr_qc: ["chat", "ʃa"],
     fr_af: ["chat", "ʃa"],
     fr_be: ["chat", "ʃa"],

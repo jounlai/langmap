@@ -428,7 +428,7 @@ WORDS.water = {
     af: ["water", "ˈvɑːtər"],
     de_at: ["Wasser", "ˈvasɐ"],
     gsw: ["Wasser", "ˈvasːər"],
-    swg: ["Wasser", "vasə"],
+    swg: ["Wasser", "ˈvasə"],
     bar: ["Wåssa", "vɔsɐ"],
     vmf: ["Wasser", "vasːə"],
     wae: ["Wasser", "vasːər"],

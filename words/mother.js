@@ -427,7 +427,7 @@ WORDS.mother = {
     af: ["moeder", "ˈmudər"],
     de_at: ["Mutter", "ˈmʊtɐ"],
     gsw: ["Mueter", "ˈmuə̯tər"],
-    swg: ["Mädder", "mɛdɐ"],
+    swg: ["Mädder", "ˈmɛdɐ"],
     bar: ["Muada", "muɐdɐ"],
     vmf: ["Mudder", "mʊdɐ"],
     wae: ["Müeter", "myə̯tər"],

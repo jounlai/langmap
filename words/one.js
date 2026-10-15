@@ -438,7 +438,7 @@ WORDS.one = {
     yi: ["איינס", "ɛɪ̯ns"],
     is: ["einn", "eitn̥"],
     gd: ["aon", "ɯːn"],
-    br: ["unan", "yːnɑ̃n"],
+    br: ["unan", "ˈyːnɑ̃n"],
     nap: ["uno", "ˈunə"],
     scn: ["unu", "ˈunu"],
     vec: ["un", "un"],

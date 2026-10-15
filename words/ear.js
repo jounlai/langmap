@@ -284,7 +284,7 @@ WORDS.ear = {
     nn: ["øyra", "ˈœʏra"],
     da: ["øre", "ˈøːɐ"],
     is: ["eyra", "ˈeiːra"],
-    fo: ["oyra", "ɔiːɹa"],
+    fo: ["oyra", "ˈɔiːɹa"],
     ru: ["ухо", "ˈuxə"],
     uk: ["вухо", "ˈwuxɔ"],
     be: ["вуха", "ˈvuxa"],

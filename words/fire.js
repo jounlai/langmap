@@ -588,7 +588,7 @@ WORDS.fire = {
     frr_amr: ["ial", "ia̯l"],
     li: ["vuur", "vyːr"],
     nn: ["eld", "ɛld"],
-    fo: ["eldur", "ɛltʊɹ"],
+    fo: ["eldur", "ˈɛltʊɹ"],
     fr_qc: ["feu", "fø"],
     fr_af: ["feu", "fø"],
     fr_be: ["feu", "fø"],

@@ -396,7 +396,7 @@ WORDS.stone = {
     frr_amr: ["stian", "stiɐ̯n"],
     li: ["sjtein", "ʃtɛin"],
     nn: ["stein", "stɛɪn"],
-    fo: ["steinur", "staiːnʊɹ"],
+    fo: ["steinur", "ˈstaiːnʊɹ"],
     fr_qc: ["pierre", "pjaɛ̯ʁ"],
     fr_af: ["pierre", "pjɛʁ"],
     fr_be: ["pierre", "pjɛʁ"],

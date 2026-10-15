@@ -440,7 +440,7 @@ WORDS.hello = {
     yi: ["שלום־עליכם", "ˌʃɔləm aˈlɛɪ̯xəm"],
     is: ["halló", "ˈhalou"],
     gd: ["halò", "haˈloː"],
-    br: ["demat", "deːmat"],
+    br: ["demat", "ˈdeːmat"],
     nap: ["uè", "wɛ"],
     scn: ["salutamu", "salutamu"],
     vec: ["ciao", "tʃao"],

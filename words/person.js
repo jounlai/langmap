@@ -1161,6 +1161,7 @@ WORDS.person = {
     uln: ["mensh", "mɛnʃ"],
     kwa: ["dəw", "dəw"],
     dyo: ["an", "an"],
-    bor: ["boe", "boe"]
+    bor: ["boe", "boe"],
+    wym: ["menś", "menʃ"]
   }
 };

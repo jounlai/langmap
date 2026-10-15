@@ -1018,7 +1018,7 @@ WORDS.night = {
     cab: ["áriebu", "ˈaɾiebu"],
     crx: ["ʼulhdzis", "ʔuɬdzis"],
     tsi: ["aatk", "aːtk"],
-    thp: ["sitist", "sitist"],
+    thp: ["sítist", "sitist"],
     wbl: ["нахт", "naxt"],
     psi: ["رات", "rat"],
     bgq: ["रात", "raːt"],

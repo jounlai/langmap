@@ -1189,6 +1189,8 @@ WORDS.nose = {
     hup: ["-nchwiwh", "-ntʃʷihʷ"],
     toc: ["kinkán", "kinkán"],
     ewo: ["dzoe", "dzoe"],
-    kpe: ["sṹa", "sṹa"]
+    kpe: ["sṹa", "sṹa"],
+    sgw: ["አንና", "anna"],
+    bzd: ["yík", "jík"]
   },
 };

@@ -240,7 +240,7 @@ WORDS.sun = {
     sw: ["jua", "ˈdʒua"],
     suk: ["liimi", "liːmi"],
     nym: ["lyuba", "ljuβa"],
-    rim: ["yura", "juɾa"],
+    rim: ["yuva", "juβa"],
     ksb: ["zuwa", "zuwa"],
     jmc: ["mwi", "mwi"],
     sbp: ["ilijuva", "ilijuva"],

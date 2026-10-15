@@ -1060,6 +1060,7 @@ WORDS.green = {
     toc: ["xtakni", "ʃtakni"],
     dbq: ["vediɗ vediɗ", "vediɗ vediɗ"],
     kpe: ["laa-ŋunu", "laː ŋunu"],
-    ja_rys: ["びぃろーとぅ", "bɨɾoːtu"]
+    ja_rys: ["びぃろーとぅ", "bɨɾoːtu"],
+    bzh: ["nimewis", "niməˠwitʃ"]
   }
 };

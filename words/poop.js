@@ -919,6 +919,9 @@ WORDS.poop = {
     anu: ["cieth", "tʃiet̪"],
     sad: ["choʼ", "tʃʰoʔ"],
     itl: ["ӄэлал", "qelal"],
-    aoz: ["maklafu", "maklafu"]
+    aoz: ["maklafu", "maklafu"],
+    emi: ["teka", "teka"],
+    prg: ["gosen", "ɡosen"],
+    bzd: ["ñá", "ɲá"]
   },
 };

@@ -727,7 +727,7 @@
         { id: 'islamic', status: 'current', use: 'official', lat: 23.6, lng: 45.0,
           name: 'Islamic (Hijri) calendar', region: 'Saudi Arabia', type: 'Lunar (no leap month)',
           epoch: 'The Hijra, Muhammad’s move to Medina, AD 622',
-          used: 'Religious use worldwide; civil in Saudi Arabia (Umm al-Qura tables)',
+          used: 'Religious use worldwide; official in Saudi Arabia (Umm al-Qura tables), though state salaries have been paid by the Gregorian calendar since 2016',
           note: 'A year is about 354 days, so Ramadan moves about 11 days earlier each Western year and goes round the seasons in 33 years.',
           year: '{n} AH',
           from: { y: 622, m: 7, d: 19 },
@@ -738,7 +738,7 @@
           name: 'Solar Hijri calendar', region: 'Iran', type: 'Solar (astronomical)',
           epoch: 'The Hijra, AD 622, counted in solar years',
           used: 'Official in Iran since 1925. Afghanistan used it officially until 2022, when the government moved to the lunar Hijri; people there still use it',
-          note: 'The year begins at the exact moment of the March equinox (Nowruz), which makes it one of the most accurate calendars in use.',
+          note: 'The year begins on the day of the March equinox (Nowruz): if the equinox comes before noon Tehran time, that day is 1 Farvardin, otherwise the next day is. Tying the year to the real equinox makes it one of the most accurate calendars in use.',
           year: '{n} SH',
           from: { y: 622, m: 3, d: 22 },
           fmt: (g, D) => { const n = calNum('persian', D), p = parts('fa-IR-u-ca-persian', DMY, D);
@@ -754,7 +754,7 @@
         { id: 'bengali', status: 'current', use: 'official', lat: 23.9, lng: 90.3,
           name: 'Bengali calendar (Bangabda)', region: 'Bangladesh', type: 'Solar (fixed rules)',
           epoch: 'Bangabda, AD 593', used: 'Official in Bangladesh; the 2019 revision is shown',
-          note: 'New Year, Pohela Boishakh, is fixed on 14 April. West Bengal in India keeps an older astronomical version, so dates there can differ by a day.',
+          note: 'New Year, Pohela Boishakh, is fixed on 14 April. West Bengal in India keeps an older astronomical version, so dates there can differ by a few days.',
           year: '{n} BS',
           from: { y: 1987, m: 4, d: 14 },
           fmt: g => { const b = bengali(g);
@@ -763,7 +763,7 @@
         { id: 'ethiopic', status: 'current', use: 'official', lat: 9.0, lng: 39.5,
           name: 'Ethiopian calendar', region: 'Ethiopia · Eritrea', type: 'Solar: 12 months of 30 days + a 13th of 5–6',
           epoch: 'Incarnation era, AD 8 by the Gregorian count', used: 'Official in Ethiopia',
-          note: 'Seven or eight years behind the Western count; New Year (Enkutatash) falls on 11 September.',
+          note: 'Seven or eight years behind the Western count; New Year (Enkutatash) falls on 11 September, or on 12 September in the year before a Gregorian leap year.',
           year: '{n} E.C.',
           from: { y: 8, m: 8, d: 27 },
           fmt: (g, D) => { const n = calNum('ethiopic', D), a = parts('am-u-ca-ethiopic', DMY, D);

@@ -84,10 +84,10 @@ window.TM_I18N["id"] = {
   ],
   "hebrew": [
    "Tisyri",
-   "Heshwan",
+   "Hesywan",
    "Kislew",
-   "Tewet",
-   "Syewat",
+   "Tebet",
+   "Syebat",
    "Adar I",
    "Adar",
    "Adar II",
@@ -95,7 +95,7 @@ window.TM_I18N["id"] = {
    "Iyar",
    "Siwan",
    "Tamus",
-   "Av",
+   "Ab",
    "Elul"
   ],
   "islamic": [
@@ -422,14 +422,14 @@ window.TM_I18N["id"] = {
    "type": "Matahari",
    "epoch": "Anno Domini",
    "used": "Sejak 14 September 1752 (3–13 September 1752 tidak pernah ada)",
-   "note": "Britania dan koloninya beralih 170 tahun setelah Roma; undang-undang yang sama memindahkan Tahun Baru dari 25 Maret ke 1 Januari."
+   "note": "Britania dan koloninya beralih 170 tahun setelah Roma. Undang-undang yang sama memindahkan Tahun Baru dari 25 Maret ke 1 Januari di Inggris, Wales, Irlandia, dan koloni-koloninya; Skotlandia sudah melakukannya sejak 1600."
   },
   "greg_us": {
    "name": "Kalender Gregorius",
    "region": "Amerika Serikat",
    "type": "Matahari",
    "epoch": "Anno Domini",
-   "used": "Sejak 1752, sebagai koloni Britania",
+   "used": "Sejak 1752 di koloni-koloni Britania; wilayah Spanyol dan Prancis memakainya sejak 1582 (atau sejak didirikan), Alaska sejak 1867",
    "note": "Kalender yang sama dengan Britania, tetapi bulan ditulis lebih dulu: 10/5 berarti 5 Oktober di AS dan 10 Mei di Britania."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["id"] = {
    "type": "Bulan Gregorius, tahun era Republik",
    "epoch": "Berdirinya Republik Tiongkok, 1912",
    "used": "Sejak 1912; resmi di Taiwan",
-   "note": "Tahun = tahun Masehi − 1911. Berjalan seiring dengan tahun Juche Korea Utara.",
+   "note": "Tahun = tahun Masehi − 1911. Tahun Juche Korea Utara, yang juga dihitung dari 1912 dan dipakai hingga 2024, memiliki angka yang sama.",
    "year": "Minguo {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["id"] = {
    "type": "Bulan Gregorius, tahun Juche",
    "epoch": "Kelahiran Kim Il Sung, 1912",
    "used": "1997–2024: Korea Utara berhenti mencantumkan tahun Juche pada Oktober 2024",
-   "note": "Ditulis dengan tahun Masehi dalam kurung: 주체115(2026)년.",
+   "note": "Tanggal dulu ditulis dengan tahun Masehi dalam kurung, seperti 주체113(2024)년.",
    "year": "Juche {n}"
   },
   "buddhist": {
@@ -491,7 +491,7 @@ window.TM_I18N["id"] = {
    "type": "Lunisolar",
    "epoch": "Tanpa hitungan tahun berjalan; siklus 60 tahun",
    "used": "Menentukan Seollal dan Chuseok",
-   "note": "Aturannya sama dengan kalender Tionghoa tetapi dihitung menurut waktu Korea, sehingga bulan baru menjelang tengah malam bisa membuat awal bulan bergeser satu hari.",
+   "note": "Aturannya sama dengan kalender Tionghoa tetapi dihitung menurut waktu Korea, sehingga bulan baru menjelang tengah malam bisa membuat awal bulan bergeser satu hari, dan sesekali bulan kabisatnya jatuh di tempat lain (2012: bulan kabisat ke-3 di Korea, bulan kabisat ke-4 di Tiongkok).",
    "year": "tahun {gzPy} ({animal})"
   },
   "hebrew": {

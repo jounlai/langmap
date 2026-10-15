@@ -422,14 +422,14 @@ window.TM_I18N["vi"] = {
    "type": "Dương lịch",
    "epoch": "Công nguyên",
    "used": "Từ ngày 14 tháng 9 năm 1752 (các ngày 3–13 tháng 9 năm 1752 chưa từng tồn tại)",
-   "note": "Anh và các thuộc địa chuyển đổi muộn hơn Roma 170 năm; cùng đạo luật đó dời ngày đầu năm từ 25 tháng 3 sang 1 tháng 1."
+   "note": "Anh và các thuộc địa chuyển đổi muộn hơn Roma 170 năm. Cùng đạo luật đó dời ngày đầu năm từ 25 tháng 3 sang 1 tháng 1 ở xứ Anh, xứ Wales, Ireland và các thuộc địa; Scotland đã đổi như vậy từ năm 1600."
   },
   "greg_us": {
    "name": "Lịch Gregory",
    "region": "Hoa Kỳ",
    "type": "Dương lịch",
    "epoch": "Công nguyên",
-   "used": "Từ năm 1752, khi còn là thuộc địa Anh",
+   "used": "Từ năm 1752 ở các thuộc địa Anh; các vùng đất của Tây Ban Nha và Pháp dùng từ năm 1582 (hoặc từ khi được lập), Alaska từ năm 1867",
    "note": "Cùng bộ lịch với Anh, nhưng viết tháng trước: 10/5 là ngày 5 tháng 10 ở Mỹ và ngày 10 tháng 5 ở Anh."
   },
   "greg_jp": {
@@ -455,7 +455,7 @@ window.TM_I18N["vi"] = {
    "type": "Tháng dương lịch, năm Dân Quốc",
    "epoch": "Thành lập Trung Hoa Dân Quốc, 1912",
    "used": "Từ năm 1912; chính thức tại Đài Loan",
-   "note": "Năm = năm dương lịch − 1911. Trùng với năm Chủ thể của Triều Tiên.",
+   "note": "Năm = năm dương lịch − 1911. Năm Chủ thể của Triều Tiên, cũng tính từ năm 1912 và dùng đến năm 2024, mang cùng con số.",
    "year": "Dân Quốc {n}"
   },
   "juche": {
@@ -464,7 +464,7 @@ window.TM_I18N["vi"] = {
    "type": "Tháng dương lịch, năm Chủ thể",
    "epoch": "Năm sinh của Kim Nhật Thành, 1912",
    "used": "1997–2024: Triều Tiên ngừng in năm Chủ thể từ tháng 10 năm 2024",
-   "note": "Viết kèm năm dương lịch trong ngoặc: 주체115(2026)년.",
+   "note": "Ngày tháng từng được viết kèm năm dương lịch trong ngoặc, như 주체113(2024)년.",
    "year": "Chủ thể {n}"
   },
   "buddhist": {
@@ -491,7 +491,7 @@ window.TM_I18N["vi"] = {
    "type": "Âm dương lịch",
    "epoch": "Không đếm năm liên tục; chu kỳ 60 năm",
    "used": "Xác định Tết Seollal và Chuseok",
-   "note": "Cùng quy tắc với âm lịch Trung Quốc nhưng tính theo giờ Hàn Quốc, nên khi ngày sóc rơi gần nửa đêm, tháng có thể bắt đầu lệch một ngày.",
+   "note": "Cùng quy tắc với âm lịch Trung Quốc nhưng tính theo giờ Hàn Quốc, nên khi ngày sóc rơi gần nửa đêm, tháng có thể bắt đầu lệch một ngày, và đôi khi tháng nhuận rơi vào chỗ khác (năm 2012: Hàn Quốc nhuận tháng 3, Trung Quốc nhuận tháng 4).",
    "year": "{gzVi}"
   },
   "hebrew": {

@@ -648,12 +648,12 @@ NAMES.krishna = {
   },
   background:{
     en:'Krishna is the eighth avatar of Vishnu and one of the most beloved deities of Hinduism — the flute-playing cowherd of Vrindavan and the charioteer-sage of the Bhagavad Gita. The Sanskrit kṛṣṇa literally means “dark, black”, describing his complexion, and yields tender by-forms such as Kanha and Tamil Kannan. As a given name it is common across India and the whole Hindu diaspora; its Southeast-Asian spread runs through the wayang shadow-theatre and the Mahabharata.',
-    ja:'クリシュナはヴィシュヌ神の第八の化身で、ヒンドゥー教で最も愛される神格の一つ。ヴリンダーヴァンで笛を吹く牛飼いであり、『バガヴァッド・ギーター』で御者として賢者アルジュナを導く。サンスクリットのクリシュナは文字どおり「黒い・暗い」を意味し、その肌の色を表すとともに、カーナ（Kanha）やタミル語のカンナン（Kannan）といった親しみを込めた形を生んだ。人名としてインド全域とヒンドゥー系ディアスポラで広く使われ、東南アジアへはワヤン影絵劇とマハーバーラタを通じて広がった。',
+    ja:'クリシュナはヴィシュヌ神の第八の化身で、ヒンドゥー教で最も愛される神格の一つ。ヴリンダーヴァンで笛を吹く牛飼いであり、『バガヴァッド・ギーター』でアルジュナの戦車を御し、彼を導く賢者でもある。サンスクリットのクリシュナは文字どおり「黒い・暗い」を意味し、その肌の色を表すとともに、カーナ（Kanha）やタミル語のカンナン（Kannan）といった親しみを込めた形を生んだ。人名としてインド全域とヒンドゥー系ディアスポラで広く使われ、東南アジアへはワヤン影絵劇とマハーバーラタを通じて広がった。',
   },
   forms:{
     en:  { form:'Krishna', rom:'Krishna', ipa:'ˈkrɪʃnə', freq:'common', note:{en:'international / diaspora romanization',ja:'国際・ディアスポラのローマ字形'}, people:['Krishna Das'] },
     gb:  { form:'Krishna', rom:'Krishna', ipa:'ˈkrɪʃnə', freq:'moderate', note:{en:'Hindu communities; Hare Krishna movement',ja:'ヒンドゥー系社会。ハレ・クリシュナ運動'} },
-    hi:  { form:'कृष्ण', rom:'Kṛṣṇa', ipa:'ˈkr̩ʂɳə', freq:'very-common', note:{en:'the original; pet-form Kanha कान्हा',ja:'原形。愛称カーナ कान्हा'}, people:['Ghattamaneni Krishna','Prasidh Krishna'] },
+    hi:  { form:'कृष्ण', rom:'Kṛṣṇa', ipa:'kɾɪʂɳ', freq:'very-common', note:{en:'the original; pet-form Kanha कान्हा',ja:'原形。愛称カーナ कान्हा'}, people:['Ghattamaneni Krishna','Prasidh Krishna'] },
     bn:  { form:'কৃষ্ণ', rom:'Krishno', ipa:'ˈkriʃno', freq:'common' },
     ur:  { form:'کرشن', rom:'Krishan', ipa:'ˈkɪrʃən', freq:'moderate', note:{en:'Hindu name; Muslim contexts do not use it',ja:'ヒンドゥー教徒の名。ムスリム社会では使われない'} },
     th:  { form:'กฤษณะ', rom:'Kritsana', ipa:'krìt.sà.náʔ', freq:'moderate', note:{en:'from the deity Krishna; also the boysʼ name Krit',ja:'クリシュナ神に由来。男子名クリットの形も'} },
@@ -682,13 +682,13 @@ NAMES.rama = {
     meaning:{ en:'“Pleasing, charming, delightful” (root ram- “to please, delight”)', ja:'「快い・魅力的な・喜ばせる」（語根 ram-「喜ばせる」）' },
   },
   background:{
-    en:'Rama is an avatar of Vishnu and the hero of the Ramayana, the ideal king of Ayodhya whose story is among the most retold in the world. The Sanskrit rāma means “pleasing, charming”. Above all it was the epic that carried the name across Southeast Asia: the Thai kings of the Chakri dynasty all take the regnal name Rama, Ayutthaya itself was named after Ramaʼs birthplace Ayodhya, and Rama lives on in the Cambodian Reamker (as Preah Ream), the Javanese and Balinese wayang, and the Lao Phra Lak Phra Ram.',
-    ja:'ラーマはヴィシュヌ神の化身であり、叙事詩『ラーマーヤナ』の主人公。アヨーディヤーの理想の王で、その物語は世界で最も繰り返し語られる物語の一つである。サンスクリットのラーマは「快い・魅力的な」を意味する。とりわけこの叙事詩が名を東南アジア全域へ運んだ——タイのチャクリー朝の歴代王はみな「ラーマ」を王号とし、アユタヤという都名もラーマの生地アヨーディヤーに由来する。ラーマはカンボジアの『リアムケー』（プレア・リアム）、ジャワ・バリのワヤン、ラオスの『プラ・ラク・プラ・ラム』にも生き続けている。',
+    en:'Rama is an avatar of Vishnu and the hero of the Ramayana, the ideal king of Ayodhya whose story is among the most retold in the world. The Sanskrit rāma means “pleasing, charming”. Above all it was the epic that carried the name across Southeast Asia: the kings of Thailandʼs Chakri dynasty are all styled Rama (Rama I to Rama X, a practice Vajiravudh, Rama VI, began), Ayutthaya itself was named after Ramaʼs birthplace Ayodhya, and Rama lives on in the Cambodian Reamker (as Preah Ream), the Javanese and Balinese wayang, and the Lao Phra Lak Phra Ram.',
+    ja:'ラーマはヴィシュヌ神の化身であり、叙事詩『ラーマーヤナ』の主人公。アヨーディヤーの理想の王で、その物語は世界で最も繰り返し語られる物語の一つである。サンスクリットのラーマは「快い・魅力的な」を意味する。とりわけこの叙事詩が名を東南アジア全域へ運んだ——タイのチャクリー朝の歴代王はみな「ラーマ○世」と呼ばれ（ラーマ1世〜10世。ラーマ6世ワチラーウットが始めた呼び方）、アユタヤという都名もラーマの生地アヨーディヤーに由来する。ラーマはカンボジアの『リアムケー』（プレア・リアム）、ジャワ・バリのワヤン、ラオスの『プラ・ラク・プラ・ラム』にも生き続けている。',
   },
   forms:{
     en:  { form:'Rama', rom:'Rama', ipa:'ˈrɑːmə', freq:'moderate', note:{en:'international / diaspora romanization',ja:'国際・ディアスポラのローマ字形'} },
     gb:  { form:'Rama', rom:'Rama', ipa:'ˈrɑːmə', freq:'moderate', note:{en:'Hindu communities',ja:'ヒンドゥー系社会'} },
-    hi:  { form:'राम', rom:'Rām', ipa:'raːm', freq:'very-common', note:{en:'the original; countless compounds (Ramesh, Ramkumar)',ja:'原形。複合名多数（ラメーシュ、ラームクマール）'}, people:['Ram Nath Kovind'] },
+    hi:  { form:'राम', rom:'Rām', ipa:'raːm', freq:'very-common', note:{en:'the original; countless compounds (Ramchandra, Ramkumar)',ja:'原形。複合名多数（ラームチャンドラ、ラームクマール）'}, people:['Ram Nath Kovind'] },
     bn:  { form:'রাম', rom:'Ram', ipa:'ram', freq:'common' },
     ur:  { form:'رام', rom:'Ram', ipa:'raːm', freq:'moderate', note:{en:'Hindu name; not used in Muslim contexts',ja:'ヒンドゥー教徒の名。ムスリム社会では使わない'} },
     th:  { form:'พระราม', rom:'Phra Ram', ipa:'pʰráʔ raːm', freq:'common', note:{en:'Thai kings all reign as “Rama”',ja:'タイの歴代王はみな王号「ラーマ」を名乗る'}, people:['Rama IX (Bhumibol)','Rama X (Vajiralongkorn)'] },

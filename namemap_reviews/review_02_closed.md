@@ -7,3 +7,8 @@ am ħ→h, vi Gioan two syllables; tree node Ivan now East/South Slavic and the
 background text likewise in all 19 languages. mary: sw Mariamu (Maryamu is
 Hausa) … muhammad, alexander, fatima, ali, joseph, michael, george, sophia
 checked. namemap_i18n rebuilt; __nmI18nVersion 2.
+
+## Round 2 (krishna rama david daniel peter · paul thomas abraham isaac jacob)
+43 patches, all accepted. paul: uk Павло pɐu̯ˈlɔ, ka პავლე pʼavle (ejective),
+vi Phaolô two syllables; thomas/abraham/isaac/jacob forms and IPA; prose in
+17 i18n languages. Held: ro Pavel vs Paul (no frequency source).

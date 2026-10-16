@@ -37,6 +37,40 @@ if (!isset($data['langs'][$seo_id])) {
 seo_render_wordmap_lang($data, $seo_id, $seo_ui);
 
 
+/**
+ * A few everyday words of this language for the search snippet, labelled in
+ * the reader's UI language ("ありがとう＝merci、水＝eau …"). The snippet was
+ * the encyclopedic description alone, which opens on ISO codes and history
+ * and says nothing a searcher looking for words can act on (owner 2026-10-16).
+ */
+function seo_wordmap_samples(array $data, string $code, string $ui): array
+{
+    // On its own UI ("日本語" read in Japanese) the pairs would be the word
+    // glossed by itself.
+    if ($code === $ui || str_starts_with($code, $ui . '_')) {
+        return [];
+    }
+    $l = $data['langs'][$code];
+    $labels = [];
+    foreach ($data['words'] as $w) {
+        $labels[(string) $w['id']] = seo_pick($w['label'] ?? [], $ui);
+    }
+    $out = [];
+    foreach (['thanks', 'hello', 'water', 'love', 'cat', 'mother', 'one', 'sun'] as $id) {
+        $surface = trim((string) ($l['words'][$id][0] ?? ''));
+        $label = $labels[$id] ?? '';
+        if ($surface === '' || $label === '' || preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $surface)
+            || mb_strtolower($surface) === mb_strtolower($label)) {
+            continue;
+        }
+        $out[] = [$label, $surface];
+        if (count($out) >= 4) {
+            break;
+        }
+    }
+    return $out;
+}
+
 function seo_render_wordmap_lang(array $data, string $code, string $ui): void
 {
     $lang = $data['langs'][$code];
@@ -52,9 +86,11 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     $wc = (string) count($words);
     $title = $name . ($native && $native !== $name ? " ($native)" : '')
         . ' — ' . seo_t($ui, 'wm_lang_title', ['w' => $wc]) . ' | Word Map';
-    $metaDesc = $desc !== ''
-        ? $desc
-        : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($native ? " ($native)" : ''), 'w' => $wc]);
+    $metaDesc = seo_lang_meta_lead(
+        seo_wordmap_samples($data, $code, $ui),
+        $desc !== '' ? $desc : seo_t($ui, 'wm_lang_meta', ['name' => $name . ($native ? " ($native)" : ''), 'w' => $wc]),
+        $ui
+    );
     $robots = !empty($lang['excluded']) ? 'noindex,follow' : 'index,follow';
 
     seo_head([

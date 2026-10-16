@@ -3691,6 +3691,22 @@ function seo_lang_name(array $langs, string $code, string $ui = 'en'): string
     return seo_pick($l['names'] ?? [], $ui) ?: ($l['name'] ?? $code);
 }
 
+/**
+ * A language page's meta description: sample pairs first ("水＝eau"), then the
+ * page's own description, clipped to snippet length.
+ */
+function seo_lang_meta_lead(array $pairs, string $rest, string $ui): string
+{
+    if (!$pairs) {
+        return $rest;
+    }
+    $cjk = in_array($ui, ['ja', 'zh', 'yue'], true);
+    $eq = $cjk ? '＝' : ' = ';
+    $sep = $cjk ? '、' : ($ui === 'ar' ? '، ' : ', ');
+    $lead = implode($sep, array_map(static fn($p) => $p[0] . $eq . $p[1], $pairs));
+    return seo_clip($lead . ($cjk ? '。' : '. ') . $rest, 160);
+}
+
 /** The family string for a code, normalising the two map shapes. */
 function seo_lang_family(array $lang): string
 {

@@ -34,6 +34,33 @@ if (!isset($data['langs'][$seo_id])) {
 seo_render_hanmap_lang($data, $seo_id, $seo_ui);
 
 
+/**
+ * Readings of a few common characters for the search snippet ("山＝サン、
+ * 水＝スイ …"). The snippet used to be the row's description alone, which for
+ * Japanese opened mid-history on 漢音 and showed no reading at all.
+ */
+function seo_hanmap_samples(array $lang): array
+{
+    $out = [];
+    foreach (['人', '山', '水', '心', '日', '月'] as $ch) {
+        $r = $lang['readings'][$ch][0] ?? null;
+        if (!$r) {
+            continue;
+        }
+        $nat = trim((string) ($r['native'] ?? ''));
+        $sur = trim((string) ($r['surface'] ?? ''));
+        $read = ($nat !== '' && $nat !== $ch && !preg_match('/^[\x{4E00}-\x{9FFF}]+$/u', $nat)) ? $nat : $sur;
+        if ($read === '' || preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $read)) {
+            continue;
+        }
+        $out[] = [$ch, $read];
+        if (count($out) >= 4) {
+            break;
+        }
+    }
+    return $out;
+}
+
 function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 {
     $lang = $data['langs'][$code];
@@ -48,9 +75,11 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     $altPath = '/hanmap/' . rawurlencode($code);
     $title = $name . ($native && $native !== $name ? " ($native)" : '')
         . ' — ' . seo_t($ui, 'hm_lang_title') . ' | Han Map';
-    $metaDesc = $desc !== ''
-        ? $desc
-        : seo_t($ui, 'hm_lang_meta', ['name' => $name . ($native ? " ($native)" : '')]);
+    $metaDesc = seo_lang_meta_lead(
+        seo_hanmap_samples($lang),
+        $desc !== '' ? $desc : seo_t($ui, 'hm_lang_meta', ['name' => $name . ($native ? " ($native)" : '')]),
+        $ui
+    );
 
     seo_head([
         'title' => $title,

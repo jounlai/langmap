@@ -67,7 +67,8 @@
      Fonts so the Serif family is the only option. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@400;700&display=swap"></noscript>
 <style>
     /* tree.html prints each language's `native` field, and vi_nom's is now
        written in Nôm — 㗂越 (字喃). 㗂 is U+35C2, CJK Ext A, which Google's
@@ -279,7 +280,7 @@
 <div class="site-header-bar">
     <a href="tree.html" class="logo">LangMap<span class="logo-badge logo-badge-tree" aria-label="Family tree" title="Family tree"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8H6M12 8h6M6 14v4M18 14v4"/></svg></span></a>
     <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle">
-    <label for="hdr-menu-toggle" class="hamburger-btn" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
+    <label for="hdr-menu-toggle" class="hamburger-btn" role="button" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
     <div class="header-collapse" id="header-collapse">
         <!-- Audit Task 124/161: nav default labels are English so the header
              renders correctly when JavaScript is disabled or before applyI18n()

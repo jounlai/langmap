@@ -68,7 +68,8 @@
          ayin ꜥ (U+A725) used in the Egyptian and Sumerian transliteration
          lines. Without them iOS renders those two letters as tofu, so
          "sbꜣ" reads as "sb□". -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Serif+Tibetan:wght@400;700&family=Gentium+Plus&family=Charis+SIL&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Serif+Tibetan:wght@400;700&family=Gentium+Plus&family=Charis+SIL&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform&family=Noto+Sans+Egyptian+Hieroglyphs&family=Noto+Serif+Tibetan:wght@400;700&family=Gentium+Plus&family=Charis+SIL&display=swap"></noscript>
     <meta name="google-site-verification" content="bv4ffQGbDc_Grf1Ioc8NCotrXWc2mY34wEmL-5yHJyM" />
     <script>
         // Production-only GA firing: hostname-gated so dev/local/staging
@@ -93,7 +94,7 @@
     <div class="site-header-bar">
         <a href="#" onclick="resetToDefaults(); return false;" class="logo"><span id="uiTitle">LangMap</span><span class="logo-badge logo-badge-order" aria-label="Word Order" title="Word Order"><svg viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg></span></a>
         <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle">
-        <label for="hdr-menu-toggle" class="hamburger-btn" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
+        <label for="hdr-menu-toggle" class="hamburger-btn" role="button" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
         <div class="header-collapse" id="header-collapse">
             <nav class="header-nav">
                 <span class="header-nav-current" id="navWordOrder"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg>語順マップ</span>

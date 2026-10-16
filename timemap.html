@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=135">
+    <link rel="stylesheet" href="styles.css?v=136">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -555,6 +555,10 @@
                 mk.on('popupopen', ()=>{ openId=cal.id; markActive(); const el=mk.getElement&&mk.getElement(); const lb=el&&el.querySelector('.tm-label'); if(lb) lb.style.visibility=''; });
                 mk.on('popupclose', ()=>{ if(openId===cal.id){ openId=null; markActive(); } });
                 mk.addTo(map); markers[cal.id]=mk;
+                // Leaflet gives the marker role=button; a hidden (de-collided) label
+                // leaves it nameless, so name it explicitly (Lighthouse aria-command-name).
+                const mel=mk.getElement&&mk.getElement();
+                if(mel) mel.setAttribute('aria-label', ct(cal,'name')+' — '+r.native+(r.tr ? ' ('+r.tr+')' : ''));
             });
             requestAnimationFrame(relaxLabels);
         }

@@ -2729,6 +2729,18 @@ function seo_sole_country(array $lang, string $code = ''): ?string
  * caller then omits the attribute, which is better than asserting a wrong
  * one.
  */
+/**
+ * lang="" value for an internal row code in comparison tables: the base
+ * subtag only (ja_hir -> ja, ko_kp -> ko, hak_tw -> hak), '' when the base is
+ * not a BCP-47 language subtag. Same policy as seo_bcp47() for rows whose
+ * metadata is not at hand; Lighthouse valid-lang, 2026-10-16.
+ */
+function seo_lang_attr(string $code): string
+{
+    $tag = explode('_', $code)[0];
+    return preg_match('/^[a-z]{2,3}$/', $tag) ? $tag : '';
+}
+
 function seo_bcp47(string $code, array $lang): string
 {
     $iso = (string) ($lang['meta']['iso6393'] ?? '');
@@ -2976,29 +2988,44 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5): 
 <div class="seo-map-wrap">
   <div id="{$id}" class="seo-map" role="img" aria-label="Map centered on {$jsLabel}"></div>
 </div>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  if (typeof L === 'undefined') {
-    // Leaflet still loading (defer); poll briefly.
-    var tries = 0, t = setInterval(function () {
-      if (typeof L !== 'undefined' || tries++ > 50) { clearInterval(t); init(); }
-    }, 100);
-  } else { init(); }
+(function () {
+  // Leaflet (CSS + JS) is fetched only when the map nears the viewport, so it
+  // neither blocks first paint nor adds main-thread work on load
+  // (Lighthouse render-blocking + TBT, 2026-10-16).
+  var el = document.getElementById('{$id}');
+  if (!el) return;
+  var started = false;
+  function load() {
+    if (started) return; started = true;
+    var css = document.createElement('link');
+    css.rel = 'stylesheet'; css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    document.head.appendChild(css);
+    var js = document.createElement('script');
+    js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    js.onload = init;
+    document.head.appendChild(js);
+  }
   function init() {
     if (typeof L === 'undefined') return;
-    var el = document.getElementById('{$id}');
-    if (!el) return;
     var map = L.map(el, { scrollWheelZoom: false, attributionControl: true })
       .setView([{$lat}, {$lng}], {$zoom});
+    // detectRetina: @2x-equivalent tiles on high-DPR screens (image-size-responsive).
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 18,
+      maxZoom: 18, detectRetina: true,
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
     L.marker([{$lat}, {$lng}]).addTo(map).bindPopup({$jsLabel});
   }
-});
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      if (es.some(function (e) { return e.isIntersecting; })) { io.disconnect(); load(); }
+    }, { rootMargin: '200px' });
+    io.observe(el);
+  } else {
+    window.addEventListener('load', load);
+  }
+})();
 </script>
 HTML;
 }
@@ -3016,6 +3043,46 @@ function seo_hreflang(string $altPath): void
     }
     echo '<link rel="alternate" hreflang="x-default" href="'
         . e(SEO_SITE . '/en' . $altPath) . "\">\n";
+}
+
+/**
+ * Google Fonts request trimmed to the scripts the page actually contains.
+ *
+ * The <head> used to request all eleven families on every page: a 251 KB
+ * stylesheet, 100% unused at load on a Japanese page (Lighthouse,
+ * 2026-10-16). seo_head() prints a marker and buffers the page; when the page
+ * is finished, the marker is replaced by a request for the Latin/IPA faces
+ * plus only the CJK / Tibetan / Tangut / Phags-pa / Mongolian faces whose
+ * characters occur in the HTML (inline JSON blobs included — they are
+ * written with JSON_UNESCAPED_UNICODE).
+ */
+const SEO_FONTS_MARK = '<!--seo-fonts-->';
+
+function seo_fonts_placeholder(): string
+{
+    static $started = false;
+    if (!$started) {
+        $started = true;
+        ob_start(fn(string $html) => str_replace(SEO_FONTS_MARK, seo_fonts_links($html), $html));
+    }
+    return SEO_FONTS_MARK;
+}
+
+function seo_fonts_links(string $html): string
+{
+    $fam = ['Gentium+Plus:wght@400;700', 'Charis+SIL:wght@400;700', 'Noto+Serif:wght@400;700'];
+    $han = preg_match('/[\x{3400}-\x{9FFF}\x{F900}-\x{FAFF}\x{20000}-\x{3134F}]/u', $html);
+    if ($han || preg_match('/[\x{3040}-\x{30FF}]/u', $html)) $fam[] = 'Noto+Serif+JP:wght@400;700';
+    if ($han) { $fam[] = 'Noto+Serif+SC:wght@400;700'; $fam[] = 'Noto+Serif+TC:wght@400;700'; }
+    if (preg_match('/[\x{1100}-\x{11FF}\x{3130}-\x{318F}\x{AC00}-\x{D7AF}]/u', $html)) $fam[] = 'Noto+Serif+KR:wght@400;700';
+    if (preg_match('/[\x{0F00}-\x{0FFF}]/u', $html)) $fam[] = 'Noto+Serif+Tibetan:wght@400;700';
+    if (preg_match('/[\x{17000}-\x{18AFF}]/u', $html)) $fam[] = 'Noto+Serif+Tangut';
+    if (preg_match('/[\x{A840}-\x{A87F}]/u', $html)) $fam[] = 'Noto+Sans+Phags+Pa';
+    if (preg_match('/[\x{1800}-\x{18AF}]/u', $html)) $fam[] = 'Noto+Sans+Mongolian';
+    $url = 'https://fonts.googleapis.com/css2?family=' . implode('&family=', $fam) . '&display=swap';
+    $u = htmlspecialchars($url, ENT_QUOTES);
+    return '<link rel="stylesheet" href="' . $u . '" media="print" onload="this.media=\'all\'">' . "\n"
+        . '<noscript><link rel="stylesheet" href="' . $u . '"></noscript>';
 }
 
 /** Shared <head> + page chrome opening. */
@@ -3041,8 +3108,7 @@ function seo_head(array $opts): void
          diacritics (POJ tone marks, ǔ) and Han glyphs render cleanly everywhere. */ ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Mongolian&display=swap" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Mongolian&display=swap"></noscript>
+<?= seo_fonts_placeholder() ?>
 <title><?= e($title) ?></title>
 <meta name="description" content="<?= e(seo_clip($desc)) ?>">
 <meta name="robots" content="<?= e($robots) ?>">
@@ -3059,7 +3125,7 @@ function seo_head(array $opts): void
 <meta name="twitter:title" content="<?= e($title) ?>">
 <meta name="twitter:description" content="<?= e(seo_clip($desc)) ?>">
 <style>
-:root { --fg:#1a1a2e; --muted:#5c5c72; --bg:#fafafe; --accent:#4178bc; --card:#fff; --line:#e6e6ef; }
+:root { --fg:#1a1a2e; --muted:#5c5c72; --bg:#fafafe; --accent:#2f62a3; --card:#fff; --line:#e6e6ef; }
 * { box-sizing: border-box; }
 body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color: var(--fg); background: var(--bg); margin: 0; line-height: 1.5; }
@@ -3220,6 +3286,11 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 1.2rem; margin-top: 2.9rem; transition: transform .15s; }
 .seo-region[open] > summary::after { transform: rotate(180deg); }
 .seo-region > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Long sections skip style/layout/paint until they near the viewport — the
+   character table alone is ~190 rows. Biggest single cut to load-time layout
+   work (Lighthouse TBT, 2026-10-16). The intrinsic size is a placeholder that
+   the browser replaces with the real height once a section has rendered. */
+.seo-section, .seo-ex, .seo-related { content-visibility: auto; contain-intrinsic-size: auto 1500px; }
 .seo-section h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-bottom: 2px solid var(--line);
   padding-bottom: .35rem; }
 .seo-words { display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
@@ -3383,7 +3454,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-goods-title { display: block; font-size: 1.4rem; font-weight: 700;
   line-height: 1.25; margin: 0 0 .35rem; color: #2a2118; }
 .seo-goods-lede { display: block; color: #6b6053; font-size: .98rem; line-height: 1.55; }
-.seo-goods-note { display: block; color: #8a7f70; font-size: .82rem; line-height: 1.5; margin-top: .45rem; }
+.seo-goods-note { display: block; color: #6b6254; font-size: .82rem; line-height: 1.5; margin-top: .45rem; }
 .seo-goods-btn { display: inline-block; margin-top: .95rem; background: #1b2a44;
   color: #f4efe6; font-weight: 700; padding: .62rem 1.2rem; border-radius: 999px; }
 .seo-goods > a:hover .seo-goods-btn { background: #26385a; }
@@ -3397,7 +3468,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-foot a { color: var(--accent); }
 .seo-foot-cta { margin: 0 0 .9rem; font-size: 1rem; }
 .seo-foot-cta a { white-space: nowrap; }
-.seo-foot-credit { margin: .9rem 0 0; font-size: .85rem; opacity: .85; }
+.seo-foot-credit { margin: .9rem 0 0; font-size: .85rem; color: var(--muted); }
 .seo-related { margin: 2.5rem 0 0; }
 .seo-related h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-bottom: 2px solid var(--line);
   padding-bottom: .35rem; }
@@ -4116,9 +4187,9 @@ function seo_comparisons(string $map, string $code, string $ui,
         $nm = seo_lang_name($langs, $c, $ui);
         $cls = $anchor ? ' class="cmp-anchor"' : '';
         if ($anchor) {
-            return '<th' . $cls . ' scope="col" lang="' . e($c) . '">' . e($nm) . '</th>';
+            return '<th' . $cls . ' scope="col" lang="' . e(seo_lang_attr($c)) . '">' . e($nm) . '</th>';
         }
-        return '<th scope="col"><a href="' . e(seo_path($ui, $mapName, $c)) . '" lang="' . e($c) . '">' . e($nm) . '</a></th>';
+        return '<th scope="col"><a href="' . e(seo_path($ui, $mapName, $c)) . '" lang="' . e(seo_lang_attr($c)) . '">' . e($nm) . '</a></th>';
     };
 
     // ----- 1) Words comparison ----------------------------------------------
@@ -4156,7 +4227,7 @@ function seo_comparisons(string $map, string $code, string $ui,
             $surface = $entry[0] ?? ''; $ipa = $entry[1] ?? '';
             $anchor = $ci === 0; ?>
         <td<?= $anchor ? ' class="cmp-anchor"' : '' ?>>
-          <span class="cmp-sf" lang="<?= e($c) ?>"><?= e($surface !== '' ? $surface : '—') ?></span>
+          <span class="cmp-sf" lang="<?= e(seo_lang_attr($c)) ?>"><?= e($surface !== '' ? $surface : '—') ?></span>
           <?php if ($ipa !== ''): ?><span class="cmp-ipa">/<?= e($ipa) ?>/</span><?php endif; ?>
         </td>
         <?php endforeach; ?>
@@ -4216,14 +4287,14 @@ function seo_comparisons(string $map, string $code, string $ui,
                 ?>
     <div class="cmp-wo-row<?= $anchor ? ' cmp-anchor' : '' ?>">
       <div class="cmp-wo-name">
-        <?php if ($anchor): ?><span lang="<?= e($c) ?>"><?= e($woName($c)) ?></span>
-        <?php else: ?><a href="<?= e($woLink($c)) ?>" lang="<?= e($c) ?>"><?= e($woName($c)) ?></a><?php endif; ?>
+        <?php if ($anchor): ?><span lang="<?= e(seo_lang_attr($c)) ?>"><?= e($woName($c)) ?></span>
+        <?php else: ?><a href="<?= e($woLink($c)) ?>" lang="<?= e(seo_lang_attr($c)) ?>"><?= e($woName($c)) ?></a><?php endif; ?>
       </div>
       <div class="cmp-wo-segs">
         <?php foreach (($segs ?? []) as $seg):
             $text = $seg[1] ?? ''; $color = $seg[2] ?? '';
             if ($text === '') continue; ?>
-        <span class="wo-seg" lang="<?= e($c) ?>" data-seg="<?= e($seg[0] ?? '') ?>"<?= $color !== '' ? ' style="color:' . e($color) . '"' : '' ?>><?= e($text) ?></span>
+        <span class="wo-seg" lang="<?= e(seo_lang_attr($c)) ?>" data-seg="<?= e($seg[0] ?? '') ?>"<?= $color !== '' ? ' style="color:' . e($color) . '"' : '' ?>><?= e($text) ?></span>
         <?php endforeach; ?>
       </div>
     </div>
@@ -4311,7 +4382,7 @@ function seo_comparisons(string $map, string $code, string $ui,
                 $surface = $r['surface'] ?? ''; $ipa = $r['ipa'] ?? ''; $label = $r['label'] ?? '';
                 $out .= '<span class="cmp-rd">';
                 if ($multi && $label !== '') $out .= '<span class="cmp-rl">' . e($label) . '</span>';
-                if ($surface !== '') $out .= '<span class="cmp-sf" style="display:inline" lang="' . e($c) . '">' . e($surface) . '</span> ';
+                if ($surface !== '') $out .= '<span class="cmp-sf" style="display:inline" lang="' . e(seo_lang_attr($c)) . '">' . e($surface) . '</span> ';
                 if ($ipa !== '') $out .= '<span class="cmp-ipa" style="display:inline">/' . e($ipa) . '/</span>';
                 $out .= '</span>';
             }
@@ -4450,18 +4521,31 @@ function seo_comparisons(string $map, string $code, string $ui,
         }
       }
     }
-    function drawAll() { requestAnimationFrame(function () { blocks.forEach(drawWoLines); }); }
+    // Connectors measure every segment (forced layout over the whole page), so
+    // they are drawn only once the section is near the viewport; until then a
+    // draw request just marks it dirty (Lighthouse forced-reflow, 2026-10-16).
+    var inView = !('IntersectionObserver' in window), dirty = false;
+    function drawAll() {
+      if (!inView) { dirty = true; return; }
+      requestAnimationFrame(function () { blocks.forEach(drawWoLines); });
+    }
+    if (!inView) {
+      new IntersectionObserver(function (es) {
+        inView = es.some(function (e) { return e.isIntersecting; });
+        if (inView && dirty) { dirty = false; drawAll(); }
+      }, { rootMargin: '300px' }).observe(sec);
+    }
     function buildLazy(blk, i) {
       var d = data[i]; if (!d || !blk.lazy) return false;
       var h = '';
       blk.cols.forEach(function (code) {
         var row = (d.r || {})[code]; if (!row) return;
         h += '<div class="cmp-wo-row' + (row.l ? '' : ' cmp-anchor') + '"><div class="cmp-wo-name">'
-          + (row.l ? '<a href="' + esc(row.l) + '" lang="' + esc(code) + '">' + esc(row.n) + '</a>'
-                   : '<span lang="' + esc(code) + '">' + esc(row.n) + '</span>')
+          + (row.l ? '<a href="' + esc(row.l) + '" lang="' + esc(String(code).split('_')[0]) + '">' + esc(row.n) + '</a>'
+                   : '<span lang="' + esc(String(code).split('_')[0]) + '">' + esc(row.n) + '</span>')
           + '</div><div class="cmp-wo-segs">';
         (row.s || []).forEach(function (sg) {
-          h += '<span class="wo-seg" lang="' + esc(code) + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' style="color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
+          h += '<span class="wo-seg" lang="' + esc(String(code).split('_')[0]) + '"' + (sg[2] ? ' data-seg="' + esc(sg[2]) + '"' : '') + (sg[1] ? ' style="color:' + esc(sg[1]) + '"' : '') + '>' + esc(sg[0]) + '</span>';
         });
         h += '</div></div>';
       });

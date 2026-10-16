@@ -197,12 +197,12 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
                into the word pages; without it they were reachable from the
                hub and the sitemap and nothing else. */ ?>
       <p class="label"><a href="<?= e(seo_path($ui, 'word', $id)) ?>"><?= e($label) ?></a></p>
-      <p class="surface<?= seo_script_class($surface) ?>" lang="<?= e($code) ?>"><?= e($surface !== '' ? $surface : '—') ?></p>
+      <p class="surface<?= seo_script_class($surface) ?>" lang="<?= e(seo_lang_attr($code)) ?>"><?= e($surface !== '' ? $surface : '—') ?></p>
       <?php if ($ipa !== ''): ?><p class="ipa"><?= e($ipa) ?></p><?php endif; ?>
       <?php foreach ($alts as $a):
           $af = $a['form'] ?? ''; if ($af === '') continue;
           $as = $a['script'] ?? ''; ?>
-        <p class="alt"><span lang="<?= e($code) ?>"><?= e($af) ?></span><?php if ($as !== ''): ?> <span class="alt-script"><?= e($as) ?></span><?php endif; ?></p>
+        <p class="alt"><span lang="<?= e(seo_lang_attr($code)) ?>"><?= e($af) ?></span><?php if ($as !== ''): ?> <span class="alt-script"><?= e($as) ?></span><?php endif; ?></p>
       <?php endforeach; ?>
     </div>
   <?php endforeach; ?>

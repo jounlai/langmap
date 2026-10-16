@@ -285,6 +285,44 @@ function seo_word_rows(array $data, string $id, string $ui = 'en'): array
 }
 
 
+/**
+ * The search-result snippet for a word page. It used to be the concept's
+ * `definition` — written for the people filling cells ("Spoken thank-you
+ * formula… use — or a clearly noted liturgical noun rather than inventing a
+ * formula", 「挨拶ではない」) — so Google showed data-entry rules under every
+ * word page title (owner 2026-10-16: few clicks). It now leads with the word
+ * itself in a handful of well-known languages, then the plain sentence.
+ */
+function seo_word_meta_desc(array $data, string $id, string $ui, string $label, string $nStr): string
+{
+    $langs = $data['langs'];
+    $order = ['es', 'fr', 'sw', 'ja', 'hi', 'ru', 'ko', 'zh', 'de', 'ar', 'fi', 'tr', 'it'];
+    $seen = [];
+    $ex = [];
+    foreach ($order as $code) {
+        if ($code === $ui || count($ex) >= 4) {
+            continue;
+        }
+        $surface = trim((string) ($langs[$code]['words'][$id][0] ?? ''));
+        if ($surface === '' || preg_match('/^[\s\x{2014}\x{2013}\-?]*$/u', $surface)) {
+            continue;
+        }
+        $k = mb_strtolower($surface);
+        if (isset($seen[$k])) {
+            continue;
+        }
+        $seen[$k] = true;
+        $ex[] = seo_lang_name($langs, $code, $ui) . ' ' . $surface;
+    }
+    $sep = in_array($ui, ['ja', 'zh', 'yue'], true) ? '、' : ($ui === 'ar' ? '، ' : ', ');
+    $tail = seo_t($ui, 'wd_meta', ['name' => $label, 'n' => $nStr]);
+    if (!$ex) {
+        return $tail;
+    }
+    $end = in_array($ui, ['ja', 'zh', 'yue'], true) ? '…' : ' …';
+    return seo_clip(implode($sep, $ex) . $end . ' ' . $tail, 160);
+}
+
 function seo_render_word(array $data, array $word, string $ui): void
 {
     $id = (string) $word['id'];
@@ -299,7 +337,7 @@ function seo_render_word(array $data, array $word, string $ui): void
 
     seo_head([
         'title'       => seo_t($ui, 'wd_title', ['name' => $label, 'n' => $nStr]) . ' | Word Map',
-        'description' => $def !== '' ? $def : seo_t($ui, 'wd_meta', ['name' => $label, 'n' => $nStr]),
+        'description' => seo_word_meta_desc($data, $id, $ui, $label, $nStr),
         'canonical'   => $canonical,
         'image'       => SEO_SITE . '/ogp-wordmap.png',
         'ui'          => $ui,

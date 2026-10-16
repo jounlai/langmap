@@ -6547,6 +6547,7 @@
             const _spotlightActive = _triviaSpotlight && _triviaSpotlight.size > 0;
             const _mobile = window.matchMedia('(max-width: 640px)').matches;
             let renderLangs = visibleLangs;
+            let unattestedShown = unattestedLangs;
             if (!_spotlightActive && !filterActive && !showHistorical) {
                 // Restrict the candidate pool to langs whose marker is in
                 // the visible viewport (with a generous margin so labels
@@ -6601,6 +6602,30 @@
                         renderLangs = renderLangs.concat([_cc]);
                     }
                 }
+                // "—" cells never went through the thinning above, so when it
+                // hard-dropped attested languages (large font, dense view) the
+                // empty cells inherited their room and outnumbered real words
+                // (owner 2026-10-16: "単語がないものが優先的に表示されている").
+                // Give a "—" cell a slot only where no attested language in the
+                // viewport sits within MIN_PX of it, and only among themselves
+                // by the same priority rule; focused/compare picks are exempt.
+                const _keep = new Set(window.__compareList || []);
+                if (_fc) _keep.add(_fc);
+                const _attPts = inViewport.map(c => ppx[c]);
+                const _unaFree = unattestedLangs.filter(code => {
+                    if (_keep.has(code)) return true;
+                    const p = ppx[code];
+                    if (!p) return false;
+                    for (const q of _attPts) {
+                        if (Math.abs(p.x - q.x) < MIN_PX && Math.abs(p.y - q.y) < MIN_PX) return false;
+                    }
+                    return true;
+                });
+                const _unaRoom = Math.max(0, MAX_PINS - renderLangs.length);
+                // Drawing only: the SA pass below keeps the full unattestedLangs
+                // so its cache key (and the layout) stays stable across pans.
+                unattestedShown = selectByPriority(_unaFree.filter(c => !_keep.has(c)), ppx, MIN_PX, _unaRoom)
+                    .concat(_unaFree.filter(c => _keep.has(c)));
             }
 
             const cellGroups = {};
@@ -6609,7 +6634,7 @@
             // langs into the same cellGroups, so a hist lang with "—"
             // placeholder co-located with a modern descendant gets stacked
             // alongside it instead of free-floating.
-            const stackableLangs = [...renderLangs, ...unattestedLangs];
+            const stackableLangs = [...renderLangs, ...unattestedShown];
             for (const code of stackableLangs) {
                 if (!isActive(code)) continue;  // dimmed labels don't compete
                 const pt = ppx[code];
@@ -6690,7 +6715,7 @@
             // final collision pass below can adjust them as needed.
             const offsets = {};
             const unattestedSet = new Set(unattestedLangs);
-            const allRenderable = [...renderLangs, ...unattestedLangs];
+            const allRenderable = [...renderLangs, ...unattestedShown];
             for (const code of allRenderable) {
                 if (!ppx[code]) continue;
                 const pt = ppx[code];

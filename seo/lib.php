@@ -3041,7 +3041,8 @@ function seo_head(array $opts): void
          diacritics (POJ tone marks, ǔ) and Han glyphs render cleanly everywhere. */ ?>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Mongolian&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Mongolian&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&family=Charis+SIL:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Serif+JP:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Noto+Serif+KR:wght@400;700&family=Noto+Serif+Tibetan:wght@400;700&family=Noto+Serif+Tangut&family=Noto+Sans+Phags+Pa&family=Noto+Sans+Mongolian&display=swap"></noscript>
 <title><?= e($title) ?></title>
 <meta name="description" content="<?= e(seo_clip($desc)) ?>">
 <meta name="robots" content="<?= e($robots) ?>">
@@ -3540,7 +3541,18 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     var s = document.createElement('script');
     s.async = true;
     s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
-    document.head.appendChild(s);
+    // The 180 KB tag ran ~3 s of main-thread work during page load
+    // (Lighthouse TBT, 2026-10-16). Events queue in dataLayer below, so
+    // load it on the first interaction or 4 s after load, whichever first.
+    var _gaGo = function () {
+        if (_gaGo.done) return; _gaGo.done = true;
+        document.head.appendChild(s);
+    };
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
+        window.addEventListener(ev, _gaGo, { once: true, passive: true });
+    });
+    if (document.readyState === 'complete') setTimeout(_gaGo, 4000);
+    else window.addEventListener('load', function () { setTimeout(_gaGo, 4000); });
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());

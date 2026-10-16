@@ -69,7 +69,18 @@
             const s = document.createElement('script');
             s.async = true;
             s.src = 'https://www.googletagmanager.com/gtag/js?id=G-JZ7JJBCCHG';
-            document.head.appendChild(s);
+            // The 180 KB tag ran ~3 s of main-thread work during page load
+            // (Lighthouse TBT, 2026-10-16). Events queue in dataLayer below, so
+            // load it on the first interaction or 4 s after load, whichever first.
+            var _gaGo = function () {
+                if (_gaGo.done) return; _gaGo.done = true;
+                document.head.appendChild(s);
+            };
+            ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
+                window.addEventListener(ev, _gaGo, { once: true, passive: true });
+            });
+            if (document.readyState === 'complete') setTimeout(_gaGo, 4000);
+            else window.addEventListener('load', function () { setTimeout(_gaGo, 4000); });
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());

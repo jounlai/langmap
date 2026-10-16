@@ -412,6 +412,12 @@ line('trivia button targets exist', num(s, /dead targets: (\d+)/));
 // Trivia overlays load at runtime only: a syntax error in one (an unescaped
 // apostrophe in a single-quoted title, 2026-10-15) silently drops that UI
 // language back to English. tools/trivia_parse_check.js evaluates every file.
+// hanmap.html loads a split copy of hanmap_trivia.js (English bodies in
+// base.js, one file per other language) — 2026-10-16. Editing the source
+// without rebuilding would ship yesterday's article to readers.
+s = run('build_hanmap_trivia_rt.js --check');
+line('Han Map trivia split fresh', num(s, /stale: (\d+)/));
+
 s = run('trivia_parse_check.js --check');
 line('trivia files parse', num(s, /fail to parse or miss articles: (\d+)/));
 

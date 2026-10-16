@@ -3485,7 +3485,10 @@
          page_asset_version_check.js still finds and bumps — without
          downloading anything. rel="prefetch" was tried first and fetched
          the file twice without the injected script reusing it. -->
-    <script type="text/plain" id="trivia-src" src="hanmap_trivia.js?v=80"></script>
+    <!-- 2026-10-16: the runtime copy is split by tools/build_hanmap_trivia_rt.js —
+         base.js has every article with English bodies; the reader's own
+         language arrives as hanmap_trivia_rt/<ui>.js (loadHanTriviaBodies). -->
+    <script type="text/plain" id="trivia-src" src="hanmap_trivia_rt/base.js?v=1"></script>
     <!-- The meta-i18n layer is loaded dynamically (engine + the current UI's
          slice only) via loadMetaI18n() in the IIFE below. The old eager
          meta_i18n_ext + coverage{,2} tags pulled ~4.6 MB of ALL 22 UIs. -->
@@ -11503,6 +11506,7 @@
                 _hanTriviaLoaded = true;
                 if (!Array.isArray(window.TRIVIA_ARTICLES)) window.TRIVIA_ARTICLES = [];
                 try { applyTriviaI18nOverlay(); } catch (_) {}
+                try { loadHanTriviaBodies(String(uiLang || 'en').split('_')[0]); } catch (_) {}
                 try { refreshTriviaBlinks(); } catch (_) {}
                 const idx = document.getElementById('trivia-index');
                 if (idx && idx.classList.contains('visible')) {
@@ -11518,9 +11522,54 @@
             else setTimeout(loadHanTrivia, 600);
         }, { once: true });
 
+        // Article bodies in languages other than English come from
+        // hanmap_trivia_rt/<ui>.js, requested with base.js's own ?v= (the
+        // build writes them together, and base.js hashes the whole source).
+        // `var`, not const: loadTriviaI18nFor() runs from the boot pass above
+        // this line (hoisted function), which would hit the TDZ.
+        var _hanBodyLoads;
+        function loadHanTriviaBodies(base) {
+            if (!base || base === 'en') return Promise.resolve();
+            if (!_hanBodyLoads) _hanBodyLoads = new Map();
+            if (_hanBodyLoads.has(base)) return _hanBodyLoads.get(base);
+            const ref = document.getElementById('trivia-src');
+            const v = ((ref && ref.getAttribute('src')) || '').split('?')[1] || '';
+            // The tick defers past the boot pass: loadHanTrivia's `let` state
+            // is declared further down and is still in its TDZ during boot.
+            // Never START the article download from here: the boot pass calls
+            // this for the UI language, and the articles are deliberately lazy.
+            // Until loadHanTrivia() has run, leave it to its own .then(), which
+            // asks again for the current language. The tick also defers past
+            // the boot pass, while loadHanTrivia's `let` state is in its TDZ.
+            const p = new Promise((r) => setTimeout(r, 0)).then(() => {
+                if (!_hanTriviaPromise) { _hanBodyLoads.delete(base); return Promise.reject('later'); }
+                return _hanTriviaPromise;
+            }).then(() => new Promise((res) => {
+                const s = document.createElement('script');
+                s.src = 'hanmap_trivia_rt/' + base + '.js' + (v ? '?' + v : '');
+                s.onload = () => {
+                    const B = (window.HANMAP_TRIVIA_BODY || {})[base] || {};
+                    for (const art of (window.TRIVIA_ARTICLES || [])) {
+                        if (typeof B[art.id] === 'string') { art.body = art.body || {}; art.body[base] = B[art.id]; }
+                    }
+                    const modal = document.getElementById('trivia-modal');
+                    const heading = document.getElementById('trivia-heading');
+                    const activeId = heading && heading.dataset && heading.dataset.articleId;
+                    if (modal && modal.classList.contains('visible') && activeId) {
+                        try { renderTriviaArticle(activeId); } catch (_) {}
+                    }
+                    res();
+                };
+                s.onerror = () => { _hanBodyLoads.delete(base); res(); };
+                document.head.appendChild(s);
+            })).catch(() => {});
+            _hanBodyLoads.set(base, p);
+            return p;
+        }
         function loadTriviaI18nFor(lang) {
             if (!lang) return Promise.resolve();
             const base = lang.split('_')[0];
+            loadHanTriviaBodies(base);
             if (base === 'en' || base === 'ja') return Promise.resolve();
             if (!TRIVIA_I18N_LANGS.has(base)) return Promise.resolve();
             if (_loadedTriviaI18n.has(base)) return Promise.resolve();

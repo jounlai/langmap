@@ -11,9 +11,9 @@
     "version": 189,
     "hash": "4edd0f1d2e1a24ce"
   },
-  "hanmap_trivia.js": {
-    "version": 80,
-    "hash": "0d9c1a9deb0aa2e3"
+  "hanmap_trivia_rt/base.js": {
+    "version": 1,
+    "hash": "59834980312a3bdc"
   },
   "lang-filter.js": {
     "version": 46,

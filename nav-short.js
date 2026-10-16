@@ -121,7 +121,15 @@
     document.head.appendChild(st);
 
     // While the page parses, label nav items as soon as they exist.
-    var parseObs = new MutationObserver(function () { if (document.querySelector('.site-header-bar .header-nav')) run(); });
+    // Stop watching as soon as the nav has been parsed (something follows it):
+    // observing the whole document through the parse of an 860 KB page fired
+    // this callback thousands of times (Lighthouse long tasks, 2026-10-16).
+    var parseObs = new MutationObserver(function () {
+        var nav = document.querySelector('.site-header-bar .header-nav');
+        if (!nav) return;
+        run();
+        if (nav.nextElementSibling) parseObs.disconnect();
+    });
     parseObs.observe(document.documentElement, { childList: true, subtree: true });
     // A page announces its language by setting <html lang>; follow it from then on.
     new MutationObserver(function () { htmlLangSet = true; run(); })

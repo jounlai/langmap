@@ -15,10 +15,16 @@ self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', (e) => e.waitUntil((async () => {
   // Drop every cache from an older SW version.
   const keys = await caches.keys();
-  await Promise.all(keys.filter((k) => k !== SHELL).map((k) => caches.delete(k)));
+  const stale = keys.filter((k) => k !== SHELL);
+  await Promise.all(stale.map((k) => caches.delete(k)));
   await self.clients.claim();
   // Force every open tab to reload so a client that was serving a stale shell
   // lands on the current build immediately — no "clear your cache" needed.
+  // Only when an older shell was actually replaced: a first-time visitor has
+  // no cache at all, and reloading them threw away the page they had just
+  // loaded a second earlier — PageSpeed scored it as an 8 s redirect and the
+  // re-render as a 0.5 layout shift (2026-10-16).
+  if (!stale.length) return;
   const wins = await self.clients.matchAll({ type: 'window' });
   for (const c of wins) { try { c.navigate(c.url); } catch (_) {} }
 })()));

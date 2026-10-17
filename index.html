@@ -60,7 +60,7 @@
         ]
     }
     </script>
-    <link rel="stylesheet" href="styles.css?v=150">
+    <link rel="stylesheet" href="styles.css?v=151">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Gentium Plus / Charis SIL carry the Egyptological alef ꜣ (U+A723) and
@@ -165,9 +165,9 @@
             <div class="control-row sentence-row">
                 <label id="lblSentence" for="sampleSelect" class="sentence-label">文章選択</label>
                 <div class="sentence-nav">
-                    <button class="nav-icon" onclick="prevSentence()" title="Previous">‹</button>
+                    <button class="nav-icon" onclick="prevSentence()" title="Previous" aria-label="Previous"><span aria-hidden="true">‹</span></button>
                     <select id="sampleSelect"></select>
-                    <button class="nav-icon" onclick="nextSentence()" title="Next">›</button>
+                    <button class="nav-icon" onclick="nextSentence()" title="Next" aria-label="Next"><span aria-hidden="true">›</span></button>
                     <button class="nav-icon nav-random" id="btnRandom" onclick="randomSentence()" title="Random"><span class="random-icon">🎲</span><span class="random-text" id="lblRandom">Random</span></button>
                 </div>
             </div>
@@ -181,7 +181,7 @@
         <div class="map-toolbar">
             <button class="btn btn-sm" id="btnResetOrder" onclick="resetOrder()">↻ <span id="lblResetOrder">順序をリセット</span></button>
         </div>
-        <div class="map-wrapper">
+        <div class="map-wrapper" tabindex="0" role="region" aria-label="Sentence map">
             <div class="map-container" id="mapContainer">
                 <svg id="linesSvg" class="lines-svg" aria-hidden="true"></svg>
                 <div id="langRows"></div>
@@ -295,7 +295,7 @@
     <script src="lang_names_shim.js?v=3"></script>
     <script src="lang_names/en.js?v=203"></script>
     <script>window.__langNamesVersion(203); window.__langNamesBoot();</script>
-    <script src="app.js?v=89"></script>
+    <script src="app.js?v=90"></script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
     <script src="lang-picker.js?v=8"></script>

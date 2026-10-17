@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=150">
+    <link rel="stylesheet" href="styles.css?v=151">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -464,7 +464,7 @@
             transform: scale(1.05);
         }
         .char-btn.active {
-            background: #4a6cf7; color: #fff; border-color: #3a5ce5;
+            background: #3a5ce5; color: #fff; border-color: #3a5ce5;
         }
         @media (max-width: 480px) {
             .char-grid { grid-template-columns: repeat(5, 1fr); gap: 5px; }
@@ -1364,7 +1364,7 @@
         }
         .compare-clear:hover { background: #e5e7e9; }
         .compare-close {
-            font-size: 22px; color: #999; padding: 0; width: 28px; height: 28px; line-height: 1;
+            font-size: 22px; color: #6b6b6b; padding: 0; width: 28px; height: 28px; line-height: 1;
         }
         .compare-close:hover { color: #333; }
         /* Similarity-color toggle (Pass 33). Sits in the compare-header
@@ -2267,7 +2267,7 @@
         }
                 .trivia-modal .trivia-seo-link {
             display: inline-block; margin-inline-start: auto;
-            font-size: 12px; font-weight: 600; color: #4a6cf7;
+            font-size: 12px; font-weight: 600; color: #3a5ce5;
             text-decoration: none; white-space: nowrap;
         }
         .trivia-modal .trivia-seo-link:hover { text-decoration: underline; }
@@ -2987,8 +2987,7 @@
             <button id="hm-lang-filter-btn" type="button"
                     aria-haspopup="dialog" aria-controls="hm-lang-filter-modal"
                     title="Filter languages"
-                    aria-label="Filter languages"
-                    style="font-size:11px;padding:4px 8px;border:1px solid #d8d8d8;border-radius:14px;background:rgba(255,255,255,0.85);backdrop-filter:blur(6px);cursor:pointer;color:#777;box-shadow:0 1px 3px rgba(0,0,0,0.08);font-family:system-ui,sans-serif;font-weight:500;white-space:nowrap;display:inline-flex;align-items:center;gap:4px">
+                    style="font-size:11px;padding:4px 8px;border:1px solid #d8d8d8;border-radius:14px;background:rgba(255,255,255,0.85);backdrop-filter:blur(6px);cursor:pointer;color:#6b6b6b;box-shadow:0 1px 3px rgba(0,0,0,0.08);font-family:system-ui,sans-serif;font-weight:500;white-space:nowrap;display:inline-flex;align-items:center;gap:4px">
                 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
                 <span id="hm-lang-filter-label">絞り込み</span>
                 <span id="hm-lang-filter-badge" style="display:none;background:#1a73e8;color:#fff;border-radius:9px;padding:1px 6px;font-size:10px;font-weight:600;line-height:1.2">0</span>
@@ -5582,7 +5581,7 @@
                 ['char-random-btn', 'ariaRandomChar',  'aria-label'],
                 ['char-random-btn', 'ariaRandomChar',  'title'],
                 ['char-modal-close','ariaClose',       'aria-label'],
-                ['hm-lang-filter-btn',  'ariaFilterLangs', 'aria-label'],
+                // (no aria-label: the visible "Filter 83" is the name, so the count is read — WCAG 2.5.3)
                 ['hm-lang-filter-btn',  'ariaFilterLangs', 'title'],
                 ['hm-lang-filter-close','ariaClose',   'aria-label'],
                 ['toggle-script',   'ariaToggleScript','aria-label'],
@@ -7255,7 +7254,7 @@
             // Aria label combines all variants.
             const ariaParts = [n];
             for (const r of rows) {
-                const part = [r.romanized, r.native].filter(Boolean).join(' ');
+                const part = [r.romanized, r.native, r.label && '(' + r.label + ')'].filter(Boolean).join(' ');   // keep 訓讀 / 文讀 / Kan-on: which reading is which
                 if (showWord && part) ariaParts.push(part);
                 if (showIpa && r.ipa) ariaParts.push('/' + r.ipa + '/');
             }
@@ -9649,8 +9648,8 @@
             const bL = badgeI18n[uiBase] || badgeI18n.en;
             const badgeHtml = (label, bg) => `<span style="display:inline-block;font-size:10px;padding:1px 7px;border-radius:9px;background:${bg};color:#fff;margin-left:6px;vertical-align:middle;font-weight:600">${escapeHtml(label)}</span>`;
             let badges = '';
-            if (isAncient) badges += badgeHtml(bL.ancient, '#998270');
-            if (isKun)     badges += badgeHtml(bL.kun,     '#a48070');
+            if (isAncient) badges += badgeHtml(bL.ancient, '#7a6552');
+            if (isKun)     badges += badgeHtml(bL.kun,     '#85634f');
 
             let html = `<h2 id="lang-info-heading">${escapeHtml(displayName)}${badges}</h2>`;
             html += `<div class="native-name"><span class="wm-form" dir="auto">${escapeHtml(lang.native || '')}</span> [${escapeHtml(code)}]</div>`;
@@ -9779,7 +9778,7 @@
                                 const title = (typeof s.title === 'string' && s.title) ? s.title : (s.url || '');
                                 const safeTitle = escapeHtml(title);
                                 liHtml = url
-                                    ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" style="color:#4a6cf7;text-decoration:none">${safeTitle}</a>`
+                                    ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" style="color:#3a5ce5;text-decoration:none">${safeTitle}</a>`
                                     : safeTitle;
                                 if (typeof s.note === 'string' && s.note) {
                                     liHtml += ` <span style="color:#6b6b6b">— ${escapeHtml(s.note)}</span>`;
@@ -9908,7 +9907,7 @@
                 const ui = SEO_UI.indexOf(uiBaseLink) !== -1 ? uiBaseLink : 'en';
                 const href = '/' + ui + '/hanmap/' + escapeHtml(code);
                 html += `<div style="margin-top:12px;padding-top:8px;border-top:1px dotted #ddd">` +
-                    `<a href="${href}" style="display:inline-block;font-size:12px;color:#4a6cf7;text-decoration:none;font-weight:600">` +
+                    `<a href="${href}" style="display:inline-block;font-size:12px;color:#3a5ce5;text-decoration:none;font-weight:600">` +
                     `📄 デカ文字版ページ / Big-text page →</a></div>`;
             })();
 
@@ -10391,7 +10390,7 @@
                     const url = safeUrl(it.url);
                     const safeTitle = escapeHtml(it.title || it.url || '');
                     if (url) {
-                        return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" style="color:#4a6cf7;text-decoration:none">${safeTitle}</a>`;
+                        return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" style="color:#3a5ce5;text-decoration:none">${safeTitle}</a>`;
                     }
                     return safeTitle;
                 };
@@ -12857,7 +12856,7 @@
                     }
                     const b = el('button', css + ';position:relative');
                     b.className = 'hq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
-                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${q.fmt === 1 ? '<bdi dir="ltr">' + txt + '</bdi>' : txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#5f6368;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : '<bdi dir="ltr">' + reading(o.code, q.ch, q.ipa) + '</bdi>'}</div>`;
+                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#5f6368;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${q.fmt === 1 ? '<bdi dir="ltr">' + txt + '</bdi>' : txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#5f6368;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : '<bdi dir="ltr">' + reading(o.code, q.ch, q.ipa) + '</bdi>'}</div>`;
                     if (!answered) b.addEventListener('click', () => answer(i));
                     mid.appendChild(b);
                 });

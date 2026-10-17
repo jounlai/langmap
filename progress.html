@@ -39,7 +39,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=150">
+    <link rel="stylesheet" href="styles.css?v=151">
     <style>
         .prog { max-width: 1080px; margin: 0 auto; padding: 24px 20px 60px; }
         .prog h1 { font-size: 24px; margin: 0 0 4px; }
@@ -58,7 +58,10 @@
         .sum div.hist { background: #faf8f3; border-color: #e8e0d0; }
         .sum b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
         .sum span { font-size: 12px; color: #666; }
-        .sum em { font-style: normal; color: #999; font-size: 11px; display: block; }
+        /* Filled by script after first paint: reserve their height (CLS .39). */
+        #intro { min-height: 3.2em; }
+        .sum:empty { min-height: 64px; }
+        .sum em { font-style: normal; color: #666; font-size: 11px; display: block; }
 
         /* The tier legend is not decoration: a low percentage on a 🧪 word is
            the right answer, not a gap, and the page misleads without it. */
@@ -69,7 +72,7 @@
         .ctl { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center;
                margin-bottom: 14px; font-size: 13px; }
         .ctl .grp { display: flex; gap: 6px; align-items: center; }
-        .ctl .grp > span { color: #777; }
+        .ctl .grp > span { color: #595959; }
         .chip {
             border: 1px solid #d8d8d8; background: #fff; border-radius: 999px;
             padding: 4px 11px; cursor: pointer; font: inherit; color: #444;
@@ -89,7 +92,7 @@
         table.wp tr.row:hover td { background: var(--accent-tint); }
         table.wp tr.row:hover td.hist { background: #f3ece0; }
         .wname { font-weight: 600; }
-        .wja { color: #888; font-weight: 400; margin-left: 6px; font-size: 12.5px; }
+        .wja { color: #666; font-weight: 400; margin-left: 6px; font-size: 12.5px; }
         .badge { font-size: 11px; padding: 1px 7px; border-radius: 999px; border: 1px solid; white-space: nowrap; }
         .b-core    { color: #2a7a4b; border-color: #b6ddc5; background: #f0faf4; }
         .b-filling { color: #9a6508; border-color: #ecd7a6; background: #fdf7ea; }
@@ -104,9 +107,9 @@
         .bar.h i { background: #a98a55; }
         .cell u { text-decoration: none; font-variant-numeric: tabular-nums; color: #555;
                   font-size: 12.5px; width: 34px; text-align: right; flex: 0 0 auto; }
-        .cell.zero u { color: #bbb; }
+        .cell.zero u { color: #6b6b6b; }
         .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-        .gaps { color: #777; font-size: 12.5px; }
+        .gaps { color: #595959; font-size: 12.5px; }
 
         tr.det > td { background: #fbfbfb; padding: 10px 14px 14px; }
         /* A label, not a document heading: these sit inside table rows, and
@@ -119,8 +122,8 @@
         }
         .mlist a.h { background: #faf7f1; border-color: #e6dcc8; }
         .mlist a:hover { border-color: var(--accent); color: var(--accent); }
-        .mlist a small { color: #999; margin-left: 5px; }
-        .more { color: #888; font-size: 12.5px; align-self: center; }
+        .mlist a small { color: #666; margin-left: 5px; }
+        .more { color: #666; font-size: 12.5px; align-self: center; }
         .done { color: #2a7a4b; font-size: 12.5px; }
 
         @media (max-width: 760px) {
@@ -131,7 +134,7 @@
     </style>
 </head>
 <body>
-    <div class="prog">
+    <main class="prog">
         <h1>Word coverage</h1>
         <!-- The counts are written by the script, not typed here: hard-coding
              them is how a page ends up quoting a figure the data left behind. -->
@@ -183,7 +186,7 @@
         </table>
 
         <p class="lead" style="margin-top:22px" id="foot"></p>
-    </div>
+    </main>
 
     <script src="progress_data.js?v=227"></script>
     <script>
@@ -329,6 +332,9 @@
                 var tr = document.createElement('tr');
                 tr.className = 'row';
                 tr.tabIndex = 0;
+                tr.dataset.w = w;
+                // A row is the toggle: say so (aria-expanded needs a role that allows it).
+                tr.setAttribute('role', 'button');
                 tr.setAttribute('aria-expanded', state.open === w ? 'true' : 'false');
                 tr.innerHTML =
                       '<td><span class="wname">' + WORDS[w][1] + '</span>'
@@ -339,7 +345,11 @@
                     + '<td class="num">' + (miss ? fmt(miss) : '—') + '</td>'
                     + '<td class="hide-s gaps">' + (top.length ? top.join(', ') : 'complete') + '</td>';
 
-                function toggle() { state.open = state.open === w ? -1 : w; draw(); }
+                function toggle() {
+                    state.open = state.open === w ? -1 : w; draw();
+                    // draw() rebuilt the rows: back onto the same word's row.
+                    var again = document.querySelector('#rows tr.row[data-w="' + w + '"]'); if (again) again.focus();
+                }
                 tr.addEventListener('click', toggle);
                 tr.addEventListener('keydown', function (e) {
                     if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }

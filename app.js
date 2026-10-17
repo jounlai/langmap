@@ -709,6 +709,8 @@ function applyUILang() {
     setFoot('footNameMap',  nameLabels[currentUILang] || nameLabels.en);
     setFoot('footTree',     trLabels[currentUILang]   || trLabels.en);
     setFoot('footChangelog',chgLabels[currentUILang]  || chgLabels.en);
+    const progLabels = {ja:'収録状況',ko:'수록 현황',zh:'收录情况',yue:'收錄情況',vi:'Độ phủ',th:'ความครอบคลุม',id:'Cakupan',hi:'कवरेज',en:'Coverage',de:'Abdeckung',fr:'Couverture',it:'Copertura',es:'Cobertura',pt:'Cobertura',ru:'Охват',uk:'Охоплення',ar:'التغطية',he:'כיסוי',sw:'Uenezi'};
+    setFoot('footProgress', progLabels[currentUILang] || progLabels.en);
     // The trivia hub is per-UI-language, so send the reader to their own.
     setFoot('footTrivia',   triLabels[currentUILang]  || triLabels.en,
             '/' + (currentUILang || 'en') + '/trivia/');
@@ -729,6 +731,8 @@ function applyUILang() {
     setA('#header-ui-lang', 'aria-label', L(uilLbl));
     setA('.sentence-nav .nav-icon[onclick*="prevSentence"]', 'title', L(prevLbl));
     setA('.sentence-nav .nav-icon[onclick*="nextSentence"]', 'title', L(nextLbl));
+    setA('.sentence-nav .nav-icon[onclick*="prevSentence"]', 'aria-label', L(prevLbl));
+    setA('.sentence-nav .nav-icon[onclick*="nextSentence"]', 'aria-label', L(nextLbl));
     setA('#btnRandom', 'title', t('random'));
     // NOTE: the header nav "Word Map" link (#navToWordMap) is already localized
     // above via setNavText(), which preserves its globe <svg> icon. A former
@@ -2948,6 +2952,7 @@ function menuKeyboard(menu, opener) {
         it.addEventListener('keydown', (e) => {
             const i = items.indexOf(it);
             if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); it.click(); }
+            else if (e.key === 'Tab') { menu.remove(); }   // focus moves on; the menu must not stay open behind it
             else if (e.key === 'ArrowDown') { e.preventDefault(); (items[i + 1] || items[0]).focus(); }
             else if (e.key === 'ArrowUp') { e.preventDefault(); (items[i - 1] || items[items.length - 1]).focus(); }
         });

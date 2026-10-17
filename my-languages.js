@@ -420,7 +420,7 @@
             '.mylang-add{width:100%;box-sizing:border-box;padding:9px 11px;border:1px solid rgba(128,128,128,.35);border-radius:9px;font:inherit;background:transparent;color:inherit}',
             '.mylang-sugg{position:absolute;left:0;right:0;top:calc(100% + 4px);background:#fff;color:#1a2230;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.25);max-height:240px;overflow:auto;z-index:5;display:none}',
             '@media (prefers-color-scheme:dark){.mylang-sugg{background:#232d3d;color:#eef2f8}}',
-            '@media (prefers-color-scheme:dark){.mylang-sugg-rom,.mylang-empty,.mylang-note{color:#a9b4c4}}',   /* the light-mode grey is 2.3:1 here */
+            '@media (prefers-color-scheme:dark){.mylang-panel .mylang-sugg-rom,.mylang-panel .mylang-empty,.mylang-panel .mylang-note,.mylang-sugg .mylang-sugg-rom{color:#a9b4c4}.mylang-panel{color-scheme:dark}.mylang-level option{background:#232d3d;color:#eef2f8}}',   /* raised specificity: the base rules come later */
             '.mylang-sugg.open{display:block}',
             '.mylang-sugg-item{padding:8px 11px;cursor:pointer;display:flex;gap:8px;align-items:baseline}',
             '.mylang-sugg-item:hover,.mylang-sugg-item.active{background:rgba(90,140,220,.16)}',

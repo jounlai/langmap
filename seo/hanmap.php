@@ -118,7 +118,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
-    <span class="chip"><b><?= e($k) ?></b><?= e($v) ?></span>
+    <span class="chip"><b><?= e($k) ?></b> <?= e($v) ?></span>
   <?php endforeach; ?>
 </div>
 <?php endif; ?>
@@ -169,11 +169,11 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
             if ($native !== '') $tall++;
             if ($n > 1 && $label !== '') $wLabel = max($wLabel, mb_strwidth($label));
             if ($ipa !== '') $wIpa = max($wIpa, mb_strlen($ipa) + 2);
-            $wForm = max($wForm ?? 0, mb_strwidth($native) * 0.62, mb_strwidth($surface) * 0.55);
+            $wForm = max($wForm ?? 0, mb_strwidth($native) * 0.8, mb_strwidth($surface) * 0.55);   // 1.5rem native (Manchu broke mid-word at .62)
             $html .= '<tr' . ($i === 0 ? ' class="char-start"' : '') . '>';
             if ($i === 0) {
                 $html .= '<td class="c-char" lang="zh" rowspan="' . $n . '">' . e($c['char']) . '</td>'
-                       . '<td class="c-gloss" rowspan="' . $n . '">' . e($c['gloss'] ?? '') . '</td>';
+                       . '<td class="c-gloss" rowspan="' . $n . '"' . ($ui !== 'en' ? ' lang="en"' : '') . '>' . e($c['gloss'] ?? '') . '</td>';   // glosses are English in the data
             }
             $html .= '<td class="c-read">' . (($n > 1 && $label !== '') ? '<span class="rlabel">' . e($label) . '</span>' : '') . '</td>'
                    . '<td class="c-form" lang="' . e(seo_lang_attr($code)) . '">'
@@ -189,24 +189,30 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
         if ($rows >= 30) { $chunks[] = $cur; $cur = []; $rows = 0; }
     }
     if ($cur) $chunks[] = $cur;
+    // No reading labels in this row at all (mnc, pst, th …): drop the empty
+    // Reading column, which took a phone's width and pushed Form off-screen.
+    $hasRead = $wLabel > 0;
+    if (!$hasRead) foreach ($chunks as &$chR) foreach ($chR as &$gR) $gR['html'] = str_replace('<td class="c-read"></td>', '', $gR['html']);
+    unset($chR, $gR);
     $th = [seo_t($ui, 'th_char'), seo_t($ui, 'th_gloss'), seo_t($ui, 'th_read'), seo_t($ui, 'th_form'), 'IPA'];
     $hdr = fn(string $s): float => mb_strwidth($s) * 0.7 + 1.8;          // .8rem caps + .04em letter-spacing + padding (0.5 broke "CHARACT/ER")
     $wC = max(4.2, $hdr($th[0]));
-    $wR = max($hdr($th[2]), $wLabel ? $wLabel * 0.36 + 2.5 : 0);        // .68rem chip
+    $wR = $hasRead ? min(9, max($hdr($th[2]), $wLabel * 0.36 + 2.5)) : 0;   // .68rem chip; long labels wrap
     $wI = max($hdr($th[4]), min(14, $wIpa * 0.52 + 1.7));               // .9rem IPA
     $wG = max(7, $hdr($th[1]));                                          // gloss: fixed, from its header
-    $wF = max(8, $hdr($th[3]), min(16, ($wForm ?? 0) + 1.2));           // form: room for the longest form
+    $wF = max(8, $hdr($th[3]), min(16, ($wForm ?? 0) + 1.7));           // form: room for the longest form (+ .85rem padding x2)
     $tw = $wC + $wG + $wR + $wI + $wF;
-    $colgroup = sprintf('<colgroup><col style="width:%.1frem"><col style="width:%.1frem"><col style="width:%.1frem"><col><col style="width:%.1frem"></colgroup>', $wC, $wG, $wR, $wI);
+    $colgroup = '<colgroup>' . sprintf('<col style="width:%.1frem"><col style="width:%.1frem">', $wC, $wG)
+        . ($hasRead ? sprintf('<col style="width:%.1frem">', $wR) : '') . sprintf('<col><col style="width:%.1frem"></colgroup>', $wI);
     $thead = '<thead><tr>'
         . '<th class="c-char" scope="col">' . e($th[0]) . '</th><th class="c-gloss" scope="col">' . e($th[1]) . '</th>'
-        . '<th class="c-read" scope="col">' . e($th[2]) . '</th><th class="c-form" scope="col">' . e($th[3]) . '</th>'
+        . ($hasRead ? '<th class="c-read" scope="col">' . e($th[2]) . '</th>' : '') . '<th class="c-form" scope="col">' . e($th[3]) . '</th>'
         . '<th class="c-ipa" scope="col">IPA</th></tr></thead>';
     // Later chunks: the header names for screen readers (aria-label) and for
     // print (data-h, drawn by CSS), but no text that find-in-page would hit.
     $cls = ['c-char', 'c-gloss', 'c-read', 'c-form', 'c-ipa'];
     $theadQuiet = '<thead><tr>';
-    foreach ($th as $i => $h) $theadQuiet .= '<th class="' . $cls[$i] . '" scope="col" aria-label="' . e($h) . '" data-h="' . e($h) . '"></th>';
+    foreach ($th as $i => $h) { if ($i === 2 && !$hasRead) continue; $theadQuiet .= '<th class="' . $cls[$i] . '" scope="col" aria-label="' . e($h) . '" data-h="' . e($h) . '"></th>'; }
     $theadQuiet .= '</tr></thead>';
 ?>
   <div class="seo-chartable-wrap" tabindex="0" role="region" aria-labelledby="seo-chars-h" style="--tw:<?= sprintf('%.1f', $tw) ?>rem">

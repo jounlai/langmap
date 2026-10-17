@@ -133,7 +133,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
-    <span class="chip"><b><?= e($k) ?></b><?= e($v) ?></span>
+    <span class="chip"><b><?= e($k) ?></b> <?= e($v) ?></span>
   <?php endforeach; ?>
 </div>
 <?php endif; ?>

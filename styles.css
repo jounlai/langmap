@@ -1423,6 +1423,7 @@ select:focus { border-color: var(--accent); outline: none; }
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         flex-wrap: nowrap;
+        justify-content: flex-start;   /* centred, the first segments overflowed to the left, out of reach */
         padding-bottom: 8px;
     }
     .segment-input-wrapper {
@@ -1828,14 +1829,17 @@ button.seg-id-badge, button.seg-delete-btn { border: 0; font-family: inherit; cu
 button.seg-delete-btn { background: none; color: #767676; }
 /* Desktop: shown for a focused segment, but floated above it (in-flow they
    reflowed the row on mousedown and broke clicks and drags). */
-@media (hover: hover) {
-    .segment-input-wrapper { position: relative; }
+@media (hover: hover) and (min-width: 769px) {
+    /* Room above each segment for the floating buttons, so they never cover
+       the segment above (its × was under them). */
+    .lang-row.editing .segment-input-wrapper { position: relative; padding-top: 26px; }
     .segment-input-wrapper:focus-within .seg-move-btns {
-        display: flex; flex-direction: row; position: absolute; top: -22px; left: 0; z-index: 2;
+        display: flex; flex-direction: row; position: absolute; top: 0; left: 0; z-index: 2;
         background: #fff; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,.15);
     }
+    .segment-input-wrapper:focus-within .seg-move-btn { min-width: 24px; min-height: 24px; }
 }
 
 /* The sentence map can be 1200px wide: on touch screens and narrow windows
    scroll it instead of widening the page (landscape phones). */
-@media (max-width: 1100px), (pointer: coarse) { .map-wrapper { overflow-x: auto; } }
+.map-wrapper { overflow-x: auto; }   /* drags are clamped, so it can scroll at every width (1101-1199px scrolled the page) */

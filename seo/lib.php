@@ -3277,7 +3277,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-wrap { max-width: 60rem; margin: 0 auto; padding: 1.5rem 1.25rem 4rem; }
 .seo-crumbs { font-size: .95rem; color: var(--muted); margin: 0 0 1rem; }
 .seo-crumbs a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; } /* link-in-text-block: accent vs muted is 1.05:1 */
-.seo-hero h1 { font-size: clamp(2.4rem, 7vw, 4.5rem); line-height: 1.05;
+.seo-hero h1 { font-size: clamp(1.9rem, 7vw, 4.5rem); overflow-wrap: break-word; hyphens: auto; line-height: 1.05;
   margin: .2rem 0 .3rem; letter-spacing: -.01em; }
 .seo-hero .native { font-size: clamp(1.6rem, 5vw, 3rem); color: var(--accent);
   margin: 0 0 .4rem; font-weight: 600;
@@ -3507,7 +3507,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
   font-size: 1.6rem; line-height: 1; white-space: nowrap; }
 .seo-chartable td.c-gloss { color: var(--muted); font-size: .8rem; vertical-align: middle;
   max-width: 14rem; }
-.seo-chartable td.c-read { white-space: nowrap; }
+.seo-chartable td.c-read { white-space: normal; }   /* long labels wrap inside the capped column */
 .seo-chartable td.c-read .rlabel { display: inline-block; font-size: .68rem; color: var(--muted);
   border: 1px solid var(--line); border-radius: .5rem; padding: 0 .4rem; line-height: 1.5; }
 .seo-chartable td.c-form { font-size: 1.05rem; word-break: break-word; }

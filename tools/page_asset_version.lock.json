@@ -1,7 +1,7 @@
 {
   "app.js": {
-    "version": 89,
-    "hash": "f0289543938f5115"
+    "version": 90,
+    "hash": "2d2ebd7fe2310195"
   },
   "data.js": {
     "version": 92,
@@ -36,8 +36,8 @@
     "hash": "eea4c9a6d735f800"
   },
   "my-languages.js": {
-    "version": 30,
-    "hash": "dd700ee409757e17"
+    "version": 31,
+    "hash": "7579af3b82520eb4"
   },
   "namemap_data.js": {
     "version": 9,
@@ -84,8 +84,8 @@
     "hash": "c72954f3fef6fcce"
   },
   "styles.css": {
-    "version": 150,
-    "hash": "a2e8dc30bfb95e41"
+    "version": 151,
+    "hash": "570fcc07747894bf"
   },
   "timemap_calendars.js": {
     "version": 15,

@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=150">
+    <link rel="stylesheet" href="styles.css?v=151">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -697,7 +697,7 @@
            alone told the reader a word was special but not how (owner). */
         #word-modal .wm-cat-note {
             font-weight: 400; text-transform: none; letter-spacing: 0;
-            color: #a0a0ae;
+            color: #5f6368;
         }
         #word-modal .wm-grid {
             display: grid; gap: 6px;
@@ -1730,7 +1730,7 @@
         }
         .compare-clear:hover { background: #e5e7e9; }
         .compare-close {
-            font-size: 22px; color: #999; padding: 0; width: 28px; height: 28px; line-height: 1;
+            font-size: 22px; color: #5f6368; padding: 0; width: 28px; height: 28px; line-height: 1;
         }
         .compare-close:hover { color: #333; }
         /* Default (mobile): table fills the panel. PC override at the
@@ -1888,7 +1888,7 @@
         .compare-table tbody th { background: #fafafa; font-weight: 600; min-width: 80px; vertical-align: middle; }
         .compare-table .surface { font-size: 15px; }
         .compare-table .ipa { color: #666; font-size: 12px; font-family: 'Charis SIL', 'DejaVu Serif', serif; display: block; }
-        .compare-table .unattested { color: #aaa; font-style: italic; }
+        .compare-table .unattested { color: #5f6368; font-style: italic; }
         .compare-add-btn {
             display: inline-block; margin: 10px 0; padding: 4px 10px; /* Audit Task 223: symmetric vertical margin (was margin-top:10px which left no bottom space, causing visual collision with the next block) */
             font-size: 12px; border: 1px solid #1a73e8; background: #fff; color: #1a73e8;
@@ -2674,7 +2674,7 @@
         }
                 .trivia-modal .trivia-seo-link {
             display: inline-block; margin-inline-start: auto;
-            font-size: 12px; font-weight: 600; color: #4a6cf7;
+            font-size: 12px; font-weight: 600; color: #3f5fe0;
             text-decoration: none; white-space: nowrap;
         }
         .trivia-modal .trivia-seo-link:hover { text-decoration: underline; }
@@ -3733,7 +3733,7 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   150,
+            styles:   151,
             data:      343,
             metaI18n:  16,
             filter:    50,
@@ -6057,9 +6057,11 @@
             // label and Enter/Space to open the language modal. aria-label
             // includes display name + word + IPA so screen readers announce
             // a meaningful summary.
-            const ariaParts = [n];
+            // Visible order (word, IPA, name): speech-input users say what they see (WCAG 2.5.3).
+            const ariaParts = [];
             if (showWord && word) ariaParts.push(word);
             if (showIpa) ariaParts.push(ipa ? '/' + ipa + '/' : wt('ipaUnknown'));
+            ariaParts.push(n);
             const ariaLabel = escapeHtml(ariaParts.filter(Boolean).join(' — '));
             const inCompareCls = (window.__compareList || []).indexOf(code) !== -1 ? ' in-compare' : '';
             let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
@@ -9034,7 +9036,7 @@
                     const url = safeUrl(it.url);
                     const safeTitle = escapeHtml(it.title || it.url || '');
                     if (url) {
-                        return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" style="color:#4a6cf7;text-decoration:none">${safeTitle}</a>`;
+                        return `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer" style="color:#3f5fe0;text-decoration:none">${safeTitle}</a>`;
                     }
                     return safeTitle;
                 };
@@ -9053,7 +9055,7 @@
                 const ui = SEO_UI.indexOf(uiBaseLink) !== -1 ? uiBaseLink : 'en';
                 const href = '/' + ui + '/wordmap/' + escapeHtml(code);
                 html += `<div style="margin-top:12px;padding-top:8px;border-top:1px dotted #ddd">` +
-                    `<a href="${href}" style="display:inline-block;font-size:12px;color:#4a6cf7;text-decoration:none;font-weight:600">` +
+                    `<a href="${href}" style="display:inline-block;font-size:12px;color:#3f5fe0;text-decoration:none;font-weight:600">` +
                     `📄 デカ文字版ページ / Big-text page →</a></div>`;
             })();
             // The second slot, with the next message in the rotation.
@@ -11210,7 +11212,10 @@
                 el.style.cssText = 'position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:#1f2330;color:#fff;padding:9px 16px;border-radius:8px;font-size:13px;z-index:100000;box-shadow:0 4px 16px rgba(0,0,0,.3);opacity:0;transition:opacity .2s;pointer-events:none';
                 document.body.appendChild(el);
             }
-            el.textContent = msg;
+            // Empty first, then the text a tick later: a live region that
+            // arrives already filled is not announced.
+            el.textContent = '';
+            setTimeout(() => { el.textContent = msg; }, 30);
             el.style.opacity = '1';
             clearTimeout(el._t);
             el._t = setTimeout(() => { el.style.opacity = '0'; }, 1800);
@@ -11262,7 +11267,7 @@
             back.classList.add('wm-overlay');
             document.body.appendChild(back);
             // A modal: named, focus in / Tab kept inside / back on close; Escape closes.
-            if (window.__wmDialog) window.__wmDialog.open(box, 'Share');
+            if (window.__wmDialog) window.__wmDialog.open(box, pick(S.share));
             const onKey = (e) => {
                 if (!back.isConnected) { document.removeEventListener('keydown', onKey, true); return; }
                 if (e.key === 'Escape') { e.stopImmediatePropagation(); back.remove(); }
@@ -11810,7 +11815,7 @@
             }
             if (finished) {
                 const res = el('div', 'text-align:center;margin:8px 0 4px');
-                res.innerHTML = `<div style="font-weight:800;font-size:16px;color:${won ? '#0d9f6e' : '#d4506a'}">${won ? pk(T.win) : pk(T.lose)}</div>
+                res.innerHTML = `<div style="font-weight:800;font-size:16px;color:${won ? '#0b7a52' : '#b8364f'}">${won ? pk(T.win) : pk(T.lose)}</div>
                     <div style="margin-top:4px">${pk(T.answer)}: <b>${nameOf(t)}</b> <span style="color:#5f6368">(${(LD()[t].meta || {}).family || ''})</span></div>
                     <div style="margin-top:6px;font-size:13px;color:#555">${pk(T.streak)}: <b style="color:#222">${curStreak()}</b></div>`;
                 box.appendChild(res);
@@ -11842,7 +11847,7 @@
                 box.appendChild(shareRow);
             }
             const foot = el('div', 'display:flex;align-items:center;justify-content:space-between;margin-top:10px');
-            const rst = el('button', 'border:0;background:none;color:#8a90a0;font-size:12px;cursor:pointer;padding:8px 4px;display:inline-flex;align-items:center;gap:5px');
+            const rst = el('button', 'border:0;background:none;color:#5f6368;font-size:12px;cursor:pointer;padding:8px 4px;display:inline-flex;align-items:center;gap:5px');
             rst.innerHTML = `<span style="display:inline-flex">${ICON.replay}</span>${pk(T.reset)}`;
             rst.addEventListener('click', resetGame);
             const cl = el('button', 'border:0;background:none;color:#5f6368;font-size:13px;cursor:pointer;padding:8px 4px', pk(T.close));
@@ -12111,7 +12116,7 @@
                 // Feedback line + Next button pinned below the centered band, always
                 // present (reserving height), shown only once answered.
                 const okNow = answered && qs[idx].options[chosen] && qs[idx].options[chosen].correct;
-                const fb = el('div', `text-align:center;font-weight:800;font-size:16px;margin:6px 0 2px;color:${okNow ? '#0d9f6e' : '#d4506a'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct));
+                const fb = el('div', `text-align:center;font-weight:800;font-size:16px;margin:6px 0 2px;color:${okNow ? '#0b7a52' : '#b8364f'};visibility:${answered ? 'visible' : 'hidden'}`, answered ? (okNow ? pk(Q.correct) : pk(Q.wrong)) : pk(Q.correct));
                 fb.className = 'wq-fb'; box.appendChild(fb);
                 const nb = el('button', `width:100%;margin-top:10px;padding:12px;border:0;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;font-size:16px;cursor:pointer;flex:none;visibility:${answered ? 'visible' : 'hidden'}`);
                 nb.className = 'wq-next'; nb.setAttribute('aria-keyshortcuts', 'Space');
@@ -12269,7 +12274,7 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=30"></script>
+    <script src="my-languages.js?v=31"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels

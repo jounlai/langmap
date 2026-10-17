@@ -72,7 +72,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=143">
+    <link rel="stylesheet" href="styles.css?v=144">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for the scripts that name forms appear in. Without these,
          Arabic / Hebrew / Devanagari / Bengali / Ethiopic / Georgian /
@@ -187,13 +187,13 @@
 
         /* ---- Etymology tree (curved but continuous connector guides) ---- */
         .nm-tree { font-size: 13px; --tree-line: #cbb6e0; }
-        .nm-tree ul { list-style: none; margin: 0; padding-left: 14px; }
-        .nm-tree > ul { padding-left: 2px; }
-        .nm-tree li { position: relative; padding: 3px 0 3px 16px; }
+        .nm-tree ul { list-style: none; margin: 0; padding-inline-start: 14px; }
+        .nm-tree > ul { padding-inline-start: 2px; }
+        .nm-tree li { position: relative; padding-block: 3px; padding-inline: 16px 0; }
         /* continuous straight trunk down the left (spans the whole subtree so
            siblings always connect); truncated to the elbow on the last child */
         .nm-tree li::after {
-            content: ''; position: absolute; left: 0; top: 0; height: 100%; border-left: 1px solid var(--tree-line);
+            content: ''; position: absolute; inset-inline-start: 0; top: 0; height: 100%; border-inline-start: 1px solid var(--tree-line);
         }
         /* Last child has no sibling below, so the trunk must stop where the
            rounded elbow (::before) starts curving (~3px) — otherwise the
@@ -203,13 +203,13 @@
         /* rounded corner + horizontal arm, drawn on top of the trunk; the arm
            sits at ~11px so it meets the vertical centre of the node label */
         .nm-tree li::before {
-            content: ''; position: absolute; left: 0; top: -2px; width: 13px; height: 13px;
-            border-left: 1px solid var(--tree-line);
+            content: ''; position: absolute; inset-inline-start: 0; top: -2px; width: 13px; height: 13px;
+            border-inline-start: 1px solid var(--tree-line);
             border-bottom: 1px solid var(--tree-line);
-            border-bottom-left-radius: 8px;
+            border-end-start-radius: 8px;
         }
         /* the root carries no incoming line */
-        .nm-tree > ul > li.nm-tree-root { padding-left: 0; }
+        .nm-tree > ul > li.nm-tree-root { padding-inline-start: 0; }
         .nm-tree > ul > li.nm-tree-root::before,
         .nm-tree > ul > li.nm-tree-root::after { display: none; }
         .nm-tree-node { display: inline-flex; align-items: baseline; gap: 7px; flex-wrap: wrap; }
@@ -226,10 +226,10 @@
         }
         .nm-form-row:hover { background: var(--nm-accent-tint); }
         .nm-form-left { flex: 0 0 92px; display: flex; align-items: center; gap: 6px; }
-        .nm-form-country { flex: 1 1 auto; font-size: 12px; color: #777; text-align: left; line-height: 1.2; }
+        .nm-form-country { flex: 1 1 auto; font-size: 12px; color: #777; text-align: start; line-height: 1.2; }
         .nm-form-main { flex: 1 1 auto; min-width: 0; }
-        .nm-form-word { font-size: 16px; font-weight: 700; color: #1a1a2e; }
-        .nm-form-rom { font-size: 12px; color: #888; margin-left: 6px; }
+        .nm-form-word { font-size: 16px; font-weight: 700; color: #1a1a2e; unicode-bidi: isolate; }
+        .nm-form-rom { font-size: 12px; color: #888; margin-inline-start: 6px; unicode-bidi: isolate; }
         .nm-form-ipa { font-size: 12px; color: #2e6fb8; font-family: 'Gentium Plus','Charis SIL',serif; }
         .nm-freq-dot { flex: 0 0 auto; width: 9px; height: 9px; border-radius: 50%; }
         .nm-freq-very-common { background: #2e8b57; }
@@ -495,7 +495,7 @@
             .nm-info-close {
                 display: flex; align-items: center; justify-content: center;
                 position: sticky; top: 8px; z-index: 5;
-                margin: 0 0 -40px auto; width: 38px; height: 38px;
+                margin: 0 0 -40px; margin-inline-start: auto; width: 38px; height: 38px;
                 border: none; border-radius: 50%;
                 background: rgba(0,0,0,0.07); color: #333;
                 font-size: 24px; line-height: 1; cursor: pointer;
@@ -519,7 +519,7 @@
            57px then 47px and the whole stage jumped (CLS ~0.4, rally r4). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
 </style>
-    <script src="nav-short.js?v=15"></script>
+    <script src="nav-short.js?v=16"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Name Map</h1>
@@ -824,7 +824,7 @@
                     h+='<span class="nm-form-country">'+esc(loc(LANGS[c].country))+'</span></span>';
                     h+='<span class="nm-form-main"><span class="nm-form-word nm-script">'+esc(f.form)+'</span>';
                     if(f.rom && f.rom!==f.form) h+='<span class="nm-form-rom">'+esc(f.rom)+'</span>';
-                    if(f.ipa) h+=' <span class="nm-form-ipa">/'+esc(f.ipa)+'/</span>';
+                    if(f.ipa) h+=' <bdi class="nm-form-ipa" dir="ltr">/'+esc(f.ipa)+'/</bdi>';
                     h+='</span></div>';
                 });
             }
@@ -1022,7 +1022,8 @@
             });
             input.addEventListener('input', ()=>render(input.value));
             input.addEventListener('focus', ()=>{ if(input.value) render(input.value); });
-            document.addEventListener('click', e=>{ if(!box.contains(e.target)&&e.target!==input) box.classList.remove('open'); });
+            document.addEventListener('click', e=>{ if(!box.contains(e.target)&&e.target!==input) closeList(); });
+            input.addEventListener('blur', closeList);   // option mousedown preventDefaults, so a pick still lands
         }
 
         /* ---------- Mobile info sheet ---------- */
@@ -1197,6 +1198,6 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=6"></script>
+    <script src="lang-picker.js?v=7"></script>
 </body>
 </html>

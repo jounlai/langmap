@@ -125,7 +125,12 @@
             // Text nodes only: the 字 icon <span> in the HanMap link is not the name.
             var full = Array.prototype.filter.call(items[i].childNodes, function (n) { return n.nodeType === 3; })
                 .map(function (n) { return n.nodeValue; }).join('').trim();
-            var nm = full && full !== s ? full + ' (' + s + ')' : (full || s);
+            // Visible text first: an icon glyph (字), then the short label; the
+            // full name after a comma (axe drops parenthesised text when matching).
+            var icon = Array.prototype.filter.call(items[i].children, function (c) { return c.tagName !== 'svg' && c.tagName !== 'SVG' && c.getAttribute('aria-hidden') !== 'true'; })
+                .map(function (c) { return c.textContent.trim(); }).join('');
+            var vis = (icon ? icon + ' ' : '') + s;
+            var nm = full && full !== s ? vis + ', ' + full : vis;
             if (items[i].getAttribute('aria-label') !== nm) items[i].setAttribute('aria-label', nm);
         }
     }
@@ -186,8 +191,9 @@
             var cur = nav.querySelector('.header-nav-current');
             if (cur && nav.scrollWidth > nav.clientWidth) {
                 var nr = nav.getBoundingClientRect(), cr = cur.getBoundingClientRect();
-                if (cr.left < nr.left) nav.scrollLeft -= (nr.left - cr.left) + 8;
-                else if (cr.right > nr.right) nav.scrollLeft += (cr.right - nr.right) + 8;
+                // 28px: clear of the edge fade.
+                if (cr.left < nr.left + 28) nav.scrollLeft -= (nr.left + 28 - cr.left);
+                else if (cr.right > nr.right - 28) nav.scrollLeft += (cr.right - (nr.right - 28));
             }
             edges();
         }

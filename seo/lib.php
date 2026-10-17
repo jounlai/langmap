@@ -3046,10 +3046,12 @@ function seo_404(string $msg = 'Page not found', string $ui = 'en'): void
     header('Content-Type: text/html; charset=utf-8');
     $rtl = seo_is_rtl($ui);
     echo "<!doctype html><html lang=\"" . e($ui) . "\"" . ($rtl ? ' dir="rtl"' : '') . "><head><meta charset=\"utf-8\">"
+        . "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
         . "<title>404 — " . e(seo_t($ui, 'nf_title')) . "</title>"
         . "<meta name=\"robots\" content=\"noindex\">"
         . "<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:4rem auto;padding:0 1rem}</style>"
-        . "</head><body><h1>404</h1><p>" . e($msg) . "</p>"
+        // The detail line is an English developer message: mark it as such.
+        . "</head><body><h1>404</h1><p>" . e(seo_t($ui, 'nf_title')) . "</p><p lang=\"en\" dir=\"ltr\" style=\"color:#5c5c72;font-size:.9rem\"><bdi>" . e($msg) . "</bdi></p>"
         . "<p><a href=\"/" . e($ui) . "/wordmap/\">" . e(seo_t($ui, 'nf_wm')) . "</a> · <a href=\"/" . e($ui) . "/hanmap/\">" . e(seo_t($ui, 'nf_hm')) . "</a></p>"
         . "</body></html>";
 }
@@ -3397,7 +3399,12 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   .seo-cmp-wrap, .seo-chartable-wrap { overflow: visible !important; }
   .seo-cmp-tbl { min-width: 0 !important; width: 100% !important; }
   /* IPA has no break points: let long forms break anywhere rather than run off the page. */
-  .seo-cmp-tbl th, .seo-cmp-tbl td { white-space: normal !important; overflow-wrap: anywhere; }
+  .seo-cmp-tbl.seo-cmp-tbl { font-size: 9pt; }
+  .seo-cmp-tbl th, .seo-cmp-tbl td { white-space: normal !important; }
+  .seo-cmp-tbl td { overflow-wrap: anywhere; }
+  .seo-cmp-tbl th { overflow-wrap: normal !important; font-size: 8pt !important; hyphens: auto; }
+  /* Connector paths are laid out for the screen; rows wrap differently on paper. */
+  .seo-cmp-wo .wo-lines { display: none !important; }
   .seo-cmp-tbl th.cmp-rowhead { position: static !important; }
   .ex-wo-pick { display: none !important; }
   a { color: inherit; text-decoration: none; }
@@ -4743,6 +4750,8 @@ function seo_foot(string $ui = 'en'): void
   var opened = [];
   addEventListener('beforeprint', function () {
     opened = [].filter.call(document.querySelectorAll('details:not([open])'), function (d) { d.open = true; return true; });
+    // Their lazy flags would never be fetched before the print snapshot.
+    [].forEach.call(document.querySelectorAll('details img[loading="lazy"]'), function (i) { i.loading = 'eager'; });
   });
   addEventListener('afterprint', function () { opened.forEach(function (d) { d.open = false; }); opened = []; });
 })();

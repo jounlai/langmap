@@ -898,9 +898,11 @@ function createModalToggle(lang) {
     const _seoLink = label.querySelector('.lang-seo-link');
     if (_seoLink) _seoLink.addEventListener('click', (e) => { e.stopPropagation(); });
     label.addEventListener('click', (e) => {
-        e.preventDefault();
         const cb = label.querySelector('input');
-        cb.checked = !cb.checked;
+        // A keyboard Space toggles the (now focusable) checkbox natively and its
+        // click bubbles here: follow it instead of flipping it back.
+        if (e.target === cb) { /* native toggle already applied */ }
+        else { e.preventDefault(); cb.checked = !cb.checked; }
         if (cb.checked) {
             modalPendingLangs.add(lang.code);
             label.classList.add('active');
@@ -1011,6 +1013,14 @@ function openLangModal() {
         header.style.cursor = 'pointer';
         // Keyboard: the group label toggles its whole group, like a click.
         header.setAttribute('role', 'button'); header.tabIndex = 0;
+        // aria-pressed: all / some / none of the group selected.
+        const syncPressed = () => {
+            const on = selectableLangs.filter(l => modalPendingLangs && modalPendingLangs.has(l.code)).length;
+            header.setAttribute('aria-pressed', on === 0 ? 'false' : on === selectableLangs.length ? 'true' : 'mixed');
+        };
+        syncPressed();
+        groupDiv.addEventListener('click', () => setTimeout(syncPressed, 0));
+        document.getElementById('langModalBody').addEventListener('langmap:modalsync', syncPressed);
         header.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); } });
         groupDiv.appendChild(header);
 
@@ -1098,6 +1108,7 @@ function modalToggleAll(on) {
         cb.checked = modalPendingLangs.has(code);
         label.classList.toggle('active', modalPendingLangs.has(code));
     });
+    document.getElementById('langModalBody').dispatchEvent(new Event('langmap:modalsync'));
 }
 
 // --- Row drag (reorder from the map display — insert between rows) ---

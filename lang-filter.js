@@ -1662,7 +1662,22 @@
         fab.addEventListener('click', () => {
             if (!panel.classList.contains('open')) positionPanel();
             panel.classList.toggle('open');
+            // Keyboard: the panel sits at the end of <body>, so take focus into it.
+            if (panel.classList.contains('open')) {
+                const f = panel.querySelector('.lf-chip, button, input, [tabindex="0"]');
+                if (f) setTimeout(() => { try { f.focus({ preventScroll: true }); } catch (_) {} }, 0);
+            }
         });
+        // aria-expanded follows the panel; closing it while focus is inside
+        // (Escape, the × button) hands focus back to the button.
+        fab.setAttribute('aria-expanded', 'false');
+        new MutationObserver(() => {
+            const open = panel.classList.contains('open');
+            fab.setAttribute('aria-expanded', open ? 'true' : 'false');
+            if (!open && (panel.contains(document.activeElement) || document.activeElement === document.body) && fab.getClientRects().length) {
+                try { fab.focus({ preventScroll: true }); } catch (_) {}
+            }
+        }).observe(panel, { attributes: true, attributeFilter: ['class'] });
 
         // Re-apply filter whenever new labels render (zoom/word/era change).
         // Safe to attach now; applyFilter is a no-op while no filters active.

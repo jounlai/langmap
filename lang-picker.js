@@ -19,6 +19,9 @@
     var LABELS = { en:'Language:', ja:'言語選択:', ko:'언어 선택:', zh:'语言选择:', yue:'語言選擇:', vi:'Ngôn ngữ:', th:'เลือกภาษา:', id:'Pilih bahasa:', hi:'भाषा चुनें:', de:'Sprache:', fr:'Langue :', it:'Lingua:', es:'Idioma:', pt:'Idioma:', ru:'Язык:', uk:'Мова:', ar:'اللغة:', he:'שפה:', sw:'Lugha:' };
     function labelFor(v) { v = v || 'en'; return LABELS[v] || LABELS[v.split('_')[0]] || LABELS.en; }
 
+    // The UI-language label in every UI language (as tree.html's uilLbl).
+    var UIL = {ja:'UI 言語',ko:'UI 언어',zh:'界面语言',yue:'介面語言',vi:'Ngôn ngữ giao diện',th:'ภาษาส่วนติดต่อ',id:'Bahasa antarmuka',hi:'UI भाषा',en:'UI language',de:'UI-Sprache',fr:'Langue de l\'interface',it:'Lingua dell\'interfaccia',es:'Idioma de interfaz',pt:'Idioma da interface',ru:'Язык интерфейса',uk:'Мова інтерфейсу',ar:'لغة الواجهة',he:'שפת ממשק',sw:'Lugha ya kiolesura'};
+    UIL['zh-hk'] = UIL['zh-mo'] = UIL.yue;
     function build() {
         var sel = document.getElementById('header-ui-lang');
         if (!sel) return false;
@@ -56,6 +59,7 @@
             it.type = 'button';
             it.className = 'lang-picker-item';
             it.setAttribute('role', 'option');
+            it.tabIndex = -1;   // one Tab stop: arrows move inside the list
             it.dataset.value = o.value;
             var c = document.createElement('span');
             c.className = 'lang-picker-item-code';
@@ -92,8 +96,13 @@
             // Name = the page's label plus the visible code ("UI language (RU)"),
             // so speech input matches what is shown; the listbox shares the label.
             var a = sel.getAttribute('aria-label') || 'UI language';
+            // Name Map / Time Map never translate the select's label: fall back
+            // to the page language's word for it.
+            if (a === 'UI language') { var hl = String(document.documentElement.lang || 'en').toLowerCase(); a = UIL[hl] || UIL[hl.split('-')[0]] || a; }
             var cv = (sel.value || 'en').toUpperCase();
-            btn.setAttribute('aria-label', a + ' (' + cv + ')');
+            // Visible code first (WCAG 2.5.3 label in name; no parentheses, which
+            // axe strips when matching).
+            btn.setAttribute('aria-label', cv + ', ' + a);
             menu.setAttribute('aria-label', a);
             code.textContent = cv;
             label.textContent = labelFor(sel.value);
@@ -101,7 +110,33 @@
                 it.setAttribute('aria-selected', it.dataset.value === sel.value ? 'true' : 'false');
             });
         }
-        function open() { menu.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); sync(); }
+        function open() {
+            menu.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); sync();
+            var cur = menu.querySelector('[aria-selected="true"]') || menu.firstElementChild;
+            if (cur) try { cur.focus({ preventScroll: true }); cur.scrollIntoView({ block: 'nearest' }); } catch (_) {}
+        }
+        // Listbox keyboard model: arrows, Home/End, typeahead, Enter/Space, Tab closes.
+        wrap.addEventListener('keydown', function (e) {
+            if (!menu.classList.contains('open')) {
+                if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && e.target === btn) { e.preventDefault(); open(); }
+                return;
+            }
+            var items = [].slice.call(menu.children), i = items.indexOf(document.activeElement);
+            var go = function (k) { var t = items[(k + items.length) % items.length]; if (t) { t.focus({ preventScroll: true }); t.scrollIntoView({ block: 'nearest' }); } };
+            if (e.key === 'ArrowDown') { e.preventDefault(); go(i + 1); }
+            else if (e.key === 'ArrowUp') { e.preventDefault(); go(i < 0 ? items.length - 1 : i - 1); }
+            else if (e.key === 'Home') { e.preventDefault(); go(0); }
+            else if (e.key === 'End') { e.preventDefault(); go(items.length - 1); }
+            else if (e.key === 'Tab') { close(); }
+            else if ((e.key === 'Enter' || e.key === ' ') && i >= 0) { e.preventDefault(); items[i].click(); btn.focus(); }
+            else if (e.key.length === 1 && /\S/.test(e.key)) {
+                var ch = e.key.toLowerCase();
+                for (var k = 1; k <= items.length; k++) {
+                    var t = items[(Math.max(i, 0) + k) % items.length];
+                    if ((t.dataset.value || '').toLowerCase().indexOf(ch) === 0 || (t.textContent || '').trim().toLowerCase().indexOf(ch) === 0) { e.preventDefault(); go(items.indexOf(t)); break; }
+                }
+            }
+        });
         function close() { menu.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); }
 
         btn.addEventListener('click', function (e) {

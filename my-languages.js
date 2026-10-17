@@ -459,6 +459,14 @@
     // ---- DOM: panel --------------------------------------------------------
     var overlay, panelBody, nameInput, resInput, addInput, suggBox, listEl, statsEl, actionsEl, activeSugg = -1, suggData = [];
 
+    function trapTab(e, root) {
+        if (!root) return;
+        var f = [].filter.call(root.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]'), function (x) { return !x.disabled && x.getClientRects().length; });
+        if (!f.length) return;
+        var first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && (document.activeElement === first || !root.contains(document.activeElement))) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && (document.activeElement === last || !root.contains(document.activeElement))) { e.preventDefault(); first.focus(); }
+    }
     function buildPanel() {
         overlay = document.createElement('div');
         overlay.className = 'mylang-overlay';
@@ -473,6 +481,8 @@
         overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
         // The share sheet on top takes Escape first (it has its own handler).
         document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && overlay.classList.contains('open') && !document.querySelector('.mylang-share-back')) close(); });
+        // aria-modal: keep Tab inside the panel.
+        overlay.addEventListener('keydown', function (e) { if (e.key === 'Tab') trapTab(e, overlay.querySelector('.mylang-panel')); });
         document.body.appendChild(overlay);
         renderBuilder();
     }
@@ -653,6 +663,8 @@
         suggBox.classList.add('open');
     }
     function onSearchKey(e) {
+        // Escape with suggestions showing closes the list, not the whole panel.
+        if (e.key === 'Escape' && suggBox.classList.contains('open')) { e.preventDefault(); e.stopPropagation(); suggBox.classList.remove('open'); return; }
         if (!suggBox.classList.contains('open') || !suggData.length) return;
         if (e.key === 'ArrowDown') { activeSugg = Math.min(suggData.length - 1, activeSugg + 1); renderSugg(); e.preventDefault(); }
         else if (e.key === 'ArrowUp') { activeSugg = Math.max(0, activeSugg - 1); renderSugg(); e.preventDefault(); }
@@ -782,6 +794,9 @@
             var e = el('div', 'mylang-empty'); e.textContent = '⚠'; wrap.appendChild(e);
         }
         panelBody.appendChild(wrap);
+        // The button that opened this view is gone: focus its first action.
+        var fb = wrap.querySelector('button') || overlay.querySelector('.mylang-back');
+        if (fb) try { fb.focus({ preventScroll: true }); } catch (_) {}
     }
 
     function fileName() {
@@ -840,6 +855,7 @@
         function onKey(e) {
             if (!back.isConnected) { document.removeEventListener('keydown', onKey, true); return; }
             if (e.key === 'Escape') { e.stopImmediatePropagation(); back.remove(); }
+            else if (e.key === 'Tab') trapTab(e, box);
         }
         document.addEventListener('keydown', onKey, true);
         new MutationObserver(function (_, mo) {

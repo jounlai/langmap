@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=143">
+    <link rel="stylesheet" href="styles.css?v=144">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=15"></script>
+    <script src="nav-short.js?v=16"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -571,7 +571,9 @@
             // autoPan stops at the map's maxBounds, so a tall popup near the top can
             // still end under the header / date bar: after the pan settles, shorten
             // it to what is left below that line (it then scrolls).
-            setTimeout(()=>{
+            // Run after every pan settles (the maxBounds snap-back starts ~250ms
+            // after the autoPan), while this popup is open.
+            const clamp=()=>{
                 const w=pp.getElement && pp.getElement(); if(!w || !map.hasLayer(pp)) return;
                 const wr=w.getBoundingClientRect(), limit=mapR.top+top-8;
                 if(wr.top < limit){
@@ -579,7 +581,15 @@
                     const h=Math.max(120, Math.round(c.getBoundingClientRect().height-(limit-wr.top)));
                     if(h < (pp.options.maxHeight||Infinity)){ pp.options.maxHeight=h; const ap=pp.options.autoPan; pp.options.autoPan=false; pp.update(); pp.options.autoPan=ap; }
                 }
-            }, 350);
+                // A clamped popup scrolls: make that region reachable by keyboard.
+                const c2=w.querySelector('.leaflet-popup-content');
+                if(c2 && c2.scrollHeight > c2.clientHeight+1){ c2.tabIndex=0; c2.setAttribute('role','region'); c2.setAttribute('aria-label', (w.querySelector('.tm-pop-name, h3, b')||{}).textContent || 'Calendar'); }
+            };
+            let tmo=null; const onEnd=()=>{ clearTimeout(tmo); tmo=setTimeout(clamp, 50); };
+            if(pp._tmClamp) map.off('moveend', pp._tmClamp);
+            pp._tmClamp=onEnd; map.on('moveend', onEnd);
+            pp.once('remove', ()=>{ map.off('moveend', onEnd); pp._tmClamp=null; clearTimeout(tmo); });
+            onEnd();
         }
         function drawMarkers(){
             // The marker whose popup is open is kept and updated in place:
@@ -746,6 +756,15 @@
             if((pop && !pop.hasAttribute('hidden')) || document.querySelector('[aria-modal="true"]')) return;
             e.stopImmediatePropagation(); closeInfoSheet();
         }, true);
+        // Escape closes an open calendar popup (Leaflet only listens when the map
+        // itself has focus) and returns focus to its marker. Window, bubbling, so
+        // the popover / sheet / dialogs above it take the key first.
+        window.addEventListener('keydown', e=>{
+            if(e.key!=='Escape' || e.defaultPrevented || !map || !openId || !markers[openId] || !markers[openId].isPopupOpen()) return;
+            if(document.querySelector('[aria-modal="true"]') || document.getElementById('tm-panel').classList.contains('info-open')) return;
+            const mk=markers[openId]; map.closePopup();
+            const el=mk.getElement&&mk.getElement(); if(el) try{ el.focus({preventScroll:true}); }catch(_){}
+        });
         // A closed sheet is only moved off-screen: keep its 50 rows out of the Tab order.
         function syncSheetInert(){ const info=document.getElementById('tm-info'); if(info) info.inert = SHEET_MQ.matches && !document.getElementById('tm-panel').classList.contains('info-open'); }
         SHEET_MQ.addEventListener && SHEET_MQ.addEventListener('change', syncSheetInert);
@@ -880,6 +899,6 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=6"></script>
+    <script src="lang-picker.js?v=7"></script>
 </body>
 </html>

@@ -77,7 +77,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=143">
+    <link rel="stylesheet" href="styles.css?v=144">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -2821,7 +2821,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=15"></script>
+    <script src="nav-short.js?v=16"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
@@ -3187,6 +3187,7 @@
             if (comparePanel && comparePanel.classList.contains('visible')) {
                 const cc = document.getElementById('compare-close');
                 if (cc) cc.click();
+                e.__hmEscDone = true;   // one layer per Escape (the later handlers check this)
                 return;
             }
             // 3. Close lang-info modal if open.
@@ -3194,6 +3195,7 @@
             if (langInfo && langInfo.classList.contains('visible')) {
                 const ic = document.getElementById('info-close');
                 if (ic) ic.click();
+                e.__hmEscDone = true;
             }
         });
     })();
@@ -9088,8 +9090,10 @@
         // Escape key closes the info panel and the filter panel
         // (per wordmap-check-4.md §3).
         document.addEventListener('keydown', (e) => {
-            if (e.key !== 'Escape') return;
-            if (infoPanel.classList.contains('visible')) closeInfoPanel();
+            if (e.key !== 'Escape' || e.__hmEscDone) return;
+            // The compare panel sits on top of the language panel: it goes first.
+            const cmpOpen = !!document.querySelector('#compare-panel.visible');
+            if (!cmpOpen && infoPanel.classList.contains('visible')) { closeInfoPanel(); e.__hmEscDone = true; }
             const lf = document.querySelector('.lf-panel.open');
             if (lf) lf.classList.remove('open');
         });
@@ -11307,10 +11311,10 @@
         });
         // ESC closes the compare panel
         document.addEventListener('keydown', e => {
-            if (e.key === 'Escape') {
+            if (e.key === 'Escape' && !e.__hmEscDone) {
                 const panel = document.getElementById('compare-panel');
                 if (panel && panel.classList.contains('visible')) {
-                    closeComparePanel();
+                    closeComparePanel(); e.__hmEscDone = true;
                 }
             }
         });
@@ -12698,17 +12702,21 @@
             box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.tabIndex = -1;
             modal.appendChild(box);
             // Keyboard, as in Language Master: 1–N answer, Space/Enter next, Esc closes.
+            // Capture phase: the quiz is on top, so its Escape runs first and stops
+            // there (the panel handlers underneath closed too — rally r9).
             document.addEventListener('keydown', e => {
                 if (!modal || modal.style.display === 'none') return;
-                if (e.key === 'Escape') { hide(); return; }
+                if (e.key === 'Escape') { e.stopImmediatePropagation(); hide(); return; }
                 if (e.ctrlKey || e.metaKey || e.altKey) return;
                 const t = e.target; if (t && /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)) return;
+                // Enter/Space on another button (Close) is that button's.
+                if (t && t.closest && t.closest('button') && !t.closest('.hq-next, .hq-opt')) return;
                 if (!qs.length || idx >= qs.length) return;
                 if (!answered) {
                     const n = '123456789'.indexOf(e.key);
                     if (n >= 0 && n < qs[idx].options.length) { e.preventDefault(); answer(n); }
                 } else if (e.key === ' ' || e.key === 'Spacebar' || e.key === 'Enter') { e.preventDefault(); next(); }
-            });
+            }, true);
             // Short screens: the five options sat in a scrolling middle band and
             // three of them were below the fold at 500px. Shrink the character,
             // prompt, option buttons and spacing in two steps so all five fit.
@@ -12988,6 +12996,6 @@
     })();
     </script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=6"></script>
+    <script src="lang-picker.js?v=7"></script>
 </body>
 </html>

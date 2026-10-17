@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=143">
+    <link rel="stylesheet" href="styles.css?v=144">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3036,7 +3036,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=15"></script>
+    <script src="nav-short.js?v=16"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
@@ -3139,7 +3139,7 @@
              button stays visible no matter how far the user scrolls. -->
         <div class="trivia-scroll" id="trivia-scroll">
             <div class="trivia-eyebrow" id="trivia-eyebrow">Linguistic Trivia</div>
-            <h2 id="trivia-heading"></h2>
+            <h2 id="trivia-heading" tabindex="-1"></h2>
             <div class="trivia-summary" id="trivia-summary"></div>
             <div class="trivia-body" id="trivia-body"></div>
             <div class="trivia-sources" id="trivia-sources" hidden></div>
@@ -3731,10 +3731,10 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   143,
+            styles:   144,
             data:      342,
             metaI18n:  16,
-            filter:    48,
+            filter:    49,
             names:   203,
             meta:     414,
             trivia:   44,
@@ -3876,7 +3876,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=48"></script>
+    <script src="lang-filter.js?v=49"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -7793,6 +7793,8 @@
         // (per wordmap-check-4.md §3).
         document.addEventListener('keydown', (e) => {
             if (e.key !== 'Escape') return;
+            // A game / article / dialog on top takes this Escape by itself.
+            if (window.__wmOpenGame || document.querySelector('#trivia-modal.visible, .mylang-overlay.open')) return;
             if (infoPanel.classList.contains('visible')) closeInfoPanel();
             const lf = document.querySelector('.lf-panel.open');
             if (lf) lf.classList.remove('open');
@@ -10655,6 +10657,8 @@
             const scroll = document.getElementById('trivia-scroll');
             if (scroll) scroll.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash({ push: true });
+            // The focused card / back button is now hidden: keep focus in the dialog.
+            { const tm = document.getElementById('trivia-modal'); if (tm && !tm.contains(document.activeElement)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
         }
         function backToTriviaIndex() {
             _resetTriviaSurface();
@@ -10663,6 +10667,8 @@
             const _scrollBack = document.getElementById('trivia-scroll');
             if (_scrollBack) _scrollBack.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash();
+            // The focused card / back button is now hidden: keep focus in the dialog.
+            { const tm = document.getElementById('trivia-modal'); if (tm && !tm.contains(document.activeElement)) { const h = document.getElementById('trivia-heading'); if (h) h.focus({ preventScroll: true }); } }
         }
         // aria-modal: keep Tab inside the article (it walked out to the map controls).
         (function () {
@@ -12212,16 +12218,16 @@
 
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=4"></script>
-    <script src="lang-picker.js?v=6"></script>
+    <script src="lang-picker.js?v=7"></script>
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=25"></script>
+    <script src="my-languages.js?v=26"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=13"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=14"></script>
     <script>
     (function () {
         'use strict';

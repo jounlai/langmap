@@ -342,7 +342,11 @@
             var k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
             if (typing && k.length === 1) return;        // letters type into the search box
             if (typing && k === 'Backspace') return;
-            if (typing && k === 'Escape') { t.blur(); e.preventDefault(); return; }   // Esc leaves the search box first
+            if (typing && k === 'Escape') {   // Esc leaves the search box first (to the dialog, not <body>), or closes when it is empty
+                e.preventDefault();
+                if (!t.value) { hide(); return; }
+                t.value = ''; t.dispatchEvent(new Event('input', { bubbles: true })); box.focus(); return;
+            }
             var fn = state.keys && state.keys[k];
             if (fn) { e.preventDefault(); fn(); }
             else if (k === 'Escape') hide();
@@ -389,7 +393,11 @@
         else renderResult();
         // innerHTML dropped the focused control: keep focus in the dialog.
         if (modal && modal.style.display !== 'none' && !box.contains(document.activeElement)) {
-            var f = state.search || box.querySelector('button') || box;
+            // After an answer, Next (Enter/Space advance from there); on phones do
+            // not focus the search box on open (the keyboard would cover the list).
+            var coarse = window.matchMedia && matchMedia('(pointer: coarse)').matches;
+            var f = (state.screen === 'quiz' && state.chosen >= 0 && document.getElementById('lm-master-next'))
+                || (!coarse && state.search) || box.querySelector('button') || box;
             try { f.focus({ preventScroll: true }); } catch (_) {}
         }
     }

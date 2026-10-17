@@ -144,59 +144,57 @@
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', settle); else settle();
 
-    // Header menu / display-settings toggles are <label role="button"
-    // tabindex="0" for="checkbox">. A focused label does not activate on
-    // Enter or Space by itself, so announce-as-button without this would be a
-    // dead control for keyboard and screen-reader users. Also keep
-    // aria-expanded in step with the checkbox on every page.
-    function toggleFor(lb) {
-        var id = lb.getAttribute('for');
+    // Header menu / display-settings toggles: a real <button data-toggle=
+    // "checkbox-id"> drives a hidden checkbox, whose :checked state the CSS
+    // drawers key off. (They were <label role="button">, which a label may
+    // not carry — Lighthouse aria-allowed-role, rally review r4.) Keeps
+    // aria-expanded in step on every page, and Escape closes an open panel
+    // — namemap and timemap had no close-on-Esc of their own.
+    function toggleFor(b) {
+        var id = b.getAttribute('data-toggle');
         return id ? document.getElementById(id) : null;
     }
-    document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') { closeOpen(); return; }
-        if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
-        // A held key auto-repeats keydown; a native button fires once.
-        if (e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
-        var lb = e.target;
-        if (!lb || lb.tagName !== 'LABEL' || lb.getAttribute('role') !== 'button') return;
-        var cb = toggleFor(lb);
-        if (!cb) return;
-        e.preventDefault();
-        cb.click();
+    document.addEventListener('click', function (e) {
+        var b = e.target && e.target.closest && e.target.closest('button[data-toggle]');
+        if (!b) return;
+        var cb = toggleFor(b);
+        if (cb) cb.click();   // toggles and fires change
     });
-    // Escape closes an open menu/settings panel on every page (namemap and
-    // timemap had no close-on-Esc of their own) and returns focus to its
-    // button when focus was inside it.
+    // Something open on top of a drawer (a modal, the share sheet, the quiz)
+    // owns Escape: closing the drawer underneath would move focus behind it.
+    function overlayOpen() {
+        var els = document.querySelectorAll('[aria-modal="true"], #trivia-modal.visible, .mylang-overlay.open');
+        for (var i = 0; i < els.length; i++) if (els[i].getClientRects().length) return true;
+        return false;
+    }
     function closeOpen() {
-        var lbs = document.querySelectorAll('label[role="button"][for]');
-        for (var i = 0; i < lbs.length; i++) {
-            var cb = toggleFor(lbs[i]);
+        var closed = false;
+        var bs = document.querySelectorAll('button[data-toggle]');
+        for (var i = 0; i < bs.length; i++) {
+            var cb = toggleFor(bs[i]);
             if (!cb || cb.type !== 'checkbox' || !cb.checked) continue;
             cb.checked = false;
             cb.dispatchEvent(new Event('change', { bubbles: true }));
-            // Only when focus was inside the panel this button controls:
-            // its parent (the whole header bar / control column) is too wide.
-            var panel = document.getElementById(lbs[i].getAttribute('aria-controls') || '');
-            if (panel && panel.contains(document.activeElement)) lbs[i].focus();
+            closed = true;
+            // Back to the button only when focus was inside the panel it controls.
+            var panel = document.getElementById(bs[i].getAttribute('aria-controls') || '');
+            if (panel && panel.contains(document.activeElement)) bs[i].focus();
         }
+        return closed;
     }
-    function syncExpanded() {
-        var lbs = document.querySelectorAll('label[role="button"][for]');
-        for (var i = 0; i < lbs.length; i++) {
-            var cb = toggleFor(lbs[i]);
-            if (cb && cb.type === 'checkbox') lbs[i].setAttribute('aria-expanded', cb.checked ? 'true' : 'false');
-        }
-    }
-    // Clicking a label focuses its control, here a hidden aria-hidden
-    // checkbox: a tap would leave a screen reader focused on nothing.
-    // Hand focus back to the button.
-    document.addEventListener('focusin', function (e) {
-        var t = e.target;
-        if (!t || t.type !== 'checkbox' || t.getAttribute('aria-hidden') !== 'true' || !t.id) return;
-        var lb = document.querySelector('label[role="button"][for="' + t.id + '"]');
-        if (lb) lb.focus({ preventScroll: true });
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape' || e.defaultPrevented || overlayOpen()) return;
+        // One Escape, one layer: the page's own Escape handlers (language
+        // panel, compare panel) must not also run for this key press.
+        if (closeOpen()) e.stopImmediatePropagation();
     });
+    function syncExpanded() {
+        var bs = document.querySelectorAll('button[data-toggle]');
+        for (var i = 0; i < bs.length; i++) {
+            var cb = toggleFor(bs[i]);
+            if (cb && cb.type === 'checkbox') bs[i].setAttribute('aria-expanded', cb.checked ? 'true' : 'false');
+        }
+    }
     document.addEventListener('change', function (e) {
         if (e.target && e.target.type === 'checkbox') syncExpanded();
     });

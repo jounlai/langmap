@@ -284,14 +284,14 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=10"></script>
+    <script src="nav-short.js?v=11"></script>
 </head>
 <body>
 <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Language Family Tree</h1>
 <div class="site-header-bar">
     <a href="tree.html" class="logo">LangMap<span class="logo-badge logo-badge-tree" aria-label="Family tree" title="Family tree"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8H6M12 8h6M6 14v4M18 14v4"/></svg></span></a>
     <input type="checkbox" id="hdr-menu-toggle" class="hdr-menu-toggle" aria-label="Menu toggle" tabindex="-1" aria-hidden="true">
-    <label for="hdr-menu-toggle" class="hamburger-btn" role="button" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
+    <button type="button" class="hamburger-btn" data-toggle="hdr-menu-toggle" aria-expanded="false" aria-label="Menu" aria-controls="header-collapse"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
     <div class="header-collapse" id="header-collapse">
         <!-- Audit Task 124/161: nav default labels are English so the header
              renders correctly when JavaScript is disabled or before applyI18n()
@@ -322,7 +322,7 @@
 <script>
 (function () {
     const cb = document.getElementById('hdr-menu-toggle');
-    const btn = document.querySelector('label[for="hdr-menu-toggle"]');
+    const btn = document.querySelector('[data-toggle="hdr-menu-toggle"]');
     function syncAria() {
         if (cb && btn) btn.setAttribute('aria-expanded', cb.checked ? 'true' : 'false');
     }
@@ -1206,7 +1206,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
 })();
 </script>
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=1"></script>
+    <script src="share-button.js?v=2"></script>
     <script src="lang-picker.js?v=3"></script>
 </body>
 </html>

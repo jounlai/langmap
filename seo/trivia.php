@@ -222,6 +222,8 @@ function seo_tri_minimap(string $lat, string $lng, string $z, string $label, arr
     }
     if ($pins !== '') $svg = str_replace('</svg>', $pins . '</svg>', $svg);
 
+    // role="img" needs a name (axe svg-img-alt): the caption text.
+    $svg = preg_replace('~<svg\b(?![^>]*aria-label)~', '<svg aria-label="' . e(trim(strip_tags(html_entity_decode($label, ENT_QUOTES | ENT_HTML5, 'UTF-8')))) . '"', $svg, 1);
     return '<figure class="trivia-embed trivia-minimap">'
         . $svg
         . '<figcaption>' . $label . ' <a class="trivia-embed-more" href="' . e($href) . '">'
@@ -333,7 +335,7 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
         'altpath' => '/trivia/' . rawurlencode($id),
     ]);
     ?>
-<nav class="seo-crumbs" aria-label="Breadcrumb">
+<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>">
   <a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo;
   <a href="<?= e(seo_path($ui, 'trivia')) ?>"><?= e(seo_t($ui, 'tri_link')) ?></a> &rsaquo;
   <?= e($t['title']) ?>
@@ -403,7 +405,6 @@ function seo_render_trivia_article(array $data, array $byId, string $id, string 
   <a href="<?= e(seo_path($ui, 'hanmap')) ?>"><?= e(seo_t($ui, 'hm_link')) ?></a>
 </p>
 <?php
-    seo_lang_ui($ui, '/trivia/' . rawurlencode($id));
     seo_foot($ui);
 }
 
@@ -425,7 +426,7 @@ function seo_render_trivia_hub(array $data, array $byId, string $ui): void
         'altpath' => '/trivia/',
     ]);
     ?>
-<nav class="seo-crumbs" aria-label="Breadcrumb"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; <?= e(seo_t($ui, 'tri_link')) ?></nav>
+<nav class="seo-crumbs" aria-label="<?= e(seo_t($ui, 'crumbs')) ?>"><a href="<?= e(seo_path($ui, '')) ?>">LangMap</a> &rsaquo; <?= e(seo_t($ui, 'tri_link')) ?></nav>
 <header class="seo-hero">
   <h1><?= e(seo_t($ui, 'tri_link')) ?></h1>
   <p class="sub"><?= e(seo_t($ui, 'tri_hub_sub', ['n' => $n])) ?></p>
@@ -452,6 +453,5 @@ function seo_render_trivia_hub(array $data, array $byId, string $ui): void
 </section>
 <?php endforeach; ?>
 <?php
-    seo_lang_ui($ui, '/trivia/');
     seo_foot($ui);
 }

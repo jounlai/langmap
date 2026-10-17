@@ -46,6 +46,13 @@
         back.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100001;display:flex;align-items:center;justify-content:center;padding:20px;font-family:inherit';
         var box = document.createElement('div');
         box.style.cssText = 'background:#fff;border-radius:14px;padding:20px;max-width:340px;width:100%;box-shadow:0 12px 40px rgba(0,0,0,.3)';
+        box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true'); box.setAttribute('aria-label', L(SHARE));
+        // Escape closes this sheet only, not a drawer underneath it.
+        function onKey(e) {
+            if (e.key !== 'Escape' || !back.isConnected) { if (!back.isConnected) document.removeEventListener('keydown', onKey, true); return; }
+            e.stopImmediatePropagation(); back.remove(); document.removeEventListener('keydown', onKey, true);
+        }
+        document.addEventListener('keydown', onKey, true);
         box.innerHTML = '<div style="font-weight:700;font-size:15px;margin-bottom:14px">' + L(SHARE) + '</div>';
         var grid = document.createElement('div');
         grid.style.cssText = 'display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px';

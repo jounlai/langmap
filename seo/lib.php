@@ -807,6 +807,7 @@ const SEO_T = [
         'ex_prev' => 'Prev', 'ex_next' => 'Next', 'ex_page' => 'Page', 'ex_pick' => 'Sentence',
         'th_char' => 'Character', 'th_gloss' => 'Meaning', 'th_read' => 'Reading', 'th_form' => 'Form',
         'where' => 'Where it is spoken',
+        'crumbs' => 'Breadcrumb',
         'open_app' => 'Open {name} in the interactive map →',
         'goods_title' => 'Wear this language',
         'goods_sub' => 'See the design →',
@@ -868,6 +869,7 @@ const SEO_T = [
         'ex_prev' => '前へ', 'ex_next' => '次へ', 'ex_page' => 'ページ', 'ex_pick' => '文',
         'th_char' => '漢字', 'th_gloss' => '意味', 'th_read' => '発音区分', 'th_form' => '表記',
         'where' => '話される地域',
+        'crumbs' => 'パンくずリスト',
         'open_app' => '{name}をインタラクティブマップで開く →',
         'goods_title' => 'この言語を、着る。',
         'goods_sub' => 'デザインを見てみる →',
@@ -929,6 +931,7 @@ const SEO_T = [
         'ex_prev' => '이전', 'ex_next' => '다음', 'ex_page' => '페이지', 'ex_pick' => '문장',
         'th_char' => '한자', 'th_gloss' => '뜻', 'th_read' => '독음', 'th_form' => '표기',
         'where' => '사용 지역',
+        'crumbs' => '이동 경로',
         'open_app' => '인터랙티브 지도에서 {name} 열기 →',
         'goods_title' => '이 언어로 나만의 티셔츠를',
         'goods_sub' => '디자인 보기 →',
@@ -990,6 +993,7 @@ const SEO_T = [
         'ex_prev' => '上一页', 'ex_next' => '下一页', 'ex_page' => '页', 'ex_pick' => '句子',
         'th_char' => '汉字', 'th_gloss' => '含义', 'th_read' => '读音', 'th_form' => '写法',
         'where' => '使用地区',
+        'crumbs' => '导航路径',
         'open_app' => '在交互式地图中打开{name} →',
         'goods_title' => '把这门语言穿上身',
         'goods_sub' => '看看设计 →',
@@ -1051,6 +1055,7 @@ const SEO_T = [
         'ex_prev' => '上一頁', 'ex_next' => '下一頁', 'ex_page' => '頁', 'ex_pick' => '句子',
         'th_char' => '漢字', 'th_gloss' => '意思', 'th_read' => '讀音', 'th_form' => '寫法',
         'where' => '使用地區',
+        'crumbs' => '導覽路徑',
         'open_app' => '喺互動地圖打開{name} →',
         'goods_title' => '將呢種語言着上身',
         'goods_sub' => '睇吓設計 →',
@@ -1112,6 +1117,7 @@ const SEO_T = [
         'ex_prev' => 'Trước', 'ex_next' => 'Sau', 'ex_page' => 'Trang', 'ex_pick' => 'Câu',
         'th_char' => 'Chữ Hán', 'th_gloss' => 'Nghĩa', 'th_read' => 'Âm đọc', 'th_form' => 'Dạng viết',
         'where' => 'Nơi được sử dụng',
+        'crumbs' => 'Đường dẫn',
         'open_app' => 'Mở {name} trên bản đồ tương tác →',
         'goods_title' => 'Mặc ngôn ngữ này',
         'goods_sub' => 'Xem thiết kế →',
@@ -1173,6 +1179,7 @@ const SEO_T = [
         'ex_prev' => 'ก่อนหน้า', 'ex_next' => 'ถัดไป', 'ex_page' => 'หน้า', 'ex_pick' => 'ประโยค',
         'th_char' => 'อักษร', 'th_gloss' => 'ความหมาย', 'th_read' => 'การอ่าน', 'th_form' => 'รูปเขียน',
         'where' => 'พื้นที่ที่ใช้พูด',
+        'crumbs' => 'เส้นทางนำทาง',
         'open_app' => 'เปิด{name}ในแผนที่แบบโต้ตอบ →',
         'goods_title' => 'สวมภาษานี้',
         'goods_sub' => 'ดูแบบเสื้อ →',
@@ -1234,6 +1241,7 @@ const SEO_T = [
         'ex_prev' => 'Sebelumnya', 'ex_next' => 'Berikutnya', 'ex_page' => 'Halaman', 'ex_pick' => 'Kalimat',
         'th_char' => 'Aksara', 'th_gloss' => 'Arti', 'th_read' => 'Bacaan', 'th_form' => 'Bentuk',
         'where' => 'Tempat dituturkan',
+        'crumbs' => 'Jejak navigasi',
         'open_app' => 'Lihat {name} di peta interaktif →',
         'goods_title' => 'Kenakan bahasa ini',
         'goods_sub' => 'Lihat desainnya →',
@@ -1295,6 +1303,7 @@ const SEO_T = [
         'ex_prev' => 'पिछला', 'ex_next' => 'अगला', 'ex_page' => 'पृष्ठ', 'ex_pick' => 'वाक्य',
         'th_char' => 'अक्षर', 'th_gloss' => 'अर्थ', 'th_read' => 'उच्चारण', 'th_form' => 'रूप',
         'where' => 'कहाँ बोली जाती है',
+        'crumbs' => 'नेविगेशन पथ',
         'open_app' => '{name} को इंटरैक्टिव मानचित्र में खोलें →',
         'goods_title' => 'इस भाषा को पहनें',
         'goods_sub' => 'डिज़ाइन देखें →',
@@ -1356,6 +1365,7 @@ const SEO_T = [
         'ex_prev' => 'Zurück', 'ex_next' => 'Weiter', 'ex_page' => 'Seite', 'ex_pick' => 'Satz',
         'th_char' => 'Schriftzeichen', 'th_gloss' => 'Bedeutung', 'th_read' => 'Lesung', 'th_form' => 'Form',
         'where' => 'Wo die Sprache gesprochen wird',
+        'crumbs' => 'Brotkrümelnavigation',
         'open_app' => '{name} in der interaktiven Karte öffnen →',
         'goods_title' => 'Trag diese Sprache',
         'goods_sub' => 'Entwurf ansehen →',
@@ -1417,6 +1427,7 @@ const SEO_T = [
         'ex_prev' => 'Préc.', 'ex_next' => 'Suiv.', 'ex_page' => 'Page', 'ex_pick' => 'Phrase',
         'th_char' => 'Caractère', 'th_gloss' => 'Sens', 'th_read' => 'Lecture', 'th_form' => 'Forme',
         'where' => 'Où elle est parlée',
+        'crumbs' => 'Fil d’Ariane',
         'open_app' => 'Ouvrir {name} dans la carte interactive →',
         'goods_title' => 'Portez cette langue',
         'goods_sub' => 'Voir le design →',
@@ -1478,6 +1489,7 @@ const SEO_T = [
         'ex_prev' => 'Prec.', 'ex_next' => 'Succ.', 'ex_page' => 'Pagina', 'ex_pick' => 'Frase',
         'th_char' => 'Carattere', 'th_gloss' => 'Significato', 'th_read' => 'Lettura', 'th_form' => 'Forma',
         'where' => 'Dove si parla',
+        'crumbs' => 'Percorso di navigazione',
         'open_app' => 'Apri {name} sulla mappa interattiva →',
         'goods_title' => 'Indossa questa lingua',
         'goods_sub' => 'Guarda il design →',
@@ -1539,6 +1551,7 @@ const SEO_T = [
         'ex_prev' => 'Ant.', 'ex_next' => 'Sig.', 'ex_page' => 'Página', 'ex_pick' => 'Frase',
         'th_char' => 'Carácter', 'th_gloss' => 'Significado', 'th_read' => 'Lectura', 'th_form' => 'Forma',
         'where' => 'Dónde se habla',
+        'crumbs' => 'Ruta de navegación',
         'open_app' => 'Abrir {name} en el mapa interactivo →',
         'goods_title' => 'Ponte este idioma',
         'goods_sub' => 'Ver el diseño →',
@@ -1600,6 +1613,7 @@ const SEO_T = [
         'ex_prev' => 'Ant.', 'ex_next' => 'Próx.', 'ex_page' => 'Página', 'ex_pick' => 'Frase',
         'th_char' => 'Caractere', 'th_gloss' => 'Significado', 'th_read' => 'Leitura', 'th_form' => 'Forma',
         'where' => 'Onde é falada',
+        'crumbs' => 'Trilha de navegação',
         'open_app' => 'Ver {name} no mapa interativo →',
         'goods_title' => 'Vista este idioma',
         'goods_sub' => 'Ver o design →',
@@ -1661,6 +1675,7 @@ const SEO_T = [
         'ex_prev' => 'Назад', 'ex_next' => 'Вперёд', 'ex_page' => 'Страница', 'ex_pick' => 'Предложение',
         'th_char' => 'Иероглиф', 'th_gloss' => 'Значение', 'th_read' => 'Чтение', 'th_form' => 'Форма',
         'where' => 'Где на нём говорят',
+        'crumbs' => 'Навигационная цепочка',
         'open_app' => 'Открыть на интерактивной карте: {name} →',
         'goods_title' => 'Носи этот язык',
         'goods_sub' => 'Посмотреть дизайн →',
@@ -1722,6 +1737,7 @@ const SEO_T = [
         'ex_prev' => 'Назад', 'ex_next' => 'Далі', 'ex_page' => 'Сторінка', 'ex_pick' => 'Речення',
         'th_char' => 'Ієрогліф', 'th_gloss' => 'Значення', 'th_read' => 'Читання', 'th_form' => 'Форма',
         'where' => 'Де нею розмовляють',
+        'crumbs' => 'Навігаційний ланцюжок',
         'open_app' => 'Відкрити на інтерактивній карті: {name} →',
         'goods_title' => 'Носи цю мову',
         'goods_sub' => 'Переглянути дизайн →',
@@ -1783,6 +1799,7 @@ const SEO_T = [
         'ex_prev' => 'السابق', 'ex_next' => 'التالي', 'ex_page' => 'صفحة', 'ex_pick' => 'جملة',
         'th_char' => 'الحرف', 'th_gloss' => 'المعنى', 'th_read' => 'القراءة', 'th_form' => 'الشكل',
         'where' => 'أين تُستخدم؟',
+        'crumbs' => 'مسار التنقل',
         'open_app' => 'فتح {name} في الخريطة التفاعلية ←',
         'goods_title' => 'ارتدِ هذه اللغة',
         'goods_sub' => 'شاهد التصميم ←',
@@ -1844,6 +1861,7 @@ const SEO_T = [
         'ex_prev' => 'הקודם', 'ex_next' => 'הבא', 'ex_page' => 'עמוד', 'ex_pick' => 'משפט',
         'th_char' => 'תו', 'th_gloss' => 'משמעות', 'th_read' => 'קריאה', 'th_form' => 'צורה',
         'where' => 'היכן מדוברת',
+        'crumbs' => 'נתיב ניווט',
         'open_app' => 'לפתוח את {name} במפה האינטראקטיבית ←',
         'goods_title' => 'ללבוש את השפה הזאת',
         'goods_sub' => 'לראות את העיצוב ←',
@@ -1905,6 +1923,7 @@ const SEO_T = [
         'ex_prev' => 'Iliyotangulia', 'ex_next' => 'Inayofuata', 'ex_page' => 'Ukurasa', 'ex_pick' => 'Sentensi',
         'th_char' => 'Herufi', 'th_gloss' => 'Maana', 'th_read' => 'Usomaji', 'th_form' => 'Umbo',
         'where' => 'Maeneo inakozungumzwa',
+        'crumbs' => 'Njia ya urambazaji',
         'open_app' => 'Fungua {name} kwenye ramani shirikishi →',
         'goods_title' => 'Vaa lugha hii',
         'goods_sub' => 'Tazama muundo →',
@@ -3039,7 +3058,7 @@ function seo_404(string $msg = 'Page not found', string $ui = 'en'): void
  * Build a Leaflet embed (minimal, self-contained) centered on a coordinate.
  * Returns HTML. If coords are missing, returns an empty string.
  */
-function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5): string
+function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5, string $ui = 'en'): string
 {
     if ($lat === null || $lng === null) {
         return '';
@@ -3050,7 +3069,7 @@ function seo_map_embed(?float $lat, ?float $lng, string $label, int $zoom = 5): 
     $id = 'seo-map';
     // An attribute, so HTML-escaped (the JSON form above is for the script:
     // its quotes broke the attribute apart — rally review r3).
-    $attrLabel = e('Map: ' . $label);
+    $attrLabel = e(seo_t($ui, 'where') . ' — ' . $label);
     return <<<HTML
 <div class="seo-map-wrap">
   <div id="{$id}" class="seo-map" role="region" aria-label="{$attrLabel}"></div>
@@ -3467,8 +3486,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-sources a { color: var(--accent); }
 .seo-index-list { columns: 2 16rem; gap: 2rem; padding: 0; list-style: none; }
 .seo-index-list li { break-inside: avoid; margin: 0 0 .35rem; }
-.seo-index-list a { color: var(--accent); text-decoration: none; }
-.seo-index-list a:hover { text-decoration: underline; }
+.seo-index-list a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 .seo-index-list .code { color: var(--muted); font-size: .85rem; }
 /* Trivia ("読み物") pages: long-form prose, and the in-article map controls
    that seo/trivia.php turns from <button> into a label plus real links. */
@@ -3483,8 +3501,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .trivia-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.2em 0; }
 .trivia-note { display: inline-block; background: #fff8ec; border: 1px solid #f0dfc0;
   border-radius: .6rem; padding: .35rem .7rem; font-size: .92rem; color: #6b5533; }
-.trivia-note a { color: var(--accent); text-decoration: none; }
-.trivia-note a:hover { text-decoration: underline; }
+.trivia-note a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 
 /* In-article locator maps and comparison tables (seo_tri_minimap /
    seo_tri_compare). The buttons in the body are instructions — "compare these
@@ -3825,8 +3842,8 @@ function seo_lang_ui(string $ui, string $altPath): void
     var box = document.createElement('div');
     box.className = 'seo-langpop';
     box.setAttribute('role', 'dialog');
-    box.setAttribute('aria-live', 'polite');
-    var p = document.createElement('p'); p.textContent = text; box.appendChild(p);
+    box.setAttribute('aria-labelledby', 'seo-langpop-msg');   // axe aria-dialog-name
+    var p = document.createElement('p'); p.id = 'seo-langpop-msg'; p.textContent = text; box.appendChild(p);
     var btns = document.createElement('div'); btns.className = 'btns';
     var bSwitch = document.createElement('button');
     bSwitch.className = 'primary';

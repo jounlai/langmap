@@ -326,7 +326,7 @@
             .tm-panel.info-open ~ .tm-sheet-backdrop { display: block; position: fixed; inset: 0; z-index: 1350; background: rgba(0,0,0,0.35); }
         }
     </style>
-    <script src="nav-short.js?v=10"></script>
+    <script src="nav-short.js?v=11"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -337,7 +337,7 @@
             <svg class="icon-on"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9V3h6M21 9V3h-6M3 15v6h6M21 15v6h-6"/></svg>
             <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3v6H3M15 3v6h6M9 21v-6H3M15 21v-6h6"/></svg>
         </button>
-        <label for="hdr-menu-toggle" class="hamburger-btn" role="button" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
+        <button type="button" class="hamburger-btn" data-toggle="hdr-menu-toggle" aria-expanded="false" aria-label="Menu" aria-controls="header-collapse"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
         <div class="header-collapse" id="header-collapse">
             <nav class="header-nav">
                 <a href="index.html" class="header-nav-link" id="nav-order-label"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:2px" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="15" y2="12"/><line x1="3" y1="18" x2="18" y2="18"/></svg>Word Order</a>
@@ -539,12 +539,14 @@
         }
 
         function drawMarkers(){
-            // Removing a marker closes its popup, and popupclose clears openId;
-            // keep it so setDate / applyUILang can reopen the same popup.
-            const keep=openId;
-            Object.values(markers).forEach(m=>map.removeLayer(m));
-            openId=keep;
+            // The marker whose popup is open is kept and updated in place:
+            // rebuilding it cross-faded two popups on every date step (the
+            // popup vanished while Next was held) and autoPan yanked the map
+            // back to it (rally review r4).
+            const keep=openId, kept=keep && markers[keep];
+            Object.entries(markers).forEach(([id,m])=>{ if(m!==kept) map.removeLayer(m); });
             for(const k in markers) delete markers[k];
+            let keptUsed=false;
             const onMobile = window.matchMedia('(max-width: 780px)').matches;
             const padTL = onMobile ? L.point(16, 66) : L.point(PANEL_WIDTH + 16, 72);
             CALENDARS.forEach(cal=>{
@@ -556,6 +558,14 @@
                     +(r.tr ? '<span class="t tm-script" dir="auto">'+esc(r.tr)+'</span>' : '')
                     +'<span class="r tm-script" dir="auto">'+esc(ct(cal,'name'))+'</span></div>';
                 const icon=L.divIcon({ className:'tm-divicon', html, iconSize:[0,0], iconAnchor:[0,0] });
+                const label=ct(cal,'name')+' — '+r.native+(r.tr ? ' ('+r.tr+')' : '');
+                if(kept && cal.id===keep){
+                    kept.setIcon(icon); markers[cal.id]=kept; keptUsed=true;
+                    if(kept.getPopup()) kept.getPopup().update();   // content is a function of the date
+                    const kel=kept.getElement&&kept.getElement();
+                    if(kel) kel.setAttribute('aria-label', label);
+                    return;
+                }
                 const mk=L.marker([cal.lat, cal.lng], { icon, riseOnHover:true });
                 mk.bindPopup(()=>popupHtml(cal), { maxWidth: 280, autoPanPaddingTopLeft: padTL, autoPanPaddingBottomRight: L.point(24, 24) });
                 // Re-place labels: the open one goes first (relaxLabels), and
@@ -566,8 +576,11 @@
                 // Leaflet gives the marker role=button; a hidden (de-collided) label
                 // leaves it nameless, so name it explicitly (Lighthouse aria-command-name).
                 const mel=mk.getElement&&mk.getElement();
-                if(mel) mel.setAttribute('aria-label', ct(cal,'name')+' — '+r.native+(r.tr ? ' ('+r.tr+')' : ''));
+                if(mel) mel.setAttribute('aria-label', label);
             });
+            // The open calendar is not drawn at this date/era: drop it (its
+            // popupclose clears openId).
+            if(kept && !keptUsed) map.removeLayer(kept);
             requestAnimationFrame(relaxLabels);
         }
 
@@ -651,7 +664,7 @@
             dateStr=s; document.getElementById('tm-date').value=s;
             renderPanel(); drawMarkers();
             document.getElementById('tm-simple-date').textContent=s;
-            if(openId && markers[openId]) markers[openId].openPopup(); else if(openId){ openId=null; markActive(); }
+            if(openId && markers[openId]){ if(!markers[openId].isPopupOpen()) markers[openId].openPopup(); } else if(openId){ openId=null; markActive(); }
             if(!opts || opts.hash!==false) updateHash();
         }
 
@@ -683,7 +696,7 @@
                 for(let i=el.childNodes.length-1;i>=0;i--){ const n=el.childNodes[i]; if(n.nodeType===3 && n.textContent.trim()){ n.textContent=t(nav[id]); break; } }
             });
             renderPanel(); drawMarkers();
-            if(openId && markers[openId]) markers[openId].openPopup(); else if(openId){ openId=null; markActive(); }
+            if(openId && markers[openId]){ if(!markers[openId].isPopupOpen()) markers[openId].openPopup(); } else if(openId){ openId=null; markActive(); }
         }
         function setLang(lang){
             uiLang=lang; setCookie('wm_uilang', uiLang);
@@ -781,7 +794,7 @@
     })();
     </script>
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=1"></script>
+    <script src="share-button.js?v=2"></script>
     <script src="lang-picker.js?v=3"></script>
 </body>
 </html>

@@ -2816,7 +2816,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=10"></script>
+    <script src="nav-short.js?v=11"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
@@ -2828,7 +2828,7 @@
             <svg class="icon-on"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9V3h6M21 9V3h-6M3 15v6h6M21 15v6h-6"/></svg>
             <svg class="icon-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3v6H3M15 3v6h6M9 21v-6H3M15 21v-6h6"/></svg>
         </button>
-        <label for="hdr-menu-toggle" class="hamburger-btn" role="button" aria-label="Menu" aria-controls="header-collapse" tabindex="0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
+        <button type="button" class="hamburger-btn" data-toggle="hdr-menu-toggle" aria-expanded="false" aria-label="Menu" aria-controls="header-collapse"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></button>
         <div class="header-collapse" id="header-collapse">
             <nav class="header-nav">
                 <!-- Audit Task 124: nav default label is English so the header
@@ -3053,7 +3053,7 @@
              drawer the same way as before; only the visual layout moved
              from floating FAB to inline button-stack member. -->
         <input type="checkbox" id="settings-toggle" class="settings-toggle" aria-label="Display settings toggle" tabindex="-1" aria-hidden="true">
-        <label for="settings-toggle" class="settings-fab" role="button" aria-label="Display settings" aria-controls="right-secondary" tabindex="0"><svg class="settings-fab-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></label>
+        <button type="button" class="settings-fab" data-toggle="settings-toggle" aria-expanded="false" aria-label="Display settings" aria-controls="right-secondary"><svg class="settings-fab-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
         <div style="height:8px" class="ctrl-spacer"></div>
         <div class="right-secondary-controls" id="right-secondary">
             <button class="toggle-btn active" id="toggle-word" aria-pressed="true" aria-label="Toggle form display"><span class="label">Form</span><span class="onoff">ON</span></button>
@@ -3115,7 +3115,7 @@
             { toggle: 'settings-toggle', drawer: 'right-secondary', btnClass: 'settings-fab' },
         ];
         function syncAria(cb, btnClass) {
-            const btn = document.querySelector('label[for="' + cb.id + '"]');
+            const btn = document.querySelector('[data-toggle="' + cb.id + '"]');
             if (btn) btn.setAttribute('aria-expanded', cb.checked ? 'true' : 'false');
         }
         for (const { toggle, btnClass } of drawers) {
@@ -8782,10 +8782,19 @@
             // Restore open trivia article from URL (?trivia=<id>). Deferred
             // so the trivia setup block at the end of the IIFE has run.
             const triviaId = params.get('trivia');
+            if (!triviaId) {
+                // Back from an article to the plain map: close the modal too,
+                // or its next updateHash writes trivia= back into the entry.
+                const tm = document.getElementById('trivia-modal');
+                if (tm && tm.classList.contains('visible') && typeof closeTrivia === 'function') closeTrivia();
+            }
             if (triviaId) {
                 setTimeout(() => {
                     if (typeof window.openTrivia === 'function') {
-                        window.openTrivia(triviaId);
+                        // fromHash: the URL already says this, so replace
+                        // rather than push — pushing here re-added the entry
+                        // on every Back and trapped the reader in the article.
+                        window.openTrivia(triviaId, { fromHash: true });
                     }
                 }, 150);
             }
@@ -12026,7 +12035,8 @@
             // Remove any lingering panto label (2D marker AND 3D globe element).
             try { _clearPantoLabel(); } catch (_) {}
         }
-        function openTrivia(id) {
+        function openTrivia(id, opts) {
+            const fromHash = !!(opts && opts.fromHash);
             // The articles are lazy (loadHanTrivia above). If the reader beats
             // the idle fetch — or arrives on a #trivia=<id> deep link — pull
             // them now and re-enter.
@@ -12036,9 +12046,10 @@
                 // One pending open: a second click while waiting just
                 // retargets it (two chains meant two renders and two
                 // history entries).
-                _triviaPendingOpen = id;   // may be undefined (= the index)
+                _triviaPendingOpen = { id, fromHash };   // id undefined = the index
                 if (_triviaOpenWaiting) return;
                 _triviaOpenWaiting = true;
+                const infoWas = !!document.querySelector('#lang-info.visible');
                 loadHanTrivia().then(() => {
                     if (!_hanTriviaLoaded) return;
                     const wait = loadHanTriviaBodies(String(uiLang || 'en').split('_')[0]);
@@ -12046,12 +12057,22 @@
                 }).then(() => {
                     const want = _triviaPendingOpen;
                     _triviaOpenWaiting = false;
-                    if (_hanTriviaLoaded) openTrivia(want);
+                    _triviaPendingOpen = undefined;
+                    // Cancelled (Escape while waiting), or the reader moved on
+                    // and opened a language panel meanwhile: do not pop up
+                    // seconds later over what they are looking at.
+                    if (!want || !_hanTriviaLoaded) return;
+                    if (!infoWas && document.querySelector('#lang-info.visible')) return;
+                    openTrivia(want.id, { fromHash: want.fromHash });
                 });
                 return;
             }
             const list = window.TRIVIA_ARTICLES || [];
             if (!list.length) return;
+            // popstate and hashchange both fire on Back: the second is a no-op.
+            const _tmNow = document.getElementById('trivia-modal');
+            if (fromHash && _tmNow && _tmNow.classList.contains('visible')
+                && (_tmNow.dataset.articleId || 'index') === (id || 'index')) return;
             // Bodies for the current uiLang: if still in flight the article
             // renders in English and is redrawn when they land.
             if (typeof loadTriviaI18nFor === 'function') loadTriviaI18nFor(uiLang);
@@ -12082,7 +12103,7 @@
                 requestAnimationFrame(() => { _scrollOpen.scrollTop = 0; });
             }
             setTimeout(() => modal.focus(), 0);
-            if (typeof updateHash === 'function') updateHash({ push: true });
+            if (typeof updateHash === 'function') updateHash(fromHash ? undefined : { push: true });
         }
         function navigateTrivia(id) {
             const modal = document.getElementById('trivia-modal');
@@ -12475,6 +12496,10 @@
         if (_triviaNavIndex) _triviaNavIndex.addEventListener('click', () => backToTriviaIndex());
         const _triviaOpenBtn = document.getElementById('trivia-open');
         if (_triviaOpenBtn) _triviaOpenBtn.addEventListener('click', () => openTrivia());
+        // Escape while a cold open is still waiting on the download cancels it.
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && _triviaOpenWaiting) _triviaPendingOpen = undefined;
+        });
         const _triviaCloseBtn = document.getElementById('trivia-close');
         if (_triviaCloseBtn) _triviaCloseBtn.addEventListener('click', closeTrivia);
         const _triviaBackdrop = document.getElementById('trivia-backdrop');
@@ -12631,6 +12656,7 @@
             modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px;font-family:inherit');
             const box = el('div', 'background:#fff;border-radius:14px;max-width:440px;width:100%;height:min(94vh,670px);overflow:hidden;padding:20px 22px;box-shadow:0 10px 32px rgba(0,0,0,.2);display:flex;flex-direction:column');
             box.id = 'lm-hquiz-box';
+            box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true');
             modal.appendChild(box);
             // Keyboard, as in Language Master: 1–N answer, Space/Enter next, Esc closes.
             document.addEventListener('keydown', e => {
@@ -12913,7 +12939,7 @@
         else start();
     })();
     </script>
-    <script src="share-button.js?v=1"></script>
+    <script src="share-button.js?v=2"></script>
     <script src="lang-picker.js?v=3"></script>
 </body>
 </html>

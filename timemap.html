@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=140">
+    <link rel="stylesheet" href="styles.css?v=141">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=12"></script>
+    <script src="nav-short.js?v=13"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -372,7 +372,7 @@
                     <input type="date" id="tm-date" min="0001-01-01" max="9999-12-31" aria-label="Date">
                     <button type="button" class="tm-step-btn" id="tm-next" aria-label="Next day" title="Next day">›</button>
                     <button type="button" class="tm-today-btn" id="tm-today">Today</button>
-                    <button type="button" class="tm-details-btn" id="tm-details-btn" title="Details" aria-label="Details"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><line x1="12" y1="7.6" x2="12.01" y2="7.6"/></svg></button>
+                    <button type="button" class="tm-details-btn" id="tm-details-btn" title="Details" aria-label="Details" aria-expanded="false" aria-controls="tm-info"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><line x1="12" y1="7.6" x2="12.01" y2="7.6"/></svg></button>
                 </div>
                 <div class="tm-era-row">
                     <div class="radio-switch" id="tm-era" role="radiogroup" aria-label="Era (modern / historical)">
@@ -546,6 +546,21 @@
             return h;
         }
 
+        // The popup's top-left autoPan padding, measured now: the mobile date bar
+        // (to #tm-era's bottom) or, in simple display, the floating date, and no
+        // side panel when it is hidden. A fixed (16,66) left the popup's title and
+        // close button under the mobile date controls (rally r6).
+        function fitPopupPad(pp){
+            if(!pp) return;
+            const mob=window.matchMedia('(max-width: 780px)').matches, simple=document.body.classList.contains('chrome-hidden');
+            const mapTop=document.getElementById('map').getBoundingClientRect().top;
+            const below=sel=>{ const el=document.querySelector(sel); const r=el&&el.getClientRects().length&&el.getBoundingClientRect(); return r ? Math.max(0, r.bottom-mapTop)+8 : 0; };
+            const top=Math.max(simple ? below('#tm-simple-date') : (mob ? below('#tm-era') : 0), mob ? 16 : 72);
+            const left=(!mob && !simple) ? PANEL_WIDTH+16 : 16;
+            const was=pp.options.autoPanPaddingTopLeft;
+            pp.options.autoPanPaddingTopLeft=L.point(left, top);
+            if(!was || was.x!==left || was.y!==top) pp.update();   // re-pan with the right padding
+        }
         function drawMarkers(){
             // The marker whose popup is open is kept and updated in place:
             // rebuilding it cross-faded two popups on every date step (the
@@ -583,7 +598,7 @@
                 mk.bindPopup(()=>popupHtml(cal), { maxWidth: 280, autoPanPaddingTopLeft: padTL, autoPanPaddingBottomRight: L.point(24, 24) });
                 // Re-place labels: the open one goes first (relaxLabels), and
                 // on close the others get their spots back.
-                mk.on('popupopen', ()=>{ openId=cal.id; markActive(); requestAnimationFrame(relaxLabels); });
+                mk.on('popupopen', e=>{ openId=cal.id; markActive(); requestAnimationFrame(relaxLabels); fitPopupPad(e.popup); });
                 mk.on('popupclose', ()=>{ if(openId===cal.id){ openId=null; markActive(); requestAnimationFrame(relaxLabels); } });
                 mk.addTo(map); markers[cal.id]=mk;
                 // Leaflet gives the marker role=button; a hidden (de-collided) label
@@ -640,7 +655,8 @@
                 let s='<div class="tm-section-h">'+esc(head)+'</div>'+(sub?'<div class="tm-section-sub">'+esc(sub)+'</div>':'');
                 CALENDARS.filter(pick).forEach(cal=>{
                     const r=dateOf(cal);
-                    s+='<div class="tm-row'+(r?'':' is-none')+(st==='historical'?' is-hist':'')+'" data-id="'+cal.id+'">'
+                    // A button in all but name: reachable by Tab, Enter/Space opens it.
+                    s+='<div class="tm-row'+(r?'':' is-none')+(st==='historical'?' is-hist':'')+'" data-id="'+cal.id+'" role="button" tabindex="0">'
                       +'<span class="dot '+dotCls+'"></span><div class="tm-row-main">'
                       +'<div class="tm-row-name" dir="auto">'+esc(ct(cal,'name'))+' · '+esc(ct(cal,'region'))+'</div>'
                       +'<div class="tm-row-date tm-script" dir="auto">'+esc(r?r.native:t('notYet'))+'</div>'
@@ -655,7 +671,10 @@
             h+=sec('historical', t('hHist'), t('subHist'), 'tm-dot-hist');
             h+=sec('gregorian', t('hGreg'), t('subGreg'), 'tm-dot-greg');
             const body=document.getElementById('tm-info-body'); body.innerHTML=h;
-            body.querySelectorAll('.tm-row').forEach(row=>row.addEventListener('click', ()=>focusCal(row.getAttribute('data-id'))));
+            body.querySelectorAll('.tm-row').forEach(row=>{
+                row.addEventListener('click', ()=>focusCal(row.getAttribute('data-id')));
+                row.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); focusCal(row.getAttribute('data-id')); } });
+            });
             markActive();
         }
         function markActive(){
@@ -682,8 +701,20 @@
         }
 
         /* ---------- Mobile sheet + chrome toggle ---------- */
-        function openInfoSheet(){ document.getElementById('tm-panel').classList.add('info-open'); }
-        function closeInfoSheet(){ document.getElementById('tm-panel').classList.remove('info-open'); }
+        // Mobile details sheet: aria-expanded on its button, focus into it,
+        // Escape closes it and focus goes back to the button.
+        function openInfoSheet(){
+            document.getElementById('tm-panel').classList.add('info-open');
+            const db=document.getElementById('tm-details-btn'); db.setAttribute('aria-expanded','true');
+            const c=document.getElementById('tm-info-close'); if(c) setTimeout(()=>c.focus(),0);
+        }
+        function closeInfoSheet(){
+            const p=document.getElementById('tm-panel'), was=p.classList.contains('info-open');
+            p.classList.remove('info-open');
+            const db=document.getElementById('tm-details-btn'); db.setAttribute('aria-expanded','false');
+            if(was && db.getClientRects().length) db.focus();
+        }
+        document.addEventListener('keydown', e=>{ if(e.key==='Escape' && document.getElementById('tm-panel').classList.contains('info-open')){ e.stopImmediatePropagation(); closeInfoSheet(); } }, true);
         function placeChromeToggle(){
             const btn=document.getElementById('chrome-toggle'), ctl=document.getElementById('tm-map-ctl');
             const header=document.querySelector('.site-header-bar'), hamburger=document.querySelector('.hamburger-btn');
@@ -808,6 +839,6 @@
     </script>
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=3"></script>
-    <script src="lang-picker.js?v=3"></script>
+    <script src="lang-picker.js?v=4"></script>
 </body>
 </html>

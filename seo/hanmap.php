@@ -167,6 +167,10 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
       $readings = array_values(array_filter($readings, fn($r) =>
           ($r['surface'] ?? '') !== '' || ($r['ipa'] ?? '') !== '' || ($r['native'] ?? '') !== ''));
       if (!$readings) continue;
+      // Beside a native-script form the surface is its romanization: same
+      // language, Latin script (ja-Latn …). Vietnamese quốc ngữ is plain vi,
+      // which the cell already says. (It was lang="vi" on every row.)
+      $romLang = (function (string $t): string { return ($t === '' || $t === 'vi') ? '' : $t . '-Latn'; })(seo_lang_attr($code));
       $n = count($readings);
       $multi = $n > 1;
       foreach ($readings as $i => $r):
@@ -179,7 +183,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
         <td class="c-gloss" rowspan="<?= $n ?>"><?= e($c['gloss'] ?? '') ?></td>
         <?php endif; ?>
         <td class="c-read"><?php if ($multi && $label !== ''): ?><span class="rlabel"><?= e($label) ?></span><?php endif; ?></td>
-        <td class="c-form" lang="<?= e(seo_lang_attr($code)) ?>"><?php if ($native !== ''): ?><span class="c-native"><?= e($native) ?></span><?php endif; ?><?php if ($surface !== ''): ?><span class="c-rom"<?= $native !== '' ? ' lang="vi"' : '' ?>><?= e($surface) ?></span><?php endif; ?></td>
+        <td class="c-form" lang="<?= e(seo_lang_attr($code)) ?>"><?php if ($native !== ''): ?><span class="c-native"><?= e($native) ?></span><?php endif; ?><?php if ($surface !== ''): ?><span class="c-rom"<?= ($native !== '' && $romLang !== '') ? ' lang="' . e($romLang) . '"' : '' ?>><?= e($surface) ?></span><?php endif; ?></td>
         <td class="c-ipa"><?= $ipa !== '' ? '/' . e($ipa) . '/' : '' ?></td>
       </tr>
       <?php endforeach; ?>

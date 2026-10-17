@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=140">
+    <link rel="stylesheet" href="styles.css?v=141">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -3033,7 +3033,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=12"></script>
+    <script src="nav-short.js?v=13"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
@@ -3427,6 +3427,7 @@
             if (rc) new ResizeObserver(positionSettingsDrawer).observe(rc);
         }
         document.addEventListener('click', (e) => {
+            if (e.target && e.target.closest && e.target.closest('[aria-modal="true"]')) return;   // a dialog on top (share sheet) is not 'outside'
             for (const { toggle, drawer, btnClass } of drawers) {
                 const cb = document.getElementById(toggle);
                 if (!cb || !cb.checked) continue;
@@ -3727,7 +3728,7 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   140,
+            styles:   141,
             data:      342,
             metaI18n:  16,
             filter:    46,
@@ -12138,7 +12139,7 @@
 
     <script src="/pwa.js?v=2"></script>
     <script src="share-button.js?v=3"></script>
-    <script src="lang-picker.js?v=3"></script>
+    <script src="lang-picker.js?v=4"></script>
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>

@@ -31,6 +31,9 @@ const ROOT = path.join(__dirname, '..');
 const SRC = path.join(ROOT, 'hanmap_trivia.js');
 const OUT = path.join(ROOT, 'hanmap_trivia_rt');
 const INLINE = new Set(['en']);
+// Pre-compressed siblings build_br.js owns (its FILES list). Any other .br
+// here is stale: nginx brotli_static would serve it in place of the fresh file.
+const BR_OWNED = new Set(['base.js.br']);
 
 function build() {
     const text = fs.readFileSync(SRC, 'utf8');
@@ -75,16 +78,16 @@ if (process.argv.includes('--check')) {
         const p = path.join(OUT, f);
         if (!fs.existsSync(p) || fs.readFileSync(p, 'utf8') !== s) stale.push(f);
     }
-    const extra = fs.existsSync(OUT) ? fs.readdirSync(OUT).filter((f) => !(f in files) && !f.endsWith('.br')) : [];
+    const extra = fs.existsSync(OUT) ? fs.readdirSync(OUT).filter((f) => !(f in files) && !BR_OWNED.has(f)) : [];
     if (stale.length || extra.length) {
         console.log('hanmap_trivia_rt/ is stale: ' + stale.concat(extra.map((f) => f + ' (orphan)')).join(', '));
-        console.log('fix: node tools/build_hanmap_trivia_rt.js && node tools/page_asset_version_check.js --bump');
+        console.log('fix: node tools/build_hanmap_trivia_rt.js && node tools/page_asset_version_check.js --bump && node tools/build_br.js');
     }
     console.log('stale: ' + (stale.length + extra.length));
 } else {
     fs.mkdirSync(OUT, { recursive: true });
     // base.js.br is build_br.js's, not an orphan.
-    for (const f of fs.readdirSync(OUT)) if (!(f in files) && !f.endsWith('.br')) fs.unlinkSync(path.join(OUT, f));
+    for (const f of fs.readdirSync(OUT)) if (!(f in files) && !BR_OWNED.has(f)) fs.unlinkSync(path.join(OUT, f));
     for (const [f, s] of Object.entries(files)) fs.writeFileSync(path.join(OUT, f), s);
     console.log('wrote ' + Object.keys(files).length + ' files to hanmap_trivia_rt/');
 }

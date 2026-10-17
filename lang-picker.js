@@ -88,6 +88,8 @@
         }
 
         function sync() {
+            // The page relabels the select on a language change; follow it.
+            var a = sel.getAttribute('aria-label'); if (a) btn.setAttribute('aria-label', a);
             code.textContent = (sel.value || 'en').toUpperCase();
             label.textContent = labelFor(sel.value);
             Array.prototype.forEach.call(menu.children, function (it) {
@@ -102,7 +104,13 @@
             if (menu.classList.contains('open')) close(); else open();
         });
         document.addEventListener('click', function (e) { if (!wrap.contains(e.target)) close(); });
-        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+        document.addEventListener('keydown', function (e) {
+            if (e.key !== 'Escape' || !menu.classList.contains('open')) return;
+            // Focus was on an item that is about to be hidden: back to the button.
+            var had = menu.contains(document.activeElement);
+            close();
+            if (had) btn.focus();
+        });
         // Keep the shown code in step with programmatic / external language changes.
         sel.addEventListener('change', sync);
         window.addEventListener('langmap:uichange', sync);

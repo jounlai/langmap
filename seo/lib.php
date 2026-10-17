@@ -3263,7 +3263,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-meta { display: flex; flex-wrap: wrap; gap: .5rem .75rem; margin: 1rem 0 1.5rem; }
 .seo-meta .chip { background: var(--card); border: 1px solid var(--line);
   border-radius: 999px; padding: .3rem .85rem; font-size: .95rem; }
-.seo-meta .chip b { color: var(--muted); font-weight: 600; margin-right: .35rem; }
+.seo-meta .chip b { color: var(--muted); font-weight: 600; margin-inline-end: .35rem; }
 .seo-desc { font-size: 1.15rem; max-width: 50rem; margin: 0 0 2rem; }
 /* --- word page: one card per language group ------------------------------
    Grid, and NOT CSS columns. Columns were tried and had to be undone: they
@@ -3320,17 +3320,17 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   /* Gap on the RIGHT, not between the flag and its own name: the space that
      was missing is the one between a name and the NEXT language's flag, which
      ran them together into one run of text. */
-  margin-right: .7em; }
-.wcard-where a:last-child { margin-right: 0; }
+  margin-inline-end: .7em; }
+.wcard-where a:last-child { margin-inline-end: 0; }
 .wcard-where a:hover, .wcard-where a:focus-visible { color: var(--fg); text-decoration: none;
   box-shadow: 0 1px 0 currentColor; }
 /* Flags are SVG files, not emoji — emoji flags do not render on Windows. The
    1px ring keeps a white flag (Japan) from dissolving into a white card. */
 .fl { width: 1.3em; height: auto; aspect-ratio: 4 / 3; object-fit: cover;
   border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,.14); vertical-align: -.18em;
-  margin-right: .38em; flex: 0 0 auto; }
+  margin-inline-end: .38em; flex: 0 0 auto; }
 .wcard-lang { display: flex; align-items: baseline; }
-.wcard-lang .fl { margin-right: .45em; }
+.wcard-lang .fl { margin-inline-end: .45em; }
 .wcard-lang a { min-width: 0; overflow-wrap: anywhere; }
 
 /* "35 readings of the same spelling" — the variation stated, then unfolded on
@@ -3363,7 +3363,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    Either way every reading in a card is treated the same. */
 .wcard-read { margin: .3rem 0 0; }
 .wcard-read + .wcard-read { margin-top: .4rem; }
-.wcard-form.is-multi .wcard-read { padding-left: .55rem; border-left: 2px solid var(--line); }
+.wcard-form.is-multi .wcard-read { padding-inline-start: .55rem; border-inline-start: 2px solid var(--line); }
 
 /* A card with 35 pronunciations in it unfolds to a few thousand pixels and
    leaves its grid neighbours staring at empty space. Capping the panel keeps
@@ -3389,6 +3389,9 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   .wgrid { display: block; columns: 3 auto; column-gap: 1rem; }
   .wcard { break-inside: avoid; border: 0; padding: 0 0 .5rem; background: none; }
   .seo-applink, .seo-goods, .seo-goods-peek, .seo-otherwords { display: none; }
+  /* Screen-only controls; and every page of a paginated comparison prints. */
+  .seo-langpop, .seo-langbar, .ex-nav, .ex-wo-select, .ex-prev, .ex-next, .leaflet-control-container { display: none !important; }
+  .cmp-page[hidden] { display: table-row !important; }
   a { color: inherit; text-decoration: none; }
   .fl { box-shadow: none; }
 }
@@ -3399,7 +3402,7 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 .seo-region > summary { list-style: none; cursor: pointer; }
 .seo-region > summary::-webkit-details-marker { display: none; }
 .seo-region > summary h2 { display: inline-block; width: calc(100% - 1.4em); }
-.seo-region > summary::after { content: '\25BE'; float: right; color: var(--muted);
+.seo-region > summary::after { content: '\25BE'; float: inline-end; color: var(--muted);
   font-size: 1.2rem; margin-top: 2.9rem; transition: transform .15s; }
 .seo-region[open] > summary::after { transform: rotate(180deg); }
 .seo-region > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -3407,7 +3410,8 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
    character table alone is ~190 rows. Biggest single cut to load-time layout
    work (Lighthouse TBT, 2026-10-16). The intrinsic size is a placeholder that
    the browser replaces with the real height once a section has rendered. */
-.seo-section, .seo-ex, .seo-related { content-visibility: auto; contain-intrinsic-size: auto 600px; }
+.seo-section, .seo-ex, .seo-related { content-visibility: auto; contain-intrinsic-size: auto 600px;
+  overflow-clip-margin: 6px; } /* paint containment would clip focus rings at the edge */
 /* Collapsed regions (~100px) and the nav gain nothing from it, and a 1500px
    placeholder for each made the scrollbar 4x too long (rally review r2). */
 details.seo-region, nav.seo-section { content-visibility: visible; contain-intrinsic-size: none; }
@@ -3443,7 +3447,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 /* Han-character readings as an aligned dictionary table (文白異讀 / 呉音漢音 etc.). */
 .seo-chartable-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0; }
 .seo-chartable { width: 100%; border-collapse: collapse; font-size: 1rem; }
-.seo-chartable thead th { text-align: left; font-size: .8rem; font-weight: 600;
+.seo-chartable thead th { text-align: start; font-size: .8rem; font-weight: 600;
   text-transform: uppercase; letter-spacing: .04em; color: var(--muted);
   padding: .5rem .85rem; border-bottom: 2px solid var(--line); white-space: nowrap; }
 .seo-chartable thead th.c-char { text-align: center; }
@@ -3484,7 +3488,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 }
 .seo-map-wrap { margin: 1rem 0 2rem; }
 .seo-map { height: 360px; border-radius: .7rem; border: 1px solid var(--line); }
-.seo-sources { font-size: .95rem; padding-left: 1.2rem; }
+.seo-sources { font-size: .95rem; padding-inline-start: 1.2rem; }
 .seo-sources li { margin: 0 0 .5rem; } /* 24px between adjacent links (target-size) */
 .seo-sources a { color: var(--accent); }
 .seo-index-list { columns: 2 16rem; gap: 2rem; padding: 0; list-style: none; }
@@ -3537,7 +3541,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .trivia-table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .trivia-compare table { border-collapse: collapse; width: 100%; font-size: .95rem; }
 .trivia-compare th, .trivia-compare td { border: 1px solid var(--line);
-  padding: .45rem .7rem; text-align: left; vertical-align: top; }
+  padding: .45rem .7rem; text-align: start; vertical-align: top; }
 .trivia-compare thead th { background: var(--card); font-size: .85rem;
   color: var(--muted); font-weight: 600; white-space: nowrap; }
 .trivia-compare tbody th { font-weight: 600; white-space: nowrap; }
@@ -3659,7 +3663,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
   font-family: "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
 .seo-ex .ex-h .hr { font-size: .85rem; margin: .15rem 0 0; line-height: 1.3; }
 .seo-ex .ex-h .hr .rl { display: inline-block; font-size: .62rem; color: var(--muted);
-  border: 1px solid var(--line); border-radius: .4rem; padding: 0 .3rem; margin-right: .3rem; }
+  border: 1px solid var(--line); border-radius: .4rem; padding: 0 .3rem; margin-inline-end: .3rem; }
 .seo-ex .ex-h .hr .hf { font-family: "Gentium Plus", "Noto Serif", serif; }
 .seo-ex .ex-h .hr .hi { color: var(--accent); }
 .seo-ex .ex-wo-pick { margin: 0 0 .9rem; }
@@ -3677,13 +3681,13 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 .seo-cmp-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0; }
 .seo-cmp-tbl { border-collapse: collapse; font-size: 1rem; min-width: 100%; }
 .seo-cmp-tbl th, .seo-cmp-tbl td { padding: .5rem .7rem; border-bottom: 1px solid var(--line);
-  vertical-align: top; text-align: left; }
+  vertical-align: top; text-align: start; }
 .seo-cmp-tbl thead th { font-size: .85rem; font-weight: 600; color: var(--muted);
   border-bottom: 2px solid var(--line); white-space: nowrap; vertical-align: bottom; }
 .seo-cmp-tbl thead th a { color: var(--accent); text-decoration: none; }
 .seo-cmp-tbl thead th a:hover { text-decoration: underline; }
 .seo-cmp-tbl th.cmp-rowhead { color: var(--muted); font-weight: 600; font-size: .85rem;
-  white-space: nowrap; position: sticky; left: 0; background: var(--bg); z-index: 1; }
+  white-space: nowrap; position: sticky; inset-inline-start: 0; background: var(--bg); z-index: 1; }
 .seo-cmp-tbl th.cmp-rowhead .cmp-char { font-size: 1.5rem; line-height: 1;
   font-family: "Noto Serif SC", "Noto Serif TC", "Noto Serif JP", "Noto Serif KR", serif; }
 /* Anchor (current language) column / header highlight. */
@@ -3695,7 +3699,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
     "Noto Serif TC", "Noto Serif KR", Georgia, serif; }
 .seo-cmp-tbl td .cmp-ipa { display: block; color: var(--accent); font-size: .85rem; }
 .seo-cmp-tbl td .cmp-rl { font-size: .62rem; color: var(--muted); border: 1px solid var(--line);
-  border-radius: .4rem; padding: 0 .3rem; margin-right: .25rem; }
+  border-radius: .4rem; padding: 0 .3rem; margin-inline-end: .25rem; }
 /* One reading per line. A cell can hold two (白讀 la̍k /laʔ˨˦/ and 文讀 lo̍k
    /lɔʔ˨˦/ for Min Bei 六), and .cmp-rd is a <span>, so the margin below was
    being dropped and the two readings ran together as one string. */
@@ -3730,7 +3734,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
     gap: .5rem .8rem; }
   .seo-cmp-wo .cmp-wo-name { font-size: .82rem; }
   .seo-cmp-wo .cmp-wo-segs { white-space: nowrap; }
-  .seo-cmp-wo .cmp-wo-segs .wo-seg { margin-right: .7rem; margin-bottom: 0; font-size: 1.05rem; }
+  .seo-cmp-wo .cmp-wo-segs .wo-seg { margin-inline-end: .7rem; margin-bottom: 0; font-size: 1.05rem; }
 }
 </style>
 <?php /* Production-only GA4 firing: hostname-gated so dev/local/staging traffic
@@ -3850,6 +3854,7 @@ function seo_lang_ui(string $ui, string $altPath): void
     box.setAttribute('role', 'alertdialog');
     box.setAttribute('aria-labelledby', 'seo-langpop-msg');   // axe aria-dialog-name
     box.setAttribute('lang', targetUi);
+    box.setAttribute('dir', (targetUi === 'ar' || targetUi === 'he') ? 'rtl' : 'ltr');
     var p = document.createElement('p'); p.id = 'seo-langpop-msg'; p.textContent = text; box.appendChild(p);
     var btns = document.createElement('div'); btns.className = 'btns';
     var bSwitch = document.createElement('button');
@@ -4701,6 +4706,8 @@ function seo_comparisons(string $map, string $code, string $ui,
     var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(drawAll, 150); });
     // Redraw once webfonts settle (segment widths shift the connector anchors).
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(drawAll);
+    // Fonts that arrive after .ready (slow network) move the segments too.
+    if (document.fonts && document.fonts.addEventListener) document.fonts.addEventListener('loadingdone', drawAll);
   });
 })();
 </script>

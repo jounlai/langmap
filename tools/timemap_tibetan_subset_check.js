@@ -106,6 +106,12 @@ for (const f of files) {
         const c = ch.codePointAt(0);
         if (!used.has(c)) used.set(c, f);
     }
+    // \u{F40} escapes and HTML references (&#xF40; / &#3904;) too.
+    for (const m of s.matchAll(/\\u\{0*[fF]([0-9a-fA-F]{2})\}|&#[xX]0*[fF]([0-9a-fA-F]{2});|&#(\d{4});/g)) {
+        const c = m[3] ? parseInt(m[3], 10) : 0x0F00 + parseInt(m[1] || m[2], 16);
+        if (c < 0x0F00 || c > 0x0FFF) continue;
+        if (!used.has(c)) used.set(c, f + ' (escape)');
+    }
     for (const m of s.matchAll(/\\u0[fF]([0-9a-fA-F]{2})/g)) {
         const c = 0x0F00 + parseInt(m[1], 16);
         if (!used.has(c)) used.set(c, f + ' (escape)');

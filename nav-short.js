@@ -104,7 +104,14 @@
         var file = (href || location.pathname).split(/[?#]/)[0].split('/').pop() || 'index.html';
         return PAGE[file] || null;
     }
+    // The hamburger's name: Name Map and Time Map never translated it.
+    var MENU = { en: 'Menu', ja: 'メニュー', ko: '메뉴', zh: '菜单', yue: '選單', vi: 'Menu', th: 'เมนู',
+        id: 'Menu', hi: 'मेनू', de: 'Menü', fr: 'Menu', it: 'Menu', es: 'Menú', pt: 'Menu', ru: 'Меню',
+        uk: 'Меню', ar: 'القائمة', he: 'תפריט', sw: 'Menyu' };
     function run() {
+        var hb = document.querySelector('.site-header-bar .hamburger-btn');
+        var mn = MENU[lang()] || MENU.en;
+        if (hb && hb.getAttribute('aria-label') !== mn) hb.setAttribute('aria-label', mn);
         var L = LABELS[lang()] || LABELS.en;
         var items = document.querySelectorAll('.site-header-bar .header-nav > a, .site-header-bar .header-nav > span:not(.nav-sep)');
         for (var i = 0; i < items.length; i++) {
@@ -117,7 +124,9 @@
     var st = document.createElement('style');
     st.textContent = '@media (min-width: 641px) {'
         + ' .site-header-bar .header-nav [data-short] { font-size: 0; }'
-        + ' .site-header-bar .header-nav [data-short]::after { content: attr(data-short); font-size: 13px; }'
+        // "/ ''": the drawn short label is decoration; the link's own (font-size
+        // 0) text is its name. Without it screen readers read both ("Word MapWords").
+        + ' .site-header-bar .header-nav [data-short]::after { content: attr(data-short); content: attr(data-short) / ""; font-size: 13px; }'
         + ' }';
     document.head.appendChild(st);
 
@@ -182,6 +191,9 @@
             if (!cb || cb.type !== 'checkbox' || !cb.checked) continue;
             cb.checked = false;
             cb.dispatchEvent(new Event('change', { bubbles: true }));
+            // Left checked from a narrower window: nothing visible closed, so the
+            // Escape still belongs to the page (and there is no button to focus).
+            if (!bs[i].getClientRects().length) continue;
             closed = true;
             // Back to the button only when focus was inside the panel it controls.
             var panel = document.getElementById(bs[i].getAttribute('aria-controls') || '');

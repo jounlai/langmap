@@ -170,6 +170,13 @@ body {
    share-button.js insert 30px buttons after first paint, which grew the
    header 41 -> 47px and pushed every full-height page down (CLS ~0.45). */
 @media (min-width: 641px) { .site-header-bar { min-height: 47px; } }
+@media (min-width: 641px) and (max-width: 720px) { .site-header-bar { min-height: 51px; } } /* 10px padding here */
+/* 641-1100px (a phone in landscape, a narrow window): long nav labels pushed
+   the picker and URL off the right edge. Let the nav shrink and scroll, and
+   drop the decorative URL until there is room (rally r6). */
+@media (min-width: 641px) { .site-header-bar .header-nav { min-width: 0; overflow-x: auto; scrollbar-width: none; padding: 3px 2px; } }
+@media (min-width: 641px) and (max-width: 1100px) { .site-header-bar .header-url { display: none; } }
+@media print { .share-icon-btn, .lang-picker, .hamburger-btn, .chrome-toggle-btn { display: none !important; } }
 .site-header-bar .header-url {
     margin-left: auto;
     font-size: 11px; color: #666; text-decoration: none; white-space: nowrap;
@@ -197,7 +204,8 @@ body {
     min-width: 140px;
     max-width: 200px;
 }
-.site-header-bar .header-ui-lang + .header-url { margin-left: 12px; }
+/* (.header-ui-lang is always hidden; a margin-left:12px here held langmaps.com
+   beside the nav until share-button.js arrived, then it jumped 557px.) */
 
 /* Audit Task 231: mobile hamburger menu. On desktop the wrapper is
    `display: contents` so its children participate in the header flex
@@ -723,6 +731,11 @@ select:focus { border-color: var(--accent); outline: none; }
     display: inline-block;
     min-width: 320px;
 }
+/* Until app.js draws the rows, hold the default map's height (six languages)
+   in an invisible box: it painted ~80px tall and then pushed the page down
+   ~500px (CLS 0.4+, rally r6). Once rows exist the rule no longer matches. */
+#mapContainer:has(> #langRows:empty) { visibility: hidden; display: block; min-height: 595px; }
+@media (max-width: 640px) { #mapContainer:has(> #langRows:empty) { min-height: 470px; } }
 
 .map-toolbar {
     display: flex;

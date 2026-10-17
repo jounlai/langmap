@@ -3379,7 +3379,8 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 @media print {
   .seo-region, .wcard-more { display: block; }
   .seo-region > summary, .wcard-more > summary { list-style: none; }
-  .seo-region > summary::after, .wcard-more > summary::after { content: none; }
+  details.seo-region > summary::after, details.wcard-more > summary::after { content: none; }
+  details::details-content { content-visibility: visible; }
   /* display:block on the child is not enough — a closed <details> hides its
      content via the UA's own rule on the element, so the children are forced
      visible explicitly. */
@@ -3391,7 +3392,13 @@ body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   .seo-applink, .seo-goods, .seo-goods-peek, .seo-otherwords { display: none; }
   /* Screen-only controls; and every page of a paginated comparison prints. */
   .seo-langpop, .seo-langbar, .ex-nav, .ex-wo-select, .ex-prev, .ex-next, .leaflet-control-container { display: none !important; }
-  .cmp-page[hidden] { display: table-row !important; }
+  .seo-ex .cmp-page[hidden] { display: table-row !important; }
+  /* Wide tables: no scroll box on paper, wrap instead of cutting the right edge. */
+  .seo-cmp-wrap, .seo-chartable-wrap { overflow: visible !important; }
+  .seo-cmp-tbl { min-width: 0 !important; width: 100% !important; font-size: .8rem; }
+  .seo-cmp-tbl th, .seo-cmp-tbl td { white-space: normal !important; }
+  .seo-cmp-tbl th.cmp-rowhead { position: static !important; }
+  .ex-wo-pick { display: none !important; }
   a { color: inherit; text-decoration: none; }
   .fl { box-shadow: none; }
 }
@@ -3625,7 +3632,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
   gap: .5rem; margin: 0 0 .5rem; font-size: .9rem; color: var(--muted); }
 .seo-langbar select { font: inherit; padding: .25rem .5rem; border: 1px solid var(--line);
   border-radius: .4rem; background: var(--card); color: var(--fg); }
-.seo-langpop { position: fixed; left: 1rem; bottom: 1rem; max-width: 22rem; z-index: 9999;
+.seo-langpop { position: fixed; left: 1rem; bottom: 1rem; max-width: 22rem; z-index: 9999; text-align: start;
   background: var(--card); border: 1px solid var(--line); border-radius: .7rem;
   box-shadow: 0 6px 24px rgba(0,0,0,.15); padding: .9rem 1rem; }
 [dir="rtl"] .seo-langpop { left: auto; right: 1rem; }
@@ -4366,7 +4373,7 @@ function seo_comparisons(string $map, string $code, string $ui,
             $anchor = $ci === 0; ?>
         <td<?= $anchor ? ' class="cmp-anchor"' : '' ?>>
           <span class="cmp-sf" lang="<?= e(seo_lang_attr($c)) ?>"><?= e($surface !== '' ? $surface : '—') ?></span>
-          <?php if ($ipa !== ''): ?><span class="cmp-ipa">/<?= e($ipa) ?>/</span><?php endif; ?>
+          <?php if ($ipa !== ''): ?><span class="cmp-ipa"><bdi dir="ltr">/<?= e($ipa) ?>/</bdi></span><?php endif; ?>
         </td>
         <?php endforeach; ?>
       </tr>
@@ -4521,7 +4528,7 @@ function seo_comparisons(string $map, string $code, string $ui,
                 $out .= '<span class="cmp-rd">';
                 if ($multi && $label !== '') $out .= '<span class="cmp-rl">' . e($label) . '</span>';
                 if ($surface !== '') $out .= '<span class="cmp-sf" style="display:inline" lang="' . e(seo_lang_attr($c)) . '">' . e($surface) . '</span> ';
-                if ($ipa !== '') $out .= '<span class="cmp-ipa" style="display:inline">/' . e($ipa) . '/</span>';
+                if ($ipa !== '') $out .= '<span class="cmp-ipa" style="display:inline"><bdi dir="ltr">/' . e($ipa) . '/</bdi></span>';
                 $out .= '</span>';
             }
             return $out;
@@ -4624,10 +4631,11 @@ function seo_comparisons(string $map, string $code, string $ui,
       svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
       svg.style.width = W + 'px'; svg.style.height = H + 'px';
       if (!vis) return;
-      var base = el.getBoundingClientRect();
-      // Coordinates relative to the scroll content origin (add current scroll
-      // offset) so connectors stay correct regardless of scroll position.
-      var sx = el.scrollLeft, sy = el.scrollTop;
+      // Coordinates relative to the SVG itself (it spans the scroll extent and
+      // scrolls with the content). In RTL it is anchored at the right, so the
+      // block's own left edge plus scrollLeft was off by the overflow (rally r7).
+      var base = svg.getBoundingClientRect();
+      var sx = 0, sy = 0;
       var rows = [];
       vis.querySelectorAll('.cmp-wo-row').forEach(function (row) {
         var m = {};
@@ -4723,6 +4731,17 @@ function seo_foot(string $ui = 'en'): void
     // carries the way in (named, not a bare "home" link) and the byline.
     $home = seo_path($ui, '');
     ?>
+<script>
+// Print: a closed <details> keeps its content in a slot CSS cannot open, so the
+// region lists printed as bare headings. Open them for printing, then restore.
+(function () {
+  var opened = [];
+  addEventListener('beforeprint', function () {
+    opened = [].filter.call(document.querySelectorAll('details:not([open])'), function (d) { d.open = true; return true; });
+  });
+  addEventListener('afterprint', function () { opened.forEach(function (d) { d.open = false; }); opened = []; });
+})();
+</script>
 <div class="seo-foot">
   <p class="seo-foot-cta"><strong><?= e(seo_t($ui, 'open_map')) ?>:</strong>
     <a href="/wordmap.html">Word Map</a> &middot;

@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=141">
+    <link rel="stylesheet" href="styles.css?v=142">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -423,6 +423,9 @@
         /* Desktop: the chrome toggle is moved out of the header by script;
            hidden there until then so the nav does not slide (rally r5). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
+        /* ≤400px: the map attribution covered the credit line's right end (the
+           Tree link, the only link to the family tree here). Lift it above. */
+        @media (max-width: 400px) { .leaflet-bottom.leaflet-right { margin-bottom: 30px; } }
 </style>
     <!-- Khitan Small Script isn't on Google Fonts (Google Fonts returns 400
          for "Noto Serif Khitan Small Script"). Load the Serif variant
@@ -3033,7 +3036,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=13"></script>
+    <script src="nav-short.js?v=14"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Word Map</h1>
@@ -3427,7 +3430,7 @@
             if (rc) new ResizeObserver(positionSettingsDrawer).observe(rc);
         }
         document.addEventListener('click', (e) => {
-            if (e.target && e.target.closest && e.target.closest('[aria-modal="true"]')) return;   // a dialog on top (share sheet) is not 'outside'
+            if (e.target && e.target.closest && e.target.closest('[aria-modal="true"], .wm-overlay')) return;   // a dialog on top (share sheet, a game and its backdrop) is not 'outside'
             for (const { toggle, drawer, btnClass } of drawers) {
                 const cb = document.getElementById(toggle);
                 if (!cb || !cb.checked) continue;
@@ -3728,10 +3731,10 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   141,
+            styles:   142,
             data:      342,
             metaI18n:  16,
-            filter:    46,
+            filter:    47,
             names:   203,
             meta:     414,
             trivia:   44,
@@ -3873,7 +3876,7 @@
          loaded. Loading them eagerly meant half a megabyte on every visit for
          data that only matters once a language modal opens. They now load
          inside loadMeta(). See __wmLoadMetaI18n() below. -->
-    <script src="lang-filter.js?v=46"></script>
+    <script src="lang-filter.js?v=47"></script>
     <!-- Translated language names: 1,154 codes × 19 UI languages is ~215 KB
          gzipped, and a reader uses one of them plus English as the fallback.
          Load the shim, then English, then whichever UI language this visitor
@@ -3942,6 +3945,10 @@
                 // A failed fetch must not leave TRIVIA_ARTICLES undefined, or
                 // openTrivia()'s "not loaded yet, retry" branch would spin.
                 if (!window.TRIVIA_ARTICLES) window.TRIVIA_ARTICLES = [];
+                // The translation overlay (started at init) usually lands first,
+                // when there were no articles to merge into — merge now, or every
+                // overlay language showed English articles (rally r7).
+                try { if (typeof applyTriviaI18nOverlay === 'function') applyTriviaI18nOverlay(); } catch (_) {}
                 try { if (typeof refreshTriviaBlinks === 'function') refreshTriviaBlinks(); } catch (_) {}
                 try { if (typeof renderTriviaIndex === 'function') renderTriviaIndex(); } catch (_) {}
             });
@@ -10613,6 +10620,10 @@
             setTriviaCompact(false);
             const modal = document.getElementById('trivia-modal');
             const backdrop = document.getElementById('trivia-backdrop');
+            // Remember what opened it (focus goes back there on close) and read
+            // right to left in ar/he.
+            if (!modal.classList.contains('visible')) modal._wmReturn = document.activeElement;
+            modal.dir = /^(ar|he)/.test(String(uiLang || '')) ? 'rtl' : 'ltr';
             backdrop.classList.add('visible');
             backdrop.setAttribute('aria-hidden', 'false');
             modal.classList.add('visible');
@@ -10653,9 +10664,28 @@
             if (_scrollBack) _scrollBack.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash();
         }
+        // aria-modal: keep Tab inside the article (it walked out to the map controls).
+        (function () {
+            const tm = document.getElementById('trivia-modal');
+            if (!tm) return;
+            tm.addEventListener('keydown', (e) => {
+                if (e.key !== 'Tab') return;
+                const f = [...tm.querySelectorAll('button, a[href], input, select, [tabindex="0"]')].filter((x) => !x.disabled && x.getClientRects().length);
+                if (!f.length) return;
+                const first = f[0], last = f[f.length - 1];
+                if (e.shiftKey && (document.activeElement === first || document.activeElement === tm)) { e.preventDefault(); last.focus(); }
+                else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+            });
+        })();
         function closeTrivia() {
             const modal = document.getElementById('trivia-modal');
             const backdrop = document.getElementById('trivia-backdrop');
+            if (modal.classList.contains('visible')) {
+                const ok = (x) => x && x.isConnected && x !== document.body && x.getClientRects().length;
+                let r = modal._wmReturn; modal._wmReturn = null;
+                if (!ok(r)) r = ['#play-menu-btn', '#trivia-open', '.hamburger-btn'].map((q) => document.querySelector(q)).find(ok);
+                if (r) setTimeout(() => { try { r.focus(); } catch (_) {} }, 0);
+            }
             modal.classList.remove('visible');
             backdrop.classList.remove('visible');
             backdrop.setAttribute('aria-hidden', 'true');
@@ -11573,6 +11603,40 @@
         function shareFull() { return shareText() + '\n' + SHARE_URL; }
         // ---- UI ----
         let modal = null;
+        if (!window.__wmDialog) {
+            // Shared by Langle and Quiz: a named modal dialog that takes focus,
+            // keeps Tab inside, reads RTL in ar/he, and hands focus back on close
+            // (they left focus on <body> behind the overlay — rally r7).
+            window.__wmDialog = {
+                open(box, label) {
+                    const ui = (window.__langmap && window.__langmap.uiLang) || 'en';
+                    box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true');
+                    if (label) box.setAttribute('aria-label', label);
+                    box.dir = /^(ar|he)/.test(ui) ? 'rtl' : 'ltr';
+                    box.tabIndex = -1;
+                    if (box.parentElement) box.parentElement.classList.add('wm-overlay');
+                    box._wmReturn = document.activeElement;
+                    if (!box._wmTrap) {
+                        box._wmTrap = true;
+                        box.addEventListener('keydown', (e) => {
+                            if (e.key !== 'Tab') return;
+                            const f = [...box.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]')].filter((x) => !x.disabled && x.getClientRects().length);
+                            if (!f.length) { e.preventDefault(); return; }
+                            const first = f[0], last = f[f.length - 1];
+                            if (e.shiftKey && (document.activeElement === first || document.activeElement === box)) { e.preventDefault(); last.focus(); }
+                            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+                        });
+                    }
+                    setTimeout(() => { try { box.focus(); } catch (_) {} }, 0);
+                },
+                close(box) {
+                    const ok = (x) => x && x.isConnected && x !== document.body && x.getClientRects().length;
+                    let r = box && box._wmReturn;
+                    if (!ok(r)) r = ['#play-menu-btn', '.hamburger-btn'].map((q) => document.querySelector(q)).find(ok);
+                    if (r) try { r.focus(); } catch (_) {}
+                },
+            };
+        }
         function el(tag, css, html) { const e = document.createElement(tag); if (css) e.style.cssText = css; if (html != null) e.innerHTML = html; return e; }
         function build() {
             modal = el('div', 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100002;display:flex;align-items:center;justify-content:center;padding:16px;font-family:inherit');
@@ -11582,8 +11646,8 @@
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
             document.body.appendChild(modal);
         }
-        function hide() { if (modal) modal.style.display = 'none'; if (window.__wmOpenGame === 'langle') { window.__wmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
-        function show() { if (!modal) build(); modal.style.display = 'flex'; render(); window.__wmOpenGame = 'langle'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
+        function hide() { const wasOpen = modal && modal.style.display !== 'none'; if (modal) modal.style.display = 'none'; if (wasOpen) window.__wmDialog.close(document.getElementById('lm-langle-box')); if (window.__wmOpenGame === 'langle') { window.__wmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
+        function show() { if (!modal) build(); modal.style.display = 'flex'; render(); window.__wmDialog.open(document.getElementById('lm-langle-box'), 'Langle'); window.__wmLangleHide = hide; window.__wmOpenGame = 'langle'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
         function clueHtml() {
             const t = target(), words = WD(), order = ORD();
             let shown = 0, rows = '';
@@ -11935,12 +11999,12 @@
             modal.addEventListener('click', e => { if (e.target === modal) hide(); });
             document.body.appendChild(modal);
         }
-        function hide() { if (modal) modal.style.display = 'none'; if (window.__wmOpenGame === 'quiz') { window.__wmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
+        function hide() { const wasOpen = modal && modal.style.display !== 'none'; if (modal) modal.style.display = 'none'; if (wasOpen) window.__wmDialog.close(document.getElementById('lm-quiz-box')); if (window.__wmOpenGame === 'quiz') { window.__wmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
         function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); }
         function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); }
         const KEYS = {"en": "Keys: 1–{n} to answer · Space or Enter for next · Esc to close", "ja": "キー操作：1〜{n}で回答・スペース／エンターで次へ・Escで閉じる", "ko": "키보드: 1~{n}로 답하기 · 스페이스/엔터로 다음 · Esc로 닫기", "zh": "键盘：1–{n} 作答 · 空格或回车下一题 · Esc 关闭", "yue": "鍵盤：1–{n} 答題 · 空白鍵或Enter下一題 · Esc 關閉", "vi": "Phím: 1–{n} để trả lời · Space để tiếp · Esc để đóng", "th": "คีย์: 1–{n} ตอบ · Space ไปต่อ · Esc ปิด", "id": "Tombol: 1–{n} untuk menjawab · Spasi untuk lanjut · Esc untuk menutup", "hi": "कुंजियाँ: 1–{n} उत्तर · Space अगला · Esc बंद", "de": "Tasten: 1–{n} antworten · Leertaste weiter · Esc schließen", "fr": "Touches : 1–{n} pour répondre · Espace pour continuer · Échap pour fermer", "it": "Tasti: 1–{n} per rispondere · Spazio per avanti · Esc per chiudere", "es": "Teclas: 1–{n} para responder · Espacio para seguir · Esc para cerrar", "pt": "Teclas: 1–{n} para responder · Espaço para avançar · Esc para fechar", "ru": "Клавиши: 1–{n} — ответ · Пробел — далее · Esc — закрыть", "uk": "Клавіші: 1–{n} — відповідь · Пробіл — далі · Esc — закрити", "ar": "المفاتيح: 1–{n} للإجابة · المسافة للتالي · Esc للإغلاق", "he": "מקשים: 1–{n} לתשובה · רווח להמשך · Esc לסגירה", "sw": "Vitufe: 1–{n} kujibu · Space kuendelea · Esc kufunga"};
         function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
-        function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); window.__wmOpenGame = 'quiz'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
+        function show() { if (!modal) build(); modal.style.display = 'flex'; if (!qs.length) startSet(); else render(); if (window.__wmDialog) window.__wmDialog.open(document.getElementById('lm-quiz-box'), (document.getElementById('quiz-btn-label') || {}).textContent || 'Quiz'); window.__wmOpenGame = 'quiz'; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); }
         function render() {
             const box = document.getElementById('lm-quiz-box'); if (!box) return;
             box.innerHTML = '';
@@ -12088,7 +12152,8 @@
                     + (desc ? '<span class="play-menu-item-sub">' + desc + '</span>' : '') + '</span>'
                     + (num <= 9 ? '<kbd class="wm-kbd" aria-hidden="true">' + num + '</kbd>' : '');
                 if (num <= 9) it.setAttribute('aria-keyshortcuts', String(num));
-                it.addEventListener('click', () => { close(); g.click(); });
+                // Focus the visible Play button first, so the game returns focus there.
+                it.addEventListener('click', () => { close(); const pb = btn(); if (pb) pb.focus(); g.click(); });
                 m.appendChild(it);
             });
         }
@@ -12124,7 +12189,7 @@
                 // Langle has no Escape of its own: close it like a click on its backdrop.
                 if (e.key === 'Escape') {
                     const lb = document.getElementById('lm-langle-box');
-                    if (lb && lb.parentElement && lb.parentElement.style.display !== 'none') lb.parentElement.click();
+                    if (lb && lb.parentElement && lb.parentElement.style.display !== 'none' && window.__wmLangleHide) window.__wmLangleHide();
                 }
             });
             b.addEventListener('click', e => { e.stopPropagation(); toggle(); });
@@ -12138,8 +12203,8 @@
     </script>
 
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=3"></script>
-    <script src="lang-picker.js?v=4"></script>
+    <script src="share-button.js?v=4"></script>
+    <script src="lang-picker.js?v=5"></script>
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>

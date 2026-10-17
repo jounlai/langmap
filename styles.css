@@ -176,7 +176,12 @@ body {
    drop the decorative URL until there is room (rally r6). */
 @media (min-width: 641px) { .site-header-bar .header-nav { min-width: 0; overflow-x: auto; scrollbar-width: none; padding: 3px 2px; } }
 @media (min-width: 641px) and (max-width: 1100px) { .site-header-bar .header-url { display: none; } }
-@media print { .share-icon-btn, .lang-picker, .hamburger-btn, .chrome-toggle-btn { display: none !important; } }
+@media print {
+    .share-icon-btn, .lang-picker, .hamburger-btn, .chrome-toggle-btn,
+    .site-header-bar .trivia-btn, .play-menu-wrap { display: none !important; }
+    .site-header-bar .header-nav { overflow: visible !important; flex-wrap: wrap; }
+    .site-header-bar .header-url { display: inline !important; }
+}
 .site-header-bar .header-url {
     margin-left: auto;
     font-size: 11px; color: #666; text-decoration: none; white-space: nowrap;
@@ -734,8 +739,8 @@ select:focus { border-color: var(--accent); outline: none; }
 /* Until app.js draws the rows, hold the default map's height (six languages)
    in an invisible box: it painted ~80px tall and then pushed the page down
    ~500px (CLS 0.4+, rally r6). Once rows exist the rule no longer matches. */
-#mapContainer:has(> #langRows:empty) { visibility: hidden; display: block; min-height: 595px; }
-@media (max-width: 640px) { #mapContainer:has(> #langRows:empty) { min-height: 470px; } }
+#mapContainer:has(> #langRows:empty) { visibility: hidden; display: block; min-height: calc(var(--rows, 6) * 89px + 60px); }
+@media (max-width: 640px) { #mapContainer:has(> #langRows:empty) { min-height: calc(var(--rows, 6) * 78px); } }
 
 .map-toolbar {
     display: flex;

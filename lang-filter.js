@@ -1596,14 +1596,21 @@
         const fabIcon = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M7 12h10m-7 6h4"/></svg>';
         function renderFab() {
             const badgeText = fab.querySelector('.lf-badge')?.textContent || '0';
-            const badgeShown = fab.querySelector('.lf-badge')?.style.display !== 'none';
+            // No badge yet = not shown (the first render drew a "0" badge that
+            // grew the row 5px and shrank it back: a layout shift, rally r7).
+            const _old = fab.querySelector('.lf-badge');
+            const badgeShown = _old ? _old.style.display !== 'none' : false;
             fab.innerHTML = `${fabIcon}<span class="lf-fab-label">${t('title_filter')}</span><span class="lf-badge" style="display:${badgeShown ? '' : 'none'}">${badgeText}</span>`;
         }
         renderFab();
         // Mount inside the existing top-left controls container so it stacks
         // naturally below the word selector and era switch (no overlap).
+        // Straight into the era row when the page has one (Word Map), so a
+        // painted button is not moved there later.
+        const eraRow = document.getElementById('era-filter-row');
         const topLeft = document.querySelector('.top-left-controls');
-        if (topLeft) topLeft.appendChild(fab);
+        if (eraRow) eraRow.appendChild(fab);
+        else if (topLeft) topLeft.appendChild(fab);
         else         document.body.appendChild(fab);
 
         // Placeholder panel (shown while meta loads). Replaced after load.

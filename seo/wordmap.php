@@ -202,7 +202,7 @@ function seo_render_wordmap_lang(array $data, string $code, string $ui): void
                hub and the sitemap and nothing else. */ ?>
       <p class="label"><a href="<?= e(seo_path($ui, 'word', $id)) ?>"><?= e($label) ?></a></p>
       <p class="surface<?= seo_script_class($surface) ?>" lang="<?= e(seo_lang_attr($code)) ?>"><?= e($surface !== '' ? $surface : '—') ?></p>
-      <?php if ($ipa !== ''): ?><p class="ipa"><?= e($ipa) ?></p><?php endif; ?>
+      <?php if ($ipa !== ''): ?><p class="ipa"><bdi dir="ltr"><?= e($ipa) ?></bdi></p><?php endif; ?>
       <?php foreach ($alts as $a):
           $af = $a['form'] ?? ''; if ($af === '') continue;
           $as = $a['script'] ?? ''; ?>

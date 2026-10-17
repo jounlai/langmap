@@ -106,7 +106,7 @@
     }
     // The hamburger's name: Name Map and Time Map never translated it.
     var MENU = { en: 'Menu', ja: 'メニュー', ko: '메뉴', zh: '菜单', yue: '選單', vi: 'Menu', th: 'เมนู',
-        id: 'Menu', hi: 'मेनू', de: 'Menü', fr: 'Menu', it: 'Menu', es: 'Menú', pt: 'Menu', ru: 'Меню',
+        id: 'Menu', hi: 'मेन्यू', de: 'Menü', fr: 'Menu', it: 'Menu', es: 'Menú', pt: 'Menu', ru: 'Меню',
         uk: 'Меню', ar: 'القائمة', he: 'תפריט', sw: 'Menyu' };
     function run() {
         var hb = document.querySelector('.site-header-bar .hamburger-btn');
@@ -119,6 +119,12 @@
             var S = SHORT[lang()] || {};
             var s = S[k] || shortOf(L[k]);
             if (items[i].getAttribute('data-short') !== s) items[i].setAttribute('data-short', s);
+            // The drawn short label is hidden from the name (alt ""), so name the
+            // link with both: speech input users say what they see ("Words").
+            if (items[i].tagName !== 'A') continue;   // aria-label is not allowed on a plain <span>
+            var full = (items[i].textContent || '').trim();
+            var nm = full && full !== s ? full + ' (' + s + ')' : (full || s);
+            if (items[i].getAttribute('aria-label') !== nm) items[i].setAttribute('aria-label', nm);
         }
     }
     var st = document.createElement('style');
@@ -126,6 +132,8 @@
         + ' .site-header-bar .header-nav [data-short] { font-size: 0; }'
         // "/ ''": the drawn short label is decoration; the link's own (font-size
         // 0) text is its name. Without it screen readers read both ("Word MapWords").
+        + ' .site-header-bar .header-nav.more-end { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }'
+        + ' [dir="rtl"] .site-header-bar .header-nav.more-end { -webkit-mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to left, #000 calc(100% - 28px), transparent); }'
         + ' .site-header-bar .header-nav [data-short]::after { content: attr(data-short); content: attr(data-short) / ""; font-size: 13px; }'
         + ' }';
     document.head.appendChild(st);
@@ -144,9 +152,43 @@
     // A page announces its language by setting <html lang>; follow it from then on.
     new MutationObserver(function () { htmlLangSet = true; run(); })
         .observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+    // The header nav may scroll sideways at 641-1100px. Make that reachable:
+    // a vertical wheel scrolls it, a focused link and the current page are
+    // brought into view, and the edge with hidden items fades (rally r7).
+    function navScroll() {
+        var nav = document.querySelector('.site-header-bar .header-nav');
+        if (!nav || nav._lmScroll) return;
+        nav._lmScroll = true;
+        function edges() {
+            var max = nav.scrollWidth - nav.clientWidth, x = Math.abs(nav.scrollLeft);
+            nav.classList.toggle('more-end', max > 2 && x < max - 2);
+            nav.classList.toggle('more-start', max > 2 && x > 2);
+        }
+        nav.addEventListener('wheel', function (e) {
+            if (nav.scrollWidth <= nav.clientWidth || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+            var rtl = getComputedStyle(nav).direction === 'rtl';
+            nav.scrollLeft += rtl ? -e.deltaY : e.deltaY; e.preventDefault();
+        }, { passive: false });
+        nav.addEventListener('focusin', function (e) {
+            if (e.target && e.target.scrollIntoView) e.target.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+        });
+        nav.addEventListener('scroll', edges, { passive: true });
+        function current() {
+            var cur = nav.querySelector('.header-nav-current');
+            if (cur && nav.scrollWidth > nav.clientWidth) {
+                var nr = nav.getBoundingClientRect(), cr = cur.getBoundingClientRect();
+                if (cr.left < nr.left) nav.scrollLeft -= (nr.left - cr.left) + 8;
+                else if (cr.right > nr.right) nav.scrollLeft += (cr.right - nr.right) + 8;
+            }
+            edges();
+        }
+        addEventListener('resize', current);
+        current();
+    }
     function settle() {
         parseObs.disconnect();
         run();
+        navScroll();
         // Pages rewrite their nav text on a language change; re-check then too.
         var navs = document.querySelectorAll('.site-header-bar .header-nav');
         var mo = new MutationObserver(run);
@@ -173,7 +215,7 @@
     // Something open on top of a drawer (a modal, the share sheet, the quiz)
     // owns Escape: closing the drawer underneath would move focus behind it.
     function overlayOpen() {
-        var els = document.querySelectorAll('[aria-modal="true"], #trivia-modal.visible, .mylang-overlay.open, #lm-langle-box, #lm-quiz-box');
+        var els = document.querySelectorAll('[aria-modal="true"], #trivia-modal.visible, .mylang-overlay.open, #lm-langle-box, #lm-quiz-box, .lang-picker-menu.open');
         for (var i = 0; i < els.length; i++) if (els[i].getClientRects().length) return true;
         return false;
     }

@@ -410,7 +410,7 @@ function seo_render_word(array $data, array $word, string $ui): void
            . '<p class="surface' . seo_script_class($lead['surface']) . '"'
              . ($lm['bcp47'] !== '' ? ' lang="' . e($lm['bcp47']) . '"' : '')
              . '>' . e($lead['surface']) . '</p>'
-           . ($lead['ipa'] !== '' ? '<p class="ipa">/' . e($lead['ipa']) . '/</p>' : '');
+           . ($lead['ipa'] !== '' ? '<p class="ipa"><bdi dir="ltr">/' . e($lead['ipa']) . '/</bdi></p>' : '');
 
         if ($members === 1) {
             echo '</article>' . "\n";
@@ -449,7 +449,7 @@ function seo_render_word(array $data, array $word, string $ui): void
                 // The spelling is printed once; each reading under it is just
                 // its sound and who says it.
                 echo '<div class="wcard-read">'
-                   . ($rd['ipa'] !== '' ? '<p class="ipa">/' . e($rd['ipa']) . '/</p>' : '')
+                   . ($rd['ipa'] !== '' ? '<p class="ipa"><bdi dir="ltr">/' . e($rd['ipa']) . '/</bdi></p>' : '')
                    . '<p class="wcard-where">';
                 foreach ($rd['members'] as $m) {
                     echo '<a href="' . e(seo_path($ui, 'wordmap', $m['code'])) . '"'

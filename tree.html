@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=141">
+<link rel="stylesheet" href="styles.css?v=142">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -284,7 +284,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=13"></script>
+    <script src="nav-short.js?v=14"></script>
 </head>
 <body>
 <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Language Family Tree</h1>
@@ -330,7 +330,7 @@
     if (cb) cb.addEventListener('change', syncAria);
     document.addEventListener('click', (e) => {
         if (!cb || !cb.checked) return;
-        if (e.target && e.target.closest && e.target.closest('[aria-modal="true"]')) return;   // a dialog on top (share sheet) is not 'outside'
+        if (e.target && e.target.closest && e.target.closest('[aria-modal="true"], .wm-overlay')) return;   // a dialog on top (share sheet, its backdrop) is not 'outside'
         const drawer = document.getElementById('header-collapse');
         if (drawer && drawer.contains(e.target)) return;
         // Don't close on the toggle button OR on the checkbox itself —
@@ -1227,7 +1227,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
 })();
 </script>
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=3"></script>
-    <script src="lang-picker.js?v=4"></script>
+    <script src="share-button.js?v=4"></script>
+    <script src="lang-picker.js?v=5"></script>
 </body>
 </html>

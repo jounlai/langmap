@@ -146,8 +146,8 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
 <?php endif; ?>
 
 <section class="seo-section">
-  <h2><?= e(seo_t($ui, 'chars_heading', ['name' => $name])) ?></h2>
-  <div class="seo-chartable-wrap">
+  <h2 id="seo-chars-h"><?= e(seo_t($ui, 'chars_heading', ['name' => $name])) ?></h2>
+  <div class="seo-chartable-wrap" tabindex="0" role="region" aria-labelledby="seo-chars-h">
   <table class="seo-chartable">
     <thead>
       <tr>
@@ -184,7 +184,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
         <?php endif; ?>
         <td class="c-read"><?php if ($multi && $label !== ''): ?><span class="rlabel"><?= e($label) ?></span><?php endif; ?></td>
         <td class="c-form" lang="<?= e(seo_lang_attr($code)) ?>"><?php if ($native !== ''): ?><span class="c-native"><?= e($native) ?></span><?php endif; ?><?php if ($surface !== ''): ?><span class="c-rom"<?= ($native !== '' && $romLang !== '') ? ' lang="' . e($romLang) . '"' : '' ?>><?= e($surface) ?></span><?php endif; ?></td>
-        <td class="c-ipa"><?= $ipa !== '' ? '/' . e($ipa) . '/' : '' ?></td>
+        <td class="c-ipa"><?= $ipa !== '' ? '<bdi dir="ltr">/' . e($ipa) . '/</bdi>' : '' ?></td>
       </tr>
       <?php endforeach; ?>
   <?php endforeach; ?>

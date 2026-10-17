@@ -77,7 +77,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=141">
+    <link rel="stylesheet" href="styles.css?v=142">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -323,7 +323,7 @@
             /* Crawlable article index in the footer. Collapsed for readers,
            but the links are in the HTML source so crawlers reach every
            /{ui}/trivia/{slug} page without running the modal. */
-        .trivia-index-seo { margin: 10px auto 0; max-width: 62rem; text-align: left; }
+        .trivia-index-seo { margin: 10px auto 0; max-width: 62rem; text-align: start; }
         .trivia-index-seo > summary { cursor: pointer; text-align: center; }
         .trivia-index-seo ul { columns: 2 18rem; gap: 1.5rem;
             list-style: none; padding: 8px 0 0; margin: 0; }
@@ -2127,7 +2127,7 @@
         .trivia-article-nav[hidden] { display: none; }
         .trivia-article-nav button {
             display: block; width: 100%;
-            text-align: left;
+            text-align: start;
             background: rgba(255,243,205,0.55);
             border: 1px solid rgba(180,130,30,0.28);
             border-radius: 8px;
@@ -2180,7 +2180,7 @@
             display: inline-block;
             font-size: 10px; font-weight: 700;
             color: #a07c3a;
-            margin-right: 4px;
+            margin-inline-end: 4px;
         }
         @media (max-width: 600px) {
             .trivia-index { grid-template-columns: 1fr; }
@@ -2191,7 +2191,7 @@
             font-style: italic;
         }
         .trivia-card {
-            display: block; width: 100%; text-align: left;
+            display: block; width: 100%; text-align: start;
             background: transparent;
             border: none;
             border-radius: 0;
@@ -2821,7 +2821,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=13"></script>
+    <script src="nav-short.js?v=14"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — HanMap</h1>
@@ -3157,7 +3157,7 @@
             if (rc) new ResizeObserver(positionSettingsDrawer).observe(rc);
         }
         document.addEventListener('click', (e) => {
-            if (e.target && e.target.closest && e.target.closest('[aria-modal="true"]')) return;   // a dialog on top (share sheet) is not 'outside'
+            if (e.target && e.target.closest && e.target.closest('[aria-modal="true"], .wm-overlay')) return;   // a dialog on top (share sheet, its backdrop) is not 'outside'
             for (const { toggle, drawer, btnClass } of drawers) {
                 const cb = document.getElementById(toggle);
                 if (!cb || !cb.checked) continue;
@@ -5370,7 +5370,7 @@
                 de: '← Artikel', fr: '← Articles', it: '← Articoli',
                 es: '← Artículos', pt: '← Artigos',
                 ru: '← Статьи', uk: '← Статті',
-                ar: '← قائمة المقالات', he: '← רשימת מאמרים',
+                ar: '→ قائمة المقالات', he: '→ רשימת מאמרים',
                 sw: '← Makala',
             },
             triviaIndexIntro: {
@@ -5401,7 +5401,7 @@
                 de: '← Vorheriger', fr: '← Précédent', it: '← Precedente',
                 es: '← Anterior', pt: '← Anterior',
                 ru: '← Назад', uk: '← Назад',
-                ar: '← السابق', he: '← הקודם', sw: '← Iliyotangulia',
+                ar: '→ السابق', he: '→ הקודם', sw: '← Iliyotangulia',
             },
             triviaNavNext: {
                 en: 'Next →', ja: '次の記事 →',
@@ -5410,7 +5410,7 @@
                 de: 'Nächster →', fr: 'Suivant →', it: 'Successivo →',
                 es: 'Siguiente →', pt: 'Próximo →',
                 ru: 'Далее →', uk: 'Далі →',
-                ar: 'التالي →', he: 'הבא →', sw: 'Inayofuata →',
+                ar: 'التالي ←', he: 'הבא ←', sw: 'Inayofuata →',
             },
             triviaCompareTitle: {
                 en: 'Compare across languages', ja: '言語間で比較',
@@ -12046,6 +12046,7 @@
         }
         function openTrivia(id, opts) {
             const fromHash = !!(opts && opts.fromHash);
+            const _opener = document.activeElement;
             // The articles are lazy (loadHanTrivia above). If the reader beats
             // the idle fetch — or arrives on a #trivia=<id> deep link — pull
             // them now and re-enter.
@@ -12081,6 +12082,7 @@
             if (!list.length) return;
             // popstate and hashchange both fire on Back: the second is a no-op.
             const _tmNow = document.getElementById('trivia-modal');
+            const _tmWasOpen = !!(_tmNow && _tmNow.classList.contains('visible'));
             if (fromHash && _tmNow && _tmNow.classList.contains('visible')
                 && (_tmNow.dataset.articleId || 'index') === (id || 'index')) return;
             // Bodies for the current uiLang: if still in flight the article
@@ -12112,7 +12114,7 @@
                 _scrollOpen.scrollTop = 0;
                 requestAnimationFrame(() => { _scrollOpen.scrollTop = 0; });
             }
-            if (!_tmNow || !_tmNow.classList.contains('visible')) _triviaReturn = document.activeElement;
+            if (!_tmWasOpen) _triviaReturn = _opener;
             setTimeout(() => modal.focus(), 0);
             if (typeof updateHash === 'function') updateHash(fromHash ? undefined : { push: true });
         }
@@ -12141,12 +12143,21 @@
             if (_scrollBack) _scrollBack.scrollTop = 0;
             if (typeof updateHash === 'function') updateHash();
         }
+        // Where focus goes back to when a dialog closes: the element that opened
+        // it if it can still take focus (not <body>, not hidden), else the first
+        // visible of the fallbacks.
+        function _hmFocusBack(el, fallbacks) {
+            const ok = (x) => x && x.isConnected && x !== document.body && x !== document.documentElement && x.getClientRects().length;
+            if (ok(el)) return el;
+            for (const sel of fallbacks) { const f = document.querySelector(sel); if (ok(f)) return f; }
+            return null;
+        }
+        window.__hmFocusBack = _hmFocusBack;
         function closeTrivia() {
             const modal = document.getElementById('trivia-modal');
             // Give focus back to what opened it (or the Play button) — it fell to <body>.
             if (modal && modal.classList.contains('visible')) {
-                const r = (_triviaReturn && _triviaReturn.isConnected && _triviaReturn.getClientRects().length)
-                    ? _triviaReturn : document.getElementById('play-menu-btn');
+                const r = _hmFocusBack(_triviaReturn, ['#play-menu-btn', '#trivia-open', '.hamburger-btn']);
                 _triviaReturn = null;
                 if (r) setTimeout(() => { try { r.focus(); } catch (_) {} }, 0);
             }
@@ -12528,6 +12539,8 @@
             // Escape closes one layer.
             const qb = document.getElementById('lm-hquiz-box');
             if (qb && qb.parentElement && qb.parentElement.style.display !== 'none') return;
+            // A language panel / compare panel opened from the article sits on top.
+            if (document.querySelector('#lang-info.visible, #compare-panel.visible')) return;
             const modal = document.getElementById('trivia-modal');
             if (modal && modal.classList.contains('visible')) {
                 closeTrivia();
@@ -12725,7 +12738,7 @@
             document.body.appendChild(modal);
         }
         let _hqReturn = null;
-        function hide() { if (modal && modal.style.display !== 'none') { const r = (_hqReturn && _hqReturn.isConnected && _hqReturn.getClientRects().length) ? _hqReturn : document.getElementById('play-menu-btn'); if (r) { try { r.focus(); } catch (_) {} } } if (modal) modal.style.display = 'none'; if (window.__hmOpenGame === 'hquiz') { window.__hmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
+        function hide() { if (modal && modal.style.display !== 'none') { const r = window.__hmFocusBack(_hqReturn, ['#play-menu-btn', '#hquiz-open', '.hamburger-btn']); if (r) { try { r.focus(); } catch (_) {} } } if (modal) modal.style.display = 'none'; if (window.__hmOpenGame === 'hquiz') { window.__hmOpenGame = null; if (window.__langmap && window.__langmap.updateHash) window.__langmap.updateHash(); } }
         function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); }
         function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); }
         const KEYS = {"en": "Keys: 1–{n} to answer · Space or Enter for next · Esc to close", "ja": "キー操作：1〜{n}で回答・スペース／エンターで次へ・Escで閉じる", "ko": "키보드: 1~{n}로 답하기 · 스페이스/엔터로 다음 · Esc로 닫기", "zh": "键盘：1–{n} 作答 · 空格或回车下一题 · Esc 关闭", "yue": "鍵盤：1–{n} 答題 · 空白鍵或Enter下一題 · Esc 關閉", "vi": "Phím: 1–{n} để trả lời · Space để tiếp · Esc để đóng", "th": "คีย์: 1–{n} ตอบ · Space ไปต่อ · Esc ปิด", "id": "Tombol: 1–{n} untuk menjawab · Spasi untuk lanjut · Esc untuk menutup", "hi": "कुंजियाँ: 1–{n} उत्तर · Space अगला · Esc बंद", "de": "Tasten: 1–{n} antworten · Leertaste weiter · Esc schließen", "fr": "Touches : 1–{n} pour répondre · Espace pour continuer · Échap pour fermer", "it": "Tasti: 1–{n} per rispondere · Spazio per avanti · Esc per chiudere", "es": "Teclas: 1–{n} para responder · Espacio para seguir · Esc para cerrar", "pt": "Teclas: 1–{n} para responder · Espaço para avançar · Esc para fechar", "ru": "Клавиши: 1–{n} — ответ · Пробел — далее · Esc — закрыть", "uk": "Клавіші: 1–{n} — відповідь · Пробіл — далі · Esc — закрити", "ar": "المفاتيح: 1–{n} للإجابة · المسافة للتالي · Esc للإغلاق", "he": "מקשים: 1–{n} לתשובה · רווח להמשך · Esc לסגירה", "sw": "Vitufe: 1–{n} kujibu · Space kuendelea · Esc kufunga"};
@@ -12740,7 +12753,7 @@
             box.dir = /^(ar|he)/.test(String(ui() || '')) ? 'rtl' : 'ltr';
             box.innerHTML = '';
             const head = el('div', 'display:flex;justify-content:space-between;align-items:center;margin-bottom:10px',
-                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div style="color:#9aa;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
+                `<div style="font-weight:800;font-size:20px">${pk(Q.title)}</div><div dir="ltr" style="color:#9aa;font-weight:600;font-size:14px">${Math.min(idx + 1, TOTAL)}/${TOTAL} · ★${score}</div>`);
             head.className = 'hq-head'; box.appendChild(head);
             if (!qs.length) { box.appendChild(el('div', 'color:#667;font-size:14px;margin:10px 0', pk(Q.none))); }
             else if (idx >= qs.length) { renderResult(box); return; }
@@ -12764,7 +12777,7 @@
                     // display:none until then so it doesn't pull the word off-centre.
                     // Fixed min-height = the answered layout (word + sub-label), so the
                     // button is the SAME height whether or not the sub-label is shown.
-                    let css = 'width:100%;box-sizing:border-box;min-height:56px;text-align:center;padding:7px 12px;margin-bottom:6px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:19px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
+                    let css = 'width:100%;box-sizing:border-box;min-height:56px;flex-shrink:0;text-align:center;padding:7px 32px;margin-bottom:6px;border:1px solid #d8dbe2;border-radius:10px;background:#fff;font-size:19px;cursor:pointer;color:#222;display:flex;flex-direction:column;align-items:center;justify-content:center';
                     if (answered) {
                         css = css.replace('cursor:pointer', 'cursor:default');
                         if (o.correct) css += ';border-color:#0d9f6e;background:#f1faf5;color:#0d7a55;font-weight:700';
@@ -12773,7 +12786,7 @@
                     }
                     const b = el('button', css + ';position:relative');
                     b.className = 'hq-opt'; b.type = 'button'; b.setAttribute('aria-keyshortcuts', String(i + 1));
-                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#9aa1ad;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : reading(o.code, q.ch, q.ipa)}</div>`;
+                    b.innerHTML = `<span aria-hidden="true" class="hq-key" style="position:absolute;top:6px;inset-inline-start:8px;font-size:11px;font-weight:700;color:#aab1bd;border:1px solid #dde1e7;border-radius:5px;padding:0 5px;line-height:16px">${i + 1}</span><div style="line-height:1.15">${q.fmt === 1 ? '<bdi dir="ltr">' + txt + '</bdi>' : txt}</div><div class="hq-sub" style="font-size:12px;font-weight:400;color:#9aa1ad;line-height:1.2;margin-top:3px;display:${answered ? 'block' : 'none'}">${q.fmt === 1 ? nameOf(o.code) : '<bdi dir="ltr">' + reading(o.code, q.ch, q.ipa) + '</bdi>'}</div>`;
                     if (!answered) b.addEventListener('click', () => answer(i));
                     mid.appendChild(b);
                 });
@@ -12970,7 +12983,7 @@
         else start();
     })();
     </script>
-    <script src="share-button.js?v=3"></script>
-    <script src="lang-picker.js?v=4"></script>
+    <script src="share-button.js?v=4"></script>
+    <script src="lang-picker.js?v=5"></script>
 </body>
 </html>

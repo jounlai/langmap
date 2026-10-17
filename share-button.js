@@ -43,6 +43,7 @@
             { label: 'LINE', color: '#06803b', href: 'https://social-plugins.line.me/lineit/share?url=' + enc(url) + '&text=' + enc(title) }
         ];
         var back = document.createElement('div');
+        back.className = 'wm-overlay';   // the pages' drawer outside-click guards skip it
         back.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100001;display:flex;align-items:center;justify-content:center;padding:20px;font-family:inherit';
         var box = document.createElement('div');
         box.style.cssText = 'background:#fff;border-radius:14px;padding:20px;max-width:340px;width:100%;box-shadow:0 12px 40px rgba(0,0,0,.3)';

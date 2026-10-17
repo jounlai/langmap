@@ -62,7 +62,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=141">
+    <link rel="stylesheet" href="styles.css?v=142">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -334,7 +334,7 @@
         @media (min-width: 641px) { .tm-map-ctl:not(:has(> .chrome-toggle-btn))::before { content: ''; height: 40px; } }
         #tm-era { min-height: 20px; }
 </style>
-    <script src="nav-short.js?v=13"></script>
+    <script src="nav-short.js?v=14"></script>
 </head>
 <body>
     <h1 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">LangMap — Time Map</h1>
@@ -557,9 +557,17 @@
             const below=sel=>{ const el=document.querySelector(sel); const r=el&&el.getClientRects().length&&el.getBoundingClientRect(); return r ? Math.max(0, r.bottom-mapTop)+8 : 0; };
             const top=Math.max(simple ? below('#tm-simple-date') : (mob ? below('#tm-era') : 0), mob ? 16 : 72);
             const left=(!mob && !simple) ? PANEL_WIDTH+16 : 16;
-            const was=pp.options.autoPanPaddingTopLeft;
+            // Right: clear the map controls column (zoom / simple / gear), so the
+            // close button is not under them; and cap the height to what fits.
+            const mapR=document.getElementById('map').getBoundingClientRect();
+            const ctl=document.getElementById('tm-map-ctl'); const cr=ctl&&ctl.getClientRects().length&&ctl.getBoundingClientRect();
+            const right=cr ? Math.max(24, Math.round(mapR.right-cr.left)+8) : 24;
+            const maxH=Math.max(160, Math.round(mapR.height-top-24));
+            const was=pp.options.autoPanPaddingTopLeft, wasR=pp.options.autoPanPaddingBottomRight;
             pp.options.autoPanPaddingTopLeft=L.point(left, top);
-            if(!was || was.x!==left || was.y!==top) pp.update();   // re-pan with the right padding
+            pp.options.autoPanPaddingBottomRight=L.point(right, 24);
+            const hChanged=pp.options.maxHeight!==maxH; pp.options.maxHeight=maxH;
+            if(!was || was.x!==left || was.y!==top || !wasR || wasR.x!==right || hChanged) pp.update();   // re-pan with the right padding
         }
         function drawMarkers(){
             // The marker whose popup is open is kept and updated in place:
@@ -705,16 +713,24 @@
         // Escape closes it and focus goes back to the button.
         function openInfoSheet(){
             document.getElementById('tm-panel').classList.add('info-open');
+            syncSheetInert();
             const db=document.getElementById('tm-details-btn'); db.setAttribute('aria-expanded','true');
             const c=document.getElementById('tm-info-close'); if(c) setTimeout(()=>c.focus(),0);
         }
         function closeInfoSheet(){
             const p=document.getElementById('tm-panel'), was=p.classList.contains('info-open');
             p.classList.remove('info-open');
+            syncSheetInert();
             const db=document.getElementById('tm-details-btn'); db.setAttribute('aria-expanded','false');
             if(was && db.getClientRects().length) db.focus();
         }
-        document.addEventListener('keydown', e=>{ if(e.key==='Escape' && document.getElementById('tm-panel').classList.contains('info-open')){ e.stopImmediatePropagation(); closeInfoSheet(); } }, true);
+        // Only while the sheet is a sheet (mobile): left open across a widen, it is
+        // invisible and must not eat the Escape meant for something else.
+        const SHEET_MQ=window.matchMedia('(max-width: 780px)');
+        document.addEventListener('keydown', e=>{ if(e.key==='Escape' && SHEET_MQ.matches && document.getElementById('tm-panel').classList.contains('info-open')){ e.stopImmediatePropagation(); closeInfoSheet(); } }, true);
+        // A closed sheet is only moved off-screen: keep its 50 rows out of the Tab order.
+        function syncSheetInert(){ const info=document.getElementById('tm-info'); if(info) info.inert = SHEET_MQ.matches && !document.getElementById('tm-panel').classList.contains('info-open'); }
+        SHEET_MQ.addEventListener && SHEET_MQ.addEventListener('change', syncSheetInert);
         function placeChromeToggle(){
             const btn=document.getElementById('chrome-toggle'), ctl=document.getElementById('tm-map-ctl');
             const header=document.querySelector('.site-header-bar'), hamburger=document.querySelector('.hamburger-btn');
@@ -799,6 +815,12 @@
             setBtn.addEventListener('click', e=>{ e.stopPropagation(); const open=pop.hasAttribute('hidden');
                 if(open) pop.removeAttribute('hidden'); else pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded', open?'true':'false'); });
             document.addEventListener('click', e=>{ if(!pop.hasAttribute('hidden') && !pop.contains(e.target) && !setBtn.contains(e.target)){ pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded','false'); } });
+            // Escape closes the popover (one layer: before the sheet's handler).
+            document.addEventListener('keydown', e=>{
+                if(e.key!=='Escape' || pop.hasAttribute('hidden')) return;
+                e.stopImmediatePropagation(); pop.setAttribute('hidden',''); setBtn.setAttribute('aria-expanded','false');
+                if(pop.contains(document.activeElement) || document.activeElement===document.body) setBtn.focus();
+            }, true);
             document.getElementById('tm-font-dec').addEventListener('click', ()=>setFontScale(fontScale-0.1));
             document.getElementById('tm-font-inc').addEventListener('click', ()=>setFontScale(fontScale+0.1));
             placeChromeToggle();
@@ -819,6 +841,7 @@
             });
 
             document.getElementById('tm-simple-date').textContent=dateStr;
+            syncSheetInert();
             applyUILang();   // English (or the fallback) right away…
             ensureLang(uiLang).then(()=>{ applyUILang(); updateHash(); });   // …then the chosen language
             updateHash();
@@ -838,7 +861,7 @@
     })();
     </script>
     <script src="/pwa.js?v=2"></script>
-    <script src="share-button.js?v=3"></script>
-    <script src="lang-picker.js?v=4"></script>
+    <script src="share-button.js?v=4"></script>
+    <script src="lang-picker.js?v=5"></script>
 </body>
 </html>

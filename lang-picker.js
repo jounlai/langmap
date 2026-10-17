@@ -104,13 +104,16 @@
             if (menu.classList.contains('open')) close(); else open();
         });
         document.addEventListener('click', function (e) { if (!wrap.contains(e.target)) close(); });
-        document.addEventListener('keydown', function (e) {
+        // Capture phase, and the key stops here: one Escape closes the menu,
+        // not also the panel underneath it.
+        window.addEventListener('keydown', function (e) {
             if (e.key !== 'Escape' || !menu.classList.contains('open')) return;
+            e.preventDefault(); e.stopImmediatePropagation();
             // Focus was on an item that is about to be hidden: back to the button.
-            var had = menu.contains(document.activeElement);
+            var had = menu.contains(document.activeElement) || document.activeElement === document.body;
             close();
             if (had) btn.focus();
-        });
+        }, true);
         // Keep the shown code in step with programmatic / external language changes.
         sel.addEventListener('change', sync);
         window.addEventListener('langmap:uichange', sync);

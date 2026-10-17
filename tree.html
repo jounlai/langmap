@@ -70,7 +70,7 @@
         gtag('config', 'G-JZ7JJBCCHG');
     }
 </script>
-<link rel="stylesheet" href="styles.css?v=152">
+<link rel="stylesheet" href="styles.css?v=153">
 <!-- Noto Serif Tibetan for native names of Tibetic languages
      (bo / xct / dz / khg / xsr / sik / lbj / bft / xkz / xct_litpr).
      Without this, Tibetan script in .node.leaf .native renders via OS
@@ -287,7 +287,7 @@
 
     /* .back-to-top styles live in styles.css (shared with index.html). */
 </style>
-    <script src="nav-short.js?v=20"></script>
+    <script src="nav-short.js?v=21"></script>
 </head>
 <body>
     <header class="site-header-bar">
@@ -507,6 +507,10 @@ generates lang_names/<ui>.js from lang_names.js. -->
         // <html lang> drives the screen reader's voice; it was frozen at "en"
         // on every UI language (review 461). seo/lib.php already gets this right.
         document.documentElement.lang = String(uiLang || 'en').replace('_', '-');
+        // Direction follows a language switch too (it was set once at load), and
+        // the share button relabels on this event (it built before the select).
+        document.documentElement.dir = /^(ar|he)/.test(String(uiLang || '')) ? 'rtl' : 'ltr';
+        setTimeout(() => window.dispatchEvent(new CustomEvent('langmap:uichange')), 0);
         document.title = t('title') + ' — LangMap';
         const searchEl = document.getElementById('search');
         searchEl.placeholder = t('search');
@@ -582,7 +586,7 @@ generates lang_names/<ui>.js from lang_names.js. -->
     // The tree only reads structured fields (family / parentCode / speakers) +
     // the base META_I18N table — all in wordmap_meta_lite.js (~1.1 MB), so it
     // no longer pulls the 19 MB wordmap_meta.js (descriptions/sources unused).
-    _loadJS('wordmap_meta_lite.js?v=414')
+    _loadJS('wordmap_meta_lite.js?v=415')
         .then(() => loadMetaI18nForUi(uiLang))   // lite defines META_I18N before the per-UI slice fills it
         .then(init)
         .catch(() => { document.getElementById('loading').textContent = 'Failed to load language metadata.'; });

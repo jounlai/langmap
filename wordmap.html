@@ -87,7 +87,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=152">
+    <link rel="stylesheet" href="styles.css?v=153">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts. Without these the characters render
          as tofu boxes: desktop Linux often ships the Noto historic fonts, but
@@ -426,6 +426,9 @@
         /* ≤400px: the map attribution covered the credit line's right end (the
            Tree link, the only link to the family tree here). Lift it above. */
         @media (max-width: 400px) { .leaflet-bottom.leaflet-right { margin-bottom: 30px; } }
+        /* A selected label still shows a real focus ring (outline:none on .selected hid it). */
+        .lang-label.selected:focus-visible { outline: 2px solid #1a73e8; outline-offset: 2px; }
+        body.is-3d .globe-label .period { color: #ff9d8f; }   /* #c0392b was ~2:1 on the globe */
 </style>
     <!-- Khitan Small Script isn't on Google Fonts (Google Fonts returns 400
          for "Noto Serif Khitan Small Script"). Load the Serif variant
@@ -1274,7 +1277,7 @@
         .globe-label.selected:hover .word,
         .globe-label.selected:hover .ipa,
         .globe-label.selected:hover .name {
-            color: #4a6cf7;
+            color: #3557e0;
         }
         .lang-label .word {
             font-size: calc(15px * var(--label-scale)); font-weight: 700; color: #1a1a2e;
@@ -2086,10 +2089,10 @@
             font-size: calc(13px * var(--label-scale)); font-weight: 700; color: #fff; line-height: 1.2;
         }
         .globe-label .ipa {
-            font-size: calc(9px * var(--label-scale)); color: #aab; line-height: 1.2;
+            font-size: calc(9px * var(--label-scale)); color: #bcbccc; line-height: 1.2;
         }
         .globe-label .name {
-            font-size: calc(8px * var(--label-scale)); color: #889; line-height: 1.3;
+            font-size: calc(8px * var(--label-scale)); color: #b0b0c0; line-height: 1.3;
         }
         .globe-label.vertical .word {
             writing-mode: vertical-lr; text-orientation: mixed;
@@ -3036,7 +3039,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=20"></script>
+    <script src="nav-short.js?v=21"></script>
 </head>
 <body>
     <!-- Header -->
@@ -3549,10 +3552,14 @@
             window.addEventListener('resize', positionChromeToggle);
 
             // Click toggles state + persists + refreshes labels.
-            function refreshLabels() {
+            // i18n() lives inside the page script: it is handed in by applyUILang
+            // (typeof i18n here was always undefined, so the label stayed English).
+            let _tr = null;
+            function refreshLabels(tr) {
+                if (typeof tr === 'function') _tr = tr;
                 const hidden = document.body.classList.contains('chrome-hidden');
                 const key = hidden ? 'chromeToggleShow' : 'chromeToggleHide';
-                const label = (typeof i18n === 'function') ? i18n(key) : (hidden ? 'Show UI overlays' : 'Hide UI overlays');
+                const label = _tr ? _tr(key) : (hidden ? 'Show UI overlays' : 'Hide UI overlays');
                 btn.setAttribute('aria-label', label);
                 btn.setAttribute('title', label);
             }
@@ -3634,7 +3641,7 @@
 
     <!-- Credit watermark -->
     <div class="url-watermark">
-        Made by <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;" aria-label="GitHub repository"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a> · <a href="tree.html" id="wm-tree-link" title="Tree" aria-label="Tree" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg></a>
+        Made by <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a> · <a href="tree.html" id="wm-tree-link" title="Tree" aria-label="Tree" style="color:inherit;pointer-events:auto;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px" aria-hidden="true"><circle cx="12" cy="4" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="20" r="2"/><path d="M12 6v2M12 8h-6M12 8h6M6 14v4M18 14v4"/></svg></a>
     </div>
 
     <!-- Language info panel -->
@@ -3733,12 +3740,12 @@
            per-word loader can read it", which was the intent all along — only
            the order was wrong. */
         const WM_ASSET_VERSION = {
-            styles:   152,
+            styles:   153,
             data:      343,
             metaI18n:  16,
             filter:    50,
             names:   203,
-            meta:     414,
+            meta:     415,
             trivia:   44,
             triviaI18n: 27,
             words:      960,
@@ -4427,6 +4434,7 @@
             ariaNameGroup:     { en:'Name display (native / translated)', ja:'言語名表示（現地名/翻訳）', ko:'언어명 표시 (현지/번역)', zh:'语言名显示（本名/翻译）', yue:'語言名顯示（本名／翻譯）', vi:'Hiển thị tên (bản địa / dịch)', th:'การแสดงชื่อ (พื้นเมือง / แปล)', id:'Tampilan nama (asli / diterjemahkan)', hi:'नाम प्रदर्शन (मूल / अनुवादित)', de:'Namensanzeige (nativ / übersetzt)', fr:'Affichage du nom (natif / traduit)', it:'Visualizzazione nome (nativo / tradotto)', es:'Mostrar nombre (nativo / traducido)', pt:'Exibição de nome (nativo / traduzido)', ru:'Отображение названия (родное / перевод)', uk:'Відображення назви (рідна / переклад)', ar:'عرض الاسم (الأصلي / المُترجم)', he:'תצוגת שם (מקורי / מתורגם)', sw:'Onyesho la jina (asili / iliyotafsiriwa)' },
             ariaFontSize:      { en:'Label font size', ja:'ラベル文字サイズ', ko:'라벨 글꼴 크기', zh:'标签字体大小', yue:'標籤字體大小', vi:'Cỡ chữ nhãn', th:'ขนาดอักษรของป้าย', id:'Ukuran huruf label', hi:'लेबल फ़ॉन्ट आकार', de:'Beschriftungs-Schriftgröße', fr:'Taille de police d\'étiquette', it:'Dimensione carattere etichetta', es:'Tamaño de fuente de etiqueta', pt:'Tamanho da fonte do rótulo', ru:'Размер шрифта подписей', uk:'Розмір шрифту підпису', ar:'حجم خط التسمية', he:'גודל גופן תווית', sw:'Saizi ya fonti ya lebo' },
             ariaCloseInfo:     { en:'Close language info', ja:'言語情報を閉じる', ko:'언어 정보 닫기', zh:'关闭语言信息', yue:'關閉語言資訊', vi:'Đóng thông tin ngôn ngữ', th:'ปิดข้อมูลภาษา', id:'Tutup info bahasa', hi:'भाषा जानकारी बंद करें', de:'Sprachinformationen schließen', fr:'Fermer les infos de la langue', it:'Chiudi info lingua', es:'Cerrar info del idioma', pt:'Fechar info do idioma', ru:'Закрыть инфо языка', uk:'Закрити інфо мови', ar:'إغلاق معلومات اللغة', he:'סגור מידע שפה', sw:'Funga taarifa ya lugha' },
+            ariaClose:         { en:'Close', ja:'閉じる', ko:'닫기', zh:'关闭', yue:'關閉', vi:'Đóng', th:'ปิด', id:'Tutup', hi:'बंद करें', de:'Schließen', fr:'Fermer', it:'Chiudi', es:'Cerrar', pt:'Fechar', ru:'Закрыть', uk:'Закрити', ar:'إغلاق', he:'סגור', sw:'Funga' },
             ariaEraGroup:      { en:'Era (modern / historical)', ja:'時代（現代/歴史）', ko:'시대 (현대/역사)', zh:'时代（现代/历史）', yue:'時代（現代／歷史）', vi:'Thời kỳ (hiện đại / lịch sử)', th:'ยุค (สมัยใหม่ / ประวัติศาสตร์)', id:'Era (modern / historis)', hi:'युग (आधुनिक / ऐतिहासिक)', de:'Epoche (modern / historisch)', fr:'Époque (moderne / historique)', it:'Epoca (moderna / storica)', es:'Época (moderna / histórica)', pt:'Era (moderna / histórica)', ru:'Эпоха (современная / историческая)', uk:'Епоха (сучасна / історична)', ar:'الحقبة (حديثة / تاريخية)', he:'תקופה (מודרני / היסטורי)', sw:'Enzi (kisasa / kihistoria)' },
             modernLangTooltip: { en:'modern lang', ja:'現代言語', ko:'현대어', zh:'现代语言', yue:'現代語言', vi:'ngôn ngữ hiện đại', th:'ภาษาสมัยใหม่', id:'bahasa modern', hi:'आधुनिक भाषा', de:'moderne Sprache', fr:'langue moderne', it:'lingua moderna', es:'idioma moderno', pt:'idioma moderno', ru:'современный язык', uk:'сучасна мова', ar:'لغة حديثة', he:'שפה מודרנית', sw:'lugha ya kisasa' },
             historicalLangTooltip: { en:'historical lang', ja:'歴史言語', ko:'역사 언어', zh:'历史语言', yue:'歷史語言', vi:'ngôn ngữ lịch sử', th:'ภาษาประวัติศาสตร์', id:'bahasa historis', hi:'ऐतिहासिक भाषा', de:'historische Sprache', fr:'langue historique', it:'lingua storica', es:'idioma histórico', pt:'idioma histórico', ru:'исторический язык', uk:'історична мова', ar:'لغة تاريخية', he:'שפה היסטורית', sw:'lugha ya kihistoria' },
@@ -4746,6 +4754,7 @@
                 ['name-switch',     'ariaNameGroup',   'aria-label'],
                 ['font-size',       'ariaFontSize',    'aria-label'],
                 ['info-close',      'ariaCloseInfo',   'aria-label'],
+                ['word-modal-close', 'ariaClose',      'aria-label'],
                 ['era-switch',      'ariaEraGroup',    'aria-label'],
                 ['lang-random',     'ariaRandomLang',  'aria-label'],
                 ['lang-random',     'ariaRandomLang',  'title'],
@@ -4848,7 +4857,7 @@
                 renderTriviaArticle(tModal.dataset.articleId);
             }
             if (typeof window.__refreshChromeToggleLabels === 'function') {
-                window.__refreshChromeToggleLabels();
+                window.__refreshChromeToggleLabels(i18n);
             }
         }
         // Expose so the era-label viewport shim (outside the IIFE) can
@@ -5082,6 +5091,7 @@
 
             function open() {
                 lastFocus = document.activeElement;
+                modal.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr';
                 document.getElementById('word-modal-title').textContent = tr(0);
                 render();
                 backdrop.classList.add('visible');
@@ -6082,7 +6092,7 @@
             const ariaParts = [];
             if (showWord && word) ariaParts.push(word);
             if (showIpa) ariaParts.push(ipa ? '/' + ipa + '/' : wt('ipaUnknown'));
-            ariaParts.push(n);
+            ariaParts.push(displayName);   // raw: the join is escaped once below (n is already escaped)
             const ariaLabel = escapeHtml(ariaParts.filter(Boolean).join(' — '));
             const inCompareCls = (window.__compareList || []).indexOf(code) !== -1 ? ' in-compare' : '';
             let html = `<div class="${cssClass}${isVertical ? ' vertical' : ''}${inCompareCls}" data-code="${codeAttr}" role="button" tabindex="0" aria-label="${ariaLabel}">`;
@@ -7607,7 +7617,8 @@
             const mr = document.getElementById('map').getBoundingClientRect();
             document.querySelectorAll('#map .lang-label[role="button"]').forEach((l) => {
                 const r = l.getBoundingClientRect();
-                const inside = r.width && r.right > mr.left && r.left < mr.right && r.bottom > mr.top && r.top < mr.bottom;
+                const cx = r.left + r.width / 2, cy = r.top + r.height / 2;   // centre on screen, not just a sliver
+                const inside = r.width && cx > mr.left && cx < mr.right && cy > mr.top && cy < mr.bottom;
                 const want = inside ? 0 : -1;
                 if (l.tabIndex !== want && l !== document.activeElement) l.tabIndex = want;
             });
@@ -8582,14 +8593,8 @@
             // (was previously absolute top-right or duplicated at bottom).
             (() => {
                 const inCmp = (window.__compareList || []).indexOf(code) !== -1;
-                const cmpI18n = {
-                    en: { add: '+ Add to compare', remove: '✓ In comparison (remove)' },
-                    ja: { add: '+ 比較に追加',     remove: '✓ 比較中（削除）' },
-                    ko: { add: '+ 비교에 추가',    remove: '✓ 비교 중 (제거)' },
-                    zh: { add: '+ 加入对比',       remove: '✓ 对比中（移除）' },
-                };
-                const lObj = cmpI18n[uiLang] || cmpI18n[uiLang.split('_')[0]] || cmpI18n.en;
-                const lbl = inCmp ? lObj.remove : lObj.add;
+                // All 19 languages, from the comparison panel's own table.
+                const lbl = compareT(inCmp ? 'remove' : 'add');
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
@@ -9090,7 +9095,7 @@
                 const href = '/' + ui + '/wordmap/' + escapeHtml(code);
                 html += `<div style="margin-top:12px;padding-top:8px;border-top:1px dotted #ddd">` +
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#3f5fe0;text-decoration:none;font-weight:600">` +
-                    `📄 デカ文字版ページ / Big-text page →</a></div>`;
+                    `📄 ${(({en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'})[ui]) || 'Big-text page'} →</a></div>`;
             })();
             // The second slot, with the next message in the rotation.
             html += nextTshirtNudge();
@@ -9167,6 +9172,7 @@
         }
 
         function showLangInfo(code, opts) {
+            { const _li = document.getElementById('lang-info'); if (_li) _li.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr'; }   // ar/he read right to left
             // This panel needs one language's whole row, not every language's.
             // It used to call withAllWords(), so the first language a reader
             // clicked downloaded all ~55 word files (2.1 MB) to display 55
@@ -9587,8 +9593,14 @@
             // Opened from the keyboard: take focus to the panel (it sat 50-130
             // Tab stops away, behind every other label). Escape brings it back.
             if (ev && ev.type === 'keydown') {
-                const ic = document.getElementById('info-close');
-                if (ic && ic.getClientRects().length) setTimeout(() => ic.focus(), 0);
+                // The first open may wait for the language's word file: poll briefly.
+                let tries = 0;
+                const tryFocus = () => {
+                    const ic = document.getElementById('info-close');
+                    if (ic && ic.getClientRects().length) { ic.focus(); return; }
+                    if (++tries < 30) setTimeout(tryFocus, 100);
+                };
+                setTimeout(tryFocus, 0);
             }
         }
         function isInCompare(code) { return _compareList.indexOf(code) !== -1; }
@@ -9668,6 +9680,7 @@
             }
         }
         function openComparePanel() {
+            { const _cp = document.getElementById('compare-panel'); if (_cp) _cp.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr'; const _x = _cp && _cp.querySelector('.compare-close'); if (_x) _x.setAttribute('aria-label', compareT('title')); }
             if (_compareList.length === 0) return;
             refreshCompareMarkers();
             renderCompare();
@@ -12105,7 +12118,10 @@
         // render() rebuilds the box; keep focus inside it (Next once answered, else
         // the first option) instead of dropping to <body> in an aria-modal dialog.
         function refocus() { const bx = document.getElementById('lm-quiz-box'); if (!bx || bx.contains(document.activeElement)) return; const f = bx.querySelector(answered ? '.wq-next, .wq-close' : '.wq-opt') || bx.querySelector('button') || bx; f.focus(); }
-        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); refocus(); }
+        function answer(i) { if (answered) return; answered = true; chosen = i; if (qs[idx].options[i].correct) score++; render(); refocus();
+            // Announce the verdict from a persistent live node (the rebuilt one is not read).
+            if (modal) { let lv = modal.querySelector('.wq-live'); if (!lv) { lv = document.createElement('div'); lv.className = 'wq-live'; lv.setAttribute('role', 'status'); lv.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)'; modal.appendChild(lv); }
+              const fb = document.querySelector('#lm-quiz-box .wq-fb'); lv.textContent = ''; setTimeout(() => { lv.textContent = fb ? fb.textContent : ''; }, 50); } }
         function next() { if (!answered) return; idx++; answered = false; chosen = -1; render(); refocus(); }
         const KEYS = {"en": "Keys: 1–{n} to answer · Space or Enter for next · Esc to close", "ja": "キー操作：1〜{n}で回答・スペース／エンターで次へ・Escで閉じる", "ko": "키보드: 1~{n}로 답하기 · 스페이스/엔터로 다음 · Esc로 닫기", "zh": "键盘：1–{n} 作答 · 空格或回车下一题 · Esc 关闭", "yue": "鍵盤：1–{n} 答題 · 空白鍵或Enter下一題 · Esc 關閉", "vi": "Phím: 1–{n} để trả lời · Space để tiếp · Esc để đóng", "th": "คีย์: 1–{n} ตอบ · Space ไปต่อ · Esc ปิด", "id": "Tombol: 1–{n} untuk menjawab · Spasi untuk lanjut · Esc untuk menutup", "hi": "कुंजियाँ: 1–{n} उत्तर · Space अगला · Esc बंद", "de": "Tasten: 1–{n} antworten · Leertaste weiter · Esc schließen", "fr": "Touches : 1–{n} pour répondre · Espace pour continuer · Échap pour fermer", "it": "Tasti: 1–{n} per rispondere · Spazio per avanti · Esc per chiudere", "es": "Teclas: 1–{n} para responder · Espacio para seguir · Esc para cerrar", "pt": "Teclas: 1–{n} para responder · Espaço para avançar · Esc para fechar", "ru": "Клавиши: 1–{n} — ответ · Пробел — далее · Esc — закрыть", "uk": "Клавіші: 1–{n} — відповідь · Пробіл — далі · Esc — закрити", "ar": "المفاتيح: 1–{n} للإجابة · المسافة للتالي · Esc للإغلاق", "he": "מקשים: 1–{n} לתשובה · רווח להמשך · Esc לסגירה", "sw": "Vitufe: 1–{n} kujibu · Space kuendelea · Esc kufunga"};
         function startSet() { qs = []; idx = 0; score = 0; answered = false; chosen = -1; for (let i = 0; i < TOTAL; i++) { const q = makeQ(); if (q) qs.push(q); } render(); }
@@ -12264,6 +12280,13 @@
         }
         function open() { buildItems(); const m = menu(); if (m) m.classList.add('open'); const b = btn(); if (b) b.setAttribute('aria-expanded', 'true'); }
         function close() { const m = menu(); if (m) m.classList.remove('open'); const b = btn(); if (b) b.setAttribute('aria-expanded', 'false'); }
+        // Tab out of the menu closes it (it stayed open over the map).
+        document.addEventListener('focusout', (e) => {
+            const m = menu(), b = btn();
+            if (!m || !m.classList.contains('open') || !m.contains(e.target)) return;
+            if (e.relatedTarget && (m.contains(e.relatedTarget) || e.relatedTarget === b)) return;
+            if (e.relatedTarget) close();
+        });
         function toggle() { const m = menu(); if (m && m.classList.contains('open')) close(); else open(); }
         function localize() { const l = document.getElementById('play-menu-label'); if (l) l.textContent = playLabel(); const b = btn(); if (b) b.title = playLabel(); }
         // Keyboard (desktop): P opens the Play menu, 1–9 starts a game, Esc closes.
@@ -12302,6 +12325,10 @@
             document.addEventListener('click', e => { const m = menu(); if (m && m.classList.contains('open') && !m.contains(e.target) && !b.contains(e.target)) close(); });
             document.addEventListener('keydown', e => {
                 const m = menu(); const isOpen = m && m.classList.contains('open');
+                // ArrowDown on the Play button opens the menu at its first item (menu pattern).
+                if (e.key === 'ArrowDown' && document.activeElement === btn()) {
+                    e.preventDefault(); if (!isOpen) open(); setTimeout(() => { const f = menu() && menu().querySelector('.play-menu-item'); if (f) f.focus(); }, 0); return;
+                }
                 if (!isOpen) return;
                 if (e.key === 'Escape') {
                     // Focus was on an item that is about to hide: back to the Play button.
@@ -12325,12 +12352,12 @@
     <!-- "My languages" share-card feature; poster_geo.js supplies the Natural-Earth
          projection its world-map card is drawn with. -->
     <script src="poster_geo.js?v=12"></script>
-    <script src="my-languages.js?v=32"></script>
+    <script src="my-languages.js?v=33"></script>
     <!-- Language Master game (🏅 in the Play menu). master.js is parked as
          text/plain (not fetched at first paint, as hanmap_trivia.js is) and
          injected the first time the game opens. The stub below only labels
          the launcher and loads the module on demand. -->
-    <script type="text/plain" id="master-src" src="master.js?v=17"></script>
+    <script type="text/plain" id="master-src" src="master.js?v=18"></script>
     <script>
     (function () {
         'use strict';

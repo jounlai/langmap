@@ -92,7 +92,7 @@
             gtag('config', 'G-JZ7JJBCCHG');
         }
     </script>
-    <link rel="stylesheet" href="styles.css?v=152">
+    <link rel="stylesheet" href="styles.css?v=153">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <!-- Webfonts for ancient/rare scripts (Tangut, Old Turkic Orkhon, Mongolian,
          Sogdian, Phags-Pa, Khitan Small Script, Manichaean). Without these the
@@ -346,6 +346,8 @@
         /* Desktop: the chrome toggle is moved out of the header by script;
            hidden there until then so the nav does not slide (rally r5). */
         @media (min-width: 641px) { .site-header-bar > .chrome-toggle-btn { display: none; } }
+        /* A selected label still shows a real focus ring (outline:none on .selected hid it). */
+        .lang-label.selected:focus-visible { outline: 2px solid #1a73e8; outline-offset: 2px; }
 </style>
     <!-- Khitan Small Script isn't on Google Fonts (Google Fonts returns 400
          for "Noto Serif Khitan Small Script"). Load the Serif variant
@@ -887,8 +889,7 @@
         }
         /* HAN_VARIANTS label inline on the map (白讀/文讀, 原音/頭音法則, etc.). */
         .hanmap-label {
-            font-size: 0.7em;
-            opacity: 0.6;
+            font-size: 0.7em;   /* (opacity .6 put the 漢音/訓讀 tags at 2.7:1) */
             margin-left: 0.3em;
             font-style: normal;
         }
@@ -1025,7 +1026,7 @@
         .globe-label.selected:hover .word,
         .globe-label.selected:hover .ipa,
         .globe-label.selected:hover .name {
-            color: #4a6cf7;
+            color: #3557e0;
         }
         .lang-label .word {
             font-size: calc(15px * var(--label-scale)); font-weight: 700; color: #1a1a2e;
@@ -2837,7 +2838,7 @@
             } catch (e) { /* localStorage blocked (private-browsing iOS Safari) — silent */ }
         })();
     </script>
-    <script src="nav-short.js?v=20"></script>
+    <script src="nav-short.js?v=21"></script>
 </head>
 <body>
     <!-- Header -->
@@ -3293,10 +3294,14 @@
             window.addEventListener('resize', positionChromeToggle);
 
             // Click toggles state + persists + refreshes labels.
-            function refreshLabels() {
+            // i18n() lives inside the page script: it is handed in by applyUILang
+            // (typeof i18n here was always undefined, so the label stayed English).
+            let _tr = null;
+            function refreshLabels(tr) {
+                if (typeof tr === 'function') _tr = tr;
                 const hidden = document.body.classList.contains('chrome-hidden');
                 const key = hidden ? 'chromeToggleShow' : 'chromeToggleHide';
-                const label = (typeof i18n === 'function') ? i18n(key) : (hidden ? 'Show UI overlays' : 'Hide UI overlays');
+                const label = _tr ? _tr(key) : (hidden ? 'Show UI overlays' : 'Hide UI overlays');
                 btn.setAttribute('aria-label', label);
                 btn.setAttribute('title', label);
             }
@@ -3378,7 +3383,7 @@
 
     <!-- Credit watermark -->
     <div class="url-watermark">
-        Made by <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;" aria-label="GitHub repository"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
+        Made by <a href="https://x.com/jounlai" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Jounlai Cho</a> @<a href="https://heuron.com" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;">Heuron Inc.</a> <a href="https://github.com/jounlai/langmap" target="_blank" rel="noopener" style="color:inherit;pointer-events:auto;"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg> GitHub</a>
     </div>
 
     <!-- Language info panel -->
@@ -5687,7 +5692,7 @@
                 }
             }
             if (typeof window.__refreshChromeToggleLabels === 'function') {
-                window.__refreshChromeToggleLabels();
+                window.__refreshChromeToggleLabels(i18n);
             }
         }
         // Expose so the era-label viewport shim (outside the IIFE) can
@@ -5968,6 +5973,7 @@
                 backdrop.setAttribute('aria-hidden', 'false');
                 // Focus into the picker (the current character), Tab kept inside.
                 _cmReturn = document.activeElement;
+                modal.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr';
                 window.__hmTrapTab && window.__hmTrapTab(modal);
                 const f = modal.querySelector('.char-btn.active') || modal.querySelector('button');
                 if (f) setTimeout(() => f.focus(), 0);
@@ -7253,7 +7259,7 @@
             const codeAttr = escapeHtml(code);
             const n = escapeHtml(displayName);
             // Aria label combines all variants.
-            const ariaParts = [n];
+            const ariaParts = [displayName];   // raw; escaped once when joined
             for (const r of rows) {
                 const part = [r.romanized, r.native, r.label && '(' + r.label + ')'].filter(Boolean).join(' ');   // keep 訓讀 / 文讀 / Kan-on: which reading is which
                 if (showWord && part) ariaParts.push(part);
@@ -8933,7 +8939,8 @@
             const mr = document.getElementById('map').getBoundingClientRect();
             document.querySelectorAll('#map .lang-label[role="button"]').forEach((l) => {
                 const r = l.getBoundingClientRect();
-                const inside = r.width && r.right > mr.left && r.left < mr.right && r.bottom > mr.top && r.top < mr.bottom;
+                const cx = r.left + r.width / 2, cy = r.top + r.height / 2;   // centre on screen, not just a sliver
+                const inside = r.width && cx > mr.left && cx < mr.right && cy > mr.top && cy < mr.bottom;
                 const want = inside ? 0 : -1;
                 if (l.tabIndex !== want && l !== document.activeElement) l.tabIndex = want;
             });
@@ -9671,16 +9678,8 @@
             // continues to work).
             (() => {
                 const inCmp = (window.__compareList || []).indexOf(code) !== -1;
-                const cmpI18n = {
-                    en: { add: '+ Add to compare', remove: '✓ In comparison (remove)' },
-                    ja: { add: '+ 比較に追加',     remove: '✓ 比較中（削除）' },
-                    ko: { add: '+ 비교에 추가',    remove: '✓ 비교 중 (제거)' },
-                    zh: { add: '+ 加入对比',       remove: '✓ 对比中（移除）' },
-                    yue:{ add: '+ 加入對比',       remove: '✓ 對比中（移除）' },
-                    vi: { add: '+ Thêm so sánh',  remove: '✓ Đang so sánh (xóa)' },
-                };
-                const lObj = cmpI18n[uiBase] || cmpI18n.en;
-                const lbl = inCmp ? lObj.remove : lObj.add;
+                // All 19 languages, from the comparison panel's own table.
+                const lbl = compareT(inCmp ? 'remove' : 'add');
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
@@ -9922,7 +9921,7 @@
                 const href = '/' + ui + '/hanmap/' + escapeHtml(code);
                 html += `<div style="margin-top:12px;padding-top:8px;border-top:1px dotted #ddd">` +
                     `<a href="${href}" style="display:inline-block;font-size:12px;color:#3a5ce5;text-decoration:none;font-weight:600">` +
-                    `📄 デカ文字版ページ / Big-text page →</a></div>`;
+                    `📄 ${(({en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'})[ui]) || 'Big-text page'} →</a></div>`;
             })();
 
             const infoContent = document.getElementById('info-content');
@@ -9965,14 +9964,8 @@
             // (was previously absolute top-right or duplicated at bottom).
             (() => {
                 const inCmp = (window.__compareList || []).indexOf(code) !== -1;
-                const cmpI18n = {
-                    en: { add: '+ Add to compare', remove: '✓ In comparison (remove)' },
-                    ja: { add: '+ 比較に追加',     remove: '✓ 比較中（削除）' },
-                    ko: { add: '+ 비교에 추가',    remove: '✓ 비교 중 (제거)' },
-                    zh: { add: '+ 加入对比',       remove: '✓ 对比中（移除）' },
-                };
-                const lObj = cmpI18n[uiLang] || cmpI18n[uiLang.split('_')[0]] || cmpI18n.en;
-                const lbl = inCmp ? lObj.remove : lObj.add;
+                // All 19 languages, from the comparison panel's own table.
+                const lbl = compareT(inCmp ? 'remove' : 'add');
                 const cls = inCmp ? 'compare-add-btn added' : 'compare-add-btn';
                 html += `<button type="button" class="${cls}" data-code="${escapeHtml(code)}" title="${escapeHtml(compareT('hint'))}">${escapeHtml(lbl)}</button>`;
             })();
@@ -10484,6 +10477,7 @@
         }
 
         function showLangInfo(code) {
+            { const _li = document.getElementById('lang-info'); if (_li) _li.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr'; }   // ar/he read right to left
             const lang = LANG_DATA[code];
             if (!lang) return;
             // Audit Task 137: capture the opener BEFORE state changes so we
@@ -10629,7 +10623,7 @@
                         : i18n('historicalLangTooltip');
                     results.innerHTML = top.map((m, idx) => {
                         const native = m.native && m.native !== m.display ? ` <span style="color:#6b6b6b;font-size:11px">${escapeHtml(m.native)}</span>` : '';
-                        const en = m.en !== m.display ? ` <span style="color:#aaa;font-size:11px">(${escapeHtml(m.en)})</span>` : '';
+                        const en = m.en !== m.display ? ` <span style="color:#5f6368;font-size:11px">(${escapeHtml(m.en)})</span>` : '';
                         // Audit Task 115: append disambiguator hint after the row
                         // when present so duplicate-name groups (mn_cn/xng,
                         // omx/mnw) are visually distinguishable in search.
@@ -10642,9 +10636,9 @@
                         const optId = `lang-search-opt-${idx}`;
                         if (m.disabled) {
                             const tooltip = i18n('eraFilterOffHint').replace('{era}', eraLbl);
-                            return `<div id="${optId}" class="lang-search-item disabled" role="option" aria-disabled="true" aria-selected="false" data-code="${escapeHtml(m.code)}" data-disabled="1" title="${escapeHtml(tooltip)}" style="${baseStyle};opacity:0.4;cursor:not-allowed">${escapeHtml(m.display)}${native}${en}${dis} <span style="float:right;color:#bbb;font-size:10px">${escapeHtml(m.code)} · ${escapeHtml(eraLbl)}</span></div>`;
+                            return `<div id="${optId}" class="lang-search-item disabled" role="option" aria-disabled="true" aria-selected="false" data-code="${escapeHtml(m.code)}" data-disabled="1" title="${escapeHtml(tooltip)}" style="${baseStyle};opacity:0.4;cursor:not-allowed">${escapeHtml(m.display)}${native}${en}${dis} <span style="float:right;color:#6b6b6b;font-size:10px">${escapeHtml(m.code)} · ${escapeHtml(eraLbl)}</span></div>`;
                         }
-                        return `<div id="${optId}" class="lang-search-item" role="option" aria-selected="false" data-code="${escapeHtml(m.code)}" style="${baseStyle};cursor:pointer">${escapeHtml(m.display)}${native}${en}${dis} <span style="float:right;color:#bbb;font-size:10px">${escapeHtml(m.code)}</span></div>`;
+                        return `<div id="${optId}" class="lang-search-item" role="option" aria-selected="false" data-code="${escapeHtml(m.code)}" style="${baseStyle};cursor:pointer">${escapeHtml(m.display)}${native}${en}${dis} <span style="float:right;color:#6b6b6b;font-size:10px">${escapeHtml(m.code)}</span></div>`;
                     }).join('');
                     // Modal only opens on explicit option click (see the
                     // 'click' handler on .lang-search-item below) —
@@ -11068,8 +11062,14 @@
             // Opened from the keyboard: take focus to the panel (it sat 50-130
             // Tab stops away, behind every other label). Escape brings it back.
             if (ev && ev.type === 'keydown') {
-                const ic = document.getElementById('info-close');
-                if (ic && ic.getClientRects().length) setTimeout(() => ic.focus(), 0);
+                // The first open may wait for the language's word file: poll briefly.
+                let tries = 0;
+                const tryFocus = () => {
+                    const ic = document.getElementById('info-close');
+                    if (ic && ic.getClientRects().length) { ic.focus(); return; }
+                    if (++tries < 30) setTimeout(tryFocus, 100);
+                };
+                setTimeout(tryFocus, 0);
             }
         }
         function isInCompare(code) { return _compareList.indexOf(code) !== -1; }
@@ -11131,6 +11131,7 @@
             }
         }
         function openComparePanel() {
+            { const _cp = document.getElementById('compare-panel'); if (_cp) _cp.dir = /^(ar|he)/.test(String((typeof uiLang !== 'undefined' && uiLang) || '')) ? 'rtl' : 'ltr'; const _x = _cp && _cp.querySelector('.compare-close'); if (_x) _x.setAttribute('aria-label', compareT('title')); }
             if (_compareList.length === 0) return;
             refreshCompareMarkers();
             renderCompare();
@@ -12984,6 +12985,13 @@
         }
         function open() { buildItems(); const m = menu(); if (m) m.classList.add('open'); const b = btn(); if (b) b.setAttribute('aria-expanded', 'true'); }
         function close() { const m = menu(); if (m) m.classList.remove('open'); const b = btn(); if (b) b.setAttribute('aria-expanded', 'false'); }
+        // Tab out of the menu closes it (it stayed open over the map).
+        document.addEventListener('focusout', (e) => {
+            const m = menu(), b = btn();
+            if (!m || !m.classList.contains('open') || !m.contains(e.target)) return;
+            if (e.relatedTarget && (m.contains(e.relatedTarget) || e.relatedTarget === b)) return;
+            if (e.relatedTarget) close();
+        });
         function toggle() { const m = menu(); if (m && m.classList.contains('open')) close(); else open(); }
         function localize() { const l = document.getElementById('play-menu-label'); if (l) l.textContent = playLabel(); const b = btn(); if (b) b.title = playLabel(); }
         function init() {
@@ -12992,6 +13000,10 @@
             document.addEventListener('click', e => { const m = menu(); if (m && m.classList.contains('open') && !m.contains(e.target) && !b.contains(e.target)) close(); });
             document.addEventListener('keydown', e => {
                 const m = menu(); const isOpen = m && m.classList.contains('open');
+                // ArrowDown on the Play button opens the menu at its first item (menu pattern).
+                if (e.key === 'ArrowDown' && document.activeElement === btn()) {
+                    e.preventDefault(); if (!isOpen) open(); setTimeout(() => { const f = menu() && menu().querySelector('.play-menu-item'); if (f) f.focus(); }, 0); return;
+                }
                 if (!isOpen) return;
                 if (e.key === 'Escape') {
                     // Focus was on an item that is about to hide: back to the Play button.

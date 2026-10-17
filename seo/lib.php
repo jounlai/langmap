@@ -3057,6 +3057,29 @@ function seo_404(string $msg = 'Page not found', string $ui = 'en'): void
 }
 
 /**
+ * lang for a source title on a non-en page: "en" only for a title written
+ * entirely in Latin/IPA that names an English database or reads as English
+ * prose; mixed or foreign-language titles inherit the page language.
+ * (Rally r16; 2,212 of 2,980 titles get en.)
+ */
+function seo_src_lang(string $t, string $ui): string
+{
+    if ($ui === 'en' || $t === '') return '';
+    if (preg_match('/[^\x{0000}-\x{02FF}\x{1E00}-\x{1EFF}\x{2000}-\x{206F}\x{2190}-\x{21FF}]/u', $t)) return '';
+    if (preg_match('/^(?:Ethnologue|Glottolog|Wikipedia|Wiktionary|ASJP|ABVD|UNESCO|Unicode|WOLD|IDS|Lexibank|CLDF|Omniglot|PHOIBLE)\b/u', $t)) return 'en';
+    return preg_match('/(?<!\p{L})(?:the|of|and|dictionary|grammar|language|languages|vocabulary|wordlist|entries|texts?|via|from|with|database|table|row|press|university|edition|version|phonology|morphology|studies|association|lexicon|estimate)(?!\p{L})/iu', $t) ? 'en' : '';
+}
+
+/** Wrap each CJK run of already-escaped text in its own lang (ja / ko / zh). */
+function seo_cjk_lang_runs(string $escaped): string
+{
+    return preg_replace_callback('/[\p{Han}\p{Hiragana}\p{Katakana}\p{Hangul}ー・]+/u', function ($m) {
+        $l = preg_match('/[\p{Hiragana}\p{Katakana}]/u', $m[0]) ? 'ja' : (preg_match('/\p{Hangul}/u', $m[0]) ? 'ko' : 'zh');
+        return '<span lang="' . $l . '">' . $m[0] . '</span>';
+    }, $escaped);
+}
+
+/**
  * Text colour for a word-order segment: the role colour from the data,
  * darkened (same hue) until it reaches 4.5:1 on the anchor-row tint #ecf1f7,
  * the darkest background it sits on. Many role colours were 2-4:1 as text.
@@ -3547,7 +3570,7 @@ details.seo-region, nav.seo-section { content-visibility: visible; contain-intri
 }
 .seo-map-wrap { margin: 1rem 0 2rem; }
 .seo-map { height: 360px; border-radius: .7rem; border: 1px solid var(--line); }
-.seo-sources { font-size: .95rem; padding-inline-start: 1.2rem; }
+.seo-sources { font-size: .95rem; padding-inline-start: 1.2rem; overflow-wrap: anywhere; }   /* long URLs / API paths */
 .seo-sources li { margin: 0 0 .5rem; } /* 24px between adjacent links (target-size) */
 .seo-sources a { color: var(--accent); }
 .seo-index-list { columns: 2 16rem; gap: 2rem; padding: 0; list-style: none; }

@@ -39,6 +39,7 @@ const EDIT_STR = {
     changeSegType:{en:'Change segment type',ja:'セグメントの種類を変更',ko:'구간 종류 변경',zh:'更改片段类型',yue:'更改片段類型',vi:'Đổi loại đoạn',th:'เปลี่ยนชนิดส่วน',id:'Ubah jenis segmen',hi:'खंड का प्रकार बदलें',de:'Segmenttyp ändern',fr:'Changer le type de segment',it:'Cambia tipo di segmento',es:'Cambiar tipo de segmento',pt:'Alterar tipo de segmento',ru:'Изменить тип сегмента',uk:'Змінити тип сегмента',ar:'تغيير نوع المقطع',he:'שינוי סוג מקטע',sw:'Badilisha aina ya sehemu'},
     moveEarlier:  {en:'Move earlier',ja:'前へ移動',ko:'앞으로 이동',zh:'前移',yue:'向前移',vi:'Chuyển lên trước',th:'ย้ายไปก่อน',id:'Pindah ke depan',hi:'पहले ले जाएँ',de:'Nach vorn',fr:'Déplacer avant',it:'Sposta prima',es:'Mover antes',pt:'Mover para antes',ru:'Переместить раньше',uk:'Перемістити раніше',ar:'نقل إلى الأمام',he:'הזזה מוקדם יותר',sw:'Sogeza mbele'},
     moveLater:    {en:'Move later',ja:'後ろへ移動',ko:'뒤로 이동',zh:'后移',yue:'向後移',vi:'Chuyển ra sau',th:'ย้ายไปหลัง',id:'Pindah ke belakang',hi:'बाद में ले जाएँ',de:'Nach hinten',fr:'Déplacer après',it:'Sposta dopo',es:'Mover después',pt:'Mover para depois',ru:'Переместить позже',uk:'Перемістити пізніше',ar:'نقل إلى الخلف',he:'הזזה מאוחר יותר',sw:'Sogeza nyuma'},
+    bigTextPage:  {en:'Big-text page',ja:'デカ文字版ページ',ko:'큰 글씨 페이지',zh:'大字版页面',yue:'大字版頁面',vi:'Trang chữ lớn',th:'หน้าตัวอักษรใหญ่',id:'Halaman teks besar',hi:'बड़े अक्षरों वाला पेज',de:'Großschrift-Seite',fr:'Page en gros caractères',it:'Pagina a caratteri grandi',es:'Página en letra grande',pt:'Página em letra grande',ru:'Страница крупным шрифтом',uk:'Сторінка великим шрифтом',ar:'صفحة بخط كبير',he:'עמוד באותיות גדולות',sw:'Ukurasa wa herufi kubwa'},
     sentenceMap:  {en:'Sentence map',ja:'語順マップ',ko:'어순 맵',zh:'语序图',yue:'語序圖',vi:'Bản đồ trật tự từ',th:'แผนที่ลำดับคำ',id:'Peta urutan kata',hi:'शब्द क्रम मानचित्र',de:'Satzkarte',fr:'Carte de l’ordre des mots',it:'Mappa dell’ordine delle parole',es:'Mapa del orden de palabras',pt:'Mapa da ordem das palavras',ru:'Карта порядка слов',uk:'Карта порядку слів',ar:'خريطة ترتيب الكلمات',he:'מפת סדר מילים',sw:'Ramani ya mpangilio wa maneno'},
 };
 function edT(key) { const m = EDIT_STR[key] || {}; return m[currentUILang] || m[String(currentUILang || '').split('_')[0]] || m.en || key; }
@@ -918,9 +919,9 @@ function createModalToggle(lang) {
     const _seoHref = '/' + _seoUi + '/wordmap/' + _seoCode;
     label.innerHTML = `
         <span class="dot"></span>
-        <input type="checkbox" ${isOn ? 'checked' : ''} data-lang="${lang.code}">
-        <span>${langName(lang.code)}</span>${badge}
-        <a class="lang-seo-link" href="${_seoHref}" title="Big-text page" style="margin-left:6px;display:inline-flex;vertical-align:-2px;text-decoration:none;color:#4a6cf7"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg></a>
+        <input type="checkbox" ${isOn ? 'checked' : ''} data-lang="${lang.code}" aria-labelledby="lmn-${_seoCode}">
+        <span id="lmn-${_seoCode}">${langName(lang.code)}</span>${badge}
+        <a class="lang-seo-link" href="${_seoHref}" title="${edT('bigTextPage')}" aria-label="${edT('bigTextPage')}: ${langName(lang.code)}" style="margin-left:6px;display:inline-flex;vertical-align:-2px;text-decoration:none;color:#4a6cf7"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg></a>
     `;
     // The SEO link must navigate, not toggle the checkbox: stop the click
     // from reaching the label's preventDefault/toggle handler below.
@@ -1537,6 +1538,7 @@ function render() {
         copyBtn.className = 'copy-btn';
         copyBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>';
         copyBtn.title = t('copyText');
+        copyBtn.setAttribute('aria-label', t('copyText') + ' — ' + langName(code));
         copyBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             let text = buildFullText(langData, code);
@@ -1564,6 +1566,7 @@ function render() {
         editBtn.className = 'edit-btn';
         editBtn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.83 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>';
         editBtn.title = t('edit');
+        editBtn.setAttribute('aria-label', t('edit') + ' — ' + langName(code));
         editBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             enterEditMode(row, code);
@@ -2412,7 +2415,9 @@ function createSegmentWrapper(seg, langCode) {
     const moveLeft = document.createElement('button');
     moveLeft.type = 'button';
     moveLeft.className = 'seg-move-btn';
-    moveLeft.textContent = '◀';
+    // In a right-to-left row the earlier segment sits on the right: swap the arrows.
+    const _rtlRow = !!(seg.closest && seg.closest('.rtl-native'));
+    moveLeft.textContent = _rtlRow ? '▶' : '◀';
     moveLeft.setAttribute('aria-label', edT('moveEarlier'));
     moveLeft.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -2425,7 +2430,7 @@ function createSegmentWrapper(seg, langCode) {
     const moveRight = document.createElement('button');
     moveRight.type = 'button';
     moveRight.className = 'seg-move-btn';
-    moveRight.textContent = '▶';
+    moveRight.textContent = _rtlRow ? '◀' : '▶';
     moveRight.setAttribute('aria-label', edT('moveLater'));
     moveRight.addEventListener('click', (e) => {
         e.stopPropagation();

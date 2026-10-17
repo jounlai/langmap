@@ -477,7 +477,7 @@
             '<div class="mylang-panel" role="dialog" aria-modal="true" aria-labelledby="mylang-h">' +
             '<div class="mylang-head"><div class="mylang-head-left">' +
             '<button class="mylang-back" type="button" style="display:none"></button><h2 id="mylang-h"></h2>' +
-            '</div><button class="mylang-x" aria-label="close">×</button></div>' +
+            '</div><button class="mylang-x" aria-label="' + esc(T('close')) + '">×</button></div>' +
             '<div class="mylang-body"></div></div>';
         panelBody = overlay.querySelector('.mylang-body');
         overlay.querySelector('.mylang-x').addEventListener('click', close);

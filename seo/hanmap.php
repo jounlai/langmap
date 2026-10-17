@@ -118,7 +118,7 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     if ($chips): ?>
 <div class="seo-meta">
   <?php foreach ($chips as $k => $v): ?>
-    <span class="chip"><b><?= e($k) ?></b> <?php if ($ui !== 'en' && $k === seo_t($ui, 'romanization')): ?><span lang="en"><?= e($v) ?></span><?php else: ?><?= e($v) ?><?php endif; ?></span>
+    <span class="chip"><b><?= e($k) ?></b> <?php if ($ui !== 'en' && $k === seo_t($ui, 'romanization')): ?><span lang="en"><?= seo_cjk_lang_runs(e($v)) ?></span><?php else: ?><?= e($v) ?><?php endif; ?></span>
   <?php endforeach; ?>
 </div>
 <?php endif; ?>
@@ -233,7 +233,8 @@ function seo_render_hanmap_lang(array $data, string $code, string $ui): void
     <?php foreach ($sources as $s):
         $st = $s['title'] ?? ''; $su = $s['url'] ?? '';
         if ($st === '') continue; ?>
-      <li><?php if ($su): ?><a href="<?= e($su) ?>" rel="nofollow noopener"><?= e($st) ?></a><?php else: ?><?= e($st) ?><?php endif; ?></li>
+      <?php $sl = seo_src_lang($st, $ui); ?>
+      <li<?= $sl !== '' ? ' lang="' . $sl . '"' : '' ?>><?php if ($su): ?><a href="<?= e($su) ?>" rel="nofollow noopener"><?= e($st) ?></a><?php else: ?><?= e($st) ?><?php endif; ?></li>
     <?php endforeach; ?>
   </ul>
 </section>

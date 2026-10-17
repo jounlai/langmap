@@ -241,7 +241,7 @@
     // Something open on top of a drawer (a modal, the share sheet, the quiz)
     // owns Escape: closing the drawer underneath would move focus behind it.
     function overlayOpen() {
-        var els = document.querySelectorAll('[aria-modal="true"], #trivia-modal.visible, .mylang-overlay.open, #lm-langle-box, #lm-quiz-box, .lang-picker-menu.open');
+        var els = document.querySelectorAll('[aria-modal="true"], #trivia-modal.visible, .mylang-overlay.open, #lm-langle-box, #lm-quiz-box, .lang-picker-menu.open, #play-menu.open');
         for (var i = 0; i < els.length; i++) if (els[i].getClientRects().length) return true;
         return false;
     }

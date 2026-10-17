@@ -245,7 +245,8 @@ $goods_photo = '/assets/tshirts/tshirt-' . (crc32($code) % 3) . '.jpg'; ?>
     <?php foreach ($sources as $s):
         $st = $s['title'] ?? ''; $su = $s['url'] ?? '';
         if ($st === '') continue; ?>
-      <li><?php if ($su): ?><a href="<?= e($su) ?>" rel="nofollow noopener"><?= e($st) ?></a><?php else: ?><?= e($st) ?><?php endif; ?></li>
+      <?php $sl = seo_src_lang($st, $ui); ?>
+      <li<?= $sl !== '' ? ' lang="' . $sl . '"' : '' ?>><?php if ($su): ?><a href="<?= e($su) ?>" rel="nofollow noopener"><?= e($st) ?></a><?php else: ?><?= e($st) ?><?php endif; ?></li>
     <?php endforeach; ?>
   </ul>
 </section>
